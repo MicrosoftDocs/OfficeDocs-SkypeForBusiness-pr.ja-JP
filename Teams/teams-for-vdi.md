@@ -3,10 +3,9 @@ title: 仮想デスクトップ インフラストラクチャ用の Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 04/10/2019
 ms.topic: article
 ms.service: msteams
-ms.reviewer: rafarhi
+ms.reviewer: rafarhi, jmorrow
 audience: admin
 description: 仮想化されたデスクトップインフラストラクチャ (VDI) 環境で Microsoft Teams を実行する方法について説明します。
 localization_priority: Normal
@@ -15,233 +14,343 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bdac909139a225d622098df5d7df44516edac7bd
-ms.sourcegitcommit: 74c06b00ff78dc816a59e6c59e9be87181fc0f3e
+ms.openlocfilehash: 4f7c0e0ab004c2146b8b93eb984b19d031cd2bb3
+ms.sourcegitcommit: c6d0da888ceb13f38bae139a1ced428e121e60b5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39669245"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39837586"
 ---
-# <a name="teams-for-virtualized-desktop-infrastructure"></a><span data-ttu-id="7483b-103">仮想デスクトップ インフラストラクチャ用の Teams</span><span class="sxs-lookup"><span data-stu-id="7483b-103">Teams for Virtualized Desktop Infrastructure</span></span>
+# <a name="teams-for-virtualized-desktop-infrastructure"></a><span data-ttu-id="7e012-103">仮想デスクトップ インフラストラクチャ用の Teams</span><span class="sxs-lookup"><span data-stu-id="7e012-103">Teams for Virtualized Desktop Infrastructure</span></span>
 
-<span data-ttu-id="7483b-104">この記事では、仮想化された環境で Microsoft Teams を使用する場合の要件と制限について説明します。</span><span class="sxs-lookup"><span data-stu-id="7483b-104">This article describes the requirements and limitations for using Microsoft Teams in a virtualized environment.</span></span>
+<span data-ttu-id="7e012-104">この記事では、仮想化された環境で Microsoft Teams を使用する場合の要件と制限について説明します。</span><span class="sxs-lookup"><span data-stu-id="7e012-104">This article describes the requirements and limitations for using Microsoft Teams in a virtualized environment.</span></span>
 
-## <a name="what-is-vdi"></a><span data-ttu-id="7483b-105">VDI とは</span><span class="sxs-lookup"><span data-stu-id="7483b-105">What is VDI?</span></span>
+## <a name="what-is-vdi"></a><span data-ttu-id="7e012-105">VDI とは</span><span class="sxs-lookup"><span data-stu-id="7e012-105">What is VDI?</span></span>
 
-<span data-ttu-id="7483b-106">仮想デスクトップインフラストラクチャ (VDI) は、デスクトップオペレーティングシステムと、データセンターの中央サーバー上のアプリケーションをホストする仮想化テクノロジです。</span><span class="sxs-lookup"><span data-stu-id="7483b-106">Virtual Desktop Infrastructure (VDI) is virtualization technology that hosts a desktop operating system and applications on a centralized server in a data center.</span></span> <span data-ttu-id="7483b-107">これにより、完全にセキュリティが設定された一元的な中央集中ソースを持つユーザーに、完全にカスタマイズされたデスクトップエクスペリエンスを提供できます。</span><span class="sxs-lookup"><span data-stu-id="7483b-107">This enables a fully personalized desktop experience to users with a fully secured and compliant centralized source.</span></span>
+<span data-ttu-id="7e012-106">仮想デスクトップインフラストラクチャ (VDI) は、デスクトップオペレーティングシステムと、データセンターの中央サーバー上のアプリケーションをホストする仮想化テクノロジです。</span><span class="sxs-lookup"><span data-stu-id="7e012-106">Virtual Desktop Infrastructure (VDI) is virtualization technology that hosts a desktop operating system and applications on a centralized server in a data center.</span></span> <span data-ttu-id="7e012-107">これにより、完全にセキュリティが設定された一元的な中央集中ソースを持つユーザーに、完全にカスタマイズされたデスクトップエクスペリエンスを提供できます。</span><span class="sxs-lookup"><span data-stu-id="7e012-107">This enables a fully personalized desktop experience to users with a fully secured and compliant centralized source.</span></span>
+ 
+<span data-ttu-id="7e012-108">仮想環境での Microsoft Teams はチャットと共同作業をサポートしており、Citrix プラットフォームでは、通話と会議機能もサポートされています。</span><span class="sxs-lookup"><span data-stu-id="7e012-108">Microsoft Teams in a virtualized environment supports chat and collaboration, and with the Citrix platform, calling and meeting functionality are also supported.</span></span>
 
-<span data-ttu-id="7483b-108">現時点では、仮想化された環境内の Teams は、専用の永続的仮想化マシン (VM) での共同作業とチャット機能のサポートによって提供されています。</span><span class="sxs-lookup"><span data-stu-id="7483b-108">Currently, Teams in a virtualized environment is available with support for collaboration and chat functionality with a dedicated persistent virtualized machine (VM).</span></span> <span data-ttu-id="7483b-109">最適なユーザーエクスペリエンスを実現するには、この記事のガイダンスに従ってください。</span><span class="sxs-lookup"><span data-stu-id="7483b-109">To ensure an optimal user experience, follow the guidance in this article.</span></span>
+<span data-ttu-id="7e012-109">仮想環境の Teams では、複数の構成がサポートされます。</span><span class="sxs-lookup"><span data-stu-id="7e012-109">Teams in a virtualized environment supports multiple configurations.</span></span> <span data-ttu-id="7e012-110">これには、VDI、専用、共有、常設、非永続的モードが含まれます。</span><span class="sxs-lookup"><span data-stu-id="7e012-110">These include VDI, dedicated, shared, persistent and non-persistent modes.</span></span> <span data-ttu-id="7e012-111">機能は継続的な開発中であり、定期的に追加されており、今後数ヶ月にわたって機能が拡張されます。</span><span class="sxs-lookup"><span data-stu-id="7e012-111">Features are in continuous development and are added on a regular basis, and functionality will expand in the coming months and years.</span></span>
+ 
+<span data-ttu-id="7e012-112">仮想環境で Teams を使用する場合は、仮想化されていない環境での Teams の使用とは多少異なる場合があります。</span><span class="sxs-lookup"><span data-stu-id="7e012-112">Using Teams in a virtualized environment may be somewhat different from using Teams in a non-virtualized environment.</span></span> <span data-ttu-id="7e012-113">たとえば、一部の高度な機能は仮想化された環境では使用できず、ビデオ解像度が異なる場合があります。</span><span class="sxs-lookup"><span data-stu-id="7e012-113">For example, some advanced features may not be available in a virtualized environment and video resolution may differ.</span></span> <span data-ttu-id="7e012-114">最適なユーザーエクスペリエンスを実現するには、この記事のガイダンスに従ってください。</span><span class="sxs-lookup"><span data-stu-id="7e012-114">To ensure an optimal user experience, follow the guidance in this article.</span></span>
 
-## <a name="teams-requirements"></a><span data-ttu-id="7483b-110">Teams の要件</span><span class="sxs-lookup"><span data-stu-id="7483b-110">Teams requirements</span></span>
+## <a name="teams-on-vdi-components"></a><span data-ttu-id="7e012-115">VDI コンポーネントの Teams</span><span class="sxs-lookup"><span data-stu-id="7e012-115">Teams on VDI components</span></span>
 
-### <a name="set-policies-to-turn-off-calling-and-meeting-functionality-in-teams"></a><span data-ttu-id="7483b-111">チームの呼び出しと会議の機能を無効にするポリシーを設定する</span><span class="sxs-lookup"><span data-stu-id="7483b-111">Set policies to turn off calling and meeting functionality in Teams</span></span>
+<span data-ttu-id="7e012-116">仮想環境で Teams を使用するには、次のコンポーネントが必要です。</span><span class="sxs-lookup"><span data-stu-id="7e012-116">Using Teams in a virtualized environment requires the following components.</span></span>
 
-<span data-ttu-id="7483b-112">チームの通話と会議のエクスペリエンスは、VDI 環境 (近日公開) に合わせて最適化されていません。</span><span class="sxs-lookup"><span data-stu-id="7483b-112">The Teams calling and meeting experience isn't optimized for a VDI environment (coming soon).</span></span> <span data-ttu-id="7483b-113">チームの呼び出しと会議の機能を無効にするために、ユーザーレベルのポリシーを設定することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="7483b-113">We recommend you set user-level policies to turn off calling and meeting functionality in Teams.</span></span>
+- <span data-ttu-id="7e012-117">**仮想ブローカー**: Azure などの仮想化プロバイダーへのリソースと接続マネージャー</span><span class="sxs-lookup"><span data-stu-id="7e012-117">**Virtualization broker**: The resource and connection manager to the virtualization provider, such as Azure</span></span>
+- <span data-ttu-id="7e012-118">**仮想デスクトップ**: Microsoft Teams を実行する仮想マシン (VM) スタック</span><span class="sxs-lookup"><span data-stu-id="7e012-118">**Virtual desktop**: The Virtual Machine (VM) stack that runs Microsoft Teams</span></span>
+- <span data-ttu-id="7e012-119">**シンクライアント**: ユーザーが物理的にインターフェイスを使用するエンドポイント</span><span class="sxs-lookup"><span data-stu-id="7e012-119">**Thin client**: The endpoint that the user physically interfaces with</span></span>
+- <span data-ttu-id="7e012-120">**Teams デスクトップアプリ**: これは teams デスクトップクライアントアプリです</span><span class="sxs-lookup"><span data-stu-id="7e012-120">**Teams desktop app**: This is the Teams desktop client app</span></span>
 
-<span data-ttu-id="7483b-114">また、Teams デスクトップアプリまたは web アプリのいずれかを使用して、VDI で完全にチームを実行することもできます。</span><span class="sxs-lookup"><span data-stu-id="7483b-114">You can still choose to run Teams fully in VDI using either the Teams desktop app or web app.</span></span> <span data-ttu-id="7483b-115">ただし、ユーザーエクスペリエンスが侵害されないようにポリシーを設定することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="7483b-115">However, we recommend that you set the policies to avoid compromising the user experience.</span></span>
+## <a name="teams-on-vdi-requirements"></a><span data-ttu-id="7e012-121">VDI の要件に関するチーム</span><span class="sxs-lookup"><span data-stu-id="7e012-121">Teams on VDI requirements</span></span>
 
-<span data-ttu-id="7483b-116">ポリシーの変更が反映されるまでには、多少時間がかかることがあります。</span><span class="sxs-lookup"><span data-stu-id="7483b-116">It can take some time (a few hours) for the policy changes to propagate.</span></span> <span data-ttu-id="7483b-117">特定のアカウントの変更がすぐに表示されない場合は、数時間後にもう一度お試しください。</span><span class="sxs-lookup"><span data-stu-id="7483b-117">If you don’t see changes for a given account immediately, try again in a few hours.</span></span>
+### <a name="virtualization-provider-requirements"></a><span data-ttu-id="7e012-122">仮想化プロバイダーの要件</span><span class="sxs-lookup"><span data-stu-id="7e012-122">Virtualization provider requirements</span></span>
 
-> [!NOTE]
-> <span data-ttu-id="7483b-118">仮想デスクトップ環境で使用するためにチームの呼び出しと会議が最適化されている場合は、これらのポリシーを元に戻すことができます。また、ユーザーはチームを通常どおりに使用できるようになります。</span><span class="sxs-lookup"><span data-stu-id="7483b-118">When Teams calling and meetings are optimized for use in virtual desktop environments, you can revert these policies and allow users to use Teams as they normally would.</span></span>
+<span data-ttu-id="7e012-123">Teams デスクトップアプリは、主要な仮想化ソリューションプロバイダーと共に検証されました。</span><span class="sxs-lookup"><span data-stu-id="7e012-123">The Teams desktop app was validated with leading virtualization solution providers.</span></span> <span data-ttu-id="7e012-124">市場プロバイダーが複数ある場合は、最小要件が満たされるように仮想化ソリューションプロバイダーに問い合わせることをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="7e012-124">With multiple market providers, we recommend that you consult your virtualization solution provider to ensure minimum requirements are met.</span></span>
+  
+<span data-ttu-id="7e012-125">現時点では、音声/ビデオ (AV) 最適化による VDI 上の Teams は、Citrix で認定されています。</span><span class="sxs-lookup"><span data-stu-id="7e012-125">Currently, Teams on VDI with audio/video (AV) optimization is certified with Citrix.</span></span> <span data-ttu-id="7e012-126">このセクションの情報を確認して、Citrix と Teams の両方の要件が適切に機能するようになっていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="7e012-126">Review the information in this section to ensure both Citrix and Teams requirements are met for proper functionality.</span></span>
 
-#### <a name="calling"></a><span data-ttu-id="7483b-119">通話</span><span class="sxs-lookup"><span data-stu-id="7483b-119">Calling</span></span>
+### <a name="citrix-virtual-apps-and-desktops-requirements"></a><span data-ttu-id="7e012-127">Citrix の仮想アプリとデスクトップの要件</span><span class="sxs-lookup"><span data-stu-id="7e012-127">Citrix Virtual Apps and Desktops requirements</span></span>
 
-<span data-ttu-id="7483b-120">**Csteamのポリシー**コマンドレットを使用して、ユーザーがプライベートおよびグループチャットでの呼び出しと呼び出しのオプションを使用できるかどうかを制御します。</span><span class="sxs-lookup"><span data-stu-id="7483b-120">Use the **CSTeamsCallingPolicy** cmdlets to control whether users are allowed to use calling and calling options in private and group chats.</span></span> <span data-ttu-id="7483b-121">ポリシー設定と推奨値の一覧を次に示します。</span><span class="sxs-lookup"><span data-stu-id="7483b-121">Here's the list of policy settings and recommended values.</span></span>
+<span data-ttu-id="7e012-128">Citrix の仮想アプリとデスクトップ (以前は XenApp と XenDesktop) は、VDI 上の Teams で AV の最適化を実現します。</span><span class="sxs-lookup"><span data-stu-id="7e012-128">Citrix Virtual Apps and Desktops (formerly known as XenApp and XenDesktop) provides AV optimization for Teams on VDI.</span></span> <span data-ttu-id="7e012-129">Citrix の仮想アプリとデスクトップを使用すると、VDI 上の Teams では、チャットや共同作業に加えて、通話と会議機能がサポートされます。</span><span class="sxs-lookup"><span data-stu-id="7e012-129">With Citrix Virtual Apps and Desktops, Teams on VDI supports calling and meeting functionality in addition to chat and collaboration.</span></span>
 
-|<span data-ttu-id="7483b-122">ポリシー名</span><span class="sxs-lookup"><span data-stu-id="7483b-122">Policy name</span></span>  |<span data-ttu-id="7483b-123">説明</span><span class="sxs-lookup"><span data-stu-id="7483b-123">Description</span></span> |<span data-ttu-id="7483b-124">推奨値</span><span class="sxs-lookup"><span data-stu-id="7483b-124">Recommended value</span></span>  |
+<span data-ttu-id="7e012-130">[このページで](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/)は、Citrix の仮想アプリとデスクトップの最新バージョンをダウンロードできます。</span><span class="sxs-lookup"><span data-stu-id="7e012-130">You can download the latest version of Citrix Virtual Apps and Desktops [here](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/).</span></span> <span data-ttu-id="7e012-131">(最初にサインインする必要があります。)必要なコンポーネントは、既定で[Citrix Workspace アプリ (CWA)](https://www.citrix.com/downloads/workspace-app/)と仮想配信エージェント (VDA) にまとめられています。</span><span class="sxs-lookup"><span data-stu-id="7e012-131">(You'll need to sign in first.) The necessary components are bundled into the [Citrix Workspace app (CWA)](https://www.citrix.com/downloads/workspace-app/) and Virtual Delivery Agent (VDA) by default.</span></span> <span data-ttu-id="7e012-132">CWA または VDA に追加のコンポーネントまたはプラグインをインストールする必要はありません。</span><span class="sxs-lookup"><span data-stu-id="7e012-132">You don't need to install any additional components or plugins on CWA or the VDA.</span></span>
+
+<span data-ttu-id="7e012-133">最新のサーバーとクライアントの要件については、[この Citrix の web サイト](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="7e012-133">For the latest server and client requirements, see [this Citrix website](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).</span></span>
+
+## <a name="install-the-teams-desktop-app-on-vdi"></a><span data-ttu-id="7e012-134">VDI に Teams デスクトップアプリをインストールする</span><span class="sxs-lookup"><span data-stu-id="7e012-134">Install the Teams desktop app on VDI</span></span>
+
+<span data-ttu-id="7e012-135">MSI パッケージを使用してコンピューターごとのインストールまたはユーザーごとのインストールを使用して、VDI 用の Teams デスクトップアプリを展開することができます。</span><span class="sxs-lookup"><span data-stu-id="7e012-135">You can deploy the Teams desktop app for VDI using a per-machine installation or per-user installation using the MSI package.</span></span> <span data-ttu-id="7e012-136">使用する方法を決定するのは、永続的なセットアップと非永続的な設定のどちらを使用するか、または組織に関連する機能のニーズによって異なります。</span><span class="sxs-lookup"><span data-stu-id="7e012-136">Deciding on which approach to use depends on whether you use a persistent or non-persistent setup and the associated functionality needs of your organization.</span></span>
+<span data-ttu-id="7e012-137">専用の永続的なセットアップの場合、どちらのアプローチも機能します。</span><span class="sxs-lookup"><span data-stu-id="7e012-137">For a dedicated persistent setup, either approach would work.</span></span>  <span data-ttu-id="7e012-138">ただし、非永続的なセットアップでは、チームが効率的に作業するために、コンピューターごとにインストールする必要があります。</span><span class="sxs-lookup"><span data-stu-id="7e012-138">However, for a non-persistent setup, per-machine installation is required for Teams to work efficiently.</span></span> <span data-ttu-id="7e012-139">「[非永続的なセットアップ](#non-persistent-setup)」セクションを参照してください。</span><span class="sxs-lookup"><span data-stu-id="7e012-139">See the [Non-persistent setup](#non-persistent-setup) section.</span></span>
+
+<span data-ttu-id="7e012-140">コンピューター単位のインストールでは、自動更新が無効になっています。</span><span class="sxs-lookup"><span data-stu-id="7e012-140">With per-machine installation, automatic updates is disabled.</span></span> <span data-ttu-id="7e012-141">つまり、Teams アプリを更新するには、現在のバージョンをアンインストールして、新しいバージョンに更新する必要があります。</span><span class="sxs-lookup"><span data-stu-id="7e012-141">This means that to update the Teams app, you must uninstall the current version to update to a newer version.</span></span> <span data-ttu-id="7e012-142">ユーザーごとのインストールでは、自動更新が有効になっています。</span><span class="sxs-lookup"><span data-stu-id="7e012-142">With per-user installation, automatic updates is enabled.</span></span> <span data-ttu-id="7e012-143">ほとんどの VDI の展開では、コンピューターごとのインストールを使用してチームを展開することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="7e012-143">For most VDI deployments, we recommend you deploy Teams using per-machine installation.</span></span>
+
+<span data-ttu-id="7e012-144">VDI 環境での Teams の AV 最適化を適切に機能させるには、シンクライアントエンドポイントがインターネットにアクセスできる必要があります。</span><span class="sxs-lookup"><span data-stu-id="7e012-144">For Teams AV optimization in VDI environments to work properly, the thin client endpoint must have access to the internet.</span></span> <span data-ttu-id="7e012-145">インターネットアクセスがシンクライアントエンドポイントで利用できない場合、最適化の起動は成功しません。</span><span class="sxs-lookup"><span data-stu-id="7e012-145">If internet access isn't available at the thin client endpoint, optimization startup won't be successful.</span></span> <span data-ttu-id="7e012-146">これは、ユーザーが最適化されていないメディアの状態であることを意味します。</span><span class="sxs-lookup"><span data-stu-id="7e012-146">This means that the user is in a non-optimized media state.</span></span>
+
+#### <a name="dedicated-persistent-setup"></a><span data-ttu-id="7e012-147">専用の永続的なセットアップ</span><span class="sxs-lookup"><span data-stu-id="7e012-147">Dedicated persistent setup</span></span>
+
+<span data-ttu-id="7e012-148">専用の永続的なセットアップでは、ユーザーのローカルオペレーティングシステムに対する変更は、ユーザーがログオフした後も保持されます。</span><span class="sxs-lookup"><span data-stu-id="7e012-148">In a dedicated persistent setup, users' local operating system changes are retained after users log off.</span></span>  <span data-ttu-id="7e012-149">永続的なセットアップの場合、Teams はユーザーごととコンピューターごとの両方のインストールをサポートします。</span><span class="sxs-lookup"><span data-stu-id="7e012-149">For persistent setup, Teams support both per-user and per-machine installation.</span></span>
+
+<span data-ttu-id="7e012-150">推奨される最小の VM 構成は次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="7e012-150">The following is the recommended minimum VM configuration.</span></span>
+
+|<span data-ttu-id="7e012-151">パラメーター</span><span class="sxs-lookup"><span data-stu-id="7e012-151">Parameter</span></span>  |<span data-ttu-id="7e012-152">ワークステーションオペレーティングシステム</span><span class="sxs-lookup"><span data-stu-id="7e012-152">Workstation operating system</span></span>  |<span data-ttu-id="7e012-153">サーバー操作システム</span><span class="sxs-lookup"><span data-stu-id="7e012-153">Server operation system</span></span>  |
 |---------|---------|---------|
-|<span data-ttu-id="7483b-125">AllowCalling</span><span class="sxs-lookup"><span data-stu-id="7483b-125">AllowCalling</span></span>|<span data-ttu-id="7483b-126">相互運用機能呼び出し機能を制御します。</span><span class="sxs-lookup"><span data-stu-id="7483b-126">Controls interop calling capabilities.</span></span> <span data-ttu-id="7483b-127">この機能を有効にすると、Skype for Business ユーザーは Teams ユーザーと1対1の通話を行うことができます。また、その逆も可能です。</span><span class="sxs-lookup"><span data-stu-id="7483b-127">Turning this on allows Skype for Business users to have one-on-one calls with Teams users and vice versa.</span></span>|<span data-ttu-id="7483b-128">Teams での Skype for Business ユーザーからの通話を防ぐには、False に設定します。</span><span class="sxs-lookup"><span data-stu-id="7483b-128">Set to False to prevent calls from Skype for Business users landing in Teams.</span></span>|
-|<span data-ttu-id="7483b-129">AllowPrivateCalling</span><span class="sxs-lookup"><span data-stu-id="7483b-129">AllowPrivateCalling</span></span>| <span data-ttu-id="7483b-130">チームクライアントの左側のアプリバーで呼び出し元のアプリを使用できるかどうか、およびユーザーがプライベートチャットで通話とビデオ通話のオプションを表示するかどうかを制御します。</span><span class="sxs-lookup"><span data-stu-id="7483b-130">Controls whether the Calling app is available in the app bar on the left side of the Teams client and whether users see Calling and Video call options in private chat.</span></span> |<span data-ttu-id="7483b-131">[いいえ] に設定すると、チームの左側のアプリバーから呼び出し元アプリが削除され、プライベートチャットで通話とビデオ通話のオプションが削除されます。</span><span class="sxs-lookup"><span data-stu-id="7483b-131">Set to False to remove the Calling app from the app bar on the left side of Teams and to remove the Calling and Video call options in private chat.</span></span>|
+|<span data-ttu-id="7e012-154">vCPU</span><span class="sxs-lookup"><span data-stu-id="7e012-154">vCPU</span></span>   |    <span data-ttu-id="7e012-155">2コア</span><span class="sxs-lookup"><span data-stu-id="7e012-155">2 cores</span></span>     |  <span data-ttu-id="7e012-156">4、6、または8</span><span class="sxs-lookup"><span data-stu-id="7e012-156">4,6, or 8</span></span><br><span data-ttu-id="7e012-157">基になる non-uniform memory access (NUMA) 構成を理解し、それに応じて Vm を構成することが重要です。</span><span class="sxs-lookup"><span data-stu-id="7e012-157">It's important to understand the underlying non-uniform memory access (NUMA) configuration and configure your VMs accordingly.</span></span>     |
+|<span data-ttu-id="7e012-158">RAM</span><span class="sxs-lookup"><span data-stu-id="7e012-158">RAM</span></span>     |   <span data-ttu-id="7e012-159">4 GB</span><span class="sxs-lookup"><span data-stu-id="7e012-159">4 GB</span></span>      | <span data-ttu-id="7e012-160">512 ~ 1024 MB (ユーザーあたり)</span><span class="sxs-lookup"><span data-stu-id="7e012-160">512 to 1024 MB per user</span></span>        |
+|<span data-ttu-id="7e012-161">ストレージ</span><span class="sxs-lookup"><span data-stu-id="7e012-161">Storage</span></span>    | <span data-ttu-id="7e012-162">8 GB</span><span class="sxs-lookup"><span data-stu-id="7e012-162">8 GB</span></span>        | <span data-ttu-id="7e012-163">40 ~ 60 GB</span><span class="sxs-lookup"><span data-stu-id="7e012-163">40 to 60 GB</span></span>        |
 
-#### <a name="create-and-assign-a-calling-policy"></a><span data-ttu-id="7483b-132">通話ポリシーを作成して割り当てる</span><span class="sxs-lookup"><span data-stu-id="7483b-132">Create and assign a calling policy</span></span>
+#### <a name="non-persistent-setup"></a><span data-ttu-id="7e012-164">非永続的なセットアップ</span><span class="sxs-lookup"><span data-stu-id="7e012-164">Non-persistent setup</span></span>
 
-1. <span data-ttu-id="7483b-133">管理者として Windows PowerShell セッションを開始します。</span><span class="sxs-lookup"><span data-stu-id="7483b-133">Start a Windows PowerShell session as an administrator.</span></span>
-2. <span data-ttu-id="7483b-134">Skype オンラインコネクタに接続します。</span><span class="sxs-lookup"><span data-stu-id="7483b-134">Connect to the Skype Online Connector.</span></span>
+<span data-ttu-id="7e012-165">非永続的なセットアップでは、ユーザーのローカルオペレーティングシステムによる変更は、ユーザーがログオフした後も保持されません。</span><span class="sxs-lookup"><span data-stu-id="7e012-165">In a non-persistent setup, users' local operating system changes are not retained after users log off.</span></span> <span data-ttu-id="7e012-166">このようなセットアップは、一般的に共有されているマルチユーザーセッションです。</span><span class="sxs-lookup"><span data-stu-id="7e012-166">Such setups are commonly shared multi-user sessions.</span></span> <span data-ttu-id="7e012-167">VM 構成は、ユーザー数と利用可能な物理ボックスリソースによって異なります。</span><span class="sxs-lookup"><span data-stu-id="7e012-167">VM configuration varies based on the number of users and available physical box resources.</span></span>
 
-      ```powershell
-      # Set Office 365 User Name and Password
-      $username = "admin email address"
-      password = ConvertTo-SecureString "password" -AsPlainText -Force
-      $LiveCred = new-object -typename System.Management.Automation.PSCredential -argumentlist $username, $password
-      # Connect to Skype Online
-      Import-Module SkypeOnlineConnector
-      $sfboSession = New-CsOnlineSession -Credential $LiveCred
-      Import-PSSession $sfboSession
-      ```
+<span data-ttu-id="7e012-168">非永続的なセットアップの場合、Teams デスクトップアプリはコンピューターごとにゴールデンイメージにインストールする必要があります。</span><span class="sxs-lookup"><span data-stu-id="7e012-168">For a non-persistent setup, the Teams desktop app must be installed per-machine to the golden image.</span></span> <span data-ttu-id="7e012-169">詳細については、「 [VDI に Teams デスクトップアプリをインストール](#install-the-teams-desktop-app-on-vdi)する」セクションを参照してください。</span><span class="sxs-lookup"><span data-stu-id="7e012-169">(To learn more, see the [Install the Teams desktop app on VDI](#install-the-teams-desktop-app-on-vdi) section).</span></span> <span data-ttu-id="7e012-170">これにより、ユーザーセッション中に Teams アプリを効率的に起動することができます。</span><span class="sxs-lookup"><span data-stu-id="7e012-170">This ensures an efficient launch of the Teams app during a user session.</span></span> <span data-ttu-id="7e012-171">非永続的なセットアップで Teams を使用する場合も、効率的な Teams のランタイムデータ同期のためのプロファイルキャッシュマネージャーが必要です。これにより、適切なユーザー固有の情報 (ユーザーデータ、プロファイル、設定など) がユーザーセッション中にキャッシュされます。</span><span class="sxs-lookup"><span data-stu-id="7e012-171">Using Teams with a non-persistent setup also requires a profile caching manager for efficient Teams runtime data sync. This ensures that the appropriate user-specific information (for example, user data, profile, and settings) are cached during the user session.</span></span>  <span data-ttu-id="7e012-172">さまざまなキャッシュマネージャーソリューションを利用できます。</span><span class="sxs-lookup"><span data-stu-id="7e012-172">There are variety of caching manager solutions available.</span></span> <span data-ttu-id="7e012-173">たとえば、 [Fslogix](https://docs.microsoft.com/fslogix/overview)となります。</span><span class="sxs-lookup"><span data-stu-id="7e012-173">For example, [FSLogix](https://docs.microsoft.com/fslogix/overview).</span></span> <span data-ttu-id="7e012-174">特定の構成手順については、キャッシュマネージャープロバイダーにお問い合わせください。</span><span class="sxs-lookup"><span data-stu-id="7e012-174">Consult your caching manager provider for specific configuration instructions.</span></span>
 
-3. <span data-ttu-id="7483b-135">通話ポリシーのオプションの一覧を表示します。</span><span class="sxs-lookup"><span data-stu-id="7483b-135">View a list of calling policy options.</span></span>
+##### <a name="teams-cached-content-exclusion-list-for-non-persistent-setup"></a><span data-ttu-id="7e012-175">非永続的なセットアップ用の Teams キャッシュされたコンテンツ除外リスト</span><span class="sxs-lookup"><span data-stu-id="7e012-175">Teams cached content exclusion list for non-persistent setup</span></span>
 
-      ```powershell
-      Get-CsTeamsCallingPolicy
-      ```
+<span data-ttu-id="7e012-176">[Teams のキャッシュ] フォルダーから次のものを除外します。% appdata%/チーム/teams</span><span class="sxs-lookup"><span data-stu-id="7e012-176">Exclude the following from the Teams caching folder, %appdata%/Microsoft/Teams.</span></span>  <span data-ttu-id="7e012-177">これらのヘルプを除外すると、ユーザーのキャッシュサイズが小さくなり、非永続的なセットアップがさらに最適化されます。</span><span class="sxs-lookup"><span data-stu-id="7e012-177">Excluding these help reduce the user caching size to further optimize your non-persistent setup.</span></span>
 
-4. <span data-ttu-id="7483b-136">すべての通話ポリシーが無効になっているビルトインポリシーオプションを探します。</span><span class="sxs-lookup"><span data-stu-id="7483b-136">Look for the built-in policy option where all calling policies are disabled.</span></span> <span data-ttu-id="7483b-137">次のように表示されます。</span><span class="sxs-lookup"><span data-stu-id="7483b-137">It looks like this.</span></span>
+- <span data-ttu-id="7e012-178">.txt ファイル</span><span class="sxs-lookup"><span data-stu-id="7e012-178">.txt files</span></span>
+- <span data-ttu-id="7e012-179">メディアスタックフォルダー</span><span class="sxs-lookup"><span data-stu-id="7e012-179">Media-stack folder</span></span>
 
-        Identity                        : Tag:DisallowCalling
-        AllowCalling                    : False
-        AllowPrivateCalling             : False
-        AllowVoicemail                  : False
-        AllowCallGroups                 : False
-        AllowDelegation                 : False
-        AllowUserControl                : False
-        AllowCallForwardingToUser       : False
-        AllowCallForwardingToPhone      : False
-        PreventTollBypass               : False
+### <a name="office-365-proplus-considerations"></a><span data-ttu-id="7e012-180">Office 365 ProPlus の考慮事項</span><span class="sxs-lookup"><span data-stu-id="7e012-180">Office 365 ProPlus considerations</span></span>
 
-5. <span data-ttu-id="7483b-138">仮想化された環境で Teams を使用するすべてのユーザーに、DisallowCalling 組み込みポリシーオプションを適用します。</span><span class="sxs-lookup"><span data-stu-id="7483b-138">Apply the DisallowCalling built-in policy option to all users who will be using Teams in a virtualized environment.</span></span>
+<span data-ttu-id="7e012-181">Office 365 ProPlus で VDI に Teams を展開する場合は、次の点を考慮してください。</span><span class="sxs-lookup"><span data-stu-id="7e012-181">Consider the following when you deploy Teams with Office 365 ProPlus on VDI.</span></span>
 
-      ```powershell
-      Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity "user email id"
-      ```
+#### <a name="new-deployments-of-teams-through-office-365-proplus"></a><span data-ttu-id="7e012-182">Office 365 ProPlus を通じた Teams の新しい展開</span><span class="sxs-lookup"><span data-stu-id="7e012-182">New deployments of Teams through Office 365 ProPlus</span></span>
 
-<span data-ttu-id="7483b-139">Teams の通話ポリシーの詳細については、「 [Set-Csteamのポリシー](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="7483b-139">For more information about Teams calling policies, see [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy).</span></span>
+<span data-ttu-id="7e012-183">Office 365 ProPlus を通じてチームを展開する前に、コンピューターごとのインストールを使用して展開された既存の Teams アプリをアンインストールする必要があります。</span><span class="sxs-lookup"><span data-stu-id="7e012-183">Before you deploy Teams through Office 365 ProPlus, you must first uninstall any pre-existing Teams apps if they were deployed using per-machine installation.</span></span>
 
-#### <a name="meetings"></a><span data-ttu-id="7483b-140">会議</span><span class="sxs-lookup"><span data-stu-id="7483b-140">Meetings</span></span>
+<span data-ttu-id="7e012-184">Office 365 ProPlus を通じた Teams は、ユーザーごとにインストールされます。</span><span class="sxs-lookup"><span data-stu-id="7e012-184">Teams through Office 365 ProPlus is installed per-user.</span></span> <span data-ttu-id="7e012-185">詳細については、「 [VDI に Teams デスクトップアプリをインストール](#install-the-teams-desktop-app-on-vdi)する」セクションを参照してください。</span><span class="sxs-lookup"><span data-stu-id="7e012-185">To learn more, see the [Install the Teams desktop app on VDI](#install-the-teams-desktop-app-on-vdi) section.</span></span>
 
-<span data-ttu-id="7483b-141">**CsTeamsMeetingPolicy**コマンドレットを使用して、ユーザーが作成できる会議の種類、会議中にアクセスできる機能、匿名ユーザーと外部ユーザーが使用できる会議機能を制御します。</span><span class="sxs-lookup"><span data-stu-id="7483b-141">Use the **CsTeamsMeetingPolicy** cmdlets to control the type of meetings that users can create, the features that they can access while in a meeting, and the meeting features that are available to anonymous and external users.</span></span> <span data-ttu-id="7483b-142">ポリシー設定と推奨値の一覧を次に示します。</span><span class="sxs-lookup"><span data-stu-id="7483b-142">Here's the list of policy settings and recommended values.</span></span>
+#### <a name="teams-deployments-through-office-365-proplus-updates"></a><span data-ttu-id="7e012-186">Office 365 ProPlus の更新プログラムを通じた Teams の展開</span><span class="sxs-lookup"><span data-stu-id="7e012-186">Teams deployments through Office 365 ProPlus updates</span></span>
 
-|<span data-ttu-id="7483b-143">ポリシー名</span><span class="sxs-lookup"><span data-stu-id="7483b-143">Policy Name</span></span> |<span data-ttu-id="7483b-144">説明</span><span class="sxs-lookup"><span data-stu-id="7483b-144">Description</span></span>|<span data-ttu-id="7483b-145">推奨値</span><span class="sxs-lookup"><span data-stu-id="7483b-145">Recommended Value</span></span>                   |
-|-------------------|-----------------|-----------------------|
-|<span data-ttu-id="7483b-146">AllowPrivateMeetingScheduling</span><span class="sxs-lookup"><span data-stu-id="7483b-146">AllowPrivateMeetingScheduling</span></span>  | <span data-ttu-id="7483b-147">ユーザーがプライベート会議のスケジュールを許可されているかどうかを決定します。</span><span class="sxs-lookup"><span data-stu-id="7483b-147">Determines whether a user is allowed to schedule private meetings.</span></span>| <span data-ttu-id="7483b-148">ユーザーがプライベート会議をスケジュールできないようにするには、False に設定します。</span><span class="sxs-lookup"><span data-stu-id="7483b-148">Set to False to prohibit the user from being able to schedule private meetings.</span></span> |
-|<span data-ttu-id="7483b-149">Allowchannel会議のスケジュール</span><span class="sxs-lookup"><span data-stu-id="7483b-149">AllowChannelMeetingScheduling</span></span>  | <span data-ttu-id="7483b-150">ユーザーがチャネル会議のスケジュールを許可するかどうかを決定します。</span><span class="sxs-lookup"><span data-stu-id="7483b-150">Determines whether a user is allowed to schedule channel meetings.</span></span> | <span data-ttu-id="7483b-151">ユーザーがチャネル会議のスケジュールを設定できないようにするには、False に設定します。</span><span class="sxs-lookup"><span data-stu-id="7483b-151">Set to False to prohibit the user from being able to schedule channel meetings.</span></span>|
-|<span data-ttu-id="7483b-152">AllowMeetNow</span><span class="sxs-lookup"><span data-stu-id="7483b-152">AllowMeetNow</span></span> |<span data-ttu-id="7483b-153">ユーザーが臨時の会議の作成または開始を許可されているかどうかを決定します。</span><span class="sxs-lookup"><span data-stu-id="7483b-153">Determines whether a user is allowed to create or start ad-hoc meetings.</span></span> | <span data-ttu-id="7483b-154">ユーザーが臨時の会議を開始できないようにするには、False に設定します。</span><span class="sxs-lookup"><span data-stu-id="7483b-154">Set this to False to prohibit the user from being able to start ad-hoc meetings.</span></span> |
-|<span data-ttu-id="7483b-155">ScreenSharingMode</span><span class="sxs-lookup"><span data-stu-id="7483b-155">ScreenSharingMode</span></span> | <span data-ttu-id="7483b-156">通話または会議でユーザーが画面を共有できるモードを決定します。</span><span class="sxs-lookup"><span data-stu-id="7483b-156">Determines the mode in which a user is allowed to share their screen in calls or meetings.</span></span> | <span data-ttu-id="7483b-157">ユーザーが画面を共有することを禁止するには、[無効」に設定します。</span><span class="sxs-lookup"><span data-stu-id="7483b-157">Set to Disabled to prohibit the user from sharing their screens.</span></span> |
-|<span data-ttu-id="7483b-158">AllowIPVideo</span><span class="sxs-lookup"><span data-stu-id="7483b-158">AllowIPVideo</span></span> |<span data-ttu-id="7483b-159">ユーザーの会議または通話でビデオが有効になっているかどうかを確認します。</span><span class="sxs-lookup"><span data-stu-id="7483b-159">Determines whether video is enabled in a user's meetings or calls.</span></span> | <span data-ttu-id="7483b-160">ユーザーがビデオを共有することを禁止するには、False に設定します。</span><span class="sxs-lookup"><span data-stu-id="7483b-160">Set to False to prohibit the user from sharing their video.</span></span> |
-| <span data-ttu-id="7483b-161">AllowAnonymousUsersToDialOut</span><span class="sxs-lookup"><span data-stu-id="7483b-161">AllowAnonymousUsersToDialOut</span></span> | <span data-ttu-id="7483b-162">匿名ユーザーが PSTN 番号へのダイヤルアウトを許可するかどうかを決定します。</span><span class="sxs-lookup"><span data-stu-id="7483b-162">Determines whether anonymous users are allowed to dial out to a PSTN number.</span></span> | <span data-ttu-id="7483b-163">匿名ユーザーによるダイヤルアウトを禁止するには、False に設定します。</span><span class="sxs-lookup"><span data-stu-id="7483b-163">Set to False to prohibit anonymous users from dialing out.</span></span> |
-| <span data-ttu-id="7483b-164">AllowAnonymousUsersToStartMeeting</span><span class="sxs-lookup"><span data-stu-id="7483b-164">AllowAnonymousUsersToStartMeeting</span></span> | <span data-ttu-id="7483b-165">匿名ユーザーが会議を開始できるかどうかを決定します。</span><span class="sxs-lookup"><span data-stu-id="7483b-165">Determines whether anonymous users can start a meeting.</span></span> | <span data-ttu-id="7483b-166">ユーザーが会議を開始することを禁止するには、False に設定します。</span><span class="sxs-lookup"><span data-stu-id="7483b-166">Set to False to prohibit users from starting a meeting.</span></span> |
-| <span data-ttu-id="7483b-167">AllowOutlookAddIn</span><span class="sxs-lookup"><span data-stu-id="7483b-167">AllowOutlookAddIn</span></span> |<span data-ttu-id="7483b-168">ユーザーが Outlook デスクトップクライアントで Teams 会議をスケジュールできるかどうかを決定します。</span><span class="sxs-lookup"><span data-stu-id="7483b-168">Determines whether a user can schedule Teams meetings in the Outlook desktop client.</span></span> | <span data-ttu-id="7483b-169">ユーザーが Outlook デスクトップクライアントで Teams 会議のスケジュールを設定できないようにするには、False に設定します。</span><span class="sxs-lookup"><span data-stu-id="7483b-169">Set to False to prohibit a user from  scheduling Teams meetings in the Outlook desktop client.</span></span> |
-| <span data-ttu-id="7483b-170">AllowParticipantGiveRequestControl</span><span class="sxs-lookup"><span data-stu-id="7483b-170">AllowParticipantGiveRequestControl</span></span>|<span data-ttu-id="7483b-171">参加者が画面共有の制御を要求できるかどうかを決定します。</span><span class="sxs-lookup"><span data-stu-id="7483b-171">Determines whether participants can request or give control of screen sharing.</span></span>| <span data-ttu-id="7483b-172">ユーザーが会議に参加して制御を要求することを禁止するには、False に設定します。</span><span class="sxs-lookup"><span data-stu-id="7483b-172">Set to False to prohibit the user from giving and requesting control in a meeting.</span></span> |
-| <span data-ttu-id="7483b-173">AllowExternalParticipantGiveRequestControl</span><span class="sxs-lookup"><span data-stu-id="7483b-173">AllowExternalParticipantGiveRequestControl</span></span> | <span data-ttu-id="7483b-174">外部の参加者が画面共有を要求できるか、制御するかを指定します。</span><span class="sxs-lookup"><span data-stu-id="7483b-174">Determines whether external participants can request or give control of screen sharing.</span></span> | <span data-ttu-id="7483b-175">外部ユーザーによる会議の制御の要求を禁止するには、False に設定します。</span><span class="sxs-lookup"><span data-stu-id="7483b-175">Set to False to prohibit an external user from giving, requesting control in a meeting.</span></span> |
-| <span data-ttu-id="7483b-176">AllowPowerPointSharing</span><span class="sxs-lookup"><span data-stu-id="7483b-176">AllowPowerPointSharing</span></span> |<span data-ttu-id="7483b-177">ユーザーの会議で PowerPoint での共有が許可されているかどうかを決定します。</span><span class="sxs-lookup"><span data-stu-id="7483b-177">Determines whether PowerPoint sharing is allowed in a user’s meetings.</span></span> |<span data-ttu-id="7483b-178">ユーザーが会議で PowerPoint ファイルを共有することを禁止するには、False に設定します。</span><span class="sxs-lookup"><span data-stu-id="7483b-178">Set to False to prohibit a user from sharing PowerPoint files in a meeting.</span></span> |
-| <span data-ttu-id="7483b-179">AllowWhiteboard</span><span class="sxs-lookup"><span data-stu-id="7483b-179">AllowWhiteboard</span></span> | <span data-ttu-id="7483b-180">ユーザーの会議でホワイトボードが許可されているかどうかを決定します。</span><span class="sxs-lookup"><span data-stu-id="7483b-180">Determines whether whiteboard is allowed in a user’s meetings.</span></span> | <span data-ttu-id="7483b-181">会議のホワイトボードを禁止するには、False に設定します。</span><span class="sxs-lookup"><span data-stu-id="7483b-181">Set to False to prohibit whiteboard in a meeting.</span></span> |
-| <span data-ttu-id="7483b-182">AllowTranscription</span><span class="sxs-lookup"><span data-stu-id="7483b-182">AllowTranscription</span></span> |<span data-ttu-id="7483b-183">ユーザーの会議で、リアルタイムまたはポスト会議のキャプションと表記を許可するかどうかを決定します。</span><span class="sxs-lookup"><span data-stu-id="7483b-183">Determines whether real-time and/or post-meeting captions and transcriptions are allowed in a user's meetings.</span></span> | <span data-ttu-id="7483b-184">会議の議事録とキャプションを禁止するには、False に設定します。</span><span class="sxs-lookup"><span data-stu-id="7483b-184">Set to False to prohibit transcription and captions in a meeting.</span></span> |
-| <span data-ttu-id="7483b-185">AllowSharedNotes</span><span class="sxs-lookup"><span data-stu-id="7483b-185">AllowSharedNotes</span></span> | <span data-ttu-id="7483b-186">ユーザーが共有ノートを取ることを許可されているかどうかを決定します。</span><span class="sxs-lookup"><span data-stu-id="7483b-186">Determines whether users are allowed to take shared notes.</span></span> | <span data-ttu-id="7483b-187">ユーザーが共有ノートを取ることを禁止するには、False に設定します。</span><span class="sxs-lookup"><span data-stu-id="7483b-187">Set to False to prohibit users from taking shared notes.</span></span> |
-| <span data-ttu-id="7483b-188">MediaBitRateKB</span><span class="sxs-lookup"><span data-stu-id="7483b-188">MediaBitRateKB</span></span> |<span data-ttu-id="7483b-189">会議でのオーディオ/ビデオ/アプリ共有転送のメディアビットレートを決定します。</span><span class="sxs-lookup"><span data-stu-id="7483b-189">Determines the media bit rate for audio/video/app sharing transmissions in meetings.</span></span> | <span data-ttu-id="7483b-190">推奨される値は、5000 (5 MB) です。</span><span class="sxs-lookup"><span data-stu-id="7483b-190">Suggested value is 5000 (5 MB).</span></span> <span data-ttu-id="7483b-191">組織のニーズに合わせて変更できます。</span><span class="sxs-lookup"><span data-stu-id="7483b-191">You can change it based on your organization’s needs.</span></span> |
+<span data-ttu-id="7e012-187">Teams は、Office 365 ProPlus の既存のインストールにも追加されています。</span><span class="sxs-lookup"><span data-stu-id="7e012-187">Teams is also being added to existing installations of Office 365 ProPlus.</span></span> <span data-ttu-id="7e012-188">Office 365 ProPlus では、ユーザーごとにチームをインストールするため、「 [VDI に teams デスクトップアプリをインストール](#install-the-teams-desktop-app-on-vdi)する」セクションを参照してください。</span><span class="sxs-lookup"><span data-stu-id="7e012-188">Since Office 365 ProPlus installs Teams per-user only, see the [Install the Teams desktop app on VDI](#install-the-teams-desktop-app-on-vdi) section.</span></span>
 
-#### <a name="create-and-assign-a-meeting-policy"></a><span data-ttu-id="7483b-192">会議のポリシーを作成して割り当てる</span><span class="sxs-lookup"><span data-stu-id="7483b-192">Create and assign a meeting policy</span></span>
+#### <a name="using-teams-with-per-machine-installation-and-office-365-proplus"></a><span data-ttu-id="7e012-189">コンピューターごとのインストールと Office 365 ProPlus で Teams を使用する</span><span class="sxs-lookup"><span data-stu-id="7e012-189">Using Teams with per-machine installation and Office 365 ProPlus</span></span>
 
-1. <span data-ttu-id="7483b-193">管理者として Windows PowerShell セッションを開始します。</span><span class="sxs-lookup"><span data-stu-id="7483b-193">Start a Windows PowerShell session as an administrator.</span></span>
-1. <span data-ttu-id="7483b-194">Skype オンラインコネクタに接続します。</span><span class="sxs-lookup"><span data-stu-id="7483b-194">Connect to the Skype Online Connector.</span></span>
+<span data-ttu-id="7e012-190">Office 365 ProPlus では、各コンピューターの Teams のインストールをサポートしていません。</span><span class="sxs-lookup"><span data-stu-id="7e012-190">Office 365 ProPlus doesn't support per-machine installations of Teams.</span></span> <span data-ttu-id="7e012-191">コンピューターごとのインストールを使用するには、Office 365 ProPlus から Teams を除外する必要があります。</span><span class="sxs-lookup"><span data-stu-id="7e012-191">To use per-machine installation, you must exclude Teams from Office 365 ProPlus.</span></span> <span data-ttu-id="7e012-192">「 [Teams デスクトップアプリを VM に展開](#deploy-the-teams-desktop-app-to-the-vm)する」と「 [Office 365 ProPlus セクションを通じてチームの展開を除外する方法](#how-to-exclude-teams-deployment-through-office-365-proplus)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="7e012-192">See the [Deploy the Teams desktop app to the VM](#deploy-the-teams-desktop-app-to-the-vm) and [How to exclude Teams deployment through Office 365 ProPlus](#how-to-exclude-teams-deployment-through-office-365-proplus) sections.</span></span>
 
-      ```powershell
-      # Set Office 365 User Name and Password
-      $username = "admin email address"
-      password = ConvertTo-SecureString "password" -AsPlainText -Force
-      $LiveCred = new-object -typename System.Management.Automation.PSCredential -argumentlist $username, $password
-      # Connect to Skype Online
-      Import-Module SkypeOnlineConnector
-      $sfboSession = New-CsOnlineSession -Credential $LiveCred
-      Import-PSSession $sfboSession
-      ```
+#### <a name="how-to-exclude-teams-deployment-through-office-365-proplus"></a><span data-ttu-id="7e012-193">Office 365 ProPlus を通じてチームの展開を除外する方法</span><span class="sxs-lookup"><span data-stu-id="7e012-193">How to exclude Teams deployment through Office 365 ProPlus</span></span>
 
-1. <span data-ttu-id="7483b-195">会議のポリシーオプションの一覧を表示する。</span><span class="sxs-lookup"><span data-stu-id="7483b-195">View a list of meeting policy options.</span></span>
+<span data-ttu-id="7e012-194">Teams と Office 365 ProPlus の詳細については、「 [office 365 ProPlus の新しいインストールからチームを除外する](https://docs.microsoft.com/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-office-365-proplus)」および「[グループポリシーを使って teams のインストールを制御](https://docs.microsoft.com/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams)する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="7e012-194">To learn more about Teams and Office 365 ProPlus, see [How to exclude Teams from new installations of Office 365 ProPlus](https://docs.microsoft.com/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-office-365-proplus) and [Use Group Policy to control the installation of Teams](https://docs.microsoft.com/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams).</span></span>
 
-      ```powershell
-      Get-CsTeamsMeetingPolicy
-      ```
+### <a name="deploy-the-teams-desktop-app-to-the-vm"></a><span data-ttu-id="7e012-195">Teams デスクトップアプリを VM に展開する</span><span class="sxs-lookup"><span data-stu-id="7e012-195">Deploy the Teams desktop app to the VM</span></span>
 
-1. <span data-ttu-id="7483b-196">すべての会議ポリシーが無効になっている組み込みのポリシーオプションを探します。</span><span class="sxs-lookup"><span data-stu-id="7483b-196">Look for the built-in policy option where all meeting policies are disabled.</span></span> <span data-ttu-id="7483b-197">次のように表示されます。</span><span class="sxs-lookup"><span data-stu-id="7483b-197">It looks like this.</span></span>
+1. <span data-ttu-id="7e012-196">次のリンクのいずれかを使用して、VDI VM オペレーティングシステムと一致する Teams MSI パッケージをダウンロードします。</span><span class="sxs-lookup"><span data-stu-id="7e012-196">Download the Teams MSI package that matches your VDI VM operating system using one of the following links.</span></span>
 
-        Identity                                    : Tag:AllOff
-        Description                                 :
-        AllowChannelMeetingScheduling               : False
-        AllowMeetNow                                : False
-        AllowIPVideo                                : False
-        AllowAnonymousUsersToDialOut                : False
-        AllowAnonymousUsersToStartMeeting           : False
-        AllowPrivateMeetingScheduling               : False
-        AutoAdmittedUsers                           : False
-        AllowCloudRecording                         : False
-        AllowOutlookAddIn                           : False
-        AllowPowerPointSharing                      : False
-        AllowParticipantGiveRequestControl          : False
-        AllowExternalParticipantGiveRequestControl  : False
-        AllowSharedNotes                            : False
-        AllowWhiteboard                             : False
-        AllowTranscription                          : False
-        MediaBitRateKb                              : False
-        ScreenSharingMode                           : False
+    - [<span data-ttu-id="7e012-197">32ビット版</span><span class="sxs-lookup"><span data-stu-id="7e012-197">32-bit version</span></span>](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true)
+    - [<span data-ttu-id="7e012-198">64ビット版</span><span class="sxs-lookup"><span data-stu-id="7e012-198">64-bit version</span></span>](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true&arch=x64)
 
-1. <span data-ttu-id="7483b-198">仮想化された環境で Teams を使用するすべてのユーザーに、[割り当てる] と [ビルトインポリシー] オプションを適用します。</span><span class="sxs-lookup"><span data-stu-id="7483b-198">Apply the AllOff built-in policy option to all users who will be using Teams in a virtualized environment.</span></span>
+    <span data-ttu-id="7e012-199">必要な Teams デスクトップアプリの最小バージョンはバージョン1.2.00.31357 です。</span><span class="sxs-lookup"><span data-stu-id="7e012-199">The minimum version of the Teams desktop app that's required is version 1.2.00.31357.</span></span>
 
-      ```powershell
-      Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
-      ```
+2. <span data-ttu-id="7e012-200">次のいずれかのコマンドを実行して、MSI を VDI VM にインストールします。</span><span class="sxs-lookup"><span data-stu-id="7e012-200">Install the MSI to the VDI VM by running one of the following commands:</span></span>
 
- <span data-ttu-id="7483b-199">Teams 会議ポリシーの詳細については、「 [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="7483b-199">For more information about Teams meeting policies, see [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).</span></span>
+    - <span data-ttu-id="7e012-201">ユーザーごとのインストール (既定)</span><span class="sxs-lookup"><span data-stu-id="7e012-201">Per-user installation  (default)</span></span>
+  
+        ```
+        msiexec /i <path_to_msi> /l*v <install_logfile_name>
+        ```
+    
+        <span data-ttu-id="7e012-202">これは既定のインストールです。チームは、% AppData% ユーザーフォルダーにインストールされます。</span><span class="sxs-lookup"><span data-stu-id="7e012-202">This is the default installation, which installs Teams to the %AppData% user folder.</span></span> <span data-ttu-id="7e012-203">この時点で、ゴールデンイメージのセットアップが完了しています。</span><span class="sxs-lookup"><span data-stu-id="7e012-203">At this point, the golden image setup is complete.</span></span> <span data-ttu-id="7e012-204">ユーザー単位のインストールでは、非永続的なセットアップでは、チームは適切に動作しません。</span><span class="sxs-lookup"><span data-stu-id="7e012-204">Teams will not work properly with per-user installation on a non-persistent setup.</span></span>
+    
+    - <span data-ttu-id="7e012-205">マシン単位のインストール</span><span class="sxs-lookup"><span data-stu-id="7e012-205">Per-machine installation</span></span>
 
-### <a name="virtualization-provider-requirements"></a><span data-ttu-id="7483b-200">仮想化プロバイダーの要件</span><span class="sxs-lookup"><span data-stu-id="7483b-200">Virtualization provider requirements</span></span>
+        ```
+        msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1
+        ```
 
-<span data-ttu-id="7483b-201">Teams アプリは、主要な仮想化ソリューションプロバイダーで検証されています。</span><span class="sxs-lookup"><span data-stu-id="7483b-201">The Teams app has been validated on leading virtualization solution providers.</span></span> <span data-ttu-id="7483b-202">市場プロバイダーが複数ある場合は、仮想化ソリューションプロバイダーに問い合わせて、最小要件を満たしていることを確認してください。</span><span class="sxs-lookup"><span data-stu-id="7483b-202">With multiple market providers, consult your virtualization solution provider to ensure minimum requirements are met.</span></span>
+        <span data-ttu-id="7e012-206">これにより、チームは64ビットオペレーティングシステムの Program Files (x86) フォルダーと、32ビットオペレーティングシステムの Program Files フォルダーにインストールされます。</span><span class="sxs-lookup"><span data-stu-id="7e012-206">This installs Teams to the Program Files (x86) folder on a 64-bit operating system and to the Program Files folder on a 32-bit operating system.</span></span> <span data-ttu-id="7e012-207">この時点で、ゴールデンイメージのセットアップが完了しています。</span><span class="sxs-lookup"><span data-stu-id="7e012-207">At this point, the golden image setup is complete.</span></span> <span data-ttu-id="7e012-208">非永続的なセットアップでは、コンピューターごとにチームをインストールする必要があります。</span><span class="sxs-lookup"><span data-stu-id="7e012-208">Installing Teams per-machine is required for non-persistent setups.</span></span>
+ 
+        <span data-ttu-id="7e012-209">次の対話型ログオンセッションでは、チームが起動し、資格情報を求められます。</span><span class="sxs-lookup"><span data-stu-id="7e012-209">The next interactive logon session starts Teams and asks for credentials.</span></span>
 
-### <a name="virtual-machine-requirements"></a><span data-ttu-id="7483b-203">仮想マシンの要件</span><span class="sxs-lookup"><span data-stu-id="7483b-203">Virtual Machine requirements</span></span>
+3. <span data-ttu-id="7e012-210">VDI VM から MSI をアンインストールする</span><span class="sxs-lookup"><span data-stu-id="7e012-210">Uninstall the MSI from the VDI VM</span></span> 
 
-> [!NOTE]
-> <span data-ttu-id="7483b-204">次の要件は、Teams デスクトップアプリと Teams Web アプリの両方に適用されます。</span><span class="sxs-lookup"><span data-stu-id="7483b-204">The following requirements apply to both the Teams desktop app and the Teams Web app.</span></span>
-
-<span data-ttu-id="7483b-205">さまざまなワークロードとユーザーニーズが仮想化された環境では、次のような最小の VM 構成が推奨されます。</span><span class="sxs-lookup"><span data-stu-id="7483b-205">With the diverse workloads and user needs in a virtualized environment, the following is the minimum recommended VM configuration.</span></span>
-
-|<span data-ttu-id="7483b-206">パラメーター</span><span class="sxs-lookup"><span data-stu-id="7483b-206">Parameter</span></span> |<span data-ttu-id="7483b-207">指標</span><span class="sxs-lookup"><span data-stu-id="7483b-207">Measure</span></span> |
-|---------|---------|
-|<span data-ttu-id="7483b-208">vCPU</span><span class="sxs-lookup"><span data-stu-id="7483b-208">vCPU</span></span> | <span data-ttu-id="7483b-209">2コア</span><span class="sxs-lookup"><span data-stu-id="7483b-209">2 cores</span></span> |
-|<span data-ttu-id="7483b-210">RAM</span><span class="sxs-lookup"><span data-stu-id="7483b-210">RAM</span></span> | <span data-ttu-id="7483b-211">4 GB</span><span class="sxs-lookup"><span data-stu-id="7483b-211">4 GB</span></span> |
-|<span data-ttu-id="7483b-212">ストレージ</span><span class="sxs-lookup"><span data-stu-id="7483b-212">Storage</span></span> | <span data-ttu-id="7483b-213">8 GB</span><span class="sxs-lookup"><span data-stu-id="7483b-213">8 GB</span></span> |
-
-### <a name="virtual-machine-operating-system-requirements"></a><span data-ttu-id="7483b-214">仮想マシンのオペレーティングシステム要件</span><span class="sxs-lookup"><span data-stu-id="7483b-214">Virtual Machine operating system requirements</span></span>
-
-<span data-ttu-id="7483b-215">VM でサポートされているオペレーティングシステムは次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="7483b-215">The supported operating systems for VM are:</span></span>
-
-- <span data-ttu-id="7483b-216">Windows 10 以降</span><span class="sxs-lookup"><span data-stu-id="7483b-216">Windows 10 and later</span></span>
-- <span data-ttu-id="7483b-217">Windows Server 2012 R2 以降</span><span class="sxs-lookup"><span data-stu-id="7483b-217">Windows Server 2012 R2 and later</span></span>
-
-## <a name="install-teams-on-vdi"></a><span data-ttu-id="7483b-218">VDI に Teams をインストールする</span><span class="sxs-lookup"><span data-stu-id="7483b-218">Install Teams on VDI</span></span>
-
-<span data-ttu-id="7483b-219">Teams デスクトップアプリを展開するためのプロセスとツールを次に示します。</span><span class="sxs-lookup"><span data-stu-id="7483b-219">Here's the process and tools to deploy the Teams desktop app.</span></span>
-
-1. <span data-ttu-id="7483b-220">環境に応じて、次のいずれかのリンクを使用して Teams MSI パッケージをダウンロードします。</span><span class="sxs-lookup"><span data-stu-id="7483b-220">Download the Teams MSI package using one of the following links depending on the environment.</span></span> <span data-ttu-id="7483b-221">64ビットのオペレーティングシステムを搭載した VDI VM の64ビットバージョンをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="7483b-221">We recommend the 64-bit version for a VDI VM with a 64-bit operating system.</span></span>
-
-    - [<span data-ttu-id="7483b-222">32ビット版</span><span class="sxs-lookup"><span data-stu-id="7483b-222">32-bit version</span></span>](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true)
-    - [<span data-ttu-id="7483b-223">64ビット版</span><span class="sxs-lookup"><span data-stu-id="7483b-223">64-bit version</span></span>](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true&arch=x64)
-
-1. <span data-ttu-id="7483b-224">MSI を VDI VM にインストールするには、次のコマンドを実行します (または完全な更新が必要です)。</span><span class="sxs-lookup"><span data-stu-id="7483b-224">Run the following command to install the MSI to the VDI VM (or complete updating it).</span></span>
-
-      ```
-      msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1
-      ```
-
-    <span data-ttu-id="7483b-225">これにより、チームがプログラムファイルにインストールされます。</span><span class="sxs-lookup"><span data-stu-id="7483b-225">This installs Teams to Program Files.</span></span> <span data-ttu-id="7483b-226">この時点で、ゴールデンイメージのセットアップが完了しています。</span><span class="sxs-lookup"><span data-stu-id="7483b-226">At this point, the golden image setup is complete.</span></span>
-
-    <span data-ttu-id="7483b-227">次の対話型ログオンセッションでは、チームが起動し、資格情報を求められます。</span><span class="sxs-lookup"><span data-stu-id="7483b-227">The next interactive logon session starts Teams and asks for credentials.</span></span> <span data-ttu-id="7483b-228">ALLUSER プロパティを使用して VDI に Teams をインストールする場合、Teams の自動起動を無効にすることはできません。</span><span class="sxs-lookup"><span data-stu-id="7483b-228">Note that it's not possible to disable auto-launch of Teams when installing Teams on VDI using the ALLUSER property.</span></span>
-
-1. <span data-ttu-id="7483b-229">次のコマンドを実行して、MSI を VDI VM からアンインストールします (または、更新の準備を行います)。</span><span class="sxs-lookup"><span data-stu-id="7483b-229">Run the following command to uninstall the MSI from the VDI VM (or prepare for updating it).</span></span>
-
+    <span data-ttu-id="7e012-211">Teams をアンインストールするには、2つの方法があります。</span><span class="sxs-lookup"><span data-stu-id="7e012-211">There are two ways to uninstall Teams.</span></span>  
+  
+    - <span data-ttu-id="7e012-212">PowerShell スクリプト (推奨): この[PowerShell スクリプト](scripts/powershell-script-teams-deployment-clean-up.md)を使用して、ターゲットコンピューターまたはユーザーからチームをクリーンアップできます。</span><span class="sxs-lookup"><span data-stu-id="7e012-212">PowerShell script (recommended): You can use this [PowerShell script](scripts/powershell-script-teams-deployment-clean-up.md) to clean up Teams from target machines or users.</span></span> <span data-ttu-id="7e012-213">ターゲットコンピューター上のすべてのユーザーに対して実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="7e012-213">It should be executed for every user on a targeted machine.</span></span> 
+    
+    - <span data-ttu-id="7e012-214">コマンドライン: この方法ではチームが削除されますが、Teams の再インストールはできません。</span><span class="sxs-lookup"><span data-stu-id="7e012-214">Command line: This approach removes Teams, yet prevents re-installation of Teams.</span></span>  
+    <span data-ttu-id="7e012-215">次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="7e012-215">Run the following command:</span></span>
+  
       ```
       msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
       ```
+      <span data-ttu-id="7e012-216">これにより、オペレーティングシステムの環境に応じて、Program Files (x86) フォルダーまたは Program Files フォルダーから Teams がアンインストールされます。</span><span class="sxs-lookup"><span data-stu-id="7e012-216">This uninstalls Teams from the Program Files (x86) folder or Program Files folder, depending on the operating system environment.</span></span>
 
-    <span data-ttu-id="7483b-230">これにより、プログラムファイルから Teams がアンインストールします。</span><span class="sxs-lookup"><span data-stu-id="7483b-230">This uninstalls Teams from Program Files.</span></span>
+## <a name="teams-on-vdi-performance-considerations"></a><span data-ttu-id="7e012-217">VDI のパフォーマンスに関する考慮事項</span><span class="sxs-lookup"><span data-stu-id="7e012-217">Teams on VDI performance considerations</span></span>
 
-## <a name="known-issues-and-limitations"></a><span data-ttu-id="7483b-231">既知の問題と制限事項</span><span class="sxs-lookup"><span data-stu-id="7483b-231">Known issues and limitations</span></span>
+<span data-ttu-id="7e012-218">さまざまな仮想化設定構成があり、それぞれが最適化のために異なるフォーカスが設定されています。</span><span class="sxs-lookup"><span data-stu-id="7e012-218">There are variety of virtualized setup configurations, each with a different focus for optimization.</span></span> <span data-ttu-id="7e012-219">たとえば、ユーザーの密度。</span><span class="sxs-lookup"><span data-stu-id="7e012-219">For example, user density.</span></span> <span data-ttu-id="7e012-220">計画するときは、組織の作業負荷のニーズに合わせて、次の点を考慮してセットアップを最適化します。</span><span class="sxs-lookup"><span data-stu-id="7e012-220">When planning, consider the following to help optimize your setup based on the workload needs of your organization:</span></span>
 
-<span data-ttu-id="7483b-232">次に示すのは、VDI での Teams の既知の問題と制限です。</span><span class="sxs-lookup"><span data-stu-id="7483b-232">The following are known issues and limitations for Teams on VDI.</span></span>
+- <span data-ttu-id="7e012-221">最小要件: 一部のワークロードでは、最小要件を超えるリソースを使用してセットアップを行う必要があります。</span><span class="sxs-lookup"><span data-stu-id="7e012-221">Minimum requirement: Some workloads may require a setup using resources that are above the minimum requirements.</span></span> <span data-ttu-id="7e012-222">たとえば、より多くのコンピューティングリソースを必要とするアプリケーションを使用している開発者向けのワークロード。</span><span class="sxs-lookup"><span data-stu-id="7e012-222">For example, workloads for developers who use applications that demand more computing resources.</span></span>
+- <span data-ttu-id="7e012-223">依存関係: チームデスクトップアプリ以外のインフラストラクチャ、作業負荷、その他の環境配慮への依存関係が含まれます。</span><span class="sxs-lookup"><span data-stu-id="7e012-223">Dependencies: These include dependencies on infrastructure, workload, and other environmental considerations outside the Teams desktop app.</span></span>
+- <span data-ttu-id="7e012-224">VDI で無効になっている機能: Teams では、VDI による負荷の高い機能を無効にします。これにより、一時的な CPU 使用率の向上に役立ちます。</span><span class="sxs-lookup"><span data-stu-id="7e012-224">Disabled features on VDI: Teams disables GPU-intensive features for VDI, which can help improve transient CPU utilization.</span></span> <span data-ttu-id="7e012-225">次の機能は無効になります。</span><span class="sxs-lookup"><span data-stu-id="7e012-225">The following features are disabled:</span></span>
+    - <span data-ttu-id="7e012-226">Teams CSS アニメーション</span><span class="sxs-lookup"><span data-stu-id="7e012-226">Teams CSS animation</span></span>
+    - <span data-ttu-id="7e012-227">Giphy 自動開始</span><span class="sxs-lookup"><span data-stu-id="7e012-227">Giphy auto-start</span></span>
 
-- <span data-ttu-id="7483b-233">**共有セッションホストの種類の展開**: 共有セッションホストの種類の展開 (たとえば、共有の非永続的な VM 構成) はスコープに含まれません。</span><span class="sxs-lookup"><span data-stu-id="7483b-233">**Shared session host type deployments**: Shared session host type deployments (for example, shared non-persistent VM configuration) aren't in scope.</span></span>
-- <span data-ttu-id="7483b-234">**通話と会議**:</span><span class="sxs-lookup"><span data-stu-id="7483b-234">**Calling and meetings**:</span></span>
+## <a name="teams-on-vdi-with-calling-and-meetings"></a><span data-ttu-id="7e012-228">通話と会議を使った VDI 上の Teams</span><span class="sxs-lookup"><span data-stu-id="7e012-228">Teams on VDI with calling and meetings</span></span>
 
-  - <span data-ttu-id="7483b-235">通話と会議のシナリオは VDI 用に最適化されていません。</span><span class="sxs-lookup"><span data-stu-id="7483b-235">Calling and meeting scenarios aren't optimized for VDI.</span></span> <span data-ttu-id="7483b-236">これらのシナリオでは、パフォーマンスが低下します。</span><span class="sxs-lookup"><span data-stu-id="7483b-236">These scenarios will perform poorly.</span></span> <span data-ttu-id="7483b-237">「 [Teams での通話と会議の機能を無効にするポリシーを設定する](#set-policies-to-turn-off-calling-and-meeting-functionality-in-teams)」セクションの説明に従って、ユーザーレベルのポリシーを使用することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="7483b-237">We recommend using user-level policies as described in the [Set policies to turn off calling and meeting functionality in Teams](#set-policies-to-turn-off-calling-and-meeting-functionality-in-teams) section.</span></span>  
-  - <span data-ttu-id="7483b-238">この記事で説明されているポリシーを適用することは、他のポリシーによっては、組織内の他のユーザーに影響を与える可能性がある、通話と会議機能の使用に影響します。</span><span class="sxs-lookup"><span data-stu-id="7483b-238">Applying the policies described in this article impacts the ability to use calling and meeting functionality, which depending on other policies, may affect other users in your organization.</span></span> <span data-ttu-id="7483b-239">組織内のユーザーが非 VDI クライアントを使用している場合は、ポリシーを適用しないことを選ぶことができます。</span><span class="sxs-lookup"><span data-stu-id="7483b-239">If users in your organization use non-VDI clients, you can choose to not apply the policies.</span></span>  
+<span data-ttu-id="7e012-229">チャットと共同作業に加えて、通話と会議のサポートを備えた VDI の Teams は、Citrix ベースのプラットフォームで利用できます。</span><span class="sxs-lookup"><span data-stu-id="7e012-229">In addition to chat and collaboration, Teams on VDI with calling and meeting support is available with Citrix-based platforms.</span></span> <span data-ttu-id="7e012-230">サポートされている機能は、WebRTC メディアスタックと Citrix 固有の実装に基づいています。</span><span class="sxs-lookup"><span data-stu-id="7e012-230">Supported features are based on the WebRTC media stack and Citrix-specific implementation.</span></span> <span data-ttu-id="7e012-231">次の図は、アーキテクチャの概要を示しています。</span><span class="sxs-lookup"><span data-stu-id="7e012-231">The following diagram provides an overview of the architecture.</span></span>
 
-- <span data-ttu-id="7483b-240">**他のユーザーが作成した通話と会議への参加**: ポリシーでは、ユーザーが会議を作成することを制限していますが、他のユーザーが会議からダイヤルアウトした場合でも会議に参加できます。</span><span class="sxs-lookup"><span data-stu-id="7483b-240">**Joining calls and meetings created by other users**: Although the policies restrict users from creating meetings, they can still join meetings if another user dials out to them from the meeting.</span></span> <span data-ttu-id="7483b-241">この会議では、ユーザーのビデオ共有機能、ホワイトボードなどの機能は、TeamsMeetingPolicy を使用してこれらの機能を無効にしたかどうかによって異なります。</span><span class="sxs-lookup"><span data-stu-id="7483b-241">In these meetings, the user's ability to share video, use whiteboard and other features depend on whether you disabled those features using TeamsMeetingPolicy.</span></span>
+![VDI アーキテクチャ上の Teams を示す図](media/teams-on-vdi-architecture.png)
 
-- <span data-ttu-id="7483b-242">**キャッシュ**されたコンテンツ: Teams が実行されている仮想環境が永続的ではなく (各ユーザーセッションの終了時にデータがクリーンアップされる)、ユーザーは以前のセッションで同じコンテンツにアクセスしたかどうかに関係なく、コンテンツの更新によるパフォーマンスの低下が発生する可能性があります。</span><span class="sxs-lookup"><span data-stu-id="7483b-242">**Cached content**: If the virtual environment in which Teams is running isn't persistent (and data is cleaned up at the end of each user session), users may notice performance degradation due to content refresh, regardless of whether the user accessed the same content in a previous session.</span></span>
+<span data-ttu-id="7e012-233">以下の通話および会議機能はサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="7e012-233">These calling and meeting features are not supported:</span></span>
 
-- <span data-ttu-id="7483b-243">**クライアントの更新**: VDI 上の Teams は、コンピューター単位の MSI インストールによって自動的に更新されることはありません。</span><span class="sxs-lookup"><span data-stu-id="7483b-243">**Client updates**: Teams on VDI isn't automatically updated with per-machine MSI installation.</span></span> <span data-ttu-id="7483b-244">「 [VDI 上の Teams をインストール](#install-teams-on-vdi)する」セクションで説明されているように、新しい MSI をインストールして VM イメージを更新する必要があります。</span><span class="sxs-lookup"><span data-stu-id="7483b-244">You have to update the VM image by installing a new MSI as described in the [Install Teams on VDI](#install-teams-on-vdi) section.</span></span> <span data-ttu-id="7483b-245">最新バージョンに更新するには、現在のバージョンをアンインストールする必要があります。</span><span class="sxs-lookup"><span data-stu-id="7483b-245">You must uninstall the current version to update to a newer version.</span></span>
+- <span data-ttu-id="7e012-234">緊急電話サービスの強化</span><span class="sxs-lookup"><span data-stu-id="7e012-234">Enhanced emergency services</span></span>
+- <span data-ttu-id="7e012-235">Teams アプリとデバイス間の HID ボタンと LED コントロール</span><span class="sxs-lookup"><span data-stu-id="7e012-235">HID buttons and LED controls between the Teams app and devices</span></span>
+- <span data-ttu-id="7e012-236">背景のぼかしと効果</span><span class="sxs-lookup"><span data-stu-id="7e012-236">Background blur and effects</span></span>
+- <span data-ttu-id="7e012-237">ブロードキャスト/ライブイベント</span><span class="sxs-lookup"><span data-stu-id="7e012-237">Broadcast/live events</span></span>
+- <span data-ttu-id="7e012-238">位置情報に基づくルーティング (LBR)</span><span class="sxs-lookup"><span data-stu-id="7e012-238">Location-Based Routing (LBR)</span></span>
+- <span data-ttu-id="7e012-239">コール パーク</span><span class="sxs-lookup"><span data-stu-id="7e012-239">Call park</span></span>
+- <span data-ttu-id="7e012-240">通話キュー</span><span class="sxs-lookup"><span data-stu-id="7e012-240">Call queue</span></span>
 
-- <span data-ttu-id="7483b-246">**ユーザーエクスペリエンス**: vdi 環境での Teams ユーザーエクスペリエンスは、非 VDI 環境とは異なる場合があります。</span><span class="sxs-lookup"><span data-stu-id="7483b-246">**User experience**: The Teams user experience in a VDI environment may be different from a non-VDI environment.</span></span> <span data-ttu-id="7483b-247">違いは、ポリシー設定や環境での機能のサポートが原因である可能性があります。</span><span class="sxs-lookup"><span data-stu-id="7483b-247">The differences may be because of policy settings and/or feature support in the environment.</span></span>
+> [!IMPORTANT]
+> <span data-ttu-id="7e012-241">現在、AV を最適化せずに team を VDI で実行していて、最適化のためにまだサポートされていない機能を使用している場合 (アプリの共有時に制御を許可する場合など)、[Teams] ポリシーを設定して Teams のリダイレクションを無効にする必要があります。</span><span class="sxs-lookup"><span data-stu-id="7e012-241">If you currently run Teams without AV optimization in VDI and you use features that are not supported yet for optimization (such as Give and take control when app sharing), you have to set Citrix policies to turn off Teams redirection.</span></span> <span data-ttu-id="7e012-242">これは、Teams メディアセッションが最適化されないことを意味します。</span><span class="sxs-lookup"><span data-stu-id="7e012-242">This means that Teams media sessions won’t be optimized.</span></span> <span data-ttu-id="7e012-243">Teams のリダイレクションを無効にするポリシーを設定する手順については、この[Citrix の web サイト](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/policies/reference/ica-policy-settings/multimedia-policy-settings.html)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="7e012-243">For steps on how to set policies to turn off Teams redirection, see this [Citrix website](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/policies/reference/ica-policy-settings/multimedia-policy-settings.html).</span></span>
 
-<span data-ttu-id="7483b-248">VDI に関連していない Teams の既知の問題については、「 [Microsoft teams の既知の問題](Known-issues.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="7483b-248">For Teams known issues that aren't related to VDI, see [Known issues for Microsoft Teams](Known-issues.md).</span></span>
+<span data-ttu-id="7e012-244">現時点では、VDI 以外の環境でのみ利用可能な通話と会議機能の追加に取り組んでいます。</span><span class="sxs-lookup"><span data-stu-id="7e012-244">We're working on adding calling and meeting features that are currently only available in non-VDI environments.</span></span> <span data-ttu-id="7e012-245">これには、品質、追加の画面共有シナリオ、チームに最近追加された高度な機能など、より多くの管理者の制御が含まれる場合があります。</span><span class="sxs-lookup"><span data-stu-id="7e012-245">These may include more admin control over quality, additional screen sharing scenarios, and advanced features recently added to Teams.</span></span> <span data-ttu-id="7e012-246">今後の機能の詳細については、チームの担当者にお問い合わせください。</span><span class="sxs-lookup"><span data-stu-id="7e012-246">Contact your Teams representative to learn more about upcoming features.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="7483b-249">関連項目</span><span class="sxs-lookup"><span data-stu-id="7483b-249">Related topics</span></span>
+### <a name="network-requirements"></a><span data-ttu-id="7e012-247">ネットワーク要件</span><span class="sxs-lookup"><span data-stu-id="7e012-247">Network requirements</span></span>
 
-- [<span data-ttu-id="7483b-250">MSI を使用して Microsoft Teams をインストールする</span><span class="sxs-lookup"><span data-stu-id="7483b-250">Install Microsoft Teams using MSI</span></span>](msi-deployment.md)
+<span data-ttu-id="7e012-248">クラウドの全体的な音声とビデオの展開に影響を与える可能性のあるリスクと要件を特定するために、環境を評価することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="7e012-248">We recommend that you evaluate your environment to identify any risks and requirements that can influence your overall cloud voice and video deployment.</span></span> <span data-ttu-id="7e012-249">[Skype For Business ネットワーク評価ツール](https://www.microsoft.com/download/details.aspx?id=53885)を使用して、自分のネットワークが Teams に対応しているかどうかをテストします。</span><span class="sxs-lookup"><span data-stu-id="7e012-249">Use the [Skype for Business Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) to test whether your network is ready for Teams.</span></span>
+
+<span data-ttu-id="7e012-250">Teams のネットワークを準備する方法について詳しくは、「 [teams 用に組織のネットワークを準備](prepare-network.md)する」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="7e012-250">To learn more about how to prepare your network for Teams, see [Prepare your organization's network for  Teams](prepare-network.md).</span></span>
+
+### <a name="migrate-from-skype-for-business-on-vdi-to-teams-on-vdi"></a><span data-ttu-id="7e012-251">Vdi での Skype for Business から VDI 上の Teams への移行</span><span class="sxs-lookup"><span data-stu-id="7e012-251">Migrate from Skype for Business on VDI to Teams on VDI</span></span>
+
+<span data-ttu-id="7e012-252">Vdi での Skype for Business から VDI 上の Teams への移行を行っている場合、2つのアプリケーションの違いに加えて、VDI も実装するといくつかの違いがあります。</span><span class="sxs-lookup"><span data-stu-id="7e012-252">If you're migrating from Skype for Business on VDI to Teams on VDI, besides the differences between the two applications, there are some differences when VDI is also implemented.</span></span> <span data-ttu-id="7e012-253">Skype for Business VDI で現在サポートされていない Teams VDI の機能には、次のような機能があります。</span><span class="sxs-lookup"><span data-stu-id="7e012-253">Some capabilities that aren’t currently supported in Teams VDI that are in Skype for Business VDI are as follows:</span></span>
+
+- <span data-ttu-id="7e012-254">メディアのビットレートを制限するためのポリシーを使った VDI 通話エクスペリエンスの制御</span><span class="sxs-lookup"><span data-stu-id="7e012-254">Control of VDI calling experiences with policies for limiting media bitrate</span></span>
+- <span data-ttu-id="7e012-255">VDI の一部の AV 機能を無効にするプラットフォームごとのポリシー</span><span class="sxs-lookup"><span data-stu-id="7e012-255">Per-platform policy to disable some AV features in VDI</span></span>
+- <span data-ttu-id="7e012-256">アプリ共有を行うときの制御</span><span class="sxs-lookup"><span data-stu-id="7e012-256">Give and take control when app sharing</span></span>
+- <span data-ttu-id="7e012-257">音声なしのチャットからの画面共有</span><span class="sxs-lookup"><span data-stu-id="7e012-257">Screen share from chat without audio</span></span>
+- <span data-ttu-id="7e012-258">同時にビデオと画面共有の送受信を行うことができる</span><span class="sxs-lookup"><span data-stu-id="7e012-258">Simultaneous video and screen sharing send and receive</span></span>
+
+### <a name="teams-on-chrome-browser-versus-teams-desktop-app-for-vdi"></a><span data-ttu-id="7e012-259">Chrome ブラウザーと VDI 用 Teams デスクトップアプリのチーム</span><span class="sxs-lookup"><span data-stu-id="7e012-259">Teams on Chrome browser versus Teams desktop app for VDI</span></span>
+
+<span data-ttu-id="7e012-260">Chrome ブラウザーの teams では、AV の最適化を備えた VDI 用の Teams デスクトップアプリに代わる機能は提供されていません。</span><span class="sxs-lookup"><span data-stu-id="7e012-260">Teams on Chrome browser doesn't provide a replacement for the Teams desktop app for VDI with AV optimization.</span></span> <span data-ttu-id="7e012-261">チャットと共同作業のエクスペリエンスは期待どおりに動作します。</span><span class="sxs-lookup"><span data-stu-id="7e012-261">The chat and collaboration experience works as expected.</span></span> <span data-ttu-id="7e012-262">メディアが必要な場合、Chrome ブラウザーでユーザーの期待を満たせない場合があります。</span><span class="sxs-lookup"><span data-stu-id="7e012-262">When media is needed, there are some experiences that may not meet user expectations on the Chrome browser.</span></span>
+
+- <span data-ttu-id="7e012-263">オーディオとビデオのストリーミングのエクスペリエンスが最適でないことがあります。</span><span class="sxs-lookup"><span data-stu-id="7e012-263">The audio and video streaming experience may not be optimal.</span></span> <span data-ttu-id="7e012-264">ユーザーには、遅延または品質の低下が発生する可能性があります。</span><span class="sxs-lookup"><span data-stu-id="7e012-264">Users may experiences delays or reduced quality.</span></span>
+- <span data-ttu-id="7e012-265">[デバイスの設定] は [ブラウザーの設定] では利用できません。</span><span class="sxs-lookup"><span data-stu-id="7e012-265">Device settings aren't available in browser settings.</span></span>
+- <span data-ttu-id="7e012-266">デバイス管理はブラウザーで処理され、ブラウザーの [サイトの設定] では複数の設定が必要です。</span><span class="sxs-lookup"><span data-stu-id="7e012-266">Device management is handled through the browser and requires multiple settings in browser site settings.</span></span>
+- <span data-ttu-id="7e012-267">デバイスの設定は、Windows デバイス管理でも設定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="7e012-267">Device settings may also need to be set in Windows device management.</span></span>
+
+## <a name="teams-on-vdi-with-chat-and-collaboration"></a><span data-ttu-id="7e012-268">チャットと共同作業による VDI on Teams</span><span class="sxs-lookup"><span data-stu-id="7e012-268">Teams on VDI with chat and collaboration</span></span>
+
+<span data-ttu-id="7e012-269">組織で Teams のチャット機能と共同作業機能のみを使用する場合は、ユーザーレベルのポリシーを設定して、Teams の呼び出しと会議の機能を無効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="7e012-269">If your organization wants to only use chat and collaboration features in Teams, you can set user-level policies to turn off calling and meeting functionality in Teams.</span></span> <span data-ttu-id="7e012-270">この機能レベルでは、Citrix 仮想アプリとデスクトップは必要ありません。</span><span class="sxs-lookup"><span data-stu-id="7e012-270">This feature level doesn't require Citrix Virtual Apps and Desktops.</span></span>
+
+### <a name="set-policies-to-turn-off-calling-and-meeting-functionality"></a><span data-ttu-id="7e012-271">通話と会議の機能を無効にするポリシーを設定する</span><span class="sxs-lookup"><span data-stu-id="7e012-271">Set policies to turn off calling and meeting functionality</span></span>
+
+<span data-ttu-id="7e012-272">ポリシーを設定するには、Microsoft Teams 管理センターまたは PowerShell を使用します。</span><span class="sxs-lookup"><span data-stu-id="7e012-272">You can set policies by using the Microsoft Teams admin center or PowerShell.</span></span> <span data-ttu-id="7e012-273">ポリシーの変更が反映されるまでには、多少時間がかかることがあります。</span><span class="sxs-lookup"><span data-stu-id="7e012-273">It can take some time (a few hours) for the policy changes to propagate.</span></span> <span data-ttu-id="7e012-274">特定のアカウントの変更がすぐに表示されない場合は、数時間後にもう一度お試しください。</span><span class="sxs-lookup"><span data-stu-id="7e012-274">If you don’t see changes for a given account immediately, try again in a few hours.</span></span>
+
+<span data-ttu-id="7e012-275">[**通話ポリシー**](teams-calling-policy.md): Teams には組み込みの DisallowCalling 通話ポリシーが含まれており、すべての通話機能がオフになっています。</span><span class="sxs-lookup"><span data-stu-id="7e012-275">[**Calling polices**](teams-calling-policy.md): Teams includes the built-in DisallowCalling calling policy, in which all calling features are turned off.</span></span> <span data-ttu-id="7e012-276">仮想化された環境で Teams を使用する組織内のすべてのユーザーに DisallowCalling ポリシーを割り当てます。</span><span class="sxs-lookup"><span data-stu-id="7e012-276">Assign the DisallowCalling policy to all users in your organization who use Teams in a virtualized environment.</span></span>
+
+<span data-ttu-id="7e012-277">[**会議ポリシー**](meeting-policies-in-teams.md): Teams には、すべての会議機能がオフになっている組み込みの "いいね!" の会議ポリシーが含まれています。</span><span class="sxs-lookup"><span data-stu-id="7e012-277">[**Meeting policies**](meeting-policies-in-teams.md): Teams includes the built-in AllOff meeting policy, in which all meeting features are turned off.</span></span> <span data-ttu-id="7e012-278">仮想化された環境で Teams を使用する組織内のすべてのユーザーに対して、割り当てられた Ff ポリシーを割り当てます。</span><span class="sxs-lookup"><span data-stu-id="7e012-278">Assign the AllOff policy to all users in your organization who use Teams in a virtualized environment.</span></span>
+
+#### <a name="assign-policies-using-the-microsoft-teams-admin-center"></a><span data-ttu-id="7e012-279">Microsoft Teams 管理センターを使用してポリシーを割り当てる</span><span class="sxs-lookup"><span data-stu-id="7e012-279">Assign policies using the Microsoft Teams admin center</span></span>
+
+<span data-ttu-id="7e012-280">DisallowCalling の通話ポリシーと、割り当てられているユーザーに割り当てることができる会議ポリシーを割り当てるには、次の手順を実行します。</span><span class="sxs-lookup"><span data-stu-id="7e012-280">To assign the DisallowCalling calling policy and the AllOff meeting policy to users, follow these steps:</span></span>
+
+1. <span data-ttu-id="7e012-281">Microsoft Teams 管理センターの左のナビゲーションで、[**ユーザー**] に移動します。</span><span class="sxs-lookup"><span data-stu-id="7e012-281">In the left navigation of the Microsoft Teams admin center, go to **Users**.</span></span>
+2. <span data-ttu-id="7e012-282">ユーザー名の左側をクリックしてユーザーを選び、[**設定の編集**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="7e012-282">Select the user by clicking to the left of the user name, and then click **Edit settings**.</span></span>
+3. <span data-ttu-id="7e012-283">次の手順を実行します。</span><span class="sxs-lookup"><span data-stu-id="7e012-283">Do the following:</span></span>
+    1.  <span data-ttu-id="7e012-284">[**通話ポリシー**] で [ **DisallowCalling**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="7e012-284">Under **Calling policy**, click **DisallowCalling**.</span></span>
+    2.  <span data-ttu-id="7e012-285">[**会議のポリシー**] で、[割り当てる]**をクリックし**ます。</span><span class="sxs-lookup"><span data-stu-id="7e012-285">Under **Meeting policy**, click **AllOff**.</span></span>
+4. <span data-ttu-id="7e012-286">[**適用**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="7e012-286">Click **Apply**.</span></span>
+
+<span data-ttu-id="7e012-287">一度に複数のユーザーにポリシーを割り当てるには、「[チームのユーザー設定を一括](edit-user-settings-in-bulk.md)して編集する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="7e012-287">To assign a policy to multiple users at a time, see [Edit Teams user settings in bulk](edit-user-settings-in-bulk.md).</span></span>
+
+<span data-ttu-id="7e012-288">または、次の操作も行うことができます。</span><span class="sxs-lookup"><span data-stu-id="7e012-288">Or, you can also do the following:</span></span>
+
+1. <span data-ttu-id="7e012-289">Microsoft Teams 管理センターの左のナビゲーションで、割り当てるポリシーに移動します。</span><span class="sxs-lookup"><span data-stu-id="7e012-289">In the left navigation of the Microsoft Teams admin center, go to the policy you want to assign.</span></span> <span data-ttu-id="7e012-290">次に例を示します。</span><span class="sxs-lookup"><span data-stu-id="7e012-290">For example:</span></span>
+    - <span data-ttu-id="7e012-291">[**音声** > **通話のポリシー**] に移動し、[ **DisallowCalling**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="7e012-291">Go to **Voice** > **Calling policies**, and then click **DisallowCalling**.</span></span>
+    - <span data-ttu-id="7e012-292">[**会議** > の**ポリシー**] に移動して、[割り当てる**ff**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="7e012-292">Go to **Meetings** > **Meeting policies**, and then click **AllOff**.</span></span>
+3. <span data-ttu-id="7e012-293">[**ユーザーの管理**] を選びます。</span><span class="sxs-lookup"><span data-stu-id="7e012-293">Select **Manage users**.</span></span>
+4. <span data-ttu-id="7e012-294">[**ユーザーの管理**] ウィンドウで、[表示名] または [ユーザー名] でユーザーを検索し、名前を選択して [**追加**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="7e012-294">In the **Manage users** pane, search for the user by display name or by user name, select the name, and then click **Add**.</span></span> <span data-ttu-id="7e012-295">追加するユーザーごとに、この手順を繰り返します。</span><span class="sxs-lookup"><span data-stu-id="7e012-295">Repeat this step for each user that you want to add.</span></span>
+5. <span data-ttu-id="7e012-296">ユーザーの追加が完了したら、[**保存**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="7e012-296">When you're finished adding users, click **Save**.</span></span>
+
+#### <a name="assign-policies-using-powershell"></a><span data-ttu-id="7e012-297">PowerShell を使用してポリシーを割り当てる</span><span class="sxs-lookup"><span data-stu-id="7e012-297">Assign policies using PowerShell</span></span>
+
+<span data-ttu-id="7e012-298">次の例は、 [Grant-CsteamDisallowCalling のポリシー](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy)を使って、ユーザーにの呼び出しポリシーを割り当てる方法を示しています。</span><span class="sxs-lookup"><span data-stu-id="7e012-298">The following example shows how to use the [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy) to assign the DisallowCalling calling policy to a user.</span></span>
+
+```
+Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity “user email id”
+```
+
+<span data-ttu-id="7e012-299">PowerShell を使用して通話ポリシーを管理する方法の詳細については、「 [Set-Csteam拡張性のポリシー](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="7e012-299">To learn more about using PowerShell to manage calling policies, see [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy).</span></span>
+
+<span data-ttu-id="7e012-300">次の例は、CsTeamsMeetingPolicy を使用して、[グラント](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy)ff 会議ポリシーをユーザーに割り当てる方法を示しています。</span><span class="sxs-lookup"><span data-stu-id="7e012-300">The following example shows how to use the [Grant-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) to assign the AllOff meeting policy to a user.</span></span>
+
+```
+Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity “user email id”
+```
+
+<span data-ttu-id="7e012-301">PowerShell を使用して会議のポリシーを管理する方法の詳細については、「 [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="7e012-301">To learn more about using PowerShell to manage meeting policies, see [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).</span></span>
+
+## <a name="migrate-teams-on-vdi-with-chat-and-collaboration-to-citrix-with-calling-and-meetings"></a><span data-ttu-id="7e012-302">通話と会議を使って、VDI 上のチームをチャットとコラボレーションで Citrix に移行する</span><span class="sxs-lookup"><span data-stu-id="7e012-302">Migrate Teams on VDI with chat and collaboration to Citrix with calling and meetings</span></span>
+
+<span data-ttu-id="7e012-303">ユーザーレベルのポリシーを設定して、通話と会議機能を無効にしている場合に、チャットと共同作業を行っている VDI 上の Teams の既存の実装がある場合、AV 最適化を有効にして Citrix に移行するには、ポリシーを設定する必要があります。VDI ユーザー向けのチームの会議機能。</span><span class="sxs-lookup"><span data-stu-id="7e012-303">If you have an existing implementation of Teams on VDI with chat and collaboration in which you had set user-level policies to turn off calling and meeting functionality, and you're migrating to Citrix with AV optimization, you must set policies to turn on calling and meeting functionality for those Teams on VDI users.</span></span>
+
+### <a name="set-policies-to-turn-on-calling-and-meeting-functionality"></a><span data-ttu-id="7e012-304">通話と会議の機能を有効にするポリシーを設定する</span><span class="sxs-lookup"><span data-stu-id="7e012-304">Set policies to turn on calling and meeting functionality</span></span>
+
+<span data-ttu-id="7e012-305">Microsoft Teams 管理センターまたは PowerShell を使用して、通話と会議のポリシーを設定し、ユーザーに割り当てることができます。</span><span class="sxs-lookup"><span data-stu-id="7e012-305">You can use the Microsoft Teams admin center or PowerShell to set and assign calling and meeting policies to your users.</span></span> <span data-ttu-id="7e012-306">ポリシーの変更が反映されるまでには、多少時間がかかることがあります。</span><span class="sxs-lookup"><span data-stu-id="7e012-306">It can take some time (a few hours) for policy changes to propagate.</span></span> <span data-ttu-id="7e012-307">特定のアカウントの変更がすぐに表示されない場合は、数時間後にもう一度お試しください。</span><span class="sxs-lookup"><span data-stu-id="7e012-307">If you don’t see changes for a given account immediately, try again after a few hours.</span></span>
+
+<span data-ttu-id="7e012-308">[**通話**](teams-calling-policy.md)ポリシー: Teams の通話ポリシーは、ユーザーが使用できる通話機能を制御します。</span><span class="sxs-lookup"><span data-stu-id="7e012-308">[**Calling polices**](teams-calling-policy.md): Calling policies in Teams control which calling features are available to users.</span></span> <span data-ttu-id="7e012-309">Teams には、組み込みの AllowCalling 通話ポリシーが含まれており、すべての通話機能が有効になっています。</span><span class="sxs-lookup"><span data-stu-id="7e012-309">Teams includes the built-in AllowCalling calling policy, in which all calling features are turned on.</span></span> <span data-ttu-id="7e012-310">すべての通話機能を有効にするには、AllowCalling ポリシーを割り当てます。</span><span class="sxs-lookup"><span data-stu-id="7e012-310">To turn on all calling features, assign the AllowCalling policy.</span></span> <span data-ttu-id="7e012-311">または、カスタム通話ポリシーを作成して、必要な通話機能を有効にし、ユーザーに割り当てます。</span><span class="sxs-lookup"><span data-stu-id="7e012-311">Or, create a custom calling policy to turn on the calling features that you want and assign it to users.</span></span> 
+
+<span data-ttu-id="7e012-312">[**会議ポリシー**](meeting-policies-in-teams.md): Teams の会議ポリシーは、ユーザーが作成できる会議の種類と、組織内のユーザーによってスケジュールされている会議の参加者が使用できる機能を制御します。</span><span class="sxs-lookup"><span data-stu-id="7e012-312">[**Meeting policies**](meeting-policies-in-teams.md): Meeting policies in Teams control the types of meetings that users can create and the features that are available to meeting participants that are scheduled by users in your organization.</span></span> <span data-ttu-id="7e012-313">Teams には、すべての会議機能が有効になっている組み込みのすべての会議のポリシーが含まれています。</span><span class="sxs-lookup"><span data-stu-id="7e012-313">Teams includes the built-in AllOn meeting policy, in which all meeting features are turned on.</span></span> <span data-ttu-id="7e012-314">すべての会議機能を有効にするには、[すべて] のポリシーを割り当てます。</span><span class="sxs-lookup"><span data-stu-id="7e012-314">To turn on all meeting features, assign the AllOn policy.</span></span> <span data-ttu-id="7e012-315">または、カスタム会議ポリシーを作成して、必要な会議機能を有効にし、ユーザーに割り当てることができます。</span><span class="sxs-lookup"><span data-stu-id="7e012-315">Or, create a custom meeting policy to turn on the meeting features that you want and assign it users.</span></span>
+
+#### <a name="assign-policies-using-the-microsoft-teams-admin-center"></a><span data-ttu-id="7e012-316">Microsoft Teams 管理センターを使用してポリシーを割り当てる</span><span class="sxs-lookup"><span data-stu-id="7e012-316">Assign policies using the Microsoft Teams admin center</span></span>
+
+<span data-ttu-id="7e012-317">AllowCalling の通話ポリシーと [すべての会議] ポリシーをユーザーに割り当てるには、次の手順を実行します。</span><span class="sxs-lookup"><span data-stu-id="7e012-317">To assign the AllowCalling calling policy and the AllOn meeting policy to users, follow these steps:</span></span>
+
+1. <span data-ttu-id="7e012-318">Microsoft Teams 管理センターの左のナビゲーションで、[**ユーザー**] に移動します。</span><span class="sxs-lookup"><span data-stu-id="7e012-318">In the left navigation of the Microsoft Teams admin center, go to **Users**.</span></span>
+2. <span data-ttu-id="7e012-319">ユーザー名の左側をクリックしてユーザーを選び、[**設定の編集**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="7e012-319">Select the user by clicking to the left of the user name, and then click **Edit settings**.</span></span>
+3. <span data-ttu-id="7e012-320">次の手順を実行します。</span><span class="sxs-lookup"><span data-stu-id="7e012-320">Do the following:</span></span>
+    1.  <span data-ttu-id="7e012-321">[**通話ポリシー**] で [ **allowcalling**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="7e012-321">Under **Calling policy**, click **AllowCalling**.</span></span>
+    2.  <span data-ttu-id="7e012-322">[**会議のポリシー**] で [**すべて**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="7e012-322">Under **Meeting policy**, click **AllOn**.</span></span>
+4. <span data-ttu-id="7e012-323">[**適用**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="7e012-323">Click **Apply**.</span></span>
+
+<span data-ttu-id="7e012-324">一度に複数のユーザーにポリシーを割り当てるには、「[チームのユーザー設定を一括](edit-user-settings-in-bulk.md)して編集する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="7e012-324">To assign a policy to multiple users at a time, see [Edit Teams user settings in bulk](edit-user-settings-in-bulk.md).</span></span>
+
+<span data-ttu-id="7e012-325">または、次の操作も行うことができます。</span><span class="sxs-lookup"><span data-stu-id="7e012-325">Or, you can also do the following:</span></span>
+
+1. <span data-ttu-id="7e012-326">Microsoft Teams 管理センターの左のナビゲーションで、割り当てるポリシーに移動します。</span><span class="sxs-lookup"><span data-stu-id="7e012-326">In the left navigation of the Microsoft Teams admin center, go to the policy you want to assign.</span></span> <span data-ttu-id="7e012-327">次に例を示します。</span><span class="sxs-lookup"><span data-stu-id="7e012-327">For example:</span></span>
+    - <span data-ttu-id="7e012-328">[**音声** > **通話のポリシー**] に移動し、[ **allowcalling**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="7e012-328">Go to **Voice** > **Calling policies**, and then click **AllowCalling**.</span></span>
+    - <span data-ttu-id="7e012-329">[**会議** > の**ポリシー**] に移動し、[**すべて**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="7e012-329">Go to **Meetings** > **Meeting policies**, and then click **AllOn**.</span></span>
+3. <span data-ttu-id="7e012-330">[**ユーザーの管理**] を選びます。</span><span class="sxs-lookup"><span data-stu-id="7e012-330">Select **Manage users**.</span></span>
+4. <span data-ttu-id="7e012-331">[**ユーザーの管理**] ウィンドウで、[表示名] または [ユーザー名] でユーザーを検索し、名前を選択して [**追加**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="7e012-331">In the **Manage users** pane, search for the user by display name or by user name, select the name, and then click **Add**.</span></span> <span data-ttu-id="7e012-332">追加するユーザーごとに、この手順を繰り返します。</span><span class="sxs-lookup"><span data-stu-id="7e012-332">Repeat this step for each user that you want to add.</span></span>
+5. <span data-ttu-id="7e012-333">ユーザーの追加が完了したら、[**保存**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="7e012-333">When you're finished adding users, click **Save**.</span></span>
+
+#### <a name="assign-policies-using-powershell"></a><span data-ttu-id="7e012-334">PowerShell を使用してポリシーを割り当てる</span><span class="sxs-lookup"><span data-stu-id="7e012-334">Assign policies using PowerShell</span></span>
+
+<span data-ttu-id="7e012-335">次の例は、 [Grant-Csteam分解のポリシー](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy)を使って、allowcalling 呼び出しポリシーをユーザーに割り当てる方法を示しています。</span><span class="sxs-lookup"><span data-stu-id="7e012-335">The following example shows how to use the [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy) to assign the AllowCalling calling policy to a user.</span></span>
+
+```
+Grant-CsTeamsCallingPolicy -PolicyName AllowCalling -Identity “user email id”
+```
+
+<span data-ttu-id="7e012-336">PowerShell を使用して通話ポリシーを管理する方法の詳細については、「 [Set-Csteam拡張性のポリシー](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="7e012-336">To learn more about using PowerShell to manage calling policies, see [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy).</span></span>
+
+<span data-ttu-id="7e012-337">次の例は、 [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy)を使用して、すべての会議ポリシーをユーザーに割り当てる方法を示しています。</span><span class="sxs-lookup"><span data-stu-id="7e012-337">The following example shows how to use the [Grant-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) to assign the AllOn meeting policy to a user.</span></span>
+
+```
+Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity “user email id”
+```
+
+<span data-ttu-id="7e012-338">PowerShell を使用して会議のポリシーを管理する方法の詳細については、「 [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="7e012-338">To learn more about using PowerShell to manage meeting policies, see [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).</span></span>
+
+## <a name="known-issues-and-limitations"></a><span data-ttu-id="7e012-339">既知の問題と制限事項</span><span class="sxs-lookup"><span data-stu-id="7e012-339">Known issues and limitations</span></span>
+
+### <a name="client-deployment-installation-and-setup"></a><span data-ttu-id="7e012-340">クライアントの展開、インストール、セットアップ</span><span class="sxs-lookup"><span data-stu-id="7e012-340">Client deployment, installation, and setup</span></span>
+
+- <span data-ttu-id="7e012-341">コンピューターごとにインストールする場合、vdi の Teams は非 VDI Teams クライアントとして自動的に更新されることはありません。</span><span class="sxs-lookup"><span data-stu-id="7e012-341">With per-machine installation, Teams on VDI isn't automatically updated in the way that non-VDI Teams clients are.</span></span> <span data-ttu-id="7e012-342">「 [VDI 上の Teams デスクトップアプリをインストール](#install-the-teams-desktop-app-on-vdi)する」セクションの説明に従って、新しい MSI をインストールして VM イメージを更新する必要があります。</span><span class="sxs-lookup"><span data-stu-id="7e012-342">You have to update the VM image by installing a new MSI as described in the [Install the Teams desktop app on VDI](#install-the-teams-desktop-app-on-vdi) section.</span></span> <span data-ttu-id="7e012-343">最新バージョンに更新するには、現在のバージョンをアンインストールする必要があります。</span><span class="sxs-lookup"><span data-stu-id="7e012-343">You must uninstall the current version to update to a newer version.</span></span>
+- <span data-ttu-id="7e012-344">現時点では、MacOs および Linux ベースのクライアントは Citrix でサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="7e012-344">MacOs and Linux-based clients are not supported by Citrix at this time.</span></span>
+- <span data-ttu-id="7e012-345">Citrix は、エンドポイントで定義された明示的な HTTP プロキシの使用をサポートしていません。</span><span class="sxs-lookup"><span data-stu-id="7e012-345">Citrix doesn't support the use of explicit HTTP proxies defined on an endpoint.</span></span> 
+
+### <a name="calling-and-meetings"></a><span data-ttu-id="7e012-346">通話と会議</span><span class="sxs-lookup"><span data-stu-id="7e012-346">Calling and meetings</span></span>
+
+- <span data-ttu-id="7e012-347">Skype for Business の相互運用性は音声通話に限定され、ビデオ表示には使用できません。</span><span class="sxs-lookup"><span data-stu-id="7e012-347">Interoperability with Skype for Business is limited to audio calls, no video modality.</span></span>
+- <span data-ttu-id="7e012-348">デュアルトーンマルチ周波数 (DTMF) テレフォニーシステムとの相互操作は、現在サポートされていません。</span><span class="sxs-lookup"><span data-stu-id="7e012-348">Dual Tone Multi Frequency (DTMF) interaction with telephony systems  is currently not supported.</span></span>
+- <span data-ttu-id="7e012-349">匿名ユーザーとして Teams 会議に参加することは、AV-最適化されていません。</span><span class="sxs-lookup"><span data-stu-id="7e012-349">Joining Teams meetings as an anonymous user isn't AV-optimized.</span></span> <span data-ttu-id="7e012-350">ユーザーは会議に参加し、最適化されていない操作を行うことができます。</span><span class="sxs-lookup"><span data-stu-id="7e012-350">The user can join the meeting and have a non-optimized experience.</span></span>
+- <span data-ttu-id="7e012-351">会議またはグループ通話でサポートされているビデオストリームは1つだけです。</span><span class="sxs-lookup"><span data-stu-id="7e012-351">Only a single incoming video stream is supported in meetings or group calls.</span></span> <span data-ttu-id="7e012-352">複数のユーザーがビデオを送信する場合、常に表示されている主要なスピーカーのビデオのみが表示されます。</span><span class="sxs-lookup"><span data-stu-id="7e012-352">When multiple people send video, only the dominant speaker's video is shown at any given time.</span></span>  
+- <span data-ttu-id="7e012-353">着信と発信のビデオストリームの解像度は720p の解像度に制限されています。</span><span class="sxs-lookup"><span data-stu-id="7e012-353">Incoming and outgoing video stream resolution is limited to 720p resolution.</span></span> <span data-ttu-id="7e012-354">これは WebRTC の制限です。</span><span class="sxs-lookup"><span data-stu-id="7e012-354">This is a WebRTC limitation.</span></span>
+- <span data-ttu-id="7e012-355">着信カメラまたは画面共有ストリームのビデオストリームは1つだけです。</span><span class="sxs-lookup"><span data-stu-id="7e012-355">Only one video stream from an incoming camera or screen share stream is supported.</span></span> <span data-ttu-id="7e012-356">受信画面共有が表示されている場合は、その画面共有が、優先スピーカーのビデオではなく、画面上に表示されます。</span><span class="sxs-lookup"><span data-stu-id="7e012-356">When there's an incoming screen share, that screen share is shown it instead of the video of the dominant speaker.</span></span>
+- <span data-ttu-id="7e012-357">送信画面の共有:</span><span class="sxs-lookup"><span data-stu-id="7e012-357">Outgoing screen sharing:</span></span>
+    - <span data-ttu-id="7e012-358">アプリケーション共有はサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="7e012-358">Application sharing is not supported.</span></span>
+- <span data-ttu-id="7e012-359">コントロールを用意して制御します。</span><span class="sxs-lookup"><span data-stu-id="7e012-359">Give control and take control:</span></span>  
+    - <span data-ttu-id="7e012-360">画面共有またはアプリケーション共有セッション中はサポートされません。</span><span class="sxs-lookup"><span data-stu-id="7e012-360">Not supported during a screen sharing or application sharing session.</span></span>
+    - <span data-ttu-id="7e012-361">PowerPoint 共有セッション中にサポートされます。</span><span class="sxs-lookup"><span data-stu-id="7e012-361">Supported during a PowerPoint sharing session.</span></span>  
+- <span data-ttu-id="7e012-362">CWA での高 DPI スケーリングはサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="7e012-362">High DPI scaling on CWA is not supported.</span></span>
+
+<span data-ttu-id="7e012-363">VDI に関連していない Teams の既知の問題については、「 [teams の既知の問題](Known-issues.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="7e012-363">For Teams known issues that aren’t related to VDI, see [Known issues for Teams](Known-issues.md).</span></span>
+
+## <a name="troubleshooting"></a><span data-ttu-id="7e012-364">トラブルシューティング</span><span class="sxs-lookup"><span data-stu-id="7e012-364">Troubleshooting</span></span>
+
+#### <a name="troubleshoot-citrix-components"></a><span data-ttu-id="7e012-365">Citrix コンポーネントのトラブルシューティング</span><span class="sxs-lookup"><span data-stu-id="7e012-365">Troubleshoot Citrix components</span></span>
+
+<span data-ttu-id="7e012-366">VDA と CWA の問題を解決する方法については、[この Citrix の web サイト](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="7e012-366">For information on how to troubleshoot VDA and CWA issues, see [this Citrix website](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="7e012-367">関連項目</span><span class="sxs-lookup"><span data-stu-id="7e012-367">Related topics</span></span>
+
+- [<span data-ttu-id="7e012-368">MSI を使用して Microsoft Teams をインストールする</span><span class="sxs-lookup"><span data-stu-id="7e012-368">Install Microsoft Teams using MSI</span></span>](msi-deployment.md)
+- [<span data-ttu-id="7e012-369">Teams での PowerShell の概要</span><span class="sxs-lookup"><span data-stu-id="7e012-369">Teams PowerShell overview</span></span>](teams-powershell-overview.md)
