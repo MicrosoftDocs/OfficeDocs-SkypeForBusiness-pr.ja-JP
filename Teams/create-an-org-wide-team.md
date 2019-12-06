@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db7caa3879e016b6e8453ad151785578d2391dd1
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: 953cfc1ba7c9b05954859f7bc8ac1db2352b3a0e
+ms.sourcegitcommit: 96d98e145ff300833d827a7d43b4e4b0331b7538
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37516652"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39871723"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Microsoft Teams で組織全体にわたるチームを作成する
 
@@ -81,3 +81,7 @@ ms.locfileid: "37516652"
 ### <a name="is-there-a-way-to-convert-an-existing-team-to-an-org-wide-team"></a>既存のチームを組織全体のチームに変換する方法はありますか?
 
 グローバル管理者は、チームクライアントで編集することで、既存のチームを組織全体のチームに変換できます。 チーム名に移動し、[**その他のオプション** > **] をクリックします。**
+
+## <a name="see-also"></a>関連項目
+
+[Microsoft Teams で企業全体のチームを作成](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3)する方法についてのビデオをご覧ください。
