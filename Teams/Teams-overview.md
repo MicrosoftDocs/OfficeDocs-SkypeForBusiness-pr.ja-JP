@@ -16,23 +16,23 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 787849735883b25d8cb002c06f3e455438193769
-ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
+ms.openlocfilehash: ef56b6e62b39d0ef0d9464c9d24b9b34d17e87cc
+ms.sourcegitcommit: 2fd1fcb0e5944f36261e551df04819713d868a11
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39209063"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "39886194"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Microsoft Team にようこそ
 所属する組織での Microsoft Teams の管理者である場合は、このページの内容をよくお読みください。 Teams を使用する準備が整っている場合は、「[Teams の展開方法](How-to-roll-out-teams.md)」から始めてください。
-
-エンド ユーザー向けの Teams のヘルプを探している場合は、アプリの左側にある **[ヘルプ]** をクリックするか、[Microsoft Teams ヘルプ センター](https://support.office.com/teams)に移動します。 トレーニングについては、「[Microsoft Teams のトレーニング](training-microsoft-teams-landing-page.md)」を参照してください。 
 
 Teams を使うのが初めてで、詳細を知りたい場合は、「[Teams へようこそ](https://www.youtube.com/embed/s3aQV3T0D6c)」のビデオ (55 秒) をご覧ください。
 
 Teams の管理者向けビデオの「Teams へようこそ」をお見逃しなく (3 分強):
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE47cdp]
+
+エンド ユーザー向けの Teams のヘルプを探している場合は、アプリの左側にある **[ヘルプ]** をクリックするか、[Microsoft Teams ヘルプ センター](https://support.office.com/teams)に移動します。 トレーニングについては、「[Microsoft Teams のトレーニング](training-microsoft-teams-landing-page.md)」を参照してください。 
 
 ## <a name="teams-architecture"></a>Teams のアーキテクチャ
 

@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 会議移行サービス (MMS) は、バックグラウンドで実行されるサービスで、Skype for Business および Microsoft Teams の会議を自動的に更新します。 MMS はユーザーが会議移行ツールを実行して Skype for Business および Microsoft Teams 会議を更新しなくても済むように設計されています。
-ms.openlocfilehash: 3f643f20937fd13b0d9576640487da30f17dd7bf
-ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
+ms.openlocfilehash: 91fcc1b95e107f36a55516e7f459eb8fae581bbe
+ms.sourcegitcommit: 0f2024740e03af303efc62e7f54aa918a61ca51b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772281"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "39890531"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>会議移行サービス (MMS) を使用する
 
@@ -128,7 +128,7 @@ MMS がトリガーされた時点では、通常、ユーザーの会議が移�
 **SourceMeetingType:**
 - [ `SourceMeetingType SfB`使用] は、Skype for business 会議 (オンプレミスまたはオンライン) のみを更新する必要があることを示します。
 - は`SourceMeetingType Teams` 、Teams 会議のみを更新する必要があることを示します。
-- [ `SourceMeetingType All`を使用] は、ビジネス会議と Teams 会議の両方の skype を更新する必要があることを示します。 これは、SourceMeetingType の既定値です。
+- [ `SourceMeetingType All`使用] は、Skype for business 会議と Teams 会議の両方を更新する必要があることを示します。 これは、SourceMeetingType の既定値です。
     
 
 次の例は、ユーザー ashaw@contoso.com の会議の移行を開始して、すべての会議を Teams に移行できるようにする方法を示しています。

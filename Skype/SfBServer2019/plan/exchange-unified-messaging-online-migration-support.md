@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Microsoft は2020年2月に Exchange ユニファイドメッセージング Online (ExchUMO) サービスを廃止します。 この記事では、影響を受ける顧客がビジネス継続性を計画するときに知っておく必要があることについて説明します。
-ms.openlocfilehash: 6fe0436d0ae4df2b4eb56a3c84319770b45f3139
-ms.sourcegitcommit: b8e16703e4611ca2bde55896ec158b33be4f9ba0
+ms.openlocfilehash: 8b8a0590dd53301a93fb9a6b2ed50e0d5dc830ed
+ms.sourcegitcommit: 0f2024740e03af303efc62e7f54aa918a61ca51b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39842469"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "39890581"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange ユニファイド メッセージングの移行サポート
 
@@ -99,7 +99,7 @@ Microsoft は、ExchUMO の機能を利用しているさまざまな顧客の�
 
 ## <a name="auto-attendant-migration-guidelines"></a>自動応答移行ガイドライン
 
-Office 365 テナント管理者は、Microsoft クラウド自動応答サービスで Exchange UM Online 自動応答を再作成して、Exchange UMO サービスの実行時に、そのオンプレミス電話番号を2020年2月1日より前に切り替える必要があります。リタイア. これは、新しいクラウド自動応答を正常に移行およびテストするための推奨ガイドラインです。 自動応答の回数が多い場合は、 [EXCHANGE UM 自動応答をクラウド自動応答の移行スクリプトに](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA)使用して、自動応答の一括移行を簡単に行うことができます。
+Office 365 テナント管理者は、exchange UM Online の自動応答を、2020年2月28日より前に Microsoft クラウド自動応答サービスに再作成する必要があります。これは、Exchange の UMO サービスが実行される場合です。リタイア. これは、新しいクラウド自動応答を正常に移行およびテストするための推奨ガイドラインです。 自動応答の回数が多い場合は、 [EXCHANGE UM 自動応答をクラウド自動応答の移行スクリプトに](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA)使用して、自動応答の一括移行を簡単に行うことができます。
 
 ### <a name="setup"></a>セットアップ
 

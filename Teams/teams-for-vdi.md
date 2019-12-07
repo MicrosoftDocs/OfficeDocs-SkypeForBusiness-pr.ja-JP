@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f7c0e0ab004c2146b8b93eb984b19d031cd2bb3
-ms.sourcegitcommit: c6d0da888ceb13f38bae139a1ced428e121e60b5
+ms.openlocfilehash: 75d51a6c20593c725863632350d90e2e58626e4d
+ms.sourcegitcommit: 0f2024740e03af303efc62e7f54aa918a61ca51b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39837586"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "39890607"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>仮想デスクトップ インフラストラクチャ用の Teams
 
@@ -51,6 +51,14 @@ ms.locfileid: "39837586"
 Teams デスクトップアプリは、主要な仮想化ソリューションプロバイダーと共に検証されました。 市場プロバイダーが複数ある場合は、最小要件が満たされるように仮想化ソリューションプロバイダーに問い合わせることをお勧めします。
   
 現時点では、音声/ビデオ (AV) 最適化による VDI 上の Teams は、Citrix で認定されています。 このセクションの情報を確認して、Citrix と Teams の両方の要件が適切に機能するようになっていることを確認します。
+
+### <a name="partners-certified-for-teams"></a>チームの認定パートナー
+
+次のパートナーには、Teams の仮想デスクトップインフラストラクチャソリューションがあります。
+
+|パートナー|パートナーソリューション|
+|----|---|
+|![Citrix を表すロゴ](media/citrix.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Citrix の仮想アプリとデスクトップ</a> |
 
 ### <a name="citrix-virtual-apps-and-desktops-requirements"></a>Citrix の仮想アプリとデスクトップの要件
 
@@ -120,8 +128,8 @@ Teams と Office 365 ProPlus の詳細については、「 [office 365 ProPlus 
 
 1. 次のリンクのいずれかを使用して、VDI VM オペレーティングシステムと一致する Teams MSI パッケージをダウンロードします。
 
-    - [32ビット版](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true)
-    - [64ビット版](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true&arch=x64)
+    - [32ビット版](https://statics.teams.microsoft.com/production-windows/1.2.00.32462/Teams_windows.msi)
+    - [64ビット版](https://statics.teams.microsoft.com/production-windows-x64/1.2.00.32462/Teams_windows_x64.msi)
 
     必要な Teams デスクトップアプリの最小バージョンはバージョン1.2.00.31357 です。
 

@@ -5,7 +5,6 @@ author: LanaChin
 ms.author: v-lanac
 manager: serdars
 layout: LandingPage
-ms.date: 03/14/2019
 ms.topic: landing-page
 ms.service: msteams
 audience: admin
@@ -17,12 +16,12 @@ f1keywords:
 description: Microsoft Teamsの計画、展開、および実行方法に関するトレーニングビデオ、PowerPointデッキ、チュートリアル、およびその他の管理者向けリソース。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55ac7c4adf51e920aba2a8eed0f0d6c5aa83ca36
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: e0fd8f08094549e26612872b73d42b96cbbb0080
+ms.sourcegitcommit: 2fd1fcb0e5944f36261e551df04819713d868a11
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37563880"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "39886184"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams の管理者トレーニング
 
@@ -91,6 +90,7 @@ ms.locfileid: "37563880"
 
 | モジュール | ビデオ | PowerPoint デッキ |
 | ------------ | -------------------- | -------------------- |
+| [Microsoft のメカニズム-IT YouTube チャネルの Teams の基礎](https://aka.ms/MicrosoftTeamsforIT) | [ビデオ: IT のための Teams の基礎](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn)(10:13 分)<br>[ビデオ: Teams を展開 & 構成する-概要](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2)(8:22 分)  ||
 | コア コンポーネントの基礎 | [ビデオ](https://aka.ms/teams-foundations) | [デッキ](https://aka.ms/teams-foundations-deck) |
 | Windows デスクトップ クライアント | [ビデオ](https://aka.ms/teams-clients) | [デッキ](https://aka.ms/teams-clients-deck) |
 | ガバナンス、管理とライフサイクル | [ビデオ](https://aka.ms/teams-governance) | [デッキ](https://aka.ms/teams-governance-deck) |
