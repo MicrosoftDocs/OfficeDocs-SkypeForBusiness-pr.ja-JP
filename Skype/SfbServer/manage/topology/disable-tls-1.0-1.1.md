@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: '概要: お客様の環境で TLS 1.0 および1.1 を無効にするための準備と実装を行います。'
-ms.openlocfilehash: ce158aeaa84e00367b265404fe3d3407606f4759
-ms.sourcegitcommit: f3b698379eb663202ce127eeaf6c07328c166556
+ms.openlocfilehash: f6fa608174bc22bc91512a69cc67a688b9bc7bb9
+ms.sourcegitcommit: 0dba0ad1f8f00415c6437cadabed0548ce3281b1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "38077440"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39919311"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 で TLS 1.0/1.1 を無効にする
 
@@ -140,11 +140,11 @@ TLS 1.0 および1.1 を Skype for Business Server 2015 展開のオペレーテ
 - Skype for Business Server 2015 CU9 6.0.9319.548 (2019 年5月以降) 以降
 - レジストリで SchUseStrongCrypto が有効になっている場合の[.Net Framework 4.7](https://www.microsoft.com/download/details.aspx?id=55167)以上 (以下に記載されています)
 - SQL は、すべての Skype for Business 2015 サーバーとバックエンドで更新する必要があります。 最初に Enterprise Edition プール SQL バックエンドを更新し、次にそれぞれの FEs を更新します。 
-    - SQL Server 2014 SP1 + CU5 以降 ([リンク](https://support.microsoft.com/help/3130926))、またはそれ以降の sql SERVER 2012 SP2 + CU16 以上/sql SERVER 2014 RTM + CU12 ([link](https://support.microsoft.com/help/3130923/cumulative-update-12-for-sql-server-2014)) または以上の sql server 2014 SP2
-     - Sql server Native Client for SQL Server 2012 ([link](https://www.microsoft.com/download/details.aspx?id=50402))
-     - Microsoft ODBC Driver 11 for SQL Server ([リンク](https://www.microsoft.com/download/details.aspx?id=36434))、またはそれ以降
-     - SQL Server 2014 SP2 の共有管理オブジェクト ([リンク](https://www.microsoft.com/download/details.aspx?id=42295))
-     - SQL server 2014 SP2 の SQLSysClrTypes ([リンク](https://www.microsoft.com/download/details.aspx?id=42295))
+    - [Sql server 2014 SP1 + cu5 以降](https://support.microsoft.com/help/3130926)、またはそれ以降の sql SERVER 2012 SP2 + CU16 以上/sql SERVER [2014 RTM + CU12](https://support.microsoft.com/help/3130923/cumulative-update-12-for-sql-server-2014)、またはそれ以降の sql server 2014 SP2
+     - [Sql server Native Client for SQL Server 2012](https://www.microsoft.com/download/details.aspx?id=50402)
+     - [MICROSOFT ODBC Driver 11 FOR SQL Server](https://www.microsoft.com/download/details.aspx?id=36434)(以降)
+     - [SQL Server 2014 SP2 の共有管理オブジェクト](https://www.microsoft.com/download/details.aspx?id=53164)
+     - [SQL server 2014 SP2 の SQLSysClrTypes](https://www.microsoft.com/download/details.aspx?id=42295)
 
 ### <a name="basic-steps-to-install-pre-requisites-in-recommended-order-of-operations"></a>推奨される操作の順序で必須条件をインストールするための基本的な手順
 

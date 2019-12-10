@@ -16,12 +16,12 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 907155bea3b73252006f17a512a96123da4153e4
-ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
+ms.openlocfilehash: c76a50c330a6f67a61edcb29861eecb76312f05a
+ms.sourcegitcommit: 2fd1fcb0e5944f36261e551df04819713d868a11
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38290957"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "39886251"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams のチャット、チーム、チャネル、およびアプリ
 
@@ -31,7 +31,9 @@ Teams は、すぐに使用できる優れたコラボレーション エクス�
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yj]
 
-*2019 年 11 月の新機能*: [Teams のアドバイザー (プレビュー) を使用して、Microsoft Teams を展開できる](use-advisor-teams-roll-out.md)ようになりました。 Teams のアドバイザー (プレビュー) を使用して、Teams の展開について説明します。 Office 365 環境を評価し、Teams を正常に展開する前に更新または変更する必要がある最も一般的な構成を特定します。
+*2019 年 11 月の新機能*
+ - [Teams のアドバイザー (プレビュー) を使用して、Microsoft Teams を展開できる](use-advisor-teams-roll-out.md)ようになりました。 Teams のアドバイザー (プレビュー) を使用して、Teams の展開について説明します。 Office 365 環境を評価し、Teams を正常に展開する前に更新または変更する必要がある最も一般的な構成を特定します。
+ - [IT 担当者向けの Microsoft Teams の基礎の YouTube チャネル](https://aka.ms/MicrosoftTeamsforIT)には、Teams の展開、構成、および管理の方法を示す短い (8 〜 10 分) ビデオが含まれています。
 
 > [!TIP]
 > Teams の初期展開時に、おすすめのアプリ (Planner など) を含めることをお勧めします。 Teams 導入の進行に応じて、その他の[アプリ、ボット、およびコネクタ](deploy-apps-microsoft-teams-landing-page.md)を追加してください。

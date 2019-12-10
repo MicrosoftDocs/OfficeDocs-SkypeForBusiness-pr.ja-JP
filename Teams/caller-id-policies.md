@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams で発信者番号ポリシーを使用および管理して、組織内の Teams ユーザーの発信者番号通知を変更またはブロックする方法について説明します。
-ms.openlocfilehash: 95d1a2e836e79158ffc6e9f48d46decca31e01ca
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: b30f2f8650d1d875c56254d99efddb2f5fdbb5d0
+ms.sourcegitcommit: 0dba0ad1f8f00415c6437cadabed0548ce3281b1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37517010"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39919371"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>Microsoft Teams で発信者番号通知ポリシーを管理する
 
@@ -44,7 +44,7 @@ ms.locfileid: "37517010"
 4. ここで、目的の設定を選びます。
 
     - [着信した発信者番号を**ブロック**]: この設定をオンにすると、着信が表示されないように発信者 id がブロックされます。
-    - **ユーザーは発信者番号ポリシーを上書きでき**ます。この設定を有効にして、ユーザーがポリシーの設定を上書きできるようにします。 これは、ユーザーが発信者 ID を表示するか、着信呼び出しの発信者番号をブロックするかを選択できることを意味します。
+    - **ユーザーは発信者番号ポリシーを上書きすることができ**ます。この設定を有効にすると、ユーザーがポリシーの設定を上書きして、その番号を呼び出し先に表示するかどうかを指定できます。 これは、ユーザーが発信者番号通知を表示するかどうかを選択できることを意味します。
     - [発信者番号の**交換**]: 次のいずれかを選択して、ユーザーに表示される発信者番号を設定します。
 
         - [**ユーザーの電話番号**: ユーザーの電話番号を表示します。 

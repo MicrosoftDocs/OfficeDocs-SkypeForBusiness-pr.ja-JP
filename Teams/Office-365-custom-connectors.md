@@ -14,12 +14,12 @@ search.appverid: MET150
 description: コネクタは、頻繁に使用するサービスからのコンテンツや更新をチャネルに直接配信して、チームを最新の状態に保ちます。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b1dc57bbe3d216ee779f962ef4b2fc1152e2161
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 05f892791c3f299cbd146d7a34b0062cc957486f
+ms.sourcegitcommit: dc70fd277d9542d831741e14dba9ae22367210ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37563856"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "39909333"
 ---
 <a name="use-office-365-and-custom-connectors-in-microsoft-teams"></a>Microsoft Teams で Office 365 コネクタとカスタム コネクタを使用する
 =======================================================
@@ -52,24 +52,6 @@ Office 365 コネクタは Microsoft Teams と Office 365 の両方のグルー�
     ![チャネル内の会話を示す Teams インターフェイスのスクリーンショット。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image4.png)
 
 <a name="develop-custom-connectors"></a>カスタム コネクタを開発する
------------------------------
+----------------------------
 
-基幹業務 (LOB) アプリケーションと統合できるカスタムコネクタの開発は非常に簡単です。 組み込みの**受信 Webhook**コネクタを使って、HTTP post メソッドを使って任意のアプリケーションからデータを引き出すチャネルのエンドポイントを作成できます。
-
-1. **着信 Web フック**をその他のコネクタと同じ方法で追加します。
-
-    ![着信 Web フック コネクタを追加するオプションのスクリーンショット。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image5.png)
-
-2. Web フックを作成するには、**名前**を指定し、必要に応じて Web フックの画像を更新します。続けて [**作成**] をクリックします。
-
-    ![受信 Webhook コネクタの構成ページのスクリーンショット。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image6.png)
-
-3. このチャネルにデータをプッシュするアプリケーションには、Webhook コネクタ URL が必要です。 Webhook の作成時に一意の URL が作成されます。 必要に応じて、データをプッシュするようにアプリケーションを構成できるように、この URL を開発者と共有します。
-
-    ![Web フックの固有 URL のスクリーンショット。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image7.png)
-
-4. 外部アプリケーションによってコネクタへのデータのプッシュが実行されると、**コネクタ カード** メッセージと呼ばれる特別なメッセージがチャネルの会話リストに表示されます。
-
-    ![コネクタ カード メッセージを示す Teams インターフェイスのスクリーンショット。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image8.png)
-
-     開発者は、ウィザードによって提供されるエンドポイントの固有の URL である、単純な JSON ペイロードの HTTP 要求をチームの Webhook アドレスに送信することによって、これらのカードを作成するようにアプリケーションを構成できます。 詳細な手順とコネクタのサンプルが含まれている Microsoft Developer ネットワークで、 [Microsoft Teams の Office 365 コネクタの使用を開始](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/connectors/connectors)することを開発者に確認してください。 その他のリソースには、Outlook および[Office デベロッパーセンター– Microsoft Teams](https://go.microsoft.com/fwlink/?linkid=855784)の[グループへのアプリの接続](https://support.office.com/article/Connect-apps-to-your-groups-in-Outlook-ed0ce547-038f-4902-b9b3-9e518ae6fbab)が含まれます。
+カスタムコネクタや、受信および送信の web フックを作成することもできます。 詳細については、[開発者向けのドキュメント](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)を参照してください。
