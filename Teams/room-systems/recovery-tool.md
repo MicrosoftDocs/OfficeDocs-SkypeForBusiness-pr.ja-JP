@@ -4,7 +4,6 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.reviewer: sohailta
-ms.date: 4/17/2018
 audience: ITPro
 ms.topic: article
 ms.service: msteams
@@ -12,59 +11,47 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 description: この記事では、Microsoft Teams 室の回復ツールの使用方法について説明します。この機能は、サポートされている状態にシステムを移行するために使用します。
-ms.openlocfilehash: bc35dc744dac5f04d537f023e790bc89c2c649d0
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: 79cdd7b2e3530570033083bdac7089e862f169ce
+ms.sourcegitcommit: dc70fd277d9542d831741e14dba9ae22367210ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675351"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "39909463"
 ---
-# <a name="use-the-microsoft-teams-rooms-recovery-tool"></a><span data-ttu-id="ed400-103">Microsoft Teams Rooms の回復ツールを使用する</span><span class="sxs-lookup"><span data-stu-id="ed400-103">Use the Microsoft Teams Rooms recovery tool</span></span>
- 
-<span data-ttu-id="ed400-104">この記事では、Microsoft Teams 室の回復ツールの使用方法について説明します。この機能は、サポートされている状態にシステムを移行するために使用します。</span><span class="sxs-lookup"><span data-stu-id="ed400-104">This article discusses how to use the recovery tool for Microsoft Teams Rooms, which you would use to bring an out of date system into a supported state.</span></span> <span data-ttu-id="ed400-105">このツールは、Microsoft Teams の [会議室] コンソールに "システム構成の終了" というエラーが表示されている場合に使用します。</span><span class="sxs-lookup"><span data-stu-id="ed400-105">You would use this tool when the Microsoft Teams Rooms console shows a "system config out of date" error.</span></span>
-  
+# <a name="use-the-microsoft-teams-rooms-recovery-tool"></a><span data-ttu-id="628d8-103">Microsoft Teams Rooms の回復ツールを使用する</span><span class="sxs-lookup"><span data-stu-id="628d8-103">Use the Microsoft Teams Rooms recovery tool</span></span>
 
-<span data-ttu-id="ed400-106"><a name="Prerequisites"> </a></span><span class="sxs-lookup"><span data-stu-id="ed400-106"></span></span>  
-## <a name="prerequisites"></a><span data-ttu-id="ed400-107">前提条件</span><span class="sxs-lookup"><span data-stu-id="ed400-107">Prerequisites</span></span>
+<span data-ttu-id="628d8-104">この記事では、Microsoft Teams 室の回復ツールの使用方法について説明します。この機能は、サポートされている状態にシステムを移行するために使用します。</span><span class="sxs-lookup"><span data-stu-id="628d8-104">This article discusses how to use the recovery tool for Microsoft Teams Rooms, which you would use to bring an out of date system into a supported state.</span></span> <span data-ttu-id="628d8-105">このツールは、Microsoft Teams の [ルーム] コンソールに "システム構成の終了" エラーが表示された場合、またはプッシュボタンで[出荷時の復元](https://docs.microsoft.com/microsoftteams/room-systems/room-systems-v2-operations#microsoft-teams-rooms-reset-factory-restore)のリセットを実行する前の場合に適用されます。</span><span class="sxs-lookup"><span data-stu-id="628d8-105">This tool should be applied when either the Microsoft Teams Rooms console shows a "system config out of date" error, or prior to performing a push button reset [factory restore](https://docs.microsoft.com/microsoftteams/room-systems/room-systems-v2-operations#microsoft-teams-rooms-reset-factory-restore).</span></span>
 
-<span data-ttu-id="ed400-108">最新の[Microsoft Teams ルームインストールパッケージ](https://go.microsoft.com/fwlink/?linkid=851168)をダウンロードし、それを USB メモリスティックまたは Microsoft teams 室デバイスにアクセスできるネットワーク共有に抽出します。</span><span class="sxs-lookup"><span data-stu-id="ed400-108">Download the latest [Microsoft Teams Rooms installation package](https://go.microsoft.com/fwlink/?linkid=851168) and extract it to a USB memory stick or network share accessible to the Microsoft Teams Rooms device.</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="628d8-106">前提条件</span><span class="sxs-lookup"><span data-stu-id="628d8-106">Prerequisites</span></span>
 
-<span data-ttu-id="ed400-109">また、 [KB4089848](http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/03/windows10.0-kb4089848-x64_db7c5aad31c520c6983a937c3d53170e84372b11.msu)をインストールする必要があります。</span><span class="sxs-lookup"><span data-stu-id="ed400-109">You may also need to install [KB4089848](http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/03/windows10.0-kb4089848-x64_db7c5aad31c520c6983a937c3d53170e84372b11.msu).</span></span>
+<span data-ttu-id="628d8-107">最新の[Microsoft Teams ルームインストールパッケージ](https://go.microsoft.com/fwlink/?linkid=851168)をダウンロードし、それを USB メモリスティックまたは Microsoft teams 室デバイスにアクセスできるネットワーク共有に抽出します。</span><span class="sxs-lookup"><span data-stu-id="628d8-107">Download the latest [Microsoft Teams Rooms installation package](https://go.microsoft.com/fwlink/?linkid=851168) and extract it to a USB memory stick or network share accessible to the Microsoft Teams Rooms device.</span></span>
 
-<span data-ttu-id="ed400-110"><a name="Windows-ver"> </a></span><span class="sxs-lookup"><span data-stu-id="ed400-110"></span></span>
-## <a name="verify-windows-version"></a><span data-ttu-id="ed400-111">Windows のバージョンを確認する</span><span class="sxs-lookup"><span data-stu-id="ed400-111">Verify Windows Version</span></span> 
+> [!NOTE]
+> <span data-ttu-id="628d8-108">MSI からファイルを抽出する方法は、さまざまな方法で実現できます。</span><span class="sxs-lookup"><span data-stu-id="628d8-108">Extracting the files from the MSI can be accomplished by many means.</span></span> <span data-ttu-id="628d8-109">すべてのファイルを抽出し、ディレクトリ構造を保持するメカニズムは受け入れられます。</span><span class="sxs-lookup"><span data-stu-id="628d8-109">Any mechanism that extracts all the files and preserves their directory structure is acceptable.</span></span> <span data-ttu-id="628d8-110">このような方法の1つは`msiexec /qn PathToMsi /qb TARGETDIR=PathToTarget` 、 `PathToMsi` Microsoft Teams Room インストールパッケージへの完全パスを示すコマンドを`PathToTarget`使うことです。また、ファイルを抽出するフォルダーのフルパスを表します。</span><span class="sxs-lookup"><span data-stu-id="628d8-110">One such way is to use the command `msiexec /qn PathToMsi /qb TARGETDIR=PathToTarget` where `PathToMsi` represents the full path to the Microsoft Teams Room installation package, and `PathToTarget` represents the full path to the folder you would like the files extracted to.</span></span>
 
-1. <span data-ttu-id="ed400-112">[設定> Windows の設定] に移動して、管理者アカウントにログインします。 Microsoft Teams 室のデバイスから**管理者によるサインインを>** します。</span><span class="sxs-lookup"><span data-stu-id="ed400-112">Login to an admin account by going to **Settings> Windows Setting> Admin Sign In** from the Microsoft Teams Rooms device.</span></span> <span data-ttu-id="ed400-113">このオプションでは、ログイン画面が表示されます。</span><span class="sxs-lookup"><span data-stu-id="ed400-113">This option brings you to the login screen.</span></span>
-2. <span data-ttu-id="ed400-114">既定の管理者アカウントであるパスワード`admin` `sfb`を使って、管理者アカウントにサインインします。</span><span class="sxs-lookup"><span data-stu-id="ed400-114">Sign into an admin account, the default admin account being `admin` with the password `sfb`.</span></span>
-3. <span data-ttu-id="ed400-115">[スタート] メニューをクリックし`winver.exe`て、検索ボックスに入力し、結果に対して [\**実行]* をクリックします。</span><span class="sxs-lookup"><span data-stu-id="ed400-115">Click on the start menu and type `winver.exe` into the search box and click \**Run Command* on the result.</span></span>
-4. <span data-ttu-id="ed400-116">[情報] ウィンドウの2行目の [バージョン] の後の番号をメモしておきます。</span><span class="sxs-lookup"><span data-stu-id="ed400-116">Make note of the number after 'Version' on the second line of the info pane.</span></span>
+## <a name="running-the-tool"></a><span data-ttu-id="628d8-111">ツールを実行する</span><span class="sxs-lookup"><span data-stu-id="628d8-111">Running the tool</span></span>
 
->[!NOTE]
-><span data-ttu-id="ed400-117">表示されているバージョンが1607以前の場合は、「回復<a href="#Windows-up">前に Windows を更新</a>する」の手順に従って、Proceding を<a href="#Perform">実行</a>してください。</span><span class="sxs-lookup"><span data-stu-id="ed400-117">If the Version shown is 1607 or earlier, follow the steps in the <a href="#Windows-up">Update Windows before recovery</a> steps before proceding to the <a href="#Perform">Perform a recovery</a> steps.</span></span> <span data-ttu-id="ed400-118">表示されているバージョンが1607よりも大きい場合は、「<a href="#Perform">回復を実行する</a>」の手順に従ってください。</span><span class="sxs-lookup"><span data-stu-id="ed400-118">If the Version shown is greater than 1607, follow only the steps in <a href="#Perform">Perform a recovery</a>.</span></span>
+1) <span data-ttu-id="628d8-112">Microsoft Teams 室のデバイスで管理者アカウントにサインインして、管理者特権のコマンドプロンプトを起動します。</span><span class="sxs-lookup"><span data-stu-id="628d8-112">Sign in to the admin account on your Microsoft Teams Rooms device, and launch an elevated command prompt.</span></span>
+2) <span data-ttu-id="628d8-113">Microsoft teams 室のインストールパッケージから抽出されたファイルに含ま`RecoveryTool.ps1 file`れている、microsoft Teams の会議室のデバイスで確認することができます。</span><span class="sxs-lookup"><span data-stu-id="628d8-113">Verify from the Microsoft Teams Rooms device that you are able to access the `RecoveryTool.ps1 file`, which is included in the files extracted from the Microsoft Teams Rooms installation package.</span></span> <span data-ttu-id="628d8-114">キットは、前提条件を準備するときに使用したネットワーク共有または USB ドライブにあります。</span><span class="sxs-lookup"><span data-stu-id="628d8-114">The kit can be found on the network share or USB drive used when preparing prerequisites.</span></span>
+3) <span data-ttu-id="628d8-115">実行`powershell.exe -ExecutionPolicy Unrestricted -File "<path to RecoveryTool.ps1>"`します。</span><span class="sxs-lookup"><span data-stu-id="628d8-115">Run `powershell.exe -ExecutionPolicy Unrestricted -File "<path to RecoveryTool.ps1>"`.</span></span>
+4) <span data-ttu-id="628d8-116">出荷時の復元を実行している場合は、次の手順に従います。</span><span class="sxs-lookup"><span data-stu-id="628d8-116">If you are performing a factory restore:</span></span>
+   - <span data-ttu-id="628d8-117">スクリプトによってプロンプトが表示されたら、[オプション 2:**リセット**] を選びます。</span><span class="sxs-lookup"><span data-stu-id="628d8-117">When prompted by the script select option 2: **Reset**.</span></span>
+   - <span data-ttu-id="628d8-118">BitLocker がオンになっている場合は、スクリプト出力の最後に示されている手順に従って、無効にします。</span><span class="sxs-lookup"><span data-stu-id="628d8-118">If BitLocker is on, follow the instructions provided at the end of the script output to disable it.</span></span>
+   - <span data-ttu-id="628d8-119">出荷時の復元を実行します。</span><span class="sxs-lookup"><span data-stu-id="628d8-119">Perform the factory restore.</span></span>
+      - <span data-ttu-id="628d8-120">**設定**アプリを開き、[**更新] &** の [セキュリティ] を選択します。</span><span class="sxs-lookup"><span data-stu-id="628d8-120">Open the **Settings** app, and select **Update & Security**</span></span>
+      - <span data-ttu-id="628d8-121">[**回復**] タブに移動します。</span><span class="sxs-lookup"><span data-stu-id="628d8-121">Navigate to the **Recovery** tab.</span></span>
+      - <span data-ttu-id="628d8-122">[**この PC をリセット**する] の下で、[**はじめ**に] を選択します。</span><span class="sxs-lookup"><span data-stu-id="628d8-122">Beneath **Reset this PC**, select **Get started**</span></span>
+      - <span data-ttu-id="628d8-123">[**すべて削除**]、[**次へ**]、[**リセット**] の順に選択します。</span><span class="sxs-lookup"><span data-stu-id="628d8-123">Select **Remove everything**, then **Next** and **Reset**</span></span>
+      - <span data-ttu-id="628d8-124">システムが複数回再起動します。</span><span class="sxs-lookup"><span data-stu-id="628d8-124">The system will reboot multiple times.</span></span> <span data-ttu-id="628d8-125">リセットが完了すると、Windows OOBE 画面にシステムが表示されます。</span><span class="sxs-lookup"><span data-stu-id="628d8-125">When the reset is complete, the system will be at the Windows OOBE screen.</span></span>
+5) <span data-ttu-id="628d8-126">"古い" システムを修復する場合は、次の操作を行います。</span><span class="sxs-lookup"><span data-stu-id="628d8-126">If you are repairing an "out of date" system:</span></span>
+    - <span data-ttu-id="628d8-127">スクリプトによってメッセージが表示されたら、[オプション 1:**修復**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="628d8-127">When prompted by the script select option 1: **Repair**.</span></span>
+    - <span data-ttu-id="628d8-128">完了したら、Microsoft Teams 室のデバイスを再起動します。</span><span class="sxs-lookup"><span data-stu-id="628d8-128">Upon completion, reboot the Microsoft Teams Rooms device.</span></span> <span data-ttu-id="628d8-129">自動的に再起動され、2回目の回復が完了します。</span><span class="sxs-lookup"><span data-stu-id="628d8-129">It will reboot again automatically and come up fully recovered the second time.</span></span>
 
-<span data-ttu-id="ed400-119"><a name="Windows-up"> </a></span><span class="sxs-lookup"><span data-stu-id="ed400-119"></span></span>
-## <a name="update-windows-before-recovery-if-needed"></a><span data-ttu-id="ed400-120">回復前に Windows を更新する (必要な場合)</span><span class="sxs-lookup"><span data-stu-id="ed400-120">Update Windows before recovery (if needed)</span></span>
+> [!NOTE]
+> <span data-ttu-id="628d8-130">**[自分のファイルを保持する] でアプリと設定を削除**した場合、Microsoft Teams の会議室が使用できなくなるという既知の問題がありますが、Windows のリセットプロセス中に個人用ファイルオプションが選択されたままになります。</span><span class="sxs-lookup"><span data-stu-id="628d8-130">There is a known issue where the Microsoft Teams Rooms can become unusable if the  **Keep my files - Removes Apps and settings, but keeps your personal files** option is selected during the Windows Reset process.</span></span> <span data-ttu-id="628d8-131">このオプション*は使用しないでください。*</span><span class="sxs-lookup"><span data-stu-id="628d8-131">Do *not* use this option.</span></span>
 
-1. <span data-ttu-id="ed400-121">引き続き管理者ユーザーとしてログインしている場合は、管理者特権の Powershell プロンプトを起動します。</span><span class="sxs-lookup"><span data-stu-id="ed400-121">While still logged in as an admin user, launch an elevated Powershell prompt.</span></span>
-2. <span data-ttu-id="ed400-122">コマンド`Remove-Item -Path 'c:\Recovery\OEM\$oem$\$1\Rigel' -Force -Recurse`を実行します。</span><span class="sxs-lookup"><span data-stu-id="ed400-122">Run the command `Remove-Item -Path 'c:\Recovery\OEM\$oem$\$1\Rigel' -Force -Recurse`.</span></span>
-3. <span data-ttu-id="ed400-123">Windows Update を実行して、Windows 1709 用の更新プログラムをインストールします。</span><span class="sxs-lookup"><span data-stu-id="ed400-123">Run Windows Update and install the update for Windows 1709.</span></span>
-4. <span data-ttu-id="ed400-124">1709への更新が完了したら、管理者アカウントにサインインし直して、 [KB4089848](http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/03/windows10.0-kb4089848-x64_db7c5aad31c520c6983a937c3d53170e84372b11.msu)をインストールします。</span><span class="sxs-lookup"><span data-stu-id="ed400-124">After the update to 1709 is complete sign back into admin account and install [KB4089848](http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/03/windows10.0-kb4089848-x64_db7c5aad31c520c6983a937c3d53170e84372b11.msu).</span></span> <span data-ttu-id="ed400-125">更新は、リンクから、または Windows Update を使用して行うことができます。</span><span class="sxs-lookup"><span data-stu-id="ed400-125">The update may be done from the link or using Windows Update.</span></span>
-5. <span data-ttu-id="ed400-126">オプションの手順として、Windows Update から入手できる追加の更新プログラムをインストールします。</span><span class="sxs-lookup"><span data-stu-id="ed400-126">As an optional step, install any additional updates available from Windows Update.</span></span>
+## <a name="see-also"></a><span data-ttu-id="628d8-132">関連項目</span><span class="sxs-lookup"><span data-stu-id="628d8-132">See also</span></span>
 
-<span data-ttu-id="ed400-127"><a name="Perform"> </a></span><span class="sxs-lookup"><span data-stu-id="ed400-127"></span></span>
-## <a name="perform-a-recovery"></a><span data-ttu-id="ed400-128">回復を実行する</span><span class="sxs-lookup"><span data-stu-id="ed400-128">Perform a recovery</span></span>
+[<span data-ttu-id="628d8-133">Microsoft Teams Rooms ヘルプ</span><span class="sxs-lookup"><span data-stu-id="628d8-133">Microsoft Teams Rooms help</span></span>](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-1. <span data-ttu-id="ed400-129">Microsoft Teams 室のデバイスで管理者アカウントにサインインして、管理者特権のコマンドプロンプトを起動します。</span><span class="sxs-lookup"><span data-stu-id="ed400-129">Sign in to the admin account on your Microsoft Teams Rooms device, and launch an elevated command prompt.</span></span>
-2. <span data-ttu-id="ed400-130">Microsoft teams 室のインストールパッケージから抽出されたファイルに含ま`RecoveryTool.ps1`れているファイルにアクセスできる、microsoft Teams のルームデバイスから確認します。</span><span class="sxs-lookup"><span data-stu-id="ed400-130">Verify from the Microsoft Teams Rooms device that you are able to access the `RecoveryTool.ps1` file, which is included in the files extracted from the Microsoft Teams Rooms installation package.</span></span> <span data-ttu-id="ed400-131">キットは、前提条件を準備するときに使用したネットワーク共有または USB ドライブにあります。</span><span class="sxs-lookup"><span data-stu-id="ed400-131">The kit can be found on the network share or USB drive used when preparing prerequisites.</span></span>
-3. <span data-ttu-id="ed400-132">Powershell .exe コマンド`-ExecutionPolicy Unrestricted -File "<path to RecoveryTool.ps1>"`を実行します。</span><span class="sxs-lookup"><span data-stu-id="ed400-132">Run the Powershell.exe command `-ExecutionPolicy Unrestricted -File "<path to RecoveryTool.ps1>"`.</span></span>
-4. <span data-ttu-id="ed400-133">スクリプト選択オプション`1:"Repair System"`のプロンプトが表示された場合。</span><span class="sxs-lookup"><span data-stu-id="ed400-133">When prompted by the script select option `1:"Repair System"`.</span></span>
-5. <span data-ttu-id="ed400-134">完了したら、Microsoft Teams 室のデバイスを再起動します。</span><span class="sxs-lookup"><span data-stu-id="ed400-134">Upon completion, reboot the Microsoft Teams Rooms device.</span></span> <span data-ttu-id="ed400-135">自動的に再起動され、2回目の回復が完了します。</span><span class="sxs-lookup"><span data-stu-id="ed400-135">It will reboot again automatically and come up fully recovered the second time.</span></span>
-
-
-
-<span data-ttu-id="ed400-136"><a name="See"> </a></span><span class="sxs-lookup"><span data-stu-id="ed400-136"></span></span>  
-## <a name="see-also"></a><span data-ttu-id="ed400-137">関連項目</span><span class="sxs-lookup"><span data-stu-id="ed400-137">See also</span></span>
- 
-[<span data-ttu-id="ed400-138">Microsoft Teams Rooms ヘルプ</span><span class="sxs-lookup"><span data-stu-id="ed400-138">Microsoft Teams Rooms help</span></span>](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
-
-[<span data-ttu-id="ed400-139">Microsoft Teams Rooms を管理する</span><span class="sxs-lookup"><span data-stu-id="ed400-139">Manage Microsoft Teams Rooms</span></span>](skype-room-systems-v2.md)
+[<span data-ttu-id="628d8-134">Microsoft Teams Rooms を管理する</span><span class="sxs-lookup"><span data-stu-id="628d8-134">Manage Microsoft Teams Rooms</span></span>](skype-room-systems-v2.md)
