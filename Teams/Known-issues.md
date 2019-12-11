@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 現在知られている Microsoft Teams クライアント アプリおよび管理エクスペリエンスでの問題の一覧です。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78e5a420bdadf7417388aef48679b28e438aeec4
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: f800fd9e22eb40753a6bd951f548c4bc16499147
+ms.sourcegitcommit: 0dba0ad1f8f00415c6437cadabed0548ce3281b1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37563888"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39919159"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams の既知の問題
 
@@ -37,7 +37,7 @@ ms.locfileid: "37563888"
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
-|Enhanced Mitigation Experience Toolkit (EMET) の EAF ポリシーが、Chromium サンドボックスの最適化を間違って脅威として識別する可能性がある。 <br/> |Enhanced Mitigation Experience Toolkit (EMET) および Windows Defender Advanced Threat Protection (ATP) の Export Address Table Access Filtering (EAF) ポリシーで、Chromium サンドボックスの最適化が間違って脅威として識別されるという、Chromium サンドボックスに関する問題があります。これにより、Teams が正常に機能しません。  <br/> | この問題を回避するには、Teams で EAF をオフにします。この問題の詳細については、[EMET 緩和策のガイドライン](https://support.microsoft.com/ja-JP/help/2909257/emet-mitigations-guidelines)をご覧ください。Windows Defender ATP および EAF ポリシーの詳細については、「[Exploit Protection をカスタマイズする](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection)」をご覧ください。 <br/> |2018 年 10 月 11 日 <br/> |
+|Enhanced Mitigation Experience Toolkit (EMET) の EAF ポリシーが、Chromium サンドボックスの最適化を間違って脅威として識別する可能性がある。 <br/> |Enhanced Mitigation Experience Toolkit (EMET) および Windows Defender Advanced Threat Protection (ATP) の Export Address Table Access Filtering (EAF) ポリシーで、Chromium サンドボックスの最適化が間違って脅威として識別されるという、Chromium サンドボックスに関する問題があります。これにより、Teams が正常に機能しません。  <br/> | この問題を回避するには、Teams で EAF をオフにします。この問題の詳細については、[EMET 緩和策のガイドライン](https://support.microsoft.com/ja-JP/help/2909257/emet-mitigations-guidelines)をご覧ください。Windows Defender ATP および EAF ポリシーの詳細については、「[Exploit Protection をカ有効にする](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/enable-exploit-protection)」をご覧ください。 <br/> |2018 年 10 月 11 日 <br/> |
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
@@ -51,7 +51,7 @@ ms.locfileid: "37563888"
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
-|デスクトップ アプリで「Web サイト」タブを使用すると[条件付きアクセス](https://docs.microsoft.com/ja-JP/azure/active-directory/conditional-access/overview)が機能しない場合がある<br/> |イントラネット ポータルなどの Web サイトに条件付きアクセス ポリシー (ブラウザーや IP アドレスの制限など) が設定されている場合、デスクトップ アプリの Teams 内ではその Web サイトがタブとして表示されないことがあります。 <br/> |デスクトップ アプリを使用する代わりに、ブラウザーで Teams を使用します。  <br/> |2018 年 7 月 1 日  <br/> |
+|デスクトップ アプリで「Web サイト」タブを使用すると[条件付きアクセス](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)が機能しない場合がある<br/> |イントラネット ポータルなどの Web サイトに条件付きアクセス ポリシー (ブラウザーや IP アドレスの制限など) が設定されている場合、デスクトップ アプリの Teams 内ではその Web サイトがタブとして表示されないことがあります。 <br/> |デスクトップ アプリを使用する代わりに、ブラウザーで Teams を使用します。  <br/> |2018 年 7 月 1 日  <br/> |
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
@@ -173,6 +173,44 @@ ms.locfileid: "37563888"
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
 |ゲストによって作成されたチャネルについて Wiki が作成されません  <br/> |ゲストが新しいチャネルを作成するときに、[**Wiki**] タブは作成されません。そのチャネルに [**Wiki**] タブを手動で追加する方法はありません。 <br/> |回避策なし。  <br/> |2017/09/20  <br/>|
+
+## <a name="linux"></a>Linux
+
+|**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
+|:-----|:-----|:-----|:-----|
+|Linux 上の AutoStart が機能していません。 <br/> |Linux 上の AutoStart が Teams アプリケーションを起動しません。 <br/> | <br/> |19/12/05  <br/>|
+
+|**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
+|:-----|:-----|:-----|:-----|
+|スリープ/一時停止の状態から再開するときの白い画面。 <br/> |コンピューターがスリープ モードまたは一時停止モードから再開またはスリープ解除すると、ネットワークが変更され (特にコンピューターがスリープ状態または一時停止状態になる前に VPN に接続されている場合)、コンピューターが接続を再開するのにしばらく時間がかかります。 これらを組み合わせると、Teams の白い画面が表示される場合があります。 <br/> |Teams クライアントを再起動することをお勧めします。  <br/> |19/12/05  <br/>|
+
+|**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
+|:-----|:-----|:-----|:-----|
+|画面共有時にカーソルが表示されません。 <br/> |画面を共有している間、相手には画面を共有しているユーザーのカーソルは表示されません。 <br/> | <br/> |19/12/05  <br/>|
+
+|**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
+|:-----|:-----|:-----|:-----|
+|VMWare ワークステーションと並行して実行することに関する問題。 <br/> |Teams アプリケーションは、VMWare ワークステーションと並行して実行すると問題が発生します。 <br/> | <br/> |19/12/05  <br/>|
+
+|**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
+|:-----|:-----|:-----|:-----|
+|KDE 通知は新しいタスク バーを作成します。<br/> |KDE の通知により、タスク バーに新しいウィンドウが作成されます。 <br/> | <br/> |19/12/05  <br/>|
+
+|**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
+|:-----|:-----|:-----|:-----|
+|パッケージ マネージャーで changelist が表示されません。 <br/> |パッケージ マネージャーで changelist が表示されません。 <br/> | <br/> |19/12/05  <br/>|
+
+|**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
+|:-----|:-----|:-----|:-----|
+|Teams クライアントをオフライン モードで起動できません。 <br/> |Linux クライアントで Teams オフラインを起動できません。 <br/> | <br/> |19/12/05  <br/>|
+
+|**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
+|:-----|:-----|:-----|:-----|
+|会議中のデバイス設定。 <br/> |会議中にデバイス設定を変更すると、マイク インジケーターはピックアップされたものを何も登録しません。 <br/> | <br/> |19/12/05  <br/>|
+
+|**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
+|:-----|:-----|:-----|:-----|
+|キーボードを使用して Teams アプリケーションを閉じることができません。 <br/> |既定 `$mod + shift + q` を使用するか、アプリの閉じるボタンをクリックしても、Teams アプリケーションを閉じることができません。 <br/> | <br/> |19/12/05  <br/>|
 
 ## <a name="meetings"></a>会議
 
