@@ -42,7 +42,6 @@
 ### [概要](deploy-apps-microsoft-teams-landing-page.md)
 ### [アプリのアクセス許可と考慮事項](app-permissions.md)
 ### [Teams でのアプリの管理設定](admin-settings.md)
-### [Teams で個人用チャット、グループ チャット、チャネルのボットを追加する](add-bots.md)
 ### [組み込みタブとカスタム タブの使用](built-in-custom-tabs.md)
 ### [Office 365 コネクタとカスタム コネクタの使用](Office-365-custom-connectors.md)
 ### [基幹業務アプリを管理する](manage-your-lob-apps.md)
@@ -866,6 +865,7 @@
 ### [仮想デスクトップ インフラストラクチャ (VDI) 用の Teams](teams-for-vdi.md)
 ### [Surface Hub の Teams を展開する](teams-surface-hub.md)
 ### [Teams クライアントの更新プログラム](teams-client-update.md)
+### [インストールと更新に関する問題のトラブルシューティング](troubleshoot-installation.md)
 
 ## ライセンス
 ### [Teams へのユーザー アクセスを管理する](user-access.md)
