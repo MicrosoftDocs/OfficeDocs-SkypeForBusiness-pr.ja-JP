@@ -18,12 +18,12 @@ f1keywords:
 - ms.teamsadmincenter.deploymentadvisor.overview
 ms.custom: ''
 description: Teams のアドバイザー (プレビュー) を使用して、Microsoft Teams の展開を計画および完了します。
-ms.openlocfilehash: f7de348c6f8ca60cc1d062fce79725b4b18d0350
-ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
+ms.openlocfilehash: 63a3ae01dbe47323fd9227e65fa8c38a2d725ddf
+ms.sourcegitcommit: dc70fd277d9542d831741e14dba9ae22367210ae
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39209193"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "39909473"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Teams のアドバイザーを使用して、Microsoft Teams の展開を支援する
 
@@ -35,6 +35,8 @@ Teams のアドバイザーは、[Teams 管理センター](https://admin.teams.
 
 > [!IMPORTANT]
 > Teams のアドバイザーは、Microsoft 365 Government - GCC High または DoD 展開では使用できません。
+
+この「[Teams の展開と構成の概要](https://youtu.be/o2mlsUubIO4?t=44)」のビデオで  Teams  のアドバイザーを確認してください (Teams  のアドバイザーは 0:50-3:15 分)。
 
 ## <a name="using-advisor-for-teams-preview"></a>Teams のアドバイザーを使用する (プレビュー)
 

@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eeab39a68827925fa9805380763f2375910ee793
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: c4a0abc9dae0d3c5b7f78106136ceaece3472367
+ms.sourcegitcommit: a23f45ab3a2cb7b5c279356edddf61c4030c41bd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568710"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39961602"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>Microsoft StaffHub の廃止
 
@@ -64,14 +64,7 @@ Teams のシフトアプリは、Firstline Worker を接続して同期させる
 
 #### <a name="which-plans-is-shifts-available-in"></a>シフトはどのプランで利用できますか?
 
-シフトは、追加料金なしで次のプランの Teams の一部として利用できます。
-
-- Office 365 Business Premium 
-- Office 365 Enterprise F1、E1、E3、E5
-- Office 365 (教育機関向け)
-- Microsoft 365 F1、E1、E3、E5
-
-詳細については、「[シフトの利用可否](manage-the-shifts-app-for-your-organization-in-teams.md#availability-of-shifts)」を参照してください。
+シフトは、Teams が利用できるすべての Enterprise Sku で利用できます。
 
 #### <a name="how-do-i-get-shifts"></a>シフトを取得するにはどうすればよいですか? 
 

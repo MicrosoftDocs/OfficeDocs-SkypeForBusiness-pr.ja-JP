@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 753e134e34c68ab139819d8eaffb0ebfeac571cd
-ms.sourcegitcommit: aad6c02b172a1412d3523a3cb3b3400423c0c3e0
+ms.openlocfilehash: 81fc050df43e6f0c6d179601b1a9186974222276
+ms.sourcegitcommit: 1448bb2e66074322b8f4bf234fce36ea9c8f9913
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38670194"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39966710"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Microsoft Teams アプリのハードウェア要件
 
@@ -71,14 +71,8 @@ ms.locfileid: "38670194"
 |デバイス    |   標準のラップトップカメラ、マイク、スピーカー    | 
 |音声    |  互換性のあるマイクとスピーカー、マイク付きヘッドセット、または同等のデバイス       |
 |ビデオ通話と会議 | ビデオ通話とオンライン会議の操作性を向上させるには、2.0 GHz プロセッサと 4.0 GB の RAM (以上) を搭載したコンピューターを使うことをお勧めします。 オプションの [背景ビデオのぼかし] では、高度なベクトル拡張機能 2 (AVX2) がサポートされていて、最も遅い 2013 Mac デバイス以降でサポートされています。 サポートされていないデコーダーとエンコーダーの一覧については、「[ハードウェアデコーダーとエンコーダードライバーの推奨事項](hardware-decoders-and-encoders.md)」を参照してください。
-|サポートされている Linux ディストリビューション | Ubuntu 16.04 LTS *、18.04 LTS、Fedora 30 ワークステーション、RHEL 8 ワークステーション、CentOS 8
+|サポートされている Linux ディストリビューション | Ubuntu 16.04 LTS、18.04 LTS、Fedora 30 ワークステーション、RHEL 8 Workstation、CentOS 8
 
-* Ubuntu 16.04 LTS にインストールする必要がある手順。 libc + + (およびコンパイラなど) のリポジトリが追加され、libc + +: が更新されます。
-```
-sudo add-apt-repository ppa:ubuntu-toolchain-r/test
-sudo apt-get update
-sudo apt-get upgrade
-```
 
 ## <a name="hardware-requirements-for-the-teams-app-on-mobile-devices"></a>モバイルデバイス上の Teams アプリのハードウェア要件
 

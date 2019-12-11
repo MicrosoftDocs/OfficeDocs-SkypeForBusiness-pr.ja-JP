@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52d4410393398e28c1f7ade4af70901703a09418
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 6bd65376be278a3d07e5a7a8c4ba69ccd5408090
+ms.sourcegitcommit: a23f45ab3a2cb7b5c279356edddf61c4030c41bd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568721"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39961612"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織のシフト アプリを管理する
 
@@ -37,9 +37,7 @@ Microsoft Teams の [シフト] アプリでは、Firstline Worker が接続さ�
 
 ## <a name="availability-of-shifts"></a>シフトの可用性
 
-シフトは Teams を含むすべての Office 365 サブスクリプションでご利用いただけますが、いくつかの例外があります。 例外となるのは、米国の Government Community Cloud (GCC) および無料版の Teams です。 シフトは、Office 365 US Government または Teams の無料サービスでは利用できません。
-
-Teams を含む Office 365 サブスクリプションの一覧など、Teams のライセンスの詳細については、「[Teams の Office 365 ライセンス](../../Office-365-licensing.md)」を参照してください。
+シフトは、Teams が利用できるすべての Enterprise Sku で利用できます。
 
 ## <a name="location-of-shifts-data"></a>シフトのデータの場所
 

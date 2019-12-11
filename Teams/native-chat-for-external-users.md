@@ -12,17 +12,15 @@ ms.collection:
 ms.reviewer: vinbel
 search.appverid: MET150
 description: Microsoft Teams の外部アクセス (フェデレーション) ユーザー向けのネイティブなチームチャットエクスペリエンスについて説明します。この機能は、両方のユーザーが teams Sonly アップグレードモードを使用している外部ユーザー間で利用できます。
-ms.openlocfilehash: a7a66693bbff98aa707c369a9da08d0ccfe48f69
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: 572087d86672294b566cd99365599dbead1aa3e7
+ms.sourcegitcommit: 1448bb2e66074322b8f4bf234fce36ea9c8f9913
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37754343"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39966760"
 ---
 <a name="native-chat-experience-for-external-federated-users-in-microsoft-teams"></a>Microsoft Teams の外部 (フェデレーション) ユーザー向けのネイティブチャット操作
 ======================================
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Microsoft Teams ユーザーが外部 (フェデレーション) ユーザーとのチャットを行っている場合、チャットエクスペリエンスはテキストに制限されます。 ただし、Teams テナントと外部ユーザーの両方が Teams Sonly アップグレードモードである場合は、"ネイティブチームチャットエクスペリエンス" を使用できます。これには、リッチな書式設定、@mentions、その他のチャット機能が含まれます。 つまり、組織内のユーザーと同じように、適切な外部ユーザーと同じ1:1 チームチャットエクスペリエンスを提供することができます。 外部ユーザーとのネイティブチームチャットは、依然として1:1 のチャットに限定されます (外部ユーザーはグループチャットを行うことはできません)。
 

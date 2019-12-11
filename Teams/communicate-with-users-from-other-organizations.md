@@ -15,12 +15,12 @@ description: 外部アクセス (フェデレーション) とゲスト アク�
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 39fa50868b60ce78da360d97a2fad5dff9fee09b
-ms.sourcegitcommit: 486eaa85042670edec2231efaf7dae8fa329e852
+ms.openlocfilehash: 4d5ed9c5a5a671b3461761ea206edd109df73f22
+ms.sourcegitcommit: 1448bb2e66074322b8f4bf234fce36ea9c8f9913
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "39665450"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39966770"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>Microsoft Teams の別の組織のユーザーと通信する
 ======================================================
@@ -84,7 +84,7 @@ Teams では既定で外部アクセスが有効になっています。つま�
 <sup>1</sup> ユーザーがゲストとして追加され、ゲスト テナントにゲストとしてサインインしている場合。<br>
 <sup>2</sup> 電子メールまたはセッション開始プロトコル (SIP) アドレスのみ。<br>
 <sup>3</sup> 外部 (フェデレーション) チャットは 1:1 のみ。<br>
-<sup>4</sup> 2 つの異なる組織の Teams のみユーザーの Teams のみの 1:1 チャットでサポートされる。 *これはプレビューまたは先行リリースの機能です。*
+<sup>4</sup> 2 つの異なる組織の Teams のみユーザーの Teams のみの 1:1 チャットでサポートされる。 
 
 ## <a name="related-topics"></a>関連項目
 
