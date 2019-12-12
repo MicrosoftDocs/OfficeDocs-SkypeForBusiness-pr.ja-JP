@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: この記事では、Microsoft Teams のルームでの累積的な改善点について説明します。
-ms.openlocfilehash: e82bd160cf09781605cadaf03245b1cdf31b6908
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: 721acfeb04512a75da225a4c638f15e13b4d5d65
+ms.sourcegitcommit: 4093a3e0d4c72777057d78ab06dc7d49d826c5de
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38676115"
+ms.lasthandoff: 12/12/2019
+ms.locfileid: "39987860"
 ---
 # <a name="release-notes"></a>リリース ノート
 
@@ -27,6 +27,7 @@ ms.locfileid: "38676115"
 
 |リリース |公開先 <br/> Microsoft ストア |
 |--- |--- |
+|4.3.21.0 |12/09/2019 |
 |4.2.4.0 |10/07/2019 |
 |4.1.22.0 |08/15/2019 |
 |4.0.105.0 |07/10/2019 |
@@ -56,6 +57,16 @@ ms.locfileid: "38676115"
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams の会議機能の概要と問題の解決
+
+### <a name="43210-12092019"></a>4.3.21.0 (12/09/2019)
+
+この更新プログラムで導入されたもの:
+
+- この機能を制御するために、近接通信に基づく通話と管理設定を自動応答する
+- デバイス管理者設定 UI の [バージョン情報] タブでのデバイス構成の追加による更新
+- メイン画面に戻る Room コントロール
+- GCC で利用可能な会議室の SKU
+- Surface Pro ベースシステムのコンテンツカメラのサポート 
 
 ### <a name="4240-10072019"></a>4.2.4.0 (10/07/2019)
 
