@@ -353,6 +353,7 @@
 #### [メディア パスの国コード](direct-routing-country-codes.md)
 #### [セッション ボーダー コントローラーの接続をテストする PowerShell スクリプト](sip-tester-powershell-script.md)
 #### [着信通知の管理](direct-routing-call-notifications.md)
+#### [呼び戻しボットをセットアップする](direct-routing-ringback-bot.md)
 
 ## 電話番号
 ### [組織の電話番号を管理する](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
