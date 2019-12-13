@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams で緊急通話ルーティングポリシーを使用および管理する方法について説明します。
 f1keywords: ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: 704becbffc0168c10ab9f357a6f6ffe8431790d2
-ms.sourcegitcommit: 5243494676ffa039fc0a32e6279e5a9a05675eec
+ms.openlocfilehash: 4520bc1d9cc6a4e84a3702e32db859b784ae02bc
+ms.sourcegitcommit: f2c7626dbef4ed250b9a937a9b56d46fe2e2039e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 12/12/2019
-ms.locfileid: "39986958"
+ms.locfileid: "39998805"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>Microsoft Teams で緊急通話ルーティングポリシーを管理する
 
@@ -44,7 +44,7 @@ ms.locfileid: "39986958"
 5. 緊急電話番号のいずれかを定義します。 これを行うには、[**緊急電話番号**] の下で、次の操作を行います。
     1. **緊急ダイヤル文字列**: 緊急ダイヤルの文字列を入力します。 このダイヤル文字列は、通話が緊急通話であることを示します。
         > [!NOTE]
-        > ダイレクトルーティングの場合、緊急電話番号の前に「+」を付けて、Teams クライアントから緊急通報に移行しています。 切り替えが完了するまでは、緊急ダイヤルの文字列に一致するボイスルートのパターンによって、911や + 911 などの前に "+" が含まれている文字列に一致していることを確認する必要があります。 たとえば、^\+? 911 または. * とします。
+        > ダイレクトルーティングの場合、緊急電話番号の前に「+」を付けて、Teams クライアントから緊急通報に移行しています。 切り替えが完了するまでは、緊急ダイヤルの文字列に一致するボイスルートのパターンによって、911や + 911 などの前に "+" が含まれている文字列に一致していることを確認する必要があります。 たとえば、^\\+ 911 または. * とします。
     2. **緊急ダイヤルマスク**: 緊急電話番号ごとに、0個以上の緊急ダイヤルマスクを指定できます。 ダイヤルマスクは、緊急ダイヤルの文字列の値に変換する番号です。 これにより、代替の緊急電話番号にダイヤルすることができます。また、緊急電話サービスにも通話を発信できます。 <br>たとえば、112を緊急ダイヤルのマスクとして追加します。これは、ヨーロッパのほとんどの緊急サービス番号であり、また、緊急ダイヤルの文字列として911です。 他のヨーロッパの Teams ユーザーは、911が米国の緊急電話番号であることを知らない場合があります。また、112の場合は、911に発信されます。 複数のダイヤルマスクを定義するには、各値をセミコロンで区切ります。 たとえば、112; 212 とします。
     3. [ **Pstn 使用状況**]: 公衆交換電話網 (PSTN) 使用量を選択します。 PSTN の使用が許可されているユーザーから緊急通話をルーティングするために使用されるルートを決定するために使用されます。 この使用に関連するルートは、緊急通報専用の SIP トランク、または最も近い公共の安全な応答ポイント (PSAP) に緊急通話をルーティングする緊急電話番号 (ELIN) のゲートウェイを指すようにする必要があります。
 
@@ -114,7 +114,7 @@ $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-O
 ```
 グループ内のすべてのユーザーを特定のチームポリシーに割り当てます。 この例では、HR 緊急通話ルーティングポリシーが使用されています。
 ```
-$members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "HR Emergency Call Routing Policy" -Identity $_.EmailAddress}
+$members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "HR Emergency Call Routing Policy" -Identity $_.UserPrincipalName}
 ``` 
 グループ内のメンバー数によっては、このコマンドの実行に数分かかる場合があります。
 

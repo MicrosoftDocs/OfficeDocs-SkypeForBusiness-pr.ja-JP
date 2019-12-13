@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8ea5133998e9d11e5ab070ffe66f7e719252ee5
-ms.sourcegitcommit: 0dba0ad1f8f00415c6437cadabed0548ce3281b1
+ms.openlocfilehash: f3332f25366ea79d69bb95727f01651cb158de53
+ms.sourcegitcommit: c2e315d0fcec742d2e1ba5ad90dffd1a1157a466
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39919149"
+ms.lasthandoff: 12/13/2019
+ms.locfileid: "40002241"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams のクライアントを取得する 
 
@@ -99,7 +99,7 @@ IT 管理者は、Teams の管理の展開を使用して、Jamf Pro などの�
 > [!NOTE]
 > パッケージのインストールで問題が発生した場合は、報告してください。 この記事の最後の**フィードバック**セクションで、**製品のフィードバック**をクリックします。
 
-### <a name="linux"></a>走ら
+### <a name="linux"></a>Linux
 
 ユーザーは、ネイティブの`.deb` Linux パッケージと`.rpm`形式をインストールできます。
 DEB または RPM パッケージをインストールすると、パッケージリポジトリが自動的にインストールされる
@@ -110,7 +110,7 @@ DEB または RPM パッケージをインストールすると、パッケー�
 
 > [!NOTE] 
 > バグが見つかった場合は、クライアント内`Report a Problem`からそのバグを送信します。 既知の問題については、「[既知の問題](Known-issues.md)」をご覧ください。
-> Linux 向け Teams のサポートについては、(Microsoft Q&A) [https://docs.microsoft.com/answers/topics/teams.html] (linux フォーラムサポートチャネル) を使用できます。 質問を投稿するとき`teams-linux`は必ずタグを使用してください。 
+> Linux 向け Teams のサポートについては[、Microsoft Q&A の linux フォーラムサポートチャネル](https://docs.microsoft.com/answers/topics/teams.html)をご利用いただけます。 質問を投稿するとき`teams-linux`は必ずタグを使用してください。 
 
 #### <a name="install-teams-using-deb-package"></a>DEB パッケージを使用して Teams をインストールする
 

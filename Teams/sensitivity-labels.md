@@ -15,12 +15,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams で機密ラベルを定義して使用する方法について説明します。
-ms.openlocfilehash: 3a0c40a51653a525587a0662949a3fdd4e63faf4
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: 899bf8c3dc187df6fa5e035817458a10330c66a6
+ms.sourcegitcommit: c2e315d0fcec742d2e1ba5ad90dffd1a1157a466
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38653593"
+ms.lasthandoff: 12/13/2019
+ms.locfileid: "40002321"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Microsoft Teams の機密ラベル
 
@@ -34,9 +34,41 @@ ms.locfileid: "38653593"
 
 一方、機密ラベルとそのポリシーは、グループプラットフォーム、セキュリティ & コンプライアンスセンター、および Teams サービスの組み合わせによって、自動的にエンドツーエンドで適用されます。 機密ラベルを使用すると、組織の機密データをセキュリティで保護するための強力なインフラストラクチャサポートが提供されます。  
 
-## <a name="create-and-publish-sensitivity-labels-for-teams"></a>チームの機密ラベルを作成して公開する
+## <a name="create-manage-and-publish-sensitivity-labels-for-teams"></a>Teams の機密ラベルを作成、管理、および公開する
 
 Teams の機密ラベルを有効にし、作成して発行する方法については、「 [Microsoft Teams、Office 365 グループ、SharePoint サイトで機密ラベルを使用](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)する」を参照してください。
+
+>[!IMPORTANT]
+>機密ラベルの作成、更新、削除には、ユーザーにラベルを発行するための順序を慎重に付ける必要があります。 順序を逸脱すると、すべてのユーザーに対して永続的なチーム作成エラーが発生する可能性があります。 したがって、<a href="#createpublishlabels">ラベルの作成と発行</a>、発行された<a href="#modifydeletelabels">ラベルの変更と削除</a>、<a href="#manageerrors">チーム作成エラーの管理</a>を行う場合は、次の操作を実行することが重要です。
+
+<a name="createpublishlabels"></a> **ラベルを作成して発行する**
+
+セキュリティ & コンプライアンスセンターでラベルを作成して公開するときに、ラベルが teams 作成インターフェイスに表示されるまでに最大24時間かかることがあります。 テナントのすべてのユーザーのラベルを発行するには、次の手順を実行します。
+1. ラベルを作成して、テナント内のいくつかの選択されたユーザーアカウントに公開します。
+2. ラベルが公開されたら、24時間待ちます。
+3. 24時間後に、ラベルにアクセスできるいずれかのユーザーアカウントを使用して、ラベルを含むチームを作成してみてください。
+4. 手順3でチームが正常に作成された場合は、テナントに残りのユーザーのラベルを公開します。
+
+<a name="modifydeletelabels"></a> **公開したラベルを変更および削除**する
+
+機密ポリシーに関連付けられているラベルを削除または変更すると、テナントでのチームの作成エラーが発生する可能性があります。 したがって、ラベルを削除または変更する前に、最初にラベルと関連付けられているポリシーの関連付けを解除する必要があります。 次の手順を使用します。  
+ラベルを削除または変更するには、次の操作を行います。
+1. ラベルを使用するすべてのポリシーからラベルを削除します。 または、ポリシー自体を削除することもできます。
+2. ラベルがポリシーから削除された場合やポリシー自体が削除された場合は、さらに作業を続ける前に、48時間待ちます。
+3. 48時間経過したら、チーム作成インターフェイスを起動し、テナント内のユーザーのラベルが表示されなくなったことを確認します。
+4. これで、ラベルを安全に削除または変更できます。
+
+**チーム作成エラー** <a name="manageerrors"></a>を管理する
+
+パブリックプレビューの途中でチームの作成が失敗する場合は、次の2つのオプションがあります。
+ - チームを作成するときに、すべてのユーザーが秘密度のラベルを必須にしないようにします。
+ - 「[このプレビューを有効にする](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#enable-this-preview)」のスクリプトを使用して、機密ラベルをオフにします。
+
+EnableMIPLabels の設定は、次のように false に設定する必要があることに注意してください。
+
+```
+$setting["EnableMIPLabels"] = "False"
+ ```
 
 ## <a name="using-sensitivity-labels-with-teams"></a>Teams で秘密度ラベルを使用する
 
