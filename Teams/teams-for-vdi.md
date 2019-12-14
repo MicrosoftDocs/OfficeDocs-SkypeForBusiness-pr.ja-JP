@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ac9b520334b29df8f2fc05808b32f2e73db8557
-ms.sourcegitcommit: 1448bb2e66074322b8f4bf234fce36ea9c8f9913
+ms.openlocfilehash: fd9440ce7c4d35af28e577c9d9e01845f298ef01
+ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39966780"
+ms.lasthandoff: 12/13/2019
+ms.locfileid: "40020061"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>仮想デスクトップ インフラストラクチャ用の Teams
 
@@ -68,12 +68,14 @@ Citrix の仮想アプリとデスクトップ (以前は XenApp と XenDesktop)
 
 最新のサーバーとクライアントの要件については、[この Citrix の web サイト](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html)を参照してください。
 
-## <a name="install-the-teams-desktop-app-on-vdi"></a>VDI に Teams デスクトップアプリをインストールする
+## <a name="install-or-update-the-teams-desktop-app-on-vdi"></a>VDI で Teams デスクトップアプリをインストールまたは更新する
 
 MSI パッケージを使用してコンピューターごとのインストールまたはユーザーごとのインストールを使用して、VDI 用の Teams デスクトップアプリを展開することができます。 使用する方法を決定するのは、永続的なセットアップと非永続的な設定のどちらを使用するか、または組織に関連する機能のニーズによって異なります。
 専用の永続的なセットアップの場合、どちらのアプローチも機能します。  ただし、非永続的なセットアップでは、チームが効率的に作業するために、コンピューターごとにインストールする必要があります。 「[非永続的なセットアップ](#non-persistent-setup)」セクションを参照してください。
 
 コンピューター単位のインストールでは、自動更新が無効になっています。 つまり、Teams アプリを更新するには、現在のバージョンをアンインストールして、新しいバージョンに更新する必要があります。 ユーザーごとのインストールでは、自動更新が有効になっています。 ほとんどの VDI の展開では、コンピューターごとのインストールを使用してチームを展開することをお勧めします。
+
+最新のチームバージョンに更新するには、まずアンインストール手順を実行し、次に最新のチームバージョン展開を実行します。
 
 VDI 環境での Teams の AV 最適化を適切に機能させるには、シンクライアントエンドポイントがインターネットにアクセスできる必要があります。 インターネットアクセスがシンクライアントエンドポイントで利用できない場合、最適化の起動は成功しません。 これは、ユーザーが最適化されていないメディアの状態であることを意味します。
 
@@ -93,7 +95,7 @@ VDI 環境での Teams の AV 最適化を適切に機能させるには、シ�
 
 非永続的なセットアップでは、ユーザーのローカルオペレーティングシステムによる変更は、ユーザーがログオフした後も保持されません。 このようなセットアップは、一般的に共有されているマルチユーザーセッションです。 VM 構成は、ユーザー数と利用可能な物理ボックスリソースによって異なります。
 
-非永続的なセットアップの場合、Teams デスクトップアプリはコンピューターごとにゴールデンイメージにインストールする必要があります。 詳細については、「 [VDI に Teams デスクトップアプリをインストール](#install-the-teams-desktop-app-on-vdi)する」セクションを参照してください。 これにより、ユーザーセッション中に Teams アプリを効率的に起動することができます。 非永続的なセットアップで Teams を使用する場合も、効率的な Teams のランタイムデータ同期のためのプロファイルキャッシュマネージャーが必要です。これにより、適切なユーザー固有の情報 (ユーザーデータ、プロファイル、設定など) がユーザーセッション中にキャッシュされます。  さまざまなキャッシュマネージャーソリューションを利用できます。 たとえば、 [Fslogix](https://docs.microsoft.com/fslogix/overview)となります。 特定の構成手順については、キャッシュマネージャープロバイダーにお問い合わせください。
+非永続的なセットアップの場合、Teams デスクトップアプリはコンピューターごとにゴールデンイメージにインストールする必要があります。 詳細については、「 [VDI 上の Teams デスクトップアプリをインストールまたは更新](#install-or-update-the-teams-desktop-app-on-vdi)する」セクションを参照してください。 これにより、ユーザーセッション中に Teams アプリを効率的に起動することができます。 非永続的なセットアップで Teams を使用する場合も、効率的な Teams のランタイムデータ同期のためのプロファイルキャッシュマネージャーが必要です。これにより、適切なユーザー固有の情報 (ユーザーデータ、プロファイル、設定など) がユーザーセッション中にキャッシュされます。  さまざまなキャッシュマネージャーソリューションを利用できます。 たとえば、 [Fslogix](https://docs.microsoft.com/fslogix/overview)となります。 特定の構成手順については、キャッシュマネージャープロバイダーにお問い合わせください。
 
 ##### <a name="teams-cached-content-exclusion-list-for-non-persistent-setup"></a>非永続的なセットアップ用の Teams キャッシュされたコンテンツ除外リスト
 
@@ -110,11 +112,11 @@ Office 365 ProPlus で VDI に Teams を展開する場合は、次の点を考�
 
 Office 365 ProPlus を通じてチームを展開する前に、コンピューターごとのインストールを使用して展開された既存の Teams アプリをアンインストールする必要があります。
 
-Office 365 ProPlus を通じた Teams は、ユーザーごとにインストールされます。 詳細については、「 [VDI に Teams デスクトップアプリをインストール](#install-the-teams-desktop-app-on-vdi)する」セクションを参照してください。
+Office 365 ProPlus を通じた Teams は、ユーザーごとにインストールされます。 詳細については、「 [VDI 上の Teams デスクトップアプリをインストールまたは更新](#install-or-update-the-teams-desktop-app-on-vdi)する」セクションを参照してください。
 
 #### <a name="teams-deployments-through-office-365-proplus-updates"></a>Office 365 ProPlus の更新プログラムを通じた Teams の展開
 
-Teams は、Office 365 ProPlus の既存のインストールにも追加されています。 Office 365 ProPlus では、ユーザーごとにチームをインストールするため、「 [VDI に teams デスクトップアプリをインストール](#install-the-teams-desktop-app-on-vdi)する」セクションを参照してください。
+Teams は、Office 365 ProPlus の既存のインストールにも追加されています。 Office 365 ProPlus はユーザーごとにチームをインストールするため、「 [VDI 上の teams デスクトップアプリをインストールまたは更新](#install-or-update-the-teams-desktop-app-on-vdi)する」セクションを参照してください。
 
 #### <a name="using-teams-with-per-machine-installation-and-office-365-proplus"></a>コンピューターごとのインストールと Office 365 ProPlus で Teams を使用する
 
@@ -331,7 +333,8 @@ PowerShell を使用して会議のポリシーを管理する方法の詳細に
 
 ### <a name="client-deployment-installation-and-setup"></a>クライアントの展開、インストール、セットアップ
 
-- コンピューターごとにインストールする場合、vdi の Teams は非 VDI Teams クライアントとして自動的に更新されることはありません。 「 [VDI 上の Teams デスクトップアプリをインストール](#install-the-teams-desktop-app-on-vdi)する」セクションの説明に従って、新しい MSI をインストールして VM イメージを更新する必要があります。 最新バージョンに更新するには、現在のバージョンをアンインストールする必要があります。
+- コンピューターごとにインストールする場合、vdi の Teams は非 VDI Teams クライアントとして自動的に更新されることはありません。 「 [VDI 上の Teams デスクトップアプリをインストールまたは更新](#install-or-update-the-teams-desktop-app-on-vdi)する」セクションで説明されているように、新しい MSI をインストールして VM イメージを更新する必要があります。 最新バージョンに更新するには、現在のバージョンをアンインストールする必要があります。
+- チームは、ユーザーごとまたはコンピューターごとに展開する必要があります。 同時ユーザー数とコンピューター単位のチームの展開はサポートされません。  コンピューターごとまたはユーザーごとに、これらのモードのいずれかに移行するには、アンインストール手順に従い、どちらかのモードに再展開します。
 - 現時点では、MacOs および Linux ベースのクライアントは Citrix でサポートされていません。
 - Citrix は、エンドポイントで定義された明示的な HTTP プロキシの使用をサポートしていません。 
 

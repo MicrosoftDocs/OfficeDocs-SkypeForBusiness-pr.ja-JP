@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Phone システムのダイレクトルーティングを構成する方法について説明します。
-ms.openlocfilehash: 55f4fbb0f4faa70f73c742e8e849bc258dbfd481
-ms.sourcegitcommit: c2e315d0fcec742d2e1ba5ad90dffd1a1157a466
+ms.openlocfilehash: 3524d3d41db02dbc123700ae259386bb97257bbd
+ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 12/13/2019
-ms.locfileid: "40002301"
+ms.locfileid: "40020071"
 ---
 # <a name="configure-direct-routing"></a>ダイレクト ルーティングを構成する
 
@@ -105,7 +105,7 @@ Enabled               : True
 </pre>
 ペアリングプロセス中に設定できるその他のオプションがあります。 ただし、前の例では、必須の最小パラメーターのみが表示されています。 
  
-次の表に、パラメーターの設定に使用できるその他のパラメーターを示します。`New-CsOnlinePstnGateway`
+次の表は、の```New-CsOnlinePstnGateway```パラメーターの設定に使用できるその他のパラメーターを示しています。
 
 |必須。|名前|説明|既定|可能な値|種類と制限|
 |:-----|:-----|:-----|:-----|:-----|:-----|
@@ -130,7 +130,7 @@ Enabled               : True
 
 SBC をペアリングした後、リモート PowerShell セッションで次のコマンドを実行して、SBC が、[ペアリングされた SBCs] のリストに存在することを確認します。`Get-CSOnlinePSTNGateway`
 
-次の例に示すように、ペアリングされたゲートウェイがリストに表示されていることを確認し、*有効になっ*ているパラメーターの値が**True**であることを確認します。 ください
+次の例に示すように、ペアリングされたゲートウェイがリストに表示され、**有効になっ**ているパラメーターに**True**の値が表示されていることを確認します。 ください
 
 ```
 Get-CsOnlinePSTNGateway -Identity sbc.contoso.com  
@@ -293,10 +293,11 @@ Get-CSOnlinePSTNUsage
 ``` 
 これは、切り捨てられる可能性がある名前のリストを返します。
 ```
-  Identity  : Global
-  Usage     : {testusage, US and Canada, International, karlUsage. . .}
+Identity    : Global
+Usage       : {testusage, US and Canada, International, karlUsage. . .}
 ```
-次の例では、PowerShell コマンド`(Get-CSOnlinePSTNUsage).usage`を実行して完全な名前を表示できます (トランケートされません)。 
+次の例では、PowerShell コマンド`(Get-CSOnlinePSTNUsage).usage`を実行して完全な名前を表示できます (トランケートされません)。
+
 <pre>
  testusage
  US and Canada
@@ -313,20 +314,20 @@ Get-CSOnlinePSTNUsage
 
 "Redmond 1" ルートを作成するには、次のように入力します。
 
-  ```
-  New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)
-  (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
-  ```
+```
+New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)
+(\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
+```
 
 戻り値:
 <pre>
 Identity                : Redmond 1
-Priority            : 1
-Description         :
-NumberPattern       : ^\+1(425|206) (\d{7})$
-OnlinePstnUsages    : {US and Canada}
+Priority                : 1
+Description             :
+NumberPattern           : ^\+1(425|206) (\d{7})$
+OnlinePstnUsages        : {US and Canada}
 OnlinePstnGatewayList   : {sbc1.contoso.biz, sbc2.contoso.biz}
-Name            : Redmond 1
+Name                    : Redmond 1
 </pre>
 レドモンド2ルートを作成するには、次のように入力します。
 
@@ -347,14 +348,13 @@ New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
 
 場合によっては、すべての通話を同じ SBC にルーティングする必要があります。-番号パターン ". *" を使用してください。
 
-- すべての通話を同じ SBC にルーティングする
+すべての通話を同じ SBC にルーティングします。
 
-    ```
-    Set-CsOnlineVoiceRoute -id "Redmond 1" -NumberPattern ".*" 
-     -OnlinePstnGatewayList sbc1.contoso.biz
-    ```
+```
+Set-CsOnlineVoiceRoute -id "Redmond 1" -NumberPattern ".*" -OnlinePstnGatewayList sbc1.contoso.biz
+```
 
-次の`Get-CSOnlineVoiceRoute`ようなオプションを使用して PowerShell コマンドを実行して、ルートが正しく構成されていることを確認します。 
+次の`Get-CSOnlineVoiceRoute`ようなオプションを使用して PowerShell コマンドを実行して、ルートが正しく構成されていることを確認します。
 
 ```
 Get-CsOnlineVoiceRoute | Where-Object {($_.priority -eq 1) -or ($_.priority -eq 2) or ($_.priority -eq 4) -Identity "Redmond 1" -NumberPattern "^\+1(425|206) (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
@@ -398,7 +398,7 @@ New-CsOnlineVoiceRoutingPolicy "US Only" -OnlinePstnUsages "US and Canada"
 結果は、次の例のように表示されます。
 
 <pre>
-Identity        : Tag:US only
+Identity            : Tag:US only
 OnlinePstnUsages    : {US and Canada}
 Description         :
 RouteType           : BYOT
@@ -406,20 +406,23 @@ RouteType           : BYOT
 
 **手順 4:** Spencer には、PowerShell を使用してボイスルーティングポリシーを低いユーザーに付与します。
 
-- Skype for Business Online の PowerShell セッションで、次のように入力します。
+Skype for Business Online の PowerShell セッションで、次のように入力します。
 
-    ```Grant-CsOnlineVoiceRoutingPolicy -Identity "Spencer Low" -PolicyName "US Only"```
+```
+Grant-CsOnlineVoiceRoutingPolicy -Identity "Spencer Low" -PolicyName "US Only"
+```
 
-- このコマンドを入力して、ポリシーの割り当てを確認します。
+このコマンドを入力して、ポリシーの割り当てを確認します。
 
 ```
 Get-CsOnlineUser "Spencer Low" | select OnlineVoiceRoutingPolicy
 ```
+
 戻り値:
 <pre>
-    OnlineVoiceRoutingPolicy
-    ---------------------
-    US Only
+OnlineVoiceRoutingPolicy
+---------------------
+US Only
 </pre>
 
 #### <a name="creating-a-voice-routing-policy-with-several-pstn-usages"></a>複数の PSTN 使用を使用した音声ルーティングポリシーの作成
@@ -461,68 +464,76 @@ John 森–任意の番号に通話を発信できます。 Redmond の番号範
 PSTN の使用方法として、"インターナショナル"、音声ルート "インターナショナル"、"ボイスルーティングポリシー" (制限なし)、ユーザーを "John 森" に割り当てる手順は次のとおりです。
 
 
-1. まず、PSTN の使用状況として「国際」を作成します。 Skype for Business Online のリモート PowerShell セッションで、次のように入力します。
+**手順 1**: PSTN 使用量「国際」を作成します。 
 
-   ```
-   Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="International"}
-   ```
+Skype for Business Online のリモート PowerShell セッションで、次のように入力します。
 
-2. 次に、[国際] という新しいボイスルートを作成します。
+```
+Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="International"}
+```
 
-   ```
-   New-CsOnlineVoiceRoute -Identity "International" -NumberPattern ".*" -OnlinePstnGatewayList sbc2.contoso.biz, sbc5.contoso.biz -OnlinePstnUsages "International"
-   ```
-   戻り値:
+**手順 2**: 新しいボイスルート "国際" を作成します。
 
-   <pre>
-   Identity                  : International 
-   Priority                      : 5
-   Description                   : 
-   NumberPattern                 : .*
-   OnlinePstnUsages          : {International} 
-   OnlinePstnGatewayList           : {sbc2.contoso.biz, sbc5.contoso.biz}
-   Name                            : International
-   </pre>
-3. 次に、「制限なし」という音声ルーティングポリシーを作成します。 PSTN の利用状況 "レドモンド 1" と "Redmond" は、電話番号 "+ 1 425 XXX XX XX" と "+ 1 206 XXX XX XX" への通話に対する特別な処理を、ローカルまたはオンプレミスの通話として維持するために、この音声ルーティングポリシーで再利用されています。
+```
+New-CsOnlineVoiceRoute -Identity "International" -NumberPattern ".*" -OnlinePstnGatewayList sbc2.contoso.biz, sbc5.contoso.biz -OnlinePstnUsages "International"
+```
+戻り値:
+
+<pre>
+Identity                  : International
+Priority                  : 5
+Description               :
+NumberPattern             : .*
+OnlinePstnUsages          : {International}
+OnlinePstnGatewayList     : {sbc2.contoso.biz, sbc5.contoso.biz}
+Name                      : International
+</pre>
+
+**手順 3**: 音声ルーティングポリシーを作成する "制限なし"。 
+
+PSTN の利用状況 "レドモンド 1" と "Redmond" は、電話番号 "+ 1 425 XXX XX XX" と "+ 1 206 XXX XX XX" への通話に対する特別な処理を、ローカルまたはオンプレミスの通話として維持するために、この音声ルーティングポリシーで再利用されています。
 
    ```
    New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
    ```
 
-    PSTN の使用順序に注意してください。
+PSTN の使用順序に注意してください。
 
-    a. 次の例のように、利用状況を設定して、"+ 1 425 XXX XX XX" という数値を指定した場合は、通話は "US およびカナダ" の使用に設定され、特殊なルーティングロジックが適用されます。 つまり、sbc1.contoso.biz と sbc2.contoso.biz を使用して通話がルーティングされ、次にバックアップルートとして sbc3.contoso.biz と sbc4.contoso.biz が送信されます。 
+a. 次の例のように、利用状況を設定して、"+ 1 425 XXX XX XX" という数値を指定した場合は、通話は "US およびカナダ" の使用に設定され、特殊なルーティングロジックが適用されます。 つまり、sbc1.contoso.biz と sbc2.contoso.biz を使用して通話がルーティングされ、次にバックアップルートとして sbc3.contoso.biz と sbc4.contoso.biz が送信されます。
 
-    b.  "国際" という PSTN の使用が "US とカナダ" よりも前にある場合は、ルーティングロジックの一部として、+ 1 425 XXX XX XX への通話が sbc2.contoso.biz と sbc5.contoso.biz にルーティングされます。 コマンドを入力します。
+b. "国際" という PSTN の使用が "US とカナダ" よりも前にある場合は、ルーティングロジックの一部として、+ 1 425 XXX XX XX への通話が sbc2.contoso.biz と sbc5.contoso.biz にルーティングされます。 コマンドを入力します。
 
-    ```New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"```
+```
+New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
+```
 
-   戻り値
-
-  <pre>
-   Identity     : International 
-   OnlinePstnUsages     : {US and Canada, International}     
-   Description      :  
-   RouteType        : BYOT
-  </pre>
-
-4. 次のコマンドを使用して、ボイスルーティングポリシーをユーザーの "John 森" に割り当てます。
-
-   ```
-   Grant-CsOnlineVoiceRoutingPolicy -Identity "John Woods" -PolicyName "No Restrictions”
-   ```
-
-   次に、コマンドを使用して課題を確認します。 
-
-   ```
-   Get-CsOnlineUser "John Woods" | Select OnlineVoiceRoutingPolicy
-   ```
-   戻り値:
+戻り値
 
 <pre>
-    OnlineVoiceRoutingPolicy
-    ------------------------
-    No Restrictions
+Identity              : International 
+OnlinePstnUsages : {US and Canada, International}    
+Description      :  
+RouteType             : BYOT
+</pre>
+
+**手順 4**: 次のコマンドを使用して、ボイスルーティングポリシーをユーザーの "John 森" に割り当てます。
+
+```
+Grant-CsOnlineVoiceRoutingPolicy -Identity "John Woods" -PolicyName "No Restrictions”
+```
+
+次に、コマンドを使用して課題を確認します。 
+
+```
+Get-CsOnlineUser "John Woods" | Select OnlineVoiceRoutingPolicy
+```
+
+戻り値:
+
+<pre>
+OnlineVoiceRoutingPolicy
+------------------------
+No Restrictions
 </pre>
 
 結果として、John 森の通話に適用されるボイスポリシーは無制限であり、米国、カナダ、国際通話で利用可能な通話ルーティングのロジックに従うことになります。
@@ -531,11 +542,90 @@ PSTN の使用方法として、"インターナショナル"、音声ルート 
 
 直接ルーティングを使うには、チームクライアントで着信通話を確実にするために、ユーザーが Teams 専用モードになっている必要があります。 ユーザーをチームのみのモードに配置するには、TeamsUpgradePolicy の "UpgradeToTeams" インスタンスを割り当てます。 組織で Skype for Business Server または Skype for Business Online を使用している場合は、次の記事を参照してください。 Skype と Teams の間の相互運用性については、「 [skype For business でチームを使用する](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype)」を参照してください。 
 
-
 ## <a name="configuring-sending-calls-directly-to-voicemail"></a>ボイスメールに直接通話を送信するように設定する
 
 ダイレクトルーティングを使うと、ユーザの通話を終了してユーザのボイスメールに直接送ることができます。 直接ボイスメールに通話を送信するには、符号化 = app: ボイスメールを要求 URI ヘッダーに接続してください。 たとえば、"sip: user@yourdomain、不透明 = アプリ: ボイスメール" です。
 この場合、Teams ユーザーは呼び出し通知を受信しません。通話はユーザーのボイスメールに直接接続されます。
+
+## <a name="translate-caller-and-callee-numbers-for-outbound-and-inbound-calls-to-an-alternate-format"></a>送信および着信通話の代わりの形式に対して、発信者と着信者の番号を変換する
+
+テナント管理者は、作成したパターンに基づいて、発信または着信の呼び出し先または着信者番号を変更して、SBCs との相互運用性を実現することができます。 電話番号の翻訳ルールポリシーを設定して、呼び出し元または発信者番号を別の形式に変換することができます。 ポリシーを使用して、次のような数値を翻訳できます。
+
+- 着信通話: PSTN エンドポイントからチームクライアント (呼び出し元) への通話。
+- 発信通話: チームクライアント (発信者) から PSTN エンドポイント (呼び出し先) への通話。
+
+ポリシーは、SBC レベルで適用されます。 複数の翻訳ルールを SBC に割り当てることができます。これは、PowerShell でそれらをリストしたときに表示される順序で適用されます。 ポリシーのルールの順序を変更することもできます。
+
+数値操作ルールを作成、変更、表示、削除するには、TeamsTranslationRule、TeamsTranslationRule、TeamsTranslationRule、および TeamsTranslationRule コマンドレットを使用します。
+
+SBCs で番号操作ルールを割り当て、構成、および一覧表示するには、、、、、、、および```OutboundPSTNNumberTranslationRulesList```パラメーターを```InboundTeamsNumberTranslationRules```使用```InboundPSTNNumberTranslationRules```し```OutboundTeamsNumberTranslationRules```て```OutboundPSTNNumberTranslationRules```、 ```InboundTeamsNumberTranslationRulesList```CSOnlinePSTNGateway ```InboundPSTNNumberTranslationRulesList```と```OutboundTeamsNumberTranslationRulesList``` [CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway)コマンドレットを併用します。 [](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway)
+
+### <a name="examples"></a>例
+
+#### <a name="example-sbc-configuration"></a>SBC 構成の例
+
+このシナリオの例では、 ```New-CsOnlinePSTNGateway```コマンドレットを実行して、次の SBC 構成を作成します。
+
+```
+New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignallingPort 5061 –InboundTeamsNumberTranslationRulesList ‘AddPlus1’, ‘AddE164SeattleAreaCode’ -InboundPSTNNumberTranslationRulesList ‘AddPlus1’ -OnboundPSTNNumberTranslationRulesList ‘AddSeattleAreaCode’,  -OutboundTeamsNumberTranslationRulesList ‘StripPlus1’
+```
+
+SBC に割り当てられている翻訳ルールは、次の表のようにまとめられています。
+
+|名前  |実線 |変換  |
+|---------|---------|---------|
+|AddPlus1     |^ (\d{10}) $          |+1$1          |
+|AddE164SeattleAreaCode      |^ (\d{4}) $          | + 1206555 $ 1         |
+|AddSeattleAreaCode    |^ (\d{4}) $          | 425555 $ 1         |
+|StripPlus1    |^ + 1 (\d{10}) $          | $1         |
+
+このようなシナリオでは、Alice と Bob の2人のユーザーがいます。 アリスは Teams ユーザーで、この番号は + 1 206 555 0100 です。 ボブは PSTN ユーザーで、その番号は + 1 425 555 0100 です。
+
+#### <a name="example-1-inbound-call-to-a-ten-digit-number"></a>例 1:10 桁の番号への着信通話
+
+ボブの10桁の数字以外の番号を使用してアリスが通話を発信します。 ボブは、アリスに連絡するために2065550100をダイヤルします。
+SBC は、RequestURI で2065550100を使用し、From ヘッダーではヘッダーと4255550100を使用します。
+
+|Header  |翻訳元 |翻訳済みヘッダー |パラメーターとルールの適用  |
+|---------|---------|---------|---------|
+|RequestURI  |Sip:2065550100@sbc.contoso.com を招待する|Sip:+12065550100@sbc.contoso.com を招待する|InboundTeamsNumberTranslationRulesList 'AddPlus1'|
+|宛先    |宛先: \<sip:2065550100@sbc.contoso.com>|宛先: \<sip:+12065550100@sbc.contoso.com>|InboundTeamsNumberTranlationRulesList 'AddPlus1'|
+|差出人   |差出人: \<sip:4255550100@sbc.contoso.com>|差出人: \<sip:+14255550100@sbc.contoso.com>|InboundPSTNNumberTranslationRulesList 'AddPlus1'|
+
+#### <a name="example-2-inbound-call-to-a-four-digit-number"></a>例 2: 4 桁の番号への着信通話
+
+ボブは、4桁の数字を使って Alice と通話します。 ボブは、アリスに連絡するために0100をダイヤルします。
+SBC は、RequestURI で0100を使用し、From ヘッダーではヘッダーと4255550100を使用します。
+
+|Header  |翻訳元 |翻訳済みヘッダー |パラメーターとルールの適用  |
+|---------|---------|---------|---------|
+|RequestURI  |Sip:0100@sbc.contoso.com を招待する          |Sip:+12065550100@sbc.contoso.com を招待する           |InboundTeamsNumberTranlationRulesList 'AddE164SeattleAreaCode'        |
+|宛先    |宛先: \<sip:0100@sbc.contoso.com>|宛先: \<sip:+12065550100@sbc.contoso.com>|InboundTeamsNumberTranlationRulesList 'AddE164SeattleAreaCode'         |
+|差出人   |差出人: \<sip:4255550100@sbc.contoso.com>|差出人: \<sip:+14255550100@sbc.contoso.com>|InboundPSTNNumberTranlationRulesList 'AddPlus1'        |
+
+#### <a name="example-3-outbound-call-using-a-ten-digit-non-e164-number"></a>例 3:10 桁の番号を使用した発信通話
+
+アリスは、10桁の数字を使ってボブを呼び出します。 アリスは、425 555 0100 にダイヤルしてボブに連絡します。
+SBC は、Teams と PSTN の両方の10桁の10桁の番号を使用するように構成されています。
+
+このシナリオでは、ダイヤルプランによって電話番号がダイレクトルーティングインターフェイスに送信される前に変換されます。 アリスが Teams クライアントに 425 555 0100 を入力すると、その番号は国のダイヤルプランによって + 14255550100 に変換されます。 結果として得られる数値は、ダイヤルプランのルールと Teams の翻訳ルールの累積正規化です。 Teams の翻訳ルールは、ダイヤルプランによって追加された "+ 1" を削除します。
+
+|Header  |翻訳元 |翻訳済みヘッダー |パラメーターとルールの適用  |
+|---------|---------|---------|---------|
+|RequestURI  |Sip:+14255550100@sbc.contoso.com を招待する          |Sip:4255550100@sbc.contoso.com を招待する       |OutboundPSTNNumberTranlationRulesList 'StripPlus1'         |
+|宛先    |宛先: \<sip:+14255550100@sbc.contoso.com>|宛先: \<sip:4255555555@sbc.contoso.com>|OutboundPSTNNumberTranlationRulesList 'StripPlus1'       |
+|差出人   |差出人: \<sip:+12065550100@sbc.contoso.com>|差出人: \<sip:2065550100@sbc.contoso.com>|Outboundteamsnumber/Ationルールリスト ' StripPlus1 '         |
+
+#### <a name="example-4-outbound-call-using-a-four-digit-non-e164-number"></a>例 4: 4 桁以外の番号を使用した発信通話
+
+アリスは、4桁の数字を使ってボブを呼び出します。 アリスは、0100を使って、通話から、または連絡先を使ってボブに連絡します。
+SBC は、Teams ユーザーと PSTN ユーザー用に10桁の4桁の番号を使用するように構成されています。 このシナリオでは、ダイヤルプランは適用されません。
+
+|Header  |翻訳元 |翻訳済みヘッダー |パラメーターとルールの適用  |
+|---------|---------|---------|---------|
+|RequestURI  |Sip:0100@sbc.contoso.com を招待する           |Sip:4255550100@sbc.contoso.com を招待する       |InboundTeamsNumberTranlationRulesList 'AddSeattleAreaCode'         |
+|宛先    |宛先: \<sip:0100@sbc.contoso.com>|宛先: \<sip:4255555555@sbc.contoso.com>|InboundTeamsNumberTranlationRulesList 'AddSeattleAreaCode'       |
+|差出人   |差出人: \<sip:+12065550100@sbc.contoso.com>|差出人: \<sip:2065550100@sbc.contoso.com>| InboundPSTNNumberTranlationRulesList 'StripPlus1' |
 
 ## <a name="see-also"></a>関連項目
 

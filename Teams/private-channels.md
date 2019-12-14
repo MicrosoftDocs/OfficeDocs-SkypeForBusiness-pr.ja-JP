@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams でプライベート チャネルを使用および管理する方法について説明します。
-ms.openlocfilehash: b4937addf861be56a0a90a2c63a0ed6181bdc555
-ms.sourcegitcommit: f3b698379eb663202ce127eeaf6c07328c166556
-ms.translationtype: HT
+ms.openlocfilehash: d7a491a64e32edef61b067c864c21f41e19f267d
+ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "38077430"
+ms.lasthandoff: 12/13/2019
+ms.locfileid: "40020051"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams のプライベート チャネル
 
@@ -139,6 +139,12 @@ Microsoft Teams のプライベート チャネルは、チーム内でのコラ
 Teams は、プライベート チャネル SharePoint サイト コレクションのライフ サイクルを管理します。 サイト コレクションが Teams 外で削除された場合、プライベート チャネルがアクティブである限り、バックグラウンド ジョブが 4 時間以内にサイトを復元します。 サイトが削除および物理的な削除をされた場合、プライベート チャネル用に新しいサイト コレクションがプロビジョニングされます。
 
 プライベート チャネルまたはプライベート チャネルを含むチームが復元されると、サイト コレクションも復元されます。 プライベート チャネル サイト コレクションが復元され、プライベート チャネルの 30 日間の論理的な削除ウィンドウを超えている場合、サイト コレクションはスタンドアロン サイト コレクションとして動作します。
+
+## <a name="private-channel-message-compliance-records"></a>プライベートチャネルメッセージのコンプライアンスレコード
+
+プライベートチャネルで送信されたメッセージのレコードは、グループメールボックスではなく、すべてのプライベートチャネルメンバーのメールボックスに配信されます。 レコードのタイトルは、送信元のプライベートチャネルを示すように書式設定されます。
+
+プライベートチャネルメッセージの電子情報開示検索の実行について詳しくは、「[プライベートチャネルの電子情報開示](ediscovery-investigation.md#ediscovery-of-private-channels)」をご覧ください。
 
 ## <a name="considerations-around-access-in-private-channels"></a>プライベート チャネルでのアクセスに関する考慮事項
 
