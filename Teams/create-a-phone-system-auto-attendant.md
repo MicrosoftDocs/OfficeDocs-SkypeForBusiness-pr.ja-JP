@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Microsoft Teams のクラウド自動応答をセットアップしてテストする方法について説明します。
-ms.openlocfilehash: 36725b9c322c5d084fdfc344132f36b9265ce9dd
-ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
+ms.openlocfilehash: 2cd468b3a4f151d6ad19d2ad430bb94045fb808f
+ms.sourcegitcommit: 89106cfda0d900d8be541943b7d1537bc69ed57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "38318136"
+ms.lasthandoff: 12/16/2019
+ms.locfileid: "40070244"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>クラウドの自動応答をセットアップする
 
@@ -218,9 +218,8 @@ ms.locfileid: "38318136"
 
 **名前でダイヤル**このオプションを有効にすると、発信者は**名前でダイヤル**を使用して組織内のユーザーを検索できます。 ユーザー名と音声認識がユーザーに一致していることを示します。 [オプションのダイヤルスコープ] ページでは、これらのサービスに含まれていないユーザーを設定することができます。 電話システムのライセンスを持っているか、または Skype for Business Server を使用してオンプレミスでホストされているすべてのユーザーは、資格のあるユーザーであり、名前でダイヤルすることができます。
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-**内線番号でダイヤル**する (このプレビュー機能は、一般公開ではまだ利用できません) このオプションを有効にすると、発信者は電話の内線番号を入力して組織内のユーザーと接続できます。 オプションの [ダイヤルスコープ] ページで、[利用可能] または [**ダイヤルイン] の内線番号**として表示されるユーザーを選ぶことができます。 電話システムのライセンスを持っているか、または Skype for Business Server を使用してオンプレミスでホストされているすべてのユーザーは、資格のあるユーザーであり、内線でダイヤルすることができます。
+**内線番号でダイヤル**このオプションを有効にすると、発信者は電話の内線番号を入力して組織内のユーザーに接続できます。 オプションの [ダイヤルスコープ] ページで、[利用可能] または [**ダイヤルイン] の内線番号**として表示されるユーザーを選ぶことができます。 電話システムのライセンスを持っているか、または Skype for Business Server を使用してオンプレミスでホストされているすべてのユーザーは、資格のあるユーザーであり、内線でダイヤルすることができます。
 
 > [!IMPORTANT]
 > 次のことを確認してください。

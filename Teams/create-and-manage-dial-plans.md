@@ -13,65 +13,97 @@ ms.collection:
 - M365-voice
 audience: Admin
 appliesto:
-- Skype for Business
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Office 365 で通話のダイヤル プラン (PSTN の通話のダイヤル プラン) を作成する方法とそれを管理する方法について説明します。 '
-ms.openlocfilehash: 3b96c2f504096b3f77c7080feda1dac982f46e9c
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+description: 通話ダイヤルプラン (PSTN 通話ダイヤルプラン) を作成して管理する方法と、それらを管理する方法について説明します。
+ms.openlocfilehash: 7280614d2eab12dff30d17ad71a3ac213e94dcd4
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516674"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069438"
 ---
 # <a name="create-and-manage-dial-plans"></a>ダイヤル プランを作成および管理する
 
-[] 組織のためにダイヤル プランを作成し、通話ルーティングのために作成される必要があるすべての正規化ルールを理解した後に、ダイヤル プランを作成して設定変更を行うために Windows PowerShell を使用する必要があります。
-  
-> [!NOTE]
-> Skype for Business 管理センターは、ダイヤル プランを作成および管理するために使用できません。 
-  
-## <a name="verifying-and-starting-remote-powershell"></a>リモート PowerShell の検証と開始
+組織のダイヤルプランを計画し、通話ルーティング用に作成する必要があるすべての正規化ルールを把握したら、ダイヤルプランを作成することができます。 Microsoft Teams 管理センターまたは Windows PowerShell を使用して、ダイヤルプランを作成し、管理することができます。  
 
- **Windows PowerShell バージョン 3.0 以降を実行していることを確認する**
+## <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの使用
+
+### <a name="create-a-dial-plan"></a>ダイヤルプランを作成する
+
+1. Microsoft Teams 管理センターの左のナビゲーションで、[**ボイス** > **ダイヤルプラン**] に移動します。
+2. [**追加**] をクリックして、ダイヤルプランの名前と説明を入力します。
+    ![ダイヤルプランを作成するための [追加] ページを示すスクリーンショット](media/create-dial-plan.png)
+3. [**ダイヤルプランの詳細**] で、ユーザーが1つまたは複数の追加の先頭の数字 (9 など) をダイヤルする必要がある場合は、外部ダイヤルのプレフィックスを指定します。 その手順は次のとおりです。
+    1. [外線**発信**番号] ボックスに、外線発信番号を入力します。 プレフィックスは、最大4文字 (#、*、0-9) にすることができます。
+    2. 最適化された**デバイスダイヤル**をオンにします。 外線発信番号を指定する場合は、組織外に通話を発信できるようにプレフィックスを適用するには、この設定を有効にする必要もあります。
+4. [**正規化ルール**] で、ダイヤルプランに1つまたは複数の[正規化ルール](what-are-dial-plans.md#normalization-rules)を構成して関連付けます。 各ダイヤルプランには、少なくとも1つの正規化ルールが関連付けられている必要があります。  この操作を行うには、次の操作のいずれか、または複数の操作を行います。
+    - 新しい正規化ルールを作成してダイヤルプランに関連付けるには、[**追加**] をクリックして、ルールを定義します。
+    - 既にダイヤルプランに関連付けられている正規化ルールを編集するには、ルール名の左側をクリックしてルールを選択し、[**編集**] をクリックします。 必要な変更を加えて、[**保存**] をクリックします。
+    - ダイヤルプランから正規化ルールを削除するには、ルール名の左側をクリックしてルールを選択し、[**削除**] をクリックします。
+5. 目的の順序で正規化ルールを配置します。 一覧のルールの位置を変更するには、[**上へ移動**] または [**下**へ移動] をクリックします。
+
+    > [!NOTE]
+    > チームは正規化ルールの一覧を上から下に移動し、ダイヤルされた番号に一致する最初のルールを使用します。 ダイヤルプランを設定して、ダイヤルした番号が複数の正規化ルールと一致するようにする場合は、制限の少ない制限を超えて、より制限されたルールが並べ替えられるようにします。
+
+6. [**保存**] をクリックします。
+7. ダイヤルプランをテストするには、[**ダイヤルプランのテスト**] で電話番号を入力し、[**テスト**] をクリックします。
+
+### <a name="edit-a-dial-plan"></a>ダイヤルプランを編集する
+
+1. Microsoft Teams 管理センターの左のナビゲーションで、[**ボイス** > **ダイヤルプラン**] に移動します。
+2. ダイヤルプラン名の左側をクリックして、[**編集**] をクリックして、ダイヤルプランを選択します。
+3. 必要な変更を加えて、[**保存**] をクリックします。
+
+### <a name="add-users-to-a-dial-plan"></a>ダイヤルプランにユーザーを追加する
+
+1. Microsoft Teams 管理センターの左のナビゲーションで、[**ボイス** > **ダイヤルプラン**] に移動します。
+2. ダイヤルプラン名の左側をクリックして、ダイヤルプランを選択します。
+3. [**ユーザーの管理**] を選びます。
+4. [**ユーザーの管理**] ウィンドウで、[表示名] または [ユーザー名] でユーザーを検索し、名前を選択して [**追加**] を選択します。 追加するユーザーごとに、この手順を繰り返します。
+5. ユーザーの追加が完了したら、[**適用**] を選択します。
+
+## <a name="using-powershell"></a>PowerShell を使用する
   
-1. 3.0 以降のバージョンが実行されていることを確認する場合: **[スタート] メニュー** > **[Windows PowerShell]**。
+### <a name="verify-and-start-remote-powershell"></a>リモート PowerShell を確認して開始する
+
+ **Windows PowerShell バージョン3.0 以降を実行していることを確認する**
+  
+1. バージョン3.0 以降を実行していることを確認するには、「**Windows PowerShell**を**開始する」** > をご覧ください。
     
 2. [ _Windows PowerShell_] ウィンドウに「 **Get-Host**」と入力して、バージョンを確認します。
     
-3. バージョン 3.0 以降を使用していない場合は、Windows PowerShell の更新プログラムをダウンロードおよびインストールする必要があります。 Windows PowerShell をバージョン4.0 にダウンロードして更新するには、「 [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) 」を参照してください。 メッセージが表示されたら、コンピューターを再起動します。
+3. バージョン3.0 以降を使っていない場合は、Windows PowerShell に更新プログラムをダウンロードしてインストールします。 Windows PowerShell をバージョン4.0 にダウンロードして更新するには、「 [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) 」を参照してください。 メッセージが表示されたら、コンピューターを再起動します。
     
-4. Skype for Business Online に接続するリモートの Windows PowerShell セッションを作成できるように、Skype for Business Online の Windows PowerShell モジュールもインストールする必要があります。このモジュールは、64 ビット版のコンピューターでのみサポートされており、「[Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688)」の Microsoft ダウンロード センターからダウンロードできます。メッセージが表示されたら、コンピューターを再起動します。
+4. また、skype for business online に接続するリモート Windows PowerShell セッションを作成できるようにする、Skype for Business Online 用の Windows PowerShell モジュールをインストールする必要もあります。 このモジュールは、64ビットのコンピューターでのみサポートされていますが、 [Skype For Business Online 用の Windows PowerShell モジュール](https://go.microsoft.com/fwlink/?LinkId=294688)でダウンロードできます。 メッセージが表示されたら、コンピューターを再起動します。
     
-詳細については、「[単一の Windows PowerShell ウィンドウですべての Office 365 サービスに接続する](https://technet.microsoft.com/EN-US/library/dn568015.aspx)」を参照してください。
+詳細については、「[単一の Windows PowerShell ウィンドウですべての Office 365 サービスに接続する](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)」を参照してください。
   
  **Windows PowerShell セッションを開始する**
   
-1. From the **Start Menu** > **Windows PowerShell**.
+1. [ **** > **Windows PowerShell**を起動します] をクリックします。
     
 2. [ **Windows PowerShell**] ウィンドウで、次を実行して、Office 365 の組織に接続します。
     
     > [!NOTE]
     > Skype for Business Online Windows PowerShell モジュールを初めて使用するときに、 **Import-Module** コマンドを実行するだけです。
   
-> 
->   ```
->     Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
->     $credential = Get-Credential
->     $session = New-CsOnlineSession -Credential $credential
->     Import-PSSession $session
->   ```
 
-Windows PowerShell の起動の詳細については、「[単一の Windows powershell ウィンドウですべての Office 365 サービスに接続](https://technet.microsoft.com/EN-US/library/dn568015.aspx)する」または「 [windows powershell を使用して Skype for business Online に](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)接続する」を参照してください。
+    ```
+    Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
+    $credential = Get-Credential
+    $session = New-CsOnlineSession -Credential $credential
+    Import-PSSession $session
+    ```
   
-## <a name="creating-and-managing-your-dial-plans"></a>ダイヤル プランの作成と管理
+### <a name="create-and-manage-your-dial-plans"></a>ダイヤルプランを作成して管理する
 
 テナント ダイヤル プランを作成および管理するために単一のコマンドレットまたは PowerShell スクリプトのいずれかを使用できます。
   
-### <a name="using-single-cmdlets"></a>単一のコマンドレットの使用
+#### <a name="using-single-cmdlets"></a>単一のコマンドレットの使用
 
 - ダイヤル プランを新規作成するには、次を実行します。
     
@@ -79,16 +111,16 @@ Windows PowerShell の起動の詳細については、「[単一の Windows pow
   New-CsTenantDialPlan -Identity RedmondDialPlan -Description "Dial Plan for Redmond" -NormalizationRules <pslistmodifier> -ExternalAccessPrefix 9 -SimpleName "Dial-Plan-for-Redmond"
   ```
 
-    その他の例とパラメーターについては、「[New-CsTenantDialPlan](https://technet.microsoft.com/library/mt775026.aspx)」をご覧ください。
+    その他の例とパラメーターについては、「[New-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/new-cstenantdialplan)」をご覧ください。
     
-- 既存のダイヤル プランの設定を変更するには、次を実行します。
+- 既存のダイヤルプランの設定を編集するには、次を実行します。
     
   ```
   Set-CsTenantDialPlan -Identity RedmondDialPlan  -NormalizationRules <pslistmodifier> -ExternalAccessPrefix 9
     -SimpleName "Dial-Plan-for-Redmond"
   ```
 
-    その他の例とパラメータについては、「[Set-CsTenantDialPlan](https://technet.microsoft.com/library/mt775023.aspx)」をご覧ください。
+    その他の例とパラメータについては、「[Set-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/set-cstenantdialplan)」をご覧ください。
     
 - ユーザーをダイヤル プランに追加するには、次を実行します。
     
@@ -96,7 +128,7 @@ Windows PowerShell の起動の詳細については、「[単一の Windows pow
   Grant-CsTenantDialPlan -Identity amos.marble@contoso.com -PolicyName RedmondDialPlan
   ```
 
-    その他の例とパラメータについては、「[Grant-CsTenantDialPlan](https://technet.microsoft.com/library/mt775021.aspx)」をご覧ください。
+    その他の例とパラメータについては、「[Grant-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-cstenantdialplan)」をご覧ください。
     
 - ダイヤル プランの設定を表示するには、次を実行します。
     
@@ -104,7 +136,7 @@ Windows PowerShell の起動の詳細については、「[単一の Windows pow
   Get-CsTenantDialPlan -Identity RedmondDialPlan
   ```
 
-    その他の例とパラメータについては、「[Get-CsTenantDialPlan](https://technet.microsoft.com/library/mt775024.aspx)」をご覧ください。
+    その他の例とパラメータについては、「[Get-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/get-cstenantdialplan?view=skype-ps)」をご覧ください。
     
 - ダイヤル プランを削除するには、次を実行します。
     
@@ -112,7 +144,7 @@ Windows PowerShell の起動の詳細については、「[単一の Windows pow
   Remove-CsTenantDialPlan -Identity RedmondDialPlan -force
   ```
 
-    その他の例とパラメータについては、「[Remove-CsTenantDialPlan](https://technet.microsoft.com/library/mt775020.aspx)」をご覧ください。
+    その他の例とパラメータについては、「[Remove-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/remove-cstenantdialplan?view=skype-ps)」をご覧ください。
     
 - 有効なダイヤル プランの設定を表示するには、次を実行します。
     
@@ -120,7 +152,7 @@ Windows PowerShell の起動の詳細については、「[単一の Windows pow
   Get-CsEffectiveTenantDialPlan -Identity amos.marble@contoso.com
   ```
 
-    その他の例とパラメータについては、「[Get-CsEffectiveTenantDialPlan](https://technet.microsoft.com/library/mt775022.aspx)」をご覧ください。
+    その他の例とパラメータについては、「[Get-CsEffectiveTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/get-cseffectivetenantdialplan)」をご覧ください。
     
 - ダイヤル プランの有効な設定をテストするには、次を実行します。
     
@@ -128,11 +160,11 @@ Windows PowerShell の起動の詳細については、「[単一の Windows pow
   Test-CsEffectiveTenantDialPlan -DialedNumber 14255550199 -Identity amos.marble@contoso.com
   ```
 
-    その他の例とパラメータについては、「[Test-CsEffectiveTenantDialPlan](https://technet.microsoft.com/library/mt775025.aspx)」をご覧ください。
+    その他の例とパラメータについては、「[Test-CsEffectiveTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/test-cseffectivetenantdialplan?view=skype-ps)」をご覧ください。
     
-### <a name="using-a-powershell-script"></a>PowerShell スクリプトの使用
+#### <a name="using-a-powershell-script"></a>PowerShell スクリプトの使用
 
-これを実行して、最初にテナント ダイヤル プランを削除することなく、テナント ダイヤル プランに関連付けられた正規化ルールを削除します。
+これを実行して、最初にテナントダイヤルプランを削除することなく、テナントダイヤルプランに関連付けられている正規化ルールを削除します。
 ```
 $b1=New-CsVoiceNormalizationRule -Identity Global/NR4 -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{add=$b1}
@@ -148,7 +180,7 @@ Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{add=$nr1}
 これを実行して、次の正規化ルールを RedmondDialPlan という名前の既存のテナント ダイヤル プランから削除します。
 ```
 $nr1=New-CsVoiceNormalizationRule -Parent Global/NR1 -InMemory
-Set-CsTenantDialPlan -Identity DP1 -NormalizationRules @{remove=$nr1}
+Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$nr1}
 ```
 
 既存の正規化ルールを調べて、どれを削除するかを決定し、そのインデックスを使用して削除するときには、次を実行します。正規化ルールの配列は、インデックス 0 で開始します。インデックス 1 である、3 桁の正規化ルールを削除する必要があります。
@@ -167,17 +199,17 @@ Translation         : +14255551$1
 Name                : NR12
 IsInternalExtension : False
 
-$nr1=(Get-CsTenantDialPlan RedmondDialPlan).NormalizationRules[Number 1]
+$nr1=(Get-CsTenantDialPlan RedmondDialPlan).NormalizationRules[1]
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$nr1}
 ```
 
 これを実行して、RedmondDialPlan テナント ダイヤル プランが付与されているすべてのユーザーを見つけます。
   
 ```
-Get-CsOnlineuser | where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
+Get-CsOnlineUser | Where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
 ```
 
-これを実行して、HostingProvider sipfed.online.lync.com を持っているすべてのユーザーの policyname を削除します。
+これを実行して、HostingProvider の sipfed.online.lync.com を持つすべてのユーザーから割り当てられている TenantDialPlan を削除します。
 ```
 Get-CsOnlineUser -Filter {HostingProvider -eq “sipfed.online.lync.com”} | Grant-CsTenantDialPlan -policyname $null
 ```
@@ -196,42 +228,23 @@ Get-CsDialplan $DPName | Export-Clixml $DPFileName
   
 ```
 $DPFileName = "dialplan.xml"
-$DP = Import-Clixml $DPFileName
+$dp = Import-Clixml $DPFileName
 $NormRules = @()
 ForEach($nr in $dp.NormalizationRules)
 {
- $id1 = "Global/" +$nr.Name
-$nr2 = New-CsVoiceNormalizationRule -Identity $id1 -Description $nr.Description -Pattern $nr.Pattern -Translation $nr.Translation  -IsInternalExtension $nr.IsInternalExtension -InMemory
-$NormRules += $nr2
+ $id1 = "Global/" + $nr.Name
+ $nr2 = New-CsVoiceNormalizationRule -Identity $id1 -Description $nr.Description -Pattern $nr.Pattern -Translation $nr.Translation -IsInternalExtension $nr.IsInternalExtension -InMemory
+ $NormRules += $nr2
 }
 New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.ExternalAccessPrefix -Description $dp.Description -OptimizeDeviceDialing $dp.OptimizeDeviceDialing -SimpleName $dp.SimpleName -NormalizationRules $NormRules
 ```
-## <a name="want-to-know-more-about-windows-powershell"></a>Windows Powershell について詳しく知りたいですか?
+    
+## <a name="related-topics"></a>関連項目
 
-- Windows PowerShell では、ユーザーの管理と、許可または許可されていないユーザーの操作について説明します。 Windows PowerShell を利用すると、Office 365 と Skype for Business Online の管理を 1 か所で行うことができるので、複数のタスクを担当する管理者の日常業務を単純化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
-    
-  - [Windows PowerShell と Skype for Business Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
-    
-  - [Office 365 PowerShell を使用する必要がある理由](https://go.microsoft.com/fwlink/?LinkId=525041)
-    
-- Windows PowerShell には、多くのユーザーについて同時に設定を変更する場合など、Microsoft 365 管理センターを使用する場合にのみ、速度、シンプルさ、生産性を高めることができます。 次のトピックでこれらの利点について説明します。
-    
-  - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525142)
-    
-  - [Windows PowerShell による Skype for Business Online の管理](https://go.microsoft.com/fwlink/?LinkId=525453)
-    
-  - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
-    
-## <a name="related-topics"></a>関連トピック
-[電話番号の移行に関するよくある質問](transferring-phone-numbers-common-questions.md)
-
-[通話プランで使用されるさまざまな種類の電話番号](different-kinds-of-phone-numbers-used-for-calling-plans.md)
-
-[[[Skype for Business 新しい電話番号の申請](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
-
-[緊急通話の利用条件](emergency-calling-terms-and-conditions.md)
-
-[Skype for Business Online: 緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
-
-  
- 
+- [ダイヤル プランについて](what-are-dial-plans.md)
+- [電話番号の移行に関するよくある質問](transferring-phone-numbers-common-questions.md)
+- [通話プランで使用されるさまざまな種類の電話番号](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+- [組織の電話番号を管理する](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+- [緊急通話の利用条件](emergency-calling-terms-and-conditions.md)
+- [緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+- [Teams での PowerShell の概要](teams-powershell-overview.md)

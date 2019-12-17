@@ -19,12 +19,12 @@ f1keywords:
 ms.collection:
 - M365-collaboration
 description: 組織でスケジュールされているユーザーのチーム会議の設定を管理する方法について説明します。
-ms.openlocfilehash: cba1a51130a9999ca62c70700a387c88ea1ff58e
-ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
+ms.openlocfilehash: adb1beaa7aff84d2ef51820332bc7f823b124a22
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38746450"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069458"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams で会議の設定を管理する
 
@@ -52,7 +52,7 @@ ms.locfileid: "38746450"
 
 1. 高さが188ピクセル未満で、幅が30ピクセル以下の画像を作成します (非常に小さい)。
 2. 画像を JPG または PNG 形式で保存します。
-3. ネットワーク共有など、組織内のすべてのユーザーがアクセスできる一元的な場所に画像を保存します。
+3. 公開 web サイトなど、招待状を受け取ったすべてのユーザーがアクセスできる場所に画像を保存します。
 
     会議出席依頼に追加できるようになります。 次の手順を参照してください。
 

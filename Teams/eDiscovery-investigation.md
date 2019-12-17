@@ -14,12 +14,12 @@ search.appverid: MET150
 description: 訴訟手続きのためにすべての電子保持情報を提出する必要がある場合など、電子情報開示を実施するために必要な手続きについて説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e645085130b65283a1841661c4e2885e5ea9cba4
-ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
+ms.openlocfilehash: 205b10c9fc1576b260e72c145239d56b1c71b643
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "38231118"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069188"
 ---
 <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Microsoft Teams のコンテンツに対して電子情報開示の調査を行う
 ============================
@@ -42,6 +42,8 @@ ms.locfileid: "38231118"
 3.  ユーザーのメールボックスにプライベートなチャットを表示するには、[会話履歴] の下にあるチームチャットフォルダー内にもあります。
 
 ## <a name="ediscovery-of-guest-to-guest-chats"></a>ゲスト間のチャットの電子情報開示
+
+現在、ゲストのみが1:1 または 1: N のチャットに参加しているシナリオでは、これらのチャットメッセージの電子情報開示はサポートされていません。 
 
 メールボックスがなくても、ゲスト間のチャット (ホームテナントのユーザーがいない1xN のチャット) にはインデックスが作成されず、結果として電子情報開示に含まれません。 ゲスト間チャットの電子情報開示を容易にするために、クラウドベースのメールボックス (またはファントムのメールボックス) を作成して、1xN データを保存します。 チームチャットデータがクラウドベースのメールボックスに保存された後、電子情報開示およびコンプライアンスコンテンツ検索のインデックスが作成されます。
 
@@ -98,6 +100,6 @@ ms.locfileid: "38231118"
     ```
 3. 電子情報開示検索クエリの一部として、チーム内の各プライベートチャネルからすべてのメンバーのメールボックスを含めることができます。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [Teams での PowerShell の概要](teams-powershell-overview.md)

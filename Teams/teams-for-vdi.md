@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fd9440ce7c4d35af28e577c9d9e01845f298ef01
-ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
+ms.openlocfilehash: 4c63195f4732931083a12a455b79d77d9c1e6b01
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/13/2019
-ms.locfileid: "40020061"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069348"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>仮想デスクトップ インフラストラクチャ用の Teams
 
@@ -130,10 +130,10 @@ Teams と Office 365 ProPlus の詳細については、「 [office 365 ProPlus 
 
 1. 次のリンクのいずれかを使用して、VDI VM オペレーティングシステムと一致する Teams MSI パッケージをダウンロードします。
 
-    - [32ビット版](https://statics.teams.microsoft.com/production-windows/1.2.00.32462/Teams_windows.msi)
-    - [64ビット版](https://statics.teams.microsoft.com/production-windows-x64/1.2.00.32462/Teams_windows_x64.msi)
+    - [32ビット版](https://statics.teams.cdn.office.net/production-windows/1.2.00.32462/Teams_windows.msi)
+    - [64ビット版](https://statics.teams.cdn.office.net/production-windows-x64/1.2.00.32462/Teams_windows_x64.msi)
 
-    必要な Teams デスクトップアプリの最小バージョンはバージョン1.2.00.31357 です。 (PSTN 保留は以前のバージョンではサポートされていません)
+    必要な Teams デスクトップアプリの最小バージョンはバージョン1.2.00.31357 です。 (PSTN 保留は以前のバージョンではサポートされていません)。
 
 2. 次のいずれかのコマンドを実行して、MSI を VDI VM にインストールします。
 
@@ -155,14 +155,13 @@ Teams と Office 365 ProPlus の詳細については、「 [office 365 ProPlus 
  
         次の対話型ログオンセッションでは、チームが起動し、資格情報を求められます。
 
-3. VDI VM から MSI をアンインストールする 
+3. VDI VM から MSI をアンインストールします。 
 
-    Teams をアンインストールするには、2つの方法があります。  
+    Teams をアンインストールするには、次の2つの方法があります。  
   
     - PowerShell スクリプト (推奨): この[PowerShell スクリプト](scripts/powershell-script-teams-deployment-clean-up.md)を使用して、ターゲットコンピューターまたはユーザーからチームをクリーンアップできます。 ターゲットコンピューター上のすべてのユーザーに対して実行する必要があります。 
     
-    - コマンドライン: この方法ではチームが削除されますが、Teams の再インストールはできません。  
-    次のコマンドを実行します。
+    - コマンドライン: この方法ではチームが削除されますが、Teams の再インストールはできません。 次のコマンドを実行します。
   
       ```
       msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
@@ -218,7 +217,7 @@ Vdi での Skype for Business から VDI 上の Teams への移行を行って�
 
 ### <a name="teams-on-chrome-browser-versus-teams-desktop-app-for-vdi"></a>Chrome ブラウザーと VDI 用 Teams デスクトップアプリのチーム
 
-Chrome ブラウザーの teams では、AV の最適化を備えた VDI 用の Teams デスクトップアプリに代わる機能は提供されていません。 チャットと共同作業のエクスペリエンスは期待どおりに動作します。 メディアが必要な場合、Chrome ブラウザーでユーザーの期待を満たせない場合があります。
+Chrome ブラウザーの teams では、AV の最適化を備えた VDI 用の Teams デスクトップアプリに代わる機能は提供されていません。 チャットと共同作業のエクスペリエンスは期待どおりに動作します。 メディアが必要な場合は、Chrome ブラウザーでユーザーの期待を満たせない場合があります。
 
 - オーディオとビデオのストリーミングのエクスペリエンスが最適でないことがあります。 ユーザーには、遅延または品質の低下が発生する可能性があります。
 - [デバイスの設定] は [ブラウザーの設定] では利用できません。
