@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams |会議を最初に行う
+title: Microsoft Teams | Meetings First
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: francoid
-description: 最初に会議について説明します。ここでは、ユーザーが Teams で会議を作成しながら、チャット、通話、プレゼンスのために Skype for Business を使い続けることができます。
+description: Meetings First について説明します。Meetings First を使用すると、ユーザーは、Skype for Business でチャット、通話、プレゼンスを使用しながら、Teams で会議を作成できます。
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -17,104 +17,104 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 3207a7e7f460cb2941dd4c46df2a215df7997ed4
 ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 10/17/2019
 ms.locfileid: "37564906"
 ---
-# <a name="meetings-first"></a>会議優先
+# <a name="meetings-first"></a>Meetings First
 
-"会議の最初" は、チーム会議をできるだけ迅速に使い始めることを希望しているエンタープライズ Voip オンプレミスの Skype for Business Server 組織向けに最適化されています。 このような組織では、会議を最初に行うのは、チームの会議エクスペリエンスの優先順位を指定する、**孤島**モードの代わりとなります。
+"Meetings First" は、エンタープライズVoIP オンプレミスを使用して、可能な限り迅速に Teams 会議を使用し始めたいと考えている、Skype for Business Server 組織を対象とし、最適化されています。 Meetings First は、このような組織用に Teams 会議機能を優先させる、**Islands** モードの代替手段です。
 
-## <a name="what-is-meetings-first"></a>会議とは何ですか?
+## <a name="what-is-meetings-first"></a>Meetings First とは
 
-会議は、最初に**SfBWithTeamsCollabAndMeetings**の共存モードに基づいています。 会議は最初は製品や機能ではありません。チームと Skype for Business の機能を利用して、独自にカスタマイズされた共存エクスペリエンスを実現する構成です。
+Meetings First は、**SfBWithTeamsCollabAndMeetings** 共存モードに基づいています。 Meetings First は、製品や機能ではありません。これは、Teams や Skype for Business の機能を活用して、独自にカスタマイズされた共存環境を実現する構成です。
 
-最初に会議では、ユーザーは Teams で会議を作成しますが、チャット、通話、プレゼンスには Skype for Business を使い続けることができます。 Teams と Skype for Business の間でモダリティのオーバーラップはありません。 チャット、通話、プレゼンスは Skype for Business でオンになっており、Teams ではオフになっています。 これにより、共存時にユーザーのエクスペリエンスを強化する Skype for Business と Teams、および**チームのみ**のユーザーとの相互運用性のシナリオに、独自の "よりよい" シナリオが実現されます。
+Meetings First では、ユーザーは、Skype for Business でチャット、通話、プレゼンスを使用しながら、Teams で会議を作成します。 Teams と Skype for Business の間にモダリティの重複はありません。 チャット、通話、プレゼンスは、Skype for Business ではオンになり、Teams ではオフになります。 これにより、Skype for Business と Teams の間で、共存中のユーザーの操作環境を向上する独自の「優れた連携」シナリオだけでなく、**Teams のみ**のユーザーを対象とした相互運用性のシナリオも実現します。
 
-![Teams と Skype for Business を使用した、より良い組み合わせのシナリオのスクリーンショット](media/meetings-first-meeting-in-meeting.png)
+![Teams と Skype for Business による優れた連携シナリオのスクリーンショット](media/meetings-first-meeting-in-meeting.png)
 
 > [!Important]
-> 会議を最初に行うのは、アクティブなチームチャットユーザーがいない、またはほとんどない組織に適しています。 アクティブなチームチャットユーザーは、チームでチャットしたり、チャット履歴にアクセスしたりすることができなくなるため、会議の最初のモードに切り替えることはできません。 これらのユーザーは、代わりに**諸島**モードで grandfathered する必要があります。また、チーム内のチャットでまだアクティブになっていないユーザーのみに会議が許可されています。
+> Meetings First は、アクティブな Teams チャット ユーザーがいない、またはほとんどいない組織に適しています。 アクティブな Teams チャット ユーザーは、Meetings First モードに切り替えると、Teams でチャットしたり、自分のチャット履歴にアクセスしたりできなくなるため切り替えるべきではありません。 これらのユーザーは、代わりに **Islands** モードで許可される必要があり、Meetings First は Teams のチャットでまだアクティブでないユーザーにのみ許可する必要があります。
 
-## <a name="who-should-consider-meetings-first"></a>会議を最初に検討する必要があるユーザー
+## <a name="who-should-consider-meetings-first"></a>Meetings First を検討する必要がある対象ユーザーはだれですか。
 
-会議は最初に Skype for Business Server を使用している組織向けに設計されています。エンタープライズ Voip では、チームの会議への移行を加速する必要があります。特に、管理された明確なアップグレードパスをチームにお客様が必要としている場合。
+Meetings First は、エンタープライズ VoIP で Skype for Business Server を使用し、Teams 会議への移行を促進したいと考えている組織、特に、Teams に対して管理された確定的なアップグレード パスを必要とする IT 規律の強い組織を対象として設計されています。
 
-複雑または大規模な組織では、通常、ボイスの移行はサイトごとに行われ、数年かかる場合があるため、共存シナリオが長くなります。 この共存が**孤島**モードになっている場合、ユーザーは常に2つの会議ソリューション (Skype for Business と Teams) を選ぶことができます。これにより、混乱または最適な状況が発生する可能性があります。 音声の移行とは異なり、会議の移行は通常、会社全体で短時間で完了することができます。 できるだけ早く Teams 会議に完全に切り替える (音声移行が完了するのを待たずに) 必要がある組織は、まず会議を検討する必要があります。
+複雑な組織や大規模な組織では、通常、音声の移行はサイトごとに行われるため、時間がかかる場合があり、場合によっては数年かかる可能性もあるため、結果として共存のシナリオが延長されます。 この共存が **Islands** モードにある場合、ユーザーには常に 2 つの会議ソリューション (Skype for Business と Teams) が用意されているため、混乱を招いたり、最適なシナリオではなくなる可能性があります。 音声の移行とは異なり、会議の移行は、一般に会社全体で短時間で行うことができます。 Teams 会議にできるだけ早く (音声の移行が完了するのを待たずに) 完全に切り替えたい組織は、Meetings First を検討する必要があります。
 
-最初に、エンタープライズ Voip ユーザーがいない組織にとっては、会議が役に立ちません。 これらの組織は、チームの会議を導入できるようになるとすぐに、 **teams**にアップグレードすることができます。 最初に会議をスキップすることを検討してください。
+Meetings First は、エンタープライズ VoIP ユーザーがいない組織では役に立ちません。 これらの組織は、Teams 会議を導入できるようになればすぐに **Teams のみ**にアップグレードできるはずです。 これらの組織は、Meetings First を採用しないことを検討する必要があります。
 
-さらに、会議に参加している組織では、"会議のみ" RFP が発行されている場合など、最初に会議ソリューションを使用すると便利です。
+さらに、Meetings First は、「会議のみ」の RFP が発行されている場合など、組織の対象範囲が会議専業ソリューション場合に役立ちます。
 
-## <a name="capabilities-in-meetings-first"></a>会議の機能の先頭へ
+## <a name="capabilities-in-meetings-first"></a>Meetings First の機能
 
-会議を最初に行うと、次の機能が一緒に表示されます。
+Meetings First では、次の機能が提供されます。
 
-- [Teams の電話会議](tutorial-audio-conferencing.yml)を使って[、Skype for business Server (オンプレミス) ユーザーをプロビジョニング](https://docs.microsoft.com/microsoftteams/tutorial-audio-conferencing?tutorial-step=3)します。
-- [会議移行サービス](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms): ユーザーによって開催される会議はクラウドに移行され、ユーザーが会議に最初に昇格したとき (Exchange Online が必要)、チーム会議に変換されます。
-- Teams でのユーザーエクスペリエンスが合理化され、チームの会議とチームおよびチャネルが中心となります (必要に応じて、[アプリのアクセス許可ポリシー](teams-app-permission-policies.md)を使って非表示にすることができます)。[チームのプライベートチャット、通話、およびセルフプレゼンス](teams-client-experience-and-conformance-to-coexistence-modes.md)は会議では公開されません。これにより、展開と導入作業が会議に完全に集中できるようになります。
-- チームの優れた[会議エクスペリエンス](tutorial-meetings-in-teams.yml)。
-- Teams と Skype for Business の間の "組み合わせ" が向上します。 
-  - 自動ホールド: Teams の会議では、Skype for Business で通話を開始すると、Teams の会議が保留になり、その逆も行われます。 これにより、ユーザーは会議の参加者が overheard のプライベートな通話を行うことができなくなります。
-    ![Teams と Skype for Business を使用した、より良い組み合わせのシナリオのスクリーンショット](media/meetings-first-better-together-hold.png)
-  - プレゼンス調整: Teams のアクティビティは、skype for business のチャットや通話のための Skype for Business のプレゼンスに反映されます。 具体的には、会議の最初のユーザーが Teams 会議に参加している場合は、そのことを反映するようにプレゼンスが更新されます。 ユーザーが画面を表示すると、そのプレゼンスが更新され、[応答不可] (Skype for Business の設定に基づく) が表示されます。
-  - USB デバイス HID コントロールの調整 (Mac でも利用可能): HID コントロールは、Teams の会議および他のすべての状況での Skype for Business によって、Teams で受け入れられます。
-  - 特に明記されていない限り、機能をさらに活用するには、最近の Windows デスクトップクライアントが必要です。
+- [Skype for Business Server (オンプレミス) ユーザー](https://docs.microsoft.com/microsoftteams/tutorial-audio-conferencing?tutorial-step=3)に [Teams の電話会議](tutorial-audio-conferencing.yml)機能を提供します。
+- [会議移行サービス](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms): ユーザーが Meetings First に参加すると、そのユーザーが開催した会議がクラウドに移行され、Teams 会議に変換されます (Exchange Online が必要)。
+- Teams のユーザー エクスペリエンスが合理化され、Teams の会議、チーム、チャネルが中心になります (必要に応じて、[アプリのアクセス許可ポリシー](teams-app-permission-policies.md)を使用して非表示にすることもできます)。[Teams のプライベート チャット、通話、および自己プレセンス](teams-client-experience-and-conformance-to-coexistence-modes.md)は、Meetings First に提供されません。これにより、展開と導入の取り組みを完全に会議に集中させることができます。
+- 優れた [Teams 会議環境](tutorial-meetings-in-teams.yml)。
+- Teams と Skype for Business 間の「Better Together」: 
+  - 自動ホールド: Teams の会議中に Skype for Business で電話を受けると、Teams 会議が保留にされます (逆も同様)。 これにより、ユーザーは会議の参加者にプライベートな通話を聞かれないようにすることができます。
+    ![Teams と Skype for Business による優れた連携シナリオのスクリーンショット](media/meetings-first-better-together-hold.png)
+  - プレゼンスの調整: Teams でのアクティビティは、ユーザーのプレゼンスに反映されます。チャットと通話は Skype for Business にあるため、これは Skype for Business のプレゼンスです。 具体的に言うと、Meetings First ユーザーが Teams 会議に参加しているとき、そのユーザーのプレゼンスは、それを反映して更新されます。 ユーザーが画面を提示すると、そのユーザーのプレゼンスは (Skype for Business の設定に基づいて) [応答不可] が表示されるように更新されます。
+  - USB デバイス HID コントロール調整 (Mac でも使用可能): HID コントロールは、Teams 会議中は Teams に従い、他の状況ではすべての Skype for Business に従います。
+  - 特に記載がない限り、Better Together 機能には、現時点で最新の Windows デスクトップ クライアントが必要です。
 
-## <a name="prerequisites-for-meetings-first"></a>最初に会議の前提条件
+## <a name="prerequisites-for-meetings-first"></a>Meetings First の前提条件
 
-最初に会議の唯一のハード要件は、オンプレミスの Active Directory と Skype for Business のオンプレミス展開での Teams の要件と同じです。
+Meetings First の唯一のハード要件は、オンプレミスの Active Directory と Skype for Business のオンプレミス展開を使用する Teams の要件と同じです。
 
-- 以下を含む、 [Teams の一般的な前提条件](upgrade-plan-journey-prerequisites.md)
-- [Teams での id と認証](identify-models-authentication.md)
-- [Teams および Skype For business 用に Azure Active Directory を構成](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-azure-ad-connect)します。
+- [Teams の一般的な前提条件](upgrade-plan-journey-prerequisites.md)。次を含みます。
+- [Teams での ID と認証](identify-models-authentication.md)、および
+- [Teams と Skype for Business 用 Azure Active Directory の構成](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-azure-ad-connect)。
 
-[Skype For business ハイブリッドトポロジ](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-federation-with-skype-for-business-online)は必須ではありませんが、お勧めします。 会議移行サービスや相互運用性などの一部の機能は、このトポロジに依存します。
+[Skype for Business ハイブリッド トポロジ](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-federation-with-skype-for-business-online)は必須ではありませんが、推奨されます。 会議の移行サービスなどの一部の機能や相互運用性は、そのトポロジに依存します。
 
-最初に会議は、任意のバージョンの Skype for Business Server でサポートされています (サポートされていない Lync Server を使用して動作することがわかっています)。 この機能はサポートされている Skype for Business クライアントでサポートされていますが、連携機能を強化するには最新のクライアントが必要です。
+Meetings First は、Skype for Business Server の任意のバージョンでサポートされています (サポートされなくなった Lync サーバーで動作することも確認されています)。 Meetings First は、サポートされている任意の Skype for Business クライアントでサポートされていますが、Better Together 機能を使用するには、最新のクライアントが必要です。
 
-これらの要件が満たされた後ではなく、 [Office 365 および Teams のライセンス](https://docs.microsoft.com/office365/enterprise/assign-licenses-to-user-accounts)をユーザーに付与することができます。
+これらの要件が満たされると (以前は満たされていなかった場合)、ユーザーは [Office 365 および Teams のライセンス](https://docs.microsoft.com/office365/enterprise/assign-licenses-to-user-accounts)を取得できます。
 
-初めての会議を最初に行うには、ユーザーが[Exchange Online](exchange-teams-interact.md)、 [SharePoint Online、OneDrive for Business](sharepoint-onedrive-interact.md)、および Office 365 グループの作成を有効にしている必要があります。 会議は、メールボックスがオンプレミスの Exchange 上にあるユーザー、または SharePoint Online または OneDrive For Business や Office 365 グループの作成を行っていないユーザーに対してサポートされます。 ただし、操作は完了します。 特に、オンプレミスの Exchange Server を使用している組織の場合、チームクライアントからの会議の作成と表示に関する制限、およびコンプライアンス機能に関して、いくつかの制限があります。
+Meetings First を最適に活用するため、すべてのユーザーは [Exchange Online](exchange-teams-interact.md)、[SharePoint Online、OneDrive for Business](sharepoint-onedrive-interact.md)、および Office 365 グループの作成が可能になっている必要があります。 Meetings First は、メールボックスがオンプレミスの Exchange にあるか、SharePoint Online や OneDrive For Business、または Office 365 グループを作成していないユーザー向けにサポートされています。 ただし、エクスペリエンスは完全なものではなくなります。 特に、オンプレミスの Exchange Server を使用している組織では、Teams クライアントからの会議の作成と表示、およびコンプライアンス機能に制限がある場合があります (Exchange Server のバージョンによる)。
 
-少なくとも、[チームのライセンス](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)をユーザーに付与する必要があります。 さらに、必要に応じて、[電話会議](set-up-audio-conferencing-in-teams.md)のライセンスを取得することもできます。
+少なくとも、ユーザーは [Teams のライセンス](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)が付与されている必要があります。 さらに、ユーザーには必要に応じて、[電話会議](set-up-audio-conferencing-in-teams.md)のライセンスを付与することもできます。
 
-ユーザーのライセンスを付与するときに、テナントの既定として[ **Sfbonly**または**sfbwithteams sの**](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)使用を許可することをお勧めします。 これにより、最初に会議を開始する準備が整う前に、ユーザーが既定の**島々**モードで自分のチームを初めて使用することがなくなります。
+ユーザーにライセンスを付与するときは、テナントの既定値として [**SfBOnly** または **SfBWithTeamsCollab**](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps) モードを付与することをお勧めします。 これによりユーザーは、Meetings First を開始する準備が整うまでは、既定の **Islands** モードで Teams を自分で使用し始めないようにすることができます。
 
-会議は最初に、完全なデスクトップクライアント (Windows と Mac)、ブラウザークライアント、モバイルクライアントでサポートされています。 また、 [Microsoft Teams のルーム](https://docs.microsoft.com/microsoftteams/room-systems/)との互換性もあります。 さらに簡単にするには、完全なデスクトップクライアントが必要です。
+Meetings First は、フル デスクトップ クライアント (Windows および Mac)、ブラウザー クライアント、およびモバイル クライアントでサポートされています。 これは、[Microsoft Teams ミーティング](https://docs.microsoft.com/microsoftteams/room-systems/)とも互換性があります。 Better Together には、フル デスクトップ クライアントが必要です。
 
-## <a name="prepare-for-teams-meetings-in-meetings-first"></a>最初に会議で Teams 会議を準備する
+## <a name="prepare-for-teams-meetings-in-meetings-first"></a>Meetings First で Teams 会議を準備する
 
-チーム会議で最高のエクスペリエンスをユーザーに提供するには、次のことを行う必要があります。
+ユーザーが Teams 会議で最適な操作性を得るには、次の操作を行う必要があります。
 
-- 特に、「 [Microsoft Teams の会議と会議](deploy-meetings-microsoft-teams-landing-page.md)」の手順に従います。
+- 具体的には、「[Microsoft Teams のミーティングと会議](deploy-meetings-microsoft-teams-landing-page.md)」の手順に従ってください。
 - [環境を評価する](3-envision-evaluate-my-environment.md)。
-- [Microsoft Teams 用に組織のネットワークを準備](prepare-network.md)します。
-- Teams 対応の[会議室のデバイスとソリューション](https://docs.microsoft.com/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)を使用して会議室をアップグレードするか、 [Microsoft Teams のクラウドビデオ相互運用機能](cloud-video-interop.md)を使用して、既存のサードパーティの会議室やデバイスが teams 会議に参加できるようにします。
-- [USB オーディオデバイスとビデオデバイス](https://docs.microsoft.com/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)を使って、ユーザーに対して認定されています。
-- [チーム会議の認識と導入を推進](adopt-microsoft-teams-landing-page.md)するための準備を行います。
-- [サービス管理を計画](4-envision-plan-my-service-management.md)します。
-- 優れた[通話品質をトラブルシューティング](use-call-analytics-to-troubleshoot-poor-call-quality.md)するために、豊富な通話分析レポートについて理解しておいてください。
+- [Microsoft Teams 用に組織のネットワークを準備する](prepare-network.md)。
+- Teams 対応の[会議室のデバイスやソリューション](https://docs.microsoft.com/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)で会議室をアップグレードするか、[Microsoft Teams のクラウド ビデオ相互運用性](cloud-video-interop.md)を使用して、既存のサードパーティ製の会議室やデバイスが Teams 会議に参加できるようする。
+- [認定された USB オーディオ デバイスやビデオ デバイス](https://docs.microsoft.com/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)をユーザーに提供する。
+- [Teams 会議の認識と導入を促進する](adopt-microsoft-teams-landing-page.md)準備をする。
+- [サービス管理を計画する](4-envision-plan-my-service-management.md)。
+- 豊富な通話解析レポートを理解して、[低品質通話をトラブルシューティングする](use-call-analytics-to-troubleshoot-poor-call-quality.md)。
 
-この段階では、中程度のサイズのプロダクション準備パイロットを実行することを検討してください。
+この段階で、中規模の運用環境対応パイロットを実行することを検討します。
 
-## <a name="configure-users-for-meetings-first"></a>最初に会議のユーザーを構成する
+## <a name="configure-users-for-meetings-first"></a>Meetings First のユーザーを構成する
 
-ユーザーがライセンスを取得し、チーム会議用に組織を準備したら、最初に会議のユーザーを有効にします。 簡単になりました。1つの設定ですべてのことができます。
+ユーザーにライセンスを付与し、Teams 会議の組織の準備ができたら、Meetings First のユーザーを有効にします。 1 つの設定ですべてを簡単に行うことができます。
 
-初めての会議のすべての機能とユーザーエクスペリエンス、ユーザーエクスペリエンスの[自動適合性](teams-client-experience-and-conformance-to-coexistence-modes.md)、会議移行サービス、および共同作業の改善によって、ユーザーを付与します (または[Microsoft Teams 管理センター](manage-teams-in-modern-portal.md)または[PowerShell](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)を使用した、ユーザーのグループ、またはテナントの既定値[SfBWithTeamsCollabAndMeetings 共存モード](setting-your-coexistence-and-upgrade-settings.md)。
+Meetings First のすべての機能とユーザー エクスペリエンス (Teams クライアント構成、ユーザー エクスペリエンスの[自動適合](teams-client-experience-and-conformance-to-coexistence-modes.md)、会議移行サービス、Better Together 機能を含む) は、[Microsoft Teams 管理センター](manage-teams-in-modern-portal.md)で、または [PowerShell](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps) を使ってユーザー (またはユーザーのグループ、あるいはテナントの既定) に[SfBWithTeamsCollabAndMeetings 共存モード](setting-your-coexistence-and-upgrade-settings.md)を付与することによって構成されます。
 
-![会議を最初に有効にするための管理者設定のスクリーンショット](media/teams-meeting-admin-settings.png)
+![Meetings First を有効にする管理設定のスクリーンショット](media/teams-meeting-admin-settings.png)
 
-必要に応じて、ユーザーのチームクライアントの左側のナビゲーションからチームおよびチャネルアプリケーションを非表示にして、会議のエクスペリエンスをさらに重視します。これは、[アプリのアクセス許可ポリシー](teams-app-permission-policies.md)を使って実現できます。
+必要に応じて、ユーザーの Teams クライアントの左側のナビゲーションにあるチームとチャネル アプリケーションを非表示して、エクスペリエンスを会議に集中させます。これは、[アプリのアクセス許可ポリシー](teams-app-permission-policies.md)を使用して実現できます。
 
 ## <a name="reporting-and-call-analytics"></a>レポート作成と通話分析
 
-会議でのチーム会議の報告と通話分析は、他のモードとは変わりません。
+Meetings First の Teams 会議のレポート作成と通話分析は、他のモードの場合と変わりません。
 
 ## <a name="related-links"></a>関連リンク
 
-この記事を確認した後、詳細については、「[アップグレードの過程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)、[移行と相互運用性のガイダンス](migration-interop-guidance-for-teams-with-skype.md)」、「 [Skype For business との共存](coexistence-chat-calls-presence.md)」を参照してください。
+この記事の内容を確認した後、さらに詳細については「[アップグレードの行程を選択する](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)」、「[移行と相互運用に関するガイドライン](migration-interop-guidance-for-teams-with-skype.md)」、「[Skype for Business と共存する](coexistence-chat-calls-presence.md)」を参照してください。
 
 
