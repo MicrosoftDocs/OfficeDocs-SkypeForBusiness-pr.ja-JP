@@ -18,7 +18,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 89f9ba68dd4fbd1cef271c0dd0a3fb73e10637a7
 ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 11/15/2019
 ms.locfileid: "38626983"
@@ -26,63 +26,63 @@ ms.locfileid: "38626983"
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook で Teams の会議アドインを使用する
 =======================================
 
-Teams 会議アドインを使用すると、ユーザーは Outlook から Teams 会議をスケジュールできます。 Windows、Mac、web、モバイルの Outlook でアドインを使用できます。
+Teams 会議アドインを使用すると、ユーザーは Outlook から Teams 会議をスケジュールできます。 このアドインは、Outlook for Windows、Mac、Web、モバイルで使用できます。
 
-## <a name="teams-meeting-add-in-in-outlook-for-windows"></a>Windows 版 Outlook の Teams 会議アドイン
+## <a name="teams-meeting-add-in-in-outlook-for-windows"></a>Windows 用 Outlook の Teams 会議アドイン
 
-Microsoft Teams を所有しているユーザーと、Office 2010、Office 2013、または Office 2016 が Windows PC にインストールされている場合は、Teams 会議アドインが自動的にインストールされます。 Teams の会議アドインは、ユーザーが使用する Outlook の [予定表] リボン上に表示されます。
+Teams の会議アドインは、Microsoft Teams と Office 2010、Office 2013 または Office 2016 を自分の Windows PC にインストール済みのユーザーに対して、自動的にインストールされます。 Teams の会議アドインは、ユーザーが使用する Outlook の [予定表] リボン上に表示されます。
 
-![Outlook リボンの Teams 会議アドインのスクリーンショット](media/Teams-add-in-for-Outlook.png)
+![Outlook リボン上の Teams 会議アドインのスクリーンショット](media/Teams-add-in-for-Outlook.png)
 
 > [!NOTE]
-> - Regsvr32 ファイルを実行するためのユーザー権限は、Teams 会議アドインをコンピューターにインストールするための最小要件です。
+> - Regsvr32.exe ファイルを実行するユーザーのアクセス許可は、コンピューターに Teams 会議アドインをインストールするための最小要件です。
 > - Teams の会議アドインが表示されないユーザーに対しては、Outlook と Teams を閉じて、先に Teams クライアントを再起動してから Teams にサインインし、次に Outlook クライアントを再起動する操作を順に行うよう指示します。
-> - Windows 7 ユーザーは、Teams 会議アドインを使用するために windows の[windows でユニバーサル C ランタイムの更新プログラム](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)をインストールする必要があります。
-> - Microsoft Store から Office Outlook インストールを使用している場合、Teams 会議アドインはサポートされていません。 このアドインを必要とするユーザーは、 [Windows 10 S モードに関する](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f)記事の説明に従って、Office のクイック実行バージョンをインストールすることをお勧めします。
+> - Windows 7 ユーザーは、Teams 会議アドインを機能させるために、[Windows にユニバーサル C ランタイムの更新プログラム](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)をインストールする必要があります。
+> - Microsoft ストアから Office Outlook のインストールを使用している場合、Teams 会議アドインはサポートされていません。 このアドインが必要なユーザーは、「[S モードでの Windows 10 の Office](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f)」の記事で説明されているとおり、Office のクイック実行バージョンをインストールすることをお勧めします。
 
 
 ## <a name="teams-meeting-add-in-in-outlook-for-mac"></a>Outlook for Mac の Teams 会議アドイン
 
-Outlook for Mac の office の [会議] ボタンは、16.24.414.0 を実行している場合、outlook for mac のリボンに表示されます。
+Outlook の製品版 16.24.414.0 以降が実行されている場合、Outlook for Mac で [Teams 会議] ボタンは Outlook for Mac のリボンに表示されます。
 
-ユーザーが [**送信**] をクリックすると、会議の座標 (チームの参加リンクとダイヤルイン番号) が会議の出席依頼に追加されます。  
+ユーザーが [**送信**] をクリックすると、会議の調整 (Teams への参加リンクおよびダイヤルイン番号) が会議出席依頼に追加されます。  
 
 ## <a name="teams-meeting-add-in-in-outlook-web-app"></a>Outlook Web App の Teams 会議アドイン
 
-ユーザーが新しい Outlook on the Web の以前のバージョンをお持ちの場合、Outlook Web App の [Teams 会議] ボタンが新しいイベントの作成の一部として表示されます。 ユーザーが新しい Outlook on the web の初期バージョンを試す方法については、 [Outlook ブログ](https://techcommunity.microsoft.com/t5/Outlook-Blog/Designed-to-be-fast-The-Outlook-on-the-web-user-experience-gets/ba-p/234909?utm_source=t.co&utm_medium=referral)を参照してください。
+ユーザーが新しい Outlook on the Web の初期バージョンを使用している場合、Outlook Web App の [Teams 会議] ボタンが新しいイベント作成の一部として表示されます。 ユーザーが Outlook on the Web の初期バージョンを試す方法については、「[Outlook のブログ](https://techcommunity.microsoft.com/t5/Outlook-Blog/Designed-to-be-fast-The-Outlook-on-the-web-user-experience-gets/ba-p/234909?utm_source=t.co&utm_medium=referral)」を参照してください。
 
 ![Outlook Web App の Teams 会議アドインのスクリーンショット](media/teams-meeting-add-in-web.png)
 
-ユーザーが [**送信**] をクリックすると、会議の座標 (チームの参加リンクとダイヤルイン番号) が会議の出席依頼に追加されます。  
+ユーザーが [**送信**] をクリックすると、会議の調整 (Teams への参加リンクおよびダイヤルイン番号) が会議出席依頼に追加されます。  
 
-## <a name="teams-meeting-add-in-in-outlook-mobile-ios-and-android"></a>Outlook mobile (iOS と Android) での Teams 会議アドイン
+## <a name="teams-meeting-add-in-in-outlook-mobile-ios-and-android"></a>Outlook モバイル (iOS および Android) の Teams 会議アドイン
 
-[Teams 会議] ボタンは、Outlook iOS と Android アプリの最新のビルドに表示されます。
+iOS と Android の Outlook アプリの最新ビルドには、Teams 会議ボタンが表示されます。
 
-![Outlook mobile の Teams 会議アドインのスクリーンショット](media/teams-meeting-add-in-mobile.png)
+![Outlook モバイルの Teams 会議アドインのスクリーンショット](media/teams-meeting-add-in-mobile.png)
 
-ユーザーが [**送信**] をクリックすると、会議の座標 (チームの参加リンクとダイヤルイン番号) が会議の出席依頼に追加されます。  
+ユーザーが [**送信**] をクリックすると、会議の調整 (Teams への参加リンクおよびダイヤルイン番号) が会議出席依頼に追加されます。  
 
-## <a name="teams-meeting-add-in-in-and-findtime-for-outlook"></a>Outlook の Teams 会議アドインとそのタイミング
-FindTime は、Outlook 用のアドインであり、ユーザーが会社間の会議の時間について合意したときに役立ちます。 会議の出席者が希望する時間を指定すると、指定した時間にユーザーの代わりに会議出席依頼が送信されます。 [**オンライン会議**] オプションが [findtime] で選択されている場合、Findtime は Skype for business または Microsoft Teams の会議をスケジュールします。 (FindTime は、組織によって既定のオンライン会議チャンネルとして設定されたものを使用します)。
+## <a name="teams-meeting-add-in-in-and-findtime-for-outlook"></a>Outlook の Teams 会議アドインと FindTime
+FindTime は、Outlook 用のアドインです。これは、企業全体の会議時間に関してユーザが合意できるようにします。 会議の招待者が希望の時間を提示したら、FindTime はユーザーの代わりに会議出席依頼を送信します。 FindTime で [**オンライン会議**] オプションが選択されている場合、FindTime は Skype for Business または Microsoft Teams の会議をスケジュールします。 (FindTime は、既定のオンライン会議チャネルとして、組織が設定したものを使用します。)
 
 > [!NOTE]  
-> お客様の[findtime ダッシュボード](https://findtime.microsoft.com/UserDashboard)に Skype for business の設定を保存した場合、findtime では Microsoft Teams の代わりにそれが使用されます。 Microsoft Teams を使用する場合は、ダッシュボードの Skype for Business の設定を削除します。
+> [Findtime ダッシュボード](https://findtime.microsoft.com/UserDashboard)で Skype for Business の設定を保存した場合、FindTime は Microsoft Teams の代わりにその設定を使用します。 Microsoft Teams を使用する場合は、ダッシュボードの Skype for Business の設定を削除します。
 
-詳細については、「 [FindTime での会議のスケジュール](https://support.office.com/article/scheduling-meetings-with-findtime-4dc806ed-fde3-4ea7-8c5e-b5d1fddab4a6)」を参照してください。
+詳細については、「[FindTime で会議をスケジュールする](https://support.office.com/article/scheduling-meetings-with-findtime-4dc806ed-fde3-4ea7-8c5e-b5d1fddab4a6)」を参照してください。
 
 ## <a name="authentication-requirements"></a>認証要件
 
 Teams の会議アドインでは、ユーザーが認証要件を使用して Teams にサインインすることが必要になります。 ユーザーがこの方法を使用せずにサインインしても、Teams クライアントを使用することはできますが、Outlook アドインを使用して Teams のオンライン会議をスケジュール設定することはできません。 これを修正するには、次のいずれかを実行します。
 
 - 先進認証が組織に対して構成されていない場合は、先進認証を構成します。
-- モダン認証が設定されているが、ダイアログボックスでキャンセルされた場合は、多要素認証を使用してもう一度サインインするようにユーザーに指示する必要があります。
+- 先進認証が構成されていているのにダイアログ ボックスでユーザーが無効になってしまう場合は、それらのユーザーに対して多要素認証を使用してサインインし直すよう指示します。
 
 認証を構成する方法の詳細については、「[Microsoft Teams での ID モデルと認証](identify-models-authentication.md)」をご覧ください。
 
 ## <a name="enable-private-meetings"></a>プライベート会議を有効にする
 
-アドインを展開できるようにするには、Microsoft Teams 管理センターで**プライベート会議のスケジュール**を有効にする必要があります。 管理センターで**Meetings** > **Meeting Policies**に行き、**一般的な**セクションで、**Allow scheduling private meetings**をオンに切り替えるます。)
+アドインを展開するには、Microsoft Teams 管理センターで [**プライベート会議のスケジュールを設定できるようになります**] を有効にする必要があります。 管理センターで**Meetings** > **Meeting Policies**に行き、**一般的な**セクションで、**Allow scheduling private meetings**をオンに切り替えるます。)
 
 ![Microsoft Teams管理センターの設定のスクリーンショット。](media/teams-add-in-for-outlook-image1.png)
 
@@ -91,18 +91,18 @@ Teams クライアントはユーザーが必要としているのが 32 ビッ�
 > [!NOTE]
 > ユーザーは最新のアドインを利用できるようになるために Teams のインストールまたはアップグレード後に Outlook の再起動が必要になる可能性があります。
 
-## <a name="teams-upgrade-policy-and-the-teams-meeting-add-in-for-outlook"></a>Teams のアップグレードポリシーと Outlook 用 Teams 会議アドイン
+## <a name="teams-upgrade-policy-and-the-teams-meeting-add-in-for-outlook"></a>Teams のアップグレード ポリシーと Outlook 用 Teams 会議アドイン
 
-お客様は[、Skype For business から Teams へのアップグレードを選ぶ](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)ことができます。 テナント管理者は、チームの共存モードを使用して、ユーザーに対してこのような旅を定義できます。 テナント管理者は、ユーザーが Skype for Business (諸島モード) と共にチームを使用できるようにするオプションを備えています。 
+お客様は、[Skype for Business から Teams へのアップグレード手順を選択する](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)ことができます。 テナント管理者は、Teams の共存モードを使用して、ユーザーにこの手順を定義できます。 テナント管理者には、ユーザーが Skype for Business (アイランド モード) と共に Teams を使用できるようにするオプションがあります。 
 
-孤島モードのユーザーが Outlook で会議をスケジュールする場合、通常は、Skype for Business と Teams のどちらの会議をスケジュールするかを選ぶことができます。 Outlook on the web、Outlook Windows、Outlook Mac では、島々モードでは、ユーザーに Skype for Business アドインと Teams アドインの両方が表示されます。 初期リリースの一部の制限により、Outlook mobile では、Skype for Business**または**Teams 会議の作成のみがサポートされています。 詳細については、次の表を参照してください。
+アイランド モードのユーザは、Outlook で会議をスケジュールする場合、通常は Skype for Business と Teams の会議のどちらをスケジュールするか選択できると想定しています。 Outlook on the web、Outlook Windows、および Outlook Mac では、アイランド モードの場合、Skype for Business および Teams アドインの両方が表示されます。 初期リリースではいくつかの制限があるため、Outlook モバイルは Skype for Business **または** Teams の会議の作成のみをサポートしています。 詳細は次の表を参照してください。
 
-| Teams 管理センターでの共存モード | Outlook mobile の既定の会議プロバイダー |
+| Teams 管理センターの共存モード | Outlook モバイルの既定の会議プロバイダー |
 | --------------------------------------|---------------------------------------------|
 | アイランド | Skype for Business |
 | Skype for Business のみ | Skype for Business |
-| Skype for Business と Teams でのコラボレーション | Skype for Business |
-| Skype for Business と Teams でのコラボレーションおよび会議 | Teams |
+| Skype for Business と Teams の共同作業 | Skype for Business |
+| Skype for Business と Teams の共同作業と会議 | Teams |
 | Teams のみ | Teams |
 
 ## <a name="other-considerations"></a>その他の考慮事項
@@ -111,20 +111,20 @@ Teams の会議アドインは継続して機能が開発されていますの�
 
 - このアドインは、特定の参加者でスケジュール設定された会議向けで、チャネル内の会議向けではありません。 チャネル会議は Teams 内でスケジュール設定される必要があります。
 - 認証プロキシがユーザーの PC および Teams サービスのネットワーク パス内にある場合、アドインは機能しません。
-- ユーザーは Outlook 内からライブイベントをスケジュールできません。 [チームに移動して、ライブイベントのスケジュールを設定します。 詳細については、「 [Microsoft Teams のライブイベントとは](teams-live-events/what-are-teams-live-events.md)」を参照してください。
+- ユーザーが Outlook 内でライブ イベントをスケジュールすることはできません。 Teams に移動し、ライブ イベントをスケジュールします。 詳細については、「[Microsoft Teams のライブ イベントについて](teams-live-events/what-are-teams-live-events.md)」を参照してください。
 
 ## <a name="troubleshooting"></a>トラブルシューティング
 
 Teams Meeting add-in for Outlook のアドインをインストールできない場合は、次のトラブルシューティングの手順を試してください。
 
-- Outlook デスクトップクライアントで利用できるすべての更新プログラムが適用されていることを確認します。
+- Outlook デスクトップ クライアントのすべての利用可能な更新プログラムが適用されていることを確認します。
 - Teamsのデスクトップ クライアントを再起動します。
 - [Teamsのデスクトップ クライアント]からサインアウトして、もう一度サインインします。
 - Outlook デスクトップ クライアントを再起動します。 (管理者モードで Outlook が実行されていないことを確認してください。)
 - ログインしているユーザー アカウント名にスペースが含まれていないことを確認します。 これは既知の問題であり、今後のビルドで修正される予定です。
 - シングル サインオン (SSO) が有効になっていることを確認します。
 
-管理者が[Exchange Web Server (EWS) へのアクセスを制御](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)するように Microsoft Exchange を構成している場合は、代理人が上司の代わりに Teams 会議をスケジュールすることはできません。 この構成の解決策は開発中であり、今後リリースされる予定です。 
+管理者が、[Exchange Web Server (EWS) へのアクセスを制御する](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)ように Microsoft Exchange を構成している場合、代理人は上司の代わりに Teams 会議をスケジュールできません。 この構成のソリューションは開発中で、今後リリースされる予定です。 
 
 アドインを無効にする方法につぃての全般的なガイドラインについては、「[Office プログラムでアドインを表示、管理、インストールする](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D)」をご覧ください。
 
