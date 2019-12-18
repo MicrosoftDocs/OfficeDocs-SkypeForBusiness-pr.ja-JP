@@ -18,7 +18,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 6e05a95871dbe36f969c048f32d9bca99fec5d45
 ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 10/09/2019
 ms.locfileid: "37435241"
@@ -28,55 +28,55 @@ ms.locfileid: "37435241"
 # <a name="teams-client-experience-and-conformance-to-coexistence-modes"></a>Teams のクライアント エクスペリエンスおよび共存モードへの準拠
 
 
-Skype for Business の共存モード (SfBOnly、Sfbwithteams での共同作業、SfBWithTeamsCollabAndMeetings) の目的は、エンドユーザーが Skype for Business からチームに移行するときに、簡単で予測可能なエクスペリエンスを提供することです。  チームに移行する組織の場合、**チームのみ**のモードは各ユーザーの最終的な送信先ですが、すべてのユーザーが**チームのみ**(または他のモード) に同時に割り当てる必要はありません。  ユーザーが Teams の唯一のモードに到達する前に、組織は Skype for Business の共存モードのいずれかを使用して、**チームのみ**で、かつまだお持ちではないユーザー間で一貫した通信を行うことができます。 
+Skype for Business 共存モード (SfBOnly、SfBWithTeamsCollab、SfBWithTeamsCollabAndMeetings) の目的は、組織が Skype for Business から Teams に移行する際に、シンプルで予測可能なエクスペリエンスをエンド ユーザーに提供することです。  Teams に移行する組織にとって、最終的にはすべてのユーザーを **TeamsOnly** モードにすることが目標ですが、**TeamsOnly** (またはその他のモード) を全員に同時に割り当てる必要はありません。  ユーザーが TeamsOnly モードに到達するまでは、組織は Skype for Business 共存モードのいずれかのモードを使用でき、こうすることで、**TeamsOnly** モードのユーザーとまだこのモードに設定されていないユーザーの間で、安定した通信を確保できます。 
 
-ユーザーが Skype for Business モードのいずれかに入っている場合、着信するすべてのチャットと通話はユーザーの Skype for Business クライアントにルーティングされます。 ユーザーが Skype for Business モードのいずれかを使用している場合、エンドユーザーの混乱を回避して、適切なルーティング、チームクライアントの通話、チャット機能を無効にすることができます。 同様に、Teams での会議のスケジュール設定は、ユーザーが SfBOnly または Sfbwithteams・ SfBWithTeamsCollabAndMeetings モードになっているときに明示的に無効にし、ユーザーがモードにあるときに明示的に有効にします。
+ユーザーがいずれかの Skype for Business モードを使用している場合、受信するすべてのチャットと通話は、ユーザーの Skype for Business クライアントにルーティングされます。 ユーザーがいずれかの Skype for Business モードに設定されている場合、エンド ユーザーを混乱させない適切なルーティングを確保するために、Teams クライアントの通話とチャット機能は無効化されます。 同様に、Teams での会議のスケジュールも、ユーザーが SfBOnly または SfBWithTeamsCollab モードの場合は明示的に無効化され、ユーザーが SfBWithTeamsCollabAndMeetings の場合には明示的に有効化されます。
 
-プレゼンスはチャットと通話での到達可能性を示しているため、チャットや通話が無効になっていると、Teams での自己プレゼンス (つまり、ユーザーの写真の Teams クライアントでの1つのプレゼンスの表示) も非表示になります。 
+プレゼンスはチャットと通話による到達可能性を示す指標です。そのため、チャットと通話が無効になっている場合は、Teams の自己プレゼンス (Teams クライアントでの自分のプレゼンスをユーザーの写真に表示するもの) も非表示になります。 
 
-## <a name="how-the-available-functionality-in-teams-client-changes-based-on-mode"></a>チームクライアントで利用できる機能がモードに基づいてどのように変化するか
+## <a name="how-the-available-functionality-in-teams-client-changes-based-on-mode"></a>Teams クライアントで使用可能な機能がモードによってどのように変化するか
 
-Teams で利用できる機能は、TeamsUpgradePolicy によって設定されるユーザーの共存モードによって異なります。 次の表は、この動作をまとめたものです。
+Teams で使用できる機能は、TeamsUpgradePolicy で設定されているユーザーの共存モードによって異なります。 次の表は、動作をまとめたものです。
 
-|ユーザーの有効モード|Teams クライアントでの操作|
+|ユーザーの有効なモード|Teams クライアントでのエクスペリエンス|
 |---|---|
-|任意の Skype for Business モード|通話、チャット、および自己プレゼンスは無効になります。|
-|SfBWithTeamsCollabAndMeetings|会議のスケジュールを使用できます|
-|Sfbwithteamsの小条件<sup>1</sup>または Sfbのみ|会議のスケジュールを使用できない|
+|任意の Skype for Business モード|通話、チャット、および自己プレゼンスは無効です。|
+|SfBWithTeamsCollabAndMeetings|会議のスケジュールを利用できます|
+|SfBWithTeamsCollab または SfBOnly<sup>1</sup>|会議のスケジュールは利用できません|
 |||
 
-次のスクリーンショットは、 **Teams**モードとその他のすべて**のモードの**違いを示しています。 チャットと通話のアイコンは、既定では、 **Teams のみ**または**諸島**モード (左のスクリーンショット) で利用できますが、他のモード (右のスクリーンショット) では使用できません。
+次のスクリーンショットでは、**TeamsOnly** または**アイランド** モードと、その他のすべてのモードとの違いを示しています。 **TeamsOnly** または**アイランド** モード (左側のスクリーンショット) を使用する場合、既定ではチャットと通話のアイコンが表示されますが、他のモード (右のスクリーンショット) では表示されません。
 
-![Teams のモードの並列比較](media/teams-mode-comparison.png)
+![Teams モードを並べて比較](media/teams-mode-comparison.png)
 
-さらに、次に示すように、他のモードでは自己プレゼンスは使用できません。
+また、次に示すように、他のモードでは自己プレゼンスを使用できません。
 
-![最初に会議の自分のプレゼンスのスクリーンショット](media/meetings-first-no-self-presence-general.png)
+![会議を初めて利用したときの自己プレゼンスのスクリーンショット](media/meetings-first-no-self-presence-general.png)
  
 **注:**
-この時点では、sfbwithteamscollab と sfbonly は<sup>同じように</sup>動作しますが、sfbonly モードの場合は、Teams のチャネルとファイルの機能も無効にします。 中間では、アプリのアクセス許可ポリシーを使ってチャネルを非表示にすることができます。
+<sup>1</sup> 現時点では、SfBwithTeamsCollab と SfBOnly は同じように動作しますが、SfBOnly モードでは、Teams のチャネルとファイル機能も無効にします。 その間、アプリの権限ポリシーを使用してチャネルを非表示にできます。
 
 
-## <a name="impact-of-mode-on-other-policy-settings"></a>他のポリシー設定でのモードの影響
-上で説明したように、ユーザーの共存モードの影響は、ユーザーのチームクライアントで利用できる機能です。 これは、モードに応じて、他のポリシー設定の値よりもモードの値が優先されることを意味します。 特に、共存モードでは、次のポリシー設定が有効になっているかどうかが影響を受けます。
+## <a name="impact-of-mode-on-other-policy-settings"></a>他のポリシー設定に対するモードの影響
+上記のように、ユーザーの共存モードは、ユーザーの Teams クライアントで使用可能な機能に影響を与えます。 つまり、モードによっては、モードの値が他のポリシー設定の値よりも優先される場合があります。 特に、共存モードは、次のポリシー設定が適用されるかどうかに影響します。
 
-|**モダリティ (アプリ)**|**ポリシー。設定**|
+|**モダリティ (アプリ)**|**Policy.Setting**|
 |---|---|
-|チャット|Teams の Messagingポリシー AllowUserChat|
-|通話|TeamAllowPrivateCalling|
-|会議のスケジュール|TeamsMeetingPolicy.AllowPrivateMeetingScheduling</br>TeamsMeetingPolicy の会議のスケジュール|
+|チャット|TeamsMessagingPolicy.AllowUserChat|
+|通話|TeamsCallingPolicy.AllowPrivateCalling|
+|会議のスケジュール|TeamsMeetingPolicy.AllowPrivateMeetingScheduling</br>TeamsMeetingPolicy.AllowChannelMeetingScheduling|
 |||
 
-管理者は、共存モードの使用時にこれらのポリシー設定を明示的に設定する必要はあり*ません*が、これらの設定が特定のモードで次のように効率的に動作することを理解しておくことが重要です。 
+共存モードを使用する場合、管理者はこれらのポリシー設定を明示的に設定する必要は*ありません*が、これらの設定は特定のモードに対して次のように効果的に動作することを理解することが重要です。 
 
-|Mode|AllowUserChat|AllowPrivateCalling|AllowPrivateMeetingScheduling|Allowchannel会議のスケジュール|
+|モード|AllowUserChat|AllowPrivateCalling|AllowPrivateMeetingScheduling|AllowChannelMeetingScheduling|
 |---|---|---|---|---|
-|TeamsOnly または諸島|有効|有効|有効|有効|
+|TeamsOnly または アイランド|有効|有効|有効|有効|
 |SfBWithTeamsCollabAndMeetings|無効|無効|有効|有効|
-|Sfbwithteamsの各アシスタントまたは Sfbのみ|無効|無効|無効|無効|
+|SfBWithTeamsCollab または SfBOnly|無効|無効|無効|無効|
 ||||||
 
-PowerShell を使用して`Grant-CsTeamsUpgradePolicy`いる場合、コマンドレットは、TeamsMessagingPolicy、TeamTeamsMeetingPolicy のポリシー、およびの対応する設定の構成を確認し、それらの設定が TeamsUpgradePolicy によって置き換えられるかどうかを判断します。情報メッセージは PowerShell で提供されます。  上記で説明したように、他のポリシー設定を設定する必要はありません。 次に示すのは、PowerShell の警告の例です。
+PowerShell を使用する場合、`Grant-CsTeamsUpgradePolicy` コマンドレットは TeamsMessagingPolicy、TeamsCallingPolicy、および TeamsMeetingPolicy の対応する設定の構成を確認して、これらの設定が TeamsUpgradePolicy によって置き換えられるかどうかを判断し、そうであれば PowerShell で情報メッセージが提供されます。  上記のように、これらの他のポリシー設定を設定する必要はなくなりました。 次に、PowerShell の警告の例を示します。
 
 `Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab`
 
@@ -84,9 +84,9 @@ PowerShell を使用して`Grant-CsTeamsUpgradePolicy`いる場合、コマン�
 
 
 
-# <a name="related-topics"></a>関連トピック
+# <a name="related-topics"></a>関連項目
 
-[Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype)
+[Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス](https://docs.microsoft.com/ja-JP/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 
 
 
