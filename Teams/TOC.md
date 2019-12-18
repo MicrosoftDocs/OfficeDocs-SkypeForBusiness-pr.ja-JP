@@ -289,21 +289,26 @@
 
 
 # クラウド ボイス 
+
 ## [展開の計画](cloud-voice-landing-page.md)
+
 ## 電話システム
 ### [電話システムとは](what-is-phone-system-in-office-365.md)
 ### [電話システムで利用できる機能](here-s-what-you-get-with-phone-system.md)
 ### [電話システムをセットアップする](setting-up-your-phone-system.md)
 ### [共通領域電話をセットアップする](set-up-common-area-phones.md)
+
 ### ボイスメール
 #### [クラウド ボイスメールのセットアップ](set-up-phone-system-voicemail.md)
 #### [ボイスメールのデフォルト言語を変更する](change-the-default-language-for-greetings-and-emails.md)
 #### [ボイスメールの応答メッセージとメッセージで使用する言語](languages-for-voicemail-greetings-and-messages.md)
+
 ### 発信者番号
 #### [組織での発信者番号の利用方法](how-can-caller-id-be-used-in-your-organization.md)
 #### [発信者 ID ポリシーの管理](caller-id-policies.md)
 #### [ユーザーの発信者 ID の設定](set-the-caller-id-for-a-user.md)
 #### [発信回線 ID と発信者名の詳細](more-about-calling-line-id-and-calling-party-name.md)
+
 ### 自動応答と呼び出しキュー 
 #### [クラウド自動応答とは](what-are-phone-system-auto-attendants.md)
 #### [クラウドの自動応答をセットアップする](create-a-phone-system-auto-attendant.md)
@@ -312,6 +317,7 @@
 #### [Microsoft Teams のリソースのアカウントの管理](manage-resource-accounts.md)
 #### [クラウドの通話キューを作成する](create-a-phone-system-call-queue.md)
 #### [自動応答および呼び出しキューの通話に Teams から直接応答する](answer-auto-attendant-and-call-queue-calls.md)
+
 ### [コール パークおよび取得](call-park-and-retrieve.md)
 ### [通話の共有およびグループ通話ピックアップ](call-sharing-and-group-call-pickup.md)
 ### [通話ポリシー](teams-calling-policy.md)
@@ -353,7 +359,12 @@
 #### [メディア パスの国コード](direct-routing-country-codes.md)
 #### [セッション ボーダー コントローラーの接続をテストする PowerShell スクリプト](sip-tester-powershell-script.md)
 #### [着信通知の管理](direct-routing-call-notifications.md)
+#### プロトコル
+##### [定義と RFC 標準](direct-routing-protocols.md)
+##### [SIP プロトコル](direct-routing-protocols-SIP.md)
+##### [メディア プロトコル](direct-routing-protocols-media.md)
 #### [呼び戻しボットをセットアップする](direct-routing-ringback-bot.md)
+
 
 ## 電話番号
 ### [組織の電話番号を管理する](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
