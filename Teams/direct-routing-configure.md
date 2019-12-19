@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Phone システムのダイレクトルーティングを構成する方法について説明します。
-ms.openlocfilehash: 3524d3d41db02dbc123700ae259386bb97257bbd
-ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
+ms.openlocfilehash: beeecb1ece84980337c7fe385c6a0e1190bc5e3c
+ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/13/2019
-ms.locfileid: "40020071"
+ms.lasthandoff: 12/18/2019
+ms.locfileid: "40741381"
 ---
 # <a name="configure-direct-routing"></a>ダイレクト ルーティングを構成する
 
@@ -556,7 +556,7 @@ No Restrictions
 
 ポリシーは、SBC レベルで適用されます。 複数の翻訳ルールを SBC に割り当てることができます。これは、PowerShell でそれらをリストしたときに表示される順序で適用されます。 ポリシーのルールの順序を変更することもできます。
 
-数値操作ルールを作成、変更、表示、削除するには、TeamsTranslationRule、TeamsTranslationRule、TeamsTranslationRule、および TeamsTranslationRule コマンドレットを使用します。
+数値操作ルールを作成、変更、表示、削除するには、CsTeamsTranslationRule、CsTeamsTranslationRule、CsTeamsTranslationRule、および CsTeamsTranslationRule コマンドレットを使用します。
 
 SBCs で番号操作ルールを割り当て、構成、および一覧表示するには、、、、、、、および```OutboundPSTNNumberTranslationRulesList```パラメーターを```InboundTeamsNumberTranslationRules```使用```InboundPSTNNumberTranslationRules```し```OutboundTeamsNumberTranslationRules```て```OutboundPSTNNumberTranslationRules```、 ```InboundTeamsNumberTranslationRulesList```CSOnlinePSTNGateway ```InboundPSTNNumberTranslationRulesList```と```OutboundTeamsNumberTranslationRulesList``` [CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway)コマンドレットを併用します。 [](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway)
 

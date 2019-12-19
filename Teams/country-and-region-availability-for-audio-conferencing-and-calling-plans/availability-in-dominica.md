@@ -1,11 +1,11 @@
 ---
-title: ベリーズでの利用可能性
-author: CarolynRowe
-ms.author: crowe
+title: ドミニカでの可用性
+ms.author: v-lanac
+author: LanaChin
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, fafan
 ms.topic: reference
-ms.assetid: 46bce770-7c3c-4813-aa3c-26859989a849
+ms.assetid: 1eb066bc-394a-434e-87a2-61d257a7e77d
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
@@ -23,43 +23,44 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: ここでは、Skype for Business および Microsoft Teams の Office 365 サービスを、ベリーズで利用できるようにします。
-ms.openlocfilehash: 2212d4a95c8541c74c6c4706b3fabd3d271bbb1b
+description: ドミニカで利用できる Skype for Business および Microsoft Teams の Office 365 サービスを以下に示します。
+ms.openlocfilehash: e6d9cc4ef19e152944c5d1f82adaa81e16c26bb5
 ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 12/18/2019
-ms.locfileid: "40741351"
+ms.locfileid: "40741611"
 ---
-# <a name="availability-in-belize"></a>ベリーズでの利用可能性
+# <a name="availability-in-dominica"></a>ドミニカでの可用性
 
 電話会議と通話プランを利用できる[別の国や地域を見つけたり、](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)それぞれの国や地域でのそれらの詳細な利用可能状況を確認したりすることができます。
 
-ここでは、Skype for Business および Microsoft Teams の Office 365 サービスを、ベリーズで利用できるようにします。
+ドミニカで利用できる Skype for Business および Microsoft Teams の Office 365 サービスを以下に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|電話会議は購入できますか?  <br/> |はい、[分単位の支払い](../audio-conferencing-pay-per-minute.md)のみ <br/> |
-|電話番号は自動的に電話会議に割り当てられますか?  <br/> |いいえ  <br/> |
+|電話会議は購入できますか?  <br/> |はい、[分単位の支払い](../audio-conferencing-pay-per-minute.md)のみ  <br/> |
+|電話番号は自動的に電話会議に割り当てられますか?  <br/> |いいえ <br> |
 |折り返し通話機能を使用するダイヤルアウト機能  <br/> |通信クレジットが必要  <br/> |
+   
    
 ## <a name="phone-system"></a>電話システム
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|電話システムは購入できますか?  <br/> |はい  <br/> |
-|自動応答 <br/> |利用可能  <br/> |
-|通話キュー  <br/> |利用可能  <br/> |
-|ボイスメール  <br/> |利用可能  <br/> |
+|電話システムは購入できますか?  <br/> | はい <br/> |
+|自動応答 <br/> | 利用可能  <br/> |
+|通話キュー  <br/> | 利用可能 <br/> |
+|ボイスメール  <br/> | 利用可能 <br/> |
    
 ## <a name="calling-plans"></a>通話プラン
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|通話プランは購入できますか?  <br/> |いいえ  <br/> |
-|通話プランで利用可能な通話分数  <br/> |該当しない  <br/> |
+|通話プランは購入できますか?  <br/> | いいえ <br/> |
+|通話プランで利用可能な通話分数  <br/> | 該当しない<br/> |
 |発信通話を行うことができますか?  <br/> |該当しない  <br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
@@ -85,4 +86,7 @@ ms.locfileid: "40741351"
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)
 
 [国および地域ごとの電話会議および通話プランの利用可能性](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+
+  
+ 
 

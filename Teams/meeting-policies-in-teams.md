@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Teams で会議のポリシー設定を管理する方法について説明します。
-ms.openlocfilehash: 1407e18387aac5ae9ad5bdaa894d738f48fb3b42
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ba44188d978c9109d1ba3d038c5b1f48d0670746
+ms.sourcegitcommit: 43cab5f0fc8692174db09badf3d448e8ff6a50d6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37564968"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40744871"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Teams での会議ポリシーを管理する
 
@@ -95,7 +95,7 @@ ms.locfileid: "37564968"
 ## <a name="meeting-policy-settings---general"></a>会議のポリシー設定-全般
 
 - [チャネルの [会議の開始] を許可する](#allow-meet-now-in-channels)
-- [今すぐプライベート会議を許可する (近日公開予定)](#allow-private-meet-now-coming-soon)
+- [今すぐプライベート会議を許可する](#allow-private-meet-now)
 - [Outlook アドインの使用を許可する](#allow-the-outlook-add-in)
 - [チャネル会議のスケジュールを許可する](#allow-channel-meeting-scheduling)
 - [プライベート会議のスケジュールを許可する](#allow-scheduling-private-meetings)
@@ -106,7 +106,7 @@ ms.locfileid: "37564968"
 
 ![メッセージの下に [今すぐ会議] アイコンが表示されたスクリーンショット](media/meeting-policies-meet-now.png)
 
-### <a name="allow-private-meet-now-coming-soon"></a>今すぐプライベート会議を許可する (近日公開予定)
+### <a name="allow-private-meet-now"></a>今すぐプライベート会議を許可する
 
 これはユーザーごとのポリシーであり、会議が開始される前に適用されます。 この設定は、ユーザーが臨時のプライベート会議を開始できるかどうかを制御します。  
 
@@ -387,8 +387,6 @@ Daniela は Amanda の会議でノートを取ることができ、Amanda はど
 |   | 組織内のすべてのユーザー     |ロビーで待機する         |
 |   | 組織内のすべてのユーザーとフェデレーション組織      | ロビーで待機する         |
 
-
-[記事の全文](meeting-policies-in-teams.md)
 
 ## <a name="related-topics"></a>関連項目
 [Teams のメッセージポリシー](messaging-policies-in-teams.md)

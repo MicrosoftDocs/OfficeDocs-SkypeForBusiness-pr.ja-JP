@@ -25,12 +25,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 国/地域を選択して、電話会議、電話システム、通話プラン、コミュニケーション クレジット、および有料電話番号と無料電話番号を利用できるかどうかを確認できます。
-ms.openlocfilehash: b4ff3d9a760587788a93c459c7888b1972579f89
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: d98e085667c97dbf4b4afc6dfc67fe1eb847d731
+ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573087"
+ms.lasthandoff: 12/18/2019
+ms.locfileid: "40741391"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>国および地域ごとの電話会議および通話プランの利用可能性
 
@@ -39,21 +39,26 @@ ms.locfileid: "37573087"
 ## <a name="select-your-country-or-region-to-see-whats-available-for-your-organization"></a>お客様の国または地域を選択して、組織で利用可能な機能を確認してください
 
 > [!div class="op_single_selector"]
-> - [アルジェリア](availability-in-algeria.md)    
+> - [アルジェリア](availability-in-algeria.md)
+> - [アンティグア バーブーダ](availability-in-antigua-and-barbuda.md)
 > - [アルゼンチン](availability-in-argentina.md)
 > - [オーストラリア](availability-in-australia.md)
 > - [Austria](availability-in-austria.md)
+> - [バハマ](availability-in-the-bahamas.md)
 > - [バーレーン](availability-in-bahrain.md)
+> - [バルバドス](availability-in-barbados.md)
 > - [ベラルーシ](availability-in-belarus.md)
 > - [Belgium](availability-in-belgium.md)
 > - [ベリーズ](availability-in-belize.md)
 > - [ベナン](availability-in-benin.md)
+> - [バーミューダー諸島](availability-in-bermuda.md)
 > - [ボスニア・ヘルツェゴビナ](availability-in-bosniaherzegovina.md)
 > - [ブラジル](availability-in-brazil.md)
 > - [ブルネイ](availability-in-brunei.md)
 > - [ブルガリア](availability-in-bulgaria.md)
 > - [カンボジア](availability-in-cambodia.md)
 > - [カナダ](availability-in-canada.md)
+> - [Cayman Islands](availability-in-the-cayman-islands.md)
 > - [チリ](availability-in-chile.md)
 > - [中国](availability-in-china.md)
 > - [コロンビア](availability-in-colombia.md)
@@ -62,6 +67,7 @@ ms.locfileid: "37573087"
 > - [キプロス](availability-in-cyprus.md)
 > - [チェコ共和国](availability-in-the-czech-republic.md)
 > - [デンマーク](availability-in-denmark.md)
+> - [ドミニカ](availability-in-dominica.md)
 > - [ドミニカ共和国](availability-in-the-dominican-republic.md)
 > - [エクアドル](availability-in-ecuador.md)
 > - [エジプト](availability-in-egypt.md)
@@ -73,14 +79,17 @@ ms.locfileid: "37573087"
 > - [Germany](availability-in-germany.md)
 > - [ガーナ](availability-in-ghana.md)
 > - [ギリシャ](availability-in-greece.md)
+> - [グレナダ](availability-in-grenada.md)
+> - [グアム](availability-in-guam.md)
 > - [ホンジュラス](availability-in-honduras.md)
-> - [香港](availability-in-hong-kong.md)
+> - [香港特別行政区](availability-in-hong-kong.md)
 > - [ハンガリー](availability-in-hungary.md)
 > - [India](availability-in-india.md)
 > - [Indonesia](availability-in-indonesia.md)
 > - [アイルランド](availability-in-ireland.md)
 > - [イスラエル](availability-in-israel.md)
 > - [イタリア](availability-in-italy.md)
+> - [ジャマイカ](availability-in-jamaica.md)
 > - [日本](availability-in-japan.md)
 > - [ヨルダン](availability-in-jordan.md)
 > - [カザフスタン](availability-in-kazakhstan.md)
@@ -112,6 +121,8 @@ ms.locfileid: "37573087"
 > - [カタール](availability-in-qatar.md)
 > - [ルーマニア](availability-in-romania.md)
 > - [Russia](availability-in-russia.md)
+> - [Saint Kitts and Nevis](availability-in-saint-kitts-and-nevis.md)
+> - [セントルシア](availability-in-saint-lucia.md)
 > - [サウジアラビア](availability-in-saudi-arabia.md)
 > - [セルビア](availability-in-serbia.md)
 > - [シンガポール](availability-in-singapore.md)
@@ -136,7 +147,7 @@ ms.locfileid: "37573087"
 > - [ベネズエラ](availability-in-venezuela.md)
 > - [Vietnam](availability-in-vietnam.md)
 
-**すべての国と地域でスプレッドシートをお探しの場合は、[クラウドボイス機能の国/地域の可用性スプレッドシート](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-09052019)-(en-us).xlsx?raw=true)をダウンロードして保存**します。
+**すべての国と地域でスプレッドシートをお探しの場合は、[クラウドボイス機能の国/地域の可用性スプレッドシート](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-12182019)-(en-us).xlsx?raw=true)をダウンロードして保存**します。
 
 ***
 
@@ -188,7 +199,7 @@ Skype for Business または Microsoft Teams サービスの 1 つが利用で�
 ライセンスの情報については、「[電話システムと通話プランのライセンス](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」をご覧ください。
 
 > [!NOTE]
-> [国/地域] は、 **microsoft 365 管理センター** > の**アクティブユーザー**でのユーザーのライセンスの場所を基にしていますが、microsoft 365 管理者の**組織プロファイル**の下に表示されている請求先住所は含まれて**いません**。 **中央揃え**。 
+> [国/地域] は、 **microsoft 365 管理センター** > **アクティブユーザー**でのユーザーのライセンスの場所を基にしており、 **microsoft 365 管理センター**の**組織プロファイル**の下に記載されている請求先住所は含まれて**いません**。 
   
 ### <a name="toll-and-toll-free-phone-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
 

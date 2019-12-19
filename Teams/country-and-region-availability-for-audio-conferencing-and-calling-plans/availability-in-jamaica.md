@@ -1,11 +1,10 @@
 ---
-title: ベリーズでの利用可能性
-author: CarolynRowe
-ms.author: crowe
+title: ジャマイカの可用性
+author: LanaChin
+ms.author: v-lanac
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, fafan
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
-ms.assetid: 46bce770-7c3c-4813-aa3c-26859989a849
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
@@ -23,27 +22,27 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: ここでは、Skype for Business および Microsoft Teams の Office 365 サービスを、ベリーズで利用できるようにします。
-ms.openlocfilehash: 2212d4a95c8541c74c6c4706b3fabd3d271bbb1b
+description: 以下に、Skype for Business および Microsoft Teams 用の Office 365 サービスを、ジャマイカで利用できます。
+ms.openlocfilehash: 2860d014eeca08627e8eb51e168eb593767291fb
 ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 12/18/2019
-ms.locfileid: "40741351"
+ms.locfileid: "40741609"
 ---
-# <a name="availability-in-belize"></a>ベリーズでの利用可能性
+# <a name="availability-in-jamaica"></a>ジャマイカの可用性
 
 電話会議と通話プランを利用できる[別の国や地域を見つけたり、](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)それぞれの国や地域でのそれらの詳細な利用可能状況を確認したりすることができます。
 
-ここでは、Skype for Business および Microsoft Teams の Office 365 サービスを、ベリーズで利用できるようにします。
+以下に、Skype for Business および Microsoft Teams 用の Office 365 サービスを、ジャマイカで利用できます。
   
 ## <a name="audio-conferencing"></a>電話会議
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|電話会議は購入できますか?  <br/> |はい、[分単位の支払い](../audio-conferencing-pay-per-minute.md)のみ <br/> |
-|電話番号は自動的に電話会議に割り当てられますか?  <br/> |いいえ  <br/> |
-|折り返し通話機能を使用するダイヤルアウト機能  <br/> |通信クレジットが必要  <br/> |
+|電話会議は購入できますか?  <br/> |はい、[分単位の支払い](../audio-conferencing-pay-per-minute.md)のみ  <br/> |
+|電話番号は自動的に電話会議に割り当てられますか?  <br/> | いいえ |
+|折り返し通話機能を使用するダイヤルアウト機能  <br/> | 通信クレジットが必要 <br/> |
    
 ## <a name="phone-system"></a>電話システム
 
@@ -66,11 +65,11 @@ ms.locfileid: "40741351"
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|有料電話番号を取得できる首都または主要都市はどこですか?  <br/> |該当しない  <br/> |
-|有料電話番号は使用できますか?  <br/> |いいえ  <br/> |
-|無料電話番号は使用できますか?  <br/> |はい  <br/> |
+|有料電話番号を取得できる首都または主要都市はどこですか?   | 該当しない <br/> |
+|有料電話番号は使用できますか?  <br/> |いいえ <br/> |
+|無料電話番号は利用できますか?  <br/> |はい  <br/> |
    
- 電話会議、自動応答、通話キューのための有料電話番号または無料電話番号を取得する場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)」をご覧ください。
+ 電話会議、自動応答、通話キューの有料または無料の電話番号を取得する場合は、「 [Skype For business および Microsoft Teams のサービス電話番号を取得](/microsoftteams/getting-service-phone-numbers)する」を参照してください。
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 

@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 71060818ceb826249cb726264c9533172edd1c39
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 12ef34ed9a4602f747b706c08586ecfe5854dcf4
+ms.sourcegitcommit: 43cab5f0fc8692174db09badf3d448e8ff6a50d6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573286"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40744861"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>Microsoft 365 Government の計画-GCC 高展開
 
@@ -40,7 +40,7 @@ Microsoft 365 Government-GCC 高環境では、クラウドサービスの米国
 
 Microsoft 365 Government –米国政府のお客様向けの高度な機能については、「[資格の要件](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements)を含む[Office 365 政府](https://products.office.com/government/compare-office-365-government-plans)機関向けプラン」を参照してください。
 
-[Office 365 US Government service の説明](https://docs.microsoft.com/en-us/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)では、プラットフォームの利点について説明します。この情報は、米国内での会議のコンプライアンス要件に基づいて中央に配置されています。
+[Office 365 US Government service の説明](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)では、プラットフォームの利点について説明します。この情報は、米国内での会議のコンプライアンス要件に基づいて中央に配置されています。
 
 
 > [!Tip]
@@ -65,7 +65,7 @@ Microsoft 365 Government –米国政府のお客様向けの高度な機能に�
 
 |    |     |
 |-----------|------------|
-| ![判断ポイントを示すアイコン](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>既定の Microsoft 365 Government-GCC 高セキュリティ設定を変更する必要があるかどうかを決定します。解決するには、変更の影響を最初に理解する必要があります。</li></ul> |
+| ![判断ポイントを表すアイコン](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>既定の Microsoft 365 Government-GCC 高セキュリティ設定を変更する必要があるかどうかを決定します。解決するには、変更の影響を最初に理解する必要があります。</li></ul> |
 
 
 ## <a name="step-4-understand-which-teams-capabilities-are-currently-available-in-microsoft-365-government---gcc-high"></a>手順4。 Microsoft 365 Government で現在利用できる Teams 機能を理解する-GCC 高
@@ -109,7 +109,7 @@ Microsoft 365 Government –米国政府のお客様向けの高度な機能に�
 | | Skype for ビジネス-チーム通話 | 利用可能 |
 | | 通話プラン | 利用不可 |
 | | 電話会議 (会議の参加者に PSTN 経由での参加を許可する) | 利用可能 |
-| | Microsoft Phone システムのダイレクトルーティング | 政府バックログの場合 |
+| | Microsoft Phone システムのダイレクトルーティング | 利用可能 |
 | | PSTN 発信者のロビー | 政府バックログの場合 |
 | | 通話キュー | 政府バックログの場合 |
 | | 上司と代理人のサポート | 政府バックログの場合 |
@@ -140,7 +140,7 @@ Microsoft 365 Government –米国政府のお客様向けの高度な機能に�
 
 |    |     |
 |-----------|------------|
-| ![判断ポイントを示すアイコン](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>Teams 機能セットが組織のニーズを満たすかどうかを決定します。</li></ul> |
+| ![判断ポイントを表すアイコン](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>Teams 機能セットが組織のニーズを満たすかどうかを決定します。</li></ul> |
 
 ## <a name="step-5-plan-for-governance"></a>手順5 ガバナンスの計画
 
