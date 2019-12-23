@@ -15,12 +15,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 098477cc36237736009e1ec2010fea625d08937c
-ms.sourcegitcommit: 57304ac641931eed87e649555fd5eb5e58732dc5
+ms.openlocfilehash: aa6fad448f0251a44d31c5277b43390daeb3441c
+ms.sourcegitcommit: e43a66a7f769f855dc45c1bb7f83636d0390949b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39679237"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "40823912"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
@@ -101,6 +101,18 @@ Teams チャットは、Microsoft Exchange のバックエンドで動作する�
 |------------|---------------|
 |会議に参加できるユーザー数  | 250 人    |
 |PowerPoint ファイルの最大サイズ | 2GB|
+
+### <a name="meeting-expiration"></a>会議の有効期限
+
+|会議の種類  |この時間が経過すると、会議は期限切れになります  |会議を開始または更新するたびに、有効期限はこの時間だけ延長されます  |
+|---------|---------|---------|
+|今すぐ会議     |開始時刻 + 8 時間         |該当なし         |
+|終了時刻のない標準     |開始時刻 + 60 日         | 60 日        |
+|終了時刻のある標準     |終了時刻 + 60 日         |60 日         |
+|終了時刻のない定期     |開始時刻 + 60 日         |60 日         |
+|終了時刻のある定期     |最後の発生の終了時刻 + 60 日         |60 日         |
+
+
 
 ## <a name="teams-live-events"></a>Teams のライブ イベント
 
