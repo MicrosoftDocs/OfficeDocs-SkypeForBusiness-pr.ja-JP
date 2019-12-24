@@ -13,29 +13,29 @@ ms.reviewer: vinbel
 search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.externalaccess.overview
-description: チームまたは IT 管理者は、他のドメイン (フェデレーション) の外部アクセスを設定して、これらのドメインのユーザーが Teams に参加できるようにすることができます。
+description: Teams または IT 管理者は、他のドメインの外部アクセス (フェデレーション) を構成して、それらのドメインのユーザーが Teams に参加できるようにすることができます。
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ms.openlocfilehash: e6eb1cab6503c443d3fb312769f9f1e0255c294a
 ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 11/01/2019
 ms.locfileid: "37925048"
 ---
-<a name="manage-external-access-in-microsoft-teams"></a>Microsoft Teams で外部アクセスを管理する
+<a name="manage-external-access-in-microsoft-teams"></a>Microsoft Teams での外部アクセスの管理
 ======================================================
 
-外部アクセスは、外部の Teams ユーザーが Teams で自分との会議を検索、通話、チャット、セットアップできるようにするための1つの方法です。 また、外部アクセスを使用して、まだ Skype for Business (オンラインおよびオンプレミス) および Skype (2020 より前のリリース) を使用している外部ユーザーと通信することもできます。
+外部アクセスとは、ドメイン全体における外部の Teams ユーザーが Teams で会議の検索、呼び出し、チャット、設定を行うための手段です。 外部アクセスでは、Skype for Business (オンラインおよびオンプレミス) を現在使用している外部ユーザーや、Skype (2020 年初頭に導入予定) を使用する外部ユーザーとも通信することができます。
 
-外部のユーザーがチームとチャネルにアクセスできるようにする場合に適した方法は、ゲスト アクセスです。 外部アクセスとゲストアクセスの違いの詳細については、「外部アクセスと[ゲストアクセスの比較](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access)」を参照してください。 
+外部のユーザーがチームとチャネルにアクセスできるようにする場合に適した方法は、ゲスト アクセスです。 外部アクセスとゲスト アクセスの違いの詳細については、「[外部アクセスとゲスト アクセスの比較](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access)」を参照してください。 
 
-外部アクセスは、次の場合に使用します。
+以下のような場合に外部アクセスを使用します。
   
-- 共同作業する必要があるさまざまなドメイン内にユーザーがいる。 たとえば、Rob@contoso.com と Ann@northwindtraders.com は、contoso.com と northwindtraders.com のドメインで、他のユーザーと一緒にプロジェクトで作業します。
+- 別ドメインに共同作業が必要なユーザーがいる場合。 たとえば、Rob@contoso.com と Ann@northwindtraders.com が、contoso.com ドメインおよび northwindtraders.com ドメインの他のユーザーと一緒にプロジェクトの共同作業を行う場合です。
 
-- 組織内のユーザーが特定の組織外の会社のユーザーと連絡する際に、Teams を使用させたい場合。
+- 組織内のユーザーが、Teams を使用して組織外の特定の会社のユーザーに連絡する必要場ある場合。
 
 - ユーザーのメール アドレスを使用して、世界中の Teams のユーザーは誰でもそのユーザーを検索して連絡を取れるようにする場合。 
 
@@ -43,7 +43,7 @@ ms.locfileid: "37925048"
 
 
 > [!IMPORTANT]
-> 現在、Microsoft Teams アプリ内で、まだ Azure Active Directory (Azure AD) またはテナントのゲストではない外部ユーザーとのフェデレーションを行うには、ハイブリッドに適切に設定して、Skype for Business Online に移行する必要があります。 2019年2月25日時点では、チームは、SIP プロフィールのユーザが Skype for Business Online をホームにしていなくても、ネイティブフェデレーションをサポートしていません。 ハイブリッド用にアカウントを設定し、Teams に移行する方法については、「 [Skype For business のハイブリッド展開を teams にアップグレードする](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-execute-skypeforbusinesshybrid)」を参照してください。
+> 現在、Microsoft Teams アプリ内で Azure Active Directory (Azure AD) またはテナントのゲストでない組織外の外部ユーザーへのフェデレーションを行うには、ハイブリッド環境を正しく設定し、Skype for Business Online に移行する必要があります。 2019 年 2 月 25 日現在、SIP プロフィールのユーザーが Skype for Business Online に属している場合を除き、Teams ではネイティブのフェデレーションはサポートされていません。 ハイブリッド環境でアカウントを設定した後に Teams に移行する場合の詳細については、「[Skype for Business のハイブリッド展開を Teams にアップグレードする](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-execute-skypeforbusinesshybrid)」を参照してください。
 
 
 
@@ -52,40 +52,40 @@ ms.locfileid: "37925048"
 
 ## <a name="plan-for-external-access"></a>外部アクセスの計画
 
-既定では、外部アクセスは Teams で有効になっています。つまり、組織がすべての外部ドメインと通信できることを意味します。 ブロックしたドメインを追加すると、その他のすべてのドメインが許可されます。また、許可されたドメインを追加すると、他のすべてのドメインがブロックされます。 Teams 管理センターで外部アクセスをセットアップするには、次の3つのシナリオがあります (**組織全体の設定** > の**外部アクセス**)。
+Teams では既定で外部アクセスが有効になっています。つまり、組織はすべての外部ドメインと通信できます。 禁止ドメインを追加すると、他のすべてのドメインが許可され、許可ドメインを追加すると、他のすべてのドメインが禁止されます。 Teams 管理センターで外部アクセスを設定するには、次の 3 つのシナリオがあります (**[組織全体の設定]**  >  **[外部アクセス]**)。
 
-- **[フェデレーションを開く**]: これは Teams の既定の設定であり、組織内のユーザーは、任意のドメインで組織外のユーザーとの会議を検索、通話、チャット、セットアップすることができます。
+- **開いているフェデレーション**: これは Teams の既定の設定です。組織内のユーザーが任意のドメインの組織外ユーザーとの会議の検索、呼び出し、チャット、設定を行えるようにします。
 
-    このシナリオでは、ユーザーは、チームまたは Skype for Business を実行していて、開いているフェデレーションを使用しているか、ドメインを許可リストに追加しているすべての外部ドメインと通信できます。
+    このシナリオでは、ユーザーはすべての外部ドメインと通信することができます。この外部ドメインは、Teams または Skype for Business を実行しており、開いているフェデレーションを使用しているか、ユーザーのドメインを許可リストに追加しています。
 
-- [**特定のドメインを許可**する]:**許可**リストにドメインを追加して、許可されているドメインのみに外部アクセスを制限します。 許可ドメインのリストを設定すると、他のすべてのドメインがブロックされます。 特定のドメインを許可するには、[**ドメインの追加**] をクリックし、ドメイン名を追加して、[**このドメインで実行する操作**] をクリックし、[**許可**] を選びます。
+- **特定のドメインを許可する**: **[許可]** リストにドメインを追加して、外部アクセスを許可ドメインのみに制限します。 許可ドメインのリストを設定すると、他のすべてのドメインが禁止されます。 特定のドメインを許可するには、**[ドメインの追加]** をクリックし、ドメイン名を追加します。その後、**[このドメインで実行するアクション]** をクリックし、**[許可]** を選択します。
 
-- **特定のドメインをブロック**する-ドメインを**ブロック**リストに追加することで、ブロックしたドメイン*以外*のすべての外部ドメインと通信できます。 特定のドメインをブロックするには、[**ドメインの追加**] をクリックし、ドメイン名を追加して、[**このドメインで実行するアクション**] をクリックし、[**ブロック**] を選択します。 ブロックしたドメインのリストを設定すると、他のすべてのドメインが許可されます。
+- **特定のドメインを禁止する** - **[禁止]** リストにドメインを追加すると、禁止したもの*以外の*すべての外部ドメインと通信することができます。 特定のドメインを禁止するには、**[ドメインの追加]** をクリックし、ドメイン名を追加します。その後、**[このドメインで実行するアクション]** をクリックし、**[禁止]** を選択します。 禁止ドメインのリストを設定すると、他のすべてのドメインが許可されます。
 
-## <a name="allow-or-block-domains"></a>ドメインを許可またはブロックする
+## <a name="allow-or-block-domains"></a>ドメインの許可または禁止
 
-### <a name="step-1---enable-your-organization-to-communicate-with-another-teams-organization"></a>手順 1-組織が別のチーム組織と通信できるようにする
+### <a name="step-1---enable-your-organization-to-communicate-with-another-teams-organization"></a>手順 1 - 組織が別の Teams の組織と通信できるように設定
 
-![Microsoft teams](media/teams-logo-30x30.png)**管理センターを使用し**た microsoft teams ロゴを示すアイコン  
+![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
 
-1. 左側のナビゲーションで、[**組織全体の設定**]  >  [**外部アクセス**] に移動します。
+1. 左側のナビゲーションで、**[組織全体の設定]**  >  **[外部アクセス]** に移動します。
 
-2. ユーザーが**Skype For business および Teams ユーザーと通信できる**ように切り替え**ます。**
+2. **[ユーザーは Skype for Business と Teams ユーザーと通信できます]** を **[オン]** に切り替えます。
 
-     ![外部アクセススイッチがオンになっているスクリーンショット](media/manage-external-access-2.png).
+     ![外部アクセスのスイッチがオンになっているスクリーンショット](media/manage-external-access-2.png)。
 
 3. すべての Teams の組織に対して、組織内のユーザーとの通信を許可する場合は、手順 5 に進みます。
 
-4. 組織内のユーザーと通信できる組織を制限する場合は、一部のドメインを除くすべてのドメインを許可するか、特定のドメインのみを許可することができます。 
+4. 組織内のユーザーと通信できる組織を制限するには、特定のドメイン以外のすべてを許可する方法と、特定のドメインのみを許可する方法があります。 
 
-    - 一部のドメインを除くすべてのドメインを許可するには、[**ドメインの追加**] をクリックして、ブロックするドメインを追加します。 [**ドメインの追加**] ウィンドウで、ドメイン名を入力し、[**禁止**] をクリックして、[**完了**] をクリックします。 
-    - 特定の組織への通信を制限するには、[**許可**] の状態でそれらのドメインをリストに追加します。 許可リストにドメインを追加した後、他の組織との通信は、ドメインが許可リストに含まれる組織に限定されます。 
+    - 特定のドメイン以外のすべてを許可するには、**[ドメインの追加]** をクリックして禁止するドメインを追加します。 **[ドメインの追加]** ウィンドウで、ドメイン名を入力して **[禁止]** をクリックし、**[完了]** をクリックします。 
+    - 通信を特定の組織に制限するには、それらの組織のドメインを **[許可]** の状態でリストに追加します。 [許可] リストにいずれかのドメインを追加すると、他の組織との通信は、[許可] リストにドメインが表示される組織との通信のみに制限されます。 
 
-5. [**保存**] をクリックします。
+5. **[保存]** をクリックします。
 
-6. 他のチーム組織の管理者がこれらの手順を完了していることを確認します。 たとえば、**許可ドメイン**リストでは、ユーザーとの通信を可能にする組織が制限されている場合は、管理者が自社のドメインに入力する必要があります。
+6. 他の Teams の組織の管理者も同じ手順を実行したことを確認します。 たとえば、他のある組織でその組織のユーザーと通信できる組織を制限している場合は、その組織の管理者は、**許可ドメイン**のリストにお客様の会社のドメインを入力する必要があります。
 
-### <a name="step-2---test-it"></a>手順 2-テストする
+### <a name="step-2---test-it"></a>手順 2 - テスト
 
 設定をテストするには、組織のファイアウォールの外側にいる Teams ユーザーが必要です。
   
@@ -95,22 +95,22 @@ ms.locfileid: "37925048"
 
 3. お客様宛にチャットの要求を送信するよう、Teams の連絡先に依頼します。 相手からの要求を受信できない場合は、お客様のファイアウォールの設定に問題があります (相手のファイアウォールの設定が正しいことが確認済みであることが前提)。
 
-4. ファイアウォールで問題があるかどうかをテストして、ファイアウォールの背後にない WiFi の場所に移動することもできます。 また、コーヒーショップなど、チームを使ってコンタクトにリクエストを送信して、チャットをすることができます。 メッセージは WiFi の場所で行われているが、仕事の途中ではない場合は、ファイアウォールに問題があることがわかります。
+4. ファイアウォールに問題があるかどうかをテストする別の方法は、ファイアウォールの外側の WiFi 環境に移動することです。 コーヒー ショップなどから、Teams を使用して連絡先にチャットの要求を送信します。 メッセージを WiFi 環境からは送信できるが、職場からは送信できない場合、問題の原因は職場のファイアウォールであることが特定できます。
 
 > [!NOTE]
-> 自分と他のユーザーの両方が外部アクセスを有効にし、他のユーザーが1つのドメインを許可している場合は、これが有効になります。 問題が解決しない場合は、他のユーザーが自分のドメインをブロックしていないことを確認する必要があります。
+> これは、ユーザーともう 1 人のユーザーの両方が外部アクセスを有効にしてお互いのドメインを許可している場合に可能になります。 正常に動作しない場合は、もう 1 人のユーザーの構成でユーザーのドメインが禁止されていないかを確認してもらいます。
 
 ## <a name="communicate-with-users-in-a-skype-for-business-online-organization"></a>Skype for Business Online の組織のユーザーとの通信
 
-外部アクセスを設定して、チームユーザーが Skype for Business 組織のユーザーを検索し、ユーザーに連絡できるユーザーを制限する場合は、次の手順に従って、自分のドメインから別の組織のドメインに外部アクセスを設定します。 次に、他の組織の管理者に連絡して、Skype for Business Online の外部アクセスを構成するための手順を実行します。 
+Teams ユーザーへの連絡が制限されている Skype for Business 組織内のユーザーを、Teams ユーザーが検索して連絡できるように外部アクセスを設定するには、手順に従って、ドメインから他の組織のドメインへの外部アクセスを設定します。 そして、他の組織の管理者に、以下の手順に従って Skype for Business Online の外部アクセスを構成するよう依頼します。 
 
-一般的な Skype for Business Online のシナリオに関する具体的なガイダンスについては、以下の[一般的な外部アクセスシナリオ](#common-external-access-scenarios)を参照してください。
+一般的な Skype for Business Online のシナリオに関する具体的なガイダンスについては、下に記載されている「[一般的な外部アクセスのシナリオ](#common-external-access-scenarios)」を参照してください。
 
-**Skype for Business 管理センターを使って** ![Skype for Business のロゴを表示したアイコン](media/sfb-logo-30x30.png)
+![Skype for Business のロゴを表示したアイコン](media/sfb-logo-30x30.png) **Skype for Business 管理センターの使用**
 
 その組織の管理者に、次の手順を実行するよう依頼します。
 
-1. Microsoft 365 管理センターで、[**管理センター** > **Teams & Skype** > **従来のポータル**] に移動します。
+1. Microsoft 365 管理センターで、**[管理センター]**  >  **[Teams & Skype]**  >  **[従来のポータル]** の順に移動します。
   
 2. **Skype for Business 管理センター**で、[**組織**]  >  [**外部通信**] の順に選択します。
 
@@ -118,30 +118,30 @@ ms.locfileid: "37925048"
 
     または、Skype for Business のオープン ポリシーを使用する世界中の誰とでもユーザーが通信できるようにするには、[**禁止したドメインを除いてオンにする**] を選択します。 これは、既定の設定です。
 
-4. [**禁止したドメインまたは許可**したドメイン] でを選ん**+** で、許可するドメインの名前を追加します。
+4. **[禁止したドメインまたは許可したドメイン]** の下で **[+]** を選択し、許可するドメイン名を追加します。
 
-## <a name="common-external-access-scenarios"></a>一般的な外部アクセスシナリオ
+## <a name="common-external-access-scenarios"></a>一般的な外部アクセスのシナリオ
 
-|**ご希望の場合**  |**操作**  |
+|**目的**  |**操作**  |
 |---------|-----------------------|
-|組織内の**teams ユーザー**が別の (外部) 組織の**teams ユーザー**と通信できるようにします。|外部アクセスで、外部ドメインを許可リストに追加するか、[オープンフェデレーション] を使用します。 その後、他の Teams 組織の管理者にも同じことができます。      |
-|組織内の**Teams ユーザー**が、同じ組織の**Skype for business Online ユーザー**と通信できるようにします。  |組織の Skype for Business ユーザーをサポートするには、[共存] モードを有効にするか、孤島アップグレードモードを選択します。   |
-|組織内の**Teams ユーザー**が、別の (外部) 組織の**Skype for business Online ユーザー**と通信できるようにします。      |外部アクセスで、外部ドメインを許可リストに追加するか、[オープンフェデレーション] を使用します。 <br><br>[ユーザーが外部アクセスの**Skype For business および Teams ユーザー設定と通信できるよう**にする] をオンにします。 その後、他の Teams 組織の管理者にも同じことができます。 <br><br>**注**: Skype for business ユーザーの外部ドメインでは、その組織の Skype for business ユーザーをサポートするために、共存モードを有効にするか、孤島アップグレードモードを選択する必要があります。|
-|組織内の**Teams ユーザー**が、組織内外の**Skype**ユーザーと通信できるようにします。   | このシナリオは近日中に公開されます。 <br><br>**重要**: チームユーザーは、まだ skype ユーザーと通信できませんが、Skype for business ユーザーは組織内外の skype ユーザーと通信できます。 **ユーザーが skype For business および Teams ユーザーと通信できるよう**にし、 **skype for Business ユーザーが外部アクセスの skype ユーザー設定と通信できるよう**にします。 |
-|**Skype For Business Online ユーザー**が別の Office 365 組織の**Teams ユーザー**と通信できるようにします。| ユーザーが次のいずれかのアップグレードモード (孤島、SfBOnly、Sfbwithteams、SfBWithTeamsCollabAndMeetings、) を使用している場合は、Skype for Business Online ユーザーが別の組織の Teams ユーザーと通信できます。もう1つの組織の Teams ユーザーは、Teams の唯一のモードにあります。 <br><br>[ユーザーが外部アクセスの**Skype For business および Teams ユーザーと通信できるよう**にする] 設定をオンにします。 次に、他の Teams 組織の管理者にも同じことを行います。|
-|Skype for **Business online ユーザー**が別の Office 365 組織の**Skype for business online ユーザー**と通信できるようにします。    | ユーザーが次のアップグレードモードのいずれかに該当する場合は、Skype for Business Online ユーザーが別の組織の Skype for Business Online ユーザーと通信することができます。これには、孤島、SfBOnly、Sfbwithteamab、SfBWithTeamsCollabAndMeetings;その他の組織の Skype for business Online ユーザーは、次のいずれかのアップグレードモード (孤島、SfBOnly Sfbwithteams SSfBWithTeamsCollabAndMeetings Ab、) にあります。<br><br>[ユーザーが外部アクセスの**Skype For business および Teams ユーザーと通信できるよう**にする] 設定をオンにします。 次に、他の Teams 組織の管理者にも同じことを行います。|
-|**Skype For Business Online ユーザー**がオンプレミスの組織から**skype for business ユーザー**と通信できるようにします。     |ユーザーが次のアップグレードモードのいずれかを使用している場合、Skype for Business Online ユーザーは、オンプレミスの組織から Skype for business ユーザーと通信できます。これは、孤島、SfBOnly、Sfbwithteams SSfBWithTeamsCollabAndMeetings Ab、;その他の組織の Skype for business Online ユーザーは、次のいずれかのアップグレードモード (孤島、SfBOnly Sfbwithteams SSfBWithTeamsCollabAndMeetings Ab、) にあります。<br><br>[ユーザーが外部アクセスの**Skype For business および Teams ユーザーと通信できるよう**にする] 設定をオンにします。 次に、他の Teams 組織の管理者にも同じことを行います。|
-|**Skype For Business Online ユーザー**が、組織内外の**skype ユーザー**と通信できるようにします。   |[ **Skype For business ユーザーが外部アクセスの skype ユーザーと通信できるよう**にします] 設定をオンにします。|
+|組織の **Teams ユーザー**が、別の (外部) 組織の **Teams ユーザー**と通信できるようにする。|外部アクセスで、外部ドメインを [許可] リストに追加するか、開いているフェデレーションを使用します。 他の Teams 組織の管理者にも同じ操作を行うように依頼します。      |
+|組織の **Teams ユーザー**が、同じ組織の **Skype for Business Online ユーザー**と通信できるようにする。  |組織の Skype for Business ユーザーをサポートするには、共存モードを有効にするか、アイランドのアップグレード モードを選択します。   |
+|組織の **Teams ユーザー**が、別の (外部) 組織の **Skype for Business Online ユーザー**と通信できるようにする。      |外部アクセスで、外部ドメインを [許可] リストに追加するか、開いているフェデレーションを使用します。 <br><br>外部アクセスの **[ユーザーは Skype for Business と Teams ユーザーと通信できます]** の設定をオンにします。 他の Teams 組織の管理者にも同じ操作を行うように依頼します。 <br><br>**注**: Skype for Business ユーザーの外部ドメインでは、その組織の Skype for Business ユーザーがサポートされるように、共存モードが有効になっているか、アイランドのアップグレード モードが選択されている必要があります。|
+|組織の **Teams ユーザー**が、組織内外の **Skype** ユーザーと通信できるようにする。   | このシナリオは準備中です。 <br><br>**重要**: Teams ユーザーはまだ Skype ユーザーと通信することはできませんが、Skype for Business ユーザーは組織内外の Skype ユーザーとこれまでどおり通信することができます。 外部アクセスの **[ユーザーは Skype for Business と Teams ユーザーと通信できます]** と **[Skype for Business ユーザーは Skype ユーザーと通信できます]** の設定をオンにします。 |
+|**Skype for Business Online ユーザー**が、他の Office 365 組織の **Teams ユーザー**と通信できるようにする。| ユーザーのアップグレード モードが、アイランド、SfBOnly、SfBWIthTeamsCollab、SfBWithTeamsCollabAndMeetings のいずれかで、他の組織の Teams ユーザーが TeamsOnly モードの場合、Skype for Business Online ユーザーは他の組織の Teams ユーザーと通信することができます。 <br><br>外部アクセスの **[ユーザーは Skype for Business と Teams ユーザーと通信できます]** の設定をオンにします。 他の Teams 組織の管理者にも同じ操作を行うように依頼します。|
+|**Skype for Business Online ユーザー**が、他の Office 365 組織の **Skype for Business Online ユーザー**と通信できるようにする。    | ユーザーのアップグレード モードが、アイランド、SfBOnly、SfBWIthTeamsCollab、SfBWithTeamsCollabAndMeetings のいずれかで、他の組織の Skype for Business Online ユーザーのアップグレード モードが、アイランド、SfBOnly、SfBWIthTeamsCollab、SfBWithTeamsCollabAndMeetings のいずれかである場合、Skype for Business Online ユーザーは他の組織の Skype for Business Online ユーザーと通信することができます。<br><br>外部アクセスの **[ユーザーは Skype for Business と Teams ユーザーと通信できます]** の設定をオンにします。 他の Teams 組織の管理者にも同じ操作を行うように依頼します。|
+|**Skype for Business Online ユーザー**が、オンプレミス組織の **Skype for Business ユーザー**と通信できるようにする。     |ユーザーのアップグレード モードが、アイランド、SfBOnly、SfBWIthTeamsCollab、SfBWithTeamsCollabAndMeetings のいずれかで、他の組織の Skype for Business Online ユーザーのアップグレード モードが、アイランド、SfBOnly、SfBWIthTeamsCollab、SfBWithTeamsCollabAndMeetings のいずれかである場合、Skype for Business Online ユーザーはオンプレミス組織の Skype for Business Online ユーザーと通信することができます。<br><br>外部アクセスの **[ユーザーは Skype for Business と Teams ユーザーと通信できます]** の設定をオンにします。 他の Teams 組織の管理者にも同じ操作を行うように依頼します。|
+|**Skype for Business Online ユーザー**が、(組織内外の) **Skype ユーザー**と通信できるようにする。   |外部アクセスの **[Skype for Business ユーザーは Skype ユーザーと通信できます]** の設定をオンにします。|
 
 > [!IMPORTANT]
-> Teams または Skype for Business Online ユーザーが組織内外の Skype ユーザーと通信できるようにするために、 **skype ドメイン**を許可されたドメインとして追加する必要はありません。 すべての**Skype ドメイン**はホワイトリストに記載されています。つまり、これらのドメインはすべて許可されていると見なされます。
+> Teams または Skype for Business Online ユーザーが組織内外の Skype ユーザーと通信できるようにする際、**Skype ドメイン**を許可ドメインとして追加する必要はありません。 すべての **Skype ドメイン**はホワイトリストに登録されており、これらのドメインはすべて許可されているものと見なされます。
 
 
 
-## <a name="how-does-external-access-compare-with-guest-access"></a>外部アクセスとゲストアクセスとの比較
+## <a name="how-does-external-access-compare-with-guest-access"></a>ゲスト アクセスと比べて外部アクセスはどう違うのか
 
-外部アクセスとゲストアクセスの違いについては、「[他の組織のユーザーとの通信](communicate-with-users-from-other-organizations.md)」を参照してください。
+外部アクセスとゲスト アクセスの違いの詳細ついては、「[Microsoft Teams の別の組織のユーザーと通信する](communicate-with-users-from-other-organizations.md)」を参照してください。
 
 ## <a name="related-topics"></a>関連項目
 
-[外部 (フェデレーション) ユーザー向けのネイティブチャット操作](native-chat-for-external-users.md)
+[外部 (フェデレーション) ユーザー向けのネイティブ チャット機能](native-chat-for-external-users.md)
