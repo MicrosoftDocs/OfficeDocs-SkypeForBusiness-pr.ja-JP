@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Microsoft は2020年2月に Exchange ユニファイドメッセージング Online (ExchUMO) サービスを廃止します。 この記事では、影響を受ける顧客がビジネス継続性を計画するときに知っておく必要があることについて説明します。
-ms.openlocfilehash: 8b8a0590dd53301a93fb9a6b2ed50e0d5dc830ed
-ms.sourcegitcommit: 0f2024740e03af303efc62e7f54aa918a61ca51b
+ms.openlocfilehash: adef85a59a5d0add990196e5b76587b502f052b5
+ms.sourcegitcommit: 4ccc24dcf61cf9b59224b85757f93f8aceae1771
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "39890581"
+ms.lasthandoff: 12/24/2019
+ms.locfileid: "40854092"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange ユニファイド メッセージングの移行サポート
 
@@ -185,7 +185,7 @@ Office 365 テナント管理者は、exchange UM Online の自動応答を、20
 | AA | サービス機能 | 時間と休日の治療  |  | Y | Y    |
 | AA | サービス機能 | テキスト読み上げを使用したユーザー設定の応答メッセージ  |  | Y | Y    |
 | AA | サービス機能 | 内線番号のダイヤル   | 内線番号をダイヤルしてユーザーに連絡する  | Y   | Y    |
-| AA | サービス機能 | AA の発信者がメッセージを残すためのメールボックス    |  | CY19   | Y    |
+| AA | サービス機能 | AA の発信者がメッセージを残すためのメールボックス    |  | Y   | Y    |
 | AA | サービス機能 | AA への複数の PSTN 番号の割り当て|  | Y | Y    |
 | AA | テナント-管理機能 | Web ポータルの管理   |  | Y | N    |
 | AA | テナント-管理機能 | PowerShell コマンドレット  |  | Y | Y    |
