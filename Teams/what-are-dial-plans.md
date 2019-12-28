@@ -19,18 +19,18 @@ f1keywords: ms.teamsadmincenter.voice.dialplans.overview
 ms.custom:
 - Calling Plans
 description: 'Teams で利用できるダイヤル通話プランの種類 (PSTN 通話ダイヤルプラン) と、組織に合わせて選ぶ方法について説明します。  '
-ms.openlocfilehash: 0dadb0335f622bb297d4299aafc50a40dafcc583
-ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
+ms.openlocfilehash: bd41b257af80a3a21da1013e604214d1e0303edf
+ms.sourcegitcommit: 472909325a47cf0ad00bed949d02ab5766d35832
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/17/2019
-ms.locfileid: "40069328"
+ms.lasthandoff: 12/28/2019
+ms.locfileid: "40891216"
 ---
 # <a name="what-are-dial-plans"></a>ダイヤル プランについて
 
 [] ダイヤル プランは、個別のユーザーによってダイヤルされた電話番号を、通話承認と通話ルーティングの目的で別の形式 (通常は E.164) に変換する、正規化ルールの名前付きのセットです。
 
-ダイヤル プランは、さまざまな形式で表される電話番号が別の 1 つの形式にどのように変換されるかを定義する 1 つ以上の正規化ルールで構成されます。同じダイヤル文字列が、ダイヤル プランによって異なる形で解釈、変換される可能性があるため、指定されたユーザーに割り当てられているダイヤル プランに応じて、同じダイヤル番号が異なる形で変換、ルーティングされることがあります。
+ダイヤル プランは、さまざまな形式で表される電話番号が別の 1 つの形式にどのように変換されるかを定義する 1 つ以上の正規化ルールで構成されます。 同じダイヤル文字列が、ダイヤル プランによって異なる形で解釈、変換される可能性があるため、指定されたユーザーに割り当てられているダイヤル プランに応じて、同じダイヤル番号が異なる形で変換、ルーティングされることがあります。 最大1000のテナントダイヤルプランを使用できます。
 
 テナントのダイヤル プランを作成および管理する場合は「[ダイヤル プランを作成および管理する](create-and-manage-dial-plans.md)」をご覧ください。
 
