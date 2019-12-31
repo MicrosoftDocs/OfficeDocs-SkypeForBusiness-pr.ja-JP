@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 87670ea398150e4895f2d87ccc48f60aba2d1377
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
-ms.translationtype: HT
+ms.openlocfilehash: d0bebe58780456435388f9f5c2b5ef75478dda12
+ms.sourcegitcommit: e59914458b4c22cc12556795468bc019e00a8940
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516481"
+ms.lasthandoff: 12/30/2019
+ms.locfileid: "40910005"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>クイック スタート ガイド: Microsoft Teams での通話プランの設定
 ==============================================================
@@ -44,7 +44,7 @@ Teams の [**通話**] を有効にするには、Teams で 1:1 の通話を有�
 
 ## <a name="prerequisites-for-enabling-the-dial-pad-in-teams"></a>Teams の [**ダイヤル パッド**] タブを有効にするための前提条件
 Teams の [**ダイヤル パッド**] タブを有効にして、ユーザーが PSTN 通話の発信と受信を行えるようにするには、電話システムと通話プランの利用に向けてユーザーをプロビジョニングする必要があります。 通話プランの設定方法については、「[通話プランの設定](https://docs.microsoft.com/microsoftteams/set-up-calling-plans)」をご覧ください。
-
+さらに、Teams のみのユーザーの場合は、チーム呼び出しポリシーで [プライベート通話を許可する] が有効になっていることを確認する必要があります。 詳細については[、「新しい Microsoft Teams 管理センターへの移行中にチームを管理する」を](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center)参照してください。
 > [!NOTE]
 > また、ダイレクト ルーティングを使用して、ユーザーが PSTN 通話を発信および受信できるようにすることもできます。 ダイレクト ルーティングの設定方法については、「[ダイレクト ルーティングを構成する](https://docs.microsoft.com/microsoftteams/direct-routing-configure)」をご覧ください。
 

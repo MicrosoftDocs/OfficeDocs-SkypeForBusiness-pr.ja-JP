@@ -13,12 +13,12 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: このトピックでは、オンプレミスの Exchange を使用したハイブリッド環境で Microsoft Teams のルームを展開する方法について説明します。
-ms.openlocfilehash: 783e5af7f0325ecd78e613b445544c5231db46ab
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: cc9b46554bcbef227bc6f721a7af93331d9552ca
+ms.sourcegitcommit: e59914458b4c22cc12556795468bc019e00a8940
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675411"
+ms.lasthandoff: 12/30/2019
+ms.locfileid: "40910055"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>オンプレミスで Exchange を使用し Microsoft Teams ミーティング を展開
 
@@ -44,11 +44,11 @@ Exchange とオンプレミスの Microsoft Teams ルームを展開する前に
 
   - Office 365 プランでは、Skype for Business Online (プラン 2) 以上が必要です。 このプランでは会議機能をサポートする必要があります。
   
-  - - Microsoft Teams 室のテレフォニーサービスプロバイダーを使用するエンタープライズ Voip (PSTN テレフォニー) が必要な場合は、Skype for Business Online (プラン 3) が必要です。
+  - Microsoft Teams 室のテレフォニーサービスプロバイダーを使用するエンタープライズ Voip (PSTN テレフォニー) が必要な場合は、Skype for Business Online (プラン 3) が必要です。
   
-  - - テナントユーザーは Exchange メールボックスを持っている必要があります。
+  - テナントユーザーは Exchange メールボックスを持っている必要があります。
   
-  - - Microsoft Teams のルームアカウントでは、Skype for Business Online (プラン 2) または Skype for Business Online (Plan 3) ライセンスが必要ですが、Exchange Online ライセンスは必要ありません。
+  - Microsoft Teams のルームアカウントでは、Skype for Business Online (プラン 2) または Skype for Business Online (Plan 3) ライセンスが必要ですが、Exchange Online ライセンスは必要ありません。
 
 - Skype for Business Server のライセンスを Microsoft Teams のルームアカウントに割り当てます。
 
@@ -144,9 +144,9 @@ Skype for Business Online PowerShell は、Microsoft Teams と Skype for Busines
 
 2. アカウントの SIP アドレスを取得します。
 
-  ``` Powershell
-   $rm = Get-Csonlineuser -identity <insert SIP address> | select -expandproperty sipaddress
-   ```
+   ``` Powershell
+    $rm = Get-Csonlineuser -identity <insert SIP address> | select -expandproperty sipaddress
+    ```
 
 3. Microsoft Teams のルームアカウントを有効にするには、次のコマンドを実行します。
 
@@ -168,7 +168,7 @@ Skype for Business Online PowerShell は、Microsoft Teams と Skype for Busines
 4. [**ライセンス**] をクリックします。
 5. ライセンスとエンタープライズ VoIP の要件に応じて、[**ライセンスの割り当て**] で [Skype for Business (プラン 2)] または [
 Skype for Business (プラン 3)] を選択します。 Microsoft Teams のルームでエンタープライズ Voip を使用する場合は、プラン3ライセンスを使用する必要があります。
-6. [**保存**] をクリックします。
+6. **[保存]** をクリックします。
 
 検証のために、任意のクライアントを使用してこのアカウントにログインできるようにする必要があります。
   

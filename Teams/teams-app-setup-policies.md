@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Microsoft Teams のアプリセットアップポリシーの概要と、それらを使ってアプリを固定して組織内のユーザーのためにチームをカスタマイズする方法について説明します。
 f1keywords:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: b7f0585c62d7d22e1fc5a7e55c90e59f8cda554d
-ms.sourcegitcommit: f2c7626dbef4ed250b9a937a9b56d46fe2e2039e
+ms.openlocfilehash: 271ffd879ddf55596da0c77765a269570a4878b2
+ms.sourcegitcommit: e59914458b4c22cc12556795468bc019e00a8940
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/12/2019
-ms.locfileid: "39998855"
+ms.lasthandoff: 12/30/2019
+ms.locfileid: "40910045"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Microsoft Teams のアプリのセットアップ ポリシーを管理する
 
@@ -69,7 +69,7 @@ Microsoft Teams 管理センターを使って、作成するグローバル (�
 1. Microsoft Teams 管理センターの左のナビゲーションで、[ **Teams アプリ** > **セットアップポリシー**] に移動します。
 2. ポリシー名の左側をクリックしてポリシーを選択し、[**編集**] をクリックします。
 3. ここで、必要な変更を行います。 アプリの順序を追加、削除、変更できます。
-4. [**保存**] をクリックします。
+4. **[保存]** をクリックします。
 
 ## <a name="assign-a-custom-app-setup-policy-to-users"></a>ユーザーにカスタムアプリセットアップポリシーを割り当てる
 
@@ -168,7 +168,7 @@ Teams のモバイルクライアントでは、ユーザーにはアクティ�
 
 #### <a name="my-organization-built-a-custom-teams-app-and-published-it-either-to-appsource-or-the-tenant-app-catalog-but-the-app-icon-isnt-displayed-as-expected-when-the-app-is-pinned-to-the-app-bar-in-teams-how-do-i-fix-it"></a>組織では、カスタム Teams アプリを構築し、AppSource またはテナントのアプリカタログに公開していますが、アプリが Teams のアプリバーにピン留めされている場合、アプリのアイコンは期待どおりに表示されません。 問題を解決するにはどうすればよいですか? 
 
-アプリを申請する前に、ロゴガイドラインに従っていることを確認してください。 詳細については、「[販売業者ダッシュボードの申請のチェックリスト](https://docs.microsoft.com/microsoftteams/platform/publishing/office-store-checklist)」を参照してください。 
+アプリを申請する前に、ロゴガイドラインに従っていることを確認してください。 詳細については、「[販売業者ダッシュボードの申請のチェックリスト](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/overview)」を参照してください。 
 
  ## <a name="related-topics"></a>関連項目
 - [Teams でのアプリの管理設定](admin-settings.md)
