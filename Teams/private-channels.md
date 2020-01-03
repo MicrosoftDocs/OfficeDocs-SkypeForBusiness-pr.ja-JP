@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams でプライベート チャネルを使用および管理する方法について説明します。
-ms.openlocfilehash: d7a491a64e32edef61b067c864c21f41e19f267d
-ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
+ms.openlocfilehash: 942070f9c77fb16895dd15e1920198f3604150f9
+ms.sourcegitcommit: 9c743b267b46a475a7da51c0899467960421ad8a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/13/2019
-ms.locfileid: "40020051"
+ms.lasthandoff: 01/02/2020
+ms.locfileid: "40929563"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams のプライベート チャネル
 
@@ -132,7 +132,7 @@ Microsoft Teams のプライベート チャネルは、チーム内でのコラ
 
 ## <a name="private-channel-sharepoint-sites"></a>プライベート チャネル SharePoint サイト
 
-各プライベート チャネルには、ファイル共有および高速プロビジョニング用に最適化された独自の SharePoint サイト コレクションがあります。 個別のサイト コレクションは、チーム所有者がサイト コレクション内のすべてのアセットにアクセスできるチーム サイトと比較して、プライベート チャネル ファイルへのアクセスがプライベート チャネルのメンバーのみに制限されることを確保するためにあります。 これらのサイト コレクションは規定でドキュメント ライブラリを使用して作成され、[サイト管理インターフェイス](https://support.office.com/article/Enable-or-disable-site-collection-features-A2F2A5C2-093D-4897-8B7F-37F86D83DF04)を介してフル機能のサイト コレクションへと簡単に拡張できます。 各サイト コレクションは、親チームのサイト コレクションと同じ地理的な場所に作成されます。 これらの軽量サイトは、PowerShell および Graph API による管理を容易にするためのカスタム テンプレート ID "TEAMCHANNEL#0" を持っています。
+各プライベート チャネルには、ファイル共有および高速プロビジョニング用に最適化された独自の SharePoint サイト コレクションがあります。 個別のサイト コレクションは、チーム所有者がサイト コレクション内のすべてのアセットにアクセスできるチーム サイトと比較して、プライベート チャネル ファイルへのアクセスがプライベート チャネルのメンバーのみに制限されることを確保するためにあります。 これらのサイト コレクションは規定でドキュメント ライブラリを使用して作成され、[サイト管理インターフェイス](https://support.office.com/article/Enable-or-disable-site-collection-features-A2F2A5C2-093D-4897-8B7F-37F86D83DF04)を介してフル機能のサイト コレクションへと簡単に拡張できます。 各サイト コレクションは、親チームのサイト コレクションと同じ地理的な場所に作成されます。 これらの軽量サイトは、PowerShell および Graph API による管理を容易にするためのカスタム テンプレート ID "TEAMCHANNEL#0" を持っています。  デザインによっては、SharePoint 管理センターに表示されません。
 
 テナントごとのサイト コレクションの数を増やすために、制限は 500,000 から 2,000,000 に増加しました。 プライベート チャネル サイト コレクションはデータ分類を同期し、親チームのサイト コレクションからゲスト アクセス許可を継承します。  サイト コレクションの所有者およびメンバー グループのメンバーシップは、Teams 内のプライベート チャネルのメンバーシップと同期します。 SharePoint Online 内の所有者またはメンバー グループのメンバーシップに対する変更は、4 時間以内にプライベート チャネル メンバーシップに自動的に戻されます。 特定のユーザーがプライベート チャネル メッセージにアクセスせずにドキュメントにアクセスする必要があるシナリオでは、そのユーザーをサイトのビジター グループに追加するか、所有者およびメンバーとは別の新しいグループに追加します。
 
