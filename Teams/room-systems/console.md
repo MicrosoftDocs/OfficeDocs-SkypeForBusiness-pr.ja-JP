@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: この記事では、Microsoft Teams のルーム本体とその周辺機器を設定する方法について説明します。
-ms.openlocfilehash: fd09d7e9d70a5912469d4ed2d79a4dc8f465eeb6
-ms.sourcegitcommit: 486eaa85042670edec2231efaf7dae8fa329e852
+ms.openlocfilehash: 2c88dc5ba754e907ab32b41ea1731dc6f367d5a9
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "39665440"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952740"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>Microsoft Teams 室コンソールを構成する
 
@@ -133,7 +133,7 @@ Creator の更新では、暗黙的な言語の選択によって、ユーザー
 11. 管理者特権でコマンド プロンプトを開始します。
     
 12. 次のコマンドを実行します。 
-    ```
+    ```PowerShell
     powershell -executionpolicy unrestricted c:\Rigel\x64\scripts\provisioning\scriptlaunch.ps1 ApplyCurrentRegionAndLanguage.ps1
     ```
     
@@ -190,7 +190,7 @@ Microsoft Teams のルームコンソールは、接続先のサーバーで使�
     
 3. 次のコマンドを実行します。
     
-   ```
+   ```PowerShell
    certutil -addstore -f -enterprise root "C:\Skype Room Systems\x64\Scripts\Provisioning\CAcertificate.cer"
    ```
 
@@ -207,13 +207,13 @@ Microsoft Teams のルームコンソールをドメインに参加できます�
     
 3. Powershell に次のコマンドを入力します。
     
-   ```
+   ```PowerShell
    Add-Computer -DomainName <Fully qualified domain> -OUPath "OU=<Child OU>, … ,OU=<Top level OU>,DC=<child domain>,…,DC=<top level domain>"
    ```
 
 たとえば、完全修飾ドメインが redmond.corp.microsoft.com で、Microsoft Teams のルームコンソールを "Resources" OU の子である "Microsoft Teams 室" OU に追加したい場合、コマンドは次のようになります。
   
-```
+```PowerShell
 Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Microsoft_Teams_Rooms,OU=Resources,DC=redmond,DC=corp,DC=microsoft,DC=com"
 ```
 

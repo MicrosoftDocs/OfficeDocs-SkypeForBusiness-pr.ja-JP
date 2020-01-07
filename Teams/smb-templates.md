@@ -14,12 +14,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: lavenkat
 description: 中小企業向けの Teams テンプレートを使ってみる
-ms.openlocfilehash: acde79c2f7ce13088de1f80f968551ead2768fbf
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 3ca5e78f3a61f1e272960dc1d7338bd06f81d4c6
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568669"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952770"
 ---
 # <a name="get-started-with-teams-templates-for-small-and-medium-businesses"></a>中小企業向けの Teams テンプレートを使ってみる
 
@@ -98,11 +98,11 @@ Content-Type: application/json
     "description": "All posts, announcements and daily collaboration and communication within the Finance team members (and exec team members as appropriate).",
     "visibility": "Private"
 }
-``
+```
 
-### Example: Finance Team template extension script
+### <a name="example-finance-team-template-extension-script"></a>例: 財務チームテンプレート拡張スクリプト
 
-``` Powershell
+```powershell
 {
   "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates('standard')",
   "displayName": "Finance",

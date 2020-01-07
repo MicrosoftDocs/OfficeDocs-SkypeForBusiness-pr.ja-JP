@@ -3,7 +3,7 @@ title: ベラルーシでの利用可能性
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, fafan
 ms.topic: reference
 ms.assetid: 4ace3c1d-c1b6-4f99-bc71-0d1757c8aba9
 ms.tgt.pltfrm: cloud
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下は、Skype for Business および Microsoft Teams for ベラルーシ向けの Office 365 サービスです。
-ms.openlocfilehash: ce623271b3a619271ba9c89b860b0944e19719de
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 7c5df54c4aec7b621dc8ff2f4cb775268d4efe0b
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571138"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952900"
 ---
 # <a name="availability-in-belarus"></a>ベラルーシでの利用可能性
 
@@ -41,7 +41,7 @@ ms.locfileid: "37571138"
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|電話会議は購入できますか?  <br/> |いいえ  <br/> |
+|電話会議は購入できますか?  <br/> |はい、[分単位の支払い](../audio-conferencing-pay-per-minute.md)のみ <br/> |
 |電話番号は自動的に電話会議に割り当てられますか?  <br/> |いいえ  <br/> |
 |折り返し通話機能を使用するダイヤルアウト機能  <br/> |1分あたりの通信クレジットで利用可能  <br/> |
    
@@ -76,7 +76,7 @@ ms.locfileid: "37571138"
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|コミュニケーション クレジットは利用できますか?  <br/> |いいえ  <br/> |
+|コミュニケーション クレジットは利用できますか?  <br/> |はい  <br/> |
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   

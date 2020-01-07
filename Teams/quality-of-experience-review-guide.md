@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56d622a3a8757ca377c75bea79028dc5587b6bb8
-ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
+ms.openlocfilehash: fcf18aa2487527c436b104011140524e6ce4ae5d
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38290977"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952810"
 ---
 # <a name="quality-of-experience-review-guide"></a>QoE のレビュー ガイド
 
@@ -83,7 +83,7 @@ _図 1-このガイドで取り上げている主要な運用領域_
 Teams や Skype for Business の品質について話し合うときは、共通の理解を得るために用語を定義することが重要です。 ここで定義した品質は、サービスの指標とユーザーエクスペリエンスの組み合わせです。
 
 <!-- Note: need to update graphic-->
-![サービスの指標とユーザーエクスペリエンスの図](media/qerguide-image-whatisquality.png "Service メトリックは、低いストリーム比、信頼性、エンドポイント/デバイス、クライアントバージョンで構成されています。ユーザーエクスペリエンスは、ユーザーがサービスの品質について認識しています。」)
+![サービスの指標とユーザーエクスペリエンスの図](media/qerguide-image-whatisquality.png "サービスのメトリックは、低いストリーム比、信頼性、エンドポイント/デバイス、クライアントバージョンで構成されています。ユーザーエクスペリエンスは、サービスの品質に対するユーザーの認識によって構成されます。")
 
 _図 2-品質とは_
 
@@ -225,7 +225,7 @@ _図 3-Teams および Skype for Business Online の展開に関する重要な�
 これらのタスクを初めて実行するときには、これらのカテゴリの多くで展開構成を検証する必要があるため、後続のイテレーションよりも多くの作業が必要になります。 定義したターゲットを会議にして目的の状態を達成したら、これらのタスクを実行することで、その状態を維持することができます。
 
 <!--  This is a net new graphic, never was included in the online article. OOPS! -->
-![1つの品質カテゴリあたりの週間タスクの一覧](media/qerguide-image-tasks.png "L1つの品質カテゴリあたりの週間タスクの ist)
+![1つの品質カテゴリあたりの週間タスクの一覧](media/qerguide-image-tasks.png "1つの品質カテゴリあたりの週間タスクの一覧")
 
 #### <a name="service-management-tasks"></a>サービス管理タスク
 
@@ -323,7 +323,7 @@ CQD では、データの表示方法に応じて、2種類のレポートから
 
 2. Azure PowerShell コマンドウィンドウを開き、次のスクリプトを実行します。メッセージが表示されたら、Office 365 資格情報を入力します。 
 
-   ```
+   ```PowerShell
    Login-AzureRmAccount
    ```
 
@@ -345,7 +345,7 @@ CQD では、データの表示方法に応じて、2種類のレポートから
 
 2. 次のコマンドを実行します。
 
-   ```
+   ```PowerShell
    (Get-cstenant).tenantid
    ```
 
@@ -367,11 +367,11 @@ _図 5-製品フィルターを選ぶ_
 
 すべての詳細レポートをフィルター処理するには、ブラウザーバーで、URL の末尾に次の内容を追加します。
 
-```
+```PowerShell
 /filter/[AllStreams].[Is Teams]|[FALSE]
 ```
 
-**次**
+**例:**
 
 ```https://cqd.lync.com/cqd/#/1234567/2018-5/filter/[AllStreams].[Is Teams]|[FALSE]```
 
@@ -531,21 +531,21 @@ CQD レポートからフェデレーションデータを除外することは�
 
 URL フィルターを実装するには、ブラウザーのアドレスバーで、URL の末尾に次のを追加します。
 
-```
+```PowerShell
 /filter/[AllStreams].[Second Tenant Id]\|[YOUR TENANT ID HERE]
 ```
 
-次  
+例:  
 
 ```https://cqd.lync.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Second Tenant Id]|[TENANTID]```
 
 Teams または Skype for Business のレポートをフィルター処理するには、URL の末尾に次の内容を追加します。
 
-```
+```PowerShell
 /filter/[AllStreams].[Is Teams]|[TRUE | FALSE]
 ```
 
-次
+例:
 
 ```https://cqd.lync.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Is Teams]|[TRUE]```
 

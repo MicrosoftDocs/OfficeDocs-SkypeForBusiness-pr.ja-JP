@@ -3,7 +3,7 @@ title: ジョージアでの利用可能性
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, fafan
 ms.topic: reference
 ms.assetid: dda0070b-16ec-43ca-ac81-e390aea630d2
 ms.tgt.pltfrm: cloud
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ここでは、Microsoft の Skype for Business および Microsoft Teams の Office 365 サービスをジョージアで利用できるようにする方法について説明します。
-ms.openlocfilehash: c6745aac2f50e16d973f925e0b0da59744af7324
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: fa419a70674852e47e70bba2da5e922339b3dd33
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572913"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952780"
 ---
 # <a name="availability-in-georgia"></a>ジョージアでの利用可能性
 
@@ -41,8 +41,8 @@ ms.locfileid: "37572913"
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|電話会議は購入できますか?  <br/> |いいえ  <br/> |
-|電話番号は自動的に電話会議に割り当てられますか?  <br/> |○:<br/><ul><li> トビリシ</ul>専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)」をご覧ください。  <br/> |
+|電話会議は購入できますか?  <br/> |はい、[分単位の支払い](../audio-conferencing-pay-per-minute.md)のみ  <br/> |
+|電話番号は自動的に電話会議に割り当てられますか?  <br/> |いいえ <br/> |
 |折り返し通話機能を使用するダイヤルアウト機能  <br/> |通信クレジットが必要  <br/> |
    
 ## <a name="phone-system"></a>電話システム
@@ -76,7 +76,7 @@ ms.locfileid: "37572913"
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|コミュニケーション クレジットは利用できますか?  <br/> |いいえ  <br/> |
+|コミュニケーション クレジットは利用できますか?  <br/> |はい  <br/> |
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   

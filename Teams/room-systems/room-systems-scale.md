@@ -31,12 +31,12 @@ no-loc:
 - Azure Monitor
 - Log Analytics
 - Operations Management Suite
-ms.openlocfilehash: d116ea000bc18bf0e9c017b67bfa104dcfa29795
-ms.sourcegitcommit: 000957709b841ce55a6813ccc2fbe745b1a9295b
+ms.openlocfilehash: c8d460f4ad94adaccce9fb84b12e37ab5adc0cc6
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "39218034"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952750"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-system-center-configuration-manager"></a>System Center Configuration Manager を使用して Microsoft Teams ルームを展開する
 
@@ -299,7 +299,7 @@ System Center Configuration Manager のサーバーの全体管理サイトま�
 1.  [ **SRS v2-セットアップ-SRSComputerName パッケージ**] フォルダーで、 **Set-SRSComputerName**という名前の新しい HTML アプリケーションを作成します。
 
 2.  次のスクリプトを**Set-SRSComputerName**ファイルにコピーします。 または、[ここ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true)から Set-SRSComputerName ファイルをダウンロードすることもできます。
-    ```
+    ```HTML
     <!DOCTYPE HTML>
     <html>
     <head>
@@ -409,7 +409,7 @@ System Center Configuration Manager のサーバーの全体管理サイトま�
 1. [ **SRS v2 – Sysprep パッケージ]** フォルダーで、 **unattend.xml**という名前の新しい xml ファイルを作成します。
 
 2. 次のテキストを**unattend.xml**ファイルにコピーします。 または、[ここ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true)から unattend.xml ファイルをダウンロードすることもできます。
-   ```
+   ```XML
    <?xml version="1.0" encoding="utf-8"?>
    <unattend xmlns="urn:schemas-microsoft-com:unattend">
    <settings pass="specialize">
@@ -725,7 +725,7 @@ System Center Configuration Manager のタスクシーケンスが完了した�
 
     5.  [**ブート構成**] を選びます。
 
-    6.  次のいずれかの操作を行います。
+    6.  次のいずれかを実行します。
 
         -   [ **PXE ブート**] を選択し、一覧の一番上にドラッグします。 または、ネットワークアダプターを左にスワイプして、すぐにデバイスを起動することもできます。 これにより、起動順序は変わりません。
         -   ブートメディアを含む USB フラッシュドライブを選択します。

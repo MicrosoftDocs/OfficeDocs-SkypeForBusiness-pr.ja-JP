@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: この記事では、Azure モニターを使用して、統合されたエンドツーエンドの方法で Microsoft Teams 室デバイスの管理を展開する方法について説明します。
-ms.openlocfilehash: a7a71fa9fa87bd8cfb424234d6ffcedf46039115
-ms.sourcegitcommit: 000957709b841ce55a6813ccc2fbe745b1a9295b
+ms.openlocfilehash: e428b54f1a91c8443000dafa3270d2283dc1d029
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "39218044"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952790"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>管理:::no-loc text="Microsoft Teams Rooms":::を展開する:::no-loc text="Azure Monitor":::
 
@@ -449,7 +449,7 @@ ms.locfileid: "39218044"
 
 7.  :::no-loc text="Microsoft Teams Rooms":::デバイスは、2回目:::no-loc text="Microsoft Monitoring":::の再起動でエージェントをインストールして構成する必要があります。
 
-```
+```PowerShell
 # Install-MMAgent.ps1
 <#
 Date:        04/20/2018

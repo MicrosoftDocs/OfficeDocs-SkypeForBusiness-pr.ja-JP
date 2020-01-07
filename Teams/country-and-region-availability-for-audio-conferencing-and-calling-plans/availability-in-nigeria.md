@@ -3,7 +3,7 @@ title: ナイジェリアで利用可能
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 次に示すのは、ナイジェリアで利用可能な Skype for Business および Microsoft Teams の Office 365 サービスです。
-ms.openlocfilehash: 1488ca5e87ace3d54314ae159fc22c9d74d6c13d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 6d2ce0d1aef4ce991f7adbef441707d828fd9a82
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571016"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952400"
 ---
 # <a name="availability-in-nigeria"></a>ナイジェリアで利用可能
 
@@ -40,7 +40,7 @@ ms.locfileid: "37571016"
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|電話会議は購入できますか?  <br/> |いいえ  <br/> |
+|電話会議は購入できますか?  <br/> |はい、[分単位の支払い](../audio-conferencing-pay-per-minute.md)のみ  <br/> |
 |電話番号は自動的に電話会議に割り当てられますか?  <br/> |いいえ <br/> |
 |折り返し通話機能を使用するダイヤルアウト機能  <br/> | 通信クレジットが必要 <br/> |
    
@@ -65,8 +65,8 @@ ms.locfileid: "37571016"
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|有料電話番号を取得できる首都または主要都市はどこですか?   | ・ラゴス ([要求時](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
-|有料電話番号は使用できますか?  <br/> |○ ([要求時](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|有料電話番号を取得できる首都または主要都市はどこですか?   | ・ラゴス <br/> |
+|有料電話番号は使用できますか?  <br/> |はい  <br/> |
 |無料電話番号は利用できますか?  <br/> |いいえ  <br/> |
    
  電話会議、自動応答、通話キューの有料または無料の電話番号を取得する場合は、「 [Skype For business および Microsoft Teams のサービス電話番号を取得](/microsoftteams/getting-service-phone-numbers)する」を参照してください。
@@ -75,7 +75,7 @@ ms.locfileid: "37571016"
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|コミュニケーション クレジットは利用できますか?  <br/> |いいえ  <br/> |
+|コミュニケーション クレジットは利用できますか?  <br/> |はい  <br/> |
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   

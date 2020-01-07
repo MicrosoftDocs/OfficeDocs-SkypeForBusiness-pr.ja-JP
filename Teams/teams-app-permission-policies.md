@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 686b0bc48cd2f6df590172d53618d96ca775aae0
-ms.sourcegitcommit: 1bb776e6c03086ca997d45b9b44660c4e426e8a4
+ms.openlocfilehash: bc541b3b1bc7c7aba723d7573224679b5900a550
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39984537"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952830"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Microsoft Teams のアプリのアクセス許可ポリシーを管理する
 
@@ -80,7 +80,7 @@ ms.locfileid: "39984537"
     1. アプリの一覧を選択したら、[**許可**] をクリックします。
 
 6. 同様に、[**特定のアプリをブロック**する] を選択した場合は、ブロックするアプリを検索して追加します。
-7. [**保存**] をクリックします。
+7. **[保存]** をクリックします。
 
 ## <a name="edit-an-app-permission-policy"></a>アプリのアクセス許可ポリシーを編集する
 
@@ -89,7 +89,7 @@ Microsoft Teams 管理センターを使用して、作成するグローバル�
 1. Microsoft Teams 管理センターの左のナビゲーションで、[**チームアプリ** > の**アクセス許可ポリシー**] に移動します。
 2. ポリシー名の左側をクリックしてポリシーを選択し、[**編集**] をクリックします。
 3. ここで、必要な変更を行います。 アプリの発行元に基づいて設定を管理し、許可/禁止の設定に基づいてアプリを追加および削除することができます。
-4. [**保存**] をクリックします。
+4. **[保存]** をクリックします。
 
 ## <a name="assign-a-custom-app-permission-policy-to-users"></a>ユーザーにカスタムアプリのアクセス許可ポリシーを割り当てる
 
@@ -121,15 +121,15 @@ Microsoft Teams 管理センターを使用して、ユーザー設定のポリ�
 > 「[単一の Windows PowerShell ウィンドウですべての Office 365 サービスに接続する](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)」の手順に従って、必ず最初に Azure Active Directory PowerShell for Graph モジュールと Skype for Business PowerShell モジュールに接続してください。
 
 特定のグループの GroupObjectId を取得します。
-```
+```PowerShell
 $group = Get-AzureADGroup -SearchString "Contoso Pharmaceuticals HR Project"
 ```
 指定したグループのメンバーを取得します。
-```
+```PowerShell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
 グループ内のすべてのユーザーに特定のアプリのアクセス許可ポリシーを割り当てます。 この例では、HR アプリのアクセス許可ポリシーです。
-```
+```PowerShell
 $members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App Permission Policy" -Identity $_.UserPrincipalName}
 ``` 
 グループ内のメンバー数によっては、このコマンドの実行に数分かかる場合があります。

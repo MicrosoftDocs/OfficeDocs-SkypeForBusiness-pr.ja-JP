@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e32eb60b238d606ac30fe74c7551e01efe88242a
-ms.sourcegitcommit: c2e315d0fcec742d2e1ba5ad90dffd1a1157a466
+ms.openlocfilehash: a621c4e1cfcf9e485b68fd96a76d9179cef84a48
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/13/2019
-ms.locfileid: "40002231"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952600"
 ---
 # <a name="install-microsoft-teams-using-msi"></a>MSI を使用して Microsoft Teams をインストールする
 
@@ -91,11 +91,11 @@ MSI の既定の動作では、ユーザーがサインインするとすぐに 
 - 手動で開始すると、ユーザーがログインするたびに Teams が自動的に起動する
 
 32 ビット 版向け
-```
+```PowerShell
 msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true"
 ```
 64 ビット 版向け
-```
+```PowerShell
 msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true"
 ```
 

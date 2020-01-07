@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 組織内のプライベートチャネルのライフサイクルを管理する方法について説明します。
-ms.openlocfilehash: b33df48d6d019015a0e7553619e2e42d29f7ca11
-ms.sourcegitcommit: d2bee305a3588f8487bba3396b1825be7a52f6d2
+ms.openlocfilehash: 263f25e283670b0ab8cc0337c0936eee23f43c61
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38714483"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952890"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Microsoft Teams でプライベートチャネルのライフサイクルを管理する
 
@@ -36,7 +36,7 @@ ms.locfileid: "38714483"
 
 管理者は、Graph API を使って、メンバーが特定のチームでプライベートチャネルを作成できるかどうかを制御できます。 次に例を示します。
 
-```
+```Graph API
 PATCH /teams/<team_id>
 {"memberSettings": 
   {
@@ -53,7 +53,7 @@ PATCH /teams/<team_id>
 
 チームポリシーを使用して、組織内のどのユーザーにプライベートチャネルの作成を許可するかを設定します。 詳細については、「 [teams のチームポリシーを管理](teams-policies.md)する」を参照してください。
 
-### <a name="using-powershell"></a>PowerShell を使用する
+### <a name="using-powershell"></a>PowerShell を使用する場合
 
 **CsTeamsChannelsPolicy**を使用して、組織内のどのユーザーにプライベートチャネルの作成を許可するかを設定します。 ポリシーを割り当てられたユーザーがプライベートチャネルを作成できるようにするには、 **AllowPrivateChannelCreation**パラメーターを**true**に設定します。 このパラメーターを**false**に設定すると、ポリシーが割り当てられているユーザーに対してプライベートチャネルを作成する機能が無効になります。
 
@@ -63,15 +63,15 @@ PATCH /teams/<team_id>
 
 管理者は、PowerShell または Graph API を使用して、チーム所有者の代わりにプライベートチャネルを作成することができます。 たとえば、組織でプライベートチャネルの作成を一元化する場合は、これを行うことができます。
 
-### <a name="using-powershell"></a>PowerShell を使用する
+### <a name="using-powershell"></a>PowerShell を使用する場合
 
-```
+```PowerShell
 New-TeamChannel –GroupId <Group_Id> –MembershipType Private –DisplayName “<Channel_Name>” –Owner <Owner_UPN>
 ```
 
 ### <a name="using-graph-api"></a>Graph API を使用する
 
-```
+```Graph API
 POST /teams/{id}/channels
 { "membershipType": "Private",
   "displayName": "<Channel_Name>",
@@ -86,7 +86,7 @@ POST /teams/{id}/channels
 
 プライベートチャネルで投稿されたすべてのメッセージと返信の一覧を取得して、アーカイブおよび監査を行うことができます。  Graph API を使ってこれを行う方法を次に示します。
 
-```
+```Graph API
 GET /teams/{id}/channels/{id}/messages
 GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 ```
@@ -97,12 +97,12 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 管理者として、PowerShell または Graph Api コマンドを使って、これらの Url を照会することができます。
 
-### <a name="using-powershell"></a>PowerShell を使用する
+### <a name="using-powershell"></a>PowerShell を使用する場合
 
 1. 管理者アカウントを使用して、 [SharePoint Online 管理シェル](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)をインストールして接続します。
 2. &lt;Group_id&gt;がチームのグループ id である場合は、次のように実行します。 (チームへのリンクでグループ Id を簡単に見つけることができます。)
 
-    ```
+    ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
     $groupID = “<group_id>"
     foreach ($site in $sites) {$x= Get-SpoSite -Identity
@@ -118,13 +118,13 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
     **要求**
 
-    ```
+    ```Graph API
     GET https://graph.microsoft.com/beta/teams/<group_id>/channels?$filter=membershipType eq 'private'
     ```
 
     **応答**
 
-    ```
+    ```Graph API
     HTTP/1.1 200 OK
     Content-type: application/json
     Content-length:
@@ -148,13 +148,13 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
     **要求**
 
-    ```
+    ```Graph API
     GET https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/filesFolder
     ```
 
     **応答**
 
-    ```
+    ```Graph API
     HTTP/1.1 200 OK
     Content-type: application/json
     Content-length:
@@ -180,20 +180,20 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 管理者として、PowerShell または Graph Api コマンドを使って、これらの Url を照会することができます。
 
-### <a name="using-powershell"></a>PowerShell を使用する
+### <a name="using-powershell"></a>PowerShell を使用する場合
 
 1. 管理者アカウントを使用して、 [Microsoft Teams PowerShell モジュール](https://www.powershellgallery.com/packages/MicrosoftTeams)をインストールして接続します。
 2. 次を実行します&lt;。&gt;ここでは、group_id がチームの&lt;グループ&gt; id であり、channel_id がチャネル id であることを示します。
 
     **要求**
 
-    ```
+    ```PowerShell
     Get-TeamChannelUser -GroupId <group_id> -MembershipType Private -DisplayName "<channel_name>" 
     ```
     
     **応答**
 
-    ```
+    ```PowerShell
     HTTP/1.1 200 OK Content-type: application/json
     Content-length:
     {
@@ -213,7 +213,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 3. メンバーを所有者に昇格させます。
 
-    ```
+    ```PowerShell
     Add-TeamChannelUser -GroupId <group_id> -MembershipType Private -DisplayName "<channel_name>" -User <UPN> -Role Owner
     ```
 
@@ -225,13 +225,13 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
     **要求**
 
-    ```
+    ```Graph API
     GET https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/members
     ```
     
     **応答**
 
-    ```
+    ```Graph API
     HTTP/1.1 200 OK Content-type: application/json
     Content-length: 
     {
@@ -261,7 +261,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
     **要求**
 
-    ```
+    ```Graph API
     PATCH 
     https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/members/<id>
       
@@ -273,7 +273,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
     **応答**
 
-    ```
+    ```Graph API
     HTTP/1.1 200 OK
     Content-type: application/json
 
@@ -301,26 +301,26 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 2. Windows PowerShell モジュールの新しいインスタンスを開始します。
 3. パブリック PowerShell ギャラリーから Teams PowerShell モジュールをアンインストールするには、次の操作を実行します。
 
-    ```
+    ```PowerShell
     Uninstall-Module -Name MicrosoftTeams
     ```
 
 4. 既存のすべての PowerShell セッションを終了します。
 5. もう一度 Windows PowerShell モジュールを起動し、次の操作を実行して、PowerShell テストギャラリーを信頼できるソースとして登録します。
 
-    ```
+    ```PowerShell
     Register-PSRepository -Name PSGalleryInt -SourceLocation https://www.poshtestgallery.com/ -InstallationPolicy Trusted
     ```
 
 6. 次の操作を実行して、PowerShell テストギャラリーから最新の Teams PowerShell モジュールをインストールします。
 
-    ```
+    ```PowerShell
     Install-Module -Name MicrosoftTeams -Repository PSGalleryInt -Force
     ```
 
 7. 次の操作を実行して、PowerShell テストギャラリーの最新バージョンの Teams PowerShell モジュールが正常にインストールされていることを確認します。
 
-    ```
+    ```PowerShell
     Get-Module -Name MicrosoftTeams
     ```
 
@@ -332,20 +332,20 @@ PowerShell テストギャラリーから既に Teams PowerShell モジュール
 2. Windows PowerShell モジュールの新しいインスタンスを開始します。
 3. 次の操作を実行して、PowerShell テストギャラリーから現在インストールされている Teams PowerShell モジュールのバージョンを更新します。
 
-    ```
+    ```PowerShell
     Update-Module -Name MicrosoftTeams -Force
     ```
 
 4. 次の操作を実行して、PowerShell テストギャラリーの最新バージョンの Teams PowerShell モジュールが正常にインストールされていることを確認します。
 
-    ```
+    ```PowerShell
     Get-Module -Name MicrosoftTeams
     ```
 
 ## <a name="related-topics"></a>関連項目
 
 - [Teams での PowerShell の概要](teams-powershell-overview.md)
-- [Microsoft Graph API を使用してチームと連携する](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0)
+- [Microsoft Graph API を使用して Teams で作業する](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0)
     - [リストチャネル](https://docs.microsoft.com/graph/api/channel-list)
     - [チャネルを作成する](https://docs.microsoft.com/graph/api/channel-post)
     - [チャネルにメンバーを追加する](https://docs.microsoft.com/graph/api/conversationmember-add)

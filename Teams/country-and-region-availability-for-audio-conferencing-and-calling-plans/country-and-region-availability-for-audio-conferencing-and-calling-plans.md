@@ -1,6 +1,5 @@
 ---
 title: 国および地域ごとの電話会議および通話プランの利用可能性
-ms.date: 03/18/2019
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -25,12 +24,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 国/地域を選択して、電話会議、電話システム、通話プラン、コミュニケーション クレジット、および有料電話番号と無料電話番号を利用できるかどうかを確認できます。
-ms.openlocfilehash: d98e085667c97dbf4b4afc6dfc67fe1eb847d731
-ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
+ms.openlocfilehash: 4d7e1f2f4481baf51c6c3f619f47dc9440d957da
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/18/2019
-ms.locfileid: "40741391"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952440"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>国および地域ごとの電話会議および通話プランの利用可能性
 
@@ -47,18 +46,18 @@ ms.locfileid: "40741391"
 > - [バハマ](availability-in-the-bahamas.md)
 > - [バーレーン](availability-in-bahrain.md)
 > - [バルバドス](availability-in-barbados.md)
-> - [ベラルーシ](availability-in-belarus.md)
+> - [Belarus (Белару́сь)](availability-in-belarus.md)
 > - [Belgium](availability-in-belgium.md)
 > - [ベリーズ](availability-in-belize.md)
 > - [ベナン](availability-in-benin.md)
-> - [バーミューダー諸島](availability-in-bermuda.md)
+> - [バミューダ諸島](availability-in-bermuda.md)
 > - [ボスニア・ヘルツェゴビナ](availability-in-bosniaherzegovina.md)
 > - [ブラジル](availability-in-brazil.md)
 > - [ブルネイ](availability-in-brunei.md)
 > - [ブルガリア](availability-in-bulgaria.md)
 > - [カンボジア](availability-in-cambodia.md)
 > - [カナダ](availability-in-canada.md)
-> - [Cayman Islands](availability-in-the-cayman-islands.md)
+> - [ケイマン諸島](availability-in-the-cayman-islands.md)
 > - [チリ](availability-in-chile.md)
 > - [中国](availability-in-china.md)
 > - [コロンビア](availability-in-colombia.md)
@@ -121,7 +120,7 @@ ms.locfileid: "40741391"
 > - [カタール](availability-in-qatar.md)
 > - [ルーマニア](availability-in-romania.md)
 > - [Russia](availability-in-russia.md)
-> - [Saint Kitts and Nevis](availability-in-saint-kitts-and-nevis.md)
+> - [セントクリストファー・ネーヴィス](availability-in-saint-kitts-and-nevis.md)
 > - [セントルシア](availability-in-saint-lucia.md)
 > - [サウジアラビア](availability-in-saudi-arabia.md)
 > - [セルビア](availability-in-serbia.md)
@@ -147,7 +146,7 @@ ms.locfileid: "40741391"
 > - [ベネズエラ](availability-in-venezuela.md)
 > - [Vietnam](availability-in-vietnam.md)
 
-**すべての国と地域でスプレッドシートをお探しの場合は、[クラウドボイス機能の国/地域の可用性スプレッドシート](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-12182019)-(en-us).xlsx?raw=true)をダウンロードして保存**します。
+**すべての国と地域でスプレッドシートをお探しの場合は、[クラウドボイス機能の国/地域の可用性スプレッドシート](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-01012020)-(en-us).xlsx?raw=true)をダウンロードして保存**します。
 
 ***
 

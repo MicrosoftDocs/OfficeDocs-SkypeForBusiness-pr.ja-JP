@@ -13,12 +13,12 @@ ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 ms.collection:
 - M365-collaboration
 description: この記事では、Microsoft Teams のルームデバイスで使用される既定の設定をリモート管理する方法について説明します。カスタムテーマの適用を含みます。
-ms.openlocfilehash: f00edb0d3d391daaf3cfa7a6f83e5c2951638236
-ms.sourcegitcommit: 1aa98e3865d5a0f7be5e1cba497dea4ac7b9c607
+ms.openlocfilehash: 042e62cda753cc622d3b2a6b614d5eca6880a97c
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38074619"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952460"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>XML 構成ファイルを使用して、Microsoft Teams ルームコンソールの設定をリモートで管理する
 
@@ -30,7 +30,7 @@ ms.locfileid: "38074619"
 
 任意のテキストエディターを使用して、設定ファイルを作成できます。 「 **Xml 要素**」の表では、このサンプルの SkypeSettings (必須のファイル名) 構成ファイルに示されている要素について説明します。
   
-```
+```XML
 <SkypeSettings>
     <AutoScreenShare>true</AutoScreenShare>
     <HideMeetingName>true</HideMeetingName>
@@ -93,7 +93,7 @@ ms.locfileid: "38074619"
 |\<SendLogs\> |Container |第1の &#x2776;  ||
 |\<EmailAddressForLogsAndFeedback\> |文字列 &#x2778;  || "フィードバックを送信する" ウィンドウが表示されたときに、ログに記録できるメールアドレス (省略可能) を設定します。 |
 |\<SendLogsAndFeedback\> |ブール型 &#x2777;  || true の場合、ログが管理者に送信されます。それ以外の場合、フィードバックのみが管理者に送信されます (ログは送信されません)。  |
-| \<Devices\>  |Container |第1の &#x2776;  | 子要素内の接続済みのオーディオ デバイス名は、デバイス マネージャー アプリにリスト表示された値と同一のものになります。 この構成には、現在コンソールに接続していない A/V デバイスなど、現在システムに存在しないデバイスを含めることができます。 この構成はそれぞれのデバイスに対して保持されます。  |
+| \<デバイス\>  |Container |第1の &#x2776;  | 子要素内の接続済みのオーディオ デバイス名は、デバイス マネージャー アプリにリスト表示された値と同一のものになります。 この構成には、現在コンソールに接続していない A/V デバイスなど、現在システムに存在しないデバイスを含めることができます。 この構成はそれぞれのデバイスに対して保持されます。  |
 |\<マイクロフォン Forcommunication\> |文字列 &#x2778;  ||会議でレコーディングデバイスとして使用するマイクを設定します。 |
 |\<SpeakerForCommunication\> |文字列 &#x2778;  ||会議のスピーカーとして使用されるデバイス。 通話で使用するスピーカーデバイスを設定するには、この設定を使います。 |
 |\<DefaultSpeaker\> |文字列 &#x2778;  ||HDMI インジェスト ソースから音声を再生するために使用されるデバイス。 |
