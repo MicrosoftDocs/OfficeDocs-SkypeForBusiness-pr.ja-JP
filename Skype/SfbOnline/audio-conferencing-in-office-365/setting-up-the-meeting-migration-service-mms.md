@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 会議移行サービス (MMS) は、バックグラウンドで実行されるサービスで、Skype for Business および Microsoft Teams の会議を自動的に更新します。 MMS はユーザーが会議移行ツールを実行して Skype for Business および Microsoft Teams 会議を更新しなくても済むように設計されています。
-ms.openlocfilehash: 91fcc1b95e107f36a55516e7f459eb8fae581bbe
-ms.sourcegitcommit: 0f2024740e03af303efc62e7f54aa918a61ca51b
+ms.openlocfilehash: 187e1e7dbedc57249c2e2cc3c60ea4c365f470c1
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "39890531"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962545"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>会議移行サービス (MMS) を使用する
 
@@ -133,7 +133,7 @@ MMS がトリガーされた時点では、通常、ユーザーの会議が移�
 
 次の例は、ユーザー ashaw@contoso.com の会議の移行を開始して、すべての会議を Teams に移行できるようにする方法を示しています。
 
-```
+```PowerShell
 Start-CsExMeetingMigration -Identity ashaw@contoso.com -TargetMeetingType Teams
 ```
 
@@ -149,7 +149,7 @@ Windows PowerShell を使用すると、進行中の移行の状態を確認し�
 
 - すべての MMS の移行の概要ステータスを取得するには、次のコマンドを実行して、すべての移行状態を示す表形式のビューを提供します。
 
-    ```
+    ```PowerShell
     Get-CsMeetingMigrationStatus -SummaryOnly
 
     State      UserCount
@@ -161,19 +161,19 @@ Windows PowerShell を使用すると、進行中の移行の状態を確認し�
     ```
 - 指定した期間内のすべての移行の詳細情報を取得する`StartTime`に`EndTime`は、and パラメーターを使用します。 たとえば、次のコマンドは、2018年10月1日から2018年10月8日までに発生したすべての移行に関する完全な詳細情報を返します。
 
-    ```
+    ```PowerShell
     Get-CsMeetingMigrationStatus -StartTime "10/1/2018" -EndTime "10/8/2018"
     ```
 - 特定のユーザーの移行の状態を確認するには、 `Identity`パラメーターを使用します。 たとえば、次のコマンドは、ユーザー ashaw@contoso.com の状態を返します。
 
-    ```
+    ```PowerShell
     Get-CsMeetingMigrationStatus -Identity ashaw@contoso.com
     ```
 失敗した移行が表示される場合は、問題を解決するまで、ユーザーが開催した会議にダイヤルインできないため、できるだけ早くこの問題を解決する必要があります。 失敗`Get-CsMeetingMigrationStatus`状態の移行が表示された場合は、次の手順を実行します。
  
 1. 影響を受けているユーザーを特定します。 次のコマンドを実行して、影響を受けているユーザーと、報告された特定のエラーのリストを取得します。
 
-    ```
+    ```PowerShell
     Get-CsMeetingMigrationStatus| Where {$_.State -eq "Failed"}| Format-Table UserPrincipalName, LastMessage
     ```
 2. 影響を受けるユーザーごとに、会議移行ツールを実行して、手動で会議を移行します。
@@ -194,17 +194,17 @@ MMS は、すべての組織に対して既定で有効になっていますが�
 たとえば、組織の電話会議の設定に大幅な変更を加えながら、すべての会議を手動で移行するか、または MMS を一時的に無効にすることができます。
 
 組織で MMS が有効になっているかどうかを確認するには、次のコマンドを実行します。 パラメーターが`$true`の場合は`MeetingMigrationEnabled` 、MMS が有効になります。
-```
+```PowerShell
 Get-CsTenantMigrationConfiguration
 ```
 MMS を有効または無効にするに`Set-CsTenantMigrationConfiguration`は、コマンドを使用します。 たとえば、MMS を無効にするには、次のコマンドを実行します。
 
-```
+```PowerShell
 Set-CsTenantMigrationConfiguration -MeetingMigrationEnabled $false
 ```
 組織で MMS が有効になっていて、電話会議の更新プログラムが有効になっているかどうかを`AutomaticallyMigrateUserMeetings`確認する場合は、 `Get-CsOnlineDialInConferencingTenantSettings`[出力元] のパラメーターの値を確認します。 電話会議の MMS を有効または無効に`Set-CsOnlineDialInConferencingTenantSettings`するには、を使用します。 たとえば、電話会議の MMS を無効にするには、次のコマンドを実行します。
 
-```
+```PowerShell
 Set-CsOnlineDialInConferencingTenantSettings  -AutomaticallyMigrateUserMeetings $false
 ```
 
@@ -212,4 +212,4 @@ Set-CsOnlineDialInConferencingTenantSettings  -AutomaticallyMigrateUserMeetings 
 
 [Office 365 での電話会議を試用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 
-[ユーザーのオンプレミスとクラウド間の移動](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
+[オンプレミスとクラウドの間でユーザーを移動する](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)

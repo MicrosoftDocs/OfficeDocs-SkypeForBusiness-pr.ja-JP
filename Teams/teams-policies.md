@@ -22,12 +22,12 @@ f1keywords:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: 02c7258ebc316d5e08c77698e18935eb51b5b43d
-ms.sourcegitcommit: f2c7626dbef4ed250b9a937a9b56d46fe2e2039e
+ms.openlocfilehash: cd107de8b253ca2c5adfe1b23ed8484f152a5f5e
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/12/2019
-ms.locfileid: "39998815"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962985"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>Microsoft Teams でチームポリシーを管理する
 
@@ -49,7 +49,7 @@ ms.locfileid: "39998815"
 - **プライベートチーム**を見つける<a name="discoverteams"></a> : この設定を有効にして、ユーザーが検索結果とチームギャラリーでプライベートチームを見つけられるようにします。
 - **プライベートチャネル**を作成<a name="createchannels"></a>する: この設定を有効にして、ユーザーがプライベートチャネルを作成できるようにします。
 
-5. [**保存**] をクリックします。
+5. **[保存]** をクリックします。
 
 ## <a name="edit-a-teams-policy"></a>Teams のポリシーを編集する
 
@@ -89,15 +89,15 @@ Microsoft Teams 管理センターを使用して、ユーザー設定のポリ�
 > 「[単一の Windows PowerShell ウィンドウですべての Office 365 サービスに接続する](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)」の手順に従って、必ず最初に Azure Active Directory PowerShell for Graph モジュールと Skype for Business PowerShell モジュールに接続してください。
 
 特定のグループの GroupObjectId を取得します。
-```
+```PowerShell
 $group = Get-AzureADGroup -SearchString "Contoso Marketing"
 ```
 指定したグループのメンバーを取得します。
-```
+```PowerShell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
 グループ内のすべてのユーザーを特定のチームポリシーに割り当てます。 この例では、マーケティングチームポリシーについてご紹介します。
-```
+```PowerShell
 $members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "Marketing Teams Policy" -Identity $_.UserPrincipalName}
 ``` 
 グループ内のメンバー数によっては、このコマンドの実行に数分かかる場合があります。

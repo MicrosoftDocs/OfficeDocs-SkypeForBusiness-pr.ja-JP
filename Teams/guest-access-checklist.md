@@ -3,7 +3,6 @@ title: Microsoft Teams のゲスト アクセスのチェックリスト
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 06/21/2019
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -16,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bcba883166e01bd8a18d6d76b4622df0740500c8
-ms.sourcegitcommit: 000fdb3bc1a0d4dda63fb00bab6a9a9ab0c85ab0
+ms.openlocfilehash: c3354f7b503b2f1ea91c050a751b5d7d9ab0537a
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39813777"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962535"
 ---
 <a name="microsoft-teams-guest-access-checklist"></a>Microsoft Teams のゲスト アクセスのチェックリスト
 ==========================================
@@ -47,7 +46,7 @@ ms.locfileid: "39813777"
     ![Teams 設定の切り替えの例を示すスクリーンショット](media/guest-access-checklist-set-up-guests-image1.png)
 
 3. この同じページで、ゲストの**通話**、**会議**、**メッセージ**設定をオンまたはオフにします。
-4. [**保存**] をクリックします。
+4. **[保存]** をクリックします。
 
 > [!TIP]
 > Azure Active Directory、SharePoint Online、Office 365 グループで既定の設定を使用している場合、ゲストアクセスの構成が完了している可能性があります。 この場合は、残りの手順をスキップできます。 不明な場合、または AAD、SharePoint Online、または Office 365 グループのカスタム設定を使用している場合は、このチェックリストの残りの手順に進んでください。
@@ -84,11 +83,11 @@ ms.locfileid: "39813777"
 
 ## <a name="step-3-configure-office-365-groups"></a>手順 3: Office 365 グループを構成する
 
-1. Microsoft 365 管理センターで、[**設定**] > [**サービスとアドイン**] > [**Office 365 グループ**] に移動します。
-2. [**組織外部のグループ メンバーがグループ コンテンツにアクセスすることを許可**] が [**オン**] に設定されていることを確認します。 この設定がオフになっていると、ゲストはどのグループ コンテンツにもアクセスすることはできません。
-3. [**グループ所有者が組織外部のユーザーをグループに追加することを許可**] が [**オン**] に設定されていることを確認します。 この設定がオフになっていると、チームの所有者は新しいゲストを追加することができません。 少なくとも、ゲスト アクセスをサポートするためにこの設定をオンにする必要があります。
+1. Microsoft 365 管理センターで、[**設定** > **サービス & アドイン**] に移動し、[ **Office 365 グループ**] を選択します。
 
      ![Office 365 グループの切り替えを示すスクリーンショット](media/guest-access-checklist-office365.png)
+2. [**組織外のメンバーにグループのコンテンツをグループと**して使用する] チェックボックスがオンになっていることを確認します。 この設定をオフにすると、ゲストはグループのコンテンツにアクセスできなくなります。
+3. [**グループの所有者に組織外のユーザーをグループに追加**することを許可する] チェックボックスがオンになっていることを確認します。 この設定をオフにすると、チームの所有者は新しいゲストを追加できなくなります。 少なくとも、ゲストアクセスをサポートするために、この設定をオンにする必要があります。
 
 これらの設定を構成する詳細な手順については、「 [office 365 グループでゲストアクセスを管理](https://support.office.com/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150)する」および「 [office 365 グループのゲストアクセスを制御](Teams-dependencies.md#control-guest-access-in-office-365-groups)する」を参照してください。
  
@@ -115,14 +114,16 @@ ms.locfileid: "39813777"
 
 ## <a name="step-5-verify-sharing-setting-in-sharepoint"></a>手順 5: SharePoint で共有設定を確認する
 
-これは、脳 teaser の1つです。 SharePoint 管理センターで [**組織外**との共有を許可しない] 設定が選択されている場合、Teams でのゲストアクセスが機能しません。
-
 1. Microsoft 365 管理センターにサインインします。
-2. [**管理センター**] をクリックして [**SharePoint**] を選びます。
-3. SharePoint 管理センターで、[**共有**] を選択します。
-4. [**組織外との共有を許可しない**] の選択が*解除*されていることを確認します。
+2. [**管理センター**] で、[ **SharePoint**] を選びます。
+3. 新しい SharePoint 管理センターで、[**サイト**] の下にある [**アクティブサイト**] を選びます。
+
+    ![SharePoint 管理センターのアクティブなサイト](media/guest-access-checklist-SPOSettings0.png)
+
+3. サイトを選択し、[**共有**] をクリックします。
+4. このオプションが [**すべて**] または **[新規] および [既存のゲスト**] に設定されていることを確認します。
  
-     ![スクリーンショットに Sparepoint Online の設定の切り替えの例が示されます。](media/guest-access-checklist-SPOSettings1.png)
+     ![SharePoint Online の設定のトグルの例を示すスクリーンショット](media/guest-access-checklist-SPOSettings1.png)
 
 
 ## <a name="step-6-set-up-guest-user-permissions"></a>手順 6: ゲストユーザーの権限を設定する

@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: モバイル デバイス上の Skype for Business アプリで、携帯電話番号ではなく勤務先の電話番号を使用して携帯電話上で通話を発信および受信できるようにする機能などにより、ユーザーが Skype for Business Online に接続する方法を設定することができます。モバイル機能ポリシーを使用して、通話の発着信時に Wi-Fi 接続を要求するようにすることもできます。
-ms.openlocfilehash: 1e5cb04bbd63c91d1302ace41b1c9bdbaa492574
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 8ade1f69c7374009ea0f19fb1e777df76b45220c
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792467"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962555"
 ---
 # <a name="set-up-mobile-policies-for-your-organization"></a>組織のモバイル ポリシーをセットアップする
 
@@ -48,7 +48,7 @@ ms.locfileid: "35792467"
     
 4. Skype for Business Online に接続するリモートの Windows PowerShell セッションを作成できるように、Skype for Business Online の Windows PowerShell モジュールもインストールする必要があります。このモジュールは、64 ビット版のコンピューターでのみサポートされており、「[Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688)」の Microsoft ダウンロード センターからダウンロードできます。メッセージが表示されたら、コンピューターを再起動します。
     
-    詳細については、「[単一の Windows PowerShell ウィンドウですべての Office 365 サービスに接続する](https://technet.microsoft.com/EN-US/library/dn568015.aspx)」を参照してください。
+    詳細については、「[単一の Windows PowerShell ウィンドウですべての Office 365 サービスに接続する](https://technet.microsoft.com/library/dn568015.aspx)」を参照してください。
     
 - **Windows PowerShell セッションを開始する**
     
@@ -59,68 +59,68 @@ ms.locfileid: "35792467"
     > [!NOTE]
     > Skype for Business Online Windows PowerShell モジュールを初めて使用するときに、 **Import-Module** コマンドを実行するだけです。
 
-   ```      
+   ```PowerShell      
     Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session
    ```
 
-   Windows PowerShell の起動の詳細については、「[単一の Windows powershell ウィンドウですべての Office 365 サービスに接続](https://technet.microsoft.com/EN-US/library/dn568015.aspx)する」または「 [windows powershell 用のコンピューターをセットアップ](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)する」を参照してください。
+   Windows PowerShell の起動の詳細については、「[単一の Windows powershell ウィンドウですべての Office 365 サービスに接続](https://technet.microsoft.com/library/dn568015.aspx)する」または「 [windows powershell 用のコンピューターをセットアップ](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)する」を参照してください。
 
 ### <a name="require-a-wifi-connection-for-video-for-a-user"></a>ユーザーに対してビデオ使用時に WiFi 接続を要求する
 
 - これらの設定のために新しいポリシーを作成するには、次を実行します。
   > 
-  > ```
+  > ```PowerShell
   > New-CsMobilityPolicy -Identity MobilityPolicy -RequireWIFIForIPVideo $true
   > ```
-  > 詳細については、「 [set-csmobilitypolicy](https://technet.microsoft.com/en-us/library/mt779150.aspx)コマンドレット」を参照してください。
+  > 詳細については、「 [set-csmobilitypolicy](https://technet.microsoft.com/library/mt779150.aspx)コマンドレット」を参照してください。
     
 - 作成した新しいポリシーを組織内のすべてのユーザーに付与するには、次を実行します。
   > 
-  > ```
+  > ```PowerShell
   > Grant-CsMobilityPolicy -Identity"amos.marble@contoso.com" -PolicyName MobilityPolicy
   > ```
-  > [Set-csmobilitypolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx)コマンドレットの詳細については、こちらを参照してください。
+  > [Set-csmobilitypolicy](https://technet.microsoft.com/library/mt779149.aspx)コマンドレットの詳細については、こちらを参照してください。
     
-  ポリシーを作成済みの場合は、[Set-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779147.aspx) コマンドレットを使用して、既存のポリシーに対する変更を行います。次に、[Grant-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) を使用して設定をユーザーに適用します。
+  ポリシーを作成済みの場合は、[Set-CsMobilityPolicy](https://technet.microsoft.com/library/mt779147.aspx) コマンドレットを使用して、既存のポリシーに対する変更を行います。次に、[Grant-CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) を使用して設定をユーザーに適用します。
   
 ### <a name="prevent-a-user-from-using-the-skype-for-business-app"></a>ユーザーが Skype for Business アプリを使用できないようにする
 
 - これらの設定のために新しいポリシーを作成するには、次を実行します。
-  ```
+  ```PowerShell
   New-CsMobilityPolicy -Identity NoAppClientPolicy -EnableMobility $false 
   ```
-  詳細については、「 [set-csmobilitypolicy](https://technet.microsoft.com/en-us/library/mt779150.aspx)コマンドレット」を参照してください。
+  詳細については、「 [set-csmobilitypolicy](https://technet.microsoft.com/library/mt779150.aspx)コマンドレット」を参照してください。
     
 - Amos Marble に作成した新しいポリシーを付与するには、次を実行します。  
   > 
-  > ```
+  > ```PowerShell
   > Grant-CsMobilityPolicy -Identity "amos.marble@contoso.com"-PolicyName NoAppClientPolicy
   > ```
-  > [Set-csmobilitypolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx)コマンドレットの詳細については、こちらを参照してください。
+  > [Set-csmobilitypolicy](https://technet.microsoft.com/library/mt779149.aspx)コマンドレットの詳細については、こちらを参照してください。
     
-  既にポリシーを作成済みの場合は、 [set-csmobilitypolicy](https://technet.microsoft.com/en-us/library/mt779147.aspx)コマンドレットを使用して既存のポリシーに変更を加えることができます。次に、 [set-csmobilitypolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx)コマンドレットを使用して、ユーザーに設定を適用します。
+  既にポリシーを作成済みの場合は、 [set-csmobilitypolicy](https://technet.microsoft.com/library/mt779147.aspx)コマンドレットを使用して既存のポリシーに変更を加えることができます。次に、 [set-csmobilitypolicy](https://technet.microsoft.com/library/mt779149.aspx)コマンドレットを使用して、ユーザーに設定を適用します。
   
 ### <a name="prevent-a-user-from-making-voice-over-ip-calls-using-a-mobile-device"></a>ユーザーがモバイル デバイスを使用してボイス オーバー IP 通話を行えないようにする
 
 - これらの設定のために新しいポリシーを作成するには、次を実行します。
   > 
-  > ```
+  > ```PowerShell
   > New-CsMobilityPolicy -Identity VoIPClientPolicy -EnableIPAudioVideo  $false
   > ```
-  > 詳細については、「 [set-csmobilitypolicy](https://technet.microsoft.com/en-us/library/mt779150.aspx)コマンドレット」を参照してください。
+  > 詳細については、「 [set-csmobilitypolicy](https://technet.microsoft.com/library/mt779150.aspx)コマンドレット」を参照してください。
     
 - 作成した新しいポリシーを組織内のすべてのユーザーに付与するには、次を実行します。
   > 
-  > ```
+  > ```PowerShell
   > Grant-CsMobilityPolicy -Identity "amos.marble@contoso.com" -PolicyName VoIPClientPolicy
   > ```
 
-  [Set-csmobilitypolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx)コマンドレットの詳細については、こちらを参照してください。
+  [Set-csmobilitypolicy](https://technet.microsoft.com/library/mt779149.aspx)コマンドレットの詳細については、こちらを参照してください。
     
-ポリシーを作成済みの場合は、[Set-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779147.aspx) コマンドレットを使用して、既存のポリシーに対する変更を行います。次に、[Grant-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) を使用して設定をユーザーに適用します。
+ポリシーを作成済みの場合は、[Set-CsMobilityPolicy](https://technet.microsoft.com/library/mt779147.aspx) コマンドレットを使用して、既存のポリシーに対する変更を行います。次に、[Grant-CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) を使用して設定をユーザーに適用します。
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
 
@@ -138,7 +138,7 @@ ms.locfileid: "35792467"
     
   - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [カスタム外部アクセス ポリシーを作成する](create-custom-external-access-policies.md)
 
 [ポイントツーポイントファイル転送をブロックする](block-point-to-point-file-transfers.md)

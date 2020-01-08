@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '匿名の発信者による Skype for Business 管理センターからの会議への参加や PowerShell スクリプトの使用を有効または無効にする方法を説明します。 '
-ms.openlocfilehash: 1cdcbd2f610c3d60ba2fb4e554823d410fd4ae8f
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: cfc15835906fbc400830783777027ed7ca1f4e59
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792642"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962495"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-skype-for-business-online"></a>Skype for Business Online で PIN を使用せずに電話で電話会議を開始する
 
@@ -49,7 +49,7 @@ ms.locfileid: "35792642"
     
 3. ユーザーのプロパティページの [**会議オプション**] で、[**認証されていない発信者が会議の最初のユーザーになることを許可する] をオンまたはオフにします。満たされていない場合は、認証されたユーザーが参加するまでロビーで待機**します。
     
-4. [**保存**] をクリックします。 
+4. **[保存]** をクリックします。 
 
 
     
@@ -57,7 +57,7 @@ ms.locfileid: "35792642"
   
 - 次のコマンドを実行します。 
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -AllowPSTNOnlyMeetingsByDefault $true | $false
   ```
 

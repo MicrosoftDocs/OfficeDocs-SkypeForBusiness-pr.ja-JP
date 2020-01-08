@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Learn how to assign Microsoft the dial-in conferencing provider for Skype for Business.
-ms.openlocfilehash: 18792e87b83f9ee69030a6d83fecdbb9513c6f73
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: deaafe36948a6fe3a7eb9eaaf49295c37f627595
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34432605"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962735"
 ---
 # <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Microsoft を電話会議プロバイダーとして割り当てる
 
@@ -52,7 +52,7 @@ Microsoft の電話会議はダイヤルイン電話番号、PIN、会議 ID を
     > [!NOTE]
     > Microsoft を電話会議プロバイダーとして使用していて、複数の電話番号があるため、[**既定の有料**電話番号] ドロップダウンリストを使用して、ユーザーの既定のオーディオ番号を選ぶことができます。
   
-5. [**保存**] をクリックします。
+5. **[保存]** をクリックします。
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -65,7 +65,7 @@ Microsoft の電話会議はダイヤルイン電話番号、PIN、会議 ID を
 > プロバイダーが **Microsoft** に変更されるとき、ユーザーの電話会議情報 (電話会議 ID、有料電話番号と無料電話番号) が置き換えられます。プロバイダーを変更する前にこの情報を保存する必要があります。 
 
   
-少数のユーザーのためにプロバイダーを Microsoft に変更するには、 [get-csonlinedialinconferencinguser](https://technet.microsoft.com/en-us/library/mt243813.aspx)コマンドレットを使用します。
+少数のユーザーのためにプロバイダーを Microsoft に変更するには、 [get-csonlinedialinconferencinguser](https://technet.microsoft.com/library/mt243813.aspx)コマンドレットを使用します。
   
 
 ### <a name="using-a-windows-powershell-script-for-a-large-number-of-users"></a>多数のユーザーのために Windows PowerShell スクリプトを使用する
@@ -77,27 +77,27 @@ PowerShell スクリプト ファイルに次のスクリプトを保存する�
 
 **例 1:** 更新したいユーザーのリストを指定して、このスクリプトを実行できます。
    
-  ```
+  ```PowerShell
 Script.ps1 -UserList <List of users>
 ./Script.ps1 -UserList "user01@constoso.com, user02@contoso.com, user03@contoso.com"
   ```
 
 **例 2:** 更新したい各ユーザーの電子メール アドレス (エイリアス) を含む .csv ファイルを指定して、このスクリプトを実行できます。
    
-  ```
+  ```PowerShell
 Script.ps1 -CsvFile <Path of the csv file>
 ./Script.ps1 -CsvFile ".\\CsvFile.csv"
   ```
 
 **使用例 3:** この例では、組織内の多数のユーザーに対して、このスクリプトを使用して、電話会議プロバイダーを Intercall (または別のプロバイダー) から**Microsoft**に変更できます。
     
-  ```
+  ```PowerShell
   Script.ps1 -ACPProviderName <Provider>
   ./Script.ps1 -ACPProviderName "Intercall"
   ```
   スクリプトを以下に示します。
 
-  ```
+  ```PowerShell
   <#
   .SYNOPSIS
 
@@ -194,7 +194,7 @@ Script.ps1 -CsvFile <Path of the csv file>
   ```
 Windows PowerShell の使い方の詳細については、「[Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [Office 365 の電話会議のトライアルと購入](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 [Skype for Business Online の設定](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 
