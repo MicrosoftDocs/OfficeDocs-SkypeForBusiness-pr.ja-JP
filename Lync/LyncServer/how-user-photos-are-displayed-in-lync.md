@@ -10,12 +10,12 @@ ms:contentKeyID: 62835297
 ms.date: 08/27/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 941c1ab56feea557dfc792ea0af6415dd2a56851
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6ac13f066c24f66640aee1360caf1d341d604474
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840872"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971171"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -91,7 +91,7 @@ Active Directory ドメインサービスからの画像の使用に関する考
 
 ユーザーは、Lync 2010 クライアントを介して、Active Directory ドメインサービスプロファイルで使用されている画像を変更することはできません。 使用できる場合は、次のいずれかのオプションを使うことができます。
 
-  - **Sharepoint server**   ユーザーは、sharepoint サーバー上の [個人用サイト] に写真をアップロードし、 [sharepoint でプロファイルの同期を構成](http://go.microsoft.com/fwlink/p/?linkid=507466)して、その写真を Active Directory ドメインの**thumbnailPhoto**属性と同期させることができます。サービス.
+  - **Sharepoint server**   ユーザーは、sharepoint サーバー上の [個人用サイト] に写真をアップロードし、 [sharepoint でプロファイルの同期を構成](http://go.microsoft.com/fwlink/p/?linkid=507466)して、 **thumbnailPhoto**属性と Active Directory ドメインサービスの属性を同期させることができます。
 
   - **公開されているアクセシビリティ**   の高い url に保存されている写真ユーザーは、使用する画像の公開可能な url を指定してユーザーの写真を構成できます。 画像には、パスワードなしでアクセスできるようにする必要があります。 指定した web アドレスに保存されている画像は、プレゼンス情報の連絡先カードカテゴリを通じて他のユーザーに転送されます。 Lync クライアントでユーザーの写真を表示する必要がある場合は、指定した web アドレスから画像を取得します。
 
@@ -194,7 +194,7 @@ ABWQ サービスへのクエリには、次の属性が含まれています。
 さらに、クライアントは、キャッシュされたバージョンのイメージファイルが作成された時点から24時間ごとにサーバーに確認して、サーバー上の**Photohash**属性の値とクライアント上の値とを比較します。 値が異なる場合は、画像ファイルが変更されていることがクライアントに認識されます。 更新された画像ファイルを取得するために、クライアントはもう一度 ABWQ サービスを照会して、クライアントキャッシュのイメージファイルをサーバー上の画像ファイルに更新します。これにより、クライアントキャッシュ内のファイルの**タイムスタンプ**もリセットされます。
 
 次に示すのは、ABWQ サービスへのクエリに対する応答の例です。
-
+```xml
     <Attribute>
               <Name>PhotoRelPath</Name>
               <Value>efa6096aed2746cb9ab2037f7dbdde9d.f2eeeb5946db54a7aa607ecd3ae09d
@@ -212,6 +212,7 @@ ABWQ サービスへのクエリには、次の属性が含まれています。
          <Valuesxmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays"
     i:nil="true" />
     </Attribute>
+```
 
 </div>
 
@@ -249,19 +250,19 @@ Lync 2013 では、ユーザー写真用の高解像度の画像のサポート�
 
 Lync Server 管理シェルで[set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy)ポリシーを実行して、 **web サイトの設定から画像が表示**されるようにクライアントポリシーを設定することができます。 展開内のすべてのユーザーに対してグローバルにポリシーを設定する方法を示すコマンドレットの例を次に示します。
 
-   ```
+   ```powershell
     $pe=New-CsClientPolicyEntry -Name EnablePresencePhotoOptions -Value True
    ```
 
-   ```
+   ```powershell
     $po=Get-CsClientPolicy -Identity Global
    ```
 
-   ```
+   ```powershell
     $po.PolicyEntry.Add($pe)
    ```
 
-   ```
+   ```powershell
     Set-CsClientPolicy -Instance $po
    ```
 

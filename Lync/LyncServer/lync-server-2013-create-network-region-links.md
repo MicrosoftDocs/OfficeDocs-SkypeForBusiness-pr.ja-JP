@@ -10,12 +10,12 @@ ms:contentKeyID: 48185873
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7715aa258c56e98789f12d3c057047d947fd3c51
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6c0f21f599b8afa4f9f31ec16aad82e305c8a08e
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833833"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971262"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,11 +57,11 @@ _**最終更新日:** 2012-10-19_
 
 2.  New-CsNetworkRegionLink コマンドレットを実行して、地域リンクを作成し、適切な帯域幅ポリシー プロファイルを適用します。 たとえば、以下を実行します。
     
-      ```
+      ```powershell
         New-CsNetworkRegionLink -NetworkRegionLinkID NA-EMEA-LINK -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -BWPolicyProfileID 50Mb_Link
       ```
     
-      ```
+      ```powershell
         New-CsNetworkRegionLink -NetworkRegionLinkID EMEA-APAC-LINK -NetworkRegionID1 EMEA -NetworkRegionID2 APAC -BWPolicyProfileID 25Mb_Link
       ```
 

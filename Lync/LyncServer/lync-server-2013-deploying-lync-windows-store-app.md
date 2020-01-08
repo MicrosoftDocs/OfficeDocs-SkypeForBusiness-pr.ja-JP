@@ -10,12 +10,12 @@ ms:contentKeyID: 50117635
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b22880b230acda74c7485010550d5576ea200c61
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: eef2e96b1e58bb9a92b2dc9748624d38f605965f
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833551"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971241"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -69,24 +69,24 @@ Lync Server 2013 の累積更新プログラム: 2013 年6月は、Lync Windows 
 2.  AD FS の証明書を作成します。 詳細については、「AD FS を計画して展開する」の「フェデレーションサーバーの証明書」セクションを参照して[http://go.microsoft.com/fwlink/p/?LinkId=285376](http://go.microsoft.com/fwlink/p/?linkid=285376)ください。シングルサインオンのトピックで使用します。
 
 3.  Windows PowerShell コマンドラインインターフェイスで、次のコマンドを実行します。
-    
-        add-pssnapin Microsoft.Adfs.powershell
-
+    ```powershell
+    add-pssnapin Microsoft.Adfs.powershell
+    ```
 4.  次のコマンドを実行し、パートナーシップを確立します。
-    
-        Add-ADFSRelyingPartyTrust -Name ContosoApp -MetadataURL https://lyncpool.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
-
+    ```powershell
+    Add-ADFSRelyingPartyTrust -Name ContosoApp -MetadataURL https://lyncpool.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
+    ```
 5.  以下の証明書利用者のルールを設定します。
     
-       ```
+       ```powershell
         $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.contoso.com/authorization/claims/permit", Value = "true");'$IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.contoso.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
        ```
     
-       ```
+       ```powershell
         Set-ADFSRelyingPartyTrust -TargetName ContosoApp -IssuanceAuthorizationRules $IssuanceAuthorizationRules -IssuanceTransformRules $IssuanceTransformRules
        ```
     
-       ```
+       ```powershell
         Set-CsWebServiceConfiguration -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
        ```
 
@@ -101,9 +101,9 @@ Lync Server 2013 の累積更新プログラム: 2013 年6月は、Lync Windows 
 ## <a name="the-time-and-date-are-not-set-accurately-on-the-device-running-lync-windows-store-app"></a>Lync Windows ストアアプリが実行されているデバイスで時刻と日付が正しく設定されていない
 
 デバイスの時刻設定がサーバーの時刻設定と同期されている必要があります。 これは、Microsoft Surface などのデバイスや、ドメインに参加していない Windows RT を実行しているその他のデバイスで特に重要です。 これらのデバイスの時刻を時刻サーバーから自動的に設定するには、デバイスの昇格されたコマンドプロンプトから次のコマンドを実行します。
-
-    w32tm /resync
-
+```console
+w32tm /resync
+```
 </div>
 
 <div>
@@ -127,9 +127,9 @@ Lync Windows ストアアプリでは、Windows 8 に物理デバイスとして
     1.  Lync Server 管理シェルを開きます。
     
     2.  次のコマンドを実行します。
-        
-            Set-CsAutodiscoverConfiguration -ExternalSipClientAccessFqdn <FQDN of server used for external client access> -ExternalSipClientAccessPort 443
-
+        ```powershell
+        Set-CsAutodiscoverConfiguration -ExternalSipClientAccessFqdn <FQDN of server used for external client access> -ExternalSipClientAccessPort 443
+        ```
 </div>
 
 <div>

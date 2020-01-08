@@ -10,12 +10,12 @@ ms:contentKeyID: 48183727
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 78c0d6b266f6401c9ba48bfe38ee54b7b4281717
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c01549722fe04d0a4833a9d2c37fd5e85dc575a7
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833528"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971122"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -62,32 +62,32 @@ _**最終更新日:** 2013-02-21_
     しかし、ペアの関係を定義する前にプールが既に展開されていた場合は、次の 2 つの最終手順を実行する必要があります。
 
 8.  両方のプール内のすべてのフロントエンド サーバーで、次のコマンドを実行します。
-    
-        <system drive>\Program Files\Microsoft Lync Server 2013\Deployment\Bootstrapper.exe 
-    
+    ```console
+    <system drive>\Program Files\Microsoft Lync Server 2013\Deployment\Bootstrapper.exe 
+    ```
     これによって、バックアップ ペアが適切に動作するために必要な他のサービスが構成されます。
 
 9.  Lync Server 管理シェルのコマンドプロンプトから次のコマンドを実行します。
-    
-        Start-CsWindowsService -Name LYNCBACKUP
-
+    ```powershell
+    Start-CsWindowsService -Name LYNCBACKUP
+    ```
 10. 次のコマンドレットを実行して、両方のプールのユーザーおよび電話会議データが相互に同期されるようにします。
     
-       ```
+       ```powershell
         Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
        ```
     
-       ```
+       ```powershell
         Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
        ```
     
     データの同期には時間がかかる場合があります。次のコマンドレットを使用して、状態を確認できます。両方向の状態が安定状態であることを確認します。
     
-       ```
+       ```powershell
         Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
        ```
     
-       ```
+       ```powershell
         Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN>
        ```
 

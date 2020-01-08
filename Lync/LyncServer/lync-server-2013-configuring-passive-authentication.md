@@ -10,12 +10,12 @@ ms:contentKeyID: 54973690
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7c85bd20222a5fa70d052b21f62d0c19c76eea46
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 590a196ca0e34c0c063b10703c7edd131eb82c50
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840195"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971108"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -60,9 +60,10 @@ _**最終更新日:** 2013-07-11_
 2.  Lync Server 2013 Management Shell を起動します。
 
 3.  Lync Server 管理シェルコマンドラインで、次のコマンドを実行して、各ディレクター、エンタープライズプール、および標準エディションサーバー用の新しい Web サービス構成を作成します。これにより、パッシブ認証が有効になります。
-    
-        New-CsWebServiceConfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
-    
+    ```powershell
+    New-CsWebServiceConfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
+    ```
+
     <div class="">
     
 
@@ -73,17 +74,17 @@ _**最終更新日:** 2013-07-11_
     </div>
 
 4.  次のコマンドを実行して、UseWsFedPassiveAuth と WsFedPassiveMetadataUri の値が正しく設定されたことを確認します。
-    
-        Get-CsWebServiceConfiguration -identity "Service:WebServer:LyncPool01.contoso.com" | format-list UseWsFedPassiveAuth, WsFedPassiveMetadataUri
-
+     ```powershell
+     Get-CsWebServiceConfiguration -identity "Service:WebServer:LyncPool01.contoso.com" | format-list UseWsFedPassiveAuth, WsFedPassiveMetadataUri
+     ```
 5.  クライアントでは、パッシブ認証は WebTicket 認証の最も望ましくない方法です。 パッシブ認証を有効にするすべてのディレクター、エンタープライズプール、および標準エディションのサーバーについては、次のコマンドを実行して、Lync Web サービスで他のすべての認証の種類を無効にする必要があります。
-    
-        Set-CsWebServiceConfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" -UseCertificateAuth $false -UsePinAuth $false -UseWindowsAuth NONE
-
+    ```powershell
+    Set-CsWebServiceConfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" -UseCertificateAuth $false -UsePinAuth $false -UseWindowsAuth NONE
+     ```
 6.  次のコマンドを実行して、他のすべての認証の種類が正常に無効になっていることを確認します。
-    
-        Get-CsWebServiceConfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" | format-list UseCertificateAuth, UsePinAuth, UseWindowsAuth
-
+    ```powershell
+    Get-CsWebServiceConfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" | format-list UseCertificateAuth, UsePinAuth, UseWindowsAuth
+     ```
 </div>
 
 <div>
@@ -98,21 +99,21 @@ Lync Web サービスの証明書認証が無効になっている場合、Lync 
 
 1.  Lync Server 管理シェルコマンドラインから、累積更新プログラムを使用して、各 Lync Server 2013 に対して新しいプロキシ構成を作成します。 2013 Edge プール、エンタープライズプール、Standard Edition Server は、以下のコマンドを実行します。
     
-       ```
+       ```powershell
         New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" 
         -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
        ```
     
-       ```
+       ```powershell
         New-CsProxyConfiguration -Identity "Service:Registrar:LyncPool01.contoso.com" 
         -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
        ```
 
 2.  次のコマンドを実行して、他のすべてのプロキシ認証の種類が無効になっていることを確認します。
-    
-        Get-CsProxyConfiguration -Identity "Service:Registrar:LyncPool01.contoso.com"
+    ```powershell
+    Get-CsProxyConfiguration -Identity "Service:Registrar:LyncPool01.contoso.com"
          | format-list UseKerberosForClientToProxyAuth, UseNtlmForClientToProxyAuth, UseCertifcateForClientToProxyAuth
-
+     ```
 </div>
 
 </div>

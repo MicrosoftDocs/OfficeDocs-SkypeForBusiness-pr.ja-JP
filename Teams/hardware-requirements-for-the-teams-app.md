@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1c33a0ed8bf88469e6e9ab41a049a1d566cc686b
-ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
+ms.openlocfilehash: fd53a3bb39ba48046ce7670c567f630659daee62
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/13/2019
-ms.locfileid: "40019961"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40970965"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Microsoft Teams アプリのハードウェア要件
 
@@ -78,11 +78,11 @@ ms.locfileid: "40019961"
 
 Teams は以下のモバイルプラットフォームで使用できます。
 
-- Android-Android 5.0 以降が必要です。 Android フォンやタブレットと互換性があります。
+- Android: Android フォンやタブレットとの互換性があります。
 
   サポートは、最新の4つの主なバージョンの Android に制限されています。 Android の新しいメジャーバージョンがリリースされると、新しいバージョンと以前の3つのバージョンが正式にサポートされます。
 
-- iOS-iOS 10.0 以降が必要です。 IPhone、iPad、iPod touch に対応しています。 
+- iOS: iPhone、iPad、iPod touch に対応しています。 
 
   サポートされているのは、iOS の最新の2つのメジャーバージョンに制限されています。 IOS の新しいメジャーバージョンがリリースされると、iOS の新しいバージョンと以前のバージョンは正式にサポートされます。
 

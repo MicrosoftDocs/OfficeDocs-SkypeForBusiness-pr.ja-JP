@@ -10,12 +10,12 @@ ms:contentKeyID: 54973682
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 924f9c1b6e7fe64186eeee6a34364417d497866b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a88fb9db7109bdd2a2938f8f9624b4fd0f369fd9
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840295"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971213"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,13 +57,13 @@ _**最終更新日:** 2013-07-03_
 2.  Windows PowerShell を起動します。
 
 3.  Windows PowerShell コマンド ラインで次のコマンドを実行します。
-    
-        add-pssnapin Microsoft.Adfs.PowerShell
-
+    ```powershell
+    add-pssnapin Microsoft.Adfs.PowerShell
+    ```
 4.  Lync server 2013 の累積更新プログラムを使用して、各 Lync Server 2013 とのパートナーシップを確立します。次のコマンドを実行して、次のコマンドを実行して、年7月の2013ディレクター、エンタープライズプール、標準エディションサーバーを実行します。展開に固有のサーバー名:
-    
-        Add-ADFSRelyingPartyTrust -Name LyncPool01-PassiveAuth -MetadataURL https://lyncpool01.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
-
+    ```powershell
+    Add-ADFSRelyingPartyTrust -Name LyncPool01-PassiveAuth -MetadataURL https://lyncpool01.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
+     ```
 5.  [管理ツール] メニューから AD FS 2.0 管理コンソールを起動します。
 
 6.  **信頼関係** \>の**証明書利用者信頼**を展開します。
@@ -72,22 +72,22 @@ _**最終更新日:** 2013-07-03_
 
 8.  Windows PowerShell を使用して次のコマンドを実行し、証明書利用者の信頼に関する発行承認規則を作成して割り当てます。
     
-       ```
+       ```powershell
         $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.microsoft.com/authorization/claims/permit", Value = "true");'
        ```
     
-       ```
+       ```powershell
         Set-ADFSRelyingPartyTrust -TargetName LyncPool01-PassiveAuth 
         -IssuanceAuthorizationRules $IssuanceAuthorizationRules
        ```
 
 9.  Windows PowerShell を使用して次のコマンドを実行し、証明書利用者の信頼に関する発行変換規則を作成して割り当てます。
     
-       ```
+       ```powershell
         $IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
        ```
     
-       ```
+       ```powershell
         Set-ADFSRelyingPartyTrust -TargetName LyncPool01-PassiveAuth -IssuanceTransformRules $IssuanceTransformRules
        ```
 

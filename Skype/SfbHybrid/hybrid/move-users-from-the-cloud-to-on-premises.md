@@ -16,19 +16,19 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Skype for Business Online からオンプレミスにユーザーを移動する方法について説明します。
-ms.openlocfilehash: ec3aa727753ed9ac6564712d591ab6d2beac4ebf
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: 47b454a30d66a2c033915868eb2c95ea9ce0efe4
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37434730"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40963015"
 ---
 # <a name="move-users-from-the-cloud-to-on-premises"></a>クラウドからオンプレミスにユーザーを移動する 
 
 必要に応じて、オンプレミスからクラウドに移行されたユーザー (Skype for Business Online または Teams のみを使用しているかどうか) をオンプレミスに移行できます。 Skype for business Online または TeamsOnly モードから、Skype for business Server のオンプレミス展開にユーザーを戻すには、両方のユーザーコマンドレットまたは Skype for Business Server コントロールパネルを使用します。これらは両方ともオンプレミスのツールです。 ユーザーをオンプレミス展開に戻した場合は、移動先のプールを決定する必要があります。
 
 > [!Important]
-> 以前は TeamsOnly モードでユーザーが以前のバージョンを使用していて、CU8 で Skype for business Server 2015 より前のバージョンを使用している場合は、そのユーザーの TeamsUpgradePolicy の TeamsOnly モードの割り当ても削除する必要があります。 オンプレミスのユーザーは、mode = TeamsOnly を持たない必要があります。  今後のバージョンの Skype for Business Server では、この割り当てが自動的に削除されます。 詳細については、「 [CsTeamsUpgradePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/grant-csteamsupgradepolicy)」を参照してください。
+> 以前は TeamsOnly モードでユーザーが以前のバージョンを使用していて、CU8 で Skype for business Server 2015 より前のバージョンを使用している場合は、そのユーザーの TeamsUpgradePolicy の TeamsOnly モードの割り当ても削除する必要があります。 オンプレミスのユーザーは、mode = TeamsOnly を持たない必要があります。  今後のバージョンの Skype for Business Server では、この割り当てが自動的に削除されます。 詳細については、「 [CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy)」を参照してください。
 
 ## <a name="prerequisites"></a>前提条件
 
@@ -47,7 +47,7 @@ ms.locfileid: "37434730"
 
 ### <a name="move-users-with-move-csuser"></a>Move-CsUser を使用してユーザーを移動する
 
-Move-CsUser は、オンプレミスの Skype for Business 管理シェル PowerShell ウィンドウから入手できます。 [必要な管理者の資格情報](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)で説明されているように、オンプレミス環境と Office 365 テナントの両方に十分な特権を持っている必要があります。 両方の環境で権限を持つ1つのアカウントを使用するか、オンプレミスの資格情報を使用してオンプレミスの Skype for Business Server 管理シェルウィンドウを`-Credential`開始することができます。また、パラメーターを使用して Office 365 の資格情報を指定することもできます。必要な Office 365 管理者の役割を持つアカウント。
+Move-CsUser は、オンプレミスの Skype for Business 管理シェル PowerShell ウィンドウから入手できます。 [必要な管理者の資格情報](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)で説明されているように、オンプレミス環境と Office 365 テナントの両方に十分な特権を持っている必要があります。 両方の環境で権限を持つ単一のアカウントを使用するか、オンプレミスの資格情報を使用してオンプレミスの Skype for Business Server 管理シェルウィンドウを開始`-Credential`することができます。また、パラメーターを使用して、必要な office 365 管理者の役割を持つ office 365 アカウントの資格情報を指定することもできます。
 
 Move-CsUser を使用してユーザーをオンプレミスに移動するには、次のようにします。
 
@@ -58,7 +58,7 @@ Move-CsUser を使用してユーザーをオンプレミスに移動するに�
 
 次のコマンドレットシーケンスを使用して、ユーザーを Skype for Business Server に移動できます。また、Office 365 資格情報が別のアカウントであると仮定して、資格情報の取得を求めるプロンプトの入力として指定します。
 
-```
+```PowerShell
 $cred=Get-Credential
 $url="https://admin1a.online.lync.com/HostedMigration/hostedmigrationService.svc"
 Move-CsUser -Identity username@contoso.com -Target pool.corp.contoso.com -Credential $cred -HostedMigrationOverrideUrl $url
@@ -88,4 +88,4 @@ TeamsUpgradePolicy のユーザーの割り当てを削除するには、Skype f
 
 ## <a name="see-also"></a>関連項目
 
-[Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/move-csuser)
+[Move-CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser)

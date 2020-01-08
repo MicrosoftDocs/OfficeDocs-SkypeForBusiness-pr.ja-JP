@@ -10,12 +10,12 @@ ms:contentKeyID: 48185045
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c0ce65ed39e67068fcd57aba1177ecb72f553ccf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 53d5bdfe3b341f534a3e8066fe85be5e93b0a7f7
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833848"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971269"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +41,7 @@ _**最終更新日:** 2012-09-24_
 
 連絡先オブジェクトの構成の詳細については、次のコマンドレットの Lync Server 管理シェルに関するドキュメントを参照してください。
 
-  - [新規-CsExUmContact](https://docs.microsoft.com/powershell/module/skype/New-CsExUmContact)
+  - [New-CsExUmContact](https://docs.microsoft.com/powershell/module/skype/New-CsExUmContact)
 
   - [Set-CsExUmContact](https://docs.microsoft.com/powershell/module/skype/Set-CsExUmContact)
 
@@ -63,11 +63,11 @@ _**最終更新日:** 2012-09-24_
 
 2.  新しい-CsExUmContact コマンドレットを実行して、展開に必要な連絡先オブジェクトを作成します。 たとえば、次のように実行して AA と SA の連絡先オブジェクトを作成します。
     
-       ```
+       ```powershell
         New-CsExUmContact -SipAddress "sip:exumaa1@fabrikam.com" -RegistrarPool "RedmondPool.litwareinc.com" -OU "HostedExUM Integration" -DisplayNumber "+14255550101" -AutoAttendant $True
        ```
     
-       ```
+       ```powershell
         New-CsExUmContact -SipAddress "sip:exumsa1@fabrikam.com" -RegistrarPool "RedmondPool.litwareinc.com" -OU "HostedExUM Integration" -DisplayNumber "+14255550101"
        ```
     

@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f3332f25366ea79d69bb95727f01651cb158de53
-ms.sourcegitcommit: c2e315d0fcec742d2e1ba5ad90dffd1a1157a466
+ms.openlocfilehash: 70a0c87060bf4d2a560a997e287b1507e2281ee4
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/13/2019
-ms.locfileid: "40002241"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40970975"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams のクライアントを取得する 
 
@@ -144,9 +144,9 @@ Microsoft Teams モバイル アプリは Android および iOS で利用可能�
 
 Microsoft Teams モバイル アプリのサポートされるモバイル プラットフォームは次のとおりです。
 
--   **Android**: 5.0 以降
+-   **Android**: サポートは、最新の4つの主なバージョンの Android に制限されています。 Android の新しいメジャーバージョンがリリースされると、新しいバージョンと以前の3つのバージョンが正式にサポートされます。
 
--   **iOS**: 10.0 以降
+-   **ios**: ios の最新のメジャーバージョンは、サポートされているのは最新の2つのメジャーバージョンに制限されています。 IOS の新しいメジャーバージョンがリリースされると、iOS の新しいバージョンと以前のバージョンは正式にサポートされます。
 
 > [!NOTE]
 > Teams が問題なく動作するためには、モバイル バージョンが利用可能な状態である必要があります。
@@ -156,7 +156,7 @@ Microsoft Teams モバイル アプリのサポートされるモバイル プ�
 
 | | | |
 |---------|---------|---------|
-|![判断ポイントを示すアイコン](media/Get_clients_for_Microsoft_Teams_image4.png)      |判断ポイント         |ユーザーが適切な Microsoft Teams クライアントをデバイスにインストールすることを妨げる制限事項はありますか?         |
+|![判断ポイントを表すアイコン](media/Get_clients_for_Microsoft_Teams_image4.png)      |判断ポイント         |ユーザーが適切な Microsoft Teams クライアントをデバイスにインストールすることを妨げる制限事項はありますか?         |
 |![次の手順を示すアイコン](media/Get_clients_for_Microsoft_Teams_image5.png)     |次のステップ         |組織によってソフトウェアのインストールが制限されている場合、処理が Microsoft Teams に対応していることを確認してください。注意: 管理者権限は、PC クライアント インストールでは必要ありませんが、Mac へのインストールでは必要になります。         |
 
 ## <a name="client-update-management"></a>クライアントの更新管理

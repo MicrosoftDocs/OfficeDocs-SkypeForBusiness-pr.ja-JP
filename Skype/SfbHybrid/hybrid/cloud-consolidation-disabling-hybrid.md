@@ -19,20 +19,20 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: この付録には、Teams と Skype for Business のクラウド統合の一部としてハイブリッドを無効にするための詳細な手順が含まれています。
-ms.openlocfilehash: 7bd0b4c606a84dea08fb568d42fe403f624c522d
-ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
+ms.openlocfilehash: d3420c1bd40bbdeeff25747153210c2600d929f6
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38010580"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40963075"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>ハイブリッドを無効にしてクラウドへの移行を完了する
 
-オンプレミスのすべてのユーザーをクラウドに移行した後、オンプレミスの Skype for Business の展開を使用停止にすることができます。 ハードウェアを削除することに加えて、ハイブリッドを無効にすることによって、オンプレミスの展開を Office 365 から論理的に分離することが重要な手順です。 ハイブリッドの無効化は、3つの手順で構成されます。
+すべてのユーザーをオンプレミスからクラウドに移行した後は、オンプレミスの Skype for Business の配置を使用停止にすることができます。 ハードウェアを削除する以外に、重要なステップとして、ハイブリッドを無効にすることによってオンプレミスの配置を Office 365 から論理的に分離します。 ハイブリッドの無効化は、3つの手順で構成されます。
 
-1. Office 365 をポイントするように DNS レコードを更新します。
+1. Office 365 を指すようにドメインの DNS レコードを更新する。
 
-2. Office 365 テナントの分割ドメインを無効にします。
+2. Office 365 テナントの分割ドメインを無効にする。
 
 3. オンプレミスの Office 365 との通信機能を無効にします。
 
@@ -57,13 +57,13 @@ ms.locfileid: "38010580"
 2.  *Office 365 テナントの共有 SIP アドレススペースを無効にします。*
 次のコマンドは、Skype for Business Online PowerShell ウィンドウから実行する必要があります。
 
-    ```
+    ```PowerShell
     Set-CsTenantFederationConfiguration -SharedSipAddressSpace $false
     ```
  
 3.  *オンプレミスの Office 365 との通信機能を無効にします。*  
 次のコマンドは、オンプレミスの PowerShell ウィンドウから実行する必要があります。
-```
+```PowerShell
     Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false
 ```
 

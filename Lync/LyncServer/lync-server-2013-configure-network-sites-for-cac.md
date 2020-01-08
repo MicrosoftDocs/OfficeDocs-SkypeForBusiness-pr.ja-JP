@@ -10,12 +10,12 @@ ms:contentKeyID: 48185144
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 528ed67243fb0ab0451abf504a458afc420d94ea
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b678cab0ea8b473e6ea33ab5db951b105a11fa78
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840341"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971234"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -69,15 +69,15 @@ CAC の展開例では、北米地域には6つのサイトがあります。 �
 
 2.  **新しい-CsNetworkSite**コマンドレットを実行して、ネットワークサイトを作成し、各サイトに適切な帯域幅ポリシープロファイルを適用します。 たとえば、以下を実行します。
     
-       ```
+       ```powershell
         New-CsNetworkSite -NetworkSiteID Reno -Description "NA:Branch office for sales force" -NetworkRegionID NorthAmerica -BWPolicyProfileID 10MB_Link
        ```
     
-       ```
+       ```powershell
         New-CsNetworkSite -NetworkSiteID Portland -Description "NA:Branch office for marketing force" -NetworkRegionID NorthAmerica -BWPolicyProfileID 5MB_Link
        ```
     
-       ```
+       ```powershell
         New-CsNetworkSite -NetworkSiteID Albuquerque -Description "NA:Branch office for SouthWest sales" -NetworkRegionID EMEA -BWPolicyProfileID 10MB_Link
        ```
 

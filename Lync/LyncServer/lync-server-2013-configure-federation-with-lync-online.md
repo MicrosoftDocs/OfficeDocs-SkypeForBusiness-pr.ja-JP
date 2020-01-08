@@ -10,12 +10,12 @@ ms:contentKeyID: 48184946
 ms.date: 08/15/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d690b21614ec416d82834761772cee05ee16f26e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5ee7cf175e2ca46a54f3c6505fe5f94b69120763
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840369"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971206"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,11 +45,11 @@ _**最終更新日:** 2016-08-15_
 
 フェデレーションによって、オンプレミスの展開のユーザーは、組織内の Office 365 ユーザーと通信することができます。 フェデレーションを構成するには、次のコマンドレットを実行します。
 
-   ```
+   ```powershell
     Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $True
    ```
 
-   ```
+   ```powershell
     New-CSHostingProvider -Identity LyncOnline -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
    ```
 
@@ -66,26 +66,26 @@ _**最終更新日:** 2016-08-15_
 Move-CsUser : HostedMigration エラー: エラー=(510), 説明=(このユーザーのテナントは共有 SIP アドレス スペース用に有効化されていません。)
 
 共有 SIP アドレス空間を構成するには、Skype for Business Online とのリモート PowerShell セッションを確立して、次のコマンドレットを実行します。
-
-    Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
-
+```powershell
+Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
+```
 Skype for Business Online とのリモート PowerShell セッションを確立するには、まず、Windows PowerShell 用 Skype for Business Online モジュールをインストールする必要があります。 [http://go.microsoft.com/fwlink/p/?LinkId=391911](http://go.microsoft.com/fwlink/p/?linkid=391911)これには、次のページを参照してください。
 
 そのモジュールをインストールしたら、次のコマンドレットによってリモート セッションを確立します。
 
-   ```
+   ```powershell
     Import-Module LyncOnlineConnector
    ```
 
-   ```
+   ```powershell
     $cred = Get-Credential
    ``` 
 
-   ```
+   ```powershell
     $CSSession = New-CsOnlineSession -Credential $cred
    ```
 
-   ```
+   ```powershell
     Import-PSSession $CSSession -AllowClobber
    ```
 

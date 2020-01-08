@@ -16,28 +16,28 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: '概要: オンプレミス展開と Skype for Business Online の間の相互運用性を構成する方法について説明します。'
-ms.openlocfilehash: 59f5f752e7a6d9fa4047e736f1a988819525955e
-ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
+ms.openlocfilehash: c451224e7f421b4505560533b2880a14cc04e1a9
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "36160659"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40963035"
 ---
 # <a name="configure-skype-for-business-hybrid"></a>Skype for Business ハイブリッドの構成
 
-Skype for Business ハイブリッドを構成するには、次のことを行う必要があります。
+Skype for Business ハイブリッドを構成するには、次のことを実行する必要があります。
 
 - [Office 365 とフェデレーションを行うようにオンプレミス環境サービスを構成](#configure-your-on-premises-edge-service-to-federate-with-office-365)します。
 - Office [365 を信頼するようにオンプレミス環境を構成し、office 365 で共有 SIP アドレススペースを有効](#configure-your-on-premises-environment-to-enable-shared-sip-address-space-with-office-365)にします。
 - [Office 365 テナントで共有 SIP アドレススペースを有効に](#enable-shared-sip-address-space-in-your-office-365-tenant)します。
 
-オンプレミスの Exchange を使用している場合は、Exchange のオンプレミスと Skype for business Online 環境の間で OAuth を構成することが必要になることに注意してください。 詳細については、「 [skype for Business server でサーバー間認証を管理](https://docs.microsoft.com/en-us/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications)する」および「 [skype For business と Exchange の統合を計画する](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/integrate-with-exchange/integrate-with-exchange#feature_support)」を参照してください。 
+オンプレミスの Exchange を使用している場合は、Exchange のオンプレミスと Skype for business Online 環境の間で OAuth を構成することが必要になることに注意してください。 詳細については、「 [skype for Business server でサーバー間認証を管理](https://docs.microsoft.com/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications)する」および「 [skype For business と Exchange の統合を計画する](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/integrate-with-exchange/integrate-with-exchange#feature_support)」を参照してください。 
   
 ## <a name="configure-your-on-premises-edge-service-to-federate-with-office-365"></a>オンプレミスエッジサービスを構成して Office 365 とフェデレーションを行う
 
-フェデレーションを使用すると、オンプレミス展開のユーザーが組織内の Office 365 ユーザーと通信することができます。 フェデレーションを構成するには、Skype for Business Server 管理シェルで次のコマンドレットを実行します。
+フェデレーションにより、オンプレミス展開のユーザーが組織の Office 365 ユーザーと通信できるようになります。 フェデレーションを構成するには、Skype for Business Server 管理シェルで次のコマンドレットを実行します。
   
-```
+```PowerShell
 Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -EnablePartnerDiscovery 1 -UseDnsSrvRouting
 ```
 
@@ -47,17 +47,17 @@ Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -Enabl
 
 ## <a name="configure-your-on-premises-environment-to-enable-shared-sip-address-space-with-office-365"></a>Office 365 で共有 SIP アドレススペースを有効にするようにオンプレミス環境を構成する
 
-Office 365 を信頼し、Office 365 で共有 SIP アドレススペースを有効にするようにオンプレミス環境を構成する必要もあります。 つまり、Office 365 は、オンプレミス環境と同じセットの SIP ドメインに対してユーザーアカウントをホストする可能性があり、社内および online でホストされているユーザー間でメッセージをルーティングすることができます。  これを行うには、以下に示すように、ProxyFqdn = sipfed を使用してホスティングプロバイダーを構成します。
+また、Office 365 を信頼し Office 365 に対して共有 SIP アドレス スペースを有効にするように、オンプレミス環境を構成する必要があります。 つまり、Office 365 は、オンプレミス環境と同じセットの SIP ドメインに対してユーザーアカウントをホストする可能性があり、社内および online でホストされているユーザー間でメッセージをルーティングすることができます。  これを行うには、以下に示すように、ProxyFqdn = sipfed を使用してホスティングプロバイダーを構成します。
 
 最初に、ProxyFqdn = sipfed を使用するホスティングプロバイダーが既に存在するかどうかを確認します。 存在する場合は、次のコマンドを使用して削除します。
 
-```
+```PowerShell
 Get-CsHostingProvider | ?{ $_.ProxyFqdn -eq "sipfed.online.lync.com" } | Remove-CsHostingProvider
 ```
 
 次に、新しいホスティングプロバイダーを作成し、次のようにして、新しい-CsHostingProvider コマンドレットを使用します。 
 
-```
+```PowerShell
 New-CsHostingProvider -Identity Office365 -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root 
 ```
 
@@ -67,7 +67,7 @@ New-CsHostingProvider -Identity Office365 -ProxyFqdn "sipfed.online.lync.com" -E
 
 Office 365 テナントで共有 SIP アドレススペースを有効にするには、Skype for Business Online でリモート PowerShell セッションを確立し、次のコマンドレットを実行します。
   
-```
+```PowerShell
 Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
 ```
 
@@ -78,7 +78,7 @@ Teams または Skype for Business Online とのリモート PowerShell セッ�
   
 モジュールをインストールした後、次のコマンドレットを使用してリモートセッションを確立できます。
   
-```
+```PowerShell
 $cred = Get-Credential
 Import-PSSession (New-CsOnlineSession -Credential $cred) -AllowClobber
 ```

@@ -10,12 +10,12 @@ ms:contentKeyID: 48183311
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fcbdbfbca5f532b1ca192cc0e9d89e93e3c8acb1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c4a97a97d96f91b0433c65b7eb3e352dcf47c7d5
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840327"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971227"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,15 +57,15 @@ _**最終更新日:** 2013-02-24_
     
 
     > [!WARNING]  
-    > SIP トラフィックに対してのみ暗号化を要求するようにセキュリティ設定の値を<STRONG>sip</STRONG>に設定してある場合は、前に説明したように、フロントエンドプールが暗号化を要求するように構成されている場合は、ダイヤルプランに対してこのセキュリティ設定が不十分であることに注意してください。プールには SIP トラフィックと RTP トラフィックの両方の暗号化が必要です。 ダイヤルプランとプールのセキュリティ設定に互換性がない場合は、フロントエンドプールからの Exchange UM へのすべての呼び出しが失敗し、"互換性のないセキュリティ設定" というエラーが表示されます。
+    > セキュリティ設定の値を<STRONG>Sip セキュリティ</STRONG>に設定して、sip トラフィックのみの暗号化を必須にする場合は、前に説明したように、フロントエンドプールが暗号化を要求するように構成されている場合は、ダイヤルプランに対するこのセキュリティ設定は不十分であることに注意してください。つまり、プールは SIP と RTP の両方のトラフィックに ダイヤルプランとプールのセキュリティ設定に互換性がない場合は、フロントエンドプールからの Exchange UM へのすべての呼び出しが失敗し、"互換性のないセキュリティ設定" というエラーが表示されます。
 
     
     </div>
     
     Exchange 管理シェルを使用している場合は、次のように入力します。
-    
-        New-UMDialPlan -Name <dial plan name> -UriType "SipName" -VoipSecurity <SIPSecured|Unsecured|Secured> -NumberOfDigitsInExtension <number of digits> -AccessTelephoneNumbers <access number in E.164 format>
-    
+    ```powershell
+     New-UMDialPlan -Name <dial plan name> -UriType "SipName" -VoipSecurity <SIPSecured|Unsecured|Secured> -NumberOfDigitsInExtension <number of digits> -AccessTelephoneNumbers <access number in E.164 format>
+    ```
     詳細については、以下を参照してください。
     
       - Office Communications Server 2007 については、「at [http://go.microsoft.com/fwlink/p/?LinkId=268632](http://go.microsoft.com/fwlink/p/?linkid=268632) and UMDialplan: Exchange 2007 のヘルプ」で[http://go.microsoft.com/fwlink/p/?LinkId=268666](http://go.microsoft.com/fwlink/p/?linkid=268666)「ユニファイドメッセージング SIP URI ダイヤルプランを作成する方法」を参照してください。
@@ -78,14 +78,14 @@ _**最終更新日:** 2013-02-24_
     
 
     > [!NOTE]  
-    > <STRONG>SIPSecured</STRONG>または secure のセキュリティレベルを選択<STRONG></STRONG>するかどうかは、セキュリティで保護されたリアルタイムトランスポートプロトコル (srtp) がメディア暗号化に対してアクティブ化されているか、無効になっているかによって異なります。 Lync Server 2010 と Exchange UM との統合については、Lync Server メディア構成の暗号化レベルに対応している必要があります。 Lync Server のメディア構成を表示するには、 <STRONG>CsMediaConfiguration</STRONG>コマンドレットを実行します。 詳細については、「Lync Server 管理シェルドキュメントの CsMediaConfiguration」を参照してください。<BR>適切な VoIP セキュリティ設定を選ぶ方法について詳しくは、「<A href="lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md">オンプレミスユニファイドメッセージングと Lync Server 2013 を統合するための展開プロセス</A>」をご覧ください。
+    > <STRONG>SIPSecured</STRONG>または secure のセキュリティレベルを選択するかどうかは、セキュリティで保護されたリアルタイムトランスポートプロトコル (srtp) がメディア暗号化に対してアクティブ化されているか、無効になっているか<STRONG>によって</STRONG>異なります。 Lync Server 2010 と Exchange UM との統合については、Lync Server メディア構成の暗号化レベルに対応している必要があります。 Lync Server のメディア構成を表示するには、 <STRONG>CsMediaConfiguration</STRONG>コマンドレットを実行します。 詳細については、「Lync Server 管理シェルドキュメントの CsMediaConfiguration」を参照してください。<BR>適切な VoIP セキュリティ設定を選ぶ方法について詳しくは、「<A href="lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md">オンプレミスユニファイドメッセージングと Lync Server 2013 を統合するための展開プロセス</A>」をご覧ください。
 
     
     </div>
 
 2.  次のコマンドレットを実行して、各 UM ダイヤルプランの完全修飾ドメイン名 (FQDN) を取得します。
     
-    ``` 
+    ```powershell
     (Get-UMDialPlan <dialplanname>).PhoneContext  
     ```
     
@@ -119,12 +119,12 @@ _**最終更新日:** 2013-02-24_
         Exchange 2013 については、の「ユニファイ[http://go.microsoft.com/fwlink/p/?LinkID=266579](http://go.microsoft.com/fwlink/p/?linkid=266579)ドメッセージング」を参照してください。
     
       - Exchange 管理シェルを使用している場合は、Exchange UM サーバーごとに次の操作を実行します。
-        
-            $ums=get-umserver; 
-            $dp=get-umdialplan -id <name of dial-plan created in step 1>; 
-            $ums[0].DialPlans +=$dp.Identity; 
-            set-umservice -instance $ums[0]
-    
+        ```powershell
+        $ums=get-umserver; 
+        $dp=get-umdialplan -id <name of dial-plan created in step 1>; 
+        $ums[0].DialPlans +=$dp.Identity; 
+        set-umservice -instance $ums[0]
+        ```
     <div>
     
 
@@ -135,13 +135,13 @@ _**最終更新日:** 2013-02-24_
     </div>
 
 5.  [Exchange \<インストールディレクトリ\>\\スクリプト] に移動し、exchange が単一フォレストに展開されている場合は、次のように入力します。
-    
-        exchucutil.ps1
-    
+    ```console
+    exchucutil.ps1
+    ```
     または、複数のフォレストに Exchange が展開されている場合は、次のように入力します。
-    
-        exchucutil.ps1 -Forest:"<forest FQDN>"
-    
+    ```console
+    exchucutil.ps1 -Forest:"<forest FQDN>"
+    ```
     ここで、[フォレスト FQDN の指定は Lync Server が展開されているフォレストを指定します。
     
     複数の IP ゲートウェイに関連付けられている UM ダイヤルプランが1つ以上ある場合は、手順6に進みます。 ダイヤルプランが1つの IP ゲートウェイのみに関連付けられている場合は、手順6をスキップします。
@@ -176,9 +176,9 @@ _**最終更新日:** 2013-02-24_
     </div>
     
       - Exchange 管理シェルを使用している場合は、次のコマンドを実行して各 IP ゲートウェイを無効にします。
-        
-            Set-UMIPGateway <gatewayname> -OutcallsAllowed $false
-        
+        ```powershell
+        Set-UMIPGateway <gatewayname> -OutcallsAllowed $false
+        ```
         Exchange 2007 については、「Set-UMIPGateway: Exchange 2007 の[http://go.microsoft.com/fwlink/p/?LinkId=268687](http://go.microsoft.com/fwlink/p/?linkid=268687)ヘルプ」を参照してください。
         
         Exchange 2010 については、「Set-UMIPGateway: Exchange 2010 の[http://go.microsoft.com/fwlink/p/?LinkId=268688](http://go.microsoft.com/fwlink/p/?linkid=268688)ヘルプ」を参照してください。
@@ -205,8 +205,9 @@ _**最終更新日:** 2013-02-24_
     
     </div>
     
-        New-umautoattendant -name <auto attendant name> -umdialplan < name of dial plan created in step 1> -PilotIdentifierList <auto attendant phone number in E.164 format> -SpeechEnabled $true -Status Enabled
-    
+    ```powershell
+    New-umautoattendant -name <auto attendant name> -umdialplan < name of dial plan created in step 1> -PilotIdentifierList <auto attendant phone number in E.164 format> -SpeechEnabled $true -Status Enabled
+    ```
     詳細については、以下を参照してください。
     
       - Exchange 2007 の場合は、「New-UMAutoAttendant: Exchange 2007 のヘルプ[http://go.microsoft.com/fwlink/p/?LinkId=268689](http://go.microsoft.com/fwlink/p/?linkid=268689)」を参照してください。
@@ -226,8 +227,9 @@ _**最終更新日:** 2013-02-24_
     
     </div>
     
-        enable-ummailbox -id <user name> -ummailboxpolicy <name of the mailbox policy for the dial plan created in step 1> -Extensions <extension> -SIPResourceIdentifier "<user name>@<full domain name>" -PIN <user pin>
-    
+    ```powershell
+    enable-ummailbox -id <user name> -ummailboxpolicy <name of the mailbox policy for the dial plan created in step 1> -Extensions <extension> -SIPResourceIdentifier "<user name>@<full domain name>" -PIN <user pin>
+    ```
     詳細については、以下を参照してください。
     
       - Exchange 2007 の場合は、「Enable-UMMailbox: Exchange 2007 のヘルプ[http://go.microsoft.com/fwlink/p/?LinkId=268691](http://go.microsoft.com/fwlink/p/?linkid=268691)」を参照してください。

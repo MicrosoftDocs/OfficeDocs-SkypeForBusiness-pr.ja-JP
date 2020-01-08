@@ -10,12 +10,12 @@ ms:contentKeyID: 48185401
 ms.date: 06/16/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3fd9f07b979f89a28b6fa545f3a43009402f4ed1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: deac68fb5f20066632bc48a9e9b6244a9bd34fe9
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833741"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971178"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -79,13 +79,13 @@ _**最終更新日:** 2016-06-16_
 
 3.  [**インストール-CsDatabase**コマンドレットを使用して、中央管理ストアをインストールします。
     
-       ```
+       ```powershell
         Install-CsDatabase -CentralManagementDatabase -SqlServerFqdn <fully qualified domain name of SQL Server> 
         -SqlInstanceName <named instance> -DatabasePaths <logfile path>,<database file path> 
         -Report <path to report file>
        ```
     
-       ```
+       ```powershell
         Install-CsDatabase -CentralManagementDatabase -SqlServerFqdn sqlbe.contoso.net -SqlInstanceName rtc -DatabasePaths "C:\CSDB-Logs","C:\CSDB-CMS" -Report "C:\Logs\InstallDatabases.html"
        ```
     
@@ -101,9 +101,9 @@ _**最終更新日:** 2016-06-16_
 4.  **CsDatabase-DatabasePaths**では、最大6つの path パラメーターを使うことができます。それぞれ、SQL Server データとログファイルの配置で定義されたドライブのパスを定義します。 Lync Server 2013 のデータベース構成の論理的なルールにより、ドライブは2、4、または6のバケットに分けて解析されます。 SQL Server の構成とバケット数に応じて、2つのパス、4つのパス、または6つのパスを指定します。
     
     3つのドライブがある場合は、ログが優先され、データファイルは後で配布されます。 6台のドライブで構成された SQL Server ベースのサーバーの例:
-    
-        Install-CsDatabase -ConfiguredDatases -SqlServerFqdn sqlbe.contoso.net -DatabasePaths "D:\CSDynLogs","E:\CSRtcLogs","F:\MonCdrArcLogs","G:\MonCdrArchData","H:\AbsAppLog","I:\DynRtcAbsAppData" -Report "C:\Logs\InstallDatabases.html"
-
+    ```powershell
+    Install-CsDatabase -ConfiguredDatases -SqlServerFqdn sqlbe.contoso.net -DatabasePaths "D:\CSDynLogs","E:\CSRtcLogs","F:\MonCdrArcLogs","G:\MonCdrArchData","H:\AbsAppLog","I:\DynRtcAbsAppData" -Report "C:\Logs\InstallDatabases.html"
+    ```
 5.  データベースのインストールが完了したら、Lync Server 2013 管理シェルを閉じるか、またはトポロジビルダーで定義されている Lync Server 2013 構成データベースのインストールに進みます。
 
 </div>
@@ -129,12 +129,12 @@ _**最終更新日:** 2016-06-16_
 
 4.  **CsDatabase**コマンドレットを使用して、トポロジビルダーで構成されたデータベースをインストールします。
     
-       ```
+       ```powershell
         Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn <fully qualified domain name of SQL Server> 
          -DatabasePaths <logfile path>,<database file path> -Report <path to report file>
        ```
     
-       ```
+       ```powershell
         Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn sqlbe.contoso.net 
         -Report "C:\Logs\InstallDatabases.html"
        ```
@@ -173,21 +173,21 @@ _**最終更新日:** 2016-06-16_
 
 4.  DatabasePathMap パラメーターと PowerShell ハッシュテーブルを使って、 **CsDatabase**コマンドレットを使用して、トポロジビルダーで構成されたデータベースをインストールします。
 
-5.  このコード例では、データベースに対して定義されているパスは、– DatabasePathMap パラメーターと定義されたハッシュテーブル (この例では、すべてのデータベース (\\.mdf) ファイルに "c: csdata" を使用しています\\ ) と "c:すべてのログ (.ldf) ファイルの CSLogFiles ファイル。 必要に応じて、CsDatabase からフォルダーを作成します):
-    
-        $pathmap = @{
-        "BackendStore:BlobStore:DbPath"="C:\CsData";"BackendStore:BlobStore:LogPath"="C:\CsLogFiles"
-        "BackendStore:RtcSharedDatabase:DbPath"="C:\CsData";"BackendStore:RtcSharedDatabase:LogPath"="C:\CsLogFiles"
-        "ABSStore:AbsDatabase:DbPath"="C:\CsData";"ABSStore:AbsDatabase:LogPath"="C:\CsLogFiles"
-        "ApplicationStore:RgsConfigDatabase:DbPath"="C:\CsData";"ApplicationStore:RgsConfigDatabase:LogPath"="C:\CsLogFiles"
-        "ApplicationStore:RgsDynDatabase:DbPath"="C:\CsData";"ApplicationStore:RgsDynDatabase:LogPath"="C:\CsLogFiles"
-        "ApplicationStore:CpsDynDatabase:DbPath"="C:\CsData";"ApplicationStore:CpsDynDatabase:LogPath"="C:\CsLogFiles"
-        "ArchivingStore:ArchivingDatabase:DbPath"="C:\CsData";"ArchivingStore:ArchivingDatabase:LogPath"="C:\CsLogFiles"
-        "MonitoringStore:MonitoringDatabase:DbPath"="C:\CsData";"MonitoringStore:MonitoringDatabase:LogPath"="C:\CsLogFiles"
-        "MonitoringStore:QoEMetricsDatabase:DbPath"="C:\CsData";"MonitoringStore:QoEMetricsDatabase:LogPath"="C:\CsLogFiles"
-        }
-        Install-CsDatabase -ConfigureDatabases -SqlServerFqdn sqlbe01.contoso.net -DatabasePathMap $pathmap
-
+5.  このコード例では、データベースに対して定義されているパスは、– DatabasePathMap パラメーターと定義されたハッシュテーブル (すべてのデータベース (.mdf) ファイルの場合\\は "c: csdata"、すべてのログ (.ldf) ファイルに\\ついては "c: csdata" を使用します) を使って特定できます。 必要に応じて、CsDatabase からフォルダーを作成します):
+    ```powershell
+    $pathmap = @{
+    "BackendStore:BlobStore:DbPath"="C:\CsData";"BackendStore:BlobStore:LogPath"="C:\CsLogFiles"
+    "BackendStore:RtcSharedDatabase:DbPath"="C:\CsData";"BackendStore:RtcSharedDatabase:LogPath"="C:\CsLogFiles"
+    "ABSStore:AbsDatabase:DbPath"="C:\CsData";"ABSStore:AbsDatabase:LogPath"="C:\CsLogFiles"
+    "ApplicationStore:RgsConfigDatabase:DbPath"="C:\CsData";"ApplicationStore:RgsConfigDatabase:LogPath"="C:\CsLogFiles"
+    "ApplicationStore:RgsDynDatabase:DbPath"="C:\CsData";"ApplicationStore:RgsDynDatabase:LogPath"="C:\CsLogFiles"
+    "ApplicationStore:CpsDynDatabase:DbPath"="C:\CsData";"ApplicationStore:CpsDynDatabase:LogPath"="C:\CsLogFiles"
+    "ArchivingStore:ArchivingDatabase:DbPath"="C:\CsData";"ArchivingStore:ArchivingDatabase:LogPath"="C:\CsLogFiles"
+    "MonitoringStore:MonitoringDatabase:DbPath"="C:\CsData";"MonitoringStore:MonitoringDatabase:LogPath"="C:\CsLogFiles"
+    "MonitoringStore:QoEMetricsDatabase:DbPath"="C:\CsData";"MonitoringStore:QoEMetricsDatabase:LogPath"="C:\CsLogFiles"
+    }
+    Install-CsDatabase -ConfigureDatabases -SqlServerFqdn sqlbe01.contoso.net -DatabasePathMap $pathmap
+    ```
 6.  データベースとログファイルには、ターゲットデータベースサーバー上の場所と共に明示的に名前が付けられているため、サービスの種類ごとに実際のデータベースとログの場所の特定の場所を定義できます。 次の例では、特定のサービスの種類ごとにデータベースを別々のディスクに配置し、関連するログファイルを別のディスクに配置します。 次に例を示します。
     
       - すべての RTC データベースの "D\\: rtcdatabase"
@@ -216,8 +216,7 @@ _**最終更新日:** 2016-06-16_
     
     <!-- end list -->
     
-    ``` 
-    
+    ```powershell    
     $pathmap = @{
     "BackendStore:BlobStore:DbPath"="D:\RTCDatabase";"BackendStore:BlobStore:LogPath"="E:\RTCLogs"
     "BackendStore:RtcSharedDatabase:DbPath"="D:\RTCDatabase";"BackendStore:RtcSharedDatabase:LogPath"="E:\RTCLogs"

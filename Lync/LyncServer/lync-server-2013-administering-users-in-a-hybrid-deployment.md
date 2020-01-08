@@ -10,12 +10,12 @@ ms:contentKeyID: 48184381
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0dd4f53eaa611d130291b1a42c798a8d5589968c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7804aacb226d06fbf239939658b6592d438a84f9
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34841020"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971129"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,11 +53,11 @@ Microsoft Office 365 Online ポータルで利用可能なユーザー管理機�
 
   - Lync Online からオンプレミスの Lync にユーザーを戻すには、次のコマンドレットを実行します。
     
-       ```
+       ```PowerShell
         $cred=Get-Credential
        ```
     
-       ```
+       ```PowerShell
         Move-CsUser -Identity username@contoso.com -Target localpool.contoso.com -Credential $cred -HostedMigrationOverrideUrl <URL>
        ```
 

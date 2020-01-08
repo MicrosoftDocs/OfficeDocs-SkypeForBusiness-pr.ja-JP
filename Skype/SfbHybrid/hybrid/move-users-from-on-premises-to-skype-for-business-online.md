@@ -16,12 +16,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: ユーザーを Skype for Business Online に移動する方法について説明します。
-ms.openlocfilehash: 74816ae4c67f62cabad018a344b4b1800bd84444
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: ddf25614afae48ef647dc325e53ccbab8ac2e5d0
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36715895"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40963025"
 ---
 # <a name="move-users-from-on-premises-to-skype-for-business-online"></a>オンプレミスから Skype for Business Online へのユーザーの移動
 
@@ -31,7 +31,7 @@ ms.locfileid: "36715895"
  
 ## <a name="move-users-with-move-csuser"></a>Move-CsUser を使用してユーザーを移動する 
 
-Move-CsUser は、オンプレミスの Skype for Business 管理シェル PowerShell ウィンドウから入手できます。 [必要な管理者の資格情報](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)で説明されているように、オンプレミス環境と Office 365 テナントの両方に十分な特権を持っている必要があります。 両方の環境で権限を持つ1つのアカウントを使用するか、オンプレミスの資格情報を使用してオンプレミスの Skype for Business Server 管理シェルウィンドウを`-Credential`開始することができます。また、パラメーターを使用して Office 365 の資格情報を指定することもできます。必要な Office 365 管理者の役割を持つアカウント。
+Move-CsUser は、オンプレミスの Skype for Business 管理シェル PowerShell ウィンドウから入手できます。 [必要な管理者の資格情報](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)で説明されているように、オンプレミス環境と Office 365 テナントの両方に十分な特権を持っている必要があります。 両方の環境で権限を持つ単一のアカウントを使用するか、オンプレミスの資格情報を使用してオンプレミスの Skype for Business Server 管理シェルウィンドウを開始`-Credential`することができます。また、パラメーターを使用して、必要な office 365 管理者の役割を持つ office 365 アカウントの資格情報を指定することもできます。
 
 ユーザーを Move-CsUser を使用してオンラインに移行するには、次のようにします。
 
@@ -45,7 +45,7 @@ Move-CsUser は、オンプレミスの Skype for Business 管理シェル Power
 
 次のコマンドレットシーケンスを使用して、ユーザーを Skype for Business Online に移動することができ、Office 365 資格情報が別のアカウントであると仮定して、資格情報の取得を求めるプロンプトの入力として指定します。
 
-```
+```PowerShell
 $cred=Get-Credential
 $url="https://admin1a.online.lync.com/HostedMigration/hostedmigrationService.svc"
  
@@ -67,4 +67,4 @@ Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Crede
 
 ## <a name="see-also"></a>関連項目
 
-[Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/move-csuser)
+[Move-CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser)

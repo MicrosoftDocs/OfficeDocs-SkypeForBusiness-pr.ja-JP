@@ -10,12 +10,12 @@ ms:contentKeyID: 48185855
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2e6a388c602d30e6f60eac0c575d7640f63993f9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a11b24fc8d4be54f5645853c050891d3821945e4
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840462"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971220"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -58,16 +58,17 @@ _**最終更新日:** 2012-09-22_
     
       - トランスポート層セキュリティ (TLS) 接続の場合は、コマンドプロンプトで次を入力します。
         
-            $TLSRoute = New-CsStaticRoute -TLSRoute -Destination <gateway FQDN> -Port <gateway SIP listening port> -UseDefaultCertificate $true -MatchUri <destination domain>
-        
+        ```powershell
+        $TLSRoute = New-CsStaticRoute -TLSRoute -Destination <gateway FQDN> -Port <gateway SIP listening port> -UseDefaultCertificate $true -MatchUri <destination domain>
+        ```
         次に例を示します。
-        
-            $TLSRoute = New-CsStaticRoute -TLSRoute -Destination rccgateway.contoso.net -Port 5065 -UseDefaultCertificate $true -MatchUri *.contoso.net
-        
+        ```powershell
+        $TLSRoute = New-CsStaticRoute -TLSRoute -Destination rccgateway.contoso.net -Port 5065 -UseDefaultCertificate $true -MatchUri *.contoso.net
+        ```
         UseDefaultCertificate が False に設定されている場合は、TLSCertIssuer パラメーターと TLSCertSerialNumber パラメーターを指定する必要があります。 これらのパラメーターは、静的ルートで使用された証明書を発行した証明機関 (CA) の名前と、その TLS 証明書のシリアル番号を示します。 これらのパラメーターの詳細については、コマンドプロンプトで次を入力して、「Lync Server 管理シェルのヘルプ」を参照してください。
-        
-            Get-Help New-CsStaticRoute -Full
-    
+        ```powershell
+        Get-Help New-CsStaticRoute -Full
+        ```
       - 伝送制御プロトコル (TCP) 接続の場合は、コマンドプロンプトで次を入力します。
         
         <div class="">
@@ -79,12 +80,13 @@ _**最終更新日:** 2012-09-22_
         
         </div>
         
-            $TCPRoute = New-CsStaticRoute -TCPRoute -Destination <gateway IP address or FQDN> -Port <gateway SIP listening port> -MatchUri <destination domain>
-        
+        ```powershell
+        $TCPRoute = New-CsStaticRoute -TCPRoute -Destination <gateway IP address or FQDN> -Port <gateway SIP listening port> -MatchUri <destination domain>
+        ```
         次に例を示します。
-        
-            $TCPRoute = New-CsStaticRoute -TCPRoute -Destination 192.168.0.240 -Port 5065 -MatchUri *.contoso.net
-        
+        ```powershell
+        $TCPRoute = New-CsStaticRoute -TCPRoute -Destination 192.168.0.240 -Port 5065 -MatchUri *.contoso.net
+        ```
         静的ルートのオプションパラメーターには、次の既定値があります。
         
           - Enabled = True
@@ -94,16 +96,16 @@ _**最終更新日:** 2012-09-22_
           - ReplaceHostInRequestUri = False
         
         これらの既定値は変更しないことを強くお勧めします。 ただし、これらのパラメーターを変更する必要がある場合は、コマンドプロンプトで次を入力して、「Lync Server 管理シェルのヘルプ」を参照してください。
-        
-            Get-Help New-CsStaticRoute -Full
-
+        ```powershell
+        Get-Help New-CsStaticRoute -Full
+        ```
 4.  新しく作成された静的ルートを中央管理ストアで保持するには、必要に応じて次のいずれかを実行します。
     
-       ```
+       ```powershell
         Set-CsStaticRoutingConfiguration -Route @{Add=$TLSRoute}
        ```
     
-       ```
+       ```powershell
         Set-CsStaticRoutingConfiguration -Route @{Add=$TCPRoute}
        ```
 

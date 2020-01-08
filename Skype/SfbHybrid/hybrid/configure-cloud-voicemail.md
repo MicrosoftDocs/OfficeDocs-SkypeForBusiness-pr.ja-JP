@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Skype for Business Server を使用しているユーザーに対して、クラウドベースのボイスメールを実装する方法について説明します。
-ms.openlocfilehash: 7423f16e7985a063ae5a974ea6c36684bfb75e7c
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: e3b18f8048f8779eac322dece88e5919b2aa7a96
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37616077"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40963005"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>オンプレミスのユーザー用にクラウドボイスメールサービスを構成する
 
@@ -64,7 +64,7 @@ ms.locfileid: "37616077"
 たとえば、Skype for Business 管理シェルでは、次のコマンドレットにより、クラウドボイスメールがホスティングプロバイダーとして構成されます。
 
 
-```
+```PowerShell
 New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedAddressSpace $True -HostsOCSUsers $False -ProxyFqdn "exap.um.outlook.com" -IsLocal $False -VerificationLevel UseSourceVerification
 ```
 
@@ -74,7 +74,7 @@ New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedA
 
 グローバルポリシーを変更するには、組織と TenantID を更新した後、Skype for Business Server 管理シェルで次のコマンドを実行します。
 
-```
+```PowerShell
 Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemail Policy" -Destination exap.um.outlook.com -Organization YourDefaultDomain.onmicrosoft.com -Tenant “11111111-1111-1111-1111-111111111111”
 ```
 
@@ -88,7 +88,7 @@ Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemai
 
 ホスト型ボイスメールポリシーが正常に作成されたことを確認するには、次のコマンドを実行します。
 
-```
+```PowerShell
 Get-CsHostedVoicemailPolicy
 ```
 
@@ -99,7 +99,7 @@ Get-CsHostedVoicemailPolicy
 たとえば、次のコマンドを実行すると、非グローバルなホスト型ボイスメールポリシーがユーザーに割り当てられます。
 
 
-```
+```PowerShell
 Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -Identity "Tag:CloudVoiceMailUsers" 
 ```
 

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 通話データコネクタを構成する手順を説明します。これにより、skype for Business オンプレミスのテレメトリを Skype for Business Online ツールを使用して表示できるようになります。
-ms.openlocfilehash: 48af644523e9872107c814aa330d2af2d9a4272f
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: 4d472ce49a3059df7286c647b013abe321b9fd15
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328376"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40963045"
 ---
 # <a name="configure-call-data-connector"></a>通話データコネクタを構成する
 
@@ -58,13 +58,13 @@ Skype for Business Online PowerShell にログインするには、次の2つの
 
 1. コネクタを初めて有効にする場合は、次のコマンドを実行します。
 
-   ```
+   ```PowerShell
    New-CsCloudCallDataConnection | Set-CsCloudCallDataConnector -TenantId <tenant_id>
    ```
 
 2. 接続が既に存在することを示すエラーが表示された場合は、テナントの通話データ接続が既に存在することを意味します。 この場合は、次のコマンドを実行します。 
 
-   ```
+   ```PowerShell
    Get-CsCloudCallDataConnection | Set-CsCloudCallDataConnector -TenantId <tenant_id>
    ```
 
@@ -73,13 +73,13 @@ Skype for Business Online PowerShell にログインするには、次の2つの
 
 1.  コネクタを初めて有効にする場合は、次のコマンドを実行します。 
 
-    ``` 
+    ```PowerShell 
     New-CsCloudCallDataConnection 
     ```
 
 2.  接続が既に存在することを示すエラーが表示された場合は、テナントの通話データ接続が既に存在することを意味します。 この場合は、次のコマンドを実行します。 
 
-    ```
+    ```PowerShell
     Get-CsCloudCallDataConnection  
     ```
 
@@ -87,7 +87,7 @@ Skype for Business Online PowerShell にログインするには、次の2つの
 
 Skype for Business Server 管理シェルで、次のコマンドを指定します。
 
-```
+```PowerShell
 Set-CsCloudCallDataConnector -Identity Global -TenantId <tenant_id> -Token <token-copied-from-online>
 ```
 
@@ -95,17 +95,17 @@ Set-CsCloudCallDataConnector -Identity Global -TenantId <tenant_id> -Token <toke
 
 Skype for Business Server 管理シェル内から CsCloudCallDataConnectorConfiguration コマンドレットを使用して、特定のサイトまたは Skype for Business Server の展開全体に対して、Call Data Connector を有効にできます。 たとえば、次のコマンドを実行すると、グローバルスコープで呼び出しデータコネクタが有効になります。
 
-```
+```PowerShell
 Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConnector $True
 ```
 
 グローバル設定に加えて、通話データコネクタの構成設定をサイトスコープに割り当てることができます。 これにより、監視に関してさらに管理の柔軟性が得られます。 たとえば、管理者は、次の例に示されているように、Redmond サイトに対して通話データコネクタ転送を有効にして、ダブリンサイトの通話データコネクタ転送を無効にすることができます。
 
-```
+```PowerShell
 Set-CsCloudCallDataConnectorConfiguration -Identity "site:Redmond" -EnableCallDataConnector $True
 ```
 
-```
+```PowerShell
 Set-CsCloudCallDataConnectorConfiguration -Identity "site:Dublin" -EnableCallDataConnector $False
 ```
 
@@ -124,23 +124,23 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "site:Dublin" -EnableCallDat
 
 通話データコネクタを無効にするには、Skype for Business Server 管理シェルで CsCloudCallDataConnectorConfiguration コマンドレットを使用します。 たとえば、次のコマンドを実行すると、EnableCallDataConnector プロパティを $False に設定することによって、グローバルスコープの通話データコネクタが無効になります。
 
-```
+```PowerShell
 Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConnector $False
 ```
 
 呼び出しデータのクラウドへのアップロードを再開する場合は、次の例に示すように、EnableCallDataConnector プロパティを $True に戻します。
 
-```
+```PowerShell
 Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConnector $True
 ```
 
 ## <a name="view-on-premises-data-through-the-online-dashboard"></a>オンラインダッシュボードを使用してオンプレミスデータを表示する
 
- Call Data Connector が有効になっている場合は、「 [call analytics を使用して品質低下のトラブルシューティングを](https://docs.microsoft.com/skypeforbusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality)行う」および「通話品質ダッシュボードを有効にして使用する」で説明されているように、通話分析ダッシュボードまたは通話品質ダッシュボードでオンプレミスの通話データを表示できます。 [Microsoft Teams と Skype for Business Online](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard)。
+ Call Data Connector が有効になっている場合は、「通話分析を使用して、[品質低下をトラブルシューティング](https://docs.microsoft.com/skypeforbusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality)し、 [Microsoft Teams および Skype for Business Online の通話品質ダッシュボードをオンおよび使用](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard)する」で説明されているように、通話分析ダッシュボードまたは通話品質ダッシュボードでオンプレミスの通話データを表示できます。
 
 ## <a name="for-more-information"></a>関連情報
 
-コマンドレットの詳細については、「Skype for Business Server 管理シェル」の「Get-help」コマンドを使用できます。 次に例を示します。
+コマンドレットの詳細については、「Skype for Business Server 管理シェル」の「Get-help」コマンドを使用できます。 例:
 
 Get-help get-help CsCloudCallDataConnector |もっとその
 

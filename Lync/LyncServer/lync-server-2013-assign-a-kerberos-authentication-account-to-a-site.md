@@ -10,12 +10,12 @@ ms:contentKeyID: 48183929
 ms.date: 04/18/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c706f9fdd8932456a9f1617e55dc9231dbd6a84
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fb755f7e7b814d4ca643bd04ddfc0241b4d96d60
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840754"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971143"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,23 +49,23 @@ Kerberos アカウントを作成したら、それをサイトに割り当て�
 
 3.  コマンドラインで、次の2つのコマンドを実行します。
     
-       ```
+       ```powershell
         New-CsKerberosAccountAssignment -UserAccount "Domain\UserAccount"
                   -Identity "site:SiteName"
        ```          
     
-       ```
+       ```powershell
         Enable-CsTopology
        ```
     
     次に例を示します。
     
-       ```
+       ```powershell
         New-CsKerberosAccountAssignment -UserAccount "contoso\kerbauth"
                   -Identity "site:redmond"
        ```
     
-       ```
+       ```powershell
         Enable-CsTopology
        ```
     
@@ -73,15 +73,16 @@ Kerberos アカウントを作成したら、それをサイトに割り当て�
     
 
     > [!NOTE]  
-    > UserAccount パラメーターを指定するには、Domain\User 形式を使用する必要があります。 ユーザー @ ドメイン拡張子形式は、Kerberos 認証のために作成されたコンピューターオブジェクトを参照する場合はサポートされません。
+    > UserAccount パラメーターを指定するには、Domain\User 形式を使用する必要があります。 Kerberos 認証のために作成されたコンピューターオブジェクトを参照する場合、User@Domain 拡張子形式はサポートされません。
 
     
     </div>
 
 4.  **オプション**: [Lync Server 2013 で WEB サービスの URL を変更](lync-server-2013-change-the-web-services-url.md)すると、WEB サイトの上書き FQDN (完全修飾ドメイン名) が設定されている可能性があります。 その場合は、この FQDN の SPN も追加する必要があります。 たとえば、FQDN が .local の場合は、次のように実行します。
     
-        setspn -S http/webservices.contoso.local kerbauth
-
+    ```console
+    setspn -S http/webservices.contoso.local kerbauth
+    ```
 5.     
     <div class="">
     
