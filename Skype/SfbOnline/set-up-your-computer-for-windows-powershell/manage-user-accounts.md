@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Windows PowerShell で、組織の Skype for Business Online ユーザーに関する情報を取得するには、Windows PowerShell でユーザーの取得コマンドレットを使用します。
-ms.openlocfilehash: 973529682224231e997e3900664fb5163156dfc3
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: a61d698b5218c37c786bdba9ab7f7711e9ab47b4
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221765"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989242"
 ---
 # <a name="manage-user-accounts"></a>ユーザー アカウントを管理する
 
@@ -47,19 +47,19 @@ ms.locfileid: "35221765"
 
 Skype for Business Online が有効になっているすべてのユーザーに関する情報を取得するには、追加のパラメーターを指定せずに、 [Csonline ユーザー](https://go.microsoft.com/fwlink/p/?linkid=849603)コマンドレットを呼び出します。
 
-```
+```PowerShell
 Get-CsOnlineUser
 ```
 
 ランダムに選択された1人のユーザーに関する情報を返すには (たとえば、テスト目的でこのアカウントを使用する場合など)、" **Csonline ユーザー** " コマンドレットを呼び出し、 _resultsize_パラメーターを1に設定します。
 
-```
+```PowerShell
 Get-CsOnlineUser -ResultSize 1
 ```
 
-これにより**** 、組織内のユーザー数に関係なく、1人のユーザーの情報が返されます。 5人のユーザーの情報を返すには、 _Resultsize_パラメーターの値を5に設定します。
+これにより **、組織**内のユーザー数に関係なく、1人のユーザーの情報が返されます。 5人のユーザーの情報を返すには、 _Resultsize_パラメーターの値を5に設定します。
 
-```
+```PowerShell
 Get-CsOnlineUser -ResultSize 5
 ```
 
@@ -68,19 +68,19 @@ Get-CsOnlineUser -ResultSize 5
 
 [Csonline ユーザー](https://go.microsoft.com/fwlink/p/?linkid=849603)コマンドレットを呼び出すと、複数の方法で特定のユーザーアカウントを参照できます。 ユーザーの Active Directory ドメインサービス (AD DS) の表示名を使用できます。
 
-```
+```PowerShell
 Get-CsOnlineUser -Identity "Ken Myer"
 ```
 
 ユーザーの SIP アドレスを使用できます。
 
-```
+```PowerShell
 Get-CsOnlineUser -Identity "sip:kenmyer@litwareinc.com"
 ```
 
 ユーザーのユーザープリンシパル名 (UPN) を使うことができます。
 
-```
+```PowerShell
 Get-CsOnlineUser -Identity "kenmyer@litwareinc.com"
 ```
 
@@ -89,19 +89,19 @@ Get-CsOnlineUser -Identity "kenmyer@litwareinc.com"
 
 既定では、[ユーザーの取得](https://technet.microsoft.com/library/2bfafd70-a7d9-4308-a353-5ecf44249b53.aspx)コマンドレットによって、Skype For business Online のユーザーアカウントごとに膨大な量の情報が返されます。 その情報の一部のみを対象としている場合は、返されるデータを**オブジェクトの選択**コマンドレットにパイプします。 たとえば、このコマンドは、ユーザー Ken Myer のすべてのデータを返し、次に、**オブジェクトの選択**コマンドレットを使用して、表示される情報を KEN の AD DS 表示名とダイヤルプランに制限します。
 
-```
+```PowerShell
 Get-CsOnlineUser -Identity "Ken Myer" | Select-Object DisplayName, DialPlan
 ```
 
 次のコマンドは、すべてのユーザーの表示名とダイヤルプランを返します。
 
-```
+```PowerShell
 Get-CsOnlineUser | Select-Object DisplayName, DialPlan
 ```
 
 Skype for Business Online のユーザーアカウントのプロパティを確認するには、次のコマンドを使用します。
 
-```
+```PowerShell
 Get-CsOnlineUser | Get-Member
 ```
 
@@ -110,11 +110,11 @@ Get-CsOnlineUser | Get-Member
 
 [ユーザーのアクセス](https://go.microsoft.com/fwlink/p/?linkid=849603)コマンドレットと_Ldapfilter_または_filter_パラメーターを使用することで、対象となるユーザーのセットに関する情報を簡単に返すことができます。 たとえば、このコマンドは、財務部門で仕事をしているすべてのユーザーを返します。
 
-```
+```PowerShell
 Get-CsOnlineUser -LdapFilter "department=Finance"
 ```
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [Windows PowerShell を使用して skype for business online 管理用にコンピューターをセットアップする](set-up-your-computer-for-windows-powershell.md)
 
 

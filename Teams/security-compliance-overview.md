@@ -17,12 +17,12 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: da0e576bf299bcd4c5362e7055cd843805b783dc
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: 95f8910005121faceb261a399ed64a4f68e5cad4
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968178"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40988802"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Microsoft Teams のセキュリティとコンプライアンスの概要
 ======================================================
@@ -31,7 +31,7 @@ Microsoft Teams は、お客様の期待に応える高度セキュリティお�
 
 Teams は Tier D 準拠です。これにより、ISO 27001、ISO 27018、SSAE16 SOC 1 および SOC 2、HIPAA、EU モデル契約条項 (EUMC) といった標準に対応します。Microsoft コンプライアンス フレームワークにおいて、Microsoft は Office 365 のアプリケーションとサービスを 4 つのカテゴリに分類しています。各カテゴリは、そのカテゴリのリストに記載されるために Office 365 サービスや関連するマイクロソフトのサービスが満たす必要のある、特定のコンプライアンス コミットメントによって定義されます。
 
-業界をリードするコンプライアンスへの取り組みを実施しているコンプライアンス カテゴリ C および D のサービスは、既定で有効になっています。カテゴリ A と B のサービスでは、組織全体に対してオンまたはオフにする制御が用意されています。詳細については、「[Compliance Framework for Industry Standards and Regulations (業界の規格と規制のコンプライアンス フレームワーク)](https://download.microsoft.com/download/B/2/7/B27B3EF3-8849-4C18-8BA4-5AD755728620/Compliance%20Framework_customer%20guidance.pdf)」をご覧ください。Teams はクラウド セキュリティ アライアンス (CSA) にも準拠しています。
+業界をリードするコンプライアンスへの取り組みを実施しているコンプライアンス カテゴリ C および D のサービスは、既定で有効になっています。カテゴリ A と B のサービスでは、組織全体に対してオンまたはオフにする制御が用意されています。詳細については、「[Compliance Framework for Industry Standards and Regulations (業界の規格と規制のコンプライアンス フレームワーク)](https://download.microsoft.com/download/1/4/3/1434ABAB-B8E9-412D-8C3A-187B5FCB7A2F/Compliance%20Framework%20document.pdf)」をご覧ください。Teams はクラウド セキュリティ アライアンス (CSA) にも準拠しています。
 
 Teams はチーム全体および組織全体の 2 要素認証、Active Directory を介したシングル サインオン、移動中および静止中のデータの暗号化も実施します。 ファイルは SharePoint に格納され、SharePoint 暗号化が適用されます。 メモは OneNote に格納され、OneNote 暗号化が適用されます。 OneNote データはチームの SharePoint サイトに格納されます。 Wiki タブを使用してノートを取ることもできます。また、その内容もチームの SharePoint サイトに格納されます。
 
@@ -79,7 +79,7 @@ Office 365 のセキュリティとコンプライアンスの詳細について
 
 ## <a name="legal-hold"></a>訴訟ホールド
 
-訴訟中、裁判での証拠として使用できるように、ユーザー (管理人) または Teams に関連付けられているすべてのデータを変わることなく保存されるよう要求される場合がよくあります。 これは、ユーザー (ユーザー メールボックス) または Teams を訴訟ホールドの状況に置くことによって、達成されます。 Teams 内の任意のチームがインプレース ホールド (対象のクエリまたはフィルタされたコンテンツ経由の、メールボックスまたはサイト コレクションのサブセット)、または訴訟ホールド (メールボックスまたはサイト コレクション全体) になると、ホールドがグループのメールボックスにも適用されます。 これにより、エンド ユーザーが、グループ メールボックスに取り込まれたチャネルのメッセージを削除または編集しても、そのコンテンツの不変のコピーが維持され、電子情報開示の検索で利用できるようになります。 訴訟ホールドの場合は、通常、電子情報開示ケースのコンテキスト内に適用されます。 Office 365 セキュリティ/コンプライアンス センターでの保持およびホールドの詳細について知るには、[この](https://support.office.com/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a)ヘルプの記事をご覧ください。 
+多くの場合、訴訟の証拠として使用できるように、ユーザー (カストディアン) またはチームに関連付けられたすべてのデータを不変として保持する必要があります。 これは、ユーザー (ユーザー メールボックス) または Teams を訴訟ホールドの状況に置くことによって、達成されます。 Teams 内の任意のチームがインプレース ホールド (対象のクエリまたはフィルタされたコンテンツ経由の、メールボックスまたはサイト コレクションのサブセット)、または訴訟ホールド (メールボックスまたはサイト コレクション全体) になると、ホールドがグループのメールボックスにも適用されます。 これにより、エンド ユーザーが、グループ メールボックスに取り込まれたチャネルのメッセージを削除または編集しても、そのコンテンツの不変のコピーが維持され、電子情報開示の検索で利用できるようになります。 訴訟ホールドの場合は、通常、電子情報開示ケースのコンテキスト内に適用されます。 Office 365 セキュリティ/コンプライアンス センターでの保持およびホールドの詳細について知るには、[この](https://support.office.com/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a)ヘルプの記事をご覧ください。 
 
 ## <a name="information-protection-architecture-for-microsoft-teams"></a>Microsoft Teams の情報保護アーキテクチャ。 
 
@@ -102,13 +102,13 @@ Office 365 のセキュリティとコンプライアンスの詳細について
 
 | 情報保護機能 | Office 365 Business Essentials | Office 365 Business Premium | Office 365 Enterprise E1 | Office 365 Enterprise E3/E4 | Office 365 Enterprise E5 |
 |-----------------------------------|--------------------------------|-----------------------------|--------------------------|-----------------------------|--------------------------|
-|              アーカイブ              |               -                |              -              |            -             |             Yes             |           Yes            |
-|        インプレース電子情報開示 (eDiscovery)        |               -                |              -              |            -             |             Yes             |           Yes            |
+|              アーカイブ              |               -                |              -              |            -             |             あり             |           あり            |
+|        インプレース電子情報開示 (eDiscovery)        |               -                |              -              |            -             |             あり             |           あり            |
 |        Advanced eDiscovery        |               -                |              -              |            -             |              -              |           はい            |
-|            訴訟ホールド             |               -                |              -              |            -             |             Yes             |           Yes            |
-|     コンプライアンスのコンテンツ検索     |               -                |             Yes             |           Yes            |             Yes             |           Yes            |
-|      監査と報告       |              はい               |             Yes             |           Yes            |             Yes             |           Yes            |
-|       条件付きアクセス\*        |              はい               |             Yes             |           Yes            |             Yes             |           はい            |
+|            訴訟ホールド             |               -                |              -              |            -             |             あり             |           あり            |
+|     コンプライアンスのコンテンツ検索     |               -                |             あり             |           あり            |             あり             |           あり            |
+|      監査と報告       |              はい               |             あり             |           あり            |             あり             |           あり            |
+|       条件付きアクセス\*        |              はい               |             あり             |           あり            |             あり             |           はい            |
 
 > [!NOTE]
 > \*条件付きアクセスには追加のライセンスが必要

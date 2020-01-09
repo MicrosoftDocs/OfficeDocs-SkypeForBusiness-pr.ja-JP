@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 3d293a8a-e182-4547-8b06-2603c3c77329
 description: '概要: Skype for Business Server のユーザーのダイヤルイン会議の PIN をロックまたはロック解除します。'
-ms.openlocfilehash: 600ddcb507c7cb0074a651580c684590fa283602
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bbf082fd85780972387cf014573e22996a9edcf0
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294281"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992314"
 ---
 # <a name="lock-or-unlock-a-user-pin-in-skype-for-business-server"></a>Skype for Business Server でユーザー PIN をロックまたはロック解除する
  
@@ -94,7 +94,7 @@ Windows PowerShell を使用して、ユーザーピンのロックとロック�
 
 - ユーザーの PIN をロックするには、Lock-CsClientPin コマンドレットを使用します。 次に例を示します。
     
-  ```
+  ```PowerShell
   Lock-CsClientPin -Identity "Ken Myer"
   ```
 
@@ -102,7 +102,7 @@ Windows PowerShell を使用して、ユーザーピンのロックとロック�
 
 - ユーザーの PIN のロックを解除するには、[ロック解除] コマンドレットを使用します。 次に例を示します。
     
-  ```
+  ```PowerShell
   Unlock-CsClientPin -Identity "Ken Myer"
   ```
 

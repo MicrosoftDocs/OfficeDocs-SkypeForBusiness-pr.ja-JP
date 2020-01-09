@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3248b320-a552-400a-8485-6891af4eb0f3
 description: '概要: Skype for Business Server の応答グループのアプリケーションについて説明します。'
-ms.openlocfilehash: 6154a1e2d2407f3e7fe6f8eaf9527567724220fd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8d178357646fb8f3bfad82ecdedd81ce19a8107a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279845"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991732"
 ---
 # <a name="response-group-usage-report-in-skype-for-business-server"></a>Skype for Business Server の応答グループの使用状況レポート
 
@@ -70,7 +70,7 @@ ms.locfileid: "34279845"
 
 特定のワークフローの使用統計を確認するには、ワークフロー URI ボックスでワークフロー URI を入力します。 前述のように、ワークフロー URI (ワークフローに関連付けられた SIP アドレス) はレポートに表示されません。 つまり、ワークフローの URI を確認するには他の方法が必要です。 これを行う方法の1つは、Windows PowerShell と Skype for Business Server の管理シェルを使うことです。 たとえば、次のコマンドはすべての応答グループ ワークフローの URI を戻します。
 
-```
+```PowerShell
 Get-CsRgsWorkflow | Select-Object Name, PrimaryUri
 ```
 
@@ -86,7 +86,7 @@ New Ad Campaign                 sip:newads@litwareinc.com
 
 このコマンドは、"New Ad Campaign" という名前の単一のワークフローについての情報を戻します。
 
-```
+```PowerShell
 Get-CsRgsWorkflow -Name "New Ad Campaign" | Select-Object Name, PrimaryUri
 ```
 

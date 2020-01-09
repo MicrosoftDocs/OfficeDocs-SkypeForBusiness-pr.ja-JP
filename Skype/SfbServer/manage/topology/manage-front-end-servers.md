@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: '概要: Skype for Business Server でフロントエンドサーバーを追加、削除、更新、または更新する方法について説明します。'
-ms.openlocfilehash: 13af9198dfb83d14ad1d86885419fc9add29e07d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3689b869ba715f431ebcf0b537b4106a66177c62
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275158"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991532"
 ---
 # <a name="manage-front-end-servers-in-skype-for-business-server"></a>Skype for Business Server でフロントエンドサーバーを管理する
  
@@ -37,7 +37,7 @@ ms.locfileid: "34275158"
 
 1. フロントエンドサーバーを削除する場合は、まず、それらのサーバーへの新しい接続を停止します。 これを実行するには、次のコマンドレットを使用できます。
     
-   ```
+   ```PowerShell
    Stop-CsWindowsService -Graceful
    ```
 
@@ -53,7 +53,7 @@ ms.locfileid: "34275158"
   
 4. フロントエンドプール内のサーバーの数を次のいずれかの方法で変更した場合は、次のコマンドレットを入力してプールをリセットします。 CsPoolRegistrarState-ResetType FullReset-PoolFqdn 
     
-   ```
+   ```PowerShell
     Reset-CsPoolRegistrarState -ResetType FullReset -PoolFqdn  <PoolFQDN>
    ```
 
@@ -67,7 +67,7 @@ ms.locfileid: "34275158"
     
 5. 以下のコマンドレットを入力してプールを再起動します。
     
-   ```
+   ```PowerShell
    Start-CsPool
    ```
 
@@ -79,19 +79,19 @@ ms.locfileid: "34275158"
 
 1. 次のコマンドレットを入力します。
     
-   ```
+   ```PowerShell
    Get-CsPoolFabricState -PoolFqdn <PoolFQDN>
    ```
 
      このコマンドレットで不足しているレプリカが示された場合は、次のコマンドレットでプールを復元してから、パッチを適用してください。
     
-   ```
+   ```PowerShell
    Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery
    ```
 
 2. パッチを適用する最初のサーバーで、次のコマンドレットを実行します。
     
-   ```
+   ```PowerShell
    Invoke-CsComputerFailOver -ComputerName <Front End Server to be patched>
    ```
 
@@ -101,7 +101,7 @@ ms.locfileid: "34275158"
     
 4. アップグレードしたサーバーで、次のコマンドレットを実行します。
     
-   ```
+   ```PowerShell
    Invoke-CsComputerFailBack -ComputerName <Front End Server to be patched>
    ```
 

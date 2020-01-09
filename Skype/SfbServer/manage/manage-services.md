@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c99ee134-8294-4481-bb4e-710fe85a39ca
 description: この記事では、Skype for Business Server のトポロジで実行されているサービスを管理する方法について説明します。
-ms.openlocfilehash: 9d1a79226422da57eee36e27590769f76b89b560
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 76628840c37bdb0eb85d58887d8bfdcedd20f27c
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279621"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991672"
 ---
 # <a name="manage-services-for-skype-for-business-server"></a>Skype for Business Server のサービスを管理する
 
@@ -59,7 +59,7 @@ Skype for Business Server コントロールパネルを使用して、Skype for
 
 コンピューターでサービスの状態を表示するには、Skype for Business Server 管理シェルで次のようなコマンドを入力し、enter キーを押します。
   
-```
+```PowerShell
 Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object RoleName, Status
 ```
 
@@ -104,7 +104,7 @@ Skype for Business Server コントロールパネルを使用すると、特定
 
 1. RTCUniversalServerAdmins グループのメンバーであるか (または同等のユーザー権限を持っている)、または CsServerAdministrator または CsAdministrator の役割に割り当てられているユーザーアカウントで、Skype for Business Server を展開したネットワーク内のコンピューターにログオンします。. 次のようなコマンドを実行すると、CsServerAdministrator または CsAdministrator の RBAC 役割が割り当てられているかどうかを確認できます。
     
-   ```
+   ```PowerShell
    Get-CsAdminRoleAssignment -Identity "kenmyer"
    ```
 

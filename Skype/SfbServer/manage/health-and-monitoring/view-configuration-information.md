@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 77bd553f-da89-4c84-a5d0-2f7e91d04383
 description: '概要: Skype for Business Server で通話の詳細記録 (CDR) を使用する方法について説明します。'
-ms.openlocfilehash: e0aed0c26672b83cb223ba763eb6224025d68118
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 976f61ac98cb02a0cd69750a581bfa5190156ff7
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279649"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991682"
 ---
 # <a name="view-cdr-configuration-information-in-skype-for-business-server"></a>Skype for Business Server で CDR 構成情報を表示する
  
@@ -39,7 +39,7 @@ CDR 構成設定は、Windows PowerShell と CsCdrConfiguration コマンドレ�
 
 - すべての CDR 構成設定に関する情報を表示するには、Skype for Business Server 管理シェルで次のコマンドを入力して、enter キーを押します。
     
-  ```
+  ```PowerShell
   Get-CsCdrConfiguration
   ```
 

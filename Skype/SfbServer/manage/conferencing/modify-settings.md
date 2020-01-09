@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11d1f9ac-0029-429b-be2b-d7591abfc192
 description: '概要: Skype for Business Server で会議構成の設定を変更する方法について説明します。'
-ms.openlocfilehash: 6e2566a5bc48e081c1912753586aef2213e1c727
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2e9d8a737a2bfc48cdcbe39540a22e4c236003b3
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280398"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992854"
 ---
 # <a name="modify-meeting-configuration-settings-in-skype-for-business-server"></a>Skype for Business Server の会議構成の設定を変更する
  
@@ -43,7 +43,7 @@ ms.locfileid: "34280398"
   
 次の例に示すコマンドは、Redmond サイト (-Identity site:Redmond) に割り当てられている会議構成設定を変更します。この場合、DesignateAsPresenter プロパティの値が "Everyone" に設定されています。
   
-```
+```PowerShell
 Set-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone"
 ```
 

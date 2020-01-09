@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6d8f9ff8-2a04-4175-9bf0-1ec5d78fd015
 description: '概要: Skype for Business Server で会議の構成設定を作成する方法について説明します。'
-ms.openlocfilehash: 3d4f986b850b309d50967da9126b8b4eea08a166
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bcf32d3e250a3bc8b29d34e4c2fd56173dcfd5a6
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34293845"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991882"
 ---
 # <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>Skype for Business Server で会議の構成設定を作成する
  
@@ -69,7 +69,7 @@ ms.locfileid: "34293845"
   
 次のコマンドは、Redmond サイト用に会議構成設定の新しいセットを作成しています。
   
-```
+```PowerShell
 New-CsMeetingConfiguration -Identity "site:Redmond"
 ```
 
@@ -77,13 +77,13 @@ New-CsMeetingConfiguration -Identity "site:Redmond"
   
 異なるプロパティ値を使用する設定を作成するには、適切なパラメーターとパラメーター値を指定します。たとえば、会議の全員が発表者となることを既定で許可する会議構成設定のセットを作成するには、次のようなコマンドを使用します。
   
-```
+```PowerShell
 New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone"
 ```
 
 複数のパラメーターを含めることにより複数のプロパティ値を設定できます。たとえば、次のコマンドは、会議の全員が発表者となることを許可し、さらに PSTN ユーザーは会議に対して正式に承認されるまで必ずロビーで待機するように設定しています。
   
-```
+```PowerShell
 New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone" -PSTNUCallersBypassLobby $True
 ```
 

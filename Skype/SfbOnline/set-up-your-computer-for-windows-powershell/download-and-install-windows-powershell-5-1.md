@@ -19,12 +19,12 @@ ms.custom:
 - PowerShell
 - LIL_Placement
 description: Windows PowerShell 5.1 をダウンロード、インストール、および使用して、Skype for Business Online に接続するリモート PowerShell セッションを作成します。
-ms.openlocfilehash: 5afca0ef1fd5d7437c3974de1424a664c99ab1a1
-ms.sourcegitcommit: 9c54fd0a51ece8624155dc543d5df922834aa51e
+ms.openlocfilehash: 190e1cdcbdd15018e576a4da8a50410cfb062a71
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "35701558"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992957"
 ---
 # <a name="download-and-install-windows-powershell-51"></a>Windows PowerShell 5.1 をダウンロードしてインストールする
 
@@ -36,7 +36,7 @@ Windows 10 記念の更新プログラムまたは Windows Server 2016 を使用
     
 2. PowerShell コンソールで、次のコマンドを入力してから ENTER を押します。
     
-   ```
+   ```PowerShell
    Get-Host | Select-Object Version
    ```
 
@@ -65,17 +65,17 @@ Windows 8 を実行している場合は、代わりにこの手順を完了し�
 3. [ **ユーザー アカウント制御**] ダイアログ ボックスが表示される場合、[ **はい**] をクリックして管理者の資格情報の下で PowerShell を実行することを確認します。
     
 PowerShell が実行されている状態になったら、リモート スクリプトの実行を許可するように実行ポリシーを変更する必要があります。PowerShell コンソールで、次のコマンドを入力してから ENTER を押します。
-```
+```PowerShell
 Set-ExecutionPolicy RemoteSigned -Force
 ```
    
  
 > [!NOTE]
-> 上のコマンドを実行すると、次のエラーメッセージが表示されることがあります。 > *set-executionpolicy: Registry\\key'HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\PowerShell\\1 ShellIds\\Micrsoft ' PowerShell ' が拒否されました。* このエラーメッセージは、通常、管理者の資格情報で PowerShell を実行していない場合に発生します。 PowerShell のセッションを終了し、管理者として新しいセッションを開始します。
+> 上記のコマンドを実行すると、次のエラーメッセージが表示されることがあります: > *set-executionpolicy: レジストリキーへ\\の\\アクセス\\HKEY_LOCAL_MACHINE\\、\\Microsoft\\powershell 1 ShellIds micrsoft soft soft soft soft soft soft soft soft soft the powershell ' が拒否さ*れています。 このエラーメッセージは、通常、管理者の資格情報で PowerShell を実行していない場合に発生します。 PowerShell のセッションを終了し、管理者として新しいセッションを開始します。
  
 実行ポリシーが正しく構成されていることを確認するには、PowerShell プロンプトで次を入力してから ENTER を押します。
   
-```
+```PowerShell
 Get-ExecutionPolicy
 ```
 
@@ -103,7 +103,7 @@ Windows Management Framework 5.1 をインストールするには、「 [WMF 5.
     
 PowerShell コンソールが表示されたら、WinRM サービスが実行中で正しく構成されていることを検証する必要があります。サービスが実行されていることを検証するには、次のコマンドを PowerShell プロンプトに入力して ENTER を押します。
   
-```
+```PowerShell
 Get-Service winrm
 ```
 
@@ -117,13 +117,13 @@ Running  winrm              Windows Remote Management (WS-Manag...
 
 サービスの状態が「実行中」を表すものでない場合は、次のコマンドを入力して ENTER を押すことによって WinRM サービスを開始します。
   
-```
+```PowerShell
 Start-Service winrm
 ```
 
 サービスが開始した後、次のコマンドを実行して WinRM が基本認証を使用していることを確認します。
   
-```
+```PowerShell
 winrm set winrm/config/client/auth '@{Basic="True"}'
 ```
 
@@ -143,7 +143,7 @@ Auth
   
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [Windows PowerShell 用にコンピューターをセットアップする](set-up-your-computer-for-windows-powershell.md) 
 
   

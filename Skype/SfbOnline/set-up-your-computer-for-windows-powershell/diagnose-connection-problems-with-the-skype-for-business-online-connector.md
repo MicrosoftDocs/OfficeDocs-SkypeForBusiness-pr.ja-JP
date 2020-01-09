@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Troubleshoot creating a remote PowerShell session to connect to Skype for Business Online, including Import-Module, concurrent shell, Live ID, and permission errors.
-ms.openlocfilehash: 267580b8a78ce0c0002e6830ba06cc4ae031e42c
-ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
+ms.openlocfilehash: 38f6195a6c8e0c2a5f963d476e26abeb46f6ff4f
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "34667384"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991322"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Skype for Business Online Connector との接続の問題を診断する
 
@@ -53,10 +53,10 @@ ms.locfileid: "34667384"
 
 PowerShell 実行ポリシーは、PowerShell コンソールに読み込む構成ファイルやそのコンソールからユーザーが実行できるスクリプトを決定するのに役立ちます。実行ポリシーを RemoteSigned に設定していない場合、Skype for Business Online Connector モジュール をインポートすることはできません。この設定を行っていない場合にモジュールをインポートしようとすると、次のエラー メッセージが表示されます。
   
-- **エラー**:<em>インポート-モジュール: ファイル C:\\Program Files\\共通ファイル\\Microsoft Lync Server 2013\\モジュール\\LyncOnlineConnector\\LyncOnlineConnectorStartup が実行されているため読み込めません。このシステムではスクリプトが無効になっています。詳細については、「 https://go.microsoft.com/fwlink/?LinkID=135170about_Execution_Policies」を参照してください。</em>
+- **エラー**:<em>インポート-モジュール: ファイル C:\\プログラムファイル\\共通ファイル\\Microsoft Lync Server 2013\\モジュール\\LyncOnlineConnector\\LyncOnlineConnectorStartup は、このシステムで実行中のスクリプトが無効になっているため、読み込めません。詳細については、「 https://go.microsoft.com/fwlink/?LinkID=135170about_Execution_Policies」を参照してください。</em>
 
 - **解決策**: この問題を解決するには、管理者として PowerShell を起動し、次のコマンドを実行します。
-    ```
+    ```PowerShell
     Set-ExecutionPolicy RemoteSigned
     ```
     実行ポリシーの詳細については、「[実行ポリシーについて](https://go.microsoft.com/fwlink/?LinkID=135170)」を参照してください。
@@ -78,11 +78,11 @@ Skype for Business Online Connector モジュール は、Windows PowerShell 3.0
   - **エラー**: *Get-cswebticket: live id サーバーへの接続に失敗しました。プロキシが有効になっていることを確認するか、マシンに live id サーバへのネットワーク接続があることを確認します。*
 
 - **解決策**: 多くの場合、このエラーは Microsoft Online Services サインインアシスタントが実行されていないことを意味します。 このサービスの状況を確認するには、PowerShell プロンプトから次のコマンドを実行します。 
-    ```
+    ```PowerShell
     Get-Service "msoidsvc"
     ```
     サービスが実行していない場合は、このコマンドを使用して開始します。
-    ```
+    ```PowerShell
     Start-Service "msoidsvc"
     ```
 
@@ -145,7 +145,7 @@ PowerShell を使用して Skype for Business Online を管理するには、テ
 
 - **解決策**: この問題を解決するには、1つまたは複数の以前の接続を閉じる方法しかありません。 Skype for Business Online セッションが終了したら、 **Remove-PSSession** コマンドレットを使用してそのセッションを切断することをお勧めします。 そうすることにより、この問題が発生することを防ぐことができます。  
  
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [Windows PowerShell を使用して skype for business online 管理用にコンピューターをセットアップする](set-up-your-computer-for-windows-powershell.md)
 
   

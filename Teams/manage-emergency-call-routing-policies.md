@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams で緊急通話ルーティングポリシーを使用および管理する方法について説明します。
 f1keywords: ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: 4520bc1d9cc6a4e84a3702e32db859b784ae02bc
-ms.sourcegitcommit: f2c7626dbef4ed250b9a937a9b56d46fe2e2039e
+ms.openlocfilehash: 996ac202d837b4cfb253a2809880ce0907b33c6c
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/12/2019
-ms.locfileid: "39998805"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992714"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>Microsoft Teams で緊急通話ルーティングポリシーを管理する
 
@@ -51,9 +51,9 @@ ms.locfileid: "39998805"
     > [!NOTE]
     > ダイヤル文字列とダイヤルマスクは、ポリシー内で一意である必要があります。 つまり、ポリシーの場合、複数の緊急電話番号を定義できますが、ダイヤルする文字列に複数のダイヤルマスクを設定することはできますが、各ダイヤル文字列とダイヤルマスクは1回のみ使用する必要があります。
 
-6. [**保存**] をクリックします。
+6. **[保存]** をクリックします。
 
-### <a name="using-powershell"></a>PowerShell を使用する
+### <a name="using-powershell"></a>PowerShell を使用する場合
 
 「[新規-CsTeamsEmergencyCallRoutingPolicy」を](https://docs.microsoft.com/powershell/module/skype/new-csteamsemergencycallroutingpolicy)参照してください。
 
@@ -67,7 +67,7 @@ ms.locfileid: "39998805"
 2. ポリシー名の左側をクリックしてポリシーを選択し、[**編集**] をクリックします。
 3. 必要な変更を加えて、[**保存**] をクリックします。
 
-### <a name="using-powershell"></a>PowerShell を使用する
+### <a name="using-powershell"></a>PowerShell を使用する場合
 
 「 [Set-CsTeamsEmergencyCallRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsemergencycallroutingpolicy)」を参照してください。
 
@@ -89,7 +89,7 @@ ms.locfileid: "39998805"
 4. [**ユーザーの管理**] ウィンドウで、[表示名] または [ユーザー名] でユーザーを検索し、名前を選択して [**追加**] を選択します。 追加するユーザーごとに、この手順を繰り返します。
 5. ユーザーの追加が完了したら、[**保存**] をクリックします。
 
-### <a name="using-powershell"></a>PowerShell を使用する
+### <a name="using-powershell"></a>PowerShell を使用する場合
 
 #### <a name="assign-a-custom-emergency-call-routing-policy-to-a-user"></a>ユーザーにカスタム緊急通話ルーティングポリシーを割り当てる
 
@@ -105,15 +105,15 @@ ms.locfileid: "39998805"
 > 「[単一の Windows PowerShell ウィンドウですべての Office 365 サービスに接続する](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)」の手順に従って、必ず最初に Azure Active Directory PowerShell for Graph モジュールと Skype for Business PowerShell モジュールに接続してください。
 
 特定のグループの GroupObjectId を取得します。
-```
+```PowerShell
 $group = Get-AzureADGroup -SearchString "Contoso HR"
 ```
 指定したグループのメンバーを取得します。
-```
+```PowerShell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
 グループ内のすべてのユーザーを特定のチームポリシーに割り当てます。 この例では、HR 緊急通話ルーティングポリシーが使用されています。
-```
+```PowerShell
 $members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "HR Emergency Call Routing Policy" -Identity $_.UserPrincipalName}
 ``` 
 グループ内のメンバー数によっては、このコマンドの実行に数分かかる場合があります。
@@ -124,7 +124,7 @@ $members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "HR Emergenc
 
 次の例は、緊急通話ルーティングポリシー1と呼ばれるポリシーを Site1 サイトに割り当てる方法を示しています。
 
-```
+```PowerShell
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Emergency Call Routing Policy 1"
 ```
 

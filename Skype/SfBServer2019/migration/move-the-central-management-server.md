@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype for Business Server 2019 に移行した後は、従来のサーバーを削除する前に、中央管理サーバーを Skype for Business Server 2019 フロントエンドサーバーまたはプールに移動する必要があります。
-ms.openlocfilehash: 0e13dab272a60967c0ccc676a47954b75170eeb3
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: b6a2dd08949b5b15370f27e1da936009048982f6
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37434942"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40990932"
 ---
 # <a name="move-the-legacy-central-management-server-to-skype-for-business-server-2019"></a>従来のサーバーの全体管理サーバーを Skype for Business Server 2019 に移動する
 
@@ -24,19 +24,19 @@ Skype for Business Server 2019 に移行した後、レガシサーバーを削�
   
 サーバーの全体管理サーバーが正常に移動されたら、元のフロントエンドサーバーから中央管理サーバーのデータベースを削除する必要があります。 サーバーの全体管理サーバーデータベースの削除については、「[フロントエンドプールの SQL Server データベースを削除](remove-the-sql-server-database-for-a-front-end-pool.md)する」を参照してください。
   
-Skype for Business Server 管理シェルで Windows PowerShell コマンドレット**CsManagementServer**を使用して、従来の sql server データベースから Skype For business SERVER 2019 SQL server データベースにデータベースを移動し、次のようにします。[Skype for Business Server 2019 Central Management Server] の場所を示す SCP。 
+Skype for Business Server 管理シェルで Windows PowerShell コマンドレット**CsManagementServer**を使用して、従来の sql server データベースから Skype For business SERVER 2019 SQL server データベースにデータベースを移動します。次に、Skype For business Server 2019 Central Management Server の場所を指すように SCP を更新します。 
   
 このセクションの手順を使用して、中央管理サーバーを移動する前に、Skype for Business Server 2019 フロントエンドサーバーを準備します。
   
 ## <a name="to-prepare-an-enterprise-edition-front-end-pool"></a>Enterprise Edition フロントエンドプールを準備するには
 
-1. 中央管理サーバーを再配置する Skype for Business Server 2019 Enterprise Edition のフロントエンドプールで、Skype for Business Server 管理シェルが RTCUniversalServerAdmins のメンバーとしてインストールされているコンピューターにログオンします。 **** グループ。 また、中央管理ストアをインストールするデータベースの SQL Server データベース sysadmin ユーザー権限と権限が必要です。 
+1. 中央管理サーバーを再配置する Skype for Business Server 2019 Enterprise Edition のフロントエンドプールで、Skype for Business Server 管理シェルが**RTCUniversalServerAdmins**グループのメンバーとしてインストールされているコンピューターにログオンします。 また、中央管理ストアをインストールするデータベースの SQL Server データベース sysadmin ユーザー権限と権限が必要です。 
     
 2. Skype for Business Server 管理シェルを開きます。
     
 3. Skype for Business Server 2019 SQL Server データベースに新しい中央管理ストアを作成するには、Skype for business Server 管理シェルで次のように入力します。
     
-   ```
+   ```PowerShell
    Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your SQL Server> -SQLInstanceName <name of instance>
    ```
 
@@ -44,7 +44,7 @@ Skype for Business Server 管理シェルで Windows PowerShell コマンドレ�
     
 ## <a name="to-prepare-a-standard-edition-front-end-server"></a>Standard Edition フロントエンドサーバーを準備するには
 
-1. 中央管理サーバーを再配置する Skype for Business Server 2019 Standard Edition フロントエンドサーバーで、Skype for Business Server 管理シェルが RTCUniversalServerAdmins のメンバーとしてインストールされているコンピューターにログオンします。 **** グループ。 
+1. 中央管理サーバーを再配置する Skype for Business Server 2019 Standard Edition フロントエンドサーバーで、Skype for Business Server 管理シェルが**RTCUniversalServerAdmins**グループのメンバーとしてインストールされているコンピューターにログオンします。 
     
 2. Skype for Business Server 展開ウィザードを開きます。
     
@@ -57,7 +57,7 @@ Skype for Business Server 管理シェルで Windows PowerShell コマンドレ�
   
 5. Skype for Business Server 2019 Standard Edition のフロントエンドサーバーで新しい中央管理ストアを作成するには、Skype for business Server 管理シェルで次のように入力します。 
     
-   ```
+   ```PowerShell
    Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your Standard Edition Server> -SQLInstanceName <name of instance - RTC by default>
    ```
 
@@ -71,7 +71,7 @@ Skype for Business Server 管理シェルで Windows PowerShell コマンドレ�
     
 3. Skype for Business Server 管理シェルで、次のように入力します。 
     
-   ```
+   ```PowerShell
    Enable-CsTopology
    ```
 
@@ -80,7 +80,7 @@ Skype for Business Server 管理シェルで Windows PowerShell コマンドレ�
   
 4. Skype for Business Server 2019 フロントエンドサーバーまたはフロントエンドプールの Skype for Business Server 管理シェルで、次のように入力します。 
     
-   ```
+   ```PowerShell
    Move-CsManagementServer
    ```
 
@@ -90,17 +90,17 @@ Skype for Business Server 管理シェルで Windows PowerShell コマンドレ�
     
 7. Skype for Business server 2019 サーバーで、Skype for Business Server Deployment ウィザードを開きます。 
     
-8. Skype for Business Server の展開ウィザードで、[ **skype for Business Server システムのインストールまたは更新**] をクリックし、[**手順 2: Skype For business Server コンポーネントのセットアップまたは削除**] をクリックし、[**次へ**] をクリックして概要を確認し、[完了] をクリックします。 ****. 
+8. Skype for Business Server の展開ウィザードで、[ **skype For Business Server システムのインストールまたは更新**] をクリックし、[**手順 2: Skype For business Server コンポーネントのセットアップまたは削除**] をクリックし、[**次へ**] をクリックして概要を確認し、[**完了**] をクリックします。 
     
 9. 従来のインストールサーバーで展開ウィザードを開きます。 
     
-10. Skype for Business Server の展開ウィザードで、[ **skype for Business Server システムのインストールまたは更新**] をクリックし、[**手順 2: Skype For business Server コンポーネントのセットアップまたは削除**] をクリックし、[**次へ**] をクリックして概要を確認し、[完了] をクリックします。 ****. 
+10. Skype for Business Server の展開ウィザードで、[ **skype For Business Server システムのインストールまたは更新**] をクリックし、[**手順 2: Skype For business Server コンポーネントのセットアップまたは削除**] をクリックし、[**次へ**] をクリックして概要を確認し、[**完了**] をクリックします。 
     
 11. Skype for Business Server 2019 サーバーを再起動します。 これが必要なのは、サーバーの全体管理サーバーデータベースにアクセスするためのグループメンバーシップが変更されたためです。
     
 12. 新しい中央管理ストアでのレプリケーションが行われていることを確認するには、Skype for Business Server 管理シェルで次のように入力します。 
     
-    ```
+    ```PowerShell
     Get-CsManagementStoreReplicationStatus
     ```
 
@@ -118,13 +118,13 @@ Skype for Business Server 管理シェルで Windows PowerShell コマンドレ�
   
 3. 従来のセントラルマネジメントサーバーから全体管理ストアデータベースファイルを削除するには、次のように入力します。
     
-   ```
+   ```PowerShell
    Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn <FQDN of SQL Server> -SqlInstanceName <Name of source server>
    ```
 
     次に例を示します。
     
-   ```
+   ```PowerShell
    Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn sql.contoso.net -SqlInstanceName rtc
    ```
 

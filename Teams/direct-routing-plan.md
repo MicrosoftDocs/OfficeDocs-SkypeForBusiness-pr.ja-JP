@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: このトピックでは、Microsoft Phone システムのダイレクトルーティングを使用して、サポートされているユーザーが指定したセッションボーダーコントローラー (SBC) を Microsoft 電話システムに接続する方法について説明します。
-ms.openlocfilehash: 3fb9fcd8ec8dab78b03b408813d32292879cbec2
-ms.sourcegitcommit: 4c763a3824e6a2271d98a46d25a03c8f04ee2f74
+ms.openlocfilehash: 5b43bad6d0b8828a88ccb3ee48a85cb0c390e6a2
+ms.sourcegitcommit: 9eaa314a9e81a2a56686c035ba0292256ccb2bf5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "39257476"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "40995117"
 ---
 # <a name="plan-direct-routing"></a>ダイレクト ルーティングを計画する
 
@@ -116,6 +116,14 @@ Teams ユーザーは、1つのチームで1人のチームの通話を開始し
 電話システムのライセンスの詳細については、「office 365 および[office 365 プランのオプション](https://technet.microsoft.com/library/office-365-plan-options.aspx)[を使用して office を最大限に活用する](https://products.office.com/compare-all-microsoft-office-products?tab=2)」を参照してください。 
 
 電話システムのライセンスの詳細については、「 [Microsoft Teams のアドオンライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。 
+
+## <a name="supported-end-points"></a>サポートされるエンドポイント 
+
+エンドポイントとして使用できます。
+- Teams cleintg。 
+- 一般的なエリア電話、plese 「 [Microsoft Teams の共通エリア電話ライセンスを設定する](https://docs.microsoft.com/en-us/microsoftteams/set-up-common-area-phones)」を参照してください。 注: ダイレクトルーティングを使用して共通の市外局番を設定する場合は、通話プランのライセンスは必要ありません。
+- Skype for Business 3PIP 電話。 [Microsoft Teams を使用して、Skype For business の電話 (3PIP) のサポートを](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Skype-for-Business-phones-3PIP-support-with-Microsoft-Teams/ba-p/789351)参照してください。
+
 
 ## <a name="sbc-domain-names"></a>SBC ドメイン名
 

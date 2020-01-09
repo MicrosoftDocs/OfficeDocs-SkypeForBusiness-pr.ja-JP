@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Troubleshoot creating a remote PowerShell session to connect to Skype for Business Online, including Import-Module, concurrent shell, Live ID, and permission errors.
-ms.openlocfilehash: dac4e2007853b489345f8ea137423cbd71363d56
-ms.sourcegitcommit: 0de27096ea3c9d6f210aeb4aad31c4255c3c0244
+ms.openlocfilehash: 863593c3068136f4b2332a55d8e0c293d2acc1d8
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "37615974"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991312"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Skype for Business Online Connector との接続の問題を診断する
 
@@ -51,7 +51,7 @@ ms.locfileid: "37615974"
     
 
 > [!IMPORTANT]
-> 既定では、PowerShell セッションは60分後にタイムアウトします。 再接続するには、セッションを終了し、新しい PowerShell セッションを開始する必要があります。 新しいバージョンの[Skype For Business Online、Windows PowerShell Module (2046.123-公開 10/2/2019)](https://www.microsoft.com/download/details.aspx?id=39366)が最近開始されました。**これには**、60分を軽減する新しいコマンドレットが含まれています。タイムアウトの問題。
+> 既定では、PowerShell セッションは60分後にタイムアウトします。 再接続するには、セッションを終了し、新しい PowerShell セッションを開始する必要があります。 新しいバージョンの[Skype For Business Online、Windows PowerShell Module (2046.123-公開 10/2/2019)](https://www.microsoft.com/download/details.aspx?id=39366)が最近開始されました。これには、60分間のタイムアウトの**問題を軽減する、** 新しいコマンドレットが含まれています。
 > PowerShell セッションは再接続して認証を行い、再利用を許可します。新しいインスタンスを起動して再接続する必要はありません。
 
 
@@ -61,10 +61,10 @@ ms.locfileid: "37615974"
 
 PowerShell 実行ポリシーは、PowerShell コンソールに読み込む構成ファイルやそのコンソールからユーザーが実行できるスクリプトを決定するのに役立ちます。実行ポリシーを RemoteSigned に設定していない場合、Skype for Business Online Connector モジュール をインポートすることはできません。この設定を行っていない場合にモジュールをインポートしようとすると、次のエラー メッセージが表示されます。
   
-- **エラー**:<em>インポート-モジュール: ファイル C:\\Program Files\\共通ファイル\\Microsoft Lync Server 2013\\モジュール\\LyncOnlineConnector\\LyncOnlineConnectorStartup が実行されているため読み込めません。このシステムではスクリプトが無効になっています。詳細については、「 https://go.microsoft.com/fwlink/?LinkID=135170about_Execution_Policies」を参照してください。</em>
+- **エラー**:<em>インポート-モジュール: ファイル C:\\プログラムファイル\\共通ファイル\\Microsoft Lync Server 2013\\モジュール\\LyncOnlineConnector\\LyncOnlineConnectorStartup は、このシステムで実行中のスクリプトが無効になっているため、読み込めません。詳細については、「 https://go.microsoft.com/fwlink/?LinkID=135170about_Execution_Policies」を参照してください。</em>
 
 - **解決策**この問題を解決するには、管理者として PowerShell を起動し、次のコマンドを実行します。
-    ```
+    ```PowerShell
     Set-ExecutionPolicy RemoteSigned
     ```
     実行ポリシーの詳細については、「[実行ポリシーについて](https://go.microsoft.com/fwlink/?LinkID=135170)」を参照してください。
@@ -93,11 +93,11 @@ WinRM で基本認証を有効にする方法については[、「Windows Power
   - **エラー**: *Get-cswebticket: live id サーバーへの接続に失敗しました。プロキシが有効になっていることを確認するか、マシンに live id サーバへのネットワーク接続があることを確認します。*
 
 - **解決策**: 多くの場合、このエラーは Microsoft Online Services サインインアシスタントが実行されていないことを意味します。 このサービスの状況を確認するには、PowerShell プロンプトから次のコマンドを実行します。 
-    ```
+    ```PowerShell
     Get-Service "msoidsvc"
     ```
     サービスが実行していない場合は、このコマンドを使用して開始します。
-    ```
+    ```PowerShell
     Start-Service "msoidsvc"
     ```
 

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: '概要: Skype for Business Server を Exchange Server 2016 または Exchange Server 2013 と統合する方法については、このトピックを参照してください。'
-ms.openlocfilehash: f62ad2475fe17668e82b06b1b4a0f19b6a2ee7c8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 54a079a550b1c915d9ffc124b1608a3fd3f2a5ef
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297401"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991482"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>Skype for Business と Exchange の統合の計画
  
@@ -50,7 +50,7 @@ Skype for Business Server 用のサーバー間認証証明書の詳細につい
     
 Skype for Business Server および Exchange Server を統合するには、自動検出サービスを構成する必要があります。 自動検出サービスが構成されているかどうかを確認するには、Exchange Server 管理シェルから次のコマンドを実行して、AutoDiscoverServiceInternalUri プロパティの値を確認します。
   
-```
+```PowerShell
 Get-ClientAccessServer | Select-Object Name, AutoDiscoverServiceInternalUri | Format-List
 ```
 
@@ -58,15 +58,15 @@ Get-ClientAccessServer | Select-Object Name, AutoDiscoverServiceInternalUri | Fo
   
 autodiscover の URI は、次のようなコマンドを実行すると割り当てられます。
   
-```
+```PowerShell
 Get-ClientAccessServer | Set-ClientAccessServer -AutoDiscoverServiceInternalUri "https://autodiscover.litwareinc.com/autodiscover/autodiscover.xml"
 ```
 
 自動検出サービスの詳細については、「[自動検出サービス](https://go.microsoft.com/fwlink/p/?LinkId=268542)」を参照してください。
   
-自動検出サービスの構成が完了したら、Skype for Business Server OAuth 構成の設定を変更する必要があります。これにより、Skype for Business Server が自動検出サービスの場所を把握することができます。 Skype for Business Server の OAuth 構成設定を変更するには、Skype for Business Server 管理シェルで次のコマンドを実行します。 このコマンドを実行する場合は、Exchange サーバーで実行されている自動検出サービスの URI を指定していることを確認し**ます**。また、自動検出を使用して、(xml ファイルを示す)**自動**検出ではなく、サービスの場所を指すようにする必要があります。サービスによって使用される):
+自動検出サービスの構成が完了したら、Skype for Business Server OAuth 構成の設定を変更する必要があります。これにより、Skype for Business Server が自動検出サービスの場所を把握することができます。 Skype for Business Server の OAuth 構成設定を変更するには、Skype for Business Server 管理シェルで次のコマンドを実行します。 このコマンドを実行する場合は、Exchange サーバーで実行されている自動検出サービスの URI を指定していることを確認し**ます**。また、自動検出を使用して、(サービスで使用される xml ファイルを示す)**自動**検出ではなく、サービスの場所を指すようにします。
   
-```
+```PowerShell
 Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc" 
 ```
 
@@ -81,7 +81,7 @@ Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://auto
   
 自動検出サービスの構成に加えて、Exchange サーバーを参照するサービスの DNS レコードも作成する必要があります。 たとえば、自動検出サービスが autodiscover.litwareinc.com にある場合は、Exchange サーバーの完全修飾ドメイン名に解決される autodiscover.litwareinc.com の DNS レコードを作成する必要があります (たとえば、atl-exchange-001.litwareinc.com)。
   
-Skype for Business Server を Exchange Online と統合する場合は、次の手順は[オンプレミスの skype For Business server と Outlook Web App](../../deploy/integrate-with-exchange-server/outlook-web-app.md)との統合を構成することになります。それ以外の場合は、「skype For business [server を exchange と統合する」を参照してください。サーバー](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)。
+Skype for Business Server を Exchange Online と統合する場合は、次の手順は[オンプレミスの skype For Business server と Outlook Web App](../../deploy/integrate-with-exchange-server/outlook-web-app.md)との統合を構成することになります。それ以外の場合は、「 [Skype for Business Server と exchange server の](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)統合」を参照してください。
   
 ## <a name="feature-support"></a>機能のサポート
 <a name="feature_support"> </a>

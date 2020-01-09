@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 975718a0-f3e3-404d-9453-6224e73bfdd0
 description: '概要: Skype for Business Server 2015 の中央集中ログサービスのサービスコンポーネントと構成設定について説明します。'
-ms.openlocfilehash: a02d2a283716dd01572e0cbd8cccf075b29fd9b8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1dfdc0de999e79182e5beb57c6d51ecc75359672
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274514"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992604"
 ---
 # <a name="centralized-logging-service-in-skype-for-business-2015"></a>Skype for Business 2015 の集中ログ サービス
  
@@ -36,7 +36,7 @@ ms.locfileid: "34274514"
   - 既存のプロバイダーを使用するか、新しいプロバイダーを作成します。 Aprovider は、ログセッションが収集する内容、詳細レベル、トレースするコンポーネント、および適用されるフラグを定義します。
     
     > [!TIP]
-    >  OCSLogger に精通している場合、termproviders は、**コンポーネント**のコレクション (たとえば、S4、SIPStack)、**ログの種類**(WPP、EventLog、IIS logfile など)、**トレースレベル**(All、verbose、debug など) を参照します。、**フラグ**(TF_COMPONENT、TF_DIAG など)。 これらの項目は、プロバイダー (Windows PowerShell 変数) で定義され、中央の [ログサービス] コマンドに渡されます。
+    >  OCSLogger に精通している場合、termproviders は、**コンポーネント**(たとえば、S4, SIPStack)、**ログの種類**(たとえば、WPP、EVENTLOG、または IIS logfile)、**トレースレベル**(たとえば、すべて、verbose、debug)、**フラグ**(TF_COMPONENT、TF_DIAG など) を参照します。 これらの項目は、プロバイダー (Windows PowerShell 変数) で定義され、中央の [ログサービス] コマンドに渡されます。
   
   - 特定のコンピューターとプールのログを構成します。
     
@@ -58,14 +58,14 @@ ms.locfileid: "34274514"
   
 Windows Server のコマンドラインインターフェイスまたは Skype for Business Server 管理シェルを使用して、コマンドを実行します。 コマンドは、ログインしているコンピューターで実行され、ローカルまたは展開内の他のコンピューターやプールに送信されます。
   
-ClsAgent は、すべてのインデックスファイルを管理します。ローカルコンピューターにあるファイルをキャッシュします。 ClsAgent は、オプション CacheFileLocalFolders によって定義されたボリューム間で均等に分散されるように、各ボリュームの 80% を消費しないように割り当てます (つまり、ローカルキャッシュの場所と割合は、 **Set-CsClsConfiguration**コマンドレット)。 ClsAgent は、ローカルコンピューターから古いキャッシュされたイベントトレースログ (.etl) ファイルを処理する責任も担います。 2週間後 (つまり、 **Set-CsClsConfiguration**コマンドレットを使用して期間を構成できます)、これらのファイルはファイル共有にコピーされ、ローカルコンピューターから削除されます。 詳細については、「 [Set-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps)」を参照してください。 検索要求を受信すると、検索条件を使ってキャッシュされた一連の .etl ファイルが選択され、エージェントによって管理されているインデックス内の値に基づいて検索が実行されます。
+ClsAgent は、すべてのインデックスファイルを管理します。ローカルコンピューターにあるファイルをキャッシュします。 ClsAgent は、オプション CacheFileLocalFolders によって定義されたボリューム間で均等に分散されるように、各ボリュームの80% を消費しないようにします (つまり、ローカルキャッシュの場所と割合は、 **Set-CsClsConfiguration**コマンドレットを使用して構成できます)。 ClsAgent は、ローカルコンピューターから古いキャッシュされたイベントトレースログ (.etl) ファイルを処理する責任も担います。 2週間後 (つまり、 **Set-CsClsConfiguration**コマンドレットを使用して期間を構成できます)、これらのファイルはファイル共有にコピーされ、ローカルコンピューターから削除されます。 詳細については、「 [Set-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps)」を参照してください。 検索要求を受信すると、検索条件を使ってキャッシュされた一連の .etl ファイルが選択され、エージェントによって管理されているインデックス内の値に基づいて検索が実行されます。
   
 > [!NOTE]
 > ローカル コンピューターからファイル共有に移動されたファイルを ClsAgent で検索できます。ClsAgent がファイルをファイル共有に移動すると、ファイルのエージングと削除は ClsAgent で管理されません。ファイル共有内のファイルのサイズを監視し、ファイルを削除またはアーカイブするための管理タスクを定義する必要があります。 
   
 **Snooper.exe** や、テキスト ファイルを読み取ることのできるツール (**Notepad.exe** など) を含むさまざまなツールを使用して、結果のログ ファイルの読み取りと分析を行うことができます。 Snooper は、Skype for Business Server 2015 デバッグツールの一部であり、 [Web ダウンロード](https://go.microsoft.com/fwlink/p/?LinkId=285257)として利用できます。
   
-OCSLogger と同様に、一元管理サービスには、追跡対象となるいくつかのコンポーネントがあり、TF_COMPONENT や TF_DIAG などのフラグを選ぶためのオプションが用意されています。 一元管理サービスは、OCSLogger の [ログレベル] オプションも保持します。
+OCSLogger と同様に、一元管理サービスには、追跡対象となるいくつかのコンポーネントがあり、TF_COMPONENT や TF_DIAG などのフラグを選択するオプションが用意されています。 一元管理サービスは、OCSLogger の [ログレベル] オプションも保持します。
   
 コマンドラインの ClsController 経由で Skype for Business Server 管理シェルを使用するための最も重要な利点は、問題スペース、カスタムフラグ、およびログレベルを対象とする、選択したプロバイダーを使用して新しいシナリオを構成して定義できることです。 ClsController で使用可能なシナリオは、実行可能ファイル用に定義されるシナリオに制限されます。
   
@@ -95,7 +95,7 @@ OCSLogger と同様に、一元管理サービスには、追跡対象となる�
     
 2. コマンド ライン プロンプトで、次のように入力します。
     
-   ```
+   ```PowerShell
    Get-CsClsConfiguration
    ```
 

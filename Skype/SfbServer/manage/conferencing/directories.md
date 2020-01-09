@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b124b229-7df5-4b7e-8c11-6661c8c8c051
 description: '概要: Skype for Business Server で会議ディレクトリを作成する方法について説明します。'
-ms.openlocfilehash: d2962e7e01ba5bb73ce82de9b5c0ff85550fbe99
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0ed141b743d436ca2082b8a4f5010011a0256479
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34306497"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991852"
 ---
 # <a name="create-conference-directories-in-skype-for-business-server"></a>Skype for Business Server で会議ディレクトリを作成する
  
@@ -38,7 +38,7 @@ ms.locfileid: "34306497"
 
 電話会議ディレクトリを作成するには、**New-CsConferenceDirectory** コマンドレットを使用します。たとえば、以下では、ID が 42 で、プール atl-cs-001.litwareinc.com でホストされる電話会議ディレクトリが作成されます。
   
-```
+```PowerShell
 New-CsConferenceDirectory -Identity 42 -HomePool "atl-cs-001.litwareinc.com"
 ```
 

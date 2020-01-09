@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8b88bed9-2b37-4caf-b119-48688076e06a
 description: '概要: Skype for Business Server のアーカイブポリシーを削除する方法について説明します。'
-ms.openlocfilehash: 04ea9db10a2f95ba5010471f262d58c269c173d1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c08b76996b3d54e8be07e731faae87dce0470cc1
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278413"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992364"
 ---
 # <a name="delete-an-existing-archiving-policy-in-skype-for-business-server"></a>Skype for Business Server で既存のアーカイブポリシーを削除する
 
@@ -41,19 +41,19 @@ ms.locfileid: "34278413"
   
 たとえば、以下のコマンドを実行すると、site:Redmond という ID を持つポリシーが削除されます。サイト レベルで構成されているポリシーを削除すると、以前にサイト ポリシーによって管理されていたユーザーは、代わりにグローバル アーカイブ ポリシーによって自動的に管理されます。
   
-```
+```PowerShell
 Remove-CsArchivingPolicy -Identity site:Redmond
 ```
 
 このコマンドでは、ユーザーごとのレベルに適用されているすべてのアーカイブ ポリシーを削除します。
   
-```
+```PowerShell
 Get-CsArchivingPolicy -Filter "tag:*" | Remove-CsArchivingPolicy
 ```
 
 このコマンドでは、内部アーカイブが無効になっているすべてのアーカイブ ポリシーを削除します。
   
-```
+```PowerShell
 Get-CsArchivingPolicy | Where-Object {$_.ArchiveInternal -eq $False} | Remove-CsArchivingPolicy
 ```
 

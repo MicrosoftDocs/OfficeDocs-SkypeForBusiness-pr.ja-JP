@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: '概要: Skype for Business Server 2019 コンピューターに、監視対象の Operations Manager エージェントファイルをインストールし、System Center プロキシとして動作するようにコンピューターを構成します。'
-ms.openlocfilehash: f979b348b8fe79d3e274007a08b5caef005d38b2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3fbe75b50faa0896d2458525734239317d21e49e
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284047"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40988972"
 ---
 # <a name="configure-the-skype-for-business-server-computers-that-will-be-monitored"></a>監視対象の Skype for Business Server コンピューターの構成
 
@@ -43,7 +43,7 @@ ms.locfileid: "34284047"
 
 5. [管理グループの構成] ページで、[**管理グループ情報の指定**] を選択し、[**次へ**] をクリックします。
 
-6. [管理グループの構成] ページで、[**管理グループ名**] ボックスに Operations Manager 管理グループの名前を入力し、管理サーバーの operations manager サーバーのホスト名 (例: atl-scom) を入力します。 **** ボックス。 Operations Manager が使用するポート番号を変更した場合は、[**管理サーバー ポート**] ボックスに新しいポート番号を入力します。 そうしない場合は、ポートを既定の値 5723 のままにし、[**次へ**] をクリックします。
+6. [管理グループの構成] ページで、[**管理グループ名**] ボックスに Operations Manager 管理グループの名前を入力し、[ **management server** ] ボックスに operations manager サーバーのホスト名 (例: atl-scom) を入力します。 Operations Manager が使用するポート番号を変更した場合は、[**管理サーバー ポート**] ボックスに新しいポート番号を入力します。 そうしない場合は、ポートを既定の値 5723 のままにし、[**次へ**] をクリックします。
 
 7. [エージェント アクション アカウント] ページで、[**ローカル システム**] を選択し、[**次へ**] をクリックします。
 
@@ -56,7 +56,7 @@ ms.locfileid: "34284047"
 11. [**終了**] をクリックします。
 
 System Center 2012 の場合は、[**スタート**]、[**すべてのプログラム**]、[ **System Center Operations Manager 2012**]、[ **operations 2012 Manager Shell**] の順にクリックして、エージェントの作成が完了していることを確認できます。 In the Operations Manager Shell, type the following Windows PowerShell command, and then press ENTER:
-```
+```PowerShell
 Get-SCOMAgent
 ```
 

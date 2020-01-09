@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eddfbdd2-cfd0-4c03-986e-443d6728db7d
 description: '概要: Skype for Business Server のレジストラー構成設定を管理します。'
-ms.openlocfilehash: 4ad7815da0744a78cd72208ef390362bff26c2ce
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8aac78f782b7a9db23d3bb124943c55cdbd8565a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291173"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992304"
 ---
 # <a name="manage-registrar-configuration-settings-in-skype-for-business-server"></a>Skype for Business Server でレジストラー構成設定を管理する
  
@@ -28,7 +28,7 @@ ms.locfileid: "34291173"
     
 - **NTLM**これはパスワードベースの認証であり、パスワードに関するチャレンジ応答ハッシュスキームを使用するクライアントで利用できます。 これは、リモート ユーザーなど、キー配布センター (Kerberos ドメイン コントローラー) に接続できないクライアントの認証で使用できる唯一のクライアント認証方式です。 サーバーでリモート ユーザーのみの認証処理を行う場合は、NTLM を選択してください。
     
-- **証明書の認証**これは、サーバーが Lync Phone Edition クライアント、一般的なエリア電話、Skype for Business、Lync Windows ストアアプリから証明書を取得する必要がある場合の新しい認証方法です。 Lync Phone Edition クライアントでは、ユーザーがサインインし、暗証番号 (PIN) を指定して認証に成功した後、Skype for Business Server は電話に対して SIP URI をプロビジョニングし、Skype for Business Server を署名します。証明書または Joe (Ex: SN=joe@contoso.com) を電話に識別するユーザー証明書。 この証明書は、レジストラー サービスと Web サービスでの認証に使用されます。
+- **証明書の認証**これは、サーバーが Lync Phone Edition クライアント、一般的なエリア電話、Skype for Business、Lync Windows ストアアプリから証明書を取得する必要がある場合の新しい認証方法です。 Lync Phone Edition クライアントでは、ユーザーがサインインして、暗証番号 (PIN) を提供することによって正常に認証された後、Skype for business Server は電話に対して SIP URI をプロビジョニングし、Skype for Business server 署名入り証明書または Joe (Ex: SN=joe@contoso.com) を識別するユーザー証明書を電話にプロビジョニングします。 この証明書は、レジストラー サービスと Web サービスでの認証に使用されます。
     
 > [!NOTE]
 > サーバーがリモートとエンタープライズ両方のクライアント認証をサポートする場合は、Kerberos と NTLM の両方を有効にすることをお勧めします。エッジ サーバーと内部サーバーは通信して、NTLM 認証のみがリモート クライアントに提供されるようにします。これらのサーバーで Kerberos のみが有効な場合、リモート ユーザーを認証できません。エンタープライズ ユーザーはサーバーに対しても認証を行い、Kerberos が使用されます。 
@@ -108,7 +108,7 @@ Lync Windows ストアアプリクライアントを使用する場合は、証�
 
 - 次のコマンドは、エッジ サーバー atl-edge-011.litwareinc.com に適用されるレジストラーのセキュリティ設定を削除します。
     
-  ```
+  ```PowerShell
   Remove-CsProxyConfiguration -Identity service:EdgeServer:atl-edge-011.litwareinc.com
   ```
 
@@ -116,7 +116,7 @@ Lync Windows ストアアプリクライアントを使用する場合は、証�
 
 - 次のコマンドは、レジストラー サービスに適用されるすべてのレジストラーのセキュリティ設定を削除します。
     
-  ```
+  ```PowerShell
   Get-CsProxyConfiguration -Filter "service:Registrar:*" | Remove-CsProxyConfiguration
   ```
 
@@ -124,7 +124,7 @@ Lync Windows ストアアプリクライアントを使用する場合は、証�
 
 - 次のコマンドは、クライアント認証に NTLM の使用を許可するレジストラーのセキュリティ設定をすべて削除します。
     
-  ```
+  ```PowerShell
   Get-CsProxyConfiguration | Where-Object {$_.UseNtlmForClientToProxyAuth -eq $True}| Remove-CsProxyConfiguration
   ```
 

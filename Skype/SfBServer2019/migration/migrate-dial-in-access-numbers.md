@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype for Business Server 2019 にダイヤルインアクセス番号を移行するには、Move-CsApplicationEndpoint コマンドレットを実行して、連絡先オブジェクトを移行する必要があります。 従来のインストールと Skype for Business Server 2019 の共存期間の間、Skype for Business Server 2019 で作成したダイヤルインアクセス番号は、この後で説明するように、従来のインストールで作成したダイヤルインアクセス番号と同じように動作します。ここ.
-ms.openlocfilehash: 81f100979d009f4f9b48cf9a538ec92095a67ad8
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 35c1e665f8affdbf84628f9a7d532405779648f0
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36238047"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991142"
 ---
 # <a name="migrate-dial-in-access-numbers"></a>ダイヤルイン アクセス番号の移行
 
@@ -50,7 +50,7 @@ Skype for Business Server 2019 にダイヤルインアクセス番号を移行�
 
 2. Skype for Business Server 2019 でホストされているプールにダイヤルインアクセス番号を移動するには、コマンドラインで次を実行します。 
 
-   ```
+   ```PowerShell
    Move-CsApplicationEndpoint -Identity <SIP URI of the access number to be moved> -Target <FQDN of the pool to which the access number is moving>
    ```
 
@@ -83,7 +83,7 @@ Skype for Business Server 2019 にダイヤルインアクセス番号を移行�
 
 2. 移行されたダイヤルイン会議アクセス番号をすべて返すには、コマンドラインで次を実行します。
 
-   ```
+   ```PowerShell
    Get-CsDialInConferencingAccessNumber -Filter {Pool -eq "<FQDN of the pool to which the access number is moved>"}
    ```
 

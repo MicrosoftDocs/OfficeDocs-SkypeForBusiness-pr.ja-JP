@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c830be5a-2a82-468d-9c46-d3fec0f79fd0
 description: '概要: Skype for Business Server での通話の詳細レコーディング (CDR) について説明します。'
-ms.openlocfilehash: c0a54835fe74a32a92996874cb6fd895fd49fafc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 52c5f3de5b3c83fe5701b339ecf45ed7f80a0988
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305834"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992524"
 ---
 # <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>Skype for Business Server で CDR 構成設定のコレクションを作成または変更する
  
@@ -64,7 +64,7 @@ CDR 構成設定は、Windows PowerShell と**CsCdrConfiguration**コマンド�
 
  このコマンドを実行すると、Redmond サイトに適用される新しい CDR 構成設定のコレクションが作成されます。
     
-  ```
+  ```PowerShell
   New-CsCdrConfiguration -Identity "site:Redmond"
   ```
 
@@ -72,7 +72,7 @@ CDR 構成設定は、Windows PowerShell と**CsCdrConfiguration**コマンド�
 
  前述のコマンドでは、必須の Identity パラメーター以外のパラメーターは指定されていないため、新しい構成設定のコレクションではすべてのプロパティで既定値が使用されます。異なるプロパティ値を使用する設定を作成するには、適切なパラメーターとパラメーター値を指定します。たとえば、既定では通話詳細記録の無効化を許可する通話詳細の構成設定のコレクションを作成するには、次のようなコマンドを使用します。
     
-  ```
+  ```PowerShell
   New-CsCdrConfiguration -Identity "site:Redmond" -EnableCDR $False
   ```
 
@@ -80,7 +80,7 @@ CDR 構成設定は、Windows PowerShell と**CsCdrConfiguration**コマンド�
 
  複数のパラメーターを含めることで、複数のプロパティ値を変更できます。たとえば、このコマンドを実行すると、通話詳細記録を 30 日間保持し、エラー レポートを 90 日間保持するための新しい設定が構成されます。
     
-  ```
+  ```PowerShell
   New-CsCdrConfiguration -Identity "site:Redmond" -KeepCallDetailForDays 30 -KeepErrorReportForDays 90
   ```
 

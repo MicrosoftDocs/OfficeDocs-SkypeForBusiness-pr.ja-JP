@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
 description: '概要: Skype for Business Server の統計マネージャーの展開のトラブルシューティングを行うには、このトピックを参照してください。'
-ms.openlocfilehash: b85ee6593413cce0aa5b7c76901dbbc6099107fd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7d9ea061453998f2df01cd2ec31e792600697ee1
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299696"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992514"
 ---
 # <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>Skype for Business Server の Statistics Manager のトラブルシューティング
  
@@ -39,13 +39,13 @@ ms.locfileid: "34299696"
     
     エージェントは Windows のジョブ オブジェクト内部で実行され、自動でエージェントの使用するメモリ容量を制限します。 エージェントが開始しておらず、このジョブ オブジェクトのイベント エントリがイベント ログに存在する場合、このジョブ オブジェクトをサーバー上でインスタンス化できません。 これを回避するには、設定ファイルで値を変更してメモリの上限を外してください。
     
-  ```
+  ```console
   C:\Program Files\Skype for Business Server StatsMan Agent\PerfAgent.exe.config
   ```
 
     "MaxProcessMemoryMB" を検索し、次のように値を "0" に変更します。
     
-  ```
+  ```console
   <setting name="MaxProcessMemoryMB" serializeAs="String"> <value>300</value> </setting>
   ```
 

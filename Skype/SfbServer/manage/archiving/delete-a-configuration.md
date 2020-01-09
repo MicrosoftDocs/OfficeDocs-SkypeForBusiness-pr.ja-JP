@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fed12cb5-2c80-476a-af3b-d55b450c5fbc
 description: '概要: Skype for Business Server でアーカイブ構成を削除する方法について説明します。'
-ms.openlocfilehash: e2a79949da21c9b3b8e94019375ea0e1f0887353
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 22da9464a4bb6b17c6d4b9aa63ad8990a9152c38
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286198"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992374"
 ---
 # <a name="delete-an-archiving-configuration-in-skype-for-business-server"></a>Skype for Business Server でアーカイブ構成を削除する
 
@@ -46,25 +46,25 @@ ms.locfileid: "34286198"
   
 たとえば、以下のコマンドを実行すると、Redmond サイトに適用されているアーカイブ構成設定が削除されます。サイト スコープで構成されているポリシーを削除すると、以前にサイト ポリシーによって管理されていたユーザーは、代わりにグローバル アーカイブ ポリシーによって自動的に管理されます。
   
-```
+```PowerShell
 Remove-CsArchivingConfiguration -Identity "site:Redmond"
 ```
 
 次のコマンドを実行すると、サービス スコープに適用されているすべてのアーカイブ構成設定が削除されます。
   
-```
+```PowerShell
 Get-CsArchivingConfiguration -Filter "site:*" | Remove-CsArchivingConfiguration
 ```
 
 次のコマンドを実行すると、Exchange のアーカイブが無効になっているすべてのアーカイブ構成設定が削除されます。
   
-```
+```PowerShell
 Get-CsArchivingConfiguration | Where-Object {$_.EnableExchangeArchiving -eq $False} | Remove-CsArchivingConfiguration
 ```
 
 また、**Remove-CsArchivingConfiguration** コマンドレットを使用してグローバル設定を既定値にリセットすることもできます。 たとえば、グローバル レベルで IM セッションのアーカイブを有効にしている場合、次のコマンドを実行すると、値が既定値の "None" にリセットされ、グローバル レベルでのアーカイブが無効になります。
   
-```
+```PowerShell
 Remove-CsArchivingConfiguration -Identity global
 ```
 

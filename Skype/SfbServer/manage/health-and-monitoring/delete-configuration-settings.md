@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ebf5da8-c0fc-498c-8d85-527d3be8479a
 description: '概要: Skype for Business Server で CDR 構成設定を削除する方法について説明します。'
-ms.openlocfilehash: 91ee9676b3087c5b125c6cfe935f706bbfb22812
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 16b797fb59e16038411c722ce064e14ab756cdfa
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305835"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992434"
 ---
 # <a name="delete-an-existing-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>Skype for Business Server で既にある CDR 構成設定のコレクションを削除する
  
@@ -47,7 +47,7 @@ Windows PowerShell と CsCdrConfiguration コマンドレットを使用して�
 
  このコマンドでは、Redmond サイトに適用されていた CDR 構成設定が削除されます。
     
-  ```
+  ```PowerShell
   Remove-CsCdrConfiguration -Identity "site:Redmond"
   ```
 
@@ -55,15 +55,15 @@ Windows PowerShell と CsCdrConfiguration コマンドレットを使用して�
 
  このコマンドでは、サイト スコープに適用されていたすべての CDR 構成設定が削除されます。
     
-  ```
+  ```PowerShell
   Get-CsCdrConfiguration -Filter "site:*" | Remove-CsCdrConfiguration
-  ```
+  ```PowerShell
 
-### <a name="to-remove-all-the-cdr-configuration-settings-that-disable-call-detail-recording"></a>通話詳細記録を無効にする CDR 構成設定をすべて削除するには
+### To remove all the CDR configuration settings that disable call detail recording
 
- このコマンドでは、通話詳細記録が無効になっているすべての CDR 構成設定が削除されます。
+ This command removes all the CDR configuration settings where Call Detail recording has been disabled:
     
-  ```
+  ```PowerShell
   Get-CsCdrConfiguration | Where-Object {$_.EnableCDR -eq $False} | Remove-CsCdrConfiguration
   ```
 

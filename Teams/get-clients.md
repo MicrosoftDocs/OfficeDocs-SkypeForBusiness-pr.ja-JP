@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 70a0c87060bf4d2a560a997e287b1507e2281ee4
-ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
+ms.openlocfilehash: 5e47e8e4765bc93c2281efc07766f77f173b0fad
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 01/08/2020
-ms.locfileid: "40970975"
+ms.locfileid: "40990852"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams のクライアントを取得する 
 
@@ -114,7 +114,7 @@ DEB または RPM パッケージをインストールすると、パッケー�
 
 #### <a name="install-teams-using-deb-package"></a>DEB パッケージを使用して Teams をインストールする
 
-1. からhttps://aka.ms/getteamsパッケージをダウンロードします。 (Linux クライアントは、限定されたプレビューであり、まもなく起動されます。 ダウンロードページに Linux クライアントが表示されない場合は、まだ起動していません。)
+1. からhttps://aka.ms/getteamsパッケージをダウンロードします。
 2. 次のいずれかの方法でインストールします。  
     - 関連するパッケージ管理ツールを開き、自己紹介の Linux アプリのインストールプロセスを開始します。
     - または、端末を気に入った場合は、次のように入力します。`sudo apt install **teams download file**`
@@ -123,12 +123,50 @@ DEB または RPM パッケージをインストールすると、パッケー�
 
 #### <a name="install-teams-using-rpm-package"></a>RPM パッケージを使用してチームをインストールする
 
-1. からhttps://aka.ms/getteamsパッケージをダウンロードします。 (Linux クライアントは、限定されたプレビューであり、まもなく起動されます。 ダウンロードページに Linux クライアントが表示されない場合は、まだ起動していません。)
+1. からhttps://aka.ms/getteamsパッケージをダウンロードします。
 2. 次のいずれかの方法でインストールします。
     - 関連するパッケージ管理ツールを開き、自己紹介の Linux アプリのインストールプロセスを開始します。
     - または、端末を気に入った場合は、次のように入力します。`sudo yum install **teams download file**`
 
 アクティビティを通じて、または「ターミナルから」 `Teams`と入力して、チームを起動できます。
+
+#### <a name="install-manually-from-the-command-line"></a>コマンドラインから手動でインストールする
+
+Debian および Ubuntu の配布に手動でインストールします。
+```
+curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+ 
+sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/ms-teams stable main" > /etc/apt/sources.list.d/teams.list'
+ 
+sudo apt update
+sudo apt install teams
+```
+
+RHEL、Fedora、CentOS ベースの配布に手動でインストールします。
+```
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+ 
+sudo sh -c 'echo -e "[teams]\nname=teams\nbaseurl=https://packages.microsoft.com/yumrepos/ms-teams\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/teams.repo'
+ 
+sudo dnf check-update
+sudo dnf install teams
+```
+
+Aternatively の代わりに yum を使うには、次のようにします。
+```
+yum check-update
+sudo yum install teams
+```
+
+OpenSUSE ベースの配布に手動でインストールします。
+```
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+ 
+sudo sh -c 'echo -e "[teams]\nname=teams\nbaseurl=https://packages.microsoft.com/yumrepos/ms-teams\nenabled=1\nautorefresh=1\nkeeppackages=0\ntype=rpm-md\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/zypp/repos.d/teams.repo'
+ 
+sudo zypper refresh
+sudo zypper install teams
+```
 
 ## <a name="web-client"></a>Web クライアント 
 

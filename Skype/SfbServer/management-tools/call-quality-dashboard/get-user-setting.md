@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16611a55-79fb-487a-a936-20caca829f87
 description: '概要: ユーザー設定サービスの一部である [ユーザー設定の取得] 操作について説明します。 ユーザー設定サービスは、通話品質ダッシュボードのリポジトリ API の一部です。 通話品質ダッシュボードは、Skype for Business Server のツールです。'
-ms.openlocfilehash: 295e12405eb6a7ebbf45b87e3a06f3a745b90bad
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 168e61aaebb47cb087e77cbd18e3e6edfd987227
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274654"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992644"
 ---
 # <a name="get-user-setting"></a>ユーザー設定の取得
  
@@ -47,7 +47,7 @@ Get User Setting は、単一のユーザー設定を返します。
   
  **応答本文**-以下は JSON のサンプル応答ペイロードです。
   
-```
+```json
 {
 "userId": 6,
 "key": "ShowDescriptions",
@@ -57,7 +57,7 @@ Get User Setting は、単一のユーザー設定を返します。
 
  *userId* -ユーザーの id です。
   
- ** 設定のキーキー。
+ 設定*のキーキー* 。
   
  *値*-設定の値。
   

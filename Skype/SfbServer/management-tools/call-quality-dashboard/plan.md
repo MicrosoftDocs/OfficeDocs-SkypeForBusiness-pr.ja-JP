@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: '概要: 通話品質ダッシュボードを計画する際の考慮事項について説明します。'
-ms.openlocfilehash: c98828f8fed3567a892e20dcab8040bb731c91f2
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: 3a0982f565495740887b6da07dd802de1205dcf8
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328439"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991412"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>Skype for Business Server の通話品質ダッシュボードの計画 
  
@@ -284,11 +284,11 @@ CQD には、次のオペレーティングシステムが必要です。
   
 PowerShell を使用してこれらの要件をインストールするには、次の手順を実行します。
   
-```
+```PowerShell
 import-module servermanager
 ```
 
-```
+```PowerShell
 add-windowsfeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Asp-Net, Web-Asp-Net45, Web-Net-Ext, Web-Net-Ext45, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Url-Auth, Web-Windows-Auth, Web-Mgmt-Console
 ```
 
@@ -320,7 +320,7 @@ SQL Server ビジネスインテリジェンス機能のインストールと構
 
 最低限の権限の原則として、3つのドメインサービスアカウントをお勧めします。 
   
-- QoE Metrics データベースのログインセキュリティプリンシパルとして (db_datareader 特権を使用)、または QoE アーカイブ SQL Server インスタンスでのログインセキュリティプリンシパル (セットアップ時にリンクサーバーオブジェクトを作成するために必要) があります。 このアカウントは、SQL Server エージェントジョブの "QoE アーカイブデータ" ステップを実行するために使用されます。
+- QoE Metrics データベースのログインセキュリティプリンシパルとして (db_datareader 権限を持つ) と、QoE Archive SQL Server インスタンスでのログインセキュリティプリンシパル (セットアップ時にリンクサーバーオブジェクトを作成するために必要) の両方が既に存在するもの。 このアカウントは、SQL Server エージェントジョブの "QoE アーカイブデータ" ステップを実行するために使用されます。
     
 - SQL Server エージェントジョブの "プロセスキューブ" ステップを実行するために使用されるもの。 セットアップによって、QoE アーカイブデータベースへのログインセキュリティプリンシパル (読み取りと書き込みの権限を持つ) が作成され、キューブの QoE の役割 (フルコントロール権限を持つメンバー) も作成されます。
     

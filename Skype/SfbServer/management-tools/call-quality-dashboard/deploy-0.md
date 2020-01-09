@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: '概要: 通話品質ダッシュボードの展開プロセスについて説明します。 通話品質ダッシュボードは、Skype for Business Server のツールです。'
-ms.openlocfilehash: 16877bff7f96bd4d2f6b308b33803c741c2672c2
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: aa7f5d81fd9778e148dcf64f84c757676bd1df2d
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221567"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992694"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>Skype for Business Server の通話品質ダッシュボードの展開
  
@@ -83,7 +83,7 @@ QoE アーカイブのセットアッププロセスでは、QoE アーカイブ
   
    - **パーティションファイルディレクトリ:** QoE アーカイブデータベースのパーティションの配置先のパス。 これは、OS ドライブと SQL データベースのログファイルドライブとは別のドライブ (推奨されるハードウェア構成の HDD3) である必要があります。 インストールではファイル名が修正されているため、競合が発生しないようにするために、ファイルを持たない空のディレクトリを使用することをお勧めします。
     
-   - **SQL エージェントジョブユーザー-ユーザー名&amp;のパスワード:** SQL Server エージェントジョブの "QoE アーカイブデータ" ステップを実行するために使用される、ドメインサービスアカウント名とパスワード (マスクされたもの)。これは、ストアドプロシージャを実行して、QoE 指標データベースのデータをアーカイブ DB にフェッチします。このアカウントは、QoE 指標データベースへの読み取りアクセス権が必要です。 [アカウント] セクションで示されているようになります。 このアカウントでは、QoE アーカイブ SQL Server インスタンスにログインする必要もあります)。
+   - **SQL エージェントジョブユーザー-ユーザー名&amp;のパスワード:** SQL Server エージェントジョブの "QoE アーカイブデータ" 手順を実行するために使用される、ドメインサービスアカウント名とパスワード (マスクされたもの)。これは、ストアドプロシージャを実行して、QoE Metrics db からアーカイブ DB にデータを取得します。このアカウントは、[アカウント] セクションで説明されているように、QoE 指標データベース このアカウントでは、QoE アーカイブ SQL Server インスタンスにログインする必要もあります)。
     
      > [!NOTE]
      > NT service¥ MSSQLSERVER などの SQL Server インスタンスが実行されているアカウントは、インストールを成功させるために、上で示したディレクトリへのアクセス/アクセス許可を持っている必要があります。 詳細については、「[データベースエンジンアクセスのためのファイルシステムアクセス許可の構成](https://msdn.microsoft.com/en-us/library/jj219062%28v=sql.110%29.aspx)」を参照してください。
@@ -159,7 +159,7 @@ QoE アーカイブのセットアッププロセスでは、QoE アーカイブ
   
 構成の詳細は、ポータルの物理ディレクトリにある web.config に保存されています。
   
-```
+```XML
 <?xml version="1.0" encoding="UTF-8"?> <configuration> <system.webServer> <security> <authorization> <remove users="*" roles="" verbs="" /> <add accessType="Allow" roles="CQDPortalUsers" /> </authorization> </security> </system.webServer> </configuration> 
 ```
 
@@ -282,7 +282,7 @@ CQD をインストールした後、次の構成タスクを実行します。
     
   **サンプルの SQL 構文**
   
-```
+```SQL
 INSERT INTO
 [dbo].[CqdBuildingType]
 ([BuildingTypeId],
@@ -313,7 +313,7 @@ BuildingTypeId パラメーターと BuildingTypeDesc パラメーターが必�
     
   **サンプルの SQL 構文**
   
-```
+```SQL
 INSERT INTO
 [dbo].[CqdBuildingOwnershipType]
 ([OwnershipTypeId],
@@ -343,7 +343,7 @@ OwnershipTypeId パラメーターと OwnershipTypeDesc パラメーターが必
     
   **サンプルの SQL 構文**
   
-```
+```SQL
 INSERT INTO [dbo].[CqdNetworkName] 
 ( [NetworkName]
 ,[NetworkType]
@@ -365,7 +365,7 @@ NetworkNameID パラメーターと Networknameid パラメーターは必須で
   
  **サンプルの SQL 構文**
   
-```
+```SQL
 INSERT INTO [dbo].[CqdBuilding] 
 ( [BuildingKey]
 ,[BuildingName]
@@ -390,7 +390,7 @@ BuildingKey、BuildingName、BuildingShortName、OwnershipTypeId、BuildingTypeI
   
  **サンプルの SQL 構文**
   
-```
+```SQL
 INSERT INTO [dbo].[CqdNetwork] 
 ([Network]
 ,[NetworkNameID]
@@ -410,7 +410,7 @@ BSSID 情報を入力すると、コントローラーまたは無線による�
   
  **サンプルの SQL 構文**
   
-```
+```SQL
 INSERT INTO [dbo].[CqdBssid]
 ([Ap],
 [Bss],

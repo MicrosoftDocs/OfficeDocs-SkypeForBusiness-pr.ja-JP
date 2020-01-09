@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 監視サーバーを削除した後で、サーバーデータをホストしている SQL Server データベースを削除できます。 次の手順を使用して、Topology Builder から定義を削除し、データベースサーバーからデータベースとログファイルを削除します。
-ms.openlocfilehash: 1034abac5b257200504c599fe8655a788d638aa0
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 94081aa7ec4b32797dedaaa2a89dc7221b04bd97
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241550"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989012"
 ---
 # <a name="remove-the-sql-server-database-for-a-monitoring-server"></a>監視サーバー用の SQL Server データベースの削除
 
@@ -36,7 +36,7 @@ ms.locfileid: "36241550"
     
 3. コマンドラインで、次のように入力します。
     
-   ```
+   ```PowerShell
    Uninstall-CsDataBase -DatabaseType Monitoring -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
    ```
 

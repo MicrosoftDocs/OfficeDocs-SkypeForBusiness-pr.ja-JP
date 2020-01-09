@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams で発信者番号ポリシーを使用および管理して、組織内の Teams ユーザーの発信者番号通知を変更またはブロックする方法について説明します。
-ms.openlocfilehash: 8a8e235c1adf24e5a11b0b62e7542d5fcae194be
-ms.sourcegitcommit: f2c7626dbef4ed250b9a937a9b56d46fe2e2039e
+ms.openlocfilehash: aed6e3cbe2053ddc16b049608247f56705626249
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/12/2019
-ms.locfileid: "39998825"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992887"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>Microsoft Teams で発信者番号通知ポリシーを管理する
 
@@ -53,7 +53,7 @@ ms.locfileid: "39998825"
 
     - **発信者番号認識の代わりに使用するサービス番号**: ユーザーの発信者番号を置き換えるサービス番号を選択します。 このオプションは、[発信者番号の**置換**] で [**サービス番号**] を選択した場合に使用できます。
 
-5. [**保存**] をクリックします。
+5. **[保存]** をクリックします。
 
 ## <a name="edit-a-caller-id-policy"></a>発信者番号ポリシーを編集する
 
@@ -95,15 +95,15 @@ Microsoft Teams 管理センターを使用して、ユーザー設定のポリ�
 > 「[単一の Windows PowerShell ウィンドウですべての Office 365 サービスに接続する](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)」の手順に従って、必ず最初に Azure Active Directory PowerShell for Graph モジュールと Skype for Business PowerShell モジュールに接続してください。
 
 特定のグループの GroupObjectId を取得します。
-```
+```PowerShell
 $group = Get-AzureADGroup -SearchString "Contoso Support"
 ```
 指定したグループのメンバーを取得します。
-```
+```PowerShell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
 グループ内のすべてのユーザーを特定の発信者番号ポリシーに割り当てます。 この例では、発信者番号ポリシーがサポートされています。
-```
+```PowerShell
 $members | ForEach-Object { Grant-CsCallingLineIdentity -PolicyName "Support Caller ID Policy" -Identity $_.UserPrincipalName}
 ``` 
 グループ内のメンバー数によっては、このコマンドの実行に数分かかる場合があります。

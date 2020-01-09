@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5507827b-6f8d-4ea4-94e6-1cf72c1d38eb
 description: '概要: Skype for Business Server でユーザーをダイヤルイン会議にようこそ方法について説明します。'
-ms.openlocfilehash: db2e8bd84fa6a03bad845a87f7fb3c1532ae7ec2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d9f0740128a8790052534e63c95a8305f65bb96d
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280307"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992834"
 ---
 # <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>Skype for Business Server でダイヤルインユーザーにウェルカムメールを送信する
  
@@ -39,7 +39,7 @@ PIN を設定し、1 人のユーザーにようこそメールを送信する�
     
 3. コマンド プロンプトで次のコマンドを実行します。
     
-   ```
+   ```PowerShell
    Set-CsPinSendCAWelcomeMail -UserUri <user identifier>
    -From <email address of sender> [-Subject <subject for email message>]
    [-UserEmailAddress <destination email address>]
@@ -58,14 +58,14 @@ PIN を設定し、1 人のユーザーにようこそメールを送信する�
     
 次の例では、新しい PIN を作成し、Marco から Bob にようこそメールを送信します。既定のテンプレートにある電子メール テキストを使用し、HTML 形式で電子メール メッセージを作成します。既定の [件名] は、"ダイヤルイン電話会議へようこそ" です。
   
-```
+```PowerShell
 Set-CsPinSendCAWelcomeMail -UserUri "bob@contoso.com"
 -From "marco@contoso.com"
 ```
 
 次の例では、Bob に PIN が既に設定されているとしても、Bob の新しい PIN の値を強制的に "383042650" とし、Marco から Bob にようこそメールを送信します。Credential パラメーターが指定されているため、コマンドを実行するユーザーはパスワードを入力するよう求められます。電子メールは、SSL (Secure Sockets Layer) を使用して送信されます。
   
-```
+```PowerShell
 Set-CsPinSendCAWelcomeMail -UserUri "bob@contoso.com"
 -From "marco@contoso.com" -Subject "Your new dial-in conferencing PIN"
 -Pin "383042650" -Force

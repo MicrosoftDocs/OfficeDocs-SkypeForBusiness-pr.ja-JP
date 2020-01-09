@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 14c2b4fd-f612-4909-808d-09c655fc9f8a
 description: '概要: Skype for Business Server のアーカイブデータの削除を管理する方法について説明します。'
-ms.openlocfilehash: 193e17791290b384552542129d8d89c20296f109
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f168f7fe744ef388de246cbcd2dd9de0fc2ef805
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278392"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991612"
 ---
 # <a name="manage-purging-of-archived-data-in-skype-for-business-server"></a>Skype for Business Server でアーカイブデータの削除を管理する
 
@@ -57,13 +57,13 @@ ms.locfileid: "34278392"
     
 たとえば、次のコマンドを使用するとアーカイブされている全データの削除を有効にできます。 このコマンドを実行すると、Skype for Business Server は、KeepArchivingDataForDays パラメーターに指定された値よりも古いすべてのアーカイブレコードを削除します。 
   
-```
+```PowerShell
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True
 ```
 
 次のコマンドは、データファイルにエクスポートされた ( **CSArchivingData**コマンドレットを使用して) アーカイブされたレコードの削除を制限します。 PurgeExportedArchivesOnly パラメーターを True ($True) に設定する必要もあります。
   
-```
+```PowerShell
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True -PurgeExportedArchivesOnly $True
 ```
 
@@ -71,12 +71,12 @@ Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True -Purg
   
 アーカイブ レコードの自動削除を無効にするには、EnablePurging パラメーターを False ($False) に設定します。
   
-```
+```PowerShell
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $False
 ```
 
 次の例では、 **CsArchivingDatabasePurge**コマンドレットを使用して、atl-sql-001.contoso.com のアーカイブデータベースから24時間以上経過したレコードをすべて削除します。 該当するレコードが、エクスポートされていないレコードも含めてすべて確実に削除されるようにするために、PurgeExportedArchivesOnly パラメーターを False ($False) に設定しています。
   
-```
+```PowerShell
 Invoke-CsArchivingDatabasePurge -Identity "service:ArchivingDatabase:atl-sql-001.contoso.com" -PurgeArchivingDataOlderThanHours 24 -PurgeExportedArchivesOnly $False
 ```

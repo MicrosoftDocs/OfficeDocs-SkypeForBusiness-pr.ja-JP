@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93f42230-24a2-418d-9770-bf4670a9d78f
 description: Skype for Business Server 2015 Stress and Performance Tool を実行するには、両側のユーザー、連絡先、およびユーザー プロファイルを管理できること、実行に備えてツールを構成できること、ツールによって生成された出力または結果を確認できることが必要です。
-ms.openlocfilehash: e0cf241417272cfa16b3e332e7bafe7a112af38b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
-ms.translationtype: HT
+ms.openlocfilehash: af4d0dcb1cc4196f98941799c61dcf29510ba795
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277721"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992484"
 ---
 # <a name="using-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Skype for Business Server 2015 Stress and Performance Tool の使用
  
@@ -365,19 +365,19 @@ Load Configuration ツール (UserProfileGenerator.exe) では、パフォーマ
     
 2. クライアントのフォルダーに移動して、**RunClient** バッチ スクリプトを実行します。 Windows のエクスプローラーでバッチ ファイルをダブルクリックすると、そのクライアント用のすべての構成ファイルを実行できます。 また、次の構文を使用して、クライアントのフォルダーからスクリプトを実行することもできます。
     
-   ```
+   ```PowerShell
    RunClient0.bat "C:\Program Files\Skype for Business Server 2015\LyncStressAndPerfTool\LyncStress" 
    ```
 
 Stress and Performance Tool を直接実行するには、コマンド プロンプトを開いて、コマンド ラインで次のコマンドを入力します (この操作を初めて実行する場合は、このトピックの注記で後述するように、パフォーマンス カウンターの登録 `regsvr32 /i /n /s LyncPerfToolPerf.dll` を実行してください)。
   
-```
+```console
 LyncPerfTool.exe /file:IM_client0.xml
 ```
 
 ツールで構成ファイル内の値が表示されるようにするには、次に示すように、前述のコマンドに `/displayfile` パラメーターを含めます。
   
-```
+```console
 LyncPerfTool.exe /file:IM_client0.xml /displayfile
 ```
 

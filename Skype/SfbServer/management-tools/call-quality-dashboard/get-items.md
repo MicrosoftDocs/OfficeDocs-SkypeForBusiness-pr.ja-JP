@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 9e189a48-4944-4f93-88d7-9d56b56770a6
 description: '概要: 項目サービスの一部である [項目の取得] 操作について説明します。 項目サービスは、通話品質ダッシュボードのリポジトリ API の一部です。 通話品質ダッシュボードは、Skype for Business Server のツールです。'
-ms.openlocfilehash: a1e7e8525df77cd5aacafb6d41316a985fbe9694
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: be93e16750c1a977a6bc3cfc9651e78a043ef563
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274703"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992664"
 ---
 # <a name="get-items"></a>アイテムの取得
  
@@ -49,7 +49,7 @@ ms.locfileid: "34274703"
 > [!NOTE]
 > 項目オブジェクトの配列が返されます。 Item オブジェクトの詳細については、「アイテムの取得」を参照してください。 
   
-```
+```json
 [{
 "itemId": 1652,
 "userId": 0,

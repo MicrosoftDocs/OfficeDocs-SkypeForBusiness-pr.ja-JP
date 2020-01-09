@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: '概要: プライマリ management server を構成し、System Center Operations Manager をインストールし、Skype for Business Server 2019 の管理パックをインポートします。'
-ms.openlocfilehash: 316931aff5379de10b0301cc65e94443ed0f7675
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b5835f0638231cff6176aa7377d6f7c60e81b6f7
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284040"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989072"
 ---
 # <a name="configure-the-primary-management-server"></a>プライマリ管理サーバーの構成
 
@@ -55,12 +55,12 @@ Skype for Business Server の展開には、1つのルート管理サーバー�
 
 管理パック (System Center Operations Manager で監視できる項目、それらの項目の監視方法、およびアラートのトリガー方法を決定するソフトウェア) をインストールすることによって System Center Operations Manager の機能を拡張することができます。発生. Skype for Business Server 2019 には、次の機能を提供する System Center Operations Manager 管理パックが2つ含まれています。
 
-- **コンポーネントとユーザー管理パック**(Microsoft.LS.2019.Monitoring.ComponentAndUser.mp) イベントログに記録された Skype for Business Server の問題を追跡します。パフォーマンスカウンターで登録するか、通話の詳細レコード (CDRs) または Quality of Experience (QoE) データベースに記録します。 重要な問題については、System Center Operations Manager を構成して、メール、インスタントメッセージ、または SMS メッセージングを介して管理者にすぐに通知することができます。 (SMS、またはショートメッセージサービス) は、あるモバイルデバイスから別のモバイルデバイスにテキストメッセージを送信するために使用されるテクノロジです。
+- **コンポーネントとユーザー管理パック**(Microsoft.LS.2019.Monitoring.ComponentAndUser.mp) は、イベントログに記録された Skype For business Server の問題を追跡し、パフォーマンスカウンターで登録するか、または通話の詳細レコード (CDRs) または Quality of Experience (qoe) データベースに記録します。 重要な問題については、System Center Operations Manager を構成して、メール、インスタントメッセージ、または SMS メッセージングを介して管理者にすぐに通知することができます。 (SMS、またはショートメッセージサービス) は、あるモバイルデバイスから別のモバイルデバイスにテキストメッセージを送信するために使用されるテクノロジです。
 
     > [!NOTE]
     >  Operations Manager の通知の構成について詳しくは、「[通知の構成](https://go.microsoft.com/fwlink/p/?LinkID=268785&amp;amp;clcid=0x409)」をご覧ください。
 
-- **アクティブな監視管理パック**(Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp) システムにサインインしたり、インスタントメッセージを交換したり、公衆交換電話網 (PSTN) 上にある電話への通話を発信するなど、Skype for Business Server の主要なコンポーネントを事前にテストする). これらのテストは、Skype for Business Server の代理トランザクションコマンドレットを使用して行われます。 たとえば、テスト用の**cgi**コマンドレットを使って、一連のテストユーザー間のインスタントメッセージの会話をシミュレートします。 このシミュレートされた会話が失敗すると、アラートが生成されます。
+- **アクティブな監視管理パック**(Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp) は、システムにサインインしたり、インスタントメッセージを交換したり、公衆交換電話網 (PSTN) にある電話への通話を発信したりするなど、Skype For business Server の主要なコンポーネントを事前にテストします。 これらのテストは、Skype for Business Server の代理トランザクションコマンドレットを使用して行われます。 たとえば、テスト用の**cgi**コマンドレットを使って、一連のテストユーザー間のインスタントメッセージの会話をシミュレートします。 このシミュレートされた会話が失敗すると、アラートが生成されます。
 
 管理パックのインポートは、必要不可欠なステップです。管理パックをインポートしていない場合は、Operations Manager を使用して Skype for Business Server イベントを監視することや、Skype for Business Server 代理トランザクションを実行することができません。
 
@@ -101,12 +101,12 @@ Skype for Business Server の展開には、1つのルート管理サーバー�
 
 2. Operations Manager Shell で、コマンドプロンプトで次のコマンドを入力します。これには、Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp ファイルの実際のパスを使用し、enter キーを押します。
 
-   ```
+   ```PowerShell
    Import-SCOMManagementPack -FullName "D:\MP\Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp"
    ```
 
 3. 最初の管理パックをインポートした後、Microsoft.LS.2019.Monitoring.ComponentAndUser.mp ファイルのコピーのパスを使用して、次の手順を繰り返します。
 
-   ```
+   ```PowerShell
    Import-SCOMManagementPack -FullName "D:\MP\Microsoft.LS.2019.Monitoring.ComponentAndUser.mp"
    ```

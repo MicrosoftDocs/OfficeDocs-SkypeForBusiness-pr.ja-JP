@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa7d6b31-cb09-4e68-b020-aa5dd0081c20
 description: '概要: Skype for Business Server の IP 電話インベントリレポートについて説明します。'
-ms.openlocfilehash: 8d7d7be6b5a677f3df33ebf2e0bb01f31b76eac9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 51d4a3a7cbd4bf856efa93ae04c25accc5415796
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305669"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992172"
 ---
 # <a name="ip-phone-inventory-report-in-skype-for-business-server"></a>Skype for Business Server の IP 電話インベントリレポート
  
@@ -40,7 +40,7 @@ IP 電話在庫レポートは、[監視レポート] ホーム ページから�
 
 特定の機種の使用状況のみを調べる場合は (Polycom CX600 がどれくらいの頻度で使用されているかを調べる場合など)、その機種をフィルターで選択することによってその情報を直接 IP 電話在庫レポートから取得できますが、すべての電話機の概要情報が必要な場合は (Polycom CX600、LG-Nortel IP8540 など、機種ごとのユーザー数を調べる場合など)、データをエクスポートして別のアプリケーション (Windows PowerShell など) で分析する必要があります。たとえば、C:\Data\IP_Phone_Inventory_Report.csv という CSV (コンマ区切り値) ファイルにデータをエクスポートした場合、次の 2 つのコマンドを使用してすべての電話機の概要データを表示できます。
   
-```
+```PowerShell
 $phones = Import-Csv "C:\Data\IP_Phone_Inventory_Report.csv"
 $phones |Group-Object Manufacturer, "Hardware version" | Select-Object Count, Name | Sort-Object Count -Descending
 ```
@@ -65,7 +65,7 @@ Count    Name
 
 同様に、次の 2 つのコマンドを使用すると、システムにログオンしたが電話をかけるために使用されていない電話機を調べることができます ("Last activity (最後のアクティビティ)" という指標の値が空白になっています。これは、最後のアクティビティがないことを表します)。
   
-```
+```PowerShell
 $phones = Import-Csv "C:\Data\IP_Phone_Inventory_Report.csv"
 $phones | Where-Object {$_."Last activity" -eq ""}
 ```

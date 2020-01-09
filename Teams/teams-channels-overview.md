@@ -20,18 +20,17 @@ ms.collection:
 ms.custom: okr_smb
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6ea246588e6884e7c7dd2755d7d24aa486d193df
-ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
+ms.openlocfilehash: c125b8d62e78f9fc67689c5cd785f9cd13d8c619
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "38793393"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991002"
 ---
+# <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams でのチームとチャネルの概要
+
 > [!NOTE]
 > 以下の情報を確認して、Teamsでのチャット、チーム、チャンネル、およびアプリを理解してください。 次に、[チャット、チーム、チャネル、チーム内のアプリの &](deploy-chat-teams-channels-microsoft-teams-landing-page.md)に移動して、チームのロールアウトにとって重要な決定事項の一覧を表示します。
-
-<a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams でのチームとチャネルの概要
-=================================================
 
 はじめに、Microsoft Teams が各チームの自己組織化と、複数のビジネス シナリオにわたる共同作業をどのように実現しているかについて考えましょう。
 
@@ -51,7 +50,7 @@ ms.locfileid: "38793393"
 
 チームとチャネルを作成するためのベストプラクティスの詳細について、この短いビデオをご覧ください。
 
-   > [!VIDEO https://www.youtube.com/embed/hjJWtoaRJeE]
+   > [!VIDEO https://www.youtube.com/embed/WkAVgNKn0hs]
 
 <a name="membership-roles-and-settings"></a>メンバーシップ、ロール、および設定
 ------------------------------
@@ -69,7 +68,7 @@ Microsoft Teams には、主に次の2つの役割があります。
 - **チーム所有者**-チームを作成したユーザー。 チーム所有者は、チームのメンバーを、チームに招待した時点またはチームに参加した後に、共同所有者にすることができます。 複数のチーム所有者を用意すると、招待を含む、設定とメンバーシップの管理責任を共有できます。
 - **チームメンバー** -所有者がチームに参加するために招待するユーザー。
 
-また、モデレーションが設定されている場合、チームの所有者とメンバーは、チャネルのモデレーター機能を持つことができます。 モデレーターは、チャネルで新しい投稿を開始し、チームメンバーが既存のチャネルメッセージに返信できるかどうかを制御できます。 チームの所有者は、チャネル内でモデレーターを割り当てることができます。 (チームの所有者は既定でモデレーター機能を利用できます。)チャネル内のモデレーターは、チャネル内の他のモデレーターを追加または削除することができます。 詳細については、「 [Microsoft Teams でチャネルのモデレーションを設定および管理](manage-channel-moderation-in-teams.md)する」を参照してください。
+また、モデレーションが設定されている場合、チームの所有者とメンバーは、チャネルのモデレーター機能を持つことができます。 モデレーターは、チャネルで新しい投稿を開始し、チームメンバーが既存のチャネルメッセージに返信できるかどうかを制御できます。 チームの所有者は、チャネル内でモデレーターを割り当てることができます。 (チームの所有者は既定でモデレーター機能を利用できます。)チャネル内のモデレーターは、チャネル内の他のモデレーターを追加または削除することができます。 詳細については、「[Microsoft Teams でチャネル モデレーションをセットアップして管理する](manage-channel-moderation-in-teams.md)」を参照してください。
 
 **チームの設定** 
 

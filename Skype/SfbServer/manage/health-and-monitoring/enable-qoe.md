@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c8bb3c67-b324-4d94-8158-00c792c7ac42
 description: '概要: Skype for Business Server の Quality of Experience (QoE) を有効にする方法について説明します。'
-ms.openlocfilehash: 90110c5664e80ac1d4f9d382c20e0fd58d9ce134
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0a05266ed88b9d476ca787f1d32b91727e90475c
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305711"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992937"
 ---
 # <a name="enable-quality-of-experience-in-skype-for-business-server"></a>Skype for Business Server のエクスペリエンスの品質を有効にする
 
@@ -46,7 +46,7 @@ QoE を有効にするには、Windows PowerShell と**Set-CsQoEConfiguration**�
 
  QoE を有効にするには、EnableQoE パラメーターを True ($True) に設定します。
 
-  ```
+  ```PowerShell
   Set-CsQoEConfiguration -Identity "site:Redmond" -EnableQoE $True
   ```
 
@@ -54,7 +54,7 @@ QoE を有効にするには、Windows PowerShell と**Set-CsQoEConfiguration**�
 
  QoE を無効にするには、EnableQoE パラメーターを False ($False) に設定します。これによって監視がアンインストールされることはありません。QoE データの収集と保存が停止されるだけです。
 
-  ```
+  ```PowerShell
   Set-CsQoEConfiguration -Identity "site:Redmond" -EnableQoE $False
   ```
 
@@ -62,7 +62,7 @@ QoE を有効にするには、Windows PowerShell と**Set-CsQoEConfiguration**�
 
  このコマンドを実行すると、組織内で現在使用されているすべての QoE 構成設定に対して QoE が有効になります。
 
-  ```
+  ```PowerShell
   Get-CsQoEConfiguration | Set-CsQoEConfiguration "site:Redmond" -EnableQoE $True
   ```
 

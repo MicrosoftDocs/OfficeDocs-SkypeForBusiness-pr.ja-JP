@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb09f9c2-c6dc-4083-b45a-8b6773341373
 description: '概要: Skype for Business Server で会議の参加を管理する方法、およびお知らせを残す方法について説明します。'
-ms.openlocfilehash: 3d9a14e36dfe6b8df51e5ee91dd329ce34452cda
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5c2bc7175f99ee50e94bee26ef0e6d54a6a8db5a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283796"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991832"
 ---
 # <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>Skype for Business Server で会議への参加とお知らせの脱退を管理する
  
@@ -40,7 +40,7 @@ ms.locfileid: "34283796"
     
 3. コマンド プロンプトで次のコマンドを実行します。
     
-   ```
+   ```PowerShell
    Get-CsDialinConferencingConfiguration
    ```
 
@@ -48,7 +48,7 @@ ms.locfileid: "34283796"
     
 4. コマンド プロンプトで次のコマンドを実行します。
     
-   ```
+   ```PowerShell
    Set-CsDialinConferencingConfiguration -Identity <identity of dial-in conferencing settings to be modified>
    [-EnableNameRecording <$true | $false>]
    [-EntryExitAnnouncementsEnabledByDefault <$true | $false>]
@@ -57,7 +57,7 @@ ms.locfileid: "34283796"
 
 次の例では、設定が Redmond のサイト スコープで定義されます。アナウンスはオンにされますが、会議に参加するときに名前を言うように参加者が求められることはありません。参加者が会議に出席または会議から退席するときには、トーン音が再生されます。
   
-```
+```PowerShell
 Set-CsDialinConferencingConfiguration -Identity site:Redmond
 -EnableNameRecording $false
 -EntryExitAnnouncementsEnabledByDefault $true

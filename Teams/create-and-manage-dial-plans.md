@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 通話ダイヤルプラン (PSTN 通話ダイヤルプラン) を作成して管理する方法と、それらを管理する方法について説明します。
-ms.openlocfilehash: 7280614d2eab12dff30d17ad71a3ac213e94dcd4
-ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
+ms.openlocfilehash: c9623073cd5660a67bc2ba77b9c07a356d636520
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/17/2019
-ms.locfileid: "40069438"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991662"
 ---
 # <a name="create-and-manage-dial-plans"></a>ダイヤル プランを作成および管理する
 
@@ -49,7 +49,7 @@ ms.locfileid: "40069438"
     > [!NOTE]
     > チームは正規化ルールの一覧を上から下に移動し、ダイヤルされた番号に一致する最初のルールを使用します。 ダイヤルプランを設定して、ダイヤルした番号が複数の正規化ルールと一致するようにする場合は、制限の少ない制限を超えて、より制限されたルールが並べ替えられるようにします。
 
-6. [**保存**] をクリックします。
+6. **[保存]** をクリックします。
 7. ダイヤルプランをテストするには、[**ダイヤルプランのテスト**] で電話番号を入力し、[**テスト**] をクリックします。
 
 ### <a name="edit-a-dial-plan"></a>ダイヤルプランを編集する
@@ -66,7 +66,7 @@ ms.locfileid: "40069438"
 4. [**ユーザーの管理**] ウィンドウで、[表示名] または [ユーザー名] でユーザーを検索し、名前を選択して [**追加**] を選択します。 追加するユーザーごとに、この手順を繰り返します。
 5. ユーザーの追加が完了したら、[**適用**] を選択します。
 
-## <a name="using-powershell"></a>PowerShell を使用する
+## <a name="using-powershell"></a>PowerShell を使用する場合
   
 ### <a name="verify-and-start-remote-powershell"></a>リモート PowerShell を確認して開始する
 
@@ -92,7 +92,7 @@ ms.locfileid: "40069438"
     > Skype for Business Online Windows PowerShell モジュールを初めて使用するときに、 **Import-Module** コマンドを実行するだけです。
   
 
-    ```
+    ```PowerShell
     Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
@@ -107,7 +107,7 @@ ms.locfileid: "40069438"
 
 - ダイヤル プランを新規作成するには、次を実行します。
     
-  ```
+  ```PowerShell
   New-CsTenantDialPlan -Identity RedmondDialPlan -Description "Dial Plan for Redmond" -NormalizationRules <pslistmodifier> -ExternalAccessPrefix 9 -SimpleName "Dial-Plan-for-Redmond"
   ```
 
@@ -115,7 +115,7 @@ ms.locfileid: "40069438"
     
 - 既存のダイヤルプランの設定を編集するには、次を実行します。
     
-  ```
+  ```PowerShell
   Set-CsTenantDialPlan -Identity RedmondDialPlan  -NormalizationRules <pslistmodifier> -ExternalAccessPrefix 9
     -SimpleName "Dial-Plan-for-Redmond"
   ```
@@ -124,7 +124,7 @@ ms.locfileid: "40069438"
     
 - ユーザーをダイヤル プランに追加するには、次を実行します。
     
-  ```
+  ```PowerShell
   Grant-CsTenantDialPlan -Identity amos.marble@contoso.com -PolicyName RedmondDialPlan
   ```
 
@@ -132,7 +132,7 @@ ms.locfileid: "40069438"
     
 - ダイヤル プランの設定を表示するには、次を実行します。
     
-  ```
+  ```PowerShell
   Get-CsTenantDialPlan -Identity RedmondDialPlan
   ```
 
@@ -140,7 +140,7 @@ ms.locfileid: "40069438"
     
 - ダイヤル プランを削除するには、次を実行します。
     
-  ```
+  ```PowerShell
   Remove-CsTenantDialPlan -Identity RedmondDialPlan -force
   ```
 
@@ -148,7 +148,7 @@ ms.locfileid: "40069438"
     
 - 有効なダイヤル プランの設定を表示するには、次を実行します。
     
-  ```
+  ```PowerShell
   Get-CsEffectiveTenantDialPlan -Identity amos.marble@contoso.com
   ```
 
@@ -156,7 +156,7 @@ ms.locfileid: "40069438"
     
 - ダイヤル プランの有効な設定をテストするには、次を実行します。
     
-  ```
+  ```PowerShell
   Test-CsEffectiveTenantDialPlan -DialedNumber 14255550199 -Identity amos.marble@contoso.com
   ```
 
@@ -165,7 +165,7 @@ ms.locfileid: "40069438"
 #### <a name="using-a-powershell-script"></a>PowerShell スクリプトの使用
 
 これを実行して、最初にテナントダイヤルプランを削除することなく、テナントダイヤルプランに関連付けられている正規化ルールを削除します。
-```
+```PowerShell
 $b1=New-CsVoiceNormalizationRule -Identity Global/NR4 -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{add=$b1}
 (Get-CsTenantDialPlan -Identity RedmondDialPlan).NormalizationRules
@@ -173,19 +173,19 @@ $b2=New-CsVoiceNormalizationRule -Identity Global/NR4 -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$b2}
 ```
 これを実行して、次の正規化ルールを RedmondDialPlan という名前の既存のテナント ダイヤル プランに追加します。
-```
+```PowerShell
 $nr1=New-CsVoiceNormalizationRule -Parent Global -Description 'Organization extension dialing' -Pattern '^(\\d{3})$' -Translation '+14255551$1' -Name NR1 -IsInternalExtension $false -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{add=$nr1}
 ```
 これを実行して、次の正規化ルールを RedmondDialPlan という名前の既存のテナント ダイヤル プランから削除します。
-```
+```PowerShell
 $nr1=New-CsVoiceNormalizationRule -Parent Global/NR1 -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$nr1}
 ```
 
 既存の正規化ルールを調べて、どれを削除するかを決定し、そのインデックスを使用して削除するときには、次を実行します。正規化ルールの配列は、インデックス 0 で開始します。インデックス 1 である、3 桁の正規化ルールを削除する必要があります。
   
-```
+```PowerShell
 Get-CsTenantDialPlan RedmondDialPlan).NormalizationRules
 Description         : 4-digit
 Pattern             : ^(\\d{4})$
@@ -205,12 +205,12 @@ Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$nr1
 
 これを実行して、RedmondDialPlan テナント ダイヤル プランが付与されているすべてのユーザーを見つけます。
   
-```
+```PowerShell
 Get-CsOnlineUser | Where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
 ```
 
 これを実行して、HostingProvider の sipfed.online.lync.com を持つすべてのユーザーから割り当てられている TenantDialPlan を削除します。
-```
+```PowerShell
 Get-CsOnlineUser -Filter {HostingProvider -eq “sipfed.online.lync.com”} | Grant-CsTenantDialPlan -policyname $null
 ```
 
@@ -218,7 +218,7 @@ Get-CsOnlineUser -Filter {HostingProvider -eq “sipfed.online.lync.com”} | Gr
   
 これを実行して、オンプレミス ダイヤル プランを xml ファイルに保存します。
   
-```
+```PowerShell
 $DPName = "OPDP1"
 $DPFileName = "dialplan.xml"
 Get-CsDialplan $DPName | Export-Clixml $DPFileName
@@ -226,7 +226,7 @@ Get-CsDialplan $DPName | Export-Clixml $DPFileName
 
 これを実行して、新しいテナント ダイヤル プランを作成します。
   
-```
+```PowerShell
 $DPFileName = "dialplan.xml"
 $dp = Import-Clixml $DPFileName
 $NormRules = @()

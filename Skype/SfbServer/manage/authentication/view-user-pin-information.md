@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
 description: '概要: Skype for Business Server でユーザーの PIN 情報を表示します。'
-ms.openlocfilehash: 48b179a8d6e8619c909cb92ba63d9a5869ae8f2e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e0a74d980be4c77c5fe92f9e0d871f238a7271f5
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297604"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991942"
 ---
 # <a name="view-user-pin-information-in-skype-for-business-server"></a>Skype for Business Server でユーザーの PIN 情報を表示する
  
@@ -69,7 +69,7 @@ Get-CsClientPinInfo コマンドレットを使用して、ユーザーの PIN �
 
 ユーザーの PIN 情報を表示するには、Skype for Business Server 管理シェルで次のようなコマンドを入力し、enter キーを押します。
     
-  ```
+  ```PowerShell
   Get-CsClientPinInfo -Identity "Ken Myer"
   ```
 

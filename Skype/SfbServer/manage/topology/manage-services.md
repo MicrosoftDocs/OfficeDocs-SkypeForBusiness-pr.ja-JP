@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: サービスの状態の表示、サービスの開始と停止、サービスのセッションの無効化などの方法について説明します。
-ms.openlocfilehash: c3c0ad3a61543caf7866582413a67968c4c1c2d6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 90acd45675277dad0f63db342217cf914c97109a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275151"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991522"
 ---
 # <a name="manage-services-in-skype-for-business-server"></a>Skype for Business Server でサービスを管理する
 
@@ -61,7 +61,7 @@ Skype for Business Server コントロールパネルを使用して、Skype for
 
 このコマンドは、次のような情報を返します。
 
-```
+```console
 RoleName                                  Status
 --------                                  ------
 {W3SVC}                                   Running

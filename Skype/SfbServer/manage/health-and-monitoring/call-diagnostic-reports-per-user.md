@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9da13470-001e-415f-b8c5-29b1f3b531ba
 description: '概要: Skype for Business Server で使用されているユーザーごとの通話診断レポートについて説明します。'
-ms.openlocfilehash: 2361d25b69d92682336e7e2d5320a32974d62b80
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c2ef55243680cbb8bc088c2b056b298428b70b50
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289358"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992072"
 ---
 # <a name="call-diagnostic-reports-per-user-in-skype-for-business-server"></a>Skype for Business Server で診断レポート (ユーザーごと) を呼び出す
   
@@ -48,7 +48,7 @@ Ken.my
 ユーザーアクティビティレポートには、多くの適切な情報はありますが、情報を見つけるのが難しい場合があります。 たとえば、指定した期間中に組織内で実行されるすべてのユーザーアクティビティは、ユーザーアクティビティレポートに含まれます。つまり、レポート内に埋め込むということは、何らかの方法で実際に Skype for Business Server を使用したユーザーに関する情報です。
 
 > [!NOTE]
-> 技術的には、一部のユーザーアクティビティが unrecorded になることがあります。 Skype for Business Server では、すべての通話に関する情報を保持することができますが、通話についての情報が記録されていなくても、通話が発信される可能性があります。データベース. Skype for Business Server は、非常に正確であるように設計されていますが、Skype for Business Server を使用する方法については、必ずしも詳しくは説明しません。 (Skype for Business Server の監視を請求システムとして使用することはできないため、すべての通話の 100% が記録されるという保証はありません)。次に、監視レポートで表示できるのは、最大で1000レコードだけです。 これは、ユーザー アクティビティの量と作業時間によっては、データベースに実際に格納されたデータの一部がクエリでは返されない場合があることを意味します。 
+> 技術的には、一部のユーザーアクティビティが unrecorded になることがあります。 Skype for Business Server では、すべての通話に関する情報を保持することができますが、通話についての情報が記録されていなくても、通話が発信される可能性があります。データベース. Skype for Business Server は、非常に正確であるように設計されていますが、Skype for Business Server を使用する方法については、必ずしも詳しくは説明しません。 (Skype for Business Server の監視を請求システムとして使用することはできないため、すべての通話の100% が記録されるという保証はありません)。次に、監視レポートで表示できるのは、最大で1000レコードだけです。 これは、ユーザー アクティビティの量と作業時間によっては、データベースに実際に格納されたデータの一部がクエリでは返されない場合があることを意味します。 
 
 - この期間内にシステムを実際に使用したのはどのユーザーか。
 
@@ -58,13 +58,13 @@ Ken.my
 
 このような情報を確認するには、監視レポートで取得されたデータを Excel スプレッドシートにエクスポートします。 次に、そのスプレッドシート/カンマ区切り値ファイルを使用して、ユーザー アクティビティ レポートのような方法でデータを分析します。 たとえば、レポートデータを Excel にエクスポートしてから、カンマ区切り値ファイルにエクスポートするとします。 その時点で、からデータをインポートできます。次のようなコマンドを使用して、Windows PowerShell に CSV ファイルを保存します。
 
-```
+```PowerShell
 $x = Import-Csv -Path "C:\Data\User_Activity_Report.csv"
 ```
 
 データをインポートした後は、簡単な Windows PowerShell コマンドを使って質問に答えることができます。 たとえば、次のコマンドは、少なくとも 1 つのセッションで "呼び出し元ユーザー" としての役割を果たす一意のユーザーの一覧を返します。
 
-```
+```PowerShell
 $x | Group-Object "From user" | Select Name | Sort-Object Name
 ```
 
@@ -82,7 +82,7 @@ Pilar.Ackerman@litwareinc.com
 
 次のコマンドは、ユーザーが参加しているセッションの合計数に基づいて、一意のユーザーの一覧を表示します。
 
-```
+```PowerShell
 $x | Group-Object "From user" | Select Count, Name | Sort-Object Count -Descending
 ```
 
@@ -100,7 +100,7 @@ Count    Name
 
 次のコマンドは、報告されたセッションを、モダリティとしてオーディオが含まれるセッションに制限します。
 
-```
+```PowerShell
 $x | Where-Object {$_.Modalities -match "audio"} | Group-Object "From user" | Select Count, Name | Sort-Object Count -Descending
 ```
 
@@ -163,7 +163,7 @@ $x | Where-Object {$_.Modalities -match "audio"} | Group-Object "From user" | Se
 
 |**名前**|**この項目での並べ替え**|**説明**|
 |:-----|:-----|:-----|
-|**[役割]** <br/> |いいえ  <br/> |電話会議におけるユーザーの役割 (発表者など)。  <br/> |
+|**役割** <br/> |いいえ  <br/> |電話会議におけるユーザーの役割 (発表者など)。  <br/> |
 |**[参加者]** <br/> |いいえ  <br/> |ユーザーの SIP アドレス。  <br/> |
 |**[接続]** <br/> |いいえ  <br/> |ネットワーク接続の種類。たとえば、"内部送信元" は内部接続、"送信元 PSTN" はダイヤル ユーザーを表します。  <br/> |
 |**[参加時間]** <br/> |いいえ  <br/> |ユーザーが電話会議に参加した日時。  <br/> |

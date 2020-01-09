@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype for Business Server は、アナログデバイスをサポートしています。 特に、サポートされているアナログデバイスはアナログオーディオ電話とアナログ fax マシンです。 Skype for Business Server 環境でのアナログデバイスの使用をサポートするために、修飾ゲートウェイを構成することができます。 Skype for Business Server 2019 に移行した後は、アナログデバイスに関連付けられた連絡先オブジェクトも移行する必要があります。 Skype for Business Server 管理シェルを使って、従来のアナログデバイスに関連付けられたすべての連絡先オブジェクトを取得してから、それらのオブジェクトを Skype for Business Server 2019 プールに移動します。
-ms.openlocfilehash: 486c49c0ace00b798520ebae939c0c2070a99783
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7ca36c92270685709c479a1d164f60d0960c526c
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36238040"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40990092"
 ---
 # <a name="migrate-analog-devices"></a>アナログ デバイスの移行
 
@@ -26,13 +26,13 @@ Skype for Business Server は、アナログデバイスをサポートしてい
 
 2. コマンド ラインで次を入力します。
 
-   ```
+   ```PowerShell
    Get-CsAnalogDevice -Filter {RegistrarPool -eq "pool01.contoso.net"} | Move-CsAnalogDevice -Target pool02.contoso.net
    ```
 
 3. すべての連絡先オブジェクトが Skype for Business Server 2019 プールに移動されていることを確認します。 コマンド ラインで次を入力します。
 
-   ```
+   ```PowerShell
    Get-CsAnalogDevice -Filter {RegistrarPool -eq "pool02.contoso.net"}
    ```
 

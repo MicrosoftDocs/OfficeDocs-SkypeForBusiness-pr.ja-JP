@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: コールパークアプリケーションの移行には、Skype for Business Server 2019 プールのプロビジョニングが含まれています。このファイルには、従来のインストールでアップロードされたカスタム音楽が含まれています。また、サービスレベル設定を復元して、orbits の retargetingSkype for Business Server 2019 プール。 カスタマイズした音楽の保留中のファイルがプールで構成されている場合は、これらのファイルを新しい Skype for Business Server 2019 プールにコピーする必要があります。 さらに、コールパーク用にアップロードされた、カスタマイズされた音楽の保存ファイルを別の場所にバックアップしておくことをお勧めします。これは、コールパーク用にアップロードされたカスタマイズされた音楽の保存ファイルの個別のバックアップコピーを保持するためです。 コールパークアプリケーション用にカスタマイズされた音楽保留のファイルは、プールのファイルストアに保存されます。 プールファイルストアから Skype for Business Server 2019 ファイルストアにオーディオファイルをコピーするには、次のパラメーターを使用して Xcopy コマンドを使用します。
-ms.openlocfilehash: efb2bfbf8ac62ad05e2ee560c2aca4fb7b496006
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 0435144fc647a08d8252f35d8449d1e7daa62d68
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36238033"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991162"
 ---
 # <a name="migrate-call-park-application-settings"></a>コール パーク アプリケーション設定の移行
 
@@ -41,7 +41,7 @@ Example usage:  Xcopy "<legacy File Store Path>\OcsFileStore\coX-ApplicationServ
     > [!NOTE]
     > Skype for Business Server 2019 Call パークのアプリケーション設定が従来の設定と同じである場合は、この手順をスキップできます。 コールパークアプリケーションの設定が Skype for Business Server 2019 と従来の環境で異なる場合は、次のコマンドレットをテンプレートとして使用して、それらの変更を更新します。 
 
-   ```
+   ```PowerShell
    Set-CsCpsConfiguration -Identity "<LS2013 Call Park Service ID>" -CallPickupTimeoutThreshold "<LS2010 CPS TimeSpan>" -EnableMusicOnHold "<LS2010 CPS value>" -MaxCallPickupAttempts "<LS2010 CPS pickup attempts>" -OnTimeoutURI "<LS2010 CPS timeout URI>"
    ```
 
@@ -65,7 +65,7 @@ Example usage:  Xcopy "<legacy File Store Path>\OcsFileStore\coX-ApplicationServ
 
 2. コマンドラインで、次のように入力します。
 
-   ```
+   ```PowerShell
    Get-CsCallParkOrbit
    ```
 
@@ -73,7 +73,7 @@ Example usage:  Xcopy "<legacy File Store Path>\OcsFileStore\coX-ApplicationServ
 
     従来のコールパークの範囲を Skype for Business Server 2019 プールに再割り当てするには、コマンドラインで次のように入力します。
 
-   ```
+   ```PowerShell
    Set-CsCallParkOrbit -Identity "<Call Park Orbit Identity>" -CallParkService "service:ApplicationServer:<Skype for Business Server 2019 Pool FQDN>"
    ```
 

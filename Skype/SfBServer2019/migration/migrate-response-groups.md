@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ユーザーが Skype for Business Server 2019 プールに移動された後、応答グループを移行できます。 応答グループの移行には、エージェントグループ、キュー、ワークフロー、オーディオファイル、および、従来の展開から Skype for Business Server 2019 プールへの応答グループの連絡先オブジェクトの移動が含まれます。 従来の応答グループを移行すると、応答グループへの通話は、Skype for Business Server 2019 プールの応答グループアプリケーションによって処理されます。 応答グループへの通話は、従来のプールでは処理されなくなりました。
-ms.openlocfilehash: b8d49205f4f54ca7c00a9aed0b6ac176c11cd617
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 148fbe2ca547c3bd7e3d240e687b37c94d10270b
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237971"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991112"
 ---
 # <a name="migrate-response-groups"></a>応答グループの移行
 
@@ -57,13 +57,13 @@ Skype for Business Server 2019 では、**ワークフローの種類**と呼ば
     
 3. 次のコマンドレットを実行します。
     
-   ```
+   ```PowerShell
    Move-CsRgsConfiguration -Source <source pool FQDN> -Destination <destination pool FQDN>
    ```
 
     次に例を示します。
     
-   ```
+   ```PowerShell
    Move-CsRgsConfiguration -Source skype-old.contoso.net -Destination skype-new.contoso.net
    ```
 
@@ -91,13 +91,13 @@ Skype for Business Server 2019 では、**ワークフローの種類**と呼ば
     
     次のコマンドレットの詳細については、次を実行します。
     
-   ```
+   ```PowerShell
    Get-Help <cmdlet name> -Detailed
    ```
 
 3. 次のコマンドレットを実行します。
     
-   ```
+   ```PowerShell
    Get-CsRgsAgentGroup
    ```
 
@@ -105,7 +105,7 @@ Skype for Business Server 2019 では、**ワークフローの種類**と呼ば
     
 5. 次のコマンドレットを実行します。
     
-   ```
+   ```PowerShell
    Get-CsRgsQueue
    ```
 
@@ -113,7 +113,7 @@ Skype for Business Server 2019 では、**ワークフローの種類**と呼ば
     
 7. 次のコマンドレットを実行します。
     
-   ```
+   ```PowerShell
    Get-CsRgsWorkflow
    ```
 

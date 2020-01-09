@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype for Business Server 2019 コントロールパネルまたは Skype for Business Server 2019 Management Shell を使って、ユーザーを従来のプールから Skype for Business Server 2019 パイロットプールに移動することができます。 次の例では、レジストラー pool 列で、pool01.contoso.net はレガシプールであり、これらの6人のユーザーはこのプールに接続されています。 Skype for Business Server 2019 コントロールパネルと Skype for Business Server Management Shell を使って、ユーザーを Skype for business server 2019 プールに移動するには、次の手順を使用します。
-ms.openlocfilehash: 456035cfd917f620383d4dff70f6366cd73d530e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 8964dd3dc868c22cd14389ba70b88d32b6bd145a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237766"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40988962"
 ---
 # <a name="move-a-single-user-to-the-pilot-pool"></a>1人のユーザーをパイロットプールに移動する
 
@@ -44,13 +44,13 @@ Skype for Business Server 2019 コントロールパネルまたは Skype for Bu
     
 2. コマンドラインで、次のように入力します。 
     
-   ```
+   ```PowerShell
    Move-CsUser -Identity "David Pelton" -Target "pool02.contoso.net"
    ```
 
 3. 次に、コマンドラインで次のように入力します。 
     
-   ```
+   ```PowerShell
    Get-CsUser -Identity "David Pelton"
    ```
 

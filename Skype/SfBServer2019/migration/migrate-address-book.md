@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 通常、アドレス帳は、他のトポロジと共に移行されます。 ただし、従来の環境で次のようにカスタマイズした場合は、移行後のいくつかの手順を実行する必要がある場合があります。
-ms.openlocfilehash: 4a3a85715b73c3a6b5996ba677b0647c87a8db1e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 8c8e66a8182890ee6e3673769ddc620bb04404c6
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36238054"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40990102"
 ---
 # <a name="migrate-address-book"></a>アドレス帳の移行
 
@@ -34,16 +34,16 @@ ms.locfileid: "36238054"
 
  **UseNormalizationRules が False に設定**
 
-ユーザーが Skype for Business Server **** 2019 で正規化ルールを**適用せずに Active Directory ドメインサービスで定義されているように、UseNormalizationRules の値を False に設定した場合、UseNormalizationRules**と**Ignoregenericrules**パラメーターを True にします。 このセクションの後半の手順に従って、これらのパラメーターを True に設定します。 
+ユーザーが Skype for Business Server 2019 で正規化ルールを適用せずに Active Directory ドメインサービスで定義されているように、 **UseNormalizationRules**の値を False に設定した場合、 **UseNormalizationRules**と**Ignoregenericrules**パラメーターを True に設定する必要があります。 このセクションの後半の手順に従って、これらのパラメーターを True に設定します。 
 
 ## <a name="to-migrate-address-book-customized-normalization-rules"></a>アドレス帳のカスタマイズされた正規化ルールを移行するには
 
-1. アドレス帳の共有フォルダーのルートにある Company_Phone_Number_Normalization_Rules ファイルを見つけて、Skype for Business Server 2019 パイロットプールのアドレス帳の共有フォルダーのルートにコピーします。
+1. アドレス帳の共有フォルダーのルートで Company_Phone_Number_Normalization_Rules .txt ファイルを見つけて、Skype for Business Server 2019 パイロットプールのアドレス帳の共有フォルダーのルートにコピーします。
 
     > [!NOTE]
-    > サンプルのアドレス帳の正規化ルールは、ABS Web コンポーネントファイルディレクトリにインストールされています。 パスは **$installedDriveLetter です。 Skype For Business Server 2019 \ Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules**をご覧ください。 このファイルは、 **Company_Phone_Number_Normalization_Rules**として、アドレス帳の共有フォルダーのルートディレクトリにコピーし、名前を変更することができます。 たとえば、 **$serverX**で共有されているアドレス帳は、 ** \\$serverX \SkypeForBusiness-FileShare\2-WebServices-1\ABFiles**のようなパスになります。 
+    > サンプルのアドレス帳の正規化ルールは、ABS Web コンポーネントファイルディレクトリにインストールされています。 パスは **$installedDriveLetter です。 Skype For Business Server 2019 \ Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules .txt**をご覧ください。 このファイルは、アドレス帳の共有フォルダーのルートディレクトリに**Company_Phone_Number_Normalization_Rules .txt**としてコピーし、名前を変更することができます。 たとえば、 **$serverX**で共有されているアドレス帳は、 ** \\$serverX \SkypeForBusiness-FileShare\2-WebServices-1\ABFiles**のようなパスになります。 
 
-2. メモ帳などのテキストエディターを使用して、Company_Phone_Number_Normalization_Rules ファイルを開きます。
+2. メモ帳などのテキストエディターを使用して、Company_Phone_Number_Normalization_Rules .txt ファイルを開きます。
 
 3. 一部の種類のエントリは、Skype for Business Server 2019 では正しく動作しません。 この手順で説明したエントリの種類をファイルで確認し、必要に応じて編集して、変更内容をパイロットプールのアドレス帳の共有フォルダーに保存します。
 
@@ -63,29 +63,29 @@ ms.locfileid: "36238054"
 
 1. Skype for Business Server 管理シェルを開始します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft skype for business Server 2019**]、[ **skype for business server 管理シェル**] の順にクリックします。
 
-2. 次のいずれかの操作を行います。
+2. 次のいずれかを実行します。
 
    - 展開に Skype for Business Server 2019 のみが含まれている場合は、次のコマンドレットをグローバルレベルで実行して、 **UseNormalizationRules**と**ignoregenericrules**の値を True に変更します。 
 
-   ```
+   ```PowerShell
    Set-CsAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
    ```
 
    - 展開に Skype for Business Server 2019 とレガシインストールの組み合わせが含まれている場合は、次のコマンドレットを実行して、トポロジの各 Skype for Business Server 2019 プールに割り当てます。
 
-   ```
+   ```PowerShell
    New-CsAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
    ```
 
 3. すべてのプールで一元管理ストアのレプリケーションが実行されるのを待ちます。
 
-4. コンテンツをクリアするために展開するために、電話の正規化規則ファイル "Company_Phone_Number_Normalization_Rules" を変更します。 ファイルは、各 Skype for Business Server 2019 プールのファイル共有にあります。 ファイルが存在しない場合は、"Company_Phone_Number_Normalization_Rules" という名前の空のファイルを作成します。
+4. 展開でコンテンツをクリアするために、電話の正規化規則ファイル "Company_Phone_Number_Normalization_Rules .txt" を変更します。 ファイルは、各 Skype for Business Server 2019 プールのファイル共有にあります。 ファイルが存在しない場合は、"Company_Phone_Number_Normalization_Rules .txt" という名前の空のファイルを作成します。
 
 5. すべてのフロントエンドプールが新しいファイルを読み取るまで数分待ちます。
 
 6. 展開されている各 Skype for Business Server 2019 プールで、次のコマンドレットを実行します。
 
-   ```
+   ```PowerShell
    Update-CsAddressBook
    ```
 

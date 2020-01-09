@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: '概要: Skype for Business Server の代理トランザクション用にウォッチャーノードをインストールして構成します。'
-ms.openlocfilehash: f95803f61d527196c97c7a6a17b8e0bfcfdfbc7a
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 7711c7c2009149fc6dd49ed34b4c55312cb7417a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221519"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992444"
 ---
 # <a name="install-and-configure-watcher-nodes"></a>監視ノードのインストールと構成
  
@@ -110,9 +110,9 @@ Skype for Business Server 2015 コアファイルと RTCLocal データベース
   
 1. 監視ノード コンピューターで、[スタート] ボタン、[すべてのプログラム]、[アクセサリ] の順にクリックし、[コマンド プロンプト] を右クリックし、[管理者として実行] をクリックします。
     
-2. コンソール ウィンドウで、次のコマンドを入力して Enter キーを押します。 Skype for Business Server セットアップファイルへの適切なパスを入力してください: D:\Setup.exe/BootstrapLocalMgmtTo コア Skype for Business Server コンポーネントが正常にインストールされたことを確認するには、[**スタート**] をクリックし、[**すべてのプログラム**] をクリックします。[ **skype For Business server 2015**] をクリックし、[skype For Business **server 管理シェル**] をクリックします。 Skype for Business Server 管理シェルで、次の Windows PowerShell コマンドを入力し、enter キーを押します。
+2. コンソール ウィンドウで、次のコマンドを入力して Enter キーを押します。 Skype for Business Server セットアップファイルへの適切なパスを入力してください: D:\Setup.exe/BootstrapLocalMgmtTo コア Skype for Business Server コンポーネントが正常にインストールされたことを確認するには、[**スタート**] をクリックし、[**すべてのプログラム**] をクリックし、[skype for business server **2015**] をクリックして、[ **skype for business server 管理シェル**] をクリックします Skype for Business Server 管理シェルで、次の Windows PowerShell コマンドを入力し、enter キーを押します。
   
-```
+```PowerShell
 Get-CsWatcherNodeConfiguration
 ```
 
@@ -169,26 +169,26 @@ System Center Operations Manager エージェントファイルがインスト�
   
 信頼されたアプリケーションプールを作成するには、Skype for Business Server 管理シェルを開き、次のようなコマンドを実行します。
   
-```
+```PowerShell
 New-CsTrustedApplicationPool -Identity atl-watcher-001.litwareinc.com -Registrar atl-cs-001.litwareinc.com -ThrottleAsServer $True -TreatAsAuthenticated $True -OutboundOnly $False -RequiresReplication $True -ComputerFqdn atl-watcher-001.litwareinc.com -Site Redmond
 ```
 
 > [!NOTE]
 > 上記のコマンドのパラメーターの詳細については、「Skype for Business Server 管理シェルのプロンプトで次のように入力します。 
   
-```
+```PowerShell
 Get-Help New-CsTrustedApplicationPool -Full | more
 ```
 
 信頼済みアプリケーション プールの作成後、これを行うには、**New-CsTrustedApplication** コマンドレットと次のようなコマンドを使用して、代理トランザクションが信頼済みアプリケーションとして実行されるように監視ノード コンピューターを構成します。
   
-```
+```PowerShell
 New-CsTrustedApplication -ApplicationId STWatcherNode -TrustedApplicationPoolFqdn atl-watcher-001.litwareinc.com -Port 5061
 ```
 
 上記のコマンドが完了し、信頼済みアプリケーションが作成されたら、**Enable-CsTopology** コマンドレットを実行して変更を有効にします。
   
-```
+```PowerShell
 Enable-CsTopology
 ```
 
@@ -196,7 +196,7 @@ Enable-CsTopology を実行後、コンピューターを再起動します。
   
 新しい信頼済みアプリケーションが作成されたことを確認するには、Skype for Business Server 管理シェルプロンプトで次のように入力します。
   
-```
+```PowerShell
 Get-CsTrustedApplication -Identity "atl-watcher-001.litwareinc.com/urn:application:STWatcherNode"
 ```
 
@@ -231,7 +231,7 @@ TrustedServer 認証を使用する各ウォッチャーノードには、Skype 
     
 2. 管理シェルで、次のコマンドを入力して、Enter キーを押します (Watchernode.msi のコピーへの実際のパスを指定)。
     
-```
+```PowerShell
 C:\Tools\Watchernode.msi Authentication=TrustedServer
 ```
 
@@ -241,7 +241,7 @@ C:\Tools\Watchernode.msi Authentication=TrustedServer
 > [!IMPORTANT]
 > 上記のコマンドの名前/値ペア Authentication=TrustedServer は大文字と小文字が区別されるので、ここで示すとおりに正確に入力する必要があります。たとえば次のコマンドは、大文字と小文字が正しく使用されていないので失敗します。 
   
-```
+```PowerShell
 C:\Tools\Watchernode.msi authentication=trustedserver
 ```
 
@@ -282,7 +282,7 @@ TrustedServer モードは、境界ネットワーク内のコンピューター
     
 2. Skype for Business Server 管理シェルで、次のコマンドを入力して、Enter キーを押します (Watchernode.msi のコピーへの実際のパスを指定)。
     
-   ```
+   ```PowerShell
    c:\Tools\Watchernode.msi Authentication=Negotiate
    ```
 

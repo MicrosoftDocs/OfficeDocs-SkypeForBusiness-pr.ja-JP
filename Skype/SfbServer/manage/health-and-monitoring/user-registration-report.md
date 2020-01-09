@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 151d5cc9-cc1b-4cfa-be9c-55ebe321f7a4
 description: '概要: Skype for Business Server のユーザー登録レポートについて説明します。'
-ms.openlocfilehash: efdb701a61f527e3dd56c1f1e0662f3f1b7f0f8b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 721d0b814a970ccb32df8eb83251099d8cb4801d
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279670"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991692"
 ---
 # <a name="user-registration-report-in-skype-for-business-server"></a>Skype for Business Server のユーザー登録レポート
  
@@ -51,14 +51,14 @@ Skype for Business Server を展開した後は、よく寄せられる質問の
   
 一意のログオンの数に加えて、Skype for Business Server が有効になっているユーザーの合計数を把握しておく必要があります。 この値を取得するには、Skype for Business Server 管理シェルを開き、次の Windows PowerShell コマンドを実行します。
   
-```
+```PowerShell
 (Get-CsUser).Count
 ```
 
-上記のコマンドによって、1236の値が返され、固有のログオンユーザーのメトリックが返される場合は、667の平均値を返します。これは、Skype for Business が Skype for Business で実際に1日にシステムにログオンしていることを示しています (667を1236で割った値 (約 54%)。
+上記のコマンドによって、1236の値が返され、固有のログオンユーザーのメトリックが返される場合は、667の平均値を返します。これは、Skype for Business が Skype for Business で実際に1日にシステムにログオンしていることを示しています (667を1236で割った値 (約54%)。
   
 > [!CAUTION]
-> ログオンの指標に記録されるのは、指定した期間内に実際にログオンしたユーザーの数である点に注意してください。 その前に既にシステムにログオンしていたユーザーは追跡されません。 たとえば、[一意のログオン ユーザー数] 指標が 667、ユーザー数が 1,236 の場合、約半分のユーザーがシステムにログオンしたことになります。 ただし、ログオン データのチェックを開始する前に既に 300 人のユーザーがシステムにログオンしていたとします。 これは、実際に Skype for business Server にログオンしているユーザーが、1000実際にはログオンしているユーザーの 80% に近いということを意味します。 
+> ログオンの指標に記録されるのは、指定した期間内に実際にログオンしたユーザーの数である点に注意してください。 その前に既にシステムにログオンしていたユーザーは追跡されません。 たとえば、[一意のログオン ユーザー数] 指標が 667、ユーザー数が 1,236 の場合、約半分のユーザーがシステムにログオンしたことになります。 ただし、ログオン データのチェックを開始する前に既に 300 人のユーザーがシステムにログオンしていたとします。 これは、実際に Skype for Business Server にログオンしているユーザーが、1000実際にはログオンしているユーザーの80% に近いということを意味します。 
   
 また、[一意のログオン ユーザー数] の値と [一意のアクティブなユーザー数] 指標も比較する必要があります。 固有のアクティブなユーザーのメトリックには、実際に Skype for Business Server を使用した一意のユーザーの数が表示されます。 skype for business Server 会議に参加しているか、IM セッションに参加しています。 Skype for Business Server は、ユーザーが Windows を起動するたびに自動的に起動するように構成できるため、この情報が役に立ちます。 このため、日常的に Windows にログオンしたときに Skype for Business に自動的にログオンするユーザーが多数存在する可能性がありますが、その間、実際に Skype for business Server を使用することはありません。
   

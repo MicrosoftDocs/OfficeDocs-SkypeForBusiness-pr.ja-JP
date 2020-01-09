@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
 description: '概要: Skype for Business Server で会議ポリシーを作成する方法について説明します。'
-ms.openlocfilehash: 323a50ab779e772ca6149dc4c151f9d42d55df66
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 078c80af0304c796bd3935200764a9ce6e13585b
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34304013"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991892"
 ---
 # <a name="create-conferencing-policies-in-skype-for-business-server"></a>Skype for Business Server で会議ポリシーを作成する
  
@@ -120,7 +120,7 @@ ms.locfileid: "34304013"
   
 次の例では、Id SalesConferencingPolicy を持つ新しい会議ポリシーを作成します。 このポリシーは MaxMeetingSize を除き、電話会議ポリシーのすべての既定値を使用します。 この例では、会議の最大サイズは既定値の 250 ではなく 50 に設定されます。
   
-```
+```PowerShell
 New-CsConferencingPolicy -Identity SalesConferencingPolicy -MaxMeetingSize 50
 ```
 

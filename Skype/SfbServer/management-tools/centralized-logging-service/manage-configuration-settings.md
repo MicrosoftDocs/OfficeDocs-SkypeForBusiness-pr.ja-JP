@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 description: '概要: Skype for Business Server 2015 の中央集中ログサービスの構成設定を取得、更新、作成する方法について説明します。'
-ms.openlocfilehash: e6c1f9c893d0b5e745e558ed37570429689259d9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 20f62a5568bef6f11eab35e13fa4e4f7adf8102e
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274430"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991462"
 ---
 # <a name="manage-centralized-logging-service-configuration-settings-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の集中ログ サービスの構成設定の管理
 
@@ -38,20 +38,20 @@ ms.locfileid: "34274430"
 
 Skype for Business Server 管理シェルを使用して一元的なログサービスのスコープを構成するには、CsAdministrator または CsServerAdministrator の役割ベースのアクセス制御 (RBAC) セキュリティグループのメンバーであるか、または、次の2つのグループのいずれかが含まれます。 このコマンドレットが割り当てられているすべての RBAC ロールの一覧 (自分自身で作成したカスタム RBAC ロールを含む) を返すには、Skype for Business Server 管理シェルまたは Windows PowerShell プロンプトから次のコマンドを実行します。
 
-```
+```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "<Skype for Business cmdlet>"}
 ```
 
 次に例を示します。
 
-```
+```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
 > [!NOTE]
 > Windows PowerShell または CLSController で実行できるコマンドラインコマンドには、基本的な違いがあります。 Windows PowerShell には、シナリオを構成して定義するための豊富な方法が用意されています。また、トラブルシューティングシナリオには、わかりやすい方法でこれらのシナリオを再利用することもできます。 CLSController には、コマンドを発行して結果を取得するための高速で効率的な方法が用意されていますが、CLSController 用のコマンドセットは、コマンドラインから利用できる有限コマンドによって制限されます。 Windows PowerShell コマンドレットとは異なり、CLSController では、新しいシナリオを定義することはできません。サイトまたはグローバルレベルでスコープを管理することも、動的に構成できない有限コマンドセットに関するその他多くの制限事項もあります。 CLSController は、高速実行の手段を提供しますが、Windows PowerShell は、CLSController で可能な範囲を超えて一元的なログサービス機能を拡張するための手段を提供します。
 
-検索の実行中に1つのコンピューターのスコープを定義できます。[検索-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/search-csclslogging?view=skype-ps)、 [Show](https://docs.microsoft.com/powershell/module/skype/show-csclslogging?view=skype-ps)-csclslogging、 [Start](https://docs.microsoft.com/powershell/module/skype/start-csclslogging?view=skype-ps)、csclslogging、 [Sync-](https://docs.microsoft.com/powershell/module/skype/sync-csclslogging?view=skype-ps) csclslogging [、および](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps) [Update](https://docs.microsoft.com/powershell/module/skype/update-csclslogging?view=skype-ps) -csclslogging-Computers パラメーターを使用しているコマンド。 -Computers パラメーターは、ターゲットコンピューターの完全修飾ドメイン名 (Fqdn) のコンマ区切りリストを受け取ります。
+1つのコンピューターのスコープは、 [Search-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/search-csclslogging?view=skype-ps)の実行時に定義することができます。この場合は、[コンピューター []](https://docs.microsoft.com/powershell/module/skype/show-csclslogging?view=skype-ps)パラメーターを使用して、 [[csclslogging](https://docs.microsoft.com/powershell/module/skype/start-csclslogging?view=skype-ps)]、[Sync-csclslogging []、[](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps)[同期-](https://docs.microsoft.com/powershell/module/skype/sync-csclslogging?view=skype-ps) csclslogging] の[各コマンドを](https://docs.microsoft.com/powershell/module/skype/update-csclslogging?view=skype-ps)実行します。 -Computers パラメーターは、ターゲットコンピューターの完全修飾ドメイン名 (Fqdn) のコンマ区切りリストを受け取ります。
 
 > [!TIP]
 > また、プールと、ログコマンドを実行するプールのコンマ区切りリストを定義することもできます。
@@ -67,7 +67,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 2. コマンド ライン プロンプトで次のように入力します。
 
-   ```
+   ```PowerShell
    Get-CsClsConfiguration
    ```
 
@@ -81,7 +81,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 2. コマンド ライン プロンプトで次のように入力します。
 
-   ```
+   ```PowerShell
    Get-CsClsConfiguration -LocalStore
    ```
 
@@ -92,13 +92,13 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 2. コマンド ライン プロンプトで次のように入力します。
 
-   ```
+   ```PowerShell
    Get-CsClsConfiguration -Identity <scope and name> | Select-Object -ExpandProperty Scenarios
    ```
 
     たとえば、グローバル スコープで定義されているシナリオを取得するには、次のように入力します。
 
-   ```
+   ```PowerShell
    Get-CsClsConfiguration -Identity "global" | Select-Object -ExpandProperty Scenarios
    ```
 
@@ -109,13 +109,13 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 2. コマンド ライン プロンプトで次のように入力します。
 
-   ```
+   ```PowerShell
    Set-CsClsConfiguration -Identity <scope> -EtlFileRolloverSizeMB <size for logging file in megabytes>
    ```
 
    次に例を示します。
 
-   ```
+   ```PowerShell
    Set-CsClsConfiguration -Identity "global" -EtlFileRolloverSizeMB 40
    ```
 
@@ -126,13 +126,13 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 2. コマンド ライン プロンプトで次のように入力します。
 
-   ```
+   ```PowerShell
    Set-CsClsConfiguration -Identity <scope/site name> -EtlFileRolloverSizeMB <size for logging file in megabytes>
    ```
 
    次に例を示します。
 
-   ```
+   ```PowerShell
    Set-CsClsConfiguration -Identity "site/Redmond" -EtlFileRolloverSizeMB 40
    ```
 
@@ -146,7 +146,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 2. コマンド ライン プロンプトで次のように入力します。
 
-   ```
+   ```PowerShell
    New-CsClsConfiguration -Identity <scope and name> [CsClsConfiguration options for this site]
    ```
 
@@ -155,7 +155,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 たとえば、キャッシュ ファイル用のネットワーク フォルダー、ログ ファイルのロールオーバー時間、およびログ ファイルのロールオーバー サイズを定義する新しい構成を作成するには、次のように入力します。
 
-  ```
+  ```PowerShell
   New-CsClsConfiguration -Identity "site:Redmond" -CacheFileNetworkFolder "\\fs01.contoso.net\filestore\logfiles" -EtlFileRolloverMinutes 120 -EtlFileRolloverSizeMB 40
   ```
 
@@ -166,13 +166,13 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 2. コマンド ライン プロンプトで次のように入力します。
 
-   ```
+   ```PowerShell
    Remove-CsClsConfiguration -Identity <scope and name>
    ```
 
 たとえば、ログファイルのロールオーバー時間を増やすために作成した一元ログサービスの構成を削除するには、ロールオーバーログファイルのサイズを大きくして、次のようにログファイルキャッシュの場所をネットワーク共有に設定します。
 
-  ```
+  ```PowerShell
   Remove-CsClsConfiguration -Identity "site:Redmond"
   ```
 

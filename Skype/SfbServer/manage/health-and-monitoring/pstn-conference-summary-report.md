@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8e2f0862-4dfa-4c2b-bf8d-ad71419f15d2
 description: '概要: Skype for Business Server の PSTN 会議の概要レポートについて説明します。'
-ms.openlocfilehash: 8b8b108243e257c414e9d6bb101e69fc9701d82e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c0ecb9ae2a5630a8d68b9d22892890617127826a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279985"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992162"
 ---
 # <a name="pstn-conference-summary-report-in-skype-for-business-server"></a>Skype for Business Server の PSTN 会議の概要レポート
  
@@ -35,7 +35,7 @@ PSTN 電話会議の概要レポートには、監視レポートのホーム �
   
 必要な数の PSTN 会議が表示されない場合は、ダイヤルインユーザーを許可する会議を開催できるかどうかは、ユーザーに割り当てられている会議ポリシーによって異なることに注意してください。ほとんどのユーザーが PS を保持することを許可されている場合は、次の点に注意してください。TN 会議には、ほとんどの PSTN 会議があります。 会議ポリシー (該当する場合) が、Skype for Business Server 管理シェル内から次のコマンドを実行して、PSTN 会議をスケジュールできるかどうかをすばやく確認できます。
   
-```
+```PowerShell
 Get-CsConferencingPolicy | Select-Object Identity, EnableDialInConferencing
 ```
 

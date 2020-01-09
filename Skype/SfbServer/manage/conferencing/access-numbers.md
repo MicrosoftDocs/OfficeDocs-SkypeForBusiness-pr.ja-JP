@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a0d64779-93de-4d82-ae35-e4454ef8b8f6
 description: '概要: Skype for Business Server でダイヤルイン会議アクセス番号を管理する方法について説明します。'
-ms.openlocfilehash: e41011c4ba06da7f05d8cb1a52717e707cd2f8bd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bd2aff1789c040667062d34b8bc037fd0543c029
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289035"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991922"
 ---
 # <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server"></a>Skype for Business Server でダイヤルイン会議アクセス番号を管理する
  
@@ -47,7 +47,7 @@ Skype for Business Server コントロールパネルを使用するか、Skype 
   
 次のコマンドは、組織で使用できるように構成されているすべてのダイヤルイン会議アクセス番号のコレクションを返します。 
   
-```
+```PowerShell
 Get-CsDialInConferencingAccessNumber
 ```
 
@@ -134,13 +134,13 @@ Skype for Business Server コントロールパネルを使用するか、Skype 
   
 次のコマンドにより、Identity が sip:RedmondDialIn@litwareinc.com になっているダイヤルイン会議アクセス番号の DisplayName プロパティが変更されます。この例では、表示名が「Redmond Dial-In Access Number」に設定されます。
   
-```
+```PowerShell
 Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com" -DisplayName "Redmond Dial-In Access Number"
 ```
 
 次の例では、sip:RedmondDialIn@litwareinc.com という ID を持つダイヤルイン会議アクセス番号が 2 つの地域 (Redmond および Seattle) を含むように変更します。これを行うため、Region パラメーターを呼び出して、その後に 2 つの地域 (コンマで区切られた 2 つの文字列値) を指定します。このコマンドは、Redmond および Seattle の両地域がダイヤル プランで既に定義されていないと失敗します。
   
-```
+```PowerShell
 Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com" -Regions "Redmond", "Seattle"
 ```
 
@@ -168,19 +168,19 @@ Skype for Business Server コントロールパネルを使用するか、Skype 
   
 次のコマンドは、ID が sip:RedmondDialInAccess@litwareinc.com であるダイヤルイン会議アクセス番号を削除します。
   
-```
+```PowerShell
 Remove-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialInAccess@litwareinc.com"
 ```
 
 次のコマンドは、Northwest 地域に関連するすべてのダイヤルイン会議アクセス番号を削除します。
   
-```
+```PowerShell
 Get-CsDialInConferencingAccessNumber -Region "Northwest" | Remove-CsDialInConferencingAccessNumber
 ```
 
 次のコマンドは、第 1 言語がイタリア語であるすべてのダイヤルイン会議アクセス番号を削除します。
   
-```
+```PowerShell
 Get-CsDialInConferencingAccessNumber | Where-Object {$_.PrimaryLanguage -eq "it-IT"} | Remove-CsDialInConferencingAccessNumber
 ```
 

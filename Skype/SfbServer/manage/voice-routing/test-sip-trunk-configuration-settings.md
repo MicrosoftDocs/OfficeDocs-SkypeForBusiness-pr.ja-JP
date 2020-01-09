@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'SIP トランク構成設定は、仲介サーバーと公衆交換電話網 (PSTN) ゲートウェイ、IP パブリックブランチ交換 (PBX)、またはサービスプロバイダのセッションボーダーコントローラー (SBC) 間の関係と機能を定義します。 '
-ms.openlocfilehash: 9f254d833f5d679343a39062bc2ed68c9122af56
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bfb09511c8d074555c0b84d2da141a029f63a01a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274920"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992564"
 ---
 # <a name="test-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Skype for Business Server で SIP トランク構成設定をテストする
 
@@ -32,7 +32,7 @@ Skype for Business Server をインストールすると、SIP トランク構�
 
 このコマンドを実行すると、ダイヤルされた番号 4255551212 がレドモンド サイトのトランク構成設定によって正しく変換できることを確認できます。
 
-```
+```PowerShell
 $trunk = Get-CsTrunkConfiguration -Identity "site:Redmond"
 Test-CsTrunkConfiguration -DialedNumber 4255551212 -TrunkConfiguration $trunk
 ```

@@ -15,16 +15,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
 description: '概要: Skype for Business Online を使用しているかどうかを確認し、skype for Business Online、skype for business Server 2019、Skype for Business Server 2015、Lync Server 2013 を使っているかどうかにかかわらず、環境とユーザーを準備するための手順について説明します。Lync Server 2010'
-ms.openlocfilehash: d5224c628624d6d93d8b3a06cd4c59d246523b1e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 21a28af999b285910884241e6e7809a88b943a87
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277294"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989852"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>ユーザー向けの Skype for Business 2015 クライアントエクスペリエンスを計画する
  
-**概要:** 最新の Skype for Business と、更新のために実行できる手順 (Skype for Business Online、skype for business Server 2019、Skype for Business Server 2015、Lync Server 2013、Lync Server のいずれを使用しているかなど) について説明します。2010。
+**概要:** Skype for Business Online、Skype for business Online、skype for business server 2015 2019、Lync server 2013、Lync Server 2010 のいずれを使用している場合でも、新しい Skype for Business と、環境とユーザーを準備するための手順について説明します。
   
 Lync 2013 用の2015年4月14日の Office 更新プログラムには、新しい Skype for Business のユーザーインターフェイスが含まれています。 この更新プログラムを使用すると、管理者はクライアントのルックアンドフィールを制御できるようになり、Lync 2013 クライアントエクスペリエンスを保持するか、強化された Skype for Business クライアントエクスペリエンスを使用するかを選ぶことができます。 Skype for Business クライアントが Lync 2013 クライアントを効果的に置き換えて、管理者が既存の Lync クライアントエクスペリエンスと新しい Skype for Business クライアントエクスペリエンスを選択できるようになりました。 この更新プログラムについては、 [2015 年4月14日の Lync 2013 用の更新プログラム (Skype For business) (KB2889923)](https://support.microsoft.com/en-us/kb/2889923/)を参照してください。
   
@@ -84,25 +84,25 @@ Lync クライアント エクスペリエンスは、多くのユーザーが�
   
   **オプション 1:** グローバル ポリシーを使用して、Skype クライアント エクスペリエンスを設定します。グローバル ポリシーは、展開に含まれるすべてのユーザーに適用されますが、ユーザー レベルおよびサイト レベルのポリシーの方がグローバル ポリシーよりも優先される点に注意してください。
   
-```
+```PowerShell
 Set-CsClientPolicy -Identity Global -EnableSkypeUI $True
 ```
 
  **オプション 2:** 現在環境で使用している既存のクライアント ポリシーを変更し、Skype クライアント エクスペリエンスを有効にする設定が含まれるようにします。この場合、既存のポリシーが割り当てられているユーザーのみに Skype クライアント エクスペリエンスを割り当てることができます。
   
-```
+```PowerShell
 Set-CsClientPolicy -Identity ExistingClientPolicyName -EnableSkypeUI $True
 ```
 
  **オプション 3:** Skype クライアント エクスペリエンスの設定を含む新しいポリシーを作成して、ユーザーに割り当てます。最初に新しいクライアント ポリシーを作成してから、ポリシーの名前を **Identity** パラメーターの値として指定します。
   
-```
+```PowerShell
 New-CsClientPolicy -Identity UseSkypeUI -EnableSkypeUI $True
 ```
 
 次にポリシーの名前 (**Identity** パラメーターに使用した値) を **PolicyName** パラメーターの値として使用し、ユーザーにポリシーを割り当てます。
   
-```
+```PowerShell
 Grant-CsClientPolicy username@contoso.com -PolicyName UseSkypeUI
 ```
 
@@ -130,25 +130,25 @@ Grant-CsClientPolicy username@contoso.com -PolicyName UseSkypeUI
   
  **オプション 1:** グローバル ポリシーを使用して、Lync クライアント エクスペリエンスを設定します。グローバル ポリシーは、展開に含まれるすべてのユーザーに適用されますが、ユーザー レベルおよびサイト レベルのポリシーの方がグローバル ポリシーよりも優先される点に注意してください。
   
-```
+```PowerShell
 Set-CsClientPolicy -Identity Global -EnableSkypeUI $False
 ```
 
  **オプション 2:** 現在環境で使用している既存のクライアント ポリシーを変更し、Lync クライアント エクスペリエンスを有効にする設定が含まれるようにします。この場合、既存のポリシーが割り当てられているユーザーのみに Lync クライアント エクスペリエンスを割り当てることができます。
   
-```
+```PowerShell
 Set-CsClientPolicy -Identity ExistingClientPolicyName -EnableSkypeUI $False
 ```
 
  **オプション 3:** Lync クライアント エクスペリエンスの設定を含む新しいポリシーを作成して、ユーザーに割り当てます。最初に新しいクライアント ポリシーを作成してから、ポリシーの名前を **Identity** パラメーターの値として指定します。
   
-```
+```PowerShell
 New-CsClientPolicy -Identity UseLyncUI -EnableSkypeUI $False
 ```
 
 次にポリシーの名前 (**Identity** パラメーターに使用した値) を **PolicyName** パラメーターの値として使用し、ユーザーにポリシーを割り当てます。
   
-```
+```PowerShell
 Grant-CsClientPolicy username@contoso.com -PolicyName UseLyncUI
 ```
 
@@ -165,25 +165,25 @@ Skype for Business Online を使用している場合でも、リモート Power
   
  **オプション 1:** グローバルポリシーを使用して、Lync クライアントの操作環境を設定します。 ユーザーに適用されたクライアントとサイトのポリシーは、グローバルポリシーよりも優先されることに注意してください。
   
-```
+```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 ```
 
  **オプション 2:** 現在環境で使用している既存のクライアント ポリシーを変更し、Lync クライアント エクスペリエンスを有効にする設定が含まれるようにします。この場合、既存のポリシーが割り当てられているユーザーのみに Lync クライアント エクスペリエンスを割り当てることができます。
   
-```
+```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 ```
 
  **オプション 3:** Lync クライアントエクスペリエンスの設定を含むカスタムポリシーインスタンスを使用します。
   
-```
+```PowerShell
 Grant-CsClientPolicy username@contoso.com -PolicyName ClientPolicyNoIMURLDisableSkypeUI
 ```
 
 クライアントポリシーを構成したら、Skype for Business クライアント、ビルド 4711.1002 (4 月、2015) 以降を展開します。
   
-Skype for Business Online でクライアントエクスペリエンスを構成する方法の詳細については、「初めての実行環境を構成するために使用できる PowerShell スクリプトの制御」の手順を参照してください。 [Skype for Business と Lync クライアントのユーザーインターフェイス](https://aka.ms/SfBOUI)。
+Skype for Business Online でクライアントエクスペリエンスを構成する方法の詳細については、「Skype for business[と Lync クライアントのユーザーインターフェイスを切り替える](https://aka.ms/SfBOUI)」を参照して、最初の実行環境を制御する方法について説明します。
   
 ## <a name="resources-to-help-you-prepare-your-support-teams-and-your-end-users-for-the-update"></a>サポート チームとエンド ユーザーの更新の準備に役立つリソース
 <a name="support"> </a>

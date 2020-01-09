@@ -16,12 +16,12 @@ ms.collection:
 - SPO_Content
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e7b534950c92cd4f9c7b21ff6a572fb0ba9a5261
-ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
-ms.translationtype: HT
+ms.openlocfilehash: 4a14c7cbca85be266347cd6777ea1108cc63d065
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "38231258"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992844"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Microsoft StaffHub のチームを Microsoft Teams のシフトに移動する
 
@@ -112,7 +112,7 @@ StaffHub チームを Teams に移行するには、プレリリース版のモ�
 
 次の一連のコマンドを実行して、StaffHub チームのすべての非アクティブなアカウントのリストを取得し、CSV ファイルにリストをエクスポートします。 各コマンドは個別に実行する必要があります。
 
-```
+```PowerShell
 $InvitedUsersObject = @()
 
 $StaffHubTeams = Get-StaffHubTeamsForTenant
@@ -144,7 +144,7 @@ $InvitedUsersObject | SELECT * | export-csv InvitedUsers.csv -NoTypeInformation
   StaffHub チームの所有者と管理者は、StaffHub チーム設定ページでユーザーのメール アドレスを有効な UPN に変更することで、非アクティブなアカウントを変換して、StaffHub の Azure AD アカウントにリンクできます。
 
 - リンクされていないアカウントを削除し、UPN を使用してアカウントを追加し直します。
-    1. [Remove-StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/remove-staffhubmember?view=staffhub-ps) コマンドレットを実行して、StaffHub チームからプロビジョニングされていないアカウントを削除します。
+    1. [Remove-StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/Remove-StaffHubMember?view=staffhub-ps) コマンドレットを実行して、StaffHub チームからプロビジョニングされていないアカウントを削除します。
     2. [Add-StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember?view=staffhub-ps) コマンドレットを実行し、UPN を使用して StaffHub チームにアカウントを追加し直します。
 
 - 非アクティブなアカウントを削除します。 ユーザー アカウントが不要になった場合は、このオプションを使用します。
@@ -190,18 +190,18 @@ Teams の展開と Teams の導入推進に関するガイダンスは、「[Mic
 
 StaffHub チームを移動するには、次を実行します。
 
-```
+```PowerShell
 Move-StaffHubTeam -TeamId <String>
 ```
 例:
 
-```
+```PowerShell
 Move-StaffHubTeam -TeamId "TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f"
 ```
 
 StaffHub チームを Teams に移動する要求を送信した際に返される応答の例です。
 
-```
+```output
  jobId                                      teamId                                      teamAlreadyInMicrosofteams  
 ---------------------------------------    ----------------------------------------    ---------------------------          
 JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   false
@@ -209,18 +209,18 @@ JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_4bbc03af-c764-497f-a8a5-1c070847
 
 移動要求の状態を確認するには、次を実行します。
 
-```
+```PowerShell
 Get-TeamMigrationJobStatus <String>
 ```
 例:
 
-```
+```PowerShell
 Get-TeamMigrationJobStatus -JobId "JOB_81b1f191-3e19-45ce-ab32-3ef51f100000"
 ```
 
 移動の進行中に返される応答の例です。
 
-```
+```output
 jobId                                     status       teamId                                     isO365GroupCreated  Error
 ----------------------------------------  ----------   ----------------------------------------   ------------------  -----    
 JOB_81b1f191-3e19-45ce-ab32-3ef51f100000  inProgress   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f  true                none
@@ -240,13 +240,13 @@ JOB_81b1f191-3e19-45ce-ab32-3ef51f100000  inProgress   TEAM_4bbc03af-c764-497f-a
 
 [Connect-PnPOnline](https://docs.microsoft.com/powershell/module/sharepoint-pnp/connect-pnponline?view=sharepoint-ps) コマンドレットを使用して、SharePoint Online チームサイトに接続します。
 
-```
+```PowerShell
 Connect-PnPOnline -Url https://<sharepoint URL>/sites/<Group Name>  
 ```
 
 StaffHub から Teams に移動する各ファイルに対して [Move-PnPFile](https://docs.microsoft.com/powershell/module/sharepoint-pnp/move-pnpfile) コマンドレットを使用してファイルを移動します。
 
-```
+```PowerShell
 Move-PnPFile -ServerRelativeUrl "/sites/<Group Name>/Shared Documents/<File Name>" -TargetUrl "/sites/<Group Name>/Shared Documents/General/<File Name>" 
 ```
 
@@ -266,7 +266,7 @@ Move-PnPFile -ServerRelativeUrl "/sites/<Group Name>/Shared Documents/<File Name
 
 次を実行して、組織内のすべての StaffHub チームのリストを取得します。
 
-```
+```PowerShell
 $StaffHubTeams = Get-StaffHubTeamsForTenant
 
 $StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq ‘StaffHub’ }
@@ -274,7 +274,7 @@ $StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq ‘StaffHub’ }
 
 次を実行してすべてのチームを移動します。
 
-```
+```PowerShell
 foreach ($team in $StaffHubTeams[0]) {Move-StaffHubTeam -TeamId $team.Id}
 ```
 
@@ -282,7 +282,7 @@ foreach ($team in $StaffHubTeams[0]) {Move-StaffHubTeam -TeamId $team.Id}
 
 既に Teams に移動されたか既に Teams に存在するチームの場合、そうしたチームを移動するためのジョブを送信する必要がないため、jobId は "null" になります。
 
-```
+```output
 jobId                                      teamId                                      teamAlreadyInMicrosofteams  
 ----------------------------------------   -----------------------------------------   --------------------------         
 null                                       TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   true
@@ -293,7 +293,7 @@ JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_81b1f191-3e19-45ce-ab32-3ef51f10
 
 次を実行して、組織内のすべての StaffHub チームの ID のリストを取得します。
 
-```
+```PowerShell
 Get-StaffHubTeamsForTenant -ManagedBy "Staffhub"
 ```
 
@@ -307,7 +307,7 @@ CSV ファイルで必要な書式設定の例を次に示します。
 
 CSV ファイルを作成したら、次のコマンドを実行して CSV ファイルで指定したチームを移動します。
 
-```
+```PowerShell
 $StaffHubTeams = Import-Csv .\teams.csv
 
 foreach ($team in $StaffHubTeams[0]) {Move-StaffHubTeam -TeamId $team.Id}
@@ -317,7 +317,7 @@ foreach ($team in $StaffHubTeams[0]) {Move-StaffHubTeam -TeamId $team.Id}
 
 次を実行して、組織内のすべてのシフトのチームのリストを取得します。 
 
-```
+```PowerShell
 Get-StaffHubTeamsForTenant -ManagedBy "Teams"
 ```
 
@@ -335,7 +335,7 @@ Get-StaffHubTeamsForTenant -ManagedBy "Teams"
 
 チームを移動するときに発生する「失敗」エラーの詳細情報を取得するには、次を実行してください。
 
-```
+```PowerShell
 Move-StaffHubTeam -TeamId <TeamId>
 
 $res = Get-TeamMigrationJobStatus -JobId <JobId>
@@ -347,7 +347,7 @@ $res.Status
 
 「失敗」が返された場合は、次を実行してエラーの詳細情報を取得します。
 
-```
+```PowerShell
 $res.Result.Error.Innererror
 ```
 
@@ -367,7 +367,7 @@ StaffHub チームに関連付けられているグループにチーム所有�
 
 次のコマンドを実行して [全般] フォルダーを SharePoint に追加してから、もう一度お試しください。
 
-  ```
+  ```PowerShell
   Add-PnPFolder -Name General -Folder 'Shared Documents'
   ```  
 

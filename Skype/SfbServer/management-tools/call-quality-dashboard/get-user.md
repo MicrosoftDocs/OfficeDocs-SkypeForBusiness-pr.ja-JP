@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 52b89a4b-a0bd-493d-bb5e-e21904eb8e48
 description: '概要: ユーザーサービスの一部であるユーザーの取得操作について説明します。 ユーザーサービスは、通話品質ダッシュボードのリポジトリ API の一部です。 通話品質ダッシュボードは、Skype for Business Server のツールです。'
-ms.openlocfilehash: 6c38bb2db2bef1a21dfc5c4791de7a163c57ff5f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 09dcbbaeaae98ed7b01f3d710cfda23aa5fa986f
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274598"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992624"
 ---
 # <a name="get-user"></a>ユーザーの取得
  
@@ -46,7 +46,7 @@ ms.locfileid: "34274598"
   
  **応答本文**-以下は JSON のサンプル応答ペイロードです。
   
-```
+```json
 {
 "userId": 0,
 "loginName": "system",

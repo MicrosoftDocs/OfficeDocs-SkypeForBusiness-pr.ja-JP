@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b40ba905-e74a-4456-ac94-65471bc2d66d
 description: '概要: Skype for Business Server の会議ポリシーを変更する方法について説明します。'
-ms.openlocfilehash: b2c192948f0119a70f031c1c2bbe5de8e776c2f3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9cfb13436a01439a8d5ea152ca1d8ac543bc0e88
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280412"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991812"
 ---
 # <a name="modify-conferencing-policies-in-skype-for-business-server"></a>Skype for Business Server の会議ポリシーを変更する
  
@@ -43,7 +43,7 @@ ms.locfileid: "34280412"
   
 次の例では、電話会議ポリシー SalesConferencingPolicy のプロパティ値を変更します。 このコマンドにより、AllowConferenceRecording プロパティの値が False に設定されます。
   
-```
+```PowerShell
 Set-CsConferencingPolicy -Identity SalesConferencingPolicy -AllowConferenceRecording $False
 ```
 

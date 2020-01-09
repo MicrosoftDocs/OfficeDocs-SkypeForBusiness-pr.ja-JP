@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d5aed328-e89d-4a7b-b603-15ae5c33c5dd
 description: '概要: Skype for Business Server でアーカイブを有効または無効にする方法について説明します。'
-ms.openlocfilehash: 0e4ef4dde27ffa5856f2b73b69ffbadc24399c59
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 603ffece7d3b0dabe27ee95d27eaee1e84f48fb9
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286145"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991582"
 ---
 # <a name="enable-or-disable-archiving-in-skype-for-business-server"></a>Skype for Business Server でアーカイブを有効または無効にする
 
@@ -43,6 +43,6 @@ ms.locfileid: "34286145"
 
 アーカイブは、**Set-CsArchivingConfiguration** コマンドレットを使用して有効または無効にすることもできます。 たとえば、次のコマンドは、IM セッションのみがアーカイブされるようにすべてのアーカイブ構成設定を変更します。 このコマンドは、**Get-CsArchivingConfiguration** コマンドレットをパラメーターなしで呼び出して、組織で現在使用されているすべてのアーカイブ構成設定を取得します。 次に、このコレクションは **Where-Object** コマンドレットにパイプ処理され、EnableArchiving プロパティが "ImAndWebConf" と等しい (-eq) 設定のみが選択されます。 そして、フィルターされたコレクションは **Set-CsArchivingConfiguration** コマンドレットにパイプ処理され、コレクション内の各項目が取得され、EnableArchiving の値が "ImOnly" に変更されます。
   
-```
+```PowerShell
 Get-CsArchivingConfiguration | Where-Object {$_.EnableArchiving -eq "ImAndWebConf"} | Set-CsArchivingConfiguration -EnableArchiving "ImOnly"
 ```

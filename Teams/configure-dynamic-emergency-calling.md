@@ -1,5 +1,5 @@
 ---
-title: 動的な緊急通話を設定する
+title: 動的な緊急通話を構成する
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -11,15 +11,15 @@ ms.collection:
 ms.reviewer: roykuntz
 localization_priority: Normal
 search.appverid: MET150
-description: 動的な緊急通話を設定する
+description: 動的な緊急通話を構成する
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53af7f64cd7050d3dcd6120f7729cd069a4331d0
-ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
+ms.openlocfilehash: 2d4480e875c37ba2c608c826bb648231c0f6fc23
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39615857"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992092"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>動的な緊急通話を計画して構成する 
 
@@ -61,10 +61,10 @@ Microsoft 通話プランや電話システムのダイレクトルーティン�
 
 - [緊急通話を管理する](what-are-emergency-locations-addresses-and-call-routing.md)
 - [クラウド音声機能のネットワーク設定を管理する](cloud-voice-network-settings.md)
-- [クラウド音声機能のネットワークトポロジを管理する](manage-your-network-topology.md)
+- [クラウド ボイス機能のネットワーク トポロジを管理する](manage-your-network-topology.md)
 
 
-## <a name="supported-clients"></a>サポートされているクライアント
+## <a name="supported-clients"></a>サポートされるクライアント
 
 現在、次のクライアントがサポートされています。  このリストの更新を確認するには、もう一度チェックインします。
 
@@ -164,25 +164,25 @@ TeamsEmergencyCallRouting ポリシーは、直接ルーティング専用に適
 
 たとえば、セキュリティデスクの通知に特定のユーザーを有効にするには、次のコマンドを使用します。
 
-```
+```PowerShell
 Grant-CsTeamsEmergencyCallingPolicy -Identity user1 -PolicyName SecurityDeskNotification
 ```
 
 "Contoso 緊急通話ポリシー 1" と呼ばれるポリシーをサイト1に割り当てるには、次のコマンドを使用します。
 
-```
+```PowerShell
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emergency Calling Policy 1"
 ```
 
 緊急通話のために特定の直接ルーティングユーザーを有効にするには、次のコマンドを使用します。
 
-```
+```PowerShell
 Grant-CsTeamsEmergencyCallRoutingPolicy -Identity user1 -PolicyName UnitedStates
 ```
 
 "Contoso New 都エマージェンシールーティング" と呼ばれるポリシーをサイト1に割り当てるには、次のコマンドを使用します。
 
-```
+```PowerShell
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso New York Emergency Call Routing"
 ```
 
@@ -204,5 +204,5 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso N
 - [緊急通話ルーティングポリシーを管理する](manage-emergency-call-routing-policies.md)
 - [組織の緊急対応の場所を追加、変更、削除する](add-change-remove-emergency-location-organization.md)
 - [ユーザーの緊急対応の場所を割り当てる、または変更する](assign-change-emergency-location-user.md)
-- [クラウド音声機能のネットワーク設定](cloud-voice-network-settings.md)
-- [クラウド音声機能のネットワークトポロジを管理する](manage-your-network-topology.md)
+- [クラウド ボイス機能のネットワーク設定](cloud-voice-network-settings.md)
+- [クラウド ボイス機能のネットワーク トポロジを管理する](manage-your-network-topology.md)

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5d5eb658-7fe0-42e6-acaf-700051d0a823
 description: '概要: Skype for Business Server で監視サービスを計画しているときに、このトピックを確認してください。'
-ms.openlocfilehash: e03fc9714cbb958a9c34bb14db0129a94e49692b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ebe94d3088e319a0c210c9d169f35f1c783ad5f5
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297282"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991782"
 ---
 # <a name="plan-for-monitoring-in-skype-for-business-server"></a>Skype for Business Server で監視を計画する
 
@@ -80,7 +80,7 @@ Skype for business server をインストールするのと同時に、監視を
 
 また、Skype for Business Server がミラーデータベースの使用をサポートしていることも考慮する必要があります。 "データベース ミラーリング" を使用すると、データベースの 2 つのコピーを、それぞれ別のサーバー上で同時に保持することができます。 データがプライマリ データベースに書き込まれるたびに、同じデータがミラー データベースに書き込まれます。 プライマリデータベースの障害が発生したり、その他の方法で利用できない場合は、単純な Skype for Business Server PowerShell コマンドを使用して、ミラーデータベースに "フェールオーバー" することができます。 次に例を示します。
 
-```
+```PowerShell
 Invoke-CsDatabaseFailover -PoolFqdn atl-cs-001.litwareinc.com -DatabaseType "Monitoring" -NewPrincipal "Mirror"
 ```
 

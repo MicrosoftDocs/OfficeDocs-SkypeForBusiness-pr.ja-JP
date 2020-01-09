@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype for Business Server 2019 コントロールパネルまたは Skype for Business Server 2019 Management Shell を使用して、従来のプールから Skype for Business Server 2019 パイロットプールに複数のユーザーを移動することができます。
-ms.openlocfilehash: 6c6f61287cfc75b7500317d62de4ea846af1abd3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: abaffea04ff190b2ae99639484f63b564fd7784a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244573"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40988952"
 ---
 # <a name="move-multiple-users-to-the-pilot-pool"></a>複数のユーザーをパイロットプールに移動する
 
@@ -55,9 +55,9 @@ Skype for Business Server 2019 コントロールパネルまたは Skype for Bu
 
 1. Skype for Business Server 2019 管理シェルを開きます。 
     
-2. コマンドラインで、次のように入力し、移動する特定のユーザー名で**User1**と**User2**を置き換えて、 **pool_FQDN**を目的のプールの名前に置き換えます。 この例では、ユーザーの Hao Chen と Katie ヨルダンを移動します。 
+2. コマンドラインで、次のように入力して、移動する特定のユーザー名で**User1**と**User2**を置き換え、 **pool_FQDN**を移行先プールの名前で置き換えます。 この例では、ユーザーの Hao Chen と Katie ヨルダンを移動します。 
     
-   ```
+   ```PowerShell
    Get-CsUser -Filter {DisplayName -eq "User1" -or DisplayName - eq "User2"} | Move-CsUser -Target "pool_FQDN"
    ```
 
@@ -65,11 +65,11 @@ Skype for Business Server 2019 コントロールパネルまたは Skype for Bu
   
 3. コマンドラインで、次のように入力します。 
     
-   ```
+   ```PowerShell
    Get-CsUser -Identity "User1"
    ```
 
-4. **レジストラープール**id は、前の手順で**pool_FQDN**として指定したプールを指すようになります。 この id の存在は、ユーザーが正常に移動されたことを確認します。 手順を繰り返して、 **User2**が移動されたことを確認します。 
+4. これで、**レジストラープール**id が、前の手順で**pool_FQDN**として指定したプールをポイントするようになります。 この id の存在は、ユーザーが正常に移動されたことを確認します。 手順を繰り返して、 **User2**が移動されたことを確認します。 
     
      ![PowerShell Get-UsUser Identity コマンドレットの出力](../media/Migration_LyncServer_from_LyncServer2010_showuser.jpg)
   
@@ -82,7 +82,7 @@ Skype for Business Server 2019 コントロールパネルまたは Skype for Bu
     
 2. コマンドラインで、次のように入力します。 
     
-   ```
+   ```PowerShell
    Get-CsUser -OnLyncServer | Move-CsUser -Target "pool_FQDN"
    ```
 
@@ -90,7 +90,7 @@ Skype for Business Server 2019 コントロールパネルまたは Skype for Bu
   
 3. パイロットユーザーのいずれかに対して **、ユーザーの購入ユーザー**を実行します。 
     
-   ```
+   ```PowerShell
    Get-CsUser -Identity "Hao Chen"
    ```
 

@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4346e70b-ac48-4ab9-853e-3cdd6dcfe678
 description: '概要: Skype for Business Server 2015 で永続的なチャットサーバーの高可用性と障害回復を管理する方法について説明します。'
-ms.openlocfilehash: ff30bcdd99a4c92bd8fbd8f0a5c4bcedd8aa63b0
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: d46e34485f231d313475b4fdc5948a7262b324ed
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418706"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991982"
 ---
 # <a name="manage-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での常設チャット サーバーの高可用性および障害復旧の管理
  
 **概要:** Skype for Business Server 2015 で永続的なチャットサーバーの高可用性と障害回復を管理する方法について説明します。
   
-このトピックでは、常設チャットサーバをフェイルオーバーしてフェイルバックする方法について説明します。 このトピックを読む前に、「 [skype For Business server 2015 の常設チャットサーバーの高可用性と障害回復の計画」](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md)を参照して、 [Skype の常設チャットサーバーの高可用性と障害回復を構成することを確認してください。Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)
+このトピックでは、常設チャットサーバをフェイルオーバーしてフェイルバックする方法について説明します。 このトピックを読む前に、「 [skype For Business server 2015 の常設チャットサーバーの高可用性と障害復旧の計画](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md)」を参照して、 [Skype for business Server 2015 の常設チャットサーバーの高可用性と障害回復を構成](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)してください。
 
 > [!NOTE]
 > 常設チャットは Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 Teams でも同じ機能を使用できます。 詳細については、「 [Microsoft Teams のアップグレードの](/microsoftteams/upgrade-start-here)概要」を参照してください。 常設チャットを使用する必要がある場合は、この機能が必要なユーザーをチームに移行するか、Skype for Business Server 2015 を使い続けるかのいずれかを選択できます。 
@@ -55,7 +55,7 @@ ms.locfileid: "35418706"
     
    - 次のコマンドを使用して、ログ配布を削除します。
     
-   ```
+   ```SQL
    exec sp_delete_log_shipping_secondary_database mgc
    ```
 
@@ -170,7 +170,7 @@ ms.locfileid: "35418706"
   
 プールを通常の状態に復元するには、次の Windows PowerShell コマンドを実行します。
   
-```
+```PowerShell
 Set-CsPersistentChatState -Identity "service: lyncpc.dci.discovery.com" -PoolState Normal
 ```
 

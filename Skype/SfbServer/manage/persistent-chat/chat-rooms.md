@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b2e1302-280c-4efe-9ec8-787687b414da
 description: '概要: Skype for Business Server 2015 で常設チャットサーバーチャットルームを管理する方法について説明します。'
-ms.openlocfilehash: 5b7345626a42073bf7ebd0cb5f9900c6e15f0e2b
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: cbced7f62a4684e5541e35b5985b7e93cc7d3e66
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35417947"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992122"
 ---
 # <a name="manage-chat-rooms-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での常設チャット サーバーのチャット ルームの管理
  
@@ -57,7 +57,7 @@ ms.locfileid: "35417947"
 |Remove-CsPersistentChatRoom  <br/> |ルームを削除する  <br/> |
 |Remove-CsPersistentChatMessage  <br/> |ルームからメッセージを削除する  <br/> |
    
-チャットルームを作成するには、**新しい-CsPersistentChatRoom**コマンドレット**** を使用して、チャットルームへのユーザーの追加など、既存のチャットルームを構成します。 チャットルームの次のパラメーターを構成できます。
+チャットルームを作成するには、**新しい-CsPersistentChatRoom**コマンドレットを使用して、チャットルームへのユーザーの追加など、**既存のチャット**ルームを構成します。 チャットルームの次のパラメーターを構成できます。
   
 - Disabled。 チャットルームを無効または有効にすることができます。 
     
@@ -83,7 +83,7 @@ ms.locfileid: "35417947"
 
 **New-CsPersistentChatRoom** コマンドレットを使用すると、新しいルームを作成できます。 たとえば、以下のコマンドを実行すると、プール atl-cs-001.contoso.com に ITChatRoom という名前の新しいチャット ルームが作成されます。 この例では、チャット ルームは IT カテゴリに追加されます。
   
-```
+```PowerShell
 New-CsPersistentChatRoom -Name "ITChatRoom" -PersistentChatPoolFqdn "atl-cs-001.contoso.com"-Category "IT"
 ```
 
@@ -99,7 +99,7 @@ New-CsPersistentChatRoom -Name "ITChatRoom" -PersistentChatPoolFqdn "atl-cs-001.
 
 既存のルームを構成するには、 **CsPersistentChatRoom**コマンドレットを使用します。 たとえば、次のコマンドは、testCat 聴衆会議室のメンバーと発表者、およびマネージャーとして user1 を割り当てます。
   
-```
+```PowerShell
 Set-CsPersistentChatRoom -Identity testCat -Members @{Add="sip:user1@contoso.com", "CN=container,DC=contoso,DC=com"}
 Set-CsPersistentChatRoom -Identity testCat -Presenters @{Add="sip:user1@contoso.com"}
 Set-CsPersistentChatRoom -Identity testCat -Managers @{Add="sip:user2@contoso.com"}
@@ -107,13 +107,13 @@ Set-CsPersistentChatRoom -Identity testCat -Managers @{Add="sip:user2@contoso.co
 
  次の例では、Active Directory の NorthAmericaUsers OU のすべてのユーザーを NorthAmerica チャット ルームに追加します。
   
-```
+```PowerShell
 Set-CsPersistentChatRoom -PersistentChatPoolFqdn "atl-cs-001.contoso.com\NorthAmerica" -Members @{Add="OU=NorthAmericaUsers,DC=contoso,DC=com"}
 ```
 
 次の例では、Finance 配布グループのすべてのメンバーを同じチャット ルームに追加します。
   
-```
+```PowerShell
 Set-CsPersistentChatRoom -PersistentChatPoolFqdn "atl-cs-001.contoso.com\NorthAmerica" -Members @{Add="CN=Finance,OU=ExternalUsers,DC=contoso,DC=com"}
 ```
 
@@ -127,13 +127,13 @@ Set-CsPersistentChatRoom -PersistentChatPoolFqdn "atl-cs-001.contoso.com\NorthAm
   
 **CsPersistentChatRoom**コマンドレットを使用し、Disabled パラメーターを True に設定して、ルームを無効にすることができます。
   
-```
+```PowerShell
 Set-CsPersistentChatRoom -Identity "atl-cs-001.contoso.com\ITChatRoom" -Disabled $True
 ```
 
 チャット ルームを有効にするには、Disabled パラメーターを False に設定します。
   
-```
+```PowerShell
 Set-CsPersistentChatRoom -Identity "atl-cs-001.contoso.com\ITChatRoom" -Disabled $False
 ```
 
@@ -143,7 +143,7 @@ Set-CsPersistentChatRoom -Identity "atl-cs-001.contoso.com\ITChatRoom" -Disabled
   
 次のコマンドを実行すると、組織で使用するように構成されたすべてのチャット ルームに関する情報を戻します。
   
-```
+```PowerShell
 Get-CsPersistentChatRoom
 ```
 
@@ -151,7 +151,7 @@ Get-CsPersistentChatRoom
 
 **Clear-CsPersistentChatRoom** コマンドレットを使用すると、ルームからコンテンツを削除できます。たとえば、以下のコマンドを実行すると、常設チャット ルーム ITChatRoom から、2015 年 3 月 1 日以前にそのルームに追加されたコンテンツがすべて削除されます。
   
-```
+```PowerShell
 Clear-CsPersistentChatRoom -Identity "atl-cs-001.contoso.com\ITChatRoom" -EndDate "3/1/2015"
 ```
 
@@ -159,13 +159,13 @@ Clear-CsPersistentChatRoom -Identity "atl-cs-001.contoso.com\ITChatRoom" -EndDat
 
 **Remove-CsPersistentChatMessage** コマンドレットを使用すると、常設チャット データベース内の 1 つ以上のメッセージを削除し、オプションで既定のメッセージまたは管理者が指定したメッセージに置き換えることができます。たとえば、次のコマンドを実行すると、ITChatRoom チャット ルームから、ユーザー kenmyer@contoso.com によって投稿されたすべてのメッセージが削除されます。
   
-```
+```PowerShell
 Remove-CsPersistentChatMessage -Identity "atl-persistentchat-001.contoso.com\ITChatRoom" -UserUri "sip:kenmyer@contoso.com"
 ```
 
 次の例では、その削除されたすべてのメッセージが「削除されました」という通知で置き換えられます。
   
-```
+```PowerShell
 Remove-CsPersistentChatMessage -Identity "atl-persistentchat-001.contoso.com\ITChatRoom" -UserUri "sip:kenmyer@contoso.com" -ReplaceMessage "This message is no longer available."
 ```
 
@@ -175,7 +175,7 @@ Remove-CsPersistentChatMessage -Identity "atl-persistentchat-001.contoso.com\ITC
   
 たとえば、次のコマンドを実行すると、チャット ルーム RedmondChatRoom が削除されます。
   
-```
+```PowerShell
 Remove-CsPersistentChatRoom -Identity "atl-gc-001.contoso.com\RedmondChatRoom"
 ```
 

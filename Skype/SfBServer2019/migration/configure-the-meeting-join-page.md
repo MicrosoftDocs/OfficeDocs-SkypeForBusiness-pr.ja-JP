@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ユーザーが会議出席依頼の会議リンクをクリックすると、[会議の参加] ページによって、ユーザーのコンピューターに既にインストールされているクライアントが検出されます。 クライアントが既にインストールされている場合は、そのクライアントが開き、会議に参加します。 クライアントがインストールされていない場合は、既定で Web アプリが開きます。
-ms.openlocfilehash: 1bab2dff25db94b36c41e5824401777006760bfc
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5c9e6653783d90411e0f701b5d3395c569d8bdff
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239327"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989562"
 ---
 # <a name="configure-the-meeting-join-page"></a>会議参加ページの構成
 
@@ -35,7 +35,7 @@ ms.locfileid: "36239327"
     
 2. 次のコマンドレットを実行します。 
     
-   ```
+   ```PowerShell
    Get-CsWebServiceConfiguration
    ```
 
@@ -43,7 +43,7 @@ ms.locfileid: "36239327"
     
 3. 次のコマンドを実行します。設定に応じてパラメーターが True または False に設定されています (このコマンドレットのパラメーターの詳細については、「 [Skype For Business Server 管理シェル](../../SfbServer/manage/management-shell.md)のドキュメント」を参照してください)。
     
-   ```
+   ```PowerShell
    Set-CsWebServiceConfiguration -Identity global -ShowJoinUsingLegacyClientLink $True
    ```
 

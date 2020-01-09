@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2fe7e3a7-bc75-4d4b-94af-a8818722b0d3
 description: この記事のセクションでは、Skype for Business Server の Active Directory ユーザーを有効にしたり、一時的に無効にしたり、削除したりする方法について説明します。
-ms.openlocfilehash: 83ab64415b21d37f12d3768feeb39b11491787af
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 45217593dd010c4daf73d6b5edcbf6f5f4e681a5
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275109"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992404"
 ---
 # <a name="manage-user-accounts-for-skype-for-business-server"></a>Skype for Business Server のユーザーアカウントを管理する
 
@@ -61,7 +61,7 @@ Active Directory ユーザーを有効にする方法については、「[新�
 
    b. [ユーザー] プロパティを入力するか、ドロップダウンリストの矢印をクリックして、ユーザープロパティを選択します。
 
-   c. [指定の**値**に等しい] **** または [ **** 指定の値に等しい] をクリックします。
+   c. [指定の**値**に等しい] または [指定の**値に等しい**] を**クリックします**。
 
    d. 検索結果をフィルター処理するために使用する検索条件をテキストボックスに入力し、[**検索**] をクリックします。
 
@@ -84,7 +84,7 @@ Active Directory ユーザーとコンピューターでユーザーアカウン
 
 5. [**新しい Lync Server ユーザー** ] ダイアログボックスで、[**追加**] をクリックします。
 
-6. [**ユーザーの検索**] ボックスに、必要な Active Directory ユーザーアカウントの名前、[表示名]、[名]、[姓]、[名前]、[アカウント名]、[電子メールアドレス]、[ユーザープリンシパル名 (UPN)]、または [電話番号] のすべてまたは最初の部分を入力します。[**検索**] をクリックします。
+6. [**ユーザーの検索**] ボックスで、名前、表示名、姓、名、姓、セキュリティアカウントマネージャー (SAM) アカウント名、メールアドレス、ユーザープリンシパル名 (UPN)、または必要な Active Directory ユーザーアカウントの電話番号のすべてまたは最初の部分を入力し、[**検索**] をクリックします。
 
 7. 表で、Skype for Business Server に追加するアカウントを選び、[ **OK**] をクリックします。
 
@@ -101,7 +101,7 @@ Active Directory ユーザーとコンピューターでユーザーアカウン
 
 3. 左側のナビゲーション バーで [**ユーザー**] をクリックします。
 
-4. [**ユーザーの検索**] ボックスに、表示名、名、姓、セキュリティアカウントマネージャー (SAM) アカウント名、SIP アドレス、またはもう一度有効にするユーザーアカウントの Ip Uniform リソース識別子 (URI) のすべてまたは最初の部分を入力します。[**検索**] をクリックします。
+4. [**ユーザーの検索**] ボックスで、無効または再度有効にするユーザーアカウントの表示名、名、姓、セキュリティアカウントマネージャー (SAM) アカウント名、SIP アドレス、または行の Uniform resource IDENTIFIER (URI) のすべてまたは最初の部分を入力して、[**検索**] をクリックします。
 
 5. 表で、無効にする、またはもう一度有効にするユーザーアカウントをクリックします。
 
@@ -119,7 +119,7 @@ Active Directory ユーザーとコンピューターでユーザーアカウン
 
 - ユーザーアカウントを一時的に無効にするには、Enabled プロパティの値を False ($False) に設定します。 次に例を示します。
 
-  ```
+  ```PowerShell
   Set-CsUser -Identity "Ken Myer" -Enabled $False
   ```
 
@@ -127,7 +127,7 @@ Active Directory ユーザーとコンピューターでユーザーアカウン
 
 - 無効のユーザーアカウントを再び有効にするには、Enabled プロパティの値を True ($True) に設定します。 次に例を示します。
 
-  ```
+  ```PowerShell
   Set-CsUser -Identity "Ken Myer" -Enabled $True
   ```
 
@@ -174,7 +174,7 @@ Skype for Business Server で以前に追加したユーザーアカウントを
 
 3. 左側のナビゲーション バーで [**ユーザー**] をクリックします。
 
-4. [**ユーザーの検索**] ボックスに、表示名、名、姓、セキュリティアカウントマネージャー (SAM) アカウント名、SIP アドレス、またはもう一度有効にするユーザーアカウントの Ip Uniform リソース識別子 (URI) のすべてまたは最初の部分を入力します。[**検索**] をクリックします。
+4. [**ユーザーの検索**] ボックスで、無効または再度有効にするユーザーアカウントの表示名、名、姓、セキュリティアカウントマネージャー (SAM) アカウント名、SIP アドレス、または行の Uniform resource IDENTIFIER (URI) のすべてまたは最初の部分を入力して、[**検索**] をクリックします。
 
 5. テーブルで、削除するユーザーアカウントをクリックします。
 
@@ -189,7 +189,7 @@ Skype for Business Server で以前に追加したユーザーアカウントを
 ### <a name="to-remove-a-user-account"></a>ユーザーアカウントを削除するには
 ユーザーアカウントを削除するには、ユーザーの無効化コマンドレットを使用します。 次に例を示します。
 
-  ```
+  ```PowerShell
   Disable-CsUser -Identity "Ken Myer"
   ```
 

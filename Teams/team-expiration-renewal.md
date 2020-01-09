@@ -6,7 +6,7 @@ manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: abhisgu
+ms.reviewer: abgupta
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 description: チームの有効期限と更新について説明し、Office 365 グループの有効期限ポリシーを使用して、Microsoft Teams で使用されていないチームを自動的にクリーンアップする方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2fd7dfdececc9a490ff930bdba9948e9196c74f2
-ms.sourcegitcommit: fc7d5e812873b648b374eef23d02c914a56b51d1
+ms.openlocfilehash: 2baf466b28874794c4e9b7191be155de7187754e
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "37608727"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992814"
 ---
 # <a name="team-expiration-and-renewal-in-microsoft-teams"></a>Microsoft Teams でのチームの期限切れと更新
 

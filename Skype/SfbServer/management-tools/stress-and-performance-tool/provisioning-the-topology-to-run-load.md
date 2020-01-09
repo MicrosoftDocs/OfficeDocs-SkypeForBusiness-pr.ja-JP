@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 143cf9bd-b935-494d-817c-a8b0ccc61eb8
 description: Skype for Business Server 2015 のトポロジの変更またはプロビジョニングを行うと、ユーザーはストレスとパフォーマンスのツールを正常に実行することができます。
-ms.openlocfilehash: c7cdc10b3667ac99376904c81309df739e49844a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e58bfce5e618c6e62f272c0acb0b415cbb471d40
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299703"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992494"
 ---
 # <a name="provisioning-the-topology-to-run-load-in-stress-and-performance-scenarios"></a>ストレスとパフォーマンスのシナリオでのロードを実行するためのトポロジのプロビジョニング
  
@@ -27,13 +27,13 @@ Skype for Business Server 2015 の展開に関する既存の設定と構成に�
   
 1. Windows PowerShell の実行ポリシーを無制限に設定します。 現在設定されている内容がわからない場合は、Skype for Business Server 管理シェルを開き、次のコマンドを実行します。
     
-   ```
+   ```PowerShell
    Get-ExecutionPolicy
    ```
 
    制限なしの値が返されない場合は、次の操作を実行する必要があります。
     
-   ```
+   ```PowerShell
    Set-ExecutionPolicy -Unrestricted
    ```
 
@@ -45,7 +45,7 @@ Skype for Business Server 2015 の展開に関する既存の設定と構成に�
     
 3. コマンドラインからスクリプトを実行するには、次のように使用できます。
     
-   ```
+   ```PowerShell
    PowerShell.exe -file <path to the file>
    ```
 

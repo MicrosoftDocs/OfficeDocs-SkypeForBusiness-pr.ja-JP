@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8214bb0a-baa7-414f-9eee-313b65223fa3
 description: '概要: Skype for Business Server のアーカイブデータをエクスポートする方法について説明します。'
-ms.openlocfilehash: 6914b4c32c22165b551bb56ece8d7b3b9c21fdbe
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0d48441290eda49ad6b7fecd63d15d74b25148fe
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286138"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991572"
 ---
 # <a name="export-archived-data-in-skype-for-business-server"></a>Skype for Business Server でアーカイブデータをエクスポートする
 
@@ -31,13 +31,13 @@ Export-CSArchivingData コマンドレットを使用すると、アーカイブ
   
 次のコマンドは、2012 年 6 月 1 日以降にアーカイブ データベース atl-sql-001.contoso.com に書き込まれたすべてのアーカイブ データをエクスポートします。結果として得られる出力ファイルは、フォルダー C:\ArchivingExports に保存されます。
   
-```
+```PowerShell
 Export-CsArchivingData -Identity "ArchivingDatabase:atl-sql-001.contoso.com" -StartDate 6/1/2012 -OutputFolder "C:\ArchivingExports"
 ```
 
 次のコマンドは、kenmyer@contoso.com という 1 人のユーザーのアーカイブ データをエクスポートします。 これは、UserUri パラメーターに続けてユーザーの SIP アドレスを含めることで行われます。 次に例を示します。 
   
-```
+```PowerShell
 Export-CsArchivingData -Identity "ArchivingDatabase:atl-sql-001.contoso.com" -StartDate 6/1/2012 -OutputFolder "C:\ArchivingExports" -UserUri "sip:kenmyer@contoso.com"
 ```
 

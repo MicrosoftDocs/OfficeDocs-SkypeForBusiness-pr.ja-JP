@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 31fd4e7c-3c68-48dd-9fad-8863831accd7
 description: '概要: Skype for Business Server に障害が発生したときに、アーカイブを防ぐことができる IM と会議セッションをブロックする方法について説明します。'
-ms.openlocfilehash: 38f79277ff12aa8e716b034e8393a4d8b71cdbba
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ed8a59a8c19ace9a83b699e1b69515f52c3af010
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286240"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992754"
 ---
 # <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server"></a>Skype for Business Server のエラーを処理するアーカイブオプションを構成する
 
@@ -41,17 +41,17 @@ ms.locfileid: "34286240"
     
 ## <a name="configure-critical-mode-by-using-windows-powershell"></a>Windows PowerShell を使用して重要モードを構成する
 
-また、BlockonCsArchivingConfiguration コマンドレットを使用して、アーカイブを禁止するエラーが発生した場合**** に通信セッションを許可するかどうかを指定することもできます。
+また、 **BlockonCsArchivingConfiguration**コマンドレットを使用して、アーカイブを禁止するエラーが発生した場合に通信セッションを許可するかどうかを指定することもできます。
   
 たとえば、次のコマンドを実行すると、アーカイブに失敗した場合の通信が無効になります。
   
-```
+```PowerShell
 Set-CsArchivingConfiguration -Identity "site:Redmond" -BlockOnArchiveFailure $True
 ```
 
 次のコマンドは、アーカイブに障害が発生した場合でも通信を有効にします。
   
-```
+```PowerShell
 Set-CsArchivingConfiguration -Identity "site:Redmond" -BlockOnArchiveFailure $False
 ```
 

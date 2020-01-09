@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - SMB
 description: Skype for Business Online の Skype 会議ブロードキャスト機能について説明します。この機能を使用すると、最大1万人までの会議やイベントのスケジュール、作成、ブロードキャストを行うことができます。
-ms.openlocfilehash: 443810772eeb8bf11721825b06b6a87ccb2c97c8
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 95ad00be416a53e6e861ce4e9f235bded8e8075a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792922"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40990982"
 ---
 # <a name="set-up-your-network-for-skype-meeting-broadcast"></a>Skype 会議ブロードキャスト用にネットワークをセットアップする
 
@@ -53,7 +53,7 @@ Skype[会議ブロードキャスト](enable-skype-meeting-broadcast.md)の Skyp
 
    - resources.lync.com
 
-3. [**保存**] をクリックします。
+3. **[保存]** をクリックします。
 
 ## #
 
@@ -61,27 +61,27 @@ Skype[会議ブロードキャスト](enable-skype-meeting-broadcast.md)の Skyp
 
 - [**スタート] メニュー**で、[ **Windows PowerShell** ] を右クリックし、[**管理者として実行**] をクリックします。 **Windows PowerShell**ウィンドウで、各行を入力し、enter キーを押します。
 
-  ```
+  ```PowerShell
   $r = New-CsEdgeDomainPattern -Domain "noammeetings.lync.com"
   ```
 
-  ```
+  ```PowerShell
   $s = New-CsEdgeDomainPattern -Domain "emeameetings.lync.com"
   ```
 
-  ```
+  ```PowerShell
   $t = New-CsEdgeDomainPattern -Domain "apacmeetings.lync.com"
   ```
 
-  ```
+  ```PowerShell
   $n = New-CsEdgeDomainPattern -Domain "resources.lync.com"
   ```
 
-  ```
+  ```PowerShell
   $newAllowList = New-CsEdgeAllowList -AllowedDomain $r,$s,$t,$n
   ```
 
-  ```
+  ```PowerShell
   Set-CsTenantFederationConfiguration -AllowedDomains $newAllowList
   ```
 
@@ -89,13 +89,13 @@ Skype[会議ブロードキャスト](enable-skype-meeting-broadcast.md)の Skyp
 
 セットアッププロセスの2番目の手順では、最初に必要なドメインを追加してから、Skype 会議ブロードキャストを使用するために必要な IP アドレスと Url を追加します。
 
-- 必要なものを確認**して、必要な Skype For Business Online エンドポイント url と IP アドレスを追加**する[こちらをご覧](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_lyo)ください。
+- 必要な**Skype For Business Online エンドポイントの url と IP アドレスを追加するには、** [次](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_lyo)の手順に従います。
 
 ## <a name="set-up-skype-meeting-broadcast-in-hybrid-deployments-and-organizations"></a>ハイブリッド展開と組織で Skype 会議ブロードキャストをセットアップする
 
 Skype for Business Online の組織と、Lync server 2010、Microsoft Lync Server 2013、および Skype for Business Server 2015 のオンプレミスの展開と、両方のユーザーがオンラインとオンプレミスの両方を使用している場合は、別のセットアップ手順を実行する必要があります。上のものに加えて、オンプレミスの組織が Skype for Business Online と通信できるようにし、すべてのユーザーが Skype 会議ブロードキャストに参加できるようにすることができます。 これらの要件については、「 [Skype 会議ブロードキャスト用にオンプレミス展開を構成](https://go.microsoft.com/fwlink/?LinkId=617070)する」を参照してください。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype 会議ブロードキャストを有効にする](enable-skype-meeting-broadcast.md)
 

@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype for Business Server の計画およびビデオベースの画面共有の構成情報 (VbSS)
-ms.openlocfilehash: ae2cc683148fdb2a2cb80e3fe3cf25a698a56c00
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 00c699f9a26d82506bd13fefe0e6f3e53f7b86bf
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548996"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992394"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Skype for Business Server のビデオベースの画面共有 
  
@@ -87,7 +87,7 @@ Skype for Business Server 2015 累積更新プログラム 2 (CU2) 以降を実�
     
 - Skype for Business Server 環境内のすべてのユーザーには、1920 x 1080 よりも高い画面解像度が設定されています。
     
-(上で説明したように) フルキャパシティでは、フロントエンドサーバーあたりの375画面共有の参加者は250合計でで、1 gb のネットワークカードの 89% を利用している可能性があります。 これは、Skype for Business Server CU2 (RDP) の既存のスクリーン共有テクノロジによって、画面上のコンテンツが発表者の PC のネイティブ解像度で伝送されるためです。 そのため、画面の解像度を高く考慮すると、Skype for Business Server 2015 CU2 での画面共有のネットワークボトルネックが既に発生している可能性があります。
+(上で説明したように) フルキャパシティでは、フロントエンドサーバーあたりの375画面共有の参加者は250合計でで、1 Gb のネットワークカードの89% を利用している可能性があります。 これは、Skype for Business Server CU2 (RDP) の既存のスクリーン共有テクノロジによって、画面上のコンテンツが発表者の PC のネイティブ解像度で伝送されるためです。 そのため、画面の解像度を高く考慮すると、Skype for Business Server 2015 CU2 での画面共有のネットワークボトルネックが既に発生している可能性があります。
   
 これを緩和するには、次のオプションを 1 つまたは複数採用すると効果的です。
   
@@ -141,13 +141,13 @@ VbSS の帯域幅:
 
 - Skype for Business 管理コンソールでこのコマンドレットを実行することにより、vbss を使用していないユーザーに対して VbSS を許可しないユーザーポリシーを割り当てることができます (これを実行しているポリシーで [PolicyName] と置き換えます)。
     
-  ```
+  ```PowerShell
   Set-CsConferencingPolicy -Identity [PolicyName] -ApplicationSharingMode RDP
   ```
 
 - またグローバル会議ポリシーを更新することもでき、そうすれば割り当てられたポリシーのないすべてのユーザーに影響が及びます。
     
-  ```
+  ```PowerShell
   Set-CsConferencingPolicy -ApplicationSharingMode RDP
   ```
 
@@ -155,7 +155,7 @@ VbSS の帯域幅:
     
 - VbSS を完全にオフにしたい場合は、このコマンドを実行します。
     
-  ```
+  ```PowerShell
   Set-CsMediaConfiguration -EnableVideoBasedSharing $false
   ```
 
@@ -168,13 +168,13 @@ VbSS の帯域幅:
 
 - Skype for Business 管理コンソールでこのコマンドレットを実行することにより、VbSS を使用する必要がある特定のユーザーポリシーを割り当てることができます (これを行うには、[PolicyName] をポリシーで置き換えます)。
     
-  ```
+  ```PowerShell
   Set-CsConferencingPolicy -Identity [PolicyName] -ApplicationSharingMode VideoWithFallback
   ```
 
 - またグローバル会議ポリシーを更新することもでき、そうすれば割り当てられたポリシーのないすべてのユーザーに影響が及びます。
     
-  ```
+  ```PowerShell
   Set-CsConferencingPolicy -ApplicationSharingMode VideoWithFallback
   ```
 
@@ -182,7 +182,7 @@ VbSS の帯域幅:
     
 - VbSS をオフにした後でオンに戻したい場合は、このコマンドを実行します。
     
-  ```
+  ```PowerShell
   Set-CsMediaConfiguration -EnableVideoBasedSharing $true
   ```
 

@@ -13,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 1つ以上のエッジサーバーを展開した後は、組織でサポートされる外部アクセスの種類を有効にする必要があります。
-ms.openlocfilehash: 014077fb331bc33933d0c673771f7765b9341570
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f1f9798907f70893601a5dfe05b5045e484911e0
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280118"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991752"
 ---
 # <a name="manage-external-access-policy-for-your-organization"></a>組織の外部アクセス ポリシーの管理
 
@@ -62,7 +62,7 @@ ms.locfileid: "34280118"
     
     このコマンドは、次のような情報を返します。
     
-    ```
+    ```console
     Identity                          : Global
     Description                       :
     EnableFederationAccess            : False

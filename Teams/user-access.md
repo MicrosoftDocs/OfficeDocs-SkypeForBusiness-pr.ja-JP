@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11ec004e98c54f8b8e81594c54407fd2078c7f80
-ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
+ms.openlocfilehash: 1d5db525054e1233d4532f6a7819735b1415e7cd
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39209073"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989802"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Microsoft Teams へのユーザー アクセスを管理する
 =====================================
@@ -51,7 +51,7 @@ Teams ユーザーライセンスは、いつでも無効にすることがで�
 ## <a name="manage-via-powershell"></a>PowerShell を使用して管理する
 
 > [!IMPORTANT]
-> MsolLicenseOptions を使うと、カスタマイズされたスクリプトに explictitly 識別子が関連付けられていない限り、以前に無効になったすべてのサービスを有効にすることができます。 たとえば、additonally を無効にしている間も Exchange & Sway をすべて残しておく必要がある場合は、これをスクリプトに含めるか、または両方とも Exchange & Sway が有効になっているユーザーを確認します。 GUI を使ってこの機能を管理する方法については、「 [Office 365 ライセンスレポートと管理ツール-一括](https://gallery.technet.microsoft.com/Office365-License-cfd9489c)してライセンスを削除する」を参照してください。
+> MsolLicenseOptions を使うと、カスタマイズしたスクリプトで明示的に指定されていない限り、以前に無効になっていたすべてのサービスを有効にできます。 たとえば、チームを無効にしている間も Exchange & Sway を無効にする必要がある場合は、この操作をスクリプトに含めるか、または両方とも Exchange & Sway が有効になるように、特定のユーザーに対して行う必要があります。 GUI を使ってこの機能を管理する方法については、「 [Office 365 ライセンスレポートと管理ツール-一括](https://gallery.technet.microsoft.com/Office365-License-cfd9489c)してライセンスを削除する」を参照してください。
 
 PowerShell からワークロード ライセンスとして Teams を有効または無効にすることは、別のワークロードとして実行されます。 Microsoft Teams ではサービス プランの名前は TEAMS1 になります。 GCC の場合、サービスプラン名は TEAMS_GOV です。 GCC 高の場合、サービスプラン名は TEAMS_GCCHIGH。 DoD の場合、サービスプラン名は TEAMS_DOD (詳細については、「 [Office 365 PowerShell でサービスへのアクセスを無効](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell)にする」を参照してください。)
 

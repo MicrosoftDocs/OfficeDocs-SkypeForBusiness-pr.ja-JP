@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: このトピックでは、Skype for Business Server 2015 リソースキットのツールについて説明します。各ツールの目的や使用例も記載されています。 Skype for Business Server 2015 リソースキットは、Skype for business Server 2015 を展開して管理する IT 管理者にとって、日常的なタスクを容易にするのに役立ちます。 たとえば、Web Conf Data ツールを使用すると、オンライン会議中にユーザーによってアップロードされたデータを簡単に制御できます。 SEFAUtil ツールを使用すると、ユーザーの問い合わせに対して自動転送や自動応答を設定できます。 IT 管理者はこれらのツールを使用して、より効率的に Skype for Business Server 2015 を管理することをお勧めします。
-ms.openlocfilehash: c34998cf86de6bc85d384081c0db77f70edb68f9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0087f4286246833f0266ad0c78636bad00167756
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289063"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992534"
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>Skype for Business Server 2015 リソース キット ツールのドキュメント
 
@@ -92,7 +92,7 @@ ABSConfig ツールは、absConfig.exe ファイルから起動できます。 �
 
 ABSConfig は、アドレス帳サービスの構成をデータベースに格納します。
 
-```
+```PowerShell
 Path: %ProgramFiles%\Skype for Business Server 2015\Reskit
 ```
 
@@ -260,7 +260,7 @@ WanLinkLogCollector.exe を使用するには、次の 3 つの手順を実行�
 
 図に示すように、以下のファイル ディレクトリを指定することができます。
 
-- **サーバーのログファイルの場所**帯域幅ポリシーサーバーログが保存されているフォルダーの場所。 通常、これは\<、\>\\<choice の [\>FE \AppServerFiles\PDP. のにあります。
+- **サーバーのログファイルの場所**帯域幅ポリシーサーバーログが保存されているフォルダーの場所。 通常、これは\<、\> \\ \>\AppServerFiles\PDP. の<の選択を行うことになります。
 
 - **一時ファイルの保存場所**レポートの生成中に中間ファイルが保存される一時ファイルの場所。
 
@@ -419,9 +419,9 @@ CPS ツールを使用すると、CPS データベースへのコマンドライ
 
 ### <a name="requirements"></a>要件
 
-CPS が実行されている同じコンピューターで実行する場合、このツールの使用に必要な条件はありません。 このツールがリモートコンピューターで実行される場合は、Skype for Business Server 2015 で使用される SQL Server データベースがリモートアクセスを許可するように構成されている必要があります。 呼び出しの場合は、プールの SQL Server に接続するために SQL Server データベース接続文字列を使用して構成されている必要があります。 この SQL Server データベース接続文字列は構成ファイルで定義され**** ています。このファイルは、par・・・・・・・・ m の場所にあるのと同じディレクトリに配置する必要があります。 次の XML ファイルは、par・メータの例です。構成が必要なパラメーターは、ユーザー名 (myの "管理者" など)、パスワード (mypassword など)、ホスト名 (たとえば、myserver) です。
+CPS が実行されている同じコンピューターで実行する場合、このツールの使用に必要な条件はありません。 このツールがリモートコンピューターで実行される場合は、Skype for Business Server 2015 で使用される SQL Server データベースがリモートアクセスを許可するように構成されている必要があります。 呼び出しの場合は、プールの SQL Server に接続するために SQL Server データベース接続文字列を使用して構成されている必要があります。 この SQL Server データベース接続文字列は構成ファイルで定義されて**います。** このファイルは、par・・・・・・・・ m の場所にあるのと同じディレクトリに配置する必要があります。 次の XML ファイルは、par・メータの例です。構成が必要なパラメーターは、ユーザー名 (myの "管理者" など)、パスワード (mypassword など)、ホスト名 (たとえば、myserver) です。
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8" ?>
 <configuration>
   <appSettings>
@@ -467,14 +467,14 @@ Call Parkometer は、コール パーク サーバーに関する詳しい情�
 
 DBAnalyze は、管理者が Skype for Business Server 2015 データベースに関する分析レポートを収集するのに役立つコマンドラインツールです。 DBAnalyze には、診断モード、ユーザー データ モード、会議モード、MCU モード、ディスク断片化モードが用意されています。
 
-- **診断モード**テーブル (レコード数、断片化、データサイズ、インデックスサイズ)、データとログファイルのサイズ、最後のバックアップ時間、Microsoft Office Communications Server を実行しているサーバー間の連絡先配布に関する情報を含むレポートを作成します。アクセス許可の平均数、連絡先、コンテナー、サブスクリプション、文書、ユーザーあたりのエンドポイント、不適切にホームとなっているユーザー、ルーティングできない会議の平均数、スケジュールされた会議、アクティブな会議データベースのバージョン。
+- **診断モード**テーブル (レコード数、断片化回数など) に関する情報を含むレポートを作成します。データサイズとインデックスサイズ)、データとログファイルのサイズ、最後のバックアップ時間、連絡先の配布には、Microsoft Office Communications Server が実行されているサーバー間の平均数、アクセス許可の平均数、ユーザーごとに開催された電話会議の平均数、スケジュールされている会議、アクティブな会議の数、データベースのバージョン。
 
     > [!NOTE]
     > 診断モードを実行すると、サーバーのパフォーマンスに影響を与えることがあります。
 
 - **ユーザーデータモード**指定したユーザーの連絡先、コンテナー、サブスクリプション、パブリケーション、アクセス許可、連絡先グループのデータ、またはそのユーザーを連絡先やアクセス許可の一覧に登録しているユーザーのレポートを作成します。 このモードでは、ユーザーが開催する、または招待された会議の概要データもレポートします。
 
-- **会議モード**会議のすべてのスケジュールの詳細、出席者リスト、会議で許可されているメディアの種類の一覧、アクティブな Mcu (multipoint control ユニット)、アクティブな参加者の一覧、各会議の詳細データをレポートします。参加者のシグナリングの状態。
+- **会議モード**会議のすべてのスケジュールの詳細、招待者リスト、会議で許可されているメディアの種類の一覧、アクティブな Mcu (multipoint control ユニット)、アクティブな参加者の一覧、各参加者の通知状態など、特定の会議の詳細データを報告します。
 
 - **会議 ID のデコード****/Pstnid**スイッチで指定されている公衆交換電話網 (PSTN) 会議 ID をデコードしますが、詳細情報についてはバックエンドに接続しません。
 
@@ -785,11 +785,11 @@ C:\Program Files\Skype for Business Server 2015 \ ResKit\>lookupuserconsole
 ## <a name="msturnping"></a>MsTurnPing
 <a name="MsTurnPing"> </a>
 
-MSTurnPing ツールを使用すると、Skype for Business Server 2015 通信ソフトウェアの管理者は、オーディオ/ビデオエッジとオーディオ/ビデオ認証サービスを実行しているサーバーと、帯域幅ポリシーを実行しているサーバーの状態を確認することができます。トポロジ内のサービス。
+MSTurnPing ツールを使用すると、Skype for Business Server 2015 通信ソフトウェアの管理者は、オーディオ/ビデオエッジとオーディオ/ビデオ認証サービスを実行しているサーバーと、トポロジで帯域幅ポリシーサービスを実行しているサーバーの状態を確認できます。
 
 ### <a name="description"></a>説明
 
-MSTurnPing ツールを使用すると、Skype for Business Server 2015 通信ソフトウェアの管理者は、オーディオ/ビデオエッジとオーディオ/ビデオ認証サービスを実行しているサーバーと、帯域幅ポリシーを実行しているサーバーの状態を確認することができます。トポロジ内のサービス。
+MSTurnPing ツールを使用すると、Skype for Business Server 2015 通信ソフトウェアの管理者は、オーディオ/ビデオエッジとオーディオ/ビデオ認証サービスを実行しているサーバーと、トポロジで帯域幅ポリシーサービスを実行しているサーバーの状態を確認できます。
 
 このツールを使用すると、管理者は次のテストを実行できます。
 
@@ -874,7 +874,7 @@ Network Configuration Viewer (NetworkConfigurationViewer.exe) を使用すると
 
 ### <a name="examples"></a>例
 
- Skype for business server **2015 の展開からの cac ネットワークトポロジの読み込みと表示グラフィカル形式で**の操作: skype for business server 2015 管理者は、次の方法で、任意の Skype For business server 2015 コンピューター上の cac ネットワークトポロジ構成を読み込み、表示することができます。次の図に示すように、[**ネットワーク構成のダウンロード**] オプションを使用します。 このツールでは、Skype for Business Server 2015 構成ストアへの接続がないコンピューターに展開された場合に、このような構成をダウンロードまたは表示することはできません。
+ Skype for business server **2015 の展開からの cac ネットワークトポロジの読み込みと表示グラフィカル形式で**の操作: skype for business server 2015 管理者は、次の図に示すように [**ネットワーク構成のダウンロード**] オプションを使用して、すべての skype for business SERVER 2015 コンピューターで cac ネットワークトポロジの構成を読み込み、表示することができます。 このツールでは、Skype for Business Server 2015 構成ストアへの接続がないコンピューターに展開された場合に、このような構成をダウンロードまたは表示することはできません。
 
 ![ネットワーク構成のダウンロード](../media/Reskit_2012_Tools_Documentation_Image23.jpg)
 
@@ -886,11 +886,11 @@ CAC ネットワークトポロジを保存して、ディスク上の XML 形�
 
 ![ネットワーク構成の XML ファイルとしての保存](../media/Reskit_2012_Tools_Documentation_Image25.jpg)
 
-CAC ネットワークトポロジ図を JPG または BMP 形式で保存して保存します。 Skype for Business Server 2015 管理者は、次の**ようにネットワーク構成ダイアグラムを保存することで、cac ネットワークトポロジ構成をグラフィカルな形式 (JPG と bmp ファイル形式) で保存できます。** 次に示すように、[図] オプション。
+CAC ネットワークトポロジ図を JPG または BMP 形式で保存して保存します。 Skype for Business Server 2015 管理者は、次に示すように**ネットワーク構成ダイアグラムを [画像として保存**] オプションを使用して、cac ネットワークトポロジ構成をグラフィカルな形式 (JPG および bmp ファイル形式) で保存できます。
 
 ![ネットワーク構成の画像としての保存](../media/Reskit_2012_Tools_Documentation_Image26.jpg)
 
- <strong>CAC ネットワークトポロジ構成データを表示します。</strong>Skype for Business Server 2015 管理者は、表示される [ネットワーク構成データの表示] オプションを使用して、ネットワーク領域、ネットワークサイト、帯域幅プロファイル、サイトサブネットの IP アドレスなどの関連ネットワーク構成データをテキスト形式で表示できます。以下に。
+ <strong>CAC ネットワークトポロジ構成データを表示します。</strong>Skype for Business Server 2015 管理者は、以下に示すように [ネットワーク構成データの表示] オプションを使用して、ネットワーク領域、ネットワークサイト、帯域幅プロファイル、サイトサブネットの IP アドレスなどの関連ネットワーク構成データをテキスト形式で表示できます。
 
 ![ネットワーク構成データの表示](../media/Reskit_2012_Tools_Documentation_Image27.jpg)
 
@@ -1045,7 +1045,7 @@ SEFAUtil ツールは信頼されたアプリケーション プールに属し�
 
 1. SEFAUTil ツールは信頼されたアプリケーション プールに属しているコンピューターでのみ実行できます。 必要に応じて、新しい信頼できるアプリケーションプールとしてプールを追加するには、次のコマンドレットを実行して、Skype for Business Server 管理シェルを使用します。
 
-   ```
+   ```PowerShell
    New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
    ```
 
@@ -1054,7 +1054,7 @@ SEFAUtil ツールは信頼されたアプリケーション プールに属し�
 
 2. 信頼されたアプリケーションを SEFAUtil ツールのトポロジ内に定義する必要があります。 SEFAUtil を新しい信頼されたアプリケーションとして定義するには、Skype for Business Server 管理シェルを使用して、次のコマンドレットを実行します。
 
-   ```
+   ```PowerShell
    New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN> -Port 7489
    ```
 
@@ -1068,7 +1068,7 @@ SEFAUtil ツールは信頼されたアプリケーション プールに属し�
 
 3. トポロジの変更を有効にする必要があります。 トポロジの変更を有効にするには、次のコマンドレットを実行します。
 
-   ```
+   ```PowerShell
    Enable-CsToplogy
    ```
 
@@ -1076,7 +1076,7 @@ SEFAUtil ツールは信頼されたアプリケーション プールに属し�
 
 5. SEFAUtil が正しく実行していることを確認します。 そのためには、Windows コマンド プロンプトから管理者権限でツールを実行し、展開内のユーザーの着信転送設定を表示します。 既定では、ツールは "..\Program Files\Skype for Business Server 2015 \ Reskit" に保存されます。 ユーザーの着信転送設定を表示するには、次のコマンドを実行します。
 
-   ```
+   ```console
    SEFAUtil.exe <user SIP address> /server:<Skype for Business Server/Pool FQDN>
    ```
 
@@ -1097,7 +1097,7 @@ SEFAUtil ツールは信頼されたアプリケーション プールに属し�
 
  **出力**
 
-```
+```output
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1116,7 +1116,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /enablefwdno
 
  **出力**
 
-```
+```output
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1135,7 +1135,7 @@ SEFAUtil.exe sip:katarina@contoso.com /enablefwdimmediate /setfwddestination:and
 
  **出力**
 
-```
+```output
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1153,7 +1153,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com katarina@contoso.com  /disablefwdimme
 
  **出力**
 
-```
+```output
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1172,7 +1172,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /adddelegate
 
  **出力**
 
-```
+```output
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1189,7 +1189,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /delayringde
 
  **出力**
 
-```
+```output
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1210,7 +1210,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /removedeleg
 
  **出力**
 
-```
+```output
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1229,7 +1229,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /adddelegate
 
  **出力**
 
-```
+```output
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1249,7 +1249,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /setsimulrin
 
  **出力**
 
-```
+```output
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1267,7 +1267,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /disablesimu
 
  **出力**
 
-```
+```output
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1289,7 +1289,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /addteammemb
 
  **出力**
 
-```
+```output
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1309,7 +1309,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /removeteamm
 
  **出力**
 
-```
+```output
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1327,7 +1327,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /delayringte
 
  **出力**
 
-```
+```output
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1357,7 +1357,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /disableteam
 
  **出力**
 
-```
+```output
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1375,7 +1375,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /enablegroup
 
  **出力**
 
-```
+```output
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1445,7 +1445,7 @@ Sysprep.inf スクリプトを実行する前に、必須ファイルを Windows
 
 Sysprep.inf スクリプトを実行して、Skype for Business Server 2015 の前提条件をインストールするには、管理者特権のコマンドプロンプトから次のコマンドを実行します。
 
-```
+```console
 ./SysPrep.PS1 -SetupFolder D:\Setup
 ```
 
@@ -1481,7 +1481,7 @@ Unassigned Number Announcements Migration スクリプトを実行すると、�
 
 Unassigned Number Announcements Migration スクリプトは、次の 3 つのシナリオで使用できます。
 
-- **新しいバージョンの Skype For Business Server に構成設定を移行する:** Contoso は、Skype for Business Server 2015 への移行プロセス中で、移行プロセスの一環として、Skype for Business Server の管理者が、Lync からのアナウンスメントアプリケーションによって提供されている割り当てられていない番号の設定を移動することを希望しています。新しい Skype for Business Server 2015 の展開へのサーバー2013の展開。 設定を移動するには、Skype for Business Server の管理者は、割り当てられていない番号のお知らせ移行ツールを使用します。
+- **新しいバージョンの Skype For Business Server に構成設定を移行する:** Contoso は、Skype for Business Server 2015 への移行プロセスの一環として、移行プロセスの一部として、skype for Business Server 管理者は、アナウンスメントアプリケーションによって提供された割り当てられていない番号の設定を、Lync Server 2013 の展開から新しい Skype for Business Server 2015 の展開に移動することを希望しています。 設定を移動するには、Skype for Business Server の管理者は、割り当てられていない番号のお知らせ移行ツールを使用します。
 
 - **Skype For Business server 2015 から Lync server 2013 に展開をロールバックする:** 予期しない問題が発生したため、Contoso は移行をロールバックして、新しい Skype for Business Server 2015 の展開に移行します。 サービスの中断を最小限に抑えるため、Skype for Business Server の管理者は、割り当てられていない番号のお知らせ移行ツールを使用して、Skype for Business Server 2015 の展開から Lync Server 2013 の展開に構成をロールバックします。
 
@@ -1507,7 +1507,7 @@ Move-CsAnnouncementConfiguration スクリプトでは、下の表に示す 2 �
 
 この例では、割り当てられていない番号のアナウンスをソースプール (Lync Server 2013) から移行先プール (Skype for Business Server 2015) に移動します。
 
-```
+```PowerShell
 Move-CsAnnouncementConfiguration.ps1 -Source LS2013Pool.contoso.com -Destination SfBS2015Pool.contoso.com
 ```
 
@@ -1515,7 +1515,7 @@ Move-CsAnnouncementConfiguration.ps1 -Source LS2013Pool.contoso.com -Destination
 
 この例では、ソースプール (Skype for Business Server 2015) から割り当てられていない番号のアナウンスを移行先のプール (Lync Server 2013) に移動します。
 
-```
+```PowerShell
 Move-CsAnnouncementConfiguration.ps1 -Source SfBS2015Pool.contoso.com -Destination LS2013Pool.contoso.com
 ```
 

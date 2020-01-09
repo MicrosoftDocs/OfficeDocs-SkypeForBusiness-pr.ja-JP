@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
 description: '概要: Skype for Business Server で通話の詳細記録 (CDR) レコードを有効にする方法について説明します。'
-ms.openlocfilehash: 015ac3b57420401894e82c267e9737990ca7affb
-ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
+ms.openlocfilehash: 3474a82bfc9ed8e8bad954bb91346989d9181465
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/05/2019
-ms.locfileid: "36767059"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992947"
 ---
 # <a name="enable-call-detail-recording-in-skype-for-business-server"></a>Skype for Business Server での通話の詳細の記録を有効にする
 
@@ -49,7 +49,7 @@ CDR を有効にするには、Windows PowerShell と**CsCdrConfiguration**コ�
 
  CDR を無効にするには、EnableCDR パラメーターを True ($True) に設定します。
 
-  ```
+  ```PowerShell
   Set-CsCdrConfiguration -Identity "site:Redmond" -EnableCDR $True
   ```
 
@@ -57,7 +57,7 @@ CDR を有効にするには、Windows PowerShell と**CsCdrConfiguration**コ�
 
  CDR を無効にするには、EnableCDR パラメーターを False ($False) に設定します。CDR を無効にしても、監視がアンインストールされることはありません。CDR データの収集と保存が一時停止されます。
 
-  ```
+  ```PowerShell
   Set-CsCdrConfiguration -Identity "site:Redmond" -EnableCDR $False
   ```
 
@@ -65,7 +65,7 @@ CDR を有効にするには、Windows PowerShell と**CsCdrConfiguration**コ�
 
  このコマンドによって、組織で現在使用されているすべての CDR 構成設定の CDR が有効になります。
 
-  ```
+  ```PowerShell
   Get-CsCdrConfiguration | Set-CsCdrConfiguration -EnableCDR $True
   ```
 

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
 description: '概要: Skype for Business Server で2要素認証を構成します。'
-ms.openlocfilehash: 91a8929b89a584b116f1c7ec9313daa2fe679fd0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 768ee9c2697523eff6922f20fd610554e32c1f7c
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283841"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992334"
 ---
 # <a name="configure-two-factor-authentication-in-skype-for-business-server"></a>Skype for Business Server で2要素認証を構成する
 
@@ -78,7 +78,7 @@ ms.locfileid: "34283841"
 
 5. 次のコマンドを実行して、Trusted Platform Module (TPM) 管理コンソールを開きます。
 
-  ```
+  ```console
   Tpm.msc
   ```
 
@@ -91,7 +91,7 @@ ms.locfileid: "34283841"
 
 8. コマンド プロンプトで、次のコマンドを使用して新しい仮想スマート カードを作成します。
 
-  ```
+  ```console
   TpmVscMgr create /name MyVSC /pin default /adminkey random /generate
   ```
 
@@ -100,7 +100,7 @@ ms.locfileid: "34283841"
 
 9. コマンド プロンプトから、次のコマンドを実行してコンピューター管理コンソールを開きます。
 
-  ```
+  ```console
   CompMgmt.msc
   ```
 
@@ -190,13 +190,13 @@ ms.locfileid: "34283841"
 
 3. Windows PowerShell コマンド ラインで次のコマンドを実行します。
 
-  ```
+  ```PowerShell
   add-pssnapin Microsoft.Adfs.PowerShell
   ```
 
 4. 展開に固有のサーバー名を置き換えて以下のコマンドを実行することで、パッシブ認証に対して有効にされる各サーバーとのパートナーシップを確立します。
 
-  ```
+  ```PowerShell
   Add-ADFSRelyingPartyTrust -Name SfBPool01-PassiveAuth -MetadataURL https://SfBpool01.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
   ```
 
@@ -208,22 +208,22 @@ ms.locfileid: "34283841"
 
 8. Windows PowerShell を使用して次のコマンドを実行し、証明書利用者の信頼に関する発行承認規則を作成して割り当てます。
 
-  ```
+  ```PowerShell
   $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "https://schemas.microsoft.com/authorization/claims/permit", Value = "true");'
   ```
 
-  ```
+  ```PowerShell
   Set-ADFSRelyingPartyTrust -TargetName SfBPool01-PassiveAuth
 -IssuanceAuthorizationRules $IssuanceAuthorizationRules
   ```
 
 9. Windows PowerShell を使用して次のコマンドを実行し、証明書利用者の信頼に関する発行変換規則を作成して割り当てます。
 
-  ```
+  ```PowerShell
   $IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "https://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
   ```
 
-  ```
+  ```PowerShell
   Set-ADFSRelyingPartyTrust -TargetName SfBPool01-PassiveAuth -IssuanceTransformRules $IssuanceTransformRules
   ```
 
@@ -269,7 +269,7 @@ AD FS 2.0 でスマート カードを使用した認証をサポートできる
 
 11. 次のコマンドを実行して IIS を再起動します。
 
-  ```
+  ```console
   IISReset /Restart /NoForce
   ```
 
@@ -292,7 +292,7 @@ AD FS 2.0 でスマート カードを使用した認証をサポートできる
 
 3. Skype for Business Server 管理シェルコマンドラインで、次のコマンドを実行して、各ディレクター、エンタープライズプール、および標準エディションのサーバー用の新しい Web サービス構成を作成します。これにより、パッシブ認証が有効になります。
 
-  ```
+  ```PowerShell
   New-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
   ```
 
@@ -301,19 +301,19 @@ AD FS 2.0 でスマート カードを使用した認証をサポートできる
 
 4. 次のコマンドを実行して、UseWsFedPassiveAuth と WsFedPassiveMetadataUri の値が正しく設定されたことを確認します。
 
-  ```
+  ```PowerShell
   Get-CsWebServiceConfiguration -identity "Service:WebServer:SfBPool01.contoso.com" | format-list UseWsFedPassiveAuth, WsFedPassiveMetadataUri
   ```
 
 5. クライアントでは、パッシブ認証は WebTicket 認証の最も望ましくない方法です。 パッシブ認証を有効にするすべてのディレクター、エンタープライズプール、および標準エディションのサーバーの場合は、次のコマンドレットを実行して、Skype for Business Web サービスでその他のすべての認証の種類を無効にする必要があります。
 
-  ```
+  ```PowerShell
   Set-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" -UseCertificateAuth $false -UsePinAuth $false -UseWindowsAuth NONE
   ```
 
 6. 次のコマンドレットを実行して、他のすべての認証の種類が無効になっていることを確認します。
 
-  ```
+  ```PowerShell
   Get-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" | format-list UseCertificateAuth, UsePinAuth, UseWindowsAuth
   ```
 
@@ -327,17 +327,17 @@ Skype for Business Web サービスの証明書認証が無効になっている
 
 1. Skype for Business Server 管理シェルのコマンドラインで、次のコマンドを実行して、各 Skype for Business Server Edge プール、エンタープライズプール、および標準エディションのサーバーに対して新しいプロキシ構成を作成します。コマンド
 
-  ```
+  ```PowerShell
   New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
   ```
 
-  ```
+  ```PowerShell
   New-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
   ```
 
 2. 次のコマンドを実行して、他のすべてのプロキシ認証の種類が無効になっていることを確認します。
 
-  ```
+  ```PowerShell
   Get-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" | format-list UseKerberosForClientToProxyAuth, UseNtlmForClientToProxyAuth, UseCertifcateForClientToProxyAuth
   ```
 

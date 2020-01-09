@@ -15,12 +15,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: チームギャラリーと検索結果の提案を通じて、プライベートチームを Microsoft Teams ユーザーが検出できるかどうかを制御する方法について説明します。
-ms.openlocfilehash: b60c06299f779ebe798db1ff3df465f1683508ed
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e2e0ec956b40ff5e84bb29874c0dc567edefd034
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572002"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992012"
 ---
 # <a name="manage-discovery-of-private-teams-in-microsoft-teams"></a>Microsoft Teams でプライベート チームの検索を管理する
 
@@ -62,10 +62,10 @@ Teams で、プライベートチームに移動し、[**その他のオプシ�
 
 ![既存のプライベートチームの検出設定のスクリーンショット](media/private-team-discovery-existing-team.png)
 
-### <a name="using-powershell"></a>PowerShell を使用する
+### <a name="using-powershell"></a>PowerShell を使用する場合
 
 **[Set-Team](https://docs.microsoft.com/powershell/module/teams/set-team?view=teams-ps)** コマンドレットを使用して、既存のプライベートチームの検出設定をオンまたはオフにします。 チームを検出できるようにする方法の例を次に示します。
-```
+```PowerShell
     Set-Team -GroupId 0abc123d-e4f5-67gh-i890-jk1m2n345o6p -ShowInTeamsSearchAndSuggestions $true
 ```
 スクリプトでこのコマンドレットを使用して、既存のプライベートチームの検出設定を一括で設定することができます。
@@ -79,7 +79,7 @@ Teams で、プライベートチームに移動し、[**その他のオプシ�
 既定では、組織内のすべてのユーザーに対して**Allowprivateteamdiscovery**が**true**に設定されます。
 
 この例では、VendorPolicy という名前のポリシーを作成して、ユーザーが検出可能なプライベートチームを検出できないようにします。次に、vendoruser1 という名前のユーザーにポリシーを割り当てます。
-```
+```PowerShell
      New-CsTeamsChannelsPolicy -Identity VendorPolicy -AllowPrivateTeamDiscovery $false
      Grant-CsTeamsChannelsPolicy -Identity vendoruser1@company.com -PolicyName VendorPolicy
 ```

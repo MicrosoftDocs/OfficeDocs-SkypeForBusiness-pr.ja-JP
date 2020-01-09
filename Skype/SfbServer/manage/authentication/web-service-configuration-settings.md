@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f3f04d81-8a1f-427f-bd0f-fb659024e096
 description: '概要: Skype for Business Server で Web サービスの構成設定を管理します。'
-ms.openlocfilehash: b2a7f287c9386c89d132e03e96aa25e9472f7008
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 383b85e156dfdbc6af7606da49d4cf89bf655698
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297576"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991932"
 ---
 # <a name="manage-web-service-configuration-settings-in-skype-for-business-server"></a>Skype for Business Server で Web サービスの構成設定を管理する
  
@@ -106,7 +106,7 @@ Web サービス構成設定は、Windows PowerShell と**CsWebServiceConfigurat
 
 - 次のコマンドを実行すると、レドモンド サイトに適用されている Web サービス セキュリティ設定が削除されます。
     
-  ```
+  ```PowerShell
   Remove-CsWebServiceConfiguration -Identity "site:Redmond"
   ```
 
@@ -114,7 +114,7 @@ Web サービス構成設定は、Windows PowerShell と**CsWebServiceConfigurat
 
 次のコマンドを実行すると、サービス スコープに適用されているすべての Web サービス セキュリティ設定が削除されます。
     
-  ```
+  ```PowerShell
   Get-CsWebServiceConfiguration -Filter "service:*" | Remove-CsWebServiceConfiguration
   ```
 
@@ -122,7 +122,7 @@ Web サービス構成設定は、Windows PowerShell と**CsWebServiceConfigurat
 
 次のコマンドを実行すると、証明書認証の使用を許可しているすべての Web サービス セキュリティ設定が削除されます。
     
-  ```
+  ```PowerShell
   Get-CsWebServiceConfiguration | Where-Object {$_.UseCertificateAuth -eq $True} | Remove-CsWebServiceConfiguration
   ```
 

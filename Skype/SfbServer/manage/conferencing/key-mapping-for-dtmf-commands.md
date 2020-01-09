@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f91e80ee-a587-4a1b-ac8f-12fa102c098c
 description: '概要: Skype for Business Server のデュアルトーンマルチ周波数 (DTMF) コマンドのキーマッピングを管理する方法について説明します。'
-ms.openlocfilehash: 713c72941a8cc147b751c82b9dbbfbc2c2d16837
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3bab799bb116d0ded48002eb91898ffc1587543c
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283761"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991822"
 ---
 # <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a>Skype for Business Server の DTMF コマンドのキーマッピングを管理する
  
@@ -23,7 +23,7 @@ ms.locfileid: "34283761"
   
 ダイヤルイン会議のユーザーは、電話キーパッドのキーを押して、デュアルトーン多重周波数 (DTMF) のコマンドを実行できます。DTMF コマンドを使用すると、会議にダイヤルインするユーザーは、電話のキーパッドを使用して会議設定 (自身をミュートおよびミュート解除したり、会議をロックおよびロック解除したりするなど) を制御できます。 
   
-DTMF コマンドに使用されるキーを管理するには、 **CsDialinConferencingDtmfConfiguration**、 **Set-CsDialinConferencingDtmfConfiguration**、および**のような Skype for business Server 管理シェルを使用します。CsDialinConferencingDtmfConfiguration**コマンドレット。
+DTMF コマンドに使用されるキーを管理するには、 **CsDialinConferencingDtmfConfiguration**、 **CsDialinConferencingDtmfConfiguration**、および**New CsDialinConferencingDtmfConfiguration**コマンドレットを使用して、Skype for business Server 管理シェルを使用します。
   
 サイトの新たな DTMF 設定を作成すると、そのサイト設定はグローバル設定よりも優先されるようになります。 
 
@@ -35,13 +35,13 @@ DTMF コマンドに使用されるキーを管理するには、 **CsDialinConf
     
 3. ダイヤイン会議に使用される DTMF 設定を表示するには、コマンド プロンプトで次のコマンドを実行します。
     
-   ```
+   ```PowerShell
    Get-CsDialinConferencingDtmfConfiguration
    ```
 
 4. ダイヤイン会議に使用される DTMF 設定を変更するには、次のコマンドレットを実行し、変更対象である各オプションで押されるキーを指定します。
     
-   ```
+   ```PowerShell
    Set-CsDialinConferencingDtmfConfiguration [-Identity <global or site collection to be changed>]
    [-AdmitAll <default key is 8>] [-AudienceMuteCommand <default key is 4>]
    [-CommandCharacter <* (default) | #>] [-EnableDisableAnnouncementsCommand <default key is 9>]
@@ -53,7 +53,7 @@ DTMF コマンドに使用されるキーを管理するには、 **CsDialinConf
     
 次の例では、アナウンスを有効/無効にするために押されるキーと、全参加者のミュート/ミュート解除のために押されるキーを交換します。ID が指定されていないため、これらの変更はグローバル DTMF 設定に適用されます。
   
-```
+```PowerShell
 Set-CsDialinConferencingDtmfConfiguration -EnableDisableAnnouncementsCommand 4 -AudienceMuteCommand 9
 ```
 

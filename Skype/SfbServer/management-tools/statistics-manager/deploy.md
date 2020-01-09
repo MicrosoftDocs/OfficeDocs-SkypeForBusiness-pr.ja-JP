@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: '概要: このトピックでは、Skype for Business Server の統計情報マネージャーを展開する方法について説明します。'
-ms.openlocfilehash: b16334558fb64223e305effe533addca91683a81
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 57b799079da400389b9e3049406a52bbba4dc1e6
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288762"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40990612"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Skype for Business Server の統計情報マネージャーの展開
  
@@ -98,7 +98,7 @@ StatsManPerfAgentListener.msi を実行し、以下を指定することによ�
     
      証明書マネージャーを使用するか、次の PowerShell コマンドを使用して証明書の拇印を見つけることができます。
     
-   ```
+   ```PowerShell
    Get-ChildItem -path cert:\LocalMachine\My
    ```
 
@@ -185,7 +185,7 @@ Skype for Business Server トポロジをインポートするには、以下の
     
     a. 次のコマンドを実行します。 
     
-   ```
+   ```PowerShell
    Get-CsPool | Export-Clixml -Path mypoolinfo.xml
    ```
     b. "mypoolinfo.xml" ファイルを、リスナーを実行するサーバーにコピーします。
@@ -196,25 +196,25 @@ Skype for Business Server トポロジをインポートするには、以下の
     
    b. リスナーがインストールされているディレクトリに移動します。 既定値は次のとおりです。 
     
-   ```
+   ```PowerShell
    cd C:\Program Files\Skype for Business Server StatsMan Listener
    ```
 
 3. どのサーバーが追加および更新されているかを確認するには、次のコマンドを実行します。
     
-   ```
+   ```PowerShell
     .\Update-StatsManServerInfo.ps1 -CsPoolFile  <path to mypoolinfo.xml>
    ```
 
 次のコマンドで、すべてのオプションを表示することができます。
   
-```
+```PowerShell
 Get-Help .\Update-StatsManServerInfo.ps1 -Detailed 
 ```
 
 現在のインポート済みのサーバー情報を表示するには、次のスクリプトを実行します。 
   
-```
+```PowerShell
 .\Get-StatsManServerInfo.ps1
 ```
 
@@ -274,7 +274,7 @@ Microsoft は、必ず信頼済みの認証局によって署名された証明�
   
 1. PowerShell コンソールから、管理者としてログ オンしている状態で、次を入力します。
     
-   ```
+   ```PowerShell
    New-SelfSignedCertificate -DnsName StatsManListener -CertStoreLocation Cert:\LocalMachine\My
    ```
 

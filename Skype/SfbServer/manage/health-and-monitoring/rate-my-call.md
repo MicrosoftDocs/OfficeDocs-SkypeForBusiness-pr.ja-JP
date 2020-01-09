@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
 description: '概要: Skype for Business Server の通話料金の評価機能について説明します。'
-ms.openlocfilehash: e146bba647c9586d96682bf8056417630676726e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6902bdaa9b5021963d128bf67dab7adc8ab1d982
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279859"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991742"
 ---
 # <a name="rate-my-call-in-skype-for-business-server"></a>Skype for Business Server での通話の評価
 
@@ -49,9 +49,9 @@ Skype for Business Server の展開のユーザーが通話機能にアクセス
 
 - 通話料金カスタムユーザーフィードバックを許可する-無効
 
-基本機能を有効にするために必要な操作はありませんが、カスタムのフィードバックが必要な場合は、個別に有効にする必要があります。 次の Windows PowerShell コマンドレットは、カスタムエンドユーザーフィードバックを有効にし、間隔を 10% から 80% に変更する例です。
+基本機能を有効にするために必要な操作はありませんが、カスタムのフィードバックが必要な場合は、個別に有効にする必要があります。 次の Windows PowerShell コマンドレットは、カスタムエンドユーザーフィードバックを有効にし、間隔を10% から80% に変更する例です。
 
-```
+```PowerShell
 Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - RateMyCallAllowCustomUserFeedback $true 
 ```
 
@@ -68,7 +68,7 @@ Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - 
 |||
 |:-----|:-----|
 |1  <br/> |DistortedSpeech  <br/> |
-|2  <br/> | ElectronicFeedback <br/> |
+|両面  <br/> | ElectronicFeedback <br/> |
 |3  <br/> | BackgroundNoise <br/> |
 |4  <br/> |MuffledSpeech  <br/> |
 |5  <br/> |Echo  <br/> |
@@ -114,7 +114,7 @@ Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - 
 
  **音声**
 
-```
+```SQL
 SELECT
         s.ConferenceDateTime
         ,Caller.URI as Caller
@@ -151,7 +151,7 @@ SELECT
 
  **ビデオ**
 
-```
+```SQL
 SELECT
         s.ConferenceDateTime
         ,Caller.URI as Caller
@@ -190,7 +190,7 @@ SELECT
 
 最新の Skype for Business クライアントでは、[QoeMetrics]\>に表示されない可能性がある新しい問題のトークン id (100) が報告されています。[dbo][CallQualityFeedbackTokenDef] テーブル。 最新のトークン定義を使ってデータベーステーブルを更新するには、次の SQL コマンドを監視データベースで Microsoft SQL Server Management Studio を使用して実行することができます。 このコマンドを実行すると、[QoeMetrics] のすべてのエントリが置き換えられます。[dbo][CallQualityFeedbackTokenDef] テーブル。
 
-```
+```SQL
 DELETE FROM [CallQualityFeedbackTokenDef];
 INSERT INTO [CallQualityFeedbackTokenDef] (TokenId, TokenDescription) VALUES
     (1,   N'DistortedSpeech'),

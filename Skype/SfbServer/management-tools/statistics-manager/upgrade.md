@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
 description: '概要: Skype for Business Server の統計マネージャーをアップグレードする方法については、このトピックを参照してください。'
-ms.openlocfilehash: 70826776e9dfacdef75c7084a9aba6f4eede940a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: de88257b628256c47b68036852d82fb6715c043f
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299724"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992504"
 ---
 # <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>Skype for Business Server の Statistics Manager のアップグレード
  
@@ -50,7 +50,7 @@ ms.locfileid: "34299724"
     
 2. 管理用の PowerShell ウィンドウを開きます。 リスナーのコンポーネントを、以下の手順でアップグレードします。
     
-   ```
+   ```PowerShell
    .\Update-StatsMan.ps1 -Service Listener
    ```
 
@@ -65,7 +65,7 @@ ms.locfileid: "34299724"
     
 4. 管理用の PowerShell ウィンドウを開きます。 Web サイト コンポーネントを、以下の手順でアップグレードします。
     
-   ```
+   ```PowerShell
    .\Update-StatsMan.ps1 -Service Website
    ```
 
@@ -77,7 +77,7 @@ ms.locfileid: "34299724"
     
 8. 管理用の PowerShell ウィンドウを開きます。 エージェント コンポーネントを、以下の手順でアップグレードします。
     
-   ```
+   ```PowerShell
    .\Update-StatsMan.ps1 -Service Agent
    ```
 

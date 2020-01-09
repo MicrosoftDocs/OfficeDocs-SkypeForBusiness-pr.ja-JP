@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
 description: '概要: 通話品質ダッシュボードのチュートリアルと開発サンプルを確認します。 通話品質ダッシュボードは、Skype for Business Server のツールです。'
-ms.openlocfilehash: 4eac679950abdff5041bdfb63b633287d06a11e7
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5e650047fefb865f7fe9af84f93a5f57e7bbf086
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274829"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992864"
 ---
 # <a name="cqd-development-samples"></a>CQD の開発サンプル
 
@@ -64,7 +64,7 @@ CQD により提供されるポータルを使用すると、ユーザーは複�
 
 必要な操作は、適切なパラメーターを使用して Data Service への呼び出しを送信し、HTML テーブルにクエリの結果を示すことです。以下に、JavaScript コードのサンプルを示します。
 
-```        
+```javascript        
 $($.fn.freeFormReport = function (queries, urlApi, presentation) {
             var query = {
                 Dimensions: [{ DataModelName: '[StartDate].[Month]' }],
@@ -132,7 +132,7 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
 
 この JavaScript コードを HTML ページに埋め込むと、ページでは図に示すようなレポートが表示されます。全 HTML は次のとおりです。
 
-```
+```javascript
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -203,7 +203,7 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
 
 簡単な例として、コードには、リポジトリサービスにクエリを送信して、その識別子に基づいてリポジトリアイテムのコンテンツを取得するための単純な例として、次のようなブロックがあります。 コードの次の部分 (processReportSetData メソッド) は、AJAX 呼び出しを送信して、そのレポートセット内の各レポートの定義を取得します。 CQD web ポータルの ID はレポートセットの ID であるため、AJAX 呼び出しはレポートセット項目を返します。 リポジトリ API と特に GetItems の詳細については、「 [Get アイテム](get-items.md)」を参照してください。 
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -332,7 +332,7 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
 
 2. フィルターを更新します。 例1のフィルターの JSON データには、ディメンション`[StartDate].[Month]`に対して設定される1つのフィルターがあります。 フィルターは JSON 配列であるため、フィルターの一覧に次元を追加できます。 たとえば、"currentMonth" に対してサーバークライアントの内部通信を取得するには、次のフィルターを使用する必要があります。
 
-   ```
+   ```javascript
    Filters: [
      { DataModelName: '[StartDate].[Month]', Value: currentMonth, Operand: 0 },
     {
@@ -347,7 +347,7 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
    ],
    ```
 
-   ディメンション`[Scenarios].[ScenarioPair]`は、次のように`[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`等しい値に設定されます。 レポート`[Scenario.][ScenarioPair]`の作成を簡単にするために作成された特殊なディメンションです。 これには、に`[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]`対応する6つの値があります。 この例では、値 [1]&[0]&[1]&[1]&[Wired]&[Wired] は、1 つ目がサーバー、2 つ目がサーバーではない、1 つ目が内部、2 つ目が内部、1 つ目の接続の種類が有線、2 つ目の接続の種類が有線であるシナリオに変換されます。 この例では、値`[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`は、first is server、second is server、第1の接続タイプはワイヤード、第2の接続の種類はワイヤード、第2の接続の種類は「ワイヤード」というシナリオになります。サーバ-内部のワイヤード (有線)
+   ディメンション`[Scenarios].[ScenarioPair]`は、次のように`[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`等しい値に設定されます。 レポート`[Scenario.][ScenarioPair]`の作成を簡単にするために作成された特殊なディメンションです。 これには、に`[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]`対応する6つの値があります。 この例では、値 [1]&[0]&[1]&[1]&[Wired]&[Wired] は、1 つ目がサーバー、2 つ目がサーバーではない、1 つ目が内部、2 つ目が内部、1 つ目の接続の種類が有線、2 つ目の接続の種類が有線であるシナリオに変換されます。 この例では、値`[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`は、first is server、second is server、第1の接続の種類はワイヤード、第2の接続の種類はワイヤード、第2の接続の種類はワイヤードであるというシナリオに変換されます。これは、"クライアント内部のワイヤード" という完全な定義です。
 
 3. シナリオごとに 1 つのフィルター セットを作成します。図のスコアカードの各行は個別のシナリオを表し、また個別のフィルターになります (一方、次元と測定値は同じままです)。 
 
@@ -360,7 +360,7 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
 
 例 3 の HTML コード (スコアカードのサンプル):
 
-```
+```html
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>

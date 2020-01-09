@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
 description: '概要: ユーザーのダイヤルイン会議の PIN を Skype for Business Server に設定します。'
-ms.openlocfilehash: d52c52e65fbfe706f243f420d6397319e4d00a32
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 83d1aae54d6e8be4f31b5bd27b6a568d6d88db1e
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297583"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992284"
 ---
 # <a name="set-a-users-dial-in-conferencing-pin-in-skype-for-business-server"></a>Skype for Business Server でユーザーのダイヤルイン会議の PIN を設定する
  
@@ -85,7 +85,7 @@ Set-CsClientPin コマンドレットを使用して、PIN 番号を割り当て
 
 次のコマンドでは、PIN 番号を Ken Myer というユーザーに割り当てます。 Pin パラメーターが含まれていないため、Skype for Business Server は PIN 番号を自動的に生成して割り当てます。
     
-  ```
+  ```PowerShell
   Set-CsClientPin -Identity "Ken Myer" 
   ```
 
@@ -93,7 +93,7 @@ Set-CsClientPin コマンドレットを使用して、PIN 番号を割り当て
 
 このコマンドでは、Pin パラメーターを使用して PIN 番号 121989 を Ken Myer というユーザーに割り当てます。
     
-  ```
+  ```PowerShell
   Set-CsClientPin -Identity "Ken Myer" -Pin 121989
   ```
 

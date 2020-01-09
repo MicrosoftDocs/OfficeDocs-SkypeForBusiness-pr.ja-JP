@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ceb699ff4c8d7ba2cf10e1b8e94ca33f60eb9b8d
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: 30913e67c80f5f5e8c04ddf5d7855dcf25536834
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968268"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992907"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Microsoft Teamsでチームをアーカイブまたは削除する
 ===========================================
@@ -33,7 +33,7 @@ ms.locfileid: "37968268"
 チームを削除すると、標準チャネルとプライベートチャネル (および関連付けられたサイトコレクション) でのチームアクティビティ、ファイル、チャットも削除されます。
 
 > [!IMPORTANT]
-> アーカイブされたチームを再アクティブ化することはできますが、削除されたチームを直接削除することはできません。 チームを最初にアーカイブし、チームが不要になったことを確認するまで、削除を延期することを検討してください。
+> アーカイブされたチームを再アクティブ化することはできますが、削除されたチームを直接復元することはできません。 チームを最初にアーカイブし、チームが不要になったことを確認するまで、削除を延期することを検討してください。
 
 ## <a name="archive-a-team"></a>チームをアーカイブする
 
@@ -76,37 +76,37 @@ ms.locfileid: "37968268"
 1. 管理者として Windows PowerShell を開きます。
 2. 以前のバージョンの AzureADPreview モジュールがインストールされているか、AzureAD モジュールがインストールされている場合は、次のいずれかを実行してアンインストールします。
 
-    ``` 
+    ```PowerShell 
     Uninstall-Module AzureADPreview
     ```
 
-    ```
+    ```PowerShell
     Uninstall-Module AzureAD
     ```
 3. 次を実行して、最新バージョンの AzureADPreview モジュールをインストールします。
 
-    ```
+    ```PowerShell
     Install-Module AzureADPreview
     ```    
 
 ### <a name="restore-the-deleted-office-365-group"></a>削除された Office 365 グループを復元する
 
 1. Azure AD に接続するには、次の操作を実行します。
-    ```
+    ```PowerShell
     Connect-AzureAD
     ```
     メッセージが表示されたら、管理者アカウントとパスワードを使用してサインインします。  
 2. 次を実行すると、30日の保持期間内のすべてのソフト削除された Office 365 グループの一覧が表示されます。 多数のグループがある場合は、 **-All $True**パラメーターを使用します。
-    ```
+    ```PowerShell
     Get-AzureADMSDeletedGroup
     ``` 
 3. 復元するグループを見つけて、Id をメモします。
 4. グループを復元するには、次を実行します。 [Id] はグループ Id です。
-    ```
+    ```PowerShell
     Restore-AzureADMSDeletedDirectoryObject -Id [Id]
     ```
 5.  グループが正常に復元されたことを確認するには、次を実行します。 [Id] はグループ Id です。
-    ```
+    ```PowerShell
     Get-AzureADGroup -ObjectId [Id]
     ```
 

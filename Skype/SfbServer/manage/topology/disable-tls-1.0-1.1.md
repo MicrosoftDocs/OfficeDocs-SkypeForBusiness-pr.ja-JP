@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: '概要: お客様の環境で TLS 1.0 および1.1 を無効にするための準備と実装を行います。'
-ms.openlocfilehash: f6fa608174bc22bc91512a69cc67a688b9bc7bb9
-ms.sourcegitcommit: 0dba0ad1f8f00415c6437cadabed0548ce3281b1
+ms.openlocfilehash: f10bd213be62b2d1dfa705e8ec8e0cc762706ee6
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39919311"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991552"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 で TLS 1.0/1.1 を無効にする
 
@@ -193,7 +193,7 @@ TLS 1.0 および1.1 を Skype for Business Server 2015 展開のオペレーテ
 
 次のテストをメモ帳にコピーして貼り付け、TLSPreReq または任意の名前を変更して、インポートします。
 
-```
+```console
 Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v2.0.50727]
@@ -245,7 +245,7 @@ Enterprise Edition プールの SQL バックエンドの場合、前提条件�
 
 メモ帳のファイルに次のテキストをコピーして、TLSDisable 名前を変更し**ます。**
 
-```
+```console
 Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Cryptography\Configuration\SSL\00010002]

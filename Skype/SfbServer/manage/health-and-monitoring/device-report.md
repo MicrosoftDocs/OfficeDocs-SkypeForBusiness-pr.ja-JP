@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f42e4d60-699b-4870-8bb5-13b51bb6eb2b
 description: '概要: Skype for Business Server のデバイスレポートについて説明します。'
-ms.openlocfilehash: 2c92faaca47ef78aca403fe436562029f5fde551
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9b9198d8080c8f1e22e59e2cd496bb7fb318eaae
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34303871"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992414"
 ---
 # <a name="device-report-in-skype-for-business-server"></a>Skype for Business Server のデバイスレポート
  
@@ -107,9 +107,9 @@ ms.locfileid: "34303871"
 > [!NOTE]
 > ローカライズされたバージョンの Skype for Business Server を実行している場合、デバイス名のキャプチャは同じではないことに注意してください。 Aastra 6725ip マイク (Aastra 6725ip) という名前のデバイス (米国英語の V0 はフランス語またはスペイン語で異なる名前を持つ場合があります)。 
   
-多くの場合、詳細レベルが必要になります。ただし、モデル番号に関係なく、複数の通話で Aastra マイクを使用することに関心がある場合もあります。 そのような情報を取得する方法の1つとして、デバイスレポートデータを Microsoft Excel にエクスポートし、そのデータをコンマ区切り値ファイル (たとえば、C:\Data\Devices_Report.csv) に保存します。 次のような一連のコマンドを使用して、をインポートできます。CSV ファイルを Windows PowerShell にコピーし、Aastra キャプチャデバイスを使って発信した通話の合計数を報告します。
+多くの場合、詳細レベルが必要になります。ただし、モデル番号に関係なく、複数の通話で Aastra マイクを使用することに関心がある場合もあります。 そのような情報を取得する方法の1つとして、デバイスレポートデータを Microsoft Excel にエクスポートし、そのデータをコンマ区切り値ファイル (たとえば、c: ¥ Devices_Report .csv) に保存します。 次のような一連のコマンドを使用して、をインポートできます。CSV ファイルを Windows PowerShell にコピーし、Aastra キャプチャデバイスを使って発信した通話の合計数を報告します。
   
-```
+```PowerShell
 $devices = Import-Csv "C:\Data\Device_Report.csv
 $sum = $devices | Where-Object {$_."Capture device" -match "Aastra"}
 $sum | foreach-object {[Int]$x = [Int]$x + [Int]$_."call volume"}

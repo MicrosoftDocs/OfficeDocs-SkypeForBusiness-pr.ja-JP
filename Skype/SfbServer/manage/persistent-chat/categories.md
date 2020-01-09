@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b0c834b9-b5c8-41d5-865b-c8b180e76d13
 description: '概要: Skype for Business Server 2015 で常設チャットサーバーのカテゴリを管理する方法について説明します。'
-ms.openlocfilehash: 8a8e8060db896a272293df3259091d4f7667a7d3
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: f0c85c2246c85c93f96e6c13cef0a5d4360213cb
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35417940"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992002"
 ---
 # <a name="manage-categories-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の常設チャット サーバーでのカテゴリの管理
  
@@ -69,11 +69,11 @@ ms.locfileid: "35417940"
     
 7. [**カテゴリの編集**] で、次の操作を実行します。
     
-   - [許可された**メンバー** ] セクションの [**メンバーシップ**] で、チャットルームのメンバーとして追加することを許可されているユーザーおよびその他の Active Directory ドメインサービスプリンシパル (ユーザー、配布グループ、組織単位など) を追加または削除します。カテゴリに属している。 カテゴリで許可されているプリンシパルは、カテゴリ内のルームを検索することができます (ルームが非表示になっている場合を除き、ルームのメンバーだけがディレクトリ内で検索できます)。
+   - [許可された**メンバー** ] セクションの [**メンバーシップ**] で、カテゴリに属するチャットルームのメンバーとして追加することを許可されているユーザーおよびその他の Active Directory ドメインサービスプリンシパル (ユーザー、配布グループ、組織単位など) を追加または削除します。 カテゴリで許可されているプリンシパルは、カテゴリ内のルームを検索することができます (ルームが非表示になっている場合を除き、ルームのメンバーだけがディレクトリ内で検索できます)。
     
    - [**メンバーシップ**] の [**拒否するメンバー** ] セクションで、会議室から拒否されているメンバーに関連付けられているユーザーおよびその他の Active Directory プリンシパルを追加または削除します。
     
-   - [**メンバーシップ**] の [ **** 作成者] セクションで、カテゴリの作成者に関連付けられているユーザーおよびその他の Active Directory プリンシパルを追加または削除します。 作成者は、チャット ルームを作成し、チャット ルームのマネージャーとメンバーを割り当てることができるアクセス許可を持つユーザーです。
+   - [**メンバーシップ**] の [作成**者] セクション**で、カテゴリの作成者に関連付けられているユーザーおよびその他の Active Directory プリンシパルを追加または削除します。 作成者は、チャット ルームを作成し、チャット ルームのマネージャーとメンバーを割り当てることができるアクセス許可を持つユーザーです。
     
 8. [**確定**] をクリックします。
     
@@ -109,7 +109,7 @@ ms.locfileid: "35417940"
 
 **New-CsPersistentChatCategory** コマンドレットを使用すると、新しいカテゴリを作成できます。 たとえば、以下のコマンドを実行すると、プール atl-cs-001.contoso.com に HelpDesk という名前の新しいカテゴリが作成されます。 この例では、ファイル アップロードが有効になります。
   
-```
+```PowerShell
 New-CsPersistentChatCategory -Name "HelpDesk" -PersistentChatPoolFqdn "atl-cs-001.contoso.com" -EnableFileUpload 
 ```
 
@@ -119,7 +119,7 @@ New-CsPersistentChatCategory -Name "HelpDesk" -PersistentChatPoolFqdn "atl-cs-00
   
 たとえば、次のコマンドは、user1 が AllowedMember と Creator であることを示しますが、user2 はカテゴリ内の会議室へのアクセスを拒否しています。
   
-```
+```PowerShell
 Set-CsPersistentChatCategory -Identity testCat -AllowedMembers @{Add="sip:user1@contoso.com", "CN=container,DC=contoso,DC=com"}  -DeniedMembers @{Add="sip:user2@contoso.com"}
 Set-CsPersistentChatCategory -Identity testCat -Creators @{Add="sip:user1@contoso.com"}
 ```
@@ -128,7 +128,7 @@ Set-CsPersistentChatCategory -Identity testCat -Creators @{Add="sip:user1@contos
 
 **Get-CsPersistentChatCategory** コマンドレットを使用すると、カテゴリに関する情報を取得できます。たとえば、以下のコマンドを実行すると、組織内のすべての常設チャット カテゴリに関する情報が戻されます。
   
-```
+```PowerShell
 Get-CsPersistentChatCategory
 ```
 
@@ -136,6 +136,6 @@ Get-CsPersistentChatCategory
 
 **Remove-CsPersistentChatCategory** コマンドレットを使用すると、カテゴリを削除できます。カテゴリを削除する前に、そのカテゴリの下にあるすべてのチャット ルームを削除するか、それらのチャット ルームを新しいカテゴリに移動する必要があります。たとえば、以下のコマンドを実行すると、ID "atl-cs-001.contoso.com\helpdesk" が含まれるカテゴリが削除されます。
   
-```
+```PowerShell
 Remove-CsPersistentChatCategory -Identity "atl-cs-001.contoso.com\helpdesk"
 ```

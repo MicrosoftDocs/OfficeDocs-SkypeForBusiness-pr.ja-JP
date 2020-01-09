@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
 description: '概要: Skype for Business Server 用の AV と OAuth 証明書のステージ'
-ms.openlocfilehash: 6a2e851aac8aae9aaecac424290195270415706c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 37edb6843d420ca3387958c54b3db8c72a28be92
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286131"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991962"
 ---
 # <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-using--roll-in-set-cscertificate"></a>Skype for Business Server でのステージ AV と OAuth 証明書の使用-ロールでのセットアップ-CsCertificate
  
@@ -27,7 +27,7 @@ ms.locfileid: "34286131"
 > [!IMPORTANT]
 > この新機能は、A/V Edge サービスと OAuthTokenIssuer 証明書で動作するように設計されています。 その他の種類の証明書は、A/V Edge サービスと OAuth 証明書の種類と共にプロビジョニングできますが、A/V Edge サービス証明書の共存動作の恩恵を受けることはできません。
   
-Skype for business server 管理シェル PowerShell コマンドレットは、Skype for Business Server 証明書を管理するために使用されています。 AudioVideoAuthentication 証明書の種類として、A/V Edge サービス証明書、OAuthServer certificate はtypeOAuthTokenIssuer。 このトピックの残りの部分では、証明書を一意に識別するために、同じ識別子の型 (AudioVideoAuthentication andOAuthTokenIssuer) によって参照されます。
+Skype for business server 管理シェル PowerShell コマンドレットは、Skype for Business Server 証明書を管理するために使用されます。 AudioVideoAuthentication certificate 型としての A/V Edge サービス証明書と、typeOAuthTokenIssuer としての OAuthServer certificate を参照してください。 このトピックの残りの部分では、証明書を一意に識別するために、同じ識別子の型 (AudioVideoAuthentication andOAuthTokenIssuer) によって参照されます。
   
 A/V 認証サービスは、クライアントや他の A/V コンシューマーによって使用されるトークンの発行を担当します。 トークンは証明書の属性から生成され、証明書の有効期限が切れたときに、新しい証明書によって生成された新しいトークンに接続を切断して、もう一度参加するための要件があります。 Skype for Business Server の新機能により、この問題が軽減されます。新しい証明書を古いものから事前にステージングし、両方の証明書を一定期間有効にし続けることができます。 この機能では、Set-CsCertificate Skype for Business Server Management Shell コマンドレットの更新された機能を使用します。 既存のパラメーター-EffectiveDate を使用した新しいパラメーター-Roll は、新しい AudioVideoAuthentication 証明書を証明書ストアに配置します。 以前の AudioVideoAuthentication 証明書は、確認のために発行されたトークンのまま残ります。 新しい AudioVideoAuthentication 証明書を所定の場所に配置すると、次の一連のイベントが発生します。
   
@@ -57,11 +57,11 @@ OAuthTokenIssuer 証明書をステージングするときは、証明書が有
 4. EffectiveDate パラメーターを指定して、インポートされた証明書を構成し、--------------------------- 有効日は、現在の証明書の有効期限 (14:00:00 または 2:00:00 PM) からトークン存続時間 (既定では 8 時間) を引いた値で定義します。 これにより、証明書がアクティブに設定されている必要があります。 \<また\>、-EffectiveDate 文字列は "7/22/2015 6:00:00 AM" となります。 
     
     > [!IMPORTANT]
-    > エッジプールについては、すべての AudioVideoAuthentication 証明書が展開され、最初の証明書の-EffectiveDate パラメーターで定義された日付と時刻でプロビジョニングされている必要があります新しい証明書を使ってすべてのクライアントとコンシューマーのトークンを更新する前に、証明書が期限切れになっている。 
+    > エッジプールの場合、すべてのクライアントとコンシューマーのトークンが新しい証明書を使用して更新される前に、古い証明書の EffectiveDate パラメーターで定義された日付と時刻を使って、すべての AudioVideoAuthentication 証明書を展開し、プロビジョニングする必要があります。 
   
     EffectiveTime パラメーターを指定した Set CsCertificate コマンドは、次のようになります。
     
-   ```
+   ```PowerShell
    Set-CsCertificate -Type AudioVideoAuthentication -Thumbprint
           <thumb print of new certificate> -Roll -EffectiveDate <date and time
           for certificate to become active>
@@ -69,7 +69,7 @@ OAuthTokenIssuer 証明書をステージングするときは、証明書が有
 
     Set-CsCertificate コマンドの例を次に示します。
     
-   ```
+   ```PowerShell
    Set-CsCertificate -Type AudioVideoAuthentication -Thumbprint
           "B142918E463981A76503828BB1278391B716280987B" -Roll -EffectiveDate "7/22/2015
           6:00:00 AM"
@@ -85,13 +85,13 @@ OAuthTokenIssuer 証明書をステージングするときは、証明書が有
 |**コールアウト**|**ステージ**|
 |:-----|:-----|
 |1  <br/> |開始: 2015 年 7 月 22 日午前 12:00:00  <br/> 現在の AudioVideoAuthentication 証明書の有効期限が 2015 年 7 月 22 日の午後 2:00:00 に終了します。これは証明書の有効期限タイムスタンプにより決定されます。既存の証明書が有効期限に達する前の 8 時間のオーバーラップ (既定のトークン寿命) を考慮して、証明書の交換とロールオーバーを計画します。この例では、午前 2:00:00 のリード タイムを使用して、管理者が有効時刻の午前 6:00:00 の前に新しい証明書を配置およびプロビジョニングするための適切な時間を確保しています。  <br/> |
-|2  <br/> |2015 年 7 月 22 日午前 2:00:00 ～ 2015 年 7 月 22 日午前 5:59:59  <br/> 有効な時間が 6:00:00 AM (この例では4時間のリードタイム) を使用してエッジサーバー上に証明書を設定しますが、 \<[新しい証明\>書\>の\<種類-拇印の拇印-] を使用します。新しい証明書\<の有効期間を示すロール EffectiveDate datetime 文字列\>  <br/> |
+|両面  <br/> |2015 年 7 月 22 日午前 2:00:00 ～ 2015 年 7 月 22 日午前 5:59:59  <br/> 有効な時間が 6:00:00 AM (この例では4時間のリードタイム) を使用してエッジサーバー上の証明書\<を設定しますが、新しい証明書\>の有効\<時間を指定し\>た [新しい証明\<書の種類-ロール-EffectiveDate datetime]\>  <br/> |
 |3  <br/> |2015 年 7 月 22 日午前 6:00 ～ 2015 年 7 月 22 日午後 2:00  <br/> トークンを検証するためにまず新しい証明書が試されます。新しい証明書でトークンの検証に失敗した場合、古い証明書が試されます。8 時間 (既定のトークン寿命) のオーバーラップ期間中にすべてのトークンにこの処理が適用されます。  <br/> |
 |4  <br/> |終了: 2015 年 7 月 22 日午後 2:00:01  <br/> 古い証明書の期限が切れ、新しい証明書に引き継がれます。 以前の証明書を削除するには、削除\<\>する必要があります。  <br/> |
    
 有効時刻 (2015 年 7 月 22 日午前 6:00:00) になると、新しいトークンはすべて新しい証明書によって発行されます。 トークンを検証する場合、トークンはまず新しい証明書に照らして検証されます。 検証が失敗した場合は、古い証明書が試されます。 新しい証明書を試してから古い証明書にフォールバックするこのプロセスは、古い証明書の有効期限まで続きます。 古い証明書の有効期限が切れた後は (2015 年 7 月 22 日午後 2:00)、トークンは新しい証明書のみを使用して検証されます。 古い証明書は、前のパラメーターを指定して、CsCertificate Certificate コマンドレットを使用して、安全に削除できます。
 
-```
+```PowerShell
 Remove-CsCertificate -Type AudioVideoAuthentication -Previous
 ```
 
@@ -107,7 +107,7 @@ Remove-CsCertificate -Type AudioVideoAuthentication -Previous
     
     EffectiveTime パラメーターを指定した Set CsCertificate コマンドは、次のようになります。
     
-   ```
+   ```PowerShell
    Set-CsCertificate -Type OAuthTokenIssuer -Thumbprint <thumb
           print of new certificate> -Roll -EffectiveDate <date and time for
           certificate to become active> -identity Global 
@@ -115,7 +115,7 @@ Remove-CsCertificate -Type AudioVideoAuthentication -Previous
 
 Set-CsCertificate コマンドの例を次に示します。
     
-  ```
+  ```PowerShell
   Set-CsCertificate -Type OAuthTokenIssuer -Thumbprint
           "B142918E463981A76503828BB1278391B716280987B" -Roll -EffectiveDate "7/21/2015
           1:00:00 PM" 
@@ -125,7 +125,7 @@ Set-CsCertificate コマンドの例を次に示します。
 > EffectiveDate は、サーバーの地域と言語の設定に合わせて書式設定されている必要があります。 この例で使用している地域と言語の設定は英語 (米国) です。 
   
 有効時刻 (2015 年 7 月 21 日午前 1:00) になると、新しいトークンはすべて新しい証明書によって発行されます。 トークンを検証する場合、トークンはまず新しい証明書に照らして検証されます。 検証が失敗した場合は、古い証明書が試されます。 新しい証明書を試してから古い証明書にフォールバックするこのプロセスは、古い証明書の有効期限まで続きます。 古い証明書の有効期限が切れた後は (2015 年 7 月 22 日午後 2:00)、トークンは新しい証明書のみを使用して検証されます。 古い証明書は、前のパラメーターを指定して、CsCertificate Certificate コマンドレットを使用して、安全に削除できます。
-```
+```PowerShell
 Remove-CsCertificate -Type OAuthTokenIssuer -Previous 
 ```
 

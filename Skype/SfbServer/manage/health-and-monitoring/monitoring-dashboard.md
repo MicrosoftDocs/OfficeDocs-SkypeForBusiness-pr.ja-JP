@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e00e5783-116f-481f-ad17-3af847d6769a
 description: '概要: Skype for Business Server の監視ダッシュボードについて説明します。'
-ms.openlocfilehash: 0ca85bff7cfcad7f3b64a4b0f5b92a22299e5719
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 39f5e9c2b024f73f669098c4da7eaca40ef4ea61
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279929"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992032"
 ---
 # <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>Skype for Business Server で監視ダッシュボードを使用する
  
@@ -31,7 +31,7 @@ ms.locfileid: "34279929"
     
 ここでは、次のようにして、Skype for Business Server Monitoring Reports へのアクセスに使用する URL を返すための[Get-CsReportingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csreportingconfiguration?view=skype-ps)コマンドレットを使用します。
   
-```
+```PowerShell
 Get-CsReportingConfiguration
 ```
 

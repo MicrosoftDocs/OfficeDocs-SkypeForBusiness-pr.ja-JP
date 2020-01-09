@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 505d9619-adab-4cc4-b054-89286e18a19b
 description: このセクションの手順を使用して、個々のユーザーアカウントのプロパティを変更することができます。
-ms.openlocfilehash: fda11a1b52519f3653c841837af20392383cadd1
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: eca88717d0b81ddd7c27fc140df9bdbf7590c5c6
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35222062"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991432"
 ---
 # <a name="customize-user-account-properties-for-skype-for-business-server"></a>Skype for Business Server のユーザーアカウントのプロパティをカスタマイズする
  
@@ -50,7 +50,7 @@ Skype for Business Server のユーザーテレフォニーオプションには
     
 3. 左側のナビゲーション バーで [**ユーザー**] をクリックします。
     
-4. [**ユーザーの検索**] ボックスに、表示名、名、姓、セキュリティアカウントマネージャー (SAM) アカウント名、SIP アドレス、または必要なユーザーアカウントの行の Uniform resource IDENTIFIER (URI) の最初の部分を入力し、[検索] をクリックします。 ****.
+4. [**ユーザーの検索**] ボックスに、表示名、名、姓、セキュリティアカウントマネージャー (SAM) アカウント名、SIP アドレス、または必要なユーザーアカウントの行の Uniform resource IDENTIFIER (URI) の最初の部分を入力し、[**検索**] をクリックします。
     
 5. 表で、変更するユーザーアカウントをクリックします。
     
@@ -82,7 +82,7 @@ Skype for Business Server コントロールパネルを使用して、特定の
     
 3. 左側のナビゲーション バーで [**ユーザー**] をクリックします。
     
-4. [**ユーザーの検索**] ボックスに、表示名、名、姓、セキュリティアカウントマネージャー (SAM) アカウント名、SIP アドレス、または必要なユーザーアカウントの行の Uniform resource IDENTIFIER (URI) の最初の部分を入力し、[検索] をクリックします。 ****. 
+4. [**ユーザーの検索**] ボックスに、表示名、名、姓、セキュリティアカウントマネージャー (SAM) アカウント名、SIP アドレス、または必要なユーザーアカウントの行の Uniform resource IDENTIFIER (URI) の最初の部分を入力し、[**検索**] をクリックします。 
     
 5. 表で、リスト内の特定のユーザー (複数可) を選びます。 
     
@@ -144,7 +144,7 @@ Skype for Business Server コントロールパネルを使用して、特定の
 
 1. Windows PowerShell コマンドの実行方法 (ローカルまたはリモート) に応じて、次のようにして、正しい Skype for Business Server 管理者ロールのメンバーとしてログオンする必要があります。
     
-   a. ローカルコンピューターでコマンドを実行している場合 (たとえば、フロントエンドサーバーに直接ログオンしている場合) は、Skype for Business Server 管理シェルが RTCUniversalServerAdmins グループのメンバーとしてインストールされているか、または必要な場合は、そのコンピューターにログオンします。「**代理人セットアップの権限**」で説明されているユーザー権限
+   a. ローカルコンピューターでコマンドを実行している場合 (たとえば、フロントエンドサーバーに直接ログオンしている場合) は、「Skype for Business Server 管理シェルが RTCUniversalServerAdmins グループのメンバーとしてインストールされているか、または「**代理人のセットアップアクセス許可**」で説明するように、必要なユーザー権限を持つコンピューターにログオンします。
     
    b. 他のコンピューターでリモートでコマンドを実行している場合 (たとえば、コンピューターにログオンして、標準エディションのフロントエンドサーバーでコマンドをリモートで実行している場合) は、CsUserAdministrator ロールまたは CsAdministrator に割り当てられているユーザーアカウントからの操作を行います。[役割] は、社内展開の任意のコンピューターにログオンします。
     
@@ -152,7 +152,7 @@ Skype for Business Server コントロールパネルを使用して、特定の
     
 3. 1人のユーザーを移動するには、次のように移動-CsUser コマンドレットを使用します。
     
-    ```
+    ```PowerShell
     Move-CsUser -Identity "Pilar Ackerman" -Target "pool01.contoso.net"
     ```
 
@@ -160,13 +160,13 @@ Skype for Business Server コントロールパネルを使用して、特定の
     
 4. 多数のユーザーを移動するには、ユーザーの**アクセス**コマンドレットを使用してフィルターを実行し、その結果セットのユーザーを**移動**するユーザーを指定します。
     
-    ```
+    ```PowerShell
     Get-CsUser -Filter {RegistrarPool -eq "CurrentPoolFqdn"} | Move-CsUser -Target "TargetPoolFQDN"
     ```
 
     次のような操作を行うと、ユーザーと**ムーブグループ**のユーザーの組み合わせコマンドが**表示**されます。
     
-    ```
+    ```PowerShell
     Get-CsUser -Filter {RegistrarPool -eq "pool02.contoso.net"} | Move-CsUser -Target "pool01.contoso.net"
     ```
 

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 459e80bf-5791-49f8-878d-4a5178b3a210
 description: '概要: Skype for Business Server でダイヤルイン会議の PIN ポリシーを管理する方法について説明します。'
-ms.openlocfilehash: a8db6fc0398d2f577afe54ab2289c3122adcb197
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f5ffef4af17a4337fe600b2059aab1ea106235ae
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280356"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992294"
 ---
 # <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server"></a>Skype for Business Server でダイヤルイン会議の PIN ポリシーを管理する
  
@@ -47,7 +47,7 @@ PIN ポリシーに関する情報を表示するには、Skype for Business Ser
 
 PIN ポリシーに関する情報を表示するには、**Get-CsPinPolicy** コマンドレットを使用します。 たとえば、次のコマンドを実行すると、site:Redmond という Identity を持つ 1 つの PIN ポリシーに関する情報が返されます。
   
-```
+```PowerShell
 Get-CsPinPolicy -Identity "site:Redmond"
 ```
 
@@ -92,7 +92,7 @@ Get-CsPinPolicy -Identity "site:Redmond"
   
 次のコマンドは、組織内で使用するよう構成されているすべての PIN ポリシーの MinPasswordLength の値を変更します。これを行うため、まずパラメーターを何も指定しない **Get-CsPinPolicy** コマンドレットを呼び出して、すべての既存の PIN ポリシーのコレクションを取得しています。次に、そのコレクションを **Set-CsPinPolicy** コマンドレットにパイプ処理し、コレクション内の各ポリシーの MinPasswordLength プロパティの値を変更しています。
   
-```
+```PowerShell
 Get-CsPinPolicy | Set-CsPinPolicy -MinPasswordLength 10
 ```
 
@@ -143,7 +143,7 @@ Get-CsPinPolicy | Set-CsPinPolicy -MinPasswordLength 10
   
 次のコマンドでは、site:Redmond という Identity を持つ新しい PIN ポリシーを作成します。このコマンドには、ただ 1 つのオプションのパラメーターである MinPasswordLength が含まれています。このパラメーターを使用して、MinPasswordLength プロパティを 7 に設定します。ポリシーの残りすべてのプロパティは、既定値を使用して構成されます。
   
-```
+```PowerShell
 New-CsPinPolicy -Identity "site:Redmond" -MinPasswordLength 7
 ```
 
@@ -173,7 +173,7 @@ New-CsPinPolicy -Identity "site:Redmond" -MinPasswordLength 7
   
 次のコマンドでは、Redmond サイトに割り当てた PIN ポリシーを変更しています。この例では、MinPasswordLength プロパティの値を 10 に変更しています。これは、新しい PIN を 10 桁以上にしなければならないことを意味します。
   
-```
+```PowerShell
 Set-CsPinPolicy -Identity site:Redmond -MinPasswordLength 10
 ```
 
@@ -199,7 +199,7 @@ Set-CsPinPolicy -Identity site:Redmond -MinPasswordLength 10
   
 次のコマンドは、サイト スコープで構成されていたすべての PIN ポリシーを削除します。これを実行するには、まず Filter パラメーターを指定して **Get-CsPinPolicy** コマンドレットを使用し、Identity が文字列 "site:" で始まるすべてのポリシーのコレクションを戻します。次に、このコレクションは **Remove-CsPinPolicy** コマンドレットにパイプ処理され、コレクション内の各ポリシーが削除されます。
   
-```
+```PowerShell
 Get-CsPinPolicy -Filter "site:*" | Remove-CsPinPolicy
 ```
 
