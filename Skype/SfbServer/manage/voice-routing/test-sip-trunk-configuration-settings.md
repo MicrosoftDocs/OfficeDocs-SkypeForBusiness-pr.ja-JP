@@ -9,30 +9,30 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'SIP トランク構成設定は、仲介サーバーと公衆交換電話網 (PSTN) ゲートウェイ、IP パブリックブランチ交換 (PBX)、またはサービスプロバイダのセッションボーダーコントローラー (SBC) 間の関係と機能を定義します。 '
-ms.openlocfilehash: 9f254d833f5d679343a39062bc2ed68c9122af56
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bfb09511c8d074555c0b84d2da141a029f63a01a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274920"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992564"
 ---
-# <a name="test-sip-trunk-configuration-settings-in-skype-for-business-server"></a><span data-ttu-id="a2f05-103">Skype for Business Server で SIP トランク構成設定をテストする</span><span class="sxs-lookup"><span data-stu-id="a2f05-103">Test SIP trunk configuration settings in Skype for Business Server</span></span>
+# <a name="test-sip-trunk-configuration-settings-in-skype-for-business-server"></a><span data-ttu-id="fd3e8-103">Skype for Business Server で SIP トランク構成設定をテストする</span><span class="sxs-lookup"><span data-stu-id="fd3e8-103">Test SIP trunk configuration settings in Skype for Business Server</span></span>
 
-<span data-ttu-id="a2f05-104">SIP トランク構成設定は、仲介サーバーと公衆交換電話網 (PSTN) ゲートウェイ、IP パブリックブランチ交換 (PBX)、またはサービスプロバイダのセッションボーダーコントローラー (SBC) 間の関係と機能を定義します。</span><span class="sxs-lookup"><span data-stu-id="a2f05-104">SIP trunk configuration settings define the relationship and capabilities between a Mediation Server and the public switched telephone network (PSTN) gateway, an IP-public branch exchange (PBX), or a Session Border Controller (SBC) at the service provider.</span></span> <span data-ttu-id="a2f05-105">たとえば、次の設定ができます。</span><span class="sxs-lookup"><span data-stu-id="a2f05-105">These settings do such things as specify:</span></span>
+<span data-ttu-id="fd3e8-104">SIP トランク構成設定は、仲介サーバーと公衆交換電話網 (PSTN) ゲートウェイ、IP パブリックブランチ交換 (PBX)、またはサービスプロバイダのセッションボーダーコントローラー (SBC) 間の関係と機能を定義します。</span><span class="sxs-lookup"><span data-stu-id="fd3e8-104">SIP trunk configuration settings define the relationship and capabilities between a Mediation Server and the public switched telephone network (PSTN) gateway, an IP-public branch exchange (PBX), or a Session Border Controller (SBC) at the service provider.</span></span> <span data-ttu-id="fd3e8-105">たとえば、次の設定ができます。</span><span class="sxs-lookup"><span data-stu-id="fd3e8-105">These settings do such things as specify:</span></span>
 
-- <span data-ttu-id="a2f05-106">トランクでメディア バイパスを有効化するか。</span><span class="sxs-lookup"><span data-stu-id="a2f05-106">Whether media bypass should be enabled on the trunks.</span></span>
-- <span data-ttu-id="a2f05-107">リアルタイム伝送制御プロトコル (RTCP) パケットを送信する条件。</span><span class="sxs-lookup"><span data-stu-id="a2f05-107">The conditions under which real-time transport control protocol (RTCP) packets are sent.</span></span>
-- <span data-ttu-id="a2f05-108">各トランクで、セキュリティで保護されたリアルタイムプロトコル (SRTP) 暗号化が必要かどうかを示します。</span><span class="sxs-lookup"><span data-stu-id="a2f05-108">Whether or not secure real-time protocol (SRTP) encryption is required on each trunk.</span></span>
+- <span data-ttu-id="fd3e8-106">トランクでメディア バイパスを有効化するか。</span><span class="sxs-lookup"><span data-stu-id="fd3e8-106">Whether media bypass should be enabled on the trunks.</span></span>
+- <span data-ttu-id="fd3e8-107">リアルタイム伝送制御プロトコル (RTCP) パケットを送信する条件。</span><span class="sxs-lookup"><span data-stu-id="fd3e8-107">The conditions under which real-time transport control protocol (RTCP) packets are sent.</span></span>
+- <span data-ttu-id="fd3e8-108">各トランクで、セキュリティで保護されたリアルタイムプロトコル (SRTP) 暗号化が必要かどうかを示します。</span><span class="sxs-lookup"><span data-stu-id="fd3e8-108">Whether or not secure real-time protocol (SRTP) encryption is required on each trunk.</span></span>
 
-<span data-ttu-id="a2f05-109">Skype for Business Server をインストールすると、SIP トランク構成設定のグローバルコレクションが作成されます。</span><span class="sxs-lookup"><span data-stu-id="a2f05-109">When you install Skype for Business Server, a global collection of SIP trunk configuration settings is created for you.</span></span> <span data-ttu-id="a2f05-110">また、管理者はサイト スコープまたはサービス スコープ (PSTN ゲートウェイ サービスの場合のみ) でカスタム設定のコレクションを作成することができます。</span><span class="sxs-lookup"><span data-stu-id="a2f05-110">In addition, administrators can create custom setting collections at the site scope or at the service scope (for the PSTN gateway service, only).</span></span> <span data-ttu-id="a2f05-111">管理者は、 [set-cstrunkconfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsTrunkConfiguration)コマンドレットを使用して、ユーザーがダイヤルした番号を、ゲートウェイで処理できる数値に変換できるかどうかを確認することもできます。</span><span class="sxs-lookup"><span data-stu-id="a2f05-111">Administrators can also use the [Test-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsTrunkConfiguration) cmdlet to verify that a trunk can convert a number as dialed by a user to a number that can be handled by the gateway.</span></span>
+<span data-ttu-id="fd3e8-109">Skype for Business Server をインストールすると、SIP トランク構成設定のグローバルコレクションが作成されます。</span><span class="sxs-lookup"><span data-stu-id="fd3e8-109">When you install Skype for Business Server, a global collection of SIP trunk configuration settings is created for you.</span></span> <span data-ttu-id="fd3e8-110">また、管理者はサイト スコープまたはサービス スコープ (PSTN ゲートウェイ サービスの場合のみ) でカスタム設定のコレクションを作成することができます。</span><span class="sxs-lookup"><span data-stu-id="fd3e8-110">In addition, administrators can create custom setting collections at the site scope or at the service scope (for the PSTN gateway service, only).</span></span> <span data-ttu-id="fd3e8-111">管理者は、 [set-cstrunkconfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsTrunkConfiguration)コマンドレットを使用して、ユーザーがダイヤルした番号を、ゲートウェイで処理できる数値に変換できるかどうかを確認することもできます。</span><span class="sxs-lookup"><span data-stu-id="fd3e8-111">Administrators can also use the [Test-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsTrunkConfiguration) cmdlet to verify that a trunk can convert a number as dialed by a user to a number that can be handled by the gateway.</span></span>
 
-<span data-ttu-id="a2f05-112">トランク構成設定は、Windows PowerShell と Test-CsTrunkConfiguration コマンドレットを使用する方法でのみテストできます。</span><span class="sxs-lookup"><span data-stu-id="a2f05-112">Trunk configuration settings can only be tested by using Windows PowerShell and the Test-CsTrunkConfiguration cmdlet.</span></span> <span data-ttu-id="a2f05-113">このコマンドレットは、Skype for Business Server 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。</span><span class="sxs-lookup"><span data-stu-id="a2f05-113">This cmdlet can be run either from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell.</span></span> 
+<span data-ttu-id="fd3e8-112">トランク構成設定は、Windows PowerShell と Test-CsTrunkConfiguration コマンドレットを使用する方法でのみテストできます。</span><span class="sxs-lookup"><span data-stu-id="fd3e8-112">Trunk configuration settings can only be tested by using Windows PowerShell and the Test-CsTrunkConfiguration cmdlet.</span></span> <span data-ttu-id="fd3e8-113">このコマンドレットは、Skype for Business Server 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。</span><span class="sxs-lookup"><span data-stu-id="fd3e8-113">This cmdlet can be run either from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell.</span></span> 
 
-<span data-ttu-id="a2f05-114">**SIP トランク構成設定をテストするには**</span><span class="sxs-lookup"><span data-stu-id="a2f05-114">**To test SIP trunk configuration settings**</span></span>
+<span data-ttu-id="fd3e8-114">**SIP トランク構成設定をテストするには**</span><span class="sxs-lookup"><span data-stu-id="fd3e8-114">**To test SIP trunk configuration settings**</span></span>
 
-<span data-ttu-id="a2f05-115">このコマンドを実行すると、ダイヤルされた番号 4255551212 がレドモンド サイトのトランク構成設定によって正しく変換できることを確認できます。</span><span class="sxs-lookup"><span data-stu-id="a2f05-115">This command verifies that the trunk configuration settings for the Redmond site can correctly convert the dialed number 4255551212.</span></span>
+<span data-ttu-id="fd3e8-115">このコマンドを実行すると、ダイヤルされた番号 4255551212 がレドモンド サイトのトランク構成設定によって正しく変換できることを確認できます。</span><span class="sxs-lookup"><span data-stu-id="fd3e8-115">This command verifies that the trunk configuration settings for the Redmond site can correctly convert the dialed number 4255551212.</span></span>
 
-```
+```PowerShell
 $trunk = Get-CsTrunkConfiguration -Identity "site:Redmond"
 Test-CsTrunkConfiguration -DialedNumber 4255551212 -TrunkConfiguration $trunk
 ```
