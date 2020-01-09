@@ -10,12 +10,12 @@ ms:contentKeyID: 48184270
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cda79f7b80d6f1bbdf2163ecf987f4a05949bfc4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6bad6bf4e2b09296e21aec75e206ba867415754a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848741"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992052"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -109,11 +109,11 @@ _**最終更新日:** 2012-12-03_
 
 22. 公開証明書の受信、インポート、割り当てが完了したら、Edge Server サービスを停止して再起動する必要があります。 これを行うには、Lync Server 管理コンソールで次のように入力します。
     
-       ```
+       ```PowerShell
         Stop-CsWindowsService
        ```
     
-       ```
+       ```PowerShell
         Start-CsWindowsService
        ```
 
@@ -130,39 +130,39 @@ _**最終更新日:** 2012-12-03_
 
 24. 新しい外部アクセスポリシーを構成して、すべてのユーザーを有効にするには、次のようにします。
     
-       ```
+       ```PowerShell
         New-CsExternalAccessPolicy -Identity <name of policy to create.  If site scope, prepend with 'site:'> -EnableFederationAcces $true -EnablePublicCloudAccess $true
        ```
     
-       ```
+       ```PowerShell
         New-CsExternalAccessPolicy -Identity FedPic -EnableFederationAcces $true -EnablePublicCloudAccess $true
        ```
     
-       ```
+       ```PowerShell
         Get-CsUser | Grant-CsExternalAccessPolicy -PolicyName FedPic
        ```
     
     外部ユーザーに対して XMPP アクセスを有効にするには、次のように入力します。
     
-       ```
+       ```PowerShell
         Set-CsExternalAccessPolicy -Identity <name of the policy being used> EnableXmppAccess $true
        ```
     
-       ```
+       ```PowerShell
         Set-CsExternalAccessPolicy -Identity FedPic -EnableXmppAccess $true
        ```
 
 25. XMPP プロキシが展開されているエッジサーバーで、コマンドプロンプトまたは Windows PowerShell™のコマンドラインインターフェイスを開き、次のように入力します。
     
-       ```
+       ```PowerShell
         Netstat -ano | findstr 5269
        ```
     
-       ```
+       ```PowerShell
         Netstat -ano | findstr 23456
        ```
     
-    コマンド**netstat – ano**は、ネットワーク統計情報のコマンドであり、パラメーター **– ano**で、すべての接続とリスニングポート、アドレスとポートが数値形式で表示され、所有しているプロセス ID が関連付けられています。各接続の場合。 この文字**|** は、次のコマンド、 **findstr**、または検索文字列へのパイプを定義します。 パラメーターとして findstr に渡される数値5269および23456では、文字列5269と23456の netstat の出力を検索するように findstr に指示します。 XMPP が適切に構成されている場合、コマンドの結果は、外部 (ポート 5269) と、エッジサーバーの内部 (ポート 23456) インターフェイスの両方で、リッスンと確立された接続になります。
+    コマンド**netstat – ano**は、ネットワーク統計情報コマンドであり、パラメーター **– ano** request は、すべての接続とリスニングポート、アドレスとポートが数値形式で表示され、所有しているプロセス ID は各接続と関連付けられています。 この文字**|** は、次のコマンド、 **findstr**、または検索文字列へのパイプを定義します。 パラメーターとして findstr に渡される数値5269および23456では、文字列5269と23456の netstat の出力を検索するように findstr に指示します。 XMPP が適切に構成されている場合、コマンドの結果は、外部 (ポート 5269) と、エッジサーバーの内部 (ポート 23456) インターフェイスの両方で、リッスンと確立された接続になります。
     
     このコマンドによって5269および23456で、確立済みまたはリッスン中のポートが返されない場合は、次のことを確認してください。
 
@@ -190,7 +190,7 @@ _**最終更新日:** 2012-12-03_
 
 8.  トポロジビルダーを開始します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server Topology Builder**] の順にクリックします。
 
-9.  [トポロジビルダー] で、XMPP フェデレーションルートのサイトを選択し、[xmpp フェデレーション] の**サイトフェデレーションルート**の割り当てが、選択されている xmpp フェデレーションルートの割り当てとして edge サーバーまたはエッジプールを表示しているかどうかを確認します。 ****
+9.  [トポロジビルダー] で、XMPP フェデレーションルートのサイトを選択し、 **[xmpp**フェデレーション] の**サイトフェデレーションルート**の割り当てが、選択されている xmpp フェデレーションルートの割り当てとして Edge サーバーまたはエッジプールを表示しているかどうかを確認します。
     
     ルートの割り当てが間違っているか設定されていない場合は、サイトを右クリックし、[**プロパティの編集**] をクリックします。 [XMPP フェデレーション] チェックボックスをオンにして、適切なエッジサーバーまたはエッジプールを選択します。
 

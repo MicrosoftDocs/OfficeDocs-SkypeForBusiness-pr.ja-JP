@@ -10,12 +10,12 @@ ms:contentKeyID: 56558799
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce954eff790bae6974f144360637d6061318d3d3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d9e9582941b05a4151be5baa2ce74acfc79b3db3
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34841060"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992574"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -128,7 +128,7 @@ Windows PowerShell ではさまざまな用語を使用していますが、Wind
     
     これは、パラメーターの前にダッシュを付ける必要があるだけでなく、コマンドウィンドウとは異なるため、引数の前にスラッシュ (/) を使用している場合にも知っておくと便利です。
     
-    ``` 
+    ```console 
     /b
     ```
 

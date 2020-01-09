@@ -10,12 +10,12 @@ ms:contentKeyID: 48184816
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9c1f5693a14084627d20ae66fa6ec85f6b6c6c6f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6cd8c09346c8f5b562a72e77b9ba40915b480c91
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823848"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991382"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,11 +43,11 @@ _**最終更新日:** 2012-10-29_
 
 組織で、3つの組み込みコンテナー (ユーザー、コンピューター、ドメインコントローラー) ではなく組織単位 (OU) を使用している場合は、認証されたユーザーグループの Ou への読み取りアクセス許可を付与する必要があります。 ドメインの準備には、コンテナーへの読み取りアクセス権が必要です。 認証されたユーザーグループが OU への読み取りアクセス権を持っていない場合は、次のコード例に示すように**Grant Grant Oupermission**コマンドレットを実行して、各 ou の読み取りアクセス許可を付与します。
 
-   ```
+   ```PowerShell
     Grant-CsOuPermission -ObjectType <User | Computer | InetOrgPerson | Contact | AppContact | Device> -OU <DN of the OU > 
    ```
 
-   ```
+   ```PowerShell
     Grant-CsOuPermission -ObjectType "user","contact",inetOrgPerson" -OU "ou=Redmond,dc=contoso,dc=net"
    ```
 

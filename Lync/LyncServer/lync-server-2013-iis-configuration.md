@@ -10,12 +10,12 @@ ms:contentKeyID: 48185169
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de2205ad049beb05f30dd58795257b62eca68d46
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 29b9803fdb6c4a048fdf072b5ba2e5722b863640
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833055"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992102"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -141,11 +141,11 @@ Lync Server 2013、Standard Edition、または第1のフロントエンドサ�
 
 Windows Server 2008 R2 SP1 x64 オペレーティングシステムでは、Windows PowerShell 2.0 を使うことができます。 最初に ServerManager モジュールをインポートし、次に IIS 7.5 の役割と役割サービスをインストールする必要があります。
 
-   ```
+   ```PowerShell
     Import-Module ServerManager
    ```
 
-   ```
+   ```PowerShell
     Add-WindowsFeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Scripting-Tools, Web-Windows-Auth, Web-Asp-Net, Web-Log-Libraries, Web-Http-Tracing, Web-Stat-Compression, Web-Dyn-Compression, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Errors, Web-Http-Logging, Web-Net-Ext, Web-Client-Auth, Web-Filtering, Web-Mgmt-Console
    ```
 
@@ -343,11 +343,11 @@ Windows Server 2008 R2 SP1 x64 オペレーティングシステムでは、Wind
 
 Windows Server 2012 および Windows Server 2012 R2 では、Windows PowerShell 3.0 を使用して、IIS の要件をインストールできます。 Windows PowerShell 3.0 で ServerManager モジュールを使用して、次のように入力します。
 
-   ```
+   ```PowerShell
     Import-Module ServerManager
    ```
 
-   ```
+   ```PowerShell
     Add-WindowsFeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-Framework-45-Core, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Console, Web-Mgmt-Compat, Windows-Identity-Foundation, Server-Media-Foundation, BITS -Source D:\sources\sxs
    ```
 

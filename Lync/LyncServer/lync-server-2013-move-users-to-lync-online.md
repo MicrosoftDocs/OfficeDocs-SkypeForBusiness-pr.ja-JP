@@ -10,12 +10,12 @@ ms:contentKeyID: 48184392
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 410fd1fe521bd8d4750b290a54db26adb630a8be
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6172c526816a3572d6c364b714d5d4e7e5323cac
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826662"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991372"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,15 +53,15 @@ Lync Online へのユーザーの移行を開始する前に、移動するア�
 
 オンプレミスのユーザーを Lync Online テナントに移動するには、Microsoft Office 365 テナントの管理者資格情報を使用して、Lync Server 管理シェルで次のコマンドレットを実行します。 "username@contoso.com" を、移動するユーザーの情報で置換します。
 
-   ```
+   ```PowerShell
     $creds=Get-Credential
    ```
 
-   ```
+   ```PowerShell
     Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
    ```
 
-**HostedMigrationOverrideUrl**パラメーターに指定する url の形式は、次の形式で、ホステッド移行サービスが実行されているプールへの url である必要\<があり\>ます。 Https://pool FQDN/HostedMigration/hostedmigrationService。
+**HostedMigrationOverrideUrl**パラメーターに指定する url の形式は、次の形式で、ホステッド移行サービスが実行されているプールへの url である必要\<があり\>ます。 Https://pool FQDN/HostedMigration/hostedmigrationService.svc.
 
 ホスティング型移行サービスへの URL は、ご使用の Office 365 テナント アカウント用の Lync Online コントロール パネルの URL を表示することで確認できます。
 
@@ -91,7 +91,7 @@ Lync Online へのユーザーの移行を開始する前に、移動するア�
 
 ## <a name="moving-users-to-lync-online"></a>ユーザーを Lync Online に移動する
 
-複数のユーザーを移動するには[](https://docs.microsoft.com/powershell/module/skype/Get-CsUser) 、– Filter パラメーターを指定して RegistrarPool のユーザーアカウントに割り当てられている特定のプロパティを持つユーザーを選択します。 次の例に示すように、返されたユーザーを[移動-csuser](https://docs.microsoft.com/powershell/module/skype/Move-CsUser)コマンドレットにパイプします。
+複数のユーザーを移動するには[、–](https://docs.microsoft.com/powershell/module/skype/Get-CsUser) Filter パラメーターを指定して RegistrarPool のユーザーアカウントに割り当てられている特定のプロパティを持つユーザーを選択します。 次の例に示すように、返されたユーザーを[移動-csuser](https://docs.microsoft.com/powershell/module/skype/Move-CsUser)コマンドレットにパイプします。
 
     Get-CsUser -Filter {UserProperty -eq "UserPropertyValue"} | Move-CsUser -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
 

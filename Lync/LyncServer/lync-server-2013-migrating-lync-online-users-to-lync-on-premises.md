@@ -10,12 +10,12 @@ ms:contentKeyID: 62258120
 ms.date: 11/13/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d33888069b00eaf8a4d743f1e6ed3937d7a442bc
-ms.sourcegitcommit: 5895afd0d5752a6ea1ace68d613f86c68eae8bdb
+ms.openlocfilehash: 47fb8d24a2bb112ab07d35097414141b9eaaa606
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "34857492"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991652"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,11 +57,11 @@ _**最終更新日:** 2015-11-13_
     
       - オンプレミスの展開の Lync Server 管理シェルで、次のコマンドレットを入力して、Lync Online のホスティングプロバイダーを作成します。
         
-           ```
+           ```PowerShell
            Set-CsAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $true
            ```
         
-           ```
+           ```PowerShell
             New-CsHostingProvider -Identity LyncOnline -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
            ```
 
@@ -127,19 +127,19 @@ _**最終更新日:** 2015-11-13_
     
     単独のユーザーを移動するには、次のように入力します。
     
-       ```
+       ```PowerShell
        $cred = Get-Credential
        ```
     
-       ```
+       ```PowerShell
        Move-CsUser -Identity <username>@contoso.com -Target "<fe-pool>.contoso.com" -Credential $cred -HostedMigrationOverrideURL <URL>
        ```
     
-    複数のユーザーを移動するには**** 、-Filter パラメーターを指定して、特定のプロパティを持つユーザーを選択します。 たとえば、{ホスティングプロバイダー– eq "sipfed.online.lync.om"} をフィルター処理することによって、すべての Lync Online ユーザーを選ぶことができます。 次に示すように、返されたユーザーを**移動-CsUSer**コマンドレットにパイプすることができます。
+    複数のユーザーを移動するには **、-** Filter パラメーターを指定して、特定のプロパティを持つユーザーを選択します。 たとえば、{ホスティングプロバイダー– eq "sipfed.online.lync.om"} をフィルター処理することによって、すべての Lync Online ユーザーを選ぶことができます。 次に示すように、返されたユーザーを**移動-CsUSer**コマンドレットにパイプすることができます。
     
         Get-CsUser -Filter {Hosting Provider -eq "sipfed.online.lync.com"} | Move-CsUser -Target "<fe-pool>.contoso.com" -Credential $creds -HostedMigrationOverrideURL <URL>
     
-    **HostedMigrationOverrideUrl**パラメーターに指定する url の形式は、次の形式で、ホステッド移行サービスが実行されているプールへの url である必要があります。 *Https://\<pool FQDN\>/HostedMigration/hostedmigrationService*。
+    **HostedMigrationOverrideUrl**パラメーターに指定する url の形式は、次の形式で、ホステッド移行サービスが実行されているプールの url である必要があります。 *Https://\<pool FQDN\>/HostedMigration/hostedmigrationService.svc*。
     
     ホスティング型移行サービスへの URL は、ご使用の Office 365 テナント アカウント用の Lync Online コントロール パネルの URL を表示することで確認できます。
     
