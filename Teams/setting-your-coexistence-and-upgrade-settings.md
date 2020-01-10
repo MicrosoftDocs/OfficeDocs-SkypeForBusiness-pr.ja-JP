@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 674c4c43e1fe99639c6e8bfd9665e1bf0755e1ba
-ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
-ms.translationtype: HT
+ms.openlocfilehash: e5cc89afb43149f68dfc068492e1d0163e4b0721
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/17/2019
-ms.locfileid: "40069378"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003317"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>共存およびアップグレードを設定する
 
@@ -39,7 +39,7 @@ Teams を使用するように Skype for Business ユーザーをアップグレ
 
 ![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
 
-1. 左側のナビゲーションで、[**組織全体の設定**]  >  [**Teams アップグレード**] に移動します。 
+1. [Microsoft Teams 管理センター](https://admin.teams.microsoft.com/)の左側のナビゲーションで、[**組織全体の設定** > ]**チームのアップグレード**に移動します。 
 
 2. [**Teams アップグレード**] ページの上部で、Teams が機能する場合は次の変更を行います。
     - [**共存**] モードを設定します。

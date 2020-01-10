@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 784ff94a-4b33-4dbd-ba74-27acc3eb6954
 description: Set-CcCredential コマンドレットは、現在の Skype for Business Cloud Connector エディションの展開の資格情報を設定します。
-ms.openlocfilehash: 59c058f8965bbc6fc011806f383c547c1e7b6cd1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bcb88f11fb78d995e6d8271593c2e09bb0b11d22
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286979"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003217"
 ---
 # <a name="set-cccredential"></a>Set-CcCredential
  
@@ -24,7 +24,7 @@ Set-CcCredential コマンドレットは、現在の Skype for Business Cloud C
   
 Cloud Connector バージョン2.0 以降では、このコマンドレットでは、仮想マシン管理者とドメイン管理者のアカウント情報を設定することもできます。
   
-```
+```powershell
 Set-CcCredential [[-AccountType] <string> {TenantAdmin}]
 ```
 
@@ -35,7 +35,7 @@ Set-CcCredential [[-AccountType] <string> {TenantAdmin}]
 
 次の例は、テナント管理者のアカウント名とパスワードを指定します。
   
-```
+```powershell
 Set-CcCredential -AccountType "TenantAdmin"
 ```
 
@@ -47,7 +47,7 @@ Set-CcCredential コマンドレットによって、テナント管理者のア
 ## <a name="parameters"></a>パラメーター
 <a name="DetailedDescription"> </a>
 
-|**パラメーター**|**必須**|**型**|**説明**|
+|**パラメーター**|**必須**|**種類**|**説明**|
 |:-----|:-----|:-----|:-----|
 | AccountType <br/> | 必須 <br/> |System.String  <br/> | パラメーター値は「TenantAdmin」、「VmAdmin」、または「DomainAdmin」にする必要があります。 <br/> |
    

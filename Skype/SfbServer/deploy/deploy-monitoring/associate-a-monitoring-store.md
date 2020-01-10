@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d3a20d5e-3f24-4cff-bc9b-4f84fea30e6b
 description: '概要: Skype for Business Server で使用される監視ストアにフロントエンドプールを関連付ける方法について説明します。'
-ms.openlocfilehash: 66d51e89a41c5e6ce2608b4fe8ecd1c4af336b6b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 17f7cbf7d8725fc3d1c23f161060d9bb386cea19
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239993"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001227"
 ---
 # <a name="associate-a-monitoring-store-with-a-front-end-pool-in-skype-for-business-server"></a>Skype for Business Server で監視ストアをフロントエンドプールに関連付ける 
 **概要:** フロントエンドプールを、Skype for Business Server で使用される監視ストアに関連付ける方法について説明します。
@@ -40,7 +40,7 @@ Skype for Business Server では、監視ストアに関連付けられている
     
 6. [**プロパティの編集**] ダイアログ ボックスの [**全般**] タブで、[**監視を有効にする (CDR と QoE 指標)**] オプションを選択し、既存の SQL Server データベースを [**監視 SQL Server ストア**] ドロップダウン リストから選択します (または、[**新規**] をクリックしてプールを新しいデータベース ストアに関連付けます)。新しいデータベース ストアを使用するように選択した場合は、[**新しい SQL ストアの定義**] ダイアログ ボックスで、SQL Server コンピューターの完全修飾ドメイン名を [**SQL Server の FQDN**] ボックスに入力します。ストアに既定の SQL Server インスタンスを使用する場合は、[**既定のインスタンス**] を選択します。それ以外の場合は [**名前付きインスタンス**] をクリックし、インスタンス名を [**名前付きインスタンス**] ボックスに入力します。
     
-    [**プロパティの編集**] ダイアログボックスには、監視データベースの SQL ミラーを作成するオプションもあります (sql mirror では、監視データベースの2つのコピーを保持することができます。1つのコピーを監視ストアコンピューターに保存し、もう一方をSQL ミラーコンピューター)。 ミラーリングを有効にするに**は、[SQL インスタンスのミラーリング基準**] を選択し、[**ミラーリングポート番号**] ボックスにミラーサーバーのポート番号を入力します。
+    [**プロパティの編集**] ダイアログボックスには、監視データベースの SQL ミラーを作成するオプションも表示されます (sql mirror では、監視データベースの2つのコピーを保持することができます。1つのコピーを監視用ストアコンピューターと SQL mirror コンピューターに保存します)。 ミラーリングを有効にするに**は、[SQL インスタンスのミラーリング基準**] を選択し、[**ミラーリングポート番号**] ボックスにミラーサーバーのポート番号を入力します。
     
 7. [**プロパティの編集**] ダイアログ ボックスで、[**OK**] をクリックします。
     
@@ -54,7 +54,7 @@ Skype for Business Server では、監視ストアに関連付けられている
     
 トポロジが公開されたら、監視ストアをホストするコンピューターに監視データベースをインストールします。 監視データベースは、Skype for Business Server 管理シェルと Windows PowerShell を使用してインストールできます。 データベースをローカルにインストールする (つまり、Skype for Business Server 管理シェルを実行しているコンピューターと同じコンピューターにデータベースをインストールする) には、適切なコンピューター上で管理シェルを起動し、次のコマンドを入力して、ENTER キーを押します。
   
-```
+```powershell
 Install-CsDatabase -LocalDatabases
 ```
 
@@ -64,7 +64,7 @@ Install-CsDatabase -LocalDatabases
   
 たとえば、次のコマンドは監視データベースを atl-sql-001.litwareinc.com というコンピューターにインストールします。
   
-```
+```powershell
 Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn atl-sql-001.litwareinc.com
 ```
 

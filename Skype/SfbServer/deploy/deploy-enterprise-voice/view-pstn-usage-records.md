@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 65025c78-c263-472c-9ff9-e170588f10b5
 description: '概要: Skype for Business Server コントロールパネルまたは Skype for Business Server 管理シェルを使用して、PSTN 使用状況レコードを表示する方法について説明します。'
-ms.openlocfilehash: bbc9b7f174ff4b6710009af47dbdcd20e12334d4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 96a96898bf728b4f05ba473bc750635e41be19fa
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240001"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002727"
 ---
 # <a name="view-pstn-usage-records-in-skype-for-business"></a>Skype for Business での PSTN 使用状況レコードの表示
 
@@ -42,7 +42,7 @@ ms.locfileid: "36240001"
 
 - すべての PSTN 使用状況に関する情報を表示するには、Skype for Business Server 管理シェルで次のコマンドを入力して、enter キーを押します。
 
-  ```
+  ```powershell
   Get-CsPstnUsage
   ```
 

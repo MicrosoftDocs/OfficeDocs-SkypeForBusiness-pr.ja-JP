@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: このトピックでは、クラウドコネクタエディションバージョン2.0 以降でメディアのバイパスを展開する手順について説明します。
-ms.openlocfilehash: 6f3ad140d25d5f1d03196e576ac57dc56e905d44
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 63d8f9e289c38a50444bee2667c98543e09b875d
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287546"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003487"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Cloud Connector エディションでメディア バイパスを展開する
  
@@ -37,7 +37,7 @@ DNS を構成したら、Skype for Business 管理者の資格情報で リモ�
   
 PowerShell セッションで、次のコマンドを入力してメディア バイパスを有効にします。
   
-```
+```powershell
 Set-CsTenantHybridConfiguration -HybridConfigServiceInternalUrl http://newname.domain/hybridconfig/hybridconfigservice.svc
 $mediabypass = New-CsNetworkMediaBypassConfiguration -AlwaysBypass $true -Enabled $true
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
@@ -53,14 +53,14 @@ Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
   
 テナントプールへのオンラインレプリケーションを確認するには、リモート PowerShell で次のコマンドを実行します。
   
-```
+```powershell
 Get-CsTenantHybridConfiguration -LocalStore
 Get-CsNetworkConfiguration -LocalStore
 ```
 
 オンプレミスのレプリケーションを確認するには、クラウドコネクタの仲介サーバーに接続し、PowerShell で次のコマンドを実行し、有効であることを確認します。
   
-```
+```powershell
 Get-CsNetworkConfiguration -LocalStore
 ```
 
@@ -74,7 +74,7 @@ Get-CsNetworkConfiguration -LocalStore
 
 テナント管理者は、次のコマンドレットを実行して、Web サービスの DNS 名を変更できます。
   
-```
+```powershell
 Set-CsTenantHybridConfiguration -HybridConfigServiceInternalUrl http://newname.domain/hybridconfig/hybridconfigservice.svc
 ```
 
@@ -85,14 +85,14 @@ Set-CsTenantHybridConfiguration -HybridConfigServiceInternalUrl http://newname.d
 
 このシナリオは、トラブルシューティングやメンテナンスで役立ちます。サービスを無効にするには、次のコマンドレットを実行します。
   
-```
+```powershell
 $mediabypass = New-CsNetworkMediaBypassConfiguration  -Enabled $false
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 ```
 
 変更後、すべての Cloud Connector にレプリケートされるまで時間がかかる場合があります。 レプリケーションの状態を確認するには、クラウドコネクタ仲介サーバー上の PowerShell で次のコマンドレットを実行します。 
   
-```
+```powershell
 Get- CsNetworkConfiguration -LocalStore
 ```
 
@@ -102,7 +102,7 @@ Get- CsNetworkConfiguration -LocalStore
 
 メディア バイパスを完全に無効にするには、テナント管理者が次のコマンドを実行する必要があります。 
   
-```
+```powershell
 Set-CsTenantHybridConfiguration -HybridConfigServiceInternalUrl  $null
     $mediabypass = New-CsNetworkMediaBypassConfiguration  -Enabled $false 
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass 

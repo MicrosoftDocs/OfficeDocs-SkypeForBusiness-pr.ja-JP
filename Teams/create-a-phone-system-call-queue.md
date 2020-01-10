@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: Microsoft Teams でクラウド通話キューの電話システムをセットアップする方法について説明します。
-ms.openlocfilehash: e55028bb3e77291e6ed69069b09d812907fc35fb
-ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
+ms.openlocfilehash: 95cf9701705950d997e1d200fee117b5f8f9738b
+ms.sourcegitcommit: 2fab6105dfc4c225de8c09ab79d9c2c273a3e4f6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39211978"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "41005189"
 ---
 # <a name="create-a-cloud-call-queue"></a>クラウドの通話キューを作成する
 
@@ -36,6 +36,7 @@ ms.locfileid: "39211978"
 - 通話の保留中に再生される保留音。
 - メール対応配布リストとセキュリティ グループを使用した、コール エージェントへの通話のリダイレクト。
 - キューの最大サイズ、タイムアウト、通話処理オプションなどのさまざまなパラメーターを設定します。
+- 発信者が組織のメッセージを残すための共有ボイスメール。
 
 [リソースアカウント](manage-resource-accounts.md)を使用して、電話番号を通話キューに関連付けることができます。 通話キューには、自動応答の選択によって直接ダイヤルするか、アクセスすることができます。
 
@@ -165,9 +166,11 @@ ms.locfileid: "39211978"
 
 ### <a name="select-the-call-answering-options"></a>通話応答のオプションを選択する
 
-![番号付き吹き出しが含まれる通話応答オプションのスクリーンショット](media/5d249515-d532-4af2-90da-011404028b89.png)
+![通話応答オプションのスクリーンショット](media/5d249515-d532-4af2-90da-011404028b89.png) 
 
-![前のスクリーンショットで吹き出しを参照する数値1のアイコン](media/sfbcallout1.png)
+個々のエージェントをグループに追加せずに直接追加するには、[**ユーザーの追加**] をクリックします。 通話を受ける順序に個々のエージェントを追加します。 最大20の個別のエージェントを追加できます (20 を超える場合は、1つのグループにまとめることができます)。
+
+通話は最初に個々のエージェントにルーティングされ、その後、グループ内のエージェントに送信されます。 
 
 以下のメーリングリストまたはグループのいずれかに属する、最大200の通話エージェントを選択できます。
 

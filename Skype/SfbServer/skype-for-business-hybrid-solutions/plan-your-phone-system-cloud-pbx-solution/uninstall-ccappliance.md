@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e1b3cdd7-08e9-41a6-843a-3b4baf886cd0
 description: Uninstall-CcAppliance コマンドレットは実行中の Skype for Business Cloud Connector エディションのアプライアンスをホスト サーバーからアンインストールします。
-ms.openlocfilehash: 337c5c489846facb1da3c177cac7a965d7550ae5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f37c3092103832c9efd3b24d2efbedf00e8f54ac
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286895"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003147"
 ---
 # <a name="uninstall-ccappliance"></a>Uninstall-CcAppliance
  
 Uninstall-CcAppliance コマンドレットは実行中の Skype for Business Cloud Connector エディションのアプライアンスをホスト サーバーからアンインストールします。 
   
-```
+```powershell
 Uninstall-CcAppliance [-Version <string>] [-Force] [-Confirm <bool>] [<CommonParameters>]
 ```
 
@@ -33,7 +33,7 @@ Uninstall-CcAppliance [-Version <string>] [-Force] [-Confirm <bool>] [<CommonPar
 
 次の例では、ホストサーバーからクラウドコネクタアプライアンスを処理し、アンインストールします。
   
-```
+```powershell
 Uninstall-CcAppliance
 ```
 
@@ -41,7 +41,7 @@ Uninstall-CcAppliance
 
 次の例では、ドレインプロセスが失敗した場合でも、ホストサーバー上で実行されているクラウドコネクタのアプライアンスをドレインして、強制的にアンインストールします。
   
-```
+```powershell
 Uninstall-CcAppliance -Force
 ```
 
@@ -49,7 +49,7 @@ Uninstall-CcAppliance -Force
 
 次の例では、ユーザーの確認なしにクラウドコネクタのバックアップバージョンをアンインストールします。
   
-```
+```powershell
 Uninstall-CcAppliance -Version 1.3.8 -Confirm:$false
 ```
 
@@ -61,7 +61,7 @@ Uninstall-CcAppliance -Version 1.3.8 -Confirm:$false
 ## <a name="parameters"></a>パラメーター
 <a name="DetailedDescription"> </a>
 
-|**パラメーター**|**必須**|**型**|**説明**|
+|**パラメーター**|**必須**|**種類**|**説明**|
 |:-----|:-----|:-----|:-----|
 | Version <br/> | 省略可能 <br/> |System.String  <br/> | ホストサーバーからアンインストールされるクラウドコネクタのバージョン。 指定されていない場合、現在実行中のバージョンをアンインストールします。 <br/> |
 |Force  <br/> |省略可能  <br/> |System.Management.Automation.SwitchParameter  <br/> |現在の実行中バージョンをアンインストールする場合、仮想マシンをアンインストールする前に仲介サーバーとエッジ サーバーで、サーバーのドレイン処理を試みます。「Force」スイッチを指定すると、ドレイン サービスが失敗した場合でも、仮想マシンはアンインストールされます。このパラメーターは現在の実行中バージョンをアンインストールするためのみに使用されます。  <br/> |

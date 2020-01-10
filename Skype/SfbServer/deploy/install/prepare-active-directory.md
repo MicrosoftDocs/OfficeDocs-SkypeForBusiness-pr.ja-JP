@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
 description: '概要: Skype for Business Server のインストール用に Active Directory ドメインを準備する方法について説明します。 Skype for Business Server の無料トライアルは、次https://www.microsoft.com/evalcenter/evaluate-skype-for-business-serverの Microsoft 評価センターからダウンロードしてください。'
-ms.openlocfilehash: 85bd8d45cee1144ef355f0a9b0491d24529d6ff3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 114b2a91491dd440972f589ff45d86835c676bef
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245288"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41000887"
 ---
 # <a name="prepare-active-directory-for-skype-for-business-server"></a>Skype for Business Server 用 Active Directory の準備
  
@@ -97,7 +97,7 @@ Skype for Business Server は、Active Directory ドメインサービス (AD DS
     
     ア. コマンドの Get-CsAdForest を入力して、 **enter**キーを押します。
     
-    私。 結果が**LC_FORESTSETTINGS_STATE_READY**の場合は、図に示すように、フォレストが正常に準備されています。
+    私。 結果が**LC_FORESTSETTINGS_STATE_READY**場合は、図に示すように、フォレストが正常に準備されています。
     
      ![フォレスト レプリケーションの確認](../../media/20835669-b8ff-445b-aa8d-51cce46a8b0e.png)
   
@@ -131,7 +131,7 @@ Skype for Business Server は、Active Directory ドメインサービス (AD DS
     
     b. コマンドの Get-CsAdDomain を使用して、ドメイン内の複製を確認します。
     
-   ```
+   ```powershell
    Get-CsAdDomain [-Domain <Fqdn>] [-DomainController <Fqdn>] [-GlobalCatalog <Fqdn>] [-GlobalSettingsDomainController <Fqdn>]
    ```
 
@@ -140,14 +140,14 @@ Skype for Business Server は、Active Directory ドメインサービス (AD DS
   
     contoso.local ドメインのコマンドの実行例:
     
-   ```
+   ```powershell
    Get-CsAdDomain -Domain contoso.local -GlobalSettingsDomainController dc.contoso.local
    ```
 
     > [!NOTE]
     > パラメーター GlobalSettingsDomainController を使用して、グローバル設定を保存する場所を指定できます。設定をシステム コンテナーに保存する (構成コンテナーにグローバル設定を移行していないアップグレードの展開で一般的) 場合、使用する AD DS フォレストのルートに 1 つのドメイン コントローラーを定義します。グローバル設定を構成コンテナーに保存する (新しい展開または構成コンテナーに設定を移行しているアップグレードの展開で一般的) 場合、フォレストに任意のドメイン コントローラーを定義します。このパラメーターを指定しない場合、コマンドレットでは、設定が構成コンテナーに保存されていると見なして、Active Directory の任意のドメイン コントローラーを参照します。 
   
-    c. 結果が**LC_DOMAINSETTINGS_STATE_READY**の場合は、ドメインが正常に複製されています。
+    c. 結果が**LC_DOMAINSETTINGS_STATE_READY**場合は、ドメインが正常に複製されています。
     
 10. **手順 7: Skype for Business Server コントロール パネルへの管理アクセスを提供するためのユーザーの追加**
     

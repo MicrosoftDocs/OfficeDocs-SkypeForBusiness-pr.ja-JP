@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ec6197a-3d1e-4b42-9465-564044cdab1a
 description: この記事では、モバイルデバイスで Skype for business Server のモバイル機能を利用できるように、既存の Skype for Business Server のインストールを設定する手順について説明します。
-ms.openlocfilehash: 910e23e8aec18d36c3a7e4bda9e97828fb498802
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 3e39c354fd77d7ac36e3a4c36ed7e36e1d8ffbbf
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234576"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002867"
 ---
 # <a name="deploy-and-configure-mobility-for-skype-for-business-server"></a>Skype for Business Server のモビリティの展開と構成  
  
@@ -159,7 +159,7 @@ ms.locfileid: "36234576"
     
 3. 更新された証明書の追加を行う前に、すでに付与されている証明書の内容を知っておくことが重要となります。コマンドで次のように入力します。
     
-   ```
+   ```powershell
    Get-CsCertificate
    ```
 
@@ -173,13 +173,13 @@ ms.locfileid: "36234576"
     
    - 欠落した自動検出サービス SAN (-Ca パラメーターをジブの認証局パスで置き換える) を開きます。
     
-   ```
+   ```powershell
    Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -Ca dc\myca -AllSipDomain -verbose
    ```
 
    - 複数の SIP ドメインがある場合は、上記の例のように AllSipDomain パラメーターを使用することはできません。 代わりに DomainName パラメーターを使用する必要があります。 DomainName パラメーターを使用するときは、lyncdiscoverinternal および lyncdiscover レコードの FQDN を定義する必要があります。 一例として次のようになります (-Ca パラメーターを自分の認証局パスで置き換える)。
     
-   ```
+   ```powershell
    Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -Ca dc\myca -DomainName "LyncdiscoverInternal.contoso.com, LyncdiscoverInternal.contoso.net" -verbose
    ```
 
@@ -187,17 +187,17 @@ ms.locfileid: "36234576"
     
    - 欠落した自動検出サービス SAN (-Ca パラメーターをジブの認証局パスで置き換える) を開きます。
     
-   ```
+   ```powershell
    Request-CsCertificate -New -Type WebServicesInternal -Ca dc\myca -AllSipDomain -verbose
    ```
 
    - 複数の SIP ドメインがある場合は、上記の例のように AllSipDomain パラメーターを使用することはできません。 代わりに DomainName パラメーターを使用する必要があります。 DomainName パラメーターを使用するときは、lyncdiscoverinternal および lyncdiscover レコードの FQDN を定義する必要があります。 次のような例になります (-Ca パラメーターを自分の認証局パスで置き換える)。
     
-   ```
+   ```powershell
    Request-CsCertificate -New -Type WebServicesInternal -Ca dc\myca -DomainName "LyncdiscoverInternal.contoso.com, LyncdiscoverInternal.contoso.net" -verbose
    ```
 
-   ```
+   ```powershell
    Request-CsCertificate -New -Type WebServicesExternal -Ca dc\myca -DomainName "Lyncdiscover.contoso.com, Lyncdiscover.contoso.net" -verbose
    ```
 
@@ -209,13 +209,13 @@ ms.locfileid: "36234576"
     
   - すべてに対して単一の証明書しかない (どの thumbprint も同じ) 場合、これを実行します。
     
-  ```
+  ```powershell
   Set-CsCertificate -Type <certificate(s) from the Use parameter> -Thumbprint <unique identifier>
   ```
 
   - 別々の証明書が付与されている (thumbprint が異なる) 場合、代わりにこれを実行します。
     
-  ```
+  ```powershell
   Set-CsCertificate -Type Default -Thumbprint <certificate thumbprint>
   Set-CsCertificate -Type WebServicesInternal -Thumbprint <certificate thumbprint>
   Set-CsCertificate -Type WebServicesExternal -Thumbprint <certificate thumbprint>
@@ -308,7 +308,7 @@ TMG は、Microsoft によって製品として提供されていないため、
     
    - 外部アクセス用に **SSL** にする必要があるため、そのオプションを選択します。
     
-   - **内部公開**用のパスを公開し、フロントエンドプールのロードバランサーに外部 Web サービスの fqdn を入力する必要があります (または、所有している場合は、ディレクタープールのロードバランサーの fqdn)。例として sfb_pool01。
+   - **内部公開**用のパスを公開し、フロントエンドプールのロードバランサーに外部 Web サービスの fqdn を入力する必要があります。または、所有している場合は、ディレクタープールのロードバランサーの fqdn (存在する場合は、ディレクタープールのロードバランサーの fqdn) を sfb_pool01 使用します。
     
    - 公開するパス** /** として「*」と入力しますが、**元のホストヘッダーも転送**する必要があります。
     
@@ -356,7 +356,7 @@ TMG は、Microsoft によって製品として提供されていないため、
     
    - これは [**公開された Web サーバーまたはサーバー ファームへの接続に、セキュリティで保護されていない接続を使用する**] にする必要があります。
     
-   - **内部公開**用のパスを公開し、フロントエンドプールのロードバランサーの**VIP アドレス**の FQDN を入力する必要がある場合は、例として sfb_pool01 を使います。
+   - **内部公開**用のパスを公開し、フロントエンドプールのロードバランサーの**VIP アドレス**の FQDN を入力する必要がある場合は、sfb_pool01 例として「.local」と入力します。
     
    - 公開するパス** /** として「*」と入力しますが、**元のホストヘッダーも転送**する必要があります。
     
@@ -397,13 +397,13 @@ Skype for Business Server のハイブリッド環境は、オンプレミスと
     
 2. Skype for Business Server 環境の属性**Proxyfqdn**の値を取得するには、次を実行します。
     
-   ```
+   ```powershell
    Get-CsHostingProvider
    ```
 
 3. それからシェル ウィンドウ内で以下を実行します。
     
-   ```
+   ```powershell
    Set-CsHostingProvider -Identity [identity] -AutodiscoverUrl https://webdir.online.lync.com/autodiscover/autodiscoverservice.svc/root
    ```
 
@@ -427,13 +427,13 @@ Skype for Business Server 2015 上の Lync Server 2010 クライアントの場�
     
 3. コマンドラインで、次のように入力します。
     
-   ```
+   ```powershell
    Test-CsUcwaConference -TargetFqdn <FQDN of Front End pool> -Authentication <TrustedServer | Negotiate | ClientCertificate | LiveID> -OrganizerSipAddress sip:<SIP address of test user 1> -OrganizerCredential <test user 1 credentials> -ParticipantSipAddress sip:<SIP address of test user 2> -ParticipantCredential <test user 2 credentials> -v
    ```
 
    スクリプトに資格情報を設定して、テスト コマンドレットに渡すこともできます。下の例をご覧ください。
     
-   ```
+   ```powershell
    $passwd1 = ConvertTo-SecureString "Password01" -AsPlainText -Force
    $passwd2 = ConvertTo-SecureString "Password02" -AsPlainText -Force
    $testuser1 = New-Object Management.Automation.PSCredential("contoso\UserName1", $passwd1)
@@ -452,13 +452,13 @@ Skype for Business Server 2015 上の Lync Server 2010 クライアントの場�
     
 3. コマンドラインで、次のように入力します。
     
-   ```
+   ```powershell
    Test-CsMcxP2PIM -TargetFqdn <FQDN of Front End pool> -Authentication <TrustedServer | Negotiate | ClientCertificate | LiveID> -SenderSipAddress sip:<SIP address of test user 1> -SenderCredential <test user 1 credentials> -ReceiverSipAddress sip:<SIP address of test user 2> -ReceiverCredential <test user 2 credentials> -v
    ```
 
    スクリプトに資格情報を設定して、テスト コマンドレットに渡すこともできます。下の例をご覧ください。
     
-   ```
+   ```powershell
    $passwd1 = ConvertTo-SecureString "Password01" -AsPlainText -Force
    $passwd2 = ConvertTo-SecureString "Password02" -AsPlainText -Force
    $tuc1 = New-Object Management.Automation.PSCredential("contoso\UserName1", $passwd1)
@@ -489,13 +489,13 @@ Skype for Business Server 2015 上の Lync Server 2010 クライアントの場�
     
 3. Skype for Business Server online ホスティングプロバイダーを追加します。
     
-   ```
+   ```powershell
    New-CsHostingProvider -Identity <unique identifier for hosting provider> -Enabled $True -ProxyFQDN <FQDN for the Access Server used by the hosting provider> -VerificationLevel UseSourceVerification
    ```
 
    例:
     
-   ```
+   ```powershell
    New-CsHostingProvider -Identity "SkypeOnline" -Enabled $True -ProxyFQDN "sipfed.online.lync.com" -VerificationLevel UseSourceVerification
    ```
 
@@ -504,7 +504,7 @@ Skype for Business Server 2015 上の Lync Server 2010 クライアントの場�
   
 4. 組織と Skype for Business Online のプッシュ通知サービスとの間のホスティングプロバイダーフェデレーションをセットアップします。 コマンド ラインで次ぎように入力します。
     
-   ```
+   ```powershell
     New-CsAllowedDomain -Identity "push.lync.com"
    ```
 
@@ -516,13 +516,13 @@ Skype for Business Server 2015 上の Lync Server 2010 クライアントの場�
     
 3. プッシュ通知を有効にする:
     
-   ```
+   ```powershell
    Set-CsPushNotificationConfiguration -EnableMicrosoftPushNotificationService $True
    ```
 
 4. フェデレーションを有効にする:
      
-   ```
+   ```powershell
    Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
    ```
 
@@ -534,25 +534,25 @@ Skype for Business Server 2015 上の Lync Server 2010 クライアントの場�
     
 3. フェデレーションの構成をテストする
     
-   ```
+   ```powershell
    Test-CsFederatedPartner -TargetFqdn <FQDN of Access Edge server used for federated SIP traffic> -Domain <FQDN of federated domain> -ProxyFqdn <FQDN of the Access Edge server used by the federated organization>
    ```
 
     例:
     
-   ```
+   ```powershell
    Test-CsFederatedPartner -TargetFqdn accessproxy.contoso.com -Domain push.lync.com -ProxyFqdn sipfed.online.lync.com
    ```
 
 4. プッシュ通知をテストする
     
-   ```
+   ```powershell
    Test-CsMcxPushNotification -AccessEdgeFqdn <Access Edge service FQDN>
    ```
 
     例:
     
-   ```
+   ```powershell
    Test-CsMcxPushNotification -AccessEdgeFqdn accessproxy.contoso.com
    ```
 
@@ -588,7 +588,7 @@ Skype for Business Server を使用すると、モビリティサービスを使
     
 3. 次のように入力することにより、機動性へのアクセスをオフにして、世界中で通話を発信します
     
-   ```
+   ```powershell
    Set-CsMobilityPolicy -EnableMobility $False -EnableOutsideVoice $False
    ```
 
@@ -605,7 +605,7 @@ Skype for Business Server を使用すると、モビリティサービスを使
     
 3. サイト レベルのポリシーを作成し、VoIP とビデオを無効にして、IP オーディオと IP ビデオに対して WiFi を必須にする機能をサイト別に有効にします。次のように入力します。
     
-   ```
+   ```powershell
    New-CsMobilityPolicy -Identity site:<site identifier> -EnableIPAudioVideo $false -RequireWiFiForIPAudio $True -RequireWiFiforIPVideo $True
    ```
 
@@ -619,14 +619,14 @@ Skype for Business Server を使用すると、モビリティサービスを使
     
 3. ユーザーレベルのモバイル処理ポリシーを作成し、機動性をオフにして、ユーザーによる勤務先から通話を発信します。 次のように入力します。
     
-   ```
+   ```powershell
    New-CsMobilityPolicy -Identity <policy name> -EnableMobility $False -EnableOutsideVoice $False
    Grant-CsMobilityPolicy -Identity <user identifier> -PolicyName <policy name>
    ```
 
     サンプル データ付き詳細例:
     
-   ```
+   ```powershell
    New-CsMobilityPolicy "tag:disableOutsideVoice" -EnableOutsideVoice $False
    Grant-CsMobilityPolicy -Identity MobileUser1@contoso.com -PolicyName tag:disableOutsideVoice
    ```

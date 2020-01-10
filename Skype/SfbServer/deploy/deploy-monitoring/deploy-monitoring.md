@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 244df419-d0a8-4b1d-aedd-a92114172ab6
 description: '概要: Skype for Business Server で監視を展開する方法について説明します。'
-ms.openlocfilehash: 1eedcaaa30ecf464a5238e274e14de6770858290
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7f3bd96b814b45b625612aae9b56a706dfff470f
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239953"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001149"
 ---
 # <a name="deploy-monitoring-in-skype-for-business-server"></a>Skype for Business Server で監視を展開する
 
@@ -67,7 +67,7 @@ Skype for Business Server で監視するためのもう1つの重要な拡張�
 
 データの収集を開始するには、CDR または QoE の監視を有効にする必要があります。 (CDR と QoE の両方の監視を有効にする必要はありません。必要に応じて、他の種類を無効のままにして、1つの種類の監視を有効にすることができます)。グローバルスコープで CDR 監視を有効にするには、Skype for Business Server 管理シェルで次のコマンドを実行します。
 
-```
+```powershell
 Set-CsCdrConfiguration -Identity "global" -EnableCDR $True
 ```
 
@@ -81,7 +81,7 @@ Set-CsCdrConfiguration -Identity "global" -EnableCDR $True
 
 グローバルスコープで QoE の監視を有効にするには、Skype for Business Server 管理シェルで次のコマンドを実行します。
 
-```
+```powershell
 Set-CsQoEConfiguration -Identity "global" -EnableQoE $True
 ```
 

@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 description: Skype for Business Server Enterprise Voice で応答グループキューを作成または変更します。
-ms.openlocfilehash: b58ec9065eea1cc2dd8686b07ea798ac71c460fa
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 9027c239c92c7c04b9de8b5579d7ebb73069b1a3
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233455"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001707"
 ---
 # <a name="create-or-modify-a-queue-in-skype-for-business"></a>Skype for Business でキューを作成または変更する
  
@@ -69,9 +69,9 @@ Skype for Business Server Enterprise Voice で応答グループキューを作�
     
    - タイムアウト後通話を終了するには、[**切断**] をクリックします。
     
-   - 通話をボイスメールに転送するには、[**ボイスメールに転送**] をクリックし、[ **sip アドレス**] フィールドに、「sip: * \<\>username*@ *\<domainname\> * 」という形式でボイスメールアドレスを入力します (例 sip:bob@contoso.com)。
+   - 通話をボイスメールに転送するには、[**ボイスメールに転送**] をクリックし、[ **sip アドレス**] フィールドに、「sip: * \<\>username*@ *\<domainname\> * (sip:bob@contoso.com)」という形式でボイスメールアドレスを入力します。
     
-   - 別の電話番号に通話を転送するには、[**電話番号に転送**] をクリックして、[ **sip アドレス**] フィールドに電話番号を「sip: * \<\>番号*@ *\<のドメイン名\>* (たとえば、sip:+14255550121@contoso.com)。
+   - 別の電話番号に通話を転送するには、[**電話番号に転送**] をクリックし、[ **sip アドレス**] フィールドに電話番号を「sip: * \<\>番号*@ *\<の\>ドメイン名*」という形式で入力します (たとえば、sip:+14255550121@contoso.com)。
     
    - 通話を別のユーザーに転送するには、[ **sip アドレスに転送**] をクリックし、[ **sip アドレス**] フィールドにユーザーの URI を「sip _ \<:\>username_@ _\<domainname\>_」という形式で入力します。
     
@@ -87,9 +87,9 @@ Skype for Business Server Enterprise Voice で応答グループキューを作�
     
    - タイムアウト後通話を終了するには、[**切断**] をクリックします。
     
-   - 通話をボイスメールに転送するには、[**ボイスメールに転送**] をクリックし、[ **sip アドレス**] フィールドに、「sip: * \<\>username*@ *\<domainname\> * 」という形式でボイスメールアドレスを入力します (例 sip:bob@contoso.com)。
+   - 通話をボイスメールに転送するには、[**ボイスメールに転送**] をクリックし、[ **sip アドレス**] フィールドに、「sip: * \<\>username*@ *\<domainname\> * (sip:bob@contoso.com)」という形式でボイスメールアドレスを入力します。
     
-   - 別の電話番号に通話を転送するには、[**電話番号に転送**] をクリックして、[ **sip アドレス**] フィールドに電話番号を「sip: * \<\>番号*@ *\<のドメイン名\>* (たとえば、sip:+14255550121@contoso.com)。
+   - 別の電話番号に通話を転送するには、[**電話番号に転送**] をクリックし、[ **sip アドレス**] フィールドに電話番号を「sip: * \<\>番号*@ *\<の\>ドメイン名*」という形式で入力します (たとえば、sip:+14255550121@contoso.com)。
     
    - 通話を別のユーザーに転送するには、[ **sip アドレスに転送**] をクリックし、[ **sip アドレス**] フィールドにユーザーの URI を「sip _ \<:\>username_@ _\<domainname\>_」という形式で入力します。
     
@@ -108,13 +108,13 @@ Skype for Business Server Enterprise Voice で応答グループキューを作�
     
 3. キューのタイムアウトしきい値に達したときに再生されるプロンプトを作成し、変数に格納します。コマンド ラインで、次のコマンドを実行します。
     
-   ```
+   ```powershell
    $promptTO = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
    ```
 
    次に例を示します。
     
-   ```
+   ```console
    "All agents are currently busy. Please call back later."
    ```
 
@@ -123,7 +123,7 @@ Skype for Business Server Enterprise Voice で応答グループキューを作�
   
 4. キューのタイムアウトしきい値に達したときに実行されるアクションを定義し、変数に格納します。コマンド ラインで、次のコマンドを実行します。
     
-   ```
+   ```powershell
    $actionTO = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken>
    ```
 
@@ -132,19 +132,19 @@ Skype for Business Server Enterprise Voice で応答グループキューを作�
   
     次に例を示します。
     
-   ```
+   ```powershell
    $action = New-CsRgsCallAction -Prompt $promptTO -Action Terminate
    ```
 
 5. キューのオーバーフローしきい値に達したときに再生されるプロンプトを作成し、変数に格納します。コマンド ラインで、次のコマンドを実行します。
     
-   ```
+   ```powershell
    $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
    ```
 
    次に例を示します。
     
-   ```
+   ```powershell
    $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "Too many calls are waiting. Please call back later."
    ```
 
@@ -153,7 +153,7 @@ Skype for Business Server Enterprise Voice で応答グループキューを作�
   
 6. キューのオーバーフローしきい値に達したときに実行されるアクションを定義し、変数に格納します。コマンド ラインで、次のコマンドを実行します。
     
-   ```
+   ```powershell
    $actionOV = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken>
    ```
 
@@ -162,19 +162,19 @@ Skype for Business Server Enterprise Voice で応答グループキューを作�
   
     次に例を示します。
     
-   ```
+   ```powershell
    $action = New-CsRgsCallAction -Prompt $promptOV -Action Terminate
    ```
 
 7. 応答グループ サービスのサービス名を取得し、変数に割り当てます。コマンド ラインで、次のコマンドを実行します。
     
-   ```
+   ```powershell
    $serviceId="service:"+(Get-CSService | ?{$_.Applications -Like "*RGS*"}).ServiceId;
    ```
 
 8. キューに割り当てるエージェント グループの Identity を取得します。コマンド ラインで、次のコマンドを実行します。
     
-   ```
+   ```powershell
    $agid = (Get-CsRgsAgentGroup -Name "Help Desk").Identity;
    ```
 
@@ -183,19 +183,19 @@ Skype for Business Server Enterprise Voice で応答グループキューを作�
   
 9. キューを作成します。コマンド ラインで、次のコマンドを実行します。
     
-   ```
+   ```powershell
    $q = New-CsRgsQueue -Parent <saved service ID from previous step> -Name "<name of queue>" [-Description "<description for queue>"] [-TimeoutThreshold <# seconds before call times out>] [-TimeoutAction <saved timeout action>] [-OverflowThreshold <# calls queue can hold>] [-OverflowCandidate <call to be acted on when overflow threshold met>] [-OverflowAction <saved overflow action>] [-AgentGroupIDList(<agent group identity>)];
    ```
 
    例:
     
-   ```
+   ```powershell
    $q = New-CsRgsQueue -Parent $serviceId -Name "Help Desk" -Description "Contoso Help Desk" -TimeoutThreshold 300 -TimeoutAction $actionTO -OverflowThreshold 10 -OverflowCandidate NewestCall -OverflowAction $actionOV -AgentGroupIDList($agid.Identity;
    ```
 
 10. キューが作成されたことを確認します。次のコマンドレットを実行します。
     
-    ```
+    ```powershell
     Get-CsRgsQueue -Name "Help Desk"
     ```
 

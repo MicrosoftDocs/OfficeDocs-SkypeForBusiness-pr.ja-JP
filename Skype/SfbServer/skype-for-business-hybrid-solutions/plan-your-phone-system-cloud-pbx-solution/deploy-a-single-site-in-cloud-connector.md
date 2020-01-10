@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fa8aa499-1188-447e-bc30-89d1f5b198a7
 description: Cloud Connector エディションで単一の PSTN サイトを展開する方法について説明します。
-ms.openlocfilehash: 10d9e5f286b00af8791097707dc0345e100e55d5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a2cc8933276bc85b19ee79559ca4bcf9e88a079f
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287364"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001027"
 ---
 # <a name="deploy-a-single-site-in-cloud-connector"></a>Deploy a single site in Cloud Connector
  
@@ -31,7 +31,7 @@ Skype for Business Cloud Connector エディションは、高可用性 (HA) に
 
 サイトで最初のアプライアンスを展開するには、管理者として PowerShell コンソールを開き、次のコマンドレットを実行して、アプライアンスを登録します。
   
-```
+```powershell
 Register-CcAppliance
 ```
 
@@ -43,7 +43,7 @@ Register-CcAppliance
   
 インストールを開始するには、管理者として PowerShell コンソールを開き、次のコマンドレットを実行します。
   
-```
+```powershell
 Install-CcAppliance
 ```
 
@@ -55,24 +55,24 @@ Install-CcAppliance
     
 2. Office 365 テナント構成のトポロジ情報を更新するには、新たに追加したホスト サーバー上でのみ次のコマンドレットを実行します。複数のアプライアンスを同時に追加する場合は、新たに追加した各ホスト サーバー上で 1 つずつコマンドレットを実行します。
     
-   ```
+   ```powershell
    Register-CcAppliance
    ```
 
 3. 既存のアプライアンスのトポロジを更新するには、各ホスト サーバー上で次のコマンドレットを実行します。コマンドレットは、既存のアプライアンス上でのみ実行します。
     
-   ```
+   ```powershell
    Publish-CcAppliance
    ```
 
 4. 新たに追加したホスト サーバー上でのみ次のコマンドレットを実行します。 このコマンドレットを、既存のアプライアンス上で実行しないでください。 複数のアプライアンスを同時に追加する場合は、新たに追加した各ホスト サーバー上で 1 つずつコマンドレットを実行します。
     
-   ```
+   ```powershell
    Install-CcAppliance
    ```
 
 > [!NOTE]
-> サイト ディレクトリがローカル フォルダー パスに設定されていた場合は、このフォルダーのファイル共有を定義し、新しいアプライアンスのサイト ディレクトリに UNC パスを使用する必要があります。 最初のアプライアンス サイト ディレクトリをローカル パスのままにするか、共有の UNC パスを使用するようにそのパスを変更することができます。 共有サイト ディレクトリの場所を変更する場合は、以前にインストールしたすべてのアプライアンスをアンインストールしてから、再びインストールする必要があります。 > 重要: CceService アカウントと CABackupFile アカウントの両方のパスワードは、サイト内に展開されているすべてのアプライアンスで同じである必要があります。そのため、サイトディレクトリ共有と、サイトディレクトリ内の暗号化された CA バックアップファイルにそれらのアプライアンスがアクセスできるようにする必要があります。 
+> サイト ディレクトリがローカル フォルダー パスに設定されていた場合は、このフォルダーのファイル共有を定義し、新しいアプライアンスのサイト ディレクトリに UNC パスを使用する必要があります。 最初のアプライアンス サイト ディレクトリをローカル パスのままにするか、共有の UNC パスを使用するようにそのパスを変更することができます。 共有サイト ディレクトリの場所を変更する場合は、以前にインストールしたすべてのアプライアンスをアンインストールしてから、再びインストールする必要があります。 > 重要: CceService account と CABackupFile アカウントの両方のパスワードは、サイト内に展開されているすべてのアプライアンスで同じである必要があります。そのため、サイトディレクトリの共有とサイトディレクトリ内の暗号化された CA バックアップファイルにアプライアンスがアクセスできるようになります。 
   
 ## <a name="remove-an-appliance-from-an-existing-site"></a>既存のサイトからアプライアンスを削除する
 
@@ -80,13 +80,13 @@ Install-CcAppliance
   
 1. Office 365 テナント構成でトポロジ情報を更新するサイトから削除するホスト サーバー上でのみ、次のコマンドレットを実行します。
     
-   ```
+   ```powershell
    Unregister-CcAppliance
    ```
 
 2. アプライアンスのすべての仮想マシンを削除するホスト サーバー上でのみ、次のコマンドレットを実行します。
     
-   ```
+   ```powershell
    Uninstall-CcAppliance
    ```
 

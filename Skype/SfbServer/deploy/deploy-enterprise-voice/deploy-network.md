@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: Skype for Business Server のネットワーク領域、ネットワークサイト、ネットワークサブネットの関連付けを作成または変更します。 これらはすべて、高度なエンタープライズ Voip 機能 (メディアバイパス、通話受付制御、位置ベースのルーティング) に使用されます。
-ms.openlocfilehash: 237720373c78bcb4a3cb3ad0aed376f2dc136a71
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 90410338d13ae8109e4a090bade739add32846b6
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245411"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001937"
 ---
 # <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>Skype for Business でネットワークのリージョン、サイト、サブネットを展開する
 
@@ -45,13 +45,13 @@ Skype for Business Server のネットワーク領域、ネットワークサイ
 
 2. New-CsNetworkRegion コマンドレットを実行してネットワーク地域を作成します。
 
-   ```
+   ```powershell
    New-CsNetworkRegion -Identity <String> -CentralSite <String>
    ```
 
     次に例を示します。
 
-   ```
+   ```powershell
    New-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "All North America Locations"
    ```
 
@@ -85,13 +85,13 @@ Skype for Business Server のネットワーク領域、ネットワークサイ
 
 2. Set-CsNetworkRegion コマンドレットを実行して、既存のネットワーク地域を変更します。
 
-   ```
+   ```powershell
    Set-CsNetworkRegion -Identity <String> -CentralSite <String>
    ```
 
     次に例を示します。
 
-   ```
+   ```powershell
    Set-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "North American Region"
    ```
 
@@ -127,13 +127,13 @@ Skype for Business Server のネットワーク領域、ネットワークサイ
 
 2. New-CsNetworkSite コマンドレットを実行して、ネットワーク サイトを作成します。
 
-   ```
+   ```powershell
    New-CsNetworkSite -NetworkSiteID <string>
    ```
 
     次に例を示します。
 
-   ```
+   ```powershell
    New-CsNetworkSite -NetworkSiteID Chicago -Description "Corporate headquarters"-NetworkRegionID NorthAmerica
    ```
 
@@ -180,13 +180,13 @@ Skype for Business Server のネットワーク領域、ネットワークサイ
 
 2. Set-CsNetworkSite コマンドレットを実行して、ネットワーク サイトを変更します。
 
-   ```
+   ```powershell
    Set-CsNetworkSite -Identity <string>
    ```
 
     例:
 
-   ```
+   ```powershell
    Set-CsNetworkSite -Identity Albuquerque -NetworkRegionID NorthAmerica
    ```
 
@@ -228,13 +228,13 @@ Skype for Business Server のネットワーク領域、ネットワークサイ
 
 2. **New-CsNetworkSubnet** コマンドレットを実行して、サブネットをネットワーク サイトに関連付けます。
 
-   ```
+   ```powershell
    New-CsNetworkSubnet -SubnetID <String> -MaskBits <Int32> -NetworkSiteID <String>
    ```
 
     次に例を示します。
 
-   ```
+   ```powershell
    New-CsNetworkSubnet -SubnetID 172.11.12.13 - MaskBits 20 -NetworkSiteID Chicago
    ```
 
@@ -260,7 +260,7 @@ Skype for Business Server のネットワーク領域、ネットワークサイ
 
 3. 次のコマンドレットを実行して、**サブネット .csv**をインポートし、その内容を Lync Server 管理ストアに保存します。
 
-   ```
+   ```powershell
    import-csv subnet.csv | foreach {New-CsNetworkSubnet -Identity $_.IPAddress -MaskBits $_.mask -Description $_.description -NetworkSiteID $_.NetworkSiteID}
    ```
 

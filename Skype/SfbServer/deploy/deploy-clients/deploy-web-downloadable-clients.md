@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: '概要: skype for Business Web App および skype for Business で使用される Skype 会議アプリを展開します。'
-ms.openlocfilehash: 273ffca9ae91973fe9e3953efc914364de382ed4
-ms.sourcegitcommit: 8a20cb7bd1d23e2cf2987f55039748bad60f501b
+ms.openlocfilehash: eb939ddf394ff62b9173939622a8ef3f20faaca9
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2019
-ms.locfileid: "36972878"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003527"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>Skype for Business Server で Web ダウンロード可能なクライアントを展開する
 
@@ -52,19 +52,19 @@ Skype for Business Web App、Skype 会議アプリ、Skype for Business for Mac 
 
 3. Windows PowerShell コマンドラインインターフェイスで、次のコマンドを実行します。
 
-    ```
+    ```powershell
     add-pssnapin Microsoft.Adfs.powershell
     ```
 
 4. 次のコマンドを実行し、パートナーシップを確立します。
 
-    ```
+    ```powershell
     Add-ADFSRelyingPartyTrust -Name ContosoApp -MetadataURL https://lyncpool.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
     ```
 
 5. 以下の証明書利用者のルールを設定します。
 
-    ```
+    ```powershell
    $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.contoso.com/authorization/claims/permit", Value = "true");'$IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.contoso.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
    Set-ADFSRelyingPartyTrust -TargetName ContosoApp -IssuanceAuthorizationRules $IssuanceAuthorizationRules -IssuanceTransformRules $IssuanceTransformRules
    Set-CsWebServiceConfiguration -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
@@ -123,13 +123,13 @@ Windows Server 2008 R2 を実行しているコンピューターでプラグイ
 
 1. コンテンツ配信ネットワーク (CDN) へのアクセスを有効にすると、ユーザーは CDN online に接続して、Skype 会議アプリ (Windows 上) と Skype for Business for Mac (Mac) を入手して、簡単な会議の参加エクスペリエンスを利用することができます。
 
-   ```
+   ```powershell
    Set-CsWebServiceConfiguration -MeetingUxUseCdn $True
    ```
 
 2. 会議参加 web ページまたは Skype 会議アプリからのクライアント側のログ利用統計情報を、Microsoft サーバーに送信することを許可します (コマンドは既定で false になります)。
 
-   ```
+   ```powershell
    Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
    ```
 
@@ -137,7 +137,7 @@ Windows Server 2008 R2 を実行しているコンピューターでプラグイ
 
 3. CDN が利用できない場合は、ローカルでホストされている Skype for Business Web App のエクスペリエンスに戻す前に、タイムアウトを設定します。 既定値は 6 秒です。 この値を 0 に設定すると、タイムアウトはなくなります。
 
-   ```
+   ```powershell
    Set-CsWebServiceConfiguration -JoinLauncherCdnTimeout (New-TimeSpan -Seconds 10)
    ```
 

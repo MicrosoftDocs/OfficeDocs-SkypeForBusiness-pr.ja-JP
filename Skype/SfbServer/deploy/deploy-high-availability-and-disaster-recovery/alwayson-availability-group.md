@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c93c01e6-626c-40ad-92dd-373b0fe9189f
 description: Skype for Business Server の展開で Always On 可用性グループを展開 (インストール) します。
-ms.openlocfilehash: 2cfc75aecd53a82e146feefd944134a4695c21fe
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: eadf3c67f5d2618d7070c2a3540c2a9ad08b5942
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240128"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002917"
 ---
 # <a name="deploy-an-always-on-availability-group-on-a-back-end-server-in-skype-for-business-server"></a>Skype for Business Server のバックエンドサーバーに Always On 可用性グループを展開する
  
@@ -138,7 +138,7 @@ AG を展開する方法は、新しいプール、ミラーリングを使用�
     
    - Skype for Business Server 管理シェルを開き、次のコマンドレットを入力してこの複製物の SQL ログインを作成します。
     
-   ```
+   ```powershell
    Install-CsDatabase -Update
    ```
 
@@ -152,13 +152,13 @@ AG を展開する方法は、新しいプール、ミラーリングを使用�
   
 1. Skype for Business Server 管理シェルを開き、次のコマンドレットを入力して、ミラーからプリンシパルノードにすべてのデータをフェールオーバーします。
     
-   ```
+   ```powershell
    Invoke-CsDatabaseFailover -PoolFqdn <Pool FQDN> -DatabaseType <DatabaseType> -NewPrincipal "Primary"
    ```
 
     プール内の各データベースの種類に対してこのコマンドレットを繰り返します。次のコマンドレットを使用すると、このプールに格納されているすべてのデータベースの種類を見つけることができます。
      
-   ```
+   ```powershell
    Get-CsPool -Identity <Pool FQDN>
    ```
 
@@ -296,7 +296,7 @@ AG を展開する方法は、新しいプール、ミラーリングを使用�
     
     - Skype for Business Server 管理シェルを開き、次のコマンドレットを入力してこの複製物の SQL ログインを作成します。
     
-    ```
+    ```powershell
     Install-CsDatabase -Update
     ```
 
@@ -428,7 +428,7 @@ AG を展開する方法は、新しいプール、ミラーリングを使用�
     
     - Skype for Business Server 管理シェルを開き、次のコマンドレットを入力してこの複製物の SQL ログインを作成します。
     
-      ```
+      ```powershell
       Install-CsDatabase -Update
       ```
 

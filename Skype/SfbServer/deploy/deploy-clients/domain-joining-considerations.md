@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 description: このトピックでは、Skype Room System アプライアンス PC をドメインに参加させる方法について説明します。
-ms.openlocfilehash: 1cf95f416fabcdeabb878b204af25e262427ab07
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: b34161f946b2c79508555145635445214159bd61
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774665"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003517"
 ---
 # <a name="skype-room-system-domain-joining-considerations"></a>Skype Room System のドメイン参加に関する考慮事項
  
@@ -53,7 +53,7 @@ Skype Room System アプライアンス PC には、Active Directory ドメイ�
     
 Skype Room システムマシンをドメインに参加させることを計画している場合、Skype Room System machine を意図しない OU に参加させないようにしてください。これは、Gpo から無料ではない可能性がありますので、正しい OU に参加してください。 Skype Room System コンピューターの次のコマンドレットを使用して、適切な OU に参加し、LRS 機能をブロックしている可能性のある Gpo を受信することはできません。 これらのコマンドレットを実行するには、システム管理者か OEM パートナーに連絡してください。
   
-```
+```powershell
 $username = "contso.local\LRS01"
 $password = ConvertTo-SecureString "password123" -AsPlainText -Force
 $myCred = New-Object System.Management.Automation.PSCredential $username, $password

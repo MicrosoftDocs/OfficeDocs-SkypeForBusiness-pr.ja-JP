@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4eecb5f7-3ef7-4582-a6cb-9f4aa068338d
 description: '概要: Skype for Business クライアントでスマート連絡先リスト機能を有効にする方法について説明します。'
-ms.openlocfilehash: 17981e13c239241f050704b7c98593f95a29ab27
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4c867232fd07131666033dc48ff9930dcdf6dccb
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234238"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002687"
 ---
 # <a name="configure-smart-contacts-list-in-skype-for-business-clients"></a>Skype for Business クライアントでスマート連絡先リストを構成する
 
@@ -53,19 +53,19 @@ ms.locfileid: "36234238"
 
 スマート連絡先リスト機能を有効にするポリシーエントリを作成するには、次のように EnableClientAutoPopulateWithTeam オプションを使用して、[新しい-CsClientPolicyEntry](https://docs.microsoft.com/powershell/module/skype/new-csclientpolicyentry?view=skype-ps)コマンドレットを使用します。
 
-```
+```powershell
 $x=New-CsClientPolicyEntry -Name EnableClientAutoPopulateWithTeam -Value $True
 ```
 
 次に、次の[手順でグローバル](https://docs.microsoft.com/powershell/module/skype/set-csclientpolicy?view=skype-ps)ポリシーへの変更を書き込みます。
 
-```
+```powershell
 Set-CsClientPolicy -Identity Global -PolicyEntry @{Add=$x}
 ```
 
 必要に応じて、次のように自動タグ付けをオフにするポリシーを作成できます。
 
-```
+```powershell
 $x=New-CsClientPolicyEntry -Name TagContactsInClientAutoPopulatedGroup -Value $False
 Set-CsClientPolicy -Identity Global -PolicyEntry @{Add=$x}
 ```

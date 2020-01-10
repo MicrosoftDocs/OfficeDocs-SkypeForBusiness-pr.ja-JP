@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26647cb6-ba84-4ba7-8b6f-2cf86818e530
 description: '概要: Skype for Business クライアントで Office カスタマイズツールを使用する方法について説明します。'
-ms.openlocfilehash: e7eb331c1b63a9e6a94ae3920e65ef57f426fbb0
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: b5c66fee4f6c879c8ded2897b64e63654dd950be
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234601"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001597"
 ---
 # <a name="use-the-office-customization-tool-oct-in-skype-for-business-server"></a>Skype for Business Server で Office カスタマイズツール (OCT) を使用する
  
@@ -25,13 +25,13 @@ Office カスタマイズ ツール (OCT) はセットアップ プログラム�
   
 OCT はセットアップの一部であり、ボリュームライセンス版の製品でのみ使用されます。 Office のソースファイルが含ま`setup.exe /admin`れているネットワークインストールポイントのルートからコマンドラインを入力して、OCT を実行します。 たとえば、次のようなコマンドを使用します。
   
- ```
+ ```console
 \\server\share\Office15\setup.exe /admin
 ```
   
 管理者は、OCT を使用して、セットアップカスタマイズの .msp ファイルを作成し、次の領域をカスタマイズすることができます。
   
-- **セットアップ**クライアントと既定の組織名、追加のネットワークインストールソース、プロダクトキー、エンドユーザーライセンス契約、表示レベル、以前のバージョンの Office を削除するための既定のインストール場所を指定するために使用されます。インストール、セキュリティ設定、セットアッププロパティ。
+- **セットアップ**クライアントと既定の組織名、追加のネットワークインストールソース、プロダクトキー、エンドユーザーライセンス契約、表示レベル、以前のバージョンの Office を削除するためのカスタムプログラム、インストール時、セキュリティ設定、セットアップのプロパティなど、既定のインストール場所を指定するために使用されます。
     
 - **機能**ユーザー設定を構成し、Office 機能のインストール方法をカスタマイズするために使用されます。 管理者は、OCT を使用して、ユーザーの Office アプリケーション設定の初期既定値を指定することができます。 ユーザーはインストール後にほとんどの設定を変更できます。
     

@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 053076b0-441c-44d9-8dbc-7a36d8ecafe4
 description: '概要: Skype for Business Server のインストールの一部として Windows Server ファイル共有を作成する方法について説明します。 Skype for Business Server の無料トライアルは、次https://www.microsoft.com/evalcenter/evaluate-skype-for-business-serverの Microsoft 評価センターからダウンロードしてください。'
-ms.openlocfilehash: 3f539d980d2978ee3be5e8249f869aa234493f32
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 47713c0283c5908605abec31913e104963aea2b0
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235243"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001017"
 ---
 # <a name="create-a-file-share-in-skype-for-business-server"></a>Skype for Business Server でファイル共有を作成する
  
@@ -68,6 +68,7 @@ Skype for Business Server を使用するには、トポロジ内のコンピュ
 
 >これは、ファイルサーバーの管理者ではないか、または分散ファイルシステム (DFS) 共有である場合に発生します。 共有のアクセス許可が既に構成されている場合は、この警告を無視できます。 新しい共有の場合は、共有のアクセス許可を手動で構成する方法に関するドキュメントを参照してください。
 
->DFS 共有の共有アクセス許可にアクセスできないため、Skype for Business Server では、ファイル共有に対して明示的にグループを設定することはできません。 Skype for Business Server コンポーネントが適切な権限を持つファイル共有にアクセスできるようにするには、フルコントロールの共有アクセス許可を持つローカル管理者に加えて、次の RTC グループが追加されていることを確認します。
-
-RTCHSUniversalServices RTCComponentUniversalServices RTCUniversalServerAdmins
+>DFS 共有の共有アクセス許可にアクセスできないため、Skype for Business Server では、ファイル共有に対して明示的にグループを設定することはできません。 Skype for Business Server コンポーネントが適切な権限を持つファイル共有にアクセスできるようにするには、フルコントロール共有を使用して、ローカル管理者に加えて、読み取りおよび変更レベルの共有のアクセス許可を使用して、次の RTC グループを追加する必要があります。権限.
+* RTCHSUniversalServices
+* RTCComponentUniversalServices
+* RTCUniversalServerAdmins

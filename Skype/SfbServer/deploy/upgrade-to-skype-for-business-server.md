@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 74ce73bc-356b-4705-83b1-341ee010fd19
 description: '概要: Lync Server 2013 から Skype for Business Server 2015 にアップグレードする方法について説明します。 Skype for Business Server 2015 の無料トライアルは、次https://www.microsoft.com/evalcenter/evaluate-skype-for-business-serverの Microsoft 評価センターからダウンロードしてください。'
-ms.openlocfilehash: c34cbc7ce1d755f093ac14bc85d78106216c450b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d9ce950ead8b8a3a8857c53d421470a0e647ea23
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237449"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001877"
 ---
 # <a name="upgrade-to-skype-for-business-server-2015"></a>Upgrade to Skype for Business Server 2015
  
@@ -49,7 +49,7 @@ Lync Server 2013 を Skype for Business Server 2015 にアップグレードす�
 
 1. Lync OCSCore またはその他の Lync コンポーネントがインストールされていないトポロジのコンピューターに接続します。
     
-2. Skype for Business Server 2015 インストールメディアから、 **OCS_Volume\Setup\AMD64**から setup.exe を実行します。 **** 
+2. Skype for Business Server 2015 インストールメディアから、 **OCS_Volume \setup\amd64**から**setup.exe**を実行します。 
     
 3. [**インストール**] をクリックします。 
     
@@ -171,7 +171,7 @@ Lync Server 2013 を Skype for Business Server 2015 にアップグレードす�
 
 アップグレードするプールをサービスしている各サーバーで、PowerShell で次のコマンドレットを実行します。
   
-```
+```powershell
 Disable-CsComputer -Scorch
 ```
 
@@ -180,11 +180,11 @@ Disable-CsComputer -Scorch
 ### <a name="step-5-upgrade-front-end-pools-and-non-front-end-pool-servers"></a>手順 5: フロントエンド プールと非フロントエンド プール サーバーをアップグレードする
 
 > [!NOTE]
->  アップグレード前に、Skype for Business Server 2015 に必要なすべての新しい前提条件をインストールしてください。アップグレードを試みる前に、32 GB 以上の空き領域を > してください。 さらに、ドライブが固定ローカルドライブであり、USB または Firewire で接続されていないこと、NTFS ファイルシステムで書式設定されていること、および6.2.9200.0 の > ファイルが圧縮されていないことを確認します。最新の Lync Server 2013 を >累積的な更新プログラムがインストールされています。 > SQL Server 2012 SP1 がインストールされています。 > のインストール (Microsoft Update を使用している場合に自動的にインストールされる): > Windows Server 2008 R2-[KB2533623](https://support.microsoft.com/kb/2533623)> windows server 2012-[KB2858668](https://support.microsoft.com/kb/2858668)> windowsサーバー 2012 R2-[KB2982006](https://support.microsoft.com/kb/2982006)
+>  アップグレード前に、Skype for Business Server 2015 に必要なすべての新しい前提条件をインストールしてください。アップグレードを試みる前に、32 GB 以上の空き領域を > してください。 また、ドライブが固定ローカルドライブであり、USB または Firewire で接続されていないことを確認してください。は、NTFS ファイルシステムで書式設定されていますが、圧縮されておらず、ページファイルも含まれていません。最新の Lync Server 2013 の累積的 > な更新プログラムがインストールされていることを > します。 > windows server 2008 r2-KB2533623> Windows server[](https://support.microsoft.com/kb/2533623) r2-KB2858668> Windows server[>](https://support.microsoft.com/kb/2858668) 2012 > 2012 r2-2012[KB2982006](https://support.microsoft.com/kb/2982006)
   
 各サーバーでインプレースアップグレードを使用して、フロントエンドプール、エッジプール、仲介サーバー、常設チャットプールを更新します。
   
-1. 各サーバーで、Skype **** For business server 2015 インストールメディアの**OCS_Volume\Setup\amd64**から setup.exe を実行します。
+1. 各サーバーで、Skype for Business Server 2015 インストールメディアの**OCS_Volume \setup\amd64**から**setup.exe**を実行します。
     
 2. 使用許諾契約に同意し、インプレースアップグレードのプロンプトに従います。
     
@@ -204,7 +204,7 @@ Disable-CsComputer -Scorch
   
 - フロントエンドプール内のすべてのサーバーのアップグレードが完了したら、次の PowerShell コマンドを使用してサービスを再起動します。 
     
-  ```
+  ```powershell
   Start-CsPool
   ```
 
@@ -213,7 +213,7 @@ Disable-CsComputer -Scorch
   
 - 非フロントエンド プール サーバーでは、以下のコマンドを実行してサービスを再開します。
     
-  ```
+  ```powershell
   Start-CsWindowsService
   ```
 
@@ -237,7 +237,7 @@ Disable-CsComputer -Scorch
   
 ページの下部にあるすべてのメッセージを確認して、問題のトラブルシューティングに役立てます。 詳細情報を表示するには、[**ログの表示**] をクリックします。
   
-**アップグレードの準備状況の確認**でインプレースアップグレードが失敗した場合、または**前提条件をインストール**していない場合は、サーバーに最新の Windows server、Lync server、SQL server の更新プログラムがすべて適用されていることを確認してください。また、必要なすべてのソフトウェアとロールがインストール. 必要なものの一覧については、「Skype for business [server 2015 のサーバー要件](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)」および「 [Skype for business server 2015 の前提条件をインストール](install/install-prerequisites.md)する」を参照してください。
+**アップグレードの準備状況の確認**でインプレースアップグレードが失敗した場合、または必要な**前提条件をインストール**していない場合は、サーバーに最新の Windows server、Lync server、SQL server の更新プログラムがすべてインストールされていることを確認してください。また、必要なソフトウェアとロールがすべてインストールされている必要があります 必要なものの一覧については、「Skype for business [server 2015 のサーバー要件](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)」および「 [Skype for business server 2015 の前提条件をインストール](install/install-prerequisites.md)する」を参照してください。
   
 ## <a name="see-also"></a>関連項目
 

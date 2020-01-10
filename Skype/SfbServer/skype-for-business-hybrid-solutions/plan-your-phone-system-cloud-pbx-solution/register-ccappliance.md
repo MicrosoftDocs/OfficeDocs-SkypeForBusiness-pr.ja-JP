@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 01eed3c5-af68-4db7-90b3-d28ebe7ffef1
 description: Register-CcAppliance コマンドレットは、アプライアンス情報をオンライン テナント構成の PSTN サイトに登録します。 アプライアンスを Skype for Business Cloud Connector エディションの管理サービスで展開および管理する前に、アプライアンスの登録が必要です。
-ms.openlocfilehash: 9e15d7b8227bf9ee657d197041056703505ca7c8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 93f1fe59a199214615c5ecdf8445f6c363ce6bbe
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287126"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003307"
 ---
 # <a name="register-ccappliance"></a>Register-CcAppliance
  
 Register-CcAppliance コマンドレットは、アプライアンス情報をオンライン テナント構成の PSTN サイトに登録します。 アプライアンスを Skype for Business Cloud Connector エディションの管理サービスで展開および管理する前に、アプライアンスの登録が必要です。
   
-```
+```powershell
 Register-CcAppliance [[-SiteName] <string>] [[-ApplianceName] <string>] [-Local]
 ```
 
@@ -33,7 +33,7 @@ Register-CcAppliance [[-SiteName] <string>] [[-ApplianceName] <string>] [-Local]
 
 次の例では、現在のアプライアンス情報をオンライン テナント構成に登録します。
   
-```
+```powershell
 Register-CcAppliance
 ```
 
@@ -41,7 +41,7 @@ Register-CcAppliance
 
 次の例では、オンライン テナント構成に接続せずにローカルで登録の構成をチェックします。
   
-```
+```powershell
 Register-CcAppliance -Local
 ```
 
@@ -49,7 +49,7 @@ Register-CcAppliance -Local
 
 次の例では、「Appliance1」という名前を持つ現在のアプライアンスを「Site1」という PSTN サイトに登録します。
   
-```
+```powershell
 Register-CcAppliance -SiteName Site1 -ApplianceName Appliance1
 ```
 
@@ -85,7 +85,7 @@ CloudConnector.ini ファイルで仲介サーバーの FQDN と組み合わさ�
 ## <a name="parameters"></a>パラメーター
 <a name="DetailedDescription"> </a>
 
-|**パラメーター**|**必須**|**型**|**説明**|
+|**パラメーター**|**必須**|**種類**|**説明**|
 |:-----|:-----|:-----|:-----|
 |SiteName  <br/> |省略可能  <br/> |System.String  <br/> |アプライアンスが登録される PSTN サイトの名前。既定の値は CloudConnector.ini ファイル内の SiteName 値です。  <br/> |
 |ApplianceName  <br/> |省略可能  <br/> |System.String  <br/> |現在のアプライアンスの名前。既定の値はホスト サーバーのコンピューター名です。  <br/> |

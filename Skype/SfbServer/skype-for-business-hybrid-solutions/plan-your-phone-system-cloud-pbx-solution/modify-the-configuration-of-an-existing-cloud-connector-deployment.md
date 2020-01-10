@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: このトピックの手順に従って、既存の Skype for Business Cloud Connector エディション1.4.1 以降の展開の構成を変更します。
-ms.openlocfilehash: 7e46d614a5aaf3c34d9401e2ec53ba72e8adba71
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ead952c0ba567a8e5d81c52144de597e50d24014
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287049"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002287"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>Modify the configuration of an existing Cloud Connector deployment
  
@@ -32,13 +32,13 @@ ms.locfileid: "34287049"
   
 1. 次のコマンドレットを実行して、ホスト サーバー上にあるすべての既存の仮想マシンをアンインストールします。 
     
-   ```
+   ```powershell
    Uninstall-CcAppliance
    ```
 
 2. アプライアンスを登録解除するには、次のコマンドレットを実行します。
     
-   ```
+   ```powershell
    Unregister-CcAppliance
    ```
 
@@ -46,19 +46,19 @@ ms.locfileid: "34287049"
     
 4. 次のコマンドレットを実行して構成を更新します: (この手順はバージョン2にのみ適用されます。以前のバージョンでは、次の手順に進みます)。
     
-   ```
+   ```powershell
    Import-CcConfiguration 
    ```
 
 5. アプライアンスをもう一度登録するには、次のコマンドレットを実行します。
     
-   ```
+   ```powershell
    Register-CcAppliance
    ```
 
 6. Skype for Business Cloud Connector エディションをインストールするには、次のコマンドレットを実行します。
     
-   ```
+   ```powershell
    Install-CcAppliance
    ```
 
@@ -66,13 +66,13 @@ ms.locfileid: "34287049"
   
 1. 現在のアプライアンス上にある既存の仮想マシンをすべてアンインストールするには、次のコマンドレットを実行します。  
     
-   ```
+   ```powershell
    Uninstall-CcAppliance
    ```
 
 2. アプライアンスを登録解除するには、次のコマンドレットを実行します。
     
-   ```
+   ```powershell
    Unregister-CcAppliance
    ```
 
@@ -80,25 +80,25 @@ ms.locfileid: "34287049"
     
 4. 次のコマンドレットを実行して構成を更新します: (この手順はバージョン2にのみ適用されます。以前のバージョンでは、次の手順に進みます)。
     
-   ```
+   ```powershell
    Import-CcConfiguration 
    ```
 
 5. アプライアンスをもう一度登録するには、次のコマンドレットを実行します。
     
-   ```
+   ```powershell
    Register-CcAppliance
    ```
 
 6. 最新の構成を取得するには、サイトにあるその他すべてのアプライアンスで次のコマンドレットを実行します。
     
-   ```
+   ```powershell
    Publish-CcAppliance
    ```
 
 7. 次のコマンドレットを実行して、現在のアプライアンスのクラウドコネクタを再展開します。
     
-   ```
+   ```powershell
    Install-CcAppliance
    ```
 
@@ -116,7 +116,7 @@ ms.locfileid: "34287049"
   
 1. サイトの EnableAutoUpdate プロパティは、true (既定値) に設定されている必要があります。 EnableAutoUpdate が True に設定されていることを確認するには、次のコマンドレットを実行します。
     
-   ```
+   ```powershell
    Get-CsHybridPSTNSite -Identity <SiteName>
    ```
 
@@ -132,19 +132,19 @@ ms.locfileid: "34287049"
     
    - 各テナントに定義できる時間枠は 20 件です。新しいテナントには、オペレーティング システムの更新と BITS の更新用の既定の時間枠が作成されます。日単位、週単位、月単位の時間枠を設定するには、次のコマンドレットを実行します。
     
-   ```
+   ```powershell
    New-CsTenantUpdateTimeWindow -Identity Night -Daily -StartTime 22:00 -Duration 6:00
    ```
 
-   ```
+   ```powershell
    New-CsTenantUpdateTimeWindow -Identity WeekdayNight -Weekly -DaysOfWeek Monday,Tuesday,Wednesday,Thursday,Friday -StartTime 22:00 -Duration 4:00
    ```
 
-   ```
+   ```powershell
    New-CsTenantUpdateTimeWindow -Identity FirstAndLastWeekend -Monthly -WeeksOfMonth First,Last -DaysOfWeek Sunday,Saturday -StartTime 0:00 -Duration 10:00
    ```
 
-   ```
+   ```powershell
    New-CsTenantUpdateTimeWindow -Identity MidDayOfMonth -Monthly -DayOfMonth 15 -StartTime 0:00 -Duration 1.00:00
    ```
 
@@ -152,7 +152,7 @@ ms.locfileid: "34287049"
     
      BITS の更新時間枠と OS の更新時間枠は、個別に構成します。 どちらにも、1 つまたは複数の時間枠を割り当てることができます。 各時間枠は、異なるサイトや異なる用途 (BITS の更新と OS の更新) に割り当てることができます。 次のコマンドレットを実行して時間枠をサイトに設定します。  
     
-   ```
+   ```powershell
    Set-CsHybridPSTNSite -Identity <SiteName> -BitsUpdateTimeWindow @{add="MidDayOfMonth","WeekdayNight"} -OsUpdateTimeWindow @{replace="Night"}
    ```
 
@@ -163,7 +163,7 @@ ms.locfileid: "34287049"
   
 Office 365 で管理者アカウントの資格情報を変更した場合は、展開した各クラウドコネクタのアプライアンスで次の管理者 PowerShell コマンドを実行して、クラウドコネクタのローカルにキャッシュされた資格情報を更新する必要があります。
   
-```
+```powershell
 Set-CcCredential -AccountType TenantAdmin
 ```
 
@@ -227,7 +227,7 @@ Set-CcCredential -AccountType TenantAdmin
   
 1. 後で使用するアカウント名とパスワードを取得するには、次のコマンドを実行します。
     
-   ```
+   ```powershell
    Get-CcCredential -AccountType TenantAdmin -DisplayPassword
    Get-CcCredential -AccountType TenantAdmin
    Get-CcCredential -AccountType OMSWorkspace -DisplayPassword
@@ -288,7 +288,7 @@ Set-CcCredential -AccountType TenantAdmin
     
 4. 新しい Microsoft Edge 外部証明書のパスを次のように設定します。
     
-   ```
+   ```powershell
    Set-CcExternalCertificateFilePath -Path <Full path to External certificate>
    ```
 
@@ -309,7 +309,7 @@ Set-CcCredential -AccountType TenantAdmin
     
 4. 新しい Microsoft Edge 外部証明書のパスを次のように設定します。
     
-   ```
+   ```powershell
    Set-CcExternalCertificateFilePath -Path <Full path to External certificate>
    ```
 
@@ -317,7 +317,7 @@ Set-CcCredential -AccountType TenantAdmin
     
     クラウドコネクタの管理者 PowerShell で次のコマンドレットを実行して、サイト内の各アプライアンスのテナント登録を削除します。
     
-   ```
+   ```powershell
    Unregister-CcAppliance
    ```
 
@@ -325,7 +325,7 @@ Set-CcCredential -AccountType TenantAdmin
     
     Skype for Business Online の PowerShell で次のコマンドを実行して、各サイトのサイト登録を削除します。
     
-   ```
+   ```powershell
    Remove-CsHybridPSTNSite
    ```
 
@@ -333,7 +333,7 @@ Set-CcCredential -AccountType TenantAdmin
     
     Cloud Connector 上の管理者 PowerShell で次のコマンドレットを実行して、各アプライアンスをアンインストールします。
     
-   ```
+   ```powershell
    Uninstall-CcAppliance
    ```
 
@@ -341,7 +341,7 @@ Set-CcCredential -AccountType TenantAdmin
     
      各アプライアンスを登録するには、Cloud Connector の管理者 PowerShell で次のコマンドレットを実行します。
     
-   ```
+   ```powershell
    Register-ccAppliance
    ```
 
@@ -349,7 +349,7 @@ Set-CcCredential -AccountType TenantAdmin
     
      各アプライアンスを1つずつインストールします。そのためには、Cloud Connector 上の管理者 PowerShell で次のコマンドレットを実行します。
     
-   ```
+   ```powershell
    Install-CcAppliance
    ```
 
@@ -362,7 +362,7 @@ Set-CcCredential -AccountType TenantAdmin
     
 2. 次のコマンドを実行します。 
     
-   ```
+   ```powershell
    Set-CcExternalCertificateFilePath -Target EdgeServer -Path <Full file path of new certificate including filename> -Import
    ```
 

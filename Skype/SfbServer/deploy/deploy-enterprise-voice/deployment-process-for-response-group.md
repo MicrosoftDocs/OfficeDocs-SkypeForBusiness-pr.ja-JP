@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d390c8a1-dc6e-44d8-b386-2be1fca9877c
 description: Skype for Business Server Enterprise Voice の展開プロセスと応答グループの手順。
-ms.openlocfilehash: 12497d143f9ff5c7630f81db8f416e2f7c74d574
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e15acb5f4750ce1d82cd5f785a9ea38e73b2af30
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233300"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001187"
 ---
 # <a name="deployment-process-for-response-group-in-skype-for-business"></a>Skype for Business の応答グループの展開プロセス
 
@@ -85,7 +85,7 @@ Web.config ファイルを変更するには、以下の手順を実行します
 
 3. `<system.web>`セクションのに次`<machineKey>`のセクションを追加します。
 
-   ```
+   ```xml
    <machineKey validationKey="AutoGenerate,IsolateApps" decryptionKey="AutoGenerate,IsolateApps" validation="3DES" decryption="3DES"/>
    ```
 
@@ -93,7 +93,7 @@ Web.config ファイルを変更するには、以下の手順を実行します
 
 5. コマンドプロンプトで次のコマンドを実行して、インターネットインフォメーションサービス (IIS) サービスを再起動します。
 
-   ```
+   ```console
    iisreset
    ```
 

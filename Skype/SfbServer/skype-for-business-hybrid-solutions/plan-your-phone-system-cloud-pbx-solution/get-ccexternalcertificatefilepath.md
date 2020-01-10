@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 62fdc9cc-e82e-463f-b8b3-05d5c6482ea2
 description: Get-CcExternalCertificateFilePath コマンドレットは、Skype for Business Cloud Connector エディションの展開用に外部証明書ファイルのパスを返します。 この証明書はユーザーが準備します。
-ms.openlocfilehash: ed725814380741aade73166d01025650dfa78538
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7a471b0e4258728bfaa50558aab54955346b457c
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287322"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003377"
 ---
 # <a name="get-ccexternalcertificatefilepath"></a>Get-CcExternalCertificateFilePath
  
@@ -24,7 +24,7 @@ Get-CcExternalCertificateFilePath コマンドレットは、Skype for Business 
   
 このコマンドレットは、Skype for Business Cloud Connector エディション 1.4.1、1.4.2 に適用されます。
   
-```
+```powershell
 Get-CcExternalCertificateFilePath [[-Target] <string> {EdgeServer | MediationServer}]
 ```
 
@@ -35,7 +35,7 @@ Get-CcExternalCertificateFilePath [[-Target] <string> {EdgeServer | MediationSer
 
 次の例では、エッジ サーバーの証明書のパスを示します。
   
-```
+```powershell
 Get-CcExternalCertificateFilePath -Target EdgeServer
 ```
 
@@ -43,7 +43,7 @@ Get-CcExternalCertificateFilePath -Target EdgeServer
 
 次の例では、仲介サーバーの証明書セットを示します。
   
-```
+```powershell
 Get-CcExternalCertificateFilePath -Target MediationServer
 ```
 
@@ -55,7 +55,7 @@ Get-CcExternalCertificateFilePath -Target MediationServer
 ## <a name="parameters"></a>パラメーター
 <a name="DetailedDescription"> </a>
 
-|**パラメーター**|**必須**|**型**|**説明**|
+|**パラメーター**|**必須**|**種類**|**説明**|
 |:-----|:-----|:-----|:-----|
 |Target  <br/> |省略可能  <br/> | System.Management.Automation.SwitchParameter <br/> |必要なファイル パスの種類。種類:  <br/> EdgeServer (既定)  <br/> MediationServer  <br/> |
    

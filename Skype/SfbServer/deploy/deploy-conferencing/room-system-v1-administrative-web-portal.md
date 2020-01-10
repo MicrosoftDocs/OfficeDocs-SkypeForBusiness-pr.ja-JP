@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 ms.collection: M365-voice
 description: Skype for Business Server の Skype Room Systems v1 (旧称 SRS v1、旧称 Lync Room System) 管理 Web ポータルは、組織が Skype Room Systems 会議室を管理するために使用できる web ポータルです。 管理者は、SRS v1 管理 Web ポータルを使用して、オーディオ/ビデオデバイスを監視するなどして、デバイスの正常性を監視することができます。 このポータルでは、管理者はリモートで診断情報を収集して、会議室の正常性を監視することができます。
-ms.openlocfilehash: bf18cefbdaa5beeaef63d16b5447cce2969fc147
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4c05b558176b92358206e7cee2355ff82683ed45
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234176"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002887"
 ---
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>Skype for Business Server で SRS v1 管理 Web ポータルを展開する
 
@@ -86,7 +86,7 @@ SRS v1 管理 Web ポータルをインストールするには、次の手順�
 
 1. Skype for Business Server 管理シェルで次のコマンドレットを実行して、信頼できるアプリケーションポートを構成します。
 
-   ```
+   ```powershell
    Set-CsWebServer -Identity POOLFQDN -MeetingRoomAdminPortalInternalListeningPort 4456 -MeetingRoomAdminPortalExternalListeningPort 4457
    ```
 
@@ -98,19 +98,19 @@ SRS v1 管理 Web ポータルをインストールするには、次の手順�
 
 4. Web.config ファイルで、PortalUserName を「[SRS V1 管理 Web ポータルの環境を構成](room-system-v1-administrative-web-portal.md#Config_Env)する」セクションの「手順2で作成したユーザー名に変更します (手順は LRSApp の推奨名)。
 
-    ```
+    ```xml
     <add key="PortalUserName" value="sip:LRSApp@domain.com" />
     ```
 
 5. SRS v1 管理ポータルは信頼済みアプリケーションであるため、ポータルの構成でパスワードを提示する必要はありません。このユーザーがローカル レジストラーとは別のレジストラーを使用している場合、Web.Config ファイルで次の行を追加してレジストラを指定する必要があります。
 
-   ```
+   ```xml
    <add key="PortalUserRegistrarFQDN" value="pool-xxxx.domain.com" />
    ```
 
 6. 5061 以外のポートが使用されている場合は、Web.Config ファイルに次の行を追加します。
 
-   ```
+   ```xml
    <add key="PortalUserRegistrarPort" value="5061" />
    ```
 
@@ -221,7 +221,7 @@ SRS ルームの一括管理は、高度な IT 管理者向けに設計された
 
 - SRS アカウントを作成しても、管理 Web ポータルでそのアカウントを確認できない場合は、Fiddler を使用してクライアント ログを収集し、ブラウザー開発ツールからコンソール ログもコピーして、それらのログを SRS サポートの連絡先に送信してください。より詳細なログを取得するために Web.config でトレース レベルの値を変更することもできます。
 
-  ```
+  ```xml
   <system.diagnostics>
     <switches>
       <!--

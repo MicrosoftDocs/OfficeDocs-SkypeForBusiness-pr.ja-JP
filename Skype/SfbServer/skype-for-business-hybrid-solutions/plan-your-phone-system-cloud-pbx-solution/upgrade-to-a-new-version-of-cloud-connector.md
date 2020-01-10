@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: efbe25f2-faf5-41c7-8c95-dbc4a835a4a8
 description: 既存の Cloud Connector Edition 展開をアップグレードする方法について説明します。
-ms.openlocfilehash: c2613069f1626f8fc7e28b4fb5a246fc7647cf98
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c340b7325c95d25212c9c1f77f9379a25708cea8
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286628"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002047"
 ---
 # <a name="upgrade-to-a-new-version-of-cloud-connector"></a>Upgrade to a new version of Cloud Connector
  
@@ -62,7 +62,7 @@ Cloud Connector Edition バージョン1.4.1 以降では、既定で自動更�
   - 古いアプライアンスをドレインして、ネットワーク接続を新しいアプライアンスに切り替えます。
     
 > [!NOTE]
->  Cloud Connector が新しいビルドに更新されると、クラウドコネクタコマンドレットが更新されないことがあります。 これは、たとえば、自動更新が行われているときに PowerShell ウィンドウを開いたままにした場合に発生する可能性があります。 更新されたコマンドレットを読み込むには、次のいずれかの手順を実行します: > Cloud Connector アプライアンスで PowerShell を閉じて、> をもう一度起動するか、または、Import モジュール CloudConnector-Force を実行できます。
+>  Cloud Connector が新しいビルドに更新されると、クラウドコネクタコマンドレットが更新されないことがあります。 これは、たとえば、自動更新が行われているときに PowerShell ウィンドウを開いたままにした場合に発生する可能性があります。 更新されたコマンドレットを読み込むには、次のいずれかの手順を実行します。クラウドコネクタアプライアンスで PowerShell を > し、PowerShell をもう一度起動します。 > または、インポート-モジュール CloudConnector-Force を実行できます。
   
 ## <a name="upgrade-a-single-site-to-a-new-version"></a>単一サイトの新バージョンへのアップグレード
 <a name="BKMK_Upgrade"> </a>
@@ -77,25 +77,25 @@ Cloud Connector Edition バージョン1.4.1 以降では、既定で自動更�
     
 4. 管理者として PowerShell コンソールを起動し、次のコマンドレットを実行して現在のアプライアンスを登録します。
     
-   ```
+   ```powershell
    Register-CcAppliance
    ```
 
 5. 次のコマンドレットを実行して最新のバージョンをダウンロードします。
     
-   ```
+   ```powershell
    Start-CcDownload
    ```
 
 6. 次のコマンドレットを実行してインストールを開始します。 
     
-   ```
+   ```powershell
    Install-CcAppliance -Upgrade
    ```
 
 7. 次のコマンドレットを実行して、新しい展開をアクティブ化し、以前のバージョンをオフにします。
     
-   ```
+   ```powershell
    Switch-CcVersion
    ```
 
@@ -103,7 +103,7 @@ Cloud Connector Edition バージョン1.4.1 以降では、既定で自動更�
   
 ドメイン管理者、仮想マシン管理者、セーフモード管理者、テナント管理者の資格情報を更新する場合は、 _Updateallcredentials_パラメーターを指定してコマンドレットを実行して、すべての資格情報をリセットすることができます。
   
-```
+```powershell
 Install-CcAppliance -UpdateAllCredentials
 ```
 
@@ -111,7 +111,7 @@ Install-CcAppliance -UpdateAllCredentials
   
 テナント管理者の資格情報のみをリセットする場合は、次のコマンドレットを実行します。
   
-```
+```powershell
 Set-CcCredential -AccountType TenantAdmin
 ```
 

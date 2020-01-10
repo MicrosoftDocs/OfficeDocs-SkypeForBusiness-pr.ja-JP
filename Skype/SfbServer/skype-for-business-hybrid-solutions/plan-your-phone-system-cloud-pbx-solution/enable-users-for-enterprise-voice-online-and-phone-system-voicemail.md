@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: Skype for Business ユーザー用に Office 365 voice services で電話システムを有効にする方法について説明します。
-ms.openlocfilehash: 1305f4045d4de86a65e0286938d22490f577507c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 902d2e1bad76c8275bfc8f4ce7ec7b4243b8572a
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287504"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003467"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-in-office-365-voicemail"></a>エンタープライズ VoIP オンラインおよび Office 365 ボイスメールの電話システムでユーザーを有効にする
  
@@ -42,13 +42,13 @@ Office 365 ボイスとボイスメールで電話システムのユーザーを
     
 3. 次のコマンドを入力し、Enter キーを押します。
     
-   ```
+   ```powershell
    Import-Module skypeonlineconnector
    ```
 
 4. 次のコマンドを入力し、Enter キーを押します。
     
-   ```
+   ```powershell
    $cred = Get-Credential
    ```
 
@@ -58,13 +58,13 @@ Office 365 ボイスとボイスメールで電話システムのユーザーを
     
 6. PowerShell ウィンドウで、次のコマンドを入力し、Enter キーを押します。
     
-   ```
+   ```powershell
    $Session = New-CsOnlineSession -Credential $cred -Verbose
    ```
 
 7. 次のコマンドレットを入力して、セッションをインポートします。
     
-   ```
+   ```powershell
    Import-PSSession $Session -AllowClobber
    ```
 
@@ -72,13 +72,13 @@ Office 365 ボイスとボイスメールで電話システムのユーザーを
     
 8. Set-CsUser コマンドレットを使用して、次のように、$EnterpriseVoiceEnabled および $HostedVoiceMail プロパティをユーザーに割り当てます。
     
-   ```
+   ```powershell
    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
    ```
 
     例:
     
-   ```
+   ```powershell
    Set-CsUser -Identity "Bob Kelly" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
    ```
 
@@ -114,7 +114,7 @@ Windows PowerShell と[Grant-CsDialPlan](https://docs.microsoft.com/powershell/m
 
 - [CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps)コマンドレットを使用して、ユーザーごとのダイヤルプラン RedmondDialPlan をユーザー Ken Myer に割り当てます。
     
-  ```
+  ```powershell
   Grant-CsDialPlan -Identity "Ken Myer" -PolicyName "RedmondDialPlan"
   ```
 
@@ -122,7 +122,7 @@ Windows PowerShell と[Grant-CsDialPlan](https://docs.microsoft.com/powershell/m
 
 - 次のコマンドは、ユーザーごとのダイヤル プラン RedmondDialPlan を、Redmond 市で働くすべてのユーザーに割り当てます。 このコマンドで使用される LdapFilter パラメーターの詳細については、「[ユーザーの取得](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps)」コマンドレットのドキュメントを参照してください。
     
-  ```
+  ```powershell
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsDialPlan -PolicyName "RedmondDialPlan"
   ```
 
@@ -133,7 +133,7 @@ Windows PowerShell と[Grant-CsDialPlan](https://docs.microsoft.com/powershell/m
 
 - [CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps)コマンドレットを使用して、以前に Ken Myer に割り当てられていたユーザーごとのダイヤルプランの割り当てを解除します。 ユーザーごとのダイヤル プランの割り当てが解除されると、Ken Myer は自動的にグローバル ダイヤル プランまたはこのユーザーの拡張レジストラーまたは PSTN ゲートウェイに割り当てられたサービス スコープのダイヤル プランを使用して管理されるようになります。 サービス スコープのダイヤル プランはグローバル ダイヤル プランより優先されます。
     
-  ```
+  ```powershell
   Grant-CsDialPlan -Identity "Ken Myer" -PolicyName $Null
   ```
 
@@ -150,7 +150,7 @@ Office 365 の電話システムユーザーが正常にルーティングする
 
 - [CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps)コマンドレットを使用して、ユーザーごとのボイスルーティングポリシー RedmondVoiceRoutingPolicy をユーザー Ken Myer に割り当てます。
     
-  ```
+  ```powershell
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName "RedmondVoiceRoutingPolicy"
   ```
 
@@ -158,7 +158,7 @@ Office 365 の電話システムユーザーが正常にルーティングする
 
 - 次のコマンドは、ユーザー単位の音声ルーティング ポリシー RedmondVoiceRoutingPolicy を Redmond 市で働くすべてのユーザーに割り当てます。 このコマンドで使用される LdapFilter パラメーターの詳細については、「[ユーザーの取得](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps)」を参照してください。
     
-  ```
+  ```powershell
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsVoiceRoutingPolicy -PolicyName "RedmondVoiceRoutingPolicy"
   ```
 
@@ -169,7 +169,7 @@ Office 365 の電話システムユーザーが正常にルーティングする
 
 - CsVoiceRoutingPolicy を使用して、以前に Ken Myer に割り当てられているユーザーごとの音声ルーティングポリシーを割り当て解除します。 ユーザー単位の音声ルーティング ポリシーが割り当て解除された後、Ken Myer は、グローバル音声ルーティング ポリシーによって、自動的に管理されます。
     
-  ```
+  ```powershell
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName $Null
   ```
 

@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 9c3a3054-6201-433f-b128-4c49d3341370
 description: '概要: Exchange Server 2016 または Exchange Server 2013 および Skype for Business Server のサーバー認証を構成します。'
-ms.openlocfilehash: 5a1958db05ea1e4fae37737512368d509b3c62cf
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 004b9c1926f00cd869658ae0b90679897d20516b
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245511"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001257"
 ---
 # <a name="configure-partner-applications-in-skype-for-business-server-and-exchange-server"></a>Skype for Business Server および Exchange Server でパートナーアプリケーションを構成する
  
@@ -33,19 +33,19 @@ Skype for Business Server と Exchange Server の間のサーバー間認証を�
 
 Exchange server 2016 または Exchange Server 2013 とのパートナーアプリケーションとして Skype for Business Server を構成する最も簡単な方法は、Configure-EnterprisePartnerApplication スクリプトを実行することです。これは、Exchange Server に付属する Windows PowerShell スクリプトです。 このスクリプトを実行するには、Skype for Business Server authentication metadata ドキュメントの URL を指定する必要があります。通常、これは、Skype for Business サーバープールの完全修飾ドメイン名に続けてサフィックス/metadata/json/1. を指定します。 次に例を示します。
   
-```
+```console
 https://atl-cs-001.litwareinc.com/metadata/json/1
 ```
 
 Skype for Business Server をパートナーアプリケーションとして構成するには、Exchange 管理シェルを開き、次のようなコマンドを実行します (Exchange がドライブ C にインストールされていること、および既定のフォルダーパスを使用していることを前提としています)。
   
-```
+```powershell
 "C:\Program Files\Microsoft\Exchange Server\V15\Scripts\Configure-EnterprisePartnerApplication.ps1 -AuthMetaDataUrl 'https://atl-cs-001.litwareinc.com/metadata/json/1' -ApplicationType Lync"
 ```
 
 パートナーアプリケーションを構成した後、Exchange メールボックスとクライアントアクセスサーバーでインターネットインフォメーションサービス (IIS) を停止して再起動することをお勧めします。 次のようなコマンドを使用して、IIS を再起動することができます。これは、コンピューターの atl-exchange-001 のサービスを再起動します。
   
-```
+```powershell
 iisreset atl-exchange-001
 ```
 
@@ -55,23 +55,23 @@ iisreset atl-exchange-001
 
 Skype for Business Server を Exchange Server 2016 または Exchange Server 2013 のパートナーアプリケーションとして構成した後、Exchange Server を Skype for Business Server のパートナーアプリケーションとして構成する必要があります。 これを行うには、Skype for Business Server 管理シェルを使用し、Exchange の認証メタデータドキュメントを指定します。通常、これは Exchange 自動検出サービスの URI に続けてサフィックス/metadata/json/1. を指定します。 次に例を示します。
   
-```
+```console
 https://autodiscover.litwareinc.com/autodiscover/metadata/json/1
 ```
 
 Skype for Business Server では、 [CsPartnerApplication](https://docs.microsoft.com/powershell/module/skype/new-cspartnerapplication?view=skype-ps)コマンドレットを使用してパートナーアプリケーションを構成します。 メタデータ URI の指定に加えて、アプリケーションの信頼レベルも完全に設定する必要があります。これにより、Exchange は、レルム内の権限を持つすべてのユーザーを表すことができます。 次に例を示します。
   
-```
+```powershell
 New-CsPartnerApplication -Identity Exchange -ApplicationTrustLevel Full -MetadataUrl "https://autodiscover.litwareinc.com/autodiscover/metadata/json/1"
 ```
 
 または、Skype for Business Server server のサーバー間認証ドキュメントにあるスクリプトコードをコピーして変更することで、パートナーアプリケーションを作成することもできます。 詳細については、「 [Skype For Business server のサーバー間認証 (OAuth) とパートナーアプリケーションを管理](../../manage/authentication/server-to-server-and-partner-applications.md)する」を参照してください。
   
-Skype for Business Server と Exchange Server の両方に対してパートナーアプリケーションが正常に設定されている場合は、2つの製品間のサーバー間認証も正常に構成されています。 Skype for Business Server には、Windows PowerShell コマンドレット[CsExStorageConnectivity](https://docs.microsoft.com/powershell/module/skype/test-csexstorageconnectivity?view=skype-ps)が含まれています。これにより、サーバー間の認証が正しく構成されていること、および skype For Business Server ストレージサービスが利用できることを確認することができます。Exchange Server に接続します。 このコマンドレットでは、これを行うには、Exchange Server ユーザーのメールボックスに接続し、そのユーザーの [会話履歴] フォルダーにアイテムを書き込み、そのアイテムを削除します (必要に応じて)。
+Skype for Business Server と Exchange Server の両方に対してパートナーアプリケーションが正常に設定されている場合は、2つの製品間のサーバー間認証も正常に構成されています。 Skype for Business Server には Windows PowerShell コマンドレット[CsExStorageConnectivity](https://docs.microsoft.com/powershell/module/skype/test-csexstorageconnectivity?view=skype-ps)が含まれています。これにより、サーバー間認証が正しく構成されていること、および skype For Business Server ストレージサービスが Exchange server に接続できることを確認できます。 このコマンドレットでは、これを行うには、Exchange Server ユーザーのメールボックスに接続し、そのユーザーの [会話履歴] フォルダーにアイテムを書き込み、そのアイテムを削除します (必要に応じて)。
   
 Skype for business Server と Exchange Server の統合をテストするには、Skype for Business Server 管理シェルから次のようなコマンドを実行します。
   
-```
+```powershell
 Test-CsExStorageConnectivity -SipUri "sip:kenmyer@litwareinc.com"
 ```
 

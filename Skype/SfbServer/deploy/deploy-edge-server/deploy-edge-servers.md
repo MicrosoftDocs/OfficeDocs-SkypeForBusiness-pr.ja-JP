@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 63c7251c-080a-4175-99a6-f86d0266d6bc
 description: '概要: エッジサーバーを Skype for Business Server 環境に展開する方法について説明します。'
-ms.openlocfilehash: 70355f6f00e8f38a13d74afd2d13c62a345fa063
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e912e4c0b75781805a0e691bc81794119f62fe9c
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233885"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001447"
 ---
 # <a name="deploy-edge-servers-in-skype-for-business-server"></a>Skype for Business Server でエッジサーバーを展開する
  
@@ -119,13 +119,13 @@ ms.locfileid: "36233885"
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;世. [**スタート**] を開いて、**実行**(または**検索**と**実行**) し、次のように入力します。
     
-  ```
+  ```console
   https://<NAME OF YOUR ISSUING CA SERVER>/certsrv
   ```
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;例えば：
     
-  ```
+  ```console
   https://ca01/contoso.com/certsrv
   ```
 
@@ -239,7 +239,7 @@ ms.locfileid: "36233885"
 
 &nbsp;&nbsp;&nbsp;、. 以前に証明書をインポートしたエッジサーバーに、ローカル管理者グループのメンバーとしてログインしていることを確認します。
     
-&nbsp;&nbsp;&nbsp;]5d. [**スタート**] **** をクリックし、[**検索**] をクリックして、「 **MMC**」と入力します。
+&nbsp;&nbsp;&nbsp;]5d. [**スタート**]**をクリックし、[** **検索**] をクリックして、「 **MMC**」と入力します。
     
 &nbsp;&nbsp;&nbsp;c-clip. MMC コンソールで、[**ファイル**] をクリックし、[**スナップインの追加と削除**] をクリックします。
     
@@ -290,7 +290,7 @@ ms.locfileid: "36233885"
     
 &nbsp;&nbsp;&nbsp;f. ウィザードの完了ページで [**完了**] をクリックします。
     
-&nbsp;&nbsp;&nbsp;agdlp. この手順を完了したら、各エッジサーバーで [証明書] MMC スナップインを開き、[**証明書 (ローカルコンピューター)**]、[**個人用**]、[**証明書**] の順に展開して、内部エッジを確認することをお勧めします。[詳細] ウィンドウに証明書が表示されます。
+&nbsp;&nbsp;&nbsp;agdlp. この手順が完了したら、各エッジサーバーで [証明書] MMC スナップインを開き、[**証明書 (ローカルコンピューター)**]、[**個人用**]、[**証明書**] の順に展開して、内部エッジ証明書が詳細ウィンドウに表示されていることを確認することをお勧めします。
     
 ### <a name="external-edge-interface-certificates"></a>外部エッジ インターフェイスの証明書
 
@@ -367,7 +367,7 @@ ms.locfileid: "36233885"
 
 &nbsp;&nbsp;&nbsp;、. 証明書をローカル管理者としてインポートしたエッジサーバーにログインしていることを確認します。
     
-&nbsp;&nbsp;&nbsp;]5d. [**スタート**] **** をクリックし、[**検索**] をクリックして、「 **MMC**」と入力します。
+&nbsp;&nbsp;&nbsp;]5d. [**スタート**]**をクリックし、[** **検索**] をクリックして、「 **MMC**」と入力します。
     
 &nbsp;&nbsp;&nbsp;c-clip. MMC コンソールで、[**ファイル**] をクリックし、[**スナップインの追加と削除**] をクリックします。
     
@@ -423,7 +423,7 @@ ms.locfileid: "36233885"
     
 &nbsp;&nbsp;&nbsp;f. ウィザードの完了ページで [**完了**] をクリックします。
     
-&nbsp;&nbsp;&nbsp;agdlp. この手順を完了したら、各サーバーで [証明書] MMC スナップインを開き、[**証明書 (ローカルコンピューター)**]、[**個人用**]、[**証明書**] の順に展開して、内部境界を確認することをお勧めします。[詳細] ウィンドウに証明書が表示されます。
+&nbsp;&nbsp;&nbsp;agdlp. この手順を完了したら、各サーバーで [証明書] MMC スナップインを開き、[**証明書 (ローカルコンピューター)**]、[**個人用**]、[**証明書**] の順に展開して、内部エッジ証明書が詳細ウィンドウに表示されていることを確認することをお勧めします。
     
    > [!NOTE]
    > リバース プロキシ サーバーの証明書も設定する必要があります。 

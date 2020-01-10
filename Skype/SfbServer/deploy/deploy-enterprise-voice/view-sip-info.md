@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: adfacb74-7ea5-4c53-934e-ba7ec59879eb
 description: '概要: Skype for Business Server の SIP trunks に関する情報を表示する方法について説明します。'
-ms.openlocfilehash: 3d8ad70428926c26445c6556544a5a363de12f5c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 366e03c1a3ceef345a52bca6e038c9311fcc3003
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239944"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001127"
 ---
 # <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server"></a>Skype for Business Server の各 SIP trunks に関する情報を表示する
  
@@ -33,7 +33,7 @@ SIP trunks は、Skype for Business Server のボイスオーバー IP 電話ネ
 
 - 次のコマンドは、組織で使用中のすべての SIP トランクに関する情報を返します。
     
-  ```
+  ```powershell
   Get-CsTrunk
   ```
 
@@ -41,7 +41,7 @@ SIP trunks は、Skype for Business Server のボイスオーバー IP 電話ネ
 
 - このコマンドは、PstnGateway:192.168.0.240 という Identity を持つ SIP トランクに関する情報のみを返します。
     
-  ```
+  ```powershell
   Get-CsTrunk -Identity "PstnGateway:192.168.0.240"
   ```
 
@@ -49,6 +49,6 @@ SIP trunks は、Skype for Business Server のボイスオーバー IP 電話ネ
 
 - この例では、プール atl-cs-001.litwareinc.com に割り当てられているすべての SIP トランクについて情報が返されます。
     
-  ```
+  ```powershell
   Get-CsTrunk -PoolFqdn "atl-cs-001.litwareinc.com"
   ```

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eba70d88-13b3-4598-95d5-8a343c9e7d26
 description: このトピックでは、ハイブリッド環境で Skype Room System を展開する方法について説明します。
-ms.openlocfilehash: 80e7efaf5fe3705e052d40606ea5944527d43a61
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: f6364f7bb96ddf2b25aaaef2a341fce5b71372f5
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774958"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003497"
 ---
 # <a name="skype-room-system-hybrid-deployments"></a>Skype Room System のハイブリッド展開
 
@@ -29,7 +29,7 @@ ms.locfileid: "36774958"
   
 1. 「Exchange Online のプロビジョニング」で説明されているように、exchange Online Management shell に接続して、exchange 管理センター (LyncSample.ccsctp.net) でリソースメールボックスを作成します。
     
-   ```
+   ```powershell
    New-Mailbox -room -name "LRS Test 5" -RoomMailboxPassword (ConvertTo-SecureString <password> -AsPlainText -Force) -EnableRoomMailboxAccount $true 
    ```
 
@@ -52,7 +52,7 @@ ms.locfileid: "36774958"
     
 6. Skype for business の管理シェルで次のコマンドレットを実行して、skype for Business の Skype Room System アカウントを有効にします。
     
-   ```
+   ```powershell
    Enable-CsMeetingRoom -SipAddress 'sip: lrstest5@LyncSample.com' -RegistrarPool pool1.child.corp.LyncSample.com -Identity lrstest5@LyncSample.com
    Set-CsMeetingRoom -Identity lrstest5@LyncSample.com -EnterpriseVoiceEnabled $true
    ```

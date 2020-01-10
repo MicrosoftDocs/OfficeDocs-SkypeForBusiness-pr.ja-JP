@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Microsoft Teams でのライブ イベントを立ち上げる前に考慮する必要のある要素について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 736d6b8f2000f94806077e8f1739b28be248b136
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 66054194c197d40c10850582e624b543b4561f42
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570181"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001267"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントの計画
 
@@ -55,7 +55,7 @@ ms.locfileid: "37570181"
 - ストリームでライブイベントを作成する権限 (外部アプリまたはデバイスの生産の場合)。
 
 > [!IMPORTANT]
-> Office 365 ゲスト、フェデレーション ユーザー、匿名ユーザーは、Teams ライブ イベントのプロデューサーや発表者としては招待できません。 Office 365 ゲストとフェデレーションユーザーは、ライブイベントのみを匿名で視聴できます。 
+> 認証されていない匿名ユーザーは、Teams live イベントのプロデューサーまたは発表者として招待することはできません。 
  
 ## <a name="who-can-watch-live-events"></a>ライブ イベントは誰が視聴できるか。
 
@@ -64,7 +64,7 @@ ms.locfileid: "37570181"
 |パブリック (匿名ユーザー)      |  はい            |  いいえ                  |
 |ゲスト ユーザー                   |  いいえ<sup>1</sup> |  いいえ                  |
 |フェデレーション企業内の全員 |  <sup>2</sup> |  いいえ                  |
-|会社内の全員           |  可            |  はい                 |
+|会社内の全員           |  Yes            |  はい                 |
 |特定のグループ/ユーザー      |  はい            |  はい                 |
 
 live イベントが**組織全体**のオプションを使って設定されている場合、 <sup>1</sup>はライブイベントを監視できます。<br>

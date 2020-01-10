@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a71881ef-b04a-465e-9abb-0577bfd182f3
 description: Skype for Business Server のエンタープライズボイス通話受付制御によって使用される帯域幅ポリシーを作成または変更します。
-ms.openlocfilehash: 31bd61703fb652844b408c0a92c05fa1a29c7d5d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 86ab5d7fc7ae46223118250626d12107c35b9ef8
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233504"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001767"
 ---
 # <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>Skype for Business Server で帯域幅ポリシープロファイルを作成する 
  
@@ -48,19 +48,19 @@ CAC 展開で設定する必要がある帯域幅制限のガイドラインに�
     
 2. 作成する帯域幅ポリシーのプロファイルごとに、New-CsNetworkBandwidthPolicyProfile コマンドレットを実行します。 たとえば、以下を実行します。
     
-   ```
+   ```powershell
    New-CsNetworkBandwidthPolicyProfile -Identity 5Mb_Link -Description "BW profile for 5Mb links" -AudioBWLimit 2000 -AudioBWSessionLimit 200 -VideoBWLimit 1400   -VideoBWSessionLimit 700
    ```
 
-   ```
+   ```powershell
    New-CsNetworkBandwidthPolicyProfile -Identity 10Mb_Link -Description "BW profile for 10Mb links" -AudioBWLimit 4000 -AudioBWSessionLimit 200 -VideoBWLimit 2800 -VideoBWSessionLimit 700
    ```
 
-   ```
+   ```powershell
    New-CsNetworkBandwidthPolicyProfile -Identity 50Mb_Link -Description "BW profile for 50Mb links" -AudioBWLimit 20000 -AudioBWSessionLimit 200 -VideoBWLimit 14000 -VideoBWSessionLimit 700
    ```
 
-   ```
+   ```powershell
    New-CsNetworkBandwidthPolicyProfile -Identity 25Mb_Link -Description "BW profile for 25Mb links" -AudioBWLimit 10000 -AudioBWSessionLimit 200 -VideoBWLimit 7000 -VideoBWSessionLimit 700
    ```
 

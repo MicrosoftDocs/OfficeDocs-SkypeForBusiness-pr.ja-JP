@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6aa17ae3-764e-4986-a900-85a3cdb8c1fc
 description: '概要: Exchange Server および Skype for Business Server 用のユニファイド連絡先ストアを構成します。'
-ms.openlocfilehash: 2719105478860f0352ae4a4cef75466ec460d475
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7a52a6bf648632daac416dcf6ffd4fd4149804c0
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244133"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003557"
 ---
 # <a name="configure-skype-for-business-server-to-use-the-unified-contact-store"></a>統合連絡先ストアを使用するための Skype for Business Server の構成
  
@@ -38,19 +38,19 @@ Skype for Business Server をインストールすると、(グローバルス�
   
 すべての連絡先を統合連絡先ストアに移行しない場合は、すべてのユーザーに対して統合連絡先ストアを無効にできます。その場合は、グローバル ポリシーの UcsAllowed プロパティを False に設定します。
   
-```
+```powershell
 Set-CsUserServicesPolicy -Identity global -UcsAllowed $False
 ```
 
 グローバルポリシーでユニファイド連絡先ストアを無効にした後は、統合された連絡先ストアの使用を有効にするユーザーごとのポリシーを作成できます。これにより、他のユーザーが引き続き Skype for Business Server に連絡先を保持しながら、一部のユーザーに連絡先を保存しておくことができます。 次のようなコマンドを使用して、ユーザーごとのユーザーサービスポリシーを作成できます。
   
-```
+```powershell
 New-CsUserServicesPolicy -Identity "AllowUnifiedContactStore" -UcsAllowed $True
 ```
 
 新しいポリシーを作成した後、そのポリシーを、統合連絡先ストアへのアクセス権を必要とするすべてのユーザーに割り当てる必要があります。ユーザーごとのポリシーをユーザーに割り当てるには、次のようなコマンドを使用します。
   
-```
+```powershell
 Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName "AllowUnifiedContactStore"
 ```
 
@@ -58,23 +58,23 @@ Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName "AllowUnifiedContact
   
 Skype for Business Server 管理シェル内から[CsUnifiedContactStore](https://docs.microsoft.com/powershell/module/skype/test-csunifiedcontactstore?view=skype-ps)コマンドレットを実行することで、ユーザーの連絡先が正常に統合された連絡先ストアに移行されたことを確認できます。
   
-```
+```powershell
 Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
 ```
 
-テスト-CsUnifiedContactStore が成功した場合は、ユーザー sip: kenmyer @<span></span>litwareinc<span></span>の連絡先が統合連絡先ストアに移行されたことを意味します。
+CsUnifiedContactStore が正常に完了した場合、ユーザー sip: kenmyer@<span></span>litwareinc<span></span>はユニファイド連絡先ストアに移行されたことを意味します。
   
 ## <a name="rolling-back-the-unified-contact-store"></a>統合連絡先ストアのロールバック
 
 ユーザーの連絡先を、統合された連絡先ストアから削除する必要がある場合 (たとえば、Microsoft Lync Server 2010 上でユーザーがホームポイントを使用する必要があり、そのため、ユニファイド連絡先ストアを使用できなくなった場合) は、2つの操作を行う必要があります。 最初に、ユーザーに、ユニファイド連絡先ストアで連絡先を保存することを禁止する新しいユーザーサービスポリシーを割り当てる必要があります。 (これは、UcsAllowed プロパティが $False に設定されているポリシーです。)このようなポリシーがない場合は、次のようなコマンドを使用して作成できます。
   
-```
+```powershell
 New-CsUserServicesPolicy -Identity NoUnifiedContactStore -UcsAllowed $False
 ```
 
 その後、次のようなコマンドを使用して、この新しいユーザーごとのポリシー (NoUnifiedContactStore) を割り当てます。
   
-```
+```powershell
 Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName NoUnifiedContactStore
 ```
 
@@ -87,7 +87,7 @@ Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName NoUnifiedContactStor
   
 つまり、ユーザーに新しいユーザーサービスポリシーを割り当てた後で、 [CsUcsRollback](https://docs.microsoft.com/powershell/module/skype/invoke-csucsrollback?view=skype-ps)コマンドレットを実行して、ユーザーの連絡先を Exchange server から移動して、Skype For business server に戻す必要があります。 たとえば、Ken Myer に新しいユーザー サービス ポリシーを割り当てた後、次のコマンドを使用して Ken の連絡先を統合連絡先ストアから移動できます。
   
-```
+```powershell
 Invoke-CsUcsRollback -Identity "Ken Myer"
 ```
 

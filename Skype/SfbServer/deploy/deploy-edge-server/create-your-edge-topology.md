@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5ea18841-afdc-4ccb-8d86-30584c1f5aca
 description: '概要: Skype for Business Server で Edge Server トポロジを作成、公開、エクスポートする方法について説明します。'
-ms.openlocfilehash: b20877f805cb0357f6038a822962ad6eb9cdd5e1
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c625656f1686b6e72be2f0223d6560464bb9e7bc
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233908"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001477"
 ---
 # <a name="create-your-edge-topology-for-skype-for-business-server"></a>Skype for Business Server の Edge トポロジを作成する
  
@@ -278,7 +278,7 @@ ms.locfileid: "36233908"
     
 2. **Skype For Business Server 管理シェル**で、次の操作を実行します。
     
-   ```
+   ```powershell
    Export-CsConfiguration -FileName <ConfigurationFilePath.zip>
    ```
 

@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 01b62253-2aaf-43ed-9d63-804e31edc522
 description: Start-CcLogging コマンドレットは、Skype for Business Cloud Connector エディションのアプライアンスで、着信および発信の通話ログを生成します。
-ms.openlocfilehash: 6e77ff347ca72a9aa31ad7bcb5a0330a8ea17a9a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2064fa4efd730812b5073821784ff5c524056341
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286923"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003177"
 ---
 # <a name="start-cclogging"></a>Start-CcLogging
  
 Start-CcLogging コマンドレットは、Skype for Business Cloud Connector エディションのアプライアンスで、着信および発信の通話ログを生成します。 
   
-```
+```powershell
 Start-CcLogging
 ```
 
@@ -37,7 +37,7 @@ Start-CcLogging
 
 次の例では、着信および発信の通話ログを生成します。
   
-```
+```powershell
 Start-CcLogging
 ```
 

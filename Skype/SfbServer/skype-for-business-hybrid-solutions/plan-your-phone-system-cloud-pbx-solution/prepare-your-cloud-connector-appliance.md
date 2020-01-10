@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
 description: Office 365 の電話システム (クラウド PBX) とともに展開および使用するために Cloud Connector アプライアンスを準備する方法について説明します。
-ms.openlocfilehash: f2140eb0be25ba0b6935f389e5ae7b27bfc37359
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 779cb53dd19d627d8864da65e3e41f5d6dabee99
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287000"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001947"
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>Cloud Connector アプライアンスの準備
 
@@ -54,7 +54,7 @@ Office 365 の電話システム (クラウド PBX) とともに展開および�
 
 1. 管理者として PowerShell コンソールを開き、次のコマンドレットを使用して、Skype for Business Cloud Connector エディションのコマンドレットが使用可能であることを確認します。
 
-   ```
+   ```powershell
    Get-Command *-Cc*
    ```
 
@@ -64,7 +64,7 @@ Office 365 の電話システム (クラウド PBX) とともに展開および�
 
     次のコマンドレットで**サイト ディレクトリ**の場所を見つけることができます。
 
-   ```
+   ```powershell
    Get-CcSiteDirectory
    ```
 
@@ -78,7 +78,7 @@ Office 365 の電話システム (クラウド PBX) とともに展開および�
 
      **サイト ディレクトリ**をデフォルト以外の場所に設定するには、次のコマンドレットを実行します。
 
-   ```
+   ```powershell
    Set-CcSiteDirectory <UNC File path>
    ```
 
@@ -90,13 +90,13 @@ Office 365 の電話システム (クラウド PBX) とともに展開および�
 
     **アプライアンス ディレクトリ**の場所を見つけるには、次のコマンドレットを実行します。
 
-   ```
+   ```powershell
    Get-CcApplianceDirectory
    ```
 
     **アプライアンス ディレクトリ**をデフォルト以外の場所に設定するには、次のコマンドレットを実行します。
 
-   ```
+   ```powershell
    Set-CcApplianceDirectory <File path>
    ```
 
@@ -109,7 +109,7 @@ Office 365 の電話システム (クラウド PBX) とともに展開および�
 
 - 次のコマンドレットを実行して、Microsoft Edge 外部証明書へのパスをファイル名も含めて設定します (例: C:\certs\cce\ap.contoso.com.pfx)。証明書には秘密キーが含まれる必要があります。
 
-  ```
+  ```powershell
   Set-CcExternalCertificateFilePath -Path <Full path to External certificate, including file name> -Target EdgeServer
   ```
 
@@ -125,7 +125,7 @@ Office 365 の電話システム (クラウド PBX) とともに展開および�
 
 仲介サーバーと PSTN ゲートウェイ/SBC の間で TLS を使用している場合は、次のコマンドレットを実行して、ファイル名を含むパスをゲートウェイ証明書に設定します。 例: C:\certs\cce\sbc.contoso.com.cer. 証明書には、ルート CA と、ゲートウェイに割り当てられている証明書の中間チェーンが含まれている必要があります。
 
-```
+```powershell
 Set-CcExternalCertificateFilePath -Path <Full path to gateway certificate, including file name> -Target MediationServer 
 ```
 
@@ -154,7 +154,7 @@ Set-CcExternalCertificateFilePath -Path <Full path to gateway certificate, inclu
 
 ファイルを更新するには、まず次のコマンドレットを実行してサンプルのテンプレート (CloudConnector.Sample.ini) を入手します。
 
-```
+```powershell
 Export-CcConfigurationSampleFile
 ```
 
@@ -227,7 +227,7 @@ Export-CcConfigurationSampleFile
 
 次のコマンドレットを実行して、BITS ファイルとバージョン情報ファイルを**サイト ディレクトリ**にダウンロードします。
 
-```
+```powershell
 Start-CcDownload
 ```
 
@@ -255,7 +255,7 @@ Start-CcDownload
 
 PowerShell を管理者として起動し、次のコマンドレットを実行して ISO イメージを仮想ハード ディスク (VHD) に変換します。
 
-```
+```powershell
 Convert-CcIsoToVhdx -IsoFilePath <Windows ISO File Path, including file name>
 ```
 
@@ -278,13 +278,13 @@ ISO イメージへの完全なパスをファイル名も含めて指定しま�
 
 提供される PowerShell スクリプトでは、実行ポリシーを RemoteSigned に設定する必要があります。現在の設定を表示するには、管理者として PowerShell コンソールを開き、次のコマンドレットを実行します。
 
-```
+```powershell
 Get-ExecutionPolicy
 ```
 
 「RemoteSigned」に設定されていない場合は、次のコマンドレットを実行して設定を変更します。
 
-```
+```powershell
 Set-ExecutionPolicy RemoteSigned
 ```
 

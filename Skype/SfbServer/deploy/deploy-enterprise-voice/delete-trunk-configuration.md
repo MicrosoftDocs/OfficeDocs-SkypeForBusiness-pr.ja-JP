@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
 description: '概要: Skype for Business Server コントロールパネルを使用して、トランク構成設定のコレクションを削除する方法について説明します。'
-ms.openlocfilehash: 5823c47234f912293c7af2a15bf1fcb87ff23e15
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 97a0820258a837968b88e6840232829f3ad11d21
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233212"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41000997"
 ---
 # <a name="delete-an-existing-collection-of-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Skype for Business Server で既存の SIP トランク構成設定のコレクションを削除する
  
@@ -63,7 +63,7 @@ Skype for Business Server をインストールすると、SIP トランク構�
 
 - 次のコマンドを実行すると、Redmond サイトに適用されていたトランク構成設定が削除されます。
     
-  ```
+  ```powershell
   Remove-CsTrunkConfiguration -Identity site:Redmond
   ```
 
@@ -71,7 +71,7 @@ Skype for Business Server をインストールすると、SIP トランク構�
 
 - 次のコマンドを実行すると、サービス スコープに適用されているすべてのトランク構成設定が削除されます。
     
-  ```
+  ```powershell
   Get-CsTrunkConfiguration -Filter "service:*" | Remove-CsTrunkConfiguration
   ```
 
@@ -79,7 +79,7 @@ Skype for Business Server をインストールすると、SIP トランク構�
 
 - 次のコマンドを実行すると、メディア バイパスが有効になっているすべてのトランク構成設定が削除されます。
     
-  ```
+  ```powershell
   Get-CsTrunkConfiguration | Where-Object {$_.EnableBypass -eq $True} | Remove-CsTrunkConfiguration
   ```
 

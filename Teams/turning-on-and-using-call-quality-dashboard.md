@@ -22,12 +22,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: '通話品質ダッシュボードをオンにして使用し、通話の品質に関する概要レポートを取得する方法について説明します。 '
-ms.openlocfilehash: 8d6e97ea5454b8e933424c2e8db595a5af7ac8c8
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 429904020a63b93fefd1adee7ee89d02a47f1d61
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972488"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41005187"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Microsoft Teams および Skype for Business Online で通話品質ダッシュボードをオンにして使用する
 
@@ -35,11 +35,13 @@ ms.locfileid: "37972488"
   
 通話品質ダッシュボード (CQD) は、Microsoft Teams と Skype for Business Online サービスを使って発信した通話の品質を把握するのに適しています。 このトピックでは、通話品質の問題をトラブルシューティングするために使用できるデータの収集を開始する手順について説明します。
 
-現在、CQD バージョン3と CQD バージョン2の両方を使用することができます。 CQD v3 は、で<span>https://cqd.teams.microsoft.com</span>入手できます。 Microsoft Teams 管理者の資格情報でログインします。
+現在、Advanced CQD と CQD は両方とも使用できます。 Advanced CQD は、で<span>https://cqd.teams.microsoft.com</span>ご利用いただけます。 新しい URL。ただし、管理者の資格情報を使ってログインします。
 
 ## <a name="latest-changes-and-updates"></a>最新の変更と更新
 
-CQD version 3 は、ほぼリアルタイムの CQD ダッシュボード (30 分間の待機時間) を提供し、エンドユーザーを特定できる情報 (EUII) を使用して、ユーザーレベルにズームインする機能を管理者に提供します。 次のような新しいシナリオをサポートするためのレポート対話機能もあります。
+
+更新された CQD (2019 年11月初頭) は、ほぼリアルタイムの CQD ダッシュボードを提供しています。 CQD データは、30分単位で平均で利用可能になります (前の CQD と比べて、24時間の平均値が表示されます)。  更新された CQD は、エンドユーザーを特定できる情報 (EUII) を使用し、管理者は、ドリルダウンとユーザーレベルのズームを行うことができます。 次のような新しいシナリオをサポートするためのレポート対話機能もあります。
+
 
 - 地域別の通話品質:
   - 日付順
@@ -387,11 +389,11 @@ CQD はエンドポイントデータファイルを使用します。 列の値
 
   **フィールドの順序:**
 
-EndpointName、EndpointModel、Endpointmodel、EndpointLabel1、EndpointLabel2、EndpointLabel3
+EndpointName、EndpointMake、Endpointmake、Endpointmake、EndpointLabel1、EndpointLabel2、EndpointLabel3
 
   **サンプルの行:**
 
-`1409W3534, Fabrikam Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018,`  
+「1409W3534、123製造元、Fabrikam Model 123、ノート Pc、IT 指定の2018ノート Pc、アセットタグ5678、購入2018
 
 ## <a name="create-custom-detailed-reports"></a>ユーザー設定の詳細レポートを作成する
 
@@ -445,7 +447,7 @@ Teams では、Skype for Business Online ではなく、いくつかの品質と
   
 
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [通話品質ダッシュボードで利用できるディメンションとメジャー](dimensions-and-measures-available-in-call-quality-dashboard.md)
 

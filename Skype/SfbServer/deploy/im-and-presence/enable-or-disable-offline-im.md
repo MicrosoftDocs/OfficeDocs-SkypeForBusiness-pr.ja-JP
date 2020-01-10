@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c0f44352-fb4a-45d3-85b0-a4320d4b8339
 description: Skype for Business Server でオフラインインスタントメッセージング (IM) を有効または無効にする方法について説明します。
-ms.openlocfilehash: 363f7c54d682dc619417a8d9601c7beafc8283c6
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 02056618aff8a2dcaa6edc2023b67ad38aa9f314
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235551"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003047"
 ---
 # <a name="enable-or-disable-offline-instant-messaging-im-in-skype-for-business-server"></a>Skype for Business Server でオフラインインスタントメッセージング (IM) を有効または無効にする
  
@@ -34,7 +34,7 @@ Skype for Business Server でオフラインインスタントメッセージン
     
 2. 以下のコマンドを実行して、オフライン IM を有効にします。
     
-   ```
+   ```powershell
    Set-CsImConfiguration -EnableOfflineIM $True
    ```
 
@@ -43,7 +43,7 @@ Skype for Business Server でオフラインインスタントメッセージン
   
 3. オフライン IM の保存機能が設定されていることを確認するには、次のコマンドを実行します。
     
-   ```
+   ```powershell
    Get-CsImConfiguration
    ```
 

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0fde142b-70b1-46c6-b1f9-f9d70115371d
 description: '概要: Skype for Business Server のビデオ相互運用機能サーバー (VIS) の役割を構成します。'
-ms.openlocfilehash: 9ac7b64b33c48bd4010c1431b5c0d658f223599a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: fb9dc36bcf2f1a6f1346705f74dd3cf2844a973c
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235683"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003057"
 ---
 # <a name="configure-the-video-interop-server-in-skype-for-business-server"></a>Skype for Business Server でビデオ相互運用機能サーバーを構成する
  
@@ -34,31 +34,31 @@ ms.locfileid: "36235683"
 
 1. 次の Windows PowerShell コマンドレットを使用して、VIS と Cisco ユニファイドコミュニケーションマネージャー (CallManager または CUCM) 間のトランクで使用する新しいビデオトランク構成 (設定のコレクション) を作成します。
     
-   ```
+   ```powershell
    New-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com" -GatewaySendsRtcpForActiveCalls $false -GatewaySendsRtcpForCallsOnHold $false -EnableMediaEncryptionForSipOverTls $true(or $false)
    ```
 
     既存のビデオトランクを変更する必要がある場合は、次の Windows PowerShell コマンドレットを使用します。
     
-   ```
+   ```powershell
    Set-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com" -GatewaySendsRtcpForActiveCalls $false -GatewaySendsRtcpForCallsOnHold $false -EnableMediaEncryptionForSipOverTls  $true(or $false)
    ```
 
     特定のビデオトランク構成に関連する設定を表示するには、次の Windows PowerShell コマンドレットを使用します。
     
-   ```
+   ```powershell
    Get-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com"
    ```
 
     特定のビデオトランクの構成を削除するには、次の Windows PowerShell コマンドレットを使用します (特定のトランクに対して明示的に指定されたビデオトランク構成がない場合は、グローバルにスコープ設定されたビデオトランク構成が適用されることに注意してください)。
     
-   ```
+   ```powershell
    Remove-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com"
    ```
 
 2. 次の Windows PowerShell コマンドレットを使用して、トランクに関連付けるダイヤルプランを確立します。
     
-   ```
+   ```powershell
    New-CsDialPlan -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com" -SimpleName "TrunkTestDialPlan" 
    New-CsVoiceNormalizationRule -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com/SevenDigitRule" -Pattern '^(\d{7})$' -Translation '+1425$1' 
    Get-CsDialPlan -Identity "Service:CUCMVIS1.CUCMInterop.contoso.com"

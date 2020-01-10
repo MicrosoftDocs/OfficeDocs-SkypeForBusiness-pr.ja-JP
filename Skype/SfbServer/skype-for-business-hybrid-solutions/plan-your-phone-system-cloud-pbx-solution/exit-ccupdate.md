@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 463dce1e-fb60-487d-bcf1-69e7b03ecd14
 description: Exit-CcUpdate コマンドレットは、Skype for Business Cloud Connector エディションのホスト サーバーでの更新のメンテナンス モードを終了します。
-ms.openlocfilehash: b3558a81e1d4bc6c833cca157c2b31f2f252b595
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f79023c50e951e6678abdccc29b12cb30a329dfc
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287427"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003447"
 ---
 # <a name="exit-ccupdate"></a>Exit-CcUpdate
  
@@ -24,7 +24,7 @@ Exit-CcUpdate コマンドレットは、Skype for Business Cloud Connector エ�
   
 このコマンドレットは Skype for Business Cloud Connector エディション 1.4.1、1.4.2 に適用されます。 
   
-```
+```powershell
 Exit-CcUpdate
 ```
 
@@ -39,7 +39,7 @@ Exit-CcUpdate
 
 次のコマンドは、アプライアンスを実稼働モードに戻って実行する状態にします。 
   
-```
+```powershell
 Exit-CcUpdate
 ```
 

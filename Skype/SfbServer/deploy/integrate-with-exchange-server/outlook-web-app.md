@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
 description: '概要: Skype for Business Server と Outlook Web App の統合。'
-ms.openlocfilehash: b7c279dc41515d9613d8c000ab9e81164a1ccaa6
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 2aedd3b5e2399ae2487c0bb6da3e468d56567897
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244211"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002877"
 ---
 # <a name="configure-integration-between-on-premises-skype-for-business-server-and-outlook-web-app"></a>オンプレミスの Skype for Business Server と Outlook Web App との統合を構成する
 
@@ -37,7 +37,7 @@ ms.locfileid: "36244211"
 
 次の例に示すパラメーターを使用して、 **CSAccessEdgeConfiguration**コマンドレットを実行して、Skype For Business Server 管理シェルを使ってフェデレーション用にエッジサーバーを構成します。
 
-```
+```powershell
 Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 ```
 
@@ -49,7 +49,7 @@ Skype for Business Server 管理シェルの使い方の詳細については、
 
 Skype for Business Server 管理シェルを使用して、次の例のパラメーターを使用して、**新しい-CsHostingProvider**コマンドレットを実行して、エッジサーバーでホスティングプロバイダーを構成します。
 
-```
+```powershell
 New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedAddressSpace $True -HostsOCSUsers $False -ProxyFqdn "exap.um.outlook.com" -IsLocal $False -VerificationLevel UseSourceVerification
 ```
 
@@ -68,7 +68,7 @@ New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedA
 
 - **Islocal**は、ホスティングプロバイダーによって使用されたプロキシサーバーが Skype For business server トポロジ内に含まれているかどうかを示します。 これを False に設定する必要があります。
 
-- **VerificationLevel**ホストされているプロバイダーとの間で送受信されるメッセージに対して許可される確認レベルを示します。 ホスティング**** プロバイダーから送信されたメッセージに含まれている確認レベルに依存する、"いいね" を指定します。 このレベルが指定されていない場合、メッセージは、確認不能として拒否されます。
+- **VerificationLevel**ホストされているプロバイダーとの間で送受信されるメッセージに対して許可される確認レベルを示します。 ホスティングプロバイダーから送信されたメッセージに含まれている確認レベルに依存する、"いいね"**を指定し**ます。 このレベルが指定されていない場合、メッセージは、確認不能として拒否されます。
 
 ## <a name="verify-replication-of-the-updated-central-management-store"></a>更新された中央管理ストアのレプリケーションを確認する
 
@@ -76,14 +76,14 @@ New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedA
 
 レプリケーションの更新を確認するには、Skype for Business Server の展開の内部サーバーで、次のコマンドレットを実行します。
 
-```
+```powershell
 Get-CsManagementStoreReplicationStatus
 ```
 UpToDate 値がすべてのレプリカの TRUE として表示されているかどうかを確認します。
 
 変更が適用されたことを確認するには、エッジサーバーで次のコマンドレットを実行します。
 
-```
+```powershell
 Get-CsHostingProvider -LocalStore
 ```
 表示されている情報が、前の手順でコミットした変更内容と一致するかどうかをダブルチェックします。

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: '概要: skype for Business Server を Skype コンシューマーと接続する方法について説明します。 これは、Skype 接続とも呼ばれます。'
-ms.openlocfilehash: 4a335d2ec8e20310a34ce1bdfc8f39fe9b1117ee
-ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
+ms.openlocfilehash: 41a183912604c5880dfa46529f9034bc0673288d
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "36464602"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003077"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Skype for Business Server に Skype の接続を展開する
 
@@ -187,14 +187,14 @@ Skype Connectivity の構成は、PowerShell のみを使用して行うこと�
     
 2. 次の 2 つのコマンドを実行します。
     
-   ```
+   ```powershell
     Remove-CsPublicProvider -Identity <identity-name>
    ```
 
     > [!NOTE]
     > 環境にまだ PIC プロバイダーがなく、新しい PIC プロバイダーを作成している場合は、Remove-CsPublicProvider コマンドレットを実行する必要はありません。 
   
-   ```
+   ```powershell
    New-CsPublicProvider -Identity Skype -ProxyFqdn federation.messenger.msn.com -IconUrl https://images.edge.messenger.live.com/Messenger_16x16.png -NameDecorationRoutingDomain msn.com -NameDecorationExcludedDomainList "msn.com,outlook.com,live.com,hotmail.com" -Enabled $true -EnableSkypeIdRouting $true -EnableSkypeDirectorySearch $true
    ```
 
@@ -210,7 +210,7 @@ Skype Connectivity の構成は、PowerShell のみを使用して行うこと�
      > 変更が行われた場合は、パブリック プロバイダーを削除して新しく追加する必要があります。 インプレースでの変更は許可されていません。 
   
      > [!NOTE]
-     > Lync Server 2013 CU5 以降&amp; lync デスクトップクライアントに OFFICE 2013 SP1 で追加されました。 lync ユーザーが Skype の連絡先を追加して、Microsoft 以外のドメインを「修飾」することができるようになりました。 NameDecorationRoutingDomain と NameDecorationExcludedDomainListSkype (: user (contoso) @msn の形式) を特定して、ルーティングします。 これらの新しい設定では、NameDecorationRoutingDomain (NameDecorationExcludedDomainList のドメインが含まれていない場合は、「Skype コンタクトを追加」ダイアログボックスで、「Skype コンタクトを追加」ダイアログボックスで、「msn.com」に設定する必要があります)。現時点では、msn.com、live.com、Hotmail.com、outlook.com) をサポートしています。 
+     > Lync Server 2013 CU5 以降&amp; lync デスクトップクライアントに OFFICE 2013 SP1 で追加されました。 lync ユーザーが skype の連絡先を追加するには、Microsoft 以外のドメインを "装飾" して、skype (ユーザー (contoso) @msn の形式であることを確認し、ルーティングする必要があります。 これらの新しい設定では、NameDecorationRoutingDomain (NameDecorationExcludedDomainList のドメインが含まれていない場合は、「Skype コンタクトを追加」ダイアログボックスで、「Skype コンタクトを追加」ダイアログボックスで、「msn.com」に設定する必要があります)。現時点では、msn.com、live.com、Hotmail.com、outlook.com) をサポートしています。 
   
 3. Skype for Business クライアントから、ユーザーは Skype ユーザーを検索および追加することができます。
     
@@ -231,18 +231,18 @@ Skype Connectivity の構成は、PowerShell のみを使用して行うこと�
   
 |**クライアント**|**Skype Directory Search と、連絡先の追加**|**Skype A/V、IM の相互運用性**|
 |:-----|:-----|:-----|
-|Skype for Business  <br/> |はい  <br/> |はい  <br/> |
+|Skype for Business  <br/> |はい  <br/> |あり  <br/> |
 |Mac 版 Skype for Business  <br/> |追加可能 (検索不可)  <br/> |はい  <br/> |
 |Lync Desktop 2013  <br/> |追加可能 (検索不可)  <br/> |はい  <br/> |
-|Lync Web App - オンラインとオンプレミス  <br/> |N/A  <br/> |N/A  <br/> |
+|Lync Web App - オンラインとオンプレミス  <br/> |該当なし  <br/> |該当なし  <br/> |
 |Lync Mobile - Windows Phone  <br/> |準備中  <br/> |はい  <br/> |
 |Lync Mobile - Android  <br/> |準備中  <br/> |はい  <br/> |
 |Lync Mobile - iOS  <br/> |準備中  <br/> |はい  <br/> |
 |Lync Room System  <br/> |準備中  <br/> |はい  <br/> |
-|Lync Modern App (Win 8.1)  <br/> |はい  <br/> |はい  <br/> |
+|Lync Modern App (Win 8.1)  <br/> |はい  <br/> |あり  <br/> |
 |Lync Mac 2011  <br/> |追加可能 (検索不可)  <br/> |はい  <br/> |
 |Lync Desktop 2010  <br/> |追加可能 (検索不可)  <br/> |はい  <br/> |
-|Lync Phone Edition  <br/> |N/A  <br/> |N/A  <br/> |
+|Lync Phone Edition  <br/> |該当なし  <br/> |該当なし  <br/> |
 |Lync Attendant  <br/> |該当なし  <br/> |該当なし  <br/> |
    
 

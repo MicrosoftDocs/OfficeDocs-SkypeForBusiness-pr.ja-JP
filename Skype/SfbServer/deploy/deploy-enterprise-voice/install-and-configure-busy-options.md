@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
 description: Skype for Business Server で取り込み中のオプションをインストールして構成する方法について説明します。
-ms.openlocfilehash: a0fd235d5db645035ac9a6344c233dfe12a78b7b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 45779af0410dcadd1b5fe8e3988905e88acd9213
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240311"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002517"
 ---
 # <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>Skype for Business Server の通話中オプションのインストールおよび構成
 
@@ -50,7 +50,7 @@ Skype for Business Server で取り込み中のオプションをインストー
 
 1. 次の例に示すように、 [CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/set-csvoicepolicy?view=skype-ps)コマンドレットを実行して、ビジーオプションをグローバルに有効にします。
 
-   ```
+   ```powershell
    Set-CsVoicePolicy -EnableBusyOptions $true
    ```
 
@@ -58,25 +58,25 @@ Skype for Business Server で取り込み中のオプションをインストー
 
     最初に、[[次へ] を実行](https://docs.microsoft.com/powershell/module/skype/get-cssite?view=skype-ps)して、サイトの名前を取得します。
 
-   ```
+   ```powershell
    Get-CsSite
    ```
 
     Redmond1 サイトから取得した Id 値 (例: Site:) を使用して、次のようにサイトの音声ポリシーを取得します。
 
-   ```
+   ```powershell
    Get-CsVoicePolicy -Identity Site:Redmond1
    ```
 
     サイトのボイス ポリシーが存在していれば、次のコマンドを実行します。
 
-   ```
+   ```powershell
    Set-CsVoicePolicy -Identity Site:Redmond1 -EnableBusyOptions $true
    ```
 
 3. 次に、[新しい-CsServerApplication](https://docs.microsoft.com/powershell/module/skype/new-csserverapplication?view=skype-ps)コマンドレットを実行して、次の例に示すように、サーバーアプリケーションの一覧に取り込み中のオプションを追加します。
 
-   ```
+   ```powershell
    New-CsServerApplication -Identity 'Service:Registrar:%FQDN%/BusyOptions' -Uri http://www.microsoft.com/LCS/BusyOptions -Critical $False -Enabled $True -Priority (Get-CsServerApplication -Identity 'Service:Registrar:%FQDN%/UserServices').Priority
    ```
 
@@ -85,13 +85,13 @@ Skype for Business Server で取り込み中のオプションをインストー
 
 4. 次に、次の例に示すように、[更新プログラム] と [ [CsAdminRole](https://docs.microsoft.com/powershell/module/skype/update-csadminrole?view=skype-ps) ] のコマンドレットを実行して、Busy オプションのコマンドレットの役割ベースのアクセス制御 (RBAC) の役割を更新します。
 
-   ```
+   ```powershell
    Update-CsAdminRole
    ```
 
 5. 最後に、Busy オプションがインストールされて有効になっているすべてのプール内のすべてのフロントエンドサーバーで、Skype for Business Server の Windows サービスを開始します。[次の操作](https://docs.microsoft.com/powershell/module/skype/start-cswindowsservice?view=skype-ps)を実行します。
 
-   ```
+   ```powershell
    Start-CsWindowsService
    ```
 
@@ -101,25 +101,25 @@ Skype for Business Server で取り込み中のオプションをインストー
 
 たとえば、次のコマンドは「Ken Myer」というユーザーの通話中オプションを構成します。この構成では、通話中に「Ken Myer」への着信があると話中音を返します。
 
-```
+```powershell
 Set-CsBusyOptions -Identity "Ken Myer"  -ActionType BusyOnBusy
 ```
 
 その次の例では、コマンドが「Chrystal Velasquez」というユーザーの通話中オプションを構成します。 この構成では、通話中に着信があるとボイスメールに転送されます。
 
-```
+```powershell
 Set-CsBusyOptions -Identity "Chrystal Velasquez" -ActionType VoicemailOnBusy
 ```
 
 [Get-CsBusyOptions](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx) cmdlet を使用して、通話中オプションに関する構成情報を取得できます。 次の例では、"KenMyer@Contoso.com" の [取り込み中] オプションの設定を返します。
 
-```
+```powershell
 Get-CsBusyOptions -Identity sip:KenMyer@Contoso.com
 ```
 
 [Remove-CsBusyOptions](https://technet.microsoft.com/library/159e5931-10f1-4226-bcc4-38548f88f0d4.aspx) cmdlet を使用して、通話中オプションを削除できます。 次のコマンドは「Ken Myer」の通話中オプションを削除します。
 
-```
+```powershell
 Remove-CsBusyOptions -Identity "Ken Myer"
 ```
 
@@ -129,7 +129,7 @@ Busy のオプションを構成するために使用するコマンドレット
 
 集中ログ サービスを使用して通話中オプションのログを有効にするには、次のように指定します。
 
-```
+```powershell
 $p1 = New-CsClsProvider -Name S4 -Type WPP -Level Info -Flags All
 $p2 = New-CsClsProvider -Name Sipstack -Type WPP -Level Info -Flags
  "TF_PROTOCOL,TF_CONNECTION,TF_SECURITY,TF_DIAG,TF_SHOW_CONFERENCE,TF_SHOW_ALLREQUESTS,TF_SHOW_ALLSIPHEADERS" -Role Registrar

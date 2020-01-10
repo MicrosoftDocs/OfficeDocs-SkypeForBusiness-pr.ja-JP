@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c33bb6c2-d43b-4fb6-a0fa-6d82a7b09abe
 description: Skype for Business Server Enterprise Voice でグループ通話のピックアップを有効にして、グループ番号を割り当てることができます。
-ms.openlocfilehash: 78bdd78bf7e5bb3a9438a60b54a89664d22666ee
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 8ded9fbf7e9a9c8034684c1477c6aad92bfc9e5f
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240349"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002547"
 ---
 # <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business"></a>Skype for Business でユーザーのグループ通話のピックアップを有効にし、グループ番号を割り当てる
 
@@ -36,13 +36,13 @@ Skype for Business Server Enterprise Voice でグループ通話のピックア�
 
 2. コマンド ラインで、次のコマンドを実行します。
 
-   ```
+   ```console
    SEFAUtil.exe sip:<sip address of user> /server:<pool FQDN> /enablegrouppickup:<group number>
    ```
 
     たとえば、グループ番号 199 をユーザーに割り当てるには
 
-   ```
+   ```console
    SEFAUtil.exe katarina@contoso.com /server:pool01.contoso.com /enablegrouppickup:199
    ```
 

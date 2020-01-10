@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c2fda202-db2f-4122-b630-7df11a697c5f
 description: Get-CcApplianceDirectory コマンドレットは、Skype for Business Cloud Connector エディションのホスト サーバーでの作業ディレクトリを取得します。すべての展開ファイルはこのディレクトリに保存されます。
-ms.openlocfilehash: ada1b587b738d882f81557e61438d6642aa03fff
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 77064676062411c3417e554e422b0ffaae461191
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287392"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003407"
 ---
 # <a name="get-ccappliancedirectory"></a>Get-CcApplianceDirectory
  
@@ -24,7 +24,7 @@ Get-CcApplianceDirectory コマンドレットは、Skype for Business Cloud Con
   
 このコマンドレットは Skype for Business Cloud Connector エディション 1.4.1、1.4.2 に適用されます。
   
-```
+```powershell
 Get-CcApplianceDirectory
 ```
 
@@ -39,7 +39,7 @@ Get-CcApplianceDirectory
 
 次の例は、クラウドコネクタコンポーネントの構成ファイルと仮想マシンファイルが保存されている現在のフォルダーを示しています。
   
-```
+```powershell
 Get-CcApplianceDirectory
 ```
 

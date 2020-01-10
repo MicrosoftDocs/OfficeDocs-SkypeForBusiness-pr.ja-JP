@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
 description: Skype for Business Server Enterprise Voice でお知らせアプリケーションのお知らせを作成または削除します。 これは、割り当てられていない番号への通話の処理方法に影響します。
-ms.openlocfilehash: b9f745a4b3b5a85548cc52cc1e883159a01ec1df
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 50a55908e238dfc1e3ce3d9979d554c7115576a2
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233568"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001197"
 ---
 # <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>Skype for Business Server でお知らせを作成または削除する
 
@@ -56,13 +56,13 @@ Skype for Business Server Enterprise Voice でお知らせアプリケーショ�
 
 4. 音声ガイダンスの場合は、次のように実行します。
 
-   ```
+   ```powershell
    Import-CsAnnouncementFile -Parent <service of the Application Server running the Announcement application> -FileName <name for file in File Store> -Content Byte [<contents of file in byte array>]
    ```
 
 5. 次のコマンドレットを実行します。
 
-   ```
+   ```powershell
    New-CsAnnouncement -Parent <service of Application Server running the Announcement application, in the form: service:ApplicationServer:<fqdn>> -Name <unique name to be used as destination in unassigned number table> [-AudioFilePrompt <FileName specified in Import-CsAnnouncementFile>] [-TextToSpeechPrompt <text string to be converted to speech>] [-Language <Language for playing the TTS prompt (required for PromptTts)>] [-TargetUri sip:SIPAddress for transferring caller after announcement]
    ```
 
@@ -70,7 +70,7 @@ Skype for Business Server Enterprise Voice でお知らせアプリケーショ�
 
     たとえば、音声ガイダンスを指定するには、次の形式を使用します。
 
-   ```
+   ```powershell
    $a = Get-Content ".\PromptFile.wav" -ReadCount 0 -Encoding Byte
    Import-CsAnnouncementFile -Parent service:ApplicationServer:pool0@contoso.com -FileName "ChangedNumberMessage.wav" -Content $a
    New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Number Changed Announcement" -AudioFilePrompt "ChangedNumberMessage.wav"
@@ -78,11 +78,11 @@ Skype for Business Server Enterprise Voice でお知らせアプリケーショ�
 
     たとえば、TTS によるガイダンスを指定するには、次の形式を使用します。
 
-   ```
+   ```powershell
    New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Help Desk Announcement" -TextToSpeechPrompt "The Help Desk number has changed. Please dial 5550100." -Language "en-US"
    ```
 
-   これらのコマンドレットについて詳しくは、「 **TextToSpeechPrompt**パラメーターで使う言語コードの一覧を表示する」を[](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps)ご覧ください。
+   これらのコマンドレットについて詳しくは、「 **TextToSpeechPrompt**パラメーターで使う言語コードの一覧[を表示する](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps)」をご覧ください。
 
 ## <a name="delete-an-announcement-for-unassigned-numbers"></a>割り当てられていない番号のアナウンスの削除
 
@@ -94,24 +94,24 @@ Skype for Business Server Enterprise Voice でお知らせアプリケーショ�
 
 3. 組織のすべてのアナウンスの一覧を取得します。コマンド ラインで次のコマンドを実行します。
 
-   ```
+   ```powershell
    Get-CsAnnouncement
    ```
 
 4. 表示された一覧で、削除するアナウンスを見つけて、その GUID をコピーします。次に、コマンド ラインで次のコマンドを実行します。
 
-   ```
+   ```powershell
    Remove-CsAnnouncement -Identity "<Service:service ID/guid>"
    ```
 
     例:
 
-   ```
+   ```powershell
    Remove-CsAnnouncement -Identity "ApplicationServer:Redmond.contoso.com/1951f734-c80f-4fb2-965d-51807c792b90"
    ```
 
     > [!NOTE]
-    > その他のオプションの詳細については、「 [csannouncement](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps)と Csannouncement の[削除](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps)」を参照してください。
+    > その他のオプションの詳細については、「 [csannouncement](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps)と[Csannouncement の削除](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps)」を参照してください。
 
 ## <a name="see-also"></a>関連項目
 

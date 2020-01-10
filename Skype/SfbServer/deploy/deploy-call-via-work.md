@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4802d733-14ef-4509-92b9-07173614e45f
 description: '概要: 一部またはすべてのユーザーに対して、Skype for Business Server で作業を通じて通話を展開する方法について説明します。'
-ms.openlocfilehash: d1c55e44cae944664a51eaddb2ad54e758d4f52c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d989c05b6b2b3e01a3a96e66133ec314029329e1
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234255"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002707"
 ---
 # <a name="deploy-call-via-work-in-skype-for-business-server"></a>Skype for Business Server での作業による通話の展開
  
@@ -58,13 +58,13 @@ ms.locfileid: "36234255"
 
 - 次のコマンドレットを入力します。
     
-  ```
+  ```powershell
   Set-CsRoutingConfiguration -CallViaWorkCallerId +<PhoneNumber>
   ```
 
     たとえば、次のコマンドレットではグローバル電話番号が 1-555-123-4567 に設定されます。
     
-  ```
+  ```powershell
   Set-CsRoutingConfiguration -CallViaWorkCallerId +15551234567
   ```
 
@@ -72,13 +72,13 @@ ms.locfileid: "36234255"
 
 - 次のコマンドレットを入力します。
     
-  ```
+  ```powershell
   New-CsCallViaWorkPolicy [-Identity] <XdsIdentity> [-Tenant <guid>] [-Enabled <bool>] [-UseAdminCallbackNumber  <bool>] [-AdminCallbackNumber <string>] [-InMemory] [-Force] [-WhatIf] [-Confirm]  [<CommonParameters>]
   ```
 
     たとえば、次のコマンドレットでは、ContosoUser1CvWP という勤務ポリシーを使って通話を作成し、管理者のコールバック番号を使用するようにユーザーに要求し、そのコールバック番号を1-555-789-1234 に設定します。
     
-  ```
+  ```powershell
   New-CsCallViaWorkPolicy -Identity Tag:ContosoUser1CvWP -Enabled $true -UseAdminCallbackNumber $true -AdminCallbackNumber +15557891234
   ```
 
@@ -86,13 +86,13 @@ ms.locfileid: "36234255"
 
 - 次のコマンドレットを入力します。
     
-  ```
+  ```powershell
   Grant-CsCallViaWorkPolicy -Identity <UserName> -PolicyName Tag:<PolicyName>
   ```
 
     たとえば、次のコマンドレットは、Work policy "ContosoUser1CvWP" を使って呼び出しを、 **ContosoUser1**という名前のユーザーに割り当てます。
     
-  ```
+  ```powershell
   Grant-CsCallViaWorkPolicy -Identity ContosoUser1 -PolicyName Tag:ContosoUser1CvWP
   ```
 

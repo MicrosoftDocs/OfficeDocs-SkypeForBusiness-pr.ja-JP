@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 description: '概要: Skype for Business Server ボイスメール用に Exchange Server ユニファイドメッセージングを構成します。'
-ms.openlocfilehash: 514b2159c3836aee4bd6bcfad2b85311280277c4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 61df3cb7f57a0fd924188f43374f0309d081b660
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36238008"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001207"
 ---
 # <a name="configure-exchange-server-unified-messaging-for-skype-for-business-server-voice-mail"></a>Skype for Business Server ボイス メールに対する Exchange Server ユニファイド メッセージングの構成
  
@@ -30,7 +30,7 @@ Skype for Business Server を使用すると、ボイスメールメッセージ
   
 Skype for Business Server と Exchange Server 2016 または Exchange Server 2013 の間にサーバー間認証を既に構成している場合は、ユニファイドメッセージングを設定することができます。 そのためには、まず Exchange Server で新しいユニファイドメッセージングダイヤルプランを作成して割り当てる必要があります。 たとえば、次の2つのコマンド (Exchange 管理シェル内から実行) では、Exchange 用の新しい3桁のダイヤルプランを構成します。
   
-```
+```powershell
 New-UMDialPlan -Name "RedmondDialPlan" -VoIPSecurity "Secured" -NumberOfDigitsInExtension 3 -URIType "SipName" -CountryOrRegionCode 1
 Set-UMDialPlan "RedmondDialPlan" -ConfiguredInCountryOrRegionGroups "Anywhere,*,*,*" -AllowedInCountryOrRegionGroups "Anywhere"
 ```
@@ -52,13 +52,13 @@ Set-UMDialPlan "RedmondDialPlan" -ConfiguredInCountryOrRegionGroups "Anywhere,*,
   
 新しいダイヤルプランを作成して構成した後、新しいダイヤルプランをユニファイドメッセージングサーバーに追加し、そのサーバーのスタートアップモードを変更する必要があります。特に、スタートアップモードを "デュアル" に設定する必要があります。 Exchange 管理シェルでは、次の2つのタスクを実行できます。
   
-```
+```powershell
 Set-UmService -Identity "atl-exchangeum-001.litwareinc.com" -DialPlans "RedmondDialPlan" -UMStartupMode "Dual"
 ```
 
 ユニファイドメッセージングサーバーの構成が完了したら、次に、Import-exchangecertificate コマンドレットを実行して、Exchange 証明書がユニファイドメッセージングサービスに適用されていることを確認します。
   
-```
+```powershell
 Enable-ExchangeCertificate -Server "atl-umserver-001.litwareinc.com" -Thumbprint "EA5A332496CC05DA69B75B66111C0F78A110D22d" -Services "SMTP","IIS","UM"
 ```
 
@@ -66,7 +66,7 @@ Enable-ExchangeCertificate -Server "atl-umserver-001.litwareinc.com" -Thumbprint
   
 ユニファイド メッセージング サーバーの構成が終了すると、UM Call Router を構成できます。
   
-```
+```powershell
 Set-UMCallRouterSettings -Server "atl-exchange-001.litwareinc.com" -UMStartupMode "Dual" -DialPlans "RedmondDialPlan" 
 Enable-ExchangeCertificate -Server "atl-umserver-001.litwareinc.com" -Thumbprint "45BAA32496CC891169B75B9811320F78A1075DDA" -Services "IIS","UMCallRouter"
 ```
@@ -75,13 +75,13 @@ Enable-ExchangeCertificate -Server "atl-umserver-001.litwareinc.com" -Thumbprint
   
 ユニファイド メッセージングのセットアップを完了するには、UM メールボックス ポリシーを作成し、そのポリシーを使用して、ユーザーのユニファイド メッセージングを有効にする必要があります。次のようなコマンドを使用して、メールボックス ポリシーを作成できます。
   
-```
+```powershell
 New-UMMailboxPolicy -Name "RedmondMailboxPolicy" -AllowedInCountryOrRegionGroups "Anywhere"
 ```
 
 また、次のようなコマンドを使用して、ユーザーのユニファイド メッセージングを有効にできます。
   
-```
+```powershell
 Enable-UMMailbox -Extensions 100 -SIPResourceIdentifier "kenmyer@litwareinc.com" -Identity "litwareinc\kenmyer" -UMMailboxPolicy "RedmondMailboxPolicy"
 ```
 
@@ -89,14 +89,14 @@ Enable-UMMailbox -Extensions 100 -SIPResourceIdentifier "kenmyer@litwareinc.com"
   
 メールボックスを有効にすると、ユーザー kenmyer@litwareinc.com は Exchange ユニファイド メッセージングを使用できるようになります。 Skype for Business Server 管理シェル内から[テスト用の CsExUMConnectivity](https://docs.microsoft.com/powershell/module/skype/test-csexumconnectivity?view=skype-ps)コマンドレットを実行することで、ユーザーが Exchange UM に接続できることを確認できます。
   
-```
+```powershell
 $credential = Get-Credential "litwareinc\kenmyer"
 Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 ```
 
 ユニファイド メッセージングが有効化されている 2 番目のユーザーがいる場合は、[Test-CsExUMVoiceMail](https://docs.microsoft.com/powershell/module/skype/test-csexumvoicemail?view=skype-ps) コマンドレットを使用して、この 2 番目のユーザーが最初のユーザーにボイスメール メッセージを残せることを確認できます。
   
-```
+```powershell
 $credential = Get-Credential "litwareinc\pilar"
 Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress "sip:kenmyer@litwareinc.com" -SenderSipAddress "sip:pilar@litwareinc.com" -SenderCredential $credential
 ```
@@ -105,7 +105,7 @@ Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress
 
 ## <a name="configuring-unified-messaging-on-microsoft-exchange-server"></a>Microsoft Exchange Server でのユニファイドメッセージングの構成 
 > [!IMPORTANT]
-> Exchange ユニファイドメッセージング (UM) を使用して、通話の応答、Outlook Voice Access、またはエンタープライズ Voip サービスを提供する場合は、「 [Skype For business での Exchange ユニファイドメッセージングの統合を計画](../../plan-your-deployment/integrate-with-exchange/unified-messaging.md)する」を参照してください。手順については、こちらを参照してください。 
+> Exchange ユニファイドメッセージング (UM) を使用して、通話応答、Outlook Voice Access、またはエンタープライズボイスユーザー向けの自動応答サービスを提供する場合は、「 [Skype For business での Exchange ユニファイドメッセージングの統合の計画](../../plan-your-deployment/integrate-with-exchange/unified-messaging.md)」を参照して、このセクションの手順に従ってください。 
 
 エンタープライズ Voip と連携するように Exchange ユニファイドメッセージング (UM) を構成するには、次の作業を行う必要があります。
 
@@ -198,7 +198,7 @@ Skype for Business Server に接続するには、Exchange Server がサーバ�
 
 **CA 証明書をインストールするには、次の操作を行います。**
 
-1. Exchange UM を実行しているサーバーで、[**スタート**]、[実行]、[名前を指定**** して**実行**] の順にクリックし、[ **OK**] をクリックして、Microsoft 管理コンソール (mmc) を開きます。
+1. Exchange UM を実行しているサーバーで、[**スタート**]、[**実行**]、[名前を指定して実行 **] の順にクリック**し、[ **OK**] をクリックして、Microsoft 管理コンソール (mmc) を開きます。
 2. [**ファイル**] メニューで、[スナップインの**追加と削除**] をクリックし、[**追加**] をクリックします。
 3. [**スタンドアロンスナップ**インの追加] ボックスで、[**証明書**] をクリックし、[**追加**] をクリックします。
 4. [**証明書スナップイン**] ダイアログ ボックスの [**コンピューター アカウント**] をクリックし、[**次へ**] をクリックします。

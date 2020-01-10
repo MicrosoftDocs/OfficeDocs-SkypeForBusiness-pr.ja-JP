@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: クラウドコネクタエディションの展開のトラブルシューティングを行います。
-ms.openlocfilehash: 1049ec2f8f3b85c71c7b9203916b79764e9be161
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3edc67d5887c21543e4cbb01a6057a0c657e95e3
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286724"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002077"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>Cloud Connector 展開をトラブルシューティングする
  
@@ -76,11 +76,11 @@ ms.locfileid: "34286724"
     
     **解像度:** この問題は自動的に解決することはできません。 Nic は、実行中に Vm に追加することはできません。 Hyper-v manager でこれらの Vm をシャットダウンして削除してから、次のコマンドレットを実行してください。
     
-  ```
+  ```powershell
   Uninstall-CcAppliance
   ```
 
-  ```
+  ```powershell
   Install-CcAppliance
   ```
 
@@ -111,7 +111,7 @@ ms.locfileid: "34286724"
     
     ルート CA 証明書と、外部証明書の中間 CA 証明書をすべて手動でエッジ サーバーにをインポートしてから、エッジ サーバーを再起動します。エッジ サーバーで RTCMRAUTH サービスと RTCSRV サービスが開始したことを確認したら、ホスト サーバーに戻り、管理者として PowerShell コンソールを起動し、次のコマンドレットを実行して新しい展開に切り替えます。
     
-  ```
+  ```powershell
   Switch-CcVersion
   ```
 
@@ -123,7 +123,7 @@ ms.locfileid: "34286724"
     
 1. ホスト サーバーで、管理者として PowerShell コンソールを起動して、次を実行します。
     
-   ```
+   ```powershell
    Enter-CcUpdate
    ```
 
@@ -131,7 +131,7 @@ ms.locfileid: "34286724"
     
 3. PowerShell コンソールで、次のコマンドレットを実行します。
     
-   ```
+   ```powershell
    Exit-CcUpdate
    ```
 
@@ -145,19 +145,19 @@ ms.locfileid: "34286724"
     
     **解像度:** Skype for Business テナント管理者の資格情報を使用してテナントリモート PowerShell セッションを開始し、次のコマンドレットを実行して、サイトの_Enableautoupdate_構成を確認します。
     
-  ```
+  ```powershell
   Get-CsHybridPSTNSite
   ```
 
     _Enableautoupdate_が**True**に設定されている場合、CCEManagement サービスは仮想マシンとホストサーバーの両方の Windows 更新プログラムのダウンロードとインストールを処理するため、この警告メッセージは安全に無視できます。 _Enableautoupdate_が**False**に設定されている場合は、次のコマンドレットを実行して**True**に設定します。
     
-  ```
+  ```powershell
   Set-CsHybridPSTNSite -EnableAutoUpdate $true
   ```
 
     または、更新プログラムを手動で確認してインストールすることができます。 次のセクションを参照してください。
     
-- **問題: エラーメッセージが表示さ\<れる: 現在の入力/構成サイト\>名また\<\> \<\> \<はコンピューター名または仲介サーバーの IP アドレスが原因で、アプライアンスを登録できません\>既存のアプライアンスと競合しています。コンフリクト製品を削除するか、入力/構成情報を更新して、もう一度登録します。' Register-CcAppliance を実行して、現在のアプライアンスをオンラインに登録します。**
+- **問題: エラーメッセージが表示される: 現在の入力/ \<構成サイト\>名また\<\> \<はアプライアンスのドメイン\> \<名または仲介サーバーの IP アドレス\>が既存のアプライアンスと競合しているため、アプライアンスを登録できません。コンフリクト製品を削除するか、入力/構成情報を更新して、もう一度登録します。' Register-CcAppliance を実行して、現在のアプライアンスをオンラインに登録します。**
     
     **解像度:** アプライアンスのドメイン\<\>名、 \<仲介サーバーの FQDN\> 、 \<仲介サーバーの IP アドレス\>の値は、一意であり、1つのアプライアンス登録でのみ使用されている必要があります。 既定では\<、ホスト名\>から取得されます。 \<構成 ini ファイル\>で\<定義されて\>いる仲介サーバーの FQDN と仲介サーバーの IP アドレス。
     
@@ -167,13 +167,13 @@ ms.locfileid: "34286724"
     
     次に、Skype for Business テナント管理者の資格情報を使用してテナントリモート PowerShell を起動し、次のコマンドレットを実行して登録済みのアプライアンスを確認します。
     
-  ```
+  ```powershell
   Get-CsHybridPSTNAppliance
   ```
 
     競合を特定したら、登録済みアプライアンスと一致する情報を CloudConnector.ini ファイルで更新するか、既存のアプライアンスを登録解除して、競合を解決します。
     
-  ```
+  ```powershell
   Unregister-CsHybridPSTNAppliance -Force
   ```
 
@@ -205,7 +205,7 @@ ms.locfileid: "34286724"
     
 1. Enter-CcUpdate コマンドレットを実行して、サービスをドレインし、アプライアンスをメンテナンス モードにします。
    
-   ```
+   ```powershell
    Enter-CcUpdate
    ```
    
@@ -213,7 +213,7 @@ ms.locfileid: "34286724"
     
     2.0 より前のクラウドコネクタリリースの場合:
     
-    ```
+    ```powershell
     Reset-CcCACertificate 
     Renew-CcServerCertificate 
     Remove-CcLegacyServerCertificate 
@@ -221,7 +221,7 @@ ms.locfileid: "34286724"
 
     または、クラウドコネクタのリリース2.0 以降:
     
-    ```
+    ```powershell
     Reset-CcCACertificate 
     Update-CcServerCertificate 
     Remove-CcLegacyServerCertificate 
@@ -229,13 +229,13 @@ ms.locfileid: "34286724"
     
 3. ゲートウェイと仲介サーバーの間で TLS が使用されている場合は、アプライアンスから CcRootCertificate コマンドレットを実行してから、エクスポートされた証明書を PSTN ゲートウェイにインストールします。 また、ゲートウェイで証明書を再発行する必要がある場合もあります。
 
-   ```
+   ```powershell
    Export-CcRootCertificate
    ```
 
 4. 終了-CcUpdate コマンドレットを実行してサービスを開始し、メンテナンスモードを終了します。
 
-   ```
+   ```powershell
    Exit-CcUpdate
    ```
 
@@ -246,13 +246,13 @@ ms.locfileid: "34286724"
     
 1. 最初のアプライアンスで、CcCertificationAuthorityFile コマンドレットを実行して、 \<siteroot\>ディレクトリにある CA バックアップファイルをクリーンアップします。
 
-     ```
+     ```powershell
      Remove-CcCertificationAuthorityFile
      ```
     
 2. 「CcUpdate」コマンドレットを実行してサービスをドレインし、各アプライアンスをメンテナンスモードにします。
 
-     ```
+     ```powershell
      Enter-CcUpdate
      ```
     
@@ -260,7 +260,7 @@ ms.locfileid: "34286724"
     
      2.0 より前のクラウドコネクタリリースの場合:
     
-     ```
+     ```powershell
      Reset-CcCACertificate
      Renew-CcServerCertificate
      Remove-CcLegacyServerCertificate 
@@ -268,7 +268,7 @@ ms.locfileid: "34286724"
 
      または、クラウドコネクタのリリース2.0 以降:
     
-     ```
+     ```powershell
      Reset-CcCACertificate
      Update-CcServerCertificate
      Remove-CcLegacyServerCertificate 
@@ -276,13 +276,13 @@ ms.locfileid: "34286724"
 
 4. 最初のアプライアンスで、次のコマンドレットを実行して、CA ファイルを\<siteroot\>フォルダにバックアップします。
     
-     ```
+     ```powershell
      Backup-CcCertificationAuthority
      ```
    
 5. 同じサイト内の他のすべてのアプライアンスで、次のコマンドを実行して CA バックアップファイルを使用すると、すべてのアプライアンスで同じルート証明書が使用され、新しい証明書が要求されます。 
    
-     ```
+     ```powershell
      Reset-CcCACertificate
      Update-CcServerCertificate
      Remove-CcLegacyServerCertificate 
@@ -290,22 +290,22 @@ ms.locfileid: "34286724"
      
 6. ゲートウェイと仲介サーバーの間で TLS が使用されている場合は、サイト内の任意のアプライアンスから CcRootCertificate コマンドレットを実行し、エクスポートされた証明書を PSTN ゲートウェイにインストールします。 また、ゲートウェイで証明書を再発行する必要がある場合もあります。
   
-     ```
+     ```powershell
      Export-CcRootCertificate
      ```
      
 7. 終了-CcUpdate コマンドレットを実行してサービスを開始し、メンテナンスモードを終了します。 
 
-     ```
+     ```powershell
      Exit-CcUpdate
      ```
     
     
-- **問題: クラウドコネクタ管理サービスログ "C:\Program Files\Skype for Business Cloud Connector Edition\ManagementService\CceManagementService.log": CceService Error: 0: 予期しない例外が発生したときに、次のエラーメッセージが表示される状態をオンラインに報告: CmdletInvocationException: ユーザー \<グローバルテナント管理者\>のログオンに失敗しました。新しい credential オブジェクトを作成して、正しいユーザー名とパスワードを使用したことを確認してください。---\>**
+- **問題: クラウドコネクタ管理サービスログ "C:\Program Files\Skype for Business Cloud Connector Edition\ManagementService\CceManagementService.log": CceService Error: 0: 状態をオンラインに報告するときに、予期しない例外が発生しました。 CmdletInvocationException: ユーザー \<グローバルテナント管理者\>のログオンに失敗しました。新しい credential オブジェクトを作成して、正しいユーザー名とパスワードを使用したことを確認してください。---\>**
     
     **解像度:** クラウドコネクタのアプライアンスが登録されてから、Office 365 グローバルテナント管理者の資格情報が変更されました。 クラウドコネクタアプライアンスでローカルに保存されている資格情報を更新するには、ホストアプライアンスで、管理者 PowerShell から次の操作を実行します。
     
-  ```
+  ```powershell
   Set-CcCredential -AccountType TenantAdmin
   ```
 
@@ -379,7 +379,7 @@ ms.locfileid: "34286724"
     
   - アプライアンスが正常に展開されたことを示すには、次のように CsCceApplianceDeploymentStatus を実行します。
     
-  ```
+  ```powershell
   Set-CsCceApplianceDeploymentStatus -Identity <Appliance Identity GUID> -Action Deploy -Status Finished
   ```
 
@@ -432,7 +432,7 @@ PowerShell では、このファイルが検出されたモジュールのコマ
     
 2. 次のコマンドレットを使用して、HA からインスタンスを削除します。
     
-   ```
+   ```powershell
    Enter-CcUpdate
    ```
 
@@ -442,7 +442,7 @@ PowerShell では、このファイルが検出されたモジュールのコマ
     
 4. 次のコマンドレットを使用して、HA にインスタンスを戻します。
     
-   ```
+   ```powershell
    Exit-CcUpdate
    ```
 

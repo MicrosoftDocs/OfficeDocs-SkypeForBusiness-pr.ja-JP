@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4598565a-c228-4265-ad03-d2aef95b31a0
 description: ユーザーが Office 365 (クラウド PBX) で電話システムを使用するには、まず、エンタープライズボイスで電話システムを有効にして、電話番号を割り当てる必要があります。 これは、オンプレミスの展開を使用して、ユーザーがオンプレミスの展開をホームにしている場合に行われます。
-ms.openlocfilehash: fdd405d84cddcfe805063287b8330ccea43397de
-ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
+ms.openlocfilehash: 8bf8720896aa8115cb24d3b632b4ae576f466bcc
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "34287511"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003477"
 ---
 # <a name="enable-the-users-for-enterprise-voice-on-premises"></a>オンプレミスのエンタープライズボイスのユーザーを有効にする
  
@@ -52,25 +52,25 @@ ms.locfileid: "34287511"
 
 場合によっては、エンタープライズ VoIP でユーザーを有効にする方法を変更して、ユーザーが正常に発信および受信できることを確認する必要があります。 次の条件を満たすユーザーが展開に含まれている場合は、エンタープライズ Voip のユーザーを有効にするための手順を実行します。
   
-- ユーザーがオンプレミスの広告で作成されていて、Skype for business またはエンタープライズ Voip を有効にせずに、Skype for Business Online と同期していて、LineURI が設定されていない場合は、影響を受けるユーザーごとに次のコマンドレットを実行します。c0 > \> : 環境の実際の値を指定します。
+- ユーザーがオンプレミスの広告で作成されていて、skype for business またはエンタープライズ voip を有効にせずに skype for business Online と同期していて、lineuri が設定されていない場合は、影響\< \>を受けるユーザーごとに次のコマンドレットを実行して、値を環境の実際の値に置き換えます。
     
-  ```
+  ```powershell
   Enable-CsUser $username -HostingProvider sipfed.online.lync.com -SipAddress sip:<UserName>@<SIP Domain>
   ```
 
-  ```
+  ```powershell
   Set-CsUser $username -EnterpriseVoiceEnabled $true -LineUri "tel:+<Telephone Number>"
   ```
 
 - ユーザーがオンプレミスの Skype for Business に対して既に有効になっているが、エンタープライズ Voip では有効になっていない場合、または LineURI を割り当ててから Skype for Business Online に移行している場合は、ユーザーごとに次のコマンドレットを実行します。
     
-  ```
+  ```powershell
   Set-CsUser $username -EnterpriseVoiceEnabled $true -LineUri "tel:+<Telephone Number>"
   ```
 
 - ユーザーがオンプレミスの Skype for Business で既に有効になっているが、エンタープライズ Voip に対して有効になっていない場合は、既に LineURI が割り当てられていても、次のコマンドレットを実行します。
     
-  ```
+  ```powershell
   Set-CsUser $username -EnterpriseVoiceEnabled $true
   ```
 

@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: Cloud Connector と Office 365 テナントの統合を構成する方法を説明します。
-ms.openlocfilehash: b4c70c5698601a2aa69669da3384b6806af98110
-ms.sourcegitcommit: 0d7f3c7a84584ec25a23190187215109c8756189
+ms.openlocfilehash: ed9437026ddbae07aadbe81585886ed0cb5cb0cc
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37508812"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002857"
 ---
 # <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Configure Cloud Connector integration with your Office 365 tenant
  
@@ -69,7 +69,7 @@ Skype for Business Cloud Connector エディションの展開と Office 365 テ
   
 このコマンドレットでは、アクセス エッジ外部 FQDN が設定されます。 コマンドの最初の部分では、 \<外部アクセスエッジ FQDN\>が SIP アクセスエッジロール用である必要があります。 既定では、これは ap の\<ドメイン名\>である必要があります。
   
-```
+```powershell
 Set-CsTenantHybridConfiguration -PeerDestination <External Access Edge FQDN> -UseOnPremDialPlan $false
 Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
 ```
@@ -107,7 +107,7 @@ Office 365 管理ポータルにログインし、オンラインの音声サー
   
 - ユーザーにポリシーを割り当て、 **Identity**パラメーターの値で指定するユーザーのビジネスボイス電話番号を設定します。
     
-  ```
+  ```powershell
   Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI <tel:+phonenumber>
   ```
 
@@ -116,7 +116,7 @@ Office 365 管理ポータルにログインし、オンラインの音声サー
   
 これで、次のスクリプトを使ってユーザーが追加され有効化されたことを確認できます。
   
-```
+```powershell
 # Input the user name you want to verify
 $user = Get-CsOnlineUser <User name>
 
@@ -134,7 +134,7 @@ $user.VoicePolicy
   
 ユーザー単位で国際電話を無効にするには、Skype for Business Online PowerShell で次のコマンドレットを実行します。
   
-```
+```powershell
 Grant-CsVoiceRoutingPolicy -PolicyName InternationalCallsDisallowed -Identity $user
 ```
 
@@ -144,7 +144,7 @@ Grant-CsVoiceRoutingPolicy -PolicyName InternationalCallsDisallowed -Identity $u
 
 サイトを 1 つだけ展開した場合でも、テナントのリモート PowerShell を使用して、サイトをユーザーに割り当てます。 リモート PowerShell セッションを確立する方法については、「 [Windows PowerShell 用にコンピューターを](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx)セットアップする」を参照してください。
   
-```
+```powershell
 # Set the site to users
 Set-CsUserPstnSettings -Identity <User Name> -HybridPstnSite <PSTN Site Name>
 
@@ -168,19 +168,19 @@ P2P 通話が PSTN 会議にエスカレートされると、Skype for Business 
     クラウドコネクタの既定の SIP ドメイン (.ini ファイル内の最初の SIP ドメイン) をユーザードメインとして使用します。
     
     ライセンスの割り当てが必要になるのは、ユーザーが Skype for Business online ディレクトリに伝播する場合のみです。 作成したアカウントに Office 365 ライセンス (E5 など) を割り当て、その変更が反映されるまで1時間ほどかかります。次のコマンドレットを実行して、ユーザーアカウントが Skype for Business online ディレクトリに正しくプロビジョニングされていることを確認します。このアカウントのライセンス。
-    ```
+    ```powershell
    Get-CsOnlineUser -Identity <UserPrincipalName>
    ```
     
 2. グローバルまたはユーザーの管理者資格情報を使用してテナント Azure AD リモート PowerShell セッションを開始し、次のコマンドレットを実行して、手順1で構成された Azure AD ユーザーアカウントの部門を "HybridMediationServer" に設定します。
 
-   ```
+   ```powershell
    Set-MsolUser -UserPrincipalName <UserPrincipalName> -Department "HybridMediationServer"
    ```
 
-3. Skype for Business テナント管理者の資格情報を使用して Skype for business のテナントリモート PowerShell セッションを開始し、次のコマンドレットを実行して、仲介サーバーとエッジサーバー \<の\> FQDN をそのユーザーアカウントに設定して、DisplayName を置き換えます。手順1で作成したアカウントのユーザー名を表示します。
+3. Skype for Business テナント管理者の資格情報を使用して、Skype for business のテナントのリモート PowerShell セッションを開始し、次のコマンドレットを実行して、仲介サーバーと\<エッジ\>サーバーの FQDN をそのユーザーアカウントに設定します。ここでは、手順1で作成したアカウントのユーザーの表示名で DisplayName を置き換えます。
     
-   ```
+   ```powershell
    Set-CsHybridMediationServer -Identity <DisplayName> -Fqdn <MediationServerFQDN> -AccessProxyExternalFqdn <EdgeServerExternalFQDN>
    ```
 

@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 083ffbc6-7c18-4141-85f9-8825b62c3d10
 description: Skype for Business Server Enterprise Voice で、E9 のセカンダリ場所ソース (SLS) データベースを構成します。
-ms.openlocfilehash: 47dd4015cde79536323cee3edc04ed546459a3f0
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 1743a4c5f49fcc01fe2f0878c596e0d1bb530621
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240166"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001998"
 ---
 # <a name="configure-a-secondary-location-information-service-in-skype-for-business-server"></a>Skype for Business Server でセカンダリ場所情報サービスを構成する
  
@@ -33,7 +33,7 @@ Skype for Business Server には、位置情報サービスをセカンダリの
     
 2. 次のコマンドレットを実行して、セカンダリ場所データベースの場所の URL を構成します。 
     
-   ```
+   ```powershell
    Set-CsWebServiceConfiguration -SecondaryLocationSourceURL "<web service url>" 
    ```
 

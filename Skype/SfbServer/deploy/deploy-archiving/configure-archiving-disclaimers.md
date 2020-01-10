@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 394ac291-05cd-4fa1-acb3-714af538b47f
 description: '概要: Skype for Business Server のアーカイブの免責事項を構成する方法については、このトピックをお読みください。'
-ms.openlocfilehash: 5901429918d4cf346cbbf9f1fdad6ff4736817ea
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d6c08b6fe2eaa6c74231b96346661488c3f8e2b0
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234359"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001057"
 ---
 # <a name="configure-archiving-disclaimers-for-external-users-in-skype-for-business-server"></a>Skype for Business Server で外部ユーザーのアーカイブの免責事項を構成する
  
@@ -45,13 +45,13 @@ ms.locfileid: "36234359"
 
 アーカイブについての免責事項を有効にするには、**EnableArchivingDisclaimer** プロパティの値を True ($True) に設定します。
   
-```
+```powershell
 Set-CsAccessEdgeConfiguration -EnableArchivingDisclaimer $True
 ```
 
 アーカイブについての免責事項を無効にするには、**EnableArchivingDisclaimer** プロパティの値を False ($False) に設定します。
   
-```
+```powershell
 Set-CsAccessEdgeConfiguration -EnableArchivingDisclaimer $False
 ```
 

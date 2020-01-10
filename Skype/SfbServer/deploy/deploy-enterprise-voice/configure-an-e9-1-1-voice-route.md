@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6933b840-0e7b-4509-ae43-bc9065677547
 description: Skype for Business Server Enterprise Voice で E9 のボイスルーティングを構成します。
-ms.openlocfilehash: a8121cc7a7345150e485dc2e2b81e062672f5703
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c835aa2ab2b20f7877aa6a0deeb70c7459bcd8cc
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233715"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001397"
 ---
 # <a name="configure-an-e9-1-1-voice-route-in-skype-for-business-server"></a>Skype for Business Server で E9 のボイスルートを設定する
  
@@ -40,7 +40,7 @@ E9-1-1 を展開するには、まず緊急通話用のボイス ルートを構
     
     これは、[場所のポリシー] の [**PSTN**] 設定で使用する名前と同じである必要があります。 展開には複数の電話使用法レコードが含まれますが、次の例では、使用可能な PSTN 使用法の現在の一覧に "Emergency Usage" を追加しています。 詳細については、「 [Skype For business で音声ポリシー、PSTN 使用状況レコード、および音声ルーティングを構成する](voice-and-pstn.md)」を参照してください。
     
-   ```
+   ```powershell
    Set-CsPstnUsage -Usage @{add='EmergencyUsage'}
    ```
 
@@ -48,7 +48,7 @@ E9-1-1 を展開するには、まず緊急通話用のボイス ルートを構
     
     この番号パターンは、[場所のポリシー] の [**緊急ダイヤル文字列**] 設定で使用する番号パターンと同じである必要があります。 Skype for Business は緊急電話に「+」を追加するため、「+」記号が必要です。 "Co1-pstngateway-1" は、E9-1-1 サービス プロバイダーの SIP トランク サービス ID または ELIN ゲートウェイ サービス ID です。 次の例では、ボイス ルートの名前として、"EmergencyRoute" を使用しています。
     
-   ```
+   ```powershell
    New-CsVoiceRoute -Name "EmergencyRoute" -NumberPattern "^\+911$" -PstnUsages @{add="EmergencyUsage"} -PstnGatewayList @{add="co1-pstngateway-1"}
    ```
 
@@ -56,7 +56,7 @@ E9-1-1 を展開するには、まず緊急通話用のボイス ルートを構
     
     次の例では、ユーザーの音声ポリシーに "ローカル" 使用法があることを前提としています。
     
-   ```
+   ```powershell
    New-CsVoiceRoute -Name "LocalEmergencyRoute" -NumberPattern "^\+911$" -PstnUsages @{add="Local"} -PstnGatewayList @{add="co1-pstngateway-2"}
    ```
 

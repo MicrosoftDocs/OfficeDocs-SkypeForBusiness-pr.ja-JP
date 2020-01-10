@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
 description: Skype for Business Server Enterprise Voice での、音楽の保留と ringback の設定など、アプリケーションレベルの応答グループの設定を管理します。
-ms.openlocfilehash: d39569c380abcc22993f7d87fc27143f355e7084
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4c5964d84e5fb84bf1c20c3e43bb0cc4aa25ae17
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240291"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001277"
 ---
 # <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>Skype for Business のアプリケーションレベル応答グループの設定を管理する
  
@@ -37,19 +37,19 @@ Skype for Business Server Enterprise Voice での、音楽の保留と ringback 
     
 3. コマンド ラインで、次のコマンドを実行します。
     
-   ```
+   ```powershell
    Set-CsRgsConfiguration -Identity <name of service hosting Response Group> [-AgentRingbackGracePeriod <# seconds until call returns to agent after declined>] [-DefaultMusicOnHoldFile <audio file>] [-DisableCallContext <$true | $false>]
    ```
 
     例:
     
-   ```
+   ```powershell
    Set-CsRgsConfiguration -Identity "service:ApplicationServer:redmond.contoso.com" -AgentRingbackGracePeriod 30 -DisableCallContext $false
    ```
 
     既定の保留音として使用するオーディオ ファイルを指定するには、まずオーディオ ファイルをインポートする必要があります。次に例を示します。
     
-   ```
+   ```powershell
    $x = Import-CsRgsAudioFile -Identity "service:ApplicationServer:redmond.contoso.com" -FileName "MusicWhileYouWait.wav" -Content (Get-Content C:\Media\ MusicWhileYouWait.wav -Encoding byte -ReadCount 0)
    Set-CsRgsConfiguration -Identity "service:ApplicationServer:redmond.contoso.com" -DefaultMusicOnHoldFile <$x>
    ```
@@ -60,4 +60,4 @@ Skype for Business Server Enterprise Voice での、音楽の保留と ringback 
   
 [Set-CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csrgsconfiguration?view=skype-ps)
   
-[インポート-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)
+[Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)

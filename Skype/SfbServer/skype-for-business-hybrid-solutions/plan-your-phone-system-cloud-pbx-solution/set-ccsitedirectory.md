@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1cd89fd-6968-4ace-a4aa-c4105231cf7b
 description: Set-CcSiteDirectory コマンドレットは、Skype for Business Cloud Connector エディションのサイト レベルの設定ファイルが格納されるディレクトリを設定します。 フォルダーにはベース VHD および Cloud Connector の設定ファイルが含まれます。
-ms.openlocfilehash: d2627da8bcd2cae5e388571457f4d6d9eb6813c9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d0cc8d2a66adb831ea2d85381902eb9d3df7ba6a
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286965"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003197"
 ---
 # <a name="set-ccsitedirectory"></a>Set-CcSiteDirectory
  
@@ -24,7 +24,7 @@ Set-CcSiteDirectory コマンドレットは、Skype for Business Cloud Connecto
   
 このコマンドレットは Skype for Business Cloud Connector エディション 1.4.1、1.4.2 に適用されます。
   
-```
+```powershell
 Set-CcSiteDirectory [[-Path] <string>]
 ```
 
@@ -35,7 +35,7 @@ Set-CcSiteDirectory [[-Path] <string>]
 
 次の例では、サイトのルート\\ディレクトリを SiteShare\CloudConnector に設定します。
   
-```
+```powershell
 Set-CcSiteDirectory -Path "\\SiteShare\CloudConnector"
 ```
 
@@ -49,7 +49,7 @@ Set-CcSiteDirectory -Path "\\SiteShare\CloudConnector"
 ## <a name="parameters"></a>パラメーター
 <a name="DetailedDescription"> </a>
 
-|**パラメーター**|**必須**|**型**|**説明**|
+|**パラメーター**|**必須**|**種類**|**説明**|
 |:-----|:-----|:-----|:-----|
 | Path <br/> | 必須 <br/> | System.String <br/> |クラウドコネクタサイトファイルが保存されるフォルダーのパスを指定します。  <br/> |
    

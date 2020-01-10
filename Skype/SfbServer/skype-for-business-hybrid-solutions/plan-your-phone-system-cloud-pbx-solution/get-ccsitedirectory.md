@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a243758e-6774-4437-ad2e-d5cea5f04eb6
 description: Get-CcSiteDirectory コマンドレットは、サイト レベルの設定ファイルが格納されている現在のディレクトリを示します。 フォルダーにはベース VHD および Skype for Business Cloud Connector エディションのインストール ファイルが含まれます。 このフォルダーは、クラウドコネクタサイトの他のすべてのアプライアンスと共有する必要があります。
-ms.openlocfilehash: e0b8a793f0210535a726b0bed19f240bf8b30dd9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 095776a680fbbcc8c43a8f99700b357175010b5a
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287301"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003367"
 ---
 # <a name="get-ccsitedirectory"></a>Get-CcSiteDirectory
  
@@ -24,7 +24,7 @@ Get-CcSiteDirectory コマンドレットは、サイト レベルの設定フ�
   
 このコマンドレットは Cloud Connector エディション 1.4.1、1.4.2 に適用されます。
   
-```
+```powershell
 Get-CcSiteDirectory
 ```
 
@@ -39,7 +39,7 @@ Get-CcSiteDirectory
 
 次の例は、クラウドコネクタコンポーネントの configuration ファイルと virtual machines ファイルが保存されている現在のフォルダーを示しています。
   
-```
+```powershell
 Get-CcSiteDirectory
 ```
 

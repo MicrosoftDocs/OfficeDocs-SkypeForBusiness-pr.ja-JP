@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: このトピックでは、Skype Room System アカウントに会議ポリシーを割り当てる方法について説明します。
-ms.openlocfilehash: 20115ee2ab361a0bc15bf2053feb3f70bbe6f7ef
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: e235ac84b92f770ae16eec3bd99511e4beea8871
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775370"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003547"
 ---
 # <a name="conferencing-policy-for-skype-room-system-accounts"></a>Skype Room System アカウント用の電話会議ポリシー
  
@@ -46,8 +46,8 @@ Skype Room System アカウントに割り当てられている会議ポリシ�
 |EnableAppDesktopSharing  <br/> |Desktop  <br/> |Skype Room System での [会議の開始] (アドホック) ホワイトボードセッションへの影響  <br/> |
 |AllowConferenceRecording  <br/> |FALSE  <br/> |Skype Room システムの場合は、該当なし。 True の場合、通話先で記録できます  <br/> |
 |EnableP2PRecording  <br/> |FALSE  <br/> |Skype Room システムの場合は、該当なし。 True の場合、通話先で記録できます  <br/> |
-|EnableFileTransfer: False  <br/> |True  <br/> |N/A  <br/> |
-|EnableP2PFileTransfer  <br/> |True  <br/> |N/A  <br/> |
+|EnableFileTransfer: False  <br/> |True  <br/> |該当なし  <br/> |
+|EnableP2PFileTransfer  <br/> |True  <br/> |該当なし  <br/> |
 |EnableP2PVideo  <br/> |TRUE  <br/> |Skype Room System クライアントがピアツーピアビデオセッションに参加できるようにします。  <br/> |
 |AllowLargeMeetings  <br/> |False  <br/> |該当なし  <br/> |
 |EnableDataCollaboration  <br/> |True  <br/> |Skype Room System での [会議の開始] (アドホック) ホワイトボードセッションへの影響  <br/> |
@@ -71,7 +71,7 @@ Skype Room System は、ユーザーが会議の参加リンクを使って制�
   
 管理者は、次のコマンドによって、制限のない会議を含めてすべての会議で認証を要求できます。 
   
-```
+```powershell
 Set-CsMeetingConfiguration -RequireRoomSystemsAuthorization $TRUE
 ```
 

@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 80201105-18f7-4c02-9c71-8df5a952f6c7
 description: Skype for Business Server Enterprise Voice で通話受付制御を有効にします。
-ms.openlocfilehash: a1a2259c754af0275e473e6c0d175039450cecf7
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e88c0e87f9c920420ce2091ac2d75d04db6ca98f
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240496"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002567"
 ---
 # <a name="enable-call-admission-control-in-skype-for-business-server"></a>Skype for Business Server で通話受付制御を有効にする
  
@@ -33,13 +33,13 @@ Skype for Business Server Enterprise Voice で通話受付制御を有効にし�
     
 2. Set-CsNetworkConfiguration コマンドレットを実行して、ネットワークの CAC を有効にします。たとえば、以下を実行します。
     
-   ```
+   ```powershell
    Set-CsNetworkConfiguration -EnableBandwidthPolicyCheck 1
    ```
 
     ネットワークの CAC を無効にする場合は、次のように実行します。
     
-   ```
+   ```powershell
    Set-CsNetworkConfiguration -EnableBandwidthPolicyCheck 0
    ```
 

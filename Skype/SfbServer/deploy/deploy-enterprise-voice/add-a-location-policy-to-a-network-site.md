@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 43bfab8a-3d6b-4ca4-8425-879fd910502e
 description: E9-1 の場所のポリシーを Skype for Business Server Enterprise Voice のネットワークサイトに割り当てます。
-ms.openlocfilehash: 4a74b1ee44d1e2f34a51d7859235e10649d0e2ee
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 36885fadddddd1fd0bf5ba91a6e0c30e79ef8b90
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233868"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001427"
 ---
 # <a name="add-a-location-policy-to-a-network-site-in-skype-for-business-server"></a>Skype for Business Server のネットワークサイトに位置情報ポリシーを追加する
  
@@ -45,7 +45,7 @@ E9-1 の場所のポリシーを Skype for Business Server Enterprise Voice の�
     
     **Redmond** とマークされている場所のポリシーを、**Redmond** という名前の既存のネットワーク サイトに割り当てます。
     
-   ```
+   ```powershell
    Set-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"
    ```
 
@@ -57,7 +57,7 @@ E9-1 の場所のポリシーを Skype for Business Server Enterprise Voice の�
     
     ネットワーク地域の新しいネットワーク サイトを作成して、**Redmond** とマークされた場所のポリシーを割り当てます。
     
-   ```
+   ```powershell
    New-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"
    ```
 

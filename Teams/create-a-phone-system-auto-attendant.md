@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Microsoft Teams のクラウド自動応答をセットアップしてテストする方法について説明します。
-ms.openlocfilehash: 2cd468b3a4f151d6ad19d2ad430bb94045fb808f
-ms.sourcegitcommit: 89106cfda0d900d8be541943b7d1537bc69ed57f
+ms.openlocfilehash: 5a018b6c3b193d17bfbabdc5178c095a635e65ea
+ms.sourcegitcommit: 2fab6105dfc4c225de8c09ab79d9c2c273a3e4f6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/16/2019
-ms.locfileid: "40070244"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "41005191"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>クラウドの自動応答をセットアップする
 
@@ -162,6 +162,11 @@ ms.locfileid: "40070244"
   > **組織内の**ユーザーは、オンラインユーザーまたは Skype For business Server を使用してオンプレミスでホストされているユーザーになることができます。
 
   - **音声アプリ**自動応答または設定済みの通話キューを選択します。 サービスに関連付けられているリソースアカウントの名前で、自動応答または通話キューを検索します。
+  - **ボイスメール**このボイスメールへのアクセスが必要な組織内のユーザーを表す Office 365 グループを選びます。 ここでボイスメールの書き起こしを有効にすることができます。 Office 365 グループが必要です。
+
+  > [!NOTE]
+> この自動応答ボイスメールアカウントからユーザーに送信された音声メッセージに、Teams でアクセスすることはできません。 メールとして送信されます。
+
 
 <!-- - **Auto attendant** Select the name of an existing auto attendant.
 - **Call queue** Select the name of an auto attendant that has already been created.
@@ -207,7 +212,9 @@ ms.locfileid: "40070244"
 - **Operator**オペレーターが既に設定されている場合、このオプションは自動的にキー0にマッピングされますが、別のキーに削除したり、再割り当てしたりすることもできます。 このオプションを選択した呼び出し元が指定の演算子に送信されます。 Operator がいずれのキーにも設定されていない場合は、音声コマンド "Operator" も無効になります。 
 - **組織内の**ユーザーは、オンラインユーザーまたは Skype For business Server を使用してオンプレミスでホストされているユーザーになることができます。 ユーザーは、Office 365 のエンタープライズボイスまたは割り当てられた通話プランに対して有効になっている電話システムのライセンスを持っている必要があります。 [**検索名**] フィールドでユーザーを検索します。
 
-  - **音声アプリ**自動応答または設定済みの通話キューを選択します。 アプリケーションに関連付けられているリソースアカウントの名前で、自動応答または通話キューを検索します。
+- **音声アプリ**自動応答または設定済みの通話キューを選択します。 アプリケーションに関連付けられているリソースアカウントの名前で、自動応答または通話キューを検索します。
+
+- **ボイスメール**このボイスメールへのアクセスが必要な組織内のユーザーを表す Office 365 グループを選びます。 ここでボイスメールの書き起こしを有効にすることができます。 Office 365 グループが必要です。
 
 <!-- - **Auto attendant** Select the name of an existing auto attendant in the **Search by name** field. You will also have to select a resource account associated to the auto attendant. The caller who selects this option is sent to that auto attendant.
 - **Call queue** Select the name of an existing call queue in the **Search by name** field. You will also have to select a resource account associated to the call queue. The caller who selects this option is sent to that call queue, where the call is answered by a call agent.

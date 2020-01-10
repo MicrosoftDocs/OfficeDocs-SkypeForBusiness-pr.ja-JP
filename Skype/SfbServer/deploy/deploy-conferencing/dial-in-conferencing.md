@@ -10,18 +10,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 38d9f168-80b8-46f2-a1c0-becd84e58e73
 description: '概要: Skype for Business Server でダイヤルイン会議を構成する方法については、こちらのトピックをお読みください。'
-ms.openlocfilehash: 148e9340d705aba87b80d3b4b7f1e0d321cfbe8a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ff04637cf077bae4c1408a48a487582a04123b54
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234143"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002927"
 ---
 # <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>Skype for Business Server でダイヤルイン会議を設定する
  
 **概要:** このトピックでは、Skype for Business Server でダイヤルイン会議を構成する方法について説明します。
   
-会議のワークロードと選択されたダイヤルイン会議を含むトポロジを作成した後で、ダイヤルイン会議を構成するための追加の手順を実行する必要があります。 このトピックを読む前に、「Skype for Business server での[ダイヤルイン会議の計画](../../plan-your-deployment/conferencing/dial-in-conferencing.md)」、「 [Skype for business server の会議のハードウェアとソフトウェアの要件](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)」、および「展開の[フローチャートとチェックリスト」を参照してください。ダイヤルイン会議](deploy-conferencing.md#deployment-flowchart-and-checklist-for-dial-in-conferencing)。 
+会議のワークロードと選択されたダイヤルイン会議を含むトポロジを作成した後で、ダイヤルイン会議を構成するための追加の手順を実行する必要があります。 このトピックを読む前に、「Skype for Business server での[ダイヤルイン会議の計画](../../plan-your-deployment/conferencing/dial-in-conferencing.md)」、「 [Skype for business server の会議のハードウェアとソフトウェアの要件](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)」、「[ダイヤルイン会議の展開のフローチャートとチェックリスト](deploy-conferencing.md#deployment-flowchart-and-checklist-for-dial-in-conferencing)」を参照してください。 
   
 ダイヤルイン会議を構成するには、次のタスクを実行する必要があります。
   
@@ -83,13 +83,13 @@ ms.locfileid: "36234143"
     
 3. コマンド プロンプトで次のコマンドを実行します。
     
-   ```
+   ```powershell
    Get-CsDialPlan [-Identity <Identifier of the dial plans to be retrieved>]
    ```
 
    次に例を示します。
     
-   ```
+   ```powershell
    Get-CsDialPlan
    ```
 
@@ -107,13 +107,13 @@ ms.locfileid: "36234143"
     
 3. ダイヤルイン会議の地域が含まれていないダイヤル プランで、以下を実行します。
     
-   ```
+   ```powershell
    Set-CsDialPlan [-Identity <Identity of the dial plan to be modified>] -DialinConferencingRegion "<new region>"
    ```
 
    例:
     
-   ```
+   ```powershell
    Set-CsDialPlan -Identity Redmond -DialinConferencingRegion "US West Coast"
    ```
 

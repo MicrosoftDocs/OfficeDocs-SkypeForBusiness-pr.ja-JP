@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 260346d1-edc8-4a0c-8ad2-6c2401c3c377
 description: '概要: Exchange Server 2016 または Exchange Server 2013 および Skype for Business Server の IM トランスクリプトを構成します。'
-ms.openlocfilehash: 89aaf4d931bb3aa33358e314a4dd714fd58e8e7a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: f3ada031b6dc2175ff3241b809a6288daf043010
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244153"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003567"
 ---
 # <a name="configure-skype-for-business-server-to-use-exchange-server-archiving"></a>Exchange Server のアーカイブを使用するように Skype for Business Server を構成する
 
@@ -48,13 +48,13 @@ Skype for Business Server のアーカイブは、主にアーカイブ構成設
 
 EnableExchangeArchiving プロパティは、"EnableExchangeArchiving を True ($True)" に設定して Exchange アーカイブを有効にするか、EnableExchangeArchiving を False ($False) に設定して Exchange のアーカイブを無効にすることができます。 たとえば、次のコマンドを実行すると、インスタントメッセージのトランスクリプトがアーカイブされ、Exchange アーカイブも有効になります。
 
-```
+```powershell
 Set-CsArchivingConfiguration -Identity "global" -EnableArchiving ImOnly -EnableExchangeArchiving $True
 ```
 
 Exchange のアーカイブを無効にするには、次のようなコマンドを使用します。これにより、インスタントメッセージアーカイブは可能になりますが、Exchange へのアーカイブは無効になります (つまり、トランスクリプトは Skype for Business Server にアーカイブされます)。
 
-```
+```powershell
 Set-CsArchivingConfiguration -Identity "global" -EnableArchiving ImOnly -EnableExchangeArchiving $False
 ```
 
@@ -88,19 +88,19 @@ Skype for Business Server と Exchange Server が異なるフォレストに配�
 
 既定では、これらのプロパティの値はどちらも False に設定されており、内部通信セッションも外部通信セッションもアーカイブされません。 グローバルポリシーを変更するには、Skype for Business Server 管理シェルと CsArchivingPolicy コマンドレットを使用します。 次のコマンドを実行すると、内部通信セッションと外部通信セッションの両方のアーカイブが有効になります。
 
-```
+```powershell
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True -ArchiveExternal $True
 ```
 
 また、New-CsArchivingPolicy を使用して、サイト スコープまたはユーザーごとのスコープで新しいポリシーを作成することもできます。たとえば、次のコマンドを実行すると RedmondArchivingPolicy という名前の新しいユーザーごとのアーカイブ ポリシーが作成されます。
 
-```
+```powershell
 New-CsArchivingPolicy -Identity "RedmondArchivingPolicy" -ArchiveInternal $True -ArchiveExternal $True
 ```
 
 ユーザーごとのポリシーを作成した場合は、そのポリシーを適切なユーザーに割り当てる必要があります。次に例を示します。
 
-```
+```powershell
 Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName  "RedmondArchivingPolicy"
 ```
 
@@ -120,13 +120,13 @@ Skype for Business Server と Exchange Server が異なるフォレストに配�
 
 たとえば、インスタントメッセージングと Web 会議のトランスクリプトが常に Exchange にアーカイブされるようにユーザーアカウントを構成するには、次のようなコマンドを Skype for Business Server 管理シェルから使うことができます。
 
-```
+```powershell
 Set-CsUser -Identity "Ken Myer" -ExchangeArchivingPolicy ArchivingToExchange
 ```
 
 ユーザーのグループ (たとえば、指定したレジストラー プールに所属するすべてのユーザー) に同じアーカイブ ポリシーを設定する場合は、次のようなコマンドを使用します。
 
-```
+```powershell
 Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.litwareinc.com"} | Set-CsUser -ExchangeArchivingPolicy ArchivingToExchange
 ```
 
@@ -134,13 +134,13 @@ ExchangeArchivingPolicy プロパティの値を構成するためには、Skype
 
 特定のアーカイブ ポリシーを割り当てられているすべてのユーザーの一覧を表示するには、次のようなコマンドを使用します。このコマンドを実行すると、ExchangeArchivingPolicy プロパティが Uninitialized に設定されているすべてのユーザーの Active Directory 表示名が取得されます。
 
-```
+```powershell
 Get-CsUser | Where-Object {$_.ExchangeArchivingPolicy -eq "Uninitialized"} | Select-Object DisplayName
 ```
 
 同様に、次のコマンドを実行すると、ExchangeArchivingPolicy プロパティが UseLyncArchivingPolicy に設定されていないユーザーの表示名が取得されます。
 
-```
+```powershell
 Get-CsUser | Where-Object {$_.ExchangeArchivingPolicy -ne "UseLyncArchivingPolicy"} | Select-Object DisplayName
 ```
 

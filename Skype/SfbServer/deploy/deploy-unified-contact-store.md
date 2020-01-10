@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d1c9ebd8-af42-42a0-87d9-fc899fbd7c42
 description: '概要: Skype for Business Server でユニファイド連絡先ストアを有効にします。'
-ms.openlocfilehash: 39317316be6c4590e992c61e91549748f3bf6719
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 6cadba38f40a8ff12501e0fe73f4243dc96a5831
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239319"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003067"
 ---
 # <a name="deploy-unified-contact-store-in-skype-for-business-server"></a>Skype for Business Server にユニファイド連絡先ストアを展開する
  
@@ -44,37 +44,37 @@ Skype for Business Server を展開してトポロジを公開すると、既定
     
    - すべての Skype for Business Server ユーザーに対して、統合された連絡先ストアをグローバルに有効にするには、Windows PowerShell コマンドラインインターフェイスで次のコマンドレットを実行します。
     
-   ```
+   ```powershell
    Set-CsUserServicesPolicy -Identity global -UcsAllowed $True
    ```
 
    - 統合連絡先ストアを特定のサイトのユーザーに対して有効にするには、プロンプトで次のように入力します。
     
-   ```
+   ```powershell
    New-CsUserServicesPolicy -Identity site:<site name> -UcsAllowed $True
    ```
 
    次に例を示します。
     
-   ```
+   ```powershell
    New-CsUserServicesPolicy -Identity site:Redmond -UcsAllowed $True
    ```
 
    - 統合連絡先ストアをテナントごとに有効にするには、プロンプトで次のように入力します。
     
-   ```
+   ```powershell
    Set-CsUserServicesPolicy -Tenant <tenantId> -UcsAllowed $True
    ```
 
    例:
     
-   ```
+   ```powershell
    Set-CsUserServicesPolicy -Tenant "38aad667-af54-4397-aaa7-e94c79ec2308" -UcsAllowed $True
    ```
 
    - 統合連絡先ストアを特定のユーザーに対して有効にするには、プロンプトで次のように入力します。
     
-   ```
+   ```powershell
    New-CsUserServicesPolicy -Identity "<policy name>" -UcsAllowed $True
    Grant-CsUserServicesPolicy -Identity "<user display name>" -PolicyName <"policy name">
    ```
@@ -84,7 +84,7 @@ Skype for Business Server を展開してトポロジを公開すると、既定
   
     例:
     
-   ```
+   ```powershell
    New-CsUserServicesPolicy -Identity "UCS Enabled Users" -UcsAllowed $True
    Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName "UCS Enabled Users"
    ```
@@ -108,13 +108,13 @@ Skype for Business Server を展開してトポロジを公開すると、既定
   
 - クライアント コンピューターで次のレジストリ キーを調べます。
     
-    HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync\\<SIP URL\>\ UCS
+    HKEY_CURRENT_USER \Software\Microsoft\Office\15.0\Lync\\<SIP URL\>\ UCS
     
     ユーザーの連絡先が Exchange 2013 に保存されている場合、このキーには2165の値を持つ InUCSMode の値が格納されます。
     
 - **Test-CsUnifiedContactStore** コマンドレットを実行します。 Skype for Business Server 管理シェルコマンドラインで、次のように入力します。
     
-  ```
+  ```powershell
   Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
   ```
 
@@ -139,6 +139,6 @@ Skype for Business Server を展開してトポロジを公開すると、既定
 > [!IMPORTANT]
 > Exchange のメールボックスを exchange 2013 から Exchange 2010 に移動する前に、Exchange 管理者が、skype for business server のユーザー連絡先を Exchange 2013 から Skype にロールバックしていることを確認する必要があります。Business Server。 ユニファイド連絡先ストアの連絡先を Skype for Business Server にロールバックするには、このセクションの後半の「ユニファイド連絡先ストアの連絡先を Exchange 2013 から Skype for Business Server にロールバックする」の手順を参照してください。 
   
- **ユーザーの連絡先をロールバックする方法を教えてください。****ムーブグループ**ユーザーコマンドレットを使用して、Skype For business server 2015 と Lync server 2010 の間でユーザーを移動する場合は、次の手順をスキップできます。**移動-csuser**コマンドレットは、skype からユーザーを移動するときに統合された連絡先ストアを自動的にロールバックします。Business Server 2015 から Lync Server 2010。 **ムーブグループユーザー**は、ユニファイド連絡先ストアポリシーを無効にしないため、ユーザーを Skype For business Server 2015 に戻すと、統合連絡先ストアへの移行が繰り返されます。
+ **ユーザーの連絡先をロールバックする方法を教えてください。****ムーブグループユーザーコマンドレットを**使用して、Skype for business server 2015 と lync server 2010 の間でユーザーを移動する場合は、ユーザーが Skype For business server 2015 から lync server 2010 に**移行した**ときに、次の手順をスキップできます。 **ムーブグループユーザー**は、ユニファイド連絡先ストアポリシーを無効にしないため、ユーザーを Skype For business Server 2015 に戻すと、統合連絡先ストアへの移行が繰り返されます。
   
 

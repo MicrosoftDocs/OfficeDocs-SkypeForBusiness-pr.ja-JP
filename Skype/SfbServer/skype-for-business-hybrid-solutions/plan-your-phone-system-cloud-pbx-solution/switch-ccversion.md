@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 95e37b13-525b-4690-be32-839312e4ffe3
 description: 'Switch-CcVersion コマンドレットは、実行中のアプライアンスとスイッチの、新規に展開されたアプライアンスまたはバックアップ インスタンスへの接続を切断します。 '
-ms.openlocfilehash: e63c5ea6d74e979f7fc9fe5a4c5eae97a0689e1e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 157d1b677cc6c63d7707c9e1633cd8b6e3ad5927
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286930"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003157"
 ---
 # <a name="switch-ccversion"></a>Switch-CcVersion
  
 Switch-CcVersion コマンドレットは、実行中のアプライアンスとスイッチの、新規に展開されたアプライアンスまたはバックアップ インスタンスへの接続を切断します。  
   
-```
+```powershell
 Switch-CcVersion [-Force]
 ```
 
@@ -33,7 +33,7 @@ Switch-CcVersion [-Force]
 
 次の例では、現在実行中のアプライアンスのサービスをドレインして、新規に展開されたアプライアンスまたはバックアップ アプライアンスに切り替えます。
   
-```
+```powershell
 Switch-CcVersion
 ```
 
@@ -41,7 +41,7 @@ Switch-CcVersion
 
 次の例では、現在実行中のアプライアンスのサービスをドレインし、サービスのドレインに失敗した場合は強制的にサービスを停止します。 コマンドにより、新規に展開されたアプライアンスまたはバックアップ アプライアンスへの接続が切断されます。
   
-```
+```powershell
 Switch-CcVersion -Force
 ```
 
@@ -53,7 +53,7 @@ Switch-CcVersion -Force
 ## <a name="parameters"></a>パラメーター
 <a name="DetailedDescription"> </a>
 
-|**パラメーター**|**必須**|**型**|**説明**|
+|**パラメーター**|**必須**|**種類**|**説明**|
 |:-----|:-----|:-----|:-----|
 | Force <br/> | 省略可能 <br/> |System.Management.Automation.SwitchParameter  <br/> |  サービスのドレインに失敗した場合は強制的にサービスを停止します。 <br/> |
    
