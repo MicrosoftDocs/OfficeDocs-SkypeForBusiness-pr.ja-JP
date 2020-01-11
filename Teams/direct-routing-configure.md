@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Phone システムのダイレクトルーティングを構成する方法について説明します。
-ms.openlocfilehash: c109dd919ad2842f38d135cba848ad2a7b34914d
-ms.sourcegitcommit: fa20ea88e6a1c5d16ec3a364fc9d2b9a942cec9d
+ms.openlocfilehash: 7a3cd61c3b92482fd402b58734b2af720c21cf3a
+ms.sourcegitcommit: f238d70aa34cded327ed252b0eb2704cc7f8f5c5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 01/11/2020
-ms.locfileid: "41022292"
+ms.locfileid: "41023421"
 ---
 # <a name="configure-direct-routing"></a>ダイレクト ルーティングを構成する
 
@@ -176,15 +176,7 @@ Office 365 で新規ユーザーを作成するには、2つのオプション�
 
 Skype for business Online の展開が Skype for Business 2015 または Lync 2010/2013 のオンプレミスで共存している場合、サポートされているのは、オンプレミスの Active Directory でユーザーを作成して、ユーザーをクラウドに同期する方法 (オプション 1) だけです。 
 
-必要なライセンス: 
-
-- Office 365 Enterprise E3 (SfB Plan2、Exchange Plan2、Teams など) + 電話システム
-- Office 365 Enterprise E5 (SfB Plan2、Exchange Plan2、Teams、電話システムなど) 
-
-オプションのライセンス: 
-
-- 通話プラン 
-- 電話会議 
+ライセンス要件の詳細については、「[プランダイレクトルーティング](direct-routing-plan.md)の[ライセンスとその他の要件](direct-routing-plan.md#licensing-and-other-requirements)」を参照してください。
 
 ### <a name="ensure-that-the-user-is-homed-in-skype-for-business-online"></a>ユーザーが Skype for Business Online に所属していることを確認する 
 

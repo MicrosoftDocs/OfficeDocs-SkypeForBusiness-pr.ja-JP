@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a621c4e1cfcf9e485b68fd96a76d9179cef84a48
-ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
+ms.openlocfilehash: a1e8e74924bac23e2f8067fa5aa4d83a214b63d7
+ms.sourcegitcommit: f238d70aa34cded327ed252b0eb2704cc7f8f5c5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40952600"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "41023391"
 ---
 # <a name="install-microsoft-teams-using-msi"></a>MSI を使用して Microsoft Teams をインストールする
 
@@ -81,14 +81,21 @@ VDI に Teams デスクトップアプリを展開する方法の詳細なガイ
 > [!TIP]
 > [Microsoft Teams の展開のクリーン アップ](scripts/Powershell-script-teams-deployment-clean-up.md) スクリプトを使用して、SCCM を介して手順 1 と 2 を完了することができます。
 
-## <a name="disable-auto-launch-for-the-msi-installer"></a>MSI インストーラーの自動起動を無効にします。
+## <a name="prevent-teams-from-starting-automatically-after-installation"></a>インストール後にチームが自動的に起動しないようにする
 
-MSI の既定の動作では、ユーザーがサインインするとすぐに Teams クライアントをインストールしてから自動的に Teams を起動します。 次のように、以下のパラメーターを使用してこの動作を変更できます。
+MSI の既定の動作では、ユーザーがサインインしてからチームを自動的に開始するとすぐに Teams アプリをインストールすることになります。 ユーザーがインストールした後にチームが自動的に起動しないようにするには、グループポリシーを使ってポリシー設定を設定するか、MSI インストーラーの自動起動を無効にします。
 
-- ユーザーが Windows にログインする場合、Teams が MSI と一緒にインストールされる
-- ただし、ユーザーが Teams を手動で開始するまで、Teams のクライアントは起動しない
-- Teams を起動するショートカットは、ユーザーのデスクトップに追加される
-- 手動で開始すると、ユーザーがログインするたびに Teams が自動的に起動する
+#### <a name="use-group-policy-recommended"></a>グループポリシーを使用する (推奨)
+
+[**インストール後に Microsoft Teams が自動的に起動しないよう**にする] グループポリシー設定を有効にします。 このポリシー設定は、User の microsoft Teams で確認できます。 この方法は、組織のニーズに合わせてポリシー設定をオフまたはオンにすることができるため、お勧めします。
+
+Teams をインストールする前にこのポリシー設定を有効にすると、ユーザーが Windows にログインしてもチームは自動的に開始されません。 ユーザーが初めて Teams にサインインすると、次回ユーザーがログインしたときに自動的にチームが開始されます。
+
+詳細については、「グループポリシーを使用して、[インストール後にチームが自動的に起動しないように](https://docs.microsoft.com/deployoffice/teams-install#use-group-policy-to-prevent-microsoft-teams-from-starting-automatically-after-installation)する」を参照してください。
+
+### <a name="disable-auto-launch-for-the-msi-installer"></a>MSI インストーラーの自動起動を無効にします。
+
+次のように**OPTIONS = "noAutoStart = true"** パラメーターを使用して、MSI インストーラーの自動起動を無効にすることができます。  
 
 32 ビット 版向け
 ```PowerShell
@@ -99,5 +106,7 @@ msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true"
 msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true"
 ```
 
+ユーザーが Windows にログインすると、Teams が MSI と共にインストールされ、チームを開始するためのショートカットがユーザーのデスクトップに追加されます。 ユーザーが Teams を手動で開始するまで、チームは開始されません。 ユーザーが手動でチームを開始すると、ユーザーがログインするたびにチームが自動的に開始されます。
+
 > [!Note]
-> MSI を手動で実行する場合は、昇格されたアクセス許可で実行します。 昇格されたアクセス許可がなく、管理者として実行する場合でも、インストーラーは自動起動を無効にするオプションを構成できません。
+> MSI を手動で実行する場合は、昇格されたアクセス許可で実行します。 管理者として実行しても、昇格されたアクセス許可で実行しなければ、インストーラーは自動開始を無効にするオプションを構成できません。
