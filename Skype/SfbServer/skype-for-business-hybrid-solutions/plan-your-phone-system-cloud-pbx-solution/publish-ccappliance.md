@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e7d5b63e-ba7c-4757-8670-f96b2a91e646
 description: Publish-CcAppliance コマンドレットは高可用性の情報をオンラインのテナント構成から取得して、ホスト サーバー上の Skype for Business Cloud Connector エディションのアプライアンスに公開します。
-ms.openlocfilehash: 2fd17e2afdceabc8fbfb44a808b7e6c9ce6bd894
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: da9135f669cb5b8cbe127295b20d82fd1632a3d3
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287161"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003087"
 ---
 # <a name="publish-ccappliance"></a>Publish-CcAppliance
  
 Publish-CcAppliance コマンドレットは高可用性の情報をオンラインのテナント構成から取得して、ホスト サーバー上の Skype for Business Cloud Connector エディションのアプライアンスに公開します。 
   
-```
+```powershell
 Publish-CcAppliance
 ```
 
@@ -37,7 +37,7 @@ Publish-CcAppliance
 
 次の例では、オンラインテナント構成から高可用性情報を取得し、それをホストサーバー上のクラウドコネクタアプライアンスに公開しています。
   
-```
+```powershell
 Publish-CcAppliance
 ```
 

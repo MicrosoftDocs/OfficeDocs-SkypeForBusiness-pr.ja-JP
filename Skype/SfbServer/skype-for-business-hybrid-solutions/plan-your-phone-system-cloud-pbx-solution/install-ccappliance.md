@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 385453cd-3a96-4837-8bb4-513aa97a256b
 description: Install-CcAppliance コマンドレットは、AD、中央管理ストア (CMS)、仲介サーバー、エッジ サーバー仮想マシンなどの、Skype for Business Cloud Connector エディションのアプライアンスをホスト　サーバーにインストールします。
-ms.openlocfilehash: 01c689c4a4639c12292d59def6b698281f402299
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cccf500c6506c8ba3459631d5c823940907ad213
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287273"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003327"
 ---
 # <a name="install-ccappliance"></a>Install-CcAppliance
  
 Install-CcAppliance コマンドレットは、AD、中央管理ストア (CMS)、仲介サーバー、エッジ サーバー仮想マシンなどの、Skype for Business Cloud Connector エディションのアプライアンスをホスト　サーバーにインストールします。 
   
-```
+```powershell
 Install-CcAppliance [-Steps <array>] [-SkipExistingObjects] [-Upgrade] [-UpdateAllCredentials] [<CommonParameters>]
 Install-CcAppliance [-Steps <array>] [-PrepareOnly]  [<CommonParameters>]
 Install-CcAppliance [-ShowStepsOnly]  [<CommonParameters>]
@@ -35,7 +35,7 @@ Install-CcAppliance [-ShowStepsOnly]  [<CommonParameters>]
 
 次の例では、新しいクラウドコネクタアプライアンスをホストサーバーにインストールします。
   
-```
+```powershell
 Install-CcAppliance
 ```
 
@@ -43,7 +43,7 @@ Install-CcAppliance
 
 次の例では、Cloud Connector を最新バージョンにアップグレードします。
   
-```
+```powershell
 Install-CcAppliance -Upgrade
 ```
 
@@ -51,7 +51,7 @@ Install-CcAppliance -Upgrade
 
 次の例では、ホストサーバーにキャッシュされているすべてのクラウドコネクタの資格情報を削除し、すべての資格情報をもう一度指定するようにユーザーに求めるメッセージを表示して、次にクラウドコネクタをインストールします。
   
-```
+```powershell
 Install-CcAppliance -UpdateAllCredentials
 ```
 
@@ -59,7 +59,7 @@ Install-CcAppliance -UpdateAllCredentials
 
 次の例は、PowerShell コンソールでの展開のすべての手順を示します。
   
-```
+```powershell
 Install-CcAppliance -ShowStepsOnly
 ```
 
@@ -67,9 +67,9 @@ ShowStepsOnly パラメーターは、トラブルシューティングのみで
   
 ### <a name="example-5"></a>例 5
 
-次の例では、ホスト サーバーでの展開の各手順で構成ファイルを生成します。 構成ファイルは、ホストサーバー \<上\>の ApplianceRoot\\\\>Instances <Version フォルダーに保存されます。
+次の例では、ホスト サーバーでの展開の各手順で構成ファイルを生成します。 構成ファイルは、ホストサーバー \<上\>の ApplianceRoot\\ \ Instances\><の default\ExportedConfig フォルダーに保存されます。
   
-```
+```powershell
 Install-CcAppliance -PrepareOnly
 ```
 
@@ -79,7 +79,7 @@ Install-CcAppliance -PrepareOnly
 
 次の例では、Cloud Connector が展開の手順 1、2、3 を実行して仮想スイッチの作成、AD 仮想マシンの作成、および AD サーバーへのドメイン サービスのインストールを行います。既に実行済みの手順はスキップされます。
   
-```
+```powershell
 Install-CcAppliance -Steps @(1,2,3) -SkipExistingObjects
 ```
 
@@ -104,7 +104,7 @@ CcAppliance コマンドレットを使用して、新しいアプライアン�
 ## <a name="parameters"></a>パラメーター
 <a name="DetailedDescription"> </a>
 
-|**パラメーター**|**必須**|**型**|**説明**|
+|**パラメーター**|**必須**|**種類**|**説明**|
 |:-----|:-----|:-----|:-----|
 |PrepareOnly  <br/> |省略可能  <br/> |System.Management.Automation.SwitchParameter  <br/> | 展開の各手順について、構成ファイルを生成します。このパラメーターは、トラブルシューティングのみで使用されます。 <br/> |
 |ShowStepsOnly  <br/> |省略可能  <br/> |System.Management.Automation.SwitchParameter  <br/> |展開の手順の名前のみを表示します。このパラメーターは、トラブルシューティングのみで使用されます。  <br/> |

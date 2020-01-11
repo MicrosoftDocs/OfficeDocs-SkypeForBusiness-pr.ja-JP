@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7d370abd-0c01-4490-88a1-55b42e51b663
 description: Cloud Connector アプライアンスのバージョンを返します。 Get-CCVersion は Cloud Connector のホスト マシンでのみ使用できます。
-ms.openlocfilehash: b002b4a9f0cae34a2cdd7b8817e86a3e4ec2eb9a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a7d50bbcd01dc80fe3e2202286c1adc1b5d5f9bd
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287252"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003347"
 ---
 # <a name="get-ccversion"></a>Get-CcVersion
  
 Cloud Connector アプライアンスのバージョンを返します。 Get-CCVersion は Cloud Connector のホスト マシンでのみ使用できます。
   
-```
+```powershell
 Get-CcVersion [[-VersionType] <String>] [<CommonParameters>]
 ```
 
@@ -32,7 +32,7 @@ Get-CcVersion [[-VersionType] <String>] [<CommonParameters>]
   
 ## <a name="parameters"></a>パラメーター
 
-|**パラメーター**|**必須**|**型**|**説明**|
+|**パラメーター**|**必須**|**種類**|**説明**|
 |:-----|:-----|:-----|:-----|
 |VersionType  <br/> |省略可能  <br/> |System.String  <br/> |バージョンのタイプ。 パラメーターの値は、RunningScripts、RunningBits、BackupBits または All になります。 既定値は RunningScripts です。   <br/> |
    
@@ -43,7 +43,7 @@ Get-CcVersion [[-VersionType] <String>] [<CommonParameters>]
 
 次の例は、開いている PowerShell コンソールで現在実行されているスクリプトのクラウドコネクタバージョンを示しています。
   
-```
+```powershell
 Get-CcVersion
 ```
 
@@ -51,7 +51,7 @@ Get-CcVersion
 
 次の例は、仮想マシンに展開されている現在実行されているバイナリのクラウドコネクタバージョンを示しています。 バージョンは、Hyper-v Manager において実行中の仮想マシンの名前から確認できます。
   
-```
+```powershell
 Get-CCVersion -VersionType RunningBits
 ```
 
