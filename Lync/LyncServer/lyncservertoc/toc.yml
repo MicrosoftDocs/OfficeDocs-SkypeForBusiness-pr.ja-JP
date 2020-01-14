@@ -440,7 +440,7 @@
                 - name: 常設チャット サーバーのプライマリ データベースの SQL Server ログ配布を設定する
                   href: ../lync-server-2013-setting-up-sql-server-log-shipping-for-the-persistent-chat-server-primary-database.md
                 - name: プライマリ ミラーとログ配布セカンダリ データベース間での SQL Server ログ配布のセットアップ
-                  href: ../lync-server-2013-setting-up-sql-server-log-shipping-between-the-primary-mirror-and-the-log-shipping-secondary-database.md
+                  href: ../lync-server-2013-set-up-log-shipping-secondary-database.md
             - name: Lync Server 2010 大都市サイト復元
               href: ../lync-server-2013-compatibility-with-lync-server-2010-metropolitan-site-resiliency.md
         - name: 管理性と仮想化の計画
@@ -610,7 +610,7 @@
                   href: ../lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md
                   items:
                     - name: 証明書の概要 - 拡張統合エッジ、NAT によるプライベート IP アドレスを使用した DNS 負荷分散
-                      href: ../lync-server-2013-certificate-summary-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md
+                      href: ../lync-server-2013-certificate-summary-scaled-consolidated-edge-dns-load-balancing-private-ip.md
                     - name: ポートの概要 - 拡張統合エッジ、NAT によるプライベート IP アドレスを使用した DNS 負荷分散
                       href: ../lync-server-2013-port-summary-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md
                     - name: DNS の概要 - 拡張統合エッジ、NAT によるプライベート IP アドレスを使用した DNS 負荷分散
@@ -3029,7 +3029,7 @@
                 - name: BackCompatSite を削除する
                   href: ../remove-backcompatsite.md
         - name: Lync Server 2010、グループ チャットまたは Office Communicatins Server 2007 R2 グループ チャットから Lync Server 2013、常設チャット サーバーへの移行
-          href: ../migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md
+          href: ../migrate-to-lync-server-2013-persistent-chat-server.md
           items:
             - name: 標準移行シナリオ - 概要
               href: ../standard-migration-scenario-high-level.md
@@ -3838,7 +3838,7 @@
                   items:
                     - name: デバイス更新構成設定の表示
                       href: ../lync-server-2013-view-device-update-configuration-settings.md
-                    - name: デバイス更新構成設定のコレクションを作成または変更する
+                    - name: デバイス更新の構成設定のコレクションの作成または変更
                       href: ../lync-server-2013-create-or-modify-a-collection-of-device-update-configuration-settings.md
                     - name: デバイス更新プログラムの構成設定のコレクションを削除する
                       href: ../lync-server-2013-delete-a-collection-of-device-update-configuration-settings.md
@@ -3959,9 +3959,9 @@
               href: ../lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md
               items:
                 - name: 特定のサイトまたはユーザーに対して、内部または外部の通信のアーカイブを有効または無効にするアーカイブポリシーを作成する
-                  href: ../lync-server-2013-creating-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-specific-sites-or-users.md
+                  href: ../lync-server-2013-create-archiving-policy-sites-users.md
                 - name: 組織、サイト、またはユーザーの内部または外部の通信のアーカイブを有効または無効にするアーカイブポリシーの変更
-                  href: ../lync-server-2013-changing-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-your-organization-sites-or-us.md
+                  href: ../lync-server-2013-change-archiving-policy-org-sites-users.md
                 - name: ユーザーへのアーカイブポリシーの適用
                   href: ../lync-server-2013-applying-an-archiving-policy-to-users.md
                 - name: Exchange Server との統合を使用するときにアーカイブするためのポリシーを設定する
@@ -3978,7 +3978,7 @@
                 - name: アーカイブデータの削除を有効または無効にする
                   href: ../lync-server-2013-enabling-or-disabling-the-purging-of-archived-data.md
                 - name: アーカイブに失敗した場合に IM および web 会議セッションをブロックまたは許可するために、重要なモードを有効または無効にする
-                  href: ../lync-server-2013-enabling-or-disabling-critical-mode-to-block-or-allow-im-and-web-conferencing-sessions-if-archiving-fails.md
+                  href: ../lync-server-2013-enable-disable-critical-mode.md
                 - name: フェデレーション パートナーに対するアーカイブ免責事項の送信の有効化または無効化
                   href: ../lync-server-2013-enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md
                 - name: Exchange ストレージとの統合を有効または無効にする
