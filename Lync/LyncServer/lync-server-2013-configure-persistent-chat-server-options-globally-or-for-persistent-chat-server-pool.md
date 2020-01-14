@@ -5,23 +5,23 @@ ms.author: v-lanac
 author: lanachin
 TOCTitle: Configure Persistent Chat Server options globally or for Persistent Chat Server pool
 ms:assetid: 1e8d5245-cd58-4aad-9a1c-35b24189bc40
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204731(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204731(v=OCS.15)
 ms:contentKeyID: 48183581
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed79d1144c1ccb7abeac8dcf7d1f4d44c63e93e5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3fedd0d1adb4149c3dc2ea41c5321259f571524f
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840355"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111691"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool-in-lync-server-2013"></a>Lync Server 2013 で常設チャット サーバーのオプションをグローバルに、または常設チャット サーバー プール用に構成する
 
@@ -35,7 +35,7 @@ ms.locfileid: "34840355"
 
 _**最終更新日:** 2012-10-06_
 
-Lync Server 2013 コントロールパネルでは、常設**チャット**ページの**常設チャット構成**セクションを使用して、常設チャットサーバープール全体または特定の場所に適用されている常設チャット設定をグローバルに構成することができます。常設チャットサーバープール。
+Lync Server 2013 コントロールパネルでは **、常設チャットページの****常設チャット構成**セクションを使用して、すべての常設チャットサーバープールまたは特定の常設チャットサーバープールに適用される常設チャット設定をグローバルに構成することができます。
 
 <div>
 

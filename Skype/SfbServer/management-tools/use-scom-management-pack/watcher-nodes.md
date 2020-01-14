@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: '概要: Skype for Business Server の代理トランザクション用にウォッチャーノードをインストールして構成します。'
-ms.openlocfilehash: 7711c7c2009149fc6dd49ed34b4c55312cb7417a
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 8c7ea0465d9a53bd8972c823ef7bfc7d7ee9b4bc
+ms.sourcegitcommit: 208179a3dd166f53b5a3058242cb84207909f4ee
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992444"
+ms.lasthandoff: 01/13/2020
+ms.locfileid: "41104486"
 ---
 # <a name="install-and-configure-watcher-nodes"></a>監視ノードのインストールと構成
  
@@ -192,7 +192,7 @@ New-CsTrustedApplication -ApplicationId STWatcherNode -TrustedApplicationPoolFqd
 Enable-CsTopology
 ```
 
-Enable-CsTopology を実行後、コンピューターを再起動します。
+ウォッチャーノードのコンピューターアカウントでは、一部の代理トランザクションについて CMS にクエリを行う機能が必要です。 この機能を許可するには、watcher ノードのコンピューターアカウントを RTCUniversalReadOnlyAdmins セキュリティグループに追加します。 AD のレプリケーションが行われたら、コンピューターを再起動します。
   
 新しい信頼済みアプリケーションが作成されたことを確認するには、Skype for Business Server 管理シェルプロンプトで次のように入力します。
   

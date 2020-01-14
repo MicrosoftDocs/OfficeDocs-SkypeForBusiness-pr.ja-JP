@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: このトピックでは、Office 365 で Microsoft Teams のルームを展開する方法について説明します。
-ms.openlocfilehash: 467a7300a2912dcaffe66a44f0f6e181d36ced1c
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: cda552fbc38196751ccdcc105bcf9973fe321edd
+ms.sourcegitcommit: 208179a3dd166f53b5a3058242cb84207909f4ee
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675441"
+ms.lasthandoff: 01/13/2020
+ms.locfileid: "41104476"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-office-365"></a>Office 365 での Microsoft Teams ミーティングを展開する
 
@@ -205,7 +205,7 @@ Microsoft teams または Skype for Business Online で Microsoft Teams のル�
 
 4. [**ライセンス**] オプションをクリックします。
 
-5. [**ライセンスの割り当て**] セクションで、ライセンスに応じて Skype For business Online (プラン 2) または Skype For business Online (プラン 3) を選択する必要があります。これは、使用しているライセンスと、エンタープライズボイスの必要条件によって決定された内容によって異なります。 Microsoft Teams のルームでクラウド PBX を使用する場合は、プラン3ライセンスを使用する必要があります。 最低でも、音声接続用に CloudPBX が必要です。 次に、PSTN の接続方法に基づきハイブリッド音声または PSTN 通話を構成します。 詳細については、「 [Microsoft Teams ルームライセンス](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)」を参照してください。
+5. [**ライセンスの割り当て**] セクションで、ライセンスに応じて Skype For business Online (プラン 2) または Skype For business Online (プラン 3) を選択する必要があります。これは、使用しているライセンスと、エンタープライズボイスの必要条件によって決定された内容によって異なります。 Microsoft Teams のルームでクラウド PBX を使用する場合は、プラン3ライセンスを使用する必要があります。 最低でも、音声接続用に CloudPBX が必要です。 次に、PSTN の接続方法に基づきハイブリッド音声または PSTN 通話を構成します。 詳細については、「 [Microsoft Teams ルームライセンス](skype-room-systems-v2.md)」を参照してください。
 
 6. タスクを完了するには、**[保存]** をクリックします。
 
@@ -263,4 +263,4 @@ Enable-CsMeetingRoom -Identity rigel1@contoso.onmicrosoft.com -RegistrarPool sip
 
 [Microsoft Teams Rooms を管理する](skype-room-systems-v2.md)
 
-[Microsoft Teams 会議室のライセンス](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
+[Microsoft Teams 会議室のライセンス](skype-room-systems-v2.md)

@@ -14,12 +14,12 @@ search.appverid: MET150
 description: IT 管理者は、テナントレベルでのゲストの追加、ゲスト ユーザー ポリシーと権限の設定と管理、ゲストを招待できるユーザーの判別、ゲスト ユーザーのアクティビティに関するレポートの取得を行うことができます。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 41630c14c7d1aa9233f53df3c83bd36081d18682
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: 42910da02c55866e0ce4e04a099b60e55577ab8c
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37753292"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111361"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Microsoft Teams でのゲスト アクセスを管理する
 ======================================
@@ -27,7 +27,7 @@ ms.locfileid: "37753292"
 > [!IMPORTANT]
 > 変更が有効になるまで最大24時間かかることがあります。 
 
-**ゲスト**は、すべての Office 365 Business Premium、Office 365 Enterprise、Office 365 エデュケーションサブスクリプションに含まれている Microsoft Teams のユーザーの種類です。 追加の Office 365 ライセンスは不要です。 [ゲストアクセスライセンス](#guest-access-licensing-limits)の詳細については、以下を参照してください。
+**ゲスト**は、すべての Office 365 Business Premium、Office 365 Enterprise、Office 365 Business Essentials、および Office 365 エデュケーションサブスクリプションに含まれている、Microsoft Teams のユーザーの種類です。 追加の Office 365 ライセンスは不要です。 [ゲストアクセスライセンス](#guest-access-licensing-limits)の詳細については、以下を参照してください。
 
 Teams のゲスト アクセスはテナントレベルの設定であり、既定ではオフになっています。 ゲストアクセスを有効にする方法の詳細については、「 [Teams へのゲストアクセスを有効また](set-up-guests.md)は無効にする」を参照するか、[ゲストアクセスのチェックリスト](guest-access-checklist.md)を使用してセットアップを確認してください。
 
@@ -47,7 +47,7 @@ Azure Active Directory (Azure AD) ポータルを使用して、ゲストと、O
 
 ## <a name="guest-access-licensing-limits"></a>ゲストアクセスライセンスの制限
 
-Teams では追加することができるゲストの数に制限はありません。 ただし、テナントに追加できるゲストの合計数は、Azure AD のライセンスで許可されているもの (通常は、ライセンス付与されたユーザー1人あたり5ゲスト) に基づいています。 詳しくは、「[Azure Active Directory B2B コラボレーションのライセンスに関するガイダンス](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)」をご覧ください。
+Teams では追加することができるゲストの数に制限はありません。 ただし、テナントに追加することができるゲストの合計数は、ご利用の Azure AD ライセンスによって許可されるものに基づきます。通常はライセンス ユーザーごとに 5 人です。 詳細については、「[Azure AD B2B コラボレーションのライセンス](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)」に関するページを参照してください。
 
 ライセンスの制限があるため (およびテナントを最新の状態に維持するため)、ゲストアクセスを定期的に確認して、必要のないアクセス権を持つユーザーを特定する必要があります。 Azure AD を使用して、アプリケーションに割り当てられているグループメンバーまたはユーザーのアクセスレビューを作成できます。 反復的なアクセス レビューを作成することで、時間を節約できます。 アプリケーションにアクセスできるユーザー、またはメンバーのグループであるユーザーを定期的にレビューする必要がある場合は、それらのレビューの頻度を定義することができます。 
 
@@ -64,7 +64,7 @@ Teams では追加することができるゲストの数に制限はありま�
 Azure Active Directory のゲストアクセスの設定では、Office 365 組織全体で変更が反映されるまでに、2-24 時間がかかります。 ユーザーがチームにゲストを追加しようとしたときに、"管理者に連絡してください" というメッセージが表示される場合は、ゲスト機能が有効になっていないか、設定がまだ有効になっていない可能性があります。 ゲストアクセスの設定の問題については、「 [Teams でのゲストアクセスのトラブルシューティング](troubleshoot-guest-access.md)」を参照してください。
 
   
-## <a name="external-access-federation-vs-guest-access"></a>外部アクセス (フェデレーション) とゲストアクセス
+## <a name="external-access-federation-vs-guest-access"></a>外部アクセス (フェデレーション) とゲスト アクセス
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 

@@ -1,5 +1,5 @@
 ---
-title: PSTN の使用状況のレポート
+title: PSTN の使用状況レポート
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,14 +18,14 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: '[新しい Skype for Business 管理センターのレポート] 領域には、組織内の電話会議アクティビティと電話会議のアクティビティが表示されます。 ここでは、レポートを掘り下げて、各ユーザーのアクティビティについてより細かい洞察を得ることができます。 たとえば、Skype for Business での PSTN 使用状況の詳細レポートを使用して、通話の着信/発信に費やした分数とそれらの通話の料金を確認できます。 通話のコストなど、電話会議の PSTN 利用状況の詳細を表示して、組織内での使用状況を特定するために、使用状況を理解し、請求の詳細を呼び出すことができます。'
-ms.openlocfilehash: bb6c2456a103782caea72baef5ac6e8df26a24a2
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 8f1818a3c80f04676c9e39f424737c3f10cd57e7
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793082"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111451"
 ---
-# <a name="pstn-usage-report"></a>PSTN の使用状況のレポート
+# <a name="pstn-usage-report"></a>PSTN の使用状況レポート
 
 [新しい Skype for Business 管理センターの**レポート**] 領域には、組織内の電話会議アクティビティと電話会議のアクティビティが表示されます。 ここでは、レポートを掘り下げて、各ユーザーのアクティビティについてより細かい洞察を得ることができます。 たとえば、 **Skype for Business での PSTN 使用状況の詳細**レポートを使用して、通話の着信/発信に費やした分数とそれらの通話の料金を確認できます。 通話のコストなど、電話会議の PSTN 利用状況の詳細を表示して、組織内での使用状況を特定するために、使用状況を理解し、請求の詳細を呼び出すことができます。
   
@@ -38,7 +38,7 @@ ms.locfileid: "35793082"
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-usage-details-report"></a>Skype for Business の PSTN 使用状況詳細レポートを取得する方法
 
-![](../images/sfb-logo-30x30.png) **Skype for business 管理センターを使用し**た skype for business ロゴを示すアイコン
+![Skype for Business のロゴを表示したアイコン](../images/sfb-logo-30x30.png) **Skype for Business 管理センターの使用**
 
 - 管理センターに移動して >**管理** > **Skype for business 管理センター** > **レポート** > **PSTN 使用量の詳細**をレポートします。
     
@@ -70,12 +70,12 @@ ms.locfileid: "35793082"
      *    **user_out_forwarding** (PSTN 番号に通話を転送したユーザー)
 
      **電話会議の通話の種類**
-     *    **conf_in**(電話会議ブリッジへの着信通話) 
+     *    **conf_in** (電話会議ブリッジへの着信通話) 
      *    **conf_out** (通常は電話会議に PSTN 番号を追加するための電話会議ブリッジからの発信通話)
 
      **統合コミュニケーション アプリケーション (UCAP)** 
-     *    **ucap_in**(自動応答や通話キューなどの UC アプリケーションへの着信 PSTN 通話) 
-     *    **ucap_out**(自動応答や通話キューなどの UC アプリケーションからの送信 PSTN 通話)
+     *    **ucap_in** (自動応答や通話キューなどの UC アプリケーションへの着信 PSTN 通話) 
+     *    **ucap_out** (自動応答や通話キューなどの UC アプリケーションからの送信 PSTN 通話)
      *    **注:** 自動応答や通話キューなどの UC アプリケーションからユーザーに転送された通話は、ピアツーピア (P2P) の音声通話であるため、PSTN 使用状況レポートには表示されません。 Skype for Business 管理センターの P2P 通話には、"ツール > Skype for Business Call Analytics" のようにアクセスして、ユーザー名または SIP アドレスで検索し、日付/時刻/発信元の CLID (呼び出し行 ID) で検索することができます。 
 *     
      [ **国内/国際**] は、ユーザーの場所に基づいて通話が国内 (国/地域内) または国際 (国/地域外) のどちらと見なされるかを示します。 
@@ -104,10 +104,8 @@ ms.locfileid: "35793082"
 ***
 ![ナンバー 2](../images/sfbcallout2.png)<br/>1 つ以上の列の全データをまとめたビューを作成したい場合は、列を [ **特定の列を基準にグループ化するには、ここに列ヘッダーをドラッグ アンド ドロップします**] にクリック アンド ドラッグします。
  ***
-![ナンバー 3](../images/sfbcallout3.png)<br/>また、[ **excel にエクスポート**] ボタンをクリックまたはタップして、レポートデータをタブ区切りの excel ファイルにエクスポートすることもできます。 現在の日付から1年前までのデータをエクスポートすることができます。<br/><br/> これにより、すべてのユーザーのデータがエクスポートされ、単純な並べ替えとフィルター処理を行ってさらに分析することができます。 ユーザー数が 2000 未満である場合は、レポート自体のテーブル内で並べ替えとフィルター処理を行うことができます。 
-    > [!Note] 
-    > Despite the export file named as .CSV (which implies a comma delimited export), as there may be commas in the data set, the file is actually delimited with **TABS** and not **COMMAS**.
-
+![ナンバー 3](../images/sfbcallout3.png)<br/>また、[ **excel にエクスポート**] ボタンをクリックまたはタップして、レポートデータをコンマ区切りの excel ファイルにエクスポートすることもできます。 国固有の規則によって12か月のデータの保持が禁止されていない限り、現在の日付から1年後にデータをエクスポートすることができます。<br/><br/> これにより、すべてのユーザーのデータがエクスポートされ、単純な並べ替えとフィルター処理を行ってさらに分析することができます。 ユーザー数が 2000 未満である場合は、レポート自体のテーブル内で並べ替えとフィルター処理を行うことができます。 
+    
 ## <a name="want-to-see-other-skype-for-business-reports"></a>Skype for Business のその他のレポートを表示しますか?
 
 - [Skype for Business アクティビティ レポート](activity-report.md) - ユーザーがどの程度ピアツーピア、開催、参加で電話会議セッションを使用しているかを確認できます。

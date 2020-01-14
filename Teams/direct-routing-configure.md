@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Phone システムのダイレクトルーティングを構成する方法について説明します。
-ms.openlocfilehash: 7a3cd61c3b92482fd402b58734b2af720c21cf3a
-ms.sourcegitcommit: f238d70aa34cded327ed252b0eb2704cc7f8f5c5
+ms.openlocfilehash: 40439fd31db458f8cb306c0e3dbd456aa59a7a21
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "41023421"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111731"
 ---
 # <a name="configure-direct-routing"></a>ダイレクト ルーティングを構成する
 
@@ -453,7 +453,7 @@ John 森–任意の番号に通話を発信できます。 Redmond の番号範
 
 #### <a name="example-of-voice-routing-policy-for-user-john-woods"></a>ユーザー John 森のボイスルーティングポリシーの例
 
-PSTN の使用方法として、"インターナショナル"、音声ルート "インターナショナル"、"ボイスルーティングポリシー" (制限なし)、ユーザーを "John 森" に割り当てる手順は次のとおりです。
+PSTN の使用方法として、"インターナショナル"、音声ルート "インターナショナル"、"ボイスルーティングポリシー" (制限なし)、ユーザーを "John 森" に割り当てる手順は次のとおりです。   
 
 
 **手順 1**: PSTN 使用量「国際」を作成します。 

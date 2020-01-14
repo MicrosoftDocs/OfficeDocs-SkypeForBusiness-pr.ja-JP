@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: '概要: このトピックを使用して、Skype for Business Server 2019 サーバーとドメインインフラストラクチャを準備します。 ハードウェア、OS、データベース、ソフトウェア、すべてのシステム要件と推奨事項、証明書の DNS、ファイル共有、Active Directory の情報と共に、サーバーファームのインストールと展開が正常に行われるようにするために、ここに記載されています。'
-ms.openlocfilehash: 41faef4d02927e25e724b0c70922bdc6c5c3e05a
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: ea4ae18a3714058e0df4f42a0190046ce7006ef8
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40988812"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111381"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>Skype for Business Server 2019 のシステム要件
  
@@ -92,7 +92,7 @@ Standard Edition サーバーに推奨されるハードウェア:
 |Windows Server 2016 <br/> ||
 ||
    
-ここに記載されているオペレーティングシステム以外のものは正しく機能しません。Skype for Business Server 2019 のインストールをお試しください。 たとえば、Server Core オプションは表示されません。そのため、サポートされません。
+ここに記載されているオペレーティングシステム以外のものは正しく機能しません。Skype for Business Server 2019 のインストールをお試しください。 たとえば、Server Core オプションは表示されません。そのため、サポートされません。  注: OS のインプレースアップグレードは、Lync Server 2013 ではサポートされていません。  OS が異なる場合は、別のプールを展開して、新しいプールにユーザーを移行する必要があります。
 
 > [!NOTE]
 > 
@@ -115,7 +115,7 @@ Skype for Business Server 2019 を実行しているサーバーについては�
 |**ソフトウェア/役割**|**詳細**|
 |:-----|:-----|
 |Windows PowerShell 3.0  <br/> |すべての Skype for Business Server サーバーには、Windows PowerShell 3.0 がインストールされている必要があります。  <br/> • Windows Server 2016 には、既定でインストールされている必要があります。<br/> |
-|Microsoft .NET Framework  <br/> |WCF サービスは、Windows 機能としてインストールされている**機能**です。**サーバーマネージャー**では、最初にダウンロードする必要はありません。 <br/> •この機能がインストールされているかどうかを確認する必要がある場合、または既にインストールされていて確認している場合は、次のように**HTTP アクティブ化**オプションがオンになっていることを確認する必要があります。 <br/> ![.NET Framework 4.5 機能の下に [HTTP アクティブ化] オプションが表示されたスクリーンショット](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> HTTP アクティブ化をインストールするには、その他のインストールが必要であるという追加のメッセージが表示されても問題はありません。 これは正常です。[OK] をクリックして、進みます。 このポップアップが表示されない場合は、既にインストールされているものと想定してください。  <br/> Microsoft .NET Framework は、通常、Windows Server 2016 がインストールされたときにインストールされます。 Skype for Business Server を使用するには、Microsoft .NET Framework 4.7 または4.8 が必要です。その場合は、おそらく更新が必要です。 更新プログラムは次の[ページで](https://support.microsoft.com/en-us/help/3186497/the-net-framework-4-7-offline-installer-for-windows/)参照できます。<br/> |
+|Microsoft .NET Framework  <br/> |WCF サービスは、Windows 機能としてインストールされている**機能**です。**サーバーマネージャー**では、最初にダウンロードする必要はありません。 <br/> •この機能がインストールされているかどうかを確認する必要がある場合、または既にインストールされていて確認している場合は、次のように**HTTP アクティブ化**オプションがオンになっていることを確認する必要があります。 <br/> ![.NET Framework 4.5 機能の下に [HTTP アクティブ化] オプションが表示されたスクリーンショット](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> HTTP アクティブ化をインストールするには、その他のインストールが必要であるという追加のメッセージが表示されても問題はありません。 これは正常です。[OK] をクリックして、進みます。 このポップアップが表示されない場合は、既にインストールされているものと想定してください。  <br/> Microsoft .NET Framework は、通常、Windows Server 2016 がインストールされたときにインストールされます。 Skype for Business Server を使用するには、Microsoft .NET Framework 4.7 または4.8 が必要です。その場合は、おそらく更新が必要です。 更新プログラムは次の[ページで](https://support.microsoft.com/help/3186497/the-net-framework-4-7-offline-installer-for-windows/)参照できます。<br/> |
 |メディア ファンデーション  <br/> |Windows Server 2016 の場合、Windows Media 形式ランタイムは、Microsoft メディアファンデーションにインストールされます。  <br/> 会議に使われるすべてのフロントエンドサーバーおよび標準エディションのサーバーでは、Windows Media Format Runtime を使用して、コールパーク、お知らせ、および応答グループアプリケーションがお知らせや音楽を再生するための Windows media Audio (.wma) ファイルを実行する必要があります。  <br/> |
 |Windows Identity Foundation  <br/> |Skype for Business Server 2019 のサーバー間認証シナリオをサポートするには、Windows Id ファンデーション3.5 が必要です。  <br/> • Windows Server 2016 の場合は、何もダウンロードする必要はありません。 **サーバー マネージャー**を開いて、[**役割と機能の追加ウィザード**] に進みます。 [**機能**] セクションの一覧に [**Windows Identity Foundation 3.5**] が表示されています。 選択されている場合は、問題ありません。 それ以外の場合は、選択して「**次へ**」をクリックし、「**インストール**」ボタンをクリックします。 <br/> |
 |リモート サーバー管理ツール  <br/> |役割管理ツール: AD DS および AD LDS ツール  <br/> |
@@ -273,7 +273,7 @@ Skype for business Server 2019 に展開した任意のドメインのドメイ�
     
 これらの環境には読み取り専用ドメインコントローラーがありますか? 確かに、書き込み可能なドメインコントローラーも利用できる限り、
   
-Skype for Business Server 2019 では、単一のラベルが付いたドメインをサポートしていないことを知っておくことが重要です。 単一ラベルのドメインがどのようなものかを把握しておいてください。 Contoso. .local というラベルの付いたルートドメインを持っている場合、これは問題ありません。 ローカルという名前のルートドメインがあり、それが機能していない場合、結果としてサポートされません。 詳細については、[このサポート技術情報の記事で](https://support.microsoft.com/kb/300684/en-us)記載されています。
+Skype for Business Server 2019 では、単一のラベルが付いたドメインをサポートしていないことを知っておくことが重要です。 単一ラベルのドメインがどのようなものかを把握しておいてください。 Contoso. .local というラベルの付いたルートドメインを持っている場合、これは問題ありません。 ローカルという名前のルートドメインがあり、それが機能していない場合、結果としてサポートされません。 詳細については、[このサポート技術情報の記事で](https://support.microsoft.com/kb/300684/)記載されています。
   
 Skype for Business Server 2019 では、ドメイン名の変更もサポートされていません。 ドメイン名を変更する必要がある場合は、Skype for Business Server 2019 をアンインストールし、ドメイン名の変更を行ってから、Skype for Business Server 2019 を再インストールする必要があります。
   
@@ -541,7 +541,7 @@ Skype for Business Server 2019 では、access および web 会議エッジの�
 
 Skype for Business Server 2019 では、すべてのファイルストレージに同じファイル共有を使用できます。 以下の点を考慮する必要があります。
   
-- ファイル共有は、直接取り付け記憶域 (DAS) と記憶域ネットワーク (SAN) のいずれかに配置する必要があり、またファイル共有には、分散ファイル システム (DFS) だけでなくファイル ストア用の RAID (Redundant Array of Independent Disks) も含まれます。 Windows Server 2012 向け DFS について詳しくは、[この dfs のページ](https://technet.microsoft.com/en-us/library/jj127250.aspx)をご覧ください。
+- ファイル共有は、直接取り付け記憶域 (DAS) と記憶域ネットワーク (SAN) のいずれかに配置する必要があり、またファイル共有には、分散ファイル システム (DFS) だけでなくファイル ストア用の RAID (Redundant Array of Independent Disks) も含まれます。 Windows Server 2012 向け DFS について詳しくは、[この dfs のページ](https://technet.microsoft.com/library/jj127250.aspx)をご覧ください。
     
 - ファイル共有の共有クラスターをお勧めします。 既にいずれかのバージョンを使用している場合は、Windows Server 2012 以降のバージョンをクラスター化する必要があります。
 

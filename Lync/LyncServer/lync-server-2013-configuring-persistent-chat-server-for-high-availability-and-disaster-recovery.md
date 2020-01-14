@@ -5,23 +5,23 @@ ms.author: v-lanac
 author: lanachin
 TOCTitle: Configuring Persistent Chat Server for high availability and disaster recovery
 ms:assetid: eebc581c-e3a0-4b69-8a43-80b607b4d8f2
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205364(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ205364(v=OCS.15)
 ms:contentKeyID: 48185760
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c42edb14102b9bbf91b06804c365980a6e19345
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0b9ceda51485b0f4f9fde33a9499ca05998176b3
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840191"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111511"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-persistent-chat-server-for-high-availability-and-disaster-recovery-in-lync-server-2013"></a>Lync Server 2013 の高可用性と障害復旧に対応した常設チャット サーバーの構成
 
@@ -51,7 +51,7 @@ Lync Server 2013 の常設チャットサーバーサービスは、障害回復
 
   - [Lync Server 2013 で常設チャット サーバーのプライマリ データベースの SQL Server ログ配布を設定する](lync-server-2013-setting-up-sql-server-log-shipping-for-the-persistent-chat-server-primary-database.md)
 
-  - [Lync Server 2013 でのプライマリ ミラーとログ配布セカンダリ データベース間での SQL Server ログ配布のセットアップ](lync-server-2013-setting-up-sql-server-log-shipping-between-the-primary-mirror-and-the-log-shipping-secondary-database.md)
+  - [Lync Server 2013 でのプライマリ ミラーとログ配布セカンダリ データベース間での SQL Server ログ配布のセットアップ](lync-server-2013-set-up-log-shipping-secondary-database.md)
 
 </div>
 

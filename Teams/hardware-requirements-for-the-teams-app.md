@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fd53a3bb39ba48046ce7670c567f630659daee62
-ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
+ms.openlocfilehash: e2efddf5248c045a7f3f2daf0ef250027cd15127
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40970965"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111351"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Microsoft Teams アプリのハードウェア要件
 
@@ -37,7 +37,7 @@ ms.locfileid: "40970965"
 |ハードディスク    | 3.0 GB の空きディスク領域        |
 |Display    |   1024 x 768 画面の解像度 |
 |グラフィックスハードウェア |  最小 128 MB のグラフィックスメモリ
-|オペレーティング システム  |    Windows 10、Windows 8.1、または Windows 7 Service Pack 1 (32 ビットおよび64ビット)。 最適なエクスペリエンスを実現するには、オペレーティングシステムの最新バージョンを使用します。|
+|オペレーティング システム  |    Windows Server 2012 R2 +、Windows 10、Windows 8.1、または Windows 7 Service Pack 1 (32 ビットと64ビット)。 最適なエクスペリエンスを実現するには、オペレーティングシステムの最新バージョンを使用します。|
 |.NET バージョン    |  .NET 4.5 CLR 以降が必要       |
 |ビデオ    |  USB 2.0 ビデオカメラ       |
 |デバイス    |   標準のラップトップカメラ、マイク、スピーカー    | 
@@ -92,7 +92,7 @@ Teams で最高のエクスペリエンスを実現するには、iOS と Androi
 
 仮想化された環境で Teams を実行するための要件については、「[仮想デスクトップインフラストラクチャのチーム](teams-for-vdi.md)」をご覧ください。 
 
-### <a name="related-topics"></a>関連項目
+### <a name="related-topics"></a>関連トピック
 - [チームアプリを入手する](get-clients.md)
 - [モバイルデバイス上の Microsoft Teams](https://support.office.com/article/Microsoft-Teams-on-mobile-devices-2ACBCF73-8FD4-4929-9B31-AE403B88C2D3)
 - [MSI を使用して Microsoft Teams アプリをインストールする](msi-deployment.md)

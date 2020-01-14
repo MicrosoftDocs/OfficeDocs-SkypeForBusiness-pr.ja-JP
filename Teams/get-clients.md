@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5e47e8e4765bc93c2281efc07766f77f173b0fad
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: f698d46be07c60d2034b2e355ad70b488b2d7646
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40990852"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111481"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams のクライアントを取得する 
 
@@ -39,7 +39,7 @@ Microsoft Teams には、デスクトップ (Windows、Mac、Linux)、web、モ�
 > [!TIP]
 > Windows Desktop Clientの効果、計画や展開の方法については次のセッションを参照してください。[Teams Windows Desktop Client](https://aka.ms/teams-clients)
 
-Microsoft Teams デスクトップクライアントは、スタンドアロンアプリケーションであり、 [Office 365 ProPlus でも利用でき](https://docs.microsoft.com/deployoffice/teams-install)ます。 Teams は Windows (7 +)、32ビットバージョンと64ビットバージョン、macOS (10.10 +)、Linux (in `.deb`と`.rpm` format) の両方で利用できます。 Windows で Teams を使用するには .NET Framework 4.5 以降が必要です。.NET Framework 4.5 以降がない場合は、Teams のインストーラーでインストールすることを勧めます。 Linux では、apt、yum などのパッケージマネージャーが、必要な要件をすべてインストールしようとします。 ただし、このようになっていない場合は、チームを Linux にインストールする前に、報告された要件をインストールする必要があります。
+Microsoft Teams デスクトップクライアントは、スタンドアロンアプリケーションであり、 [Office 365 ProPlus でも利用でき](https://docs.microsoft.com/deployoffice/teams-install)ます。 Teams は、Windows (7 +)、Windows Server (2012 R2 +)、32ビットと64ビットの両方のバージョン、macOS (10.10 +)、Linux (in `.deb`および`.rpm` format) で利用できます。 Windows で Teams を使用するには .NET Framework 4.5 以降が必要です。.NET Framework 4.5 以降がない場合は、Teams のインストーラーでインストールすることを勧めます。 Linux では、apt、yum などのパッケージマネージャーが、必要な要件をすべてインストールしようとします。 ただし、このようになっていない場合は、チームを Linux にインストールする前に、報告された要件をインストールする必要があります。
 
 デスクトップ クライアントは、チーム会議、グループ通話、およびプライベートな 1 対 1 での通話に対応するリアルタイム通信のサポート (オーディオ、ビデオ、およびコンテンツ共有) を提供します。
 
@@ -152,7 +152,7 @@ sudo dnf check-update
 sudo dnf install teams
 ```
 
-Aternatively の代わりに yum を使うには、次のようにします。
+または、dnf の代わりに yum を使うには、次の操作を行います。
 ```
 yum check-update
 sudo yum install teams

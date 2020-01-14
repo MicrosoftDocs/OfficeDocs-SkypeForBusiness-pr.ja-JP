@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Teams で会議のポリシー設定を管理する方法について説明します。
-ms.openlocfilehash: ba44188d978c9109d1ba3d038c5b1f48d0670746
-ms.sourcegitcommit: 43cab5f0fc8692174db09badf3d448e8ff6a50d6
+ms.openlocfilehash: a3978b3615fabbff000a20d53408d4fbc1d98f12
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40744871"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111711"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Teams での会議ポリシーを管理する
 
@@ -263,6 +263,9 @@ Daniela によってホストされている会議により、会議の参加者
 
 Daniela は、Babek によって開催された会議の他の参加者と共有しているデスクトップまたはウィンドウを制御できますが、Babek は他の参加者に制御を渡すことはできません。
 
+> [!NOTE]
+> 共有中に共有コンテンツの制御を行うには、両方の当事者が Teams デスクトップクライアントを使用している必要があります。 コントロールは、サードパーティがブラウザーで Teams を実行している場合はサポートされません。 これは、修正を計画している技術上の制限が原因です。 
+
 ### <a name="allow-an-external-participant-to-give-or-request-control"></a>外部参加者による制御の付与または要求を許可する
 
 これは、ユーザーごとのポリシーです。 この設定では、会議の外部参加者が、共有しているデスクトップまたはウィンドウを会議の他の参加者に対して管理できるようにするかどうかを制御します。 Teams 会議の外部参加者は、次のように分類されます。  
@@ -388,5 +391,5 @@ Daniela は Amanda の会議でノートを取ることができ、Amanda はど
 |   | 組織内のすべてのユーザーとフェデレーション組織      | ロビーで待機する         |
 
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [Teams のメッセージポリシー](messaging-policies-in-teams.md)

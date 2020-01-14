@@ -5,17 +5,17 @@ ms.author: v-lanac
 author: lanachin
 TOCTitle: Assign a per-user archiving policy
 ms:assetid: a12ca483-b235-460f-b3fe-130fb3087264
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182560(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg182560(v=OCS.15)
 ms:contentKeyID: 48185014
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f82b2398002a1c2536c9a57b18f9276a9d138903
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 36d23e44e397a77f0d490d8fda27ee711d1c61c5
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840758"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111581"
 ---
 # <a name="assign-a-per-user-archiving-policy-in-lync-server-2013"></a>Lync Server 2013 でユーザーごとのアーカイブポリシーを割り当てる
 
@@ -28,7 +28,7 @@ ms.locfileid: "34840758"
 
 ユーザーごとのアーカイブポリシーを1つ以上作成したら、このトピックの手順を使用して、特定のユーザーの内部通信、外部通信、またはその両方がサーバーによってアーカイブされるかどうかを適切に指定するポリシーを割り当てます。
 
-ユーザーごとのアーカイブポリシーを作成する方法の詳細については、「 [Lync Server 2013 でアーカイブポリシーを作成する」を参照して、特定のサイトまたはユーザーに対する内部または外部の通信のアーカイブを有効または無効に](lync-server-2013-creating-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-specific-sites-or-users.md)します。
+ユーザーごとのアーカイブポリシーを作成する方法の詳細については、「 [Lync Server 2013 でアーカイブポリシーを作成する」を参照して、特定のサイトまたはユーザーに対する内部または外部の通信のアーカイブを有効または無効に](lync-server-2013-create-archiving-policy-sites-users.md)します。
 
 ## <a name="to-assign-a-per-user-archiving-policy"></a>ユーザーごとのアーカイブポリシーを割り当てるには
 
@@ -90,7 +90,7 @@ ms.locfileid: "34840758"
 
 ## <a name="assigning-a-per-user-archiving-policy-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して、ユーザーごとのアーカイブポリシーを割り当てる
 
-ユーザーごとのアーカイブポリシーを割り当てるには、Windows PowerShell と**Grant-CsArchivingPolicy**コマンドレットを使用します。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、「Lync Server Windows PowerShell のブログ記事」を参照してください[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。「リモート PowerShell を使用して Microsoft Lync Server 2010 を管理する」を参照してください。
+ユーザーごとのアーカイブポリシーを割り当てるには、Windows PowerShell と**Grant-CsArchivingPolicy**コマンドレットを使用します。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 ## <a name="to-assign-a-per-user-archiving-policy-to-a-single-user"></a>ユーザーごとのアーカイブポリシーを1人のユーザーに割り当てるには
 
@@ -100,7 +100,7 @@ ms.locfileid: "34840758"
 
 ## <a name="to-assign-a-per-user-archiving-policy-to-multiple-users"></a>ユーザーごとのアーカイブポリシーを複数のユーザーに割り当てるには
 
-  - このコマンドを実行すると、ユーザーごとのアーカイブポリシー RedmondArchivingPolicy が、レジストラー pool atl-cs-001.litwareinc.com をホームに持つアカウントを持つすべてのユーザーに割り当てられます。 このコマンドで使用される Filter パラメーターの詳細については、「[ユーザーの取得](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\))」コマンドレットのドキュメントを参照してください。
+  - このコマンドを実行すると、ユーザーごとのアーカイブポリシー RedmondArchivingPolicy が、レジストラー pool atl-cs-001.litwareinc.com をホームに持つアカウントを持つすべてのユーザーに割り当てられます。 このコマンドで使用される Filter パラメーターの詳細については、「[ユーザーの取得](https://technet.microsoft.com/library/gg398125\(v=ocs.15\))」コマンドレットのドキュメントを参照してください。
     
         Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.litwareinc.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"
 
@@ -110,12 +110,12 @@ ms.locfileid: "34840758"
     
         Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-詳細については、「 [Grant-CsArchivingPolicy](https://technet.microsoft.com/en-us/library/gg398475\(v=ocs.15\))コマンドレットのヘルプトピックを参照してください。
+詳細については、「 [Grant-CsArchivingPolicy](https://technet.microsoft.com/library/gg398475\(v=ocs.15\))コマンドレットのヘルプトピックを参照してください。
 
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 でアーカイブポリシーを作成して、特定のサイトまたはユーザーの内部または外部の通信のアーカイブを有効または無効にする](lync-server-2013-creating-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-specific-sites-or-users.md)  
+[Lync Server 2013 でアーカイブポリシーを作成して、特定のサイトまたはユーザーの内部または外部の通信のアーカイブを有効または無効にする](lync-server-2013-create-archiving-policy-sites-users.md)  
 
 
 [Lync Server 2013 でのユーザーごとのポリシーの割り当て](lync-server-2013-assigning-per-user-policies.md)
