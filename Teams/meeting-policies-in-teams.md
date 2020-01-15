@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Teams で会議のポリシー設定を管理する方法について説明します。
-ms.openlocfilehash: a3978b3615fabbff000a20d53408d4fbc1d98f12
-ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
+ms.openlocfilehash: 20382a41ac8d0a78d56ebcb51e852f5302ea74a7
+ms.sourcegitcommit: 447c5ffc27c5b0928e033f85914810af56e510ef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111711"
+ms.locfileid: "41120401"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Teams での会議ポリシーを管理する
 
@@ -120,7 +120,7 @@ ms.locfileid: "41111711"
 
 ### <a name="allow-channel-meeting-scheduling"></a>チャネル会議のスケジュールを許可する
 
-これはユーザーごとのポリシーであり、会議が開始される前に適用されます。 この設定は、ユーザーが Teams のチャネルで会議をスケジュールできるかどうかを制御します。  この設定を無効にした場合、チームのチャネルで会議を開始したときに [**会議のスケジュール**] オプションがユーザーに表示されないようにすることはできません。チームの会議から会議をスケジュールするときに、ユーザーは **[** 会議の予約] オプションを使用できません。
+これはユーザーごとのポリシーであり、会議が開始される前に適用されます。 この設定は、ユーザーが Teams のチャネルで会議をスケジュールできるかどうかを制御します。  このチェックボックスをオフにすると、チームのチャネルで会議を開始したときに [**会議のスケジュール**] オプションがユーザーに表示されなくなり、teams のユーザーは [**チャネルの追加**] オプションが無効になります。
 
 ![Teams の [会議のスケジュール] オプションを示すスクリーンショット](media/meeting-policies-schedule-a-meeting.png)
 
@@ -130,7 +130,7 @@ ms.locfileid: "41111711"
 
 これはユーザーごとのポリシーであり、会議が開始される前に適用されます。 この設定は、ユーザーが Teams でプライベート会議をスケジュールできるかどうかを制御します。 チーム内のチャネルに発行されていない場合、会議は非公開になります。
 
-[**プライベート会議**のスケジュール設定を許可し、**チャネル会議のスケジュールを許可**する] をオフにすると、[**会議のスケジュール**] オプションは利用できなくなり、ユーザーは Teams で会議をスケジュールできなくなります。
+[**プライベート会議のスケジュール設定を許可**し、**チャネル会議のスケジュールを許可**する] をオフにすると、Teams のユーザーに対して [**必須出席者の追加**] オプションと [チャネルの**追加**] オプションが無効になることに注意してください。
 
 <a name="bkaudioandvideo"> </a>
 
@@ -263,6 +263,8 @@ Daniela によってホストされている会議により、会議の参加者
 
 Daniela は、Babek によって開催された会議の他の参加者と共有しているデスクトップまたはウィンドウを制御できますが、Babek は他の参加者に制御を渡すことはできません。
 
+PowerShell を使用して、制御を提供できるユーザーと制御要求を受け入れるユーザーを制御するには、AllowParticipantGiveRequestControl コマンドレットを使用します。
+
 > [!NOTE]
 > 共有中に共有コンテンツの制御を行うには、両方の当事者が Teams デスクトップクライアントを使用している必要があります。 コントロールは、サードパーティがブラウザーで Teams を実行している場合はサポートされません。 これは、修正を計画している技術上の制限が原因です。 
 
@@ -276,6 +278,8 @@ Daniela は、Babek によって開催された会議の他の参加者と共有
    - フェデレーションされたユーザー  
 
 フェデレーションされたユーザーが外部ユーザーに制御を渡すことができるかどうかは、「外部参加者による組織の制御設定の**付与または要求**」によって制御されます。
+
+PowerShell を使用して外部の参加者が制御要求を許可するか制御要求を受け入れるかを制御するには、AllowExternalParticipantGiveRequestControl コマンドレットを使用します。
 
 ### <a name="allow-powerpoint-sharing"></a>PowerPoint の共有を許可する
 
