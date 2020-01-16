@@ -17,17 +17,19 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95f8910005121faceb261a399ed64a4f68e5cad4
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 56491fdde5dbd47e91f8c6f2386564b9e78160d3
+ms.sourcegitcommit: f742ad9ba61d6cc52a9ed6885d1f2893bcfad354
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40988802"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "41165617"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Microsoft Teams のセキュリティとコンプライアンスの概要
 ======================================================
 
 Microsoft Teams は、お客様の期待に応える高度セキュリティおよびコンプライアンス能力を備えた Office 365 ハイパースケールのエンタープライズクラスのクラウド上に構築されています。
+
+チームのセキュリティとコンプライアンスについて簡単な紹介 (12:42 分) については、「 [Microsoft teams の基礎」 (セキュリティとコンプライアンス) に関する](https://youtu.be/91lHNKVVvQ4)ビデオをご覧ください。
 
 Teams は Tier D 準拠です。これにより、ISO 27001、ISO 27018、SSAE16 SOC 1 および SOC 2、HIPAA、EU モデル契約条項 (EUMC) といった標準に対応します。Microsoft コンプライアンス フレームワークにおいて、Microsoft は Office 365 のアプリケーションとサービスを 4 つのカテゴリに分類しています。各カテゴリは、そのカテゴリのリストに記載されるために Office 365 サービスや関連するマイクロソフトのサービスが満たす必要のある、特定のコンプライアンス コミットメントによって定義されます。
 
@@ -106,8 +108,8 @@ Office 365 のセキュリティとコンプライアンスの詳細について
 |        インプレース電子情報開示 (eDiscovery)        |               -                |              -              |            -             |             あり             |           あり            |
 |        Advanced eDiscovery        |               -                |              -              |            -             |              -              |           はい            |
 |            訴訟ホールド             |               -                |              -              |            -             |             あり             |           あり            |
-|     コンプライアンスのコンテンツ検索     |               -                |             あり             |           あり            |             あり             |           あり            |
-|      監査と報告       |              はい               |             あり             |           あり            |             あり             |           あり            |
+|     コンプライアンスのコンテンツ検索     |               -                |             あり             |           あり            |             あり             |           はい            |
+|      監査と報告       |              はい               |             あり             |           あり            |             あり             |           はい            |
 |       条件付きアクセス\*        |              はい               |             あり             |           あり            |             あり             |           はい            |
 
 > [!NOTE]
