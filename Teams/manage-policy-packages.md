@@ -16,12 +16,12 @@ f1keywords: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams でポリシーパッケージを使用および管理する方法について説明します。
-ms.openlocfilehash: ecfc6ae6fb1bb4d9632b8cd04b35dcee6d63359d
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: 87fda86d1dbe09858c3850dc92ee5085666d8ba7
+ms.sourcegitcommit: 52d924e654909a2017ce42ba9d1b4bbc3efa9262
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38679829"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "41205294"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Microsoft Teams でポリシーパッケージを管理する
 
@@ -37,19 +37,20 @@ Microsoft Teams のポリシーパッケージは、組織内で同様の役割�
 
 |**パッケージ名**  |**説明** |
 |---------|---------|
-|Education_Teacher パッケージ     |教師に適用される一連のポリシーとポリシー設定を作成します。      |
-|Education_PrimaryStudent パッケージ    |主要な学生に適用される一連のポリシーとポリシー設定を作成します。|
-|Education_SecondaryStudent パッケージ    |第2の学生に適用される一連のポリシーとポリシー設定を作成します。         |
-|Education_HigherEducationStudent パッケージ    |高等教育機関向けの学生に適用される一連のポリシーとポリシー設定を作成します。|
-|SmallMediumBusiness_BusinessVoice パッケージ    |ビジネス音声エクスペリエンス用のアプリを含むアプリセットアップポリシーを作成します。|
+|教育機関 (高等教育機関向け生徒)    |高等教育機関向けの学生に適用される一連のポリシーとポリシー設定を作成します。|
+|教育機関 (第1学校の学生)   |主要な学生に適用される一連のポリシーとポリシー設定を作成します。|
+|教育機関 (第2学校の学生)    |第2の学生に適用される一連のポリシーとポリシー設定を作成します。         |
+|教育機関 (教師)    |教師に適用される一連のポリシーとポリシー設定を作成します。      |
+|ビジネス用ボイス |ビジネス音声エクスペリエンス用のアプリを含むアプリセットアップポリシーを作成します。|
+|公安責任者   |組織の公衆安全責任者に適用される一連のポリシーとポリシー設定を作成します。|
 
 > [!NOTE]
 > 今後のチームのリリースでポリシーパッケージを追加しますので、最新の情報を確認してください。  
 
 個々のポリシーには、ポリシーパッケージの名前が割り当てられているため、ポリシーパッケージにリンクされているポリシーを簡単に識別することができます。
-たとえば、学校の教師に Education_Teacher ポリシーパッケージを割り当てると、Education_Teacher という名前のポリシーがパッケージ内の各ポリシーに対して作成されます。
+たとえば、学校の教師に教育 (教師) ポリシーパッケージを割り当てると、Education_Teacher という名前のポリシーがパッケージ内の各ポリシーに対して作成されます。
 
-![Education_Teacher ポリシーパッケージのスクリーンショット](media/policy-packages-education_teacher.png)
+![教育機関 (教師) ポリシーパッケージのスクリーンショット](media/policy-packages-education_teacher.png)
 
 ## <a name="how-to-use-policy-packages"></a>ポリシーパッケージの使用方法
 
@@ -103,6 +104,6 @@ Microsoft Teams 管理センターでポリシーパッケージを表示、割�
 
 この問題は、パッケージ内の1つ以上のポリシーが正常に作成または適用されなかった場合に発生することがあります。 ポリシーパッケージをユーザーに割り当て直します。 通常、操作を再試行すると、この問題は修正されます。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
-[EDU の管理者向けの Microsoft Teams ポリシーパッケージ](policy-packages-edu.md)
+[EDU 管理者向けの Microsoft Teams ポリシー パッケージ](policy-packages-edu.md)

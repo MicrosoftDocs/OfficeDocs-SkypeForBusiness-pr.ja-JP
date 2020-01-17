@@ -14,14 +14,17 @@ search.appverid: MET150
 description: Microsoft Teams でクラウド音声機能を展開するための実用的なガイダンス。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9feaffd1677d96c53dee57b03f9061c6fa8184ce
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 7c2a3cac9c61851f9b4c7a6026d94058568b1667
+ms.sourcegitcommit: f1df996a7368fb8f447af877bc2e9f4d4d925f2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516943"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "41217700"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams のクラウド会議の記録
+
+> [!IMPORTANT]
+> **今後、** Microsoft Stream が国内データ常駐地域で利用できない場合でも、teams のデータが国内に保存されているお客様に対しては、構成の変更が有効になります。 この変更が有効になると、会議の記録は既定で最も近い Microsoft Stream 領域に保存されます。 チームデータが国内に保存されていて、会議の記録を国内で保存する場合は、[会議の記録] をオフにして、Microsoft Stream が国内の地域に展開された後で有効にすることをお勧めします。 詳細については、「[会議のレコーディングが保存](#where-your-meeting-recordings-are-stored)されている場所」を参照してください。
 
 Microsoft Teams では、ユーザーはチーム会議やグループ通話を記録して、音声、ビデオ、画面共有のアクティビティをキャプチャすることができます。 自動的に文字起こしする記録のオプションもあるため、ユーザーはミーティングの記録を字幕付きで再生して、会議内容の重要な議題を検索できます。 記録はクラウドで行われ、 [Microsoft Stream](https://docs.microsoft.com/stream/)に保存されるため、ユーザーは組織全体で安全に共有することができます。
 
@@ -64,9 +67,13 @@ Microsoft Stream 管理者が[会社ガイドラインポリシーを設定](htt
 
 ### <a name="turn-on-or-turn-off-cloud-recording"></a>クラウドの記録を有効または無効にする
 
-Teams PowerShell の TeamsMeetingPolicy で AllowCloudRecording を使用して、ユーザーの会議を記録することを許可するかどうかを制御します。 TeamsMeetingPolicy を Office 365 PowerShell で管理する方法については、[こちら](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)を参照してください。
+Microsoft Teams 管理センターまたは PowerShell を使用して、Teams 会議ポリシーを設定し、ユーザーの会議を記録できるかどうかを制御することができます。
 
-会議の開催者とレコーディングの開始者の両方が、会議を記録するための書き込みアクセス許可を持っている必要があることに注意してください。 ユーザーにカスタムポリシーを割り当てていない場合、ユーザーはグローバルポリシーを取得します。これには、既定で AllowTranscription が無効になっています。
+Microsoft Teams 管理センターで、会議ポリシーの [**クラウドレコーディングを許可する**] 設定をオンまたはオフにします。 詳細については、「 [Teams の会議ポリシーを管理](meeting-policies-in-teams.md#allow-cloud-recording)する」を参照してください。
+
+PowerShell を使用して、TeamsMeetingPolicy で AllowCloudRecording 設定を構成します。 詳細については、「 [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) and [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)」を参照してください。
+
+会議の開催者とレコーディングの開始者の両方が、会議を記録するための書き込みアクセス許可を持っている必要があることに注意してください。 ユーザーにカスタムポリシーを割り当てていない限り、ユーザーはグローバルポリシーを取得します。これには、既定で AllowCloudRecording が無効になっています。
 
 ユーザーがグローバルポリシーに戻すには、次のコマンドレットを使用して、ユーザーの特定のポリシー割り当てを削除します。
 
@@ -85,15 +92,37 @@ Teams PowerShell の TeamsMeetingPolicy で AllowCloudRecording を使用して�
 | ユーザーの大半が会議を記録できるようにしたいが、記録を許可されていない特定のユーザーを選択する |        <ol><li>GlobalCsTeamsMeetingPolicy に AllowCloudRecording = True が含まれていることを確認する<li>大部分のユーザーは、AllowCloudRecording = True を持つグローバル CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーのいずれかを使用しています<li>他のすべてのユーザーに AllowCloudRecording = False の CsTeamsMeetingPolicy ポリシーのいずれかが付与されている</ol>         |
 |                                                   レコーディングを100% 無効にする                                                   |                                                                <ol><li>グローバル CsTeamsMeetingPolicy の確認 AllowCloudRecording = False<li>すべてのユーザーに、AllowCloudRecording = False を持つグローバル CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーのいずれかが許可されている                                                                 |
 |      大部分のユーザーに対してレコーディングを無効にして、記録を許可する特定のユーザーを選択する       | <ol><li>グローバル CsTeamsMeetingPolicy の確認 AllowCloudRecording = False<li>大部分のユーザーには、AllowCloudRecording = False を持つグローバル CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーのいずれかが付与されています<li>他のすべてのユーザーに AllowCloudRecording = True の CsTeamsMeetingPolicy ポリシーのいずれかが付与されている <ol> |
-|                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                        |
+|                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                  |
+#### <a name="where-your-meeting-recordings-are-stored"></a>会議のレコーディングが保存されている場所
+
+会議のレコーディングは、Microsoft Stream クラウドストレージに保存されます。 現時点では、データが保存されている国内のデータ常駐地域で Microsoft Stream を使用できない場合、会議のレコーディング機能は、その国のデータが国内に保存されているお客様にはオフになっています。 今後、Microsoft Stream が国内データ常駐地域で利用できない場合でも、データが国内に保存されているお客様のために、会議のレコーディング機能が有効になります。
+
+この変更が有効になると、会議の記録は既定で Microsoft Stream の最も近い地理的地域に保存されます。 チームデータが国内に保存されていて、会議の記録を国内で保存する場合は、この機能をオフにして、Microsoft Stream が国内のデータ常駐地域に展開された後に有効にすることをお勧めします。 組織内のすべてのユーザーに対してこの機能を無効にするには、Microsoft Teams 管理センターで、グローバルチーム会議ポリシーの [**クラウドレコーディングの許可**] 設定をオフにします。
+
+この変更が有効になったときに会議のレコーディングをオンにすると、次のような問題が発生します。
+
+|会議のレコーディングをオンにした場合 |会議のレコーディングは保存されます...  |
+|---------|---------|
+|国内のデータ常駐地域で Microsoft Stream を使用できるようにする前に    |最寄りの Microsoft Stream 領域         |
+|国内データ常駐地域で Microsoft Stream を利用できるようになった後    | 国内のデータ常駐地域で        |
+
+会議の記録をまだ有効にしていない新規および既存のテナントの場合は、Microsoft Stream が国内のデータ常駐地域で利用可能になると、新しいレコーディングが国内に保存されます。 ただし、国内データ常駐地域で Microsoft Stream が利用可能になる前に会議レコーディングを有効にするすべてのテナントは、Microsoft Stream を使用している場合でも、既存の記録と新しい記録用に Microsoft Stream storage を引き続き使用します。国内データ常駐の地域。
+
+Microsoft stream データが保存されている地域を確認するには、Microsoft Stream でをクリックし**ます。** 右上隅の [ **Microsoft Stream のバージョン情報**] をクリックし、**データが保存**されているをクリックします。  Microsoft Stream にデータが保存されている地域の詳細については、「 [Microsoft stream](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in)に関する FAQ」を参照してください。
+
+Office 365 のサービス間でデータが保存される場所の詳細については、「[データがどこにあるか](https://products.office.com/en-us/where-is-your-data-located?rtc=1)を確認する」を参照してください。
 
 ### <a name="turn-on-or-turn-off-recording-transcription"></a>レコーディングの議事録を有効または無効にする
 
-ユーザーはチーム会議を記録したときに、会議が記録された後にトランスクリプトが自動生成されるかどうかを確認できます。 管理者が会議の開催者とレコーディングイニシエーターの議事録機能を無効にしている場合、レコーディングの開始者は、会議のレコーディングの議事録を設定することはできません。
+ユーザーはチーム会議を記録したときに、会議が記録された後にトランスクリプトが自動生成されるかどうかを確認できます。 会議の開催者とレコーディングの開始側の [議事録機能] を無効にした場合、レコーディングの開始者は、会議の記録の議事録を設定することはできません。
 
-Teams PowerShell の TeamsMeetingPolicy で AllowTranscription を使って、レコーディングの開始者が会議のレコーディングの議事録を行うかどうかを制御します。 TeamsMeetingPolicy を Office 365 PowerShell で管理する方法については、[こちら](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)を参照してください。
+Microsoft Teams 管理センターまたは PowerShell を使用して、Teams 会議ポリシーを設定して、レコーディングの開始者が会議の記録の議事録を行うかどうかを制御できます。
 
-カスタムポリシーがユーザーに割り当てられていない場合は、グローバルポリシーを取得します。これには、既定で AllowTranscription が無効になっています。
+Microsoft Teams 管理センターで、会議ポリシーの [**議事録の許可**] 設定をオンまたはオフにします。 詳細については、「 [Teams の会議ポリシーを管理](meeting-policies-in-teams.md#allow-transcription)する」を参照してください。
+
+PowerShell を使用して、TeamsMeetingPolicy で AllowTranscription 設定を構成します。 詳細については、「 [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) and [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)」を参照してください。
+
+ユーザーにカスタムポリシーを割り当てていない限り、ユーザーはグローバルポリシーを取得します。これには、既定で AllowTranscription が無効になっています。
 
 ユーザーがグローバルポリシーに戻すには、次のコマンドレットを使用して、ユーザーの特定のポリシー割り当てを削除します。
 
@@ -118,15 +147,13 @@ Teams PowerShell の TeamsMeetingPolicy で AllowTranscription を使って、�
 1時間の記録のサイズは 400 MB です。 記録されたファイルに必要な容量を理解していること、および Microsoft Stream で利用できる十分なストレージがあることを確認してください。  [この記事](https://docs.microsoft.com/stream/license-overview)では、サブスクリプションに含まれている基本記憶域と追加記憶域の購入方法について説明します。
 
 ## <a name="manage-meeting-recordings"></a>会議のレコーディングを管理する
+
 会議のレコーディングは、テナントが所有しているコンテンツと見なされます。 レコーディングの所有者が退職した場合、管理者は、Microsoft Stream in 管理モードでレコーディングビデオの URL を開くことができます。 管理者は、レコーディングを削除したり、レコーディングメタデータを更新したり、レコーディングビデオのアクセス許可を変更したりできます。 [ストリームの管理機能の](https://docs.microsoft.com/stream/manage-content-permissions)詳細については、こちらを参照してください。
 
 ## <a name="compliance-and-ediscovery-for-meeting-recordings"></a>会議のレコーディングのコンプライアンスと電子情報開示
+
 会議のレコーディングは、Office 365 Tier C に準拠している Microsoft Stream に保存されます。 Microsoft のストリームの会議または通話の記録に関心を持っているコンプライアンス管理者に対する e 検出要求をサポートするため、[レコーディング完了] メッセージは Microsoft Teams のコンプライアンスコンテンツ検索機能で利用できます。 コンプライアンス管理者は、コンプライアンスコンテンツ検索プレビューのアイテムの件名行に "レコーディング" というキーワードを検索して、組織内の会議と通話の記録を検出できます。 すべてのレコーディングを表示するには、Microsoft Stream で管理者アクセス権を設定する必要があることが前提となります。 詳しく[は、「Stream での管理権限の割り当て」を](https://docs.microsoft.com/stream/assign-administrator-user-role)ご覧ください。
 
-## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
+## <a name="related-topics"></a>関連トピック
 
-Windows PowerShell では、ユーザーの管理と、許可または許可されていないユーザーの操作について説明します。 Windows PowerShell を利用すると、Office 365 と Skype for Business Online の管理を 1 か所で行うことができるので、複数のタスクを担当する管理者の日常業務を単純化できます。 Windows PowerShell には、Microsoft 365 管理センターを使用する場合にのみ、速度、シンプルさ、生産性を向上させるための多くの利点があります。たとえば、複数のユーザーに対して同時に設定を変更する場合です。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
-
-- [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525041)
-- [Windows PowerShell 用にコンピューターをセットアップする](https://go.microsoft.com/fwlink/?LinkId=525038)
-
+- [Teams での PowerShell の概要](teams-powershell-overview.md)
