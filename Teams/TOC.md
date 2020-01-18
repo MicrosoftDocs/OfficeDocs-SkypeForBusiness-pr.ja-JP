@@ -244,7 +244,6 @@
 ### [通話の共有およびグループ通話ピックアップ](call-sharing-and-group-call-pickup.md)
 ### [通話ポリシー](teams-calling-policy.md)
 ### [回線共有機能](shared-line-appearance.md)
-### [ ユーザーによって Teams のクライアントの PSTN 通話がブロックされるしくみを理解する](block-pstn-calls-on-Teams-clients.md)
 
 
 ## 通話プラン
