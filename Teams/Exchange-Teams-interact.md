@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7ca2b091cfe27c1e81d429ac95f085b52c8465d
-ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
+ms.openlocfilehash: 6c3f0b5c545f1a7e8900c01a79544079ea4fedcc
+ms.sourcegitcommit: bcac0d94f6eb7132fc17b0ace62e7028f77b0ee6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/13/2019
-ms.locfileid: "40019971"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "41230317"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange と Microsoft Teams の連携
 
@@ -43,10 +43,10 @@ Exchange Online 専用 (レガシ) でホストされているユーザーは、
 
 | ユーザーのメールボックスのホスト先: | 電子情報開示| 法的な&nbsp;保全 | 保持| チームとチャネルの管理 |Teams で会議を作成して表示する| ユーザー プロフィールの写真を変更する | 通話履歴 | 連絡先の管理 | Outlook の連絡先へのアクセス | ボイスメール |コネクタを追加して構成する|タブを追加して構成する|ボットを追加して構成する| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|はい <sup>2</sup>|はい <sup>2</sup>|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
-|**Exchange Online 専用 vNext**|はい <sup>2</sup>|はい <sup>2</sup>|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|はい|
-|**Exchange Online 専用 – レガシー** (Azure AD との同期が必要)|はい <sup>2</sup>|はい <sup>2、3</sup>|はい <sup>4|あり|なし|いいえ|はい|Yes|いいえ|はい <sup>5|はい<sup>6|Yes|Yes|
-|**Exchange on-premises** (Azure AD との同期が必要)|はい <sup>2</sup>| はい <sup>2、3</sup> |はい <sup>4|はい|はい (Exchange 2016 CU3+)|はい (Exchange 2016 CU3+)|はい|Yes|いいえ|はい <sup>5|はい<sup>6|Yes|Yes|
+|**Exchange Online**|はい <sup>2</sup>|はい <sup>2</sup>|Yes|Yes|Yes|Yes|Yes|Yes|○ ( <sup>7</sup> )|Yes|Yes|Yes|Yes|
+|**Exchange Online 専用 vNext**|はい <sup>2</sup>|はい <sup>2</sup>|Yes|Yes|Yes|Yes|Yes|Yes|○ ( <sup>7</sup> )|Yes|Yes|Yes|はい|
+|**Exchange Online 専用 – レガシー** (Azure AD との同期が必要)|はい <sup>2</sup>|はい <sup>2、3</sup>|はい <sup>4|あり|なし|いいえ|はい|あり|いいえ|はい <sup>5|はい<sup>6|Yes|Yes|
+|**Exchange on-premises** (Azure AD との同期が必要)|はい <sup>2</sup>| はい <sup>2、3</sup> |はい <sup>4|はい|はい (Exchange 2016 CU3+)|はい (Exchange 2016 CU3+)|はい|あり|いいえ|はい <sup>5|はい<sup>6|Yes|Yes|
 
 <sup>1</sup> EXCHANGE 2016 cu3 以降で以上がサポートされています。  
 
@@ -60,8 +60,7 @@ Exchange Online 専用 (レガシ) でホストされているユーザーは、
 
 <sup>6</sup>チームの所有者のいずれかがコネクタを追加できる場合、そのチーム内の他のユーザーは、メールボックスがオンプレミスの場合でも、その操作を行うことができます。
 
-
-追加情報: 
+既定の連絡先フォルダーに含まれる連絡先が<sup>7</sup>人のみ 他の連絡先フォルダーまたはサブフォルダーへのアクセスはサポートされていません。
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Microsoft Teams を最大限に活用するための要件
 

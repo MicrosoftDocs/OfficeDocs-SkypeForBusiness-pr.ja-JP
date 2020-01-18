@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Skype for Business Server を使用しているユーザーに対して、クラウドベースのボイスメールを実装する方法について説明します。
-ms.openlocfilehash: e3b18f8048f8779eac322dece88e5919b2aa7a96
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: 754d69a9b76497f8776667b6ac97498a151c7e4e
+ms.sourcegitcommit: bcac0d94f6eb7132fc17b0ace62e7028f77b0ee6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40963005"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "41230357"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>オンプレミスのユーザー用にクラウドボイスメールサービスを構成する
 
@@ -36,7 +36,7 @@ ms.locfileid: "40963005"
 
 2.  「ハイブリッド[接続を計画](plan-hybrid-connectivity.md)する」および「[ハイブリッド接続を構成](configure-hybrid-connectivity.md)する」の説明に従って、ハイブリッド接続を設定していることを確認してください。 
 
-3.  この記事で説明されているよう[に、エッジサーバーのホスティングプロバイダーとして Cloud 留守番電話を構成](#configure-cloud-voicemail-as-the-hosting-provider-on-the-edge-server)します。
+3.  この記事で説明されているよう[に、エッジサーバーのホスティングプロバイダーとして Cloud 留守番電話を構成](#configure-cloud-voicemail-as-the-hosting-provider)します。
 
 4.  この記事で説明されているように[、ホスト型ボイスメールポリシーを構成](#configure-a-hosted-voicemail-policy)します。
 
@@ -45,7 +45,7 @@ ms.locfileid: "40963005"
 6.  この記事で説明されているよう[に、ユーザーのクラウドボイスメールを有効に](#enable-a-user-for-cloud-voicemail)します。
 
 
-## <a name="configure-cloud-voicemail-as-the-hosting-provider-on-the-edge-server"></a>エッジサーバーのホスティングプロバイダーとして Cloud 留守番電話を構成する 
+## <a name="configure-cloud-voicemail-as-the-hosting-provider"></a>ホスティングプロバイダーとしてクラウドボイスメールを構成する 
 
 次のパラメーターを使用して、新しい-CsHostingProvider コマンドレットを使用して、クラウドボイスメールをホスティングプロバイダーとしてフロントエンドサーバーに構成します。
 

@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d4a14876f359b2742a04461671ccaefd523ef3f1
-ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
+ms.openlocfilehash: dd934c601b45258dd7a2e2c15ef49f19ffee9201
+ms.sourcegitcommit: 416a2d404a2ea15b484cd7579035e7f2282ac2cf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111541"
+ms.lasthandoff: 01/18/2020
+ms.locfileid: "41233276"
 ---
 # <a name="install-microsoft-teams-using-msi"></a>MSI を使用して Microsoft Teams をインストールする
 
@@ -80,7 +80,7 @@ VDI に Teams デスクトップアプリを展開する方法の詳細なガイ
 3. MSI パッケージをその特定のコンピューターに再展開します。
 
 > [!TIP]
-> [Microsoft Teams の展開のクリーン アップ](scripts/Powershell-script-teams-deployment-clean-up.md) スクリプトを使用して、SCCM を介して手順 1 と 2 を完了することができます。
+> [Microsoft Teams の展開のクリーン アップ](scripts/powershell-script-teams-deployment-clean-up.md) スクリプトを使用して、SCCM を介して手順 1 と 2 を完了することができます。
 
 ## <a name="prevent-teams-from-starting-automatically-after-installation"></a>インストール後にチームが自動的に起動しないようにする
 
@@ -93,6 +93,9 @@ MSI の既定の動作では、ユーザーがサインインしてからチー�
 Teams をインストールする前にこのポリシー設定を有効にすると、ユーザーが Windows にログインしてもチームは自動的に開始されません。 ユーザーが初めて Teams にサインインすると、次回ユーザーがログインしたときに自動的にチームが開始されます。
 
 詳細については、「グループポリシーを使用して、[インストール後にチームが自動的に起動しないように](https://docs.microsoft.com/deployoffice/teams-install#use-group-policy-to-prevent-microsoft-teams-from-starting-automatically-after-installation)する」を参照してください。
+
+> [!CAUTION]
+> チームを既に展開していて、このポリシーを設定して Teams の自動開始を無効にしたい場合は、まず、グループポリシーの設定を必要な値に設定してから、チームの [ [autostart reset] スクリプト](scripts/powershell-script-teams-reset-autostart.md)をユーザーごとに実行します。
 
 ### <a name="disable-auto-launch-for-the-msi-installer"></a>MSI インストーラーの自動起動を無効にします。
 
