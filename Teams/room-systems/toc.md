@@ -22,7 +22,7 @@
 ### [コンテンツ カメラ](content-camera.md)
 
 ## 管理
-### [管理の概要](skype-room-systems-v2.md)
+### [管理の概要](skype-room-systems-v3.md)
 ### [メンテナンスと運用](room-systems-v2-operations.md)
 ### [既知の問題](known-issues.md)
 ### [Azure Monitor でのデバイス](azure-monitor-manage.md)
