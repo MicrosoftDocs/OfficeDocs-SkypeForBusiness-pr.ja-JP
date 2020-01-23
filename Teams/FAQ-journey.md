@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2aa6a4f4a498f5b694e3ff23d4043374def6fbff
-ms.sourcegitcommit: 70323d648e9ae3b20a710120b9dcdc452afc462b
+ms.openlocfilehash: b6b36f38ce2c72c085a7d52f403eba4bde7e8670
+ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "37698030"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "41268483"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>よくあるご質問 - Skype for Business から Microsoft Teams へのアップグレード
 
@@ -200,7 +200,7 @@ Skype ミーティング システムを、Microsoft Teams ミーティングに
 
 ### <a name="will-skype-room-systems-v1-be-updated-to-support-teams-meetings"></a>Skype ミーティング システム V1 は Teams 会議をサポートするように更新されますか?
 
-Skype ミーティング システム バージョン 1 (SRS v1) ソフトウェアを搭載した Lync Room System (LRS) デバイスは、2018 年 10 月 9 日にサポート終了になりました。 これは、Skype ミーティング システム V1 ソフトウェアがもはや製品の更新プログラムや修正を取得しなくなることを意味します。 Skype ミーティング システム V1 ソフトウェアを使用している Lync Room System デバイスをお持ちのお客様には、デバイスを Microsoft Teams ミーティングにアップグレードすることをお勧めします。 [詳細については、こちらを参照してください](room-systems/lrs-migration.md)。
+Skype ミーティング システム バージョン 1 (SRS v1) ソフトウェアを搭載した Lync Room System (LRS) デバイスは、2018 年 10 月 9 日にサポート終了になりました。 これは、Skype ミーティング システム V1 ソフトウェアがもはや製品の更新プログラムや修正を取得しなくなることを意味します。 Skype ミーティング システム V1 ソフトウェアを使用している Lync Room System デバイスをお持ちのお客様には、デバイスを Microsoft Teams ミーティングにアップグレードすることをお勧めします。 [詳細については、こちらを参照してください](rooms/lrs-migration.md)。
 
 ## <a name="management-capabilities"></a>管理機能
 
