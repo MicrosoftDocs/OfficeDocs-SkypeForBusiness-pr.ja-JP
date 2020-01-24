@@ -132,7 +132,7 @@
 ## [Outlook で Teams の会議アドインを使用する](teams-add-in-for-outlook.md)
 ## [ユーザーの [電話する] 機能をセットアップする](set-up-the-call-me-feature-for-your-users.md)
 ## [Meeting Migration Service (MMS) のセットアップ](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-## [Microsoft Teams ミーティング](room-systems/index.md)
+## [Microsoft Teams ミーティング](rooms/index.md)
 ## [Teams でホワイトボードを管理する](manage-whiteboard.md)
 
 
@@ -604,8 +604,8 @@
 #### [電子医療記録を Microsoft Teams に統合する](expand-teams-across-your-org/healthcare/patients-app.md)
 ##### [DSTU2 インターフェイスの仕様](expand-teams-across-your-org/healthcare/dstu2-interface.md)
 ##### [STU3 インターフェイスの仕様](expand-teams-across-your-org/healthcare/stu3-interface.md)
+##### [患者アプリを FHIR の Azure API に接続する](expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir.md)
 #### [患者アプリの監査ログ](expand-teams-across-your-org/healthcare/patients-audit.md)
-
 ## [教育機関向けの Teams ](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [クイック スタート - 教育用 Teams の管理者](teams-quick-start-edu.yml)
 ### [教育機関向けの Teams の課題 ](expand-teams-across-your-org/assignments-in-teams.md)
