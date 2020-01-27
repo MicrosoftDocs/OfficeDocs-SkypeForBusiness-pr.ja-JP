@@ -14,17 +14,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7274669e4567be02efbd2fdeb4c6524ce6e55f38
-ms.sourcegitcommit: 96d98e145ff300833d827a7d43b4e4b0331b7538
+ms.openlocfilehash: aaf2a4aeeb5a3320d30ed261307aa074defecb84
+ms.sourcegitcommit: a6e051c5c5c100dbf2ff3ca8fc7babc4415babf3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871693"
+ms.lasthandoff: 01/25/2020
+ms.locfileid: "41554224"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Microsoft Teams の商用クラウドの試用提供を管理する
 =======================================================
 
-Microsoft Teams の商用クラウド試用版は、製品の 1 年間試用版を開始するための Microsoft Teams ライセンスを所有していない、組織内の既存の Office 365 ユーザーを対象にしています。 管理者は組織内のユーザーに対して、この機能をオンまたはオフに切り替えることができます。 
+Microsoft Teams の商用クラウド試用版は、製品の 1 年間試用版を開始するための Microsoft Teams ライセンスを所有していない、組織内の既存の Office 365 ユーザーを対象にしています。 管理者は組織内のユーザーに対して、この機能をオンまたはオフに切り替えることができます。
 
 > [!IMPORTANT]
 > Microsoft Teams の商用クラウド試用版は、2020 年 1 月から Microsoft Teams Exploratory に置き換えられます。 この新しいサービスの詳細については、「[Teams Exploratory のライセンスを管理する](teams-exploratory.md)」をご覧ください。
@@ -78,13 +78,13 @@ Teams 試用版は個々のエンド ユーザーが開始するためのもの�
 
 試用版のアプリとサービスをユーザーがインストールする機能をオフにできます。
 
-1. [[Microsoft 365 管理センター]](https://portal.office.com/adminportal/home) から、**[設定]** > **[サービスとアドイン]** > **[ユーザーが所有するアプリとサービス]** に移動します。
+1. [[Microsoft 365 管理センター]](https://portal.office.com/adminportal/home) から、**[設定]** > **[設定]** に移動し、**[サービス]** を選択し、**[ユーザーが所有するアプリとサービス]** を選択します。
 
-    ![管理センターの [サービスとアドイン] ページのスクリーン ショット](media/iw-trial-enable-1.png)
+    ![管理センターの [サービス] ページのスクリーン ショット](media/iw-trial-services.png)
 
-2. **[ユーザーに試用版アプリとサービスのインストールを許可する]** をオフにします。
+2. **[ユーザーに試用版アプリとサービスのインストールを許可する]** チェック ボックスをクリアします。
 
-    ![管理センターの [ユーザーが所有するアプリとサービス] ページのスクリーンショット](media/iw-trial-enable-2.png)
+    ![管理センターの [ユーザーが所有するアプリとサービス] ページのスクリーンショット](media/iw-trial-user-owned-apps-services.png)
 
 
 ### <a name="manage-trial-availability-for-a-user-with-a-license-that-includes-teams"></a>Teams が含まれているライセンスを持つユーザーの試用版利用可能性を管理する
@@ -119,8 +119,8 @@ Teams へのアクセスをオフにするには:
 
     ![[ライセンス] ウィンドウの Teams 試用版ライセンスの設定を示すスクリーンショット](media/iW-trial-enable-4.png)
     
->[!Note]
->Microsoft Teams の試用版の切り替えスイッチは、組織内の最初のユーザーが試用版にサインアップした後に表示されます。
+    >[!Note]
+    >Microsoft Teams の試用版の切り替えスイッチは、組織内の最初のユーザーが試用版にサインアップした後に表示されます。
 
 ### <a name="manage-teams-for-users-who-have-the-trial-license"></a>試用版ライセンスを持つユーザーの Teams を管理する
 

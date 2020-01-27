@@ -692,6 +692,7 @@
 ### [MSI を使用した Teams のインストール](msi-deployment.md)
 ### [組織で Teams を有効にする](Office-365-set-up.md)
 ### [ウイルス対策スキャンから除外する Teams のファイルとフォルダー](teams-files-folders-antivirus-perf.md)
+### [Microsoft Teams のメモリ使用方法](teams-memory-usage-perf.md)
 ### [Office 365 の URL と IP アドレスの範囲](office-365-urls-ip-address-ranges.md)
 ### [仮想デスクトップ インフラストラクチャ (VDI) 用の Teams](teams-for-vdi.md)
 ### [Surface Hub の Teams を展開する](teams-surface-hub.md)

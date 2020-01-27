@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Teams で会議のポリシー設定を管理する方法について説明します。
-ms.openlocfilehash: 20382a41ac8d0a78d56ebcb51e852f5302ea74a7
-ms.sourcegitcommit: 447c5ffc27c5b0928e033f85914810af56e510ef
+ms.openlocfilehash: 41d1bf8c68ef96f3a657113864c21a993dfc3826
+ms.sourcegitcommit: a6e051c5c5c100dbf2ff3ca8fc7babc4415babf3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41120401"
+ms.lasthandoff: 01/25/2020
+ms.locfileid: "41554344"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Teams での会議ポリシーを管理する
 
@@ -105,10 +105,10 @@ ms.locfileid: "41120401"
 これはユーザーごとのポリシーであり、会議が開始される前に適用されます。 この設定は、ユーザーが Teams のチャネルで臨時の会議を開始できるかどうかを制御します。 この設定を有効にした場合、ユーザーが Teams チャネルでメッセージを投稿したときに、[作成] ボックスの下にある [**今すぐ**ミーティング] をクリックして、チャネル内で臨時の会議を開始することができます。
 
 ![メッセージの下に [今すぐ会議] アイコンが表示されたスクリーンショット](media/meeting-policies-meet-now.png)
-
 ### <a name="allow-private-meet-now"></a>今すぐプライベート会議を許可する
 
 これはユーザーごとのポリシーであり、会議が開始される前に適用されます。 この設定は、ユーザーが臨時のプライベート会議を開始できるかどうかを制御します。  
+
 
 ### <a name="allow-the-outlook-add-in"></a>Outlook アドインの使用を許可する
 
@@ -140,7 +140,6 @@ ms.locfileid: "41120401"
 - [クラウドの記録を許可する](#allow-cloud-recording)
 - [IP ビデオを許可する](#allow-ip-video)
 - [メディアのビットレート (KBs)](#media-bit-rate-kbs)
-- [ライブキャプションを有効にする (プレビュー)](#enable-live-captions-preview)
 
 ### <a name="allow-transcription"></a>議事録を許可する
 
@@ -197,20 +196,6 @@ Daniela がビデオで Amanda 通話を発信した場合、Amanda は音声の
 
 最高品質のビデオエクスペリエンス (CEO ボード会議や Teams live イベントなど) が必要な会議の場合は、帯域幅を 10 Mbps に設定することをお勧めします。 最大のエクスペリエンスが設定されている場合でも、シナリオによっては、特定のネットワーク条件が検出されると、Teams メディアスタックが低帯域幅の条件に合わせて調整されます。 
 
-### <a name="enable-live-captions-preview"></a>ライブキャプションを有効にする (プレビュー)
-
-これはユーザーごとのポリシーであり、会議中に適用されます。 この設定では、ユーザーが会議のライブキャプションを有効**または無効**にするかどうかを制御します。  
-
-![[ライブキャプションを有効にする] オプションを示すスクリーンショット](media/meeting-policies-live-captions.png)
-
-|値の設定 |動作  |
-|---------|---------|
-|**無効であり、ユーザーは上書きできます**     | 会議中は、ユーザーに対してライブキャプションが自動的に有効になりません。 ユーザーには、オーバーフロー (**...**) メニューの [**ライブキャプションを有効**にする] オプションが表示され、有効にします。 これは、既定の設定です。 |
-|**無効**     | 会議中にユーザーに対してライブキャプションが無効になります。 ユーザーには、有効にするオプションはありません。          |
-
-
-<a name="bkcontentsharing"> </a>
-
 ## <a name="meeting-policy-settings---content-sharing"></a>会議のポリシー設定-コンテンツ共有
 
 - [画面共有モード](#screen-sharing-mode)
@@ -219,7 +204,6 @@ Daniela がビデオで Amanda 通話を発信した場合、Amanda は音声の
 - [PowerPoint の共有を許可する](#allow-powerpoint-sharing)
 - [ホワイトボードを許可する](#allow-whiteboard)
 - [共有のノートを許可する](#allow-shared-notes)
-- [会議でチャットを許可する (近日公開予定)](#allow-chat-in-meetings-coming-soon)
 
 ### <a name="screen-sharing-mode"></a>画面共有モード
 
@@ -266,7 +250,7 @@ Daniela は、Babek によって開催された会議の他の参加者と共有
 PowerShell を使用して、制御を提供できるユーザーと制御要求を受け入れるユーザーを制御するには、AllowParticipantGiveRequestControl コマンドレットを使用します。
 
 > [!NOTE]
-> 共有中に共有コンテンツの制御を行うには、両方の当事者が Teams デスクトップクライアントを使用している必要があります。 コントロールは、サードパーティがブラウザーで Teams を実行している場合はサポートされません。 これは、修正を計画している技術上の制限が原因です。 
+> 共有中に共有コンテンツの制御を行うには、両方の当事者が Teams デスクトップクライアントを使用している必要があります。 いずれかの当事者がブラウザーで Teams を実行している場合、制御はサポートされません。 これは、修正する予定の技術的制限によるものです。 
 
 ### <a name="allow-an-external-participant-to-give-or-request-control"></a>外部参加者による制御の付与または要求を許可する
 
@@ -320,19 +304,16 @@ Amanda が会議の開催者である場合でも、会議でホワイトボー�
 
 Daniela は Amanda の会議でノートを取ることができ、Amanda はどの会議でもノートを取ることができません。
 
-### <a name="allow-chat-in-meetings-coming-soon"></a>会議でチャットを許可する (近日公開予定)
-
-これは開催者ごとのポリシーです。 この設定は、ユーザーの会議で会議チャットを許可するかどうかを制御します。 
-
-<a name="bkparticipantsandguests"> </a>
-
 ## <a name="meeting-policy-settings---participants--guests"></a>会議のポリシー設定-ゲスト & 参加者
 
 これらの設定では、参加者が会議に参加する前に、ロビーで待機する会議の参加者と、会議で許可されている参加のレベルを制御します。
 
 - [ユーザーを自動的に許可する](#automatically-admit-people)
 - [匿名ユーザーが会議を開始することを許可する](#allow-anonymous-people-to-start-a-meeting)
-- [ダイヤルインユーザーがロビーをバイパスすることを許可する](#allow-dial-in-users-to-bypass-the-lobby-coming-soon)
+- [ダイヤルインユーザーがロビーをバイパスすることを許可する](#allow-dial-in-users-to-bypass-the-lobby)
+- [今すぐプライベート会議を許可する](#allow-private-meet-now)
+- [ライブキャプションを有効にする](#enable-live-captions)
+- [会議でチャットを許可する](#allow-chat-in-meetings)
 
 > [!NOTE]
 >会議に参加するためのオプションは、各 Teams グループの設定と接続方法によって異なります。 グループに電話会議があり、それを使用して接続する場合は、「 [Office 365 の電話会議](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365)」を参照してください。 Teams グループに電話会議がない場合は、「 [teams で会議に参加する」](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9)を参照してください。
@@ -379,7 +360,7 @@ Daniela は Amanda の会議でノートを取ることができ、Amanda はど
 |   | 組織内のすべてのユーザー     |ロビーで待機する         |
 |   | 組織内のすべてのユーザーとフェデレーション組織      | ロビーで待機する         |
 
-### <a name="allow-dial-in-users-to-bypass-the-lobby-coming-soon"></a>ダイヤルインユーザーがロビーをバイパスすることを許可する (近日公開)
+### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>ダイヤルインユーザーがロビーをバイパスすることを許可する
 
 これは開催者ごとのポリシーです。 この設定では、電話でダイヤルインするユーザーが会議に直接参加するか、[ユーザーの**自動**許可] 設定に関係なくロビーで待機するかを制御します。
 
@@ -394,6 +375,29 @@ Daniela は Amanda の会議でノートを取ることができ、Amanda はど
 |   | 組織内のすべてのユーザー     |ロビーで待機する         |
 |   | 組織内のすべてのユーザーとフェデレーション組織      | ロビーで待機する         |
 
+### <a name="allow-private-meet-now"></a>今すぐプライベート会議を許可する
+
+これはユーザーごとのポリシーであり、会議が開始される前に適用されます。 この設定は、ユーザーが臨時のプライベート会議を開始できるかどうかを制御します。 
+
+### <a name="enable-live-captions"></a>ライブキャプションを有効にする
+
+これはユーザーごとのポリシーであり、会議中に適用されます。 この設定では、ユーザーが会議のライブキャプションを有効**または無効**にするかどうかを制御します。  
+
+![[ライブキャプションを有効にする] オプションを示すスクリーンショット](media/meeting-policies-live-captions.png)
+
+|値の設定 |動作  |
+|---------|---------|
+|**無効であり、ユーザーは上書きできます**     | 会議中は、ユーザーに対してライブキャプションが自動的に有効になりません。 ユーザーには、オーバーフロー (**...**) メニューの [**ライブキャプションを有効**にする] オプションが表示され、有効にします。 これは、既定の設定です。 |
+|**無効**     | 会議中にユーザーに対してライブキャプションが無効になります。 ユーザーには、有効にするオプションはありません。          |
+
+
+<a name="bkcontentsharing"> </a>
+
+### <a name="allow-chat-in-meetings"></a>会議でチャットを許可する
+
+これは開催者ごとのポリシーです。 この設定は、ユーザーの会議で会議チャットを許可するかどうかを制御します。 
+
+<a name="bkparticipantsandguests"> </a>
 
 ## <a name="related-topics"></a>関連トピック
 [Teams のメッセージポリシー](messaging-policies-in-teams.md)

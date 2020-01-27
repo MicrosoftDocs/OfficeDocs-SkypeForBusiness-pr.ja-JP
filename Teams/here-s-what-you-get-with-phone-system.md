@@ -20,100 +20,76 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: 'ビジネス向けに電話システム (クラウド PBX) を計画してセットアップする方法について説明します。 '
-ms.openlocfilehash: 397c8b4b42151a726dec25885ed8924cddb9f181
-ms.sourcegitcommit: 2064c94eae82a5453674d38f0b28dcd6dc5c370e
+description: 'ビジネス向けの Microsoft 電話システムの計画とセットアップ方法について説明します。 '
+ms.openlocfilehash: fc4d771037a9305fa5f39148ad465211e491ceb4
+ms.sourcegitcommit: a6e051c5c5c100dbf2ff3ca8fc7babc4415babf3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "37885521"
+ms.lasthandoff: 01/25/2020
+ms.locfileid: "41554354"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Office 365 の電話システムでできること
 
-PBX は、社内の電話システムです。 Office 365 アドオンの電話システムでは、PBX 機能が提供されますが、複雑で高価な機器は必要ありません。 
-  
-電話システムアドオンを使用すると、Skype for Business を使用して、通話の発信、受信、着信の転送、通話の転送、ミュートやミュート解除などの基本的な作業を、インターネットアクセスでほぼどこからでも行うことができます。 世界中どこでも利用できます。 
-  
-詳細については、「[電話システムの価格](https://products.office.com/microsoft-teams/voice-calling#requirements)を確認する」を参照してください。
+この記事では、Office 365 機能の電話システムについて説明します。 PBX (構内交換機) の交換として電話システムを使用する方法、および公衆交換電話網 (PSTN) に接続するためのオプションの詳細については、「 [Office 365 の電話システムとは](what-is-phone-system-in-office-365.md)」を参照してください。
+
+クライアントは PC、Mac、モバイルで利用できます。これは、タブレットや携帯電話から Pc やデスクトップの IP 電話へのデバイスの機能を提供します。 詳細については、「 [Microsoft Teams のクライアントを取得する](get-clients.md)」を参照してください。
+
   
 ## <a name="phone-system-in-office-365-features"></a>Office 365 での電話システムの機能
 
-電話システムを使うと、Skype for Business ユーザーには次の機能が提供されます。
+電話システムには、次の機能が用意されています。 特に記載がない限り、機能は Teams と Skype for Business Online の両方で利用できます。
   
 |||
 |:-----|:-----|
 |**Office 365 での電話システムの機能** <br/> |**説明** <br/> |
-|[クラウドの自動応答とは](what-are-phone-system-auto-attendants.md) <br/> |クラウド自動応答を使用すると、外部および内部の発信者がメニューシステムを通じて組織内の会社のユーザーや部署に通話を発信したり、転送したりできるように、組織のメニューシステムを作成することができます。  <br/> |
-|Answer/initiate (名前と電話番号)  <br/> |着信した通話にタッチで応答し、完全な電話番号にダイヤルするか、Skype for Business または Outlook で名前をクリックして、発信通話を発信します。  <br/> |
-|[Skype for Business の着信の転送オプションを設定する](https://support.office.com/article/1ec2e7fb-471c-4c35-bc90-a35991b3f532) <br/> |サポート担当者の代わりに電話をかけたり、通話に応答したりします。 通知は、通話に応答したり、他のユーザーに対して発信したりするときに、すべての参加者に対して明確に表示されます。  <br/> |
-|[着信の転送と同時呼び出し](https://support.office.com/article/967d9aaf-3fed-448b-ab96-40bbc9a11a20) <br/> |これらの機能により、通話をどこでも使えるように転送ルールを設定できます。また、着信を同僚やボイスメールに転送することもできます。  <br/> |
-|[以前の会話を検索する-Lync](https://support.office.com/article/d1d54123-0301-482e-b047-c82e9e2724a3) <br/> |Im、電話、一時的、スケジュールされた会議など、会話のすべてを1か所で管理します。 会話は通話履歴に記録されます。  <br/> |
-|通話の保留/取得  <br/> | 複数の通話を同時に実行する場合に使用します。 次の着信通話に応答するか、発信通話を発信すると、現在の通話が自動的に保留になります。 <br/> |
-|[Skype for Business 通話を転送する](https://support.office.com/article/f9f312a3-ccc9-4215-86e8-8928b2df1f97) <br/> |通話を他のユーザーに転送します。 または、外出先でも会話を続ける必要がある場合は、お使いの PC または IP 電話から携帯電話またはタブレットに通話を転送することができます。  <br/> |
-|発信者番号  <br/> |社内からの通話には、会社のディレクトリから情報を取得する詳細な発信者番号が表示され、電話番号のみではなく写真と役職が表示されます。 外部電話番号からの通話の場合、電話サービスプロバイダによって提供される発信者番号認識が表示されます。 会社のディレクトリで、外部電話番号が第2の番号である場合は、企業ディレクトリからの情報が表示されます。  <br/> |
-|[クラウドの通話キューを作成する](/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue) <br/> |クラウド通話キューには、ユーザーが組織の電話番号に通話を発信するときに使用されるグリーティング、通話を保留にする機能、通話発信者が通話を処理するために次に使用可能な通話エージェントを検索する機能が含まれています。保留中の音楽を聴くことができます。  <br/> |
-|[誰かの状態が変わったときに通知する](https://support.office.com/article/042a13d8-c815-4101-8b41-1e141b6bf6e9) <br/> | この機能により、現在連絡不可のメンバーをタグし、プレゼンスが変更されたときに通知を受け取ることができます。また、通話を発信する準備ができています。 <br/> |
-|PC、Mac、モバイル用のクライアント  <br/> | これにより、タブレットや携帯電話から Pc やデスクトップの IP 電話まで、デバイスでの通話機能が提供されます。 <br/> |
-|デバイス切り替え  <br/> |通話または会議を別のデバイスで再生できます。  <br/> |
-|[Lync の通知を変更する](https://support.office.com/article/15DB9F71-A3D1-4AD7-9D84-39F05520B4C2) <br/> |毎日受信する通話の種類に応じて異なる着信音を再生して、通話相手がすぐにわかるようにします。  <br/> |
-|[Skype for Business でプレゼンス状態を変更する](https://support.office.com/article/9b64eef5-47b8-46d8-a744-f490e6f88feb) <br/> |プレゼンスを使って着信通信を制御し、具体的に指定した通信を除き、すべての着信をブロックすることができます。  <br/> |
-|エンタープライズカレンダーの通話ルーティング  <br/> |エンタープライズカレンダーの通話ルーティングでは、Exchange の予定表の営業時間を使用して、Skype for Business での着信の転送および同時呼び出しを有効または無効にすることができます。  <br/> |
-|内蔵ダイヤルパッド  <br/> | 検索バーとダイヤルパッドで、名前または番号でどこにでもダイヤルできるので、通話の発信プロセスを高速化できます。 <br/> |
-|[卓上電話を使って Skype for Business 通話を行う](https://support.office.com/article/6a316c11-a05e-460c-b969-32ff0ad848e6) <br/> |卓上電話が Office 365 資格情報を使って Skype for Business Online に登録されるように構成されている場合は、電話での通話の音声を使って、卓上電話を使って組織内のユーザーに電話をかけることができます。  <br/>  |
-|Skype とフェデレーション通話  <br/> |Skype ディレクトリ内のすべてのユーザを検索し、安全に接続、通信、共同作業を行うことができます。  <br/> |
-|[Skype for Business の着信の転送オプションを設定する](https://support.office.com/article/1ec2e7fb-471c-4c35-bc90-a35991b3f532) <br/> |即座に、または設定された期間後に、通話をチームに送信します。  <br/> |
-|[Skype for Business を使ってビデオ通話の発信と受信を行う](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42) <br/> | 小さな浮動ウィンドウに発表者の名前とビデオストリームを表示しておくと、いつでも質問に応答できます。 <br/> |
-|[Skype for Business ボイスメールの確認とオプション](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8) <br/> |クラウドボイスメールのしくみは次のとおりです。ユーザーがボイスメールを受信すると、ボイスメールが添付ファイルとしてメールとして送信されます。 Skype 認定のデスクトップ電話、すべての Skype for Business アプリケーション、Lync for Mac 2011 でも、メッセージを聞くことができます。  <br/> クラウドボイスメールには、パーソナライズされたあいさつ文、メッセージ待ちインジケーター、および通話を返信する機能が含まれています。 すべてのボイスメールをメールボックスに入れて、PC、モバイルデバイス、IP 携帯電話で Skype for Business から利用できるようにすることができます。  <br/> |
-|保留音 | 2019年9月に利用可能。電話システムは、公衆交換電話網 (PSTN) からの外部通話が保留になっているときに、サービスによって定義された既定の音楽を再生します。  この機能は、通話キューへの通話に加えて、1対1の PSTN 同士の通話に対応しています。 この機能は、他のプラットフォームとの保留通知のパリティを提供します。 (その他のすべてのプラットフォームでは、ユーザーが保留にしているときに視覚的な合図を出すことができます。ただし、PSTN の発信者に知らせる方法はありません)。 最初のリリースでは、この機能は管理者が構成することはできません。 PSTN 通話の提案転送でも、音楽を保留することはサポートされていません。| 
-|番号の逆引き参照 | 2019年9月、電話システムでは、その番号が AAD のユーザーに関連付けられている場合は、外部電話番号の ID が示されます。 この電話番号が AAD に含まれていない場合は、電話会社が提供している表示名が表示されます (利用可能な場合)。  |
+|[クラウド自動応答](what-are-phone-system-auto-attendants.md) <br/> |外部および内部の発信者が組織内の会社のユーザーや部署に通話を配置して、通話を転送できるようにするメニューシステムを作成することができます。  <br/> |
+|[クラウド通話キュー](create-a-phone-system-call-queue.md) <br/> |組織での通話キューの管理方法を構成することができます。たとえば、応答メッセージや音楽を保留にしたり、通話を処理する次の通話エージェントを検索したりできます。  <br/> |
+|保留音 | 公衆交換電話網 (PSTN) からの外部通話が保留になっているときに、サービスによって定義された既定の音楽を再生します。 この機能は、通話キューへの通話に加えて、1対1の PSTN 同士の通話に対応しています。 この機能は、他のプラットフォームとの保留通知のパリティを提供します。 最初のリリースでは、この機能は管理者が構成することはできません。 PSTN 通話の提案転送でも、音楽を保留することはサポートされていません。|
+|Answer/initiate (名前と電話番号)  <br/> |ユーザーがタッチして着信通話に応答し、完全な電話番号にダイヤルするか、またはクライアントで名前をクリックして発信通話を発信できるようにします。  <br/> |
+|[着信の転送オプションと同時呼び出し](https://support.office.com/article/call-forwarding-call-groups-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e) <br/> |通話がどこにいても通話できるように転送ルールを設定したり、通話を同僚やボイスメールに転送したりすることができます。  <br/> |
+|[グループ通話のピックアップとグループへの転送](call-sharing-and-group-call-pickup.md) <br/> | ユーザーが着信した通話を同僚と共有できるようにすることで、ユーザーが使用できない間に発生した通話に同僚が応答できるようにします。 ユーザーは着信の共有通話の通知方法を構成できるため、他の形式の通話共有 (着信の転送、同時呼び出しなど) よりも、受信者に対する影響が少なくなります。 |
+|[通話と consultive 転送を転送する](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> |ユーザーが通話を他のユーザーに転送できるようにします。 または、自分のオフィスから離れて、会話を続ける必要がある場合は、自分の PC または IP 電話から携帯電話に通話を転送することができます。  <br/> |
+|[ボイスメールへの着信転送](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> | 通話中にユーザがボイスメールに転送することができます。 |
+|[コール パークおよび取得](call-park-and-retrieve.md)  <br/> | ユーザーは、クラウドの Teams サービスで通話を保留にすることができます。 通話が保留中の場合、サービスは通話の取得用に一意のコードを生成します。 通話または他のユーザーが、そのコードとサポートされているアプリまたはデバイスを使って通話を取得できます。 <br/> |
+|検索から電話番号に発信  <br/> | [ダイヤル] コマンドを使用して名前または番号を指定することで、ユーザーが検索ボックスから通話を発信できるようにします。 <br/> |
+|[発信者番号](how-can-caller-id-be-used-in-your-organization.md)  <br/> |社内からの通話には、会社のディレクトリから情報を取得する詳細な発信者番号が表示され、電話番号だけではなく、写真の ID と役職が表示されます。 外部電話番号からの通話の場合、電話サービスプロバイダによって提供される発信者番号認識が表示されます。 外部電話番号が企業ディレクトリ内のセカンダリ番号の場合は、企業ディレクトリからの情報が表示されます。  <br/> |
+|デバイス切り替え  <br/> |ユーザーは、チームに接続されている別の HID デバイスで通話または会議を再生することができます。たとえば、PC スピーカーからヘッドセットに切り替えます。   <br/> |
+|プレゼンスベースの通話ルーティング <br/> |プレゼンスを使って着信通信を制御します。ユーザーは、明示的に指定されたものを除き、すべての着信をブロックすることができます。  <br/> |
+|[統合ダイヤルパッド](https://support.office.com/en-us/article/use-the-dial-pad-in-teams-27bc60b5-74c0-4e9c-808b-da4db9514d89) <br/> | ユーザーは、名前または検索バーとダイヤルパッドの任意の場所で番号をダイヤルして、通話の発信プロセスを高速化することができます。 <br/> |
+|フェデレーション通話  <br/> |フェデレーションされたテナント内のユーザーと安全に接続、通信、共同作業を行うことができます。  <br/> |
+|[ビデオ通話の発信と受信](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42) <br/> | ユーザのアカウントがビデオ通話に対応している場合、ユーザはコンタクトと対面のビデオ通話を行うことができます。 必要なのは、カメラ、コンピュータのスピーカー、マイクだけです。 内蔵のオーディオデバイスがコンピューターに搭載されていない場合、ユーザーはヘッドセットを使用することもできます。<br/> |
+|[クラウドボイスメール](set-up-phone-system-voicemail.md) <br/> | ユーザーがボイスメールを受信すると、ボイスメールが添付ファイルとしてメールとして送信されます。 ユーザーは、認定されたデスクトップ電話で、すべてのチームまたは Skype for business アプリケーションでメッセージを聞くことができます。 ボイスメール トランスクリプションに対するサポートは 2017 年 3 月時点で追加されており、すべての組織とユーザーに対して既定で有効になっています。   <br/> |
+|[クラウドボイスメールのユーザー設定](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US) <br/> | ユーザーは、不在時の応答を含め、ボイスメール応答メッセージ、通話応答ルール、およびグリーティングの言語のクライアント設定を構成できます。   |
+|[セカンダリ着信](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) <br/> | PC に複数のスピーカーデバイスが接続されているユーザーは、既定のスピーカーに加えて、2台目のデバイスの着信音を設定することができます。 たとえば、PC と机のスピーカーに接続されているヘッドセットを使用しているユーザーは、着信があったときにヘッドセットと机スピーカーのどちらの輪を持っているかを選択して、通話を逃すことはありません。  |
+|[ディスティンクティブリング通知](https://support.office.com/en-us/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f)(Teams のみ)<br/> |通話の種類を区別できるように、通常の通話、着信の転送、委任された通話に対して、着信音を個別に選ぶことができます。  <br/> |
+|[回線共有機能](shared-line-appearance.md) <br/> | 他のユーザーが自分の代わりに通話を発信および受信できるように、ユーザーが電話回線を共有できるようにします。|
+|[取り込み中 (Teams](teams-calling-policy.md)のみ) <br/> | ユーザーが既に通話または会議に参加している場合や、通話が保留になっている場合に、着信通話の処理方法を構成できる通話ポリシー。 通話先が電話に入っているときは、発信者は取り込み中の信号を受け取ります。 呼び出し元は不在着信通知を取得しますが、着信呼び出しに応答することはできません。 この機能は既定では無効になっていますが、テナント管理者が有効にすることができます。 |
+|[通話ブロック](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US) <br/> | ユーザーが (PSTN) 電話番号をブロックされたリストに追加して、その番号からの次の着信がブロックされるのを防ぐことができます。|
+|[一般的なエリア電話](set-up-common-area-phones.md) <br/> | 通常、一般的なエリアの電話は、ロビーや電話会議室など、複数のユーザーが利用できる領域に配置されています。 一般的なエリア携帯電話は、ユーザーではなくデバイスとして設定されるため、ネットワークに自動的にサインインすることができます。|
+|[メディアバイパスのサポート](direct-routing-plan-media-bypass.md)(Teams で直接ルーティングのみ) <br/> | パフォーマンスを向上させるために、メディアは、Microsoft 電話システム経由で送信するのではなく、セッション境界コントローラー (SBC) とクライアントの間で保持されます。 |
 
-   
-## <a name="plan-and-set-up-the-phone-system-in-office-365"></a>Office 365 で電話システムを計画してセットアップする
-<a name="bkmk_setup"> </a>
-
-お客様のビジネスに最適な方法で電話システムをセットアップします。
-  
-- 電話システムアドオンは、会社の既存の電話回線、または通話[プランサービスを](calling-plan-landing-page.md)使用して着信通話と発信通話を行うことができます。
-    
-- Office 365 から新しい電話番号を取得したり、既存の電話番号を Skype for Business に転送したりできます。 
-    
-会社で電話システムを計画してセットアップする場合は、次の記事を参照してください。
-
-- [通話プランが設定された電話システム](calling-plan-landing-page.md)
-
-- [通話プランを](set-up-calling-plans.md)セットアップする: この記事では、電話番号を設定するか、既存の電話番号を Skype for business に移行するための詳しい手順について説明します。
-    
-- [Microsoft テレフォニーソリューション](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions): この記事では、展開オプションをすべて紹介します。 また、クラウドのみのソリューション全体の計画に関する情報も含まれています。 
-    
-- [Microsoft Teams のアドオンライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md): Office 365 で電話システムを取得するために購入する必要があるライセンスについて説明します。
-    
-- [クラウド ボイスメールのセットアップ - Admin ヘルプ](set-up-phone-system-voicemail.md)
-    
-- [Skype For business](https://support.office.com/article/8a3491a3-c095-4718-80cf-cbbe4afe4eba)の詳細: skype for business の機能の使用方法については、社内のユーザーにお問い合わせください。 
-
-
-## <a name="availability"></a>使用
-<a name="bkmk_setup"> </a>
-
-||||
-|:-----|:-----|:-----|
-|**リッチクライアント** <br/> |**モバイル クライアント** <br/> |**IP 電話** <br/> |
-| Office 365 でサポートされているすべての PC および Mac クライアントで動作します。 <br/> [Skype for Business をインストールする](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb) <br/> [Lync for Mac 2011 for Office 365 をセットアップする](https://support.office.com/article/ae3ebd0e-a1a7-48cf-9350-36b144dc5f88) <br/> | Skype for Business クライアントには以下のものがあります。 <br/> [iOS](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=ios) <br/> [Android](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=android) <br/> [Windows Phone](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=windows_phone) <br/> |Skype for Business と互換性のある多数の卓上電話から選ぶことができます。 「 [Skype For Business Online の電話を取得する」を](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)参照してください。 <br/> |
 
 ## <a name="availability-in-gcc-high-and-dod-clouds"></a>GCC 高および DoD クラウドでの可用性
 <a name="bkmk_setup"> </a>
 
 以下の機能は、GCC 高および DoD クラウドでまだご利用いただけません。 
-- [第2の着信通話、ボイスメール、強化された委任の設定](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f)
+- [第2の着信音、ボイスメール、強化された委任の通話設定](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f)
 - [ボイスメールへの着信転送](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0)
 - 検索バーから電話番号に発信
 - 保留音
-- AAD の逆番号参照
+- Azure AD 逆引き数値参照
 
-## <a name="related-topics"></a>関連トピック
-[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)
+## <a name="related-topics"></a>関連項目
 
-[国および地域ごとの電話会議および通話プランの利用可能性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+- [Office 365 の電話システムとは](what-is-phone-system-in-office-365.md)
+- [Microsoft Teams での Cloud Voice](cloud-voice-landing-page.md)
+- [電話システムをセットアップする](setting-up-your-phone-system.md)
+- [どの通話プランが適していますか?](calling-plan-landing-page.md)
+- [電話システムのダイレクト ルーティング](direct-routing-landing-page.md)
+- [通話品質を監視および管理する](monitor-call-quality-qos.md)
+- [Microsoft Teams アドオン ライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- [電話システムの料金](https://products.office.com/microsoft-teams/voice-calling#requirements)
+- [通話と会議で仮想化されたデスクトップインフラストラクチャのチーム](teams-for-vdi.md#teams-on-vdi-with-calling-and-meetings)
 
   
  
