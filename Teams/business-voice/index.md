@@ -14,17 +14,17 @@ ms.collection:
 - Teams_Business_Voice
 title: Microsoft 365 企業向け音声
 description: Microsoft 365 企業向け音声を計画、展開、使用する方法について説明します。
-ms.openlocfilehash: c34c447ac183effab5412f4202fd2c2b6c9d426f
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 4e8d681955013c7f1efd5d75fd90cd0a7b0c7af8
+ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972338"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "41268683"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Microsoft 365 企業向け音声のリソース</h1>
-        <P>組織で Microsoft 365 企業向け音声を計画、セットアップ、使用する方法について説明します。 企業向け音声により、中小規模の組織では、社内ソリューションの費用負担と複雑性なく、パワフルで柔軟性の高い電話システムを簡単にセットアップすることができます。 </p>
+        <P>組織で Microsoft 365 企業向け音声を計画、セットアップ、使用する方法について説明します。 企業向け音声により、中小規模の組織では、社内ソリューションの費用負担と複雑性なく、パワフルで柔軟性の高い電話システムを簡単にセットアップすることができます。</p>
         <P></p>
         <ul class="pivots">
             <li>
