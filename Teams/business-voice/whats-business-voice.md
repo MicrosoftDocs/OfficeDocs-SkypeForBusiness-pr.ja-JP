@@ -15,20 +15,20 @@ search.appverid: MET150
 description: Microsoft 365 Business Voice の概要と、中小企業がより効果的にコミュニケーションを行えるようにする方法。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c2f5742f3eadcb8d34653df59e79e9c0789d5a44
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: ea9e199125357d7038429389da82a42992463073
+ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972208"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "41268643"
 ---
 # <a name="what-is-microsoft-365-business-voice"></a>Microsoft 365 Business Voice とは
 
 Microsoft 365 Business Voice を使用すると、中小企業の組織は Microsoft Teams を強力で柔軟な電話システムに簡単に変更できます。 これは、管理が困難で費用がかかる可能性がある従来の電話プロバイダーや社内電話システムの代わりになります。 有料番号とフリーダイヤル番号の両方を設定できます。また、発信者が正しい部署に連絡できるようにする通話メニュー、音声会議を設定して、誰とでも会議を開催できます。 ユーザーが直接電話を発信できるように、各自に電話番号を与えることさえできます。
 
-Business Voice は、Microsoft 365 の電話システムの機能を 1 つの管理しやすいバンドルにまとめることで、すべてを実現します。 適切なプランや機能の選択を心配する必要はありません。それらはすべて揃っており、セットアップされています。 電話システムは Teams の一部であるため、PC、Mac、またはモバイル デバイスを Business Voice の電話番号を使用できる電話に変更することができます。
+Business Voice は、Microsoft 365 電話システムの機能を 1 つの管理しやすいバンドルにまとめることで、すべてを実現します。 適切なプランや機能の選択を心配する必要はありません。それらはすべて揃っており、セットアップされています。 電話システムは Teams の一部であるため、PC、Mac、またはモバイル デバイスを Business Voice の電話番号を使用できる電話に変更することができます。
 
-組織の人数が 300 人以下で、次の Microsoft 365 サブスクリプションのいずれかを使用している場合は、Business Voice が最適です。
+組織の人数が 300 人以下で、次の Microsoft 365 サブスクリプションのいずれかを利用している場合は、Business Voice が最適です。
 
 * Office 365 Business Essentials
 * Office 365 Business Premium
@@ -43,7 +43,7 @@ Business Voice は、Microsoft 365 の電話システムの機能を 1 つの管
 > [!IMPORTANT]
 > Business Voice は現在、カナダとイギリスで利用できます。 2020 年にはさらに多くの国と地域で利用可能になります。
 >
-> Microsoft Teams と Business Voice は、ユーザーのメールボックスが Microsoft 365 にある場合にのみ機能します。  オンプレミスの Exchange サーバーにあるメールボックスはサポートしていません。
+> Microsoft Teams と Business Voice は、ユーザーのメールボックスが Microsoft 365 にある場合にのみ機能します。  オンプレミスの Exchange Server にあるメールボックスはサポートしていません。
 
 Business Voice を購入すると、次の機能などが取得できます。
 
@@ -53,23 +53,17 @@ Business Voice を購入すると、次の機能などが取得できます。
         </td>
         <td>ボイス メール、発信者番号、通話メニュー、共有電話回線、緊急通話などの標準的な電話機能。
         </td>
-        <td><img src="https://docs.microsoft.com/office/media/hub-tiles/MSTeams-CloudVoice-400x140.svg" width="100">
-        </td>
     </tr>
 <tr>
         <td><b><a href="/microsoftteams/calling-plan-landing-page">国内通話</a></b>
         </td>
         <td>国内または地域内の通話は無料です。 国際プランとフリーダイヤルも利用できます。
         </td>
-        <td><img src="https://docs.microsoft.com/office/media/hub-tiles/MSTeams-CloudVoice-400x140.svg" width="100">
-        </td>
     </tr>
     <tr>
         <td><b><a href="/microsoftteams/audio-conferencing-in-office-365">電話会議</a></b>
         </td>
         <td>Teams を持っていない人やインターネットに接続していない人との電話会議をホストできます。
-        </td>
-        <td><img src="https://docs.microsoft.com/office/media/hub-tiles/MSTeams-CloudVoice-400x140.svg" width="100">
         </td>
     </tr>
 </table>
