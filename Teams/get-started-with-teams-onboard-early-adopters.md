@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80a1f92914a3f02fe85c478d5b6974a28ce9cc3a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: c859ea669d8c8dfcc0813059a29e4d95df4fd09b
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570316"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628723"
 ---
 # <a name="onboard-early-adopters-to-microsoft-teams"></a>Microsoft Teams に早期導入者を参加させる
 
@@ -54,7 +54,7 @@ Teams には、デスクトップ用 (Windows および Mac)、Web 用、およ�
 Teams のデスクトップ クライアントは Windows ユーザーと Mac ユーザーに、すべてにおいて最高のエクスペリエンスを提供します。 詳細については、「[Teams のクライアントを取得する (デスクトップ クライアント)](https://docs.microsoft.com/MicrosoftTeams/get-clients#desktop-client)」および「[Microsoft Teams アプリのハードウェア要件](https://docs.microsoft.com/MicrosoftTeams/hardware-requirements-for-the-teams-app)」を参照してください。
 
 > [!NOTE]
-> 管理者は、System Center Configuration Manager (Windows) や Jamf Pro (macOS) など、インストール ファイルを組織内のコンピューターに配布する方法を選択できます。
+> 管理者は、Microsoft Endpoint Configuration Manager (Windows) や Jamf Pro (macOS) など、インストール ファイルを組織内のコンピューターに配布する方法を選択できます。
 
 #### <a name="teams-for-windows"></a>Windows 用 Teams 
 Windows デスクトップ クライアントをインストールする最も簡単な方法は、次のとおりです。

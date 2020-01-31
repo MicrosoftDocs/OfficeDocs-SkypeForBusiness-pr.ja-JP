@@ -1,5 +1,5 @@
 ---
-title: System Center Configuration Manager を使用して Microsoft Teams ルームを展開する
+title: Microsoft Endpoint Configuration Manager を使用して Microsoft Teams ルームを展開する
 author: lanachin
 ms.author: v-lanac
 ms.reviewer: Turgayo
@@ -30,18 +30,18 @@ no-loc:
 - Azure Monitor
 - Log Analytics
 - Operations Management Suite
-ms.openlocfilehash: fe6ea140f15c5234117aabe6612e0190e47ddc4d
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 3735553c1d2c0cc1b0d7e6065be606b69337e9cc
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41269101"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628643"
 ---
-# <a name="deploy-microsoft-teams-rooms-by-using-system-center-configuration-manager"></a>System Center Configuration Manager を使用して Microsoft Teams ルームを展開する
+# <a name="deploy-microsoft-teams-rooms-by-using-microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager を使用して Microsoft Teams ルームを展開する
 
-この記事では、System Center Configuration Manager を使用して Microsoft Teams 室の展開を作成するために必要なすべての情報を提供します。
+この記事では、Microsoft Teams のルーム展開を作成するために必要なすべての情報を Microsoft Endpoint Configuration Manager を使用して提供します。
 
-System Center Configuration Manager によって提供される使いやすいメソッドを使用して、オペレーティングシステムとその他のアプリケーションを複数のターゲットデバイスに展開できます。
+Configuration Manager によって提供される使いやすい方法では、オペレーティングシステムとその他のアプリケーションを複数のターゲットデバイスに展開できます。
 
 次の手順を使用して、構成マネージャーの構成について説明し、このガイダンス全体で組織に必要なサンプルパッケージとスクリプトをカスタマイズします。
 
@@ -54,17 +54,17 @@ System Center Configuration Manager によって提供される使いやすい�
 
 Configuration Manager を使用して Microsoft Teams のルームを展開するには、次の前提条件と要件を満たしていることを確認します。
 
-### <a name="system-center-configuration-manager-requirements"></a>System Center Configuration Manager の要件
+### <a name="microsoft-endpoint-configuration-manager-requirements"></a>Microsoft Endpoint Configuration Manager の要件
 
--   System Center Configuration Manager のバージョンは、1706以上である必要があります。 1710以降の使用をお勧めします。 Configuration Manager でサポートされている Windows 10 のバージョンについては、「 [System Center Configuration manager での windows 10 のサポート」](https://docs.microsoft.com/sccm/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client)を参照してください。
+-   Microsoft Endpoint Configuration Manager バージョンは、少なくとも1706以上でなければなりません。 1710以降の使用をお勧めします。 Configuration manager でサポートされている Windows 10 のバージョンについては、「 [Configuration manager での windows 10 のサポート」](https://docs.microsoft.com/configmgr/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client)を参照してください。
 
--   Windows 10 でサポートされているバージョンの Windows アセスメント & デプロイメントキット (ADK) がインストールされている必要があります。 さまざまなバージョンの Configuration Manager で使用できる[Windows 10 ADK](https://docs.microsoft.com/sccm/core/plan-design/configs/support-for-windows-10#windows-10-adk)のバージョンを確認し、展開に適切なバージョンが含まれていることを確認します。
+-   Windows 10 でサポートされているバージョンの Windows アセスメント & デプロイメントキット (ADK) がインストールされている必要があります。 さまざまなバージョンの Configuration Manager で使用できる[Windows 10 ADK](https://docs.microsoft.com/configmgr/core/plan-design/configs/support-for-windows-10#windows-10-adk)のバージョンを確認し、展開に適切なバージョンが含まれていることを確認します。
 
--   サイトシステムサーバーには、配布ポイントの役割が割り当てられている必要があります。また、ネットワークで開始された展開を有効にするために、ブートイメージを[プレブート実行環境 (PXE) のサポート](https://docs.microsoft.com/sccm/osd/deploy-use/use-pxe-to-deploy-windows-over-the-network)に対して有効にする必要があります。 PXE のサポートが有効になっていない場合は、展開用に[起動可能なメディア](https://docs.microsoft.com/sccm/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network)を使用できます。
+-   サイトシステムサーバーには、配布ポイントの役割が割り当てられている必要があります。また、ネットワークで開始された展開を有効にするために、ブートイメージを[プレブート実行環境 (PXE) のサポート](https://docs.microsoft.com/configmgr/osd/deploy-use/use-pxe-to-deploy-windows-over-the-network)に対して有効にする必要があります。 PXE のサポートが有効になっていない場合は、展開用に[起動可能なメディア](https://docs.microsoft.com/configmgr/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network)を使用できます。
 
--   ネットワークアクセスアカウントは、新しいコンピューター (ベアメタル) の展開シナリオをサポートするように構成する必要があります。 ネットワークアクセスアカウントの構成の詳細については、「 [System Center Configuration Manager でコンテンツにアクセスするためにアカウントを管理](https://docs.microsoft.com/sccm/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA)する」を参照してください。
+-   ネットワークアクセスアカウントは、新しいコンピューター (ベアメタル) の展開シナリオをサポートするように構成する必要があります。 ネットワークアクセスアカウントの構成の詳細については、「[構成マネージャーで使用されているアカウント](https://docs.microsoft.com/configmgr/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA)」を参照してください。
 
--   同じ Microsoft Teams のルームイメージを複数のユニットに同時に展開する可能性がある場合は、[マルチキャストサポート](https://docs.microsoft.com/sccm/osd/deploy-use/use-multicast-to-deploy-windows-over-the-network)を有効にすることをお勧めします。
+-   同じ Microsoft Teams のルームイメージを複数のユニットに同時に展開する可能性がある場合は、[マルチキャストサポート](https://docs.microsoft.com/configmgr/osd/deploy-use/use-multicast-to-deploy-windows-over-the-network)を有効にすることをお勧めします。
 
 ### <a name="networking-requirements"></a>ネットワーク要件
 
@@ -73,14 +73,14 @@ Configuration Manager を使用して Microsoft Teams のルームを展開す�
     > [!NOTE]
     > DHCP リース期間は、イメージの展開期間よりも長い値に設定する必要があります。 そうしないと、展開が失敗する可能性があります。
 
--   スイッチや仮想 Lan (Vlan) などのネットワークは、PXE をサポートするように構成する必要があります。 IP ヘルパーと PXE 構成の詳細については、ネットワークベンダーにお問い合わせください。 または、PXE のサポートが有効になっていない場合は、展開用に[起動可能なメディア](https://docs.microsoft.com/sccm/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network)を使用できます。
+-   スイッチや仮想 Lan (Vlan) などのネットワークは、PXE をサポートするように構成する必要があります。 IP ヘルパーと PXE 構成の詳細については、ネットワークベンダーにお問い合わせください。 または、PXE のサポートが有効になっていない場合は、展開用に[起動可能なメディア](https://docs.microsoft.com/configmgr/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network)を使用できます。
 
     > [!NOTE]
     > Surface Pro デバイスでは、ネットワークからの起動 (PXE ブート) は、Microsoft のイーサネットアダプターまたはドッキングステーションを使っている場合にのみサポートされます。 サードパーティのイーサネットアダプターは Surface Pro による PXE ブートをサポートしていません。 詳細については[、「イーサネットアダプターとサーフェスの展開](https://docs.microsoft.com/surface/ethernet-adapters-and-surface-device-deployment)」をご覧ください。
 
-## <a name="configure-system-center-configuration-manager-for-operating-system-deployment"></a>オペレーティングシステムの展開用に System Center Configuration Manager を構成する
+## <a name="configure-microsoft-endpoint-configuration-manager-for-operating-system-deployment"></a>オペレーティングシステムの展開用に Microsoft Endpoint Configuration Manager を構成する
 
-この記事では、システムセンター構成マネージャーの展開が正常に完了していることを前提としており、構成マネージャーを最初から展開して構成するために必要なすべての手順については詳しく説明しません。 System Center Configuration Manager の[ドキュメントと構成ガイダンス](https://docs.microsoft.com/sccm/)は、優れたリソースです。まだ構成マネージャーを展開していない場合は、これらのリソースから始めることをお勧めします。
+この記事では、構成マネージャーが正常に展開されていることを前提としており、構成マネージャーを最初から展開して構成するために必要なすべての手順については詳しく説明しません。 Microsoft Endpoint Configuration Manager の[ドキュメントと構成ガイダンス](https://docs.microsoft.com/configmgr/)は、優れたリソースです。まだ構成マネージャーを展開していない場合は、これらのリソースから始めることをお勧めします。
 
 オペレーティングシステムの展開 (OSD) 機能が正しく構成されていることを確認するには、次の手順を使用します。
 
@@ -90,7 +90,7 @@ Configuration Manager を使用して Microsoft Teams のルームを展開す�
 
 2.  インストールされているビルドと、まだインストールされていない更新プログラムを確認します。
 
-3.  [System Center Configuration Manager での Windows 10 のサポートを](https://docs.microsoft.com/sccm/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client)確認します。展開をアップグレードする必要がある場合は、インストールする更新プログラムを選び、[**ダウンロード**] を選びます。
+3.  [構成マネージャーでの Windows 10 のサポートを](https://docs.microsoft.com/configmgr/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client)確認する展開をアップグレードする必要がある場合は、インストールする更新プログラムを選び、[**ダウンロード**] を選びます。
 
 4.  ダウンロードが完了したら、更新プログラムを選択して、[**更新プログラムパックのインストール**] を選択します。
 
@@ -118,7 +118,7 @@ Configuration Manager を使用して Microsoft Teams のルームを展開す�
 3.  [**ネットワークアクセスアカウント**] タブを選びます。1つまたは複数のアカウントをセットアップし、[ **OK]** を選択します。
 
 > [!NOTE]
-> アカウントには特別な権限は必要ありません。ただし、配布ポイントサーバーの [**ネットワーク経由でコンピューターにアクセス**する] 権限は使用できません。 一般的なドメインユーザーアカウントが適切です。 詳細については、「 [System Center Configuration Manager でコンテンツにアクセスするためにアカウントを管理する](https://docs.microsoft.com/sccm/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA)」を参照してください。
+> アカウントには特別な権限は必要ありません。ただし、配布ポイントサーバーの [**ネットワーク経由でコンピューターにアクセス**する] 権限は使用できません。 一般的なドメインユーザーアカウントが適切です。 詳細については、「[構成マネージャーで使用されているアカウント](https://docs.microsoft.com/configmgr/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA)」を参照してください。
 
 ### <a name="configure-a-boot-image"></a>ブートイメージを構成する
 
@@ -140,15 +140,15 @@ Configuration Manager を使用して Microsoft Teams のルームを展開す�
 
 6.  メッセージが表示されたら、[**はい**] を選択し、更新されたブートイメージを配布ポイントに配布します。
 
-詳細については、「 [System Center Configuration Manager を使用してブートイメージを管理](https://docs.microsoft.com/sccm/osd/get-started/manage-boot-images)する」を参照してください。
+詳細については、「[構成マネージャーでブートイメージを管理](https://docs.microsoft.com/configmgr/osd/get-started/manage-boot-images)する」を参照してください。
 
 > [!NOTE]
-> ブート可能な USB メディアを作成して、PXE をサポートしていない環境の構成マネージャーのタスクシーケンスベースの展開を開始することができます。 起動可能なメディアには、ブートイメージ、オプションの起動コマンドと必要なファイル、および構成マネージャーのバイナリが含まれます。これには、Windows PE の起動と、展開プロセスの残りの部分に対して Configuration Manager への接続がサポートされます。 詳細については、「[起動可能なメディアを作成する方法](https://docs.microsoft.com/sccm/osd/deploy-use/create-bootable-media#BKMK_CreateBootableMedia)」を参照してください。
+> ブート可能な USB メディアを作成して、PXE をサポートしていない環境の構成マネージャーのタスクシーケンスベースの展開を開始することができます。 起動可能なメディアには、ブートイメージ、オプションの起動コマンドと必要なファイル、および構成マネージャーのバイナリが含まれます。これには、Windows PE の起動と、展開プロセスの残りの部分に対して Configuration Manager への接続がサポートされます。 詳細については、「[起動可能なメディアを作成する](https://docs.microsoft.com/configmgr/osd/deploy-use/create-bootable-media#BKMK_CreateBootableMedia)」を参照してください。
 
 ## <a name="create-configuration-manager-packages"></a>Configuration Manager パッケージを作成する
 
 > [!IMPORTANT]
-> 各 SRS インストーラーバージョンに必要なオペレーティングシステムのバージョンが、MSI のすべてのリリースで変更されています。 特定の MSI で最適なオペレーティングシステムバージョンを判断するには、コンソールセットアップスクリプトを1回実行します。 詳細については、「 [System Center Configuration Manager を使用して Microsoft Teams ルームを展開](rooms-scale.md)する」を参照してください。
+> 各 SRS インストーラーバージョンに必要なオペレーティングシステムのバージョンが、MSI のすべてのリリースで変更されています。 特定の MSI で最適なオペレーティングシステムバージョンを判断するには、コンソールセットアップスクリプトを1回実行します。 詳細については、「 [Microsoft Endpoint Configuration Manager を使用して Microsoft Teams ルームを展開](rooms-scale.md)する」を参照してください。
 
 Configuration Manager では、Microsoft Teams のルームユニットを展開して構成するために、多数のパッケージが必要です。
 
@@ -168,13 +168,13 @@ Configuration Manager では、Microsoft Teams のルームユニットを展開
 | Surface Pro                          | ドライバーパッケージ         | Microsoft Surface Pro のデバイスドライバーとファームウェアのパッケージ                     |
 | Surface Pro 4                        | ドライバーパッケージ         | Microsoft Surface Pro 4 のデバイスドライバーとファームウェアのパッケージ                   |
 
-詳細については、「 [System Center Configuration Manager のパッケージとプログラム](https://docs.microsoft.com/sccm/apps/deploy-use/packages-and-programs)」を参照してください。
+詳細については、「[構成マネージャーでのパッケージとプログラム](https://docs.microsoft.com/configmgr/apps/deploy-use/packages-and-programs)」を参照してください。
 
 ### <a name="create-folders-for-the-package-source-files"></a>パッケージソースファイルのフォルダーを作成する
 
 Configuration Manager では、最初に作成され、更新されるときに、パッケージソースファイルを特定のフォルダー構造で整理する必要があります。
 
-System Center Configuration Manager のサーバーの全体管理サイトまたはプライマリサイト、またはパッケージソースファイルのホストとして使用しているサーバー共有で、次のフォルダー構造を作成します。
+Microsoft Endpoint Configuration Manager サーバーの全体管理サイトまたはプライマリサイト、またはパッケージソースファイルのホストに使用しているサーバー共有で、次のフォルダー構造を作成します。
 
 -   SRS v2-Microsoft Monitoring Agent パッケージ
 -   SRS v2-OS 更新プログラムパッケージ
@@ -486,7 +486,7 @@ System Center Configuration Manager のサーバーの全体管理サイトま�
 
 6.  [**閉じる**] を選びます。
 
-詳細については、「 [System Center Configuration Manager を使用してオペレーティングシステムのイメージを管理](https://docs.microsoft.com/sccm/osd/get-started/manage-operating-system-images)する」を参照してください。
+詳細については、「[構成マネージャーを使用して OS イメージを管理](https://docs.microsoft.com/configmgr/osd/get-started/manage-operating-system-images)する」を参照してください。
 
 ### <a name="create-surface-pro-device-driver-packages"></a>Surface Pro デバイスドライバーパッケージを作成する
 
@@ -524,7 +524,7 @@ Microsoft Teams のルームは Surface Pro と Surface Pro 4 の両方でサポ
 12. 新しく作成したフォルダーに、インポートされたすべてのドライバーを移動して、移動や操作が簡単にできるようにします。
 
 > [!NOTE]
-> 他の Surface Pro モデルにも同じ手順を繰り返します。 詳細については、「 [System Center Configuration Manager でドライバーを管理](https://docs.microsoft.com/sccm/osd/get-started/manage-drivers)する」を参照してください。
+> 他の Surface Pro モデルにも同じ手順を繰り返します。 詳細については、「[構成マネージャーでドライバーを管理](https://docs.microsoft.com/configmgr/osd/get-started/manage-drivers)する」を参照してください。
 
 ### <a name="create-microsoft-teams-rooms-configuration-package"></a>Microsoft Teams 会議室構成パッケージを作成する
 
@@ -591,7 +591,7 @@ Microsoft Teams のルームは Surface Pro と Surface Pro 4 の両方でサポ
 
 ## <a name="configuration-manager-task-sequences"></a>構成マネージャーのタスクシーケンス
 
-タスクシーケンスは System Center Configuration Manager と共に使用して、オペレーティングシステムイメージを送信先コンピューターに展開するための手順を自動化します。 自動的な方法で Microsoft Teams ルームユニットを展開するには、展開先の Microsoft Teams 室のコンピューター、インストールする Windows 10 Enterprise オペレーティングシステムのイメージを開始するために使用されるブートイメージを参照するタスクシーケンスを作成します。その他のアプリケーションやソフトウェア更新プログラムなどのその他のコンテンツ。
+タスクシーケンスを構成マネージャーと共に使用して、ターゲットコンピューターにオペレーティングシステムイメージを展開するための手順を自動化します。 自動的な方法で Microsoft Teams ルームユニットを展開するには、展開先の Microsoft Teams 室のコンピューター、インストールする Windows 10 Enterprise オペレーティングシステムのイメージを開始するために使用されるブートイメージを参照するタスクシーケンスを作成します。その他のアプリケーションやソフトウェア更新プログラムなどのその他のコンテンツ。
 
 ### <a name="import-the-sample-task-sequence"></a>サンプルのタスクシーケンスをインポートする
 
@@ -708,9 +708,9 @@ Microsoft Teams のルームは Surface Pro と Surface Pro 4 の両方でサポ
 <a name="validate-and-troubleshoot-the-solution"></a>ソリューションの検証とトラブルシューティングを行う
 --------------------------------------
 
-System Center Configuration Manager のタスクシーケンスが完了したら、タスクシーケンスで Microsoft Teams のルームユニットを展開して構成できることを確認するために、テスト実行を実行する必要があります。
+Microsoft Endpoint Configuration Manager のタスクシーケンスが完了したら、タスクシーケンスで Microsoft Teams のルームユニットを展開して構成できることを確認するために、テスト実行を実行する必要があります。
 
-1.  サポートされているイーサネットアダプターのいずれかを使用するか、Surface dock を使用して、テストデバイスを有線ネットワークに接続します。 使用している環境に対して PXE ブート機能が構成されていない場合は、[前に作成](https://docs.microsoft.com/sccm/osd/deploy-use/create-bootable-media)した usb フラッシュドライブのブートイメージを使用して、usb から起動し、構成マネージャーに接続できます。
+1.  サポートされているイーサネットアダプターのいずれかを使用するか、Surface dock を使用して、テストデバイスを有線ネットワークに接続します。 使用している環境に対して PXE ブート機能が構成されていない場合は、[前に作成](https://docs.microsoft.com/configmgr/osd/deploy-use/create-bootable-media)した usb フラッシュドライブのブートイメージを使用して、usb から起動し、構成マネージャーに接続できます。
 
 2.  ファームウェアにアクセスし、PXE ブートを開始します。
 
@@ -772,4 +772,4 @@ PXE ブートの問題のトラブルシューティングを行うには、PXE 
 
 -   **Smspxe**(Configuration Manager 管理ポイント (MP) logs ディレクトリにあります)
 
-構成マネージャーのインストールをさらにトラブルシューティングするために使用できるログファイルの完全な一覧については、「 [System Center Configuration manager でファイルをログに記録](https://docs.microsoft.com/sccm/core/plan-design/hierarchy/log-files)する」を参照してください。
+構成マネージャーのインストールをさらにトラブルシューティングするために使用できるログファイルの完全な一覧については、「Microsoft Endpoint Configuration Manager の[ログファイルリファレンス](https://docs.microsoft.com/configmgr/core/plan-design/hierarchy/log-files)」を参照してください。

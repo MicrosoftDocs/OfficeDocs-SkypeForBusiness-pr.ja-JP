@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Microsoft は2020年2月に Exchange ユニファイドメッセージング Online (ExchUMO) サービスを廃止します。 この記事では、影響を受ける顧客がビジネス継続性を計画するときに知っておく必要があることについて説明します。
-ms.openlocfilehash: adef85a59a5d0add990196e5b76587b502f052b5
-ms.sourcegitcommit: 4ccc24dcf61cf9b59224b85757f93f8aceae1771
+ms.openlocfilehash: 55382780fe6ef1c67cbecc1f6c997809f9173b8a
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/24/2019
-ms.locfileid: "40854092"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628673"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange ユニファイド メッセージングの移行サポート
 
@@ -122,7 +122,7 @@ Office 365 テナント管理者は、exchange UM Online の自動応答を、20
 
 ### <a name="exchumo-and-azure-cloud-based-services-feature-matrix"></a>ExchUMO と Azure cloud ベースのサービス機能マトリックス
 
-| サービス | 機能レベル | 機能 | 備考  | クラウド VM/AA  | ExUMO |
+| サービス | 機能レベル | 機能 | メモ  | クラウド VM/AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
 | マシン  | サービス機能| サードパーティ PBX のサポート    | Exchange UM Online から SIP 通知メッセージを使用して、MWI (メッセージ待ちインジケーター) などのサードパーティ PBX に提供されるすべての機能を含む | N   | Y    |
 | マシン | サービス機能  | Skype for Business Server のサポート   |  | Y | Y    |
@@ -233,7 +233,7 @@ Office 365 テナント管理者は、exchange UM Online の自動応答を、20
 
 **自動応答の PSTN への着信転送**ユーザーは、自動応答の呼び出しを外部の PSTN 番号または RG インスタンスに転送するための要件を満たすために、一時的な回避策を構成することをお勧めします。 
  
-問題は、「PSTN 番号への転送」機能を使用して品質保証中に検出されました。顧客は、2020年2月1日のスケジュールされている退職日より前に、Exchange UMO サービスの移行を開始することになります。 回避策として、管理者は、自動応答の発信者をオンプレミスの仮想ユーザーに転送することができます。この設定では、[着信の転送] 設定を使用して、目的の PSTN 電話番号または RGS の電話番号に転送します 
+問題は、「PSTN 番号への転送」機能を使用して品質保証中に検出されました。お客様は、2020年2月28日のスケジュールされた退職日より前に Exchange UMO サービスの移行を開始することになります。 回避策として、管理者は、自動応答の発信者をオンプレミスの仮想ユーザーに転送することができます。この設定では、[着信の転送] 設定を使用して、目的の PSTN 電話番号または RGS の電話番号に転送します 
  
 期待されるエクスペリエンス
 - 回避策であるため、管理者は仮想ユーザーにライセンスを付与する必要はありません。 

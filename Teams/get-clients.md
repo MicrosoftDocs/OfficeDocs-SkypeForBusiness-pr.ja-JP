@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f698d46be07c60d2034b2e355ad70b488b2d7646
-ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
+ms.openlocfilehash: ed6b86aacf13b577d45ee982d32fae7565d37314
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111481"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628543"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams のクライアントを取得する 
 
@@ -45,7 +45,7 @@ Microsoft Teams デスクトップクライアントは、スタンドアロン�
 
 デスクトップ クライアントは、適切なローカルのアクセス許可を持っているエンド ユーザーによって、[https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) から直接ダウンロードおよびインストールできます (管理者権限は、Teams クライアントを PC にインストールする場合には必要ありませんが、Mac では必要になります) 。
 
-IT 管理者は、組織内のコンピューターにインストールファイルを配布するのに適した方法を選ぶことができます。 たとえば、System Center Configuration Manager (Windows) または Jamf Pro (macOS) などがあります。 Windows ディストリビューションの MSI パッケージを取得するには、[MSI を使用して Microsoft Teams をインストールする](msi-deployment.md)を参照ください。  
+IT 管理者は、組織内のコンピューターにインストールファイルを配布するのに適した方法を選ぶことができます。 たとえば、Microsoft Endpoint Configuration Manager (Windows) または Jamf Pro (macOS) などがあります。 Windows ディストリビューションの MSI パッケージを取得するには、[MSI を使用して Microsoft Teams をインストールする](msi-deployment.md)を参照ください。  
 
 > [!NOTE]
 > これらのメカニズムによるクライアントの配布は、Microsoft Teams クライアントの初回インストール時にのみ利用でき、それ以降の更新では利用できません。

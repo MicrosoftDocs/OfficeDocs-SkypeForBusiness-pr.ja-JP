@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Teams 管理者用の患者アプリ
-ms.openlocfilehash: 550a92ac638f1d83cf8bca9a89e0e29d323247e0
-ms.sourcegitcommit: d7fab927e96954f294f28dfb33c0889f736b3ab5
+ms.openlocfilehash: 38750974ce2d4763cad79b9b4cf50a32f403c7a8
+ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "41259066"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "41634840"
 ---
 # <a name="patients-app-overview"></a>患者アプリの概要
 
@@ -28,8 +28,8 @@ ms.locfileid: "41259066"
 
 このアプリには、次の2つのモードがあります。
 
-- Emr から FHIR に接続する EMR 接続モード。 EMR 接続モードのアプリはプライベートプレビューのままであり、ユーザーまたは管理者は、Office 365 テナントに関する情報を使用して teamsforhealthcare@service.microsoft.com に Microsoft をドロップして、アプリへのアクセスを要求することがあります。
-- 治療チームが患者情報を手動で追加/取り込みできる手動モード。 このアプリケーションは、Teams app store で利用できます。これは、エンドユーザーが既定でダウンロードするためであり、パブリックプレビューに含まれています。 [Microsoft Teams のアプリセットアップポリシー](../../teams-app-setup-policies.md)を使用するユーザーの特定のセクションにアプリを制限することができます。
+- Emr から FHIR に接続する EMR 接続モード。 EMR 接続モードのアプリはプライベートプレビューのままであり、ユーザーまたは管理者は、Office 365 テナントに関する情報を使用して[teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com)に Microsoft をドロップして、アプリへのアクセスを要求することがあります。
+- 治療チームが患者情報を手動で追加/取り込みできる手動モード。 アプリケーションは、Teams app store で利用可能で、エンドユーザーはプライベートプレビューでダウンロードすることができます。 アプリは、Teams の[アプリセットアップポリシー](../../teams-app-setup-policies.md)を使用して、ユーザーの特定のセクションに制限することができます。 アプリへのアクセスを取得するには、テナントがテクノロジ導入プログラムに含まれている必要があります (タップ)。 [Teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com)でメールを削除して、アクセス権を要求するプロセスを開始してください。
 
 ## <a name="usage-example"></a>使用例
 
@@ -66,6 +66,6 @@ EMR モードの患者アプリを使用するように環境を準備する方�
 
 はい、あります。 患者のアプリで Microsoft Teams ユーザーによって実行されるすべての UI 操作が監査され、セキュリティ/コンプライアンスセンターで利用可能になります。 詳細については、こちらの記事を参照して[ください](patients-audit.md)。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [電子医療記録を Microsoft Teams に統合する](patients-app.md)

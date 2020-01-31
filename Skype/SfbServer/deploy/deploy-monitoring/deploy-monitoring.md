@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 244df419-d0a8-4b1d-aedd-a92114172ab6
 description: '概要: Skype for Business Server で監視を展開する方法について説明します。'
-ms.openlocfilehash: 7f3bd96b814b45b625612aae9b56a706dfff470f
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: c6ccf371d07dfa7d4fbee582a47c7d1306d6c509
+ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41001149"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "41634850"
 ---
 # <a name="deploy-monitoring-in-skype-for-business-server"></a>Skype for Business Server で監視を展開する
 
@@ -29,7 +29,7 @@ ms.locfileid: "41001149"
 
 2. 監視ストア (監視データベース) と新しいプールを関連付けます。 1つの監視ストアを複数のプールに関連付けることができることに注意してください。 レジストラープールに所属しているユーザー数によっては、各プールに個別の監視データベースを設定する必要はありません。 代わりに、複数のプールで単一の監視ストアを使用できます。
 
-新しいプールを作成するのと同時に監視を有効にする方が簡単ですが、監視を無効にして新しいプールを作成することもできます。 この操作を行う場合、後でトポロジビルダーを使用してサービスを有効にすることができます。 Topology Builder では、プールの監視を有効または無効にする方法、またはプールを異なる監視ストアに関連付ける方法が用意されています。 監視サーバーの役割がなくなった場合でも、1つ以上の監視ストアを作成する必要があります。バックエンドデータベースは、監視サービスによって収集されたデータを格納するために使用されます。 これらのバックエンドデータベースは、Microsoft SQL Server 2008 R2、Microsoft SQL Server 2012、または Microsoft SQL Server 2014 を使って作成できます。
+新しいプールを作成するのと同時に監視を有効にする方が簡単ですが、監視を無効にして新しいプールを作成することもできます。 この操作を行う場合、後でトポロジビルダーを使用してサービスを有効にすることができます。 Topology Builder では、プールの監視を有効または無効にする方法、またはプールを異なる監視ストアに関連付ける方法が用意されています。 監視サーバーの役割がなくなった場合でも、1つ以上の監視ストアを作成する必要があります。バックエンドデータベースは、監視サービスによって収集されたデータを格納するために使用されます。 これらのバックエンドデータベースは、Microsoft SQL Server 2008 R2、Microsoft SQL Server 2012、Microsoft SQL server 2014、または Microsoft SQL Server 2019 を使って作成できます。
 
 > [!NOTE]
 > プールに対して監視が有効になっている場合は、トポロジを変更せずに監視データの収集プロセスを無効にすることができます。 Skype for Business Server を使用すると、通話の詳細記録 (CDR) や音質を無効にすることができます。Experience (QoE) データの収集。 詳細については、このドキュメントの「通話の詳細の記録と音質の設定」を参照してください。

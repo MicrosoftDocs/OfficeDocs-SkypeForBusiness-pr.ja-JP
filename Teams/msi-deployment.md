@@ -1,5 +1,5 @@
 ---
-title: MSI を使用して SCCM 経由で Microsoft Teams をインストールする
+title: Microsoft Endpoint Configuration Manager を使用して MSI を使用して Microsoft Teams をインストールする
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -14,19 +14,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd934c601b45258dd7a2e2c15ef49f19ffee9201
-ms.sourcegitcommit: 416a2d404a2ea15b484cd7579035e7f2282ac2cf
+ms.openlocfilehash: 2f6902ae52c04d0087bb6718b119ae66dd920ced
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/18/2020
-ms.locfileid: "41233276"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628133"
 ---
-# <a name="install-microsoft-teams-using-msi"></a>MSI を使用して Microsoft Teams をインストールする
+# <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager を使用して Microsoft Teams をインストールする
 
 > [!Tip]
 > Windows Desktop Clientの効果、計画や展開の方法については、[Teams Windows Desktop Client](https://aka.ms/teams-clients) のセッションを参照してください。
 
-System Center Configuration Manager、またはグループ ポリシー、または任意のサードパーティの配布メカニズムを広範囲の展開に使用するために、マイクロソフトは管理者が選択したユーザーまたはコンピューターへの Teams の一括展開で使用できる MSI ファイル (32 ビットと 64 ビットの両方) を提供しています。 管理者はこれらのファイルを使用してリモートで Teams を展開できます。そのため、ユーザーは Teams アプリを手動でダウンロードする必要がありません。 展開した場合、Teams はそのマシンにサインインするすべてのユーザーに対して自動的に起動します (アプリのインストール後に自動起動を無効にできます。 [以下を参照してください](#disable-auto-launch-for-the-msi-installer))。コンピューターにパッケージを展開して、マシンの新しいユーザー全員がこの展開による効果を得られるようにすることもお勧めします。
+Microsoft Endpoint Configuration Manager、またはグループポリシー、または広範な展開のためのサードパーティの配布メカニズムを使用するには、管理者がユーザーを選ぶためにチームの一括展開に使用できる MSI ファイル (32 ビットと64ビット) を提供しています。マシン. 管理者はこれらのファイルを使用してリモートで Teams を展開できます。そのため、ユーザーは Teams アプリを手動でダウンロードする必要がありません。 展開した場合、Teams はそのマシンにサインインするすべてのユーザーに対して自動的に起動します (アプリのインストール後に自動起動を無効にできます。 [以下を参照してください](#disable-auto-launch-for-the-msi-installer))。コンピューターにパッケージを展開して、マシンの新しいユーザー全員がこの展開による効果を得られるようにすることもお勧めします。
 
 MSI ファイルへのリンクを次に示します。
 
@@ -41,7 +41,7 @@ MSI ファイルへのリンクを次に示します。
 Teams は、Office 365 ProPlus の展開に含めることもできます。 詳細については、「 [Office 365 を使用して Microsoft Teams を展開する ProPlus](https://docs.microsoft.com/deployoffice/teams-install)を参照してください。
 
 > [!Note]
-> SCCM の詳細については、「[System Center Configuration Manager の概要](https://docs.microsoft.com/sccm/core/understand/introduction)」を参照してください。
+> Microsoft Endpoint Configuration Manager の詳細については、「[構成マネージャーとは](https://docs.microsoft.com/configmgr/core/understand/introduction)」を参照してください。
 
 ## <a name="deployment-procedure-recommended"></a>展開の手順 (推奨)
 
@@ -80,7 +80,7 @@ VDI に Teams デスクトップアプリを展開する方法の詳細なガイ
 3. MSI パッケージをその特定のコンピューターに再展開します。
 
 > [!TIP]
-> [Microsoft Teams の展開のクリーン アップ](scripts/powershell-script-teams-deployment-clean-up.md) スクリプトを使用して、SCCM を介して手順 1 と 2 を完了することができます。
+> [Microsoft Teams の展開クリーンアップ](scripts/Powershell-script-teams-deployment-clean-up.md)スクリプトを使用して、構成マネージャーで手順1と2を実行できます。
 
 ## <a name="prevent-teams-from-starting-automatically-after-installation"></a>インストール後にチームが自動的に起動しないようにする
 

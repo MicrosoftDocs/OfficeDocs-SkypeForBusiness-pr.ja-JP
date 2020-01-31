@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'チーム管理センターから、匿名の発信者が会議に参加することを有効または無効にする方法について説明します。 '
-ms.openlocfilehash: 78b35b65c1bb27d366e8e9fa27c49ef32864081f
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: 380272f3f70d68a04a171ea820e391dd2dd5347a
+ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "37570008"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41580844"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-microsoft-teams"></a>Microsoft Teams で PIN を使用せずに電話で電話会議を開始する
 
@@ -40,7 +40,7 @@ Microsoft Teams の会議の開催者が会議を開始していないために�
   
 ## <a name="enable-or-disable-anonymous-callers-from-joining-a-meeting"></a>匿名の発信者の会議への参加を有効または無効にする
 
-![Microsoft teams](media/teams-logo-30x30.png) **管理センターを使用し**た microsoft teams ロゴを示すアイコン
+![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
 
 1. 左側のナビゲーションで [**ユーザー**] をクリックします。 
 
@@ -48,11 +48,11 @@ Microsoft Teams の会議の開催者が会議を開始していないために�
 
 3. [**電話会議**] の横の [**編集**] をクリックします。
 
-4. [**電話会議**] ウィンドウで、未認証の発信者を有効または無効にする**ことができるのは、会議の最初の人**です。
+4. [**電話会議**] ウィンドウで、ダイヤルインの発信者を有効または無効にするには、**会議の最初の人になることができ**ます。
     
-4. [**保存**] をクリックします。 
+4. [**適用**] をクリックします。 
 
-**Windows Powershell を使用する**
+**Windows PowerShell を使用する**
   
 詳細については、[Microsoft Teams PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)をご覧ください。
 
@@ -82,6 +82,6 @@ Windows PowerShell で行うのは、ユーザーを管理し、ユーザーに�
     
 Windows PowerShell の詳細については、「[Microsoft Teams PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Office 365 での電話会議を試用または購入する](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

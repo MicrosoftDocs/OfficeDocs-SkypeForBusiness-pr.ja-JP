@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ここでは、Skype for Business および Microsoft Teams の Office 365 サービスをオーストラリアで利用できるようにする方法について説明します。
-ms.openlocfilehash: 984450b96747db74966ae9f0880cd96b9eedb2b4
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 2ce9e45a4f2addbe35c0a853c6c009d58998d336
+ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37562708"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41573743"
 ---
 # <a name="availability-in-australia"></a>オーストラリアでの利用可能性
 
@@ -55,8 +55,6 @@ ms.locfileid: "37562708"
 |ボイスメール  <br/> |利用可能  <br/> |
 
 ## <a name="calling-plans"></a>通話プラン
-> [!IMPORTANT]
-> オーストラリアベースのテナントの Telstra でのみ利用可能です。 詳細については、 「[Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan)」を参照してください。
 
 |**機能**|**詳細**|
 |:-----|:-----|
@@ -68,6 +66,18 @@ ms.locfileid: "37562708"
 > (Telstra によって提供される) オーストラリアの加入者番号を削除するには、Telstra に直接お問い合わせください。
 > Telstra によって提供されるオーストラリアの加入者番号の緊急対応の住所情報を更新するには、Telstra に直接お問い合わせください。
 > 詳細については、 「[Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan)」を参照してください。
+
+### <a name="if-your-tenant-is-located-outside-australia"></a>テナントがオーストラリアの外部にある場合
+
+2019年9月1日以降、テナントがオーストラリア以外の場所にいる場合は、オーストラリアにあるユーザーのために通話プランを購入することができます。 この機能は、次の国と地域で利用できます。
+
+|||
+|---------|---------|
+|南北アメリカ    |米国、米領諸島      |
+|APAC     |バングラデシュ、ブータン、ブルネイ、カンボジア、香港、インドネシア、ラオス、ティモール、マレーシア、シンガポール、ミャンマー、ネパール、フィリピン、シンガポール、スリランカ、タイ、ティモール、、ベトナム|
+|EMEA    |オーランド諸島、アンドラ、オーストリア、ベルギー、ブーベ島、ブルガリア、クロアチア、キプロス、チェコ共和国、デンマーク、エストニア、ガーンジー島、フィンランド、フランス、ドイツ、ジブラルタル、アイスランド、アイルランド、ハンガリー、アイスランド、アイルランド、マン、イタリア、ヤンマイエン島、島、ラトビア、リヒテンシュタイン、リトアニア、ルクセンブルク、マルタ、モナコ、オランダ、ノルウェー、サンリノ、スロバキア、スロベニア、スペイン、スバールバル、スウェーデン、スイス、スバールバル諸島、スウェーデン、スイス、英国、バチカン市  |
+
+Office 365 の Telstra 通話は、Telstra によってプロビジョニングされた、オーストラリアにあるユーザーと、上に記載されている国と地域に対してのみ、アドオンとして表示されることに注意してください。 他の地域のユーザーは、引き続き Microsoft の通話プランまたはダイレクトルーティングを適用します。 詳細については、 「[Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan)」を参照してください。
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
 

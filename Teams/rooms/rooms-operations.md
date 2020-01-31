@@ -11,12 +11,12 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 description: このトピックでは、次世代の Skype Room Systems である Microsoft Teams のルームの管理について説明します。
-ms.openlocfilehash: 626190406cf90cdbf09f2ab27d2b31f648f073c9
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 0eb68e74368a9ae4463ab5f6a9721a844b151152
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41269082"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628663"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft Teams の会議室のメンテナンスと操作 
  
@@ -61,9 +61,9 @@ Microsoft Teams の会議室が正常に動作していない場合は、出荷�
 
 |ワークグループ |ドメインに参加していない場合|ドメインに参加している場合|
 |:-----|:-----|:-----|
-|再起動  <br/> |リモート デスクトップ  <br/> リモート Powershell  <br/> |リモートデスクトップ (さらに構成が必要)  <br/> リモート Powershell (さらに構成が必要)  <br/> SCCM  <br/> |
+|再起動  <br/> |リモート デスクトップ  <br/> リモート Powershell  <br/> |リモートデスクトップ (さらに構成が必要)  <br/> リモート Powershell (さらに構成が必要)  <br/> 構成マネージャー  <br/> |
 |OS の更新  <br/> |Windows Update  <br/> |Windows Update  <br/> WSUS  <br/> |
-|アプリの更新  <br/> |	Windows ストア  <br/> |Windows ストア  <br/> SCCM  <br/> |
+|アプリの更新  <br/> |	Windows ストア  <br/> |	Windows ストア  <br/> 構成マネージャー  <br/> |
 |Skype アカウントの構成  <br/> |現在サポートされていません  <br/> |	現在サポートされていません  <br/> |
 |ログへのアクセス  <br/> |	現在サポートされていません  <br/> |	現在サポートされていません  <br/> |
    
@@ -166,7 +166,7 @@ Copy-Item $movefile $targetDevice
   
 既定では、Microsoft Teams のルームは Windows Update に接続して、オペレーティングシステムと USB 周辺機器のファームウェア更新プログラムを取得し、構成された勤務時間外にインストールします。 営業時間を設定するには、管理者アカウントでサインインし、設定アプリを実行します。
   
-更新プログラムを手動で管理する必要がある場合に、一般[法人向け Microsoft ストア](https://businessstore.microsoft.com/store)の一般手順に従って[オフラインアプリを配布](https://docs.microsoft.com/microsoft-store/distribute-offline-apps)することができない場合は、SCCM で使用できる、 [Microsoft Teams ルーム本体を構成](console.md)する手順から[展開キット](https://go.microsoft.com/fwlink/?linkid=851168)から適切な APPX ファイルと依存関係を取得できます。 展開キットのリリースがストアのリリースよりも遅れているため、常に最新のビルドと一致しない可能性があります。
+更新プログラムを手動で管理する必要があり、一般[法人向け Microsoft Store For Business](https://businessstore.microsoft.com/store) [アプリを配布](https://docs.microsoft.com/microsoft-store/distribute-offline-apps)するための通常の手順に従うことができない場合は、構成マネージャーと共に使用[できる、](https://go.microsoft.com/fwlink/?linkid=851168) [microsoft Teams ルーム本体を構成](console.md)する手順から、適切な APPX ファイルと依存関係を取得できます。 展開キットのリリースがストアのリリースよりも遅れているため、常に最新のビルドと一致しない可能性があります。
   
 ### <a name="to-update-using-powershell"></a>Powershell を使用して更新するには
 

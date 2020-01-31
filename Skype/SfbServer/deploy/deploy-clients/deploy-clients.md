@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d10abf2-d484-4fa0-8f10-4a5f9dfba4f5
 description: '概要: Skype for Business のエンタープライズクライアントインストール方法の概要'
-ms.openlocfilehash: f40a4948deb495998debd033f449d9439fd8329b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: b791a4f460eaeac86345eae8896046d90d88831b
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234131"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628293"
 ---
 # <a name="deploy-clients-for-skype-for-business-server"></a>Skype for Business Server のクライアントを展開する
  
@@ -23,7 +23,7 @@ ms.locfileid: "36234131"
   
 ユーザーに Skype for business を展開する方法は、Skype for Business を Office 365 プランの一部として購入したか、ボリュームライセンス版の Skype for Business を購入したかどうかによって異なります。 
   
-- **Office 365**Skype for Business を含む Office 365 プランをお持ちの場合、使用されているインストールテクノロジはクイック実行と呼ばれます。 Office 365 では、ユーザーが Office 365 ポータルから Skype for Business をインストールできるようにすることができます。 または、ソフトウェアをローカルネットワークにダウンロードしてから、Microsoft System Center Configuration Manager などの既存のソフトウェア展開ツールを使用して、ユーザーに Skype for Business を展開することもできます。 Office 365 に付属している Skype for Business のインストール情報については、「 [office 365 で skype for business クライアントを展開](https://support.office.com/article/8c563b81-22c9-4024-9efe-9fe28c7bbc96)する」を参照してください。
+- **Office 365**Skype for Business を含む Office 365 プランをお持ちの場合、使用されているインストールテクノロジはクイック実行と呼ばれます。 Office 365 では、ユーザーが Office 365 ポータルから Skype for Business をインストールできるようにすることができます。 また、ソフトウェアをローカルネットワークにダウンロードしてから、Microsoft Endpoint Configuration Manager などの既存のソフトウェア展開ツールを使用して、ユーザーに Skype for Business を展開することもできます。 Office 365 に付属している Skype for Business のインストール情報については、「 [office 365 で skype for business クライアントを展開](https://support.office.com/article/8c563b81-22c9-4024-9efe-9fe28c7bbc96)する」を参照してください。
     
 - **ボリュームライセンス**ボリュームライセンス版の Skype for Business 2015 または2016クライアントをお持ちの場合は、使用されているインストールテクノロジは Windows インストーラー (MSI) です。 Windows Installer ベースのインストールパッケージは、複数の MSI ファイルで構成されています。 言語に依存しないコア MSI パッケージと 1 つ以上の言語固有のパッケージが組み合わされ 1 つの完全な製品になっています。 セットアップによって個々のパッケージがアセンブルされ、ユーザーのコンピューターへの Office のインストール中およびインストール後に、カスタマイズ タスクとメンテナンス タスクが実行されます。 Skype for Business 2019 クライアントでは、クイック実行インストーラーを使用しています。
     

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 適切なファームウェアを取得し、必要に応じて更新し、ライセンスを割り当て、Skype for Business online 電話機の設定を構成するための展開手順について説明します。
-ms.openlocfilehash: 8d3de52f7c732571b3692ed2b3683673acdb8e60
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 10562165547a27bb8a2903e7f11f3c547cca1b1e
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34432587"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628383"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Skype for Business Online 電話機の展開レポート
 
@@ -69,7 +69,7 @@ Skype for Business Online 対応の電話機およびファームウェアは、
 > [!NOTE]
 > 5.5.1.X より前の Polycom ファームウェアには、メーカー独自のデバイスのロック メカニズムが導入されています。このメカニズムは Skype for Business 実装の「電話のロック」に置換されています。「デバイスのロック」で保護されていた 5.4.X.X から「電話のロック」を備える 5.5.1.X に電話機をアップグレードすると、「デバイスのロック」から PIN コードが継承されないため、電話機が保護されていない状態になります。「デバイスのロック」を有効にしていたユーザーは、次の Polycom デバイスのプロファイル パラメーターを有効にして、ユーザーがアップグレードのタイミングを制御できるようにする必要があります (lync.deviceUpdate.popUpSK.enabled=1)。 
   
-ファームウェアの更新は Skype for Business Service によって管理されます。Skype for Business 認定済みの電話機のファームウェアは Skype for Business Update サーバーにアップロードされます。既定では、デバイスの更新はすべての電話機で有効になっています。電話機の無通信時間およびポーリング間隔に応じて、電話機では最新の認定済みビルドがダウロードされ、インストールされます。デバイスの更新設定は [Set-CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx) コマンドレットを使用して、 _EnableDeviceUpdate_ パラメーターを `false` に設定することで無効にできます。
+ファームウェアの更新は Skype for Business Service によって管理されます。Skype for Business 認定済みの電話機のファームウェアは Skype for Business Update サーバーにアップロードされます。既定では、デバイスの更新はすべての電話機で有効になっています。電話機の無通信時間およびポーリング間隔に応じて、電話機では最新の認定済みビルドがダウロードされ、インストールされます。デバイスの更新設定は [Set-CsIPPhonePolicy](https://technet.microsoft.com/library/mt629497.aspx) コマンドレットを使用して、 _EnableDeviceUpdate_ パラメーターを `false` に設定することで無効にできます。
   
 ![電話の展開を示すスクリーンショット](../../images/be727622-1924-439f-96ca-89230739db9e.png)
   
@@ -88,7 +88,7 @@ Polycom 電話機の場合は、 **SwUpdate** を選択することで電話機�
   
 ### <a name="step-5---configuration-and-infrastructure-phone-settings"></a>ステップ 5 - 電話の設定の構成とインフラ整備
 
-Skype for Business インバンド管理の Windows PowerShell コマンドレットを使用して最も一般的に使用される電話機オプションをセットアップできます。これらのパラメーターおよび設定の詳細については、「[Set-CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx)」をご覧ください。
+Skype for Business インバンド管理の Windows PowerShell コマンドレットを使用して最も一般的に使用される電話機オプションをセットアップできます。これらのパラメーターおよび設定の詳細については、「[Set-CsIPPhonePolicy](https://technet.microsoft.com/library/mt629497.aspx)」をご覧ください。
   
 ネットワーク インフラストラクチャの計画については、「[Skype Operations Framework (Skype の運用フレームワーク](https://www.skypeoperationsframework.com/)」をご覧ください。
   
@@ -184,7 +184,7 @@ Skype for Business インバンド管理の Windows PowerShell コマンドレ�
     
 - **電話のロック** は、電話機を保護するために Skype for Business 認定済み電話機に最近導入されてた機能です。この機能が有効な場合、ユーザーは正常な認証後に PIN を作成するように求められます。PIN の作成後、定義したアイドル タイムアウトを過ぎると電話機がロックされます。さらに、ユーザーは電話機を手動でロックするか、電話のペアリングを使用して電話のロックを同期させることもできます。電話のロックの PIN を複数回誤って入力すると、ユーザーが電話機からサインアウトされるか、管理者のコードを使用して電話機をロック解除する必要があります。ただし、これは電話機パートナーによって異なります。ユーザーの PIN は 6 桁から 15 桁です。
     
-    既定で有効化されている組織の電話のロックの無効化、アイドル タイムアウトの変更、ロック時またはインバンド設定の未使用時にユーザーが通話できるかどうかの設定を行うことができます。 これらの設定の詳細については[、「Set-CsUCPhoneConfiguration](https://technet.microsoft.com/en-us/library/mt629497.aspx) 」を参照してください。
+    既定で有効化されている組織の電話のロックの無効化、アイドル タイムアウトの変更、ロック時またはインバンド設定の未使用時にユーザーが通話できるかどうかの設定を行うことができます。 これらの設定の詳細については[、「Set-CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps) 」を参照してください。
     
 ## <a name="step-7-optional---if-you-have-device-pairing-and-better-together-over-ethernet-btoe"></a>ステップ 7 (省略可能) - デバイス ペアリングおよび Better Together over Ethernet (BToE) を使用する場合
 <a name="BK_BTOE"> </a>
@@ -205,7 +205,7 @@ BToE の動作は [ *自動*  ] (既定) および [ *手動*  ] の 2 つのモ
     
      ![PC への接続を示すスクリーンショット](../../images/e21d76c7-867c-4fe6-95c6-fc40c608ed0c.png)
   
-2. 次に示すリンクを使ってメーカーの Web サイトから最新の BToE ソフトウェアをダウンロードし、インストールします。ユーザーの利便性を向上するため、System Center Configuration Manager (SCCM) などの管理配布ソリューションを使用して BToE ソフトウェアを配布して、インストールすることができます。SCCM の使用については、「[System Center Configuration Manager のパッケージとプログラム](https://docs.microsoft.com/sccm/apps/deploy-use/packages-and-programs)」をご覧ください。
+2. 次に示すリンクを使ってメーカーの Web サイトから最新の BToE ソフトウェアをダウンロードし、インストールします。 優れたユーザーエクスペリエンスを実現するには、Microsoft Endpoint Configuration Manager などの管理者配布ソリューションを使用して、BToE ソフトウェアの配布とインストールを行うことができます。 構成マネージャーの使い方については、「[構成マネージャーでのパッケージとプログラム](https://docs.microsoft.com/configmgr/apps/deploy-use/packages-and-programs)」を参照してください。
     
    - [Polycom BToE ソフトウェア ダウンロード サイト](http://www.polycom.com/voice-conferencing-solutions/microsoft-phones.html)
     
@@ -213,7 +213,7 @@ BToE の動作は [ *自動*  ] (既定) および [ *手動*  ] の 2 つのモ
     
    - [AudioCodes BToE ソフトウェア ダウンロード](https://www.audiocodes.com/solutions-products/solutions/skype-for-business-microsoft-teams/skype-for-business-online)
     
-3. 既定では、BToE のサーバー設定は [ **有効** ] および **自動モード** です。 これらの設定を変更するには、 [セット CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx)を参照してください。
+3. 既定では、BToE のサーバー設定は [ **有効** ] および **自動モード** です。 これらの設定を変更するには、 [セット CsIPPhonePolicy](https://technet.microsoft.com/library/mt629497.aspx)を参照してください。
     
 > [!NOTE]
 > BToE は Mac および VDI プラットフォームでは現在サポートされていません。 

@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: '概要: Skype for Business でサポートされているクライアントとアプリを確認します。'
-ms.openlocfilehash: bda5ca2a9694b87e3bc8a6684770e7efcfc224d4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d1ee70e39595d5891736dcd4e4830a9a7ef67213
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277441"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628273"
 ---
 # <a name="plan-for-clients-and-devices"></a>クライアントおよびデバイスの計画
 
@@ -30,7 +30,7 @@ ms.locfileid: "34277441"
 
 ## <a name="available-clients"></a>利用可能なクライアント
 
-Skype for Business Server は、コンピューターにインストールされているクライアントソフトウェア、web ベースのクライアント、モバイルデバイス向けクライアントなど、さまざまな種類のクライアントをサポートしています。 このセクションではプライマリクライアントを紹介しています。サポートされているすべてのクライアントの詳細については、「 [skype for Business server 2015 のデスクトップクライアント機能の比較](desktop-feature-comparison.md)」または「 [Skype for Business server のデスクトップクライアント機能の比較」を参照してください。2019](../../../SfBServer2019/plan/feature-comparison.md)。 以前に Lync クライアントを組み合わせて使用したことがある場合は、サポートされていない[レガシクライアント](clients-and-devices.md#Legacy)が Skype For business Server 2019 に対応していないことに注意してください。 更新は定期的に行われるため、クライアントの最新情報については、このトピックを定期的にチェックしてください。
+Skype for Business Server は、コンピューターにインストールされているクライアントソフトウェア、web ベースのクライアント、モバイルデバイス向けクライアントなど、さまざまな種類のクライアントをサポートしています。 このセクションではプライマリクライアントについて説明します。サポートされているすべてのクライアントの詳細については、「 [skype for Business server 2015 のデスクトップクライアント機能の比較](desktop-feature-comparison.md)」または「 [Skype for business Server 2019 のデスクトップクライアント機能の比較](../../../SfBServer2019/plan/feature-comparison.md)」を参照してください。 以前に Lync クライアントを組み合わせて使用したことがある場合は、サポートされていない[レガシクライアント](clients-and-devices.md#Legacy)が Skype For business Server 2019 に対応していないことに注意してください。 更新は定期的に行われるため、クライアントの最新情報については、このトピックを定期的にチェックしてください。
 
 ### <a name="skype-for-business-2019"></a>Skype for Business (2019)
 
@@ -91,7 +91,7 @@ Microsoft Surface Hub は、ブレインストーミング、コラボレーシ�
 
 ユーザーは、自分のすべてのデバイスに[Skype For business をダウンロード](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3)することによって、クライアントをインストールすることができます。 クライアントは、ユーザーが Windows に Office 365 をインストールしたときにもインストールされます。 一部のユーザーが Mac を使用している場合、これらのユーザーは、前のセクションで説明したように、さまざまな機能のセットを持つことになります。
 
-Skype for business Server 2015 で利用できる機能の一部は、Skype for Business Online または Skype for business Server 2019 では利用できません。2015またはハイブリッドのユーザーアカウントの制限 (2019 の場合) については、「[オンラインまたはハイブリッド](desktop-feature-comparison.md#Online-Hybrid)のユーザーアカウントの制限」を参照してください。 [](desktop-feature-comparison.md#Online-Hybrid)詳細はこちら。 Skype for Business Online の管理者は、Skype for business [Online サービスの説明](https://technet.microsoft.com/library/skype-for-business-online-service-description.aspx)を参照して、利用可能なプランについてご確認ください。
+Skype for business Server 2015 で利用できる機能の中には、Skype for Business Online または Skype for business Server 2019 では利用できないものがあります。詳細については、「2015またはハイブリッドの[2019 ユーザー](desktop-feature-comparison.md#Online-Hybrid)アカウントの制限」[を](desktop-feature-comparison.md#Online-Hybrid)参照してください。 Skype for Business Online の管理者は、Skype for business [Online サービスの説明](https://technet.microsoft.com/library/skype-for-business-online-service-description.aspx)を参照して、利用可能なプランについてご確認ください。
 
  Skype for Business を展開またはアップグレードする前に、組織で既に使用されているクライアントを確認します。 [Skype For business のデスクトップクライアント機能の比較](desktop-feature-comparison.md)を使用して、それらのクライアントに対する機能のサポートについて理解します。 これによって、ユーザーへの変更点の伝達や、ロールアウト プロセスの調整、最新のクライアントにアップグレードするメリットの十分な理解が容易になります。
 
@@ -128,7 +128,7 @@ Skype for business Server 2015 で利用できる機能の一部は、Skype for 
 
 ### <a name="msi"></a>MSI
 
-MSI は、Skype for Business 2015 および2016クライアントで使用される従来のインストール方法です。 手動で更新プログラムをインストールしたり、ボリュームライセンスとライセンス認証を使用したり、 [Office カスタマイズツール](https://www.microsoft.com/en-us/download/details.aspx?id=49030)を使ってカスタマイズしたりすることができます。 グループポリシーを適用してクライアントを配布するには、System Center Configuration Manager を使用するか、サードパーティツールを使用します。
+MSI は、Skype for Business 2015 および2016クライアントで使用される従来のインストール方法です。 手動で更新プログラムをインストールしたり、ボリュームライセンスとライセンス認証を使用したり、 [Office カスタマイズツール](https://www.microsoft.com/en-us/download/details.aspx?id=49030)を使ってカスタマイズしたりすることができます。 クライアントを配布するには、Microsoft Endpoint Configuration Manager を使用するか、サードパーティツールを使用して、グループポリシーを適用します。
 
 
 
@@ -137,7 +137,7 @@ MSI は、Skype for Business 2015 および2016クライアントで使用され
 
 Skype for Business Server 2019 および Skype for Business Online は、以前にリリースされた次のクライアントをサポートしています。 Skype for Business 2016、Skype for Business 2015、Lync 2013。
 
-Skype for Business Server 2015 は、以前にリリースされた以下のクライアント (Lync 2013、Lync 2010、Lync 2010 Mobile、Lync Phone Edition、Lync 2010 アテンダント) をサポートしています。 他のサーバーと共に使用した場合に、これらのクライアントについては、「 [Lync server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx)および[クライアント比較表 (lync Server 2010 の](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx)クライアント比較表)」を参照してください。
+Skype for Business Server 2015 は、以前にリリースされた以下のクライアント (Lync 2013、Lync 2010、Lync 2010 Mobile、Lync Phone Edition、Lync 2010 アテンダント) をサポートしています。 他のサーバーと共に使用した場合に、これらのクライアントについては、「 [Lync server 2013](https://technet.microsoft.com/library/gg425836%28v=ocs.15%29.aspx)および[クライアント比較表 (lync Server 2010 の](https://technet.microsoft.com/library/gg425836%28v=ocs.14%29.aspx)クライアント比較表)」を参照してください。
 
 
 ## <a name="client-system-requirements"></a>クライアントのシステム要件

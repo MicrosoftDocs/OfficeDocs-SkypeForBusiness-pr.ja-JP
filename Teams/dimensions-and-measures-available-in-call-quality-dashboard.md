@@ -19,12 +19,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom: Reporting
 description: Microsoft Teams および Skype for Business Online の通話品質ダッシュボードで使用される寸法と測定値に関する詳細情報を取得します。
-ms.openlocfilehash: 6dcbf7b415e2c337968e5c2c3af09efcb02be0a5
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 82602565d0589e55cb76bffa6bece218bc02a295
+ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572258"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41580894"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>通話品質ダッシュボードで利用可能な寸法と測定値
 
@@ -167,7 +167,7 @@ CQD の寸法と測定の多くは、first または second というラベル�
 | First User Agent  | String  | 第 1 のエージェントのユーザー エージェント文字列。 <br/> **値の例:** UCCAPI/16.0.7766.5281 OC/16.0.7766.2047 (Skype for Business) | &bull;第1のエンドポイントによって報告されたユーザーエージェントはありません   |
 | Second User Agent  | String  | 第 2 のエージェントのユーザー エージェント文字列。 <br/> **値の例:** UCCAPI/16.0.7766.5281 OC/16.0.7766.2047 (Skype for Business) | &bull;第2のエンドポイントによってユーザーエージェントが報告されませんでした   |
 | Conference Type  | 列挙型 <br/>**指定可能な値:** <br/>&bull;conf: applicationsharing <br/>&bull;conf: オーディオビデオ <br/>&bull;conf: フォーカス | 電話会議 URI の種類。  <br/> **例値:** conf: オーディオビデオ | &bull;電話会議以外のシナリオ。   |
-| Conference Id  | 文字列  | ストリームに関連付けられた電話会議 ID。 このディメンションは、レポートでディメンションとして使用する行が多すぎる可能性があります。 代わりにフィルターを使用することができます。  <br/> **例値:** 0001P6GK  | &bull;電話会議以外のシナリオ。 |
+| 会議 ID (lync.cqd.com)<br/>通話 ID (cqd.teams.microsoft.com)  | String  | ストリームに関連付けられている会議 ID (または通話 ID)。 Cqd.teams.microsoft.com では、相手が相手 (P2P) 通話か電話会議かに関係なく、すべての通話に通話 Id が割り当てられます。  このディメンションは、レポートでディメンションとして使用する行が多すぎる可能性があります。 代わりにフィルターを使用することができます。  <br/> **例値:** 0001P6GK  | &bull;電話会議以外のシナリオ。 |
 | First Client App Version  | String  | 第 1 のエンドポイントで使用されているアプリケーションのバージョン。データはユーザー エージェントの文字列から解析されます。<br/> **例値:** 16.0.7766.2047 | &bull;バージョン文字列を解析できませんでした <br/>&bull;この値は報告されませんでした。   |
 | Second Client App Version  | 文字列  | 第 2 のエンドポイントで使用されているアプリケーションのバージョン。データはユーザー エージェントの文字列から解析されます。<br/> **例値:** 16.0.7766.2047 | &bull;バージョン文字列を解析できませんでした <br/>&bull;この値は報告されませんでした。 |
 |会議 Id|String |会議の作成時に生成される、会議の識別子です。 | |
@@ -319,7 +319,7 @@ CQD の寸法と測定の多くは、first または second というラベル�
 | 第1の受信ノイズレベル  | レンジ (dB デシベル)  | 第1のエンドポイントによって受信されたモノラルノイズまたはステレオ左チャネルノイズの平均エネルギーレベル。 値はレンジでグループ化されます。 <br/> **例値:** 048: [-50--45-----------------  | &bull;これはオーディオ以外のストリームです <br/>&bull;第1のエンドポイントによってデータが報告されなかった |
 | 第2の受信ノイズレベル  | レンジ (dB デシベル)  | 第2のエンドポイントによって受信されたモノラルノイズまたはステレオ左チャネルノイズの平均エネルギーレベル。 値はレンジでグループ化されます。 <br/> **例値:** 048: [-50--45-----------------  | &bull;オーディオ以外のストリームを示します <br/>&bull;第2のエンドポイントによってデータが報告されなかった |
 |第1の初期シグナルレベルの RMS | レンジ (dB デシベル) | 第1のエンドポイントの通話の最初の30秒間の受信信号のルート平均 (RMS)。 [2.2.1.28.1 の子要素](https://docs.microsoft.com/openspecs/office_protocols/ms-qoe/3c78f383-73fe-49f6-89cb-614e7aa8b2e7)を参照する  | |
-| 第2の初期シグナルレベル RMS |レンジ (dB デシベル) | 第2のエンドポイントの通話の最初の30秒間の受信信号のルート平均 (RMS)。 詳細については、「 [2.2.1.28.1 の子要素](https://docs.microsoft.com/en-us/openspecs/office_protocols/ms-qoe/3c78f383-73fe-49f6-89cb-614e7aa8b2e7)」を参照してください。||
+| 第2の初期シグナルレベル RMS |レンジ (dB デシベル) | 第2のエンドポイントの通話の最初の30秒間の受信信号のルート平均 (RMS)。 詳細については、「 [2.2.1.28.1 の子要素](https://docs.microsoft.com/openspecs/office_protocols/ms-qoe/3c78f383-73fe-49f6-89cb-614e7aa8b2e7)」を参照してください。||
 | 第 1 RxAGC Signal Level |レンジ (dB デシベル)| 最初の受信オーディオストリームの自動ゲイン制御 (AGC) で受信したシグナルレベル。| |
 | 第2の RxAGC Signal Level |レンジ (dB デシベル)|第2の受信オーディオストリームの自動ゲイン制御 (AGC) で受信したシグナルレベル。|| 
 | 第1の RxAGC ノイズレベル|レンジ (dB デシベル)|最初の受信オーディオストリームの自動ゲインコントロール (AGC) で受信したノイズレベル。 ||
@@ -395,7 +395,7 @@ CQD の寸法と測定の多くは、first または second というラベル�
 | 第1の UserType|列挙文字列|第1のエンドポイントのユーザーの種類。 <br/> 指定**可能な値:** ユーザー、サーバー、匿名、アプリケーション、PSTN、ボイスメール、不明 <br/> <br/>**Unknown** -受信した情報に基づいて UserType を判断できない場合の既定値です。 <br/>**Pstn-Pstn**ユーザー。 <br/>**匿名**-Teams ユーザーまたは Skype for business の利用者。 <br/>**アプリケーション**-ボット。 <br/>**ユーザー** -AAD ユーザーは、Skype For business ユーザーまたは Teams ユーザーのいずれかにすることができます。 <br/>**サーバー** -会議の場合は、少なくとも一方がサーバーです。 <br/>**ボイスメール**-エンドポイントはボイスメールサービスによって応答されました。||
 | 第2の UserType|列挙文字列|第2のエンドポイントのユーザーの種類。 <br/> 指定**可能な値:** ユーザー、サーバー、匿名、アプリケーション、PSTN、ボイスメール、不明 <br/> <br/>**Unknown** -受信した情報に基づいて UserType を判断できない場合の既定値です。 <br/>**Pstn-Pstn**ユーザー。 <br/>**匿名**-Teams ユーザーまたは Skype for business の利用者。 <br/>**アプリケーション**-ボット。 <br/>**ユーザー** -AAD ユーザーは、Skype For business ユーザーまたは Teams ユーザーのいずれかにすることができます。 <br/>**サーバー** -会議の場合、少なくとも1つはサーバーです。 <br/>**ボイスメール**-エンドポイントはボイスメールサービスによって応答されました。||
 |**Datapair**|||
-| Network Connection Detail Pair  | ペアの列挙 <br/>**指定可能な値:** <br/> WiFi : WiFi <br/> WiFi : 有線 <br/> 有線 : WiFi <br/> 有線 : 有線 <br/> MobileBB : MobileBB <br/> MobileBB : その他 <br/> MobileBB : トンネル <br/> MobileBB : WiFi <br/> MobileBB : 有線 <br/> その他 : その他 <br/> その他 : WiFi <br/> その他 : 有線 <br/> トンネル : トンネル <br/> トンネル : WiFi <br/> トンネル : 有線 <br/> : MobileBB <br/> : その他 <br/> : トンネル <br/> : WiFi <br/> : 有線 <br/> :  | 第 1 および第 2 のエンドポイントに関するネットワーク接続詳細のペア。  | &bull;エンドポイントのネットワーク接続の種類が不明でした。 これは、通話が確立できなかった場合に発生する可能性があります。   |
+| Network Connection Detail Pair  | ペアの列挙 <br/>**値の例は次のとおりです。** <br/> WiFi : WiFi <br/> WiFi : 有線 <br/> 有線 : WiFi <br/> 有線 : 有線 <br/> MobileBB : MobileBB <br/> MobileBB : その他 <br/> MobileBB : トンネル <br/> MobileBB : WiFi <br/> MobileBB : 有線 <br/> その他 : その他 <br/> その他 : WiFi <br/> その他 : 有線 <br/> トンネル : トンネル <br/> トンネル : WiFi <br/> トンネル : 有線 <br/> : MobileBB <br/> : その他 <br/> : トンネル <br/> : WiFi <br/> : 有線 <br/> :  | 第 1 および第 2 のエンドポイントに関するネットワーク接続詳細のペア。  | &bull;エンドポイントのネットワーク接続の種類が不明でした。 これは、通話が確立できなかった場合に発生する可能性があります。   |
 | User Agent Category Pair  | ペアの列挙  | 第 1 および第 2 のエンドポイントのユーザー エージェント カテゴリのペア。 <br/> **値の例:** AV-MCU: OC  | &bull;エンドポイントのユーザーエージェントが既知の型ではありませんでした  |
 | Is Server Pair  | ペアの列挙 <br/>指定**可能な値:** クライアント: クライアント <br/> クライアント: サーバー <br/> サーバー: サーバー  | クライアントまたはサーバーである第 1 および第 2 のエンドポイントの識別ペア。  | 空白値はありません   |
 | Connectivity Ice Pair  | ペアの列挙 <br/>**値の例は次のとおりです。** <br/> DIRECT : DIRECT <br/> DIRECT : FAILED <br/> DIRECT : HTTP <br/> FAILED : FAILED <br/> FAILED : RELAY <br/> HTTP : RELAY <br/> : <br/> : DIRECT <br/> : FAILED <br/> : HTTP <br/> : RELAY | 各エンドポイントによって使用される ICE 接続の種類のペア。   | &bull;エンドポイントで使用されている ICE 接続が知られていないか報告されていない   |
@@ -550,7 +550,7 @@ CQD で使用される文字列は、多くの場合、データファイルか�
 |Avg Second Echo Percent Mic In |パーセンテージ |第 2 のエンドポイントが、エコー キャンセルの前にキャプチャまたはマイク デバイスからの音声でエコーを検出した、ストリーム中の時間の平均パーセンテージ |
 |Avg First Echo Percent Send |パーセンテージ |第 1 のエンドポイントが、エコー キャンセルの後にキャプチャまたはマイク デバイスからの音声でエコーを検出した、ストリーム中の時間の平均パーセンテージ |
 |Avg Second Echo Percent Send |パーセンテージ |第 2 のエンドポイントが、エコー キャンセルの後にキャプチャまたはマイク デバイスからの音声でエコーを検出した、ストリーム中の時間の平均パーセンテージ |
-| 平均の第1の初期シグナルレベル RMS| レンジ (デシベル) |第1のエンドポイントの通話の最初の30秒間の、受信したシグナルのルート平均 (RMS) の平均値を計算します。  詳細については、「 [2.2.1.28.1 の子要素](https://docs.microsoft.com/en-us/openspecs/office_protocols/ms-qoe/3c78f383-73fe-49f6-89cb-614e7aa8b2e7)」を参照してください。|
+| 平均の第1の初期シグナルレベル RMS| レンジ (デシベル) |第1のエンドポイントの通話の最初の30秒間の、受信したシグナルのルート平均 (RMS) の平均値を計算します。  詳細については、「 [2.2.1.28.1 の子要素](https://docs.microsoft.com/openspecs/office_protocols/ms-qoe/3c78f383-73fe-49f6-89cb-614e7aa8b2e7)」を参照してください。|
 | 平均の第2の初期シグナルレベル RMS|レンジ (デシベル) |第2のエンドポイントの通話の最初の30秒間の、受信したシグナルのルート平均 (RMS) の平均値を計算します。||
 | Avg First RxAGC Signal Level|レンジ (デシベル)  |最初の受信オーディオストリームの自動ゲインコントロールで受信した平均シグナルレベル。 | |
 | Avg Second RxAGC Signal Level|レンジ (デシベル) |第2の受信オーディオストリームの自動ゲインコントロールで受信した平均シグナルレベル。| |

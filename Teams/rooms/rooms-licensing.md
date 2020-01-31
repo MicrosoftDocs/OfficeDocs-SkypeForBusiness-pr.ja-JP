@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Microsoft Teams のルームで利用できる機能について説明します。 '
-ms.openlocfilehash: 81a1ec8142ba43d17552c220495aae212ba2de04
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 9358eafd4b4e4c9f556a6cca350afa2a5fa4b6fc
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41269053"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628253"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Teams 会議室のライセンス更新
 
@@ -66,7 +66,7 @@ Microsoft には、会議のライセンスを取得し、会議室のデバイ�
 |臨時の会議を開始する | 会議室の SKU  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Enterprise CAL|
 |臨時の会議を開始して、会議から電話番号にダイヤルアウトする |  会議室の SKU |Skype for Business Standard CAL  <br/> Skype for Business Server Enterprise CAL|
 |会議室に電話番号を付け、会議室からの通話の発信や受信を行うか、電話番号を使って電話会議に参加する  | 会議室の SKU  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Plus CAL  |
-|Microsoft Intune で room デバイスを管理する |会議室の SKU  |[オンプレミス MDM](https://docs.microsoft.com/sccm/mdm/plan-design/plan-on-premises-mdm)付きの Microsoft Intune サブスクリプション |
+|Microsoft Intune で room デバイスを管理する |会議室の SKU  |[オンプレミス MDM](https://docs.microsoft.com/configmgr/mdm/plan-design/plan-on-premises-mdm)付きの Microsoft Intune サブスクリプション |
 | |||
 
 > [!NOTE]

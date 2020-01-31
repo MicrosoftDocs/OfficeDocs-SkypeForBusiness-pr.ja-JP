@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad0344d07fe9ea77e0970ca6ea11fdf62886098b
-ms.sourcegitcommit: 800a5c3881d0ebceb505a538fcf7e48f7b6df17e
+ms.openlocfilehash: 3a0e055305cc994730b22507b5ce0cf1823e43f0
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37913046"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628373"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Teams でのライフサイクル管理の計画
 
@@ -55,7 +55,7 @@ _チーム_とは、人、コンテンツ、ツールを 1 つにまとめてコ
 チームのユーザー タイプによって、チームのメンバーが制御することができる範囲が決まります。
 
 -   _チーム作成者_は、ディレクトリ内にグループまたはチームを作成するためのアクセス権を持っています。 管理者はこのユーザー タイプを管理者またはユーザーのサブセットに制限することができます。 詳細については、「[Office 365 グループを作成できるユーザーを管理する](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618)」をご覧ください。 
--   _チーム所有者_は、チームのメンバーシップと設定を管理します。 1 つのチームあたり 10 人ものチーム所有者を設定することができます。
+-   _チーム所有者_は、チームのメンバーシップと設定を管理します。 1 つのチームあたり所有者は 100 人まで設定できます。
 -   _チーム メンバー_は、自分の組織内のメンバーで、チームに参加するユーザーです。
 -   _ゲスト_は、組織外部のユーザーです。 自分の組織で[ゲスト アクセス](guest-access.md)が有効になっている場合に、メール アドレスがあるユーザーを誰でも招待することができます。
 

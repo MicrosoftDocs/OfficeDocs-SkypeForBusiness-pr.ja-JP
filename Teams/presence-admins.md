@@ -14,19 +14,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be40c98a66e5f3023ce375d0a00515832280c7c0
-ms.sourcegitcommit: d2bee305a3588f8487bba3396b1825be7a52f6d2
+ms.openlocfilehash: b7660cc35986b8b0debc449bacde686bb9e2694b
+ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38714493"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41580924"
 ---
 # <a name="user-presence-in-teams"></a>Teams でのユーザーのプレゼンス
 
 プレゼンスは、Microsoft Teams (および Office 365 全体) のユーザーのプロファイルの一部であり、ユーザーの現在の可用性と他のユーザーの状態を示します。 既定では、他のユーザーがオンラインで利用できる場合、チームを使っているすべてのユーザーに (ほぼリアルタイムで) 表示できます。
 
 > [!IMPORTANT]
-> ユーザーを [**Teams のみ**] モードに移動した後に Skype for Business クライアントをアンインストールすると、Outlook および Office アプリでプレゼンスが機能しなくなります。 プレゼンスは Teams では正常に機能します。 対応策: Outlook (およびその他の Office アプリ) でプレゼンスを表示するには、teams**のみ**のモードで teams を実行している場合でも、Skype for business をインストールする必要があります。 Microsoft はこの問題を把握しており、現在修正に向けて取り組んでいます。
+> ユーザーを [**Teams のみ**] モードに移動した後に Skype for Business クライアントをアンインストールすると、Outlook および Office アプリでプレゼンスが機能しなくなります。 プレゼンスは Teams では正常に機能します。 回避策: Outlook (および他の Office アプリ) でプレゼンスを表示させるには、Teams を [**Teams のみ**] モードで実行している場合であっても、Skype for Business をインストールする必要があります。 Microsoft はこの問題を把握しており、現在修正に向けて取り組んでいます。
 
 Outlook での Teams のプレゼンスは、Outlook 2013 デスクトップ版アプリ以降でサポートされています。
 

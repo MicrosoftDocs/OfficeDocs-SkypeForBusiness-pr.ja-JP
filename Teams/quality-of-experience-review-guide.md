@@ -3,7 +3,6 @@ title: Microsoft Teams のエクスペリエンスの品質レビュー ガイ�
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 09/05/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
@@ -15,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fcf18aa2487527c436b104011140524e6ce4ae5d
-ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
+ms.openlocfilehash: 91a4cda0cb7f16363f3fa90deb0358bf5600330a
+ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40952810"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41580904"
 ---
 # <a name="quality-of-experience-review-guide"></a>QoE のレビュー ガイド
 
@@ -58,25 +57,28 @@ _図 1-このガイドで取り上げている主要な運用領域_
 
 このガイドは、指定された品質チャンピオンでも使用することを目的としています。 詳細については、「[品質支持者の役割](4-envision-plan-my-service-management.md#the-quality-champion-role)」を参照してください。
 
-## <a name="prerequisites"></a>前提条件
+## <a name="assign-roles-for-accessing-cqd"></a>CQD にアクセスするための役割の割り当て
 
 このガイドを使用する前に、CQD にアクセスできるように、適切なテナント[ロール](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)が割り当てられていることを確認してください。
 
--   **Office 365 のグローバル管理者** 
+次の表に、CQD で実行できる各役割について説明します。
 
--   **Skype for Business 管理者** 
 
--   **Teams サービス管理者** 
+|  |レポートを表示する  |EUII フィールドを表示する  |レポートを作成する  |建物のデータをアップロードする  |
+|---------|:-------:|:-------:|:-------:|:-------:|
+|Office 365 のグローバル管理者     |はい         |Yes         |Yes         |Yes         |
+|Teams サービス管理者     |はい         |Yes         |Yes         |Yes         |
+|Teams 通信管理者     |はい         |Yes         |Yes         |Yes         |
+|Teams 通信サポート エンジニア     |はい         |Yes         |はい         |いいえ         |
+|Teams 通信サポート スペシャリスト     |はい         |いいえ         |はい         |いいえ         |
+|Skype for Business 管理者     |はい         |Yes         |Yes         |Yes         |
+|Azure AD グローバルリーダー |はい         |Yes         |はい         |いいえ         |
+|Office 365 レポートリーダー<sup>1</sup>     |はい         |いいえ         |はい         |いいえ         |
 
--   **Teams 通信管理者** 
+<sup>1</sup> CQD レポートの読み取りに加えて、Office 365 レポート閲覧者は、管理センターのすべての[アクティビティレポート](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263)と、 [Microsoft 365 導入コンテンツパック](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)のすべてのレポートを表示できます。
 
--   **Teams 通信サポート エンジニア** 
-
--   **Teams 通信サポート スペシャリスト** 
-
-または、次の役割を Office 365 ユーザーアカウントに割り当てて、レポート機能のみにアクセスできるようにすることもできます。
-
--   **レポートリーダー:** 管理センターですべての[アクティビティレポート](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263)を表示できます。また、 [Microsoft 365 導入コンテンツパック](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)と CQD レポートからすべてのレポートを表示できます。
+> [!NOTE]
+> EUII (エンドユーザーを特定できる情報) が表示されず、この情報を表示することを許可されているロールの1つがある場合は、CQD で30日間は EUII しか保持されないことに注意してください。 30日以上経過したものは削除されます。
 
 ## <a name="what-is-quality"></a>品質とは
 
@@ -286,6 +288,8 @@ CQD Online には、"概要" と "詳細" という2つのレポートエディ�
 
 2つのエディションの違いの詳細については、[この記事](turning-on-and-using-call-quality-dashboard.md)を参照してください。
 
+2020年1月の新[機能: POWER BI クエリテンプレートをダウンロードして CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD Power BI query templates.zip?raw=true)します。 CQD データの分析と報告に使用できる、カスタマイズ可能な Power BI テンプレート。
+
 _図 4-CQD レポートのカテゴリ_
 
 概要レポートは、次の4つのカテゴリに分類されます。
@@ -331,7 +335,7 @@ CQD では、データの表示方法に応じて、2種類のレポートから
 
 #### <a name="skype-for-business-online-admin-center"></a>Skype for Business Online 管理センター
 
-1.  に<https://portal.office.com>移動します。
+1.  <https://portal.office.com> に移動します。
 
 2.  テナント管理者の組織のアカウントでサインインします。
 
@@ -466,7 +470,7 @@ CQD で表示する寸法またはメジャーを適切に選択するには、�
 
 CQD にアクセスするには、次の3つの方法があります。
 
--   に<https://cqd.lync.com>移動します。
+-   <https://cqd.lync.com> に移動します。
 
 -   次の図に示すように、 **Microsoft Teams 管理センター**に移動して、CQD へのリンクを選択します。
 
@@ -585,7 +589,7 @@ _表 4-レポートフィルター_
 
 **テンプレートをインポートするには (.CQDX) を CQD Online に接続する**
 
-1. に<https://cqd.lync.com>移動します。
+1. <https://cqd.lync.com> に移動します。
 
 2. Office 365 管理者の資格情報を使用して認証します。
 

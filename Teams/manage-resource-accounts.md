@@ -1,7 +1,7 @@
 ---
 title: Teams のリソース アカウントを管理する
-ms.author: jambirk
-author: jambirk
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: jastark, wasseemh
 ms.topic: article
@@ -17,12 +17,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Microsoft Teams でリソースアカウントを管理する方法について説明します。
-ms.openlocfilehash: a89fe9df7cc878369a06b9c959609dd435bcbd8c
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: e7e7e644d64aeb043e6403fd60d22ebcef155ebe
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925468"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628363"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Microsoft Teams のリソースのアカウントの管理
 
@@ -107,24 +107,34 @@ Microsoft Teams または Skype for Business Online では、各電話システ�
 
 ![[リソースアカウント] ページのスクリーンショット](media/r-a-master.png)
 
-![前のスクリーンショットで吹き出しを参照する数値1のアイコン](media/sfbcallout1.png)
+![前のスクリーンショットで吹き出しを参照する数値1のアイコン](media/teamscallout1.png)
 
-新しいリソースアカウントを作成するには、[ **+ 新しいアカウント**] をクリックします。 ポップアップで、リソースアカウントの表示名とユーザー名 (ドメイン名が自動的に入力されます) を入力し、[**保存**] をクリックします。
+新しいリソースアカウントを作成するには、[ **+ 追加**] をクリックします。 ポップアップで、**表示名**、**ユーザー名**(ドメイン名が自動的に設定される必要があります)、リソースアカウントの**リソースアカウントの種類**を入力します。 リソースアカウントの種類には、リソースアカウントに関連付けるアプリに応じて、**自動応答**または**通話キュー**のいずれかを使うことができます。 準備ができたら、[**保存**] をクリックします。
 
 ![新しいリソースアカウントオプションのスクリーンショット](media/res-acct.png)
 
 次に、「一般[法人向け Office 365 でライセンスをユーザーに割り当てる](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)」の説明に従って、O365 管理センターのリソースアカウントにライセンスを適用します。
 
-### <a name="edit-resource-account-name"></a>リソースアカウント名を編集する
+### <a name="edit-resource-account"></a>リソースアカウントを編集する 
 
-![数字2のアイコン。前のスクリーンショット](media/sfbcallout2.png)で吹き出しを参照すると、[**編集**] オプションを使用してリソースアカウントの表示名を編集できます。 完了したら、[**保存**] をクリックします。
+![数字 2](media/teamscallout2.png)のアイコン。前のスクリーンショットで吹き出しを参照すると、[**編集**] オプションを使用してリソースアカウントの**表示名**と**リソースアカウント**の種類を編集できます。 完了したら、[**保存**] をクリックします。
+
 ![[リソースアカウントの編集] オプションのスクリーンショット](media/r-a-edit.png)
 
 <a name="phonenumber"> </a>
 
 ### <a name="assignunassign-phone-numbers-and-services"></a>電話番号とサービスの割り当て/割り当て解除を行う
 
-![番号3のアイコン、前のスクリーンショット](media/sfbcallout3.png)での吹き出しの参照リソースアカウントを作成してライセンスを割り当てた後、[**割り当て/割り当て解除**] をクリックして、リソースアカウントにサービス番号を割り当てるか、リソースを割り当てることができます。既に存在する自動応答または通話キューのアカウント。 直接ルーティング番号の割り当ては、コマンドレットを使用する場合にのみ行うことができます。 通話キューまたは自動応答をまだ作成する必要がある場合は、作成時にリソースアカウントをリンクすることができます。 完了したら、[**保存**] をクリックします。
+![番号3のアイコン、前のスクリーンショット](media/teamscallout3.png)で吹き出しを参照するリソースアカウントを作成してライセンスを割り当てた後、[**割り当て/割り当て解除**] をクリックして、リソースアカウントにサービス番号を割り当てるか、電話番号の種類を設定するか、または既に存在する特定の自動応答または通話キューにリソースアカウントを割り当てます。 直接ルーティング番号の割り当ては、コマンドレットを使用する場合にのみ行うことができます。 リソースアカウントに関連付ける通話キューまたは自動応答をまだ作成していない場合は、このフィールドを空白のままにします。 リソースアカウントを作成するときに、リンクを設定することができます。 完了したら、[**保存**] をクリックします。
+
+**電話番号の種類**のオプションは次のとおりです。
+
+- なし
+- オンライン
+- フリーダイヤル
+- オンプレミス
+
+![[割り当て/割り当て解除] オプションのスクリーンショット](media/r-a-assign.png)
 
 リソースアカウントに直接ルーティングまたはハイブリッド番号を割り当てるには、PowerShell を使用する必要があります。次のセクションを参照してください。
 
@@ -134,11 +144,11 @@ Microsoft Teams または Skype for Business Online では、各電話システ�
 > [!IMPORTANT]
 > 電話番号は、自動応答または通話キューに直接割り当てられるのではなく、自動応答または通話キューに関連付けられているリソースアカウントに割り当てられます。
 
-![[割り当て/割り当て解除] オプションのスクリーンショット](media/r-a-assign.png)
+
 
 ## <a name="change-an-existing-resource-account-to-use-a-virtual-user-license"></a>仮想ユーザーライセンスを使用するように既存のリソースアカウントを変更する
 
-既存のリソースアカウントのライセンスを電話システムのライセンスから仮想ユーザーライセンスに切り替える場合は、無料の仮想ユーザーライセンスを取得し、Microsoft 365 管理センターのリンクされた手順に従ってユーザーをに移行する必要があります。 [別](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription)の月額プラン。 
+既存のリソースアカウントのライセンスを電話システムのライセンスから仮想ユーザーライセンスに切り替える場合は、無料の仮想ユーザーライセンスを取得してから、Microsoft 365 管理センターのリンクされた手順に従って、[ユーザーを別のサブスクリプションに移動](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription)する必要があります。 
 
 > [!WARNING]
 > 常に完全な電話システムのライセンスを削除し、同じライセンスアクティビティに仮想ユーザーライセンスを割り当てます。 古いライセンスを削除した場合は、アカウントの変更を保存し、新しいライセンスを追加してから、アカウント設定をもう一度保存すると、リソースアカウントが予期したとおりに機能しなくなることがあります。 この問題が発生した場合は、仮想ユーザーライセンス用の新しいリソースアカウントを作成し、破損したリソースアカウントを削除することをお勧めします。 
@@ -149,7 +159,7 @@ Microsoft Teams または Skype for Business Online では、各電話システ�
 
 - 次の Powershell コマンドレットの例は、[新しい-csonline Applicationinstance](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineApplicationInstance?view=skype-ps)を使って、オンラインでホームリソースアカウントを作成する方法を示しています。 
 
-- クラウド通話キューとクラウド自動応答で使用できる Skype For Business Server 2019 上のリソースアカウントの場合は、「[クラウド通話キューを構成](/skypeforbusiness/hybrid/configure-call-queue.md)する、[クラウド自動応答を構成](/skypeforbusiness/hybrid/configure-cloud-auto-attendant.md)する」を参照してください。 ハイブリッド実装 (直接ルーティングによる番号) では[、CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)が使用されます。
+- クラウド通話キューとクラウド自動応答で使用できる Skype For Business Server 2019 上のリソースアカウントの場合は、「[クラウド通話キューを構成](/skypeforbusiness/hybrid/configure-call-queue.md)する、[クラウド自動応答を構成](/skypeforbusiness/hybrid/configure-cloud-auto-attendant.md)する」を参照してください。 ハイブリッド実装 (直接ルーティングによる番号) は、オンプレミスの Skype for Business Server 2019 サーバー上の[CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)コマンドレットを使用して構成されます。
 
 アプリケーションインスタンスの作成時に使う必要があるアプリケーション ID は、次のとおりです。
 

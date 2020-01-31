@@ -5,23 +5,23 @@ ms.author: v-lanac
 author: lanachin
 TOCTitle: Configuration management
 ms:assetid: 00ea1196-cb40-427f-99a4-5e8037cbf367
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720316(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn720316(v=OCS.15)
 ms:contentKeyID: 63969570
 ms.date: 05/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fa4bacdea1090351e9937e039fec184a1f59ab0f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cb652485b03bcaee5e63bc4fc23d25fd5df958bd
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840473"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628353"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuration-management-in-lync-server-2013"></a>Lync Server 2013 での構成管理
 
@@ -73,7 +73,7 @@ _**最終更新日:** 2015-05-15_
 
   - **自動化**   されたスクリプトたとえば、オペレーティングシステム、service pack レベル、ソフトウェアが特定のコンピューターに存在するかどうかなどの項目を報告するための簡単なスクリプトを作成できます。 これらのスクリプトは、組織の正確な要件に書くことができます。 ただし、必要なスクリプトの数とその複雑さは、スクリプトを作成して維持するのにコストがかかる可能性があります。
 
-  - **自動化ツール**   ビジネスと組織のニーズの規模に応じて、自動化ツールの使用を検討してください。 System Center Configuration Manager などのツールを使用すると、標準のレポートテンプレート (サービスパックレベルなど) が組み込まれます。また、カスタムアプリケーションの場合など、カスタマイズされたレポートを作成することもできます。 System Center 構成マネージャーを使って、ハードウェアとソフトウェアの構成を報告することもできます。
+  - **自動化ツール**   ビジネスと組織のニーズの規模に応じて、自動化ツールの使用を検討してください。 Microsoft Endpoint Configuration Manager などのツールによって標準のレポートテンプレート (service pack level など) が組み込まれているほか、カスタムアプリケーションの場合など、カスタマイズされたレポートを作成することもできます。 Microsoft Endpoint Configuration Manager は、ハードウェアとソフトウェアの構成を報告するために使用することもできます。
 
 </div>
 

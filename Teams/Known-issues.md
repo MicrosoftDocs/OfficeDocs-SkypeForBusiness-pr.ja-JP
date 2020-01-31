@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 現在知られている Microsoft Teams クライアント アプリおよび管理エクスペリエンスでの問題の一覧です。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 50501c3d5e077deacaf183dd36efce72d295f556
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 9c613f2116b5ad9f97426f60466d71d4ffaddba1
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40990652"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628533"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams の既知の問題
 
@@ -313,6 +313,14 @@ ms.locfileid: "40990652"
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
 |プランナー オンラインでの Teams プランナー統合 <br/> |プランナーのタスク バケットが、プランナー オンラインのエクスペリエンスで表示されません。  <br/> |回避策なし。 <br/> |2017/02/28  <br/>|
+
+
+|**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
+|:-----|:-----|:-----|:-----|
+|プランナー オンラインでの Teams プランナー統合 <br/> |所有者は、既存の Office 365 グループから作成されたチームからプランを作成することはできません。  <br/> |グループの所有者にメンバーのアクセス許可を付与します。 <br/> |2020/01/14  <br/>|
+
+
+
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|

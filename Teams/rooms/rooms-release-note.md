@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: この記事では、Microsoft Teams のルームでの累積的な改善点について説明します。
-ms.openlocfilehash: c3de17e0139d1ae20a2a4667e4c5fbab2d6b6d53
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 9d174ddb8e0d6495f3d493ea6b64819efe648726
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41269077"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628653"
 ---
 # <a name="release-notes"></a>リリース ノート
 
@@ -311,7 +311,7 @@ Introduced in this update:
 - 常に、室内にいるユーザを検出したときに自動的に表示を再開するアプライアンス。
 - UWP (ユニバーサル Windows プラットフォーム) Skype 会議アプリの展開と更新が簡単
 - Windows AppLocker で Skype 会議アプリへのデバイスをロック ダウン
-- Intune および SCCM (MDM) 経由で Windows 10 Enterprise デバイスとして監視および管理
+- Intune と構成マネージャー (MDM) を介して、Windows 10 Enterprise デバイスとして監視および管理されます。
 - エンタープライズ レベルの信頼性
 - 慣れ親しんだ Skype ユーザー インターフェイスのためにトレーニングの労力が少ない
 - Surface Pro 4 タブレット上で動作

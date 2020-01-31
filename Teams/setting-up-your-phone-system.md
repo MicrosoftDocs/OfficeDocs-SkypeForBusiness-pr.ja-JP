@@ -19,14 +19,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '組織の電話システム (クラウド PBX) の設定方法について説明します。 '
-ms.openlocfilehash: 402ae5f92e72cd1bc7ab759d3706108480a27a7e
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: d4d8927e2abda35ff8cb3346218cb3c4cda9c049
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925298"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628403"
 ---
-# <a name="setting-up-phone-system-in-your-organization"></a>組織内の電話システムの設定
+# <a name="set-up-phone-system-in-your-organization"></a>組織で電話システムをセットアップする
 
 以下は、Office 365 で電話システムを設定するための手順ガイドです。各手順の最後に、追加の詳細情報へのリンクが提供されています。
 
@@ -36,249 +36,116 @@ ms.locfileid: "37925298"
 2.   **電話システム** での機能と詳細の一覧を確認します。 
 3.  電話システムが使用可能な場合は、手順 2 に進みます。 
 
-**電話システムおよびオーディオ会議の地域別利用可能時間に関する詳細については、 [オーディオ会議や通話プランのための国および地域の可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) を参照してください。**
-
 ## <a name="step-2-buy-and-assign-phone-system-and-calling-plan-licenses"></a>手順 2: 電話システムおよび通話プランのライセンスを購入し、割り当てる
 
-電話システムと通話プランのライセンスを 1 人のユーザーに割り当てるには、Office 365 ライセンスの割り当ての手順と同じです。「[Microsoft Teams ライセンスを割り当てる](assign-teams-licenses.md)」を参照してください。複数のユーザーをまとめて割り当てる場合は、「[Microsoft Teams ライセンスを割り当てる](assign-teams-licenses.md)」を参照してください。
+電話システムと通話プランのライセンスを1人のユーザーに割り当てるには、手順は「Office 365 ライセンスの割り当て」と同じです。  複数のユーザーに一括してライセンスを割り当てることもできます。 詳細については、「 [Microsoft Teams ライセンスを割り当てる](assign-teams-licenses.md)」を参照してください。
+
+お住まいの国または地域で通話プランを利用できない場合は、ダイレクトルーティングを使用してオンプレミスのテレフォニーインフラストラクチャを電話システムに接続することを検討してください。  詳細については、「[電話システムのダイレクト ルーティング](direct-routing-landing-page.md)」を参照してください。
 
 ## <a name="step-3-get-phone-numbers-for-your-users"></a>ステップ 3: ユーザー向けの電話番号を取得する
 
 組織内でユーザーを設定し、電話を掛けたり受けたりする前に、ユーザーの電話番号を取得する必要があります。
 
 ユーザー用の番号を取得するには、次の 3 つの方法があります。
-- Skype for Business 管理センターを使用して新しい番号を取得します。
-- Skype for Business管理センターでは使用できない、新しい番号を取得します。
+- Teams 管理センターを使用して、新しい番号を取得します。
+- Teams 管理センターで利用できない新しい番号を取得します。
 - 既存の番号を現在のサービス プロバイダーまたは電話会社から Office 365 に移行または転送します。
 
-新しいユーザー番号を表示、検索、取得、および予約するには、[**新しいユーザー番号を追加**] ページを使用する必要があります。国/地域、都道府県、市区町村で検索し、ユーザー用に必要な電話番号の数を入力できます。
+[**番号の追加**] ページを使用して、これらの番号の表示、検索、取得、および予約を行う必要があります。 [ 国または地域]、[ 都道府県]、[ 市区町村] で検索してから、ユーザー用に必要となる電話番号の数を入力できます。
 
-### <a name="get-new-user-phone-numbers"></a>新しいユーザー電話番号を取得する 
- 
-**Skype for Business 管理センターを使って** ![Skype for Business のロゴを表示したアイコン](media/sfb-logo-30x30.png)
+### <a name="get-new-user-phone-numbers-using-the-teams-admin-center"></a>Teams 管理センターを使用して新しいユーザーの電話番号を取得する
 
 1. 職場または学校のアカウントを使用して、Microsoft 365 にサインインします。
 
-2. **Microsoft 365 管理センター** > **Skype for Business** に移動します。
+2. **Teams 管理センター**に移動します。
     
-3. 左のナビゲーションで、[**音声** > **電話番号**] に移動し、[追加] ボタン**をクリック** ![してプラス](media/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png)記号として表示し、[**新しいユーザー番号**] をクリックします。
+3. 左のナビゲーションで、[**音声** > **電話番号**] に移動し、[**追加**] をクリックして、画面の指示に従います。
     
-### <a name="get-new-numbers-that-arent-available-in-the-skype-for-business-admin-center"></a>Skype for Business管理センターでは使用できない、新しい番号を取得します。
+### <a name="get-new-numbers-that-arent-available-in-the-teams-admin-center"></a>Teams 管理センターで利用できない新しい番号を取得する
   
-ご利用国/地域によっては、Skype for Business 管理センターを使用して新しい番号を取得できない場合があります。その場合は、フォームをダウンロードし、記入したフォームを Microsoft に送付する必要があります。新しいユーザー番号をリクエストする方法の詳細については、「[組織の電話番号を管理する](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)」を参照してください。   
+場合によっては (お住まいの国/地域によっては)、Teams 管理センターを使用して新しい電話番号を取得することはできません。 この場合、フォームをダウンロードして、もう一度送信する必要があります。 新しいユーザー番号を要求する方法については、「[組織の電話番号を管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)する」を参照してください。   
   
 ### <a name="port-or-transfer-phone-numbers-from-your-service-provider-or-phone-carrier"></a>サービス プロバイダーまたは電話会社から電話番号を移行または転送する
   
-- ユーザーの電話番号を999以上にする必要がある場合は、Skype for Business 管理センターの新しい電話番号の**ポート注文**ウィザードを使用できます。「電話[番号をチームに転送](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)して電話番号を転送する」の手順に従います。
+- ユーザーの電話番号を999以上にする必要がある場合は、Teams 管理センターの新しい電話番号の**ポート注文**ウィザードを使用できます。 「電話[番号をチームに転送](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)して電話番号を転送する」の手順に従います。
     
-- 電話番号が 999 個よりも多い電話番号を移行する必要がある場合は、「[組織の電話番号を管理する](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)」を参照して移行注文サービスの依頼または注文を発行し、Office 365 に移行される電話番号をすべて取得します。 
+- 999を超える電話番号を移植する必要がある場合は、「[組織の電話番号を管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)して、ポート注文サービスの依頼または注文を送信する」を参照してください。 
 
-**新しい電話番号を取得するか、既存の番号を転送する方法の詳細については、 [組織の電話番号の管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) を参照してください。**
+新しい電話番号を取得するか、既存の番号を転送する方法の詳細については、 [組織の電話番号の管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) を参照してください。
 
 ## <a name="step-4-get-service-phone-numbers-audio-conferencing-call-queues-auto-attendants"></a>手順 4: サービス用の電話番号 (電話会議、通話キュー、自動応答) を取得します。
 
-Office 365 ユーザー用の電話番号の取得に加え、電話会議 (会議ブリッジ用)、自動応答、通話キュー (別名: サービス番号) などのサービス用に、有料または無料電話番号を検索し、取得できます。ユーザーまたはサブスクライバーの電話番号に比べて、サービス電話番号はより高い同時通話の処理能力を持ちます。たとえば、ユーザーの電話番号 1 つが同時に取り扱える通話数はごく少数なのに対して、1 つのサービス番号は何百もの通話を同時に取り扱えます。
+Office 365 からユーザーの電話番号を取得することに加えて、電話会議 (会議ブリッジ用)、自動応答、通話キューなどのサービスの有料または無料電話番号を検索して取得することができます。 サービス用電話番号の同時通話容量は、ユーザーまたは登録者の電話番号より大きくなります。 たとえば、サービス番号では何百もの通話を同時に処理できますが、ユーザーの電話番号は同時に複数の通話を処理できます。
 
-### <a name="get-new-service-numbers"></a>新しいサービス番号を取得する
-
-**Skype for Business 管理センターを使って** ![Skype for Business のロゴを表示したアイコン](media/sfb-logo-30x30.png)
+### <a name="get-new-service-numbers-using-the-teams-admin-center"></a>Teams 管理センターを使用して新しいサービス番号を取得する
 
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
 
-2. **Microsoft 365 管理センター** > **Skype for Business** に移動します。
+2. **Teams 管理センター**に移動します。
 
-3. In the left navigation go to **Voice** > **Phone numbers** > **Add** then click **New service numbers**.
+3. 左側のナビゲーションウィンドウで、[ **** > **電話番号** > を**追加**する] に移動し、[**新しいサービス番号**] をクリックします。
 
     > [!IMPORTANT]
-    > Skype for Business 管理センターの左のナビゲーションに [**音声**] オプションが表示されるようにするには、最初に **Enterprise E5 ライセンス**、**電話システム**アドオン ライセンス、または**電話会議**アドオン ライセンスを少なくとも 1 件購入する必要があります。
+    > チーム管理センターの左側のナビゲーションウィンドウで [**音声**] オプションを表示するには、最初に少なくとも1つの**Enterprise E5 ライセンス**、1つの**電話システム**アドオンライセンス、または1つの電話**会議**アドオンライセンスを購入する必要があります。
 
-### <a name="get-new-numbers-that-arent-available-in-the-skype-for-business-admin-center"></a>Skype for Business管理センターでは使用できない、新しい番号を取得します。
+### <a name="get-new-numbers-that-arent-available-in-the-teams-admin-center"></a>Teams 管理センターで利用できない新しい番号を取得する
   
-ご利用国/地域によっては、Skype for Business 管理センターを使用して新しい番号を取得できない場合があります。その場合は、フォームをダウンロードし、記入したフォームを Microsoft に送付する必要があります。新しい番号をリクエストする方法の詳細については、「[組織の電話番号を管理する](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)」を参照してください。 
+場合によっては (お住まいの国/地域によっては)、Teams 管理センターを使用して新しい電話番号を取得することはできません。 この場合、フォームをダウンロードして、もう一度送信する必要があります。 新しい番号を要求する方法については、「[組織の電話番号を管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)する」を参照してください。 
 
 ### <a name="port-or-transfer-existing-service-numbers"></a>既存のサービス番号を移行または転送する
 
-現在のサービス プロバイダーまたは通信事業者からサービス番号を移動する場合は、ポートの注文を手動で Microsoft に送信する必要があります。承認状 (LOA) を使用して、移動するサービス番号の種類 (有料電話番号または無料電話番号) ごとに別々のポート注文を送信する必要があります。承認状 (LOA) では、適切な種類のサービス番号が選択されている必要があります。Microsoft サポートに連絡する際は、移動する番号は*ユーザーまたはサブスクライバーの番号ではなく*、サービス番号であることを必ず指定してください。これを指定しない場合、実際の通話件数を処理するには同時通話処理能力が不十分なものになる可能性があります。電話番号の移動や電話番号に関するその他の手続きを行うには、「[組織の電話番号を管理する](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)」を参照してください。
+現在のサービスプロバイダーまたは通信業者からサービスの番号を転送する場合は、マイクロソフトに番号移行注文を手動で提出する必要があります。 各種のサービス番号 (有料と無料) ごとに個別のポート注文を送信する必要があります。これは、承認状 (LOA) を使用して転送されます。 承認状（LOA)では、適切な種類のサービス番号を選択する必要があります。 Microsoft サポートに問い合わせるときは、サービス番号を転送する (*ユーザーまたは加入者番号*ではなく) ことを指定します。または、同時通話容量が通話ボリュームを処理するには十分でない可能性があります。 電話番号を転送したり、自分の電話番号で他の操作をする場合は、 [組織の電話番号の管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) を参照してください。
 
 ## <a name="step-5-if-you-want-to-set-up-calling-plans"></a>手順 5: 通話プランを設定する場合
 
-上記の手順を実行すると、電話システムと通話プランのライセンスの購入と割り当て (手順 2) およびユーザー用の電話番号の取得 (手順 3) が完了したことになり、通話プランのセットアップは部分的に完了しています。通話プランのセットアップを完了するには、次の 3 つの手順を実行してください。
-
-### <a name="add-emergency-addresses-and-locations-for-your-organization"></a>組織の緊急連絡先と場所を追加する
-
-1. [**音声**] ページで、[**緊急対応の場所**]  >  [**新しいアドレスを追加**] の順に選択します。
-
-2. [**新しい住所**] ウィンドウで、住所の名前を入力し、残りのボックスに入力します。
-    
-     ![[新しい住所] ウィンドウのスクリーンショット](media/dc1c5ef3-0554-4fb7-9ab1-5ea3ac9e5eb5.png)
-  
-    > [!TIP]
-    > 上の図のように、英語圏のお客様で街路名が数字の場合は、必ず末尾に「st」または「th」を付けます。
-
-3. [ **検証**] を選択します。
-
-    必要な場合は、住所の訂正を求められます。
-
-    > [!CAUTION]
-    > 住所や番地を確認できるよう、正当な住所が正しい形式で入力されている必要があります。部分的に正しい緊急対応用の住所 (たとえば、市名の綴りが間違っていたなど) でも住所確認が取れる場合があります。綴りに間違いがあっても住所確認が取れた場合は、綴りの間違った市名と住所情報の他の部分を組み合わせることで、通話を適切な緊急出動センターにルーティングするのに十分な情報があることを意味します。
-
-    > [!TIP]
-    > 緊急応答用に住所に修正が必要な場合は、住所が更新されたことを通知する緑色のバナーが表示されます。
-
-4. 住所が検証されたら、[ **保存**] を選びます。
-
-### <a name="assign-phone-numbers-and-emergency-addresses-to-users"></a>ユーザーに電話番号と緊急連絡先を割り当てる
-
-> [!TIP]
-> この手順を実行する直前にさらにユーザーを追加すると、[ **音声ユーザー**] ページにユーザーが表示されるまでに **数時間** かかることがあります。これには遅延時間があります。
-
-1. [**音声ユーザー**] ページで、電話番号と緊急連絡先を割り当てるユーザーを選択します。
-
-2. [操作] ウィンドウで、 **割り当てる番号** をクリックします。
-
-3. [**番号を割り当てる**] ページの [ **割り当てる番号を選択**] リストで、ユーザー用の電話番号を選択します。
-
-4. 緊急連絡先を選ぶには、ボックスに市区町村の名前を入力し、[**検索**] を選択します。
-
-    > [!IMPORTANT]
-    > 米国以外の場合は電話番号に緊急対応の住所がすでに関連付けられていますが、この住所は変更できます。詳細については、「[ユーザーの緊急対応の住所の割り当てまたは変更](/skypeforbusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user)」を参照してください。 
-  
-5. 電話番号と緊急連絡先の両方を割り当てたら、[**保存**] を選択します。
-
-### <a name="tell-your-users-about-their-new-phone-numbers"></a>新しい電話番号をユーザーに通知する
-
-
-メールを送信するか、会社の適切な連絡方法を使用して、ユーザーに新しい電話番号を伝えることをお勧めします。
-
-次に、ユーザーの **Skype for Business** アプリに電話番号がどのように表示されるかを示します。
-
-1. デスクトップで Skype for Business にサインインします。
-    
-2.  **Settings** > **Tools** > **Options** を選択します。 
-    
-     ![[ツール] メニューの [オプション] のスクリーンショット](media/20637117-91d7-4a7e-9f06-7abc634a9211.png)
-  
-3. 次に、[ **電話**] を選びます。 
-    
-    ![Skype for Business 電話のオプションのスクリーンショット](media/0128d667-2bf8-4165-b703-e9b78a15b63c.png)
- 
-**Microsoft Teams** では、ユーザーは左側のナビゲーションで [**通話**] をクリックすると、自分の電話番号を表示できます。電話番号はダイヤル パッドの上部に表示されます。
-
-![[通話] をクリックした後に使用できるオプションのスクリーンショット](media/teams-phone-number.png)
-
-**通話プランを設定する手順すべての詳細については、 [通話プランの設定](set-up-calling-plans.md) を参照してください。**
+上記の手順に従っていれば、あなたはすでに電話システムとライセンス、通話プラン（手順２）を購入して割り当てられ、ユーザー用の電話番号を取得（手順３）したことになるので、あなたの通話プランは部分的に設定されています。
+ 通話プランの設定手順については、「[通話プランをセットアップ](set-up-calling-plans.md)する」をご覧ください。
 
 
 ## <a name="step-6-if-you-want-to-set-up-audio-conferencing"></a>手順 6: 電話会議を設定する場合
 
-組織のメンバーが電話で会議に参加することが必要になる場合があります。Skype for Business と Microsoft Teams では、このようなシチュエーションで活用できる電話会議機能が提供されています。ユーザーは、モバイル デバイスや PC 上の Skype for Business アプリまたは Microsoft Teams アプリを使用することなく、電話を使用して Skype for Business または Microsoft Teams の会議に参加できます。
-
-電話会議の設定は、会議のスケジュールを設定または会議を進行するユーザーに対してのみ必要です。ダイヤルインで参加するユーザーについては、ライセンスの割り当てや他の設定は必要ありません。
-  
-電話会議についてよく寄せられる質問については、 [電話会議についてよくある質問](audio-conferencing-common-questions.md) を参照してください。
-    
-1. **電話会議**アドオンのライセンスやコミュニケーション クレジットのライセンスを購入した場合は、これらも割り当てます。手順については、「[Microsoft Teams ライセンスを割り当てる](assign-teams-licenses.md)」を参照してください。
-
-    電話会議のプロバイダーを決めます。電話会議のプロバイダーは、電話会議ブリッジを提供します。会議のダイヤルイン電話番号、PIN、および会議 ID は、会議ブリッジで設定されます。Microsoft とサード パーティの電話会議プロバイダーのどちらを使用するかを決めます。
-
-    > [!NOTE]
-    > Microsoft Teams のユーザーには、Microsoft 以外の電話会議プロバイダーを使うことはできません。
-
-    - **電話会議プロバイダーとしての Microsoft**: 電話会議の最も簡単なソリューションをお求めなら、電話会議プロバイダーとして Microsoft を選択します。
-    
-    - **サード パーティの電話会議プロバイダーの使用**: Office 365 の電話会議が利用できない国の場合、サービスの品質が低い地域の場合、または既存の契約がある場合、サード パーティの電話会議プロバイダーを選択してください。プロバイダーを検索するには、 [Microsoft PinPoint](https://go.microsoft.com/fwlink/?LinkId=797530) をご覧ください。
- 
-2. 会議を進行またはスケジュール設定するユーザーに、電話会議プロバイダーを割り当てます。詳細については、「[Microsoft を電話会議プロバイダーとして割り当てる](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)」を参照してください。
-
-3. 会議の出席依頼を設定します。次の手順は省略可能ですが、多くの管理者は実行しています。 
-  
-   1. [Skype for Business の会議の出席依頼をカスタマイズします](/skypeforbusiness/set-up-skype-for-business-online/customize-meeting-invitations)。出席者に送信される会議の出席依頼には、ユーザーに設定されているダイヤルイン番号が自動的に追加されますが、独自のヘルプ、法的事項へのリンク、テキスト メッセージ、および小さな会社ロゴを追加できます。
-    
-   2. [Skype for Business](/skypeforbusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites) または [Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md) の招待状に記載される会議の開催者に、電話会議の電話番号を設定します。この電話番号は、ユーザーがスケジュールする会議に表示される電話番号です。
-    
-   3. [Skype for Business](/skypeforbusiness/audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing) または [Microsoft Teams](set-auto-attendant-languages-for-audio-conferencing-in-teams.md) の電話会議での自動応答言語を設定します。これは、電話会議の電話番号にダイヤルインしてくる発信者への自動応答の挨拶で使用される言語です。この手順は、電話会議プロバーダーに Microsoft を使用している場合にのみ当てはまります。
-    
-   4. [Microsoft Teams で](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md)電話会議用の PIN の長さを設定します。
-    
-      > [!NOTE]
-      > この機能は、21Vianet が運営する Office 365 を中国で使用しているお客様にはまだご利用いただけません。詳細については、「 [21Vianet が運営する Office 365 について](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE)」を参照してください。
-
-**電話会議の詳細については、「[Microsoft Teams の電話会議を設定する](set-up-audio-conferencing-in-teams.md)」を参照してください。**
+自分の組織内のユーザーが、会議にダイヤル インするために電話機を使用する必要がある場合があります。 Microsoft Teams には、このような状況での電話会議機能が含まれています。 ユーザーは、モバイルデバイスや PC で Teams アプリを使う代わりに、電話を使って Teams 会議にコールインすることができます。
+電話会議をセットアップする方法については、「 [Teams の電話会議](set-up-audio-conferencing-in-teams.md)をセットアップする」を参照してください。
 
 ## <a name="step-7-if-you-want-to-set-up-a-cloud-call-queue"></a>手順 7: クラウドの通話キューを設定する場合
 
 クラウド通話キューには、誰かが組織の電話番号に電話をかけた際に流れる挨拶メッセージ、通話を自動的に保留する機能、および保留中に電話をかけてきた方に音楽を流し、その間に通話への対応が可能な次の電話エージェントを探す機能が含まれています。1 つまたは複数の通話キューを組織のために作成できます。
 
-通話キューを作成して設定する前に、既存の有料または無料のサービス番号を取得または移行する必要があります。有料またはフリーダイヤルのサービス電話番号を取得すると、 **Skype for business 管理センター** > **ボイス** > **電話番号**に表示され、一覧表示されている**番号の種類**が**有料サービスとして表示されます。**.サービス番号を取得するには、「 [Skype For business および Microsoft Teams のサービス電話番号を取得](/microsoftteams/getting-service-phone-numbers)する」または「既存のサービス番号を移行する」を参照してください。「[チームに電話番号を転送](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)する」を参照してください。
-  
-> [!NOTE]
-> 米国以外の場合は、サービス番号を取得するのに Skype for Business 管理センターを使用できません。米国以外の場所でサービス番号を取得する方法については、「[組織の電話番号を管理する](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)」を参照してください。
-
-[**Skype for Business 管理センター**] で、新しい通話キューを作成するには、[**通話ルーティング**]  >  [**通話キュー**]、そして [**新規追加**] をクリックし、「[クラウド呼び出しキューを作成する](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue#step-3---create-a-new-call-queue)」 の**手順 3** の指示に従います。
-
-**通話キューの詳細については、[[クラウド通話キューを作成する](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)] を参照してください。**
+通話キューの詳細については、「[クラウド通話キューを作成する](create-a-phone-system-call-queue.md)」を参照してください。
 
 ## <a name="step-8-if-you-want-to-set-up-a-cloud-auto-attendant"></a>手順 8: クラウドの自動応答を設定する場合
 
 自動応答は、組織に電話をかけてくる方にメニュー システムを案内し、目的の部署、通話キュー、担当者、またはオペレーターにつなげます。Skype for Business 管理センターを使用して、組織の自動応答を作成できます。
 
-新しい自動応答を作成するには、Skype for business 管理センターで、[**通話ルーティング** > の**自動応答**]、[**新規追加**] の順にクリックして、「クラウド自動応答を作成する」の**手順 2**の各ページの指示に従います。 [](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant#step-2---create-a-new-auto-attendant).
+クラウド自動応答のセットアップについては、「[クラウド自動応答をセットアップする](create-a-phone-system-auto-attendant.md)attendendant を参照してください。
 
-
-**クラウドの自動応答の詳細については、 「[クラウドの自動応答を設定する](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant)」を参照してください。**
 
 ## <a name="step-9-assign-service-phone-numbers-audio-conferencing-call-queues-auto-attendants"></a>手順 9: サービス用電話番号 (電話会議、通話キュー、自動応答) の割り当て
 
-**上記の手順 4** で説明するサービス番号を取得したら、目的のサービスの各種類にサービス番号を割り当てる必要があります。たとえば、専用のサービス番号 (有料または無料) を使用する場合、その番号を会議ブリッジに割り当てる必要があります。
+ **上記の手順 4** から、サービスの番号を作成したら、使用するサービスの種類ごとに番号を割り当てる必要があります。 たとえば、専用のサービス電話番号 (有料またはフリーダイヤル) が必要な場合は、電話会議ブリッジに電話番号を割り当てる必要があります。
 
-- 電話会議用に専用番号を会議用ブリッジに割り当てることができます。それには、[**Microsoft 365 管理センター**]  >  [**管理センター**]  >  [**Skype for Business**]  >  [**電話会議**] の順に進み、会議ブリッジをクリックするか、「[電話会議ブリッジ上の有料・無料番号を変更する](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)」を参照してください。
+- 電話会議の場合は、 **Teams 管理センター** > **** > の会議**ブリッジ**にアクセスし、指示に従って、会議ブリッジに専用の電話番号を割り当てることができます。  詳細については、「[電話会議ブリッジの有料または](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)無料の電話番号を変更する」を参照してください。
 
-- 自動応答では、 **Microsoft 365 管理センター** > **管理** > センターの**Skype for business** > **通話ルーティング** > **自動応答にアクセスして、自動応答に専用の番号を割り当てることができます。** 自動応答をクリックします。[**全般**] ページで、すでにお持ちのサービス番号が [**電話番号**] ドロップダウンに表示されます。詳細については、「[クラウド自動応答をセットアップする](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant)」を参照してください。
-- 通話キューについては、**Microsoft 365 管理センター**  >  [**管理センター**]  >  [**Skype for Business**]  >  [**通話ルーティング**]  >  [**通話キュー**] の順に移動して目的の通話キューをクリックすると、通話キューに専用番号を割り当てられます。[**一般**] ページでは、既に持っているサービス番号は [**電話番号**] ドロップ ダウンに表示されます。詳細については、「[クラウドの通話キューを作成する](https://docs.microsoft.com/microsoftteams/create-a-phone-system-call-queue)」を参照してください。
+- 自動応答の場合は、 **Teams 管理センター** > の**音声** > **自動応答**にアクセスし、画面の指示に従って、自動応答に専用の番号を割り当てることができます。  詳細については、「[クラウド自動応答をセットアップする](create-a-phone-system-auto-attendant.md)」を参照してください。
 
-**新しいサービス番号を取得し、既存のサービス番号を転送する方法の詳細については、 [サービスの電話番号の取得](/microsoftteams/getting-service-phone-numbers)  を参照してください。**
+- 通話キューの場合は、 **Teams 管理センター** > の**音声** > **通話キュー**に移動して、画面の指示に従って専用の番号を通話キューに割り当てることができます。 詳細については、「[クラウド通話キューを作成する](create-a-phone-system-call-queue.md)」を参照してください。
+
+新しいサービス番号を取得し、既存のサービス番号を転送する方法の詳細については、 [サービスの電話番号の取得](getting-service-phone-numbers.md)  を参照してください。
 
 ## <a name="step-10-set-up-communications-credits-for-your-organization"></a>手順 10: 組織のコミュニケーション クレジットをセットアップする
 
-Skype for Business または Microsoft Teams で無料番号を使用する場合は、コミュニケーション クレジットを設定する必要があります。通話プラン (国内または国際) と電話会議のユーザーのうち、**すべての発信先**にダイヤルアウトできるようにする必要があるユーザーについてもコミュニケーション クレジットを設定することをお勧めします。通話プランと電話会議のサブクリプションには多くの国や地域が含まれていますが、一部の発信先は含まれていない場合があります。コミュニケーション クレジットの請求に関する設定をせずに**コミュニケーション クレジット** ライセンスをユーザーに割り当ている状態で組織の持つ分数 (使用する国/地域の通話プランまたは電話会議プランにより異なります) が使い切られた場合、これらのユーザーは電話会議から発信またはダイヤルアウトできなくなります。推奨される入金額などの詳細情報については、「[コミュニケーション クレジットについて](what-are-communications-credits.md)」を参照してください。
+Microsoft Teams で無料電話番号を使用する場合は、通信クレジットを設定する必要があります。 Microsoft は、通話プラン (国内または国際電話) と、発信先にダイヤルアウトする機能が必要な電話会議ユーザーに対して、通信クレジットを設定することをお勧めします。 ご利用の通話プランまたは電話会議のサブスクリプションでは、多くの国や地域が含まれていますが、一部の発信先が含まれていない可能性があります。 
+
+コミュニケーション クレジットの請求を設定しない場合や、ユーザーに **コミュニケーション クレジット**のライセンスを割り当てない場合に (国/地域の通話プランまたは電話会議プランに基づき) 組織の通話分数が不足すると、これらのユーザーは通話を発信することや、電話会議からダイヤルアウトすることができなくなります。 推奨資金調達金額などの詳細については、「[通信クレジットとは](what-are-communications-credits.md)」を参照してください。また、[組織の通信クレジットを設定](set-up-communications-credits-for-your-organization.md)します。
   
-> [!NOTE]
-> 必要なコストを確認するには、[こちらで料金を参照してください](https://go.microsoft.com/fwlink/p/?LinkId=799523 )。
-
-### <a name="to-set-up-communications-credits"></a>コミュニケーション クレジットをセットアップするには
-
-1. 職場または学校のアカウントを使用して、Microsoft 365 にサインインします。
-
-2. 管理センターの左のナビゲーションで、[**課金** > **** > **** > 月額プランのアドオン] に移動**し、[****通信クレジット** > の購入] を選択**します。**
-
-3. [**コミュニケーション クレジット**] のサブクリプションのページで、ユーザーの情報を入力し [**次へ**] をクリックします。
-
-4. 支払い情報を入力して、[**注文**] をクリックします。
-    >[!IMPORTANT]
-    >ボリューム ライセンスをお持ちのお客様は、支払い方法としてエンタープライズ契約番号を選択できます。エンタープライズ契約番号が複数ある場合は、支払いに使用するエンタープライズ契約番号を選択できます。(該当する場合は) エンタープライズ契約番号に関連付ける発注書番号を指定することもできます。
-    
-**コミュニケーションクレジットの設定に関する詳細については、 [組織のコミュニケーションクレジットを設定](set-up-communications-credits-for-your-organization.md) を参照してください。**
-  
-### <a name="assign-a-communications-credits-license-to-users"></a>コミュニケーション クレジットのライセンスをユーザーに割り当てる
-
-1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
-
-2. Microsoft 365 管理センターの左側のナビゲーションで、[**ユーザー**]  >  [**アクティブなユーザー**] に進み、そのリストから一人、または複数のユーザーを選択します。
-
-3. [操作] ウィンドウの [**製品ライセンス**] で [**編集**] をクリックします。
-
-4. このライセンスを割り当てるには、[**製品ライセンス**] ページで [**コミュニケーション クレジット**] を [**オン**] に切り替え、[**保存**] をクリックします。
-
-    > [!NOTE]
-    > **Enterprise E5** ライセンスが割り当てられているユーザーがいる場合でも、これを実行することをお勧めします。
-
-**コミュニケーションクレジットのライセンスの割り当ての詳細については、 [組織用コミュニケーションクレジットの設定](set-up-communications-credits-for-your-organization.md) を参照してください。**
 
 ## <a name="related-topics"></a>関連トピック
 [Office 365 の電話システムでできること](here-s-what-you-get-with-phone-system.md)
 
-[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)
+[組織の電話番号を管理する](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+
+[Skype for Business および Microsoft Teams のサービス電話番号の取得](getting-service-phone-numbers.md)
 
 [国および地域ごとの電話会議および通話プランの利用可能性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
     

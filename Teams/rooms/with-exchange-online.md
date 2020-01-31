@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: このトピックでは、Microsoft Teams のルームを Exchange Online と共に展開する方法について説明します。
-ms.openlocfilehash: fc403e2553fce157737b1bdda75c821563e6b0dd
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: e53fd2ebd25ef6b625ada84b60d58e42e8c13a28
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41269095"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628423"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Exchange Online を使用して Microsoft Teams ミーティング を展開
 
@@ -41,13 +41,13 @@ Microsoft Teams のルームを Exchange Online と共に展開するには、�
 
 1. PC でリモート Windows PowerShell セッションを開始し、次の手順に従って Exchange Online に接続します。
 
-``` Powershell
-Set-ExecutionPolicy Unrestricted
-$org='contoso.microsoft.com'
-$cred=Get-Credential $admin@$org
-$sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $cred -Authentication Basic  -AllowRedirection
-Import-PSSession $Session -DisableNameChecking
-```
+    ``` Powershell
+    Set-ExecutionPolicy Unrestricted
+    $org='contoso.microsoft.com'
+    $cred=Get-Credential $admin@$org
+    $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $cred -Authentication Basic  -AllowRedirection
+    Import-PSSession $Session -DisableNameChecking
+    ```
 
 2. セッションを確立したら、新しいメールボックスを作成して、RoomMailboxAccount として有効にするか、既存の会議のメールボックスの設定を変更します。 これにより、アカウントが Microsoft Teams のルームに認証されるようになります。
 
@@ -91,27 +91,27 @@ Import-PSSession $Session -DisableNameChecking
    > [!NOTE]
    > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0)はサポートされていません。 
 
-  ``` PowerShell
- Connect-MsolService -Credential $cred
-  ```
-<!--   ``` Powershell
-   Connect-AzureAD -Credential $cred
-   ``` -->
+    ``` PowerShell
+   Connect-MsolService -Credential $cred
+    ```
+  <!--   ``` Powershell
+     Connect-AzureAD -Credential $cred
+     ``` -->
 
 2. Exchange と Skype for Business Server が動作するためには、ユーザーアカウントが有効な Office 365 ライセンスを所有している必要があります。 ライセンスを所有している場合は、使用場所をユーザーアカウントに割り当てる必要があります。これにより、アカウントで利用できるライセンス Sku が決定されます。 課題は、次の手順で作成します。
 3. 次に、`Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> Office 365 テナントで利用可能な Sku の一覧を取得するには、こちらを参照してください。
 4. Sku の一覧が表示されたら、`Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> コマンドレット. この場合、表示される SKU コードは $strLicense です (たとえば、contoso:STANDARDPACK)。 
 
-  ```PowerShell
-    Set-MsolUser -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
-   Get-MsolAccountSku
-   Set-MsolUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense
-  ```
-<!--   ``` Powershell
-   Set-AzureADUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
-   Get-AzureADSubscribedSku
-   Set-AzureADUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense
-   ``` -->
+    ```PowerShell
+      Set-MsolUser -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
+     Get-MsolAccountSku
+     Set-MsolUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense
+    ```
+  <!--   ``` Powershell
+     Set-AzureADUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
+     Get-AzureADSubscribedSku
+     Set-AzureADUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense
+     ``` -->
 
 ### <a name="enable-the-user-account-with-skype-for-business-server"></a>Skype for Business Server を使用してユーザーアカウントを有効にする
 
@@ -146,6 +146,12 @@ Skype for Business (プラン 3)] を選択します。 Microsoft Teams のル�
 6. **[保存]** をクリックします。
 
 検証のために、Skype for Business クライアントを使用して、このアカウントにログインできるようにする必要があります。
+
+> [!NOTE]
+> 現在、電話会議、または Office 365 電話システムと通話プランを使って、Skype for Business プラン2で E1、E3、E4、または E5 Sku を使用している場合は、引き続き機能します。 ただし、現在のライセンスの有効期限が切れた後、 [Teams 会議室のライセンス更新](rooms-licensing.md)で説明されているように、よりシンプルなライセンスモデルに移行することを検討する必要があります。
+
+> [!IMPORTANT]
+> Skype for Business Plan 2 を使用している場合は、Skype for Business のみのモードで Microsoft Teams ルームのみを使用できます。つまり、すべての会議が Skype for Business 会議になります。 Microsoft Teams 会議の会議室を有効にするには、会議室のライセンスを購入することをお勧めします。
   
 ## <a name="see-also"></a>関連項目
 

@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: bc541b3b1bc7c7aba723d7573224679b5900a550
-ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
+ms.openlocfilehash: 8c42b4e2a8bf569d5aee6b2b822e81fc39ebfd81
+ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40952830"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41573767"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Microsoft Teams のアプリのアクセス許可ポリシーを管理する
 
@@ -42,6 +42,9 @@ ms.locfileid: "40952830"
 
 たとえば、すべてのサードパーティ製のアプリをブロックして、組織内の HR チーム向けに Microsoft が提供する特定のアプリを許可する必要があるとします。 HR アプリのアクセス許可ポリシーという名前のカスタムポリシーを作成し、必要なアプリをブロックおよび許可するように設定し、人事チームのユーザーに割り当てます。
 
+> [!NOTE]
+> Microsoft 365 Government-GCC 環境に Teams を展開した場合は、「 [gcc のアプリのアクセス許可ポリシー](#app-permission-policies-for-gcc) 」を参照して、gcc に固有のサードパーティのアプリ設定の詳細を確認してください。
+
 ## <a name="manage-org-wide-app-settings"></a>組織全体のアプリ設定を管理する
 
 組織全体で利用可能なアプリを管理するには、組織全体のアプリ設定を使います。 組織全体のアプリの設定では、すべてのユーザーに対する動作が管理され、ユーザーに割り当てられている他のアプリのアクセス許可ポリシーは上書きされます。 これらを使って、悪意のあるアプリや問題のあるアプリを制御することができます。
@@ -51,7 +54,7 @@ ms.locfileid: "40952830"
     ![組織全体のアプリ設定のスクリーンショット](media/app-permission-policies-org-wide-settings.png)
 3. サード**パーティ**製のアプリで、次の設定を有効または無効にして、サードパーティ製のアプリへのアクセスを制御します。
 
-    - **Teams でサードパーティまたはカスタムアプリを許可する**: ユーザーがサードパーティアプリを使うことができるか、カスタムアプリを使用できるかを制御します。
+    - **Teams でサードパーティを許可**する: ユーザーがサードパーティ製のアプリを使えるかどうかを制御します。
     - **既定でストアに公開**されている新しいサードパーティのアプリを許可します。これは、teams app store に公開された新しいサードパーティアプリが teams で自動的に使用できるようになるかどうかを制御します。 このオプションを設定するには、サードパーティ製のアプリを許可する必要があります。
 
 4. [**カスタムアプリ**] の下で、[**カスタムアプリとの対話を許可する**] をオンまたはオフにします。 この設定は、ユーザーがカスタム (サイドローディング) アプリを操作できるかどうかを制御します。 これは、ユーザーがカスタムアプリを*アップロード*することを許可することとは異なります。
@@ -134,6 +137,28 @@ $members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App
 ``` 
 グループ内のメンバー数によっては、このコマンドの実行に数分かかる場合があります。
 
+## <a name="app-permission-policies-for-gcc"></a>GCC のアプリアクセス許可ポリシー
+
+Microsoft 365 Government-GCC によるチームの展開では、GCC に固有のサードパーティのアプリ設定について、次の点を理解しておくことが重要です。
+
+GCC では、すべてのサードパーティ製アプリが既定でブロックされます。 さらに、Microsoft Teams 管理センターの [アプリのアクセス許可ポリシー] ページでサードパーティ製のアプリを管理する方法について、次のメモが表示されます。
+
+![GCC のアプリのアクセス許可ポリシーのスクリーンショット](media/app-permission-policies-gcc.png)
+
+ユーザーまたは組織内のユーザーのセットに対してサードパーティ製のアプリを有効にするには、次の操作を行います。
+
+1. Microsoft Teams 管理センターの左のナビゲーションで、[**チームアプリ** > の**アクセス許可ポリシー**] に移動します。
+2. ユーザーのセットに対して許可するサードパーティ製のアプリが組織レベルでブロックされていることを確認します。 この操作を行うには、[**組織全体の設定**] をクリックし、[ブロックされた**アプリ**] でアプリが表示されていることを確認します。
+3. グローバルポリシーを編集して、サードパーティ製のアプリをブロックします。 その手順は次のとおりです。
+    1. [アプリのアクセス許可ポリシー] ページで、[**グローバル (組織全体の既定)**] をクリックし、[**編集**] をクリックします。
+    2. [**サードパーティのアプリ**] で、[**特定のアプリをブロックする**] を選択し、[その他のすべてのアプリを許可する] を選び、[**保存**] をクリックします。
+
+    > [!NOTE]
+    > 組織レベルでアプリを許可するために、次の手順に進む前にこの操作を行うことが重要です。 これは、サードパーティのアプリがグローバルポリシーでブロックされていない場合、グローバルポリシーが適用されているすべてのユーザーが、組織レベルで許可するとサードパーティのアプリにアクセスできるためです。
+
+4. 組織レベルでサードパーティ製のアプリを許可します。 これを行うには、[ブロックされた**アプリ**] の下の [**組織全体の設定**] をクリックし、一覧からアプリを削除して、[**保存**] をクリックします。
+5. アプリを許可する[カスタムアプリのアクセス許可ポリシーを作成](#create-a-custom-app-permission-policy)し、そのポリシーを目的のユーザーに[割り当て](#assign-a-custom-app-permission-policy-to-users)ます。
+
 ## <a name="faq"></a>FAQ
 
 ### <a name="working-with-app-permission-policies"></a>アプリのアクセス許可ポリシーを使用する
@@ -149,7 +174,7 @@ $members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App
 
 アプリのアクセス許可ポリシーで組織全体の設定を使用して、組織のカスタムアプリのアップロードを制限します。  
 
-特定のユーザーに対してカスタムアプリのアップロードを制限するには、カスタムアプリポリシーを使います (近日公開)。 詳細については、「 [Teams でカスタムアプリポリシーと設定を管理](teams-custom-app-policies-and-settings.md)する」を参照してください。
+特定のユーザーによるカスタムアプリのアップロードを制限するには、カスタムアプリポリシーを使用します。 詳細については、「 [Teams でカスタムアプリポリシーと設定を管理](teams-custom-app-policies-and-settings.md)する」を参照してください。
 
 #### <a name="does-blocking-an-app-apply-to-teams-mobile-clients"></a>アプリのブロックは Teams のモバイルクライアントに適用されますか?
 

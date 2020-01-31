@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89f9ba68dd4fbd1cef271c0dd0a3fb73e10637a7
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
-ms.translationtype: HT
+ms.openlocfilehash: 52bc712798a1412a1c7c2c510c92af090608865d
+ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38626983"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41573623"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook で Teams の会議アドインを使用する
 =======================================
@@ -40,10 +40,9 @@ Teams の会議アドインは、Microsoft Teams と Office 2010、Office 2013 �
 > - Windows 7 ユーザーは、Teams 会議アドインを機能させるために、[Windows にユニバーサル C ランタイムの更新プログラム](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)をインストールする必要があります。
 > - Microsoft ストアから Office Outlook のインストールを使用している場合、Teams 会議アドインはサポートされていません。 このアドインが必要なユーザーは、「[S モードでの Windows 10 の Office](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f)」の記事で説明されているとおり、Office のクイック実行バージョンをインストールすることをお勧めします。
 
-
 ## <a name="teams-meeting-add-in-in-outlook-for-mac"></a>Outlook for Mac の Teams 会議アドイン
 
-Outlook の製品版 16.24.414.0 以降が実行されている場合、Outlook for Mac で [Teams 会議] ボタンは Outlook for Mac のリボンに表示されます。
+Outlook for Mac の [Teams 会議] ボタンが、Office 365 クライアントサブスクリプションで実行されていて、outlook for mac のリボンに表示されます。
 
 ユーザーが [**送信**] をクリックすると、会議の調整 (Teams への参加リンクおよびダイヤルイン番号) が会議出席依頼に追加されます。  
 

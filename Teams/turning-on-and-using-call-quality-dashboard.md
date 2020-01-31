@@ -22,12 +22,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: '通話品質ダッシュボードをオンにして使用し、通話の品質に関する概要レポートを取得する方法について説明します。 '
-ms.openlocfilehash: 429904020a63b93fefd1adee7ee89d02a47f1d61
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 4aea268e2c25e655b7f2dee914497ae3154f0008
+ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41005187"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41619976"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Microsoft Teams および Skype for Business Online で通話品質ダッシュボードをオンにして使用する
 
@@ -188,13 +188,15 @@ CQD の概要レポートには、詳細レポート用に計画されている�
 |レポートセットのカスタマイズ (レポートの追加、削除、変更)   | いいえ   | はい   |
 |ビデオベースの画面共有のメトリック   | いいえ   | はい   |
 |ビデオ指標   | いいえ   | はい   |
-|利用可能なデータの量   | 過去6ヶ月   | 過去6ヶ月   |
+|利用可能なデータの量   | 過去12か月間   | 過去12か月間   |
 |Microsoft Teams データ   | はい   | Yes   |
 | | | |
 
 ### <a name="out-of-the-box-reports"></a>ボックスのないレポート
 
 CQD のすべてのエディションでは、新しいレポートを作成することなく、品質指標を呼び出すことができるエクスペリエンスを提供しています。 バックエンドでデータが処理されると、レポートに通話品質データが表示されます。
+
+2020年1月の新[機能: POWER BI クエリテンプレートをダウンロードして CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD Power BI query templates.zip?raw=true)します。 CQD データの分析と報告に使用できる、カスタマイズ可能な Power BI テンプレート。
   
 ### <a name="overview-reports"></a>概要レポート
 
@@ -395,6 +397,17 @@ EndpointName、EndpointMake、Endpointmake、Endpointmake、EndpointLabel1、End
 
 「1409W3534、123製造元、Fabrikam Model 123、ノート Pc、IT 指定の2018ノート Pc、アセットタグ5678、購入2018
 
+## <a name="migrate-reports-from-previous-version-of-cqd"></a>以前のバージョンの CQD からレポートを移行する
+
+Skype for Business の CQD にレポートまたはアップロードされたテナントデータ (マッピング) ファイルhttps://cqd.lync.com)を作成した場合 (その方法についhttps://cqd.teams.microsoft.com)ては、次のようにしてください。
+
+1.  エクスポートする[https://cqd.lync.com/cqd/](https://cqd.lync.com/cqd/)レポートセットに移動して参照します。 
+2.  レポートの上にマウスポインターを移動し、[...] を選びます。メニューの [**エクスポートレポートツリー**] を選びます。 エクスポートファイルを保存します。
+3.  レポートを[https://cqd.teams.microsoft.com/cqd/](https://cqd.teams.microsoft.com/cqd/)インポートする場所に移動して参照します。
+4.  左側のリンクから [**インポート**] をクリックし、エクスポートされたファイルを選択します。 
+5.  レポートがインポートされると、"レポートのインポートが正常に完了しました。" というメッセージが表示されます。 レポートセットの最後に新しいレポートが追加されました。 " 
+
+
 ## <a name="create-custom-detailed-reports"></a>ユーザー設定の詳細レポートを作成する
 
 特定のレポートを作成して、提供された詳細レポートではないような方法でデータを分析するには、カスタムレポートを作成します。
@@ -445,7 +458,17 @@ Teams では、Skype for Business Online ではなく、いくつかの品質と
   - 有線 : WiFi
   - 企業ネットワーク: ホームネットワーク
   
+### <a name="why-cant-i-see-euii-in-cqd"></a>CQD で EUII が表示されるのはなぜですか?
 
+次の管理者ロールは、CQD にアクセスできますが、EUII (エンドユーザーを特定できる情報) を表示することはできません。
+- Office 365 レポートリーダー
+- Teams 通信サポート スペシャリスト
+
+CQD にアクセスできる役割の詳細については、「 [CQD にアクセスするための役割の割り当て](quality-of-experience-review-guide.md#assign-roles-for-accessing-cqd)」を参照してください。
+
+### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>チームのみを対象としてフィルター処理したときに、CQD に Skype for Business の情報が表示されるのはなぜですか?
+
+CQD レポート (isTeams = 1) でのみチームをフィルター処理している場合、*第1のエンドポイント*が Teams であるすべての通話をフィルター処理します。 *第2のエンドポイント*が Skype for business の場合、その情報が CQD レポートに表示されます。
 
 ## <a name="related-topics"></a>関連項目
 

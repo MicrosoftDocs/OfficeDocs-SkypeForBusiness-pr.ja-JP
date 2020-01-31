@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'アドオン ライセンス、機能、そして Office 365 Enterprise、E1、E3、E4 プランを購入する方法について説明します。 '
-ms.openlocfilehash: a6cdfdac5aaa56d9e1bc87df8f33b1143517f1ac
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: afc20061171962a8887e37aae0b85783d617cc85
+ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "35792884"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41573633"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 Enterprise E1、E3、および E4
 
@@ -40,6 +40,8 @@ ms.locfileid: "35792884"
 |**クラウド ボイスメール** <br/> |E1 と E4 プランの場合は、Exchange Online Plan 2 を購入します。 <br/>または、Office 365 E3 などの Exchange Online Plan 2 に同梱されてくる Office Suite に切り替えます。 |
 |**通話プラン** <br/> |1.**電話システム**アドオン <br/> 2. [通話プラン](/MicrosoftTeams/calling-plans-for-office-365): このプランは、 **電話システム**  アドオンを購入した後にのみ購入できます。 <br/> |
    
+ > [!IMPORTANT]
+ > Office 365 E4 ライセンスは、正式に廃止されました。 詳細については、 [Office 365 Enterprise E4 のお客様向けの重要な情報](https://support.office.com/article/important-information-for-office-365-enterprise-e4-customers-f9572348-43a2-43fa-a3d8-3b6c9c042147)を参照してください。
   
 ## <a name="e1-and-e3-customers-how-to-see-prices-and-buy"></a>E1 と E3 のお客様: 価格の表示方法と購入方法
 <a name="bkmk_buypremium"> </a>
@@ -59,7 +61,7 @@ E3 プランはお持ちの Action Pack に含まれています。 **電話シ�
 
 1. Skype の[web サイト](https://go.microsoft.com/fwlink/?LinkId=24393)から E3 の1つの座席を購入します。 既存のテナントにシートに追加するためのオプションを選択します。
 
-2. 管理センターにサインインして、****[**課金** > 内容**サブスクリプション** > のアドオン] に移動します。
+2. 管理センターにサインインして、[**課金** > 内容**サブスクリプション** > **のアドオン]** に移動します。
 
     これにより、 **電話システム**と **電話会議**のアドオンを購入するためのオプションと価格が表示されます。
 

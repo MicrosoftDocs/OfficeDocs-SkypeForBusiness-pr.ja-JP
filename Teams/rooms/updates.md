@@ -12,12 +12,12 @@ ms.collection:
 - M365-collaboration
 ms.assetid: ''
 description: Microsoft Teams ルームの Windows 更新プログラムを管理する
-ms.openlocfilehash: 87aab8b4c0d299b682f450d6d53ace33fc7a464b
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: be3555507b0c9a8967b444b96e8c6e4af8f35fbf
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41269097"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628563"
 ---
 # <a name="manage-windows-updates"></a>Windows の更新プログラムを管理する
 
@@ -36,13 +36,13 @@ Windows 更新プログラムは、次のセクションで説明するように
 
 - 一般[法人向けダウンロード用の Windows 更新プログラム](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb)
 - 更新プログラムは、Windows Update または WSUS からダウンロードされますが、最初のリリース日以降の遅延は構成されています。
-- 複数の Ou またはフィルター処理されたポリシーを使用して、管理者が品質更新プログラムをインストールするデバイスを指定し、後でインストールすることを指定できます。 信頼性とパフォーマンスは、展開全体で更新プログラムをロールアウトする前に、SCCM での Windows 更新プログラムの管理のオーバーヘッドなしで、システムのサブセットに対してテストすることができます。
+- 複数の Ou またはフィルター処理されたポリシーを使用して、管理者が品質更新プログラムをインストールするデバイスを指定し、後でインストールすることを指定できます。 信頼性とパフォーマンスは、構成マネージャーでの Windows 更新プログラムの管理ではなく、展開全体で更新プログラムをロールアウトする前に、システムのサブセットに対してテストすることができます。
 - ビジネス向けの帯域幅管理と Windows Update の制御の両方が必要な場合は、WSUS と Windows の更新プログラムを同時[に構成](https://docs.microsoft.com/windows/deployment/update/waas-integrate-wufb)することができます。
 - 機能の更新。 以下のメモを参照してください。
 
-## <a name="wsussccm"></a>WSUS/SCCM
+## <a name="wsusconfiguration-manager"></a>WSUS/構成マネージャー
 
-- [WSUS/SCCM](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-configuration-manager)のダウンロード
+- [WSUS/構成マネージャー](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-configuration-manager)のダウンロード
 - 一般法人向け Windows Update と同じように、各 "リング" または展開全体で特定の KB をターゲットに設定するための追加オプションがあります。 各更新プログラムは、遅延のみではなく、個別に展開してテストすることができます。
 - 機能の更新。 以下のメモを参照してください。
 
@@ -52,4 +52,4 @@ Windows 更新プログラムは、次のセクションで説明するように
 
 Microsoft Teams の会議機能は、ハンズオフアプローチを備えた、Windows Update をインストールしたり、Windows Update 用のデバイスを自動的に再起動したりすることはありません。 システムは更新プログラムをダウンロードして、次に再起動するまで待ってからインストールします。 手動で再起動しない限り、インストールは自動夜間の再起動としてのみ行われます。 Windows の更新プログラムはルームで透過的である必要があります。また、通常の操作は Windows 更新プログラムによって中断されることはありません。
 
-ドメインに参加するデバイスを選択する場合は、SCCM または WSUS を使用します。 デバイスの更新、または営業時間中に再起動が行われるポリシーやアクションには、特別な注意を払ってください。 展開内のシステムは使用中に再起動しないようにする必要があります。または、使用時間中に UI を介した Windows 更新についての通知で、動作が発生した場合は構成を確認します。
+[Domain join devices] を選んだ場合は、Microsoft Endpoint Configuration Manager または WSUS を使用します。 デバイスの更新、または営業時間中に再起動が行われるポリシーやアクションには、特別な注意を払ってください。 展開内のシステムは使用中に再起動しないようにする必要があります。または、使用時間中に UI を介した Windows 更新についての通知で、動作が発生した場合は構成を確認します。
