@@ -16,7 +16,7 @@
 ### [Exchange Online の場合 (ハイブリッド)](with-exchange-online.md)
 ### [オンプレミスの Exchange の場合 (ハイブリッド)](with-exchange-on-premises.md)
 ### [コンソールの構成](console.md)
-### [System Center Configuration Manager を使用する場合](rooms-scale.md)
+### [Microsoft Endpoint Configuration Manager を使用する](rooms-scale.md)
 ### [Azure Monitor による管理](azure-monitor-deploy.md)
 ### [SRS v1 または LRS の移行](lrs-migration.md)
 ### [コンテンツ カメラ](content-camera.md)

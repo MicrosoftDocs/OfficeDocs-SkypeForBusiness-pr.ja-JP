@@ -16,12 +16,12 @@ f1keywords:
 description: Microsoft Teamsの計画、展開、および実行方法に関するトレーニングビデオ、PowerPointデッキ、チュートリアル、およびその他の管理者向けリソース。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3216327e5977429ca1d794dc719c89a216fe8fb9
-ms.sourcegitcommit: f742ad9ba61d6cc52a9ed6885d1f2893bcfad354
+ms.openlocfilehash: 12aaad9697d07a8c5f0aed970678aba5306504b1
+ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "41165607"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41573613"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams の管理者トレーニング
 
@@ -90,7 +90,7 @@ ms.locfileid: "41165607"
 
 | モジュール | ビデオ | PowerPoint デッキ |
 | ------------ | -------------------- | -------------------- |
-| [Microsoft のメカニズム-IT YouTube チャネルの Teams の基礎](https://aka.ms/MicrosoftTeamsforIT) | [ビデオ: IT のための Teams の基礎](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn)(10:13 分)<br>[ビデオ: Teams を展開 & 構成する-概要](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2)(8:22 分)  <br>[ビデオ: セキュリティとコンプライアンス](https://youtu.be/91lHNKVVvQ4)(12:42 分)||
+| [Microsoft のメカニズム-IT YouTube チャネルの Teams の基礎](https://aka.ms/MicrosoftTeamsforIT) | [ビデオ: IT のための Teams の基礎](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn)(10:13 分)<br>[ビデオ: Teams を展開 & 構成する-概要](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2)(8:22 分)  <br>[ビデオ: セキュリティとコンプライアンス](https://youtu.be/91lHNKVVvQ4)(12:42 分)<br>[ビデオ: セキュリティとコンプライアンスのための Teams コントロール](https://www.youtube.com/watch?v=Km4T4hMM__k)(10:54 分)||
 | コア コンポーネントの基礎 | [ビデオ](https://aka.ms/teams-foundations) | [デッキ](https://aka.ms/teams-foundations-deck) |
 | Windows デスクトップ クライアント | [ビデオ](https://aka.ms/teams-clients) | [デッキ](https://aka.ms/teams-clients-deck) |
 | ガバナンス、管理とライフサイクル | [ビデオ](https://aka.ms/teams-governance) | [デッキ](https://aka.ms/teams-governance-deck) |
