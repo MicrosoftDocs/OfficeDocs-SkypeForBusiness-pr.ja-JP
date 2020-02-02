@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Microsoft Teams のクラウド自動応答をセットアップしてテストする方法について説明します。
-ms.openlocfilehash: 5a018b6c3b193d17bfbabdc5178c095a635e65ea
-ms.sourcegitcommit: 2fab6105dfc4c225de8c09ab79d9c2c273a3e4f6
+ms.openlocfilehash: be7e62bdad1fb0d9ed2d2d5e610c8eed5c49ae7f
+ms.sourcegitcommit: a47bd5194672820380d30722b60779ce2d8a8f78
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "41005191"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "41664347"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>クラウドの自動応答をセットアップする
 
@@ -162,22 +162,9 @@ ms.locfileid: "41005191"
   > **組織内の**ユーザーは、オンラインユーザーまたは Skype For business Server を使用してオンプレミスでホストされているユーザーになることができます。
 
   - **音声アプリ**自動応答または設定済みの通話キューを選択します。 サービスに関連付けられているリソースアカウントの名前で、自動応答または通話キューを検索します。
-  - **ボイスメール**このボイスメールへのアクセスが必要な組織内のユーザーを表す Office 365 グループを選びます。 ここでボイスメールの書き起こしを有効にすることができます。 Office 365 グループが必要です。
+  - **ボイスメール**この自動応答で受け取ったボイスメールにアクセスする必要がある、組織内のユーザーが含まれている Office 365 グループを選びます。 ボイスメールメッセージは、指定した Office 365 グループに送信されます。 ボイスメールメッセージにアクセスするには、Outlook のグループに移動することで、グループのメンバーがそのメッセージを開くことができます。
 
-  > [!NOTE]
-> この自動応答ボイスメールアカウントからユーザーに送信された音声メッセージに、Teams でアクセスすることはできません。 メールとして送信されます。
-
-
-<!-- - **Auto attendant** Select the name of an existing auto attendant.
-- **Call queue** Select the name of an auto attendant that has already been created.
-- **External phone number** routes the caller to a phone number outside your local system.
-- **Operator** directs the call to a user you designate as an Operator. If you haven't previously set up an operator, an option to create one now shows up. The 0 key is assigned to Operator by default. Options for setting an Operator are:
-
-  - **No operator** disables the "Operator" and "Press 0" options.
-  - **Person in your organization** can be an Online user or a user hosted on-premises using Skype for Business Server. They must have a Phone System license that is enabled for Enterprise Voice or assigned Calling Plans in Office 365. Search for the operator in the **Destination for your operator** field.
-  - **Auto attendant** lets you choose the name of an existing auto attendant.
-  - **Call queue** lets you select an existing call queue.
-  - **Group Voicemail** routes the call to a voicemail box that you select. -->
+      [**議事録**をオン] に切り替え**て**、ボイスメールメッセージのボイスからテキストへの送信を有効にします。
 
  * * *
 
@@ -214,7 +201,9 @@ ms.locfileid: "41005191"
 
 - **音声アプリ**自動応答または設定済みの通話キューを選択します。 アプリケーションに関連付けられているリソースアカウントの名前で、自動応答または通話キューを検索します。
 
-- **ボイスメール**このボイスメールへのアクセスが必要な組織内のユーザーを表す Office 365 グループを選びます。 ここでボイスメールの書き起こしを有効にすることができます。 Office 365 グループが必要です。
+- **ボイスメール**この自動応答で受け取ったボイスメールにアクセスする必要がある、組織内のユーザーが含まれている Office 365 グループを選びます。 ボイスメールメッセージは、指定した Office 365 グループに送信されます。 ボイスメールメッセージにアクセスするには、Outlook のグループに移動することで、グループのメンバーがそのメッセージを開くことができます。
+
+    [**議事録**をオン] に切り替え**て**、ボイスメールメッセージのボイスからテキストへの送信を有効にします。
 
 <!-- - **Auto attendant** Select the name of an existing auto attendant in the **Search by name** field. You will also have to select a resource account associated to the auto attendant. The caller who selects this option is sent to that auto attendant.
 - **Call queue** Select the name of an existing call queue in the **Search by name** field. You will also have to select a resource account associated to the call queue. The caller who selects this option is sent to that call queue, where the call is answered by a call agent.
