@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 一般的なエリア電話の連絡先オブジェク
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Delete a common area phone Contact object
 ms:assetid: f4c139dc-f07c-4c75-9345-e291aea41173
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994087(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803999
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 17ab84f88417a6f5cb1c96c4cf7b6df45fa24b16
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2a3088150c882a5ebca99318f7c85ddbddddc333
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833650"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741017"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34833650"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-20_
+_**トピックの最終更新日:** 2013-02-20_
 
 一般的な市外局番に関連付けられた連絡先オブジェクトを削除することができます。 たとえば、従業員 lounge から電話を削除した場合、その電話に連絡先オブジェクトを関連付ける必要はありません。 **CsCommonAreaPhone**コマンドレットを使用すると、一般的な市外局番のアカウントを削除することができます。 このコマンドレットを実行すると、 **CsCommonAreaPhone**によって返される一般的なエリアの携帯電話の一覧から電話が削除されます。 さらに、その電話に関連付けられている連絡先オブジェクトが Active Directory ドメインサービスから削除されます。
 
-共通の市外局番を1つ、または、表示名や国番号、市外局番などの共通の市外局番を持つ携帯電話のいずれかを削除するには、 **CsCommonAreaPhone**を使用します。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、「Lync Server Windows PowerShell のブログ記事」を参照してください[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。「リモート PowerShell を使用して Microsoft Lync Server 2010 を管理する」を参照してください。
+共通の市外局番を1つ、または、表示名や国番号、市外局番などの共通の市外局番を持つ携帯電話のいずれかを削除するには、 **CsCommonAreaPhone**を使用します。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 <div>
 

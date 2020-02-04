@@ -3,6 +3,8 @@ title: 1人のユーザーをパイロットプールに移動する
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Move a single user to the pilot pool
 ms:assetid: e9de81a8-40dd-4446-81e7-a2b810eaea50
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205401(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185905
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e9ee58a49afaa9c1e57689b6a3a87fac1a6a4502
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c14c4a772ced3939d979bd8d4cd053207b0c5613
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848041"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765305"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

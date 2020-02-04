@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 組織の外部アクセス ポリシーの管理'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Manage external access policy for your organization
 ms:assetid: 5571811e-34c8-443a-b94c-1ab5d4275581
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520995(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184160
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 10a08e096d517d2ac53866df763ab2f553480da5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e9ade02d1c7a3eae1d65cd62ba69684129105dce
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832914"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733407"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -101,7 +103,7 @@ _**最終更新日:** 2013-10-07_
 
 **Windows PowerShell コマンドレットを使用して外部アクセスポリシーを表示するには**
 
-  - Lync Server 管理シェルと**CsExternalAccessPolicy**コマンドレットを使用して、外部アクセスポリシーを表示できます。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、「Lync Server Windows PowerShell のブログ記事」を参照してください[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。「リモート PowerShell を使用して Microsoft Lync Server 2010 を管理する」を参照してください。
+  - Lync Server 管理シェルと**CsExternalAccessPolicy**コマンドレットを使用して、外部アクセスポリシーを表示できます。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
     
     すべての外部アクセスポリシーに関する情報を表示するには、Lync Server 管理シェルで次のコマンドを入力し、enter キーを押します。
     

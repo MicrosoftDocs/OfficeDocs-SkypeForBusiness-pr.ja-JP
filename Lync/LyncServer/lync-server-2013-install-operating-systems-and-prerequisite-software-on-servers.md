@@ -3,6 +3,8 @@ title: オペレーティング システムと必要なソフトウェアのサ
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Install operating systems and prerequisite software on servers
 ms:assetid: 055991e0-5aeb-43fc-a7ba-d4b02316d73b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398103(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183288
 ms.date: 07/24/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 26a4eed86f12386b10b49d4290a4596b40c1fcc9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8c41147d33dce792f88b30f72b36201ddb6c7d62
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833010"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763711"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -61,7 +63,7 @@ _**最終更新日:** 2014-07-24_
 
 
 > [!NOTE]
-> Windows Server&nbsp;2008&nbsp;R2 SP1 で Lync Server 2013 をインストールする場合は、Microsoft サポート技術情報の記事2646886「FIX: モジュールが insertentitybody メソッドを呼び出したときにヒープの破損が発生する」で説明されている更新プログラムをインストールする必要があります。IIS 7.5 "、at <A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2646886"> http://go.microsoft.com/fwlink/p/?linkid=3052&amp; kbid = 2646886</A>。<BR>また、「サポート技術情報」の記事に記載されているようにレジストリを変更する必要があります。これには、 <A href="http://go.microsoft.com/fwlink/p/?linkid=506893">Windows Server 2012 R2 にインストールされている Lync Server 2013 フロントエンドサーバーに</A>保存されている、「イベント id 32402, 61045 の記録」の
+> Windows Server&nbsp;2008&nbsp;R2 SP1 で Lync Server 2013 をインストールする場合は、まず Microsoft サポート技術情報の記事2646886、「修正: モジュールが IIS 7.5 で insertentitybody メソッドを呼び出すときにヒープの破損が発生する」、at <A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2646886"> http://go.microsoft.com/fwlink/p/?linkid=3052&amp、kbid = 2646886</A>に記載されている更新プログラムをインストールする必要があります。<BR>また、「サポート技術情報」の記事に記載されているようにレジストリを変更する必要があります。これには、 <A href="http://go.microsoft.com/fwlink/p/?linkid=506893">Windows Server 2012 R2 にインストールされている Lync Server 2013 フロントエンドサーバーに</A>保存されている、「イベント id 32402, 61045 の記録」の
 
 
 
@@ -75,7 +77,7 @@ _**最終更新日:** 2014-07-24_
 
 各サーバー上の Windows Update から以下の更新プログラムをインストールします。
 
-  - **Lync server 2013**   を実行しているサーバーの windows update lync server 2013 を実行しているサーバーに必要な windows update の更新プログラムの詳細については、「計画の[lync server 2013 のその他のソフトウェア要件](lync-server-2013-additional-software-requirements.md)」を参照してください。documentation.
+  - **Lync server 2013**   を実行しているサーバーの windows update lync server 2013 を実行しているサーバーに必要な windows update の更新プログラムの詳細については、計画ドキュメントの「 [lync server 2013 のその他のソフトウェア要件](lync-server-2013-additional-software-requirements.md)」を参照してください。
 
   - **データベース**   サーバーバックエンドデータベース、アーカイブデータベース、監視データベースなど、データベースサーバーに必要な更新プログラムの詳細については、SQL Server 2012 に関するドキュメントを参照してください。 SQL Server 2012 の場合は、SQL Server 2012 Books Online を[http://go.microsoft.com/fwlink/p/?linkId=218015](http://go.microsoft.com/fwlink/p/?linkid=218015)参照してください。
 

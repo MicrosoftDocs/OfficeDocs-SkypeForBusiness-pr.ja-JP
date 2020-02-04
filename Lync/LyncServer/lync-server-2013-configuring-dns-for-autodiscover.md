@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 自動検出用の DNS の構成'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring DNS for Autodiscover
 ms:assetid: f07a634c-3cf3-4958-8556-84596319ef54
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945656(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541528
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c490cac475f3b9a9c8038636f4ac7f6670f22637
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 77cf81cd82655a37ad089d915e9e3799671025bb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840269"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736457"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,7 +59,7 @@ DNS レコードは、追加のサブジェクト代替名 (SAN) で新しい証
 
 2.  DNS 管理スナップインを開きます。 [**スタート**] をクリックし、[**管理ツール**]、[ **dns**] の順にクリックします。
 
-3.  次のいずれかの操作を行います。
+3.  次のいずれかを実行します。
     
       - 内部 DNS レコードの場合は、DNS サーバーのコンソールツリーで、Active Directory ドメインの [**前方参照ゾーン**] (たとえば、[コントソ]) を展開します。
         
@@ -141,7 +143,7 @@ DNS レコードは、追加のサブジェクト代替名 (SAN) で新しい証
 
 2.  DNS 管理スナップインを開きます。 [**スタート**] をクリックし、[**管理ツール**]、[ **dns**] の順にクリックします。
 
-3.  次のいずれかの操作を行います。
+3.  次のいずれかを実行します。
     
       - 内部 DNS レコードの場合は、DNS サーバーのコンソールツリーで、Active Directory ドメインの [**前方参照ゾーン**] (たとえば、[コントソ]) を展開します。
         

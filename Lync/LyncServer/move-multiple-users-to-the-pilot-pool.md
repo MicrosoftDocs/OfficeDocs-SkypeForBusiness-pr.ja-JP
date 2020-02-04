@@ -3,6 +3,8 @@ title: 複数のユーザーをパイロットプールに移動する
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Move multiple users to the pilot pool
 ms:assetid: 90d0590c-922c-4933-b778-9dd850b59310
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205096(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184838
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc3104566841cc70eeee489a4b8812a6b8039a31
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a8e347658d73405d7125eb439daff7eeb84e6ea7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848034"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730927"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

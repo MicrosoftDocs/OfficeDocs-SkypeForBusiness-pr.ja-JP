@@ -3,6 +3,8 @@ title: 'Lync Server 2013: インスタント メッセージへのユーザー�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Adding custom text to instant messages
 ms:assetid: cabcc3ec-9d35-42ac-a403-e21b7d538c2c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398847(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185458
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bb6746ea5897d779a202bc428b6c7259a1191f6e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b54b4724568a4f57bebc7ef6162a553cfdd9a091
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840935"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738157"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34840935"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-20_
+_**トピックの最終更新日:** 2013-02-20_
 
-**新しい CSClientPolicy**を使用するか、または imwarning パラメーターを使用して、すべての lync 2013 インスタントメッセージング (IM **** ) 会話の先頭に免責事項または警告を追加します。
+**新しい CSClientPolicy**を使用するか、または imwarning パラメーターを使用し**て、すべて**の lync 2013 インスタントメッセージング (IM) 会話の先頭に免責事項または警告を追加します。
 
 次の例のコマンドは、新しい IM の会話が開始されるたびに、会話ウィンドウの上部にセキュリティリマインダーを追加します。
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: セットアップのアクセス許可の委任'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Delegate setup permissions
 ms:assetid: 9dca1683-4c69-4534-8ebe-6bd635cbae49
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412735(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184997
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e7df00740ac971fd56e289da04ca43abb1619329
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 245fa0cb3bb5393f1d0f09a3f3b9c10176c015ce
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833662"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739827"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34833662"
 
 _**最終更新日:** 2014-02-05_
 
-Lync Server 2013 を展開しているユーザーまたはグループに domain Admins グループのメンバーシップを付与しない場合は、RTCUniversalServerAdmins グループのメンバーを有効にして、**有効** にすることができます。Lync Server 2013 を実行しているサーバー。 既定では、RTCUniversalServerAdmins グループのメンバーはこのコマンドレットを実行することはできません。 管理者の権限とアクセス許可を付与して、Lync Server を実行しているサーバーで**Enable-CsTopology**権限を付与するには、**グラント/cssetuppermission**レットを使用し、サーバーのコンピューターオブジェクトが実行されている組織単位 (OU) を指定します。Lync Server 2013 があります。
+Lync server 2013 を展開しているユーザーまたはグループに domain Admins グループのメンバーシップを許可しない場合は、RTCUniversalServerAdmins グループのメンバーを有効にして、lync server 2013 を実行しているサーバーで、 **cstopology** Windows PowerShell コマンドレットを実行します。 既定では、RTCUniversalServerAdmins グループのメンバーはこのコマンドレットを実行することはできません。 Lync Server を実行しているサーバーで**Enable-CsTopology**機能を実行するに**は、管理**者の権限とアクセス許可を付与することができます。これには、lync server 2013 を実行しているサーバーのコンピューターオブジェクトがある組織単位 (OU) を指定します。
 
 Lync Server をインストールするときに実行されるドメインの準備によって、RTCUniversalServerAdmins グループのメンバーが Enable-CsTopology コマンドレットを実行できるようにする権限が自動的に追加されることはありません。 つまり、トポロジを有効にするには、既定でドメイン管理者である必要があることを意味します。 トポロジを有効にする権利を RTCUniversalServerAdmins グループのメンバーに付与するには、グラント Setuppermissions コマンドレットを実行する必要があります。 さらに、Lync Server を実行しているコンピューターを格納する各 Active Directory コンテナーに対して、このコマンドレットを実行する必要があります。
 

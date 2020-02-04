@@ -3,6 +3,8 @@ title: ポートの概要-SIP、XMPP フェデレーション、パブリック�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Port summary - SIP, XMPP federation, and public instant messaging
 ms:assetid: ab05bdd6-e9b0-4b1b-9dd9-29ab88e8befe
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ618373(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49105660
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b2edcad9806c5e6c8714f3face301211633a53fc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3ae19fb2477f61c0e408ebad3a8abf97fb75b9c4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824317"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747467"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**最終更新日:** 2013-03-15_
 
 Microsoft Lync Server 2013、Lync Server 2010、および Office Communications Server とのフェデレーションのためのポート、プロトコル、ファイアウォールの要件は、展開されたエッジサーバーの場合と似ています。 クライアントは、TLS/SIP/TCP 443 経由でアクセスエッジサービスとの通信を開始します。 ただし、フェデレーションパートナーは、MTLS/SIP/TCP 5061 経由でアクセスエッジサービスへの通信を開始します。
 
-パブリックインスタントメッセージング接続をサポートするために必要なポートとプロトコル用にファイアウォールを構成するには、まず、SIP/MTLS/TCP 5061 は、パブリック IM プロバイダーの連絡先が Lync クライアントまたは Lync に連絡する機能を提供するための双方向アカウントであることに注意してください。パブリック IM の連絡先に連絡します。
+パブリックインスタントメッセージング接続をサポートするために必要なポートとプロトコル用にファイアウォールを構成するには、まず、SIP/MTLS/TCP 5061 は、パブリック IM プロバイダーの連絡先が Lync クライアントに連絡するか、Lync がパブリック IM の連絡先に連絡できるかどうかを考慮するための双方向です。
 
 Windows Live Messenger は、Lync クライアントとの音声/ビデオ通信に参加できます。 通常、ファイアウォールを使用して、外部ユーザーとして Lync クライアントをサポートする、非常に類似したファイアウォールポートおよびプロトコル構成については、このアカウントをご利用ください。
 

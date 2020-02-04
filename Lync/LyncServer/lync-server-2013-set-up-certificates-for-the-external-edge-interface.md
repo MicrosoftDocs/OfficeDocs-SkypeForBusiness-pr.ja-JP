@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 外部エッジ インターフェイスの証明書�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Set up certificates for the external edge interface
 ms:assetid: 5d78182c-88d8-4483-95ad-74b17f2d5fac
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398409(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184287
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b2cb33a91d6609f9109e6416f5688d1b2ddfb9ed
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c1c836191c19eeadd915d0263c89b52289f60fe9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822119"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764673"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,7 +51,7 @@ _**最終更新日:** 2012-09-08_
 
 このような証明書の要件の詳細については、「 [Lync Server 2013 の外部ユーザーアクセスの証明書の要件](lync-server-2013-certificate-requirements-for-external-user-access.md)」を参照してください。
 
-ユニファイドコミュニケーション証明書の特定の要件に準拠し、Microsoft と提携して Lync Server 2013 証明書ウィザードで動作する証明書を提供する公開証明機関 (Ca) の一覧については、「」を参照してください。Microsoft サポート技術情報の記事929395、「Exchange Server および通信サーバーのユニファイドコミュニケーション証明書パートナー [http://go.microsoft.com/fwlink/p/?linkId=202834](http://go.microsoft.com/fwlink/p/?linkid=202834)」の「」をご覧ください。
+統合通信証明書の特定の要件に準拠し、Microsoft と提携して Lync Server 2013 証明書ウィザードで動作するようにする証明書を提供するパブリック証明機関 (Ca) の一覧については、Microsoft サポート技術情報の記事929395「Exchange Server と Communications Server の[http://go.microsoft.com/fwlink/p/?linkId=202834](http://go.microsoft.com/fwlink/p/?linkid=202834)統合通信証明書パートナー」を参照してください。
 
 <div>
 
@@ -211,7 +213,7 @@ Microsoft 管理コンソール (MMC) を使って証明書チェーンと証明
 
 4.  [**スナップインの追加と削除**] で [**証明書**] をクリックし、[**追加**] をクリックします。
 
-5.  [**証明書**] ダイアログボックスで、[**コンピューターアカウント**]、[**次へ**] の順にクリックし、[**ローカルコンピューター] (このコンソールが実行されているコンピューター)** を選択し、[**完了**] をクリックし、[ **OK** ] をクリックします。 **** MMC コンソールの構成を完了します。
+5.  [**証明書**] ダイアログボックスで、[**コンピューターアカウント**]、[**次へ**] の順にクリックし、[ローカルコンピューター] を選択し**ます。** [**コンピューターの選択**] で [**完了**] をクリックし、[ **OK** ] をクリックして MMC コンソールの構成を完了します。
 
 6.  [**証明書 (ローカルコンピューター)** ] をダブルクリックして、証明書ストアを展開し、[**個人用**] をダブルクリックして、[**証明書**] をダブルクリックします。
     
@@ -293,7 +295,7 @@ Microsoft 管理コンソール (MMC) を使って証明書チェーンと証明
 
 7.  ウィザードの完了ページで [**完了**] をクリックします。
 
-8.  この手順を実行してエッジ証明書を割り当てると、各サーバーで証明書スナップインを開き、[**証明書 (ローカルコンピューター)**]、[**個人**]、[**証明書**] の順に展開して、[詳細] ウィンドウで、証明書が表示されます。
+8.  この手順を実行してエッジ証明書を割り当てると、各サーバーで証明書スナップインを開き、[**証明書 (ローカルコンピューター)**]、[**個人用**]、[**証明書**] の順に展開して、証明書が一覧表示されている詳細ウィンドウで確認します。
 
 9.  展開に複数のエッジサーバーが含まれている場合は、各エッジサーバーに対してこの手順を繰り返します。
 

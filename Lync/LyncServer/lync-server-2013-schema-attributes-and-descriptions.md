@@ -3,6 +3,8 @@ title: 'Lync Server 2013: スキーマの属性と説明'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Schema attributes and descriptions
 ms:assetid: b009df76-9c22-471d-b57a-bda009a98261
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412841(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185083
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fc18b4b074302ba3c233670f21fd8479bbd0b0f8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 72da4adb0f660604dba7f20c9ddc333425086df2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822644"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732637"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -1095,7 +1097,7 @@ _**最終更新日:** 2012-10-06_
 </tr>
 <tr class="odd">
 <td><p>Msrtcsip-userenabled true-UserPolicy</p></td>
-<td><p>これは、さまざまな種類のグローバルユーザーポリシーを指定するバイナリ (DN_WITH_BINARY) の識別名のリストを含む複数値の属性です。 バイナリ部分は、DN の部分が指しているポリシーの種類を示します。</p>
+<td><p>これは、さまざまな種類のグローバルユーザーポリシーを指定するバイナリ (DN_WITH_BINARY) の識別名の一覧を含む複数値の属性です。 バイナリ部分は、DN の部分が指しているポリシーの種類を示します。</p>
 <p>有効なバイナリ値は、次のとおりです。</p>
 <ul>
 <li><p>0x00000001: 会議のポリシー</p></li>

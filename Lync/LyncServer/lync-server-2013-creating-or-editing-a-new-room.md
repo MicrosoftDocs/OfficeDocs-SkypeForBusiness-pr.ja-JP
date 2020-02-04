@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 新しいチャット ルームの作成または編�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Creating or editing a new room
 ms:assetid: aa8f4349-cfd9-4036-9c4d-de8fb2c4c8a4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ215880(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48706008
 ms.date: 03/19/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1442454b2afb129fda50d98ed17ccdc2c7ba35c2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7bd0fdbce300f417764e093fec3acb8705b2d17b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833753"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741107"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**最終更新日:** 2015-03-19_
 
 常設チャットルームの構成は、通常、ユーザーによって処理されます。通常、常設チャット管理者は、チャットルームの構成や管理は行いません。 会議室を管理するための Windows PowerShell コマンドレットは、 **CsPersistentChatAdministrator**管理者のみが利用できます。
 
-特定のカテゴリ**** の作成者であるユーザーは、Lync クライアントを使用して、会議室の作成と管理を行うことができます。 特定のチャットルームの管理者として指定されているユーザーは、会議室のプロパティやメンバーシップの編集など、会議室の継続的な管理を実行することもできます。
+特定のカテゴリの作成**者である**ユーザーは、Lync クライアントを使用して、会議室の作成と管理を行うことができます。 特定のチャットルームの管理者として指定されているユーザーは、会議室のプロパティやメンバーシップの編集など、会議室の継続的な管理を実行することもできます。
 
 <div>
 

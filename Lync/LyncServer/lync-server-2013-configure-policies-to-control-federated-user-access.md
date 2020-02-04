@@ -3,6 +3,8 @@ title: 'Lync Server 2013: フェデレーション ユーザー アクセスを�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure policies to control federated user access
 ms:assetid: 5485e208-81e4-4e59-9aeb-1232c11dd8a2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398359(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184180
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8fb009561c36395ee31a49986f2db0103cbe096b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e1aeb1b29637fd3f4a8add770470069e8b4a6eb8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840347"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763289"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -69,7 +71,7 @@ _**最終更新日:** 2014-02-05_
 
 5.  省略説明を追加または編集する場合は、ポリシーの情報を [**説明**] で指定します。
 
-6.  次のいずれかの操作を行います。
+6.  次のいずれかを実行します。
     
       - ポリシーのフェデレーションされたユーザーアクセスを有効にするには、[**フェデレーションユーザーとの通信を有効**にする] チェックボックスをオンにします。
     

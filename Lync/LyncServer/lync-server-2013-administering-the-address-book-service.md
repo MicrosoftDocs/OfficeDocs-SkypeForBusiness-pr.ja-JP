@@ -3,6 +3,8 @@ title: 'Lync Server 2013: アドレス帳サービスの管理'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Administering the Address Book Service
 ms:assetid: 801e4243-9670-4477-aa2f-88b61ecf5351
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429711(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184649
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8acf59a898f8da14b9c5c4151728206cc501ceaf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5d12b904cbb679b66579c7c669ba46e0d732034b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840996"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737977"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -88,7 +90,7 @@ Lync Server では、標準化された RFC 3966/E.i 電話番号が必要です
 <td><p>0x01400000</p></td>
 </tr>
 <tr class="even">
-<td><p>2</p></td>
+<td><p>両面</p></td>
 <td><p>Sn</p></td>
 <td><p>0x02400000</p></td>
 </tr>
@@ -270,7 +272,7 @@ Lync Server では、標準化された RFC 3966/E.i 電話番号が必要です
 </table>
 
 
-以前のバージョンの Lync Server で、Active Directory に変更を適用する場合、管理者は、Lync **** server への変更を維持するために、 **CSAddressBook** Windows PowerShell コマンドレットを実行する必要があります。ユーザーデータベースと RTCab データベース。 Lync server 2013 では、Lync Server ユーザーレプリケーターは Active Directory から変更を受け取り、構成された間隔に基づいて Lync Server ユーザーデータベースを更新します。 Lync Server ユーザーレプリケーターでは、管理者が更新プログラムを実行しなくても、変更内容が RTCab データベースにすばやく反映されます CSAddressBook。 アドレス帳 Web クエリが有効になっている場合、変更は Lync クライアントの検索結果に反映されます。 CSAddressBook を実行するには、アドレス帳ファイルのダウンロードが有効になっている必要があります。
+以前のバージョンの Lync Server で、Active Directory に変更を適用する場合、管理者は、Lync Server ユーザーデータベースと RTCab データベースへの変更をすぐに保持するために、 **CSAddressBook** Windows PowerShell コマンドレット**を実行する**必要があります。 Lync server 2013 では、Lync Server ユーザーレプリケーターは Active Directory から変更を受け取り、構成された間隔に基づいて Lync Server ユーザーデータベースを更新します。 Lync Server ユーザーレプリケーターでは、管理者が更新プログラムを実行しなくても、変更内容が RTCab データベースにすばやく反映されます CSAddressBook。 アドレス帳 Web クエリが有効になっている場合、変更は Lync クライアントの検索結果に反映されます。 CSAddressBook を実行するには、アドレス帳ファイルのダウンロードが有効になっている必要があります。
 
 <div>
 
@@ -363,7 +365,7 @@ AbAttribute テーブルを変更したら、[コマンドレットの**更新**
 
 
 > [!IMPORTANT]  
-> 複数フォレストの展開または親/子の展開 (インフラストラクチャの統合など) によってインフラストラクチャを統合または変更したことがある場合は、アドレス帳サービスがダウンロードされていることを確認してください。一部のユーザーでは、アドレス帳の Web クエリが失敗します。 複数のドメインまたはフォレストが含まれている展開では、この問題が発生しているユーザーオブジェクトに<STRONG>msrtcsip-userenabled true</STRONG>という属性が設定されます。 問題を解決するには、これらのオブジェクトで<STRONG>msrtcsip-userenabled true-Atorsid</STRONG>属性を NULL に設定する必要があります。
+> マルチフォレスト展開または親/子展開 (インフラストラクチャの統合など) からインフラストラクチャを統合または変更した場合に、一部のユーザーのアドレス帳サービスのダウンロードとアドレス帳 Web クエリが失敗することがあります。 複数のドメインまたはフォレストが含まれている展開では、この問題が発生しているユーザーオブジェクトに<STRONG>msrtcsip-userenabled true</STRONG>という属性が設定されます。 問題を解決するには、これらのオブジェクトで<STRONG>msrtcsip-userenabled true-Atorsid</STRONG>属性を NULL に設定する必要があります。
 
 
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 内部サーバーに対する証明書要件'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Certificate requirements for internal servers
 ms:assetid: 0444cdbd-538c-43b1-b9a1-9d7d6cf818d6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398094(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183270
 ms.date: 02/17/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a4a3f1eb54321c6cac7548d282bd3cea31c3f24a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0351ab4f54273e1eccc09992ab933525cc2527ae
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840667"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736788"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +49,7 @@ Lync Server を実行していて、証明書を必要とする内部サーバ�
 
 </div>
 
-内部サーバーでは社内のエンタープライズ証明機関 (CA) を使うことをお勧めしますが、パブリック CA を使用することもできます。 ユニファイドコミュニケーション (UC) 証明書の特定の要件に準拠し、Microsoft と提携して、Lync Server 証明書ウィザードで動作するように証明書を提供するパブリック Ca の一覧については、「Microsoft のサポート情報」を参照してください。ベースとなる929395、"Exchange Server および通信サーバー向けのユニファイドコミュニケーション証明書[https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834)パートナー" (at)
+内部サーバーでは社内のエンタープライズ証明機関 (CA) を使うことをお勧めしますが、パブリック CA を使用することもできます。 統合通信 (UC) 証明書の特定の要件に準拠し、Microsoft と提携して Lync Server の証明書ウィザードで動作することを確認するパブリック Ca の一覧については、「Microsoft サポート技術情報929395」、「Exchange Server および通信サーバーのユニファイド[https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834)コミュニケーション証明書パートナー」を参照してください。
 
 他のアプリケーションやサーバー (Exchange 2013 など) との通信には、他のアプリケーションや製品でサポートされている証明書が必要です。 2013リリース、Lync Server 2013、および Exchange 2013 および SharePoint Server を含むその他の Microsoft サーバー製品については、サーバー間の認証と承認のための Open Authorization (OAuth) プロトコルをサポートしています。 詳細については、展開ドキュメントまたは運用マニュアルの「 [Lync server 2013 でサーバー間認証 (OAuth) とパートナーアプリケーションを管理する](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md)」を参照してください。
 

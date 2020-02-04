@@ -3,6 +3,8 @@ title: Lync Server 2013 テクニカル図表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Technical diagrams
 ms:assetid: 7b6da49b-ac72-4ab0-8957-166e330b38fa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn594589(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 61180439
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d7d74f846f45b31fdff8921cfb628189726d4f2b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d9a27f534c68a509e1febacd7937724c02c72061
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848556"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746652"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -93,9 +95,9 @@ _**最終更新日:** 2014-03-14_
 <tr class="odd">
 <td><p><strong>Lync Server 2013 オンプレミスのアーキテクチャ</strong></p>
 <img src="images/Dn594589.36530bb8-732f-4be0-9502-082c01df9fba(OCS.15).jpg" title="Lync アーキテクチャポスターのサムネイル" alt="thumbnail of Lync architectures poster" />
-<p><a href="http://go.microsoft.com/fwlink/?linkid=392974">Microsoft の Zoom.it を使用して、すべての詳細でポスターを拡大する</a>(デスクトップまたはノート pc で最適)</p>
+<p><a href="http://go.microsoft.com/fwlink/?linkid=392974">Microsoft の Zoom.it を使用して、ポスターを完全に詳細に表示する</a>(デスクトップまたはノート pc での最適な方法)</p>
 <p><a href="http://go.microsoft.com/fwlink/?linkid=392578">PDF バージョン</a>(モバイルデバイスまたはタブレットコンピューターに最適)</p>
-<p><a href="http://go.microsoft.com/fwlink/?linkid=392579">Visio のバージョン</a>(Visio を使用するユーザーに最適)</p></td>
+<p><a href="http://go.microsoft.com/fwlink/?linkid=392579">Visio のバージョン</a>(visio のユーザーに最適)</p></td>
 <td><p>[ポスター] 計画と展開のためのアーキテクチャガイダンスを提供します。 このポスターには、Lync Server の一般的なコンポーネント、展開を計画するときに使用する用語、新機能、サーバーの役割、インストールの概要などの情報が含まれています。 さらに、高可用性と災害復旧、および小規模、中規模、大規模なサンプルトポロジを実現するためのアーキテクチャの例も含まれています。</p>
 <p>サイズ: 86.36 x 111.76 cm</p>
 <p>このポスターは、Visio 2013 を使って作成されました。 特定の環境に対する変更は必要ありません。</p></td>
@@ -103,13 +105,13 @@ _**最終更新日:** 2014-03-14_
 <tr class="even">
 <td><p><strong>Lync 通話品質の方法</strong></p>
 <img src="images/Dn594589.d239e04a-1c3b-4f0e-93af-88b85198615a(OCS.15).jpg" title="CQM プロセスについて説明するポスター" alt="Poster describing the CQM process" />
-<p><a href="http://go.microsoft.com/fwlink/?linkid=392972">Microsoft の Zoom.it を使用して、すべての詳細でポスターを拡大する</a>(デスクトップまたはノート pc で最適)</p>
+<p><a href="http://go.microsoft.com/fwlink/?linkid=392972">Microsoft の Zoom.it を使用して、ポスターを完全に詳細に表示する</a>(デスクトップまたはノート pc での最適な方法)</p>
 <p><a href="http://go.microsoft.com/fwlink/?linkid=391841">1つの .zip ファイルでの Visio および PDF のバージョン</a></p></td>
 <td><p>Lync システムのトラブルシューティングについて説明しています。特に、エンタープライズボイスの品質に影響する問題の場合。 このポスターの用途:</p>
 <ul>
 <li><p><a href="http://go.microsoft.com/fwlink/p/?linkid=390677">Lync Server ネットワークガイド</a></p></li>
-<li><p><a href="lync-server-2013-poster-lync-call-quality-methodology.md">Lync Server 2013 での Lync 通話品質の方法</a>(アクセシビリティに関する記事)</p></li>
-<li><p><a href="lync-server-2013-poster-key-health-indicators.md">Lync Server 2013 の主要な正常性インジケーター</a>(アクセシビリティに関する記事)</p></li>
+<li><p><a href="lync-server-2013-poster-lync-call-quality-methodology.md">Lync Server 2013 の Lync 通話品質の方法</a>(アクセシビリティの記事)</p></li>
+<li><p>Lync Server 2013 (アクセシビリティの記事)<a href="lync-server-2013-poster-key-health-indicators.md">の主要な正常性インジケーター</a></p></li>
 </ul>
 <p>サイズ: 86.36 x 111.76 cm</p>
 <p>このポスターは、Visio 2010 で作成されました。 特定の環境に対する変更は必要ありません。</p></td>
@@ -117,13 +119,13 @@ _**最終更新日:** 2014-03-14_
 <tr class="odd">
 <td><p><strong>主要な正常性インジケーター</strong></p>
 <img src="images/Dn594589.b6fe82bd-d70f-4c1f-a812-b615ac5fa7d7(OCS.15).jpg" title="KHI データを使ったトラブルシューティングについて説明しているポスター" alt="Poster describing troubleshooting using KHI data" />
-<p><a href="http://go.microsoft.com/fwlink/?linkid=392971">Microsoft の Zoom.it を使用して、すべての詳細でポスターを拡大する</a>(デスクトップまたはノート pc で最適)</p>
+<p><a href="http://go.microsoft.com/fwlink/?linkid=392971">Microsoft の Zoom.it を使用して、ポスターを完全に詳細に表示する</a>(デスクトップまたはノート pc での最適な方法)</p>
 <p><a href="http://go.microsoft.com/fwlink/?linkid=391838">1つの .zip ファイルでの Visio および PDF のバージョン</a></p></td>
 <td><p>基本的なサーバーの正常性と、Lync の実装でのサーバーの役割について、サーバーのトラブルシューティングのメトリックについて説明したポスター。 このポスターの用途:</p>
 <ul>
 <li><p><a href="http://go.microsoft.com/fwlink/p/?linkid=390677">Lync Server ネットワークガイド</a></p></li>
-<li><p><a href="lync-server-2013-poster-lync-call-quality-methodology.md">Lync Server 2013 での Lync 通話品質の方法</a>(アクセシビリティに関する記事)</p></li>
-<li><p><a href="lync-server-2013-poster-key-health-indicators.md">Lync Server 2013 の主要な正常性インジケーター</a>(アクセシビリティに関する記事)</p></li>
+<li><p><a href="lync-server-2013-poster-lync-call-quality-methodology.md">Lync Server 2013 の Lync 通話品質の方法</a>(アクセシビリティの記事)</p></li>
+<li><p>Lync Server 2013 (アクセシビリティの記事)<a href="lync-server-2013-poster-key-health-indicators.md">の主要な正常性インジケーター</a></p></li>
 </ul>
 <p>サイズ:17 x 22 インチ</p>
 <p>このポスターは、Visio 2010 で作成されました。 特定の環境に対する変更は必要ありません。</p></td>
@@ -133,7 +135,7 @@ _**最終更新日:** 2014-03-14_
 <img src="images/Dn594589.c5b66828-c3cf-4654-bb75-b93f97d085b3(OCS.15).jpg" title="プラットフォームオプションのポスターのサムネイルビュー" alt="thumbnail view of platform options poster" />
 <p><a href="http://go.microsoft.com/fwlink/p/?linkid=391840">Microsoft の Zoom.it を使用して、すべての詳細でポスターを拡大する</a></p>
 <p><a href="http://go.microsoft.com/fwlink/p/?linkid=391837">PDF バージョン</a>(モバイルデバイスまたはタブレットコンピューターに最適)</p>
-<p><a href="http://go.microsoft.com/fwlink/p/?linkid=391839">Visio のバージョン</a>(Visio を使用するユーザーに最適)</p></td>
+<p><a href="http://go.microsoft.com/fwlink/p/?linkid=391839">Visio のバージョン</a>(visio のユーザーに最適)</p></td>
 <td><p>このポスターでは、Lync 2013 から BDMs の利用可能なプラットフォームオプションについて説明します。ユーザーは、Office 365、ハイブリッド Lync、Lync Server オンプレミスおよびホストされた Lync で Lync Online から選ぶことができます。 このポスターには、各アーキテクチャオプションの詳細が記載されています。各アーキテクチャの最適なシナリオ、ライセンス要件、IT Pro の責任などが含まれます。</p>
 <p>サイズ: 86.36 x 111.76 cm</p>
 <p>このポスターは、Visio 2013 を使って作成されました。 特定の環境に対する変更は必要ありません。</p></td>
@@ -143,7 +145,7 @@ _**最終更新日:** 2014-03-14_
 <img src="images/Dn594589.e00f8445-4e00-48f6-a3e2-f97334dde719(OCS.15).jpg" title="プロトコルワークロードのポスターのサムネイルビュー" alt="thumbnail view of protocol Workloads poster" />
 <p><a href="http://go.microsoft.com/fwlink/?linkid=392970">Microsoft の Zoom.it を使用して、すべての詳細でポスターを拡大する</a></p>
 <p><a href="http://go.microsoft.com/fwlink/?linkid=392512">PDF バージョン</a>(モバイルデバイスまたはタブレットコンピューターに最適)</p>
-<p><a href="http://go.microsoft.com/fwlink/?linkid=392513">Visio のバージョン</a>(Visio を使用するユーザーに最適)</p></td>
+<p><a href="http://go.microsoft.com/fwlink/?linkid=392513">Visio のバージョン</a>(visio のユーザーに最適)</p></td>
 <td><p>このポスターをダウンロードして、lync 2013、Lync Phone、Lync Web App、Lync for Mac、Lync Mobile w の機能と要件を理解してください。 Lync Server のワークロードが組織全体でのコミュニケーションを容易にする方法について説明します。</p>
 <p>サイズ:24 x 36 インチ</p>
 <p>このポスターは、Visio 2013 を使って作成されました。 特定の環境に対する変更は必要ありません。</p></td>

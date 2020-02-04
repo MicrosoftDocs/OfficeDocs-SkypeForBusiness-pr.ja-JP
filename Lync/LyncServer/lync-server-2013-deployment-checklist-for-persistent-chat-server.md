@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 常設チャット サーバーの展開チェック�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment checklist for Persistent Chat Server
 ms:assetid: b1108f8f-88a2-4660-8086-d25ba76f7239
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412851(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185155
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e539a1aa6883863228aaab19ddaa38300ae45591
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d80122534739d443dedaeeb203ab09da94cb0067
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833506"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762705"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -107,7 +109,7 @@ Lync Server 2013、常設チャットサーバーを展開するには、正し�
 </ul>
 <p>標準エディションに常設チャットサーバーをインストールする場合は、常設チャットサーバープールの完全修飾ドメイン名 (FQDN) が standard Edition サーバーと一致する必要があります。 SQL Server データベースは、標準の SQL Server Express インスタンスに併置されています。エディションサーバー</p></td>
 <td><p>トポロジを定義するには、ローカルの Users グループのメンバーであるアカウント。</p>
-<p>トポロジを公開するには、ドメイン管理者グループと RTCUniversalServerAdmins グループのメンバーであるアカウントであり、ユーザーは、常設チャットサーバーファイル用の Lync ファイルストアでもフルコントロールのアクセス許可 (読み取り/書き込み/変更) を付与する必要があります (そのため、トポロジビルダーは、必要な Dacl を構成できます。</p></td>
+<p>トポロジを公開するには、ドメイン管理者グループと RTCUniversalServerAdmins グループのメンバーであるアカウントであり、ユーザーは、常設チャットサーバーファイル用の Lync ファイルストアに対するフルコントロールのアクセス許可 (読み取り/書き込み/変更) を持っている必要があります (これにより、トポロジビルダーは必要な Dacl を構成できるようになります)。</p></td>
 <td><p>展開ドキュメントの<a href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Lync server 2013 での展開への常設チャットサーバーの追加</a></p></td>
 </tr>
 <tr class="odd">

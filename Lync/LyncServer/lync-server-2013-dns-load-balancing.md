@@ -3,6 +3,8 @@ title: 'Lync Server 2013: DNS の負荷分散'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS load balancing
 ms:assetid: 7ed0ed20-33ad-4253-926d-21d392590ae7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398634(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184625
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4248815c2e896c6c4ce36d22fd6544c298527766
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 30d3b88ac66ad7dc6dd3216d941f4a99fc2feedd
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833386"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739187"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -75,7 +77,7 @@ DNS の負荷分散は、Lync Server 2013 または Lync Server 2010、および
 
   - DNS 負荷分散を使用するプールには、DNS 負荷分散によって使用される標準プール FQDN (pool01.contoso.com など) と、プール内のサーバーの物理 Ip アドレス、さらにプールの Web サービス用の別の FQDN が含まれている必要があります。web01.contoso.com)。プールの仮想 IP アドレスに解決されます。
     
-    トポロジビルダーで、プールの DNS 負荷分散を展開する場合は、プールの Web サービス用にこの追加の FQDN を作成する必要があります。 [**内部 Web サービスプール fqdn**の指定] チェックボックスをオンにして、[ **web サービス url を指定してください] の fqdn を入力します。このプール**ページ。
+    トポロジビルダーでプールの負荷分散を展開する場合は、プールの Web サービスの追加 FQDN を作成するには、[**内部 Web サービスプールの fqdn を上書き**する] チェックボックスをオンにして、[**このプールの Web サービス url を指定**してください] ページで fqdn を入力する必要があります。
 
   - DNS の負荷分散で使用される FQDN をサポートするには、DNS をプロビジョニングしてプールの FQDN (pool01.contoso.com など) を、プール内のすべてのサーバーの IP アドレス (たとえば、192.168.1.1、192.168.1.2 など) に解決する必要があります。 現在展開されているサーバーの IP アドレスのみを含める必要があります。
     

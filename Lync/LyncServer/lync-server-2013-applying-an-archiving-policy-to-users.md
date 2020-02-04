@@ -3,6 +3,8 @@ title: 'Lync Server 2013: アーカイブポリシーをユーザーに適用す
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Applying an Archiving policy to users
 ms:assetid: 624a7d3e-389d-403a-97e5-f7bb17023ef3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521004(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184290
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 56bb6705187172888c9fdac33532e25a210e8246
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9d1cf0db76b888b9774a16f7a6353ccf1b399eb3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848837"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737587"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34848837"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-23_
+_**トピックの最終更新日:** 2013-02-23_
 
 ユーザーが Lync Server 2013 用に有効になっていて、Lync Server 2013 を使用しているユーザーのアーカイブ用に1つ以上のユーザーポリシーを作成している場合、これらのユーザーまたはユーザーグループに適切なポリシーを適用することで、特定のユーザーのアーカイブサポートを実装できます。 たとえば、内部通信のアーカイブをサポートするポリシーを作成する場合、ユーザーの Lync Server 2013 通信のアーカイブをサポートするために、少なくとも1人のユーザーまたはユーザーグループに適用することができます。
 
@@ -80,7 +82,7 @@ _**最終更新日:** 2013-02-23_
 
 ## <a name="assigning-a-per-user-archiving-policy-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して、ユーザーごとのアーカイブポリシーを割り当てる
 
-ユーザーごとのアーカイブポリシーは、Windows PowerShell と**Grant-CsArchivingPolicy**コマンドレットを使用して割り当てることができます。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、「Lync Server Windows PowerShell のブログ記事」を参照してください[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。「リモート PowerShell を使用して Microsoft Lync Server 2010 を管理する」を参照してください。
+ユーザーごとのアーカイブポリシーは、Windows PowerShell と**Grant-CsArchivingPolicy**コマンドレットを使用して割り当てることができます。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 <div>
 

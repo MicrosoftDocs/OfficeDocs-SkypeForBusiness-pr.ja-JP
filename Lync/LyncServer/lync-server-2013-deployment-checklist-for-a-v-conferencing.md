@@ -3,6 +3,8 @@ title: Lync Server 2013 for A/V 会議用の展開チェックリスト
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment checklist for A/V conferencing
 ms:assetid: 6d47426f-6559-407b-9ac1-2453f0b7a2a2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ619183(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733684
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2d787cbc1e2bbefcc2cb125e64ab7143ddbd6cf2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 736719475d77f67932b350e1684b4af26ca2fbd6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833507"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740787"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -88,7 +90,7 @@ _**最終更新日:** 2012-09-30_
 <td><p><strong>会議をサポートするために適切な内部トポロジの作成</strong></p></td>
 <td><p>トポロジに会議を追加するには、トポロジビルダーを実行して、トポロジを公開します。</p></td>
 <td><p>トポロジを定義するには、ローカル Users グループのメンバーであるアカウント</p>
-<p>トポロジを公開するには、ドメイン管理者グループと RTCUniversalServerAdmins グループのメンバーであり、Lync Server 2013 ファイルストアで使用されるファイル共有に対するフルコントロールのアクセス許可 (読み取り/書き込み/変更) を持つアカウント (Topology Builder では、必要な Dacl を構成する)</p></td>
+<p>トポロジを公開するには、ドメイン管理者グループと RTCUniversalServerAdmins グループのメンバーであり、Lync Server 2013 ファイルストアで使用するフルコントロールのアクセス許可 (読み取り/書き込み/変更) を持つアカウント (トポロジビルダーが必要な Dacl を構成できるようにする)</p></td>
 <td><p>展開ドキュメントで、「<a href="lync-server-2013-define-and-configure-a-topology-in-topology-builder.md">トポロジビルダーでの Lync Server 2013 のトポロジを定義して構成する」</a>を参照してください。</p></td>
 </tr>
 <tr class="odd">

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Lync Server 用 Active Directory ドメインサービ
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Active Directory Domain Services for Lync Server 2013
 ms:assetid: 5483afd5-d8af-4825-ae95-a82dbe941dbf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn481129(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 59893871
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b9a7dd0a5d5c6d8323abab3a8abfbc5f1025379e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4ac4b4da954fd792559d2160ce457aec91cb0ac6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840963"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730497"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34840963"
 
 _**最終更新日:** 2013-11-13_
 
-Active Directory ドメインサービスは、Windows Server 2003、Windows Server 2008、Windows Server 2012、Windows Server 2012 R2 ネットワークのディレクトリサービスとして機能します。 Active Directory ドメインサービスは、Microsoft Lync Server 2013 セキュリティインフラストラクチャを構築する基盤としても機能します。 このセクションの目的は、Lync Server 2013 で Active Directory ドメインサービスを使って、IM、Web 会議、メディア、音声の信頼できる環境を作成する方法を説明します。 Active Directory ドメインサービスに対する Lync Server extensions の詳細、および Active directory ドメインサービスの環境の準備については、「展開で[Lync server 2013 用の Active Directory ドメインサービスの準備](lync-server-2013-preparing-active-directory-domain-services.md)」を参照してください。documentation. Windows Server ネットワークの Active Directory ドメインサービスの役割の詳細については、使用しているオペレーティングシステムのバージョンのドキュメントを参照してください。
+Active Directory ドメインサービスは、Windows Server 2003、Windows Server 2008、Windows Server 2012、Windows Server 2012 R2 ネットワークのディレクトリサービスとして機能します。 Active Directory ドメインサービスは、Microsoft Lync Server 2013 セキュリティインフラストラクチャを構築する基盤としても機能します。 このセクションの目的は、Lync Server 2013 で Active Directory ドメインサービスを使って、IM、Web 会議、メディア、音声の信頼できる環境を作成する方法を説明します。 Active Directory ドメインサービスの Lync Server extensions、および Active directory ドメインサービスの環境の準備について詳しくは、展開ドキュメントの「 [Lync server 2013 用 Active Directory ドメインサービスの準備](lync-server-2013-preparing-active-directory-domain-services.md)」をご覧ください。 Windows Server ネットワークの Active Directory ドメインサービスの役割の詳細については、使用しているオペレーティングシステムのバージョンのドキュメントを参照してください。
 
 Lync Server 2013 は、次のように Active Directory ドメインサービスを使用して保存します。
 
@@ -99,7 +101,7 @@ Lync Server 2013 は、フォレストの準備中に、グローバル設定と
 
   - **インフラストラクチャグループ**。 これらのグループは、Lync Server インフラストラクチャの特定の領域にアクセスするためのアクセス許可を提供します。 変更したり、ユーザーを直接追加したりしないでください。 フォレストの準備時に、特定のサービス グループと管理グループが、対応するインフラストラクチャ グループに追加されます。
 
-Lync Server 用の広告を準備するときに作成される特定のユニバーサルグループと、インフラストラクチャグループに追加されるサービスと管理グループの詳細については、「microsoft [Lync server 2013 でのフォレストの準備による変更](lync-server-2013-changes-made-by-forest-preparation.md)」を参照してください。展開ドキュメント。
+Lync Server 用の広告を準備するときに作成される特定のユニバーサルグループ、およびインフラストラクチャグループに追加されるサービスと管理グループの詳細については、「展開ドキュメントの[Lync Server 2013 でのフォレストの準備による変更](lync-server-2013-changes-made-by-forest-preparation.md)」を参照してください。
 
 <div>
 
@@ -129,7 +131,7 @@ Lync Server 用の広告を準備するときに作成される特定のユニ�
 
 ドメインの準備ステップでは、ドメイン内のユーザーをホストおよび管理するアクセス許可を与えるアクセス制御エントリ (ACE) をユニバーサル グループに追加します。ドメインの準備で、ドメイン ルートと 3 つの組み込みコンテナー (ユーザー、コンピューター、およびドメイン コントローラー) に対する ACE が作成されます。
 
-フォレストの準備とドメインの準備によって作成および追加されたパブリック Ace の詳細については、「 [Lync server 2013 でのフォレストの準備による変更](lync-server-2013-changes-made-by-forest-preparation.md)」および「展開の[lync server 2013 でのドメインの準備](lync-server-2013-changes-made-by-domain-preparation.md)によって行われた変更」を参照してください。documentation.
+フォレストの準備とドメインの準備によって作成および追加されたパブリック Ace の詳細については、「 [Lync server 2013 でのフォレストの準備による変更](lync-server-2013-changes-made-by-forest-preparation.md)」および「展開ドキュメントの[lync server 2013 でのドメインの準備](lync-server-2013-changes-made-by-domain-preparation.md)によって行われた変更」を参照してください。
 
 組織は、セキュリティリスクを軽減するために Active Directory ドメインサービス (AD DS) をロックダウンすることがよくあります。 ただし、ロックダウンされた Active Directory 環境では、Lync Server 2013 で必要なアクセス許可を制限できます。 たとえば、コンテナーと OU からの ACE の削除や、ユーザー、連絡先、InetOrgPerson、コンピューターの各オブジェクトでのアクセス許可の継承の無効化などが挙げられます。 ロックダウンされた Active Directory 環境では、アクセス許可を必要とするコンテナーと Ou に対して手動でアクセス許可を設定する必要があります。 詳細については、展開ドキュメントの「 [Lync Server 2013 でロックダウン Active Directory ドメインサービスを準備する](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md)」を参照してください。
 

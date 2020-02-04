@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 証明書の概要 - NAT を使用したプライベ�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Certificate summary - Single consolidated edge with private IP addresses using NAT
 ms:assetid: 6de6680e-5f47-48e6-8e06-4994d710ea6d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398519(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184433
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 77b9f2421d1ed6ef8a3127225f3911f0ea9a3973
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b76ba1e92c6c396b81e0a815a9b1368f90b8b85d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840628"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736557"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**最終更新日:** 2012-10-22_
 
 Microsoft Lync Server 2013 は、証明書を使って、他のサーバーを相互認証したり、サーバーやサーバーからクライアントにデータを暗号化したりします。 証明書には、サーバーに関連付けられているドメインネームシステム (DNS) レコードと証明書のサブジェクト名 (SN) とサブジェクトの代替名 (SAN) の名前が一致している必要があります。 サーバー、DNS レコード、証明書エントリを正常にマッピングするには、DNS に登録されているサーバーの完全修飾ドメイン名と、証明書の SN および SAN エントリを慎重に計画する必要があります。
 
-エッジサーバーの外部インターフェイスに割り当てられている証明書は、公開証明機関 (CA) から要求されます。 統合された通信の目的で証明書を提供することに成功したことを示すパブリック[http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395)ca は、次の記事に記載されています。 証明書を要求するときは、Lync Server 展開ウィザードで生成された証明書の要求を使用するか、Lync Server 管理シェルコマンドレットまたはパブリック CA によって提供されたプロセスを使用して手動で要求を作成することができます。 証明書管理用の Lync Server 管理シェルコマンドレットの詳細については、「 [Lync server 2013 の証明書と認証コマンドレット](https://docs.microsoft.com/powershell/module/skype/)」を参照してください。証明書を割り当てるときに、証明書がアクセスエッジサービスインターフェイスに割り当てられます。会議エッジサービスインターフェイス、音声/ビデオ認証サービス。 音声/ビデオ認証サービスは、音声とビデオのストリームを暗号化するために証明書を使用しない A/V Edge サービスと混同しないようにしてください。 内部の Edge Server インターフェイスは、内部 (組織) CA またはパブリック CA の証明書の証明書を使用できます。 内部インターフェイス証明書は、SN のみを使用します。 SAN エントリは必要ありません。
+エッジサーバーの外部インターフェイスに割り当てられている証明書は、公開証明機関 (CA) から要求されます。 統合された通信の目的で証明書を提供することに成功したことを示すパブリック[http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395)ca は、次の記事に記載されています。 証明書を要求するときは、Lync Server 展開ウィザードで生成された証明書の要求を使用するか、Lync Server 管理シェルコマンドレットまたはパブリック CA によって提供されたプロセスを使用して手動で要求を作成することができます。 証明書管理用の Lync Server 管理シェルコマンドレットの詳細については、「 [Lync server 2013 の証明書と認証コマンドレット](https://docs.microsoft.com/powershell/module/skype/)」を参照してください。証明書は、アクセスエッジサービスインターフェイス、Web 会議エッジサービスインターフェイス、音声/ビデオ認証サービスに割り当てられます。 音声/ビデオ認証サービスは、音声とビデオのストリームを暗号化するために証明書を使用しない A/V Edge サービスと混同しないようにしてください。 内部の Edge Server インターフェイスは、内部 (組織) CA またはパブリック CA の証明書の証明書を使用できます。 内部インターフェイス証明書は、SN のみを使用します。 SAN エントリは必要ありません。
 
 <div>
 

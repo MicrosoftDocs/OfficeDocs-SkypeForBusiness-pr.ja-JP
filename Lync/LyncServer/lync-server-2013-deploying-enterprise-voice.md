@@ -3,6 +3,8 @@ title: 'Lync Server 2013: エンタープライズ Voip の展開'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying Enterprise Voice
 ms:assetid: b5b593a6-ac30-461c-8c8c-0041e2c9ab04
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412876(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185207
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ae445d954bd1be7c956d76aa48da2ad7854c6a54
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bf57d55899d556ddfde633c975ae9f0516e48e14
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833561"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733627"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -68,7 +70,7 @@ Lync Server 2013、エンタープライズボイスは Lync Server 2013 イン�
 
 エンタープライズ Voip サーバーの役割 (および他の Lync Server 2013 サーバーの役割との関係) を展開する方法の例を参照トポロジで確認するには、計画ドキュメントの「 [Lync server 2013 のリファレンストポロジ](lync-server-2013-reference-topologies.md)」を参照してください。
 
-ネットワーク領域、ネットワークサイト、サブネットなど、通話受付制御の展開のサンプルについて説明している参照トポロジを表示する方法については、「[例: Lync Server 2013 の通話受付制御の要件を収集](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md)する」を参照してください。計画ドキュメント
+ネットワーク領域、ネットワークサイト、サブネットなど、通話受付制御の展開のサンプルについて説明している参照トポロジを表示する方法については、「例: 計画ドキュメントの[Lync Server 2013 での通話受付制御の要件の収集](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md)」を参照してください。
 
 </div>
 

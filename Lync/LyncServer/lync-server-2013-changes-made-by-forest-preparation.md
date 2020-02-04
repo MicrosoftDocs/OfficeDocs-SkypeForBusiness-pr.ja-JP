@@ -3,6 +3,8 @@ title: 'Lync Server 2013: フォレストの準備によって行われた変更
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Changes made by forest preparation
 ms:assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425791(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183734
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ef94ea82f31871cf90939aa25a130903f15ef756
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4df16ffb24c4eb4e010e2b57f6af62d3518c05b6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840615"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730097"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ _**最終更新日:** 2012-10-30_
 
 ## <a name="active-directory-global-settings-and-objects"></a>Active Directory のグローバル設定とオブジェクト
 
-すべての新しい Lync Server 2013 の展開の場合と同様に、構成コンテナーにグローバル設定を保存している場合、フォレストの準備では既存のサービスコンテナーが使用され\\、構成サービスの下に**RTC サービス**オブジェクトが追加されます。オブジェクト. RTC Service オブジェクトの下で、フォレストの準備によって型が Msrtcsip-userenabled true-GlobalContainer の**グローバル設定**オブジェクトが追加されます。 グローバル設定オブジェクトには、Lync Server の展開に適用されるすべての設定が含まれます。 システムコンテナーにグローバル設定を保存する場合、フォレストの準備では、ルートドメインシステムコンテナーの下に Microsoft コンテナー、System\\microsoft オブジェクトの下に RTC サービスオブジェクトが使用されます。
+すべての新しい Lync Server 2013 の展開の場合と同様に、構成コンテナーにグローバル設定を保存する場合、フォレストの準備では既存のサービスコンテナーが使用され、Configuration\\Services オブジェクトの下に**RTC サービス**オブジェクトが追加されます。 RTC Service オブジェクトの下で、フォレストの準備によって型が Msrtcsip-userenabled true-GlobalContainer の**グローバル設定**オブジェクトが追加されます。 グローバル設定オブジェクトには、Lync Server の展開に適用されるすべての設定が含まれます。 システムコンテナーにグローバル設定を保存する場合、フォレストの準備では、ルートドメインシステムコンテナーの下に Microsoft コンテナー、System\\microsoft オブジェクトの下に RTC サービスオブジェクトが使用されます。
 
 フォレストの準備では、この手順を実行するルートドメイン用の新しい**msrtcsip-userenabled true**オブジェクトも追加されます。
 
@@ -247,15 +249,15 @@ RBAC の役割と、それぞれに対して許可されるタスクの詳細に
 
 構成コンテナーでは、構成の名前付けコンテキストの下で、フォレストの準備で次のタスクを実行します。
 
-  - ユーザー、連絡先、InetOrgPersons の言語表示指定子の adminContextMenu 属性と adminPropertyPages 属性の下に、[ **RTC] プロパティ**ページのエントリ **{AB255F23-2DBD-4bb6-891D-38754AC280EF}** を追加します (例: CN =ユーザーによる表示、CN = 409、CN = DisplaySpecifiers 子
+  - ユーザー、連絡先、InetOrgPersons の言語表示指定子 (例: CN = ユーザー表示、CN = 409、CN = DisplaySpecifiers 子) の adminContextMenu**プロパティ**と adminPropertyPages 属性のエントリ **{AB255F23-2DBD-4bb6-891D-38754AC280EF}** を追加します。
 
   - ユーザークラスと連絡先クラスに適用される**拡張権限**の下に、 **controlaccessright**型の**RTCPropertySet**オブジェクトを追加します。
 
   - ユーザー、連絡先、OU、および DomainDNS クラスに適用される**拡張権限**の下に、 **controlaccessright**型の**RTCUserSearchPropertySet**オブジェクトを追加します。
 
-  - 各言語の組織単位 (OU) 表示指定子の**extraColumns**属性の下に**Msrtcsip-userenabled true-primaryuseraddress**を追加します (例: CN = ORGANIZATIONALUNIT-display、CN = 409、cn = displayspecifiers 子)。既定の表示の**extraColumns**属性 (たとえば、cn = Default-DISPLAY、cn = 409、Cn = displayspecifiers 子)。
+  - 各言語の組織単位 (OU) 表示指定子の**extraColumns**属性の下に**Msrtcsip-userenabled true-primaryuseraddress**を追加します (例: Cn = organizationalUnit-display、CN = 409、cn = displayspecifiers 子)。既定の表示の**extraColumns**属性の値をコピーします (例: CN = default-DISPLAY、Cn = 409、cn = displayspecifiers 子)。
 
-  - ユーザー、連絡先、Msrtcsip-userenabled true の各言語表示指定子の**Attributedisplaynames**属性で、 **-primaryuseraddress**、 **Msrtcsip-userenabled true-PrimaryHomeServer**、および**msrtcsip-userenabled true-userenabled**フィルター属性を追加します。および InetOrgPerson オブジェクト (たとえば、英語: CN = ユーザー表示、CN = 409、CN = DisplaySpecifiers 子)。
+  - ユーザー、連絡先、および InetOrgPerson オブジェクトの各言語表示指定子の**Attributedisplaynames**属性の**Msrtcsip-userenabled true-primaryuseraddress**、 **Msrtcsip-userenabled true-PrimaryHomeServer**、および**msrtcsip-userenabled true-userenabled**フィルター属性を追加します (たとえば、英語: CN = ユーザー表示、cn = 409、cn = display指定子)。
 
 </div>
 

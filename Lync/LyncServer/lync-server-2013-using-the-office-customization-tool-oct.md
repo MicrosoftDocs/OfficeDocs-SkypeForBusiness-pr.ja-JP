@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Office カスタマイズツール (OCT) を使用す�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using the Office Customization Tool (OCT)
 ms:assetid: 26647cb6-ba84-4ba7-8b6f-2cf86818e530
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204748(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183654
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cbdd9c101b9098f9a5a6ac6088740c067039921b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b82db655a0b55858de9cdc32efd1a3f110247b54
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848256"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743847"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +45,7 @@ OCT はセットアップの一部で、ボリューム ライセンス版の製
 
 管理者は OCT を使用してセットアップ カスタマイズ (.msp) ファイルを作成します。 Microsoft Office 2010 10 月の場合、管理者は次の領域をカスタマイズすることができます。
 
-  - **セットアップ**クライアントと既定の組織名、追加のネットワークインストールソース、プロダクトキー、エンドユーザーライセンス契約、表示レベル、以前のバージョンの Office を削除するための既定のインストール場所を指定するために使用されます。インストール、セキュリティ設定、セットアッププロパティ。
+  - **セットアップ**クライアントと既定の組織名、追加のネットワークインストールソース、プロダクトキー、エンドユーザーライセンス契約、表示レベル、以前のバージョンの Office を削除するためのカスタムプログラム、インストール時、セキュリティ設定、セットアップのプロパティなど、既定のインストール場所を指定するために使用されます。
 
   - **機能**ユーザー設定を構成し、Office 機能のインストール方法をカスタマイズするために使用されます。 管理者は、OCT を使用して、ユーザーの Office アプリケーション設定の初期既定値を指定することができます。 ユーザーはインストール後にほとんどの設定を変更できます。
 

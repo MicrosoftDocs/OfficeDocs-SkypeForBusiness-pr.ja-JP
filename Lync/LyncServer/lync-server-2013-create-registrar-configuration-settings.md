@@ -3,6 +3,8 @@ title: 'Lync Server 2013: レジストラー構成の設定を作成する'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create Registrar configuration settings
 ms:assetid: eddfbdd2-cfd0-4c03-986e-443d6728db7d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182601(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185758
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 624dc1cfcc8ba8de1f749d6a1a50de9989783070
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 81aec9ee6923dc125769ad16a26390b23155852c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833774"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763471"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ _**最終更新日:** 2013-03-17_
 
   - **NTLM**   このパスワードベースの認証は、パスワードに対するチャレンジ応答ハッシュスキームを使用するクライアントで利用できます。 これは、リモート ユーザーなど、キー配布センター (Kerberos ドメイン コントローラー) に接続できないクライアントの認証で使用できる唯一のクライアント認証方式です。 サーバーでリモート ユーザーのみの認証処理を行う場合は、NTLM を選択してください。
 
-  - **証明書の認証**   サーバーが lync Phone Edition クライアント、一般的なエリア電話、lync 2013、lync Windows ストアアプリから証明書を取得する必要がある場合の、新しい認証方法です。 Lync Phone Edition クライアントでは、ユーザーがサインインして、暗証番号 (PIN) を指定して正常に認証されると、Lync Server 2013 は電話に対して SIP URI をプロビジョニングし、Lync Server の署名された証明書またはユーザー証明書をプロビジョニングします。これにより、Joe (Ex: SN=joe@contoso.com) が電話に対して識別されます。 この証明書は、レジストラー サービスと Web サービスでの認証に使用されます。
+  - **証明書の認証**   サーバーが lync Phone Edition クライアント、一般的なエリア電話、lync 2013、lync Windows ストアアプリから証明書を取得する必要がある場合の、新しい認証方法です。 Lync Phone Edition クライアントでは、ユーザーがサインインして、暗証番号 (PIN) を提供して認証された後、Lync Server 2013 は電話に対して SIP URI をプロビジョニングし、その電話に対して、Lync Server の署名された証明書または Joe (Ex: SN=joe@contoso.com) を識別するユーザー証明書をプロビジョニングします。 この証明書は、レジストラー サービスと Web サービスでの認証に使用されます。
 
 <div>
 

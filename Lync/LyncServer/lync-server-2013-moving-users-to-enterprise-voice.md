@@ -3,6 +3,8 @@ title: 'Lync Server 2013: エンタープライズ VoIP へのユーザーの移
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Moving users to Enterprise Voice
 ms:assetid: a2df6d51-5cf2-4d3e-8f97-496af5fd5e5e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412758(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184958
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1127bd0c767da7f02df8aefb30fda41a64bd353a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e92f0a7d71d42d8551a51028afec209e795941d5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826739"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756691"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -98,9 +100,9 @@ _**最終更新日:** 2012-10-18_
 
   - 組織で Active Directory ドメインサービスのすべての電話番号を1つの形式で管理していて、その形式が E.i の場合、スクリプトでは、各主要な電話番号を Msrtcsip-userenabled true 属性に書き込むだけで**対応**する必要があります。
 
-  - 組織で Active Directory ドメインサービスのすべての電話番号を1つの形式で管理しているが、その形式が E.i ではない場合、スクリプトは、プライマリ電話番号を既存の形式から変換するための適切な正規化ルールを定義する必要があります。Msrtcsip-userenabled true を作成する前に、このファイルを電子メール**で**送信します。
+  - 組織で Active Directory ドメインサービスのすべての電話番号を1つの形式で管理しているが、その形式が E.i ではない場合、スクリプトでは、プライマリ電話番号を既存の形式から**msrtcsip-userenabled true**に変換する前に、対応する正規化ルールを定義する必要があります。
 
-  - 組織で Active Directory ドメインサービスの電話番号の標準形式が適用されていない場合、スクリプトでは、主要な電話番号をさまざまな形式から E.i コンプライアンスに変換するための適切な正規化ルールを定義する必要があります。主要な電話番号を**msrtcsip-userenabled true**の属性に書き込みます。
+  - 組織で Active Directory ドメインサービスの電話番号の標準形式を適用していない場合は、主要な電話番号を**msrtcsip-userenabled true line**属性に書き込む前に、主要な電話番号をさまざまな形式から e.i コンプライアンスに変換するために、スクリプトで適切な正規化ルールを定義する必要があります。
 
 また、スクリプトでは、 **msrtcsip-userenabled true**属性に書き込む前に、各プライマリ番号の前に " **Tel** " というプレフィックスを挿入する必要があります。
 
@@ -114,7 +116,7 @@ _**最終更新日:** 2012-10-18_
     
 
     > [!IMPORTANT]  
-    > アドレス帳サービス (ABS) によって実行される正規化によって、active Directory ドメインサービスへのアクセス権が付与されていないので、Active directory ドメインサービスで各ユーザーの主要な電話番号を正規化する必要がなくなります。したがって、プライマリ番号を<STRONG>msrtcsip-userenabled true</STRONG>属性にコピーすることはできません。
+    > アドレス帳サービス (ABS) によって実行される正規化によって、active Directory ドメインサービスへのアクセス権がなく、また、プライマリ番号を<STRONG>msrtcsip-userenabled true</STRONG>属性にコピーできないことが原因で、Active Directory ドメインサービスで各ユーザーの主要な電話番号を正規化する必要がなくなります。
 
     
     </div>

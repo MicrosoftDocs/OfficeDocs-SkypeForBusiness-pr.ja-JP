@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 複数のデータ センターを持つ大規模な�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Reference topology for large organizations with multiple data centers
 ms:assetid: 9a6aeae6-629b-49e6-9804-7ef369d7c3dc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398797(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184887
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2460378d19f8edb4e845778cacaf01c7141204c3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 56d9edde5ab097f3244919d6dd2c572b4a1dc112
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823834"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746887"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +45,7 @@ _**最終更新日:** 2012-10-22_
 
 **複数のデータ センターを持つ大規模な組織向けの関連トポロジの概要**
 
-![複数のデータセンターのリファレンストポロジ](images/Gg398797.471e1ce9-be11-44b9-9f4a-59e0551b7b30(OCS.15).jpg "複数のデータセンターのリファレンストポロジ")
+![複数のデータ センター向けの関連トポロジ](images/Gg398797.471e1ce9-be11-44b9-9f4a-59e0551b7b30(OCS.15).jpg "複数のデータ センター向けの関連トポロジ")
 
 **大規模な組織向けの関連トポロジ: 中央サイト A の詳細表示**
 

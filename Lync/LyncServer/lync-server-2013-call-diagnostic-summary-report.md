@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 通話診断のサマリーレポート'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Call Diagnostic Summary Report
 ms:assetid: 9091de56-13e6-440e-9353-f57c10c906fe
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615016(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184789
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e747d257e7c88973790e8fd0c9ba828949248598
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0228af8690fe7170fc4fd77e72f67f6cb3adc08c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840708"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743037"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -65,7 +67,7 @@ _**最終更新日:** 2012-06-06_
 
 ## <a name="making-the-best-use-of-the-call-diagnostic-summary-report"></a>通話診断の概要レポートの活用
 
-通話診断の概要レポートには、Microsoft Lync Server 2013 で使用されているさまざまなモダリティのエラー率を比較するグラフが含まれています。 これらのグラフの列は、実際にはホットリンクです。たとえば、ピアツーピアセッションのインスタントメッセージ (Im) 列をクリックすると、 [Lync Server 2013 のピアツーピアアクティビティ診断レポート](lync-server-2013-peer-to-peer-activity-diagnostic-report.md)のインスタンスにドリルダウンすることになります。これについては、「すべてのインスタント情報を追加する」をご覧ください。通話診断の概要レポートに含まれているメッセージングセッション。
+通話診断の概要レポートには、Microsoft Lync Server 2013 で使用されているさまざまなモダリティのエラー率を比較するグラフが含まれています。 これらのグラフの列は、実際にはホットリンクです。たとえば、ピアツーピアセッションのインスタントメッセージングの列をクリックすると、 [Lync Server 2013 のピアツーピアアクティビティ診断レポート](lync-server-2013-peer-to-peer-activity-diagnostic-report.md)のインスタンス (通話診断の概要レポートに含まれるすべてのインスタントメッセージングセッションの詳細情報を提供するレポート) が表示されます。
 
 </div>
 

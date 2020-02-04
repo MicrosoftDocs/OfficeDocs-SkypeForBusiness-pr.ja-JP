@@ -3,6 +3,8 @@ title: 通話詳細記録と QoE (Quality of Experience) 設定の構成
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring call detail recording and Quality of Experience settings
 ms:assetid: 009a0499-4f8c-450d-9c72-a565a08e9f7a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204621(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183223
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 67c9759faad4ed96cdf65d8bd22c5778512933de
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 504c2221e9f8a3ef32e2cebbb792f5e03aef15c5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840281"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756341"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -70,7 +72,7 @@ Microsoft Lync Server 2013 をインストールすると、CDR と QoE の両�
 <td><p>KeepCallDetailForDays</p></td>
 <td><p>CDR レコードをデータベース内に保持する日数を指定します。指定した日数を超えて存在する古いレコードはすべて自動的に削除されます。ただし、この処理は削除が有効になっている場合にのみ実行されます。</p>
 <p>KeepCallDetailForDays には、1 ～ 2,562 日 (約 7 年間) の間の整数値を設定できます。</p></td>
-<td><p>60 (日)</p></td>
+<td><p>60 日</p></td>
 </tr>
 <tr class="even">
 <td><p>KeepErrorReportForDays</p></td>
@@ -113,7 +115,7 @@ Microsoft Lync Server 2013 をインストールすると、CDR と QoE の両�
 <td><p>KeepQoEDataForDays</p></td>
 <td><p>QoE レコードをデータベース内に保持する日数を指定します。指定した日数を超えて存在する古いレコードはすべて自動的に削除されます。ただし、この処理は削除が有効になっている場合にのみ実行されます。</p>
 <p>KeepCallDetailForDays は、1 ～ 2,562 (日) の範囲の任意の整数値に設定できます。</p></td>
-<td><p>60 (日)</p></td>
+<td><p>60 日</p></td>
 </tr>
 </tbody>
 </table>

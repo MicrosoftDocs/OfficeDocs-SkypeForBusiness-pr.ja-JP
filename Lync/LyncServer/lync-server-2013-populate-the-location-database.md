@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 場所データベースを設定する'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Populate the location database
 ms:assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413069(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185939
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 08c1718c3d7ffdc79b82ac34016e79bf647ae6f3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a93cee85afec1e3943af692d598d0d02ab678d58
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824051"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747647"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -67,7 +69,7 @@ _**最終更新日:** 2012-09-17_
 <tr class="odd">
 <td><p><strong>ポート</strong></p></td>
 <td><p>&lt;ChPortIDSubType sid&gt;、&lt;&gt;、&lt;PortID&gt;、&lt;Description&gt;、&lt;Location&gt;、&lt;CompanyName&gt;、&lt;HouseNumber&gt;、&lt;HouseNumberSuffix&gt;,...</p>
-<p>...&lt;Predirectional&gt;、&lt;StreetName&gt;、&lt;StreetSuffix&gt;、&lt;&gt;postdirectional&lt;市区町村&gt;、&lt;都道府県&gt;、&lt;郵便&gt;番号&lt; 、居住&gt;</p></td>
+<p>...&lt;Predirectional&gt;、&lt;StreetName&gt;、&lt;StreetSuffix&gt;、&lt;&gt;postdirectional&lt;市区町村&gt;、&lt;都道府県&gt;、&lt;郵便&gt;番号&lt;、国&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>スイッチ</strong></p></td>

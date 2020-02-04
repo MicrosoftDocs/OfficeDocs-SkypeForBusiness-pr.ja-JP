@@ -3,6 +3,8 @@ title: トポロジビルダーの結合ウィザードを使用してマージ�
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Merge using Topology Builder Merge wizard
 ms:assetid: c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205243(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185343
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a8a65dab8cb99b35821f12c5871ae52f608ae344
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 61981ae875fef9976377644a9b67f0a329581a90
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848085"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763641"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -77,7 +79,7 @@ _**最終更新日:** 2012-10-02_
 
 9.  [**次ホップの指定**] で、環境内の次のホップ位置の完全修飾ドメイン名 (FQDN) を入力します。 [**完了**] をクリックします。
     
-    [![エッジサーバー] ダイアログボックス、[次ホップの指定] ページ][(images/JJ205243.e734ee0d-f91c-4f3f-8ae6-248ecabcf678(OCS.15).jpg "エッジサーバー] ダイアログボックス、[次ホップの指定] ページ")  
+    ![[エッジサーバー] ダイアログボックス、[次ホップの指定] ページ](images/JJ205243.e734ee0d-f91c-4f3f-8ae6-248ecabcf678(OCS.15).jpg "[エッジサーバー] ダイアログボックス、[次ホップの指定] ページ")  
 
 10. Office Communications Server 2007 R2 Edge サーバーがすべて追加されている場合は、[ **Edge セットアップの指定**] で [**次へ**] をクリックします。 追加する Office Communications Server 2007 R2 Edge サーバーが他にもある場合は、手順4からこの手順を繰り返します。
 

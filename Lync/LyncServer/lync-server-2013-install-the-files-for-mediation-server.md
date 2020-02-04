@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 仲介サーバー用のファイルをインストー
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Install the files for Mediation Server
 ms:assetid: f0f7dd15-58e1-40fd-aa7e-6db50ceafacd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412998(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185772
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 60274ced1bf72a17b4c05b4908f60bde32323f12
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c84d5fc2c863e0e56af275a4bee084652742eeac
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833004"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763681"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +47,7 @@ _**最終更新日:** 2012-08-06_
 
 
 > [!NOTE]  
-> このトピックでは、「 <A href="lync-server-2013-define-a-mediation-server-in-topology-builder.md">Lync server 2013 のトポロジビルダーでの仲介サーバーの定義</A>」の説明に従って、スタンドアロンの仲介サーバープールを既に定義して公開していることを前提としています。また、展開の<A href="lync-server-2013-publish-the-topology.md">lync server 2013 でトポロジを公開</A>します。ドキュメントを参照してください。また、仲介サーバープール内のコンピューターが、「 <A href="lync-server-2013-software-prerequisites-for-enterprise-voice.md">Lync server 2013 のエンタープライズ voip のソフトウェアの前提</A>条件」および「<A href="lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md">セキュリティと構成の前提条件」で説明されている前提条件を満たしていることを確認しました。Lync Server 2013 のエンタープライズ Voip</A>。
+> このトピックでは、「 <A href="lync-server-2013-define-a-mediation-server-in-topology-builder.md">Lync server 2013 のトポロジビルダーでの仲介サーバーの定義</A>」の説明に従って、スタンドアロンの仲介サーバープールを既に定義して公開していることを前提とし、展開ドキュメントで<A href="lync-server-2013-publish-the-topology.md">lync server 2013 でトポロジを公開</A>し、仲介サーバーのプール内のコンピューターが<A href="lync-server-2013-software-prerequisites-for-enterprise-voice.md">lync server 2013 の</A><A href="lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md">セキュリティと構成の前提条件を満たしてLync Server 2013 での音声</A>
 
 
 
@@ -81,7 +83,7 @@ _**最終更新日:** 2012-08-06_
 
 13. Lync Server コントロールパネルを実行しているコンピューターで、仲介サーバーのサービスの状態が緑色のチェックマークとして表示される、Lync Server コントロールパネルの [**トポロジ**] ページを確認します。 代わりに赤い X が表示される場合は、仲介サーバーを選びます。 [**操作**] メニューの [**すべてのサービスを開始**] をクリックします。
 
-複数のコンピューターを仲介サーバープールに追加した場合は、仲介サーバープール内の他のすべてのコンピューターで、この手順の手順を実行します。 他のコンピューターに対して仲介サーバー用のファイルをインストールする必要がない場合は、「 [Lync server 2013 で trunks を構成](lync-server-2013-configuring-trunks.md)する」の手順に従って、この仲介サーバープール間のトランク接続の設定を構成する (またはすべての仲介者サイト内のサーバー) とそのピア。
+複数のコンピューターを仲介サーバープールに追加した場合は、仲介サーバープール内の他のすべてのコンピューターで、この手順の手順を実行します。 他のコンピューターに対して仲介サーバー用のファイルをインストールする必要がない場合は、「 [Lync server 2013 で trunks を構成](lync-server-2013-configuring-trunks.md)する」の手順に従って、この仲介サーバープール (またはサイト内のすべての仲介サーバー) とピアの間のトランク接続の設定を構成します。
 
 </div>
 

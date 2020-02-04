@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 一元ログサービスの概要'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Overview of the Centralized Logging Service
 ms:assetid: 975718a0-f3e3-404d-9453-6224e73bfdd0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688145(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733746
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 647e6b1e5797b3936dc1fef6023c85ce4baf68b7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1460699b6516ab4e510c9715b2464ce442466faa
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825444"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755451"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,11 +45,11 @@ _**最終更新日:** 2013-02-22_
 
 **ClsController と ClsAgent の通信**
 
-![CLSController と Clscontroller の間のリレーションシップ。](images/JJ688145.68c90811-5cf9-4a84-95b7-ea9ffc61eac4(OCS.15).jpg "CLSController と Clscontroller の間のリレーションシップ。")
+![CLSController と CLSAgent の間の関係](images/JJ688145.68c90811-5cf9-4a84-95b7-ea9ffc61eac4(OCS.15).jpg "CLSController と CLSAgent の間の関係")
 
 Windows Server のコマンドラインインターフェイスまたは Lync Server 管理シェルを使用して、コマンドを実行します。 コマンドは、ログインしているコンピューターで実行され、ローカルまたは展開内の他のコンピューターやプールに送信されます。
 
-ClsAgent は、すべてのインデックスファイルを管理します。ローカルコンピューターにあるファイルをキャッシュします。 ClsAgent は、オプション CacheFileLocalFolders によって定義されたボリューム間で均等に分散されるように、各ボリュームの 80% を消費しないように割り当てます (つまり、ローカルキャッシュの場所と割合は、 **Set-CsClsConfiguration**コマンドレット)。 ClsAgent は、ローカルコンピューターから古いキャッシュされたイベントトレースログ (.etl) ファイルを処理する責任も担います。 2週間後 (つまり、 **Set-CsClsConfiguration**コマンドレットを使用して期間を構成できます)、これらのファイルはファイル共有にコピーされ、ローカルコンピューターから削除されます。 詳細については、「 [Set-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsClsConfiguration)」を参照してください。 検索要求を受信すると、検索条件を使ってキャッシュされた一連の .etl ファイルが選択され、エージェントによって管理されているインデックス内の値に基づいて検索が実行されます。
+ClsAgent は、すべてのインデックスファイルを管理します。ローカルコンピューターにあるファイルをキャッシュします。 ClsAgent は、オプション CacheFileLocalFolders によって定義されたボリューム間で均等に分散されるように、各ボリュームの80% を消費しないようにします (つまり、ローカルキャッシュの場所と割合は、 **Set-CsClsConfiguration**コマンドレットを使用して構成できます)。 ClsAgent は、ローカルコンピューターから古いキャッシュされたイベントトレースログ (.etl) ファイルを処理する責任も担います。 2週間後 (つまり、 **Set-CsClsConfiguration**コマンドレットを使用して期間を構成できます)、これらのファイルはファイル共有にコピーされ、ローカルコンピューターから削除されます。 詳細については、「 [Set-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsClsConfiguration)」を参照してください。 検索要求を受信すると、検索条件を使ってキャッシュされた一連の .etl ファイルが選択され、エージェントによって管理されているインデックス内の値に基づいて検索が実行されます。
 
 <div>
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 音声ポリシー'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Voice policies
 ms:assetid: b7433c62-9d8c-48af-89a0-19f0d34806ec
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412891(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185223
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca1e72a1b62a224898d98aec7fcef9bc62ddf8bc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3998bd6f879b20b1a22f46818a22f26bbb2cc29a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848130"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758609"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -106,7 +108,7 @@ Lync Server の*音声ポリシー*は、ポリシーが割り当てられてい
 
   - **ボイスメール エスケープ**は、同時呼び出しが構成されている場合で、電話が電源オフ、電池切れ、または圏外になっていて、タイマー値に基づいているときに、通話がユーザーの携帯電話のボイスメール システムにすぐにルーティングされることを防ぎます。 この設定でタイマーを有効または無効にし、タイマーの値を設定します。 この構成は、Lync Server 管理シェルを使用してのみ行うことができます。 既定では無効です。
 
-  - **着信の転送と同時**呼び出しの pstn 使用管理者は、着信の転送と同時呼び出しのボイスポリシーと同じ PSTN 使用量を指定できます。通話転送と同時呼び出しは、内部の Lync ユーザーのみに制限されます。または、ボイスポリシーの PSTN 使用状況とは異なるカスタム PSTN 使用法を指定します。 既定では、着信の転送および同時呼び出しに対して音声ポリシーと同じ PSTN 使用法を使用します。
+  - **着信の転送と同時**呼び出しの pstn の使用管理者は、着信の転送と同時呼び出しのボイスポリシーと同じ pstn 使用量を指定できます。また、内部の Lync ユーザーのみに着信の転送と同時呼び出しを制限することも、ボイスポリシーの pstn 使用を指定することもできます。 既定では、着信の転送および同時呼び出しに対して音声ポリシーと同じ PSTN 使用法を使用します。
 
 </div>
 

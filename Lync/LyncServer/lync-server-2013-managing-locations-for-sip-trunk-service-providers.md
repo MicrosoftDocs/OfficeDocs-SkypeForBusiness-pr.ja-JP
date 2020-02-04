@@ -3,6 +3,8 @@ title: 'Lync Server 2013: SIP トランクサービスプロバイダーの場�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing locations for SIP trunk service providers
 ms:assetid: d9b33b56-66c2-4dee-b056-faaf98925bf2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398959(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185548
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eba237ae4e984169a354339ce0222dfd58f324c1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e9ebc471459c8e406914f5a075d7e4cf8b69fadd
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828006"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762095"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**最終更新日:** 2012-10-02_
 
 ネットワーク内でクライアントが自動的に検索されるように Lync Server を構成するには、場所情報サービスデータベースに network wiremap を設定して、場所を公開するか、既に正しいものが含まれている外部データベースにリンクする必要があります。関連付け. このプロセスの一環として、E9-1-1 サービスのサービス プロバイダーで場所の公的アドレスを確認する必要があります。 詳細については、「展開ドキュメントの[Lync Server 2013 で場所データベースを構成する](lync-server-2013-configure-the-location-database.md)」を参照してください。
 
-場所情報サービス データベースに、公的アドレスと建物内の特定のアドレスで構成される緊急応答ロケーション (ERL) を取り込みます。 建物内の特定**** の場所である "位置情報サービスの場所" フィールドには、最大20文字 (スペースを含む) が使用されます。 この制限された長さの中に、以下を含めるようにします。
+場所情報サービス データベースに、公的アドレスと建物内の特定のアドレスで構成される緊急応答ロケーション (ERL) を取り込みます。 建物内の特定の場所である "位置情報サービス**の場所"** フィールドには、最大20文字 (スペースを含む) が使用されます。 この制限された長さの中に、以下を含めるようにします。
 
   - 緊急対応員が公的アドレスにたどり着いたときに特定の場所をすぐに特定するように、緊急電話の発信者の場所を特定するわかりやすい名前。この場所名には建物番号、階数、ウイング名、部屋番号などを含めることができます。従業員にしかわからないニックネームは避けてください。そのようなニックネームになっていると、緊急対応員が間違った場所へ行ってしまう可能性があります。
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 会議コマンドレット'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Conferencing cmdlets
 ms:assetid: 7ff94637-6319-4c45-9230-be34e8d81ede
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398641(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184640
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9bd951904e14d864c165ff98c50088b96e42f04f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9a95cf0c07726670b15891b2a067346e3452f333
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840475"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741557"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ Microsoft Lync Server 2013 を使用すると、ユーザーは、Lync 2013 な�
 
 ## <a name="conferencing-cmdlets"></a>会議コマンドレット
 
-**Csdial incall**コマンドレットは、ダイヤルイン会議のプロパティを構成するために使用されます。電話番号を指定することによって、ユーザーが会議に参加した後で使用できるようになります。会議 (たとえば、6キーを押して電話をミュートまたはミュート解除します)。 会議のその他の機能 (たとえば、ユーザーが会議を記録したり、会議中にユーザーを共有できる場合など) は、 **set-csconferencingpolicy**コマンドレットを使用して管理されます。
+**Csdial incall**コマンドレットは、ダイヤルイン会議のプロパティを構成するために使用されます。電話番号の指定は、ユーザーが会議に参加した後で電話会議に参加できるようにするために使います (たとえば、6を押すと、電話をミュートまたはミュート解除します)。 会議のその他の機能 (たとえば、ユーザーが会議を記録したり、会議中にユーザーを共有できる場合など) は、 **set-csconferencingpolicy**コマンドレットを使用して管理されます。
 
 **[Lync Server 2013 でのダイヤルイン会議のコマンドレット](lync-server-2013-dial-in-conferencing-cmdlets.md)**
 

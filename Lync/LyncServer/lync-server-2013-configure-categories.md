@@ -3,6 +3,8 @@ title: 'Lync Server 2013: カテゴリの構成'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure categories
 ms:assetid: 4547f514-f0c0-404d-890f-092ddeeac852
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204859(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184033
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 310d0b2e32c8a21f00e20593a408df260eb80e32
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bf7b7b3ceb24e3b5bffb307cdde048e7a0cabb8c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840417"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757761"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -87,11 +89,11 @@ Lync Server 2013 コントロールパネルで、[**常設チャット**] ペ�
 
 7.  [**カテゴリの編集**] で、次の操作を実行します。
     
-      - [許可された**メンバー** ] セクションの [**メンバーシップ**] で、チャットルームのメンバーとして追加することを許可されているユーザーおよびその他の Active Directory ドメインサービスプリンシパル (ユーザー、配布グループ、組織単位など) を追加または削除します。カテゴリに属している。 カテゴリで許可されているプリンシパルは、カテゴリ内のルームを検索することができます (ルームが非表示になっている場合を除き、ルームのメンバーだけがディレクトリ内で検索できます)。
+      - [許可された**メンバー** ] セクションの [**メンバーシップ**] で、カテゴリに属するチャットルームのメンバーとして追加することを許可されているユーザーおよびその他の Active Directory ドメインサービスプリンシパル (ユーザー、配布グループ、組織単位など) を追加または削除します。 カテゴリで許可されているプリンシパルは、カテゴリ内のルームを検索することができます (ルームが非表示になっている場合を除き、ルームのメンバーだけがディレクトリ内で検索できます)。
     
       - [**メンバーシップ**] の [**拒否するメンバー** ] セクションで、会議室から拒否されているメンバーに関連付けられているユーザーおよびその他の Active Directory プリンシパルを追加または削除します。
     
-      - [**メンバーシップ**] の [ **** 作成者] セクションで、カテゴリの作成者に関連付けられているユーザーおよびその他の Active Directory プリンシパルを追加または削除します。 作成者は、チャット ルームを作成し、チャット ルームのマネージャーとメンバーを割り当てることができるアクセス許可を持つユーザーです。
+      - [**メンバーシップ**] の [作成**者] セクション**で、カテゴリの作成者に関連付けられているユーザーおよびその他の Active Directory プリンシパルを追加または削除します。 作成者は、チャット ルームを作成し、チャット ルームのマネージャーとメンバーを割り当てることができるアクセス許可を持つユーザーです。
 
 8.  [**コミット**] をクリックします。
 

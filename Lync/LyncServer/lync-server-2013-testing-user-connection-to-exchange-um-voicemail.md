@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Exchange UM ボイスメールへのユーザー接続
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing user connection to Exchange UM voicemail
 ms:assetid: 574da104-8823-4061-9fb6-353639f1884d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727305(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969604
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f09921d62eddb1f1b426e0e3b1fc4984a0987a8e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c533781fedc3bf3d6266bae80e5c59cacbec4874
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848406"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745387"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -108,7 +110,7 @@ Exchange の統合が適切に構成されている場合は、次のような�
 
 診断
 
-指定したユーザーがボイスメールに接続できない場合、結果は**** エラーとして表示され、エラーと診断のプロパティに追加情報が記録されます。
+指定したユーザーがボイスメールに接続できない場合、結果はエラーとして表示さ**れ、エラー**と診断のプロパティに追加情報が記録されます。
 
 警告: 指定した完全修飾のレジストラーポート番号の読み取りに失敗しました
 

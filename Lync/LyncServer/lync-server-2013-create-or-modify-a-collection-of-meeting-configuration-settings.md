@@ -3,6 +3,8 @@ title: 会議の構成設定のコレクションを作成または変更する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify a collection of meeting configuration settings
 ms:assetid: ce6773c1-a0d5-4405-8e32-33a6f3a46a1a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721889(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733822
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2b948d5aded2447e5319378a613fdf474c3e5450
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0a5f80066a68b45e062a351478bea93a5c2e8fd0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833814"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763339"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34833814"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-23_
+_**トピックの最終更新日:** 2013-02-23_
 
 [会議の設定] ページの設定を使用して、会議の参加エクスペリエンスのさまざまな特性を定義できます。 既定では、グローバル設定によって結合操作が定義されます。 サイトレベルとプールレベルの会議の参加設定を作成することもできます。 プール レベル設定を作成すると、その設定は、そのプールがホストするすべての会議に適用されます。 プール レベル設定を作成しない場合は、サイト レベル設定が存在すればそれが適用されます。 サイト レベル設定を定義しない場合は、グローバル設定がすべての会議に適用されます。
 
@@ -140,7 +142,7 @@ _**最終更新日:** 2013-02-23_
 
 ## <a name="to-change-multiple-property-values-when-creating-meeting-configuration-settings"></a>会議の構成設定を作成するときに複数のプロパティの値を変更するには
 
-  - 複数のパラメーターを含めることにより複数のプロパティ値を変更できます。 たとえば、次のコマンドは、発表者として会議に対して全員を管理し、その会議に対して正式に許可されるまでは、ロビーでも PSTN ユーザーによる待機を強制します。
+  - 複数のプロパティ値は、複数のパラメーターを含めることによって変更できます。 たとえば、次のコマンドは、発表者として会議に対して全員を管理し、その会議に対して正式に許可されるまでは、ロビーでも PSTN ユーザーによる待機を強制します。
     
         New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone" -PSTNUCallersBypassLobby $True
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ネットワーク アダプターの構成'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure network adapters
 ms:assetid: 6519ed80-020f-47a3-851c-03dea5eac5d9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429707(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184320
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3469e9d5fa3f7aeb45bc8f35ff692d97d09b8481
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 30889a6b145e7256a313c4deedafc74d99499719
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840354"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758385"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,7 +59,7 @@ _**最終更新日:** 2013-11-07_
 
 ## <a name="to-configure-the-network-adapter-cards-on-the-reverse-proxy-computer"></a>リバースプロキシコンピューターのネットワークアダプターカードを構成するには
 
-1.  Windows Server 2008、Windows server 2008 R2、Windows Server 2012、またはリバースプロキシとして実行されている Windows Server 2012 R2 サーバーで [**スタート**] をクリックし、[**コントロールパネル**]、[ネットワーク] の順にポイントして、[**アダプター設定の変更**] を開きます。 **共有センター**を選び、[**アダプターの設定の変更**] をクリックします。
+1.  リバースプロキシとして実行されている windows server 2008、windows server 2008 R2、windows Server 2012、または Windows Server 2012 R2 サーバーで、[**スタート**] をクリックし、[**コントロールパネル**]、[**ネットワークと共有センター**] の順にクリックして、[**アダプターの設定の変更**] を**クリックします**。
 
 2.  外部インターフェイスとして使用する外部ネットワーク接続を右クリックし、[**プロパティ**] をクリックします。
 
@@ -69,7 +71,7 @@ _**最終更新日:** 2013-11-07_
     
 
     > [!NOTE]  
-    > リバースプロキシが、Outlook Web Access の公開など、HTTPS/TCP/443 を使用する他のアプリケーションによって既に使用されている場合は、別の IP アドレスを追加する必要があります。これにより、Lync Server 2013 Web サービスを HTTPS/TCP/443 で公開することができます。既存のルールと web リスナーを使用している場合、または既存の証明書を、新しい外部 FQDN 名をサブジェクトの代替名に追加するものに置き換える必要があります。
+    > リバースプロキシが、HTTPS/TCP/443 を使用する他のアプリケーションによって既に使用されている場合は、Outlook Web Access を公開する場合、既存のルールや web リスナーに干渉しないように、別の IP アドレスを追加する必要があります。これにより、HTTPS/TCP/443 で Lync Server 2013 Web サービスを公開することができます。また、既存の証明書を新しい外部の FQDN 名に追加する証明書と置き換えます。
 
     
     </div>

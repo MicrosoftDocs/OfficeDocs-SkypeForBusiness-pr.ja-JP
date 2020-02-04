@@ -3,6 +3,8 @@ title: 'Lync Server 2013: トポロジテストの問題'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Issues with the topology test
 ms:assetid: 821e8916-7b5d-4f64-8fb0-e5cc392ec1bb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205045(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184670
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7d416aac6460870ab14d5296bcc6c7944ecf699e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a0492f53692230bf02b3b66d91ba7fdf14b01c23
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832954"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765445"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -59,7 +61,7 @@ Lync Server 全体としての有効性を確認するだけでなく、**テス
 
 変更を公開すると、新しい情報 (たとえば、新しいサイトまたは新しいサーバーの役割) が中央管理ストアに書き込まれます。 ただし、これらの新規 (または新しく更新された) オブジェクトは、すぐにトポロジに参加することはできません。 更新されたトポロジを有効にした場合にのみ、オブジェクトはトポロジに参加します。 トポロジビルダーで [発行] オプションを選択した場合、次の手順のいずれかが行われます。変更は公開されます (つまり、中央管理ストアに作成されます)。次に、新しいトポロジが有効になります。
 
-既定では、RTCUniversalServerAdmins グループのメンバーは、 **Publish/cstopology**コマンドレットと**Enable-cstopology**コマンドレットを実行することを許可されています。 ただし、セットアップのアクセス許可が委任されていない場合は、ドメイン管理者としてログオンして**発行-CsTopology**方法で実行する必要があります。 RTCUniversalServerAdmins を実際に使用する権利を与え**** られるようにするには、Lync Server サービスを実行しているコンピューターが含まれているすべての Active Directory コンテナーに対して、**グラント setuppermission**コマンドレットを実行する必要があります。 RTCUniversalServerAdmins を有効にするには、 **Enable-CsTopology**コマンドレットを使用する権利を付与するために、Lync Server サービスを実行しているコンピューターが含まれているすべての Active Directory ドメインサービスコンテナーに対して、 **Set-cssetuppermission**コマンドレットを実行する必要があります。 これは、トポロジビルダーを使用してトポロジを有効化および公開するために適用されることに注意してください。 **Set-CsSetupPermission**を使用してアクセス許可を委任していない場合は、トポロジビルダーを介してトポロジを有効にして発行できるのは、ドメイン管理者のみです。
+既定では、RTCUniversalServerAdmins グループのメンバーは、 **Publish/cstopology**コマンドレットと**Enable-cstopology**コマンドレットを実行することを許可されています。 ただし、セットアップのアクセス許可が委任されていない場合は、ドメイン管理者としてログオンして**発行-CsTopology**方法で実行する必要があります。 RTCUniversalServerAdmins を実際に使用する権利を与えられるようにする**には、** Lync Server サービスを実行しているコンピューターが含まれているすべての Active Directory コンテナーに対して、**グラント setuppermission**コマンドレットを実行する必要があります。 RTCUniversalServerAdmins を有効にするには、 **Enable-CsTopology**コマンドレットを使用する権利を付与するために、Lync Server サービスを実行しているコンピューターが含まれているすべての Active Directory ドメインサービスコンテナーに対して、 **Set-cssetuppermission**コマンドレットを実行する必要があります。 これは、トポロジビルダーを使用してトポロジを有効化および公開するために適用されることに注意してください。 **Set-CsSetupPermission**を使用してアクセス許可を委任していない場合は、トポロジビルダーを介してトポロジを有効にして発行できるのは、ドメイン管理者のみです。
 
 </div>
 

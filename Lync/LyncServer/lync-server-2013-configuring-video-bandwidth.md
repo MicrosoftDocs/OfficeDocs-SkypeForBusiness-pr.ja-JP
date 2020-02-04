@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ビデオ帯域幅の構成'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring video bandwidth in Lync Server
 ms:assetid: 446bed91-b26f-4ab2-b2f5-36e6810b405b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204842(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183984
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ee374be85bc9427135ff89f3eb75acefd1cf5a8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3cca8df1ea3c4c2458851da24ab8b39dbbab2d3d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840162"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734447"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -62,7 +64,7 @@ Lync Server 2013 には、2パーティーの通話とマルチパーティの�
     
     </div>
 
-  - **** この設定は、Lync Server 2013 の新しい設定であり、クライアントが受信するすべてのビデオストリームに対して許可される最大ビットレート (1 秒あたりのビット数) を指定します。    つまり、クライアントが受け取ることができる、パノラマビデオストリームを除くすべてのビデオストリームの合計が指定されます。 たとえば、1500 kbps を指定した場合、クライアントは最大 1500 kbps のビデオを受信できます。これは、複数のビデオストリームまたは1つのビデオストリームで構成されている可能性があります。 この設定は、Lync Server 2013 クライアントにのみ適用されます。
+  - **この設定**は、Lync Server 2013 の新しい設定であり、クライアントが受信するすべてのビデオストリームに対して許可される最大ビットレート (1 秒あたりのビット数) を指定します。    つまり、クライアントが受け取ることができる、パノラマビデオストリームを除くすべてのビデオストリームの合計が指定されます。 たとえば、1500 kbps を指定した場合、クライアントは最大 1500 kbps のビデオを受信できます。これは、複数のビデオストリームまたは1つのビデオストリームで構成されている可能性があります。 この設定は、Lync Server 2013 クライアントにのみ適用されます。
     
     **TotalReceiveVideoBitRateKb**の既定値は 5万 kbps です。 ギャラリービューの**EnableMultiviewJoin**設定が True に設定されている場合、 **TotalReceiveVideoBitRateKb**は 420 kbps 未満に設定しないでください。 ギャラリービューの**EnableMultiviewJoin**設定が False に設定されている場合、 **TotalReceiveVideoBitRateKb**は 100 kbps 未満に設定しないでください。 **EnableMultiviewJoin**が True に設定されていて、420 kbps 未満の値を設定した場合、値は既定のしきい値に設定されます。 このしきい値は、ユーザーエクスペリエンスが低下する可能性がある偶発的な誤りを防ぐのに役立ちます。
     

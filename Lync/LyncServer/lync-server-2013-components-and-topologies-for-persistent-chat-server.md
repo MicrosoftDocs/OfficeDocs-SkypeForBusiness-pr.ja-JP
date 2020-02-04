@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 常設チャットサーバー用のコンポーネン
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Components and topologies for Persistent Chat Server
 ms:assetid: 6a0a14a0-baad-44e9-b26e-4d192c0a0e70
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398500(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184420
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 14ae22b2afed27109fb6e2c514211293cef42a46
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 862635d091a216df61058c0f0ff00eaa9d32a0c2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840526"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742577"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -73,7 +75,7 @@ _**最終更新日:** 2012-10-05_
 
 別のコンピューター (管理コンソールなど) から常設チャットサーバーを管理するには、コンピューターの Lync Server コントロールパネルを使用します。 このコンピューターは、フォレストルートに1つ以上のグローバルカタログサーバーがある Active Directory ドメインサービスドメインに展開されている必要があります。
 
-常設チャットサーバーのハードウェアとソフトウェアの要件の詳細については、「 [Lync server 2013 の常設チャットサーバーの技術要件](lync-server-2013-technical-requirements-for-persistent-chat-server.md)」および「 [lync server 2013 用にサポートされるハードウェア](lync-server-2013-supported-hardware.md)」を参照してください。 [サポートドキュメントでの Lync Server 2013 のサポート](lync-server-2013-server-software-and-infrastructure-support.md)。
+常設チャットサーバーのハードウェアとソフトウェアの要件の詳細については、「 [lync server 2013 の常設チャットサーバーの技術要件](lync-server-2013-technical-requirements-for-persistent-chat-server.md)」および「lync [server 2013 でサポートされているハードウェア](lync-server-2013-supported-hardware.md)」および「[サーバーのソフトウェアとインフラストラクチャの2013サポート](lync-server-2013-server-software-and-infrastructure-support.md)」を参照してください。
 
 </div>
 

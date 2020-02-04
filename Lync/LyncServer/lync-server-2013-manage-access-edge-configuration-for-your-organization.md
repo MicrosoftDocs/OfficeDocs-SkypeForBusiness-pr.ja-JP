@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 組織のアクセス エッジ構成の管理'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Manage Access Edge Configuration for your organization
 ms:assetid: 0145eb08-984f-4ecd-bf9c-364817619c2a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552443(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48679555
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 05d2bcca7836bd451b2535fb02c350facd7fc1bf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4739599f92b9189a208e1bb320a53b82d66a3a9c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832915"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733447"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,7 +53,7 @@ _**最終更新日:** 2012-11-01_
 
   - **[リモートユーザーアクセス**   を有効にする] このオプションは、出張中の在宅勤務者やユーザーなど、組織内のユーザーが Lync Server に接続できるようにする場合に有効にします。 詳細については、「 [Lync Server 2013 でリモートユーザーアクセスを有効または無効](lync-server-2013-enable-or-disable-remote-user-access.md)にする」を参照してください。
 
-  - **[匿名ユーザーが会議**   にアクセスできるようにする] このオプションを有効にすると、内部ユーザーが、自分が開催する会議に外部匿名ユーザーを招待することができます。 この設定を有効にすると、会議の匿名ユーザーのみを許可します。 会議のエクスペリエンスと、ユーザーが会議で何を行うことができるかを定義するオプションと、匿名ユーザーを含めるためのオプションについては、「[サイトまたはユーザーの会議ユーザーエクスペリエンスを作成または変更](https://technet.microsoft.com/en-us/library/gg429715\(v=ocs.15\))する」を参照し[てください。Lync Server 2013 の会議ポリシー設定のリファレンス](lync-server-2013-conferencing-policy-settings-reference.md)。
+  - **[匿名ユーザーが会議**   にアクセスできるようにする] このオプションを有効にすると、内部ユーザーが、自分が開催する会議に外部匿名ユーザーを招待することができます。 この設定を有効にすると、会議の匿名ユーザーのみを許可します。 会議のエクスペリエンスと、ユーザーが会議で何を行うことができるかを定義するオプションと、匿名ユーザーを含めるためのオプションについては、「[サイトまたはユーザーの会議ユーザーエクスペリエンスを作成または変更](https://technet.microsoft.com/en-us/library/gg429715\(v=ocs.15\))する」および「 [Lync Server 2013 用の会議ポリシー設定リファレンス](lync-server-2013-conferencing-policy-settings-reference.md)」を参照してください。
 
 <div>
 
@@ -65,7 +67,7 @@ _**最終更新日:** 2012-11-01_
 
 **Windows PowerShell コマンドレットを使用してアクセスエッジ構成情報を表示する**
 
-  - Access Edge の構成情報は、Windows PowerShell と**CsAccessEdgeConfiguration**コマンドレットを使用して表示できます。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、「Lync Server Windows PowerShell のブログ記事」を参照してください[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。「リモート PowerShell を使用して Microsoft Lync Server 2010 を管理する」を参照してください。
+  - Access Edge の構成情報は、Windows PowerShell と**CsAccessEdgeConfiguration**コマンドレットを使用して表示できます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
     
     すべてのアクセスエッジの構成設定に関する情報を表示するには、Lync Server 管理シェルで次のコマンドを入力し、enter キーを押します。
     

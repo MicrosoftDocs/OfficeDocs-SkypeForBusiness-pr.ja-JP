@@ -3,6 +3,8 @@ title: 'Lync Server 2013: メディア品質指標配布レポート'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Media Quality Metrics Distribution Report
 ms:assetid: d07996e6-b0a5-4ff8-9512-ab707762b4e2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205262(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185409
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d1d814fd001f3510a7ae83e63746bdc1265932e4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 085525063d13c60dc1702ebf169fed92707675e5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827390"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757941"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -55,7 +57,7 @@ _**最終更新日:** 2012-06-06_
 <td><p>50</p></td>
 </tr>
 <tr class="even">
-<td><p>2</p></td>
+<td><p>両面</p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="odd">
@@ -96,7 +98,7 @@ _**最終更新日:** 2012-06-06_
 
 これらのラウンドトリップ時間の平均は500ミリ秒 (5000 は10で割る) です。 500ミリ秒は非常に大きなラウンドトリップ時間です。その結果、ネットワークの輻輳に対して重大な問題が発生したと判断される可能性があります。 (ラウンドトリップ時間が長い場合は、通常、ネットワークの過負荷が発生します)。
 
-実際には、通話の 90% は、非常に優れた往復時間でした。結果全体に対して1つの不正な通話があっただけです。 平均ラウンドトリップ時間のみを表示する場合は、問題が発生する可能性が高くなります。
+実際には、通話の90% は、非常に優れた往復時間でした。結果全体に対して1つの不正な通話があっただけです。 平均ラウンドトリップ時間のみを表示する場合は、問題が発生する可能性が高くなります。
 
 メディア品質メトリック分布レポートでは、特定の指標 (ラウンドトリップ時間など) の分布をグラフィカルに表示することによって誤った結論に至るのを防ぎます。このようなグラフでは、9 回の通話はとても良好で、1 回の通話だけが良くなかったという事実がはっきりとわかります。当然ながら、その 1 回の通話についてはさらなる調査が必要ですが、10 回のうち 9 回がとても良好だったという結果は、少なくとも現時点では、ネットワークを大きく変更する理由はないことを示唆しています。
 

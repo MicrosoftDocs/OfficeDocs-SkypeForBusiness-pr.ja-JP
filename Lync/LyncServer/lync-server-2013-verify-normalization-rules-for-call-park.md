@@ -3,6 +3,8 @@ title: 'Lync Server 2013: コールパークの正規化ルールを確認する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Verify normalization rules for Call Park
 ms:assetid: deaa170f-041e-45cb-8eab-f02931ab541e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398981(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185646
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 114c7e035d96217f8cf41e88a87ccfd490fe5754
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2041b807ad16f1e91a83da39739d0ea058a5fba5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848236"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765578"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34848236"
 
 _**最終更新日:** 2012-09-11_
 
-コールパーク orbits は正規化されていない必要があります。 ダイヤル プランでオービット番号が正規化されていないことを確認してください。 追加の正規化ルールを作成して、orbits が正規化されないようにする必要がある場合は、「 [Lync Server 2013 でダイヤルプランを作成](lync-server-2013-create-a-dial-plan.md)する」の手順に従って新しい正規化ルールを定義し、**一致させるパターン**でオービット範囲を指定します。**翻訳パターン**は **$1**です。 たとえば、Call パークの軌道範囲が7000–7999の場合、**照合するパターン**は **^ (\\7 d{3}) $** で、**翻訳パターン**は **$1**です。
+コールパーク orbits は正規化されていない必要があります。 ダイヤル プランでオービット番号が正規化されていないことを確認してください。 追加の正規化ルールを作成して、orbits が正規化されないようにする必要がある場合は、「 [Lync Server 2013 でダイヤルプランを作成](lync-server-2013-create-a-dial-plan.md)する」の手順に従って、新しい正規化ルールを定義します。これにより、**一致するパターン**は、オービット範囲と**翻訳パターン**の **$1**を識別します。 たとえば、Call パークの軌道範囲が7000–7999の場合、**照合するパターン**は **^ (\\7 d{3}) $** で、**翻訳パターン**は **$1**です。
 
 <div>
 

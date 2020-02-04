@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Microsoft Exchange Server のユニファイド メッ
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure Lync Server 2013 to work with Unified Messaging on Microsoft Exchange Server
 ms:assetid: 1098ae4d-f57f-44f3-804e-39889d9fc14e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398193(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183430
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27909f4ae6231b1452cbfefdd82e0a0eb107c6fa
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 985b2d286f65be2353c2ace0d59872f4d0fc47ad
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840361"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729747"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -58,7 +60,7 @@ Exchange UM 統合ユーティリティを実行すると、次のタスクが�
 > <p>Microsoft Exchange Server 2010 について&quot;は、「AT で&quot; <a href="http://go.microsoft.com/fwlink/p/?linkid=186177">http://go.microsoft.com/fwlink/p/?linkId=186177</a>UM ダイヤルプランを作成する」をご覧ください。</p>
 > <p>Microsoft Exchange Server 2007 Service Pack 1 (SP1) について&quot;は、「ユニファイドメッセージング SIP URI ダイヤルプラン&quot;を<a href="http://go.microsoft.com/fwlink/p/?linkid=185771">http://go.microsoft.com/fwlink/p/?linkId=185771</a>作成する方法」を参照してください。</p></li>
 > <li><p>「 <a href="lync-server-2013-create-a-dial-plan.md">Lync server 2013 でダイヤルプランを作成</a>する」の説明に従って、1つまたは複数の lync server のダイヤルプランを作成します。</p></li>
-> <ul><li>Microsoft Exchange Server 2010 SP1 より前のバージョンの Exchange を使用している場合は、Lync Server 2013 ダイヤルプランの簡易名で、対応する Exchange ユニファイドメッセージング (UM) SIP ダイヤルプランの完全修飾ドメイン名 (FQDN) を入力する必要があります。 <STRONG></STRONG>フィールド。 Microsoft Exchange Server 2010 SP1 または最新の service pack を使用している場合、このダイヤルプランの名前の一致は必要ありません。</li></ul>
+> <ul><li>Microsoft Exchange Server 2010 SP1 より前のバージョンの Exchange を使用している場合は、Lync Server 2013 の [ダイヤルプランの<STRONG>簡易名</STRONG>] フィールドに、対応する Exchange ユニファイドメッセージング (UM) SIP ダイヤルプランの完全修飾ドメイン名 (FQDN) を入力する必要があります。 Microsoft Exchange Server 2010 SP1 または最新の service pack を使用している場合、このダイヤルプランの名前の一致は必要ありません。</li></ul>
 > <li>自動応答を作成し、サブスクライバーアクセス番号と自動応答番号の両方が必ず164形式になっていることを確認します。</li></ul>
 
 
@@ -74,7 +76,7 @@ Exchange UM 統合ユーティリティを実行すると、次のタスクが�
 
 4.  **Sip ダイヤルプラン**リストで、コンタクトオブジェクトを作成する UM SIP ダイヤルプランを選択し、「**追加**」をクリックします。
 
-5.  [**連絡先**] ボックスで、既定の組織単位をそのまま使用するか、[**参照**] をクリックして**OU 選択**を開始します。 [ **Ou の選択**] ボックスで、ou を選択して [ **OK**] をクリックします。または、[**新しい**組織単位の作成] をクリックして、ドメイン内のルートまたは他の ou (たとえば、"OU = RTC Special account, DC = 4 thコーヒー, dc = com") に新しい組織単位を作成することもできます。[ **OK]** をクリックします。
+5.  [**連絡先**] ボックスで、既定の組織単位をそのまま使用するか、[**参照**] をクリックして**OU 選択**を開始します。 [ **Ou の選択**] ボックスで、ou を選んで [ **OK**] をクリックします。または、ドメイン内のルートまたは他の ou (たとえば、"OU = RTC Special account, dc = 4 thコーヒー, dc = com") に新しい組織単位を作成**するには**、[ **ok**] をクリックします。
     
     <div>
     

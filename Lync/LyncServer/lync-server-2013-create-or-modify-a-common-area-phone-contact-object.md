@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 一般的なエリア電話の連絡先オブジェク
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify a common area phone Contact object
 ms:assetid: eec33ad1-e4f2-49b2-91d6-d5a9d2e1714b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994083(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803995
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ee1345477178d7991083332e809de3f764be4c3a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1e9e7ddf1a4911b9afb3428531911223f62ea723
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833806"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758111"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34833806"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-20_
+_**トピックの最終更新日:** 2013-02-20_
 
-共通するすべての携帯電話の Active Directory ドメインサービス連絡先オブジェクトを作成するには、 **CsCommonAreaPhone**コマンドレットを使用します。 このコマンドレットは、一般的なエリア携帯電話で使用する新しい連絡先オブジェクトを作成するか、既存の連絡先オブジェクトを新しい一般的な市外局番に関連付けることができます。 一般的な市外局番に関連付けられた連絡先オブジェクトのプロパティを変更するには、 **CsCommonAreaPhone**コマンドレットを使用します。 **CsCommonAreaPhone**のオプションパラメーターを使用すると、連絡先の Active Directory 表示名や、電話に関連付けられている行の Uniform resource IDENTIFIER (URI) などの項目を変更して、Lync で使用するアカウントを有効または無効にすることができます。Server. 使用可能なすべての変更の詳細については、「 [Set-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Set-CsCommonAreaPhone)」の「パラメーター」セクションを参照してください。 **新規 CsCommonAreaPhone**パラメーターの詳細については、「 [CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/New-CsCommonAreaPhone)」を参照してください。
+共通するすべての携帯電話の Active Directory ドメインサービス連絡先オブジェクトを作成するには、 **CsCommonAreaPhone**コマンドレットを使用します。 このコマンドレットは、一般的なエリア携帯電話で使用する新しい連絡先オブジェクトを作成するか、既存の連絡先オブジェクトを新しい一般的な市外局番に関連付けることができます。 一般的な市外局番に関連付けられた連絡先オブジェクトのプロパティを変更するには、 **CsCommonAreaPhone**コマンドレットを使用します。 **CsCommonAreaPhone**のオプションパラメーターを使用すると、連絡先の Active Directory 表示名や電話に関連付けられている行の Uniform resource IDENTIFIER (URI) などの項目を変更し、Lync Server で使用するアカウントを有効または無効にすることができます。 使用可能なすべての変更の詳細については、「 [Set-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Set-CsCommonAreaPhone)」の「パラメーター」セクションを参照してください。 **新規 CsCommonAreaPhone**パラメーターの詳細については、「 [CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/New-CsCommonAreaPhone)」を参照してください。
 
-これら2つのコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、「Lync Server Windows PowerShell のブログ記事」を参照してください[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。「リモート PowerShell を使用して Microsoft Lync Server 2010 を管理する」を参照してください。
+これら2つのコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 <div>
 

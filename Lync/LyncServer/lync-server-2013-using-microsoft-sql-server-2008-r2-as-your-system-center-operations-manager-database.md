@@ -3,6 +3,8 @@ title: 'Lync Server 2013: System Center Operations Manager データベースと
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using Microsoft SQL Server 2008 R2 as your System Center Operations Manager database
 ms:assetid: 0efe76da-8854-499e-bdc7-3623244a8e85
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687969(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733555
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 858134b4d7f2a2fbc4e15c14e121ac12679c9ddc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 27516e7ca6c3fb70a01b7c1d245054d515ae351b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848282"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744057"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -191,7 +193,7 @@ System Center Operations Manager コンソールをインストールして構�
 
 7.  [**ルート管理サーバーに接続する**] ページで、[**ルート管理サーバー** ] ボックスに Operations Manager ルート管理サーバーの名前を入力し、[**次へ**] をクリックします。
 
-8.  [ **Operations Manager データウェアハウスに接続する**] ページで、[ **sql server インスタンス**] ボックスにデータウェアハウスが配置されている sql server インスタンスを入力します。 (データウェアハウスが既定のインスタンスに配置されている場合は、サーバー名を入力します。例: atl-sql-dmo)。[**名前**] ボックスに**** データベース名の [サーバー名] が表示されていることを確認します。その場合は、[ **SQL Server のポート**] ボックスに "port **1433** " と表示されます。 [ **次へ**] をクリックします。
+8.  [ **Operations Manager データウェアハウスに接続する**] ページで、[ **sql server インスタンス**] ボックスにデータウェアハウスが配置されている sql server インスタンスを入力します。 (データウェアハウスが既定のインスタンスに配置されている場合は、サーバー名を入力します。例: atl-sql-dmo)。[**名前**] ボックスに**データベース名の**[サーバー名] が表示されていることを確認します。その場合は、[ **SQL Server のポート**] ボックスに "port **1433** " と表示されます。 [ **次へ**] をクリックします。
 
 9.  [ **Sql Server Reporting インスタンス**] ページで、[ **Sql Server reporting Services サーバーの入力**] ドロップダウンリストから SQL Server reporting Server を選び、[**次へ**] をクリックします。
 

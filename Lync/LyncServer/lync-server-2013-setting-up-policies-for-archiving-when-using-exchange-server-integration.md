@@ -3,6 +3,8 @@ title: Exchange Server との統合を使用するときにアーカイブする
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Setting up policies for Archiving when using Exchange Server integration
 ms:assetid: 8b9b2bad-a4b3-42e1-85a7-04022e9442ad
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205063(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184742
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 78e5f5bf1bcfa9b11a96722df1f6ff7535912bb1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6eccac54e75dff4ba0c4af29e0f14d6e48068ae1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848748"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764593"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

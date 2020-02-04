@@ -3,6 +3,8 @@ title: 'Lync Server 2013: フェデレーションおよびパブリック IM �
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enable or disable federation and public IM connectivity
 ms:assetid: 8ec58f4b-9f6d-47b4-a187-d18a83fe4577
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182549(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184813
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4123a17c01ad6358038b1937b57bab29eeec85c3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: edbf03ee2e2772e6df1425ffd666176c1947f0e4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833305"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736067"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ _**最終更新日:** 2013-06-24_
 
 フェデレーションドメインのユーザーによるアクセスをサポートするには、フェデレーションを有効にする必要があります。 組織のフェデレーションを有効にする場合は、次のオプションを実装するかどうかも指定する必要があります。
 
-  - **パートナードメインの検出**   を有効にするこのオプションを有効にすると、Lync Server はドメインネームシステム (DNS) レコードを使用して、[許可したドメイン] 一覧にないドメインの検出を試みます。検出されたフェデレーションから受信トラフィックが自動的に評価されます。信頼レベル、トラフィック量、管理者設定に基づいて、そのトラフィックを制限またはブロックします。 このオプションが選択されていない場合、フェデレーションされたユーザーのアクセス許可は、[許可したドメイン] リストに含めるドメイン内のユーザーに対してのみ有効になります。 このオプションが選択されているかどうかにかかわらず、フェデレーションドメインでアクセスエッジサービスを実行している特定のサーバーへのアクセスを制限するなど、個々のドメインをブロックまたは許可するように指定することができます。 フェデレーションドメインによるアクセスの制御の詳細については、「 [Lync Server 2013 で許可されている外部ドメインのサポートを構成する](lync-server-2013-configure-support-for-allowed-external-domains.md)」を参照してください。
+  - **パートナードメインの検出**   を有効にするこのオプションを有効にした場合、Lync Server はドメインネームシステム (DNS) レコードを使って、[許可したドメイン] 一覧にないドメインを検出し、検出されたフェデレーションパートナーから受信トラフィックを自動的に評価し、信頼レベル、トラフィック量、管理設定に基づいてトラフィックを制限またはブロックします このオプションが選択されていない場合、フェデレーションされたユーザーのアクセス許可は、[許可したドメイン] リストに含めるドメイン内のユーザーに対してのみ有効になります。 このオプションが選択されているかどうかにかかわらず、フェデレーションドメインでアクセスエッジサービスを実行している特定のサーバーへのアクセスを制限するなど、個々のドメインをブロックまたは許可するように指定することができます。 フェデレーションドメインによるアクセスの制御の詳細については、「 [Lync Server 2013 で許可されている外部ドメインのサポートを構成する](lync-server-2013-configure-support-for-allowed-external-domains.md)」を参照してください。
 
   - **フェデレーションパートナー**    にアーカイブの免責事項を送信する免責事項は、展開にアーカイブすることが適切に行われるフェデレーションパートナーに送信されます。 フェデレーションパートナードメインとの外部通信のアーカイブをサポートしている場合は、アーカイブの免責事項の通知を有効にして、メッセージがアーカイブされていることをパートナーに警告する必要があります。
 
@@ -89,7 +91,7 @@ _**最終更新日:** 2013-06-24_
 
 ## <a name="enabling-or-disabling-federation-and-public-im-connectivity-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用してフェデレーションおよびパブリック IM 接続を有効または無効にする
 
-フェデレーションとパブリック IM 接続は、Windows PowerShell と CsAccessEdgeConfiguration コマンドレットを使用して管理することもできます。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、「Lync Server Windows PowerShell のブログ記事」を参照してください[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。「リモート PowerShell を使用して Microsoft Lync Server 2010 を管理する」を参照してください。
+フェデレーションとパブリック IM 接続は、Windows PowerShell と CsAccessEdgeConfiguration コマンドレットを使用して管理することもできます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 <div>
 

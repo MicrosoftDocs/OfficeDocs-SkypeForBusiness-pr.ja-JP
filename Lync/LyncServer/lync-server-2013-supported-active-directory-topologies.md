@@ -3,6 +3,8 @@ title: 'Lync Server 2013: サポートされている Active Directory トポロ
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Supported Active Directory topologies
 ms:assetid: 0c76b778-7652-4eb0-b161-86f2d4a94ccf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398173(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183391
 ms.date: 10/02/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3dc15cea3d07dc4e00f1d2a5527c862d90a078c6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3e4aca368f6ea7d5b31a1cfe74273dfbd42a6594
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848640"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764363"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +55,7 @@ Lync Server 2013 は、Microsoft Lync Server 2010 と Microsoft Office Communica
 
 **トポロジ図の重要な説明**
 
-![トポロジ図の重要]な説明(images/Gg398173.0c3cc89f-6c43-4bc8-b2ec-61d89e391ee9(OCS.15).jpg "トポロジ図の重要")な説明
+![トポロジ図の重要な説明](images/Gg398173.0c3cc89f-6c43-4bc8-b2ec-61d89e391ee9(OCS.15).jpg "トポロジ図の重要な説明")
 
 <div>
 
@@ -65,7 +67,7 @@ Lync Server (単一ドメインフォレスト) でサポートされる最も�
 
 **単一ドメイン トポロジ**
 
-![単一ドメイントポロジ](images/Gg398173.258b3b3f-0558-4a36-a4c2-031be7299668(OCS.15).jpg "単一ドメイントポロジ")
+![単一ドメイン トポロジ](images/Gg398173.258b3b3f-0558-4a36-a4c2-031be7299668(OCS.15).jpg "単一ドメイン トポロジ")
 
 </div>
 
@@ -147,7 +149,7 @@ Lync Server は、中央フォレストトポロジで構成されている複�
 
 **リソースフォレストのトポロジ**
 
-![Active Directory リソースフォレストトポロジ](images/Gg398173.54ab82f1-e9e5-40f0-a54e-86e340b65c2a(OCS.15).jpg "Active Directory リソースフォレストトポロジ")
+![Active Directory リソース フォレスト トポロジ](images/Gg398173.54ab82f1-e9e5-40f0-a54e-86e340b65c2a(OCS.15).jpg "Active Directory リソース フォレスト トポロジ")
 
 </div>
 

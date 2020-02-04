@@ -3,6 +3,8 @@ title: 'Lync Server 2013: コンピューター、ユーザー、または InetO
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Permissions inheritance Is disabled on computers, users, or InetOrgPerson containers
 ms:assetid: c472ad21-a93d-4fcb-a3d9-60a2134a87fa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412970(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185348
 ms.date: 12/19/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73692539fb5dda38446ffddccbe35c8d366e2d67
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: da84454a6e02e02520206b5eb667edfcf4fce849
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825304"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755247"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +55,7 @@ _**最終更新日:** 2014-12-19_
 
 このコマンドレットは、指定したコンテナーまたは Ou と、コンテナー内のユーザーまたは InetOrgPerson オブジェクトに、必要な Ace を直接追加します。 このコマンドが実行される OU にユーザーオブジェクトまたは InetOrgPerson オブジェクトを持つ子 Ou がある場合、そのアクセス許可は適用されません。 コマンドは、各子 OU で個別に実行する必要があります。 これは、次のような Lync ホスティング展開 (親 OU = OCS テナント、DC = CONTOSO, dc = LOCAL and child OU = テナント1、OU = OCS テナント、DC = CONTOSO、DC = LOCAL) で一般的なシナリオです。
 
-このコマンドレットを実行するには、ドメイン管理者グループのメンバーシップに相当するユーザー権限が必要です。 ロックダウン環境で認証されたユーザーの Ace も削除されている場合は、「[認証されたユーザーのアクセス許可が Lync で削除される」というように、フォレストルートドメイン内の関連するコンテナーまたは ou で、このアカウントの読み取りアクセス ace を付与する必要があります。サーバー 2013](lync-server-2013-authenticated-user-permissions-are-removed.md)を使うか、Enterprise Admins グループのメンバーであるアカウントを使用します。
+このコマンドレットを実行するには、ドメイン管理者グループのメンバーシップに相当するユーザー権限が必要です。 ロックダウン環境で認証されたユーザーの Ace も削除された場合は、「[認証されたユーザーのアクセス許可が Lync Server 2013 で削除](lync-server-2013-authenticated-user-permissions-are-removed.md)される」または「Enterprise Admins グループのメンバーであるアカウントを使用する」のように、フォレストルートドメイン内の関連するコンテナーまたは ou に対して、このアカウントの読み取りアクセス許可を付与する
 
 **ユーザー、InetOrgPerson、連絡先オブジェクトに必要な Ace を設定するには**
 
@@ -92,7 +94,7 @@ _**最終更新日:** 2014-12-19_
 
 この手順では、指定したコンテナーに必要な Ace を直接追加します。
 
-このコマンドレットを実行するには、ドメイン管理者グループのメンバーシップに相当するユーザー権限が必要です。 認証されたユーザーの Ace も削除された場合は、「[認証されたユーザーのアクセス許可が Lync Server 2013 で削除](lync-server-2013-authenticated-user-permissions-are-removed.md)される」または「のアカウントを使用する」の説明に従って、フォレストルートドメイン内の関連するコンテナーに対して、このアカウントに読み取りアクセス ace を与える必要があります。Enterprise Admins グループのメンバー。
+このコマンドレットを実行するには、ドメイン管理者グループのメンバーシップに相当するユーザー権限が必要です。 認証済みユーザーの Ace も削除された場合は、「[認証されたユーザーのアクセス許可が Lync Server 2013 で削除](lync-server-2013-authenticated-user-permissions-are-removed.md)される」または「エンタープライズ管理者グループのメンバーであるアカウントを使用する」の説明に従って、フォレストルートドメイン内の関連するコンテナーに対して、このアカウントの読み取りアクセス許可を付与する必要があります。
 
 **コンピューターオブジェクトに必要な Ace を設定するには**
 
@@ -125,7 +127,7 @@ _**最終更新日:** 2014-12-19_
     
 
     > [!NOTE]  
-    > ロックダウンされた Active Directory 環境でフォレストルートドメインでドメインの準備を実行している場合は、Lync Server で Active Directory スキーマと構成コンテナーへのアクセスが必要になることに注意してください。<BR>既定の認証済みユーザーアクセス許可が、スキーマまたは AD&nbsp;DS の構成コンテナーから削除された場合は、schema Admins グループ (スキーマコンテナー用) または Enterprise Admins グループ (構成コンテナー用) のメンバーのみが許可されます。指定したコンテナーにアクセスします。 Setup.exe、Lync Server 管理シェルコマンドレット、および Lync Server コントロールパネルでは、これらのコンテナーにアクセスする必要があるため、インストールを実行しているユーザーにスキーマに相当するユーザー権限がある場合を除き、管理ツールのセットアップとインストールは失敗します。管理者とエンタープライズ管理者グループのメンバーシップ。<BR>この問題を解決するには、スキーマと構成コンテナーへの書き込みアクセス許可を RTCUniversalGlobalWriteGroup group に付与する必要があります。
+    > ロックダウンされた Active Directory 環境でフォレストルートドメインでドメインの準備を実行している場合は、Lync Server で Active Directory スキーマと構成コンテナーへのアクセスが必要になることに注意してください。<BR>既定の認証済みユーザー権限が、スキーマまたは AD&nbsp;DS の構成コンテナーから削除された場合、指定されたコンテナーへのアクセスが許可されるのは、schema Admins グループ (スキーマコンテナーの場合) または Enterprise admins グループ (構成コンテナーの場合) のメンバーだけです。 Setup.exe、Lync Server 管理シェルコマンドレット、および Lync Server コントロールパネルでは、これらのコンテナーにアクセスする必要があるため、インストールを実行しているユーザーにスキーマに相当するユーザー権限がある場合を除き、管理ツールのセットアップとインストールは失敗します。管理者とエンタープライズ管理者グループのメンバーシップ。<BR>この問題を解決するには、スキーマと構成コンテナーへの書き込みアクセス許可を RTCUniversalGlobalWriteGroup group に付与する必要があります。
 
     
     </div>

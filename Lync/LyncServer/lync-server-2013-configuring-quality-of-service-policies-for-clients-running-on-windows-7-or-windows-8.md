@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Windows 7 または Windows 8 で実行されている
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Quality of Service policies for clients running on Windows 7 or Windows 8
 ms:assetid: efff2b98-b3fb-4183-a4f0-329a9105ce2c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205371(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185785
 ms.date: 03/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b36c16056ef378910dc0cd5c885dc7b5d896d860
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bc06f5079fc6876c85324af67bd22be12f85a3c9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840182"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763511"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -92,7 +94,7 @@ Windows 7 または Windows 8 コンピューターのサービス品質のオ�
 
 6.  [**ポリシーベースの QoS** ] ダイアログボックスの [開く] ページで、[**名前**] ボックスに新しいポリシーの名前を入力します (例: **Lync Audio**)。 [ **DSCP 値の指定**] を選択し、値を**46**に設定します。 [**送信スロットルの比率を指定する**] をオフにして、[**次へ**] をクリックします。
 
-7.  次のページで、[すべての**アプリケーション**] が選択されていることを確認し、[**次へ**] をクリックします。 この設定は、特定のアプリケーションによって作成されたパケットだけでなく、すべてのパケットを検索して46の DSCP マークを付けて、ネットワークに指示します。
+7. 次のページで、[**この実行可能ファイル名のアプリケーションのみ**] を選択し、「 **Lync**」という名前を入力して、[**次へ**] をクリックします。 この設定は、Lync クライアントからの一致トラフィックのみの優先順位付けをポリシーに指示します。
 
 8.  3番目のページで、**すべてのソース ip**アドレスと**宛先 ip アドレス**が選択されていることを確認し、[**次へ**] をクリックします。 この2つの設定では、どのコンピューター (IP アドレス) がそれらのパケットを送信したか、どのコンピューター (IP アドレス) がそれらのパケットを受信するかに関係なく、パケットが管理されるようにします。
 

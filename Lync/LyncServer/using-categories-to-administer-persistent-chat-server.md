@@ -3,6 +3,8 @@ title: カテゴリを使用して常設チャット サーバーを管理する
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Using categories to administer Persistent Chat Server
 ms:assetid: dfcb3ad1-da90-467e-b08c-f4e68673b7b5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398988(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185628
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fed28ecc7c2698f4b320729c68de9c5d56b435b2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 52e56f776969ece55f71355ed7f184dd6dd46a91
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847934"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738597"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ _**最終更新日:** 2013-10-01_
 
 
 > [!NOTE]  
-> チャットルームの管理機能の多くは、ユーザーに対して常設チャット (Lync client) を実行しているコンピューターで利用できますが、常設チャット管理者 ( <STRONG>cspersistentchatadministrator</STRONG>の役割) では、Lync Server コントロールパネルを使用する必要があります。カテゴリを作成または管理するための Windows PowerShell コマンドレット。
+> ユーザーに対して常設チャット (Lync client) を実行しているコンピューターでは、チャットルームの管理機能の多くは使用できますが、 <STRONG>cspersistentchatadministrator</STRONG>ロールの常設チャット管理者は、Lync Server コントロールパネルまたは Windows PowerShell コマンドレットを使用してカテゴリを作成または管理する必要があります。
 
 
 

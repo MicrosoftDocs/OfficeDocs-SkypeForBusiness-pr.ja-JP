@@ -3,6 +3,8 @@ title: パイロット プールとレガシ プールの共存の確認
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Verify pilot pool coexistence with legacy pool
 ms:assetid: 597d0fa6-ca04-4521-b1c2-72d7f35ecd08
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204914(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184209
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f67b113a4619d90345df9858f348d663383066d7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7585970a53ffd94959653555dad8a02724ba2f03
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847926"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730887"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -73,7 +75,7 @@ _**最終更新日:** 2012-09-28_
 
 2.  表示されているサービスが、次の図のリストと一致することを確認します。
     
-    Lync サービスが開始されたことを![示す [サービス] ページ]Lync サービスが開始されたことを(images/JJ204914.fd35d54a-2ab6-4c09-b5e9-fd5bf10f6f51(OCS.15).jpg "示す [サービス] ページ")  
+    ![Lync サービスが開始されたことを示す [サービス] ページ](images/JJ204914.fd35d54a-2ab6-4c09-b5e9-fd5bf10f6f51(OCS.15).jpg "Lync サービスが開始されたことを示す [サービス] ページ")  
 
 </div>
 

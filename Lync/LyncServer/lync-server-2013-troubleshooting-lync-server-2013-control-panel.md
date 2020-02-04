@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Lync Server 2013 コントロールパネルのトラ�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Troubleshooting Lync Server 2013 Control Panel
 ms:assetid: 54e7ab57-34ce-4a07-bcc9-643379eb4eb7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg195689(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184145
 ms.date: 07/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 943f2ab5f0fe808d1bf5e10cf8b451ac1df2575b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ff82a1e63a064d0053fc77614d6a9b5fa818c23e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848388"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745017"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -63,7 +65,7 @@ Lync Server コントロールパネルでは、Microsoft Silverlight ブラウ�
 
 ## <a name="dns-record-and-certificate-requirements-for-the-administrative-access-url"></a>管理アクセス URL の DNS レコードと証明書の要件
 
-Lync Server コントロールパネルにアクセスするための単純な URL を構成している場合は、その管理アクセス URL を使用するために必要な静的ドメインネームシステム (DNS) のリソースレコードと証明書も構成していることを確認します。 ベース URL をいつでも変更する場合は、適切な DNS レコードと証明書に変更が反映されていることを** 確認します。また、各ディレクターとフロントエンドサーバー上のユーザーがこの変更を登録するようにします。 詳細については、計画ドキュメントの次のトピックを参照してください。
+Lync Server コントロールパネルにアクセスするための単純な URL を構成している場合は、その管理アクセス URL を使用するために必要な静的ドメインネームシステム (DNS) のリソースレコードと証明書も構成していることを確認します。 ベース URL をいつでも変更する場合は、適切な DNS レコードと証明書に変更が反映されていることを確認します。また、各ディレクターとフロントエンドサーバー上のユーザーがこの変更を登録*するように*します。 詳細については、計画ドキュメントの次のトピックを参照してください。
 
   - [Lync Server 2013 での簡単な URL の計画](lync-server-2013-planning-for-simple-urls.md)
 

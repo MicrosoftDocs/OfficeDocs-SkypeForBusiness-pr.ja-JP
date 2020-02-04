@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 暗号化'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Encryption for Lync Server 2013
 ms:assetid: d18c74a6-385b-407b-98eb-0d525fa38fea
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn481135(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 59893874
 ms.date: 09/14/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 01c989213b050bdb536e95a8a42e8f7b35292eaf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5f4b655ff632a50d2c28451a577f5be03bfabc82
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833233"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735617"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -139,7 +141,7 @@ Microsoft Lync Server 2013 は、TLS と MTLS を使ってインスタントメ�
 
 ## <a name="fips"></a>FIPS
 
-Lync Server 2013 と Microsoft Exchange Server 2013 は、Windows Server オペレーティングシステムがシステム暗号化用 FIPS 140-2 アルゴリズムを使用するように構成されている場合に、米国連邦情報処理標準 (FIPS) 140-2 アルゴリズムのサポートと共に動作します。 FIPS サポートを実装するには、Lync Server 2013 を実行している各サーバーでサポートされるように構成する必要があります。 FIPS 準拠アルゴリズムの使用、および FIPS サポートの実装方法の詳細については、「Microsoft サポート技術情報の記事 811833 (「システム暗号化: 暗号化、ハッシュ、署名のための FIPS 準拠アルゴリズムを使用する」のセキュリティ) を参照してください。Windows XP と windows の以降のバージョンでの設定[http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=811833](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=811833)。 Exchange 2010 の FIPS 140-2 のサポートと制限事項の詳細については、「Exchange 2010 SP1 と FIPS [https://go.microsoft.com/fwlink/p/?LinkId=205335](https://go.microsoft.com/fwlink/p/?linkid=205335)準拠アルゴリズムのサポート」を参照してください。
+Lync Server 2013 と Microsoft Exchange Server 2013 は、Windows Server オペレーティングシステムがシステム暗号化用 FIPS 140-2 アルゴリズムを使用するように構成されている場合に、米国連邦情報処理標準 (FIPS) 140-2 アルゴリズムのサポートと共に動作します。 FIPS サポートを実装するには、Lync Server 2013 を実行している各サーバーでサポートされるように構成する必要があります。 FIPS 準拠のアルゴリズムの使用、および FIPS サポートの実装方法の詳細については、「Microsoft サポート技術情報の記事 811833: Windows XP およびそれ以降のバージョンの Windows では、「システム暗号化: 暗号化、ハッシュ、署名に FIPS 準拠アルゴリズムを使用する[http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=811833](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=811833)」のセキュリティ設定を有効にした場合の影響について説明します。 Exchange 2010 の FIPS 140-2 のサポートと制限事項の詳細については、「Exchange 2010 SP1 と FIPS [https://go.microsoft.com/fwlink/p/?LinkId=205335](https://go.microsoft.com/fwlink/p/?linkid=205335)準拠アルゴリズムのサポート」を参照してください。
 
 </div>
 

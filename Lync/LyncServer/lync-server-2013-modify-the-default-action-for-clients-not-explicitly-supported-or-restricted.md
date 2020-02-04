@@ -3,6 +3,8 @@ title: 明示的にサポートまたは制限されていないクライアン�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Modify the default action for clients not explicitly supported or restricted
 ms:assetid: 548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520994(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184137
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 97b364253a87f1cbff1ef60322c65780b6497880
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0262bface172c965d12fc276bc08882cac8348ff
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826844"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756911"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34826844"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-23_
+_**トピックの最終更新日:** 2013-02-23_
 
 Lync Server 2013 環境でサポートするクライアントのバージョンを指定するだけでなく、バージョンポリシーが定義されていないクライアントに対する既定のアクションを指定することもできます。 これにより、Lync Server 環境で使用するクライアントバージョンを制限することができます。これにより、複数のクライアントバージョンのサポートに関連するコストを制御するのに役立ちます。
 
@@ -77,7 +79,7 @@ Lync Server 2013 環境でサポートするクライアントのバージョン
 
 ## <a name="modifying-the-default-action-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して既定のアクションを変更する
 
-クライアントバージョンポリシーによって明示的にサポートまたは制限されていないクライアントを使ってユーザーがサインインしようとしたときに実行される既定のアクションは、Windows PowerShell コマンドラインインターフェイスと**Set-CsClientVersionPolicy**コマンドレットを使用して管理できます。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、「Lync Server Windows PowerShell のブログ記事」を参照してください[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。「リモート PowerShell を使用して Microsoft Lync Server 2010 を管理する」を参照してください。
+クライアントバージョンポリシーによって明示的にサポートまたは制限されていないクライアントを使ってユーザーがサインインしようとしたときに実行される既定のアクションは、Windows PowerShell コマンドラインインターフェイスと**Set-CsClientVersionPolicy**コマンドレットを使用して管理できます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 <div>
 

@@ -3,6 +3,8 @@ title: ウォッチャーノードのテストユーザーと構成設定を構�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring watcher node test users and configuration settings
 ms:assetid: ab00e9cb-f539-4aa6-bcb4-5533fbe7bc44
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205152(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185048
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d446934e8d84a12a6eecd84fbc94a956d8ae95e8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a3713844d5d2364459a28c5919bb1d32d421d706
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840158"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733667"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -65,7 +67,7 @@ Negotiate 認証方法を使用している場合は、 **CsTestUserCredential**
     Set-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com" -UserName "litwareinc\watcher2" -Password "P@ssw0rd"
     Set-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com" -UserName "litwareinc\watcher3" -Password "P@ssw0rd"
 
-SIP アドレスだけでなく、ユーザー名とパスワードも含める必要があることに注意してください。 パスワードを指定しない場合、CsTestUserCredential によって情報の入力を求めるメッセージが表示されます。 ユーザー名は、上記のドメイン名\\のユーザー名形式、またはユーザー名 @ ドメイン名の形式を使用して指定できます。例えば：
+SIP アドレスだけでなく、ユーザー名とパスワードも含める必要があることに注意してください。 パスワードを指定しない場合、CsTestUserCredential によって情報の入力を求めるメッセージが表示されます。 ユーザー名を指定するには、上記の\\ドメイン名のユーザー名形式を使用するか、または [ユーザー name@domain 名前の書式設定] を使用します。例えば：
 
     -UserName "watcher3@litwareinc.com"
 

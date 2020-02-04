@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 一般的な市外局番の情報を表示する'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View common area phone information
 ms:assetid: e652240c-6a3f-4be7-a083-32f24c08e655
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994081(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803992
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 900beb4f96fd71e0e6a4ded40d776f1e7d356529
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 38614b2993ddd9ad3fe3a662a334440a1d1287b7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848219"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757461"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34848219"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-20_
+_**トピックの最終更新日:** 2013-02-20_
 
 組織で使用できるように構成されている一般的なエリア電話に関する情報を表示するには、 **CsCommonAreaPhone**コマンドレットを使用します。 パラメーターを指定せずにこのコマンドレットを使うと、すべての共通エリア電話に関する情報が返されます。 オプションのパラメーターを使うと、情報をフィルター処理する方法が異なります。 たとえば、指定した組織単位 (OU) 内の連絡先オブジェクト、または指定した建物内のすべての連絡先オブジェクトを持つ共通の市外電話をすべて取得できます。 **CsCommonAreaPhone**パラメーターの詳細については、「 [get-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone)」を参照してください。
 

@@ -3,6 +3,8 @@ title: パイロット エッジ サーバーの展開
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Deploy pilot Edge Server
 ms:assetid: dab345c0-8577-4c11-ac73-fe8b2a75f4cf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205306(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185559
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bd8fddd611422562c9384a52748623623d4e6f68
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cc9f88d731873a16535e80eb0726aec8335e447b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840836"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729947"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -59,7 +61,7 @@ _**最終更新日:** 2012-10-19_
 
 6.  [**次ホップの定義**] ページで、Lync Server 2010 Edge プールの次ホップのディレクターを選択します。
     
-    [![次ホップの定義] ダイアログボックス][(images/JJ205306.11baf3ea-74f5-4eb7-8650-b03b3b190416(OCS.15).jpg "次ホップの定義] ダイアログボックス")
+    ![[次ホップの定義] ダイアログボックス](images/JJ205306.11baf3ea-74f5-4eb7-8650-b03b3b190416(OCS.15).jpg "[次ホップの定義] ダイアログボックス")
 
 7.  [**フロントエンドまたは仲介プールの関連付け**] ページで、この時点ではプールをこのエッジプールに関連付けないでください。 外部メディアトラフィックは、現在、従来の Lync Server 2010 エッジサーバーを介してルーティングされています。 この設定は、移行の後のフェーズで構成されます。
     

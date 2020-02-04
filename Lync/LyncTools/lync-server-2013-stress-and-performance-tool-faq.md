@@ -3,6 +3,8 @@ title: Lync Server 2013 のストレスとパフォーマンスに関するツ�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync Server 2013 Stress and Performance Tool FAQ
 ms:assetid: a5aff705-320c-4916-8094-23046b2a1b18
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945600(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541426
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ffcfbca3a2cf58e4e7b87619bb78dabbe42b16bd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9138a23ee1fa45f3da827832b568852952b0ae4d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848861"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763611"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -67,7 +69,7 @@ _**最終更新日:** 2013-02-24_
 
 <div>
 
-## <a name="my-clients-are-at-100-percent-cpu-all-the-time-what-should-i-do"></a>クライアントは、常に 100% の CPU を搭載しています。 どうしたらいいでしょう。
+## <a name="my-clients-are-at-100-percent-cpu-all-the-time-what-should-i-do"></a>クライアントは、常に100% の CPU を搭載しています。 どうしたらいいでしょう。
 
 すべてのユーザーがログオンした後でクライアントが非常に高い CPU で実行されている場合は、コンピューターあたりのユーザー数を減らす必要があります。 CPU のスパイクの増加は許容されていますが、持続する場合は、読み込みを減らす必要があります。
 

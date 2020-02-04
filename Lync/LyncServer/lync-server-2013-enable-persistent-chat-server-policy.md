@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 常設チャット サーバー ポリシーを有効�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enable Persistent Chat Server policy
 ms:assetid: 87063d6c-2e38-4970-b76d-2aa15f0de29e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205056(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184718
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e58e71cd92182fc9f68d272ba23079677983b399
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 27d87277c813c24ae36de14430bc711d991d7181
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833282"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735987"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34833282"
 
 _**最終更新日:** 2012-10-06_
 
-Lync Server 2013 コントロールパネルでは、**常設チャット**グループの**常設チャットのポリシー**ページを使用して、既定のグローバルポリシーの構成と1つ以上のユーザーレベルでポリシーを管理できます。展開用の追加のユーザーとサイトポリシー。 ユーザーが、ポリシーによって常設チャットサーバーを有効にしている場合は、常設チャットサーバー環境が Lync 2013 クライアントに表示されます。
+Lync Server 2013 コントロールパネルでは、**常設チャット**グループの**常設チャットのポリシー**ページを使用して、既定のグローバルポリシーを構成し、展開用に1つ以上の追加のユーザーとサイトポリシーを作成するなど、グローバル、プール、サイト、またはユーザーレベルでポリシーを管理できます。 ユーザーが、ポリシーによって常設チャットサーバーを有効にしている場合は、常設チャットサーバー環境が Lync 2013 クライアントに表示されます。
 
 <div>
 

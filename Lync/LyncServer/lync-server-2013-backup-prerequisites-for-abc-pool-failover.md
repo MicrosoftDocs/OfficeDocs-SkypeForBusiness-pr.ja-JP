@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ABC プールフェールオーバーのバックア�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Backup prerequisites for ABC pool failover
 ms:assetid: 652046f5-6086-4592-902d-d5789581977d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945634(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541485
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7cdb228b0a748c830aa488e7b058bf8664360d0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 37a6b5694d8eaa9467fafa8923bb97423fd6e33f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840744"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730357"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +49,7 @@ ABC プールフェールオーバーの手順を最大限に活用するには�
     
     一般的に、毎日のバックアップを実行することをお勧めしますが、変更の量が多い場合は、より頻繁にバックアップをスケジュールすることをお勧めします。 障害が発生した場合に失われる可能性のある情報の量は、バックアップの頻度、および変更の頻度と量によって異なります。
     
-    応答グループのアプリケーションは、1つのプールにつき1つのアプリケーションレベルの設定のみを格納できます。 これらの設定にアクセスするには、 **Get-CsRgsConfiguration**コマンドレットを使用します。 設定には、既定の音楽保留の構成、既定の音楽保留中のオーディオファイル、エージェントの呼び出し元の猶予期間、通話コンテキストの構成が含まれます。 これらの設定は、" **Replaceexistingsettings** " パラメーターを使用して、 **Import-CsRgsConfiguration**コマンドレットによってプール間で転送できますが、この操作によって、宛先のアプリケーションレベルの設定が上書きされます。生産.
+    応答グループのアプリケーションは、1つのプールにつき1つのアプリケーションレベルの設定のみを格納できます。 これらの設定にアクセスするには、 **Get-CsRgsConfiguration**コマンドレットを使用します。 設定には、既定の音楽保留の構成、既定の音楽保留中のオーディオファイル、エージェントの呼び出し元の猶予期間、通話コンテキストの構成が含まれます。 これらの設定は、" **Replaceexistingsettings** " パラメーターを使用して、 **Import-CsRgsConfiguration**コマンドレットを通じて、1つのプールから別のプールに転送できますが、この操作を行うと、移動先のプールのアプリケーションレベルの設定が上書きされます。
     
     <div>
     

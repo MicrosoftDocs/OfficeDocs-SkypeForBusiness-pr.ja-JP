@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ユーザーのダイヤルイン会議 PIN を設定�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Set a user's dial-in conferencing PIN
 ms:assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520985(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183970
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 258c6e5da1dc5b78d53bbc3779d50890935d7b58
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ab97b3efe350ef82527262103e9b00104990245a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822028"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764693"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -117,7 +119,7 @@ _**最終更新日:** 2014-06-10_
 
 ## <a name="assigning-a-user-pin-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用してユーザー PIN を割り当てる
 
-Set-CsClientPin コマンドレットを使用して、PIN 番号を割り当てることができます。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、「Lync Server Windows PowerShell のブログ記事」を参照してください[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。「リモート PowerShell を使用して Microsoft Lync Server 2010 を管理する」を参照してください。
+Set-CsClientPin コマンドレットを使用して、PIN 番号を割り当てることができます。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 <div>
 

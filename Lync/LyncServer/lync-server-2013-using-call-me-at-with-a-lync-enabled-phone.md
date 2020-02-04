@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Lync 対応電話での通話を使用する'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using Call Me At with a Lync-enabled phone
 ms:assetid: 975a1df8-a159-4aa4-a991-5972a535998e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn383570(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 56470326
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cc89ac5038d367a57b791546c287e515bfd3c7bf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1d4b117970cec1e40b4d18928f82bc0cf2831eb8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848303"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744227"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,9 +45,9 @@ Lync の [折り返し先] 機能を使うと、ユーザーは携帯電話、"�
 
 ドロップダウンリストには、[ **Lync-オプション**] ダイアログボックスの [**電話**] タブで入力した電話番号 (携帯電話、自宅電話、その他の電話用) が表示されます。
 
-![Lync phone のセットアップオプションのスクリーンショット](images/Dn383570.03d2f25d-49e2-47b4-b1e9-b1614fc0c11c(OCS.15).png "Lync phone のセットアップオプションのスクリーンショット")
+![Lync Phone のセットアップオプションのスクリーンショット](images/Dn383570.03d2f25d-49e2-47b4-b1e9-b1614fc0c11c(OCS.15).png "Lync Phone のセットアップオプションのスクリーンショット")
 
-[電話] タブで電話番号を入力し**** ていない場合は、ドロップダウンボックスに使用できる番号はありません。 ただし、いつでも [**新しい番号**] をクリックして、必要な電話番号に Lync Server でダイヤルアウトすることができます。
+[電話] タブで電話番号を入力していない場合**は、ドロップ**ダウンボックスに使用できる番号はありません。 ただし、いつでも [**新しい番号**] をクリックして、必要な電話番号に Lync Server でダイヤルアウトすることができます。
 
 ![Lync 会議の音声通話ウィンドウのスクリーンショット](images/Dn383570.27f2ac7a-cc1c-465c-b145-202ad03af4f2(OCS.15).png "Lync 会議の音声通話ウィンドウのスクリーンショット")
 

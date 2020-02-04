@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 外部ユーザー アクセスに対する証明書�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Certificate requirements for external user access
 ms:assetid: d45b6b10-556f-4b10-b1a7-fb0d0a64a498
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398920(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185503
 ms.date: 03/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e7e7a0802cee8b91e18eaf50e5c2c3942ca54308
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a1b6495dbad5350f94873099985922f1adc198f2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840662"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736837"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -84,7 +86,7 @@ Access および web 会議エッジの外部インターフェイスと A/V 認
     
     </div>
 
-複数の負荷分散エッジサーバーをサイトに展開している場合は、各エッジサーバーにインストールされている A/V 認証サービスの証明書が同じ CA からのものであり、同じ秘密キーを使用している必要があります。 証明書の秘密キーは、1つのエッジサーバーで使用するか、多数のエッジサーバーで使用するかに関係なく、エクスポート可能である必要があることに注意してください。 また、エッジサーバー以外のコンピューターから証明書を要求した場合も、エクスポート可能である必要があります。 A/V 認証サービスではサブジェクト名または件名の代替名を使用しないため、アクセスエッジと web 会議の端に対してサブジェクト名と件名の代替名の要件が満たされていれば、アクセスエッジ証明書を再利用できます。証明書の秘密キーがエクスポート可能になります。
+複数の負荷分散エッジサーバーをサイトに展開している場合は、各エッジサーバーにインストールされている A/V 認証サービスの証明書が同じ CA からのものであり、同じ秘密キーを使用している必要があります。 証明書の秘密キーは、1つのエッジサーバーで使用するか、多数のエッジサーバーで使用するかに関係なく、エクスポート可能である必要があることに注意してください。 また、エッジサーバー以外のコンピューターから証明書を要求した場合も、エクスポート可能である必要があります。 A/V 認証サービスではサブジェクト名またはサブジェクトの別名を使用しないため、アクセスエッジおよび web 会議エッジに対してサブジェクト名と件名の代替名の要件が満たされている限り、アクセスエッジ証明書を再利用することができます。また、証明書の秘密キーはエクスポートできます。
 
 エッジ内部インターフェイスに使用されるプライベート (またはパブリック) 証明書の要件は、次のとおりです。
 

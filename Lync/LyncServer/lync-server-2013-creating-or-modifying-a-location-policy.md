@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 位置情報ポリシーの作成または変更'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Creating or modifying a location policy
 ms:assetid: 10338418-4da4-42df-b231-f52098c08dae
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687971(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733557
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 173cfd6ce158a089e03a9eded12c3c6920183463
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1648e845fc3759e7083c2443013f89fb49c1b00f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833772"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740177"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -95,7 +97,7 @@ Lync Server 2013 では、場所情報サービスからの場所の更新に対
         
         </div>
     
-      - ****   緊急通話が行われたときに通知される1つ以上の SIP Uniform resource identifier (uri) です。 たとえば、緊急通話が行われるたびに、インスタントメッセージを通じて会社のセキュリティオフィスに通知を受け取ることができます。 発信者の所在地が利用可能な場合は、その場所が通知に含まれます。 複数の SIP Uri をコンマ区切りリストとして含めることができます。 たとえば、"sip: security@litwareinc.com"、"sip: kmyer@litwareinc.com" のようになります。 配布リストがサポートされています。 文字列は、1 ~ 256 文字の長さで、先頭が "sip:" で始まる必要があります。 通知 URI フィールドをクリックする前に、例が表示されます。
+      - ****   緊急通話が行われたときに通知される1つ以上の SIP Uniform resource identifier (uri) です。 たとえば、緊急通話が行われるたびに、インスタントメッセージを通じて会社のセキュリティオフィスに通知を受け取ることができます。 発信者の所在地が利用可能な場合は、その場所が通知に含まれます。 複数の SIP Uri をコンマ区切りリストとして含めることができます。 たとえば、"sip: security@litwareinc"、"sip: kmyer@litwareinc" のようになります。 配布リストがサポートされています。 文字列は、1 ~ 256 文字の長さで、先頭が "sip:" で始まる必要があります。 通知 URI フィールドをクリックする前に、例が表示されます。
     
       - **[会議 URI**   ] は、発信された緊急通話に conferenced されるサードパーティの SIP URI (この場合は電話番号) です。 たとえば、会社のセキュリティに関する office では、緊急通話が発信された場合に着信があったり、その通話に参加したり (**会議モード**フィールドに指定されている値に応じて) 参加したりする場合があります。 文字列は、1 ~ 256 文字の長さで、先頭が「sip:」で始まる必要があります。 例は、このフィールド内をクリックするまで表示されます。
     

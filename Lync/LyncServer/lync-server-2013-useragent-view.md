@@ -3,6 +3,8 @@ title: 'Lync Server 2013: UserAgent view'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: UserAgent view
 ms:assetid: b986f76f-f16e-4e5e-96cb-6e8f7f9b42ee
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721862(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733795
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8f7d4cf6d79bdd69b28fb88f9a7d6c6a2095ba99
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 828e81d028fb476362a91c4fa0ab83c5e2c34c20
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848333"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744417"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -70,7 +72,7 @@ UserAgent ビューには、データベース内のレコードを持つセッ�
 <tr class="even">
 <td><p>UACategory</p></td>
 <td><p>nvarchar (64)</p></td>
-<td><p>ユーザーエージェントが属しているカテゴリ。 たとえば、ユーザーエージェント Conferencing_Attendant_ 1.0 は UACategory CAA をに属しています。</p></td>
+<td><p>ユーザーエージェントが属しているカテゴリ。 たとえば、.0 Conferencing_Attendant_1 .0 は UACategory CAA をに属しています。</p></td>
 </tr>
 </tbody>
 </table>

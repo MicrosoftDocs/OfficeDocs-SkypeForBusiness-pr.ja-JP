@@ -3,6 +3,8 @@ title: 'Lync Server 2013: アーカイブの展開チェックリスト'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment checklist for Archiving
 ms:assetid: 7479734d-be01-40d9-ad82-320a09d19d04
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205009(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184516
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 51c556dd288ff3539bbf2f4de816eab3a544b847
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e55e2471a71c985861c35c4ec2e07582dbfa0f23
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833519"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740757"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -108,12 +110,12 @@ _**最終更新日:** 2012-10-18_
 <td><p><strong>アーカイブをサポートする適切な内部トポロジを作成します (展開のすべてのユーザーに対して Microsoft Exchange 統合を使用していない場合のみ)。</strong></p></td>
 <td><p>トポロジビルダーを実行して、Lync Server 2013 アーカイブデータベース (SQL Server データベース) をトポロジに追加してから、トポロジを公開します。</p></td>
 <td><p>アーカイブデータベースを取り込むためのトポロジを定義するには、ローカルユーザーグループのメンバーであるアカウント。</p>
-<p>トポロジを公開するには、ドメイン管理者グループと RTCUniversalServerAdmins グループのメンバーであり、Lync Server 2013 ファイルストアで使用されるファイル共有に対するフルコントロールのアクセス許可 (読み取り/書き込み/変更) を持つアカウント (Topology Builder では、必要な Dacl を構成します。</p></td>
+<p>トポロジを公開するには、ドメイン管理者グループと RTCUniversalServerAdmins グループのメンバーであり、Lync Server 2013 ファイルストアに使用するフルコントロール権限 (読み取り/書き込み/変更) を持つアカウント (トポロジビルダーが必要な Dacl を構成できるようにします) を公開します。</p></td>
 <td><p>展開ドキュメントの<a href="lync-server-2013-adding-archiving-databases-to-an-existing-lync-server-2013-deployment.md">既存の Lync Server 2013 展開にアーカイブデータベースを追加する</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>サーバー間認証を構成する (Microsoft Exchange 統合を使用している場合のみ)</strong></p></td>
-<td><p>Lync Server 2013 と Exchange 2013 の間の認証を有効にするようにサーバーを構成します。 アーカイブを有効にする前に<strong>、CsExchangeStorageConnectivity testuser_sipUri – Folder 収集</strong>を実行して、Exchange アーカイブストレージの接続を検証することをお勧めします。</p></td>
+<td><p>Lync Server 2013 と Exchange 2013 の間の認証を有効にするようにサーバーを構成します。 アーカイブを有効にする前に<strong>、CsExchangeStorageConnectivity testuser_sipUri –フォルダー収集</strong>を実行して、Exchange アーカイブストレージの接続を検証することをお勧めします。</p></td>
 <td><p>サーバーで証明書を管理するための適切なアクセス許可のあるアカウント。</p></td>
 <td><p>展開ドキュメントまたは運用ドキュメントの<a href="lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md">Lync server 2013 でサーバー間認証 (OAuth) とパートナーアプリケーションを管理</a>します。</p></td>
 </tr>

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: モビリティのトポロジとコンポーネント
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Topologies and components for mobility
 ms:assetid: be3cae7a-095d-4785-91ba-6fac99eba92a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690037(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185282
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 537eda14f2587e06bd8a1112f2a6a44299b0b78e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 739deecf47e25e57ca0175c29a2721e509f8dbe2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848401"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745227"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -87,7 +89,7 @@ Lync server 2013 には、モバイルデバイスでの Lync モバイルアプ
     
     </div>
 
-  - **Lync server 2013 自動検出サービス**   このサービスは、ユーザーの場所を特定し、モバイルデバイスや他の lync クライアントが lync Server 2013 Web サービスの内部と外部の url、および、ネットワークの場所に関係なく、mcx または UCWA。 自動検出では、ハードコーディングされたホスト名 (ネットワーク内のユーザー向けの lyncdiscover、ネットワーク外のユーザー向けの lyncdiscoverinternal、ユーザーの SIP ドメイン) が使用されます。 HTTP または HTTPS を使用しているクライアント接続をサポートします。
+  - **Lync server 2013 自動検出サービス**   このサービスは、ユーザーの場所を特定し、ネットワークの場所に関係なく、モバイルデバイスや他の lync クライアントがリソース (lync Server 2013 Web サービスの内部および外部 url、mcx または ucwa の url など) を特定できるようにします。 自動検出では、ハードコーディングされたホスト名 (ネットワーク内のユーザー向けの lyncdiscover、ネットワーク外のユーザー向けの lyncdiscoverinternal、ユーザーの SIP ドメイン) が使用されます。 HTTP または HTTPS を使用しているクライアント接続をサポートします。
     
     自動検出サービスは、各フロントエンドサーバーにインストールされ、モバイルデバイスで Lync 機能をサポートする各プールの各ディレクターにインストールされます。 自動検出サービスをインストールすると、フロントエンドサーバーとディレクターの両方で、内部 web サイトと外部 web サイトの両方に新しい仮想ディレクトリ (自動検出) が作成されます。
     

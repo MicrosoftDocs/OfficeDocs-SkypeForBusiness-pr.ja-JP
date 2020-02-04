@@ -3,6 +3,8 @@ title: 'Lync Server 2013: SessionDetails テーブル'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: SessionDetails table
 ms:assetid: 783d2508-e31f-4b54-be0c-63aa5ec21c04
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398589(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184559
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: faebef9ad03370c2fa969d3b119f13b88d1d3173
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b68c50fc17199c68a69c5a7c6dd6abc8a5bd1dac
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822112"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764795"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -84,7 +86,7 @@ IsUser1IntegratedWithDeskPhone と IsUser2IntegratedWithDeskPhone フィール�
 <td><p><strong>Edialogidseq の置き換え</strong></p></td>
 <td><p>int</p></td>
 <td><p>外部</p></td>
-<td><p>セッションを識別する ID 番号。 このセッションによっ<strong></strong>て置き換えられるセッションを一意に識別するために、代替の操作と組み合わせて使います。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a>」を参照してください。</p></td>
+<td><p>セッションを識別する ID 番号。 このセッションによって置き換えられるセッションを一意に識別するために、<strong>代替の操作と組み合わせ</strong>て使います。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a>」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>User1Id</strong></p></td>
@@ -257,7 +259,7 @@ IsUser1IntegratedWithDeskPhone と IsUser2IntegratedWithDeskPhone フィール�
 </tr>
 <tr class="even">
 <td><p>FILE_TRANSFER</p></td>
-<td><p>2</p></td>
+<td><p>両面</p></td>
 </tr>
 <tr class="odd">
 <td><p>REMOTE_ASSISTANCE</p></td>

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: カスタムプレゼンス状態の構成'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring custom presence states
 ms:assetid: e17364a8-8b93-45fc-a614-c80e45435d42
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398997(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185534
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 12083d1895f8e5191f15b43efaf2835faecdb5ca
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c69f7a5b32b4ad0dd31f8be118aa2f2173ff3e22
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840274"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758197"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34840274"
 
 _**最終更新日:** 2013-01-10_
 
-Lync 2013 でカスタムプレゼンス状態を定義する**には、** XML カスタムのプレゼンス構成ファイルを作成し、Lync Server 管理シェルコマンドレットを使用して場所を指定する**か、パラメーターを使用し**て、その場所を指定します。CustomStateURL。
+Lync 2013 でカスタムプレゼンス状態を定義するには、XML カスタムプレゼンス構成ファイルを作成して、Lync Server 管理シェルコマンドレットで、**新しい CSClientPolicy**を使用するか、またはパラメーター CustomStateURL を**設定**して、その場所を指定します。
 
 構成ファイルには、次のプロパティがあります。
 
@@ -56,11 +58,11 @@ Lync 2013 でカスタムプレゼンス状態を定義する**には、** XML �
 > 実稼働環境ではお勧めできませんが、HTTPS 以外のファイル共有に配置されている構成ファイルをテストするには、EnableSIPHighSecurityMode registry 設定を使用して、クライアントで SIP high security モードを無効にします。 次に、CustomStateURL レジストリ設定を使用して、構成ファイルの HTTPS 以外の場所を指定できます。 Lync 2013 では Lync 2010 のレジストリ設定は無視されますが、レジストリハイブは更新されています。 レジストリ設定は次の手順で作成します。 
 > <UL>
 > <LI>
-> <P>HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync\EnableSIPHighSecurityMode</P>
+> <P>HKEY_LOCAL_MACHINE \SOFTWARE\Policies\Microsoft\Office\15.0\Lync\EnableSIPHighSecurityMode</P>
 > <P>Type: DWORD</P>
 > <P>値のデータ: 0</P>
 > <LI>
-> <P>HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync\CustomStateURL</P>
+> <P>HKEY_LOCAL_MACHINE \SOFTWARE\Policies\Microsoft\Office\15.0\Lync\CustomStateURL</P>
 > <P>Type: String (REG_SZ)</P>
 > <P>値のデータ (例):\\File://lspool または file:///c:/LSFileShare/ClientConfigFolder/Group_1_Pres.xml</P></LI></UL>
 
@@ -118,7 +120,7 @@ XML 構成ファイルで1つ以上のロケール ID (LCID) スキーマを指�
 > <LI>
 > <P>既定では、Lync Server&nbsp;2013 は、クライアントポリシーと設定を3時間ごとに更新します。</P>
 > <LI>
-> <P>CustomStateURL などの以前のリリースのグループポリシー設定を引き続き使用する場合は、その設定が新しいポリシーレジストリハイブ (HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync) に含まれているかどうかが、Lync 2013 によって認識されます。 ただし、サーバーベースのクライアントポリシーが優先されます。</P></LI></UL>
+> <P>CustomStateURL などの以前のリリースのグループポリシー設定を引き続き使用する場合、Lync 2013 は、その設定が新しいポリシーレジストリハイブ (HKEY_LOCAL_MACHINE \SOFTWARE\Policies\Microsoft\Office\15.0\Lync) にある場合にその設定を認識します。 ただし、サーバーベースのクライアントポリシーが優先されます。</P></LI></UL>
 
 
 

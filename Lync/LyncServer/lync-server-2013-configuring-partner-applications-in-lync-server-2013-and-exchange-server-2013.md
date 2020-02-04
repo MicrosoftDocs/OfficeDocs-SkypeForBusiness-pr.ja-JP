@@ -3,6 +3,8 @@ title: Lync Server 2013 および Exchange Server 2013 でパートナーアプ�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring partner applications in Lync Server 2013 and Exchange Server 2013
 ms:assetid: 9c3a3054-6201-433f-b128-4c49d3341370
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688151(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733754
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3dad815a67dafea510513e334c910a5dbb8a2e82
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c60e018a86ec0838791d5fc46845460b5f039f23
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840199"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741157"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -75,7 +77,7 @@ Lync Server では、[新しい-CsPartnerApplication](https://technet.microsoft.
 
 または、Lync Server 2013 サーバー間認証のドキュメントにあるスクリプトコードをコピーして変更することで、パートナーアプリケーションを作成することもできます。 詳細については、「 [Lync server 2013 でサーバー間認証 (OAuth) とパートナーアプリケーションを管理する](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md)」を参照してください。
 
-Lync Server と Exchange の両方にパートナーアプリケーションを正しく設定した場合、2つの製品間のサーバー間認証も正常に構成されていることを意味します。 Lync Server 2013 には、Windows PowerShell コマンドレット[CsExStorageConnectivity](https://technet.microsoft.com/en-us/library/JJ204740(v=OCS.15))が含まれています。これにより、サーバー間の認証が正しく構成されていること、および Lync Server ストレージサービスが Exchange に接続できることを確認できます。2013。 このコマンドレットでは、Exchange 2013 ユーザーのメールボックスに接続し、そのユーザーの [会話履歴] フォルダーにアイテムを書き込んで、必要に応じてそのアイテムを削除します。
+Lync Server と Exchange の両方にパートナーアプリケーションを正しく設定した場合、2つの製品間のサーバー間認証も正常に構成されていることを意味します。 Lync Server 2013 には Windows PowerShell コマンドレット[CsExStorageConnectivity](https://technet.microsoft.com/en-us/library/JJ204740(v=OCS.15))が含まれています。これにより、サーバー間の認証が正しく構成されていること、および Lync Server ストレージサービスが Exchange 2013 に接続できることを確認できます。 このコマンドレットでは、Exchange 2013 ユーザーのメールボックスに接続し、そのユーザーの [会話履歴] フォルダーにアイテムを書き込んで、必要に応じてそのアイテムを削除します。
 
 Lync server 2013 と Exchange 2013 の統合をテストするには、Lync Server 管理シェルで次のようなコマンドを実行します。
 

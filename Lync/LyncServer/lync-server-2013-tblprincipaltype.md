@@ -3,6 +3,8 @@ title: 'Lync Server 2013: tblPrincipalType'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: tblPrincipalType
 ms:assetid: 32e1c1d6-80f4-4624-bf4e-b4c77d3982fa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558633(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183787
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 725d097e1e2e75b6430974a4f133cb5fa4130346
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6731d0bcda6e4e66b1b498a5f1bf91023627b1f0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848575"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764087"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -124,7 +126,7 @@ tblPrincipalType には、tblPrincipal テーブルの内容を分類するた�
 <td></td>
 </tr>
 <tr class="even">
-<td><p>2</p></td>
+<td><p>両面</p></td>
 <td><p>任意のユーザー</p></td>
 <td><p>ユーザーの種類の汎用プリンシパル。 TblPrincipal テーブルでは使用されません。</p></td>
 <td><p>はい</p></td>

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: エンタープライズ VoIP の展開ガイドライ
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment guidelines for Enterprise Voice
 ms:assetid: 8985bd93-7613-4cef-9c89-51df6049ed9b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398694(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184733
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b0f4f6198f8fb82720834d112bcf363554aaf84d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 221c09fc5dadda267baad35f4784c22cc4f3c9c6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833494"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762685"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -112,7 +114,7 @@ Lync Server との音声通信は、サーバーソフトウェアの可用性�
 
 ## <a name="emergency-calls-and-multi-line-telephone-systems"></a>緊急通話と複数回線電話システム
 
-複数行の電話システム (MLTS) を使用する場合は、米国の州または連邦法が必要となる場合があります。これには、発信者の電話番号、内線番号、またはその他の国/地域の法律が必要であり、発信者は、緊急サービス (911 や999などのエマージェンシーアクセス番号をダイヤルするときなど) に設定されます。 このリリースでは、 [lync server 2013 の緊急サービス (E9) の計画](lync-server-2013-planning-for-emergency-services-e9-1-1.md)に記載されているように、発信者の物理的な場所を緊急サービスプロバイダーに提供するように構成することができます。 MLTS 法へのコンプライアンスは、Lync Server、Lync クライアント、Lync Phone Edition デバイスの購入者に対する唯一の責任となります。
+複数行の電話システム (MLTS) を使用すると、U の対象となる場合があります。 S 州または連邦法 (または、911や999などのエマージェンシーアクセス番号をダイヤルする場合など) に発信者の電話番号、内線番号、または物理的な場所を該当する緊急サービスに提供するために、MLTS が必要となる他の国/地域の法律。 このリリースでは、 [lync server 2013 の緊急サービス (E9) の計画](lync-server-2013-planning-for-emergency-services-e9-1-1.md)に記載されているように、発信者の物理的な場所を緊急サービスプロバイダーに提供するように構成することができます。 MLTS 法へのコンプライアンスは、Lync Server、Lync クライアント、Lync Phone Edition デバイスの購入者に対する唯一の責任となります。
 
 </div>
 

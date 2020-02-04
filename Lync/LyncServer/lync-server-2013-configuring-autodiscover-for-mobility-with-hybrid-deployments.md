@@ -3,6 +3,8 @@ title: ハイブリッド展開での自動検出の構成によるモビリテ�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Autodiscover for mobility with hybrid deployments
 ms:assetid: f838af79-d8b4-4122-b81c-7889573d143e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ215885(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48706012
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a1865cab188bace472996db6207de62ce8498976
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0dd6c36afb89d1a8b354d072ee39ee3f6a2e7e93
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840276"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734845"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**最終更新日:** 2014-06-18_
 
 ハイブリッド展開とは、Microsoft Lync Online クラウドサービスとオンプレミスの展開の両方を使用する構成です。 この種類の構成では、自動検出サービスは、ユーザーが実際に配置されている場所を見つけることができる必要があります。 つまり、自動検出によってユーザーアカウントが検索され、オンプレミスの展開または Lync Online の展開のどちらであるかに関係なく、ユーザーのアカウントをホストしているサーバーはどこにあるかが確認されます。
 
-たとえば、ユーザーのアカウントが Lync Online のサーバーでホストされている場合、ユーザーの検索は次のように行われます。これは、 ** 次のようなプロセスで行われます。
+たとえば、ユーザーのアカウントが Lync Online のサーバーでホストされている場合、ユーザーの検索は次のように行われ*ます。これは、次の*ようなプロセスで行われます。
 
   - ユーザーがオンプレミスの展開、 **contoso.com**への接続試行を開始します。
 

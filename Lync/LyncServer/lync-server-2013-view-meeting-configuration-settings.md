@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 会議の構成設定を表示する'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View meeting configuration settings
 ms:assetid: d03a4684-9d8b-4728-917d-5b5c91511e2c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721894(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733828
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4b3107045d62b244c7ee89dbb47228bc5dd72583
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5737fbba63915501bea80105ef3509511d8cb436
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848201"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765628"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34848201"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-23_
+_**トピックの最終更新日:** 2013-02-23_
 
 Lync Server 2013 コントロールパネルで、会議の構成設定を使用して、展開での会議の実装方法を制御します。 これには、次の会議の設定が含まれます。
 
@@ -63,7 +65,7 @@ Lync Server 2013 コントロールパネルで、会議の構成設定を使用
 
 ## <a name="viewing-meeting-configuration-information-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して会議の構成情報を表示する
 
-会議の構成設定を表示するには、Windows PowerShell と、「Csmeeting 構成」コマンドレットを使用します。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、「Lync Server Windows PowerShell のブログ記事」を参照してください[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。「リモート PowerShell を使用して Microsoft Lync Server 2010 を管理する」を参照してください。
+会議の構成設定を表示するには、Windows PowerShell と、「Csmeeting 構成」コマンドレットを使用します。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 <div>
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 仲介サーバーのコンポーネントとトポロ
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Components and topologies for Mediation Server
 ms:assetid: 71397168-36c3-4d21-b8ef-db6a751634ee
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398537(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184487
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1f9c353dc65f5e943e082df9321a934ea8f14be1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 62516645266f67b7be61154b45afd00107ec3814
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840525"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742617"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -75,13 +77,13 @@ Microsoft Lync Server 2013 の計画ツールを使用すると、仲介サー�
 
 **仲介サーバーがサイト 1 にあり、PSTN ゲートウェイがサイト 2 にある、WAN リンクで接続されたサイトの例**
 
-![仲介サーバー WAN ゲートウェイを使用した音声トポロジ](images/Gg398537.67872e61-1444-447b-918c-abe89abc3004(OCS.15).jpg "仲介サーバー WAN ゲートウェイを使用した音声トポロジ")
+![仲介サーバーの WAN ゲートウェイが含まれる音声トポロジ](images/Gg398537.67872e61-1444-447b-918c-abe89abc3004(OCS.15).jpg "仲介サーバーの WAN ゲートウェイが含まれる音声トポロジ")
 
 次の図は、仲介サーバーがサイト1のフロントエンドプールのレジストラーと関連付けられており、サイト1で IP PBX との直接 SIP 接続がある簡単なトポロジを示しています。 この図では、仲介サーバーはサイト2でも PSTN ゲートウェイを制御します。 Lync ユーザーがサイト1と2の両方に存在することを前提とします。 また、IP PBX では、IP PBX によって制御されるメディアエンドポイントに送信する前に、Lync エンドポイントから送信されたすべてのメディアによってスキャンする必要がある関連メディアプロセッサがあることを前提とします。 このトポロジでは、サイトおよび地域情報を使用できるようにメディア バイパスがグローバルに有効になっていて、PBX と PSTN ゲートウェイへのトランクはバイパスが有効になっています。
 
 **仲介サーバーがサイト 1 にあり、PBX がサイト 2 にある、WAN リンクで接続されたサイトの例**
 
-![ボイストポロジ仲介サーバーの WAN PBX](images/Gg398537.df6c8a5b-8431-4187-907d-ff5ca26eeeec(OCS.15).jpg "ボイストポロジ仲介サーバーの WAN PBX")
+![仲介サーバーの WAN PBX が含まれる音声トポロジ](images/Gg398537.df6c8a5b-8431-4187-907d-ff5ca26eeeec(OCS.15).jpg "仲介サーバーの WAN PBX が含まれる音声トポロジ")
 
 PBX トポロジの計画の詳細については、「 [Lync server 2013 の仲介サーバーの展開ガイドライン](lync-server-2013-deployment-guidelines-for-mediation-server.md)」および「 [lync SERVER 2013 の SIP 展開オプション](lync-server-2013-direct-sip-deployment-options.md)」を参照してください。
 

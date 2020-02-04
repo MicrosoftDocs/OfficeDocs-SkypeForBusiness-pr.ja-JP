@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Lync Server と連動させるための Microsoft Exch
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Unified Messaging on Microsoft Exchange Server to work with Lync Server 2013
 ms:assetid: 058da9c4-23af-4ddb-9f63-70133a8aafc6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398106(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183289
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 461d822862e837879f1feb2d3f980b816aae5280
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5e2bc41d4fa0411c4184c0edda35d6d0cd98df9a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840166"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734477"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ _**最終更新日:** 2012-10-11_
 
 
 > [!IMPORTANT]  
-> Exchange ユニファイドメッセージング (UM) を使用して、通話応答、Outlook Voice Access、またはエンタープライズボイスユーザー向けの自動応答サービスを提供する場合は、計画で「 <A href="lync-server-2013-planning-for-exchange-unified-messaging-integration.md">Lync Server 2013 での Exchange ユニファイドメッセージングの統合の計画</A>」を参照してください。ドキュメントを参照して、このセクションの手順に従います。
+> Exchange ユニファイドメッセージング (UM) を使用して、通話応答、Outlook Voice Access、またはエンタープライズ Voip サービスを提供する場合は、計画ドキュメントの「 <A href="lync-server-2013-planning-for-exchange-unified-messaging-integration.md">Lync Server 2013 での Exchange ユニファイドメッセージングの統合の計画</A>」を参照して、このセクションの指示に従ってください。
 
 
 

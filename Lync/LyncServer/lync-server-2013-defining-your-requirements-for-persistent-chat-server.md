@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 組織における常設チャット サーバーに�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Defining your organization's requirements for Persistent Chat Server
 ms:assetid: 568674fb-c08a-4170-ac38-e2f8428c69e0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398372(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184166
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 68f9195a91a4f8334933d1fce7ffd3a5dceb564c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a0e7482ab85b72168e990eaa97b2f79cb3665532
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833672"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739857"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,7 +53,7 @@ _**最終更新日:** 2014-01-15_
 
   - ルームをどのように作成しますか。 常設チャットサーバーは、部屋の作成と管理のための web ベースの機能を提供します。 これは Lync 2013 クライアントから起動できます。 ビジネス要件とワークフローを実装するカスタムソリューション (常設 Chat Server ソフトウェア開発キット (SDK) を使用) を定義し、ユーザーをカスタムソリューションに導くために常設チャットサーバーを構成することができます。
 
-  - どのような種類のアドインをプロビジョニングしますか。 **** [アドイン] は、会議室に関連するコンテキストを提供するために、Lync 2013 クライアントの [機能拡張] ウィンドウを活用して、ルーム内の操作を強化します。 最も役立つと考えられる汎用的なアドイン (自社の Web サイト、社内のコラボレーション ドキュメントなど) を選択できます。 チャット ルーム マネージャーは、必要に応じて登録済みのアドインのいずれかを選択し、ルームに関連付けることができます。
+  - どのような種類のアドインをプロビジョニングしますか。 [アドイン] は、会議室に関連するコンテキストを提供するために、Lync 2013 クライアントの [機能拡張] ウィンドウを活用して、ルーム内の操作**を強化し**ます。 最も役立つと考えられる汎用的なアドイン (自社の Web サイト、社内のコラボレーション ドキュメントなど) を選択できます。 チャット ルーム マネージャーは、必要に応じて登録済みのアドインのいずれかを選択し、ルームに関連付けることができます。
 
   - どのような種類の高可用性要件と障害復旧要件がありますか。 常設チャットサーバーは、sql Server のミラーリングと SQL Server のクラスタリングをサポートしており、高可用性を実現しており、SQL Server のログ配布によって、障害回復用の sql Server log 送料を備えた、最大8つのサーバーをサポートしています。
 

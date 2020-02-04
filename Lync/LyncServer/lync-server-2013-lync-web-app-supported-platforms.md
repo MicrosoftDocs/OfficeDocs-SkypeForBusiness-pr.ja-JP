@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Lync Web App でサポートされているプラッ�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync Web App supported platforms
 ms:assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425820(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183808
 ms.date: 06/12/2019
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e2713bfee0397c455407d0dc277851b5588fa774
-ms.sourcegitcommit: f5b6270e64752298687a1abff49da58acde8e107
+ms.openlocfilehash: 47a2912aae21e4bdedadabcffd7bbcba09560d64
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "34912841"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730267"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -84,10 +86,10 @@ Lync Web App を使用するには、次のサポートされているオペレ�
 <td><p>Windows 10</p></td>
 <td><p>はい</p></td>
 <td><p>はい</p></td>
-<td><p>N/A</p></td>
-<td><p>N/A</p></td>
-<td><p>N/A</p></td>
-<td><p>N/A</p></td>
+<td><p>該当なし</p></td>
+<td><p>該当なし</p></td>
+<td><p>該当なし</p></td>
+<td><p>該当なし</p></td>
 <td><p>なし</p></td>
 <td><p>いいえ</p></td>
 <td><p>該当なし</p></td>
@@ -97,10 +99,10 @@ Lync Web App を使用するには、次のサポートされているオペレ�
 <td><p>Windows 8.1<sup>1</sup></p></td>
 <td><p>該当なし</p></td>
 <td><p>はい</p></td>
-<td><p>N/A</p></td>
-<td><p>N/A</p></td>
-<td><p>N/A</p></td>
-<td><p>N/A</p></td>
+<td><p>該当なし</p></td>
+<td><p>該当なし</p></td>
+<td><p>該当なし</p></td>
+<td><p>該当なし</p></td>
 <td><p>なし</p></td>
 <td><p>いいえ</p></td>
 <td><p>該当なし</p></td>
@@ -108,12 +110,12 @@ Lync Web App を使用するには、次のサポートされているオペレ�
 </tr>
 <tr class="even">
 <td><p>Windows 8 (Intel ベース)<sup>1</sup></p></td>
-<td><p>N/A</p></td>
+<td><p>該当なし</p></td>
 <td><p>該当なし</p></td>
 <td><p>はい</p></td>
 <td><p>はい</p></td>
-<td><p>N/A</p></td>
-<td><p>N/A</p></td>
+<td><p>該当なし</p></td>
+<td><p>該当なし</p></td>
 <td><p>なし</p></td>
 <td><p>いいえ</p></td>
 <td><p>該当なし</p></td>
@@ -123,10 +125,10 @@ Lync Web App を使用するには、次のサポートされているオペレ�
 <td><p>Windows 7 と SP1<sup>2</sup></p></td>
 <td><p>該当なし</p></td>
 <td><p>はい</p></td>
-<td><p>可</p></td>
-<td><p>可</p></td>
-<td><p>可</p></td>
-<td><p>○</p></td>
+<td><p>Yes</p></td>
+<td><p>Yes</p></td>
+<td><p>Yes</p></td>
+<td><p>Yes</p></td>
 <td><p>なし</p></td>
 <td><p>いいえ</p></td>
 <td><p>該当なし</p></td>
@@ -136,10 +138,10 @@ Lync Web App を使用するには、次のサポートされているオペレ�
 <td><p>Windows Server 2008 R2 SP1<sup>2</sup></p></td>
 <td><p>該当なし</p></td>
 <td><p>はい</p></td>
-<td><p>可</p></td>
-<td><p>可</p></td>
-<td><p>可</p></td>
-<td><p>○</p></td>
+<td><p>Yes</p></td>
+<td><p>Yes</p></td>
+<td><p>Yes</p></td>
+<td><p>Yes</p></td>
 <td><p>なし</p></td>
 <td><p>いいえ</p></td>
 <td><p>該当なし</p></td>
@@ -149,8 +151,8 @@ Lync Web App を使用するには、次のサポートされているオペレ�
 <td><p>Windows Server 2008 (SP2<sup>3</sup> )</p></td>
 <td><p>該当なし</p></td>
 <td><p>はい</p></td>
-<td><p>○</p></td>
-<td><p>いいえ</p></td>
+<td><p>Yes</p></td>
+<td><p>不可</p></td>
 <td><p>○</p></td>
 <td><p>なし</p></td>
 <td><p>なし</p></td>
@@ -160,14 +162,14 @@ Lync Web App を使用するには、次のサポートされているオペレ�
 </tr>
 <tr class="even">
 <td><p>Mac OS X 10.7 以降 (Intel ベース)<sup>2</sup></p></td>
-<td><p>N/A</p></td>
-<td><p>N/A</p></td>
-<td><p>N/A</p></td>
-<td><p>N/A</p></td>
-<td><p>N/A</p></td>
-<td><p>N/A</p></td>
+<td><p>該当なし</p></td>
+<td><p>該当なし</p></td>
+<td><p>該当なし</p></td>
+<td><p>該当なし</p></td>
+<td><p>該当なし</p></td>
+<td><p>該当なし</p></td>
 <td><p>なし</p></td>
-<td><p>いいえ</p></td>
+<td><p>不可</p></td>
 <td><p>○</p></td>
 <td><p>いいえ</p></td>
 </tr>
@@ -175,7 +177,7 @@ Lync Web App を使用するには、次のサポートされているオペレ�
 </table>
 
 
-<sup>1</sup> windows 8 および windows 8.1 の場合、コンピューターベースの音声、ビデオ、アプリケーションの表示、アプリケーション共有、デスクトップ表示、デスクトップ共有を使用するために必要なプラグインは、internet explorer 10 または internet explorer 11 を実行している場合にのみインストールできます。を選びます。 これらの機能は、デスクトップ以外のバージョンの Internet Explorer 10 または Internet Explorer 11 では使用できません。
+<sup>1</sup> windows 8 および windows 8.1 の場合、コンピューターベースの音声、ビデオ、アプリケーションの表示、アプリケーション共有、デスクトップ表示、デスクトップ共有を使用するために必要なプラグインは、internet explorer 10 または internet explorer 11 を実行している場合にのみインストールできます。 これらの機能は、デスクトップ以外のバージョンの Internet Explorer 10 または Internet Explorer 11 では使用できません。
 
 <sup>2</sup>サポートされている windows 7、windows Server 2008 R2、および Macintosh オペレーティングシステムでは、コンピューターベースの音声、ビデオ、アプリケーションの表示、アプリケーション共有、デスクトップ表示、デスクトップ共有などのすべての機能を利用できます。 これらの機能を使用するには、画面の指示に従ってプラグインをインストールする必要があります。 Mac OS X バージョン10.6 はサポートされなくなったことに注意してください。
 

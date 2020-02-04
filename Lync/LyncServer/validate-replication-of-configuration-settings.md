@@ -3,6 +3,8 @@ title: 構成設定のレプリケーションを検証する
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Validate replication of configuration settings
 ms:assetid: 81a3c21d-b28a-4287-adac-11791e8db56d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205042(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184663
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4cde1f3a96f249e98bc4e48c2e6d9c40adaad526
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 698686dd217bf16457e4c3f4ebe6867566dcf49d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847933"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738577"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34847933"
 
 _**最終更新日:** 2012-10-19_
 
-中央管理ストアが配置されている内部コンピューターまたは任意のドメインで Lync Server 2013 **CsManagementStoreReplicationStatus**コマンドレットを実行して、構成情報のレプリケーションをエッジサーバーに対して検証することができます。Lync Server 2013 コアコンポーネントがインストールされている参加しているコンピューター。
+中央管理ストアが配置されている内部コンピューターまたは Lync Server 2013 コアコンポーネントがインストールされているドメインに参加しているコンピューターで、Lync Server 2013 **CsManagementStoreReplicationStatus**コマンドレットを実行して、構成情報の複製を検証することができます。
 
 初期結果では、レプリケーションに "True" ではなく "False" と表示されることがあります。 その場合は、 **CsManagementStoreReplication**コマンドレットを実行して、 **CsManagementStoreReplicationStatus**コマンドレットをもう一度実行する前に、レプリケーションが完了するまで待ちます。
 

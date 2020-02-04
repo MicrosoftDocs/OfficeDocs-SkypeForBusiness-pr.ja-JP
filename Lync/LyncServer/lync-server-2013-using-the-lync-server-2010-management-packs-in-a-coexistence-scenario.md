@@ -3,6 +3,8 @@ title: 共存シナリオでの Lync Server 2010 管理パックの使用
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using the Lync Server 2010 management packs in a coexistence scenario
 ms:assetid: 8b792503-bd88-47fe-9d97-b071e8d429a5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205078(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184772
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 159aaa55e61068356701abaed3c0a67a60265c75
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 264cd8f1495840eb6dd86879f279110cd4de4784
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848268"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743887"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -97,7 +99,7 @@ Lync server 2010 コンピューターに Lync Server 2010 コンピューター
 
 3.  [ **Scope Management Pack Objects** ] ダイアログボックスで、対象の**LS 検出候補**を含むアイテムを選び、[ **OK]** をクリックします。 LS 検出候補は、Lync Server 2010 管理パックをインストールしている場合にのみ表示されることに注意してください。
 
-4.  Operations Manager コンソールで、[ **LS 検出候補**] を右クリックし、 ****[上書き] をポイントして、[**オブジェクト検出の上書き**] をポイントし、[ **class: LS 検出候補のすべてのオブジェクト**] をクリックします。
+4.  Operations Manager コンソールで、[ **LS 検出候補** **] を右**クリックし、[上書き] をポイントして、[**オブジェクト検出の上書き**] をポイントし、[ **class: LS 検出候補のすべてのオブジェクト**] をクリックします。
 
 5.  [**プロパティの上書き**] ダイアログボックスで、[ **Central Discovery WatcherNode Fqdn**] の横にある [**上書き**] チェックボックスをオンにします。 [**上書き値**] ボックスと [**有効な値**] ボックスに、Lync Server 2010 コンピューターの完全修飾ドメイン名を入力します。 [**強制**] チェックボックスをオンにし、[ **OK]** をクリックします。
 

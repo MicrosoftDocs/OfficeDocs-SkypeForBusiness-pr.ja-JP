@@ -3,6 +3,8 @@ title: Lync Server 2013 のアクセシビリティ
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Accessibility for people with disabilities
 ms:assetid: 29c35a47-2513-425c-8b6b-250786573171
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204754(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183681
 ms.date: 01/15/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 428270d63184ab991bbaeb5538240bdb50a5d0d0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0b3830196baea942bcbdf2109b9a3a761083cd02
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840974"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730479"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -154,7 +156,7 @@ Lync Server 2013 ヘルプのすべての図 (スクリーンショット、図�
 
 
 > [!NOTE]  
-> このセクションの情報は、米国で Microsoft 製品をライセンスしているユーザーにのみ適用されます。 この製品を米国外で入手した場合は、ソフトウェアパッケージに付属の子会社の情報カードを使用するか、microsoft のアクセシビリティ web <A href="http://go.microsoft.com/fwlink/p/?linkid=18139">http://go.microsoft.com/fwlink/p/?linkId=18139</A>サイトにアクセスして、microsoft サポートの電話番号と住所の一覧を参照してください。サービス. このセクションに記載されている製品とサービスの種類が、お住まいの地域で利用可能かどうかを確認するには、お住まいの地域に連絡してください。 Microsoft 製品に含まれているアクセシビリティ機能の詳細については、「Microsoft 製品の web サイトのアクセシビリティ」を参照してください。
+> このセクションの情報は、米国で Microsoft 製品をライセンスしているユーザーにのみ適用されます。 この製品を米国外で入手した場合は、ソフトウェアパッケージに付属の子会社の情報カードを使用するか、Microsoft のアクセシビリティ web <A href="http://go.microsoft.com/fwlink/p/?linkid=18139">http://go.microsoft.com/fwlink/p/?linkId=18139</A>サイトにアクセスして、microsoft サポートサービスの電話番号と住所の一覧を参照してください。 このセクションに記載されている製品とサービスの種類が、お住まいの地域で利用可能かどうかを確認するには、お住まいの地域に連絡してください。 Microsoft 製品に含まれているアクセシビリティ機能の詳細については、「Microsoft 製品の web サイトのアクセシビリティ」を参照してください。
 
 
 

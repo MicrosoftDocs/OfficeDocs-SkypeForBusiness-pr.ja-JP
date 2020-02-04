@@ -3,6 +3,8 @@ title: Lync Server 2013 への残りのユーザーの移動
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Move remaining users to Lync Server 2013
 ms:assetid: 72025e1b-97d1-40e9-8a98-28c018942b48
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688090(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733689
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d9d5c747a216ff5407a3150eb1cdcdfb94a3c73c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4d60b3ba622e88978a8bbf555972c95979e8f8c3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848026"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743757"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -77,7 +79,7 @@ Lync Server コントロールパネルまたは Lync Server 管理シェルを�
 
 2.  Lync Server 2013 を使っているユーザーによって開催された会議が、Lync Server 2010 を使用しているフェデレーションユーザーとシームレスに動作するようにするには、移行したユーザーに割り当てられている会議ポリシーで、匿名の参加者を許可する必要があります。
 
-3.  匿名の参加者に許可されている会議ポリシーでは、Lync Server 2013 コントロールパネルで選択された**匿名ユーザーを招待することができ**ます。出力で**AllowAnonymousParticipantsInMeetings**を**True**に設定します。Lync Server 管理シェルの**set-csconferencingpolicy**コマンドレット。
+3.  匿名の参加者を許可する会議ポリシーでは、Lync server 2013 コントロールパネルで選択された**匿名ユーザーの招待を許可**することができます。また、Lync Server 管理シェルの**set-csconferencingpolicy**コマンドレットの出力で**AllowAnonymousParticipantsInMeetings**を**True**に設定します。
 
 4.  Lync Server 管理シェルを使用して会議ポリシーを構成する方法の詳細については、「Lync Server 管理シェルドキュメントの[set-csconferencingpolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsConferencingPolicy) 」を参照してください。
 

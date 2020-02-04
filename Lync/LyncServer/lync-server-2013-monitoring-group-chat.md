@@ -3,6 +3,8 @@ title: 'Lync Server 2013: グループチャットを監視する'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Monitoring group chat
 ms:assetid: bddcf0be-ebf3-46bc-90c7-2576877734fb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720924(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969648
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 74897191cac7559237e961b7600a3ed478d11e58
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fa350924503f430ec0494cc5e1eb17f7878084a1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826683"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756851"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -135,7 +137,7 @@ _**最終更新日:** 2014-08-04_
 </colgroup>
 <thead>
 <tr class="header">
-<th>パフォーマンスカウンター</th>
+<th>パフォーマンス カウンター</th>
 <th>しきい値</th>
 </tr>
 </thead>

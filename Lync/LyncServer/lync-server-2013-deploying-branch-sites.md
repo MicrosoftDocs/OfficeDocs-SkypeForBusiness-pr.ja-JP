@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ブランチ サイトの展開'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying branch sites
 ms:assetid: 1475dee0-66ae-4ee5-b6f1-7409b4bbff45
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398217(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183483
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6c96a8c99b6f80e7e70f3129e502d33b93a73f42
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: facfda5d1d7ce67ea08f71cbfb943792eeced7a1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833560"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729507"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,7 +51,7 @@ _**最終更新日:** 2012-09-21_
 
 Survivable Branch Appliance または Survivable ブランチサーバーを使用しているブランチサイトでは、このようなソリューションを使用することなく、広域ネットワークまたはセントラルサイトの障害が発生した場合よりも高い弾力性があります。 たとえば、Survivable Branch Appliance または Survivable Branch Server が展開されているサイトでは、ブランチサイトをセントラルサイトに接続しているネットワークがダウンしている場合でも、ユーザーは PSTN 通話の発信と受信を行うことができます。 ブランチサイトの回復性を実現するもう1つの方法として、PSTN ゲートウェイまたは SIP トランクを使用して、ブランチサイトでのフルスケールの Lync Server 展開を利用することができます。
 
-前提条件などの計画上の考慮事項を含む、組織に適したブランチサイトの展開の詳細については、「 [Lync Server 2013 での PSTN 接続の計画](lync-server-2013-planning-for-pstn-connectivity.md)」および「 [lync でのブランチサイトボイスの回復性の計画」を参照してください。](lync-server-2013-planning-for-branch-site-voice-resiliency.md)計画ドキュメントのサーバー2013
+前提条件などの計画に関する考慮事項を含む、組織に適したブランチサイトの展開の詳細については、「 [Lync server 2013 での PSTN 接続の計画](lync-server-2013-planning-for-pstn-connectivity.md)」および「計画ドキュメントの[lync server 2013 でのブランチサイトのボイスの回復性の計画](lync-server-2013-planning-for-branch-site-voice-resiliency.md)」を参照してください。
 
 <div>
 
