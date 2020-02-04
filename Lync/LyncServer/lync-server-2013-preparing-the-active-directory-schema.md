@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Active Directory スキーマの準備'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Preparing the Active Directory schema
 ms:assetid: 067726ae-fd3f-4133-a32f-26d2603ac674
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398119(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183300
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5479bfbb0774ddd68015de470de082f0cc185b98
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 572f531b57c504bda210f8f21298076428342b62
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823960"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747397"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34823960"
 
 _**最終更新日:** 2012-08-27_
 
-Active Directory ドメインサービスの準備を始める前に、Windows メモ帳などのテキストエディターを使用してスキーマファイルを開くか、「 [Active directory スキーマの拡張機能、クラス、および Lync Server 2013 で使用され](lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md)ているすべてのアクティブな属性を確認する」を参照してください。Lync Server 2013 で変更されるディレクトリドメインサービスのスキーマ拡張機能。 Lync Server では、次の4つのスキーマファイルが使用されます。
+Active Directory ドメインサービスの準備を始める前に、Windows メモ帳などのテキストエディターを使用してスキーマファイルを開くか、lync server [2013 で使用さ](lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md)れている Active Directory ドメインサービスのスキーマ拡張機能を確認して、lync server 2013 で変更されるすべての Active Directory ドメインサービスのスキーマ拡張を確認することができます。 Lync Server では、次の4つのスキーマファイルが使用されます。
 
   - Microsoft Exchange Server との相互運用性を実現するために使用される ExternalSchema. .ldf
 

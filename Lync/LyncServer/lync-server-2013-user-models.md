@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ユーザーモデル'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync Server 2013 user models
 ms:assetid: c551371c-d740-4372-bada-f0d713ec0d33
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398811(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733811
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8185fc2fdb92f907eb013349b8a202df2b7b62bb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f8f45b3ea11911ea7a3dce36b0b6a9d64ac1e690
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848359"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744587"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -63,11 +65,11 @@ _**最終更新日:** 2013-10-07_
 </tr>
 <tr class="even">
 <td><p>Active Directory ユーザーの割合</p></td>
-<td><p>組織内のすべての Active Directory ユーザーの 70% が Lync Server に対して有効になっていることを前提としています。 これらの有効なユーザーの 80% は、毎日 Lync Server にログオンしています (80% の同時実行数)。 この同時ユーザー数は、以降の説明における数値の基盤です。</p></td>
+<td><p>組織内のすべての Active Directory ユーザーの70% が Lync Server に対して有効になっていることを前提としています。 これらの有効なユーザーの80% は、毎日 Lync Server にログオンしています (80% の同時実行数)。 この同時ユーザー数は、以降の説明における数値の基盤です。</p></td>
 </tr>
 <tr class="odd">
 <td><p>Active Directory の変更</p></td>
-<td><p>ここでは、ユーザーの総数の 0.5% が毎週 Active Directory の Lync に対して作成され、有効になっていることを前提としています。また、合計ユーザーの 0.5% は、1週間の Active Directory と Lync から無効化されています。 5% のユーザーは、少なくとも1つの Active Directory 属性を毎週変更しています。</p></td>
+<td><p>ここでは、ユーザーの総数の0.5% が毎週 Active Directory の Lync に対して作成され、有効になっていることを前提としています。また、合計ユーザーの0.5% は、1週間の Active Directory と Lync から無効化されています。 5% のユーザーは、少なくとも1つの Active Directory 属性を毎週変更しています。</p></td>
 </tr>
 <tr class="even">
 <td><p>Active Directory 配布グループ</p></td>
@@ -81,19 +83,19 @@ _**最終更新日:** 2013-10-07_
 </tr>
 <tr class="odd">
 <td><p>VoIP (ボイス オーバー IP) ユーザー</p></td>
-<td><p>Lync Server ユーザーの 60% はユニファイドコミュニケーション (UC) に対応しています (つまり、電話番号は Lync Server によって所有されています)。</p></td>
+<td><p>Lync Server ユーザーの60% はユニファイドコミュニケーション (UC) に対応しています (つまり、電話番号は Lync Server によって所有されています)。</p></td>
 </tr>
 <tr class="even">
 <td><p>登録済みクライアントの配分</p></td>
-<td><p>lync、Lync Phone Edition など、クライアントの 65% が Lync 2013 ソフトウェアを実行します。</p>
-<p>以前のバージョンの Lync からクライアントソフトウェアを実行しているクライアントの 30%</p>
-<p>Lync Web App を使用しているクライアントの 5%</p>
+<td><p>lync、Lync Phone Edition など、クライアントの65% が Lync 2013 ソフトウェアを実行します。</p>
+<p>以前のバージョンの Lync からクライアントソフトウェアを実行しているクライアントの30%</p>
+<p>Lync Web App を使用しているクライアントの5%</p>
 <p>モビリティが有効である場合、ユーザーの 40% が、前述した登録済みの他のクライアント オプションと同時にモビリティを使用していると仮定します。この場合、クライアントの Multiple Point of Presence (MPOP) 比率が 1:1.9 であるとします。モビリティを無効にすると、MPOP 比率は 1:1.5 になります。</p></td>
 </tr>
 <tr class="odd">
 <td><p>リモート ユーザーの分散</p></td>
 <td><p>70% のユーザーが内部接続します。</p>
-<p>エッジサーバーとディレクター経由で接続しているユーザーの 30%</p></td>
+<p>エッジサーバーとディレクター経由で接続しているユーザーの30%</p></td>
 </tr>
 <tr class="even">
 <td><p>連絡先の分散</p></td>
@@ -123,7 +125,7 @@ _**最終更新日:** 2013-10-07_
 <li><p>連絡先の 20% がフェデレーション パートナー。</p>
 <p>各ユーザーの連絡先リストに 1 つの配布グループが含まれます。パフォーマンス テスト用に、配布グループは常に拡大していると想定します。</p></li>
 </ul>
-<p>ユーザーの連絡先の 25% は XMPP を使用しています。</p></td>
+<p>ユーザーの連絡先の25% は XMPP を使用しています。</p></td>
 </tr>
 <tr class="odd">
 <td><p>セッション時間</p></td>
@@ -240,14 +242,14 @@ _**最終更新日:** 2013-10-07_
 <td><p>電話会議クライアントの配分</p></td>
 <td><p>予定されたミーティングの場合:</p>
 <ul>
-<li><p>会議ユーザーの 65% は Lync 2013 を使用しています。</p></li>
-<li><p>会議ユーザーの 5% は Microsoft Lync Web App を使用しています。</p></li>
-<li><p>会議ユーザーの 30% は、Microsoft Lync 2010、Office Communicator 2007 R2、Office Communicator 2007、Microsoft Office Communicator Web Access (2007 リリース) など、以前のクライアントを使用しています。</p></li>
+<li><p>会議ユーザーの65% は Lync 2013 を使用しています。</p></li>
+<li><p>会議ユーザーの5% は Microsoft Lync Web App を使用しています。</p></li>
+<li><p>会議ユーザーの30% は、Microsoft Lync 2010、Office Communicator 2007 R2、Office Communicator 2007、Microsoft Office Communicator Web Access (2007 リリース) など、以前のクライアントを使用しています。</p></li>
 </ul>
 <p>予約されていないミーティングの場合:</p>
 <ul>
-<li><p>会議ユーザーの 70% は Lync 2013 を使用しています。</p></li>
-<li><p>会議ユーザーの 30% は、Microsoft Lync 2010、Office Communicator 2007 R2、Office Communicator 2007、Microsoft Office Communicator Web Access (2007 リリース) など、以前のクライアントを使用しています。</p></li>
+<li><p>会議ユーザーの70% は Lync 2013 を使用しています。</p></li>
+<li><p>会議ユーザーの30% は、Microsoft Lync 2010、Office Communicator 2007 R2、Office Communicator 2007、Microsoft Office Communicator Web Access (2007 リリース) など、以前のクライアントを使用しています。</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -451,7 +453,7 @@ _**最終更新日:** 2013-10-07_
 
 エンタープライズ Voip 通話には、次の前提条件が適用されます。
 
-  - ユーザーの 50% はエンタープライズ Voip に対して有効になっており、これらのユーザーの 60% は PSTN 通話に対応しています。
+  - ユーザーの50% はエンタープライズ Voip に対して有効になっており、これらのユーザーの60% は PSTN 通話に対応しています。
 
   - PSTN 通話が有効になっているユーザーはそれぞれ、混雑時に 4 回の PSTN 通話を行う。各通話の通話時間は 3 分。
 

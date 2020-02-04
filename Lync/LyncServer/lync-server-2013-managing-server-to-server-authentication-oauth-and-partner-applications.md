@@ -3,6 +3,8 @@ title: サーバー間認証 (OAuth) とパートナーアプリケーション�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing server-to-server authentication (OAuth) and partner applications
 ms:assetid: 38848373-c8c6-4097-bf7f-699fe471348d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204817(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183894
 ms.date: 05/15/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b4cdfd80c368558ee034369eba0ca0cb9e89ecea
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 01de2856b8923fff76cf33dda7d7e6ba21889c2e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827782"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765688"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

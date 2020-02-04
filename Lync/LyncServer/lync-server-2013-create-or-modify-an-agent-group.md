@@ -3,6 +3,8 @@ title: 'Lync Server 2013: エージェントグループを作成または変更
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify an agent group
 ms:assetid: f1461fff-51c1-4f4b-9311-8cba02c333fc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205370(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185784
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a0a2765e9ba72501b148e61d0d38789a46b2c3bc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 99fed5bf80979ef807f45ce7e5ecdc8e8a16329b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833789"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739557"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -113,7 +115,7 @@ _**最終更新日:** 2014-02-07_
     
       - 新しい通話を、常に [**エージェント**] リストでのリスト順でエージェントに提供するには、[**シリアル**] をクリックします。
     
-      - Lync Server 2013 と応答グループアプリケーションにサインインしているすべてのエージェントへの新しい通話を同時に行うには、[招待] をクリックし**** ます。 エージェントとして構成されている Lync 2010 アテンダントユーザーは、待機中のすべての通話を、任意の順序で待機して応答できます。 通話は、それを受け入れた最初のエージェントに送信され、その後、他の Lync 2010 アテンダントユーザーが通話を表示しなくなります。
+      - Lync Server 2013 と応答グループアプリケーションにサインインしているすべてのエージェントへの新しい通話を同時に行うには **、[招待**] をクリックします。 エージェントとして構成されている Lync 2010 アテンダントユーザーは、待機中のすべての通話を、任意の順序で待機して応答できます。 通話は、それを受け入れた最初のエージェントに送信され、その後、他の Lync 2010 アテンダントユーザーが通話を表示しなくなります。
 
 10. [**エージェント**] で、エージェント リストの作成方法を指定します。
     
@@ -197,7 +199,7 @@ _**最終更新日:** 2014-02-07_
 
 [Lync Server 2013 での応答グループエージェントグループの管理](lync-server-2013-managing-response-group-agent-groups.md)  
 [CsService の入手](https://docs.microsoft.com/powershell/module/skype/Get-CsService)  
-[新規-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/New-CsRgsAgentGroup)  
+[New-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/New-CsRgsAgentGroup)  
 [Set-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/Set-CsRgsAgentGroup)  
 [Get-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/Get-CsRgsAgentGroup)  
   

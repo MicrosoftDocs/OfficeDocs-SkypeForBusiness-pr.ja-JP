@@ -3,6 +3,8 @@ title: 'Lync Server 2013: プッシュ通知設定に関する情報の表示'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Viewing information about push notification settings
 ms:assetid: be5c6b01-4294-4d17-9772-fed40201e8a5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721868(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733801
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da9279d09ab3b344514a472f3fb0f38e7071aabd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 22d79d16980c29907aa4e254d4be7eaee2fcfaae
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848179"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757341"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34848179"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-23_
+_**トピックの最終更新日:** 2013-02-23_
 
 プッシュ通知は、モバイルアプリケーションが非アクティブになっている場合でも、バッジ、アイコン、または通知の形式でモバイルデバイスに送信できます。 プッシュ通知は、新規または不在着信した IM の招待状やボイスメールなどのイベントをユーザーに通知します。 Lync Server 2013 コントロールパネルまたは Lync Server 2013 Management Shell を使用して、モバイルデバイスの情報プッシュ通知の設定を表示できます。
 
@@ -55,7 +57,7 @@ _**最終更新日:** 2013-02-23_
 
 ## <a name="viewing-push-notification-information-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用したプッシュ通知情報の表示
 
-プッシュ通知の構成設定を表示するには、Windows PowerShell と、" **Get-Cspの設定**" コマンドレットを使用します。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、「Lync Server Windows PowerShell のブログ記事」を参照してください[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。「リモート PowerShell を使用して Microsoft Lync Server 2010 を管理する」を参照してください。
+プッシュ通知の構成設定を表示するには、Windows PowerShell と、" **Get-Cspの設定**" コマンドレットを使用します。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 <div>
 
