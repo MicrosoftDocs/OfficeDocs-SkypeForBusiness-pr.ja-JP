@@ -3,6 +3,8 @@ title: オンプレミスのユニファイドメッセージングを統合す�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment process for integrating on-premises Unified Messaging and Lync Server
 ms:assetid: 269a4436-f09f-415b-96ab-49a64370a385
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425737(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183664
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7147a83bad1ed8b5cacc369d8d64e71fcaac32b1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 76a45210fa90e5d2493885e54f07bb922f6d0495
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833479"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762615"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34833479"
 
 _**最終更新日:** 2012-12-17_
 
-Exchange ユニファイドメッセージング (UM) と Lync Server 2013 を統合する場合は、このトピックで説明するタスクを実行する必要があります。 また、「[オンプレミスのユニファイドメッセージングと Lync Server 2013 の統合に関するガイドライン](lync-server-2013-guidelines-for-integrating-on-premises-unified-messaging.md)」で説明されている計画と展開のベストプラクティスを確認してください。 このトピックでは、Lync Server 2013 を併置された仲介サーバーと共に展開し、Lync Server 2013 のユーザーを有効にしていることを前提としていますが、エンタープライズ Voip を有効にするための展開と構成の手順をすべて実行しているとは限りません。展開ドキュメントにある「 [Lync Server 2013 でのエンタープライズ voip の展開](lync-server-2013-deploying-enterprise-voice.md)」で説明します。
+Exchange ユニファイドメッセージング (UM) と Lync Server 2013 を統合する場合は、このトピックで説明するタスクを実行する必要があります。 また、「[オンプレミスのユニファイドメッセージングと Lync Server 2013 の統合に関するガイドライン](lync-server-2013-guidelines-for-integrating-on-premises-unified-messaging.md)」で説明されている計画と展開のベストプラクティスを確認してください。 このトピックでは、お客は、併置された仲介サーバーと共に Lync server 2013 を展開しており、lync Server 2013 のユーザーを有効にしていることを前提としていますが、展開ドキュメントに「[エンタープライズ 2013 voip を導入](lync-server-2013-deploying-enterprise-voice.md)する」の説明に従って、エンタープライズ voip を有効にするための展開と構成の手順をすべて実行
 
 <div>
 

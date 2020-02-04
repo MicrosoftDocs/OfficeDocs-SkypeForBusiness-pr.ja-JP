@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 簡易 URL の DNS 要件'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS requirements for simple URLs
 ms:assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425874(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183912
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: adcf537db908fcc0b69e95bec99b73a0e57e9ab4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bfc827a1cd48bdc6a7a15b8ba54f7ac451d1b352
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833378"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737377"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -198,7 +200,7 @@ Lync Server では、次の3つの簡単な Url (会議、ダイヤルイン、�
 
 
 > [!NOTE]  
-> ネットワークで<EM>hairpinning</EM> (組織内から送信されるトラフィックを含む、すべての単純な url トラフィックをルーティングする) が使用されている場合は、外部 geodns アドレスを構成して、単に会議のシンプル url を解決することができます。その外部住所。
+> ネットワークで<EM>hairpinning</EM> (組織内のトラフィックを含む、すべての単純な url トラフィックをルーティングします) が使用されている場合は、外部 geodns アドレスを構成して、その外部アドレスのみを対象にした単純 url を解決することができます。
 
 
 

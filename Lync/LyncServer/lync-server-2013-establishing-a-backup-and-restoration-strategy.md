@@ -3,6 +3,8 @@ title: 'Lync Server 2013: バックアップと復元の計画を立てる'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Establishing a backup and restoration strategy
 ms:assetid: f545a75f-bbc4-4968-b510-8f6f3920112b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202195(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541532
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d378c66ae820ef0be7b7b3b0492b023863e977ea
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5ee1a13667e28ad374f538d61f6cfd941d31fade
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833194"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735266"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -73,7 +75,7 @@ Lync Server のバックアップと復元の計画を作成するには、組�
 
   - **バックアップの場所**   ローカルまたはリモートでバックアップを保持するかどうかを指定し、セキュリティとアクセシビリティを考慮する。 バックアップに使用するメディアを指定します。
 
-  - **ハードウェアとソフトウェアの要件**   特定のハードウェアおよびソフトウェア要件を特定して文書化します。これには、特定のコンポーネントのバックアップストレージと復元のためのハードウェア、またはに必要なソフトウェアとネットワーク接続が含まれます。バックアップと復元をサポートします。 ハードウェアとソフトウェアの要件を開発する際には、次のようなさまざまな復元シナリオを念頭に置いてください。
+  - **ハードウェア要件とソフトウェア要件**   については、バックアップの保存方法、特定のコンポーネントの復元方法、バックアップと復元をサポートするために必要なソフトウェアとネットワーク接続のハードウェアなど、特定のハードウェアとソフトウェアの要件を特定して文書化します。 ハードウェアとソフトウェアの要件を開発する際には、次のようなさまざまな復元シナリオを念頭に置いてください。
 
   - **復元シナリオ**   ここでは、次のシナリオを対象とした復元プロセスについて説明します。
     

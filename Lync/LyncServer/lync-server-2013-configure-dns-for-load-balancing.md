@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 負荷分散の DNS 構成'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure DNS for load balancing
 ms:assetid: 1b2e8414-8676-4872-8ecf-ea07196f74de
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398251(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e370d3b66e82b02bd5668fc1c9cab4ee41da759
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f5b68bf226c71d65835791577ab9a45f18b2a10e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840390"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758355"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 移行したユーザーのロールバック'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Roll back migrated users
 ms:assetid: bfabaf0b-9a42-4057-b729-a7ab9eee8c72
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205224(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185286
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 57462cee6c4996f0beb51290f8382a1736d3e635
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5e8b8c53f835bbbaa363a91ef547dd1d301c8976
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822441"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732907"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -77,7 +79,7 @@ _**最終更新日:** 2012-10-07_
 
 </div>
 
-次の手順では、ユーザーの連絡先をロールバックする方法を説明します。 ユーザーコマンドレットを**** 使用して lync server 2013 と lync server 2010 の間でユーザーを移動する場合は、ユーザーが lync server 2013 から lync にユーザーを移行するときに、ユーザーの**移動**によって unifed の連絡先ストアが自動的にロールバックされるため、次の手順をスキップできます。サーバー2010。 **Move-CsUser**はユニファイド連絡先ストアポリシーを無効にしないため、ユーザーが Lync Server 2013 に戻ると、統合連絡先ストアへの移行が繰り返されます。
+次の手順では、ユーザーの連絡先をロールバックする方法を説明します。 ユーザーコマンドレットを使用**して Lync** server 2013 と lync server 2010 の間でユーザーを移動する場合は、ユーザーが lync server 2013 から lync server 2010 にユーザーを移動したときに、ユーザーの**移動**によって unifed の連絡先ストアが自動的にロールバックされるため、次の手順をスキップできます。 **Move-CsUser**はユニファイド連絡先ストアポリシーを無効にしないため、ユーザーが Lync Server 2013 に戻ると、統合連絡先ストアへの移行が繰り返されます。
 
 <div>
 

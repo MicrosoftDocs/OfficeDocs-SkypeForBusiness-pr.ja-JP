@@ -3,6 +3,8 @@ title: 'Lync Server 2013: IP アドレスの種類をエッジ サーバーに�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploy IP address types on an Edge Server
 ms:assetid: 6e2fe7e8-6e90-4d1a-8fc5-e3be92c46571
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204984(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184435
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a094a39fd74ab30ee1dd3a5a3da4e777bcf7e338
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ece4b55f42958916876539f05b951e862e0d493f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833573"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729667"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

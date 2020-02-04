@@ -3,6 +3,8 @@ title: Exchange ユニファイドメッセージングの連絡先オブジェ�
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Move Exchange Unified Messaging Contact objects
 ms:assetid: 35c7e987-41b5-4798-b617-3303f20e52e3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688022(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733612
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 946bf7221ab9f4c5a7111839bca25dabaad31d82
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d79354522675daaf221052579b0863899d1176ee
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848037"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756041"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34848037"
 
 _**最終更新日:** 2012-10-19_
 
-自動応答 (AA) および加入者アクセス (SA) 連絡先オブジェクトを新しい Lync Server 2013 の展開に移行するには、まず、**従来の Office Communications Server 2007 R2 の展開から新しい Lync server 2013 展開にオブジェクトを移動します。CsExUmContact**と**移動-csexumcontact**コマンドレット。 Exchange サーバーで、 **Exchucutil** Windows PowerShell スクリプトを実行して、新しく展開された Lync プールに対して次の操作を行います。
+自動応答 (AA) および加入者アクセス (SA) の連絡先オブジェクトを新しい Lync Server 2013 の展開に移行するには、まず、従来の Office Communications Server 2007 R2 の展開から新しい Lync Server 2013 の展開にオブジェクトを移動します。これには、 **csexumcontact**と**Move-csexumcontact**コマンドレットを使用します。 Exchange サーバーで、 **Exchucutil** Windows PowerShell スクリプトを実行して、新しく展開された Lync プールに対して次の操作を行います。
 
   - ユニファイドメッセージング IP ゲートウェイに追加します。
 
@@ -61,7 +63,7 @@ _**最終更新日:** 2012-10-19_
     
         Get-CsExUmContact -Filter {RegistrarPool -eq "pool01.contoso.net"} | Move-CsExUmContact -Target pool02.contoso.net
     
-    連絡先オブジェクトが移動されたことを確認する**** には、 **RegistrarPool**コマンドレットを実行し、新しいプールをポイントしていることを確認します。
+    連絡先オブジェクトが移動されたことを確認するには、 **RegistrarPool**コマンドレットを実行**し、新しい**プールをポイントしていることを確認します。
 
 </div>
 

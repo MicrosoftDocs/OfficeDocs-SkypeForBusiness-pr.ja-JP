@@ -3,6 +3,8 @@ title: 'Lync Server 2013: フロントエンド サーバー、インスタン�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Defining your requirements for Front End Servers, instant messaging, and presence
 ms:assetid: c21198bc-520c-4d17-8b84-7ff1475b9b0a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412956(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185319
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 176b73f6d82c03e3bcdb0f2b0066752cd68f307c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: af371d116948d348b49c552dfe53290c1dae1900
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833688"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743417"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +49,7 @@ _**最終更新日:** 2013-10-07_
 
   - ****   Lync Server を実行している企業の会社からフェデレーションされたユーザー。 自社ユーザーがこうしたユーザーに容易にコンタクトできるようにするには、これらの企業とフェデレーション関係を作成する必要があります。
 
-  - **** インターネットサービス、Yahoo\!、AOL の Windows Live ネットワークによって提供された im サービスなどのパブリック im サービスを公開しているユーザー、および拡張メッセージングとプレゼンスプロトコル (xmpp) を使用するプロバイダーとサーバーのユーザー。   Google トーク。
+  - ****   パブリック im サービスを利用する一般ユーザー (インターネットサービス、Yahoo\!、AOL の Windows Live ネットワークによって提供された im サービス、または Google Talk などの拡張メッセージングとプレゼンスプロトコル (xmpp) を使用するプロバイダーおよびサーバーのユーザー。
     
     <div>
     

@@ -3,6 +3,8 @@ title: Lync Server 2010 Central Management Server を Lync Server 2013 に移動
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Move the Lync Server 2010 Central Management Server to Lync Server 2013
 ms:assetid: 30cc98f2-1916-4dbe-99d0-8df5368ed3ec
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688013(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733602
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: abcb361beb82b98cd765b3797b63b22c280fdf70
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5f301c8f6e11ca3c8f19ed167489bb3fbf51fc63
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848030"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743697"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ Lync server 2010 から Lync Server 2013 に移行した後、従来の Lync Ser
 
 サーバーの全体管理サーバーが正常に移動されたら、元のフロントエンドサーバーから中央管理サーバーのデータベースを削除する必要があります。 サーバーの全体管理サーバーデータベースの削除については、「[フロントエンドプールの SQL Server データベースを削除](remove-the-sql-server-database-for-a-front-end-pool.md)する」を参照してください。
 
-Lync server 管理シェルで Windows PowerShell コマンドレット**CsManagementServer**を使用して、lync SERVER 2010 sql server データベースから lync SERVER 2013 sql server データベースにデータベースを移動し、次にその lync をポイントして lync を指すようにします。サーバー2013サーバーの全体管理サーバーの場所。
+Lync server 管理シェルで Windows PowerShell コマンドレット**CsManagementServer**を使用して、lync SERVER 2010 sql server データベースから lync SERVER 2013 sql server データベースにデータベースを移動し、次に、lync Server 2013 中央管理サーバーの場所を指すように SCP を更新します。
 
 <div>
 

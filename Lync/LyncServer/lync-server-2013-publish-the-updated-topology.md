@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 更新したトポロジの公開'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Publish the updated topology
 ms:assetid: 59455dd1-6a9e-433f-a714-d3636c068100
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204910(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184203
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a9f3be1443f98444712a66942417e1812181efe7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4500d12c7b0a054ccce910f27c80f9aaa83eccaf
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823890"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747067"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +45,7 @@ _**最終更新日:** 2012-10-01_
 
 トポロジを公開する前に、常設チャットサーバー用のデータベースをインストールします。 [**アクション**]、[**データベースのインストール**] の順に選択して、トポロジビルダーを使用してデータベースをインストールします。
 
-1.  Lync Server 2013 を実行しているか、Lync Server 管理ツールがインストールされているコンピューターの場合は、**ドメイン管理**者グループと**RTCUniversalServerAdmins**グループの両方のメンバーであるアカウントを使用してログオンします。フルコントロールがあります。常設チャットサーバーファイルストアで使用するアクセス許可 (読み取り、書き込み、変更) (Topology Builder では、必要な随意アクセス制御リスト (Dacl))、または同等のユーザー権限を持つアカウントを構成することができます。
+1.  Lync Server 2013 を実行しているか、Lync Server 管理ツールがインストールされているコンピューターで、**ドメイン管理者**グループと**RTCUniversalServerAdmins**グループの両方のメンバーで、かつ永続的なチャットサーバーファイルストアに使用するフルコントロールのアクセス許可 (つまり、読み取り、書き込み、変更) を使用する (Topology Builder では、必要な随意アクセス制御リスト (dacl))、または同等のユーザー権限を持つアカウントを使用してログオンします。
 
 2.  トポロジビルダーを起動します。 [**既存の展開からトポロジをダウンロード**] を選択するか、**ローカルファイル**をローカルで保存した場合は、[トポロジを開く] をクリックします。
 

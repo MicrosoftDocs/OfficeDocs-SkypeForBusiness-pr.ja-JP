@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ユーザーアクティビティレポート'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: User Activity Report
 ms:assetid: 3aa6fef2-ea02-4f0f-93e8-fa2e0a953d79
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558638(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183862
 ms.date: 02/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 04a7dd3dd1f2a061a327cc2a0bac79ee05f21d82
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 583c647ac3cdab290f1833539abbbd033ea89410
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848361"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744627"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -71,7 +73,7 @@ Ken.my
 
 
 > [!WARNING]  
-> 技術的には、一部のユーザーアクティビティが unrecorded になることもあります。 Lync Server は、すべての通話に関する情報を保持していますが、通話についての情報がデータベースに書き込まれることはありません。 Lync Server は、非常に正確に表示されるように設計されていますが、Lync Server 2013 の使用方法については、必ずしもはっきりしません。 (すべての通話の 100% が記録されるという保証はありません。 Lync Server の監視を課金システムとして使用しないようにする必要がある理由について説明します)。<BR>次に、監視レポートレポートで表示できるのは、最大で1000レコードだけです。 これは、ユーザー アクティビティの量と作業時間によっては、データベースに実際に格納されたデータの一部がクエリでは返されない場合があることを意味します。
+> 技術的には、一部のユーザーアクティビティが unrecorded になることもあります。 Lync Server は、すべての通話に関する情報を保持していますが、通話についての情報がデータベースに書き込まれることはありません。 Lync Server は、非常に正確に表示されるように設計されていますが、Lync Server 2013 の使用方法については、必ずしもはっきりしません。 (すべての通話の100% が記録されるという保証はありません。 Lync Server の監視を課金システムとして使用しないようにする必要がある理由について説明します)。<BR>次に、監視レポートレポートで表示できるのは、最大で1000レコードだけです。 これは、ユーザー アクティビティの量と作業時間によっては、データベースに実際に格納されたデータの一部がクエリでは返されない場合があることを意味します。
 
 
 
@@ -345,7 +347,7 @@ Ken.my
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>[役割]</strong></p></td>
+<td><p><strong>役割</strong></p></td>
 <td><p>いいえ</p></td>
 <td><p>電話会議におけるユーザーの役割 (発表者など)。</p></td>
 </tr>

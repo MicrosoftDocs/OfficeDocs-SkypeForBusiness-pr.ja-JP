@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ネットワークサイト情報の表示'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Viewing network site information
 ms:assetid: 24a97d98-b168-4016-81bf-c2c478092b87
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687996(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733586
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 788440d02a3f41198a870f8419cece4dc8e66900
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6d3c6b0e4855cd8620205a70d6538465c32c0f0d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848163"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757261"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34848163"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-23_
+_**トピックの最終更新日:** 2013-02-23_
 
 [ネットワークサイト] は、通話受付制御 (CAC) または拡張9-1-1 展開の各領域内に構成されているオフィスまたは場所です。 ネットワークサイトの情報は、Lync Server 2013 コントロールパネルまたは Lync Server 管理シェルで確認できます。 ネットワークサイトの作成または変更の詳細については、「 [Lync Server 2013 でネットワークサイトを作成または変更する](lync-server-2013-creating-or-modifying-network-sites.md)」を参照してください。
 
@@ -66,7 +68,7 @@ _**最終更新日:** 2013-02-23_
 
 ## <a name="viewing-network-site-information-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用したネットワークサイト情報の表示
 
-ネットワークサイトの情報を表示するには、Windows PowerShell を使用するか、または CsNetworkSite コマンドレットを使用します。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、「Lync Server Windows PowerShell のブログ記事」を参照してください[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。「リモート PowerShell を使用して Microsoft Lync Server 2010 を管理する」を参照してください。
+ネットワークサイトの情報を表示するには、Windows PowerShell を使用するか、または CsNetworkSite コマンドレットを使用します。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 <div>
 

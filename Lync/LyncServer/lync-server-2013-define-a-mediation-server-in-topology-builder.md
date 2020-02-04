@@ -3,6 +3,8 @@ title: 'Lync Server 2013: トポロジビルダーで仲介サーバーを定義
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Define a Mediation Server in Topology Builder
 ms:assetid: 59d8f5ba-5064-4ea5-b4bf-2b9736e0fedd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398391(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184217
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7f1356217b9effe3f2282f6931b601e84aa46770
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bdff7da86bd7298511ea0ef384b2736a47882a03
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833726"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742557"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -105,7 +107,7 @@ _**最終更新日:** 2013-03-25_
 
 
 > [!NOTE]  
-> このセクションでは、既に少なくとも1つのフロントエンドプールをセットアップしていることを前提としています。詳細については、「 <A href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">Lync server 2013 でフロントエンドプールまたは Standard Edition server を定義して構成</A>する」および「展開ガイドの<A href="lync-server-2013-publish-the-topology.md">lync server 2013 でトポロジを公開</A>する」を参照してください。documentation.
+> このセクションでは、少なくとも1つのフロントエンドプールを既にセットアップしていることを前提としています。「 <A href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">Lync server 2013 でフロントエンドプールまたは Standard Edition サーバーを定義して構成</A>する」の説明に従って、展開ガイドドキュメントの「 <A href="lync-server-2013-publish-the-topology.md">lync server 2013 でトポロジを公開</A>する」を参照してください。
 
 
 
@@ -144,7 +146,7 @@ _**最終更新日:** 2013-03-25_
 
 8.  [**エッジ サーバーの選択**] ページで、次のどちらかの操作を行います。
     
-      - エンタープライズ Voip が有効になっている外部ユーザーに PSTN 接続を提供する場合は、[**この仲介サーバーで使用されるエッジプールを選択して**ください] で、この仲介サーバープールを使用して、pstn 接続を提供するエッジサーバープールの FQDN をクリックします。それらの外部ユーザーを選び、[**次へ**] をクリックします。
+      - エンタープライズ Voip が有効になっている外部ユーザーに PSTN 接続を提供する場合は、[**この仲介サーバーで使用されるエッジプールを選択**してください] で、この仲介サーバープールを使用してそれらの外部ユーザーへの pstn 接続を提供するエッジサーバープールの FQDN をクリックし、[**次へ**] をクリックします。
     
       - 外部ユーザーをエンタープライズボイスとして有効にする予定がない場合、または内部ネットワークの外部にいるユーザーに PSTN 接続を提供しない場合は、[**次へ**] をクリックします。
 

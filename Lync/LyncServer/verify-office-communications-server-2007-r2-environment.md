@@ -3,6 +3,8 @@ title: Office Communications Server 2007 R2 環境の確認
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Verify Office Communications Server 2007 R2 environment
 ms:assetid: e051bdd5-e7ef-4754-8705-900b2c57f37c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721906(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733840
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9369ad631b772e0a73677ab3214e24083426148a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0fb67868c9f7eddfe2b11b4238c5fdd1bd14d8e6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847928"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730907"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,7 +59,7 @@ Office Communications Server 2007 R2 を使用して、共存状態で Lync Serv
 
 4.  Office Communications Server 2007 R2 ユーザーの一覧を確認します。
     
-    ![OCS 管理ツールでユーザーを一覧表示]する(images/JJ721906.f6bb7c4f-cbed-4389-8d0a-69a28577f17a(OCS.15).jpg "OCS 管理ツールでユーザーを一覧表示")する
+    ![OCS 管理ツールでユーザーを一覧表示する](images/JJ721906.f6bb7c4f-cbed-4389-8d0a-69a28577f17a(OCS.15).jpg "OCS 管理ツールでユーザーを一覧表示する")
 
 **従来の XMPP フェデレーションパートナーの構成を確認する**
 

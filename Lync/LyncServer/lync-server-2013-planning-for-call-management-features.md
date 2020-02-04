@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 通話管理機能の計画'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for call management features
 ms:assetid: 5f557345-5a04-45d6-b274-c02dbfe41b33
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398421(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184298
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c799051615a75801640c63ade6fe6d23b8a62dda
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 206974500bd27c0cbecd902f9e87daf9a435c6dd
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825024"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41754627"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -52,7 +54,7 @@ _**最終更新日:** 2012-12-17_
 
   - **応答グループ**: ハント グループまたは対話型音声応答 (IVR) の質問と回答を使用して、着信通話をエージェントのグループにルーティングします。
 
-  - **お知らせ:**   割り当てられていない番号への通話に対してメッセージを再生するか、通話を別の場所またはその両方にルーティングします。
+  - **お知らせ:**    割り当てられていない番号への通話に対してメッセージを再生するか、通話を別の場所またはその両方にルーティングします。
 
 エンタープライズ VoIP の展開を計画している場合、これらの通話管理機能のいずれかまたはすべてを実装するように選択できます。
 

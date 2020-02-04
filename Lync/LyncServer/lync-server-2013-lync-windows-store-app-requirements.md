@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Lync Windows ストアアプリの要件'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync Windows Store app requirements
 ms:assetid: 5f2e0a40-8450-4f61-b6f6-913fc1906020
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ823129(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 50120200
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 806fb7a71232492be7ef01474136817b7808111e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9cc1ab2b397111cef1040592f29a11d55e5f1f64
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828426"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765325"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ Lync Server のオンプレミス展開を使用する組織は、Lync Windows �
 
 
 > [!NOTE]  
-> Lync server 2010 の場合は、lync server 2010 の累積的な更新プログラムを実行し<A class=uri href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2670352"> http://go.microsoft.com/fwlink/?linkid=3052&amp</A>ます (2 月 2012 (使用可能)、またはその後のすべてのサーバーの場合)。 ユーザーが会議に参加できるようにするには、Lync Server 2010 の累積的な<A class=uri href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2737915"> http://go.microsoft.com/fwlink/?linkid=3052&amp</A>更新プログラム (2012 年10月、2737915) をサーバー上で実行します。
+> Lync server 2010 の場合は、lync server 2010 の累積的な更新プログラムを実行します (2 月 2012 (使用<A class=uri href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2670352"> http://go.microsoft.com/fwlink/?linkid=3052&amp可能)、またはその</A>後のすべてのサーバーの場合)。 ユーザーが会議に参加できるようにするには、Lync Server 2010 の累積的な<A class=uri href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2737915"> http://go.microsoft.com/fwlink/?linkid=3052&amp</A>更新プログラム (2012 年10月、2737915) をサーバー上で実行します。
 
 
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: サポートされるサーバー移行パスと共存
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Supported server migration paths and coexistence scenarios
 ms:assetid: 2a6a730f-7f80-45f9-9540-3edfdaa265fb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425764(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183686
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 33b2ce878fef53f444e3834e8b1cd40286c24b0e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1b16b0c92954c004aa04b9cc665786badb9bf632
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848644"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731677"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -90,7 +92,7 @@ Lync Server 2013 データベースインスタンスには、Microsoft SQL Serv
 
 </div>
 
-特定の共存要件、および Lync Server 2010 または Office Communications Server 2007 R2 および Lync Server 2013 コンポーネントの共存と移行の詳細については、「 [Lync server 2010 から Lync server 2013](migration-from-lync-server-2010-to-lync-server-2013.md) [に移行する」を参照してください。Office Communications Server 2007 R2 から Lync Server 2013 へ](migration-from-office-communications-server-2007-r2-to-lync-server-2013.md)の移行に関するドキュメントを参照してください。 クライアントの混在バージョンサポートの詳細については、「 [Lync Server 2013 での以前の展開でサポートされているクライアント](lync-server-2013-supported-clients-from-previous-deployments.md)」を参照してください。
+特定の共存要件、および Lync Server 2010 または Office Communications Server 2007 R2 および Lync Server 2013 コンポーネントの共存と移行の詳細については、「 [Lync server 2010 から Lync server 2013 への移行](migration-from-lync-server-2010-to-lync-server-2013.md)と[office Communications server 2007 R2 から lync server 2013 へ](migration-from-office-communications-server-2007-r2-to-lync-server-2013.md)の移行について」を参照してください。 クライアントの混在バージョンサポートの詳細については、「 [Lync Server 2013 での以前の展開でサポートされているクライアント](lync-server-2013-supported-clients-from-previous-deployments.md)」を参照してください。
 
 </div>
 

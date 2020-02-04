@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 常設チャット サーバーの展開'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying Persistent Chat Server
 ms:assetid: e3b930fb-6855-47f0-b6b3-7dfae386540d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205357(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185717
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6a730057735f187dc5e5080d532515a4eb9db110
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7fe18bf750eabdb1f53c97a349b553da4f13dec8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833535"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740867"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -67,7 +69,7 @@ Lync Server 2013、常設チャットサーバーは Lync Server 2013 インフ�
 
 [トポロジビルダーを使用して、Lync Server 2013 展開に常設チャットサーバーを追加します。 Topology Builder を使用して、1つ以上の常設チャットサーバープールを追加できます。 任意のプールの場合と同様に、複数の常設チャットサーバープールを展開する場合と同じ展開手順に従います。 詳細については、「展開ドキュメントの[Lync Server 2013 の展開](lync-server-2013-deploying-lync-server.md)」を参照してください。
 
-利用可能なトポロジと、常設チャットサーバーをインストールするための技術およびソフトウェアの要件の詳細については、「 [Lync server 2013 での](lync-server-2013-planning-for-persistent-chat-server.md)常設チャットサーバーの計画」を参照してください。 [Lync Server 2013](lync-server-2013-how-persistent-chat-server-works.md)の計画ドキュメント、展開ドキュメント、または運用マニュアルに記載されています。また、[サポートされているドキュメントの lync server 2013 でサポートされているハードウェア](lync-server-2013-supported-hardware.md)。
+使用可能なトポロジと、常設チャットサーバーをインストールするための技術およびソフトウェアの要件の詳細については、計画ドキュメントの「Lync server 2013 での常設チャットサーバー[の計画](lync-server-2013-planning-for-persistent-chat-server.md)」を参照してください。これには、サポートドキュメントで、計画ドキュメント、展開ドキュメント、または運用マニュアルの lync server [2013](lync-server-2013-supported-hardware.md)での常設[チャットサーバーの2013動作](lync-server-2013-how-persistent-chat-server-works.md)計画
 
 証明書の取得、SQL Server データベースの作成、ファイルストアの作成の詳細については、「展開ドキュメントに[Lync Server 2013 を展開](lync-server-2013-deploying-lync-server.md)する」を参照してください。
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ウォッチャーノード構成のテスト'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing watcher node configuration
 ms:assetid: f9ecd85c-0ae9-4906-b786-6b002b5a77c6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn751537(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969667
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65d2c79de4f86e490244ef63948c263d8f387fc5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 920fc39d3800f83a2d40a613c391b2f0c93e4dac
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848405"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745267"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -104,9 +106,9 @@ Microsoft System Center Operations Manager を使って Lync Server 2013 を監�
 
 ウォッチャーノードのインストールによって作成されたウォッチャーノードレジストリキーの確認は完了しています。 検出された認証の種類は Negotiate です。
 
-テストユーザーの資格情報 sip: user1 @ atl-cs-001.litwareinc.com を credential management store で正常に検証しました。
+テストユーザーの資格情報 sip の存在が正常に検証されました: user1@ atl-cs-001.litwareinc.com (credential management store)。
 
-テストユーザーの資格情報 sip: user2 @ atl-cs-001.litwareinc.com を資格情報管理ストアで正常に検証しました。
+テストユーザーの資格情報 sip の存在が正常に検証されました: user2@ atl-cs-001.litwareinc.com (credential management store)。
 
 ウォッチャーノード構成で見つからないプールの確認が開始されました。 エラーが検出された場合は、印刷されます。
 

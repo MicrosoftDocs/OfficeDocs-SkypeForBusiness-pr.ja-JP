@@ -3,6 +3,8 @@ title: ベストプラクティスアナライザーを使用して展開をス�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using Best Practices Analyzer to scan your deployment for potential issues
 ms:assetid: 09c84509-dc91-4e7b-882b-3c467b6b026d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg591343(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183359
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 17c7d881ebc35a4f56207fedaa8533f0a3df3c7a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1f787268301570d4440240289c19fdd1e266a607
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848309"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744207"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -59,7 +61,7 @@ _**最終更新日:** 2012-10-21_
     
       - コンピューターにログオンするために使用した資格情報を使ってスキャンを実行するには、[ **Active Directory サーバーに接続**する] をクリックします。
     
-      - Active Directory ドメインサービス、エッジサーバー、または Exchange Server に使用する別の資格情報を指定するには、[**詳細なログオンオプションの表示**] をクリックし、個別の資格情報が必要な各チェックボックスをオンにして、資格情報を指定します。選択されているチェックボックスごとに、[ **Active Directory サーバーに接続する**] をクリックします。
+      - Active Directory ドメインサービス、エッジサーバー、または Exchange Server に使用する別の資格情報を指定するには、[**詳細なログオンオプションの表示**] をクリックし、個別の資格情報が必要な各チェックボックスをオンにして、選択したチェックボックスの資格情報を指定してから、[ **Active Directory サーバーに接続**] をクリックします。
     
     <div>
     
@@ -86,7 +88,7 @@ _**最終更新日:** 2012-10-21_
     
 
     > [!NOTE]
-    > ベストプラクティスアナライザーレポートとその報告事項について詳しくは、「 <A href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">Lync Server 2013 でのベストプラクティスアナライザーによって作成されたレポートの表示と操作</A>」と「<A href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">ベストプラクティスアナライザーによって識別される問題の分析と解決」をご覧ください。Lync Server 2013 の</A>場合。
+    > ベストプラクティスアナライザーレポートとその報告事項について詳しくは、「 <A href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">Lync server 2013 のベストプラクティスアナライザーで作成されたレポートの表示と操作</A>」と「 <A href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">lync server 2013 でのベストプラクティスアナライザーによって識別される問題の分析と解決</A>」をご覧ください。
 
     
     </div>

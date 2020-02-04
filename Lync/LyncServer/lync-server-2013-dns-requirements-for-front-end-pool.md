@@ -3,6 +3,8 @@ title: 'Lync Server 2013: フロントエンド プールの DNS 要件'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS requirements for Front End pool
 ms:assetid: 02d2aa6b-9e01-437b-a2df-00590280150d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398082(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183249
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3c033d8f1a4167e423d5663b0c9b0b7dbfb2d760
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 252bacd9818676155dcab0f84e3e1c5fcdb31b5d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833381"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765295"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +55,7 @@ _**最終更新日:** 2012-11-07_
 
 
 > [!IMPORTANT]  
-> 指定する名前が、サーバーで構成されているコンピューター名と同じである必要があります。 既定では、ドメインに参加していないコンピューターのコンピューター名は、FQDN ではなく、短い名前です。 トポロジ ビルダーでは、短い名前ではなく FQDN を使用します。 <STRONG>標準文字のみを使用する</STRONG>Lync Server、エッジサーバー、およびプールを実行しているサーバーの Fqdn を割り当てる場合は、– Z、a ~ z、0 ~ 9、ハイフンを含みます。 Unicode 文字およびアンダースコアは使用しないでください。 FQDN の非標準文字は、多くの場合、外部 DNS と公共の証明機関 (Ca) でサポートされていません (証明書の SN に FQDN を割り当てる必要があります)。
+> 指定する名前が、サーバーで構成されているコンピューター名と同じである必要があります。 既定では、ドメインに参加していないコンピューターのコンピューター名は、FQDN ではなく、短い名前です。 トポロジ ビルダーでは、短い名前ではなく FQDN を使用します。 Lync Server、エッジサーバー、およびプールを実行しているサーバーの Fqdn を割り当てるときは、標準の文字 (-Z、a ~ z、0 ~ 9、ハイフンを含む)<STRONG>のみを使用</STRONG>します。 Unicode 文字およびアンダースコアは使用しないでください。 FQDN の非標準文字は、多くの場合、外部 DNS と公共の証明機関 (Ca) でサポートされていません (証明書の SN に FQDN を割り当てる必要があります)。
 
 
 
@@ -218,7 +220,7 @@ _**最終更新日:** 2012-11-07_
 <tr class="even">
 <td><p>内部 DNS</p></td>
 <td><p>SRV</p></td>
-<td><p>_sipinternaltls の _tcp</p></td>
+<td><p>_sipinternaltls. .com _tcp</p></td>
 <td><p>pool01.fabrikam.com</p></td>
 <td><p>5061</p></td>
 <td><p>Lync 2013 クライアントを内部で動作するように自動構成する場合に必要です。</p></td>

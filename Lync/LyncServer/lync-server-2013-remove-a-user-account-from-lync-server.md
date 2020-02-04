@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Lync Server からユーザーアカウントを削除
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Remove a user account from Lync Server
 ms:assetid: 2f512aba-e358-45ae-af58-74312ee9c514
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688008(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733596
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9780e19fb608855d9c820285cc87582787ff896d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 97ee26fd15eb9df9174fd33cf9a45a6fe49411af
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823155"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746827"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,7 +59,7 @@ Lync Server 2013 で、以前に追加したユーザーアカウントを削除
 
 3.  左側のナビゲーション バーで [**ユーザー**] をクリックします。
 
-4.  [**ユーザーの検索**] ボックスに、表示名、名、姓、セキュリティアカウントマネージャー (SAM) アカウント名、SIP アドレス、またはもう一度有効にするユーザーアカウントの Ip Uniform リソース識別子 (URI) のすべてまたは最初の部分を入力します。[**検索**] をクリックします。
+4.  [**ユーザーの検索**] ボックスで、無効または再度有効にするユーザーアカウントの表示名、名、姓、セキュリティアカウントマネージャー (SAM) アカウント名、SIP アドレス、または行の Uniform resource IDENTIFIER (URI) のすべてまたは最初の部分を入力して、[**検索**] をクリックします。
 
 5.  テーブルで、削除するユーザーアカウントをクリックします。
 
@@ -71,7 +73,7 @@ Lync Server 2013 で、以前に追加したユーザーアカウントを削除
 
 ## <a name="removing-user-accounts-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用してユーザーアカウントを削除する
 
-ユーザーアカウントを削除するには、ユーザーの無効化コマンドレットを使用します。 このコマンドレットは、Lync Server 2013 Management Shell またはリモートセッション Windows PowerShell から実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、「Lync Server Windows PowerShell のブログ記事」を参照してください[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。「リモート PowerShell を使用して Microsoft Lync Server 2010 を管理する」を参照してください。
+ユーザーアカウントを削除するには、ユーザーの無効化コマンドレットを使用します。 このコマンドレットは、Lync Server 2013 Management Shell またはリモートセッション Windows PowerShell から実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 <div>
 

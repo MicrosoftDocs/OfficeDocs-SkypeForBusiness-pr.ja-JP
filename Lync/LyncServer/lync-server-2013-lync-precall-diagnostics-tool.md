@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Lync PreCall ツール'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync PreCall Diagnostics Tool
 ms:assetid: 0ff291ec-cfb4-43eb-b5d6-a7a325681e3f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn451255(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 56708404
 ms.date: 11/04/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1e22b542a5840714455d4abdb0a7163e6a8ba748
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 004d3b30dc2c2886eb7a2d8977f1da062277cc92
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832926"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742337"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -121,17 +123,17 @@ Lync PCD には、次の機能が含まれています。
 
   - サインインエラーの診断 (Windows 8 向け Lync PCD)
 
-![LYNC PCD 機能のサインインの進行状況を示すスクリーンショット](images/Dn451255.7e0eb891-1481-47ae-8d63-164468f69c96(OCS.15).png "LYNC PCD 機能のサインインの進行状況を示すスクリーンショット")
+![Lync PCD 機能のサインインの進行状況を示すスクリーンショット](images/Dn451255.7e0eb891-1481-47ae-8d63-164468f69c96(OCS.15).png "Lync PCD 機能のサインインの進行状況を示すスクリーンショット")
 
   - ネットワークメトリックのグラフィカル表示–ネットワーク MOS、パケット損失、および全画面表示とスナップビューでの着信のジッター。
 
 **全画面表示**
 
-![Precall 診断ツールのテスト結果グラフ](images/Dn451255.5d01fd94-9e59-4823-96c7-7a1c83dd7d31(OCS.15).png "Precall 診断ツールのテスト結果グラフ")
+![PreCall 診断ツールのテスト結果のグラフ](images/Dn451255.5d01fd94-9e59-4823-96c7-7a1c83dd7d31(OCS.15).png "PreCall 診断ツールのテスト結果のグラフ")
 
 **スナップビュー**
 
-![Precall のすべての診断ツールの使用率テスト結果](images/Dn451255.30501ba7-22d1-4db1-9297-56cf7dc6721c(OCS.15).png "Precall のすべての診断ツールの使用率テスト結果")
+![PreCall 診断ツール、使用状況テストの結果](images/Dn451255.30501ba7-22d1-4db1-9297-56cf7dc6721c(OCS.15).png "PreCall 診断ツール、使用状況テストの結果")
 
 </div>
 
@@ -149,7 +151,7 @@ Lync PCD には、次の機能が含まれています。
     
     Windows 8 システムで PCD を開始するには、スタート画面でアイコンを選ぶか、"すべての診断" を検索します。
     
-    ![Precall 診断ツールアイコン](images/Dn451255.c9800fde-54f6-4efe-bb35-1a38064ec380(OCS.15).png "Precall 診断ツールアイコン")
+    ![PreCall 診断ツール アイコン](images/Dn451255.c9800fde-54f6-4efe-bb35-1a38064ec380(OCS.15).png "PreCall 診断ツール アイコン")
 
 2.  ツールが起動したら、資格情報を提供するための推奨される方法を選択し、[**すべての診断ツールのオプション**] ダイアログボックスでネットワークの動作モードを選択して、[ **OK]** を選択します。
 

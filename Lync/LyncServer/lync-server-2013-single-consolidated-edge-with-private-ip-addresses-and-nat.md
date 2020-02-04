@@ -3,6 +3,8 @@ title: 'Lync Server 2013: プライベート IP アドレスと NAT を用いた
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Single consolidated edge with private IP addresses and NAT
 ms:assetid: e1e5189e-f17d-45e9-b177-e0e6f97f8951
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399001(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185691
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f37395f840e8811d343f11f6ee2a84bd4fcfbf82
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 188104797475b0e0b54c39b3b896478d80e5636b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848723"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732007"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34848723"
 
 _**最終更新日:** 2012-09-08_
 
-組織で、15000アクセスエッジサービスクライアント接続、1000アクティブな Lync Server Web 会議サービスクライアント接続、および500の同時 A/V Edge セッションのサポートが必要な場合、エッジサーバーの高可用性は使用できません。重要: このトポロジは、ハードウェアコストの削減と展開の簡素化という利点を提供します。 容量を増やす必要がある場合、または高可用性が必要な場合は、スケーリングされた統合エッジサーバートポロジを展開する必要があります。 詳細については、次のいずれかを参照してください。
+15000アクセスエッジサービスのクライアント接続、1000のアクティブな Lync Server Web 会議サービスクライアント接続、および500の同時 A/V Edge セッションのサポートが必要であり、エッジサーバーの高可用性が重要ではない場合、このトポロジは、ハードウェアコストの削減と展開の簡素化という利点をもたらします。 容量を増やす必要がある場合、または高可用性が必要な場合は、スケーリングされた統合エッジサーバートポロジを展開する必要があります。 詳細については、次のいずれかを参照してください。
 
   - <span></span>  
     [Lync Server 2013 における拡張統合エッジ、NAT によるプライベート IP アドレスを使用した DNS 負荷分散](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)

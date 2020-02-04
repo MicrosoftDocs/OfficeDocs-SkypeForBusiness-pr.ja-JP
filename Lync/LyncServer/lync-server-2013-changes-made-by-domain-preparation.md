@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ドメインの準備によって行われた変更'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Changes made by domain preparation
 ms:assetid: 9191221e-6166-4c2b-837e-fa73d90fdf80
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398742(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184845
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b674e2c3d65aeda22838dca08ac5b016fa83359
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cbdd1fa1fbb5bd7a396e17f478326a9e4dd700f8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840611"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730107"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -63,7 +65,7 @@ _**最終更新日:** 2010-10-18_
 <tbody>
 <tr class="odd">
 <td><p>読み取りコンテナー (継承されません)</p></td>
-<td><p><strong>うん</strong></p></td>
+<td><p><strong>はい</strong></p></td>
 <td><p><strong>はい</strong></p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
@@ -173,7 +175,7 @@ _**最終更新日:** 2010-10-18_
 <tbody>
 <tr class="odd">
 <td><p>読み取りコンテナー (継承されません)</p></td>
-<td><p><strong>うん</strong></p></td>
+<td><p><strong>はい</strong></p></td>
 <td><p><strong>はい</strong></p></td>
 </tr>
 </tbody>

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: トポロジの選択'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Choosing a topology
 ms:assetid: 23f2aeb6-fed9-4349-8fba-dcbf18ee4b04
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425716(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183634
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3aa98d479ca2bfeaf6214bbd1e66bb3f41b09782
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0b9f59648d845f37c7cf6d92c471b81a29415753
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840579"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729887"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -170,7 +172,7 @@ Lync Server 2013 は、ネットワークアドレス変換 (NAT) を実行す�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>2</p></td>
+<td><p>両面</p></td>
 <td><p>6</p></td>
 <td><p>3 (VIP ごとに 1 つ) + 6</p></td>
 </tr>
@@ -211,7 +213,7 @@ Lync Server 2013 は、ネットワークアドレス変換 (NAT) を実行す�
 <tbody>
 <tr class="odd">
 <td><p>2</p></td>
-<td><p>2</p></td>
+<td><p>両面</p></td>
 <td><p>1 (VIP ごとに 1 つ) + 2</p></td>
 </tr>
 <tr class="even">
@@ -235,7 +237,7 @@ Lync Server 2013 は、ネットワークアドレス変換 (NAT) を実行す�
 
 トポロジ選択の主要な決定ポイントは、高可用性と負荷分散です。 高可用性の要件は、負荷分散の決定に影響を与える可能性があります。
 
-  - **高可用性**  高可用性が必要な場合は、少なくとも2つのエッジサーバーをプールに展開します。 1つのエッジプールは、最大12台のエッジサーバーをサポートします。 さらに多くの容量が必要な場合は、複数のエッジプールを展開できます。 一般的な規則として、特定のユーザーベースの 10% には外部アクセスが必要です。
+  - **高可用性**  高可用性が必要な場合は、少なくとも2つのエッジサーバーをプールに展開します。 1つのエッジプールは、最大12台のエッジサーバーをサポートします。 さらに多くの容量が必要な場合は、複数のエッジプールを展開できます。 一般的な規則として、特定のユーザーベースの10% には外部アクセスが必要です。
     
     <div>
     

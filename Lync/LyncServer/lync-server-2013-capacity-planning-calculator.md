@@ -3,6 +3,8 @@ title: Lync Server 2013 キャパシティプランニング電卓
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using the Lync Server 2013 capacity planning calculator
 ms:assetid: e86c1f05-1393-408a-9549-6001572ec50d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362852(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 56280894
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 385127f1686c2a4fa5beaf33f02d2eec6ba19500
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 26abf069d7c1686fe8abb804d6de4508ba6333fe
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840689"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742367"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -65,9 +67,9 @@ Microsoft® Lync™ Server 2013 キャパシティプランニングの電卓は
 
   - 1ユーザーあたりの平均通話回数 (ピーク時) には、負荷がピーク時に平均的なユーザーが参加すると予想される通話の回数を入力します。 既定値は 4 です。
 
-  - [Percentage of calls that use media bypass (メディア バイパスを使用する通話の割合)] に、仲介サーバーをバイパスするユーザーによる発信の割合を入力します。 既定値は 65% です。
+  - [Percentage of calls that use media bypass (メディア バイパスを使用する通話の割合)] に、仲介サーバーをバイパスするユーザーによる発信の割合を入力します。 既定値は65% です。
 
-  - [Percentage of voice users involved in UC-PSTN calls (UC-PSTN 通話に含まれる音声ユーザーの割合)] に、UC-PSTN 電話による組織の通話の割合を入力します。 既定値は 60%
+  - [Percentage of voice users involved in UC-PSTN calls (UC-PSTN 通話に含まれる音声ユーザーの割合)] に、UC-PSTN 電話による組織の通話の割合を入力します。 既定値は60%
 
   - [UC-UC 通話に参加している音声ユーザーの割合 (%): エンタープライズ Voip を有効にしているユーザーのうち、UC 限定の通話のみを有効にする割合を示します。 この数値は、[Percentage of voice users enabled for UC-PSTN calls (UC-PSTN 通話が有効な音声ユーザーの割合)] の入力値に基づいて計算されます。
 
@@ -87,7 +89,7 @@ Microsoft® Lync™ Server 2013 キャパシティプランニングの電卓は
     
       - 50% の音声会議にアプリケーション共有も含まれる場合は、[Including application sharing (アプリケーション共有を含む)] チェック ボックスをオンにします。
     
-      - 音声会議の 20% には、Microsoft PowerPoint®プレゼンテーションなどのデータのアップロードが含まれている場合、[web 会議を含める] チェックボックスをオンにします。
+      - 音声会議の20% には、Microsoft PowerPoint®プレゼンテーションなどのデータのアップロードが含まれている場合、[web 会議を含める] チェックボックスをオンにします。
 
 **モビリティ**
 

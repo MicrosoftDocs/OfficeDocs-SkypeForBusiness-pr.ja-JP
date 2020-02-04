@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Lync Server のユーザーアカウントを追加し
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Add and enable user account for Lync Server
 ms:assetid: 1edd1c1c-307d-450b-abea-33aaf56bdf13
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520961(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183578
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0fc52e76d480e323669b88c1ee461eeccf9aef38
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a04a798a69279ebef6c4917938ead2fd88a49805
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840951"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735057"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,7 +53,7 @@ Active Directory ユーザーとコンピューターでユーザーアカウン
 
 5.  [**新しい Lync Server ユーザー** ] ダイアログボックスで、[**追加**] をクリックします。
 
-6.  [**ユーザーの検索**] ボックスに、必要な Active Directory ユーザーアカウントの名前、[表示名]、[名]、[姓]、[名前]、[アカウント名]、[電子メールアドレス]、[ユーザープリンシパル名 (UPN)]、または [電話番号] のすべてまたは最初の部分を入力します。[**検索**] をクリックします。
+6.  [**ユーザーの検索**] ボックスで、名前、表示名、姓、名、姓、セキュリティアカウントマネージャー (SAM) アカウント名、メールアドレス、ユーザープリンシパル名 (UPN)、または必要な Active Directory ユーザーアカウントの電話番号のすべてまたは最初の部分を入力し、[**検索**] をクリックします。
 
 7.  表で、Lync Server に追加するアカウントを選び、[ **OK]** をクリックします。
 

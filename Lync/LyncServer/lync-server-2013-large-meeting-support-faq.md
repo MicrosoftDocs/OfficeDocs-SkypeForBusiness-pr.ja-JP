@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 大規模な会議のサポートについてよく寄
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync Server large meeting support FAQ
 ms:assetid: 34b4fb6a-e35c-47e8-8ab1-f8331741fed2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204804(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183837
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1c8355374a773afe3d6da22c886a2b103b13abd3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6f5a8d63fddf3b8633ebf31651d501458eaf4893
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832948"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762175"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -81,7 +83,7 @@ Lync Server のユーザーモデルでは、共有プール内の250ユーザ�
 
 ## <a name="can-users-join-large-meetings-by-dialing-in-from-a-phone"></a>電話からダイヤルインすることで、ユーザーは大きな会議に参加できますか?
 
-はい。 Lync Server 2013 プールが正しく展開され、ダイヤルイン会議が有効になっている場合、ユーザーはダイヤルインして大人数の会議に参加することができます。 このテストでは、最大 15% の1000ユーザーが、10分間に大きな会議に参加できることが示されています。
+はい。 Lync Server 2013 プールが正しく展開され、ダイヤルイン会議が有効になっている場合、ユーザーはダイヤルインして大人数の会議に参加することができます。 このテストでは、最大15% の1000ユーザーが、10分間に大きな会議に参加できることが示されています。
 
 </div>
 

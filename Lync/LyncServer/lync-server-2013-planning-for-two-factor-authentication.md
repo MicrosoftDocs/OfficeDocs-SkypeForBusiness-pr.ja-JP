@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 2 要素認証の計画'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for two-factor authentication
 ms:assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn308562(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 54973683
 ms.date: 04/06/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 299d2328ee11ffb893974e48b86922123145ed72
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e610990182e01c0e9e2d7199bd3a34f70fbe3132
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824212"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41750437"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -144,7 +146,7 @@ Lync 環境でスキル検索機能を構成している場合は、Lync が2要
 
 ## <a name="deleting-saved-credentials"></a>保存された資格情報の削除
 
-デスクトップクライアントユーザーは、Lync クライアントの **[サインイン情報の削除**] オプション\\を使用して、% localappdata% Microsoft\\Office\\15.0\\Lync から SIP プロファイルフォルダーを削除してから、初めてサインインするようにしてください。2要素認証を使用する。
+デスクトップクライアントユーザーは、Lync クライアントで **[サインイン情報の削除**] オプションを使用し、2段階認証を使用して初めて\\サインイン\\する\\前\\に、% localappdata% Microsoft Office 15.0 Lync から SIP プロファイルフォルダーを削除する必要があります。
 
 </div>
 

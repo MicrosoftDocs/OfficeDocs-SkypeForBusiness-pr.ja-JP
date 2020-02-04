@@ -3,6 +3,8 @@ title: 'Lync Server 2013: バックエンドの Lync Server 記憶域のパフ�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Monitoring back end Lync Server 2013 storage performance
 ms:assetid: 71627c70-1953-4ac2-afbe-f3ad85be0f44
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720917(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969619
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b4c63956cebc7f532f92b6e0729bdfe811d0fdfb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7c4d3741564cd0228213400d7ee1fbb7271c4ddd
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826760"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756861"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -48,7 +50,7 @@ Lync Server 2013 バックエンドデータベースは、Lync Server 2013 の�
 </colgroup>
 <thead>
 <tr class="header">
-<th>パフォーマンスカウンター</th>
+<th>パフォーマンス カウンター</th>
 <th>ベースラインのしきい値</th>
 </tr>
 </thead>

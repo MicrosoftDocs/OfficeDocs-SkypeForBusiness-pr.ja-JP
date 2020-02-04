@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 設計の編集'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Editing the design
 ms:assetid: 08f639ba-0e5f-4ae7-9191-c3d96c25b169
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558608(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541445
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 601c313231a26341c3c4cf8a4897d11872dec9a2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dfce3bc4242140364005a9a981282ecb90a42d3b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833318"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739457"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ _**最終更新日:** 2013-02-21_
 
 計画ツールには、選択したサイトのサイトトポロジが表示されます。 サイト ページの下部には、次の 4 つのタブがあります。
 
-![計画ツールサイトトポロジ](images/Gg558608.e6189c20-360a-42bd-ba90-11bdb5b7551b(OCS.15).jpg "計画ツールサイトトポロジ")
+![計画ツール、サイト トポロジ](images/Gg558608.e6189c20-360a-42bd-ba90-11bdb5b7551b(OCS.15).jpg "計画ツール、サイト トポロジ")
 
   - サイト トポロジ - 現在表示されているページで、推奨されるビジュアルなトポロジの概要が含まれます。
 
@@ -47,7 +49,7 @@ _**最終更新日:** 2013-02-21_
 
   - エッジ管理レポート - 次の合計 4 つのレポートが含まれます。
     
-    ![エッジ管理レポートページ](images/Gg558608.0019cc5e-af39-4cb9-82ce-58f6388242ff(OCS.15).jpg "エッジ管理レポートページ")  
+    ![[エッジ管理レポート] ページ](images/Gg558608.0019cc5e-af39-4cb9-82ce-58f6388242ff(OCS.15).jpg "[エッジ管理レポート] ページ")  
     
       - 概要レポート - エッジ ネットワーク構成の設定に関する一般的なレポート。[  **エッジ ネットワーク図  **] ページの値を、実際の展開で使用する、トポロジの TCP/IP および FQDN の値に編集する場合、それらのアドレスと名前がここに表示されます。それ以外の場合、既定のテキストが表示されます。
     

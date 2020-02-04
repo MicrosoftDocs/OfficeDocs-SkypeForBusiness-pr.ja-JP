@@ -3,6 +3,8 @@ title: 'Lync Server 2013: セキュリティの主要機能'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Key security features in Lync Server 2013
 ms:assetid: bf2a3b8f-73c6-47e1-8c9e-ca1dc1a502bf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn342829(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 56107266
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 53a6d9e23442cb127f0f08849e18f1d63bae76d6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 55d59a6978b90db82ccf899df90b05c739e71a57
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832960"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738317"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -99,7 +101,7 @@ Microsoft Lync Server 2013 では、役割ベースのアクセス制御 (RBAC) 
 
 ## <a name="network-address-translation-nat"></a>ネットワーク アドレス変換 (NAT)
 
-Lync Server 2013 は、エッジサーバーの内部インターフェイスでのネットワークアドレス変換 (NAT) の使用をサポートしていませんが、アクセスエッジサービス、Web 会議エッジサービス、および a/V Edge サービスの外部インターフェイスを、ネットワークアドレス変換 (NAT) を実行するルーターまたはファイアウォール。統合されたエッジサーバートポロジの1つとスケール。 ハードウェア ロード バランサーの背後にある複数のエッジ サーバーでは、NAT を使用できません。 複数のエッジ サーバーの外部インターフェイスで NAT を使用する場合は、ドメイン ネーム システム (DNS) の負荷分散が必要です。 DNS 負荷分散を使用すると、エッジ サーバー プール内のエッジ サーバーあたりのパブリック IP アドレスの数を削減できます。 詳細については、「[Lync Server 2013 での外部ユーザーアクセスの計画](lync-server-2013-planning-for-external-user-access.md)」を参照してください。
+Lync Server 2013 は、エッジサーバーの内部インターフェイスでのネットワークアドレス変換 (NAT) の使用をサポートしていませんが、統合されたエッジサーバートポロジの1つとスケーリングの両方について、ネットワークアドレス変換 (NAT) を実行するルーターまたはファイアウォールでの外部インターフェイスの配置をサポートしています。 ハードウェア ロード バランサーの背後にある複数のエッジ サーバーでは、NAT を使用できません。 複数のエッジ サーバーの外部インターフェイスで NAT を使用する場合は、ドメイン ネーム システム (DNS) の負荷分散が必要です。 DNS 負荷分散を使用すると、エッジ サーバー プール内のエッジ サーバーあたりのパブリック IP アドレスの数を削減できます。 詳細については、「[Lync Server 2013 での外部ユーザーアクセスの計画](lync-server-2013-planning-for-external-user-access.md)」を参照してください。
 
 <div>
 
@@ -131,7 +133,7 @@ Lync Server 2013 は、「」で<http://go.microsoft.com/fwlink/?linkid=68761>�
 
   - **既定で信頼できる**   既定では、Lync Server 2013 のネットワーク通信が暗号化されています。 すべてのサーバーでは、証明書と Kerberos 認証、TLS、セキュリティで保護されたリアルタイムトランスポートプロトコル (SRTP)、およびその他の業界標準の暗号化技法 (128 ビット Advanced Encryption Standard (AES) 暗号化など) が使用されているため、ほぼすべての Lyncサーバーデータはネットワーク上で保護されています。 さらに、役割ベースのアクセス制御によって、Lync Server 2013 を実行しているサーバーを展開して、各サーバーの役割がサービスのみを実行し、そのサービスに関連するアクセス許可のみをサーバーの役割に対して適切であるようにすることができます。
 
-  - **展開によって信頼**   されているすべての Lync Server 2013 ドキュメントには、展開に最適なセキュリティレベルを決定して構成するためのベストプラクティスと推奨事項、および既定以外のライセンス認証のセキュリティリスクの評価が含まれています。オプション。
+  - **展開により信頼できる**   すべての Lync Server 2013 ドキュメントには、展開に最適なセキュリティレベルを決定して構成し、既定以外のオプションをアクティブ化する場合のセキュリティリスクを評価するためのベストプラクティスと推奨事項が記載されています。
 
 </div>
 

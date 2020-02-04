@@ -1,8 +1,10 @@
 ---
-title: 結果を解釈する
+title: 結果の解釈
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Interpreting the Results
 ms:assetid: dd7f199f-7075-4d88-bb84-49a7e05eb593
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945608(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541433
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0a3dc473765a67db2e09f5a56db14b1ea8a41a4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0dcb1d84392cf9f56f2996281eb53e798690ba1e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34841046"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763299"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34841046"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="interpreting-the-results"></a>結果を解釈する
+# <a name="interpreting-the-results"></a>結果の解釈
 
 </div>
 
@@ -39,19 +41,19 @@ Lync Server 2013 応力/パフォーマンスツール (LyncPerfTool) には、�
 
 <div>
 
-## <a name="client-counters"></a>クライアントカウンター
+## <a name="client-counters"></a>クライアントのカウンター
 
-実行されている LyncPerfTool の各インスタンスには、カウンターの個別のインスタンスがあります。 各インスタンスには、プロセス ID で名前が付けられます。
+実行されている LyncPerfTool の各インスタンスには、カウンターの個別のインスタンスがあります。 それぞれのインスタンスには、そのプロセス ID による名前が付けられます。
 
 クライアントが過負荷になっていると、問題が発生する可能性があります。 これらの問題を回避するには、次の操作を行います。
 
-1.  クライアントコンピューターの CPU とメモリ使用量を監視します。 CPU が常に 90% を超えている場合は、ユーザーの数を減らします。
+1.  クライアントコンピューターの CPU とメモリ使用量を監視します。 CPU が継続的に 90% 以上になっている場合は、ユーザーの数を減らします。
 
-2.  メモリフットプリントが高すぎる場合は、ページファイルが十分でない場合に問題が発生する可能性があります。 コミットチャージがコンピューターの制限に達していないことを確認します。 メモリの制限を使用している場合は、ページファイルのサイズを大きくするか、ユーザーの数を減らすことを検討してください。
+2.  メモリフットプリントが高すぎる場合は、ページファイルが十分でない場合に問題が発生する可能性があります。 コミット チャージがコンピューターの制限に達していないことを確認してください。 メモリの制限を使用している場合は、ページファイルのサイズを大きくするか、ユーザーの数を減らすことを検討してください。
 
 次の表では、LyncPerfTool のパフォーマンスカウンターの主要な一覧を示します。
 
-**一般的な情報**
+**一般情報**
 
 
 <table>
@@ -61,30 +63,30 @@ Lync Server 2013 応力/パフォーマンスツール (LyncPerfTool) には、�
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>パフォーマンスカウンター</strong></th>
+<th><strong>パフォーマンス カウンター</strong></th>
 <th><strong>説明</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>分数で費やした時間</p></td>
-<td><p>プロセスが開始されてから経過した時間。</p></td>
+<td><p>Time Spent in Minutes</p></td>
+<td><p>プロセスの開始からの経過時間。</p></td>
 </tr>
 <tr class="even">
-<td><p>アクティブなエンドポイント</p></td>
-<td><p>現在サーバーに接続されているエンドポイントの数です。</p></td>
+<td><p>Active Endpoints</p></td>
+<td><p>現在サーバーに接続しているエンドポイントの数。</p></td>
 </tr>
 <tr class="odd">
-<td><p>失敗したログオン</p></td>
-<td><p>エンドポイントのサインインエラーの合計数です。</p></td>
+<td><p>Failed Logons</p></td>
+<td><p>エンドポイント サインインの合計失敗数。</p></td>
 </tr>
 <tr class="even">
-<td><p>ログオン試行</p></td>
-<td><p>エンドポイントのサインイン試行の合計数です。</p></td>
+<td><p>Logon Attempts</p></td>
+<td><p>エンドポイント サインインの合計試行数。</p></td>
 </tr>
 <tr class="odd">
-<td><p>エンドポイントが切断されました</p></td>
-<td><p>切断されたエンドポイントの合計数です。</p></td>
+<td><p>Endpoints Disconnected</p></td>
+<td><p>切断されたエンドポイントの合計数。</p></td>
 </tr>
 <tr class="even">
 <td></td>
@@ -104,26 +106,26 @@ Lync Server 2013 応力/パフォーマンスツール (LyncPerfTool) には、�
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>パフォーマンスカウンター</strong></th>
+<th><strong>パフォーマンス カウンター</strong></th>
 <th><strong>説明</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>SetPresence 通話</p></td>
-<td><p>プレゼンス変更の試行回数の合計です。 さまざまな種類のプレゼンス変更については、「SetPresence (プレゼンスの種類) 呼び出しのパフォーマンスカウンター」を参照してください。</p></td>
+<td><p>SetPresence Calls</p></td>
+<td><p>プレゼンス変更の合計試行数。 プレゼンス変更のさまざまな種類については、SetPresence (プレゼンスの種類) Calls パフォーマンス カウンターを参照してください。</p></td>
 </tr>
 <tr class="even">
-<td><p>SetPresence の NNN 応答</p></td>
-<td><p>サーバーから受信した nnn 応答コードの合計数です。</p></td>
+<td><p>NNN Responses for SetPresence</p></td>
+<td><p>サーバーから受信した nnn 応答コードの合計数。</p></td>
 </tr>
 <tr class="odd">
-<td><p>GetPresence 通話</p></td>
-<td><p>プレゼンス要求の取得試行の合計数です。</p></td>
+<td><p>GetPresence Calls</p></td>
+<td><p>プレゼンス取得要求の合計試行数。</p></td>
 </tr>
 <tr class="even">
-<td><p>GetPresence に対する NNN の応答</p></td>
-<td><p>サーバーから受信した nnn 応答コードの合計数です。</p></td>
+<td><p>NNN Responses for GetPresence</p></td>
+<td><p>サーバーから受信した nnn 応答コードの合計数。</p></td>
 </tr>
 </tbody>
 </table>
@@ -131,7 +133,7 @@ Lync Server 2013 応力/パフォーマンスツール (LyncPerfTool) には、�
 
 **アドレス帳サービス情報**
 
-このカテゴリには、アドレス帳サービス (ABS) ファイルのダウンロードとアドレス帳の Web クエリサービス要求を監視するために使用されるカウンターが含まれています。
+このカテゴリには、アドレス帳サービス (ABS) のファイル ダウンロードとアドレス帳 Web クエリ サービスの要求を監視するために使用するカウンターが含まれています。
 
 
 <table>
@@ -141,40 +143,40 @@ Lync Server 2013 応力/パフォーマンスツール (LyncPerfTool) には、�
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>パフォーマンスカウンター</strong></th>
+<th><strong>パフォーマンス カウンター</strong></th>
 <th><strong>説明</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>完全なフル/差分ファイルのダウンロードが試行される</p></td>
-<td><p>試行されたフルまたは差分ファイルのダウンロード要求の合計数です。</p></td>
+<td><p>ABS Full/Delta File Downloads Attempted</p></td>
+<td><p>試行された完全または差分ファイル ダウンロード要求の合計数。</p></td>
 </tr>
 <tr class="even">
-<td><p>ABS フル/差分ファイルのダウンロードに成功しました</p></td>
-<td><p>試行されたフルまたは差分ファイルのダウンロード要求の合計数です。</p></td>
+<td><p>ABS Full/Delta File Downloads Succeeded</p></td>
+<td><p>試行された完全または差分ファイル ダウンロード要求の合計数。</p></td>
 </tr>
 <tr class="odd">
-<td><p>アドレス帳 Web クエリサービスに関連するカウンター</p></td>
+<td><p>アドレス帳 Web クエリ サービスに関連するカウンター</p></td>
 <td><p>アドレス帳ファイルのダウンロードに関連するカウンター。</p></td>
 </tr>
 <tr class="even">
-<td><p>ABS 呼び出しを実行しました</p></td>
-<td><p>試行されたアドレス帳 Web クエリサービス要求の合計数です。</p></td>
+<td><p>ABS WS Calls attempted</p></td>
+<td><p>試行したアドレス帳 Web クエリ サービス要求の合計数。</p></td>
 </tr>
 <tr class="odd">
-<td><p>ABS 呼び出しに成功しました</p></td>
-<td><p>成功応答コードを返した、アドレス帳 Web クエリサービス要求の合計数です。</p></td>
+<td><p>ABS WS Calls Succeeded</p></td>
+<td><p>成功応答コードを返したアドレス帳 Web クエリ サービス要求の合計数。</p></td>
 </tr>
 <tr class="even">
-<td><p>ABS 呼び出しに失敗しました</p></td>
-<td><p>エラー応答コードを返した、アドレス帳 Web クエリサービス要求の合計数です。</p></td>
+<td><p>ABS WS Calls Failed</p></td>
+<td><p>エラー応答コードを返したアドレス帳 Web クエリ サービスの合計数。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-**配布リスト (DL) 情報**
+**配布リスト (DL) の情報**
 
 
 <table>
@@ -184,22 +186,22 @@ Lync Server 2013 応力/パフォーマンスツール (LyncPerfTool) には、�
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>パフォーマンスカウンター</strong></th>
+<th><strong>パフォーマンス カウンター</strong></th>
 <th><strong>説明</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>通話を発信しました</p></td>
-<td><p>試みた配布リスト展開 (DLX) web サービス要求の合計数。</p></td>
+<td><p>Calls Attempted</p></td>
+<td><p>試行した配布リスト展開 (DLX) Web サービス要求の合計数。</p></td>
 </tr>
 <tr class="even">
-<td><p>通話成功</p></td>
-<td><p>成功した応答コードを返した DLX web サービス要求の合計数です。</p></td>
+<td><p>Calls Succeeded</p></td>
+<td><p>成功応答コードを返した DLX Web サービス要求の合計数。</p></td>
 </tr>
 <tr class="odd">
-<td><p>通話失敗</p></td>
-<td><p>エラー応答コードを返した DLX web サービス要求の合計数です。</p></td>
+<td><p>Calls Failed</p></td>
+<td><p>エラー応答コードを返した DLX Web サービス要求の合計数。</p></td>
 </tr>
 </tbody>
 </table>
@@ -207,7 +209,7 @@ Lync Server 2013 応力/パフォーマンスツール (LyncPerfTool) には、�
 
 **VoIP の基本情報**
 
-以下のパフォーマンスカウンターには、これらのシナリオが有効な場合に、仲介サーバー、A/V 会議サーバー、エッジサーバー、応答グループアプリケーション、会議の自動応答など、すべてのボイスオーバー IP (VoIP) 通話の番号が報告されます。
+次に示す各パフォーマンス カウンターは、すべての Voice over IP (VoIP) の通話数を報告します。これには、仲介サーバー、音声ビデオ会議サーバー、エッジ サーバー、応答グループ アプリケーション、および電話会議自動応答に対する通話が含まれます (これらのシナリオが有効な場合)。
 
 
 <table>
@@ -217,44 +219,44 @@ Lync Server 2013 応力/パフォーマンスツール (LyncPerfTool) には、�
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>パフォーマンスカウンター</strong></th>
+<th><strong>パフォーマンス カウンター</strong></th>
 <th><strong>説明</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>アクティブな通話</p></td>
-<td><p>現在進行中の着信/発信音声通話の合計数です。</p></td>
+<td><p>Calls Active</p></td>
+<td><p>現在進行中の着信/発信音声通話の合計数。</p></td>
 </tr>
 <tr class="even">
-<td><p>通話終了</p></td>
-<td><p>着信/発信の音声通話の合計数は既に終了しています。</p></td>
+<td><p>Calls Terminated</p></td>
+<td><p>既に終了している着信/発信音声通話の合計数。</p></td>
 </tr>
 <tr class="odd">
-<td><p>通話拒否</p></td>
-<td><p>拒否された音声通話の合計数です。</p></td>
+<td><p>Calls Declined</p></td>
+<td><p>拒否した着信音声通話の合計数。</p></td>
 </tr>
 <tr class="even">
-<td><p>着信/発信通話を発信しました</p></td>
-<td><p>発信した音声通話の合計数。</p></td>
+<td><p>Incoming/Outgoing Calls Attempted</p></td>
+<td><p>試行した着信/発信音声通話の合計数。</p></td>
 </tr>
 <tr class="odd">
-<td><p>確立された着信/発信通話</p></td>
-<td><p>送受信された音声通話の合計数が設定されました。</p></td>
+<td><p>Incoming/Outgoing Calls Established</p></td>
+<td><p>成立した着信/発信音声通話の合計数。</p></td>
 </tr>
 <tr class="even">
-<td><p>通話受信 NNN</p></td>
-<td><p>サーバーから受信した nnn 応答コードの合計数です。</p></td>
+<td><p>Calls Received NNN</p></td>
+<td><p>サーバーから受信した nnn 応答コードの合計数。</p></td>
 </tr>
 <tr class="odd">
-<td><p>VoIP パスレート (%)</p></td>
-<td><p>発信された通話合計発信/合計通話が完了しました。</p></td>
+<td><p>VoIP Pass Rate (%)</p></td>
+<td><p>成立した通話の合計/試行した通話の合計。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-**応答グループサービスの通話情報**
+**応答グループ サービス通話の情報**
 
 
 <table>
@@ -264,24 +266,24 @@ Lync Server 2013 応力/パフォーマンスツール (LyncPerfTool) には、�
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>パフォーマンスカウンター</strong></th>
+<th><strong>パフォーマンス カウンター</strong></th>
 <th><strong>説明</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>アクティブな通話</p></td>
-<td><p>応答グループアプリケーションへのアクティブな通話の合計数です。</p></td>
+<td><p>Calls Active</p></td>
+<td><p>応答グループ アプリケーションへのアクティブな通話の合計数。</p></td>
 </tr>
 <tr class="even">
-<td><p>通話を発信しました</p></td>
-<td><p>試行された通話の合計数です。</p></td>
+<td><p>Calls Attempted</p></td>
+<td><p>試行した通話の合計数。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-**インスタントメッセージング (IM) 通話情報**
+**インスタント メッセージング (IM) 通話の情報**
 
 
 <table>
@@ -291,40 +293,40 @@ Lync Server 2013 応力/パフォーマンスツール (LyncPerfTool) には、�
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>パフォーマンスカウンター</strong></th>
+<th><strong>パフォーマンス カウンター</strong></th>
 <th><strong>説明</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>アクティブな通話</p></td>
-<td><p>進行中の着信/発信インスタントメッセージ通話の合計数です。</p></td>
+<td><p>Calls Active</p></td>
+<td><p>進行中の着信/発信インスタント メッセージング通話の合計数。</p></td>
 </tr>
 <tr class="even">
-<td><p>通話終了</p></td>
-<td><p>受信/送信されたインスタントメッセージの通話の合計数が既に終了しています。</p></td>
+<td><p>Calls Terminated</p></td>
+<td><p>既に終了している着信/発信インスタント メッセージング通話の合計数。</p></td>
 </tr>
 <tr class="odd">
-<td><p>通話受信 NNN</p></td>
-<td><p>サーバーから受信した nnn 応答コードの合計数です。</p></td>
+<td><p>Calls Received NNN</p></td>
+<td><p>サーバーから受信した nnn 応答コードの合計数。</p></td>
 </tr>
 <tr class="even">
-<td><p>受信/送信された IM メッセージ</p></td>
-<td><p>すべてのセッションで受信または送信されたメッセージの合計数です。</p></td>
+<td><p>IM Messages Received/Sent</p></td>
+<td><p>すべてのセッションで受信または送信したメッセージの合計数。</p></td>
 </tr>
 <tr class="odd">
-<td><p>着信/発信通話を発信しました</p></td>
-<td><p>発信したインスタントメッセージ通話の合計数。</p></td>
+<td><p>Incoming/Outgoing Calls Attempted</p></td>
+<td><p>試行した着信/発信インスタント メッセージング通話の合計数。</p></td>
 </tr>
 <tr class="even">
-<td><p>確立された着信/発信通話</p></td>
-<td><p>確立された受信/送信インスタントメッセージの合計数です。</p></td>
+<td><p>Incoming/Outgoing Calls Established</p></td>
+<td><p>成立した着信/発信インスタント メッセージ通話の合計数。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-**アプリ共有の通話情報**
+**アプリケーション共有通話の情報**
 
 
 <table>
@@ -334,30 +336,30 @@ Lync Server 2013 応力/パフォーマンスツール (LyncPerfTool) には、�
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>パフォーマンスカウンター</strong></th>
+<th><strong>パフォーマンス カウンター</strong></th>
 <th><strong>説明</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>アクティブな通話</p></td>
-<td><p>進行中の着信/送信アプリケーション共有通話の合計数です。</p></td>
+<td><p>Calls Active</p></td>
+<td><p>進行中の着信/発信アプリケーション共有通話の合計数。</p></td>
 </tr>
 <tr class="even">
-<td><p>通話終了</p></td>
-<td><p>受信/送信アプリケーション共有通話の合計数が既に終了しています。</p></td>
+<td><p>Calls Terminated</p></td>
+<td><p>既に終了している着信/発信アプリケーション共有通話の合計数。</p></td>
 </tr>
 <tr class="odd">
-<td><p>通話受信 NNN</p></td>
-<td><p>サーバーから受信した nnn 応答コードの合計数です。</p></td>
+<td><p>Calls Received NNN</p></td>
+<td><p>サーバーから受信した nnn 応答コードの合計数。</p></td>
 </tr>
 <tr class="even">
-<td><p>着信/発信通話を発信しました</p></td>
-<td><p>試行された受信/送信アプリケーション共有通話の合計数。</p></td>
+<td><p>Incoming/Outgoing Calls Attempted</p></td>
+<td><p>試行した着信/発信アプリケーション共有通話の合計数。</p></td>
 </tr>
 <tr class="odd">
-<td><p>確立された着信/発信通話</p></td>
-<td><p>確立された受信/送信アプリケーション共有通話の合計数です。</p></td>
+<td><p>Incoming/Outgoing Calls Established</p></td>
+<td><p>成立した着信/発信アプリケーション共有通話の合計数。</p></td>
 </tr>
 <tr class="even">
 <td></td>
@@ -367,7 +369,7 @@ Lync Server 2013 応力/パフォーマンスツール (LyncPerfTool) には、�
 </table>
 
 
-**CAA を通話情報**
+**CAA 通話の情報**
 
 
 <table>
@@ -377,32 +379,32 @@ Lync Server 2013 応力/パフォーマンスツール (LyncPerfTool) には、�
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>パフォーマンスカウンター</strong></th>
+<th><strong>パフォーマンス カウンター</strong></th>
 <th><strong>説明</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>アクティブな通話</p></td>
-<td><p>現在進行中の着信/発信公衆交換電話網 (PSTN) 通話の合計数です。</p></td>
+<td><p>Calls Active</p></td>
+<td><p>現在進行中の着信/発信公衆交換電話網 (PSTN) 通話の合計数。</p></td>
 </tr>
 <tr class="even">
-<td><p>通話終了</p></td>
-<td><p>着信/発信された PSTN 通話の合計数は既に終了しています。</p></td>
+<td><p>Calls Terminated</p></td>
+<td><p>既に終了している着信/発信 PSTN 通話の合計数。</p></td>
 </tr>
 <tr class="odd">
-<td><p>着信/発信通話を発信しました</p></td>
-<td><p>試行された着信/発信の PSTN 通話の合計数。</p></td>
+<td><p>Incoming/Outgoing Calls Attempted</p></td>
+<td><p>試行した着信/発信 PSTN 通話の合計数。</p></td>
 </tr>
 <tr class="even">
-<td><p>確立された着信/発信通話</p></td>
-<td><p>確立された着信/発信 PSTN 通話の合計数です。</p></td>
+<td><p>Incoming/Outgoing Calls Established</p></td>
+<td><p>成立した着信/発信 PSTN 通話の合計数。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-**会議情報**
+**会議通話の情報**
 
 
 <table>
@@ -412,40 +414,40 @@ Lync Server 2013 応力/パフォーマンスツール (LyncPerfTool) には、�
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>パフォーマンスカウンター</strong></th>
+<th><strong>パフォーマンス カウンター</strong></th>
 <th><strong>説明</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>アクティブなインスタントメッセージ会議</p></td>
-<td><p>進行中のインスタントメッセージ会議の合計数です。</p></td>
+<td><p>Active Instant Messaging Conferences</p></td>
+<td><p>進行中のインスタント メッセージング会議通話の合計数。</p></td>
 </tr>
 <tr class="even">
-<td><p>アクティブな音声/ビデオ会議</p></td>
-<td><p>進行中の音声/ビデオ (A/V) 会議の合計数です。</p></td>
+<td><p>Active Audio/Video Conferences</p></td>
+<td><p>進行中の音声ビデオ (A/V) 会議通話の合計数。</p></td>
 </tr>
 <tr class="odd">
-<td><p>アクティブなアプリケーション共有会議</p></td>
-<td><p>進行中のアプリケーション共有会議の合計数です。</p></td>
+<td><p>Active Application Sharing Conferences</p></td>
+<td><p>進行中のアプリケーション共有会議通話の合計数。</p></td>
 </tr>
 <tr class="even">
-<td><p>参加者の数</p></td>
-<td><p>現在会議に接続されている参加者の合計数です。</p></td>
+<td><p>Number of Participants</p></td>
+<td><p>会議通話に現在接続している参加者の合計数。</p></td>
 </tr>
 <tr class="odd">
-<td><p>会議のスケジュールエラー</p></td>
-<td><p>会議をスケジュールしようとしたときに発生したエラーの合計数です。</p></td>
+<td><p>Conference Schedule Failure</p></td>
+<td><p>会議通話のスケジュールに失敗した合計回数。</p></td>
 </tr>
 <tr class="even">
-<td><p>電話会議に参加できない</p></td>
-<td><p>会議に接続しようとしているときに発生したエラーの合計数です。</p></td>
+<td><p>Join Conference Failure</p></td>
+<td><p>会議通話への接続に失敗した合計回数。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-**UCWA クライアントカウンター**
+**UCWA クライアントのカウンター**
 
 
 <table>
@@ -455,18 +457,18 @@ Lync Server 2013 応力/パフォーマンスツール (LyncPerfTool) には、�
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>パフォーマンスカウンター</strong></th>
+<th><strong>パフォーマンス カウンター</strong></th>
 <th><strong>説明</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>成功した IMMCU の結合の合計数</p></td>
-<td><p>参加したインスタントメッセージ会議の合計数です。</p></td>
+<td><p>Total Number of IMMCU Joins Succeeded</p></td>
+<td><p>参加したインスタント メッセージング会議通話の合計数。</p></td>
 </tr>
 <tr class="even">
-<td><p>成功した DMCU 結合の合計数</p></td>
-<td><p>参加した A/V 会議の合計数です。</p></td>
+<td><p>Total Number of DMCU Joins Succeeded</p></td>
+<td><p>参加した音声ビデオ会議通話の合計数。</p></td>
 </tr>
 </tbody>
 </table>

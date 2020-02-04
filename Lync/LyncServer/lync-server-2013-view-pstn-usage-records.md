@@ -3,6 +3,8 @@ title: 'Lync Server 2013: PSTN 使用状況レコードの表示'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View PSTN usage records
 ms:assetid: 65025c78-c263-472c-9ff9-e170588f10b5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398458(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184361
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9042eca0b8ddd1f04b34c3fea0b57dd6235b69c1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b2551c8bbc40429d7e5bc4af45cae862991381a8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848197"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756681"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -64,7 +66,7 @@ _**最終更新日:** 2013-02-22_
 
 ## <a name="viewing-pstn-usage-information-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用した PSTN 使用状況情報の表示
 
-Windows PowerShell と**Get-CsPstnUsage**コマンドレットを使用して、PSTN の使用状況を表示することもできます。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、「Lync Server Windows PowerShell のブログ記事」を参照してください[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。「リモート PowerShell を使用して Microsoft Lync Server 2010 を管理する」を参照してください。
+Windows PowerShell と**Get-CsPstnUsage**コマンドレットを使用して、PSTN の使用状況を表示することもできます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 <div>
 

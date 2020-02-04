@@ -3,6 +3,8 @@ title: アーカイブ サーバー用の SQL Server データベースの削除
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Remove the SQL Server database for an Archiving server
 ms:assetid: 6e8a1fcd-ed09-43b0-82c9-60e7ce116a01
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688087(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733686
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3a0794d751ae0c469539971d4b29685e2971d865
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 57a820780b7ca3646ba9fa6cc5d02a3c5022db9d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847951"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765568"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -63,7 +65,7 @@ Microsoft Lync Server 2010 アーカイブサーバーを削除したら、プ�
     
     ここ\<で\> 、fqdn はデータベースサーバーの完全修飾ドメイン名 (FQDN) であり\<、\>インスタンスは名前付きデータベースインスタンス (定義されている場合) です。
 
-4.  **CsDataBase**コマンドレットで操作の確認を求めるメッセージが表示されたら、情報を読み、 **Y**キーを押します (または、enter **** キーを押すか、enter キーを押して続行します)。または、コマンドレットを停止するか (エラーがある場合)、enter キーを押します。
+4.  **CsDataBase**コマンドレットで操作の確認を求めるメッセージが表示されたら、情報を読み、 **Y**キーを押します (または、enter キーを押すか、enter キーを押して続行します)。または、コマンドレットを停止するか (エラーがある場合)、enter キー**を押します**。
 
 </div>
 

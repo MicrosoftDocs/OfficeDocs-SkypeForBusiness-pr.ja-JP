@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 自動検出サービスの DNS レコードの作成'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Creating DNS records for the Autodiscover Service
 ms:assetid: 3756ffe4-c6b1-492d-850e-42a832e06567
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690010(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183823
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5307251e9c3dea202b08b48bf45e109ef19449ec
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d91c67620a87fdd91a1755592175e8cf2964d259
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833771"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741147"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -89,7 +91,7 @@ Lync モバイルユーザーは、自動検出を有効にする必要があり
 
 7.  内部 DNS と同じような形式の**エイリアス名**のテキストボックスがある必要があります。これには、外部自動検出サービス URL のホスト名として lyncdiscover を入力する必要があります。
 
-8.  また、[ **target host には完全修飾ドメイン名 (FQDN)** を指定してください] テキストボックスには、ディレクタープールの外部 WEB サービス FQDN を入力する場所 (たとえば、lyncwebexdir01.contoso.com) を入力し、[OK] をクリックするか、[すべて撮影] をクリックします。外部 DNS でこのエントリの作成を許可するアクション。 上の手順4で説明したように、ディレクタープールを持っていない場合は、必要に応じて、フロントエンドプールの FQDN か、セットアップした単一サーバーの FQDN を使用する必要があります。
+8.  また、[ **target host には完全修飾ドメイン名 (FQDN)** を指定してください] テキストボックスには、ディレクタープールの外部 WEB サービス FQDN を入力する場所 (たとえば、lyncwebexdir01.contoso.com) を入力し、[OK] をクリックするか、外部 DNS でこのエントリの作成を許可する操作を実行します。 上の手順4で説明したように、ディレクタープールを持っていない場合は、必要に応じて、フロントエンドプールの FQDN か、セットアップした単一サーバーの FQDN を使用する必要があります。
 
 9.  Lync 2013 環境でサポートされている各 SIP ドメインの前方参照ゾーンで、新しい自動検出 CNAME レコードを作成する必要があります。
 
@@ -143,7 +145,7 @@ Lync モバイルユーザーは、自動検出を有効にする必要があり
 
 7.  **名前**を入力する場所があります。外部自動検出サービス URL のホスト名として「lyncdiscover」と入力します。
 
-8.  [ **Ip アドレス**] ボックスもある必要があります。ここでは、ディレクタープールの ip アドレス (たとえば、lyncwebexdir01.contoso.com)、またはプールのロードバランサーの ip アドレス (または同一につながる逆プロキシ IP) を入力して、をクリックします。[OK] をクリックするか、外部 DNS の任意の操作を実行してこのエントリの作成を受け入れます。 上の手順4で説明したように、ディレクタープールを持っていない場合は、必要に応じて、フロントエンドプールの IP アドレスまたは設定した単一サーバー IP アドレスを使用する必要があります。
+8.  [ **Ip アドレス**] ボックスも表示されます。ここでは、ディレクタープールの ip アドレス (lyncwebexdir01.contoso.com など)、またはプールのロードバランサーの ip アドレス (または同一につながる逆プロキシ IP) を入力して、[OK] をクリックするか、外部 DNS でこのエントリの作成を許可する操作を実行します。 上の手順4で説明したように、ディレクタープールを持っていない場合は、必要に応じて、フロントエンドプールの IP アドレスまたは設定した単一サーバー IP アドレスを使用する必要があります。
 
 9.  Lync 2013 環境でサポートされている各 SIP ドメインの前方参照ゾーンで、新しい自動検出 (A または AAAA) レコードを作成する必要があります。
 

@@ -3,6 +3,8 @@ title: Hosted Exchange UM との統合のためのエッジ サーバーの構�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure the Edge Server for integration with hosted Exchange UM
 ms:assetid: ede3f2f9-f412-418e-a705-8d8ec98176c5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399075(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185745
 ms.date: 01/24/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d7d9d37e5ed9127c81f0aec4fcdc8f2e90b5940f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a801ba4bf5f67eeda2eb760b3f639bac4cd13b66
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840321"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739987"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -109,7 +111,7 @@ Lync Server 2013 ユーザーが、ホストされた Exchange ユニファイ�
         
 
         > [!NOTE]
-        > True に設定<CODE>EnableSharedAddressSpace</CODE>する前に、内部でフェデレーション SRV レコードを解決してみてください。 このレコードを内部で解決できない場合は、_sipfederationtls レコードを作成する必要があります。 _tcp&lt;ドメイン&gt;と sip (_a)。&lt;内部&gt; DNS のドメイン。 これらのレコードは Edge Server のアクセス インターフェイスの外部 IP アドレスをポイントする必要があります。
+        > True に設定<CODE>EnableSharedAddressSpace</CODE>する前に、内部でフェデレーション SRV レコードを解決してみてください。 このレコードを内部で解決できない場合は、_sipfederationtls _tcp のレコードを作成する必要があります。&lt;ドメイン&gt;と _sip _tls。&lt;内部&gt; DNS のドメイン。 これらのレコードは Edge Server のアクセス インターフェイスの外部 IP アドレスをポイントする必要があります。
 
         
         </div>

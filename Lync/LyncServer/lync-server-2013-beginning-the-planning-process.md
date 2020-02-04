@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 計画プロセスの開始'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Beginning the planning process
 ms:assetid: df3722b3-f859-49e1-b3ff-ee6863483731
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398986(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185618
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 582769109a3792ddc2efdbef5d4a557b781c39b8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a9da1c5535f190a6f57aa76b78a04845d4a073e2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840743"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741727"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -85,7 +87,7 @@ _**最終更新日:** 2012-09-24_
 
 1.  以前のバージョンの Lync Server を使用している場合は、「lync server [2013 の新機能](lync-server-2013-new-features.md)」を参照して、lync server 2013 の新機能と要件について理解してください。
 
-2.  ドキュメントのこのセクションの他のトピックを参照してください。トポロジの基礎 lync server [2013 の計画](lync-server-2013-topology-basics-you-must-know-before-planning.md)、 [lync server 2013 のリファレンストポロジ](lync-server-2013-reference-topologies.md)、 [lync server 2013 の最初の計画決定](lync-server-2013-initial-planning-decisions.md)、および[Lync Server 2013 のクライアント](lync-server-2013-clients.md)。 [Lync Server 2013 のリファレンストポロジ](lync-server-2013-reference-topologies.md)で採用されている計画の決定に注意してください。
+2.  ドキュメントのこのセクションの他のトピックを参照してください。トポロジの基礎 lync server [2013 の計画](lync-server-2013-topology-basics-you-must-know-before-planning.md)、lync [server 2013 のリファレンストポロジ](lync-server-2013-reference-topologies.md)、lync [server 2013 の最初の計画決定](lync-server-2013-initial-planning-decisions.md)、 [lync server 2013 のクライアント](lync-server-2013-clients.md)について説明します。 [Lync Server 2013 のリファレンストポロジ](lync-server-2013-reference-topologies.md)で採用されている計画の決定に注意してください。
 
 3.  Lync Server の機能と、回答する必要がある質問の種類について詳しく理解したら、計画ツールを実行し、結果として得られたトポロジとその詳細を表示します。 トポロジが組織の固有の要件を満たしていることを確認します。
 
@@ -97,7 +99,7 @@ _**最終更新日:** 2012-09-24_
 
 6.  トポロジ計画を完了したら、計画ツールを使用して、トポロジの Visio 図面を作成し、印刷します。 トポロジビルダーを操作しているときに、この印刷イメージを使用してトポロジを入力できます。
 
-7.  展開を始める前に、「 [Lync server 2013 のシステム要件を決定](lync-server-2013-determining-your-system-requirements.md)する」および「 [lync server 2013 のインフラストラクチャ要件を決定](lync-server-2013-determining-your-infrastructure-requirements.md)して、前提条件と必要なインフラストラクチャを理解する」を参照してください。Lync Server の場合。 さらに、展開する予定のワークロードと機能に適用される[Lync Server 2013 の計画に関する](lync-server-2013-planning.md)すべてのセクションを既にお読みになっていることを確認してください。
+7.  展開を開始する前に、「 [lync server 2013 のシステム要件を決定](lync-server-2013-determining-your-system-requirements.md)する」および「lync server [2013 のインフラストラクチャ要件を決定](lync-server-2013-determining-your-infrastructure-requirements.md)する」を参照して、lync server の前提条件と必要なインフラストラクチャについて理解してください。 さらに、展開する予定のワークロードと機能に適用される[Lync Server 2013 の計画に関する](lync-server-2013-planning.md)すべてのセクションを既にお読みになっていることを確認してください。
 
 </div>
 
