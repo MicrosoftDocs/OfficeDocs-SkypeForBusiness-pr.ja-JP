@@ -3,6 +3,8 @@ title: 'Lync Server 2013: リモート通話コントロールの展開タスク
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment tasks for remote call control
 ms:assetid: 20218871-4f27-4611-9b7e-c0ca55908284
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558624(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183599
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f63c9cba56ccedf3559b1e9f1da1ee58cc03e195
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: df80ebcdc879598677a037d60c9eeeee46ba5209
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833456"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762555"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -69,7 +71,7 @@ Microsoft ユニファイドコミュニケーションのオープンな相互�
 
 ## <a name="step-2-configure-lync-server-to-route-csta-requests-to-the-sipcsta-gateway"></a>手順 2: CSTA 要求を SIP/CSTA ゲートウェイにルーティングするように Lync Server を構成する
 
-リモート通話制御要求をルーティングする対象となる、展開内のすべての SIP/CSTA ゲートウェイの宛先アドレス (サーバー URI) に、Lync サーバープールで静的ルートを作成する必要があります。 また、各宛先アドレスに対応する信頼されたアプリケーションエントリも作成する必要があります。 ゲートウェイを信頼済みアプリケーションとして指定すると、サードパーティによって開発されている場合でも、Lync Server 環境の一部として実行される信頼された状態が与えられます (これは、*外部サービス*と呼ばれるものではないサービスであるためです)。製品に組み込まれている部分)。 最後に、Lync Server がトランスポート層セキュリティ (TLS) 接続ではなく、伝送制御プロトコル (TCP) 接続を使用して SIP/CSTA ゲートウェイに接続している場合は、トポロジビルダーを使用してゲートウェイの IP アドレスを定義する必要もあります。
+リモート通話制御要求をルーティングする対象となる、展開内のすべての SIP/CSTA ゲートウェイの宛先アドレス (サーバー URI) に、Lync サーバープールで静的ルートを作成する必要があります。 また、各宛先アドレスに対応する信頼されたアプリケーションエントリも作成する必要があります。 ゲートウェイを信頼済みアプリケーションとして指定すると、サードパーティによって開発されている場合でも、Lync Server 環境の一部として実行される信頼された状態が与えられます (これは、製品の組み込みの一部ではないサービスであるため、*外部サービス*と呼ばれます)。 最後に、Lync Server がトランスポート層セキュリティ (TLS) 接続ではなく、伝送制御プロトコル (TCP) 接続を使用して SIP/CSTA ゲートウェイに接続している場合は、トポロジビルダーを使用してゲートウェイの IP アドレスを定義する必要もあります。
 
 静的ルートの構成の詳細については、「 [Lync Server 2013 でリモート通話コントロールの静的ルートを構成](lync-server-2013-configure-a-static-route-for-remote-call-control.md)する」を参照してください。
 

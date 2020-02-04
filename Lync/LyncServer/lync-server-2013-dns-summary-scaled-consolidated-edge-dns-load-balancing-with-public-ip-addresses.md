@@ -3,6 +3,8 @@ title: 'Lync Server 2013: DNS の概要 - 拡張統合エッジ、パブリッ�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS summary - Scaled consolidated edge, DNS load balancing with public IP addresses
 ms:assetid: dc8f096a-a0a4-4f71-8930-88ff8fc089d9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205319(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185594
 ms.date: 03/09/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 226f0ac1c27b18ea19cc1893300ad3614130c798
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3f748f8107e4d1c0da41a07285eb61e4a3149551
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833357"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737187"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -73,13 +75,13 @@ Lync 2013 クライアントの自動構成の構成の詳細については、�
     
     アクセスエッジサービスのパブリック IP アドレスは、既定のゲートウェイがパブリックルーター (131.107.155.1) に設定されているプライマリ IP アドレスです。
     
-    Web 会議エッジサービスと A/V Edge サービスのプライベート IP アドレスは、**インターネットプロトコルバージョン 4 (tcp/IPv4)** および**インターネットプロトコルバージョン 6 (tcp/IPv6)** のプロパティの **[詳細設定**] セクションで追加の ip アドレスとなります。Windows Server の**ローカルエリア接続プロパティ**。
+    Web 会議エッジサービスと A/V Edge サービスのプライベート IP アドレスは、Windows Server の**ローカルエリア接続プロパティ**の**インターネットプロトコルバージョン 4 (tcp/IPv4)** と**INTERNET protocol Version 6 (tcp/IPv6)** のプロパティの **[詳細設定**] セクションで追加の ip アドレスとなります。
     
     <div>
     
 
     > [!NOTE]  
-    > すべての3エッジサービスインターフェイスで単一の IP アドレスを使うことはできますが、お勧めしません。 これにより、IP アドレスが保存されますが、サービスごとに異なるポート番号が必要になります。 既定のポート番号は 443/TCP であり、ほとんどのリモートファイアウォールでトラフィックが許可されます。 ポートの値を変更する (たとえば、アクセスエッジサービスの場合は、5061/tcp、Web 会議エッジサービスの場合は 444/TCP、A/V Edge サービスの場合は 443/TCP) と、相手が背後にあるファイアウォールでトラフィックが許可されていないリモートユーザーに問題が発生する可能性があります。5061/TCP および 444/TCP。 さらに、3つの異なる IP アドレスで、IP アドレスをフィルター処理できるため、トラブルシューティングが容易になります。
+    > すべての3エッジサービスインターフェイスで単一の IP アドレスを使うことはできますが、お勧めしません。 これにより、IP アドレスが保存されますが、サービスごとに異なるポート番号が必要になります。 既定のポート番号は 443/TCP であり、ほとんどのリモートファイアウォールでトラフィックが許可されます。 ポートの値を変更する (たとえば、アクセスエッジサービスの場合は 5061/tcp、Web 会議エッジサービスの場合は 444/TCP、A/V Edge サービスの場合は、443/tcp) という問題が発生する可能性があります。これは、相手のファイアウォールによって 5061/TCP および 444/TCP 経由のトラフィックが許可されないリモート さらに、3つの異なる IP アドレスで、IP アドレスをフィルター処理できるため、トラブルシューティングが容易になります。
 
     
     </div>
@@ -90,7 +92,7 @@ Lync 2013 クライアントの自動構成の構成の詳細については、�
     
     アクセスエッジサービスのパブリック IP アドレスは、既定のゲートウェイがパブリックルーター (131.107.155.1) に設定されているプライマリ IP アドレスです。
     
-    Web 会議エッジサービスと A/V Edge サービスのプライベート IP アドレスは、**インターネットプロトコルバージョン 4 (tcp/IPv4)** および**インターネットプロトコルバージョン 6 (tcp/IPv6)** のプロパティの **[詳細設定**] セクションで追加の ip アドレスとなります。Windows Server の**ローカルエリア接続プロパティ**。
+    Web 会議エッジサービスと A/V Edge サービスのプライベート IP アドレスは、Windows Server の**ローカルエリア接続プロパティ**の**インターネットプロトコルバージョン 4 (tcp/IPv4)** と**INTERNET protocol Version 6 (tcp/IPv6)** のプロパティの **[詳細設定**] セクションで追加の ip アドレスとなります。
 
 <div>
 

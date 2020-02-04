@@ -3,6 +3,8 @@ title: Lync Server 2013 会議のユーザーモデル
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: The conferencing user model
 ms:assetid: ba4bbba9-f2e3-4cab-8eba-b51f12133cab
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205199(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185229
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0d4e8f55a9538c9cb70847bc090680662047b6ea
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4f517e6d3ea3a832c4331377fa49ef7e474377de
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840461"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756381"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,9 +41,9 @@ Lync Server 会議のユーザーモデルの重要な部分は、会議のサ�
 
   - ほとんどの会議は、実際にはわずか 4 ~ 6 人の参加者が開催する、共同作業の小さな会議です。
 
-  - 会議の約 80% は、参加者が20人を超えています。
+  - 会議の約80% は、参加者が20人を超えています。
 
-  - 会議の 99.98% は、参加者数が100を超えています。
+  - 会議の99.98% は、参加者数が100を超えています。
 
 会議のサイズに加えて、会議のユーザーモデルでは、次のようなさまざまな要因も考慮する必要があります。
 
@@ -63,7 +65,7 @@ Lync Server 会議のユーザーモデルの重要な部分は、会議のサ�
 
   - フロントエンドサーバーあたりのユーザー数を平均会議のサイズ (たとえば、4人のユーザー) で割って、フロントエンドサーバーあたりの会議の推定平均数 (この例では、フロントエンドサーバーあたり125会議) を決定します。
 
-  - 各フロントエンドサーバーでメディアのロードを1つずつ取得するために、メディアミックスを見積もりました。 たとえば、会議の 75% が必要なのは、音声サポートだけでなく、会議の 50% ではアプリケーション共有が必要であると想定した場合、47会議と188ユーザーは、各フロントエンドサーバーに同時に接続して、アプリケーション共有を行うことができます。
+  - 各フロントエンドサーバーでメディアのロードを1つずつ取得するために、メディアミックスを見積もりました。 たとえば、会議の75% が必要なのは、音声サポートだけでなく、会議の50% ではアプリケーション共有が必要であると想定した場合、47会議と188ユーザーは、各フロントエンドサーバーに同時に接続して、アプリケーション共有を行うことができます。
 
   - サーバーのスケーラビリティを確保するために、さまざまな会議サイズ (共有プールの最大250ユーザーのユーザーモデルに基づく) をテストしました。
 

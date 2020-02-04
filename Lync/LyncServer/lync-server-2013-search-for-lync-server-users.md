@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Lync Server ユーザーを検索する'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Search for Lync Server users
 ms:assetid: 3b9f6f55-d7a9-46ae-8e10-f221ba0d3bb5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429701(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183871
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 068fe07bf14894d22f929291514854360d6d0465
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7134afbc86134471e8d536b36fc8e28142a64db2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34821895"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764925"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -67,7 +69,7 @@ Lync Server コントロールパネル、または Active Directory ユーザ�
     
     2.  [ユーザー] プロパティを入力するか、ドロップダウンリストの矢印をクリックして、ユーザープロパティを選択します。
     
-    3.  [指定の**値**に等しい] **** または [ **** 指定の値に等しい] をクリックします。
+    3.  [指定の**値**に等しい] または [指定の**値に等しい**] を**クリックします**。
     
     4.  検索結果をフィルター処理するために使用する検索条件をテキストボックスに入力し、[**検索**] をクリックします。
 

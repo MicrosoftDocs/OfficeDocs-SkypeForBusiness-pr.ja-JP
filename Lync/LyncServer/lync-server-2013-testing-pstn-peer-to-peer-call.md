@@ -3,6 +3,8 @@ title: 'Lync Server 2013: PSTN ピアとピアの通話をテストする'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing PSTN peer to peer call
 ms:assetid: 7e128eef-9ada-49b4-940f-97d7d13f1e4a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn690131(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969622
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 51b74697c7d6d5a037537bb036494d89264c4e75
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9f120747eb50e8c1c52bb14d0a8883db8133022c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848436"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745627"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -126,7 +128,7 @@ TargetFqdn: atl-cs-001.litwareinc.com
 
 Verbose パラメーターが含まれている場合、テスト-CsPstnPeerToPeerCall は、指定されたユーザーが Lync Server にログオンする機能をオンにしたときに実行された各操作のステップバイステップのアカウントを返します。 たとえば、次の出力は、ネットワークの問題によって PSTN との接続が妨げられていることを示しています。
 
-' Sip: +12065551219@litwareinc.com; user = phone ' への音声ビデオ通話を確立しています。
+' Sip: + 12065551219@litwareinc、ユーザー = 電話 ' への音声ビデオ通話を確立しています。
 
 ネットワークから受信した例外 ' A 404 (見つからない) 応答は、操作に失敗しました。
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: バックアップと復元の要件: データ'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: 'Backup and restoration requirements: data'
 ms:assetid: ecfb8e4d-cb4f-476d-9772-4486bd683c04
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202194(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541526
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 54814295343b99cb51e5827791df160dbeff2638
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a9b9f077e0f9d7c4137844b2cba352b096fdb564
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840886"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730427"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -215,13 +217,13 @@ Enterprise Edition の展開では、Lync Server ファイルストアは通常�
 
   - **証明機関と証明書**   証明機関 (CA) と証明書のバックアップに組織のポリシーを使用します。 エクスポート可能な秘密キーを使用している場合は、このドキュメントの手順を使用して Lync Server を復元すると、証明書と秘密キーをバックアップし、エクスポートすることができます。 内部 CA を使用している場合、Lync Server を復元する必要がある場合は、再登録することができます。 コンピューターに障害が発生した場合に使用できるように、セキュリティで保護された場所で秘密キーを保持することが重要です。
 
-  - **System center operations**   manager microsoft System center operations manager (以前の microsoft Operations manager) を使って lync Server の展開を監視している場合は、lync を監視しているときに、必要に応じてそのデータをバックアップすることができます。Server. 標準の SQL Server バックアッププロセスを使用して System Center Operations Manager ファイルをバックアップします。 これらのファイルは、回復時に復元されません。
+  - **System center operations**   manager microsoft System center operations manager (以前の microsoft Operations manager) を使って lync server の展開を監視している場合は、lync server を監視している間に、必要に応じて、作成したデータをバックアップすることができます。 標準の SQL Server バックアッププロセスを使用して System Center Operations Manager ファイルをバックアップします。 これらのファイルは、回復時に復元されません。
 
   - **公衆交換電話網 (PSTN) ゲートウェイの構成**   エンタープライズ voip または Survivable Branch アプライアンスを使用している場合は、pstn ゲートウェイ構成をバックアップする必要があります。 PSTN ゲートウェイの構成のバックアップと復元の詳細については、ベンダーにお問い合わせください。
 
-  - **共存バージョンの lync server または office communications server**   lync server 2013 の展開が lync server 2010 または以前のバージョンの office communications server を使用して coexists されている場合は、このドキュメントの手順を使用してバックアップを行うことはできません。または、以前のバージョンを復元します。 代わりに、以前のバージョンに対して特別に記載されているバックアップと復元の手順を使用する必要があります。 Lync Server 2010 のバックアップと復元の詳細について[http://go.microsoft.com/fwlink/p/?linkId=265417](http://go.microsoft.com/fwlink/p/?linkid=265417)は、を参照してください。 Microsoft Office Communications Server 2007 R2 のバックアップと復元の詳細について[http://go.microsoft.com/fwlink/p/?linkId=168162](http://go.microsoft.com/fwlink/p/?linkid=168162)は、を参照してください。
+  - **共存バージョンの lync server または office communications server**   lync server 2013 の展開が lync server 2010 または以前のバージョンの office communications server を使用して coexists されている場合、このドキュメントに記載されている手順を使用して、以前のバージョンをバックアップまたは復元することはできません。 代わりに、以前のバージョンに対して特別に記載されているバックアップと復元の手順を使用する必要があります。 Lync Server 2010 のバックアップと復元の詳細について[http://go.microsoft.com/fwlink/p/?linkId=265417](http://go.microsoft.com/fwlink/p/?linkid=265417)は、を参照してください。 Microsoft Office Communications Server 2007 R2 のバックアップと復元の詳細について[http://go.microsoft.com/fwlink/p/?linkId=168162](http://go.microsoft.com/fwlink/p/?linkid=168162)は、を参照してください。
 
-  - **インフラストラクチャ情報**   ファイアウォール構成、負荷分散構成、インターネットインフォメーションサービス (IIS) 構成、ドメインネームシステム (DNS) レコードなど、インフラストラクチャに関する情報をバックアップする必要があります。IP アドレス、動的ホスト構成プロトコル (DHCP) 構成。 これらのコンポーネントのバックアップの詳細については、それぞれのベンダーに確認してください。
+  - **インフラストラクチャ情報**   ファイアウォール構成、負荷分散構成、インターネットインフォメーションサービス (IIS) 構成、ドメインネームシステム (DNS) レコードと IP アドレス、動的ホスト構成プロトコル (DHCP) 構成など、インフラストラクチャに関する情報をバックアップする必要があります。 これらのコンポーネントのバックアップの詳細については、それぞれのベンダーに確認してください。
 
   - **Microsoft exchange と exchange ユニファイドメッセージング (UM)**   microsoft exchange のドキュメントで説明されているように、microsoft exchange と exchange UM をバックアップして復元します。 Exchange Server 2013 のバックアップと復元の詳細について[http://go.microsoft.com/fwlink/?LinkId=285384](http://go.microsoft.com/fwlink/?linkid=285384)は、を参照してください。 Exchange Server 2010 のバックアップと復元の詳細について[http://go.microsoft.com/fwlink/p/?linkId=209179](http://go.microsoft.com/fwlink/p/?linkid=209179)は、を参照してください。
     

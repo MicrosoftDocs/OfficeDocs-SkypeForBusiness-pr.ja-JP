@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ELIN ゲートウェイの場所を管理する'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing locations for ELIN gateways
 ms:assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205288(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185496
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8b447a150a48255a04e5a332cc5d0f56110848f9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ba5a7e9067e4cd59ca42e60c620dbb4e8ee5b901
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828041"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762105"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -106,7 +108,7 @@ ELIN ゲートウェイを使用する場合、場所情報サービスデータ
 </tr>
 <tr class="even">
 <td><p>2 階</p></td>
-<td><p>2</p></td>
+<td><p>両面</p></td>
 <td><p>425-555-0111</p></td>
 </tr>
 <tr class="odd">

@@ -3,6 +3,8 @@ title: DNS 概要-SIP、XMPP フェデレーション、パブリックインス
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS summary - SIP, XMPP federation, and public instant messaging
 ms:assetid: 1ed24fb8-a849-44c0-a52e-7aef7527e644
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ618369(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49105656
 ms.date: 03/09/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c22b38fdb9e936df8b3fd148022acdbd857cdcfb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c927836377a0c7c14054073a9cf17ce638662450
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833343"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757571"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34833343"
 
 _**最終更新日:** 2017-03-09_
 
-Office Communications Server または Lync Server パートナーとのフェデレーションを定義するために必要なドメインネームシステム (DNS) レコードは、他のパースペクティブパートナーによるドメインの自動 DNS 検出を許可するかどうかを決定することによって決定されます。 \_Sipfederationtls を発行する場合。\_tcp。 *SIP ドメイン名\> \<* SRV レコードでは、他の SIP フェデレーションドメインでフェデレーションを「検出」できます。 Lync Server のコントロールパネルで [ドメインとブロックされたドメインを許可する] 設定を使用するか、または Lync Server 管理シェル**を使用して [許可] または [禁止ドメイン] 設定を行うか、または** **CsBlockedDomain** PowerShell コマンドレットを取得、**設定**、**新規**、**削除**します。 これらの設定を構成する方法と PowerShell コマンドレットの使用方法の詳細については、このトピックの最後にある**関連トピック**を参照してください。
+Office Communications Server または Lync Server パートナーとのフェデレーションを定義するために必要なドメインネームシステム (DNS) レコードは、他のパースペクティブパートナーによるドメインの自動 DNS 検出を許可するかどうかを決定することによって決定されます。 \_Sipfederationtls を発行する場合。\_tcp。 *SIP ドメイン名\> \<* SRV レコードでは、他の SIP フェデレーションドメインでフェデレーションを「検出」できます。 Lync Server コントロールパネルで [ドメインとブロックされたドメインを許可する] 設定を使用するか、Lync Server 管理シェルと、[**取得**]、[**設定**]、[**新規作成** **]、** [ **CsBlockedDomain** PowerShell コマンドレット] を使用して、許可または禁止されたドメインの構成を設定することで、どのフェデレーションドメインを制御できますか。 これらの設定を構成する方法と PowerShell コマンドレットの使用方法の詳細については、このトピックの最後にある**関連トピック**を参照してください。
 
 [DNS records summary] テーブルには、オープン、または検出可能なフェデレーションに必要なエントリが示されています。 フェデレーション検出を実装しない場合は、 \_sipfederationtls を構成しないことを選択できます。\_tcp。 *SIP ドメイン名\>レコード。 \<*
 
@@ -43,7 +45,7 @@ Office Communications Server または Lync Server パートナーとのフェ�
 
 
 > [!IMPORTANT]
-> _Sipfederationtls を持っている必要がある特定のシナリオがあります。 _tcp <EM>SIP ドメイン名&gt; &lt;</EM>SRV レコードですが、検出可能なフェデレーションは必要ありません。 このようなインスタンスの1つは、ユーザーのモバイル機能を展開した場合です。 モビリティープッシュ通知 (PNCH) は、lync 2010 モバイルクライアントまたは Lync 2013 モバイルクライアントを使用して、Lync 2010 モバイルクライアントまたは Windows Phone を使用している、Apple iPhone または iPad 上の Microsoft Lync モバイルクライアントで使用される特殊な種類のフェデレーションです。 _Sipfederationtls。 _tcp <EM>SIP ドメイン名&gt; &lt;</EM>SRV レコードは、モビリティーとプッシュ通知の場合に使用されます。 この問題を軽減して発見性を制御するには、[<STRONG>パートナードメイン探索を有効</STRONG>にする] 設定をオフにして検出をオフにします。
+> _Sipfederationtls は、_tcp が必要な特定のシナリオがあります。 <EM>SIP ドメイン名&gt; &lt;</EM>SRV レコードですが、検出可能なフェデレーションは必要ありません。 このようなインスタンスの1つは、ユーザーのモバイル機能を展開した場合です。 モビリティープッシュ通知 (PNCH) は、lync 2010 モバイルクライアントまたは Lync 2013 モバイルクライアントを使用して、Lync 2010 モバイルクライアントまたは Windows Phone を使用している、Apple iPhone または iPad 上の Microsoft Lync モバイルクライアントで使用される特殊な種類のフェデレーションです。 _Tcp _sipfederationtls ます。 <EM>SIP ドメイン名&gt; &lt;</EM>SRV レコードは、モビリティーとプッシュ通知の場合に使用されます。 この問題を軽減して発見性を制御するには、[<STRONG>パートナードメイン探索を有効</STRONG>にする] 設定をオフにして検出をオフにします。
 
 
 

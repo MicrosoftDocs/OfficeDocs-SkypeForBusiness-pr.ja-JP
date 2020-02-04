@@ -3,6 +3,8 @@ title: Lync Server 2010 環境の確認
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Verify Lync Server 2010 environment
 ms:assetid: bfc7c620-556a-43cd-b1ed-2c268ec2b5cc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205231(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185301
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 248d779bc43b7c3e220728222aca030036f17e00
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2a871955f53515491ed09ece5e5da21ef7a9fef8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847929"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730917"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

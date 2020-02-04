@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ダイヤルイン会議のアクセス番号を削除
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Delete a dial-in conferencing access number
 ms:assetid: 199c5d9c-0489-4ad5-a7f1-ca59fe0e6ac7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520956(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183522
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d2559b8a3e053c02a6a67ccc17ab5a1f25b46a05
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 65d461aafd4f111484faf295bef2dd50685e41e6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833648"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765225"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34833648"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-23_
+_**トピックの最終更新日:** 2013-02-23_
 
 ダイヤルイン会議アクセス番号を削除するには、次の手順を実行します。
 
@@ -57,7 +59,7 @@ _**最終更新日:** 2013-02-23_
 
 ## <a name="removing-dial-in-conferencing-access-numbers-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用したダイヤルイン会議アクセス番号の削除
 
-Windows PowerShell と**CsDialInConferencingAccessNumber**コマンドレットを使用して、ダイヤルイン会議アクセス番号を削除できます。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、「Lync Server Windows PowerShell のブログ記事」を参照してください[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。「リモート PowerShell を使用して Microsoft Lync Server 2010 を管理する」を参照してください。
+Windows PowerShell と**CsDialInConferencingAccessNumber**コマンドレットを使用して、ダイヤルイン会議アクセス番号を削除できます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 <div>
 

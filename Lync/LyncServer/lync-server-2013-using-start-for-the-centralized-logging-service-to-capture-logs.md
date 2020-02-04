@@ -3,6 +3,8 @@ title: 一元的なログサービスのために Start を使用してログを
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using Start for the Centralized Logging Service to capture logs
 ms:assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687958(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733543
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5033b4a8dfd8121e2f0b5926623a55358188935e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 75090036b7120c8af7cda132c26d5b4fb02d3dab
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848273"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743997"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -87,7 +89,7 @@ _**最終更新日:** 2013-02-21_
     
     </div>
     
-    ![開始-CsClsLogging を実行しています。](images/JJ687958.c5be7413-8cef-4de7-9712-944d20cc2fa4(OCS.15).jpg "開始-CsClsLogging を実行しています。")
+    ![Start-CsClsLogging の実行](images/JJ687958.c5be7413-8cef-4de7-9712-944d20cc2fa4(OCS.15).jpg "Start-CsClsLogging の実行")
 
 4.  別のシナリオを開始するには、次のように **Start-CsClsLogging** コマンドレットを使用して実行する追加シナリオの名前を指定します (以下は **Authentication** シナリオの場合)。
     
@@ -118,7 +120,7 @@ _**最終更新日:** 2013-02-21_
     
     このシナリオが正常に実行されると、次のような結果が返されます。
     
-    ![開始-CsClsLogging を実行しています。](images/JJ687958.399f0c2e-c08c-40ab-b6c6-381dddc12fe9(OCS.15).jpg "開始-CsClsLogging を実行しています。")
+    ![Start-CsClsLogging の実行](images/JJ687958.399f0c2e-c08c-40ab-b6c6-381dddc12fe9(OCS.15).jpg "Start-CsClsLogging の実行")
     
     この例では、AlwaysOn シナリオと UserReplicator シナリオが実行中であることに注意してください。
 

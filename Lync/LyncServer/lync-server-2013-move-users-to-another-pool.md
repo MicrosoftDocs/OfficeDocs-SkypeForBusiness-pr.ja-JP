@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ユーザーを別のプールに移動する'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Move users to another pool
 ms:assetid: e7b4968c-0e9d-4d56-b5f1-9edf0f7206f8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182600(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185879
 ms.date: 02/09/2018
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0fb716c0b551475a53cacf09be10ffdc039f5db8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7dffa2e7651e056d9dc14b1e261134783d0fd193
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826655"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756741"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,7 +59,7 @@ Lync Server コントロールパネルを使用して、特定のサーバー�
 
 3.  左側のナビゲーション バーで [**ユーザー**] をクリックします。
 
-4.  [**ユーザーの検索**] ボックスに、表示名、名、姓、セキュリティアカウントマネージャー (SAM) アカウント名、SIP アドレス、または必要なユーザーアカウントの行の Uniform resource IDENTIFIER (URI) の最初の部分を入力し、[検索] をクリックします。 ****.
+4.  [**ユーザーの検索**] ボックスに、表示名、名、姓、セキュリティアカウントマネージャー (SAM) アカウント名、SIP アドレス、または必要なユーザーアカウントの行の Uniform resource IDENTIFIER (URI) の最初の部分を入力し、[**検索**] をクリックします。
 
 5.  表で、リスト内の特定のユーザー (複数可) を選びます。
 
@@ -155,7 +157,7 @@ Lync Server コントロールパネルを使用して、特定のサーバー�
 
 1.  Windows PowerShell コマンドの実行方法 (ローカルまたはリモート) に応じて、次のようにして、適切な Lync Server 2013 管理者ロールのメンバーとしてログオンする必要があります。
     
-    1.  ローカルコンピューターでコマンドを実行している場合 (たとえば、フロントエンドサーバーに直接ログオンしている場合) は、Lync Server 管理シェルが RTCUniversalServerAdmins グループのメンバーとしてインストールされているか、または必要なユーザー権限を持つコンピューターにログオンします。「[代理人による Lync Server 2013 の権限の設定](lync-server-2013-delegate-setup-permissions.md)」を参照してください。
+    1.  ローカルコンピューターでコマンドを実行している場合 (たとえば、フロントエンドサーバーに直接ログオンしている場合) は、lync Server 管理シェルが RTCUniversalServerAdmins グループのメンバーとしてインストールされているコンピューター、または「 [Lync server 2013 の委任セットアップの権限](lync-server-2013-delegate-setup-permissions.md)」で説明されているように、必要なユーザー権限を持つコンピューターにログオンします。
     
     2.  他のコンピューターでリモートでコマンドを実行している場合 (たとえば、コンピューターにログオンして、標準エディションのフロントエンドサーバーでコマンドをリモートで実行している場合) は、CsUserAdministrator ロールまたは CsAdministrator に割り当てられているユーザーアカウントからの操作を行います。[役割] は、社内展開の任意のコンピューターにログオンします。
 

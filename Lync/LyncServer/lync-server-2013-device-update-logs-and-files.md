@@ -3,6 +3,8 @@ title: 'Lync Server 2013: デバイスの更新ログとファイル'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Device Update logs and files
 ms:assetid: f7f822b8-0a62-4ff2-a4cb-1ab1ed7503eb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994090(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51804004
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5a5b5e39f7720ac5c148a0d3d36a230d1cf4aa3e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 170bafb3d00940995e8355c7775681c2af5fd078
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833428"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762395"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34833428"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-20_
+_**トピックの最終更新日:** 2013-02-20_
 
 デバイス更新ログには、デバイス更新 Web サービスの管理とトラブルシューティングに使用できる重要な情報が含まれています。 ログに記録される内容を変更したり、不要になったデバイスログや更新プログラムを削除したりすることができます。 このセクションでは、Lync Server コントロールパネルまたは Lync Server Management Shell を使用してログ設定を変更する方法、デバイス更新ログを消去する方法、またはサーバーからログファイルを削除する方法について説明します。
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 容量と可用性の管理'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Capacity and availability management
 ms:assetid: 207a2997-f482-4bee-892d-d2b112294481
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720325(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969586
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 923dd7a4133da52a68e4d66ee6d5c7c47e7c0421
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 169c2e383a1799f5f3ab7ca810de32f86350e51b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840693"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730307"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -97,7 +99,7 @@ _**最終更新日:** 2014-08-18_
 
 可用性に関連するメジャーは、次のようになります。
 
-  - **可用性**   通常は、停止している時間と比較して、システムまたはサービスにアクセスできる時刻として表されます。 通常、パーセンテージで表されます。 ("3 ナイン" または "5 ナイン") という参照が表示されることがあります。 これらは、99.9% または 99.999% の可用性を意味します。)
+  - **可用性**   通常は、停止している時間と比較して、システムまたはサービスにアクセスできる時刻として表されます。 通常、パーセンテージで表されます。 ("3 ナイン" または "5 ナイン") という参照が表示されることがあります。 これらは、99.9% または99.999% の可用性を意味します。)
 
   - **信頼性**   これは、システムが故障するまでの時間の尺度であり、エラー (MTBF) という平均 (平均) 時間として表されることもあります。
 

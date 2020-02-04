@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 常設チャットサーバーのキャパシティ計
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Capacity planning for Persistent Chat Server
 ms:assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615006(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184580
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7af60947a1132d26d5e8ba015d54cdbea80b8b54
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dde4bcb499e38e729850f06bb08590bf537696e5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840704"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737027"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -148,7 +150,7 @@ Lync Server 計画ツールなどのサポートツールを利用すると、�
 </table>
 
 
-上記のサンプルでは、常設チャットサーバーで許可される最大数のユーザーをサポートしています。常設チャットサービスの4つのサーバーとインスタンス (常設チャットサーバーを実行して、高可用性のために4つ以上のパッシブサーバーを使用できます)障害回復) と2万ユーザー (合計8万のアクティブユーザー)
+上記のサンプルでは、常設チャットサーバーで許可されているユーザーの最大数をサポートしています。常設チャットサービスの4つのサーバーとインスタンス (高可用性と障害回復のために常設チャットサーバーを実行している場合は4つのパッシブサーバー、サーバーあたりは2万ユーザー)、合計8万のアクティブユーザーを対象とします。
 
 </div>
 
@@ -597,11 +599,11 @@ Lync Server 計画ツールなどのサポートツールを利用すると、�
 </tr>
 <tr class="even">
 <td><p>ユーザーあたりの中規模チャット ルームの数</p></td>
-<td><p>2</p></td>
+<td><p>両面</p></td>
 </tr>
 <tr class="odd">
 <td><p>ユーザーあたりの大規模チャット ルームの数</p></td>
-<td><p>2</p></td>
+<td><p>両面</p></td>
 </tr>
 <tr class="even">
 <td><p>ユーザーあたりの参加ルーム数</p></td>

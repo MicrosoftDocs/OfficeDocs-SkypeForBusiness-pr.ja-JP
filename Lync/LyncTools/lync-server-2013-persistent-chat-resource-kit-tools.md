@@ -3,6 +3,8 @@ title: Lync Server 2013 常設チャットリソースキットツール
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync Server 2013 Persistent Chat Resource Kit Tools
 ms:assetid: 7a34d2ba-eb25-4e22-92d1-b9baf81b102c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945599(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541423
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2c851be7bb7046021cc2d37c88ef03bdea60c95a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a827892dac61ff88d0527eafb7d94948afa21885
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34841043"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739417"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +49,7 @@ Lync Server 2013 のリソースキットツールをインストールするに
 
 
 > [!IMPORTANT]  
-> Lync server 2013 のリソースキットツールをインストールした後、 <STRONG>PsExec</STRONG>をインストールして、 <STRONG>PsExec</STRONG>を次のパスにコピーする\\必要があります。 <STRONG>Program Files \ Lync server 2013 \ 常設チャットサーバーリソース Kit\ChatStressTool</STRONG>. <STRONG>PsExec</STRONG>をコピーしない場合、常設チャットのストレスツールでエラー例外がスローされ、正しく実行されません。 ツールを実行する前に、必ずこの必須要件を満たしていることを確認してください。 <STRONG>PsExec</STRONG>のインストールの詳細については<A href="http://go.microsoft.com/fwlink/p/?linkid=282246">http://go.microsoft.com/fwlink/p/?LinkId=282246</A>、を参照してください。
+> Lync server 2013 のリソースキットツールをインストールした後、 <STRONG>PsExec</STRONG>をインストールして、 <STRONG>PsExec</STRONG>を次のパスにコピーする\\必要があります: <STRONG>Program Files \ Lync server 2013 \ 常設チャットサーバーリソース Kit\ChatStressTool</STRONG>。 <STRONG>PsExec</STRONG>をコピーしない場合、常設チャットのストレスツールでエラー例外がスローされ、正しく実行されません。 ツールを実行する前に、必ずこの必須要件を満たしていることを確認してください。 <STRONG>PsExec</STRONG>のインストールの詳細については<A href="http://go.microsoft.com/fwlink/p/?linkid=282246">http://go.microsoft.com/fwlink/p/?LinkId=282246</A>、を参照してください。
 
 
 
@@ -331,7 +333,7 @@ ChatUpgradeVerifier ファイルには、適切なグループチャットデー
 
 ## <a name="example"></a>例
 
-![ChatUpgradeVerifier を実行しています。](images/JJ945599.4c273bc3-7926-47c7-ade7-34522721ebf9(OCS.15).jpg "ChatUpgradeVerifier を実行しています。")
+![ChatUpgradeVerifier.exe の実行](images/JJ945599.4c273bc3-7926-47c7-ade7-34522721ebf9(OCS.15).jpg "ChatUpgradeVerifier.exe の実行")
 
 </div>
 

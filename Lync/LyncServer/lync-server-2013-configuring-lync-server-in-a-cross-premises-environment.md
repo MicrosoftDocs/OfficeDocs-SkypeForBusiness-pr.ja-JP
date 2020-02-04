@@ -3,6 +3,8 @@ title: 'Lync Server 2013: クロスプレミス環境での Lync Server の構�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Microsoft Lync Server 2013 in a cross-premises environment
 ms:assetid: 700639ec-5264-4449-a8a6-d7386fad8719
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204990(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184449
 ms.date: 02/21/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 44a47dc3bf3c832819fe431cb0177bfc1a03f330
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 02696b85921e2f408b7a7ec5531b0596aaef49ba
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840237"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755951"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -93,7 +95,7 @@ _**最終更新日:** 2017-02-21_
 
 Office 365 を構成して、Lync Server 2013 および Exchange 2013 の Office 365 サービスプリンシパルを作成した後、これらのサービスプリンシパルに資格情報を登録する必要があります。 これを行うには、最初に .CER ファイルとして保存されている X.509 Base64 を入手する必要があります。 この証明書は、Office 365 サービスプリンシパルに適用されます。
 
-X.509 証明書を取得したら、Microsoft Online Services モジュールを起動し ([**スタート**]、[**すべてのプログラム**]、[ **microsoft オンラインサービス**]、[ **microsoft オンラインサービスモジュール] の順にクリックします)PowerShell**)。 サービスモジュールが開いたら、次のように入力して、サービスプリンシパルを管理するために使用できるコマンドレットが含まれている Microsoft Online Windows PowerShell モジュールをインポートします。
+X.509 証明書を取得したら、Microsoft Online Services モジュールを起動します ([**スタート**] をクリックし、[**すべてのプログラム**]、[ **microsoft オンラインサービス**]、[ **microsoft online services モジュール for Windows PowerShell**] の順にクリックします)。 サービスモジュールが開いたら、次のように入力して、サービスプリンシパルを管理するために使用できるコマンドレットが含まれている Microsoft Online Windows PowerShell モジュールをインポートします。
 
     Import-Module MSOnlineExtended
 

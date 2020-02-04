@@ -3,6 +3,8 @@ title: 'Lync Server 2013: アーカイブデータベースのオプションを
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Changing Archiving database options
 ms:assetid: 3775f09d-65b0-48bc-8a4d-d97bd0c3423c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204814(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183879
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0a98c2efc0dc956a6b8c33f2fcf065f629e5e57d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 198e2abff6118197167f0f017ace22fc2ad76381
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840591"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743487"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +55,7 @@ _**最終更新日:** 2012-11-01_
     
 
     > [!NOTE]  
-    > トポロジは、[ローカルユーザー] グループのメンバーであるアカウントを使用して定義できますが、トポロジを公開するためには、" <STRONG>Domain Admins</STRONG> " グループと "RTCUniversalSer" のメンバーであるアカウントを使用する必要があります。 <STRONG>verAdmins</STRONG>グループ、および Lync Server 2013 ファイルストアで使用しているファイル共有に対してフルコントロールのアクセス許可 (つまり読み取り、書き込み、変更) を持ちます (つまり、トポロジビルダーは必要な任意のアクセス制御リストを構成できます。Dacl)、または同等の権限を持つアカウント。
+    > トポロジを定義するには、[ローカルユーザー] グループのメンバーであるアカウントを使用します。ただし、トポロジを公開するには、トポロジにコンポーネントを追加するために必要なトポロジを指定します。<STRONG>ドメイン管理者</STRONG>グループと<STRONG>RTCUniversalServerAdmins</STRONG>グループのメンバーであり、Lync Server 2013 ファイルストアで使用しているファイル共有に対してフルコントロールのアクセス許可 (つまり、読み取り、書き込み、変更) を持つアカウントを使用する必要があります (つまり、トポロジビルダーは必要な随意アクセス制御リストを構成できます。Dacl)、または同等の権限を持つアカウント。
 
     
     </div>
@@ -98,7 +100,7 @@ _**最終更新日:** 2012-11-01_
             
             3.  指定した SQL Server インスタンスがミラーリング関係にある場合は、[**この sql インスタンスがミラーリング**関係] チェックボックスをオンにし、[**ミラーポート番号**] でポート番号を指定します。
         
-          - Sql Server のミラーリングを有効にしており、SQL Server ミラーリング監視 (プライマリ SQL Server サーバーの正常性を検出できる別の SQL Server インスタンス) を追加または変更する場合は、[ **Sql server ミラーリング監視を使用する] を選択します。[自動フェールオーバーを有効にする**] チェックボックスをオンにして、次のいずれかの操作を行います。
+          - Sql server のミラーリングを有効にし、SQL Server ミラーリング監視 (プライマリ SQL Server サーバーの正常性を検出できる別の SQL Server インスタンス) を追加または変更する場合は、[ **Sql server ミラーリング監視を使用して自動フェールオーバーを有効**にする] チェックボックスをオンにして、次のいずれかの操作を行います。
             
             1.  [ **Sql SERVER fqdn**] で、新しい SQL server ミラーリング監視を作成するサーバーの fqdn を指定します。
             

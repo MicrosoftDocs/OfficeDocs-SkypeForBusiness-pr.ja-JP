@@ -3,6 +3,8 @@ title: 'Lync Server 2013: IIS 仮想ディレクトリの認証と証明書を�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Verify or configure authentication and certification on IIS virtual directories
 ms:assetid: 3ca90be0-1d64-447c-807a-3a2ee3bf625e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429702(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183883
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0ae692f788d906d01852990490ace01f67eebe63
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 48399ed2a6eba53707218295adcd1cbd11a5e32c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848238"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742157"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -105,7 +107,7 @@ _**最終更新日:** 2012-05-25_
     
     Set-CsCertificate コマンドレットの出力では、(証明書の拇印によって識別される) 同じ証明書が、Default、WebServicesExternal、Webservices の内部使用法として割り当てられていることが示されます。
     
-    ![IIS Web ext での Set-CsCertificate からの出力](images/Gg429702.dd451c9d-7b49-4408-8071-c868cb1e678c(OCS.15).jpg "IIS Web ext での Set-CsCertificate からの出力")
+    ![IIS Web Ext での Set-CsCertificate からの出力](images/Gg429702.dd451c9d-7b49-4408-8071-c868cb1e678c(OCS.15).jpg "IIS Web Ext での Set-CsCertificate からの出力")
 
 </div>
 

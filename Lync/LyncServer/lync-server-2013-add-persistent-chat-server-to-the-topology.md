@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 常設チャット サーバーをトポロジに追�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Add Persistent Chat Server to the topology
 ms:assetid: 8389b307-8c17-4e45-b3b5-5dc9fcfc2ffb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205049(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184682
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8985ee2fd28a81f3630e4f80c0ac4dd5a23d4475
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 53f8c65f561a0f2c7b1937d60344c0177d221ba8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840941"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738237"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,7 +53,7 @@ _**最終更新日:** 2012-10-06_
     
 
     > [!NOTE]  
-    > トポロジを定義するには、ローカルユーザーグループのメンバーであるアカウントを使用します。ただし、Lync Server 2013 サーバーをインストールするために必要なトポロジを公開するには、 <STRONG>Domain Admins</STRONG>グループのメンバーであるアカウントと RTCUniversalS を使用する必要があります。 <STRONG>erverAdmins</STRONG>グループ。これには、常設チャットサーバーファイルストアで使用するファイルストアのフルコントロールのアクセス許可 (つまり読み取り、書き込み、変更) が含まれます (つまり、トポロジビルダーは必要な dacl を構成できます)。またはアカウント同じ権利を持つ。
+    > トポロジを定義するには、ローカルユーザーグループのメンバーであるアカウントを使用します。ただし、Lync Server 2013 サーバーをインストールするために必要なトポロジを公開するには、<STRONG>ドメイン管理者</STRONG>グループと<STRONG>RTCUniversalServerAdmins</STRONG>グループのメンバーであるアカウントと、常設チャットサーバーファイルストアで使用するファイルストアのフルコントロールのアクセス許可 (つまり、読み取り、書き込み、変更) を使用する必要があります (つまり、トポロジビルダーが必要な dacl を構成できるようにします)。または、同等の権限を持つアカウント。
 
     
     </div>
@@ -106,7 +108,7 @@ _**最終更新日:** 2012-10-06_
     
 
     > [!IMPORTANT]  
-    > 常設チャットサーバーデータベースおよび常設チャットサーバーのコンプライアンスデータベースに対して高可用性のための SQL Server ミラーを構成する方法の詳細については、「 <A href="lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md">Lync の高可用性および障害回復のための常設チャットサーバーを構成する」を参照してください。</A>展開ドキュメントのサーバー2013。
+    > 常設チャットサーバーデータベースおよび常設チャットサーバーのコンプライアンスデータベースに対して高可用性のための SQL Server ミラーを構成する方法の詳細については、展開ドキュメントの「 <A href="lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md">Lync server 2013 で高可用性と障害復旧のための常設チャットサーバーを構成</A>する」を参照してください。
 
     
     </div>

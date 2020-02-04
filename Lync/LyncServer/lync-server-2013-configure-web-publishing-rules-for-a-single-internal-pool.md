@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 単一内部プールの Web 公開ルールの構成'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure web publishing rules for a single internal pool
 ms:assetid: 86ff4b2a-1ba9-46a2-a175-8b19e00a49dd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429712(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184725
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6ffe61072df14e28c20c45eb72302905986c6357
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6ea798f3d5cefa3b65194eb8afcb6e9b35aaa9c1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840335"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741317"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -75,7 +77,7 @@ Web 公開ルールを作成するには、次の手順を使用します。
     
 
     > [!NOTE]  
-    > 内部サーバーが Standard Edition サーバーの場合、この FQDN は Standard Edition server FQDN です。 内部サーバーがフロントエンドプールの場合、この FQDN は、内部の web ファームサーバーのバランスを読み込むハードウェアロードバランサー仮想 IP (VIP) です。 TMG サーバーは、FQDN を内部 web サーバーの IP アドレスに解決できる必要があります。 TMG サーバーが FQDN を適切な IP アドレスに解決できない場合は、[<STRONG>コンピューター名または ip アドレスを使用して公開されたサーバーに接続する</STRONG>] を選択し、[<STRONG>コンピューター名または</STRONG> <STRONG>ip アドレス</STRONG>] ボックスに、内部の w の IP アドレスを入力します。eb サーバー。 この操作を行う場合は、TMG サーバーでポート53が開かれていて、境界ネットワークに存在する DNS サーバーに到達できることを確認する必要があります。 また、ローカルの hosts ファイルのエントリを使って、名前の解決を提供することもできます。
+    > 内部サーバーが Standard Edition サーバーの場合、この FQDN は Standard Edition server FQDN です。 内部サーバーがフロントエンドプールの場合、この FQDN は、内部の web ファームサーバーのバランスを読み込むハードウェアロードバランサー仮想 IP (VIP) です。 TMG サーバーは、FQDN を内部 web サーバーの IP アドレスに解決できる必要があります。 TMG サーバーが FQDN を適切な IP アドレスに解決できない場合は、[<STRONG>コンピューター名または ip アドレスを使用して公開されたサーバーに接続する</STRONG>] を選択し、[<STRONG>コンピューター名または</STRONG> <STRONG>ip アドレス</STRONG>] ボックスに、内部 web サーバーの IP アドレスを入力します。 この操作を行う場合は、TMG サーバーでポート53が開かれていて、境界ネットワークに存在する DNS サーバーに到達できることを確認する必要があります。 また、ローカルの hosts ファイルのエントリを使って、名前の解決を提供することもできます。
 
     
     </div>
@@ -250,7 +252,7 @@ Web 公開ルールを作成するには、次の手順を使用します。
     
 
     > [!WARNING]  
-    > 既定では、HTTP ルールも作成され、SSL ルールの名前が似た形式で示されます。 現在の例では、HTTP ルールは<STRONG>ARR_webext _loadbalance</STRONG>という名前になっています。 これらのルールに変更は必要ありません。また、無視しても問題ありません。
+    > 既定では、HTTP ルールも作成され、SSL ルールの名前が似た形式で示されます。 現在の例では、HTTP ルールには ARR_webext という名前が付けられています。 <STRONG>com_loadbalance</STRONG> これらのルールに変更は必要ありません。また、無視しても問題ありません。
 
     
     </div>

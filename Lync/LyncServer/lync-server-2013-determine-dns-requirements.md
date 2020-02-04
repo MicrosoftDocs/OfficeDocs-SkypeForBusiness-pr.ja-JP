@@ -3,6 +3,8 @@ title: 'Lync Server 2013: DNS の要件を確認する'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Determine DNS requirements
 ms:assetid: 95777017-6282-44c0-a685-f246af0501b4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398758(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184839
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e299f138a28ba4863250d2e0be1f31f705f4a173
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fd8c1c95c3b8ba3671735447f098eca9173111ba
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833483"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762485"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -228,9 +230,9 @@ Lync を実行しているクライアントで自動構成が必要な場合は
     
     </div>
 
-  - **一致する内部ゾーン**   外部 dns ゾーンと一致する内部 dns ゾーン (contoso.com など) にゾーンを作成し、自動で使用される Lync Server 2013 プールに対応するレコード (IPv6 アドレスを使用している場合) を作成します。構成. たとえば、ユーザーが pool01.contoso.net をホームにしていて、bob@contoso.com として Lync にサインインしている場合は、pool01.contoso.com の DNS A と AAAA (IPv6 アドレスが使用される場合) レコードを作成します。
+  - **一致する内部ゾーン**   外部 dns ゾーンと一致する内部 dns (contoso.com など) に、自動構成で使用される Lync Server 2013 プールに対応する dns a および AAAA を作成します (IPv6 アドレス指定を使用している場合)。 たとえば、ユーザーが pool01.contoso.net をホームにしていて、bob@contoso.com として Lync にサインインしている場合は、pool01.contoso.com の DNS A と AAAA (IPv6 アドレスが使用される場合) レコードを作成します。
 
-  - **ピンポイントの内部ゾーン**   内部 DNS でゾーン全体を作成する場合は、自動構成に必要な SRV レコードに対応するピンポイント (専用) ゾーンを作成して、それらを設定することができます。(dnscmd を使用した) ゾーン。 DNS ユーザーインターフェイスでは、ピンポイントゾーンの作成がサポートされていないため、Dnscmd が必要です。 たとえば、SIP ドメインが contoso.com で、2つのフロントエンドサーバーを含む pool01 というフロントエンドプールがある場合、次のピンポイントゾーンと内部 DNS 内のレコードが必要です。
+  - **ピンポイント内部ゾーン**   内部 DNS でゾーン全体を作成する場合は、自動構成に必要な SRV レコードに対応するピンポイント (専用) ゾーンを作成して、それらのゾーンについては、「nuget.exe」を使用して設定できます。 DNS ユーザーインターフェイスでは、ピンポイントゾーンの作成がサポートされていないため、Dnscmd が必要です。 たとえば、SIP ドメインが contoso.com で、2つのフロントエンドサーバーを含む pool01 というフロントエンドプールがある場合、次のピンポイントゾーンと内部 DNS 内のレコードが必要です。
     
         dnscmd . /zoneadd _sipinternaltls._tcp.contoso.com. /dsprimary
         dnscmd . /recordadd _sipinternaltls._tcp.contoso.com. @ SRV 0 0 5061 pool01.contoso.com.
