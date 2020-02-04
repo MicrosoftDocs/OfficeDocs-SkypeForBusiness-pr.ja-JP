@@ -3,6 +3,8 @@ title: 'Lync Server 2013: tblPreference'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: tblPreference
 ms:assetid: f94eb128-f782-42ff-a568-ed3529573bc8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615052(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185913
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 652312c5ca48a140ee7f17486ef98debb4e08672
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9cd45dcbd6ade83d6c4404346e1752c1f78254e1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848604"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764163"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34848604"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tblpreference-in-lync-server-2013"></a><span data-ttu-id="14208-102">Lync Server 2013 の tblPreference</span><span class="sxs-lookup"><span data-stu-id="14208-102">tblPreference in Lync Server 2013</span></span>
+# <a name="tblpreference-in-lync-server-2013"></a><span data-ttu-id="a157e-102">Lync Server 2013 の tblPreference</span><span class="sxs-lookup"><span data-stu-id="a157e-102">tblPreference in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,11 +35,11 @@ ms.locfileid: "34848604"
 
 <span> </span>
 
-<span data-ttu-id="14208-103">_**最終更新日:** 2012-09-24_</span><span class="sxs-lookup"><span data-stu-id="14208-103">_**Topic Last Modified:** 2012-09-24_</span></span>
+<span data-ttu-id="a157e-103">_**最終更新日:** 2012-09-24_</span><span class="sxs-lookup"><span data-stu-id="a157e-103">_**Topic Last Modified:** 2012-09-24_</span></span>
 
-<span data-ttu-id="14208-104">tblPreference には、ユーザーのクライアントの設定が含まれます。</span><span class="sxs-lookup"><span data-stu-id="14208-104">tblPreference contains the users’ client preferences.</span></span> <span data-ttu-id="14208-105">通常、これは Lync 2013 より前のクライアントで使用されます。</span><span class="sxs-lookup"><span data-stu-id="14208-105">This is generally used by clients previous to Lync 2013.</span></span>
+<span data-ttu-id="a157e-104">tblPreference には、ユーザーのクライアントの設定が含まれます。</span><span class="sxs-lookup"><span data-stu-id="a157e-104">tblPreference contains the users’ client preferences.</span></span> <span data-ttu-id="a157e-105">通常、これは Lync 2013 より前のクライアントで使用されます。</span><span class="sxs-lookup"><span data-stu-id="a157e-105">This is generally used by clients previous to Lync 2013.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="14208-106">行</span><span class="sxs-lookup"><span data-stu-id="14208-106">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="a157e-106">行</span><span class="sxs-lookup"><span data-stu-id="a157e-106">Columns</span></span>
 
 <table>
 <colgroup>
@@ -47,37 +49,37 @@ ms.locfileid: "34848604"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="14208-107">列</span><span class="sxs-lookup"><span data-stu-id="14208-107">Column</span></span></th>
-<th><span data-ttu-id="14208-108">型</span><span class="sxs-lookup"><span data-stu-id="14208-108">Type</span></span></th>
-<th><span data-ttu-id="14208-109">説明</span><span class="sxs-lookup"><span data-stu-id="14208-109">Description</span></span></th>
+<th><span data-ttu-id="a157e-107">列</span><span class="sxs-lookup"><span data-stu-id="a157e-107">Column</span></span></th>
+<th><span data-ttu-id="a157e-108">型</span><span class="sxs-lookup"><span data-stu-id="a157e-108">Type</span></span></th>
+<th><span data-ttu-id="a157e-109">説明</span><span class="sxs-lookup"><span data-stu-id="a157e-109">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="14208-110">prefLabel</span><span class="sxs-lookup"><span data-stu-id="14208-110">prefLabel</span></span></p></td>
-<td><p><span data-ttu-id="14208-111">nvarchar (255)、null ではない</span><span class="sxs-lookup"><span data-stu-id="14208-111">nvarchar (255), not null</span></span></p></td>
-<td><p><span data-ttu-id="14208-112">"ユーザー sip uri &lt;&gt;| ユーザー名" のような形式のラベル。&lt;設定&gt;。</span><span class="sxs-lookup"><span data-stu-id="14208-112">Label with a format such as: &lt;user sip uri&gt;|username.&lt;preference set&gt;.</span></span></p></td>
+<td><p><span data-ttu-id="a157e-110">prefLabel</span><span class="sxs-lookup"><span data-stu-id="a157e-110">prefLabel</span></span></p></td>
+<td><p><span data-ttu-id="a157e-111">nvarchar (255)、null ではない</span><span class="sxs-lookup"><span data-stu-id="a157e-111">nvarchar (255), not null</span></span></p></td>
+<td><p><span data-ttu-id="a157e-112">"ユーザー sip uri &lt;&gt;| ユーザー名" のような形式のラベル。&lt;設定&gt;。</span><span class="sxs-lookup"><span data-stu-id="a157e-112">Label with a format such as: &lt;user sip uri&gt;|username.&lt;preference set&gt;.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="14208-113">prefSeqID</span><span class="sxs-lookup"><span data-stu-id="14208-113">prefSeqID</span></span></p></td>
-<td><p><span data-ttu-id="14208-114">int (null ではない)</span><span class="sxs-lookup"><span data-stu-id="14208-114">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="14208-115">バージョン管理のための連続番号 (ラベルあたり)。</span><span class="sxs-lookup"><span data-stu-id="14208-115">A sequential number (per label) for versioning purposes.</span></span></p></td>
+<td><p><span data-ttu-id="a157e-113">prefSeqID</span><span class="sxs-lookup"><span data-stu-id="a157e-113">prefSeqID</span></span></p></td>
+<td><p><span data-ttu-id="a157e-114">int (null ではない)</span><span class="sxs-lookup"><span data-stu-id="a157e-114">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="a157e-115">バージョン管理のための連続番号 (ラベルあたり)。</span><span class="sxs-lookup"><span data-stu-id="a157e-115">A sequential number (per label) for versioning purposes.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="14208-116">prefContent</span><span class="sxs-lookup"><span data-stu-id="14208-116">prefContent</span></span></p></td>
-<td><p><span data-ttu-id="14208-117">nvarchar (max)</span><span class="sxs-lookup"><span data-stu-id="14208-117">nvarchar (max)</span></span></p></td>
-<td><p><span data-ttu-id="14208-118">エンコードされたコンテンツ。</span><span class="sxs-lookup"><span data-stu-id="14208-118">Encoded content.</span></span></p></td>
+<td><p><span data-ttu-id="a157e-116">prefContent</span><span class="sxs-lookup"><span data-stu-id="a157e-116">prefContent</span></span></p></td>
+<td><p><span data-ttu-id="a157e-117">nvarchar (max)</span><span class="sxs-lookup"><span data-stu-id="a157e-117">nvarchar (max)</span></span></p></td>
+<td><p><span data-ttu-id="a157e-118">エンコードされたコンテンツ。</span><span class="sxs-lookup"><span data-stu-id="a157e-118">Encoded content.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="14208-119">最終方法</span><span class="sxs-lookup"><span data-stu-id="14208-119">lastModifiedBy</span></span></p></td>
-<td><p><span data-ttu-id="14208-120">int (null ではない)</span><span class="sxs-lookup"><span data-stu-id="14208-120">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="14208-121">設定を更新したプリンシパルの ID です。</span><span class="sxs-lookup"><span data-stu-id="14208-121">ID of the principal that updated the preference.</span></span></p></td>
+<td><p><span data-ttu-id="a157e-119">最終方法</span><span class="sxs-lookup"><span data-stu-id="a157e-119">lastModifiedBy</span></span></p></td>
+<td><p><span data-ttu-id="a157e-120">int (null ではない)</span><span class="sxs-lookup"><span data-stu-id="a157e-120">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="a157e-121">設定を更新したプリンシパルの ID です。</span><span class="sxs-lookup"><span data-stu-id="a157e-121">ID of the principal that updated the preference.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a><span data-ttu-id="14208-122">キー</span><span class="sxs-lookup"><span data-stu-id="14208-122">Key</span></span>
+### <a name="key"></a><span data-ttu-id="a157e-122">キー</span><span class="sxs-lookup"><span data-stu-id="a157e-122">Key</span></span>
 
 <table>
 <colgroup>
@@ -86,14 +88,14 @@ ms.locfileid: "34848604"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="14208-123">列</span><span class="sxs-lookup"><span data-stu-id="14208-123">Column</span></span></th>
-<th><span data-ttu-id="14208-124">説明</span><span class="sxs-lookup"><span data-stu-id="14208-124">Description</span></span></th>
+<th><span data-ttu-id="a157e-123">列</span><span class="sxs-lookup"><span data-stu-id="a157e-123">Column</span></span></th>
+<th><span data-ttu-id="a157e-124">説明</span><span class="sxs-lookup"><span data-stu-id="a157e-124">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="14208-125">&lt;prefLabel, prefSeqID&gt;</span><span class="sxs-lookup"><span data-stu-id="14208-125">&lt;prefLabel, prefSeqID&gt;</span></span></p></td>
-<td><p><span data-ttu-id="14208-126">主キー。</span><span class="sxs-lookup"><span data-stu-id="14208-126">Primary key.</span></span></p></td>
+<td><p><span data-ttu-id="a157e-125">&lt;prefLabel, prefSeqID&gt;</span><span class="sxs-lookup"><span data-stu-id="a157e-125">&lt;prefLabel, prefSeqID&gt;</span></span></p></td>
+<td><p><span data-ttu-id="a157e-126">主キー。</span><span class="sxs-lookup"><span data-stu-id="a157e-126">Primary key.</span></span></p></td>
 </tr>
 </tbody>
 </table>

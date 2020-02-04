@@ -3,6 +3,8 @@ title: 'Lync Server 2013: クライアントのバージョン構成の設定を
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View client version configuration settings
 ms:assetid: c72df4e6-a889-4cb6-86f7-8334d7774c6e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ923062(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 50675353
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9db03377f8f2fc880de61639f4eedc5b1c302d21
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b6c789275cf33b48e27d60de9a9f9846fc230276
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848223"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731117"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34848223"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-client-version-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="40604-102">Lync Server 2013 でクライアントのバージョン構成の設定を表示する</span><span class="sxs-lookup"><span data-stu-id="40604-102">View client version configuration settings in Lync Server 2013</span></span>
+# <a name="view-client-version-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="09376-102">Lync Server 2013 でクライアントのバージョン構成の設定を表示する</span><span class="sxs-lookup"><span data-stu-id="09376-102">View client version configuration settings in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,15 +35,15 @@ ms.locfileid: "34848223"
 
 <span> </span>
 
-<span data-ttu-id="40604-103">_**最終更新日:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="40604-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+<span data-ttu-id="09376-103">_**トピックの最終更新日:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="09376-103">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-<span data-ttu-id="40604-104">クライアント バージョンの構成設定は、クライアント バージョンの制御を有効または無効にするために使用します。</span><span class="sxs-lookup"><span data-stu-id="40604-104">Client version configuration settings are used to turn client version control on or off.</span></span> <span data-ttu-id="40604-105">グローバルクライアントバージョンの構成は、Lync Server 2013 と共にインストールされ、サーバー展開全体でクライアントのバージョン管理を有効または無効にするために使用されます。</span><span class="sxs-lookup"><span data-stu-id="40604-105">The global client version configuration installs with Lync Server 2013 and is used to enable or disable client version control for the entire server deployment.</span></span> <span data-ttu-id="40604-106">グローバル構成を有効にすると、ユーザーがログオンを試みたときに、適用されているすべてのクライアント バージョン ポリシーが有効になります。</span><span class="sxs-lookup"><span data-stu-id="40604-106">When the Global configuration is enabled, any client version policies you have in place will take effect when users attempt to log on.</span></span> <span data-ttu-id="40604-107">クライアントバージョンの構成設定は、Lync Server 2013 コントロールパネルまたは Lync Server 2013 Management Shell で確認できます。</span><span class="sxs-lookup"><span data-stu-id="40604-107">You can view client version configuration settings from Lync Server 2013 Control Panel or Lync Server 2013 Management Shell.</span></span>
+<span data-ttu-id="09376-104">クライアント バージョンの構成設定は、クライアント バージョンの制御を有効または無効にするために使用します。</span><span class="sxs-lookup"><span data-stu-id="09376-104">Client version configuration settings are used to turn client version control on or off.</span></span> <span data-ttu-id="09376-105">グローバルクライアントバージョンの構成は、Lync Server 2013 と共にインストールされ、サーバー展開全体でクライアントのバージョン管理を有効または無効にするために使用されます。</span><span class="sxs-lookup"><span data-stu-id="09376-105">The global client version configuration installs with Lync Server 2013 and is used to enable or disable client version control for the entire server deployment.</span></span> <span data-ttu-id="09376-106">グローバル構成を有効にすると、ユーザーがログオンを試みたときに、適用されているすべてのクライアント バージョン ポリシーが有効になります。</span><span class="sxs-lookup"><span data-stu-id="09376-106">When the Global configuration is enabled, any client version policies you have in place will take effect when users attempt to log on.</span></span> <span data-ttu-id="09376-107">クライアントバージョンの構成設定は、Lync Server 2013 コントロールパネルまたは Lync Server 2013 Management Shell で確認できます。</span><span class="sxs-lookup"><span data-stu-id="09376-107">You can view client version configuration settings from Lync Server 2013 Control Panel or Lync Server 2013 Management Shell.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="40604-108">匿名ユーザーをユーザー、サイト、またはサービスに関連付けることはできないため、匿名ユーザーが影響を受けるのはグローバル レベルのポリシーだけです。</span><span class="sxs-lookup"><span data-stu-id="40604-108">Because anonymous users are not associated with a user, site, or service, anonymous users are affected by global-level policies only.</span></span>
+> <span data-ttu-id="09376-108">匿名ユーザーをユーザー、サイト、またはサービスに関連付けることはできないため、匿名ユーザーが影響を受けるのはグローバル レベルのポリシーだけです。</span><span class="sxs-lookup"><span data-stu-id="09376-108">Because anonymous users are not associated with a user, site, or service, anonymous users are affected by global-level policies only.</span></span>
 
 
 
@@ -49,33 +51,33 @@ ms.locfileid: "34848223"
 
 <div>
 
-## <a name="to-view-client-version-configuration-settings-by-using-lync-server-control-panel"></a><span data-ttu-id="40604-109">Lync Server コントロールパネルを使用してクライアントのバージョン設定を表示するには</span><span class="sxs-lookup"><span data-stu-id="40604-109">To view client version configuration settings by using Lync Server Control Panel</span></span>
+## <a name="to-view-client-version-configuration-settings-by-using-lync-server-control-panel"></a><span data-ttu-id="09376-109">Lync Server コントロールパネルを使用してクライアントのバージョン設定を表示するには</span><span class="sxs-lookup"><span data-stu-id="09376-109">To view client version configuration settings by using Lync Server Control Panel</span></span>
 
-1.  <span data-ttu-id="40604-110">CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="40604-110">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="09376-110">CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="09376-110">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="40604-111">ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="40604-111">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="40604-112">Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="40604-112">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="09376-111">ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="09376-111">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="09376-112">Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="09376-112">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="40604-113">左側のナビゲーションバーで、[**クライアント**] をクリックし、[**クライアントバージョンの構成**] ナビゲーションボタンをクリックします。</span><span class="sxs-lookup"><span data-stu-id="40604-113">In the left navigation bar, click **Clients**, and then click the **Client Version Configuration** navigation button.</span></span>
+3.  <span data-ttu-id="09376-113">左側のナビゲーションバーで、[**クライアント**] をクリックし、[**クライアントバージョンの構成**] ナビゲーションボタンをクリックします。</span><span class="sxs-lookup"><span data-stu-id="09376-113">In the left navigation bar, click **Clients**, and then click the **Client Version Configuration** navigation button.</span></span>
 
-4.  <span data-ttu-id="40604-114">表示するクライアントバージョン構成の名前をダブルクリックします。</span><span class="sxs-lookup"><span data-stu-id="40604-114">Double-click the name of the client version configuration you want to view.</span></span>
+4.  <span data-ttu-id="09376-114">表示するクライアントバージョン構成の名前をダブルクリックします。</span><span class="sxs-lookup"><span data-stu-id="09376-114">Double-click the name of the client version configuration you want to view.</span></span>
 
 </div>
 
 <div>
 
-## <a name="viewing-client-version-configuration-settings-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="40604-115">Windows PowerShell コマンドレットを使用してクライアントのバージョン構成設定を表示する</span><span class="sxs-lookup"><span data-stu-id="40604-115">Viewing Client Version Configuration Settings by Using Windows PowerShell Cmdlets</span></span>
+## <a name="viewing-client-version-configuration-settings-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="09376-115">Windows PowerShell コマンドレットを使用してクライアントのバージョン構成設定を表示する</span><span class="sxs-lookup"><span data-stu-id="09376-115">Viewing Client Version Configuration Settings by Using Windows PowerShell Cmdlets</span></span>
 
-<span data-ttu-id="40604-116">クライアントのバージョン構成設定は、「 **CsClientVersionConfiguration**コマンドレット」で確認できます。</span><span class="sxs-lookup"><span data-stu-id="40604-116">You can view client version configuration settings by using the **Get-CsClientVersionConfiguration** cmdlet.</span></span> <span data-ttu-id="40604-117">このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。</span><span class="sxs-lookup"><span data-stu-id="40604-117">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="40604-118">リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、「Lync Server Windows PowerShell のブログ記事」を参照してください[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。「リモート PowerShell を使用して Microsoft Lync Server 2010 を管理する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="40604-118">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+<span data-ttu-id="09376-116">クライアントのバージョン構成設定は、「 **CsClientVersionConfiguration**コマンドレット」で確認できます。</span><span class="sxs-lookup"><span data-stu-id="09376-116">You can view client version configuration settings by using the **Get-CsClientVersionConfiguration** cmdlet.</span></span> <span data-ttu-id="09376-117">このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。</span><span class="sxs-lookup"><span data-stu-id="09376-117">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="09376-118">リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。</span><span class="sxs-lookup"><span data-stu-id="09376-118">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
 <div>
 
-## <a name="to-view-client-version-configuration-information"></a><span data-ttu-id="40604-119">クライアントのバージョン構成情報を表示するには</span><span class="sxs-lookup"><span data-stu-id="40604-119">To view client version configuration information</span></span>
+## <a name="to-view-client-version-configuration-information"></a><span data-ttu-id="09376-119">クライアントのバージョン構成情報を表示するには</span><span class="sxs-lookup"><span data-stu-id="09376-119">To view client version configuration information</span></span>
 
-  - <span data-ttu-id="40604-120">すべてのクライアントバージョンの構成設定に関する情報を表示するには、Lync Server 管理シェルで次のコマンドを入力し、enter キーを押します。</span><span class="sxs-lookup"><span data-stu-id="40604-120">To view information about all your client version configuration settings, type the following command in the Lync Server Management Shell and then press ENTER:</span></span>
+  - <span data-ttu-id="09376-120">すべてのクライアントバージョンの構成設定に関する情報を表示するには、Lync Server 管理シェルで次のコマンドを入力し、enter キーを押します。</span><span class="sxs-lookup"><span data-stu-id="09376-120">To view information about all your client version configuration settings, type the following command in the Lync Server Management Shell and then press ENTER:</span></span>
     
         Get-CsClientVersionConfiguration
     
-    <span data-ttu-id="40604-121">次のような情報が表示されます。</span><span class="sxs-lookup"><span data-stu-id="40604-121">That will return information similar to this:</span></span>
+    <span data-ttu-id="09376-121">次のような情報が表示されます。</span><span class="sxs-lookup"><span data-stu-id="09376-121">That will return information similar to this:</span></span>
     
         Identity      : Global
         DefaultAction : Allow
@@ -84,7 +86,7 @@ ms.locfileid: "34848223"
 
 </div>
 
-<span data-ttu-id="40604-122">詳細については、「 [CsClientVersionConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsClientVersionConfiguration)コマンドレットのヘルプ」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="40604-122">For details, see the Help topic for the [Get-CsClientVersionConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsClientVersionConfiguration) cmdlet.</span></span>
+<span data-ttu-id="09376-122">詳細については、「 [CsClientVersionConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsClientVersionConfiguration)コマンドレットのヘルプ」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="09376-122">For details, see the Help topic for the [Get-CsClientVersionConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsClientVersionConfiguration) cmdlet.</span></span>
 
 </div>
 

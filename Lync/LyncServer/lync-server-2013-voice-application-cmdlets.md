@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 音声アプリケーションコマンドレット'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Voice application cmdlets
 ms:assetid: 0d73ace6-1185-484a-980a-4b3d63ba507b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415634(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183404
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 83ada9177e86c88349214d5d7191de15c4ecab81
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 895a61ef12eec2ceef8f994b1d0b9ba1e529c840
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848140"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757201"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34848140"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="voice-application-cmdlets-in-lync-server-2013"></a><span data-ttu-id="b27f0-102">Lync Server 2013 の音声アプリケーションコマンドレット</span><span class="sxs-lookup"><span data-stu-id="b27f0-102">Voice application cmdlets in Lync Server 2013</span></span>
+# <a name="voice-application-cmdlets-in-lync-server-2013"></a><span data-ttu-id="b9ebf-102">Lync Server 2013 の音声アプリケーションコマンドレット</span><span class="sxs-lookup"><span data-stu-id="b9ebf-102">Voice application cmdlets in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,265 +35,265 @@ ms.locfileid: "34848140"
 
 <span> </span>
 
-<span data-ttu-id="b27f0-103">_**最終更新日:** 2012-10-09_</span><span class="sxs-lookup"><span data-stu-id="b27f0-103">_**Topic Last Modified:** 2012-10-09_</span></span>
+<span data-ttu-id="b9ebf-103">_**最終更新日:** 2012-10-09_</span><span class="sxs-lookup"><span data-stu-id="b9ebf-103">_**Topic Last Modified:** 2012-10-09_</span></span>
 
-<span data-ttu-id="b27f0-104">ボイスアプリケーションは、フロントエンドサーバー上のアプリケーションサービスで実行されます。</span><span class="sxs-lookup"><span data-stu-id="b27f0-104">Voice applications run on the Application service on the Front End Server.</span></span> <span data-ttu-id="b27f0-105">これらのアプリケーションを使うと、通話のパーク、未使用の番号への対処、Exchange ユニファイドメッセージング (UM) による調整、応答グループアプリケーションの実行などを行うことができます。</span><span class="sxs-lookup"><span data-stu-id="b27f0-105">These applications help you manage incoming and outgoing phone calls by allowing you to park calls, deal with unassigned numbers, coordinate with Exchange Unified Messaging (UM), and run Response Group application.</span></span>
+<span data-ttu-id="b9ebf-104">ボイスアプリケーションは、フロントエンドサーバー上のアプリケーションサービスで実行されます。</span><span class="sxs-lookup"><span data-stu-id="b9ebf-104">Voice applications run on the Application service on the Front End Server.</span></span> <span data-ttu-id="b9ebf-105">これらのアプリケーションを使うと、通話のパーク、未使用の番号への対処、Exchange ユニファイドメッセージング (UM) による調整、応答グループアプリケーションの実行などを行うことができます。</span><span class="sxs-lookup"><span data-stu-id="b9ebf-105">These applications help you manage incoming and outgoing phone calls by allowing you to park calls, deal with unassigned numbers, coordinate with Exchange Unified Messaging (UM), and run Response Group application.</span></span>
 
 <div>
 
-## <a name="voice-application-cmdlets"></a><span data-ttu-id="b27f0-106">音声アプリケーションコマンドレット</span><span class="sxs-lookup"><span data-stu-id="b27f0-106">Voice Application Cmdlets</span></span>
+## <a name="voice-application-cmdlets"></a><span data-ttu-id="b9ebf-106">音声アプリケーションコマンドレット</span><span class="sxs-lookup"><span data-stu-id="b9ebf-106">Voice Application Cmdlets</span></span>
 
-<span data-ttu-id="b27f0-107">音声アプリケーションを処理するコマンドレットの一覧を次に示します。</span><span class="sxs-lookup"><span data-stu-id="b27f0-107">The following is a list of cmdlets that deal with voice applications:</span></span>
+<span data-ttu-id="b9ebf-107">音声アプリケーションを処理するコマンドレットの一覧を次に示します。</span><span class="sxs-lookup"><span data-stu-id="b9ebf-107">The following is a list of cmdlets that deal with voice applications:</span></span>
 
-<span data-ttu-id="b27f0-108">**[Lync Server 2013 のコールパークアプリケーションコマンドレット](lync-server-2013-call-park-application-cmdlets.md)**</span><span class="sxs-lookup"><span data-stu-id="b27f0-108">**[Call Park application cmdlets in Lync Server 2013](lync-server-2013-call-park-application-cmdlets.md)**</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="b27f0-109">[Get-CsCallParkOrbit](https://technet.microsoft.com/en-us/library/Gg398554(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-109">[Get-CsCallParkOrbit](https://technet.microsoft.com/en-us/library/Gg398554(v=OCS.15))</span></span>
+<span data-ttu-id="b9ebf-108">**[Lync Server 2013 のコールパークアプリケーションコマンドレット](lync-server-2013-call-park-application-cmdlets.md)**</span><span class="sxs-lookup"><span data-stu-id="b9ebf-108">**[Call Park application cmdlets in Lync Server 2013](lync-server-2013-call-park-application-cmdlets.md)**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="b27f0-110">[新規-CsCallParkOrbit](https://technet.microsoft.com/en-us/library/Gg398936(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-110">[New-CsCallParkOrbit](https://technet.microsoft.com/en-us/library/Gg398936(v=OCS.15))</span></span>
+    <span data-ttu-id="b9ebf-109">[Get-CsCallParkOrbit](https://technet.microsoft.com/en-us/library/Gg398554(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-109">[Get-CsCallParkOrbit](https://technet.microsoft.com/en-us/library/Gg398554(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="b27f0-111">[Remove-CsCallParkOrbit](https://technet.microsoft.com/en-us/library/Gg412901(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-111">[Remove-CsCallParkOrbit](https://technet.microsoft.com/en-us/library/Gg412901(v=OCS.15))</span></span>
+    <span data-ttu-id="b9ebf-110">[新規-CsCallParkOrbit](https://technet.microsoft.com/en-us/library/Gg398936(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-110">[New-CsCallParkOrbit](https://technet.microsoft.com/en-us/library/Gg398936(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="b27f0-112">[Set-CsCallParkOrbit](https://technet.microsoft.com/en-us/library/Gg398796(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-112">[Set-CsCallParkOrbit](https://technet.microsoft.com/en-us/library/Gg398796(v=OCS.15))</span></span>
+    <span data-ttu-id="b9ebf-111">[Remove-CsCallParkOrbit](https://technet.microsoft.com/en-us/library/Gg412901(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-111">[Remove-CsCallParkOrbit](https://technet.microsoft.com/en-us/library/Gg412901(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="b9ebf-112">[Set-CsCallParkOrbit](https://technet.microsoft.com/en-us/library/Gg398796(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-112">[Set-CsCallParkOrbit](https://technet.microsoft.com/en-us/library/Gg398796(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="b27f0-113">[Set-CsCallParkServiceMusicOnHoldFile](https://technet.microsoft.com/en-us/library/Gg412836(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-113">[Set-CsCallParkServiceMusicOnHoldFile](https://technet.microsoft.com/en-us/library/Gg412836(v=OCS.15))</span></span>
+    <span data-ttu-id="b9ebf-113">[Set-CsCallParkServiceMusicOnHoldFile](https://technet.microsoft.com/en-us/library/Gg412836(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-113">[Set-CsCallParkServiceMusicOnHoldFile](https://technet.microsoft.com/en-us/library/Gg412836(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="b27f0-114">[Get-CsCpsConfiguration](https://technet.microsoft.com/en-us/library/Gg398948(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-114">[Get-CsCpsConfiguration](https://technet.microsoft.com/en-us/library/Gg398948(v=OCS.15))</span></span>
+    <span data-ttu-id="b9ebf-114">[Get-CsCpsConfiguration](https://technet.microsoft.com/en-us/library/Gg398948(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-114">[Get-CsCpsConfiguration](https://technet.microsoft.com/en-us/library/Gg398948(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="b27f0-115">[新規-CsCpsConfiguration](https://technet.microsoft.com/en-us/library/Gg412919(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-115">[New-CsCpsConfiguration](https://technet.microsoft.com/en-us/library/Gg412919(v=OCS.15))</span></span>
+    <span data-ttu-id="b9ebf-115">[新規-CsCpsConfiguration](https://technet.microsoft.com/en-us/library/Gg412919(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-115">[New-CsCpsConfiguration](https://technet.microsoft.com/en-us/library/Gg412919(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="b27f0-116">[Remove-CsCpsConfiguration](https://technet.microsoft.com/en-us/library/Gg398358(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-116">[Remove-CsCpsConfiguration](https://technet.microsoft.com/en-us/library/Gg398358(v=OCS.15))</span></span>
+    <span data-ttu-id="b9ebf-116">[Remove-CsCpsConfiguration](https://technet.microsoft.com/en-us/library/Gg398358(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-116">[Remove-CsCpsConfiguration](https://technet.microsoft.com/en-us/library/Gg398358(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="b27f0-117">[Set-CsCpsConfiguration](https://technet.microsoft.com/en-us/library/Gg412721(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-117">[Set-CsCpsConfiguration](https://technet.microsoft.com/en-us/library/Gg412721(v=OCS.15))</span></span>
+    <span data-ttu-id="b9ebf-117">[Set-CsCpsConfiguration](https://technet.microsoft.com/en-us/library/Gg412721(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-117">[Set-CsCpsConfiguration](https://technet.microsoft.com/en-us/library/Gg412721(v=OCS.15))</span></span>
 
-<span data-ttu-id="b27f0-118">**[Lync Server 2013 の Exchange UM コマンドレット](lync-server-2013-exchange-um-cmdlets.md)**</span><span class="sxs-lookup"><span data-stu-id="b27f0-118">**[Exchange UM cmdlets in Lync Server 2013](lync-server-2013-exchange-um-cmdlets.md)**</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="b27f0-119">[Get-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg412725(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-119">[Get-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg412725(v=OCS.15))</span></span>
+<span data-ttu-id="b9ebf-118">**[Lync Server 2013 の Exchange UM コマンドレット](lync-server-2013-exchange-um-cmdlets.md)**</span><span class="sxs-lookup"><span data-stu-id="b9ebf-118">**[Exchange UM cmdlets in Lync Server 2013](lync-server-2013-exchange-um-cmdlets.md)**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="b27f0-120">[Move-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg425842(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-120">[Move-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg425842(v=OCS.15))</span></span>
+    <span data-ttu-id="b9ebf-119">[Get-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg412725(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-119">[Get-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg412725(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="b27f0-121">[New-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg398139(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-121">[New-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg398139(v=OCS.15))</span></span>
+    <span data-ttu-id="b9ebf-120">[Move-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg425842(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-120">[Move-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg425842(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="b27f0-122">[Remove-CsExUmContact](rehttps://technet.microsoft.com/en-us/library/Gg425842(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-122">[Remove-CsExUmContact](rehttps://technet.microsoft.com/en-us/library/Gg425842(v=OCS.15))</span></span>
+    <span data-ttu-id="b9ebf-121">[New-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg398139(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-121">[New-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg398139(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="b27f0-123">[Set-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg412944(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-123">[Set-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg412944(v=OCS.15))</span></span>
+    <span data-ttu-id="b9ebf-122">[Remove-CsExUmContact](rehttps://technet.microsoft.com/en-us/library/Gg425842(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-122">[Remove-CsExUmContact](rehttps://technet.microsoft.com/en-us/library/Gg425842(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="b9ebf-123">[Set-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg412944(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-123">[Set-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg412944(v=OCS.15))</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="b27f0-124">[Test-CsExStorageConnectivity](https://technet.microsoft.com/en-us/library/JJ204740(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-124">[Test-CsExStorageConnectivity](https://technet.microsoft.com/en-us/library/JJ204740(v=OCS.15))</span></span>
+  - <span data-ttu-id="b9ebf-124">[Test-CsExStorageConnectivity](https://technet.microsoft.com/en-us/library/JJ204740(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-124">[Test-CsExStorageConnectivity](https://technet.microsoft.com/en-us/library/JJ204740(v=OCS.15))</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="b27f0-125">[Test-CsExStorageNotification](https://technet.microsoft.com/en-us/library/JJ205331(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-125">[Test-CsExStorageNotification](https://technet.microsoft.com/en-us/library/JJ205331(v=OCS.15))</span></span>
+  - <span data-ttu-id="b9ebf-125">[Test-CsExStorageNotification](https://technet.microsoft.com/en-us/library/JJ205331(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-125">[Test-CsExStorageNotification](https://technet.microsoft.com/en-us/library/JJ205331(v=OCS.15))</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="b27f0-126">[Test-CsExUMConnectivity](https://technet.microsoft.com/en-us/library/JJ204784(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-126">[Test-CsExUMConnectivity](https://technet.microsoft.com/en-us/library/JJ204784(v=OCS.15))</span></span>
+  - <span data-ttu-id="b9ebf-126">[Test-CsExUMConnectivity](https://technet.microsoft.com/en-us/library/JJ204784(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-126">[Test-CsExUMConnectivity](https://technet.microsoft.com/en-us/library/JJ204784(v=OCS.15))</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="b27f0-127">[Test-CsExUMVoiceMail](https://technet.microsoft.com/en-us/library/JJ205058(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-127">[Test-CsExUMVoiceMail](https://technet.microsoft.com/en-us/library/JJ205058(v=OCS.15))</span></span>
-
-<!-- end list -->
-
-  - <span></span>  
-    <span data-ttu-id="b27f0-128">[Get-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg398348(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-128">[Get-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg398348(v=OCS.15))</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="b27f0-129">[Grant-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg412829(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-129">[Grant-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg412829(v=OCS.15))</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="b27f0-130">[New-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg398653(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-130">[New-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg398653(v=OCS.15))</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="b27f0-131">[Remove-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg398211(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-131">[Remove-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg398211(v=OCS.15))</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="b27f0-132">[Set-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg412722(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-132">[Set-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg412722(v=OCS.15))</span></span>
-
-<span data-ttu-id="b27f0-133">**[Lync Server 2013 の応答グループ アプリケーションのコマンドレット](lync-server-2013-response-group-application-cmdlets.md)**</span><span class="sxs-lookup"><span data-stu-id="b27f0-133">**[Response Group application cmdlets in Lync Server 2013](lync-server-2013-response-group-application-cmdlets.md)**</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="b27f0-134">[Get-CsRgsAgentGroup](https://technet.microsoft.com/en-us/library/Gg425793(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-134">[Get-CsRgsAgentGroup](https://technet.microsoft.com/en-us/library/Gg425793(v=OCS.15))</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="b27f0-135">[New-CsRgsAgentGroup](https://technet.microsoft.com/en-us/library/Gg413065(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-135">[New-CsRgsAgentGroup](https://technet.microsoft.com/en-us/library/Gg413065(v=OCS.15))</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="b27f0-136">[Remove-CsRgsAgentGroup](https://technet.microsoft.com/en-us/library/Gg398969(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-136">[Remove-CsRgsAgentGroup](https://technet.microsoft.com/en-us/library/Gg398969(v=OCS.15))</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="b27f0-137">[Set-CsRgsAgentGroup](https://technet.microsoft.com/en-us/library/Gg425955(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-137">[Set-CsRgsAgentGroup](https://technet.microsoft.com/en-us/library/Gg425955(v=OCS.15))</span></span>
+  - <span data-ttu-id="b9ebf-127">[Test-CsExUMVoiceMail](https://technet.microsoft.com/en-us/library/JJ205058(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-127">[Test-CsExUMVoiceMail](https://technet.microsoft.com/en-us/library/JJ205058(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="b27f0-138">[New-CsRgsAnswer](https://technet.microsoft.com/en-us/library/Gg412812(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-138">[New-CsRgsAnswer](https://technet.microsoft.com/en-us/library/Gg412812(v=OCS.15))</span></span>
+    <span data-ttu-id="b9ebf-128">[Get-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg398348(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-128">[Get-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg398348(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="b9ebf-129">[Grant-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg412829(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-129">[Grant-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg412829(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="b9ebf-130">[New-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg398653(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-130">[New-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg398653(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="b9ebf-131">[Remove-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg398211(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-131">[Remove-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg398211(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="b9ebf-132">[Set-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg412722(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-132">[Set-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg412722(v=OCS.15))</span></span>
+
+<span data-ttu-id="b9ebf-133">**[Lync Server 2013 の応答グループ アプリケーションのコマンドレット](lync-server-2013-response-group-application-cmdlets.md)**</span><span class="sxs-lookup"><span data-stu-id="b9ebf-133">**[Response Group application cmdlets in Lync Server 2013](lync-server-2013-response-group-application-cmdlets.md)**</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="b9ebf-134">[Get-CsRgsAgentGroup](https://technet.microsoft.com/en-us/library/Gg425793(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-134">[Get-CsRgsAgentGroup](https://technet.microsoft.com/en-us/library/Gg425793(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="b9ebf-135">[New-CsRgsAgentGroup](https://technet.microsoft.com/en-us/library/Gg413065(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-135">[New-CsRgsAgentGroup](https://technet.microsoft.com/en-us/library/Gg413065(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="b9ebf-136">[Remove-CsRgsAgentGroup](https://technet.microsoft.com/en-us/library/Gg398969(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-136">[Remove-CsRgsAgentGroup](https://technet.microsoft.com/en-us/library/Gg398969(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="b9ebf-137">[Set-CsRgsAgentGroup](https://technet.microsoft.com/en-us/library/Gg425955(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-137">[Set-CsRgsAgentGroup](https://technet.microsoft.com/en-us/library/Gg425955(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="b27f0-139">[Import-CsRgsAudioFile](https://technet.microsoft.com/en-us/library/Gg412830(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-139">[Import-CsRgsAudioFile](https://technet.microsoft.com/en-us/library/Gg412830(v=OCS.15))</span></span>
+    <span data-ttu-id="b9ebf-138">[New-CsRgsAnswer](https://technet.microsoft.com/en-us/library/Gg412812(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-138">[New-CsRgsAnswer](https://technet.microsoft.com/en-us/library/Gg412812(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="b27f0-140">[New-CsRgsCallAction](https://technet.microsoft.com/en-us/library/Gg398136(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-140">[New-CsRgsCallAction](https://technet.microsoft.com/en-us/library/Gg398136(v=OCS.15))</span></span>
+    <span data-ttu-id="b9ebf-139">[Import-CsRgsAudioFile](https://technet.microsoft.com/en-us/library/Gg412830(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-139">[Import-CsRgsAudioFile](https://technet.microsoft.com/en-us/library/Gg412830(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="b27f0-141">[Export-CsRgsConfiguration](https://technet.microsoft.com/en-us/library/JJ205011(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-141">[Export-CsRgsConfiguration](https://technet.microsoft.com/en-us/library/JJ205011(v=OCS.15))</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="b27f0-142">[Get-CsRgsConfiguration](https://technet.microsoft.com/en-us/library/Gg412762(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-142">[Get-CsRgsConfiguration](https://technet.microsoft.com/en-us/library/Gg412762(v=OCS.15))</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="b27f0-143">[Import-CsRgsConfiguration](https://technet.microsoft.com/en-us/library/JJ205245(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-143">[Import-CsRgsConfiguration](https://technet.microsoft.com/en-us/library/JJ205245(v=OCS.15))</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="b27f0-144">[Move-CsRgsConfiguration](https://technet.microsoft.com/en-us/library/Gg398782(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-144">[Move-CsRgsConfiguration](https://technet.microsoft.com/en-us/library/Gg398782(v=OCS.15))</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="b27f0-145">[Set-CsRgsConfiguration](https://technet.microsoft.com/en-us/library/Gg425728(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-145">[Set-CsRgsConfiguration](https://technet.microsoft.com/en-us/library/Gg425728(v=OCS.15))</span></span>
+    <span data-ttu-id="b9ebf-140">[New-CsRgsCallAction](https://technet.microsoft.com/en-us/library/Gg398136(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-140">[New-CsRgsCallAction](https://technet.microsoft.com/en-us/library/Gg398136(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="b27f0-146">[New-CsRgsHoliday](https://technet.microsoft.com/en-us/library/Gg398075(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-146">[New-CsRgsHoliday](https://technet.microsoft.com/en-us/library/Gg398075(v=OCS.15))</span></span>
+    <span data-ttu-id="b9ebf-141">[Export-CsRgsConfiguration](https://technet.microsoft.com/en-us/library/JJ205011(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-141">[Export-CsRgsConfiguration](https://technet.microsoft.com/en-us/library/JJ205011(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="b9ebf-142">[Get-CsRgsConfiguration](https://technet.microsoft.com/en-us/library/Gg412762(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-142">[Get-CsRgsConfiguration](https://technet.microsoft.com/en-us/library/Gg412762(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="b9ebf-143">[Import-CsRgsConfiguration](https://technet.microsoft.com/en-us/library/JJ205245(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-143">[Import-CsRgsConfiguration](https://technet.microsoft.com/en-us/library/JJ205245(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="b9ebf-144">[Move-CsRgsConfiguration](https://technet.microsoft.com/en-us/library/Gg398782(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-144">[Move-CsRgsConfiguration](https://technet.microsoft.com/en-us/library/Gg398782(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="b9ebf-145">[Set-CsRgsConfiguration](https://technet.microsoft.com/en-us/library/Gg425728(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-145">[Set-CsRgsConfiguration](https://technet.microsoft.com/en-us/library/Gg425728(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="b27f0-147">[Get-CsRgsHolidaySet](https://technet.microsoft.com/en-us/library/Gg412983(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-147">[Get-CsRgsHolidaySet](https://technet.microsoft.com/en-us/library/Gg412983(v=OCS.15))</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="b27f0-148">[New-CsRgsHolidaySet](https://technet.microsoft.com/en-us/library/Gg398403(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-148">[New-CsRgsHolidaySet](https://technet.microsoft.com/en-us/library/Gg398403(v=OCS.15))</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="b27f0-149">[Remove-CsRgsHolidaySet](https://technet.microsoft.com/en-us/library/Gg398521(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-149">[Remove-CsRgsHolidaySet](https://technet.microsoft.com/en-us/library/Gg398521(v=OCS.15))</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="b27f0-150">[Set-CsRgsHolidaySet](https://technet.microsoft.com/en-us/library/Gg398736(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-150">[Set-CsRgsHolidaySet](https://technet.microsoft.com/en-us/library/Gg398736(v=OCS.15))</span></span>
+    <span data-ttu-id="b9ebf-146">[New-CsRgsHoliday](https://technet.microsoft.com/en-us/library/Gg398075(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-146">[New-CsRgsHoliday](https://technet.microsoft.com/en-us/library/Gg398075(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="b27f0-151">[Get-CsRgsHoursOfBusiness](https://technet.microsoft.com/en-us/library/Gg398284(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-151">[Get-CsRgsHoursOfBusiness](https://technet.microsoft.com/en-us/library/Gg398284(v=OCS.15))</span></span>
+    <span data-ttu-id="b9ebf-147">[Get-CsRgsHolidaySet](https://technet.microsoft.com/en-us/library/Gg412983(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-147">[Get-CsRgsHolidaySet](https://technet.microsoft.com/en-us/library/Gg412983(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="b27f0-152">[New-CsRgsHoursOfBusiness](https://technet.microsoft.com/en-us/library/Gg398291(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-152">[New-CsRgsHoursOfBusiness](https://technet.microsoft.com/en-us/library/Gg398291(v=OCS.15))</span></span>
+    <span data-ttu-id="b9ebf-148">[New-CsRgsHolidaySet](https://technet.microsoft.com/en-us/library/Gg398403(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-148">[New-CsRgsHolidaySet](https://technet.microsoft.com/en-us/library/Gg398403(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="b27f0-153">[Remove-CsRgsHoursOfBusiness](https://technet.microsoft.com/en-us/library/Gg398568(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-153">[Remove-CsRgsHoursOfBusiness](https://technet.microsoft.com/en-us/library/Gg398568(v=OCS.15))</span></span>
+    <span data-ttu-id="b9ebf-149">[Remove-CsRgsHolidaySet](https://technet.microsoft.com/en-us/library/Gg398521(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-149">[Remove-CsRgsHolidaySet](https://technet.microsoft.com/en-us/library/Gg398521(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="b27f0-154">[Set-CsRgsHoursOfBusiness](https://technet.microsoft.com/en-us/library/Gg412929(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-154">[Set-CsRgsHoursOfBusiness](https://technet.microsoft.com/en-us/library/Gg412929(v=OCS.15))</span></span>
+    <span data-ttu-id="b9ebf-150">[Set-CsRgsHolidaySet](https://technet.microsoft.com/en-us/library/Gg398736(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-150">[Set-CsRgsHolidaySet](https://technet.microsoft.com/en-us/library/Gg398736(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="b27f0-155">[New-CsRgsPrompt](https://technet.microsoft.com/en-us/library/Gg398486(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-155">[New-CsRgsPrompt](https://technet.microsoft.com/en-us/library/Gg398486(v=OCS.15))</span></span>
+    <span data-ttu-id="b9ebf-151">[Get-CsRgsHoursOfBusiness](https://technet.microsoft.com/en-us/library/Gg398284(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-151">[Get-CsRgsHoursOfBusiness](https://technet.microsoft.com/en-us/library/Gg398284(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="b9ebf-152">[New-CsRgsHoursOfBusiness](https://technet.microsoft.com/en-us/library/Gg398291(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-152">[New-CsRgsHoursOfBusiness](https://technet.microsoft.com/en-us/library/Gg398291(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="b9ebf-153">[Remove-CsRgsHoursOfBusiness](https://technet.microsoft.com/en-us/library/Gg398568(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-153">[Remove-CsRgsHoursOfBusiness](https://technet.microsoft.com/en-us/library/Gg398568(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="b9ebf-154">[Set-CsRgsHoursOfBusiness](https://technet.microsoft.com/en-us/library/Gg412929(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-154">[Set-CsRgsHoursOfBusiness](https://technet.microsoft.com/en-us/library/Gg412929(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="b27f0-156">[New-CsRgsQuestion](https://technet.microsoft.com/en-us/library/Gg398186(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-156">[New-CsRgsQuestion](https://technet.microsoft.com/en-us/library/Gg398186(v=OCS.15))</span></span>
+    <span data-ttu-id="b9ebf-155">[New-CsRgsPrompt](https://technet.microsoft.com/en-us/library/Gg398486(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-155">[New-CsRgsPrompt](https://technet.microsoft.com/en-us/library/Gg398486(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="b27f0-157">[Get-CsRgsQueue](https://technet.microsoft.com/en-us/library/Gg412759(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-157">[Get-CsRgsQueue](https://technet.microsoft.com/en-us/library/Gg412759(v=OCS.15))</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="b27f0-158">[New-CsRgsQueue](https://technet.microsoft.com/en-us/library/Gg398989(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-158">[New-CsRgsQueue](https://technet.microsoft.com/en-us/library/Gg398989(v=OCS.15))</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="b27f0-159">[Remove-CsRgsQueue](https://technet.microsoft.com/en-us/library/Gg398576(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-159">[Remove-CsRgsQueue](https://technet.microsoft.com/en-us/library/Gg398576(v=OCS.15))</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="b27f0-160">[Set-CsRgsQueue](https://technet.microsoft.com/en-us/library/Gg412947(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-160">[Set-CsRgsQueue](https://technet.microsoft.com/en-us/library/Gg412947(v=OCS.15))</span></span>
+    <span data-ttu-id="b9ebf-156">[New-CsRgsQuestion](https://technet.microsoft.com/en-us/library/Gg398186(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-156">[New-CsRgsQuestion](https://technet.microsoft.com/en-us/library/Gg398186(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="b27f0-161">[New-CsRgsTimeRange](https://technet.microsoft.com/en-us/library/Gg399040(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-161">[New-CsRgsTimeRange](https://technet.microsoft.com/en-us/library/Gg399040(v=OCS.15))</span></span>
+    <span data-ttu-id="b9ebf-157">[Get-CsRgsQueue](https://technet.microsoft.com/en-us/library/Gg412759(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-157">[Get-CsRgsQueue](https://technet.microsoft.com/en-us/library/Gg412759(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="b9ebf-158">[New-CsRgsQueue](https://technet.microsoft.com/en-us/library/Gg398989(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-158">[New-CsRgsQueue](https://technet.microsoft.com/en-us/library/Gg398989(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="b9ebf-159">[Remove-CsRgsQueue](https://technet.microsoft.com/en-us/library/Gg398576(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-159">[Remove-CsRgsQueue](https://technet.microsoft.com/en-us/library/Gg398576(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="b9ebf-160">[Set-CsRgsQueue](https://technet.microsoft.com/en-us/library/Gg412947(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-160">[Set-CsRgsQueue](https://technet.microsoft.com/en-us/library/Gg412947(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="b27f0-162">[Get-CsRgsWorkflow](https://technet.microsoft.com/en-us/library/Gg425766(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-162">[Get-CsRgsWorkflow](https://technet.microsoft.com/en-us/library/Gg425766(v=OCS.15))</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="b27f0-163">[New-CsRgsWorkflow](https://technet.microsoft.com/en-us/library/Gg398246(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-163">[New-CsRgsWorkflow](https://technet.microsoft.com/en-us/library/Gg398246(v=OCS.15))</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="b27f0-164">[Remove-CsRgsWorkflow](https://technet.microsoft.com/en-us/library/Gg398765(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-164">[Remove-CsRgsWorkflow](https://technet.microsoft.com/en-us/library/Gg398765(v=OCS.15))</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="b27f0-165">[Set-CsRgsWorkflow](https://technet.microsoft.com/en-us/library/Gg425845(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-165">[Set-CsRgsWorkflow](https://technet.microsoft.com/en-us/library/Gg425845(v=OCS.15))</span></span>
-
-<span data-ttu-id="b27f0-166">**[Lync Server 2013 の割り当てられていない番号コマンドレット](lync-server-2013-unassigned-number-cmdlets.md)**</span><span class="sxs-lookup"><span data-stu-id="b27f0-166">**[Unassigned number cmdlets in Lync Server 2013](lync-server-2013-unassigned-number-cmdlets.md)**</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="b27f0-167">[Get-CsUnassignedNumber](https://technet.microsoft.com/en-us/library/Gg412792(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-167">[Get-CsUnassignedNumber](https://technet.microsoft.com/en-us/library/Gg412792(v=OCS.15))</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="b27f0-168">[New-CsUnassignedNumber](https://technet.microsoft.com/en-us/library/Gg398651(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-168">[New-CsUnassignedNumber](https://technet.microsoft.com/en-us/library/Gg398651(v=OCS.15))</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="b27f0-169">[Remove-CsUnassignedNumber](https://technet.microsoft.com/en-us/library/Gg398209(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-169">[Remove-CsUnassignedNumber](https://technet.microsoft.com/en-us/library/Gg398209(v=OCS.15))</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="b27f0-170">[Set-CsUnassignedNumber](https://technet.microsoft.com/en-us/library/Gg399033(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-170">[Set-CsUnassignedNumber](https://technet.microsoft.com/en-us/library/Gg399033(v=OCS.15))</span></span>
+    <span data-ttu-id="b9ebf-161">[New-CsRgsTimeRange](https://technet.microsoft.com/en-us/library/Gg399040(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-161">[New-CsRgsTimeRange](https://technet.microsoft.com/en-us/library/Gg399040(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="b27f0-171">[CsAnnouncement](https://technet.microsoft.com/en-us/library/Gg398937(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-171">[Get-CsAnnouncement](https://technet.microsoft.com/en-us/library/Gg398937(v=OCS.15))</span></span>
+    <span data-ttu-id="b9ebf-162">[Get-CsRgsWorkflow](https://technet.microsoft.com/en-us/library/Gg425766(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-162">[Get-CsRgsWorkflow](https://technet.microsoft.com/en-us/library/Gg425766(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="b27f0-172">[新しい CsAnnouncement](https://technet.microsoft.com/en-us/library/Gg398522(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-172">[New-CsAnnouncement](https://technet.microsoft.com/en-us/library/Gg398522(v=OCS.15))</span></span>
+    <span data-ttu-id="b9ebf-163">[New-CsRgsWorkflow](https://technet.microsoft.com/en-us/library/Gg398246(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-163">[New-CsRgsWorkflow](https://technet.microsoft.com/en-us/library/Gg398246(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="b27f0-173">[CsAnnouncement の削除](https://technet.microsoft.com/en-us/library/Gg412766(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-173">[Remove-CsAnnouncement](https://technet.microsoft.com/en-us/library/Gg412766(v=OCS.15))</span></span>
+    <span data-ttu-id="b9ebf-164">[Remove-CsRgsWorkflow](https://technet.microsoft.com/en-us/library/Gg398765(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-164">[Remove-CsRgsWorkflow](https://technet.microsoft.com/en-us/library/Gg398765(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="b27f0-174">[Set-CsAnnouncement](https://technet.microsoft.com/en-us/library/Gg425752(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-174">[Set-CsAnnouncement](https://technet.microsoft.com/en-us/library/Gg425752(v=OCS.15))</span></span>
+    <span data-ttu-id="b9ebf-165">[Set-CsRgsWorkflow](https://technet.microsoft.com/en-us/library/Gg425845(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-165">[Set-CsRgsWorkflow](https://technet.microsoft.com/en-us/library/Gg425845(v=OCS.15))</span></span>
+
+<span data-ttu-id="b9ebf-166">**[Lync Server 2013 の割り当てられていない番号コマンドレット](lync-server-2013-unassigned-number-cmdlets.md)**</span><span class="sxs-lookup"><span data-stu-id="b9ebf-166">**[Unassigned number cmdlets in Lync Server 2013](lync-server-2013-unassigned-number-cmdlets.md)**</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="b9ebf-167">[Get-CsUnassignedNumber](https://technet.microsoft.com/en-us/library/Gg412792(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-167">[Get-CsUnassignedNumber](https://technet.microsoft.com/en-us/library/Gg412792(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="b9ebf-168">[New-CsUnassignedNumber](https://technet.microsoft.com/en-us/library/Gg398651(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-168">[New-CsUnassignedNumber](https://technet.microsoft.com/en-us/library/Gg398651(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="b9ebf-169">[Remove-CsUnassignedNumber](https://technet.microsoft.com/en-us/library/Gg398209(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-169">[Remove-CsUnassignedNumber](https://technet.microsoft.com/en-us/library/Gg398209(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="b9ebf-170">[Set-CsUnassignedNumber](https://technet.microsoft.com/en-us/library/Gg399033(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-170">[Set-CsUnassignedNumber](https://technet.microsoft.com/en-us/library/Gg399033(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="b27f0-175">[Import-CsAnnouncementFile](https://technet.microsoft.com/en-us/library/Gg398472(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b27f0-175">[Import-CsAnnouncementFile](https://technet.microsoft.com/en-us/library/Gg398472(v=OCS.15))</span></span>
+    <span data-ttu-id="b9ebf-171">[CsAnnouncement](https://technet.microsoft.com/en-us/library/Gg398937(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-171">[Get-CsAnnouncement](https://technet.microsoft.com/en-us/library/Gg398937(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="b9ebf-172">[新しい CsAnnouncement](https://technet.microsoft.com/en-us/library/Gg398522(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-172">[New-CsAnnouncement](https://technet.microsoft.com/en-us/library/Gg398522(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="b9ebf-173">[CsAnnouncement の削除](https://technet.microsoft.com/en-us/library/Gg412766(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-173">[Remove-CsAnnouncement](https://technet.microsoft.com/en-us/library/Gg412766(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="b9ebf-174">[Set-CsAnnouncement](https://technet.microsoft.com/en-us/library/Gg425752(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-174">[Set-CsAnnouncement](https://technet.microsoft.com/en-us/library/Gg425752(v=OCS.15))</span></span>
+
+<!-- end list -->
+
+  - <span></span>  
+    <span data-ttu-id="b9ebf-175">[Import-CsAnnouncementFile](https://technet.microsoft.com/en-us/library/Gg398472(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b9ebf-175">[Import-CsAnnouncementFile](https://technet.microsoft.com/en-us/library/Gg398472(v=OCS.15))</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="b27f0-176">関連項目</span><span class="sxs-lookup"><span data-stu-id="b27f0-176">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b9ebf-176">関連項目</span><span class="sxs-lookup"><span data-stu-id="b9ebf-176">See Also</span></span>
 
 
-[<span data-ttu-id="b27f0-177">Lync Server 2013 のエンタープライズボイスコマンドレット</span><span class="sxs-lookup"><span data-stu-id="b27f0-177">Enterprise Voice cmdlets in Lync Server 2013</span></span>](lync-server-2013-enterprise-voice-cmdlets.md)  
+[<span data-ttu-id="b9ebf-177">Lync Server 2013 のエンタープライズボイスコマンドレット</span><span class="sxs-lookup"><span data-stu-id="b9ebf-177">Enterprise Voice cmdlets in Lync Server 2013</span></span>](lync-server-2013-enterprise-voice-cmdlets.md)  
 
 
-[<span data-ttu-id="b27f0-178">Lync Server PowerShell ブログ</span><span class="sxs-lookup"><span data-stu-id="b27f0-178">Lync Server PowerShell Blog</span></span>](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="b9ebf-178">Lync Server PowerShell ブログ</span><span class="sxs-lookup"><span data-stu-id="b9ebf-178">Lync Server PowerShell Blog</span></span>](http://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

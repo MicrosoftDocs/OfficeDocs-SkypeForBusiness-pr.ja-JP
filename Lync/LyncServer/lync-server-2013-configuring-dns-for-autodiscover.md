@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 自動検出用の DNS の構成'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring DNS for Autodiscover
 ms:assetid: f07a634c-3cf3-4958-8556-84596319ef54
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945656(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541528
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c490cac475f3b9a9c8038636f4ac7f6670f22637
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 77cf81cd82655a37ad089d915e9e3799671025bb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840269"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736457"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34840269"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-dns-for-autodiscover-in-lync-server-2013"></a><span data-ttu-id="533c2-102">Lync Server 2013 での自動検出用の DNS の構成</span><span class="sxs-lookup"><span data-stu-id="533c2-102">Configuring DNS for Autodiscover in Lync Server 2013</span></span>
+# <a name="configuring-dns-for-autodiscover-in-lync-server-2013"></a><span data-ttu-id="d0bb5-102">Lync Server 2013 での自動検出用の DNS の構成</span><span class="sxs-lookup"><span data-stu-id="d0bb5-102">Configuring DNS for Autodiscover in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,87 +35,87 @@ ms.locfileid: "34840269"
 
 <span> </span>
 
-<span data-ttu-id="533c2-103">_**最終更新日:** 2012-12-12_</span><span class="sxs-lookup"><span data-stu-id="533c2-103">_**Topic Last Modified:** 2012-12-12_</span></span>
+<span data-ttu-id="d0bb5-103">_**最終更新日:** 2012-12-12_</span><span class="sxs-lookup"><span data-stu-id="d0bb5-103">_**Topic Last Modified:** 2012-12-12_</span></span>
 
-<span data-ttu-id="533c2-104">Lync クライアントの自動検出をサポートするには、次のドメインネームシステム (DNS) レコードを作成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="533c2-104">To support autodiscovery for Lync clients, you need to create the following Domain Name System (DNS) records:</span></span>
+<span data-ttu-id="d0bb5-104">Lync クライアントの自動検出をサポートするには、次のドメインネームシステム (DNS) レコードを作成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-104">To support autodiscovery for Lync clients, you need to create the following Domain Name System (DNS) records:</span></span>
 
-  - <span data-ttu-id="533c2-105">組織のネットワーク内から接続する Lync クライアントをサポートするための内部 DNS レコード</span><span class="sxs-lookup"><span data-stu-id="533c2-105">An internal DNS record to support Lync clients who connect from within your organization's network</span></span>
+  - <span data-ttu-id="d0bb5-105">組織のネットワーク内から接続する Lync クライアントをサポートするための内部 DNS レコード</span><span class="sxs-lookup"><span data-stu-id="d0bb5-105">An internal DNS record to support Lync clients who connect from within your organization's network</span></span>
 
-  - <span data-ttu-id="533c2-106">インターネットから接続する Lync クライアントをサポートするための、外部またはパブリックの DNS レコード</span><span class="sxs-lookup"><span data-stu-id="533c2-106">An external, or public, DNS record to support Lync clients who connect from the Internet</span></span>
+  - <span data-ttu-id="d0bb5-106">インターネットから接続する Lync クライアントをサポートするための、外部またはパブリックの DNS レコード</span><span class="sxs-lookup"><span data-stu-id="d0bb5-106">An external, or public, DNS record to support Lync clients who connect from the Internet</span></span>
 
-<span data-ttu-id="533c2-107">内部 DNS レコードと、各 SIP ドメイン用の外部 DNS レコードを作成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="533c2-107">You must create an internal DNS record and an external DNS record for each SIP domain.</span></span>
+<span data-ttu-id="d0bb5-107">内部 DNS レコードと、各 SIP ドメイン用の外部 DNS レコードを作成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-107">You must create an internal DNS record and an external DNS record for each SIP domain.</span></span>
 
-<span data-ttu-id="533c2-108">DNS レコードは、追加のサブジェクト代替名 (SAN) で新しい証明書を作成する機能に基づいて、(ホスト) レコードまたは CNAME レコードのいずれかにすることができます。</span><span class="sxs-lookup"><span data-stu-id="533c2-108">The DNS records can be either A (host) records or CNAME records, based on your ability to create new certificates with the additional subject alternate name (SAN).</span></span> <span data-ttu-id="533c2-109">Lyncdiscover を使用して、新しい外部 (公開) 証明書を要求して展開できない場合。\<ドメイン名\> SAN で、HTTP/TCP ポート80を使用するための手順を使用します。</span><span class="sxs-lookup"><span data-stu-id="533c2-109">If you are not able to request and deploy a new external (public) certificate with the lyncdiscover.\<domain name\> SAN, use the procedure for using HTTP/TCP port 80.</span></span> <span data-ttu-id="533c2-110">次の手順では、内部と外部の DNS レコードを作成する方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="533c2-110">The following procedures describe how to create internal and external DNS records.</span></span>
+<span data-ttu-id="d0bb5-108">DNS レコードは、追加のサブジェクト代替名 (SAN) で新しい証明書を作成する機能に基づいて、(ホスト) レコードまたは CNAME レコードのいずれかにすることができます。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-108">The DNS records can be either A (host) records or CNAME records, based on your ability to create new certificates with the additional subject alternate name (SAN).</span></span> <span data-ttu-id="d0bb5-109">Lyncdiscover を使用して、新しい外部 (公開) 証明書を要求して展開できない場合。\<ドメイン名\> SAN で、HTTP/TCP ポート80を使用するための手順を使用します。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-109">If you are not able to request and deploy a new external (public) certificate with the lyncdiscover.\<domain name\> SAN, use the procedure for using HTTP/TCP port 80.</span></span> <span data-ttu-id="d0bb5-110">次の手順では、内部と外部の DNS レコードを作成する方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-110">The following procedures describe how to create internal and external DNS records.</span></span>
 
 <div>
 
-## <a name="to-create-dns-cname-records"></a><span data-ttu-id="533c2-111">DNS CNAME レコードを作成するには</span><span class="sxs-lookup"><span data-stu-id="533c2-111">To create DNS CNAME records</span></span>
+## <a name="to-create-dns-cname-records"></a><span data-ttu-id="d0bb5-111">DNS CNAME レコードを作成するには</span><span class="sxs-lookup"><span data-stu-id="d0bb5-111">To create DNS CNAME records</span></span>
 
-1.  <span data-ttu-id="533c2-112">次の手順で DNS サーバーにログオンします。</span><span class="sxs-lookup"><span data-stu-id="533c2-112">Log on to a DNS server as follows:</span></span>
+1.  <span data-ttu-id="d0bb5-112">次の手順で DNS サーバーにログオンします。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-112">Log on to a DNS server as follows:</span></span>
     
-      - <span data-ttu-id="533c2-113">内部 DNS レコードを作成するには、ドメイン管理者グループのメンバーまたは DnsAdmins グループのメンバーとして、ネットワーク内の DNS サーバーにログオンします。</span><span class="sxs-lookup"><span data-stu-id="533c2-113">To create an internal DNS record, log on to a DNS server in your network as a member of the Domain Admins group or a member of the DnsAdmins group.</span></span>
+      - <span data-ttu-id="d0bb5-113">内部 DNS レコードを作成するには、ドメイン管理者グループのメンバーまたは DnsAdmins グループのメンバーとして、ネットワーク内の DNS サーバーにログオンします。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-113">To create an internal DNS record, log on to a DNS server in your network as a member of the Domain Admins group or a member of the DnsAdmins group.</span></span>
     
-      - <span data-ttu-id="533c2-114">外部 DNS レコードを作成するには、パブリック DNS プロバイダーに接続します。</span><span class="sxs-lookup"><span data-stu-id="533c2-114">To create an external DNS record, connect to your public DNS provider.</span></span>
+      - <span data-ttu-id="d0bb5-114">外部 DNS レコードを作成するには、パブリック DNS プロバイダーに接続します。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-114">To create an external DNS record, connect to your public DNS provider.</span></span>
 
-2.  <span data-ttu-id="533c2-115">DNS 管理スナップインを開きます。 [**スタート**] をクリックし、[**管理ツール**]、[ **dns**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="533c2-115">Open the DNS administrative snap-in: Click **Start**, click **Administrative Tools**, and then click **DNS**.</span></span>
+2.  <span data-ttu-id="d0bb5-115">DNS 管理スナップインを開きます。 [**スタート**] をクリックし、[**管理ツール**]、[ **dns**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-115">Open the DNS administrative snap-in: Click **Start**, click **Administrative Tools**, and then click **DNS**.</span></span>
 
-3.  <span data-ttu-id="533c2-116">次のいずれかの操作を行います。</span><span class="sxs-lookup"><span data-stu-id="533c2-116">Do one of the following:</span></span>
+3.  <span data-ttu-id="d0bb5-116">次のいずれかを実行します。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-116">Do one of the following:</span></span>
     
-      - <span data-ttu-id="533c2-117">内部 DNS レコードの場合は、DNS サーバーのコンソールツリーで、Active Directory ドメインの [**前方参照ゾーン**] (たとえば、[コントソ]) を展開します。</span><span class="sxs-lookup"><span data-stu-id="533c2-117">For an internal DNS record, in the console tree of the DNS server, expand **Forward Lookup Zones** for your Active Directory domain (for example, contoso.local).</span></span>
+      - <span data-ttu-id="d0bb5-117">内部 DNS レコードの場合は、DNS サーバーのコンソールツリーで、Active Directory ドメインの [**前方参照ゾーン**] (たとえば、[コントソ]) を展開します。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-117">For an internal DNS record, in the console tree of the DNS server, expand **Forward Lookup Zones** for your Active Directory domain (for example, contoso.local).</span></span>
         
         <div>
         
 
         > [!NOTE]  
-        > <span data-ttu-id="533c2-118">このドメインは、Lync Server 2013&nbsp;監督プールとフロントエンドプールがインストールされている Active Directory ドメインです。</span><span class="sxs-lookup"><span data-stu-id="533c2-118">This domain is the Active Directory domain where your Lync Server 2013&nbsp;Director pool and Front End pool are installed.</span></span>
+        > <span data-ttu-id="d0bb5-118">このドメインは、Lync Server 2013&nbsp;監督プールとフロントエンドプールがインストールされている Active Directory ドメインです。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-118">This domain is the Active Directory domain where your Lync Server 2013&nbsp;Director pool and Front End pool are installed.</span></span>
 
         
         </div>
     
-      - <span data-ttu-id="533c2-119">外部 DNS レコードの場合は、DNS サーバーのコンソールツリーで、SIP ドメインの [**前方参照ゾーン**] を展開します (たとえば、contoso.com)。</span><span class="sxs-lookup"><span data-stu-id="533c2-119">For an external DNS record, in the console tree of the DNS server, expand **Forward Lookup Zones** for your SIP domain (for example, contoso.com).</span></span>
+      - <span data-ttu-id="d0bb5-119">外部 DNS レコードの場合は、DNS サーバーのコンソールツリーで、SIP ドメインの [**前方参照ゾーン**] を展開します (たとえば、contoso.com)。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-119">For an external DNS record, in the console tree of the DNS server, expand **Forward Lookup Zones** for your SIP domain (for example, contoso.com).</span></span>
 
-4.  <span data-ttu-id="533c2-120">ディレクタープールのホスト A レコードが次のように存在することを確認します。</span><span class="sxs-lookup"><span data-stu-id="533c2-120">Verify that a host A record exists for your Director pool as follows:</span></span>
+4.  <span data-ttu-id="d0bb5-120">ディレクタープールのホスト A レコードが次のように存在することを確認します。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-120">Verify that a host A record exists for your Director pool as follows:</span></span>
     
-      - <span data-ttu-id="533c2-121">内部 DNS レコードの場合、ディレクタープールの内部 Web サービスの完全修飾ドメイン名 (FQDN) に対して、ホスト A レコードが存在している必要があります (たとえば、lyncwebdir01)。</span><span class="sxs-lookup"><span data-stu-id="533c2-121">For an internal DNS record, a host A record should exist for the internal Web Services fully qualified domain name (FQDN) for your Director pool (for example, lyncwebdir01.contoso.local).</span></span>
+      - <span data-ttu-id="d0bb5-121">内部 DNS レコードの場合、ディレクタープールの内部 Web サービスの完全修飾ドメイン名 (FQDN) に対して、ホスト A レコードが存在している必要があります (たとえば、lyncwebdir01)。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-121">For an internal DNS record, a host A record should exist for the internal Web Services fully qualified domain name (FQDN) for your Director pool (for example, lyncwebdir01.contoso.local).</span></span>
     
-      - <span data-ttu-id="533c2-122">外部 DNS レコードの場合は、ディレクタープールの外部 web サービス FQDN (たとえば、lyncwebextdir.contoso.com) のホスト A レコードが存在している必要があります。</span><span class="sxs-lookup"><span data-stu-id="533c2-122">For an external DNS record, a host A record should exist for the external web services FQDN for your Director pool (for example, lyncwebextdir.contoso.com).</span></span>
+      - <span data-ttu-id="d0bb5-122">外部 DNS レコードの場合は、ディレクタープールの外部 web サービス FQDN (たとえば、lyncwebextdir.contoso.com) のホスト A レコードが存在している必要があります。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-122">For an external DNS record, a host A record should exist for the external web services FQDN for your Director pool (for example, lyncwebextdir.contoso.com).</span></span>
 
-5.  <span data-ttu-id="533c2-123">フロントエンドプールのホスト A レコードが次のように存在することを確認します。</span><span class="sxs-lookup"><span data-stu-id="533c2-123">Verify that a host A record exists for your Front End pool as follows:</span></span>
+5.  <span data-ttu-id="d0bb5-123">フロントエンドプールのホスト A レコードが次のように存在することを確認します。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-123">Verify that a host A record exists for your Front End pool as follows:</span></span>
     
-      - <span data-ttu-id="533c2-124">内部 DNS レコードの場合は、フロントエンドプール用の内部 Web サービス FQDN (たとえば、lyncwebpool01) のホスト A レコードが存在している必要があります。</span><span class="sxs-lookup"><span data-stu-id="533c2-124">For an internal DNS record, a host A record should exist for the internal Web Services FQDN for your Front End pool (for example, lyncwebpool01.contoso.local).</span></span>
+      - <span data-ttu-id="d0bb5-124">内部 DNS レコードの場合は、フロントエンドプール用の内部 Web サービス FQDN (たとえば、lyncwebpool01) のホスト A レコードが存在している必要があります。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-124">For an internal DNS record, a host A record should exist for the internal Web Services FQDN for your Front End pool (for example, lyncwebpool01.contoso.local).</span></span>
     
-      - <span data-ttu-id="533c2-125">外部 DNS レコードの場合は、フロントエンドプール用の外部 Web サービス FQDN にホスト A レコードが存在している必要があります (たとえば、lyncwebextpool01.contoso.com)。</span><span class="sxs-lookup"><span data-stu-id="533c2-125">For an external DNS record, a host A record should exist for the external Web Services FQDN for your Front End pool (for example, lyncwebextpool01.contoso.com).</span></span>
+      - <span data-ttu-id="d0bb5-125">外部 DNS レコードの場合は、フロントエンドプール用の外部 Web サービス FQDN にホスト A レコードが存在している必要があります (たとえば、lyncwebextpool01.contoso.com)。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-125">For an external DNS record, a host A record should exist for the external Web Services FQDN for your Front End pool (for example, lyncwebextpool01.contoso.com).</span></span>
 
-6.  <span data-ttu-id="533c2-126">内部 DNS レコードの場合は、DNS サーバーのコンソールツリーで、SIP ドメインの [**前方参照ゾーン**] を展開します (たとえば、contoso.com)。</span><span class="sxs-lookup"><span data-stu-id="533c2-126">For an internal DNS record, in the console tree of your DNS server, expand **Forward Lookup Zones** for your SIP domain (for example, contoso.com).</span></span>
+6.  <span data-ttu-id="d0bb5-126">内部 DNS レコードの場合は、DNS サーバーのコンソールツリーで、SIP ドメインの [**前方参照ゾーン**] を展開します (たとえば、contoso.com)。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-126">For an internal DNS record, in the console tree of your DNS server, expand **Forward Lookup Zones** for your SIP domain (for example, contoso.com).</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="533c2-127">外部 DNS レコードを作成する場合は、手順3で既に SIP ドメイン用の<STRONG>前方参照ゾーン</STRONG>が展開されています。</span><span class="sxs-lookup"><span data-stu-id="533c2-127">If you are creating an external DNS record, <STRONG>Forward Lookup Zones</STRONG> is already expanded for your SIP domain from step 3.</span></span>
+    > <span data-ttu-id="d0bb5-127">外部 DNS レコードを作成する場合は、手順3で既に SIP ドメイン用の<STRONG>前方参照ゾーン</STRONG>が展開されています。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-127">If you are creating an external DNS record, <STRONG>Forward Lookup Zones</STRONG> is already expanded for your SIP domain from step 3.</span></span>
 
     
     </div>
 
-7.  <span data-ttu-id="533c2-128">SIP ドメイン名を右クリックし、[**新しいエイリアス (CNAME)**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="533c2-128">Right-click the SIP domain name, and then click **New Alias (CNAME)**.</span></span>
+7.  <span data-ttu-id="d0bb5-128">SIP ドメイン名を右クリックし、[**新しいエイリアス (CNAME)**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-128">Right-click the SIP domain name, and then click **New Alias (CNAME)**.</span></span>
 
-8.  <span data-ttu-id="533c2-129">[**エイリアス名**] に、次のいずれかを入力します。</span><span class="sxs-lookup"><span data-stu-id="533c2-129">In **Alias name**, type one of the following:</span></span>
+8.  <span data-ttu-id="d0bb5-129">[**エイリアス名**] に、次のいずれかを入力します。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-129">In **Alias name**, type one of the following:</span></span>
     
-      - <span data-ttu-id="533c2-130">内部の DNS レコードの場合は、内部の自動検出サービス URL のホスト名として「lyncdiscoverinternal」と入力します。</span><span class="sxs-lookup"><span data-stu-id="533c2-130">For an internal DNS record, type lyncdiscoverinternal as the host name for the internal Autodiscover Service URL.</span></span>
+      - <span data-ttu-id="d0bb5-130">内部の DNS レコードの場合は、内部の自動検出サービス URL のホスト名として「lyncdiscoverinternal」と入力します。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-130">For an internal DNS record, type lyncdiscoverinternal as the host name for the internal Autodiscover Service URL.</span></span>
     
-      - <span data-ttu-id="533c2-131">外部 DNS レコードの場合は、外部自動検出サービス URL のホスト名として「lyncdiscover」と入力します。</span><span class="sxs-lookup"><span data-stu-id="533c2-131">For an external DNS record, type lyncdiscover as the host name for the external Autodiscover Service URL.</span></span>
+      - <span data-ttu-id="d0bb5-131">外部 DNS レコードの場合は、外部自動検出サービス URL のホスト名として「lyncdiscover」と入力します。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-131">For an external DNS record, type lyncdiscover as the host name for the external Autodiscover Service URL.</span></span>
 
-9.  <span data-ttu-id="533c2-132">[ **Target host の完全修飾ドメイン名 (FQDN)**] で、次のいずれかの操作を行います。</span><span class="sxs-lookup"><span data-stu-id="533c2-132">In **Fully qualified domain name (FQDN) for target host**, do one of the following:</span></span>
+9.  <span data-ttu-id="d0bb5-132">[ **Target host の完全修飾ドメイン名 (FQDN)**] で、次のいずれかの操作を行います。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-132">In **Fully qualified domain name (FQDN) for target host**, do one of the following:</span></span>
     
-      - <span data-ttu-id="533c2-133">内部 DNS レコードの場合は、ディレクタープールの内部 Web サービス FQDN (たとえば、lyncwebdir01) を入力または参照して、[ **OK]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="533c2-133">For an internal DNS record, type or browse to the internal Web Services FQDN for your Director pool (for example, lyncwebdir01.contoso.local), and then click **OK**.</span></span>
+      - <span data-ttu-id="d0bb5-133">内部 DNS レコードの場合は、ディレクタープールの内部 Web サービス FQDN (たとえば、lyncwebdir01) を入力または参照して、[ **OK]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-133">For an internal DNS record, type or browse to the internal Web Services FQDN for your Director pool (for example, lyncwebdir01.contoso.local), and then click **OK**.</span></span>
     
-      - <span data-ttu-id="533c2-134">外部 DNS レコードの場合は、ディレクタープールの外部 Web サービス FQDN (たとえば、lyncwebextdir.contoso.com) を入力または参照して、[ **OK]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="533c2-134">For an external DNS record, type or browse to the external Web Services FQDN for your Director pool (for example, lyncwebextdir.contoso.com), and then click **OK**.</span></span>
+      - <span data-ttu-id="d0bb5-134">外部 DNS レコードの場合は、ディレクタープールの外部 Web サービス FQDN (たとえば、lyncwebextdir.contoso.com) を入力または参照して、[ **OK]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-134">For an external DNS record, type or browse to the external Web Services FQDN for your Director pool (for example, lyncwebextdir.contoso.com), and then click **OK**.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="533c2-135">ディレクターを使用しない場合は、フロントエンドプールに対して内部および外部の Web サービス FQDN を使用します。または、単一のサーバーの場合は、フロントエンドサーバーまたは Standard Edition サーバーの FQDN を使用します。</span><span class="sxs-lookup"><span data-stu-id="533c2-135">If you do not use a Director, use the internal and external Web Services FQDN for the Front End pool, or, for a single server, the FQDN for the Front End Server or Standard Edition server.</span></span>
+    > <span data-ttu-id="d0bb5-135">ディレクターを使用しない場合は、フロントエンドプールに対して内部および外部の Web サービス FQDN を使用します。または、単一のサーバーの場合は、フロントエンドサーバーまたは Standard Edition サーバーの FQDN を使用します。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-135">If you do not use a Director, use the internal and external Web Services FQDN for the Front End pool, or, for a single server, the FQDN for the Front End Server or Standard Edition server.</span></span>
 
     
     </div>
@@ -122,7 +124,7 @@ ms.locfileid: "34840269"
     
 
     > [!IMPORTANT]  
-    > <span data-ttu-id="533c2-136">Lync Server 2013 環境でサポートしている各 SIP ドメインの前方参照ゾーンに新しい自動検出 CNAME レコードを作成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="533c2-136">You must create a new Autodiscover CNAME record in the forward lookup zone of each SIP domain that you support in your Lync Server 2013 environment.</span></span>
+    > <span data-ttu-id="d0bb5-136">Lync Server 2013 環境でサポートしている各 SIP ドメインの前方参照ゾーンに新しい自動検出 CNAME レコードを作成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-136">You must create a new Autodiscover CNAME record in the forward lookup zone of each SIP domain that you support in your Lync Server 2013 environment.</span></span>
 
     
     </div>
@@ -131,100 +133,100 @@ ms.locfileid: "34840269"
 
 <div>
 
-## <a name="to-create-dns-a-records"></a><span data-ttu-id="533c2-137">DNS A レコードを作成するには</span><span class="sxs-lookup"><span data-stu-id="533c2-137">To create DNS A records</span></span>
+## <a name="to-create-dns-a-records"></a><span data-ttu-id="d0bb5-137">DNS A レコードを作成するには</span><span class="sxs-lookup"><span data-stu-id="d0bb5-137">To create DNS A records</span></span>
 
-1.  <span data-ttu-id="533c2-138">次の手順で DNS サーバーにログオンします。</span><span class="sxs-lookup"><span data-stu-id="533c2-138">Log on to a DNS server as follows:</span></span>
+1.  <span data-ttu-id="d0bb5-138">次の手順で DNS サーバーにログオンします。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-138">Log on to a DNS server as follows:</span></span>
     
-      - <span data-ttu-id="533c2-139">内部 DNS レコードを作成するには、ドメイン管理者グループのメンバーまたは DnsAdmins グループのメンバーとして、ネットワーク内の DNS サーバーにログオンします。</span><span class="sxs-lookup"><span data-stu-id="533c2-139">To create an internal DNS record, log on to a DNS server in your network as a member of the Domain Admins group or a member of the DnsAdmins group.</span></span>
+      - <span data-ttu-id="d0bb5-139">内部 DNS レコードを作成するには、ドメイン管理者グループのメンバーまたは DnsAdmins グループのメンバーとして、ネットワーク内の DNS サーバーにログオンします。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-139">To create an internal DNS record, log on to a DNS server in your network as a member of the Domain Admins group or a member of the DnsAdmins group.</span></span>
     
-      - <span data-ttu-id="533c2-140">外部 DNS レコードを作成するには、パブリック DNS プロバイダーまたは外部 DNS サーバーに接続します。</span><span class="sxs-lookup"><span data-stu-id="533c2-140">To create an external DNS record, connect to your public DNS provider or external DNS server.</span></span>
+      - <span data-ttu-id="d0bb5-140">外部 DNS レコードを作成するには、パブリック DNS プロバイダーまたは外部 DNS サーバーに接続します。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-140">To create an external DNS record, connect to your public DNS provider or external DNS server.</span></span>
 
-2.  <span data-ttu-id="533c2-141">DNS 管理スナップインを開きます。 [**スタート**] をクリックし、[**管理ツール**]、[ **dns**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="533c2-141">Open the DNS administrative snap-in: Click **Start**, click **Administrative Tools**, and then click **DNS**.</span></span>
+2.  <span data-ttu-id="d0bb5-141">DNS 管理スナップインを開きます。 [**スタート**] をクリックし、[**管理ツール**]、[ **dns**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-141">Open the DNS administrative snap-in: Click **Start**, click **Administrative Tools**, and then click **DNS**.</span></span>
 
-3.  <span data-ttu-id="533c2-142">次のいずれかの操作を行います。</span><span class="sxs-lookup"><span data-stu-id="533c2-142">Do one of the following:</span></span>
+3.  <span data-ttu-id="d0bb5-142">次のいずれかを実行します。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-142">Do one of the following:</span></span>
     
-      - <span data-ttu-id="533c2-143">内部 DNS レコードの場合は、DNS サーバーのコンソールツリーで、Active Directory ドメインの [**前方参照ゾーン**] (たとえば、[コントソ]) を展開します。</span><span class="sxs-lookup"><span data-stu-id="533c2-143">For an internal DNS record, in the console tree of the DNS server, expand **Forward Lookup Zones** for your Active Directory domain (for example, contoso.local).</span></span>
+      - <span data-ttu-id="d0bb5-143">内部 DNS レコードの場合は、DNS サーバーのコンソールツリーで、Active Directory ドメインの [**前方参照ゾーン**] (たとえば、[コントソ]) を展開します。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-143">For an internal DNS record, in the console tree of the DNS server, expand **Forward Lookup Zones** for your Active Directory domain (for example, contoso.local).</span></span>
         
         <div>
         
 
         > [!NOTE]  
-        > <span data-ttu-id="533c2-144">このドメインは、Lync Server 2013&nbsp;監督プールとフロントエンドプールがインストールされている Active Directory ドメインです。</span><span class="sxs-lookup"><span data-stu-id="533c2-144">This domain is the Active Directory domain where your Lync Server 2013&nbsp;Director pool and Front End pool are installed.</span></span>
+        > <span data-ttu-id="d0bb5-144">このドメインは、Lync Server 2013&nbsp;監督プールとフロントエンドプールがインストールされている Active Directory ドメインです。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-144">This domain is the Active Directory domain where your Lync Server 2013&nbsp;Director pool and Front End pool are installed.</span></span>
 
         
         </div>
     
-      - <span data-ttu-id="533c2-145">外部 DNS レコードの場合は、DNS サーバーのコンソールツリーで、SIP ドメインの [**前方参照ゾーン**] を展開します (たとえば、contoso.com)。</span><span class="sxs-lookup"><span data-stu-id="533c2-145">For an external DNS record, in the console tree of the DNS server, expand **Forward Lookup Zones** for your SIP domain (for example, contoso.com).</span></span>
+      - <span data-ttu-id="d0bb5-145">外部 DNS レコードの場合は、DNS サーバーのコンソールツリーで、SIP ドメインの [**前方参照ゾーン**] を展開します (たとえば、contoso.com)。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-145">For an external DNS record, in the console tree of the DNS server, expand **Forward Lookup Zones** for your SIP domain (for example, contoso.com).</span></span>
 
-4.  <span data-ttu-id="533c2-146">ディレクタープールに対して、次のようにホスト A (IPv6, AAAA) レコードが存在することを確認します。</span><span class="sxs-lookup"><span data-stu-id="533c2-146">Verify that a host A (for IPv6, AAAA) record exists for your Director pool as follows:</span></span>
+4.  <span data-ttu-id="d0bb5-146">ディレクタープールに対して、次のようにホスト A (IPv6, AAAA) レコードが存在することを確認します。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-146">Verify that a host A (for IPv6, AAAA) record exists for your Director pool as follows:</span></span>
     
-      - <span data-ttu-id="533c2-147">内部 DNS レコードの場合は、ディレクタープールの内部 Web サービス FQDN (たとえば、lyncwebdir01) に対して host A (IPv6、AAAA) レコードが存在している必要があります。</span><span class="sxs-lookup"><span data-stu-id="533c2-147">For an internal DNS record, a host A (for IPv6, AAAA) record should exist for the internal Web Services FQDN for your Director pool (for example, lyncwebdir01.contoso.local).</span></span>
+      - <span data-ttu-id="d0bb5-147">内部 DNS レコードの場合は、ディレクタープールの内部 Web サービス FQDN (たとえば、lyncwebdir01) に対して host A (IPv6、AAAA) レコードが存在している必要があります。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-147">For an internal DNS record, a host A (for IPv6, AAAA) record should exist for the internal Web Services FQDN for your Director pool (for example, lyncwebdir01.contoso.local).</span></span>
     
-      - <span data-ttu-id="533c2-148">外部 DNS レコードの場合は、ディレクタープールの外部 Web サービス FQDN (たとえば、lyncwebextdir.contoso.com) に対して、host A (IPv6、AAAA) レコードが存在している必要があります。</span><span class="sxs-lookup"><span data-stu-id="533c2-148">For an external DNS record, a host A (for IPv6, AAAA) record should exist for the external Web Services FQDN for your Director pool (for example, lyncwebextdir.contoso.com).</span></span>
+      - <span data-ttu-id="d0bb5-148">外部 DNS レコードの場合は、ディレクタープールの外部 Web サービス FQDN (たとえば、lyncwebextdir.contoso.com) に対して、host A (IPv6、AAAA) レコードが存在している必要があります。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-148">For an external DNS record, a host A (for IPv6, AAAA) record should exist for the external Web Services FQDN for your Director pool (for example, lyncwebextdir.contoso.com).</span></span>
 
-5.  <span data-ttu-id="533c2-149">次のようにして、フロントエンドプールに対して host A (IPv6, AAAA) レコードが存在することを確認します。</span><span class="sxs-lookup"><span data-stu-id="533c2-149">Verify that a host A (for IPv6, AAAA) record exists for your Front End pool as follows:</span></span>
+5.  <span data-ttu-id="d0bb5-149">次のようにして、フロントエンドプールに対して host A (IPv6, AAAA) レコードが存在することを確認します。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-149">Verify that a host A (for IPv6, AAAA) record exists for your Front End pool as follows:</span></span>
     
-      - <span data-ttu-id="533c2-150">内部 DNS レコードの場合は、フロントエンドプール用の内部 Web サービス FQDN (たとえば、lyncwebpool01) に対して、host A (IPv6, AAAA) レコードが存在している必要があります。</span><span class="sxs-lookup"><span data-stu-id="533c2-150">For an internal DNS record, a host A (for IPv6, AAAA) record should exist for the internal Web Services FQDN for your Front End pool (for example, lyncwebpool01.contoso.local).</span></span>
+      - <span data-ttu-id="d0bb5-150">内部 DNS レコードの場合は、フロントエンドプール用の内部 Web サービス FQDN (たとえば、lyncwebpool01) に対して、host A (IPv6, AAAA) レコードが存在している必要があります。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-150">For an internal DNS record, a host A (for IPv6, AAAA) record should exist for the internal Web Services FQDN for your Front End pool (for example, lyncwebpool01.contoso.local).</span></span>
     
-      - <span data-ttu-id="533c2-151">外部 DNS レコードの場合は、フロントエンドプールの外部 Web サービス FQDN (たとえば、lyncwebextpool01.contoso.com) に対して、host A (IPv6, AAAA) レコードが存在している必要があります。</span><span class="sxs-lookup"><span data-stu-id="533c2-151">For an external DNS record, a host A (for IPv6, AAAA) record should exist for the external Web Services FQDN for your Front End pool (for example, lyncwebextpool01.contoso.com).</span></span>
+      - <span data-ttu-id="d0bb5-151">外部 DNS レコードの場合は、フロントエンドプールの外部 Web サービス FQDN (たとえば、lyncwebextpool01.contoso.com) に対して、host A (IPv6, AAAA) レコードが存在している必要があります。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-151">For an external DNS record, a host A (for IPv6, AAAA) record should exist for the external Web Services FQDN for your Front End pool (for example, lyncwebextpool01.contoso.com).</span></span>
 
-6.  <span data-ttu-id="533c2-152">内部 DNS レコードの場合は、DNS サーバーのコンソールツリーで、SIP ドメインの [**前方参照ゾーン**] を展開します (たとえば、contoso.com)。</span><span class="sxs-lookup"><span data-stu-id="533c2-152">For an internal DNS record, in the console tree of your DNS server, expand **Forward Lookup Zones** for your SIP domain (for example, contoso.com).</span></span>
+6.  <span data-ttu-id="d0bb5-152">内部 DNS レコードの場合は、DNS サーバーのコンソールツリーで、SIP ドメインの [**前方参照ゾーン**] を展開します (たとえば、contoso.com)。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-152">For an internal DNS record, in the console tree of your DNS server, expand **Forward Lookup Zones** for your SIP domain (for example, contoso.com).</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="533c2-153">外部 DNS レコードを作成する場合は、手順3で既に SIP ドメイン用の<STRONG>前方参照ゾーン</STRONG>が展開されています。</span><span class="sxs-lookup"><span data-stu-id="533c2-153">If you are creating an external DNS record, <STRONG>Forward Lookup Zones</STRONG> is already expanded for your SIP domain from step 3.</span></span>
+    > <span data-ttu-id="d0bb5-153">外部 DNS レコードを作成する場合は、手順3で既に SIP ドメイン用の<STRONG>前方参照ゾーン</STRONG>が展開されています。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-153">If you are creating an external DNS record, <STRONG>Forward Lookup Zones</STRONG> is already expanded for your SIP domain from step 3.</span></span>
 
     
     </div>
 
-7.  <span data-ttu-id="533c2-154">SIP ドメイン名を右クリックし、[**新しいホスト (A または AAAA)**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="533c2-154">Right-click the SIP domain name, and then click **New Host (A or AAAA)**.</span></span>
+7.  <span data-ttu-id="d0bb5-154">SIP ドメイン名を右クリックし、[**新しいホスト (A または AAAA)**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-154">Right-click the SIP domain name, and then click **New Host (A or AAAA)**.</span></span>
 
-8.  <span data-ttu-id="533c2-155">[**名前**] に、次のようにホスト名を入力します。</span><span class="sxs-lookup"><span data-stu-id="533c2-155">In **Name**, type the host name as follows:</span></span>
+8.  <span data-ttu-id="d0bb5-155">[**名前**] に、次のようにホスト名を入力します。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-155">In **Name**, type the host name as follows:</span></span>
     
-      - <span data-ttu-id="533c2-156">内部の DNS レコードの場合は、内部の自動検出サービス URL のホスト名として「lyncdiscoverinternal」と入力します。</span><span class="sxs-lookup"><span data-stu-id="533c2-156">For an internal DNS record, type lyncdiscoverinternal as the host name for the internal Autodiscover Service URL.</span></span>
+      - <span data-ttu-id="d0bb5-156">内部の DNS レコードの場合は、内部の自動検出サービス URL のホスト名として「lyncdiscoverinternal」と入力します。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-156">For an internal DNS record, type lyncdiscoverinternal as the host name for the internal Autodiscover Service URL.</span></span>
     
-      - <span data-ttu-id="533c2-157">外部 DNS レコードの場合は、外部自動検出サービス URL のホスト名として「lyncdiscover」と入力します。</span><span class="sxs-lookup"><span data-stu-id="533c2-157">For an external DNS record, type lyncdiscover as the host name for the external Autodiscover Service URL.</span></span>
+      - <span data-ttu-id="d0bb5-157">外部 DNS レコードの場合は、外部自動検出サービス URL のホスト名として「lyncdiscover」と入力します。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-157">For an external DNS record, type lyncdiscover as the host name for the external Autodiscover Service URL.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="533c2-158">このドメイン名は、レコードが定義されているゾーンと見なされるため、A レコードの一部として入力する必要はありません。</span><span class="sxs-lookup"><span data-stu-id="533c2-158">The domain name is assumed from the zone in which the record is defined and, therefore, does not need to be entered as part of the A record.</span></span>
+    > <span data-ttu-id="d0bb5-158">このドメイン名は、レコードが定義されているゾーンと見なされるため、A レコードの一部として入力する必要はありません。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-158">The domain name is assumed from the zone in which the record is defined and, therefore, does not need to be entered as part of the A record.</span></span>
 
     
     </div>
 
-9.  <span data-ttu-id="533c2-159">[ **Ip アドレス**] に、次のように ip アドレスを入力します。</span><span class="sxs-lookup"><span data-stu-id="533c2-159">In **IP Address**, type the IP address as follows:</span></span>
+9.  <span data-ttu-id="d0bb5-159">[ **Ip アドレス**] に、次のように ip アドレスを入力します。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-159">In **IP Address**, type the IP address as follows:</span></span>
     
-      - <span data-ttu-id="533c2-160">内部 DNS レコードの場合は、ディレクターの内部 Web サービスの IP アドレスを入力します (または、ロードバランサーを使っている場合は、ディレクターロードバランサーの仮想 IP (VIP) を入力します)。</span><span class="sxs-lookup"><span data-stu-id="533c2-160">For an internal DNS record, type the internal Web Services IP address of the Director (or, if you use a load balancer, type the virtual IP (VIP) of the Director load balancer).</span></span>
+      - <span data-ttu-id="d0bb5-160">内部 DNS レコードの場合は、ディレクターの内部 Web サービスの IP アドレスを入力します (または、ロードバランサーを使っている場合は、ディレクターロードバランサーの仮想 IP (VIP) を入力します)。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-160">For an internal DNS record, type the internal Web Services IP address of the Director (or, if you use a load balancer, type the virtual IP (VIP) of the Director load balancer).</span></span>
         
         <div>
         
 
         > [!NOTE]  
-        > <span data-ttu-id="533c2-161">ディレクターを使用しない場合は、フロントエンドサーバーまたは Standard Edition サーバーの IP アドレスを入力するか、ロードバランサーを使っている場合は、フロントエンドプールのロードバランサーの VIP を入力します。</span><span class="sxs-lookup"><span data-stu-id="533c2-161">If you do not use a Director, type the IP address of the Front End Server or Standard Edition server, or, if you use a load balancer, type the VIP of the Front End pool load balancer.</span></span>
+        > <span data-ttu-id="d0bb5-161">ディレクターを使用しない場合は、フロントエンドサーバーまたは Standard Edition サーバーの IP アドレスを入力するか、ロードバランサーを使っている場合は、フロントエンドプールのロードバランサーの VIP を入力します。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-161">If you do not use a Director, type the IP address of the Front End Server or Standard Edition server, or, if you use a load balancer, type the VIP of the Front End pool load balancer.</span></span>
 
         
         </div>
     
-      - <span data-ttu-id="533c2-162">外部 DNS レコードの場合は、リバースプロキシの外部またはパブリック IP アドレスを入力します。</span><span class="sxs-lookup"><span data-stu-id="533c2-162">For an external DNS record, type the external or public IP address of the reverse proxy.</span></span>
+      - <span data-ttu-id="d0bb5-162">外部 DNS レコードの場合は、リバースプロキシの外部またはパブリック IP アドレスを入力します。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-162">For an external DNS record, type the external or public IP address of the reverse proxy.</span></span>
 
-10. <span data-ttu-id="533c2-163">[**ホストの追加**] をクリックし、[ **OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="533c2-163">Click **Add Host**, and then click **OK**.</span></span>
+10. <span data-ttu-id="d0bb5-163">[**ホストの追加**] をクリックし、[ **OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-163">Click **Add Host**, and then click **OK**.</span></span>
 
-11. <span data-ttu-id="533c2-164">追加のレコードを作成するには、手順8から10を繰り返します。</span><span class="sxs-lookup"><span data-stu-id="533c2-164">To create an additional A record, repeat steps 8 through 10.</span></span>
+11. <span data-ttu-id="d0bb5-164">追加のレコードを作成するには、手順8から10を繰り返します。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-164">To create an additional A record, repeat steps 8 through 10.</span></span>
     
     <div>
     
 
     > [!IMPORTANT]  
-    > <span data-ttu-id="533c2-165">新しい lyncdiscover を作成し、Lync Server 2013 環境でサポートしている各 SIP ドメインの前方参照ゾーンにレコードを lyncdiscoverinternal する必要があります。</span><span class="sxs-lookup"><span data-stu-id="533c2-165">You must create a new lyncdiscover and lyncdiscoverinternal A records in the forward lookup zone of each SIP domain that you support in your Lync Server 2013 environment.</span></span>
+    > <span data-ttu-id="d0bb5-165">新しい lyncdiscover を作成し、Lync Server 2013 環境でサポートしている各 SIP ドメインの前方参照ゾーンにレコードを lyncdiscoverinternal する必要があります。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-165">You must create a new lyncdiscover and lyncdiscoverinternal A records in the forward lookup zone of each SIP domain that you support in your Lync Server 2013 environment.</span></span>
 
     
     </div>
 
-12. <span data-ttu-id="533c2-166">(IPv6、AAAA) レコードの作成が完了したら、[**完了**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="533c2-166">When you are finished creating A (for IPv6, AAAA) records, click **Done**.</span></span>
+12. <span data-ttu-id="d0bb5-166">(IPv6、AAAA) レコードの作成が完了したら、[**完了**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="d0bb5-166">When you are finished creating A (for IPv6, AAAA) records, click **Done**.</span></span>
 
 </div>
 

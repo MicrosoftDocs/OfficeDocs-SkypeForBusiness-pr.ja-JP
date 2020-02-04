@@ -3,6 +3,8 @@ title: 複数のユーザーをパイロットプールに移動する
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Move multiple users to the pilot pool
 ms:assetid: 90d0590c-922c-4933-b778-9dd850b59310
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205096(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184838
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc3104566841cc70eeee489a4b8812a6b8039a31
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a8e347658d73405d7125eb439daff7eeb84e6ea7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848034"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730927"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34848034"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="move-multiple-users-to-the-pilot-pool"></a><span data-ttu-id="e6c3c-102">複数のユーザーをパイロットプールに移動する</span><span class="sxs-lookup"><span data-stu-id="e6c3c-102">Move multiple users to the pilot pool</span></span>
+# <a name="move-multiple-users-to-the-pilot-pool"></a><span data-ttu-id="0c532-102">複数のユーザーをパイロットプールに移動する</span><span class="sxs-lookup"><span data-stu-id="0c532-102">Move multiple users to the pilot pool</span></span>
 
 </div>
 
@@ -33,79 +35,79 @@ ms.locfileid: "34848034"
 
 <span> </span>
 
-<span data-ttu-id="e6c3c-103">_**最終更新日:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="e6c3c-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="0c532-103">_**最終更新日:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="0c532-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="e6c3c-104">Lync server 2013 コントロールパネルまたは Lync Server 2013 Management Shell を使用して、lync Server 2010 プールから Lync Server 2013 パイロットプールに複数のユーザーを移動することができます。</span><span class="sxs-lookup"><span data-stu-id="e6c3c-104">You can move multiple users from your Lync Server 2010 pool to your Lync Server 2013 pilot pool using Lync Server 2013 Control Panel or Lync Server 2013 Management Shell.</span></span>
+<span data-ttu-id="0c532-104">Lync server 2013 コントロールパネルまたは Lync Server 2013 Management Shell を使用して、lync Server 2010 プールから Lync Server 2013 パイロットプールに複数のユーザーを移動することができます。</span><span class="sxs-lookup"><span data-stu-id="0c532-104">You can move multiple users from your Lync Server 2010 pool to your Lync Server 2013 pilot pool using Lync Server 2013 Control Panel or Lync Server 2013 Management Shell.</span></span>
 
 <div>
 
-## <a name="to-move-multiple-users-by-using-the-lync-server-2013-control-panel"></a><span data-ttu-id="e6c3c-105">Lync Server 2013 コントロールパネルを使用して複数のユーザーを移動するには</span><span class="sxs-lookup"><span data-stu-id="e6c3c-105">To move multiple users by using the Lync Server 2013 Control Panel</span></span>
+## <a name="to-move-multiple-users-by-using-the-lync-server-2013-control-panel"></a><span data-ttu-id="0c532-105">Lync Server 2013 コントロールパネルを使用して複数のユーザーを移動するには</span><span class="sxs-lookup"><span data-stu-id="0c532-105">To move multiple users by using the Lync Server 2013 Control Panel</span></span>
 
-1.  <span data-ttu-id="e6c3c-106">[**Lync Server コントロール パネル**] を開きます。</span><span class="sxs-lookup"><span data-stu-id="e6c3c-106">Open **Lync Server Control Panel**.</span></span>
+1.  <span data-ttu-id="0c532-106">[**Lync Server コントロール パネル**] を開きます。</span><span class="sxs-lookup"><span data-stu-id="0c532-106">Open **Lync Server Control Panel**.</span></span>
 
-2.  <span data-ttu-id="e6c3c-107">[**ユーザー**]、[検索] の順にクリックして、[**ユーザー検索**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="e6c3c-107">Click **Users**, click Search, and then click **Find**.</span></span>
+2.  <span data-ttu-id="0c532-107">[**ユーザー**]、[検索] の順にクリックして、[**ユーザー検索**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="0c532-107">Click **Users**, click Search, and then click **Find**.</span></span>
 
-3.  <span data-ttu-id="e6c3c-108">Lync Server 2013 プールに移動する2人のユーザーを選びます。</span><span class="sxs-lookup"><span data-stu-id="e6c3c-108">Select two users that you want to move to the Lync Server 2013 pool.</span></span> <span data-ttu-id="e6c3c-109">この例では、Chen Yang sold と Claus というユーザーを移動します。</span><span class="sxs-lookup"><span data-stu-id="e6c3c-109">In this example, we will move users Chen Yang and Claus Hansen.</span></span>
+3.  <span data-ttu-id="0c532-108">Lync Server 2013 プールに移動する2人のユーザーを選びます。</span><span class="sxs-lookup"><span data-stu-id="0c532-108">Select two users that you want to move to the Lync Server 2013 pool.</span></span> <span data-ttu-id="0c532-109">この例では、Chen Yang sold と Claus というユーザーを移動します。</span><span class="sxs-lookup"><span data-stu-id="0c532-109">In this example, we will move users Chen Yang and Claus Hansen.</span></span>
     
-    <span data-ttu-id="e6c3c-110">![ユーザーを特定のレジスタプールに移動する](images/JJ205096.70d510e1-8e6b-40a5-a80b-27cbc63fc337(OCS.15).jpg "ユーザーを特定のレジスタプールに移動する")</span><span class="sxs-lookup"><span data-stu-id="e6c3c-110">![Move users to specific register pool](images/JJ205096.70d510e1-8e6b-40a5-a80b-27cbc63fc337(OCS.15).jpg "Move users to specific register pool")</span></span>  
+    <span data-ttu-id="0c532-110">![ユーザーを特定のレジスタプールに移動する](images/JJ205096.70d510e1-8e6b-40a5-a80b-27cbc63fc337(OCS.15).jpg "ユーザーを特定のレジスタプールに移動する")</span><span class="sxs-lookup"><span data-stu-id="0c532-110">![Move users to specific register pool](images/JJ205096.70d510e1-8e6b-40a5-a80b-27cbc63fc337(OCS.15).jpg "Move users to specific register pool")</span></span>  
 
-4.  <span data-ttu-id="e6c3c-111">[**アクション**] メニューで、[**選択したユーザーをプールに移動**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="e6c3c-111">From the **Action** menu, select **Move selected users to pool**.</span></span>
+4.  <span data-ttu-id="0c532-111">[**アクション**] メニューで、[**選択したユーザーをプールに移動**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="0c532-111">From the **Action** menu, select **Move selected users to pool**.</span></span>
 
-5.  <span data-ttu-id="e6c3c-112">ドロップダウンリストから、Lync Server 2013 プールを選択します。</span><span class="sxs-lookup"><span data-stu-id="e6c3c-112">From the drop-down list, select the Lync Server 2013 pool.</span></span>
+5.  <span data-ttu-id="0c532-112">ドロップダウンリストから、Lync Server 2013 プールを選択します。</span><span class="sxs-lookup"><span data-stu-id="0c532-112">From the drop-down list, select the Lync Server 2013 pool.</span></span>
 
-6.  <span data-ttu-id="e6c3c-113">[**アクション**] をクリックし、[**選択されたユーザーをプールに移動**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="e6c3c-113">Click **Action** and then click **Move selected users to pool**.</span></span> <span data-ttu-id="e6c3c-114">[OK] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="e6c3c-114">Click OK.</span></span>
+6.  <span data-ttu-id="0c532-113">[**アクション**] をクリックし、[**選択されたユーザーをプールに移動**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="0c532-113">Click **Action** and then click **Move selected users to pool**.</span></span> <span data-ttu-id="0c532-114">[OK] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="0c532-114">Click OK.</span></span>
     
-    <span data-ttu-id="e6c3c-115">![[ユーザーの移動]、[宛先レジストラー pool] ダイアログボックス](images/JJ205401.8a375003-dc00-4541-b578-4d88f2010601(OCS.15).png "[ユーザーの移動]、[宛先レジストラー pool] ダイアログボックス")</span><span class="sxs-lookup"><span data-stu-id="e6c3c-115">![Move Users, destination registrar pool dialog box](images/JJ205401.8a375003-dc00-4541-b578-4d88f2010601(OCS.15).png "Move Users, destination registrar pool dialog box")</span></span>  
+    <span data-ttu-id="0c532-115">![[ユーザーの移動]、[宛先レジストラー pool] ダイアログボックス](images/JJ205401.8a375003-dc00-4541-b578-4d88f2010601(OCS.15).png "[ユーザーの移動]、[宛先レジストラー pool] ダイアログボックス")</span><span class="sxs-lookup"><span data-stu-id="0c532-115">![Move Users, destination registrar pool dialog box](images/JJ205401.8a375003-dc00-4541-b578-4d88f2010601(OCS.15).png "Move Users, destination registrar pool dialog box")</span></span>  
 
-7.  <span data-ttu-id="e6c3c-116">ユーザーの**レジストラー pool**列に Lync Server 2013 プールが含まれていることを確認します。これは、ユーザーが正常に移動されたことを示します。</span><span class="sxs-lookup"><span data-stu-id="e6c3c-116">Verify that the **Registrar pool** column for the users now contains the Lync Server 2013 pool, which indicates that the users have been successfully moved.</span></span>
+7.  <span data-ttu-id="0c532-116">ユーザーの**レジストラー pool**列に Lync Server 2013 プールが含まれていることを確認します。これは、ユーザーが正常に移動されたことを示します。</span><span class="sxs-lookup"><span data-stu-id="0c532-116">Verify that the **Registrar pool** column for the users now contains the Lync Server 2013 pool, which indicates that the users have been successfully moved.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-move-multiple-users-by-using-the-lync-server-2013-management-shell"></a><span data-ttu-id="e6c3c-117">Lync Server 2013 管理シェルを使用して複数のユーザーを移動するには</span><span class="sxs-lookup"><span data-stu-id="e6c3c-117">To move multiple users by using the Lync Server 2013 Management Shell</span></span>
+## <a name="to-move-multiple-users-by-using-the-lync-server-2013-management-shell"></a><span data-ttu-id="0c532-117">Lync Server 2013 管理シェルを使用して複数のユーザーを移動するには</span><span class="sxs-lookup"><span data-stu-id="0c532-117">To move multiple users by using the Lync Server 2013 Management Shell</span></span>
 
-1.  <span data-ttu-id="e6c3c-118">Lync Server 2013 管理シェルを開きます。</span><span class="sxs-lookup"><span data-stu-id="e6c3c-118">Open the Lync Server 2013 Management Shell.</span></span>
+1.  <span data-ttu-id="0c532-118">Lync Server 2013 管理シェルを開きます。</span><span class="sxs-lookup"><span data-stu-id="0c532-118">Open the Lync Server 2013 Management Shell.</span></span>
 
-2.  <span data-ttu-id="e6c3c-119">コマンドラインで、次のように入力し、移動する特定のユーザー名で**User1**と**User2**を置き換えて、**プール\_の FQDN**を移行先プールの名前で置き換えます。</span><span class="sxs-lookup"><span data-stu-id="e6c3c-119">At the command line, type the following and replace **User1** and **User2** with specific user names you want to move and replace **pool\_FQDN** with the name of the destination pool.</span></span> <span data-ttu-id="e6c3c-120">この例では、ユーザーの Hao Chen と Katie ヨルダンを移動します。</span><span class="sxs-lookup"><span data-stu-id="e6c3c-120">In this example we will move users Hao Chen and Katie Jordan.</span></span>
+2.  <span data-ttu-id="0c532-119">コマンドラインで、次のように入力し、移動する特定のユーザー名で**User1**と**User2**を置き換えて、**プール\_の FQDN**を移行先プールの名前で置き換えます。</span><span class="sxs-lookup"><span data-stu-id="0c532-119">At the command line, type the following and replace **User1** and **User2** with specific user names you want to move and replace **pool\_FQDN** with the name of the destination pool.</span></span> <span data-ttu-id="0c532-120">この例では、ユーザーの Hao Chen と Katie ヨルダンを移動します。</span><span class="sxs-lookup"><span data-stu-id="0c532-120">In this example we will move users Hao Chen and Katie Jordan.</span></span>
     
         Get-CsUser -Filter {DisplayName -eq "User1" -or DisplayName - eq "User2"} | Move-CsUser -Target "pool_FQDN"
     
-    <span data-ttu-id="e6c3c-121">![PowerShell Get-CsUser コマンドレットの例](images/JJ205096.767ff9fc-755d-4a80-a710-5b1367aecbe0(OCS.15).jpg "PowerShell Get-CsUser コマンドレットの例")</span><span class="sxs-lookup"><span data-stu-id="e6c3c-121">![Example of PowerShell Get-CsUser cmdlet](images/JJ205096.767ff9fc-755d-4a80-a710-5b1367aecbe0(OCS.15).jpg "Example of PowerShell Get-CsUser cmdlet")</span></span>  
+    <span data-ttu-id="0c532-121">![PowerShell Get-CsUser コマンドレットの例](images/JJ205096.767ff9fc-755d-4a80-a710-5b1367aecbe0(OCS.15).jpg "PowerShell Get-CsUser コマンドレットの例")</span><span class="sxs-lookup"><span data-stu-id="0c532-121">![Example of PowerShell Get-CsUser cmdlet](images/JJ205096.767ff9fc-755d-4a80-a710-5b1367aecbe0(OCS.15).jpg "Example of PowerShell Get-CsUser cmdlet")</span></span>  
 
-3.  <span data-ttu-id="e6c3c-122">コマンドラインで、次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="e6c3c-122">At the command line, type the following</span></span>
+3.  <span data-ttu-id="0c532-122">コマンドラインで、次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="0c532-122">At the command line, type the following</span></span>
     
         Get-CsUser -Identity "User1"
 
-4.  <span data-ttu-id="e6c3c-123">これで、**レジストラープール**id が、前の手順で**プール\_の FQDN**として指定したプールをポイントするようになります。</span><span class="sxs-lookup"><span data-stu-id="e6c3c-123">The **Registrar Pool** identity should now point to the pool you specified as **pool\_FQDN** in the previous step.</span></span> <span data-ttu-id="e6c3c-124">この id の存在は、ユーザーが正常に移動されたことを確認します。</span><span class="sxs-lookup"><span data-stu-id="e6c3c-124">The presence of this identity confirms that the user has been successfully moved.</span></span> <span data-ttu-id="e6c3c-125">「 **User2**が移動されたことを確認する」の手順を繰り返します。</span><span class="sxs-lookup"><span data-stu-id="e6c3c-125">Repeat step to verify **User2** has been moved.</span></span>
+4.  <span data-ttu-id="0c532-123">これで、**レジストラープール**id が、前の手順で**プール\_の FQDN**として指定したプールをポイントするようになります。</span><span class="sxs-lookup"><span data-stu-id="0c532-123">The **Registrar Pool** identity should now point to the pool you specified as **pool\_FQDN** in the previous step.</span></span> <span data-ttu-id="0c532-124">この id の存在は、ユーザーが正常に移動されたことを確認します。</span><span class="sxs-lookup"><span data-stu-id="0c532-124">The presence of this identity confirms that the user has been successfully moved.</span></span> <span data-ttu-id="0c532-125">「 **User2**が移動されたことを確認する」の手順を繰り返します。</span><span class="sxs-lookup"><span data-stu-id="0c532-125">Repeat step to verify **User2** has been moved.</span></span>
     
-    <span data-ttu-id="e6c3c-126">![PowerShell Get-UsUser Identity コマンドレットの出力](images/JJ205096.8ff04c67-37a0-4156-bfbc-28f9f7b137c8(OCS.15).jpg "PowerShell Get-UsUser Identity コマンドレットの出力")</span><span class="sxs-lookup"><span data-stu-id="e6c3c-126">![Output of PowerShell Get-UsUser -Identity cmdlet](images/JJ205096.8ff04c67-37a0-4156-bfbc-28f9f7b137c8(OCS.15).jpg "Output of PowerShell Get-UsUser -Identity  cmdlet")</span></span>  
+    <span data-ttu-id="0c532-126">![PowerShell Get-UsUser Identity コマンドレットの出力](images/JJ205096.8ff04c67-37a0-4156-bfbc-28f9f7b137c8(OCS.15).jpg "PowerShell Get-UsUser Identity コマンドレットの出力")</span><span class="sxs-lookup"><span data-stu-id="0c532-126">![Output of PowerShell Get-UsUser -Identity cmdlet](images/JJ205096.8ff04c67-37a0-4156-bfbc-28f9f7b137c8(OCS.15).jpg "Output of PowerShell Get-UsUser -Identity  cmdlet")</span></span>  
 
 </div>
 
 <div>
 
-## <a name="to-move-all-users-at-the-same-time-by-using-the-lync-server-2013-management-shell"></a><span data-ttu-id="e6c3c-127">Lync Server 2013 管理シェルを使用してすべてのユーザーを同時に移動するには</span><span class="sxs-lookup"><span data-stu-id="e6c3c-127">To move all users at the same time by using the Lync Server 2013 Management Shell</span></span>
+## <a name="to-move-all-users-at-the-same-time-by-using-the-lync-server-2013-management-shell"></a><span data-ttu-id="0c532-127">Lync Server 2013 管理シェルを使用してすべてのユーザーを同時に移動するには</span><span class="sxs-lookup"><span data-stu-id="0c532-127">To move all users at the same time by using the Lync Server 2013 Management Shell</span></span>
 
-<span data-ttu-id="e6c3c-128">この例では、すべてのユーザーが Lync Server 2010 プール (pool01.contoso.net) に戻されています。</span><span class="sxs-lookup"><span data-stu-id="e6c3c-128">In this example, all users have been returned to the Lync Server 2010 pool (pool01.contoso.net).</span></span> <span data-ttu-id="e6c3c-129">Lync Server 2013 管理シェルを使用して、すべてのユーザーを Lync Server 2013 プール (pool02.contoso.net) に同時に移行します。</span><span class="sxs-lookup"><span data-stu-id="e6c3c-129">Using the Lync Server 2013 Management Shell, we will move all users at the same time to the Lync Server 2013 pool (pool02.contoso.net).</span></span>
+<span data-ttu-id="0c532-128">この例では、すべてのユーザーが Lync Server 2010 プール (pool01.contoso.net) に戻されています。</span><span class="sxs-lookup"><span data-stu-id="0c532-128">In this example, all users have been returned to the Lync Server 2010 pool (pool01.contoso.net).</span></span> <span data-ttu-id="0c532-129">Lync Server 2013 管理シェルを使用して、すべてのユーザーを Lync Server 2013 プール (pool02.contoso.net) に同時に移行します。</span><span class="sxs-lookup"><span data-stu-id="0c532-129">Using the Lync Server 2013 Management Shell, we will move all users at the same time to the Lync Server 2013 pool (pool02.contoso.net).</span></span>
 
-1.  <span data-ttu-id="e6c3c-130">**Lync Server 2013 管理シェル**を開きます。</span><span class="sxs-lookup"><span data-stu-id="e6c3c-130">Open the **Lync Server 2013 Management Shell**.</span></span>
+1.  <span data-ttu-id="0c532-130">**Lync Server 2013 管理シェル**を開きます。</span><span class="sxs-lookup"><span data-stu-id="0c532-130">Open the **Lync Server 2013 Management Shell**.</span></span>
 
-2.  <span data-ttu-id="e6c3c-131">コマンドラインで、次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="e6c3c-131">At the command line, type the following:</span></span>
+2.  <span data-ttu-id="0c532-131">コマンドラインで、次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="0c532-131">At the command line, type the following:</span></span>
     
         Get-CsUser -OnLyncServer | Move-CsUser -Target "pool_FQDN"
     
-    <span data-ttu-id="e6c3c-132">![PowerShell コマンドレットと結果の管理シェル](images/JJ205096.1e57ccb1-9378-4dc7-82b7-dcaa63a285c6(OCS.15).png "PowerShell コマンドレットと結果の管理シェル")</span><span class="sxs-lookup"><span data-stu-id="e6c3c-132">![PowerShell cmdlet and results in Management Shell](images/JJ205096.1e57ccb1-9378-4dc7-82b7-dcaa63a285c6(OCS.15).png "PowerShell cmdlet and results in Management Shell")</span></span>  
+    <span data-ttu-id="0c532-132">![PowerShell コマンドレットと結果の管理シェル](images/JJ205096.1e57ccb1-9378-4dc7-82b7-dcaa63a285c6(OCS.15).png "PowerShell コマンドレットと結果の管理シェル")</span><span class="sxs-lookup"><span data-stu-id="0c532-132">![PowerShell cmdlet and results in Management Shell](images/JJ205096.1e57ccb1-9378-4dc7-82b7-dcaa63a285c6(OCS.15).png "PowerShell cmdlet and results in Management Shell")</span></span>  
 
-3.  <span data-ttu-id="e6c3c-133">次に、パイロットユーザーの1人に対して、**ユーザーの取得-CsUser**を実行します。</span><span class="sxs-lookup"><span data-stu-id="e6c3c-133">Next, run **Get-CsUser** for one of the pilot users.</span></span>
+3.  <span data-ttu-id="0c532-133">次に、パイロットユーザーの1人に対して、**ユーザーの取得-CsUser**を実行します。</span><span class="sxs-lookup"><span data-stu-id="0c532-133">Next, run **Get-CsUser** for one of the pilot users.</span></span>
     
         Get-CsUser -Identity "Hao Chen"
 
-4.  <span data-ttu-id="e6c3c-134">各ユーザーの**レジストラープール**id は、前の手順で "プール\_FQDN" として指定したプールを指すようになりました。</span><span class="sxs-lookup"><span data-stu-id="e6c3c-134">The **Registrar Pool** identity for each user now points to the pool you specified as “pool\_FQDN” in the previous step.</span></span> <span data-ttu-id="e6c3c-135">この id の存在は、ユーザーが正常に移動されたことを確認します。</span><span class="sxs-lookup"><span data-stu-id="e6c3c-135">The presence of this identity confirms that the user has been successfully moved.</span></span>
+4.  <span data-ttu-id="0c532-134">各ユーザーの**レジストラープール**id は、前の手順で "プール\_FQDN" として指定したプールを指すようになりました。</span><span class="sxs-lookup"><span data-stu-id="0c532-134">The **Registrar Pool** identity for each user now points to the pool you specified as “pool\_FQDN” in the previous step.</span></span> <span data-ttu-id="0c532-135">この id の存在は、ユーザーが正常に移動されたことを確認します。</span><span class="sxs-lookup"><span data-stu-id="0c532-135">The presence of this identity confirms that the user has been successfully moved.</span></span>
 
-5.  <span data-ttu-id="e6c3c-136">さらに、Lync Server 2013 コントロールパネルでユーザーの一覧を表示し、[レジストラー Pool] の値が Lync Server 2013 プールを指すようになったことを確認します。</span><span class="sxs-lookup"><span data-stu-id="e6c3c-136">Additionally, we can view the list of users in the Lync Server 2013 Control Panel and verify that the Registrar Pool value now points to the Lync Server 2013 pool.</span></span>
+5.  <span data-ttu-id="0c532-136">さらに、Lync Server 2013 コントロールパネルでユーザーの一覧を表示し、[レジストラー Pool] の値が Lync Server 2013 プールを指すようになったことを確認します。</span><span class="sxs-lookup"><span data-stu-id="0c532-136">Additionally, we can view the list of users in the Lync Server 2013 Control Panel and verify that the Registrar Pool value now points to the Lync Server 2013 pool.</span></span>
     
-    <span data-ttu-id="e6c3c-137">![Lync Server 2013 コントロールパネルのユーザーリスト](images/JJ205096.3f2e87a7-ec59-43c5-82cb-e770108bfb04(OCS.15).jpg "Lync Server 2013 コントロールパネルのユーザーリスト")</span><span class="sxs-lookup"><span data-stu-id="e6c3c-137">![Lync Server 2013 Control Panel user list](images/JJ205096.3f2e87a7-ec59-43c5-82cb-e770108bfb04(OCS.15).jpg "Lync Server 2013 Control Panel user list")</span></span>  
+    <span data-ttu-id="0c532-137">![Lync Server 2013 コントロールパネルのユーザーリスト](images/JJ205096.3f2e87a7-ec59-43c5-82cb-e770108bfb04(OCS.15).jpg "Lync Server 2013 コントロールパネルのユーザーリスト")</span><span class="sxs-lookup"><span data-stu-id="0c532-137">![Lync Server 2013 Control Panel user list](images/JJ205096.3f2e87a7-ec59-43c5-82cb-e770108bfb04(OCS.15).jpg "Lync Server 2013 Control Panel user list")</span></span>  
 
 </div>
 
