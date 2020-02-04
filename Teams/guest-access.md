@@ -10,18 +10,18 @@ audience: admin
 search.appverid: MET150
 description: Microsoft Teams でのゲスト アクセスにより、組織内のチームは組織外の人にチームおよびチャネルへのアクセス権を付与することで、それらの人と共同作業することができるようになります。
 localization_priority: Priority
-f1keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.overview
+f1.keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.overview
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ccaf4cae1b82b206ebfd27b185dddaf2ab0eece
-ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
+ms.openlocfilehash: e3490d208f95138d9aad57d69f55957dafb8734e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38746290"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707552"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams でのゲスト アクセス
 ======================================
@@ -74,7 +74,6 @@ ms.locfileid: "38746290"
 - チームの作成または修正
 - チームの参照
 - 個人対個人のチャットへのファイルのアップロード
-- ゲストは、ユーザーの完全なメール ID が分かっていれば、引き続き (チーム外の) ユーザーを検索することができます。 これを防ぐために、IT 管理者はゲストを自分の仮想 GAL に制限することができる[範囲指定ディレクトリ検索](teams-scoped-directory-search.md)などのパターンを使用することができます。
 - 現在、Teams は、[Azure B2B で定義](https://docs.microsoft.com/azure/active-directory/b2b/user-properties)されている状態 1 および状態 2 のゲスト ユーザーのみをサポートします。
 
 ゲストが Teams でできることとできないことの完全なリストについては、「[チーム メンバーとゲスト機能の比較](guest-experience.md#comparison-of-team-member-and-guest-capabilities)」表をご覧ください。 Office 365 レベルでのゲスト アクセスの詳細については、「[Office 365 グループへのゲストの追加](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)」をご覧ください。
