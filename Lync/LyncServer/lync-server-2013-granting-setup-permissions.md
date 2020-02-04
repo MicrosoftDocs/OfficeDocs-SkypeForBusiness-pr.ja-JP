@@ -3,6 +3,8 @@ title: 'Lync Server 2013: セットアップ アクセス許可の付与'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Granting setup permissions
 ms:assetid: 15982bfe-6844-44f6-815a-72dcaf0e4d21
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398225(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183491
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 751ec9ba024780344596bfc0513c15f7e9eafec7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2a4642a9e0c77d9cf3aa77c146ff692a7fa7a6c2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833118"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763891"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,9 +37,9 @@ ms.locfileid: "34833118"
 
 _**最終更新日:** 2012-08-27_
 
-WriteSPN アクセス許可コマンド**** レットを使用して、指定した Active Directory 組織単位 (OU) の RTCUniversalServerAdmins グループに読み取り、書き込み、readspn、およびのアクセス許可を追加することができます。 その後、その OU の RTCUniversalServerAdmins グループのメンバーは、ドメイン管理者グループのメンバーにならずに、指定したドメインで Lync Server 2013 を実行しているサーバーをインストールできます。
+WriteSPN アクセス許可コマンドレットを使用**して、** 指定した Active Directory 組織単位 (OU) の RTCUniversalServerAdmins グループに読み取り、書き込み、readspn、およびのアクセス許可を追加することができます。 その後、その OU の RTCUniversalServerAdmins グループのメンバーは、ドメイン管理者グループのメンバーにならずに、指定したドメインで Lync Server 2013 を実行しているサーバーをインストールできます。
 
-Cssetuppermission コマンドレットを使用して、設定したアクセス許可を確認します。これには、**グラント Setuppermission**コマンドレットを使用します。 ****
+**Cssetuppermission**コマンドレットを使用して、設定したアクセス許可を確認します。これには、**グラント setuppermission**コマンドレットを使用します。
 
 無効にした場合は、 **Revoke setuppermissions**コマンドレットを使用して、**付与**したアクセス許可を削除できます。
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: アーカイブされた Lync Server 2013 データを
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring SharePoint Server 2013 to search for archived Lync Server 2013 data
 ms:assetid: 17f49365-8778-4962-a41b-f96faf6902f1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687978(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733566
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 381db352aae635358dfd62cc1965ea238960bf8a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1e000f6116b112b3de9840c22c29510745303035
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840206"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755921"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34840206"
 
 _**最終更新日:** 2014-02-04_
 
-Microsoft Lync Server 2013 ではなく、Microsoft Exchange Server 2013 でインスタントメッセージングと Web 会議のトランスクリプトを保存する主な利点の1つは、同じ場所にデータを保存することで、管理者が単一のツールを使用して検索できるようになることです。アーカイブされた Exchange データやアーカイブされた Lync Server データの場合。 すべてのデータは同じ場所に保存されるため (Exchange) アーカイブされた Exchange データを検索できるすべてのツールは、アーカイブされた Lync Server データを検索することもできます。
+Microsoft Lync Server 2013 ではなく、Microsoft Exchange Server 2013 でインスタントメッセージングと Web 会議のトランスクリプトを保存する主な利点の1つは、同じ場所にデータを保存することで、管理者が単一のツールを使用してアーカイブされた Exchange データやアーカイブされた Lync Server データを検索できることです。 すべてのデータは同じ場所に保存されるため (Exchange) アーカイブされた Exchange データを検索できるすべてのツールは、アーカイブされた Lync Server データを検索することもできます。
 
 アーカイブデータを検索しやすくするツールの1つは、Microsoft SharePoint Server 2013 です。 SharePoint を使って Lync Server データを検索する場合は、まず、Lync Server での Exchange アーカイブの構成に関連するすべての手順を完了する必要があります。 Exchange 2013 と Lync Server 2013 の統合が正常に完了したら、Exchange Web Services Managed API バージョン2.0 を SharePoint サーバーにインストールする必要があります。その API のセットアッププログラムは、Microsoft ダウンロードセンター ([http://go.microsoft.com/fwlink/p/?LinkId=258305](http://go.microsoft.com/fwlink/p/?linkid=258305)) からダウンロードできます。 ダウンロードしたファイル (EWSManagedAPI.msi) は、SharePoint サーバーのどのフォルダーにでも保存できます。
 

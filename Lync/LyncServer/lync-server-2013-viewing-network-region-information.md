@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ネットワークの地域情報の表示'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Viewing network region information
 ms:assetid: 665740d0-a3ed-460f-8337-5ed945f90589
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688076(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733672
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 52baf7c9dca4d663630bbf0cb17384916f5a953e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: db5610ddee677af989b16c150ffab96308bbb837
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848170"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757291"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34848170"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-23_
+_**トピックの最終更新日:** 2013-02-23_
 
 ネットワーク領域は、ネットワークのさまざまな部分を複数の地域で相互接続します。 すべてのネットワーク領域はセントラルサイトと関連付けられている必要があります。 セントラルサイトは、通話受付制御 (CAC) 帯域幅ポリシーサービスが実行されているデータセンターサイトです。 Lync Server コントロールパネルを使用して、ネットワークの領域を表示することができます。 [ネットワーク] 領域には、インターネット経由の代替パスが音声とビデオに接続できるかどうかを決定する設定が含まれます。 既存のネットワーク領域を表示するには、このトピックを参照してください。 既存のネットワーク領域の作成または変更の詳細については、「 [Lync Server 2013 でネットワーク領域を作成または変更](lync-server-2013-creating-or-modifying-network-regions.md)する」を参照してください。
 
@@ -66,7 +68,7 @@ _**最終更新日:** 2013-02-23_
 
 ## <a name="viewing-network-region-information-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用したネットワーク領域情報の表示
 
-ネットワークの地域情報は、Windows PowerShell と、ユーザーの**入手用の Networkregion**コマンドレットを使って表示できます。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、「Lync Server Windows PowerShell のブログ記事」を参照してください[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。「リモート PowerShell を使用して Microsoft Lync Server 2010 を管理する」を参照してください。
+ネットワークの地域情報は、Windows PowerShell と、ユーザーの**入手用の Networkregion**コマンドレットを使って表示できます。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 <div>
 

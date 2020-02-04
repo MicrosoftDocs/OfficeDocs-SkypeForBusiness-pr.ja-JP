@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ユーザー登録レポート'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: User Registration Report
 ms:assetid: 151d5cc9-cc1b-4cfa-be9c-55ebe321f7a4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558614(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183486
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8f56ffd05e677d5106552a9ebcf8a0718efbc100
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 079e6cb96a9401d909be4f459d7bbe7c3f6d4ed6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848345"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744517"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -102,13 +104,13 @@ Lync Server を展開した後、よく寄せられる質問として、ユー�
 
     (Get-CsUser).Count
 
-上記のコマンドによって値1236が返され、固有のログオンユーザーのメトリックが返される場合は、平均値667がシステムに実際にログオンしていることを示しています (つまり、667を1236で割る)。約 54%)。
+上記のコマンドによって値1236が返され、固有のログオンユーザーのメトリックが返される場合は、平均値667がシステムに実際にログオンしていることを示しています (つまり、667を1236で割る)。約54%)。
 
 <div>
 
 
 > [!WARNING]  
-> ログオンの指標に記録されるのは、指定した期間内に実際にログオンしたユーザーの数である点に注意してください。 その前に既にシステムにログオンしていたユーザーは追跡されません。 たとえば、[一意のログオン ユーザー数] 指標が 667、ユーザー数が 1,236 の場合、約半分のユーザーがシステムにログオンしたことになります。 ただし、ログオン データのチェックを開始する前に既に 300 人のユーザーがシステムにログオンしていたとします。 これは、実際には Lync Server にログオンしているユーザーが、1000実際にはログオンしているユーザーの 80% に近いということを意味します。
+> ログオンの指標に記録されるのは、指定した期間内に実際にログオンしたユーザーの数である点に注意してください。 その前に既にシステムにログオンしていたユーザーは追跡されません。 たとえば、[一意のログオン ユーザー数] 指標が 667、ユーザー数が 1,236 の場合、約半分のユーザーがシステムにログオンしたことになります。 ただし、ログオン データのチェックを開始する前に既に 300 人のユーザーがシステムにログオンしていたとします。 これは、実際には Lync Server にログオンしているユーザーが、1000実際にはログオンしているユーザーの80% に近いということを意味します。
 
 
 

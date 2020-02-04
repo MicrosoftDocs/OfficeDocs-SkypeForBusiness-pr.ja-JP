@@ -3,6 +3,8 @@ title: 'Lync Server 2013: サーバーの証明書の構成'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure certificates for servers
 ms:assetid: e12e59b5-a146-4859-86ec-cabfc198c7b5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398995(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185531
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 21a0e239074b4f6d4638214fad41ff8ba18078fc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 303724fa705fa94e9bbacacb4764bba7b918c460
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840427"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739377"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -65,7 +67,7 @@ Standard Edition server またはフロントエンドサーバー証明書を�
 
 
 > [!IMPORTANT]  
-> 次の手順では、組織によって展開された、またはオフライン要求処理を使用して、社内のエンタープライズ PKI から証明書を構成する方法について説明します。 パブリック CA から証明書を取得する方法については、計画ドキュメントの「 <A href="lync-server-2013-certificate-requirements-for-internal-servers.md">Lync Server 2013 の内部サーバーの証明書要件</A>」を参照してください。 また、この手順では、フロントエンドサーバーのセットアップ時に証明書を要求、割り当て、インストールする方法について説明します。 事前に証明書を要求した場合は、この展開ドキュメントの「 <A href="lync-server-2013-request-certificates-in-advance-optional.md">Lync Server 2013 について事前に証明書を要求する (オプション)</A> 」の説明に従ってください。または、組織内に展開された社内のエンタープライズ PKI を使って入手する必要はありません。証明書の場合は、必要に応じてこの手順を変更する必要があります。
+> 次の手順では、組織によって展開された、またはオフライン要求処理を使用して、社内のエンタープライズ PKI から証明書を構成する方法について説明します。 パブリック CA から証明書を取得する方法については、計画ドキュメントの「 <A href="lync-server-2013-certificate-requirements-for-internal-servers.md">Lync Server 2013 の内部サーバーの証明書要件</A>」を参照してください。 また、この手順では、フロントエンドサーバーのセットアップ時に証明書を要求、割り当て、インストールする方法について説明します。 事前に証明書を要求している場合は、この展開ドキュメントの「 <A href="lync-server-2013-request-certificates-in-advance-optional.md">Lync Server 2013 について事前に証明書を要求する (オプション)</A> 」で説明している手順を実行します。または、組織内に展開された社内のエンタープライズ PKI を使って証明書を取得する必要はありません。
 
 
 

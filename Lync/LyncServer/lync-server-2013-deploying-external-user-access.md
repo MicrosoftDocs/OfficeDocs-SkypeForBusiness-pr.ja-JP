@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 外部ユーザー アクセスの展開'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying external user access
 ms:assetid: d40c9574-c16b-4fe6-b848-21ae0b7e4f0e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398918(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185495
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e8522eac5ace72f615cc3cb7b9271981d1b84c1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ba083650b9a068d48e28bf8af0c51b4b25b5c227
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833552"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758041"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ Microsoft Lync Server 2013 用のエッジコンポーネントを展開する�
 
 
 > [!IMPORTANT]  
-> Microsoft Lync Server 2013&nbsp;Edge server のインストールと構成は、社内のチームとの計画や調整を大量に行う必要がある複雑なプロセスである可能性があります。たとえば、セキュリティ、ネットワーク、ファイアウォール、ドメインネームシステム (DNS)、ロードバランサー、および公開キー基盤 (PKI) に関する考慮事項 外部アクセスコンポーネントを展開する前に、記載されている計画プロセスとドキュメントを確認して使用することを強くお勧めします。 これにより、展開プロセスを実行するときに、不要な変更や問題の数と頻度を制限することができます。 外部ユーザーアクセスの計画については、「 <A href="lync-server-2013-planning-for-external-user-access.md">Lync Server 2013 での外部ユーザーアクセスの計画</A>」を参照してください。
+> Microsoft Lync Server 2013&nbsp;Edge server のインストールと構成は、社内のチームとの計画と調整を大量に行う必要があります。これには、セキュリティ、ネットワーク、ファイアウォール、ドメインネームシステム (DNS)、ロードバランサー、および公開キー基盤 (PKI) に関する考慮事項が含まれます。 外部アクセスコンポーネントを展開する前に、記載されている計画プロセスとドキュメントを確認して使用することを強くお勧めします。 これにより、展開プロセスを実行するときに、不要な変更や問題の数と頻度を制限することができます。 外部ユーザーアクセスの計画については、「 <A href="lync-server-2013-planning-for-external-user-access.md">Lync Server 2013 での外部ユーザーアクセスの計画</A>」を参照してください。
 
 
 
@@ -59,7 +61,7 @@ Microsoft Lync Server 2013 用のエッジコンポーネントを展開する�
 
   - [Lync Server 2013 でのエッジおよびディレクターのトポロジの作成](lync-server-2013-building-an-edge-and-director-topology.md)
 
-  - [Lync Server 2013 でのディレクターの](lync-server-2013-setting-up-the-director.md)セットアップ省略
+  - [Lync Server 2013 でのディレクターの](lync-server-2013-setting-up-the-director.md)セットアップ (オプション)
 
   - [Lync Server 2013 でのエッジ サーバーの設定](lync-server-2013-setting-up-edge-servers.md)
 

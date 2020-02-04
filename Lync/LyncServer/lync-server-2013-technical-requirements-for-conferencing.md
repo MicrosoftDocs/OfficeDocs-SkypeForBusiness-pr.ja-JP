@@ -3,6 +3,8 @@ title: Lync Server 2013 の会議の技術要件
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Technical requirements for conferencing
 ms:assetid: 3c0d89e1-53e6-46d7-bf8c-491260b292ea
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425889(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183923
 ms.date: 06/26/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 719bd7f8de6fd7356a6b2e454cc86e9aa85abd6e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3a275836b940cfe2c56b184d238bc12c432132e6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848551"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746597"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ Lync Server 2013、ダイヤルイン会議、A/V 会議、インスタントメ
 
 このセクションでは、サポートされている collocation と共に、これらのサーバーのハードウェアとソフトウェアの要件について詳しく説明します。
 
-ダイヤルイン会議は、さまざまなコンポーネントが含まれている機能です。 一部のコンポーネントは、ダイヤルイン会議に固有であり、一部はエンタープライズボイスコンポーネントです。 このセクションでは、ダイヤルイン会議に固有のコンポーネントの要件について説明します。 仲介サーバーと公衆交換電話網 (PSTN) ゲートウェイの要件の詳細については、「 [Lync server 2013 の仲介サーバーコンポーネント](lync-server-2013-mediation-server-component.md)」および「計画の[lync server 2013 での仲介サーバーのコンポーネントとトポロジ](lync-server-2013-components-and-topologies-for-mediation-server.md)」を参照してください。documentation.
+ダイヤルイン会議は、さまざまなコンポーネントが含まれている機能です。 一部のコンポーネントは、ダイヤルイン会議に固有であり、一部はエンタープライズボイスコンポーネントです。 このセクションでは、ダイヤルイン会議に固有のコンポーネントの要件について説明します。 仲介サーバーと公衆交換電話網 (PSTN) ゲートウェイの要件の詳細については、「 [Lync server 2013 の仲介サーバーコンポーネント](lync-server-2013-mediation-server-component.md)」および「計画ドキュメントの[lync Server 2013 の仲介サーバー用のコンポーネントとトポロジ](lync-server-2013-components-and-topologies-for-mediation-server.md)」を参照してください。
 
 <div>
 
@@ -192,9 +194,9 @@ Web 会議の場合は、Lync Server 2013 では、Office Web Apps と Office We
 
 ## <a name="audio-file-requirements-for-dial-in-conferencing"></a>ダイヤルイン会議のオーディオファイルの要件
 
-Lync Server 2013 は、ダイヤルイン会議の音声メッセージや音楽のカスタマイズをサポートしていません。 ただし、既定のオーディオファイルを変更する必要がある強いビジネスニーズがある場合は、microsoft サポート技術情報の記事961177、「 [Microsoft Office Communications Server でダイヤルイン電話会議の音声メッセージまたは音楽ファイルをカスタマイズする方法」を参照してください。2007 R2](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=961177)。
+Lync Server 2013 は、ダイヤルイン会議の音声メッセージや音楽のカスタマイズをサポートしていません。 ただし、既定のオーディオファイルを変更する必要がある強力な業務上のニーズがある場合は、microsoft サポート技術情報の記事961177、「 [Microsoft Office Communications Server 2007 R2 のダイヤルイン電話会議の音声メッセージまたは音楽ファイルをカスタマイズする方法](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=961177)」を参照してください。
 
-[Microsoft Lync Server 会議アテンダントのカスタム音声指示](http://go.microsoft.com/fwlink/p/?linkid=396880)管理ユーティリティを使用することもできます。これにより、管理者は、電話の発信者が、ユーザー設定のプロンプトで Lync 会議に参加したときに使用される既定の音声プロンプトを、会議の入力エクスペリエンスが異なる。 カスタム音声プロンプトは、Lync Server 2010 または Lync Server 2013 (Enterprise または Standard Edition) を実行しているサーバーにインストールできます。
+また、 [Microsoft Lync Server 会議アテンダントのカスタム音声指示](http://go.microsoft.com/fwlink/p/?linkid=396880)管理ユーティリティを使用して、電話の発信者が、ユーザー設定のメッセージを使って Lync 会議に参加するときに使用される既定の音声プロンプトを置き換えて、別の会議エントリの操作を行うこともできます。 カスタム音声プロンプトは、Lync Server 2010 または Lync Server 2013 (Enterprise または Standard Edition) を実行しているサーバーにインストールできます。
 
 会議アテンダントアプリケーションと会議アナウンスメントアプリケーションには、音楽の保留、記録された名前、およびオーディオプロンプトファイルの次の要件があります。
 

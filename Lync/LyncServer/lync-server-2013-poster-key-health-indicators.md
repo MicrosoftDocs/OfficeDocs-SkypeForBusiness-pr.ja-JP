@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ポスター: 主要な正常性インジケーター'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: 'Poster: Key Health Indicators'
 ms:assetid: 8367dccf-adaa-4a0b-a4ed-bc9570cc5e24
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn593599(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 61084873
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9454197642ac87f5d8bc0d768795854d792f9a31
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 812ce68c84f86250fd25cc646bbcd5faddf0e566
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824009"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747447"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -103,13 +105,13 @@ Lync の実装の各サーバーについて、サーバーのコンポーネン
 
 まず、すべてのサーバーについて KHI のパフォーマンスデータを収集します。 システムの各役割 (このドキュメントの後半で説明します) で、基本的なシステムコンポーネントが推奨されるターゲットを満たしているかどうかを確認します。 そうしない場合は、システムのパフォーマンスを改善し、KHI データを再収集して、Lync の実装でサーバーの役割に固有の基準を確認する前に、システムの正常性を確保します。 すべての役割のコンポーネントの正常性は、次のように定義されます。
 
-  - CPU 使用\<率 80%
+  - CPU 使用\<率80%
 
   - 平均ディスク書き込み\< 10 ms
 
   - 平均ディスク読み取り\< 10 ms
 
-  - 使用可能\>なメモリ 20% システム合計 MB
+  - 使用可能\>なメモリ20% システム合計 MB
 
   - ネットワークキューの\<長さ2
 

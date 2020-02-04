@@ -3,6 +3,8 @@ title: 小規模組織向けの Lync Server 2013 リファレンストポロジ
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Reference topology for small organizations
 ms:assetid: 0453aeee-c41f-44e6-a6e0-aaace526ca08
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398095(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183272
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c06a3585a342ecc7fa7c41ff2b2b2682d2b8a0c3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7e0171d9678d5d890cf4ecb81f6de25f9b558b05
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823813"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746867"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ _**最終更新日:** 2013-10-07_
 
 **小規模な組織向けの関連トポロジ**
 
-![3 つのサーバーダイアグラムを展開]している参照トポロジ(images/Gg398095.25196d0d-dd07-451b-83ba-94c0ddf59030(OCS.15).jpg "3 つのサーバーダイアグラムを展開")している参照トポロジ
+![3 台のサーバーを展開している関連トポロジの図](images/Gg398095.25196d0d-dd07-451b-83ba-94c0ddf59030(OCS.15).jpg "3 台のサーバーを展開している関連トポロジの図")
 
   - ****   この組織に展開されている標準エディションのサーバーのペア (中央サイトに4000ユーザーが含まれています)。 組織では、2つの標準エディションのサーバーを展開し、それらを組み合わせて、高可用性と障害回復を実現しています。 Each server homes 2,000 users, but information about all users is synchronized between the two servers. If one goes down, an administrator can fail over those users to be served by the other server, with a minimum of disruption to users. Lync Server 2013 の高可用性機能と障害回復機能の詳細については、「 [Lync server 2013 での高可用性と障害回復の計画](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)」を参照してください。
 

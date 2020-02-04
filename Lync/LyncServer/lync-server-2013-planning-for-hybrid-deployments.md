@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ハイブリッド展開を計画する'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for hybrid deployments
 ms:assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205403(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185910
 ms.date: 05/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b528e22e24635d47755096cd4bf81d4066feb3c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e0902150170d51aa590afc8b3d02c887968a2031
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825150"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41751977"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -137,7 +139,7 @@ Skype for Business Online とのハイブリッド展開を構成するには、
 
 
 > [!IMPORTANT]  
-> オンプレミスと UNRESOLVED_TOKEN_VAL (skypeforbusiness) の間のユーザー移動を含むすべてのユーザー管理は、最新バージョンの管理ツールを使用して実行する必要があります。 管理ツールは、既存のオンプレミスの展開とインターネットへの接続にアクセスできる個別のサーバーにインストールする必要があります。 オンプレミスの展開から UNRESOLVED_TOKEN_VAL (skype16_online) にユーザーを移動するための<A href="https://docs.microsoft.com/powershell/module/skype/Move-CsUser">移動ユーザー</A>コマンドレットは、オンプレミス展開に接続されている管理ツールから実行されている必要があります。
+> オンプレミスと UNRESOLVED_TOKEN_VAL (skypeforbusiness) の間のユーザー移動を含むすべてのユーザー管理は、最新バージョンの管理ツールを使用して行う必要があります。 管理ツールは、既存のオンプレミスの展開とインターネットへの接続にアクセスできる個別のサーバーにインストールする必要があります。 オンプレミスの展開から UNRESOLVED_TOKEN_VAL (skype16_online) にユーザーを移動するための<A href="https://docs.microsoft.com/powershell/module/skype/Move-CsUser">移動ユーザー</A>コマンドレットは、オンプレミスの展開に接続された管理ツールから実行される必要があります。
 
 
 
@@ -189,7 +191,7 @@ Skype for Business Online とのハイブリッド展開を構成するには、
 <td><p>DNS 要件</p></td>
 </tr>
 <tr class="even">
-<td><p>_Tcp の DNS SRV レコード。 _sipfederationtls&lt;サポート&gt;されているすべての SIP ドメインで、アクセスエッジの外部 IP へのアクセスを解決する sipdomain.com</p></td>
+<td><p>_Tcp _sipfederationtls の DNS SRV レコード。&lt;サポート&gt;されているすべての SIP ドメインで、アクセスエッジの外部 IP へのアクセスを解決する sipdomain.com</p></td>
 <td><p>エッジ サーバー</p></td>
 <td><p>ハイブリッド展開でフェデレーション通信を有効にする。オンプレミスとオンラインで分割される SIP ドメイン用のフェデレーション トラフィックのルートをエッジ サーバーで認識している必要があります。</p></td>
 </tr>

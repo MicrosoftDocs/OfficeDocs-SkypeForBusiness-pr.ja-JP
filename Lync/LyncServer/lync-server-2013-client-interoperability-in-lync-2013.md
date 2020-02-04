@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Lync 2013 でのクライアント相互運用性'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Client interoperability in Lync 2013
 ms:assetid: 0f126571-91a2-45d5-855c-1e4ddb45fc04
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204672(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183417
 ms.date: 03/04/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8ccc6239ffa0216e36839a7e58b510d8c8c3240
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b28d0de09a46a2be8b968e55c8f551e397da6ae8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840580"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756761"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -265,7 +267,7 @@ Lync Server 2013 リリースでは、さまざまなクライアントバージ
 <td><p>はい</p></td>
 <td><p>はい</p></td>
 <td><p>はい</p></td>
-<td><p>Yes1</p></td>
+<td><p>はい1</p></td>
 <td><p>はい</p></td>
 </tr>
 <tr class="even">
@@ -448,7 +450,7 @@ Lync Server 2013 会議では、特定の会議機能が、さまざまなバー
 
 各種のスケジュールアドインに対するサーバーのサポートは、サーバーとクライアントのバージョンの互換性と一貫性があります。 一般的に、次のスケジュールのアドインは Lync Server 2013 でサポートされています。 ただし、以前のバージョンのアドインでは、会議エントリにあるすべての出席者の音声とビデオをミュートするオプションなどの新しい Lync 2013 アドイン機能は提供されていません。
 
-  - **Lync 2013**   用のオンライン会議アドインは、lync 2010 用のオンライン会議アドインと同じ機能を備えており、参加者の音声とビデオがミュートになっている会議のスケジュールを設定することができます。設定. 管理者は、カスタムロゴ、サポート URL、法的免責事項 URL、またはカスタムフッターテキストを追加して、組織の会議出席依頼をカスタマイズすることもできます。
+  - **Lync 2013**   用のオンライン会議アドインは、lync 2010 用のオンライン会議アドインと同じ機能を備えており、出席者の音声とビデオが既定でミュートになっている会議のスケジュールを設定することができます。 管理者は、カスタムロゴ、サポート URL、法的免責事項 URL、またはカスタムフッターテキストを追加して、組織の会議出席依頼をカスタマイズすることもできます。
 
   - **Lync 2010**   用のオンライン会議アドインは、lync 会議のスケジュールを提供し、Office Live Meeting 会議のスケジュール機能を削除します。
 

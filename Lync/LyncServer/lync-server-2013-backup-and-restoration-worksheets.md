@@ -3,6 +3,8 @@ title: 'Lync Server 2013: バックアップと復元のワークシート'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Backup and restoration worksheets
 ms:assetid: 26c78155-0306-41ac-845b-7ad58000a1d6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202169(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541460
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7ca10b848dfa1f6cf53724b364cf53b1fc0fad90
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 390d6289daf8075c873e90319642f0e74b61d835
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840747"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730367"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -75,7 +77,7 @@ _**最終更新日:** 2013-02-18_
 <th>データベースバックアップツール</th>
 <th>バックアップセット</th>
 <th>バックアップ先</th>
-<th>ノート</th>
+<th>メモ</th>
 </tr>
 </thead>
 <tbody>
@@ -174,7 +176,7 @@ _**最終更新日:** 2013-02-18_
 <th>ファイルシステムバックアップツール</th>
 <th>バックアップするファイル共有 *</th>
 <th>バックアップ先</th>
-<th>ノート</th>
+<th>メモ</th>
 </tr>
 </thead>
 <tbody>
@@ -219,7 +221,7 @@ _**最終更新日:** 2013-02-18_
 <th>バックアップツール</th>
 <th>構成ファイル (.xml) 名</th>
 <th>バックアップの場所</th>
-<th>ノート</th>
+<th>メモ</th>
 </tr>
 </thead>
 <tbody>

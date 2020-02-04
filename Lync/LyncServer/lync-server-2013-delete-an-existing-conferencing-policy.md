@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 既存の会議ポリシーを削除する'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Delete an existing conferencing policy
 ms:assetid: 709ed771-790f-4bf1-a4de-b37ca5168688
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688089(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733688
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3571c7b731579c0397da62d2c5805be19dcfa809
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a78071697750a95bb8832585ea036dc90aa984da
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833609"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736377"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34833609"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-23_
+_**トピックの最終更新日:** 2013-02-23_
 
 ユーザーレベルまたはサイトレベルの会議ポリシーを削除するには、次の手順を実行します。
 
@@ -65,7 +67,7 @@ _**最終更新日:** 2013-02-23_
 
 ## <a name="removing-conferencing-policies-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して会議ポリシーを削除する
 
-Lync Server 管理シェルと**set-csconferencingpolicy**コマンドレットを使用して、会議のポリシーを削除することができます。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、「Lync Server Windows PowerShell のブログ記事」を参照してください[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。「リモート PowerShell を使用して Microsoft Lync Server 2010 を管理する」を参照してください。
+Lync Server 管理シェルと**set-csconferencingpolicy**コマンドレットを使用して、会議のポリシーを削除することができます。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 <div>
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: モビリティに合わせた証明書の変更'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Modifying certificates for mobility
 ms:assetid: 4e9107af-20f4-4c2a-8c98-ca35b39a4e2d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690015(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184120
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bccb901f241089a21fd7428e28b005f46e157300
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 150dc8c7b4021e1e2c7ccab6ccc71823c01c388e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826858"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756871"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,11 +37,11 @@ ms.locfileid: "34826858"
 
 _**最終更新日:** 2014-06-20_
 
-Lync 環境とモバイルクライアント間のセキュリティで保護された接続をサポートするために、ディレクタープール、フロントエンドプール、リバースプロキシ用の Secure Socket Layer (SSL) 証明書を、追加のサブジェクト代替名で更新する必要があります (SAN) エントリ。 モビリティの証明書の要件の詳細について確認する必要がある場合は、「 [Lync Server 2013 でのモビリティの技術要件](lync-server-2013-technical-requirements-for-mobility.md)」の「証明書の要件」セクションを参照してください。基本的には、新しい証明書を取得する必要があります。追加の SAN エントリが含まれている証明機関。この記事の手順を使用して、証明書を追加します。
+Lync 環境とモバイルクライアント間のセキュリティで保護された接続をサポートするために、ディレクタープール、フロントエンドプール、リバースプロキシ用の Secure Socket Layer (SSL) 証明書を、追加のサブジェクト代替名で更新する必要があります (SAN) エントリ。 モビリティの証明書の要件の詳細について確認する必要がある場合は、「 [Lync Server 2013 でのモビリティの技術要件](lync-server-2013-technical-requirements-for-mobility.md)」の「証明書の要件」セクションを参照してください。基本的に、追加の SAN エントリが含まれる証明機関から新しい証明書を取得し、この記事の手順を使ってそれらの証明書を追加する必要が
 
 もちろん、作業を開始する前に、証明書に既に登録されているサブジェクトの代替名を知っておくことをお勧めします。 まだ設定されているものがわからない場合は、さまざまな方法で確認できます。このオプションでは、ユーザーがこの情報を表示するために、[ **Get-CsCertificate** ] とその他の PowerShell コマンドを実行することができます。これは、既定ではデータが切り捨てられるため、必要なすべてのプロパティを表示することができない場合があります。 証明書とそのすべてのプロパティについて詳しく理解するには、Microsoft 管理コンソール (MMC) に移動して、証明書スナップインを読み込むか (以下を参照)、Lync Server 展開ウィザードを確認してください。
 
-上で説明したように、次の手順では、Lync Server 管理シェルと MMC を使用して証明書を更新する方法について説明します。 代わりに Lync Server Deployment ウィザードで証明書ウィザードを使用する場合は、ディレクターまたはディレクタープール用の[2013 ディレクターの証明書を構成](lync-server-2013-configure-certificates-for-the-director.md)している場合は、ディレクターまたはディレクタープールの [証明書の構成] をオンにします (存在しない場合もあります)。持っている)。 フロントエンドサーバーまたはフロントエンドプールについては、「 [Lync Server 2013 でサーバーの証明書を構成](lync-server-2013-configure-certificates-for-servers.md)する」を参照してください。
+上で説明したように、次の手順では、Lync Server 管理シェルと MMC を使用して証明書を更新する方法について説明します。 代わりに Lync Server Deployment ウィザードで証明書ウィザードを使用する場合は、ディレクターまたはディレクタープールを構成している場合は、 [Lync server 2013 でディレクターの証明書を構成](lync-server-2013-configure-certificates-for-the-director.md)することができます (存在しない可能性があります)。 フロントエンドサーバーまたはフロントエンドプールについては、「 [Lync Server 2013 でサーバーの証明書を構成](lync-server-2013-configure-certificates-for-servers.md)する」を参照してください。
 
 最後に、Lync Server 2013 環境に1つの既定の証明書がある場合、または既定の証明書 (web サービス以外はすべて) が存在する場合があることを覚えておいてください。 どのような構成にしても、これらの手順は役立ちます。
 
@@ -61,7 +63,7 @@ Lync 環境とモバイルクライアント間のセキュリティで保護さ
     
         Set-CsCertificate -Type <type of certificate as displayed in the Use parameter> -Thumbprint <unique identifier>
     
-    たとえば、 **CsCertificate**コマンドレットで、既定値を使用する証明書が表示され、もう1つは Webservices internal を使用していて、もう1つは WebServicesExternal を使用していて、すべてのユーザーが同じ拇印値を持っている場合は、コマンドラインで種類
+    たとえば、 **CsCertificate**コマンドレットで、既定値を使用する証明書が表示され、もう1つは Webservices internal を使用していて、もう1つは WebServicesExternal を使用していて、それらのすべてに同じ拇印値が含まれている場合、コマンドラインで次のように入力します。
     
         Set-CsCertificate -Type Default,WebServicesInternal,WebServicesExternal -Thumbprint <Certificate Thumbprint>
     
@@ -77,7 +79,7 @@ Lync 環境とモバイルクライアント間のセキュリティで保護さ
 
 7.  MMC のメニューで、[**ファイル**]、[**スナップインの追加と削除**] の順番に選択し、[証明書] を選択します。 [**追加**] をクリックします。 メッセージが表示されたら、[**コンピューターアカウント**] を選択し、[**次へ**] をクリックします。
 
-8.  証明書が配置されているサーバーの場合は、[**ローカルコンピューター**] を選択します。 証明書が別のコンピューターにある場合は、**別のコンピューター**を選んでから、コンピューターの完全修飾ドメイン名を入力するか、[**参照**] をクリックして、**選択するオブジェクト名**を入力し、名前を入力します。コンピュータ。 [**名前の確認**] をクリックします。 コンピューターの名前が解決されると、下線が引かれます。 [ **OK**] をクリックし、[**完了**] をクリックします。 [ **OK** ] をクリックして選択内容を確定し、[スナップインの**追加と削除**] ダイアログボックスを閉じます。
+8.  証明書が配置されているサーバーの場合は、[**ローカルコンピューター**] を選択します。 証明書が別のコンピューターにある場合は、**別のコンピューター**を選んでから、コンピューターの完全修飾ドメイン名を入力するか、[**参照**] をクリックして**選択するオブジェクト名**を入力し、コンピューターの名前を入力します。 [**名前の確認**] をクリックします。 コンピューターの名前が解決されると、下線が引かれます。 [ **OK**] をクリックし、[**完了**] をクリックします。 [ **OK** ] をクリックして選択内容を確定し、[スナップインの**追加と削除**] ダイアログボックスを閉じます。
 
 9.  証明書のプロパティを表示するには、[**証明書**]、[**個人用**] の順に展開し、[**証明書**] を選択します。 表示する証明書を選択し、証明書を右クリックして、[**開く**] を選択します。
 

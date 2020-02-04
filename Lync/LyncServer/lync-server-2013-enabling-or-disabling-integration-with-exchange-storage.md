@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Exchange 記憶域との統合を有効または無効
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enabling or disabling integration with Exchange storage
 ms:assetid: c08b9ba5-04f6-452a-b44c-c130f1564a34
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205228(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185295
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8d2ded7e4cf586faf1f15ea6205aa23802413dc9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c5c8a52aabb504ce63ef6e340b5a68e9e8c4c0e7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833236"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735667"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ Lync Server 2013 コントロールパネルで、[アーカイブ構成] を使
 
   - 作成および使用して、特定のサイトまたはプールに対するアーカイブの実装方法を指定することができる、オプションのサイトレベルとプールレベルの構成。
 
-アーカイブ構成の実装方法について詳しくは、「指定できるオプションやアーカイブ構成の階層」を参照してください。「 [Lync Server 2013 でのアーカイブの動作](lync-server-2013-how-archiving-works.md)(計画ドキュメント、展開)」を参照してください。ドキュメント、または操作のドキュメント。
+アーカイブ構成の実装方法について詳しくは、「指定できるオプションやアーカイブ構成の階層」をご覧ください。「計画ドキュメント、展開ドキュメント、または操作のドキュメントでの[Lync Server 2013 でのアーカイブの動作](lync-server-2013-how-archiving-works.md)」を参照してください。
 
 <div>
 

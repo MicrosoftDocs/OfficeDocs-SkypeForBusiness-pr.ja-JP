@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 自動検出用の証明書を構成する'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring certificates for Autodiscover
 ms:assetid: 1842191d-df9a-41e0-9286-08c25f9b5dca
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945617(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541453
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3d0270aa76adb7cef2a6da8f6a4f9cb6db090e78
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c1f2a89cf317a0ea5bead4bb24eba1469ef1108e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840287"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758335"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ _**最終更新日:** 2012-12-12_
 
 
 > [!NOTE]  
-> このコマンドレットを<STRONG></STRONG>使用して、現在割り当てられている証明書に関する情報を表示できます。 ただし、既定のビューでは、証明書のプロパティは切り捨てられ、Subject代替のベンダーのプロパティにはすべての値が表示されません。 取得した情報を表示したり、証明書を要求および割り当てたりするには、 <STRONG>cscertificate</STRONG> 、<STRONG>要求-</STRONG>Cscertificate、および<STRONG>Set-cscertificate</STRONG>コマンドレットを使用します。 ただし、現在の証明書のサブジェクト代替名 (SAN) のプロパティがわからない場合は、最適な方法ではありません。 証明書とすべてのプロパティメンバーを表示するには、 <EM>Microsoft 管理コンソール (MMC)</EM>の証明書スナップインを使うか、Lync Server 展開ウィザードを使用することをお勧めします。 Lync Server 展開ウィザードでは、証明書ウィザードを使って証明書のプロパティを表示できます。 Lync Server 管理シェルと<EM>Microsoft 管理コンソール (MMC)</EM>を使って、証明書の表示、要求、割り当てを行う手順については、次の手順で詳しく説明します。 Lync Server 展開ウィザードを使用するには、「 <A href="lync-server-2013-configure-certificates-for-the-director.md">Lync server 2013 でディレクターの証明書を構成</A>する」を参照してください。 フロントエンドサーバーまたはフロントエンドプールについては、以下の詳細を参照してください。 <A href="lync-server-2013-configure-certificates-for-servers.md">Lync Server 2013 でサーバーの証明書を構成する</A><BR>この手順の最初の手順では、現在の証明書で再生される役割について説明します。 既定では、証明書に lyncdiscover は表示されません。&lt;sipdomain&gt;または lyncdiscoverinternal。&lt;以前にモビリティ&gt;サービスをインストールしているか、事前に証明書を準備している場合を除き、内部ドメイン名エントリ。 この手順では、SIP ドメイン名 ' contoso.com ' の例と内部ドメイン名 ' contoso.net ' の例を使用します。<BR>Lync Server 2013 および Lync Server 2010 の既定の証明書の構成では、1つの証明書 (web サービスを除くすべての目的で) を目的の既定の証明書として使うことができます。 オプションの構成では、目的ごとに個別の証明書を使用する必要があります。 証明書を管理するには、Lync Server 管理シェルと Windows PowerShell コマンドレットを使用するか、または Lync Server 展開ウィザードで証明書ウィザードを使用します。
+> このコマンドレットを使用し<STRONG>て、現在</STRONG>割り当てられている証明書に関する情報を表示できます。 ただし、既定のビューでは、証明書のプロパティは切り捨てられ、Subject代替のベンダーのプロパティにはすべての値が表示されません。 取得した情報を表示したり、証明書を要求および割り当てたりするには、 <STRONG>cscertificate</STRONG> 、<STRONG>要求-</STRONG>Cscertificate、および<STRONG>Set-cscertificate</STRONG>コマンドレットを使用します。 ただし、現在の証明書のサブジェクト代替名 (SAN) のプロパティがわからない場合は、最適な方法ではありません。 証明書とすべてのプロパティメンバーを表示するには、 <EM>Microsoft 管理コンソール (MMC)</EM>の証明書スナップインを使うか、Lync Server 展開ウィザードを使用することをお勧めします。 Lync Server 展開ウィザードでは、証明書ウィザードを使って証明書のプロパティを表示できます。 Lync Server 管理シェルと<EM>Microsoft 管理コンソール (MMC)</EM>を使って、証明書の表示、要求、割り当てを行う手順については、次の手順で詳しく説明します。 Lync Server 展開ウィザードを使用するには、「 <A href="lync-server-2013-configure-certificates-for-the-director.md">Lync server 2013 でディレクターの証明書を構成</A>する」を参照してください。 フロントエンドサーバーまたはフロントエンドプールについては、以下の詳細を参照してください。 <A href="lync-server-2013-configure-certificates-for-servers.md">Lync Server 2013 でサーバーの証明書を構成する</A><BR>この手順の最初の手順では、現在の証明書で再生される役割について説明します。 既定では、証明書に lyncdiscover は表示されません。&lt;sipdomain&gt;または lyncdiscoverinternal。&lt;以前にモビリティ&gt;サービスをインストールしているか、事前に証明書を準備している場合を除き、内部ドメイン名エントリ。 この手順では、SIP ドメイン名 ' contoso.com ' の例と内部ドメイン名 ' contoso.net ' の例を使用します。<BR>Lync Server 2013 および Lync Server 2010 の既定の証明書の構成では、1つの証明書 (web サービスを除くすべての目的で) を目的の既定の証明書として使うことができます。 オプションの構成では、目的ごとに個別の証明書を使用する必要があります。 証明書を管理するには、Lync Server 管理シェルと Windows PowerShell コマンドレットを使用するか、または Lync Server 展開ウィザードで証明書ウィザードを使用します。
 
 
 

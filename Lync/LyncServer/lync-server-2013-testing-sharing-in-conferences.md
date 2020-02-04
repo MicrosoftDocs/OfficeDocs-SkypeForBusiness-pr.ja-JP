@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 会議での共有のテスト'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing sharing in conferences
 ms:assetid: e6021d70-6ed9-414d-954c-06eef397dc1a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727314(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969660
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce4cd1a45d1eddf8875d85ff28886b0c04c29cfe
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 54997f5ec8cd81154c1a456541ec0612187ec747
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848423"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745497"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -102,7 +104,7 @@ Lync Server 2013 では、データ会議は、whiteboarding や注釈などの�
 
 診断
 
-指定したユーザーがデータ共有を使用できない場合は、結果**** がエラーとして表示され、エラーと診断のプロパティに追加情報が記録されます。
+指定したユーザーがデータ共有を使用できない場合は、結果**がエラーとして**表示され、エラーと診断のプロパティに追加情報が記録されます。
 
 ターゲット Fqdn: atl-cs-001.litwareinc.com
 
