@@ -16,16 +16,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: この表を使用して、Microsoft Teams のスペインでの電話番号の取得と管理に関する情報を参照してください。
-ms.openlocfilehash: 2b9d3ffd046d58131ebf1cae91ad45482a45fe0a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: a3fa21b37f3371c82c94603301035bd20b175adb
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571969"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706972"
 ---
 # <a name="phone-number-management-for-spain"></a>スペインでの電話番号の管理
 
@@ -44,7 +45,7 @@ ms.locfileid: "37571969"
 
 [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[[[Skype for Business 新しい電話番号の申請](manage-phone-numbers-for-your-organization.md)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。](manage-phone-numbers-for-your-organization.md)
+[組織の電話番号を管理する](manage-phone-numbers-for-your-organization.md)
 
 [緊急通話の利用条件](../emergency-calling-terms-and-conditions.md)
   

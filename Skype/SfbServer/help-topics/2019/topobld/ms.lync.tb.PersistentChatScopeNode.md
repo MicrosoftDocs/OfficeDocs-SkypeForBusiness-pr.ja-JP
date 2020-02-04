@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.PersistentChatScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 35dfc16f-7190-4993-9d4a-e0262bf35166
 ROBOTS: NOINDEX, NOFOLLOW
 description: 新しい常設チャットサーバーまたは常設チャットサーバープールの作成を開始するには、[トポロジビルダー] で [常設チャットプール] を右クリックし、[新しい常設チャットプール] を選択します。
-ms.openlocfilehash: 791e63e483d02cde436879a3f804a07333e5b6eb
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: a8ae9d26951fa60d3fd4d8ea83a803c059ec4d81
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418748"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41701742"
 ---
 # <a name="persistent-chat-scope-node"></a>常設チャット スコープ ノード
 

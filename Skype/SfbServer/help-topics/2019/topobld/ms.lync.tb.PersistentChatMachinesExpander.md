@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.PersistentChatMachinesExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 15bc1c8f-71bd-4d66-bba1-cac0f2fe90bf
 ROBOTS: NOINDEX, NOFOLLOW
 description: 展開済みの常設チャットサーバーまたは常設チャットサーバープールをアクティブ化または非アクティブ化するには、[コンピューターの状態の設定] に表示されているサーバーまたはプールを使用します。 一覧にあるサーバーまたはプールを選択し、[アクティブにする] をクリックすると、サーバーまたはプールはアクティブに設定されます。
-ms.openlocfilehash: 9d5c886b253e5e71cec9ee9c9d10e49dc95df464
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 036083f71a439c5a4720522d247353d83d9047e0
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418762"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41701752"
 ---
 # <a name="persistent-chat-machines-expander"></a>常設チャット コンピューターのエキスパンダー
 

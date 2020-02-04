@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: この記事では、Skype for Business Online の委任のセットアップとトラブルシューティングの方法について説明します。 この記事では、セットアップの推奨事項、ベストプラクティス、およびトラブルシューティングの手順に関するガイダンスを示します。
-ms.openlocfilehash: 0528bbb3dc25e085d38f86c040eb5129c9d039c1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fac2b68deec94825d57fd06b436d00feaa924a5c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285246"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706482"
 ---
 # <a name="set-up-and-troubleshoot-skype-for-business-online-delegation"></a>Skype for Business Online の代理のセットアップとトラブルシューティング
 
@@ -55,7 +56,7 @@ ms.locfileid: "34285246"
 
 ||**Outlook 2013**|**Outlook 2016**|
 |:-----|:-----|:-----|
-|**Lync/Skype for Business Basic クライアント**| サポートされていない |サポートされていない
+|**Lync/Skype for Business Basic クライアント**| 非サポート |非サポート
 |**Skype for Business 2015**|サポート対象| サポート対象|
 |**Skype for Business 2016**|サポート対象| サポート対象|
 
@@ -92,7 +93,7 @@ Skype for Business Online の委任を設定するには、次の手順を実行
     
  **[着信の転送] タブ**
   
-1. Outlook で、[**ファイル** > **アカウント設定** > **** > ****] を選択します。
+1. Outlook で、[**ファイル** > **アカウント設定** > **** > ] を**選択します。**
     
 2. 代理人になるユーザーの名前を探して追加します。
     
@@ -106,7 +107,7 @@ Skype for Business Online の委任を設定するには、次の手順を実行
     
 ### <a name="verify-success"></a>成功を確認する
 
-セットアップに成功した場合、代理人には、 **_LT_ Name> メッセージの代理人として追加され**たことと、グループ**の管理者を管理する相手**が作成されたことがわかります。 委任者には、**代理人**グループが作成されていることがわかります。
+セットアップが正常に完了した場合は、代理人に **< 名前>メッセージの代理人として追加され**たことと、グループ**の [通話の管理**] グループが作成されたことを確認する必要があります。 委任者には、**代理人**グループが作成されていることがわかります。
   
 > [!NOTE]
 > 委任権限は通常、セットアッププロセスで30分以内に表示されます。 ただし、このプロセスが完了するまでに最大24時間かかることがあります。 
@@ -144,7 +145,7 @@ Skype for Business Online の委任を設定するには、次の手順を実行
 - Skype for Business クライアントから Exchange Online メールボックスにアクセスすることはできません。 この問題が発生した場合は、 [Outlook 接続テスト](https://testconnectivity.microsoft.com/)を実行して、合格していることを確認してください。
     
 ## <a name="related-topics"></a>関連トピック
-[Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)
+[Skype for Business Online をセットアップする](set-up-skype-for-business-online.md)
 
 [Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)
 

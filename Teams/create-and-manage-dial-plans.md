@@ -15,16 +15,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: 通話ダイヤルプラン (PSTN 通話ダイヤルプラン) を作成して管理する方法と、それらを管理する方法について説明します。
-ms.openlocfilehash: c9623073cd5660a67bc2ba77b9c07a356d636520
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: e61fb8c2ffd5c13816ff0093fc117dfadb251594
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991662"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707262"
 ---
 # <a name="create-and-manage-dial-plans"></a>ダイヤル プランを作成および管理する
 
@@ -239,7 +240,7 @@ ForEach($nr in $dp.NormalizationRules)
 New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.ExternalAccessPrefix -Description $dp.Description -OptimizeDeviceDialing $dp.OptimizeDeviceDialing -SimpleName $dp.SimpleName -NormalizationRules $NormRules
 ```
     
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [ダイヤル プランについて](what-are-dial-plans.md)
 - [電話番号の移行に関するよくある質問](transferring-phone-numbers-common-questions.md)

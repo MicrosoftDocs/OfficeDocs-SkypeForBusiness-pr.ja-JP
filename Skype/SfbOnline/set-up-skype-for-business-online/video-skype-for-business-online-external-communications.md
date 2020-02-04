@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: 'Skype for Business Online の外部通信を設定して、ユーザーが外部の Skype 連絡先と通信できるようにする方法について説明します。 '
-ms.openlocfilehash: b3f6af94e68042af220079dad23cdefad8209f02
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 65def1712c916ff670457a99dd114dcc405683be
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418079"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706282"
 ---
 # <a name="video-skype-for-business-online-external-communications"></a>ビデオ: Skype for Business Online の外部通信
 
@@ -37,11 +38,11 @@ Skype for Business Online の外部通信をセットアップして、ユーザ
 ***
   
 ## <a name="related-topics"></a>関連トピック
-[Skype For Business Online の外部通信を](https://support.microsoft.com/en-us/help/10041/set-up-lync-online-external-communications)セットアップする(ガイド付きチュートリアル)
+[Skype For Business Online の外部通信を](https://support.microsoft.com/en-us/help/10041/set-up-lync-online-external-communications)セットアップする (ガイド付きデモ)
 
 [外部の Skype for Business ユーザーに連絡できるようにする](allow-users-to-contact-external-skype-for-business-users.md)
 
-[Skype for Business ユーザーが Skype 連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)
+[Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)
 
   
  

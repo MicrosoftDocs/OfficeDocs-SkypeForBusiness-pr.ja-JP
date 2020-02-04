@@ -13,15 +13,15 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: ネットワークの準備、ライセンスの割り当て、ユーザーに対してライブイベントの機能とスケジュールを有効にするためのポリシーの使用、サードパーティの配布プロバイダーのセットアップなど、Teams でのイベントに対してライブを設定する手順について説明します。
-f1keywords: ms.teamsadmincenter.liveevents.policies
+f1.keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ce126b6e0e7a1bc9efec28f3b7fec5020c2da1e
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ebc72d8238e5551c7a09cae3d617e8f6a187befb
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570159"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708333"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントのセットアップ
 
@@ -45,7 +45,7 @@ Teams で作成されたライブイベントは[、teams 用に組織のネッ�
 **![Microsoft teams 管理センターを使用し](../media/teams-logo-30x30.png)た microsoft teams ロゴを示すアイコン**
 
 1. 左側のナビゲーションで、[**会議** > **ライブイベントのポリシー**] に移動します。 
-2. 次のいずれかの操作を行います。
+2. 次のいずれかを実行します。
 - 既存の既定のポリシーを編集する場合は、[**グローバル (組織全体の既定)**] を選びます。 
 - 新しいカスタムポリシーを作成する場合は、[**新しいポリシー**] を選びます。 
 - カスタムポリシーを編集する場合は、ポリシーを選択し、[**編集**] を選択します。 
@@ -105,11 +105,11 @@ Teams で作成されたライブイベントは[、teams 用に組織のネッ�
 
 次の SDN/eCDN のソリューションは事前に統合されており、Stream と共に使うように設定できます。
 
-- **Hive Streaming**は、ライブおよびオンデマンドのエンタープライズビデオ配信のためのシンプルで強力なソリューションを提供します。 Hive はソフトウェアベースのソリューションであり、ハードウェアや帯域幅を追加する必要はありません。また、ネットワークに影響を与えずに、数千の同時ビデオビューアーを有効にするための安全な手段を提供します。 SDN/eCDN のソリューションを購入する前に、ビデオがネットワークに与える影響について理解している場合は、Hive Streaming によって Microsoft のお客様向けのブラウザーベースの分析ソリューションも提供されます。 [詳細はこちらをご覧](https://www.hivestreaming.com/partners/integration-partners/microsoft/)ください。
+- **Hive Streaming**は、ライブおよびオンデマンドのエンタープライズビデオ配信のためのシンプルで強力なソリューションを提供します。 Hive はソフトウェアベースのソリューションであり、ハードウェアや帯域幅を追加する必要はありません。また、ネットワークに影響を与えずに、数千の同時ビデオビューアーを有効にするための安全な手段を提供します。 SDN/eCDN のソリューションを購入する前に、ビデオがネットワークに与える影響について理解している場合は、Hive Streaming によって Microsoft のお客様向けのブラウザーベースの分析ソリューションも提供されます。 [詳細については、こちらを参照してください](https://www.hivestreaming.com/partners/integration-partners/microsoft/)。
  
-- **Kollective**は、クラウドベースのスマートピア配布プラットフォームであり、既存のネットワークインフラストラクチャを活用して、コンテンツをさまざまな形で配信します (ライブストリーミングビデオ、オンデマンドビデオ、ソフトウェア更新プログラム、セキュリティパッチなど)。信頼性と帯域幅の削減。 セキュリティで保護されたプラットフォームは世界最大の金融機関が信頼しており、ハードウェアを追加しなくても、セットアップとメンテナンスは簡単です。 [詳細はこちらをご覧](https://kollective.com/microsoft-pilot/)ください。
+- **Kollective**は、クラウドベースのスマートピア配布プラットフォームであり、既存のネットワークインフラストラクチャを活用して、コンテンツの配信を、さまざまな形で行うことができます (ライブストリーミングビデオ、オンデマンドのビデオ、ソフトウェアの更新、セキュリティ更新プログラムなど)。 セキュリティで保護されたプラットフォームは世界最大の金融機関が信頼しており、ハードウェアを追加しなくても、セットアップとメンテナンスは簡単です。 [詳細については、こちらを参照してください](https://kollective.com/microsoft-pilot/)。
  
-- **ランプ OmniCache**は、次世代のネットワーク配布を提供し、グローバル wan でのビデオコンテンツのシームレスな配信を実現し、イベントプロデューサーがネットワーク帯域幅を最適化し、正常なライブイベントブロードキャストとオンデマンドをサポートできるように支援します。ストリーミング. Teams で作成されたライブイベントのランプ OmniCache のサポートは近日中に公開されます。 [詳細はこちらをご覧](http://www.ramp.com)ください。 
+- **ランプ OmniCache**は次世代ネットワーク配布を提供し、グローバル wan でのビデオコンテンツのシームレスな配信を可能にします。また、イベントプロデューサーはネットワーク帯域幅を最適化し、正常なライブイベントブロードキャストとオンデマンドストリーミングをサポートします。 Teams で作成されたライブイベントのランプ OmniCache のサポートは近日中に公開されます。 [詳細については、こちらを参照してください](http://www.ramp.com)。 
  
 > [!NOTE] 
 > 選択された SDN または eCDN のソリューションには、お客様が提供する**サードパーティプロバイダーの利用規約とプライバシーポリシー**が適用されます。これにより、プロバイダーのソリューションの使用が制御されます。 プロバイダーのソリューションの使用には、Microsoft ボリュームライセンス条項またはオンラインサービスの利用規約は適用されません。 **サードパーティのプロバイダーの規約**に同意しない場合は、Teams でこのソリューションを有効にしないでください。 
@@ -119,7 +119,7 @@ SDN または eCDN ソリューションをセットアップした後で、Team
 ## <a name="next-steps"></a>次の手順
 「 [Teams でライブイベントの設定を構成する」](configure-teams-live-events.md)を参照してください。
 
-### <a name="related-topics"></a>関連項目
+### <a name="related-topics"></a>関連トピック
 - [Teams のライブ イベントについて](what-are-teams-live-events.md)
 - [Teams のライブ イベントの計画](plan-for-teams-live-events.md)
 - [Teams でライブ イベント設定を構成する](configure-teams-live-events.md)

@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - SMB
 description: 残念なことに、ユーザーが  Skype 会議ブロードキャストにアクセスして使用するときに、ブロックされる特定のユーザー ライセンスがあります。https://broadcast.skype.com ユーザーにこのメッセージが表示される場合、ブロックされるライセンスの一つがユーザーに割り当てられています。 それでも Skype 会議ブロードキャストを使用したい場合、別の Office 365 のライセンスをそのユーザーに割り当てます。
-ms.openlocfilehash: 52e6936e0dd91c896d0eea397f6352ab3b453c64
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a1284cbb6126a0a6d31ab64942f04f9e40c04fe6
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299584"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706142"
 ---
 # <a name="blocked-user-licenses-for-hosting-skype-meeting-broadcast"></a>Skype 会議ブロードキャストをホストするためのユーザーライセンスがブロックされている
 

@@ -16,16 +16,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: ms.lync.lac.CivicAddressValidationOpenSupportTicket
+f1.keywords: ms.lync.lac.CivicAddressValidationOpenSupportTicket
 ms.custom:
 - Calling Plans
 description: 住所検証は、Office 365 の通話プランのセットアップで重要な部分です。 これにより、組織のユーザーに対して、緊急応答サービスで使用できる緊急通話の住所が提供されます。
-ms.openlocfilehash: 4cd11e97978ea0439fd918f4e6c2e854a822e908
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 010191a3e70e9f4d9be6ec34d57118d9b79dfec4
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793336"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705902"
 ---
 # <a name="how-do-i-create-a-support-ticket-for-address-validation"></a>住所検証のためのサポート チケットを作成する方法を教えてください。
 
@@ -103,7 +103,7 @@ ms.locfileid: "35793336"
 
 [通話プランで使用されるさまざまな種類の電話番号](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[[[Skype for Business 新しい電話番号の申請](/microsoftteams/manage-phone-numbers-for-your-organization)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。](/microsoftteams/manage-phone-numbers-for-your-organization)
+[組織の電話番号を管理する](/microsoftteams/manage-phone-numbers-for-your-organization)
 
 [緊急通話の利用条件](/microsoftteams/emergency-calling-terms-and-conditions)
 

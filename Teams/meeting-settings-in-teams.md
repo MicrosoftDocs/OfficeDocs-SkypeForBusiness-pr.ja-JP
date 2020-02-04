@@ -12,19 +12,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.meetingsettings.invitationurls
 - ms.teamsadmincenter.meetingsettings.network.ports
 - ms.teamsadmincenter.meetingsettings.overview
 ms.collection:
 - M365-collaboration
 description: 組織のユーザーがスケジュールする Teams 会議の設定を管理する方法を説明します。
-ms.openlocfilehash: adb1beaa7aff84d2ef51820332bc7f823b124a22
-ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
-ms.translationtype: HT
+ms.openlocfilehash: 6d5e4d4235eceda3821a34a039625730d11d9fff
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/17/2019
-ms.locfileid: "40069458"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707302"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams で会議の設定を管理する
 

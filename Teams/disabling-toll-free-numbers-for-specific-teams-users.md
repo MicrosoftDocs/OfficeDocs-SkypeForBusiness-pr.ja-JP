@@ -15,16 +15,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: 管理者は、開催者が会議に無料の電話番号を使用する方法を制御できます。
-ms.openlocfilehash: e2dddd04f376de69dbbc9579525966bac6351a0a
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: e6a62473c2db2e2a36a0b0302831afe0b4877f8f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "37572104"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707272"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-teams-users"></a>特定の Teams ユーザーの無料電話番号を無効にする
 
@@ -59,6 +60,6 @@ ms.locfileid: "37572104"
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
  
-**PowerShell を使用する**  
+**PowerShell を使用する場合**  
 
 詳細については、[Microsoft Teams PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)をご覧ください。

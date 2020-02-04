@@ -15,17 +15,17 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
+f1.keywords:
 - ms.lync.lac.ServicePlanNotValid
 ms.custom:
 - Setup
 description: 'Skype for Business Online サービスプランが有効でないというエラーが発生した後、ユーザーに対して有効なサービスプランを割り当てる場所を確認します。 '
-ms.openlocfilehash: 896ac04909e9b00ada8e18e6a83f7fa9096f7455
-ms.sourcegitcommit: 3c11153ffdc3296a9cf2a7078fff5049c091e55a
+ms.openlocfilehash: 2c3137cb5e8873c1416d7fac2d20930c8f378844
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/01/2019
-ms.locfileid: "35411544"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706442"
 ---
 # <a name="the-users-skype-for-business-online-service-plan-isnt-valid"></a>ユーザーの Skype for Business Online サービスプランが有効ではありません
 
@@ -34,7 +34,7 @@ ms.locfileid: "35411544"
 *Microsoft 365 管理センター** に移動し、**アクティブなユーザー** > して、有効なサービスプランをこのユーザーに割り当てます。
 
 ## <a name="related-topics"></a>関連トピック
-[Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)
+[Skype for Business Online をセットアップする](set-up-skype-for-business-online.md)
 
 [Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)
   

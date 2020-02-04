@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - SMB
 description: Skype for Business Online の Skype 会議ブロードキャスト機能について説明します。この機能を使用すると、最大1万人までの会議やイベントのスケジュール、作成、ブロードキャストを行うことができます。
-ms.openlocfilehash: 95ad00be416a53e6e861ce4e9f235bded8e8075a
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 05e970e7859b361a4ec8c9656aedbe54f0de6f4f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40990982"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706122"
 ---
 # <a name="set-up-your-network-for-skype-meeting-broadcast"></a>Skype 会議ブロードキャスト用にネットワークをセットアップする
 
@@ -95,7 +96,7 @@ Skype[会議ブロードキャスト](enable-skype-meeting-broadcast.md)の Skyp
 
 Skype for Business Online の組織と、Lync server 2010、Microsoft Lync Server 2013、および Skype for Business Server 2015 のオンプレミスの展開と、両方のユーザーがオンラインとオンプレミスの両方を使用している場合は、別のセットアップ手順を実行する必要があります。上のものに加えて、オンプレミスの組織が Skype for Business Online と通信できるようにし、すべてのユーザーが Skype 会議ブロードキャストに参加できるようにすることができます。 これらの要件については、「 [Skype 会議ブロードキャスト用にオンプレミス展開を構成](https://go.microsoft.com/fwlink/?LinkId=617070)する」を参照してください。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Skype 会議ブロードキャストを有効にする](enable-skype-meeting-broadcast.md)
 

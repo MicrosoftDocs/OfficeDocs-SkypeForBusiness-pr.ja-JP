@@ -16,16 +16,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: 'Skype for Business Online でユーザーの会議 ID をリセットし、会議の更新と移行ツールへのリンクを取得する手順について説明します。 '
-ms.openlocfilehash: 0e214444b80f6562c733526acbb6f87c66e46922
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: c87db0972fb8144d7a8a807de81905f5be23191c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792107"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707152"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-skype-for-business-online"></a>Skype for Business Online のユーザーの会議 ID をリセットする
 

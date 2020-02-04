@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.SelectDeniedMembers
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c626b6b4-15f3-4a59-bb1d-55dc8c60f5cb
 ROBOTS: NOINDEX, NOFOLLOW
 description: 常設チャット管理者は、チャットルームのカテゴリを作成して管理することができます。 チャットルームのカテゴリの作成と管理の一環として、常設チャット管理者は、特定のカテゴリのチャットルームのメンバー/作成者としてアクセスできるプリンシパル (Active Directory ドメインサービスのグループ/コンテナー/ユーザー) を構成することができます。 常設チャット管理者は、カテゴリに DeniedMembers を追加することもできます。これは、許可リストに明示的に除外されることになります。 DeniedMembers は、AllowedMembers の内容を上書きします。
-ms.openlocfilehash: 01494ee5d9e93b3ca8cc59ee13cbdc5a5377553d
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: e7bf59ec303946ed82ee95754cd522fe7991eab6
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418137"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41704282"
 ---
 # <a name="select-denied-members"></a>拒否されたメンバーの選択
 

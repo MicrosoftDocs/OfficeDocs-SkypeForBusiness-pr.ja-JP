@@ -15,16 +15,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: 'チームに新しい番号を取得する方法、既存の番号を移行する方法、ユーザーへの変更を表示する方法について説明します。 '
-ms.openlocfilehash: 51f436a3b2d462e9984fb9fc09620e7c1a77307d
-ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
+ms.openlocfilehash: caba9206ab4c1f12250085a8323b22fabf57cc9e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39209203"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707873"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>ユーザー用に電話番号を取得する
 
@@ -43,7 +44,7 @@ ms.locfileid: "39209203"
   
 ## <a name="get-new-phone-numbers-for-your-users"></a>ユーザーの電話番号を取得する
 
-![Microsoft teams](media/teams-logo-30x30.png) **管理センターを使用し**た microsoft teams ロゴを示すアイコン
+![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
     
 1. 左側のナビゲーションで、[**電話番号** **] に移動** > し、[**追加**] をクリックします。
 2. 注文の名前を入力し、必要に応じて説明を追加します。
@@ -67,7 +68,7 @@ ms.locfileid: "39209203"
     
 ## <a name="show-phone-numbers-for-your-organization"></a>組織の電話番号を表示する
 
-![Microsoft teams](media/teams-logo-30x30.png) **管理センターを使用し**た microsoft teams ロゴを示すアイコン 
+![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用** 
 
 左側のナビゲーションで、[ > **電話番号**] に移動して、場所、番号の種類、状態の情報など、組織の電話**番号を表示**します。
   
@@ -80,7 +81,7 @@ ms.locfileid: "39209203"
 > [!NOTE]
 > その他の電話番号を取得する必要がある場合は、 [PSTN サービスデスクにお問い合わせください](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。
     
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [電話番号の移行に関するよくある質問](/microsoftteams/transferring-phone-numbers-common-questions)
 

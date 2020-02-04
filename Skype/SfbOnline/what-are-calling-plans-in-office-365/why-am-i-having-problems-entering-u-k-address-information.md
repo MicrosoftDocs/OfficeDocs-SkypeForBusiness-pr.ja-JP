@@ -16,17 +16,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
+f1.keywords:
 - ms.lync.lac.CivicAddressGBSyntaxError
 ms.custom:
 - Calling Plans
 description: ここでは、英国 (英国) で住所または住所を正しく検証するときに問題が発生する理由をいくつか示します。
-ms.openlocfilehash: e710f2ef502bb264677bc89d5cdebb2584d48679
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0d854f41c13f2f34a0582b70d85ca841b4ccc53a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290690"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705862"
 ---
 # <a name="why-am-i-having-problems-entering-uk-address-information"></a>英国の入力で問題が発生するのはなぜですか 住所情報
 

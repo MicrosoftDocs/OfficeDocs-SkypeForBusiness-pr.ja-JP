@@ -1,5 +1,5 @@
 ---
-title: ポート注文とは何ですか?
+title: 番号移行注文について
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -12,18 +12,18 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: ms.teamsadmincenter.voice.phonenumbers.porting.overview
+f1.keywords: ms.teamsadmincenter.voice.phonenumbers.porting.overview
 ms.custom:
 - Calling Plans
 description: ポート注文の概要と、サービスプロバイダーからチームに電話番号を移行する方法について説明します。
-ms.openlocfilehash: 4edaac3722e8fc37ca856b240171f923a0a99f66
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 3f75acf8711838b159bacfe11169e500273eaf01
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925673"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708763"
 ---
-# <a name="whats-a-port-order"></a>ポート注文とは何ですか?
+# <a name="whats-a-port-order"></a>番号移行注文について
 
 現在、電話サービスプロバイダーまたは電話会社をお持ちで、ユーザーまたはサービスの電話番号を既にお持ちの場合は、「*ポート注文*」を作成して、それらの電話番号を Microsoft Teams に転送する必要があります。 電話番号を移行するときは、電話会議 (会議ブリッジ用)、自動応答、および通話キューなどのユーザーやサービスに電話番号を割り当てることができます。
   
@@ -159,9 +159,9 @@ ms.locfileid: "37925673"
 
 - サービスが有効になっていることを確認してください。 アカウントを凍結すると、アカウント上で携帯電話会社を変更できません。 アカウントを変更する権限を持つユーザーは、現在の通信事業者に注文を送信して、固定を解除する必要があります。 このプロセスには、キャリアに応じて、1 ~ 3 週間かかることがあります。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
-- [ポート注文の状態は何ですか?](port-order-status.md)
+- [番号移行注文の状況](port-order-status.md)
 - [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [組織の電話番号を管理する](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [緊急通話の利用条件](../emergency-calling-terms-and-conditions.md)

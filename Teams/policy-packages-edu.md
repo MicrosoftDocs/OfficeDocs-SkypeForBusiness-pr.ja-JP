@@ -1,5 +1,5 @@
 ---
-title: EDU の管理者向けの Microsoft Teams ポリシーパッケージ
+title: EDU 管理者向けの Microsoft Teams ポリシー パッケージ
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -13,18 +13,18 @@ ms.collection:
 - Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-f1keywords: ms.teamsadmincenter.policypackages.overview
+f1.keywords: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams でポリシーパッケージを使用および管理する方法について説明します。
-ms.openlocfilehash: a49ab725ff0042b75afca9b1f9b4d7d9655c34b7
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: 922481747e83b8885641185b8a7e4fa65bb2a1bd
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38676255"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708663"
 ---
-# <a name="microsoft-teams-policy-packages-for-edu-admins"></a>EDU の管理者向けの Microsoft Teams ポリシーパッケージ
+# <a name="microsoft-teams-policy-packages-for-edu-admins"></a>EDU 管理者向けの Microsoft Teams ポリシー パッケージ
 
 Microsoft Teams のポリシーパッケージでは、組織内で同様の役割を持つユーザーに割り当てることができる定義済みのポリシーおよびポリシー設定を収集します。 ポリシーパッケージは、ポリシーを管理する際の一貫性を高めるために簡素化、合理化、および支援します。 通常の方法では、各ユーザーにポリシーパッケージを割り当て、必要に応じて各パッケージのポリシーをそのユーザーグループのニーズに合わせて再定義します。 パッケージの設定を更新すると、そのパッケージに割り当てられているすべてのユーザーが一括更新として変更されます。
 

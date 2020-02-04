@@ -6,7 +6,7 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.plan.ExchagneUMSettings
 - ms.lync.plan.ExchagneUMSettings
 ms.prod: skype-for-business-itpro
@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.assetid: d4c4a5d9-1523-49ff-b994-882b037ed46f
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype for Business Server 2015 は、音声メッセージと電子メールメッセージを1つのメッセージングインフラストラクチャに結合するための Exchange ユニファイドメッセージング (UM) との統合をサポートしています。
-ms.openlocfilehash: 97bc33b8e2b8fdffc09422467eb80f51a0a3118c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fd5dcf4a92300928a901a316c1b05e8223d7eac9
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288262"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41703742"
 ---
 # <a name="exchange-unified-messaging-settings-planning-tool-in-skype-for-business-2015"></a>Skype for Business 2015 の Exchange ユニファイドメッセージング設定 (計画ツール)
 

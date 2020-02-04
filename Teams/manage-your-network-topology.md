@@ -10,18 +10,18 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-voice
-f1keywords: ms.teamsadmincenter.networktopology.overview
+f1.keywords: ms.teamsadmincenter.networktopology.overview
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams でクラウド音声機能のネットワーク設定を構成する方法について説明します。
-ms.openlocfilehash: 87cdf39e03999a9e249b7ec40af7ea2ad8612e69
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: d7ed6780edf578c15580f1f9690fcbf5d9e9658e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991642"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708503"
 ---
 # <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>Microsoft Teams でクラウド音声機能のネットワークトポロジを管理する
 
@@ -167,6 +167,6 @@ New-CsTenantTrustedIPAddress -IPAddress 198.51.100.0 -MaskBits 30 -Description "
 
 「 [Set-CsTenantTrustedIPAddress](https://docs.microsoft.com/powershell/module/skype/set-cstenanttrustedipaddress)」も参照してください。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [Teams でのクラウド音声機能のネットワーク設定](cloud-voice-network-settings.md)

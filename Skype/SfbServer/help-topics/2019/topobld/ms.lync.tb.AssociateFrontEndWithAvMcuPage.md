@@ -6,23 +6,23 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AssociateFrontEndWithAvMcuPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 314e3b0b-9ca7-423b-9c8e-80eb6013d36f
 ROBOTS: NOINDEX, NOFOLLOW
-description: A/V 会議を使用すると、ユーザー間の音声およびビデオのリアルタイム通信が可能になります (つまり、電話会議のヘッドセットやビデオ会議用の web カメラなど、適切なクライアントデバイスがある場合)。 展開で会議がサポートされていて、web 会議と A/V の両方の会議を有効にしている場合は、1つ以上のスタンドアロン A/V 会議サーバー (A/V 会議プール) を展開することができます。. スタンドアロンの A/V 会議サーバーを展開するためのオプションを選択した場合、トポロジビルダーで定義する必要があります。
-ms.openlocfilehash: 20331b70f860eae655859209d815b7bcad044795
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: A/V 会議を使用すると、ユーザー間の音声およびビデオのリアルタイム通信が可能になります (つまり、電話会議のヘッドセットやビデオ会議用の web カメラなど、適切なクライアントデバイスがある場合)。 展開で会議がサポートされていて、web 会議と A/V の両方の会議を有効にしている場合は、1つ以上のスタンドアロン A/V 会議サーバー (A/V 会議プール) を展開することができます。 スタンドアロンの A/V 会議サーバーを展開するためのオプションを選択した場合、トポロジビルダーで定義する必要があります。
+ms.openlocfilehash: 92b93cdfaf4e0beb4c097d1119a7189c1cf8dfc4
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34281326"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41702492"
 ---
 # <a name="associate-front-end-with-av-mcu"></a>フロントエンドと AV MCU の関連付け
  
-A/V 会議を使用すると、ユーザー間の音声およびビデオのリアルタイム通信が可能になります (つまり、電話会議のヘッドセットやビデオ会議用の web カメラなど、適切なクライアントデバイスがある場合)。 展開で会議がサポートされていて、web 会議と A/V の両方の会議を有効にしている場合は、1つ以上のスタンドアロン A/V 会議サーバー (A/V 会議プール) を展開することができます。. スタンドアロンの A/V 会議サーバーを展開するためのオプションを選択した場合、トポロジビルダーで定義する必要があります。
+A/V 会議を使用すると、ユーザー間の音声およびビデオのリアルタイム通信が可能になります (つまり、電話会議のヘッドセットやビデオ会議用の web カメラなど、適切なクライアントデバイスがある場合)。 展開で会議がサポートされていて、web 会議と A/V の両方の会議を有効にしている場合は、1つ以上のスタンドアロン A/V 会議サーバー (A/V 会議プール) を展開することができます。 スタンドアロンの A/V 会議サーバーを展開するためのオプションを選択した場合、トポロジビルダーで定義する必要があります。
   
 1つのサイトのすべてのプールと複数のセントラルサイトのプールは、使用頻度が A/V 会議サーバーの容量を超えていない場合は、同じ A/V 会議サーバーを使用できます。 
   

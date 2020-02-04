@@ -15,17 +15,17 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
+f1.keywords:
 - ms.lync.lac.UsersCountLimitationWarning
 ms.custom:
 - Setup
 description: 'Skype for Business Online 管理者のユーザー表示の制限内で作業する方法について説明します。 '
-ms.openlocfilehash: 17865b9f369b73d4133f95d0d61fe0010052f50a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ffe0a9d5c67028e12889f21744f88a8bfc2424ae
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285226"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706472"
 ---
 # <a name="skype-for-business-online-admin-center-users-page-limitations"></a>Skype for Business Online 管理センターのユーザーページの制限
 
@@ -36,14 +36,14 @@ ms.locfileid: "34285226"
 
 1. リストの上部にある [**表示名**] の横にあるチェックボックスをオンにして、最初の1000ユーザー (またはフィルターまたは検索によって返されたすべてのユーザー) を選択します。
     
-2. [編集]](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png)をクリックします。 ****![
+2. ![[編集]](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png)を**クリックします**。
     
 リストの下部にあるコントロールを使用して、各ページに表示されるユーザーの数を変更することができます。
   
 ![[ユーザー] ページでページ上のユーザーの数を変更するためのナビゲーション](../images/7d8ba24e-e3e8-4ff8-92f7-98ac143aab6d.png)
   
 ## <a name="related-topics"></a>関連トピック
-[Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)
+[Skype for Business Online をセットアップする](set-up-skype-for-business-online.md)
 
 [Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)
 

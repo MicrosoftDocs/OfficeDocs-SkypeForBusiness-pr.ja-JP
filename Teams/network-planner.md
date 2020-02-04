@@ -13,17 +13,17 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.networkplanner.overview
 - ms.teamsadmincenter.networkplanner.personas
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aaefec635e6744dc7c1197f28ffb056be4a88860
-ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
+ms.openlocfilehash: f4c37d36800d9ba52caf67bf1ffc7a34660c9a56
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "38793483"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708813"
 ---
 # <a name="use-the-network-planner-for-microsoft-teams"></a>Microsoft Teams のネットワークプランナーを使用する
 
@@ -54,7 +54,7 @@ ms.locfileid: "38793483"
 
 4. このペルソナが組織内で使用する権限を選択します。
 
-5. [**保存**] をクリックします。
+5. **[保存]** をクリックします。
 
 ## <a name="build-your-plan"></a>プランを作成する
 
@@ -83,7 +83,7 @@ ms.locfileid: "38793483"
       > [!NOTE]
       > レポートを生成するときに特定の帯域幅の推奨値を表示するには、WAN およびインターネットの容量番号を追加する必要があります。
 
-    4. [**保存**] をクリックします。
+    4. **[保存]** をクリックします。
 
 ## <a name="create-a-report"></a>レポートを作成する
 
@@ -99,7 +99,7 @@ ms.locfileid: "38793483"
     - 個々の計算を含むテーブルには、許容される各アクティビティの帯域幅要件が表示されます。
     - 追加のビューには、推奨事項による全体的な帯域幅のニーズが表示されます。
 
-4. [**保存**] をクリックします。 レポートは、後で表示するためにレポートリストで利用できます。
+4. **[保存]** をクリックします。 レポートは、後で表示するためにレポートリストで利用できます。
 
 ## <a name="example-scenario"></a>シナリオの例
 

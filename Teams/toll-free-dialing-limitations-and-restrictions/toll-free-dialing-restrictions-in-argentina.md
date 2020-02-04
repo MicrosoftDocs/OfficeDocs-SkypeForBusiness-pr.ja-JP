@@ -18,16 +18,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: これは、国/地域ごとに無料電話番号をダイヤルする方法を確認するのに役立ちます。 国または地域を選択すると、無料サービスの利用可能な無料サービスの利用に関する具体的な詳細、制限、制限が記載された国固有のページに移動します。 ダイヤル形式または形式では、無料番号をダイヤルするために、各国または地域で必要なアクセスコードが表示されます。
-ms.openlocfilehash: 70cfbcd90aee6ab3e70aaf8e83f2b1b0b448f14b
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: f084dae0e3843721fd559a20ebdf3807623df99e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570071"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708193"
 ---
 # <a name="toll-free-dialing-restrictions-in-argentina"></a>アルゼンチンでのフリーダイヤル制限
 
@@ -44,7 +45,7 @@ ms.locfileid: "37570071"
 |携帯電話ネットワークの状態  <br/> |あり  <br/> |
 |コメント、制限、アクセスの問題など  <br/> |携帯電話アクセス: 通話時間が課金される。  <br/> |
    
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [無料電話ダイヤルの制限事項](../toll-free-dialing-limitations-and-restrictions.md)
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)

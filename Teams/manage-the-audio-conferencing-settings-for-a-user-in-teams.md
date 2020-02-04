@@ -16,16 +16,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: 'Office 365 管理者は、組織内の個々のユーザーに対して、プロバイダー、既定の有料電話番号、フリーダイヤル番号、会議 ID、PIN などの Microsoft Teams の音声会議の設定を編集できます。 '
-ms.openlocfilehash: 673441acebf9b31893925539471040bffa621f38
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: 13d7af0dccefdbe1c0febcc6a6903b410221f0f8
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "37571925"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708673"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>Microsoft Teams でユーザーの電話会議の設定を管理する
 

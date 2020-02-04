@@ -14,15 +14,15 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: メッセージングポリシーと、それらを使用して Teams でチャットメッセージを制御する方法について説明します。
-ms.openlocfilehash: 590b0de09488a1d4e1cdaba3530a9a34894e45d0
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 676217cbd9101884e01cef1afd39203efc090f16
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991562"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707282"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Teams のメッセージング ポリシーを管理する
 
@@ -101,5 +101,5 @@ Microsoft Teams 管理センターでは、管理者の資格情報でhttps://ad
 > [!NOTE]
 > Giphy などの一部の設定は、チームの所有者およびプライベートチャネルの所有者によってチームレベルで構成することもできます。
 
-### <a name="related-topics"></a>関連項目
+### <a name="related-topics"></a>関連トピック
 [Teams での会議ポリシー](meeting-policies-in-teams.md)

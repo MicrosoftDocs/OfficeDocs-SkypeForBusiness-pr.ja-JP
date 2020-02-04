@@ -16,16 +16,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: Microsoft Teams の英国 (uk) で電話番号を取得および管理する方法については、次の表を参照してください。
-ms.openlocfilehash: bdad256ee68b1ecd6cf07dc7bf67388a6929dc26
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 3fb9da13b10c5e45f910d172a350cd6869dbaaa1
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571958"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706942"
 ---
 # <a name="phone-number-management-for-the-uk"></a>英国での電話番号の管理
 
@@ -44,7 +45,7 @@ ms.locfileid: "37571958"
 
 [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[[[Skype for Business 新しい電話番号の申請](manage-phone-numbers-for-your-organization.md)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。](manage-phone-numbers-for-your-organization.md)
+[組織の電話番号を管理する](manage-phone-numbers-for-your-organization.md)
 
 [緊急通話の利用条件](../emergency-calling-terms-and-conditions.md)
   

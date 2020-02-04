@@ -16,17 +16,18 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: これは、国/地域ごとに無料電話番号をダイヤルする方法を確認するのに役立ちます。 国または地域を選択すると、無料サービスの利用可能な無料サービスの利用に関する具体的な詳細、制限、制限が記載された国固有のページに移動します。 ダイヤル形式または形式では、無料番号をダイヤルするために、各国または地域の必要なアクセスコードが表示されます。
-ms.openlocfilehash: d9cf7bf601237552b397413c65875707157a73c9
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 41bc08f37d96674a88ad4d180198cba189780846
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571653"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708213"
 ---
 # <a name="toll-free-dialing-limitations-and-restrictions"></a>無料電話ダイヤルの制限事項と制約事項
 
@@ -60,7 +61,7 @@ ms.locfileid: "37571653"
 > - [France](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-france.md)
 > - [Germany](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-germany.md)
 > - [ホンジュラス](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-honduras.md)
-> - [香港](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hong-kong.md)
+> - [香港特別行政区](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hong-kong.md)
 > - [ハンガリー](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hungary.md)
 > - [India](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-india.md)
 > - [Indonesia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-indonesia.md)

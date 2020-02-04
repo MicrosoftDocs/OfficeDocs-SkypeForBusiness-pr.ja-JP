@@ -14,17 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.lync.lac.OrgMobileNotification
 ms.custom:
 - Setup
 description: ユーザーが着信、ボイス メール、インスタント メッセージの未読通知を受信するために携帯電話の通知をオンまたはオフにする方法を説明します。
-ms.openlocfilehash: 6bd762c12a9945c6eaf7c103f3e19502e58840b3
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: e9b5b86cf07c90af4ca68d91a36a936d7c657590
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792127"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706322"
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>携帯電話の通知をオン/オフする
 
@@ -35,7 +35,7 @@ Android と Windows Phone の Skype for Business では、通知はリアル タ
 ## <a name="turn-push-notifications-off-for-all-the-windows-phone-or-apple-devices-in-your-organization"></a>組織内のすべての Windows Phone や Apple デバイスのプッシュ通知をオフにする
 <a name="__top"> </a>
 
-![](../images/sfb-logo-30x30.png) **Skype for business 管理センターを使用し**た skype for business ロゴを示すアイコン
+![Skype for Business のロゴを表示したアイコン](../images/sfb-logo-30x30.png) **Skype for Business 管理センターの使用**
 
 1. Office 365 にサインインします。
     

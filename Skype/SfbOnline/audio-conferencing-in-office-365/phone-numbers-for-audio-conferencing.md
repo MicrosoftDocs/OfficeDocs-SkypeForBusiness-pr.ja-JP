@@ -16,17 +16,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: ダイヤルイン会議番号がある国と地域、およびそれらの番号の自動割り当て方法について説明します。
-ms.openlocfilehash: 1e988db094b6d49f8fb8da548f6d71b3607975e2
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: 32eeebf54fbb9e6ab75ca0e43734f64b1d811c10
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "35792311"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707162"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>Skype for Business Online の電話会議の電話番号
 
@@ -36,7 +37,7 @@ ms.locfileid: "35792311"
 Skype for Business の電話**会議**をセットアップすると、ダイヤルイン電話番号が自動的に組織に割り当てられます。 電話会議ブリッジに割り当てられている電話番号を確認するには、「 **Skype for business 管理センター** > **電話会議** > の**Microsoft bridge**」を参照してください。 「[電話会議の電話番号のリストを表示する](see-a-list-of-audio-conferencing-numbers.md)」を参照してください。
   
 > [!NOTE]
-> 電話会議のすべてのダイヤルイン番号のリストを含んでいるリソースはありません。 地域または国/地域で利用可能なダイヤルイン電話番号があるかどうかを確認するには、 **Skype for business 管理センター** > **の音声** > **電話番号**を使用し、[**追加**]、[**新しいサービス] の順にクリックします。数値**。 [**国/地域**]、[**都道府県/地域**]、[**市区町村**] のリストを使用して、検索をフィルタします。 また、有料サービスの電話番号をお探しの場合は、「**都道府県/地域**」リストから**無料通話**を選択してください。
+> 電話会議のすべてのダイヤルイン番号のリストを含んでいるリソースはありません。 お住まいの地域または国/地域で利用可能なダイヤルイン電話番号があるかどうかを確認するには、 **Skype for business 管理センター** > **の音声** > **電話番号**を使用し、[**追加**]、[**新しいサービス番号**] の順にクリックします。 [**国/地域**]、[**都道府県/地域**]、[**市区町村**] のリストを使用して、検索をフィルタします。 また、有料サービスの電話番号をお探しの場合は、「**都道府県/地域**」リストから**無料通話**を選択してください。
   
 ## <a name="audio-conferencing-coverage-and-pricing"></a>電話会議のサービス対象範囲と価格情報
 

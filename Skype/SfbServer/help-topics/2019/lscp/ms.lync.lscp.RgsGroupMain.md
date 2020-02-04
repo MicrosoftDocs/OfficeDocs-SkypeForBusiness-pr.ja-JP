@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.RgsGroupMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
 ROBOTS: NOINDEX, NOFOLLOW
 description: 応答グループは、エージェントグループ、キュー、ワークフローで構成されます。 エージェントグループは、応答グループの呼び出しに応答するように指定されているユーザーのグループです。
-ms.openlocfilehash: 279a8cbedebdefef64aebd887092d73cc3cd5c3a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f9caf3ec7296ace681a753c401e0a55da874f559
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34292585"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41704403"
 ---
 # <a name="response-groups-group"></a>応答グループ: グループ
 
@@ -28,7 +28,7 @@ ms.locfileid: "34292585"
 
 ## <a name="tasks-you-can-perform"></a>実行できるタスク
 
-[**応答グループ** - **** ] ページでは、次のタスクを実行できます。
+[**応答グループ** - **] ページで**は、次のタスクを実行できます。
 
 - 新しいエージェントグループを作成する
 

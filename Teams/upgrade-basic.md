@@ -11,7 +11,7 @@ description: Skype for Business から Teams へのアップグレードに関�
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.dashboard.widget.upgrade.opt-in
 - ms.teamsadmincenter.dashboard.widget.upgrade.opt-out
 - ms.teamsadmincenter.dashboard.widget.upgrade.scheduled
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 425ee7d6821a6765e03e2b9f0d9beaab61858bd4
-ms.sourcegitcommit: 25b6bf2c3050390cd668d2495ffcf31c44d0ff62
+ms.openlocfilehash: b992c9870ef49847af3a82f3844f691584f97768
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37749285"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707713"
 ---
 # <a name="upgrade-basic"></a>アップグレードの基本
 
@@ -36,7 +36,7 @@ ms.locfileid: "37749285"
 この10個の簡単な手順で、アップグレードを成功させるために必要なすべての操作を行うことができます。 30 ~ 45 日後に完了するように設計されていますが、組織のアップグレードスケジュールに基づいて、タスクの完了日を調整する必要があります。
 
 > [!IMPORTANT]
-> Skype for Business Online は、2021年7月31日に廃止されます。 その後、Skype for Business Online サービスは、アクセスまたはサポートされなくなります。 給付金を最大限に活用し、組織がアップグレードを実装するための適切な時間を確保するために、Microsoft Teams の現在の旅を開始することをお勧めします。
+> Skype for Business Online は、2021年7月31日に廃止されます。 その後、Skype for Business Online サービスは、アクセスまたはサポートされなくなります。 移行によるメリットを最大限に高め、アップグレード実施のための時間を組織で十分確保できるよう、Microsoft Teams への移行をすぐに開始することをお勧めします。
 
 アップグレード後の Skype for Business はどうなりますか? ユーザーが Teams (**Teams のみ**モード) にアップグレードされた後、次の操作を行います。
 

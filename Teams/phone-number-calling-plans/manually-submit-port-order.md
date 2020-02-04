@@ -1,5 +1,5 @@
 ---
-title: 手動でポート注文を送信する
+title: 手動で番号移行注文を送信する
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -13,18 +13,18 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: ''
+f1.keywords: ''
 ms.custom:
 - Calling Plans
 description: 手動でポート注文の依頼を送信する方法について説明します。
-ms.openlocfilehash: 90864afc9923f6977dfcfc9376d1191b740f242a
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 6844865159da4df084bb8ecfb5d324b19fbfebb5
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925675"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708743"
 ---
-# <a name="manually-submit-a-port-order"></a>手動でポート注文を送信する
+# <a name="manually-submit-a-port-order"></a>手動で番号移行注文を送信する
 
 一部の国や地域では、電話番号の取得、電話番号の譲渡、電話番号の譲渡、住所の変更などを行うために、サービスリクエストを手動で送信する必要がある場合があります。 国や地域ごとに何が必要かを確認したり、番号移行の詳細については、「[組織の電話番号を管理](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)する」を参照してください。
 
@@ -58,9 +58,9 @@ ms.locfileid: "37925675"
     
 - 各ユーザーに、利用可能な新しい電話番号を割り当てる必要があります。 「[ユーザーの電話番号の割り当て、変更、削除を行う](../assign-change-or-remove-a-phone-number-for-a-user.md)」を参照してください。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
-- [ポート注文とは何ですか?](port-order-overview.md)
+- [番号移行注文について](port-order-overview.md)
 - [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [組織の電話番号を管理する](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [緊急通話の利用条件](../emergency-calling-terms-and-conditions.md)

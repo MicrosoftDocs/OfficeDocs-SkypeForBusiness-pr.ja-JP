@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddPstnGatewayTrunkPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
 ROBOTS: NOINDEX, NOFOLLOW
 description: IP または公衆交換電話網 (PSTN) のルートトランクを定義するには、次のように設定します。
-ms.openlocfilehash: f3efc7d30d011f4d1a1be9742d01ab4e875dc6c5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5332fdaab9efd3eb7c7587c390e5d3cee0af4d1d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34282474"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41702682"
 ---
 # <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>新しい IP または PSTN ゲートウェイのルート トランクの定義
 

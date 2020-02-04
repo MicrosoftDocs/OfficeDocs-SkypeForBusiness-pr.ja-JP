@@ -17,17 +17,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 - LIL_Placement
 description: 'アドオンライセンス、入手できる機能、製品の購入方法、および既存の通信事業者との使用方法について説明します。 Office 365、通信クレジット、および通話プランの価格と計画の詳細については、こちらを参照してください。 '
-ms.openlocfilehash: 748a08d088e3637566b6c6c1636bbf7a513f1f4d
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: c48136176673676df83833833b4424d8d0a593f3
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793226"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706082"
 ---
 # <a name="skype-for-business-add-on-licensing"></a>Skype for Business アドオンのライセンス
 
@@ -101,7 +102,7 @@ Skype for Business のライセンスは、最大限の柔軟性を提供する�
 
 ## <a name="related-topics"></a>関連トピック
 
-- [Skype for Business Online のセットアップ](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
+- [Skype for Business Online をセットアップする](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
     
 - [クラウド ボイスメールのセットアップ - Admin ヘルプ](/microsoftteams/set-up-phone-system-voicemail)
     

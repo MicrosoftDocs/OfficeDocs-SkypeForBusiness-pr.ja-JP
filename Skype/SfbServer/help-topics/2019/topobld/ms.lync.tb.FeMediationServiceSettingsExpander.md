@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.FeMediationServiceSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 142c1acd-cdaa-4922-8379-aa1bdf56a964
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[仲介サーバー] では、次の情報を指定できます。'
-ms.openlocfilehash: 701fe25213211e044a33cd91893a3509df6148a4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: badc56265dfab1e8c1a46f7a3d9f122ec845d162
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34292746"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41702182"
 ---
 # <a name="mediation-service-settings-expander"></a>仲介サービス設定エキスパンダー
 

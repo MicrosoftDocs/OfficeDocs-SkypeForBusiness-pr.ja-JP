@@ -16,7 +16,7 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.voice.phonenumbers.overview
 - ms.teamsadmincenter.voice.searchandacquire.PSTNpartner
 - ms.lync.lac.NewNumberManualAcquisitionOpenSupportTicket
@@ -24,12 +24,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 組織用の Microsoft Teams の電話番号を取得して管理する方法について説明します。
-ms.openlocfilehash: 7ff1da0b93c6775b8e564f6ea324404697c92411
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 597003e05ac467b51a0901f0c8daec498041c70a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571991"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707192"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>組織のために電話番号を管理する
 
@@ -84,7 +84,7 @@ ms.locfileid: "37571991"
 - ヨーロッパの電話番号に関するヘルプについては、[リクエストを送信して](mailto:ptneu@microsoft.com)ください。
 - アジアの電話番号に関するヘルプについては、[リクエストを送信して](mailto:ptnapac@microsoft.com)ください。
 
-#### <a name="additional-resources"></a>その他のリソース
+#### <a name="additional-resources"></a>追加リソース
 
 - 通話プランがお住まいの国または地域で利用可能かどうかを確認するには、「[電話会議と通話プランの国と地域の空き時間](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)情報」を参照してください。
 - 必要な電話番号の種類を選択するには、「[通話プラン用に使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)」を参照してください。
@@ -92,7 +92,7 @@ ms.locfileid: "37571991"
 - 組織の電話番号の設定に関するヘルプを表示するには、 [PSTN サービスデスクに問い合わせてください](contact-pstn-service-desk.md)。
   
     
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [緊急通話の利用条件](../emergency-calling-terms-and-conditions.md)
 

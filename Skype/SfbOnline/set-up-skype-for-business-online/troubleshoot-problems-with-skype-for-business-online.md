@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: Learn how to fix issues for admins and users of Skype for Business in Office 365.
-ms.openlocfilehash: 06dd690aeaf01f19fe703e6d827cab49cfcf7031
-ms.sourcegitcommit: 77f102a7ca0226c79cf9aa9573e27afb4fba6893
+ms.openlocfilehash: ed520dd5292cf67d67255457f1555ba04c87be1e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "37275516"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706332"
 ---
 # <a name="troubleshoot-problems-with-skype-for-business-online"></a>Skype for Business Online に関する問題のトラブルシューティング
 
@@ -84,7 +85,7 @@ Skype for Business Online ユーザーが直面する問題の多くはパスワ
 > 中国で 21Vianet が運営する Office 365 を使用している場合は、[21Vianet のサポート チームにお問い合わせください](https://go.microsoft.com/fwlink/p/?linkid=847978)。
 
 ## <a name="related-topics"></a>関連トピック
-[Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)
+[Skype for Business Online をセットアップする](set-up-skype-for-business-online.md)
 
 [Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)
 

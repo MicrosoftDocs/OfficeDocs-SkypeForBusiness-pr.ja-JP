@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.SqlInstanceScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bd270488-ceb9-4920-bef3-ed9fe8eff36c
 ROBOTS: NOINDEX, NOFOLLOW
 description: このノードには、この Microsoft SQL Server の完全修飾ドメイン名 (FQDN) とそのサーバー上の SQL Server のインスタンス、およびこの SQL Server を使用するプールまたはサーバーが表示されます。 以下のアクションを実行できます。
-ms.openlocfilehash: ff32b59235dfb4ff38b8ea0fcd4c34a0be9baa97
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 20d6e059ce19c180225195cad87dde0f333765ef
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34303103"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41701502"
 ---
 # <a name="sql-instance-scope-node"></a>SQL インスタンス スコープ ノード
  

@@ -18,16 +18,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: これは、国/地域ごとに無料電話番号をダイヤルする方法を確認するのに役立ちます。 国または地域を選択すると、無料サービスの利用可能な無料サービスの利用に関する具体的な詳細、制限、制限が記載された国固有のページに移動します。 ダイヤル形式または形式では、無料番号をダイヤルするために、各国または地域で必要なアクセスコードが表示されます。
-ms.openlocfilehash: 6117388d2dde3f502e524fecf21466b227f4c122
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: a4a3c5638665f41b91fba46501077c4e9dc44fdf
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573012"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707953"
 ---
 # <a name="toll-free-dialing-restrictions-in-china---north-10-800-714-xxxx-range"></a>中国北部でのフリーダイヤル制限 (10 800 714 XXXX の範囲)
 
@@ -45,7 +46,7 @@ ms.locfileid: "37573012"
 |携帯電話ネットワークの状態  <br/> |なし  <br/> |
 |コメント、制限、アクセスの問題など  <br/> |有料電話からは利用不可。  <br/> |
    
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [無料電話ダイヤルの制限事項](../toll-free-dialing-limitations-and-restrictions.md)
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)

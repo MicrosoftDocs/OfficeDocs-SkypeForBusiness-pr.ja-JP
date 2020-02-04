@@ -14,17 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.lync.lac.CivicAddressValidation
 ms.custom:
 - Calling Plans
 description: '住所検証がどういうものであるか、なぜ重要であるか、緊急対応の住所とサービスにどのように関連しているかについて説明します。 '
-ms.openlocfilehash: 3c6a6aa8b739ce2b23f8637298b108ebb52ed220
-ms.sourcegitcommit: 4bb900228cc55e0cbbce8c5b74b7de8df5a2288f
+ms.openlocfilehash: ad555792bf6951e8de5fb746546aec40e05b0eba
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "34408529"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705872"
 ---
 # <a name="what-is-address-validation"></a>住所検証とは何ですか?
 
@@ -39,7 +39,7 @@ Office 365 の通話プランをセットアップするときに、電話番号
 ## <a name="related-topics"></a>関連トピック
 [緊急対応の場所、アドレス、通話ルーティングの概要](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
 
-[[[Skype for Business 新しい電話番号の申請](/microsoftteams/manage-phone-numbers-for-your-organization)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。](/microsoftteams/manage-phone-numbers-for-your-organization)
+[組織の電話番号を管理する](/microsoftteams/manage-phone-numbers-for-your-organization)
 
 [緊急通話の利用条件](/microsoftteams/emergency-calling-terms-and-conditions)
 

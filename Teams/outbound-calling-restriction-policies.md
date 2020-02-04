@@ -15,16 +15,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: 管理者は、ユーザーが発信できる電話会議とエンドユーザーの PSTN 通話の種類を制御できます。
-ms.openlocfilehash: 20122d2bc258b8ac6040a103d62e20f81e46a364
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: b4dbaf73b34da163c731a0514a90b5a3536427fa
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "37573333"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708823"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>電話会議およびユーザーの PSTN 通話に対する発信通話の制限ポリシー
 
@@ -45,7 +46,7 @@ ms.locfileid: "37573333"
 
 ## <a name="restrict-audio-conferencing-outbound-calls"></a>電話会議の発信通話を制限する 
 
-![Microsoft teams](media/teams-logo-30x30.png) **管理センターを使用し**た microsoft teams ロゴを示すアイコン
+![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
 
 1. 左側のナビゲーションで、[**ユーザー**] をクリックしてから、空いているユーザーのリストからユーザーを選択します。
 
@@ -55,9 +56,9 @@ ms.locfileid: "37573333"
 
 4. [**会議からのダイヤルアウトアクセス許可**] で、目的のダイヤルアウト制限オプションを選びます。
 
-5. [**保存**] をクリックします。 
+5. **[保存]** をクリックします。 
 
-**Skype for Business 管理センターを使って** ![Skype for Business のロゴを表示したアイコン](media/sfb-logo-30x30.png)
+![Skype for Business のロゴを表示したアイコン](media/sfb-logo-30x30.png) **Skype for Business 管理センターの使用**
 
 1.  **Skype for business 管理センター**の左のナビゲーションで、[**電話会議** > **ユーザー**] に移動し、利用可能なユーザーのリストからユーザーを選びます。
 
@@ -67,12 +68,12 @@ ms.locfileid: "37573333"
 
     ![ダイヤルアウトオプションの制限](media/restrictions-to-dial-outs.png)
 
-5. [**保存**] をクリックします。
+5. **[保存]** をクリックします。
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-**PowerShell を使用する**
+**PowerShell を使用する場合**
 
 発信通話の制限は、それぞれの制限属性を持つ OnlineDialOutPolicy という1つのポリシーによって制御されます。 ポリシーをカスタマイズすることはできません。設定の各組み合わせに対して事前に定義されたポリシーインスタンスがあります。 
 

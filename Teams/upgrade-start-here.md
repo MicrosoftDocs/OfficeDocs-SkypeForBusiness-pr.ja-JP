@@ -14,7 +14,7 @@ ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.dashboard.helparticle.journeyskypeforbusinessteams
 - ms.teamsadmincenter.dashboard.trainingvideos.journeytoteams
 - ms.teamsadmincenter.dashboard.widget.upgrade.planning
@@ -26,12 +26,12 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.upgradetoteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80f35070b520d53db87b21c9c382a116db83ed4b
-ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
+ms.openlocfilehash: cdaed37210283152d35d2b4d73b9cc03b884ec07
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37305752"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707703"
 ---
 # <a name="getting-started-with-your-microsoft-teams-upgrade"></a>Microsoft Teams へのアップグレードを開始する
 
@@ -45,7 +45,7 @@ Microsoft Teams は、Skype for Business の機能を拡張し、チャット、
 
 ## <a name="when-should-my-organization-upgrade-to-teams"></a>組織が Teams にアップグレードされるのはいつですか?
 
-Skype for Business Online は、2021年7月31日に廃止されます。その後、アクセスまたはサポートされなくなります。 Skype for Business Online サービスは、2021年7月31日までに完全に機能しますが、お客様は今すぐアップグレードを開始することをお勧めします。また、退職日前にアップグレードを完了するために十分な時間を確保することができます。  詳細については、「[退職のお知らせ](https://aka.ms/sfboannounce)」を参照してください。
+Skype for Business Online は 2021 年 7 月 31 日に廃止される予定です。それ以降、アクセスとサポートが終了します。 Skype for Business Online サービスは、2021年7月31日までに完全に機能しますが、お客様は今すぐアップグレードを開始することをお勧めします。また、退職日前にアップグレードを完了するために十分な時間を確保することができます。  詳細については、「[退職のお知らせ](https://aka.ms/sfboannounce)」を参照してください。
 
 ## <a name="can-we-continue-to-use-skype-for-business-online-as-we-prepare-for-and-execute-our-upgrade-to-teams"></a>チームへのアップグレードを準備して実行するために、引き続き Skype for Business Online を使用することはできますか?
 

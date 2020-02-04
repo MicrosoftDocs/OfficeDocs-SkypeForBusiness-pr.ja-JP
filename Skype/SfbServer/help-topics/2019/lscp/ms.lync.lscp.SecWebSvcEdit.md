@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.SecWebSvcEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eddda5af-ddee-4ded-9c70-a07af0f8d14d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 4bb8f8be5deee1c1757b16113e9d865411a27484
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 219deeabc7916104485dbd2f56a24cc695bd5fb0
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34292397"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41704352"
 ---
 # <a name="web-service-security-settings-create-new-or-modify-existing"></a>Web サービスのセキュリティ設定: 新規作成または現在の形式のままで変更
 

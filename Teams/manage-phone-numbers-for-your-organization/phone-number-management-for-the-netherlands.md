@@ -16,16 +16,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: この表は、Microsoft Teams のオランダでの電話番号の取得と管理に関する情報を入手するために使います。
-ms.openlocfilehash: 74801ef2f6f5202679a064b1a63528d81c56869e
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 77e6748873d921a2e25fb10a73010da4dfdc6fc7
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573120"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706962"
 ---
 # <a name="phone-number-management-for-the-netherlands"></a>オランダでの電話番号の管理
 
@@ -45,7 +46,7 @@ ms.locfileid: "37573120"
 
 [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[[[Skype for Business 新しい電話番号の申請](manage-phone-numbers-for-your-organization.md)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。](manage-phone-numbers-for-your-organization.md)
+[組織の電話番号を管理する](manage-phone-numbers-for-your-organization.md)
 
 [緊急通話の利用条件](../emergency-calling-terms-and-conditions.md)
   

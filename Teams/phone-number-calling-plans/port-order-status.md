@@ -1,5 +1,5 @@
 ---
-title: ポート注文の状態は何ですか?
+title: 番号移行注文の状況
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -12,18 +12,18 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: ''
+f1.keywords: ''
 ms.custom:
 - Calling Plans
 description: 'Learn how to get the status of your port orders, and what the different actions you can take on them. '
-ms.openlocfilehash: 7c7b0c745ac4af01b58771463f348f5ac0f3dac7
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 3ad816e9dcedc18fe13d45db0bec36285d4f090f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925677"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708633"
 ---
-# <a name="whats-the-status-of-your-port-orders"></a>ポート注文の状態は何ですか?
+# <a name="whats-the-status-of-your-port-orders"></a>番号移行注文の状況
 
 ポート注文の状態を表示するには、Microsoft Teams 管理センターの左側のナビゲーションで > [**音声** > **ポートの注文**] に移動し、[**注文履歴**] をクリックします。 各ポート注文の状態は、[**状態**」列に表示されます。
 
@@ -43,9 +43,9 @@ ms.locfileid: "37925677"
 
 ヘルプが必要な場合や、その他の電話番号を取得する必要がある場合は、 [PSTN サービスデスクのヘルプを参照](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)してください。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
-- [ポート注文とは何ですか?](port-order-overview.md)
+- [番号移行注文について](port-order-overview.md)
 - [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [組織の電話番号を管理する](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [緊急通話の利用条件](../emergency-calling-terms-and-conditions.md)

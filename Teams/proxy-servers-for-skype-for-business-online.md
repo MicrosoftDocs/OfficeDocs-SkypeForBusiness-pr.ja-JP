@@ -16,16 +16,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Optimization
 description: この記事では、Teams または Skype for Business でのプロキシサーバーの使用について説明します。
-ms.openlocfilehash: b06e7aa43dcbcf5aeab9011af72d94460f69cc63
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e71dd21d8d359093b5dada84a8d0788e8dff6af3
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573208"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708833"
 ---
 # <a name="proxy-servers-for-teams-or-skype-for-business-online"></a>Teams または Skype for Business Online 向けのプロキシ サーバー
 
@@ -57,7 +58,7 @@ Microsoft は次を実行することもお勧めします。
     
 このガイダンスに従うことで、問題が生じる可能性が最小になります。
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Skype for Business Online 向けのネットワークの最適化](https://support.office.com/en-us/article/Optimizing-your-network-for-Skype-for-Business-Online-b363bdca-b00d-4150-96c3-ec7eab5a8a43)
 

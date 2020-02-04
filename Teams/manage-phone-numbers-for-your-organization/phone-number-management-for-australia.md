@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: この表を使用して、Microsoft Teams のオーストラリアでの電話番号の取得と管理に関する情報を参照してください。
-ms.openlocfilehash: f8576f383937a9e8889a660619d169cd657d8de7
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 5c8b5a668c8a1ec0a1ab34bd214955cd7e4ef25b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573164"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707132"
 ---
 # <a name="phone-number-management-for-australia"></a>オーストラリアでの電話番号の管理
 オーストラリアでは、Telstra と提携して、オーストラリアの請求先住所を使って、お客様の通話プランを購入およびプロビジョニングします。 Telstra は、通話プランを販売し、オーストラリアのユーザー番号を提供し、自動応答と通話キューのユーザーとサービス番号の両方に対して電話番号管理のサポートを提供します。 ただし、電話会議用のサービス電話番号とライセンスは、引き続き Office 365 で販売、管理します。
@@ -48,6 +49,6 @@ ms.locfileid: "37573164"
 
 [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[[[Skype for Business 新しい電話番号の申請](manage-phone-numbers-for-your-organization.md)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。](manage-phone-numbers-for-your-organization.md)
+[組織の電話番号を管理する](manage-phone-numbers-for-your-organization.md)
 
 [緊急通話の利用条件](../emergency-calling-terms-and-conditions.md)

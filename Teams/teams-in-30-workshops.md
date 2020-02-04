@@ -14,16 +14,16 @@ ms.collection:
 ms.reviewer: dearbeen, nsuter
 search.appverid: MET150
 description: Microsoft Teams を30日以内にお客様がご利用できるように設計されたライブな対話型ワークショップ
-f1keywords: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
+f1.keywords: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92b57b34eea5459e3d800df49876b133510dbde4
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: fb8d5b133bcc8ee905df51b9c006f173eb4947b6
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570214"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708453"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -106,7 +106,7 @@ ms.locfileid: "37570214"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>エンドユーザーの準備</h3>
+                        <h3>エンド ユーザーを準備させる</h3>
                     <p>Readying の戦略とリソースを確認して、ユーザーのニーズを把握し、チャンピオンの条件を構築し、チームのロールアウトのコアコンポーネントとしてユーザーの承認を確保します。</p><p>対象ユーザー: 所有者の選定と変更</p>
                     </div>
                 </div>

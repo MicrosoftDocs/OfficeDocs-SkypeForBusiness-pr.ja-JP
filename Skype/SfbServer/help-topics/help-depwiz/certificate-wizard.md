@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployCertsMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6ab661d7-5741-4cad-bbe4-62cf862ded85
 description: 証明書の [要求]、[割り当て]、[削除]、または [表示] を行うには、証明書ウィザードを使用します。 この場合は、RTCUniversalServerAdmins グループのメンバーとしてログインする必要があります。 パブリック証明機関 (CA) からの証明書を要求する場合に、別のグループ メンバーシップは不要です。 組織の公開キー基盤 (PKI) に対して証明書を要求するには、必要なグループメンバーシップについて確認する必要があります。 要求タスクでは、PKI の発行 CA から証明書を要求するために使用される代替資格情報を入力できます。
-ms.openlocfilehash: 0ae4a9f5bf80cc33cd743349c5353f40f2fdb986
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 75f324415bbf0af96f79b0e6e5f00e1ee3faaab5
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34301905"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41701142"
 ---
 # <a name="certificate-wizard"></a>証明書ウィザード
  

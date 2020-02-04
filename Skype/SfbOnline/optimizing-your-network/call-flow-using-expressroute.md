@@ -15,16 +15,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Optimization
 description: この記事では、Skype for Business Online および ExpressRoute の核となるコール フローの原則について説明し、これらのサービスを正しく理解し計画できるよう詳細な例をいくつか示します。
-ms.openlocfilehash: 59198cf24445ba486b193436b4374fea6698f146
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 3c728dab868177aab07c6fe618fba3a8c357eaa2
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792632"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706672"
 ---
 # <a name="call-flow-using-expressroute"></a>ExpressRoute を使用したコール フロー
 
@@ -66,7 +67,7 @@ Skype for Business Online を Office 365、Skype for Business Server ハイブ�
 
  **インターネット** これは、ネットワーク全体の中で、組織のネットワークの外部から Skype for Business Online に接続しているユーザーが使用するネットワーク セグメントで、ExpressRoute が構成されていない場合にすべての接続に使用されます。インターネットおよびそのすべての接続は組織の管理者または Microsoft によって管理されないため、パフォーマンスおよびルーティング パスを決めることはできず、これは全体のコール フローと品質に最も大きく影響します。
 
- **ExpressRoute**これは、Microsoft ネットワークに対する専用のプライベートな接続を提供する、ネットワーク全体の一部であるネットワークセグメントです。 これは、Skype for Business Online のリアルタイム通信など、ネットワークの速度とパフォーマンスに依存するすべてのワークロードについて、ネットワークを Microsoft ネットワーク (Office 365 データセンター) に接続する場合に推奨されるオプションです。 ExpressRoute 接続は、ネットワークと Microsoft ネットワークの間で確立されます。 99.9% の稼働時間とパフォーマンスを向上させることができる QoS (Quality of Service (QoS) のサポート) により、プライベートおよび管理のネットワークを提供するために[expressroute 接続プロバイダー](https://azure.microsoft.com/documentation/articles/expressroute-locations/)を使用しています。ネットワーク輻輳が発生している間、リアルタイムメディアを使用できます。
+ **ExpressRoute**これは、Microsoft ネットワークに対する専用のプライベートな接続を提供する、ネットワーク全体の一部であるネットワークセグメントです。 これは、Skype for Business Online のリアルタイム通信など、ネットワークの速度とパフォーマンスに依存するすべてのワークロードについて、ネットワークを Microsoft ネットワーク (Office 365 データセンター) に接続する場合に推奨されるオプションです。 ExpressRoute 接続は、ネットワークと Microsoft ネットワークの間で確立されます。99.9% の稼働時間と QoS (Quality of Service (QoS) の[サポートにより](https://azure.microsoft.com/documentation/articles/expressroute-locations/)、ネットワークの輻輳が発生している間、リアルタイムのメディアのパフォーマンスが向上します。
 
  **Microsoft ネットワーク** これは、ネットワーク全体の中で、Office 365 サービスをサポートするネットワーク セグメントです。これには、Office 365 用のオンライン サーバー間のすべての接続が含まれます。Microsoft ネットワーク バックボーンをトラバースし、地理的地域間で送信されるトラフィックが含まれる可能性があります。
 

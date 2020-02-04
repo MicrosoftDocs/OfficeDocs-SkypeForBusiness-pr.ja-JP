@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: この表を使って、Microsoft Teams の日本での電話番号の取得と管理に関する情報を参照してください。
-ms.openlocfilehash: c3e8692b4095843d17352c13509deaa701aa6e54
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 47a4e034b298cdf751349e9cfbdc9947c8cc898f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573131"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706992"
 ---
 # <a name="phone-number-management-for-japan"></a>日本の電話番号の管理
 
@@ -51,6 +52,6 @@ ms.locfileid: "37573131"
 
 [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[[[Skype for Business 新しい電話番号の申請](manage-phone-numbers-for-your-organization.md)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。](manage-phone-numbers-for-your-organization.md)
+[組織の電話番号を管理する](manage-phone-numbers-for-your-organization.md)
 
 [緊急通話の利用条件](../emergency-calling-terms-and-conditions.md)

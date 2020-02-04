@@ -16,16 +16,17 @@ appliesto:
 - Skype for Business Online
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Security
 description: Skype for Business Online セキュリティ ガイド <add description>
-ms.openlocfilehash: 8fb0ef5322af99e3868a64be4101cf898918c449
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 268a9859439ca91b5ad7cd8d5e32edf707860cde
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298030"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706812"
 ---
 # <a name="security-and-skype-for-business-online"></a>セキュリティと Skype for Business Online
 

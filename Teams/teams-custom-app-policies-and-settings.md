@@ -15,17 +15,17 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: カスタムアプリポリシーと設定を管理して、組織内のユーザーが Microsoft Teams でカスタムアプリをアップロードできるユーザーを制御する方法について説明します。
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.allowsideloading
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
-ms.openlocfilehash: 8a4d7b60485f9411faeb46f8745735039f4dd21b
-ms.sourcegitcommit: 57304ac641931eed87e649555fd5eb5e58732dc5
+ms.openlocfilehash: 5357f368d6c5716c5af30e110a9193c4b4c2ad5f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39679317"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708463"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Microsoft Teams のカスタム アプリのポリシーと設定を管理する
 
@@ -73,7 +73,7 @@ ms.locfileid: "39679317"
 2. [**追加**] をクリックします。
 3. [**カスタムアプリのアップロードを許可する**] をオンまたはオフにします。
 4. ポリシーに対して必要なその他の設定を選びます。
-5. [**保存**] をクリックします。
+5. **[保存]** をクリックします。
 
 ### <a name="team-custom-app-setting"></a>チームのカスタムアプリの設定
 
@@ -129,5 +129,5 @@ ms.locfileid: "39679317"
 | オン     | オン     | オフ         | ユーザーがカスタムアプリをアップロードすることはできません。       |
 | オン    | オン        | オン        | ユーザーがチーム所有者であるかどうかに関係なく、ユーザーはカスタムアプリをチームにアップロードできます。 ユーザーは、個人用コンテキストでカスタムアプリをアップロードできます。       |
 
- ## <a name="related-topics"></a>関連項目
+ ## <a name="related-topics"></a>関連トピック
 - [Teams でのアプリの管理設定](admin-settings.md)

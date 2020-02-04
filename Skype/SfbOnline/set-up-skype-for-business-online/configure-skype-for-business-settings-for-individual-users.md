@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1_keywords:
+f1.keywords:
 - ms.lync.lac.UsersExternalAccess
 - ms.lync.lac.UsersGeneralOptions
 - ms.lync.lac.UsersLyncToPhoneMoreInfo
@@ -22,12 +22,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'Skype for Business の設定を変更する方法について説明します。たとえば、音声会議やビデオ会議、通話と会議の記録などがあります。 '
-ms.openlocfilehash: 8fa6af4099238f9ab908de2ea8c37340f93c3dff
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: a384acdadb6ca4df621d45abdde4157df2029619
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494171"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706512"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>管理者: 個別のユーザーの Skype for Business の設定を構成する
 
@@ -44,7 +44,7 @@ ms.locfileid: "34494171"
 
 これらの手順を実行するには、[管理者権限](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)が必要です。
 
-![](../images/sfb-logo-30x30.png) **Skype for business 管理センターを使用し**た skype for business ロゴを示すアイコン
+![Skype for Business のロゴを表示したアイコン](../images/sfb-logo-30x30.png) **Skype for Business 管理センターの使用**
   
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
@@ -75,7 +75,7 @@ ms.locfileid: "34494171"
 
 [Skype For business ユーザー](let-skype-for-business-users-add-skype-contacts.md)が会社のすべてのユーザーに skype 連絡先を追加できるようにすると、次の手順を使用して、特定のユーザーの外部通信を個別にブロックすることができます。
   
-1. [**ユーザー**] を選び、設定を無効にするユーザーを選択して**** ![、[](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png)編集] を選びます。
+1. [**ユーザー**] を選び、設定を無効にするユーザーを選択して、 **[編集] を選び** ![](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png)ます。
     
 2. [**外部通信**] を選択し、必要に応じてオプションをオフにします。
     
@@ -83,14 +83,14 @@ ms.locfileid: "34494171"
     
    - **外部の Skype ユーザー**: freeSkype アプリを使用しているユーザーとの通信を可能にしない場合は、このボックスをオフにします。
     
-3. [**保存**] をクリックします。
+3. **[保存]** をクリックします。
     
 これらの設定をまとめて構成するには、PowerShell を使用します。 「 [Windows PowerShell 用にコンピューターをセットアップする」を](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)参照してください。
   
 ## <a name="edit-audio-conferencing-settings-for-one-user"></a>1人のユーザーの電話会議の設定を編集する
 <a name="__toc314837483"> </a>
 
-1. [**ユーザー**] を選び、電話会議の設定を編集するユーザーを選び、[編集**** ![] を](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png)選びます。
+1. [**ユーザー**] を選び、電話会議の設定を編集するユーザーを選び、[編集 **] を選び** ![](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png)ます。
     
 2. [**電話会議**] を選び、電話会議プロバイダーを選んで、要求された情報を入力または変更し、[**保存**] をクリックします。
     
@@ -99,9 +99,9 @@ ms.locfileid: "34494171"
 |**プロバイダー名** <br/> |リストからプロバイダーを選択します。  <br/> |
 |**有料電話番号** (必須) <br/> |サードパーティ ACP の場合、これらの電話番号は、電話会議プロバイダーから受け取った電話番号です。 ユーザーが、Microsoft を電話会議プロバイダーとして使用している場合は、これらは電話会議ブリッジで設定されている番号となります。 Skype for Business および Microsoft Teams の会議出席依頼に表示する番号の書式を設定します。  <br/> |
 |**フリー ダイヤル番号** <br/> |サードパーティ ACP の場合、これらの電話番号は、電話会議プロバイダーから受け取った電話番号です。 ユーザーが、Microsoft を電話会議プロバイダーとして使用している場合は、これらは電話会議ブリッジで設定されている番号となります。 Skype for Business および Microsoft Teams の会議出席依頼に表示する番号の書式を設定します。  <br/> |
-|**会議 ID と PIN**任意 <br/> |このユーザーによってスケジュールされ、サードパーティの電話会議プロバイダーから提供された会議に参加するために使用される、参加者の PIN (会議コード) です。 ユーザーが Microsoft を電話会議プロバイダーとして使用している場合は、この操作は必要ありません。  <br/> |
+|**会議 ID と PIN** (必須) <br/> |このユーザーによってスケジュールされ、サードパーティの電話会議プロバイダーから提供された会議に参加するために使用される、参加者の PIN (会議コード) です。 ユーザーが Microsoft を電話会議プロバイダーとして使用している場合は、この操作は必要ありません。  <br/> |
    
-これらの設定をまとめて構成するには、PowerShell を使用します。 「[招待に含まれている電話番号を設定する](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md) [](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)」を参照してください。
+これらの設定をまとめて構成するには、PowerShell を使用します。 「[招待に含まれている電話番号を設定する](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md)」を[参照してください。](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
 
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]

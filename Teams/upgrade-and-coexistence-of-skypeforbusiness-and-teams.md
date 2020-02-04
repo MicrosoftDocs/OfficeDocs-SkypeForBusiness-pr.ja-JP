@@ -11,7 +11,7 @@ description: Skype for Business と Microsoft Teams の共存オプションお�
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.orgwidesettings.teamsfeatures.upgradetoteamsarticle
 - ms.teamsadmincenter.upgradeoverride.learnmore
 ms.collection:
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5de243402cd5694b2e4a498f7ff7650cd8f49f4a
-ms.sourcegitcommit: 2e005b335b1566c99b93fc311498702838466324
-ms.translationtype: HT
+ms.openlocfilehash: 6d9f4583e3ea15a073e0dbbebbebaee9db64678d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "37931645"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707532"
 ---
 ![プロジェクトの定義ステージが強調表示されたアップグレード行程図](media/upgrade-banner-project-definition.png "「プロジェクトの定義」段階が強調表示された、アップグレード行程の各段階")
 

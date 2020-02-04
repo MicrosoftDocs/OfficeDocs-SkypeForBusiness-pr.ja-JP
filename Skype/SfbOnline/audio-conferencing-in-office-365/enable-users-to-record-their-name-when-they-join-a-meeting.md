@@ -16,16 +16,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: Skype for Business Online の会議に参加したときにユーザーが名前を記録できるかどうかを有効または無効にする方法について説明します。
-ms.openlocfilehash: 19fad95c0775663db799a59da159ed145aedda6b
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 88c1a24acc6d623410ec8048a7e41d5c9f17d637
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792300"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707212"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-skype-for-business-online"></a>Skype for Business Online の会議に参加したときにユーザーが名前を記録できるようにする
 

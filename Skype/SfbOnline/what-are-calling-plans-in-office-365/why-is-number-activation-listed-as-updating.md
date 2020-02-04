@@ -16,17 +16,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
+f1.keywords:
 - ms.lync.lac.NumberActivationStateUpdating
 ms.custom:
 - Calling Plans
 description: 住所検証は、Office 365 の通話プランのセットアップで重要な部分です。 これにより、組織のユーザーに対して、緊急応答サービスで使用できる緊急通話の住所が提供されます。
-ms.openlocfilehash: 7aefb714e3a27fb483bd6ff2e2d37ae15ed4a541
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 624c222123a1ec346b0624e5f39bf972a4257d99
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793376"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705822"
 ---
 # <a name="why-is-number-activation-listed-as-updating"></a>番号の有効化が更新として表示されるのはなぜですか?
 

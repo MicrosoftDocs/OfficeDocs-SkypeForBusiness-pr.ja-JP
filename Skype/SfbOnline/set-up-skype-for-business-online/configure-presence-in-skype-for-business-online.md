@@ -14,17 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - O365P_OnlinePresenceDesc
 ms.custom:
 - Setup
 description: 'Learn how to set up Skype for Business so you can see the availability of your co-workers. '
-ms.openlocfilehash: ba6ff112eee78e6e70b435b19caa62187a98afcf
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 7e0389d232d1b05a39827ed89e82acb6aa35a82a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793346"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706522"
 ---
 # <a name="configure-presence-in-skype-for-business-online"></a>Skype for Business Online でプレゼンスを設定する
 
@@ -34,7 +34,7 @@ ms.locfileid: "35793346"
 
 組織内のすべてのユーザーの**[管理者](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** として、Skype for business でオンラインプレゼンスを表示できるユーザーを選ぶことができます。
 
-![](../images/sfb-logo-30x30.png) **Skype for business 管理センターを使用し**た skype for business ロゴを示すアイコン
+![Skype for Business のロゴを表示したアイコン](../images/sfb-logo-30x30.png) **Skype for Business 管理センターの使用**
 
 1. 管理センター >**管理センター** > **Skype for business**に移動します。
 
@@ -55,7 +55,7 @@ Skype for Business でユーザーが変更できる操作については、次�
 
 ## <a name="related-topics"></a>関連トピック
 
-[Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)
+[Skype for Business Online をセットアップする](set-up-skype-for-business-online.md)
 
 [Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)
 

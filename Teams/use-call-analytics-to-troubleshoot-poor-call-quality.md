@@ -17,18 +17,18 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.directrouting.callanalytics
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 ms.custom:
 - Reporting
 description: デバイス、ネットワーク、接続に関する通話分析の詳細を使用して、Microsoft Teams および Skype for Business の通話と会議でのユーザーの問題のトラブルシューティングを行います。
-ms.openlocfilehash: 4b2d6a5a18bf0a13f3fd32aecb8ad98192f3851a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e8b1fe4bbad2b744310d0b609fdc6c6d5a23fea2
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568636"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707723"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>通話分析を使用して低品質の通話をトラブルシューティングする
 
@@ -87,7 +87,7 @@ Quality of experience (QoE) データを持つオーディオセッションに�
 |オーディオネットワークで分類された低品質通話  <br/> |Session  <br/> |ネットワーク品質の問題 (パケット損失、ジッター、NMOS 劣化、RTT、または隠れた比率など) が発生しました。 不適切な通話の分類に使われる条件の詳細については、 [Microsoft ブログの投稿](https://go.microsoft.com/fwlink/p/?linkid=852133)を参照してください。  <br/> |
 |デバイスが機能しない  <br/> |Device  <br/> | デバイスが正常に機能していません。 機能していないデバイスの比率は次のとおりです。 <br/>  DeviceRenderNotFunctioningEventRatio >= 0.005 <br/>  DeviceCaptureNotFunctioningEventRatio >= 0.005 <br/> |
    
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [通話分析をセットアップする](set-up-call-analytics.md)
 
 [通話分析および通話品質ダッシュボード](difference-between-call-analytics-and-call-quality-dashboard.md)

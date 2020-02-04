@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Reporting
 description: 'Use this reference guide to learn about Skype for Business Online reporting and what info is available. '
-ms.openlocfilehash: 77a3068ef1bf8038d2d433fce483e53824668684
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 24574fdc572eeca323487b40ff9a1d5874f4f5ea
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793044"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705952"
 ---
 # <a name="skype-for-business-online-reporting"></a>Skype for Business Online のレポート
 
@@ -32,7 +33,7 @@ ms.locfileid: "35793044"
 Skype for Business Online レポートにアクセスするには、ユーザーアカウントとパスワードを使用して Microsoft 365 管理センターにログオンします。 レポートを表示するには、ログオンに使用するアカウントに、全体管理者の役割または代理 Skype for Business サービス管理者の役割が割り当てられている必要があります。
   
 > [!NOTE]
-> 権限を確認するには、管理センター **** > の [**アクティブな**ユーザー] > ます。 Click the display name of the user and then click **Edit** and one the account properties page, click **Roles**
+> 権限を確認するには、管理センターの [ > **アクティブな****ユーザー] > ます**。 Click the display name of the user and then click **Edit** and one the account properties page, click **Roles**
   
 ## <a name="skype-for-business-online-reporting-reference"></a>Skype for Business Online レポート リファレンス
 

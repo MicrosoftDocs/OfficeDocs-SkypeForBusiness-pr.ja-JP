@@ -14,23 +14,23 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - O365P_RecordingDesc
 ms.custom:
 - Setup
 description: '電話会議およびビデオ会議の記録を有効にし、対処方法を説明する方法は、レコーディングには含まれていません。 '
-ms.openlocfilehash: a7bb57fa4fe0124a4e2d6afb262fd298cb29e419
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 551e7d748a849ae945226b4aa1ef1640e3163da0
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792602"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706492"
 ---
 # <a name="let-people-record-their-audio-and-video-conferences"></a>音声やビデオ会議をレコーディングする
 
 ## <a name="choose-the-default-recording-setting-for-a-single-user-or-everyone-in-your-organization"></a>組織で単一のユーザーまたはすべてのユーザーの設定を記録する既定値を選択します
 
-![](../images/sfb-logo-30x30.png) **Skype for business 管理センターを使用し**た skype for business ロゴを示すアイコン
+![Skype for Business のロゴを表示したアイコン](../images/sfb-logo-30x30.png) **Skype for Business 管理センターの使用**
 
 1. [ **Skype For business**] > 管理センターに移動して、[**ユーザー**] をクリックします。
     
@@ -47,7 +47,7 @@ ms.locfileid: "35792602"
 詳細については、 [[Lync の記録を保存して公開](https://support.office.com/en-US/Article/83cf1507-0f05-40f5-a520-5a6c133bc33e) ]および[ [Lync の記録マネージャー](https://support.office.com/en-US/Article/fa915c55-ff55-45c0-b372-1ef5596da10b)]を参照してください。 
   
 ## <a name="related-topics"></a>関連トピック
-[Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)
+[Skype for Business Online をセットアップする](set-up-skype-for-business-online.md)
 
 [Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)
 

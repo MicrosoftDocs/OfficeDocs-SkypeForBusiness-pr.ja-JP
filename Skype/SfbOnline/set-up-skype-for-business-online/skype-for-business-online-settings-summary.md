@@ -15,16 +15,17 @@ ms.appliesto:
 - Skype for Business
 localization_priority: Normal
 ROBOTS: NOIDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: 'Skype for Business の組織とユーザーの設定の概要は、パブリック IM 接続、会議出席依頼、通話や会議のレコーディングなどの詳細情報を確認するのに役立ちます。  '
-ms.openlocfilehash: b039a97aea20fb4914deb077bd4aa76dbf13c1b3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fd8db122b1e0ec8ef205c07f68826dea83a833c7
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285096"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706462"
 ---
 # <a name="skype-for-business-online-settings-summary"></a>Skype for Business Online の設定の概要
 
@@ -55,7 +56,7 @@ ms.locfileid: "34285096"
 |アーカイブされていない機能を無効にする  <br/> | 組織で「ケースにコンテンツを追加する」を設定し、Exchange 管理センターの[電子情報開示センターでソースを保留](https://go.microsoft.com/fwlink/?LinkId=529482)にすると、キャプチャされていない機能がオフになります。 <br/>  インスタント メッセージングを使用したファイルの転送 <br/>  OneNote の共有ページ <br/>  PowerPoint のコメント <br/>  電子的に保存した情報の保管を法律で要請されている場合は、このオプションを選んでください。 <br/> |無効  <br/> |[管理者: 個別のユーザーの Skype for Business の設定を構成する](configure-skype-for-business-settings-for-individual-users.md) <br/> |
    
 ## <a name="related-topics"></a>関連トピック
-[Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)
+[Skype for Business Online をセットアップする](set-up-skype-for-business-online.md)
 
 [Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)
 

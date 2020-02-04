@@ -15,19 +15,19 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.voice.pstnservicedesk
 - ms.teamsadmincenter.voice.contactPSTNsupport
 ROBOTS: NOINDEX, NOFOLLOW
 ms.custom:
 - Calling Plans
 description: 組織で電話番号を取得したり、番号を移行 (転送) したりする場合、PSTN サービスデスクでヘルプとサポートを受ける必要がある場合があります。
-ms.openlocfilehash: 72484e6957a17593c6a286505dfce00e051f0762
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 69e3d8dfc3d4568ca4801105459580b5f108e5a0
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570613"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707242"
 ---
 # <a name="pstn-service-desk-help"></a>PSTN サービスデスクのヘルプ
 
@@ -42,7 +42,7 @@ ms.locfileid: "37570613"
 
 [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[[[Skype for Business 新しい電話番号の申請](manage-phone-numbers-for-your-organization.md)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。](manage-phone-numbers-for-your-organization.md)
+[組織の電話番号を管理する](manage-phone-numbers-for-your-organization.md)
 
 [緊急通話の利用条件](../emergency-calling-terms-and-conditions.md)
   

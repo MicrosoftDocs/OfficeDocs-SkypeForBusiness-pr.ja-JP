@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.MonArchPolicyMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9b69f1fa-8f3b-450e-aa89-91fd462f198d
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype for Business Server を使用しているユーザーのアーカイブを有効または無効にするには、アーカイブポリシーを使います。 それぞれのアーカイブ ポリシーでは、次のどちらかまたは両方のアーカイブを有効化または無効化できます。
-ms.openlocfilehash: bdeb7925256e47ac61d0210e1be36e28dbdfc0d1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 63d1001a972b185fd8e36596798bc23e36a6ca3a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291944"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41704792"
 ---
 # <a name="archiving-policy"></a>アーカイブ ポリシー
  
@@ -66,5 +66,5 @@ Skype for Business Server を使用しているユーザーのアーカイブを
     
 - **更新**[**アーカイブポリシー** ] ページを更新して、すべてのアーカイブポリシーのオプションの状態を確認できます。
     
-Exchange 統合などのアーカイブ機能と機能の詳細については、「skype for [Business server のアーカイブの計画](../../../plan-your-deployment/archiving/archiving.md)」、「 [Skype for business server の](../../../deploy/deploy-archiving/deploy-archiving.md)アーカイブの展開」、「 [skype for Business でのアーカイブの管理」をご覧ください。サーバー](../../../manage/archiving/archiving.md)。
+Exchange の統合を含むアーカイブ機能の詳細については、「skype for [Business server のアーカイブの計画](../../../plan-your-deployment/archiving/archiving.md)」、「skype for business server[のアーカイブの展開](../../../deploy/deploy-archiving/deploy-archiving.md)」、「 [skype for business Server でのアーカイブの管理](../../../manage/archiving/archiving.md)」を参照してください。
 

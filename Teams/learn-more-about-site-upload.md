@@ -14,18 +14,18 @@ ms.collection:
 description: 通話分析と通話品質ダッシュボードレポートのレポートラベルとして使用する、物理的な場所と関連するサブネットの一覧が含まれているテキストファイルをアップロードする方法について説明します。
 ms.custom:
 - NewAdminCenter_Update
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.locations.reportinglabels.overview
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.location
 - ms.teamsadmincenter.locations.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0519af0f9c26260f23e2a0dd9b0c60a676aa5766
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 19d3197d91b7139089a940c19ff23c1dcc99a290
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572038"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707863"
 ---
 <a name="add-and-update-reporting-labels"></a>レポート ラベルを追加して更新する
 ============================
@@ -57,6 +57,6 @@ ms.locfileid: "37572038"
 
 データファイルの書式設定の詳細については、「[テナントデータファイルの形式と建物データファイルの構造](turning-on-and-using-call-quality-dashboard.md#tenant-data-file-format-and-structure)」を参照してください。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [通話分析をセットアップする](set-up-call-analytics.md)
