@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Standard Edition サーバーの DNS 要件'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS requirements for Standard Edition servers
 ms:assetid: 3d6bbe65-e7ce-491b-a0bd-d2f7197f240d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425900(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183920
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 19c5e04f23428b073e544b040ed07dc852f1da4c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3132ec1e18d27564f0077e83d411c5b3930c241b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833358"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737367"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -63,7 +65,7 @@ _**最終更新日:** 2012-06-19_
 </tr>
 <tr class="even">
 <td><p>自動クライアントサインイン</p></td>
-<td><p>サポートされている各 SIP ドメインについて、_sipinternaltls の SRV レコード。 _tcp&lt;サインイン&gt;のためのクライアント要求を認証してリダイレクトする標準エディションサーバーの FQDN にマップされる、ポート5061経由のドメイン。 詳細については、「 <a href="lync-server-2013-dns-requirements-for-automatic-client-sign-in.md">Lync Server 2013 での自動クライアントサインインの DNS 要件</a>」を参照してください。</p></td>
+<td><p>サポートされている各 SIP ドメインについて、_sipinternaltls の SRV レコード。 _tcp。&lt;サインイン&gt;のためのクライアント要求を認証してリダイレクトする標準エディションサーバーの FQDN にマップされる、ポート5061経由のドメイン。 詳細については、「 <a href="lync-server-2013-dns-requirements-for-automatic-client-sign-in.md">Lync Server 2013 での自動クライアントサインインの DNS 要件</a>」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p>ユニファイドコミュニケーション (UC) デバイスによるデバイス更新 Web サービスの検出</p></td>

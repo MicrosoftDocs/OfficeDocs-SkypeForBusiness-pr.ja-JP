@@ -3,6 +3,8 @@ title: 'Lync Server 2013: リモート通話コントロールの Lync ユーザ
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enable Lync users for remote call control
 ms:assetid: f39bc10d-034c-4875-a0b8-554e1109e7e6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615048(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185795
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c6eae16d6dae46bab4f6cf745bc2e2a827eabcb3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 260cfc2d3a0b185d58e90f4944162ea23135a0b9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833314"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736237"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -79,7 +81,7 @@ _**最終更新日:** 2012-09-21_
 
 3.  左側のナビゲーション バーで [**ユーザー**] をクリックします。
 
-4.  [**ユーザーの検索**] ボックスに、表示名、名、姓、セキュリティアカウントマネージャー (SAM) アカウント名、SIP アドレス、または必要なユーザーアカウントの行の Uniform resource IDENTIFIER (URI) のすべて (または最初の部分) を入力し、[] をクリック**します。検索**します。
+4.  [**ユーザーの検索**] ボックスに、表示名、名、姓、セキュリティアカウントマネージャー (SAM) アカウント名、SIP アドレス、または必要なユーザーアカウントの行の Uniform resource IDENTIFIER (URI) のすべて (または最初の部分) を入力し、[**検索**] をクリックします。
 
 5.  表で、変更するユーザーアカウントをクリックします。
 
