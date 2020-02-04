@@ -14,76 +14,76 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: ms.teamsadmincenter.orgwidesettings.holidays.overview
+f1.keywords: ms.teamsadmincenter.orgwidesettings.holidays.overview
 description: Microsoft Teams で休日を設定し、自動応答に接続する方法について説明します。
-ms.openlocfilehash: ee07b33325ee436f6f0397a30034f40db819be09
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 3f52cd1e99a2dec23cae5e6b9f80dd664017d881
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571570"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693842"
 ---
-# <a name="set-up-holidays-in-microsoft-teams"></a><span data-ttu-id="db4b8-103">Microsoft Teams で休日を設定する</span><span class="sxs-lookup"><span data-stu-id="db4b8-103">Set up holidays in Microsoft Teams</span></span>
+# <a name="set-up-holidays-in-microsoft-teams"></a><span data-ttu-id="aba03-103">Microsoft Teams で休日を設定する</span><span class="sxs-lookup"><span data-stu-id="aba03-103">Set up holidays in Microsoft Teams</span></span>
 
-<span data-ttu-id="db4b8-104">Microsoft Teams の祝日機能を使用すると、組織内のユーザーが業務から休暇を取り、通常の営業時間内には利用できないようにする場合に、特定の日付と時刻をスケジュールすることができます。</span><span class="sxs-lookup"><span data-stu-id="db4b8-104">You can use the Microsoft Teams Holidays feature to schedule specific dates and times when people in your organization will be taking time off from work and won’t be available during regular business hours.</span></span> 
+<span data-ttu-id="aba03-104">Microsoft Teams の祝日機能を使用すると、組織内のユーザーが業務から休暇を取り、通常の営業時間内には利用できないようにする場合に、特定の日付と時刻をスケジュールすることができます。</span><span class="sxs-lookup"><span data-stu-id="aba03-104">You can use the Microsoft Teams Holidays feature to schedule specific dates and times when people in your organization will be taking time off from work and won’t be available during regular business hours.</span></span> 
 
-<span data-ttu-id="db4b8-105">組織内で作成した自動応答に休日をリンクすることができます。</span><span class="sxs-lookup"><span data-stu-id="db4b8-105">You can link the holidays to auto attendants that you create within your organization.</span></span> <span data-ttu-id="db4b8-106">自動応答を使うと、呼び出し元はメニューシステムを移動して適切な部門にアクセスしたり、必要な情報を取得したりできます。</span><span class="sxs-lookup"><span data-stu-id="db4b8-106">Auto attendants let callers navigate a menu system to get to the right department or get to information that they need.</span></span> <span data-ttu-id="db4b8-107">自動応答の休日通話の設定を構成する場合、リストから休日を選択し、あいさつ文を追加して、休暇中に自動応答によって応答されたときの通話の処理を指定することができます。</span><span class="sxs-lookup"><span data-stu-id="db4b8-107">When you configure holiday call settings for an auto attendant, you can select the holiday from a list, add a greeting, and specify what to do with the call when it’s answered by the auto attendant during the holiday.</span></span>
+<span data-ttu-id="aba03-105">組織内で作成した自動応答に休日をリンクすることができます。</span><span class="sxs-lookup"><span data-stu-id="aba03-105">You can link the holidays to auto attendants that you create within your organization.</span></span> <span data-ttu-id="aba03-106">自動応答を使うと、呼び出し元はメニューシステムを移動して適切な部門にアクセスしたり、必要な情報を取得したりできます。</span><span class="sxs-lookup"><span data-stu-id="aba03-106">Auto attendants let callers navigate a menu system to get to the right department or get to information that they need.</span></span> <span data-ttu-id="aba03-107">自動応答の休日通話の設定を構成する場合、リストから休日を選択し、あいさつ文を追加して、休暇中に自動応答によって応答されたときの通話の処理を指定することができます。</span><span class="sxs-lookup"><span data-stu-id="aba03-107">When you configure holiday call settings for an auto attendant, you can select the holiday from a list, add a greeting, and specify what to do with the call when it’s answered by the auto attendant during the holiday.</span></span>
 
-<span data-ttu-id="db4b8-108">良い例としては、従業員の人数が多すぎてクリスマスの休日を作ることができます。</span><span class="sxs-lookup"><span data-stu-id="db4b8-108">A good example is creating a holiday for Christmas for when many of your employees aren’t at work.</span></span> <span data-ttu-id="db4b8-109">休日を作成し、時刻を設定した後は、休日をメインの自動応答に追加することで、ユーザーが電話をかけたときに、作成した音声メッセージが聞こえます。</span><span class="sxs-lookup"><span data-stu-id="db4b8-109">After you create the holiday and set times, then you would add the holiday to your main auto attendant so when people call in, they will hear an audio message you created.</span></span> <span data-ttu-id="db4b8-110">「お客様は、"クリスマス・年12月22日から12月27日までに終了しました。</span><span class="sxs-lookup"><span data-stu-id="db4b8-110">Something like, “We are closed for Christmas from December 22nd through December 27th.</span></span> <span data-ttu-id="db4b8-111">お客さまの勤務先に戻ってきた場合は、音声メッセージをお送りください。</span><span class="sxs-lookup"><span data-stu-id="db4b8-111">Please leave us a voice message so we can return your call when we are back in the office.”</span></span>
+<span data-ttu-id="aba03-108">良い例としては、従業員の人数が多すぎてクリスマスの休日を作ることができます。</span><span class="sxs-lookup"><span data-stu-id="aba03-108">A good example is creating a holiday for Christmas for when many of your employees aren’t at work.</span></span> <span data-ttu-id="aba03-109">休日を作成し、時刻を設定した後は、休日をメインの自動応答に追加することで、ユーザーが電話をかけたときに、作成した音声メッセージが聞こえます。</span><span class="sxs-lookup"><span data-stu-id="aba03-109">After you create the holiday and set times, then you would add the holiday to your main auto attendant so when people call in, they will hear an audio message you created.</span></span> <span data-ttu-id="aba03-110">「お客様は、"クリスマス・年12月22日から12月27日までに終了しました。</span><span class="sxs-lookup"><span data-stu-id="aba03-110">Something like, “We are closed for Christmas from December 22nd through December 27th.</span></span> <span data-ttu-id="aba03-111">お客さまの勤務先に戻ってきた場合は、音声メッセージをお送りください。</span><span class="sxs-lookup"><span data-stu-id="aba03-111">Please leave us a voice message so we can return your call when we are back in the office.”</span></span>
 
-<span data-ttu-id="db4b8-112">自動応答の詳細については、「[クラウド自動応答とは何](what-are-phone-system-auto-attendants.md)ですか?」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="db4b8-112">For more information about auto attendants, see [What are Cloud auto attendants](what-are-phone-system-auto-attendants.md)?</span></span>  
+<span data-ttu-id="aba03-112">自動応答の詳細については、「[クラウド自動応答とは何](what-are-phone-system-auto-attendants.md)ですか?」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="aba03-112">For more information about auto attendants, see [What are Cloud auto attendants](what-are-phone-system-auto-attendants.md)?</span></span>  
 
-## <a name="create-a-holiday"></a><span data-ttu-id="db4b8-113">休日を作成する</span><span class="sxs-lookup"><span data-stu-id="db4b8-113">Create a holiday</span></span>
+## <a name="create-a-holiday"></a><span data-ttu-id="aba03-113">休日を作成する</span><span class="sxs-lookup"><span data-stu-id="aba03-113">Create a holiday</span></span>
 
-1. <span data-ttu-id="db4b8-114">Microsoft Teams 管理センターで、[**組織全体の設定** > **休日**] に移動します。</span><span class="sxs-lookup"><span data-stu-id="db4b8-114">In the Microsoft Teams admin center, go to **Org-wide settings** > **Holidays**.</span></span>
+1. <span data-ttu-id="aba03-114">Microsoft Teams 管理センターで、[**組織全体の設定** > **休日**] に移動します。</span><span class="sxs-lookup"><span data-stu-id="aba03-114">In the Microsoft Teams admin center, go to **Org-wide settings** > **Holidays**.</span></span>
 
-2. <span data-ttu-id="db4b8-115">[**新しい休日**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="db4b8-115">Select **New holiday**.</span></span>
+2. <span data-ttu-id="aba03-115">[**新しい休日**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="aba03-115">Select **New holiday**.</span></span>
 
-3. <span data-ttu-id="db4b8-116">休日の名前を入力します。</span><span class="sxs-lookup"><span data-stu-id="db4b8-116">Enter a name for the holiday.</span></span>
+3. <span data-ttu-id="aba03-116">休日の名前を入力します。</span><span class="sxs-lookup"><span data-stu-id="aba03-116">Enter a name for the holiday.</span></span>
 
-4. <span data-ttu-id="db4b8-117">[ **Add new date**] を選びます。</span><span class="sxs-lookup"><span data-stu-id="db4b8-117">Select **Add new date**.</span></span>
+4. <span data-ttu-id="aba03-117">[ **Add new date**] を選びます。</span><span class="sxs-lookup"><span data-stu-id="aba03-117">Select **Add new date**.</span></span>
 
-5. <span data-ttu-id="db4b8-118">[**開始時刻**] で、予定表アイコンを選択し、休日の開始日を選択します。</span><span class="sxs-lookup"><span data-stu-id="db4b8-118">Under **Start time**, select the calendar icon and choose the date when you’d like the holiday to begin.</span></span>
+5. <span data-ttu-id="aba03-118">[**開始時刻**] で、予定表アイコンを選択し、休日の開始日を選択します。</span><span class="sxs-lookup"><span data-stu-id="aba03-118">Under **Start time**, select the calendar icon and choose the date when you’d like the holiday to begin.</span></span>
 
-6. <span data-ttu-id="db4b8-119">ドロップダウンリストを使用して、休日の開始時刻を選択します。</span><span class="sxs-lookup"><span data-stu-id="db4b8-119">Use the drop-down list to select a start time for the holiday.</span></span>
+6. <span data-ttu-id="aba03-119">ドロップダウンリストを使用して、休日の開始時刻を選択します。</span><span class="sxs-lookup"><span data-stu-id="aba03-119">Use the drop-down list to select a start time for the holiday.</span></span>
 
-7. <span data-ttu-id="db4b8-120">[**終了時刻**] で、予定表アイコンを選択し、休日の終了日を選択します。</span><span class="sxs-lookup"><span data-stu-id="db4b8-120">Under **End time**, select the calendar icon and choose the date when you’d like the holiday to end.</span></span> <span data-ttu-id="db4b8-121">休日が1日のみの場合は、[**開始時刻**] で選択した日付と同じである必要があります。</span><span class="sxs-lookup"><span data-stu-id="db4b8-121">If the holiday is one day only, this should be the same date as the one you chose under **Start time**.</span></span>
+7. <span data-ttu-id="aba03-120">[**終了時刻**] で、予定表アイコンを選択し、休日の終了日を選択します。</span><span class="sxs-lookup"><span data-stu-id="aba03-120">Under **End time**, select the calendar icon and choose the date when you’d like the holiday to end.</span></span> <span data-ttu-id="aba03-121">休日が1日のみの場合は、[**開始時刻**] で選択した日付と同じである必要があります。</span><span class="sxs-lookup"><span data-stu-id="aba03-121">If the holiday is one day only, this should be the same date as the one you chose under **Start time**.</span></span>
 
-8. <span data-ttu-id="db4b8-122">ドロップダウンリストを使用して、休日の終了時刻を選択します。</span><span class="sxs-lookup"><span data-stu-id="db4b8-122">Use the drop-down list to select an end time for the holiday.</span></span>
+8. <span data-ttu-id="aba03-122">ドロップダウンリストを使用して、休日の終了時刻を選択します。</span><span class="sxs-lookup"><span data-stu-id="aba03-122">Use the drop-down list to select an end time for the holiday.</span></span>
 
-9. <span data-ttu-id="db4b8-123">[**保存**] を選びます。</span><span class="sxs-lookup"><span data-stu-id="db4b8-123">Select **Save**.</span></span>
+9. <span data-ttu-id="aba03-123">[**保存**] を選びます。</span><span class="sxs-lookup"><span data-stu-id="aba03-123">Select **Save**.</span></span>
 
-## <a name="change-a-holiday"></a><span data-ttu-id="db4b8-124">休日を変更する</span><span class="sxs-lookup"><span data-stu-id="db4b8-124">Change a holiday</span></span>
+## <a name="change-a-holiday"></a><span data-ttu-id="aba03-124">休日を変更する</span><span class="sxs-lookup"><span data-stu-id="aba03-124">Change a holiday</span></span>
 
-1. <span data-ttu-id="db4b8-125">Microsoft Teams 管理センターで、[**組織全体の設定** > **休日**] に移動します。</span><span class="sxs-lookup"><span data-stu-id="db4b8-125">In the Microsoft Teams admin center, go to **Org-wide settings** > **Holidays**.</span></span>
+1. <span data-ttu-id="aba03-125">Microsoft Teams 管理センターで、[**組織全体の設定** > **休日**] に移動します。</span><span class="sxs-lookup"><span data-stu-id="aba03-125">In the Microsoft Teams admin center, go to **Org-wide settings** > **Holidays**.</span></span>
 
-2. <span data-ttu-id="db4b8-126">リストから休日を選択します。</span><span class="sxs-lookup"><span data-stu-id="db4b8-126">Select the holiday from the list.</span></span>
+2. <span data-ttu-id="aba03-126">リストから休日を選択します。</span><span class="sxs-lookup"><span data-stu-id="aba03-126">Select the holiday from the list.</span></span>
 
-3. <span data-ttu-id="db4b8-127">[**開始時刻**] で、予定表アイコンを選択し、休日の開始日を選択します。</span><span class="sxs-lookup"><span data-stu-id="db4b8-127">Under **Start time**, select the calendar icon and choose the date when you’d like the holiday to begin.</span></span>
+3. <span data-ttu-id="aba03-127">[**開始時刻**] で、予定表アイコンを選択し、休日の開始日を選択します。</span><span class="sxs-lookup"><span data-stu-id="aba03-127">Under **Start time**, select the calendar icon and choose the date when you’d like the holiday to begin.</span></span>
 
-4. <span data-ttu-id="db4b8-128">ドロップダウンリストを使用して、休日の開始時刻を選択します。</span><span class="sxs-lookup"><span data-stu-id="db4b8-128">Use the drop-down list to select a start time for the holiday.</span></span>
+4. <span data-ttu-id="aba03-128">ドロップダウンリストを使用して、休日の開始時刻を選択します。</span><span class="sxs-lookup"><span data-stu-id="aba03-128">Use the drop-down list to select a start time for the holiday.</span></span>
 
-5. <span data-ttu-id="db4b8-129">[**終了時刻**] で、予定表アイコンを選択し、休日の終了日を選択します。</span><span class="sxs-lookup"><span data-stu-id="db4b8-129">Under **End time**, select the calendar icon and choose the date when you’d like the holiday to end.</span></span> 
+5. <span data-ttu-id="aba03-129">[**終了時刻**] で、予定表アイコンを選択し、休日の終了日を選択します。</span><span class="sxs-lookup"><span data-stu-id="aba03-129">Under **End time**, select the calendar icon and choose the date when you’d like the holiday to end.</span></span> 
 
-6. <span data-ttu-id="db4b8-130">ドロップダウンリストを使用して、休日の終了時刻を選択します。</span><span class="sxs-lookup"><span data-stu-id="db4b8-130">Use the drop-down list to select an end time for the holiday.</span></span>
+6. <span data-ttu-id="aba03-130">ドロップダウンリストを使用して、休日の終了時刻を選択します。</span><span class="sxs-lookup"><span data-stu-id="aba03-130">Use the drop-down list to select an end time for the holiday.</span></span>
 
-7. <span data-ttu-id="db4b8-131">[**保存**] を選びます。</span><span class="sxs-lookup"><span data-stu-id="db4b8-131">Select **Save**.</span></span>
+7. <span data-ttu-id="aba03-131">[**保存**] を選びます。</span><span class="sxs-lookup"><span data-stu-id="aba03-131">Select **Save**.</span></span>
 
-## <a name="connect-a-holiday-to-an-auto-attendant"></a><span data-ttu-id="db4b8-132">休日を自動応答に接続する</span><span class="sxs-lookup"><span data-stu-id="db4b8-132">Connect a holiday to an auto attendant</span></span>
+## <a name="connect-a-holiday-to-an-auto-attendant"></a><span data-ttu-id="aba03-132">休日を自動応答に接続する</span><span class="sxs-lookup"><span data-stu-id="aba03-132">Connect a holiday to an auto attendant</span></span>
 
-1. <span data-ttu-id="db4b8-133">Microsoft Teams 管理センターで、[**音声** > **自動応答**] に移動します。</span><span class="sxs-lookup"><span data-stu-id="db4b8-133">In the Microsoft Teams admin center, go to **Voice** > **Auto attendants**.</span></span>
-2. <span data-ttu-id="db4b8-134">リストからリソースアカウントを選択します。</span><span class="sxs-lookup"><span data-stu-id="db4b8-134">Select a resource account from the list.</span></span>
-3. <span data-ttu-id="db4b8-135">左側のウィンドウで、[**ホリデー通話の設定**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="db4b8-135">In the left pane, select **Holiday call settings**.</span></span>
-4. <span data-ttu-id="db4b8-136">[**新しい休日**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="db4b8-136">Select **New holiday**.</span></span>
-5. <span data-ttu-id="db4b8-137">ドロップダウンリストから休日を選択します。</span><span class="sxs-lookup"><span data-stu-id="db4b8-137">Select the holiday from the drop-down list.</span></span>
-6. <span data-ttu-id="db4b8-138">オプションのあいさつ文を追加できます。</span><span class="sxs-lookup"><span data-stu-id="db4b8-138">You can add an optional greeting:</span></span>
-    - <span data-ttu-id="db4b8-139">録音した応答メッセージを再生するには、[**オーディオファイルの再生**] を選択し、[**ファイルのアップロード**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="db4b8-139">To play a recorded greeting, select **Play an audio file**, and then select **Upload file**.</span></span> <span data-ttu-id="db4b8-140">オーディオファイルの場所を参照し、ファイルを選択して、[**開く**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="db4b8-140">Browse to the location of the audio file, select the file, and then select **Open**.</span></span>
-    - <span data-ttu-id="db4b8-141">あいさつ文を作成するには、[**あいさつ文の入力**] を選択し、メッセージを入力します。</span><span class="sxs-lookup"><span data-stu-id="db4b8-141">To create a greeting, select **Type a greeting message**, and then type your message.</span></span> <span data-ttu-id="db4b8-142">音声ファイルを指定していない場合、発信者はこのメッセージを読み上げます。</span><span class="sxs-lookup"><span data-stu-id="db4b8-142">Callers will hear this message if you haven’t provided an audio file.</span></span>
-7. <span data-ttu-id="db4b8-143">応答メッセージの後に通話を終了するには、[**アクション**] の [**切断**] を選びます。</span><span class="sxs-lookup"><span data-stu-id="db4b8-143">To end the call after the greeting, under **Actions**, select **Disconnect**.</span></span> 
+1. <span data-ttu-id="aba03-133">Microsoft Teams 管理センターで、[**音声** > **自動応答**] に移動します。</span><span class="sxs-lookup"><span data-stu-id="aba03-133">In the Microsoft Teams admin center, go to **Voice** > **Auto attendants**.</span></span>
+2. <span data-ttu-id="aba03-134">リストからリソースアカウントを選択します。</span><span class="sxs-lookup"><span data-stu-id="aba03-134">Select a resource account from the list.</span></span>
+3. <span data-ttu-id="aba03-135">左側のウィンドウで、[**ホリデー通話の設定**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="aba03-135">In the left pane, select **Holiday call settings**.</span></span>
+4. <span data-ttu-id="aba03-136">[**新しい休日**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="aba03-136">Select **New holiday**.</span></span>
+5. <span data-ttu-id="aba03-137">ドロップダウンリストから休日を選択します。</span><span class="sxs-lookup"><span data-stu-id="aba03-137">Select the holiday from the drop-down list.</span></span>
+6. <span data-ttu-id="aba03-138">オプションのあいさつ文を追加できます。</span><span class="sxs-lookup"><span data-stu-id="aba03-138">You can add an optional greeting:</span></span>
+    - <span data-ttu-id="aba03-139">録音した応答メッセージを再生するには、[**オーディオファイルの再生**] を選択し、[**ファイルのアップロード**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="aba03-139">To play a recorded greeting, select **Play an audio file**, and then select **Upload file**.</span></span> <span data-ttu-id="aba03-140">オーディオファイルの場所を参照し、ファイルを選択して、[**開く**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="aba03-140">Browse to the location of the audio file, select the file, and then select **Open**.</span></span>
+    - <span data-ttu-id="aba03-141">あいさつ文を作成するには、[**あいさつ文の入力**] を選択し、メッセージを入力します。</span><span class="sxs-lookup"><span data-stu-id="aba03-141">To create a greeting, select **Type a greeting message**, and then type your message.</span></span> <span data-ttu-id="aba03-142">音声ファイルを指定していない場合、発信者はこのメッセージを読み上げます。</span><span class="sxs-lookup"><span data-stu-id="aba03-142">Callers will hear this message if you haven’t provided an audio file.</span></span>
+7. <span data-ttu-id="aba03-143">応答メッセージの後に通話を終了するには、[**アクション**] の [**切断**] を選びます。</span><span class="sxs-lookup"><span data-stu-id="aba03-143">To end the call after the greeting, under **Actions**, select **Disconnect**.</span></span> 
 
-    <span data-ttu-id="db4b8-144">通話をリダイレクトするには、[**通話のリダイレクト**] を選択し、ドロップダウンリストからリダイレクトされた通話を受信するユーザーを選択するか、表示名で相手を検索します。</span><span class="sxs-lookup"><span data-stu-id="db4b8-144">To redirect the call, select **Redirect call**, and then select the person who will receive the redirected call from the drop-down list or search for the person by display name.</span></span>
-8. <span data-ttu-id="db4b8-145">[**保存**] を選びます。</span><span class="sxs-lookup"><span data-stu-id="db4b8-145">Select **Save**.</span></span>
+    <span data-ttu-id="aba03-144">通話をリダイレクトするには、[**通話のリダイレクト**] を選択し、ドロップダウンリストからリダイレクトされた通話を受信するユーザーを選択するか、表示名で相手を検索します。</span><span class="sxs-lookup"><span data-stu-id="aba03-144">To redirect the call, select **Redirect call**, and then select the person who will receive the redirected call from the drop-down list or search for the person by display name.</span></span>
+8. <span data-ttu-id="aba03-145">[**保存**] を選びます。</span><span class="sxs-lookup"><span data-stu-id="aba03-145">Select **Save**.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="db4b8-146">関連項目</span><span class="sxs-lookup"><span data-stu-id="db4b8-146">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="aba03-146">関連トピック</span><span class="sxs-lookup"><span data-stu-id="aba03-146">Related topics</span></span>
 
-<span data-ttu-id="db4b8-147">[クラウド自動応答とは何](what-are-phone-system-auto-attendants.md)ですか?</span><span class="sxs-lookup"><span data-stu-id="db4b8-147">[What are Cloud auto attendants](what-are-phone-system-auto-attendants.md)?</span></span>
+<span data-ttu-id="aba03-147">[クラウド自動応答とは何](what-are-phone-system-auto-attendants.md)ですか?</span><span class="sxs-lookup"><span data-stu-id="aba03-147">[What are Cloud auto attendants](what-are-phone-system-auto-attendants.md)?</span></span>

@@ -7,78 +7,78 @@ manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.VoiceFeaVacantNumMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24eca749-a9f3-40e7-839b-d21c3ef7d533
 description: 未使用の番号とは、組織にとって有効であるが、ユーザーや電話に割り当てられていない電話番号です。未使用の番号の表は、それらの番号に対して発信があった場合の対処方法を示します。
-ms.openlocfilehash: 88852088b4b664665750ef0e6167ba98b506a501
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 47b3e424bee6405def80874d4cb74c20c8051c36
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34307197"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41699302"
 ---
-# <a name="unassigned-phone-number"></a><span data-ttu-id="3aa49-104">割り当てられていない電話番号</span><span class="sxs-lookup"><span data-stu-id="3aa49-104">Unassigned Phone Number</span></span>
+# <a name="unassigned-phone-number"></a><span data-ttu-id="d96e9-104">割り当てられていない電話番号</span><span class="sxs-lookup"><span data-stu-id="d96e9-104">Unassigned Phone Number</span></span>
 
-<span data-ttu-id="3aa49-p102">未使用の番号とは、組織にとって有効であるが、ユーザーや電話に割り当てられていない電話番号です。未使用の番号の表は、それらの番号に対して発信があった場合の対処方法を示します。</span><span class="sxs-lookup"><span data-stu-id="3aa49-p102">Unassigned numbers are phone numbers that are valid for your organization but are not assigned to a user or a phone. The unassigned number table identifies how you want calls to unassigned numbers to be treated.</span></span>
+<span data-ttu-id="d96e9-p102">未使用の番号とは、組織にとって有効であるが、ユーザーや電話に割り当てられていない電話番号です。未使用の番号の表は、それらの番号に対して発信があった場合の対処方法を示します。</span><span class="sxs-lookup"><span data-stu-id="d96e9-p102">Unassigned numbers are phone numbers that are valid for your organization but are not assigned to a user or a phone. The unassigned number table identifies how you want calls to unassigned numbers to be treated.</span></span>
 
-<span data-ttu-id="3aa49-p103">割り当てられていない番号の表の構成方法は、その使用方法によって異なります。組織の有効な内線番号すべて、割り当てられていない内線番号のみ、または両方の種類の番号の組み合わせで、この表を構成できます。割り当てられていない番号の表には、割り当てられている番号と割り当てられていない番号を両方入れることができますが、現在割り当てられていない番号を発信者がダイヤルしたときのみ呼び出されます。有効な内線番号すべてを割り当てられていない番号の表に入れる場合、テーブルを再構成しなくても、ユーザーが組織を離れたとき必ず行う処理を指定できます。割り当てられていない内線番号を表に入れる場合、特定の番号について行う処理を調整できます。たとえば、顧客サービス デスクの内線番号を変更する場合、古い顧客サービス番号を表に入れ、新しい番号を知らせるアナウンスをそれに割り当てることができます。</span><span class="sxs-lookup"><span data-stu-id="3aa49-p103">How you configure the unassigned number table depends on how you want to use it. You can configure the table with all the valid extensions for your organization, with only unassigned extensions, or with a combination of both types of numbers. The unassigned number table can include both assigned and unassigned numbers, but it is invoked only when a caller dials a number that is not currently assigned. If you include all the valid extensions in the unassigned number table, you can specify the action that occurs whenever someone leaves your organization, without needing to reconfigure the table. If you include unassigned extensions in the table, you can tailor the action that occurs for specific numbers. For example, if you change the extension for your customer service desk, you can include the old customer service number in the table and assign it to an announcement that provides the new number.</span></span>
+<span data-ttu-id="d96e9-p103">割り当てられていない番号の表の構成方法は、その使用方法によって異なります。組織の有効な内線番号すべて、割り当てられていない内線番号のみ、または両方の種類の番号の組み合わせで、この表を構成できます。割り当てられていない番号の表には、割り当てられている番号と割り当てられていない番号を両方入れることができますが、現在割り当てられていない番号を発信者がダイヤルしたときのみ呼び出されます。有効な内線番号すべてを割り当てられていない番号の表に入れる場合、テーブルを再構成しなくても、ユーザーが組織を離れたとき必ず行う処理を指定できます。割り当てられていない内線番号を表に入れる場合、特定の番号について行う処理を調整できます。たとえば、顧客サービス デスクの内線番号を変更する場合、古い顧客サービス番号を表に入れ、新しい番号を知らせるアナウンスをそれに割り当てることができます。</span><span class="sxs-lookup"><span data-stu-id="d96e9-p103">How you configure the unassigned number table depends on how you want to use it. You can configure the table with all the valid extensions for your organization, with only unassigned extensions, or with a combination of both types of numbers. The unassigned number table can include both assigned and unassigned numbers, but it is invoked only when a caller dials a number that is not currently assigned. If you include all the valid extensions in the unassigned number table, you can specify the action that occurs whenever someone leaves your organization, without needing to reconfigure the table. If you include unassigned extensions in the table, you can tailor the action that occurs for specific numbers. For example, if you change the extension for your customer service desk, you can include the old customer service number in the table and assign it to an announcement that provides the new number.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="3aa49-113">未使用の番号の表を構成する前に、アナウンスを 1 つ以上既に定義しているか、Exchange UM の自動応答を設定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="3aa49-113">Before you configure the unassigned number table, you must have already either defined one or more announcements or set up an Exchange UM Auto Attendant.</span></span>
+> <span data-ttu-id="d96e9-113">未使用の番号の表を構成する前に、アナウンスを 1 つ以上既に定義しているか、Exchange UM の自動応答を設定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="d96e9-113">Before you configure the unassigned number table, you must have already either defined one or more announcements or set up an Exchange UM Auto Attendant.</span></span>
 
-<span data-ttu-id="3aa49-114">[**未使用の番号**] ページには、組織で定義されている未使用の番号の範囲が一覧表示されます。</span><span class="sxs-lookup"><span data-stu-id="3aa49-114">The **Unassigned Number** page displays a list of the unassigned numbers ranges defined for your organization.</span></span>
+<span data-ttu-id="d96e9-114">[**未使用の番号**] ページには、組織で定義されている未使用の番号の範囲が一覧表示されます。</span><span class="sxs-lookup"><span data-stu-id="d96e9-114">The **Unassigned Number** page displays a list of the unassigned numbers ranges defined for your organization.</span></span>
 
-## <a name="tasks-you-can-perform"></a><span data-ttu-id="3aa49-115">実行できるタスク</span><span class="sxs-lookup"><span data-stu-id="3aa49-115">Tasks you can perform</span></span>
+## <a name="tasks-you-can-perform"></a><span data-ttu-id="d96e9-115">実行できるタスク</span><span class="sxs-lookup"><span data-stu-id="d96e9-115">Tasks you can perform</span></span>
 
-<span data-ttu-id="3aa49-116">[**未使用の番号**] ページでは次のタスクを実行できます。</span><span class="sxs-lookup"><span data-stu-id="3aa49-116">You can perform the following tasks from the **Unassigned Number** page:</span></span>
+<span data-ttu-id="d96e9-116">[**未使用の番号**] ページでは次のタスクを実行できます。</span><span class="sxs-lookup"><span data-stu-id="d96e9-116">You can perform the following tasks from the **Unassigned Number** page:</span></span>
 
-- <span data-ttu-id="3aa49-117">未使用の番号範囲を作成する</span><span class="sxs-lookup"><span data-stu-id="3aa49-117">Create a new unassigned number range</span></span>
+- <span data-ttu-id="d96e9-117">未使用の番号範囲を作成する</span><span class="sxs-lookup"><span data-stu-id="d96e9-117">Create a new unassigned number range</span></span>
 
-- <span data-ttu-id="3aa49-118">既存の未使用の番号範囲を変更する</span><span class="sxs-lookup"><span data-stu-id="3aa49-118">Change an existing unassigned number range</span></span>
+- <span data-ttu-id="d96e9-118">既存の未使用の番号範囲を変更する</span><span class="sxs-lookup"><span data-stu-id="d96e9-118">Change an existing unassigned number range</span></span>
 
-- <span data-ttu-id="3aa49-119">未使用の番号範囲を削除する</span><span class="sxs-lookup"><span data-stu-id="3aa49-119">Delete an unassigned number range</span></span>
+- <span data-ttu-id="d96e9-119">未使用の番号範囲を削除する</span><span class="sxs-lookup"><span data-stu-id="d96e9-119">Delete an unassigned number range</span></span>
 
-- <span data-ttu-id="3aa49-120">未使用の番号範囲の順序を変更し、未使用の番号に一致する着信に最初に適用するアクションを決定する</span><span class="sxs-lookup"><span data-stu-id="3aa49-120">Change the order of the unassigned number ranges to determine which action should be applied first to an incoming call that matches an unassigned number.</span></span>
+- <span data-ttu-id="d96e9-120">未使用の番号範囲の順序を変更し、未使用の番号に一致する着信に最初に適用するアクションを決定する</span><span class="sxs-lookup"><span data-stu-id="d96e9-120">Change the order of the unassigned number ranges to determine which action should be applied first to an incoming call that matches an unassigned number.</span></span>
 
-## <a name="ui-reference"></a><span data-ttu-id="3aa49-121">UI リファレンス</span><span class="sxs-lookup"><span data-stu-id="3aa49-121">UI Reference</span></span>
+## <a name="ui-reference"></a><span data-ttu-id="d96e9-121">UI リファレンス</span><span class="sxs-lookup"><span data-stu-id="d96e9-121">UI Reference</span></span>
 
-<span data-ttu-id="3aa49-122">次の一覧に、このページのコマンドを示します。</span><span class="sxs-lookup"><span data-stu-id="3aa49-122">The following list describes the commands on the page.</span></span>
+<span data-ttu-id="d96e9-122">次の一覧に、このページのコマンドを示します。</span><span class="sxs-lookup"><span data-stu-id="d96e9-122">The following list describes the commands on the page.</span></span>
 
-- <span data-ttu-id="3aa49-123">**新規**未使用の新しい番号範囲を開始します。</span><span class="sxs-lookup"><span data-stu-id="3aa49-123">**New** Starts a new unassigned number range.</span></span>
+- <span data-ttu-id="d96e9-123">**新規**未使用の新しい番号範囲を開始します。</span><span class="sxs-lookup"><span data-stu-id="d96e9-123">**New** Starts a new unassigned number range.</span></span>
 
-- <span data-ttu-id="3aa49-124">**編集**選択されている未使用の番号範囲を編集するために開きます。リスト内の未割り当ての番号範囲をすべて選択するか、選択されていない番号範囲を削除します。</span><span class="sxs-lookup"><span data-stu-id="3aa49-124">**Edit** Opens the selected unassigned number range for editing, selects all the unassigned number ranges in the list, or deletes the selected unassigned number range.</span></span>
+- <span data-ttu-id="d96e9-124">**編集**選択されている未使用の番号範囲を編集するために開きます。リスト内の未割り当ての番号範囲をすべて選択するか、選択されていない番号範囲を削除します。</span><span class="sxs-lookup"><span data-stu-id="d96e9-124">**Edit** Opens the selected unassigned number range for editing, selects all the unassigned number ranges in the list, or deletes the selected unassigned number range.</span></span>
 
-- <span data-ttu-id="3aa49-125">**上へ移動**リスト内の指定されていない番号範囲を上に移動して、Skype for Business Server がすぐに検索し、指定されたアクションを適用してから、リスト内の他の範囲に対して指定されたアクションを適用します。</span><span class="sxs-lookup"><span data-stu-id="3aa49-125">**Move up** Moves the selected unassigned number range up in the list so that Skype for Business Server finds it sooner and applies the specified action before applying actions specified for other ranges in the list.</span></span>
+- <span data-ttu-id="d96e9-125">**上へ移動**リスト内の指定されていない番号範囲を上に移動して、Skype for Business Server がすぐに検索し、指定されたアクションを適用してから、リスト内の他の範囲に対して指定されたアクションを適用します。</span><span class="sxs-lookup"><span data-stu-id="d96e9-125">**Move up** Moves the selected unassigned number range up in the list so that Skype for Business Server finds it sooner and applies the specified action before applying actions specified for other ranges in the list.</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="3aa49-126">Skype for Business Server は、割り当てられていない番号テーブルを上から下に検索し、割り当てられていない番号に一致する最初の範囲を使用します。</span><span class="sxs-lookup"><span data-stu-id="3aa49-126">Skype for Business Server searches the unassigned number table from top to bottom and uses the first range that matches the unassigned number.</span></span> <span data-ttu-id="3aa49-127">たとえば、最後の手段のアクションを指定している範囲がある場合は、その範囲を一覧の一番下に置くようにします。</span><span class="sxs-lookup"><span data-stu-id="3aa49-127">For example, if you have a range that specifies a last resort action, make sure that range is at the bottom of the list.</span></span>
+    > <span data-ttu-id="d96e9-126">Skype for Business Server は、割り当てられていない番号テーブルを上から下に検索し、割り当てられていない番号に一致する最初の範囲を使用します。</span><span class="sxs-lookup"><span data-stu-id="d96e9-126">Skype for Business Server searches the unassigned number table from top to bottom and uses the first range that matches the unassigned number.</span></span> <span data-ttu-id="d96e9-127">たとえば、最後の手段のアクションを指定している範囲がある場合は、その範囲を一覧の一番下に置くようにします。</span><span class="sxs-lookup"><span data-stu-id="d96e9-127">For example, if you have a range that specifies a last resort action, make sure that range is at the bottom of the list.</span></span>
 
-- <span data-ttu-id="3aa49-128">**下へ移動**選択されている未使用の番号範囲を一覧の下方向に移動します。</span><span class="sxs-lookup"><span data-stu-id="3aa49-128">**Move down** Moves the selected unassigned number range down in the list.</span></span>
+- <span data-ttu-id="d96e9-128">**下へ移動**選択されている未使用の番号範囲を一覧の下方向に移動します。</span><span class="sxs-lookup"><span data-stu-id="d96e9-128">**Move down** Moves the selected unassigned number range down in the list.</span></span>
 
-- <span data-ttu-id="3aa49-129">**すべてコミット**未割り当ての番号範囲に加えたすべての変更を保存します。</span><span class="sxs-lookup"><span data-stu-id="3aa49-129">**Commit all** Saves all the changes you made to unassigned number ranges.</span></span>
+- <span data-ttu-id="d96e9-129">**すべてコミット**未割り当ての番号範囲に加えたすべての変更を保存します。</span><span class="sxs-lookup"><span data-stu-id="d96e9-129">**Commit all** Saves all the changes you made to unassigned number ranges.</span></span>
 
     > [!IMPORTANT]
-    > <span data-ttu-id="3aa49-130">このコマンドは、[**新規 未使用の番号範囲**] ページと [**編集 未使用の番号範囲**] ページで行われたすべての変更を保存します。</span><span class="sxs-lookup"><span data-stu-id="3aa49-130">This command saves all the changes that you made on the **New Unassigned Number** page and the **Edit Unassigned Number** page.</span></span>
+    > <span data-ttu-id="d96e9-130">このコマンドは、[**新規 未使用の番号範囲**] ページと [**編集 未使用の番号範囲**] ページで行われたすべての変更を保存します。</span><span class="sxs-lookup"><span data-stu-id="d96e9-130">This command saves all the changes that you made on the **New Unassigned Number** page and the **Edit Unassigned Number** page.</span></span>
 
-- <span data-ttu-id="3aa49-131">**更新**割り当てられていない番号範囲の一覧を更新します。</span><span class="sxs-lookup"><span data-stu-id="3aa49-131">**Refresh** Refreshes the list of unassigned number ranges.</span></span>
+- <span data-ttu-id="d96e9-131">**更新**割り当てられていない番号範囲の一覧を更新します。</span><span class="sxs-lookup"><span data-stu-id="d96e9-131">**Refresh** Refreshes the list of unassigned number ranges.</span></span>
 
-<span data-ttu-id="3aa49-132">次の一覧に、このページのフィールドを示します。</span><span class="sxs-lookup"><span data-stu-id="3aa49-132">The following list describes the fields on the page.</span></span>
+<span data-ttu-id="d96e9-132">次の一覧に、このページのフィールドを示します。</span><span class="sxs-lookup"><span data-stu-id="d96e9-132">The following list describes the fields on the page.</span></span>
 
-- <span data-ttu-id="3aa49-133">**名前**割り当てられていない番号の範囲を識別する一意の名前。</span><span class="sxs-lookup"><span data-stu-id="3aa49-133">**Name** The unique name that identifies the unassigned number range.</span></span>
+- <span data-ttu-id="d96e9-133">**名前**割り当てられていない番号の範囲を識別する一意の名前。</span><span class="sxs-lookup"><span data-stu-id="d96e9-133">**Name** The unique name that identifies the unassigned number range.</span></span>
 
-- <span data-ttu-id="3aa49-134">**都道府県**データベースに保存されていて、何の範囲に保存されていないかを示します。</span><span class="sxs-lookup"><span data-stu-id="3aa49-134">**State** Shows which number ranges have been saved to the database and which have not.</span></span>
+- <span data-ttu-id="d96e9-134">**都道府県**データベースに保存されていて、何の範囲に保存されていないかを示します。</span><span class="sxs-lookup"><span data-stu-id="d96e9-134">**State** Shows which number ranges have been saved to the database and which have not.</span></span>
 
-- <span data-ttu-id="3aa49-135">**開始範囲**割り当てられていない数値の範囲の開始番号。</span><span class="sxs-lookup"><span data-stu-id="3aa49-135">**Start range** The beginning number of the unassigned number range.</span></span>
+- <span data-ttu-id="d96e9-135">**開始範囲**割り当てられていない数値の範囲の開始番号。</span><span class="sxs-lookup"><span data-stu-id="d96e9-135">**Start range** The beginning number of the unassigned number range.</span></span>
 
-- <span data-ttu-id="3aa49-136">**範囲の終了**割り当てられていない数値の範囲の終了番号。</span><span class="sxs-lookup"><span data-stu-id="3aa49-136">**End range** The ending number of the unassigned number range.</span></span>
+- <span data-ttu-id="d96e9-136">**範囲の終了**割り当てられていない数値の範囲の終了番号。</span><span class="sxs-lookup"><span data-stu-id="d96e9-136">**End range** The ending number of the unassigned number range.</span></span>
 
-- <span data-ttu-id="3aa49-137">**宛先**この範囲の未使用の番号への着信通話を処理するアナウンスメントアプリケーションをホストするアプリケーションサービスのサービス ID です。</span><span class="sxs-lookup"><span data-stu-id="3aa49-137">**Destination** The service ID of the Application service that hosts the Announcement application that will handle incoming calls to this range of unassigned numbers.</span></span>
+- <span data-ttu-id="d96e9-137">**宛先**この範囲の未使用の番号への着信通話を処理するアナウンスメントアプリケーションをホストするアプリケーションサービスのサービス ID です。</span><span class="sxs-lookup"><span data-stu-id="d96e9-137">**Destination** The service ID of the Application service that hosts the Announcement application that will handle incoming calls to this range of unassigned numbers.</span></span>
 
-- <span data-ttu-id="3aa49-138">**お知らせ**この範囲の未割り当ての番号に対して再生されるお知らせ。</span><span class="sxs-lookup"><span data-stu-id="3aa49-138">**Announcement** The announcement that will be played for this range of unassigned numbers.</span></span>
+- <span data-ttu-id="d96e9-138">**お知らせ**この範囲の未割り当ての番号に対して再生されるお知らせ。</span><span class="sxs-lookup"><span data-stu-id="d96e9-138">**Announcement** The announcement that will be played for this range of unassigned numbers.</span></span>
 
-<span data-ttu-id="3aa49-139">お知らせ機能と機能の詳細については、計画ドキュメントの「 [Skype For business 2015 でのお知らせアプリケーションの計画](../../plan-your-deployment/enterprise-voice-solution/announcement.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="3aa49-139">For details about Announcement features and capabilities, see [Plan for the Announcement application in Skype for Business 2015](../../plan-your-deployment/enterprise-voice-solution/announcement.md) in the Planning documentation.</span></span> <span data-ttu-id="3aa49-140">未使用の番号範囲の使用の詳細については、「操作」のドキュメントの「[Configure Routing of Unassigned Phone Numbers](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="3aa49-140">For details about working with unassigned number ranges, see [Configure Routing of Unassigned Phone Numbers](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx) in the Operations documentation.</span></span>
+<span data-ttu-id="d96e9-139">お知らせ機能と機能の詳細については、計画ドキュメントの「 [Skype For business 2015 でのお知らせアプリケーションの計画](../../plan-your-deployment/enterprise-voice-solution/announcement.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="d96e9-139">For details about Announcement features and capabilities, see [Plan for the Announcement application in Skype for Business 2015](../../plan-your-deployment/enterprise-voice-solution/announcement.md) in the Planning documentation.</span></span> <span data-ttu-id="d96e9-140">未使用の番号範囲の使用の詳細については、「操作」のドキュメントの「[Configure Routing of Unassigned Phone Numbers](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="d96e9-140">For details about working with unassigned number ranges, see [Configure Routing of Unassigned Phone Numbers](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx) in the Operations documentation.</span></span>
 
 

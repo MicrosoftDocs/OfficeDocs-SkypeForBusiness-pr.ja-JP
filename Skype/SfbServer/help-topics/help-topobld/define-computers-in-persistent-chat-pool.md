@@ -7,39 +7,39 @@ manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddPersistentChatMachinePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f87c3abb-d8b4-4e51-af84-9b579e3807c5
 description: '[コンピューター FQDN] に完全修飾ドメイン名 (FQDN) を入力して、常設チャットサーバープールの一部となるコンピューターを定義します。 これは、ドメイン ネーム システム (DNS) ホスト (A または AAAA) レコードで定義されているコンピューターの名前であることが必要です。'
-ms.openlocfilehash: c3f014a8f0f6760a2628ca06306ed59055fc3cc4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ede256812e5edff653431e134d19f78787013f19
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305893"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41697542"
 ---
-# <a name="define-computers-in-persistent-chat-pool"></a><span data-ttu-id="c19c5-104">常設チャット プールのコンピューターの定義</span><span class="sxs-lookup"><span data-stu-id="c19c5-104">Define Computers in Persistent Chat Pool</span></span>
+# <a name="define-computers-in-persistent-chat-pool"></a><span data-ttu-id="0d8e1-104">常設チャット プールのコンピューターの定義</span><span class="sxs-lookup"><span data-stu-id="0d8e1-104">Define Computers in Persistent Chat Pool</span></span>
  
-<span data-ttu-id="c19c5-105">[**コンピューター fqdn**] に完全修飾ドメイン名 (FQDN) を入力して、常設チャットサーバープールの一部となるコンピューターを定義します。</span><span class="sxs-lookup"><span data-stu-id="c19c5-105">You define the computers that will be a part of a Persistent Chat Server pool by typing the fully qualified domain name (FQDN) in **Computer FQDN**.</span></span> <span data-ttu-id="c19c5-106">これは、ドメイン ネーム システム (DNS) ホスト (A または AAAA) レコードで定義されているコンピューターの名前であることが必要です。</span><span class="sxs-lookup"><span data-stu-id="c19c5-106">This must be the name of the computer as it is defined in the domain name system DNS host (A or AAAA) records.</span></span>
+<span data-ttu-id="0d8e1-105">[**コンピューター fqdn**] に完全修飾ドメイン名 (FQDN) を入力して、常設チャットサーバープールの一部となるコンピューターを定義します。</span><span class="sxs-lookup"><span data-stu-id="0d8e1-105">You define the computers that will be a part of a Persistent Chat Server pool by typing the fully qualified domain name (FQDN) in **Computer FQDN**.</span></span> <span data-ttu-id="0d8e1-106">これは、ドメイン ネーム システム (DNS) ホスト (A または AAAA) レコードで定義されているコンピューターの名前であることが必要です。</span><span class="sxs-lookup"><span data-stu-id="0d8e1-106">This must be the name of the computer as it is defined in the domain name system DNS host (A or AAAA) records.</span></span>
   
-<span data-ttu-id="c19c5-107">その FQDN をプールに含まれるコンピューターのリストに追加するには、[**追加**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="c19c5-107">Click **Add** to add the FQDN to the list of computers in the pool.</span></span>
+<span data-ttu-id="0d8e1-107">その FQDN をプールに含まれるコンピューターのリストに追加するには、[**追加**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="0d8e1-107">Click **Add** to add the FQDN to the list of computers in the pool.</span></span>
   
-<span data-ttu-id="c19c5-108">プールに対して定義されているコンピューターのリストを形成しているコンピューター内のコンピューターのリスト内のエントリを更新するには、[**更新**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="c19c5-108">Click **Update** to refresh the entries in the list of computers in the computers that make up the list of computers defined for the pool.</span></span>
+<span data-ttu-id="0d8e1-108">プールに対して定義されているコンピューターのリストを形成しているコンピューター内のコンピューターのリスト内のエントリを更新するには、[**更新**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="0d8e1-108">Click **Update** to refresh the entries in the list of computers in the computers that make up the list of computers defined for the pool.</span></span>
   
-<span data-ttu-id="c19c5-109">プールに含まれる定義済みのコンピューターを削除するには、[**削除**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="c19c5-109">Click **Remove** to delete a defined computer in the pool.</span></span>
+<span data-ttu-id="0d8e1-109">プールに含まれる定義済みのコンピューターを削除するには、[**削除**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="0d8e1-109">Click **Remove** to delete a defined computer in the pool.</span></span>
   
-<span data-ttu-id="c19c5-110">前のプール定義ダイアログに戻るには、[**戻る**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="c19c5-110">Click **Back** to go back to the previous pool definition dialog.</span></span>
+<span data-ttu-id="0d8e1-110">前のプール定義ダイアログに戻るには、[**戻る**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="0d8e1-110">Click **Back** to go back to the previous pool definition dialog.</span></span>
   
-<span data-ttu-id="c19c5-111">このプールのコンピューターメンバーの入力が完了したら、[**次へ**] をクリックして、常設チャットサーバープールの定義を続行します。</span><span class="sxs-lookup"><span data-stu-id="c19c5-111">Click **Next** after you have finished entering the computer members for this pool to proceed with the Persistent Chat Server pool definition.</span></span>
+<span data-ttu-id="0d8e1-111">このプールのコンピューターメンバーの入力が完了したら、[**次へ**] をクリックして、常設チャットサーバープールの定義を続行します。</span><span class="sxs-lookup"><span data-stu-id="0d8e1-111">Click **Next** after you have finished entering the computer members for this pool to proceed with the Persistent Chat Server pool definition.</span></span>
   
-<span data-ttu-id="c19c5-112">すべての変更を破棄して**新しい常設チャット プールの定義**ウィザードを終了するには、[**キャンセル**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="c19c5-112">Click **Cancel** to discard all changes and end the **Define New Persistent Chat Pool** wizard.</span></span>
+<span data-ttu-id="0d8e1-112">すべての変更を破棄して**新しい常設チャット プールの定義**ウィザードを終了するには、[**キャンセル**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="0d8e1-112">Click **Cancel** to discard all changes and end the **Define New Persistent Chat Pool** wizard.</span></span>
   
-<span data-ttu-id="c19c5-113">このページのような状況依存のヘルプにアクセスするには、[**ヘルプ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="c19c5-113">Click **Help** to access context sensitive help, such as this page.</span></span>
+<span data-ttu-id="0d8e1-113">このページのような状況依存のヘルプにアクセスするには、[**ヘルプ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="0d8e1-113">Click **Help** to access context sensitive help, such as this page.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="c19c5-114">関連項目</span><span class="sxs-lookup"><span data-stu-id="c19c5-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0d8e1-114">関連項目</span><span class="sxs-lookup"><span data-stu-id="0d8e1-114">See also</span></span>
 
-[<span data-ttu-id="c19c5-115">Skype for Business Server 2015 の常設チャット サーバーの計画</span><span class="sxs-lookup"><span data-stu-id="c19c5-115">Plan for Persistent Chat Server in Skype for Business Server 2015</span></span>](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[<span data-ttu-id="0d8e1-115">Skype for Business Server 2015 の常設チャット サーバーの計画</span><span class="sxs-lookup"><span data-stu-id="0d8e1-115">Plan for Persistent Chat Server in Skype for Business Server 2015</span></span>](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[<span data-ttu-id="c19c5-116">Skype for Business Server 2015 トポロジに常設チャットサーバーを追加する</span><span class="sxs-lookup"><span data-stu-id="c19c5-116">Add Persistent Chat Server to your Skype for Business Server 2015 topology</span></span>](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[<span data-ttu-id="0d8e1-116">Skype for Business Server 2015 トポロジに常設チャットサーバーを追加する</span><span class="sxs-lookup"><span data-stu-id="0d8e1-116">Add Persistent Chat Server to your Skype for Business Server 2015 topology</span></span>](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)

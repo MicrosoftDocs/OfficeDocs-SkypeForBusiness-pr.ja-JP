@@ -16,58 +16,59 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: Microsoft Teams で電話会議用の電話会議の自動応答の言語を選択する方法について説明します。
-ms.openlocfilehash: 7a8f8c677d8f8b917100360189585b7fd82bb07e
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: a8755acf77d0b512924156ff303ed0b11f014a45
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "37571306"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694042"
 ---
-# <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a><span data-ttu-id="b85fa-103">Microsoft Teams で電話会議の自動案内の言語を設定する</span><span class="sxs-lookup"><span data-stu-id="b85fa-103">Set auto attendant languages for Audio Conferencing in Microsoft Teams</span></span>
+# <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a><span data-ttu-id="c26d9-103">Microsoft Teams で電話会議の自動案内の言語を設定する</span><span class="sxs-lookup"><span data-stu-id="c26d9-103">Set auto attendant languages for Audio Conferencing in Microsoft Teams</span></span>
 
-<span data-ttu-id="b85fa-104">Microsoft Teams の電話会議の自動応答では、電話会議に参加するときに、さまざまな言語で音声の発信者を挨拶メッセージことができます。</span><span class="sxs-lookup"><span data-stu-id="b85fa-104">The Audio Conferencing auto attendant for Microsoft Teams can greet audio callers in a number of different languages when they join a meeting.</span></span>
+<span data-ttu-id="c26d9-104">Microsoft Teams の電話会議の自動応答では、電話会議に参加するときに、さまざまな言語で音声の発信者を挨拶メッセージことができます。</span><span class="sxs-lookup"><span data-stu-id="c26d9-104">The Audio Conferencing auto attendant for Microsoft Teams can greet audio callers in a number of different languages when they join a meeting.</span></span>
   
-<span data-ttu-id="b85fa-p101">第 1 言語 1 つと、第 2 言語 4 つまで選びます。設定する第 1 言語が最初に使用され、第 2 言語は選択した順に自動応答で使用されます。</span><span class="sxs-lookup"><span data-stu-id="b85fa-p101">Choose one primary language and up to four secondary languages. The primary language that you set will be used first and the secondary languages will be used by the auto-attendant in order that you select.</span></span> 
+<span data-ttu-id="c26d9-p101">第 1 言語 1 つと、第 2 言語 4 つまで選びます。設定する第 1 言語が最初に使用され、第 2 言語は選択した順に自動応答で使用されます。</span><span class="sxs-lookup"><span data-stu-id="c26d9-p101">Choose one primary language and up to four secondary languages. The primary language that you set will be used first and the secondary languages will be used by the auto-attendant in order that you select.</span></span> 
   
 > [!NOTE]
->  <span data-ttu-id="b85fa-107">専用カテゴリの電話会議番号の言語のみを変更できます。</span><span class="sxs-lookup"><span data-stu-id="b85fa-107">You can only change the languages of audio conferencing numbers that are of the Dedicated category.</span></span> <span data-ttu-id="b85fa-108">共有電話会議番号の言語を変更することはできません。</span><span class="sxs-lookup"><span data-stu-id="b85fa-108">The languages of Shared audio conferencing number can't be changed.</span></span>
+>  <span data-ttu-id="c26d9-107">専用カテゴリの電話会議番号の言語のみを変更できます。</span><span class="sxs-lookup"><span data-stu-id="c26d9-107">You can only change the languages of audio conferencing numbers that are of the Dedicated category.</span></span> <span data-ttu-id="c26d9-108">共有電話会議番号の言語を変更することはできません。</span><span class="sxs-lookup"><span data-stu-id="c26d9-108">The languages of Shared audio conferencing number can't be changed.</span></span>
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
-## <a name="set-the-conferencing-auto-attendant-languages"></a><span data-ttu-id="b85fa-109">電話会議の自動応答の言語を設定する</span><span class="sxs-lookup"><span data-stu-id="b85fa-109">Set the conferencing auto attendant languages</span></span>
+## <a name="set-the-conferencing-auto-attendant-languages"></a><span data-ttu-id="c26d9-109">電話会議の自動応答の言語を設定する</span><span class="sxs-lookup"><span data-stu-id="c26d9-109">Set the conferencing auto attendant languages</span></span>
 
-<span data-ttu-id="b85fa-110">![Microsoft teams](media/teams-logo-30x30.png) **管理センターを使用し**た microsoft teams ロゴを示すアイコン</span><span class="sxs-lookup"><span data-stu-id="b85fa-110">![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
+<span data-ttu-id="c26d9-110">![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**</span><span class="sxs-lookup"><span data-stu-id="c26d9-110">![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
 
-1. <span data-ttu-id="b85fa-111">左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。</span><span class="sxs-lookup"><span data-stu-id="b85fa-111">In the left navigation, go to **Meetings** > **Conference Bridges**.</span></span>
+1. <span data-ttu-id="c26d9-111">左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。</span><span class="sxs-lookup"><span data-stu-id="c26d9-111">In the left navigation, go to **Meetings** > **Conference Bridges**.</span></span>
 
-2. <span data-ttu-id="b85fa-112">リストから**専用**の電話会議の電話番号を選択し、ページの上部にある [**編集**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="b85fa-112">Select a **Dedicated** audio conferencing phone number from the list, and at the top of the page, click **Edit**.</span></span> <span data-ttu-id="b85fa-113">専用の電話会議番号の言語を変更することはできません。</span><span class="sxs-lookup"><span data-stu-id="b85fa-113">It is only possible to change the languages of Dedicated audio conferencing numbers.</span></span> <span data-ttu-id="b85fa-114">[**編集**] オプションは、専用の電話会議番号が選択されている場合にのみ表示されます。</span><span class="sxs-lookup"><span data-stu-id="b85fa-114">The **Edit** option is only shown when a Dedicated audio conferencing number is selected.</span></span>
+2. <span data-ttu-id="c26d9-112">リストから**専用**の電話会議の電話番号を選択し、ページの上部にある [**編集**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="c26d9-112">Select a **Dedicated** audio conferencing phone number from the list, and at the top of the page, click **Edit**.</span></span> <span data-ttu-id="c26d9-113">専用の電話会議番号の言語を変更することはできません。</span><span class="sxs-lookup"><span data-stu-id="c26d9-113">It is only possible to change the languages of Dedicated audio conferencing numbers.</span></span> <span data-ttu-id="c26d9-114">[**編集**] オプションは、専用の電話会議番号が選択されている場合にのみ表示されます。</span><span class="sxs-lookup"><span data-stu-id="c26d9-114">The **Edit** option is only shown when a Dedicated audio conferencing number is selected.</span></span>
 
-3. <span data-ttu-id="b85fa-115">右側のウィンドウで、必要な既定の言語と任意の代替言語を選びます。</span><span class="sxs-lookup"><span data-stu-id="b85fa-115">In the pane on the right, choose the default language you want and any alternate languages.</span></span> 
+3. <span data-ttu-id="c26d9-115">右側のウィンドウで、必要な既定の言語と任意の代替言語を選びます。</span><span class="sxs-lookup"><span data-stu-id="c26d9-115">In the pane on the right, choose the default language you want and any alternate languages.</span></span> 
  
     > [!NOTE]
-    > <span data-ttu-id="b85fa-116">サポートされている既定の言語と代替言語が一覧表示されています。</span><span class="sxs-lookup"><span data-stu-id="b85fa-116">The default and alternate languages that are supported are listed.</span></span> <span data-ttu-id="b85fa-117">リストでそれらを選ぶ順序は、発信者に表示される言語の順序になります。</span><span class="sxs-lookup"><span data-stu-id="b85fa-117">The order in which you select them in the lists will be the order of the languages presented to callers.</span></span> 
+    > <span data-ttu-id="c26d9-116">サポートされている既定の言語と代替言語が一覧表示されています。</span><span class="sxs-lookup"><span data-stu-id="c26d9-116">The default and alternate languages that are supported are listed.</span></span> <span data-ttu-id="c26d9-117">リストでそれらを選ぶ順序は、発信者に表示される言語の順序になります。</span><span class="sxs-lookup"><span data-stu-id="c26d9-117">The order in which you select them in the lists will be the order of the languages presented to callers.</span></span> 
 
-4. <span data-ttu-id="b85fa-118">[ **保存**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="b85fa-118">Click **Save**.</span></span>
+4. <span data-ttu-id="c26d9-118">[ **保存**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="c26d9-118">Click **Save**.</span></span>
 
     
-## <a name="want-else-should-i-know"></a><span data-ttu-id="b85fa-119">その他の情報</span><span class="sxs-lookup"><span data-stu-id="b85fa-119">Want else should I know?</span></span>
+## <a name="want-else-should-i-know"></a><span data-ttu-id="c26d9-119">その他の情報</span><span class="sxs-lookup"><span data-stu-id="c26d9-119">Want else should I know?</span></span>
 
-- <span data-ttu-id="b85fa-120">電話会議でサポートされる言語のリストを確認するには、「[ダイヤルイン会議でサポートされる言語](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-supported-languages)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="b85fa-120">To see the list of supported languages for Audio Conferencing, see [Audio Conferencing supported languages](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-supported-languages).</span></span>
+- <span data-ttu-id="c26d9-120">電話会議でサポートされる言語のリストを確認するには、「[ダイヤルイン会議でサポートされる言語](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-supported-languages)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="c26d9-120">To see the list of supported languages for Audio Conferencing, see [Audio Conferencing supported languages](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-supported-languages).</span></span>
     
-- <span data-ttu-id="b85fa-121">専用電話番号には言語を設定できますが、共有電話番号には設定できません。</span><span class="sxs-lookup"><span data-stu-id="b85fa-121">Languages can be set for dedicated but not for shared phone numbers.</span></span>
+- <span data-ttu-id="c26d9-121">専用電話番号には言語を設定できますが、共有電話番号には設定できません。</span><span class="sxs-lookup"><span data-stu-id="c26d9-121">Languages can be set for dedicated but not for shared phone numbers.</span></span>
     
-- <span data-ttu-id="b85fa-122">Microsoft をプロバイダーとして使用する Office 365 での電話会議を利用できる国/地域のリストを確認するには、「[電話会議の電話番号](phone-numbers-for-audio-conferencing-in-teams.md)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="b85fa-122">To see a list of countries/regions in which Audio Conferencing in Office 365 using Microsoft as the provider is available, see [Phone numbers for Audio Conferencing](phone-numbers-for-audio-conferencing-in-teams.md).</span></span>
+- <span data-ttu-id="c26d9-122">Microsoft をプロバイダーとして使用する Office 365 での電話会議を利用できる国/地域のリストを確認するには、「[電話会議の電話番号](phone-numbers-for-audio-conferencing-in-teams.md)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="c26d9-122">To see a list of countries/regions in which Audio Conferencing in Office 365 using Microsoft as the provider is available, see [Phone numbers for Audio Conferencing](phone-numbers-for-audio-conferencing-in-teams.md).</span></span>
     
-## <a name="want-to-use-windows-powershell"></a><span data-ttu-id="b85fa-123">Windows PowerShell を使用する場合</span><span class="sxs-lookup"><span data-stu-id="b85fa-123">Want to use Windows PowerShell?</span></span>
+## <a name="want-to-use-windows-powershell"></a><span data-ttu-id="c26d9-123">Windows PowerShell を使用する場合</span><span class="sxs-lookup"><span data-stu-id="c26d9-123">Want to use Windows PowerShell?</span></span>
 
-<span data-ttu-id="b85fa-124">詳細については、[Microsoft Teams PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="b85fa-124">See the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.</span></span>
+<span data-ttu-id="c26d9-124">詳細については、[Microsoft Teams PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="c26d9-124">See the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.</span></span>
   
-## <a name="related-topics"></a><span data-ttu-id="b85fa-125">関連項目</span><span class="sxs-lookup"><span data-stu-id="b85fa-125">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="c26d9-125">関連項目</span><span class="sxs-lookup"><span data-stu-id="c26d9-125">Related topics</span></span>
 
-[<span data-ttu-id="b85fa-126">Office 365 での電話会議を試用または購入する</span><span class="sxs-lookup"><span data-stu-id="b85fa-126">Try or purchase Audio Conferencing in Office 365</span></span>](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[<span data-ttu-id="c26d9-126">Office 365 での電話会議を試用または購入する</span><span class="sxs-lookup"><span data-stu-id="c26d9-126">Try or purchase Audio Conferencing in Office 365</span></span>](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
 

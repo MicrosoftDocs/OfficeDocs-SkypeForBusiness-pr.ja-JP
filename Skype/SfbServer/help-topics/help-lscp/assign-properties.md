@@ -7,23 +7,23 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.NcsSelProperty
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50c799a3-90a0-4d58-8f8b-17eea56144dc
 description: '[プロパティの割り当て] ダイアログボックスを使用して、複数のサブネットに対して、説明とネットワークサイト ID を一度に指定します。 [説明] に、選択したサブネットに使用する説明を入力します。 [ネットワークサイト ID] で、選んだサブネットに割り当てるネットワークサイト ID を選びます。 これらのプロパティを選んだサブネットに割り当てるには、[OK] をクリックします。'
-ms.openlocfilehash: b64c47e912bdc51391b0230929446a5abe33a423
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0b50e944834e43810fe24168d12ea5d5df23ea13
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299797"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41700582"
 ---
-# <a name="assign-properties"></a><span data-ttu-id="b0aa0-106">プロパティの割り当て</span><span class="sxs-lookup"><span data-stu-id="b0aa0-106">Assign Properties</span></span>
+# <a name="assign-properties"></a><span data-ttu-id="058e1-106">プロパティの割り当て</span><span class="sxs-lookup"><span data-stu-id="058e1-106">Assign Properties</span></span>
  
-<span data-ttu-id="b0aa0-107">[**プロパティの割り当て**] ダイアログボックスを使用して、複数のサブネットに対して、説明とネットワークサイト ID を一度に指定します。</span><span class="sxs-lookup"><span data-stu-id="b0aa0-107">Use the **Assign Properties** dialog box to specify a description and network site ID to multiple subnets at one time.</span></span> <span data-ttu-id="b0aa0-108">[**説明**] に、選択したサブネットに使用する説明を入力します。</span><span class="sxs-lookup"><span data-stu-id="b0aa0-108">In **Description**, type the description you want to use for the subnets you selected.</span></span> <span data-ttu-id="b0aa0-109">[**ネットワークサイト id**] で、選んだサブネットに割り当てるネットワークサイト id を選びます。</span><span class="sxs-lookup"><span data-stu-id="b0aa0-109">In **Network site ID**, select the network site ID that you want to assign to the subnets you selected.</span></span> <span data-ttu-id="b0aa0-110">これらのプロパティを選んだサブネットに割り当てるには、[ **OK]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="b0aa0-110">To assign these properties to the subnets you selected, click **OK**.</span></span>
+<span data-ttu-id="058e1-107">[**プロパティの割り当て**] ダイアログボックスを使用して、複数のサブネットに対して、説明とネットワークサイト ID を一度に指定します。</span><span class="sxs-lookup"><span data-stu-id="058e1-107">Use the **Assign Properties** dialog box to specify a description and network site ID to multiple subnets at one time.</span></span> <span data-ttu-id="058e1-108">[**説明**] に、選択したサブネットに使用する説明を入力します。</span><span class="sxs-lookup"><span data-stu-id="058e1-108">In **Description**, type the description you want to use for the subnets you selected.</span></span> <span data-ttu-id="058e1-109">[**ネットワークサイト id**] で、選んだサブネットに割り当てるネットワークサイト id を選びます。</span><span class="sxs-lookup"><span data-stu-id="058e1-109">In **Network site ID**, select the network site ID that you want to assign to the subnets you selected.</span></span> <span data-ttu-id="058e1-110">これらのプロパティを選んだサブネットに割り当てるには、[ **OK]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="058e1-110">To assign these properties to the subnets you selected, click **OK**.</span></span>
   
-<span data-ttu-id="b0aa0-111">Skype for Business Server コントロールパネルを使用して実行できるさまざまな手順の詳細については、「Skype for business [server 2015 を管理](../../manage/manage.md)する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="b0aa0-111">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="058e1-111">Skype for Business Server コントロールパネルを使用して実行できるさまざまな手順の詳細については、「Skype for business [server 2015 を管理](../../manage/manage.md)する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="058e1-111">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
   
 
