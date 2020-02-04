@@ -15,16 +15,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 description: Skype for Business Online プラン1は廃止されました。 ただし、Skype for Business Online Plan 1 の現在のサブスクリプションを使用している場合は、この変更による影響はすぐにはありません。 新しいプランに移行する準備ができたら (今すぐまたは更新時)、3つのオプションが用意されています。
-ms.openlocfilehash: 6e3ede1a6c01fe48384faf92048e502c393a346a
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: d0d553946ddbde84ede48b715332e66aea75dac4
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793140"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692662"
 ---
 # <a name="skype-for-business-online-plan-1-retirement"></a>Skype for Business Online プラン 1 のサポート終了 
 

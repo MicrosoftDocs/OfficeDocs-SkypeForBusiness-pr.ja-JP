@@ -11,19 +11,19 @@ audience: admin
 search.appverid: MET150
 description: Microsoft Teams 管理センターで Microsoft Teams のユーザー設定をまとめて管理する方法について説明します。
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 307edddf4dce8bd87f717fed6f3c33b11521fb7d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: fec2338e1a7e518e90b2a5fbed716a01782bbb8c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571892"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693292"
 ---
 # <a name="edit-microsoft-teams-user-settings-in-bulk"></a>Microsoft Teams のユーザー設定を一括して編集する
 

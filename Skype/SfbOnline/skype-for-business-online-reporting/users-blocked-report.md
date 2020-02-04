@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Reporting
 description: 'このレポートと他の Skype for Business レポートを使用すると、組織全体の PSTN 利用状況などのアクティビティについて詳しく知ることができます。 '
-ms.openlocfilehash: 95269dc08806ab09a44f47153748d45a63fedbc2
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: d5fa69d096f5dc5f2af6f8b5a3c04a3155b8cd9e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793016"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692332"
 ---
 # <a name="users-blocked-report"></a>ブロックされているユーザーのレポート
 
@@ -36,7 +37,7 @@ ms.locfileid: "35793016"
   
 ## <a name="how-to-get-to-the-skype-for-business-users-blocked-report"></a>Skype for Business ユーザーがブロックされたレポートにアクセスする方法
 
-![](../images/sfb-logo-30x30.png) **Skype for business 管理センターを使用し**た skype for business ロゴを示すアイコン
+![Skype for Business のロゴを表示したアイコン](../images/sfb-logo-30x30.png) **Skype for Business 管理センターの使用**
 
 - 管理センターに移動し >**管理** > センター**Skype for business 管理センター** > のレポート**ユーザーがブロック**された**レポート** > を表示します。
     

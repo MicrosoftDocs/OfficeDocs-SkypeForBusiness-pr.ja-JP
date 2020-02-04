@@ -14,17 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.lync.lac.BroadcastMeetings
 ms.custom:
 - SMB
 description: Skype 会議ブロードキャストを有効にして、会議の設定とポリシーを変更することができます。
-ms.openlocfilehash: 98010683c12c9c8586768f78bd9c45d0231c3e8a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5f3004d44522385e818b130acc74479bb4218bc7
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280795"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692612"
 ---
 # <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>組織の Skype 会議ブロードキャストの設定を変更する
 

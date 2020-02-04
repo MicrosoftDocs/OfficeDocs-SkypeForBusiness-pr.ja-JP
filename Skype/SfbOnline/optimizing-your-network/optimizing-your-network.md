@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Optimization
 description: 組織のために設定しているすべての Skype for Business Online の機能を長期間にわたり健全で正常に使用するには、次の要件に従うことが重要です。このドキュメントは技術的な専門性に長けているユーザー向けですが、専門的な知識がないユーザーにとっても参考になります。Skype for Business Online の設定でサポートが必要な場合は、このドキュメントをお読みの上、検討する必要がある事項についてよく理解するようにしてください。このドキュメントは、Microsoft FastTrack Center、お客様の Microsoft Services とアカウント チーム、または Microsoft パートナーと連携してこれらの要件に適合できる方法を見つけ出すときに検討が必要な内容も記載しています。
-ms.openlocfilehash: f81b2bebded33bf65ff391909dea4e6f638390fb
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: f4721ddc7db936e0351f78ba6bfc7033b8cd10d0
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344552"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693062"
 ---
 # <a name="optimizing-your-network-for-skype-for-business-online"></a>Skype for Business Online 向けのネットワークの最適化
 
@@ -51,7 +52,7 @@ Skype for Business では次のことができます。
 
 IP 上のリアルタイム メディア (オーディオ、ビデオ、アプリケーション共有など) の品質は、エンド ツー エンドのネットワーク接続の品質に大きく影響されます。Skype for Business Online メディアの最適な品質を得るために、会社のネットワークと Skype for Business Online 間の接続が高品質であることを確認することが重要です。これを達成するためには、内部ネットワークとクラウド接続を、接続全体にわたって Skype for Business Online のピーク時のトラフィック量を処理するネットワークのキャパシティに基づいて設定することが最善の方法になります。
   
-[Microsoft パートナー](https://partnercenter.microsoft.com/en-us/pcv/search)と連携して、クラウド内の Skype For business Online などのさまざまな Office 365 アプリケーションをネットワークに接続して、Skype for business の音声とビデオによる通信機能をリアルタイムで利用することができます。サービスは、特にこれらの Office 365 のリアルタイムのワークロードをサポートするように構成する必要があります。 これには、必要なトラフィック量を伝送するための十分な帯域幅を備えたネットワークと、ユーザーに対してビジネスクラスのエクスペリエンスを実現するためにサービスの品質 (QoS) をサポートできるものが含まれます。
+[Microsoft パートナー](https://partnercenter.microsoft.com/en-us/pcv/search)と連携して、クラウド内の Skype For business Online などのさまざまな office 365 アプリケーションをネットワークに接続することができます。また、Skype for business 用のリアルタイムの音声およびビデオ通信機能を利用するには、これらの office 365 リアルタイムのワークロードをサポートするようにネットワークサービスを構成する必要があります。 これには、必要なトラフィック量を伝送するための十分な帯域幅を備えたネットワークと、ユーザーに対してビジネスクラスのエクスペリエンスを実現するためにサービスの品質 (QoS) をサポートできるものが含まれます。
   
 ここで記載されている情報に加えて、次のリソースが Skype for Business Online のサービスと機能を正しく計画、展開することや、お使いのネットワーク サービスが要件と満たしているかを確認するのに役立ちます。
   

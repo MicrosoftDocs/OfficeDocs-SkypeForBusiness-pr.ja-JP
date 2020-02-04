@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: 'ユーザーにモバイルアプリのセキュリティを設定する方法について説明します。 '
-ms.openlocfilehash: 109fd6cb2ddccbc69ddae3e912506836ee49a399
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c8fa54ffa738bcd69f8cf4a29a530b86c91a63c7
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285136"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692862"
 ---
 # <a name="skype-for-business-mobile-app-security"></a>Skype for Business のモバイル アプリのセキュリティ
 
@@ -41,7 +42,7 @@ ms.locfileid: "34285136"
 **注:** 上記の各モバイルプラットフォームで使用可能なデバイス pin の適用については、[この公開ドキュメント](https://docs.microsoft.com/InTune/deploy-use/introduction-to-device-compliance-policies-in-microsoft-intune)を参照してください。
   
 ## <a name="related-topics"></a>関連トピック
-[Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)
+[Skype for Business Online をセットアップする](set-up-skype-for-business-online.md)
 
 [Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)
 

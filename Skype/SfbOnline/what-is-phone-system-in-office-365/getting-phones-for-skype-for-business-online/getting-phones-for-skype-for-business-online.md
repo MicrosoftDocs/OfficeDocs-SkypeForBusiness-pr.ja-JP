@@ -17,16 +17,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Phone System
 description: 'Skype for Business で使用できるPolycom、HP、Mitel 製の電話の種類と、必要なライセンスについて説明します。 '
-ms.openlocfilehash: ac3b262a9888acb95eef4e2e8822abc3441617c4
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: e852d54a1189ed8de7561e64809b1fc782fa644a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35587936"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692252"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Skype for Business Online で使う電話を入手する
 
@@ -100,15 +101,15 @@ Skype for Business Online の電話機には、ユーザー ライセンス以�
 |ビジュアル ボイスメール  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |
 |電話のロック  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |
 |デバイスの更新  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |
-|インバンド プロビジョニング  <br/> |はい  <br/> |可  <br/> |可  <br/> |可  <br/> |
-|QoE  <br/> |はい  <br/> |可  <br/> |はい  <br/> |いいえ  <br/> |
-|ログのアップロード  <br/> <br/> **注:** 現時点では、すべてのログは Microsoft サポートチームのみにアップロードされます。通話記録へのお客様のアクセスはまだご利用いただけません。           |はい  <br/> |可  <br/> |可  <br/> |可  <br/> |
-|先進認証  <br/> |はい  <br/> |可  <br/> |はい  <br/> |いいえ  <br/> |
+|インバンド プロビジョニング  <br/> |はい  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
+|QoE  <br/> |はい  <br/> |Yes  <br/> |はい  <br/> |いいえ  <br/> |
+|ログのアップロード  <br/> <br/> **注:** 現時点では、すべてのログは Microsoft サポートチームのみにアップロードされます。通話記録へのお客様のアクセスはまだご利用いただけません。           |はい  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
+|先進認証  <br/> |はい  <br/> |Yes  <br/> |はい  <br/> |いいえ  <br/> |
 |複数の緊急電話番号  <br/> |はい  <br/> |×    <br/> |いいえ  <br/> |はい  <br/> |
-|Exchange の予定表の統合*  <br/> |はい  <br/> |可  <br/> |可  <br/> |可  <br/> <br/> **注:** PC テザリングが必要           |
-|プレゼンス統合  <br/> |はい  <br/> |可  <br/> |可  <br/> |可  <br/> |
-|企業ディレクトリ  <br/> |はい  <br/> |可  <br/> |可  <br/> |あり  <br/> |
-|デリゲーション  <br/> |はい  <br/> |可  <br/> |はい  <br/> |なし  <br/> |
+|Exchange の予定表の統合*  <br/> |はい  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> <br/> **注:** PC テザリングが必要           |
+|プレゼンス統合  <br/> |はい  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
+|企業ディレクトリ  <br/> |はい  <br/> |Yes  <br/> |Yes  <br/> |あり  <br/> |
+|デリゲーション  <br/> |はい  <br/> |Yes  <br/> |はい  <br/> |なし  <br/> |
 |連絡先の写真の統合  <br/> |いいえ  <br/> |はい  <br/> |いいえ  <br/> |はい  <br/> |
 ||||||
 

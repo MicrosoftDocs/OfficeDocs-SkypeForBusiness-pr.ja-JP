@@ -16,17 +16,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
+f1.keywords:
 - ms.lync.lac.NumberActivationStateFailed
 ms.custom:
 - Calling Plans
 description: 住所検証は、Office 365 の通話プランのセットアップで重要な部分です。 これにより、組織のユーザーに対して、緊急応答サービスで使用できる緊急通話の住所が提供されます。
-ms.openlocfilehash: 243b3b739948fbdbeffdb56eeafd400e9bb39e7a
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: ebfe408183de656f271d65ad7bebb6e413ab39c8
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793423"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692282"
 ---
 # <a name="why-has-number-activation-failed"></a>電話番号の有効化に失敗するのはなぜですか?
 住所検証は、Office 365 の通話プランのセットアップで重要な部分です。 何らかの理由で、住所の確認のために電話番号が有効になっていない場合は、サービスリクエストを作成する必要があります。 これをどのように行うかは、所属する組織のサイズに基づきます。

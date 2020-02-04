@@ -15,17 +15,17 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
+f1.keywords:
 - ms.lync.lac.TenantInMigration
 ms.custom:
 - Setup
 description: 'Skype for Business 管理センターで使用できる機能とできない機能、およびサービスが別の Microsoft データセンターに移行される場合のその他の機能について説明します。 '
-ms.openlocfilehash: 9582b2c5209a0ad5231e4646f930cf1fcf65a55b
-ms.sourcegitcommit: 3c11153ffdc3296a9cf2a7078fff5049c091e55a
+ms.openlocfilehash: 3987675a5c054671be7a1d52227cf1f3161f2300
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/01/2019
-ms.locfileid: "35411571"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692732"
 ---
 # <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>今すぐ Skype for Business Online 管理センターを使用できないのはなぜですか?
 
@@ -66,7 +66,7 @@ Skype for Business Online 管理センターにアクセスすることはでき
 もちろん。 Skype for Business Online サービスを移行している間も、Office 365 (Office 365 および Exchange 管理センターなど) で他の管理センターを使用することができます。 ただし、Skype for Business Online 管理センターと共に、移行中に Skype for Business Online リモート PowerShell コマンドレットを使用することはできません。 
   
 ## <a name="related-topics"></a>関連トピック
-[Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)
+[Skype for Business Online をセットアップする](set-up-skype-for-business-online.md)
 
 [Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)
 

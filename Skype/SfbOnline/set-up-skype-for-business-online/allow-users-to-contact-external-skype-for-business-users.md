@@ -14,7 +14,10 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1_keywords:
+f1.keywords:
+- CSH
+ms.custom:
+- Setup
 - For O365M_ShareLync
 - ms.lync.lac.OrgExternalAccess
 - ms.lync.lac.skypefederation
@@ -23,16 +26,14 @@ f1_keywords:
 - O365M_ShareLync
 - O365P_ExternalCommDesc
 - O365P_ShareLync
-ms.custom:
-- Setup
 - LIL_Placement
 description: 'ユーザーが別の組織のユーザーと会話したり、外部からの連絡をしたりできるように Skype for Business を構成する方法について説明します。 '
-ms.openlocfilehash: 570861f532371dc8eca253956ffdd200e60f5990
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: bc0a59487d3cfd3e5721d60213d367c750349604
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792686"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692942"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>ユーザーが外部の Skype for Business ユーザーに連絡できるようにする
 
@@ -151,7 +152,7 @@ ms.locfileid: "35792686"
 ## <a name="related-topics"></a>関連トピック
 <a name="bk_preview"> </a>
 
-[Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)
+[Skype for Business Online をセットアップする](set-up-skype-for-business-online.md)
   
 [Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)
   

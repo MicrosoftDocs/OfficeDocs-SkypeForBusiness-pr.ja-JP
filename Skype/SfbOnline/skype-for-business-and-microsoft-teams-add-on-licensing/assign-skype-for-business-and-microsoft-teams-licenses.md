@@ -16,23 +16,24 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 description: '電話システム、電話会議、通話プランやコミュニケーション クレジットを使用するために Skype for Business  のライセンスを割り当てる方法について説明します。 '
-ms.openlocfilehash: 997cffce5b98ed992371a0f43e701b2efc1ae128
-ms.sourcegitcommit: 6d5f09acdcdc8d5a36f7ac785349209e7496f17d
+ms.openlocfilehash: 9aa423683160c064b13be140c4226b2327dd9b69
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "34768777"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692522"
 ---
 # <a name="assign-skype-for-business-licenses"></a>ユーザーに会議 ID を割り当てる
 
 この記事では、電話会議、電話システム、通話プランなどの機能のライセンスをユーザーに割り当てる方法について説明します。 また、ライセンスを一括で割り当てるスクリプトも提供します。
 
 > [!IMPORTANT]
-> 購入する必要のあるライセンスと**購入方法**については、「 [Skype for business アドオンライセンス](skype-for-business-and-microsoft-teams-add-on-licensing.md)」を参照してください。 Office 365 プランに応じて、電話会議、無料電話番号、電話番号への発信機能を利用できるようになります。ビジネス。
+> 購入する必要のあるライセンスと**購入方法**については、「 [Skype for business アドオンのライセンス](skype-for-business-and-microsoft-teams-add-on-licensing.md)」をご覧ください。 Office 365 プランによっては、電話会議、無料電話番号、および社外の電話番号に通話を発信する機能を利用できるようになっています。
 
 
 ## <a name="phone-system-and-calling-plans-tips-and-scripts-for-assigning-licenses"></a>電話システムと通話プラン: ライセンス割り当てのヒントとスクリプト

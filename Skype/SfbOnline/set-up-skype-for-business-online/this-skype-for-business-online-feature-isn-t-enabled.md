@@ -15,17 +15,17 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
+f1.keywords:
 - ms.lync.lac.FeatureNotEnabled
 ms.custom:
 - Setup
 description: 'Skype for Business Online 機能が有効ではないというエラーが発生したときに、考えられる原因と解決策を見つけることができます。 '
-ms.openlocfilehash: 953d14f3e1741a6617f74cf87d6acd43c849e92b
-ms.sourcegitcommit: 3c11153ffdc3296a9cf2a7078fff5049c091e55a
+ms.openlocfilehash: 50f34093e72765b4b3c9dc9080639e3046c4f34c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/01/2019
-ms.locfileid: "35411561"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692802"
 ---
 # <a name="this-skype-for-business-online-feature-isnt-enabled"></a>この Skype for Business Online の機能は有効ではありません
 
@@ -38,7 +38,7 @@ ms.locfileid: "35411561"
 |この機能は、組織では有効になっていません。  <br/> |**Microsoft 365 管理センター** > **Skype for business**に移動して、組織全体でこの機能を有効にします。 <br/> |
    
 ## <a name="related-topics"></a>関連トピック
-[Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)
+[Skype for Business Online をセットアップする](set-up-skype-for-business-online.md)
 
 [Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)
 

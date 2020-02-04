@@ -1,5 +1,5 @@
 ---
-title: 会議の出席依頼をカスタマイズする
+title: 会議への招待状をカスタマイズする
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -14,20 +14,20 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.lync.lac.MeetingInvitation
 - ms.teamsadmincenter.meetingsettings.invitationurls
 ms.custom:
 - Setup
 description: 'グラフィックのロゴ、ヘルプと法務の URL、フッターのテキストを含む Skype 会議出席依頼をカスタマイズします。 '
-ms.openlocfilehash: e43db5deeabcfa2db3e64423357d60b2723d606f
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: f17a6e3ab03484d250d6243caafcc3aecb0ff6ff
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792833"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692902"
 ---
-# <a name="customize-meeting-invitations"></a>会議の出席依頼をカスタマイズする
+# <a name="customize-meeting-invitations"></a>会議への招待状をカスタマイズする
 
 管理者は、すべての Skype for Business の会議出席依頼にサポート Web サイトへのリンクや法的免責事項、会社のロゴ、その他のテキスト、記載したいその他の情報が含まれていることを確認できます。 
   
@@ -40,12 +40,12 @@ ms.locfileid: "35792833"
     
 3. ネットワークの共有、ビジネスフォルダ用の共有 OneDrive、Dropboxなど、お客様のビジネスのすべてのユーザーがアクセスできる中央の場所にイメージを保存します。
     
-    会議出席依頼に追加できるようになります。 次の手順を参照してください。
+    会議出席依頼に追加できるようになります。 方法については、次の手順を参照してください。
     
-## <a name="customize-your-meeting-invitations"></a>会議出席依頼をカスタマイズする
+## <a name="customize-your-meeting-invitations"></a>会議の招待状をカスタマイズする
 <a name="__top"> </a>
 
-![](../images/sfb-logo-30x30.png) **Skype for business 管理センターを使用し**た skype for business ロゴを示すアイコン
+![Skype for Business のロゴを表示したアイコン](../images/sfb-logo-30x30.png) **Skype for Business 管理センターの使用**
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
