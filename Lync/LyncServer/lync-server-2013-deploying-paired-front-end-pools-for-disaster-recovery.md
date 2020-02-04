@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 障害復旧用のペアのフロント エンド プ�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying paired Front End pools for disaster recovery
 ms:assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204773(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183727
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c01549722fe04d0a4833a9d2c37fd5e85dc575a7
-ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
+ms.openlocfilehash: d264128a7fef38fd220d2527772d6065dca7c964
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40971122"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740917"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "40971122"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-paired-front-end-pools-for-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="a3003-102">Lync Server 2013 での障害復旧用のペアのフロント エンド プールの展開</span><span class="sxs-lookup"><span data-stu-id="a3003-102">Deploying paired Front End pools for disaster recovery in Lync Server 2013</span></span>
+# <a name="deploying-paired-front-end-pools-for-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="ad82f-102">Lync Server 2013 での障害復旧用のペアのフロント エンド プールの展開</span><span class="sxs-lookup"><span data-stu-id="ad82f-102">Deploying paired Front End pools for disaster recovery in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,45 +35,45 @@ ms.locfileid: "40971122"
 
 <span> </span>
 
-<span data-ttu-id="a3003-103">_**最終更新日:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="a3003-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="ad82f-103">_**最終更新日:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="ad82f-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="a3003-104">トポロジビルダーを使用すると、ペアリングされたフロントエンドプールの障害回復トポロジを簡単に展開できます。</span><span class="sxs-lookup"><span data-stu-id="a3003-104">You can easily deploy the disaster recovery topology of paired Front End pools using Topology Builder.</span></span>
+<span data-ttu-id="ad82f-104">トポロジビルダーを使用すると、ペアリングされたフロントエンドプールの障害回復トポロジを簡単に展開できます。</span><span class="sxs-lookup"><span data-stu-id="ad82f-104">You can easily deploy the disaster recovery topology of paired Front End pools using Topology Builder.</span></span>
 
 <div>
 
-## <a name="to-deploy-a-pair-of-front-end-pools"></a><span data-ttu-id="a3003-105">フロント エンド プールのペアを展開するには</span><span class="sxs-lookup"><span data-stu-id="a3003-105">To deploy a pair of Front End pools</span></span>
+## <a name="to-deploy-a-pair-of-front-end-pools"></a><span data-ttu-id="ad82f-105">フロント エンド プールのペアを展開するには</span><span class="sxs-lookup"><span data-stu-id="ad82f-105">To deploy a pair of Front End pools</span></span>
 
-1.  <span data-ttu-id="a3003-106">プールが新しく、まだ定義されていない場合は、トポロジビルダーを使用してプールを作成します。</span><span class="sxs-lookup"><span data-stu-id="a3003-106">If the pools are new and not yet defined, use Topology Builder to create the pools.</span></span>
+1.  <span data-ttu-id="ad82f-106">プールが新しく、まだ定義されていない場合は、トポロジビルダーを使用してプールを作成します。</span><span class="sxs-lookup"><span data-stu-id="ad82f-106">If the pools are new and not yet defined, use Topology Builder to create the pools.</span></span>
 
-2.  <span data-ttu-id="a3003-107">トポロジビルダーで、2つのプールのいずれかを右クリックし、[**プロパティの編集**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="a3003-107">In Topology Builder, right-click one of the two pools, and then click **Edit Properties**.</span></span>
+2.  <span data-ttu-id="ad82f-107">トポロジビルダーで、2つのプールのいずれかを右クリックし、[**プロパティの編集**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="ad82f-107">In Topology Builder, right-click one of the two pools, and then click **Edit Properties**.</span></span>
 
-3.  <span data-ttu-id="a3003-108">左ウィンドウの **[復元]** をクリックし、右ウィンドウの **[関連付けられているバックアップ プール]** を選びます。</span><span class="sxs-lookup"><span data-stu-id="a3003-108">Click **Resiliency** in the left pane, and then select **Associated Backup Pool** in the right pane.</span></span>
+3.  <span data-ttu-id="ad82f-108">左ウィンドウの **[復元]** をクリックし、右ウィンドウの **[関連付けられているバックアップ プール]** を選びます。</span><span class="sxs-lookup"><span data-stu-id="ad82f-108">Click **Resiliency** in the left pane, and then select **Associated Backup Pool** in the right pane.</span></span>
 
-4.  <span data-ttu-id="a3003-p101">**[関連付けられているバックアップ プール]** の下のボックスで、このプールとペアにするプールを選択します。ペアでない単独の既存のプールのみを選ぶことができます。</span><span class="sxs-lookup"><span data-stu-id="a3003-p101">In the box below **Associated Backup Pool**, select the pool that you want to pair with this pool. Only existing pools that are not already paired with another pool will be available to select from.</span></span>
+4.  <span data-ttu-id="ad82f-p101">**[関連付けられているバックアップ プール]** の下のボックスで、このプールとペアにするプールを選択します。ペアでない単独の既存のプールのみを選ぶことができます。</span><span class="sxs-lookup"><span data-stu-id="ad82f-p101">In the box below **Associated Backup Pool**, select the pool that you want to pair with this pool. Only existing pools that are not already paired with another pool will be available to select from.</span></span>
     
-    <span data-ttu-id="a3003-111">![36080581-db76-497d-bf9e-f02b39574d0e](images/JJ204773.36080581-db76-497d-bf9e-f02b39574d0e(OCS.15).png "36080581-db76-497d-bf9e-f02b39574d0e")</span><span class="sxs-lookup"><span data-stu-id="a3003-111">![36080581-db76-497d-bf9e-f02b39574d0e](images/JJ204773.36080581-db76-497d-bf9e-f02b39574d0e(OCS.15).png "36080581-db76-497d-bf9e-f02b39574d0e")</span></span>  
+    <span data-ttu-id="ad82f-111">![36080581-db76-497d-bf9e-f02b39574d0e](images/JJ204773.36080581-db76-497d-bf9e-f02b39574d0e(OCS.15).png "36080581-db76-497d-bf9e-f02b39574d0e")</span><span class="sxs-lookup"><span data-stu-id="ad82f-111">![36080581-db76-497d-bf9e-f02b39574d0e](images/JJ204773.36080581-db76-497d-bf9e-f02b39574d0e(OCS.15).png "36080581-db76-497d-bf9e-f02b39574d0e")</span></span>  
 
-5.  <span data-ttu-id="a3003-112">**[音声の自動フェールオーバーとフェールバック]** を選択し、**[OK]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="a3003-112">Select **Automatic failover and failback for Voice**, and then click **OK**.</span></span>
+5.  <span data-ttu-id="ad82f-112">**[音声の自動フェールオーバーとフェールバック]** を選択し、**[OK]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="ad82f-112">Select **Automatic failover and failback for Voice**, and then click **OK**.</span></span>
     
-    <span data-ttu-id="a3003-113">このプールの詳細情報を表示すると、関連付けられているプールが右ウィンドウの **[復元]** の下に表示されます。</span><span class="sxs-lookup"><span data-stu-id="a3003-113">When you view the details about this pool, the associated pool now appears in the right pane under **Resiliency**.</span></span>
+    <span data-ttu-id="ad82f-113">このプールの詳細情報を表示すると、関連付けられているプールが右ウィンドウの **[復元]** の下に表示されます。</span><span class="sxs-lookup"><span data-stu-id="ad82f-113">When you view the details about this pool, the associated pool now appears in the right pane under **Resiliency**.</span></span>
 
-6.  <span data-ttu-id="a3003-114">トポロジビルダーを使用してトポロジを公開します。</span><span class="sxs-lookup"><span data-stu-id="a3003-114">Use Topology Builder to publish the topology.</span></span>
+6.  <span data-ttu-id="ad82f-114">トポロジビルダーを使用してトポロジを公開します。</span><span class="sxs-lookup"><span data-stu-id="ad82f-114">Use Topology Builder to publish the topology.</span></span>
 
-7.  <span data-ttu-id="a3003-p102">2 つのプールがまだ展開されていない場合は、これらを展開すると、構成が完了します。最後の 2 つの手順を省略できます。</span><span class="sxs-lookup"><span data-stu-id="a3003-p102">If the two pools were not yet deployed, deploy them now and the configuration will be complete. You can skip the final two steps in this procedure.</span></span>
+7.  <span data-ttu-id="ad82f-p102">2 つのプールがまだ展開されていない場合は、これらを展開すると、構成が完了します。最後の 2 つの手順を省略できます。</span><span class="sxs-lookup"><span data-stu-id="ad82f-p102">If the two pools were not yet deployed, deploy them now and the configuration will be complete. You can skip the final two steps in this procedure.</span></span>
     
-    <span data-ttu-id="a3003-117">しかし、ペアの関係を定義する前にプールが既に展開されていた場合は、次の 2 つの最終手順を実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="a3003-117">However, if the pools were already deployed before you defined the paired relationship, you must complete the following two final steps.</span></span>
+    <span data-ttu-id="ad82f-117">しかし、ペアの関係を定義する前にプールが既に展開されていた場合は、次の 2 つの最終手順を実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="ad82f-117">However, if the pools were already deployed before you defined the paired relationship, you must complete the following two final steps.</span></span>
 
-8.  <span data-ttu-id="a3003-118">両方のプール内のすべてのフロントエンド サーバーで、次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="a3003-118">On every Front End Server in both pools, run the following:</span></span>
+8.  <span data-ttu-id="ad82f-118">両方のプール内のすべてのフロントエンド サーバーで、次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="ad82f-118">On every Front End Server in both pools, run the following:</span></span>
     ```console
     <system drive>\Program Files\Microsoft Lync Server 2013\Deployment\Bootstrapper.exe 
     ```
-    <span data-ttu-id="a3003-119">これによって、バックアップ ペアが適切に動作するために必要な他のサービスが構成されます。</span><span class="sxs-lookup"><span data-stu-id="a3003-119">This configures other services required for backup pairing to work correctly.</span></span>
+    <span data-ttu-id="ad82f-119">これによって、バックアップ ペアが適切に動作するために必要な他のサービスが構成されます。</span><span class="sxs-lookup"><span data-stu-id="ad82f-119">This configures other services required for backup pairing to work correctly.</span></span>
 
-9.  <span data-ttu-id="a3003-120">Lync Server 管理シェルのコマンドプロンプトから次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="a3003-120">From a Lync Server Management Shell command prompt, run the following:</span></span>
+9.  <span data-ttu-id="ad82f-120">Lync Server 管理シェルのコマンドプロンプトから次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="ad82f-120">From a Lync Server Management Shell command prompt, run the following:</span></span>
     ```powershell
     Start-CsWindowsService -Name LYNCBACKUP
     ```
-10. <span data-ttu-id="a3003-121">次のコマンドレットを実行して、両方のプールのユーザーおよび電話会議データが相互に同期されるようにします。</span><span class="sxs-lookup"><span data-stu-id="a3003-121">Force the user and conference data of both pools to be synchronized with each other, with the following cmdlets:</span></span>
+10. <span data-ttu-id="ad82f-121">次のコマンドレットを実行して、両方のプールのユーザーおよび電話会議データが相互に同期されるようにします。</span><span class="sxs-lookup"><span data-stu-id="ad82f-121">Force the user and conference data of both pools to be synchronized with each other, with the following cmdlets:</span></span>
     
        ```powershell
         Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
@@ -81,7 +83,7 @@ ms.locfileid: "40971122"
         Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
        ```
     
-    <span data-ttu-id="a3003-p103">データの同期には時間がかかる場合があります。次のコマンドレットを使用して、状態を確認できます。両方向の状態が安定状態であることを確認します。</span><span class="sxs-lookup"><span data-stu-id="a3003-p103">Synchronizing the data may take some time. You can use the following cmdlets to check the status. Make sure that the status in both directions is in steady state.</span></span>
+    <span data-ttu-id="ad82f-p103">データの同期には時間がかかる場合があります。次のコマンドレットを使用して、状態を確認できます。両方向の状態が安定状態であることを確認します。</span><span class="sxs-lookup"><span data-stu-id="ad82f-p103">Synchronizing the data may take some time. You can use the following cmdlets to check the status. Make sure that the status in both directions is in steady state.</span></span>
     
        ```powershell
         Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
@@ -95,7 +97,7 @@ ms.locfileid: "40971122"
 
 
 > [!NOTE]  
-> <span data-ttu-id="a3003-125">[<STRONG>音声の自動フェールオーバー</STRONG> ] オプションと [トポロジビルダー] の関連付けられた時間間隔は、Lync Server 2010 で導入された音声回復機能のみに適用されます。</span><span class="sxs-lookup"><span data-stu-id="a3003-125">The <STRONG>Automatic failover and failback for Voice</STRONG> option and the associated time intervals in Topology Builder apply only to the voice resiliency features that were introduced in Lync Server 2010.</span></span> <span data-ttu-id="a3003-126">このオプションを選んでも、このドキュメントに記載されているプール フェールオーバーが自動的に行われるわけではありません。</span><span class="sxs-lookup"><span data-stu-id="a3003-126">Selecting this option does not imply that the pool failover discussed in this document is automatic.</span></span> <span data-ttu-id="a3003-127">プールのフェールオーバーとフェールバックを行うには、フェールオーバーとフェールバックのコマンドレットを、常に管理者が手動でそれぞれ起動する必要があります。</span><span class="sxs-lookup"><span data-stu-id="a3003-127">Pool failover and failback always require an administrator to manually invoke the failover and failback cmdlets, respectively.</span></span>
+> <span data-ttu-id="ad82f-125">[<STRONG>音声の自動フェールオーバー</STRONG> ] オプションと [トポロジビルダー] の関連付けられた時間間隔は、Lync Server 2010 で導入された音声回復機能のみに適用されます。</span><span class="sxs-lookup"><span data-stu-id="ad82f-125">The <STRONG>Automatic failover and failback for Voice</STRONG> option and the associated time intervals in Topology Builder apply only to the voice resiliency features that were introduced in Lync Server 2010.</span></span> <span data-ttu-id="ad82f-126">このオプションを選んでも、このドキュメントに記載されているプール フェールオーバーが自動的に行われるわけではありません。</span><span class="sxs-lookup"><span data-stu-id="ad82f-126">Selecting this option does not imply that the pool failover discussed in this document is automatic.</span></span> <span data-ttu-id="ad82f-127">プールのフェールオーバーとフェールバックを行うには、フェールオーバーとフェールバックのコマンドレットを、常に管理者が手動でそれぞれ起動する必要があります。</span><span class="sxs-lookup"><span data-stu-id="ad82f-127">Pool failover and failback always require an administrator to manually invoke the failover and failback cmdlets, respectively.</span></span>
 
 
 
