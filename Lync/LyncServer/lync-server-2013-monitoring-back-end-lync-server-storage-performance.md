@@ -3,6 +3,8 @@ title: 'Lync Server 2013: バックエンドの Lync Server 記憶域のパフ�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Monitoring back end Lync Server 2013 storage performance
 ms:assetid: 71627c70-1953-4ac2-afbe-f3ad85be0f44
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720917(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969619
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b4c63956cebc7f532f92b6e0729bdfe811d0fdfb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7c4d3741564cd0228213400d7ee1fbb7271c4ddd
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826760"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756861"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34826760"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-back-end-lync-server-2013-storage-performance"></a><span data-ttu-id="e78b6-102">バックエンドの Lync Server 2013 ストレージパフォーマンスの監視</span><span class="sxs-lookup"><span data-stu-id="e78b6-102">Monitoring back end Lync Server 2013 storage performance</span></span>
+# <a name="monitoring-back-end-lync-server-2013-storage-performance"></a><span data-ttu-id="fcf8f-102">バックエンドの Lync Server 2013 ストレージパフォーマンスの監視</span><span class="sxs-lookup"><span data-stu-id="fcf8f-102">Monitoring back end Lync Server 2013 storage performance</span></span>
 
 </div>
 
@@ -33,13 +35,13 @@ ms.locfileid: "34826760"
 
 <span> </span>
 
-<span data-ttu-id="e78b6-103">_**最終更新日:** 2014-05-02_</span><span class="sxs-lookup"><span data-stu-id="e78b6-103">_**Topic Last Modified:** 2014-05-02_</span></span>
+<span data-ttu-id="fcf8f-103">_**最終更新日:** 2014-05-02_</span><span class="sxs-lookup"><span data-stu-id="fcf8f-103">_**Topic Last Modified:** 2014-05-02_</span></span>
 
-<span data-ttu-id="e78b6-104">Lync Server 2013 バックエンドデータベースは、Lync Server 2013 の展開において非常に重要な部分です。</span><span class="sxs-lookup"><span data-stu-id="e78b6-104">The Lync Server 2013 back-end databases are a very important part of the Lync Server 2013 deployment.</span></span> <span data-ttu-id="e78b6-105">Lync Server 2013 のバックエンドが最適に動作していることを確認するために、データベースとそれぞれのトランザクションログを定期的に監視することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="e78b6-105">We recommend constantly monitoring the databases and respective transaction logs to help to make sure that the Lync Server 2013 back end is performing optimally.</span></span>
+<span data-ttu-id="fcf8f-104">Lync Server 2013 バックエンドデータベースは、Lync Server 2013 の展開において非常に重要な部分です。</span><span class="sxs-lookup"><span data-stu-id="fcf8f-104">The Lync Server 2013 back-end databases are a very important part of the Lync Server 2013 deployment.</span></span> <span data-ttu-id="fcf8f-105">Lync Server 2013 のバックエンドが最適に動作していることを確認するために、データベースとそれぞれのトランザクションログを定期的に監視することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="fcf8f-105">We recommend constantly monitoring the databases and respective transaction logs to help to make sure that the Lync Server 2013 back end is performing optimally.</span></span>
 
-<span data-ttu-id="e78b6-106">次の表は、記憶域のパフォーマンスに関する情報を確認するために監視する必要があるパフォーマンスカウンターを示しています。</span><span class="sxs-lookup"><span data-stu-id="e78b6-106">The following table identifies performance counters that should be monitored to learn information about Storage Performance.</span></span> <span data-ttu-id="e78b6-107">これらのカウンターのベースライン値は、システムの負荷が高すぎるときにパフォーマンスの変化を理解するために、最初に決定する必要があります (システムが通常、予想される負荷の場合)。</span><span class="sxs-lookup"><span data-stu-id="e78b6-107">The baseline values for these counters must be determined first (when system is at its normal, expected load) to understand the performance changes when system is stressed.</span></span>
+<span data-ttu-id="fcf8f-106">次の表は、記憶域のパフォーマンスに関する情報を確認するために監視する必要があるパフォーマンスカウンターを示しています。</span><span class="sxs-lookup"><span data-stu-id="fcf8f-106">The following table identifies performance counters that should be monitored to learn information about Storage Performance.</span></span> <span data-ttu-id="fcf8f-107">これらのカウンターのベースライン値は、システムの負荷が高すぎるときにパフォーマンスの変化を理解するために、最初に決定する必要があります (システムが通常、予想される負荷の場合)。</span><span class="sxs-lookup"><span data-stu-id="fcf8f-107">The baseline values for these counters must be determined first (when system is at its normal, expected load) to understand the performance changes when system is stressed.</span></span>
 
-### <a name="performance-counters-to-be-monitored"></a><span data-ttu-id="e78b6-108">監視対象のパフォーマンスカウンター</span><span class="sxs-lookup"><span data-stu-id="e78b6-108">Performance counters to be monitored</span></span>
+### <a name="performance-counters-to-be-monitored"></a><span data-ttu-id="fcf8f-108">監視対象のパフォーマンスカウンター</span><span class="sxs-lookup"><span data-stu-id="fcf8f-108">Performance counters to be monitored</span></span>
 
 <table>
 <colgroup>
@@ -48,49 +50,49 @@ ms.locfileid: "34826760"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="e78b6-109">パフォーマンスカウンター</span><span class="sxs-lookup"><span data-stu-id="e78b6-109">Performance Counter</span></span></th>
-<th><span data-ttu-id="e78b6-110">ベースラインのしきい値</span><span class="sxs-lookup"><span data-stu-id="e78b6-110">Baseline thresholds</span></span></th>
+<th><span data-ttu-id="fcf8f-109">パフォーマンス カウンター</span><span class="sxs-lookup"><span data-stu-id="fcf8f-109">Performance Counter</span></span></th>
+<th><span data-ttu-id="fcf8f-110">ベースラインのしきい値</span><span class="sxs-lookup"><span data-stu-id="fcf8f-110">Baseline thresholds</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e78b6-111">トランザクション/秒 (RTC)</span><span class="sxs-lookup"><span data-stu-id="e78b6-111">Transactions/sec (RTC)</span></span></p></td>
+<td><p><span data-ttu-id="fcf8f-111">トランザクション/秒 (RTC)</span><span class="sxs-lookup"><span data-stu-id="fcf8f-111">Transactions/sec (RTC)</span></span></p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e78b6-112">トランザクション/秒 (rtcdyn)</span><span class="sxs-lookup"><span data-stu-id="e78b6-112">Transactions/sec (rtcdyn)</span></span></p></td>
+<td><p><span data-ttu-id="fcf8f-112">トランザクション/秒 (rtcdyn)</span><span class="sxs-lookup"><span data-stu-id="fcf8f-112">Transactions/sec (rtcdyn)</span></span></p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e78b6-113">トランザクション/秒 (tempdb)</span><span class="sxs-lookup"><span data-stu-id="e78b6-113">Transactions/sec (tempdb)</span></span></p></td>
+<td><p><span data-ttu-id="fcf8f-113">トランザクション/秒 (tempdb)</span><span class="sxs-lookup"><span data-stu-id="fcf8f-113">Transactions/sec (tempdb)</span></span></p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e78b6-114">ログのフラッシュ回数/秒 (RTC)</span><span class="sxs-lookup"><span data-stu-id="e78b6-114">Log Flushes/sec (RTC)</span></span></p></td>
+<td><p><span data-ttu-id="fcf8f-114">ログのフラッシュ回数/秒 (RTC)</span><span class="sxs-lookup"><span data-stu-id="fcf8f-114">Log Flushes/sec (RTC)</span></span></p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e78b6-115">ログのフラッシュ回数/秒 (rtcdyn)</span><span class="sxs-lookup"><span data-stu-id="e78b6-115">Log Flushes/sec (rtcdyn)</span></span></p></td>
+<td><p><span data-ttu-id="fcf8f-115">ログのフラッシュ回数/秒 (rtcdyn)</span><span class="sxs-lookup"><span data-stu-id="fcf8f-115">Log Flushes/sec (rtcdyn)</span></span></p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e78b6-116">ログのフラッシュ回数/秒 (tempdb)</span><span class="sxs-lookup"><span data-stu-id="e78b6-116">Log Flushes/sec (tempdb)</span></span></p></td>
+<td><p><span data-ttu-id="fcf8f-116">ログのフラッシュ回数/秒 (tempdb)</span><span class="sxs-lookup"><span data-stu-id="fcf8f-116">Log Flushes/sec (tempdb)</span></span></p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e78b6-117">ディスク転送/秒 (読み取り + 書き込み)-RTC db</span><span class="sxs-lookup"><span data-stu-id="e78b6-117">Disk Transfers/sec (read+write) - RTC db</span></span></p></td>
+<td><p><span data-ttu-id="fcf8f-117">ディスク転送/秒 (読み取り + 書き込み)-RTC db</span><span class="sxs-lookup"><span data-stu-id="fcf8f-117">Disk Transfers/sec (read+write) - RTC db</span></span></p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e78b6-118">ディスク転送/秒-RTC ログ</span><span class="sxs-lookup"><span data-stu-id="e78b6-118">Disk Transfers/sec - RTC log</span></span></p></td>
+<td><p><span data-ttu-id="fcf8f-118">ディスク転送/秒-RTC ログ</span><span class="sxs-lookup"><span data-stu-id="fcf8f-118">Disk Transfers/sec - RTC log</span></span></p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e78b6-119">Disk 伝送/sec-rtcdyn db</span><span class="sxs-lookup"><span data-stu-id="e78b6-119">Disk Transfers/sec - rtcdyn db</span></span></p></td>
+<td><p><span data-ttu-id="fcf8f-119">Disk 伝送/sec-rtcdyn db</span><span class="sxs-lookup"><span data-stu-id="fcf8f-119">Disk Transfers/sec - rtcdyn db</span></span></p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e78b6-120">Disk 伝送/sec-rtcdyn ログ</span><span class="sxs-lookup"><span data-stu-id="e78b6-120">Disk Transfers/sec - rtcdyn log</span></span></p></td>
+<td><p><span data-ttu-id="fcf8f-120">Disk 伝送/sec-rtcdyn ログ</span><span class="sxs-lookup"><span data-stu-id="fcf8f-120">Disk Transfers/sec - rtcdyn log</span></span></p></td>
 <td></td>
 </tr>
 </tbody>

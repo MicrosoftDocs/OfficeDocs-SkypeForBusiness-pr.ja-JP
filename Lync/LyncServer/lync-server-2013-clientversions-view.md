@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ClientVersions ビュー'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: ClientVersions view
 ms:assetid: caf7678f-83a0-46c8-83cc-fee4c3991f52
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721891(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733825
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8d219b8666afc0684b0d61f02f06618ea6ef60f8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8fd25da49e8a3b6ad7838ff27a4472e711b97421
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840530"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756411"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34840530"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="clientversions-view-in-lync-server-2013"></a><span data-ttu-id="229dd-102">Lync Server 2013 の ClientVersions ビュー</span><span class="sxs-lookup"><span data-stu-id="229dd-102">ClientVersions view in Lync Server 2013</span></span>
+# <a name="clientversions-view-in-lync-server-2013"></a><span data-ttu-id="e31b3-102">Lync Server 2013 の ClientVersions ビュー</span><span class="sxs-lookup"><span data-stu-id="e31b3-102">ClientVersions view in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,15 +35,15 @@ ms.locfileid: "34840530"
 
 <span> </span>
 
-<span data-ttu-id="229dd-103">_**最終更新日:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="229dd-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="e31b3-103">_**最終更新日:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="e31b3-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="229dd-104">[ClientVersions] ビューには、データベースに記録されているセッションに参加しているさまざまなクライアントの種類とバージョンに関する情報が格納されます。</span><span class="sxs-lookup"><span data-stu-id="229dd-104">The ClientVersions view stores information about the various client types and versions that have participated in sessions recorded in the database.</span></span> <span data-ttu-id="229dd-105">ビューの各レコードは、1つのクライアントバージョンを表します。</span><span class="sxs-lookup"><span data-stu-id="229dd-105">Each record in the view represents one client version.</span></span> <span data-ttu-id="229dd-106">このビューは、Microsoft Lync Server 2013 で導入されました。</span><span class="sxs-lookup"><span data-stu-id="229dd-106">This view was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="e31b3-104">[ClientVersions] ビューには、データベースに記録されているセッションに参加しているさまざまなクライアントの種類とバージョンに関する情報が格納されます。</span><span class="sxs-lookup"><span data-stu-id="e31b3-104">The ClientVersions view stores information about the various client types and versions that have participated in sessions recorded in the database.</span></span> <span data-ttu-id="e31b3-105">ビューの各レコードは、1つのクライアントバージョンを表します。</span><span class="sxs-lookup"><span data-stu-id="e31b3-105">Each record in the view represents one client version.</span></span> <span data-ttu-id="e31b3-106">このビューは、Microsoft Lync Server 2013 で導入されました。</span><span class="sxs-lookup"><span data-stu-id="e31b3-106">This view was introduced in Microsoft Lync Server 2013.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="229dd-107">特定の列に対して複数のレコードが存在する場合があります。</span><span class="sxs-lookup"><span data-stu-id="229dd-107">There may be multiple records for certain columns.</span></span>
+> <span data-ttu-id="e31b3-107">特定の列に対して複数のレコードが存在する場合があります。</span><span class="sxs-lookup"><span data-stu-id="e31b3-107">There may be multiple records for certain columns.</span></span>
 
 
 
@@ -56,31 +58,31 @@ ms.locfileid: "34840530"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="229dd-108">列</span><span class="sxs-lookup"><span data-stu-id="229dd-108">Column</span></span></th>
-<th><span data-ttu-id="229dd-109">データ型</span><span class="sxs-lookup"><span data-stu-id="229dd-109">Data Type</span></span></th>
-<th><span data-ttu-id="229dd-110">詳細</span><span class="sxs-lookup"><span data-stu-id="229dd-110">Details</span></span></th>
+<th><span data-ttu-id="e31b3-108">列</span><span class="sxs-lookup"><span data-stu-id="e31b3-108">Column</span></span></th>
+<th><span data-ttu-id="e31b3-109">データ型</span><span class="sxs-lookup"><span data-stu-id="e31b3-109">Data Type</span></span></th>
+<th><span data-ttu-id="e31b3-110">詳細</span><span class="sxs-lookup"><span data-stu-id="e31b3-110">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="229dd-111"><strong>VersionId</strong></span><span class="sxs-lookup"><span data-stu-id="229dd-111"><strong>VersionId</strong></span></span></p></td>
-<td><p><span data-ttu-id="229dd-112">int</span><span class="sxs-lookup"><span data-stu-id="229dd-112">int</span></span></p></td>
-<td><p><span data-ttu-id="229dd-113">このクライアントの種類とバージョンを識別する一意の番号。</span><span class="sxs-lookup"><span data-stu-id="229dd-113">Unique number identifying this client type and version.</span></span></p></td>
+<td><p><span data-ttu-id="e31b3-111"><strong>VersionId</strong></span><span class="sxs-lookup"><span data-stu-id="e31b3-111"><strong>VersionId</strong></span></span></p></td>
+<td><p><span data-ttu-id="e31b3-112">int</span><span class="sxs-lookup"><span data-stu-id="e31b3-112">int</span></span></p></td>
+<td><p><span data-ttu-id="e31b3-113">このクライアントの種類とバージョンを識別する一意の番号。</span><span class="sxs-lookup"><span data-stu-id="e31b3-113">Unique number identifying this client type and version.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="229dd-114"><strong>バージョン</strong></span><span class="sxs-lookup"><span data-stu-id="229dd-114"><strong>Version</strong></span></span></p></td>
-<td><p><span data-ttu-id="229dd-115">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="229dd-115">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="229dd-116">ユーザーエージェントを表します。</span><span class="sxs-lookup"><span data-stu-id="229dd-116">Represents the user agent.</span></span></p></td>
+<td><p><span data-ttu-id="e31b3-114"><strong>バージョン</strong></span><span class="sxs-lookup"><span data-stu-id="e31b3-114"><strong>Version</strong></span></span></p></td>
+<td><p><span data-ttu-id="e31b3-115">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="e31b3-115">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="e31b3-116">ユーザーエージェントを表します。</span><span class="sxs-lookup"><span data-stu-id="e31b3-116">Represents the user agent.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="229dd-117"><strong>ClientType</strong></span><span class="sxs-lookup"><span data-stu-id="229dd-117"><strong>ClientType</strong></span></span></p></td>
-<td><p><span data-ttu-id="229dd-118">int</span><span class="sxs-lookup"><span data-stu-id="229dd-118">int</span></span></p></td>
-<td><p><span data-ttu-id="229dd-119">クライアントの種類。</span><span class="sxs-lookup"><span data-stu-id="229dd-119">Type of client.</span></span></p></td>
+<td><p><span data-ttu-id="e31b3-117"><strong>ClientType</strong></span><span class="sxs-lookup"><span data-stu-id="e31b3-117"><strong>ClientType</strong></span></span></p></td>
+<td><p><span data-ttu-id="e31b3-118">int</span><span class="sxs-lookup"><span data-stu-id="e31b3-118">int</span></span></p></td>
+<td><p><span data-ttu-id="e31b3-119">クライアントの種類。</span><span class="sxs-lookup"><span data-stu-id="e31b3-119">Type of client.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="229dd-120"><strong>ClientCategory</strong></span><span class="sxs-lookup"><span data-stu-id="229dd-120"><strong>ClientCategory</strong></span></span></p></td>
-<td><p><span data-ttu-id="229dd-121">nvarchar (64)</span><span class="sxs-lookup"><span data-stu-id="229dd-121">nvarchar(64)</span></span></p></td>
-<td><p><span data-ttu-id="229dd-122">クライアントが所属するカテゴリ。</span><span class="sxs-lookup"><span data-stu-id="229dd-122">Category that the client belongs to.</span></span> <span data-ttu-id="229dd-123">たとえば、クライアント Conferencing_Attendant_ 1.0 は、ClientCategory CAA をに属しています。</span><span class="sxs-lookup"><span data-stu-id="229dd-123">For example, the client Conferencing_Attendant_1.0 belongs to the ClientCategory CAA.</span></span></p></td>
+<td><p><span data-ttu-id="e31b3-120"><strong>ClientCategory</strong></span><span class="sxs-lookup"><span data-stu-id="e31b3-120"><strong>ClientCategory</strong></span></span></p></td>
+<td><p><span data-ttu-id="e31b3-121">nvarchar (64)</span><span class="sxs-lookup"><span data-stu-id="e31b3-121">nvarchar(64)</span></span></p></td>
+<td><p><span data-ttu-id="e31b3-122">クライアントが所属するカテゴリ。</span><span class="sxs-lookup"><span data-stu-id="e31b3-122">Category that the client belongs to.</span></span> <span data-ttu-id="e31b3-123">たとえば、.0 というクライアント Conferencing_Attendant_1 は ClientCategory CAA をに属しています。</span><span class="sxs-lookup"><span data-stu-id="e31b3-123">For example, the client Conferencing_Attendant_1.0 belongs to the ClientCategory CAA.</span></span></p></td>
 </tr>
 </tbody>
 </table>

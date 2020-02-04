@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ユーザーおよびユーザー グループのド�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Adding domains of users and user groups to the room category
 ms:assetid: ee03f2cf-1c84-41c4-b524-d0729be33b8c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ215884(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48706013
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 32539c66523cf625c80d5f113cf788b02d3c905b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4f9fbbc7ad4fd5279cea1116607193817078a04e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840933"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738147"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34840933"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="adding-domains-of-users-and-user-groups-to-the-room-category-in-lync-server-2013"></a><span data-ttu-id="1aec5-102">Lync Server 2013 でユーザーおよびユーザー グループのドメインをルーム カテゴリへ追加する</span><span class="sxs-lookup"><span data-stu-id="1aec5-102">Adding domains of users and user groups to the room category in Lync Server 2013</span></span>
+# <a name="adding-domains-of-users-and-user-groups-to-the-room-category-in-lync-server-2013"></a><span data-ttu-id="e9fd0-102">Lync Server 2013 でユーザーおよびユーザー グループのドメインをルーム カテゴリへ追加する</span><span class="sxs-lookup"><span data-stu-id="e9fd0-102">Adding domains of users and user groups to the room category in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,13 +35,13 @@ ms.locfileid: "34840933"
 
 <span> </span>
 
-<span data-ttu-id="1aec5-103">_**最終更新日:** 2014-02-07_</span><span class="sxs-lookup"><span data-stu-id="1aec5-103">_**Topic Last Modified:** 2014-02-07_</span></span>
+<span data-ttu-id="e9fd0-103">_**最終更新日:** 2014-02-07_</span><span class="sxs-lookup"><span data-stu-id="e9fd0-103">_**Topic Last Modified:** 2014-02-07_</span></span>
 
-<span data-ttu-id="1aec5-104">より大きなユーザーグループをチャットルームに追加する方法については、「 [Lync Server 2013 でカテゴリを構成](lync-server-2013-configure-categories.md)する」および「展開ドキュメントの[カテゴリを管理](manage-categories.md)する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="1aec5-104">To add larger groups of users to a chat room, see [Configure categories in Lync Server 2013](lync-server-2013-configure-categories.md) and [Manage categories](manage-categories.md) in the Deployment documentation.</span></span> <span data-ttu-id="1aec5-105">たとえば、次のコマンドは、active Directory の NorthAmericaUsers OU のすべてのユーザーを NorthAmerica チャットルームに追加します。</span><span class="sxs-lookup"><span data-stu-id="1aec5-105">For example, this command adds all the users from the NorthAmericaUsers OU in active Directory to the NorthAmerica chat room:</span></span>
+<span data-ttu-id="e9fd0-104">より大きなユーザーグループをチャットルームに追加する方法については、「 [Lync Server 2013 でカテゴリを構成](lync-server-2013-configure-categories.md)する」および「展開ドキュメントの[カテゴリを管理](manage-categories.md)する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="e9fd0-104">To add larger groups of users to a chat room, see [Configure categories in Lync Server 2013](lync-server-2013-configure-categories.md) and [Manage categories](manage-categories.md) in the Deployment documentation.</span></span> <span data-ttu-id="e9fd0-105">たとえば、次のコマンドは、active Directory の NorthAmericaUsers OU のすべてのユーザーを NorthAmerica チャットルームに追加します。</span><span class="sxs-lookup"><span data-stu-id="e9fd0-105">For example, this command adds all the users from the NorthAmericaUsers OU in active Directory to the NorthAmerica chat room:</span></span>
 
     Set-CsPersistentChatRoom -PersistentChatPoolFqdn "atl-cs-001.litwareinc.com\NorthAmerica" -Members @{Add="OU=NorthAmericaUsers,DC=litwareinc,DC=com"}
 
-<span data-ttu-id="1aec5-106">このコマンドを実行すると、すべてのメンバーが財務配布グループから同じチャットルームに追加されます。</span><span class="sxs-lookup"><span data-stu-id="1aec5-106">His command adds all the members from the Finance distribution group to the same chat room:</span></span>
+<span data-ttu-id="e9fd0-106">このコマンドを実行すると、すべてのメンバーが財務配布グループから同じチャットルームに追加されます。</span><span class="sxs-lookup"><span data-stu-id="e9fd0-106">His command adds all the members from the Finance distribution group to the same chat room:</span></span>
 
     Set-CsPersistentChatRoom -PersistentChatPoolFqdn "atl-cs-001.litwareinc.com\NorthAmerica" -Members @{Add="CN=Finance,OU=ExternalUsers,DC=litwareinc,DC=com"}
 
