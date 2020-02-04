@@ -3,6 +3,8 @@ title: リモート通話コントロールの信頼済みアプリケーショ�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure a trusted application entry for remote call control
 ms:assetid: 37777f93-8b24-40cf-808e-7c6230eb2132
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558636(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183829
 ms.date: 11/03/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: be0dda3eedc73e5c64f7c275714955f3ce92af3a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bfaec78b0c7d64308b5899a6e7dc5fa95c1f53fb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840455"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757871"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ Lync Server で着信をルーティングするために静的ルートを適�
 
 
 > [!IMPORTANT]
-> 以前のバージョンの Lync Server 展開からユーザーを移行する場合は、次の手順を実行する前に、SIP/CSTA ゲートウェイ用に作成した既存の信頼済みアプリケーションエントリ (以前は承認済みのホストエントリ) をすべて削除していることを確認してください。このトピックをご覧ください。 詳細については、「 <A href="lync-server-2013-remove-a-legacy-authorized-host-optional.md">Lync Server 2013 で従来の承認済みホストを削除する (オプション)</A>」を参照してください。<BR>伝送制御プロトコル (TCP) 接続を使用して新しいリモート通話コントロールを展開する予定がある場合は、同じように、既存の信頼できるアプリケーションとプールで [<STRONG>サービスの利用制限</STRONG>を設定する] をオンにする必要があります。新しい信頼済みアプリケーションの TCP ポート。
+> 以前のバージョンの Lync Server 展開からユーザーを移行する場合は、このトピックの手順を実行する前に、SIP/CGI ゲートウェイ用に作成したすべての既存の信頼済みアプリケーションエントリ (以前は承認済みホストエントリと呼ばれます) を削除してください。 詳細については、「 <A href="lync-server-2013-remove-a-legacy-authorized-host-optional.md">Lync Server 2013 で従来の承認済みホストを削除する (オプション)</A>」を参照してください。<BR>伝送制御プロトコル (TCP) 接続を使用して新しいリモート通話コントロールを展開する予定がある場合は、新しい信頼済みアプリケーションに対して同じ TCP ポートを使う場合は、[<STRONG>サービスの利用制限</STRONG>を既存の信頼できるアプリケーションとプールに対して制限する] をオンにする必要があります。
 
 
 

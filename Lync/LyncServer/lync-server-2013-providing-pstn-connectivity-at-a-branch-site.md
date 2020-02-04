@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ブランチ サイトでの PSTN 接続の提供'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Providing PSTN connectivity at a branch site
 ms:assetid: d78d76fb-2dd1-42cb-b25a-bfaff9650a70
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398945(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185633
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cf7ba3c77c789d10e80319542cd163186eef2d4c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5dfc039b0b1cd2995d0a658f1c1c78e0941d405d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823624"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724777"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**最終更新日:** 2012-10-05_
 
 Microsoft Lync Server 2013、計画ツールを使用してトポロジにブランチサイトを追加し、ブランチサイトで音声インフラストラクチャを設定することをお勧めします。
 
-計画ツールを使用していない場合は、まずこのセクションのトピックに記載されている手順を使用してブランチサイトを追加します。次に、IP/公衆交換電話網 (PSTN) ゲートウェイを定義するか、SIP を構成して、音声インフラストラクチャをセットアップします。トランク (メディアバイパスありまたはなし) プライベートブランチ exchange (PBX) からブランチサイトへの接続は、別のオプションです。
+計画ツールを使用していない場合は、まずこのセクションのトピックに記載されている手順を実行します。最初に、ブランチサイトを追加するには、IP/公衆交換電話網 (PSTN) ゲートウェイを定義するか、SIP トランク (メディアのバイパスありまたはなし) を構成して、音声インフラストラクチャをセットアップします。 プライベートブランチ exchange (PBX) からブランチサイトへの接続は、別のオプションです。
 
 <div>
 

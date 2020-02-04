@@ -1,8 +1,10 @@
 ---
-title: LyncPerfTool を実行する
+title: LyncPerfTool の実行
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Run LyncPerfTool
 ms:assetid: f2fd1940-d744-47b5-b299-04a914039182
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945612(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541437
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: daf46c5e34558a719cdf4fafa15a57f273c4030d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 29a36be8c6703dad52e6c36d363ae23013643bd7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848857"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743557"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34848857"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="run-lyncperftool"></a>LyncPerfTool を実行する
+# <a name="run-lyncperftool"></a>LyncPerfTool の実行
 
 </div>
 
@@ -41,7 +43,7 @@ Lync Server 2013 応力とパフォーマンスツール (LyncPerfTool) を実�
 
 ## <a name="running-the-lync-server-2013-stress-and-performance-tool"></a>Lync Server 2013 のストレスとパフォーマンスのツールを実行する
 
-UserProfileGenerator ツールによって、LyncPerfTool のパフォーマンスカウンターを登録し、XML 構成ファイルを読み込むことによって LyncPerfTool を実行できるバッチファイルが作成されます。 バッチファイルは、構成ファイルごとに LyncPerfTool の1つのインスタンスを実行します。 バッチファイルを実行するには、次の操作を行います。
+UserProfileGenerator ツールによって、LyncPerfTool のパフォーマンスカウンターを登録し、XML 構成ファイルを読み込むことによって LyncPerfTool を実行できるバッチファイルが作成されます。 このバッチ ファイルでは、構成ファイルごとに LyncPerfTool.exe の 1 つのインスタンスを実行します。 バッチファイルを実行するには、次の操作を行います。
 
 1.  構成フォルダーとファイルを含むフォルダーを、各クライアントコンピューター上の LyncStressTool を含むディレクトリにコピーします。 (たとえば、1.28\_13.16.16 という名前のフォルダーで構成ファイルを生成した場合は、各クライアントに LyncPerfTool が含まれているフォルダーにそのフォルダーをコピーします)。
 
@@ -50,7 +52,7 @@ UserProfileGenerator ツールによって、LyncPerfTool のパフォーマン�
     ```Batch
         RunClient0.bat "C:\Program Files\Microsoft Lync Server 2013\LyncStressAndPerfTool\LyncStress" 
     ```
-LyncPerfTool を直接実行するには、コマンドプロンプトを開き、コマンドラインで次のコマンドを入力します (初めて実行する場合は、この後のメモに示すように、パフォーマンスカウンター regsvr32/i/n/s LyncPerfToolPerf を登録してください。トピック): LyncPerfTool:\<configxml\>
+LyncPerfTool を直接実行するには、コマンドプロンプトを開き、コマンドラインで次のコマンドを入力します (初めて実行する場合は、このトピックの後半のメモに示すように、パフォーマンスカウンター regsvr32/i/n/s LyncPerfToolPerf を登録してください)。 LyncPerfTool:\<configxml\>
 ```Powershell
     LyncPerfTool.exe /file:IM_client0.xml
 ```
@@ -77,7 +79,7 @@ LyncPerfTool を直接実行するには、コマンドプロンプトを開き�
 
 
 > [!NOTE]  
-> 開始した LyncPerfTool のすべてのインスタンスは、通常、ユーザーが1秒あたり1人のユーザーとして、すぐにユーザーのサインインを開始します。 プールのピークユーザーのサインイン速度は約 12/秒です。 これは、ユーザーがまだサインインしている間に、12個を超える LyncPerfTool インスタンスを同時に開始しないことを意味します。 1000ユーザーは、1秒あたり最大20分でサインインすることになります。
+> 開始した LyncPerfTool のすべてのインスタンスは、通常、ユーザーが1秒あたり1人のユーザーとして、すぐにユーザーのサインインを開始します。 プールに対するユーザー サインインの最大レートは、毎秒約 12 ユーザーになります。 これは、ユーザーがまだサインインしている間に、12個を超える LyncPerfTool インスタンスを同時に開始しないことを意味します。 1000ユーザーは、1秒あたり最大20分でサインインすることになります。
 
 
 
@@ -90,8 +92,8 @@ LyncPerfTool を直接実行するには、コマンドプロンプトを開き�
 ## <a name="see-also"></a>関連項目
 
 
-[ユーザーと連絡先を作成する](create-users-and-contacts.md)  
-[ユーザープロファイルを構成する](configure-user-profile.md)  
+[ユーザーと連絡先の作成](create-users-and-contacts.md)  
+[ユーザー プロファイルの構成](configure-user-profile.md)  
   
 
 </div>

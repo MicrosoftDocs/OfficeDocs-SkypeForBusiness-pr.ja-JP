@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 社内ユニファイド メッセージングのコ�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Components and topologies for on-premises Unified Messaging
 ms:assetid: 22fc87cf-a7e5-4c8c-bb9b-101e5380cdcf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425711(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183619
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cdaf33a230f2663e9fc8b541aafb47c362d0ac97
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1739dbb7d603f112af72c78032c46b94470302bb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840514"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742587"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ _**最終更新日:** 2012-09-25_
 
 ## <a name="exchange-server-components"></a>Exchange Server コンポーネント
 
-統合された[ユニファイドメッセージングおよび Lync Server 2013 の機能](lync-server-2013-features-of-integrated-unified-messaging.md)について説明した Exchange UM の機能とサービスを組織内のエンタープライズボイスユーザーに提供するには、Microsoft Exchange メールボックスサーバーとクライアントアクセスサーバーを展開する必要があります。ユーザーメールボックスをホストし、メールやボイスメール用に1つの保存場所を提供します。 Exchange UM は、Exchange メールボックスとクライアントアクセスサーバーでサービスとして実行されます。
+統合された[ユニファイドメッセージングおよび Lync Server 2013 の機能](lync-server-2013-features-of-integrated-unified-messaging.md)について説明した exchange UM の機能とサービスを組織内のエンタープライズボイスユーザーに提供するには、Microsoft Exchange メールボックスサーバーとクライアントアクセスサーバーを展開して、ユーザーのメールボックスをホストし、メールやボイスメール用の1つの保存場所を提供する必要があります。 Exchange UM は、Exchange メールボックスとクライアントアクセスサーバーでサービスとして実行されます。
 
 Microsoft Exchange Server 2007 および Microsoft Exchange Server 2010 の Exchange UM コンポーネントの詳細については、「展開ドキュメントで[Lync Server 2013 ボイスメールを提供するためのオンプレミスの EXCHANGE UM の展開」を](lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail.md)参照してください。
 

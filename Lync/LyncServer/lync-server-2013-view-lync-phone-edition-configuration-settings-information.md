@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Lync Phone Edition の構成設定の情報を表示�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View Lync Phone Edition configuration settings information
 ms:assetid: 15f94478-651f-4063-9918-6a059f98df16
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687976(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733564
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 213b9775b22818c34eb8f7896ea02a4872182a42
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a58450b1d69ce757f40194d179606f332e152d7d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848203"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765638"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34848203"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-23_
+_**トピックの最終更新日:** 2013-02-23_
 
 Lync Phone Edition を実行しているデバイスに関する構成情報を表示できます。 情報はコレクションに整理されます。 Lync Server をインストールすると、展開で Lync Phone Edition を実行しているすべてのデバイスに適用される Lync Phone エディション設定のコレクションを取得できます。 また、特定のサイトの設定の新しいコレクションを作成することもできます。 サイトの設定はグローバル設定よりも優先されます。 設定の各コレクションは、名前、スコープ (グローバルまたはサイト)、SIP セキュリティ設定、ログレベル、音声品質サービス (QoS) レベル、電話ロック設定、および電話ロックの詳細 (ロック解除の個人識別の最小文字数) で構成されます。電話がロックされるまでの番号 (PIN) と時刻。
 
@@ -55,7 +57,7 @@ Lync Phone Edition を実行しているデバイスに関する構成情報を�
 
 ## <a name="viewing-lync-phone-edition-configuration-information-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用した Lync Phone Edition 構成情報の表示
 
-Lync Server 管理シェルと**CsUCPhoneConfiguration**コマンドレットを使用して、Lync Phone Edition の構成設定を表示できます。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、「Lync Server Windows PowerShell のブログ記事」を参照してください[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。「リモート PowerShell を使用して Microsoft Lync Server 2010 を管理する」を参照してください。
+Lync Server 管理シェルと**CsUCPhoneConfiguration**コマンドレットを使用して、Lync Phone Edition の構成設定を表示できます。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 <div>
 

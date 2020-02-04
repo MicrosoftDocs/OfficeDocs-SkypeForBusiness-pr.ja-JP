@@ -3,6 +3,8 @@ title: DNS の概要 - 拡張統合エッジ (ロード バランサー機器を
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS summary - Scaled consolidated edge with hardware load balancers
 ms:assetid: 8453297c-da1d-4b9e-a37e-6721458c6feb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398670(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184700
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d411b004edde96314e3c06d7f28a9f9d294688ad
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c6be703e13ec50eb66ba52c981196df06adc6e5b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833353"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737197"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -67,7 +69,7 @@ Lync 2013 クライアントの自動構成の構成の詳細については、�
     
 
     > [!NOTE]
-    > エッジサーバーの実際の外部ネットワークインターフェイスに割り当てられている IP アドレスは、どのハードウェアロードバランサーを選択するかによって異なります。 実際の IP アドレス要件については、ハードウェアロードバランサーのドキュメントを参照してください。<BR>すべての3エッジサービスインターフェイスで単一の IP アドレスを使うことはできますが、お勧めしません。 これにより、IP アドレスが保存されますが、サービスごとに異なるポート番号が必要になります。 既定のポート番号は 443/TCP であり、ほとんどのリモートファイアウォールでトラフィックが許可されます。 ポートの値を変更する (たとえば、アクセスエッジサービスの場合は、5061/tcp、Web 会議エッジサービスの場合は 444/TCP、A/V Edge サービスの場合は 443/TCP) と、相手が背後にあるファイアウォールでトラフィックが許可されていないリモートユーザーに問題が発生する可能性があります。5061/TCP および 444/TCP。 さらに、3つの異なる IP アドレスで、IP アドレスをフィルター処理できるため、トラブルシューティングが容易になります。
+    > エッジサーバーの実際の外部ネットワークインターフェイスに割り当てられている IP アドレスは、どのハードウェアロードバランサーを選択するかによって異なります。 実際の IP アドレス要件については、ハードウェアロードバランサーのドキュメントを参照してください。<BR>すべての3エッジサービスインターフェイスで単一の IP アドレスを使うことはできますが、お勧めしません。 これにより、IP アドレスが保存されますが、サービスごとに異なるポート番号が必要になります。 既定のポート番号は 443/TCP であり、ほとんどのリモートファイアウォールでトラフィックが許可されます。 ポートの値を変更する (たとえば、アクセスエッジサービスの場合は 5061/tcp、Web 会議エッジサービスの場合は 444/TCP、A/V Edge サービスの場合は、443/tcp) という問題が発生する可能性があります。これは、相手のファイアウォールによって 5061/TCP および 444/TCP 経由のトラフィックが許可されないリモート さらに、3つの異なる IP アドレスで、IP アドレスをフィルター処理できるため、トラブルシューティングが容易になります。
 
     
     </div>

@@ -3,6 +3,8 @@ title: 移行のプロセス - 詳細
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Migration process - details
 ms:assetid: ca7e352c-9bde-47d9-8273-5cf2fdfdfe7e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205264(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185412
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 39560d69842c104c7db956418dabac9aa6d29d7c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1d3b46e2b80d9ad5a4b08108d1dc2bad03cf5f0f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848048"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757141"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -139,9 +141,9 @@ Lync Server 2010、グループチャット、または Office Communications Se
 
 8.  Lync Server 2010、グループチャット、または Office Communications Server 2007 R2 グループチャット検索サーバー URI を Lync Server 2013、常設チャットサーバーの連絡先オブジェクトに移植します。 次の手順が必要なのは、Lync 2010 グループチャットまたは Office Communicator 2007 R2 グループチャットクライアントで、移行後に最新の Lync 2013、常設チャット (クライアント) に接続する必要がある場合に、クライアント側の構成が変更されない場合です。
     
-      - @ DomainName の @\<domainName\>を削除します。 これは、Lync Server 2010 の [グループチャット] で参照サービスを指すために使用されました。 プールをアンインストールして、後で信頼済みエントリを削除することができます。
+      - Ocschat@\<domainName\>. .com 参照サーバーのユーザーアカウントを削除します。 これは、Lync Server 2010 の [グループチャット] で参照サービスを指すために使用されました。 プールをアンインストールして、後で信頼済みエントリを削除することができます。
     
-      - 従来のエンドポイント (常設チャットサーバーの連絡先オブジェクト) を作成するには、 **** 同じ SIP URI を使用して Windows PowerShell コマンドレット CsPersistentChatEndpoint を実行します。これにより、サービスの再開時にレガシクライアントが効率的に動作するようになります。
+      - 従来のエンドポイント (常設チャットサーバーの連絡先オブジェクト) を作成するには、同じ SIP URI を使用して Windows PowerShell コマンドレット**CsPersistentChatEndpoint を実行**します。これにより、サービスの再開時にレガシクライアントが効率的に動作するようになります。
     
     この時点では、必須の移行プロセスが完了しています。 Lync 2010 グループチャット (クライアント) または Office Communicator 2007 R2 グループチャット (クライアント) は、新しい常設チャットサーバープールに、透過的に接続できるようになりました。
     
