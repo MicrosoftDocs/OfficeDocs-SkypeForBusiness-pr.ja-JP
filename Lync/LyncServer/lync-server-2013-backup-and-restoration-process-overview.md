@@ -3,6 +3,8 @@ title: 'Lync Server 2013: バックアップと復元のプロセスの概要'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Backup and restoration process overview
 ms:assetid: e0f23b21-070f-4df5-b795-cea2f5338d85
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202192(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541524
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5b01230e84c9278d5540c21d41d9af1342479e6a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 559ebb5a5d5ba91b5a4952037c18ad509ed5cec7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840887"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728957"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ _**最終更新日:** 2013-03-26_
 
   - 任意のプールに含まれていないスタンドアロンコンピューター上の共有フォルダーとして、バックアップの場所を作成します。 バックアップの場所は **$Backup**で参照されます。
 
-  - 定期的にスケジュールを設定した場合、2013「lync server のバックアップ[と復元の2013要件](lync-server-2013-backup-and-restoration-requirements-data.md)」で説明されているすべての lync server データベースと、次の手順に従って、データストアをバックアップします。 [](lync-server-2013-backing-up-lync-server.md)全体管理ストアには、すべてのサーバー設定と構成が含まれています。
+  - 定期的にスケジュールが設定されている場合は、「lync server 2013 のバックアップと復元の要件」 [2013](lync-server-2013-backing-up-lync-server.md)で説明した手順に従って、lync server データベースと[バックアップと復元の要件](lync-server-2013-backup-and-restoration-requirements-data.md)について説明している、すべてのサーバーの設定と構成が含まれます。
 
   - それ以降のバックアップを実行するたびに、新しい共有フォルダーを作成し、参照を **$Backup**パスを変更します。
 

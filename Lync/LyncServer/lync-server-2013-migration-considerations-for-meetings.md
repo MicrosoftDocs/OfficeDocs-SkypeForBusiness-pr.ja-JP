@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 会議の移行に関する考慮事項'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Migration considerations for meetings
 ms:assetid: a9807d58-99a3-4cff-b4c6-74950d106a2b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412800(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 61097556
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 67816dd8f2b9d8be3862994c735040c703bd2231
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6af94514360509d4f608a21228b2fecf9a522007
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827131"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727737"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -80,7 +82,7 @@ Office Communicator 2007 R2 ユーザーは、移行中に Lync Web App 2013 を
 
 ## <a name="migrating-users-based-on-their-conferencing-needs"></a>会議のニーズに基づいてユーザーを移行する
 
-**会議の開催者の頻度。**    [Lync Server 2013 の新しい会議機能](lync-server-2013-new-conferencing-features.md)で示されている新しい Lync server 2013 および lync 2013 の機能を活用できるように、また、lync[のクライアントの新機能については、プロセスの早い段階で会議の開催者を頻繁に移行することを検討してください。サーバー 2013](lync-server-2013-what-s-new-for-clients.md)。
+**会議の開催者の頻度。**   Lync server [2013 の新しい会議機能](lync-server-2013-new-conferencing-features.md)で示されている新しい Lync server 2013 および lync 2013 の機能を利用できるように、また、 [lync server 2013 でのクライアントの新](lync-server-2013-what-s-new-for-clients.md)機能を活用できるように、プロセスの早い段階で会議の開催者を頻繁に移行することを検討してください。
 
 **Live Meeting ユーザー。**   Office Communications Server 2007 R2 から移行する場合、Live Meeting 固有の web 会議機能 (特に大規模な会議や休憩室のサポート) が必要なユーザーがいる場合は、次のオプションがあります。
 

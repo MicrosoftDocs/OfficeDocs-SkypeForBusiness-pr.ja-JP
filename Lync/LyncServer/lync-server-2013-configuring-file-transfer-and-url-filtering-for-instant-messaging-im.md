@@ -3,6 +3,8 @@ title: インスタントメッセージング (IM) のファイル転送と URL
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring file transfer and URL filtering for instant messaging (IM)
 ms:assetid: 115a1a2c-599f-474c-a063-52f7144b5246
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520952(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183440
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 97a9e39799815a86bc255b9aa58627df94eb3f81
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e6c5a6053118b14b68c49a7fdaa6f444aca7ad23
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840255"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729027"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -69,7 +71,7 @@ Lync Server コントロールパネルの**IM とプレゼンス**グループ�
 
 インスタントメッセージがあるサーバーから別のサーバーに移動する場合、次の一般的なガイドラインが適用されます。
 
-  - サーバー **** がインスタントメッセージをブロックしている場合 ([ **url フィルター** ] ページで [**ファイル拡張子を含む url をブロック**する] チェックボックスをオンにしている場合、または [ハイパーリンクの**プレフィックス**] オプションを選択した場合)、エラーメッセージが表示されます。クライアント。 後続のサーバーはこのインスタントメッセージを受け取りません。
+  - サーバーがインスタントメッセージをブロックしている場合 ([ **Url フィルター** ] ページで [**ファイル拡張子を含む url をブロック****する] チェック**ボックスをオンにしている場合、または [ハイパーリンクの**接頭辞**] オプションを選択した場合)、クライアントにエラーメッセージが表示されます。 後続のサーバーはこのインスタントメッセージを受け取りません。
 
   - サーバー (Server1) がアクティブなハイパーリンクを含むインスタントメッセージに警告を追加した場合、その後のサーバー (Server2) は、インスタントメッセージに表示されているこのアクティブなハイパーリンクに基づいて別のアクションを実行することができます。インスタントメッセージまたは警告を追加します。 Server2 がこの URL に対して警告を追加するように構成されている場合、Server1 によって追加された以前の警告が削除され、Server2 に設定されている警告がインスタントメッセージの先頭に追加されます。
 

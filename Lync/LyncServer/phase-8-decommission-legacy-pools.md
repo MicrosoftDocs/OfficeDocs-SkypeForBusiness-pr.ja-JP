@@ -3,6 +3,8 @@ title: 'フェーズ 8: レガシ プールの使用停止'
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: 'Phase 8: Decommission legacy pools'
 ms:assetid: 1c68e5d8-fb5f-45e6-b6e3-27f5e830c966
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204724(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183557
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: df23d085a63cf67736b038b120fc294aa376f962
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a9c21aa29f2e98aacd3ec68076a21ba2b4d2a76e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847983"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729077"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**最終更新日:** 2016-12-08_
 
 次のトピックでは、Lync Server 2010 の従来の展開で、DNS エントリの更新、コンテンツ管理サーバーの移動、プールの廃止、サーバーとプールの無効化と削除に関するガイダンスを示します。 このセクションに記載されているすべての手順を行う必要はありません。 ドキュメントを読み、使用する使用停止手順を確認します。
 
-Lync Server 2010 サーバーとサーバーの役割、および Lync Server 2010 の展開を廃止するためのステップバイステップガイドの削除については、「Microsoft Lync Server 2010 をアンインストールしてサーバーの役割を[https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227)削除する」をご覧ください。.
+Lync Server 2010 サーバーとサーバーの役割、および Lync Server 2010 の展開を廃止するためのステップバイステップのガイドについては、「Microsoft Lync Server 2010 をアンインストールしてサーバーの役割を削除する」を[https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227)ご覧ください。
 
 <div>
 

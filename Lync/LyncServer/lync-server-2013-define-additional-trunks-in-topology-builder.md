@@ -3,6 +3,8 @@ title: 'Lync Server 2013: トポロジビルダーで追加の trunks を定義�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Define additional trunks in Topology Builder
 ms:assetid: e68b8377-50a2-452a-bf5c-910929e34236
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721915(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733849
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b18d12762566258051d5fe0e7c71921b9fff160c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c55e8073bd1ad1bb2db69096e4e58aa2b148e775
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833722"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728487"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -55,7 +57,7 @@ _**最終更新日:** 2012-10-04_
 
 
 > [!NOTE]  
-> このトピックでは、「 <A href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">Lync server 2013 でのフロントエンドプールまたは Standard edition サーバーの定義と構成</A>」で説明したように、少なくとも1つのセントラルサイトで少なくとも1つのフロントエンドプールまたは standard edition サーバーを設定していることを前提としています。 <A href="lync-server-2013-publish-the-topology.md"></A>展開ドキュメントのサーバー2013。
+> このトピックでは、少なくとも1つのセントラルサイトで少なくとも1つのフロントエンドプールまたは Standard Edition サーバーを設定していることを前提<A href="lync-server-2013-publish-the-topology.md">2013</A>としています。詳細については、「 <A href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">lync Server 2013 でフロントエンドプールまたは standard Edition サーバーを定義して構成</A>する」を参照してください。
 
 
 

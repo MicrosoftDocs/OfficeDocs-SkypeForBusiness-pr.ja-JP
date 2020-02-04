@@ -3,6 +3,8 @@ title: 'Lync Server 2013: データの収集'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Data collection
 ms:assetid: e40b03e5-455d-4bbc-831a-c61b1380db53
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399008(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185722
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: df4f19df012dfeac7576cc5b39d749564a4350a1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e7c3d066aff26e06c003a31a58b4771d67f54f34
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833740"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728647"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -65,7 +67,7 @@ Microsoft Lync Server 2013 を正常に展開するには、個々のコンポ�
 
 **ディレクターまたはディレクタープール**
 
-![56 ba29ff001 130916d5d56 72169e・]デ・・・・・・・・・・ライド7(images/Gg399008.56ba29ff-1309-4d5d-bf5c-35372169e947(OCS.15).jpg "56 ba29ff001 130916d5d56 72169e・")デ・・・・・・・・・・ライド7
+![56 ba29ff001 130916d5d56 72169e・デ・・・・・・・・・・ライド7](images/Gg399008.56ba29ff-1309-4d5d-bf5c-35372169e947(OCS.15).jpg "56 ba29ff001 130916d5d56 72169e・デ・・・・・・・・・・ライド7")
 
 </div>
 

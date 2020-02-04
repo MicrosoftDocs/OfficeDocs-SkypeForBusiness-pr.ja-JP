@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 場所のポリシーを定義する'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Defining the location policy
 ms:assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398962(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185553
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 26b0e9aca4b3e66202d6b3c4a47b90db4f207fda
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: feb7550412fa6cdcda3a8fc4dd9b7913912c34e1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833710"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728357"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -79,7 +81,7 @@ _**最終更新日:** 2012-10-29_
     
 
     > [!NOTE]  
-    > 組織で外部の回線アクセスプレフィックスを使用していない場合は、Lync プールサーバーで送信ルーティングに通話を送信する前に、対応するダイヤルプランの正規化ルールを作成して、911文字列に "+" を追加する必要はありません。"+" は、場所ポリシーの結果として Lync クライアントによって自動的に付加されます。 ただし、サイトで外部アクセスプレフィックスが使用されている場合は、その外部アクセスプレフィックスを取り除き、"+" を追加する、該当するダイヤルプランポリシーに正規化ルールを追加する必要があります。 たとえば、自分の場所で外部アクセスプレフィックス9を使用していて、ユーザー&nbsp;が 9 911 にダイヤルして緊急通話を発信した場合、クライアントはそのダイヤルプラン911ポリシーを使って、ダイヤル先の場所にあるルートによってダイヤルされた番号を評価します。プロファイル.
+    > 組織で外部の回線アクセスプレフィックスを使用していない場合は、Lync プールサーバーで送信ルーティングに通話を送信する前に、対応するダイヤルプランの正規化ルールを作成して、911文字列に "+" を追加する必要はありません。"+" は、場所ポリシーの結果として Lync クライアントによって自動的に付加されます。 ただし、サイトで外部アクセスプレフィックスが使用されている場合は、その外部アクセスプレフィックスを取り除き、"+" を追加する、該当するダイヤルプランポリシーに正規化ルールを追加する必要があります。 たとえば、自分の場所で外部アクセスプレフィックス9を使用していて、ユーザー&nbsp;が 9 911 にダイヤルして緊急通話を発信している場合、クライアントはそのダイヤルプラン911ポリシーを使って、発信者の位置情報プロファイルのルートによってダイヤルされた番号を評価します。
 
     
     </div>

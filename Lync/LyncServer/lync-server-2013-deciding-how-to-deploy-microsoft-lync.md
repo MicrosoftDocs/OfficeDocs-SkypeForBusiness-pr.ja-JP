@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Microsoft Lync 展開方法の決定'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deciding how to deploy Microsoft Lync
 ms:assetid: 6ca677d3-745d-4935-8f05-19274a8bccf2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204979(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184423
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d641f4da1884c1fb6e84eefb2127490f2ed3c4a9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: aef6ac76b6c0e8a6fb3c0444ab219acf78119ecd
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833730"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728557"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,7 +59,7 @@ Lync を計画する場合、最初の主な決定は、Microsoft Lync: Lync Ser
 
   - **サードパーティのサーバーアプリケーション**   では、オンプレミスの展開のみが、Microsoft ユニファイドコミュニケーションマネージ API を使う信頼されたサードパーティアプリケーションと連携できます (ucma)。
 
-  - **地域のサポート**   が必要な複数の国内の企業、複数の国または地域のデータセンターがあり、各地域にサーバーを展開して管理する必要がある場合は、オンプレミスの展開をお勧めします。地域管理機能。
+  - **地域のサポート**   が必要な複数地域の企業、複数の国または地域のデータセンターがあり、各地域にサーバーを展開して管理する必要がある場合は、オンプレミスの展開をお勧めします。この種類の地域管理機能が提供されます。
 
   - ****   オンプレミスの Lync Server 展開でポリシー、レポート、アップグレードを管理することで、サーバーとクライアントのすべてのポリシー、監視およびその他のレポート、アップグレードのタイミングにアクセスできます。 Lync Online には、ポリシー設定とレポートのサブセットが用意されています。このウィンドウには、アップグレードを承認するための重要なウィンドウが含まれています。
 

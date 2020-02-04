@@ -3,6 +3,8 @@ title: 各種ポリシーの構成
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring the Various Policies
 ms:assetid: e3b3cbda-7c17-470b-acb0-82fdcc473184
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945610(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541436
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a105ea62b82d904007a2faa0493fd17092b84462
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6316a1027de963cefea6c0c76051f09cb5d33538
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34841051"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727687"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -85,9 +87,9 @@ Lync Server 2013 のストレスとパフォーマンスツールを実行する
 
 ## <a name="configuring-the-voice-routing-rules"></a>ボイスルーティングルールを構成する
 
-例 RoutingRules を参照してください。 ボイスルーティングルールを構成するときは、電話のコンテキスト (¥ Location Profile または/simplename) と内部/外部の市外局番をメモして、ユーザーの作成時と LyncPerfTool の構成時に指定できるようにします (特にPSTN-UC および UC-PSTN)。 たとえば、RoutingRules の例の**CsDialPlan**コマンドレットの呼び出しの simplename パラメーターは、UserProfileGenerator の次の図の locationprofile 値に使用する必要があります。
+例 RoutingRules を参照してください。 ボイスルーティングルールを構成するときは、電話のコンテキスト (¥ Location Profile または/simplename) と内部/外部の市外局番 (特に PSTN-UC および UC-PSTN 用) を指定して、ユーザーを作成するときに指定できるようにします。 たとえば、RoutingRules の例の**CsDialPlan**コマンドレットの呼び出しの simplename パラメーターは、UserProfileGenerator の次の図の locationprofile 値に使用する必要があります。
 
-![ボイスルーティングルールの例。](images/JJ945610.9f34d971-4ed0-4a4c-b101-086a91c4578c(OCS.15).jpg "ボイスルーティングルールの例。")
+![サンプルの音声のルーティング ルール](images/JJ945610.9f34d971-4ed0-4a4c-b101-086a91c4578c(OCS.15).jpg "サンプルの音声のルーティング ルール")
 
 詳細については、「lync Server 2013 ドキュメント」および「 [Lync server 2013 のエンタープライズボイスコマンド](https://technet.microsoft.com/en-us/library/gg415658\(v=ocs.15\))レットのヘルプ」を参照してください。
 
@@ -99,7 +101,7 @@ Lync Server 2013 のストレスとパフォーマンスツールを実行する
 
 例 ConferenceAutoAttendantConfiguration を参照してください。 ConferencingAutoAttendant 電話番号 (既定では 1121111111) をメモし、それを構成の生成用の LyncPerf ツール構成ツールに入力できるようにします。
 
-![会議アテンダントアプリケーションの構成](images/JJ945610.0618a22f-27a9-423a-9085-d2bf71e82db6(OCS.15).jpg "会議アテンダントアプリケーションの構成")
+![会議アテンダント アプリケーションを構成する](images/JJ945610.0618a22f-27a9-423a-9085-d2bf71e82db6(OCS.15).jpg "会議アテンダント アプリケーションを構成する")
 
 詳細については、「lync server 2013 ドキュメント」および「lync server 2013 での[Web 会議コマンド](https://technet.microsoft.com/en-us/library/gg415675\(v=ocs.15\))レットのヘルプ (lync server 2013 および[ダイヤルイン会議コマンド](https://technet.microsoft.com/en-us/library/gg415630\(v=ocs.15\))レットのヘルプ)」を参照してください。
 
@@ -132,7 +134,7 @@ Lync Server 2013 のストレスとパフォーマンスツールを実行する
 
 2.  次の図に示すように、Userプロビジョニングツールの [ **LIS** ] タブの値を入力して、アドレスを構成します。
     
-    ![位置情報サービスを構成します。](images/JJ945610.8ac1faa1-e9f9-40d0-b8b7-b159f4f459f7(OCS.15).jpg "位置情報サービスを構成します。")  
+    ![場所情報サービスの構成](images/JJ945610.8ac1faa1-e9f9-40d0-b8b7-b159f4f459f7(OCS.15).jpg "場所情報サービスの構成")  
 
 3.  [ **LIS 構成ファイルの生成**] をクリックします。
 
@@ -144,7 +146,7 @@ Lync Server 2013 のストレスとパフォーマンスツールを実行する
 
 ## <a name="creating-enabling-configuring-and-disabling-users"></a>ユーザーの作成、有効化、構成、無効化
 
-次のスクリプトを実行する前に、すべてのユーザーを作成する必要があります。 「ユーザー[と連絡先を作成して](create-users-and-contacts.md)ユーザーを作成する」の手順に従います。 詳細については、「[ユーザー](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\))用の Lync Server 2013 コマンドレット」を参照してください。また[](https://technet.microsoft.com/en-us/library/gg398747\(v=ocs.15\)) 、「ユーザーの[設定](https://technet.microsoft.com/en-us/library/gg398510\(v=ocs.15\))」を参照してください。
+次のスクリプトを実行する前に、すべてのユーザーを作成する必要があります。 「ユーザー[と連絡先を作成して](create-users-and-contacts.md)ユーザーを作成する」の手順に従います。 詳細については、「[ユーザー](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\))用の Lync Server 2013 コマンドレット」を参照してください。また、「ユーザーの[設定](https://technet.microsoft.com/en-us/library/gg398510\(v=ocs.15\))」を[参照して](https://technet.microsoft.com/en-us/library/gg398747\(v=ocs.15\))ください。
 
 </div>
 
@@ -154,7 +156,7 @@ Lync Server 2013 のストレスとパフォーマンスツールを実行する
 
 ResponseGroupConfiguration ps1 の例を参照してください。 詳細については、「Lync Server 2013 ドキュメント」および「 [lync server 2013 のグループアプリケーションコマンドレットに応答](https://technet.microsoft.com/en-us/library/gg415654\(v=ocs.15\))するためのコマンドレットのヘルプ」を参照してください。応答グループのアプリケーション構成を確認するに`https://<poolfqdn>/RgsConfig/`は、次の図のように「」を参照してください。
 
-![応答グループ構成ツール。](images/JJ945610.480a9440-2283-4533-98f8-86daaab4781c(OCS.15).jpg "応答グループ構成ツール。")
+![応答グループ構成ツール](images/JJ945610.480a9440-2283-4533-98f8-86daaab4781c(OCS.15).jpg "応答グループ構成ツール")
 
 </div>
 

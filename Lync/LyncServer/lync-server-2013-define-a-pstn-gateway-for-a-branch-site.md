@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ブランチ サイト用の PSTN ゲートウェイ�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Define a PSTN gateway for a branch site
 ms:assetid: 87be2fe2-1d56-4062-b430-439d4536414c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398689(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184724
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c253f82001fef4dd52e19dccb11e7ac77bb12417
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e4445647e6ffcbfc2cfc137bd120d0aced6a9908
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833717"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728527"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -81,7 +83,7 @@ _**最終更新日:** 2012-09-21_
 
 
 > [!TIP]  
-> コマンドレットを<STRONG></STRONG>使用して、PSTN ゲートウェイのプロパティを変更します。 詳しくは、「Lync Server 管理シェルのヘルプ」の「 <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsPstnGateway">Set-CsPstnGateway</A>」をご覧ください。
+> <STRONG>コマンドレットを使用</STRONG>して、PSTN ゲートウェイのプロパティを変更します。 詳しくは、「Lync Server 管理シェルのヘルプ」の「 <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsPstnGateway">Set-CsPstnGateway</A>」をご覧ください。
 
 
 
