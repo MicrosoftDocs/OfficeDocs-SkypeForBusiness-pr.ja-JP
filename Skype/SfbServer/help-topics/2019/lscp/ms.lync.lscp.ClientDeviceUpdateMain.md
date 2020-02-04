@@ -6,60 +6,60 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ClientDeviceUpdateMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f6b7f73-f8f5-41dc-9e2a-727baaaa828b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Microsoft は、Skype for Business Phone Edition 用の新しいデバイスファームウェア更新プログラムセットを定期的にリリースします。これにより、サーバーにインポートして、ユーザーに配布することができます。 最新のデバイス更新ルールを取得するには、Microsoft web サイトの [ヘルプとサポート] ページに移動して、[電話] エディションを検索します。最新の更新プログラムパッケージをダウンロードし、更新プログラムをアップロードするコンピューター上のフォルダーにファイルを抽出します。 ファイルを抽出した後、インポート-CsDeviceUpdate コマンドレットを使用して、抽出されたデバイス更新ルールをインポートできます。CAB ファイル ("UCUpdates .cab" という名前が付いています)。 詳細については、「CsDeviceUpdate のインポート」を参照してください。
-ms.openlocfilehash: 19b0253dece8b010fc4de4fe3907cf8cff2a5bf9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d82010d45ae550c49529720496fc202abb2f6e4c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34300379"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705142"
 ---
-# <a name="device-update"></a><span data-ttu-id="76ec2-106">デバイスの更新</span><span class="sxs-lookup"><span data-stu-id="76ec2-106">Device Update</span></span>
+# <a name="device-update"></a><span data-ttu-id="61cb9-106">デバイスの更新</span><span class="sxs-lookup"><span data-stu-id="61cb9-106">Device Update</span></span>
 
-<span data-ttu-id="76ec2-107">Microsoft は、Skype for Business Phone Edition 用の新しいデバイスファームウェア更新プログラムセットを定期的にリリースします。これにより、サーバーにインポートして、ユーザーに配布することができます。</span><span class="sxs-lookup"><span data-stu-id="76ec2-107">Microsoft periodically releases a new set of device firmware updates for Skype for Business Phone Edition, which you can import to your servers and distribute to users.</span></span> <span data-ttu-id="76ec2-108">最新のデバイス更新ルールを取得するには、Microsoft web サイトの [ヘルプとサポート] ページにアクセスし、"Phone Edition" を検索します。</span><span class="sxs-lookup"><span data-stu-id="76ec2-108">You can obtain the latest set of device update rules by going to the Help and Support page on the Microsoft website and searching for "Phone Edition."</span></span> <span data-ttu-id="76ec2-109">最新の更新プログラムパッケージをダウンロードして、更新プログラムをアップロードするコンピューター上のフォルダーにファイルを抽出します。</span><span class="sxs-lookup"><span data-stu-id="76ec2-109">Download the latest update package and extract the files to a folder on the computer where the updates are to be uploaded.</span></span> <span data-ttu-id="76ec2-110">ファイルを抽出した後、**インポート-CsDeviceUpdate**コマンドレットを使用して、抽出されたデバイス更新ルールをインポートできます。CAB ファイル ("UCUpdates .cab" という名前が付いています)。</span><span class="sxs-lookup"><span data-stu-id="76ec2-110">After the files have been extracted, you can then use the **Import-CsDeviceUpdate** cmdlet to import the device update rules found in the extracted .CAB file (which will have the name UCUpdates.cab).</span></span> <span data-ttu-id="76ec2-111">詳細については、「 [CsDeviceUpdate のインポート](https://docs.microsoft.com/powershell/module/skype/import-csdeviceupdate?view=skype-ps)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="76ec2-111">For details, see [Import-CsDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/import-csdeviceupdate?view=skype-ps).</span></span>
+<span data-ttu-id="61cb9-107">Microsoft は、Skype for Business Phone Edition 用の新しいデバイスファームウェア更新プログラムセットを定期的にリリースします。これにより、サーバーにインポートして、ユーザーに配布することができます。</span><span class="sxs-lookup"><span data-stu-id="61cb9-107">Microsoft periodically releases a new set of device firmware updates for Skype for Business Phone Edition, which you can import to your servers and distribute to users.</span></span> <span data-ttu-id="61cb9-108">最新のデバイス更新ルールを取得するには、Microsoft web サイトの [ヘルプとサポート] ページにアクセスし、"Phone Edition" を検索します。</span><span class="sxs-lookup"><span data-stu-id="61cb9-108">You can obtain the latest set of device update rules by going to the Help and Support page on the Microsoft website and searching for "Phone Edition."</span></span> <span data-ttu-id="61cb9-109">最新の更新プログラムパッケージをダウンロードして、更新プログラムをアップロードするコンピューター上のフォルダーにファイルを抽出します。</span><span class="sxs-lookup"><span data-stu-id="61cb9-109">Download the latest update package and extract the files to a folder on the computer where the updates are to be uploaded.</span></span> <span data-ttu-id="61cb9-110">ファイルを抽出した後、**インポート-CsDeviceUpdate**コマンドレットを使用して、抽出されたデバイス更新ルールをインポートできます。CAB ファイル ("UCUpdates .cab" という名前が付いています)。</span><span class="sxs-lookup"><span data-stu-id="61cb9-110">After the files have been extracted, you can then use the **Import-CsDeviceUpdate** cmdlet to import the device update rules found in the extracted .CAB file (which will have the name UCUpdates.cab).</span></span> <span data-ttu-id="61cb9-111">詳細については、「 [CsDeviceUpdate のインポート](https://docs.microsoft.com/powershell/module/skype/import-csdeviceupdate?view=skype-ps)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="61cb9-111">For details, see [Import-CsDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/import-csdeviceupdate?view=skype-ps).</span></span>
 
-<span data-ttu-id="76ec2-112">デバイス更新ルールをインポートした後、[**デバイス更新**] ページを使用して、組織のデバイスのこれらのルールを表示および管理できます。</span><span class="sxs-lookup"><span data-stu-id="76ec2-112">After the device update rules have been imported, you can use the **Device Update** page to view and manage these rules for your organization's devices.</span></span>
+<span data-ttu-id="61cb9-112">デバイス更新ルールをインポートした後、[**デバイス更新**] ページを使用して、組織のデバイスのこれらのルールを表示および管理できます。</span><span class="sxs-lookup"><span data-stu-id="61cb9-112">After the device update rules have been imported, you can use the **Device Update** page to view and manage these rules for your organization's devices.</span></span>
 
 > [!TIP]
-> <span data-ttu-id="76ec2-113">ファームウェア更新をテストし、テストが正常なことを確認してから、組織で使用中のすべての関連デバイスに対して更新を使用可能にできます。</span><span class="sxs-lookup"><span data-stu-id="76ec2-113">You can test the firmware updates and then, assuming the tests succeed, make the updates available to all the relevant devices used in the organization.</span></span>
+> <span data-ttu-id="61cb9-113">ファームウェア更新をテストし、テストが正常なことを確認してから、組織で使用中のすべての関連デバイスに対して更新を使用可能にできます。</span><span class="sxs-lookup"><span data-stu-id="61cb9-113">You can test the firmware updates and then, assuming the tests succeed, make the updates available to all the relevant devices used in the organization.</span></span>
 
-## <a name="tasks-you-can-perform"></a><span data-ttu-id="76ec2-114">実行できるタスク</span><span class="sxs-lookup"><span data-stu-id="76ec2-114">Tasks you can perform</span></span>
+## <a name="tasks-you-can-perform"></a><span data-ttu-id="61cb9-114">実行できるタスク</span><span class="sxs-lookup"><span data-stu-id="61cb9-114">Tasks you can perform</span></span>
 
-<span data-ttu-id="76ec2-115">[**デバイスの更新**] ページでは次のタスクを実行できます。</span><span class="sxs-lookup"><span data-stu-id="76ec2-115">You can perform the following tasks on the **Device Update** page:</span></span>
+<span data-ttu-id="61cb9-115">[**デバイスの更新**] ページでは次のタスクを実行できます。</span><span class="sxs-lookup"><span data-stu-id="61cb9-115">You can perform the following tasks on the **Device Update** page:</span></span>
 
-- <span data-ttu-id="76ec2-116">一覧のデバイス更新を承認する。</span><span class="sxs-lookup"><span data-stu-id="76ec2-116">Approve device updates in the list.</span></span>
+- <span data-ttu-id="61cb9-116">一覧のデバイス更新を承認する。</span><span class="sxs-lookup"><span data-stu-id="61cb9-116">Approve device updates in the list.</span></span>
 
-- <span data-ttu-id="76ec2-117">保留中のデバイス更新を取り消したり、元に戻したりする。</span><span class="sxs-lookup"><span data-stu-id="76ec2-117">Cancel or restore pending device updates.</span></span>
+- <span data-ttu-id="61cb9-117">保留中のデバイス更新を取り消したり、元に戻したりする。</span><span class="sxs-lookup"><span data-stu-id="61cb9-117">Cancel or restore pending device updates.</span></span>
 
-- <span data-ttu-id="76ec2-118">一覧からデバイス更新を削除する。</span><span class="sxs-lookup"><span data-stu-id="76ec2-118">Delete device updates from the list.</span></span>
+- <span data-ttu-id="61cb9-118">一覧からデバイス更新を削除する。</span><span class="sxs-lookup"><span data-stu-id="61cb9-118">Delete device updates from the list.</span></span>
 
-## <a name="ui-reference"></a><span data-ttu-id="76ec2-119">UI リファレンス</span><span class="sxs-lookup"><span data-stu-id="76ec2-119">UI Reference</span></span>
+## <a name="ui-reference"></a><span data-ttu-id="61cb9-119">UI リファレンス</span><span class="sxs-lookup"><span data-stu-id="61cb9-119">UI Reference</span></span>
 
-<span data-ttu-id="76ec2-120">次の一覧に、このページのメニュー、コマンド、フィールド、およびプロパティを示します。</span><span class="sxs-lookup"><span data-stu-id="76ec2-120">The following lists describe the menus, commands, fields, and properties on the page.</span></span>
+<span data-ttu-id="61cb9-120">次の一覧に、このページのメニュー、コマンド、フィールド、およびプロパティを示します。</span><span class="sxs-lookup"><span data-stu-id="61cb9-120">The following lists describe the menus, commands, fields, and properties on the page.</span></span>
 
-- <span data-ttu-id="76ec2-121">**編集**このオプションを使うと、次の操作を実行できます。</span><span class="sxs-lookup"><span data-stu-id="76ec2-121">**Edit** You can use this option to do the following:</span></span>
+- <span data-ttu-id="61cb9-121">**編集**このオプションを使うと、次の操作を実行できます。</span><span class="sxs-lookup"><span data-stu-id="61cb9-121">**Edit** You can use this option to do the following:</span></span>
 
-  - <span data-ttu-id="76ec2-122">**すべて選択**このオプションでは、一覧にあるすべてのデバイスの更新が選択されます。</span><span class="sxs-lookup"><span data-stu-id="76ec2-122">**Select All** This option selects all device updates in the list.</span></span>
+  - <span data-ttu-id="61cb9-122">**すべて選択**このオプションでは、一覧にあるすべてのデバイスの更新が選択されます。</span><span class="sxs-lookup"><span data-stu-id="61cb9-122">**Select All** This option selects all device updates in the list.</span></span>
 
-  - <span data-ttu-id="76ec2-123">**削除**このオプションでは、選択したすべてのデバイスの更新を削除します。</span><span class="sxs-lookup"><span data-stu-id="76ec2-123">**Delete** This option deletes all selected device updates.</span></span>
+  - <span data-ttu-id="61cb9-123">**削除**このオプションでは、選択したすべてのデバイスの更新を削除します。</span><span class="sxs-lookup"><span data-stu-id="61cb9-123">**Delete** This option deletes all selected device updates.</span></span>
 
-- <span data-ttu-id="76ec2-124">**操作**リストで1つまたは複数の更新を選択して、次の操作を実行できます。</span><span class="sxs-lookup"><span data-stu-id="76ec2-124">**Action** You can select one or more updates in the list and take the following actions:</span></span>
+- <span data-ttu-id="61cb9-124">**操作**リストで1つまたは複数の更新を選択して、次の操作を実行できます。</span><span class="sxs-lookup"><span data-stu-id="61cb9-124">**Action** You can select one or more updates in the list and take the following actions:</span></span>
 
-  - <span data-ttu-id="76ec2-125">**保留中の更新をキャンセル**するこのオプションでは、選択した更新プログラムが組織のデバイスに展開されないようにします。</span><span class="sxs-lookup"><span data-stu-id="76ec2-125">**Cancel pending updates** This option prevents the selected update from being deployed to your organization's devices.</span></span>
+  - <span data-ttu-id="61cb9-125">**保留中の更新をキャンセル**するこのオプションでは、選択した更新プログラムが組織のデバイスに展開されないようにします。</span><span class="sxs-lookup"><span data-stu-id="61cb9-125">**Cancel pending updates** This option prevents the selected update from being deployed to your organization's devices.</span></span>
 
-  - <span data-ttu-id="76ec2-126">**承認**このオプションでは、選択した更新プログラムを組織のデバイスに展開することができます。</span><span class="sxs-lookup"><span data-stu-id="76ec2-126">**Approve** This option allows the selected update to be deployed to your organization's devices.</span></span>
+  - <span data-ttu-id="61cb9-126">**承認**このオプションでは、選択した更新プログラムを組織のデバイスに展開することができます。</span><span class="sxs-lookup"><span data-stu-id="61cb9-126">**Approve** This option allows the selected update to be deployed to your organization's devices.</span></span>
 
-  - <span data-ttu-id="76ec2-127">**復元**このオプションでは、以前に承認された更新を組織のデバイスに展開することができます。</span><span class="sxs-lookup"><span data-stu-id="76ec2-127">**Restore** This option allows a previously approved update to be deployed to your organization's devices</span></span>
+  - <span data-ttu-id="61cb9-127">**復元**このオプションでは、以前に承認された更新を組織のデバイスに展開することができます。</span><span class="sxs-lookup"><span data-stu-id="61cb9-127">**Restore** This option allows a previously approved update to be deployed to your organization's devices</span></span>
 
-- <span data-ttu-id="76ec2-128">**更新**リストを更新して、すべてのデバイスの更新の状態を確認できます。</span><span class="sxs-lookup"><span data-stu-id="76ec2-128">**Refresh** You can refresh the list to verify the status of all device updates.</span></span>
+- <span data-ttu-id="61cb9-128">**更新**リストを更新して、すべてのデバイスの更新の状態を確認できます。</span><span class="sxs-lookup"><span data-stu-id="61cb9-128">**Refresh** You can refresh the list to verify the status of all device updates.</span></span>
 
-<span data-ttu-id="76ec2-129">デバイス更新 Web サービスの詳細については、「計画」のドキュメントの「[View Software Updates for Devices in Your Organization](https://technet.microsoft.com/library/d2cca12b-ed43-4e1f-90ab-d14bca8b482c.aspx)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="76ec2-129">For details about Device Update Web service, see [View Software Updates for Devices in Your Organization](https://technet.microsoft.com/library/d2cca12b-ed43-4e1f-90ab-d14bca8b482c.aspx) in the Planning documentation.</span></span>
-## <a name="see-also"></a><span data-ttu-id="76ec2-130">関連項目</span><span class="sxs-lookup"><span data-stu-id="76ec2-130">See also</span></span>
+<span data-ttu-id="61cb9-129">デバイス更新 Web サービスの詳細については、「計画」のドキュメントの「[View Software Updates for Devices in Your Organization](https://technet.microsoft.com/library/d2cca12b-ed43-4e1f-90ab-d14bca8b482c.aspx)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="61cb9-129">For details about Device Update Web service, see [View Software Updates for Devices in Your Organization](https://technet.microsoft.com/library/d2cca12b-ed43-4e1f-90ab-d14bca8b482c.aspx) in the Planning documentation.</span></span>
+## <a name="see-also"></a><span data-ttu-id="61cb9-130">関連項目</span><span class="sxs-lookup"><span data-stu-id="61cb9-130">See also</span></span>
 
-[<span data-ttu-id="76ec2-131">インポート-CsDeviceUpdate</span><span class="sxs-lookup"><span data-stu-id="76ec2-131">Import-CsDeviceUpdate</span></span>](https://docs.microsoft.com/powershell/module/skype/import-csdeviceupdate?view=skype-ps)
+[<span data-ttu-id="61cb9-131">インポート-CsDeviceUpdate</span><span class="sxs-lookup"><span data-stu-id="61cb9-131">Import-CsDeviceUpdate</span></span>](https://docs.microsoft.com/powershell/module/skype/import-csdeviceupdate?view=skype-ps)

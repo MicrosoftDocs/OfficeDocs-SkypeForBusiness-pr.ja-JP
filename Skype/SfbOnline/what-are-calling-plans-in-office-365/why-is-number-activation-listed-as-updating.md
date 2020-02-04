@@ -16,95 +16,95 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
+f1.keywords:
 - ms.lync.lac.NumberActivationStateUpdating
 ms.custom:
 - Calling Plans
 description: 住所検証は、Office 365 の通話プランのセットアップで重要な部分です。 これにより、組織のユーザーに対して、緊急応答サービスで使用できる緊急通話の住所が提供されます。
-ms.openlocfilehash: 7aefb714e3a27fb483bd6ff2e2d37ae15ed4a541
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 624c222123a1ec346b0624e5f39bf972a4257d99
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793376"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705822"
 ---
-# <a name="why-is-number-activation-listed-as-updating"></a><span data-ttu-id="a7160-104">番号の有効化が更新として表示されるのはなぜですか?</span><span class="sxs-lookup"><span data-stu-id="a7160-104">Why is number activation listed as updating?</span></span>
+# <a name="why-is-number-activation-listed-as-updating"></a><span data-ttu-id="f8d58-104">番号の有効化が更新として表示されるのはなぜですか?</span><span class="sxs-lookup"><span data-stu-id="f8d58-104">Why is number activation listed as updating?</span></span>
 
-<span data-ttu-id="a7160-105">住所検証は、Office 365 の通話プランのセットアップで重要な部分です。</span><span class="sxs-lookup"><span data-stu-id="a7160-105">Address validation is an important part of setting up Calling Plans in Office 365.</span></span> <span data-ttu-id="a7160-106">何らかの理由で電話番号が有効になっておらず、住所の検証のために**更新**として表示されている場合は、サービスリクエストを作成して送信する必要があります。</span><span class="sxs-lookup"><span data-stu-id="a7160-106">If for some reason a phone number isn't activated and is listed as **updating** because of address validation, you will need to create and submit a service request.</span></span> <span data-ttu-id="a7160-107">これをどのように行うかは、所属する組織のサイズに基づきます。</span><span class="sxs-lookup"><span data-stu-id="a7160-107">How you do this is based on the size of your organization.</span></span>
+<span data-ttu-id="f8d58-105">住所検証は、Office 365 の通話プランのセットアップで重要な部分です。</span><span class="sxs-lookup"><span data-stu-id="f8d58-105">Address validation is an important part of setting up Calling Plans in Office 365.</span></span> <span data-ttu-id="f8d58-106">何らかの理由で電話番号が有効になっておらず、住所の検証のために**更新**として表示されている場合は、サービスリクエストを作成して送信する必要があります。</span><span class="sxs-lookup"><span data-stu-id="f8d58-106">If for some reason a phone number isn't activated and is listed as **updating** because of address validation, you will need to create and submit a service request.</span></span> <span data-ttu-id="f8d58-107">これをどのように行うかは、所属する組織のサイズに基づきます。</span><span class="sxs-lookup"><span data-stu-id="f8d58-107">How you do this is based on the size of your organization.</span></span>
   
-## <a name="for-organizations-150-or-less-follow-these-steps"></a><span data-ttu-id="a7160-108">150 ユーザー以下の組織の場合は、次の手順を実行します。</span><span class="sxs-lookup"><span data-stu-id="a7160-108">For organizations 150 or less follow these steps</span></span>
-1. <span data-ttu-id="a7160-109">管理センターで、[**ヘルプが必要**ですか?] を選択します。</span><span class="sxs-lookup"><span data-stu-id="a7160-109">In the admin center, choose **Need help**?</span></span>
-2. <span data-ttu-id="a7160-110">[**ヘルプが必要ですか?**] ペインで、どのようなヘルプが必要かを伝えて、[**問い合わせ**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="a7160-110">In the **Need help?** pane, tell us what you need help with, then choose **Get help**.</span></span>
-3. <span data-ttu-id="a7160-111">[**解決策を表示**] セクションの結果が役に立たない場合は、次のいずれかを選択します。</span><span class="sxs-lookup"><span data-stu-id="a7160-111">If the results in the **View solutions** section don't help, choose one of the following:</span></span>
-    - <span data-ttu-id="a7160-112">[**電話連絡を許可 (推奨)**]: 連絡先番号を確認して、[**折り返し連絡**] を押します。</span><span class="sxs-lookup"><span data-stu-id="a7160-112">**Let us call you (Recommended)**: Confirm your contact number, then press **Call me**.</span></span> <span data-ttu-id="a7160-113">折り返し連絡されるまでの待ち時間の予測が [**ヘルプが必要ですか?**] ペインに示されます。</span><span class="sxs-lookup"><span data-stu-id="a7160-113">The expected wait time for a call back is indicated in the **Need help?** pane.</span></span>
-    - <span data-ttu-id="a7160-114">[**電子メールを送信**]: メールアドレスを確認して、[**送信**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="a7160-114">**Email us**: Confirm your email address, then choose **Send**.</span></span> <span data-ttu-id="a7160-115">通話の応答時間が [**ヘルプが必要ですか?**] ペインに示されます。</span><span class="sxs-lookup"><span data-stu-id="a7160-115">The call response time is indicated in the **Need help?** pane.</span></span>
+## <a name="for-organizations-150-or-less-follow-these-steps"></a><span data-ttu-id="f8d58-108">150 ユーザー以下の組織の場合は、次の手順を実行します。</span><span class="sxs-lookup"><span data-stu-id="f8d58-108">For organizations 150 or less follow these steps</span></span>
+1. <span data-ttu-id="f8d58-109">管理センターで、[**ヘルプが必要**ですか?] を選択します。</span><span class="sxs-lookup"><span data-stu-id="f8d58-109">In the admin center, choose **Need help**?</span></span>
+2. <span data-ttu-id="f8d58-110">[**ヘルプが必要ですか?**] ペインで、どのようなヘルプが必要かを伝えて、[**問い合わせ**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="f8d58-110">In the **Need help?** pane, tell us what you need help with, then choose **Get help**.</span></span>
+3. <span data-ttu-id="f8d58-111">[**解決策を表示**] セクションの結果が役に立たない場合は、次のいずれかを選択します。</span><span class="sxs-lookup"><span data-stu-id="f8d58-111">If the results in the **View solutions** section don't help, choose one of the following:</span></span>
+    - <span data-ttu-id="f8d58-112">[**電話連絡を許可 (推奨)**]: 連絡先番号を確認して、[**折り返し連絡**] を押します。</span><span class="sxs-lookup"><span data-stu-id="f8d58-112">**Let us call you (Recommended)**: Confirm your contact number, then press **Call me**.</span></span> <span data-ttu-id="f8d58-113">折り返し連絡されるまでの待ち時間の予測が [**ヘルプが必要ですか?**] ペインに示されます。</span><span class="sxs-lookup"><span data-stu-id="f8d58-113">The expected wait time for a call back is indicated in the **Need help?** pane.</span></span>
+    - <span data-ttu-id="f8d58-114">[**電子メールを送信**]: メールアドレスを確認して、[**送信**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="f8d58-114">**Email us**: Confirm your email address, then choose **Send**.</span></span> <span data-ttu-id="f8d58-115">通話の応答時間が [**ヘルプが必要ですか?**] ペインに示されます。</span><span class="sxs-lookup"><span data-stu-id="f8d58-115">The call response time is indicated in the **Need help?** pane.</span></span>
 
-## <a name="for-organizations-with-more-than-150-users-create-a-service-request-to-validate-an-emergency-address"></a><span data-ttu-id="a7160-116">150 ユーザーを超える組織では、緊急住所の検証をするためにサービス リクエストを作成します。</span><span class="sxs-lookup"><span data-stu-id="a7160-116">For organizations with more than 150 users, create a service request to validate an emergency address</span></span>
+## <a name="for-organizations-with-more-than-150-users-create-a-service-request-to-validate-an-emergency-address"></a><span data-ttu-id="f8d58-116">150 ユーザーを超える組織では、緊急住所の検証をするためにサービス リクエストを作成します。</span><span class="sxs-lookup"><span data-stu-id="f8d58-116">For organizations with more than 150 users, create a service request to validate an emergency address</span></span>
 
-1. <span data-ttu-id="a7160-117">職場または学校のアカウントを使用して、Office 365 に管理者としてサインインします。</span><span class="sxs-lookup"><span data-stu-id="a7160-117">Sign in as an administrator to Office 365 with your work or school account.</span></span>
+1. <span data-ttu-id="f8d58-117">職場または学校のアカウントを使用して、Office 365 に管理者としてサインインします。</span><span class="sxs-lookup"><span data-stu-id="f8d58-117">Sign in as an administrator to Office 365 with your work or school account.</span></span>
     
-2. <span data-ttu-id="a7160-118">管理センターの左側のナビゲーションで、[**新しいサービスリクエスト**の**サポート** > ] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="a7160-118">In the admin center, in the left navigation, click **Support** > **New service request**.</span></span>
+2. <span data-ttu-id="f8d58-118">管理センターの左側のナビゲーションで、[**新しいサービスリクエスト**の**サポート** > ] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="f8d58-118">In the admin center, in the left navigation, click **Support** > **New service request**.</span></span>
     
-3. <span data-ttu-id="a7160-119">[**サービス リクエスト**] で、[**追加**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="a7160-119">Under **Service requests**, click **Add**.</span></span>
+3. <span data-ttu-id="f8d58-119">[**サービス リクエスト**] で、[**追加**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="f8d58-119">Under **Service requests**, click **Add**.</span></span>
     
-4. <span data-ttu-id="a7160-120">[**サービス リクエストの作成**] ページで、[**オンライン グループ作業**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="a7160-120">On the **Create a service request** page, click **Online collaboration**.</span></span>
+4. <span data-ttu-id="f8d58-120">[**サービス リクエストの作成**] ページで、[**オンライン グループ作業**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="f8d58-120">On the **Create a service request** page, click **Online collaboration**.</span></span>
     
-5. <span data-ttu-id="a7160-121">[**問題の特定**] ページで、次の項目を選んで、必要事項を入力します。</span><span class="sxs-lookup"><span data-stu-id="a7160-121">On the **Identify the issue** page, select and enter in the following:</span></span>
+5. <span data-ttu-id="f8d58-121">[**問題の特定**] ページで、次の項目を選んで、必要事項を入力します。</span><span class="sxs-lookup"><span data-stu-id="f8d58-121">On the **Identify the issue** page, select and enter in the following:</span></span>
     
-   - <span data-ttu-id="a7160-122">**機能:** **国内通話プラン**および/または**国内および国際通話プラン**を選択します。</span><span class="sxs-lookup"><span data-stu-id="a7160-122">**Feature:** Select **Domestic Calling Plan** and/or **Domestic and International Plan**.</span></span>
+   - <span data-ttu-id="f8d58-122">**機能:** **国内通話プラン**および/または**国内および国際通話プラン**を選択します。</span><span class="sxs-lookup"><span data-stu-id="f8d58-122">**Feature:** Select **Domestic Calling Plan** and/or **Domestic and International Plan**.</span></span>
     
-   - <span data-ttu-id="a7160-123">**現象:** **緊急通話**と入力します。</span><span class="sxs-lookup"><span data-stu-id="a7160-123">**Symptom:** Enter **Emergency Calling**.</span></span>
+   - <span data-ttu-id="f8d58-123">**現象:** **緊急通話**と入力します。</span><span class="sxs-lookup"><span data-stu-id="f8d58-123">**Symptom:** Enter **Emergency Calling**.</span></span>
     
-   - <span data-ttu-id="a7160-124">**案件の概要:** **住所検証**と入力します。</span><span class="sxs-lookup"><span data-stu-id="a7160-124">**Issue summary:** Enter **Address validation**.</span></span>
+   - <span data-ttu-id="f8d58-124">**案件の概要:** **住所検証**と入力します。</span><span class="sxs-lookup"><span data-stu-id="f8d58-124">**Issue summary:** Enter **Address validation**.</span></span>
     
-   - <span data-ttu-id="a7160-125">**案件詳細:** 検証する必要がある住所について、次のような詳細情報を入力します。</span><span class="sxs-lookup"><span data-stu-id="a7160-125">**Issue details:** Enter any details about the address(s) you want to validate such as the:</span></span>
+   - <span data-ttu-id="f8d58-125">**案件詳細:** 検証する必要がある住所について、次のような詳細情報を入力します。</span><span class="sxs-lookup"><span data-stu-id="f8d58-125">**Issue details:** Enter any details about the address(s) you want to validate such as the:</span></span>
     
-      - <span data-ttu-id="a7160-126">番地</span><span class="sxs-lookup"><span data-stu-id="a7160-126">Street number</span></span>
+      - <span data-ttu-id="f8d58-126">番地</span><span class="sxs-lookup"><span data-stu-id="f8d58-126">Street number</span></span>
     
-      - <span data-ttu-id="a7160-127">町名</span><span class="sxs-lookup"><span data-stu-id="a7160-127">Street name</span></span>
+      - <span data-ttu-id="f8d58-127">町名</span><span class="sxs-lookup"><span data-stu-id="f8d58-127">Street name</span></span>
     
-      - <span data-ttu-id="a7160-128">市区町村</span><span class="sxs-lookup"><span data-stu-id="a7160-128">Town or city</span></span>
+      - <span data-ttu-id="f8d58-128">市区町村</span><span class="sxs-lookup"><span data-stu-id="f8d58-128">Town or city</span></span>
     
-      - <span data-ttu-id="a7160-129">国または地域</span><span class="sxs-lookup"><span data-stu-id="a7160-129">Country or region</span></span>
+      - <span data-ttu-id="f8d58-129">国または地域</span><span class="sxs-lookup"><span data-stu-id="f8d58-129">Country or region</span></span>
     
      > [!IMPORTANT]
-     > <span data-ttu-id="a7160-130">**電話番号を割り当てるときに検証しようとしている緊急住所がある、Office 365 の通話プランが提供されている国/地域を入力します。**</span><span class="sxs-lookup"><span data-stu-id="a7160-130">**Put the country/region where we offer Calling Plans in Office 365 that you are trying to validate an emergency address in when you are assigning phone number.**</span></span>
+     > <span data-ttu-id="f8d58-130">**電話番号を割り当てるときに検証しようとしている緊急住所がある、Office 365 の通話プランが提供されている国/地域を入力します。**</span><span class="sxs-lookup"><span data-stu-id="f8d58-130">**Put the country/region where we offer Calling Plans in Office 365 that you are trying to validate an emergency address in when you are assigning phone number.**</span></span>
   
-      - <span data-ttu-id="a7160-131">郵便番号</span><span class="sxs-lookup"><span data-stu-id="a7160-131">Postal or zip code</span></span>
+      - <span data-ttu-id="f8d58-131">郵便番号</span><span class="sxs-lookup"><span data-stu-id="f8d58-131">Postal or zip code</span></span>
     
-6. <span data-ttu-id="a7160-132">[**次へ**] ページをクリックし、[**はい、処理を続行します**] をクリックして続行します。</span><span class="sxs-lookup"><span data-stu-id="a7160-132">Click **Next** page, click **Yes, continue** to continue.</span></span>
+6. <span data-ttu-id="f8d58-132">[**次へ**] ページをクリックし、[**はい、処理を続行します**] をクリックして続行します。</span><span class="sxs-lookup"><span data-stu-id="f8d58-132">Click **Next** page, click **Yes, continue** to continue.</span></span>
     
-7. <span data-ttu-id="a7160-133">[**詳細の追加**] ページで、次の項目を選んで、必要事項を入力します。</span><span class="sxs-lookup"><span data-stu-id="a7160-133">On the **Add details** page, select and enter the following:</span></span>
+7. <span data-ttu-id="f8d58-133">[**詳細の追加**] ページで、次の項目を選んで、必要事項を入力します。</span><span class="sxs-lookup"><span data-stu-id="f8d58-133">On the **Add details** page, select and enter the following:</span></span>
     
-   - <span data-ttu-id="a7160-134">[**サービスが利用できませんか?**]: </span><span class="sxs-lookup"><span data-stu-id="a7160-134">**Is your service unavailable?**</span></span> <span data-ttu-id="a7160-135">[**いいえ**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="a7160-135">Select **No**.</span></span>
+   - <span data-ttu-id="f8d58-134">[**サービスが利用できませんか?**]: </span><span class="sxs-lookup"><span data-stu-id="f8d58-134">**Is your service unavailable?**</span></span> <span data-ttu-id="f8d58-135">[**いいえ**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="f8d58-135">Select **No**.</span></span>
     
-   - <span data-ttu-id="a7160-136">[**影響を受けているユーザーの数**]: </span><span class="sxs-lookup"><span data-stu-id="a7160-136">**How many users are affected?**</span></span> <span data-ttu-id="a7160-137">[**一部のユーザー**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="a7160-137">Select **Some users**.</span></span>
+   - <span data-ttu-id="f8d58-136">[**影響を受けているユーザーの数**]: </span><span class="sxs-lookup"><span data-stu-id="f8d58-136">**How many users are affected?**</span></span> <span data-ttu-id="f8d58-137">[**一部のユーザー**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="f8d58-137">Select **Some users**.</span></span>
     
-   - <span data-ttu-id="a7160-138">[**この問題の影響を受けるユーザーのメール アドレスの入力**] を入力するか、空白のままにします。</span><span class="sxs-lookup"><span data-stu-id="a7160-138">**Enter an email address of someone affected by this issue** or leave blank.</span></span>
+   - <span data-ttu-id="f8d58-138">[**この問題の影響を受けるユーザーのメール アドレスの入力**] を入力するか、空白のままにします。</span><span class="sxs-lookup"><span data-stu-id="f8d58-138">**Enter an email address of someone affected by this issue** or leave blank.</span></span>
     
-   - <span data-ttu-id="a7160-139">[**一覧表示するドメインを選択する**]</span><span class="sxs-lookup"><span data-stu-id="a7160-139">**Select Domain(s) you want to list**</span></span>
+   - <span data-ttu-id="f8d58-139">[**一覧表示するドメインを選択する**]</span><span class="sxs-lookup"><span data-stu-id="f8d58-139">**Select Domain(s) you want to list**</span></span>
     
-   - <span data-ttu-id="a7160-140">複数の住所を検証する必要がある場合は、**ファイルを添付します**。</span><span class="sxs-lookup"><span data-stu-id="a7160-140">**Attach a file** if you have multiple addresses you need validated.</span></span>
+   - <span data-ttu-id="f8d58-140">複数の住所を検証する必要がある場合は、**ファイルを添付します**。</span><span class="sxs-lookup"><span data-stu-id="f8d58-140">**Attach a file** if you have multiple addresses you need validated.</span></span>
     
-   - <span data-ttu-id="a7160-141">[**次へ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="a7160-141">Click **Next**.</span></span>
+   - <span data-ttu-id="f8d58-141">[**次へ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="f8d58-141">Click **Next**.</span></span>
     
-   - <span data-ttu-id="a7160-142">連絡先の電話番号を入力します。</span><span class="sxs-lookup"><span data-stu-id="a7160-142">Enter your contact phone number.</span></span>
+   - <span data-ttu-id="f8d58-142">連絡先の電話番号を入力します。</span><span class="sxs-lookup"><span data-stu-id="f8d58-142">Enter your contact phone number.</span></span>
     
-8. <span data-ttu-id="a7160-143">情報を確認して、[**リクエストの送信**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="a7160-143">Review the information, and then click **Submit request**.</span></span>
+8. <span data-ttu-id="f8d58-143">情報を確認して、[**リクエストの送信**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="f8d58-143">Review the information, and then click **Submit request**.</span></span>
     
 > [!TIP]
-> <span data-ttu-id="a7160-144">参照番号は、Microsoft 365 管理センターの [**サービスリクエスト**] ページに表示されます。</span><span class="sxs-lookup"><span data-stu-id="a7160-144">The reference number will be listed on the **Service requests** page in the Microsoft 365 admin center.</span></span>
+> <span data-ttu-id="f8d58-144">参照番号は、Microsoft 365 管理センターの [**サービスリクエスト**] ページに表示されます。</span><span class="sxs-lookup"><span data-stu-id="f8d58-144">The reference number will be listed on the **Service requests** page in the Microsoft 365 admin center.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="a7160-145">さらに追加で電話番号が必要な場合は、「[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="a7160-145">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
+> <span data-ttu-id="f8d58-145">さらに追加で電話番号が必要な場合は、「[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="f8d58-145">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
   
-## <a name="related-topics"></a><span data-ttu-id="a7160-146">関連トピック</span><span class="sxs-lookup"><span data-stu-id="a7160-146">Related topics</span></span>
-[<span data-ttu-id="a7160-147">電話番号の移行に関するよくある質問</span><span class="sxs-lookup"><span data-stu-id="a7160-147">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
+## <a name="related-topics"></a><span data-ttu-id="f8d58-146">関連トピック</span><span class="sxs-lookup"><span data-stu-id="f8d58-146">Related topics</span></span>
+[<span data-ttu-id="f8d58-147">電話番号の移行に関するよくある質問</span><span class="sxs-lookup"><span data-stu-id="f8d58-147">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[<span data-ttu-id="a7160-148">通話プランで使用されるさまざまな種類の電話番号</span><span class="sxs-lookup"><span data-stu-id="a7160-148">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
+[<span data-ttu-id="f8d58-148">通話プランで使用されるさまざまな種類の電話番号</span><span class="sxs-lookup"><span data-stu-id="f8d58-148">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[<span data-ttu-id="a7160-149">緊急通話の利用条件</span><span class="sxs-lookup"><span data-stu-id="a7160-149">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
+[<span data-ttu-id="f8d58-149">緊急通話の利用条件</span><span class="sxs-lookup"><span data-stu-id="f8d58-149">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
 
-<span data-ttu-id="a7160-150">[Skype for Business Online: 緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="a7160-150">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
+<span data-ttu-id="f8d58-150">[Skype for Business Online: 緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="f8d58-150">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
   
  

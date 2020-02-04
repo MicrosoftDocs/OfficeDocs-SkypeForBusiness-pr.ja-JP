@@ -15,17 +15,18 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Reporting
 description: Skype for Business および Microsoft Teams の通話品質の問題を特定してトラブルシューティングするために通話分析をセットアップして使用します。
-ms.openlocfilehash: d6428afc9fc15bc94dbb2e5b1c3aae44a4f96500
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 865e8fddbf67e8aae85b7f38ee263c86ecf96716
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34303853"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705912"
 ---
-# <a name="using-call-quality-in-your-organization"></a><span data-ttu-id="cdcc6-103">組織で通話品質を使用する</span><span class="sxs-lookup"><span data-stu-id="cdcc6-103">Using Call Quality in your organization</span></span>
+# <a name="using-call-quality-in-your-organization"></a><span data-ttu-id="08fee-103">組織で通話品質を使用する</span><span class="sxs-lookup"><span data-stu-id="08fee-103">Using Call Quality in your organization</span></span>
 
 
