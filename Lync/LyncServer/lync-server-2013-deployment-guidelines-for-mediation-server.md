@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 仲介サーバー向けの展開ガイドライン'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment guidelines for Mediation Server
 ms:assetid: 7cc22b87-18d9-45e6-8402-015abd20f2e5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398622(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184606
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 400f8cceeb86d407297b3f564c01266a477ca0ef
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3c91ea4368d96e6a558a25eda86d163e4ced4cb8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833495"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762675"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,7 +51,7 @@ _**最終更新日:** 2012-10-12_
 
   - 仲介サーバーを使用していないメディアを含む通話の割合
 
-計画するときは、メディアのバイパス用に構成されていない PSTN 通話と A/V 会議のメディア処理要件、および、必要な時間のかかる通話の通知操作を処理するために必要な処理を必ず考慮してください。サポートされます。 CPU が不足している場合は、スタンドアロンのプールサーバーを展開する必要があります。また、PSTN ゲートウェイ、IP Pbx、および SBCs は、1つのプール内の併置されている仲介サーバーによって制御されるサブセットと1つ以上のスタンドアロンプールでスタンドアロンの仲介サーバーによって制御されるサブセットに分割する必要があります。
+計画するときは、メディアのバイパス用に構成されていない PSTN 通話と A/V 会議のメディア処理要件、およびサポートする必要がある時間帯を含む通話のシグナル操作を処理するために必要な処理について必ず考慮してください。 CPU が不足している場合は、スタンドアロンのプールサーバーを展開する必要があります。また、PSTN ゲートウェイ、IP Pbx、および SBCs は、1つのプール内の併置されている仲介サーバーによって制御されるサブセットと1つ以上のスタンドアロンプールでスタンドアロンの仲介サーバーによって制御されるサブセットに分割する必要があります。
 
 次に示すように、仲介サーバーのプールを操作するための適切な機能をサポートしていない PSTN ゲートウェイ、IP Pbx、またはセッション境界コントローラー (SBCs) を展開した場合は、次のように構成されている単体プールと関連付ける必要があります。単一の仲介サーバーの場合:
 

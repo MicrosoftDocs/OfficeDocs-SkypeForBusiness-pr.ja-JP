@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ネットワーク パフォーマンスの監視'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Monitoring network performance
 ms:assetid: bc3a01da-91eb-4c0c-9598-35e5e46b00f6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720923(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969647
 ms.date: 04/27/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a2fa3c2685b4da32d5f2e3f123a938920b5ce9f7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 504b0c28e42b6975cd411c6628cd9f91a30783ef
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826718"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756801"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ Lync Server 2013 は、ネットワークに大きく依存して、インスタ
 
   - **全体的なネットワークのパフォーマンス**   このレベルのパフォーマンス測定により、組織は、ネットワークの "大きな画像" ビューを作成することができ、通常はサードパーティのネットワーク監視システムを使用して実装されます。 これらのシステムでは、管理者が特定のネットワークコンポーネントの正常性をいつでも判断できるように、ルーターなどのリモートネットワークデバイスからパフォーマンスと容量のデータを受け取ります。
 
-  - **個々のサーバーのパフォーマンス**   このレベルのパフォーマンス測定値は特定のサーバーに制限され、特定のパフォーマンスのトラブルシューティングに役立つように、特定のサーバーのネットワークパフォーマンスを距離の管理者が管理するのに役立ちます。キャパシティ計画プロセスの一環として、特定の期間における個々のサーバーのパフォーマンスを測定します。
+  - **個々のサーバーのパフォーマンス**   このレベルのパフォーマンス測定は、特定のサーバーに制限されています。また、管理者は、特定のパフォーマンスの問題のトラブルシューティングや、特定の期間における個々のサーバーのパフォーマンスの測定に、キャパシティ計画プロセスの一環として、特定のサーバーのネットワークパフォーマンスを距離するために役立ちます。
 
 次のセクションで説明されているツールを使用して、ネットワークを監視することができます。
 
@@ -81,9 +83,9 @@ System Center Operations Manager は、IT 環境全体のサービスレベル�
 
 ## <a name="third-party-solutions"></a>サードパーティのソリューション
 
-**Hp ネットワーク管理センター (以前は Hp OpenView と呼ばれていました)**   [HP ネットワーク管理センター](http://www8.hp.com/us/en/software-solutions/network-management/index.html?%26zn=bto%26cp=1-11-15-119_4000_100__)では、ネットワークの可用性とパフォーマンスを向上させるために、統合されたフォールトおよびパフォーマンス管理を実現しています。 ネットワーク管理センターは、障害、パフォーマンス、構成、および変更管理を統合する HP 自動ネットワーク管理ソリューションの一部です。
+Hp ネットワーク**管理センター (以前は Hp OpenView と呼ばれています)**   [Hp ネットワーク管理センター](http://www8.hp.com/us/en/software-solutions/network-management/index.html?%26zn=bto%26cp=1-11-15-119_4000_100__)では、ネットワークの可用性とパフォーマンスを向上させるために、統合されたフォールトおよびパフォーマンス管理を実現しています。 ネットワーク管理センターは、障害、パフォーマンス、構成、および変更管理を統合する HP 自動ネットワーク管理ソリューションの一部です。
 
-**Cisco のネットワーク管理およびオートメーション製品**   (cisco) には、お使いの業務効率を向上させるために、お使いのエンタープライズ向けの複数の管理製品が含まれています。ネットワークのダウンタイムを短縮します。 これらの製品に関するその他の情報については[http://www.cisco.com/en/US/products/sw/netmgtsw/index.html](http://www.cisco.com/en/us/products/sw/netmgtsw/index.html)、の Cisco web サイトを参照してください。
+**Cisco 社向けの cisco ネットワーク管理とオートメーション製品**   には、お使いの環境の運用効率を向上させ、ネットワークのダウンタイムを軽減するために、ciscoworks LAN 管理ソリューションや cisco ネットワーク分析モジュールなど、さまざまな管理製品が搭載されています。 これらの製品に関するその他の情報については[http://www.cisco.com/en/US/products/sw/netmgtsw/index.html](http://www.cisco.com/en/us/products/sw/netmgtsw/index.html)、の Cisco web サイトを参照してください。
 
 簡易ネットワーク管理プロトコル (SNMP) 簡易ネットワーク管理プロトコル (SNMP) は、TCP/IP ネットワークを管理するための戦略を定義するネットワーク管理標準です。 SNMP では、ネットワークに関する構成と状態の情報を取得し、その情報を指定のコンピューターに送信してイベントを監視することができます。 この規格に基づくネットワーク管理プロトコルは、次のような分散アーキテクチャを使用しています。
 

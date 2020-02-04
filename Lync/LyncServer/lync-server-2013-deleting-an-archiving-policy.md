@@ -3,6 +3,8 @@ title: 'Lync Server 2013: アーカイブポリシーを削除する'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deleting an Archiving policy
 ms:assetid: 4739a691-41cc-4128-8bb8-6d5a4c02107a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520989(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184043
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3f151a940958273509191b35ed817409ba52b6dd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 926cc7e45fe3e57c189b01ff92da49342506dc2b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833588"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763075"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34833588"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-23_
+_**トピックの最終更新日:** 2013-02-23_
 
 ユーザーポリシーまたはサイトポリシーを削除することができます。 グローバルポリシーは削除できません。 グローバルポリシーを削除しようとすると、Lync Server 2013 によってポリシーが自動的に既定値にリセットされます。
 
@@ -67,7 +69,7 @@ _**最終更新日:** 2013-02-23_
 
 ## <a name="removing-archiving-policies-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用してアーカイブポリシーを削除する
 
-Windows PowerShell と**CsArchivingPolicy**コマンドレットを使用して、アーカイブポリシーを削除することができます。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、「Lync Server Windows PowerShell のブログ記事」を参照してください[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。「リモート PowerShell を使用して Microsoft Lync Server 2010 を管理する」を参照してください。
+Windows PowerShell と**CsArchivingPolicy**コマンドレットを使用して、アーカイブポリシーを削除することができます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 <div>
 

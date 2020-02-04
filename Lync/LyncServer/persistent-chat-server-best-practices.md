@@ -3,6 +3,8 @@ title: 常設チャット サーバーのベスト プラクティス
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Persistent Chat Server best practices
 ms:assetid: dc18e7f7-599b-4d32-abf7-cd9e691426a2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398970(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185612
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3ac9419485212df8ecf0a11841a6eaee4c752640
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 119bc67622928ec2e60f082e72322e7b0b923c2e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848020"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743677"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ _**最終更新日:** 2012-10-06_
 
   - 会社が倫理的な壁を必要としない場合は、カテゴリツリーの範囲を狭くしないでください。 すべてのユーザーを1つのカテゴリの範囲に入れ、そのカテゴリのすべてのチャットルームを作成します。 その後、メンバーシップリストを使用して、各チャットルームへのアクセスを許可または制限します。
 
-  - ほとんどの場合、新しいトピックに関するディスカッションをいつでも開始できるように、ユーザーが新しいチャットルームを作成できるようにする必要があります。 これを行うには**** 、作成者リストを**allowedmembers**リストと同じにします。 ただし、中央のサポートチームまたは特定のユーザーにのみ会議室の作成を許可する場合は**** 、適切なサブセットとして作成者の一覧を作成します。
+  - ほとんどの場合、新しいトピックに関するディスカッションをいつでも開始できるように、ユーザーが新しいチャットルームを作成できるようにする必要があります。 これを行うには **、作成者リストを** **allowedmembers**リストと同じにします。 ただし、中央のサポートチームまたは特定のユーザーにのみ会議室の作成を許可する場合は、適切なサブセットとして作成者**の一覧を**作成します。
 
   - 各チャットルームには、組織に適した場所を示す完全な名前と説明の概要を指定します。 ユーザーは、チャットルームを使用するときにカテゴリ名を見ることができないため、ユーザーがチャットルームの目的のディスカッションフォーラムを特定するのに役立つように、カテゴリ名を利用することはできません。
 

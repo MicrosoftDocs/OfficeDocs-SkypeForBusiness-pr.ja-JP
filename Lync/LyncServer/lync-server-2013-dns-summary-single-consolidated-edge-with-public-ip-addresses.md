@@ -3,6 +3,8 @@ title: DNS の概要 - パブリック IP アドレスを持つ単一統合エ�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS summary - Single consolidated edge with public IP addresses
 ms:assetid: 7b83eae4-aa1a-4cc6-8077-42176d56cab5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205025(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184601
 ms.date: 03/09/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 50aae14309e55919eb3f65560cd7cd0e7f1b1283
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: db3578bc7b1668bf8cb2268ed079e558e1cf1761
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833351"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733547"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +49,7 @@ Lync 2013 を実行しているクライアントの自動構成の詳細につ�
 
 ## <a name="important-edge-server-network-adapter-requirements"></a>重要: エッジサーバーのネットワークアダプターの要件
 
-ルーティングの問題を回避するには、エッジサーバーに少なくとも2つのネットワークアダプターがあり、その外部インターフェイスに関連付けられているネットワークアダプターでのみ既定のゲートウェイが設定されていることを確認します。 たとえば、パブリック IP アドレスを持つ単一の統合されたエッジトポロジに、 [Lync Server 2013 でパブリック ip アドレスを持つ単一の統合エッジ](lync-server-2013-single-consolidated-edge-with-public-ip-addresses.md)に表示されている場合、既定のゲートウェイは、インターネット境界で外部ルーターをポイントしています。パブリック IP アドレスを提供できるファイアウォール。 エッジサーバーインターフェイスのネットワーク関係は、NAT 関係ではなくルートリレーションシップです。
+ルーティングの問題を回避するには、エッジサーバーに少なくとも2つのネットワークアダプターがあり、その外部インターフェイスに関連付けられているネットワークアダプターでのみ既定のゲートウェイが設定されていることを確認します。 たとえば、パブリック ip アドレスを持つ単一の統合されたエッジトポロジで、 [Lync Server 2013 のパブリック ip アドレスを持つ単一の統合エッジ](lync-server-2013-single-consolidated-edge-with-public-ip-addresses.md)に表示されている場合、既定のゲートウェイは、インターネット境界またはファイアウォールでパブリック ip アドレスを提供できる外部ルーターを指します。 エッジサーバーインターフェイスのネットワーク関係は、NAT 関係ではなくルートリレーションシップです。
 
 エッジサーバーでは、次のように2つのネットワークアダプターを構成できます。
 
@@ -74,7 +76,7 @@ Lync 2013 を実行しているクライアントの自動構成の詳細につ�
     
     アクセスエッジのパブリック IP アドレスは、パブリックルータ (131.107.155.1) に設定されたデフォルトゲートウェイのプライマリ IP アドレスです。
     
-    Web 会議と A/V Edge のパブリック IP アドレスは、**インターネットプロトコルバージョン 4 (tcp/IPv4)** のプロパティの **[詳細設定**] セクションとローカルエリアの**インターネットプロトコルバージョン 6 (tcp/IPV6)** で追加の ip アドレスとなります。 **** Windows Server の接続プロパティ。
+    Web 会議と A/V Edge のパブリック IP アドレスは、Windows Server の**ローカルエリア接続プロパティ**の**インターネットプロトコルバージョン 4 (tcp/IPv4)** と**INTERNET protocol Version 6 (tcp/IPv6)** のプロパティの **[詳細**] セクションで追加の ip アドレスとなります。
 
 <div>
 

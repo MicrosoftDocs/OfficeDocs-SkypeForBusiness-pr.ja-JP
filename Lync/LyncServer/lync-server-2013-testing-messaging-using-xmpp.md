@@ -3,6 +3,8 @@ title: 'Lync Server 2013: XMPP を使用したメッセージングのテスト'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing messaging using XMPP
 ms:assetid: ae5305ba-e5fc-4ca0-a805-872b4ebaf981
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727312(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969641
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: acd03cdf2a5215c980b788dbaffafc5936fe5b5e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d5a1840e344ee19114cca424822fa1df14028495
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848441"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745647"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -104,7 +106,7 @@ XMPP のインスタントメッセージングが正しく構成されている
 
 診断
 
-指定したユーザーが XMPP のインスタントメッセージングを使用できない場合は、 **** 結果がエラーとして表示され、エラーと診断のプロパティに追加情報が記録されます。
+指定したユーザーが XMPP のインスタントメッセージングを使用できない場合は、結果**がエラーとして**表示され、エラーと診断のプロパティに追加情報が記録されます。
 
 警告: 指定した完全修飾のレジストラーポート番号の読み取りに失敗しました
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: デバイス更新構成設定の表示'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View Device Update configuration settings
 ms:assetid: aa6a70a9-bd77-4606-b797-ea6a3bab9cf2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994059(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803970
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d4c334e44212116418a953b2bbf84ece75063f8b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 01edeb2d40fae7b82ac35fb5561a1332f67c9e11
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848210"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731097"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34848210"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-20_
+_**トピックの最終更新日:** 2013-02-20_
 
-Lync Server 管理シェルと、Windows のリモートセッションから2013実行できる、 **CsDeviceUpdateConfiguration**コマンドレットを使用して、デバイス更新サービスの構成設定を表示できます (複数可)。PowerShell
+Lync Server 管理シェルと、Windows PowerShell のリモートセッションから2013実行できる、 **CsDeviceUpdateConfiguration**コマンドレットを使用して、デバイス更新サービスの構成設定を表示できます (複数可)。
 
 <div>
 
 
 > [!NOTE]  
-> リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、「Lync Server Windows PowerShell のブログ記事」を参照してください<A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>。「リモート PowerShell を使用して Microsoft Lync Server 2010 を管理する」を参照してください。
+> リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を<A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>で参照してください。
 
 
 

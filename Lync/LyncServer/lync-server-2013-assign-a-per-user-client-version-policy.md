@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ユーザーごとのクライアントバージョン
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Assign a per-user client version policy
 ms:assetid: f7e8ba2f-62dc-4e7d-8b63-682986f10240
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182607(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185868
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8bfd26aff4ae2e5d8dacf7ec145bec0e3247facf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e509427b6d2651f84b96a96c87fbe7cfd6177a7d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840753"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738377"
 ---
 # <a name="assign-a-per-user-client-version-policy-in-lync-server-2013"></a>Lync Server 2013 でユーザーごとのクライアントバージョンポリシーを割り当てる
 
@@ -90,7 +92,7 @@ ms.locfileid: "34840753"
 
 ## <a name="assigning-a-per-user-client-version-policy-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して、ユーザーごとのクライアントバージョンポリシーを割り当てる
 
-Grant-CsClientVersionPolicy コマンドレットを使用して、ユーザーごとのクライアントバージョンポリシーを割り当てることができます。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、「Lync Server Windows PowerShell のブログ記事」を参照してください[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。「リモート PowerShell を使用して Microsoft Lync Server 2010 を管理する」を参照してください。
+Grant-CsClientVersionPolicy コマンドレットを使用して、ユーザーごとのクライアントバージョンポリシーを割り当てることができます。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 ## <a name="to-assign-a-per-user-client-version-policy-to-a-single-user"></a>ユーザーごとのクライアントバージョンポリシーを1人のユーザーに割り当てるには
 

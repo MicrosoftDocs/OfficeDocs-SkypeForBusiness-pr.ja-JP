@@ -3,6 +3,8 @@ title: 設定-CsCertificate での、AV および OAuth 証明書の使用
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Staging AV and OAuth certificates using -Roll in Set-CsCertificate
 ms:assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ660292(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49354387
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4acdf759181dee3df872c7803ec595c63fb07016
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 583ab13e50cac7c7a8b345a2ea2cf4c4e1e38d7f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848697"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764433"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +47,7 @@ _**最終更新日:** 2012-11-13_
 > <LI>
 > <P>この新機能は、A/V Edge サービスと<EM>Oauthtokenissuer</EM>証明書で動作するように設計されています。 その他の種類の証明書は、A/V Edge サービスと OAuth 証明書の種類と共にプロビジョニングできますが、A/V Edge サービス証明書の共存動作の恩恵を受けることはできません。</P>
 > <LI>
-> <P>Microsoft Lync Server 2013 証明書を管理するために使用された Lync Server 管理シェル PowerShell コマンドレットは、 <EM>Audiovideoauthentication</EM>証明書の種類としての A/V Edge サービス証明書と、type<EM>という oauthserver certificate を指します。OAuthTokenIssuer</EM>。 このトピックのこれ以降の説明では証明書を一意に識別するために、同じ識別子の種類を使用して <EM>AudioVideoAuthentication</EM> および <EM>OAuthTokenIssuer</EM> と呼びます。</P></LI></OL>
+> <P>Microsoft Lync Server 2013 証明書を管理するために使用される Lync Server 管理シェル PowerShell コマンドレットは、 <EM>Audiovideoauthentication</EM>証明書の種類としての A/V Edge サービス証明書と、Type <EM>Oauthtokenissuer</EM>としての oauthserver certificate を指します。 このトピックのこれ以降の説明では証明書を一意に識別するために、同じ識別子の種類を使用して <EM>AudioVideoAuthentication</EM> および <EM>OAuthTokenIssuer</EM> と呼びます。</P></LI></OL>
 
 
 
@@ -91,7 +93,7 @@ OAuthTokenIssuer 証明書をステージングするときは、証明書が有
     
 
     > [!IMPORTANT]
-    > エッジプールについては、すべての AudioVideoAuthentication 証明書が展開され、最初の証明書の EffectiveDate パラメーターによって定義された日付と時刻でプロビジョニングされている必要があります新しい証明書を使ってすべてのクライアントとコンシューマーのトークンを更新する前に、証明書が期限切れになっている。
+    > エッジプールの場合、すべてのクライアントとコンシューマーのトークンが新しい証明書を使用して更新される前に、古い証明書の EffectiveDate パラメーターで定義された日付と時刻で、すべての AudioVideoAuthentication 証明書を展開してプロビジョニングする必要があります。
 
     
     </div>
@@ -117,7 +119,7 @@ OAuthTokenIssuer 証明書をステージングするときは、証明書が有
 
 次の例では、管理者は、A/V Edge サービス証明書が07/22/2012 の 2:00:00 PM に有効期限切れになっていることを確認します。 彼は、新しい証明書を要求して受け取り、その証明書を自分のプールの各エッジサーバーにインポートします。 07/22/2012 の午前2時は、[ロール]、[拇印] が新しい証明書の拇印文字列と同じであり、-EffectiveTime が 07/22/2012 6:00:00 AM に設定されている Get-CsCertificate の実行を開始します。 各エッジサーバーでこのコマンドを実行します。
 
-![ロールと EffectiveDate のパラメーターを使用します。](images/JJ660292.21d51a76-0d03-4ed7-a37e-a7c14940265f(OCS.15).jpg "ロールと EffectiveDate のパラメーターを使用します。")
+![Roll および EffectiveDate パラメーターの使用](images/JJ660292.21d51a76-0d03-4ed7-a37e-a7c14940265f(OCS.15).jpg "Roll および EffectiveDate パラメーターの使用")
 
 有効時間 (7/22/2012 6:00:00 AM) に達すると、新しい証明書によってすべての新しいトークンが発行されます。 トークンを検証する場合、トークンはまず新しい証明書に照らして検証されます。 検証が失敗した場合は、古い証明書が試されます。 新しい証明書を試してから古い証明書にフォールバックするこのプロセスは、古い証明書の有効期限まで続きます。 古い証明書の有効期限が切れた後 (7/22/2012 2:00:00 PM)、トークンは新しい証明書でのみ検証されます。 古い証明書は、次のように Remove-CsCertificate コマンドレットに -Previous パラメーターを指定して安全に削除できます。
 

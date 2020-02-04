@@ -3,6 +3,8 @@ title: Lync Phone Edition の構成設定のコレクションを作成または
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify a collection of Lync Phone Edition configuration settings
 ms:assetid: 6cf714af-8f57-4a71-89ad-0a776302b2ba
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688086(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733683
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f3012ffeeb8dd4559ee05a45dd07becefd099691
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6b3eaf347693d079ef713716c5ebd0d8c470feef
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833816"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763349"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34833816"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-23_
+_**トピックの最終更新日:** 2013-02-23_
 
 Lync Server をインストールすると、Lync Phone Edition の設定のグローバルコレクションが取得されます。 これらの設定は、展開で Lync Phone Edition を実行しているすべてのデバイスに適用されます。 これらの設定はいつでも変更できます。 また、特定のサイトのデバイスに適用される新しい設定のコレクションを設定することもできます。 サイトの設定はグローバル設定よりも優先されます。
 
@@ -72,7 +74,7 @@ Lync Server をインストールすると、Lync Phone Edition の設定のグ�
 
 ## <a name="creating-new-lync-phone-edition-configuration-settings-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して新しい Lync Phone エディション構成設定を作成する
 
-Lync Phone Edition の構成設定は、Windows PowerShell と**CsUCPhoneConfiguration**コマンドレットを使用して (サイトのスコープでのみ) 作成できます。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、「Lync Server Windows PowerShell のブログ記事」を参照してください[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。「リモート PowerShell を使用して Microsoft Lync Server 2010 を管理する」を参照してください。
+Lync Phone Edition の構成設定は、Windows PowerShell と**CsUCPhoneConfiguration**コマンドレットを使用して (サイトのスコープでのみ) 作成できます。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 <div>
 
@@ -90,7 +92,7 @@ Lync Phone Edition の構成設定は、Windows PowerShell と**CsUCPhoneConfigu
 
 ## <a name="to-change-a-single-property-value-when-creating-new-lync-phone-edition-configuration-settings"></a>新しい Lync Phone エディション構成設定の作成時に1つのプロパティ値を変更するには
 
-  - 異なるプロパティ値を使用する設定を作成するには、適切なパラメーターとパラメーター値を指定します。 たとえば、既定で電話のロックを要求する UC 電話構成設定のコレクションを作成するには、次のようなコマンドを使用します。
+  - 異なるプロパティ値を使用する設定を作成するには、適切なパラメーターとパラメーター値を含めるだけです。 たとえば、既定で電話のロックを要求する UC 電話構成設定のコレクションを作成するには、次のようなコマンドを使用します。
     
         New-CsUCPhoneConfiguration -Identity "site:Redmond" -EnforcePhoneLock $True
 
@@ -100,7 +102,7 @@ Lync Phone Edition の構成設定は、Windows PowerShell と**CsUCPhoneConfigu
 
 ## <a name="to-change-multiple-property-values-when-creating-new-lync-phone-edition-configuration-settings"></a>新しい Lync Phone エディションの構成設定を作成するときに、複数のプロパティの値を変更するには
 
-  - 複数のパラメーターを含めることにより複数のプロパティ値を変更できます。 たとえば、次のコマンドでは、電話のロックが強制され、PIN の最小の長さが8桁に設定されます。
+  - 複数のプロパティ値は、複数のパラメーターを含めることによって変更できます。 たとえば、次のコマンドでは、電話のロックが強制され、PIN の最小の長さが8桁に設定されます。
     
         New-CsUCPhoneConfiguration -Identity "site:Redmond" -EnforcePhoneLock $True -MinPhonePinLength 8
 

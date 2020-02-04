@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 新しい Exchange Server の統合機能'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: New Exchange Server integration features
 ms:assetid: cad9cbfa-f213-42af-9c8b-9baf1a5bf6bd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205269(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185431
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d39aad7f2df2f02983bad50cae8e81e711065456
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a4e515b668bd91cc04752dffb034569cd8aa7abf
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826361"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762985"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ Lync Server 2013 は、次の一覧に示すように、Microsoft Exchange Serve
 
   - 連絡先には**高解像度写真**を使用できます。 最大648x648 ピクセルの写真は Exchange 2013 に保存され、Lync 2013、Outlook 2013、Microsoft Lync Web app、Outlook Web App などのクライアントで利用できるようになります。
 
-  - Lync アーカイブの**統合**を有効にすると、exchange 2013 を使用しているユーザーに対して、lync Server 2013 アーカイブが exchange 2013 のインプレースホールド機能に統合されます。これにより、管理者はコンプライアンスに関する一般的なエクスペリエンスを実現することができます。ソリメ.
+  - Lync アーカイブの**統合**を有効にすると、exchange 2013 を使用しているユーザーに対して、lync Server 2013 アーカイブが exchange 2013 のインプレースホールド機能に統合されます。これにより、管理者はコンプライアンスと電子情報開示に関する一般的なエクスペリエンスを実現できます。
 
 <div>
 

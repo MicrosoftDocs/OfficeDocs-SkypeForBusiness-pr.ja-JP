@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ブランチ サイトの復元ソリューション'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Branch-site resiliency solutions
 ms:assetid: 1700f99b-709c-4e47-88eb-c0a5490e26e2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398234(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183517
 ms.date: 12/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce14328aed7ae4769d2f2aff18edb9c6135fe025
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 16261d4add87462991c877e85cc6a0ff1e7fdfd4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840745"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741837"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34840745"
 
 _**最終更新日:** 2014-12-10_
 
-ブランチ サイトの復元を提供することには明白な利点があります。 特に、セントラルサイトへの接続が失われた場合、ブランチサイトユーザーは引き続きエンタープライズ Voip サービスとボイスメールを使用できます (詳しくは、「ボイスメールの再ルーティング設定」をご覧ください。詳細については、「 [Lync Server のブランチサイトの回復性要件」を参照してください。2013](lync-server-2013-branch-site-resiliency-requirements.md))。 ただし、ユーザー数が 25 に満たないサイトでは、復元ソリューションによる十分な投資利益が得られない場合があります。
+ブランチ サイトの復元を提供することには明白な利点があります。 特に、セントラルサイトへの接続が切断された場合、ブランチサイトユーザーは引き続きエンタープライズ Voip サービスとボイスメールを使用できます (詳細については、「[サイトの回復力2013の要件](lync-server-2013-branch-site-resiliency-requirements.md)」を参照してください)。 ただし、ユーザー数が 25 に満たないサイトでは、復元ソリューションによる十分な投資利益が得られない場合があります。
 
 ブランチ サイトの復元を実現するには、3 つの方法があります。次の表は、組織に最適な方法を判断するのに役立ちます。
 
@@ -58,7 +60,7 @@ _**最終更新日:** 2014-12-10_
 <tr class="odd">
 <td><p>ブランチ サイトに 25 から 1,000 ユーザーが所属しており、投資収益率が全面的な展開をサポートしない、またはローカル管理者がいない場合</p></td>
 <td><p>存続可能ブランチ アプライアンス</p>
-<p>Survivable Branch Appliance は、業界標準のブレードサーバーであり、Windows Server 2008 R2 で実行されている Lync Server レジストラーと仲介サーバーが含まれています。 Survivable Branch Appliance には、公衆交換電話網 (PSTN) ゲートウェイも含まれています。 認定されたサードパーティ製のデバイス (Survivable Branch Appliance (SBA) 認定プログラムで Microsoft パートナーによって開発されたもの) は、WAN の障害が発生した場合に、継続的な PSTN 接続を提供しますが、この方法では回復力がありません。これらの機能はセントラルサイトのフロントエンドサーバーに依存しているため、プレゼンスと会議が表示されます。</p>
+<p>Survivable Branch Appliance は、業界標準のブレードサーバーであり、Windows Server 2008 R2 で実行されている Lync Server レジストラーと仲介サーバーが含まれています。 Survivable Branch Appliance には、公衆交換電話網 (PSTN) ゲートウェイも含まれています。 認定されたサードパーティ製デバイス (Survivable Branch Appliance (SBA) 認定プログラムで Microsoft パートナーによって開発されたもの) は、WAN の障害が発生した場合に、継続的な PSTN 接続を提供しますが、これらの機能はセントラルサイトのフロントエンドサーバーに依存するため、弾力性のあるプレゼンスと会議を提供しません。</p>
 <p>Survivable Branch アプライアンスの詳細について&quot;は、このトピックの&quot;後半の「Survivable branch Appliance の詳細」を参照してください。</p>
 <p><strong>注:</strong>Survivable Branch アプライアンスでも SIP トランクを使用することにした場合は、Survivable Branch Appliance ベンダーにお問い合わせください。組織に最も適したサービスプロバイダーについては、こちらをご覧ください。</p></td>
 </tr>
@@ -72,7 +74,7 @@ _**最終更新日:** 2014-12-10_
 <td><p>最大5000ユーザー向けの音声機能だけでなく、プレゼンスと会議の機能が必要な場合、Lync Server 管理者のトレーニングを受けることができます。</p></td>
 <td><p>ブランチ サイトとしてではなく、Standard Edition サーバーが含まれるセントラル サイトとして展開します。</p>
 <p>フルスケールの Lync Server 展開では、WAN の障害が発生した場合に、継続的な PSTN 接続、回復可能なプレゼンス、会議が提供されます。</p>
-<p>このソリューションの準備について詳しくは、「 <a href="lync-server-2013-planning-for-your-organization.md">Lync server 2013 向けの組織計画</a>」をご覧ください。 <a href="lync-server-2013-determining-your-system-requirements.md">lync server 2013 のシステム要件の決定</a>、 <a href="lync-server-2013-determining-your-infrastructure-requirements.md">lync server 2013 のインフラストラクチャ要件の決定</a>、計画ドキュメントのその他の関連するセクション。</p></td>
+<p>このソリューションの準備の詳細については、「 <a href="lync-server-2013-planning-for-your-organization.md">Lync server 2013 向けの組織計画</a>」、「 <a href="lync-server-2013-determining-your-system-requirements.md">lync server 2013 のシステム要件を決定</a>する」、「 <a href="lync-server-2013-determining-your-infrastructure-requirements.md">lync server 2013 のインフラストラクチャ要件</a>、および計画ドキュメントの関連セクション」を参照してください。</p></td>
 </tr>
 </tbody>
 </table>
@@ -86,7 +88,7 @@ _**最終更新日:** 2014-12-10_
 
 **ブランチ サイトの復元オプション**
 
-![音声分岐の回復性オプション](images/Gg398234.47eecd19-08ae-4d82-acbe-61f0de760306(OCS.15).jpg "音声分岐の回復性オプション")
+![音声ブランチの復元性オプション](images/Gg398234.47eecd19-08ae-4d82-acbe-61f0de760306(OCS.15).jpg "音声ブランチの復元性オプション")
 
 </div>
 

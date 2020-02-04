@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Exchange UM へのユーザー接続のテスト'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing user connection to Exchange UM
 ms:assetid: 0b83fbf4-e124-4efd-a0a9-202eb849af82
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727300(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969573
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0cc54577e94f7679e833f06a4a5de060aaf761a6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0d4a4c4194ad730a64b167aaaf33151c8a7684e8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848412"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745367"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -107,7 +109,7 @@ Exchange の統合が適切に構成されている場合は、次のような�
 
 診断
 
-指定したユーザーが通知を受信できない場合、結果は**** エラーとして表示され、エラーと診断のプロパティに追加情報が記録されます。
+指定したユーザーが通知を受信できない場合、結果はエラーとして表示さ**れ、エラー**と診断のプロパティに追加情報が記録されます。
 
 ターゲット Fqdn: atl-cs-001.litwareinc.com
 

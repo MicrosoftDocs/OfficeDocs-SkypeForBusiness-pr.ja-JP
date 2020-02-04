@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 代理トランザクション用の特別なセット
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Special setup instructions for synthetic transactions
 ms:assetid: 694cbe05-5dba-4035-a01c-c87ebfb0478b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688080(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733676
 ms.date: 11/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b8c2f0f45aa2187f1b47f8dfa81b3ba121388f6a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a15177a3c4548b235bf01a10274168e4a830fad3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848694"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731907"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +47,7 @@ _**最終更新日:** 2015-11-16_
 
 この問題を解決するには、ローカルコンピューター上の MonitoringHost と PowerShell の両方に対して、受信ファイアウォール規則を手動で作成する必要があります。 この操作は、サーバーの既存の構成に応じて、Windows ファイアウォールまたはサードパーティのローカルファイアウォールソフトウェアを使用して行うことができます。
 
-代理として使用するトランザクションホストマシンと、監視しようとしている Lync サーバーとの間でネットワークファイアウォールデバイスを使用している場合は、ホストをクライアントコンピューターとして扱う必要があります。また、[ポートとプロトコルからすべてのファイアウォールポート要件をオブザーバーする必要があります。Lync Server 2013 の内部サーバーの場合](lync-server-2013-ports-and-protocols-for-internal-servers.md)。
+代理トランザクションホストマシンと監視しようとしている Lync サーバーの間でネットワークファイアウォールデバイスを使用している場合は、ホストをクライアントコンピューターとして扱う必要があります。これには、 [Lync Server 2013 の内部サーバーのポートとプロトコル](lync-server-2013-ports-and-protocols-for-internal-servers.md)からすべてのファイアウォールポート要件を考慮する必要があります。
 
 </div>
 
