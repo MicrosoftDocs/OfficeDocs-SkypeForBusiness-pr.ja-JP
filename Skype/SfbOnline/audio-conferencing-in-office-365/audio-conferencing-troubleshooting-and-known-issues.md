@@ -16,16 +16,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: 'Microsoft をダイヤルイン会議プロバイダーとして使用する場合の既知の問題の一覧、状態、およびいくつかの回避策についてご確認ください。 '
-ms.openlocfilehash: bfb76c23d3b1235bf67435e0af09ddef2a8852f3
-ms.sourcegitcommit: bb8577aca8c7e0673b37634a24bf793c86c0537b
+ms.openlocfilehash: 6c462fea8a6ff1ebdae25a09ef8471d82559f3eb
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "36675239"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695772"
 ---
 # <a name="audio-conferencing-troubleshooting-and-known-issues"></a>電話会議のトラブルシューティングと既知の問題
 

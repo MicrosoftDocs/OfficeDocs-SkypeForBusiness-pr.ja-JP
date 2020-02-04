@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.NcsSelRegionLink
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a26f7d86-1811-4d72-afee-a577a1898cc8
 description: '[地域リンク] ダイアログ ボックスを使用して、環境で使用可能な地域リンクを検索します。 既存の地域リンクを使用するには、一覧で地域リンクをクリックして [OK] をクリックします。'
-ms.openlocfilehash: 26a5a8df6ab307cf7a8a10abf8ba0cb76742d27e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9072fa0582a74990bc5dfd4d7e49b35ceb08fbc1
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302288"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41699742"
 ---
 # <a name="select-a-region-link"></a>地域リンクの選択
  

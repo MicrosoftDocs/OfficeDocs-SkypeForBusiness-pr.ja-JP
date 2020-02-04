@@ -16,17 +16,18 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: None
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Legal
 hideEdit: true
 description: 4つの nir des expériences accessibles をお持ちの場合は、Microsoft、qui (permettre)、様、chaque 組織 de la planète d'accomplir davantage をご紹介します。 Microsoft オフにする特定の nombre de fonctionnalités d'accessibilitéの打設 Skype Entreprise et Microsoft Teams qui s'inscrivent dans son de faveur。
-ms.openlocfilehash: c68afb52c2e3abfde9a5e6e06cc79aa87b918dc2
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 2f2218c9439a0fa0e6ea20889ee905d2fbadef77
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516844"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695882"
 ---
 # <a name="accessibility-solutions-for-skype-for-business-online-and-microsoft-teams-in-france"></a>Skype for Business Online およびフランスの Microsoft Teams のアクセシビリティソリューション
 
@@ -68,13 +69,13 @@ Microsoft Teams 4 機能のある des ページ d'aide avec des raccourcis clavi
 
 - Comment utiliser un lecteur d'écran 流し込み rechercher des alertes et y répondre dans Microsoft Teams[https://support.office.com/fr-fr/article/utiliser-un-lecteur-d-%C3%A9cran-pour-rechercher-des-alertes-et-y-r%C3%A9pondre-dans-microsoft-teams-8290757e-789d-4e5a-a2ac-9ae4a07d55c2?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/utiliser-un-lecteur-d-%C3%A9cran-pour-rechercher-des-alertes-et-y-r%C3%A9pondre-dans-microsoft-teams-8290757e-789d-4e5a-a2ac-9ae4a07d55c2?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)() 
 
-Microsoft Teams は、maintenant aux utilisateurs de brouiller leur arrière-プランの pendant の変更 réunions、ce qui peut être utile # さん、、、difficultés のすべての鳴き声、sur facilement lèvres par のêtre facilement distraites par の機能environnement actif: [ https://support.office.com/fr-fr/article/rendre-votre-arrière--dans-レユニオン-équipe = fr-fr&ui = fr-fr&rs = fr-fr&ad = fr-fr ad =](https://support.office.com/fr-fr/article/rendre-votre-arrière-plan-flou-dans-une-réunion-en-équipe-f77a2381-443a-499d-825e-509a140f4780?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)fr: (fr = fr-ca の場合)
+Microsoft Teams は、maintenant aux utilisateurs de brouiller leur arrière-plan pendant réunions を満たしています。 ce qui peut être utile # difficultés のお金のの概要この機能については、「」をご覧ください。または、lèvres-flou distraites: environnement-actif-ère-dans-レユニオン-équipe-f77a2381-443a-499d-825e-509a140f4780----- [ https://support.office.com/fr-fr/article/rendre-votre-arri? omkt = fr-fr&ui = fr-fr&rs = fr-fr&ad =](https://support.office.com/fr-fr/article/rendre-votre-arrière-plan-flou-dans-une-réunion-en-équipe-f77a2381-443a-499d-825e-509a140f4780?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)fr です。
 
-De plus、la fonction de chat Microsoft Teams は、désormais "イマーシブ Reader"、ce qui は aux utilisateurs ayant des difficultés de 講義 et visuelles de modifier la taille du、d'augmenter l'espacement、de thèmes、et de、、et deréduire le champ de l'expérience de la の講義[https://support.office.com/fr-fr/article/utiliser-le-lecteur-immersif-dans-microsoft-teams-a700c0d0-bc53-4696-a94d-4fbc86ac7a9a?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/utiliser-le-lecteur-immersif-dans-microsoft-teams-a700c0d0-bc53-4696-a94d-4fbc86ac7a9a?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR):。 
+De plus、la fonction de chat Microsoft Teams は、désormais "イマーシブ Reader" のようになりました。 ce qui は、aux utilisateurs ayant des difficultés de 講義、visuelles taille、de d'augmenter、et de l'espacement le thèmes de réduire de la: [https://support.office.com/fr-fr/article/utiliser-le-lecteur-immersif-dans-microsoft-teams-a700c0d0-bc53-4696-a94d-4fbc86ac7a9a?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/utiliser-le-lecteur-immersif-dans-microsoft-teams-a700c0d0-bc53-4696-a94d-4fbc86ac7a9a?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)の各機能に対応しています。 
 
 Skype Entreprise は、le réglage de la taille du に対応しています。講義と、Microsoft Teams が le zoom に対応しています。 Skype Entreprise et équipes Microsoft 4 nis は une アシスタンスの流し込み TTY を送信しました。 Lorsque vous utilisez Skype Entreprise、メニュー de réponse vocale interactive peuvent être ralentis、accélérés et redémarrés、et [utilisateurs peuvent]、[] の手順。 Microsoft Teams は le réglage de la vitesse de la messagerie vocale を満たしています。
 
-Forme de Skype Entreprise peuvent également のの受信者のの leurs メッセージ vocaux sous の流し込み機能を使用しています。 Skype では、の機能を使用して、2010問題が発生しました。plus récentes: [https://support.office.com/fr-fr/article/Activer-ou-d%c3%a9sactiver-l-aper%c3%a7u-de-messagerie-vocale-de-la-messagerie-unifi%c3%a9e-43691569-3C6E-4583-AB89-889E511FA583?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/Activer-ou-d%c3%a9sactiver-l-aper%c3%a7u-de-messagerie-vocale-de-la-messagerie-unifi%c3%a9e-43691569-3C6E-4583-AB89-889E511FA583?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR) Administrateurs \n\n Microsoft Teams の gérer la 議事録流し込み leurs クライアント。 
+Forme de Skype Entreprise peuvent également のののの [leurs] est vocaux particulièrement # のお金の問題については、「ils bénéfique Outlook 2010 ou の des のバージョンと utilisent:」をご覧ください。これは次のとおり[https://support.office.com/fr-fr/article/Activer-ou-d%c3%a9sactiver-l-aper%c3%a7u-de-messagerie-vocale-de-la-messagerie-unifi%c3%a9e-43691569-3C6E-4583-AB89-889E511FA583?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/Activer-ou-d%c3%a9sactiver-l-aper%c3%a7u-de-messagerie-vocale-de-la-messagerie-unifi%c3%a9e-43691569-3C6E-4583-AB89-889E511FA583?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)です。 Administrateurs \n\n Microsoft Teams の gérer la 議事録流し込み leurs クライアント。 
 
 La 偵察 Vocale Windows peut également aider mobilité réduite en leur faisant bénéficier de l'utilisation des/vocales plutôt du clavier ou de la souris、 Des 命令 savoir comment activer la 偵察 vocale sur un のの使用に関する Windows 10 sskfonctionnant ici: [https://support.microsoft.com/fr-fr/help/17208/windows-10-use-speech-recognition](https://support.microsoft.com/fr-fr/help/17208/windows-10-use-speech-recognition)。 
   

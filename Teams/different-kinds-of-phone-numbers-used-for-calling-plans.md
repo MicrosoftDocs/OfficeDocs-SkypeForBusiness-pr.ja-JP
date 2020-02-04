@@ -15,16 +15,16 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.numbertype
+f1.keywords: ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.numbertype
 ms.custom:
 - Calling Plans
 description: プランの呼び出しに使用するさまざまな電話番号の種類について説明します。
-ms.openlocfilehash: 353f3810be41aff5365b9dca00831d6b5a4dad5c
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 398dfce4b82cb898d6c3f3835e80905c911f52ac
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572269"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41696052"
 ---
 # <a name="different-kinds-of-phone-numbers-used-for-calling-plans"></a>通話プランで使用されるさまざまな種類の電話番号
 
@@ -60,7 +60,7 @@ Microsoft Teams では、電話番号を使用する目的に応じて、さま�
 
 [電話番号の移行に関するよくある質問](transferring-phone-numbers-common-questions.md)
 
-[[[Skype for Business 新しい電話番号の申請](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[組織の電話番号を管理する](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 [緊急通話の利用条件](emergency-calling-terms-and-conditions.md)
 

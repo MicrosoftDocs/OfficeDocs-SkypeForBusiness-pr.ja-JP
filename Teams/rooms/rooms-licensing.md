@@ -15,17 +15,18 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Microsoft Teams のルームで利用できる機能について説明します。 '
-ms.openlocfilehash: 9358eafd4b4e4c9f556a6cca350afa2a5fa4b6fc
-ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
+ms.openlocfilehash: 193d84970d5c425143de75d212ad57ac4532aa1c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "41628253"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693812"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Teams 会議室のライセンス更新
 

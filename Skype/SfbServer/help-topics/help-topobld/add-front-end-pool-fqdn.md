@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddFrontEndPoolPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 02ae996c-a1c6-4ff4-b6d6-bdef4ad44d2a
 description: 作成するフロントエンドプールの完全修飾ドメイン名 (FQDN) を指定します。 プールの FQDN は、フロントエンドプールが含まれているトポロジを公開した後に変更することはできません。 プールの名前を変更する必要がある場合は、プールを削除し、新しい FQDN で新しいプールを追加する必要があります。
-ms.openlocfilehash: 058e1cc6a1e510ba57bb28a694a9ddc7e9759f90
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e9e420956656d7bd0217f122844ea222f6bd2b40
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275361"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41698232"
 ---
 # <a name="add-front-end-pool-fqdn"></a>フロントエンド プールの FQDN の追加
  

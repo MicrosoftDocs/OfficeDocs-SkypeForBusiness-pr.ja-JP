@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: ここでは、Skype for Business および Microsoft Teams for メキシコの Office 365 サービスについてご説明します。
-ms.openlocfilehash: dafd9351c1f7ea8607869e76a2749b89eb3caf80
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 15b7590345c96c8af75db8ac8450d3ea8959f294
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569416"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694872"
 ---
 # <a name="availability-in-mexico"></a>メキシコでの利用可能性
 

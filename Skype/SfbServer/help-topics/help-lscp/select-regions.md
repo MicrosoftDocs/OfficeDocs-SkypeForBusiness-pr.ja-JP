@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ConfCAASelRegion
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1b79b214-cc7b-4686-b7e2-f451910335fd
 description: '[地域の選択] ダイアログ ボックスを使用して、環境で使用可能な地域を検索します。 既存の地域を使用するには、一覧で地域をクリックして [OK] をクリックします。'
-ms.openlocfilehash: 4d287377af588010be2d5ab0f294ef513915545e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e9e137519083a49d4fedbe73116666d502423251
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34293439"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41699542"
 ---
 # <a name="select-regions"></a>地域の選択
  

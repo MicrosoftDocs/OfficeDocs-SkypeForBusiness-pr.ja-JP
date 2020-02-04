@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddPersistentChatComplianceStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b9771b53-e19a-4a12-bf01-24bae6f7e482
 description: 常設チャットサーバーまたは常設チャットサーバーのコンプライアンス機能のデータベースを提供するコンプライアンス SQL Server ストアを構成します。
-ms.openlocfilehash: 79d7351563f049c7d05a0d592ecb3d65dba3eebb
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 64697fbe9783bbdf356a28882f7cf53e7e96ef94
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34281761"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41698072"
 ---
 # <a name="add-persistent-chat-compliance-sql-server-store"></a>常設チャット コンプライアンス SQL Server ストアの追加
  

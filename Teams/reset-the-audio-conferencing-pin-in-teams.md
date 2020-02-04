@@ -16,16 +16,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: 'Pin について知っておくべきことと、Microsoft Teams で Pin をリセットする方法について説明します。 '
-ms.openlocfilehash: 778e9841d3a355597b4b048d79bb62a144eed349
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: 6d0d986789fb987494ded16bb8d6f6d7c3bf58a4
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "37568358"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693832"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Microsoft Teams で電話会議の PIN をリセットする
 
@@ -35,7 +36,7 @@ PIN は、電話会議が有効になっている Microsoft Teams ユーザー�
 
 ## <a name="reset-a-users-pin"></a>ユーザーの PIN をリセットする
 
-![Microsoft teams](media/teams-logo-30x30.png) **管理センターを使用し**た microsoft teams ロゴを示すアイコン
+![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
 
 1. 左側のナビゲーションで、[**ユーザー**] をクリックしてから、空いているユーザーのリストからユーザーを選択します。
 

@@ -15,13 +15,13 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams で緊急通話ルーティングポリシーを使用および管理する方法について説明します。
-f1keywords: ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: 996ac202d837b4cfb253a2809880ce0907b33c6c
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+f1.keywords: ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
+ms.openlocfilehash: 8eee73b3ce6283cf2cb6105b4d1b43433ec7e057
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992714"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694381"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>Microsoft Teams で緊急通話ルーティングポリシーを管理する
 
@@ -128,7 +128,7 @@ $members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "HR Emergenc
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Emergency Call Routing Policy 1"
 ```
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [Teams で緊急通話のポリシーを管理する](manage-emergency-calling-policies.md)
 - [Teams での PowerShell の概要](teams-powershell-overview.md)

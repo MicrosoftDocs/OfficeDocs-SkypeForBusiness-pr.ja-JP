@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ImpChooseFileType
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3638cdc8-71dd-4a22-8613-83859af97387
 description: '[ファイルの種類の選択] ダイアログボックスを使用して、[ファイルの種類の拡張子] の下にある拡張子の横にあるチェックボックスをオン (ブロック) またはオフ (許可) にして、ブロックまたは許可するファイルの種類の拡張子を選択します。 矢印をクリックして、カテゴリを展開し、そのカテゴリのすべてのファイルの種類の拡張子を表示します。 カテゴリのすべてのファイルの種類の拡張子を選択する場合は、カテゴリ名を選びます。'
-ms.openlocfilehash: e3efb425d70ec5497b53af1d43336b7e304d6c53
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1cb8b4bc9486a97e0f55004079d440bf0a360a65
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294046"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41699602"
 ---
 # <a name="select-file-type-extensions"></a>ファイル種類の拡張子の選択
  

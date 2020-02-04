@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.MonArchPolicyEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a4f948e7-e8f6-449a-8907-f61c5b143c05
 description: アーカイブポリシーを使用して、Skype for Business Server を使っているユーザーの展開での内部および外部通信のアーカイブを制御します。 アーカイブ ポリシーには、グローバル ポリシーとオプションの 1 つ以上のサイト ポリシーやユーザー ポリシーが含まれます。
-ms.openlocfilehash: 6390718110580fbe496b215e717cfa32d48936e9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8c1c4d88b4b06accdb1810c23aa7ad81a8b9225f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299835"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41700548"
 ---
 # <a name="archiving-policy-create-new-or-edit-existing"></a>アーカイブ ポリシー: 新規作成または現在の形式のままで編集
  
@@ -48,5 +48,5 @@ ms.locfileid: "34299835"
     
 - **外部通信をアーカイブ**するこのチェックボックスをオンにすると、リモートユーザー (匿名と PIC の設定ユーザーを含む)、フェデレーションパートナーなどの外部ユーザーを含む通信のアーカイブを有効にすることができます。 既定では、この設定はどのポリシーでも有効になっていません。
     
-Exchange の統合などのアーカイブ機能と機能の詳細については、「 [skype For Business server 2015 でのアーカイブの計画](../../plan-your-deployment/archiving/archiving.md)」、「 [Skype for business server 2015 の](../../deploy/deploy-archiving/deploy-archiving.md)アーカイブの展開」、「skype for Business のアーカイブの管理」を参照してください。 [Business Server 2015](../../manage/archiving/archiving.md)
+Exchange の統合を含むアーカイブ機能の詳細については、「skype for [Business server 2015 でのアーカイブの計画](../../plan-your-deployment/archiving/archiving.md)」、「skype [for business server 2015 の](../../deploy/deploy-archiving/deploy-archiving.md)アーカイブの展開」、「 [skype for business server 2015 でのアーカイブの管理](../../manage/archiving/archiving.md)」を参照してください。
 

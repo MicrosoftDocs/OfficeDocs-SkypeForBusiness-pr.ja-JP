@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ClientDeviceUpdateMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f6b7f73-f8f5-41dc-9e2a-727baaaa828b
 description: Microsoft は、Skype for Business Phone Edition 用の新しいデバイスファームウェア更新プログラムセットを定期的にリリースします。これにより、サーバーにインポートして、ユーザーに配布することができます。 最新のデバイス更新ルールを取得するには、Microsoft web サイトの [ヘルプとサポート] ページに移動して、[電話] エディションを検索します。最新の更新プログラムパッケージをダウンロードし、更新プログラムをアップロードするコンピューター上のフォルダーにファイルを抽出します。 ファイルを抽出した後、インポート-CsDeviceUpdate コマンドレットを使用して、抽出されたデバイス更新ルールをインポートできます。CAB ファイル ("UCUpdates .cab" という名前が付いています)。 詳細については、「CsDeviceUpdate のインポート」を参照してください。
-ms.openlocfilehash: b387a24d88ab0b65c3df43a8ca5dd25d582a4827
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 066564a315fdda57e33ad62f8abfe8e5dbe931e1
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285926"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41700242"
 ---
 # <a name="device-update"></a>デバイスの更新
 

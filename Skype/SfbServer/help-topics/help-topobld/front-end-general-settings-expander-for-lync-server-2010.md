@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.FrontEndGeneralSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
 description: フロントエンドサーバーまたはフロントエンドプールのプロパティを編集するには、次の属性を編集または構成します。 構成ページは、次のセクションに分かれています。
-ms.openlocfilehash: b0ee8a2d0081d937bf93d4a638e4f56b1cc79134
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1e7fa730745c3eab20288b5b4bfbb9c0d781be83
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284404"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41697292"
 ---
 # <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Lync Server 2010 用のフロントエンド全般設定の展開
 
@@ -41,7 +41,7 @@ ms.locfileid: "34284404"
 
 - [会議] を選択した場合は、**ダイヤルイン (PSTN) 会議**を選択できます。 [ダイヤルイン会議機能を有効にする] チェックボックスをオンにします。
 
-- [**エンタープライズボイス**] チェックボックスをオンにすると、電話機の音声システムとして Lync Server 2013 がボイスオーバー IP (VoIP) テクノロジを使用できるようになります。これには、ハンドセット電話、SIP trunks、またはパブリックの展開のオプションが含まれます。仲介サーバー、PSTN ゲートウェイ、および IP PBX を使用して、設計と要件に基づいて電話のネットワーク接続を切り替えることができます。 エンタープライズ Voip の詳細について[](https://technet.microsoft.com/library/c9da8099-6f4f-4346-ac67-f041bb96072c.aspx)は、「 [Skype for business Server 2015 のエンタープライズボイスとエンタープライズ voip の計画](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)」を参照してください。
+- [**エンタープライズボイス**] チェックボックスをオンにすると、機能を展開して、ボイスオーバー IP (VoIP) テクノロジを使用できるようにすることができます。これには、お客様は、お客様の設計と要件に基づいて、または仲介サーバー、PSTN ゲートウェイ、IP PBX を使用して、電話の音声システムとして Lync 2013 server エンタープライズ Voip の詳細については、「 [Skype For Business Server 2015 のエンタープライズボイスとエンタープライズ voip の計画](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)」を参照[してください](https://technet.microsoft.com/library/c9da8099-6f4f-4346-ac67-f041bb96072c.aspx)。
 
     **[関連付け]**
 
@@ -57,7 +57,7 @@ ms.locfileid: "34284404"
 
   **復元**
 
-- [**関連付けられているバックアップレジストラープール**] チェックボックスをオンにして、バックアップレジストラーとして指定されたフロントエンドサーバーまたはフロントエンドプールを一覧から選択します (これは、プライマリサーバーまたはセカンダリレジストラーとして指定されたフロントエンドプール。フェイル
+- [**関連付けられたバックアップレジストラープール**] チェックボックスをオンにして、バックアップレジストラー (つまり、プライマリに障害が発生した場合のセカンダリレジストラーとして指定されたフロントエンドサーバーまたはフロントエンドプール) を一覧から選びます。
 
 - 関連付けられている backup レジストラープールを選んでバックアップレジストラーを選択した場合は、[**音声の自動フェールオーバーとフェールバック**] のチェックボックスをオンにすることができます。 **ボイスのフェールオーバー検出の内部 (sec)** と**ボイスバックの間隔 (秒)** の数値プロパティを定義できるようになりました。 詳細については、「[エンタープライズボイスの回復性の計画](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)」を参照してください。
 

@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: カナダで利用できる Skype for Business と Microsoft Teams の Office 365 サービスを以下に示します。
-ms.openlocfilehash: 01e0aae70bec5c565bbd8f5e2f6b376133d5b987
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: fbf1f2aafdaf2a05d303548e45f56ab519af9493
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570539"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695262"
 ---
 # <a name="availability-in-canada"></a>カナダでの利用可能性
 

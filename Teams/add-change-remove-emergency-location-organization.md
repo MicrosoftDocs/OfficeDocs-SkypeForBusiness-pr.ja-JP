@@ -14,14 +14,15 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 description: 'Microsoft Teams 管理センターで、組織の緊急対応の場所を追加、変更、または削除する方法について説明します。 '
-ms.openlocfilehash: ddef21811f4317f1ac10d5eb7d94bd67f1faaaad
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 2471f13f67555eeff4e0a1b130c416dbbe97b0c7
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568700"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695835"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>組織の緊急対応の場所を追加、変更、削除する
 
@@ -41,14 +42,14 @@ ms.locfileid: "37568700"
    > [!NOTE]
    > ベルギー、フランス、ドイツ、アイルランド、オランダ、スペインでは、Office 365 で電話番号を正常に有効にするには、番号の取得に使用する緊急対応の場所で設定された住所が電話番号と一致する必要があることを理解しておくことが重要です。市外局番。
 5. アドレスが見つからず、手動で住所を編集したい場合は、**選択した住所が見つからない場合は、[アドレスフォームを手動で編集**する] をオンにします。
-6. [**保存**] をクリックします。
+6. **[保存]** をクリックします。
     
 ## <a name="change-an-emergency-location"></a>緊急対応の場所を変更する
 
 1. Microsoft Teams 管理センターの左のナビゲーションで、[**地域** > の**緊急対応の住所**] をクリックします。
 2. 一覧で、変更する場所を選択し、[**編集**] をクリックします。
 3. 必要な変更を加えます。
-4. [**保存**] をクリックします。
+4. **[保存]** をクリックします。
 
 > [!NOTE]
 > 住所が検証されていない場合にのみ、場所の住所情報を変更できます。 住所が既に検証されていて、住所を変更する必要がある場合は、場所を削除して、正しい住所を含む新しい場所を作成します。
@@ -58,9 +59,9 @@ ms.locfileid: "37568700"
 1. Microsoft Teams 管理センターの左のナビゲーションで、[**地域** > の**緊急対応の住所**] をクリックします。
 2. 一覧で、削除する場所を選択し、[**削除**] をクリックします。
     
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 -[緊急対応の場所、場所、通話ルーティングとは何ですか?](what-are-emergency-locations-addresses-and-call-routing.md)
 - [組織の緊急対応の場所の位置情報を追加、変更、削除する](add-change-remove-emergency-place-organization.md)
-- [[[Skype for Business 新しい電話番号の申請](/microsoftteams/manage-phone-numbers-for-your-organization)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。](/microsoftteams/manage-phone-numbers-for-your-organization)
+- [組織の電話番号を管理する](/microsoftteams/manage-phone-numbers-for-your-organization)
 - [緊急通話の利用条件](/microsoftteams/emergency-calling-terms-and-conditions)

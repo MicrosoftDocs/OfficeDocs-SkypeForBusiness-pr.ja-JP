@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: ここでは、Microsoft Teams の Office 365 サービスと、ドミニカ共和国で利用できる Microsoft Teams を示します。
-ms.openlocfilehash: 704d2ccd56863030896b0a034f04a6b1badab263
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 451970f70b2cee81b851b52bbd9c62ab58eb74fd
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571449"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694532"
 ---
 # <a name="availability-in-the-dominican-republic"></a>ドミニカ共和国での利用可能性
 

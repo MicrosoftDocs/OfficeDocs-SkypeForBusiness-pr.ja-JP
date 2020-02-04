@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: ここでは、Microsoft Office 365 サービス For Skype for Business および Microsoft Teams for ルーマニアについてご紹介します。
-ms.openlocfilehash: 122cda2118353e2e8d208ce5d64c9ae60b02ea93
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 5fba3732ec1e12f63e53b0c910a2e500604c17df
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37562760"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694742"
 ---
 # <a name="availability-in-romania"></a>ルーマニアでの利用可能性
 

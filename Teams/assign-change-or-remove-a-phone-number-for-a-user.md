@@ -15,16 +15,17 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: 組織外の企業やクライアントが電話をかけられるように、チームユーザーの勤務先電話番号を割り当て、変更、または削除する方法について説明します。
-ms.openlocfilehash: d9fdb0a2c5ea36acd0a231b49450efda8aab2979
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: a52e8892150e94f73b76bd68aae874b50bd19a71
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516877"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695732"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>ユーザーの電話番号を割り当て、変更、または削除する
 
@@ -41,45 +42,45 @@ Teams で通話プランを取得する方法とその費用については、�
   
 ## <a name="assign-a-phone-number-to-a-user"></a>電話番号をユーザーに割り当てる
  
-![Microsoft teams](media/teams-logo-30x30.png) **管理センターを使用し**た microsoft teams ロゴを示すアイコン
+![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
     
 1. 左側のナビゲーションで **、[** > **電話番号**] をクリックします。
 2. [**電話番号**] ページで、リスト内の未使用の番号を選択し、[**編集**] をクリックします。  
 3. [**編集**] ウィンドウの [**割り当て先**] の下で、表示名またはユーザー名でユーザーを検索し、[**割り当て**] をクリックします。
 4. 関連する緊急対応の場所を割り当てる、または変更するには、[緊急対応の**場所**] で、場所を検索して選択します。
-6. [**保存**] をクリックします。
+6. **[保存]** をクリックします。
     > [!NOTE]
     > Office 365 と Teams の間の待機時間のために、ユーザーが有効になるまで最大24時間かかることがあります。 24時間後に電話番号が正しく割り当てられていない場合は、 [PSTN サービスデスクに問い合わせてください](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。 ここでは、ご意見をお待ちしています。
   
 ## <a name="change-a-phone-number-for-a-user"></a>ユーザーの電話番号を変更する
  
-![Microsoft teams](media/teams-logo-30x30.png) **管理センターを使用し**た microsoft teams ロゴを示すアイコン
+![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
     
 1. 左側のナビゲーションで [**ユーザー**] をクリックし、目的のユーザーを見つけてダブルクリックし、[**アカウント**] をクリックし、[**全般情報**] で、ユーザーに割り当てられている電話番号をメモします。
 2. 左側のナビゲーションで **、[** > **電話番号**] をクリックします。
 3. [**電話番号**] ページで、手順1で指定した番号を選択し、[**編集**] をクリックします。  
 4. [**編集**] ウィンドウの [**割り当て先**] で、[ **X** ] をクリックしてユーザーを削除します。
-5. [**保存**] をクリックします。
+5. **[保存]** をクリックします。
 6. [**電話番号**] ページで、リスト内の未使用の番号を選択し、[**編集**] をクリックします。  
 7. [**編集**] ウィンドウの [**割り当て先**] の下で、表示名またはユーザー名でユーザーを検索し、[**割り当て**] をクリックします。
 8. 関連する緊急対応の場所を割り当てる、または変更するには、[緊急対応の**場所**] で、場所を検索して選択します。
-9. [**保存**] をクリックします。
+9. **[保存]** をクリックします。
 
 ## <a name="remove-a-phone-number-from-a-user"></a>ユーザーの電話番号を削除する
  
-![Microsoft teams](media/teams-logo-30x30.png) **管理センターを使用し**た microsoft teams ロゴを示すアイコン
+![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
 
 1. 左側のナビゲーションで [**ユーザー**] をクリックし、目的のユーザーを見つけてダブルクリックし、[**アカウント**] をクリックし、[**全般情報**] で、ユーザーに割り当てられている電話番号をメモします。
 2. 左側のナビゲーションで **、[** > **電話番号**] をクリックします。
 3. [**電話番号**] ページで、手順2で指定した番号を選び、[**編集**] をクリックします。  
 4. [**編集**] ウィンドウの [**割り当て先**] で、[ **X** ] をクリックしてユーザーを削除します。
-5. [**保存**] をクリックします。
+5. **[保存]** をクリックします。
     
 ## <a name="related-topics"></a>関連トピック
 
 [住所検証とは何ですか?](/skypeforbusiness/what-are-calling-plans-in-office-365/what-is-address-validation)
 
-[[[Skype for Business 新しい電話番号の申請](/microsoftteams/manage-phone-numbers-for-your-organization)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。](/microsoftteams/manage-phone-numbers-for-your-organization)
+[組織の電話番号を管理する](/microsoftteams/manage-phone-numbers-for-your-organization)
 
 [緊急通話の利用条件](/microsoftteams/emergency-calling-terms-and-conditions)
 

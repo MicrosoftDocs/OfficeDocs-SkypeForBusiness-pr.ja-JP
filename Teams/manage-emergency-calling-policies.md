@@ -15,13 +15,13 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams で緊急通話ポリシーを使用および管理する方法について説明します。
-f1keywords: ms.teamsadmincenter.voice.emergencycallingpolicies.overview
-ms.openlocfilehash: d6dc6f58085fedadf25f80272bc55dcc7723db19
-ms.sourcegitcommit: f2c7626dbef4ed250b9a937a9b56d46fe2e2039e
+f1.keywords: ms.teamsadmincenter.voice.emergencycallingpolicies.overview
+ms.openlocfilehash: b339f2ef46e0d9949fb440d2ad5a6fa0dee09fe4
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/12/2019
-ms.locfileid: "39998795"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694375"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>Microsoft Teams で緊急通話ポリシーを管理する
 
@@ -45,9 +45,9 @@ ms.locfileid: "39998795"
     - **Conferenced がミュートになっている**場合: チームチャットメッセージは、指定したユーザーとグループに送信され、発信者と psap 演算子の間の会話に参加することはできますが、参加することはできません。
 5.  Conferenced を選択した**が、ミュート**の通知モードの場合は、[**通知のダイヤルアウト番号**] ボックスで、ユーザーまたはグループの PSTN 電話番号を入力して、通話を発信し、緊急通話に参加することができます。 たとえば、組織のセキュリティデスクの番号を入力すると、緊急通話が行われたときに通話を受け、通話を聞いたり参加したりできます。
 6. 緊急通報が行われたときに通知するために、1人以上のユーザーまたはグループ (組織のセキュリティデスクなど) を検索して選択します。  通知は、ユーザー、配布グループ、セキュリティグループのメールアドレスに送信できます。 通知できるユーザーの最大数は50です。
-7. [**保存**] をクリックします。
+7. **[保存]** をクリックします。
 
-### <a name="using-powershell"></a>PowerShell を使用する
+### <a name="using-powershell"></a>PowerShell を使用する場合
 
 「[新規-CsTeamsEmergencyCallingPolicy」を](https://docs.microsoft.com/powershell/module/skype/new-csteamsemergencycallingpolicy)参照してください。
 
@@ -61,7 +61,7 @@ ms.locfileid: "39998795"
 2. ポリシー名の左側をクリックしてポリシーを選択し、[**編集**] をクリックします。
 3. 必要な変更を加えて、[**保存**] をクリックします。
 
-### <a name="using-powershell"></a>PowerShell を使用する
+### <a name="using-powershell"></a>PowerShell を使用する場合
 
 「 [Set-CsTeamsEmergencyCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsemergencycallingpolicy)」を参照してください。
 
@@ -83,7 +83,7 @@ ms.locfileid: "39998795"
 4. [**ユーザーの管理**] ウィンドウで、[表示名] または [ユーザー名] でユーザーを検索し、名前を選択して [**追加**] を選択します。 追加するユーザーごとに、この手順を繰り返します。
 5. ユーザーの追加が完了したら、[**保存**] をクリックします。
 
-### <a name="using-powershell"></a>PowerShell を使用する
+### <a name="using-powershell"></a>PowerShell を使用する場合
 
 #### <a name="assign-a-custom-emergency-calling-policy-to-a-user"></a>ユーザーにカスタム緊急通話ポリシーを割り当てる
 
@@ -122,7 +122,7 @@ $members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "Operations 
     Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emergency Calling Policy 1"
     ```
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [Teams で緊急通話ルーティングポリシーを管理する](manage-emergency-call-routing-policies.md)
 - [Teams での PowerShell の概要](teams-powershell-overview.md)

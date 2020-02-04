@@ -16,16 +16,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: PIN の長さと要件のパラメーターについて説明し、「Microsoft Teams で会議の長さを設定する方法」を参照してください。
-ms.openlocfilehash: 50c6ffe31e673dc7573ebb27f0eeb2ca78a30918
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: 7f7f477d14556baa7d2a47e5062aacd5de5796fd
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "37571273"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694002"
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings-in-microsoft-teams"></a>Microsoft Teams で電話会議用の PIN の長さを設定する
 
@@ -38,7 +39,7 @@ Microsoft Teams の電話会議をセットアップする場合は、電話会�
   
 ## <a name="setting-the-pin-length"></a>PIN の長さを設定する
 
-![Microsoft teams](media/teams-logo-30x30.png) **管理センターを使用し**た microsoft teams ロゴを示すアイコン
+![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
 
 1. 左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。 
 
@@ -46,7 +47,7 @@ Microsoft Teams の電話会議をセットアップする場合は、電話会�
 
 3. [**ブリッジの設定**] ウィンドウの [ **pin の長さ**] で、pin に必要な数字の数を選びます。
 
-4. [**保存**] をクリックします。
+4. **[保存]** をクリックします。
 
 > [!NOTE]
 > PIN が会議 ID とは異なります。 会議 Id は、発信者が会議に参加するときに使用されます。 会議を識別するために使用されます。 PIN は、会議の開催者として発信者を認証するために使用されます。 

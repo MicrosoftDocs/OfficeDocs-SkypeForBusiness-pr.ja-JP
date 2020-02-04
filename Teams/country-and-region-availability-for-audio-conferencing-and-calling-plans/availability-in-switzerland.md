@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: ここでは、Skype for Business および Microsoft Teams の Office 365 サービスをスイスで利用できるようにする方法について説明します。
-ms.openlocfilehash: 607ef6b9182e4123ae8a8a8f35ac88be6aa7c580
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 23b61bf0770cd8157a6dda85da3cbaa1a156dc6b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572324"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694592"
 ---
 # <a name="availability-in-switzerland"></a>スイスでの利用可能性
 

@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.EdgeSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 74a66817-7092-4b2f-a2af-bc1a2c9e5fed
 description: エッジサーバーまたはエッジプールの設定を編集するには、次のプロパティを設定します。
-ms.openlocfilehash: 1b349d5640ea2debb4730ce262795616258b3475
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 78edbc8093b54474ac9f0429b5232851a5a16663
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34282525"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41697382"
 ---
 # <a name="edit-edge-settings-expander-for-lync-server-2010"></a>Lync Server 2010 用のエッジ設定編集エキスパンダー
  
@@ -31,7 +31,7 @@ ms.locfileid: "34282525"
 - 他のセッション開始プロトコルパートナーとのフェデレーションにエッジサーバーまたはエッジプールを有効にする場合は、[**このエッジプールに対してフェデレーションを有効にする (port 5061)** ] を選択します。
     
     > [!IMPORTANT]
-    > フェデレーション用には、1つのエッジサーバーまたはエッジプールのみを定義できます。 関連付けられているスクリーンショットに示されている構成は、別のエッジサーバーまたはエッジプールが既にフェデレーション用に構成されていることを示します。 フェデレーション用の外部 DNS SRV レコード (_sipfederationtls (_tcp)\< 。外部ドメイン名\>) は、フェデレーション用にエッジサーバーまたはエッジプールをポイントします。 
+    > フェデレーション用には、1つのエッジサーバーまたはエッジプールのみを定義できます。 関連付けられているスクリーンショットに示されている構成は、別のエッジサーバーまたはエッジプールが既にフェデレーション用に構成されていることを示します。 フェデレーション用の外部 DNS SRV レコード (_sipfederationtls _tcp。\<外部ドメイン名\>) は、フェデレーション用にエッジサーバーまたはエッジプールをポイントします。 
   
 - 既定では、TCP ポート4443での**内部構成レプリケーションポート (HTTPS)** は、中央管理ストアのローカル (つまり、エッジサーバーのローカル) コピーがレプリケートされるポートです。 中央管理ストアのローカルコピーは、各コンピューターの SQL Server の**Rtclocal**データベースに含まれています。 複製は、サーバーの全体管理サーバー (または、中央管理サーバーの役割を保持するフロントエンドサーバーまたはフロントエンドプール) からエッジサーバーへ、または内部インターフェイスポートとして、一方向で開始されます。
     

@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: ここでは、Skype for Business の Office 365 サービスと、ハンガリーで利用できる Microsoft Teams について説明します。
-ms.openlocfilehash: 375a77d73aba8533a0a5cb319fdb3e834b889614
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 377015440d921d4c9bf5a0525b010486db01523b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571859"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695052"
 ---
 # <a name="availability-in-hungary"></a>ハンガリーでの利用可能性
 

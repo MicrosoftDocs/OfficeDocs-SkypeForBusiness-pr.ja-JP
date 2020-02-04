@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddEdgeServerOptionsPage2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0b059af5-e83f-4564-90b2-d7ebb9e551c2
 description: 新しいエッジサーバーまたはエッジプールを定義し、新しいサーバーまたはプールの機能を定義する機会を提供します。 次のオプションを選ぶことができます。
-ms.openlocfilehash: 4bb364ee24f2e85ec16ff2f972dfe05aea9306cd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 953aa6c0bcb5d5bf65f0ba649545aef909d3b647
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289995"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41698362"
 ---
 # <a name="add-edge-server-options-for-lync-server-2010"></a>Lync Server 2010 のエッジ サーバー オプションの追加
 
@@ -31,7 +31,7 @@ ms.locfileid: "34289995"
 
 - **フェデレーションを有効にする (ポート 5061)**: セッション開始プロトコル (SIP) を使用する他の SIP フェデレーション、プロバイダー、またはホストされるサービスとフェデレーションを行う場合は、このチェックボックスをオンにします。
 
-- **このエッジプールの外部 ip アドレスは、NAT によって変換され**ます。 edge 外部インターフェイスにプライベート IP アドレスを使用し、エッジサーバーまたはエッジプールを論理的に配置するためにネットワークアドレス変換 (NAT) デバイスを提供する場合は、このチェックボックスをオンにします。動機.
+- **このエッジプールの外部 ip アドレスは、NAT によって変換され**ます。 edge の外部インターフェイスにプライベート IP アドレスを使い、ネットワークアドレス変換 (NAT) デバイスを提供して、エッジサーバーまたはエッジプールを論理的に分離する場合は、このチェックボックスをオンにします。
 
 ## <a name="see-also"></a>関連項目
 

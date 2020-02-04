@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.FeMediationServiceSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 37166b87-8a43-42a6-a2aa-5a45bed8a6f3
 description: このダイアログで、仲介サーバー PSTN ゲートウェイ設定のプロパティを編集します。 次の設定を定義します。
-ms.openlocfilehash: b57ca675d3681886ea2a2853aa1357b394fda4c4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bd24c24d14e24ed7e4ce53bc30d01b2e955be6cf
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284390"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41697282"
 ---
 # <a name="front-end-mediation-service-settings-expander-for-lync-server-2010"></a>Lync Server 2010 用のフロントエンド仲介サービス設定の展開
  

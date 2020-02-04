@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.RgsGroupEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 79eaaf6c-6928-4925-8220-c7ada6b37205
 description: エージェント グループでは、応答グループへの呼び出しに応答できるユーザー (エージェントと呼ばれます) およびグループ内のすべてのエージェントに適用される設定が定義されています。
-ms.openlocfilehash: 5468b5a542472ac3f736163d5a4daea620246a28
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e3b6091e2f7fdc64dd155b0bdd0c8f130335ab82
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34282644"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41699782"
 ---
 # <a name="response-groups-create-new-or-edit-existing-agent-group"></a>応答グループ: エージェント グループの新規作成または既存エージェント グループの編集
 
@@ -50,7 +50,7 @@ ms.locfileid: "34282644"
 
   - 新しい呼び出しを、常に [**エージェント**] の一覧の順序でエージェントに提供するには、[**シリアル**] を選択します。
 
-  - [ **** 応答] を選択して、サインインしているすべてのエージェントと、現在のプレゼンスに関係なく同時に応答グループアプリケーションへの新しい通話を提供します。 エージェントとして構成されているアテンダントとクライアントユーザーは、待機中のすべての通話を表示し、待機中の通話に応答できます。 呼び出しを受け付けた最初のエージェントに呼び出しが送信されると、その呼び出しは他のアテンダントとユーザーには表示されなくなります。
+  - [**応答] を選択し**て、サインインしているすべてのエージェントと、現在のプレゼンスに関係なく同時に応答グループアプリケーションへの新しい通話を提供します。 エージェントとして構成されているアテンダントとクライアントユーザーは、待機中のすべての通話を表示し、待機中の通話に応答できます。 呼び出しを受け付けた最初のエージェントに呼び出しが送信されると、その呼び出しは他のアテンダントとユーザーには表示されなくなります。
 
 - **エージェント**次のいずれかの方法で、応答グループのエージェントになるユーザーを選択します。
 

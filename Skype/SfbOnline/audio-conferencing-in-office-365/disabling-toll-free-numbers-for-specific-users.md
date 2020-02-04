@@ -15,16 +15,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: 管理者は、開催者が会議に無料の電話番号を使用する方法を制御できます。
-ms.openlocfilehash: 541398a760f41effc37e802cafde1141acca2d57
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 42323afd397612c3cdc0549bdcc33b16cfdae9ea
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34306091"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695682"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-skype-for-business-online-users"></a>特定の Skype for Business Online ユーザーの無料電話番号を無効にする
  
@@ -61,7 +62,7 @@ ms.locfileid: "34306091"
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
  
-**PowerShell を使用する**  
+**PowerShell を使用する場合**  
 
 このコントロールを有効または無効にするには、Get-csonlinedialinconferencinguser コマンドレットの AllowTollFreeDialIn パラメーターを使用します。 次に例を示します。 
 

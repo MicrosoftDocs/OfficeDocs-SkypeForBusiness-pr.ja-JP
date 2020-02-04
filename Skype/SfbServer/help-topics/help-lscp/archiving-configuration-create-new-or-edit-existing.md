@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.MonArchSettingEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49096960-c442-4846-be8f-03c167acea41
 description: 展開のアーカイブ オプションを制御するには、アーカイブ構成を使用します。アーカイブ構成には、グローバル構成と、オプションで 1 つ以上のサイト構成およびプール構成が含まれます。
-ms.openlocfilehash: d40750069d34cb274342c1f5aab5d8191f90a334
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8b860e2a2604f013dbb4b3dcccedc39602ae29f1
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299877"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41700602"
 ---
 # <a name="archiving-configuration-create-new-or-edit-existing"></a>アーカイブ構成: 新規作成または現在の形式のままで編集
  
@@ -71,5 +71,5 @@ ms.locfileid: "34299877"
     > [!NOTE]
     > Microsoft Exchange の統合を有効にした場合、Exchange 2013 上に置かれたユーザーとインプレースホールドに配置されているユーザーの削除は、Exchange によって制御されます。 唯一の例外は、Lync Server ファイル共有に保存されている会議ファイルです。 これらのファイルは、アーカイブ データがエクスポートされた後でデータを削除するオプションを選択した場合はファイルがエクスポートされた後 (Exchange にアップロードされた後)、保持する最大日数を指定した場合は指定した最大日数経過後にのみファイル共有から削除されます。 
   
-Exchange の統合などのアーカイブ機能と機能の詳細については、「 [skype For Business server 2015 でのアーカイブの計画](../../plan-your-deployment/archiving/archiving.md)」、「 [Skype for business server 2015 の](../../deploy/deploy-archiving/deploy-archiving.md)アーカイブの展開」、「skype for Business のアーカイブの管理」を参照してください。 [Business Server 2015](../../manage/archiving/archiving.md)
+Exchange の統合を含むアーカイブ機能の詳細については、「skype for [Business server 2015 でのアーカイブの計画](../../plan-your-deployment/archiving/archiving.md)」、「skype [for business server 2015 の](../../deploy/deploy-archiving/deploy-archiving.md)アーカイブの展開」、「 [skype for business server 2015 でのアーカイブの管理](../../manage/archiving/archiving.md)」を参照してください。
 

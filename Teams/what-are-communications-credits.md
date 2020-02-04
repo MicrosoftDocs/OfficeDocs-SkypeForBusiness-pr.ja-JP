@@ -16,16 +16,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: 284c4b04ad1652b7a9ab3cb5d6d9bcb2f0902550
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 5da6f5807f5fd2868097525f1abe6ecd5def6d5f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568577"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694282"
 ---
 # <a name="what-are-communications-credits"></a>通信クレジットについて
 
@@ -71,7 +72,7 @@ Skype for Business で無料電話番号を使用する場合は、通話が分�
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 
-Each organization will have a different usage of Calling Plans volume and rates to consider. You will need to get this type of usage data from your current service provider. Skype for business を既にサービスプロバイダとして使用している組織では、 **Microsoft 365 管理センター** > の**レポート**または**skype for business 管理センター** > のレポートで情報を確認して利用状況データを取得することができます。**** PSTN の**利用状況の詳細。**  > 
+Each organization will have a different usage of Calling Plans volume and rates to consider. You will need to get this type of usage data from your current service provider. Skype for business を既にサービスプロバイダとして使用している組織の場合は、 **Microsoft 365 管理センター** > の**レポート**または**skype for business 管理センター** > **** > で**PSTN の使用状況の詳細**を確認して、利用状況データを取得できます。
   
 コミュニケーション クレジットを設定する場合は、組織の通話の利用状況を調べて、入力する必要のある料金を決める必要があります。通話の利用状況の情報は、[ **PSTN 利用状況の詳細**] レポートで確認できます。このレポートを使うと、カスタム レポートを作成したり、通話データ記録を Excel にエクスポートしたりすることができます。
 
@@ -98,7 +99,7 @@ Each organization will have a different usage of Calling Plans volume and rates 
   
 各機能に必要なライセンスの表を表示するには、「 [Microsoft Teams のアドオンライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [Skype for Business PSTN 使用状況レポート](/SkypeForBusiness/skype-for-business-online-reporting/pstn-usage-report)
 
   

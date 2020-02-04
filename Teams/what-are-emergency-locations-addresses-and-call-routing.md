@@ -15,19 +15,19 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.locations.emergencyaddresses.overview
 - ms.lync.lac.AddressAndLocation
 ms.custom:
 - Calling Plans
 - Direct Routing
 description: 緊急電話、緊急通話のルーティング、動的な緊急通話に関する情報など、緊急通話について説明します。
-ms.openlocfilehash: b97a14310014ea2e8271ee54f3bd6e777afa4d57
-ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
+ms.openlocfilehash: 1e8eb5ee3f95afb08dc5f33862287fc3b3379806
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39615837"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694312"
 ---
 # <a name="manage-emergency-calling"></a>緊急通話を管理する
 
@@ -156,7 +156,7 @@ TeamsEmergencyCallRoutingPolicy は、チームのダイレクトルーティン
 
 ### <a name="emergency-call-routing"></a>緊急通話ルーティング
 
-TeamsEmergencyCallRoutingPolicy は、オンライン PSTN の使用状況を参照します。適切な PSTN ゲートウェイに緊急通話を正しくルーティングするには、適切なダイレクトルーティング構成が必要です。 特に、緊急ダイヤルの文字列の OnlineVoiceRoute があることを確認する必要があります。 詳細については、「[直接ルーティングを構成する](direct-routing-configure.md#configure-voice-routing)」を参照してください。 
+TeamsEmergencyCallRoutingPolicy は、オンライン PSTN の使用状況を参照します。適切な PSTN ゲートウェイに緊急通話を正しくルーティングするには、適切なダイレクトルーティング構成が必要です。 特に、緊急ダイヤルの文字列の OnlineVoiceRoute があることを確認する必要があります。 詳細については、「[ダイレクト ルーティングを構成する](direct-routing-configure.md#configure-voice-routing)」を参照してください。 
 
 (注: Skype for Business Server の緊急電話番号には、"+ 911" と一致するように定義されるボイスルートが必要な "+" というプレフィックスが付いています。 Teams クライアントでは、"+" の前に緊急対応の電話番号は付加されません。
 
@@ -209,7 +209,7 @@ TeamsEmergencyCallingPolicy は、Teams のユーザーアカウントに付与�
 緊急通話のときに、セキュリティデスクは、TeamsEmergencyCallingPolicy に基づいて、通話に conferenced され、セキュリティデスクユーザーのエクスペリエンスが制御されます。 各セキュリティデスクメンバーのグループチャットが開始され、緊急通報の場所が重要なメッセージ通知で共有されます。  会議オプションがポリシーの一部として構成されている場合、各セキュリティデスクユーザーは、会議の一部として追加されます。
 
     
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [緊急通話ポリシーを管理する](manage-emergency-calling-policies.md)
 - [緊急通話ルーティングポリシーを管理する](manage-emergency-call-routing-policies.md)

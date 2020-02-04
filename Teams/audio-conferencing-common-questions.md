@@ -17,16 +17,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: 電話会議を使用するお客様からよく寄せられる質問の一部を次に示します。
-ms.openlocfilehash: 7779a732a10f8a55f8bbdbb977ac9850cd2307bd
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 2dd772a9a6488b09092ac0687ca125409accf85b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516990"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695722"
 ---
 # <a name="audio-conferencing-common-questions"></a>電話会議に関するよくある質問
 
@@ -90,7 +91,7 @@ ms.locfileid: "37516990"
   
 ## <a name="why-did-users-start-receiving-emails-with-their-audio-conferencing-information"></a>電話会議情報を使って、ユーザーがメールの受信を開始したのはなぜですか?
 
-[管理者](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)が電話会議情報を送信および更新するための新しい機能を追加しました。 この機能を無効にする方法など、詳細については、「 [Microsoft Teams で電話会議の設定が変更されたときにメールの送信を有効](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)または無効にする」または「 [Skype for Business で電話会議の設定が変更されたときにメールを有効または無効にする」をご覧くださいオンライン](/SkypeForBusiness/audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change)。
+[管理者](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)が電話会議情報を送信および更新するための新しい機能を追加しました。 この機能を無効にする方法など、詳細については、「 [Microsoft Teams で電話会議の設定が変更されたときにメールの送信を有効](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)または無効にする」を参照するか、 [Skype for business Online で電話会議の設定が変更されたときにメールの送信を有効または無効](/SkypeForBusiness/audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change)にします
   
 ## <a name="can-audio-conferencing-be-used-by-the-users-who-are-part-of-an-on-premises-deployment-of-skype-for-business-server"></a>Skype for Business Server のオンプレミス展開の一部であるユーザーは、電話会議を使用できますか。
 
@@ -146,11 +147,11 @@ Skype for Business または Microsoft Teams ユーザーは、セットアッ�
 
 - **オプション #1**: 既定では、会議の開催者とすべての参加者が電話を使って会議に参加している場合、会議の開催者は電話会議の PIN を入力して開始する必要があります。 オンライン会議の電話番号をダイヤルするときに、特定の会議の開催者として認証する必要があるかどうかを確認するメッセージが表示されます。 開催者が開始される前に、ダイヤルインで会議に参加するすべての参加者がロビーに配置され、保留中の音楽が再生されます。 Skype for Business 会議の場合、開催者が電話会議の PIN を入力して会議を開始すると、ロビーの参加者全員が自動的に会議に参加します。 Microsoft Teams 会議の場合、参加者は開催者の会議ポリシーで [ユーザーの自動許可] 設定の値に従って会議に参加します。
 
-- **オプション #2**: "認証されていない発信者に、会議内の最初のユーザーを許可する" 設定 (既定では無効) が有効になっている場合、そのユーザーによってスケジュールされたすべての会議が、開催者によって入力されることなく開始することができます。電話会議の PIN。 この設定が有効になっていると、最初の参加者がダイヤルイン電話番号で参加するとすぐに会議が開始され、ロビーに配置されることはありません。 詳細については、「 [Microsoft Teams でユーザーの電話会議の設定を管理する](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)」または「 [Skype for business Online のユーザーの電話会議の設定を管理](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user)する」を参照してください。
+- **オプション #2**: "認証されていない発信者を会議内の最初のユーザーに許可する" 設定 (既定では無効) が、特定の開催者に対して有効になっている場合、そのユーザーによってスケジュールされたすべての会議が、開催者の電話会議の PIN を入力しなくても開始できます。 この設定が有効になっていると、最初の参加者がダイヤルイン電話番号で参加するとすぐに会議が開始され、ロビーに配置されることはありません。 詳細については、「 [Microsoft Teams でユーザーの電話会議の設定を管理する](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)」または「 [Skype for business Online のユーザーの電話会議の設定を管理](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user)する」を参照してください。
    
 ## <a name="related-topics"></a>関連トピック
 
-[Skype for Business Online のセットアップ](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
+[Skype for Business Online をセットアップする](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
   
 [Microsoft Teams での電話会議の電話番号](phone-numbers-for-audio-conferencing-in-teams.md) 
 

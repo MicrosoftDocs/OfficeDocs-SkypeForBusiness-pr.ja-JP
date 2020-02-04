@@ -10,7 +10,7 @@ ms.collection:
 - M365-collaboration
 search.appverid: MET150
 ms.reviewer: jastark
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.assignments.overview
 - ms.teamsadmincenter.assignments.tooltip.emaildigest
 - ms.teamsadmincenter.assignments.tooltip.makecode
@@ -19,12 +19,12 @@ description: 教育担当の Teams で Microsoft Teams 管理センターの課�
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cce2e18059350e11986b4ca1ddcbe47fbc285231
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: d8d62d32aae46714c592200432cf1220e56e9fb7
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570393"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693802"
 ---
 # <a name="assignments-in-teams-for-education"></a>教育機関向けの Teams の課題 
 

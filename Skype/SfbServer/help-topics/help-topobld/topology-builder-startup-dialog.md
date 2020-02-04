@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.StartupDialog
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 description: Microsoft Lync Server 2013 の展開のプロパティと構成を構成するには、トポロジビルダーを起動します。 起動時に、トポロジドキュメントのソースを確認するダイアログが表示されます。 次の3つのオプションのいずれかを選択します。
-ms.openlocfilehash: 316fc52d2a14a114c0f021e78dd11c7c5a412589
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 51689e89c25df62b5a3284b6c398bc6f20918b31
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299790"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41696572"
 ---
 # <a name="topology-builder-startup-dialog"></a>トポロジ ビルダー起動ダイアログ
 

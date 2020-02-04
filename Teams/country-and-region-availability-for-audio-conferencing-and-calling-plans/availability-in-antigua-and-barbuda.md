@@ -17,18 +17,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: 以下は、アンティグアおよびバーブーダで利用可能な Skype for Business および Microsoft Teams の Office 365 サービスです。
-ms.openlocfilehash: 78954a6f1b118118affde08fbc94b4b2cfb19d9d
-ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
+ms.openlocfilehash: d334bff45adf40dd19720db491547edd15439e7b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/18/2019
-ms.locfileid: "40741613"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695452"
 ---
 # <a name="availability-in-antigua-and-barbuda"></a>アンティグア・バーブーダの利用可能時間
 

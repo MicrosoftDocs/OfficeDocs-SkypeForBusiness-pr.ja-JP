@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: ここでは、お持ちの Skype for Business および Microsoft Teams の Office 365 サービスを、ヨルダンで利用できます。
-ms.openlocfilehash: 16233770f912b1b5254dca262331be092d955450
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 4e5d3a9406988fbddde352f54184c52dbc1bd5c0
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571683"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695012"
 ---
 # <a name="availability-in-jordan"></a>ヨルダンでの利用可能性
 

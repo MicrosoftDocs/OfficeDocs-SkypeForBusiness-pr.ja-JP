@@ -15,16 +15,16 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: ms.teamsadmincenter.voice.dialplans.overview
+f1.keywords: ms.teamsadmincenter.voice.dialplans.overview
 ms.custom:
 - Calling Plans
 description: 'Teams で利用できるダイヤル通話プランの種類 (PSTN 通話ダイヤルプラン) と、組織に合わせて選ぶ方法について説明します。  '
-ms.openlocfilehash: bd41b257af80a3a21da1013e604214d1e0303edf
-ms.sourcegitcommit: 472909325a47cf0ad00bed949d02ab5766d35832
+ms.openlocfilehash: a40d36b124b0bc1adbe9bc676a68a3b9c1d158ea
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/28/2019
-ms.locfileid: "40891216"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694322"
 ---
 # <a name="what-are-dial-plans"></a>ダイヤル プランについて
 
@@ -144,7 +144,7 @@ Teams のダイヤルプランの継承モデルを次に示します。
 > [!NOTE]
 > 上の表に示した正規化ルール名にスペースは含まれていませんが、これは選択肢の1つです。 たとえば、表に最初に示されている名前は、「5 digit extension」と「5-digit Extension」のどちらの形式で記述しても有効になります。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [ダイヤル プランを作成および管理する](create-and-manage-dial-plans.md)
 

@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: ここでは、Skype for Business および Microsoft Teams の Office 365 サービスをコスタリカで利用できます。
-ms.openlocfilehash: 18d5658250ab7e44715f6c7d8c205f44036113c5
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: fc831bfa1f6448d7877968655e88b6d87932f3ab
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570495"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695252"
 ---
 # <a name="availability-in-costa-rica"></a>コスタリカでの利用可能性
 

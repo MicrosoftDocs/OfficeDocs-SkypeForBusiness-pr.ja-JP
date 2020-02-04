@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: ここでは、Skype for Business および Microsoft Teams for スロベニア向けの Office 365 サービスについてご説明します。
-ms.openlocfilehash: 6ebd45cda9b4ccb12f4aa365b1b45fb5858bbe74
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: b980b1d930eb9180679dd26ab567bcc410ab1cca
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572390"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694662"
 ---
 # <a name="availability-in-slovenia"></a>スロベニアでの利用可能性
 

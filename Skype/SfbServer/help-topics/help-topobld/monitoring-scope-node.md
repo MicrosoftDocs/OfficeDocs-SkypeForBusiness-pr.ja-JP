@@ -7,22 +7,22 @@ manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.MonitoringServerScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
 description: Lync Server 2013 トポロジビルダーでは、監視を実行している個々のサーバーに関連するタスクを実行することができます。これには、コンソールツリーで監視を実行しているサーバーを右クリックするか、ツールバーの [アクション] をクリックするか、または [操作] ウィンドウでタスクをクリックします。監視を実行しているサーバーに対して、次のいずれかのオプションをクリックします。
-ms.openlocfilehash: ac099710bfd33effdf490a41d1b3e735894ceee1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7fc5905ba8a0f98df0ee548642050806b4b801dc
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285597"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41696952"
 ---
 # <a name="monitoring-scope-node"></a>監視のスコープ ノード
  
-Lync Server 2013 トポロジビルダーで、監視を実行している個々のサーバーに関連するタスクを実行するには、コンソールツリーで監視を実行しているサーバーを右クリックするか、ツールバーの [**動作**] をクリックするか、または操作内のタスクをクリックします。ウィンドウで、監視を実行しているサーバーに対して次のいずれかのオプションをクリックします。
+Lync Server 2013 トポロジビルダーでは、監視を実行している個々のサーバーに関連するタスクを実行することができます。これには、監視を実行しているサーバーを右クリックするか、ツールバーの [**動作**] をクリックするか、または [操作] ウィンドウでタスクをクリックして、監視を実行しているサーバーに対して
   
 - **プロパティの編集**。 監視を実行しているサーバーの [**プロパティの編集**] ページを開きます。このページでは、監視を実行しているサーバーまたは監視 SQL server データベースの完全修飾ドメイン名 (FQDN) を変更できます。
     

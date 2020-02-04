@@ -16,17 +16,18 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Office 365 通話プランについては、ライセンスを購入してセットアップする方法、電話番号を取得する方法、緊急対応の場所と電話番号を追加してユーザーに割り当てる方法、新しい電話番号をユーザーに通知する方法について説明します。
-ms.openlocfilehash: b77db0169eedf1250ff7ddc8ea83c208e2b91849
-ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
+ms.openlocfilehash: 6c43408c09edaa220a6d3f030680a48fe321e6dd
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "41628413"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693932"
 ---
 # <a name="set-up-calling-plans"></a>通話プランの設定
 
@@ -89,7 +90,7 @@ Windows PowerShell を使うことができる場合は、次のコマンドレ�
 詳細については、「 [Teams PowerShell の概要](teams-powershell-overview.md)」を参照してください。
   
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [電話番号の移行に関するよくある質問](transferring-phone-numbers-common-questions.md)
 
 [通話プランで使用されるさまざまな種類の電話番号](different-kinds-of-phone-numbers-used-for-calling-plans.md)

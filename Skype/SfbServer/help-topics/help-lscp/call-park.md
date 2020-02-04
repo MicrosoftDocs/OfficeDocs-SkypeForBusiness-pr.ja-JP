@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.VoiceFeaCallParkMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b752617d-554d-470e-b17b-387403ac74ed
 description: 通話が保留されると、誰かが通話を発信するか、またはタイムアウトするまで、通話が保留中の一時的な電話番号に転送されます。保留中の通話で予約している内線番号の範囲をテーブルに構成する必要があります。 これらの内線番号は、仮想の内線番号 (つまり、ユーザーや電話が割り当てられていない内線番号) にする必要があります。 コールパークアプリケーションを実行する各プールには、1つ以上の拡張機能の範囲を指定できます。 これらの範囲は、展開全体でグローバルに一意である必要があります。
-ms.openlocfilehash: 2b29591ac0173310caf2513db5d27b53142e9ae5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1a7417ab525f8471b730dc177a993c3458750a3f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299898"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41700302"
 ---
 # <a name="call-park"></a>コール パーク
 
