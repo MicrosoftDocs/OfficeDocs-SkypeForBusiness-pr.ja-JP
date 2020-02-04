@@ -11,40 +11,40 @@ audience: admin
 search.appverid: MET150
 description: Microsoft Teams 管理センターで Microsoft Teams のユーザー設定をまとめて管理する方法について説明します。
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 307edddf4dce8bd87f717fed6f3c33b11521fb7d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: fec2338e1a7e518e90b2a5fbed716a01782bbb8c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571892"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693292"
 ---
-# <a name="edit-microsoft-teams-user-settings-in-bulk"></a><span data-ttu-id="e5ecf-103">Microsoft Teams のユーザー設定を一括して編集する</span><span class="sxs-lookup"><span data-stu-id="e5ecf-103">Edit Microsoft Teams user settings in bulk</span></span>
+# <a name="edit-microsoft-teams-user-settings-in-bulk"></a><span data-ttu-id="46248-103">Microsoft Teams のユーザー設定を一括して編集する</span><span class="sxs-lookup"><span data-stu-id="46248-103">Edit Microsoft Teams user settings in bulk</span></span>
 
-<span data-ttu-id="e5ecf-104">管理者は、Microsoft Teams 管理センターで Teams のユーザー設定を管理します。</span><span class="sxs-lookup"><span data-stu-id="e5ecf-104">As an admin, you manage Teams user settings in the Microsoft Teams admin center.</span></span> <span data-ttu-id="e5ecf-105">[**ユーザー** ] ページでは、[アカウント]、[ライセンスの詳細]、[ポリシーとその他の設定の編集] などの情報を表示できます。</span><span class="sxs-lookup"><span data-stu-id="e5ecf-105">On the **Users** page, you can view information such as account and licensing details and edit policy and other settings.</span></span> <span data-ttu-id="e5ecf-106">ユーザーは、個別に、または複数のユーザーの設定を同時に編集することができます。</span><span class="sxs-lookup"><span data-stu-id="e5ecf-106">You can edit settings for users individually or for multiple users at the same time.</span></span>
+<span data-ttu-id="46248-104">管理者は、Microsoft Teams 管理センターで Teams のユーザー設定を管理します。</span><span class="sxs-lookup"><span data-stu-id="46248-104">As an admin, you manage Teams user settings in the Microsoft Teams admin center.</span></span> <span data-ttu-id="46248-105">[**ユーザー** ] ページでは、[アカウント]、[ライセンスの詳細]、[ポリシーとその他の設定の編集] などの情報を表示できます。</span><span class="sxs-lookup"><span data-stu-id="46248-105">On the **Users** page, you can view information such as account and licensing details and edit policy and other settings.</span></span> <span data-ttu-id="46248-106">ユーザーは、個別に、または複数のユーザーの設定を同時に編集することができます。</span><span class="sxs-lookup"><span data-stu-id="46248-106">You can edit settings for users individually or for multiple users at the same time.</span></span>
 
-## <a name="edit-user-settings-in-bulk"></a><span data-ttu-id="e5ecf-107">ユーザー設定を一括で編集する</span><span class="sxs-lookup"><span data-stu-id="e5ecf-107">Edit user settings in bulk</span></span>
+## <a name="edit-user-settings-in-bulk"></a><span data-ttu-id="46248-107">ユーザー設定を一括で編集する</span><span class="sxs-lookup"><span data-stu-id="46248-107">Edit user settings in bulk</span></span>
 
-<span data-ttu-id="e5ecf-108">Microsoft Teams 管理センターを使用して、一度に複数のユーザーの設定を編集します。</span><span class="sxs-lookup"><span data-stu-id="e5ecf-108">Use the Microsoft Teams admin center to edit settings for multiple users at a time.</span></span> <span data-ttu-id="e5ecf-109">一度に20人のユーザーの設定を編集することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="e5ecf-109">We recommend editing settings for 20 users at a time.</span></span> <span data-ttu-id="e5ecf-110">多数のユーザーの設定を編集するには、PowerShell を使用します。</span><span class="sxs-lookup"><span data-stu-id="e5ecf-110">To edit settings for a large number of users, use PowerShell.</span></span> <span data-ttu-id="e5ecf-111">詳細については、「 [Teams PowerShell の概要](teams-powershell-overview.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="e5ecf-111">For more information, see [Teams PowerShell Overview](teams-powershell-overview.md).</span></span>
+<span data-ttu-id="46248-108">Microsoft Teams 管理センターを使用して、一度に複数のユーザーの設定を編集します。</span><span class="sxs-lookup"><span data-stu-id="46248-108">Use the Microsoft Teams admin center to edit settings for multiple users at a time.</span></span> <span data-ttu-id="46248-109">一度に20人のユーザーの設定を編集することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="46248-109">We recommend editing settings for 20 users at a time.</span></span> <span data-ttu-id="46248-110">多数のユーザーの設定を編集するには、PowerShell を使用します。</span><span class="sxs-lookup"><span data-stu-id="46248-110">To edit settings for a large number of users, use PowerShell.</span></span> <span data-ttu-id="46248-111">詳細については、「 [Teams PowerShell の概要](teams-powershell-overview.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="46248-111">For more information, see [Teams PowerShell Overview](teams-powershell-overview.md).</span></span>
 
-1. <span data-ttu-id="e5ecf-112">Microsoft Teams 管理センターの左側のナビゲーションで、[**ユーザー**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="e5ecf-112">In the left navigation of the Microsoft Teams admin center, select **Users**.</span></span>
-2. <span data-ttu-id="e5ecf-113">編集するユーザーを検索するか、ビューをフィルター処理して、編集するユーザーを表示します。</span><span class="sxs-lookup"><span data-stu-id="e5ecf-113">Search for the users you want to edit or filter the view to show the users you want to edit.</span></span>
-3. <span data-ttu-id="e5ecf-114">[ **&#x2713;** (チェックマーク)] 列で、次のいずれかの操作を行って [ユーザー] を選択します。</span><span class="sxs-lookup"><span data-stu-id="e5ecf-114">In the **&#x2713;** (check mark) column, select users by doing one of the following:</span></span>
-    - <span data-ttu-id="e5ecf-115">一度に1人のユーザーを選択します。</span><span class="sxs-lookup"><span data-stu-id="e5ecf-115">Select users one at a time.</span></span> <span data-ttu-id="e5ecf-116">選択した各ユーザーの横に **&#x2713;** が表示されます。</span><span class="sxs-lookup"><span data-stu-id="e5ecf-116">A **&#x2713;** is displayed next to each user you select.</span></span> <span data-ttu-id="e5ecf-117">ユーザーが20人を超える場合は、ブロックされることはありませんが、選択したユーザー数が多いほど、操作が完了するまでに長い時間がかかることに注意してください。</span><span class="sxs-lookup"><span data-stu-id="e5ecf-117">If you select more than 20 users, you won't be blocked but keep in mind that the more users you select, the longer the operation will take to complete.</span></span>
+1. <span data-ttu-id="46248-112">Microsoft Teams 管理センターの左側のナビゲーションで、[**ユーザー**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="46248-112">In the left navigation of the Microsoft Teams admin center, select **Users**.</span></span>
+2. <span data-ttu-id="46248-113">編集するユーザーを検索するか、ビューをフィルター処理して、編集するユーザーを表示します。</span><span class="sxs-lookup"><span data-stu-id="46248-113">Search for the users you want to edit or filter the view to show the users you want to edit.</span></span>
+3. <span data-ttu-id="46248-114">[ **&#x2713;** (チェックマーク)] 列で、次のいずれかの操作を行って [ユーザー] を選択します。</span><span class="sxs-lookup"><span data-stu-id="46248-114">In the **&#x2713;** (check mark) column, select users by doing one of the following:</span></span>
+    - <span data-ttu-id="46248-115">一度に1人のユーザーを選択します。</span><span class="sxs-lookup"><span data-stu-id="46248-115">Select users one at a time.</span></span> <span data-ttu-id="46248-116">選択した各ユーザーの横に **&#x2713;** が表示されます。</span><span class="sxs-lookup"><span data-stu-id="46248-116">A **&#x2713;** is displayed next to each user you select.</span></span> <span data-ttu-id="46248-117">ユーザーが20人を超える場合は、ブロックされることはありませんが、選択したユーザー数が多いほど、操作が完了するまでに長い時間がかかることに注意してください。</span><span class="sxs-lookup"><span data-stu-id="46248-117">If you select more than 20 users, you won't be blocked but keep in mind that the more users you select, the longer the operation will take to complete.</span></span>
 
         ![ユーザーが選択したことを示す [ユーザー] ページのスクリーンショット](media/bulk-edit-user-settings-select-users.png)
 
-    - <span data-ttu-id="e5ecf-119">表の上部にある [&#x2713; (最大20人)] をクリックし、[**選択範囲**] ダイアログボックスで、[**すべて選択**] をクリックして選択を完了します。</span><span class="sxs-lookup"><span data-stu-id="e5ecf-119">Click the &#x2713; (check mark) at the top of the table to select all users (up to a maximum of 20 users), and then in the **Selection limit** dialog box, click **Continue select all** to complete the selection.</span></span>
+    - <span data-ttu-id="46248-119">表の上部にある [&#x2713; (最大20人)] をクリックし、[**選択範囲**] ダイアログボックスで、[**すべて選択**] をクリックして選択を完了します。</span><span class="sxs-lookup"><span data-stu-id="46248-119">Click the &#x2713; (check mark) at the top of the table to select all users (up to a maximum of 20 users), and then in the **Selection limit** dialog box, click **Continue select all** to complete the selection.</span></span>
 
-        <span data-ttu-id="e5ecf-120">![[ユーザー] ページのスクリーンショット。選択の制限が表示されています。](media/bulk-edit-user-settings-select-all-limit.png)</span><span class="sxs-lookup"><span data-stu-id="e5ecf-120">![Screen shot of the Users page, showing the selection limit](media/bulk-edit-user-settings-select-all-limit.png)</span></span> <br> <span data-ttu-id="e5ecf-121">選択したユーザーの横に **&#x2713;** が表示されます。</span><span class="sxs-lookup"><span data-stu-id="e5ecf-121">A **&#x2713;** is displayed next to the selected users.</span></span>
+        <span data-ttu-id="46248-120">![[ユーザー] ページのスクリーンショット。選択の制限が表示されています。](media/bulk-edit-user-settings-select-all-limit.png)</span><span class="sxs-lookup"><span data-stu-id="46248-120">![Screen shot of the Users page, showing the selection limit](media/bulk-edit-user-settings-select-all-limit.png)</span></span> <br> <span data-ttu-id="46248-121">選択したユーザーの横に **&#x2713;** が表示されます。</span><span class="sxs-lookup"><span data-stu-id="46248-121">A **&#x2713;** is displayed next to the selected users.</span></span>
 
         ![選択された20人のユーザーを示す [ユーザー] ページのスクリーンショット](media/bulk-edit-user-settings-select-all.png)
-4. <span data-ttu-id="e5ecf-123">[**設定の編集**] をクリックし、必要な変更を加えて、[**保存**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="e5ecf-123">Click **Edit settings**, make the changes that you want, and then click **Save**.</span></span>
+4. <span data-ttu-id="46248-123">[**設定の編集**] をクリックし、必要な変更を加えて、[**保存**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="46248-123">Click **Edit settings**, make the changes that you want, and then click **Save**.</span></span>
 
     ![[設定の編集] ウィンドウのスクリーンショット](media/bulk-edit-user-settings-edit-settings.png)

@@ -6,22 +6,22 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddEdgeServerStartPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f7f90070-fcdc-4ec5-9551-cc7da2ed271c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 最初のトポロジを展開するとき、または後で、外部ユーザーアクセスのサポートを追加することができます。 既存のトポロジにエッジ サーバーを追加する方法の詳細については、「エッジ サーバーの展開」のドキュメントの「Define Your Edge Topology」を参照してください。
-ms.openlocfilehash: b2a3390f65b2c9eb460fd5c3e68d41eca7f0f6d8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b4efe8b2e93e9787dfbc44cfc2790f2e4bb91e2b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278518"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41689406"
 ---
-# <a name="add-edge-server-support"></a><span data-ttu-id="de0af-104">エッジ サーバーのサポートの追加</span><span class="sxs-lookup"><span data-stu-id="de0af-104">Add Edge Server Support</span></span>
+# <a name="add-edge-server-support"></a><span data-ttu-id="02d77-104">エッジ サーバーのサポートの追加</span><span class="sxs-lookup"><span data-stu-id="02d77-104">Add Edge Server Support</span></span>
 
-<span data-ttu-id="de0af-105">最初のトポロジを展開するとき、または後で、外部ユーザーアクセスのサポートを追加することができます。</span><span class="sxs-lookup"><span data-stu-id="de0af-105">You can add support for external user access when you deploy your initial topology, or at a later time.</span></span> <span data-ttu-id="de0af-106">既存のトポロジにエッジ サーバーを追加する方法の詳細については、「エッジ サーバーの展開」のドキュメントの「[Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="de0af-106">For details about adding Edge Servers to an existing topology, see [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) in the Edge Server Deployment documentation.</span></span>
+<span data-ttu-id="02d77-105">最初のトポロジを展開するとき、または後で、外部ユーザーアクセスのサポートを追加することができます。</span><span class="sxs-lookup"><span data-stu-id="02d77-105">You can add support for external user access when you deploy your initial topology, or at a later time.</span></span> <span data-ttu-id="02d77-106">既存のトポロジにエッジ サーバーを追加する方法の詳細については、「エッジ サーバーの展開」のドキュメントの「[Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="02d77-106">For details about adding Edge Servers to an existing topology, see [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) in the Edge Server Deployment documentation.</span></span>
 
 

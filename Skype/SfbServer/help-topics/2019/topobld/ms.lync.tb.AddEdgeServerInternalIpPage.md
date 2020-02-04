@@ -6,24 +6,24 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddEdgeServerInternalIpPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 13485e9d-190e-4ece-b997-1cbf45aae77c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 内部 IP アドレスは、エッジサーバーの内部インターフェイスの IP アドレスです。
-ms.openlocfilehash: be2f0dcaa4c05387fd84348c5e8e10a6708e14fa
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c78377b83a2ff931bd701a62374a05271c524e3e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34303747"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41689436"
 ---
-# <a name="add-edge-server-internal-ip"></a><span data-ttu-id="506da-103">エッジ サーバーの内部 IP の追加</span><span class="sxs-lookup"><span data-stu-id="506da-103">Add Edge Server Internal IP</span></span>
+# <a name="add-edge-server-internal-ip"></a><span data-ttu-id="d5179-103">エッジ サーバーの内部 IP の追加</span><span class="sxs-lookup"><span data-stu-id="d5179-103">Add Edge Server Internal IP</span></span>
 
-<span data-ttu-id="506da-104">内部 IP アドレスは、エッジサーバーの内部インターフェイスの IP アドレスです。</span><span class="sxs-lookup"><span data-stu-id="506da-104">The internal IP address is the IP address of the internal interface of the Edge Server.</span></span>
+<span data-ttu-id="d5179-104">内部 IP アドレスは、エッジサーバーの内部インターフェイスの IP アドレスです。</span><span class="sxs-lookup"><span data-stu-id="d5179-104">The internal IP address is the IP address of the internal interface of the Edge Server.</span></span>
 
-<span data-ttu-id="506da-p101">最初のトポロジの展開時やその後に、外部ユーザー アクセスのサポートを追加できます。既存のトポロジにエッジ サーバーを追加する方法の詳細については、「エッジ サーバーの展開」のドキュメントの「[Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="506da-p101">You can add support for external user access when you deploy your initial topology or afterward. For details about adding Edge Servers to an existing topology, see [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) in the Edge Server Deployment documentation.</span></span>
+<span data-ttu-id="d5179-p101">最初のトポロジの展開時やその後に、外部ユーザー アクセスのサポートを追加できます。既存のトポロジにエッジ サーバーを追加する方法の詳細については、「エッジ サーバーの展開」のドキュメントの「[Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="d5179-p101">You can add support for external user access when you deploy your initial topology or afterward. For details about adding Edge Servers to an existing topology, see [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) in the Edge Server Deployment documentation.</span></span>
 
 

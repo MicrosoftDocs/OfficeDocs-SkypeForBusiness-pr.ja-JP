@@ -6,44 +6,44 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.RgsSelAgent
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b5cf912b-8273-4c2c-a1e5-f25530b264d0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 担当者は、応答グループの通話に応答するように指定されているユーザーです。 応答グループには、そのグループへの呼び出しを受信できるエージェントを示すエージェント グループが割り当てられている必要があります。 エージェント グループを作成する方法の 1 つは、適格なユーザーを選択してカスタム グループを定義することです。 有効なユーザーは、Skype for Business Server およびエンタープライズ Voip に対応しています。
-ms.openlocfilehash: 84af4c10e6e6e0bacd053d16d4d9cce85d80f88e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 15185ab3ad7bb16018d7995d5e7eaef6198dc68a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34292564"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41690772"
 ---
-# <a name="select-agents"></a><span data-ttu-id="01521-106">エージェントの選択</span><span class="sxs-lookup"><span data-stu-id="01521-106">Select Agents</span></span>
+# <a name="select-agents"></a><span data-ttu-id="7551c-106">エージェントの選択</span><span class="sxs-lookup"><span data-stu-id="7551c-106">Select Agents</span></span>
 
-<span data-ttu-id="01521-107">担当者は、応答グループの通話に応答するように指定されているユーザーです。</span><span class="sxs-lookup"><span data-stu-id="01521-107">Agents are users who are designated to answer Response Group calls.</span></span> <span data-ttu-id="01521-108">応答グループには、そのグループへの呼び出しを受信できるエージェントを示すエージェント グループが割り当てられている必要があります。</span><span class="sxs-lookup"><span data-stu-id="01521-108">Response groups must have an assigned agent group that identifies the agents who can receive calls for the response group.</span></span> <span data-ttu-id="01521-109">エージェント グループを作成する方法の 1 つは、適格なユーザーを選択してカスタム グループを定義することです。</span><span class="sxs-lookup"><span data-stu-id="01521-109">One way to create an agent group is to define a custom group by selecting eligible users.</span></span> <span data-ttu-id="01521-110">有効なユーザーは、Skype for Business Server およびエンタープライズ Voip に対応しています。</span><span class="sxs-lookup"><span data-stu-id="01521-110">Eligible users are enabled for Skype for Business Server and Enterprise Voice.</span></span>
+<span data-ttu-id="7551c-107">担当者は、応答グループの通話に応答するように指定されているユーザーです。</span><span class="sxs-lookup"><span data-stu-id="7551c-107">Agents are users who are designated to answer Response Group calls.</span></span> <span data-ttu-id="7551c-108">応答グループには、そのグループへの呼び出しを受信できるエージェントを示すエージェント グループが割り当てられている必要があります。</span><span class="sxs-lookup"><span data-stu-id="7551c-108">Response groups must have an assigned agent group that identifies the agents who can receive calls for the response group.</span></span> <span data-ttu-id="7551c-109">エージェント グループを作成する方法の 1 つは、適格なユーザーを選択してカスタム グループを定義することです。</span><span class="sxs-lookup"><span data-stu-id="7551c-109">One way to create an agent group is to define a custom group by selecting eligible users.</span></span> <span data-ttu-id="7551c-110">有効なユーザーは、Skype for Business Server およびエンタープライズ Voip に対応しています。</span><span class="sxs-lookup"><span data-stu-id="7551c-110">Eligible users are enabled for Skype for Business Server and Enterprise Voice.</span></span>
 
-<span data-ttu-id="01521-111">[**エージェントの選択**] ダイアログ ボックスを使用して、エージェント グループに追加するユーザーを選択します。</span><span class="sxs-lookup"><span data-stu-id="01521-111">You use the **Select Agents** dialog box to select users to be added to an agent group.</span></span>
+<span data-ttu-id="7551c-111">[**エージェントの選択**] ダイアログ ボックスを使用して、エージェント グループに追加するユーザーを選択します。</span><span class="sxs-lookup"><span data-stu-id="7551c-111">You use the **Select Agents** dialog box to select users to be added to an agent group.</span></span>
 
-## <a name="ui-reference"></a><span data-ttu-id="01521-112">UI リファレンス</span><span class="sxs-lookup"><span data-stu-id="01521-112">UI Reference</span></span>
+## <a name="ui-reference"></a><span data-ttu-id="7551c-112">UI リファレンス</span><span class="sxs-lookup"><span data-stu-id="7551c-112">UI Reference</span></span>
 
-<span data-ttu-id="01521-113">[**エージェントの選択**] ダイアログ ボックスには次のコントロールがあります。</span><span class="sxs-lookup"><span data-stu-id="01521-113">The following list describes the controls in the **Select Agents** dialog box.</span></span>
+<span data-ttu-id="7551c-113">[**エージェントの選択**] ダイアログ ボックスには次のコントロールがあります。</span><span class="sxs-lookup"><span data-stu-id="7551c-113">The following list describes the controls in the **Select Agents** dialog box.</span></span>
 
-- <span data-ttu-id="01521-114">**検索**ユーザーの SIP アドレスまたは表示名を検索します。</span><span class="sxs-lookup"><span data-stu-id="01521-114">**Find** Searches for the SIP address or display name for a user.</span></span> <span data-ttu-id="01521-115">アドレスまたは名前のすべてまたは一部を入力します。</span><span class="sxs-lookup"><span data-stu-id="01521-115">Enter all or part of the address or name.</span></span> <span data-ttu-id="01521-116">Skype for Business Server およびエンタープライズ Voip を有効にしているすべてのユーザーを表示するには、[検索] ボックスを空のままにします。</span><span class="sxs-lookup"><span data-stu-id="01521-116">Leave the search box empty to display all users who are enabled for Skype for Business Server and Enterprise Voice.</span></span>
+- <span data-ttu-id="7551c-114">**検索**ユーザーの SIP アドレスまたは表示名を検索します。</span><span class="sxs-lookup"><span data-stu-id="7551c-114">**Find** Searches for the SIP address or display name for a user.</span></span> <span data-ttu-id="7551c-115">アドレスまたは名前のすべてまたは一部を入力します。</span><span class="sxs-lookup"><span data-stu-id="7551c-115">Enter all or part of the address or name.</span></span> <span data-ttu-id="7551c-116">Skype for Business Server およびエンタープライズ Voip を有効にしているすべてのユーザーを表示するには、[検索] ボックスを空のままにします。</span><span class="sxs-lookup"><span data-stu-id="7551c-116">Leave the search box empty to display all users who are enabled for Skype for Business Server and Enterprise Voice.</span></span>
 
-- <span data-ttu-id="01521-117">**表示するユーザーの最大数**表示される返される結果の数を変更します。</span><span class="sxs-lookup"><span data-stu-id="01521-117">**Maximum users to display** Changes the number of returned results that are displayed.</span></span> <span data-ttu-id="01521-118">このカウンターを使って、検索結果の数が多い場合に検索を制限します。</span><span class="sxs-lookup"><span data-stu-id="01521-118">Use this counter to limit the search if you expect many results.</span></span>
+- <span data-ttu-id="7551c-117">**表示するユーザーの最大数**表示される返される結果の数を変更します。</span><span class="sxs-lookup"><span data-stu-id="7551c-117">**Maximum users to display** Changes the number of returned results that are displayed.</span></span> <span data-ttu-id="7551c-118">このカウンターを使って、検索結果の数が多い場合に検索を制限します。</span><span class="sxs-lookup"><span data-stu-id="7551c-118">Use this counter to limit the search if you expect many results.</span></span>
 
-<span data-ttu-id="01521-119">[**エージェントの選択**] ダイアログ ボックスには次のフィールドがあります。</span><span class="sxs-lookup"><span data-stu-id="01521-119">The following list describes the fields in the **Select Agents** dialog box.</span></span>
+<span data-ttu-id="7551c-119">[**エージェントの選択**] ダイアログ ボックスには次のフィールドがあります。</span><span class="sxs-lookup"><span data-stu-id="7551c-119">The following list describes the fields in the **Select Agents** dialog box.</span></span>
 
-- <span data-ttu-id="01521-120">**エージェント**検索によって返されるユーザー名を表示します。</span><span class="sxs-lookup"><span data-stu-id="01521-120">**Agent** Displays the user names returned by the search.</span></span>
+- <span data-ttu-id="7551c-120">**エージェント**検索によって返されるユーザー名を表示します。</span><span class="sxs-lookup"><span data-stu-id="7551c-120">**Agent** Displays the user names returned by the search.</span></span>
 
-- <span data-ttu-id="01521-121">**SIP アドレス**検索によって返されるユーザー SIP アドレスを表示します。</span><span class="sxs-lookup"><span data-stu-id="01521-121">**SIP address** Displays the user SIP addresses returned by the search.</span></span>
+- <span data-ttu-id="7551c-121">**SIP アドレス**検索によって返されるユーザー SIP アドレスを表示します。</span><span class="sxs-lookup"><span data-stu-id="7551c-121">**SIP address** Displays the user SIP addresses returned by the search.</span></span>
 
-- <span data-ttu-id="01521-122">**テレフォニー**ユーザーに対して定義された [ **Telephony** ] フィールドの値が表示されます。</span><span class="sxs-lookup"><span data-stu-id="01521-122">**Telephony** Displays the value of the **Telephony** field defined for users.</span></span>
+- <span data-ttu-id="7551c-122">**テレフォニー**ユーザーに対して定義された [ **Telephony** ] フィールドの値が表示されます。</span><span class="sxs-lookup"><span data-stu-id="7551c-122">**Telephony** Displays the value of the **Telephony** field defined for users.</span></span>
 
-- <span data-ttu-id="01521-123">**有効**ユーザーに対して定義されている**Lync Server の [有効**] フィールドの値を表示します。</span><span class="sxs-lookup"><span data-stu-id="01521-123">**Enabled** Displays the value of the **Enabled for Lync Server** field defined for users.</span></span>
+- <span data-ttu-id="7551c-123">**有効**ユーザーに対して定義されている**Lync Server の [有効**] フィールドの値を表示します。</span><span class="sxs-lookup"><span data-stu-id="7551c-123">**Enabled** Displays the value of the **Enabled for Lync Server** field defined for users.</span></span>
 
-<span data-ttu-id="01521-124">エージェント グループの使用の詳細については、「操作」のドキュメントの「[Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="01521-124">For details about working with agent groups, see [Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) in the Operations documentation.</span></span>
+<span data-ttu-id="7551c-124">エージェント グループの使用の詳細については、「操作」のドキュメントの「[Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="7551c-124">For details about working with agent groups, see [Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) in the Operations documentation.</span></span>
 
 
