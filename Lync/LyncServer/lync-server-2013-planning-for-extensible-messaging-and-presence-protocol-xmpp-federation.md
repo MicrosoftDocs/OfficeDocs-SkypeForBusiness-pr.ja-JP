@@ -3,6 +3,8 @@ title: 拡張メッセージングとプレゼンスプロトコル (XMPP) フ�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for extensible messaging and presence protocol (XMPP) federation
 ms:assetid: 952b33e2-1f58-4831-9a39-1dfec2a316ad
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205107(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184892
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f2f4e1d8f9b7f164dd9e83f556dcc57809619278
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5ee0543d36cb43a05042ca4341a837ae10b52051
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824870"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725379"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34824870"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a><span data-ttu-id="bda47-102">Lync Server 2013 での拡張メッセージングとプレゼンスプロトコル (XMPP) フェデレーションの計画</span><span class="sxs-lookup"><span data-stu-id="bda47-102">Planning for extensible messaging and presence protocol (XMPP) federation in Lync Server 2013</span></span>
+# <a name="planning-for-extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a><span data-ttu-id="dbc53-102">Lync Server 2013 での拡張メッセージングとプレゼンスプロトコル (XMPP) フェデレーションの計画</span><span class="sxs-lookup"><span data-stu-id="dbc53-102">Planning for extensible messaging and presence protocol (XMPP) federation in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,17 +35,17 @@ ms.locfileid: "34824870"
 
 <span> </span>
 
-<span data-ttu-id="bda47-103">_**最終更新日:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="bda47-103">_**Topic Last Modified:** 2012-10-22_</span></span>
+<span data-ttu-id="dbc53-103">_**最終更新日:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="dbc53-103">_**Topic Last Modified:** 2012-10-22_</span></span>
 
-<span data-ttu-id="bda47-104">以前のバージョンの Lync Server と Office Communications Server では、拡張されたメッセージング機能とプレゼンスプロトコル (XMPP) ゲートウェイが提供されており、これを個別のサーバーの役割として展開して、XMPP の展開とのフェデレーションを可能にすることができました。</span><span class="sxs-lookup"><span data-stu-id="bda47-104">Previous versions of Lync Server and Office Communications Server provided an extensible messaging and presence protocol (XMPP) gateway that could be deployed as a separate server role to allow federating with XMPP deployments.</span></span> <span data-ttu-id="bda47-105">Microsoft Lync Server 2013 では、XMPP 機能を機能として展開できます。</span><span class="sxs-lookup"><span data-stu-id="bda47-105">In Microsoft Lync Server 2013, the XMPP functionality can be deployed as a feature.</span></span> <span data-ttu-id="bda47-106">XMPP 機能は、Edge サーバー上で実行される XMPP プロキシと、フロントエンドサーバー上で実行される XMPP ゲートウェイの2つの部分でインストールされます。</span><span class="sxs-lookup"><span data-stu-id="bda47-106">XMPP functionality is installed in two parts: an XMPP proxy that runs on the Edge Server and the XMPP gateway that runs on the Front End Servers.</span></span>
+<span data-ttu-id="dbc53-104">以前のバージョンの Lync Server と Office Communications Server では、拡張されたメッセージング機能とプレゼンスプロトコル (XMPP) ゲートウェイが提供されており、これを個別のサーバーの役割として展開して、XMPP の展開とのフェデレーションを可能にすることができました。</span><span class="sxs-lookup"><span data-stu-id="dbc53-104">Previous versions of Lync Server and Office Communications Server provided an extensible messaging and presence protocol (XMPP) gateway that could be deployed as a separate server role to allow federating with XMPP deployments.</span></span> <span data-ttu-id="dbc53-105">Microsoft Lync Server 2013 では、XMPP 機能を機能として展開できます。</span><span class="sxs-lookup"><span data-stu-id="dbc53-105">In Microsoft Lync Server 2013, the XMPP functionality can be deployed as a feature.</span></span> <span data-ttu-id="dbc53-106">XMPP 機能は、Edge サーバー上で実行される XMPP プロキシと、フロントエンドサーバー上で実行される XMPP ゲートウェイの2つの部分でインストールされます。</span><span class="sxs-lookup"><span data-stu-id="dbc53-106">XMPP functionality is installed in two parts: an XMPP proxy that runs on the Edge Server and the XMPP gateway that runs on the Front End Servers.</span></span>
 
-<span data-ttu-id="bda47-107">XMPP の展開と構成については、「 [Lync Server 2013 での外部ユーザーアクセスの展開](lync-server-2013-deploying-external-user-access.md)」を対象としています。ファイアウォールでのポートとプロトコルのルールの定義、証明書の構成、DNS の追加などを行って、組織での xmpp のサポートを計画します。記録.</span><span class="sxs-lookup"><span data-stu-id="bda47-107">Deployment and configuration of XMPP is covered in [Deploying external user access in Lync Server 2013](lync-server-2013-deploying-external-user-access.md) You plan for supporting XMPP in your organization by defining port and protocol rules on your firewall, configuration of certificates, and adding DNS records.</span></span> <span data-ttu-id="bda47-108">このセクションの次のトピックでは、展開用の XMPP フェデレーションを正常に計画するために必要な情報についてまとめます。</span><span class="sxs-lookup"><span data-stu-id="bda47-108">The following topics in this section summarize the information that you will need to successfully plan XMPP federation for your deployment.</span></span>
+<span data-ttu-id="dbc53-107">XMPP の展開と構成については、「 [Lync Server 2013 での外部ユーザーアクセスの展開](lync-server-2013-deploying-external-user-access.md)」で説明しています。ファイアウォールでポートおよびプロトコルルールを定義し、証明書を構成し、DNS レコードを追加することによって、組織での xmpp のサポートを計画します。</span><span class="sxs-lookup"><span data-stu-id="dbc53-107">Deployment and configuration of XMPP is covered in [Deploying external user access in Lync Server 2013](lync-server-2013-deploying-external-user-access.md) You plan for supporting XMPP in your organization by defining port and protocol rules on your firewall, configuration of certificates, and adding DNS records.</span></span> <span data-ttu-id="dbc53-108">このセクションの次のトピックでは、展開用の XMPP フェデレーションを正常に計画するために必要な情報についてまとめます。</span><span class="sxs-lookup"><span data-stu-id="dbc53-108">The following topics in this section summarize the information that you will need to successfully plan XMPP federation for your deployment.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]
-> <span data-ttu-id="bda47-p103">Lync Server 2013 の XMPP 機能は、Google Talk とのインスタント メッセージングのフェデレーションについては Microsoft によってテストとサポートが行われています。その他の XMPP システムについては、Lync Server 2013 とのフェデレーションのサポートや、展開またはトラブルシューティングの推奨事項に関して、サード パーティ ベンダーに問い合わせて確認してください。</span><span class="sxs-lookup"><span data-stu-id="bda47-p103">The XMPP capability of Lync Server 2013 is tested and supported by Microsoft for instant messaging federation with Google Talk. For any other XMPP systems contact the third-party vendor to verify that they support federation with Lync Server 2013, and for any deployment or troubleshooting recommendations.</span></span>
+> <span data-ttu-id="dbc53-p103">Lync Server 2013 の XMPP 機能は、Google Talk とのインスタント メッセージングのフェデレーションについては Microsoft によってテストとサポートが行われています。その他の XMPP システムについては、Lync Server 2013 とのフェデレーションのサポートや、展開またはトラブルシューティングの推奨事項に関して、サード パーティ ベンダーに問い合わせて確認してください。</span><span class="sxs-lookup"><span data-stu-id="dbc53-p103">The XMPP capability of Lync Server 2013 is tested and supported by Microsoft for instant messaging federation with Google Talk. For any other XMPP systems contact the third-party vendor to verify that they support federation with Lync Server 2013, and for any deployment or troubleshooting recommendations.</span></span>
 
 
 
@@ -51,29 +53,29 @@ ms.locfileid: "34824870"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="bda47-111">このセクション中</span><span class="sxs-lookup"><span data-stu-id="bda47-111">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="dbc53-111">このセクション中</span><span class="sxs-lookup"><span data-stu-id="dbc53-111">In This Section</span></span>
 
-  - [<span data-ttu-id="bda47-112">証明書の概要-Lync Server 2013 での拡張可能なメッセージングとプレゼンスプロトコル (XMPP) フェデレーション</span><span class="sxs-lookup"><span data-stu-id="bda47-112">Certificate summary - Extensible messaging and presence protocol (XMPP) federation in Lync Server 2013</span></span>](lync-server-2013-certificate-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md)
+  - [<span data-ttu-id="dbc53-112">証明書の概要-Lync Server 2013 での拡張可能なメッセージングとプレゼンスプロトコル (XMPP) フェデレーション</span><span class="sxs-lookup"><span data-stu-id="dbc53-112">Certificate summary - Extensible messaging and presence protocol (XMPP) federation in Lync Server 2013</span></span>](lync-server-2013-certificate-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md)
 
-  - [<span data-ttu-id="bda47-113">ポート概要-Lync Server 2013 での拡張可能なメッセージングとプレゼンスプロトコル (XMPP) フェデレーション</span><span class="sxs-lookup"><span data-stu-id="bda47-113">Port summary - Extensible messaging and presence protocol (XMPP) federation in Lync Server 2013</span></span>](lync-server-2013-port-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md)
+  - [<span data-ttu-id="dbc53-113">ポート概要-Lync Server 2013 での拡張可能なメッセージングとプレゼンスプロトコル (XMPP) フェデレーション</span><span class="sxs-lookup"><span data-stu-id="dbc53-113">Port summary - Extensible messaging and presence protocol (XMPP) federation in Lync Server 2013</span></span>](lync-server-2013-port-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md)
 
-  - [<span data-ttu-id="bda47-114">DNS の概要-Lync Server 2013 での拡張可能なメッセージングとプレゼンスプロトコル (XMPP) フェデレーション</span><span class="sxs-lookup"><span data-stu-id="bda47-114">DNS summary - Extensible messaging and presence protocol (XMPP) federation in Lync Server 2013</span></span>](lync-server-2013-dns-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md)
+  - [<span data-ttu-id="dbc53-114">DNS の概要-Lync Server 2013 での拡張可能なメッセージングとプレゼンスプロトコル (XMPP) フェデレーション</span><span class="sxs-lookup"><span data-stu-id="dbc53-114">DNS summary - Extensible messaging and presence protocol (XMPP) federation in Lync Server 2013</span></span>](lync-server-2013-dns-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="bda47-115">関連項目</span><span class="sxs-lookup"><span data-stu-id="bda47-115">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="dbc53-115">関連項目</span><span class="sxs-lookup"><span data-stu-id="dbc53-115">See Also</span></span>
 
 
-[<span data-ttu-id="bda47-116">Lync Server 2013 XMPP フェデレーションのセットアップ</span><span class="sxs-lookup"><span data-stu-id="bda47-116">Setting up XMPP federation in Lync Server 2013</span></span>](lync-server-2013-setting-up-xmpp-federation.md)  
-[<span data-ttu-id="bda47-117">Lync Server 2013 での XMPP フェデレーション ユーザー アクセスを制御するポリシーの構成</span><span class="sxs-lookup"><span data-stu-id="bda47-117">Configure policies to control XMPP federated user access in Lync Server 2013</span></span>](lync-server-2013-configure-policies-to-control-xmpp-federated-user-access.md)  
+[<span data-ttu-id="dbc53-116">Lync Server 2013 XMPP フェデレーションのセットアップ</span><span class="sxs-lookup"><span data-stu-id="dbc53-116">Setting up XMPP federation in Lync Server 2013</span></span>](lync-server-2013-setting-up-xmpp-federation.md)  
+[<span data-ttu-id="dbc53-117">Lync Server 2013 での XMPP フェデレーション ユーザー アクセスを制御するポリシーの構成</span><span class="sxs-lookup"><span data-stu-id="dbc53-117">Configure policies to control XMPP federated user access in Lync Server 2013</span></span>](lync-server-2013-configure-policies-to-control-xmpp-federated-user-access.md)  
 
 
-[<span data-ttu-id="bda47-118">Lync Server 2013 での組織の XMPP フェデレーション パートナーの管理</span><span class="sxs-lookup"><span data-stu-id="bda47-118">Manage XMPP federated partners in Lync Server 2013</span></span>](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)  
-<span data-ttu-id="bda47-119">[Get-CsExternalAccessPolicy](https://technet.microsoft.com/en-us/library/Gg425805(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="bda47-119">[Get-CsExternalAccessPolicy](https://technet.microsoft.com/en-us/library/Gg425805(v=OCS.15))</span></span>  
-<span data-ttu-id="bda47-120">[Get-CsXmppAllowedPartner](https://technet.microsoft.com/en-us/library/JJ204981(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="bda47-120">[Get-CsXmppAllowedPartner](https://technet.microsoft.com/en-us/library/JJ204981(v=OCS.15))</span></span>  
-<span data-ttu-id="bda47-121">[Get-CsXmppGatewayConfiguration](https://technet.microsoft.com/en-us/library/JJ204869(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="bda47-121">[Get-CsXmppGatewayConfiguration](https://technet.microsoft.com/en-us/library/JJ204869(v=OCS.15))</span></span>  
+[<span data-ttu-id="dbc53-118">Lync Server 2013 での組織の XMPP フェデレーション パートナーの管理</span><span class="sxs-lookup"><span data-stu-id="dbc53-118">Manage XMPP federated partners in Lync Server 2013</span></span>](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)  
+<span data-ttu-id="dbc53-119">[Get-CsExternalAccessPolicy](https://technet.microsoft.com/en-us/library/Gg425805(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="dbc53-119">[Get-CsExternalAccessPolicy](https://technet.microsoft.com/en-us/library/Gg425805(v=OCS.15))</span></span>  
+<span data-ttu-id="dbc53-120">[Get-CsXmppAllowedPartner](https://technet.microsoft.com/en-us/library/JJ204981(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="dbc53-120">[Get-CsXmppAllowedPartner](https://technet.microsoft.com/en-us/library/JJ204981(v=OCS.15))</span></span>  
+<span data-ttu-id="dbc53-121">[Get-CsXmppGatewayConfiguration](https://technet.microsoft.com/en-us/library/JJ204869(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="dbc53-121">[Get-CsXmppGatewayConfiguration](https://technet.microsoft.com/en-us/library/JJ204869(v=OCS.15))</span></span>  
   
 
 </div>

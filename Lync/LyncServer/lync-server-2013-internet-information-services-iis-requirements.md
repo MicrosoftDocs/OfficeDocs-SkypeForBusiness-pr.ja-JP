@@ -3,6 +3,8 @@ title: 'Lync Server 2013: インターネット インフォメーション サ�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Internet Information Services (IIS) requirements
 ms:assetid: 4f57a605-a8a9-4c5a-9a18-05ecb3d9ab6b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398321(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184128
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bcb0350178a19a75ac821a452ef90e10da297677
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3f4b51ac4996e2556ced3ad91e15a6cc58a1623c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832958"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725807"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34832958"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="internet-information-services-iis-requirements-in-lync-server-2013"></a><span data-ttu-id="2a16e-102">Lync Server 2013 のインターネット インフォメーション サービス (IIS) の要件</span><span class="sxs-lookup"><span data-stu-id="2a16e-102">Internet Information Services (IIS) requirements in Lync Server 2013</span></span>
+# <a name="internet-information-services-iis-requirements-in-lync-server-2013"></a><span data-ttu-id="5a844-102">Lync Server 2013 のインターネット インフォメーション サービス (IIS) の要件</span><span class="sxs-lookup"><span data-stu-id="5a844-102">Internet Information Services (IIS) requirements in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,11 +35,11 @@ ms.locfileid: "34832958"
 
 <span> </span>
 
-<span data-ttu-id="2a16e-103">_**最終更新日:** 2012-06-19_</span><span class="sxs-lookup"><span data-stu-id="2a16e-103">_**Topic Last Modified:** 2012-06-19_</span></span>
+<span data-ttu-id="5a844-103">_**最終更新日:** 2012-06-19_</span><span class="sxs-lookup"><span data-stu-id="5a844-103">_**Topic Last Modified:** 2012-06-19_</span></span>
 
-<span data-ttu-id="2a16e-104">一部の Lync Server 2013 コンポーネントには、インターネットインフォメーションサービス (IIS) が必要です。</span><span class="sxs-lookup"><span data-stu-id="2a16e-104">Several Lync Server 2013 components require Internet Information Services (IIS).</span></span> <span data-ttu-id="2a16e-105">このトピックでは、Lync Server をサポートするために必要な特定の IIS 機能について説明します。</span><span class="sxs-lookup"><span data-stu-id="2a16e-105">This topic describes the specific IIS features required to support Lync Server.</span></span> <span data-ttu-id="2a16e-106">このセクションのトピックでは、IIS の特定のコンポーネントの要件について説明します。</span><span class="sxs-lookup"><span data-stu-id="2a16e-106">The topics in this section describe the requirements of specific components for IIS.</span></span>
+<span data-ttu-id="5a844-104">一部の Lync Server 2013 コンポーネントには、インターネットインフォメーションサービス (IIS) が必要です。</span><span class="sxs-lookup"><span data-stu-id="5a844-104">Several Lync Server 2013 components require Internet Information Services (IIS).</span></span> <span data-ttu-id="5a844-105">このトピックでは、Lync Server をサポートするために必要な特定の IIS 機能について説明します。</span><span class="sxs-lookup"><span data-stu-id="5a844-105">This topic describes the specific IIS features required to support Lync Server.</span></span> <span data-ttu-id="5a844-106">このセクションのトピックでは、IIS の特定のコンポーネントの要件について説明します。</span><span class="sxs-lookup"><span data-stu-id="5a844-106">The topics in this section describe the requirements of specific components for IIS.</span></span>
 
-<span data-ttu-id="2a16e-107">Windows Server 2008 で Web サーバー (IIS) の役割が有効になっていると、さまざまな役割サービスが既定でインストールされます。</span><span class="sxs-lookup"><span data-stu-id="2a16e-107">When the Web Server (IIS) role is enabled on Windows Server 2008, various role services are installed by default.</span></span> <span data-ttu-id="2a16e-108">次の表では、Windows Server 2008 で Web サーバー (IIS) の役割が有効になったときにインストールする必要があるその他の役割サービスについて説明します。</span><span class="sxs-lookup"><span data-stu-id="2a16e-108">The following table describes the additional role services that must be installed when the Web Server (IIS) role is enabled on Windows Server 2008.</span></span>
+<span data-ttu-id="5a844-107">Windows Server 2008 で Web サーバー (IIS) の役割が有効になっていると、さまざまな役割サービスが既定でインストールされます。</span><span class="sxs-lookup"><span data-stu-id="5a844-107">When the Web Server (IIS) role is enabled on Windows Server 2008, various role services are installed by default.</span></span> <span data-ttu-id="5a844-108">次の表では、Windows Server 2008 で Web サーバー (IIS) の役割が有効になったときにインストールする必要があるその他の役割サービスについて説明します。</span><span class="sxs-lookup"><span data-stu-id="5a844-108">The following table describes the additional role services that must be installed when the Web Server (IIS) role is enabled on Windows Server 2008.</span></span>
 
 
 <table>
@@ -47,54 +49,54 @@ ms.locfileid: "34832958"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="2a16e-109">役割サービス</span><span class="sxs-lookup"><span data-stu-id="2a16e-109">Role service</span></span></th>
-<th><span data-ttu-id="2a16e-110">機能</span><span class="sxs-lookup"><span data-stu-id="2a16e-110">Feature</span></span></th>
+<th><span data-ttu-id="5a844-109">役割サービス</span><span class="sxs-lookup"><span data-stu-id="5a844-109">Role service</span></span></th>
+<th><span data-ttu-id="5a844-110">機能</span><span class="sxs-lookup"><span data-stu-id="5a844-110">Feature</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="2a16e-111">HTTP 共通機能</span><span class="sxs-lookup"><span data-stu-id="2a16e-111">Common HTTP Features</span></span></p></td>
-<td><p><span data-ttu-id="2a16e-112">HTTP リダイレクション</span><span class="sxs-lookup"><span data-stu-id="2a16e-112">HTTP Redirection</span></span></p></td>
+<td><p><span data-ttu-id="5a844-111">HTTP 共通機能</span><span class="sxs-lookup"><span data-stu-id="5a844-111">Common HTTP Features</span></span></p></td>
+<td><p><span data-ttu-id="5a844-112">HTTP リダイレクション</span><span class="sxs-lookup"><span data-stu-id="5a844-112">HTTP Redirection</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2a16e-113">アプリケーション開発</span><span class="sxs-lookup"><span data-stu-id="2a16e-113">Application Development</span></span></p></td>
-<td><p><span data-ttu-id="2a16e-114">ASP.NET</span><span class="sxs-lookup"><span data-stu-id="2a16e-114">ASP.NET</span></span></p></td>
+<td><p><span data-ttu-id="5a844-113">アプリケーション開発</span><span class="sxs-lookup"><span data-stu-id="5a844-113">Application Development</span></span></p></td>
+<td><p><span data-ttu-id="5a844-114">ASP.NET</span><span class="sxs-lookup"><span data-stu-id="5a844-114">ASP.NET</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2a16e-115">アプリケーション開発</span><span class="sxs-lookup"><span data-stu-id="2a16e-115">Application Development</span></span></p></td>
-<td><p><span data-ttu-id="2a16e-116">.NET の拡張性</span><span class="sxs-lookup"><span data-stu-id="2a16e-116">.NET Extensibility</span></span></p></td>
+<td><p><span data-ttu-id="5a844-115">アプリケーション開発</span><span class="sxs-lookup"><span data-stu-id="5a844-115">Application Development</span></span></p></td>
+<td><p><span data-ttu-id="5a844-116">.NET の拡張性</span><span class="sxs-lookup"><span data-stu-id="5a844-116">.NET Extensibility</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2a16e-117">アプリケーション開発</span><span class="sxs-lookup"><span data-stu-id="2a16e-117">Application Development</span></span></p></td>
-<td><p><span data-ttu-id="2a16e-118">ISAPI 拡張機能</span><span class="sxs-lookup"><span data-stu-id="2a16e-118">ISAPI Extensions</span></span></p></td>
+<td><p><span data-ttu-id="5a844-117">アプリケーション開発</span><span class="sxs-lookup"><span data-stu-id="5a844-117">Application Development</span></span></p></td>
+<td><p><span data-ttu-id="5a844-118">ISAPI 拡張機能</span><span class="sxs-lookup"><span data-stu-id="5a844-118">ISAPI Extensions</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2a16e-119">アプリケーション開発</span><span class="sxs-lookup"><span data-stu-id="2a16e-119">Application Development</span></span></p></td>
-<td><p><span data-ttu-id="2a16e-120">ISAPI フィルター</span><span class="sxs-lookup"><span data-stu-id="2a16e-120">ISAPI Filters</span></span></p></td>
+<td><p><span data-ttu-id="5a844-119">アプリケーション開発</span><span class="sxs-lookup"><span data-stu-id="5a844-119">Application Development</span></span></p></td>
+<td><p><span data-ttu-id="5a844-120">ISAPI フィルター</span><span class="sxs-lookup"><span data-stu-id="5a844-120">ISAPI Filters</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2a16e-121">状態と診断</span><span class="sxs-lookup"><span data-stu-id="2a16e-121">Health and Diagnostics</span></span></p></td>
-<td><p><span data-ttu-id="2a16e-122">ログ ツール</span><span class="sxs-lookup"><span data-stu-id="2a16e-122">Logging Tools</span></span></p></td>
+<td><p><span data-ttu-id="5a844-121">状態と診断</span><span class="sxs-lookup"><span data-stu-id="5a844-121">Health and Diagnostics</span></span></p></td>
+<td><p><span data-ttu-id="5a844-122">ログ ツール</span><span class="sxs-lookup"><span data-stu-id="5a844-122">Logging Tools</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2a16e-123">状態と診断</span><span class="sxs-lookup"><span data-stu-id="2a16e-123">Health and Diagnostics</span></span></p></td>
-<td><p><span data-ttu-id="2a16e-124">トレース</span><span class="sxs-lookup"><span data-stu-id="2a16e-124">Tracing</span></span></p></td>
+<td><p><span data-ttu-id="5a844-123">状態と診断</span><span class="sxs-lookup"><span data-stu-id="5a844-123">Health and Diagnostics</span></span></p></td>
+<td><p><span data-ttu-id="5a844-124">トレース</span><span class="sxs-lookup"><span data-stu-id="5a844-124">Tracing</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2a16e-125">セキュリティ</span><span class="sxs-lookup"><span data-stu-id="2a16e-125">Security</span></span></p></td>
-<td><p><span data-ttu-id="2a16e-126">基本認証</span><span class="sxs-lookup"><span data-stu-id="2a16e-126">Basic Authentication</span></span></p></td>
+<td><p><span data-ttu-id="5a844-125">セキュリティ</span><span class="sxs-lookup"><span data-stu-id="5a844-125">Security</span></span></p></td>
+<td><p><span data-ttu-id="5a844-126">基本認証</span><span class="sxs-lookup"><span data-stu-id="5a844-126">Basic Authentication</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2a16e-127">セキュリティ</span><span class="sxs-lookup"><span data-stu-id="2a16e-127">Security</span></span></p></td>
-<td><p><span data-ttu-id="2a16e-128">Windows 認証</span><span class="sxs-lookup"><span data-stu-id="2a16e-128">Windows Authentication</span></span></p></td>
+<td><p><span data-ttu-id="5a844-127">セキュリティ</span><span class="sxs-lookup"><span data-stu-id="5a844-127">Security</span></span></p></td>
+<td><p><span data-ttu-id="5a844-128">Windows 認証</span><span class="sxs-lookup"><span data-stu-id="5a844-128">Windows Authentication</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2a16e-129">管理ツール</span><span class="sxs-lookup"><span data-stu-id="2a16e-129">Management Tools</span></span></p></td>
-<td><p><span data-ttu-id="2a16e-130">IIS 管理スクリプトおよびツール</span><span class="sxs-lookup"><span data-stu-id="2a16e-130">IIS Management Scripts and Tools</span></span></p></td>
+<td><p><span data-ttu-id="5a844-129">管理ツール</span><span class="sxs-lookup"><span data-stu-id="5a844-129">Management Tools</span></span></p></td>
+<td><p><span data-ttu-id="5a844-130">IIS 管理スクリプトおよびツール</span><span class="sxs-lookup"><span data-stu-id="5a844-130">IIS Management Scripts and Tools</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2a16e-131">管理ツール</span><span class="sxs-lookup"><span data-stu-id="2a16e-131">Management Tools</span></span></p></td>
-<td><p><span data-ttu-id="2a16e-132">IIS 6 管理の互換性</span><span class="sxs-lookup"><span data-stu-id="2a16e-132">IIS 6 Management Compatibility</span></span></p></td>
+<td><p><span data-ttu-id="5a844-131">管理ツール</span><span class="sxs-lookup"><span data-stu-id="5a844-131">Management Tools</span></span></p></td>
+<td><p><span data-ttu-id="5a844-132">IIS 6 管理の互換性</span><span class="sxs-lookup"><span data-stu-id="5a844-132">IIS 6 Management Compatibility</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -105,12 +107,12 @@ ms.locfileid: "34832958"
 <table>
 <thead>
 <tr class="header">
-<th><img src="images/Gg398321.security(OCS.15).gif" title="証券" alt="security" /><span data-ttu-id="2a16e-134">セキュリティメモ:</span><span class="sxs-lookup"><span data-stu-id="2a16e-134">Security Note:</span></span></th>
+<th><img src="images/Gg398321.security(OCS.15).gif" title="証券" alt="security" /><span data-ttu-id="5a844-134">セキュリティメモ:</span><span class="sxs-lookup"><span data-stu-id="5a844-134">Security Note:</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="2a16e-135">Windows Server 2008 オペレーティングシステムで IIS 7.0 を使用している場合、Lync Server セットアップは IIS のカーネルモード認証を無効にします。</span><span class="sxs-lookup"><span data-stu-id="2a16e-135">If you are using IIS 7.0 on a Windows Server 2008 operating system, Lync Server Setup disables kernel mode authentication in IIS.</span></span></td>
+<td><span data-ttu-id="5a844-135">Windows Server 2008 オペレーティングシステムで IIS 7.0 を使用している場合、Lync Server セットアップは IIS のカーネルモード認証を無効にします。</span><span class="sxs-lookup"><span data-stu-id="5a844-135">If you are using IIS 7.0 on a Windows Server 2008 operating system, Lync Server Setup disables kernel mode authentication in IIS.</span></span></td>
 </tr>
 </tbody>
 </table>
@@ -120,9 +122,9 @@ ms.locfileid: "34832958"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="2a16e-136">このセクション中</span><span class="sxs-lookup"><span data-stu-id="2a16e-136">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="5a844-136">このセクション中</span><span class="sxs-lookup"><span data-stu-id="5a844-136">In This Section</span></span>
 
-  - [<span data-ttu-id="2a16e-137">Lync Server 2013 のフロントエンド プールおよび Standard Edition サーバーの IIS 要件</span><span class="sxs-lookup"><span data-stu-id="2a16e-137">IIS requirements for Front End pools and Standard Edition servers in Lync Server 2013</span></span>](lync-server-2013-iis-requirements-for-front-end-pools-and-standard-edition-servers.md)
+  - [<span data-ttu-id="5a844-137">Lync Server 2013 のフロントエンド プールおよび Standard Edition サーバーの IIS 要件</span><span class="sxs-lookup"><span data-stu-id="5a844-137">IIS requirements for Front End pools and Standard Edition servers in Lync Server 2013</span></span>](lync-server-2013-iis-requirements-for-front-end-pools-and-standard-edition-servers.md)
 
 </div>
 

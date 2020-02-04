@@ -3,6 +3,8 @@ title: Enterprise Edition フロントエンドサーバーまたは Standard Ed
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Remove the Enterprise Edition Front End Server or Standard Edition Front End Server
 ms:assetid: 8cabb187-cff7-44e7-a126-9b25861ef2c8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688123(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733721
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3d8add7525f5855f63dec0b18d29bd6c496aa178
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e175b4771b9e9777f0fa162cb2a59f7a3b17cc7e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847959"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727157"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34847959"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server"></a><span data-ttu-id="e0791-102">Enterprise Edition フロントエンドサーバーまたは Standard Edition フロントエンドサーバーを削除する</span><span class="sxs-lookup"><span data-stu-id="e0791-102">Remove the Enterprise Edition Front End Server or Standard Edition Front End Server</span></span>
+# <a name="remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server"></a><span data-ttu-id="1682d-102">Enterprise Edition フロントエンドサーバーまたは Standard Edition フロントエンドサーバーを削除する</span><span class="sxs-lookup"><span data-stu-id="1682d-102">Remove the Enterprise Edition Front End Server or Standard Edition Front End Server</span></span>
 
 </div>
 
@@ -33,23 +35,23 @@ ms.locfileid: "34847959"
 
 <span> </span>
 
-<span data-ttu-id="e0791-103">_**最終更新日:** 2012-10-10_</span><span class="sxs-lookup"><span data-stu-id="e0791-103">_**Topic Last Modified:** 2012-10-10_</span></span>
+<span data-ttu-id="1682d-103">_**最終更新日:** 2012-10-10_</span><span class="sxs-lookup"><span data-stu-id="1682d-103">_**Topic Last Modified:** 2012-10-10_</span></span>
 
-<span data-ttu-id="e0791-104">このトピックで説明する手順は、Microsoft Lync Server 2010 Enterprise Edition のフロントエンドプールまたは標準エディションのフロントエンドサーバーを削除する手順について説明しています。</span><span class="sxs-lookup"><span data-stu-id="e0791-104">The procedures outlined in this topic are designed to guide you through the process of removing a Microsoft Lync Server 2010 Enterprise Edition Front End pool or a Standard Edition Front End Server.</span></span> <span data-ttu-id="e0791-105">Lync Server 2013 に移行した後、これは、従来の Lync Server 2010 環境を廃止するための最初の手順の1つです。</span><span class="sxs-lookup"><span data-stu-id="e0791-105">After migrating to Lync Server 2013, this is one of the first steps to decommissioning your legacy Lync Server 2010 environment.</span></span>
+<span data-ttu-id="1682d-104">このトピックで説明する手順は、Microsoft Lync Server 2010 Enterprise Edition のフロントエンドプールまたは標準エディションのフロントエンドサーバーを削除する手順について説明しています。</span><span class="sxs-lookup"><span data-stu-id="1682d-104">The procedures outlined in this topic are designed to guide you through the process of removing a Microsoft Lync Server 2010 Enterprise Edition Front End pool or a Standard Edition Front End Server.</span></span> <span data-ttu-id="1682d-105">Lync Server 2013 に移行した後、これは、従来の Lync Server 2010 環境を廃止するための最初の手順の1つです。</span><span class="sxs-lookup"><span data-stu-id="1682d-105">After migrating to Lync Server 2013, this is one of the first steps to decommissioning your legacy Lync Server 2010 environment.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="e0791-106">このセクション中</span><span class="sxs-lookup"><span data-stu-id="e0791-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="1682d-106">このセクション中</span><span class="sxs-lookup"><span data-stu-id="1682d-106">In This Section</span></span>
 
-  - [<span data-ttu-id="e0791-107">通話受付管理のリセット</span><span class="sxs-lookup"><span data-stu-id="e0791-107">Reset call admission control</span></span>](reset-call-admission-control.md)
+  - [<span data-ttu-id="1682d-107">通話受付管理のリセット</span><span class="sxs-lookup"><span data-stu-id="1682d-107">Reset call admission control</span></span>](reset-call-admission-control.md)
 
-  - [<span data-ttu-id="e0791-108">サービスのセッションの禁止</span><span class="sxs-lookup"><span data-stu-id="e0791-108">Prevent sessions for services</span></span>](prevent-sessions-for-services.md)
+  - [<span data-ttu-id="1682d-108">サービスのセッションの禁止</span><span class="sxs-lookup"><span data-stu-id="1682d-108">Prevent sessions for services</span></span>](prevent-sessions-for-services.md)
 
-  - [<span data-ttu-id="e0791-109">Lync Server 2010 サービスを停止する</span><span class="sxs-lookup"><span data-stu-id="e0791-109">Stop Lync Server 2010 services</span></span>](stop-lync-server-2010-services.md)
+  - [<span data-ttu-id="1682d-109">Lync Server 2010 サービスを停止する</span><span class="sxs-lookup"><span data-stu-id="1682d-109">Stop Lync Server 2010 services</span></span>](stop-lync-server-2010-services.md)
 
-  - [<span data-ttu-id="e0791-110">プールからのフロントエンド サーバーの削除</span><span class="sxs-lookup"><span data-stu-id="e0791-110">Remove a Front End Server from a pool</span></span>](remove-a-front-end-server-from-a-pool.md)
+  - [<span data-ttu-id="1682d-110">プールからのフロントエンド サーバーの削除</span><span class="sxs-lookup"><span data-stu-id="1682d-110">Remove a Front End Server from a pool</span></span>](remove-a-front-end-server-from-a-pool.md)
 
-  - [<span data-ttu-id="e0791-111">フロントエンド プールまたは Standard Edition サーバーの削除</span><span class="sxs-lookup"><span data-stu-id="e0791-111">Remove Front End pool or Standard Edition server</span></span>](remove-front-end-pool-or-standard-edition-server.md)
+  - [<span data-ttu-id="1682d-111">フロントエンド プールまたは Standard Edition サーバーの削除</span><span class="sxs-lookup"><span data-stu-id="1682d-111">Remove Front End pool or Standard Edition server</span></span>](remove-front-end-pool-or-standard-edition-server.md)
 
 </div>
 
