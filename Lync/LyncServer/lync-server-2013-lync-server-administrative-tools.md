@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Lync Server 管理ツール'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync Server administrative tools
 ms:assetid: 9b006f93-4f3d-461d-89b8-e80a34fdb3c5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg195756(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184972
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6756aee8d7c65b179fb5c1c15ca008b3bd205778
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a34561e9880870b53cd8f7aaad2fe13cfe33c8d4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832929"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742227"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ _**最終更新日:** 2013-02-21_
 
 各 Lync Server サーバーには、既定で管理ツールがインストールされています。 さらに、専用の管理コンソールなど、他のコンピューターにも管理ツールをインストールできます。 管理ツールをインストールする手順については、「 [Lync Server 2013 管理ツールをインストール](lync-server-2013-install-lync-server-administrative-tools.md)する」を参照してください。 管理タスクを実行するためのツールを開く手順については、「 [Lync Server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
-Lync Server 管理ツールをインストールまたは使用する前に、インフラストラクチャ、オペレーティングシステム、ソフトウェア、および管理者の権限の要件を確認してください。 インフラストラクチャの要件の詳細については、「 [Lync Server 2013 での管理ツールインフラストラクチャの要件](lync-server-2013-administrative-tools-infrastructure-requirements.md)」を参照してください。 Lync Server 管理ツールをインストールするためのオペレーティングシステムとソフトウェアの要件の詳細については、「 [lync server 2013 のサーバーとツールのオペレーティングシステムサポート](lync-server-2013-server-and-tools-operating-system-support.md)」、「 [lync server 2013 のその他のソフトウェア要件](lync-server-2013-additional-software-requirements.md)」を参照し[てください。Lync Server 2013 でのサーバーのサポートと要件が追加](lync-server-2013-additional-server-support-and-requirements.md)されています。 ツールをインストールして使用するために必要なユーザー権限とアクセス許可については、「 [Lync Server 2013 のセットアップと管理に必要な管理者権限とアクセス許可](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md)」を参照してください。
+Lync Server 管理ツールをインストールまたは使用する前に、インフラストラクチャ、オペレーティングシステム、ソフトウェア、および管理者の権限の要件を確認してください。 インフラストラクチャの要件の詳細については、「 [Lync Server 2013 での管理ツールインフラストラクチャの要件](lync-server-2013-administrative-tools-infrastructure-requirements.md)」を参照してください。 Lync Server 管理ツールをインストールするためのオペレーティングシステムとソフトウェアの要件の詳細については、「 [lync server 2013 のサーバーとツールのオペレーティングシステムサポート](lync-server-2013-server-and-tools-operating-system-support.md)」、「 [lync server 2013 のその他のソフトウェア要件](lync-server-2013-additional-software-requirements.md)」、「lync [server 2013 でのサーバーのサポートと要件](lync-server-2013-additional-server-support-and-requirements.md)」を参照してください。 ツールをインストールして使用するために必要なユーザー権限とアクセス許可については、「 [Lync Server 2013 のセットアップと管理に必要な管理者権限とアクセス許可](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md)」を参照してください。
 
 管理ツールは次の要素で構成されています。
 

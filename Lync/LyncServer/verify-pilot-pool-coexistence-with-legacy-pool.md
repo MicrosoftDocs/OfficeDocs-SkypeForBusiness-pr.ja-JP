@@ -3,6 +3,8 @@ title: パイロット プールとレガシ プールの共存の確認
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Verify pilot pool coexistence with legacy pool
 ms:assetid: fe7e14bb-c7eb-4719-b154-009e99360520
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205420(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185964
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7de258bff926e2e100fa7c9a4952a4d70ca64373
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fe3b3e04940c90cba4e46fc165c2494f77105667
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847927"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730897"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -87,7 +89,7 @@ Lync Server 2010 トポロジビルダーを使用してトポロジを開こう
 
 **Lync Server 2010 トポロジビルダーのエラーメッセージ**
 
-![Lync Server Topology BUILDER MMC スナップエラー](images/JJ205420.f6666343-c348-4d81-ae0e-6ba5a44e16c4(OCS.15).png "Lync Server Topology BUILDER MMC スナップエラー")
+![Lync Server Topology Builder MMC スナップエラー](images/JJ205420.f6666343-c348-4d81-ae0e-6ba5a44e16c4(OCS.15).png "Lync Server Topology Builder MMC スナップエラー")
 
 </div>
 

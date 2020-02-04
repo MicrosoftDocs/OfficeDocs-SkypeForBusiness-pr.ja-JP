@@ -3,6 +3,8 @@ title: 'Lync Server 2013: トポロジビルダーでゲートウェイを定義
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Define a gateway in Topology Builder
 ms:assetid: 456e5a96-d9f6-42a6-862c-a69464391628
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425945(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184036
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c9e57ad4e3d8c1692731bcfd4a56dc5c3d05bda
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 18f257648ba24930eaab0d314e34178ffd67a0c2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833727"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733657"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ _**最終更新日:** 2012-10-04_
 
 
 > [!NOTE]  
-> このトピックでは、次の説明に従って、少なくとも1つのセントラルサイトまたはスタンドアロンの仲介サーバーを持つ少なくとも1つのセントラルサイトに、少なくとも1つの内部のフロントエンドプールまたは Standard Edition サーバーを設定していることを前提としています。 <A href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">Lync server 2013</A>で、展開ドキュメントの<A href="lync-server-2013-publish-the-topology.md">lync server 2013 でトポロジを公開</A>します。 また、このトピックでは、組織が lync のエンタープライズ voip の<A href="lync-server-2013-software-prerequisites-for-enterprise-voice.md">ソフトウェア2013前提</A>条件を満たしていることを確認していることを前提としています。 lync<A href="lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md">でのエンタープライズ voip のセキュリティと構成の前提条件について説明します。サーバー 2013</A>。
+> このトピックでは、「 <A href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">Lync server 2013 でフロントエンドプールまたは Standard edition サーバーを定義して構成</A>する」に記載されているように、少なくとも1つのセントラルサイトまたはスタンドアロンの仲介サーバーを使用して、少なくとも1つの中央サイトまたは標準エディションのサーバーをセットアップ<A href="lync-server-2013-publish-the-topology.md">2013</A>していることを前提とします また、このトピックでは、組織が lync server 2013 のエンタープライズ Voip の<A href="lync-server-2013-software-prerequisites-for-enterprise-voice.md">ソフトウェア前提</A>条件と、 <A href="lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md">lync Server 2013 のエンタープライズ voip のセキュリティと構成の前提</A>条件について説明した前提条件を満たしていることを前提としていることを前提としています。
 
 
 

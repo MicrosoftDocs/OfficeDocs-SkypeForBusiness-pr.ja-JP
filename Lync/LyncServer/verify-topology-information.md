@@ -3,6 +3,8 @@ title: トポロジ情報を確認する
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Verify topology information
 ms:assetid: aa4c424e-f87c-4be6-8df6-a0cd193b11fc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205151(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185046
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7657bb80d7acb6d48a4027c665fae70e469bb236
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ec6c73f274cb67b527aaf1147f20e83959487255
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34847924"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730837"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -72,7 +74,7 @@ Lync Server 2013 コントロールパネルを使用して、結合されたト
 
 3.  [**状態**] タブで、[**サイト**] 列の [ **BackCompatSite** ] を探して、マージしたサーバーとプールが表示されていることを確認します。
 
-結合された![トポロジを示す Lync Server コントロールパネル]結合された(images/JJ205151.f986ddd4-2040-454d-9389-7f6154b59cc9(OCS.15).jpg "トポロジを示す Lync Server コントロールパネル")
+![結合されたトポロジを示す Lync Server コントロールパネル](images/JJ205151.f986ddd4-2040-454d-9389-7f6154b59cc9(OCS.15).jpg "結合されたトポロジを示す Lync Server コントロールパネル")
 
 マージされたプールの詳細については、「 **CsPool**コマンドレットを使用する」を参照してください。 このコマンドレットでは、トポロジビルダーと Lync Server 2013 コントロールパネルで利用できる情報に加えて、Lync Server 2013 プールで実行されるサービスを表示します。
 

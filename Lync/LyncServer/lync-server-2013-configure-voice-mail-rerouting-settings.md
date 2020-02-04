@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ボイス メール再ルーティング設定の構�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure voice mail rerouting settings
 ms:assetid: 7ab6be28-eabb-4a79-a796-648887d71b83
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398606(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184593
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73aa16f7c18665c0b74c1e31e2ce888abdbe1c5a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b4ea243e87490bcabd48c866cce525d6bbd17077
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840307"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733847"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,15 +45,15 @@ Exchange ユニファイドメッセージング (UM) がセントラルサイ�
 
 ## <a name="to-configure-voice-mail-survivability"></a>ボイスメールの survivability を構成するには
 
-1.  Exchange 管理者に、メッセージのみを受け取るように AA を構成するように依頼します (Exchange Shell では、次のコマンドレットを使用します。 **Set-UMAutoAttendant \<AA 名\> -calla oneenabled $false**。 メッセージを残すことを許可するように指定するパラメーター (*SendVoiceMsgEnabled*) は、既定では true です。
+1.  Exchange 管理者に、メッセージのみを受け取るように AA を構成するように依頼します (Exchange Shell では、次のコマンドレットを使用します。 **Set \<-umautoattendant AA 名\> -calla oneenabled $false**。 メッセージを残すことを許可するように指定するパラメーター (*SendVoiceMsgEnabled*) は、既定では true です。
 
-2.  Lync Server 管理シェルで、 **CSVoiceMailReroutingConfiguration**コマンドレットを使用して、Survivable Branch アプライアンスのボイスメール再ルーティング構成の Exchange UM 自動応答の電話番号として AA 電話番号を設定します。Survivable Branch Server。
+2.  Lync Server 管理シェルで、 **CSVoiceMailReroutingConfiguration**コマンドレットを使用して、Survivable branch Appliance または Survivable ブランチサーバー上のボイスメール再ルーティング構成の Exchange UM 自動応答の電話番号として AA 電話番号を設定します。
     
     <div>
     
 
     > [!NOTE]  
-    > 後でボイスメールの再ルーティング設定を変更する必要がある場合は、 <STRONG>CsVoiceMailReRoutingConfiguration</STRONG>コマンドレットを使用します。 詳細について<STRONG></STRONG>は、Shell のヘルプトピックを参照してください。 <STRONG>CSVoiceMailReroutingConfiguration</STRONG>の詳細については、こちらを参照してください。
+    > 後でボイスメールの再ルーティング設定を変更する必要がある場合は、 <STRONG>CsVoiceMailReRoutingConfiguration</STRONG>コマンドレットを使用します。 詳細については、Shell のヘルプトピックを参照してください。 <STRONG>CSVoiceMailReroutingConfiguration</STRONG>の詳細については、こちらを<STRONG>参照して</STRONG>ください。
 
     
     </div>

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ボイスルーティング構成ファイルをエク
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Export a voice route configuration file
 ms:assetid: 02ce922d-9ca8-4513-b09f-9de51f5c5bdc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398081(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183248
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d61bb4dfda9aa91191515f60b0a26b2665f31421
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 55ecc35d2724fa8c635b9d4099764c25e76874c9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833188"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756231"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34833188"
 
 _**最終更新日:** 2012-11-01_
 
-音声ルーティング構成を公開せずに保存する場合は、次の手順に従って、Lync Server コントロールパネルの構成のエクスポートとインポートのコマンドを使用して、ボイスルーティング構成のスナップショットを保存して取得します。 ボイスルーティング構成ファイル (vcfg) をインポートするときに、その間もサーバー上の音声ルーティング構成に変更が加えられた場合、Lync Server コントロールパネルの**ボイスルーティング**グループのページに、音声ルーティングのコミットしていない変更。 こうした未確定の変更は、調整が必要な 2 つの構成間の相違です。
+音声ルーティング構成を公開せずに保存する場合は、次の手順に従って、Lync Server コントロールパネルの構成のエクスポートとインポートのコマンドを使用して、ボイスルーティング構成のスナップショットを保存して取得します。 ボイスルーティング構成ファイル (vcfg) をインポートする場合は、その間もサーバー上の音声ルーティング構成に変更が加えられたため、Lync Server コントロールパネルの [**ボイスルーティング**] グループのページには、音声ルーティングに対する変更がコミットされていないことが示されます。 こうした未確定の変更は、調整が必要な 2 つの構成間の相違です。
 
 グループ内の任意のページの設定にコミットされていない変更を加えた場合、変更はエクスポートされた音声構成ファイル (vcfg) に保存されます。 これにより、変更を公開する前に、複数のセッション中にボイスルーティング構成の変更を行うことができます。
 

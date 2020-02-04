@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ネットワーク領域のリンク情報の表示'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Viewing network region link information
 ms:assetid: 7b6b2ea2-83d8-4376-afb2-70e5d2cf6444
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688102(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733701
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce5bec9bdc656a33a34727f29bfc56ad39b2476a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 935d1a98bd4f446ec8861ae8382eb724611a945f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848167"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757281"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34848167"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-23_
+_**トピックの最終更新日:** 2013-02-23_
 
 通話受付制御 (CAC) の一部として、2つのネットワーク領域間のリンクを表示することができます。 ネットワーク内の領域は、物理ワイドエリアネットワーク (WAN) 接続によってリンクされています。 Lync Server コントロールパネルを使用して、2つのネットワーク領域間の既存のリンクを表示することができます。 ネットワーク領域へのリンクの作成または変更の詳細については、「 [Lync Server 2013 でのネットワーク領域のリンクの構成](lync-server-2013-configuring-network-region-links.md)」を参照してください。
 
@@ -66,7 +68,7 @@ _**最終更新日:** 2013-02-23_
 
 ## <a name="viewing-network-region-link-information-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用したネットワーク領域のリンク情報の表示
 
-ネットワークの領域のリンクを表示するには、Windows PowerShell を使用するか、または**CsNetworkRegionLink**コマンドレットを使用します。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、「Lync Server Windows PowerShell のブログ記事」を参照してください[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。「リモート PowerShell を使用して Microsoft Lync Server 2010 を管理する」を参照してください。
+ネットワークの領域のリンクを表示するには、Windows PowerShell を使用するか、または**CsNetworkRegionLink**コマンドレットを使用します。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 <div>
 

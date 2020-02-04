@@ -3,6 +3,8 @@ title: アドレス帳の移行
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Migrate Address Book
 ms:assetid: ac7f0f39-4c6d-4702-8e25-93a73e3d800f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205160(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185064
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2293b7ad3e5ac14071bae4d5ecb935c24cfbb335
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b678dea3e8ad7f05f82d28dfdd23ad9e45b38e92
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848081"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765285"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -63,7 +65,7 @@ Lync Server 2010 環境でアドレス帳の正規化ルールをカスタマイ
 
 **UseNormalizationRules が False に設定**
 
-ユーザーが電話番号を使用できるように、 **UseNormalizationRules**の値を False に設定した場合、Lync Server 2013 で正規化ルールを適用することなく、Active Directory ドメインサービスで定義された電話番号を使用できるようにするには、UseNormalizationRules を設定する必要があります。 **** **Ignoregenericrules**パラメーターを True にします。 このセクションの後半の手順に従って、これらのパラメーターを True に設定します。
+ユーザーが電話番号を使用できるように、 **UseNormalizationRules**の値を False に設定した場合、Lync Server 2013 で正規化ルールを適用することなく、Active Directory ドメインサービスで定義された電話番号を使用できるようにするには、 **UseNormalizationRules**と**Ignoregenericrules**パラメーターを True に設定する必要があります。 このセクションの後半の手順に従って、これらのパラメーターを True に設定します。
 
 <div>
 
@@ -75,7 +77,7 @@ Lync Server 2010 環境でアドレス帳の正規化ルールをカスタマイ
     
 
     > [!NOTE]  
-    > サンプルのアドレス帳の正規化ルールは、ABS Web コンポーネントファイルディレクトリにインストールされています。 パスは<STRONG>$installedDriveLetter: Components\Address/Lync Server 2013 \ Web Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules、</STRONG>。 このファイルは、 &nbsp; <STRONG>Company_Phone_Number_Normalization_Rules</STRONG> &nbsp;として、アドレス帳の共有フォルダーのルートディレクトリにコピーし、名前を変更することができます。 たとえば、 <STRONG>$serverX</STRONG>&nbsp;で共有されているアドレス帳は、 <STRONG> \\$serverX \LyncFileShare\2-WebServices-1\ABFiles</STRONG>のようなパスになります。
+    > サンプルのアドレス帳の正規化ルールは、ABS Web コンポーネントファイルディレクトリにインストールされています。 パスは<STRONG>$installedDriveLetter: Components\Address/Lync Server 2013 \ Web Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules .txt、</STRONG>。 このファイルは、アドレス帳の共有&nbsp;フォルダーのルートディレクトリに<STRONG>Company_Phone_Number_Normalization_Rules .txt</STRONG> &nbsp;としてコピーし、名前を変更することができます。 たとえば、 <STRONG>$serverX</STRONG>&nbsp;で共有されているアドレス帳は、 <STRONG> \\$serverX \LyncFileShare\2-WebServices-1\ABFiles</STRONG>のようなパスになります。
 
     
     </div>
@@ -100,7 +102,7 @@ Lync Server 2010 環境でアドレス帳の正規化ルールをカスタマイ
 
 1.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
 
-2.  次のいずれかの操作を行います。
+2.  次のいずれかを実行します。
     
       - 展開に Lync Server 2013 のみが含まれている場合、次のコマンドレットをグローバルレベルで実行して、 **UseNormalizationRules**と**ignoregenericrules**の値を True に変更します。
         

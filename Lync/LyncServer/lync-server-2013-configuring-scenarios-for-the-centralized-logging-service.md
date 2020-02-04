@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 一元ログサービスのシナリオを構成する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring scenarios for the Centralized Logging Service
 ms:assetid: 6c3bf826-e7fd-4002-95dc-01020641ef01
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688085(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733682
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: abc0be2ac6459c34546de41ee7e2c709e0d0c0f8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cd3933ff81fad6947fcc4ab1ff7a7dc9ad136c39
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840183"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739227"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34840183"
 
 _**最終更新日:** 2014-02-05_
 
-シナリオでは、スコープ (つまり、グローバル、サイト、プール、またはコンピューター) と、一元管理サービスで使用するプロバイダーを定義します。 シナリオを使用して、プロバイダー (S4、SIPStack、IM、プレゼンスなど) のトレースを有効または無効にします。 シナリオを構成することで、特定の問題の条件に対応する特定の論理コレクションのすべてのプロバイダーをグループ化できます。 トラブルシューティングとログのニーズを満たすためにシナリオを変更する必要があることがわかった場合は、Lync Server 2013 デバッグツールによって、dlmigrationmodule.psm1 という名前の関数を含む Windows PowerShell モジュールが提供され*ます。* **. このモジュールの目的は、指定したシナリオのプロパティを編集することです。 このトピックでは、このモジュールの使用方法の例を示します。 Lync Server 2013 デバッグツールは、次のリンクからダウンロードされます。[http://go.microsoft.com/fwlink/?LinkId=285257](http://go.microsoft.com/fwlink/?linkid=285257)
+シナリオでは、スコープ (つまり、グローバル、サイト、プール、またはコンピューター) と、一元管理サービスで使用するプロバイダーを定義します。 シナリオを使用して、プロバイダー (S4、SIPStack、IM、プレゼンスなど) のトレースを有効または無効にします。 シナリオを構成することで、特定の問題の条件に対応する特定の論理コレクションのすべてのプロバイダーをグループ化できます。 トラブルシューティングとログのニーズに合わせてシナリオを変更する必要があることがわかった場合、Lync Server 2013 デバッグツールには、 *dlmigrationmodule.psm1* *という名前の*関数が含まれた Windows PowerShell モジュールが用意されています。 このモジュールの目的は、指定したシナリオのプロパティを編集することです。 このトピックでは、このモジュールの使用方法の例を示します。 Lync Server 2013 デバッグツールは、次のリンクからダウンロードされます。[http://go.microsoft.com/fwlink/?LinkId=285257](http://go.microsoft.com/fwlink/?linkid=285257)
 
 <div>
 

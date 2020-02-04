@@ -3,6 +3,8 @@ title: 拡張ディレクター プール - DNS 負荷分散とロード バラ�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Scaled Director pool - DNS load balancing and hardware load balancer
 ms:assetid: a1f6ffc0-9e6e-4217-a923-025c9679e154
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205142(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185023
 ms.date: 03/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1cd92304ca3a1147737958ad9d9fc94a49b2e5e2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 16203f7e291b7957793e71872483c93f2d1d04d0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822182"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764995"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ _**最終更新日:** 2012-10-22_
 
 次のトピックでは、DNS の負荷分散とハードウェアの負荷分散を使用して、ディレクタープールを展開する場合の計画に関する考慮事項について説明します。 ハードウェアの負荷分散は使用するが、ディレクタープールでは DNS の負荷分散を使用しない場合は、そのトポロジの計画要件について説明している「 [Lync Server 2013 のスケーリングされたディレクタープール-ハードウェアロードバランサー](lync-server-2013-scaled-director-pool-hardware-load-balancer.md) 」を参照してください。
 
-スケーリングされた![ディレクタープール]スケーリングされた(images/JJ205142.35a78a7a-b781-4c8f-951e-168451ba6a65(OCS.15).jpg "ディレクタープール")
+![スケーリングされたディレクタープール](images/JJ205142.35a78a7a-b781-4c8f-951e-168451ba6a65(OCS.15).jpg "スケーリングされたディレクタープール")
 
 <div>
 

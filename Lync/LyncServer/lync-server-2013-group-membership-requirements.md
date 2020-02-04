@@ -3,6 +3,8 @@ title: 'Lync Server 2013: グループ メンバーシップの要件'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Group membership requirements
 ms:assetid: 01876843-8717-4e72-baf5-866ac8cceee6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204623(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183239
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6aed308674cc334cfb8f3d4f214ce7388ae89fea
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 44ad8c7f6eab93f3bdcd7b73d4ae05bd3b2e25ad
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833123"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743347"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,7 +53,7 @@ _**最終更新日:** 2012-10-05_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong></strong> Setup.exe – Lync Server 2013 管理ツールのインストールを開始する実行可能ファイル。</p></td>
+<td><p><strong>Setup.exe – Lync</strong> Server 2013 管理ツールのインストールを開始する実行可能ファイル。</p></td>
 <td><p>実行可能ファイルを実行しているコンピューターのローカル管理者グループのメンバー。 Active Directory ドメインサービスの情報を読み取るためのドメインユーザーグループのメンバー。 ローカルコンピューターで必須の MSI パッケージを自動的にインストールするには、Program Files ディレクトリなどの保護されたローカルコンピューターリソースの読み取りと書き込みを許可する特権が必要となるため、このレベルのアクセス許可が必要です。ローカルコンピューターハイブなどのレジストリ。</p>
 <div>
 
@@ -78,7 +80,7 @@ _**最終更新日:** 2012-10-05_
 </tr>
 <tr class="even">
 <td><p><strong>TopologyBuilder</strong> – Lync Server 2013 トポロジの作成、表示、調整、検証を行うためのウィザードベースのユーザーインターフェイス。</p></td>
-<td><p>トポロジを表示するために、実行可能ファイルを実行しているコンピューターのローカル管理者グループのメンバー。 構成の設定を変更する RTCUniversalServerAdmins グループのメンバー。 トポロジを公開するには、RTCUniversalServerAdmins group と Domain Admins グループのメンバー、または RTCUniversalServerAdmins グループのメンバー (グループに委任の設定権限が付与されている場合のみ)。 RTCUniversalServerAdmins グループのメンバーが、Domain Admins グループのメンバーにならずにトポロジを公開できるようにするための、セットアップの権限の委任の詳細については、「展開の<a href="lync-server-2013-granting-setup-permissions.md">Lync Server 2013 でのセットアップ権限の付与</a>」を参照してください。documentation.</p></td>
+<td><p>トポロジを表示するために、実行可能ファイルを実行しているコンピューターのローカル管理者グループのメンバー。 構成の設定を変更する RTCUniversalServerAdmins グループのメンバー。 トポロジを公開するには、RTCUniversalServerAdmins group と Domain Admins グループのメンバー、または RTCUniversalServerAdmins グループのメンバー (グループに委任の設定権限が付与されている場合のみ)。 RTCUniversalServerAdmins グループのメンバーが、ドメイン管理者グループのメンバーにならずにトポロジを公開できるようにするための委任セットアップのアクセス許可の詳細については、「展開ドキュメントの「 <a href="lync-server-2013-granting-setup-permissions.md">Lync Server 2013 でのセットアップアクセス許可の付与</a>」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>AdminUIHost</strong> – Lync Server 2013 を管理するための Web ベースのグラフィカルユーザーインターフェイスです。</p></td>

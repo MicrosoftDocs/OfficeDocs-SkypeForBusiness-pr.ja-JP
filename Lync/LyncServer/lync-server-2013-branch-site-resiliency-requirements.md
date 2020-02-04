@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ブランチ サイトの復元要件'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Branch-site resiliency requirements
 ms:assetid: a570922c-52bd-42d7-bd64-226578b3d110
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412772(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184984
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7ff969638f8c46abdd0ebcc8d11821a6a31b3c76
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4f146f2c358e6eb6718aa60f8a51106430e6a4a3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840761"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741637"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -61,7 +63,7 @@ _**最終更新日:** 2014-02-25_
 
 ## <a name="voice-routing-for-branch-users"></a>ブランチ ユーザーの音声ルーティング
 
-ブランチサイトのユーザーに対して、個別のユーザーレベルのボイスメールインターネットプロトコル (VoIP) ポリシーを作成することをお勧めします。 このポリシーには、Survivable Branch Appliance またはブランチサーバーゲートウェイを使用するプライマリルートと、セントラルサイトで公衆交換電話網 (PSTN) ゲートウェイを使用するトランクを使用する1つ以上のバックアップルートを含める必要があります。 プライマリルートを使用できない場合は、1つ以上のセントラルサイトゲートウェイを使用するバックアップルートが代わりに使用されます。 この方法では、ユーザーが登録されている場所に関係なく、ブランチサイトレジストラーまたはセントラルサイトのバックアップレジストラープールで、ユーザーの VoIP ポリシーが常に有効になります。 これは、フェールオーバーシナリオの重要な考慮事項です。 たとえば、Survivable Branch Appliance の名前を変更する必要がある場合、または Survivable Branch アプライアンスを再構成してセントラルサイトのバックアップレジストラープールに接続する必要がある場合は、その期間、ブランチサイトユーザーをセントラルサイトに移動する必要があります。 (Survivable Branch アプライアンスの名前の変更または再構成の詳細については、「[付録 B: 展開ドキュメントの Lync Server 2013 で Survivable Branch appliance を管理](lync-server-2013-appendix-b-managing-a-survivable-branch-appliance.md)する」を参照してください。)ユーザーレベルの VoIP ポリシーまたはユーザーレベルのダイヤルプランを持っていない場合、そのユーザーが別のサイトに移動されると、セントラルサイトのサイトレベルの VoIP ポリシーとサイトレベルのダイヤルプランは、ブランチサイトレベルの VoIP ではなく、既定でユーザーに適用されます。ポリシーとダイヤルプラン。 このシナリオでは、バックアップレジストラープールで使用されるサイトレベルの VoIP ポリシーやサイトレベルのダイヤルプランもブランチサイトユーザーに適用できる場合を除き、その呼び出しは失敗します。 たとえば、日本に配置されている支店のユーザーが Redmond のセントラルサイトに移動した場合、すべての7桁の通話に + 1425 を付加する正規化ルールが適用されているダイヤルプランでは、これらのユーザーへの通話を適切に翻訳できない可能性があります。
+ブランチサイトのユーザーに対して、個別のユーザーレベルのボイスメールインターネットプロトコル (VoIP) ポリシーを作成することをお勧めします。 このポリシーには、Survivable Branch Appliance またはブランチサーバーゲートウェイを使用するプライマリルートと、セントラルサイトで公衆交換電話網 (PSTN) ゲートウェイを使用するトランクを使用する1つ以上のバックアップルートを含める必要があります。 プライマリルートを使用できない場合は、1つ以上のセントラルサイトゲートウェイを使用するバックアップルートが代わりに使用されます。 この方法では、ユーザーが登録されている場所に関係なく、ブランチサイトレジストラーまたはセントラルサイトのバックアップレジストラープールで、ユーザーの VoIP ポリシーが常に有効になります。 これは、フェールオーバーシナリオの重要な考慮事項です。 たとえば、Survivable Branch Appliance の名前を変更する必要がある場合、または Survivable Branch アプライアンスを再構成してセントラルサイトのバックアップレジストラープールに接続する必要がある場合は、その期間、ブランチサイトユーザーをセントラルサイトに移動する必要があります。 (Survivable Branch アプライアンスの名前の変更または再構成の詳細については、「[付録 B: 展開ドキュメントの Lync Server 2013 で Survivable Branch appliance を管理](lync-server-2013-appendix-b-managing-a-survivable-branch-appliance.md)する」を参照してください。)このようなユーザーが、ユーザーレベルの VoIP ポリシーまたはユーザーレベルのダイヤルプランを持っていない場合は、ユーザーが別のサイトに移動すると、ブランチサイトのサイトレベルの VoIP ポリシーとダイヤルプランの代わりに、セントラルサイトのサイトレベルの VoIP ポリシーとサイトレベルのダイヤルプランが既定でユーザーに適用されます。 このシナリオでは、バックアップレジストラープールで使用されるサイトレベルの VoIP ポリシーやサイトレベルのダイヤルプランもブランチサイトユーザーに適用できる場合を除き、その呼び出しは失敗します。 たとえば、日本に配置されている支店のユーザーが Redmond のセントラルサイトに移動した場合、すべての7桁の通話に + 1425 を付加する正規化ルールが適用されているダイヤルプランでは、これらのユーザーへの通話を適切に翻訳できない可能性があります。
 
 <div>
 
@@ -195,7 +197,7 @@ Survivable Branch Appliance サイトのブランチゲートウェイまたは 
 
 WAN リンクが使用できるかどうかにかかわらず、組織で個々のユーザーに DID 番号を構成しないで、ユーザーの回線 URI に組織の電話番号とユーザーの一意の内線番号を含める場合は、組織の電話番号の回線 URI を、ブランチ サイトのトランク ピアまたは PSTN ゲートウェイから到達可能な番号で構成する必要があります。また、組織の電話番号の回線 URI に独自の一意の内線番号を含めて、その番号に通話をルーティングする必要もあります。
 
-サイト間の WAN リンクが利用できない場合の中央サイトユーザーからブランチサイトユーザーへの通話について詳しくは、このトピックの後半の「ボイスメールの Survivability の準備」をご覧ください。 ダイヤルプランと正規化ルールの詳細 (その他のサンプルルールを含む) については、「展開の lync server [2013 で](lync-server-2013-configuring-dial-plans.md)の計画ドキュメント」および[2013](lync-server-2013-dial-plans-and-normalization-rules.md) 「ダイヤルプランの構成」を参照してください。documentation. 送信翻訳ルールの詳細については、「計画ドキュメントの「 [Lync server 2013 の翻訳ルール](lync-server-2013-translation-rules.md)」および「展開ドキュメントの[lync server 2013 での翻訳ルールの定義](lync-server-2013-defining-translation-rules.md)」を参照してください。
+サイト間の WAN リンクが利用できない場合の中央サイトユーザーからブランチサイトユーザーへの通話について詳しくは、このトピックの後半の「ボイスメールの Survivability の準備」をご覧ください。 その他のサンプルルールなど、ダイヤルプランと正規化ルールの詳細については、展開ドキュメントの「会議の計画と lync [server 2013 でのダイヤルプランの構成](lync-server-2013-configuring-dial-plans.md)」を参照して[2013](lync-server-2013-dial-plans-and-normalization-rules.md)ください。 送信翻訳ルールの詳細については、「計画ドキュメントの「 [Lync server 2013 の翻訳ルール](lync-server-2013-translation-rules.md)」および「展開ドキュメントの[lync server 2013 での翻訳ルールの定義](lync-server-2013-defining-translation-rules.md)」を参照してください。
 
 </div>
 

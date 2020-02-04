@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 常設チャット サーバーの新機能'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: New Persistent Chat Server features
 ms:assetid: c3ec6f33-6261-4bf5-aa31-baa8ab2a87d8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412965(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185341
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e6d5cd0b8197b64abfc0761dfb333f338b507ff7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fe207d2469a36d880e9ed519ff1d47d942ed79aa
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826207"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755911"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -67,7 +69,7 @@ Lync 2013 では、常設チャット機能は Lync 2013 クライアントに�
 
   - 常設チャットのヘルプ<http://go.microsoft.com/fwlink/p/?linkid=270945>では、常設チャットの機能の詳細な一覧、機能、および常設チャットサーバーの実行時に使用する方法について説明します。
 
-  - 計画ドキュメントの[Lync server 2013 での常設チャットサーバーの計画](lync-server-2013-planning-for-persistent-chat-server.md)、展開ドキュメントの[lync server 2013 での常設チャットサーバーの展開](lync-server-2013-deploying-persistent-chat-server.md)、 [Lync server 2010 からの移行、グループチャット、または OfficeCommunications Server 2007 R2 グループチャット: 移行ドキュメントの Lync Server 2013、常設チャットサーバー](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md) 、および運用ドキュメントでの[lync server 2013、常設チャットサーバーの管理](managing-lync-server-2013-persistent-chat-server.md)について説明します。常設チャットサーバーを設定しています。
+  - 計画ドキュメントの[Lync server 2013 での常設チャットサーバーの計画](lync-server-2013-planning-for-persistent-chat-server.md)展開ドキュメントの[lync server 2013 での常設チャットサーバーの展開](lync-server-2013-deploying-persistent-chat-server.md)、 [Lync server 2010 からの移行、グループチャットまたは Office Communications server 2007 R2 グループチャットから Lync server 2013 への移行](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md)、lync server [2013、](managing-lync-server-2013-persistent-chat-server.md)常設チャットサーバーの管理については、こちらを参照してください。常設チャットサーバー。
 
   - 常設チャットサーバーのドキュメント .msi ファイル (Windows Installer ファイル) を使用すると、ユーザーは常設チャットサーバーに関する包括的なオフラインドキュメントにアクセスできます。
 

@@ -3,6 +3,8 @@ title: 通話受付制御の要件を収集する例
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Example of gathering your requirements for call admission control
 ms:assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425827(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183820
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e17d9abb0387f0d77c696487558dec0c915b1651
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 345f5d7e41dd9da3e6d68c59ce9656d3052c57b5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833218"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756271"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -67,7 +69,7 @@ _**最終更新日:** 2012-09-21_
     
     **3 つのネットワーク地域に分けられたエンタープライズ ネットワークの例**
     
-    ![3 つのネットワークリージョンでのネットワークトポロジの例](images/Gg425827.08937347-250f-488f-ba5f-c256e6afcd8b(OCS.15).jpg "3 つのネットワークリージョンでのネットワークトポロジの例")  
+    ![3 つのネットワーク地域が含まれるネットワーク トポロジの例](images/Gg425827.08937347-250f-488f-ba5f-c256e6afcd8b(OCS.15).jpg "3 つのネットワーク地域が含まれるネットワーク トポロジの例")  
     
     <div>
     
@@ -193,7 +195,7 @@ _**最終更新日:** 2012-09-21_
     
     **帯域幅の制限がない 3 つのネットワーク サイト (シカゴ、ニューヨーク、デトロイト) および WAN 帯域幅の制限がある 3 つのネットワーク サイト (ポートランド、リノ、アルバカーキ) を持つ CAC ネットワーク地域、北アメリカ**
     
-    ![WAN の帯域幅によって制約]されたネットワークサイトの例(images/Gg425827.d9d1f231-db4d-4dd7-8fbc-eb0b6d1e705d(OCS.15).jpg "WAN の帯域幅によって制約")されたネットワークサイトの例  
+    ![WAN 帯域幅による制限があるネットワーク サイトの例](images/Gg425827.d9d1f231-db4d-4dd7-8fbc-eb0b6d1e705d(OCS.15).jpg "WAN 帯域幅による制限があるネットワーク サイトの例")  
 
 5.  帯域幅の制限がある WAN リンクに対して、次の項目を決定します。
     
@@ -529,7 +531,7 @@ _**最終更新日:** 2012-09-21_
     
     **Reno とアルバカーキの間にあるサイト間リンクの帯域幅と帯域幅の制限を示す CAC ネットワークの地域 (北アメリカ)**
     
-    ![WAN の帯域幅の例によって制約]されたネットワークサイト(images/Gg425827.063e5e1d-b6c8-4e8c-98db-c227c78f671d(OCS.15).jpg "WAN の帯域幅の例によって制約")されたネットワークサイト  
+    ![WAN 帯域幅による制限があるネットワーク サイトの例](images/Gg425827.063e5e1d-b6c8-4e8c-98db-c227c78f671d(OCS.15).jpg "WAN 帯域幅による制限があるネットワーク サイトの例")  
     
     ### <a name="bandwidth-information-for-an-inter-site-link-between-two-network-sites-bandwidth-in-kbps"></a>2つのネットワークサイト間のサイト間リンクの帯域幅情報 (kbps 単位の帯域幅)
     

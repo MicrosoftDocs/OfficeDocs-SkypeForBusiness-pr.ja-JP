@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ベストプラクティスアナライザーからレ
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Viewing reports from Best Practices Analyzer
 ms:assetid: 7217a47b-36b1-4923-81ea-df754cff29bb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg607690(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184465
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fb2c229d683ecd0dcf4fee94b456514527226152
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e79732661152ba0929b62ae64f46b0cbfdb95217
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848155"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757241"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -83,7 +85,7 @@ _**最終更新日:** 2012-09-21_
       - 他のレポートを表示するには、[**その他のレポート**] をクリックします。
     
     > [!NOTE]  
-    > ベストプラクティスアナライザーレポートとその報告される問題の詳細については、「 <A href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">Lync Server 2013 のベストプラクティスアナライザーによって作成されたレポートの表示と操作</A>」と「<A href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">ベストプラクティスによって識別される問題の分析と解決」を参照してください。Lync Server 2013 のアナライザー</A>
+    > ベストプラクティスアナライザーレポートとそれらの特定の問題について詳しくは、「 <A href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">Lync server 2013 のベストプラクティスアナライザーで作成されたレポートの表示と操作</A>」と「 <A href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">lync server 2013 でのベストプラクティスアナライザーによって識別される問題の分析と解決</A>」をご覧ください。
 
 </div>
 

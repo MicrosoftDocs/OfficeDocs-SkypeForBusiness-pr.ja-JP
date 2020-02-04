@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 場所に基づくルーティングとコンサルテ
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Location-Based Routing and consultative call transfers
 ms:assetid: b12460c2-36c8-481f-b867-fe10dc1c0bdf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362836(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 56335089
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d7c7b73efb670c5569b8c4600c1759e981cda211
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4e433baf180b8e4abf50ec374848204bf6628eb0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832938"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765335"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ Lync 会議への位置情報に基づくルーティングを適用すること
 
 **取次通話転送の通話フロー**
 
-![会議図の位置情報に基づくルーティング](images/Dn362836.e4d43d6f-23d2-49c9-b12b-15248a743f92(OCS.15).jpg "会議図の位置情報に基づくルーティング")
+![会議の位置情報に基づくルーティングの図](images/Dn362836.e4d43d6f-23d2-49c9-b12b-15248a743f92(OCS.15).jpg "会議の位置情報に基づくルーティングの図")
 
 位置情報に基づくルーティングが有効になっている場合、PSTN エンドポイント (上の図に示されているように) によって、2つのアクティブな通話、PSTN ユーザー A と Lync ユーザー A との間の通話、および Lync ユーザー A と Lync ユーザー B 間の通話が1つ作成されます。次の動作は、場所に基づくルーティング会議アプリケーションによって適用されます。
 

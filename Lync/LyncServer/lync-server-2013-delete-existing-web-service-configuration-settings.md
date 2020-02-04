@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 既存の Web サービス構成設定を削除する'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Delete existing Web Service configuration settings
 ms:assetid: c2b96f4c-4b07-48e6-9ca6-55bc0e0cf5a1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182582(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185333
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: faecc3675e4ed22e6bab3a85825ae65c50a8511f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0eb310836e78d46f94412018f3034a4a5f7d7173
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833595"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734223"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34833595"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-23_
+_**トピックの最終更新日:** 2013-02-23_
 
 Web サービス構成設定を削除するには、次の手順を実行します。
 
@@ -59,7 +61,7 @@ Web サービス構成設定を削除するには、次の手順を実行しま�
 
 ## <a name="deleting-web-service-configuration-settings-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して Web サービスの構成設定を削除する
 
-Web サービス構成設定は、Windows PowerShell と**CsWebServiceConfiguration**コマンドレットを使用して削除できます。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、「Lync Server Windows PowerShell のブログ記事」を参照してください[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。「リモート PowerShell を使用して Microsoft Lync Server 2010 を管理する」を参照してください。
+Web サービス構成設定は、Windows PowerShell と**CsWebServiceConfiguration**コマンドレットを使用して削除できます。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 <div>
 

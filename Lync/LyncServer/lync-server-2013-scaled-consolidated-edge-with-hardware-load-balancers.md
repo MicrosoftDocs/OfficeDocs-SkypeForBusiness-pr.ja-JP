@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ハードウェア ロード バランサーによる�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Scaled consolidated edge with hardware load balancers
 ms:assetid: 6783e225-9677-415a-8731-0bf2e2c4cf8b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398478(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184353
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3aa5a395c8509961937af23c12763a5bf55cc326
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5fe027019953175c0ac6ede51a86ad3a300c2681
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822574"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732667"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**最終更新日:** 2012-10-21_
 
 エッジプールのトポロジでは、2つ以上のエッジサーバーが、データセンターの境界ネットワークの負荷分散プールとして展開されます。 ハードウェア負荷分散は、外部および内部エッジサーバーインターフェイスの両方へのトラフィックに使用されます。
 
-15000アクセスエッジサービスクライアント接続、1000アクティブ Web 会議エッジサービスクライアント接続、または500同時 A/V Edge サービスセッションをサポートする必要がある組織では、microsoft Edge Server の高可用性が重要です。このトポロジでは、スケーラビリティとフェールオーバーのサポートについての利点があります。
+15000アクセスエッジサービスクライアント接続、1000アクティブ Web 会議エッジサービスのクライアント接続、または500の同時 A/V Edge サービスセッションのサポートが必要な組織では、このトポロジでスケーラビリティとフェールオーバーのサポートについての利点があります。
 
 この図には、エッジサーバーとフロントエンドプールまたはサーバー間の内部ネットワークに展開されたオプションのサーバー役割であるダイレクタは表示されません。 . ディレクターのトポロジの詳細については、「 [Lync Server 2013 でディレクターに必要なコンポーネント](lync-server-2013-components-required-for-the-director.md)」を参照してください。
 

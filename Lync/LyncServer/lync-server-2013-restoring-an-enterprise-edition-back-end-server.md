@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Enterprise Edition バックエンドサーバーの�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Restoring an Enterprise Edition Back End Server
 ms:assetid: 1450eb4e-3315-4d02-8f02-6e1791fb1550
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202163(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541446
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e0121ee654846bcb60acc6da6847995b967a880
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2bd57054505b3200f63bed8a60c47b400f7e7642
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823050"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733227"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ _**最終更新日:** 2013-02-18_
 
   - ミラーリングされていない Enterprise Edition バックエンドサーバーで障害が発生します。
 
-ミラー化された Enterprise Edition バックエンドがあり、ミラーまたはプライマリデータベースのみが失敗する場合は、「 [Lync Server 2013 でのミラーリングされた Enterprise Edition バックエンドサーバーの復元](lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-primary.md)」を参照してください。プライマリデータベースの復元とミラー化された[ミラーの復元Lync Server 2013 の Enterprise Edition バックエンドサーバー-](lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md)ミラーを復元するためのミラー。
+ミラー化された Enterprise Edition バックエンドがあり、ミラーまたはプライマリデータベースのみが失敗した場合は、「 [Lync server 2013](lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-primary.md)でのミラーリングされた enterprise edition バックエンドサーバーの復元」を参照してください。プライマリデータベースを復元し、ミラー化された Enterprise [Edition バックエンドサーバーを lync server 2013-mirror で](lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md)復元します。
 
 サーバーの全体管理ストアでエラーが発生した場合は、「 [Lync server 2013 で中央管理ストアをホストしているサーバーの復元](lync-server-2013-restoring-the-server-hosting-the-central-management-store.md)」を参照してください。 バックエンドサーバーではない Enterprise Edition のメンバーサーバーに障害が発生した場合は、「 [Lync server 2013 で Enterprise edition のメンバーサーバーを復元](lync-server-2013-restoring-an-enterprise-edition-member-server.md)する」を参照してください。
 
@@ -112,7 +114,7 @@ _**最終更新日:** 2013-02-18_
     
 
     > [!TIP]  
-    > トポロジビルダーを実行する代わりに、 <STRONG>CsMirrorDatabase</STRONG>コマンド<STRONG></STRONG>レットを使用して各データベースを作成し、このコマンドレットを使ってミラーリングを構成することができます。 詳細については、「Lync Server 管理シェルのドキュメント」を参照してください。
+    > トポロジビルダーを実行する代わりに、 <STRONG>CsMirrorDatabase</STRONG>コマンド<STRONG>レットを</STRONG>使用して各データベースを作成し、このコマンドレットを使ってミラーリングを構成することができます。 詳細については、「Lync Server 管理シェルのドキュメント」を参照してください。
 
     
     </div>
