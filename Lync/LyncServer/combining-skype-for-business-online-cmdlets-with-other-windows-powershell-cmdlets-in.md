@@ -4,6 +4,8 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Combining Skype for Business Online cmdlets with other Windows PowerShell cmdlets
 ms:assetid: 8bb8800a-f966-4570-8c8b-db87a91ad783
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362816(v=OCS.15)
@@ -11,12 +13,12 @@ ms:contentKeyID: 56558835
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: afcd352521285e619c9ceeb55a0699b4d4ea73e7
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e7d0dd6070eb3c69b23f03e56bf542025c221b15
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233055"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727983"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -24,7 +26,7 @@ ms.locfileid: "36233055"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="combining-skype-for-business-online-cmdlets-with-other-windows-powershell-cmdlets-in"></a><span data-ttu-id="0ff1d-102">Skype for Business Online のコマンドレットと他の Windows PowerShell コマンドレットの組み合わせ</span><span class="sxs-lookup"><span data-stu-id="0ff1d-102">Combining Skype for Business Online cmdlets with other Windows PowerShell cmdlets in</span></span>
+# <a name="combining-skype-for-business-online-cmdlets-with-other-windows-powershell-cmdlets-in"></a><span data-ttu-id="55ff4-102">Skype for Business Online のコマンドレットと他の Windows PowerShell コマンドレットの組み合わせ</span><span class="sxs-lookup"><span data-stu-id="55ff4-102">Combining Skype for Business Online cmdlets with other Windows PowerShell cmdlets in</span></span>
 
 </div>
 
@@ -34,44 +36,44 @@ ms.locfileid: "36233055"
 
 <span> </span>
 
-<span data-ttu-id="0ff1d-103">_**最終更新日:** 2013-07-05_</span><span class="sxs-lookup"><span data-stu-id="0ff1d-103">_**Topic Last Modified:** 2013-07-05_</span></span>
+<span data-ttu-id="55ff4-103">_**最終更新日:** 2013-07-05_</span><span class="sxs-lookup"><span data-stu-id="55ff4-103">_**Topic Last Modified:** 2013-07-05_</span></span>
 
-<span data-ttu-id="0ff1d-104">Windows PowerShell を使用して Skype for Business Online に接続すると、約 40 Skype for Business Online のコマンドレットが使用できるようになります。</span><span class="sxs-lookup"><span data-stu-id="0ff1d-104">When you connect to Skype for Business Online by using Windows PowerShell, approximately 40 Skype for Business Online cmdlets will available for your use.</span></span> <span data-ttu-id="0ff1d-105">ただし、Skype for Business Online を管理している場合は、これらの40コマンドレットのみを使用するように制限されているわけではありません。</span><span class="sxs-lookup"><span data-stu-id="0ff1d-105">However, you are not limited to using just those 40 cmdlets when managing Skype for Business Online.</span></span> <span data-ttu-id="0ff1d-106">Skype for Business Online のコマンドレットに加えて、コンピューターにインストールされている他の Windows PowerShell コマンドレットを使うこともできます。</span><span class="sxs-lookup"><span data-stu-id="0ff1d-106">In addition to the Skype for Business Online cmdlets, you can also use any other Windows PowerShell cmdlets that are installed on your computer.</span></span> <span data-ttu-id="0ff1d-107">(Windows PowerShell 3.0 をインストールすると、数百種類の Windows PowerShell コマンドレットもインストールされます。)コマンドでは、Skype for Business Online のコマンドレットと、コンピューターで利用できるその他のコマンドレットを混在させることができます。</span><span class="sxs-lookup"><span data-stu-id="0ff1d-107">(When you install Windows PowerShell 3.0, hundreds of core Windows PowerShell cmdlets are installed, as well.) Your commands can mix and match Skype for Business Online cmdlets and any other cmdlets available on your computer.</span></span>
+<span data-ttu-id="55ff4-104">Windows PowerShell を使用して Skype for Business Online に接続すると、約 40 Skype for Business Online のコマンドレットが使用できるようになります。</span><span class="sxs-lookup"><span data-stu-id="55ff4-104">When you connect to Skype for Business Online by using Windows PowerShell, approximately 40 Skype for Business Online cmdlets will available for your use.</span></span> <span data-ttu-id="55ff4-105">ただし、Skype for Business Online を管理している場合は、これらの40コマンドレットのみを使用するように制限されているわけではありません。</span><span class="sxs-lookup"><span data-stu-id="55ff4-105">However, you are not limited to using just those 40 cmdlets when managing Skype for Business Online.</span></span> <span data-ttu-id="55ff4-106">Skype for Business Online のコマンドレットに加えて、コンピューターにインストールされている他の Windows PowerShell コマンドレットを使うこともできます。</span><span class="sxs-lookup"><span data-stu-id="55ff4-106">In addition to the Skype for Business Online cmdlets, you can also use any other Windows PowerShell cmdlets that are installed on your computer.</span></span> <span data-ttu-id="55ff4-107">(Windows PowerShell 3.0 をインストールすると、数百種類の Windows PowerShell コマンドレットもインストールされます。)コマンドでは、Skype for Business Online のコマンドレットと、コンピューターで利用できるその他のコマンドレットを混在させることができます。</span><span class="sxs-lookup"><span data-stu-id="55ff4-107">(When you install Windows PowerShell 3.0, hundreds of core Windows PowerShell cmdlets are installed, as well.) Your commands can mix and match Skype for Business Online cmdlets and any other cmdlets available on your computer.</span></span>
 
-<span data-ttu-id="0ff1d-108">Windows PowerShell 3.0 の完全なコースはこの記事の範囲を超えていますが、コマンドレットを混在させて対応する理由を示すいくつかの例を次に示します。</span><span class="sxs-lookup"><span data-stu-id="0ff1d-108">Although a complete course in Windows PowerShell 3.0 goes beyond the scope of this article, here are a few examples that show why you might want to mix and match cmdlets.</span></span> <span data-ttu-id="0ff1d-109">まず、Skype for Business Online のコマンドレットには [印刷] コマンドが含まれていません。このコマンドは、Windows PowerShell コンソールでは見つかりません。</span><span class="sxs-lookup"><span data-stu-id="0ff1d-109">First of all, none of the Skype for Business Online cmdlets include a Print command, and no such command can be found in the Windows PowerShell console, either.</span></span> <span data-ttu-id="0ff1d-110">それでは、コマンドレットによって取得された情報の印刷イメージを取得するにはどうすればよいですか?</span><span class="sxs-lookup"><span data-stu-id="0ff1d-110">So how do you get a printout of the information retrieved by a cmdlet?</span></span> <span data-ttu-id="0ff1d-111">1つ目の方法は、情報を取得し、その情報を**Printer**コマンドレットに送信することです。</span><span class="sxs-lookup"><span data-stu-id="0ff1d-111">One way is to retrieve the information, and then send that information to the **Out-Printer** cmdlet:</span></span>
+<span data-ttu-id="55ff4-108">Windows PowerShell 3.0 の完全なコースはこの記事の範囲を超えていますが、コマンドレットを混在させて対応する理由を示すいくつかの例を次に示します。</span><span class="sxs-lookup"><span data-stu-id="55ff4-108">Although a complete course in Windows PowerShell 3.0 goes beyond the scope of this article, here are a few examples that show why you might want to mix and match cmdlets.</span></span> <span data-ttu-id="55ff4-109">まず、Skype for Business Online のコマンドレットには [印刷] コマンドが含まれていません。このコマンドは、Windows PowerShell コンソールでは見つかりません。</span><span class="sxs-lookup"><span data-stu-id="55ff4-109">First of all, none of the Skype for Business Online cmdlets include a Print command, and no such command can be found in the Windows PowerShell console, either.</span></span> <span data-ttu-id="55ff4-110">それでは、コマンドレットによって取得された情報の印刷イメージを取得するにはどうすればよいですか?</span><span class="sxs-lookup"><span data-stu-id="55ff4-110">So how do you get a printout of the information retrieved by a cmdlet?</span></span> <span data-ttu-id="55ff4-111">1つ目の方法は、情報を取得し、その情報を**Printer**コマンドレットに送信することです。</span><span class="sxs-lookup"><span data-stu-id="55ff4-111">One way is to retrieve the information, and then send that information to the **Out-Printer** cmdlet:</span></span>
 
     Get-CsTenant | Out-Printer
 
-<span data-ttu-id="0ff1d-112">追加のパラメーターは含まれていないため、 **Out-Printer**コマンドレットによって返されるすべての情報は、既定のプリンターに印刷されます。</span><span class="sxs-lookup"><span data-stu-id="0ff1d-112">Because no additional parameters are included, all the information returned by **the Out-Printer** cmdlet will be printed to the default printer.</span></span>
+<span data-ttu-id="55ff4-112">追加のパラメーターは含まれていないため、 **Out-Printer**コマンドレットによって返されるすべての情報は、既定のプリンターに印刷されます。</span><span class="sxs-lookup"><span data-stu-id="55ff4-112">Because no additional parameters are included, all the information returned by **the Out-Printer** cmdlet will be printed to the default printer.</span></span>
 
-<span data-ttu-id="0ff1d-113">同様に、Skype for Business Online のコマンドレットには、データをファイルに保存するためのパラメーターが含まれていません。</span><span class="sxs-lookup"><span data-stu-id="0ff1d-113">Likewise, none of the Skype for Business Online cmdlets include a parameter that allows you to save data to a file.</span></span> <span data-ttu-id="0ff1d-114">ただし、このコマンドでは、**出力ファイル**コマンドレットを使用して、返された情報をテキストファイル C\\:\\Logs: .txt に保存します。</span><span class="sxs-lookup"><span data-stu-id="0ff1d-114">But that’s OK: this command uses the **Out-File** cmdlet to save the returned information to the text file C:\\Logs\\Tenants.txt:</span></span>
+<span data-ttu-id="55ff4-113">同様に、Skype for Business Online のコマンドレットには、データをファイルに保存するためのパラメーターが含まれていません。</span><span class="sxs-lookup"><span data-stu-id="55ff4-113">Likewise, none of the Skype for Business Online cmdlets include a parameter that allows you to save data to a file.</span></span> <span data-ttu-id="55ff4-114">ただし、このコマンドでは、**出力ファイル**コマンドレットを使用して、返された情報をテキストファイル C\\:\\Logs: .txt に保存します。</span><span class="sxs-lookup"><span data-stu-id="55ff4-114">But that’s OK: this command uses the **Out-File** cmdlet to save the returned information to the text file C:\\Logs\\Tenants.txt:</span></span>
 
     Get-Tenant | Out-File -FilePath "C:\Logs\Tenants.txt"
 
-<span data-ttu-id="0ff1d-115">このコマンドは、**オブジェクトの選択**コマンドレットを使って、画面に表示されるデータを制限します。</span><span class="sxs-lookup"><span data-stu-id="0ff1d-115">And this command uses the **Select-Object** cmdlet to limit the data that is returned and displayed onscreen.</span></span> <span data-ttu-id="0ff1d-116">この例では、[ユーザーのアクセス](https://technet.microsoft.com/en-us/library/JJ994026(v=OCS.15))コマンドレットを使用して、すべての Skype For business Online ユーザーに関する情報を取得し、次に**Select-Object**コマンドレットを使用して、表示するデータをユーザーの id 値とそのアーカイブポリシーに制限します。</span><span class="sxs-lookup"><span data-stu-id="0ff1d-116">In this example, the [Get-CsOnlineUser](https://technet.microsoft.com/en-us/library/JJ994026(v=OCS.15)) cmdlet retrieves information for all of your Skype for Business Online users, and then the **Select-Object** cmdlet is used to limit the displayed data to the user’s Identity value and their archiving policy:</span></span>
+<span data-ttu-id="55ff4-115">このコマンドは、**オブジェクトの選択**コマンドレットを使って、画面に表示されるデータを制限します。</span><span class="sxs-lookup"><span data-stu-id="55ff4-115">And this command uses the **Select-Object** cmdlet to limit the data that is returned and displayed onscreen.</span></span> <span data-ttu-id="55ff4-116">この例では、[ユーザーのアクセス](https://technet.microsoft.com/en-us/library/JJ994026(v=OCS.15))コマンドレットを使用して、すべての Skype For business Online ユーザーに関する情報を取得し、次に**Select-Object**コマンドレットを使用して、表示するデータをユーザーの id 値とそのアーカイブポリシーに制限します。</span><span class="sxs-lookup"><span data-stu-id="55ff4-116">In this example, the [Get-CsOnlineUser](https://technet.microsoft.com/en-us/library/JJ994026(v=OCS.15)) cmdlet retrieves information for all of your Skype for Business Online users, and then the **Select-Object** cmdlet is used to limit the displayed data to the user’s Identity value and their archiving policy:</span></span>
 
     Get-CsOnlineUser | Select-Object Identity, ArchivingPolicy
 
-<span data-ttu-id="0ff1d-117">コンピューターで使用できるコマンドレットは100個あるため、どのコマンドレットが Skype for Business Online のコマンドレットであり、どのコマンドレットも含まれていないかを判断するのが困難な場合があります。</span><span class="sxs-lookup"><span data-stu-id="0ff1d-117">Because there will be hundreds of cmdlets available for use on your computer, you might have difficulty determining which cmdlets are Skype for Business Online cmdlets and which ones are not.</span></span> <span data-ttu-id="0ff1d-118">Skype for Business Online のコマンドレット (および Skype for Business Online のコマンドレットのみ) の一覧を返すには、まず、すべての Skype for Business Online コマンドレットが含まれている一時的な Windows PowerShell モジュールの名前を特定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="0ff1d-118">To return a list of the Skype for Business Online cmdlets (and only Skype for Business Online cmdlets), you must first determine the name of the temporary Windows PowerShell module that contains all the Skype for Business Online cmdlets.</span></span> <span data-ttu-id="0ff1d-119">そのためには、Windows PowerShell プロンプトから次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="0ff1d-119">To do that, run this command from the Windows PowerShell prompt:</span></span>
+<span data-ttu-id="55ff4-117">コンピューターで使用できるコマンドレットは100個あるため、どのコマンドレットが Skype for Business Online のコマンドレットであり、どのコマンドレットも含まれていないかを判断するのが困難な場合があります。</span><span class="sxs-lookup"><span data-stu-id="55ff4-117">Because there will be hundreds of cmdlets available for use on your computer, you might have difficulty determining which cmdlets are Skype for Business Online cmdlets and which ones are not.</span></span> <span data-ttu-id="55ff4-118">Skype for Business Online のコマンドレット (および Skype for Business Online のコマンドレットのみ) の一覧を返すには、まず、すべての Skype for Business Online コマンドレットが含まれている一時的な Windows PowerShell モジュールの名前を特定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="55ff4-118">To return a list of the Skype for Business Online cmdlets (and only Skype for Business Online cmdlets), you must first determine the name of the temporary Windows PowerShell module that contains all the Skype for Business Online cmdlets.</span></span> <span data-ttu-id="55ff4-119">そのためには、Windows PowerShell プロンプトから次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="55ff4-119">To do that, run this command from the Windows PowerShell prompt:</span></span>
 
     Get-Module
 
-<span data-ttu-id="0ff1d-120">次のような情報が画面に表示されます。</span><span class="sxs-lookup"><span data-stu-id="0ff1d-120">Information similar to the following will appear onscreen:</span></span>
+<span data-ttu-id="55ff4-120">次のような情報が画面に表示されます。</span><span class="sxs-lookup"><span data-stu-id="55ff4-120">Information similar to the following will appear onscreen:</span></span>
 
     ModuleType Name                 ExportedCommands
     ---------- ----                 ----------------
     Manifest   Microsoft.PowerS...  {Add-Computer, Add-Content, A...}
     Script     tmp_5astd3uh.m5v     {Disable-CsMeetingRoom, Enabl...}
 
-<span data-ttu-id="0ff1d-121">ModuleType スクリプトを持つモジュールは、Skype for Business Online のコマンドレットを含むモジュールです。</span><span class="sxs-lookup"><span data-stu-id="0ff1d-121">The module with the ModuleType Script is the module that contains the Skype for Business Online cmdlets.</span></span> <span data-ttu-id="0ff1d-122">これらのコマンドレットのリストを返すには、モジュール名としてスクリプトモジュールの名前を使用して、 **Command**コマンドレットを実行します。</span><span class="sxs-lookup"><span data-stu-id="0ff1d-122">To return a list of those cmdlets, run the **Get-Command** cmdlet, using the name of the Script module as the module name:</span></span>
+<span data-ttu-id="55ff4-121">ModuleType スクリプトを持つモジュールは、Skype for Business Online のコマンドレットを含むモジュールです。</span><span class="sxs-lookup"><span data-stu-id="55ff4-121">The module with the ModuleType Script is the module that contains the Skype for Business Online cmdlets.</span></span> <span data-ttu-id="55ff4-122">これらのコマンドレットのリストを返すには、モジュール名としてスクリプトモジュールの名前を使用して、 **Command**コマンドレットを実行します。</span><span class="sxs-lookup"><span data-stu-id="55ff4-122">To return a list of those cmdlets, run the **Get-Command** cmdlet, using the name of the Script module as the module name:</span></span>
 
     Get-Command -Module tmp_5astd3uh.m5v
 
-<span data-ttu-id="0ff1d-123">ModuleType と Script との間に等しい複数のモジュールが存在する可能性があります。</span><span class="sxs-lookup"><span data-stu-id="0ff1d-123">It’s possible that you could have multiple modules with a ModuleType equal to Script.</span></span> <span data-ttu-id="0ff1d-124">その場合は、次のコマンドを実行して、 **CsTenant**コマンドレットが含まれているモジュールを確認できます。</span><span class="sxs-lookup"><span data-stu-id="0ff1d-124">In that case, you can run the following command to find out which module includes the **Get-CsTenant** cmdlet:</span></span>
+<span data-ttu-id="55ff4-123">ModuleType と Script との間に等しい複数のモジュールが存在する可能性があります。</span><span class="sxs-lookup"><span data-stu-id="55ff4-123">It’s possible that you could have multiple modules with a ModuleType equal to Script.</span></span> <span data-ttu-id="55ff4-124">その場合は、次のコマンドを実行して、 **CsTenant**コマンドレットが含まれているモジュールを確認できます。</span><span class="sxs-lookup"><span data-stu-id="55ff4-124">In that case, you can run the following command to find out which module includes the **Get-CsTenant** cmdlet:</span></span>
 
     Get-Command Get-CsTenant
 
-<span data-ttu-id="0ff1d-125">**CsTenant**コマンドレットに対して返されるモジュールは、すべての Skype For business Online コマンドレットを含むモジュールになります。</span><span class="sxs-lookup"><span data-stu-id="0ff1d-125">The module returned for the **Get-CsTenant** cmdlet will be the module containing all the Skype for Business Online cmdlets:</span></span>
+<span data-ttu-id="55ff4-125">**CsTenant**コマンドレットに対して返されるモジュールは、すべての Skype For business Online コマンドレットを含むモジュールになります。</span><span class="sxs-lookup"><span data-stu-id="55ff4-125">The module returned for the **Get-CsTenant** cmdlet will be the module containing all the Skype for Business Online cmdlets:</span></span>
 
     CommandType     Name                                               ModuleName
     -----------     ----                                               ----------
@@ -79,10 +81,10 @@ ms.locfileid: "36233055"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="0ff1d-126">関連項目</span><span class="sxs-lookup"><span data-stu-id="0ff1d-126">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="55ff4-126">関連項目</span><span class="sxs-lookup"><span data-stu-id="55ff4-126">See Also</span></span>
 
 
-<span data-ttu-id="0ff1d-127">[Windows PowerShell と Skype for Business Online の概要](https://technet.microsoft.com/en-us/library/Dn362785(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="0ff1d-127">[An introduction to Windows PowerShell and Skype for Business Online](https://technet.microsoft.com/en-us/library/Dn362785(v=OCS.15))</span></span>  
+<span data-ttu-id="55ff4-127">[Windows PowerShell と Skype for Business Online の概要](https://technet.microsoft.com/en-us/library/Dn362785(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="55ff4-127">[An introduction to Windows PowerShell and Skype for Business Online](https://technet.microsoft.com/en-us/library/Dn362785(v=OCS.15))</span></span>  
   
 
 </div>
