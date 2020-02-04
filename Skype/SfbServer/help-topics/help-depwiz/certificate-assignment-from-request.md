@@ -7,23 +7,23 @@ manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployCertAssignIntroFromRequest
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5cd7cab0-1826-4d7f-aca6-d30054d2a9ae
 description: '[証明書の割り当て] ページでは、役割サーバーでの要求された使用法に証明書を割り当てるプロセスを開始します。 [証明書の詳細の表示] をクリックして証明書を表示します。 [全般] タブ、[詳細] タブ、または [証明のパス] タブを選択できます。[全般] タブには、発行証明機関や秘密キーの状態など、証明書に関する基本的な情報が表示されます。 [詳細] タブには、サブジェクト名、サブジェクトの別名など、証明書の詳細な情報が表示されます。 [証明のパス] タブには、ルート証明機関への発行または中間証明機関 (存在する場合) を通じて、証明書からの信頼関係を示すものが表示されます。'
-ms.openlocfilehash: 9ce0033e05e3a52460c2acd7aa536d1462ff1efc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a6687f4374cdffe1a0ff6885abbf4a995fee9180
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34306910"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41687890"
 ---
-# <a name="certificate-assignment-from-request"></a><span data-ttu-id="b02a5-107">証明書の割り当て (要求から)</span><span class="sxs-lookup"><span data-stu-id="b02a5-107">Certificate Assignment (From Request)</span></span>
+# <a name="certificate-assignment-from-request"></a><span data-ttu-id="f7fd9-107">証明書の割り当て (要求から)</span><span class="sxs-lookup"><span data-stu-id="f7fd9-107">Certificate Assignment (From Request)</span></span>
  
-<span data-ttu-id="b02a5-p102">[**証明書の割り当て**] ページでは、役割サーバーでの要求された使用法に証明書を割り当てるプロセスを開始します。[**証明書の詳細の表示**] をクリックして証明書を表示します。[**全般**] タブ、[**詳細**] タブ、または [**証明のパス**] タブを選択できます。[**全般**] タブには、発行証明機関、秘密キーの状態など、証明書に関する基本情報が表示されます。[詳細] タブには、サブジェクト名、サブジェクトの別名など、証明書の詳細な情報が表示されます。[**証明のパス**] タブには、証明書からすべての発行または中間証明機関 (存在する場合)、およびルート証明機関に至るまでの証明書の "信頼チェーン" が表示されます。</span><span class="sxs-lookup"><span data-stu-id="b02a5-p102">The **Certificate Assignment** page starts the process of assigning a certificate to the requested usages on the role server. Click the **View Certificate Details** to view the certificate. You can select the **General** tab, the **Details** tab, or the **Certification Path** tab. The **General** tab will display basic information about the certificate, such as the issuing certification authority and the status of a private key. The Details tab will display certificate information such as the subject name, subject alternative names, and other details. The **Certification Path** tab will display the certificate "chain of trust" from the certificate through any issuing or intermediate certification authorities (if they are present) to the root certification authority.</span></span>
+<span data-ttu-id="f7fd9-p102">[**証明書の割り当て**] ページでは、役割サーバーでの要求された使用法に証明書を割り当てるプロセスを開始します。[**証明書の詳細の表示**] をクリックして証明書を表示します。[**全般**] タブ、[**詳細**] タブ、または [**証明のパス**] タブを選択できます。[**全般**] タブには、発行証明機関、秘密キーの状態など、証明書に関する基本情報が表示されます。[詳細] タブには、サブジェクト名、サブジェクトの別名など、証明書の詳細な情報が表示されます。[**証明のパス**] タブには、証明書からすべての発行または中間証明機関 (存在する場合)、およびルート証明機関に至るまでの証明書の "信頼チェーン" が表示されます。</span><span class="sxs-lookup"><span data-stu-id="f7fd9-p102">The **Certificate Assignment** page starts the process of assigning a certificate to the requested usages on the role server. Click the **View Certificate Details** to view the certificate. You can select the **General** tab, the **Details** tab, or the **Certification Path** tab. The **General** tab will display basic information about the certificate, such as the issuing certification authority and the status of a private key. The Details tab will display certificate information such as the subject name, subject alternative names, and other details. The **Certification Path** tab will display the certificate "chain of trust" from the certificate through any issuing or intermediate certification authorities (if they are present) to the root certification authority.</span></span>
   
-<span data-ttu-id="b02a5-113">[**次へ**] をクリックして続行します。</span><span class="sxs-lookup"><span data-stu-id="b02a5-113">Click **Next** to continue.</span></span>
+<span data-ttu-id="f7fd9-113">[**次へ**] をクリックして続行します。</span><span class="sxs-lookup"><span data-stu-id="f7fd9-113">Click **Next** to continue.</span></span>
   
 

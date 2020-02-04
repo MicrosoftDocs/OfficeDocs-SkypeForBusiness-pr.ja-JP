@@ -18,38 +18,39 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: これは、国/地域ごとに無料電話番号をダイヤルする方法を確認するのに役立ちます。 国または地域を選択すると、無料サービスの利用可能な無料サービスの利用に関する具体的な詳細、制限、制限が記載された国固有のページに移動します。 ダイヤル形式または形式では、無料番号をダイヤルするために、各国または地域で必要なアクセスコードが表示されます。
-ms.openlocfilehash: 521aab81d858b4f27febae1457886ad4b4692c32
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 76c16089756657241324fbb0fab8bee9853841ab
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572736"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41681714"
 ---
-# <a name="toll-free-dialing-restrictions-in-the-netherlands"></a><span data-ttu-id="eaf19-105">オランダでのフリーダイヤル制限</span><span class="sxs-lookup"><span data-stu-id="eaf19-105">Toll-free dialing restrictions in the Netherlands</span></span>
+# <a name="toll-free-dialing-restrictions-in-the-netherlands"></a><span data-ttu-id="e39c7-105">オランダでのフリーダイヤル制限</span><span class="sxs-lookup"><span data-stu-id="e39c7-105">Toll-free dialing restrictions in the Netherlands</span></span>
 
-<span data-ttu-id="eaf19-106">[別の国または地域を検索](../toll-free-dialing-limitations-and-restrictions.md)するか、無料ダイヤルの制限事項と制限についてご確認ください。</span><span class="sxs-lookup"><span data-stu-id="eaf19-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="e39c7-106">[別の国または地域を検索](../toll-free-dialing-limitations-and-restrictions.md)するか、無料ダイヤルの制限事項と制限についてご確認ください。</span><span class="sxs-lookup"><span data-stu-id="e39c7-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="eaf19-107">**詳細**</span><span class="sxs-lookup"><span data-stu-id="eaf19-107">**Details**</span></span>|<span data-ttu-id="eaf19-108">**説明**</span><span class="sxs-lookup"><span data-stu-id="eaf19-108">**Description**</span></span>|
+|<span data-ttu-id="e39c7-107">**詳細**</span><span class="sxs-lookup"><span data-stu-id="e39c7-107">**Details**</span></span>|<span data-ttu-id="e39c7-108">**説明**</span><span class="sxs-lookup"><span data-stu-id="e39c7-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="eaf19-109">無料通話を利用できますか?</span><span class="sxs-lookup"><span data-stu-id="eaf19-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="eaf19-110">はい</span><span class="sxs-lookup"><span data-stu-id="eaf19-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="eaf19-111">ダイヤル形式</span><span class="sxs-lookup"><span data-stu-id="eaf19-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="eaf19-112">0 800 XXX XXXX</span><span class="sxs-lookup"><span data-stu-id="eaf19-112">0 800 XXX XXXX</span></span>  <br/> |
-|<span data-ttu-id="eaf19-113">国/地域の ISO コード</span><span class="sxs-lookup"><span data-stu-id="eaf19-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="eaf19-114">NL</span><span class="sxs-lookup"><span data-stu-id="eaf19-114">NL</span></span>  <br/> |
-|<span data-ttu-id="eaf19-115">対象となる島/地域</span><span class="sxs-lookup"><span data-stu-id="eaf19-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="eaf19-116">該当しない</span><span class="sxs-lookup"><span data-stu-id="eaf19-116">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="eaf19-117">対象外の島/地域</span><span class="sxs-lookup"><span data-stu-id="eaf19-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="eaf19-118">該当しない</span><span class="sxs-lookup"><span data-stu-id="eaf19-118">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="eaf19-119">有線/固定回線の状態</span><span class="sxs-lookup"><span data-stu-id="eaf19-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="eaf19-120">あり</span><span class="sxs-lookup"><span data-stu-id="eaf19-120">Yes</span></span>  <br/> |
-|<span data-ttu-id="eaf19-121">携帯電話ネットワークの状態</span><span class="sxs-lookup"><span data-stu-id="eaf19-121">Mobile network availability</span></span>  <br/> | <span data-ttu-id="eaf19-p102">○ 有料サービス料金で使用可能。</span><span class="sxs-lookup"><span data-stu-id="eaf19-p102">Yes. Available at premium rate.</span></span> <br/> |
-|<span data-ttu-id="eaf19-124">コメント、制限、アクセスの問題など</span><span class="sxs-lookup"><span data-stu-id="eaf19-124">Comments, restrictions, and access issues</span></span>  <br/> | <span data-ttu-id="eaf19-125">携帯電話アクセス: 通話時間が課金される。</span><span class="sxs-lookup"><span data-stu-id="eaf19-125">Mobile access: Airtime will be charged</span></span> <br/> |
+|<span data-ttu-id="e39c7-109">無料通話を利用できますか?</span><span class="sxs-lookup"><span data-stu-id="e39c7-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="e39c7-110">はい</span><span class="sxs-lookup"><span data-stu-id="e39c7-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="e39c7-111">ダイヤル形式</span><span class="sxs-lookup"><span data-stu-id="e39c7-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="e39c7-112">0 800 XXX XXXX</span><span class="sxs-lookup"><span data-stu-id="e39c7-112">0 800 XXX XXXX</span></span>  <br/> |
+|<span data-ttu-id="e39c7-113">国/地域の ISO コード</span><span class="sxs-lookup"><span data-stu-id="e39c7-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="e39c7-114">NL</span><span class="sxs-lookup"><span data-stu-id="e39c7-114">NL</span></span>  <br/> |
+|<span data-ttu-id="e39c7-115">対象となる島/地域</span><span class="sxs-lookup"><span data-stu-id="e39c7-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="e39c7-116">該当しない</span><span class="sxs-lookup"><span data-stu-id="e39c7-116">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="e39c7-117">対象外の島/地域</span><span class="sxs-lookup"><span data-stu-id="e39c7-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="e39c7-118">該当しない</span><span class="sxs-lookup"><span data-stu-id="e39c7-118">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="e39c7-119">有線/固定回線の状態</span><span class="sxs-lookup"><span data-stu-id="e39c7-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="e39c7-120">あり</span><span class="sxs-lookup"><span data-stu-id="e39c7-120">Yes</span></span>  <br/> |
+|<span data-ttu-id="e39c7-121">携帯電話ネットワークの状態</span><span class="sxs-lookup"><span data-stu-id="e39c7-121">Mobile network availability</span></span>  <br/> | <span data-ttu-id="e39c7-p102">○ 有料サービス料金で使用可能。</span><span class="sxs-lookup"><span data-stu-id="e39c7-p102">Yes. Available at premium rate.</span></span> <br/> |
+|<span data-ttu-id="e39c7-124">コメント、制限、アクセスの問題など</span><span class="sxs-lookup"><span data-stu-id="e39c7-124">Comments, restrictions, and access issues</span></span>  <br/> | <span data-ttu-id="e39c7-125">携帯電話アクセス: 通話時間が課金される。</span><span class="sxs-lookup"><span data-stu-id="e39c7-125">Mobile access: Airtime will be charged</span></span> <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="eaf19-126">関連項目</span><span class="sxs-lookup"><span data-stu-id="eaf19-126">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="e39c7-126">関連トピック</span><span class="sxs-lookup"><span data-stu-id="e39c7-126">Related topics</span></span>
 
-[<span data-ttu-id="eaf19-127">無料電話ダイヤルの制限事項</span><span class="sxs-lookup"><span data-stu-id="eaf19-127">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+[<span data-ttu-id="e39c7-127">無料電話ダイヤルの制限事項</span><span class="sxs-lookup"><span data-stu-id="e39c7-127">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="eaf19-128">Skype for Business および Microsoft Teams のサービス電話番号の取得</span><span class="sxs-lookup"><span data-stu-id="eaf19-128">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
+[<span data-ttu-id="e39c7-128">Skype for Business および Microsoft Teams のサービス電話番号の取得</span><span class="sxs-lookup"><span data-stu-id="e39c7-128">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
 
   
  
