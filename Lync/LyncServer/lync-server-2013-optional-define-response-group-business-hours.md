@@ -3,6 +3,8 @@ title: 'Lync Server 2013: (オプション) 応答グループの勤務時間を
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: (Optional) Define Response Group business hours
 ms:assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205291(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185504
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e8ddd2bde582c66cf337deb9aa78178d3e22d1b0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5829ca56c2a06f54ba19064a5b24caad2aa7ed25
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825787"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755771"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34825787"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="optional-define-response-group-business-hours-in-lync-server-2013"></a><span data-ttu-id="90646-102">省略Lync Server 2013 での応答グループの営業時間の定義</span><span class="sxs-lookup"><span data-stu-id="90646-102">(Optional) Define Response Group business hours in Lync Server 2013</span></span>
+# <a name="optional-define-response-group-business-hours-in-lync-server-2013"></a><span data-ttu-id="3be1e-102">省略Lync Server 2013 での応答グループの営業時間の定義</span><span class="sxs-lookup"><span data-stu-id="3be1e-102">(Optional) Define Response Group business hours in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,19 +35,19 @@ ms.locfileid: "34825787"
 
 <span> </span>
 
-<span data-ttu-id="90646-103">_**最終更新日:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="90646-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="3be1e-103">_**最終更新日:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="3be1e-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
 <div>
 
-## <a name="defining-business-hours"></a><span data-ttu-id="90646-104">営業時間の定義</span><span class="sxs-lookup"><span data-stu-id="90646-104">Defining Business Hours</span></span>
+## <a name="defining-business-hours"></a><span data-ttu-id="3be1e-104">営業時間の定義</span><span class="sxs-lookup"><span data-stu-id="3be1e-104">Defining Business Hours</span></span>
 
-<span data-ttu-id="90646-105">営業時間設定では、ワークフローが通話に応答できる時間を定義し、営業時間外の通話に対するアクションを指定します。</span><span class="sxs-lookup"><span data-stu-id="90646-105">Business hour settings define when the workflow is available to answer calls and specify the actions to take for calls outside of business hours.</span></span> <span data-ttu-id="90646-106">応答グループ管理者は、**New-CsRgsHoursOfBusiness** コマンドレットを使用して、使用できる応答グループの数に制限がない事前設定スケジュールを作成できます。</span><span class="sxs-lookup"><span data-stu-id="90646-106">Response Group administrators can use the **New-CsRgsHoursOfBusiness** cmdlet to create predefined schedules that you can use for any number of response groups.</span></span>
+<span data-ttu-id="3be1e-105">営業時間設定では、ワークフローが通話に応答できる時間を定義し、営業時間外の通話に対するアクションを指定します。</span><span class="sxs-lookup"><span data-stu-id="3be1e-105">Business hour settings define when the workflow is available to answer calls and specify the actions to take for calls outside of business hours.</span></span> <span data-ttu-id="3be1e-106">応答グループ管理者は、**New-CsRgsHoursOfBusiness** コマンドレットを使用して、使用できる応答グループの数に制限がない事前設定スケジュールを作成できます。</span><span class="sxs-lookup"><span data-stu-id="3be1e-106">Response Group administrators can use the **New-CsRgsHoursOfBusiness** cmdlet to create predefined schedules that you can use for any number of response groups.</span></span>
 
 <div>
 
 
 > [!TIP]  
-> <span data-ttu-id="90646-107">ワークフローを作成または変更するときに、そのワークフローのみに適用されるカスタム スケジュールを指定できます。</span><span class="sxs-lookup"><span data-stu-id="90646-107">When you create or modify a workflow, you can specify a custom schedule that applies only to that workflow.</span></span> <span data-ttu-id="90646-108">詳細については、「 <A href="lync-server-2013-create-or-modify-a-hunt-group-workflow.md">Lync server 2013 でハントグループワークフローを作成または変更</A>する」または「 <A href="lync-server-2013-create-or-modify-an-interactive-workflow.md">lync server 2013 で対話型ワークフローを作成または変更</A>する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="90646-108">For details, see <A href="lync-server-2013-create-or-modify-a-hunt-group-workflow.md">Create or modify a hunt group workflow in Lync Server 2013</A> or <A href="lync-server-2013-create-or-modify-an-interactive-workflow.md">Create or modify an interactive workflow in Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="3be1e-107">ワークフローを作成または変更するときに、そのワークフローのみに適用されるカスタム スケジュールを指定できます。</span><span class="sxs-lookup"><span data-stu-id="3be1e-107">When you create or modify a workflow, you can specify a custom schedule that applies only to that workflow.</span></span> <span data-ttu-id="3be1e-108">詳細については、「 <A href="lync-server-2013-create-or-modify-a-hunt-group-workflow.md">Lync server 2013 でハントグループワークフローを作成または変更</A>する」または「 <A href="lync-server-2013-create-or-modify-an-interactive-workflow.md">lync server 2013 で対話型ワークフローを作成または変更</A>する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="3be1e-108">For details, see <A href="lync-server-2013-create-or-modify-a-hunt-group-workflow.md">Create or modify a hunt group workflow in Lync Server 2013</A> or <A href="lync-server-2013-create-or-modify-an-interactive-workflow.md">Create or modify an interactive workflow in Lync Server 2013</A>.</span></span>
 
 
 
@@ -55,7 +57,7 @@ ms.locfileid: "34825787"
 
 
 > [!NOTE]  
-> <span data-ttu-id="90646-109">ワークフローが管理ワークフローとして定義されている場合、CsResponseGroupManager の役割を割り当てられているすべてのユーザーは、管理するワークフローのカスタム営業時間を設定および変更できます。</span><span class="sxs-lookup"><span data-stu-id="90646-109">If a workflow is defined as a Managed workflow, then any user who is assigned the CsResponseGroupManager role can set and modify custom business hours for workflows that they manage.</span></span>
+> <span data-ttu-id="3be1e-109">ワークフローが管理ワークフローとして定義されている場合、CsResponseGroupManager の役割を割り当てられているすべてのユーザーは、管理するワークフローのカスタム営業時間を設定および変更できます。</span><span class="sxs-lookup"><span data-stu-id="3be1e-109">If a workflow is defined as a Managed workflow, then any user who is assigned the CsResponseGroupManager role can set and modify custom business hours for workflows that they manage.</span></span>
 
 
 
@@ -65,7 +67,7 @@ ms.locfileid: "34825787"
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="90646-110">次のコマンドレットのパラメーターの時刻表記は、24 時間形式で入力する必要があります (例: 20:00 は午後 8:00 を表します)。</span><span class="sxs-lookup"><span data-stu-id="90646-110">Use 24-hour notation for the parameters in the following cmdlets (for example, 20:00=8:00 P.M.).</span></span>
+> <span data-ttu-id="3be1e-110">次のコマンドレットのパラメーターの時刻表記は、24 時間形式で入力する必要があります (例: 20:00 は午後 8:00 を表します)。</span><span class="sxs-lookup"><span data-stu-id="3be1e-110">Use 24-hour notation for the parameters in the following cmdlets (for example, 20:00=8:00 P.M.).</span></span>
 
 
 
@@ -73,21 +75,21 @@ ms.locfileid: "34825787"
 
 <div>
 
-## <a name="to-create-a-predefined-business-hours-collection"></a><span data-ttu-id="90646-111">事前設定された営業時間コレクションを作成するには</span><span class="sxs-lookup"><span data-stu-id="90646-111">To create a predefined business hours collection</span></span>
+## <a name="to-create-a-predefined-business-hours-collection"></a><span data-ttu-id="3be1e-111">事前設定された営業時間コレクションを作成するには</span><span class="sxs-lookup"><span data-stu-id="3be1e-111">To create a predefined business hours collection</span></span>
 
-1.  <span data-ttu-id="90646-112">RTCUniversalServerAdmins グループのメンバーまたは応答グループをサポートする定義済みの管理者の役割のいずれかのメンバーとしてログオンします。</span><span class="sxs-lookup"><span data-stu-id="90646-112">Log on as a member of the RTCUniversalServerAdmins group, or as a member of one of the predefined administrative roles that support Response Group.</span></span>
+1.  <span data-ttu-id="3be1e-112">RTCUniversalServerAdmins グループのメンバーまたは応答グループをサポートする定義済みの管理者の役割のいずれかのメンバーとしてログオンします。</span><span class="sxs-lookup"><span data-stu-id="3be1e-112">Log on as a member of the RTCUniversalServerAdmins group, or as a member of one of the predefined administrative roles that support Response Group.</span></span>
 
-2.  <span data-ttu-id="90646-113">Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="90646-113">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="3be1e-113">Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="3be1e-113">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="90646-114">定義する一意の時間の範囲ごとに、以下を実行します。</span><span class="sxs-lookup"><span data-stu-id="90646-114">For each unique range of hours you want to define, run:</span></span>
+3.  <span data-ttu-id="3be1e-114">定義する一意の時間の範囲ごとに、以下を実行します。</span><span class="sxs-lookup"><span data-stu-id="3be1e-114">For each unique range of hours you want to define, run:</span></span>
     
         $x = New-CsRgsTimeRange [-Name <name of time range>] -OpenTime <time when business hours begin> -CloseTime <time when business hours end>
     
-    <span data-ttu-id="90646-115">定義した範囲を使用する営業時間コレクションを作成するには、以下を実行します。</span><span class="sxs-lookup"><span data-stu-id="90646-115">To create the business hours collection that uses the ranges you defined, run:</span></span>
+    <span data-ttu-id="3be1e-115">定義した範囲を使用する営業時間コレクションを作成するには、以下を実行します。</span><span class="sxs-lookup"><span data-stu-id="3be1e-115">To create the business hours collection that uses the ranges you defined, run:</span></span>
     
         New-CsRgsHoursOfBusiness -Parent <service where the workflow is hosted> -Name <unique name for collection> [-MondayHours1 <first set of opening and closing times for Monday>] [-MondayHours2 <second set of opening and closing times for Monday>] [-TuesdayHours1 <first set of opening and closing times for Tuesday>] [-TuesdayHours2 <second set of opening and closing times for Tuesday>] [-WednesdayHours1 <first set of opening and closing times for Wednesday>] [-WednesdayHours2 <second set of opening and closing times for Wednesday>] [-ThursdayHours1 <first set of opening and closing times for Thursday>] [-ThursdayHours2 <second set of opening and closing times for Thursday>] [-FridayHours1 <first set of opening and closing times for Friday>] [-FridayHours2 <second set of opening and closing times for Friday>] [-SaturdayHours1 <first set of opening and closing times for Saturday>] [-SaturdayHours2 <second set of opening and closing times for Saturday>] [-SundayHours1 <first set of opening and closing times for Sunday>] [-SundayHours2 <second set of opening and closing times for Sunday>]
     
-    <span data-ttu-id="90646-p103">次の例では、平日の営業時間を午前 9:00 から午後 5:00 に、土曜日の営業時間を午前 8:00 から午前 10:00 と午後 2:00 から午後 6:00 に、日曜日は営業時間なしに指定します。</span><span class="sxs-lookup"><span data-stu-id="90646-p103">The following example specifies business hours of 9:00 A.M. to 5:00 P.M. for weekdays, 8:00 A.M. to 10:00 A.M. and again from 2:00 P.M. to 6:00 P.M. for Saturdays, and no business hours for Sundays:</span></span>
+    <span data-ttu-id="3be1e-p103">次の例では、平日の営業時間を午前 9:00 から午後 5:00 に、土曜日の営業時間を午前 8:00 から午前 10:00 と午後 2:00 から午後 6:00 に、日曜日は営業時間なしに指定します。</span><span class="sxs-lookup"><span data-stu-id="3be1e-p103">The following example specifies business hours of 9:00 A.M. to 5:00 P.M. for weekdays, 8:00 A.M. to 10:00 A.M. and again from 2:00 P.M. to 6:00 P.M. for Saturdays, and no business hours for Sundays:</span></span>
     
         $a = NewRgsTimeRange -Name "Weekday Hours" -OpenTime "9:00" -CloseTime "17:00"
         $b = NewRgsTimeRange -Name "Saturday Morning Hours" -OpenTime "8:00" -CloseTime "10:00" 
@@ -100,15 +102,15 @@ ms.locfileid: "34825787"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="90646-123">関連項目</span><span class="sxs-lookup"><span data-stu-id="90646-123">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3be1e-123">関連項目</span><span class="sxs-lookup"><span data-stu-id="3be1e-123">See Also</span></span>
 
 
-[<span data-ttu-id="90646-124">Lync Server 2013 でハントグループワークフローを作成または変更する</span><span class="sxs-lookup"><span data-stu-id="90646-124">Create or modify a hunt group workflow in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)  
-[<span data-ttu-id="90646-125">Lync Server 2013 での対話ワークフローの作成または変更</span><span class="sxs-lookup"><span data-stu-id="90646-125">Create or modify an interactive workflow in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-an-interactive-workflow.md)  
+[<span data-ttu-id="3be1e-124">Lync Server 2013 でハントグループワークフローを作成または変更する</span><span class="sxs-lookup"><span data-stu-id="3be1e-124">Create or modify a hunt group workflow in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)  
+[<span data-ttu-id="3be1e-125">Lync Server 2013 での対話ワークフローの作成または変更</span><span class="sxs-lookup"><span data-stu-id="3be1e-125">Create or modify an interactive workflow in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-an-interactive-workflow.md)  
 
 
-[<span data-ttu-id="90646-126">新規-CsRgsTimeRange</span><span class="sxs-lookup"><span data-stu-id="90646-126">New-CsRgsTimeRange</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsRgsTimeRange)  
-[<span data-ttu-id="90646-127">新規-CsRgsHoursOfBusiness</span><span class="sxs-lookup"><span data-stu-id="90646-127">New-CsRgsHoursOfBusiness</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsRgsHoursOfBusiness)  
+[<span data-ttu-id="3be1e-126">New-CsRgsTimeRange</span><span class="sxs-lookup"><span data-stu-id="3be1e-126">New-CsRgsTimeRange</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsRgsTimeRange)  
+[<span data-ttu-id="3be1e-127">New-CsRgsHoursOfBusiness</span><span class="sxs-lookup"><span data-stu-id="3be1e-127">New-CsRgsHoursOfBusiness</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsRgsHoursOfBusiness)  
   
 
 </div>
