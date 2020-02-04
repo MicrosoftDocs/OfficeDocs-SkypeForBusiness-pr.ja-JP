@@ -3,6 +3,8 @@ title: 'Lync Server 2013: アーカイブのアクセス許可を設定する'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Setting up permissions for Archiving
 ms:assetid: 67f97c94-52f5-4a83-a35c-8c307d5de9a4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204961(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184364
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 17d8855a5d6b14ee1c71016f4a26b5fa1f911a3c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b414b468763fea555608108d75f37fd794fabfa1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848767"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732207"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34848767"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-permissions-for-archiving-in-lync-server-2013"></a><span data-ttu-id="8a64f-102">Lync Server 2013 でアーカイブするためのアクセス許可を設定する</span><span class="sxs-lookup"><span data-stu-id="8a64f-102">Setting up permissions for Archiving in Lync Server 2013</span></span>
+# <a name="setting-up-permissions-for-archiving-in-lync-server-2013"></a><span data-ttu-id="a2feb-102">Lync Server 2013 でアーカイブするためのアクセス許可を設定する</span><span class="sxs-lookup"><span data-stu-id="a2feb-102">Setting up permissions for Archiving in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,9 +35,9 @@ ms.locfileid: "34848767"
 
 <span> </span>
 
-<span data-ttu-id="8a64f-103">_**最終更新日:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="8a64f-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="a2feb-103">_**最終更新日:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="a2feb-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="8a64f-104">Lync Server 2013 では、特定のタスクを実行するユーザーが、1つ以上の特定のグループのメンバーになる必要があります。</span><span class="sxs-lookup"><span data-stu-id="8a64f-104">In Lync Server 2013, specific tasks still require that users who perform those tasks be members of one or more specific groups.</span></span> <span data-ttu-id="8a64f-105">ただし、ロールベースのアクセス制御 (RBAC) を使用して、定義済みの Lync Server 管理者ロールにユーザーを割り当てることによって権限を付与することもできます。アーカイブを展開する前に、適切なユーザー権限と権限が設定されていること、および特定の RBAC ロールに割り当てるユーザーがそのロールに割り当てられていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="8a64f-105">However, you can also use role-based access control (RBAC) to grant privileges by assigning users to predefined Lync Server administrative roles.Before you deploy Archiving, be sure that the appropriate user rights and permissions are in place, and that any users who you want to assign to a specific RBAC role have been assigned to that role.</span></span> <span data-ttu-id="8a64f-106">アーカイブのサポートを展開するためのユーザー権利、権限、およびロールの詳細については、「計画ドキュメントと展開ドキュメントで利用可能な[Lync Server 2013 のアーカイブ用の展開チェックリスト](lync-server-2013-deployment-checklist-for-archiving.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="8a64f-106">For details about the user rights, permissions, and roles for deploying support for Archiving, see [Deployment checklist for Archiving in Lync Server 2013](lync-server-2013-deployment-checklist-for-archiving.md), which is available in the Planning documentation and the Deployment documentation.</span></span> <span data-ttu-id="8a64f-107">RBAC の詳細については、計画ドキュメントの「 [Lync Server 2013 での役割ベースのアクセス制御の計画](lync-server-2013-planning-for-role-based-access-control.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="8a64f-107">For details about RBAC, see [Planning for role-based access control in Lync Server 2013](lync-server-2013-planning-for-role-based-access-control.md) in the Planning documentation.</span></span>
+<span data-ttu-id="a2feb-104">Lync Server 2013 では、特定のタスクを実行するユーザーが、1つ以上の特定のグループのメンバーになる必要があります。</span><span class="sxs-lookup"><span data-stu-id="a2feb-104">In Lync Server 2013, specific tasks still require that users who perform those tasks be members of one or more specific groups.</span></span> <span data-ttu-id="a2feb-105">ただし、ロールベースのアクセス制御 (RBAC) を使用して、定義済みの Lync Server 管理者ロールにユーザーを割り当てることによって権限を付与することもできます。アーカイブを展開する前に、適切なユーザー権限と権限が設定されていること、および特定の RBAC ロールに割り当てるユーザーがそのロールに割り当てられていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="a2feb-105">However, you can also use role-based access control (RBAC) to grant privileges by assigning users to predefined Lync Server administrative roles.Before you deploy Archiving, be sure that the appropriate user rights and permissions are in place, and that any users who you want to assign to a specific RBAC role have been assigned to that role.</span></span> <span data-ttu-id="a2feb-106">アーカイブのサポートを展開するためのユーザー権利、権限、およびロールの詳細については、「計画ドキュメントと展開ドキュメントで利用可能な[Lync Server 2013 のアーカイブ用の展開チェックリスト](lync-server-2013-deployment-checklist-for-archiving.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="a2feb-106">For details about the user rights, permissions, and roles for deploying support for Archiving, see [Deployment checklist for Archiving in Lync Server 2013](lync-server-2013-deployment-checklist-for-archiving.md), which is available in the Planning documentation and the Deployment documentation.</span></span> <span data-ttu-id="a2feb-107">RBAC の詳細については、計画ドキュメントの「 [Lync Server 2013 での役割ベースのアクセス制御の計画](lync-server-2013-planning-for-role-based-access-control.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="a2feb-107">For details about RBAC, see [Planning for role-based access control in Lync Server 2013](lync-server-2013-planning-for-role-based-access-control.md) in the Planning documentation.</span></span>
 
 </div>
 
