@@ -7,22 +7,22 @@ manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.PersistentChatPolicy
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb9e95b9-f69d-4545-970f-9dfdd93b0eff
 description: 常設チャットグループの常設チャットポリシーのページを使用すると、既定のグローバルポリシーの構成、展開用の追加のユーザーポリシーやサイトポリシーの作成など、グローバル、プール、サイト、またはユーザーレベルでポリシーを管理できます。 固定チャットサーバーがポリシーによって有効になっている場合は、常設チャットサーバー環境がクライアントに表示されます。
-ms.openlocfilehash: f08f0af3c2f553f1acc980c64be1602519ffa898
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 957956ce8537dd9f3ce08dd0919c7392a0c20810
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291061"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41686190"
 ---
 # <a name="persistent-chat-policy"></a>常設チャットのポリシー
  
-**常設チャット**グループの**常設チャットポリシー**ページを使用すると、既定のグローバルポリシーを構成し、ユーザーに対して1つまたは複数の追加のユーザーとサイトポリシーを作成するなど、グローバル、プール、サイト、またはユーザーレベルでポリシーを管理できます。デプロイメント. 固定チャットサーバーがポリシーによって有効になっている場合は、常設チャットサーバー環境がクライアントに表示されます。
+**常設チャット**グループの**常設チャットポリシー**のページを使用すると、既定のグローバルポリシーの構成、展開用の追加のユーザーポリシーやサイトポリシーの作成など、グローバル、プール、サイト、またはユーザーレベルでポリシーを管理できます。 固定チャットサーバーがポリシーによって有効になっている場合は、常設チャットサーバー環境がクライアントに表示されます。
   
 グローバルポリシーは、常設チャットサーバーの展開時に自動的に作成され、構成はできますが、削除はできません。 グローバルポリシーはすべてのユーザーに適用されるため、ユーザーごとに設定する必要はありません。
   
@@ -83,7 +83,7 @@ ms.locfileid: "34291061"
     
 ## <a name="to-create-a-user-policy-for-persistent-chat"></a>常設チャットのユーザーポリシーを作成するには
 
-Skype for Business Server コントロールパネルでは、ユーザーに割り当てることができるユーザーポリシーを定義する**** ことができます。
+Skype for Business Server コントロールパネルでは、ユーザーに割り当てることができるユーザーポリシーを定義することが**できます。**
   
 ユーザー ポリシーは、グローバル ポリシーやサイト ポリシーよりも優先されますが、そのユーザー ポリシーを割り当てられた特定のユーザーのみを対象にします。
   

@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: ここでは、Skype for Business の Office 365 サービスと、オーストリアで利用可能な Microsoft Teams について説明します。
-ms.openlocfilehash: d92eb5cf9fbdeee715de3f9f94b735457dbad3a6
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 27d59c77adbaaa68e99941f96986c9076b88c573
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570812"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684070"
 ---
 # <a name="availability-in-austria"></a>オーストリアでの利用可能性
 

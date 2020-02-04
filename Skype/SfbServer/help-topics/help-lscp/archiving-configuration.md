@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.MonArchSettingMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9c2fd164-a9b8-40e6-a1c4-423a7fe34aba
 description: アーカイブ構成を使用して、次のオプションを有効または無効にするなど、Skype for Business Server の展開のアーカイブオプションを制御します。
-ms.openlocfilehash: 8f3ed4289d68359cb8eb0d4cb0bfc3a303c53dd3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f56b452058a8ce51ac5d5761e9b24c6595bbdd39
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299849"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41687040"
 ---
 # <a name="archiving-configuration"></a>アーカイブ構成
  
@@ -39,7 +39,7 @@ ms.locfileid: "34299849"
 - **プール構成 (オプション)** 1つ以上のプールアーカイブ構成を指定して、特定のプールのアーカイブオプションを制御することができます。 プール構成は、グローバル構成とサイト構成を上書きしますが、アーカイブプール構成で指定されているプールについてのみ無効にします。 プール構成を編集または削除できます。
     
 > [!NOTE]
-> アーカイブ構成は、Skype for business Server を使用しているユーザーに適用されます。また、exchange を使って Microsoft exchange にアーカイブデータを保存する場合は、exchange 2013 を使用しているユーザー2013に対しては異なる方法で実装されます。 相違点については、次のセクションで説明します。 
+> アーカイブ構成は、Skype for Business Server を使用しているユーザーに適用されます。また、exchange を使って Microsoft Exchange にアーカイブデータを保存する場合は、exchange 2013 を使用しているユーザー2013に対しては異なる方法で実装されます。 相違点については、次のセクションで説明します。 
   
 [**アーカイブ構成**] ページには、展開に構成されている各アーカイブ ポリシーが一覧表示されます。また、各アーカイブ構成の名前、対象範囲 (グローバル、サイト、プール)、および有効になっているアーカイブ オプションも示されます。[**アーカイブ構成**] ページからは、以下のオプションを使用できます。
 - **新規**次のオプションのアーカイブ構成を1つ以上追加できます。
@@ -66,5 +66,5 @@ ms.locfileid: "34299849"
     
 - **更新**[**アーカイブ構成**] ページを更新して、すべてのアーカイブ構成のオプションの状態を確認できます。
     
-Exchange の統合などのアーカイブ機能と機能の詳細については、「 [skype For Business server 2015 でのアーカイブの計画](../../plan-your-deployment/archiving/archiving.md)」、「 [Skype for business server 2015 の](../../deploy/deploy-archiving/deploy-archiving.md)アーカイブの展開」、「skype for Business のアーカイブの管理」を参照してください。 [Business Server 2015](../../manage/archiving/archiving.md)
+Exchange の統合を含むアーカイブ機能の詳細については、「skype for [Business server 2015 でのアーカイブの計画](../../plan-your-deployment/archiving/archiving.md)」、「skype [for business server 2015 の](../../deploy/deploy-archiving/deploy-archiving.md)アーカイブの展開」、「 [skype for business server 2015 でのアーカイブの管理](../../manage/archiving/archiving.md)」を参照してください。
 

@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: 次に、Skype for Business および Microsoft Teams 用の Office 365 サービスをチリで利用できます。
-ms.openlocfilehash: dd4e698a7b0c50a7695ba8b317176c0d4b80fddb
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: c13621613f53f03c26a10088b871766741f744e6
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570528"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41683990"
 ---
 # <a name="availability-in-chile"></a>チリでの利用可能性
 

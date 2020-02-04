@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.EdgeNextHopSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7bb385b7-18c2-42a3-b8a9-cea7bf0c8fc9
 description: エッジ サーバーが内部インフラストラクチャと通信するために使用する [次ホップ プール] を設定または変更するには、リストからディレクター、ディレクター プール、フロントエンド サーバー、またはフロントエンド サーバーのプールを選択します。 トポロジービルダーで構成されているディレクターまたはフロントエンドサーバーのみが一覧に表示されます。
-ms.openlocfilehash: 843d18cb369fdd5ed6b86fbc48e45dca5dda2968
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 34525c8338fa14bdfef7ea744ac29d1c0503ca5a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302302"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684770"
 ---
 # <a name="edge-next-hop-settings-expander"></a>エッジの次ホップ設定エキスパンダー
 

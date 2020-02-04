@@ -17,18 +17,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: ここでは、クウェートで利用できる Skype for Business および Microsoft Teams の Office 365 サービスを紹介します。
-ms.openlocfilehash: 84baa73a7111aee2783dced09d5d2113deffb412
-ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
+ms.openlocfilehash: c7032d8066660bf2982f14e4bf84b6e584b66767
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40952450"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41683760"
 ---
 # <a name="availability-in-kuwait"></a>クウェートでの可用性
 

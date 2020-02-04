@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.VoiceFeaSelExchUM
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ce6764ce-c88f-4050-895e-d1d886106972
 description: '[Exchange UM 自動応答の選択] ダイアログボックスを使って、未割り当ての番号の範囲への着信呼び出しを処理する Exchange UM 自動応答を選びます。'
-ms.openlocfilehash: 6bb1b4a40d40041f2aea1960db4129baa2574a73
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6734e8eafdf6133aeb8f0cb2d926bb66761b482a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294074"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41685888"
 ---
 # <a name="select-exchange-um-auto-attendant"></a>Exchange UM 自動応答の選択
  

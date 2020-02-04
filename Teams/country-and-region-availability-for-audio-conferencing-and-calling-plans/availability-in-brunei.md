@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: 以下に、Skype for Business および Microsoft Teams の Office 365 サービスをブルネイで利用できるようにします。
-ms.openlocfilehash: 904d8a585a7203c8ffed8ab0378ad87f84b23f33
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 2e4167ee0ac58a035d13f9be51450b8a6067c79a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571075"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684010"
 ---
 # <a name="availability-in-brunei"></a>ブルネイでの利用可能性
 

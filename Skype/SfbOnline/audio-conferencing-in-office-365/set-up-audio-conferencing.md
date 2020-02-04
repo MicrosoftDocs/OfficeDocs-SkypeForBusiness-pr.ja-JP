@@ -16,18 +16,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
-- O365P_DialInConfDesc
+f1.keywords:
+- CSH
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
+- O365P_DialInConfDesc
 description: '電話会議への参加に電話を使用する必要がある、社内のユーザーに対してダイヤルインまたは電話会議をセットアップする方法について説明します。 '
-ms.openlocfilehash: 499a8a8ef05d23c74b030536d33b7a02cd6d9a1a
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: ea254da1f742db602d396868aad36a0c20951128
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37924978"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680364"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>Skype for Business の電話会議をセットアップする
 
@@ -77,7 +78,7 @@ ms.locfileid: "37924978"
 ![Skype for](../images/sfb-logo-30x30.png) **business 管理センターを使用し**た skype for business ロゴを示すアイコン:
 
  1. **Microsoft 365 管理センター** > **管理** > センター**チーム** > の従来の**ポータル**に移動します。
- 2.  > [ ******電話番号**] を選択します。
+ 2. **[音声]**  >  **[電話番号]** の順に選択します。
  3. 電話番号を選択して、「**割り当て**」をクリックします。
 
 詳細については、「[電話会議ブリッジの電話番号を変更する](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge)」を参照してください。

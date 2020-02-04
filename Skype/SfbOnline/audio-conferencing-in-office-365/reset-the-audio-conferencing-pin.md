@@ -16,16 +16,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: 'Pin について知っておくべきことと、Skype for Business Online で Pin をリセットする方法について説明します。 '
-ms.openlocfilehash: a00c36475059a05bb7cf3a9057920b63a09e9a43
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: fdd11e3ef9c656b4b2cc6b929a2963e9b5e10824
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40962695"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680564"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>Skype for Business Online で電話会議の PIN をリセットする
 
@@ -102,6 +103,6 @@ PIN は、電話会議用に有効になっている各 Skype for Business ユ�
     > [!NOTE]
     > Skype for Business Online 用の Windows PowerShell モジュールがあれば、Skype for Business Online に接続するリモートの Windows PowerShell セッションを作成できます。このモジュールは、64 ビット版のコンピューターでのみサポートされており、「[Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688)」の Microsoft ダウンロード センターからダウンロードできます。
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [ユーザーの会議 ID をリセットする](reset-a-conference-id-for-a-user.md)

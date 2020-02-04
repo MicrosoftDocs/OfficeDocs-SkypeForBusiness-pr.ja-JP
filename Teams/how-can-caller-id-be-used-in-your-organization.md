@@ -16,16 +16,16 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: ms.teamsadmincenter.voice.callerid.overview
+f1.keywords: ms.teamsadmincenter.voice.callerid.overview
 ms.custom:
 - Calling Plans
 description: 発信者番号通知は、CallingLineIdentity と呼ばれるポリシーを使用して、電話システム ユーザーの着信と発信の両方で制御できます。
-ms.openlocfilehash: 671ee484cbb5cccd78f6512d714a4dd0954524b0
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 32dbb3d5b164f2e40e0b8399e2047762ecf882ea
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570751"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680544"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>組織での発信者番号の利用方法
 
@@ -64,7 +64,7 @@ ms.locfileid: "37570751"
 
 EnableUserOverride 属性を使用すると、単独または複数のユーザーが発信者番号通知の設定を **非通知**に変更できます。 これが適用されるのは、CallingLineIdentity のポリシーが LineURI または Substitute のいずれかの CallingIDSubstitute パラメーターで構成されている場合のみです。 EnableUserOverride の既定値は False です。
   
-エンドユーザーは、Skype for Business デスクトップクライアントの [**設定**] タブを使用して、自分の発信者番号を**匿名**に設定できます。 [**エンドユーザー**に電話をかける] (管理者によって有効になっている場合)、[**すべての通話に対して電話番号とプロフィール情報を非表示にする] を選択します。**.
+エンドユーザーは、Skype for Business デスクトップクライアントの [**設定**] タブを使用して、その発信者番号を**匿名**に設定できます。 [**エンドユーザー**に電話をかける (管理者によって有効になっている場合)] を選択し、[**すべての通話に対して電話番号とプロフィール情報を非表示**にする] を選びます。
   
 ||||
 |:-----|:-----|:-----|
@@ -88,7 +88,7 @@ BlockIncomingCallerID 属性を使用すると、着信した PSTN 通話の発�
 
 [通話プランで使用されるさまざまな種類の電話番号](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[[[Skype for Business 新しい電話番号の申請](/microsoftteams/manage-phone-numbers-for-your-organization)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。](/microsoftteams/manage-phone-numbers-for-your-organization)
+[組織の電話番号を管理する](/microsoftteams/manage-phone-numbers-for-your-organization)
 
 [緊急通話の利用条件](/microsoftteams/emergency-calling-terms-and-conditions)
 

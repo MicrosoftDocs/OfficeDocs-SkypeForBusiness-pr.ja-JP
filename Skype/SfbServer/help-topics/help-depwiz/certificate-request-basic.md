@@ -7,22 +7,22 @@ manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployCertRequestBasics
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2c6b40d5-207a-4ca9-a090-e43350f4968f
 description: '[名前とセキュリティの設定] ページには、フレンドリ名、秘密キーと公開キーのペアのビット長のためのドロップダウンリスト、証明書の秘密キーをエクスポート可能としてマークするためのチェックボックスが用意されています。'
-ms.openlocfilehash: 66b9506086207fc8803bae9b77d39ee9f12ac43a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e3ee374ad9a1fc29f67b7f756dcb2fd0384bcabc
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302942"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41687790"
 ---
 # <a name="certificate-request-basic"></a>証明書要求 (基本)
  
-[**名前とセキュリティの設定**] ページには、**フレンドリ名**、秘密キーと公開キーのペアの**ビット長**のためのドロップダウンリスト、**証明書の秘密キーをとしてマークできるチェックボックスが用意されています。エクスポート**可能。
+[**名前とセキュリティの設定**] ページには、**フレンドリ名**、秘密キーと公開キーのペアの**ビット長**のためのドロップダウンリスト、**証明書の秘密キーをエクスポート可能としてマーク**するためのチェックボックスが用意されています。
   
 フレンドリ名は、証明書を参照した人が証明書を簡単に識別できるようにするためのわかりやすいシンプルな名前です。
   

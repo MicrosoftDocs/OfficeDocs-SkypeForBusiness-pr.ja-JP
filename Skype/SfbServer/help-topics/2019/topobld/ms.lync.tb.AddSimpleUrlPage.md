@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddSimpleUrlPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
 ROBOTS: NOINDEX, NOFOLLOW
 description: 展開の定義に簡単な url を追加するには、新しい単純な URL の URL を指定します。
-ms.openlocfilehash: b254768b7e8aea358b78c7fc263d8eacacea7814
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 53ef0f29f0765ab055f18c4f5bcb3376b532ea89
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276245"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41689016"
 ---
 # <a name="add-simple-url"></a>簡易 URL の追加
  

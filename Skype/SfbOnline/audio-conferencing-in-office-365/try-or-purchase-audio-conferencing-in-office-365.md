@@ -16,17 +16,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.lync.lac.CpcGettingStarted
 ms.custom:
 - Audio Conferencing
 description: 'Office 365 の電話会議 (PSTN 会議) ライセンスを試す方法または購入する方法を参照して、ダイヤル インできる電話会議をセットアップしてください。 '
-ms.openlocfilehash: 1a96e8866671c6a6a268113b4b8ca89c67bed8fa
-ms.sourcegitcommit: ba5ee891e5b16c8bece475133a0b6cd1d1f9c145
+ms.openlocfilehash: 5a2c797b1e31dd98d09ee8773396f599f070c3c2
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "34813051"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680334"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-skype-for-business-online"></a>Skype for Business Online の Office 365 で電話会議を試用または購入する
 
@@ -96,7 +96,7 @@ ms.locfileid: "34813051"
 
 ## <a name="related-topics"></a>関連トピック
 
-[Skype for Business Online のセットアップ](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
+[Skype for Business Online をセットアップする](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 
 [電話会議の電話番号](phone-numbers-for-audio-conferencing.md)
 

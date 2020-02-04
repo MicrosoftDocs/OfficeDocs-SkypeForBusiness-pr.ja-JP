@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: '概要: Skype for Business Server 2015 のサーバー以外の要件を構成します。 これらに該当するのは、Active Directory、DNS、証明書、ファイル共有など、展開を実行する前に構成しようとするさまざまな事項です。'
-ms.openlocfilehash: 59f7bed17c217eda46314d2a133c0d5671682824
-ms.sourcegitcommit: ab259764dc50bdd52efed3abb1d065ee19486946
+ms.openlocfilehash: 60244391a04b1bab31464bd0ef0b804510e40955
+ms.sourcegitcommit: 2cb46af39a0d116e8fd020aa04bd2ecbd6998a5f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "36393374"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41678961"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Environmental requirements for Skype for Business Server 2015
  
@@ -250,6 +250,9 @@ Skype for Business Server 2015 では、次のような用途で証明書が使�
   
 > [!NOTE]
 > RSASSA-PSS 署名アルゴリズムの使用はサポートされておらず、数ある問題の中でも、ログイン時のエラーや着信転送時の問題につながる可能性があります。 
+
+> [!NOTE]
+> Skype for Business Server 2015 は CNG 証明書をサポートしていません。
   
 - 暗証キーの長さとして 1024、2048、4096 がサポートされます。2048 以上のキーの長さはお勧めしません。
     
@@ -362,7 +365,7 @@ Skype for Business Server 2015 では、access および web 会議エッジの�
 
 Skype for Business Server 2015 は、すべてのファイルストレージに同じファイル共有を使用できます。 以下の点を考慮する必要があります。
   
-- ファイル共有は、直接取り付け記憶域 (DAS) と記憶域ネットワーク (SAN) のいずれかに配置する必要があり、またファイル共有には、分散ファイル システム (DFS) だけでなくファイル ストア用の RAID (Redundant Array of Independent Disks) も含まれます。 Windows Server 2012 向け DFS について詳しくは、[この dfs のページ](https://technet.microsoft.com/en-us/library/jj127250.aspx)をご覧ください。
+- ファイル共有は、直接取り付け記憶域 (DAS) と記憶域ネットワーク (SAN) のいずれかに配置する必要があり、またファイル共有には、分散ファイル システム (DFS) だけでなくファイル ストア用の RAID (Redundant Array of Independent Disks) も含まれます。 Windows Server 2012 向け DFS について詳しくは、[この dfs のページ](https://technet.microsoft.com/library/jj127250.aspx)をご覧ください。
     
 - ファイル共有の共有クラスターをお勧めします。 いずれかを使用している場合は、Windows Server 2012 または Windows Server 2012 R2 をクラスター化する必要があります。 Windows Server 2008 R2 も受け入れられます。 最新の Windows の理由 以前のバージョンには、すべての機能を有効にするための適切な権限がない場合があります。 クラスターアドミニストレーターを使ってファイル共有を作成することができます。この方法では、クラスターの記事[にファイル共有を作成する方法](https://support.microsoft.com/en-us/help/224967/how-to-create-file-shares-on-a-cluster)を説明します。
     

@@ -18,16 +18,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: これは、国/地域ごとに無料電話番号をダイヤルする方法を確認するのに役立ちます。 国または地域を選択すると、無料サービスの利用可能な無料サービスの利用に関する具体的な詳細、制限、制限が記載された国固有のページに移動します。 ダイヤル形式または形式では、無料番号をダイヤルするために、各国または地域で必要なアクセスコードが表示されます。
-ms.openlocfilehash: 203ee00cbe2c12f8b133b070ce3bc62944d9600c
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: f218dbd5c1c5593530efe266b85c8337960971e2
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569873"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41682394"
 ---
 # <a name="toll-free-dialing-restrictions-in-mexico"></a>メキシコでのフリーダイヤル制限
 
@@ -45,7 +46,7 @@ ms.locfileid: "37569873"
 |携帯電話ネットワークの状態  <br/> |部分的。 コメント参照。  <br/> |
 |コメント、制限、アクセスの問題など  <br/> |携帯電話のローミングからのアクセスは保証されない。  <br/> 001-800 番号形式の場合: 固定ネットワーク アクセスの場合 - Telmex。 携帯電話アクセスの場合 - Telcel のみ。 通話時間が課金される。 エンドユーザーが Telmex を現地および遠距離のプロバイダーとして使用している場合は、追加料金はかかりません。  <br/> 01-800 番号形式の場合: 携帯電話アクセスの通話時間が課金される。  <br/> |
    
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [無料電話ダイヤルの制限事項](../toll-free-dialing-limitations-and-restrictions.md)
 

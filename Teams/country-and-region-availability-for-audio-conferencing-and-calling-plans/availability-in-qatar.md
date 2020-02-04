@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: 以下は、カタール向けの Skype for Business および Microsoft Teams の Office 365 サービスです。
-ms.openlocfilehash: 464578e13491e41c31a1a948bd1f05a702193ce2
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 9cc18819bc37dc2663dc3a66bd53203be2c42409
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37562815"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41683620"
 ---
 # <a name="availability-in-qatar"></a>カタールでの利用可能性
 

@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: ここでは、Skype for Business および Microsoft Teams の Office 365 サービスをマケドニアで利用できるようにする方法について説明します。
-ms.openlocfilehash: af9afd219f326bbb8d52648af010d06f0d6883c5
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: b8144f561e701110b79fd62c838f899ab85dc60d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573076"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41683720"
 ---
 # <a name="availability-in-macedonia"></a>北マケドニア共和国での利用可能性
 

@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.SqlStoreSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bd269d52-6f87-4433-b9b0-2b543fea845d
 description: SQL Server データベースのプロパティを編集するには、SQL Server データベースインスタンスを変更する必要があります。 [プロパティの編集] ダイアログボックスを使用して、アーカイブサーバーデータベースを別のコンピューターに移動するなどのタスクを実行することはできません。 さらに、[プロパティの編集] ダイアログボックスを使って、中央管理ストアをホストする SQL Server のインスタンスを変更することはできません。
-ms.openlocfilehash: 5119159c782e4d27b47d9759ff7b75323b9992fc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2d9f03f7aed8aecc591a3f7c9177b5286fb3772b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291208"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684350"
 ---
 # <a name="sql-store-settings-expander"></a>SQL ストア設定エキスパンダー
  

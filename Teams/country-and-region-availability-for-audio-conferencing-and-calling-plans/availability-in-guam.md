@@ -17,18 +17,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: 以下は、Skype for Business および Microsoft Teams for グアムの Office 365 サービスです。
-ms.openlocfilehash: 062149661a8fb4281bfc6cf3f35c4a1803e350eb
-ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
+ms.openlocfilehash: 9f4e76932ae12235845eb1302362a05ac8972cf1
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/18/2019
-ms.locfileid: "40741614"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41683850"
 ---
 # <a name="availability-in-guam"></a>グアムで利用可能
 

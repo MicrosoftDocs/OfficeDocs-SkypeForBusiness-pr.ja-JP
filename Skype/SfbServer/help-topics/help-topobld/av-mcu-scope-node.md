@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AvMcuScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 45e90203-2da3-44c3-beaf-02456fa970a1
 description: このノードには、この音声ビデオ会議プールのプール完全修飾ドメイン名 (FQDN) および関連付けられたフロントエンド プールが表示されます。以下のアクションを実行できます。
-ms.openlocfilehash: bba5a1782aaad093656024e026fe9f15ea27b16d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 52c00dd917ed9a4e4deb12eb621a05feaec3fe4d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34301611"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684900"
 ---
 # <a name="av-mcu-scope-node"></a>AV MCU スコープ ノード
  

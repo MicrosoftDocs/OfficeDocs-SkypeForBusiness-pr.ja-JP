@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.LyncServer2013ScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 65ff172c-8a27-45ce-8ce1-c1a37798b3a3
 description: Topology Builder で新しい VIS またはビデオゲートウェイを定義するために必要な手順は、「Skype for Business Server 2015 での VIS プールの作成」で説明しています。
-ms.openlocfilehash: 73cf9e07cf0239ca7edb546e8b7aaacbb1679e95
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b09925b6f99078ff81fe67f9100f51a19ffa0ab9
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276197"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684570"
 ---
 # <a name="lync-server-2013-scope-node"></a>Lync Server 2013 のスコープ ノード
  

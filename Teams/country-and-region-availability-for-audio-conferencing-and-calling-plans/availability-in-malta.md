@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: ここでは、Skype for Business および Microsoft Teams 用の Office 365 サービスをマルタで利用できます。
-ms.openlocfilehash: 6ed6699e6b74bfa80046f1d9cbaf93c1f76bd370
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ce81c975ea9c185affd1955c8432d4b8069e249c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569314"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41683730"
 ---
 # <a name="availability-in-malta"></a>マルタでの利用可能性
 

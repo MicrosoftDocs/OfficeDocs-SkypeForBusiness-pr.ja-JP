@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.SipVideoTrunkScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1dc894e5-e2db-4c4d-9946-1d5f92090113
 description: Topology Builder で新しい VIS またはビデオゲートウェイを定義するために必要な手順は、「Skype for Business Server 2015 での VIS プールの作成」で説明しています。
-ms.openlocfilehash: 9518de764e7a508ba4828ecbf447fd57cc63ce0e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c55092d19ca59f9d0241dcbd85c265212440437e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291292"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684380"
 ---
 # <a name="sip-video-trunk-scope-node"></a>SIP ビデオ トランク スコープ ノード
  

@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: 以下は、アルゼンチンで利用可能な Skype for Business および Microsoft Teams の Office 365 サービスです。
-ms.openlocfilehash: 2a804d565ecf1fa41bdb4bc7bb5df5056fee2b4e
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 67c117c1e6e9cbd0cbfddff21ee0e76a0e15d659
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570922"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684080"
 ---
 # <a name="availability-in-argentina"></a>アルゼンチンでの利用可能性
 

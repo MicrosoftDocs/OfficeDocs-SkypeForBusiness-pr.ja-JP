@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.NcsLocEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d9b30b3b-570b-49a6-b2b4-46b0cf490153
 description: 場所ポリシーを構成すると、拡張 9-1-1 (E9-1-1) を有効にするかどうか、E9-1-1 の使用方法、およびユーザーと連絡先での場所情報の使用方法を指定することができます。
-ms.openlocfilehash: b0b1e16f7227100394dd132e52a17a3192ccab43
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2623e5f3a723dc0ce061109e047961d68bd7badd
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34293502"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41686390"
 ---
 # <a name="location-policy-create-new-or-edit-existing"></a>場所のポリシー: 新規作成または現在の形式のままで編集
 
@@ -56,7 +56,7 @@ ms.locfileid: "34293502"
     > [!IMPORTANT]
     > コールパークルーティングは緊急ダイヤルの文字列変換より優先されるため、ダイヤルマスクが通話パーク番号の範囲内の番号と同じではないことを確認してください。 通話パーク番号の範囲を確認するには、左側のナビゲーションバーで [**音声機能**] をクリックし、[**コールパーク**] をクリックします。
 
-- **通知 URI**緊急通話が行われたときに通知される SIP Uri を1つ以上指定します。 たとえば、緊急通話が行われるたびに、セキュリティスタッフにインスタントメッセージを送信するように、会社のセキュリティ office SIP URI を入力します。 呼び出し元の場所が利用可能な場合は、その場所が通知に含まれます。 コンマ区切りリストとして複数の SIP Uri を指定できます。 たとえば、"sip: security@litwareinc.com"、"sip: kmyer@litwareinc.com" のようになります。 文字列は、1 ~ 256 文字の長さで、先頭が "sip:" で始まる必要があります。 配布リストを指定することもできます。
+- **通知 URI**緊急通話が行われたときに通知される SIP Uri を1つ以上指定します。 たとえば、緊急通話が行われるたびに、セキュリティスタッフにインスタントメッセージを送信するように、会社のセキュリティ office SIP URI を入力します。 呼び出し元の場所が利用可能な場合は、その場所が通知に含まれます。 コンマ区切りリストとして複数の SIP Uri を指定できます。 たとえば、"sip: security@litwareinc"、"sip: kmyer@litwareinc" のようになります。 文字列は、1 ~ 256 文字の長さで、先頭が "sip:" で始まる必要があります。 配布リストを指定することもできます。
 
 - **会議の URI**サードパーティが緊急通話に conferenced できる SIP URI (この場合は電話番号) を指定します。 たとえば、緊急通報が行われたときに通話を受信できるように、会社のセキュリティオフィスの電話番号を入力します。 **会議モード**の設定では、サードパーティが参加できるか、または通話をリッスンするかを決定します。 文字列は、1 ~ 256 文字の長さで、先頭が「sip:」で始まる必要があります。
 

@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.LegacyMergeSummaryPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0e298963-cc86-445a-87f4-d611ef2167ee
 description: Microsoft Office Communications Server 2007 R2 から Lync Server 2013 への移行では、トポロジビルダーの機能を使用して既存のトポロジを結合します。 概要画面には、Office Communications Server 2007 R2 の合併を構成する際に行ったすべてのアクションと選択が、Lync Server 2013 topology builder の構成として表示されます。
-ms.openlocfilehash: a717daa2e1c67802442816b67c182424e9a49468
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a13d9535c36250e8290ca03157264f0f5d6fc773
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284124"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684590"
 ---
 # <a name="legacy-merge-summary-page"></a>従来版のマージの概要ページ
 

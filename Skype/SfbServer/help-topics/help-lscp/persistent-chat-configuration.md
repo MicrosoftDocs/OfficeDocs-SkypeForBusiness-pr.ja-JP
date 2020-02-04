@@ -7,25 +7,25 @@ manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.PersistentChatConfig
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3f2891e6-bad3-4a23-a345-b7de4cae3bd9
 description: 常設チャットサーバーの展開では、多数の同時常設チャットルームをホストできます。 チャット ルームは、サーバーで一連のカテゴリに編成できます。 各チャット ルームは 1 つのカテゴリに属し、そのカテゴリからいくつかの設定を継承します。 この編成によって、業務目的に基づいて会話を識別するのに便利な構造が作成され、管理の委任および管理の簡素化が容易になります。
-ms.openlocfilehash: 75665a9a3dfb25f6c70abb0c5a425d6ce69e5d62
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 07c1043a67d5f1a64dbb53540fbd902341067b32
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302672"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41686230"
 ---
 # <a name="persistent-chat-configuration"></a>常設チャットの構成
  
 常設チャットサーバーの展開では、多数の同時常設チャットルームをホストできます。 チャット ルームは、サーバーで一連のカテゴリに編成できます。 各チャット ルームは 1 つのカテゴリに属し、そのカテゴリからいくつかの設定を継承します。 この編成によって、業務目的に基づいて会話を識別するのに便利な構造が作成され、管理の委任および管理の簡素化が容易になります。
   
 > [!NOTE]
-> チャットルームの管理機能の多くは、ユーザーに対して常設チャットを実行しているコンピューターで利用できますが、常設チャット管理者 ( **cspersistentchatadministrator**の役割) では、コントロールパネルまたは管理シェルのいずれかを使用する必要があります。カテゴリを作成または管理するためのコマンドレット。
+> チャットルームの管理機能の多くは、ユーザーに対して常設チャットを実行しているコンピューターでは利用できますが、 **cspersistentchatadministrator**ロールの常設チャット管理者は、カテゴリを作成または管理するためにコントロールパネルまたは管理シェルコマンドレットを使用する必要があります。
   
 常設チャット管理者は、Skype for Business Server コントロールパネルまたは Windows PowerShell コマンドレットを使ってカテゴリの作成と管理を行い、組織内のユーザーのチャットルームへのアクセスを設計します。
   
@@ -124,6 +124,6 @@ ms.locfileid: "34302672"
     
 ## <a name="see-also"></a>関連項目
 
-常設チャットサーバーの機能と機能について詳しくは、「 [skype For Business server 2015 での常設チャットサーバーの計画](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)」、「 [Skype for business server 2015 での常設](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)チャットサーバーの展開」、「[常設チャットサーバーの管理」をご覧ください。Skype for Business Server 2015 の場合](../../manage/persistent-chat/persistent-chat.md)
+常設チャットサーバーの機能と機能について詳しくは、「skype [For Business server 2015 での常設チャットサーバーの計画](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)」、「skype for business server [2015 で](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)の常設チャットサーバーの展開」、「 [skype for Business server 2015 での常設チャットサーバーの管理](../../manage/persistent-chat/persistent-chat.md)」をご覧ください。
   
 

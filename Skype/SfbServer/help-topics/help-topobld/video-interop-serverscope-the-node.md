@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.VideoInteropServerScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8c01299a-e832-45a1-8fd9-af432f36a8d4
 description: Topology Builder で新しい VIS またはビデオゲートウェイを定義するために必要な手順は、「Skype for Business Server 2015 での VIS プールの作成」で説明しています。
-ms.openlocfilehash: 99aa62a29dff4c651fc97c3c087feec33d695902
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: adeb15811b0c33f6d298e1a4df2194c62ef6dba7
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34282099"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684280"
 ---
 # <a name="video-interop-server---scope-the-node"></a>ビデオ相互運用サーバー - ノードのスコープ設定
  

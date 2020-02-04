@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.ExternalApplicationsScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 73b422d6-1582-4a76-aceb-690004fa02a3
 description: '[信頼されたアプリケーション サーバー] ノードには、このサイトの信頼されたアプリケーション プールの一覧が表示されます。 信頼されたアプリケーションプールには、信頼できる Microsoft ユニファイドコミュニケーションアプリケーションを実行するが、Skype for Business Server の役割は実行されないサーバーが含まれています。 以下のアクションを実行できます。'
-ms.openlocfilehash: 868cab5dd8a3f7afb9f1e2ad17c85c2922677fbd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 09c7a7294436477ffb2cf36226e3163247ed2592
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284488"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684710"
 ---
 # <a name="external-applications-scope-node"></a>外部アプリケーション スコープ ノード
  

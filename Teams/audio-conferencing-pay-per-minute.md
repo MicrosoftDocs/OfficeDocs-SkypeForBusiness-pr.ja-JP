@@ -17,16 +17,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 description: 標準の電話会議のユーザーライセンスに加えて、Microsoft ボリュームライセンスを使用する組織は、組織の電話会議機能を有効にするための1分あたりの料金プランを選ぶこともできます。
-ms.openlocfilehash: 0f31d5b79c8b298dbd13c516856446ee2ead977a
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 7f0f0775ea6d3beef7dcd590f04c40845448a71b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37515894"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684140"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>分数ごと従量課金制電話会議
 
@@ -41,7 +42,7 @@ ms.locfileid: "37515894"
   
 ## <a name="need-some-details"></a>詳細情報が必要ですか?
 
-電話会議のユーザーごとの電話会議には、ダイヤルインの利用状況が含まれています。また、ダイヤルアウトの使用状況によっては、電話会議の1分あたりの料金で支払いを行うことができます**ライセンス**。 これにより、すべてのダイヤルインおよびダイヤルアウト通話は、次のような分単位で課金されます。
+電話会議のユーザーごとの電話会議には、ダイヤルインの利用状況が含まれています。また、ダイヤルアウトの使用状況によっては、電話会議の1分あたりの料金で支払いを行うことができます。**ユーザーごとの月間ライセンスを購入**する必要はありません。 これにより、すべてのダイヤルインおよびダイヤルアウト通話は、次のような分単位で課金されます。
   
 - 組織の有料電話会議番号への着信通話。
     

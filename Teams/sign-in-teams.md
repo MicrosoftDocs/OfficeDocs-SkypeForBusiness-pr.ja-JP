@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5698058cbfecd62f92cfe9f198657f7c280deff
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: d266799bf2bc2cab9cd107836f9017bd7dc369bf
+ms.sourcegitcommit: 2cb46af39a0d116e8fd020aa04bd2ecbd6998a5f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37563123"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41678971"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>先進認証を使用して Microsoft Teams にサインインする
 ==========================
@@ -38,6 +38,11 @@ Microsoft Teams は先進認証を使用して、サインインエクスペリ�
 - ユーザーが自分の Office 365 Enterprise アカウントにサインインしていない場合、そのユーザーが Teams を開始すると、組織での決定に応じて、単一要素認証または多要素認証 (SFA または MFA) を提供するように求められます。処理を行います。
 
 - ユーザーがドメインに参加しているコンピューターにサインインしている場合、Teams を開始すると、組織で MFA を要求するか、またはコンピューターで既に MFA を要求しているかどうかによって、もう1つの認証手順を実行するように求められる場合があります。 お客様のコンピューターに、サインインのために既に MFA が必要な場合は、チームを開くときにアプリが自動的に起動します。
+
+- ユーザーがドメインに参加しているコンピューターにサインインしていて、そのユーザー名が Teams のサインイン画面に事前に入力されていない場合、管理者は次の Windows レジストリを設定してユーザー名の事前作成を無効にすることができます。コンピューター \ HKEY_CURRENT_USER \ ソフトウェア \Microsoft\Office\Teams DisableUpnSuffixCheck (REG_DWORD) 0x00000001 (1)
+
+  注: ユーザー名が ".local" または "corp" で終わるユーザー名の入力を省略すると、既定ではオンになっているため、レジストリキーを設定しなくても無効にすることができます。 
+
 
 ### <a name="mac-users"></a>Mac ユーザー 
 

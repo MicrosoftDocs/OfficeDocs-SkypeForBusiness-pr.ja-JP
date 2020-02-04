@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: Skype for Business および Microsoft Teams の Office 365 サービスは、ボスニア・ヘルツェゴビナで利用できます。
-ms.openlocfilehash: f170b030acde7ccf07a39d47ae2e914935e1b225
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 355c73727ddc465cc06b360d377396a6d6bbf539
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571097"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684020"
 ---
 # <a name="availability-in-bosnia-amp-herzegovina"></a>ボスニア・ヘルツェゴビナでの利用可能性
 

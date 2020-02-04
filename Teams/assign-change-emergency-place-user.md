@@ -14,14 +14,15 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 description: 組織内のユーザーの緊急対応の場所の割り当てまたは変更方法について説明します。
-ms.openlocfilehash: 4179992476faa800684e29343227e03b563d7575
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 5fc4f9ceeb8fc602ae28831ba48fcf37191608b9
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37515843"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684170"
 ---
 # <a name="assign-or-change-the-place-for-an-emergency-location-for-a-user"></a>ユーザーの緊急対応の場所を割り当てまたは変更する
 
@@ -38,7 +39,7 @@ Office 365 での通話プランの取得方法とその費用については、
 - 場所を割り当てるには、場所または場所を検索して、検索結果内の場所を選びます。
 - ユーザーに既に割り当てられている場所を変更するには、[ **X** ] をクリックして、既存の場所を削除してから、割り当てる場所を検索して選択します。
 
-4. [**保存**] をクリックします。
+4. **[保存]** をクリックします。
     
 ## <a name="related-topics"></a>関連トピック
 
@@ -46,5 +47,5 @@ Office 365 での通話プランの取得方法とその費用については、
 - [組織の緊急対応の場所を追加、変更、削除する](add-change-remove-emergency-location-organization.md)
 - [組織の緊急対応の場所の位置情報を追加、変更、削除する](add-change-remove-emergency-place-organization.md)
 - [ユーザーの緊急対応の場所を割り当てたり変更したりする](assign-change-emergency-location-user.md)
-- [[[Skype for Business 新しい電話番号の申請](/microsoftteams/manage-phone-numbers-for-your-organization)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。](/microsoftteams/manage-phone-numbers-for-your-organization)
+- [組織の電話番号を管理する](/microsoftteams/manage-phone-numbers-for-your-organization)
 - [緊急通話の利用条件](/microsoftteams/emergency-calling-terms-and-conditions)

@@ -17,16 +17,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Phone System
 description: 'ビジネス向けの Microsoft 電話システムの計画とセットアップ方法について説明します。 '
-ms.openlocfilehash: fc4d771037a9305fa5f39148ad465211e491ceb4
-ms.sourcegitcommit: a6e051c5c5c100dbf2ff3ca8fc7babc4415babf3
+ms.openlocfilehash: ad2feebec1a5c7745563308f0004f1839e358117
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/25/2020
-ms.locfileid: "41554354"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680494"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Office 365 の電話システムでできること
 
