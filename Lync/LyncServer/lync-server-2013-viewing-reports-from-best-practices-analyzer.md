@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ベストプラクティスアナライザーからレ
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Viewing reports from Best Practices Analyzer
 ms:assetid: 7217a47b-36b1-4923-81ea-df754cff29bb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg607690(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184465
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fb2c229d683ecd0dcf4fee94b456514527226152
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e79732661152ba0929b62ae64f46b0cbfdb95217
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848155"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757241"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34848155"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="viewing-reports-from-best-practices-analyzer-in-lync-server-2013"></a><span data-ttu-id="4efe9-102">Lync Server 2013 のベストプラクティスアナライザーからレポートを表示する</span><span class="sxs-lookup"><span data-stu-id="4efe9-102">Viewing reports from Best Practices Analyzer in Lync Server 2013</span></span>
+# <a name="viewing-reports-from-best-practices-analyzer-in-lync-server-2013"></a><span data-ttu-id="4589b-102">Lync Server 2013 のベストプラクティスアナライザーからレポートを表示する</span><span class="sxs-lookup"><span data-stu-id="4589b-102">Viewing reports from Best Practices Analyzer in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,57 +35,57 @@ ms.locfileid: "34848155"
 
 <span> </span>
 
-<span data-ttu-id="4efe9-103">_**最終更新日:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="4efe9-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+<span data-ttu-id="4589b-103">_**最終更新日:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="4589b-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-<span data-ttu-id="4efe9-104">ベストプラクティスアナライザーを使って環境をスキャンする場合は、スキャンの名前を指定します。</span><span class="sxs-lookup"><span data-stu-id="4efe9-104">When you use Best Practices Analyzer to scan your environment, you specify a name for the scan.</span></span> <span data-ttu-id="4efe9-105">ベストプラクティスアナライザーがスキャンを完了した後、スキャン結果はレポートに保存され、スキャンの名前の下に保存されます。</span><span class="sxs-lookup"><span data-stu-id="4efe9-105">After Best Practices Analyzer completes a scan, it stores the scan results in reports and saves them under the name of the scan.</span></span> <span data-ttu-id="4efe9-106">スキャンが完了したら、[スキャン**完了**] ページから直接 [**このベストプラクティススキャンのレポートを表示**] をクリックして、スキャン用に生成されたレポートを表示できます。</span><span class="sxs-lookup"><span data-stu-id="4efe9-106">Upon completion of the scan, you can view the reports generated for that scan by clicking **View a report of this Best Practices scan** directly from the **Scanning Completed** page.</span></span> <span data-ttu-id="4efe9-107">また、そのスキャンまたは前のスキャンのレポートを後で表示することもできます。</span><span class="sxs-lookup"><span data-stu-id="4efe9-107">You can also view the reports from that scan or previous scans at a later time.</span></span> <span data-ttu-id="4efe9-108">スキャンが実行されたローカルコンピューターのレポートを表示したり、別のコンピューターからスキャン結果をインポートしたり、スキャン結果をエクスポートして、ベストプラクティスアナライザーがインストールされている別のコンピューターでレポートを表示したりできます。</span><span class="sxs-lookup"><span data-stu-id="4efe9-108">You can view reports on the local computer on which the scan was run, import scan results from another computer, or export scan results to view the reports on another computer on which Best Practices Analyzer is installed.</span></span>
+<span data-ttu-id="4589b-104">ベストプラクティスアナライザーを使って環境をスキャンする場合は、スキャンの名前を指定します。</span><span class="sxs-lookup"><span data-stu-id="4589b-104">When you use Best Practices Analyzer to scan your environment, you specify a name for the scan.</span></span> <span data-ttu-id="4589b-105">ベストプラクティスアナライザーがスキャンを完了した後、スキャン結果はレポートに保存され、スキャンの名前の下に保存されます。</span><span class="sxs-lookup"><span data-stu-id="4589b-105">After Best Practices Analyzer completes a scan, it stores the scan results in reports and saves them under the name of the scan.</span></span> <span data-ttu-id="4589b-106">スキャンが完了したら、[スキャン**完了**] ページから直接 [**このベストプラクティススキャンのレポートを表示**] をクリックして、スキャン用に生成されたレポートを表示できます。</span><span class="sxs-lookup"><span data-stu-id="4589b-106">Upon completion of the scan, you can view the reports generated for that scan by clicking **View a report of this Best Practices scan** directly from the **Scanning Completed** page.</span></span> <span data-ttu-id="4589b-107">また、そのスキャンまたは前のスキャンのレポートを後で表示することもできます。</span><span class="sxs-lookup"><span data-stu-id="4589b-107">You can also view the reports from that scan or previous scans at a later time.</span></span> <span data-ttu-id="4589b-108">スキャンが実行されたローカルコンピューターのレポートを表示したり、別のコンピューターからスキャン結果をインポートしたり、スキャン結果をエクスポートして、ベストプラクティスアナライザーがインストールされている別のコンピューターでレポートを表示したりできます。</span><span class="sxs-lookup"><span data-stu-id="4589b-108">You can view reports on the local computer on which the scan was run, import scan results from another computer, or export scan results to view the reports on another computer on which Best Practices Analyzer is installed.</span></span>
 
-<span data-ttu-id="4efe9-109">スキャン結果は、次の種類のレポートで示されます。</span><span class="sxs-lookup"><span data-stu-id="4efe9-109">Scan results are presented in the following types of reports:</span></span>
+<span data-ttu-id="4589b-109">スキャン結果は、次の種類のレポートで示されます。</span><span class="sxs-lookup"><span data-stu-id="4589b-109">Scan results are presented in the following types of reports:</span></span>
 
-  - <span data-ttu-id="4efe9-110">リストレポート</span><span class="sxs-lookup"><span data-stu-id="4efe9-110">List reports</span></span>
+  - <span data-ttu-id="4589b-110">リストレポート</span><span class="sxs-lookup"><span data-stu-id="4589b-110">List reports</span></span>
 
-  - <span data-ttu-id="4efe9-111">ツリーレポート</span><span class="sxs-lookup"><span data-stu-id="4efe9-111">Tree reports</span></span>
+  - <span data-ttu-id="4589b-111">ツリーレポート</span><span class="sxs-lookup"><span data-stu-id="4589b-111">Tree reports</span></span>
 
-  - <span data-ttu-id="4efe9-112">その他のレポート</span><span class="sxs-lookup"><span data-stu-id="4efe9-112">Other reports</span></span>
+  - <span data-ttu-id="4589b-112">その他のレポート</span><span class="sxs-lookup"><span data-stu-id="4589b-112">Other reports</span></span>
 
-<span data-ttu-id="4efe9-113">これらのレポートには、エラー、警告、その他の情報が含まれます。</span><span class="sxs-lookup"><span data-stu-id="4efe9-113">These reports include errors, warnings, and other information.</span></span> <span data-ttu-id="4efe9-114">これらの各種類のレポートと問題の詳細については、「 [Lync Server 2013 のベストプラクティスアナライザーで作成されたレポートについ](lync-server-2013-understanding-reports-created-by-best-practices-analyzer.md)て」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="4efe9-114">For details about each of these types of reports and issues, see [Understanding reports created by Best Practices Analyzer in Lync Server 2013](lync-server-2013-understanding-reports-created-by-best-practices-analyzer.md).</span></span>
+<span data-ttu-id="4589b-113">これらのレポートには、エラー、警告、その他の情報が含まれます。</span><span class="sxs-lookup"><span data-stu-id="4589b-113">These reports include errors, warnings, and other information.</span></span> <span data-ttu-id="4589b-114">これらの各種類のレポートと問題の詳細については、「 [Lync Server 2013 のベストプラクティスアナライザーで作成されたレポートについ](lync-server-2013-understanding-reports-created-by-best-practices-analyzer.md)て」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="4589b-114">For details about each of these types of reports and issues, see [Understanding reports created by Best Practices Analyzer in Lync Server 2013](lync-server-2013-understanding-reports-created-by-best-practices-analyzer.md).</span></span>
 
-<span data-ttu-id="4efe9-115">次の手順を使用して、ベストプラクティスアナライザーによって以前に生成されたスキャン結果を表示します。</span><span class="sxs-lookup"><span data-stu-id="4efe9-115">Use the following procedure to view scan results previously generated by Best Practices Analyzer.</span></span>
+<span data-ttu-id="4589b-115">次の手順を使用して、ベストプラクティスアナライザーによって以前に生成されたスキャン結果を表示します。</span><span class="sxs-lookup"><span data-stu-id="4589b-115">Use the following procedure to view scan results previously generated by Best Practices Analyzer.</span></span>
 
 <div>
 
-## <a name="to-view-reports-from-a-previous-scan"></a><span data-ttu-id="4efe9-116">以前のスキャンのレポートを表示するには</span><span class="sxs-lookup"><span data-stu-id="4efe9-116">To view reports from a previous scan</span></span>
+## <a name="to-view-reports-from-a-previous-scan"></a><span data-ttu-id="4589b-116">以前のスキャンのレポートを表示するには</span><span class="sxs-lookup"><span data-stu-id="4589b-116">To view reports from a previous scan</span></span>
 
-1.  <span data-ttu-id="4efe9-117">ローカルユーザーアカウントのメンバーであるアカウントを使用して、ベストプラクティスアナライザーがインストールされているコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="4efe9-117">Log on to a computer on which Best Practices Analyzer is installed using an account that is a member of the local User account.</span></span>
+1.  <span data-ttu-id="4589b-117">ローカルユーザーアカウントのメンバーであるアカウントを使用して、ベストプラクティスアナライザーがインストールされているコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="4589b-117">Log on to a computer on which Best Practices Analyzer is installed using an account that is a member of the local User account.</span></span>
     
     > [!NOTE]  
-    > <span data-ttu-id="4efe9-118">ローカル管理者グループのメンバーであるアカウントを使用してスキャンの結果を表示することはできますが、適切なユーザー権限と権限がない限り、スキャンを実行することはできません。</span><span class="sxs-lookup"><span data-stu-id="4efe9-118">You can view the results of a scan using an account that is a member of the local Administrators group, but you cannot run a scan unless you have appropriate user rights and permissions.</span></span> <span data-ttu-id="4efe9-119">詳細については、「 <A href="lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md">Lync Server 2013 のベストプラクティスアナライザーのグループメンバーシップとユーザー権利の要件</A>」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="4efe9-119">For details, see <A href="lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md">Group memberships and user rights requirements for Best Practices Analyzer in Lync Server 2013</A>.</span></span>
+    > <span data-ttu-id="4589b-118">ローカル管理者グループのメンバーであるアカウントを使用してスキャンの結果を表示することはできますが、適切なユーザー権限と権限がない限り、スキャンを実行することはできません。</span><span class="sxs-lookup"><span data-stu-id="4589b-118">You can view the results of a scan using an account that is a member of the local Administrators group, but you cannot run a scan unless you have appropriate user rights and permissions.</span></span> <span data-ttu-id="4589b-119">詳細については、「 <A href="lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md">Lync Server 2013 のベストプラクティスアナライザーのグループメンバーシップとユーザー権利の要件</A>」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="4589b-119">For details, see <A href="lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md">Group memberships and user rights requirements for Best Practices Analyzer in Lync Server 2013</A>.</span></span>
 
-2.  <span data-ttu-id="4efe9-120">[**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[**ベストプラクティスアナライザー**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="4efe9-120">Click **Start**, point to **All Programs**, click **Microsoft Lync Server 2013**, and then click **Best Practices Analyzer**.</span></span>
+2.  <span data-ttu-id="4589b-120">[**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[**ベストプラクティスアナライザー**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="4589b-120">Click **Start**, point to **All Programs**, click **Microsoft Lync Server 2013**, and then click **Best Practices Analyzer**.</span></span>
 
-3.  <span data-ttu-id="4efe9-121">[**ようこそ**] 画面で、[**スキャン結果を表示する**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="4efe9-121">On the **Welcome** screen, click **Select the scan results to view**.</span></span>
+3.  <span data-ttu-id="4589b-121">[**ようこそ**] 画面で、[**スキャン結果を表示する**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="4589b-121">On the **Welcome** screen, click **Select the scan results to view**.</span></span>
 
-4.  <span data-ttu-id="4efe9-122">**[表示するベストプラクティススキャンを選択**する] ページで、次のいずれかの操作を行います。</span><span class="sxs-lookup"><span data-stu-id="4efe9-122">On the **Select a Best Practices Scan to View** page, do one of the following:</span></span>
+4.  <span data-ttu-id="4589b-122">**[表示するベストプラクティススキャンを選択**する] ページで、次のいずれかの操作を行います。</span><span class="sxs-lookup"><span data-stu-id="4589b-122">On the **Select a Best Practices Scan to View** page, do one of the following:</span></span>
     
-      - <span data-ttu-id="4efe9-123">ローカルに保存されているスキャン結果の一覧からレポートを表示するには、スキャンの名前をクリックし、[**このスキャンのレポートを表示**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="4efe9-123">To view reports from the list of locally stored scan results, click the name of scan, and then click **View a report of this scan**.</span></span>
+      - <span data-ttu-id="4589b-123">ローカルに保存されているスキャン結果の一覧からレポートを表示するには、スキャンの名前をクリックし、[**このスキャンのレポートを表示**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="4589b-123">To view reports from the list of locally stored scan results, click the name of scan, and then click **View a report of this scan**.</span></span>
         
         > [!NOTE]  
-        > <span data-ttu-id="4efe9-124">ベストプラクティスアナライザーは、フォルダー &lt;systemDrive&gt;\\ドキュメントと設定\\&lt;ユーザー&gt;\Application Data\Microsoft\RtcBPA. からローカルファイルの一覧を作成します。</span><span class="sxs-lookup"><span data-stu-id="4efe9-124">The Best Practices Analyzer creates the list of local files from the folder &lt;systemDrive&gt;\\Documents and Settings\\&lt;user&gt;\Application Data\Microsoft\RtcBPA.</span></span>
+        > <span data-ttu-id="4589b-124">ベストプラクティスアナライザーは、フォルダー &lt;systemDrive&gt;\\ドキュメントと設定\\&lt;ユーザー&gt;\Application Data\Microsoft\RtcBPA. からローカルファイルの一覧を作成します。</span><span class="sxs-lookup"><span data-stu-id="4589b-124">The Best Practices Analyzer creates the list of local files from the folder &lt;systemDrive&gt;\\Documents and Settings\\&lt;user&gt;\Application Data\Microsoft\RtcBPA.</span></span>
     
-      - <span data-ttu-id="4efe9-125">別の場所に保存されているスキャン結果のレポートを表示するには、[**スキャンのインポート**] をクリックし、スキャン結果が含まれているファイルを見つけて、[**開く**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="4efe9-125">To view reports for results of a scan that are stored at another location, click **Import scan**, locate the file containing the scan results, and then click **Open**.</span></span>
+      - <span data-ttu-id="4589b-125">別の場所に保存されているスキャン結果のレポートを表示するには、[**スキャンのインポート**] をクリックし、スキャン結果が含まれているファイルを見つけて、[**開く**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="4589b-125">To view reports for results of a scan that are stored at another location, click **Import scan**, locate the file containing the scan results, and then click **Open**.</span></span>
         
         > [!NOTE]  
-        > <span data-ttu-id="4efe9-126">このコンピューターのベストプラクティスアナライザーのバージョンが、インポートされたファイルのデータを収集するために使用したバージョンと一致しない場合、コンピューターのツールは、インポート後にファイルをもう一度分析する可能性があります。</span><span class="sxs-lookup"><span data-stu-id="4efe9-126">If the version of Best Practices Analyzer on this computer does not match the version that was used to collect the data in the imported file, the tool on your computer might analyze the file again, after it is imported.</span></span>
+        > <span data-ttu-id="4589b-126">このコンピューターのベストプラクティスアナライザーのバージョンが、インポートされたファイルのデータを収集するために使用したバージョンと一致しない場合、コンピューターのツールは、インポート後にファイルをもう一度分析する可能性があります。</span><span class="sxs-lookup"><span data-stu-id="4589b-126">If the version of Best Practices Analyzer on this computer does not match the version that was used to collect the data in the imported file, the tool on your computer might analyze the file again, after it is imported.</span></span>
 
-5.  <span data-ttu-id="4efe9-127">[**ベストプラクティスレポートの表示**] ページで、次のいずれかの操作を行います。</span><span class="sxs-lookup"><span data-stu-id="4efe9-127">On the **View Best Practices Report** page, do one of the following:</span></span>
+5.  <span data-ttu-id="4589b-127">[**ベストプラクティスレポートの表示**] ページで、次のいずれかの操作を行います。</span><span class="sxs-lookup"><span data-stu-id="4589b-127">On the **View Best Practices Report** page, do one of the following:</span></span>
     
-      - <span data-ttu-id="4efe9-128">サーバーコンポーネントによって整理されたリストのレポートを表示するには、[**リストレポート**] をクリックし、[**すべての問題**] タブまたは [**情報アイテム**] タブのいずれかをクリックします。</span><span class="sxs-lookup"><span data-stu-id="4efe9-128">To view reports in a list organized by server component, click **List Reports**, and then click either the **All Issues** tab or the **Informational Items** tab.</span></span>
+      - <span data-ttu-id="4589b-128">サーバーコンポーネントによって整理されたリストのレポートを表示するには、[**リストレポート**] をクリックし、[**すべての問題**] タブまたは [**情報アイテム**] タブのいずれかをクリックします。</span><span class="sxs-lookup"><span data-stu-id="4589b-128">To view reports in a list organized by server component, click **List Reports**, and then click either the **All Issues** tab or the **Informational Items** tab.</span></span>
     
-      - <span data-ttu-id="4efe9-129">結果の種類によって整理された階層リストとしてレポートを表示するには、[**ツリーレポート**] をクリックし、[**詳細表示**] タブまたは [**概要ビュー** ] タブのいずれかをクリックします。</span><span class="sxs-lookup"><span data-stu-id="4efe9-129">To view reports as a hierarchical list organized by types of results, click **Tree Reports**, and then click either the **Detailed View** tab or the **Summary View** tab.</span></span>
+      - <span data-ttu-id="4589b-129">結果の種類によって整理された階層リストとしてレポートを表示するには、[**ツリーレポート**] をクリックし、[**詳細表示**] タブまたは [**概要ビュー** ] タブのいずれかをクリックします。</span><span class="sxs-lookup"><span data-stu-id="4589b-129">To view reports as a hierarchical list organized by types of results, click **Tree Reports**, and then click either the **Detailed View** tab or the **Summary View** tab.</span></span>
     
-      - <span data-ttu-id="4efe9-130">他のレポートを表示するには、[**その他のレポート**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="4efe9-130">To view other reports, click **Other Reports**.</span></span>
+      - <span data-ttu-id="4589b-130">他のレポートを表示するには、[**その他のレポート**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="4589b-130">To view other reports, click **Other Reports**.</span></span>
     
     > [!NOTE]  
-    > <span data-ttu-id="4efe9-131">ベストプラクティスアナライザーレポートとその報告される問題の詳細については、「 <A href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">Lync Server 2013 のベストプラクティスアナライザーによって作成されたレポートの表示と操作</A>」と「<A href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">ベストプラクティスによって識別される問題の分析と解決」を参照してください。Lync Server 2013 のアナライザー</A></span><span class="sxs-lookup"><span data-stu-id="4efe9-131">For details about the Best Practices Analyzer reports and the issues that they identify, see <A href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">Viewing and working with reports created by Best Practices Analyzer in Lync Server 2013</A> and <A href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">Analyzing and resolving issues identified by Best Practices Analyzer in Lync Server 2013</A>.</span></span>
+    > <span data-ttu-id="4589b-131">ベストプラクティスアナライザーレポートとそれらの特定の問題について詳しくは、「 <A href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">Lync server 2013 のベストプラクティスアナライザーで作成されたレポートの表示と操作</A>」と「 <A href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">lync server 2013 でのベストプラクティスアナライザーによって識別される問題の分析と解決</A>」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="4589b-131">For details about the Best Practices Analyzer reports and the issues that they identify, see <A href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">Viewing and working with reports created by Best Practices Analyzer in Lync Server 2013</A> and <A href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">Analyzing and resolving issues identified by Best Practices Analyzer in Lync Server 2013</A>.</span></span>
 
 </div>
 

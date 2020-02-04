@@ -3,6 +3,8 @@ title: 拡張ディレクター プール - DNS 負荷分散とロード バラ�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Scaled Director pool - DNS load balancing and hardware load balancer
 ms:assetid: a1f6ffc0-9e6e-4217-a923-025c9679e154
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205142(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185023
 ms.date: 03/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1cd92304ca3a1147737958ad9d9fc94a49b2e5e2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 16203f7e291b7957793e71872483c93f2d1d04d0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822182"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764995"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34822182"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="scaled-director-pool---dns-load-balancing-and-hardware-load-balancer-in-lync-server-2013"></a><span data-ttu-id="295d2-102">拡張ディレクター プール - Lync Server 2013 の DNS 負荷分散とロード バランサー機器</span><span class="sxs-lookup"><span data-stu-id="295d2-102">Scaled Director pool - DNS load balancing and hardware load balancer in Lync Server 2013</span></span>
+# <a name="scaled-director-pool---dns-load-balancing-and-hardware-load-balancer-in-lync-server-2013"></a><span data-ttu-id="7df6c-102">拡張ディレクター プール - Lync Server 2013 の DNS 負荷分散とロード バランサー機器</span><span class="sxs-lookup"><span data-stu-id="7df6c-102">Scaled Director pool - DNS load balancing and hardware load balancer in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,23 +35,23 @@ ms.locfileid: "34822182"
 
 <span> </span>
 
-<span data-ttu-id="295d2-103">_**最終更新日:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="295d2-103">_**Topic Last Modified:** 2012-10-22_</span></span>
+<span data-ttu-id="7df6c-103">_**最終更新日:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="7df6c-103">_**Topic Last Modified:** 2012-10-22_</span></span>
 
-<span data-ttu-id="295d2-104">スケーリングされたディレクタープール。追加の容量を処理し、高可用性を実現するために複数のディレクターが展開されている場合は、プールのすべてのメンバーにクライアントとサーバーの通信を配布するために負荷分散を行う必要があります。</span><span class="sxs-lookup"><span data-stu-id="295d2-104">A scaled Director pool, where there are more than one Director deployed to handle additional capacity and to provide high availability, requires load balancing to distribute client and server communication to all members of the pool.</span></span> <span data-ttu-id="295d2-105">ディレクターは、フロントエンドプールのような web サービスをホストします。</span><span class="sxs-lookup"><span data-stu-id="295d2-105">A Director hosts web services much like a Front End pool.</span></span> <span data-ttu-id="295d2-106">負荷分散を実現するには、ハードウェア負荷分散またはドメインネームシステム (DNS) の負荷分散とハードウェアの負荷分散のいずれかを使用できます。</span><span class="sxs-lookup"><span data-stu-id="295d2-106">To provide the load balancing, you can use either hardware load balancing or domain name system (DNS) load balancing and hardware load balancing.</span></span> <span data-ttu-id="295d2-107">Web サービスにはハードウェア負荷分散が必要であり、DNS 負荷分散単体では、web サービスに必要な機能が提供されません。</span><span class="sxs-lookup"><span data-stu-id="295d2-107">Hardware load balancing is required for the web services, and DNS load balancing alone does not provide the capabilities required for the web services.</span></span>
+<span data-ttu-id="7df6c-104">スケーリングされたディレクタープール。追加の容量を処理し、高可用性を実現するために複数のディレクターが展開されている場合は、プールのすべてのメンバーにクライアントとサーバーの通信を配布するために負荷分散を行う必要があります。</span><span class="sxs-lookup"><span data-stu-id="7df6c-104">A scaled Director pool, where there are more than one Director deployed to handle additional capacity and to provide high availability, requires load balancing to distribute client and server communication to all members of the pool.</span></span> <span data-ttu-id="7df6c-105">ディレクターは、フロントエンドプールのような web サービスをホストします。</span><span class="sxs-lookup"><span data-stu-id="7df6c-105">A Director hosts web services much like a Front End pool.</span></span> <span data-ttu-id="7df6c-106">負荷分散を実現するには、ハードウェア負荷分散またはドメインネームシステム (DNS) の負荷分散とハードウェアの負荷分散のいずれかを使用できます。</span><span class="sxs-lookup"><span data-stu-id="7df6c-106">To provide the load balancing, you can use either hardware load balancing or domain name system (DNS) load balancing and hardware load balancing.</span></span> <span data-ttu-id="7df6c-107">Web サービスにはハードウェア負荷分散が必要であり、DNS 負荷分散単体では、web サービスに必要な機能が提供されません。</span><span class="sxs-lookup"><span data-stu-id="7df6c-107">Hardware load balancing is required for the web services, and DNS load balancing alone does not provide the capabilities required for the web services.</span></span>
 
-<span data-ttu-id="295d2-108">次のトピックでは、DNS の負荷分散とハードウェアの負荷分散を使用して、ディレクタープールを展開する場合の計画に関する考慮事項について説明します。</span><span class="sxs-lookup"><span data-stu-id="295d2-108">The following topics describe the planning considerations for deploying a Director pool using DNS load balancing in conjunction with hardware load balancing.</span></span> <span data-ttu-id="295d2-109">ハードウェアの負荷分散は使用するが、ディレクタープールでは DNS の負荷分散を使用しない場合は、そのトポロジの計画要件について説明している「 [Lync Server 2013 のスケーリングされたディレクタープール-ハードウェアロードバランサー](lync-server-2013-scaled-director-pool-hardware-load-balancer.md) 」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="295d2-109">If you intend to use hardware load balancing, but not DNS load balancing for the Director pool, see the topic [Scaled Director pool - hardware load balancer in Lync Server 2013](lync-server-2013-scaled-director-pool-hardware-load-balancer.md) that describes the planning requirements for that topology.</span></span>
+<span data-ttu-id="7df6c-108">次のトピックでは、DNS の負荷分散とハードウェアの負荷分散を使用して、ディレクタープールを展開する場合の計画に関する考慮事項について説明します。</span><span class="sxs-lookup"><span data-stu-id="7df6c-108">The following topics describe the planning considerations for deploying a Director pool using DNS load balancing in conjunction with hardware load balancing.</span></span> <span data-ttu-id="7df6c-109">ハードウェアの負荷分散は使用するが、ディレクタープールでは DNS の負荷分散を使用しない場合は、そのトポロジの計画要件について説明している「 [Lync Server 2013 のスケーリングされたディレクタープール-ハードウェアロードバランサー](lync-server-2013-scaled-director-pool-hardware-load-balancer.md) 」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="7df6c-109">If you intend to use hardware load balancing, but not DNS load balancing for the Director pool, see the topic [Scaled Director pool - hardware load balancer in Lync Server 2013](lync-server-2013-scaled-director-pool-hardware-load-balancer.md) that describes the planning requirements for that topology.</span></span>
 
-<span data-ttu-id="295d2-110">スケーリングされた![ディレクタープール]スケーリングされた(images/JJ205142.35a78a7a-b781-4c8f-951e-168451ba6a65(OCS.15).jpg "ディレクタープール")</span><span class="sxs-lookup"><span data-stu-id="295d2-110">![Scaled Director Pool](images/JJ205142.35a78a7a-b781-4c8f-951e-168451ba6a65(OCS.15).jpg "Scaled Director Pool")</span></span>
+<span data-ttu-id="7df6c-110">![スケーリングされたディレクタープール](images/JJ205142.35a78a7a-b781-4c8f-951e-168451ba6a65(OCS.15).jpg "スケーリングされたディレクタープール")</span><span class="sxs-lookup"><span data-stu-id="7df6c-110">![Scaled Director Pool](images/JJ205142.35a78a7a-b781-4c8f-951e-168451ba6a65(OCS.15).jpg "Scaled Director Pool")</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="295d2-111">このセクション中</span><span class="sxs-lookup"><span data-stu-id="295d2-111">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="7df6c-111">このセクション中</span><span class="sxs-lookup"><span data-stu-id="7df6c-111">In This Section</span></span>
 
-  - [<span data-ttu-id="295d2-112">証明書の概要 - Lync Server 2013 の DNS および HLB による負荷分散</span><span class="sxs-lookup"><span data-stu-id="295d2-112">Certificate summary - DNS and HLB load balanced in Lync Server 2013</span></span>](lync-server-2013-certificate-summary-dns-and-hlb-load-balanced.md)
+  - [<span data-ttu-id="7df6c-112">証明書の概要 - Lync Server 2013 の DNS および HLB による負荷分散</span><span class="sxs-lookup"><span data-stu-id="7df6c-112">Certificate summary - DNS and HLB load balanced in Lync Server 2013</span></span>](lync-server-2013-certificate-summary-dns-and-hlb-load-balanced.md)
 
-  - [<span data-ttu-id="295d2-113">ポートの概要 - Lync Server 2013 における DNS および HLB による負荷分散</span><span class="sxs-lookup"><span data-stu-id="295d2-113">Port summary - DNS and HLB load balanced in Lync Server 2013</span></span>](lync-server-2013-port-summary-dns-and-hlb-load-balanced.md)
+  - [<span data-ttu-id="7df6c-113">ポートの概要 - Lync Server 2013 における DNS および HLB による負荷分散</span><span class="sxs-lookup"><span data-stu-id="7df6c-113">Port summary - DNS and HLB load balanced in Lync Server 2013</span></span>](lync-server-2013-port-summary-dns-and-hlb-load-balanced.md)
 
-  - [<span data-ttu-id="295d2-114">DNS の概要 - Lync Server 2013 での DNS と HLB 負荷分散</span><span class="sxs-lookup"><span data-stu-id="295d2-114">DNS summary - DNS and HLB load balanced in Lync Server 2013</span></span>](lync-server-2013-dns-summary-dns-and-hlb-load-balanced.md)
+  - [<span data-ttu-id="7df6c-114">DNS の概要 - Lync Server 2013 での DNS と HLB 負荷分散</span><span class="sxs-lookup"><span data-stu-id="7df6c-114">DNS summary - DNS and HLB load balanced in Lync Server 2013</span></span>](lync-server-2013-dns-summary-dns-and-hlb-load-balanced.md)
 
 </div>
 
