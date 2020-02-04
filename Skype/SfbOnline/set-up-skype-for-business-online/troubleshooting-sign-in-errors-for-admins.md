@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Priority
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: 'Skype for Business Online のサインイン エラーの一般的な原因およびこれらの問題を解決する方法について説明します。 '
-ms.openlocfilehash: 397e899796184274ca357e40e070e7c92cf23b66
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 3315dec928ec019dc8f970171d2eb44693cdf909
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221493"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692772"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Skype for Business Online サインイン エラーのトラブルシューティング (管理者用)
 
@@ -194,7 +195,7 @@ Active Domain Federation Services (ADFS) サーバーにサード パーティ�
 
 1. 関係するすべてのユーザーの **msRTCSIP-UserEnabled** 属性を **TRUE** に更新します。
 
-2. Microsoft Online Services ディレクトリ同期ツール (DirSync) を再実行します。 詳細については、「[オンプレミスのディレクトリと Azure Active Directory の統合](https://technet.microsoft.com/en-us/library/hh967642.aspx)」を参照してください。
+2. Microsoft Online Services ディレクトリ同期ツール (DirSync) を再実行します。 詳細については、「[オンプレミスのディレクトリと Azure Active Directory の統合](https://technet.microsoft.com/ja-JP/library/hh967642.aspx)」を参照してください。
 
 Skype for Business Online のサインイン エラーのトラブルシューティングは、サインインの失敗を引き起こす最も一般的な原因を取り除くことから始めます。 必要に応じて、エラーのタイプに応じて特定の解決手順に従うことができます。 それでもサインインできない場合は、追加の情報を収集してサポートを受けるようにします。
 ## <a name="use-the-microsoft-support-troubleshooting-guide"></a>Microsoft サポートのトラブルシューティング ガイドを使う
