@@ -3,6 +3,8 @@ title: 'Lync Server 2013: DNS の概要 - 拡張統合エッジ、NAT による�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS summary - Scaled consolidated edge, DNS load balancing with private IP addresses using NAT
 ms:assetid: 11bc7b84-91cf-48f9-ad0e-06ad30b46a2e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398201(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183447
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7476f258ddd70adad7f200db90b39438a19f4f84
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6a7836a8d9ce998a8de9185de7aeb12eb088f190
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833367"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737217"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34833367"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat-in-lync-server-2013"></a><span data-ttu-id="3877a-102">DNS の概要 - Lync Server 2013 での拡張統合エッジ、NAT によるプライベート IP アドレスを使用した DNS 負荷分散</span><span class="sxs-lookup"><span data-stu-id="3877a-102">DNS summary - Scaled consolidated edge, DNS load balancing with private IP addresses using NAT in Lync Server 2013</span></span>
+# <a name="dns-summary---scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat-in-lync-server-2013"></a><span data-ttu-id="071a4-102">DNS の概要 - Lync Server 2013 での拡張統合エッジ、NAT によるプライベート IP アドレスを使用した DNS 負荷分散</span><span class="sxs-lookup"><span data-stu-id="071a4-102">DNS summary - Scaled consolidated edge, DNS load balancing with private IP addresses using NAT in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,76 +35,76 @@ ms.locfileid: "34833367"
 
 <span> </span>
 
-<span data-ttu-id="3877a-103">_**最終更新日:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="3877a-103">_**Topic Last Modified:** 2012-09-08_</span></span>
+<span data-ttu-id="071a4-103">_**最終更新日:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="071a4-103">_**Topic Last Modified:** 2012-09-08_</span></span>
 
-<span data-ttu-id="3877a-104">Lync Server 2013 へのリモートアクセスの DNS レコード要件は、証明書やポートの場合と非常に簡単です。</span><span class="sxs-lookup"><span data-stu-id="3877a-104">DNS record requirements for remote access to Lync Server 2013 are fairly straightforward compared to those for certificates and ports.</span></span> <span data-ttu-id="3877a-105">また、Lync 2013 を実行しているクライアントの構成方法とフェデレーションを有効にするかどうかによって、多くのレコードがオプションになります。</span><span class="sxs-lookup"><span data-stu-id="3877a-105">Also, many records are optional, depending on how you configure clients running Lync 2013 and whether you enable federation.</span></span>
+<span data-ttu-id="071a4-104">Lync Server 2013 へのリモートアクセスの DNS レコード要件は、証明書やポートの場合と非常に簡単です。</span><span class="sxs-lookup"><span data-stu-id="071a4-104">DNS record requirements for remote access to Lync Server 2013 are fairly straightforward compared to those for certificates and ports.</span></span> <span data-ttu-id="071a4-105">また、Lync 2013 を実行しているクライアントの構成方法とフェデレーションを有効にするかどうかによって、多くのレコードがオプションになります。</span><span class="sxs-lookup"><span data-stu-id="071a4-105">Also, many records are optional, depending on how you configure clients running Lync 2013 and whether you enable federation.</span></span>
 
-<span data-ttu-id="3877a-106">Lync 2013 DNS の要件の詳細については、「 [Lync Server 2013 の dns 要件を確認](lync-server-2013-determine-dns-requirements.md)する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="3877a-106">For details about Lync 2013 DNS requirements, see [Determine DNS requirements for Lync Server 2013](lync-server-2013-determine-dns-requirements.md).</span></span>
+<span data-ttu-id="071a4-106">Lync 2013 DNS の要件の詳細については、「 [Lync Server 2013 の dns 要件を確認](lync-server-2013-determine-dns-requirements.md)する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="071a4-106">For details about Lync 2013 DNS requirements, see [Determine DNS requirements for Lync Server 2013](lync-server-2013-determine-dns-requirements.md).</span></span>
 
-<span data-ttu-id="3877a-107">Lync 2013 クライアントの自動構成の構成の詳細については、「 [Lync Server 2013 の DNS 要件を特定](lync-server-2013-determine-dns-requirements.md)する」の「スプリットブレイン dns を使わない自動構成」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="3877a-107">For details about configuring automatic configuration of Lync 2013 clients if split-brain DNS is not configured, see the "Automatic Configuration without Split Brain DNS" section in [Determine DNS requirements for Lync Server 2013](lync-server-2013-determine-dns-requirements.md).</span></span>
+<span data-ttu-id="071a4-107">Lync 2013 クライアントの自動構成の構成の詳細については、「 [Lync Server 2013 の DNS 要件を特定](lync-server-2013-determine-dns-requirements.md)する」の「スプリットブレイン dns を使わない自動構成」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="071a4-107">For details about configuring automatic configuration of Lync 2013 clients if split-brain DNS is not configured, see the "Automatic Configuration without Split Brain DNS" section in [Determine DNS requirements for Lync Server 2013](lync-server-2013-determine-dns-requirements.md).</span></span>
 
-<span data-ttu-id="3877a-108">次の表には、単一の統合されたエッジトポロジの図に示されている単一の統合エッジトポロジをサポートするために必要な DNS レコードの概要を示します。</span><span class="sxs-lookup"><span data-stu-id="3877a-108">The following table contains a summary of the DNS records that are required to support the single consolidated edge topology shown in the Single Consolidated Edge Topology figure.</span></span> <span data-ttu-id="3877a-109">特定の DNS レコードは、Lync 2013 クライアントの自動構成にのみ必要であることに注意してください。</span><span class="sxs-lookup"><span data-stu-id="3877a-109">Note that certain DNS records are required only for automatic configuration of Lync 2013 clients.</span></span> <span data-ttu-id="3877a-110">グループポリシーオブジェクト (Gpo) を使って Lync クライアントを構成することを計画している場合は、関連付けられたレコードは必要ありません。</span><span class="sxs-lookup"><span data-stu-id="3877a-110">If you plan to use group policy objects (GPOs) to configure Lync clients, the associated records are not necessary.</span></span>
+<span data-ttu-id="071a4-108">次の表には、単一の統合されたエッジトポロジの図に示されている単一の統合エッジトポロジをサポートするために必要な DNS レコードの概要を示します。</span><span class="sxs-lookup"><span data-stu-id="071a4-108">The following table contains a summary of the DNS records that are required to support the single consolidated edge topology shown in the Single Consolidated Edge Topology figure.</span></span> <span data-ttu-id="071a4-109">特定の DNS レコードは、Lync 2013 クライアントの自動構成にのみ必要であることに注意してください。</span><span class="sxs-lookup"><span data-stu-id="071a4-109">Note that certain DNS records are required only for automatic configuration of Lync 2013 clients.</span></span> <span data-ttu-id="071a4-110">グループポリシーオブジェクト (Gpo) を使って Lync クライアントを構成することを計画している場合は、関連付けられたレコードは必要ありません。</span><span class="sxs-lookup"><span data-stu-id="071a4-110">If you plan to use group policy objects (GPOs) to configure Lync clients, the associated records are not necessary.</span></span>
 
 <div>
 
-## <a name="important-edge-server-network-adapter-requirements"></a><span data-ttu-id="3877a-111">重要: エッジサーバーのネットワークアダプターの要件</span><span class="sxs-lookup"><span data-stu-id="3877a-111">IMPORTANT: Edge Server Network Adapter Requirements</span></span>
+## <a name="important-edge-server-network-adapter-requirements"></a><span data-ttu-id="071a4-111">重要: エッジサーバーのネットワークアダプターの要件</span><span class="sxs-lookup"><span data-stu-id="071a4-111">IMPORTANT: Edge Server Network Adapter Requirements</span></span>
 
-<span data-ttu-id="3877a-112">ルーティングの問題を回避するには、エッジサーバーに少なくとも2つのネットワークアダプターがあり、その外部インターフェイスに関連付けられているネットワークアダプターでのみ既定のゲートウェイが設定されていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="3877a-112">To avoid routing issues, verify that there are at least two network adapters in your Edge Servers and that the default gateway is set only on the network adapter associated with the external interface.</span></span> <span data-ttu-id="3877a-113">たとえば、スケーリングされた統合エッジシナリオの図では、拡大縮小された統合エッジ[、Lync Server 2013 の NAT を使用したプライベート IP アドレスを使った DNS の負荷分散](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)は、既定のゲートウェイで外部ファイアウォールをポイントしています。</span><span class="sxs-lookup"><span data-stu-id="3877a-113">For example, as shown in the Scaled Consolidated Edge Scenario figure in [Scaled consolidated edge, DNS load balancing with private IP addresses using NAT in Lync Server 2013](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md), the default gateway would point to the external firewall.</span></span>
+<span data-ttu-id="071a4-112">ルーティングの問題を回避するには、エッジサーバーに少なくとも2つのネットワークアダプターがあり、その外部インターフェイスに関連付けられているネットワークアダプターでのみ既定のゲートウェイが設定されていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="071a4-112">To avoid routing issues, verify that there are at least two network adapters in your Edge Servers and that the default gateway is set only on the network adapter associated with the external interface.</span></span> <span data-ttu-id="071a4-113">たとえば、スケーリングされた統合エッジシナリオの図では、拡大縮小された統合エッジ[、Lync Server 2013 の NAT を使用したプライベート IP アドレスを使った DNS の負荷分散](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)は、既定のゲートウェイで外部ファイアウォールをポイントしています。</span><span class="sxs-lookup"><span data-stu-id="071a4-113">For example, as shown in the Scaled Consolidated Edge Scenario figure in [Scaled consolidated edge, DNS load balancing with private IP addresses using NAT in Lync Server 2013](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md), the default gateway would point to the external firewall.</span></span>
 
-<span data-ttu-id="3877a-114">次のように、各エッジサーバーで2つのネットワークアダプターを構成できます。</span><span class="sxs-lookup"><span data-stu-id="3877a-114">You can configure two network adapters in each of your Edge Server as follows:</span></span>
+<span data-ttu-id="071a4-114">次のように、各エッジサーバーで2つのネットワークアダプターを構成できます。</span><span class="sxs-lookup"><span data-stu-id="071a4-114">You can configure two network adapters in each of your Edge Server as follows:</span></span>
 
-  - <span data-ttu-id="3877a-115">**ネットワークアダプター 1-ノード 1 (内部インターフェイス)**</span><span class="sxs-lookup"><span data-stu-id="3877a-115">**Network adapter 1 - Node 1 (Internal Interface)**</span></span>
+  - <span data-ttu-id="071a4-115">**ネットワークアダプター 1-ノード 1 (内部インターフェイス)**</span><span class="sxs-lookup"><span data-stu-id="071a4-115">**Network adapter 1 - Node 1 (Internal Interface)**</span></span>
     
-    <span data-ttu-id="3877a-116">172.25.33.10 が割り当てられている内部インターフェイス。</span><span class="sxs-lookup"><span data-stu-id="3877a-116">Internal interface with 172.25.33.10 assigned.</span></span>
+    <span data-ttu-id="071a4-116">172.25.33.10 が割り当てられている内部インターフェイス。</span><span class="sxs-lookup"><span data-stu-id="071a4-116">Internal interface with 172.25.33.10 assigned.</span></span>
     
-    <span data-ttu-id="3877a-117">既定のゲートウェイは定義されていません。</span><span class="sxs-lookup"><span data-stu-id="3877a-117">No default gateway is defined.</span></span>
+    <span data-ttu-id="071a4-117">既定のゲートウェイは定義されていません。</span><span class="sxs-lookup"><span data-stu-id="071a4-117">No default gateway is defined.</span></span>
     
-    <span data-ttu-id="3877a-118">Lync Server 2013 または Lync Server 2013 クライアントを実行しているサーバー (172.25.33.0 から192.168.10.0 など) が含まれているすべてのネットワークへの Edge 内部インターフェイスが含まれているネットワークからのルートがあることを確認します。</span><span class="sxs-lookup"><span data-stu-id="3877a-118">Ensure that there is a route from the network containing the Edge internal interface to any networks that contain servers running Lync Server 2013 or Lync Server 2013 clients (for example, from 172.25.33.0 to 192.168.10.0).</span></span>
+    <span data-ttu-id="071a4-118">Lync Server 2013 または Lync Server 2013 クライアントを実行しているサーバー (172.25.33.0 から192.168.10.0 など) が含まれているすべてのネットワークへの Edge 内部インターフェイスが含まれているネットワークからのルートがあることを確認します。</span><span class="sxs-lookup"><span data-stu-id="071a4-118">Ensure that there is a route from the network containing the Edge internal interface to any networks that contain servers running Lync Server 2013 or Lync Server 2013 clients (for example, from 172.25.33.0 to 192.168.10.0).</span></span>
 
-  - <span data-ttu-id="3877a-119">**ネットワークアダプター 1-ノード 2 (内部インターフェイス)**</span><span class="sxs-lookup"><span data-stu-id="3877a-119">**Network adapter 1 - Node 2 (Internal Interface)**</span></span>
+  - <span data-ttu-id="071a4-119">**ネットワークアダプター 1-ノード 2 (内部インターフェイス)**</span><span class="sxs-lookup"><span data-stu-id="071a4-119">**Network adapter 1 - Node 2 (Internal Interface)**</span></span>
     
-    <span data-ttu-id="3877a-120">172.25.33.11 が割り当てられている内部インターフェイス。</span><span class="sxs-lookup"><span data-stu-id="3877a-120">Internal interface with 172.25.33.11 assigned.</span></span>
+    <span data-ttu-id="071a4-120">172.25.33.11 が割り当てられている内部インターフェイス。</span><span class="sxs-lookup"><span data-stu-id="071a4-120">Internal interface with 172.25.33.11 assigned.</span></span>
     
-    <span data-ttu-id="3877a-121">既定のゲートウェイは定義されていません。</span><span class="sxs-lookup"><span data-stu-id="3877a-121">No default gateway is defined.</span></span>
+    <span data-ttu-id="071a4-121">既定のゲートウェイは定義されていません。</span><span class="sxs-lookup"><span data-stu-id="071a4-121">No default gateway is defined.</span></span>
     
-    <span data-ttu-id="3877a-122">Lync Server 2013 または Lync Server 2013 クライアントを実行しているサーバー (172.25.33.0 から192.168.10.0 など) が含まれているすべてのネットワークへの Edge 内部インターフェイスが含まれているネットワークからのルートがあることを確認します。</span><span class="sxs-lookup"><span data-stu-id="3877a-122">Ensure that there is a route from the network containing the Edge internal interface to any networks that contain servers running Lync Server 2013 or Lync Server 2013 clients (for example, from 172.25.33.0 to 192.168.10.0).</span></span>
+    <span data-ttu-id="071a4-122">Lync Server 2013 または Lync Server 2013 クライアントを実行しているサーバー (172.25.33.0 から192.168.10.0 など) が含まれているすべてのネットワークへの Edge 内部インターフェイスが含まれているネットワークからのルートがあることを確認します。</span><span class="sxs-lookup"><span data-stu-id="071a4-122">Ensure that there is a route from the network containing the Edge internal interface to any networks that contain servers running Lync Server 2013 or Lync Server 2013 clients (for example, from 172.25.33.0 to 192.168.10.0).</span></span>
 
-  - <span data-ttu-id="3877a-123">**ネットワークアダプター2ノード 1 (外部インターフェイス)**</span><span class="sxs-lookup"><span data-stu-id="3877a-123">**Network adapter 2 Node 1 (External Interface)**</span></span>
+  - <span data-ttu-id="071a4-123">**ネットワークアダプター2ノード 1 (外部インターフェイス)**</span><span class="sxs-lookup"><span data-stu-id="071a4-123">**Network adapter 2 Node 1 (External Interface)**</span></span>
     
-    <span data-ttu-id="3877a-124">3つのプライベート IP アドレスがこのネットワークアダプターに割り当てられます。たとえば、Access Edge の場合は10.45.16.10、Web 会議エッジの場合は10.45.16.20、AV Edge の場合は10.45.16.30 です。</span><span class="sxs-lookup"><span data-stu-id="3877a-124">Three private IP addresses are assigned to this network adapter, for example 10.45.16.10 for Access Edge, 10.45.16.20 for Web Conferencing Edge, 10.45.16.30 for AV Edge.</span></span>
+    <span data-ttu-id="071a4-124">3つのプライベート IP アドレスがこのネットワークアダプターに割り当てられます。たとえば、Access Edge の場合は10.45.16.10、Web 会議エッジの場合は10.45.16.20、AV Edge の場合は10.45.16.30 です。</span><span class="sxs-lookup"><span data-stu-id="071a4-124">Three private IP addresses are assigned to this network adapter, for example 10.45.16.10 for Access Edge, 10.45.16.20 for Web Conferencing Edge, 10.45.16.30 for AV Edge.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="3877a-125">すべての3エッジサービスインターフェイスで単一の IP アドレスを使うことはできますが、お勧めしません。</span><span class="sxs-lookup"><span data-stu-id="3877a-125">It is possible, though not recommended, to use a single IP address for all three Edge service interfaces.</span></span> <span data-ttu-id="3877a-126">これにより、IP アドレスが保存されますが、サービスごとに異なるポート番号が必要になります。</span><span class="sxs-lookup"><span data-stu-id="3877a-126">Though this does save IP addresses, it requires different port numbers for each service.</span></span> <span data-ttu-id="3877a-127">既定のポート番号は 443/TCP であり、ほとんどのリモートファイアウォールでトラフィックが許可されます。</span><span class="sxs-lookup"><span data-stu-id="3877a-127">The default port number is 443/TCP, which ensures that most remote firewalls will allow the traffic.</span></span> <span data-ttu-id="3877a-128">ポートの値を変更する (たとえば、アクセスエッジの場合は 5061/tcp、Web 会議エッジの場合は 444/TCP、AV Edge の場合は、ファイアウォールを使用しているファイアウォールでは 5061/tcp および 444/TCP 経由のトラフィックが許可されていないことがあります)。</span><span class="sxs-lookup"><span data-stu-id="3877a-128">Changing the port values to (for example) 5061/TCP for the Access Edge, 444/TCP for the Web Conferencing Edge and 443/TCP for the AV Edge might cause problems for remote users where a firewall that they are behind does not allow the traffic over 5061/TCP and 444/TCP.</span></span> <span data-ttu-id="3877a-129">さらに、3つの異なる IP アドレスで、IP アドレスをフィルター処理できるため、トラブルシューティングが容易になります。</span><span class="sxs-lookup"><span data-stu-id="3877a-129">Additionally, three distinct IP addresses makes troubleshooting easier due to being able to filter on IP address.</span></span>
+    > <span data-ttu-id="071a4-125">すべての3エッジサービスインターフェイスで単一の IP アドレスを使うことはできますが、お勧めしません。</span><span class="sxs-lookup"><span data-stu-id="071a4-125">It is possible, though not recommended, to use a single IP address for all three Edge service interfaces.</span></span> <span data-ttu-id="071a4-126">これにより、IP アドレスが保存されますが、サービスごとに異なるポート番号が必要になります。</span><span class="sxs-lookup"><span data-stu-id="071a4-126">Though this does save IP addresses, it requires different port numbers for each service.</span></span> <span data-ttu-id="071a4-127">既定のポート番号は 443/TCP であり、ほとんどのリモートファイアウォールでトラフィックが許可されます。</span><span class="sxs-lookup"><span data-stu-id="071a4-127">The default port number is 443/TCP, which ensures that most remote firewalls will allow the traffic.</span></span> <span data-ttu-id="071a4-128">ポートの値を変更する (たとえば、アクセスエッジの場合は 5061/tcp、Web 会議エッジの場合は 444/TCP、AV Edge の場合は、ファイアウォールを使用しているファイアウォールでは 5061/tcp および 444/TCP 経由のトラフィックが許可されていないことがあります)。</span><span class="sxs-lookup"><span data-stu-id="071a4-128">Changing the port values to (for example) 5061/TCP for the Access Edge, 444/TCP for the Web Conferencing Edge and 443/TCP for the AV Edge might cause problems for remote users where a firewall that they are behind does not allow the traffic over 5061/TCP and 444/TCP.</span></span> <span data-ttu-id="071a4-129">さらに、3つの異なる IP アドレスで、IP アドレスをフィルター処理できるため、トラブルシューティングが容易になります。</span><span class="sxs-lookup"><span data-stu-id="071a4-129">Additionally, three distinct IP addresses makes troubleshooting easier due to being able to filter on IP address.</span></span>
 
     
     </div>
     
-    <span data-ttu-id="3877a-130">アクセスエッジのパブリック IP アドレスは、統合ルータ (10.45.16.1) に設定されたデフォルトゲートウェイのプライマリ IP アドレスです。</span><span class="sxs-lookup"><span data-stu-id="3877a-130">The Access Edge public IP address is primary with default gateway set to the integrated router (10.45.16.1).</span></span>
+    <span data-ttu-id="071a4-130">アクセスエッジのパブリック IP アドレスは、統合ルータ (10.45.16.1) に設定されたデフォルトゲートウェイのプライマリ IP アドレスです。</span><span class="sxs-lookup"><span data-stu-id="071a4-130">The Access Edge public IP address is primary with default gateway set to the integrated router (10.45.16.1).</span></span>
     
-    <span data-ttu-id="3877a-131">Web 会議と A/V Edge のプライベート IP アドレスは、**インターネットプロトコルバージョン 4 (tcp/IPv4)** のプロパティの **[詳細設定**] セクションとローカルエリアの**インターネットプロトコルバージョン 6 (tcp/IPV6)** で追加の ip アドレスとなります。 \*\*\*\* Windows Server の接続プロパティ。</span><span class="sxs-lookup"><span data-stu-id="3877a-131">Web conferencing and A/V Edge private IP addresses are additional IP addresses in the **Advanced** section of the properties of **Internet Protocol Version 4 (TCP/IPv4)** and **Internet Protocol Version 6 (TCP/IPv6)** of the **Local Area Connection Properties** in Windows Server.</span></span>
+    <span data-ttu-id="071a4-131">Web 会議と A/V Edge のプライベート IP アドレスは、Windows Server の**ローカルエリア接続プロパティ**の**インターネットプロトコルバージョン 4 (tcp/IPv4)** および**インターネットプロトコルバージョン 6 (tcp/IPv6)** のプロパティの **[詳細設定**] セクションで追加の ip アドレスとなります。</span><span class="sxs-lookup"><span data-stu-id="071a4-131">Web conferencing and A/V Edge private IP addresses are additional IP addresses in the **Advanced** section of the properties of **Internet Protocol Version 4 (TCP/IPv4)** and **Internet Protocol Version 6 (TCP/IPv6)** of the **Local Area Connection Properties** in Windows Server.</span></span>
 
-  - <span data-ttu-id="3877a-132">**ネットワークアダプター2ノード 2 (外部インターフェイス)**</span><span class="sxs-lookup"><span data-stu-id="3877a-132">**Network adapter 2 Node 2 (External Interface)**</span></span>
+  - <span data-ttu-id="071a4-132">**ネットワークアダプター2ノード 2 (外部インターフェイス)**</span><span class="sxs-lookup"><span data-stu-id="071a4-132">**Network adapter 2 Node 2 (External Interface)**</span></span>
     
-    <span data-ttu-id="3877a-133">3つのプライベート IP アドレスがこのネットワークアダプターに割り当てられます。たとえば、Access Edge の場合は10.45.16.11、Web 会議エッジの場合は10.45.16.21、AV Edge の場合は10.45.16.31 です。</span><span class="sxs-lookup"><span data-stu-id="3877a-133">Three private IP addresses are assigned to this network adapter, for example 10.45.16.11 for Access Edge, 10.45.16.21 for Web Conferencing Edge, 10.45.16.31 for AV Edge.</span></span>
+    <span data-ttu-id="071a4-133">3つのプライベート IP アドレスがこのネットワークアダプターに割り当てられます。たとえば、Access Edge の場合は10.45.16.11、Web 会議エッジの場合は10.45.16.21、AV Edge の場合は10.45.16.31 です。</span><span class="sxs-lookup"><span data-stu-id="071a4-133">Three private IP addresses are assigned to this network adapter, for example 10.45.16.11 for Access Edge, 10.45.16.21 for Web Conferencing Edge, 10.45.16.31 for AV Edge.</span></span>
     
-    <span data-ttu-id="3877a-134">アクセスエッジのパブリック IP アドレスは、統合ルータ (10.45.16.1) に設定されたデフォルトゲートウェイのプライマリ IP アドレスです。</span><span class="sxs-lookup"><span data-stu-id="3877a-134">The Access Edge public IP address is primary with default gateway set to the integrated router (10.45.16.1).</span></span>
+    <span data-ttu-id="071a4-134">アクセスエッジのパブリック IP アドレスは、統合ルータ (10.45.16.1) に設定されたデフォルトゲートウェイのプライマリ IP アドレスです。</span><span class="sxs-lookup"><span data-stu-id="071a4-134">The Access Edge public IP address is primary with default gateway set to the integrated router (10.45.16.1).</span></span>
     
-    <span data-ttu-id="3877a-135">Web 会議と A/V Edge のプライベート IP アドレスは、**インターネットプロトコルバージョン 4 (tcp/IPv4)** のプロパティの **[詳細設定**] セクションとローカルエリアの**インターネットプロトコルバージョン 6 (tcp/IPV6)** で追加の ip アドレスとなります。 \*\*\*\* Windows Server の接続プロパティ。</span><span class="sxs-lookup"><span data-stu-id="3877a-135">Web conferencing and A/V Edge private IP addresses are additional IP addresses in the **Advanced** section of the properties of **Internet Protocol Version 4 (TCP/IPv4)** and **Internet Protocol Version 6 (TCP/IPv6)** of the **Local Area Connection Properties** in Windows Server.</span></span>
+    <span data-ttu-id="071a4-135">Web 会議と A/V Edge のプライベート IP アドレスは、Windows Server の**ローカルエリア接続プロパティ**の**インターネットプロトコルバージョン 4 (tcp/IPv4)** および**インターネットプロトコルバージョン 6 (tcp/IPv6)** のプロパティの **[詳細設定**] セクションで追加の ip アドレスとなります。</span><span class="sxs-lookup"><span data-stu-id="071a4-135">Web conferencing and A/V Edge private IP addresses are additional IP addresses in the **Advanced** section of the properties of **Internet Protocol Version 4 (TCP/IPv4)** and **Internet Protocol Version 6 (TCP/IPv6)** of the **Local Area Connection Properties** in Windows Server.</span></span>
 
 <div>
 
 
 > [!TIP]  
-> <span data-ttu-id="3877a-136">2つのネットワークアダプターでエッジサーバーを構成するには、2つのオプションのいずれかを使用します。</span><span class="sxs-lookup"><span data-stu-id="3877a-136">Configuring the Edge Server with two network adapters is one of two options.</span></span> <span data-ttu-id="3877a-137">もう1つの方法として、内部側とエッジサーバーの外部側の3つのネットワークアダプター用に1つのネットワークアダプターを使うことができます。</span><span class="sxs-lookup"><span data-stu-id="3877a-137">The other option is to use one network adapter for the internal side and three network adapters for the external side of the Edge Server.</span></span> <span data-ttu-id="3877a-138">このオプションの主な利点は、Edge Server サービスごとの個別のネットワークアダプターであり、トラブルシューティングが必要な場合は、より簡潔なデータ収集を行うことです。</span><span class="sxs-lookup"><span data-stu-id="3877a-138">The main benefit of this option is a distinct network adapter per Edge Server service, and potentially more concise data collection when troubleshooting is necessary</span></span>
+> <span data-ttu-id="071a4-136">2つのネットワークアダプターでエッジサーバーを構成するには、2つのオプションのいずれかを使用します。</span><span class="sxs-lookup"><span data-stu-id="071a4-136">Configuring the Edge Server with two network adapters is one of two options.</span></span> <span data-ttu-id="071a4-137">もう1つの方法として、内部側とエッジサーバーの外部側の3つのネットワークアダプター用に1つのネットワークアダプターを使うことができます。</span><span class="sxs-lookup"><span data-stu-id="071a4-137">The other option is to use one network adapter for the internal side and three network adapters for the external side of the Edge Server.</span></span> <span data-ttu-id="071a4-138">このオプションの主な利点は、Edge Server サービスごとの個別のネットワークアダプターであり、トラブルシューティングが必要な場合は、より簡潔なデータ収集を行うことです。</span><span class="sxs-lookup"><span data-stu-id="071a4-138">The main benefit of this option is a distinct network adapter per Edge Server service, and potentially more concise data collection when troubleshooting is necessary</span></span>
 
 
 
 </div>
 
-### <a name="dns-records-required-for-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat-example"></a><span data-ttu-id="3877a-139">スケーリングされた統合エッジに必要な DNS レコード、NAT を使ったプライベート IP アドレスによる DNS の負荷分散 (例)</span><span class="sxs-lookup"><span data-stu-id="3877a-139">DNS Records Required for Scaled Consolidated Edge, DNS Load Balancing with Private IP Addresses Using NAT (Example)</span></span>
+### <a name="dns-records-required-for-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat-example"></a><span data-ttu-id="071a4-139">スケーリングされた統合エッジに必要な DNS レコード、NAT を使ったプライベート IP アドレスによる DNS の負荷分散 (例)</span><span class="sxs-lookup"><span data-stu-id="071a4-139">DNS Records Required for Scaled Consolidated Edge, DNS Load Balancing with Private IP Addresses Using NAT (Example)</span></span>
 
 <table>
 <colgroup>
@@ -113,48 +115,48 @@ ms.locfileid: "34833367"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="3877a-140">場所/種類/ポート</span><span class="sxs-lookup"><span data-stu-id="3877a-140">Location/TYPE/Port</span></span></th>
-<th><span data-ttu-id="3877a-141">FQDN/DNS レコード</span><span class="sxs-lookup"><span data-stu-id="3877a-141">FQDN/DNS Record</span></span></th>
-<th><span data-ttu-id="3877a-142">IP アドレス/FQDN</span><span class="sxs-lookup"><span data-stu-id="3877a-142">IP Address/FQDN</span></span></th>
-<th><span data-ttu-id="3877a-143">マップ先/コメント</span><span class="sxs-lookup"><span data-stu-id="3877a-143">Maps to/Comments</span></span></th>
+<th><span data-ttu-id="071a4-140">場所/種類/ポート</span><span class="sxs-lookup"><span data-stu-id="071a4-140">Location/TYPE/Port</span></span></th>
+<th><span data-ttu-id="071a4-141">FQDN/DNS レコード</span><span class="sxs-lookup"><span data-stu-id="071a4-141">FQDN/DNS Record</span></span></th>
+<th><span data-ttu-id="071a4-142">IP アドレス/FQDN</span><span class="sxs-lookup"><span data-stu-id="071a4-142">IP Address/FQDN</span></span></th>
+<th><span data-ttu-id="071a4-143">マップ先/コメント</span><span class="sxs-lookup"><span data-stu-id="071a4-143">Maps to/Comments</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="3877a-144">外部 DNS/A</span><span class="sxs-lookup"><span data-stu-id="3877a-144">External DNS/A</span></span></p></td>
-<td><p><span data-ttu-id="3877a-145">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="3877a-145">sip.contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="3877a-146">131.107.155.10 および 131.107.155.11</span><span class="sxs-lookup"><span data-stu-id="3877a-146">131.107.155.10 and 131.107.155.11</span></span></p></td>
-<td><p><span data-ttu-id="3877a-147">Access Edge の外部インターフェイス (Contoso) は、Lync が有効になっているユーザーがいるすべての SIP ドメインについて、必要に応じて繰り返す</span><span class="sxs-lookup"><span data-stu-id="3877a-147">Access Edge external interface (Contoso) Repeat as necessary for all SIP domains with Lync enabled users</span></span></p></td>
+<td><p><span data-ttu-id="071a4-144">外部 DNS/A</span><span class="sxs-lookup"><span data-stu-id="071a4-144">External DNS/A</span></span></p></td>
+<td><p><span data-ttu-id="071a4-145">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="071a4-145">sip.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="071a4-146">131.107.155.10 および 131.107.155.11</span><span class="sxs-lookup"><span data-stu-id="071a4-146">131.107.155.10 and 131.107.155.11</span></span></p></td>
+<td><p><span data-ttu-id="071a4-147">Access Edge の外部インターフェイス (Contoso) は、Lync が有効になっているユーザーがいるすべての SIP ドメインについて、必要に応じて繰り返す</span><span class="sxs-lookup"><span data-stu-id="071a4-147">Access Edge external interface (Contoso) Repeat as necessary for all SIP domains with Lync enabled users</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3877a-148">外部 DNS/A</span><span class="sxs-lookup"><span data-stu-id="3877a-148">External DNS/A</span></span></p></td>
-<td><p><span data-ttu-id="3877a-149">webcon.contoso.com</span><span class="sxs-lookup"><span data-stu-id="3877a-149">webcon.contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="3877a-150">131.107.155.20 および 131.107.155.21</span><span class="sxs-lookup"><span data-stu-id="3877a-150">131.107.155.20 and 131.107.155.21</span></span></p></td>
-<td><p><span data-ttu-id="3877a-151">Web 会議エッジの外部インターフェイス</span><span class="sxs-lookup"><span data-stu-id="3877a-151">Web Conferencing Edge external interface</span></span></p></td>
+<td><p><span data-ttu-id="071a4-148">外部 DNS/A</span><span class="sxs-lookup"><span data-stu-id="071a4-148">External DNS/A</span></span></p></td>
+<td><p><span data-ttu-id="071a4-149">webcon.contoso.com</span><span class="sxs-lookup"><span data-stu-id="071a4-149">webcon.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="071a4-150">131.107.155.20 および 131.107.155.21</span><span class="sxs-lookup"><span data-stu-id="071a4-150">131.107.155.20 and 131.107.155.21</span></span></p></td>
+<td><p><span data-ttu-id="071a4-151">Web 会議エッジの外部インターフェイス</span><span class="sxs-lookup"><span data-stu-id="071a4-151">Web Conferencing Edge external interface</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3877a-152">外部 DNS/A</span><span class="sxs-lookup"><span data-stu-id="3877a-152">External DNS/A</span></span></p></td>
-<td><p><span data-ttu-id="3877a-153">av.contoso.com</span><span class="sxs-lookup"><span data-stu-id="3877a-153">av.contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="3877a-154">131.107.155.30 および 131.107.155.31</span><span class="sxs-lookup"><span data-stu-id="3877a-154">131.107.155.30 and 131.107.155.31</span></span></p></td>
-<td><p><span data-ttu-id="3877a-155">A/V Edge の外部インターフェイス</span><span class="sxs-lookup"><span data-stu-id="3877a-155">A/V Edge external interface</span></span></p></td>
+<td><p><span data-ttu-id="071a4-152">外部 DNS/A</span><span class="sxs-lookup"><span data-stu-id="071a4-152">External DNS/A</span></span></p></td>
+<td><p><span data-ttu-id="071a4-153">av.contoso.com</span><span class="sxs-lookup"><span data-stu-id="071a4-153">av.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="071a4-154">131.107.155.30 および 131.107.155.31</span><span class="sxs-lookup"><span data-stu-id="071a4-154">131.107.155.30 and 131.107.155.31</span></span></p></td>
+<td><p><span data-ttu-id="071a4-155">A/V Edge の外部インターフェイス</span><span class="sxs-lookup"><span data-stu-id="071a4-155">A/V Edge external interface</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3877a-156">外部 DNS/SRV/443</span><span class="sxs-lookup"><span data-stu-id="3877a-156">External DNS/SRV/443</span></span></p></td>
-<td><p><span data-ttu-id="3877a-157">_sip._tls.contoso.com</span><span class="sxs-lookup"><span data-stu-id="3877a-157">_sip._tls.contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="3877a-158">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="3877a-158">sip.contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="3877a-159">Access Edge の外部インターフェイス。</span><span class="sxs-lookup"><span data-stu-id="3877a-159">Access Edge external interface.</span></span> <span data-ttu-id="3877a-160">Lync 2013 および Lync 2010 クライアントを外部で動作させるために、自動構成が必要です。</span><span class="sxs-lookup"><span data-stu-id="3877a-160">Required for automatic configuration of Lync 2013 and Lync 2010 clients to work externally.</span></span> <span data-ttu-id="3877a-161">Lync が有効になっているユーザーがいるすべての SIP ドメインで、必要に応じてこの手順を繰り返します。</span><span class="sxs-lookup"><span data-stu-id="3877a-161">Repeat as necessary for all SIP domains with Lync enabled users.</span></span></p></td>
+<td><p><span data-ttu-id="071a4-156">外部 DNS/SRV/443</span><span class="sxs-lookup"><span data-stu-id="071a4-156">External DNS/SRV/443</span></span></p></td>
+<td><p><span data-ttu-id="071a4-157">_sip._tls.contoso.com</span><span class="sxs-lookup"><span data-stu-id="071a4-157">_sip._tls.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="071a4-158">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="071a4-158">sip.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="071a4-159">Access Edge の外部インターフェイス。</span><span class="sxs-lookup"><span data-stu-id="071a4-159">Access Edge external interface.</span></span> <span data-ttu-id="071a4-160">Lync 2013 および Lync 2010 クライアントを外部で動作させるために、自動構成が必要です。</span><span class="sxs-lookup"><span data-stu-id="071a4-160">Required for automatic configuration of Lync 2013 and Lync 2010 clients to work externally.</span></span> <span data-ttu-id="071a4-161">Lync が有効になっているユーザーがいるすべての SIP ドメインで、必要に応じてこの手順を繰り返します。</span><span class="sxs-lookup"><span data-stu-id="071a4-161">Repeat as necessary for all SIP domains with Lync enabled users.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3877a-162">外部 DNS/SRV/5061</span><span class="sxs-lookup"><span data-stu-id="3877a-162">External DNS/SRV/5061</span></span></p></td>
-<td><p><span data-ttu-id="3877a-163">_sipfederationtls._tcp.contoso.com</span><span class="sxs-lookup"><span data-stu-id="3877a-163">_sipfederationtls._tcp.contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="3877a-164">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="3877a-164">sip.contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="3877a-165">SIP アクセスエッジ外部インタフェース。</span><span class="sxs-lookup"><span data-stu-id="3877a-165">SIP Access Edge external interface.</span></span> <span data-ttu-id="3877a-166">"許可された SIP ドメイン" と呼ばれるフェデレーションパートナー (以前のリリースで拡張フェデレーションと呼ばれる) を自動的に検出するために必要です。</span><span class="sxs-lookup"><span data-stu-id="3877a-166">Required for automatic DNS discovery of federated partners known as “Allowed SIP Domain” (called enhanced federation in previous releases).</span></span> <span data-ttu-id="3877a-167">Lync を有効にしたユーザーがいるすべての SIP ドメインで、必要に応じて繰り返す</span><span class="sxs-lookup"><span data-stu-id="3877a-167">Repeat as necessary for all SIP domains with Lync enabled users</span></span></p></td>
+<td><p><span data-ttu-id="071a4-162">外部 DNS/SRV/5061</span><span class="sxs-lookup"><span data-stu-id="071a4-162">External DNS/SRV/5061</span></span></p></td>
+<td><p><span data-ttu-id="071a4-163">_sipfederationtls._tcp.contoso.com</span><span class="sxs-lookup"><span data-stu-id="071a4-163">_sipfederationtls._tcp.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="071a4-164">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="071a4-164">sip.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="071a4-165">SIP アクセスエッジ外部インタフェース。</span><span class="sxs-lookup"><span data-stu-id="071a4-165">SIP Access Edge external interface.</span></span> <span data-ttu-id="071a4-166">"許可された SIP ドメイン" と呼ばれるフェデレーションパートナー (以前のリリースで拡張フェデレーションと呼ばれる) を自動的に検出するために必要です。</span><span class="sxs-lookup"><span data-stu-id="071a4-166">Required for automatic DNS discovery of federated partners known as “Allowed SIP Domain” (called enhanced federation in previous releases).</span></span> <span data-ttu-id="071a4-167">Lync を有効にしたユーザーがいるすべての SIP ドメインで、必要に応じて繰り返す</span><span class="sxs-lookup"><span data-stu-id="071a4-167">Repeat as necessary for all SIP domains with Lync enabled users</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3877a-168">内部 DNS/A</span><span class="sxs-lookup"><span data-stu-id="3877a-168">Internal DNS/A</span></span></p></td>
-<td><p><span data-ttu-id="3877a-169">lsedge.contoso.net</span><span class="sxs-lookup"><span data-stu-id="3877a-169">lsedge.contoso.net</span></span></p></td>
-<td><p><span data-ttu-id="3877a-170">172.25.33.10 および 172.25.33.11</span><span class="sxs-lookup"><span data-stu-id="3877a-170">172.25.33.10 and 172.25.33.11</span></span></p></td>
-<td><p><span data-ttu-id="3877a-171">統合エッジ内部インターフェイス</span><span class="sxs-lookup"><span data-stu-id="3877a-171">Consolidated Edge internal interface</span></span></p></td>
+<td><p><span data-ttu-id="071a4-168">内部 DNS/A</span><span class="sxs-lookup"><span data-stu-id="071a4-168">Internal DNS/A</span></span></p></td>
+<td><p><span data-ttu-id="071a4-169">lsedge.contoso.net</span><span class="sxs-lookup"><span data-stu-id="071a4-169">lsedge.contoso.net</span></span></p></td>
+<td><p><span data-ttu-id="071a4-170">172.25.33.10 および 172.25.33.11</span><span class="sxs-lookup"><span data-stu-id="071a4-170">172.25.33.10 and 172.25.33.11</span></span></p></td>
+<td><p><span data-ttu-id="071a4-171">統合エッジ内部インターフェイス</span><span class="sxs-lookup"><span data-stu-id="071a4-171">Consolidated Edge internal interface</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -164,7 +166,7 @@ ms.locfileid: "34833367"
 
 <div>
 
-## <a name="records-required-for-federation"></a><span data-ttu-id="3877a-172">フェデレーションに必要なレコード</span><span class="sxs-lookup"><span data-stu-id="3877a-172">Records Required for Federation</span></span>
+## <a name="records-required-for-federation"></a><span data-ttu-id="071a4-172">フェデレーションに必要なレコード</span><span class="sxs-lookup"><span data-stu-id="071a4-172">Records Required for Federation</span></span>
 
 
 <table>
@@ -176,22 +178,22 @@ ms.locfileid: "34833367"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="3877a-173">場所/種類/ポート</span><span class="sxs-lookup"><span data-stu-id="3877a-173">Location/TYPE/Port</span></span></th>
-<th><span data-ttu-id="3877a-174">FQDN</span><span class="sxs-lookup"><span data-stu-id="3877a-174">FQDN</span></span></th>
-<th><span data-ttu-id="3877a-175">IP アドレス/FQDN ホストレコード</span><span class="sxs-lookup"><span data-stu-id="3877a-175">IP address/FQDN host record</span></span></th>
-<th><span data-ttu-id="3877a-176">マップ先/コメント</span><span class="sxs-lookup"><span data-stu-id="3877a-176">Maps to/Comments</span></span></th>
+<th><span data-ttu-id="071a4-173">場所/種類/ポート</span><span class="sxs-lookup"><span data-stu-id="071a4-173">Location/TYPE/Port</span></span></th>
+<th><span data-ttu-id="071a4-174">FQDN</span><span class="sxs-lookup"><span data-stu-id="071a4-174">FQDN</span></span></th>
+<th><span data-ttu-id="071a4-175">IP アドレス/FQDN ホストレコード</span><span class="sxs-lookup"><span data-stu-id="071a4-175">IP address/FQDN host record</span></span></th>
+<th><span data-ttu-id="071a4-176">マップ先/コメント</span><span class="sxs-lookup"><span data-stu-id="071a4-176">Maps to/Comments</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="3877a-177">外部 DNS/SRV/5061</span><span class="sxs-lookup"><span data-stu-id="3877a-177">External DNS/SRV/5061</span></span></p></td>
-<td><p><span data-ttu-id="3877a-178">_sipfederationtls._tcp.contoso.com</span><span class="sxs-lookup"><span data-stu-id="3877a-178">_sipfederationtls._tcp.contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="3877a-179">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="3877a-179">sip.contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="3877a-180">SIP アクセスエッジ外部インタフェースは、他の潜在的なフェデレーションパートナーとのフェデレーションを自動的に検出するために必要です。また、"許可された SIP ドメイン" と呼ばれます (以前のリリースでは拡張フェデレーションと呼ばれます)。Lync を有効にしたユーザーがいるすべての SIP ドメインで、必要に応じて繰り返す</span><span class="sxs-lookup"><span data-stu-id="3877a-180">SIP Access Edge external interface Required for automatic DNS discovery of your federation to other potential federation partners, and is known as “Allowed SIP Domains” (called enhanced federation in previous releases).Repeat as necessary for all SIP domains with Lync enabled users</span></span></p>
+<td><p><span data-ttu-id="071a4-177">外部 DNS/SRV/5061</span><span class="sxs-lookup"><span data-stu-id="071a4-177">External DNS/SRV/5061</span></span></p></td>
+<td><p><span data-ttu-id="071a4-178">_sipfederationtls._tcp.contoso.com</span><span class="sxs-lookup"><span data-stu-id="071a4-178">_sipfederationtls._tcp.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="071a4-179">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="071a4-179">sip.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="071a4-180">SIP アクセスエッジ外部インタフェースは、他の潜在的なフェデレーションパートナーとのフェデレーションを自動的に検出するために必要です。また、"許可された SIP ドメイン" と呼ばれます (以前のリリースでは拡張フェデレーションと呼ばれます)。Lync を有効にしたユーザーがいるすべての SIP ドメインで、必要に応じて繰り返す</span><span class="sxs-lookup"><span data-stu-id="071a4-180">SIP Access Edge external interface Required for automatic DNS discovery of your federation to other potential federation partners, and is known as “Allowed SIP Domains” (called enhanced federation in previous releases).Repeat as necessary for all SIP domains with Lync enabled users</span></span></p>
 <div>
 
 > [!IMPORTANT]  
-> <span data-ttu-id="3877a-181">この SRV レコードは、モビリティとプッシュ通知のクリアリングハウスに必要です</span><span class="sxs-lookup"><span data-stu-id="3877a-181">This SRV record is required for mobility and the push notification clearing house</span></span>
+> <span data-ttu-id="071a4-181">この SRV レコードは、モビリティとプッシュ通知のクリアリングハウスに必要です</span><span class="sxs-lookup"><span data-stu-id="071a4-181">This SRV record is required for mobility and the push notification clearing house</span></span>
 
 
 </div></td>
@@ -204,7 +206,7 @@ ms.locfileid: "34833367"
 
 <div>
 
-## <a name="dns-summary--public-instant-messaging-connectivity"></a><span data-ttu-id="3877a-182">DNS 概要–パブリックインスタントメッセージング接続</span><span class="sxs-lookup"><span data-stu-id="3877a-182">DNS Summary – Public Instant Messaging Connectivity</span></span>
+## <a name="dns-summary--public-instant-messaging-connectivity"></a><span data-ttu-id="071a4-182">DNS 概要–パブリックインスタントメッセージング接続</span><span class="sxs-lookup"><span data-stu-id="071a4-182">DNS Summary – Public Instant Messaging Connectivity</span></span>
 
 
 <table>
@@ -216,18 +218,18 @@ ms.locfileid: "34833367"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="3877a-183">場所/種類/ポート</span><span class="sxs-lookup"><span data-stu-id="3877a-183">Location/TYPE/Port</span></span></th>
-<th><span data-ttu-id="3877a-184">FQDN/DNS レコード</span><span class="sxs-lookup"><span data-stu-id="3877a-184">FQDN/DNS Record</span></span></th>
-<th><span data-ttu-id="3877a-185">IP アドレス/FQDN</span><span class="sxs-lookup"><span data-stu-id="3877a-185">IP Address/FQDN</span></span></th>
-<th><span data-ttu-id="3877a-186">マップ先/コメント</span><span class="sxs-lookup"><span data-stu-id="3877a-186">Maps to/Comments</span></span></th>
+<th><span data-ttu-id="071a4-183">場所/種類/ポート</span><span class="sxs-lookup"><span data-stu-id="071a4-183">Location/TYPE/Port</span></span></th>
+<th><span data-ttu-id="071a4-184">FQDN/DNS レコード</span><span class="sxs-lookup"><span data-stu-id="071a4-184">FQDN/DNS Record</span></span></th>
+<th><span data-ttu-id="071a4-185">IP アドレス/FQDN</span><span class="sxs-lookup"><span data-stu-id="071a4-185">IP Address/FQDN</span></span></th>
+<th><span data-ttu-id="071a4-186">マップ先/コメント</span><span class="sxs-lookup"><span data-stu-id="071a4-186">Maps to/Comments</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="3877a-187">外部 DNS/A</span><span class="sxs-lookup"><span data-stu-id="3877a-187">External DNS/A</span></span></p></td>
-<td><p><span data-ttu-id="3877a-188">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="3877a-188">sip.contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="3877a-189">Access Edge サービスインターフェイス</span><span class="sxs-lookup"><span data-stu-id="3877a-189">Access Edge service interface</span></span></p></td>
-<td><p><span data-ttu-id="3877a-190">Access Edge の外部インターフェイス (Contoso) は、Lync が有効になっているユーザーがいるすべての SIP ドメインについて、必要に応じて繰り返す</span><span class="sxs-lookup"><span data-stu-id="3877a-190">Access Edge external interface (Contoso)Repeat as necessary for all SIP domains with Lync enabled users</span></span></p></td>
+<td><p><span data-ttu-id="071a4-187">外部 DNS/A</span><span class="sxs-lookup"><span data-stu-id="071a4-187">External DNS/A</span></span></p></td>
+<td><p><span data-ttu-id="071a4-188">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="071a4-188">sip.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="071a4-189">Access Edge サービスインターフェイス</span><span class="sxs-lookup"><span data-stu-id="071a4-189">Access Edge service interface</span></span></p></td>
+<td><p><span data-ttu-id="071a4-190">Access Edge の外部インターフェイス (Contoso) は、Lync が有効になっているユーザーがいるすべての SIP ドメインについて、必要に応じて繰り返す</span><span class="sxs-lookup"><span data-stu-id="071a4-190">Access Edge external interface (Contoso)Repeat as necessary for all SIP domains with Lync enabled users</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -237,7 +239,7 @@ ms.locfileid: "34833367"
 
 <div>
 
-## <a name="dns-summary-for-extensible-messaging-and-presence-protocol"></a><span data-ttu-id="3877a-191">拡張メッセージングとプレゼンスプロトコルの DNS 概要</span><span class="sxs-lookup"><span data-stu-id="3877a-191">DNS Summary for Extensible Messaging and Presence Protocol</span></span>
+## <a name="dns-summary-for-extensible-messaging-and-presence-protocol"></a><span data-ttu-id="071a4-191">拡張メッセージングとプレゼンスプロトコルの DNS 概要</span><span class="sxs-lookup"><span data-stu-id="071a4-191">DNS Summary for Extensible Messaging and Presence Protocol</span></span>
 
 
 <table>
@@ -249,24 +251,24 @@ ms.locfileid: "34833367"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="3877a-192">場所/種類/ポート</span><span class="sxs-lookup"><span data-stu-id="3877a-192">Location/TYPE/Port</span></span></th>
-<th><span data-ttu-id="3877a-193">FQDN</span><span class="sxs-lookup"><span data-stu-id="3877a-193">FQDN</span></span></th>
-<th><span data-ttu-id="3877a-194">IP アドレス/FQDN ホストレコード</span><span class="sxs-lookup"><span data-stu-id="3877a-194">IP address/FQDN host record</span></span></th>
-<th><span data-ttu-id="3877a-195">マップ先/コメント</span><span class="sxs-lookup"><span data-stu-id="3877a-195">Maps to/Comments</span></span></th>
+<th><span data-ttu-id="071a4-192">場所/種類/ポート</span><span class="sxs-lookup"><span data-stu-id="071a4-192">Location/TYPE/Port</span></span></th>
+<th><span data-ttu-id="071a4-193">FQDN</span><span class="sxs-lookup"><span data-stu-id="071a4-193">FQDN</span></span></th>
+<th><span data-ttu-id="071a4-194">IP アドレス/FQDN ホストレコード</span><span class="sxs-lookup"><span data-stu-id="071a4-194">IP address/FQDN host record</span></span></th>
+<th><span data-ttu-id="071a4-195">マップ先/コメント</span><span class="sxs-lookup"><span data-stu-id="071a4-195">Maps to/Comments</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="3877a-196">外部 DNS/SRV/5269</span><span class="sxs-lookup"><span data-stu-id="3877a-196">External DNS/SRV/5269</span></span></p></td>
-<td><p><span data-ttu-id="3877a-197">_xmpp-server._tcp.contoso.com</span><span class="sxs-lookup"><span data-stu-id="3877a-197">_xmpp-server._tcp.contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="3877a-198">xmpp.contoso.com</span><span class="sxs-lookup"><span data-stu-id="3877a-198">xmpp.contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="3877a-199">アクセスエッジサービスまたはエッジプールの XMPP プロキシ外部インターフェイス。グローバルポリシー、ユーザーが配置されているサイトポリシー、またはユーザーポリシーを使用して、外部アクセスポリシーの構成を通じて、すべての内部 SIP ドメインについて必要に応じてこの手順を繰り返します。Lync 対応ユーザー。</span><span class="sxs-lookup"><span data-stu-id="3877a-199">XMPP proxy external interface on the Access Edge service or Edge pool.Repeat as necessary for all internal SIP domains with Lync enabled users where contact with XMPP contacts is allowed through the configuration of the External Access Policy through a global policy, site policy where the user is located, or user policy applied to the Lync-enabled user.</span></span> <span data-ttu-id="3877a-200">許可されている XMPP ドメインは、XMPP フェデレーションパートナーポリシーでも構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="3877a-200">An allowed XMPP domain must also be configured in the XMPP Federated Partners policy.</span></span> <span data-ttu-id="3877a-201">詳細については、 <strong>「</strong>関連項目」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="3877a-201">See topics in <strong>See Also</strong> for additional details</span></span></p></td>
+<td><p><span data-ttu-id="071a4-196">外部 DNS/SRV/5269</span><span class="sxs-lookup"><span data-stu-id="071a4-196">External DNS/SRV/5269</span></span></p></td>
+<td><p><span data-ttu-id="071a4-197">_xmpp-server._tcp.contoso.com</span><span class="sxs-lookup"><span data-stu-id="071a4-197">_xmpp-server._tcp.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="071a4-198">xmpp.contoso.com</span><span class="sxs-lookup"><span data-stu-id="071a4-198">xmpp.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="071a4-199">アクセスエッジサービスまたはエッジプールの XMPP プロキシ外部インターフェイス。グローバルポリシー、ユーザーが配置されているサイトポリシー、またはユーザーポリシーを使用して、外部アクセスポリシーの構成を通じて、すべての内部 SIP ドメインについて必要に応じてこの手順を繰り返します。Lync 対応ユーザー。</span><span class="sxs-lookup"><span data-stu-id="071a4-199">XMPP proxy external interface on the Access Edge service or Edge pool.Repeat as necessary for all internal SIP domains with Lync enabled users where contact with XMPP contacts is allowed through the configuration of the External Access Policy through a global policy, site policy where the user is located, or user policy applied to the Lync-enabled user.</span></span> <span data-ttu-id="071a4-200">許可されている XMPP ドメインは、XMPP フェデレーションパートナーポリシーでも構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="071a4-200">An allowed XMPP domain must also be configured in the XMPP Federated Partners policy.</span></span> <span data-ttu-id="071a4-201">詳細については、 <strong>「</strong>関連項目」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="071a4-201">See topics in <strong>See Also</strong> for additional details</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3877a-202">外部 DNS/A</span><span class="sxs-lookup"><span data-stu-id="3877a-202">External DNS/A</span></span></p></td>
-<td><p><span data-ttu-id="3877a-203">xmpp.contoso.com (など)</span><span class="sxs-lookup"><span data-stu-id="3877a-203">xmpp.contoso.com (for example)</span></span></p></td>
-<td><p><span data-ttu-id="3877a-204">エッジサーバーまたは XMPP プロキシをホストしているエッジプールのアクセスエッジサービスの IP アドレス</span><span class="sxs-lookup"><span data-stu-id="3877a-204">IP address of Access Edge service on your Edge Server or Edge pool hosting XMPP proxy</span></span></p></td>
-<td><p><span data-ttu-id="3877a-205">XMPP プロキシサービスをホストしているアクセスエッジサービスまたはエッジプールへのポイント。</span><span class="sxs-lookup"><span data-stu-id="3877a-205">Points to the Access Edge service or Edge pool that hosts the XMPP proxy service.</span></span> <span data-ttu-id="3877a-206">通常、作成した SRV レコードは、このホスト (A または AAAA) レコードをポイントします。</span><span class="sxs-lookup"><span data-stu-id="3877a-206">Typically, the SRV record that you create will point to this host (A or AAAA) record</span></span></p></td>
+<td><p><span data-ttu-id="071a4-202">外部 DNS/A</span><span class="sxs-lookup"><span data-stu-id="071a4-202">External DNS/A</span></span></p></td>
+<td><p><span data-ttu-id="071a4-203">xmpp.contoso.com (など)</span><span class="sxs-lookup"><span data-stu-id="071a4-203">xmpp.contoso.com (for example)</span></span></p></td>
+<td><p><span data-ttu-id="071a4-204">エッジサーバーまたは XMPP プロキシをホストしているエッジプールのアクセスエッジサービスの IP アドレス</span><span class="sxs-lookup"><span data-stu-id="071a4-204">IP address of Access Edge service on your Edge Server or Edge pool hosting XMPP proxy</span></span></p></td>
+<td><p><span data-ttu-id="071a4-205">XMPP プロキシサービスをホストしているアクセスエッジサービスまたはエッジプールへのポイント。</span><span class="sxs-lookup"><span data-stu-id="071a4-205">Points to the Access Edge service or Edge pool that hosts the XMPP proxy service.</span></span> <span data-ttu-id="071a4-206">通常、作成した SRV レコードは、このホスト (A または AAAA) レコードをポイントします。</span><span class="sxs-lookup"><span data-stu-id="071a4-206">Typically, the SRV record that you create will point to this host (A or AAAA) record</span></span></p></td>
 </tr>
 </tbody>
 </table>
