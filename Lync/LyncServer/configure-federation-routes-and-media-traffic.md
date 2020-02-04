@@ -3,6 +3,8 @@ title: フェデレーション ルートとメディア トラフィックの�
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Configure federation routes and media traffic
 ms:assetid: 8b2f5f81-a955-4ad1-ad74-397322ff9521
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688121(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733720
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed16ac6b8aceea6828b600ce18da8b9a72827846
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9cd9cf1c7c61261e4e1a6974498f9f9dff980169
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840097"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723247"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -153,7 +155,7 @@ _**最終更新日:** 2012-10-15_
 
 7.  **フェデレーション (ポート 5061)** が**有効**に設定されていることを確認します。
     
-    ![トポロジビルダー、エッジプール、フェデレーションを有効に]する(images/JJ688121.e8ccdada-23f4-47e5-a99d-5bf795fefc48(OCS.15).jpg "トポロジビルダー、エッジプール、フェデレーションを有効に")する
+    ![トポロジビルダー、エッジプール、フェデレーションを有効にする](images/JJ688121.e8ccdada-23f4-47e5-a99d-5bf795fefc48(OCS.15).jpg "トポロジビルダー、エッジプール、フェデレーションを有効にする")
 
 </div>
 
@@ -167,7 +169,7 @@ _**最終更新日:** 2012-10-15_
 
 3.  [**全般**] ページの [**次ホップの選択**] で、ドロップダウンリストから Lync Server 2013 プールを選びます。
     
-    [![プロパティの編集] ダイアログ、[次ホップ] ページ][(images/JJ688121.5741b9a8-e729-4457-9f62-38f08a2c5b02(OCS.15).jpg "プロパティの編集] ダイアログ、[次ホップ] ページ")
+    ![[プロパティの編集] ダイアログ、[次ホップ] ページ](images/JJ688121.5741b9a8-e729-4457-9f62-38f08a2c5b02(OCS.15).jpg "[プロパティの編集] ダイアログ、[次ホップ] ページ")
 
 4.  [ **OK]** をクリックして、[プロパティの編集] ページを閉じます。
 
@@ -187,7 +189,7 @@ _**最終更新日:** 2012-10-15_
 
 3.  [**関連付け**] セクションで、[ **Edge プールを関連付ける (メディアコンポーネント用)** ] チェックボックスをオンにします。
     
-    ![[プロパティの編集]、[全般]、[Edge プールの関連付け]](images/JJ688121.fd9b18ca-fda2-4764-9bf0-726bf39f6a12(OCS.15).jpg "[プロパティの編集]、[全般]、[Edge プールの関連付け")]
+    ![[プロパティの編集]、[全般]、[Edge プールの関連付け]](images/JJ688121.fd9b18ca-fda2-4764-9bf0-726bf39f6a12(OCS.15).jpg "[プロパティの編集]、[全般]、[Edge プールの関連付け]")
 
 4.  ドロップダウンボックスで、Lync Server 2013 エッジサーバーを選びます。
 

@@ -3,6 +3,8 @@ title: サードパーティのコラボレーションアプリケーション�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Integrating a third-party collaboration application with Lync
 ms:assetid: 00b9312c-b0c8-4f79-8b76-05b2d820e197
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398068(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183224
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a0b56fabbc1bd341e3ba2c5fe535d147c09335b7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 82b95f79202cbf96568b98dcb802e97bf4ca2d32
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832983"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725867"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34832983"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-20_
+_**トピックの最終更新日:** 2013-02-20_
 
 アプリケーションに関する情報をレジストリに追加することで、Lync 2013 をサードパーティのオンラインコラボレーションアプリケーションと統合することができます。 Lync 2013 を使用すると、社内のサーバー、インターネットベースのサービス、またはその両方でホストされているデータ会議セッションを開始できます。 コラボレーションまたはデータ会議セッションは、連絡先リストから、または既存のインスタントメッセージング、音声、またはビデオセッションから開始できます。 Lync 2013 は、アプリケーションを起動するための車両としてのみ機能します。 オンラインコラボレーションセッションが開始された後も、既存の Lync 2013 の会話はアクティブなままになります。
 

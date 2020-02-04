@@ -3,6 +3,8 @@ title: パイロット エッジ サーバーの展開
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Deploy pilot Edge Server
 ms:assetid: 11a59c48-0a53-4de1-83ed-875f850febd5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204682(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183446
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c9cfe98069d3c90f4e021b34f6a7d31c583e7565
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 686973f9334b9bf376a2e56c52f3306cf243c0eb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840834"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724027"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -59,11 +61,11 @@ _**最終更新日:** 2012-10-19_
 
 6.  [**次ホップの定義**] ページで、Lync Server 2013 Edge プールの次ホップのディレクターを選択します。
     
-    [![新しいエッジプールの定義] ダイアログ、[次ホッププール] の一覧][(images/JJ204682.61d963d5-e0bd-4b1f-b437-e37c267347ba(OCS.15).jpg "新しいエッジプールの定義] ダイアログ、[次ホッププール] の一覧")
+    ![[新しいエッジプールの定義] ダイアログ、[次ホッププール] の一覧](images/JJ204682.61d963d5-e0bd-4b1f-b437-e37c267347ba(OCS.15).jpg "[新しいエッジプールの定義] ダイアログ、[次ホッププール] の一覧")
 
 7.  [**フロントエンドプールの関連付け**] ページで、この時点ではプールをこのエッジプールに関連付けないでください。 外部メディアトラフィックは、現在、従来の Office Communications Server 2007 R2 Edge サーバーを経由してルーティングされています。 この設定は、移行の後のフェーズで構成されます。
     
-    [![新しいエッジプールの定義] ダイアログ][(images/JJ204682.bb538039-bd2a-40ed-a120-8b80bd2cefc2(OCS.15).jpg "新しいエッジプールの定義] ダイアログ")
+    ![[新しいエッジプールの定義] ダイアログ](images/JJ204682.bb538039-bd2a-40ed-a120-8b80bd2cefc2(OCS.15).jpg "[新しいエッジプールの定義] ダイアログ")
 
 8.  [**完了**] をクリックして、トポロジを**公開**します。
 
@@ -73,7 +75,7 @@ _**最終更新日:** 2012-10-19_
 
 これで、Lync Server 2013 Edge server の展開と並行して、BackCompatSite が存在することを示す、従来の Office Communications Server 2007 R2 Edge サーバーの展開ができます。 フェデレーションは、Office Communications Server 2007 R2 Director を使用するように構成されています。 両方の展開が適切に実行されていることを確認し、サービスが開始されていることを確認します。次のフェーズに移行する前に、各展開を管理することができます。
 
-![OCS Edge サーバーが表示]されているトポロジビルダー(images/JJ204682.171363a3-eaf0-4c94-bd41-02b1ab6fa7dc(OCS.15).jpg "OCS Edge サーバーが表示")されているトポロジビルダー
+![OCS Edge サーバーが表示されているトポロジビルダー](images/JJ204682.171363a3-eaf0-4c94-bd41-02b1ab6fa7dc(OCS.15).jpg "OCS Edge サーバーが表示されているトポロジビルダー")
 
 </div>
 

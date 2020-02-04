@@ -3,6 +3,8 @@ title: 正規化ルールを作成または変更する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify a normalization rule by using Build a Normalization Rule
 ms:assetid: e8547d7b-f74d-4a73-9a7d-df20d7a87fcd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399036(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185889
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 527510ac9b683df191414f5dffe456353d9cf277
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 519d4d8ee00e0922d40155c541b0f869df095ab1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833788"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722347"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -71,7 +73,7 @@ Lync Server コントロールパネルで正規化ルールを作成または�
     
       - (オプション) "**追加する数字**" フィールドに値を入力して、変換された番号に付加する数字を指定します (たとえば、「**+1425**」)。
     
-    たとえば、[**一致するパターン**] に **^ (\\d{7}) $** が含まれている場合は、ダイヤルする番号と**翻訳ルール**のパターンに **+ 1425 $ 1**が含まれています。ルールは5550100から + に正規化します。14255550100。
+    たとえば、**一致するパターンに** **^ (\\d{7}) $** が含まれている場合、ダイヤル番号のパターンと**翻訳ルール**に **+ 1425 $ 1**が含まれていると、ルールは5550100から + 14255550100 を正規化します。
 
 8.  (オプション) 正規化ルールによって電話番号が組織の内線番号になる場合は、[**内線番号**] を選択します。
 

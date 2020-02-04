@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ポスター: Lync 通話品質の方法'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: 'Poster: Lync Call Quality Methodology'
 ms:assetid: a069f4e5-4f80-4f0f-8657-2e07276b6b41
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn593600(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 61084874
 ms.date: 06/24/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e18dc59e0b8669bb48962874291e63523f37eb48
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 95105501d0403600e88d01ad5fa84363c1e81785
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824016"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724977"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -191,7 +193,7 @@ IP パケットでは、伝送制御プロトコル (TCP) またはユーザー�
 
 品質目標を**アサート**するには、対象のターゲットに該当するパラメーターを確認し、状態を把握して、承諾しないようにします。 最初のポイントをお勧めしますが、最終的な通話を行う必要があります。 例外は KHI データであり、Microsoft によって確立された標準を使用する必要があります。 付属の KHI ポスターを参照してください。
 
-この**** ゲームでは、khi データとシステムクエリの代わりに提供されているカードを使用します。 ゲームの開始時に、特定のアスペクトに関連するカードを描画していない場合は、それ以降の操作を続けることができます。 関連するカードがある場合は、さいころをロールします。 カードに記載されている番号でロールされた場合は、成功したことになります。 指定した番号の上または上に重ねている場合は、デッキから別のカードを描画する必要があります。 2人以上のプレイヤーがロールする必要があることがカードで示されている場合は、すべてロールアウトする必要があります。
+この**ゲームでは**、khi データとシステムクエリの代わりに提供されているカードを使用します。 ゲームの開始時に、特定のアスペクトに関連するカードを描画していない場合は、それ以降の操作を続けることができます。 関連するカードがある場合は、さいころをロールします。 カードに記載されている番号でロールされた場合は、成功したことになります。 指定した番号の上または上に重ねている場合は、デッキから別のカードを描画する必要があります。 2人以上のプレイヤーがロールする必要があることがカードで示されている場合は、すべてロールアウトする必要があります。
 
 ゲームを**維持**するために、Lync 環境のその側面に関するサービス管理計画を把握しておきます。
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 外部ユーザー アクセスの新機能'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: New features for external user access
 ms:assetid: 99da6bd5-ec14-4ad9-8f7d-37fbddf567dd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398794(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184884
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3d365c4e32c5eaebbd0368cd85b41be7886a59df
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d8c27df6befdba620407b3b1fd4fe537b8da831d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826445"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723977"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -59,7 +61,7 @@ Lync Server 2013 には、ユーザーの機能と通信方法を拡張する新
     
     </div>
 
-  - **Lync server 2010 用のモバイルクライアント向けのモバイルクライアント**   のモバイルサービス、lync server 2013 のモバイルサービスサポートされている Apple iOS、Android、Windows を使用して、携帯電話やタブレットデバイスで Microsoft Lync モバイルクライアントを許可します。電話または Nokia のモバイルデバイスは、インスタントメッセージの送受信、連絡先の表示、プレゼンスの表示などの操作を実行します。 さらに、モバイルデバイスでは、クリックして会議に参加したり、勤務先の電話、1回の通話、ボイスメール、不在着信通知など、一部のエンタープライズ音声機能をサポートしたりします。
+  - **モバイルクライアント**   向けのモビリティサービス lync server 2010 のモバイルサービス、lync server 2013 のモバイルサービスでは、サポートされている Apple iOS、Android、Windows Phone、Nokia モバイルデバイスを使用して、携帯電話やタブレットデバイスで Microsoft Lync モバイルクライアントが、インスタントメッセージの送受信、連絡先の表示、プレゼンスの表示などの操作を実行できます。 さらに、モバイルデバイスでは、クリックして会議に参加したり、勤務先の電話、1回の通話、ボイスメール、不在着信通知など、一部のエンタープライズ音声機能をサポートしたりします。
     
     <div>
     

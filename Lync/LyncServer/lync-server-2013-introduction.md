@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 概要'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Introduction to Lync Server
 ms:assetid: 99dd6b65-e591-421f-852b-ee9fe9588998
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398795(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184885
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: df182c8d58d6f1e60b164fbb28299945f6a8cba3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8879bd2f3638df17215b7b8f0ee4a12c751277f8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832967"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725667"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -69,7 +71,7 @@ Lync Server 2013 と、Lync 2013 などのクライアントソフトウェア�
 
 
 </div>
-<p>プレゼンスは、ユーザーの個人の空き時間情報を設定して表示し、連絡<strong>可能</strong>か<strong>取り込み中</strong>などの一般的な状態を使用して通信を<strong></strong>指示します<strong></strong>. この豊富なプレゼンス情報を使うと、他のユーザーがすぐに連絡を選択できるようになります。</p></td>
+<p>[プレゼンス] は、ユーザーの個人の空き時間情報を設定して表示します。また、<strong>利用可能</strong>か<strong>取り込み中</strong>かなどの一般的な状態を使用することに加えて、適切な状態を使用する<strong>こと</strong>で、問題が発生した場合には、良好な状態になります。 <strong></strong> この豊富なプレゼンス情報を使うと、他のユーザーがすぐに連絡を選択できるようになります。</p></td>
 </tr>
 <tr class="even">
 <td><p>会議</p></td>

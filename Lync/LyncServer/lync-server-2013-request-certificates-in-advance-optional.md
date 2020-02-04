@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 事前の証明書の要求 (オプション)'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Request certificates in advance (optional)
 ms:assetid: 9d6d7de6-ff2a-46da-b1b7-a354c8e383e4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412733(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184915
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c6b376a2c1652dcaf255e39f6d112568b7c3bf31
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7ee4598f35bb607a9262bfeb7931e2c88e27920c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823218"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723837"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ _**最終更新日:** 2013-02-21_
 
 Lync Server 2013 セットアップには証明書ウィザードが含まれています。これにより、展開中に証明書の要求、割り当て、インストールのタスクを簡単に行うことができます。 サーバーをインストールする前に証明書を要求する場合 (たとえば、サーバーの実際の展開中に時間を節約するため)、Lync Server 2013 管理ツールがインストールされているコンピューター、または証明書の要求を使用して、証明書を要求することができます。組織で定義された手順。証明書がエクスポート可能であり、必要な件名の代替名がすべて含まれていることを確認します。 事前に証明書を要求することは任意です。 事前に要求していない場合は、証明書が必要な各サーバーのセットアップの一部として要求する必要があります。
 
-この展開ドキュメントでは、「 [Lync Server 2013 のサーバー用の証明書を構成](lync-server-2013-configure-certificates-for-servers.md)する」に記載されているように、セットアッププロセスの一環として証明書ウィザードを使用して証明書を要求する手順について説明します。 [Lync Server 2013 のディレクター](lync-server-2013-configure-certificates-for-the-director.md)、およびこの展開ドキュメントの[lync server 2013 セクションに、仲介サーバー用のファイルをインストール](lync-server-2013-install-the-files-for-mediation-server.md)します。 事前に証明書を要求する場合は、展開の時点で証明書を要求する代わりに、証明書のインポートと割り当てに応じて、これらのセクションで証明書の展開手順を変更する必要があります。
+この展開ドキュメントでは、「 [lync server 2013 のサーバー用の証明](lync-server-2013-configure-certificates-for-servers.md)書を構成する」の説明に従って、セットアッププロセスの一環として証明書を要求するための手順について説明します。「lync server [2013 でディレクターの証明書を構成](lync-server-2013-configure-certificates-for-the-director.md)する」を参照[2013](lync-server-2013-install-the-files-for-mediation-server.md)してください 事前に証明書を要求する場合は、展開の時点で証明書を要求する代わりに、証明書のインポートと割り当てに応じて、これらのセクションで証明書の展開手順を変更する必要があります。
 
 <div>
 

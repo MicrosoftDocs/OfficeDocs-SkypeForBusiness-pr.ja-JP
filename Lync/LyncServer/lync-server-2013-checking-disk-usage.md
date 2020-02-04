@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ディスク使用量のチェック'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Checking disk usage
 ms:assetid: 0f0cb9bf-3f11-43ff-be10-5c8e1b5c4f08
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720908(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969578
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 791f4a0f9db56c38c837fa77b443d5aa6de74bd1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 554b493ba7ca837a8ea5c80f6751ddb91061c374
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840571"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726697"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -61,13 +63,13 @@ Lync Server 2013 には、以前に一覧表示されているファイル共有
 
 Lync Server 2013 の各ボリュームで利用可能なディスク領域に関する統計情報を比較して維持し、データベースおよびトランザクションログファイルの増加量を求めます。 これは、記憶域リソースが必要なときに容量の計画や記憶域の追加を行うのに役立ちます。
 
-トラブルシューティングと障害回復の状況に対応するために、使用可能な空きボリューム領域は、データベースのサイズの 110% 以上にすることをお勧めします。
+トラブルシューティングと障害回復の状況に対応するために、使用可能な空きボリューム領域は、データベースのサイズの110% 以上にすることをお勧めします。
 
 次の方法を使用して、空きディスク領域を確認できます。
 
 1.  **System center operations manager**   system center operations manager を使用すると、ボリューム領域が制約されている場合に管理者に警告を表示することができます。
 
-2.  **スクリプトを実行**   すると、利用可能なハードディスク領域が 20% を下回った場合にメッセージが送信されるスクリプトが実行され、ディスク領域が監視されます。 TechNet の Microsoft Script Center でサンプルスクリプトを参照してください。次の点を確認してください。[http://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard%20disk%20alert\&f%5B0%5D.Value=hard%20disk%20alert\&f%5B0%5D.Type=SearchText\&ac=5](http://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard+disk+alert%26f%5b0%5d.value=hard+disk+alert%26f%5b0%5d.type=searchtext%26ac=5)
+2.  **スクリプトを実行**   すると、利用可能なハードディスク領域が20% を下回った場合にメッセージが送信されるスクリプトが実行され、ディスク領域が監視されます。 TechNet の Microsoft Script Center でサンプルスクリプトを参照してください。次の点を確認してください。[http://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard%20disk%20alert\&f%5B0%5D.Value=hard%20disk%20alert\&f%5B0%5D.Type=SearchText\&ac=5](http://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard+disk+alert%26f%5b0%5d.value=hard+disk+alert%26f%5b0%5d.type=searchtext%26ac=5)
 
 3.  **Windows エクスプローラー**   では、windows エクスプローラーを使用して、Lync Server 2013 のログとデータベースを格納するボリュームのディスク領域を確認します。
 

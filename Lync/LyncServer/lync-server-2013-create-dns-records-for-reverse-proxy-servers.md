@@ -3,6 +3,8 @@ title: 'Lync Server 2013: リバース プロキシ サーバーの DNS レコ�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create DNS records for reverse proxy servers
 ms:assetid: b3513339-e49b-4665-80f1-b5a1c81a0e2e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429719(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185181
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5608e3dd851c943e890fe3f718a38c2df02c1c08
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0f85b222688dcefd45030f2c05f7b59ce45ec0ae
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833843"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726327"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34833843"
 
 _**最終更新日:** 2013-03-29_
 
-外部 DNS を作成する Microsoft インターネットセキュリティとアクセラレータ (ISA) サーバー 2006 SP1、Forefront Threat Management Gateway 2010 Server、または Internet Information Server アプリケーション要求ルーティングのパブリック外部インターフェイスを指すレコード「 [Lync Server 2013 での microsoft edge サポートのための DNS の構成](lync-server-2013-configure-dns-for-edge-support.md)」で説明します。 各プール、ディレクター (またはディレクタープール)、および各シンプル URL について、外部 Web サービス Fqdn 用の DNS レコードが必要です。
+外部 DNS の作成 Microsoft インターネットセキュリティとアクセラレータ (ISA) サーバー 2006 SP1、Forefront Threat Management Gateway 2010 Server、または Internet Information Server アプリケーション要求ルーティングのパブリック外部インターフェイスを指すレコード。詳細については、「 [Lync Server 2013 での Microsoft edge サポートの DNS の構成](lync-server-2013-configure-dns-for-edge-support.md)」を参照してください。 各プール、ディレクター (またはディレクタープール)、および各シンプル URL について、外部 Web サービス Fqdn 用の DNS レコードが必要です。
 
 リバースプロキシに対するクライアントの解決に関する最小の DNS レコードは、次のレコードを作成する必要があります。
 

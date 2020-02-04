@@ -3,6 +3,8 @@ title: 'Lync Server 2013: トランク間ルーティング'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Inter-trunk routing
 ms:assetid: f687a548-1f2e-48ed-9745-a13dc1f3698f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721940(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733877
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 204402ba6620fa75b64bb9710ce979b44b63f412
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 37a9feb818f48317f9a3dddd78a70700e3f6ccfc
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832959"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725847"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,11 +41,11 @@ Lync Server 2013 は、intertrunk ルーティングのサポートによって�
 
 次の図は、PSTN ゲートウェイと ip-pbx の間の相互攻撃を実現する Lync Server 2013 を示しています。
 
-![PSTN ゲートウェイ/IP-PBX 図を接続]している Lync Server(images/JJ721940.cc3858ca-2ee3-4d51-8a51-db078366b50b(OCS.15).jpg "PSTN ゲートウェイ/IP-PBX 図を接続")している Lync Server
+![Lync Server、PSTN ゲートウェイ/IP-PBX の接続図](images/JJ721940.cc3858ca-2ee3-4d51-8a51-db078366b50b(OCS.15).jpg "Lync Server、PSTN ゲートウェイ/IP-PBX の接続図")
 
 次の図は、2つの IP PBX システムを接続する Lync Server 2013 を示しています。
 
-![Lync Server の相互に対応する IP PAX システム図](images/JJ721940.6ba18ec9-df70-498a-9cf7-7fc41e5ec432(OCS.15).jpg "Lync Server の相互に対応する IP PAX システム図")
+![Lync Server、IP-PAX システムの相互接続図](images/JJ721940.6ba18ec9-df70-498a-9cf7-7fc41e5ec432(OCS.15).jpg "Lync Server、IP-PAX システムの相互接続図")
 
 </div>
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: キューを作成または変更する'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify a queue
 ms:assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205207(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185247
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 96b6bc1e5f956b5b975e14f07a3c37f2802d1b39
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 77bad1729c67c363dc56eaf8788e57caabd51876
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833792"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722427"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34833792"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-23_
+_**トピックの最終更新日:** 2013-02-23_
 
 キューを作成または変更するには、以下のいずれかの手順を使用します。
 
@@ -93,9 +95,9 @@ _**最終更新日:** 2013-02-23_
     
       - タイムアウト後通話を終了するには、[**切断**] をクリックします。
     
-      - 通話をボイスメールに転送するには、[**ボイスメールに転送**] をクリックし、[ **sip アドレス**\<] フィールドに、「sip: username\>@\<domainname\> (sip:)」という形式でボイスメールアドレスを入力します (たとえば、sip:bob@contoso.com)。
+      - 通話をボイスメールに転送するには、[**ボイスメールに転送**] をクリックし、[ **sip アドレス**\<] フィールドに、「sip: username\>@\<domainname\> (sip:bob@contoso.com)」という形式でボイスメールアドレスを入力します。
     
-      - 別の電話番号に通話を転送するには、[**電話番号に転送**] をクリックして、[ **sip アドレス**] フィールドに電話番号を\<「\>@\<sip\> : 番号のドメイン名」という形式で入力します (例 sip:+14255550121@contoso.com)。
+      - 別の電話番号に通話を転送するには、[**電話番号に転送**] をクリックし、[ **sip アドレス**] フィールドに電話番号を「\<sip\>@\<:\>番号のドメイン名」という形式で入力します (たとえば、sip:+14255550121@contoso.com)。
     
       - 通話を別のユーザーに転送するには、[ **sip アドレスに転送**] をクリックし、[ **sip アドレス**] フィールドにユーザーの URI を「sip\<:\>@\<username\>domainname」という形式で入力します。
     
@@ -113,9 +115,9 @@ _**最終更新日:** 2013-02-23_
     
       - タイムアウト後通話を終了するには、[**切断**] をクリックします。
     
-      - 通話をボイスメールに転送するには、[**ボイスメールに転送**] をクリックし、[ **sip アドレス**\<] フィールドに、「sip: username\>@\<domainname\> (sip:)」という形式でボイスメールアドレスを入力します (たとえば、sip:bob@contoso.com)。
+      - 通話をボイスメールに転送するには、[**ボイスメールに転送**] をクリックし、[ **sip アドレス**\<] フィールドに、「sip: username\>@\<domainname\> (sip:bob@contoso.com)」という形式でボイスメールアドレスを入力します。
     
-      - 別の電話番号に通話を転送するには、[**電話番号に転送**] をクリックして、[ **sip アドレス**] フィールドに電話番号を\<「\>@\<sip\> : 番号のドメイン名」という形式で入力します (例 sip:+14255550121@contoso.com)。
+      - 別の電話番号に通話を転送するには、[**電話番号に転送**] をクリックし、[ **sip アドレス**] フィールドに電話番号を「\<sip\>@\<:\>番号のドメイン名」という形式で入力します (たとえば、sip:+14255550121@contoso.com)。
     
       - 通話を別のユーザーに転送するには、[ **sip アドレスに転送**] をクリックし、[ **sip アドレス**] フィールドにユーザーの URI を「sip\<:\>@\<username\>domainname」という形式で入力します。
     
@@ -246,13 +248,13 @@ _**最終更新日:** 2013-02-23_
 ## <a name="see-also"></a>関連項目
 
 
-[新規-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/New-CsRgsQueue)  
+[New-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/New-CsRgsQueue)  
 [Set-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/Set-CsRgsQueue)  
-[新規-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/New-CsRgsPrompt)  
-[新規-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction)  
+[New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/New-CsRgsPrompt)  
+[New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction)  
 [Get-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/Get-CsRgsQueue)  
-[インポート-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile)  
-[削除-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/Remove-CsRgsQueue)  
+[Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile)  
+[Remove-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/Remove-CsRgsQueue)  
   
 
 </div>

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ユーザーごとのモバイルポリシーを割り
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Assign a per-user mobility policy
 ms:assetid: d8bf997f-4bc7-48d3-973b-323505f55e9d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721902(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733836
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e79a9b76ac4774bbbac7772bef19902d6d70f15a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 20b5929959e87f4a39c69ab09f7836a471e16b66
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848801"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722847"
 ---
 # <a name="assign-a-per-user-mobility-policy-in-lync-server-2013"></a>Lync Server 2013 でユーザーごとのモバイルポリシーを割り当てる
 
@@ -84,7 +86,7 @@ ms.locfileid: "34848801"
 
 ## <a name="assigning-a-per-user-mobility-policy-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して、ユーザーごとのモビリティポリシーを割り当てる
 
-ユーザーごとのモバイルポリシーを割り当てるには、Windows PowerShell と**Grant-set-csmobilitypolicy**コマンドレットを使用します。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、「Lync Server Windows PowerShell のブログ記事」を参照してください[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。「リモート PowerShell を使用して Microsoft Lync Server 2010 を管理する」を参照してください。
+ユーザーごとのモバイルポリシーを割り当てるには、Windows PowerShell と**Grant-set-csmobilitypolicy**コマンドレットを使用します。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 ## <a name="to-assign-a-per-user-mobility-policy-to-a-single-user"></a>ユーザーごとのモバイルポリシーを1人のユーザーに割り当てるには
 

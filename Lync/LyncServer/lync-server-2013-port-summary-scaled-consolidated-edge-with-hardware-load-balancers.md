@@ -3,6 +3,8 @@ title: ポートの概要 - 拡張統合エッジ (ロード バランサー機�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Port summary - Scaled consolidated edge with hardware load balancers
 ms:assetid: 91213b1e-f875-464b-83e8-fe3a351595a4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398739(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184841
 ms.date: 04/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 60250db155922999ce677248a41c3f4158aba466
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6260a4ad7f2717e0b4eb2446fc5b17671c3e45a5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824345"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725037"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ IPv4 に加えて、エッジサーバーは IPv6 をサポートするように
 
 **ハードウェア負荷分散を使用した拡大縮小エッジ**
 
-![エッジサーバーの境界ネットワークのポートとプロトコル](images/Gg398739.063f7dd1-16db-4cc7-8708-bca9bc41184d(OCS.15).jpg "エッジサーバーの境界ネットワークのポートとプロトコル")
+![エッジ サーバー境界ネットワークのポートおよびプロトコル](images/Gg398739.063f7dd1-16db-4cc7-8708-bca9bc41184d(OCS.15).jpg "エッジ サーバー境界ネットワークのポートおよびプロトコル")
 
 <div>
 
@@ -249,7 +251,7 @@ IPv4 に加えて、エッジサーバーは IPv6 をサポートするように
 
 </div>
 
-![エッジサーバーのポートとプロトコルの詳細](images/Gg398739.1c193b80-98ab-4d59-a854-dbfdb5e209e2(OCS.15).jpg "エッジサーバーのポートとプロトコルの詳細")
+![エッジ サーバーのポートおよびプロトコルの詳細](images/Gg398739.1c193b80-98ab-4d59-a854-dbfdb5e209e2(OCS.15).jpg "エッジ サーバーのポートおよびプロトコルの詳細")
 
 ### <a name="external-port-settings-required-for-scaled-consolidated-edge-hardware-load-balanced-external-interface-virtual-ips"></a>スケーリングされた統合エッジに必要な外部ポート設定、ハードウェア負荷分散: 外部インターフェイス仮想 Ip
 

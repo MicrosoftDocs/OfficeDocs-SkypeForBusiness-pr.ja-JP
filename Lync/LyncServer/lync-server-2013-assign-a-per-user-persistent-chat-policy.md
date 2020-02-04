@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ユーザーごとの常設チャットポリシーを
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Assign a per-user Persistent Chat policy
 ms:assetid: e22168f2-fde1-4f0a-b194-1fc881436822
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721908(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733842
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 081e6724f5df2389a8ef89e83b2df91b49a1b991
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 616a171d4aedcc6014ddea3c5993a097d410a5e5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848803"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722827"
 ---
 # <a name="assign-a-per-user-persistent-chat-policy-in-lync-server-2013"></a>Lync Server 2013 でユーザーごとの常設チャットポリシーを割り当てる
 
@@ -84,7 +86,7 @@ ms.locfileid: "34848803"
 
 ## <a name="assigning-a-per-user-persistent-chat-policy-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して、ユーザーごとの常設チャットポリシーを割り当てる
 
-また、 **Grant-CsPersistentChatPolicy**コマンドレットを使用して、ユーザーごとの常設チャットポリシーを割り当てることもできます。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、「Lync Server Windows PowerShell のブログ記事」を参照してください[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。「リモート PowerShell を使用して Microsoft Lync Server 2010 を管理する」を参照してください。
+また、 **Grant-CsPersistentChatPolicy**コマンドレットを使用して、ユーザーごとの常設チャットポリシーを割り当てることもできます。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 ## <a name="to-assign-a-per-user-persistent-chat-policy-to-a-single-user"></a>ユーザーごとの常設チャットポリシーを1人のユーザーに割り当てるには
 

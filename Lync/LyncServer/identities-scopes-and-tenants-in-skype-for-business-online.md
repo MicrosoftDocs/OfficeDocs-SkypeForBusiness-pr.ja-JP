@@ -3,6 +3,8 @@ title: Skype for Business Online の id、スコープ、テナント
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Identities, scopes, and tenants
 ms:assetid: 7cfa194a-2d01-4370-9b48-ee13ff597fa5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362819(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 56558817
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8a759c53b717cbaf1ecdb747d5cb01e94b305f52
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7b08c459f64a4655ebb4dc670255645f985452aa
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840871"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722977"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34840871"
 
 _**最終更新日:** 2015-03-09_
 
-Skype for Business Online を管理するために使用される Windows PowerShell コマンドレットの多くは、管理する項目について特に明確にしておく必要があります。 たとえば、 [Set-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/Set-CsUserAcp)コマンドレットを実行する場合は、管理しようとしているユーザーを指定する必要があります。 これは理にかなっています。 管理するユーザーアカウントをコマンドレットに明示的に指定し**** ていない限り、ユーザーの電話会議情報を変更する必要があるかどうかを指定することはできません。 このため、 **Set-CsUserAcp**コマンドレットを実行するたびに、id パラメーターを含める必要があります。その後に、変更するユーザーアカウントの id を指定する必要があります。
+Skype for Business Online を管理するために使用される Windows PowerShell コマンドレットの多くは、管理する項目について特に明確にしておく必要があります。 たとえば、 [Set-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/Set-CsUserAcp)コマンドレットを実行する場合は、管理しようとしているユーザーを指定する必要があります。 これは理にかなっています。 管理するユーザーアカウントをコマンドレットに明示的に指定し**ていない限り、ユーザー**の電話会議情報を変更する必要があるかどうかを指定することはできません。 このため、 **Set-CsUserAcp**コマンドレットを実行するたびに、id パラメーターを含める必要があります。その後に、変更するユーザーアカウントの id を指定する必要があります。
 
     Set-CsUserAcp -Identity "Ken Myer" -TollNumber "14255551298" -ParticipantPassCode 13761 -Domain "fabrikam.com" -Name "Fabrikam ACP"
 

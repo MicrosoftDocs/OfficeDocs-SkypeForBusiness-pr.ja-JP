@@ -3,6 +3,8 @@ title: 'Lync Server 2013: 自動検出用のリバースプロキシの構成'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring a reverse proxy for Autodiscover
 ms:assetid: 1e3c3cc2-fe55-408b-99c4-c6e0a9252689
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945619(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541456
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5445a9ce81835863b610ef32ecc51ccac5331c3f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a02bf765941c7240f08fecc91d5912f31a0f2f87
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840301"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726567"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -170,7 +172,7 @@ Lync Server 2013 の最初の自動検出サービス要求に HTTPS を使用�
 
 7.  [**内部発行の詳細**] ページの [**内部サイト名**] に、フロントエンドプールの内部 Web サービス FQDN (たとえば、lyncpool01) を入力します。
 
-8.  [**内部発行の詳細**] ページの [ **Path (オプション)**] ** / **に、公開するフォルダーのパスを入力し、[**内部サイト名] フィールドで指定されたものではなく、[元のホストヘッダーを転送する] を選択します。**.
+8.  [**内部発行の詳細**] ページの [ **Path (オプション)**] ** / **に、公開するフォルダーのパスを入力し、[**内部サイト名] フィールドに指定されているものではなく、[元のホストヘッダーを転送**する] を選択します。
 
 9.  [**パブリック名の詳細**] ページで、次の操作を行います。
     

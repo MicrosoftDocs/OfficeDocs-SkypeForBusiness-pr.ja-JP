@@ -3,6 +3,8 @@ title: 'Lync Server 2013: デバイス更新ルールを復元する'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Restore a Device Update rule
 ms:assetid: ac490baf-c7a0-48d9-8fd0-ba5729489341
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994061(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803972
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 90eeb82e710b6ea65bc32184685497494dbef8d6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d0416092c7021d599ec7e516d72c19e8baa3c598
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823092"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723587"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34823092"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-23_
+_**トピックの最終更新日:** 2013-02-23_
 
 展開したデバイスからデバイス更新ルールをアンインストールするには、デバイスを復元します。 デバイス更新ルールを復元すると、更新プログラムがアンインストールされ、そのルールの以前のバージョンが再インストールされます。
 
@@ -63,13 +65,13 @@ Lync Server コントロールパネルまたは Windows PowerShell を使用し
 
 ## <a name="restoring-device-update-rules-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用してデバイス更新ルールを復元する
 
-デバイス更新ルールは、Windows PowerShell と**CsDeviceUpdateRule**コマンドレットを使用して復元することもできます。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。
+デバイス更新ルールは、Windows PowerShell と**CsDeviceUpdateRule**コマンドレットを使用して復元することもできます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。
 
 <div>
 
 
 > [!NOTE]  
-> リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、「Lync Server Windows PowerShell のブログ記事」を参照してください<A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>。「リモート PowerShell を使用して Microsoft Lync Server 2010 を管理する」を参照してください。
+> リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を<A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>で参照してください。
 
 
 

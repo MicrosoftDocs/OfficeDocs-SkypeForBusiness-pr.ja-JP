@@ -3,6 +3,8 @@ title: リバース プロキシ サーバーを使用して Office Web Apps サ
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Publishing Office Web Apps Server using a reverse proxy server
 ms:assetid: 0babe39f-c4b9-46f0-995a-33dc99c2be03
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204665(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183384
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3f68ae51dba366282d7d3a5668b1358042a29917
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 43a81fff75adbeadb6cfcead3316dab2c89b4269
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823708"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724587"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -81,7 +83,7 @@ Forefront Threat Management Gateway で web サイトの公開ルールを構成
 
 21. [ **Web リスナーの選択**] ページで、[**次へ**] をクリックします。
 
-22. [**認証委任**] ページで [委任しない] を選択しますが、クライアントは [**公開された Web サーバーの認証に使用するメソッドを選択**する] ドロップダウンリストから**直接認証を受けることがあり**、[**次へ] をクリックします。**.
+22. [**認証委任**] ページで、[委任しない] を選択します。クライアントは、[**公開された Web サーバーに認証するために、Forefront TMG で使用する方法を選択**します] ドロップダウンリストから**直接認証することができ**、[**次へ**] をクリックします。
 
 23. [**ユーザー設定**] ページで、適切なユーザーセットが表示されていることを確認します。 既定では、[**すべてのユーザー** ] ユーザーが設定されています。 [**追加**] をクリックして、定義している他のユーザーセットを追加します。 完了したら、[**次へ**] をクリックします。
 

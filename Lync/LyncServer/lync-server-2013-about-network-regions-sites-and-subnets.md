@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ネットワーク領域、サイト、およびサブ
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: About network regions, sites, and subnets
 ms:assetid: 6662123a-d011-408c-a290-92b2a8589943
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398467(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184335
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ef6601a0baafd1226f4e283d62a8cbdb410064ff
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1f85d392f7d5f987bf14197fd5027c6568965ae8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840979"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723427"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ _**最終更新日:** 2013-02-24_
 
 
 > [!IMPORTANT]  
-> 通話受付制御、E9、またはメディアバイパスのネットワーク構成を始める前に、 <A href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">「Lync Server 2013 の高度なエンタープライズ voip 機能のネットワーク設定</A>」のネットワーク設定に関する追加情報を確認したことを確認してください。計画ドキュメントのトピックです。 ネットワーク構成の詳細については、主に通話受付制御について詳しくは、「計画ドキュメントの<A href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">Lync Server 2013 での通話受付制御の要件の定義</A>」をご覧ください。
+> 通話受付制御、E9、またはメディアバイパスのネットワーク構成を始める前に、計画ドキュメントの「 <A href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">Lync Server 2013 の高度なエンタープライズ voip 機能のネットワーク設定</A>」のネットワーク設定に関する追加情報を確認していることを確認してください。 ネットワーク構成の詳細については、主に通話受付制御について詳しくは、「計画ドキュメントの<A href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">Lync Server 2013 での通話受付制御の要件の定義</A>」をご覧ください。
 
 
 

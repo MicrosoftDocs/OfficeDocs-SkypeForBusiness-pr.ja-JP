@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Lync Server を復元するための準備'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Preparing to restore Lync Server
 ms:assetid: 857e4e02-908e-433a-96c6-be1795a9cb61
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202179(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541490
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a470a338d05436be942201e6df6a864f955ac87c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c2e6516ee1162c02f2bebc8c385c2f41e87d7781
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823757"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724897"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -190,7 +192,7 @@ _**最終更新日:** 2013-02-21_
 
 復元を開始する前に、復元する予定のコンポーネントに必要なハードウェアとソフトウェアが使用可能であることを確認します。 オペレーティングシステムと SQL Server をインストールした後、次の復元手順のほとんどはリモートで実行できます。 例外については、手順に記載されています。
 
-また、組織のバックアップと復元計画、およびこのドキュメントのワークシートの情報 (詳細については、「 [Lync Server 2013 のバックアップと復元ワークシート](lync-server-2013-backup-and-restoration-worksheets.md)」を参照してください)。復元を開始する前に利用できます。
+また、組織のバックアップと復元計画、およびこのドキュメントのワークシートの情報 (詳細については、「 [Lync Server 2013 のバックアップと復元用のワークシート](lync-server-2013-backup-and-restoration-worksheets.md)を参照してください)、復元を開始する前に確認しておく必要があります。
 
 </div>
 

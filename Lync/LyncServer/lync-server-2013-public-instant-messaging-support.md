@@ -3,6 +3,8 @@ title: 'Lync Server 2013: パブリック インスタント メッセージン�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Public instant messaging support
 ms:assetid: 1f45163b-52c6-4a78-b9c8-dfe3abe4e5eb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204732(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183582
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f9da9be8db34306fc95f84ebdd40abc26bffd15e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c3e3207d1a7a12f4db379e4d58615cffdfb45036
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823659"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724637"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

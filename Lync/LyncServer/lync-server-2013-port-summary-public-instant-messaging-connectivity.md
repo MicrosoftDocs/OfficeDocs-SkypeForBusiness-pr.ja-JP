@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ポートの概要-パブリックインスタント�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Port summary - Public instant messaging connectivity
 ms:assetid: f46756ec-1401-4ca2-a4a4-5cd28bcfdc7f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ618376(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49105663
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5bb6b8d0d9277b7d77440519596da76585b9d91b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 16430849221631d9b540f5ee51b0a07758a38b05
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824247"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725057"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34824247"
 
 _**最終更新日:** 2013-02-16_
 
-パブリックインスタントメッセージング接続をサポートするために必要なポートとプロトコル用にファイアウォールを構成するには、まず、SIP/MTLS/TCP 5061 は、パブリック IM プロバイダーの連絡先が Lync クライアントまたは Lync に連絡する機能を提供するための双方向アカウントであることに注意してください。パブリック IM の連絡先に連絡します。
+パブリックインスタントメッセージング接続をサポートするために必要なポートとプロトコル用にファイアウォールを構成するには、まず、SIP/MTLS/TCP 5061 は、パブリック IM プロバイダーの連絡先が Lync クライアントに連絡するか、Lync がパブリック IM の連絡先に連絡できるかどうかを考慮するための双方向です。
 
 Windows Live Messenger は、Lync クライアントとの音声/ビデオ通信に参加できます。 通常、ファイアウォールを使用して、外部ユーザーとして Lync クライアントをサポートする、非常に類似したファイアウォールポートおよびプロトコル構成については、このアカウントをご利用ください。
 

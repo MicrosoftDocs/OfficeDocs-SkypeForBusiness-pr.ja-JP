@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ユーザーごとの PIN ポリシーを割り当て�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Assign a per-user PIN policy
 ms:assetid: d8211c64-0b63-4193-a074-673da7d14287
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182594(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185475
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7c60943ad13bd03de6e4474ec35f2deea1964bad
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0864fdf4d2356ee04e1084c2f6b0149b2a6ebd5a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848802"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722817"
 ---
 # <a name="assign-a-per-user-pin-policy-in-lync-server-2013"></a>Lync Server 2013 でユーザーごとの PIN ポリシーを割り当てる
 
@@ -90,7 +92,7 @@ ms.locfileid: "34848802"
 
 ## <a name="assigning-a-per-user-pin-policy-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用してユーザーごとの PIN ポリシーを割り当てる
 
-ユーザーごとの PIN ポリシーを割り当てるには、Windows PowerShell と**Grant-CsPinPolicy**コマンドレットを使用します。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、「Lync Server Windows PowerShell のブログ記事」を参照してください[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。「リモート PowerShell を使用して Microsoft Lync Server 2010 を管理する」を参照してください。
+ユーザーごとの PIN ポリシーを割り当てるには、Windows PowerShell と**Grant-CsPinPolicy**コマンドレットを使用します。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 ## <a name="to-assign-a-per-user-pin-policy-to-a-single-user"></a>ユーザー単位の PIN ポリシーを単一のユーザーに割り当てるには
 

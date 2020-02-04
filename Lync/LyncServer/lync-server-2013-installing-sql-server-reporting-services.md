@@ -3,6 +3,8 @@ title: 'Lync Server 2013: SQL Server Reporting Services のインストール'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Installing SQL Server Reporting Services
 ms:assetid: 638a1d0c-1ac7-4735-83f2-4df3d03c7cf9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204957(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184345
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6707cafc3a08123bd2189639704741681eb9cdd6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6342743486e3a3261e297d602ceb994d421dc13c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34832986"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726007"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,9 +47,9 @@ Sql server が既にインストールされているが、SQL Server Reporting 
     
     Microsoft SQL Server 2012 を実行している場合は、[**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft SQL Server 2012**]、[**構成ツール**]、[ **Reporting Services 構成マネージャー**] の順にクリックします。
 
-2.  [ **Reporting Services の構成接続**] ダイアログボックスで、[**サーバー名**] ボックスにサーバー名が表示され、監視データを格納する SQL server インスタンスの名前がレポートサーバーに表示されることを確認します。 **インスタンス**ボックス。 [**接続**] をクリックします。
+2.  [ **Reporting Services の構成接続**] ダイアログボックスで、[**サーバー名**] ボックスにサーバー名が表示され、監視データを格納する SQL server インスタンスの名前が [**レポートサーバーインスタンス**] ボックスに表示されていることを確認します。 [**接続**] をクリックします。
 
-Reporting Service 構成マネージャーの [レポートサーバーの状態] ウィンドウには、SQL Server Reporting Services がインストールされていて、Reporting Services が現在実行されていることが表示されます。レポートサーバーの状態は [**開始**] と表示され、[**スタート**] ボタンは淡色表示になっていて使用できません。 レポートサービスが実行されていない場合は、[**開始**] をクリックしてサービスを開始します。
+Reporting Service 構成マネージャーの [レポートサーバーの状態] ウィンドウには、SQL Server Reporting Services がインストールされていて、Reporting Services が現在実行されていることが表示されます。レポートサーバーの状態は [**開始**] と表示され、[**スタート**] ボタンは淡色表示され、使用できなくなります。 レポートサービスが実行されていない場合は、[**開始**] をクリックしてサービスを開始します。
 
 [レポートサーバーデータベース名] ラベルの横にデータベースが表示されない場合は、次の操作を行います。
 

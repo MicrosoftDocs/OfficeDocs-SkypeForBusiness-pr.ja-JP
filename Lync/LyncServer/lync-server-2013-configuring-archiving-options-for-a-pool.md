@@ -3,6 +3,8 @@ title: 'Lync Server 2013: プールのアーカイブオプションを構成す
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Archiving options for a pool
 ms:assetid: b7cb0fd8-3d31-4858-a75c-c66a7742556e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205200(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185230
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ae5547320a9af0f11870ad0dc92ba03e40d8af4f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f63f20dc0ae80584c1eac4489a07925e90fe3e29
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840284"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726507"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**最終更新日:** 2012-10-10_
 
 特定のプールに適用されるアーカイブオプションを指定するには、各プールのアーカイブ構成でオプションを作成して構成します。 プール構成はグローバル構成とサイト構成より優先されますが、その対象はプール構成に指定されているプールに限定されます。
 
-アーカイブ構成のしくみ (グローバル、サイト、プールの構成の階層など) について詳しくは、「計画ドキュメント、展開ドキュメント、または運用ドキュメント」の「 [Lync Server 2013 でのアーカイブの動作](lync-server-2013-how-archiving-works.md)」をご覧ください。.
+アーカイブ構成のしくみ (グローバル、サイト、プール構成の階層など) について詳しくは、「計画ドキュメント、展開ドキュメント、または運用ドキュメント」の「 [Lync Server 2013 でのアーカイブの動作](lync-server-2013-how-archiving-works.md)」をご覧ください。
 
 <div>
 

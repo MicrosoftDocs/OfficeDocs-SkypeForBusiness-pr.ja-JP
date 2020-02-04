@@ -3,6 +3,8 @@ title: 'Lync Server 2013: コールパークの範囲を削除する範囲'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Delete a Call Park orbit range
 ms:assetid: 85e9f916-062d-450d-ac0a-aeaefc0f7cdc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182546(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184713
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 69144e6552f9c3688c904c8522689abc8da7add2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 934559f1b67c1325684ee5b477be18ed112224df
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833659"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726217"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34833659"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-20_
+_**トピックの最終更新日:** 2013-02-20_
 
 次のいずれかの手順を使用して、コールパーク軌道範囲を削除します。
 

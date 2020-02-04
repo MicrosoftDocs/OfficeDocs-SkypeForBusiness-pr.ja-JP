@@ -3,6 +3,8 @@ title: 'Lync Server 2013: アーカイブオプションをグローバルレベ
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Archiving options at the global level
 ms:assetid: bfe415f7-2abf-41ee-a1cb-cf48b2d59c0c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205233(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185303
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 21653d38c7b56fa93395422a2e20906afd0cc3e2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 59ab58cbee3479bff424e7d69d475e1d83fdd3bf
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840286"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726517"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**最終更新日:** 2012-10-10_
 
 トポロジにアーカイブを追加してトポロジを公開すると、Lync Server によってアーカイブ用のグローバル構成が作成されます。 既定では、グローバル構成ではアーカイブオプションが有効になっていません。 グローバル構成より優先されるサイト構成またはプール構成を設定しない限り、グローバル構成は、展開全体に対して有効化されるオプションを制御します。
 
-アーカイブ構成のしくみ (グローバル、サイト、プールの構成の階層など) について詳しくは、「計画ドキュメント、展開ドキュメント、または運用ドキュメント」の「 [Lync Server 2013 でのアーカイブの動作](lync-server-2013-how-archiving-works.md)」をご覧ください。.
+アーカイブ構成のしくみ (グローバル、サイト、プール構成の階層など) について詳しくは、「計画ドキュメント、展開ドキュメント、または運用ドキュメント」の「 [Lync Server 2013 でのアーカイブの動作](lync-server-2013-how-archiving-works.md)」をご覧ください。
 
 <div>
 

@@ -3,6 +3,8 @@ title: 翻訳ルールツールを使って翻訳ルールを作成または変�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify a translation rule by using the Build a Translation Rule tool
 ms:assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412909(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185224
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 06f498af25dfd851bd2950ce08d5c66179b95ebc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d45ca4e04146a175ec2782aa798ac27559fce495
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833782"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722377"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

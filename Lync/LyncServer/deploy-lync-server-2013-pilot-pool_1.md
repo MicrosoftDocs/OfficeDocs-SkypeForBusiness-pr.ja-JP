@@ -3,6 +3,8 @@ title: Lync Server 2013 パイロットプールの展開
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploy Lync Server 2013 pilot pool
 ms:assetid: 19c27053-8b21-401f-ad91-75c2dd355e91
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204718(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183539
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f5e9068ca3ff5a2827991869598a2066473cc5af
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 46e6d4bd34c20038e430323b0f78ccf4f918aa62
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34840837"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724047"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -76,7 +78,7 @@ Lync Server 2013 への移行に必要な最初の手順の1つは、パイロ�
 
 6.  プールに追加されるコンピューターを定義します。
     
-    [![新しいフロントエンドプールの定義] ダイアログ][(images/JJ204718.374f0ed4-988b-465f-9861-8d1db401e76f(OCS.15).jpg "新しいフロントエンドプールの定義] ダイアログ")
+    ![[新しいフロントエンドプールの定義] ダイアログ](images/JJ204718.374f0ed4-988b-465f-9861-8d1db401e76f(OCS.15).jpg "[新しいフロントエンドプールの定義] ダイアログ")
 
 7.  **[機能の選択**] ページで、このフロントエンドプールに必要な機能のチェックボックスをオンにします。 たとえば、インスタントメッセージング (IM) とプレゼンス機能のみを展開している場合、[会議] チェックボックスをオンにして、マルチパーティ IM を許可しますが、ダイヤルイン (PSTN) 会議、エンタープライズボイス、または通話受付制御のチェックボックスは選択しません。音声、ビデオ、および共同作業の会議機能を表します。 機能の選択の詳細については、展開ドキュメントの「 [Lync server 2013 でのフロントエンドプールまたは Standard Edition サーバーの定義と構成](lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md)」を参照してください。
     
@@ -84,7 +86,7 @@ Lync Server 2013 への移行に必要な最初の手順の1つは、パイロ�
 
 8.  **[併置**されたサーバーの役割の選択] ページで、Lync server 2013 で仲介サーバーを検索することをお勧めします。 従来のトポロジを Lync Server 2013 と統合する場合は、最初に Office Communications Server 2007 R2 仲介サーバーを検索する必要があります。 トポロジをマージして Lync Server 2013 仲介サーバーを構成した後、展開後に仲介サーバーの役割を Lync Server 2013 に移行するときに、併置された仲介サーバーを保持するか、スタンドアロンサーバーに変更するかを決定できます。プロセス.
     
-    ![フロントエンドプール [併置したサーバーの役割] ページを選択]する(images/JJ204718.e00b7eba-010b-44ed-b0a6-6ab3e534fb8c(OCS.15).jpg "フロントエンドプール [併置したサーバーの役割] ページを選択")する
+    ![フロントエンドプール [併置したサーバーの役割] ページを選択する](images/JJ204718.e00b7eba-010b-44ed-b0a6-6ab3e534fb8c(OCS.15).jpg "フロントエンドプール [併置したサーバーの役割] ページを選択する")
 
 9.  パイロットプールの展開中に、[**サーバーの役割をこのフロントエンドプールに関連付ける**] ページで、[**このフロントエンドプールのメディアコンポーネントで使用するエッジプールを有効**にする] オプションを選択しないでください。 これは、移行の後のフェーズで有効にしてオンラインにする機能です。 ここでは、この設定をオフのままにしておきます。
     
@@ -92,7 +94,7 @@ Lync Server 2013 への移行に必要な最初の手順の1つは、パイロ�
 
 10. [ **Office Web Apps サーバーを選択**してください] ページで、[**新規**] をクリックし、アプリケーションサーバーの FQDN を指定します。
     
-    ![新しい Office Web Apps サーバーの FQDN プロパティを定義]する(images/JJ204718.25c6b455-f1b8-4326-a569-6e338153d398(OCS.15).jpg "新しい Office Web Apps サーバーの FQDN プロパティを定義")する
+    ![新しい Office Web Apps サーバーの FQDN プロパティを定義する](images/JJ204718.25c6b455-f1b8-4326-a569-6e338153d398(OCS.15).jpg "新しい Office Web Apps サーバーの FQDN プロパティを定義する")
 
 11. [**アーカイブ SQL Server ストアの定義**] ページで、以前に Lync Server 2013 用に作成した SQL server インスタンスを選びます。
     
@@ -104,7 +106,7 @@ Lync Server 2013 への移行に必要な最初の手順の1つは、パイロ�
 
 14. **管理アクセスの URL**を更新します。
     
-    ![[プロパティの編集] の [シンプルな url] ページ](images/JJ204718.ef596dd2-1983-47e0-b342-4fc7a0e36380(OCS.15).jpg "[プロパティの編集] の [シンプルな url] ページ")
+    ![[プロパティの編集] の [シンプルな Url] ページ](images/JJ204718.ef596dd2-1983-47e0-b342-4fc7a0e36380(OCS.15).jpg "[プロパティの編集] の [シンプルな Url] ページ")
     
     単純な Url の詳細については、展開ドキュメントの「 [Lync Server 2013 での単純な url の編集または構成](lync-server-2013-edit-or-configure-simple-urls.md)」を参照してください。
 
@@ -112,7 +114,7 @@ Lync Server 2013 への移行に必要な最初の手順の1つは、パイロ�
 
 16. ドロップダウンリストから、Lync Server 2013 プールを選択します。
     
-    ![[プロパティの中央管理] ページを編集]する(images/JJ204718.211955fc-85f2-462d-8709-e6ea67092e89(OCS.15).jpg "[プロパティの中央管理] ページを編集")する
+    ![[プロパティの中央管理] ページを編集する](images/JJ204718.211955fc-85f2-462d-8709-e6ea67092e89(OCS.15).jpg "[プロパティの中央管理] ページを編集する")
 
 17. [OK] をクリックし**て、[プロパティの編集**] ページを閉じます。
 
