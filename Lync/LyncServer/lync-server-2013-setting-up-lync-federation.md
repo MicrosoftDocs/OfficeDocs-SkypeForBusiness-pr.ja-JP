@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Lync フェデレーションのセットアップ'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Setting up Lync federation
 ms:assetid: 374ddc43-26f9-499d-be68-a5158adfa49c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204800(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183822
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fe6dc0a2aeb39c86db54d21a2c4be5ff6c5be599
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7df0dd85bac0aa3053fb6a3496d6a13fa1f4a85e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848749"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764603"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -91,13 +93,13 @@ _**最終更新日:** 2014-03-27_
     <th>フェデレーションの種類</th>
     <th>DNS レコード</th>
     <th>ポリシー定義</th>
-    <th>ノート</th>
+    <th>メモ</th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
     <td><p>検出されたパートナードメイン</p></td>
-    <td><p>_Sipfederationtls 形式の SRV レコードを構成します。 _tcp&lt;SRV レコードの&gt;ポート値が TCP 5061 であり、<strong>このサービスを提供</strong>しているホストが sip として定義されている外部ドメイン名。 &lt;外部ドメイン名&gt; –アクセスエッジサービスの FQDN。 SRV レコードの作成の詳細については、「 <a href="lync-server-2013-configure-dns-for-edge-support.md">Lync Server 2013 での microsoft edge サポートの DNS の構成</a>」を参照してください。</p></td>
+    <td><p>_Tcp _sipfederationtls 形式の SRV レコードを構成します。&lt;SRV レコードの&gt;ポート値が TCP 5061 であり、<strong>このサービスを提供</strong>しているホストが sip として定義されている外部ドメイン名。 &lt;外部ドメイン名&gt; –アクセスエッジサービスの FQDN。 SRV レコードの作成の詳細については、「 <a href="lync-server-2013-configure-dns-for-edge-support.md">Lync Server 2013 での microsoft edge サポートの DNS の構成</a>」を参照してください。</p></td>
     <td><ul>
     <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Lync Server 2013 でのフェデレーションおよびパブリック IM 接続の有効化または無効化</a></p></li>
     <li><p><a href="lync-server-2013-enable-or-disable-discovery-of-federation-partners.md">Lync Server 2013 でのフェデレーション パートナーの検出の有効化または無効化</a></p></li>
@@ -106,7 +108,7 @@ _**最終更新日:** 2014-03-27_
     </tr>
     <tr class="even">
     <td><p>許可されたパートナードメイン</p></td>
-    <td><p>_Sipfederationtls 形式の SRV レコードを構成します。 _tcp&lt;SRV レコードの&gt;ポート値が TCP 5061 であり、<strong>このサービスを提供</strong>しているホストが sip として定義されている外部ドメイン名。 &lt;外部ドメイン名&gt; –アクセスエッジサービスの FQDN。 SRV レコードの作成の詳細については、「 <a href="lync-server-2013-configure-dns-for-edge-support.md">Lync Server 2013 での microsoft edge サポートの DNS の構成</a>」を参照してください。</p></td>
+    <td><p>_Tcp _sipfederationtls 形式の SRV レコードを構成します。&lt;SRV レコードの&gt;ポート値が TCP 5061 であり、<strong>このサービスを提供</strong>しているホストが sip として定義されている外部ドメイン名。 &lt;外部ドメイン名&gt; –アクセスエッジサービスの FQDN。 SRV レコードの作成の詳細については、「 <a href="lync-server-2013-configure-dns-for-edge-support.md">Lync Server 2013 での microsoft edge サポートの DNS の構成</a>」を参照してください。</p></td>
     <td><ul>
     <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Lync Server 2013 でのフェデレーションおよびパブリック IM 接続の有効化または無効化</a></p></li>
     </ul></td>

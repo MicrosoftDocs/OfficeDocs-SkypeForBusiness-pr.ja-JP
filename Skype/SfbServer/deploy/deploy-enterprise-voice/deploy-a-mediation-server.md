@@ -8,6 +8,8 @@ ms.date: 2/7/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 59d8f5ba-5064-4ea5-b4bf-2b9736e0fedd
 description: '概要: Skype for Business Server のトポロジビルダーで仲介サーバーを定義して展開する方法について説明します。'
-ms.openlocfilehash: 23d1567816c56408b276672fdd0330b0aa3d635c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c651ff3e254165161642c4e729d0d4e3f2983023
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245495"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767690"
 ---
 # <a name="deploy-a-mediation-server-in-topology-builder-in-skype-for-business-server"></a>Skype for Business Server でのトポロジビルダーへの仲介サーバーの展開
  
@@ -91,7 +93,7 @@ Skype for Business Server (フロントエンドプールまたはスタンド�
     
 8. [**エッジ サーバーの選択**] ページで、次のどちらかの操作を行います。
     
-   - エンタープライズ Voip が有効になっている外部ユーザーに PSTN 接続を提供する場合は、[**この仲介サーバーで使用されるエッジプールを選択して**ください] で、この仲介サーバープールを使用して、pstn 接続を提供するエッジサーバープールの FQDN をクリックします。それらの外部ユーザーを選び、[**次へ**] をクリックします。
+   - エンタープライズ Voip が有効になっている外部ユーザーに PSTN 接続を提供する場合は、[**この仲介サーバーで使用されるエッジプールを選択**してください] で、この仲介サーバープールを使用してそれらの外部ユーザーへの pstn 接続を提供するエッジサーバープールの FQDN をクリックし、[**次へ**] をクリックします。
     
    - 外部ユーザーをエンタープライズボイスとして有効にする予定がない場合、または内部ネットワークの外部にいるユーザーに PSTN 接続を提供しない場合は、[**次へ**] をクリックします。
     

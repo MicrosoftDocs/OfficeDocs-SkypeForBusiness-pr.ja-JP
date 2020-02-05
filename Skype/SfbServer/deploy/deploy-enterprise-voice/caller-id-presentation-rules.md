@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6a643961-a0a1-41d1-96ba-6c428a89d82e
 description: '概要: Skype for Business Server コントロールパネルを使用して発信者番号認識を構成する方法について説明します。'
-ms.openlocfilehash: ca35b3398732296f435196ffeb38d915472b303d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d6b2e594d0f16e9b3278145087af854650a957da
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233768"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768160"
 ---
 # <a name="create-or-modify-a-translation-rule-for-caller-id-presentation-in-skype-for-business-server"></a>Skype for Business Server で発信者 ID のプレゼンテーションの翻訳ルールを作成または変更する
 
 **概要:** Skype for Business Server コントロールパネルを使用して発信者番号認識を構成する方法について説明します。
 
-Skype for Business Server では、発信元の電話番号 (電話番号) を、_トランクのピア_によって要求されるローカルのダイヤル形式 (つまり、関連付けられているゲートウェイ、プライベート支店の exchange) に翻訳できます (PBX)、または SIP トランク)。 これを行うためには、トランク ピアへのルーティングの前に要求 URI を変換する変換ルールを 1 つ以上定義する必要があります。
+Skype for Business Server では、発信元の国の電話番号 (電話番号) を、_トランクのピア_によって要求されるローカルのダイヤル形式 (関連付けられているゲートウェイ、構内交換機 (PBX)、SIP トランクなど) に変換することができます。 これを行うためには、トランク ピアへのルーティングの前に要求 URI を変換する変換ルールを 1 つ以上定義する必要があります。
 
 Skype for Business Server では、発信者の電話番号 (つまり、発信者が発信した電話番号) を、樹幹形式から、トランクピアが必要とする地域のダイヤル形式に翻訳するオプションも提供されます。 たとえば、ダイヤル文字列の冒頭から +44 を取り除いて 0114 に置き換える変換ルールを記述できます。
 

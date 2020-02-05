@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7d68b09c-9ea0-43bd-997c-df887869d607
 description: '概要: Skype for Business Server コントロールパネルを使用して、SIP トランクの設定を変更する方法について説明します。'
-ms.openlocfilehash: 6db2ddcf0155a599d8604bce2e3d5b5d34d6df20
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 137407525319f729eae28d91cfac8cd3aa1b456d
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240281"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767100"
 ---
 # <a name="modify-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Skype for Business Server で SIP トランクの設定を変更する
  
@@ -51,11 +53,11 @@ Skype for Business Server コントロールパネルを使用して SIP トラ�
 |P-Asserted-Identity データの転送を有効にする  <br/> |ForwardPAI  <br/> |P-Asserted-Identity (PAI) ヘッダーを通話とともに転送するかどうかを示します。PAI ヘッダーがあれば、発信者 ID を確認できます。  <br/> |
 |送信ルーティング フェールオーバー タイマーを有効にする  <br/> |EnableFastFailoverTimer  <br/> |発信通話が 10 秒以内にゲートウェイによって応答されない場合に次に使用できるトランクにルーティングするかどうかを示します。他にトランクがない場合は、通話は自動的に破棄されます。ネットワークおよびゲートウェイの応答が遅い環境の場合、通話が不必要に破棄されるようになる可能性があります。  <br/> |
 |関連付けられている PSTN 使用法  <br/> |PSTNUsages  <br/> |トランクに割り当てられた PSTN 使用法のコレクションです。  <br/> |
-|テストする変換後の番号  <br/> |N/A  <br/> |トランクの構成設定の臨時テストを行うために使用できる電話番号です。  <br/> |
+|テストする変換後の番号  <br/> |該当なし  <br/> |トランクの構成設定の臨時テストを行うために使用できる電話番号です。  <br/> |
 |関連付けられている変換ルール  <br/> |OutboundTranslationRulesList  <br/> |発信ルーティングによって処理される通話 (PBX または PSTN の宛先にルーティングされる通話) に適用される、電話番号変換ルールのコレクションです。  <br/> |
 |着信者番号の変換ルール  <br/> |OutboundCallingNumberTranslationRulesList  <br/> |トランクに割り当てられた発信電話番号の変換ルールのコレクションです。  <br/> |
-|テストする電話番号  <br/> |N/A  <br/> |変換ルールの臨時テストを行うために使用できる電話番号です。  <br/> |
-|発信者番号  <br/> |N/A  <br/> |テストする電話番号が発信者の電話番号であることを示します。  <br/> |
+|テストする電話番号  <br/> |該当なし  <br/> |変換ルールの臨時テストを行うために使用できる電話番号です。  <br/> |
+|発信者番号  <br/> |該当なし  <br/> |テストする電話番号が発信者の電話番号であることを示します。  <br/> |
 |着信者番号  <br/> |該当なし  <br/> |テストする電話番号が着信者の電話番号であることを示します。  <br/> |
    
 > [!NOTE]

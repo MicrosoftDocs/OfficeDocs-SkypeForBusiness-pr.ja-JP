@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3422e93e-7bd2-4470-968c-dc38345b18ca
 description: '概要: Skype for Business Server でメディアバイパスが有効になっていないトランクを構成します。'
-ms.openlocfilehash: c60217b6dc127616dfbaf9590c43adec25c20eff
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ccdcc6612d13770eaffc663a95fdfca3c349e4e9
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233665"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768080"
 ---
 # <a name="configure-a-trunk-without-media-bypass-in-skype-for-business-server"></a>Skype for Business Server でメディアをバイパスせずにトランクを構成する
 
@@ -154,7 +156,7 @@ ms.locfileid: "36233665"
 16. トランクの翻訳ルールが正しい順序で配置されていることを確認してください。 リスト内のルールの位置を変更するには、ルール名を強調表示して、上下の矢印をクリックします。
 
     > [!IMPORTANT]
-    > Skype for Business Server は、翻訳ルールリストを上から下に移動し、ダイヤルされた番号に一致する最初のルールを使用します。 トランクを構成し、その結果ダイヤルされる番号が複数の変換ルールと一致する可能性がある場合は、制限の厳しいルールを制限の緩いルールよりも上に並べ替えてください。 たとえば、11桁の番号に一致する翻訳ルールと、+ 1425 で始まる11桁の番号のみを一致する翻訳ルールを含めた場合は、11桁の数字と一致するルールがより制限された順** に並べ替えられていることを確認してください。ルール.
+    > Skype for Business Server は、翻訳ルールリストを上から下に移動し、ダイヤルされた番号に一致する最初のルールを使用します。 トランクを構成し、その結果ダイヤルされる番号が複数の変換ルールと一致する可能性がある場合は、制限の厳しいルールを制限の緩いルールよりも上に並べ替えてください。 たとえば、11桁の番号に一致する翻訳ルールと、+ 1425 で始まる11桁の番号のみを一致する翻訳ルールが含まれている場合は、11桁の数字と一致するルールが、より制限されたルールの*下*に並べ替えられていることを確認してください。
 
 17. トランクの構成が終了したら、[**OK**] をクリックします。
 

@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e8547d7b-f74d-4a73-9a7d-df20d7a87fcd
 description: '概要: Skype for Business Server で正規化ルールを定義、作成、変更する方法について説明します。'
-ms.openlocfilehash: af0f09710d427dc97a919468b5decfa9ef3d93fa
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c206bd20c02053f4e3775f32b1ba61000bb59a63
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240261"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767090"
 ---
 # <a name="create-or-modify-a-normalization-rule-in-skype-for-business"></a>Skype for Business で正規化ルールを作成または変更する
 
@@ -39,13 +41,13 @@ Skype for Business Server で正規化ルールを定義、作成、変更しま
 
 5. [**正規化ルールの構築**] で、次のフィールドに値を入力します。
 
-   - **開始番号**省略パターンと一致させるダイヤル番号の先頭の数字を指定します。 たとえば、type425 のように、ダイヤルした番号を425から始まる番号に一致させることができます。
+   - **先頭の数字**(省略可能) パターンに一致させるダイヤル番号の先頭の数字を指定します。 たとえば、type425 のように、ダイヤルした番号を425から始まる番号に一致させることができます。
 
    - **長さ**一致するパターンの桁数を指定し、パターンをこの長さと正確に一致させるか、またはダイヤルされた電話番号に一致する番号と一致するかどうかを選択します。
 
-   - **削除する数字**省略番号をダイヤルする番号から削除する番号の開始番号を指定します。
+   - [**削除する数字**] (省略可能) パターンの対象となるダイヤル番号から削除する開始番号の数を指定します。
 
-   - **追加する数字**省略ダイヤルした番号に追加する数字を指定します。
+   - **追加する数字**(省略可能) パターンと一致させるダイヤル番号に追加する数字を指定します。
 
      これらのフィールドに入力する値は、[**一致パターン**] および [**変換ルール**] に反映されます。 たとえば、**数字**を空のままにした場合は、type7 **Length**フィールドに移動して、[**完全**] を選択し、**削除する数字**に0を指定すると、**一致するパターン**の正規表現は次のようになります。
 
@@ -93,7 +95,7 @@ Skype for Business Server で正規化ルールを定義、作成、変更しま
 
    - [**変換ルール**] で、変換される E.164 電話番号の形式のパターンを指定します。
 
-     たとえば、"^ (\d) $"{7}と入力する**** と、**翻訳ルール**の "^ (\d) $" と + 1425 $ 1 と入力した場合、ルールは5550100から + 14255550100 に正規化されます。
+     たとえば、"^ (\d) $"{7}と入力すると、**翻訳ルール**の "^ (\d) $" と + 1425 $ 1 と**入力した**場合、ルールは5550100から + 14255550100 に正規化されます。
 
 7. (オプション) 正規化ルールによって電話番号が組織の内線番号になる場合は、[**内線番号**] を選択します。
 

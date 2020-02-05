@@ -6,6 +6,8 @@ author: CarolynRowe
 manager: serdars
 audience: ITPro
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -16,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 次のセクションでは、ハイブリッドシナリオで Skype for Business 機能を提供するために、リソース/ユーザーフォレストモデルに複数のフォレストがある環境を構成する方法について説明します。
-ms.openlocfilehash: 7ef895648c044dc5d1f3f907ad4f75d950a4253a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f018699040fc202cbe827a2b8b05bd1f4371e190
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36160644"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726947"
 ---
 # <a name="deploy-a-resource-forest-topology"></a>リソースフォレストトポロジを展開する
  
@@ -31,7 +33,7 @@ ms.locfileid: "36160644"
   
 ## <a name="topology-requirements"></a>トポロジの要件
 
-複数のユーザーフォレストがサポートされています。 以下の点にご注意ください。 
+複数のユーザーフォレストがサポートされています。 以下の点に注意します。 
     
 - ハイブリッド構成でサポートされている Lync Server および Skype for Business Server のバージョンの[要件](plan-hybrid-connectivity.md#server-version-requirements)については、「 [Plan Hybrid connectivity In Skype for Business Server and Office 365](plan-hybrid-connectivity.md)」を参照してください。
     

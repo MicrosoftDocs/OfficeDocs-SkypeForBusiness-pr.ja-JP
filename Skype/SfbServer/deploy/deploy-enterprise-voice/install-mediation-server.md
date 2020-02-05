@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f0f7dd15-58e1-40fd-aa7e-6db50ceafacd
 description: '概要: Skype for Business Server に仲介サーバー用のファイルをインストールする方法について説明します。'
-ms.openlocfilehash: b73832586ba4a09cc51f67bddcaf30c2f85fcca1
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4dc4c9971b74bf27d0f516ed70484646b666a845
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240298"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767120"
 ---
 # <a name="install-the-files-for-mediation-server-in-skype-for-business-server"></a>Skype for Business Server に仲介サーバー用のファイルをインストールする
  
@@ -60,5 +62,5 @@ ms.locfileid: "36240298"
     
 13. Skype for business Server コントロールパネルを実行しているコンピューターで、仲介サーバーのサービスの状態が緑色のチェックマークとして表示される、[Skype for Business Server] コントロールパネルの [**トポロジ**] ページを確認します。 代わりに赤い X が表示される場合は、仲介サーバーを選びます。 [**操作**] メニューの [**すべてのサービスを開始**] をクリックします。 
     
-複数のコンピューターを仲介サーバープールに追加した場合は、仲介サーバープール内の他のすべてのコンピューターで、この手順の手順を実行します。 他のコンピューターに対して、仲介サーバー用のファイルをインストールする必要がない場合は、「 [Skype For Business Server で trunks を構成](configure-trunks.md)する」の手順に従って、この仲介サーバープールの間のトランク接続の設定を構成します (またはすべての仲介サイト内のサーバー) とそのピア。
+複数のコンピューターを仲介サーバープールに追加した場合は、仲介サーバープール内の他のすべてのコンピューターで、この手順の手順を実行します。 他のコンピューターに対して仲介サーバー用のファイルをインストールする必要がない場合は、「 [Skype For Business Server で trunks を構成](configure-trunks.md)する」の手順に従って、この仲介サーバープール (またはサイト内のすべての仲介サーバー) とピアの間のトランク接続の設定を構成します。
 

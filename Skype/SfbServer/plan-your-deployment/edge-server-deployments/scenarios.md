@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7b9c211b-deb0-479d-b184-973f08b96d07
 description: '概要: これらのシナリオを確認して、Skype for Business Server で Edge Server トポロジを計画するのに役立ちます。'
-ms.openlocfilehash: f978d3ac5da0611808b09c7556302f52478d95ee
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 64d38b5c9b4a32991bf87bd6ba8af87c92db115f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277154"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41754167"
 ---
 # <a name="edge-server-scenarios-in-skype-for-business-server"></a>Skype for Business Server のエッジサーバーのシナリオ
  
@@ -93,11 +93,4 @@ NAT64 (IPv6 から IPv4) と NAT66 (ipv6 から IPv6) を許可する NAT デバ
 このシナリオではエッジ展開で高可用性を実現でき、スケーラビリティとフェールオーバー サポートのメリットが得られます。
   
 ![HLB を持つ拡張統合エッジのエッジ シナリオ](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeHLB.jpg)
-  
-### <a name="port-diagram"></a>ポートの図
-
-また、統合されたエッジプールとハードウェアの負荷分散のための図も用意されています。
-  
-![エッジ サーバー境界ネットワークのポートおよびプロトコル](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeHLB.jpg)
-  
-
+ 

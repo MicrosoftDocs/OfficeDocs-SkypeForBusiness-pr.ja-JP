@@ -5,17 +5,19 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 通話データコネクタを構成する手順を説明します。これにより、skype for Business オンプレミスのテレメトリを Skype for Business Online ツールを使用して表示できるようになります。
-ms.openlocfilehash: 4d472ce49a3059df7286c647b013abe321b9fd15
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: 0354f5a1fd1b4794af29d23e0a0fc1bf49dfebd2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40963045"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726927"
 ---
 # <a name="configure-call-data-connector"></a>通話データコネクタを構成する
 

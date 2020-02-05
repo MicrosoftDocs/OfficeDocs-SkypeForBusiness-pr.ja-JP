@@ -6,17 +6,19 @@ manager: serdars
 ms.reviewer: wasseemh
 ms.audience: ITPro
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Skype for Business Server 2019 のリソースアカウントをセットアップします。
-ms.openlocfilehash: 9b21f77c4b4558e6f08163173f587ef4956ed8d0
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: e16f75063cfbe794ff0257cb9cccdf44065a5448
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37924958"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726777"
 ---
 # <a name="configure-resource-accounts"></a>リソースアカウントを構成する
 
@@ -110,7 +112,7 @@ Skype for Business Server 2019 で電話システムの自動応答または通�
 
 7. 電話システムの自動応答または通話キューを作成します。 次のいずれかをご覧ください。
 
-   - [クラウドの自動応答を設定する](/MicrosoftTeams/create-a-phone-system-auto-attendant)
+   - [クラウドの自動応答をセットアップする](/MicrosoftTeams/create-a-phone-system-auto-attendant)
    - [クラウド通話キューを作成する](/MicrosoftTeams/create-a-phone-system-call-queue)  
 
 8. 以前に選択した電話システム自動応答または通話キューに、リソースアカウントを関連付けます。
@@ -142,7 +144,7 @@ Skype for Business フロントエンドサーバーにログインし、次の 
     このコマンドの詳細については[、「Start-ADSyncSyncCycle](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) 」を参照してください。
 
 3. 電話システムの自動応答または通話キューを作成します。 次のいずれかをご覧ください。
-   - [クラウドの自動応答を設定する](/MicrosoftTeams/create-a-phone-system-auto-attendant)
+   - [クラウドの自動応答をセットアップする](/MicrosoftTeams/create-a-phone-system-auto-attendant)
    - [クラウド通話キューを作成する](/MicrosoftTeams/create-a-phone-system-call-queue)  
 4. 以前に選択した [リソースアカウント] および [電話システム] 自動応答または呼び出しキューを関連付けます。
 
@@ -195,7 +197,7 @@ Exchange UM から電話システムへの移行では、通話キューと自�
 
 [クラウド自動応答とは](/MicrosoftTeams/what-are-phone-system-auto-attendants)
 
-[クラウドの自動応答を設定する](/MicrosoftTeams/create-a-phone-system-auto-attendant)  
+[クラウドの自動応答をセットアップする](/MicrosoftTeams/create-a-phone-system-auto-attendant)  
 
 [クラウド自動応答を計画する](plan-cloud-auto-attendant.md)
 

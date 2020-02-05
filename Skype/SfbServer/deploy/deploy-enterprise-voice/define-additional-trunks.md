@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e68b8377-50a2-452a-bf5c-910929e34236
 description: '概要: Skype for Business Server のトポロジビルダーで、仲介サーバーとゲートウェイピアの間に追加のトランクを定義する方法について説明します。'
-ms.openlocfilehash: eeaddf6b5b150298e7a77b819464b3c0ef653b70
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: afd8a37272d7450115f688bafe3627fb2689903c
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245611"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767720"
 ---
 # <a name="define-additional-trunks-in-topology-builder-in-skype-for-business-server"></a>Skype for Business Server の Topology Builder で追加の trunks を定義する
  

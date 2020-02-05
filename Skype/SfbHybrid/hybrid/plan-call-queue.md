@@ -5,17 +5,19 @@ author: jambirk
 manager: serdars
 ms.reviewer: wasseemh
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Skype for Business Server 2019 でのクラウド自動応答の使用の概要。
-ms.openlocfilehash: bcb1f14ed9dfc3471b146a318a97700c362f115c
-ms.sourcegitcommit: 868db85f0126e8f56d711ea590ad44acce8f96f6
+ms.openlocfilehash: 24a0bba82ef38288f5c96cc7c51ce1bfb88c8f05
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "36160665"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735227"
 ---
 # <a name="plan-cloud-call-queues"></a>クラウド通話キューを計画する
 
@@ -31,7 +33,7 @@ Cloud call queue は、顧客からの通話を受け付け、案内応答メッ
 > [!NOTE]
 > 複数の電話番号を通話キューに割り当てることができますが、それらは Microsoft サービス番号またはハイブリッド番号である必要があります。
 
-## <a name="requirements"></a>要件
+## <a name="requirements"></a>Requirements
 
 次の要件は、サポートされているトポロジで Skype for Business Server 2019 が既に展開されていることを前提としています。  要件は、シナリオによって異なります。
 
@@ -49,7 +51,7 @@ Cloud call queue は、顧客からの通話を受け付け、案内応答メッ
 
 ## <a name="additional-planning-resources"></a>その他の計画に関するリソース
 
-「[小規模企業の例-自動応答の設定](/microsoftteams/tutorial-org-aa)」というタイトルのチュートリアルでは、ユーザーのニーズに関する情報の収集、自動応答とユーザーの構成 (および場合によっては呼び出しキュー) の計画、およびメニュープロンプトの作成のプロセスについて説明します。オンライン管理センターでプランを実装します。 チュートリアルを確認し、演習を使用してプランを作成します。
+「 [Small business の例-自動応答の設定](/microsoftteams/tutorial-org-aa)」というタイトルのチュートリアルでは、ユーザーのニーズに関する情報の収集、自動応答とユーザーの構成 (および場合によっては呼び出しキュー) の計画、メニュープロンプトの作成、オンライン管理センターでのプランの実装を行います。 チュートリアルを確認し、演習を使用してプランを作成します。
 
 お客様のニーズを満たす堅固な構造を持っていて、顧客に効率的に対応するスクリプトを実行している場合は、「[リソースアカウントを構成](configure-onprem-ra.md)する」に進みます。
 
@@ -61,7 +63,7 @@ Cloud call queue は、顧客からの通話を受け付け、案内応答メッ
 
 [クラウド自動応答とは](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants)
 
-[クラウドの自動応答を設定する](/MicrosoftTeams/create-a-phone-system-auto-attendant)
+[クラウドの自動応答をセットアップする](/MicrosoftTeams/create-a-phone-system-auto-attendant)
 
 [Skype for Business Server と Office 365 の間のハイブリッド接続を計画する](plan-hybrid-connectivity.md)
 

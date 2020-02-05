@@ -5,16 +5,18 @@ author: dstrome
 ms.author: dstrome
 manager: serdars
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 localization_priority: Normal
 ms.prod: skype-for-business-itpro
 description: このトピックでは、既存の Skype for Business Server または Exchange Server の展開を最新バージョンまたは Skype for Business Online または Exchange Online に移行する場合に考慮する必要がある事項について説明します。
-ms.openlocfilehash: 864a777c1fcb483df7f3779e9b105c1af551748e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 072720499ac91942d5f1fdbdbe05fffe2de4db05
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237472"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756001"
 ---
 # <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>Skype for Business Server および Exchange Server の移行を計画する
 
@@ -37,7 +39,7 @@ Exchange 2013 または exchange 2016 の UM サービスに UM の役割を展�
 
 ### <a name="pbx-support-in-exchange-2019-and-skype-for-business-server-2019"></a>Exchange 2019 および Skype for Business Server 2019 での PBX のサポート
 
-クラウドボイスメールは、構内交換機 (Pbx) に対してボイスメッセージング機能を提供しません。 Pbx の Exchange Server ユニファイドメッセージングを使用していて、Exchange Server 2019 にアップグレードする場合は、「[中止 Of Session Border Controllers For exchange In exchange」に記載されている3つのオプションのいずれかを採用する必要があります。](https://blogs.technet.microsoft.com/exchange/2018/04/24/new-date-for-discontinuation-of-support-for-session-border-controllers-in-exchange-online-unified-messaging/) [Exchange チームブログ](https://blogs.technet.microsoft.com/exchange/)のオンラインユニファイドメッセージング。
+クラウドボイスメールは、構内交換機 (Pbx) に対してボイスメッセージング機能を提供しません。 Pbx 用に Exchange Server ユニファイドメッセージングを使用していて、Exchange Server 2019 にアップグレードする場合は、「ブログ投稿の新開始日」に記載されている3つのオプションのいずれかを使用して、exchange [Online ユニファイドメッセージングの「中止 support For Session Border Controllers in](https://blogs.technet.microsoft.com/exchange/2018/04/24/new-date-for-discontinuation-of-support-for-session-border-controllers-in-exchange-online-unified-messaging/) Exchange [Team blog](https://blogs.technet.microsoft.com/exchange/)」をご覧ください。
 
 ### <a name="exchange-online-um-support-in-skype-for-business-server-2019"></a>Skype for Business Server 2019 での Exchange Online UM のサポート
 
@@ -66,7 +68,7 @@ Skype for Business Server 2019 では、Exchange Online UM からクラウドボ
 | メールボックスの場所:            | Skype for Business Server 2015 にあるユーザー | Skype for Business Server 2019 にあるユーザー  |
 |--------------------------------|-----------------------------------------|------------------------------------------|
 | Exchange 2013/Exchange 2016    | Exchange UM                             | Exchange UM                              |
-| Exchange 2019                  | サポートされていません                           | クラウドボイスメール                          |
+| Exchange 2019                  | 非サポート                           | クラウドボイスメール                          |
 
 Skype for Business Server 2019 および Exchange 2019 への移行を開始する前に、次の点に注意してください。
 

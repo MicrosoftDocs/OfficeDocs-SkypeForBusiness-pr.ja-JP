@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 description: '概要: Skype for Business Server コントロールパネルを使用して、音声ポリシーを作成または変更し、PSTN 使用状況レコードを構成します。'
-ms.openlocfilehash: 76ce531eab2eb88b9a62c4bc38aae1e899802084
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 6fe67c9c3764196559740e114419dc427cdeadf3
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239930"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41766970"
 ---
 # <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business"></a>Skype for Business で音声ポリシーを作成または変更し、PSTN 使用状況レコードを構成する
 

@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 54289bbe-97e7-44bf-8611-4e740fc5b998
 description: '概要: Skype for Business を Windows Phone にインストールしてテストする方法について説明します。'
-ms.openlocfilehash: 80b7f208153474380e5fae1b1c8a95b3fdb06e39
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 63d766a566f131bc58540a13e2a19aa2add0700b
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234861"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768590"
 ---
 # <a name="install-and-test-skype-for-business-for-windows-phone"></a>Install and test Skype for Business for Windows Phone
  
@@ -47,7 +49,7 @@ Skype for Business for Windows Phone アプリでは、Skype for Business のプ
     
 5. **[次へ**] をタップして、通知と電話帳のアクセス設定を確認します。
     
-   - **プッシュ通知**新しい IM または通話を受信したときに通知を受け取ります。 通常**** は (推奨)
+   - **プッシュ通知**新しい IM または通話を受信したときに通知を受け取ります。 通常**は**(推奨)
     
      > [!IMPORTANT]
      > この設定をオフにした場合は、アプリがアクティブでない限り、Im、通話、または Windows Phone の通知に関するその他の Skype for Business について通知されません。 

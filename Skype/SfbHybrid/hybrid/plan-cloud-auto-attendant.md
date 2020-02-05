@@ -5,17 +5,19 @@ author: jambirk
 manager: serdars
 ms.reviewer: wasseemh
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Skype for Business Server 2019 でのクラウド自動応答の使用の概要
-ms.openlocfilehash: 635d9c6548ba807153876d63ad228f69646e93c8
-ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
+ms.openlocfilehash: d34e298db9cdd8f1bbd0378e37c6d9aae2b02726
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36207034"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724227"
 ---
 # <a name="plan-cloud-auto-attendants"></a>クラウド自動応答を計画する
 
@@ -38,10 +40,10 @@ Exchange ユニファイドメッセージング (Exchange Server 2013 または
 
 以下も参照してください。
 
-- [クラウドの自動応答を設定する](/microsoftteams/create-a-phone-system-auto-attendant)
+- [クラウドの自動応答をセットアップする](/microsoftteams/create-a-phone-system-auto-attendant)
 - [着信呼び出しへの自動応答とルーティング](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
 
-## <a name="requirements"></a>要件
+## <a name="requirements"></a>Requirements
 
 次の要件は、サポートされているトポロジで Skype for Business Server 2019 が既に展開されていることを前提としています。  要件は、シナリオによって異なります。
 
@@ -60,7 +62,7 @@ Exchange ユニファイドメッセージング (Exchange Server 2013 または
 
 ## <a name="migration-and-interoperability"></a>移行と相互運用性
 
-Skype for Business Server 2019 または Exchange Server 2019 の展開を計画している場合は、自動応答を引き続きサポートするように、移行を慎重に計画する必要があります。 以下の点にご注意ください。
+Skype for Business Server 2019 または Exchange Server 2019 の展開を計画している場合は、自動応答を引き続きサポートするように、移行を慎重に計画する必要があります。 以下の点に注意します。
 
 - Exchange Server 2019 が Exchange UM 機能を提供しなくなった
 - Exchange ユニファイドメッセージングは、定年モードになっています
@@ -91,7 +93,7 @@ Microsoft では、次の移行パスをお勧めします。
 
 ## <a name="additional-planning-resources"></a>その他の計画に関するリソース
 
-「[小規模企業の例-自動応答の設定](/microsoftteams/tutorial-org-aa)」というタイトルのチュートリアルでは、ユーザーのニーズに関する情報の収集、自動応答とユーザーの構成 (および場合によっては呼び出しキュー) の計画、およびメニュープロンプトの作成のプロセスについて説明します。Teams 管理センターでプランを実装します。 チュートリアルを確認し、そこにある演習を使用して計画を作成します。
+「 [Small business の例-自動応答の設定](/microsoftteams/tutorial-org-aa)」というタイトルのチュートリアルでは、ユーザーのニーズに関する情報の収集、自動応答とユーザーの構成 (および場合によっては呼び出しキュー) の計画、メニュープロンプトの作成、Teams 管理センターでのプランの実装を行います。 チュートリアルを確認し、そこにある演習を使用して計画を作成します。
 
 お客様のニーズを満たす堅固な構造を持っていて、顧客に効率的に対応するスクリプトを実行している場合は、「[リソースアカウントを構成](configure-onprem-ra.md)する」に進みます。
 
@@ -108,7 +110,7 @@ Microsoft では、次の移行パスをお勧めします。
 
 [クラウド自動応答とは](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants)
 
-[クラウドの自動応答を設定する](/microsoftteams/create-a-phone-system-auto-attendant)
+[クラウドの自動応答をセットアップする](/microsoftteams/create-a-phone-system-auto-attendant)
 
 Exchange UM:[着信呼び出しへの自動応答とルーティング](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
 

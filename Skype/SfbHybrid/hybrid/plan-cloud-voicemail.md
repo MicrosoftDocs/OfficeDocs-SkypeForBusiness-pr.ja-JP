@@ -5,17 +5,19 @@ ms.author: dstrome
 author: dstrome
 manager: serdars
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: この記事では、Microsoft クラウドボイスメールサービスを実装するための利点、計画に関する考慮事項、および要件について説明します。 クラウドボイスメールの構成の詳細については、「Cloud 留守番電話を構成する」を参照してください。
-ms.openlocfilehash: 0071154ab1b9c1211725dd9b6addc2dfd5449e15
-ms.sourcegitcommit: 46fb558814cb6bd7d70729eac590afd51fc6606e
+ms.openlocfilehash: 11b6704a532a3e522792c2234d199e891799c2ac
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/15/2019
-ms.locfileid: "36160661"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765698"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>オンプレミスユーザー用にクラウドボイスメールサービスを計画する
 
@@ -57,7 +59,7 @@ Skype for Business Server 2019 は、メールボックスが以前のバージ�
 3. その後、メールボックスがオンプレミスかオンラインかにかかわらず、ユーザーの Exchange メールボックスにボイスメールがデポジットされます。  
 4. ユーザーは、Skype for Business または Outlook クライアントから、ボイスメールにアクセスできます。
 
-## <a name="requirements"></a>要件
+## <a name="requirements"></a>Requirements
 
 次の要件は、サポートされているトポロジで Skype for Business Server を既に展開していることを前提としています。  要件は、シナリオによって異なります。
 
@@ -81,7 +83,7 @@ Skype for Business Server 2019 は、メールボックスが以前のバージ�
 
 ## <a name="migration-and-interoperability"></a>移行と相互運用性
 
-Skype for Business Server 2019 または Exchange Server 2019 の展開を計画している場合は、ボイスメッセージングのサービスを継続するために、慎重に移行を計画する必要があります。 以下の点にご注意ください。
+Skype for Business Server 2019 または Exchange Server 2019 の展開を計画している場合は、ボイスメッセージングのサービスを継続するために、慎重に移行を計画する必要があります。 以下の点に注意します。
 
 - Exchange Server 2019 が Exchange UM 機能を提供しなくなった
 - Skype for Business Server 2019 が Exchange Online UM と統合されなくなりました
@@ -94,7 +96,7 @@ Skype for Business Server 2019 または Exchange Server 2019 の展開を計画
 | Skype for Business Server 2015 | Exchange Server UM | Exchange Server UM | クラウドボイスメール<sup>1</sup> | クラウドボイスメール <br> Exchange Online UM<sup>2</sup> |
 | Lync Server 2013 <br>  | Exchange Server UM | Exchange Server UM | サポート対象外 | クラウドボイスメール <br> Exchange Online UM<sup>2</sup> |
 
-<sup>1</sup>このオプションはまだ表示されていませんか? 現在は展開されており、組織ではまだ使用できない場合があります。 クラウドボイスメールへの予定された接続をオプトインするための[Exchange ユニファイドメッセージングオンライン移行のサポート](/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support
+<sup>1</sup>このオプションはまだ表示されていませんか? 現在ロールアウトされている最中で、お客様の組織ではまだ利用できない可能性があります。 クラウドボイスメールへの予定された接続をオプトインするための[Exchange ユニファイドメッセージングオンライン移行のサポート](/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support
 )については、「手順6」を参照してください。
 
 <sup>2</sup>非推奨になるまで。 詳細については、「 [Exchange ユニファイドメッセージングオンライン移行のサポート](../../sfbserver2019/plan/exchange-unified-messaging-online-migration-support.md)」を参照してください。 

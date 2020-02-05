@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 ms.collection: M365-voice
 description: Skype for Business Server の Skype Room Systems v1 (旧称 SRS v1、旧称 Lync Room System) 管理 Web ポータルは、組織が Skype Room Systems 会議室を管理するために使用できる web ポータルです。 管理者は、SRS v1 管理 Web ポータルを使用して、オーディオ/ビデオデバイスを監視するなどして、デバイスの正常性を監視することができます。 このポータルでは、管理者はリモートで診断情報を収集して、会議室の正常性を監視することができます。
-ms.openlocfilehash: 4c05b558176b92358206e7cee2355ff82683ed45
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 558baac64bdb1e21ed710cb4dafb063ce75a62de
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41002887"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768520"
 ---
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>Skype for Business Server で SRS v1 管理 Web ポータルを展開する
 

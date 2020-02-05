@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 65025c78-c263-472c-9ff9-e170588f10b5
 description: '概要: Skype for Business Server コントロールパネルまたは Skype for Business Server 管理シェルを使用して、PSTN 使用状況レコードを表示する方法について説明します。'
-ms.openlocfilehash: 96a96898bf728b4f05ba473bc750635e41be19fa
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 1f6cbd5bb013cd57f9304c3b0eb0c64ac7dabcff
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41002727"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41766920"
 ---
 # <a name="view-pstn-usage-records-in-skype-for-business"></a>Skype for Business での PSTN 使用状況レコードの表示
 

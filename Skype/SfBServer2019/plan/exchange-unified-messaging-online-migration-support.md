@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Microsoft は2020年2月に Exchange ユニファイドメッセージング Online (ExchUMO) サービスを廃止します。 この記事では、影響を受ける顧客がビジネス継続性を計画するときに知っておく必要があることについて説明します。
-ms.openlocfilehash: 55382780fe6ef1c67cbecc1f6c997809f9173b8a
-ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
+ms.openlocfilehash: 1518bf9d5c45b4d53ee2934bb996978b82159617
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "41628673"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737127"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange ユニファイド メッセージングの移行サポート
 
-2019年2月8日の[お知らせ](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/)については、2020年2月までに Exchange ユニファイドメッセージングオンライン (ExchUMO) サービスを廃止しています。 この記事では、ビジネス継続性を計画するために、影響を受けるユーザーが知っておく必要があることについて概要を説明します。
+2019年2月8日の[お知らせ](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/)については、2020年2月28日までに Exchange ユニファイドメッセージングオンライン (ExchUMO) サービスを廃止しています。 この記事では、ビジネス継続性を計画するために、影響を受けるユーザーが知っておく必要があることについて概要を説明します。
  
 ExchUMO は、ボイスメール、自動応答、通話キュー、fax 統合サービスのお客様によって展開されます。 Skype for Business Online および Microsoft Teams で数千ものユーザーをサポートしている電話システムサービスへの移行を支援するための Microsoft プラン。
 
@@ -77,7 +77,7 @@ Microsoft は、ExchUMO の機能を利用しているさまざまな顧客の�
     ユーザーの移行に関する詳細とタイムラインについては、管理者通知センターの通知を参照してください。 通知は、移行期間の少なくとも30日前に送信されます。 
 
     > [!Note]
-    > ユーザーの移行タイムラインで通知を受け取り、ビジネスにとって重要な理由から移行を延期したい場合は、Microsoft サポートにお問い合わせください。 2020年2月の退職日を超えて、移行を延期することはできません。 その他の質問がある場合は、アカウントチームまたは Microsoft サポートにお問い合わせください。 Office 365 を使っているユーザーは、Office 365 管理ポータルを使用してサポート案件を送信できます。 
+    > ユーザーの移行タイムラインで通知を受け取り、ビジネスにとって重要な理由から移行を延期したい場合は、Microsoft サポートにお問い合わせください。 2020年2月28日以降、移行を延期することはできません。 その他の質問がある場合は、アカウントチームまたは Microsoft サポートにお問い合わせください。 Office 365 を使っているユーザーは、Office 365 管理ポータルを使用してサポート案件を送信できます。 
 
 6. **計画された移行を選ぶことを検討する**
 

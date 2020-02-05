@@ -7,16 +7,18 @@ audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: fa71a2da-2cc9-4ad1-8ec9-08d1c9c5247a
 ms.collection: M365-voice
 description: 以下のトピックでは、Skype Room System 用に Exchange および Skype アカウントをプロビジョニングする方法について説明します。
-ms.openlocfilehash: 5c713a417c35147fbcd3e49a1f841a01ab18fe4d
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 685909d8a698e6520798d017156514a371c883f1
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774736"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768470"
 ---
 # <a name="provisioning-of-skype-room-system-exchange-and-skype-accounts"></a>Skype Room System Exchange および Skype アカウントのプロビジョニング
  

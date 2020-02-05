@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 02ce922d-9ca8-4513-b09f-9de51f5c5bdc
 description: '概要: skype for business server コントロールパネルを使用して、Skype for Business Server でボイスルーティング構成ファイルをエクスポートまたはインポートする方法について説明します。'
-ms.openlocfilehash: ec5a3d0c7f14d85a7b64eaad1edc73ebe4e24cd2
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: b980aa26f4d67cd1697ec17286e6af7d9e657e15
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239916"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41766880"
 ---
 # <a name="export-or-import-a-voice-route-configuration-file-in-skype-for-business"></a>Skype for Business のボイスルート構成ファイルをエクスポートまたはインポートする
  
@@ -27,7 +29,7 @@ ms.locfileid: "36239916"
   
 音声ルーティング構成を公開せずに保存する場合、この手順を実行して、音声ルーティング構成のスナップショットを保存して取得します。 
   
-ボイスルーティング構成ファイル (vcfg) をインポートするときに、その間にサーバー上の音声ルーティング構成に変更が加えられた場合、Skype for Business Server コントロールパネルの [**ボイスルーティング**] グループのページには、は、音声ルーティングのコミットされていない変更です。 こうした未確定の変更は、調整が必要な 2 つの構成間の相違です。
+ボイスルーティング構成ファイル (vcfg) をインポートする場合は、その間もサーバー上の音声ルーティング構成に変更が加えられたため、Skype for Business Server コントロールパネルの [**ボイスルーティング**] グループのページには、音声ルーティングに対するコミットされていない変更があることが示されます。 こうした未確定の変更は、調整が必要な 2 つの構成間の相違です。
   
 グループ内の任意のページの設定にコミットされていない変更を加えた場合、変更はエクスポートされた音声構成ファイル (vcfg) に保存されます。 これにより、変更を公開する前に、複数のセッション中にボイスルーティング構成の変更を行うことができます。 
   

@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 15354abe-733e-466b-bcd4-a6cfbf58caf8
 description: '概要: Skype for Business Server でのエンタープライズ Voip のセキュリティと構成の前提条件について説明します。'
-ms.openlocfilehash: 70acac97bd2a3554c0613f64bdbf93f64811a0b0
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 314c25429dbf346a5f62705afa4f19a5b518452a
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240325"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767240"
 ---
 # <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-skype-for-business-server"></a>Skype for Business Server でのエンタープライズ Voip のセキュリティと構成の前提条件
  
@@ -59,7 +61,7 @@ ms.locfileid: "36240325"
 
 エンタープライズ Voip のソフトウェアと環境の前提条件を確認したら、次のいずれかを実行できます。
   
-- 「 [Skype For Business Server のトポロジビルダーに仲介サーバーを展開](deploy-a-mediation-server.md)する」の説明に従って、仲介サーバーをインストールします。ただし、仲介サーバーがフロントエンドの一部としてインストールされているため、スタンドアロンの仲介サーバーまたはプールを展開する場合に限ります。併置されている場合は、pool または Standard Edition サーバーの展開プロセス。
+- 「 [Skype For Business Server のトポロジビルダーに仲介サーバーを展開](deploy-a-mediation-server.md)する」の説明に従って、仲介サーバーをインストールします。ただし、仲介された場合は、仲介サーバーがフロントエンドプールまたは Standard Edition サーバー展開プロセスの一環としてインストールされているためです。
     
 - または、「 [Skype For Business Server で trunks を構成](configure-trunks.md)する」で説明されているように、エンタープライズ voip ユーザーの通話をルーティングするための設定の構成を開始します。
     

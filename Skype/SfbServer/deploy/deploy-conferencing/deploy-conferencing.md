@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 26dff7d8-242a-4576-9870-d6d461758a37
 description: '概要: Skype for Business Server で会議を展開する方法については、このトピックを参照してください。'
-ms.openlocfilehash: 3b00d20ea930d96f98502e3b75a0ce044301b142
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 34405084833bbdc5e65a6cc82ebc310718629296
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234871"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768550"
 ---
 # <a name="deploy-conferencing-in-skype-for-business-server"></a>Skype for Business Server で会議を展開する
 
@@ -49,7 +51,7 @@ Skype for Business Server を展開すると、IM 会議機能が自動的に展
 |**フェーズ**|**手順**|**役割とグループ メンバーシップ**|**ドキュメント**|
 |:-----|:-----|:-----|:-----|
 |**必要なハードウェアとソフトウェアのインストール** <br/> |会議は、フロントエンドプールと Standard Edition サーバーのフロントエンドサーバー上で実行されます。 フロント エンド サーバーのサーバー要件と環境要件を参照してください。  <br/> Web 会議を有効にしている場合は、PowerPoint プレゼンテーションの共有とレンダリングを処理するために使用される Office Web Apps サーバーと Skype for Business Server が通信できることを確認する必要があります。  <br/> Web 会議に関して、ファイル ストアとして使用するファイル共有も指定する必要があります。  <br/> Skype for Business クライアントの外部ユーザーが、会議に参加できるようにする必要がありますか。参加を許可する場合は、エッジ サーバーを展開する必要があります。  <br/> |ローカル Administrators グループのメンバーであるドメイン ユーザー  <br/> | [Skype for Business Server 2019 のサーバー要件](../../../SfBServer2019/plan/system-requirements.md) <br> [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) <br/> [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) <br/> [Skype for Business Server での会議のハードウェアおよびソフトウェア要件](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md) <br/> [Skype for Business Server の Office Web Apps サーバーとの統合を構成する](office-web-app-server.md) <br/> [Skype for Business Server でファイル共有を作成する](../../deploy/install/create-a-file-share.md) <br/> [Plan for Edge Server deployments in Skype for Business Server 2015](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) <br/> [Skype for Business Server 2015 でのエッジ サーバーの展開](../../deploy/deploy-edge-server/deploy-edge-server.md) <br/> |
-|**会議をサポートするために適切な内部トポロジの作成** <br/> |トポロジに会議を追加するには、トポロジビルダーを実行してから、トポロジを公開する必要があります。  <br/> |トポロジを定義するには、ローカル Users グループのメンバーであるアカウント  <br/> トポロジを公開するには、ドメイン管理者グループと RTCUniversalServerAdmins グループのメンバーであり、Skype for Business Server ファイルストアで使用されるファイル共有に対してフルコントロールのアクセス許可 (読み取り/書き込み/変更) を持つアカウント (トポロジビルダーは必要な Dacl を構成できます)  <br/> |[Skype for Business Server で新しいトポロジを作成して公開する](../../deploy/install/create-and-publish-new-topology.md) <br/> |
+|**会議をサポートするために適切な内部トポロジの作成** <br/> |トポロジに会議を追加するには、トポロジビルダーを実行してから、トポロジを公開する必要があります。  <br/> |トポロジを定義するには、ローカル Users グループのメンバーであるアカウント  <br/> トポロジを公開するには、ドメイン管理者グループと RTCUniversalServerAdmins グループのメンバーであり、Skype for Business Server ファイルストアで使用するフルコントロールのアクセス許可 (読み取り/書き込み/変更) を持つアカウント (トポロジビルダーが必要な Dacl を構成できるようにします) を公開します。  <br/> |[Skype for Business Server で新しいトポロジを作成して公開する](../../deploy/install/create-and-publish-new-topology.md) <br/> |
 |**会議ポリシーと構成設定の構成** <br/> |Skype for Business Server コントロールパネルまたは Skype for Business Server 管理シェルを使って、会議のポリシーと構成設定を構成します。  <br/> |RTCUniversalServerAdmins group (Windows PowerShell のみ) またはユーザーを CSAdministrator ロールに割り当てる  <br/> |[Skype for Business Server の会議ポリシーを管理する](../../manage/conferencing/conferencing-policies.md) <br/> [Skype for Business Server で会議の構成設定を管理する](../../manage/conferencing/meeting-configuration-settings.md) <br/> [New-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csconferencingpolicy?view=skype-ps) <br/> [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps) <br/> [New-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csconferencingconfiguration?view=skype-ps) <br/> [Set-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csconferencingconfiguration?view=skype-ps) <br/> [New-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps) <br/> [Set-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps) <br/> |
 
 ## <a name="deployment-flowchart-and-checklist-for-dial-in-conferencing"></a>ダイヤルイン会議の展開に関するフローチャートとチェックリスト
