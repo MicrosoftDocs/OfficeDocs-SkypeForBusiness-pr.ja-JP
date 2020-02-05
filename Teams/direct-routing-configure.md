@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Phone システムのダイレクトルーティングを構成する方法について説明します。
-ms.openlocfilehash: 40439fd31db458f8cb306c0e3dbd456aa59a7a21
-ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
+ms.openlocfilehash: d4d804d48a97757d0a810cb16b22fec9f09df300
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111731"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769820"
 ---
 # <a name="configure-direct-routing"></a>ダイレクト ルーティングを構成する
 
@@ -78,7 +78,7 @@ Function       Set-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt
 SBC をテナントにペアリングするには、PowerShell セッションで次のように入力し、enter キーを押します。 
 
 ```PowerShell
-New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxConcurrentSessions <Max Concurrent Sessions the SBC can handle> -Enabled $true 
+New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignalingPort <SBC SIP Port> -MaxConcurrentSessions <Max Concurrent Sessions the SBC can handle> -Enabled $true 
 ```
   > [!NOTE]
   > 1. Sbc ドキュメントに記載されている情報を使って、SBC で最大限の通話制限を設定することを強くお勧めします。 SBC がキャパシティレベルにある場合、制限によって通知がトリガーされます。
@@ -89,13 +89,13 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxC
   `Can not use the “sbc.contoso.com” domain as it was not configured for this tenant`.
 
 ```PowerShell
-New-CsOnlinePSTNGateway -Identity sbc.contoso.com -Enabled $true -SipSignallingPort 5067 -MaxConcurrentSessions 100 
+New-CsOnlinePSTNGateway -Identity sbc.contoso.com -Enabled $true -SipSignalingPort 5067 -MaxConcurrentSessions 100 
 ```
 返し
 <pre>
 Identity              : sbc.contoso.com 
 Fqdn                  : sbc.contoso.com 
-SipSignallingPort     : 5067 
+SipSignalingPort     : 5067 
 FailoverTimeSeconds   : 10 
 ForwardCallHistory    : False 
 ForwardPai            : False 
@@ -111,7 +111,7 @@ Enabled               : True
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |はい|FQDN|SBC の FQDN 名 |なし|NoneFQDN 名、63文字を制限する|[コンピューター、ドメイン、サイト、および ou の Active Directory の名前付け規則](https://support.microsoft.com/help/909264)での文字列、許可されている文字および禁止されている文字の一覧|
 |いいえ|MediaBypass |は、SBC でサポートされているメディアバイパスのパラメーターであり、管理者はこのパラメーターを使いたいと考えています。|なし|True<br/>False|Boolean|
-|はい|SipSignallingPort |トランスポート層セキュリティ (TLS) プロトコルを使用した、直接ルーティングサービスとの通信に使用するリスニングポート。|なし|任意のポート|0 ~ 65535 |
+|はい|SipSignalingPort |トランスポート層セキュリティ (TLS) プロトコルを使用した、直接ルーティングサービスとの通信に使用するリスニングポート。|なし|任意のポート|0 ~ 65535 |
 |いいえ|FailoverTimeSeconds |10 (既定値) に設定すると、ゲートウェイによって応答されない送信通話は、次の利用可能なトランクにルーティングされます。追加の trunks がない場合、通話は自動的に切断されます。 低速のネットワークとゲートウェイ応答を使用している組織では、通話が不必要に削除される可能性があります。 既定値は10です。|常用|数値|Int|
 |いいえ|ForwardCallHistory |通話履歴の情報をトランク経由で転送するかどうかを指定します。 有効になっている場合、Office 365 PSTN プロキシは、2つのヘッダー (履歴-情報と参照) を送信します。 既定値は**False** ($False) です。 |False|True<br/>False|Boolean|
 |いいえ|ForwardPAI|P-Asserted-Identity (PAI) ヘッダーを通話とともに転送するかどうかを示します。 PAI ヘッダーがあれば、発信者 ID を確認できます。 有効になっている場合、プライバシー: ID ヘッダーも送信されます。 既定値は**False** ($False) です。|False|True<br/>False|Boolean|
@@ -139,7 +139,7 @@ Get-CsOnlinePSTNGateway -Identity sbc.contoso.com
 <pre>
 Identity              : sbc.contoso.com  
 Fqdn                  : sbc.contoso.com 
-SipSignallingPort     : 5067 
+SipSignalingPort     : 5067 
 CodecPriority         : SILKWB,SILKNB,PCMU,PCMA 
 ExcludedCodecs        :  
 FailoverTimeSeconds   : 10 
@@ -559,7 +559,7 @@ SBCs で番号操作ルールを割り当て、構成、および一覧表示す
 このシナリオの例では、 ```New-CsOnlinePSTNGateway```コマンドレットを実行して、次の SBC 構成を作成します。
 
 ```PowerShell
-New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignallingPort 5061 –InboundTeamsNumberTranslationRulesList ‘AddPlus1’, ‘AddE164SeattleAreaCode’ -InboundPSTNNumberTranslationRulesList ‘AddPlus1’ -OnboundPSTNNumberTranslationRulesList ‘AddSeattleAreaCode’,  -OutboundTeamsNumberTranslationRulesList ‘StripPlus1’
+New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignalingPort 5061 –InboundTeamsNumberTranslationRulesList ‘AddPlus1’, ‘AddE164SeattleAreaCode’ -InboundPSTNNumberTranslationRulesList ‘AddPlus1’ -OnboundPSTNNumberTranslationRulesList ‘AddSeattleAreaCode’,  -OutboundTeamsNumberTranslationRulesList ‘StripPlus1’
 ```
 
 SBC に割り当てられている翻訳ルールは、次の表のようにまとめられています。

@@ -17,16 +17,17 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-- ms.lync.lac.PortOrderDetailPanelWhois
+- CSH
 ms.custom:
 - Calling Plans
+- ms.lync.lac.PortOrderDetailPanelWhois
 description: 'お使いの携帯電話会社が Skype for Business に表示されていない場合の対処方法について説明します。 '
-ms.openlocfilehash: 60bca0ead152bbde7f70da6f9f75080b07272b3d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a8349e1bedbfbb43310debbd0fdec8414b43fbdd
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692302"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769290"
 ---
 # <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>携帯電話の通信事業者がソースキャリアとして表示されない場合はどうすればよいですか?
 

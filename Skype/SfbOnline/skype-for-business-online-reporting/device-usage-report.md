@@ -15,16 +15,17 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 f1.keywords:
-- O365E_ReportsS4BClients
+- CSH
 ms.custom:
 - Reporting
+- O365E_ReportsS4BClients
 description: '[] 新しい Office 365 の [ レポート] ダッシュボードには、組織内の Office 365 製品全体にわたるアクティビティの概要が表示されます。 このダッシュボードでは、個々の製品レベルのレポートまで掘り下げ、各製品内のアクティビティについてより細かい洞察を得ることができます。 たとえば、Skype for Business デバイスの使用状況レポートを使って、Skype for business アプリがインストールされていて、IM および会議で使用している Windows ベースのオペレーティングシステムやモバイルデバイスなどのデバイスを確認できます。 詳細については、管理センターでアクティビティレポートを確認してください。'
-ms.openlocfilehash: 12f16b050a105f6795437bbfd7f5008b177a6714
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 52503a90b2474460347effb676247fc3ffed9919
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706062"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769400"
 ---
 # <a name="device-usage-report"></a>デバイスの使用状況のレポート
 

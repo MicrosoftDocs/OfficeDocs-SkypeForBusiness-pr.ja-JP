@@ -7,15 +7,17 @@ audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 80da9d71-3dcd-4ca4-8bd1-6d8196823206
 description: このトピックでは、単一フォレストのオンプレミス環境で Skype Room System を展開する方法について説明します。
-ms.openlocfilehash: 091500e1abc1a5e65bb060793aca0d5babe9fb35
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 47cbd43709dda35d728bf8324362bec075dc74b1
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41002947"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768700"
 ---
 # <a name="skype-room-system-single-forest-on-premises-deployments"></a>単一フォレストのオンプレミス環境での Skype Room System の展開
  

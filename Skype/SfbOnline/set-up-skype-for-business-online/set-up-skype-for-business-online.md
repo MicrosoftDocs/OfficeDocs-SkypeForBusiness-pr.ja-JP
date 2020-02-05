@@ -15,20 +15,21 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 f1.keywords:
-- O365E_SkypeforBusinessON
-- O365M_SkypeforBusinessON
-- O365P_SkypeforBusinessON
+- CSH
 ms.custom:
 - Setup
 - Alchemy
 - LIL_Placement
+- O365E_SkypeforBusinessON
+- O365M_SkypeforBusinessON
+- O365P_SkypeforBusinessON
 description: 'Skype for Business をインストールするために、ドメイン、ユーザー、IM、プレゼンスを組織用にセットアップする方法について説明します。 「電話会議、電話システム、通話プラン、Skype 会議ブロードキャストを設定する」もご覧ください。 '
-ms.openlocfilehash: d30a141b80ade00ef03bafdfab388df56e4b1b7d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: dda75716014c81b2c1fcf333bfd7e9e05ea606e0
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692872"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769600"
 ---
 # <a name="set-up-skype-for-business-online"></a>Skype for Business Online をセットアップする
 

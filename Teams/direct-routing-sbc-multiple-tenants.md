@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 1つのセッション境界コントローラー (SBC) を複数のテナントに対応するように構成する方法について説明します。
-ms.openlocfilehash: 5009f600af0d9632ed94b544e75f791d9ecead85
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: c58a6f264910e0d916d5d338598b58e132f2c413
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572137"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769830"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>複数のテナントにセッション ボーダー コントローラーを構成する
 
@@ -57,7 +57,7 @@ SBC ホスティングシナリオでの SBCs の展開と構成の詳細な手�
 
 - **Audiocodes:** [ダイレクトルーティング構成のメモ](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)「Audiocodes の sbc から Microsoft Teams へのダイレクトルーティングホスティングモデル構成のメモ」で説明したように、sbc ホスティングシナリオの構成を確認します。 
 - **Oracle:** [直接ルーティング構成のメモ](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html)「Microsoft」セクションでは、SBC ホスティングシナリオの構成について説明します。 
-- **リボンの通信:** リボンについては、「リボンの主要なシリーズの[概要」](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)および「このページのリボンを構成する」を参照してください。[ベストプラクティス-Microsoft Teams のダイレクトルーティング (sbc) 向けの通信事業を構成するEdge](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
+- **リボンの通信:** リボンについては、「リボンの主要な一連の製品を構成する方法」および「このページのリボンを構成する[」](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)を参照してください。[ベストプラクティス-Microsoft Teams のダイレクトルーティング Sbc エッジの配送業者の構成](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
 - **TE システム (anynode):** 複数のテナントに対して、任意のノードの SBC を構成する方法のドキュメントと例については、[ [TE システムのコミュニティ] ページ](https://community.te-systems.de/)で登録してください。
 
 > [!NOTE]
@@ -83,7 +83,7 @@ SBC ホスティングシナリオでの SBCs の展開と構成の詳細な手�
 
 ![ドメインと連絡先ヘッダーの要件を示す図](media/direct-routing-1-sbc-requirements.png)
 
-SBC は、接続を認証するために証明書を必要とします。 SBC ホスティングシナリオでは、通信事業者は、 * \*base_domain \*(customers.adatum.biz など)* で証明書を要求する必要があります。 この証明書を使って、1つの SBC から提供されている複数のテナントへの接続を認証することができます。
+SBC は、接続を認証するために証明書を必要とします。 SBC ホスティングシナリオでは、通信事業者は、 * \*base_domain (たとえば、 \*customers.adatum.biz)* で証明書を要求する必要があります。 この証明書を使って、1つの SBC から提供されている複数のテナントへの接続を認証することができます。
 
 
 次の表は、1つの構成の例です。
@@ -217,7 +217,7 @@ Microsoft は、直接ルーティングの最初のリリースで、新しい-
 このフィードバックに基づいて、Microsoft は、お客様のテナントのために trunks をプロビジョニングするための新しいロジックを導入しています。
 
 2つの新しいエンティティが導入されました。
--   CSOnlinePSTNGateway を使って、キャリアテナントに登録されているキャリアトランク。たとえば、CSOnlinePSTNGateway 5068-customers.adatum.biz-SIPSignallingport-ForwardPAI $true。
+-   CSOnlinePSTNGateway を使って、キャリアテナントに登録されているキャリアトランク。たとえば、CSOnlinePSTNGateway 5068-customers.adatum.biz-SIPSignalingport-ForwardPAI $true。
 
 -   登録を必要としない派生トランク。 これは、単に、キャリアトランクから追加された目的のホスト名です。 これは、すべての構成パラメーターをキャリアトランクから導出します。 派生した樹幹は、PowerShell で作成する必要はありません。また、carrier トランクとの関連付けは FQDN 名に基づいています (以下の詳細を参照してください)。
 

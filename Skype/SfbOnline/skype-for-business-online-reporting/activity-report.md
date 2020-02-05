@@ -15,16 +15,17 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 f1.keywords:
-- O365E_ReportsS4BActivity
+- CSH
 ms.custom:
 - Reporting
+- O365E_ReportsS4BActivity
 description: 'Skype for Business アクティビティレポートを取得する方法、内容を確認する方法、データを解釈する方法について説明します。 '
-ms.openlocfilehash: 1da7ea7b826d5a8f86691cda8b41b49298114d50
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 577ed8ea84326510ad1c2943dcbf0b280a2bd9ae
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692452"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769420"
 ---
 # <a name="activity-report"></a>アクティビティ レポート
 

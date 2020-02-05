@@ -5,17 +5,19 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b67df85-181d-45ca-ba48-bb74a439f242
 description: '概要: このトピックでは、Skype for Business Server の展開にアーカイブデータベースを追加する方法について説明します。'
-ms.openlocfilehash: b7d429206e003042922b9b9cae6de420fdf517bb
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 26cdd1befb695fbaf0656611ed65c7afa778af6c
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234376"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769050"
 ---
 # <a name="add-archiving-databases-to-an-existing-deployment-in-skype-for-business-server"></a>Skype for Business Server の既存の展開にアーカイブデータベースを追加する
  
@@ -70,7 +72,7 @@ ms.locfileid: "36234376"
     
      c. 指定した SQL Server インスタンスがミラーリング関係にある場合は、[**この sql インスタンスがミラーリング**関係] チェックボックスをオンにし、[**ミラーポート番号**] でポート番号を指定します。
     
-   - SQL Server のミラーリングを有効にし、SQL Server ミラーリング監視 (プライマリ SQL Server とミラーインスタンスの正常性を検出できる別の SQL Server インスタンス) を含める場合は、[ **Sql server ミラーリング監視を使用して自動で有効にする] を選択します。[フェールオーバー** ] チェックボックスをオンにして、次のいずれかの操作を行います。
+   - Sql server のミラーリングを有効にし、SQL Server ミラーリング監視 (プライマリ SQL Server とミラーインスタンスの正常性を検出できる別の SQL Server インスタンス) を含める場合は、[ **Sql server ミラーリング監視を使用して自動フェールオーバーを有効**にする] チェックボックスをオンにして、次のいずれかの操作を行います。
     
      a. [ **Sql SERVER fqdn**] で、新しい SQL server ミラーリング監視を作成するサーバーの fqdn を指定します。
     
@@ -85,7 +87,7 @@ ms.locfileid: "36234376"
 1. Skype for Business Server を実行しているコンピューター、または Skype for Business Server 管理ツールがインストールされているコンピューターで、ローカルユーザーグループのメンバーであるアカウント (または同等のユーザー権限を持つアカウント) を使ってログオンします。
     
     > [!NOTE]
-    > トポロジを定義するには、ローカルユーザーグループのメンバーであるアカウントを使用します。ただし、トポロジにサーバーを追加するために必要なトポロジを公開するには、 **Domain Admins**グループと RTCUniversalServer のメンバーであるアカウントを使用する必要があります。 **管理者**グループ、および Skype For Business Server ファイルストアで使用しているファイル共有に対するフルコントロールのアクセス許可 (読み取り、書き込み、変更) が含まれている (トポロジビルダーが必要な随意アクセス制御リスト (dacl) を構成するか、または同等の権利を持つアカウント。
+    > トポロジを定義するには、ローカルユーザーグループのメンバーであるアカウントを使用しますが、トポロジを公開するには、サーバーをトポロジに追加するために必要なトポロジを指定します。使用している**ドメイン管理者**グループと**RTCUniversalServerAdmins**グループのメンバーで、Skype for business server ファイルストアで使用しているファイル共有に対してフルコントロールのアクセス許可 (読み取り、書き込み、変更) を持ち、そのアカウントを使用する必要があります (そのため、トポロジビルダーは必要な随意アクセス制御リスト (dacl) を構成できます。または、同等の権利を持つアカウント。
   
 2. トポロジービルダーを使用して、前のセクションで作成したトポロジを開きます。
     

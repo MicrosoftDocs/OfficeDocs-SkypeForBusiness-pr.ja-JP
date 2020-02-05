@@ -16,16 +16,17 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-- ms.lync.lac.BroadcastMeetingsPreview
+- CSH
 ms.custom:
 - SMB
+- ms.lync.lac.BroadcastMeetingsPreview
 description: Skype for Business 顧客プレビュープログラムを使用すると、新製品や機能にいち早くアクセスできます。 この機能により、組織は、現在の環境でのヒントの表示、お客様の環境での新機能のテスト、お客様の全般的な公開に向けてフィードバックを提供することができます。 詳細については、「Skype for Business preview」を参照してください。
-ms.openlocfilehash: 16cfbfd05c5d1e54ba9613e088c99f7eece4f67a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7f3550db7259e1606e4ac4e5e4b766c73f61566a
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692562"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769440"
 ---
 # <a name="skype-meeting-broadcast-preview-settings"></a>Skype 会議ブロードキャストのプレビュー設定
 

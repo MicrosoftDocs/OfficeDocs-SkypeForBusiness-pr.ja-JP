@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 50fa535c-7347-4e33-80a3-296748ef6666
 description: '概要: Skype for Business Server のアーカイブを展開する方法については、このトピックを参照してください。'
-ms.openlocfilehash: 8611f83b6e3504d860cf37a7ad2c24c20b446671
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c4f0e28c0b48cc93f1c03296f6d00555d1a7d327
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234517"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769120"
 ---
 # <a name="deploy-archiving-for-skype-for-business-server"></a>Skype for Business Server のアーカイブの展開
  
@@ -41,8 +43,8 @@ ms.locfileid: "36234517"
 |**段階**|**手順**|**役割とグループ メンバーシップ**|**ドキュメント**|
 |:-----|:-----|:-----|:-----|
 |**必要なハードウェアとソフトウェアのインストール** <br/> |Microsoft Exchange の統合 (一部またはすべてのユーザーのアーカイブストレージで Exchange を使用) を使用するには、既存の Exchange の展開が必要です。  <br/> 一部またはすべてのユーザーのストレージをアーカイブするために別のアーカイブ データベースを使用するには (SQL Server データベースを使用する場合)、アーカイブ データを格納するサーバーに SQL Server が必要です。  <br/> アーカイブは、エンタープライズ プールのフロントエンド サーバーと Standard Edition サーバー上で実行されます。これらのサーバーのインストールに必要なもの以外には、追加のハードウェア要件やソフトウェア要件はありません。  <br/> |ローカルの Administrators グループのメンバーであるドメイン ユーザー。  <br/> |[Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) <br/> [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) <br/>  [Skype for Business と Exchange の統合の計画](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md) <br/>[Skype for Business Server 2019 のシステム要件](../../../SfBServer2019/plan/system-requirements.md) |
-|**アーカイブをサポートする適切な内部トポロジを作成します (展開のすべてのユーザーに対して Microsoft Exchange 統合を使用していない場合のみ)。** <br/> |トポロジビルダーを実行して、Skype for Business Server のアーカイブデータベース (SQL Server データベース) をトポロジに追加し、次にトポロジを公開します。  <br/> |アーカイブ データベースを組み込むためのトポロジを定義する場合は、ローカル ユーザー グループのメンバーであるアカウント。  <br/> トポロジを公開するには、ドメイン管理者グループと RTCUniversalServerAdmins グループのメンバーであり、Skype for Business Server ファイルストアで使用されるファイル共有に対してフルコントロールのアクセス許可 (読み取り/書き込み/変更) を持つアカウント (トポロジビルダーは、必要な Dacl を構成できます。  <br/> |[Skype for Business Server の既存の展開にアーカイブデータベースを追加する](add-archiving-databases.md) <br/> |
-|**サーバー間認証を構成する (Microsoft Exchange 統合を使用している場合のみ)** <br/> |Skype for Business Server と Exchange の間の認証を有効にするようにサーバーを構成します。 アーカイブを有効にする前に、 **CsExchangeStorageConnectivity testuser_sipUri の収集**機能を実行して、Exchange アーカイブストレージの接続を検証することをお勧めします。 <br/> |サーバーで証明書を管理するための適切なアクセス許可のあるアカウント。  <br/> |サーバー間認証の管理  <br/> |
+|**アーカイブをサポートする適切な内部トポロジを作成します (展開のすべてのユーザーに対して Microsoft Exchange 統合を使用していない場合のみ)。** <br/> |トポロジビルダーを実行して、Skype for Business Server のアーカイブデータベース (SQL Server データベース) をトポロジに追加し、次にトポロジを公開します。  <br/> |アーカイブ データベースを組み込むためのトポロジを定義する場合は、ローカル ユーザー グループのメンバーであるアカウント。  <br/> トポロジを公開するには、ドメイン管理者グループと RTCUniversalServerAdmins グループのメンバーであり、Skype for Business Server ファイルストアで使用するフルコントロールのアクセス許可 (読み取り/書き込み/変更) を持つアカウント (トポロジビルダーが必要な Dacl を構成できるようにします) を公開します。  <br/> |[Skype for Business Server の既存の展開にアーカイブデータベースを追加する](add-archiving-databases.md) <br/> |
+|**サーバー間認証を構成する (Microsoft Exchange 統合を使用している場合のみ)** <br/> |Skype for Business Server と Exchange の間の認証を有効にするようにサーバーを構成します。 アーカイブを有効にする前に、 **CsExchangeStorageConnectivity Testuser_sipUri フォルダー収集**を実行して、Exchange アーカイブストレージの接続を検証することをお勧めします。 <br/> |サーバーで証明書を管理するための適切なアクセス許可のあるアカウント。  <br/> |サーバー間認証の管理  <br/> |
 |**アーカイブのオプションとポリシーの構成** <br/> |Microsoft Exchange 統合を使用するかどうか、グローバルポリシー、サイトとユーザーのポリシー (すべてのデータストレージに対して Microsoft Exchange の統合を使用していない場合)、および重要なモードやデータなどの特定のアーカイブオプションを含むアーカイブを構成します。エクスポートと削除。  <br/> Microsoft Exchange 統合を使用している場合は、必要に応じて、Exchange のインプレースホールドポリシーを構成します。  <br/> |RTCUniversalServerAdmins グループ (Windows PowerShell のみ)。または、CSArchivingAdministrator の役割または CSAdministrator の役割にユーザーを割り当てます。  <br/> |[Skype for Business Server のアーカイブオプションを構成する](configure-archiving-options.md) <br/> Exchange 製品ドキュメント (Microsoft Exchange 統合を使用している場合)。  <br/> |
    
 

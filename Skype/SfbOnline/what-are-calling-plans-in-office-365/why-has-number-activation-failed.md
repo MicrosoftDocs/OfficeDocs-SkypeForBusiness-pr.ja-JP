@@ -17,16 +17,17 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-- ms.lync.lac.NumberActivationStateFailed
+- CSH
 ms.custom:
 - Calling Plans
+- ms.lync.lac.NumberActivationStateFailed
 description: 住所検証は、Office 365 の通話プランのセットアップで重要な部分です。 これにより、組織のユーザーに対して、緊急応答サービスで使用できる緊急通話の住所が提供されます。
-ms.openlocfilehash: ebfe408183de656f271d65ad7bebb6e413ab39c8
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: aa84186013deab98143113197dc080406dcec798
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692282"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769150"
 ---
 # <a name="why-has-number-activation-failed"></a>電話番号の有効化に失敗するのはなぜですか?
 住所検証は、Office 365 の通話プランのセットアップで重要な部分です。 何らかの理由で、住所の確認のために電話番号が有効になっていない場合は、サービスリクエストを作成する必要があります。 これをどのように行うかは、所属する組織のサイズに基づきます。
