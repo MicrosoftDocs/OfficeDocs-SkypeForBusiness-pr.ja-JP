@@ -8,20 +8,22 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.LegacyMergeAddExpandedEdgePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 324349df-ff11-40b5-93cf-4504e18b8985
 description: Skype for Business Server は、従来の Office Communications Server 2007 R2 拡張エッジサーバー構成の統合をサポートしていません。 拡張されたエッジ サーバーは、エッジ サーバー情報をマージする前に、まず統合エッジ サーバー構成に変換する必要があります。
-ms.openlocfilehash: a5e67db3b1836aa9d5386535d2db5d47e651b978
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7fda3df67989434c1cd1d647fecf3ece1a739511
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41697182"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819789"
 ---
-# <a name="legacy-merge-add-expanded-edge"></a><span data-ttu-id="7a773-104">従来版のマージ: 拡張エッジの追加</span><span class="sxs-lookup"><span data-stu-id="7a773-104">Legacy Merge Add Expanded Edge</span></span>
+# <a name="legacy-merge-add-expanded-edge"></a><span data-ttu-id="6a2d3-104">従来版のマージ: 拡張エッジの追加</span><span class="sxs-lookup"><span data-stu-id="6a2d3-104">Legacy Merge Add Expanded Edge</span></span>
  
-<span data-ttu-id="7a773-105">Skype for Business Server は、従来の Office Communications Server 2007 R2 拡張エッジサーバー構成の統合をサポートしていません。</span><span class="sxs-lookup"><span data-stu-id="7a773-105">Skype for Business Server does not support merging a legacy Office Communications Server 2007 R2 expanded Edge Server configuration.</span></span> <span data-ttu-id="7a773-106">拡張されたエッジ サーバーは、エッジ サーバー情報をマージする前に、まず統合エッジ サーバー構成に変換する必要があります。</span><span class="sxs-lookup"><span data-stu-id="7a773-106">The expanded Edge Server must first be converted to a consolidated Edge Server configuration prior to merging the Edge Server information.</span></span> 
+<span data-ttu-id="6a2d3-105">Skype for Business Server は、従来の Office Communications Server 2007 R2 拡張エッジサーバー構成の統合をサポートしていません。</span><span class="sxs-lookup"><span data-stu-id="6a2d3-105">Skype for Business Server does not support merging a legacy Office Communications Server 2007 R2 expanded Edge Server configuration.</span></span> <span data-ttu-id="6a2d3-106">拡張されたエッジ サーバーは、エッジ サーバー情報をマージする前に、まず統合エッジ サーバー構成に変換する必要があります。</span><span class="sxs-lookup"><span data-stu-id="6a2d3-106">The expanded Edge Server must first be converted to a consolidated Edge Server configuration prior to merging the Edge Server information.</span></span> 
   
 

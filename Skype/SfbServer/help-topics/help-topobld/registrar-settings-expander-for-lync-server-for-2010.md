@@ -8,35 +8,37 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.RegistrarSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 17dcd75c-bd9a-407e-af9b-c61cb1201c07
 description: 回復性の設定を編集し、次のプロパティを構成します。
-ms.openlocfilehash: 31a8504aecbc14ae2c81ad27a3aaeedbe9e40b66
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: adc3d3f0be42d542583cf269a7acf83d98df8dd7
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684420"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819339"
 ---
-# <a name="registrar-settings-expander-for-lync-server-for-2010"></a><span data-ttu-id="6459a-103">Lync Server 2010 用のレジストラー設定の展開</span><span class="sxs-lookup"><span data-stu-id="6459a-103">Registrar Settings Expander for Lync Server for 2010</span></span>
+# <a name="registrar-settings-expander-for-lync-server-for-2010"></a><span data-ttu-id="7799a-103">Lync Server 2010 用のレジストラー設定の展開</span><span class="sxs-lookup"><span data-stu-id="7799a-103">Registrar Settings Expander for Lync Server for 2010</span></span>
  
-<span data-ttu-id="6459a-104">**回復性**の設定を編集し、次のプロパティを構成します。</span><span class="sxs-lookup"><span data-stu-id="6459a-104">You edit the settings for **Resiliency** and configure the following properties:</span></span>
+<span data-ttu-id="7799a-104">**回復性**の設定を編集し、次のプロパティを構成します。</span><span class="sxs-lookup"><span data-stu-id="7799a-104">You edit the settings for **Resiliency** and configure the following properties:</span></span>
   
-- <span data-ttu-id="6459a-105">一覧から [**関連付けられているバックアップレジストラープール**] を選びます。</span><span class="sxs-lookup"><span data-stu-id="6459a-105">Select **Associated backup Registrar pool** from the list.</span></span>
+- <span data-ttu-id="7799a-105">一覧から [**関連付けられているバックアップレジストラープール**] を選びます。</span><span class="sxs-lookup"><span data-stu-id="7799a-105">Select **Associated backup Registrar pool** from the list.</span></span>
     
-    <span data-ttu-id="6459a-106">必要に応じて、[**自動フェールオーバーと音声のフェールバック**] チェックボックスをオンにします。</span><span class="sxs-lookup"><span data-stu-id="6459a-106">Optionally, select the **Automatic failover and failback for Voice** check box.</span></span>
+    <span data-ttu-id="7799a-106">必要に応じて、[**自動フェールオーバーと音声のフェールバック**] チェックボックスをオンにします。</span><span class="sxs-lookup"><span data-stu-id="7799a-106">Optionally, select the **Automatic failover and failback for Voice** check box.</span></span>
     
-    <span data-ttu-id="6459a-107">**ボイスエラー検出間隔 (sec)** と**ボイスバックの間隔 (秒)** を構成します。</span><span class="sxs-lookup"><span data-stu-id="6459a-107">Configure the **Voice failure detection interval (sec)** and the **Voice failback interval (sec)**.</span></span> <span data-ttu-id="6459a-108">既定では、音声の障害検出と240秒のボイスバックの間隔は120秒です。</span><span class="sxs-lookup"><span data-stu-id="6459a-108">By default, the intervals are 120 seconds for Voice failure detection and 240 seconds for Voice failback.</span></span>
+    <span data-ttu-id="7799a-107">**ボイスエラー検出間隔 (sec)** と**ボイスバックの間隔 (秒)** を構成します。</span><span class="sxs-lookup"><span data-stu-id="7799a-107">Configure the **Voice failure detection interval (sec)** and the **Voice failback interval (sec)**.</span></span> <span data-ttu-id="7799a-108">既定では、音声の障害検出と240秒のボイスバックの間隔は120秒です。</span><span class="sxs-lookup"><span data-stu-id="7799a-108">By default, the intervals are 120 seconds for Voice failure detection and 240 seconds for Voice failback.</span></span>
     
     > [!CAUTION]
-    > <span data-ttu-id="6459a-109">フェールオーバーとフェールバックの間隔に対して定義した秒数は、回復性が期待どおりに動作することを確認するために慎重にテストする必要があります。</span><span class="sxs-lookup"><span data-stu-id="6459a-109">The number of seconds that you define for the failover and failback intervals should be carefully tested to ensure that the resiliency works as expected.</span></span> <span data-ttu-id="6459a-110">間隔を低 (つまり、120秒未満) に設定した場合、またはフェールオーバーとフェールバックがあまりにも設定されていない場合は、実際のフェールオーバーが予期したとおりに機能しないことがあります。</span><span class="sxs-lookup"><span data-stu-id="6459a-110">Setting the interval to low (that is, less than 120 seconds) or the failover and failback set too closely may result in the actual failover and failback not working as expected.</span></span> 
+    > <span data-ttu-id="7799a-109">フェールオーバーとフェールバックの間隔に対して定義した秒数は、回復性が期待どおりに動作することを確認するために慎重にテストする必要があります。</span><span class="sxs-lookup"><span data-stu-id="7799a-109">The number of seconds that you define for the failover and failback intervals should be carefully tested to ensure that the resiliency works as expected.</span></span> <span data-ttu-id="7799a-110">間隔を低 (つまり、120秒未満) に設定した場合、またはフェールオーバーとフェールバックがあまりにも設定されていない場合は、実際のフェールオーバーが予期したとおりに機能しないことがあります。</span><span class="sxs-lookup"><span data-stu-id="7799a-110">Setting the interval to low (that is, less than 120 seconds) or the failover and failback set too closely may result in the actual failover and failback not working as expected.</span></span> 
   
-  <span data-ttu-id="6459a-111">[**OK**]: ダイアログでの変更を受け入れて確定します。</span><span class="sxs-lookup"><span data-stu-id="6459a-111">**OK** Accepts and commits changes to the dialog.</span></span>
+  <span data-ttu-id="7799a-111">[**OK**]: ダイアログでの変更を受け入れて確定します。</span><span class="sxs-lookup"><span data-stu-id="7799a-111">**OK** Accepts and commits changes to the dialog.</span></span>
   
-  <span data-ttu-id="6459a-112">[**キャンセル**]: 変更を破棄してダイアログを閉じます。</span><span class="sxs-lookup"><span data-stu-id="6459a-112">**Cancel** Discards changes and closes the dialog.</span></span>
+  <span data-ttu-id="7799a-112">[**キャンセル**]: 変更を破棄してダイアログを閉じます。</span><span class="sxs-lookup"><span data-stu-id="7799a-112">**Cancel** Discards changes and closes the dialog.</span></span>
   
-  <span data-ttu-id="6459a-113">[**ヘルプ**]: このヘルプ画面を表示します。</span><span class="sxs-lookup"><span data-stu-id="6459a-113">**Help** Displays this help screen.</span></span>
+  <span data-ttu-id="7799a-113">[**ヘルプ**]: このヘルプ画面を表示します。</span><span class="sxs-lookup"><span data-stu-id="7799a-113">**Help** Displays this help screen.</span></span>
   
 

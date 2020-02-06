@@ -7,86 +7,88 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 6d8f9ff8-2a04-4175-9bf0-1ec5d78fd015
 description: '概要: Skype for Business Server で会議の構成設定を作成する方法について説明します。'
-ms.openlocfilehash: bcf32d3e250a3bc8b29d34e4c2fd56173dcfd5a6
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: cd3d207816f352a33fb3fd228e7249d9e5d836b3
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991882"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818608"
 ---
-# <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a><span data-ttu-id="13313-103">Skype for Business Server で会議の構成設定を作成する</span><span class="sxs-lookup"><span data-stu-id="13313-103">Create meeting configuration settings in Skype for Business Server</span></span>
+# <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a><span data-ttu-id="fea73-103">Skype for Business Server で会議の構成設定を作成する</span><span class="sxs-lookup"><span data-stu-id="fea73-103">Create meeting configuration settings in Skype for Business Server</span></span>
  
-<span data-ttu-id="13313-104">**概要:** Skype for Business Server で会議の構成設定を作成する方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="13313-104">**Summary:** Learn how to create meeting configuration settings in Skype for Business Server.</span></span>
+<span data-ttu-id="fea73-104">**概要:** Skype for Business Server で会議の構成設定を作成する方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="fea73-104">**Summary:** Learn how to create meeting configuration settings in Skype for Business Server.</span></span>
   
-<span data-ttu-id="13313-105">会議の構成設定を作成するには、Skype for Business Server コントロールパネルを使用するか、Skype for Business Server 管理シェルを使用します。</span><span class="sxs-lookup"><span data-stu-id="13313-105">You can create meeting configuration settings by using Skype for Business Server Control Panel or by using Skype for Business Server Management Shell.</span></span>
+<span data-ttu-id="fea73-105">会議の構成設定を作成するには、Skype for Business Server コントロールパネルを使用するか、Skype for Business Server 管理シェルを使用します。</span><span class="sxs-lookup"><span data-stu-id="fea73-105">You can create meeting configuration settings by using Skype for Business Server Control Panel or by using Skype for Business Server Management Shell.</span></span>
   
-## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a><span data-ttu-id="13313-106">Skype for Business Server コントロールパネルを使用して会議の構成設定を作成する</span><span class="sxs-lookup"><span data-stu-id="13313-106">Create meeting configuration settings by using Skype for Business Server Control Panel</span></span>
+## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a><span data-ttu-id="fea73-106">Skype for Business Server コントロールパネルを使用して会議の構成設定を作成する</span><span class="sxs-lookup"><span data-stu-id="fea73-106">Create meeting configuration settings by using Skype for Business Server Control Panel</span></span>
 
-1. <span data-ttu-id="13313-107">CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="13313-107">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1. <span data-ttu-id="fea73-107">CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="fea73-107">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
     
-2.  <span data-ttu-id="13313-108">Skype for Business Server コントロールパネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="13313-108">Open Skype for Business Server Control Panel.</span></span>
+2.  <span data-ttu-id="fea73-108">Skype for Business Server コントロールパネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="fea73-108">Open Skype for Business Server Control Panel.</span></span>
     
-3. <span data-ttu-id="13313-109">左側のナビゲーション バーで、[**会議**] をクリックし、[**会議の構成**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="13313-109">In the left navigation bar, click **Conferencing**, and then click **Meeting Configuration**.</span></span>
+3. <span data-ttu-id="fea73-109">左側のナビゲーション バーで、[**会議**] をクリックし、[**会議の構成**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="fea73-109">In the left navigation bar, click **Conferencing**, and then click **Meeting Configuration**.</span></span>
     
-4. <span data-ttu-id="13313-110">[**会議の構成**] ページで、[**新規作成**] をクリックし、次のいずれかを実行します。</span><span class="sxs-lookup"><span data-stu-id="13313-110">On the **Meeting Configuration** page, click **New**, and then do one of the following:</span></span>
+4. <span data-ttu-id="fea73-110">[**会議の構成**] ページで、[**新規作成**] をクリックし、次のいずれかを実行します。</span><span class="sxs-lookup"><span data-stu-id="fea73-110">On the **Meeting Configuration** page, click **New**, and then do one of the following:</span></span>
     
-    - <span data-ttu-id="13313-p101">サイト レベルのポリシーを作成するには、[**サイト構成**] をクリックします。[**サイトの選択**] 検索フィールドに、会議参加設定を定義するサイトの名前の全体または一部を入力します。サイトの結果一覧で対象のサイトをクリックして、[**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="13313-p101">To create a site-level policy, click **Site configuration**. In the **Select a Site** search field, type all or part of the name of the site for which you want to define meeting join settings. In the resulting list of sites, click the site you want, and then click **OK**.</span></span>
+    - <span data-ttu-id="fea73-p101">サイト レベルのポリシーを作成するには、[**サイト構成**] をクリックします。[**サイトの選択**] 検索フィールドに、会議参加設定を定義するサイトの名前の全体または一部を入力します。サイトの結果一覧で対象のサイトをクリックして、[**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="fea73-p101">To create a site-level policy, click **Site configuration**. In the **Select a Site** search field, type all or part of the name of the site for which you want to define meeting join settings. In the resulting list of sites, click the site you want, and then click **OK**.</span></span>
     
-    - <span data-ttu-id="13313-p102">プール レベルのポリシーを作成するには、[**プール構成**] をクリックします。[**サービスの選択**] 検索フィールドに、会議参加設定を定義するプール サービスの名前の全体または一部を入力します。サービスの結果一覧で、対象のプールをクリックして [**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="13313-p102">To create a pool-level policy, click **Pool configuration**. In the **Select a Service** search field, type all or part of the name of the pool service for which you want to define meeting join settings. In the resulting list of services, click the pool you want, and then click **OK**.</span></span>
+    - <span data-ttu-id="fea73-p102">プール レベルのポリシーを作成するには、[**プール構成**] をクリックします。[**サービスの選択**] 検索フィールドに、会議参加設定を定義するプール サービスの名前の全体または一部を入力します。サービスの結果一覧で、対象のプールをクリックして [**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="fea73-p102">To create a pool-level policy, click **Pool configuration**. In the **Select a Service** search field, type all or part of the name of the pool service for which you want to define meeting join settings. In the resulting list of services, click the pool you want, and then click **OK**.</span></span>
     
-5. <span data-ttu-id="13313-p103">公衆交換電話網 (PSTN) からダイヤルインする参加者をロビーを介してルーティングするには、[**PSTN 発信者はロビーをバイパスする**] チェック ボックスをオフにします。既定では、PSTN からダイヤルインした参加者は会議に直接移動します。</span><span class="sxs-lookup"><span data-stu-id="13313-p103">To route participants who dial in from the public switched telephone network (PSTN) through the lobby, clear the **PSTN callers bypass lobby** check box. By default, participants dialing in from the PSTN go directly to the meeting.</span></span>
+5. <span data-ttu-id="fea73-p103">公衆交換電話網 (PSTN) からダイヤルインする参加者をロビーを介してルーティングするには、[**PSTN 発信者はロビーをバイパスする**] チェック ボックスをオフにします。既定では、PSTN からダイヤルインした参加者は会議に直接移動します。</span><span class="sxs-lookup"><span data-stu-id="fea73-p103">To route participants who dial in from the public switched telephone network (PSTN) through the lobby, clear the **PSTN callers bypass lobby** check box. By default, participants dialing in from the PSTN go directly to the meeting.</span></span>
     
-6. <span data-ttu-id="13313-119">会議の発表者になることができるユーザーを構成するには、[**発表者として指定**] で、次のいずれかの操作を実行します。</span><span class="sxs-lookup"><span data-stu-id="13313-119">To configure who can be a presenter in the meeting, in **Designate as presenter**, do one of the following:</span></span>
+6. <span data-ttu-id="fea73-119">会議の発表者になることができるユーザーを構成するには、[**発表者として指定**] で、次のいずれかの操作を実行します。</span><span class="sxs-lookup"><span data-stu-id="fea73-119">To configure who can be a presenter in the meeting, in **Designate as presenter**, do one of the following:</span></span>
     
-   - <span data-ttu-id="13313-120">開催者以外のユーザーが発表者になることを許可しない場合は、[**なし**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="13313-120">To not allow anyone other than the organizer to be a presenter, click **None**.</span></span>
+   - <span data-ttu-id="fea73-120">開催者以外のユーザーが発表者になることを許可しない場合は、[**なし**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="fea73-120">To not allow anyone other than the organizer to be a presenter, click **None**.</span></span>
     
-   - <span data-ttu-id="13313-p104">組織のメンバーになっている参加者にのみ発表者になることを許可する場合は、[**会社**] をクリックします。これは既定の設定です。</span><span class="sxs-lookup"><span data-stu-id="13313-p104">To allow only participants who are members of your organization to be a presenter, click **Company**. This is the default setting.</span></span>
+   - <span data-ttu-id="fea73-p104">組織のメンバーになっている参加者にのみ発表者になることを許可する場合は、[**会社**] をクリックします。これは既定の設定です。</span><span class="sxs-lookup"><span data-stu-id="fea73-p104">To allow only participants who are members of your organization to be a presenter, click **Company**. This is the default setting.</span></span>
     
-   - <span data-ttu-id="13313-123">参加者すべてに発表者になることを許可する場合は、[**全員**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="13313-123">To allow any participants to be a presenter, click **Everyone**.</span></span>
+   - <span data-ttu-id="fea73-123">参加者すべてに発表者になることを許可する場合は、[**全員**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="fea73-123">To allow any participants to be a presenter, click **Everyone**.</span></span>
     
-7. <span data-ttu-id="13313-p105">開催者が会議のスケジュール時に会議の種類を選択できるようにするには、[**既定で割り当てられた会議の種類**] チェック ボックスをオフにします。既定では、会議の種類が自動的に割り当てられます。</span><span class="sxs-lookup"><span data-stu-id="13313-p105">To have the organizer select a conference type when scheduling a meeting, clear the **Assigned conference type by default** check box. By default, the conference type is automatically assigned.</span></span>
+7. <span data-ttu-id="fea73-p105">開催者が会議のスケジュール時に会議の種類を選択できるようにするには、[**既定で割り当てられた会議の種類**] チェック ボックスをオフにします。既定では、会議の種類が自動的に割り当てられます。</span><span class="sxs-lookup"><span data-stu-id="fea73-p105">To have the organizer select a conference type when scheduling a meeting, clear the **Assigned conference type by default** check box. By default, the conference type is automatically assigned.</span></span>
     
-8. <span data-ttu-id="13313-p106">匿名 (未認証) ユーザーが自動的に承認されないようにするには、[**既定で匿名ユーザーを承認する**] チェック ボックスをオフにします。既定では、匿名ユーザーは会議に対して自動的に承認されます。</span><span class="sxs-lookup"><span data-stu-id="13313-p106">To prevent anonymous (unauthenticated) users from being automatically admitted, clear the **Admit anonymous users by default** check box. By default, anonymous users are automatically admitted to meetings.</span></span>
+8. <span data-ttu-id="fea73-p106">匿名 (未認証) ユーザーが自動的に承認されないようにするには、[**既定で匿名ユーザーを承認する**] チェック ボックスをオフにします。既定では、匿名ユーザーは会議に対して自動的に承認されます。</span><span class="sxs-lookup"><span data-stu-id="fea73-p106">To prevent anonymous (unauthenticated) users from being automatically admitted, clear the **Admit anonymous users by default** check box. By default, anonymous users are automatically admitted to meetings.</span></span>
     
-9. <span data-ttu-id="13313-128">参加者に送られる会議の招待をカスタマイズするには、以下を行います。</span><span class="sxs-lookup"><span data-stu-id="13313-128">To customize the meeting invite that is sent out to participants, do the following.</span></span> <span data-ttu-id="13313-129">URL およびカスタム フッター テキストの長さは最大 1 KB です。</span><span class="sxs-lookup"><span data-stu-id="13313-129">Note that the maximum length for URLs and custom footer text is 1KB.</span></span> <span data-ttu-id="13313-130">[**ヘルプ URL**] 以外は、カスタムの値を指定しない場合、会議に含まれません。</span><span class="sxs-lookup"><span data-stu-id="13313-130">Except for **Help URL**, if you do not specify a value for the customizations, they will not be included in the meeting.</span></span> <span data-ttu-id="13313-131">ユーザー設定のヘルプ URL が含まれていない場合は、Skype for Business の既定のヘルプ URL が招待状に表示されます。</span><span class="sxs-lookup"><span data-stu-id="13313-131">If you do not include a custom help URL, the default help URL for Skype for Business will be displayed in the invite.</span></span> 
+9. <span data-ttu-id="fea73-128">参加者に送られる会議の招待をカスタマイズするには、以下を行います。</span><span class="sxs-lookup"><span data-stu-id="fea73-128">To customize the meeting invite that is sent out to participants, do the following.</span></span> <span data-ttu-id="fea73-129">URL およびカスタム フッター テキストの長さは最大 1 KB です。</span><span class="sxs-lookup"><span data-stu-id="fea73-129">Note that the maximum length for URLs and custom footer text is 1KB.</span></span> <span data-ttu-id="fea73-130">[**ヘルプ URL**] 以外は、カスタムの値を指定しない場合、会議に含まれません。</span><span class="sxs-lookup"><span data-stu-id="fea73-130">Except for **Help URL**, if you do not specify a value for the customizations, they will not be included in the meeting.</span></span> <span data-ttu-id="fea73-131">ユーザー設定のヘルプ URL が含まれていない場合は、Skype for Business の既定のヘルプ URL が招待状に表示されます。</span><span class="sxs-lookup"><span data-stu-id="fea73-131">If you do not include a custom help URL, the default help URL for Skype for Business will be displayed in the invite.</span></span> 
     
-   - <span data-ttu-id="13313-p108">会議の招待に表示されるロゴをカスタマイズするには、[**ロゴ URL**] にロゴの場所を入力します。ロゴは、サイズが 188 x 30 ピクセルの GIF または JPG 画像である必要があります。</span><span class="sxs-lookup"><span data-stu-id="13313-p108">To customize the logo that appears in the meeting invite, in **Logo URL**, enter the location of the logo. The logo must be a GIF or JPG image with a size of 188 by 30 pixels.</span></span> 
+   - <span data-ttu-id="fea73-p108">会議の招待に表示されるロゴをカスタマイズするには、[**ロゴ URL**] にロゴの場所を入力します。ロゴは、サイズが 188 x 30 ピクセルの GIF または JPG 画像である必要があります。</span><span class="sxs-lookup"><span data-stu-id="fea73-p108">To customize the logo that appears in the meeting invite, in **Logo URL**, enter the location of the logo. The logo must be a GIF or JPG image with a size of 188 by 30 pixels.</span></span> 
     
-   - <span data-ttu-id="13313-134">会議招待に表示されるヘルプ テキストをカスタマイズするには、[**ヘルプ URL**] にヘルプ テキストの場所を入力します。</span><span class="sxs-lookup"><span data-stu-id="13313-134">To customize the help text that appears in the meeting invite, in **Help URL**, enter the location of the help text.</span></span>
+   - <span data-ttu-id="fea73-134">会議招待に表示されるヘルプ テキストをカスタマイズするには、[**ヘルプ URL**] にヘルプ テキストの場所を入力します。</span><span class="sxs-lookup"><span data-stu-id="fea73-134">To customize the help text that appears in the meeting invite, in **Help URL**, enter the location of the help text.</span></span>
     
-   - <span data-ttu-id="13313-135">会議の招待に表示される法的情報をカスタマイズするには、[**リーガル テキスト URL**] にリーガル テキストの場所を入力します。</span><span class="sxs-lookup"><span data-stu-id="13313-135">To customize the legal text that appears in the meeting invite, in **Legal text URL**, enter the location of the legal text.</span></span>
+   - <span data-ttu-id="fea73-135">会議の招待に表示される法的情報をカスタマイズするには、[**リーガル テキスト URL**] にリーガル テキストの場所を入力します。</span><span class="sxs-lookup"><span data-stu-id="fea73-135">To customize the legal text that appears in the meeting invite, in **Legal text URL**, enter the location of the legal text.</span></span>
     
-   - <span data-ttu-id="13313-136">会議の招待に表示されるカスタム フッター テキストをカスタマイズするには、[**カスタム フッターのテキスト**] にテキストを入力します。</span><span class="sxs-lookup"><span data-stu-id="13313-136">To customize the footer text that appears in the meeting invite, in **Custom footer text**, enter text.</span></span>
+   - <span data-ttu-id="fea73-136">会議の招待に表示されるカスタム フッター テキストをカスタマイズするには、[**カスタム フッターのテキスト**] にテキストを入力します。</span><span class="sxs-lookup"><span data-stu-id="fea73-136">To customize the footer text that appears in the meeting invite, in **Custom footer text**, enter text.</span></span>
     
-10. <span data-ttu-id="13313-137">[**確定**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="13313-137">Click **Commit**.</span></span>
+10. <span data-ttu-id="fea73-137">[**確定**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="fea73-137">Click **Commit**.</span></span>
     
-## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a><span data-ttu-id="13313-138">Skype for Business Server 管理シェルを使用して会議の構成設定を作成する</span><span class="sxs-lookup"><span data-stu-id="13313-138">Create meeting configuration settings by using Skype for Business Server Management Shell</span></span>
+## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a><span data-ttu-id="fea73-138">Skype for Business Server 管理シェルを使用して会議の構成設定を作成する</span><span class="sxs-lookup"><span data-stu-id="fea73-138">Create meeting configuration settings by using Skype for Business Server Management Shell</span></span>
 
-<span data-ttu-id="13313-139">会議の構成設定を作成するには、**New-CsMeetingConfiguration** コマンドレットを使用します。</span><span class="sxs-lookup"><span data-stu-id="13313-139">To create meeting configuration settings, use the **New-CsMeetingConfiguration** cmdlet.</span></span>
+<span data-ttu-id="fea73-139">会議の構成設定を作成するには、**New-CsMeetingConfiguration** コマンドレットを使用します。</span><span class="sxs-lookup"><span data-stu-id="fea73-139">To create meeting configuration settings, use the **New-CsMeetingConfiguration** cmdlet.</span></span>
   
-<span data-ttu-id="13313-140">次のコマンドは、Redmond サイト用に会議構成設定の新しいセットを作成しています。</span><span class="sxs-lookup"><span data-stu-id="13313-140">The following command creates a new set of meeting configuration settings for the Redmond site:</span></span>
+<span data-ttu-id="fea73-140">次のコマンドは、Redmond サイト用に会議構成設定の新しいセットを作成しています。</span><span class="sxs-lookup"><span data-stu-id="fea73-140">The following command creates a new set of meeting configuration settings for the Redmond site:</span></span>
   
 ```PowerShell
 New-CsMeetingConfiguration -Identity "site:Redmond"
 ```
 
-<span data-ttu-id="13313-141">上記のコマンドでは必須の Identity パラメーター以外のパラメーターは指定されていないため、新しい会議構成設定はすべてのプロパティについて既定値を使用します。</span><span class="sxs-lookup"><span data-stu-id="13313-141">Because no parameters (other than the mandatory Identity parameter) were specified in the preceding command, the new meeting configuration settings will use the default values for all its properties.</span></span>
+<span data-ttu-id="fea73-141">上記のコマンドでは必須の Identity パラメーター以外のパラメーターは指定されていないため、新しい会議構成設定はすべてのプロパティについて既定値を使用します。</span><span class="sxs-lookup"><span data-stu-id="fea73-141">Because no parameters (other than the mandatory Identity parameter) were specified in the preceding command, the new meeting configuration settings will use the default values for all its properties.</span></span>
   
-<span data-ttu-id="13313-p109">異なるプロパティ値を使用する設定を作成するには、適切なパラメーターとパラメーター値を指定します。たとえば、会議の全員が発表者となることを既定で許可する会議構成設定のセットを作成するには、次のようなコマンドを使用します。</span><span class="sxs-lookup"><span data-stu-id="13313-p109">To create settings that use different property values, simply include the appropriate parameter and parameter value. For example, to create a collection of meeting configuration settings that, by default, admit everyone to a meeting as a presenter use a command like this:</span></span>
+<span data-ttu-id="fea73-p109">異なるプロパティ値を使用する設定を作成するには、適切なパラメーターとパラメーター値を指定します。たとえば、会議の全員が発表者となることを既定で許可する会議構成設定のセットを作成するには、次のようなコマンドを使用します。</span><span class="sxs-lookup"><span data-stu-id="fea73-p109">To create settings that use different property values, simply include the appropriate parameter and parameter value. For example, to create a collection of meeting configuration settings that, by default, admit everyone to a meeting as a presenter use a command like this:</span></span>
   
 ```PowerShell
 New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone"
 ```
 
-<span data-ttu-id="13313-p110">複数のパラメーターを含めることにより複数のプロパティ値を設定できます。たとえば、次のコマンドは、会議の全員が発表者となることを許可し、さらに PSTN ユーザーは会議に対して正式に承認されるまで必ずロビーで待機するように設定しています。</span><span class="sxs-lookup"><span data-stu-id="13313-p110">Multiple property values can be set by including multiple parameters. For example, the following command admits everyone to a meeting as a presenter and also forces PSTN users to wait in the lobby until they are formally admitted to the meeting:</span></span>
+<span data-ttu-id="fea73-p110">複数のパラメーターを含めることにより複数のプロパティ値を設定できます。たとえば、次のコマンドは、会議の全員が発表者となることを許可し、さらに PSTN ユーザーは会議に対して正式に承認されるまで必ずロビーで待機するように設定しています。</span><span class="sxs-lookup"><span data-stu-id="fea73-p110">Multiple property values can be set by including multiple parameters. For example, the following command admits everyone to a meeting as a presenter and also forces PSTN users to wait in the lobby until they are formally admitted to the meeting:</span></span>
   
 ```PowerShell
 New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone" -PSTNUCallersBypassLobby $True
 ```
 
-<span data-ttu-id="13313-146">パラメーターの完全な一覧を含む、詳細については、「[新しい-Cs会議の構成](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="13313-146">For more information, including a complete list of parameters, see [New-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps).</span></span>
+<span data-ttu-id="fea73-146">パラメーターの完全な一覧を含む、詳細については、「[新しい-Cs会議の構成](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="fea73-146">For more information, including a complete list of parameters, see [New-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps).</span></span>
   
 
