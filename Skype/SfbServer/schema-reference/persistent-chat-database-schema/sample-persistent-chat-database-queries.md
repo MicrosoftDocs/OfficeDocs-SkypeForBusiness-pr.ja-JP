@@ -8,21 +8,23 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 545b1a93-9758-4344-98cc-aa0e559d494f
 description: このセクションには、常設チャットデータベースのサンプルクエリが含まれています。
-ms.openlocfilehash: fef40c2f36547fb0772d2e938bf8259246ec2055
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f967e62ade8186bb2f0dae79c06af71e872808af
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295609"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814725"
 ---
-# <a name="sample-persistent-chat-database-queries"></a><span data-ttu-id="e5c04-103">常設チャット データベースのクエリのサンプル</span><span class="sxs-lookup"><span data-stu-id="e5c04-103">Sample Persistent Chat database queries</span></span>
+# <a name="sample-persistent-chat-database-queries"></a><span data-ttu-id="28e9f-103">常設チャット データベースのクエリのサンプル</span><span class="sxs-lookup"><span data-stu-id="28e9f-103">Sample Persistent Chat database queries</span></span>
  
-<span data-ttu-id="e5c04-104">このセクションには、常設チャットデータベースのサンプルクエリが含まれています。</span><span class="sxs-lookup"><span data-stu-id="e5c04-104">This section contains sample queries for the Persistent Chat database.</span></span>
+<span data-ttu-id="28e9f-104">このセクションには、常設チャットデータベースのサンプルクエリが含まれています。</span><span class="sxs-lookup"><span data-stu-id="28e9f-104">This section contains sample queries for the Persistent Chat database.</span></span>
   
-<span data-ttu-id="e5c04-105">次の例を使用して、特定の日付以降にアクティブになっている常設チャットルームの一覧を取得します。</span><span class="sxs-lookup"><span data-stu-id="e5c04-105">Use the following example to get a list of your most active Persistent Chat rooms after a certain date.</span></span>
+<span data-ttu-id="28e9f-105">次の例を使用して、特定の日付以降にアクティブになっている常設チャットルームの一覧を取得します。</span><span class="sxs-lookup"><span data-stu-id="28e9f-105">Use the following example to get a list of your most active Persistent Chat rooms after a certain date.</span></span>
   
 ```
 SELECT nodeName as ChatRoom, COUNT(*) as ChatMessages
@@ -32,7 +34,7 @@ SELECT nodeName as ChatRoom, COUNT(*) as ChatMessages
   ORDER BY ChatMessages DESC
 ```
 
-<span data-ttu-id="e5c04-106">次の例を使用して、特定の日付以降の最もアクティブなユーザーの一覧を取得します。</span><span class="sxs-lookup"><span data-stu-id="e5c04-106">Use the following example to get a list of your most active users after a certain date.</span></span>
+<span data-ttu-id="28e9f-106">次の例を使用して、特定の日付以降の最もアクティブなユーザーの一覧を取得します。</span><span class="sxs-lookup"><span data-stu-id="28e9f-106">Use the following example to get a list of your most active users after a certain date.</span></span>
   
 ```
 SELECT prinName as Name, count(*) as ChatMessages
@@ -42,7 +44,7 @@ SELECT prinName as Name, count(*) as ChatMessages
   ORDER BY ChatMessages DESC
 ```
 
-<span data-ttu-id="e5c04-107">次の例を使用すると、"Hello World" というメッセージが送信されたすべてのユーザーの一覧を取得できます。</span><span class="sxs-lookup"><span data-stu-id="e5c04-107">Use the following example to get a list of everyone who ever sent a message with "Hello World" in it.</span></span>
+<span data-ttu-id="28e9f-107">次の例を使用すると、"Hello World" というメッセージが送信されたすべてのユーザーの一覧を取得できます。</span><span class="sxs-lookup"><span data-stu-id="28e9f-107">Use the following example to get a list of everyone who ever sent a message with "Hello World" in it.</span></span>
   
 ```
 SELECT nodeName as ChatRoom, prinName as Name, content as Message
@@ -50,7 +52,7 @@ SELECT nodeName as ChatRoom, prinName as Name, content as Message
   WHERE channelId = nodeID AND userId = prinID AND content like '%Hello World%'
 ```
 
-<span data-ttu-id="e5c04-108">特定のプリンシパルのグループメンバーシップの一覧を取得するには、次の例を使用します。</span><span class="sxs-lookup"><span data-stu-id="e5c04-108">Use the following example to get a list of group memberships for a certain principal.</span></span>
+<span data-ttu-id="28e9f-108">特定のプリンシパルのグループメンバーシップの一覧を取得するには、次の例を使用します。</span><span class="sxs-lookup"><span data-stu-id="28e9f-108">Use the following example to get a list of group memberships for a certain principal.</span></span>
   
 ```
 SELECT prinName as Name    
@@ -58,7 +60,7 @@ SELECT prinName as Name
   where principalID = 7 and affiliationID = prinID
 ```
 
-<span data-ttu-id="e5c04-109">次の例を使用して、ユーザーの Jane が直接メンバーであるすべてのチャットルームの一覧を取得します。</span><span class="sxs-lookup"><span data-stu-id="e5c04-109">Use the following example to get a list of every chat room that a user, Jane Dow, is a direct member of.</span></span>
+<span data-ttu-id="28e9f-109">次の例を使用して、ユーザーの Jane が直接メンバーであるすべてのチャットルームの一覧を取得します。</span><span class="sxs-lookup"><span data-stu-id="28e9f-109">Use the following example to get a list of every chat room that a user, Jane Dow, is a direct member of.</span></span>
   
 ```
 SELECT DISTINCT nodeName as ChatRoom, prinName as Name          
@@ -66,7 +68,7 @@ SELECT DISTINCT nodeName as ChatRoom, prinName as Name
   WHERE  prinRoleNodeID = nodeID AND prinRolePrinID = prinID AND prinName = 'Jane Dow'
 ```
 
-<span data-ttu-id="e5c04-110">ユーザーが受信した招待状の一覧を取得するには、次の例を使用します。</span><span class="sxs-lookup"><span data-stu-id="e5c04-110">Use the following example to get a list of invitations that a user has received.</span></span>
+<span data-ttu-id="28e9f-110">ユーザーが受信した招待状の一覧を取得するには、次の例を使用します。</span><span class="sxs-lookup"><span data-stu-id="28e9f-110">Use the following example to get a list of invitations that a user has received.</span></span>
   
 ```
 SELECT prinName
