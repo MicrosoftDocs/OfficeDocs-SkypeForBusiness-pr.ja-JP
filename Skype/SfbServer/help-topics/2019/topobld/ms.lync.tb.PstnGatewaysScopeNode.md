@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.PstnGatewaysScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a11bae5-9c0e-4eea-9754-2e918e19eeff
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[PSTN ゲートウェイ] ノードには、トポロジ内の公衆交換電話網 (PSTN) ゲートウェイが一覧表示されます。 以下のアクションを実行できます。'
-ms.openlocfilehash: b4104f856f072039ba8aec610cea37e09a7bbe08
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 47d02fdb55110a171cc7fcd2ef36136ed5a3a39a
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41688070"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794165"
 ---
 # <a name="pstn-gateways-scope-node"></a>PSTN ゲートウェイ スコープ ノード
  

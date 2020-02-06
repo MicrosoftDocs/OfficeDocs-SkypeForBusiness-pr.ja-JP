@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AddVisUsagePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: db402ac4-4c30-405e-b322-6aae5df81f46
 ROBOTS: NOINDEX, NOFOLLOW
 description: トポロジビルダーで新しい VIS またはビデオゲートウェイを定義するために必要な手順は、「Skype for Business Server で VIS プールを作成する」で説明しています。
-ms.openlocfilehash: 5101d4a4b8046c7dc5c6f9c06faa68938837cacd
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 18a1df1553cc0bc5764104b97298e7a373c70fab
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41702562"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41795208"
 ---
 # <a name="add-vis-usage"></a>VIS 使用法の追加
  

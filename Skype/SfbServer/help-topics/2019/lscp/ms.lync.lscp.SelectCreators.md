@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.SelectCreators
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: f8d9ed6f-22ba-470e-b0b4-0da3cea5e961
 ROBOTS: NOINDEX, NOFOLLOW
 description: 永続的なチャットルームの作成と管理は、カテゴリを適切に使用することで非常に簡単になります。 常設チャット管理者は、各カテゴリの AllowedMembers とクリエーターを定義できます。また、カテゴリで作成されたすべてのチャットルームに適用される既定のチャットルームの設定と動作も定義できます。 常設チャット管理者は、Skype for Business Server コントロールパネルまたは Windows PowerShell コマンドレットを使用して、カテゴリの作成と管理を行います。
-ms.openlocfilehash: cea9d29d826b7a560c8f3ab318c33f07e6f00530
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 2d8e37f80d379cb6ed3e656afce609fbc9b37878
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41690680"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797458"
 ---
 # <a name="select-creators"></a>作成者の選択
 

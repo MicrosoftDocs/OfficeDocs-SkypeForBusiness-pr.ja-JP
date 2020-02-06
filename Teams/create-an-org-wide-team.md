@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 953cfc1ba7c9b05954859f7bc8ac1db2352b3a0e
-ms.sourcegitcommit: 96d98e145ff300833d827a7d43b4e4b0331b7538
-ms.translationtype: HT
+ms.openlocfilehash: f291e0c2902754f346dfadb855e4e6bc6fbd573c
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871723"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41795156"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Microsoft Teams で組織全体にわたるチームを作成する
 
@@ -27,7 +27,7 @@ ms.locfileid: "39871723"
 
 組織全体のチームでは、グローバル管理者は、組織内のすべてのユーザーを取り込むパブリック チームを簡単に作成し、組織でユーザーの出入りがあっても Active Directory のメンバーシップを最新の状態に保つことができます。 組織全体のチームを作成できるのはグローバル管理者のみです。現在、組織全体のチームは、ユーザー数が 5,000 を超えない組織に限定されています。 組織全体のチーム数も、1 つのテナントに対し 5 つまでに制限されています。 これらの要件が満たされている場合、グローバル管理者がチームを作成する際、[**初めからチームを作成する**] を選択すると、[**組織全体**] オプションが表示されます。 
 
-![組織全体のチームを作成するための [組織全体] オプションのスクリーンショット](media/create-org-wide-team.png "組織全体のチームを作成するための [組織全体] オプションのスクリーンショット")
+![組織全体のチームを作成するための組織全体のオプションのスクリーンショット](media/create-org-wide-team.png "組織全体のチームを作成するための [組織全体] オプションのスクリーンショット")
 
 組織全体のチームが作成されると、すべてのグローバル管理者がチームの所有者として追加され、すべてのアクティブなユーザーがチーム メンバーとして追加されます。 ライセンス未付与のユーザーもチームに追加されます。 ライセンスのないユーザーが初めて Teams にサインインすると、Microsoft Teams の商用クラウド試用版のライセンスがそのユーザーに割り当てられます。 試用版ライセンスの詳細については、「[Teams の商用クラウドの試用提供を管理する](iw-trial-teams.md)」を参照してください。 
 
@@ -58,9 +58,9 @@ ms.locfileid: "39871723"
 
  @メンションを減らして、組織全体がオーバー ロードしないようにします。 チームにアクセスし、**[˙˙˙その他のオプション]** > **[チームの管理]** の順にクリックします。 **[設定]** タブで、<strong>[@メンション]</strong> > **[メンバーに @team または @ [チーム名] のオプションを表示する]** をクリックします。 
 
-### <a name="automatically-favorite-important-channels"></a>重要なチャネルを自動的にお気に入りに登録する
+### <a name="automatically-show-important-channels"></a>重要なチャネルを自動的に表示する
 
-重要なチャネルをお気に入りに登録して、組織内の全ユーザーが特定の会話に参加できるようにします。 詳細については、「[チーム全体に対してチャネルをお気に入りに自動追加する](https://support.office.com/article/auto-favorite-channels-for-the-whole-team-a948272c-5aa5-429c-863c-4e1e1cd6b0f6)」を参照してください。
+重要なチャネルを表示して、組織内のすべてのユーザーが特定の会話に参加していることを確認します。 詳細については、「[チーム全体に対してチャネルをお気に入りに自動追加する](https://support.office.com/article/auto-favorite-channels-for-the-whole-team-a948272c-5aa5-429c-863c-4e1e1cd6b0f6)」を参照してください。 
 
 ### <a name="set-up-channel-moderation"></a>チャネル モデレーションを設定する
 

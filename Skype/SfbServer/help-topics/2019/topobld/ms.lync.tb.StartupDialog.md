@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.StartupDialog
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 ROBOTS: NOINDEX, NOFOLLOW
 description: トポロジビルダーを起動して、展開のプロパティと構成を構成します。 起動時に、トポロジドキュメントのソースを確認するダイアログが表示されます。 次の3つのオプションのいずれかを選択します。
-ms.openlocfilehash: 7c8d0de34a2631511b6b940ba6cae4a395d5bd64
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 92bbe49e18143f7b19ce2e3294171ef3e64d8498
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41687960"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797418"
 ---
 # <a name="topology-builder-startup-dialog"></a>トポロジ ビルダー起動ダイアログ
  

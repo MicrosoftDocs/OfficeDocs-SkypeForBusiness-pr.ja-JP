@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.MediationNextHopSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 814f5b06-3e5a-4a39-804d-7f7d3fbee54d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 定義済みの Enterprise Edition のフロントエンドプールまたは標準エディションのフロントエンドサーバーをドロップダウンリストから選ぶことにより、仲介サーバープールまたは仲介サーバーの次ホップを指定します。 ディレクターまたはディレクタープールが、仲介サーバープールまたは仲介サーバーの次ホップの有効な選択ではないため、一覧に表示されません。 [OK] をクリックして、変更を承諾して保存します。 変更を破棄してプロパティ ページを終了するには、[キャンセル] をクリックします。
-ms.openlocfilehash: de7bced46d832b9e054904b952a65dde7cfaec64
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: da8c5b3ffd3fe96f770539207595e28b52fa51aa
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41688200"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41796236"
 ---
 # <a name="mediation-next-hop-settings-expander"></a>仲介の次ホップ設定エキスパンダー
  

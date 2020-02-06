@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.dep.DeployCertRequestSummary
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: e907e36b-c168-464c-8b52-edd409704a02
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[証明書要求の概要] ページには、証明書のすべてのオプションと構成の詳細が表示されます。 概要には、証明書要求の内容が表示され、それに続いて証明書の発行方法が表示されます。 概要を注意して調べ、選択したエントリおよびオプションのすべてが正しいことを確認してください。 選択内容が正しい場合は、[次へ] をクリックして要求の生成を続行し、証明機関 (CA) への送信用に準備します。'
-ms.openlocfilehash: 8d4962ae409ccd31a266109c5e9862e98b5b5a6e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: e8084072971de256414711057ab7c4e29646f70a
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705572"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794255"
 ---
 # <a name="certificate-request-summary"></a>証明書要求 (概要)
  

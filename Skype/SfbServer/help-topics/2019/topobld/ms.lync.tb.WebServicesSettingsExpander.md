@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.WebServicesSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aefc9f51-a171-4a58-be65-7accb470cb2a
 ROBOTS: NOINDEX, NOFOLLOW
 description: トポロジビルダーでは、内部と外部の両方の web サービスで使用されるポート設定を変更できます。 さらに、ドメインネームシステム (DNS) 負荷分散を展開している場合は、トポロジビルダーを使用して、そのプールのすべてのサーバーの物理 IP アドレスに解決されるプールの完全修飾ドメイン名 (FQDN) を構成することもできます。
-ms.openlocfilehash: fddcaa00de9b8a8d74e209790b429280901b037c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: e2460305199d1d626e44e5476adc6baf618ebe89
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41701342"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41795228"
 ---
 # <a name="web-services-settings-expander"></a>Web サービス設定エキスパンダー
  

@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AssociateFrontEndWithAvMcuPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 314e3b0b-9ca7-423b-9c8e-80eb6013d36f
 ROBOTS: NOINDEX, NOFOLLOW
 description: A/V 会議を使用すると、ユーザー間の音声およびビデオのリアルタイム通信が可能になります (つまり、電話会議のヘッドセットやビデオ会議用の web カメラなど、適切なクライアントデバイスがある場合)。 展開で会議がサポートされていて、web 会議と A/V の両方の会議を有効にしている場合は、1つ以上のスタンドアロン A/V 会議サーバー (A/V 会議プール) を展開することができます。 スタンドアロンの A/V 会議サーバーを展開するためのオプションを選択した場合、トポロジビルダーで定義する必要があります。
-ms.openlocfilehash: 92b93cdfaf4e0beb4c097d1119a7189c1cf8dfc4
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: c02e1434fb67dd4b7fed6f005e8b0ff93307d364
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41702492"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794005"
 ---
 # <a name="associate-front-end-with-av-mcu"></a>フロントエンドと AV MCU の関連付け
  

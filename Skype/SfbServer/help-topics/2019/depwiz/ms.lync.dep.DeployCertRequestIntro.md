@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.dep.DeployCertRequestIntro
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: e1d0844b-168e-4474-a432-ce83925a4fe1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 証明書の要求処理を続行するには、[次へ] をクリックします。 システムに変更を加えずにプロセスを終了するには、[キャンセル] をクリックします。
-ms.openlocfilehash: 717475f4246a61c029d02faef5b70ee7b44eef97
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: d0458533ae46092ccf5bd1b8799018ade260c983
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705652"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41796708"
 ---
 # <a name="certificate-request-intro"></a>証明書要求 (開始)
  

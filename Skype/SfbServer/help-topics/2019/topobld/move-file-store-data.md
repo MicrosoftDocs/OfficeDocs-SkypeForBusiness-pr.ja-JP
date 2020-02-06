@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype for Business Server の展開のために現在ファイルストアとして機能しているファイルサーバーを削除する必要がある場合、または現在のファイルストアを使用できないその他の変更を行う必要がある場合は、最初に新しい共有を作成する必要があります。 その後、次の手順を実行する必要があります。
-ms.openlocfilehash: 9909412d81240d87b8d1211453118780d1745744
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 00fa169eb000c9575609359c146a9db24c94de48
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40988932"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794456"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>ファイルストアデータを Skype for Business Server の新しいファイルストアに移動する
 

@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.SimpleUrlSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9fd2087a-3c3a-4863-aa7f-e532a18e77af
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[新規作成]、[既存の削除] を指定する、またはアクティブなシンプル Url を変更するには、次の操作を行います。'
-ms.openlocfilehash: 322df108288c6aad8b8f6f65867e84ec5cbc789c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: dcd761b641a3580c13083ea03c7de48185076f84
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41701552"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41796516"
 ---
 # <a name="simple-url-settings-expander"></a>簡易 URL 設定エキスパンダー
 

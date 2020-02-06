@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.ExtXmppPartnerEdit
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 7a14552e-96b0-4a3d-bb9b-4813c97dd8e1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 6a4fa01301ba982b2c5afcce1b03d79d81b550e5
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 2ca59a2c8815dad8b4f5e55b37b4f4b8a38b1b53
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41691272"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797658"
 ---
 # <a name="xmpp-federated-partners-create-new-or-edit-existing"></a>XMPP フェデレーション パートナー: 新規作成または現在の形式のままで編集
 

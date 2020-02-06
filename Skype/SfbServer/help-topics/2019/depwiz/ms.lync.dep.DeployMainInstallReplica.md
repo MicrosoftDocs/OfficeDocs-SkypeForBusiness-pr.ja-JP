@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.dep.DeployMainInstallReplica
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: d9c4bcc2-11a7-4d4d-858d-224db217ad32
 ROBOTS: NOINDEX, NOFOLLOW
 description: 新しい Skype for Business Server の役割サーバーのインストールを開始するには、まず、ローカル構成ストアをホストするローカル SQL Server をインストールする必要があります。 ローカル構成ストアは、Skype for Business Server Central Management store (CMS) の読み取り専用レプリカとして機能します。
-ms.openlocfilehash: 51343bc68415d5c3a9b99b0697285f2e5c30d557
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 365529c3c9cb15ea50cd6a482bd2a69143daa219
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705457"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794796"
 ---
 # <a name="install-local-configuration-store"></a>ローカル構成ストアのインストール
 

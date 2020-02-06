@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AddArchivingServerSqlStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26e0a748-e31d-4c66-b225-b37e0a45408f
 ROBOTS: NOINDEX, NOFOLLOW
 description: アーカイブデータを保存するには、アーカイブサーバーでサポートされている64ビット版の SQL Server データベースソフトウェアが必要です。 以前に定義した SQL Server データベースをアーカイブまたは新しい sql Server データベースとして使用するには、SQL Server データベースが存在するサーバーの完全修飾ドメイン名 (FQDN) を指定し、次のような SQL Server データベースを作成することができます。新しい SQL Server データベース (既定のインスタンスまたは指定した名前付きインスタンス) に使用します。
-ms.openlocfilehash: 14a104a28c28c5ea78ab97fd73f7eb7312fffd87
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 01153a976f404b1eac8176f55ffd7951d62975c9
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41689712"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794856"
 ---
 # <a name="add-archiving-server-sql-server-store"></a>アーカイブ サーバー SQL Server ストアの追加
 

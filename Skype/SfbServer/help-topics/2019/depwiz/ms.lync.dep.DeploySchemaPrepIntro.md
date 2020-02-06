@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.dep.DeploySchemaPrepIntro
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: e74f0ef5-4ced-489e-9509-e0464dad5c24
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype for Business Server のスキーマを拡張するタスクを開始するには、[スキーマの準備] ページを使います。 [次へ] をクリックして、スキーマの準備に進みます。
-ms.openlocfilehash: dea2d246672d69d9ce5e6d369d9ca50213b84eb9
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: faa4e9c9389eee6b54f13d1a8312310fc69c0faa
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41691662"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794656"
 ---
 # <a name="prepare-schema-intro"></a>スキーマの準備 (開始)
  

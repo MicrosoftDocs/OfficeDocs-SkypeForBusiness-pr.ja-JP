@@ -8,17 +8,19 @@ ms.date: 7/14/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.custom: Strat_SB_Admin
 ms.assetid: 71299b34-8783-4384-9949-0d3162c8a36e
 description: '概要: Skype for Business Server のインストールのために環境を準備する方法について説明します。 Skype for Business Server の無料トライアルは、次https://www.microsoft.com/evalcenter/evaluate-skype-for-business-serverの Microsoft 評価センターからダウンロードしてください。'
-ms.openlocfilehash: f15a305a660586e017984a171db217636e2e09ff
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: cac618aba9f97237e585ffc57b99c71a8a5c8645
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244338"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797088"
 ---
 # <a name="install-skype-for-business-server"></a>Skype for Business Server のインストール
  
@@ -56,7 +58,7 @@ Skype for Business Server を初めて起動して実行するには、8つの�
     
 - [Skype For Business server で新しいトポロジを作成して公開](create-and-publish-new-topology.md)する: トポロジ内の各サーバーに skype For business server システムをインストールするには、トポロジを作成して公開する必要があります。 トポロジを公開するときは、トポロジの情報を中央管理ストア データベースに読み込みます。 Enterprise Edition プールの場合は、新しいトポロジを初めて公開するときに中央管理ストア データベースを作成することになります。 Standard Edition の場合は、トポロジを公開する前に、展開ウィザードから [最初の Standard Edition サーバーの準備] プロセスを実行する必要があります。 この操作を行うと、SQL Server Express Edition インスタンスのインストールと中央管理ストアの作成が行われ、Standard Edition が準備されます。
     
-- [トポロジ内のサーバーに Skype For Business server をインストール](install-skype-for-business-server.md)する: トポロジが中央管理ストアに読み込まれ、Active Directory でどのサーバーがどの役割を実行するかがわかっている場合、それぞれに Skype For business server システムをインストールする必要があります。トポロジ内のサーバー。
+- [トポロジ内のサーバーに Skype For Business server をインストール](install-skype-for-business-server.md)する: トポロジが中央管理ストアに読み込まれ、Active Directory でどのサーバーがどの役割を実行するかがわかっている場合は、トポロジの各サーバーに Skype For business Server システムをインストールする必要があります。
     
 - [Skype For Business server でトポロジを確認](verify-the-topology.md)する: トポロジを公開した後、トポロジ内の各サーバーに Skype For business server システムコンポーネントをインストールしたら、トポロジが予期したとおりに機能していることを確認できます。 これには、構成がすべての Active Directory サーバーに伝達されていることを確認することが含まれます。これにより、ドメイン全体で Skype for Business がドメインで利用可能であると認識されるようになります。
     

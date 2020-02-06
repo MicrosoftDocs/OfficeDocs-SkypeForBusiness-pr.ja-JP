@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.ImpChooseImSchema
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: bfa55f83-70b4-4790-9b9f-8d849dd94909
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[ハイパーリンクプレフィックスの選択] ダイアログボックスを使用して、ブロックするハイパーリンクの種類を選ぶか、警告メッセージを送信するか、または (チェックボックスをオンにして警告メッセージをブロックまたは送信します)、またはの下のカテゴリからの拡張機能のチェックボックスをオフ (許可) にします。ハイパーリンクのプレフィックス。 矢印をクリックしてカテゴリを展開し、そのカテゴリのすべてのハイパーリンクプレフィックスを表示します。 カテゴリのすべてのハイパーリンクのプレフィックスを選択する場合は、カテゴリ名を選択します。'
-ms.openlocfilehash: f9d88838c41d2d5fb4ec21d3dd6459ab1ac66d2b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b69dfc67073e2aa78a0c9a961aa80f61f69d0ca6
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41704772"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41795388"
 ---
 # <a name="select-hyperlink-prefix"></a>ハイパーリンクのプレフィックスの選択
  

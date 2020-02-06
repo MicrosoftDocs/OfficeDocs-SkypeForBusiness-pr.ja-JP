@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.dep.DeploySchemaPrepInvoke
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: f031eb6d-0749-4247-842c-c1e701027ffb
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[コマンドの実行] ページには、Skype for Business Server のスキーマを拡張するために発行されたコマンドの概要が表示されます。'
-ms.openlocfilehash: 230e606c8ee574052fd351fa3b25525d5f11856f
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a7d6f6d609222e692334dec7d1ec778a37aa4e1b
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705332"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794646"
 ---
 # <a name="prepare-schema-invoke"></a>スキーマの準備 (起動)
  

@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.EdgeServerAddMachinePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bdae4545-942e-4f76-9d3f-6ac5d1ebe213
 ROBOTS: NOINDEX, NOFOLLOW
 description: このプールでエッジサーバーとして追加する各コンピューターの完全修飾ドメイン名 (FQDN) を指定します。 コンピューターを一覧に追加した後は、トポロジを公開する前に、コンピューターの FQDN を更新するか、プールから削除することができます。 トポロジを公開した後、FQDN を変更するには、トポロジビルダーでサーバーを削除してから新しい FQDN のプールに新しいサーバーを追加する必要があります。 エッジプールのトポロジの設計の詳細については、「エッジの展開のドキュメントでエッジトポロジを定義する」を参照してください。
-ms.openlocfilehash: 8756d101af4a4f2e90f34b4148f0de71e1a35e2b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 6af9b4096f22af2932e1692702f8ebad11d920d0
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41702252"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41793785"
 ---
 # <a name="edge-server-add-machine"></a>エッジ サーバー コンピューターの追加
 

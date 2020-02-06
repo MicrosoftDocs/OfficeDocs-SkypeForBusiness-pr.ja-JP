@@ -8,15 +8,17 @@ ms.date: 3/28/2016
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 6b4f4d69-3c9d-4bc7-bc9b-46427a095de2
 description: '概要: このトピックでは、Skype for Business Server 2015 トポロジに常設チャットサーバーを追加する方法について説明します。'
-ms.openlocfilehash: 7d5a61dd001c759eab4b168cb3543032de7b4fc4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 733d75e954c75cecfab38e0a2f1294c6e20984c1
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239868"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794115"
 ---
 # <a name="add-persistent-chat-server-to-your-skype-for-business-server-2015-topology"></a>Skype for Business Server 2015 トポロジに常設チャットサーバーを追加する
  
@@ -40,7 +42,7 @@ ms.locfileid: "36239868"
 1. Skype for Business Server を実行しているコンピューター、または Skype for Business Server 管理ツールがインストールされているコンピューターで、ローカルユーザーグループのメンバーであるアカウント (または同等のユーザー権限を持つアカウント) を使ってログオンします。
     
     > [!NOTE]
-    > トポロジを定義するには、local Users グループのメンバーであるアカウントを使用しますが、Skype for Business Server をインストールするために必要なトポロジを公開するには、 **Domain Admins**グループ**のメンバーであるアカウントを使用する必要があります。RTCUniversalServerAdmins**グループ。これには、常設チャットサーバーファイルストア (Topology Builder で必要な dacl を構成できるようにします) のフルコントロールのアクセス許可 (読み取り、書き込み、変更)、またはそのアカウントの同等の権利。
+    > トポロジを定義するには、ローカルユーザーグループのメンバーであるアカウントを使用しますが、トポロジを公開するには、Skype for Business Server をインストールするには、**ドメイン管理者**グループと**RTCUniversalServerAdmins**グループのメンバーであるアカウントと、常設チャットサーバーのファイルストアで使用する (topology Builder が必要な dacl を構成するために) ファイルストアに対してフルコントロールのアクセス許可 (読み取り、書き込み、変更) が使用されている必要があります。rights.
   
 2. トポロジビルダーを起動します。
     
@@ -78,7 +80,7 @@ ms.locfileid: "36239868"
 9. コンプライアンスを有効にしている場合は、SQL Server コンプライアンスストアを定義します。
     
     > [!IMPORTANT]
-    > 常設チャットサーバーデータベースと常設チャットサーバーのコンプライアンスデータベースに対して高可用性のための SQL Server ミラーを構成する方法の詳細については、「 [Skype の常設チャットサーバーの高可用性と障害回復を構成する」を参照してください。Business Server 2015 の場合](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md)。 
+    > 常設チャットサーバーデータベースおよび常設チャットサーバーのコンプライアンスデータベースに対して高可用性のための SQL Server ミラーを構成する方法の詳細については、「 [Skype For Business server 2015 の常設チャットサーバーの高可用性と障害復旧を構成](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md)する」を参照してください。 
   
 10. ファイルストアを定義します。 ファイルストアは、ファイルリポジトリにアップロードされたファイルのコピーが格納されているフォルダーです (たとえば、チャットルームに投稿された添付ファイルを保存します)。 複数サーバーの常設チャットサーバートポロジの場合、これは汎用名前付け規則 (UNC) パスである必要があります。また、単一サーバーの常設チャットサーバートポロジでは、ローカルファイルパスにすることができます。
     
@@ -107,7 +109,7 @@ ms.locfileid: "36239868"
   
 トポロジを公開する前に、常設チャットサーバー用のデータベースをインストールします。 [**アクション**]、[**データベースのインストール**] の順に選択して、トポロジビルダーを使用してデータベースをインストールします。
   
-1. Skype for Business Server を実行しているコンピューター、または Skype for Business Server 管理ツールがインストールされているコンピューターの場合は、 **Domain Admins**グループと**RTCUniversalServerAdmins**グループの両方のメンバーであるアカウントを使用してログオンします。また、これには、常設チャットサーバーファイルストア (Topology Builder が必要な随意アクセス制御リスト (Dacl)) または同等のユーザーのアカウントを構成できるように、ファイルストアに対するフルコントロールのアクセス許可 (読み取り、書き込み、変更) が含まれています。rights.
+1. Skype for Business Server を実行しているコンピューター、または Skype for Business Server 管理ツールがインストールされているコンピューターで、[ **Domain Admins** ] グループと**RTCUniversalServerAdmins**グループの両方のメンバーであり、かつ永続的なチャットサーバーファイルストア (Topology Builder では、必要な随意アクセス制御リスト (dacl)) または同等のユーザーのアカウントを構成できるフルコントロールのアクセス許可 (読み取り、書き込み、変更) を使用してログオンします。rights.
     
 2. トポロジビルダーを起動します。 トポロジがローカルに保存されている場合は、[**ローカル ファイルからトポロジを開く**] を選択します。
     

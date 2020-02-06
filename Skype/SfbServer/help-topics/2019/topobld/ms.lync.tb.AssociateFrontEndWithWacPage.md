@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AssociateFrontEndWithWacPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49dc1a92-970b-4372-a3a2-2c714a52b1c3
 ROBOTS: NOINDEX, NOFOLLOW
 description: Office Web Apps サーバーでは、会議で使用するドキュメントをアップロードする発表者のようなサービスが提供されますが、以前のバージョンにはなかった追加機能が可能になりました。
-ms.openlocfilehash: 89b571e649e80d92aaac87f671c81d07b0b9061f
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: e13895381c3a3d7962fb55b541239b85357a8921
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41688890"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41793975"
 ---
 # <a name="associate-front-end-with-office-web-apps-server-page"></a>フロントエンドと Office Web Apps サーバーとの関連付けページ
 

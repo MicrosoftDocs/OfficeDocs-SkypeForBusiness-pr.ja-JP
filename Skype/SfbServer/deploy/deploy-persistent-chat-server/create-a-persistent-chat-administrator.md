@@ -8,15 +8,17 @@ ms.date: 3/28/2016
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 5c3892e4-ebae-453e-8107-f42ec0436ea2
 description: '概要: このトピックでは、Skype for Business Server 2015 で常設チャットサービスの初期構成と管理を有効にするための、常設チャットサーバー管理者の役割を作成する方法について説明します。'
-ms.openlocfilehash: 3692169a65d73c3951ce58e77b132a4f118c54e9
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 987183b8ca5cc32e2888040b43d61e5d6fcac09b
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239771"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794105"
 ---
 # <a name="create-a-persistent-chat-administrator-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での常設チャット管理者の作成
  

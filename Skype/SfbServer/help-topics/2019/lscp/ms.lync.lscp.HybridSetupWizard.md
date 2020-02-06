@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.HybridSetupWizard
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: c8600c4e-dc54-4af2-a72e-c1b997d83443
 ROBOTS: NOINDEX, NOFOLLOW
 description: ハイブリッド管理ウィザードを使用すると、Skype for Business Online とのハイブリッド展開を設定するために必要な構成タスクを実行できます。 ハイブリッド用の展開を構成する方法の詳細については、「ハイブリッド管理ウィザードを使用して環境を構成する」を参照してください。
-ms.openlocfilehash: 926d54d3649e0410d7b310aaf46a6553d62f1b22
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: d60d064c28683e853f6d6c662e1638c2e145e59a
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41691172"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41796566"
 ---
 # <a name="hybrid-manageability-wizard"></a>ハイブリッド管理ウィザード
 

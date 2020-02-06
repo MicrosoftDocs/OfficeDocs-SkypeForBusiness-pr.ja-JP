@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.ClientDeviceUpdateEdit
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
 ROBOTS: NOINDEX, NOFOLLOW
 description: ログの最大サイズ、最大ログファイルサイズ、ログファイルが削除されるまでの保存時間の長さを決定する [ログ設定の編集] ページに、デバイスログの構成を追加できます。 組織の要件に応じて、これらの設定を変更することができます。
-ms.openlocfilehash: 6c448b886b14397f65d7ebeb5a52b90a38c7b320
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: f2c169038b69fbbb3e68838827a9a77d472c87e4
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41691542"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794526"
 ---
 # <a name="device-log-configuration-edit"></a>デバイス ログの構成: 編集
  

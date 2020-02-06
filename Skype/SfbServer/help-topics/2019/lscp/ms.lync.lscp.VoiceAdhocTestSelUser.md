@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.VoiceAdhocTestSelUser
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 91a63439-f2a4-47b3-8c4e-29c8f32ee3c5
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[エンタープライズ Voip ユーザーの選択] ダイアログボックスを使用して、エンタープライズ Voip を有効にしているユーザーを検索します。 検索ボックスに、検索するユーザーの SIP アドレスまたは表示名を入力し、[検索] をクリックします。 ユーザーを選択するには、検索結果の一覧でユーザーをクリックし、[OK] をクリックします。 探しているユーザーが見つからない場合、そのユーザーはエンタープライズ Voip が有効になっていない可能性があります。'
-ms.openlocfilehash: 619d79c332c01183d787f3d278c403e95c3368d1
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 657370b80b3fb538e39a46aa73266c727ad8d3ce
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41690342"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797874"
 ---
 # <a name="select-enterprise-voice-users"></a>エンタープライズ VoIP ユーザーの選択
  

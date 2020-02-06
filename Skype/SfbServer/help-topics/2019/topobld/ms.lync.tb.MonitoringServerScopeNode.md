@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.MonitoringServerScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
 ROBOTS: NOINDEX, NOFOLLOW
 description: トポロジビルダーでは、監視を実行している個々のサーバーに関連するタスクを実行するには、コンソールツリーで監視を実行しているサーバーを右クリックするか、ツールバーの [操作] をクリックするか、または [操作] ウィンドウでタスクをクリックして、次のいずれかをクリックします。監視を実行しているサーバーの場合、次のオプションがあります。
-ms.openlocfilehash: ab3565efefe7f11b4d65472e8b0a97e73ebd47c4
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 291ab9e8a0fef76ea80044c6495765a21b0e5b54
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41688180"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41796176"
 ---
 # <a name="monitoring-scope-node"></a>監視のスコープ ノード
  

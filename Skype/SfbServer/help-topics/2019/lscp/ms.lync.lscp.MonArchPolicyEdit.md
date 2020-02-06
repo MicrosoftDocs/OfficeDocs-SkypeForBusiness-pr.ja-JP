@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.MonArchPolicyEdit
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: a4f948e7-e8f6-449a-8907-f61c5b143c05
 ROBOTS: NOINDEX, NOFOLLOW
 description: アーカイブポリシーを使用して、Skype for Business Server を使っているユーザーの展開での内部および外部通信のアーカイブを制御します。 アーカイブ ポリシーには、グローバル ポリシーとオプションの 1 つ以上のサイト ポリシーやユーザー ポリシーが含まれます。
-ms.openlocfilehash: 1eb1f0060e80fbb7d325f5fbe1b7a247d6d006b6
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 162266ebdb3a59148b539d6681930698e30426c7
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41691222"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41796376"
 ---
 # <a name="archiving-policy-create-new-or-edit-existing"></a>アーカイブ ポリシー: 新規作成または現在の形式のままで編集
  

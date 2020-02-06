@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.UserViewPersistentChat
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: c66c6689-28a2-4758-add1-0d0dff0d3eee
 ROBOTS: NOINDEX, NOFOLLOW
 description: CsPersistentChatAdministrator ロールのメンバー (常設チャット管理者) は、チャットルーム管理者の権限と権限を他のユーザーに与えることができます。
-ms.openlocfilehash: b317f3e6f179703b31073b01f3647832d5d13afa
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: e8c389a505aad377142ff5282348dccb342da339
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41703982"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797924"
 ---
 # <a name="users-view-persistent-chat"></a>ユーザが常設チャットを表示
 

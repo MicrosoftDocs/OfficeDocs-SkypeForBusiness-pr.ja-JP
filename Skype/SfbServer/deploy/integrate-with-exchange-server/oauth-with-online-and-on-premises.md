@@ -8,16 +8,18 @@ ms.date: 4/2/2019
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: オンプレミスの Exchange と Skype for Business Online の間で OAuth 認証を構成すると、機能のサポートで説明されている Skype for Business と Exchange の統合機能が有効になります。
-ms.openlocfilehash: 35dc8777ddf5c7102e99d726f916f9b8f8bb4aae
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: b673332ea4c4428e68d6434c4638cbc78aa0ba7d
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41002897"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797048"
 ---
 # <a name="configure-integration-and-oauth-between-skype-for-business-online-and-exchange-server"></a>Skype for Business Online と Exchange Server の間で統合と OAuth を構成する 
 
@@ -150,6 +152,6 @@ OAuth を正常に使用していることを確認したい場合は、想定�
 
 次に[1 つを設定する例](https://blogs.msdn.microsoft.com/kaevans/2015/03/30/updated-fiddler-oauth-inspector/)を示しますが、この処理を実行する任意のネットワークトレースツールを使用できます。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Exchange と Exchange Online の組織間の OAuth 認証を構成する](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)
