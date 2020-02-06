@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.RgsSelGroup
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
 ROBOTS: NOINDEX, NOFOLLOW
 description: 応答グループキューは、エージェントが通話に応答するまで応答グループへの呼び出しを保持します。 キューにエージェントグループが割り当てられている。 キューを作成または編集するときは、[グループの選択] ダイアログボックスを使って、キューに割り当てる1つ以上のエージェントグループを選択します。
-ms.openlocfilehash: fd27a776b17985fa9fee85ec536ff9f0ae56f8a7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 6439a501f48a67df56d37a4435c15a3c284c347f
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41704362"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41793465"
 ---
 # <a name="select-groups"></a>グループの選択
 

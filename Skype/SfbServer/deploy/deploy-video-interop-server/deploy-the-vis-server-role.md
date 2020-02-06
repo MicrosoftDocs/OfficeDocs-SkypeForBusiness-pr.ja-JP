@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b6401e67-59fe-4419-a0ab-ffac88e67632
 description: '概要: Skype for Business Server で、ビデオ相互運用機能サーバー (VIS) の役割を展開します。'
-ms.openlocfilehash: 1e200382bc6b6eac00bcf69b49592337f6b5c3b4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 1fadab718a37dba2ffee5338d4dc898316b4d24d
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235693"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41798044"
 ---
 # <a name="deploy-the-vis-server-role-in-skype-for-business-server"></a>VIS server の役割を Skype for Business Server に展開する
  

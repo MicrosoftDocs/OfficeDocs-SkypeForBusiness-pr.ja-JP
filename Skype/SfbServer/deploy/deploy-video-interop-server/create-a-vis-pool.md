@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: abd8c4f7-057f-4360-8e3e-ec29b58f16a8
 description: '概要: トポロジビルダーを使用して、Skype for Business Server でビデオ相互運用機能サーバープールを作成します。'
-ms.openlocfilehash: dc97fde4447778be20cb60d86cddac65b663c321
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 474752253312b58b87a3d01f445bd93eabdaf203
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235663"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41798054"
 ---
 # <a name="create-a-vis-pool-in-skype-for-business-server"></a>Skype for Business Server で VIS プールを作成する
  

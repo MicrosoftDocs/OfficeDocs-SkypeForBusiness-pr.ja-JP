@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.ExternalApplicationNextHopSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: be7857e4-9a75-4de5-91b0-bcb241930a0c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 定義済みの Enterprise Edition のフロントエンドプールまたは標準エディションのフロントエンドサーバーをドロップダウンリストから選択して、信頼できるアプリケーションサーバープールの次ホップサーバーを指定できます。 ディレクターまたはディレクタープールが、信頼されているアプリケーションサーバーの次ホップに対して有効な選択ではないため、一覧に表示されません。 [OK] をクリックして、変更を承諾して保存します。 変更を破棄してプロパティ ページを終了するには、[キャンセル] をクリックします。
-ms.openlocfilehash: 5ce35ec229aaad86d60db3c05fa0bf975aac544e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 6642826eb9924f0cdf0b36abf7427bbdc19951d2
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41688580"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41793735"
 ---
 # <a name="external-application-next-hop-settings-expander"></a>外部アプリケーションの次ホップ設定エキスパンダー
  
