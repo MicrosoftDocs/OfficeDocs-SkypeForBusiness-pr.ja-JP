@@ -7,21 +7,23 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 従来の展開にアーカイブサーバーまたは監視サーバーが含まれている場合、Skype for Business Server 2019 に移行した後、これらのサーバーは、すべてのユーザーが残っている従来のプールから削除された、従来の環境から削除することができます。 アーカイブサーバーまたは監視サーバーは、任意の順序で削除できます。 主要な要件は、すべてのユーザーが残っている従来のプールから削除されていることです。
-ms.openlocfilehash: 06d6287438e4b470017b00601b1e2ab472bea9b6
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 034d2ad284c0247b19e56e4cd8d751a0cf32ee69
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244229"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41812995"
 ---
-# <a name="remove-legacy-archiving-and-monitoring-servers"></a><span data-ttu-id="2ec6a-105">従来のアーカイブ サーバーおよび監視サーバーの削除</span><span class="sxs-lookup"><span data-stu-id="2ec6a-105">Remove legacy Archiving and Monitoring servers</span></span>
+# <a name="remove-legacy-archiving-and-monitoring-servers"></a><span data-ttu-id="6588e-105">従来のアーカイブ サーバーおよび監視サーバーの削除</span><span class="sxs-lookup"><span data-stu-id="6588e-105">Remove legacy Archiving and Monitoring servers</span></span>
 
-<span data-ttu-id="2ec6a-106">従来の展開にアーカイブサーバーまたは監視サーバーが含まれている場合、Skype for Business Server 2019 に移行した後、これらのサーバーは従来の環境から削除できます。すべてのユーザーが残っている従来のプールから削除されています。</span><span class="sxs-lookup"><span data-stu-id="2ec6a-106">If your legacy deployment contained an Archiving Server or a Monitoring Server, after migrating to Skype for Business Server 2019, those servers can be removed from the legacy environment, provided all users have been removed from any remaining legacy pools.</span></span> <span data-ttu-id="2ec6a-107">アーカイブサーバーまたは監視サーバーは、任意の順序で削除できます。</span><span class="sxs-lookup"><span data-stu-id="2ec6a-107">You can remove the Archiving Server or Monitoring Server in any sequence.</span></span> <span data-ttu-id="2ec6a-108">主要な要件は、すべてのユーザーが残っている従来のプールから削除されていることです。</span><span class="sxs-lookup"><span data-stu-id="2ec6a-108">The key requirement is that all users have been removed from any remaining legacy pools.</span></span>
+<span data-ttu-id="6588e-106">従来の展開にアーカイブサーバーまたは監視サーバーが含まれている場合、Skype for Business Server 2019 に移行した後、これらのサーバーは従来の環境から削除できます。すべてのユーザーが残っている従来のプールから削除されています。</span><span class="sxs-lookup"><span data-stu-id="6588e-106">If your legacy deployment contained an Archiving Server or a Monitoring Server, after migrating to Skype for Business Server 2019, those servers can be removed from the legacy environment, provided all users have been removed from any remaining legacy pools.</span></span> <span data-ttu-id="6588e-107">アーカイブサーバーまたは監視サーバーは、任意の順序で削除できます。</span><span class="sxs-lookup"><span data-stu-id="6588e-107">You can remove the Archiving Server or Monitoring Server in any sequence.</span></span> <span data-ttu-id="6588e-108">主要な要件は、すべてのユーザーが残っている従来のプールから削除されていることです。</span><span class="sxs-lookup"><span data-stu-id="6588e-108">The key requirement is that all users have been removed from any remaining legacy pools.</span></span>
   
-<span data-ttu-id="2ec6a-109">[「フェーズ 4: テストユーザーをパイロットプールに移動](phase-4-move-test-users-to-the-pilot-pool.md)する」で説明されている手順に従って、ユーザーを Skype For business Server 2019 に移動することができます。</span><span class="sxs-lookup"><span data-stu-id="2ec6a-109">You can move users to Skype for Business Server 2019 by following the procedures outlined in [Phase 4: Move test users to the pilot pool](phase-4-move-test-users-to-the-pilot-pool.md).</span></span>
+<span data-ttu-id="6588e-109">[「フェーズ 4: テストユーザーをパイロットプールに移動](phase-4-move-test-users-to-the-pilot-pool.md)する」で説明されている手順に従って、ユーザーを Skype For business Server 2019 に移動することができます。</span><span class="sxs-lookup"><span data-stu-id="6588e-109">You can move users to Skype for Business Server 2019 by following the procedures outlined in [Phase 4: Move test users to the pilot pool](phase-4-move-test-users-to-the-pilot-pool.md).</span></span>
   
-<span data-ttu-id="2ec6a-110">すべてのユーザーが残りのプールから削除されたことを確認した後、サーバーを decommision し、役割を削除します。</span><span class="sxs-lookup"><span data-stu-id="2ec6a-110">After you have confirmed that all users have been removed from any remaining pools, decommision the server and remove roles.</span></span> <span data-ttu-id="2ec6a-111">意味のあるものの、"Microsoft Lync Server をアンインストールしてサーバーの役割を削除してい[https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkId=246227)ます" という例として、ダウンロード可能なものがあります。</span><span class="sxs-lookup"><span data-stu-id="2ec6a-111">A dated, but relevant, example is "Uninstalling Microsoft Lync Server and Removing Server Roles," which can be downloaded at [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkId=246227).</span></span>
+<span data-ttu-id="6588e-110">すべてのユーザーが残りのプールから削除されたことを確認した後、サーバーを decommision し、役割を削除します。</span><span class="sxs-lookup"><span data-stu-id="6588e-110">After you have confirmed that all users have been removed from any remaining pools, decommision the server and remove roles.</span></span> <span data-ttu-id="6588e-111">意味のあるものの、"Microsoft Lync Server をアンインストールしてサーバーの役割を削除してい[https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkId=246227)ます" という例として、ダウンロード可能なものがあります。</span><span class="sxs-lookup"><span data-stu-id="6588e-111">A dated, but relevant, example is "Uninstalling Microsoft Lync Server and Removing Server Roles," which can be downloaded at [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkId=246227).</span></span>
   
 

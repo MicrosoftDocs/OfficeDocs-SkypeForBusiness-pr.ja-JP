@@ -9,15 +9,17 @@ ms.date: 2/11/2019
 audience: ITPro
 ms.topic: landing-page
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: ''
 description: '概要: Skype for Business Server 2019 の実装方法については、以下のリンクを参照してください。'
-ms.openlocfilehash: 3bb946285b5bd85722aa1983cbbc7e87dbb72506
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cd436fb851d5b94db1762dc0c8e6e0e1cf99a1c0
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283907"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41812535"
 ---
 # <a name="skype-for-business-server-2019"></a>Skype for Business Server 2019
 
@@ -33,7 +35,7 @@ ms.locfileid: "34283907"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>プラン</h3>
+                        <h3>計画</h3>
                     </div>
                 </div>
             </div>
@@ -206,7 +208,7 @@ ms.locfileid: "34283907"
 |                                                                                                                                                                                        |                                                                                                                                                                                                                             |                                                                                                                                                                                                     |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **始める前に** <br>[システム要件](plan/system-requirements.md) <br>[ネットワーク要件](../SfbServer/plan-your-deployment/network-requirements/network-requirements.md) | **インストール** <br>[Skype for Business Server のインストール](../SfbServer/deploy/install/install.md) <br> [Skype for Business 2019 に移行する](migration/migration-to-skype-for-business-server-2019.md)                             | **エンタープライズ VoIP**<br>[計画](../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)<br>[展開](../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) |
-| **新機能**<br>[新機能](whats-new.md)                                                                                                                                         | **ハイブリッドソリューション**<br>[ハイブリッド接続を計画する](../sfbhybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)|  **以前のリリース**<br/>  [Skype for Business Server 2015 ドキュメント](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-server-2015) <br/>   [Lync Server 2013 ドキュメント](/lyncserver/microsoft-lync-server-2013)                                                                                                                                                                                             |
+| **新機能**<br>[新機能](whats-new.md)                                                                                                                                         | **ハイブリッドソリューション**<br>[ハイブリッド接続のプラン](../sfbhybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)|  **以前のリリース**<br/>  [Skype for Business Server 2015 ドキュメント](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-server-2015) <br/>   [Lync Server 2013 ドキュメント](/lyncserver/microsoft-lync-server-2013)                                                                                                                                                                                             |
 |                                                                                                                                                                                        |                                                                                                                                                                                                                             |                                                                                                                                                                                                     |
 
 * * *
