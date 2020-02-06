@@ -8,15 +8,17 @@ ms.date: 11/15/2017
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: aeca610b-db0a-45cf-95b9-ae9a6bbccb45
 description: '[Cc-Credentials の復元] コマンドレットは、現在の Skype for Business Cloud Connector エディションの展開のすべての資格情報を復元します。'
-ms.openlocfilehash: adac3f0b9ca6cf392b537a9c5d0f2095021c7120
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: b2cd35b284bcd7e49aabbaa3055c397915565d09
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003247"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824243"
 ---
 # <a name="restore-cccredentials"></a>Restore-CcCredentials
  

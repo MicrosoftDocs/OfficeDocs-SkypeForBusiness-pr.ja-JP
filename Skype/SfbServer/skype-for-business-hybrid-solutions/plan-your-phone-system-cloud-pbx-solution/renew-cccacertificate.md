@@ -8,15 +8,17 @@ ms.date: 7/18/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 44da2f8d-0bf5-4f3e-b2e7-bb181dbbe646
 description: Renew-CcCACertificate コマンドレットは、有効期限が近づいている、またはすでに有効期限が切れている Skype for Business Cloud Connector エディションのルート CA 証明書を更新します。 このコマンドは、クラウドコネクタ2.0 以降のリリースで CcCACertificate に変更されました。
-ms.openlocfilehash: 493b733eab9cbd8331a93d72dc4a865f3574fbe8
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: e92709cd1da0ffccd2b356000dbd2345ba56a1d9
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003277"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824273"
 ---
 # <a name="renew-cccacertificate"></a>Renew-CcCACertificate
  

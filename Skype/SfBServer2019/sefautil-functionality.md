@@ -8,15 +8,17 @@ ms.date: 07/22/2019
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: '概要: 累積的な更新プログラム1をインストールした後、PowerShell を使用して Skype for Business Server 2019 の SEFAUtil 機能を入手する方法について説明します。'
-ms.openlocfilehash: 6652e3b76a31ac4b315c70498ac2b01d4467b70e
-ms.sourcegitcommit: dc151bf4454ddec20db5cd133a42a67599c08d64
+ms.openlocfilehash: 91958d466a2f51b45ef933d21bfce10f5c61790d
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "36838100"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824021"
 ---
 # <a name="using-sefautil-functionality-via-powershell-in-skype-for-business-server-2019"></a>Skype for Business Server 2019 の PowerShell 経由で SEFAUtil 機能を使用する
 
@@ -92,7 +94,7 @@ SEFAUtil (セカンダリ拡張機能のアクティブ化) では、skype for b
 
 このコマンドレットは、チームリストを特定のメンバーに設定します。
 
-## <a name="more-information"></a>詳細情報
+## <a name="more-information"></a>More information
 
 オンプレミス展開の場合、この機能で導入されたコマンドレットは、次のように指定されたアクセスレベルごとに、次のグループのメンバーのみが実行できます。
 
