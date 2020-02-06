@@ -7,44 +7,46 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Skype for Business Server は、単純な Url をサポートしています。
-ms.openlocfilehash: 806003a2639d3861c066248657521ceb58a4e986
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ab820c1b24eb9b2e8befc85a34e82d068c9083ea
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239494"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813885"
 ---
-# <a name="change-simple-urls-after-migration"></a><span data-ttu-id="fd415-103">移行後の簡易 URL の変更</span><span class="sxs-lookup"><span data-stu-id="fd415-103">Change simple URLs after migration</span></span>
+# <a name="change-simple-urls-after-migration"></a><span data-ttu-id="ec021-103">移行後の簡易 URL の変更</span><span class="sxs-lookup"><span data-stu-id="ec021-103">Change simple URLs after migration</span></span>
 
-<span data-ttu-id="fd415-104">Skype for Business Server は、次の3つの簡単な Url をサポートしています。</span><span class="sxs-lookup"><span data-stu-id="fd415-104">Skype for Business Server supports three simple URLs:</span></span>
+<span data-ttu-id="ec021-104">Skype for Business Server は、次の3つの簡単な Url をサポートしています。</span><span class="sxs-lookup"><span data-stu-id="ec021-104">Skype for Business Server supports three simple URLs:</span></span>
   
-- <span data-ttu-id="fd415-105">**会議**は、サイトまたは組織内のすべての会議のベース URL として使用されます。</span><span class="sxs-lookup"><span data-stu-id="fd415-105">**Meet** is used as the base URL for all conferences in the site or organization.</span></span> <span data-ttu-id="fd415-106">[会議への参加] の [シンプル URL] を使用すると、会議に参加するためのリンクを簡単に理解して、簡単に連絡して配布することができます。</span><span class="sxs-lookup"><span data-stu-id="fd415-106">With the Meet simple URL, links to join meetings are easy to comprehend, and easy to communicate and distribute.</span></span> 
+- <span data-ttu-id="ec021-105">**会議**は、サイトまたは組織内のすべての会議のベース URL として使用されます。</span><span class="sxs-lookup"><span data-stu-id="ec021-105">**Meet** is used as the base URL for all conferences in the site or organization.</span></span> <span data-ttu-id="ec021-106">[会議への参加] の [シンプル URL] を使用すると、会議に参加するためのリンクを簡単に理解して、簡単に連絡して配布することができます。</span><span class="sxs-lookup"><span data-stu-id="ec021-106">With the Meet simple URL, links to join meetings are easy to comprehend, and easy to communicate and distribute.</span></span> 
     
-- <span data-ttu-id="fd415-107">[**ダイヤル**イン] は、ダイヤルイン会議の設定の web ページにアクセスできるようにします。</span><span class="sxs-lookup"><span data-stu-id="fd415-107">**Dial-in** enables access to the Dial-in Conferencing Settings webpage.</span></span> <span data-ttu-id="fd415-108">ダイヤルインの簡易 URL は、会議にダイヤルインするユーザーが必要な電話番号と PIN 情報にアクセスできるように、すべての会議出席依頼に含まれています。</span><span class="sxs-lookup"><span data-stu-id="fd415-108">The Dial-in simple URL is included in all meeting invitations so that users who want to dial in to the meeting can access the necessary phone number and PIN information.</span></span> 
+- <span data-ttu-id="ec021-107">[**ダイヤル**イン] は、ダイヤルイン会議の設定の web ページにアクセスできるようにします。</span><span class="sxs-lookup"><span data-stu-id="ec021-107">**Dial-in** enables access to the Dial-in Conferencing Settings webpage.</span></span> <span data-ttu-id="ec021-108">ダイヤルインの簡易 URL は、会議にダイヤルインするユーザーが必要な電話番号と PIN 情報にアクセスできるように、すべての会議出席依頼に含まれています。</span><span class="sxs-lookup"><span data-stu-id="ec021-108">The Dial-in simple URL is included in all meeting invitations so that users who want to dial in to the meeting can access the necessary phone number and PIN information.</span></span> 
     
-- <span data-ttu-id="fd415-109">**管理者**が Skype For Business Server コントロールパネルにすばやくアクセスできるようにします。</span><span class="sxs-lookup"><span data-stu-id="fd415-109">**Admin** enables quick access to the Skype for Business Server Control Panel.</span></span> <span data-ttu-id="fd415-110">管理者の簡易 URL は、組織の内部にあります。</span><span class="sxs-lookup"><span data-stu-id="fd415-110">The Admin simple URL is internal to your organization.</span></span> 
+- <span data-ttu-id="ec021-109">**管理者**が Skype For Business Server コントロールパネルにすばやくアクセスできるようにします。</span><span class="sxs-lookup"><span data-stu-id="ec021-109">**Admin** enables quick access to the Skype for Business Server Control Panel.</span></span> <span data-ttu-id="ec021-110">管理者の簡易 URL は、組織の内部にあります。</span><span class="sxs-lookup"><span data-stu-id="ec021-110">The Admin simple URL is internal to your organization.</span></span> 
     
-<span data-ttu-id="fd415-111">Skype for Business Server に移行した後、変更によって単純な Url の DNS レコードと証明書にどのような影響があるかを確認する必要があります。</span><span class="sxs-lookup"><span data-stu-id="fd415-111">After migrating to Skype for Business Server, you must be aware of how the change impacts your DNS records and certificates for simple URLs.</span></span> <span data-ttu-id="fd415-112">従来の Skype for Business Server ディレクターがトポロジでまだ使用されている場合は、単純な Url への変更は必要ありません。</span><span class="sxs-lookup"><span data-stu-id="fd415-112">If the legacy Skype for Business Server Director remains in use in the topology, no changes to your simple URLs are required.</span></span> <span data-ttu-id="fd415-113">移行後に Skype for Business Server ディレクターがトポロジから削除された場合、Skype for Business サーバープールの1つをポイントするように、単純な URL の DNS レコードを更新する必要があります。</span><span class="sxs-lookup"><span data-stu-id="fd415-113">If the Skype for Business Server Director is removed from the topology after migration, the simple URL DNS records must be updated to point to one of the Skype for Business Server pools.</span></span> <span data-ttu-id="fd415-114">ただし、単純な URL 名を変更する場合は必ず、各ディレクターとフロントエンドサーバーで [ユーザーの有効化] を実行して、変更を登録する必要があります。</span><span class="sxs-lookup"><span data-stu-id="fd415-114">Whenever you change a simple URL name, however, you must run Enable-CsComputer on each Director and Front End Server to register the change.</span></span>
+<span data-ttu-id="ec021-111">Skype for Business Server に移行した後、変更によって単純な Url の DNS レコードと証明書にどのような影響があるかを確認する必要があります。</span><span class="sxs-lookup"><span data-stu-id="ec021-111">After migrating to Skype for Business Server, you must be aware of how the change impacts your DNS records and certificates for simple URLs.</span></span> <span data-ttu-id="ec021-112">従来の Skype for Business Server ディレクターがトポロジでまだ使用されている場合は、単純な Url への変更は必要ありません。</span><span class="sxs-lookup"><span data-stu-id="ec021-112">If the legacy Skype for Business Server Director remains in use in the topology, no changes to your simple URLs are required.</span></span> <span data-ttu-id="ec021-113">移行後に Skype for Business Server ディレクターがトポロジから削除された場合、Skype for Business サーバープールの1つをポイントするように、単純な URL の DNS レコードを更新する必要があります。</span><span class="sxs-lookup"><span data-stu-id="ec021-113">If the Skype for Business Server Director is removed from the topology after migration, the simple URL DNS records must be updated to point to one of the Skype for Business Server pools.</span></span> <span data-ttu-id="ec021-114">ただし、単純な URL 名を変更する場合は必ず、各ディレクターとフロントエンドサーバーで [ユーザーの有効化] を実行して、変更を登録する必要があります。</span><span class="sxs-lookup"><span data-stu-id="ec021-114">Whenever you change a simple URL name, however, you must run Enable-CsComputer on each Director and Front End Server to register the change.</span></span>
 
-## <a name="to-update-the-meet-simple-url"></a><span data-ttu-id="fd415-115">[シンプルの概要 URL を更新するには、</span><span class="sxs-lookup"><span data-stu-id="fd415-115">To update the Meet simple URL</span></span>
+## <a name="to-update-the-meet-simple-url"></a><span data-ttu-id="ec021-115">[シンプルの概要 URL を更新するには、</span><span class="sxs-lookup"><span data-stu-id="ec021-115">To update the Meet simple URL</span></span>
 
-1. <span data-ttu-id="fd415-116">トポロジビルダーで、トップノードの**Skype For Business サーバー**を右クリックし、[**プロパティの編集**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="fd415-116">In Topology Builder, right-click the top node **Skype for Business Server**, and then click **Edit Properties**.</span></span>
+1. <span data-ttu-id="ec021-116">トポロジビルダーで、トップノードの**Skype For Business サーバー**を右クリックし、[**プロパティの編集**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="ec021-116">In Topology Builder, right-click the top node **Skype for Business Server**, and then click **Edit Properties**.</span></span>
     
-2. <span data-ttu-id="fd415-117">左側のウィンドウで [**単純な url** ] を選び、[会議 url] を選び**ます。** [会議 url] を選び、[ **url の編集**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="fd415-117">Select **Simple URLs** in the left pane, then below **Meeting URLs:** select the Meet URL and then click **Edit URL**.</span></span>
+2. <span data-ttu-id="ec021-117">左側のウィンドウで [**単純な url** ] を選び、[会議 url] を選び**ます。** [会議 url] を選び、[ **url の編集**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="ec021-117">Select **Simple URLs** in the left pane, then below **Meeting URLs:** select the Meet URL and then click **Edit URL**.</span></span>
     
-3. <span data-ttu-id="fd415-118">URL を目的の値に更新し、[**OK**] をクリックして編集した URL を保存します。</span><span class="sxs-lookup"><span data-stu-id="fd415-118">Update the URL to the value you want, and then click **OK** to save the edited URL.</span></span> 
+3. <span data-ttu-id="ec021-118">URL を目的の値に更新し、[**OK**] をクリックして編集した URL を保存します。</span><span class="sxs-lookup"><span data-stu-id="ec021-118">Update the URL to the value you want, and then click **OK** to save the edited URL.</span></span> 
     
-## <a name="to-update-the-admin-simple-url"></a><span data-ttu-id="fd415-119">管理者の簡易 URL を更新するには</span><span class="sxs-lookup"><span data-stu-id="fd415-119">To update the Admin simple URL</span></span>
+## <a name="to-update-the-admin-simple-url"></a><span data-ttu-id="ec021-119">管理者の簡易 URL を更新するには</span><span class="sxs-lookup"><span data-stu-id="ec021-119">To update the Admin simple URL</span></span>
 
-1. <span data-ttu-id="fd415-120">トポロジビルダーで、トップノードの**Skype For Business サーバー**を右クリックし、[**プロパティの編集**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="fd415-120">In Topology Builder, right-click the top node **Skype for Business Server**, and then click **Edit Properties**.</span></span>
+1. <span data-ttu-id="ec021-120">トポロジビルダーで、トップノードの**Skype For Business サーバー**を右クリックし、[**プロパティの編集**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="ec021-120">In Topology Builder, right-click the top node **Skype for Business Server**, and then click **Edit Properties**.</span></span>
     
-2. <span data-ttu-id="fd415-121">左側のウィンドウで [**簡易 url** ] を選び、[**管理アクセス URL** ] ボックスに、Skype For business Server コントロールパネルへの管理アクセスに使用する単純な url を入力して、[ **OK]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="fd415-121">Select **Simple URLs** in the left pane, then below **Administrative access URL** box, enter the simple URL you want for administrative access to Skype for Business Server Control Panel, and then click **OK**.</span></span>
+2. <span data-ttu-id="ec021-121">左側のウィンドウで [**簡易 url** ] を選び、[**管理アクセス URL** ] ボックスに、Skype For business Server コントロールパネルへの管理アクセスに使用する単純な url を入力して、[ **OK]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="ec021-121">Select **Simple URLs** in the left pane, then below **Administrative access URL** box, enter the simple URL you want for administrative access to Skype for Business Server Control Panel, and then click **OK**.</span></span>
     
    > [!TIP]
-   > <span data-ttu-id="fd415-122">管理 URL には、できる限りシンプルな URL を使用することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="fd415-122">We recommend using the simplest possible URL for the Admin URL.</span></span> <span data-ttu-id="fd415-123">最も簡単なオプションhttps://adminはです。<em> \<ドメイン\></em>。</span><span class="sxs-lookup"><span data-stu-id="fd415-123">The simplest option is https://admin.<em>\<domain\></em>.</span></span> 
+   > <span data-ttu-id="ec021-122">管理 URL には、できる限りシンプルな URL を使用することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="ec021-122">We recommend using the simplest possible URL for the Admin URL.</span></span> <span data-ttu-id="ec021-123">最も簡単なオプションhttps://adminはです。<em> \<ドメイン\></em>。</span><span class="sxs-lookup"><span data-stu-id="ec021-123">The simplest option is https://admin.<em>\<domain\></em>.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="fd415-124">関連項目</span><span class="sxs-lookup"><span data-stu-id="fd415-124">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ec021-124">関連項目</span><span class="sxs-lookup"><span data-stu-id="ec021-124">See also</span></span>
 
-[<span data-ttu-id="fd415-125">Skype for Business Server の単純な Url の DNS 要件</span><span class="sxs-lookup"><span data-stu-id="fd415-125">DNS requirements for simple URLs in Skype for Business Server</span></span>](../../SfbServer/plan-your-deployment/network-requirements/simple-urls.md)
+[<span data-ttu-id="ec021-125">Skype for Business Server の単純な Url の DNS 要件</span><span class="sxs-lookup"><span data-stu-id="ec021-125">DNS requirements for simple URLs in Skype for Business Server</span></span>](../../SfbServer/plan-your-deployment/network-requirements/simple-urls.md)
