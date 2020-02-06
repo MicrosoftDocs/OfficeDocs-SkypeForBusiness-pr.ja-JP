@@ -8,20 +8,22 @@ ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeployCertAssignIntro
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26d6b07e-d2c7-4ff7-aca4-4bbb29f13f8d
 description: Skype for Business Server で使用する証明書の割り当てを開始するには、[次へ] をクリックします。
-ms.openlocfilehash: f46544794a1d64abfddf9e2c63d025c3ef06ec41
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 9d199c5e4e0225c13453cbc620a5289fd9498897
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41701308"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823961"
 ---
-# <a name="certificate-assignment-intro"></a><span data-ttu-id="4d823-103">証明書の割り当て (開始)</span><span class="sxs-lookup"><span data-stu-id="4d823-103">Certificate Assignment (Intro)</span></span>
+# <a name="certificate-assignment-intro"></a><span data-ttu-id="7b8f6-103">証明書の割り当て (開始)</span><span class="sxs-lookup"><span data-stu-id="7b8f6-103">Certificate Assignment (Intro)</span></span>
  
-<span data-ttu-id="4d823-104">Skype for Business Server で使用する証明書の割り当てを開始するには、[**次へ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="4d823-104">To begin assigning a certificate for use in Skype for Business Server, click **Next**.</span></span>
+<span data-ttu-id="7b8f6-104">Skype for Business Server で使用する証明書の割り当てを開始するには、[**次へ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="7b8f6-104">To begin assigning a certificate for use in Skype for Business Server, click **Next**.</span></span>
   
 

@@ -8,44 +8,46 @@ ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.SelectSite
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
 description: '[サイトの選択] ダイアログ ボックスを使用して、環境で使用可能なサイトを検索します。 既存のサイトを使用するには、一覧でサイトをクリックして [OK] をクリックします。'
-ms.openlocfilehash: 8ca8b8df7564dc491a0160786868014a5713a7bb
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: d12c515318de901d3104a545791c04303163b69b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41699722"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822320"
 ---
-# <a name="select-a-site"></a><span data-ttu-id="b51dd-104">サイトの選択</span><span class="sxs-lookup"><span data-stu-id="b51dd-104">Select a Site</span></span>
+# <a name="select-a-site"></a><span data-ttu-id="dc3fd-104">サイトの選択</span><span class="sxs-lookup"><span data-stu-id="dc3fd-104">Select a Site</span></span>
 
-<span data-ttu-id="b51dd-p102">[**サイトの選択**] ダイアログ ボックスを使用して、環境で使用可能なサイトを検索します。既存のサイトを使用するには、一覧でサイトをクリックして [**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="b51dd-p102">Use the **Select a Site** dialog box to find sites available in your environment. To use an existing site, click a site in the list and then click **OK**.</span></span>
+<span data-ttu-id="dc3fd-p102">[**サイトの選択**] ダイアログ ボックスを使用して、環境で使用可能なサイトを検索します。既存のサイトを使用するには、一覧でサイトをクリックして [**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="dc3fd-p102">Use the **Select a Site** dialog box to find sites available in your environment. To use an existing site, click a site in the list and then click **OK**.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="b51dd-107">使用可能なサイトをすべて取得するには、検索ボックスに何も入力せずに検索アイコンをクリックします。</span><span class="sxs-lookup"><span data-stu-id="b51dd-107">To retrieve all available sites, do not type anything in the search box and then click the search icon.</span></span>
+> <span data-ttu-id="dc3fd-107">使用可能なサイトをすべて取得するには、検索ボックスに何も入力せずに検索アイコンをクリックします。</span><span class="sxs-lookup"><span data-stu-id="dc3fd-107">To retrieve all available sites, do not type anything in the search box and then click the search icon.</span></span>
 
-<span data-ttu-id="b51dd-108">Skype for Business Server コントロールパネルを使用して実行できるさまざまな手順の詳細については、「Skype for business [server 2015 を管理](../../manage/manage.md)する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="b51dd-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="dc3fd-108">Skype for Business Server コントロールパネルを使用して実行できるさまざまな手順の詳細については、「Skype for business [server 2015 を管理](../../manage/manage.md)する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="dc3fd-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 
-## <a name="tasks-you-can-perform"></a><span data-ttu-id="b51dd-109">実行できるタスク</span><span class="sxs-lookup"><span data-stu-id="b51dd-109">Tasks you can perform</span></span>
+## <a name="tasks-you-can-perform"></a><span data-ttu-id="dc3fd-109">実行できるタスク</span><span class="sxs-lookup"><span data-stu-id="dc3fd-109">Tasks you can perform</span></span>
 
-<span data-ttu-id="b51dd-110">[**サイトの選択**] ページでは次のタスクを実行できます。</span><span class="sxs-lookup"><span data-stu-id="b51dd-110">You can perform the following tasks on the **Select a Site** page:</span></span>
+<span data-ttu-id="dc3fd-110">[**サイトの選択**] ページでは次のタスクを実行できます。</span><span class="sxs-lookup"><span data-stu-id="dc3fd-110">You can perform the following tasks on the **Select a Site** page:</span></span>
 
-- [<span data-ttu-id="b51dd-111">Configure Persistent Chat Server Options Globally or for Persistent Chat Server Pool</span><span class="sxs-lookup"><span data-stu-id="b51dd-111">Configure Persistent Chat Server Options Globally or for Persistent Chat Server Pool</span></span>](https://technet.microsoft.com/library/1e8d5245-cd58-4aad-9a1c-35b24189bc40.aspx)
+- [<span data-ttu-id="dc3fd-111">Configure Persistent Chat Server Options Globally or for Persistent Chat Server Pool</span><span class="sxs-lookup"><span data-stu-id="dc3fd-111">Configure Persistent Chat Server Options Globally or for Persistent Chat Server Pool</span></span>](https://technet.microsoft.com/library/1e8d5245-cd58-4aad-9a1c-35b24189bc40.aspx)
 
-- [<span data-ttu-id="b51dd-112">Create a Site Policy for Persistent Chat</span><span class="sxs-lookup"><span data-stu-id="b51dd-112">Create a Site Policy for Persistent Chat</span></span>](https://technet.microsoft.com/library/1327ff5c-b859-4010-a240-e0b2b084b5bd.aspx)
+- [<span data-ttu-id="dc3fd-112">Create a Site Policy for Persistent Chat</span><span class="sxs-lookup"><span data-stu-id="dc3fd-112">Create a Site Policy for Persistent Chat</span></span>](https://technet.microsoft.com/library/1327ff5c-b859-4010-a240-e0b2b084b5bd.aspx)
 
-<span data-ttu-id="b51dd-113">Skype for Business Server コントロールパネルを使用して実行できるさまざまな手順の詳細については、「Skype for business [server 2015 を管理](../../manage/manage.md)する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="b51dd-113">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="dc3fd-113">Skype for Business Server コントロールパネルを使用して実行できるさまざまな手順の詳細については、「Skype for business [server 2015 を管理](../../manage/manage.md)する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="dc3fd-113">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 
-## <a name="to-configure-persistent-chat-options-globally"></a><span data-ttu-id="b51dd-114">常設チャットのオプションをグローバルに構成するには</span><span class="sxs-lookup"><span data-stu-id="b51dd-114">To configure Persistent Chat options globally</span></span>
+## <a name="to-configure-persistent-chat-options-globally"></a><span data-ttu-id="dc3fd-114">常設チャットのオプションをグローバルに構成するには</span><span class="sxs-lookup"><span data-stu-id="dc3fd-114">To configure Persistent Chat options globally</span></span>
 
-<span data-ttu-id="b51dd-115">[**サイトの選択**] で、常設チャットサーバーのサイト構成用に構成するサイトを選びます。</span><span class="sxs-lookup"><span data-stu-id="b51dd-115">In **Select a Site**, select the site to be configured for the Persistent Chat Server site configuration.</span></span>
+<span data-ttu-id="dc3fd-115">[**サイトの選択**] で、常設チャットサーバーのサイト構成用に構成するサイトを選びます。</span><span class="sxs-lookup"><span data-stu-id="dc3fd-115">In **Select a Site**, select the site to be configured for the Persistent Chat Server site configuration.</span></span>
 
-## <a name="to-create-a-persistent-chat-policy-for-a-site"></a><span data-ttu-id="b51dd-116">サイトの常設チャットポリシーを作成するには</span><span class="sxs-lookup"><span data-stu-id="b51dd-116">To create a Persistent Chat policy for a site</span></span>
+## <a name="to-create-a-persistent-chat-policy-for-a-site"></a><span data-ttu-id="dc3fd-116">サイトの常設チャットポリシーを作成するには</span><span class="sxs-lookup"><span data-stu-id="dc3fd-116">To create a Persistent Chat policy for a site</span></span>
 
-<span data-ttu-id="b51dd-117">[**サイトの選択**] でポリシーを適用するサイトをクリックします。</span><span class="sxs-lookup"><span data-stu-id="b51dd-117">In **Select a Site**, click the site to which the policy is to be applied.</span></span>
+<span data-ttu-id="dc3fd-117">[**サイトの選択**] でポリシーを適用するサイトをクリックします。</span><span class="sxs-lookup"><span data-stu-id="dc3fd-117">In **Select a Site**, click the site to which the policy is to be applied.</span></span>
 
-<span data-ttu-id="b51dd-118">常設チャットサーバーの機能と機能の詳細については、計画ドキュメントの「[常設チャットサーバーの概要](https://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="b51dd-118">For details about Persistent Chat Server features and capabilities, see [Overview of Persistent Chat Server](https://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) in the Planning documentation.</span></span> <span data-ttu-id="b51dd-119">常設チャットサーバーの構成の使用について詳しくは、「展開ドキュメントで[常設チャットサーバーを構成](https://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx)する」と「運用ドキュメントで[Lync Server 2013、常設チャットサーバーを管理](https://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx)する」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="b51dd-119">For details about working with Persistent Chat Server configurations, see [Configuring Persistent Chat Server](https://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) in the Deployment documentation and [Managing Lync Server 2013, Persistent Chat Server](https://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) in the Operations documentation.</span></span>
+<span data-ttu-id="dc3fd-118">常設チャットサーバーの機能と機能の詳細については、計画ドキュメントの「[常設チャットサーバーの概要](https://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="dc3fd-118">For details about Persistent Chat Server features and capabilities, see [Overview of Persistent Chat Server](https://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) in the Planning documentation.</span></span> <span data-ttu-id="dc3fd-119">常設チャットサーバーの構成の使用について詳しくは、「展開ドキュメントで[常設チャットサーバーを構成](https://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx)する」と「運用ドキュメントで[Lync Server 2013、常設チャットサーバーを管理](https://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx)する」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="dc3fd-119">For details about working with Persistent Chat Server configurations, see [Configuring Persistent Chat Server](https://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) in the Deployment documentation and [Managing Lync Server 2013, Persistent Chat Server](https://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) in the Operations documentation.</span></span>
 
