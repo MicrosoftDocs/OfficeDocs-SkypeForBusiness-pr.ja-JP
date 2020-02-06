@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams ユーザーまたはチームに訴訟ホールドを適用する
 author: LolaJacobsen
-ms.author: lolaj
+ms.author: heidip
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -13,12 +13,12 @@ search.appverid: MET150
 description: セキュリティ/コンプライアンス センターを使用した Microsoft Teams のユーザーまたはチームへの訴訟ホールドの適用と、データ要件に基づいて訴訟ホールドを適用する必要のある項目について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 25bd8e235be79ed805a854cbda2b4947f1c1269b
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: 1d6d41c9dba2aa5eff5d0f5d488b7403b54add5e
+ms.sourcegitcommit: 05aab1044fe34a65af18ed7368f9622e08f28f1e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968038"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41779222"
 ---
 <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>Microsoft Teams ユーザーまたはチームに訴訟ホールドを適用する
 ==================================================
@@ -29,7 +29,7 @@ ms.locfileid: "37968038"
 > ユーザーをホールドしてもグループは自動的にホールドされません。その逆も同様です。
 
 > [!NOTE]
-> プライベートチャネルメッセージの法的保持の構成はまだサポートしていません。 プライベートチャネルで共有されているファイルの法的な保留はサポートされています。
+> プライベートチャネルメッセージの法的な保留のサポートは、近日中にサポートされます。 プライベートチャネルで共有されているファイルの法的な保留はサポートされています。
 
 > [!IMPORTANT]
 > ユーザーまたはグループを保留にすると、すべてのメッセージのコピーが保持されます。 たとえば、Clay さんがチャネルにメッセージを投稿し、そのメッセージを変更したとします。 ホールドのシナリオでは、これら両方のメッセージのコピーが保持されます。 訴訟ホールドなしでは、最新のメッセージのみが保持されます。

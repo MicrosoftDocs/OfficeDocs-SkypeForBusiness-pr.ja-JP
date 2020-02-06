@@ -8,6 +8,8 @@ ms.date: 2/15/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 798a663c-0b63-4f75-b0a3-9c553cef8c5f
 description: '概要: Skype for Business Server のインストール用の DNS を構成し、DNS レコードを作成する方法について説明します。 Skype for Business Server の無料トライアルは、次https://www.microsoft.com/evalcenter/evaluate-skype-for-business-serverの Microsoft 評価センターからダウンロードしてください。'
-ms.openlocfilehash: f5f5c40805388d6a1c861a53bae0a85c27537056
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 573d39c44bb4b4067d1030a957b1447ad62266c7
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244654"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41791795"
 ---
 # <a name="create-dns-records-for-skype-for-business-server"></a>Skype for Business Server の DNS レコードを作成する
  
@@ -72,7 +74,7 @@ DNS レコードは、Skype for Business Server が適切に動作し、ユー�
     
 6. [**IP アドレス**] ボックスで、個々のフロントエンド サーバーの IP アドレスを入力し、適用可能な場合は [**関連付けられたポインター (PTR) レコードを作成する**] または [**同じ所有者名の DNS レコードの更新を認証されたユーザーに許可する**] を選択します。ここでは、Web サービスを除き、すべてのトラフィックの負荷分散に DNS が使用されると想定されています。この例では、表に示すように、3 台のフロントエンド サーバーがあります。
     
-   |**サーバー名**|**型**|**データ**|
+   |**サーバー名**|**種類**|**データ**|
    |:-----|:-----|:-----|
    |SFB01  <br/> |ホスト (A)  <br/> |10.0.0.5  <br/> |
    |SFB02  <br/> |ホスト (A)  <br/> |10.0.0.6  <br/> |
@@ -85,7 +87,7 @@ DNS レコードは、Skype for Business Server が適切に動作し、ユー�
   
     たとえば、pool.contoso.local という名前のプールと 3 台のフロントエンド サーバーがある場合は、次の DNS エントリを作成します。
     
-   |**FQDN**|**型**|**データ**|
+   |**FQDN**|**種類**|**データ**|
    |:-----|:-----|:-----|
    |pool.contoso.local  <br/> |ホスト (A)  <br/> |10.0.0.5  <br/> |
    |pool.contoso.local  <br/> |ホスト (A)  <br/> |10.0.0.6  <br/> |
@@ -121,7 +123,7 @@ DNS レコードは、Skype for Business Server が適切に動作し、ユー�
     
 5. 従来のクライアントをサポートしていて、SRV レコードの作成が完了している場合は、**nslookup** プロンプトで「**set type=srv**」と入力して、Enter キーを押します。
     
-6. 「_Sipinternaltls」と入力します **。 _tcp*ドメイン***(たとえば、_sipinternaltls) を入力して、enter キーを押します。
+6. **_Tcp を入力 _sipinternaltls ます。*ドメイン***(たとえば、_tcp _sipinternaltls の場合)、enter キーを押します。
     
 7. 想定される出力は、図に示す出力のようになります。サンプル出力にはすべての DNS レコードが表示されているわけではありませんが、すべてのレコードを確認する必要があります。 
     

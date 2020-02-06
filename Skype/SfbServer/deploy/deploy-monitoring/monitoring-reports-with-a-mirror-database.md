@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
 description: '概要: Skype for Business Server で使用されているミラーデータベースに監視レポートを関連付ける方法について説明します。'
-ms.openlocfilehash: 522ed5f9bd6e437a83e9cb3575ca92c0bd049e44
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 77e852860239ae6f87fce2b49fb6fa9f9d7c0834
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239888"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41789935"
 ---
 # <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>Skype for Business Server のミラーデータベースに監視レポートを関連付ける 
  
@@ -41,7 +43,7 @@ ms.locfileid: "36239888"
     
      **http://atl-sql-001.litwareinc.com/Reports_archinst**
     
-2. Reporting Services ホーム ページにアクセスしたら、[**ServerReports**]、[**Reports_Content**] の順にクリックします。 これにより、Skype for Business Server Monitoring レポートの**Reports_Content**ページに移動します。
+2. Reporting Services ホーム ページにアクセスしたら、[**ServerReports**]、[**Reports_Content**] の順にクリックします。 これにより、Skype for Business Server Monitoring レポートの [ **Reports_Content** ] ページに移動します。
     
 3. [**Reports_Content**] ページで、[**CDRDB**] データ ソースをクリックします。
     

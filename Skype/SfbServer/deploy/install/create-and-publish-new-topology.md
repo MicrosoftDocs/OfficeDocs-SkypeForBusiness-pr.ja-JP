@@ -8,6 +8,8 @@ ms.date: 2/15/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 451c41a1-b8c5-4dc3-9e48-0da9ed5381a1
 description: '概要: Skype for Business Server をインストールする前に、新しいトポロジを作成、公開、確認する方法について説明します。 Skype for Business Server の無料トライアルは、次https://www.microsoft.com/evalcenter/evaluate-skype-for-business-serverの Microsoft 評価センターからダウンロードしてください。'
-ms.openlocfilehash: c62e2ae061f02f195d0a9560d08234c452543d88
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 631b0e44dfc632cbcc07f4fa6020e39b8dd292e0
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244661"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41791805"
 ---
 # <a name="create-and-publish-new-topology-in-skype-for-business-server"></a>Skype for Business Server で新しいトポロジを作成して公開する
  
@@ -148,7 +150,7 @@ Skype for Business Server Topology Builder を使用して、トポロジの設�
     - この例のように、DNS 負荷分散を構成している場合、[**内部 Web サービス プール FQDN の優先**] チェック ボックスをオンにし、[**内部ベース URL**] に、内部ベース URL (この URL はプールの FQDN と異なっている必要があります) を入力します。 
     
     > [!CAUTION]
-    > 内部 Web サービスを自己定義の FQDN で上書きする場合は、各 FQDN が他のすべてのフロントエンド プール、ディレクター、またはディレクター プールと異なっている必要があります。 **標準文字のみを使用する**(A-z、a-z、0-9、ハイフンを含む)、Url または完全修飾ドメイン名を定義する場合。 Unicode 文字およびアンダースコアは使用しないでください。 一般に、外部 DNS および公的証明機関 (CA) では、URL または FQDN での非標準文字の使用はサポートされていません (証明書で URL または FQDN をサブジェクト名またはサブジェクトの別名に割り当てることが必要になります)。
+    > 内部 Web サービスを自己定義の FQDN で上書きする場合は、各 FQDN が他のすべてのフロントエンド プール、ディレクター、またはディレクター プールと異なっている必要があります。 Url または完全修飾ドメイン名を定義する場合は、標準の文字 (A-z、a-z、0-9、ハイフンを含む)**のみを使用**します。 Unicode 文字およびアンダースコアは使用しないでください。 一般に、外部 DNS および公的証明機関 (CA) では、URL または FQDN での非標準文字の使用はサポートされていません (証明書で URL または FQDN をサブジェクト名またはサブジェクトの別名に割り当てることが必要になります)。
   
     - オプションで、[**外部ベース URL**] に外部ベース URL を入力します。内部ドメイン名と区別できるような外部ベース URL を入力します。たとえば、内部ドメインが contoso.local でも、外部ドメイン名が contoso.com になっている場合は、パブリック DNS から解決可能である必要があるため、contoso.com ドメイン名を使用して URL を定義します。これは、リバース プロキシの場合でも重要です。外部ベース URL のドメイン名は、リバース プロキシの FQDN のドメイン名と同じです。モバイル クライアント上でのインスタント メッセージングおよびプレゼンスでは、フロントエンド プールへの HTTP アクセスが必要です。
     

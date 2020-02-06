@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d266799bf2bc2cab9cd107836f9017bd7dc369bf
-ms.sourcegitcommit: 2cb46af39a0d116e8fd020aa04bd2ecbd6998a5f
+ms.openlocfilehash: 9911a014fe3bd3e3ede151e2a85e8181c399e463
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41678971"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41790615"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>先進認証を使用して Microsoft Teams にサインインする
 ==========================
@@ -54,6 +54,9 @@ Microsoft Teams は先進認証を使用して、サインインエクスペリ�
 
 ## <a name="signing-out-of-microsoft-teams-after-completing-modern-authentication"></a>先進認証が完了した後に Microsoft Teams からサインアウトする
 Teams からサインアウトするには、アプリの上部にあるプロフィール写真をクリックして、[**サインアウト**] を選択します。また、タスクバーのアプリアイコンを右クリックし、[**ログアウト**] を選択することもできます。チームからサインアウトすると、アプリを起動するために資格情報を再入力する必要があります。
+
+## <a name="urls-and-ip-address-ranges"></a>Url と IP アドレスの範囲
+チームにはインターネットへの接続が必要。 Office 365 プラン、行政機関、その他のクラウドで Teams を使用するユーザーにとって到達可能なエンドポイントについて理解するには、[次のガイダンス](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)を参照してください。 これに加えて、へのアクセスも許可する必要がhttps://ssl.gstatic.comあります。
 
 ## <a name="troubleshooting-modern-authentication"></a>先進認証のトラブルシューティング
 
