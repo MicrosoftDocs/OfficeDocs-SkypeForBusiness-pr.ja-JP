@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
 description: '概要: Skype for Business Server の通話料金の評価機能について説明します。'
-ms.openlocfilehash: 6902bdaa9b5021963d128bf67dab7adc8ab1d982
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: ca33e327b7416f18943a425df4ecb0d78d4047c6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991742"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817736"
 ---
 # <a name="rate-my-call-in-skype-for-business-server"></a>Skype for Business Server での通話の評価
 
