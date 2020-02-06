@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: この手順を完了するには、サーバーまたはドメインに、Domain Admins グループのメンバーまたは DnsAdmins グループのメンバーとしてログオンしている必要があります。
-ms.openlocfilehash: 5d506c3b2ff70ae776396e8d3a51e71360cdcc83
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ef77f491efd090949ff5dd6b653dd3cd6ea1cde7
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241159"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41812775"
 ---
 # <a name="update-dns-srv-records"></a>DNS SRV レコードの更新
 
@@ -28,7 +30,7 @@ ms.locfileid: "36241159"
     
 2. SIP ドメインのコンソールツリーで [**前方参照ゾーン**] を展開し、Skype For business Server 2019 がインストールされている SIP ドメインを展開して、 **_tcp**設定に移動します。 
     
-3. 右側のウィンドウで、[ **_sipinternaltls** ] を右クリックし、[**プロパティ**] を選択します。
+3. 右側のウィンドウで **_sipinternaltls**を右クリックし、[**プロパティ**] を選択します。
     
 4. [**このサービスを提供**しているホスト] で、[Skype For business Server 2019 プール] をポイントするようにホストの FQDN を更新します。
     

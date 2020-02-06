@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 従来の [コントロールパネル] を使って、特定のコンピューターで実行されているすべてのレガシサービスの新しいセッションを禁止したり、特定のレガシサービスの新しいセッションを禁止したりすることができます。
-ms.openlocfilehash: 978c97bd7f610e6b40d467b80f5df8483b6d370f
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5bba30bee0fb8c25bed25e2c3cbd593179aa9b97
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244366"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813055"
 ---
 # <a name="prevent-sessions-for-services"></a>サービスのセッションの禁止
 

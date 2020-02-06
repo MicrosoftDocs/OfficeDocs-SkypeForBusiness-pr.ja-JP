@@ -8,6 +8,8 @@ ms.date: 2/8/2019
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: '概要: Skype for Business Server 2019 の機能、サーバー、およびトポロジを構成するための概念、論理的、および物理的な設計を開発する方法については、次のリンクを参照してください。'
-ms.openlocfilehash: ecb785bf4f89034cfe14f9e71891c4772359ba4c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 75dab04deea31d06f4ed2a81e54fc129ab5e2c08
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280557"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41812585"
 ---
 # <a name="plan-for-your-skype-for-business-server-2019-deployment"></a>Skype for Business Server 2019 の展開を計画する
  
@@ -50,7 +52,7 @@ Skype for Business Server の計画については、次の記事でオンライ
 |**[Skype for Business と Exchange の統合の計画](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)** <br/><br/>組織は Exchange Server と Skype for Business Server の両方を展開していますか? If so, read bout how you can integrate features of both products. For example, presence information and archiving of data.   |**[クライアントおよびデバイスの計画](../../SfbServer/plan-your-deployment/clients-and-devices/clients-and-devices.md)** <br/><br/>Skype for Business Server は、組織のユーザーに展開できるクライアントインターフェイスのコレクションをサポートしています。 確実な計画を立てることで、従業員が必要な情報を得られるようになり、どこにいても Skype for Business を利用できるようになります。   |
 |**[Skype for Business Server で Edge Server の展開を計画する](../../SfbServer/plan-your-deployment/edge-server-deployments/edge-server-deployments.md)** <br/><br/> 組織が社内ネットワークの外部のユーザーと通信していますか? その場合は、「エッジサーバーを展開して組織のファイアウォールを越えた通信をサポートする」をご覧ください。   |**[Skype for Business Server で高可用性と障害回復を計画する](../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)** <br/><br/>高可用性とは、1つまたは複数のサーバーが停止した場合でも、Skype for Business Server サービスが利用可能であることを確認することを意味します。 Disaster recovery refers to keeping services going in the event of a natural or human-caused disaster, and preserving as much data from before the disaster as possible. このセクションのトピックでは、高可用性と障害回復の計画について説明します。   |
 |**[Skype for Business Server での会議の計画](../../SfbServer/plan-your-deployment/conferencing/conferencing.md)** <br/><br/> 組織の会議要件を教えてください。 Read about web conferencing, A/V conferencing, and dial-in conferencing features and requirements.   |**[Skype For Business Server のセキュリティを計画する](../../SfbServer/plan-your-deployment/security/security.md)** <br/><br/>ユーザー認証、サーバー間認証、アプリケーション認証に関するリソースを検索して、Skype for Business Server の認証の理解と計画を支援します。   |
-|**[ハイブリッド接続を計画する](../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)**  <br/><br/>オンプレミスの Skype for Business Server と Skype for Business Online の両方をホームにしているユーザーがいますか? If so, read about how you can set up a hybrid deployment that synchronizes both on-premises and online users across a single domain.   
+|**[ハイブリッド接続のプラン](../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)**  <br/><br/>オンプレミスの Skype for Business Server と Skype for Business Online の両方をホームにしているユーザーがいますか? If so, read about how you can set up a hybrid deployment that synchronizes both on-premises and online users across a single domain.   
    
 ## <a name="additional-resources-about-planning-for-skype-for-business-server"></a>Skype for Business Server の計画に関するその他の参考資料
 

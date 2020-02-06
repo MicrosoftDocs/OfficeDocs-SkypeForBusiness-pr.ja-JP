@@ -8,18 +8,20 @@ ms.date: 3/30/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: cec2d9bf-2deb-482c-841b-0e3599f94b50
 description: このトピックでは、クラウドコネクタエディションの PSTN サイトを計画して、効率的でコスト効率の高い通話ルーティングを実現する方法について説明します。
-ms.openlocfilehash: 7afc5ac09e80edf6b1502e9d169aee77b3bd69b6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5f20a5cf7a3395d4695a0e38d21e595982dc6398
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287035"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41812505"
 ---
 # <a name="plan-for-cloud-connector-edition-pstn-sites"></a>Cloud Connector エディション PSTN サイトの計画
  
