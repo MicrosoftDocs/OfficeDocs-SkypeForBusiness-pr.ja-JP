@@ -8,15 +8,17 @@ ms.date: 5/17/2016
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: d9aa622a-95a3-4d8e-8d49-cbfe183f25bf
 description: '概要: このトピックでは、Skype for Business Server 2015 で常設チャットサーバーの高可用性と障害回復を計画する方法について説明します。'
-ms.openlocfilehash: 0cdd1d17680f0546a0081bb769e2c6f45a370d0c
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 08b025b09acc4b4db5f26ae67761412a96c0339c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418267"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815745"
 ---
 # <a name="plan-for-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の常設チャットサーバーの高可用性と障害復旧の計画
  

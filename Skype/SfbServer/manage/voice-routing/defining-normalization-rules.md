@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Skype for Business Server の正規化ルールは、ダイヤルした電話番号を E-164 形式に変換するために .NET Framework の正規表現を使用します。つまり、正規化ルールは、ユーザーがダイヤルした電話番号を取得し、その番号を Skype for Business Server で内部的に使用されている形式に変換します。 各ダイヤル プランには、正規化ルールを 1 つ以上割り当てる必要があります。
-ms.openlocfilehash: e5156816de13a8d59e3e6eea4890046d5b4f586a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ed9db264dc637251c535f111e419aac9aa0f5e5e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274983"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816997"
 ---
 # <a name="defining-normalization-rules-in-skype-for-business-server"></a>Skype for Business Server で正規化ルールを定義する
 
@@ -25,7 +27,7 @@ Skype for Business Server の正規化ルールは、ダイヤルした電話番
 正規表現の記述方法の詳細については、「 [.Net Framework の正規表現](http://go.microsoft.com/fwlink/p/?linkId=140927)」を参照してください。
 
 正規化ルールを定義または編集するには、次のいずれかの方法を使用できます。
-- [ [**正規化ルールのビルド**] ツールを使用](#create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule)して、開始番号、長さ、削除する数字、追加する数字の値を指定し、Skype For business Server コントロールパネルで対応する一致パターンと翻訳ルールを生成します。あなたに。
+- [ [**正規化ルールのビルド**] ツールを使用](#create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule)して、開始番号、長さ、削除する数字、追加する数字の値を指定します。次に、Skype For business Server コントロールパネルで、対応する一致パターンと翻訳ルールを生成します。
 - 一致するパターンと翻訳ルールを定義するために、[正規表現を手動で記述](#create-or-modify-a-normalization-rule-manually)します。 
 
 ## <a name="create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule"></a>正規化ルールを作成または変更する
@@ -45,7 +47,7 @@ Skype for Business Server コントロールパネルで正規化ルールを作
     - [**削除する数字**]: (省略可能) パターンと一致させる電話番号から削除する開始桁数を指定します。
     - **追加する数字**: (省略可能) パターンと一致させるダイヤル番号に追加する数字を指定します。
     
-    これらのフィールドに入力する値は、[**一致パターン**] および [**変換ルール**] に反映されます。 たとえば、**数字**を空のままにしておく場合は、 **[長さ**] **** フィールドに「 **7** 」と入力して、**削除する数字**に**0**を指定すると、**一致するパターン**の正規表現は次のようになります。
+    これらのフィールドに入力する値は、[**一致パターン**] および [**変換ルール**] に反映されます。 たとえば、**数字**を空のままにしておく場合は **、[****長さ**] フィールドに「 **7** 」と入力して、**削除する数字**に**0**を指定すると、**一致するパターン**の正規表現は次のようになります。
 
     **^ (\d{7}) $**
 
@@ -82,7 +84,7 @@ Skype for Business Server コントロールパネルで正規化ルールを作
     - [**このパターンを照合**] で、ダイヤル電話番号を照合するために使用するパターンを指定します。
     - [**変換ルール**] で、変換される E.164 電話番号の形式のパターンを指定します。
 
-    たとえば、"^ (\d) $" と入力する**** と、**翻訳ルール**の " **^ (\d{7}) $** " と **+ 1425 $ 1**と入力した場合、ルールは5550100から + 14255550100 に正規化されます。
+    たとえば、"^ (\d) $" と入力すると、**翻訳ルール**の " **^ (\d{7}) $** " と **+ 1425 $ 1**と**入力した**場合、ルールは5550100から + 14255550100 に正規化されます。
 
 8. (オプション) 正規化ルールによって電話番号が組織の内線番号になる場合は、[**内線番号**] を選択します。
 9. (オプション) 正規化ルールをテストする番号を入力し、[**実行**] をクリックします。テスト結果は、[**テストする番号の入力**] の下に表示されます。

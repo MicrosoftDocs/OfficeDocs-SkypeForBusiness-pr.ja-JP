@@ -8,15 +8,17 @@ ms.date: 8/17/2015
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 343a0563-9ca5-4ad0-b4f3-a72f1d7f1a81
 description: '概要: このトピックでは、Skype for Business Server 2015 の常設チャットサーバーのカテゴリ、チャットルーム、ユーザーと管理者の役割について説明します。'
-ms.openlocfilehash: bffdebdf6bbb57165b902026083de5628cdbc404
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 03a7b68a9728b60ebae25081e3e974bb61b0fc5b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418470"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815765"
 ---
 # <a name="persistent-chat-categories-chat-rooms-and-user-roles-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の常設チャット カテゴリ、チャット ルーム、およびユーザーの役割
  
@@ -66,7 +68,7 @@ ms.locfileid: "35418470"
 
 次に、常設チャットサーバーの管理者ロールを示します。
   
-- **常設チャット管理者**: 常設チャット管理者の役割は、チャットルームを管理する (メンバーシップ、マネージャー、カテゴリを含むすべてのプロパティを変更する) だけでなく、参加者を定義するチャットルームのカテゴリを作成して管理することもできます。チャットルームを作成してアクセスできます。 Administrators can also mark chat rooms as disabled and clean up chat rooms that are no longer active. Administrators are not subject to the Creators or Allowed Members restrictions. Administrators can create any kind of chat room and add themselves as a member to any chat room. 管理者は、常設チャットの構成を変更して管理することもできます (プールのプロパティ、グローバル設定、コンプライアンス構成)。また、古いグループチャットサーバーの展開から Skype for Business Server 2015 に移行を計画して実装することもできます。常設チャットサーバー。
+- **常設チャット管理者**: 常設チャット管理者の役割では、チャットルームを管理できます (メンバーシップ、マネージャー、カテゴリを含むすべてのプロパティを変更することができます)。また、チャットルームの作成とアクセスを許可するユーザーを定義するチャットルームカテゴリの作成と管理も行うことができます。 Administrators can also mark chat rooms as disabled and clean up chat rooms that are no longer active. Administrators are not subject to the Creators or Allowed Members restrictions. Administrators can create any kind of chat room and add themselves as a member to any chat room. 管理者は、常設チャットの構成を変更して管理することもできます (プールのプロパティ、グローバル設定、コンプライアンス構成)。また、古いグループチャットサーバーの展開から Skype for Business Server 2015 に移行を計画して実装することもできます。常設チャットサーバー。
     
     常設チャット管理者は、Windows PowerShell コマンドレットをリモートで (つまり、常設チャットサーバー以外のコンピューターから) 使用して、常設チャットサーバーを管理することができます。 常設チャットサーバーは、常設チャットの管理者が常設チャットサーバーのフロントエンドサーバーの RTC ローカル管理者ローカルグループのメンバーであることを確認します。
     

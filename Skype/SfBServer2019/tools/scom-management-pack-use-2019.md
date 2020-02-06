@@ -8,15 +8,17 @@ ms.date: 10/26/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: '概要: System Center Operations Manager と連携するように Skype for Business Server 2019 インフラストラクチャを構成する方法について説明します。'
-ms.openlocfilehash: e08debc645665d8be69ce062930d64421b093433
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 3308662bb2a819718368c68bdaff16dd9e73d13a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37318959"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41799667"
 ---
 # <a name="manage-skype-for-business-server-2019-using-scom-management-pack"></a>SCOM 管理パックを使用して Skype for Business Server 2019 を管理する
  

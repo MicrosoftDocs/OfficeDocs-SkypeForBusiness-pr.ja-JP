@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0453aeee-c41f-44e6-a6e0-aaace526ca08
 description: 大規模、中、小規模の組織に適した図や決定事項など、Skype for Business Server のリファレンストポロジ。
-ms.openlocfilehash: 7f284b141da25175e3a41545349a0e61f6036019
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: f207e69dceea4c2959e5cf81ddcf359266ed1604
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37028282"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41801707"
 ---
 # <a name="reference-topologies-for-skype-for-business-server"></a>Skype for Business Server のリファレンストポロジ
 
@@ -134,7 +136,7 @@ ms.locfileid: "37028282"
     > [!NOTE]
     > 常設チャットは Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 Teams でも同じ機能を使用できます。 詳細については、「 [Microsoft Teams のアップグレードの](/microsoftteams/upgrade-start-here)概要」を参照してください。 常設チャットを使用する必要がある場合は、この機能が必要なユーザーをチームに移行するか、Skype for Business Server 2015 を使い続けるかのいずれかを選択できます。
 
-- **DNS 負荷分散。** フロントエンド プールとエッジ サーバー プールで DNS 負荷分散を使用します。 これにより、エッジ サーバーの内部インターフェイス用のハードウェア ロード バランサーが不要になり、ハードウェア ロード バランサーは HTTP トラフィックにのみ必要になるため、他のプールのハードウェア ロード バランサーのセットアップと保守にかかる時間が大幅に削減されます。 詳細については、「(..」を参照してください。/../plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing).
+- **DNS 負荷分散。** フロントエンド プールとエッジ サーバー プールで DNS 負荷分散を使用します。 これにより、エッジ サーバーの内部インターフェイス用のハードウェア ロード バランサーが不要になり、ハードウェア ロード バランサーは HTTP トラフィックにのみ必要になるため、他のプールのハードウェア ロード バランサーのセットアップと保守にかかる時間が大幅に削減されます。 詳細については、「(..」を参照してください。/../plan-your-deployment/network-requirements/load-balancing.md # BKMK_DNSLoadBalancing)。
 
 - **Exchange UM の展開。** Skype for Business Server は、Exchange ユニファイドメッセージング (UM) とホストされた Exchange UM の両方のオンプレミス展開に対応しています。 セントラルサイト A には、Skype for Business Server ではなく Microsoft Exchange Server を実行する Exchange ユニファイドメッセージング (UM) サーバーが含まれています。 Skype for Business Server の Exchange UM 機能は、フロントエンドプールで実行されます。
 

@@ -8,15 +8,17 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 1c2a3cf2-dc05-472e-8097-a31f3a1aafcb
 description: UserSite テーブルは、サポートされているテーブルです。 各レコードは、[ネットワーク構成] の設定で定義された1つのユーザーサイトを表します。
-ms.openlocfilehash: 21f60afdb1690024f85dc74e11f856642413e6a8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e1d6c4ddc3a756f2e5df0713d6abe1cb7b61295f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294573"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41805005"
 ---
 # <a name="usersite-table"></a>UserSite テーブル
  

@@ -8,15 +8,17 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 414b1d63-ae97-4c27-bac0-c9ad0f808ff0
 description: 各レコードは1つのメディアラインを表します。 (1 つのオーディオセッションには通常、1つのオーディオメディアラインが含まれています。 1つのオーディオとビデオ (A/V) セッションには通常、1つのオーディオメディアラインと1つのビデオメディアラインが含まれていますが、会議デバイスが使用されている場合や、[ギャラリー] ビューを使用している場合は、2つのビデオメディア線が表示されることがあります。
-ms.openlocfilehash: f9ededade35e5654a89b68343f44094f4319ae70
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0c189a79a9d87e76ec48be1acb7b4062876b5b16
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294895"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41808815"
 ---
 # <a name="medialine-table"></a>MediaLine テーブル
  

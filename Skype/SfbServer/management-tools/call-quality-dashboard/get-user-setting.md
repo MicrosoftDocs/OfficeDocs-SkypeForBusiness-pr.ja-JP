@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16611a55-79fb-487a-a936-20caca829f87
 description: '概要: ユーザー設定サービスの一部である [ユーザー設定の取得] 操作について説明します。 ユーザー設定サービスは、通話品質ダッシュボードのリポジトリ API の一部です。 通話品質ダッシュボードは、Skype for Business Server のツールです。'
-ms.openlocfilehash: 168e61aaebb47cb087e77cbd18e3e6edfd987227
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 4ab9d4d718a2ff411db72f38b59a758523935504
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992644"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816756"
 ---
 # <a name="get-user-setting"></a>ユーザー設定の取得
  

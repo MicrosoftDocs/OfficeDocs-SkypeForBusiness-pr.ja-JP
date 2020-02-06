@@ -8,6 +8,8 @@ ms.date: 6/4/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d9666787-e72b-41e1-ba37-aec5fb849a10
 description: '概要: Office 365 を使用している組織が開催する会議に、Office 365 を使用していない組織がアクセスすることが必要な場合に役立つ情報です。'
-ms.openlocfilehash: 631c4b9825181300552faa387c00a1ca73097885
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: e158d93b68df761b59535f4e9239d14194c10443
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792857"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816026"
 ---
 # <a name="skype-meetings-app-minimum-network-requirements"></a>Skype 会議アプリの最小ネットワーク要件
  

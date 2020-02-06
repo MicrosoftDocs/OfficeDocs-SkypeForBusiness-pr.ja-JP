@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bd89bbf7-cb98-4cd8-bbfa-0484663d14db
 description: '概要: ディメンションメンバーの取得操作について説明します。 ディメンションメンバーの取得操作は、通話品質ダッシュボードのデータ API の一部です。 通話品質ダッシュボードは、Skype for Business Server のツールです。'
-ms.openlocfilehash: c457e7f3b42aaeb11c35180bc4c1ae6ee42b914e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ba80e14c011d6cecb9b70f8a8faf32764b5b433d
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274752"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816826"
 ---
 # <a name="get-dimension-members"></a>ディメンションのメンバーの取得
  

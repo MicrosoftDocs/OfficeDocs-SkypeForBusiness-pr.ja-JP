@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
 description: 通話ルーティング設定、ダイヤルプラン、正規化ルール、ボイスポリシー、PSTN 使用状況レコード、音声ルートなど、Skype for Business Server エンタープライズボイスの送信ボイスルーティングについて説明します。
-ms.openlocfilehash: bb57d824d9d44886973f60b3061b2e86e949f071
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 26bea8452db00657ae87b5acbdd3f986c637d6fe
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276583"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802577"
 ---
 # <a name="plan-for-outbound-voice-routing-in-skype-for-business-server"></a>Skype for Business Server での送信ボイスルーティングの計画
  
@@ -104,7 +106,7 @@ ms.locfileid: "34276583"
   
 #### <a name="external-access-prefix"></a>外部アクセス プレフィックス
 
-ユーザーが1つまたは複数の追加の先頭の数字 (9 など) をダイヤルする必要がある場合は、最大 4 0-9 文字の外部アクセスプレフィックスを指定できます。
+ユーザーが1つまたは複数の追加の先頭の数字 (9 \*など) をダイヤルする必要がある場合は、最大 4 0-9 文字の外部アクセスプレフィックスを指定できます。
   
 > [!NOTE]
 > 外部アクセス プレフィックスを指定する場合に、プレフィックスに対応するために追加の正規化ルールを作成する必要はありません。 
@@ -233,7 +235,7 @@ Skype for Business Server のボイスポリシーは、ポリシーが割り当
     
 - **ボイスメールエスケープ**を使って、同時呼び出しが構成されていて、電話がオフになっている場合や、バッテリーが切れている場合や、タイマーの値に基づいている場合に、ユーザーの携帯電話のボイスメールシステムに直接通話がルーティングされないようにします。 この設定でタイマーを有効または無効にし、タイマーの値を設定します。 この構成は、Skype for Business Server 管理シェルを使用してのみ行うことができます。 既定では無効です。
     
-- **着信の転送と同時**呼び出しの pstn の使用管理者は、着信の転送と同時呼び出しのボイスポリシーと同じ PSTN 使用を指定できます。着信の転送と同時呼び出しは、内部の Skype に限定されます。ビジネスユーザーのみ、またはボイスポリシーの PSTN 使用状況とは異なるカスタム PSTN 使用を指定します。 既定では、着信の転送および同時呼び出しに対して音声ポリシーと同じ PSTN 使用法を使用します。
+- **着信の転送と同時**呼び出しの pstn 使用管理者は、着信の転送と同時呼び出しのボイスポリシーと同じ pstn 使用量を指定することができます。また、内部の Skype for business ユーザーのみに着信の転送と同時呼び出しを制限することも、ボイスポリシーの pstn 使用量とは異なるカスタム PSTN 使用を指定することもできます。 既定では、着信の転送および同時呼び出しに対して音声ポリシーと同じ PSTN 使用法を使用します。
     
 ### <a name="pstn-usage-records"></a>PSTN 使用法レコード
 

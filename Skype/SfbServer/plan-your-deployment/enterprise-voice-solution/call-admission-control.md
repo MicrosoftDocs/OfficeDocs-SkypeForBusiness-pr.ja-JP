@@ -8,6 +8,8 @@ ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
 description: 通話受付制御について説明します。この機能を使うと、メディアの品質が悪い場合でも、Skype for Business Server Enterprise Voice で通話を発信できなくなる可能性があります。
-ms.openlocfilehash: 3942c3d50267593f393655e19d0cc80b5f5028f8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 33aad955d0d1c592900683213a13e50433265a10
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277070"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803237"
 ---
 # <a name="plan-for-call-admission-control-in-skype-for-business-server"></a>Skype for Business Server での通話受付制御の計画
 
@@ -84,7 +86,7 @@ CAC ポリシーのために失敗した通話では、通話を再ルーティ�
 
 ### <a name="call-admission-control-of-outside-users"></a>外部ユーザーの通話受付管理
 
-通話受付制御は、Skype for Business Server 組織の制限を超えて強制されません。 CAC は、インターネットを通過するメディアトラフィックには適用できません。これは、Skype for Business Server によって管理されるものではありません。 着信したエンドポイントが組織に属している場合、または通話受付制御の説明に従ってネットワーク構成にエッジサーバーが追加されている場合、CAC のチェックは、エンタープライズネットワーク経由で流れる通話の一部に対して実行されます。 [展開: Skype for Business Server の最終チェックリスト](../../deploy/deploy-enterprise-voice/final-checklist.md) フェデレーション ユーザーまたは PC ユーザーなど、呼び出しのエンドポイントが組織に所属していない場合は、帯域幅ポリシーの確認が実行されず、発信通話では CAC 制限が無視されます。
+通話受付制御は、Skype for Business Server 組織の制限を超えて強制されません。 CAC は、インターネットを通過するメディアトラフィックには適用できません。これは、Skype for Business Server によって管理されるものではありません。 「[通話受付制御の展開: Skype For Business Server の最終チェックリスト](../../deploy/deploy-enterprise-voice/final-checklist.md)」で説明されているように、着信側のネットワーク経由で処理される通話の一部に対して、CAC のチェックが行われます。 フェデレーション ユーザーまたは PC ユーザーなど、呼び出しのエンドポイントが組織に所属していない場合は、帯域幅ポリシーの確認が実行されず、発信通話では CAC 制限が無視されます。
 
 ### <a name="call-admission-control-of-pstn-connections"></a>PSTN 接続の通話受付管理
 

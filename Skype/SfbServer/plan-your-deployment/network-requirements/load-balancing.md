@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
 description: '概要: Skype for Business Server を実装する前に、負荷分散の考慮事項を確認します。'
-ms.openlocfilehash: 2db9b7aa37f71d445feb3cfd9a09e49f44ca48f0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 199c93528d89786573bdac16077f1e32feb1fe6f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297058"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802047"
 ---
 # <a name="load-balancing-requirements-for-skype-for-business"></a>Skype for Business の負荷分散の要件
  
@@ -114,7 +116,7 @@ Cookie ベースのアフィニティを**使用する**展開の場合
   
 ディレクターおよびフロントエンド プールの Web サービスに対するロード バランサー機器の要件は次のとおりです。
   
-- 内部 Web サービスの VIP で、ロード バランサー機器の送信元アドレスの永続性 (内部ポート 80、443) が設定されていること。 Skype for Business Server の場合、Source_addr persistence は、1つの IP アドレスからの複数の接続が常に1つのサーバーに送信され、セッションの状態を維持することを意味します。
+- 内部 Web サービスの VIP で、ロード バランサー機器の送信元アドレスの永続性 (内部ポート 80、443) が設定されていること。 Skype for Business Server の場合、Source_addr 常設とは、1つの IP アドレスからの複数の接続が常に1つのサーバーに送信され、セッションの状態が維持されることを意味します。
     
 - TCP アイドル タイムアウトが 1800 秒に設定されていること
     
@@ -136,8 +138,8 @@ Cookie ベースのアフィニティを**使用する**展開の場合
 
 |**仮想 IP/ポート**|**ノード ポート**|**ノード コンピューター/モニター**|**保存プロファイル**|**メモ**|
 |:-----|:-----|:-----|:-----|:-----|
-|\<pool\>web-int_mco_443_vs  <br/> 443  <br/> |443  <br/> |フロントエンド  <br/> 5061  <br/> |ソース  <br/> |HTTPS  <br/> |
-|\<pool\>web-int_mco_80_vs  <br/> 80  <br/> |80  <br/> |フロントエンド  <br/> 5061  <br/> |ソース  <br/> |HTTP  <br/> |
+|\<プール\>web int_mco_443_vs  <br/> 443  <br/> |443  <br/> |フロントエンド  <br/> 5061  <br/> |ソース  <br/> |HTTPS  <br/> |
+|\<プール\>web int_mco_80_vs  <br/> 80  <br/> |80  <br/> |フロントエンド  <br/> 5061  <br/> |ソース  <br/> |HTTP  <br/> |
    
 **フロントエンドサーバーのユーザープール-HLB 外部インターフェイス**
 
@@ -200,7 +202,7 @@ DNS の負荷分散は、次の用途では使用できません。
     
 DNS の負荷分散とフェデレーショントラフィック:
   
-DNS SRV クエリによって複数の DNS レコードが返される場合、アクセスエッジサービスは常に、最も低い数値の優先度と最大の数値の重みで DNS SRV レコードを選びます。 インターネットエンジニアリングタスクは、"サービスの場所を指定するための dns RR (dns srv) 2782"、dns srv RR を指定します。複数の dns srv レコードが定義されている場合は、priority が最初に使用され、次に重みが使われます。 たとえば、DNS SRV レコード A の配点は20で、優先度は40で、DNS SRV レコード B の重みは10で、もう1つは50の優先順位です。 優先順位40の DNS SRV レコード A が選択されます。 DNS SRV レコードの選択には、次のルールが適用されます。
+DNS SRV クエリによって複数の DNS レコードが返される場合、アクセスエッジサービスは常に、最も低い数値の優先度と最大の数値の重みで DNS SRV レコードを選びます。 インターネットエンジニアリングタスクは、"サービスの場所を指定するための DNS RR (DNS SRV) 2782"、 [DNS SRV RR](https://www.ietf.org/rfc/rfc2782.txt)を指定します。複数の dns srv レコードが定義されている場合は、priority が最初に使用され、次に重みが使われます。 たとえば、DNS SRV レコード A の配点は20で、優先度は40で、DNS SRV レコード B の重みは10で、もう1つは50の優先順位です。 優先順位40の DNS SRV レコード A が選択されます。 DNS SRV レコードの選択には、次のルールが適用されます。
   
 - 優先度は最初に考慮されます。 クライアントは、DNS SRV レコードによって定義されたターゲットホストに連絡して、到達可能な最も低い優先順位を持つ必要があります。 同じ優先順位のターゲットは、[加重] フィールドで定義された順序で試す必要があります。
     
@@ -233,7 +235,7 @@ DNS の負荷分散は、Skype for Business Server または Lync Server 2010 �
   
 - DNS 負荷分散を使用するプールには、DNS 負荷分散によって使用される標準プール FQDN (pool01.contoso.com など) と、プール内のサーバーの物理 Ip アドレス、さらにプールの Web サービス用の別の FQDN が含まれている必要があります。web01.contoso.com)。プールの仮想 IP アドレスに解決されます。 
     
-    トポロジビルダーで、プールの DNS 負荷分散を展開する場合は、プールの Web サービス用にこの追加の FQDN を作成する必要があります。 [**内部 Web サービスプール fqdn**の指定] チェックボックスをオンにして、[ **web サービス url を指定してください] の fqdn を入力します。このプール**ページ。
+    トポロジビルダーでプールの負荷分散を展開する場合は、プールの Web サービスの追加 FQDN を作成するには、[**内部 Web サービスプールの fqdn を上書き**する] チェックボックスをオンにして、[**このプールの Web サービス url を指定**してください] ページで fqdn を入力する必要があります。
     
 - DNS の負荷分散で使用される FQDN をサポートするには、DNS をプロビジョニングしてプールの FQDN (pool01.contoso.com など) を、プール内のすべてのサーバーの IP アドレス (たとえば、192.168.1.1、192.168.1.2 など) に解決する必要があります。 現在展開されているサーバーの IP アドレスのみを含める必要があります。
     

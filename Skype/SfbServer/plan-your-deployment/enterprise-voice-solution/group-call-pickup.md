@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3dc0eca8-c773-463c-96bb-9cd6afa2a840
 description: Skype for Business Server Enterprise Voice でグループ通話のピックアップを計画しています。これにより、ユーザーは、他のユーザーに対して元々意図した通話に応答することができます。
-ms.openlocfilehash: c729e2d672d104337820c44fa41c113dded3110f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0be7adb5b3832851b9c38179416cfedb414508b0
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276839"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802877"
 ---
 # <a name="plan-for-group-call-pickup-in-skype-for-business"></a>Skype for Business のグループ通話のピックアップを計画する
  
@@ -93,7 +95,7 @@ Skype for Business Server Enterprise Voice でグループ通話のピックア�
 - Lync Phone Edition
     
 > [!NOTE]
-> ユーザーは、次のいずれかのクライアントを使用して、グループ呼び出しのピックアップメンバーへの通話に応答できますが、ユーザーは Skype for business server プールまたは lync server 2013 プールを使っている必要があります。これには、2013年2月の lync server 2013 の累積更新プログラムが含まれています。 
+> ユーザーは、次のいずれかのクライアントを使用して、グループ呼び出しのピックアップメンバーへの通話に応答できますが、ユーザーは Skype for Business Server プールまたは Lync Server 2013 プールを使っている必要があります。これには、2013年2月の Lync Server 2013 の累積更新プログラムが含まれています。 
   
 グループ通話のピックアップメンバーへの通話の発信では、次のクライアントとデバイスはサポートされていません。
   

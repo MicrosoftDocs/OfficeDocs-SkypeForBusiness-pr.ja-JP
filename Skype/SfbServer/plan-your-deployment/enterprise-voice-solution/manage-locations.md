@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d9b33b56-66c2-4dee-b056-faaf98925bf2
 description: Skype for Business Server Enterprise Voice で、SIP トランキングプロバイダーを使用する E9 展開用の位置情報データベースまたは類似の外部データベースの計画に必要な決定。
-ms.openlocfilehash: aafe35f4978ac18897d11aa55f229df501d555ed
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 81ec257b30d2916bb4df2a4590b9abfc1b270375
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276727"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802727"
 ---
 # <a name="manage-locations-for-sip-trunk-service-providers-in-skype-for-business-server"></a>Skype for Business Server で SIP トランクサービスプロバイダーの場所を管理する
 
@@ -27,7 +29,7 @@ Skype for Business Server Enterprise Voice で、SIP トランキングプロバ
 
 Skype for Business Server を構成してネットワーク内でクライアントが自動的に検索されるようにするには、場所情報サービスデータベースを network wiremap と共に設定して、場所を公開するか、既に含まれている外部データベースにリンクする必要があります。適切なマッピング。 このプロセスの一環として、E9-1-1 サービスのサービス プロバイダーで場所の公的アドレスを確認する必要があります。 詳細については、「展開」のドキュメントの「[Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx)」を参照してください。
 
-場所情報サービス データベースに、公的アドレスと建物内の特定のアドレスで構成される緊急応答ロケーション (ERL) を取り込みます。 建物内の特定**** の場所である "位置情報サービスの場所" フィールドには、最大20文字 (スペースを含む) が使用されます。 この制限された長さの中に、以下を含めるようにします。
+場所情報サービス データベースに、公的アドレスと建物内の特定のアドレスで構成される緊急応答ロケーション (ERL) を取り込みます。 建物内の特定の場所である "位置情報サービス**の場所"** フィールドには、最大20文字 (スペースを含む) が使用されます。 この制限された長さの中に、以下を含めるようにします。
 
 - 緊急対応員が公的アドレスにたどり着いたときに特定の場所をすぐに特定するように、緊急電話の発信者の場所を特定するわかりやすい名前。この場所名には建物番号、階数、ウイング名、部屋番号などを含めることができます。従業員にしかわからないニックネームは避けてください。そのようなニックネームになっていると、緊急対応員が間違った場所へ行ってしまう可能性があります。
 

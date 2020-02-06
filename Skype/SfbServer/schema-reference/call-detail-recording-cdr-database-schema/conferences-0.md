@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: c0e5c4db-c135-401f-9296-e9a49f6499a1
 description: 会議ビューには、会議に関する情報が格納されます。 このビューは、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: 2e49a60be1651c34fb874c62bbee8c993eb00983
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9f9448769256bfb05e6552a41c2521defa65ded0
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296463"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815365"
 ---
 # <a name="conferences-view"></a>会議ビュー
  

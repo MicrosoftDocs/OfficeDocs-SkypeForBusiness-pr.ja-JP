@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 9091de56-13e6-440e-9353-f57c10c906fe
 description: '概要: Skype for Business Server で使用されている通話診断の概要レポートについて説明します。'
-ms.openlocfilehash: baa34340214b1eb905777c977c0e9fa8ebaea788
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 00925ca15ca053fc85ee5719c8154a92cfb35fb4
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279742"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817666"
 ---
 # <a name="call-diagnostic-summary-report-in-skype-for-business-server"></a>Skype for Business Server の通話診断の概要レポート
  
@@ -45,7 +47,7 @@ ms.locfileid: "34279742"
     
 ## <a name="making-the-best-use-of-the-call-diagnostic-summary-report"></a>通話診断の概要レポートの活用
 
-通話診断の概要レポートには、Skype for Business Server で使用されているさまざまなモダリティのエラー率を比較するグラフが含まれています。 これらのグラフの列は、実際にはホットリンクです。たとえば、ピアツーピアセッションのインスタントメッセージ (Im) 列をクリックすると、 [Skype For Business Server のピアツーピアアクティビティ診断レポート](peer-to-peer-activity-diagnostic-report.md)のインスタンスにドリルダウンすることになります。これには、すべての詳細情報が記載されたレポートがあります。通話診断の概要レポートに含まれているインスタントメッセージセッション。
+通話診断の概要レポートには、Skype for Business Server で使用されているさまざまなモダリティのエラー率を比較するグラフが含まれています。 これらのグラフの列は、実際にはホットリンクです。たとえば、ピアツーピアセッションのインスタントメッセージングの列をクリックすると、 [Skype For Business Server のピアツーピアアクティビティ診断レポート](peer-to-peer-activity-diagnostic-report.md)のインスタンス (通話診断の概要レポートに含まれているすべてのインスタントメッセージングセッションに関する詳細情報を提供するレポート) が表示されます。
   
 ## <a name="filters"></a>フィルター
 

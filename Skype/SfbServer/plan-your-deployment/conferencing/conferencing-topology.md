@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 7392dfa7-791a-4723-88ff-0ef8a9ef11c8
 description: '概要: Skype for Business Server での会議トポロジの計画については、このトピックを参照してください。'
-ms.openlocfilehash: 39067403513173e3fe26c5767042c62f549e0a7c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1b9d9024d90b4bd847c763747dad7a5f96616aa3
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277399"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816016"
 ---
 # <a name="plan-your-conferencing-topology-for-skype-for-business-server"></a>Skype for Business Server の会議トポロジを計画する
  
@@ -82,7 +84,7 @@ Skype for Business Server では、次の方法で Office Web Apps サーバー/
     
     外部の Skype for Business クライアントは、インターネットからの要求を受け取り、内部ネットワークに転送するサーバーであるリバースプロキシサーバーを使用して、Skype for Business Server および Office Web Apps サーバー/Office Online Server に接続できます。 (内部クライアントは、Office Web Apps サーバー/Office Online Server に直接接続できるため、リバースプロキシサーバーを使用する必要はありません)。このトポロジは、専用の Office Web Apps サーバーと、Skype for Business Server でのみ使用されている Office Online Server ファームを使用する場合に最適です。
     
-- **外部に展開された Office Web Apps サーバー/Office Online サーバーを使用する。** このトポロジでは、Skype for Business Server はオンプレミスで展開され、Skype for Business Server ネットワークゾーンの外部に展開されている Office Web Apps サーバー/Office Online サーバーを使用します。 この問題は、Office Web Apps サーバー/Office Online Server が企業内の複数のアプリケーションで共有され、Skype for Business Server が Office Web Apps サーバー/Office Online Server の外部インターフェイスを使用する必要があるネットワークに展開される場合に発生する可能性があります。その逆も同様です。
+- **外部に展開された Office Web Apps サーバー/Office Online サーバーを使用する。** このトポロジでは、Skype for Business Server はオンプレミスで展開され、Skype for Business Server ネットワークゾーンの外部に展開されている Office Web Apps サーバー/Office Online サーバーを使用します。 この問題は、Office Web Apps サーバー/Office Online Server が企業内の複数のアプリケーションで共有されており、Skype for Business Server が Office Web Apps サーバー/Office Online Server の外部インターフェイスを使用する必要があるネットワークに展開されている場合に発生することがあります。
     
     リバースプロキシサーバーをインストールする必要はありません。代わりに、Office Web Apps サーバー/Office Online Server から Skype for Business Server へのすべての要求は、Edge サーバー経由でルーティングされます。 内部と外部の Skype for Business クライアントの両方が、外部 URL を使用して Office Web Apps サーバー/Office Online サーバーに接続されています。
     

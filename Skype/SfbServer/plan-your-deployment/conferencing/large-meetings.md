@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
 description: '概要: このトピックでは、Skype for Business Server で大規模な会議を実装および管理するためのベストプラクティスについて説明します。'
-ms.openlocfilehash: 136896a45be36508af419d84bc5bd684c9d8a429
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 615b34158ebbd8985610d704fd4d6605c762ab3e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "34696044"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815975"
 ---
 # <a name="plan-for-large-meetings-in-skype-for-business-server"></a>Skype for Business Server での大規模な会議の計画
  
@@ -57,7 +59,7 @@ Skype for Business Server がサポートできる会議のサイズは、会議
   
 大規模な会議のホスティング専用の Skype for Business Server プールは、1人のユーザーに対して同時に最大1000人の会議を開催する必要があります。そのため、会議の時間は、帯域外のスケジュールプロセスで事前に予約して、フロントエンドサーバー。 一度に複数の大規模な会議をサポートする場合は、専用の大規模会議プールを複数設定する必要があります。
   
-ハードウェアとソフトウェアの要件、および大規模な会議をサポートするトポロジの計画について詳しくは、「 [Skype For Business Server での会議のハードウェアとソフトウェアの要件](hardware-and-software-requirements.md)」と「[会議トポロジを計画する」をご覧ください。Skype for Business Server](conferencing-topology.md)。
+ハードウェアとソフトウェアの要件、および大規模な会議をサポートするトポロジの計画について詳しくは、「 [skype For Business server の会議のハードウェアとソフトウェアの要件](hardware-and-software-requirements.md)」と「skype For business [server の会議トポロジを計画](conferencing-topology.md)する」をご覧ください。
   
 ## <a name="implement-best-practices-for-large-meetings"></a>大規模な会議のベスト プラクティスを実装する
 

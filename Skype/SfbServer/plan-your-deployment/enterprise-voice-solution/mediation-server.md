@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5b19edef-4a54-43c9-aa12-5643b8108355
 description: Skype for Business Server の仲介サーバーについて説明します。サポートされているトポロジ、M:N trunks への関連、メディアバイパス、通話受付制御が含まれます。
-ms.openlocfilehash: 8c58e0b866d62e7dd1ea60888ba611d78328489f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5a8e9d7728f8c78643869a6f816ade9431229751
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276699"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802697"
 ---
 # <a name="mediation-server-component-in-skype-for-business-server"></a>Skype for Business Server の仲介サーバーコンポーネント
  
@@ -64,7 +66,7 @@ Skype for Business Server 側では、仲介サーバーが単一の相互 TLS (
 
 Skype for Business Server は、通話ルーティング用にトランクを定義するための柔軟性をサポートしています。 トランクは、仲介サーバーとリスニングポート番号との間の論理的な関連であり、ゲートウェイとリスニングポート番号を使用します。 これはいくつかのことを意味します。仲介サーバーは、同じゲートウェイに対して複数の trunks を持つことができます。仲介サーバーは、さまざまなゲートウェイに対して複数の trunks を持つことができます。逆に、ゲートウェイは、異なる仲介サーバーに対して複数の trunks を持つことができます。
   
-トポロジービルダーを使用して、Skype for Business トポロジにゲートウェイを追加するときに、ルートトランクを作成する必要があります。 特定の仲介サーバーが処理できるゲートウェイの数は、混雑している時間帯のサーバーの処理能力によって異なります。 Skype for business server の最小ハードウェア要件を満たしているハードウェアに仲介サーバーを展開する場合は、「 [skype For Business server 2015 のサーバー要件](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)」で説明したように、スタンドアロンの仲介サーバーでおよその処理を行うことができます。1000通話。 仲介サーバーではトランスコードが実行されますが、ゲートウェイでメディアのバイパスがサポートされていない場合でも、複数のゲートウェイへの通話はルーティングされます。
+トポロジービルダーを使用して、Skype for Business トポロジにゲートウェイを追加するときに、ルートトランクを作成する必要があります。 特定の仲介サーバーが処理できるゲートウェイの数は、混雑している時間帯のサーバーの処理能力によって異なります。 Skype for business [server 2015 のサーバー要件](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)について説明しているように、Skype For business server の最小ハードウェア要件を満たすハードウェアに仲介サーバーを展開する場合、スタンドアロンの仲介サーバーは約1000の通話を処理することができます。 仲介サーバーではトランスコードが実行されますが、ゲートウェイでメディアのバイパスがサポートされていない場合でも、複数のゲートウェイへの通話はルーティングされます。
   
 通話ルートを定義する場合は、そのルートに関連付けられている trunks を指定しますが、そのルートに関連付けられている仲介サーバーは指定しません。 代わりに、トポロジビルダーを使用して、trunks を仲介サーバーに関連付けます。 つまり、ルーティングでは、通話に使うトランクが決定され、その後、そのトランクに関連付けられた仲介サーバーがその呼び出しの通知を送信します。
   
@@ -144,7 +146,7 @@ Microsoft Lync Server 2013 の計画ツールを使用すると、仲介サー�
     
 - 仲介サーバーを使用していないメディアを含む通話の割合
     
-計画するときは、メディアのバイパス用に構成されていない PSTN 通話と A/V 会議のメディア処理要件、および、必要な時間のかかる通話の通知操作を処理するために必要な処理を必ず考慮してください。サポートされます。 CPU が不足している場合は、スタンドアロンのプールサーバーを展開する必要があります。また、PSTN ゲートウェイ、IP Pbx、および SBCs は、1つのプール内の併置されている仲介サーバーによって制御されるサブセットと1つ以上のスタンドアロンプールでスタンドアロンの仲介サーバーによって制御されるサブセットに分割する必要があります。
+計画するときは、メディアのバイパス用に構成されていない PSTN 通話と A/V 会議のメディア処理要件、およびサポートする必要がある時間帯を含む通話のシグナル操作を処理するために必要な処理について必ず考慮してください。 CPU が不足している場合は、スタンドアロンのプールサーバーを展開する必要があります。また、PSTN ゲートウェイ、IP Pbx、および SBCs は、1つのプール内の併置されている仲介サーバーによって制御されるサブセットと1つ以上のスタンドアロンプールでスタンドアロンの仲介サーバーによって制御されるサブセットに分割する必要があります。
   
 次に示すように、仲介サーバーのプールを操作するための適切な機能をサポートしていない PSTN ゲートウェイ、IP Pbx、またはセッション境界コントローラー (SBCs) を展開した場合は、次のように構成されている単体プールと関連付ける必要があります。単一の仲介サーバーの場合:
   

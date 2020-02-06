@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed843ed7-371f-46cc-969a-f8062c06fc55
 description: Skype for Business Server Enterprise Voice の拡張 9-1-1 (E9) サービスの詳細については、「場所の取得と通話ルーティング」を参照してください。
-ms.openlocfilehash: 20d1a258b022b8369f59aaa74a2b95de45f931e2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f09729bc6fdbd2fa64dee5b30af88494cd618915
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276895"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802987"
 ---
 # <a name="plan-for-emergency-services-in-skype-for-business-server"></a>Skype for Business Server の緊急サービスの計画
 
@@ -41,7 +43,7 @@ Skype for Business Server は、E9 サービスプロバイダーへの緊急通
 
 - 公衆交換電話網 (PSTN) ベースの E9-1-1 サービス プロバイダーへの緊急位置識別番号 (ELIN) ゲートウェイ
 
-SIP トランク E9 サービスプロバイダを使用する場合は、Location Information service データベースに ERLs を追加してから、E9 サービスプロバイダーによって管理されているマスターの住所ガイド (MSAG) に対して場所を検証します。 E9 サービスプロバイダーが位置情報を持っていない、または MSAG に対して検証されていない場所を持つ通話を受信した場合、E9 サービスプロバイダーは、国/地域の緊急通話応答センター (ECRC) に通話をルーティングします。コミュニケーションとるを利用して、発信者の所在地を取得したり、可能であれば手動で通話を適切な PSAP にルーティングしたりします。 この番号は、SIP トランクが何らかの理由で失敗した場合に 9-1-1 通話をルーティングするための代替手段となります)。
+SIP トランク E9 サービスプロバイダを使用する場合は、Location Information service データベースに ERLs を追加してから、E9 サービスプロバイダーによって管理されているマスターの住所ガイド (MSAG) に対して場所を検証します。 E9 サービスプロバイダーが位置情報を持っていない、または MSAG に対して検証されていない場所を持つ通話を受信した場合、E9 サービスプロバイダは、通話を、可能であれば、発信者の所在地をコミュニケーションとる取得して、適切な PSAP に手動で通話を転送する特別な訓練をした専門スタッフと共に、通話を発信します。 この番号は、SIP トランクが何らかの理由で失敗した場合に 9-1-1 通話をルーティングするための代替手段となります)。
 
 Time ディビジョン多重 (TDM) と IP ベースの構内交換 (PBX) 電話とは異なり、Skype for Business エンドポイントは非常にモバイルです。 E9 機能を展開するときに、Skype for Business Server は、発信者がどこにいるかに関係なく、緊急通報を呼び出して、発信者の位置情報を提供する PSAP にルーティングすることができます。 たとえば、ユーザーのメインオフィスがレドモンドにあるが、ユーザーがウィチタの支店のコンピューターから緊急通話を発信した場合、SIP トランクまたは PSTN ベースの E9 のサービスプロバイダーは、着信をウィチタの PSAP にルーティングします ()。、Redmond の PSAP にはありません。
 

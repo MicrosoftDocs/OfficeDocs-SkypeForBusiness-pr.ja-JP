@@ -8,6 +8,8 @@ ms.date: 3/21/2016
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6356aad4-700d-495c-8fc8-58eb1d4f6f18
 description: このトピックでは、Skype for Business Server 2015、2015年11月の累積更新プログラムで共有線の外観 (SLA) を計画する方法について説明します。
-ms.openlocfilehash: 966c9f32a27ba936e880bdb51690bcefed4ffbe4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 14f0f6cbd163ecff42543d3ad57bed0020434cfb
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276448"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802437"
 ---
 # <a name="plan-for-shared-line-appearance-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の回線共有機能の計画
  

@@ -8,16 +8,18 @@ ms.date: 12/20/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 2a352f62-c5cb-4ef1-9aa9-7f0c1ab47455
 description: Skype for Business Server 2015 計画ツールの使用に関するガイダンス。
-ms.openlocfilehash: b130ca05200ea30bed8008399050affa96438644
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a1125224405cf739e4afab045dab8360a18756d5
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288951"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816306"
 ---
 # <a name="skype-for-business-server-2015-planning-tool"></a>Skype for Business Server 2015 計画ツール
  
@@ -29,7 +31,7 @@ Skype for Business Server 2015 計画ツールは、設計している Skype for
   
 インフラストラクチャの TCP/IP アドレスと完全修飾ドメイン名 (Fqdn) を使用してトポロジをカスタマイズすると、計画ツールによって、ドメインネームシステム (DNS) 名前付け、ファイアウォールルール、証明書などの一連のレポートが利用できるようになります。 
   
-このツールを使用することは、実装計画における最初の手順になります。 次の手順では、 [skype For Business server 2015 キャパシティ電卓](https://www.microsoft.com/en-us/download/details.aspx?id=51196)にサイト情報の詳細を入力し、必要に応じて調整して、 [Skype for business Server 2015 のストレスとパフォーマンスツール](https://www.microsoft.com/en-us/download/details.aspx?id=50367)を使って、お客様のニーズに応じて実装されます。
+このツールを使用することは、実装計画における最初の手順になります。 次の手順では、 [skype For Business server 2015 容量計算](https://www.microsoft.com/en-us/download/details.aspx?id=51196)ツールにサイト情報の詳細を入力し、必要に応じて調整してから、 [Skype for business Server 2015 のストレスとパフォーマンスのツール](https://www.microsoft.com/en-us/download/details.aspx?id=50367)を使用して、実装によって必要なことをシミュレートして確認します。
   
 計画ツールでは、次の2つの形式で情報をエクスポートすることもできます。
   

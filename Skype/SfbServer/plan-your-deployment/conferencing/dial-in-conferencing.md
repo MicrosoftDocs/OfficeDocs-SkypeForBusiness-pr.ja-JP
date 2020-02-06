@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: ea024a26-37b3-410e-961b-83ab85c07540
 description: '概要: Skype for Business Server でのダイヤルイン会議の計画については、このトピックを参照してください。'
-ms.openlocfilehash: e5c058f614ca7201815cb623d45fd28c18520b85
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 90fe1ff1770d34b9fe0671de1a2fc0f9382acae5
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277329"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815995"
 ---
 # <a name="plan-for-dial-in-conferencing-in-skype-for-business-server"></a>Skype for Business Server でのダイヤルイン会議の計画
  
@@ -48,7 +50,7 @@ ms.locfileid: "34277329"
   
 PSTN ゲートウェイは、中央サイトまたはブランチ サイトに展開できます。ブランチ サイトでは、PSTN ゲートウェイは、スタンドアロンの場合と存続可能ブランチ アプライアンスのコンポーネントの場合があります。
   
-仲介サーバーと PSTN ゲートウェイの要件について詳しくは、「 [skype For Business server の仲介サーバーコンポーネント](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md)」、「 [Skype for Business Server のトポロジビルダーへの仲介サーバーの展開](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)」、「[トポロジでのゲートウェイの定義」をご覧ください。Skype for Business Server のビルダー](../../deploy/deploy-enterprise-voice/define-a-gateway.md)。
+仲介サーバーと PSTN ゲートウェイの要件の詳細については、「skype for [Business server の仲介サーバーコンポーネント](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md)」、「 [skype for Business Server のトポロジビルダーへの仲介サーバーの展開](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)」、「skype For [business server のトポロジビルダーでのゲートウェイの定義](../../deploy/deploy-enterprise-voice/define-a-gateway.md)」を参照してください。
   
 ## <a name="plan-for-dial-plans-access-numbers-and-conferencing-regions"></a>ダイヤル プラン、アクセス番号、および会議の地域を計画する
 

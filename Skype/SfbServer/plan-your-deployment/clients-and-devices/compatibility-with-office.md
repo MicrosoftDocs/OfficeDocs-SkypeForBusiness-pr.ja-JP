@@ -8,18 +8,20 @@ ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ac3a1046-b438-4e21-9d4f-3b0057dd685d
 description: Outlook やその他の Microsoft Office アプリケーションから Skype for Business の機能にアクセスする方法について説明します。
-ms.openlocfilehash: c24c6b08e21db357d52b1cc130e53f23b6123ff6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e91174850cb82d325eb9a3f75577d3aaeb3b90f6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277434"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803687"
 ---
 # <a name="skype-for-business-compatibility-with-office-apps"></a>Skype for Business の Office アプリとの互換性
  
@@ -36,14 +38,14 @@ Outlook やその他の Microsoft Office アプリケーションから Skype fo
 |**機能**|**Microsoft Office 2010**|**Microsoft Office 2013、2015、2016**|**Office 2016 For Mac** &#x2776; |
 |:-----|:-----|:-----|:-----|
 |**Outlook の機能** ||||
-|Outlook の会議の招待 (およびロゴ、ヘルプ URL、免責事項、フッター テキスト) をカスタマイズする  |いいえ  |はい   |可|
+|Outlook の会議の招待 (およびロゴ、ヘルプ URL、免責事項、フッター テキスト) をカスタマイズする  |いいえ  |はい   |Yes|
 |会議オプションを構成して、出席者の音声とビデオを既定でミュートする    |いいえ    |あり    |いいえ    |
 |Office と Skype for Business で連絡先リストを管理するための統合連絡先ストア    |いいえ    |○ (Exchange 2013 以降が必要)    |はい    |
 |高解像度のプロフィール画像    |いいえ    |○ (Exchange 2013 以降が必要)    |はい    |
-|Microsoft Outlook の [差出人]、[宛先] および [Cc] フィールドのプレゼンス状態    |はい    |可    |可    |
+|Microsoft Outlook の [差出人]、[宛先] および [Cc] フィールドのプレゼンス状態    |はい    |Yes    |Yes    |
 |状態メニューから IM または通話で返信    |○ (連絡先カードから)    |○ (連絡先カードから)    |○ (連絡先カードから)    |
 |[スケジュール アシスタント] タブの会議出席依頼のプレゼンス状態    |はい    |はい    |いいえ    |
-|受信した電子メール メッセージのツール バーまたはリボンから、IM または電話で返信    |はい    |可    |可    |
+|受信した電子メール メッセージのツール バーまたはリボンから、IM または電話で返信    |はい    |Yes    |Yes    |
 |**その他の Office アプリケーション**   ||||
 |OneNote 共有メモ    |いいえ    |あり    |いいえ    |
 |Office のセットアップ プログラムに統合されたセットアップ    |不可    |あり    |いいえ    |

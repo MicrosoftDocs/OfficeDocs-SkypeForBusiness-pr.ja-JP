@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: エンタープライズ Voip の展開の一部として、仲介サーバーと1つ以上のピアの間でトランクを構成して、組織内のエンタープライズ Voip クライアントとデバイスの公衆交換電話網 (PSTN) 接続を提供できます。
-ms.openlocfilehash: c350723720dccee069a28a4d9aa2c40517f6d1bf
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 41e92f994606ea2153359546d408335d13a21f88
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275004"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817017"
 ---
 # <a name="configuring-trunks-in-skype-for-business-server"></a>Skype for Business Server で trunks を構成する
 

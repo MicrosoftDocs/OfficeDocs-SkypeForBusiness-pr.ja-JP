@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.dep.DeployForestPrepInvoke
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 18bab895-6cb1-4c07-a88d-ad0aed67293a
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[コマンドの実行] ページには、実行中にタスクのサマリーが表示されます。 サマリー画面を確認し、タスクが正常に完了したこと、およびエラーがないことを確認します。 警告が予期されていることを確認します。 [概要] ウィンドウの下に、[完了] というタスクの状態が表示されます。 ドロップダウンリストで、[ログファイルの準備] フォレストが表示されている必要があります。 表示されていない場合は、ログファイルを選択し、[ログの表示] をクリックして、タスクの詳細なアクションと結果を確認します。 [完了] をクリックして、フォレストの準備を完了します。'
-ms.openlocfilehash: d9397c4a26034d20a7f2e2f03a0d1714a4e7c14c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 9a1f6818c396a66e2503030a09b3b6d50aadad3b
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41691892"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41798394"
 ---
 # <a name="prepare-current-forrest-invoke"></a>現在のフォレストの準備 (起動)
  

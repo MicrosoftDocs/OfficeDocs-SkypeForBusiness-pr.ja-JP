@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dc4c5d66-297c-48a5-91b9-b9b8ce44a6e0
 description: Skype for Business Server Enterprise Voice は、仲介サーバーと、PSTN ゲートウェイ、セッション境界コントローラー、IP PBX などのコンポーネントの間の M:N トランクをサポートしています。
-ms.openlocfilehash: 24be86c3b174eff70632ddd85a71b5ee7016b990
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d9a4a4f08f71cf00e079a5fe9fc5598380936474
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276734"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802737"
 ---
 # <a name="mn-trunk-in-skype-for-business-server"></a>Skype for Business Server の M:N トランク
  
@@ -27,7 +29,7 @@ Skype for Business Server Enterprise Voice は、仲介サーバーと、PSTN �
   
 Skype for Business Server は、以前のリリースからの通話ルーティングのために、トランクの定義をより柔軟にサポートします。 トランクは、仲介サーバーとリッスンポート番号との間の論理的な関連であり、ゲートウェイとリスニングポート番号を使用します。 これはいくつかのことを意味します。仲介サーバーは、同じゲートウェイに対して複数の trunks を持つことができます。仲介サーバーは、さまざまなゲートウェイに対して複数の trunks を持つことができます。逆に、ゲートウェイは、異なる仲介サーバーに対して複数の trunks を持つことができます。
   
-トポロジビルダーを使用してトポロジへのゲートウェイをで、するたびに、ルートトランクを作成する必要があります。 特定の仲介サーバーが処理できるゲートウェイの数は、混雑している時間帯のサーバーの処理能力によって異なります。 Skype for business [server 2015 のサーバー要件](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)について説明しているように、Skype For business server の最小ハードウェア要件を超えているハードウェアに仲介サーバーを展開している場合は、次のように、アクティブではないアクティブな通話の数が推定されます。スタンドアロンの仲介サーバーは、約1000の通話を処理できます。 これらの仕様を満たしているハードウェアで展開された場合、仲介サーバーはトランスコードを実行する必要があります。ただし、ゲートウェイがメディアバイパスをサポートしていない場合でも、複数のゲートウェイに対して呼び出しをルーティングします。
+トポロジビルダーを使用してトポロジへのゲートウェイをで、するたびに、ルートトランクを作成する必要があります。 特定の仲介サーバーが処理できるゲートウェイの数は、混雑している時間帯のサーバーの処理能力によって異なります。 Skype for business [server 2015 のサーバー要件](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)について説明しているように、Skype For business server の最小ハードウェア要件を超えるハードウェアに仲介サーバーを展開している場合、スタンドアロンの仲介サーバーが処理できるアクティブな非バイパス通話の推定は約1000の通話数です。 これらの仕様を満たしているハードウェアで展開された場合、仲介サーバーはトランスコードを実行する必要があります。ただし、ゲートウェイがメディアバイパスをサポートしていない場合でも、複数のゲートウェイに対して呼び出しをルーティングします。
   
 通話ルートを定義する場合は、そのルートに関連付けられている trunks を指定しますが、そのルートに関連付けられている仲介サーバーは指定しません。 代わりに、トポロジビルダーを使用して、trunks を仲介サーバーに関連付けます。 つまり、ルーティングでは、通話に使うトランクが決定され、その後、そのトランクに関連付けられた仲介サーバーがその呼び出しの通知を送信します。
   

@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
 description: 直接 SIP 接続は、Skype for Business Server、および PSTN ゲートウェイと IP-PBX の両方のエンタープライズ Voip でサポートされています。
-ms.openlocfilehash: d70fa72032b86251870ebaf623679dedc782fe24
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1948e08d63aed9d49c70443a386adce6dc65f78e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276965"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803057"
 ---
 # <a name="direct-sip-connections-in-skype-for-business-server"></a>Skype for Business Server での直接 SIP 接続
 

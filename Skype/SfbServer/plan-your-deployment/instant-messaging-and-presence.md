@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 70d2151e-9382-485d-ab14-758597571a74
 description: '概要: Skype for Business Server でインスタントメッセージングとプレゼンスを計画する方法について説明します。'
-ms.openlocfilehash: 29026a0b4ef7cce55f155f024efc9ccc84457906
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d62559afe0c7767ee7863f41b41f2d1b64127643
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297380"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815905"
 ---
 # <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>Skype for Business Server でインスタントメッセージとプレゼンスを計画する
  
@@ -33,7 +35,7 @@ Skype for Business Server でインスタントメッセージとプレゼンス
   
 ### <a name="technical-requirements"></a>技術要件
 
-インスタント メッセージング (IM) とプレゼンスは、常に Enterprise Edition フロントエンド プールと Standard Edition サーバーで実行されます。 サポートされているハードウェア、オペレーティングシステム、データベースソフトウェアの詳細については、[認定ゲートウェイ](../../SfbPartnerCertification/certification/infra-gateways.md)、 [skype for business 2015 環境の要件](requirements-for-your-environment/requirements-for-your-environment.md)、および[skype For business Server 2019 のインフラストラクチャ要件を参照してください。](../../SfBServer2019/plan/system-requirements.md).
+インスタント メッセージング (IM) とプレゼンスは、常に Enterprise Edition フロントエンド プールと Standard Edition サーバーで実行されます。 サポートされているハードウェア、オペレーティングシステム、データベースソフトウェアの詳細については、[認定ゲートウェイ](../../SfbPartnerCertification/certification/infra-gateways.md)、 [skype for business 2015 環境の要件](requirements-for-your-environment/requirements-for-your-environment.md)、および[skype For business Server 2019 のインフラストラクチャ要件](../../SfBServer2019/plan/system-requirements.md)を参照してください。
   
 ### <a name="enabling-communication-with-external-users"></a>外部ユーザーとの通信を有効にする
 

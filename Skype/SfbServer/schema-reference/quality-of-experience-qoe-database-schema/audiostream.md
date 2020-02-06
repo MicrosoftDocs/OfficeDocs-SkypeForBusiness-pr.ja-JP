@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 49ccbbc3-2f73-45fc-80a6-e612535cbc10
 description: 各レコードは1つのオーディオストリームを表します。 通常、1つのオーディオメディアラインには2つのオーディオストリームが含まれています。
-ms.openlocfilehash: eae96b08f3a365288f48b7a68c75d3fd9114107d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 265125202de25da4c6e653ecd53bd465f9a5472b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295049"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41810435"
 ---
 # <a name="audiostream-table"></a>AudioStream テーブル
  

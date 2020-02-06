@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c93c01e6-626c-40ad-92dd-373b0fe9189f
 description: Skype for Business Server の展開で Always On 可用性グループを展開 (インストール) します。
-ms.openlocfilehash: eadf3c67f5d2618d7070c2a3540c2a9ad08b5942
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: d69e370716af2b23c57ad463ea7f4651ea0ea89a
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41002917"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41798274"
 ---
 # <a name="deploy-an-always-on-availability-group-on-a-back-end-server-in-skype-for-business-server"></a>Skype for Business Server のバックエンドサーバーに Always On 可用性グループを展開する
  

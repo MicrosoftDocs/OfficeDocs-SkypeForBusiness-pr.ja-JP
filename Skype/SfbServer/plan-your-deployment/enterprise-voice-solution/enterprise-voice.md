@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fd8d5867-0ac9-47f8-94f0-1c3ee5e25575
 description: Skype for Business Server でのエンタープライズ Voip の計画の基本 (サイト、地域、サイト間のネットワークリンクなど) と、音声の使用状況のトラフィックの見積もり。
-ms.openlocfilehash: fdc653404f6b7182086af00e6e788a1d3bd421eb
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7ef2a37a1ab39dd9c2e40544e06cfb995e846f7a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276867"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802897"
 ---
 # <a name="plan-for-enterprise-voice-in-skype-for-business-server"></a>Skype for Business Server でのエンタープライズ Voip の計画
  

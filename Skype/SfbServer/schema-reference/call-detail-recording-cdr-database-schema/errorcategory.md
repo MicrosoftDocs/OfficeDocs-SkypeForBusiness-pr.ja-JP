@@ -8,15 +8,17 @@ ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 0fde3b73-9a2f-44dd-b8dc-6df512303ff1
 description: ErrorCategory テーブルには、各 Skype for Business Server 2015 診断分類のフレンドリ名が含まれています。 既定では、Skype for Business Server 2015 には次のような分類が使用されます。
-ms.openlocfilehash: bafeb75ee9e6ae0f96b08e26909828f1b36f7e7b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f3ad3f86a382b900d53c5e86140a46d7f32ca1c1
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296288"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815255"
 ---
 # <a name="errorcategory-table-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の ErrorCategory テーブル
  

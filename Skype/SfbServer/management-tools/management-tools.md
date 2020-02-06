@@ -8,16 +8,18 @@ ms.date: 12/20/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4e956558-8cba-47d9-b96a-537d7f6ed938
 description: '概要: Skype for Business Server 2015 のサービス管理ツールについて説明します。'
-ms.openlocfilehash: 49bde0d30cc7e64e847ebd725ae688164c43f26f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7e1be214fcd1ad73f471188dd019f12c2b23607c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274409"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816546"
 ---
 # <a name="skype-for-business-server-2015-management-tools"></a>Skype for Business Server 2015 管理ツール
  
@@ -29,7 +31,7 @@ Skype for Business Server 2015 communications software (旧 Lync Server) には�
 
 ||**コンテンツ**|**説明**|
 |:-----|:-----|:-----|
-||[Microsoft 通話品質の方法スコアカード、v 1.5](https://go.microsoft.com/fwlink/p/?LinkId=615208)(.zip ダウンロード) <br/> [Skype for Business の CQM ポスター](https://go.microsoft.com/fwlink/p/?LinkID=617898) <br/> [Lync 2013 用の CQM ポスター](https://go.microsoft.com/fwlink/p/?LinkId=391841) <br/> |Lync Server および Skype for Business Server 2015 用の Microsoft 通話品質手法 (CQM) スコアカードの更新バージョン。 CQM スコアカードを使うと、ネットワークガイドで説明されている方法に基づいて、通話品質を体系的に定義してアサートすることができる全体的な方法として、通話品質の方法を実装できます。 CQM は、Lync/Skype for Business の実装を、品質に影響を与える10個の個別の領域に分割します。また、それぞれのターゲットと修復計画を定義します。 CQM は通話品質の問題に対処するためのフレームワークであり、ネットワーク上の特定の条件に対応するように変更または拡張することができます。  <br/> CQM のポスターは、エンタープライズ voip を含む Lync/Skype for Business の実装の通話品質とユーザーエクスペリエンスに影響する問題を見つけて解決するのに役立つ、CQM、Lync および Skype for Business の通話品質の方法について説明します。特性.  <br/>**注:** これらのツールは、Skype for Business Server 2019 では更新されません。 |
+||[Microsoft 通話品質の方法スコアカード、v 1.5](https://go.microsoft.com/fwlink/p/?LinkId=615208) (ダウンロード) <br/> [Skype for Business の CQM ポスター](https://go.microsoft.com/fwlink/p/?LinkID=617898) <br/> [Lync 2013 用の CQM ポスター](https://go.microsoft.com/fwlink/p/?LinkId=391841) <br/> |Lync Server および Skype for Business Server 2015 用の Microsoft 通話品質手法 (CQM) スコアカードの更新バージョン。 CQM スコアカードを使うと、ネットワークガイドで説明されている方法に基づいて、通話品質を体系的に定義してアサートすることができる全体的な方法として、通話品質の方法を実装できます。 CQM は、Lync/Skype for Business の実装を、品質に影響を与える10個の個別の領域に分割します。また、それぞれのターゲットと修復計画を定義します。 CQM は通話品質の問題に対処するためのフレームワークであり、ネットワーク上の特定の条件に対応するように変更または拡張することができます。  <br/> CQM のポスターは、エンタープライズ voip 機能を含む Lync/Skype for Business の実装の通話品質とユーザーエクスペリエンスに影響を及ぼす問題を見つけて解決するのに役立つ、CQM の通話品質の方法 (Lync と Skype for Business) について説明します。  <br/>**注:** これらのツールは、Skype for Business Server 2019 では更新されません。 |
 |![ダッシュボードのアイコン](../media/144fef0b-3ff0-4298-8b03-978bda9e923b.png)|[通話品質ダッシュボード](https://go.microsoft.com/fwlink/p/?LinkId=534842) <br/> |通話品質ダッシュボード (CQD) は、Skype for Business または Lync 環境からの QoE (Quality of Experience) データに基づいて、レポートをすばやく作成し、構成することができる Web ポータルです。CQD は SSAS キューブを展開して、QoEMetrics データベース内のデータを集計します。ユーザーは、レポートを作成および変更し、リアルタイムで更新を確認できます。さらに、CQD では Web API が公開されているので、ユーザーはキューブ データにプログラムからアクセスし、カスタム ダッシュボードで使用できます。  <br/> |
 |![KHI のアイコン](../media/8759b767-b689-4a95-94a5-5b27c5688688.png)|[KHI リソース](https://go.microsoft.com/fwlink/p/?LinkId=534843) <br/> |主要状態インジケーター (KHI) は、ユーザー エクスペリエンスに影響を及ぼす可能性がある問題を特定することを目的とした推奨しきい値があるパフォーマンス カウンターです。KHI ガイドでは、正常な展開を維持するための運用プロセスと修復手順の概要を説明しています。また、KHI Data Collector と、KHI パフォーマンス データを解析する Analysis および Definitions Workbook の構成に使用できるサンプル PowerShell スクリプトも含まれています。  <br/> |
 |![ダッシュボードのアイコン](../media/144fef0b-3ff0-4298-8b03-978bda9e923b.png)|[Statistics Manager for Skype for Business Server 2015](statistics-manager/statistics-manager.md) <br/> |StatsMan はダッシュボード ソリューションであり、リアルタイムの KHI 計算や、インフラストラクチャ全体で集計してグラフ化したパフォーマンス カウンターが表示されます。 このダッシュボードを使用すると、発生しているパフォーマンスの問題の特定、環境に対して計画した変更の結果の表示、停止の解決の追跡などを行うことができます。 このボックスは、KHI リソースからの KHI しきい値で構成されています。また、展開の固有のニーズに合わせてカスタマイズすることもできます。  <br/> |

@@ -8,15 +8,17 @@ ms.date: 1/31/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: このトピックでは、Microsoft Operations Management Suite (OMS) を使用してクラウドコネクタバージョン2.1 およびそれ以降の展開を監視する方法について説明します。
-ms.openlocfilehash: 6258ad9386b895f97a6f6dc0a1b40ce1076568aa
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1dcac3519624cef898622f915b08b24363453b84
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287266"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41799627"
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>Operations Management Suite (OMS) を使用した Cloud Connector の監視
 
@@ -114,13 +116,13 @@ OMS ポータルでは、次のようにイベントログとパフォーマン�
 
      アクティブな通話の合計:
 
-   - LS: MediationServer-着信通話 (_Total)\- Current 
+   - LS: MediationServer-Inbound Calls (_Total)\- Current 
 
-   - LS: MediationServer-Outbound Calls (_Total)\- Current 
+   - LS: MediationServer-送信通話 (_Total)\- Current 
 
      アクティブなメディアの合計通話のバイパス:
 
-   - LS: MediationServer-着信通話 (_Total)\-アクティブメディアの通話をバイパスする 
+   - LS: MediationServer-着信通話 (_Total)\-アクティブメディアでの通話のバイパス 
 
    - LS: MediationServer-送信通話 (_Total)\-アクティブメディアでの通話のバイパス 
 
@@ -199,7 +201,7 @@ OMS には2種類の通知があります。結果アラートの数と測定指
 search *| where Computer contains "MediationServer" | where (Type == "Perf" or Type == "Event") | where ((ObjectName ==  "Processor" and CounterName == "% Processor Time") or EventLog == "Lync Server") | where (CounterValue > 90 or EventID == 22003)
 ```
 
-このクエリは、すべてのコンピューターからすべてのプロセッサ使用量カウンターとサービス停止イベントを取得し、いずれかのプロセッサ使用状況が 90% を超えた場合、またはサービスが停止している場合に1つのログを返します。 
+このクエリは、すべてのコンピューターからすべてのプロセッサ使用量カウンターとサービス停止イベントを取得し、いずれかのプロセッサ使用状況が90% を超えた場合、またはサービスが停止している場合に1つのログを返します。 
 
 ## <a name="analyze-the-alerts-in-your-log-analytics-repository"></a>ログ分析リポジトリのアラートを分析する
 
@@ -233,11 +235,11 @@ search *| where Computer contains "MediationServer" | where (Type == "Perf" or T
 
 以下は、監視する必要がある通話容量カウンターの一覧です。 これらの数値は、クラウドコネクタの標準エディションでは500より少なくなります。クラウドコネクタの最小エディションの場合は、50未満です。
 
-- LS: MediationServer-着信通話 (_Total)\- Current 
+- LS: MediationServer-Inbound Calls (_Total)\- Current 
 
-- LS: MediationServer-Outbound Calls (_Total)\- Current 
+- LS: MediationServer-送信通話 (_Total)\- Current 
 
-- LS: MediationServer-着信通話 (_Total)\-アクティブメディアの通話をバイパスする
+- LS: MediationServer-着信通話 (_Total)\-アクティブメディアでの通話のバイパス
 
 - LS: MediationServer-送信通話 (_Total)\-アクティブメディアでの通話のバイパス
 

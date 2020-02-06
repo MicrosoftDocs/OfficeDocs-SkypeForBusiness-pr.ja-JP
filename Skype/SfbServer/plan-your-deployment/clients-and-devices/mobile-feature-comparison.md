@@ -8,6 +8,8 @@ ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b2c950c9-76a5-400a-b146-9b1a22790c12
 description: '概要: Skype for Business Server を計画しているときに、モバイルクライアントの機能のサポートを確認します。'
-ms.openlocfilehash: d3d3764ee5315b4fe211b4f79ea2401b98703261
-ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
+ms.openlocfilehash: 85d193fba624a7895b975bb30bf6392e9fc8c563
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34681866"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803547"
 ---
 # <a name="mobile-client-feature-comparison-for-skype-for-business"></a>Skype for Business のモバイル クライアント機能の比較
  

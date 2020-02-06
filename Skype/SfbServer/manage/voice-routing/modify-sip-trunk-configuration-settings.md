@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 'SIP トランク構成設定は、仲介サーバーと公衆交換電話網 (PSTN) ゲートウェイ、IP パブリックブランチ交換 (PBX)、またはサービスプロバイダのセッションボーダーコントローラー (SBC) 間の関係と機能を定義します。 '
-ms.openlocfilehash: fec64de813a9e4b0686e257ccfed7cb9c034467c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 76196df2cf0bd74ef804a082862891c326048408
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274927"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816957"
 ---
 # <a name="modify-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Skype for Business Server で SIP トランクの設定を変更する
 
@@ -42,11 +44,11 @@ Skype for Business Server Server のコントロールパネルを使用して S
 |P-Asserted-Identity データの転送を有効にする|ForwardPAI|P-Asserted-Identity (PAI) ヘッダーを通話とともに転送するかどうかを示します。PAI ヘッダーがあれば、発信者 ID を確認できます。|
 |送信ルーティング フェールオーバー タイマーを有効にする|EnableFastFailoverTimer|発信通話が 10 秒以内にゲートウェイによって応答されない場合に次に使用できるトランクにルーティングするかどうかを示します。他にトランクがない場合は、通話は自動的に破棄されます。ネットワークおよびゲートウェイの応答が遅い環境の場合、通話が不必要に破棄されるようになる可能性があります。|
 |関連付けられている PSTN 使用法|PSTNUsages|トランクに割り当てられた PSTN 使用法のコレクションです。|
-|テストする変換後の番号|N/A|トランクの構成設定の臨時テストを行うために使用できる電話番号です。|
+|テストする変換後の番号|該当なし|トランクの構成設定の臨時テストを行うために使用できる電話番号です。|
 |関連付けられている変換ルール|OutboundTranslationRulesList|発信ルーティングによって処理される通話 (PBX または PSTN の宛先にルーティングされる通話) に適用される、電話番号変換ルールのコレクションです。|
 |着信者番号の変換ルール|OutboundCallingNumberTranslationRulesList|トランクに割り当てられた発信電話番号の変換ルールのコレクションです。|
-|テストする電話番号|N/A|変換ルールの臨時テストを行うために使用できる電話番号です。|
-|発信者番号|N/A|テストする電話番号が発信者の電話番号であることを示します。|
+|テストする電話番号|該当なし|変換ルールの臨時テストを行うために使用できる電話番号です。|
+|発信者番号|該当なし|テストする電話番号が発信者の電話番号であることを示します。|
 |着信者番号|該当なし|テストする電話番号が着信者の電話番号であることを示します。|
 |||
 

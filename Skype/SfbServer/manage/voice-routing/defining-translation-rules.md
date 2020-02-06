@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Skype for Business Server Enterprise Voice は、電話番号に基づいて (E.i 形式で正規化された) 電話番号に基づいて通話をルーティングします。 つまり、電話番号参照 (RNL) を実行する目的で、すべてのダイヤルされた文字列を E-164 形式に正規化して、一致する SIP URI に翻訳することができます。 Skype for Business Server には、呼び出された ID と発信者番号認識のプレゼンテーションを操作する機能が用意されています。
-ms.openlocfilehash: 633b0c16fefb66d1ea44f96b5f32c2ca91f357f2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cdcfe3a847e148461b97abed33df070057dcd00b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274977"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816987"
 ---
 # <a name="defining-translation-rules-in-skype-for-business-server"></a>Skype for Business Server で翻訳ルールを定義する
 

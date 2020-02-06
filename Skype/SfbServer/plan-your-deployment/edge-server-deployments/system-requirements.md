@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: conceptual
 manager: serdars
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: '概要: Skype for Business Server の Edge Server のシステム要件について説明します。'
-ms.openlocfilehash: 01a5cce8dd1ccb85d322b6c66615d022c8d6c2df
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 4ef2feeb2b486bc9be9f4eb59136d74ef542dd31
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "34277147"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803317"
 ---
 # <a name="edge-server-system-requirements-in-skype-for-business-server"></a>Skype for Business Server での Edge Server システム要件
  
@@ -193,7 +195,7 @@ Cookie ベースのアフィニティが**必要**である展開の場合:
   
 以下に、(オプション) ディレクターと (必須) フロントエンドプール Web サービスの HLB 要件を示します。
   
-- 内部の Web サービス Vip で、HLB 上に Source_addr persistence (内部ポート 80, 443) を設定します。 Skype for Business Server の場合、Source_addr persistence は、1つの IP アドレスからの複数の接続が常に1つのサーバーに送信され、セッションの状態を維持することを意味します。
+- 内部の Web サービス Vip で、HLB で Source_addr 常設 (内部ポート 80, 443) を設定します。 Skype for Business Server の場合、Source_addr 常設とは、1つの IP アドレスからの複数の接続が常に1つのサーバーに送信され、セッションの状態が維持されることを意味します。
     
 - TCP アイドル タイムアウト 1800 秒を使用すること。
     

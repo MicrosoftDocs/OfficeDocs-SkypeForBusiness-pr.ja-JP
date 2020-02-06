@@ -8,15 +8,17 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: ca91a0b4-98c0-49f6-af9d-7d0f8ac75f1a
 description: DeviceDriver テーブルはサポートされているテーブルです。 各レコードは、キャプチャデバイスまたはレンダーデバイスのいずれかで使用されるドライバーを表します。
-ms.openlocfilehash: 6a58bba9edcb0351c929c1406dcbc1ebaedec364
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8a502a1fc07c3541522931554064f7708b3e6187
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294979"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41809715"
 ---
 # <a name="devicedriver-table"></a>DeviceDriver テーブル
  

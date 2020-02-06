@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 2618cfa1-2e2c-4f1d-a5e5-70a0286591a7
 description: Windows Server 2016 には、DNS サービスを提供できるソフトウェアが組み込まれているため、DNS ポリシーシナリオガイドなどの利用可能なドキュメントを確認することができます。 必要に応じて、サードパーティのソリューションを選ぶことができます。
-ms.openlocfilehash: c1084a756a79ebcf15b8e99eef049690b5dcd9af
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5438ee6ccedda6e840ca706cf285af49326a3bf4
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297275"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815795"
 ---
 # <a name="dns-basics"></a>DNS の基本
  
@@ -28,7 +30,7 @@ Windows Server 2016 には、DNS サービスを提供できるソフトウェ�
 IP アドレスへの名前の各マッピング (IPv4 アドレスまたは IPv6 アドレス) は、DNS サーバー上の DNS レコードに格納されます。 この名前は、特に FQDN (完全修飾ドメイン名) の DNS レポートで説明されています。 *Contoso.com*は有効なドメイン名ですが、 * \*contoso.com*の短縮形であるため、ドメイン内のサーバーを参照している可能性があります。 ドメイン内の1つのサーバーを参照する FQDN の例は、 **meeting01.contoso.com**である可能性があります。
   
 > [!IMPORTANT]
-> 既定では、ドメインに参加していないコンピューターのコンピューター名はホスト名であり、完全修飾ドメイン名 (FQDN) ではありません。 トポロジビルダーでは、ホスト名ではなく Fqdn を使用します。 そのため、エッジ サーバーとして展開する、ドメインに参加していないコンピューターの名前で DNS サフィックスを構成する必要があります。 **標準文字のみを使用する**(A-z、a-z、0-9、ハイフンなど) を使用すると、Skype for Business Server を実行しているサーバーに Fqdn を割り当てることができます。 Unicode 文字およびアンダースコアは使用しないでください。 一般に、外部 DNS および公的 CA では、FQDN に非標準文字はサポートされていません (証明書で FQDN を SN に割り当てることが必要になります)。
+> 既定では、ドメインに参加していないコンピューターのコンピューター名はホスト名であり、完全修飾ドメイン名 (FQDN) ではありません。 トポロジビルダーでは、ホスト名ではなく Fqdn を使用します。 そのため、エッジ サーバーとして展開する、ドメインに参加していないコンピューターの名前で DNS サフィックスを構成する必要があります。 Skype for Business Server を実行しているサーバーに Fqdn を割り当てるときは、標準文字 (A-z、a-z、0-9、ハイフンなど)**のみを使用**します。 Unicode 文字およびアンダースコアは使用しないでください。 一般に、外部 DNS および公的 CA では、FQDN に非標準文字はサポートされていません (証明書で FQDN を SN に割り当てることが必要になります)。
   
 IP アドレスに加えて、FQDN は**VIP** (仮想 IP アドレス) に対応付けることができます。 VIP は、実際の物理ネットワークインターフェイスに対応しない IP アドレスです。 多くの場合、VIP は、サーバーの役割を実行しているサーバーのプール、または冗長性とフォールトトレランスを実現するように構成されたサーバーのペアを指します。
   

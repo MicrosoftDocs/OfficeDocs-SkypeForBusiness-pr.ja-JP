@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 description: ネットワーク領域、ネットワーク サイト、および IP サブネットについて説明します。 これらはすべて、Skype for Business でメディアバイパスの計画を展開するか、skype for business Server での通話受付制御を計画するように構成するか、skype for business server Enterprise Voice の Skype for Business Server で緊急サービスを計画するように構成する必要があります。
-ms.openlocfilehash: 1c652edd2d3f1898742656c9e12448386e680675
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 25987630ae2082ca8805d87a988760296637d3f7
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276576"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802597"
 ---
 # <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Skype for Business Server の高度なエンタープライズ Voip 機能のネットワーク設定
 
-ネットワーク領域、ネットワーク サイト、および IP サブネットについて説明します。 Skype for [business でメディアバイパスの計画](media-bypass.md)を展開するか、skype For business [server の通話受付制御を計画](call-admission-control.md)するか、skype For business Server の[skype for business Server の緊急サービスを計画](emergency-services.md)するように、これらすべてを構成する必要があります。エンタープライズ Voip。
+ネットワーク領域、ネットワーク サイト、および IP サブネットについて説明します。 Skype for [business のメディアバイパスの計画](media-bypass.md)を展開するか、skype For business [server の通話受付制御を計画](call-admission-control.md)するか、Skype For business Server Enterprise Voice の[skype for business Server の緊急サービスを計画](emergency-services.md)するように、これらすべてを構成する必要があります。
 
-Skype for Business Server には、3つの高度なエンタープライズ音声機能があります。 [skype For Business server での通話受付制御の計画](call-admission-control.md)、skype [for business server の緊急サービスの計画](emergency-services.md)、 [skype for business でのメディアのバイパスの計画](media-bypass.md). これらの機能は、ネットワークサイトでの Skype for Business Server トポロジの各サブネットのネットワーク領域、ネットワークサイト、および各サブネットの特定の構成要件を共有します。
+Skype for Business Server には、3つの高度なエンタープライズ音声機能があります。 [skype For Business server での通話受付制御の計画](call-admission-control.md)、skype [for business server の緊急サービスの計画](emergency-services.md)、 [skype for business でのメディアのバイパスの](media-bypass.md)計画を行います。 これらの機能は、ネットワークサイトでの Skype for Business Server トポロジの各サブネットのネットワーク領域、ネットワークサイト、および各サブネットの特定の構成要件を共有します。
 
 このトピックでは、これらの高度なエンタープライズボイス機能の3つに共通する構成要件の概要について説明します。
 
@@ -38,11 +40,11 @@ Skype for Business Server には、3つの高度なエンタープライズ音�
 
 CAC では、すべてのネットワーク領域に、関連する Skype for Business Server セントラルサイトが必要です。これは、その領域内のメディアトラフィックを管理します (つまり、設定済みのポリシーに基づいて、リアルタイムのオーディオを管理するかどうかについての決定を行います)。ビデオセッションを確立できます)。 Skype for Business Server のセントラルサイトは、地理的な場所を示すのではなく、プールまたは一連のプールとして構成されているサーバーの論理グループを表します。
 
-ネットワーク領域を構成するには、Skype for Business Server コントロールパネルの [**ネットワーク構成**] セクションの [**地域**] タブを使用するか、または**新しい-** csnetworkregion を実行するか、skype for business を**設定**することができます。サーバー管理シェルコマンドレット。 手順については、展開ドキュメントの「 [skype For business でのネットワーク領域、サイト、サブネットの展開](../../deploy/deploy-enterprise-voice/deploy-network.md)」を参照するか、「Skype For Business Server 管理シェルのドキュメント」を参照してください。
+ネットワーク領域を構成するには、Skype for Business Server コントロールパネルの [**ネットワーク構成**] セクションの [**地域**] タブを使用するか、または、**新しい-Csnetworkregion** **Skype for** business Server Management Shell コマンドレットを実行します。 手順については、展開ドキュメントの「 [skype For business でのネットワーク領域、サイト、サブネットの展開](../../deploy/deploy-enterprise-voice/deploy-network.md)」を参照するか、「Skype For Business Server 管理シェルのドキュメント」を参照してください。
 
 同じネットワーク領域の定義は、3つの高度なエンタープライズ音声機能によって共有されます。 いずれかの機能にネットワーク地域を既に作成している場合、他の機能に新しいネットワーク地域を作成する必要はありません。 ただし、機能固有の設定を適用するために、既存のネットワーク地域定義を変更することが必要になる場合があります。 たとえば、E9-1-1 (関連付けられた中央サイトは不要) にネットワーク地域を作成しており、通話受付管理を後で展開する場合、中央サイトを指定するには、各ネットワーク地域定義を変更する必要があります。
 
-Skype for business Server のセントラルサイトをネットワーク領域と関連付けるには、[Skype for Business Server] コントロールパネルの [**ネットワーク構成**] セクションを使用するか、または**新しい csnetworkregion**を実行して、セントラルサイト名を指定します。または **、CsNetworkRegion**コマンドレットを設定する 手順については、展開ドキュメントの「 [skype For business でのネットワーク領域、サイト、サブネットの展開](../../deploy/deploy-enterprise-voice/deploy-network.md)」を参照するか、「Skype For Business Server 管理シェルのドキュメント」を参照してください。
+Skype for business Server セントラルサイトをネットワーク領域に関連付けるには、[Skype for Business Server] コントロールパネルの [**ネットワーク構成**] セクションを使用するか、または**新しい Csnetworkregion**または**Set-csnetworkregion**コマンドレットを実行して、セントラルサイト名を指定します。 手順については、展開ドキュメントの「 [skype For business でのネットワーク領域、サイト、サブネットの展開](../../deploy/deploy-enterprise-voice/deploy-network.md)」を参照するか、「Skype For Business Server 管理シェルのドキュメント」を参照してください。
 
 ## <a name="network-sites"></a>ネットワーク サイト
 
@@ -51,7 +53,7 @@ Skype for business Server のセントラルサイトをネットワーク領域
 > [!NOTE]
 > ネットワークサイトは、高度なエンタープライズ Voip 機能によってのみ使用されます。 Skype for Business Server のトポロジで構成したブランチサイトとは異なります。
 
-ネットワークサイトを構成し、ネットワーク領域に関連付けるには、Skype for Business Server コントロールパネルの [**ネットワーク構成**] セクションを使用するか、または Skype For Business Server 管理シェルの**新しい (csnetworksite) サイト****を実行するか、CsNetworkSite**コマンドレットを設定します。 詳細については、「展開ドキュメントで[ネットワークサイトを作成または変更](https://technet.microsoft.com/library/14e24856-9996-4da4-9f31-300940bdf5aa.aspx)する」を参照するか、「Skype For Business Server 管理シェルのドキュメント」を参照してください。
+ネットワークサイトを構成し、ネットワークの領域に関連付けるには、Skype for Business Server コントロールパネルの [**ネットワーク構成**] セクションを使用するか、または [Skype For Business Server 管理シェル] の [**新しい-csnetworksite** **] コマンドレット**を実行します。 詳細については、「展開ドキュメントで[ネットワークサイトを作成または変更](https://technet.microsoft.com/library/14e24856-9996-4da4-9f31-300940bdf5aa.aspx)する」を参照するか、「Skype For Business Server 管理シェルのドキュメント」を参照してください。
 
 ## <a name="identify-ip-subnets"></a>IP サブネットの特定
 

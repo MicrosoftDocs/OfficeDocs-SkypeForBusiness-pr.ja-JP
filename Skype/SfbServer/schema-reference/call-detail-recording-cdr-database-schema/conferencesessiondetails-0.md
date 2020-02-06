@@ -8,15 +8,17 @@ ms.date: 7/15/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 9eae6a54-69fd-4966-aa17-7ecee1297ad8
 description: 各レコードは1つの会議セッションを表します。これは、フォーカスのあるセッションまたは特定の会議サーバーのセッションのいずれかになります。
-ms.openlocfilehash: 40216d159c9d52dcf8c22f7fe7b915255ed0f741
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 95cf64589cdcd0fd38b4e29cd4e863c870f2a7a6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296442"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815345"
 ---
 # <a name="conferencesessiondetails-table-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の ConferenceSessionDetails テーブル
  
@@ -36,7 +38,7 @@ ms.locfileid: "34296442"
 |**UserClientVersionId** <br/> |int  <br/> |外部  <br/> |電話会議ユーザーが使用したクライアントバージョン。 詳細については、「 [Skype For Business Server 2015 の Clientversions](clientversions.md) 」の表を参照してください。 <br/> |
 |**ConfClientVersionId** <br/> |int  <br/> |外部  <br/> |会議サーバーで使用されるクライアントのバージョンです。 詳細については、「 [Skype For Business Server 2015 の Clientversions](clientversions.md) 」の表を参照してください。 <br/> |
 |**Edialogidtime の置き換え** <br/> |datetime  <br/> |外部  <br/> |現在のセッションによって置き換えられたダイアログを識別する ID 番号。 詳細については、「 [Skype For Business Server 2015 のダイアログ一覧](dialogs.md)」を参照してください。 <br/> |
-|**Edialogidseq の置き換え** <br/> |int  <br/> |外部  <br/> |セッションを識別する ID 番号。 このセッションによっ**** て置き換えられるセッションを一意に識別するために、代替の操作と組み合わせて使います。 詳細については、「 [Skype For Business Server 2015 のダイアログ一覧](dialogs.md)」を参照してください。 <br/> |
+|**Edialogidseq の置き換え** <br/> |int  <br/> |外部  <br/> |セッションを識別する ID 番号。 このセッションによって置き換えられるセッションを一意に識別するために、**代替の操作と組み合わせ**て使います。 詳細については、「 [Skype For Business Server 2015 のダイアログ一覧](dialogs.md)」を参照してください。 <br/> |
 |**IsStartedByConfServer** <br/> |bit  <br/> ||セッションが会議サーバーによって開始されたかどうかを示します。  <br/> |
 |**IsEndedByConfServer** <br/> |bit  <br/> ||会議サーバーによってセッションが終了したかどうかを示します。  <br/> |
 |**IsUserInternal** <br/> |bit  <br/> ||ユーザーが内部からログオンしているかどうか。  <br/> |

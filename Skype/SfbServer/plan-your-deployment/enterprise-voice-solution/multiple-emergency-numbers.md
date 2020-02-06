@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5ed45a22-ddf0-419f-84da-895a73df855f
 description: このトピックでは、Skype for Business Server で複数の緊急電話番号を計画する方法について説明します。
-ms.openlocfilehash: 43214e42e4fd998aef673ad8d0fbd57ec2d3b498
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6f10b5c22a26a42f33f2a3b453dd2e244c9f32ee
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276846"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815965"
 ---
 # <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>Skype for Business Server で複数の緊急電話番号を計画する
  
@@ -57,11 +59,11 @@ Skype for Business Server で、クライアントの複数の緊急電話番号
   
 複数の緊急電話番号を構成する前に、以下の点に留意してください。
   
-- 複数の緊急電話番号を構成するには、CsEmergencyNumber コマンドレットを使用する必要があります。また、[新しい-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps)で EmergencyNumbers パラメーターを指定して、複数の緊急電話番号をサポートする場所ポリシーを定義する必要があります。[設定-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/set-cslocationpolicy?view=skype-ps)コマンドレット。
+- 複数の緊急電話番号を構成するには、CsEmergencyNumber コマンドレットを使用する必要があります。また、[新しい](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps)EmergencyNumbers[パラメーターを指定](https://docs.microsoft.com/powershell/module/skype/set-cslocationpolicy?view=skype-ps)すると、複数の緊急電話番号をサポートする場所ポリシーを定義する必要があります。
     
 - 	EmergencyDialString パラメーターおよび EmergencyDialMask パラメーターを付けて Set-CsLocationPolicy コマンドレットまたは New-CsLocationPolicy コマンドレットを使用して定義された既存の番号がある場合、EmergencyNumbers パラメーターで指定された値が、古い値よりも優先されます。つまり、EmergencyDialString パラメーターおよび EmergencyDialMask パラメーターの値は無視されます。
     
-- EmergencyDialString パラメーターと EmergencyDialMask パラメーターを使用して、Set-CsLocationPolicy または New-CsLocationPolicy コマンドレットを使用して定義された既存の番号がある場合、*新しい緊急電話番号を構成しないと*、既存の数値はそのまま残ります。使用されます。
+- EmergencyDialString パラメーターと EmergencyDialMask パラメーターを使用して、Set-CsLocationPolicy または New-CsLocationPolicy コマンドレットを使用して定義された既存の番号がある場合、*新しい緊急電話番号を構成しないと*、既存の電話番号がそのまま使用されます。
     
 - 複数の緊急電話番号機能が機能するには、実行中のクライアント バージョンが新機能をサポートできる必要があります。 古いクライアントは、EmergencyDialString パラメーターおよび EmergencyDialMask パラメーターを付けて Set-CsLocationPolicy コマンドレットまたは New-CsLocationPolicy コマンドレットで指定した古い値を使い続けます。 
     

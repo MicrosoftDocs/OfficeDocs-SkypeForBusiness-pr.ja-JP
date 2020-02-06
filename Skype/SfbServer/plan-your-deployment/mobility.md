@@ -8,16 +8,18 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7117eff5-6860-4673-b366-afe0756c4bb2
 description: Skype for Business Server のモバイル機能の実装を計画します。
-ms.openlocfilehash: 8b0ba8dd4ae07d3330a8ca722a1101c6b41a7cec
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: dd57da19a935ce1a8713cc856d553b81f4f7cd6b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297324"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815855"
 ---
 # <a name="plan-for-mobility-for-skype-for-business-server"></a>Skype for Business Server のモバイル機能の計画
  
@@ -187,7 +189,7 @@ Skype for Business Server のモバイル機能を構成する4つのサービ�
 
 Skype for Business モバイルクライアントの自動検出を使用している場合は、モバイルクライアントからのセキュリティで保護された接続をサポートするために、証明書の SAN (サブジェクト別の名前) の一覧を変更する必要があります。 すでに証明書を配置している場合は、ここで説明されている SAN エントリを持つ新しい証明書を要求して割り当てる必要があります。 これは、自動検出サービスを実行するフロントエンドサーバーとディレクター (環境内の場合) ごとに行う必要があります。 また、リバースプロキシ証明書で SAN リストを変更して、組織内のすべての SIP ドメインに対する SAN エントリを追加することをお勧めします。
   
-これは、内部 CA (証明機関) で新しい証明書を要求していて、公開証明書がより複雑であり、要求に対してより高い料金がかかる可能性がある場合に、このプロセスは非常に簡単です。ドメインを新しいパブリック証明書に追加します。この場合、サポートされている方法はありますが、**お勧めできません**。 プロキシを構成して、ポート 443 (ポートではなく HTTP を使用します。これは HTTPS で、443は既定の構成です) という最初の自動検出サービス80要求を行うことができます。 この着信要求は、フロントエンドプールまたはディレクターのポート8080にリダイレクトされます。 これにより、このトラフィックが要求に HTTPS を使用していないため、証明書の変更を行う必要がなくなります。 ただし、この方法はお勧めしませんが、ご利用いただけます。
+これは、内部 CA (証明機関) を使用して新しい証明書を要求していて、公開証明書が複雑であり、再要求により多くの SIP ドメインを追加するのにコストがかかる可能性があるため、このプロセスは非常に簡単です。この場合、サポートされている方法はありますが、**お勧めできません**。 プロキシを構成して、ポート 443 (ポートではなく HTTP を使用します。これは HTTPS で、443は既定の構成です) という最初の自動検出サービス80要求を行うことができます。 この着信要求は、フロントエンドプールまたはディレクターのポート8080にリダイレクトされます。 これにより、このトラフィックが要求に HTTPS を使用していないため、証明書の変更を行う必要がなくなります。 ただし、この方法はお勧めしませんが、ご利用いただけます。
   
 ### <a name="windows-and-iis-requirements"></a>Windows と IIS の要件
 
@@ -197,7 +199,7 @@ Skype for Business Server 環境でサポートされている Windows Server �
 
 Skype for Business Server で、フロントエンドプールに HLB を含むトポロジ (複数のフロントエンドサーバーを含むトポロジ) を使用している場合は、Web サービストラフィック用の外部 Web サービス仮想 Ip (Vip) を構成する必要があります。ソースの場合。 ソース アフィニティは、1 つのクライアントからの複数の接続が同じサーバーに送信されてセッション状態を維持するのに役立ちます。
   
-社内の Wi-fi ネットワーク経由でのみ Skype for Business モバイルクライアントをサポートする予定の場合、外部 Web サービス Vip の説明に従って、ソース用の内部 Web サービスの Vip を構成する必要があります。 この状況では、HLB の内部 Web サービス Vip に対して source_addr (または TCP) アフィニティを使用する必要があります。
+社内の Wi-fi ネットワーク経由でのみ Skype for Business モバイルクライアントをサポートする予定の場合、外部 Web サービス Vip の説明に従って、ソース用の内部 Web サービスの Vip を構成する必要があります。 この場合は、HLB の内部 Web サービス Vip に対して source_addr (または TCP) アフィニティを使用する必要があります。
   
 このすべての詳細については、「[Load balancing requirements for Skype for Business](network-requirements/load-balancing.md)」のドキュメントを参照してください。
   
@@ -207,7 +209,7 @@ Skype for Business mobile クライアントの自動検出をサポートする
   
 - リバースプロキシ証明書で SAN リストを更新する場合、最初の自動検出サービス要求に HTTPS を使用している場合は、lyncdiscover の web 公開ルールを更新する必要があります。\<sipdomain\>。 通常、この機能は、フロントエンドプールの外部 Web サービスの URL に対する公開用の公開されたものと組み合わされています。
     
-- 最初の自動検出サービス要求に対して HTTP を使用して、リバースプロキシ証明書の SAN リストを更新しないようにする場合 (推奨しません)、ポート HTTP/TCP 80 に新しい web 公開ルールを作成する必要があります (存在しない場合)。もう。 このルールが存在する場合は、それを更新して lyncdiscover を含めます。\<sipdomain\>エントリ。
+- 最初の自動検出サービス要求に対して HTTP を使用して、リバースプロキシ証明書の SAN リストを更新しないようにする場合 (推奨しません)、ポート HTTP/TCP 80 に対して新しい web 公開ルールを作成する必要があります (存在しない場合)。 このルールが存在する場合は、それを更新して lyncdiscover を含めます。\<sipdomain\>エントリ。
     
 ## <a name="defining-your-mobility-needs"></a>モビリティのニーズの定義
 <a name="MobilityNeeds"> </a>

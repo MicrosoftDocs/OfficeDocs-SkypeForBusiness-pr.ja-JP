@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 27ff9453-53f2-4fae-b637-70a086c9df96
 description: Imreportの概要表は、組織内で開催されたインスタントメッセージセッションに関する全体的なレポートを提供します。 この表は、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: 647b8dc3e48e56d126a65f524de90954b7aeca8f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f845a882bb8bd6ba5ca434ffc42a34725cfeac51
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296127"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815145"
 ---
 # <a name="imreportsummary-table-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の IMReportSummary テーブル
  

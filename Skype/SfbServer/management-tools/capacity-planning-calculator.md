@@ -8,16 +8,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bc4d93b1-0c38-4bf8-8b65-692ff3e2446d
 description: '概要: 容量計算機の使用方法'
-ms.openlocfilehash: 24e268c6ecc3cc48fbfb4405f1e5e6b008639944
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f83cde759c6e7b755af3766c342cdea19892425f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274458"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816636"
 ---
 # <a name="skype-for-business-server-capacity-planning-calculator"></a>Skype for Business Server の容量計画計算ツール
  
@@ -28,7 +30,7 @@ ms.locfileid: "34274458"
 > - Skype for Business Server 2019
 > - Skype for Business Server 2015
   
-Skype for [Business server 2015 キャパシティ電卓](https://www.microsoft.com/en-us/download/details.aspx?id=51196)と[Skype for Business Server 2019 キャパシティ電卓](https://www.microsoft.com/en-us/download/details.aspx?id=57509)は、Skype for business[計画ツール](https://www.microsoft.com/en-us/download/details.aspx?id=50357)と展開ドキュメント (skype for business[の計画) を強化しています。サーバー2015の展開](../plan-your-deployment/plan-your-deployment.md)と[プラン Skype For business Server 2019 の展開](../../SfBServer2019/plan/plan-your-deployment-2019.md)をそれぞれ計画しています。 この計算機は、ガイドをよくお読みになり、計画ツールを使って推奨のトポロジを作成後に使用してください。
+Skype for [Business server 2015 キャパシティ電卓](https://www.microsoft.com/en-us/download/details.aspx?id=51196)と[Skype for Business Server 2019 キャパシティ計算](https://www.microsoft.com/en-us/download/details.aspx?id=57509)[ツール](https://www.microsoft.com/en-us/download/details.aspx?id=50357)を使用すると、skype for business[server 2015](../plan-your-deployment/plan-your-deployment.md)の展開と、skype for business [server 2019](../../SfBServer2019/plan/plan-your-deployment-2019.md)の展開の計画をそれぞれ強化できます。 この計算機は、ガイドをよくお読みになり、計画ツールを使って推奨のトポロジを作成後に使用してください。
   
 Skype for Business Server キャパシティ電卓は、組織が使用しているユーザーの数と通信ツールに基づいてサーバー要件を決定するのに役立ちます。 ユーザー プロファイルとユーザーに対して有効にしたい機能が決定したら、この計算機を使って必要とするサーバー、メモリ、帯域幅数を決定します。 計算機のこのバージョンでは、ディスク I/O 要件に対するガイダンスは提供しません。
   
@@ -38,7 +40,7 @@ Skype for Business Server キャパシティ電卓は、組織が使用してい
   
 ## <a name="using-the-capacity-calculator"></a>容量計算機の使用
 
-計算機は Microsoft Excel のスプレッドシートです。 オレンジ色のセルが入力用です。 セルに既定値が入力されます (skype for business server 2015 8万、1つのプールの1つのプールに12個のフロントエンドサーバーがある場合、1つのプールに1つのプールがあり、1つのプールに16個 106000 2019 のフロントエンドサーバーがある場合)、これらの値を次のように変更する必要があります。組織のニーズに合わせてください。
+計算機は Microsoft Excel のスプレッドシートです。 オレンジ色のセルが入力用です。 セルに既定値が入力されます (Skype for Business Server 2015 8万、1つのプールの1つのプールに12個のフロントエンドサーバーがある場合、1つのプールに1つのプールがあり、1つのプールに16個 106000 2019 のフロントエンドサーバーがある場合)、これらの値を次のように変更する必要があります。組織のニーズに合わせてください。
   
 使用モデルには次のセクションが含まれます。容量要件を計算するには、次のように、シートの上から下に行ごとに順番にデータを入力していきます。 
   
@@ -74,7 +76,7 @@ Skype for Business Server キャパシティ電卓は、組織が使用してい
     
   - 20% の会議にマルチビュー ビデオも含まれる場合は、[**Including Multi View (マルチビューを含む)**] チェック ボックスをオンにします。
     
-  - 音声会議の 50% にもアプリケーション共有が含まれている場合は、[**アプリケーション共有**を含める] チェックボックスをオンにします。
+  - 音声会議の50% にもアプリケーション共有が含まれている場合は、[**アプリケーション共有**を含める] チェックボックスをオンにします。
     
   - 20% の音声会議にデータのアップロード (PowerPoint のプレゼンテーションなど) が含まれる場合は、[**Including web conferencing (Web 会議を含む)**] チェック ボックスをオンにします。
     
@@ -92,7 +94,7 @@ Skype for Business Server キャパシティ電卓は、組織が使用してい
     
 緑色のセルには、入力した使用モデルの推奨事項が表示されます。 
   
-- **フロントエンドサーバーの合計**: 必要な物理サーバーの数は、デュアルプロセッサ、16ビット、2260メガビット、2673 v3、または Skype For business server 2019 を搭載した Skype For business server 2015 を実行している専用サーバーに基づいています。プロセッサ、hex-core。
+- **フロントエンドサーバーの合計**数: 必要な物理サーバーの数は、デュアルプロセッサ、16ビット、2260メガビット、または Skype For business server 2019 (Intel Xeon E5-2673 v3、デュアルプロセッサ、hex core) を搭載した、Skype For business server 2015 を実行している専用サーバーに基づいています。
     
     ハイパースレッドを有効にすると、音声/ビデオをサポートするサーバーのパフォーマンスが上がることがわかっているのでお勧めします。
     

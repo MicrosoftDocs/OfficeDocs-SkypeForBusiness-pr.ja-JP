@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 8a51fd13-1487-4632-b5ec-f7ae2abe8ed4
 description: '概要: Skype for Business Server のサーバーメディア品質トレンドレポートについて説明します。'
-ms.openlocfilehash: 0ed819c40088c03ca1882ed035b416bf1427e840
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: eca6aa75d7b831356da15a86692658019b3c0d54
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279831"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817716"
 ---
 # <a name="server-media-quality-trend-report-in-skype-for-business-server"></a>Skype for Business Server のサーバーメディア品質トレンドレポート
  
@@ -29,7 +31,7 @@ ms.locfileid: "34279831"
   
 - [Skype For Business server のサーバーパフォーマンスレポート](server-performance.md)(トレンド指標をクリック)
     
-- [Skype For Business Server の通話詳細レポート](call-detail-report.md)([A/V edge server] のメトリックをクリックします。 発信者または呼び出し先がサーバーである場合は、エンドポイント名をクリックすることによってもサーバー メディア品質傾向レポートにアクセスできます)。
+- [Skype For Business server の [通話の詳細] レポート](call-detail-report.md)([A/V edge server] メトリックをクリックします)。 発信者または呼び出し先がサーバーである場合は、エンドポイント名をクリックすることによってもサーバー メディア品質傾向レポートにアクセスできます)。
     
 ## <a name="making-the-best-use-of-server-media-quality-trend-report"></a>サーバー メディア品質傾向レポートを最大限に活用するには
 

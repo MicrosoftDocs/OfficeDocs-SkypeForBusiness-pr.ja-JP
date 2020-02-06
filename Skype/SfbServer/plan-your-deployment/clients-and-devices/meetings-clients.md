@@ -8,6 +8,8 @@ ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: '概要: IT プロフェッショナルは、skype for business Server の計画中に Skype for Business Web App と Skype 会議アプリのサポート要件を確認する必要があります。 この記事はこれらのアプリのユーザーを対象にしていません。'
-ms.openlocfilehash: a2bc418b9179a63452c5d4fdd1990676f9db4b14
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 126d8ffc71a2ff1a0bcbf26c744301736d2b47b2
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277315"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803557"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>会議クライアント用の計画 (Web アプリおよび会議アプリ)
  
@@ -38,7 +40,7 @@ Skype for Business Server を実装したら、組織のユーザーは展開プ
   
 既定では、会議をホストしているサーバーは、Skype for Business Web App をダウンロードしてインストールし、会議に参加するようにユーザーに指示します。 Skype for Business Web App はフロントエンドサーバーに保存され、会議の出席者に送信されます。 
   
-Skype for Business Server の場合は、Skype 会議アプリ (Windows) と Skype for Business for Mac (Mac の場合) は、CU5 以降で始まる Skype for Business Web App の代わりとして提供されていますが、代替アプリには追加の構成が必要です。「skype[会議アプリを使用して skype For Business Web App を置き換える (オプション)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)」の説明を参照してください。  Skype 会議アプリと Skype for Business for Mac が有効になっている場合、ユーザーは、Skype for Business サーバーからではなく、Office 365 コンテンツ配信ネットワーク (CDN) から最新バージョンのアプリをダウンロードします。 Skype for Business Server 2019 の場合、Skype 会議アプリと Skype for Business for Mac を使用するのは唯一のオプションです。
+Skype for Business Server の場合、Skype 会議アプリ (Windows) と Skype for Business for Mac (Mac) は、CU5 以降で始まる Skype for Business Web App の代わりになりますが、「skype[会議アプリで skype For Business Web app の置き換えを有効にする](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)」で説明されている追加の構成を行う必要があります (オプション)。  Skype 会議アプリと Skype for Business for Mac が有効になっている場合、ユーザーは、Skype for Business サーバーからではなく、Office 365 コンテンツ配信ネットワーク (CDN) から最新バージョンのアプリをダウンロードします。 Skype for Business Server 2019 の場合、Skype 会議アプリと Skype for Business for Mac を使用するのは唯一のオプションです。
   
 Skype 会議アプリでは、Internet Explorer のユーザーにワンクリックで参加するなど、アプリをダウンロードしてインストールし、会議に参加するための、簡素化されたブラウザーエクスペリエンスを提供します。 Skype 会議アプリでは、信頼性と会議のエクスペリエンスを実現するために、Skype for Business Web App の機能も大きく向上しています。 
   
@@ -54,12 +56,12 @@ Skype for Business Web App を使用するには、次のサポートされて�
 
 | オペレーティング システム | Edge | 32 ビット版と 64 ビット版の Internet Explorer 11 以降 | 32および64ビットの Internet Explorer 10 以降 | 32および64ビット Internet Explorer 9 以降 | Safari 6.2.8 の32および64ビットバージョン (8.x) | Chrome 18.x 以降の32および64ビットバージョン |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Windows 10  <br/> |はい  <br/> |あり  <br/> |N/A  <br/> |N/A  <br/> |N/A  <br/> |はい &#x2778; <br/> |
-|Windows 8.1 &#x2776; <br/> |該当なし  <br/> |はい  <br/> |N/A  <br/> |N/A  <br/> |N/A <br/> |はい &#x2778; <br/> |
-|Windows 8 (Intel ベース) &#x2776; <br/> |N/A  <br/> |該当なし  <br/> |はい  <br/> |N/A <br/> |N/A  <br/> |はい &#x2778; <br/> |
-|Windows 7 SP1 &#x2777; <br/> |該当なし  <br/> |はい  <br/> |いいえ  <br/> |いいえ  <br/> |該当なし <br/>|はい &#x2778; <br/> |
-|Windows Server 2008 R2 SP1 &#x2777; <br/> |該当なし  <br/> |はい  <br/> |はい  <br/> |あり  <br/> |N/A <br/>|はい &#x2778; <br/> |
-|macOS 10.8 以降 (Intel ベース) &#x2777; <br/> |N/A  <br/> |N/A  <br/> |N/A  <br/> |該当なし  <br/> |はい  <br/> |はい <br/> |
+|Windows 10  <br/> |はい  <br/> |あり  <br/> |該当なし  <br/> |該当なし  <br/> |該当なし  <br/> |はい &#x2778; <br/> |
+|Windows 8.1 &#x2776; <br/> |該当なし  <br/> |はい  <br/> |該当なし  <br/> |該当なし  <br/> |該当なし <br/> |はい &#x2778; <br/> |
+|Windows 8 (Intel ベース) &#x2776; <br/> |該当なし  <br/> |該当なし  <br/> |はい  <br/> |該当なし <br/> |該当なし  <br/> |はい &#x2778; <br/> |
+|Windows 7 SP1 &#x2777; <br/> |該当なし  <br/> |はい  <br/> |不可  <br/> |いいえ  <br/> |該当なし <br/>|はい &#x2778; <br/> |
+|Windows Server 2008 R2 SP1 &#x2777; <br/> |該当なし  <br/> |はい  <br/> |Yes  <br/> |あり  <br/> |該当なし <br/>|はい &#x2778; <br/> |
+|macOS 10.8 以降 (Intel ベース) &#x2777; <br/> |該当なし  <br/> |該当なし  <br/> |該当なし  <br/> |該当なし  <br/> |はい  <br/> |あり <br/> |
    
 Skype for Business Web App browser プラグインを &#x2776;、コンピューターベースの音声、ビデオ、共有、進行中の画面共有などの機能を使用するために、特定の共有プラグインが必要です。 会議出席者は、会議に参加するとき、またはこれらの機能のいずれかを開始したときに、共有プラグインをインストールするオプションを提供します。 Windows 8 および Windows 8.1 では、Internet Explorer 10 または Internet Explorer 11 を実行している場合にのみ、共有プラグインをインストールできます。 これらの機能は、デスクトップ以外のバージョンの Internet Explorer 10 および11では使用できません。 Firefox および Safari バージョン12.0 以降はサポートされなくなりましたのでご注意ください。
   

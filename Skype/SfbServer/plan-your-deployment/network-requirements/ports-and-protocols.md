@@ -8,6 +8,8 @@ ms.date: 2/15/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: '概要: Skype for Business Server を実装する前に、ポートの使用に関する考慮事項を確認します。'
-ms.openlocfilehash: 613067d90da4fb06811ca1497c83237019b3c021
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ca790f2ca4ff1504ab4851fedfbba086e251d91a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297023"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802017"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>サーバーのポートとプロトコルの要件
  
@@ -89,7 +91,7 @@ Skype for Business Server を使用するには、外部および内部のファ
 |フロントエンド サーバー  |Skype for Business Server 帯域幅ポリシーサービス  |448  |TCP  |Skype for Business Server 帯域幅ポリシーサービスによる通話受付制御に使用されます。  |
 |中央管理ストアが配置されているフロントエンドサーバー  | Skype for Business Server マスターレプリケーターエージェントサービス |445  |TCP  |Skype for Business Server を実行しているサーバーに、中央の管理ストアから構成データをプッシュするために使用されます。  |
 |すべてのサーバー  |SQL ブラウザー  |1434  |UDP  |ローカルの SQL Server インスタンスの中央管理ストアデータのローカルにレプリケートされたコピー用の SQL ブラウザー  |
-|すべての内部サーバー  |各種  |49152-57500  |TCP/UDP  |すべての内部サーバーでのオーディオ会議で使用するメディア ポート範囲。 オーディオを終了するすべてのサーバーで使用されます。フロントエンドサーバー (Skype for Business Server 会議アテンダントサービス、skype for business Server 会議のアナウンスメントサービス、Skype for Business Server Audio/ビデオ会議サービス)、仲介サーバー。  |
+|すべての内部サーバー  |各種  |49152-57500  |TCP/UDP  |すべての内部サーバーでのオーディオ会議で使用するメディア ポート範囲。 オーディオを終了するすべてのサーバーで使用されます。フロントエンドサーバー (Skype for Business Server 会議アテンダントサービス、skype for business server 会議のアナウンスメントサービス、Skype for Business server の音声/ビデオ会議サービス、および仲介サーバー)。  |
 |Office Web Apps サーバー  ||443  ||Skype for Business Server が Office Web Apps サーバーに接続するために使用されます。  |
 |ディレクター  |Skype for Business Server のフロントエンドサービス  |5060  |TCP  |リモート通話コントロール サーバーなど、信頼されたサービスへの静的ルートの場合にオプションで使用。  |
 |ディレクター  |Skype for Business Server のフロントエンドサービス  |444  |HTTPS  <br/> TCP  |フロントエンドとディレクターの間のサーバー間通信。 さらに、クライアント証明書公開 (フロントエンドサーバー) またはクライアント証明書が既に公開されているかどうかを確認します。  |

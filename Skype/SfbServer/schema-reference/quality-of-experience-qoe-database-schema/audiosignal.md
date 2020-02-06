@@ -8,15 +8,17 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 0013c8c6-cdf9-4d70-bc2a-cddd1560f66b
 description: 各レコードは、1つのエンドポイントの音声シグナルメトリックを表します。 通常、各通話には2つのレコードがあります。1つは呼び出し元用、もう1つは呼び出し先用です。
-ms.openlocfilehash: f8d617e96fe3427493bcb9e4cc70008fedae72e7
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d1b35aa4111feb77ae905e833d7bb1f4d4acd01e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295077"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41810675"
 ---
 # <a name="audiosignal-table"></a>AudioSignal テーブル
  
@@ -39,7 +41,7 @@ ms.locfileid: "34295077"
 |**AudioTimestampDriftRateSpk** <br/> |10進数 (9, 2)  <br/> | <br/> |CPU クロックを基準としたスピーカーデバイスクロックドリフトレート。  <br/> |
 |**AudioTimestampErrorMicMs** <br/> |10進数 (9, 2)  <br/> | <br/> |CPU クロックを基準としたスピーカーデバイスクロックドリフトレート。  <br/> 平均マイクキャプチャストリームタイムスタンプエラー (ミリ秒単位)、通話の最後の20秒。  <br/> |
 |**AudioTimestampErrorSpkMs** <br/> |10進数 (9, 2)  <br/> | <br/> |通話の最後の20秒間の平均スピーカーレンダーストリームタイムスタンプエラー (ミリ秒単位)。  <br/> |
-|**VsEntryCauses 原因** <br/> |smallint  <br/> | <br/> |音声スイッチは半二重モードで、中断機能が低減されます。 音声スイッチの入力の原因:  <br/> ENTER_VS_BADTS 0x01  <br/> ENTER_VS_ECHO 0x02  <br/> ENTER_VS_FORCEORCONVERGENCE 0x04  <br/> ENTER_VS_DNLP 0x08  <br/> 原因として、このような個々の原因が考えられます。 ENTER_VS_FORCEORCONVERGENCE は、テスト目的でのみ、regkey で有効にすることができます。  <br/> この列のデータ型は、Microsoft Lync Server 2013 で変更されました。  <br/> |
+|**VsEntryCauses 原因** <br/> |smallint  <br/> | <br/> |音声スイッチは半二重モードで、中断機能が低減されます。 音声スイッチの入力の原因:  <br/> ENTER_VS_BADTS 0x01  <br/> ENTER_VS_ECHO 0x02  <br/> ENTER_VS_FORCEORCONVERGENCE 0x04  <br/> ENTER_VS_DNLP 0x08  <br/> 原因として、このような個々の原因が考えられます。 ENTER_VS_FORCEORCONVERGENCE を有効にするには、regkey をテスト目的として使用する必要があります。  <br/> この列のデータ型は、Microsoft Lync Server 2013 で変更されました。  <br/> |
 |**EchoEventCauses** <br/> |tinyint  <br/> | <br/> |エコーイベントの原因:  <br/> ECHO_EVENT_BAD_TIMESTAMP 0x01  <br/> ECHO_EVENT_POSTAEC_ECHO 0x02  <br/> ECHO_EVENT_ANLP 0x04  <br/> ECHO_EVENT_DNLP 0x08  <br/> ECHO_EVENT_MIC_CLIPPING 0x10  <br/> ECHO_EVENT_BAD_STATE 0x20  <br/> 原因として、このような個々の原因が考えられます。  <br/> |
 |**EchoPercentMicIn** <br/> |10進数 (5, 2)  <br/> | <br/> |マイクのキャプチャストリームでエコーが検出された時間の割合。 一般的に、ヘッドセットまたはハンドセットの値は低く、スピーカーフォンやスタンドアロンスピーカーでは高くなります。 オンボード音響エコーキャンセルをサポートしているデバイスでは、高値を指定するとエコーリークが発生します。 その他のデバイスでは、デバイスの品質を評価するためにこのメトリックを使用しないようにする必要があります。  <br/> |
 |**EchoPercentSend** <br/> |10進数 (5, 2)  <br/> ||送信ストリームでエコーが検出された時間のパーセンテージ。 送信ストリームでのエコー率が高いと、エコーが発生したことを示します。  <br/> |

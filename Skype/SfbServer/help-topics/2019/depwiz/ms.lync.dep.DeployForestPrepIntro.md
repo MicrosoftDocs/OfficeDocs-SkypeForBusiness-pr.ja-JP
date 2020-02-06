@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.dep.DeployForestPrepIntro
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 71314efe-136b-4970-a411-6282d1cb5b87
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[フォレストの準備] タスクを開始するには、[次へ] をクリックします。 [フォレストの準備] タスクを実行すると、グローバル設定が作成され、Skype for Business Server で使用するユニバーサルグループが作成されます。'
-ms.openlocfilehash: 7a96a0a0ef50d627ff462ed79fd3259046e1da6e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 4810cd7b5ce162f782f90d0542b31dcfec22e631
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705522"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41798404"
 ---
 # <a name="prepare-current-forrest-intro"></a>現在のフォレストの準備 (開始)
  

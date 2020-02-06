@@ -8,15 +8,17 @@ ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 9ff2c8fc-4ae8-4f22-96a8-1f4d5eecbf2d
 description: PurgeSettings テーブルには、古い通話の詳細レコードが CDR データベースから自動的に削除されるかどうかを指定する情報が含まれています。 次のコマンドを実行して、Skype for Business Server 2015 内からパージに関連する情報を取得することもできます。
-ms.openlocfilehash: fbbd7908446fdb042c8fdfa2f0c8bec2d83b24d9
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 81e702a4d62b4c85fb849a768c97428719ddc391
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992917"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814965"
 ---
 # <a name="purgesettings-table"></a>PurgeSettings テーブル
  

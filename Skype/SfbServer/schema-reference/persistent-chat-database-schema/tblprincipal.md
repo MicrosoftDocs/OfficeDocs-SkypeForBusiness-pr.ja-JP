@@ -8,15 +8,17 @@ ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 79a24502-b4ce-41f0-8979-8caddf535338
 description: tblPrincipal には、ユーザー、フォルダー、グループを含むすべてのプリンシパルが含まれています。
-ms.openlocfilehash: 5a0b6535ace344951b75f7c5c9488f56a18564ee
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7924c65745e29cce6dd71dc14b1ecfe7b41fe8b3
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295364"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814505"
 ---
 # <a name="tblprincipal"></a>tblPrincipal
  
@@ -24,7 +26,7 @@ tblPrincipal には、ユーザー、フォルダー、グループを含むす�
   
 **行**
 
-|**列**|**型**|**説明**|
+|**列**|**種類**|**説明**|
 |:-----|:-----|:-----|
 |prinID  <br/> |int (null ではない)  <br/> |プリンシパル ID。  <br/> |
 |prinGuid  <br/> |GUID、null ではない  <br/> |プリンシパル GUID。 これは、プライマリキーとして広く使用されており、その意味は Active Directory ドメインサービスの領域にあります。 (キャッシュされるプリンシパルの GUID は、対応する Active Directory オブジェクト GUID と同じです)。  <br/> |

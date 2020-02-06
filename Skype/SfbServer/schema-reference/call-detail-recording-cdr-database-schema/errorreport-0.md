@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: ca873f7e-b18b-4eaf-8db0-5f9d5a9b60a1
 description: ErrorReport ビューには、報告されたエラーに関する情報が格納されます。 各レコードはエラー発生の1つです。 このエラーは、フロントエンドサーバーで実行されている CDR エージェントまたはクライアントから送信された cd-r エージェントによってキャプチャされます。 このビューは、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: a95d3d1e99fc41727c10ecef7beaafddc213dd17
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d51b085d5dabb8a6ae0dc367b23dd23a1702174e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296274"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815245"
 ---
 # <a name="errorreport-view"></a>ErrorReport ビュー
  

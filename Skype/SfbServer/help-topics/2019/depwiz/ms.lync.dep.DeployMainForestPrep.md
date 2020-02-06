@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.dep.DeployMainForestPrep
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 11f5e359-97eb-45f7-a730-9ddbbaa40b83
 ROBOTS: NOINDEX, NOFOLLOW
 description: Active Directory ドメインサービスフォレストを準備するには、「スキーマの準備を実行する」のトピックで説明されているように、スキーマを正常に拡張し、スキーマがレプリケートされていることを確認する必要があります。
-ms.openlocfilehash: 8c472588dc67ef0e8bc86afb86bcad200df307f0
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 0458fee54814f7f48382709a0509494e770d3e2b
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41691812"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41798314"
 ---
 # <a name="prepare-current-forest"></a>現在のフォレストの準備
 

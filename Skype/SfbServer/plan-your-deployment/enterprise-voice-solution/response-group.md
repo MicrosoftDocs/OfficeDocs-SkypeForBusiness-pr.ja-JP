@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
 description: Skype for Business Server エンタープライズボイスの応答グループを計画しています。これにより、ユーザーのグループに通話ルーティングを設定することができます。 また、オーディオ ファイルの要件についても説明します。
-ms.openlocfilehash: b1c8a2ab1a7dc42fd290df4bdc1ccf69b52db43a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ec0bbe0e02fd7b4f027f8c2e57784c402aa0f039
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276469"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802487"
 ---
 # <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>Skype for Business Server での応答グループアプリケーションの計画
 
@@ -189,9 +191,9 @@ Microsoft Expression Encoder 4 を使用して、ファイルを Windows Media �
 
 - **発信者**は、先にリストされたクライアントのいずれかを使用するか、または公衆交換電話網 (PSTN) 経由で標準的な電話機を使用して、応答グループを呼び出すことができます。
 
-- **非公式のエージェント**(通話を許可するためにグループにサインインまたはサインアウトしないエージェント) は、アテンダント、Lync、Lync Phone Edition を使用して通話を受けることができます。 非公式のエージェントは、これらのクライアントのいずれかを使用して Skype for Business Server にサインインすると、自動的にグループにサインインします。
+- **非公式のエージェント**(グループにサインインして通話に応答しないエージェント) は、アテンダント、Lync、Lync Phone Edition を使用して通話を受けることができます。 非公式のエージェントは、これらのクライアントのいずれかを使用して Skype for Business Server にサインインすると、自動的にグループにサインインします。
 
-- **正式なエージェント**(通話を許可するためにグループにサインインまたはサインアウトする必要があるエージェント) は、Skype for Business を使用して、メニュー項目からエージェントコンソールにアクセスするか、または応答を使用して、Internet Explorer から直接エージェントコンソールにアクセスすることで、通話を受けることができます。
+- **正式なエージェント**(通話を許可するためにグループにサインインまたはサインアウトする必要があるエージェント) は、Skype for business を使用して、メニュー項目からエージェントコンソールにアクセスするか、または応答を使用して、Internet Explorer から直接エージェントコンソールにアクセスして通話を受けることができます。
 
 ## <a name="capacity-planning"></a>処理能力の計画
 
@@ -207,7 +209,7 @@ Microsoft Expression Encoder 4 を使用して、ファイルを Windows Media �
 
 |**指標**|**Enterprise Edition プール<br/> (8 台のフロントエンドサーバーを含む)**|**Standard Edition サーバーごと**|
 |:-----|:-----|:-----|
-|1 秒あたりの着信  <br/> |16  <br/> |2  <br/> |
+|1 秒あたりの着信  <br/> |16  <br/> |両面  <br/> |
 |IVR または MoH に接続した同時通話  <br/> |480  <br/> |60  <br/> |
 |匿名の同時セッション (IM なし)  <br/> |224  <br/> |日  <br/> |
 |匿名の同時セッション (IM あり)  <br/> |64  <br/> |個  <br/> |

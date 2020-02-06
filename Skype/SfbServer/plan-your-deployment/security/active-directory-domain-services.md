@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5483afd5-d8af-4825-ae95-a82dbe941dbf
 description: Active Directory ドメインサービスは、Windows Server 2003、Windows Server 2008、Windows Server 2012、Windows Server 2012 R2 ネットワークのディレクトリサービスとして機能します。 Active Directory ドメインサービスは、Skype for Business Server のセキュリティインフラストラクチャを構築する基盤としても機能します。 このセクションの目的は、Skype for Business Server で Active Directory ドメインサービスを使って、IM、Web 会議、メディア、音声の信頼できる環境を構築する方法を説明します。 Active Directory ドメインサービスの環境の準備について詳しくは、「展開ドキュメントに Skype for Business Server をインストールする」をご覧ください。 Windows Server ネットワークの Active Directory ドメインサービスの役割の詳細については、使用しているオペレーティングシステムのバージョンのドキュメントを参照してください。
-ms.openlocfilehash: 4458d49bf2f57284ac29c68bb40f3979761d5c50
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ec3a09e2203b6f862d87403818b43ab6daae33ed
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297009"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815715"
 ---
 # <a name="active-directory-domain-services-for-skype-for-business-server"></a>Skype for Business Server の Active Directory ドメインサービス
  
@@ -52,7 +54,7 @@ Active Directory のインフラストラクチャ要件には、次のものが
     
 - **インフラストラクチャグループ**。 これらのグループは、Skype for Business Server インフラストラクチャの特定の領域にアクセスするためのアクセス許可を提供します。 変更したり、ユーザーを直接追加したりしないでください。 フォレストの準備時に、特定のサービス グループと管理グループが、対応するインフラストラクチャ グループに追加されます。
     
-Skype for business Server 用の広告を準備するときに作成される特定のユニバーサルグループ、およびインフラストラクチャグループに追加されるサービスと管理グループの詳細については、「 [Skype For business でのフォレストの準備による変更」を参照してください。Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md)を展開ドキュメントに配置します。
+Skype for Business Server 用の広告を準備するときに作成される特定のユニバーサルグループ、およびインフラストラクチャグループに追加されるサービスと管理グループの詳細については、展開ドキュメントの「 [Skype For Business Server でのフォレストの準備による変更](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md)」を参照してください。
   
 > [!NOTE]
 > Skype for Business Server は、Windows Server 2012 のユニバーサルグループに加えて、ドメインコントローラーの Windows Server 2003 オペレーティングシステムをサポートしています。 ユニバーサルグループのメンバーには、ドメインツリーまたはフォレスト内の任意のドメインの他のグループとアカウントを含めることができ、ドメインツリーまたはフォレスト内の任意のドメインでアクセス許可を割り当てることができます。 ユニバーサルグループのサポートは、管理者の委任と組み合わせることで、Skype for Business Server の展開を簡単に管理できます。 たとえば、あるドメインを別のドメインに追加して、管理者が両方を管理できるようにする必要はありません。 
@@ -67,7 +69,7 @@ Skype for business Server 用の広告を準備するときに作成される特
   
 ドメインの準備ステップでは、ドメイン内のユーザーをホストおよび管理するアクセス許可を与えるアクセス制御エントリ (ACE) をユニバーサル グループに追加します。ドメインの準備で、ドメイン ルートと 3 つの組み込みコンテナー (ユーザー、コンピューター、およびドメイン コントローラー) に対する ACE が作成されます。
   
-フォレストの準備とドメインの準備によって作成および追加されたパブリック Ace の詳細については、「 [skype For Business server でのフォレストの準備による変更](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md)」および「 [Skype for business server でのドメインの準備](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-domain-preparation.md)によって行われる変更」を参照してください。展開ドキュメント。
+フォレストの準備とドメインの準備によって作成および追加されたパブリック Ace の詳細については、「 [skype For Business server でのフォレストの準備による変更](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md)」および展開ドキュメントの「 [Skype for business server でのドメインの準備](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-domain-preparation.md)によって行われる変更」を参照してください。
   
 組織は、セキュリティリスクを軽減するために Active Directory ドメインサービス (AD DS) をロックダウンすることがよくあります。 ただし、ロックダウンされた Active Directory 環境では、Skype for Business Server で必要なアクセス許可を制限できます。 たとえば、コンテナーと OU からの ACE の削除や、ユーザー、連絡先、InetOrgPerson、コンピューターの各オブジェクトでのアクセス許可の継承の無効化などが挙げられます。 ロックダウンされた Active Directory 環境では、アクセス許可を必要とするコンテナーと Ou に対して手動でアクセス許可を設定する必要があります。
   

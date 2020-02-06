@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
 description: 信頼されたユーザーとは、資格情報が Skype for Business Server の信頼されたサーバーによって認証されたユーザーのことです。 通常、このサーバーは Standard Edition server、Enterprise Edition のフロントエンドサーバー、またはディレクターです。 Skype for Business Server は、ユーザー資格情報の単一の信頼できるバックエンドリポジトリとして Active Directory ドメインサービスに依存します。
-ms.openlocfilehash: 35d1c6861ba8863e308939997fd802d4abcea404
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2ffabce6546bf8b542503f8c80fe5cb2b952c568
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296869"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815585"
 ---
 # <a name="user-and-client-authentication-for-skype-for-business-server"></a>Skype for Business Server のユーザーとクライアントの認証
  

@@ -8,16 +8,18 @@ ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: '概要: Skype for Business Server を Exchange 2013 または2016に統合する計画中に、このトピックを確認してください。'
-ms.openlocfilehash: bed73151b1010dd287c21ea55372e4eb18117665
-ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
+ms.openlocfilehash: 1ae6ad10f1e817b9ace0240c79d09251a23dd61c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772620"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815865"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>Skype for Business での Exchange ユニファイド メッセージング統合の計画
 
@@ -61,7 +63,7 @@ Skype for Business Server のエンタープライズボイスは、Exchange ユ
 
 ### <a name="exchange-server-components"></a>Exchange Server コンポーネント
 
-統合された[ユニファイドメッセージングおよび Skype For Business Server の機能](#features-of-integrated-unified-messaging-and-skype-for-business-server)で説明されている Exchange UM の機能とサービスを組織内のエンタープライズボイスユーザーに提供するには、Microsoft Exchange メールボックスサーバーとクライアントアクセスを展開する必要があります。サーバー。ユーザーメールボックスをホストし、メールやボイスメール用の1つの保存場所を提供します。 Exchange UM は、Exchange メールボックスとクライアントアクセスサーバーでサービスとして実行されます。
+統合された[ユニファイドメッセージングおよび Skype For Business Server の機能](#features-of-integrated-unified-messaging-and-skype-for-business-server)で説明されている exchange UM の機能とサービスを組織のエンタープライズボイスユーザーに提供するには、Microsoft Exchange メールボックスサーバーとクライアントアクセスサーバーを展開して、ユーザーメールボックスをホストし、メールとボイスメール用の1つの保存場所を提供する必要があります。 Exchange UM は、Exchange メールボックスとクライアントアクセスサーバーでサービスとして実行されます。
 
 Microsoft Exchange Server 2010 の Exchange UM コンポーネントの詳細については、「[オンプレミスの EXCHANGE um を展開して Lync Server 2013 のボイスメールを提供する](https://technet.microsoft.com/library/9673bd73-a3a3-425d-870f-04d801c6d0d5.aspx)」を参照してください。
 

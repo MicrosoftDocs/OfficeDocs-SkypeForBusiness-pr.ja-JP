@@ -8,15 +8,17 @@ ms.date: 2/1/2016
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 579bfa5a-9443-46dd-9a8e-07d00ba2824d
 description: このリファレンスセクションには、次の情報が含まれています。
-ms.openlocfilehash: 5934c9ffab8055de86cdaf3bcf507fa9c806f245
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 98ce04f38d9ee6c572f517441a370823ab7647d5
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296743"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815555"
 ---
 # <a name="active-directory-schema-extensions-classes-and-attributes"></a>ディレクトリ スキーマの拡張、クラスおよび属性
  
@@ -38,7 +40,7 @@ ms.locfileid: "34296743"
     
 - Active Directory 組織単位 (OU) で行われた変更は、Grant_CsSetupPermission コマンドレットによって変更されます。
     
-- Grant_CsOUPermission コマンドレットによって Active Directory OU で行われた変更。
+- Grant_CsOUPermission コマンドレットによって Active Directory OU で行われる変更
     
 ## <a name="in-this-section"></a>このセクション中
 

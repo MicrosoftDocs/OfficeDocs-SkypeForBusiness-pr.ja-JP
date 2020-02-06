@@ -8,6 +8,8 @@ ms.date: 2/15/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Ent_O365_Hybrid
@@ -18,12 +20,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ce323f4b-24e4-4ddf-84a3-67da82bb0c87
 description: Skype for business Cloud Connector Edition を構成する方法については、「skype for Business Online の Office 365 (クラウド PBX) ボイスサービスの電話システムとオンプレミスのボイスインフラストラクチャの統合を可能にする」を参照してください。
-ms.openlocfilehash: 49c0ce1a67b579a566e2dd22b9b345c1d6a4afdd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5966fb4cc6bd7bd09e82f4a2907420f657a9097c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287399"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41799737"
 ---
 # <a name="configure-and-manage-skype-for-business-cloud-connector-edition"></a>Skype for Business Cloud Connector エディションの構成と管理
  

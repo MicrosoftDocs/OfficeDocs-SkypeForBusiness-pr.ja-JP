@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 6f00b8e7-b8b6-4657-ac5e-d8a571806ae2
 description: McuJoinsAndLeaves ビューには、1台の会議サーバーの情報の参加と脱退に関する情報が格納されます。 このビューの各レコードには、ユーザーの参加または退出と会議サーバーの1つの組み合わせについての通話の詳細が含まれています。 このビューは、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: 9d5617449e5b12c13d855c1a93b39490e2177f0e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7a7569795d55620051e617d9312d87f3c96c628a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296078"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815095"
 ---
 # <a name="mcujoinsandleaves-view"></a>McuJoinsAndLeaves ビュー
  

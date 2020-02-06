@@ -8,15 +8,17 @@ ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: d760cb93-77d4-4d64-adb7-416b808f36f8
 description: Skype for Business Server を展開して運用する前に、スキーマを拡張して Active Directory ドメインサービスを準備する必要があります。 スキーマ拡張は、Skype for Business Server で必要なクラスと属性を追加します。
-ms.openlocfilehash: 34f97f7a37adc23635f938fb12c9a72e22429538
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0c3765fe36b252cc03218a3fa4365c5cc36c7f48
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296659"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815485"
 ---
 # <a name="schema-changes-in-skype-for-business-server"></a>Skype for Business Server でのスキーマの変更
  
@@ -33,7 +35,7 @@ Skype for Business Server では、いくつかの新しいクラスと属性が
     
   - サポートされている以前のバージョンの Lync Server との下位互換性を維持するためのクラスの拡張機能。
     
-- **データ**(Skype for Business Server 拡張スキーマと既存のスキーマクラスに保存されています):
+- **データ**(Skype For business Server 拡張スキーマと既存のスキーマクラスに保存されています):
     
   - ユーザー SIP の Uniform Resource Identifier (URI) とその他のユーザー設定
     

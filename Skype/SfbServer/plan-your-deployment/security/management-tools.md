@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 6a285f7c-0ef5-4cab-9976-d03be276e35d
 description: Skype for Business Server では、管理ツールは Windows PowerShell を使って実装されています。 Windows PowerShell には、コマンドライン環境、製品固有のコマンド、完全なスクリプト言語が含まれています。 Windows PowerShell を使用して実装されている Skype for Business Server ツールには、次のようなものがあります。
-ms.openlocfilehash: 3eb156e002603378ec77fbbcbde4772870aad907
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f20a78729e778b069f7e84c9b7ed53e8564d2516
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296883"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815645"
 ---
 # <a name="windows-powershell-and-skype-for-business-server-management-tools"></a>Windows PowerShell と Skype for Business Server 管理ツール
  

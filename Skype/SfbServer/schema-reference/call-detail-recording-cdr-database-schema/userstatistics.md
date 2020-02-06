@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: cfaf803b-1679-4169-92d3-533fad3e56ed
 description: UserStatistics テーブルは、サポートテーブルです。 テーブルの各レコードには、個々のユーザーによるシステムの使用状況に関する情報が格納されます。 この表は、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: 4801ed2611f3a078811f22f7e5a1cc1a797f6805
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 048c26279deb6f89e69784d754567dfde84d9983
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295693"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814795"
 ---
 # <a name="userstatistics-table"></a>UserStatistics テーブル
  

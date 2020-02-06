@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 226460ef-766f-4d61-80cb-f332b65a210d
 description: FocusJoinsAndLeaves ビューには、1人の会議に参加するための情報が保存されます。 各会議は、ユーザーが会議に参加して退席するたびに書き込まれるレコードによって表示されます。 このビューは、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: f739ae390b636913d96b49dd516d2618c72515e6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 771685a5546ef5b462a3ce3955406eb535f4c3eb
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296218"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815195"
 ---
 # <a name="focusjoinsandleaves-view"></a>FocusJoinsAndLeaves ビュー
  

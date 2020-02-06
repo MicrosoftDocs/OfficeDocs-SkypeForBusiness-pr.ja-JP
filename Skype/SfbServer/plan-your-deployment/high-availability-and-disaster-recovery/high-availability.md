@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: Skype for Business Server でのフロントエンドプールの管理について説明します。これには、プールの管理、クォーラムの損失、2つのフロントエンドサーバーのみを含むプールの特別な手順が含まれます。
-ms.openlocfilehash: d54474b6e3013b2d092f55b80000f5578e266f81
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: 731284d6df761b7fb023c92c656cae5cd6d0ed77
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37435180"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815915"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>フロントエンド プールの高可用性と管理
  

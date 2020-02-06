@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c50e38d2-b1e4-4ebd-8dc3-85d4ae7a76ee
 description: '概要: Skype for Business Server を実装する前に、このトピックの DNS の考慮事項を確認してください。'
-ms.openlocfilehash: 5e6bb5866cfc52dc02a1fc48c19b1f43af6077f7
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 52984c0813fb96c78ff5a1581c0722a691501ccb
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221225"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802127"
 ---
 # <a name="dns-requirements-for-skype-for-business-server"></a>Skype for Business Server の DNS 要件
 
@@ -31,7 +33,7 @@ ms.locfileid: "35221225"
 
 これは少し困難に思えるかもしれませんが、計画を立てるための大きな取り組みは、 [Skype For Business Server 2015 計画ツール](https://www.microsoft.com/en-us/download/details.aspx?id=50357)を使って行うことができます。 使用する予定の機能についてウィザードの質問を完了した後は、定義した各サイトについて、エッジ管理者レポートで DNS レポートを表示して、そこに記載されている情報を使って DNS レコードを作成できます。 使用される名前と IP アドレスの多くを調整することもできます。詳細については、「 [DNS レポートを確認](../../management-tools/planning-tool/review-the-administrator-reports.md#DNS_Report)する」を参照してください。 Edge 管理者レポートを Excel スプレッドシートにエクスポートして、DNS レポートはファイル内のワークシートの1つとしてエクスポートできることに注意してください。 このツールには、 [Skype For Business Server 2019 から廃止](../../../SfBServer2019/deprecated.md)された機能が含まれていますが、これらの機能が選択されていない場合は、最初のプランを作成するために使用することができます。
 
-「 [Skype for Business server の dns レコードを作成](../../deploy/install/create-dns-records.md)して、Skype For business server のトポロジを構築する」の説明に従って新しい実装をインストールすると、Windows Server に組み込まれている dns 機能を使用することを選ぶことができると認識されます。2016またはサードパーティの DNS パッケージでは、この記事で説明しているように、固有のものではなく、この記事のディスカッションを行います。 ここでは、必要なものを詳しく説明しています。また、その必要性を満たすためには、決定する必要があります。
+「 [Skype For Business server の dns レコードを作成](../../deploy/install/create-dns-records.md)する」と「skype For business server のトポロジを構築する」で説明されているように新しい実装をインストールすると、Windows Server 2016 またはサードパーティの dns パッケージに組み込まれている dns 機能を使用することができます。そのため、この記事では、具体的な説明ではなく、この ここでは、必要なものを詳しく説明しています。また、その必要性を満たすためには、決定する必要があります。
 
 経験豊富な Skype for Business、Lync、Office Communications Suite 管理者は、次の表を参考にしてください。 表の内容が分かりにくい場合は、後のセクションや記事で次のような概念が明快に説明されています。
 

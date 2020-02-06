@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: a8d71373-4b57-4245-9f02-f7fc0d9fcd3c
 description: ユーザーテーブルは、サポートテーブルです。 テーブル内の各レコードには、データベース内のレコードが含まれる1人のユーザーに関する情報が含まれています。
-ms.openlocfilehash: 0dcc2fda73305be2bbe6a7a5c546dac0b05f8273
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 21d03dc2214ac74188094c10a7b53ec84b8a51a9
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295700"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814805"
 ---
 # <a name="users-table"></a>ユーザー テーブル
  

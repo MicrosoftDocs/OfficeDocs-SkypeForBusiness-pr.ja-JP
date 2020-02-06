@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
 description: '概要: 通話品質ダッシュボードの使用方法について説明します。 通話品質ダッシュボードは、Skype for Business Server のツールです。'
-ms.openlocfilehash: 09eb8bdae508ff9a5fe39fec67b0f440859efad0
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 61b20062925f59474d387a022a92663e0ffcd6ba
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774707"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816666"
 ---
 # <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>Skype for Business Server の通話品質ダッシュボードを使用する
 

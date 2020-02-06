@@ -8,15 +8,17 @@ ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
 description: このセクションでは、グローバル設定とオブジェクト、およびフォレストの準備手順によって作成されるユニバーサルサービスと管理グループについて説明します。
-ms.openlocfilehash: ece4a9bd1db5f43b52a96265dee41ee3a0a30b22
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 26917915d89aff721e74f094eb8ad5bb72db3cf6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296701"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815535"
 ---
 # <a name="changes-made-by-forest-preparation-in-skype-for-business-server"></a>Skype for Business Server でのフォレストの準備によって行われた変更
 
@@ -24,7 +26,7 @@ ms.locfileid: "34296701"
 
 ## <a name="active-directory-global-settings-and-objects"></a>Active Directory のグローバル設定とオブジェクト
 
-構成コンテナーにグローバル設定を保存している場合 (すべての新しい Skype for Business Server の展開の場合と同様に)、フォレストの準備で既存のサービスコンテナーが使用され、Configuration\Services の下に**RTC サービス**オブジェクトが追加されます。オブジェクト. RTC Service オブジェクトの下で、フォレストの準備によって型が Msrtcsip-userenabled true-GlobalContainer の**グローバル設定**オブジェクトが追加されます。 グローバル設定オブジェクトには、Skype for Business Server の展開に適用されるすべての設定が含まれます。 システムコンテナーにグローバル設定を保存する場合、フォレストの準備では、ルートドメインシステムコンテナーと、System\Microsoft オブジェクトの下にある RTC サービスオブジェクトを使って Microsoft コンテナーを使用します。
+構成コンテナーにグローバル設定を格納する場合 (すべての新しい Skype for Business Server の展開の場合と同様)、フォレストの準備では既存のサービスコンテナーが使用され、Configuration\Services オブジェクトの下に**RTC サービス**オブジェクトが追加されます。 RTC Service オブジェクトの下で、フォレストの準備によって型が Msrtcsip-userenabled true-GlobalContainer の**グローバル設定**オブジェクトが追加されます。 グローバル設定オブジェクトには、Skype for Business Server の展開に適用されるすべての設定が含まれます。 システムコンテナーにグローバル設定を保存する場合、フォレストの準備では、ルートドメインシステムコンテナーと、System\Microsoft オブジェクトの下にある RTC サービスオブジェクトを使って Microsoft コンテナーを使用します。
 
 フォレストの準備では、この手順を実行するルートドメイン用の新しい**msrtcsip-userenabled true**オブジェクトも追加されます。
 
@@ -123,14 +125,14 @@ RBAC の役割と、それぞれに対して許可されるタスクについて
 
 構成コンテナーでは、構成の名前付けコンテキストの下で、フォレストの準備で次のタスクを実行します。
 
-- ユーザー、連絡先、InetOrgPersons の言語表示指定子の adminContextMenu 属性と adminPropertyPages 属性の下に、[ **RTC] プロパティ**ページのエントリ **{AB255F23-2DBD-4bb6-891D-38754AC280EF}** を追加します (例: CN =ユーザーによる表示、CN = 409、CN = DisplaySpecifiers 子
+- ユーザー、連絡先、InetOrgPersons の言語表示指定子 (例: CN = ユーザー表示、CN = 409、CN = DisplaySpecifiers 子) の adminContextMenu**プロパティ**と adminPropertyPages 属性のエントリ **{AB255F23-2DBD-4bb6-891D-38754AC280EF}** を追加します。
 
 - ユーザークラスと連絡先クラスに適用される**拡張権限**の下に、 **controlaccessright**型の**RTCPropertySet**オブジェクトを追加します。
 
 - ユーザー、連絡先、OU、および DomainDNS クラスに適用される**拡張権限**の下に、 **controlaccessright**型の**RTCUserSearchPropertySet**オブジェクトを追加します。
 
-- 各言語の組織単位 (OU) 表示指定子の**extraColumns**属性の下に**Msrtcsip-userenabled true-primaryuseraddress**を追加します (例: CN = ORGANIZATIONALUNIT-display、CN = 409、cn = displayspecifiers 子)。既定の表示の**extraColumns**属性 (たとえば、cn = Default-DISPLAY、cn = 409、Cn = displayspecifiers 子)。
+- 各言語の組織単位 (OU) 表示指定子の**extraColumns**属性の下に**Msrtcsip-userenabled true-primaryuseraddress**を追加します (例: Cn = organizationalUnit-display、CN = 409、cn = displayspecifiers 子)。既定の表示の**extraColumns**属性の値をコピーします (例: CN = default-DISPLAY、Cn = 409、cn = displayspecifiers 子)。
 
-- ユーザー、連絡先、Msrtcsip-userenabled true の各言語表示指定子の**Attributedisplaynames**属性で、 **-primaryuseraddress**、 **Msrtcsip-userenabled true-PrimaryHomeServer**、および**msrtcsip-userenabled true-userenabled**フィルター属性を追加します。および InetOrgPerson オブジェクト (たとえば、英語: CN = ユーザー表示、CN = 409、CN = DisplaySpecifiers 子)。
+- ユーザー、連絡先、および InetOrgPerson オブジェクトの各言語表示指定子の**Attributedisplaynames**属性の**Msrtcsip-userenabled true-primaryuseraddress**、 **Msrtcsip-userenabled true-PrimaryHomeServer**、および**msrtcsip-userenabled true-userenabled**フィルター属性を追加します (たとえば、英語: CN = ユーザー表示、cn = 409、cn = display指定子)。
 
 

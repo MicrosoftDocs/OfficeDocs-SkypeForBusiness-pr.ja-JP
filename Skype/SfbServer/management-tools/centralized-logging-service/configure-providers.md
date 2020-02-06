@@ -8,16 +8,18 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6a197ecf-b56b-45e0-8e7c-f532ec5164ff
 description: '概要: Skype for Business Server 2015 の一元管理ログサービスのシナリオプロバイダーを構成する方法について説明します。'
-ms.openlocfilehash: dcfa16ffa00e81153172570e67020cf287350cd9
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: e2c633dabf30ffbc42fa90066bf469e10dc25fb6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991472"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816606"
 ---
 # <a name="configure-providers-for-centralized-logging-service-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での集中ログ サービス プロバイダーの構成
  

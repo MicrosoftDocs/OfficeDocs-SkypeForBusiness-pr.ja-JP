@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: ea82e56c-3cca-4d89-b4e6-6bcaeb1f2830
 description: tblComplianceState には、プール全体のコンプライアンスの状態に関する情報が含まれています。
-ms.openlocfilehash: 1c5571d7150c3859978f8d217f0264f67ee993d5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6f3a7b1b7744260d0630a5328021b1752137a797
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295476"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814635"
 ---
 # <a name="tblcompliancestate"></a>tblComplianceState
  
@@ -24,7 +26,7 @@ tblComplianceState には、プール全体のコンプライアンスの状態�
   
 **行**
 
-|**列**|**型**|**説明**|
+|**列**|**種類**|**説明**|
 |:-----|:-----|:-----|
 |lastProcessedEntryID  <br/> |bigint (null ではない)  <br/> |最新の処理済みのコンプライアンスイベントの ID です。  <br/> |
 |activeServerID  <br/> |int (null ではない)  <br/> |データベースの排他ロックを保持しているコンプライアンスサーバーの ID。または、なしの場合は-1。  <br/> |

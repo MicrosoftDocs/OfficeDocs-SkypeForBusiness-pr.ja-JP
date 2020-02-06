@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Skype for Business Server では、単一の PSTN ゲートウェイに複数の trunks を割り当てることができます。つまり、ゲートウェイと trunks は1つではなく、管理者は、個々の SIP トランクに関する情報を表示するために、Get-CsTrunk コマンドレットを使用する必要があります。
-ms.openlocfilehash: f9199936dd4c9580c95c8b9708df04dcac13e1e8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d7db7eebfc409b0f79bd562606368d434ba47f0c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274878"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816926"
 ---
 # <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server"></a>Skype for Business Server の各 SIP trunks に関する情報を表示する
 

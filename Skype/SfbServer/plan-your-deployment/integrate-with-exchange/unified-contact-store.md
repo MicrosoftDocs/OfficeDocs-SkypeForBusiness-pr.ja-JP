@@ -8,16 +8,18 @@ ms.date: 6/8/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d56e11be-43dd-45d4-8ac6-3adfb03f5d1a
 description: '概要: Skype for Business Server と Exchange 2013 との統合を計画しているときに、このトピックを確認してください。'
-ms.openlocfilehash: 4548773c382b4295ddfbfa141f18f0df8ba367ae
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fbc361dab4414ea2add286144be48b922a9d9247
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297394"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815875"
 ---
 # <a name="plan-for-unified-contact-store-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の統合連絡先ストアの計画
  
@@ -38,7 +40,7 @@ Skype for Business Server でユニファイド連絡先ストアを実装する
 - Skype for Business Server と Exchange 2013 または2016の間にサーバー間認証が構成されている必要があります。
     
     > [!NOTE]
-    > Skype for Business Server と Exchange 2013 または2016の間の認証のセットアップの詳細については、「 [skype For Business server でのサーバー間認証 (OAuth) とパートナーアプリケーションの管理](../../manage/authentication/server-to-server-and-partner-applications.md)」を参照してください。documentation.
+    > Skype for Business Server と Exchange 2013 または2016の間の認証のセットアップに関する詳細については、操作のドキュメントの「 [skype For Business server でサーバー間認証 (OAuth) とパートナーアプリケーションを管理](../../manage/authentication/server-to-server-and-partner-applications.md)する」を参照してください。
   
 ## <a name="see-also"></a>関連項目
 

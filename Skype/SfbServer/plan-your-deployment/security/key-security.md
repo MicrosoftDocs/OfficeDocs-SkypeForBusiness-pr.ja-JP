@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bf2a3b8f-73c6-47e1-8c9e-ca1dc1a502bf
 description: Skype for Business Server には、サーバー間認証、役割ベースのアクセス制御、構成データの一元ストレージなど、いくつかのセキュリティ機能が含まれています。
-ms.openlocfilehash: cd86d1ac404cd2fe487f6f9369cc73df0d72c52f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ac1891194d231c4d494ba4014e4abd8bd7f1185b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296890"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815655"
 ---
 # <a name="key-security-features-in-skype-for-business-server"></a>Skype for Business Server の主要なセキュリティ機能
  
@@ -58,7 +60,7 @@ Skype for Business Server では、役割ベースのアクセス制御 (RBAC) �
   
 ## <a name="network-address-translation-nat"></a>ネットワーク アドレス変換 (NAT)
 
-Skype for Business Server は、エッジサーバーの内部インターフェイスでのネットワークアドレス変換 (NAT) の使用をサポートしていませんが、アクセスエッジサービス、Web 会議エッジサービス、および A/V Edge サービスの外部インターフェイスの配置をサポートしています。ネットワークアドレス変換 (NAT) を実行するルーターまたはファイアウォールの背後で、統合されたエッジサーバートポロジの1つとスケーリングの両方に対応しています。 ハードウェア ロード バランサーの背後にある複数のエッジ サーバーでは、NAT を使用できません。 複数のエッジ サーバーの外部インターフェイスで NAT を使用する場合は、ドメイン ネーム システム (DNS) の負荷分散が必要です。 DNS 負荷分散を使用すると、エッジ サーバー プール内のエッジ サーバーあたりのパブリック IP アドレスの数を削減できます。 詳細については、「 [Skype For Business Server のエッジサーバーのシナリオ](../../plan-your-deployment/edge-server-deployments/scenarios.md)」を参照してください。
+Skype for Business Server は、エッジサーバーの内部インターフェイスでネットワークアドレス変換 (NAT) を使用することはできませんが、統合されたエッジサーバートポロジの1つとスケールの両方について、ネットワークアドレス変換 (NAT) を実行するルーターまたはファイアウォールの外部インターフェイスの配置をサポートしています。 ハードウェア ロード バランサーの背後にある複数のエッジ サーバーでは、NAT を使用できません。 複数のエッジ サーバーの外部インターフェイスで NAT を使用する場合は、ドメイン ネーム システム (DNS) の負荷分散が必要です。 DNS 負荷分散を使用すると、エッジ サーバー プール内のエッジ サーバーあたりのパブリック IP アドレスの数を削減できます。 詳細については、「 [Skype For Business Server のエッジサーバーのシナリオ](../../plan-your-deployment/edge-server-deployments/scenarios.md)」を参照してください。
   
 > [!NOTE]
 > Microsoft Office Communications Server 2007 が展開されているエンタープライズとフェデレーションを行うときに、使用しているエンタープライズとフェデレーション先のエンタープライズとの間で音声ビデオを使用する必要がある場合、ポート要件は、展開されているエッジ サーバーのうち、古い方のバージョン用の要件になります。 たとえば、これらの古いバージョンに必要なポート範囲は、フェデレーションパートナーがそのエッジサーバーを Skype for Business Server にアップグレードするまで両方のエンタープライズで開く必要があります。 アップグレード後には、ポート要件を見直して、新しい構成に応じて削減できます。 

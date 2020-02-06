@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 信頼されたアプリケーションは、Skype for Business Server によって信頼されている Microsoft ユニファイドコミュニケーションマネージ API (UCMA) 3.0 コア SDK に基づくアプリケーションです。
-ms.openlocfilehash: 272785cd1dcfe0bf21f7ac2b5ab64f36646237eb
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b2a257ad197d573beccb187ef49e41b3864c1a58
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275067"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817078"
 ---
 # <a name="manage-trusted-applications-in-skype-for-business-server"></a>Skype for Business Server で信頼済みアプリケーションを管理する
 

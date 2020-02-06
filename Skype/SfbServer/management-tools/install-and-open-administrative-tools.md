@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: このトピックでは、Skype for Business を展開して管理するために必要な管理ツールをインストールして開く方法について説明します。
-ms.openlocfilehash: 612ea46fe8870944fa4b460b034bb9a7386a88bc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c720aba3998df8742406f4c9954f523b20e9af5f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274402"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816556"
 ---
 # <a name="install-and-open-administrative-tools"></a>管理ツールのインストールおよび起動
 
@@ -100,4 +102,4 @@ Skype for Business Server 管理シェルではなく、Windows PowerShell ウ�
 
 `Import-Module Lync`
 
-Skype for Business Server 管理シェルを開始します。 [**スタート**] をクリックし****、[**すべてのプログラム**] をクリックします。次に、[skype for business server] をクリックし、[ **skype for business server 管理シェル**] をクリックします。
+Skype for Business Server 管理シェルを開始します。 [**スタート**] をクリックし、[**すべてのプログラム**] をクリックします。次に、[skype **for business server**] をクリックし、[ **skype for business server 管理シェル**] をクリックします。

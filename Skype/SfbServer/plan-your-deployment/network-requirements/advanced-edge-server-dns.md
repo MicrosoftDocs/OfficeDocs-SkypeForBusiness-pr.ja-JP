@@ -7,6 +7,8 @@ audience: ITPro
 manager: serdars
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: '概要: Skype for Business Server 展開オプションのシナリオを確認します。 単一サーバーを使用したいと考えている場合も、DNS または HLB と共にサーバー プールを使用することを優先する場合も、このトピックは役に立ちます。'
-ms.openlocfilehash: 6507f0ae0cae0712b261bfb772d5da9e528d3994
-ms.sourcegitcommit: c554b09527817dc3e06b10509f6668b42ccc5cb9
+ms.openlocfilehash: e0fef305a29f753b9293593e7e1eb70b936f1a19
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "35758943"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802167"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>Skype for Business Server 向け Advanced Edge Server DNS の計画
  
@@ -50,11 +52,11 @@ Skype for Business クライアントは、以前のバージョンの Lync ク�
     
      *これは、外部 Web サービスを対象とした自動検出サービスのホスト レコードです。* 
     
-3. _sipinternaltls._tcp.\<ドメイン\>
+3. _sipinternaltls _tcp。\<ドメイン\>
     
      *これは、内部 TLS 接続用の SRV レコードです。* 
     
-4. (sip) tls。\<ドメイン\>
+4. _sip _tls。\<ドメイン\>
     
      *これは、外部 TLS 接続用の SRV レコードです。* 
     
@@ -162,7 +164,7 @@ Skype for Business クライアントは、以前のバージョンの Lync ク�
     
     外部 DNS ゾーン (contoso.com など) に一致する内部 DNS のゾーンを作成して、自動で使用される Skype for Business Server プールに対応するレコードを作成する必要があります (IPv6 アドレスを使っている場合は、AAAA の場合)。構成.
     
-    たとえば、ユーザーが pool01.contoso.net をホームにしていて、bob@contoso.com として Skype for Business にサインインしている場合は、contoso.com という名前の内部 DNS ゾーンを作成し、その内部で DNS A (IPv6 アドレスを使っている場合は AAAA) レコードを作成する必要があります。pool01.contoso.com。
+    たとえば、ユーザーが pool01.contoso.net をホームにしていて、bob@contoso.com として Skype for Business にサインインしている場合、contoso.com という名前の内部 DNS ゾーンを作成し、その内部に pool01.contoso.com の DNS A (IPv6 アドレスを使用する場合は AAAA) レコードを作成する必要があります。
     
 - **ピンポイントの内部ゾーン**
     

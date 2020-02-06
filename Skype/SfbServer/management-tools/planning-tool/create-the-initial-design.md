@@ -8,16 +8,18 @@ ms.date: 4/5/2016
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f3131153-de14-41be-b1e6-7d4bb0191af1
 description: Skype for Business Server 計画ツールのインストールが完了したら、計画ツールを開始して、提案された Skype for Business Server 2015 インフラストラクチャの設計を開始する準備ができました。
-ms.openlocfilehash: 47a3725c1307bd6efe57fa07a955004bd6e5ff29
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8c19551d2273b992b5148646e28d726f5aea5900
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274272"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816496"
 ---
 # <a name="create-the-initial-topology-design-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 の初期トポロジ設計の作成
 
@@ -34,7 +36,7 @@ Skype for Business Server 計画ツールのインストールが完了したら
 
    - **オプション 1: 使い始める**[**はじめ**に] をクリックすると、特定の一連の面接質問が表示され、条件を定義できます。 初めての「面接**開始**」セクションを完了した後、サイトのアーキテクチャを定義するための**設計サイト**に進みます。 このオプションを完了するには、手順3に進みます。
 
-   - **オプション 2: サイトを設計**する[ようこそ] ページで [**サイトのデザイン**] をクリックすると**** 、[はじめに] セクションに表示される面接の質問が無視されます。 「**はじめ**に」セクションの「面接の質問」セクションで収集された情報は、このオプションを使用して既定値に設定されています。 [**サイトのデザイン**] をクリックすることで、経験豊富なデザイナーは最初のインタビューを回避し、必要**** に応じて既定値を変更することができます。 このオプションを完了するには、手順3-5 をスキップして、手順6から始めます。
+   - **オプション 2: サイトを設計**する[ようこそ] ページで [**サイトのデザイン**] をクリックすると **、[はじめに] セクションに**表示される面接の質問が無視されます。 「**はじめ**に」セクションの「面接の質問」セクションで収集された情報は、このオプションを使用して既定値に設定されています。 [**サイトのデザイン**] をクリックすることで、経験豊富なデザイナーは**最初のインタビュー**を回避し、必要に応じて既定値を変更することができます。 このオプションを完了するには、手順3-5 をスキップして、手順6から始めます。
 
    - **オプション 3: 保存したトポロジを表示する**計画ツールの以前の使用でトポロジを既に完了し保存している場合は、これらの手順のほとんどをスキップして、最初にトポロジを開いて表示することができます。 また、トポロジの変更や更新を行ったり、保存したり、Microsoft Excel または Microsoft Visio にエクスポートしたりすることもできます。 このオプションを完了するには、手順3-12 をスキップして、手順13から始めます。
 

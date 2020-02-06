@@ -8,16 +8,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 948c176c-75ce-418d-891a-a68427d61e40
 description: Skype for Business Server 2015 Stress and Performance Tool の前提条件と設定。 Stress and Performance Tool のインストールまたは設定方法。
-ms.openlocfilehash: 37aa89a0e6158b4623711ded8752eab2eb9d77ab
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f52d92022e09314a8f9467cd939f67b2827cc153
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299731"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816176"
 ---
 # <a name="prerequisites-and-setup-for-the-skype-for-busines-stress-and-performance-tool"></a>Skype for Busines Stress and Performance Tool の前提条件と設定
  

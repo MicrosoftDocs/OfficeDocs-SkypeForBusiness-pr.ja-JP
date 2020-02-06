@@ -8,16 +8,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ce18db60-5f6b-423d-bc41-91e7c80fb7e3
 description: Skype for Business 2015 応力とパフォーマンスツールについてよく寄せられる質問 (FAQ)、サポートされているツール構成の確認、ツールの問題のトラブルシューティング、ストレスツールとパフォーマンスツールの実行時に表示される可能性がある behaviours の明確化に役立ちます。.
-ms.openlocfilehash: 36bb3e05751bd69b747d84fa563347b29362ddd9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2847ecd54389f64d6961cc72ecb94d87e847b0b0
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299710"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816186"
 ---
 # <a name="faq-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Skype for Business Server 2015 のストレスとパフォーマンスのツールについてよく寄せられる質問
  

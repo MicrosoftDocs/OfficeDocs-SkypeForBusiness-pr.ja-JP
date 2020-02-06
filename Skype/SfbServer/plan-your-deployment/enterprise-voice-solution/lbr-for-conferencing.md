@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: 提案型の通話転送など、Skype for Business Server エンタープライズ Voip の会議の位置情報に基づくルーティングを計画します。
-ms.openlocfilehash: d9ca03920fe361cf4d7692fd80031bef01b03b17
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d03bab835556bf0cea4dffb33bcfbcc48ba7fa42
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276783"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802847"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Skype for Business Server の会議での位置情報に基づくルーティング
 
@@ -143,7 +145,7 @@ Skype for Business 会議への位置情報に基づくルーティングを適�
 
 会議アプリケーションの位置情報に基づくルーティングの適切な優先度の値を見つけたら、次のコマンドレットを使用して、位置情報に基づくルーティングが有効になっているユーザーのホームエンドプールまたは標準エディションのサーバーに対して、次のコマンドレットを入力します。
 
-新しい-CsServerApplication-Identity Service: レジストラー:`<Pool FQDN`_GT_/LBRouting-Priority \<\> -Priority-priority-Critical (優先 $True)-重要な $true Uri<http://www.microsoft.com/LCS/LBRouting> 
+新しい-CsServerApplication-Identity Service: レジストラー:`<Pool FQDN`>/Lbrouting 優先順位\<のアプリケーション\>優先 $true-重要な $true Uri<http://www.microsoft.com/LCS/LBRouting> 
 
 次に例を示します。
 
@@ -152,7 +154,7 @@ Skype for Business 会議への位置情報に基づくルーティングを適�
 このコマンドレットを使用した後、プール内のすべてのフロントエンドサーバー、または会議アプリケーションの位置情報に基づくルーティングが有効になっている Standard Edition サーバーを再起動します。
 
 > [!IMPORTANT]
-> 会議への位置情報に基づくルーティング enforcements は、対象のプールまたは Standard Edition サーバーのすべてのフロントエンドサーバーが再起動されるまでは適用されません。 上記のコマンドレットで **$true**に [**クリティカル**] を設定した場合、Skype for business Server サービスは直ちに再開されます。 これらのサービスを直ちに再開しないように**** するには、[ **$false** ] を [今すぐ] に設定し、[ **set-csserverapplication** ] を使用して、サービスが再起動された後で [**重大**] から [ **$true** ] に変更します。
+> 会議への位置情報に基づくルーティング enforcements は、対象のプールまたは Standard Edition サーバーのすべてのフロントエンドサーバーが再起動されるまでは適用されません。 上記のコマンドレットで **$true**に [**クリティカル**] を設定した場合、Skype for business Server サービスは直ちに再開されます。 これらのサービスを直ちに再開しないように**するには**、[ **$false** ] を [今すぐ] に設定し、[ **set-csserverapplication** ] を使用して、サービスが再起動された後で [**重大**] から [ **$true** ] に変更します。
 
 会議アプリケーションの位置情報に基づくルーティングが正常に有効になり、該当するすべてのサーバーが再起動されると、場所に基づくルーティングが有効になっている Skype for Business ユーザーによって開催されたすべての会議が監視され、この問題を防ぐことができます。PSTN の有料電話のバイパス
 

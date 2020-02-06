@@ -8,15 +8,17 @@ ms.date: 1/20/2017
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: このトピックでは、Skype for Business Server 2015 リソースキットのツールについて説明します。各ツールの目的や使用例も記載されています。 Skype for Business Server 2015 リソースキットは、Skype for business Server 2015 を展開して管理する IT 管理者にとって、日常的なタスクを容易にするのに役立ちます。 たとえば、Web Conf Data ツールを使用すると、オンライン会議中にユーザーによってアップロードされたデータを簡単に制御できます。 SEFAUtil ツールを使用すると、ユーザーの問い合わせに対して自動転送や自動応答を設定できます。 IT 管理者はこれらのツールを使用して、より効率的に Skype for Business Server 2015 を管理することをお勧めします。
-ms.openlocfilehash: 0087f4286246833f0266ad0c78636bad00167756
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: c4fb43d7996133f5608b13a3fea693665ebd3e4b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992534"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816256"
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>Skype for Business Server 2015 リソース キット ツールのドキュメント
 

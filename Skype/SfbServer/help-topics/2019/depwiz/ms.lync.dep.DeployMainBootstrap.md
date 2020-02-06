@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.dep.DeployMainBootstrap
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: f8813f25-eafa-4006-a186-94e4ebcc5ac7
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Skype for Business Server コンポーネントのインストール、ライセンス認証、または非アクティブ化、またはアンインストールを行うには、「手順 2: Skype Server コンポーネントをセットアップまたは削除する」をご覧ください。 インストールまたは変更するコンピューターのローカル管理者としてログインしている必要があります。また、現在のドメインで Active Directory ドメインサービスのユーザーとグループを読み取ることができる必要があります。 開始するには、[実行] をクリックします。 この操作を行うと、中央管理ストアベースのトポロジ定義が読み取られます。 中央管理ストアに定義されている役割に従って、必要なソフトウェア コンポーネントがインストールされて構成されます。 インストールが完了したら、概要を確認して、[完了] をクリックします。'
-ms.openlocfilehash: a02c1aa99de32e42fd7d8352efc561b557ab91bc
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: d19d4946af48f96066d01cea33f0a5c04c22f816
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705432"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41798364"
 ---
 # <a name="setup-or-remove-skype-for-business-server-components"></a>Skype for Business Server コンポーネントのセットアップまたは削除
  

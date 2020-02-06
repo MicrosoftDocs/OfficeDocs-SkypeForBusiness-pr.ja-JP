@@ -8,22 +8,24 @@ ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1bcadf0a-ca3d-436f-a2a0-09329d487b18
 description: '概要: Skype for Business Server を Exchange 2013 または2016に統合する計画中に、このトピックを確認してください。'
-ms.openlocfilehash: dfb9eb926cb1ebd046f06597eecc0c2204fea97b
-ms.sourcegitcommit: fa55f9e3690fcca36b530bd13a9eeaa44120b87c
+ms.openlocfilehash: db6cdbf5297c2397acadcb65ad615533ae6dbe2f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "37547270"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815895"
 ---
 # <a name="deployment-process-overview-for-integrating-on-premises-unified-messaging-and-skype-for-business"></a>オンプレミス ユニファイド メッセージングと Skype for Business を統合するための展開プロセスの概要
  
 **概要:** Skype for Business Server を Exchange 2013 または2016に統合する計画中に、このトピックを確認してください。
   
- Exchange ユニファイドメッセージング (UM) と Skype for Business Server を統合する場合は、このトピックで説明されているタスクを実行する必要があります。 また、「 [Skype For business での Exchange ユニファイドメッセージングの統合の計画](unified-messaging.md)」で説明されている計画と展開のベストプラクティスについて確認してください。 このトピックでは、Skype for Business Server を併置された仲介サーバーと共に展開し、Skype for Business Server のユーザーを有効にしていることを前提としていますが、エンタープライズ Voip を有効にするための展開と構成の手順はすべて実行していない可能性があります。「 [Skype For Business Server でのエンタープライズ voip の](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md)展開」の説明を展開ドキュメントに記載しています。
+ Exchange ユニファイドメッセージング (UM) と Skype for Business Server を統合する場合は、このトピックで説明されているタスクを実行する必要があります。 また、「 [Skype For business での Exchange ユニファイドメッセージングの統合の計画](unified-messaging.md)」で説明されている計画と展開のベストプラクティスについて確認してください。 このトピックでは、お客様が、併置された仲介サーバーを使用して Skype for Business Server を展開していて、Skype for business Server のユーザーを有効にしていることを前提としていますが、詳細については「 [skype For Business server でのエンタープライズボイスの展開](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md)」を参照してください。
  
 > [!NOTE]
 > 以前に認識されていた Exchange ユニファイドメッセージングは、Skype for Business Server 2019 では利用できなくなりました。電話システムを使用してボイスメールメッセージを記録し、ユーザーの Exchange メールボックスに記録したままにします。 詳細については、「[クラウドボイスメールサービスの計画](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)」を参照してください。

@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
 description: Skype for Business Server Enterprise Voice でのボイスの回復性をサポートする方法については、「セントラルサイト」と「ブランチサイト」をご覧ください。 ブランチサイトオプションには、Survivable Branch アプライアンスまたは Survivable ブランチサーバーの展開が含まれます。
-ms.openlocfilehash: 2ede1677e59753e5f8f39b3e9a35221041b56263
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e64ac79ef49339401c5b2d0bbb7d27140eca4296
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276888"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802947"
 ---
 # <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>Plan for Enterprise Voice resiliency in Skype for Business Server
 
@@ -210,7 +212,7 @@ Skype for Business Server は、次のインフラストラクチャとソフト
 
 |**条件**|**推奨されるオプション**|
 |:-----|:-----|
-|ブランチ サイトに 25 から 1,000 ユーザーが所属しており、投資収益率が全面的な展開をサポートしない、またはローカル管理者がいない場合  <br/> |存続可能ブランチ アプライアンス  <br/> Survivable Branch Appliance は、業界標準のブレードサーバーであり、Windows Server 2008 R2 で実行されている Skype for Business Server レジストラーと仲介サーバーが搭載されています。 Survivable Branch Appliance には、公衆交換電話網 (PSTN) ゲートウェイも含まれています。 認定されたサードパーティ製のデバイス (Survivable Branch Appliance (SBA) 認定プログラムで Microsoft パートナーによって開発されたもの) は、WAN の障害が発生した場合に、継続的な PSTN 接続を提供しますが、この方法では回復力がありません。これらの機能はセントラルサイトのフロントエンドサーバーに依存しているため、プレゼンスと会議が表示されます。  <br/> Survivable Branch アプライアンスの詳細については、このトピックの後半の「Survivable Branch Appliance Details」を参照してください。  <br/> **注:** Survivable Branch アプライアンスでも SIP トランクを使用することにした場合は、Survivable Branch Appliance ベンダーにお問い合わせください。組織に最も適したサービスプロバイダーについては、こちらをご覧ください。 <br/> |
+|ブランチ サイトに 25 から 1,000 ユーザーが所属しており、投資収益率が全面的な展開をサポートしない、またはローカル管理者がいない場合  <br/> |存続可能ブランチ アプライアンス  <br/> Survivable Branch Appliance は、業界標準のブレードサーバーであり、Windows Server 2008 R2 で実行されている Skype for Business Server レジストラーと仲介サーバーが搭載されています。 Survivable Branch Appliance には、公衆交換電話網 (PSTN) ゲートウェイも含まれています。 認定されたサードパーティ製デバイス (Survivable Branch Appliance (SBA) 認定プログラムで Microsoft パートナーによって開発されたもの) は、WAN の障害が発生した場合に、継続的な PSTN 接続を提供しますが、これらの機能はセントラルサイトのフロントエンドサーバーに依存するため、弾力性のあるプレゼンスと会議を提供しません。  <br/> Survivable Branch アプライアンスの詳細については、このトピックの後半の「Survivable Branch Appliance Details」を参照してください。  <br/> **注:** Survivable Branch アプライアンスでも SIP トランクを使用することにした場合は、Survivable Branch Appliance ベンダーにお問い合わせください。組織に最も適したサービスプロバイダーについては、こちらをご覧ください。 <br/> |
 |ブランチサイトでの1000と2000ユーザーの間のホスティング、回復可能な WAN 接続がない、Skype for Business Server 管理者のトレーニング  <br/> |Survivable Branch Server または2つの Survivable Branch アプライアンス。  <br/> Survivable Branch Server は、Skype for Business Server レジストラーおよび仲介サーバーソフトウェアがインストールされている、Windows Server 会議で指定されたハードウェア要件を満たしています。 これを、PSTN ゲートウェイ、または電話サービス プロバイダーへの SIP トランクに接続する必要があります。  <br/> Survivable ブランチサーバーの詳細については、このトピックの後半の「Survivable ブランチサーバーの詳細」を参照してください。  <br/> |
 |最大5000ユーザーの音声機能だけでなく、プレゼンスと会議の機能が必要な場合、Skype for Business Server 管理者のトレーニングを受けることができます。  <br/> |ブランチ サイトとしてではなく、Standard Edition サーバーが含まれるセントラル サイトとして展開します。  <br/> フルスケールの Skype for Business Server の展開では、WAN の障害が発生した場合に、継続的な PSTN 接続、回復可能なプレゼンス、会議が提供されます。  <br/> |
 
@@ -275,7 +277,7 @@ Survivable Branch Appliance は、Microsoft との提携により、元の機器
 
 #### <a name="voice-routing-for-branch-users"></a>ブランチ ユーザーの音声ルーティング
 
-ブランチサイトのユーザーに対して、個別のユーザーレベルのボイスメールインターネットプロトコル (VoIP) ポリシーを作成することをお勧めします。 このポリシーには、Survivable Branch Appliance またはブランチサーバーゲートウェイを使用するプライマリルートと、セントラルサイトで公衆交換電話網 (PSTN) ゲートウェイを使用するトランクを使用する1つ以上のバックアップルートを含める必要があります。 プライマリルートを使用できない場合は、1つ以上のセントラルサイトゲートウェイを使用するバックアップルートが代わりに使用されます。 この方法では、ユーザーが登録されている場所に関係なく、ブランチサイトレジストラーまたはセントラルサイトのバックアップレジストラープールで、ユーザーの VoIP ポリシーが常に有効になります。 これは、フェールオーバーシナリオの重要な考慮事項です。 たとえば、Survivable Branch Appliance の名前を変更する必要がある場合、または Survivable Branch アプライアンスを再構成してセントラルサイトのバックアップレジストラープールに接続する必要がある場合は、その期間、ブランチサイトユーザーをセントラルサイトに移動する必要があります。 (Survivable Branch アプライアンスの名前の変更または再構成の詳細については、「[付録 B: 展開ドキュメントで Survivable 支店のアプライアンスを管理](https://technet.microsoft.com/library/2ec9d505-6d39-491c-9524-8cf36866b855.aspx)する」を参照してください。)ユーザーレベルの VoIP ポリシーまたはユーザーレベルのダイヤルプランを持っていない場合、そのユーザーが別のサイトに移動されると、セントラルサイトのサイトレベルの VoIP ポリシーとサイトレベルのダイヤルプランは、ブランチサイトレベルの VoIP ではなく、既定でユーザーに適用されます。ポリシーとダイヤルプラン。 このシナリオでは、バックアップレジストラープールで使用されるサイトレベルの VoIP ポリシーやサイトレベルのダイヤルプランもブランチサイトユーザーに適用できる場合を除き、その呼び出しは失敗します。 たとえば、日本に配置されている支店のユーザーが Redmond のセントラルサイトに移動した場合、すべての7桁の通話に + 1425 を付加する正規化ルールが適用されているダイヤルプランでは、これらのユーザーへの通話を適切に翻訳できない可能性があります。
+ブランチサイトのユーザーに対して、個別のユーザーレベルのボイスメールインターネットプロトコル (VoIP) ポリシーを作成することをお勧めします。 このポリシーには、Survivable Branch Appliance またはブランチサーバーゲートウェイを使用するプライマリルートと、セントラルサイトで公衆交換電話網 (PSTN) ゲートウェイを使用するトランクを使用する1つ以上のバックアップルートを含める必要があります。 プライマリルートを使用できない場合は、1つ以上のセントラルサイトゲートウェイを使用するバックアップルートが代わりに使用されます。 この方法では、ユーザーが登録されている場所に関係なく、ブランチサイトレジストラーまたはセントラルサイトのバックアップレジストラープールで、ユーザーの VoIP ポリシーが常に有効になります。 これは、フェールオーバーシナリオの重要な考慮事項です。 たとえば、Survivable Branch Appliance の名前を変更する必要がある場合、または Survivable Branch アプライアンスを再構成してセントラルサイトのバックアップレジストラープールに接続する必要がある場合は、その期間、ブランチサイトユーザーをセントラルサイトに移動する必要があります。 (Survivable Branch アプライアンスの名前の変更または再構成の詳細については、「[付録 B: 展開ドキュメントで Survivable 支店のアプライアンスを管理](https://technet.microsoft.com/library/2ec9d505-6d39-491c-9524-8cf36866b855.aspx)する」を参照してください。)このようなユーザーが、ユーザーレベルの VoIP ポリシーまたはユーザーレベルのダイヤルプランを持っていない場合は、ユーザーが別のサイトに移動すると、ブランチサイトのサイトレベルの VoIP ポリシーとダイヤルプランの代わりに、セントラルサイトのサイトレベルの VoIP ポリシーとサイトレベルのダイヤルプランが既定でユーザーに適用されます。 このシナリオでは、バックアップレジストラープールで使用されるサイトレベルの VoIP ポリシーやサイトレベルのダイヤルプランもブランチサイトユーザーに適用できる場合を除き、その呼び出しは失敗します。 たとえば、日本に配置されている支店のユーザーが Redmond のセントラルサイトに移動した場合、すべての7桁の通話に + 1425 を付加する正規化ルールが適用されているダイヤルプランでは、これらのユーザーへの通話を適切に翻訳できない可能性があります。
 
 > [!IMPORTANT]
 > ブランチ オフィスのバックアップ ルートを作成するときは、ブランチ オフィスのユーザー ポリシーに 2 つの PSTN 電話使用法レコードを追加し、各電話使用法レコードに個別のルートを割り当てることをお勧めします。 第1または第1のルートでは、Survivable Branch Appliance (SBA) またはブランチサーバーに関連付けられているゲートウェイに直接通話を発信できます。2番目の (バックアップ) ルートは、中央サイトのゲートウェイに直接通話を発信します。 SBA またはブランチ サーバーは通話を振り分けるときに、最初の PSTN 使用法レコードに割り当てられたすべてのルートを試みてから、2 番目の使用法レコードのルートを試みます。
@@ -328,7 +330,7 @@ Survivable Branch アプライアンス (SBAs) と Survivable ブランチサー
 
 - Skype for Business Server の管理者は、AA 電話番号を取得し、Survivable Branch Appliance またはブランチサーバーのボイスメールの再ルーティング設定で、その電話番号を**exchange um 自動応答**番号として使用する必要があります。
 
-- Skype for Business Server の管理者は、Exchange UM サブスクライバーアクセス用の電話番号を取得し、Survivable Branch Appliance または Survivable Branch Server のボイスメールの再ルーティング設定でその番号を**サブスクライバーアクセス**番号として使用する必要があります。.
+- Skype for Business Server 管理者は、Exchange UM サブスクライバーアクセス用の電話番号を取得し、Survivable Branch Appliance または Survivable ブランチサーバーのボイスメール再ルーティング設定で、**サブスクライバーアクセス**番号としてその番号を使用する必要があります。
 
 - Skype for Business Server の管理者は、WAN の停止中にボイスメールへのアクセスを必要とするすべての支店ユーザーに関連付けられているダイヤルプランが1つだけであるように、Exchange UM を構成する必要があります。
 
@@ -384,8 +386,8 @@ Survivable ブランチサーバーの要件は、フロントエンドサーバ
 |:---------------------------|:-------------------|:------------------------|:------------------------------------------|:------------------------------------------------|
 | Redmond Local Route  <br/> | ^\+1 (425           | 206                     | 253) (\d{7}) $  <br/>                       | Local  <br/> RedmondLocal  <br/>                |
 | Dallas Local Route  <br/>  | ^\+1 (972           | 214                     | 469) (\d{7}) $  <br/>                       | Local  <br/>                                    |
-| Universal Route  <br/>     | ^\+? (\d\*) $  <br/> | GlobalPSTNHopoff  <br/> | Trunk1  <br/> Trunk2  <br/> Trunk3  <br/> | Red-GW1  <br/> Red-GW2  <br/> Dallas-GW1  <br/> |
-| Dallas Users Route  <br/>  | ^\+? (\d\*) $  <br/> | DallasUsers  <br/>      | Trunk3  <br/>                             | Dallas-GW1  <br/>                               |
+| Universal Route  <br/>     | ^\+?(\d\*) $  <br/> | GlobalPSTNHopoff  <br/> | Trunk1  <br/> Trunk2  <br/> Trunk3  <br/> | Red-GW1  <br/> Red-GW2  <br/> Dallas-GW1  <br/> |
+| Dallas Users Route  <br/>  | ^\+?(\d\*) $  <br/> | DallasUsers  <br/>      | Trunk3  <br/>                             | Dallas-GW1  <br/>                               |
 
 表 1 では、Dallas Calling Policy の電話使用法 DallasUsers の後に、電話使用法 GlobalPSTNHopoff が追加されます。この結果、電話使用法 DallasUsers に対応したルートが使用できない場合に、Dallas Calling Policy の通話で電話使用法 GlobalPSTNHopoff 用に構成されたルートが使用できるようになります。
 

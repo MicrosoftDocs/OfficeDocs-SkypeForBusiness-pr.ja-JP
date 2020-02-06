@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 688a0328-1aa7-449f-b5f7-98c876112ed2
 description: リモート通話コントロールは、ユーザーが Lync Server で PBX 電話を制御できるようにする以前のバージョンの Lync Server の機能です。 Skype for Business Server では、この機能は勤務先からの通話に置き換えられました。 Skype for Business Server 2015 のクライアントバージョンでは、リモート通話コントロールはクライアントでの構成に使用できなくなり、使用するために削除されました。
-ms.openlocfilehash: e98bcbd7e1feb91b31994d2ece2770c911547882
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 67010a0bc74ef46dcf204e3b2a905be87c182daf
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276491"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802507"
 ---
 # <a name="plan-for-remote-call-control-in-skype-for-business"></a>Skype for Business のリモート通話コントロールを計画する
  

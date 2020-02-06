@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: conceptual
 manager: serdars
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: '概要: Skype for Business Server のエッジサーバーの環境要件について説明します。'
-ms.openlocfilehash: 25584c10c8359cb4a3e695cee4838b80bc9643f5
-ms.sourcegitcommit: bd50c6239cee414ea9933e9d569fa5a24bc05544
+ms.openlocfilehash: 15cc6c54d420cd95962afb1faa219a3a370056a6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/01/2019
-ms.locfileid: "35414990"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803377"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>Skype for Business Server での Edge Server の環境要件
  
@@ -100,7 +102,7 @@ Skype for Business Server Edge Server の展開では、いくつかのトポロ
 
 |**1つのプールあたりのエッジサーバーの数**|**DNS 負荷分散を使用する場合必要な IP アドレス数**|**ハードウェア負荷分散を使用する場合に必要な IP アドレス数**|
 |:-----|:-----|:-----|
-|2  <br/> |6  <br/> |3 (VIP ごとに 1 つ) + 6  <br/> |
+|両面  <br/> |6  <br/> |3 (VIP ごとに 1 つ) + 6  <br/> |
 |3  <br/> |ファイブ  <br/> |3 (VIP ごとに 1 つ) + 9  <br/> |
 |4  <br/> |以内  <br/> |3 (VIP ごとに 1 つ) + 12  <br/> |
 |5  <br/> |マート  <br/> |3 (VIP ごとに 1 つ) +15  <br/> |
@@ -109,7 +111,7 @@ Skype for Business Server Edge Server の展開では、いくつかのトポロ
 
 |**1つのプールあたりのエッジサーバーの数**|**DNS 負荷分散を使用する場合必要な IP アドレス数**|**ハードウェア負荷分散を使用する場合に必要な IP アドレス数**|
 |:-----|:-----|:-----|
-|2  <br/> |2  <br/> |1 (VIP ごとに 1 つ) + 2  <br/> |
+|2  <br/> |両面  <br/> |1 (VIP ごとに 1 つ) + 2  <br/> |
 |3  <br/> |3  <br/> |1 (VIP ごとに 1 つ) + 3  <br/> |
 |4  <br/> |4  <br/> |1 (VIP ごとに 1 つ) + 4  <br/> |
 |5  <br/> |5  <br/> |1 (VIP ごとに 1 つ) + 5  <br/> |
@@ -158,7 +160,7 @@ Skype for Business Server Edge Server の展開については、DNS を適切�
     
   - A/V Edge: 131.107.155.30 (secondary)
     
-  Web 会議と A/V Edge のパブリック IP アドレスは、インターネットプロトコルバージョン 4 (TCP/IPv4) およびインターネットプロトコルバージョン 6 (TCP/IPv6) のプロパティの [詳細設定] セクションで追加の (セカンダリ) IP アドレスとなります。Windows Server
+  Web 会議と A/V Edge のパブリック IP アドレスは、Windows Server のローカルエリア接続プロパティのインターネットプロトコルバージョン 4 (TCP/IPv4) およびインターネットプロトコルバージョン 6 (TCP/IPv6) のプロパティの [詳細] セクションで追加の (セカンダリ) IP アドレスです。
     
   - プライベート IP:
     
@@ -168,7 +170,7 @@ Skype for Business Server Edge Server の展開については、DNS を適切�
     
   - A/V Edge: 10.45.16.30 (secondary)
     
-Web 会議と A/V Edge のパブリック IP アドレスは、インターネットプロトコルバージョン 4 (TCP/IPv4) およびインターネットプロトコルバージョン 6 (TCP/IPv6) のプロパティの [詳細設定] セクションで追加の (セカンダリ) IP アドレスとなります。Windows Server
+Web 会議と A/V Edge のパブリック IP アドレスは、Windows Server のローカルエリア接続プロパティのインターネットプロトコルバージョン 4 (TCP/IPv4) およびインターネットプロトコルバージョン 6 (TCP/IPv6) のプロパティの [詳細] セクションで追加の (セカンダリ) IP アドレスです。
   
 > [!TIP]
 >ここでは、他の構成も利用できます。
@@ -177,7 +179,7 @@ Web 会議と A/V Edge のパブリック IP アドレスは、インターネ�
     
 - 1 つの外部ネットワーク アダプターではなく、3 つの外部ネットワーク アダプターを使用して、各アダプターに 1 つのサービス IP を割り当てることもできます。これを行うのは、複数のサービスを分離し、問題が発生した場合でもトラブルシューティングが容易になるほか、問題を解決しようとしている間も他のサービスを継続して実行できる可能性が高くなるためです。
     
-|**場所**|**型**|**ポート**|**FQDN または DNS レコード**|**IP アドレスまたは FQDN**|**メモ**|
+|**場所**|**種類**|**ポート**|**FQDN または DNS レコード**|**IP アドレスまたは FQDN**|**メモ**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |外部 DNS  <br/> |A レコード  <br/> |NA  <br/> |sip.contoso.com  <br/> |**パブリック:** 131.107.155.10 <br/> **プライベート:** 10.45.16.10 <br/> |アクセスエッジサービスの外部インターフェイス。 Skype for Business ユーザーの SIP ドメインごとに1つずつ必要になります。  <br/> |
 |外部 DNS  <br/> |A レコード  <br/> |NA  <br/> |webcon.contoso.com  <br/> |**パブリック:** 131.107.155.20 <br/> **プライベート:** 10.45.16.20 <br/> |Web 会議エッジサービスの外部インターフェイス。  <br/> |
@@ -211,7 +213,7 @@ Web 会議と A/V Edge のパブリック IP アドレスは、インターネ�
     
         - A/V Edge: 131.107.155.30 (secondary)
     
-          Web 会議と A/V Edge のパブリック IP アドレスは、インターネットプロトコルバージョン 4 (TCP/IPv4) およびインターネットプロトコルバージョン 6 (TCP/IPv6) のプロパティの [詳細設定] セクションで追加の (セカンダリ) IP アドレスとなります。Windows Server
+          Web 会議と A/V Edge のパブリック IP アドレスは、Windows Server のローカルエリア接続プロパティのインターネットプロトコルバージョン 4 (TCP/IPv4) およびインターネットプロトコルバージョン 6 (TCP/IPv6) のプロパティの [詳細] セクションで追加の (セカンダリ) IP アドレスです。
     
     - プライベート IP:
     
@@ -221,7 +223,7 @@ Web 会議と A/V Edge のパブリック IP アドレスは、インターネ�
     
          - A/V Edge: 10.45.16.30 (secondary)
     
-      Web 会議と A/V Edge のパブリック IP アドレスは、インターネットプロトコルバージョン 4 (TCP/IPv4) およびインターネットプロトコルバージョン 6 (TCP/IPv6) のプロパティの [詳細設定] セクションで追加の (セカンダリ) IP アドレスとなります。Windows Server
+      Web 会議と A/V Edge のパブリック IP アドレスは、Windows Server のローカルエリア接続プロパティのインターネットプロトコルバージョン 4 (TCP/IPv4) およびインターネットプロトコルバージョン 6 (TCP/IPv6) のプロパティの [詳細] セクションで追加の (セカンダリ) IP アドレスです。
     
   - ノード 2
     
@@ -233,7 +235,7 @@ Web 会議と A/V Edge のパブリック IP アドレスは、インターネ�
     
       - A/V Edge: 131.107.155.31 (secondary)
     
-      Web 会議と A/V Edge のパブリック IP アドレスは、インターネットプロトコルバージョン 4 (TCP/IPv4) およびインターネットプロトコルバージョン 6 (TCP/IPv6) のプロパティの [詳細設定] セクションで追加の (セカンダリ) IP アドレスとなります。Windows Server
+      Web 会議と A/V Edge のパブリック IP アドレスは、Windows Server のローカルエリア接続プロパティのインターネットプロトコルバージョン 4 (TCP/IPv4) およびインターネットプロトコルバージョン 6 (TCP/IPv6) のプロパティの [詳細] セクションで追加の (セカンダリ) IP アドレスです。
     
   - プライベート IP:
     
@@ -243,7 +245,7 @@ Web 会議と A/V Edge のパブリック IP アドレスは、インターネ�
     
     - A/V Edge: 10.45.16.31 (secondary)
     
-      Web 会議と A/V Edge のパブリック IP アドレスは、インターネットプロトコルバージョン 4 (TCP/IPv4) およびインターネットプロトコルバージョン 6 (TCP/IPv6) のプロパティの [詳細設定] セクションで追加の (セカンダリ) IP アドレスとなります。Windows Server
+      Web 会議と A/V Edge のパブリック IP アドレスは、Windows Server のローカルエリア接続プロパティのインターネットプロトコルバージョン 4 (TCP/IPv4) およびインターネットプロトコルバージョン 6 (TCP/IPv6) のプロパティの [詳細] セクションで追加の (セカンダリ) IP アドレスです。
     
 ここでは、他の構成も利用できます。
   
@@ -251,7 +253,7 @@ Web 会議と A/V Edge のパブリック IP アドレスは、インターネ�
     
 - 1 つの外部ネットワーク アダプターではなく、3 つの外部ネットワーク アダプターを使用して、各アダプターに 1 つのサービス IP を割り当てることもできます。これを行うのは、複数のサービスを分離し、問題が発生した場合でもトラブルシューティングが容易になるほか、問題を解決しようとしている間も他のサービスを継続して実行できる可能性が高くなるためです。
     
-|**場所**|**型**|**ポート**|**FQDN または DNS レコード**|**IP アドレスまたは FQDN**|**メモ**|
+|**場所**|**種類**|**ポート**|**FQDN または DNS レコード**|**IP アドレスまたは FQDN**|**メモ**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |外部 DNS  <br/> |A レコード  <br/> |NA  <br/> |sip.contoso.com  <br/> |**パブリック:** 131.107.155.10 と131.107.155.11 <br/> **プライベート:** 10.45.16.10 と10.45.16.11 <br/> |アクセスエッジサービスの外部インターフェイス。 Skype for Business ユーザーの SIP ドメインごとに1つずつ必要になります。  <br/> |
 |外部 DNS  <br/> |A レコード  <br/> |NA  <br/> |webcon.contoso.com  <br/> |**パブリック:** 131.107.155.20 と131.107.155.21 <br/> **プライベート:** 10.45.16.20 と10.45.16.21 <br/> |Web 会議エッジサービスの外部インターフェイス。  <br/> |
@@ -262,13 +264,13 @@ Web 会議と A/V Edge のパブリック IP アドレスは、インターネ�
    
 ### <a name="dns-record-for-federation-all-scenarios"></a>フェデレーション用の DNS レコード (すべてのシナリオ)
 
-|**場所**|**型**|**ポート**|**ドメイン**|**FQDN ホスト レコード**|**メモ**|
+|**場所**|**種類**|**ポート**|**ドメイン**|**FQDN ホスト レコード**|**メモ**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |外部 DNS  <br/> |SRV  <br/> |5061  <br/> |_sipfederationtls_tcp.contoso.com  <br/> |sip.contoso.com  <br/> |自動 DNS 検出に必要な SIP アクセスエッジの外部インターフェイス。 他の潜在的なフェデレーション パートナーによって使用されます。 "許可済み SIP ドメイン" とも呼ばれます。 Skype for Business ユーザーの SIP ドメインごとに、これらのいずれかが必要になります。  <br/><br/> **注:** この SRV レコードは、モビリティとプッシュ通知のクリアリングハウスに必要です。 <br/> |
    
 ### <a name="dns-records-for-extensible-messaging-and-presence-protocol"></a>XMPP (Extensible Messaging and Presence Protocol) 用の DNS レコード
 
-|**場所**|**型**|**ポート**|**ドメイン**|**IP アドレスまたは FQDN ホスト レコード**|**メモ**|
+|**場所**|**種類**|**ポート**|**ドメイン**|**IP アドレスまたは FQDN ホスト レコード**|**メモ**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |外部 DNS  <br/> |SRV  <br/> |5269  <br/> |_xmpp-server._tcp.contoso.com  <br/> |xmpp.contoso.com  <br/> |アクセスエッジサービスまたはエッジプールの XMPP プロキシインターフェイス。 XMPP の連絡先とのやり取りが許可されている Skype for Business Server を使用しているすべての内部 SIP ドメインについて、この手順を繰り返す必要があります。  <br/> •グローバルポリシー  <br/> •ユーザーが有効になっているサイトポリシー  <br/> • Skype for Business Server が有効になっているユーザーに適用されるユーザーポリシー  <br/> 許可された XMPP ドメインは、XMPP フェデレーション パートナーのユーザー ポリシーでも構成されている必要があります。  <br/> |
 |外部 DNS  <br/> |SRV  <br/> |A  <br/> |xmpp.contoso.com  <br/> |エッジサーバーまたは XMPP プロキシサービスをホストしているエッジプールのアクセスエッジサービスの IP アドレス  <br/> |これは、XMPP プロキシサービスをホストしているエッジサーバーまたはエッジプール上のアクセスエッジサービスを指します。 通常、作成する SRV レコードは、このホスト (A または AAAA) レコードを参照します。  <br/> |

@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: bfa31b24-a02f-410f-a8ec-206ca4d5b620
 description: '概要: このトピックでは、Skype for Business Server での会議のハードウェアとソフトウェアの要件について説明します。'
-ms.openlocfilehash: c4efb85c7ae1674cab7ee123833df779a835e14c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0d09e0e85e7059e0a761b2822f963765751623e0
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277343"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815985"
 ---
 # <a name="hardware-and-software-requirements-for-conferencing-in-skype-for-business-server"></a>Skype for Business Server での会議のハードウェアおよびソフトウェア要件
 
@@ -33,7 +35,7 @@ ms.locfileid: "34277343"
 
 ## <a name="hardware-and-software-requirements-for-front-end-servers"></a>フロントエンド サーバーのハードウェアおよびソフトウェア要件
 
-Web 会議、A/V 会議、ダイヤルイン会議、IM 会議はすべて、フロントエンドサーバーと連携しているため、サーバーハードウェアとソフトウェアの要件は、フロントエンドサーバーの場合と同じです。 これらの要件の詳細については、「skype for business server 2015 のサーバー要件」2015および「skype for business server 2019 のサーバー要件」を参照してください。
+Web 会議、A/V 会議、ダイヤルイン会議、IM 会議はすべて、フロントエンドサーバーと連携しているため、サーバーハードウェアとソフトウェアの要件は、フロントエンドサーバーの場合と同じです。 これらの要件の詳細については、「skype for business server [2015 のサーバー要件](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)」 [2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)および「skype for Business server [2019 のサーバー要件](../../../SfBServer2019/plan/system-requirements.md)」を参照してください。
 
 ## <a name="requirements-for-web-conferencing"></a>Web 会議の要件
 
@@ -107,7 +109,7 @@ Office Web Apps サーバーで動作するように Skype for Business Server �
 
 Skype for Business Server は、ダイヤルイン会議の音声メッセージや音楽のカスタマイズをサポートしていません。 ただし、既定のオーディオファイルを変更する必要がある強いビジネスニーズがある場合は、「Microsoft サポート技術情報の記事961177」を参照してください。[音声メッセージのカスタマイズ方法、またはダイヤルイン電話会議の音楽ファイルをカスタマイズする方法](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=961177)について説明します。
 
-[Microsoft Lync Server 会議アテンダントのカスタム音声指示](https://go.microsoft.com/fwlink/p/?LinkId=396880)管理ユーティリティを使用することもできます。これにより、管理者は、ユーザー設定のプロンプトで Skype for business 会議に参加するときに使用される既定の音声入力を置き換えることができます。別の会議エントリの操作を提供します。 カスタム音声プロンプトは、Enterprise または Standard Edition サーバーにインストールできます。
+[Microsoft Lync Server 会議アテンダントのカスタム音声指示](https://go.microsoft.com/fwlink/p/?LinkId=396880)管理ユーティリティを使用することもできます。これにより、管理者は、電話の発信者が Skype for business 会議にカスタムプロンプトを使用して Skype for business 会議に参加するときに使用する既定の音声プロンプトを、別の会議エントリの操作を提供することができます。 カスタム音声プロンプトは、Enterprise または Standard Edition サーバーにインストールできます。
 
 会議アテンダントアプリケーションと会議アナウンスメントアプリケーションには、音楽の保留、記録された名前、およびオーディオプロンプトファイルの次の要件があります。
 
@@ -142,7 +144,7 @@ Skype for Business Server は、ダイヤルイン会議の音声メッセージ
 |フロントエンド サーバー  <br/> |Skype for Business Server アプリケーション共有サービス  <br/> |5065  <br/> |TCP  <br/> |アプリケーション共有の SIP リッスン要求を受信するために使用。  <br/> |
 |フロントエンド サーバー  <br/> |Skype for Business Server アプリケーション共有サービス  <br/> |49152-65535  <br/> |TCP  <br/> |アプリケーション共有で使用するメディア ポート範囲。  <br/> |
 |フロントエンド サーバー  <br/> |Skype for Business Server 会議のアナウンスメントサービス  <br/> |5073  <br/> |TCP  <br/> |Skype for Business Server 会議アナウンスメントサービス (ダイヤルイン会議) の受信 SIP 要求に使用されます。  <br/> |
-|すべての内部サーバー  <br/> |各種  <br/> |49152-57500  <br/> |TCP/UDP  <br/> |すべての内部サーバーでのオーディオ会議で使用するメディア ポート範囲。 オーディオを終了するすべてのサーバーで使用されます。フロントエンドサーバー (Skype for Business Server 会議アテンダントサービス、skype for business Server 会議のアナウンスメントサービス、Skype for Business Server Audio/ビデオ会議サービス)、仲介サーバー。  <br/> |
+|すべての内部サーバー  <br/> |各種  <br/> |49152-57500  <br/> |TCP/UDP  <br/> |すべての内部サーバーでのオーディオ会議で使用するメディア ポート範囲。 オーディオを終了するすべてのサーバーで使用されます。フロントエンドサーバー (Skype for Business Server 会議アテンダントサービス、skype for business server 会議のアナウンスメントサービス、Skype for Business server の音声/ビデオ会議サービス、および仲介サーバー)。  <br/> |
 |Office Web Apps サーバー  <br/> ||443  <br/> ||Skype for Business Server が Office Web Apps サーバーに接続するために使用されます。  <br/> |
 
 **必要なクライアントポート**
