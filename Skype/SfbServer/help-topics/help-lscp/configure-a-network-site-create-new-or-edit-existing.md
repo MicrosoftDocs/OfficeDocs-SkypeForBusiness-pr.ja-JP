@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.NcsSiteEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 091aea61-22c2-4363-acd0-ccbc193755dd
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 1fa7299ee41562c0171372accd12f9ab9422225a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 237cb9a98f4b8cb82b73172808c2a1b50f2f1f7f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41686870"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822960"
 ---
 # <a name="configure-a-network-site-create-new-or-edit-existing"></a>ネットワーク サイトの構成: 新規作成または現在の形式のままで編集
 

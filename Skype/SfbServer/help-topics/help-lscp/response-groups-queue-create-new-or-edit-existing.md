@@ -8,17 +8,19 @@ ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.RgsQueueEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cbdde536-8668-4a08-9862-8615e8691fd7
 description: 応答グループキューは、エージェントが通話に応答するまで、応答グループへの呼び出しを保持します。
-ms.openlocfilehash: 4e290c47842ac58cec621629419281cbac63f206
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: cd948c145033cf3d4f6a3e79a0c4d0c36f6f70fe
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41699792"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822380"
 ---
 # <a name="response-groups-queue-create-new-or-edit-existing"></a>応答グループのキュー: 新規作成または現在の形式のままで編集
 

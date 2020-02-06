@@ -8,17 +8,19 @@ ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeployCertRequestCA
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a609f1b0-ae13-44ca-a467-b7fb14ff18a1
 description: '[証明機関 (CA) を選択してください] ページでオンライン証明機関 (CA) (通常、内部ネットワーク上のサーバー) に対して証明書要求を行う場合、次の 2 つのオプションが表示されます。'
-ms.openlocfilehash: 6cd2eb648897adc4c6d627f8c97659ce3b13ea4e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b70daa9a4b9a212d770176b652e3ac70b7149c4e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41687810"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823891"
 ---
 # <a name="certificate-request-certificate-authority"></a>証明書要求 (証明機関)
  

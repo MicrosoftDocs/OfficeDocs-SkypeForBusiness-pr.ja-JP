@@ -8,17 +8,19 @@ ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeploySSRSPrereqNotSatisfied
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6be29df-b882-4ba8-ba40-8062eb3bb14d
 description: このページは、インフラストラクチャに監視サーバーが展開されていない場合に表示されます。これは、監視サーバーのレポートを展開するための最小要件を満たしていないことを示しています。
-ms.openlocfilehash: 94a20ce6f1a48e5eeed098777494e2d1f16597c1
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 2c5f58751d03d5c482bd3b9113b764ffe626cec6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41687310"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823451"
 ---
 # <a name="sql-server-reporting-services-prerequisites-not-satisfied"></a>SQL Server Reporting Services (前提条件を満たしていない)
 

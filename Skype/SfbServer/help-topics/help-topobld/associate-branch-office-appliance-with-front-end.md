@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AssociateBranchOfficeApplianceWithFrontEndPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 607709a0-1617-44f3-bf68-fec1129250a4
 description: Survivable Branch Appliance または Survivable Branch Server をフロントエンドプールまたは Standard Edition サーバーに関連付けるには、[フロントエンドプールの選択] ページで、[フロントエンドプール] ボックスの一覧から [フロントエンドプール] または [Standard Edition サーバー] を選びます。 [次へ] をクリックして続行します。
-ms.openlocfilehash: 5a2ff5e6b7fe56a4ffa2e867ffe2867f0daab8fb
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b8feac6f1afdd35a6c632ed29e07dfe42b6453d9
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684950"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820439"
 ---
 # <a name="associate-branch-office-appliance-with-front-end"></a>ブランチ オフィス アプライアンスとフロントエンドの関連付け
  

@@ -8,6 +8,8 @@ ms.date: 1/26/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Ent_O365_Hybrid
@@ -18,12 +20,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: オンプレミスの PSTN 接続を使用した、Office 365 (クラウド PBX) での電話システムの計画に関する考慮事項について説明します。
-ms.openlocfilehash: 1ca12d1680b56612c2e6f3a1785ee615138294ce
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: a134b4dbe48d302ee8be8df528e6bbebac336b8e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221044"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814485"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Skype for Business Server でオンプレミスの PSTN 接続を使用して、Office 365 で電話システムを計画する
 
@@ -106,7 +108,7 @@ Skype for Business Server 2015 で直接相互運用できる従来の Pbx の�
     > [!NOTE]
     > 使用する AAD Connect のパーションは、バージョン 1.0.9125.0 以降である必要があります。それよりも前のバージョンの AAD Connect ツールまたは DirSync を使用している場合は、サポートされているバージョンにアップグレードしてください。現在のインストールをアップグレードして、環境で定義しているカスタム ルールを維持できます。 
 
-- **ハイブリッド展開を構成する**すべての Skype for Business ユーザーが現在、オンラインまたはオンプレミスのいずれかであるか。または、現在混在している場合は、「ハイブリッド展開」で説明されているように、Skype for Business Server または Lync Server 2013 のハイブリッド展開を構成するための手順を完了する必要があります。 [Skype for Business Server と Office 365 間の接続](../../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)。 ハイブリッド展開の詳細については、「 [Skype For Business Server と Office 365 の間のハイブリッド接続の計画](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)」を参照してください。 
+- **ハイブリッド展開を構成する**Skype for business のすべてのユーザーが現在、オンラインまたはオンプレミスのどちらを使用しているか、または現在、混在している場合は、「Skype for business [server と Office 365 の間にハイブリッド接続を展開](../../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)する」の説明に従って、Skype For business server または Lync server 2013 のハイブリッド展開を構成する手順を実行する必要が ハイブリッド展開の詳細については、「 [Skype For Business Server と Office 365 の間のハイブリッド接続の計画](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)」を参照してください。 
 
     Lync Server 2013 を使っている場合は、「 [Lync server 2013 ハイブリッド](https://technet.microsoft.com/EN-US/library/jj204805%28v=ocs.15%29.aspx)」を参照してください。
 

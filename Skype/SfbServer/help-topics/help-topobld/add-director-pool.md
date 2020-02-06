@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddDirectorPoolPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 751ead48-b97f-4c6f-ba6b-14d446473658
 description: ディレクタープールの FQDN を定義するには、負荷分散プール内の2つ以上のディレクターで構成される複数のコンピュータープール、または単一のコンピュータープールを選択します。 また、ディレクタープールまたは単一のディレクターの FQDN に接続するために使用される完全修飾ドメイン名 (FQDN) を入力する必要があります。 ディレクターコンピューターのプールの場合、これは、ハードウェアロードバランサーの仮想 IP のドメインネームシステム (DNS) エントリ、DNS ロードバランシング用の共有 DNS エントリのいずれかです。
-ms.openlocfilehash: 150975cedf09c19acac1afffab25f5becf053fe3
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 1a419c6a27118cbdf7ffe841a39b9b60e6e84577
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41698572"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41821189"
 ---
 # <a name="add-director-pool"></a>ディレクター プールの追加
  

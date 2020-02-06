@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeployCertImportBasics
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 474fac52-0b11-45dd-a211-fd2f1727238b
 description: 証明書をインポートするには、証明書ファイルへのパスを指定する必要があります。 [証明書ファイルの選択] テキストボックスで、完全なパスとファイル名を入力するか、[参照] ボタンをクリックして、パスの場所とファイル名 (通常は、p7b、.pfx、または .cer ファイル) に移動します。
-ms.openlocfilehash: 13cca7735ce3bd51bea2438db8688b348d729f51
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 63420dad20e5174cb41f9fc00d63a1f7c25763a2
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41687688"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823671"
 ---
 # <a name="import-certificate-intro"></a>証明書のインポート (開始)
  

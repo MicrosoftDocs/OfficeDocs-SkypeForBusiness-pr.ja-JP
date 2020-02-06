@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddEdgeServerExternalIPPage2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: adb2778d-fd46-4ab9-899d-f97f71493659
 description: このページのプロパティを構成して、エッジサーバーがアクセスエッジサービス、Web 会議エッジサービス、および A/V Edge サービスの外部の場所を指すようにすることができます。
-ms.openlocfilehash: 10e0723c34b1eeef090791f292bc70e5cfdfff43
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: bae7633d21cff373730eac835b8772ed676a8366
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41698462"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41821089"
 ---
 # <a name="add-edge-server-external-ip-2010"></a>エッジ サーバーの外部 IP の追加 (2010)
 

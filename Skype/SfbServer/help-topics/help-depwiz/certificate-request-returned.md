@@ -8,17 +8,19 @@ ms.date: 4/1/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeployCertRequestReturned
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ada9045-0fdf-4470-8574-2fa08bab9392
 description: オンライン証明書の要求の状態ページには、オンライン証明書要求の作成と発行が正常に行われたときに発生した重要な情報が表示されます。 このページでは、証明書を一意に識別する証明書の拇印を提供します。 既定では、この証明書を [Skype for Business Server 証明書の使用状況] に割り当てるチェックボックスがオンになっています。 [完了] をクリックすると、証明書要求の作成手順で定義した目的のために、証明書が Lync Server 2013 に自動的に割り当てられます。 既定では、証明書が割り当てられる目的は次のとおりです。
-ms.openlocfilehash: 885de54ec8deeef1d326e39b5a35e7b08c633973
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7b4ee3d615de0d0d58e041ba1860cc1cd2d34219
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41687750"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823811"
 ---
 # <a name="certificate-request-returned"></a>証明書要求 (結果)
  

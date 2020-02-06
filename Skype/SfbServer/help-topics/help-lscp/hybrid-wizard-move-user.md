@@ -8,17 +8,19 @@ ms.date: 4/10/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.HybridMoveUser
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: be38b89c-3e8e-4d40-af49-fb650785d9a3
 description: '[ユーザーの移動] ウィザードを使用して、オンプレミスのプールに所属するユーザーアカウントを Skype for Business Online に移動します。 詳細については、「Use the Hybrid Manageability wizard」を参照してください。'
-ms.openlocfilehash: f47bbd618927153515cdf94eae2bf295ff6b86b2
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: fc1307e70bfa92dcbc12bd542b28e092c416c7fe
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41700112"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822730"
 ---
 # <a name="hybrid-wizard-move-user"></a>ハイブリッド ウィザード: ユーザーの移動
 

@@ -8,17 +8,19 @@ ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.SelectAllowedMembers
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e9e6df4a-e58a-4104-9f72-2f5c818353e1
 description: 永続的なチャットルームの作成と管理は、カテゴリを適切に使用することで非常に簡単になります。 常設チャット管理者は、各カテゴリの AllowedMembers とクリエーターを定義できます。また、カテゴリで作成されたすべてのチャットルームに適用される既定のチャットルームの設定と動作も定義できます。 常設チャット管理者は、コントロールパネルまたは Windows PowerShell コマンドレットを使用して、カテゴリの作成と管理を行います。
-ms.openlocfilehash: 916077fe25e1616888dd58dc40f0ef0f14c61e7a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ad371fada6bbb7e8c9a2620eb5ec533cc60a0673
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41699702"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822300"
 ---
 # <a name="select-allowed-members"></a>許可されたメンバーの選択
 

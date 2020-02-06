@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.VoiceTrunkCallingRuleEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2b6493f1-1be5-45b4-841a-09425cb302e1
 description: 新しいトランク構成を使用して、新しい電話番号の翻訳ルールを作成することができます。 変換ルールの詳細については、次のトピックを参照してください。
-ms.openlocfilehash: 29ca0e48ca77469961e016c43b05b58c3ab3b05d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b0cf251459971d4d6f192630444b188be6effb69
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41686256"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822610"
 ---
 # <a name="new-calling-number-translation-rule"></a>新しい呼び出し元番号変換ルール
 

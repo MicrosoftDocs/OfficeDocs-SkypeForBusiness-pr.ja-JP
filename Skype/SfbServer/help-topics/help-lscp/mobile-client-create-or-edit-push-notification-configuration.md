@@ -8,17 +8,19 @@ ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.ClientPushNotificationCfgEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fb39af60-c999-42fb-9538-0bd87098f508
 description: プッシュ通知とプッシュ通知クリアリング ハウス (PNCH) は、モビリティ機能の重要な 2 つの構成要素です。プッシュ通知は、メッセージが PNCH に送信されるプロセスです。メッセージは、モバイル クライアントに配信されるか、タイムアウト期間が過ぎるまで、PNCH で保持されます。
-ms.openlocfilehash: c4a149588abd9e741ae934d73ec23ad2355e772c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ca302e0dbdde2c1628abc6c0257ee807f6f152a8
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41686290"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822670"
 ---
 # <a name="mobile-client-create-or-edit-push-notification-configuration"></a>モバイル クライアント: プッシュ通知の構成の作成または編集
  

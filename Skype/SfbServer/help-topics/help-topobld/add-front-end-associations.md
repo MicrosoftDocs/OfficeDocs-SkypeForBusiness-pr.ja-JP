@@ -8,17 +8,19 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddFrontEndAssociationsPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 95620425-defd-47fd-a5c0-e4a283d812a5
 description: サーバーの役割をフロントエンド プールに今すぐ関連付けて、他のサーバーの展開に必要な特定の機能のサポートを有効にできます。後でサーバーの役割をフロントエンド プールに関連付けることもできます。フロントエンド プールに関連付けることができるサーバーの役割には、次のものがあります。
-ms.openlocfilehash: ab0fc9c62373b6eb2f7a0a6cc97fa7f9386bafd9
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b34ea46b708727056f3e8f3779555df63f4d7e06
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41698282"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820909"
 ---
 # <a name="add-front-end-associations"></a>フロントエンドの関連付けの追加
 

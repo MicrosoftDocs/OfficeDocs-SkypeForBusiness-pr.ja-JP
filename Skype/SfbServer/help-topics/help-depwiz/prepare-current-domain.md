@@ -8,17 +8,19 @@ ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeployMainDomainPrep
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfcb37ca-34eb-4d0d-9694-6edd2e7fe0f3
 description: 'Skype for Business Server 2015 または Skype for Business Server ユーザーを実行しているホストサーバーにドメインを準備するには、「セットアップを使用してドメインの準備を行う」の説明に従って、「手順 5: 現在のドメインを準備する」を完了する必要があります。 この手順を完了するには、準備するドメインの Domain Admins グループのメンバー、またはドメインが属するフォレストの Enterprise Admins グループのメンバーとしてログインする必要があります。 ドメインを準備するには、以下の操作を行います。'
-ms.openlocfilehash: 58ff8ff515d171f7d0d1b0c2fb7d653e25c3ad31
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 2f3563c9a1c857e9d4828ca63cf2cb675f524e56
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41687410"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823551"
 ---
 # <a name="prepare-current-domain"></a>現在のドメインの準備
 

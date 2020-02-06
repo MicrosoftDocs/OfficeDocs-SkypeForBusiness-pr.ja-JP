@@ -8,17 +8,19 @@ ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.VoiceDialPlanSelNormRule
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c46041b8-b52c-48bf-9da6-d91ccc7d7968
 description: 正規化ルールでは、.NET Framework 正規表現を使用してダイヤルされた電話番号を E.164 形式に変換します。各ダイヤル プランには、正規化ルールを 1 つ以上割り当てる必要があります。
-ms.openlocfilehash: eea9b39b4453dceccf3f75adad48bae3dffad49c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 3f3d20f34517c34734f86b398572dff9e23d14a0
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41685850"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822170"
 ---
 # <a name="select-normalization-rules"></a>正規化ルールの選択
  

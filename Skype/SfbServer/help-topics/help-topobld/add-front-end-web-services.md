@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddFrontEndWebServicesPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99626970-1613-41ca-a36e-24bed1f459d7
 description: ベース URL は、https:// の部分を除いた URL の Web サービス ID です。 たとえば、プールの Web サービスの完全な URL がhttps://pool01.contoso.netの場合、ベース url は pool01.contoso.net になります。
-ms.openlocfilehash: 10749cc746cf1f3d039a89fd351be6de77eafaee
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 6e5f9211f35f4e58621deb0a714df8587675f26c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41698202"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820789"
 ---
 # <a name="add-front-end-web-services"></a>フロントエンドの Web サービスの追加
  

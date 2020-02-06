@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.ClientCVSettingMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
 description: 環境でサポートするクライアントのバージョンを指定するだけでなく、バージョンポリシーが定義されていないクライアントに対する既定のアクションを指定することもできます。 これにより、使用している環境で使用するクライアントバージョンを制限することができます。これにより、複数のクライアントバージョンのサポートに関連するコストを制御することができます。
-ms.openlocfilehash: 46969857647a51dd092e3131dd3c24b71b810a2d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7ace0fff5cad2e97174d88b98ccd695e6f8258c3
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41700442"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823090"
 ---
 # <a name="client-version-configuration"></a>クライアント バージョンの構成
 

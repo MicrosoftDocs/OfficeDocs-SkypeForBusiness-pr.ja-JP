@@ -8,17 +8,19 @@ ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.PersistentChatCategory
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6875d930-7502-4e47-bdb3-45eaeb065350
 description: '[常設チャット] ページの [カテゴリ] セクションを使用してカテゴリを構成できます。 常設チャットルームカテゴリは、チャットルームを整理するための論理的な構造です。 カテゴリは、チャット ルームの作成やチャット ルームへの参加を許可するユーザーとユーザー グループを制御するアクセス制御リスト (ACL) の既定のセットを定義します。 カテゴリを使用して、組織内の異なる部門間に倫理的境界を設置できます。'
-ms.openlocfilehash: f7a87e45bc7f337fc86e1617bf17ffb4c9b5715e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: de0a638da6de622b9646347c4eaa733deecdd2ed
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41686263"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822550"
 ---
 # <a name="persistent-chat-category"></a>常設チャットのカテゴリ
  

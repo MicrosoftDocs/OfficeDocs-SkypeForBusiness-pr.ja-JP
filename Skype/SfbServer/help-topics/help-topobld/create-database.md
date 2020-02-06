@@ -8,17 +8,19 @@ ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.PublishTopologyCreateDatabasePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d391619-1cab-4265-ae8a-2519993705bc
 description: トポロジビルダーを使用すると、SQL Server ストアにデータベースをインストールすることができます。 トポロジビルダーを使用してデータベースをインストールする場合、アプリケーションはトポロジから情報を読み取り、指定された SQL Server コンピューターまたは SQL Server クラスターに必要なデータベースをインストールします。 トポロジ ビルダーを使用したデータベースのインストールは、この方法のみです。 特定のコンピューターに特定のデータベースをインストールする必要がある場合、または併置されたデータベースをインストールする必要がある場合は、代わりに Windows PowerShell コマンドラインインターフェイスと、CsDatabase コマンドレットを使用する必要があります。
-ms.openlocfilehash: 02d754870cb2d2db16424474a68b8ea0245191f7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: cd3bd6e24f0dc3ec21c5cfa8626d9696454855e7
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684850"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820239"
 ---
 # <a name="create-database"></a>データベースの作成
  

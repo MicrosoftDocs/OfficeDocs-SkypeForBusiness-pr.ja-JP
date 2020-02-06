@@ -8,17 +8,19 @@ ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeployCertRequestTemplate
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d00ed98f-46f2-4367-b34c-513e5eafdd06
 description: '[別の証明書テンプレートの指定] ページでは、既定で使用される WebServer 証明書テンプレート以外の証明書テンプレートを定義できます。 [選択された証明機関に別の証明書テンプレートを使用する] チェック ボックスをオンにしてから、[証明書テンプレート名] テキスト ボックスで別の証明書テンプレートの名前を定義します。 証明機関 (CA) で定義したのと同じテンプレート名を使用する必要があります。 前のページに戻るには、[戻る] をクリックします。 証明書要求プロセスを終了するには、[キャンセル] をクリックします。'
-ms.openlocfilehash: b06797c63ff0d49de0c094957cccee0e5cf35747
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a494d1816f41f8e6cf4a129ab5353dc9e59b7002
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41687730"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823791"
 ---
 # <a name="certificate-request-specify-termplate"></a>証明書要求 (テンプレートの指定)
  

@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddMonitoringServerSqlStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d873a2ad-9d3a-4ef6-9f25-ccdd3716218c
 description: Monitoring Server には、監視データを保存するために、サポートされている64ビット版の SQL Server データベースソフトウェアが必要です。 監視に使用するために定義済みの SQL Server データベースを選択するか、sql Server データベースが存在するサーバーの完全修飾ドメイン名 (FQDN) を指定して新しい sql Server データベースを定義することができます。また、SQL server データベースは、SQL のインスタンスにも含まれます。新しい SQL Server データベースに使用するサーバー (既定のインスタンス、または指定した名前付きインスタンスのいずれか)。
-ms.openlocfilehash: 8c74462e0623c34fbbbf4c3f67d1a0adf0f3c922
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: f1950b01aba29ddff6c7622a6fead726bf835ef3
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41698182"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820749"
 ---
 # <a name="add-monitoring-server-sql-server-store"></a>監視サーバー SQL Server ストアの追加
 

@@ -8,17 +8,19 @@ ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AssociateVisWithEdgePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 64d99926-053d-4a7f-a26d-467eef6c0950
 description: Topology Builder で新しい VIS またはビデオゲートウェイを定義するために必要な手順は、「Skype for Business Server 2015 での VIS プールの作成」で説明しています。
-ms.openlocfilehash: 923fed5cabb6bd2537d46204012a52eb27d278be
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7cb78061b5d30547f12169d03a1eb3a031ef5840
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684910"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820359"
 ---
 # <a name="associate-vis-with-edge"></a>VIS をエッジと関連付ける
  

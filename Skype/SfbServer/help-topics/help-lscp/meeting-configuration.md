@@ -8,17 +8,19 @@ ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.ConfMeetingSettingMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
 description: 会議構成の設定では、ユーザーが作成できる電話会議の種類を定義し、匿名ユーザーとダイヤルイン会議ユーザーが会議に参加できるようにするかどうかを制御します。 これらの設定はスケジュール設定された会議にのみ適用されます。 これらの設定は、クライアントで [今すぐミーティング] オプションをクリックして作成された臨時の会議には適用されません。
-ms.openlocfilehash: 5e4d0b11bc169b7658061e33fdfb8ddf0bd4b044
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: e237e9c5122547338f9ea33848a22b87fabce368
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41700042"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822680"
 ---
 # <a name="meeting-configuration"></a>会議の構成
 

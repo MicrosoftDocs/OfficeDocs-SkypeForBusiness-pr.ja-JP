@@ -8,17 +8,19 @@ ms.date: 3/23/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.ClientPhoneCfgEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aac152bf-80e9-408a-9dbb-60d0843484ab
 description: '[新しいデバイスの構成] または [デバイス構成の編集] ページでは、Skype for Business Phone Edition を管理するために使用される設定のコレクションを作成または変更できます。 これらの設定により、必要なセキュリティ モード、デバイス ログ レベル、音声のサービス品質 (QoS) の設定などを構成したり、指定した非アクティブ期間の経過後、電話を自動的にロックするかどうかを指定したりすることができます。'
-ms.openlocfilehash: 0bd8d79a97f9dd48faff09f1d7a8e0cfb41473f6
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 95ce62b5d3505e10049d61ead77ce79ee7f2f51b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41700322"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822930"
 ---
 # <a name="device-configuration-create-new-or-edit-existing"></a>デバイス構成: 新規作成または現在の形式のままで編集
  

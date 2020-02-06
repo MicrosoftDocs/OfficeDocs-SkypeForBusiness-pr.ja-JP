@@ -8,17 +8,19 @@ ms.date: 3/23/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.ClientCVPolicyEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e32c6712-6dc9-4de9-8d74-9fdccf3de1ba
 description: 現在の環境でサポートするクライアントのバージョンを指定できます。 バージョンが異なる 2 つのクライアントが対話する場合、機能によっては一方のクライアントでは使用できても、他方のクライアントでは使用できないことがあります。 Skype for Business Server 2015 に含まれている機能を最大限に活用し、全体的なユーザーエクスペリエンスを向上させるには、クライアントバージョンフィルターを使用して、環境で使用されるクライアントのバージョンを制限します。 クライアント バージョン フィルターを使用すると、複数のクライアント バージョンをサポートすることで発生するコストを抑えることもできます。
-ms.openlocfilehash: 1938c2f04f454ff084ad71fa4e16c2879508086d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: d7b8dcbfe8b867de4dd48ba4c736246927e53b9a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41686970"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823080"
 ---
 # <a name="client-version-policy-create-new-or-edit-existing"></a>クライアント バージョン ポリシー: 新規作成または現在の形式のままで編集
 

@@ -8,18 +8,20 @@ ms.date: 11/15/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
 description: このトピックでは、Cloud Connector エディション バージョン 2.0 以降でのメディア バイパスの実装を計画する上で考慮すべき事項を説明します。 メディアバイパスの展開について詳しくは、「Cloud Connector エディションでのメディアバイパスの展開」をご覧ください。
-ms.openlocfilehash: 00f700880e26f12da3aa6c2d791e4f15bfe9a90b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 67598cbe31dac074bf360ba6fe1462544fe12c5b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287028"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814495"
 ---
 # <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>Cloud Connector エディションでのメディア バイパスを計画する
  
@@ -35,7 +37,7 @@ ms.locfileid: "34287028"
 
 信号はメディア バイパスの有無に関係なく同じ経路を通りますが、メディアの流れはその影響を受けて異なる経路を通ります。次の図は、メディア バイパスを使用した場合と使用しない場合の、トポロジ内のメディアと信号の経路を示しています。 
   
-たとえば、メディアバイパスを使用していない次のトポロジでは、Skype for business クライアントが外部の番号に PSTN 通話を発信し、SIP シグナリングが office 365 365 に転送され、エンドユーザーの声に従ってシグナリングトラフィックが送信されます。ポリシー. クラウドコネクタを使用しているユーザーの場合、音声ポリシーは、シグナリングトラフィックをクラウドコネクタのエッジサーバーにリダイレクトし、シグナリングトラフィックを、クラウドコネクタ仲介サーバー経由で PSTN セッション境界コントローラー (SBC) またはゲートウェイにルーティングします。 次の図に示すように、メディアが Skype for Business クライアントからクラウドコネクタの仲介サーバーに流れるようになり、次に SBC またはゲートウェイに転送されます。
+たとえば、メディアバイパスを使用していない次のトポロジでは、Skype for Business クライアントが外部の番号に PSTN 通話を発信し、SIP シグナリングが Office 365 365 に転送され、エンドユーザーの声に従ってシグナリングトラフィックが送信されます。ポリシー. クラウドコネクタを使用しているユーザーの場合、音声ポリシーは、シグナリングトラフィックをクラウドコネクタのエッジサーバーにリダイレクトし、シグナリングトラフィックを、クラウドコネクタ仲介サーバー経由で PSTN セッション境界コントローラー (SBC) またはゲートウェイにルーティングします。 次の図に示すように、メディアが Skype for Business クライアントからクラウドコネクタの仲介サーバーに流れるようになり、次に SBC またはゲートウェイに転送されます。
   
 **メディア バイパスを使用しない場合のメディアと信号の経路**
 

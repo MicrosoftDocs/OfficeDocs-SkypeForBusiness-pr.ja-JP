@@ -8,17 +8,19 @@ ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.PersistentChatConfig
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3f2891e6-bad3-4a23-a345-b7de4cae3bd9
 description: 常設チャットサーバーの展開では、多数の同時常設チャットルームをホストできます。 チャット ルームは、サーバーで一連のカテゴリに編成できます。 各チャット ルームは 1 つのカテゴリに属し、そのカテゴリからいくつかの設定を継承します。 この編成によって、業務目的に基づいて会話を識別するのに便利な構造が作成され、管理の委任および管理の簡素化が容易になります。
-ms.openlocfilehash: 07c1043a67d5f1a64dbb53540fbd902341067b32
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 46d23d810b932b1295e4ad5f1c38dd3dd0990f5c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41686230"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822530"
 ---
 # <a name="persistent-chat-configuration"></a>常設チャットの構成
  

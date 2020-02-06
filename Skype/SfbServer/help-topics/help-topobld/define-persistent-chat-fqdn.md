@@ -8,17 +8,19 @@ ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddPersistentChatFqdnPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e0123fa6-008b-430e-a68b-61f0cc3fb12e
 description: '[新しい常設チャットプールの定義] ウィザードを使用して、新しい常設チャットサーバーまたは常設チャットサーバープールを作成します。 複数コンピューター プールまたは単一コンピューター プールを選択してください。 単一コンピューター プールを選択し、後で複数コンピューター プールが必要になった場合は、その単一コンピューター プールを削除してから複数コンピューター プールを定義する必要があります。'
-ms.openlocfilehash: 0a30073d4b4df28eadaa206778adeb59651b1a48
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 12b5a648de211086d33624afad56ce069493b135
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684830"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820199"
 ---
 # <a name="define-persistent-chat-fqdn"></a>常設チャットの FQDN の定義
  
