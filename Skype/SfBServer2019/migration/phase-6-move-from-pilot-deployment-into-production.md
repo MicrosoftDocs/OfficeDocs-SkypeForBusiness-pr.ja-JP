@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: このセクションのトピックでは、パイロット展開から実稼働レベルの展開に Skype for Business Server 2019 の展開を移行する前に完了する必要があるタスクについて説明します。
-ms.openlocfilehash: 03aba848f3a0edeb148e6a23166699318ed8150c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ddd83f382354273faed55769e15e12db0538d66a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244400"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813135"
 ---
 # <a name="phase-6-move-from-pilot-deployment-into-production"></a>フェーズ 6: パイロット展開から運用展開への移行
 

@@ -7,15 +7,17 @@ manager: serdars
 audience: End User
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: d61fddc1-98d4-4577-a371-33f9e221288c
 description: 移行を開始する前に、完全なシステムバックアップを実行して、必要に応じてロールバックすることができるように、既存のシステムをドキュメント化します。 データ、設定、およびシステムのバックアップと復元には、複数のツールとプログラムが用意されています。
-ms.openlocfilehash: cda34cc5e882013d9330db5a8d92503b0dca5fc9
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4a8e62fe75424f2d8fcb0d0c6af10c54c9339b55
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239515"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813935"
 ---
 # <a name="back-up-systems-and-data"></a>システムとデータのバックアップ
 

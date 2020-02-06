@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 'Skype for business server コントロールパネルまたは Skype for Business Server Management Shell を使用して、ユーザーを新しい Skype for Business Server 2019 の展開に移動することができます。 Skype for Business Server 2019 にスムーズに移行するためには、いくつかの要件を満たしている必要があります。 このトピックの手順を完了するための前提条件の詳細については、「移行のためにクライアントを構成する」を参照してください。 ユーザーの移動の詳細な手順については、「フェーズ 4: テストユーザーをパイロットプールに移動する」を参照してください。'
-ms.openlocfilehash: 8c12ca52e162c4317dabc59d5de9b74082730882
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ac384e9f9e4aaaa534f5b646f1d847485dbb4c23
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244566"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813265"
 ---
 # <a name="move-remaining-users-to-skype-for-business-server-2019"></a>残りのユーザーを Skype for Business Server 2019 に移動する
 
@@ -37,7 +39,7 @@ Skype for business server コントロールパネルまたは Skype for Busines
     
 2. Skype for Business Server 2019 を使っているユーザーによって開催された会議が、レガシインストールのあるフェデレーションユーザーとシームレスに動作するようにするには、移行したユーザーに割り当てられている会議ポリシーを使用して、匿名の参加者を許可する必要があります。
     
-3. 匿名の参加者が Skype for Business Server 2019 コントロールパネルで選択されている**匿名ユーザーを招待する**ことを許可する会議ポリシーを使用して、 **AllowAnonymousParticipantsInMeetings**が**True**に設定されているSkype for Business Server 管理シェルの**set-csconferencingpolicy**コマンドレットからの出力。 
+3. 匿名の参加者が Skype for business Server 2019 コントロールパネルで選択された**匿名ユーザーを招待する**ことを許可する会議ポリシーで、Skype For Business Server 管理シェルの**set-csconferencingpolicy**コマンドレットの出力で**AllowAnonymousParticipantsInMeetings**を**True**に設定している。 
     
 <!-- 4. For details about configuring conferencing policy by using Skype for Business Server Management Shell, see 
  [Set-CsConferencingPolicy](../../lync-server-management-shell/lync-server-2013-cmdlets-by-category/set-csconferencingpolicy.md) in the Skype for Business Server Management Shell documentation.  -->

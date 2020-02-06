@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 従来の環境でアーカイブサーバーと監視サーバーを展開した場合、フロントエンドプールを移行した後で、これらのサーバーを Skype for Business Server 2019 環境に展開できます。 ただし、アーカイブと監視の機能が組織にとって重要である場合は、移行前に Skype for Business Server 2019 パイロットプールにアーカイブと監視を追加して、移行プロセス中に機能が利用できるようにする必要があります。
-ms.openlocfilehash: f259a08d25c93467c79fdaf3550288c6208607c3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5088f4b4f72ddc083cf2868df893946561eb2469
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237892"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813455"
 ---
 # <a name="migrating-archiving-and-monitoring-servers"></a>アーカイブと監視サーバーの移行
 

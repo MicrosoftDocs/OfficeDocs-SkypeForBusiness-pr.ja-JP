@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Skype for Business Server 2019 を共存状態で展開する前に、追加の Active Directory タスクを実行して、Skype for Business Server 2019 のスキーマ、フォレスト、ドメインを構成する必要があります。 スキーマ拡張は、Skype for Business Server 2019 で必要な Active Directory クラスと属性を追加します。 詳細については、「Skype for Business Server 2019 用の Active Directory ドメインサービスの準備」を参照してください。
-ms.openlocfilehash: 286c4df4cc371a9869e6b84cf5048b21e6c54f6c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 308a2b7d34de3b63e703a9f9d5318e46f95a90a7
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244373"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813075"
 ---
 # <a name="prepare-active-directory-for-skype-for-business-server"></a>Skype for Business Server 用 Active Directory の準備
 

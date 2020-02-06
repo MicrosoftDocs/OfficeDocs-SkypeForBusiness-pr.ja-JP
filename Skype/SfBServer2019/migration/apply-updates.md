@@ -7,14 +7,16 @@ manager: serdars
 ms.topic: quickstart
 audience: admin
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 更新プログラムを移行する前に、使用している環境に適用する必要があります。 最新の情報については、「のhttps://go.microsoft.com/fwlink/p/?linkid=232630リソースセンターの更新」をご覧ください。
-ms.openlocfilehash: ae964eda0dae2cb3a0d0d3c8c5156ee546f46c91
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 6dc833e8f03fae424d7ffaa64f8ed4a2f3020e81
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239522"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813955"
 ---
 # <a name="apply-updates"></a>更新プログラムを適用する
 
