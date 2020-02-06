@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: '[ネットワークサイト] は、通話受付制御 (CAC)、E9、および media バイパスの展開の各ネットワーク領域内の事業所または場所です。'
-ms.openlocfilehash: a90781eae38d92d560dd1bf34db3b6918e8aeaf5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ec2a3dda70bdd4b952169ca663ca271b76f98481
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279544"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817516"
 ---
 # <a name="managing-call-admission-control-for-sites-in-skype-for-business-server"></a>Skype for Business Server でのサイトの通話受付管理サービスの管理
 
@@ -28,7 +30,7 @@ ms.locfileid: "34279544"
 
 1.  Skype for Business Server 管理シェルが RTCUniversalServerAdmins グループのメンバーとして、または必要なユーザー権限を持つコンピューターにログオンします。
 
-2.  Skype for Business Server 管理シェルを開始します。 [**スタート**] をクリックし****、[**すべてのプログラム**] をクリックします。次に、[skype for business server] をクリックし、[ **skype for business server 管理シェル**] をクリックします。
+2.  Skype for Business Server 管理シェルを開始します。 [**スタート**] をクリックし、[**すべてのプログラム**] をクリックします。次に、[skype **for business server**] をクリックし、[ **skype for business server 管理シェル**] をクリックします。
 
 3.  コマンドプロンプトで、次のコマンドを入力します。これは、構成に対して有効な値に置き換えます。
     
@@ -42,7 +44,7 @@ ms.locfileid: "34279544"
 
 1.  Skype for Business Server 管理シェルが RTCUniversalServerAdmins グループのメンバーとして、または必要なユーザー権限を持つコンピューターにログオンします。
 
-2.  Skype for Business Server 管理シェルを開始します。 [**スタート**] をクリックし****、[**すべてのプログラム**] をクリックします。次に、[skype for business server] をクリックし、[ **skype for business server 管理シェル**] をクリックします。
+2.  Skype for Business Server 管理シェルを開始します。 [**スタート**] をクリックし、[**すべてのプログラム**] をクリックします。次に、[skype **for business server**] をクリックし、[ **skype for business server 管理シェル**] をクリックします。
 
 3.  指定のネットワークサイトリンクのプロパティを変更するには、 **CsNetworkInterSitePolicy**コマンドレットを使用します。 いずれか (または両方) または接続されたサイトを変更することができます。また、リンクに関連付けられている帯域幅ポリシープロファイルを変更することもできます。 Reno\_ポートランドという名前のサイトリンクの帯域幅ポリシープロファイルを変更する例を次に示します。
     
@@ -55,7 +57,7 @@ ms.locfileid: "34279544"
 
 1.  Skype for Business Server 管理シェルが RTCUniversalServerAdmins グループのメンバーとして、または必要なユーザー権限を持つコンピューターにログオンします。
 
-2.  Skype for Business Server 管理シェルを開始します。 [**スタート**] をクリックし****、[**すべてのプログラム**] をクリックします。次に、[skype for business server] をクリックし、[ **skype for business server 管理シェル**] をクリックします。
+2.  Skype for Business Server 管理シェルを開始します。 [**スタート**] をクリックし、[**すべてのプログラム**] をクリックします。次に、[skype **for business server**] をクリックし、[ **skype for business server 管理シェル**] をクリックします。
 
 3.  ネットワークサイトへのリンクを削除するには、 **CsNetworkInterSitePolicy**コマンドレットを使用します。 次の例では、\_Reno ポートランドネットワークサイトのリンクを削除します。
     

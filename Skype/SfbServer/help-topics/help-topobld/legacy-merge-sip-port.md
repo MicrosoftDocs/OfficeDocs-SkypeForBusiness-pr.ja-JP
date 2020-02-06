@@ -8,17 +8,19 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.LegacyMergeSipPortPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19bf6b9b-d111-4285-9735-62fd9a04dc3b
 description: クライアント、従来のフロントエンド プール、およびサーバーと通信するための既定の伝送制御プロトコル (TCP) SIP ポートは 5061 です。 既定値を使用していなかった場合は、[すべてのポートとサーバー用の SIP ポート:] を選択して、新しい値を入力します。
-ms.openlocfilehash: 930252be234fa0b0bd8dd87db921d30226485d66
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 2a0f6ab02ee5131091f5fe11ba1239086810ecc8
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684600"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819719"
 ---
 # <a name="legacy-merge-sip-port"></a>従来版のマージ: SIP ポート
  

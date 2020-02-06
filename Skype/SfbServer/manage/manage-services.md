@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: c99ee134-8294-4481-bb4e-710fe85a39ca
 description: この記事では、Skype for Business Server のトポロジで実行されているサービスを管理する方法について説明します。
-ms.openlocfilehash: 76628840c37bdb0eb85d58887d8bfdcedd20f27c
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: f730f095bdbf88af68afa0cd93568b1bf35ebdd9
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991672"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817576"
 ---
 # <a name="manage-services-for-skype-for-business-server"></a>Skype for Business Server のサービスを管理する
 

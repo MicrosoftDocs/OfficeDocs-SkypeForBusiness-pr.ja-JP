@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d4136e61-c3ab-4b26-85c8-c1b2c24f5ee3
 description: '概要: Skype for Business Server および Skype for Business での2要素認証を使用します。'
-ms.openlocfilehash: 532e7567444b78dd30d053cf91aef1c10f0970bb
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 378b76b61acd004dfe16f04dba922cc2b6fedc83
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286110"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818709"
 ---
 # <a name="use-two-factor-authentication-with-skype-for-business-client-and-skype-for-business-server"></a>Skype for Business クライアントと Skype for Business Server で2要素認証を使用する
  
@@ -49,8 +51,8 @@ Skype for Business の使用が完了したら、[ファイル] メニューか�
 |**オプション**|**機能**|**実行する方法**|
 |:-----|:-----|:-----|
 |閉じる  <br/> |ディスプレイを閉じますが、ユーザー ID で識別された Skype for Business セッションは引き続き実行できます。 したがって、引き続き通知を受け取り、他のユーザーと対話できます。 <br/> <br/> タスクバーまたは画面の下部にある通知領域の Skype for Business アイコンをクリックすると、いつでも表示を元に戻すことができます。  <br/> | Skype for Business メインウィンドウで、次のいずれかの操作を行います。 <br/> 1. [**オプション**] ボタンを選択し、[**ファイル** > を**閉じる**] を選択します。  <br/> 2. ウィンドウの右上隅にある [**閉じる**] ボタン (X) をクリックします。 <br/> |
-|サインアウトする  <br/> |ユーザー ID に関連付けられているセッションを終了しますが、Skype for Business はバックグラウンドで実行され続けます。 サインアウトすると、サインイン ウィンドウが表示されます。  <br/> **ヒント:**[サインアウトするときに**サインイン情報を削除**する] を選択して、コンピューターからログオン ID とパスワードの記録を削除します。 このようにすると、サポート担当者が行うサインインの問題のトラブルシューティングが容易になることがあります。 また、権限のないユーザーがあなたの資格情報でログインすることは難しくなるため、サインイン情報のセキュリティも確保できます。 <br/> |Skype for business メインウィンドウで、[**オプション**] ボタンを選択し、[**ファイル** > ****]、[サインアウト] の順に選択します。  <br/> |
-|終了する  <br/> |Skype for business セッションを終了し、コンピューター上の Skype for Business をシャットダウンします。 終了後、再起動する場合は、[ **** > **すべてのプログラム**を > Skype for business から開始する] を選びます。 <br/> |Skype for business のメインウィンドウで、[**オプション**] ボタンを選択し、[**ファイル** > を**閉じる**] を選択します。  <br/> |
+|サインアウトする  <br/> |ユーザー ID に関連付けられているセッションを終了しますが、Skype for Business はバックグラウンドで実行され続けます。 サインアウトすると、サインイン ウィンドウが表示されます。  <br/> **ヒント:**[サインアウトするときに**サインイン情報を削除**する] を選択して、コンピューターからログオン ID とパスワードの記録を削除します。 このようにすると、サポート担当者が行うサインインの問題のトラブルシューティングが容易になることがあります。 また、権限のないユーザーがあなたの資格情報でログインすることは難しくなるため、サインイン情報のセキュリティも確保できます。 <br/> |Skype for business メインウィンドウで、[**オプション**] ボタンを選択し、[**ファイル** > ]、[サインアウト] の順に選択**します。**  <br/> |
+|終了する  <br/> |Skype for business セッションを終了し、コンピューター上の Skype for Business をシャットダウンします。 終了後、再起動する場合は、[Skype for business >**すべてのプログラム**を**起動** > する] を選択します。 <br/> |Skype for business のメインウィンドウで、[**オプション**] ボタンを選択し、[**ファイル** > を**閉じる**] を選択します。  <br/> |
    
 ## <a name="sign-in-to-skype-for-business-with-a-smart-card"></a>スマート カードで Skype for Business にサインインする
 

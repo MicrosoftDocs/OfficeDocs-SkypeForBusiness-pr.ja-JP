@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 障害回復操作の手順、およびペアリングされたフロントエンドプールのデータを同期するバックアップサービスの維持について説明します。
-ms.openlocfilehash: 9664a7d9d48ca084232e2a0473a15d29d970cea6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bb8178b98d355159a92d7187884e5502912f4436
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34303899"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818338"
 ---
 # <a name="managing-skype-for-business-server-disaster-recovery-high-availability-and-backup-service"></a>Skype for Business Server の災害復旧、高可用性、バックアップサービスの管理
 

@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
 description: '概要: Skype for Business Server で2要素認証を管理します。'
-ms.openlocfilehash: ccda6795fa5033c792c293701d951e3111666e82
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 90dc286e247c0c6eeb75bb884071b85e57663278
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297562"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818719"
 ---
 # <a name="manage-two-factor-authentication-in-skype-for-business-server"></a>Skype for Business Server で2要素認証を管理する
  
@@ -69,7 +71,7 @@ Skype for Business 環境でスキル検索機能を構成している場合は�
   
 ### <a name="deleting-saved-credentials"></a>保存された資格情報の削除
 
-ユーザーは、Skype for Business クライアントで **[サインイン情報の削除**] オプションを使用し、2つの要素を使用して初めてサインインする前に、%Localappdata%\Microsoft\Office\15.0\Skype for BUSINESS から SIP プロファイルフォルダーを削除する必要があります。認証.
+ユーザーは、Skype for Business クライアントで **[サインイン情報の削除**] オプションを使用して、2要素認証を使用して初めてサインインする前に、%Localappdata%\Microsoft\Office\15.0\Skype for BUSINESS から SIP プロファイルフォルダーを削除する必要があります。
   
 ### <a name="disablentcredentials"></a>DisableNTCredentials
 

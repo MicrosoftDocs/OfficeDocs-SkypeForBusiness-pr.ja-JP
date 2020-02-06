@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: リモートユーザーが社内の Skype for Business Server ユーザーと共同作業できるかどうかを制御するために、1つ以上の外部ユーザーアクセスポリシーを構成します。 リモートユーザーアクセスを制御するには、グローバル、サイト、ユーザーレベルでポリシーを構成することができます。
-ms.openlocfilehash: 96d91179e7b99910182ff360920f3d46b80aa6f4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7735f15e61654f55a70f18ca032cd6b1613fec58
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280139"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818298"
 ---
 # <a name="configure-policies-to-control-remote-user-access-in-skype-for-business-server"></a>Skype for Business Server でリモートユーザーのアクセスを制御するためのポリシーを構成する
 
@@ -54,7 +56,7 @@ ms.locfileid: "34280139"
 
 5.  省略説明を追加または編集する場合は、ポリシーの情報を [**説明**] で指定します。
 
-6.  次のいずれかの操作を行います。
+6.  次のいずれかを実行します。
     
       - ポリシーのリモートユーザーアクセスを有効にするには、[**リモートユーザーとの通信を有効**にする] チェックボックスをオンにします。
     

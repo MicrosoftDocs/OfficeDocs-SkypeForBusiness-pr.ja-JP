@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 9739f9f0-7a37-4844-91d5-f089d2011013
 description: '概要: Skype for Business Server で使用されている通話リストレポートについて説明します。'
-ms.openlocfilehash: fcf7f0e5f34a48644c8bd3bad3f1f2267afeb63d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3013dcce34804c7afb4c0d1ca7a211f8decf56ed
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289330"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818118"
 ---
 # <a name="call-list-report-in-skype-for-business-server"></a>Skype for Business Server の通話リストレポート
  

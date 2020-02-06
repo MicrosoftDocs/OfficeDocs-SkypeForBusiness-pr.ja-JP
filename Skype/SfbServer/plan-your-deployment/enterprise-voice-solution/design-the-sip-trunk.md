@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4f93b974-b460-45c7-a4a8-6f38e34840f5
 description: Skype for Business Server Enterprise Voice で SIP トランクプロバイダーを使用する E9 展開用の SIP トランクトポロジを計画します。
-ms.openlocfilehash: 1d3b55fd6bb61fbf83f1a2294c96503b816f9c49
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bd310b39affbea9b4d9328c66b54712c0d388b8d
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276979"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803077"
 ---
 # <a name="design-the-sip-trunk-for-e9-1-1-in-skype-for-business-server"></a>Skype for Business Server での E9-1 の SIP トランクの設計
  

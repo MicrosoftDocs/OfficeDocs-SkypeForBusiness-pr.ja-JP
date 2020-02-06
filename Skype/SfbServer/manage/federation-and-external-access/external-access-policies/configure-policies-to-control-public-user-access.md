@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: ublic インスタントメッセージング (IM) 接続を使うと、組織内のユーザーは IM を使用して、パブリック IM サービスプロバイダーによって提供される IM サービスのユーザーと通信することができます。
-ms.openlocfilehash: 230c3405a9d0a551758bee63fae8f927fdc5af19
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d661ca9a4ef7840cbc955d0c999ae5a1490a63cb
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280160"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818308"
 ---
 # <a name="configure-policies-to-control-public-user-access-in-skype-for-business-server"></a>Skype for Business Server でのパブリックユーザーアクセスを制御するためのポリシーを構成する
 
@@ -56,7 +58,7 @@ IM 招待の場合、応答はクライアントソフトウェアによって�
 
 5.  省略説明を追加または編集する場合は、ポリシーの情報を [**説明**] で指定します。
 
-6.  次のいずれかの操作を行います。
+6.  次のいずれかを実行します。
     
       - ポリシーのパブリックユーザーアクセスを有効にするには、[**パブリックユーザーとの通信を有効**にする] チェックボックスをオンにします。
     

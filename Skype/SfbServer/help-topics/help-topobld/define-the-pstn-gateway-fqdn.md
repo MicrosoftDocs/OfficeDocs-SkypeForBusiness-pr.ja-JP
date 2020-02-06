@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddPstnGatewayFqdnPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c6135e2a-5d44-4046-bd53-fac4fdf52238
 description: エンタープライズボイスコンポーネントを PSTN またはプライベートブランチ exchange (PBX) に接続する、公衆交換電話網 (PSTN) ゲートウェイの完全修飾ドメイン名 (FQDN) を指定します。
-ms.openlocfilehash: c83d4525588496a29f57e06ba297950e216e0bdd
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b3555b8e018d355894f3926cbfb5a827f7f72701
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41697563"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820169"
 ---
 # <a name="define-the-pstn-gateway-fqdn"></a>PSTN ゲートウェイの FQDN の定義
 

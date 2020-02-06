@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.PublishTopologySelectCmsPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df447066-2840-431b-bc4e-acf8aa692d71
 description: トポロジビルダーを使用して構成したトポロジを公開します。 フロントエンドサーバーまたはフロントエンドプールが、中央管理ストアを保持する役割を持つことを示すリストから選択するように求められます。 この役割は、1つのフロントエンドサーバーまたはフロントエンドプールでいつでも保持できます。
-ms.openlocfilehash: a5078389b1489f6b690b324b72cdf2808822554f
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: cf6e0adba8870fc465049f93f88551fbc318842a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41696772"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819369"
 ---
 # <a name="publish-topology-select-cms-page"></a>トポロジの公開での CMS の選択ページ
 

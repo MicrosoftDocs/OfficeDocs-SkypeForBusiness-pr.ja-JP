@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: ea4b0c9f-7f93-4b8a-b901-01e1636c44fb
 description: '概要: Skype for Business Server で使用されている通話受付制御レポートについて説明します。'
-ms.openlocfilehash: efa632aa4a7fb5793694363d958a31e8a066a9b5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5a8df542e666975e207bd5a105cb4c1d7261b51f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289435"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818168"
 ---
 # <a name="call-admission-control-report-in-skype-for-business-server"></a>Skype for Business Server の通話受付制御レポート
  
@@ -94,7 +96,7 @@ ms.locfileid: "34289435"
 
 |**名前**|**この項目での並べ替え**|**説明**|
 |:-----|:-----|:-----|
-|**[役割]** <br/> |いいえ  <br/> |電話会議の参加者が担った役割 (発表者など)。  <br/> |
+|**役割** <br/> |いいえ  <br/> |電話会議の参加者が担った役割 (発表者など)。  <br/> |
 |**参加者** <br/> |いいえ  <br/> |電話会議の参加者の SIP アドレス。  <br/> |
 |**接続** <br/> |不可  <br/> |参加者のネットワーク接続 (一般には内部送信元または外部送信元)。  <br/> |
 |**モダリティ** <br/> |いいえ  <br/> |電話会議の種類 (音声ビデオ会議など)。  <br/> |

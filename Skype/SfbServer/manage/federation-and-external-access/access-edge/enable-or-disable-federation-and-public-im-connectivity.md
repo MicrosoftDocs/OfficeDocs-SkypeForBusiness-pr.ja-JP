@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: フェデレーションのサポートは、信頼された顧客またはパートナー組織のアカウントを持っているユーザー (パートナーのドメインや、サポートしているパブリックインスタントメッセージング (IM) プロバイダーのユーザーを含む) を有効にして、ユーザーとの共同作業を行うことができるようにする必要があります。組織.
-ms.openlocfilehash: 86cc3e66b2e3252b6b25ff4bef09d3abeb4badf0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2e24d670295a751c4cd3f41048fe1807b0fe1723
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280244"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818388"
 ---
 # <a name="enable-or-disable-federation-and-public-im-connectivity-in-skype-for-business-server"></a>Skype for Business Server でフェデレーションとパブリック IM 接続を有効または無効にする
 
@@ -26,7 +28,7 @@ ms.locfileid: "34280244"
 
 フェデレーションドメインのユーザーによるアクセスをサポートするには、フェデレーションを有効にする必要があります。 組織のフェデレーションを有効にする場合は、次のオプションを実装するかどうかも指定する必要があります。
 
-  - **パートナードメインの検出**   を有効にするこのオプションを有効にすると、Skype for business Server はドメインネームシステム (DNS) レコードを使用して、[許可したドメイン] 一覧にないドメインを検出し、受信トラフィックが検出された場合に自動的に評価されるようにします。フェデレーションパートナー。信頼レベル、トラフィック量、管理者設定に基づいて、そのトラフィックを制限またはブロックします。 このオプションが選択されていない場合、フェデレーションされたユーザーのアクセス許可は、[許可したドメイン] リストに含めるドメイン内のユーザーに対してのみ有効になります。 このオプションが選択されているかどうかにかかわらず、フェデレーションドメインでアクセスエッジサービスを実行している特定のサーバーへのアクセスを制限するなど、個々のドメインをブロックまたは許可するように指定することができます。 フェデレーションドメインによるアクセスの制御の詳細については、「許可されている[外部ドメインのサポートを構成する](../sip-domains/manage-sip-federated-domains-for-your-organization.md#configure-support-for-allowed-external-domains-in-skype-for-business-server)」を参照してください。
+  - **パートナードメインの検出**   を有効にするこのオプションを有効にした場合、Skype for business Server はドメインネームシステム (DNS) レコードを使用して、[許可したドメイン] 一覧にないドメインを検出し、検出されたフェデレーションパートナーから受信トラフィックを自動的に評価し、信頼レベル、トラフィック量、および管理者設定に基づいてそのトラフィックを制限 このオプションが選択されていない場合、フェデレーションされたユーザーのアクセス許可は、[許可したドメイン] リストに含めるドメイン内のユーザーに対してのみ有効になります。 このオプションが選択されているかどうかにかかわらず、フェデレーションドメインでアクセスエッジサービスを実行している特定のサーバーへのアクセスを制限するなど、個々のドメインをブロックまたは許可するように指定することができます。 フェデレーションドメインによるアクセスの制御の詳細については、「許可されている[外部ドメインのサポートを構成する](../sip-domains/manage-sip-federated-domains-for-your-organization.md#configure-support-for-allowed-external-domains-in-skype-for-business-server)」を参照してください。
 
   - **フェデレーションパートナー**    にアーカイブの免責事項を送信する免責事項は、展開にアーカイブすることが適切に行われるフェデレーションパートナーに送信されます。 フェデレーションパートナードメインとの外部通信のアーカイブをサポートしている場合は、アーカイブの免責事項の通知を有効にして、メッセージがアーカイブされていることをパートナーに警告する必要があります。
 

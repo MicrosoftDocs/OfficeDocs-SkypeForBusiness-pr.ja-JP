@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: ネットワーク領域 * は、通話受付制御、E9-1、メディアバイパスの構成で使用されるネットワークハブまたはバックボーンです。
-ms.openlocfilehash: 8d1d60389fe910e2b5c2b8b1c357520aad30db96
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c08232e455edb4388a052c2859b35e6c137b890a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279530"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817486"
 ---
 # <a name="managing-network-regions-in-skype-for-business-server"></a>Skype for Business Server でのネットワーク領域の管理
 

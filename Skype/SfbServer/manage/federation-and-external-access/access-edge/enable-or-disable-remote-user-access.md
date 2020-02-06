@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: リモートユーザーに対してリモートユーザーアクセスを有効にすると、サポートされているリモートユーザーはインターネット経由で接続し、Skype for Business Server を使用して内部ユーザーと共同作業するために VPN を使用して接続する必要はありません。
-ms.openlocfilehash: dde2bbb2d71d84bc9102683afc37208e3c4616bd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b562dbe7a849ca4266a45303008ff9081903658d
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280237"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818378"
 ---
 # <a name="enable-or-disable-remote-user-access-in-skype-for-business-server"></a>Skype for Business Server のリモートユーザーアクセスを有効または無効にする
 

@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 4cf600be-ba3d-4bce-aa22-e158b9ccf8a9
 description: '概要: Skype for Business Server のユーザーアーカイブポリシーを変更する方法について説明します。'
-ms.openlocfilehash: 00f22b9afa5332bd7075b03823d321d35a0e4b8b
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 010365b5805517db8f40aa7e3e839fdb15115c06
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992774"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818989"
 ---
 # <a name="change-an-existing-archiving-policy-in-skype-for-business-server"></a>Skype for Business Server で既存のアーカイブポリシーを変更する
  

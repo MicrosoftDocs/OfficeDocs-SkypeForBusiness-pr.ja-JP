@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0beec6be-2431-4255-a3d2-512dd030e66a
 description: MPLS ネットワーク、SIP トランク、またサードパーティの PSTN ゲートウェイまたは PBX を使用している場合の通話受付管理 (CAC) の計画について説明します。 Skype for Business Server Enterprise Voice に適用されます。
-ms.openlocfilehash: 326387b7b0794b3cbd027d539880f8c4b40f42d8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7fcbc3e8c7fc7b4139fd9c83718db59af099f47f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277014"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803117"
 ---
 # <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>Skype for Business の通話受付制御のコンポーネントとトポロジ
 

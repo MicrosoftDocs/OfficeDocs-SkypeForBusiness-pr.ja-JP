@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 6be1d676-68f7-4a53-a72a-de73296c5571
 description: '概要: Skype for Business Server のピアツーピアセッションの詳細レポートについて説明します。'
-ms.openlocfilehash: 768609c68e37eebf46c350009638b960066f9456
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4c6b05e6e4e4110a43c21dbdbbc7f190ecae98ac
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279880"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817776"
 ---
 # <a name="peer-to-peer-session-detail-report-in-skype-for-business-server"></a>Skype for Business Server のピアツーピアセッションの詳細レポート
  

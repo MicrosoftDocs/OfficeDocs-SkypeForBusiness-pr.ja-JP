@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: この記事では、エッジサーバーのポート範囲を構成する方法と、A/V エッジサーバーのサービス品質ポリシーを構成する方法について説明します。
-ms.openlocfilehash: e918dfd371b007741b73312c20033ab911422529
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5762cb6861552696f160dfe69459c357f6b63452
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279465"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817436"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-edge-servers-in-skype-for-business-server"></a>Skype for Business Server でのエッジサーバーのポート範囲とサービス品質ポリシーの構成
 

@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: ユーザーが Skype for business Server 用に有効になっている場合は、特定のユーザーに適切なポリシーを適用することにより、Skype for Business Server コントロールパネルで SIP フェデレーション、リモートユーザーアクセス、およびパブリックインスタントメッセージング (IM) 接続を構成できます。
-ms.openlocfilehash: ae8bea38a01f9211fc3338faf3e97f737c99e1a4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b87eb377b23063dbcdfd9562a99533da230a8f30
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280174"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818328"
 ---
 # <a name="assign-an-external-user-access-policy-to-a-skype-for-business-enabled-user"></a>外部ユーザーアクセスポリシーを Skype for Business が有効なユーザーに割り当てる
 
@@ -45,7 +47,7 @@ ms.locfileid: "34280174"
 5.  [**外部アクセスポリシー**] の [ **Skype For business Server ユーザーの編集**] で、適用するユーザーポリシーを選択します。
      
 > [!NOTE]  
-> ** \<Automatic>** の設定では、既定のサーバーまたはグローバルポリシーの設定が適用されます。
+> ** \<自動>** の設定では、既定のサーバーまたはグローバルポリシーの設定が適用されます。
 
 
 ## <a name="assigning-per-user-external-access-policies-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して、ユーザーごとの外部アクセスポリシーを割り当てる

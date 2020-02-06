@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: SIP フェデレーションプロバイダーのユーザー向けのサポートを構成する方法について説明します。
-ms.openlocfilehash: ee16ec8953a722a86838f710fdf92cb9b2ce5f36
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 42845bfd39c65e60765ee8d3fd2f1e3a58a08aae
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34303964"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818368"
 ---
 # <a name="manage-sip-federated-providers-for-your-organization-in-skype-for-business-server"></a>Skype for Business Server で組織の SIP フェデレーションプロバイダーを管理する
 

@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 31fd4e7c-3c68-48dd-9fad-8863831accd7
 description: '概要: Skype for Business Server に障害が発生したときに、アーカイブを防ぐことができる IM と会議セッションをブロックする方法について説明します。'
-ms.openlocfilehash: ed8a59a8c19ace9a83b699e1b69515f52c3af010
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: c1a6b9930d9f27e9d679710708141c0394c41dc4
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992754"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818969"
 ---
 # <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server"></a>Skype for Business Server のエラーを処理するアーカイブオプションを構成する
 

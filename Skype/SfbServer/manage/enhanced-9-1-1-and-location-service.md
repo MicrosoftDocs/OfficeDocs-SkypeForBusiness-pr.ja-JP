@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Skype for Business Server は、Skype for business クライアントからの拡張 9-1-1 (E9) 通話をサポートしています。 Skype for Business Server を E9 用に構成する場合、Skype for Business から発信された緊急通報には、場所情報サービスデータベースからの緊急応答の場所 (ERL) が含まれます。
-ms.openlocfilehash: a0cf7254e12f00a01082b7aad71ce350cb382b9c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: de02c4a9a3210220e368d87d4ae8e21a80f3dbac
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280300"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818428"
 ---
 # <a name="manage-enhanced-9-1-1-and-the-location-service-in-skype-for-busines-server"></a>Skype for Busines Server で強化された9-1-1 と位置情報サービスを管理する
 
@@ -75,7 +77,7 @@ Skype for Business Server では、位置情報サービスからの場所更新
         
           - **必要ありません**   。ユーザーは場所の入力を求められることはありません。 所在地情報を指定せずに通話を発信すると、緊急サービスプロバイダーは、通話に応答して場所を求めます。
         
-          - **免責**   このオプションは、ユーザーが位置情報を入力せずにプロンプトを閉じることができないことを除き、**必須**と同じです。 ユーザーは引き続き緊急通話を完了できますが、情報を入力しなければ、その他の通話を完了することはできません。 また、免責テキストはユーザーに対して表示され、ユーザーに対して、場所情報の入力を拒否された結果を通知することができます。 免責事項のテキストを設定するには、Skype for Business Server 管理シェルを使用して、EnhancedEmergencyServiceDisclaimer パラメーターを使って、 **set-CsLocationPolicy**コマンドレットまたは**新しい-cslocationpolicy**コマンドレットを実行する必要があります。 詳細については、「[を設定](https://docs.microsoft.com/powershell/module/skype/Set-CsLocationPolicy)する[](https://docs.microsoft.com/powershell/module/skype/New-CsLocationPolicy)」を参照してください。
+          - **免責**   このオプションは、ユーザーが位置情報を入力せずにプロンプトを閉じることができないことを除き、**必須**と同じです。 ユーザーは引き続き緊急通話を完了できますが、情報を入力しなければ、その他の通話を完了することはできません。 また、免責テキストはユーザーに対して表示され、ユーザーに対して、場所情報の入力を拒否された結果を通知することができます。 免責事項のテキストを設定するには、Skype for Business Server 管理シェルを使用して、EnhancedEmergencyServiceDisclaimer パラメーターを使って、 **set-CsLocationPolicy**コマンドレットまたは**新しい-cslocationpolicy**コマンドレットを実行する必要があります。 詳細については、「[を設定](https://docs.microsoft.com/powershell/module/skype/Set-CsLocationPolicy)する」を[参照してください。](https://docs.microsoft.com/powershell/module/skype/New-CsLocationPolicy)
           
     
       - **緊急対応のサービスの場所を使用する**Skype for Business では、さまざまな理由で場所情報を使用できます (たとえば、現在の場所のチームメイトに通知するなど)。 このチェックボックスをオンにすると、緊急通話でのみ位置情報を使用できるようになります。
@@ -91,7 +93,7 @@ Skype for Business Server では、位置情報サービスからの場所更新
         > 指定したダイヤルマスクの値が、呼び出しパークの範囲内の番号と同じでないことを確認します。 コールパークルーティングは、緊急ダイヤルの文字列変換よりも優先されます。 既存のコールパークの範囲を確認するには、左側のナビゲーションバーで [**音声機能**] をクリックし、[**通話パーク**] をクリックします。 
 
     
-      - ****   緊急通話が行われたときに通知される1つ以上の SIP Uniform resource identifier (uri) です。 たとえば、緊急通話が行われるたびに、インスタントメッセージを通じて会社のセキュリティオフィスに通知を受け取ることができます。 発信者の所在地が利用可能な場合は、その場所が通知に含まれます。 複数の SIP Uri をコンマ区切りリストとして含めることができます。 たとえば、"sip: security@litwareinc.com"、"sip: kmyer@litwareinc.com" のようになります。 配布リストがサポートされています。 文字列は、1 ~ 256 文字の長さで、先頭が "sip:" で始まる必要があります。 通知 URI フィールドをクリックする前に、例が表示されます。
+      - ****   緊急通話が行われたときに通知される1つ以上の SIP Uniform resource identifier (uri) です。 たとえば、緊急通話が行われるたびに、インスタントメッセージを通じて会社のセキュリティオフィスに通知を受け取ることができます。 発信者の所在地が利用可能な場合は、その場所が通知に含まれます。 複数の SIP Uri をコンマ区切りリストとして含めることができます。 たとえば、"sip: security@litwareinc"、"sip: kmyer@litwareinc" のようになります。 配布リストがサポートされています。 文字列は、1 ~ 256 文字の長さで、先頭が "sip:" で始まる必要があります。 通知 URI フィールドをクリックする前に、例が表示されます。
     
       - **[会議 URI**   ] は、発信された緊急通話に conferenced されるサードパーティの SIP URI (この場合は電話番号) です。 たとえば、会社のセキュリティに関する office では、緊急通話が発信された場合に着信があったり、その通話に参加したり (**会議モード**フィールドに指定されている値に応じて) 参加したりする場合があります。 文字列は、1 ~ 256 文字の長さで、先頭が「sip:」で始まる必要があります。 例は、このフィールド内をクリックするまで表示されます。
     

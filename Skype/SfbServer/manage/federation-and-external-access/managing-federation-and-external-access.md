@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 外部ユーザーアクセスを有効にして構成し、サポートされている外部ユーザーが社内の Skype for Business Server ユーザーと共同作業できるようにするかどうかを制御します。
-ms.openlocfilehash: 555fa5ca08a707f09c9e33d8b98294b7bb584046
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 366b65b53135388f4163154001f6400cc9fa2963
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280104"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818248"
 ---
 # <a name="managing-federation-and-external-access-to-skype-for-business-server"></a>Skype for Business Server へのフェデレーションと外部アクセスの管理
 
