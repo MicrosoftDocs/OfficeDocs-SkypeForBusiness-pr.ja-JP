@@ -7,35 +7,37 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AvMcuGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16449f7c-dd2c-4b51-b428-8fba42f93f83
 ROBOTS: NOINDEX, NOFOLLOW
 description: 定義済みの A/V 会議サーバープールのプロパティを編集するには、次の操作を行います。
-ms.openlocfilehash: 4ad336ca8ddc6e5a2a63a90a9299289bf643aa87
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 557f762b78d589e975d88c808a6911e46c5b9187
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41702402"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41793945"
 ---
-# <a name="av-mcu-general-settings-expander"></a><span data-ttu-id="58508-103">AV MCU 全般設定の展開</span><span class="sxs-lookup"><span data-stu-id="58508-103">AV MCU General Settings Expander</span></span>
+# <a name="av-mcu-general-settings-expander"></a><span data-ttu-id="c8224-103">AV MCU 全般設定の展開</span><span class="sxs-lookup"><span data-stu-id="c8224-103">AV MCU General Settings Expander</span></span>
  
-<span data-ttu-id="58508-104">定義済みの A/V 会議サーバープールのプロパティを編集するには、次の操作を行います。</span><span class="sxs-lookup"><span data-stu-id="58508-104">To edit the properties for an A/V Conferencing Server pool that you have already defined, you can do the following:</span></span>
+<span data-ttu-id="c8224-104">定義済みの A/V 会議サーバープールのプロパティを編集するには、次の操作を行います。</span><span class="sxs-lookup"><span data-stu-id="c8224-104">To edit the properties for an A/V Conferencing Server pool that you have already defined, you can do the following:</span></span>
   
-## <a name="general-settings"></a><span data-ttu-id="58508-105">全般設定</span><span class="sxs-lookup"><span data-stu-id="58508-105">General settings</span></span>
+## <a name="general-settings"></a><span data-ttu-id="c8224-105">全般設定</span><span class="sxs-lookup"><span data-stu-id="c8224-105">General settings</span></span>
 
-<span data-ttu-id="58508-106">ドメインネームシステム (DNS) で定義されているプールの名前を入力して、A/V 会議サーバープールの完全修飾ドメイン名 (FQDN) を更新します。</span><span class="sxs-lookup"><span data-stu-id="58508-106">Update the fully qualified domain name (FQDN) of the A/V Conferencing Server pool by typing in the name of the pool, as it is defined in the Domain Name System (DNS).</span></span>
+<span data-ttu-id="c8224-106">ドメインネームシステム (DNS) で定義されているプールの名前を入力して、A/V 会議サーバープールの完全修飾ドメイン名 (FQDN) を更新します。</span><span class="sxs-lookup"><span data-stu-id="c8224-106">Update the fully qualified domain name (FQDN) of the A/V Conferencing Server pool by typing in the name of the pool, as it is defined in the Domain Name System (DNS).</span></span>
   
-## <a name="av-conferencing-service"></a><span data-ttu-id="58508-107">音声ビデオ会議サービス</span><span class="sxs-lookup"><span data-stu-id="58508-107">A/V Conferencing service</span></span>
+## <a name="av-conferencing-service"></a><span data-ttu-id="c8224-107">音声ビデオ会議サービス</span><span class="sxs-lookup"><span data-stu-id="c8224-107">A/V Conferencing service</span></span>
 
-<span data-ttu-id="58508-108">A/V 会議サーバープールを関連付けるには、A/V 会議サーバープールに関連付けるフロントエンドプールまたはプールを選択します。</span><span class="sxs-lookup"><span data-stu-id="58508-108">To associate an A/V Conferencing Server pool, select the Front End pool or pools that you have to associate with the A/V Conferencing Server pool.</span></span>
+<span data-ttu-id="c8224-108">A/V 会議サーバープールを関連付けるには、A/V 会議サーバープールに関連付けるフロントエンドプールまたはプールを選択します。</span><span class="sxs-lookup"><span data-stu-id="c8224-108">To associate an A/V Conferencing Server pool, select the Front End pool or pools that you have to associate with the A/V Conferencing Server pool.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="58508-109">フロントエンドプールが **[この A/v の会議プールを関連付けるためのフロント**エンドプールを選択してください] ウィンドウに表示されていない場合は、フロントエンドプールで A/v 会議サーバーを使用しているか、フロントエンドプールのプロパティの [機能] セクション**と**[会議の追加] を選択していないことがあります。</span><span class="sxs-lookup"><span data-stu-id="58508-109">If no Front End pools are displayed in the **Select the Front End pools to associate with this A/V Conferencing pool** pane, you have either collocated the A/V Conferencing Server with the Front End pool or did not select to add Conferencing in the **Features and functionality** section of the Front End pool properties.</span></span>
+> <span data-ttu-id="c8224-109">フロントエンドプールが **[この A/v の会議プールを関連付けるためのフロント**エンドプールを選択してください] ウィンドウに表示されていない場合は、フロントエンドプールで A/v 会議サーバーを使用しているか、フロントエンドプールのプロパティの [機能] セクション**と**[会議の追加] を選択していないことがあります。</span><span class="sxs-lookup"><span data-stu-id="c8224-109">If no Front End pools are displayed in the **Select the Front End pools to associate with this A/V Conferencing pool** pane, you have either collocated the A/V Conferencing Server with the Front End pool or did not select to add Conferencing in the **Features and functionality** section of the Front End pool properties.</span></span>
   
 
-<span data-ttu-id="58508-110">完了したら、[ **OK** ] をクリックして、A/V 会議サーバープールの設定の編集を完了します。</span><span class="sxs-lookup"><span data-stu-id="58508-110">When finished, click **OK** to complete the editing of the A/V Conferencing Server pool settings.</span></span> <span data-ttu-id="58508-111">変更を破棄するには、[**キャンセル**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="58508-111">Click **Cancel** to discard any changes.</span></span>
+<span data-ttu-id="c8224-110">完了したら、[ **OK** ] をクリックして、A/V 会議サーバープールの設定の編集を完了します。</span><span class="sxs-lookup"><span data-stu-id="c8224-110">When finished, click **OK** to complete the editing of the A/V Conferencing Server pool settings.</span></span> <span data-ttu-id="c8224-111">変更を破棄するには、[**キャンセル**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="c8224-111">Click **Cancel** to discard any changes.</span></span>
   
 

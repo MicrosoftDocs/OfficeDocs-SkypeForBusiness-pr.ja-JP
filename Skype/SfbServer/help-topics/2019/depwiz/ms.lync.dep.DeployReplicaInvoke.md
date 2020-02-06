@@ -6,24 +6,26 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.dep.DeployReplicaInvoke
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 6a3cb2e6-e253-4a3d-b1d7-2b93b3cfc36a
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[コマンドの実行] ウィンドウには、中央管理ストアのローカルの読み取り専用レプリカをインストールするためのタスクの状態が表示されます。 タスクの実行中は、コマンドの実行時に作業ウィンドウが更新されます。 タスクの状態を確認し、表示されるエラーまたは警告を確認する必要があります。 タスクが完了すると、[メッセージタスクの状態: 完了] が表示され、ログファイルのドロップダウンリストにログファイルの名前が表示されます。 作成されたログファイルを表示するには、表示するログファイルを選択し、[ログの表示] をクリックします。 成功、エラー、警告メッセージのすべてのログファイルを確認します。'
-ms.openlocfilehash: c498270e06994c4d497e461443778edd2f1315cf
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 4a0c8e909795711ff4611c0957a64706985e6347
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41691692"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794716"
 ---
-# <a name="install-local-configuration-store-invoke"></a><span data-ttu-id="5a75b-108">ローカル構成ストアのインストール (起動)</span><span class="sxs-lookup"><span data-stu-id="5a75b-108">Install Local Configuration Store (Invoke)</span></span>
+# <a name="install-local-configuration-store-invoke"></a><span data-ttu-id="1fda7-108">ローカル構成ストアのインストール (起動)</span><span class="sxs-lookup"><span data-stu-id="1fda7-108">Install Local Configuration Store (Invoke)</span></span>
  
-<span data-ttu-id="5a75b-109">[**コマンドの実行**] ウィンドウには、中央管理ストアのローカルの読み取り専用レプリカをインストールするためのタスクの状態が表示されます。</span><span class="sxs-lookup"><span data-stu-id="5a75b-109">The **Execute Commands** pane displays the status of tasks for installing the local read-only replica of the Central Management store.</span></span> <span data-ttu-id="5a75b-110">タスクの実行中は、コマンドの実行時に作業ウィンドウが更新されます。</span><span class="sxs-lookup"><span data-stu-id="5a75b-110">While the tasks are running, the task pane is updated as the commands are run.</span></span> <span data-ttu-id="5a75b-111">タスクの状態を確認し、表示されるエラーまたは警告を確認する必要があります。</span><span class="sxs-lookup"><span data-stu-id="5a75b-111">You should review the task status and note any errors or warnings that are displayed.</span></span> <span data-ttu-id="5a75b-112">タスクが完了すると、[メッセージ**タスクの状態: 完了**] が表示され、ログファイルのドロップダウンリストにログファイルの名前が表示されます。</span><span class="sxs-lookup"><span data-stu-id="5a75b-112">When the tasks are complete, the message **Task status: Completed** is displayed, and the drop-down list for the log files displays the names of the log files.</span></span> <span data-ttu-id="5a75b-113">作成されたログファイルを表示するには、表示するログファイルを選択し、[**ログの表示**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="5a75b-113">To view the log files that were created, choose a log file to view and click **View Log**.</span></span> <span data-ttu-id="5a75b-114">成功、エラー、警告メッセージのすべてのログファイルを確認します。</span><span class="sxs-lookup"><span data-stu-id="5a75b-114">Review all log files for success, errors, and warning messages.</span></span>
+<span data-ttu-id="1fda7-109">[**コマンドの実行**] ウィンドウには、中央管理ストアのローカルの読み取り専用レプリカをインストールするためのタスクの状態が表示されます。</span><span class="sxs-lookup"><span data-stu-id="1fda7-109">The **Execute Commands** pane displays the status of tasks for installing the local read-only replica of the Central Management store.</span></span> <span data-ttu-id="1fda7-110">タスクの実行中は、コマンドの実行時に作業ウィンドウが更新されます。</span><span class="sxs-lookup"><span data-stu-id="1fda7-110">While the tasks are running, the task pane is updated as the commands are run.</span></span> <span data-ttu-id="1fda7-111">タスクの状態を確認し、表示されるエラーまたは警告を確認する必要があります。</span><span class="sxs-lookup"><span data-stu-id="1fda7-111">You should review the task status and note any errors or warnings that are displayed.</span></span> <span data-ttu-id="1fda7-112">タスクが完了すると、[メッセージ**タスクの状態: 完了**] が表示され、ログファイルのドロップダウンリストにログファイルの名前が表示されます。</span><span class="sxs-lookup"><span data-stu-id="1fda7-112">When the tasks are complete, the message **Task status: Completed** is displayed, and the drop-down list for the log files displays the names of the log files.</span></span> <span data-ttu-id="1fda7-113">作成されたログファイルを表示するには、表示するログファイルを選択し、[**ログの表示**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="1fda7-113">To view the log files that were created, choose a log file to view and click **View Log**.</span></span> <span data-ttu-id="1fda7-114">成功、エラー、警告メッセージのすべてのログファイルを確認します。</span><span class="sxs-lookup"><span data-stu-id="1fda7-114">Review all log files for success, errors, and warning messages.</span></span>
   
-<span data-ttu-id="5a75b-115">ログファイルを確認した後、[**完了**] をクリックして、ローカル構成ストアのインストールを完了します。</span><span class="sxs-lookup"><span data-stu-id="5a75b-115">After you have reviewed the log files, click **Finish** to complete the installation of the local configuration store.</span></span>
+<span data-ttu-id="1fda7-115">ログファイルを確認した後、[**完了**] をクリックして、ローカル構成ストアのインストールを完了します。</span><span class="sxs-lookup"><span data-stu-id="1fda7-115">After you have reviewed the log files, click **Finish** to complete the installation of the local configuration store.</span></span>
   
 

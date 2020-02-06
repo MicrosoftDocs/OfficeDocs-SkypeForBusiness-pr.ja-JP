@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.plan.VoiceInfrastructure
 - ms.lync.plan.VoiceInfrastructure
 ms.prod: skype-for-business-itpro
@@ -14,15 +16,15 @@ localization_priority: Normal
 ms.assetid: ab341060-3f2e-4a41-9be0-9ee8d29c35c5
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype for Business Server は、SIP trunks、PSTN ゲートウェイへの直接 SIP 接続、または PBX への直接 SIP 接続を使用して、信頼性の高いスケーラブルな PSTN 接続を提供します。 詳細については、「Skype for Business Server での PSTN 接続の計画」を参照してください。
-ms.openlocfilehash: f2039e7a4a6ddeda336693aab787a9f0e2292e85
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 6516b818e53aa54fee49794053b7ae247a919e0e
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41689722"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794476"
 ---
-# <a name="voice-infrastructure-planning-tool"></a><span data-ttu-id="dad2a-104">Voice Infrastructure (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="dad2a-104">Voice Infrastructure (Planning Tool)</span></span>
+# <a name="voice-infrastructure-planning-tool"></a><span data-ttu-id="f1ba1-104">Voice Infrastructure (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="f1ba1-104">Voice Infrastructure (Planning Tool)</span></span>
  
-<span data-ttu-id="dad2a-105">Skype for Business Server は、SIP trunks、PSTN ゲートウェイへの直接 SIP 接続、または PBX への直接 SIP 接続を使用して、信頼性の高いスケーラブルな PSTN 接続を提供します。</span><span class="sxs-lookup"><span data-stu-id="dad2a-105">Skype for Business Server provides reliable, scalable PSTN connectivity by using SIP trunks, direct SIP connections to a PSTN gateway, or direct SIP connections to a PBX.</span></span> <span data-ttu-id="dad2a-106">詳細については、「 [Skype For Business Server での PSTN 接続の計画](../../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="dad2a-106">For details, see [Plan for PSTN connectivity in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md).</span></span>
+<span data-ttu-id="f1ba1-105">Skype for Business Server は、SIP trunks、PSTN ゲートウェイへの直接 SIP 接続、または PBX への直接 SIP 接続を使用して、信頼性の高いスケーラブルな PSTN 接続を提供します。</span><span class="sxs-lookup"><span data-stu-id="f1ba1-105">Skype for Business Server provides reliable, scalable PSTN connectivity by using SIP trunks, direct SIP connections to a PSTN gateway, or direct SIP connections to a PBX.</span></span> <span data-ttu-id="f1ba1-106">詳細については、「 [Skype For Business Server での PSTN 接続の計画](../../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="f1ba1-106">For details, see [Plan for PSTN connectivity in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md).</span></span>
   
 

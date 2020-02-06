@@ -6,54 +6,56 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.RgsGroupMain
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
 ROBOTS: NOINDEX, NOFOLLOW
 description: 応答グループは、エージェントグループ、キュー、ワークフローで構成されます。 エージェントグループは、応答グループの呼び出しに応答するように指定されているユーザーのグループです。
-ms.openlocfilehash: f9caf3ec7296ace681a753c401e0a55da874f559
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 1c42f34028d944a7390925df6157c8ef8fd0509d
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41704403"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797518"
 ---
-# <a name="response-groups-group"></a><span data-ttu-id="38ff9-104">応答グループ: グループ</span><span class="sxs-lookup"><span data-stu-id="38ff9-104">Response Groups: Group</span></span>
+# <a name="response-groups-group"></a><span data-ttu-id="99656-104">応答グループ: グループ</span><span class="sxs-lookup"><span data-stu-id="99656-104">Response Groups: Group</span></span>
 
-<span data-ttu-id="38ff9-105">応答グループは、エージェントグループ、キュー、ワークフローで構成されます。</span><span class="sxs-lookup"><span data-stu-id="38ff9-105">Response groups consist of agent groups, queues, and workflows.</span></span> <span data-ttu-id="38ff9-106">エージェントグループは、応答グループの呼び出しに応答するように指定されているユーザーのグループです。</span><span class="sxs-lookup"><span data-stu-id="38ff9-106">An agent group is a group of people who are designated to answer Response Group calls.</span></span>
+<span data-ttu-id="99656-105">応答グループは、エージェントグループ、キュー、ワークフローで構成されます。</span><span class="sxs-lookup"><span data-stu-id="99656-105">Response groups consist of agent groups, queues, and workflows.</span></span> <span data-ttu-id="99656-106">エージェントグループは、応答グループの呼び出しに応答するように指定されているユーザーのグループです。</span><span class="sxs-lookup"><span data-stu-id="99656-106">An agent group is a group of people who are designated to answer Response Group calls.</span></span>
 
-<span data-ttu-id="38ff9-107">[**応答グループ** - ]**グループ**ページには、組織で定義されているすべてのエージェントグループの一覧が表示されます。</span><span class="sxs-lookup"><span data-stu-id="38ff9-107">The **Response Groups** - **Group** page displays a list of all the agent groups that are defined for your organization.</span></span>
+<span data-ttu-id="99656-107">[**応答グループ** - ]**グループ**ページには、組織で定義されているすべてのエージェントグループの一覧が表示されます。</span><span class="sxs-lookup"><span data-stu-id="99656-107">The **Response Groups** - **Group** page displays a list of all the agent groups that are defined for your organization.</span></span>
 
-## <a name="tasks-you-can-perform"></a><span data-ttu-id="38ff9-108">実行できるタスク</span><span class="sxs-lookup"><span data-stu-id="38ff9-108">Tasks you can perform</span></span>
+## <a name="tasks-you-can-perform"></a><span data-ttu-id="99656-108">実行できるタスク</span><span class="sxs-lookup"><span data-stu-id="99656-108">Tasks you can perform</span></span>
 
-<span data-ttu-id="38ff9-109">[**応答グループ** - **] ページで**は、次のタスクを実行できます。</span><span class="sxs-lookup"><span data-stu-id="38ff9-109">You can perform the following tasks from the **Response Groups** - **Group** page:</span></span>
+<span data-ttu-id="99656-109">[**応答グループ** - **] ページで**は、次のタスクを実行できます。</span><span class="sxs-lookup"><span data-stu-id="99656-109">You can perform the following tasks from the **Response Groups** - **Group** page:</span></span>
 
-- <span data-ttu-id="38ff9-110">新しいエージェントグループを作成する</span><span class="sxs-lookup"><span data-stu-id="38ff9-110">Create a new agent group</span></span>
+- <span data-ttu-id="99656-110">新しいエージェントグループを作成する</span><span class="sxs-lookup"><span data-stu-id="99656-110">Create a new agent group</span></span>
 
-- <span data-ttu-id="38ff9-111">既存のエージェントグループを変更する</span><span class="sxs-lookup"><span data-stu-id="38ff9-111">Change an existing agent group</span></span>
+- <span data-ttu-id="99656-111">既存のエージェントグループを変更する</span><span class="sxs-lookup"><span data-stu-id="99656-111">Change an existing agent group</span></span>
 
-- <span data-ttu-id="38ff9-112">エージェントグループを削除する</span><span class="sxs-lookup"><span data-stu-id="38ff9-112">Delete an agent group</span></span>
+- <span data-ttu-id="99656-112">エージェントグループを削除する</span><span class="sxs-lookup"><span data-stu-id="99656-112">Delete an agent group</span></span>
 
-## <a name="ui-reference"></a><span data-ttu-id="38ff9-113">UI リファレンス</span><span class="sxs-lookup"><span data-stu-id="38ff9-113">UI Reference</span></span>
+## <a name="ui-reference"></a><span data-ttu-id="99656-113">UI リファレンス</span><span class="sxs-lookup"><span data-stu-id="99656-113">UI Reference</span></span>
 
-<span data-ttu-id="38ff9-114">次の一覧に、このページのコマンドを示します。</span><span class="sxs-lookup"><span data-stu-id="38ff9-114">The following list describes the commands on the page.</span></span>
+<span data-ttu-id="99656-114">次の一覧に、このページのコマンドを示します。</span><span class="sxs-lookup"><span data-stu-id="99656-114">The following list describes the commands on the page.</span></span>
 
-- <span data-ttu-id="38ff9-115">**新規**新しいエージェントグループを開始します。</span><span class="sxs-lookup"><span data-stu-id="38ff9-115">**New** Starts a new agent group.</span></span>
+- <span data-ttu-id="99656-115">**新規**新しいエージェントグループを開始します。</span><span class="sxs-lookup"><span data-stu-id="99656-115">**New** Starts a new agent group.</span></span>
 
-- <span data-ttu-id="38ff9-116">**編集**選択したエージェントグループを開いて編集するか、リスト内のすべてのエージェントグループを選択するか、選択したエージェントグループを削除します。</span><span class="sxs-lookup"><span data-stu-id="38ff9-116">**Edit** Opens the selected agent group to edit it, selects all agent groups in the list, or deletes the selected agent groups.</span></span>
+- <span data-ttu-id="99656-116">**編集**選択したエージェントグループを開いて編集するか、リスト内のすべてのエージェントグループを選択するか、選択したエージェントグループを削除します。</span><span class="sxs-lookup"><span data-stu-id="99656-116">**Edit** Opens the selected agent group to edit it, selects all agent groups in the list, or deletes the selected agent groups.</span></span>
 
-- <span data-ttu-id="38ff9-117">**更新**エージェントグループの一覧を更新します。</span><span class="sxs-lookup"><span data-stu-id="38ff9-117">**Refresh** Refreshes the list of agent groups.</span></span>
+- <span data-ttu-id="99656-117">**更新**エージェントグループの一覧を更新します。</span><span class="sxs-lookup"><span data-stu-id="99656-117">**Refresh** Refreshes the list of agent groups.</span></span>
 
-<span data-ttu-id="38ff9-118">次の一覧に、このページのフィールドを示します。</span><span class="sxs-lookup"><span data-stu-id="38ff9-118">The following list describes the fields on the page.</span></span>
+<span data-ttu-id="99656-118">次の一覧に、このページのフィールドを示します。</span><span class="sxs-lookup"><span data-stu-id="99656-118">The following list describes the fields on the page.</span></span>
 
-- <span data-ttu-id="38ff9-119">**名前**エージェントグループを識別する一意の名前。</span><span class="sxs-lookup"><span data-stu-id="38ff9-119">**Name** The unique name that identifies the agent group.</span></span>
+- <span data-ttu-id="99656-119">**名前**エージェントグループを識別する一意の名前。</span><span class="sxs-lookup"><span data-stu-id="99656-119">**Name** The unique name that identifies the agent group.</span></span>
 
-- <span data-ttu-id="38ff9-120">**サービス**エージェントグループをホストしている**ApplicationServer**サービス。</span><span class="sxs-lookup"><span data-stu-id="38ff9-120">**Service** The **ApplicationServer** service that hosts the agent group.</span></span>
+- <span data-ttu-id="99656-120">**サービス**エージェントグループをホストしている**ApplicationServer**サービス。</span><span class="sxs-lookup"><span data-stu-id="99656-120">**Service** The **ApplicationServer** service that hosts the agent group.</span></span>
 
-- <span data-ttu-id="38ff9-121">**説明**エージェントグループの説明。</span><span class="sxs-lookup"><span data-stu-id="38ff9-121">**Description** The description for the agent group.</span></span>
+- <span data-ttu-id="99656-121">**説明**エージェントグループの説明。</span><span class="sxs-lookup"><span data-stu-id="99656-121">**Description** The description for the agent group.</span></span>
 
-<span data-ttu-id="38ff9-122">回答グループの機能の詳細については、計画ドキュメントの「 [Skype For Business Server での応答グループアプリケーションの計画](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="38ff9-122">For details about Response Group features and capabilities, see [Plan for the Response Group application in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) in the Planning documentation.</span></span> <span data-ttu-id="38ff9-123">エージェント グループの使用の詳細については、「操作」のドキュメントの「[Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="38ff9-123">For details about working with agent groups, see [Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) in the Operations documentation.</span></span>
+<span data-ttu-id="99656-122">回答グループの機能の詳細については、計画ドキュメントの「 [Skype For Business Server での応答グループアプリケーションの計画](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="99656-122">For details about Response Group features and capabilities, see [Plan for the Response Group application in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) in the Planning documentation.</span></span> <span data-ttu-id="99656-123">エージェント グループの使用の詳細については、「操作」のドキュメントの「[Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="99656-123">For details about working with agent groups, see [Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) in the Operations documentation.</span></span>
 
 
