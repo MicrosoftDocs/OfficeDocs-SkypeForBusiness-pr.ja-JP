@@ -9,36 +9,38 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 description: レポートを実行して、組織内のアクティブな StaffHub ユーザーの一覧を取得する方法について説明します。
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 49091f7d8ada565adea61bf8219c6da828358893
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: fe7851e57cd6d812d0b8904668ca5fd67fd5999d
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569665"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826695"
 ---
-# <a name="run-a-report-to-show-active-staffhub-usage"></a><span data-ttu-id="39df3-103">レポートを実行してアクティブな StaffHub の使用状況を表示する</span><span class="sxs-lookup"><span data-stu-id="39df3-103">Run a report to show active StaffHub usage</span></span>
+# <a name="run-a-report-to-show-active-staffhub-usage"></a><span data-ttu-id="96b8a-103">レポートを実行してアクティブな StaffHub の使用状況を表示する</span><span class="sxs-lookup"><span data-stu-id="96b8a-103">Run a report to show active StaffHub usage</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="39df3-104">2019年12月31日有効な場合、Microsoft StaffHub は廃止されます。</span><span class="sxs-lookup"><span data-stu-id="39df3-104">Effective December 31, 2019, Microsoft StaffHub will be retired.</span></span> <span data-ttu-id="39df3-105">Microsoft Teams で StaffHub 機能を構築しています。</span><span class="sxs-lookup"><span data-stu-id="39df3-105">We’re building StaffHub capabilities into Microsoft Teams.</span></span> <span data-ttu-id="39df3-106">現在、チームには、スケジュール管理のためのシフトアプリが含まれており、その他の機能も時間の経過と共にロールアウトされます。</span><span class="sxs-lookup"><span data-stu-id="39df3-106">Today, Teams includes the Shifts app for schedule management and additional capabilities will roll out over time.</span></span> <span data-ttu-id="39df3-107">StaffHub は、2019年12月31日にすべてのユーザーに対して機能しなくなります。</span><span class="sxs-lookup"><span data-stu-id="39df3-107">StaffHub will stop working for all users on December 31, 2019.</span></span> <span data-ttu-id="39df3-108">StaffHub を開こうとしたユーザーには、チームをダウンロードするように指示するメッセージが表示されます。</span><span class="sxs-lookup"><span data-stu-id="39df3-108">Anyone who tries to open StaffHub will be shown a message directing them to download Teams.</span></span> <span data-ttu-id="39df3-109">詳細については、「[Microsoft StaffHub の廃止](microsoft-staffhub-to-be-retired.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="39df3-109">To learn more, see [Microsoft StaffHub to be retired](microsoft-staffhub-to-be-retired.md).</span></span>  
+> <span data-ttu-id="96b8a-104">2019 年 12 月 31 日より、Microsoft StaffHub が廃止されます。</span><span class="sxs-lookup"><span data-stu-id="96b8a-104">Effective December 31, 2019, Microsoft StaffHub will be retired.</span></span> <span data-ttu-id="96b8a-105">Microsoft では、StaffHub の機能を Microsoft Teams に組み込む作業に取り組んでいます。</span><span class="sxs-lookup"><span data-stu-id="96b8a-105">We’re building StaffHub capabilities into Microsoft Teams.</span></span> <span data-ttu-id="96b8a-106">現在、Teams にはシフト アプリのスケジュール管理機能が含まれています。今後、他の機能もロールアウトされる予定です。</span><span class="sxs-lookup"><span data-stu-id="96b8a-106">Today, Teams includes the Shifts app for schedule management and additional capabilities will roll out over time.</span></span> <span data-ttu-id="96b8a-107">StaffHub は、2019 年 12 月 31 日以降すべてのユーザーがご利用できなくなります。</span><span class="sxs-lookup"><span data-stu-id="96b8a-107">StaffHub will stop working for all users on December 31, 2019.</span></span> <span data-ttu-id="96b8a-108">ユーザーが StaffHub を開くと、Teams をダウンロードするように求めるメッセージが表示されます。</span><span class="sxs-lookup"><span data-stu-id="96b8a-108">Anyone who tries to open StaffHub will be shown a message directing them to download Teams.</span></span> <span data-ttu-id="96b8a-109">詳細については、「[Microsoft StaffHub の廃止](microsoft-staffhub-to-be-retired.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="96b8a-109">To learn more, see [Microsoft StaffHub to be retired](microsoft-staffhub-to-be-retired.md).</span></span>  
 
-<span data-ttu-id="39df3-110">この記事の手順を使用してレポートを実行し、組織内のアクティブな StaffHub ユーザーの一覧を取得します。</span><span class="sxs-lookup"><span data-stu-id="39df3-110">Use the steps in this article to run a report to get a list of active StaffHub users in your organization.</span></span> <span data-ttu-id="39df3-111">この情報は[、StaffHub teams を Microsoft teams に移行](move-staffhub-teams-to-shifts-in-teams.md)するときに役立つ場合があります。</span><span class="sxs-lookup"><span data-stu-id="39df3-111">This information may come in handy when you prepare to [move your StaffHub teams to Microsoft Teams](move-staffhub-teams-to-shifts-in-teams.md).</span></span> <span data-ttu-id="39df3-112">このレポートでは、StaffHub から Teams への切り替えを行うときに、通信に含める必要があるユーザーを確認できます。</span><span class="sxs-lookup"><span data-stu-id="39df3-112">From the report, you'll know who you need to include in your communications when you make the switch from StaffHub to Teams.</span></span>
+<span data-ttu-id="96b8a-110">この記事の手順を使用してレポートを実行し、組織内のアクティブな StaffHub ユーザーの一覧を取得します。</span><span class="sxs-lookup"><span data-stu-id="96b8a-110">Use the steps in this article to run a report to get a list of active StaffHub users in your organization.</span></span> <span data-ttu-id="96b8a-111">この情報は[、StaffHub teams を Microsoft teams に移行](move-staffhub-teams-to-shifts-in-teams.md)するときに役立つ場合があります。</span><span class="sxs-lookup"><span data-stu-id="96b8a-111">This information may come in handy when you prepare to [move your StaffHub teams to Microsoft Teams](move-staffhub-teams-to-shifts-in-teams.md).</span></span> <span data-ttu-id="96b8a-112">このレポートでは、StaffHub から Teams への切り替えを行うときに、通信に含める必要があるユーザーを確認できます。</span><span class="sxs-lookup"><span data-stu-id="96b8a-112">From the report, you'll know who you need to include in your communications when you make the switch from StaffHub to Teams.</span></span>
 
-<span data-ttu-id="39df3-113">この記事の手順を実行するには、Azure AD Premium が必要です。</span><span class="sxs-lookup"><span data-stu-id="39df3-113">You need to have Azure AD Premium to perform the steps in this article.</span></span>
+<span data-ttu-id="96b8a-113">この記事の手順を実行するには、Azure AD Premium が必要です。</span><span class="sxs-lookup"><span data-stu-id="96b8a-113">You need to have Azure AD Premium to perform the steps in this article.</span></span>
 
-1. <span data-ttu-id="39df3-114">Azure ポータルにサインインします。</span><span class="sxs-lookup"><span data-stu-id="39df3-114">Sign in to the Azure portal.</span></span>
-2. <span data-ttu-id="39df3-115">左側のウィンドウで、 **Azure Active Directory**リソースをクリックします。</span><span class="sxs-lookup"><span data-stu-id="39df3-115">In the left pane, click the **Azure Active Directory** resource.</span></span>
-3. <span data-ttu-id="39df3-116">[**監視**] で [**サインイン**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="39df3-116">Under **Monitoring**, click **Sign-ins**.</span></span>
-4. <span data-ttu-id="39df3-117">[**アプリケーション**] の下に「 **Microsoft StaffHub**」と入力します。</span><span class="sxs-lookup"><span data-stu-id="39df3-117">Under **Application**, type **Microsoft StaffHub**.</span></span>
-5. <span data-ttu-id="39df3-118">レポートに必要な日付の範囲を設定して、[**適用**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="39df3-118">Set the date range that you want for the report, and then click **Apply**.</span></span> 
+1. <span data-ttu-id="96b8a-114">Azure ポータルにサインインします。</span><span class="sxs-lookup"><span data-stu-id="96b8a-114">Sign in to the Azure portal.</span></span>
+2. <span data-ttu-id="96b8a-115">左側のウィンドウで、 **Azure Active Directory**リソースをクリックします。</span><span class="sxs-lookup"><span data-stu-id="96b8a-115">In the left pane, click the **Azure Active Directory** resource.</span></span>
+3. <span data-ttu-id="96b8a-116">[**監視**] で [**サインイン**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="96b8a-116">Under **Monitoring**, click **Sign-ins**.</span></span>
+4. <span data-ttu-id="96b8a-117">[**アプリケーション**] の下に「 **Microsoft StaffHub**」と入力します。</span><span class="sxs-lookup"><span data-stu-id="96b8a-117">Under **Application**, type **Microsoft StaffHub**.</span></span>
+5. <span data-ttu-id="96b8a-118">レポートに必要な日付の範囲を設定して、[**適用**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="96b8a-118">Set the date range that you want for the report, and then click **Apply**.</span></span> 
 
     ![アクティブな StaffHub の利用状況を表示する手順を示すスクリーンショット](../../media/staffhub-active-usage-report.png)
 
-## <a name="related-topics"></a><span data-ttu-id="39df3-120">関連項目</span><span class="sxs-lookup"><span data-stu-id="39df3-120">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="96b8a-120">関連トピック</span><span class="sxs-lookup"><span data-stu-id="96b8a-120">Related topics</span></span>
 
-- [<span data-ttu-id="39df3-121">Microsoft Teams で Microsoft StaffHub teams をシフトに移行する</span><span class="sxs-lookup"><span data-stu-id="39df3-121">Move your Microsoft StaffHub teams to Shifts in Microsoft Teams</span></span>](move-staffhub-teams-to-shifts-in-teams.md)
+- [<span data-ttu-id="96b8a-121">Microsoft StaffHub のチームを Microsoft Teams のシフトに移動する</span><span class="sxs-lookup"><span data-stu-id="96b8a-121">Move your Microsoft StaffHub teams to Shifts in Microsoft Teams</span></span>](move-staffhub-teams-to-shifts-in-teams.md)
