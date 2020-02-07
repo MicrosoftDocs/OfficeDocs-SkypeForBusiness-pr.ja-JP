@@ -11,19 +11,21 @@ description: Microsoft Teams のパイロットを開始し、Skype for Business
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa6f433c3888a9d3b3e20b098562592ea90b5e6f
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
-ms.translationtype: HT
+ms.openlocfilehash: ec60beb606224a5b202a03187027b8e3e002dfd1
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237442"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41833897"
 ---
-![アップグレード手順図、展開と実装の強調表示](media/upgrade-banner-deployment.png "展開と実装の段階に重点を置いた、アップグレード手順の各段階")
+![展開と実装が強調されたアップグレードの図](media/upgrade-banner-deployment.png "「展開と実装」段階が強調表示された、アップグレード行程の各段階")
 
 この記事は、お客様のアップグレード手順における展開と実装の段階の一部を取り上げており、効果的なパイロットの実施に関する見解を共有しています。 先に進む前に、次のアクティビティを完了していることを確認してください。
 

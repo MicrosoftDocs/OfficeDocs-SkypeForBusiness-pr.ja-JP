@@ -7,6 +7,8 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: svemu
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -14,12 +16,12 @@ ms.collection:
 description: 自分の組織での Teams のアクティビティの概要を把握するために、Microsoft Teams 管理センターにある Teams の使用状況レポートを、どのように使用するかについて説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7aba4d3e185052d7c4f5399dd9370a05a4a7dc0a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 3419ecb6c4ef1b976681f626fd8ec567e665d6a5
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570974"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827235"
 ---
 # <a name="microsoft-teams-usage-report"></a>Microsoft Teams の使用状況レポート
 
@@ -46,6 +48,6 @@ Microsoft Teams 管理センターにある Teams の使用状況レポートは
 
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [Teams の分析とレポート](teams-reporting-reference.md)

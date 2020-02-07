@@ -20,12 +20,12 @@ ms.custom:
 - PowerShell
 - LIL_Placement
 description: Windows PowerShell 5.1 をダウンロード、インストール、および使用して、Skype for Business Online に接続するリモート PowerShell セッションを作成します。
-ms.openlocfilehash: 1bea6ab4081acbc5efa07c3ec0e60677fe60a326
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 227023d5c86b99a66ecdbdabd3b2973d0383a534
+ms.sourcegitcommit: ac922addbc1422b5c41273a2e03196efb2ed7770
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692912"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41831155"
 ---
 # <a name="download-and-install-windows-powershell-51"></a>Windows PowerShell 5.1 をダウンロードしてインストールする
 
@@ -94,7 +94,7 @@ Windows Management Framework 5.1 をインストールする前に、次の操�
 
 どのバージョンの Windows を実行しているかわからない場合、または Windows 7 Service Pack 1 をインストール済みであるかわからない場合は、[ **スタート**] をクリックして、[ **コンピューター**] を右クリックしてから [ **プロパティ**] をクリックします。この情報は [システム] ダイアログ ボックスで報告されます。
   
-Windows Management Framework 5.1 をインストールするには、「 [WMF 5.1 をインストールして構成](https://docs.microsoft.com/powershell/wmf/setup/install-configure)する」の手順を実行します。
+Windows Management Framework 5.1 をインストールするには、「 [WMF 5.1 をインストールして構成](https://docs.microsoft.com/powershell/scripting/wmf/setup/install-configure)する」の手順を実行します。
   
 コンピューターが再起動した後に、Windows PowerShell が開始できることと、管理者の資格情報でアプリケーションが実行できることを検証します。その手順は次のとおりです。
   

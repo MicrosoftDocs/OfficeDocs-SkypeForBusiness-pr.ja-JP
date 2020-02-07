@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -15,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 医療関係組織向けテンプレートでTeamsを始めましょう
-ms.openlocfilehash: 756f9a50dac14575250a521750f80dbe8d1242b8
-ms.sourcegitcommit: 9ae5dadaab999acd061cc9418dbd55d98b82980e
+ms.openlocfilehash: d2e22b47fbb0e6387a183fc12da70f7729af9172
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38702318"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827765"
 ---
 # <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>医療関係組織向けテンプレートでTeamsを始めましょう
 
@@ -161,7 +163,7 @@ Microsoft Teams のテンプレートを使用すると、設定、チャネル�
 
 ```
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Teams のテンプレートの使用を開始する](../../get-started-with-teams-templates.md)
 

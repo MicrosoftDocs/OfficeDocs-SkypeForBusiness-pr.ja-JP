@@ -7,6 +7,8 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: svemu
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -14,12 +16,12 @@ ms.collection:
 description: Microsoft Teams 管理センターの Teams デバイス使用状況レポートを使用して、組織内のユーザーがどのように Teams に接続しているかを確認する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76831972e4f813b9e7b8c0dcc9a8cdbebb9e3a34
-ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
+ms.openlocfilehash: 16abf763579a542583f3aafa30252c1423759641
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772610"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827355"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Microsoft Teams のデバイス使用状況レポート
 
@@ -43,6 +45,6 @@ Microsoft Teams 管理センターの Teams デバイス使用状況レポート
 |**5**   |[**列の編集**] を選択して表で列を追加または削除します。 |
 |**6**   |レポートを CSV ファイルにエクスポートしてオフラインで分析することができます。 [ **Excel にエクスポート**] をクリックし、[**ダウンロード**] タブの [**ダウンロード**] をクリックして、準備ができたらレポートをダウンロードします。<br><br>![エクスポートされたレポートが表示されている [ダウンロード] タブのスクリーンショット](../media/teams-reports-export-to-csv.png)|
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [Teams の分析とレポート](teams-reporting-reference.md)

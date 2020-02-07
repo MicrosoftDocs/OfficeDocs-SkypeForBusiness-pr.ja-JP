@@ -16,16 +16,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Calling Plans
 description: 新しい電話番号のポート注文ウィザードを使用するときに、アカウントを変更できる認証済みユーザーを追加する必要がある理由について説明します。
-ms.openlocfilehash: a687bc1aca8a47b349415d4a0cc2dc9f61f81884
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 2e6911179b3a973b0d966867ca5186fc0e21ae8a
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708803"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41832657"
 ---
 # <a name="more-about-calling-line-id-and-calling-party-name"></a>発信回線 ID と発信者名の詳細
 

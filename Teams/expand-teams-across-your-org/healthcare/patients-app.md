@@ -1,5 +1,5 @@
 ---
-title: Patients アプリの概要
+title: 患者アプリの概要
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -15,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Microsoft Teams の患者向けアプリ EHR の統合
-ms.openlocfilehash: d3869d8646a417ec681a48321610b7cfffd50e5a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 8d5723f90fe56c2af342f1cfd76e3ab9bde04c60
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569292"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827655"
 ---
 # <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>電子医療記録を Microsoft Teams に統合する
 
@@ -61,13 +63,13 @@ ms.locfileid: "37569292"
 
 ### <a name="authentication"></a>認証  
 
-*ユーザーレベルの承認をサポートしていない*アプリレベルの承認は、ehr システムでユーザーレベルの承認が実装されている場合でも、データ変換を実行し、ehr データへの接続を公開するための、より一般的にサポートされている方法です。. 相互運用サービス (パートナー) は、EHR データへのアクセス権を昇格させ、そのデータを適切な FHIR リソースとして公開すると、相互運用サービスコンシューマー (患者アプリ) に対して認証コンテキストが渡されることはありません。サービスまたはプラットフォーム。 患者のアプリでは、ユーザーレベルの承認を強制することはできませんが、患者のアプリと相互運用パートナーのサービス間でのアプリケーションの認証をサポートしています。
+*ユーザーレベル認証をサポートしていない*アプリレベルの承認は、ehr システムでユーザーレベルの承認が実装されている場合でも、データ変換を実行し、ehr データへの接続を公開するための、より一般的にサポートされている方法です。 相互運用サービス (パートナー) は、EHR データへのアクセス権を昇格させ、そのデータを適切な FHIR リソースとして公開すると、相互運用サービスコンシューマー (患者アプリ) に対して認証コンテキストが渡されることはありません。サービスまたはプラットフォーム。 患者のアプリでは、ユーザーレベルの承認を強制することはできませんが、患者のアプリと相互運用パートナーのサービス間でのアプリケーションの認証をサポートしています。
 
 アプリケーション間のアプリケーション認証モデルについては、次の説明を参照してください。
 
 サービス間認証は、OAuth 2.0[クライアントの資格情報フロー](https://www.oauth.com/oauth2-servers/access-tokens/client-credentials/)を通じて実行する必要があります。 パートナーサービスは、次の情報を提供する必要があります。
 
-1. パートナーサービスは、患者アプリがパートナーとのアカウントを作成できるようにします。これにより、患者アプリは、パートナーの認証サーバー上の認証登録ポータルを通じて管理される client_id と client_secret を生成し、所有することができます。
+1. パートナーサービスは、患者アプリがパートナーとのアカウントを作成できるようにします。これにより、患者アプリは、パートナーの認証サーバー上の認証登録ポータルによって管理される client_id と client_secret を生成し、所有することができます。
 2. パートナーサービスは、次に示すように、提供された認証/承認システムを所有しており、指定されたクライアントの資格情報を受け入れて検証 (認証) し、テナントヒントを含むアクセストークンを返します。
 3. セキュリティ上の理由により、または秘密の違反が発生した場合、患者アプリは秘密を再生成し、古いシークレットを無効化または削除することができます (例: Azure Portal で利用可能な場合)。
 4. 準拠ステートメントをホストしているメタデータエンドポイントは、認証トークンなしでアクセスできる必要があります。
@@ -77,7 +79,7 @@ ms.locfileid: "37569292"
     {"resourceType": "CapabilityStatement"。
         .
         .
-        "rest": [{"mode": "server"、"security": {"extension": [{"extension": [{"url": "token", "valueuri": "https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/token" "、" valueurihttps://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/authorizehttp://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris":" "、" "という url": ""、"" のように入力してください: "" {"" {"" "と"http://hl7.org/fhir/ValueSet/restful-security-service"{" "]} ] } ] }, .
+        "rest": [{"mode": "server"、"security": {"extension": [{"extension": [{"url": "トークン", "valueuri": "https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/token"}, {"url": "承認", "valueuri"https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/authorize: ""} "の" url "http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris:" "}", "" {":"http://hl7.org/fhir/ValueSet/restful-security-service"," "{": "", "code": [{]
                 .
                 .
             } ] }
@@ -94,7 +96,7 @@ ms.locfileid: "37569292"
 
 * * *
 
-パートナーサービスは、パートナーの側の認証登録ポータルで管理されている、client_id と client_secret の患者アプリを提供します。 パートナーサービスは、クライアントの資格情報フローを使用してアクセストークンを要求するエンドポイントを提供します。 成功応答には、token_type、access_token、expires_in の各パラメーターが含まれている必要があります。
+パートナーサービスは、パートナー側の認証登録ポータルで管理されている、患者アプリの client_id と client_secret を提供します。 パートナーサービスは、クライアントの資格情報フローを使用してアクセストークンを要求するエンドポイントを提供します。 正常な応答には、token_type、access_token、expires_in の各パラメーターが含まれている必要があります。
 
 ### <a name="routing-mapping-aad-tenant-to-the-provider-endpoint"></a>ルーティング: のプロバイダーエンドポイントへの AAD テナントのマッピング
 
@@ -164,6 +166,6 @@ HSPC オープンサンドボックス EHR 環境を使用して、オープン�
 
     ![患者のアプリのサーバー設定のスクリーンショット](../../media/patients-server.png)
 
-5. このアプリを使って FHIR サーバー/EHR から患者を検索し、それをリストに追加して、問題が解決しない場合は[フィードバック](mailto:Teamsforhealthcare@service.microsoft.com?subject=Microsoft%20Teams%20Patients%20App%20feedback)を送信してください。 また、完全に認証されたバージョンの患者 > アプリを確立するには、「医療製品エンジニアリング用の Microsoft Teams を使用して、オフラインで作業する」を参照してください。これについては、前に説明したメールリクエストに従って、必要条件を明確化してください。この機能を有効にするには、FHIR インターフェイスドキュメントで説明した認証要件に従ってください。  
+5. このアプリを使って FHIR サーバー/EHR から患者を検索し、それをリストに追加して、問題が解決しない場合は[フィードバック](mailto:Teamsforhealthcare@service.microsoft.com?subject=Microsoft%20Teams%20Patients%20App%20feedback)を送信してください。 また、完全に認証されたバージョンの患者 > アプリを確立するには、「医療製品エンジニアリング用の Microsoft Teams を使用したオンライン操作」を参照してください。先に説明したメール要求に従って、要件を明確化するためには、上で説明した認証要件に従って、この設定を有効にします。  
 
 

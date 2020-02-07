@@ -15,14 +15,16 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
-f1keyword: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
+f1.keywords:
+- CSH
+ms.custom: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
 description: 電話番号を Microsoft Teams に移植するために必要なガイダンスを取得します。
-ms.openlocfilehash: 2fe77c4efb8728a10e433866ddf10309f51934a3
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 2c84b8bcba4b41488db64cbda42c9162daaf268d
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925198"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827965"
 ---
 # <a name="more-information-about-porting"></a>移植に関する詳細情報
 
@@ -108,9 +110,9 @@ ms.locfileid: "37925198"
 
 「[ポート注文の状態を確認する方法](port-order-status.md)」を参照してください。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
-- [ポート注文とは何ですか?](port-order-overview.md)
+- [番号移行注文について](port-order-overview.md)
 - [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [組織の電話番号を管理する](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [緊急通話の利用条件](../emergency-calling-terms-and-conditions.md)

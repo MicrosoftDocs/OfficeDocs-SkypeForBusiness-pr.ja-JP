@@ -9,18 +9,20 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: 組織の Firstline Worker の Teams でシフトアプリを設定および管理する方法について説明します。
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4ed7f4bc282686c31f2f9c2239fbe6326e5151f
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 7514ef06248eb4685558c3a327a8de1cea12bb62
+ms.sourcegitcommit: ac922addbc1422b5c41273a2e03196efb2ed7770
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992544"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41831169"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織のシフト アプリを管理する
 
@@ -77,11 +79,11 @@ Firstlineworker ポリシーを表示するには、Microsoft Teams 管理セン
 2. **[割り当てられているポリシー]** の隣にある **[編集]** を選択します。
 3. [ **Teams アプリセットアップポリシー**] で [ **firstlineworker**] を選択し、[**保存**] を選択します。
 
-#### <a name="assign-the-firstlineworker-app-setup-policy-to-users-in-a-group"></a>FirstlineWorker アプリのセットアップポリシーをグループ内のユーザーに割り当てる
+#### <a name="assign-the-firstlineworker-app-setup-policy-to-user-members-of-a-group"></a>FirstlineWorker アプリのセットアップポリシーをグループのユーザーメンバーに割り当てる
 
-最初の Lineworker アプリセットアップポリシーは、セキュリティグループなどのグループ内のユーザーに割り当てることができます。これには、Azure Active Directory PowerShell for Graph モジュールと Skype for Business PowerShell モジュールに接続します。 PowerShell を使用して Teams を管理する方法の詳細については、「[Teams での PowerShell の概要](../../teams-powershell-overview.md)」を参照してください。
+最初の Lineworker アプリのセットアップポリシーは、セキュリティグループなどのグループのユーザーメンバーに割り当てることができます。これには、Graph モジュール用の Azure Active Directory PowerShell と Skype for Business PowerShell モジュールに接続します。 PowerShell を使用して Teams を管理する方法の詳細については、「[Teams での PowerShell の概要](../../teams-powershell-overview.md)」を参照してください。
 
-この例では、Contoso Firstline チームグループ内のすべてのユーザーに FirstlineWorker アプリセットアップポリシーを割り当てます。
+この例では、Contoso Firstline チームグループのすべてのユーザーメンバーに FirstlineWorker アプリセットアップポリシーを割り当てます。
 
 > [!NOTE]
 > 「[単一の Windows PowerShell ウィンドウですべての Office 365 サービスに接続する](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)」の手順に従って、必ず最初に Azure Active Directory PowerShell for Graph モジュールと Skype for Business PowerShell モジュールに接続してください。
@@ -94,9 +96,9 @@ $group = Get-AzureADGroup -SearchString "Contoso Firstline Team"
 ```PowerShell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
-グループ内のすべてのユーザーを FirstlineWorker アプリセットアップポリシーに割り当てます。
+グループのすべてのユーザーメンバーに FirstlineWorker アプリセットアップポリシーを割り当てます。
 ```PowerShell
-$members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "FirstlineWorker" -Identity $_.EmailAddress}
+$members | ForEach-Object {Grant-CsTeamsAppSetupPolicy -PolicyName "FirstlineWorker" -Identity $_.EmailAddress}
 ``` 
 グループ内のメンバー数によっては、このコマンドの実行に数分かかる場合があります。
 

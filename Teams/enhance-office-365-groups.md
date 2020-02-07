@@ -9,18 +9,20 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 description: 配布リストをチームに取り込んだり、メール対応セキュリティ グループを追加したりなどの操作を行うことで、Microsoft Teams を介して Office 365 グループを強化する方法について説明します。
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fd1769fad917cb942072df4ff58aa1f4fcb91c14
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 99afab167cdc865214f621d9994c3b5d124e98ed
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37567461"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41832917"
 ---
 <a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>Microsoft Teams を使用して既存の Office 365 グループを強化する
 =======================================================

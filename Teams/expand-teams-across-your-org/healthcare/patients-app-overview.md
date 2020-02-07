@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 MS.collection:
 - M365-collaboration
@@ -15,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Teams 管理者用の患者アプリ
-ms.openlocfilehash: 38750974ce2d4763cad79b9b4cf50a32f403c7a8
-ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
+ms.openlocfilehash: dd27fc5deb0b352467a0857448cf925228780579
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "41634840"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827671"
 ---
 # <a name="patients-app-overview"></a>患者アプリの概要
 
@@ -66,6 +68,6 @@ EMR モードの患者アプリを使用するように環境を準備する方�
 
 はい、あります。 患者のアプリで Microsoft Teams ユーザーによって実行されるすべての UI 操作が監査され、セキュリティ/コンプライアンスセンターで利用可能になります。 詳細については、こちらの記事を参照して[ください](patients-audit.md)。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [電子医療記録を Microsoft Teams に統合する](patients-app.md)

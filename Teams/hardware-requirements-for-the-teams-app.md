@@ -13,16 +13,18 @@ ms.collection:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams をインストールして実行するために必要なハードウェア要件について説明します。
+f1.keywords:
+- CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2efddf5248c045a7f3f2daf0ef250027cd15127
-ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
+ms.openlocfilehash: 64fc1698b4eda804825342708d430bd4b9dbcff9
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111351"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41833167"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Microsoft Teams アプリのハードウェア要件
 

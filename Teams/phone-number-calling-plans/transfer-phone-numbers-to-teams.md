@@ -8,6 +8,8 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-voice
 appliesto:
@@ -15,18 +17,18 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: ''
-ms.openlocfilehash: 9794a1690fb0cbbe529816c9d8a5f855d393c6f2
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 53c17cdd3a1b6726e0219147e4dadd1cba7b25ff
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925669"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827935"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>Microsoft Teams に電話番号を転送する
 
 Microsoft Teams 管理センターの [移植] ウィザードを使用して、現在のサービスプロバイダーからチームに電話番号を移行します。 お客さまの電話番号を Teams に移植すると、Microsoft はサービスプロバイダになり、これらの電話番号について請求されます。
 
-始める前に、「[ポート注文とは](port-order-overview.md)」の情報を確認することをお勧めします。 ダイヤルイン会議ブリッジのサービス番号、自動応答、またはその他のサービス番号、有料電話番号、または Teams に移行する必要がある999ユーザー (サブスクライバー) 電話番号がある場合は、「[の電話番号を管理する」を参照してください。[組織](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)] は、適切なフォームをダウンロードして、それを microsoft に送信します。
+始める前に、「[ポート注文とは](port-order-overview.md)」の情報を確認することをお勧めします。 ダイヤルイン会議ブリッジのサービス番号、自動応答、またはその他のサービス番号、有料電話番号、またはチームに移行する必要がある999ユーザー (サブスクライバー) 電話番号がある場合は、「[組織の電話](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)番号を管理して、適切なフォームをダウンロードして送信する」を参照してください。
 
   > [!NOTE]
   > お客様は、電話番号の転送先として米国営業日のみを処理します。
@@ -87,9 +89,9 @@ Microsoft Teams 管理センターの [移植] ウィザードを使用して、
 
 ポート注文の状態を表示するには、Microsoft Teams 管理センターの左のナビゲーションで > [**音声** > **ポートの注文**] に移動し、[**注文履歴**] をクリックします。 各ポート注文の状態は、[**状態**」列に表示されます。 詳細については、「[ポート注文の状態は何ですか?](port-order-status.md)」を参照してください。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
-- [ポート注文とは何ですか?](port-order-overview.md)
+- [番号移行注文について](port-order-overview.md)
 - [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [組織の電話番号を管理する](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [緊急通話の利用条件](../emergency-calling-terms-and-conditions.md)

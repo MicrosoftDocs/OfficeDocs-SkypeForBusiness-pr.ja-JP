@@ -12,16 +12,18 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1.keywords: ms.teamsadmincenter.voice.phonenumbers.porting.overview
+f1.keywords:
+- CSH
 ms.custom:
+- ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: ポート注文の概要と、サービスプロバイダーからチームに電話番号を移行する方法について説明します。
-ms.openlocfilehash: 3f75acf8711838b159bacfe11169e500273eaf01
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7d92c76c62405efbffaff378b2045195c175d867
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708763"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827945"
 ---
 # <a name="whats-a-port-order"></a>番号移行注文について
 

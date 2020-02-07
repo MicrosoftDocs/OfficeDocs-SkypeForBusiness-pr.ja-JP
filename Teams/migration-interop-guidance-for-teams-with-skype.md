@@ -11,18 +11,20 @@ description: Skype for Business から Teams への移行を管理するため�
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
+- CSH
+ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.coexistence
 - ms.teamsadmincenter.teamsupgrade.overview
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 46094afb028f27da8889276aa42850837957f59a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ae75a26f611fc6262c9f2352c09cb175bd00656d
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708783"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41832671"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス
 

@@ -9,18 +9,20 @@ ms.service: msteams
 audience: admin
 ms.reviewer: dansteve
 description: Microsoft Teams の導入に向けた環境の準備の確認事項について説明します。
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7988d286c7f75f880572f42793568eb083929e8e
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 48af92d4e7a325fdcabd1650b987a12bfb1ddf50
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37567453"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41832867"
 ---
 <a name="check-your-environments-readiness-for-microsoft-teams"></a>Microsoft Teams の導入に向けた環境の準備を確認する
 ===========================================
@@ -43,4 +45,4 @@ ms.locfileid: "37567453"
 
 - 組織が教育機関であり、学生情報システム (SIS) を使用している場合は、Microsoft Teams を展開する前に[School Data Sync を展開](https://docs.microsoft.com/schooldatasync/)してください。
 
-- 組織に既存のオンプレミス Skype for Business Server (または Lync Server) の展開がある場合は、オンプレミスのディレクトリを Office 365 と同期するように Azure AD Connect を構成する必要があります。  詳細については、「 [Teams および Skype For business 用に AZURE AD Connect を構成する](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/configure-azure-ad-connect)」を参照してください。
+- 組織に既存のオンプレミス Skype for Business Server (または Lync Server) の展開がある場合は、オンプレミスのディレクトリを Office 365 と同期するように Azure AD Connect を構成する必要があります。  詳細については、「[Teams と Skype for Business の Azure AD Connect を構成する](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/configure-azure-ad-connect)」を参照してください。

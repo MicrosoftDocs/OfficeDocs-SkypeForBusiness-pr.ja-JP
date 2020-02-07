@@ -11,15 +11,17 @@ ms.collection:
 - SPO_Content
 ms.reviewer: anach
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: 訴訟手続きのためにすべての電子保持情報を提出する必要がある場合など、電子情報開示を実施するために必要な手続きについて説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43105db9a4e12d658bf5cf2e9c2c8897fdc918e3
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: d85bef224966d15a6c383163d9ac4a5dd5ed126c
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40989792"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41833797"
 ---
 <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Microsoft Teams のコンテンツに対して電子情報開示の調査を行う
 ============================
@@ -100,6 +102,6 @@ ms.locfileid: "40989792"
     ```
 3. 電子情報開示検索クエリの一部として、チーム内の各プライベートチャネルからすべてのメンバーのメールボックスを含めることができます。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [Teams での PowerShell の概要](teams-powershell-overview.md)

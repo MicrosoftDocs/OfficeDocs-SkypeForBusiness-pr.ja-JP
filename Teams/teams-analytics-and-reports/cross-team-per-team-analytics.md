@@ -7,6 +7,8 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: v-rifer
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
@@ -14,12 +16,12 @@ MS.collection:
 description: 自分がメンバーになっているチームの使用状況データをユーザーが表示するのに使用できる、Teams のチーム間分析およびチーム別分析について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6914d391d8dfdd1e5a5b5e0e7f826bef78e67678
-ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
+ms.openlocfilehash: 436d78bc52fae316a7c5ac61a7f42d7d74988ee0
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/17/2019
-ms.locfileid: "40069448"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827375"
 ---
 # <a name="view-cross-team-and-per-team-analytics-in-teams"></a>Teams でチーム間およびチーム別分析を表示する
 
@@ -63,6 +65,6 @@ Microsoft Teams では、ユーザーは自分がメンバーまたは所有者�
 > [!NOTE]
 > デスクトップクライアント、モバイルクライアント、web クライアントで意図的な操作を実行しているユーザーに対して、アクティブなユーザーを定義します。 意図的な操作の例としては、チャットの開始、通話の発信、ファイルの共有、チーム内のドキュメントの編集、会議への参加などがあります。自動ブート、画面の最小化、アプリの終了など、受動的な操作は除去します。 また、1つのユーザー ID に対するすべてのアクションの重複を除外します。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [Teams の分析とレポート](teams-reporting-reference.md)

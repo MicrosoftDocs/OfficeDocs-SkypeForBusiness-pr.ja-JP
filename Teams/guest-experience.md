@@ -9,18 +9,20 @@ ms.service: msteams
 ms.reviewer: sbhatta
 search.appverid: MET150
 description: ゲスト ユーザーが利用できる Microsoft Teams の機能性について説明します。
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b923a92c9fb8a7475d9424861a7204da7f19780
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: 8c700ed6fb4f95f3cc9a4ecfc6d66c7791aabb74
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37753432"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41833237"
 ---
 <a name="what-the-guest-experience-is-like"></a>ゲストのエクスペリエンスについて
 =================================
@@ -59,19 +61,19 @@ ms.locfileid: "37753432"
 
 | 通話機能 | 会員 | E1 と E3 ユーザー | E5 とエンタープライズボイスユーザー |
 | --------------- | ----- | -------------- | -------------- |
-| VOIP 通話 | はい | 可 | 可 |
-| グループ通話 | はい | 可 | 可 |
-| サポートされている主要な通話コントロール (保留、ミュート、ビデオのオン/オフ、画面の共有) | はい | 可 | 可 |
-| ターゲットの転送 | はい | 可 | 可 |
-| 通話を転送できます | はい | 可 | 可 |
-| 提案型移行可能 | はい | 可 | 可 |
-| VOIP 経由で他のユーザーを通話に追加できる | はい | 可 | 可 |
+| VOIP 通話 | はい | Yes | Yes |
+| グループ通話 | はい | Yes | Yes |
+| サポートされている主要な通話コントロール (保留、ミュート、ビデオのオン/オフ、画面の共有) | はい | Yes | Yes |
+| ターゲットの転送 | はい | Yes | Yes |
+| 通話を転送できます | はい | Yes | Yes |
+| 提案型移行可能 | はい | Yes | Yes |
+| VOIP 経由で他のユーザーを通話に追加できる | はい | Yes | Yes |
 | 電話番号を使って通話にユーザを追加できます | なし | いいえ | はい |
-| 転送先 | いいえ | はい | 可 |
-| 通話グループのターゲット | いいえ | はい | 可 |
-| 未回答のターゲット | いいえ | はい | 可 |
-| フェデレーションされた通話のターゲットにすることができる | いいえ | はい | 可 |
-| フェデレーション通話を行うことができる | いいえ | はい | 可 |
+| 転送先 | いいえ | はい | Yes |
+| 通話グループのターゲット | いいえ | はい | Yes |
+| 未回答のターゲット | いいえ | はい | Yes |
+| フェデレーションされた通話のターゲットにすることができる | いいえ | はい | Yes |
+| フェデレーション通話を行うことができる | いいえ | はい | Yes |
 | 通話を即座に転送できます | なし | いいえ | はい |
 | 通話を同時に呼び出してもかまいません | なし | いいえ | はい |
 | 不在着信をルーティングできる | なし | いいえ | はい |

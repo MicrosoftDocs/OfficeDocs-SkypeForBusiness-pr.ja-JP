@@ -9,22 +9,24 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 description: ''
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c4a0abc9dae0d3c5b7f78106136ceaece3472367
-ms.sourcegitcommit: a23f45ab3a2cb7b5c279356edddf61c4030c41bd
+ms.openlocfilehash: d3849a3e4601c6af48e5a848774708d6c66a761e
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39961602"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827535"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>Microsoft StaffHub の廃止
 
-2019年12月31日有効な場合、Microsoft StaffHub は廃止されます。 Microsoft Teams で StaffHub 機能を構築しています。 現在、チームには、スケジュール管理のためのシフトアプリが含まれており、その他の機能も時間の経過と共にロールアウトされます。
+2019 年 12 月 31 日より、Microsoft StaffHub が廃止されます。 Microsoft Teams で StaffHub 機能を構築しています。 現在、Teams にはシフト アプリのスケジュール管理機能が含まれています。今後、他の機能もロールアウトされる予定です。
 
 これらの変更は、Microsoft 365 を使ってすべての従業員を強化するための継続的な取り組みの一部です。 チーム内の最初のラインワーカー向けの機能を使用すると、組織内のすべての従業員がチームを使って作業を効率化し、同僚と共同作業を行い、情報や専門知識にアクセスして、最善の作業を実行できるようになります。
 

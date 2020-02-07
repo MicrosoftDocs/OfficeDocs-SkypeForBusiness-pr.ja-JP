@@ -7,18 +7,20 @@ audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.service: msteams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: このトピックでは、Office 365 で Microsoft Teams のルームを展開する方法について説明します。
-ms.openlocfilehash: 6b473fc54574f26909e274662f3c08c1031dfafb
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: d3fcfdd0b2aabc5d69946ba60b5b8c6fbc73f713
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41269093"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827445"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-office-365"></a>Office 365 での Microsoft Teams ミーティングを展開する
 

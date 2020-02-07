@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -15,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 医療関係組織のためのTeamsを始めましょう
-ms.openlocfilehash: e8c41249da52ce9a5e19471954de6d71db3df1b3
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: f246e0ab5abd412947ceeb871b16f464001b89bb
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569234"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827625"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>医療関係組織のためのTeamsを始めましょう
 
@@ -38,7 +40,7 @@ Microsoft Teams には、病院およびその他の医療機関向けの便利�
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
-Microsoft Teams には、医療機関向けの優れた調整ソリューションが用意されました。これにより、患者の治療を最大限に活用できるようになります。 医療調整ソリューションの crux、Microsoft Teams の患者アプリは、高速な医療相互運用性リソース ([Fhir](https://www.hl7.org/fhir/)) インターフェイスを使って、ehr (電子医療記録) システムと統合された、初めてのパーティタブアプリです。臨床的な共同作業とコミュニケーションを可能にするために、Microsoft Teams の医療情報を利用できます。  
+Microsoft Teams には、医療機関向けの優れた調整ソリューションが用意されました。これにより、患者の治療を最大限に活用できるようになります。 治療の調整ソリューションの crux である Microsoft Teams の患者アプリは、医療のコラボレーションとコミュニケーションを可能にするために、Microsoft Teams に重要な医療情報を提供するための、ファーストパーティのタブアプリ ([Fhir](https://www.hl7.org/fhir/)) インターフェイスを使用します。  
 
 治療の調整ソリューションは、HL7v2 や FHIR などの既存の正常性データ標準を使用して、患者のアプリを EHR システムに接続できる、主要な独立系ソフトウェアベンダー (Isv) とのインターフェイスを作成できます。 Microsoft パートナーは、次の業界のリーダーと協力して、チームとの電子的医療記録の統合を確立しています。
 
@@ -110,6 +112,6 @@ Microsoft Teams は Firstline Worker と統合されています。これは、�
 
  次の記事を参照してください。
 
-- [Microsoft Teams で Microsoft StaffHub teams をシフトに移行する](../shifts/move-staffhub-teams-to-shifts-in-teams.md)
+- [Microsoft StaffHub のチームを Microsoft Teams のシフトに移動する](../shifts/move-staffhub-teams-to-shifts-in-teams.md)
 
 - [Microsoft Teams で組織のシフト アプリを管理する](../shifts/manage-the-shifts-app-for-your-organization-in-teams.md)

@@ -7,17 +7,19 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 ms.collection:
 - M365-collaboration
 description: この記事では、Microsoft Teams のルームデバイスで使用される既定の設定をリモート管理する方法について説明します。カスタムテーマの適用を含みます。
-ms.openlocfilehash: 840199ffc3656bccddbe6d7b5add2370e17ec079
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: e33934dcabc420b7e84886f0301c343f5caf333a
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41269090"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827400"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>XML 構成ファイルを使用して、Microsoft Teams ルームコンソールの設定をリモートで管理する
 

@@ -11,13 +11,15 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: vinbel
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Microsoft Teams の外部アクセス (フェデレーション) ユーザー向けのネイティブなチームチャットエクスペリエンスについて説明します。この機能は、両方のユーザーが teams Sonly アップグレードモードを使用している外部ユーザー間で利用できます。
-ms.openlocfilehash: 572087d86672294b566cd99365599dbead1aa3e7
-ms.sourcegitcommit: 1448bb2e66074322b8f4bf234fce36ea9c8f9913
+ms.openlocfilehash: 0d6f7ed00482ee68233b4d93cc101e9c820a6f14
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39966760"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41832687"
 ---
 <a name="native-chat-experience-for-external-federated-users-in-microsoft-teams"></a>Microsoft Teams の外部 (フェデレーション) ユーザー向けのネイティブチャット操作
 ======================================
@@ -45,6 +47,6 @@ Teams の外部アクセスユーザーの機能の一覧については、「[�
 Teams では、この外部ユーザとのテキストのみのチャットが見つかると、そのチャットが使おうます。 それ以外の場合、チームは新しいテキストのみのチャットを作成します。
 
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Teams で外部アクセスを管理する](manage-external-access.md)

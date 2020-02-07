@@ -7,18 +7,20 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
 ms.reviewer: anach
 description: Teams 管理者用の患者アプリ
-ms.openlocfilehash: 7afa6004191c460428200e7804dfb10a748fc65b
-ms.sourcegitcommit: 25b6bf2c3050390cd668d2495ffcf31c44d0ff62
+ms.openlocfilehash: fd2aa97e9eb8fefdcaa4e9a4ccc432f42dbee5ce
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37749549"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827615"
 ---
 # <a name="audit-logs-for-patients-app"></a>患者アプリの監査ログ
 
@@ -76,7 +78,7 @@ HIPAA のガイドラインに従って、医療機関は PHI へのすべての
 
 一般的な Microsoft Teams のログに記録されたアクティビティについては、「 [Microsoft teams のアクティビティ](https://docs.microsoft.com/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#microsoft-teams-activities)」を参照してください。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Office 365 監査ログを検索する](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
 

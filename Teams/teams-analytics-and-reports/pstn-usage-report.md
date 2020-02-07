@@ -7,6 +7,8 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: v-rifer
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
@@ -14,12 +16,12 @@ MS.collection:
 description: Microsoft Teams 管理センターで Teams の PSTN 使用状況レポートを使用して、組織内での通話と電話会議の使用状況の概要を確認する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c91530af745a287198e99dbb83cd39257d978452
-ms.sourcegitcommit: 4c763a3824e6a2271d98a46d25a03c8f04ee2f74
+ms.openlocfilehash: 430ef53d5739a79644a57dbee1c0a30b0ab26852
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "39257436"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827285"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Microsoft Teams の PSTN 使用状況レポート
 
@@ -82,6 +84,6 @@ Microsoft Teams 管理センターのチーム PSTN 使用状況レポートで�
 3.  Pstn エンドポイントの PSTN ユーザー1は、Teams クライアントでの Teams ユーザー2、通話の種類 Dr_In f45e9a25-9f94-46e7-a457-84f5940efde9、共有関連付け ID f45e9a25-9f94-46e7-a457-84f5940efde9 と呼ばれています。
 4.  関連付け ID が "f45e9a25-9f94-46e7-a457-84f5940efde9" の既存の通話3。 会議中の PSTN ユーザー 1 (Teams ユーザー 2) Teams ユーザー2が移行した (ブラインドまたはコンサルティング) チームまたは PSTN ユーザーへの通話、通話の種類 Dr_Out_User_Transfer 45a1da7c-9e97-481a-8a05-3fe19a9a77e0、共有関連付け ID f45e9a25-9f94-46e7-a457-84f5940efde9。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [Teams の分析とレポート](teams-reporting-reference.md)

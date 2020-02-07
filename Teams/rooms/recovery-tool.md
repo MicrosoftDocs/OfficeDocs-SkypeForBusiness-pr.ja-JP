@@ -9,14 +9,16 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: この記事では、Microsoft Teams 室の回復ツールの使用方法について説明します。この機能は、サポートされている状態にシステムを移行するために使用します。
-ms.openlocfilehash: 3a62256a5e39d93033588ca2be779e9c3b76a4f5
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 452f5d9d15375bec7ac25c07c865add8a01b0345
+ms.sourcegitcommit: ac922addbc1422b5c41273a2e03196efb2ed7770
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41269065"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41831179"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>Microsoft Teams Rooms の回復ツールを使用する
 
@@ -27,7 +29,7 @@ ms.locfileid: "41269065"
 最新の[Microsoft Teams ルームインストールパッケージ](https://go.microsoft.com/fwlink/?linkid=851168)をダウンロードし、それを USB メモリスティックまたは Microsoft teams 室デバイスにアクセスできるネットワーク共有に抽出します。
 
 > [!NOTE]
-> MSI からファイルを抽出する方法は、さまざまな方法で実現できます。 すべてのファイルを抽出し、ディレクトリ構造を保持するメカニズムは受け入れられます。 このような方法の1つは`msiexec /qn PathToMsi /qb TARGETDIR=PathToTarget` 、 `PathToMsi` Microsoft Teams Room インストールパッケージへの完全パスを示すコマンドを`PathToTarget`使うことです。また、ファイルを抽出するフォルダーのフルパスを表します。
+> MSI からファイルを抽出する方法は、さまざまな方法で実現できます。 すべてのファイルを抽出し、ディレクトリ構造を保持するメカニズムは受け入れられます。 このような方法の1つは`msiexec /a PathToMsi /qb TARGETDIR=PathToTarget` 、 `PathToMsi` Microsoft Teams Room インストールパッケージへの完全パスを示すコマンドを`PathToTarget`使うことです。また、ファイルを抽出するフォルダーのフルパスを表します。
 
 ## <a name="running-the-tool"></a>ツールを実行する
 
