@@ -10,21 +10,22 @@ layout: LandingPage
 ms.date: 10/31/2018
 audience: admin
 ms.service: msteams
-ms.custom: Adopt
+ms.custom:
+- ms.teamsadmincenter.dashboard.helparticle.adoption
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 f1.keywords:
-- ms.teamsadmincenter.dashboard.helparticle.adoption
+- CSH
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d534bfd865de1f12fb902b4a7ce1a2a0f5edef6a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: c0adc30b5bfbdefc5936d94ec476943616fb2449
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695702"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827165"
 ---
 # <a name="adopt-microsoft-teams"></a>Microsoft Teams を導入する
 
@@ -158,7 +159,7 @@ ms.locfileid: "41695702"
                     </div>
                     <div class="cardText">
                         <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase1">開始</a></h3>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-get-started">概要</a></p>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-get-started">使用を開始する</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-understand-teams-and-channels">チームとチャネルについて理解する</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-your-first-teams">最初のチームを作成する</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-assess-readiness">文化と組織の準備の評価</a></p>
