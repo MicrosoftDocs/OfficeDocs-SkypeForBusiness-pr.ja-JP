@@ -13,13 +13,15 @@ appliesto:
 - Microsoft Teams
 search.appverid:
 - MET150
+f1.keywords:
+- NOCSH
 description: '概要: Microsoft Teams をリードする Microsoft 365 での生産性サービスの論理的なアーキテクチャについて説明します。 Teams テレフォニーソリューションについても説明します。 '
-ms.openlocfilehash: 88fcb0e06fe642541421f0ba03c65b50bf9938ba
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 3b55f24d720174d2b50dddea64b0adea5fd07596
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570283"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837387"
 ---
 # <a name="microsoft-teams-it-architecture-and-telephony-solutions-posters"></a>Microsoft Teams IT アーキテクチャとテレフォニー ソリューション ポスター
 

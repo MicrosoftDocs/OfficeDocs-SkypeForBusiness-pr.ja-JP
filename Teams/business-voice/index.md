@@ -6,6 +6,8 @@ ms.author: dstrome
 author: dstrome
 manager: serdars
 keywords: Microsoft 365 Business、Microsoft 365、ビジネス、SMB、小規模から中規模の企業、Microsoft 365 Business ドキュメント、文書、ドキュメント、技術情報
+f1.keywords:
+- NOCSH
 localization_priority: Priority
 audience: admin
 ms.service: msteams
@@ -14,12 +16,12 @@ ms.collection:
 - Teams_Business_Voice
 title: Microsoft 365 企業向け音声
 description: Microsoft 365 企業向け音声を計画、展開、使用する方法について説明します。
-ms.openlocfilehash: 4e8d681955013c7f1efd5d75fd90cd0a7b0c7af8
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: be2a6222a947f5fd064add7dadff0e438dfe626d
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41268683"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824855"
 ---
 <div id="main" class="v2">
     <div class="container">
