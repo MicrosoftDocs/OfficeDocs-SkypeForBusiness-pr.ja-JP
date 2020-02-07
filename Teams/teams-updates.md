@@ -13,17 +13,19 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 181b52a21a95156395fd5c5806c9c631b5c89137
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 13c4923143bf835da930a0193618db9c600c45d4
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570093"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836927"
 ---
-# <a name="microsoft-teams-content-updates"></a><span data-ttu-id="5dec0-103">Microsoft Teams のコンテンツ更新プログラム</span><span class="sxs-lookup"><span data-stu-id="5dec0-103">Microsoft Teams content updates</span></span>
+# <a name="microsoft-teams-content-updates"></a><span data-ttu-id="788f6-103">Microsoft Teams のコンテンツ更新プログラム</span><span class="sxs-lookup"><span data-stu-id="788f6-103">Microsoft Teams content updates</span></span>
 
-<span data-ttu-id="5dec0-104">このトピックでは、最近変更された Microsoft Teams のトピックを示します。</span><span class="sxs-lookup"><span data-stu-id="5dec0-104">This topic lists Microsoft Teams topics that have been changed recently.</span></span>
+<span data-ttu-id="788f6-104">このトピックでは、最近変更された Microsoft Teams のトピックを示します。</span><span class="sxs-lookup"><span data-stu-id="788f6-104">This topic lists Microsoft Teams topics that have been changed recently.</span></span>
 
 > [!INCLUDE [teams-content-updates](includes/teams-content-updates.md)]
