@@ -10,18 +10,20 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: オンボードのチェックリストを使用して、チーム用に Office 365 を準備し、Teams のコア機能、ネットワーク、およびクラウド音声のワークロードを構成します。
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 653b5cf46e0b079af47c282b4110b181e76be915
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 418496b5dd86fb9720393721854c0fcf68daf52a
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516497"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825145"
 ---
 # <a name="prepare-my-service"></a>サービスを準備する
 
@@ -57,7 +59,7 @@ ms.locfileid: "37516497"
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断のポイント</td><td><ul><li>オンボードチェックリストの完了を監督する担当者を教えてください。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td><td><ul><li>オンボードチェックリストをダウンロードします。</li><li>組織の展開計画に従って、オンボードのチェックリスト項目を段階的に操作します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>オンボードチェックリストをダウンロードします。</li><li>組織の展開計画に従って、オンボードのチェックリスト項目を段階的に操作します。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -184,7 +186,7 @@ ms.locfileid: "37516497"
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断のポイント</td><td><ul><li>どの電話会議機能を展開するかを決定します (サービス決定)。</li><li>電話会議のユーザー機能要件を特定します。</li><li>電話会議のサービス構成要件を特定します。</li><br><li>ダイレクトルーティングまたは通話プランを展開して構成するかどうかを決定します。<li>どの電話システム機能が展開されるかを決定します (サービス決定)。</li><li>プランまたはダイレクトルーティングのためのユーザー機能要件を特定します。</li><li>プランまたはダイレクトルーティングのサービス構成要件を特定します。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td><td><ul><li>テスト計画のアプローチを開発し、文書化します。</li><li>電話会議機能のスコープでサービス環境とユーザーを準備します。</li><li>プランまたはダイレクトルーティング機能の対象となるように、サービス環境とユーザーを準備します。</li><li>有効にする電話会議機能のテストの検証を実行します。</li><li>有効にする通話プランまたはダイレクトルーティング機能に対してテストの検証を実行します。</li><li>テストの失敗については、構成が正しいことを確認し、コミュニティの記事を確認し、必要に応じてサポート案件を提起します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>テスト計画のアプローチを開発し、文書化します。</li><li>電話会議機能のスコープでサービス環境とユーザーを準備します。</li><li>プランまたはダイレクトルーティング機能の対象となるように、サービス環境とユーザーを準備します。</li><li>有効にする電話会議機能のテストの検証を実行します。</li><li>有効にする通話プランまたはダイレクトルーティング機能に対してテストの検証を実行します。</li><li>テストの失敗については、構成が正しいことを確認し、コミュニティの記事を確認し、必要に応じてサポート案件を提起します。</li></ul></td></tr>
 </table>
 
 

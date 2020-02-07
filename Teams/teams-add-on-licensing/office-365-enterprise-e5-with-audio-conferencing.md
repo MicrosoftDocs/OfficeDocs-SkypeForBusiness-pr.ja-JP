@@ -12,17 +12,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
 description: 'アドオンライセンス、機能、Office 365 Enterprise E5 プランの購入方法について説明します。 '
-ms.openlocfilehash: 14aa5e8a4c368b5e759a9248d625e4d1a32ba82d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: c5c205a6084b017a1085bf49a10df04e139bfc56
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572478"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826535"
 ---
 # <a name="office-365-enterprise-e5"></a>Office 365 Enterprise E5
 

@@ -9,18 +9,20 @@ ms.reviewer: francoid
 audience: admin
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 description: このドキュメントでは、割り当てられている TeamsUpgrade モードに基づいて、テナント内とフェデレーションの両方で、Teams と Skype for Business のユーザー間のチャット、通話ルーティング、プレゼンスの動作について説明します。 これには、ルーティングの最適化、プレゼンスの動作、さらに*レガシ*から*アイランド*への既定の TeamsUpgrade モードの変更、および間もなくサポートが終了する*レガシ*が含まれます。
-ms.openlocfilehash: 3af54bdfecc7843fbbc095ca0d0cebb91732e648
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
-ms.translationtype: HT
+ms.openlocfilehash: 449340affb00b1f05ba199c3376941a843da329c
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37515864"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824935"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Skype for Business と共存する
 
@@ -213,6 +215,6 @@ TeamsOnly ユーザーに送信されたメッセージは、常に Teams に送
 具体的には、永続的な相互運用の会話スレッドをやり取りしていた受信者が Teams にアップグレードされた場合、そのスレッドは正確なプレゼンスを反映しなくなり、ルーティングできなくなります。 この場合は、新しいスレッドを開始する必要があります。
 
 ## <a name="related-links"></a>関連リンク
-[Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス](https://docs.microsoft.com/ja-JP/microsoftteams/migration-interop-guidance-for-teams-with-skype)
+[Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 
 [ビデオ: SfB と Teams 間の共存と相互運用性を管理する](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)

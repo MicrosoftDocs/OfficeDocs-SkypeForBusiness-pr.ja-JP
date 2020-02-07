@@ -10,18 +10,20 @@ search.appverid: MET150
 ms.reviewer: rowille
 audience: admin
 description: チームサービスを強化する機会を定期的に評価し、興味深い機能拡張について Teams ロードマップを監視します。
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5face19093459f1a4fbc4aeb978476f9a045231
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 339353c1f4d7dc15b3cec69e275d0dd6111896eb
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516489"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825095"
 ---
 # <a name="enhance-my-service"></a>サービスを強化する
 
@@ -39,7 +41,7 @@ ms.locfileid: "37516489"
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断のポイント</td><td><ul><li>組織で利用できる新機能やサービスについて、公共のロードマップやその他のサービスのお知らせを監視するユーザーを決定します。</li><li>運営委員会を通じて、これらの新機能やサービスを主要な関係者に報告するためのリズムを決定します。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td><td><ul><li>サービスを最大限に活用して、組織にとって最大限の価値を引き出す戦略を実装します。</li><li>完全なプロジェクトのライフサイクルを通じてサービスの強化を推進し、展開に対する影響を適切に考慮してください。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>サービスを最大限に活用して、組織にとって最大限の価値を引き出す戦略を実装します。</li><li>完全なプロジェクトのライフサイクルを通じてサービスの強化を推進し、展開に対する影響を適切に考慮してください。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

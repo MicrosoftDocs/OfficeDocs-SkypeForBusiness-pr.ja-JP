@@ -17,16 +17,18 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1.keywords: ms.teamsadmincenter.audioconferencing.bridgesettings
+f1.keywords:
+- CSH
 ms.custom:
 - Audio Conferencing
+- ms.teamsadmincenter.audioconferencing.bridgesettings
 description: 'Skype for Business または Microsoft Teams アプリを使用していない場合に、発信者にメッセージを表示し、会議開催者の名前やピンを集めるために使用される会議ブリッジの設定を変更する際に必要な手順を説明します。 '
-ms.openlocfilehash: 0e5a93ec86ac0582fcfd35435bce47e746a35f44
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: d872bf3d0db2e19089716ab65fc487db601c48ea
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695502"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825115"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>電話会議ブリッジの設定を変更する
 

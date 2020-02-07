@@ -8,6 +8,8 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 ms.reviewer: srividhc
+f1.keywords:
+- NOCSH
 description: この記事では、組織内のユーザーに対してクラウドビデオの相互運用機能を計画してセットアップする方法について説明します。
 localization_priority: Normal
 ms.collection:
@@ -15,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a94292719f8f93b818cbc52dd312859611940e3b
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 1e937e7825000d02156c1f5ede2671711006cbdd
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516663"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825105"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Microsoft Teams のクラウド ビデオ相互運用性の設定
 
@@ -51,7 +53,7 @@ ms.locfileid: "37516663"
 3. 統合された会議室を exchange と OTD で構成します。 ほとんどの場合、追加の中継は環境で設定して構成する必要があります。
 
 
-## <a name="provision"></a>規定
+## <a name="provision"></a>プロビジョニング
  
 テナントキーは、パートナーサービスへのダイヤルアウトになります。 次の例では、813878896@t.plcm.vc はテナントキーです。 
 
@@ -62,7 +64,7 @@ ms.locfileid: "37516663"
  
 - ** [Get-CsTeamsVideoInteropServicepolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsvideointeropservicepolicy):** Microsoft は、クラウドビデオ相互運用に使用するパートナーを指定することができる、サポートされている各パートナーの事前構築ポリシーを提供しています。
 
-    このコマンドレットでは、組織で使用できる事前構築済みのポリシーを識別できます。 このポリシーは、Grant-CsTeamsVideoInteropServicePolicy コマンドレットを利用する1人以上のユーザーに割り当てることができます。
+    このコマンドレットは、組織内で使用できる事前構築ポリシーを指定できます。 このポリシーは、Grant-CsTeamsVideoInteropServicePolicy コマンドレットを利用する1人以上のユーザーに割り当てることができます。
  
 - ** [Grant-CsTeamsVideoInteropServicePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsvideointeropservicepolicy):** Grant-CsTeamsVideoInteropServicePolicy コマンドレットを使用すると、組織で使用するために事前構築されたポリシーを割り当てることができます。または、特定のユーザーにポリシーを割り当てることもできます。
  
@@ -88,23 +90,23 @@ ms.locfileid: "37516663"
 |アクセスメディア。すべて|アプリとしての通話でのメディアストリームへのアクセス (プレビュー)|サインインしているユーザーがいなくても、アプリが通話中のメディアストリームに直接アクセスすることを許可します。|
 |OnlineMeetings|オンライン会議の詳細を読む (プレビュー)|サインインしているユーザーがいなくても、組織内のオンライン会議の詳細をアプリで読むことができます。|
 
-## <a name="schedule"></a>基点
+## <a name="schedule"></a>スケジュール
 
 次に、ビデオ相互運用機能の調整を使って Teams 会議をスケジュールします。 有効なユーザーは、次の方法で teams 会議をスケジュールできます。
 - [Outlook 用 Teams 会議アドイン](teams-add-in-for-outlook.md)
 - Teams クライアントのデスクトップとモバイル
 
 
-## <a name="join"></a>Join
+## <a name="join"></a>参加
 
 次のような方法で、チーム会議に VTC デバイスと参加することができます。
  
 - IVR (インタラクティブな音声応答)
-    - Tenantkey @ domain を使って、パートナーの IVR にダイヤルインすることができます。 
+    - tenantkey@domain を使用して、パートナーの IVR にダイヤルインできます。 
     - パートナー IVR に参加すると、VTC conferenceId を入力するように求められます。これにより、Teams の会議に接続されます。
-- ダイレクトダイヤル
-    - このダイレクトダイヤル機能を使用すると、パートナーの IVR と直接やり取りすることなく、チーム会議に直接ダイヤルできます。VTC ConferenceId @ domain
-- ワンタッチダイヤル
-    - 統合されたチームルームがある場合は、パートナーが提供するワンタッチダイヤル機能を使用できます (ダイヤル文字列を入力する必要はありません)。
+- 直接ダイヤル
+    - このダイレクトダイヤル機能を使用すると、パートナーの IVR と直接やり取りすることなく、チーム会議に直接ダイヤルできます。VTC ConferenceId@domain。
+- ワンタッチ ダイヤル
+    - Teams ミーティングが統合されている場合は、パートナーが提供するワンタッチ ダイヤル機能を使用できます (ダイヤルの文字列を入力する必要はありません)。
 
 最後に、音声、ビデオ、およびコンテンツ共有を使用して、会議の Teams ユーザーと協力します。 

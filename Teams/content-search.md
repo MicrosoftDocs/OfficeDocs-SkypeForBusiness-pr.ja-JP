@@ -11,15 +11,17 @@ ms.collection:
 - SPO_Content
 ms.reviewer: anach
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Microsoft Teams のコンテンツ検索について説明し、Exchange からのチャネル会話の検索方法、SharePoint からのファイルのアップロードと変更、OneNote の変更について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fea6e671a84eec6f064a7ccc1f7f9b3f237a220d
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 222b57021a259795823031d9855304d1ecf27f4f
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991082"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825345"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Microsoft Teams のコンテンツ検索を使用する
 =====================================
@@ -87,6 +89,6 @@ ms.locfileid: "40991082"
     ```
 3. コンテンツ検索クエリの一部として、チーム内の各プライベートチャネルからすべてのメンバーのメールボックスを含めます。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [Office 365 セキュリティ & コンプライアンスセンターの電子情報開示ケース](https://docs.microsoft.com/Office365/SecurityCompliance/ediscovery-cases) 

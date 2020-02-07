@@ -17,16 +17,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Licensing
 description: 'お客様には、2019年11月30日に終了する無料のダイヤルアウト機能が提供されています。  2019年12月1日から、電話会議の各サブスクリプションでは、このドキュメントで説明されているように、各ユーザーに対して月ごとに1人のアカウントに60分の通話を提供します。 '
-ms.openlocfilehash: 6309bc48d07c767aa9babb9139f6ad885689cb38
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 5e10f50a5b11ce6c490a4bd4e195709425ca8e33
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695652"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826245"
 ---
 # <a name="audio-conferencing-subscription-dial-outcall-me-at-minutes-benefit"></a>電話会議のサブスクリプション "ダイヤルアウト"/"通話時間の特典
 

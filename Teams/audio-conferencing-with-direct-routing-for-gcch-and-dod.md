@@ -15,14 +15,16 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: GCCH および DoD 環境で直接ルーティングを使用して電話会議を使用する方法について説明します。
-ms.openlocfilehash: 6c1403fedbbb47231780916eb8c7acb8014539e9
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 8304d18777739b4667c0f47b9dee3e9f8f6dcc38
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992897"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825655"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>GCC High および DoD のダイレクト ルーティングを使用する電話会議
 

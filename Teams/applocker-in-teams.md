@@ -10,15 +10,17 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: rafarhi
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: AppLocker アプリケーション制御ポリシーを使って Teams デスクトップクライアントアプリケーションを有効にする方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6035341aa649e966f15be7d33894f450ec8be251
-ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
+ms.openlocfilehash: 2d3e9df38164c5253aab3a331b47b26892a910b7
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "38311252"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826385"
 ---
 # <a name="applocker-application-control-policies-in-microsoft-teams"></a>Microsoft Teams の AppLocker アプリケーション制御ポリシー
 
@@ -46,6 +48,6 @@ Product name: MICROSOFT TEAMS
 Product name: MICROSOFT TEAMS UPDATE
 ```
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [AppLocker とは何ですか?](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/what-is-applocker)
  [AppLocker のテクニカルリファレンス](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-technical-reference)

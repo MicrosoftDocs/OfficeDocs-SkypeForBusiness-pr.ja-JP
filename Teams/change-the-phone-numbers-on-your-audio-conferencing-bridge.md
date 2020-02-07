@@ -18,16 +18,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Audio Conferencing
 description: 電話会議ライセンスを購入するときに、Microsoft は組織の電話会議ブリッジをホストしています。 電話会議ブリッジは、さまざまな場所からダイヤルイン電話番号を提供します。これにより、会議の開催者と参加者は、電話を使って Skype for Business または Microsoft Teams の会議に参加できるようになります。
-ms.openlocfilehash: 7476f7831ce830c8719940ae555dcd461e19ab2c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 54662b34f5b8b1f56aceffb2294801a485bc26ae
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684110"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825205"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>電話会議ブリッジの電話番号を変更する
 

@@ -16,17 +16,18 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
+- CSH
+ms.custom:
 - ms.teamsadmincenter.users.voice.groupcallpickup.tooltip
 - ms.teamsadmincenter.users.voice.callorderanddelay.tooltip
-ms.custom:
 - Phone System
 description: 通話共有とグループ通話のピックアップユーザーが着信した通話を同僚と共有できるようにして、ユーザーが連絡不能なときに通話をキャプチャできるようにします。
-ms.openlocfilehash: a39ed0a606b38a159473fbab9c35d21ae461c34b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: c3a47c892940762807a86d6690fa59520f137960
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684120"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824555"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Microsoft Teams での通話の共有およびグループ通話ピックアップ
 
@@ -57,6 +58,6 @@ Microsoft Teams の通話共有とグループ通話のピックアップ機能�
 
 テナントには、最大32768の通話グループを含めることができます。 各通話グループには最大25人のユーザーを指定できます。 
 
-## <a name="more-information"></a>詳細情報
+## <a name="more-information"></a>More information
 
 [チームでの着信の転送と同時呼び出し](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)

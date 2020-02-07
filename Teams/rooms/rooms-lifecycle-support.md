@@ -9,14 +9,16 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: この記事では、Microsoft Teams のルームのライフサイクルのサポートについて説明します。
-ms.openlocfilehash: 47ebb0db705ab92bb5bfa15e64d0b8ba9f63faeb
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 0f445bf2500a01bf8ffddae569d176229bdcfde5
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41269057"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825915"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft Teams 室アプリバージョンのサポート
  

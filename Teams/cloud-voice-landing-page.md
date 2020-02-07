@@ -12,17 +12,19 @@ ms.collection:
 - M365-voice
 ms.reviewer: crowe
 f1.keywords:
+- CSH
+ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.cloudvoice
 search.appverid: MET150
 description: Teams でクラウドボイスを展開するためのランディングページ
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b1c172de4e29b5246e17bd6cd280679b7f3ef8a2
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: c8498d8d4f6336bf54f6ae7f9c96540783b54dd1
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695482"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825055"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Microsoft Teams での Cloud Voice
 
@@ -57,7 +59,7 @@ ms.locfileid: "41695482"
 電話システムは Microsoft の技術であり、Office 365 クラウドで、通話制御と構内交換 (PBX) 機能を有効にすることができます。 電話システムを使用すると、既存の構内交換機 (PBX) システムを、Office 365 から直接配布された機能セットに置き換えることができます。また、会社のクラウド生産性エクスペリエンスに密接に統合されています。
 
 
-|確認事項|操作 |
+|確認事項|アクション |
 |:------------|:-------|
 |電話システムを実装するのは、どのようなユーザーの場所またはオフィスですか? |電話システムの詳細については、「 [Office 365 の電話システムとは](what-is-phone-system-in-office-365.md)」を参照してください。</li></ul>|
 |||
@@ -67,7 +69,7 @@ ms.locfileid: "41695482"
 電話システムを公衆交換電話網 (PSTN) に接続して、ユーザーが世界中で電話をかけることができるようにするには、ビジネスニーズに応じたオプションがあります。  次のことを確認してください。
 
 
-|確認事項|操作 |
+|確認事項|アクション |
 | :------------|:-------|
 | テレフォニーキャリアとして Microsoft 通話プランを使用しますか? | 詳細については、「[通話プランを使用した電話システム](calling-plan-landing-page.md)」を参照してください。|
 | 自分のテレフォニーキャリアを使用する必要はありますか? | 詳細については、「[ダイレクトルーティングを使用した電話システム](direct-routing-landing-page.md)」を参照してください。
@@ -89,7 +91,7 @@ ms.locfileid: "41695482"
 
 Azure ボイスメールサービスを利用したクラウドボイスメールは、Exchange メールボックスのみを対象としたボイスメールのデポジットをサポートしており、サードパーティのメールシステムをサポートしていません。 クラウドボイスメールには、既定で組織内のすべてのユーザーに対して有効になるボイスメールの議事録が含まれています。 ビジネスニーズによっては、特定のユーザーまたは組織全体のすべてのユーザーに対してボイスメールを無効にする必要がある場合があります。
 
-|確認事項|操作 |
+|確認事項|アクション |
 |:------------|:-------|
 | クラウドボイスメールを有効にしますか? | ボイスメールのセットアップ手順については、「[クラウドボイスメール](set-up-phone-system-voicemail.md)をセットアップする」をご覧ください。
 | 一部またはすべてのユーザーに対してボイスメールの書き起こしを有効にしますか? | ボイスメールのトランスクリプト機能をオフにするには、「[組織でボイスメールポリシーを設定](set-up-phone-system-voicemail.md#setting-voicemail-policies-in-your-organization)する」を参照してください。</li></ul>|
@@ -99,7 +101,7 @@ Azure ボイスメールサービスを利用したクラウドボイスメー�
 
 既定では、すべての発信通話で、割り当てられた電話番号が発信 id (発信者番号) として使用されます。 通話の受信者は、すぐに発信者を特定して、通話を承諾または拒否するかどうかを決定できます。
 
-|確認事項|操作 |
+|確認事項|アクション |
 |:------------|:-------|
 |発信者番号認識を無効にするか、無効にしますか? | 発信者番号通知を変更またはブロックするには、「[ユーザーに発信者番号を設定](set-the-caller-id-for-a-user.md)する」を参照してください。 |
 |||
@@ -108,7 +110,7 @@ Azure ボイスメールサービスを利用したクラウドボイスメー�
 
 Microsoft には、2種類の電話番号が用意されています。*加入者*(ユーザー) 番号は、組織内のユーザーに割り当てることができます *。また、* 電話会議、自動応答、通話キューなどのサービスに割り当てることができる有料またはフリーダイヤルのサービス番号として利用できます。
 
-|確認事項|操作 |
+|確認事項|アクション |
 | :------------|:-------|
 | Microsoft からの新しい電話番号が必要なユーザーの場所 | 電話番号を取得する方法については、「[組織の電話番号を管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)する」および「[ユーザーの電話番号を取得](getting-phone-numbers-for-your-users.md)する」を参照してください。 
 | 必要な電話番号の種類 (加入者またはサービス) | 必要な電話番号の種類を選択するには、「[通話プラン用に使用される電話番号が異なる](different-kinds-of-phone-numbers-used-for-calling-plans.md)」を参照してください。
@@ -132,7 +134,7 @@ Office 365 の電話システム機能のダイヤルプランは、ダイヤル
 クラウド通話キューには、誰かが組織の電話番号に電話をかけた際に流れる挨拶メッセージ、通話を自動的に保留する機能、および保留中に電話をかけてきた方に音楽を流し、その間に通話への対応が可能な次の電話エージェントを探す機能が含まれています。1 つまたは複数の通話キューを組織のために作成できます。 
 
 
-|確認事項|操作 |
+|確認事項|アクション |
 |:------------|:-------|
 | 組織には通話キューが必要ですか? | 詳細については、「[クラウドの通話キューを作成する](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)」と「[電話システム](setting-up-your-phone-system.md)をセットアップする」を参照してください。 |
 
@@ -140,7 +142,7 @@ Office 365 の電話システム機能のダイヤルプランは、ダイヤル
 
 クラウド自動応答を使用すると、外部および内部の発信者がメニューシステムを通じて組織内の会社のユーザーや部署に通話を発信したり、転送したりできるように、組織のメニューシステムを作成することができます。
 
-|確認事項|操作 |
+|確認事項|アクション |
 |:------------|:-------|
 | 組織に自動応答が必要ですか? | 詳細については、「[クラウド自動応答](what-are-phone-system-auto-attendants.md)と[クラウド自動応答のセットアップ](create-a-phone-system-auto-attendant.md)とは」を参照してください。 |
 

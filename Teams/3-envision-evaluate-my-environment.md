@@ -10,18 +10,20 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: ペルソナとネットワーク分析を使用して、組織の準備を評価し、適切な TCP および UDP ポートを開いて、ネットワークの修復を実行します。
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ad3700b3b0186ba3e95d8f55ad704f37cf33bc7
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 3efb5a58c36a38757b2f6046ca8c8c42ab80f6ce
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925078"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825075"
 ---
 # <a name="evaluate-my-environment"></a>環境を評価する
 
@@ -170,7 +172,7 @@ Microsoft Teams は、Microsoft オンラインサービスに接続し、その
 コマンドプロンプトウィンドウを開き、 **「Cd C:\\Program Files\\Microsoft Skype for business Network アセスメントツール**」と入力して、[ネットワーク評価ツール] ディレクトリに移動します。 コマンドプロンプトで、networkassessmenttool/connectivitycheck を入力して、開いているポートのテストを開始し**ます。**
 
 チェックを実行した後、ツールは、"検証が完了しました" というメッセージまたはブロックされたポートに関するレポートを表示します。
-また、Connectivity_results という名前のファイルを生成します。このファイルには、ツールからの出力が含まれ\\て\\おり\\、% userprofile% appdata local microsoft\\ skype for business ネットワーク評価ツールのディレクトリに保存されています。
+また、ツールからの出力を含む Connectivity_results .txt という名前のファイルを生成し、% userprofile\\% appdata\\local\\microsoft skype for business ネットワーク評価ツール\\ディレクトリに保存します。
 
 ポートが開かれ、正しく機能していることを確認するために、接続チェックを定期的に実行することをお勧めします。
 

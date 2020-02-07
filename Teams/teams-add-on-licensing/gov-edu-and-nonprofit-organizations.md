@@ -12,21 +12,23 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
 description: '政府機関、教育機関 および非営利組織 のプラン用のアドオン ライセンスと機能について説明します。 '
-ms.openlocfilehash: d63145cf6a8c761b4454fff212bd0e593ac8f395
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 9d33cbb7367a1608b0ff7c9fdd05447a98edba8b
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571215"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826685"
 ---
 # <a name="gov-edu-and-non-profit-organizations"></a>GOV、EDU、非営利団体
 
-大部分の Teams 機能は、米国政府、教育機関、非営利団体にご利用いただけます。 詳細については、次の表を参照してください。
+大部分の Teams 機能は、米国政府、教育機関、非営利団体にご利用いただけます。 詳細は次の表を参照してください。
 
 |**Teams の機能**|**GOV (GCC) で利用可能**|**GOV (非 GCC) で利用可能**|**EDU で利用可能**|**非営利団体で使用可能**|
 |:-----|:-----|:-----|:-----|:-----|

@@ -10,18 +10,20 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: '[チームクライアントアプリ]、[エンドポイントの品質を計画する]、[Wi-fi エンドポイントの展開とオーディオデバイスの選択] の推奨事項を確認します。'
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8f12b80fa1914166d48860b15cda7a928ca94ece
-ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
+ms.openlocfilehash: d156761d8ebc39822d6ccf2fc28ed6c380c4e117
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/17/2019
-ms.locfileid: "40069198"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825185"
 ---
 # <a name="plan-my-users-experience"></a>ユーザーエクスペリエンスを計画する
 
@@ -89,7 +91,7 @@ Microsoft Teams でリアルタイムのワークロードをサポートする�
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断のポイント</td><td><ul><li>組織に展開するチームクライアントは何ですか?</li><li>チームクライアントを最初にユーザーに展開するにはどうすればよいですか?</li><li>エンドポイントとデバイスを評価して品質向上のためにチームの要件を満たしているかどうかを検証する担当者</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td><td><ul><li>チームクライアントを展開するために実行されるプロセスを文書化します。</li><li>エンドポイントとデバイスを評価し、必要な操作や修復を行います。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>チームクライアントを展開するために実行されるプロセスを文書化します。</li><li>エンドポイントとデバイスを評価し、必要な操作や修復を行います。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -112,7 +114,7 @@ Microsoft Teams は会議のために、または電話システムとして使�
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断のポイント</td><td><ul><li>ユーザーと会議室のエクスペリエンスについて、組織の全体的なデバイス戦略を決定します。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td><td><ul><li>組織に対して、ペルソナ間のマッピングの演習を実行します。</li><li>ユーザーと会議室のデバイスを取得するプロセスを文書化します。</li><li>ユーザーと会議室用にデバイスを展開し、構成するためのプロセスについて文書化します。</li><li>展開を開始するために、初期デバイスを調達します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>組織に対して、ペルソナ間のマッピングの演習を実行します。</li><li>ユーザーと会議室のデバイスを取得するプロセスを文書化します。</li><li>ユーザーと会議室用にデバイスを展開し、構成するためのプロセスについて文書化します。</li><li>展開を開始するために、初期デバイスを調達します。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

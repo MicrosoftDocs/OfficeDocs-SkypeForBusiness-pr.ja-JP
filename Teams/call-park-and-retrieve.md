@@ -16,16 +16,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- ms.teamsadmincenter.callparkpolicies.overview
+- CSH
 ms.custom:
 - Phone System
+- ms.teamsadmincenter.callparkpolicies.overview
 description: '[コールパーク] を使って、クラウドの Teams サービスで通話を保留にします。'
-ms.openlocfilehash: 4bd77fcd90cb17f0ca5b09f784d6532d552df473
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b4b5200f139f5610ff1109b97742607d3b633ff6
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695622"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824595"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Microsoft Teams でのコール パークおよび保留解除
 
@@ -103,6 +104,6 @@ ms.locfileid: "41695622"
 - アイランドモード– Teams アイランドモードでは、コールパークと取得は利用できません。
 - 通話は既に取得または終了されています。
 
-## <a name="more-information"></a>詳細情報
+## <a name="more-information"></a>More information
 
 [Teams で通話をパーク](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)します。

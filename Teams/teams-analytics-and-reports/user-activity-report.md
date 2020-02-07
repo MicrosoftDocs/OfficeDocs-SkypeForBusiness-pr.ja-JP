@@ -7,6 +7,8 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: svemu
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -14,12 +16,12 @@ ms.collection:
 description: Microsoft Teams 管理センターの Teams ユーザーアクティビティレポートを使用して、組織内のユーザーが Teams をどのように使用しているかを確認する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 19c8837ebc6957d9ccd198df9a08eda229e2a262
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 8d6fb204cbfeece1df063f9b17f2912fad69f910
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571380"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825795"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Microsoft Teams ユーザー アクティビティ レポート
 
@@ -46,6 +48,6 @@ Teams ユーザーアクティビティレポートは、組織内のユーザ�
 
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [Teams の分析とレポート](teams-reporting-reference.md)

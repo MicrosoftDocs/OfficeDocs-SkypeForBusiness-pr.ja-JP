@@ -10,18 +10,20 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: 運用上の役割を計画し、品質支持者を割り当てることで、高品質の展開を実現します。
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bab0026b14514114f9c6e975046ee561dade6f40
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: c44d1b35c19abb224f40bf71c81c61b91967c182
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516009"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825155"
 ---
 # <a name="plan-my-service-management"></a>サービス管理を計画する
 
@@ -36,7 +38,7 @@ ms.locfileid: "37516009"
 サービス管理は、Microsoft Teams のエンドツーエンドの管理に関与するすべてのアクティビティとプロセスを組み込んでいます。 サービス管理の一部 (Office 365 サービス自体が構成されるインフラストラクチャコンポーネント) は、Microsoft の責任となりますが、ユーザーは、チーム、ネットワーク、および組織のさまざまな側面を管理する責任を負うものとします。それらのエンドポイントによって提供されます。
 Teams サービス管理に関する顧客の責任と、ユーザーエクスペリエンスの質を underpin している主要コンポーネントにどのように関連しているかについて詳しくは、「[サービス管理と品質の計画](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide)」をご覧ください。
 
-(media/plan-my-service-management-image1.png "品質--Office 365 サービス、ネットワーク、エンドポイントの3つのコンポーネントの")3 要素で構成さ![れる3つのコンポーネントの図]。また、サービス管理の3つの要素がどのように重なるかについて説明します。
+![品質の3つの構成要素の図](media/plan-my-service-management-image1.png "品質--Office 365 サービス、ネットワーク、エンドポイントの3つのコンポーネントの図。サービス管理の3つの要素が重なっています。")
 
 <!--ENDOFSECTION-->
 
@@ -91,7 +93,7 @@ Teams サービス管理に関する顧客の責任と、ユーザーエクス�
 
 品質経験レビューガイドには、次の図に示すように、ユーザーエクスペリエンスを向上させるための最大の影響を受ける主要な領域の一連のアクティビティが用意されています。
 
-音質を![向上させるための重要な点]とし(media/plan-my-service-management-image2.png "て、音声、信頼性、ユーザー調査の結果")を確認するための重要な領域を示します。
+![品質のエクスペリエンスレビュー中に確認する主要な領域の図](media/plan-my-service-management-image2.png "品質向上のために、音声、信頼性、ユーザー調査の結果として検討する主な領域。")
 
 このドキュメントで説明されている領域の評価と修復を継続的に行うことで、ユーザー エクスペリエンスに悪影響がおよぶ潜在的な可能性を減らすことができます。 展開で生じる多くのユーザー エクスペリエンスに関する問題は、次のカテゴリにグループ化されます。
 
@@ -115,7 +117,7 @@ Teams サービス管理に関する顧客の責任と、ユーザーエクス�
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断のポイント</td><td><ul><li>組織のクラウド音声操作の責任者を決定します。</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td><td><ul><li>『サービス管理の計画』をダウンロードしてください。</li><li>品質向上のレビューガイドをダウンロードします。</li><li>運用ガイドを完全に確認します。</li><li>操作の要件についてレビューし、理解するために、すべてのオペレーションチームメンバーへのすべてのガイドを提供します。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>『サービス管理の計画』をダウンロードしてください。</li><li>品質向上のレビューガイドをダウンロードします。</li><li>運用ガイドを完全に確認します。</li><li>操作の要件についてレビューし、理解するために、すべてのオペレーションチームメンバーへのすべてのガイドを提供します。</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

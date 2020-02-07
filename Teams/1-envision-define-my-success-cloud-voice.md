@@ -13,15 +13,17 @@ description: 電話会議、電話システムの通話プラン、または電�
 ms.collection:
 - M365-voice
 - M365-collaboration
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 918869697b5cd63580a654b9d0051fdac35c44f4
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 3c3669e904db7dbea805daa5737b0bfb81e931d7
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37517077"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825425"
 ---
 # <a name="define-my-success"></a>成功を定義する
 
@@ -29,7 +31,7 @@ ms.locfileid: "37517077"
 
 <!--ENDOFSECTION-->
 
-**電話会議**(臨時またはスケジュール済み) では、従来の固定電話を使ってダイヤルインすることにより、会議の参加者に公衆交換電話網 (PSTN) 経由の参加を許可することができます。支店 (PBX)、携帯電話。 この機能は、開催者または参加者がコンピューターの前にいない場合、またはデータ接続が利用できない場合や、モバイルデータ配信のためのリモート領域や、無料の公共の Wi-fi に接続されている場合など、音声通信をサポートするために信頼性が低くなっている場合に便利です。帯域幅が限定されたサービス、または会議の参加者が、簡単にアクセスできるテレフォニーエンドポイントを使用して会議にダイヤルインする場合。
+[**電話会議**] では、従来の固定電話、構内交換機 (PBX)、携帯電話を使ってダイヤルインすることによって、会議の参加者が公衆交換電話網 (PSTN) に参加できるようにすることで、会議 (臨時またはスケジュール) への追加のエントリポイントを提供します。 この機能は、開催者または参加者がコンピューターの前にいない場合、またはデータ接続が利用できない場合や、モバイルデータ配信のためのリモート領域や、無料の公共の Wi-fi に接続されている場合など、音声通信をサポートするために信頼性が低くなっている場合に便利です。帯域幅が限定されたサービス、または会議の参加者が、簡単にアクセスできるテレフォニーエンドポイントを使用して会議にダイヤルインする場合。
 
 **通話プラン (「通話プラン」) を搭載した電話システム**では、ユーザーが自分のコンピューターやモバイルデバイスからビジネスに関連した電話をかけることができるようにすることで、職場を近代化する方法が提供されます。 Workplace 近代化は、アクティビティベースの作業実装、主要なオフィスの移動、office の調整、従来の PBX ソリューションの廃止、PSTN サービスプロバイダーの契約の結論など、任意の数のシナリオに含めることができます。 通話プランを使用すると、Microsoft は PSTN への接続を容易にすることができます。
 
@@ -96,7 +98,7 @@ ms.locfileid: "37517077"
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> |判断のポイント|<ul><li>組織で識別できる電話会議のビジネスユースケースにはどのようなものがありますか?</li><li>組織で識別できるプランを呼び出すビジネスユースケースにはどのようなものがありますか?</li><li>直接ルーティングのビジネスユースケースは、組織内で特定できますか?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|次の手順|<ul><li>組織の電話会議のすべてのビジネスユースケースを文書化します。</li><li>組織のプランを呼び出すためのすべてのビジネスユースケースを文書化します。</li><li>組織で直接ルーティングするために、すべてのビジネスユースケースを文書化します。</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|次のステップ|<ul><li>組織の電話会議のすべてのビジネスユースケースを文書化します。</li><li>組織のプランを呼び出すためのすべてのビジネスユースケースを文書化します。</li><li>組織で直接ルーティングするために、すべてのビジネスユースケースを文書化します。</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -131,7 +133,7 @@ ms.locfileid: "37517077"
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|判断のポイント|<ul><li>組織の各主要関係者の役割については、だれが入力しますか?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|次の手順|<ul><li>主要な関係者全員を文書化し、役割の責任と期待をそれぞれの担当者に伝えます。</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|次のステップ|<ul><li>主要な関係者全員を文書化し、役割の責任と期待をそれぞれの担当者に伝えます。</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -224,7 +226,7 @@ KSIs を定義する際には、"特定、測定可能、割り当て可能、�
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|判断のポイント|<ul><li>組織&#39;s OKRs and KSIs は何ですか?</li><li>組織での電話会議の実装に関連して特定したリスクは何ですか? 特定されたリスクの緩和計画とは何ですか?</li><li>組織の通話プランの実装に関連していると判断したリスクは何ですか? 特定されたリスクの緩和計画とは何ですか?</li><li>組織内の直接ルーティングの実装に関連すると判断されたリスクは何ですか? 特定されたリスクの緩和計画とは何ですか?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|次の手順|<ul><li>OKRs と KSIs を文書化し、リスク登録を確立します。</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|次のステップ|<ul><li>OKRs と KSIs を文書化し、リスク登録を確立します。</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -265,7 +267,7 @@ KSIs を定義する際には、"特定、測定可能、割り当て可能、�
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|判断のポイント|<ul><li>組織に運営委員会が必要かどうかを決定します。</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|次の手順|<ul><li>運営委員会のメンバーを特定します。</li><li>運営委員会の会議をスケジュールします。</li><li>運営委員会会議の準備を行う。</li><li>運営委員会の会議を開催する。</li><li>運営委員会の会議の入力に基づいてアクションを実行します。</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|次のステップ|<ul><li>運営委員会のメンバーを特定します。</li><li>運営委員会の会議をスケジュールします。</li><li>運営委員会会議の準備を行う。</li><li>運営委員会の会議を開催する。</li><li>運営委員会の会議の入力に基づいてアクションを実行します。</li></ul>|
 
 適切な運営委員会の運営方法に関するその他の詳細なガイダンスは、[運営委員会のガイド](envision-steering-committee-complete-guide.md)に記載されています。
 

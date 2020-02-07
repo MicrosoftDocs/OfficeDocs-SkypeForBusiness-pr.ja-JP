@@ -7,17 +7,19 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 ms.collection:
 - M365-collaboration
 description: Microsoft Teams のルームの管理の概要。
-ms.openlocfilehash: 6b42f9aa34acf14749a3674e975d15292f363cf0
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 3a56a03342ca0edb0da9dc9ed3a4cada77816bc7
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41269054"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825885"
 ---
 # <a name="management-overview"></a>管理の概要
 
@@ -54,7 +56,7 @@ Microsoft Operations Manager スイートを使用して、Microsoft Teams の�
 |    |     |
 |-----------|------------|
 |![](../media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>Operations Management Suite を使用して、Microsoft Teams ルームの展開を監視することを確認します。</li><li>メール通知に使用するターゲット配布リストを決定します。</li></ul>|
-|![](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>品質と信頼性の監視方法を定義します。</li></ul>|
+|![](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>品質と信頼性の監視方法を定義します。</li></ul>|
 
 ## <a name="quality-and-reliability-monitoring-cqd"></a>品質と信頼性の監視 (CQD)
 

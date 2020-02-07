@@ -12,16 +12,18 @@ audience: admin
 search.appverid: MET150
 description: ライブイベントを使用して、チーム、Yammer、およびストリーミングの大規模なオンラインの対象ユーザーにビデオとコンテンツをブロードキャストする方法について説明します。
 f1.keywords:
+- CSH
+ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.liveevents
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f0e94ef7a0f71930c2ae840a19db03f4844ba34
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 2c3a32b49b6b95a2feea222d880a0e943c7189d0
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708343"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827005"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams のライブ イベントについて
 
@@ -84,7 +86,7 @@ ECDN の目標は、ネットワークのパフォーマンスに影響を及ぼ
 ### <a name="live-event-usage-report"></a>ライブイベントの使用状況レポート 
 テナント管理者は、Microsoft Teams 管理センターでライブイベントのリアルタイムの利用状況分析を表示できます。  [[ライブイベントの使用状況] レポート](../teams-analytics-and-reports/teams-live-event-usage-report.md)には、組織内で保持されているライブイベントのアクティビティの概要が表示されます。  管理者は、イベントの状態、開始時刻、ビュー、および運用の種類などのイベントの利用状況情報を表示できます。  
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 「 [Teams ライブイベントのプラン](plan-for-teams-live-events.md)」に移動します。
 
 ### <a name="related-topics"></a>関連トピック

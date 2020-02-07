@@ -18,16 +18,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: None
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Legal
 description: お客様は、Skype for Business Online および Microsoft Teams PSTN サービスの使用条件およびお客様のボリュームライセンス契約に従って、Office 365 の通話プランと Office 365 電話会議を使用できます。
-ms.openlocfilehash: 65d1426fd74a219206a725a33a52646ab6058337
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 59a885f53d23f5297d6730e718ac1a95801d6a30
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695442"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825505"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>音声会議の無料ダイヤル アウト期間
 

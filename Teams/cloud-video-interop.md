@@ -8,6 +8,8 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 ms.reviewer: srividhc
+f1.keywords:
+- NOCSH
 description: クラウド ビデオ相互運用性により、サード パーティ製の会議室デバイスで Microsoft Teams の会議に参加することが可能になります。
 localization_priority: Normal
 ms.collection:
@@ -15,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c44f945304bd6e21e0c572ad17afe165fe6eedcd
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
-ms.translationtype: HT
+ms.openlocfilehash: e3a8d3d41d974e78a708fdf91ee6aac13beb6b7b
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516685"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825065"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Microsoft Teams のクラウド ビデオ相互運用性
 

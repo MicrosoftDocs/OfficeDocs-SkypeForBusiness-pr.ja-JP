@@ -11,15 +11,17 @@ ms.collection:
 ms.reviewer: roykuntz
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: 動的な緊急通話を構成する
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a282d8c5cd923f6881a04da7f2569a5dca11421b
-ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
+ms.openlocfilehash: 0cd5f3320896c823eb81a9147a1b1b1adb36dbac
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "41634810"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825515"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>動的な緊急通話を計画して構成する 
 
@@ -200,7 +202,7 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso N
 
 - **米国のダイレクトルーティングのお客様**は、テストサービスの ersp と連携する必要があります。
 
- ## <a name="related-topics"></a>関連項目
+ ## <a name="related-topics"></a>関連トピック
 
 - [緊急通話を管理する](what-are-emergency-locations-addresses-and-call-routing.md)
 - [緊急通話ポリシーを管理する](manage-emergency-calling-policies.md)

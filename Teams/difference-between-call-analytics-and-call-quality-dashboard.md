@@ -16,16 +16,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- CSH
 ms.custom:
 - Reporting
 description: 通話分析と通話品質ダッシュボードと、それらを使用して通話品質の問題を監視およびトラブルシューティングする場合について説明します。
-ms.openlocfilehash: 70efd7f17189d9aac2236383a07cfc5fc0a37096
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: be63c4e227e74e242169ec5c3b5e0b01a43a0730
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972468"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824912"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>通話分析および通話品質ダッシュボード
 

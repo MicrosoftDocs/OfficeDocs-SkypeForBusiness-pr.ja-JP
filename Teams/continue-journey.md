@@ -11,17 +11,19 @@ search.appverid: MET150
 description: Skype for Business から Microsoft Teams への移行手順を続行するためのガイダンス
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
+f1.keywords:
+- NOCSH
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 74471d45e99742774133477f6b978939864aab2e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7453743407696a0ba8c41cb401caf4f22ba7b78f
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236368"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825305"
 ---
 ![オペレーショナルエクセレンスステージを強調したアップグレードの図](media/upgrade-banner-op-excellence.png "オペレーショナルエクセレンスステージに重点を置いたアップグレードの段階")
 
