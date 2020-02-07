@@ -17,16 +17,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Audio Conferencing
 description: 'Pin について知っておくべきことと、Microsoft Teams で Pin をリセットする方法について説明します。 '
-ms.openlocfilehash: 6d0d986789fb987494ded16bb8d6f6d7c3bf58a4
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 92f0fcf0b5a5e8afe0615b54b08f0fa407c4a969
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693832"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41838227"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Microsoft Teams で電話会議の PIN をリセットする
 

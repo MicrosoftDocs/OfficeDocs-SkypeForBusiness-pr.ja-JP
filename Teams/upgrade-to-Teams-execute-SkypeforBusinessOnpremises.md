@@ -7,23 +7,25 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: dearbeen
-description: Skype for Business オンプレミスの展開から Teams にアップグレードする場合の考慮事項
+description: Skype for Business のオンプレミス環境から Teams にアップグレードする際の考慮事項。
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 971accd5211c0d8f861ff03db115933f3c75b570
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: 4e2bcd48abb34ad3b8e18b780708e588ad9d0276
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "37925398"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836219"
 ---
-![展開と実装のステージに重点を置いたアップグレードの段階](media/upgrade-banner-deployment.png "展開と実装のステージに重点を置いたアップグレードの段階")
+![「展開と実装」段階が強調表示された、アップグレード行程の各段階](media/upgrade-banner-deployment.png "「展開と実装」段階が強調表示された、アップグレード行程の各段階")
 
 この記事は、アップグレード過程の展開と実装の段階に含まれています。 先に進む前に、次のアクティビティを完了していることを確認してください。
 

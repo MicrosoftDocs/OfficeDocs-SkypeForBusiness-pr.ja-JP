@@ -12,15 +12,17 @@ ms.collection:
 ms.reviewer: corbinm
 search.appverid: MET150
 description: Microsoft Teams のゲストアクセスに関する問題のトラブルシューティングと解決に役立つ情報を入手します。
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: e0a3530b7a1f9029d9f671d0a02ef58cbb7907bf
-ms.sourcegitcommit: 96d98e145ff300833d827a7d43b4e4b0331b7538
+ms.openlocfilehash: 0c0f65f7026e6c083d9230551d689f0dd19d6b0d
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871733"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837637"
 ---
 <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>Microsoft Teams でのゲストアクセスに関する問題のトラブルシューティング
 ======================================================
@@ -48,7 +50,7 @@ Teams でのゲストアクセスでは、Azure Active Directory (Azure AD) Busi
 ## <a name="support-for-b2b-user-types"></a>B2B ユーザーの種類のサポート
 現在、チームは、 [AZURE B2B によって定義され](https://docs.microsoft.com/azure/active-directory/b2b/user-properties)た状態1と状態2のゲストユーザーをサポートしています。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Teams でのゲスト アクセス](guest-access.md)
 

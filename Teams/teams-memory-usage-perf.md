@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams でメモリを使用する方法
+title: Microsoft Teams のメモリ使用方法
 author: msdmaguire
 ms.author: dmaguire
 manager: serdars
@@ -12,16 +12,18 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_PracticalGuidance
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6dcbe03851b8dbb31cd0bd6f1b580913d4dc683d
-ms.sourcegitcommit: f017e38095098d4d28c71241dddac53538be79d7
+ms.openlocfilehash: 05cbd2f4b6691c873393a7ba711e03aadf70a2f2
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "41506919"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836987"
 ---
-# <a name="how-microsoft-teams-uses-memory"></a>Microsoft Teams でメモリを使用する方法
+# <a name="how-microsoft-teams-uses-memory"></a>Microsoft Teams のメモリ使用方法
 
 一部の Microsoft Teams ユーザーは、Teams でのメモリの使い方について質問があります。 この記事では、Teams でメモリがどのように使用されるかについて説明します。また、Teams デスクトップアプリケーション (アプリ) と Teams web アプリでは、同じコンピューター上の他のアプリやワークロードが、適切に実行するために十分なメモリを持つことを防ぐことができません。 Teams は最新の web テクノロジを使用するように設計されています。 これを実現するために、Teams デスクトップクライアントは、Chromium を使ってレンダリングするために、電子に開発されました。 これは、Edge や Chrome など、多くの主要なブラウザーの背後にある同じレンダリングエンジンです。
 

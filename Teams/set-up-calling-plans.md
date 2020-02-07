@@ -17,17 +17,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Office 365 通話プランについては、ライセンスを購入してセットアップする方法、電話番号を取得する方法、緊急対応の場所と電話番号を追加してユーザーに割り当てる方法、新しい電話番号をユーザーに通知する方法について説明します。
-ms.openlocfilehash: 6c43408c09edaa220a6d3f030680a48fe321e6dd
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 3fd123991544bc4555be7ceb7693089f0d439070
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693932"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41838047"
 ---
 # <a name="set-up-calling-plans"></a>通話プランの設定
 

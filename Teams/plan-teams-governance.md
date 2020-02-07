@@ -11,16 +11,18 @@ audience: admin
 description: Teams でガバナンスを実施するための計画を立てる方法について説明します。
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4ab8f3571ac38273f40cc228c05b51c8f00159a1
-ms.sourcegitcommit: 800a5c3881d0ebceb505a538fcf7e48f7b6df17e
+ms.openlocfilehash: afd990c0a49b1f61bb5be717cc3bf2ad7bc70935
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37913047"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836189"
 ---
 # <a name="plan-for-governance-in-teams"></a>Teams でのガバナンスを計画する
 
@@ -131,9 +133,9 @@ Teams は Office 365 の高度なセキュリティおよびコンプライア�
 > [!Important]
 > 自分の組織でコンプライアンスおよびセキュリティに関する要件がある場合は、「[Microsoft Teams のセキュリティとコンプライアンスの概要](security-compliance-overview.md)」の記事で、このトピックについての掘り下げた内容を確認してください。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
-[チームのガバナンスクイックスタート](teams-adoption-governance-quick-start.md)
+[Teams のガバナンスのクイック スタート](teams-adoption-governance-quick-start.md)
 
 <!--
 ## Teams lifecycle management

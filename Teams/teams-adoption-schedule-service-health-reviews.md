@@ -11,18 +11,20 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: チームの導入でサービス正常性レポートを使用する方法について説明します。
+f1.keywords:
+- CSH
 ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d1dea1c27dbffb8efd0c71a4fb8b0bec02511a2
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 930bed20da33fa49ae322af69f7756597e11f1fe
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237829"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837737"
 ---
 # <a name="schedule-service-health-reviews-for-your-microsoft-teams-adoption"></a>Microsoft Teams の導入のためにサービス健全性のレビューをスケジュールする
 

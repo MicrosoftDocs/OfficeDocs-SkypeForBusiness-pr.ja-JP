@@ -18,16 +18,16 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINEX, NOFOLLOW
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Calling Plans
 description: '緊急サービス (911) と従来の電話サービスとの違いや、電話をかける方法について説明します。 '
-ms.openlocfilehash: 921756e7b26774066e0d0b7c5c2a7693c1405a90
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 5a6f0b45fdf31ffbb1c0c5820a81326772610fb3
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41696132"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834967"
 ---
 # <a name="emergency-calling-terms-and-conditions"></a>緊急通話の利用条件
 

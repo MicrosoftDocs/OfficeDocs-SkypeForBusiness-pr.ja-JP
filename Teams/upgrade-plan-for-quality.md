@@ -10,18 +10,20 @@ audience: admin
 description: このガイダンスを使用して、高品質の Microsoft Teams 展開を実施および維持するために必要な要件について説明します。
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7b4d9f5033e0a3fb0446709438e670f6f9408de3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 72b1f737386d652e4fdbc027cf814ba838c8275d
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236509"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836149"
 ---
 ![テクニカルレディネスステージを強調したアップグレードの図](media/upgrade-banner-tech-readiness.png "技術的な準備段階に重点を置いたアップグレードの段階")
 
@@ -132,7 +134,7 @@ Microsoft Teams はさまざまなエンドポイントをサポートします�
 
 品質エクスペリエンスのレビュー ガイドには、下記で図示されているユーザー エクスペリエンスの改善で影響が最大となる主要領域の評価と、その領域での修復ガイダンスを提供する、アクティビティのセットが含まれています。
 
-![品質エクスペリエンスレビュー中に調査]した領域を示す図(media/envision-planning-for-service-management-and-quality-complete-guide-image3.png "品質エクスペリエンスレビュー中に調査される主要な領域を示す図。")
+![品質エクスペリエンスレビュー中に調査した領域を示す図](media/envision-planning-for-service-management-and-quality-complete-guide-image3.png "品質エクスペリエンスレビュー中に調査される主要な領域を示す図。")
 
 このドキュメントで説明されている領域の評価と修復を継続的に行うことで、ユーザー エクスペリエンスに悪影響がおよぶ潜在的な可能性を減らすことができます。 展開で生じる多くのユーザー エクスペリエンスに関する問題は、次のカテゴリにグループ化されます。
 
@@ -343,7 +345,7 @@ Microsoft Teams の主なメリットの 1 つに、クライアントが自動�
 | サービス管理の計画 | 運用の役割マッピングの実施 <br/> 責任のあるチームからのサインオフ <br/> 役割の準備 | [運用ガイド](1-drive-value-operate-my-service.md) |
 | | 品質チャンピオンの指名 <br/> 品質チャンピオンの準備| <br/> [品質エクスペリエンスのレビュー ガイド](https://aka.ms/qerguide) |
 | | 品質エクスペリエンスのレビュー テンプレートのインストール <br/> 建物ファイルのアップロード | [QERLite テンプレート](https://aka.ms/qertemplates) <br/> [建物の情報のアップロード](turning-on-and-using-call-quality-dashboard.md)|
-| ネットワーク品質の計画 | ネットワーク計画を実施する |  |
+| ネットワーク品質の計画 | ネットワークの計画の実行 |  |
 | | QoS の実装 | [Microsoft Teams でのサービスの品質 (QoS)](qos-in-teams.md) |
 | | プロキシ サーバーのバイパス | [プロキシのガイダンス](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a) |
 | | スプリット トンネル VPN の実装 |  |

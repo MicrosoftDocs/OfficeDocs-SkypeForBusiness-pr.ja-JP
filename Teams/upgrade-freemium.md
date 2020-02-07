@@ -11,18 +11,20 @@ audience: admin
 search.appverid: MET150
 description: 無料版の Microsoft Teams をアップグレードする方法について
 localization_priority: Normal
+f1.keywords:
+- CSH
 ms.custom:
 - NewAdminCenter_Update
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fd0de5ba0901b77ef42e40ca0b18228d5d78e6fb
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: a0c86a22449fef5563b531558d45188c74ea8280
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568489"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837167"
 ---
 <a name="upgrade-microsoft-teams-free-to-office-365-subscription-version"></a>Microsoft Teams を無料で Office 365 月額プラン バージョンにアップグレードする
 ======================================================
@@ -89,7 +91,7 @@ Teams へのサインインに使用するメールアドレスを入力して�
 
 アップグレードが完了したら、最初の手順については、「 [Microsoft teams の使用を開始](get-started-with-teams-quick-start.md)する」および「 [microsoft teams](adopt-microsoft-teams-landing-page.md)を組織全体でのチームの導入への段階的アプローチに採用する」を参照してください。
 
-## <a name="more-information"></a>詳細情報
+## <a name="more-information"></a>More information
 
 - チームのバージョンとその機能の詳細については、「[チームの計画を比較](https://products.office.com/microsoft-teams/free)する」を参照してください。
 - Teams のフルバージョンへのアップグレードの詳細については、「無料の teams[から teams にアップグレードする](https://support.office.com/article/Upgrade-from-Teams-free-to-Teams-29475bbd-a34f-4175-9b33-d44430f8ad39)」を参照してください。

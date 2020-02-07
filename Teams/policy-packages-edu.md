@@ -13,16 +13,18 @@ ms.collection:
 - Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-f1.keywords: ms.teamsadmincenter.policypackages.overview
+f1.keywords:
+- CSH
+ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams でポリシーパッケージを使用および管理する方法について説明します。
-ms.openlocfilehash: 922481747e83b8885641185b8a7e4fa65bb2a1bd
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a06e32d72f4bd82b1db6b74e32312c113a1d7086
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708663"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837347"
 ---
 # <a name="microsoft-teams-policy-packages-for-edu-admins"></a>EDU 管理者向けの Microsoft Teams ポリシー パッケージ
 

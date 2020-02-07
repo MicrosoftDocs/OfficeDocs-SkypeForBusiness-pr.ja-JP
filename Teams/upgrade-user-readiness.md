@@ -10,20 +10,22 @@ audience: admin
 description: パイロット、オンボード、およびチームへのアップグレードを行うときに、ユーザーとの通信、トレーニング、サポートを計画する
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 71ee20ae80fa9fc7f8916efbc5a4736f50bd56f8
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ad51dd4b269652ec1899b2af6ace6a9b7b9f713a
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235921"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836797"
 ---
-![アップグレード過程のステージ、ユーザー準備ステージを強調表示]している(media/upgrade-banner-user-readiness.png "アップグレードの段階 (ユーザー準備ステージに重点")を置いている場合)
+![アップグレード過程のステージ、ユーザー準備ステージを強調表示している](media/upgrade-banner-user-readiness.png "アップグレードの段階 (ユーザー準備ステージに重点を置いている場合)")
 
 この記事は、アップグレードが行われたユーザーの準備段階の一部であり、テクニカルレディネスステージと並行して実行されるアクティビティです。 続行する前に、以前のステージでこれらのアクティビティが完了していることを確認してください。
 
@@ -34,7 +36,7 @@ ms.locfileid: "36235921"
 
 # <a name="prepare-a-user-readiness-plan"></a>ユーザーの研修計画を準備する
 
-最適なユーザー準備計画では、パイロット、オンボード、およびチームへのアップグレード時に、ユーザーとの通信、トレーニング、およびサポートを行う方法が組み込まれています。 [組織変更の準備の評価](https://aka.ms/OrgReadiness)でわかったように、準備は1つのサイズには適していません。 新しいテクノロジの receptiveness を最大限に活用するには、お客様が定義したペルソナと cohorts に合わせてカスタマイズされた、広範なリーチメッセージング (ビジョン/バリューメッセージングとユニバーサルユースケース) とメッセージング、トレーニング、サポートを組み合わせて使います。必要に応じて、laggards にもご利用ください。 このカスタマイズされたプランは、ユーザーがより迅速にチームに関連することを可能にし、ニーズを理解していることを示すことで、ユーザーの導入を容易にします。
+最適なユーザー準備計画では、パイロット、オンボード、およびチームへのアップグレード時に、ユーザーとの通信、トレーニング、およびサポートを行う方法が組み込まれています。 [組織変更の準備の評価](https://aka.ms/OrgReadiness)でわかったように、準備は1つのサイズには適していません。 新しいテクノロジの receptiveness を最大限に活用するには、お客様が定義したペルソナと cohorts に合わせて、お客様が定義したペルソナとに合わせて、さまざまなリーチメッセージング (ビジョン/バリューメッセージングとユニバーサルユースケース) とメッセージング、トレーニング、サポートを組み合わせて使用します。 このカスタマイズされたプランは、ユーザーがより迅速にチームに関連することを可能にし、ニーズを理解していることを示すことで、ユーザーの導入を容易にします。
 
 > [!Tip]
 > サンプルアップグレードプロジェクト計画とパイロットテスト計画に加えて、コミュニケーションやユーザーアンケートなどのテンプレートのユーザー準備資料の[アップグレード成功キット](https://aka.ms/UpgradeSuccessKit)をダウンロードします。

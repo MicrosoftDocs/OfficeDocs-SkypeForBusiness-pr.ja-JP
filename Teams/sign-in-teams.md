@@ -13,14 +13,16 @@ description: 先進認証を使用して Microsoft Teams にサインインす�
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9911a014fe3bd3e3ede151e2a85e8181c399e463
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+ms.openlocfilehash: 79f04161c070ff4818fdb2dfc212e5c3fc98b2b0
+ms.sourcegitcommit: 8e2fa7b744d0a174b699ae7298d4688b971eeff3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41790615"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41845138"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>先進認証を使用して Microsoft Teams にサインインする
 ==========================
@@ -39,9 +41,14 @@ Microsoft Teams は先進認証を使用して、サインインエクスペリ�
 
 - ユーザーがドメインに参加しているコンピューターにサインインしている場合、Teams を開始すると、組織で MFA を要求するか、またはコンピューターで既に MFA を要求しているかどうかによって、もう1つの認証手順を実行するように求められる場合があります。 お客様のコンピューターに、サインインのために既に MFA が必要な場合は、チームを開くときにアプリが自動的に起動します。
 
-- ユーザーがドメインに参加しているコンピューターにサインインしていて、そのユーザー名が Teams のサインイン画面に事前に入力されていない場合、管理者は次の Windows レジストリを設定してユーザー名の事前作成を無効にすることができます。コンピューター \ HKEY_CURRENT_USER \ ソフトウェア \Microsoft\Office\Teams DisableUpnSuffixCheck (REG_DWORD) 0x00000001 (1)
+- ユーザーがドメインに参加しているコンピューターにサインインしていて、そのユーザー名が Teams のサインイン画面に事前に入力されていない場合、管理者は次の Windows レジストリを設定して、ユーザー名の事前作成 (UPN) を無効にすることができます。
 
-  注: ユーザー名が ".local" または "corp" で終わるユーザー名の入力を省略すると、既定ではオンになっているため、レジストリキーを設定しなくても無効にすることができます。 
+  コンピューター \ HKEY_CURRENT_USER \Software\Microsoft\Office\Teams<br/>
+  SkipUpnPrefill (REG_DWORD)<br/>
+  0x00000001 (1)
+
+    > [!NOTE]
+    > ユーザー名の末尾に ". .local" または "corp" が付いているユーザー名は既定でオンになっているため、この設定を無効にするためにレジストリキーを設定する必要はありません。 
 
 
 ### <a name="mac-users"></a>Mac ユーザー 
@@ -62,5 +69,5 @@ Teams からサインアウトするには、アプリの上部にあるプロ�
 
 新しい認証は Teams を使用するすべての組織で利用できます。そのため、ユーザーが処理を完了できない場合は、自分のドメインまたは組織の Office 365 エンタープライズアカウントに問題がある可能性があります。 
 
-詳細については、「 [Microsoft Teams へのサインインで問題が発生するのはなぜですか?](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)」を参照してください。
+詳細については、「 [Microsoft Teams へのサインインで問題が発生するのはなぜですか?](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f) 」を参照してください。
 

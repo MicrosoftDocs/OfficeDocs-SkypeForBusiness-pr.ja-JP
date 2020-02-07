@@ -17,16 +17,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Phone System
 description: Office 365 からユーザーの電話番号を取得することに加えて、電話会議 (会議ブリッジの場合)、自動応答、通話キュー (サービス番号とも呼ばれます) などのサービスの有料または無料の電話番号を検索して取得することができます。 サービス用電話番号の同時通話容量は、ユーザーまたは登録者の電話番号より大きくなります。
-ms.openlocfilehash: 80d6de01ffcf88579be6ef3ffb550d7ea231c796
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 90538f21018ecde402994076243eb2ba893ccc98
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707893"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836997"
 ---
 # <a name="getting-service-phone-numbers"></a>サービス電話番号を取得する
 

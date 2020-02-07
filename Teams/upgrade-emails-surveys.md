@@ -10,18 +10,20 @@ audience: admin
 description: Skype for Business から Teams へのアップグレードに関する10段階のアクセラレータ付きアクションプランを使用した conjunciton のサンプルメールとアンケート
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 27dc5a5daf92ce0dad214dcc5cf8c26bbc78ea6d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7b90c8f5d7094c036f29a6b64ecfca4e26f51640
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236389"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837227"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>アップグレードの基本的なコミュニケーションのサンプルメールとアンケート
 
@@ -201,7 +203,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 チームで次のアクティビティを実行する場合のスキル、および詳細を知りたいアクティビティが1つ以上あることを示す。
 
-| &nbsp; | 高度なスキル | 多少のスキル | まったく習熟していない | 詳細情報 | N/A | よくわからない | | | | |
+| &nbsp; | 高度なスキル | 多少のスキル | まったく習熟していない | 詳細情報 | 該当なし | よくわからない | | | | |
 |---|---|---|---|---|---|---|---|---|---|---|
 | チームを使って IM を送信したり、他のユーザーとチャットしたりする | | | | | | | | | | |
 | オンライン会議に Teams を使用する | | | | | | | | | | |
@@ -223,7 +225,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 **Microsoft Teams を友人や同僚に勧める可能性はどの程度ありますか?(0 = ほとんどありません...10 = 非常に可能性が高い**
 
-| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 個 | ファイブ | 常用 |
+| 0 | 1 | 両面 | 3 | 4 | 5 | 6 | 7 | 個 | ファイブ | 常用 |
 | ---| --- | ---|---|---|---|---|---|---|---|---|
 |&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |
 

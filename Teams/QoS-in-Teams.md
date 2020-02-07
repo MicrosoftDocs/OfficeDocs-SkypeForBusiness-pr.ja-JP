@@ -12,18 +12,20 @@ description: Microsoft Teams でのサービスの品質 (QoS) のために組�
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
+- CSH
+ms.custom:
 - ms.teamsadmincenter.meetingsettings.qos
 - ms.teamsadmincenter.meetingsettings.network.qosmarkers
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 83275f7fbcec60727ed75c0a56ffda113b36fd26
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 31e8b01f5a48d74d516121c5a59ea79d94c317a3
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695642"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834737"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Microsoft Teams でサービスの品質 (QoS) を実装する
 
@@ -200,7 +202,7 @@ QoS を有効にするには、グループポリシーオブジェクトによ�
 
 GPO によってマーキングされている各ワークロードについて確認を繰り返します。
 
-## <a name="more-information"></a>詳細情報
+## <a name="more-information"></a>More information
 
 [ビデオ : ネットワーク計画](https://aka.ms/teams-networking)
 

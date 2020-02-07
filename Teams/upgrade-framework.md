@@ -10,18 +10,20 @@ audience: admin
 description: 確実な実績のあるフレームワークを使用して、Skype for Business から Teams に組織のアップグレードの過程をサポートする
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52564961f3737b3b5ed9c48686adab1fe040b44d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d403a97b5c9a7320834d6c78f78cafa28d54116a
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236411"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837187"
 ---
 # <a name="about-the-upgrade-framework"></a>アップグレードのフレームワークについて
 
@@ -58,7 +60,7 @@ ms.locfileid: "36236411"
 | **3** | **プロジェクトの目標を定義する** | 進捗状況とプロジェクトの成功率の測定を可能にするターゲット目標を設定します。 | [プロジェクトの目標](upgrade-define-project-scope.md#project-goals) |
 | **4** | **リスクと軽減計画を特定する** | リスク軽減計画を確立して、プロジェクトをすぐに把握できるようにします。 | [リスクと軽減](upgrade-define-project-scope.md#risks-and-mitigation) |
 | **5** | **タイムラインを定義する** | タイムラインと主要なマイルストーンを設定して、プロジェクトを予算内に維持することができます。 | [時間](upgrade-define-project-scope.md#timeline) <br><br> [アップグレード成功キット](https://aka.ms/UpgradeSuccessKit) |
-| **6** | **適切な Skype for Business および Teams のアップグレードと共存戦略を定義する** | Skype for Business から組織のチームへの最適なパスを確保するために、自分の旅を地図にします。 | [Microsoft Teams と Skype for Business の共存と相互運用性について](teams-and-skypeforbusiness-coexistence-and-interoperability.md) <br><br> [アップグレードの行程を選択する](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) |
+| **6** | **適切な Skype for Business および Teams のアップグレードと共存戦略を定義する** | Skype for Business から組織のチームへの最適なパスを確保するために、自分の旅を地図にします。 | [Microsoft Teams と Skype for Business の共存と相互運用性を理解する](teams-and-skypeforbusiness-coexistence-and-interoperability.md) <br><br> [アップグレードの行程を選択する](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) |
 
 
 ### <a name="prepare-evaluate-your-organizations-readiness-for-teams"></a>準備: Teams に対する組織の準備を評価する
@@ -125,4 +127,4 @@ ms.locfileid: "36236411"
 > アップグレードに関するコンテンツは、継続的に進化し続けています。 最新のガイダンスを確認して、 [Teams のブログ](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)を参照してください。 
 
 > [!Important]
-> Skype for Business Online は、2021年7月31日に廃止されます。その後、アクセスまたはサポートされなくなります。 給付金を最大限に活用し、組織がアップグレードを実装するための適切な時間を確保するために、Microsoft Teams の現在の旅を開始することをお勧めします。 アップグレードが正常に完了した場合は、技術的かつユーザーの準備ができていることに注意してください。このガイドは、Microsoft Teams への旅に進むときに必ずご利用ください。
+> Skype for Business Online は 2021 年 7 月 31 日に廃止される予定です。それ以降、アクセスとサポートが終了します。 移行によるメリットを最大限に高め、アップグレード実施のための時間を組織で十分確保できるよう、Microsoft Teams への移行をすぐに開始することをお勧めします。 アップグレードが成功すると、技術面およびユーザーの準備が整ったことになります。Microsoft Teams への移行を進める際には、必ずこのガイドを活用してください。

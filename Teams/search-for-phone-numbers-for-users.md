@@ -17,16 +17,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Calling Plans
 description: 国や地域、市区町村など、ユーザーに割り当てることができる電話番号を検索し、必要な番号の数を指定する方法について説明します。
-ms.openlocfilehash: 1229f74473ff5f12bf137011dcdc9ad6a87d44f0
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 14098f2fa769040bfe3224711f1927d84fb5a90d
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41694202"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41838177"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>ユーザーの電話番号を検索する
 

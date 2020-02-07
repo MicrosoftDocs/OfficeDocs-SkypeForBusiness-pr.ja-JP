@@ -7,18 +7,20 @@ ms.topic: article
 ms.reviewer: filippse
 ms.service: msteams
 audience: admin
+f1.keywords:
+- NOCSH
 description: Ringback bot を直接ルーティング用に使用して、通話が確立されているときに発生する可能性のある予期しない silences を防ぐ方法について説明します。
 localization_priority: Normal
 ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3fcb69ba1bc612fe940054ec982eb7462c6679be
-ms.sourcegitcommit: a23f45ab3a2cb7b5c279356edddf61c4030c41bd
+ms.openlocfilehash: 2a9ee3f227faa736d7fdda3ebedc755c8ac5049d
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39962504"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834997"
 ---
 # <a name="set-up-the-ringback-bot-for-direct-routing"></a>直接ルーティング用に Ringback ボットを設定する
 
@@ -39,6 +41,6 @@ Ringback bot を有効にするには、 **GenerateRingingWhileLocatingUser**パ
 
 Ringback bot をオフにするには、 **GenerateRingingWhileLocatingUser**パラメーターを [ **$False**] に設定します。 
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [Teams での PowerShell の概要](teams-powershell-overview.md)

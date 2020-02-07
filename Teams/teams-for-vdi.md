@@ -10,16 +10,18 @@ audience: admin
 description: 仮想化されたデスクトップインフラストラクチャ (VDI) 環境で Microsoft Teams を実行する方法について説明します。
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2afe86014bcce01d60ceef768f6f888718c3696c
-ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
+ms.openlocfilehash: e412f6f45fabda12ca01df0f50c46f3989b0afd1
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40952850"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837667"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>仮想デスクトップ インフラストラクチャ用の Teams
 
@@ -56,7 +58,7 @@ Teams デスクトップアプリは、主要な仮想化ソリューション�
 
 次のパートナーには、Teams の仮想デスクトップインフラストラクチャソリューションがあります。
 
-|パートナー|パートナーソリューション|
+|パートナー|パートナー ソリューション|
 |----|---|
 |![Citrix を表すロゴ](media/citrix.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Citrix の仮想アプリとデスクトップ</a> |
 
@@ -360,7 +362,7 @@ VDI に関連していない Teams の既知の問題については、「 [team
 
 VDA と CWA の問題を解決する方法については、[この Citrix の web サイト](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html)を参照してください。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [MSI を使用して Microsoft Teams をインストールする](msi-deployment.md)
 - [Teams での PowerShell の概要](teams-powershell-overview.md)

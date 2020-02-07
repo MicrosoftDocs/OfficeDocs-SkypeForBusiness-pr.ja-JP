@@ -13,16 +13,18 @@ search.appverid: MET150
 ms.collection:
 - M365-collaboration
 description: チームテンプレートを使用して、定義済みのチャネルでチームを作成する方法について説明します。
+f1.keywords:
+- CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 378977e86854f3c4b2192017fa10ce19aeb4990e
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: fef3357f938be0e9261d0b5459c9f6aa16942329
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968318"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837017"
 ---
 # <a name="get-started-with-teams-templates"></a>Teams のテンプレートの使用を開始する
 
@@ -82,7 +84,7 @@ Teams テンプレートは、ビジネスニーズまたはプロジェクト�
 ## <a name="related-topics"></a>関連トピック
 
 - [チームを作成する](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)(プレビュー中)
-- [新規-チーム](https://docs.microsoft.com/powershell/module/teams/New-Team?view=teams-ps)
+- [New-Team](https://docs.microsoft.com/powershell/module/teams/New-Team?view=teams-ps)
 - [Microsoft Teams の管理者トレーニング](itadmin-readiness.md)
 - [小売店向けテンプレートでTeamsを始めましょう](get-started-with-retail-teams-templates.md)
 - [医療関係組織向けテンプレートでTeamsを始めましょう](expand-teams-across-your-org/healthcare/healthcare-templates.md)

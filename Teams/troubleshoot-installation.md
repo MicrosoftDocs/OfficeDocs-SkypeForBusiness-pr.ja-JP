@@ -9,17 +9,19 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: Windows の Teams デスクトップクライアントアプリのインストールと更新に関する問題のトラブルシューティングを行う方法について説明します。
-ms.openlocfilehash: 812beb3471a1d4ee2cbc1e8e7f7b36b2a42e0e2d
-ms.sourcegitcommit: 0dba0ad1f8f00415c6437cadabed0548ce3281b1
+ms.openlocfilehash: f47edf351d6a55f57977fee823d670b749896049
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39920154"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837627"
 ---
 # <a name="troubleshoot-microsoft-teams-installation-and-update-issues-on-windows"></a>Windows での Microsoft Teams のインストールと更新に関する問題のトラブルシューティング
 
@@ -148,7 +150,7 @@ Teams によって、新しいバージョンに更新する必要があると�
 > [!NOTE]
 > 以下のいずれかの手順を実行して、問題の基になる原因を特定できない場合は、[プロセスモニター](https://docs.microsoft.com/sysinternals/downloads/procmon)セッションを試すことができます。 プロセスモニターは、レジストリとファイルシステムへのアクセスを記録する Sysinternals ツールです。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [Teams のクライアントを取得する](get-clients.md)
 - [Teams クライアントの更新プログラム](teams-client-update.md)

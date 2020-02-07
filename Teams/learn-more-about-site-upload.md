@@ -12,20 +12,21 @@ search.appverid: MET150
 ms.collection:
 - M365-collaboration
 description: 通話分析と通話品質ダッシュボードレポートのレポートラベルとして使用する、物理的な場所と関連するサブネットの一覧が含まれているテキストファイルをアップロードする方法について説明します。
+f1.keywords:
+- CSH
 ms.custom:
 - NewAdminCenter_Update
-f1.keywords:
 - ms.teamsadmincenter.locations.reportinglabels.overview
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.location
 - ms.teamsadmincenter.locations.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 19d3197d91b7139089a940c19ff23c1dcc99a290
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ebf362bf6b0cb7213b085a895e59e7c93e98d60f
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707863"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836577"
 ---
 <a name="add-and-update-reporting-labels"></a>レポート ラベルを追加して更新する
 ============================

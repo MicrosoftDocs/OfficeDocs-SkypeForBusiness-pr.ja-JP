@@ -15,16 +15,18 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1.keywords: ms.teamsadmincenter.voice.dialplans.overview
+f1.keywords:
+- CSH
 ms.custom:
+- ms.teamsadmincenter.voice.dialplans.overview
 - Calling Plans
 description: 'Teams で利用できるダイヤル通話プランの種類 (PSTN 通話ダイヤルプラン) と、組織に合わせて選ぶ方法について説明します。  '
-ms.openlocfilehash: a40d36b124b0bc1adbe9bc676a68a3b9c1d158ea
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 3ca0848094e94ff302cfcdeaa80ddd72a3b86698
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41694322"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836687"
 ---
 # <a name="what-are-dial-plans"></a>ダイヤル プランについて
 

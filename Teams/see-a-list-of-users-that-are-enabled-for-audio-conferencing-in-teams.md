@@ -17,16 +17,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Audio Conferencing
 description: 'Microsoft Teams で、ダイヤルイン会議が有効になっている組織内のユーザーの一覧を表示する方法について説明します。 '
-ms.openlocfilehash: f769953a2cbce7ee91a5a75c00cbcb0e2a2b3814
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 9330aef9e143764949c4589535126eb2dd72e883
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41694132"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41838147"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams の電話会議用に有効になっているユーザーのリストを表示する
 

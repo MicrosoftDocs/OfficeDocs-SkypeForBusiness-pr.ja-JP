@@ -10,18 +10,20 @@ ms.reviewer: dearbeen
 description: アップグレードのためにプロジェクトチームで利用できるように関係者を登録します。
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f3e097a49e1ffa2c2a1cad86d8fa020fc24c59d4
-ms.sourcegitcommit: e43a66a7f769f855dc45c1bb7f83636d0390949b
+ms.openlocfilehash: b271dbfbb99508c26feb86cb7803b8eacdf73910
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "36437629"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837197"
 ---
 ![アップグレード過程のステークホルダーの状態を示す図](media/upgrade-banner-stakeholders.png "プロジェクト関係者のチームの収集に重点を置いたアップグレードの段階")
 

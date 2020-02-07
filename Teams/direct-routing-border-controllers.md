@@ -14,13 +14,15 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 hideEdit: true
+f1.keywords:
+- NOCSH
 description: マイクロソフトは、選択した SBC ベンダーと提携して、SBC がダイレクト ルーティングと連携することを保証しています。
-ms.openlocfilehash: dfd5474ac0e70353823be48b44e0d5e2e2f39f1d
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: b574911c2d819e665f088ec8be12f24e1830daf2
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823991"
+ms.locfileid: "41837587"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト
 
@@ -60,12 +62,12 @@ Microsoft は各ベンダーと連携して次のことを行うことができ�
 |                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     v 8.0.3 (ビルド 537)     |  自分の自分の自分の ado <br>@ @ @ @ @  |  Pending  |    
 |                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      v 8.0.3 (ビルド 216)    |  自分の自分の自分の ado <br>@ @ @ @ @   |  Pending  |    
 |                     [ThinkTel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |   Pending    |       V1.4       |     |    |    
-|                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |    |    |    
-|                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |    |    |    
-|                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |   |    |    
-|                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |   |    |    
-|                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |        |    |                                            
-|                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |    |    |    
+|                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |   自分の自分の自分の ado <br>@ @ @ @ @  |    |    
+|                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |   自分の自分の自分の ado <br>@ @ @ @ @  |    |    
+|                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |   自分の自分の自分の ado <br>@ @ @ @ @ |    |    
+|                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |  自分の自分の自分の ado <br>@ @ @ @ @  |    |    
+|                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   自分の自分の自分の ado <br>@ @ @ @ @ |    |                                            
+|                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   自分の自分の自分の ado <br>@ @ @ @ @  |    |    
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      v3.16.2      |     |    |    
 
 新機能のアイデアなど、チームに関する製品のフィードバックを提供するには、「 [Uservoice](https://microsoftteams.uservoice.com)のバージョンに付与された証明書」を参照してください。 つまり、メジャーバージョンに従った SBC ファームウェアで任意の数のファームウェアがサポートされていることを意味します。

@@ -10,20 +10,22 @@ audience: admin
 description: 現在の Skype for Business 展開に基づいて、Microsoft Teams へのアップグレードパスを選ぶ
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 06c941f39dee36b14cd8c79e55af21b171e18bfa
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: 8038b1d04c3deda955465d6262982d0e216e8f23
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "36437563"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836299"
 ---
-![展開と実装のステージに重点を置いたアップグレードの段階](media/upgrade-banner-deployment.png "展開と実装のステージに重点を置いたアップグレードの段階")
+![「展開と実装」段階が強調表示された、アップグレード行程の各段階](media/upgrade-banner-deployment.png "「展開と実装」段階が強調表示された、アップグレード行程の各段階")
 
 この記事は、アップグレード過程の展開と実装の段階に含まれています。 先に進む前に、次のアクティビティを完了していることを確認してください。
 

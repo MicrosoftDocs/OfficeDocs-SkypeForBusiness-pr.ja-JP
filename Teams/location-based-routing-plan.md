@@ -10,16 +10,18 @@ ms.reviewer: roykuntz
 search.appverid: MET150
 description: ダイレクトルーティングの位置情報に基づくルーティングを計画する方法について説明します。
 localization_priority: Normal
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 429ed4dcd2996c404b47839de036972d44cc0d26
-ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
+ms.openlocfilehash: 0c341b808890ecc1d3b237ae70190aad9d1de8ea
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39615817"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836547"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>ダイレクト ルーティングの場所に基づくルーティングを計画する
 
@@ -252,7 +254,7 @@ PSTN 通話の位置情報に基づくルーティングが有効になってい
 
 「[場所に基づくルーティングのネットワーク設定を構成](location-based-routing-configure-network-settings.md)する」を参照してください。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [ダイレクト ルーティングの場所に基づくルーティングを有効にする](location-based-routing-enable.md)
 - [Teams でのクラウド音声機能のネットワーク設定](cloud-voice-network-settings.md)

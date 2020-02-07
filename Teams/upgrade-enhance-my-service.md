@@ -10,18 +10,20 @@ ms.reviewer: dearbeen
 description: チームサービスを強化する機会を定期的に評価するアップグレード後、チームロードマップを監視して、興味深い機能拡張を実現します。
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff5cbba5f66e409a1c079f7a5f24170adb5c3e41
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 02772dddf435e8c3dc2bc0fe243e453e387cd244
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236460"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837207"
 ---
 ![オペレーショナルエクセレンスステージを強調したアップグレードの図](media/upgrade-banner-op-excellence.png "オペレーショナルエクセレンスステージに重点を置いたアップグレードの段階")
 

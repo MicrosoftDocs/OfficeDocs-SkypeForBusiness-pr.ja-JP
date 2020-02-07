@@ -11,16 +11,18 @@ audience: admin
 description: 教育機関の IT 管理者にとって有用なチームリソースの一覧です。
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6eb86cd3679b6cd90b646add994760c4d41aa46d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: dc9413690f98afeab9bb96baefd3d73e8b56d3f8
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569986"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41838247"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>教育機関管理者向けの Microsoft Teams のリソース
 ==============================================
@@ -52,7 +54,7 @@ ms.locfileid: "37569986"
 - Teams クライアントをダウンロードする: [すべてのデバイスで Teams をオンにする](https://teams.microsoft.com/downloads)
 - [Education ヘルプ センター](https://support.office.com/education)で Office 365 for Education について学ぶ
 
-## <a name="additional-resources"></a>その他のリソース
+## <a name="additional-resources"></a>追加リソース
 
 - [Microsoft Teams のロードマップ](https://aka.ms/teamsroadmap)
 - [Tech Community Blog ](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog) で最新情報を入手する

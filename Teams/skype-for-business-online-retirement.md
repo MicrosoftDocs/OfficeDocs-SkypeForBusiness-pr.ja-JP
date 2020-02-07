@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Online の廃止
+title: Skype for Business Online のサポート終了
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -13,16 +13,18 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae0d278955f6935b55fda9b0e2dc3b13503b1f77
-ms.sourcegitcommit: 8cfb6bd11706ac3f0da93382359d5231e16e9234
+ms.openlocfilehash: c9986355905cb40e26182368dec8f53d796432fe
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "36849841"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837947"
 ---
-# <a name="skype-for-business-online-retirement"></a>Skype for Business Online の廃止
+# <a name="skype-for-business-online-retirement"></a>Skype for Business Online のサポート終了
 
 Skype for Business Online は、2021年7月31日に廃止されます。 この記事では、廃止計画の詳細について説明します。このお知らせの概要についての簡単な説明と、チームに移行するために何を行っているのかについて概要を説明します。
  
@@ -45,6 +47,6 @@ Teams への移行に関するすべての利点については、移行に時�
 - **チームと Skype コンシューマーの相互運用機能**。 Teams と Skype コンシューマー間の相互運用機能により、2つのサービスのユーザーはチャットと通話の両方を使って通信することができます。  Teams および Skype コンシューマーの相互運用機能は、暦年2020の第1四半期の Teams で利用可能になります。
 - **連絡先センターの統合とコンプライアンスの記録**。 今月は、今月前に、Five9、Genesys、および優れた機能を利用して、パートナーとのパートナーシップについて説明しました。これは、コンプライアンスの記録を提供するための、ASC、NICE、および Verint によって実現されています。   また、他の Skype for Business Online 認定パートナーと協力して、他の連絡先センターとコンプライアンスの記録ソリューションをチームの市場に提供しています。
  
-初めて使用する準備ができたら、実証済みの成功フレームワーク、ベストプラクティス、計画ドキュメント、[無料のインストラクター付きトレーニング](instructor-led-training-teams-landing-page.md)、fasttrack など、一連[の技術ガイダンスと計画リソース](https://aka.ms/SkypeToTeams)を提供しています。 [](https://www.microsoft.com/FastTrack)対象のサブスクリプションのオンボードアシスタンス。
+初めて使用する準備ができたら、実証済みの成功フレームワーク、ベストプラクティス、ドキュメントの計画、[無料のインストラクター](instructor-led-training-teams-landing-page.md)付きのトレーニング、さらに有効なサブスクリプションのオンボードアシスタンスを[管理](https://www.microsoft.com/FastTrack)する、一連[の技術ガイダンスと計画リソース](https://aka.ms/SkypeToTeams)を提供します。
  
 2014での導入以来、Skype for Business は世界中の何百万ものユーザーにとって有益なツールとなっています。  インスタントメッセージング、通話、ビデオを1つのアプリにまとめることで、この製品ではビジネス向けの魅力的なコミュニケーションが確立されました。 Microsoft Teams はそのビジョンの次の章であり、今日のニュースでは Skype for Business Online サービスの廃止をお知らせするだけでなく、Teams でも自信をお伝えしています。  市場の3年以上の間、チームは最も要求の厳しいお客様を対象としていますので、ご満足いただけます。  Skype for Business Online の現在のお客様の場合は、今すぐ移行の計画を開始してください。  お客様のすべてのステップを支援することに取り組んでおり、新しい作業方法が体験できるようになるまで待つことはできません。 

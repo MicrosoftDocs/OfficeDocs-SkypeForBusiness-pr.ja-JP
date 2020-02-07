@@ -17,16 +17,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Audio Conferencing
 description: 'Microsoft Teams 会議に参加するために、発信者用の既定の電話番号を作成する手順について説明します。 '
-ms.openlocfilehash: abe426149ca0fed3c1a28128cc327783844c2478
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b5a43b0987160b87ac4a6e25b10ae6d850612ac1
+ms.sourcegitcommit: 8e2fa7b744d0a174b699ae7298d4688b971eeff3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41694022"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41845238"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Microsfot Teams で招待状に含まれている電話番号を設定する
 
@@ -52,13 +52,11 @@ Office 365 の電話会議では、組織内のユーザーが Microsoft Teams �
 
 ![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
 
-1. 左側のナビゲーションで、[**ユーザー**] をクリックしてから、空いているユーザーのリストからユーザーを選択します。
+1. 左側のナビゲーションで [**ユーザー**] をクリックします。
 
     ![Microsoft Teams 管理センターでのユーザーの選択を示す](media/teams-set-phone-numbers-on-invites-image1.png)
 
-2. ページの上部にある [**編集**] をクリックします。
-
-    ![Microsoft Teams 管理センターで [編集] をクリックする](media/teams-set-phone-numbers-on-invites-image2.png)
+2. 使用可能なユーザーのリストからユーザー名をクリックします。
 
 3. [**電話会議**] の横の [**編集**] をクリックします。 
     

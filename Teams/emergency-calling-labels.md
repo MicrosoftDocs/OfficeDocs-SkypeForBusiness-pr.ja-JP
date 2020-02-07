@@ -16,16 +16,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Calling Plans
 description: Office 365 で通話プランを使用している場合は、緊急通話用にこれらのラベルをダウンロードできます。
-ms.openlocfilehash: 375d0cf16e86cf2ee79eb0e757689e7ec72c0a5d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: f56a024f379a3534486294f3bc301503cb010950
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41696142"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834977"
 ---
 # <a name="emergency-calling-labels"></a>緊急通話ラベル
 

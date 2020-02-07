@@ -13,13 +13,15 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 description: この記事では、ダイレクトルーティング用のメディアパスの国コードについて説明します。
-ms.openlocfilehash: 277544a5b169c2e2e17cea530239e992321d3d46
-ms.sourcegitcommit: c6d0da888ceb13f38bae139a1ced428e121e60b5
+ms.openlocfilehash: 4d3e19ceeab48e7ade6ffa9b51bff68f38613426
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39837569"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836097"
 ---
 # <a name="direct-routing-media-path-country-codes"></a>ダイレクトルーティングメディアパスの国コード
 
@@ -279,7 +281,7 @@ Set-CSOnlinePSTNGateway-Identity sbc1.contoso.com – MediaRelayRoutingLocationO
 | ウガンダ          | UG-CN&PLATFORM |
 | ウクライナ         | ウクライナ |
 | アラブ首長国連邦 | AE |
-| 英国  | 以上 |
+| イギリス  | 以上 |
 | 米国   | プロセッサー |
 | ウルグアイ         | UY |
 | ウズベキスタン      | UZ |

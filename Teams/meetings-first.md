@@ -10,17 +10,19 @@ ms.reviewer: francoid
 description: Meetings First について説明します。Meetings First を使用すると、ユーザーは、Skype for Business でチャット、通話、プレゼンスを使用しながら、Teams で会議を作成できます。
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3207a7e7f460cb2941dd4c46df2a215df7997ed4
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
-ms.translationtype: HT
+ms.openlocfilehash: 10321d02398c6c2b0ffc2143a9bafa406fbec637
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37564906"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836457"
 ---
 # <a name="meetings-first"></a>Meetings First
 

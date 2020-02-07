@@ -11,16 +11,18 @@ audience: admin
 description: Microsoft Teams クライアントにサービスの品質 (QoS) を実装します。
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3447f86be825099b7fada63fecd1b106f94cd80a
-ms.sourcegitcommit: 2b76e6a9a6ba0eb391e4adba5402eb572d1dc61f
+ms.openlocfilehash: 43a4c7ea45fe0feabbe8851cde944a70994829da
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/18/2019
-ms.locfileid: "40303869"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836487"
 ---
 # <a name="set-qos-on-windows-clients"></a>Windows クライアントで QoS を設定する
 
@@ -28,11 +30,11 @@ ms.locfileid: "40303869"
 
 *表1。推奨される初期ポート範囲*
 
-|メディアトラフィックの種類| クライアントのソースポートの範囲 |プロトコル|DSCP 値|DSCP クラス|
+|メディア トラフィックの種類| クライアントのソース ポートの範囲 |プロトコル|DSCP 値|DSCP クラス|
 |:--- |:--- |:--- |:--- |:--- |
-|オーディオ| 50000–50019|TCP/UDP|46|完全優先転送 (EF)|
-|ビデオ| 50020–50039|TCP/UDP|34|相対的優先転送 (AF41)|
-|アプリケーション/画面共有| 50040–50059|TCP/UDP|才|確実に転送 (AF21)|
+|オーディオ| 50,000–50,019|TCP/UDP|46|完全優先転送 (EF)|
+|ビデオ| 50,020–50,039|TCP/UDP|34|相対的優先転送 (AF41)|
+|アプリケーション/画面共有| 50,040–50,059|TCP/UDP|才|相対的優先転送 (AF21)|
 | | | | | |
 
 可能な限り、グループポリシーオブジェクト内でポリシーベースの QoS 設定を構成します。 次の手順は、 [Skype For Business Server のクライアントに対するサービス品質ポリシーの構成と](https://docs.microsoft.com/SkypeForBusiness/manage/network-management/qos/configuring-port-ranges-for-your-skype-clients#configure-quality-of-service-policies-for-clients-running-on-windows-10)非常に似ていますが、必要に応じて追加の詳細情報も記載されています。

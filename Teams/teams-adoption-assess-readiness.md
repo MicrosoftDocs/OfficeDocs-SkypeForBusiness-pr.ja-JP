@@ -11,18 +11,20 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: 組織が Teams への移行の準備ができているかどうかを確認します。
+f1.keywords:
+- CSH
 ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: da70e1207165a9034749382dbbf0ff4444bd9311
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 8e7f1261857905cea3c849654fdbcf926c36026d
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242452"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837877"
 ---
 # <a name="how-ready-is-your-organization-for-microsoft-teams"></a>Microsoft Teams に対する組織の準備状況について
 
@@ -75,7 +77,7 @@ Office 365 で簡単なフォームを使用して、チームの早い導入プ
 1. 各バケットに分類されるユーザーの割合 (*抵抗の変更*)
     - **最早採用**者: ソリューションが利用可能になる前に、解決策を要求します。
     - **通知**されたユーザー: その値が実証されたら、ソリューションを使います。
-    - **** 他の変更については、こちらをご覧ください。
+    - 他の変更については、こちらを**ご覧ください。**
     
    > [!TIP]
    > 早い採用者は、パイロットテスターとピアの優れた推進者を実現します。 新しいツールの導入に時間がかかるユーザーは、追加の encouragement とより多くの時間を調整する必要があります。 

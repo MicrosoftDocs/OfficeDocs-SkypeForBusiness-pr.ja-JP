@@ -9,6 +9,8 @@ ms.reviewer: dearbeen
 audience: admin
 description: 最初に関係者を参加させてからプロジェクトの範囲を設定して、アップグレードを計画します。
 localization_priority: Normal
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
 ms.collection:
@@ -16,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a72e32fc363d00c2da85be70a567551440ba942
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: a3226dd3887a4d289b810bb866d96dba704dd448
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236061"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837117"
 ---
 ![チームのアップグレード過程の図](media/upgrade-banner-main.png "プロジェクトが適切なプロジェクトチームで成功のために設定されていることを確認します。プロジェクトのスコープ、目標、タイムラインを定義します。テクニカルとユーザーの両方の準備ができていることを確認します。ロールアウト計画を実行します。最高の結果を得るには、勢いを維持します。")
 
@@ -34,6 +36,6 @@ ms.locfileid: "36236061"
 - [Skype for Business と Teams の共存と相互運用性を理解する](https://aka.ms/SkypeToTeams-Coexist)。
 
 > [!TIP]
-> お客様は、指導、ベストプラクティス、およびアップグレードを開始するために設計されたリソースを共有するライブのインタラクティブなワークショップをお申し込みください。
+> アップグレードの計画と実施に役立つように作られたガイダンス、ベスト プラクティス、リソースを紹介する、インタラクティブなライブ ワークショップにご参加いただけます。
 >
-> 最初に[アップグレード](https://aka.ms/SkypeToTeamsPlanning)セッションの計画に参加してください。
+> アップグレードを開始するには、最初に「[アップグレードの計画](https://aka.ms/SkypeToTeamsPlanning)」セッションにご参加ください。

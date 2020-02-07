@@ -10,18 +10,20 @@ ms.reviewer: dearbeen
 description: このガイダンスを使用して、チームの展開とロールアウトのためにネットワークを準備する
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0ede6e6ce211393211e7c1d31365c2f22c26751a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ec47733accfe9973887cd9f3f7019ac368e8e970
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236138"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837217"
 ---
 ![テクニカルレディネスステージを強調したアップグレードの図](media/upgrade-banner-tech-readiness.png "技術的な準備段階に重点を置いたアップグレードの段階")
 
@@ -153,7 +155,7 @@ Teams クライアントを実行しているすべてのクライアントコ�
 
 コマンドプロンプトウィンドウを開き、 **cd C:\Program files (x86) \Microsoft**を入力してネットワーク評価ツールのディレクトリに移動します。 Skype For Business ネットワーク評価ツール コマンドプロンプトで、networkassessmenttool/connectivitycheck を入力して、開いているポートのテストを開始し**ます。**
 
-チェックを実行した後、ツールは、"検証が完了しました" というメッセージまたはブロックされたポートに関するレポートを表示します。 また、Connectivity_results という名前のファイルを生成します。このファイルには、ツールからの出力が含まれ\\て\\おり\\、% userprofile% appdata local microsoft\\ skype for business ネットワーク評価ツールのディレクトリに保存されています。
+チェックを実行した後、ツールは、"検証が完了しました" というメッセージまたはブロックされたポートに関するレポートを表示します。 また、ツールからの出力を含む Connectivity_results .txt という名前のファイルを生成し、% userprofile\\% appdata\\local\\microsoft skype for business ネットワーク評価ツール\\ディレクトリに保存します。
 
 ポートが開かれ、正しく機能していることを確認するために、接続チェックを定期的に実行することをお勧めします。
 

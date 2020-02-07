@@ -10,16 +10,18 @@ audience: admin
 description: Teams を使用する Microsoft エデュケーショングループの管理者からよく寄せられる質問に対する回答です。
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4faddea2a6d0366a45fab3667b781d9d1fe81f0b
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 719f9429d49dfef7a21670c67bad96c9e26c993e
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573264"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837437"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>Microsoft Education のガバナンスに関するよくある質問 (管理者向け)
 
@@ -30,7 +32,7 @@ ms.locfileid: "37573264"
 
 不適切な名前や誤解を招く名前がないようにしたり、teams の名前の構造を指定したりするために、Office 365 グループの名前付けポリシー (現在はプレビュー) を使用できます。
 
--   **プレフィックスとサフィックスの名前付けポリシー**プレフィックスまたはサフィックスを使用して、teams (グループ) の名前付け規則 (たとえば、 **GRP_US_My Group_Engineering**) を定義できます。 プレフィックスとサフィックスは、チームを作成しているユーザーに基づいて名前に追加される、固定文字列またはユーザー属性 ( **[部署]** など) にすることができます。
+-   **プレフィックスとサフィックスの名前付けポリシー**プレフィックスまたはサフィックスを使用して、チーム (グループ) の名前付け規則 ( **GRP_US_My Group_Engineering**など) を定義できます。 プレフィックスとサフィックスは、チームを作成しているユーザーに基づいて名前に追加される、固定文字列またはユーザー属性 ( **[部署]** など) にすることができます。
 -   **ユーザー設定のブロック**された単語特定の組織のユーザーが、作成したチームの名前で使用をブロックされている一連の単語をアップロードできます。 たとえば、対象となるグループのチーム名に、 **CEO**、**給与**、**人事**の使用をブロックすることができます。
 -   **分類**組織内のユーザーが Office 365 グループを作成するときに設定できる分類を作成することができます。 
 

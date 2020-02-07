@@ -10,15 +10,17 @@ ms.reviewer: rowille
 audience: admin
 description: Teams で直接ルーティングを構成する場合は、このチェックリストでコア、to do、タスク、アクティビティに従います。
 localization_priority: Normal
+f1.keywords:
+- NOCSH
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 61d23d2aa9aeef58a581233c07ed950b494531b6
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e6179eec9d6f08bb40b5bae493cb49f59f8eddd6
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573353"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837427"
 ---
 # <a name="configure-direct-routing-in-microsoft-teams"></a>Microsoft Teams で直接ルーティングを構成する
 
@@ -43,7 +45,7 @@ ms.locfileid: "37573353"
 |マート|ユーザー受け入れテストを準備して実行する|ダイヤルインやダイヤルアウトのシナリオなど、ユーザー受け入れテストを準備して実行します。||[Teams でクラウドの音声ワークロードをテストする](https://docs.microsoft.com/MicrosoftTeams/1-onboard-prepare-my-service#test-cloud-voice-workloads-in-teams)|
 |16|使用状況、正常性、キーの成功インジケーター (KSIs)、および品質のレポート|ビジョン化フェーズで定義した使用状況、正常性、KSIs、および品質をレポートします。||[運用ガイド](https://docs.microsoft.com/MicrosoftTeams/1-drive-value-operate-my-service)|
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 このチェックリストを完了すると、チーム展開との直接ルーティングが正常に構成されます。
 

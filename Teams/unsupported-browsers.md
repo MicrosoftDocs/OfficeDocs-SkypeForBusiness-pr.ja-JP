@@ -9,17 +9,19 @@ audience: admin
 MS.collection:
 - M365-collaboration
 ms.reviewer: nakulm
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 description: チームがサポートされていないブラウザーで音声とビデオをサポートする方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3412d195e560ee2be1e850d9fcb146d0a0f54d25
-ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
+ms.openlocfilehash: 5f2fc7ee97a5172a849c14d9ede6d93ffc08d302
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39615907"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837257"
 ---
 # <a name="microsoft-teams-meetings-on-unsupported-browsers"></a>Microsoft Teams でサポートされていないブラウザーに関する会議
 
@@ -41,7 +43,7 @@ PSTN を使用できない場合は、会議にアクセスするための手順
 - 通話が中断された場合、会議は自動的に再接続されません。
 - ユーザーは会議を開始できません。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [サポートされていないブラウザーで Teams 会議に参加する](https://support.office.com/article/daafdd3c-ac7a-4855-871b-9113bad15907)
 - [Teams の制限と仕様](/microsoftteams/limits-specifications-teams#browsers)

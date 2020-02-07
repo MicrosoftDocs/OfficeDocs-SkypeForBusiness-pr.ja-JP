@@ -10,20 +10,22 @@ ms.reviewer: dearbeen
 description: Skype for Business と Microsoft Teams の共存オプションおよび Skype for Business と Teams の間の相互運用に関する詳細情報。
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 16defcd2cd5a855cbc3713f5a35886bb936c5a45
-ms.sourcegitcommit: 299f854bbb73887ba315b09b9adf9ea9ff91e8ec
-ms.translationtype: HT
+ms.openlocfilehash: adadf5bbc4ad8ea177e194c699eff7bd08384b87
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37062974"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837417"
 ---
-![「プロジェクトの定義」段階を強調表示したアップグレード行程図](media/upgrade-banner-project-definition.png "「プロジェクトの定義」段階を強調表示したアップグレード行程の各段階")
+![プロジェクトの定義ステージが強調表示されたアップグレード行程図](media/upgrade-banner-project-definition.png "「プロジェクトの定義」段階が強調表示された、アップグレード行程の各段階")
 
 この記事は、お客様のアップグレード行程の「プロジェクトの定義」段階の一部です。プロジェクトの定義は、スポンサー連合とプロジェク チームを作成し、プロジェクトの適用範囲、目標、ビジョンを定義した後に実行するアクティビティです。 先に進む前に、次のアクティビティを完了していることを確認してください。
 
@@ -83,7 +85,7 @@ Skype for Business エクスペリエンスが複雑化または低下するこ�
 
 [**Teams のみ**] モードへの移行に関するその他の考慮事項については、「[Teams のみモードの考慮事項](teams-only-mode-considerations.md)」を参照してください。
 
-![Teams の確認メッセージのスクリーンショット](media/teams-and-skypeforbusiness-coexistence-and-interop-image1.png "ユーザーの「Teams のみ」ユーザーへのアップグレード後に特別のモードで実行中の Skype for Business クライアント")
+![Teams 確認メッセージのスクリーンショット](media/teams-and-skypeforbusiness-coexistence-and-interop-image1.png "ユーザーがチーム専用ユーザーとしてアップグレードされた後に、特別モードで実行されている Skype for Business クライアント")
 
 ### <a name="skype-for-business-with-teams-collaboration"></a>Skype for Business と Teams のコラボレーション
 

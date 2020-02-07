@@ -10,18 +10,20 @@ ms.reviewer: dearbeen
 description: Microsoft Teams の展開とサポートについては、組織内の IT スタッフを準備します。
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b561af2fd5b29dd66f00f75634a660cfb08cf7e6
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c11b7fa80940ad45d4462510e8fa46531f10f1e9
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236127"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836127"
 ---
 ![テクニカルレディネスステージを強調したアップグレードの図](media/upgrade-banner-tech-readiness.png "技術的な準備段階に重点を置いたアップグレードの段階")
 
@@ -39,7 +41,7 @@ Office 365 テナント管理者、テクニカルリーダー、およびサポ
 次のリソースを IT スタッフのメンバーと共有して、チームへのアップグレードを開始する前に、ユーザーをサポートする準備ができていることを確認します。
 
 - [Microsoft Teams の管理者トレーニング](itadmin-readiness.md)
-- [ビジネス製品のサポートへのお問い合わせ-管理者向けヘルプ](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+- [ビジネス製品についてサポートに問い合わせる - 管理者ヘルプ](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 - [Microsoft Teams クライアントの接続性の問題をトラブルシューティングする](connectivity-issues.md)
 - [Microsoft Teams のトラブルシューティングでログ ファイルを使用する](log-files.md)
 
@@ -48,6 +50,6 @@ Office 365 テナント管理者、テクニカルリーダー、およびサポ
 | | |
 |---|---|
 | ![判断ポイントを表すアイコン](media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>チームの展開とサポートに携わる可能性があると思われるすべてのサポートスタッフが参加しているか?</li><li>アップグレードの進捗に応じて、オンボードの追加のスタッフのトレーニング計画を作成しましたか?</li></ul> |
-| ![次の手順を示すアイコン](media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>IT スタッフに必要な情報が含まれていることを確認します。</li><li>新機能がリリースされるたびに、トレーニングと準備計画を再利用します。</li></ul>|
+| ![次の手順を示すアイコン](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>IT スタッフに必要な情報が含まれていることを確認します。</li><li>新機能がリリースされるたびに、トレーニングと準備計画を再利用します。</li></ul>|
 
 チームの IT スタッフを準備したら、環境がすべての[前提条件](upgrade-plan-journey-prerequisites.md)を満たしていることを確認します。

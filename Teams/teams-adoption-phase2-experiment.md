@@ -11,18 +11,20 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: チーム導入の実験フェーズを実施する方法について説明します。
+f1.keywords:
+- CSH
 ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f19497b6a672a313ad9637348f1bff3897a3b3ab
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 26b012fceb1fa888389417b85cb4a08ed3f16a3a
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237851"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837767"
 ---
 # <a name="microsoft-teams-adoption-phase-2---experiment"></a>Microsoft Teams の導入段階 2 - 実験
 

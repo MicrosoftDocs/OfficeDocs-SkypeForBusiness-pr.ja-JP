@@ -11,15 +11,17 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: lucarras
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: コネクタは、頻繁に使用するサービスからのコンテンツや更新をチャネルに直接配信して、チームを最新の状態に保ちます。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 05f892791c3f299cbd146d7a34b0062cc957486f
-ms.sourcegitcommit: dc70fd277d9542d831741e14dba9ae22367210ae
+ms.openlocfilehash: cc65939048fd8e54bd122a4dc52d2a611b8453cc
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39909333"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834377"
 ---
 <a name="use-office-365-and-custom-connectors-in-microsoft-teams"></a>Microsoft Teams で Office 365 コネクタとカスタム コネクタを使用する
 =======================================================
@@ -54,4 +56,4 @@ Office 365 コネクタは Microsoft Teams と Office 365 の両方のグルー�
 <a name="develop-custom-connectors"></a>カスタム コネクタを開発する
 ----------------------------
 
-カスタムコネクタや、受信および送信の web フックを作成することもできます。 詳細については、[開発者向けのドキュメント](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)を参照してください。
+カスタムコネクタや、受信および送信の web フックを作成することもできます。 詳細については、「[開発者向けドキュメント](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)」を参照してください:

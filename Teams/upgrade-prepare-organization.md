@@ -10,20 +10,22 @@ audience: admin
 description: 組織の変更を承諾するための準備を評価し、ユーザーが Skype for Business から Microsoft Teams にアップグレードできるようにするための計画を準備する
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4dd0509f3f016d6c8c62e6f79de791e8fc531653
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ea2fc7a56b3bc87a7d25c2afa86ff0b9f974995c
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236094"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836249"
 ---
-![ユーザー準備ステージに重点を置いたアップグレードの段階](media/upgrade-banner-user-readiness.png "アップグレードの段階 (ユーザー準備ステージに重点")を置いている場合)
+![ユーザー準備ステージに重点を置いたアップグレードの段階](media/upgrade-banner-user-readiness.png "アップグレードの段階 (ユーザー準備ステージに重点を置いている場合)")
 
 この記事は、アップグレードが行われたユーザーの準備段階の一部であり、テクニカルレディネスステージと並行して実行されるアクティビティです。 続行する前に、以前のステージでこれらのアクティビティが完了していることを確認してください。
 

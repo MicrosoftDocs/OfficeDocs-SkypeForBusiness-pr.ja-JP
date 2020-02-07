@@ -14,15 +14,17 @@ ms.collection:
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: チームの広範な対応の結果と成功を測定する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 24b04571a647838ee4890c813e7f3b83f387c12d
-ms.sourcegitcommit: 25b6bf2c3050390cd668d2495ffcf31c44d0ff62
+ms.openlocfilehash: 51f1af667e7cf4e387b9e05eec40d17bb48a550d
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37749275"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837857"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>Microsoft Teams の導入の結果と成功を定義する
 
@@ -85,7 +87,7 @@ Teams は transformative テクノロジであるため、組織の規模や既�
 
     チームの規模は、従業員のコミュニケーションと契約を簡単にするために、1000従業員の組織にとって、適切な有効化戦略でもあります。 組織全体のチームを使用すると、ユーザーを協力して、どのデバイスでも一般的なタスクと計画を確認できます。 
 
-- **[左右に並べて比較]**: 電話会議用に Skype for business を使用している組織、会議室デバイスのサポートを利用している組織、またはクラウドの音声機能を使用している組織の場合、従業員と skype を並行して実行することをお勧めします。企業にとって便利な時間帯に Skype for Business の移行を計画しながら、中心的なコラボレーション機能を提供します。 両方のクライアントを同時に実行することで、どのツールを使用するかについてユーザーが混乱する可能性があることに注意してください。このフェーズは、導入に向けて短くすることをお勧めします。 
+- **[左右に並べて**表示]: 電話会議用に Skype for business を使用している組織、会議室デバイスのサポートを利用している組織、またはクラウドの音声機能を使用している組織の場合、チームと skype を並行して共同作業を行うことをお勧めします。 Skype for business を会社の都合に合わせて移行すること 両方のクライアントを同時に実行することで、どのツールを使用するかについてユーザーが混乱する可能性があることに注意してください。このフェーズは、導入に向けて短くすることをお勧めします。 
 
 - **移行の選択**: Skype for Business から Teams への移行には技術的な観点からの追加コンポーネントが含まれていますが、ユーザーの導入の計画には、チームの大きな実装と同じコンポーネントが含まれています。 さらに、チーム会議のエクスペリエンスとインターフェイス、新しい常設チャットの動作、および Skype for Business とは異なるエクスペリエンスのその他の要素についても、ユーザーを教育します。
 

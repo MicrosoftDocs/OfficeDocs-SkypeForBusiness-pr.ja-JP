@@ -10,15 +10,17 @@ ms.collection:
 - M365-collaboration
 search.appverid: MET150
 ms.reviewer: vikramju
+f1.keywords:
+- NOCSH
 description: 情報の障壁とチームへの影響について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0772a9599a38afc05520b8dcccba3cb463df3409
-ms.sourcegitcommit: 361ca60a66bab31cd54d8c1f805697460427e44d
+ms.openlocfilehash: f516c01bed0dfca0363602aa131a9da22bd916f6
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "38696827"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836647"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft Teams の情報障壁
 
@@ -102,7 +104,7 @@ IB コンプライアンス管理の役割は、情報バリアポリシーの�
 
 プランや価格などの詳細については、「[ライセンスガイダンス](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-tenantlevel-services-licensing-guidance)」を参照してください。
 
-## <a name="more-information"></a>詳細情報
+## <a name="more-information"></a>More information
 
 - 情報の障壁の詳細については、「[情報の障壁](https://docs.microsoft.com/office365/securitycompliance/information-barriers)」を参照してください。
 

@@ -11,18 +11,20 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: 製品を使用して Teams の導入を推進する方法について説明します。
+f1.keywords:
+- CSH
 ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ce2cec58d96e5c812cf63a9af1ebf6dfeffa7c13
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c8cf33a5ac4c498e6d6996f6096fbf9599b5ad2e
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244815"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837717"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Microsoft Teams で最初のチームを作成する
 
@@ -34,7 +36,7 @@ ms.locfileid: "36244815"
 | Microsoft Teams の実装 | General <br/> 認知度と導入 <br/> ビジネスエンゲージメント <br/> 早期導入プログラム <br/> フィードバックと分析 <br/> セキュリティとコンプライアンス <br/> 戦略と計画 <br/> サービス正常性とインシデント <br/> トレーニング <br/> Watercooler チャット |
 | チームワークエキスパート | General <br/> ベストプラクティス、トレーニング、および使い方 <br/> 精鋭コーナー <br/> フィードバックとサポート <br/> プログラムの潜在顧客 <br/> ソーシャルハブ |
 
-Microsoft Teams では、 [](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/tabs/tabs-overview)管理者によって有効になっているすべての Office 365 とサードパーティ製のアプリにアクセスできます。 製品の最大値を取得するには、適切な各チャネルのタブとしてキーリソースをピン留めすることをお勧めします。 次の例を参照してください。
+Microsoft Teams[では、](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/tabs/tabs-overview)管理者によって有効になっているすべての Office 365 とサードパーティ製のアプリにアクセスできます。 製品の最大値を取得するには、適切な各チャネルのタブとしてキーリソースをピン留めすることをお勧めします。 次の例を参照してください。
 
 ![既定のタブとカスタムタブを示すスクリーンショット](media/teams-adoption-tab-example.png)
 

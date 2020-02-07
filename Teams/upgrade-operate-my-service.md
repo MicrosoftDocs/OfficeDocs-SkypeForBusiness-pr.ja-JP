@@ -10,18 +10,20 @@ ms.reviewer: dearbeen
 description: サービスの正常性の監視、ネットワークの品質および使用状況の評価と確認など、Teams サービスの管理に必要なタスクとアクティビティ
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7be47504bab7c12803dee3728fcc872ce3a73ca
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: eab5673c1b4dcbc1810c96588577e6ee53938609
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236496"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837147"
 ---
 ![オペレーショナルエクセレンスステージを強調したアップグレードの図](media/upgrade-banner-op-excellence.png "オペレーショナルエクセレンスステージに重点を置いたアップグレードの段階")
 
@@ -253,7 +255,7 @@ Teams の利用状況データは、レポートダッシュボードで利用�
 
 #### <a name="required-permissions"></a>必要なアクセス許可
 
-管理センターの利用状況レポートには、**グローバル管理者**ロールが割り当てられているユーザーまたは製品固有の管理者ロール (**Exchange 管理者**、 **Skype for business 管理者**、SharePoint) がアクセスできます。 **管理者**)。
+管理センターの利用状況レポートには、**グローバル管理者**ロールが割り当てられているユーザー、または製品固有の管理者ロール (**Exchange 管理者**、 **Skype for business 管理者**、 **SharePoint 管理**者) がアクセスできます。
 
 さらに、レポート**リーダー**ロールは、レポートへのアクセスを必要とするが、管理者レベルのアクセス許可を必要とするタスクは実行しないユーザーが利用できます。 この役割を割り当てて、関係者であるユーザーに利用レポートを提供し、導入を監視して推進します。 利用可能なさまざまなロールの詳細については、「 [Office 365 管理者ロールについ](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)て」を参照してください。
 
@@ -459,7 +461,7 @@ Wi-fi ドライバーに問題がある可能性があります。 たとえば�
 
 [Microsoft Teams のサービスの正常性を確認する](service-health.md)
 
-[ビジネス製品のサポートへのお問い合わせ-管理者向けヘルプ](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+[ビジネス製品についてサポートに問い合わせる - 管理者ヘルプ](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
 [プレミアサポートに問い合わせる](https://support.microsoft.com/premier/contacts)
 

@@ -13,15 +13,17 @@ ms.collection:
 search.appverid: MET150
 ms.reviewer: rowille
 description: 組織から要求されているデータおよびアクセス許可アプリについて説明します。
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a5efc1ec447d1aeda3c42841752b6fd6e1f1938
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 5d7548d4d162310bc239c752e2bce38e725008f9
+ms.sourcegitcommit: 8e2fa7b744d0a174b699ae7298d4688b971eeff3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516786"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41845228"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft Teams アプリのアクセス許可と考慮事項
 
@@ -34,12 +36,12 @@ Microsoft Teams アプリは、1つ以上の機能をインストール、アッ
 
 アプリはユーザーによって各人され、ポリシーの観点から管理されます。 ただし、ほとんどの場合、アプリのアクセス許可とリスクプロファイルは、アプリに含まれる機能の権限とリスクのプロファイルによって定義されます。 したがって、この記事では、権限とその機能レベルに関する考慮事項について説明します。
 
-RECEIVE_MESSAGE や REPLYTO_MESSAGE などの大文字で示されているアクセス許可は、 [Microsoft Teams の開発者向けドキュメント](https://aka.ms/teamsdevdocs)または[microsoft Graph のアクセス許可](https://developer.microsoft.com/graph/docs/concepts/permissions_reference)のどこにも表示されません。 これらは、この記事の目的について簡単に説明しています。
+RECEIVE_MESSAGE や REPLYTO_MESSAGE などの大文字で示されているアクセス許可は、 [Microsoft Teams の開発者向けドキュメント](https://aka.ms/teamsdevdocs)または[microsoft Graph のアクセス許可](https://developer.microsoft.com/graph/docs/concepts/permissions_reference)のいずれかには表示されません。 これらは、この記事の目的について簡単に説明しています。
 
 
 |    |     |
 |-----------|------------|
-| ![判断ポイントを示すアイコン](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>次の表を参考にして、調査しているアプリで要求されているアクセス許可について理解してください。</li></ul> |
+| ![判断ポイントを表すアイコン](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>次の表を参考にして、調査しているアプリで要求されているアクセス許可について理解してください。</li></ul> |
 | ![次の手順を示すアイコン](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>アプリまたはサービス自体を調査して、組織内でのアクセスを許可するかどうかを決定します。 たとえば、ボットはユーザーからのメッセージを送受信します。また、エンタープライズ基幹業務用のボットを除いて、これらはコンプライアンスの境界外にあります。 そのため、bot を含むすべてのアプリには、これらのアクセス許可が必要であり、少なくともそのリスクのプロファイルが設定されています。 </li></ul>|
 
 ## <a name="global-app-permissions-and-considerations"></a>グローバルアプリのアクセス許可と考慮事項
@@ -60,25 +62,25 @@ RECEIVE_MESSAGE や REPLYTO_MESSAGE などの大文字で示されているア�
 
 ### <a name="required-permissions"></a>必要なアクセス許可
 
-- RECEIVE_MESSAGE, REPLYTO_MESSAGE. ボットは、ユーザーからのメッセージを受信して返信することができます。<sup>1</sup>
+- RECEIVE_MESSAGE、REPLYTO_MESSAGE。 ボットは、ユーザーからのメッセージを受信して返信することができます。<sup>1</sup>
 
-- POST_MESSAGE_USER. ユーザーがボットにメッセージを送信した後、ボットはユーザーのダイレクトメッセージ (*予防的なメッセージ*とも呼ばれます) をいつでも送信できます。
+- POST_MESSAGE_USER。 ユーザーがボットにメッセージを送信した後、ボットはユーザーのダイレクトメッセージ (*予防的なメッセージ*とも呼ばれます) をいつでも送信できます。
 
-- GET_CHANNEL_LIST. Teams に追加されたボットは、チーム内のチャネルの名前と Id の一覧を取得できます。
+- GET_CHANNEL_LIST。 Teams に追加されたボットは、チーム内のチャネルの名前と Id の一覧を取得できます。
 
 ### <a name="optional-permissions"></a>オプションの権限
 
 - 身分. チャネルで使用されている場合、アプリのボットは、チームメンバー (名、姓、ユーザープリンシパル名 [UPN]、メールアドレス) の基本的な id 情報にアクセスできます。個人またはグループチャットで使用されている場合、bot は、それらのユーザーに対して同じ情報にアクセスすることができます。
 
-- POST_MESSAGE_TEAM. ユーザーが以前に bot に話したことがない場合でも、アプリのボットが、任意の時点で任意のチームメンバーに対して直接 (予防的) メッセージを送信することを許可します。
+- POST_MESSAGE_TEAM。 ユーザーが以前に bot に話したことがない場合でも、アプリのボットが、任意の時点で任意のチームメンバーに対して直接 (予防的) メッセージを送信することを許可します。
 
-- 次に示すのは、明示的な権限ではなく、RECEIVE_MESSAGE と REPLYTO_MESSAGE によって暗黙的に指定されたものであり、マニフェストで宣言されているボットを使うことができるスコープです。
+- 次のようなアクセス許可は明示的ではありませんが、マニフェストで宣言された RECEIVE_MESSAGE と REPLYTO_MESSAGE と、ボットを使うことができるスコープによって暗黙的に指定されています。
  
-    - RECEIVE_MESSAGE_PERSONAL, REPLYTO_MESSAGE_PERSONAL
-    - RECEIVE_MESSAGE_GROUPCHAT, REPLYTO_MESSAGE_GROUPCHAT
-    - RECEIVE_MESSAGE_TEAM, REPLYTO_MESSAGE_TEAM
+    - RECEIVE_MESSAGE_PERSONAL、REPLYTO_MESSAGE_PERSONAL
+    - RECEIVE_MESSAGE_GROUPCHAT、REPLYTO_MESSAGE_GROUPCHAT
+    - RECEIVE_MESSAGE_TEAM、REPLYTO_MESSAGE_TEAM
 
-- SEND_FILES, RECEIVE_FILES.<sup>2</sup> bot が個人的なチャットでファイルを送受信できるかどうかを制御します (グループチャットまたはチャネルではまだサポートされていません)。
+- SEND_FILES、RECEIVE_FILES。<sup>2</sup> bot が個人的なチャットでファイルを送受信できるかどうかを制御します (グループチャットまたはチャネルではまだサポートされていません)。
 
 ### <a name="considerations"></a>考慮事項
 
@@ -106,9 +108,9 @@ RECEIVE_MESSAGE や REPLYTO_MESSAGE などの大文字で示されているア�
 
 - メッセージングの内線番号には、ユーザーの IP アドレスと参照元情報が表示されます。
 
-- アプリのガイドライン (およびその AppSource review プロセス) では、正当な目的のために、ユーザーに (POST_MESSAGE_TEAM のアクセス許可を通じて) 個人のチャットメッセージを投稿することが必要です。 不正使用の場合は、ユーザーがボットをブロックできるため、テナント管理者はアプリをブロックすることができます。また、必要に応じて、ボットを一元的にブロックすることができます。
+- アプリのガイドライン (およびその AppSource review プロセス) では、有効な目的のために、ユーザーに (POST_MESSAGE_TEAM アクセス許可を使用して) 個人のチャットメッセージを送信するための判断が必要です。 不正使用の場合は、ユーザーがボットをブロックできるため、テナント管理者はアプリをブロックすることができます。また、必要に応じて、ボットを一元的にブロックすることができます。
 
-<sup>1</sup>一部のボットはメッセージ (POST_MESSAGE_USER) のみを送信します。 "通知のみ" と呼ばれますが、ボットが許可されているものや、許可されていないものを指しているわけではないことを意味します。 このフィールドは、通常は有効になる UI の機能を無効にするために使用されます。このボットは、会話体験を公開しているボットと比較した場合に制限されていません。
+<sup>1</sup>一部のボットはメッセージのみを送信します (POST_MESSAGE_USER)。 "通知のみ" と呼ばれますが、ボットが許可されているものや、許可されていないものを指しているわけではないことを意味します。 このフィールドは、通常は有効になる UI の機能を無効にするために使用されます。このボットは、会話体験を公開しているボットと比較した場合に制限されていません。
 
 <sup>2</sup>は、アプリの manifest.xml ファイルの bot オブジェクトの Supportsfiles ブールプロパティによって制御されます。
 
@@ -145,7 +147,7 @@ POST_MESSAGE_CHANNEL
 
 ### <a name="optional-permissions"></a>オプションの権限
 
-REPLYTO_CONNECTOR_MESSAGE. 一部のコネクタは、操作可能なメッセージをサポートします。これにより、ユーザーは GitHub の問題への応答の追加や、Trello カードへの日付の追加などを行うことができます。
+REPLYTO_CONNECTOR_MESSAGE。 一部のコネクタは、操作可能なメッセージをサポートします。これにより、ユーザーは GitHub の問題への応答の追加や、Trello カードへの日付の追加などを行うことができます。
 
 ### <a name="considerations"></a>考慮事項
 
@@ -168,11 +170,11 @@ REPLYTO_CONNECTOR_MESSAGE. 一部のコネクタは、操作可能なメッセ�
 
 ## <a name="outgoing-webhooks"></a>発信 web フック
 
-テナントに対してサイドローディングが有効になっている場合、*送信 web フック*は、チーム所有者またはチームメンバーがその場で作成します。 チームアプリの機能ではありません。この情報は、完全性のために含まれています。
+*発信 web フック*は、チーム所有者またはチームメンバーごとに作成されます。 チームアプリの機能ではありません。この情報は、完全性のために含まれています。
 
 ### <a name="required-permissions"></a>必要なアクセス許可
 
-RECEIVE_MESSAGE, REPLYTO_MESSAGE. ユーザーからのメッセージを受信して返信することができます。
+RECEIVE_MESSAGE、REPLYTO_MESSAGE。 ユーザーからのメッセージを受信して返信することができます。
 
 ### <a name="optional-permissions"></a>オプションの権限
 
