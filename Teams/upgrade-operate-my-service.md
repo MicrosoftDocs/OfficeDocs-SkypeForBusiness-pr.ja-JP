@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eab5673c1b4dcbc1810c96588577e6ee53938609
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2e3ef345df2696cd0d450f8b16d93508d0eed545
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837147"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863518"
 ---
 ![オペレーショナルエクセレンスステージを強調したアップグレードの図](media/upgrade-banner-op-excellence.png "オペレーショナルエクセレンスステージに重点を置いたアップグレードの段階")
 
@@ -345,7 +345,7 @@ NPS アンケートを組織に提供するために、お気に入りのオン�
 
 ## <a name="manage-network-quality"></a>ネットワークの品質を管理する
 
-多くの主要な計画要素は、ネットワークインフラストラクチャを最適化、サイズ変更、およびを修復するして、Microsoft Teams サービスへの高品質で効率的なパスを実現します。 計画のタスクと要件については、skype の[ネットワーク準備](upgrade-prepare-environment-prepare-network.md)ガイダンスに記載されています。 ネットワークは、アップグレード、拡張、またはその他のビジネス要件により、時間の経過と共に進化することがよくあります。 ネットワーク計画のアクティビティで Teams の要件を考慮することが重要です。
+多くの主要な計画要素は、ネットワークインフラストラクチャを最適化、サイズ変更、およびを修復するして、Microsoft Teams サービスへの高品質で効率的なパスを実現します。 計画のタスクと要件については、skype の[ネットワーク準備](prepare-network.md)ガイダンスに記載されています。 ネットワークは、アップグレード、拡張、またはその他のビジネス要件により、時間の経過と共に進化することがよくあります。 ネットワーク計画のアクティビティで Teams の要件を考慮することが重要です。
 
 ネットワーク計画はチーム展開の重要な要素ですが、ビジネス上の変化や技術上の要件に基づいて、ネットワークの状態を維持し、最新の状態を維持することも重要です。
 
@@ -431,7 +431,7 @@ Wi-fi ドライバーに問題がある可能性があります。 たとえば�
 
 1. **サービス正常性の検証:** ユーザーが遭遇する可能性のある問題は、Teams サービスまたはその依存サービスに悪影響を与えるイベントに関連する可能性があります。 最初の手順として、アクティブなサービスの問題がないことを確認することをお勧めします。 [Office 365 サービス正常性をチェックする方法を](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0)参照してください。 依存するサービス (Exchange、SharePoint、OneDrive for Business など) の状態を確認してください。 サービス正常性の監視について詳しくは、前のセクション「[サービス正常性を監視](#monitor-service-health)する」をご覧ください。
 
-2. **クライアント接続の検証:** 接続の問題により、Teams で機能またはサインインの問題が発生します。 サービスへの接続を検証することをお勧めします (特に新しいサイトまたは場所の場合)。 次の[Office 365 url と IP アドレス範囲](https://aka.ms/o365ips)のガイダンスが各サイトで使用されていることを確認します。 [Microsoft ネットワーク評価ツール](https://www.microsoft.com/download/details.aspx?id=53885)を利用して、接続テストを実行し、チームの機能に対してメディアポートが正しく開かれていることを確認することができます。 接続テストの実行方法の詳細な手順については、「[ネットワークの準備](upgrade-prepare-environment-prepare-network.md)ガイダンス」をご覧ください。
+2. **クライアント接続の検証:** 接続の問題により、Teams で機能またはサインインの問題が発生します。 サービスへの接続を検証することをお勧めします (特に新しいサイトまたは場所の場合)。 次の[Office 365 url と IP アドレス範囲](https://aka.ms/o365ips)のガイダンスが各サイトで使用されていることを確認します。 [Microsoft ネットワーク評価ツール](https://www.microsoft.com/download/details.aspx?id=53885)を利用して、接続テストを実行し、チームの機能に対してメディアポートが正しく開かれていることを確認することができます。 接続テストの実行方法の詳細な手順については、「[ネットワークの準備](prepare-network.md)ガイダンス」をご覧ください。
 
 3. **既知の問題の一覧を確認します。** これらの問題のいずれかによってユーザーが悪影響を受けたかどうかを確認するには、 [Teams の既知の問題の一覧](known-issues.md)を参照してください。 問題を解決するために用意されている回避策 (ある場合) に従います。
 

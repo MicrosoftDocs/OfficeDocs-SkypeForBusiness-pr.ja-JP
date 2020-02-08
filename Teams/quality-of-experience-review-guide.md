@@ -1,11 +1,11 @@
 ---
 title: Microsoft Teams のエクスペリエンスの品質レビュー ガイド
-author: lanachin
-ms.author: v-lanac
+author: lolajacobsen
+ms.author: lolaj
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: rowille
+ms.reviewer: siunies
 audience: admin
 description: 通話品質ダッシュボード (CQD) を使用して、Microsoft Teams のリアルタイムのメディアパフォーマンスを分析するためのガイドです。
 localization_priority: Normal
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff4fe3a0a8a43c23978345461b0d32fe5182a6dd
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 6e11c7d479aeac6eef39fb38588a61c0c7be25a6
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838257"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863398"
 ---
 # <a name="quality-of-experience-review-guide"></a>QoE のレビュー ガイド
 
@@ -1141,8 +1141,6 @@ Skype for Business と Teams、特にメディアトラフィックのプロキ�
 HTTP の使用の最も一般的な原因は、プロキシに例外規則がありません。 提供されている建物またはサブネットを使うと、メディアバイパス用に構成する必要があるプロキシをすばやく判断できます。
 
 必須の[Office 365 fqdn](https://aka.ms/o365ips)がプロキシに表示されていることを確認します。
-
-Skype for Business Online および Teams でのプロキシの使用の詳細については、こちらの[記事](proxy-servers-for-skype-for-business-online.md)を参照してください。
 
 ## <a name="endpoint-investigations"></a>エンドポイントの調査
 

@@ -14,33 +14,32 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom:
 - Optimization
-description: この記事では、Teams または Skype for Business でのプロキシサーバーの使用について説明します。
-ms.openlocfilehash: ca81c32064406af0e5bc3d614566a96ec5646a91
+description: この記事では、Skype for Business でのプロキシサーバーの使用について説明します。
+ms.openlocfilehash: a154b36fc03dc84916d5cb4bd383ff80bef901cd
 ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863188"
+ms.locfileid: "41863754"
 ---
-# <a name="proxy-servers-for-teams-or-skype-for-business-online"></a>Teams または Skype for Business Online 向けのプロキシ サーバー
+# <a name="proxy-servers-for-skype-for-business-online"></a>Skype for Business Online のプロキシサーバー
 
-この記事では、Teams または Skype for Business でのプロキシサーバーの使用に関するガイダンスを提供します。
+この記事では、Skype for Business でのプロキシサーバーの使用に関するガイダンスを提供します。
   
 ## <a name="not-using-a-proxy-server-is-recommended"></a>プロキシ サーバーの使用はお勧めしません。
 
-プロキシ経由の Teams または Skype for Business トラフィックについては、プロキシをバイパスすることをお勧めします。 プロキシは、トラフィックが既に暗号化されているため、チームまたは Skype for Business の安全性を高めません。
+プロキシ経由の Skype for Business トラフィックについては、Microsoft はプロキシをバイパスすることをお勧めします。 プロキシでは、トラフィックが既に暗号化されているため、Skype for Business のセキュリティを強化することはできません。
   
 また、プロキシを使用すると問題が発生する可能性があります。 パフォーマンスに関連する問題は、待ち時間とパケット損失によって環境に導入される可能性があります。 このような問題が発生した場合、そのようなチームまたは Skype for Business のシナリオでは、リアルタイムのストリームが不可欠であるため、オーディオとビデオとして、否定的な経験が発生する可能性があります。
   
 ## <a name="if-you-need-to-use-a-proxy-server"></a>プロキシ サーバーを使用する必要がある場合
 
-組織によっては、Teams または Skype for Business のトラフィックに対してプロキシをバイパスするオプションがありません。 そのような場合は、上記の問題について注意しておく必要があります。
+組織によっては、Skype for Business トラフィックのプロキシをバイパスするオプションがありません。そのような場合は、上記の問題について注意しておく必要があります。
   
 Microsoft は次を実行することもお勧めします。
   
@@ -50,13 +49,15 @@ Microsoft は次を実行することもお勧めします。
     
 - UDP トラフィックを許可する
     
-- ネットワークガイドラインのその他の推奨事項に従う: [Teams 用に組織のネットワークを準備](prepare-network.md)する
-  
+- ネットワークガイドラインのその他の推奨事項に従ってください。
+    
+  - [Skype for Business Online におけるメディアの品質とネットワーク接続性のパフォーマンス](media-quality-and-network-connectivity-performance.md)
+    
+  - [Skype for Business Online 向けのネットワークの最適化](optimizing-your-network.md)
     
 このガイダンスに従うことで、問題が生じる可能性が最小になります。
   
 ## <a name="related-topics"></a>関連トピック
 
-[Office 365 のネットワーク接続の原則](https://aka.ms/pnc)
-
-[Teams 用に組織のネットワークを準備する](prepare-network.md)
+[Skype for Business Online 向けのネットワークの最適化](optimizing-your-network.md)
+ 

@@ -3,12 +3,11 @@ title: Microsoft Teams 用に組織のネットワークを準備する
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/25/2019
-ms.topic: reference
+ms.topic: article
 ms.service: msteams
-ms.reviewer: arachman
+ms.reviewer: jastark, kojika
 audience: admin
-description: ネットワーク要件、帯域幅要件、その他の考慮事項といった Microsoft Teams ネットワークの準備と管理について説明します。
+description: Microsoft Teams を展開する前に、チームの準備ができていることを確認するために、ネットワークの評価と準備を行います。 情報には、ネットワーク要件、帯域幅要件、ネットワーク最適化ガイダンスが含まれています。
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -17,106 +16,145 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d331a063feacbaea5cb510c316d2b27d982eb03
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: dd27dfd6fccba5c7e9db52d58f7a6253849bea54
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834637"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41862907"
 ---
-# <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Microsoft Teams 用に組織のネットワークを準備する
+# <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Microsoft Teams 用に組織のネットワークを準備する 
 
+## <a name="network-requirements"></a>ネットワーク要件
 
-Teams は 3 つの形態のトラフィックを組み合わせて使用します。
+[Office 365 用にネットワークの最適化](https://docs.microsoft.com/Office365/Enterprise/assessing-network-connectivity)を既に行っている場合は、Microsoft Teams の準備ができている可能性があります。 いずれの場合も、チームのロールアウトを開始する前に次のことを確認してください。
 
--   Office 365 オンライン環境と Teams クライアント間のデータ トラフィック (信号、プレゼンス、チャット、ファイルのアップロードとダウンロード、OneNote 同期)。
+1.  すべての場所でインターネットにアクセスできますか (Office 365 に接続できるようにします)。 少なくとも、通常の web トラフィックに加えて、Teams のメディアについては、すべての場所で次のように開いていることを確認してください。
 
--   ピアツーピアのリアルタイムのコミュニケーション トラフィック (音声、ビデオ、デスクトップ共有)。
+    |  |  |
+    |---------|---------|
+    |ポート     |UDP ポート<strong>3478</strong> ~ <strong>3481</strong>        |
+    |[IP アドレス](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) |<strong>13.107.64.0/18</strong>および<strong>52.112.0.0/14</strong>        |
+    
+2.  Office 365 の確認済みドメイン (たとえば、contoso.com) があるか。
+    
+      - 組織が Office 365 を展開していない場合は、「一般[法人向け office 365](https://docs.microsoft.com/office365/admin/admin-overview/get-started-with-office-365)の概要」を参照してください。
+      - 組織で Office 365 の確認済みドメインを追加または構成していない場合は、「 [office 365 ドメインを確認](https://docs.microsoft.com/office365/admin/setup/domains-faq)する」を参照してください。
 
--   会議型のリアルタイムのコミュニケーション トラフィック (音声、ビデオ、デスクトップ共有)。
+3.  組織が Exchange Online と SharePoint Online を展開していますか?
+    
+      - 組織に Exchange Online がインストールされていない場合は、「 [exchange と Microsoft Teams の相互作用](exchange-teams-interact.md)」を参照してください。
+      - 組織に SharePoint Online がインストールされていない場合は、「 [Sharepoint online と OneDrive For business が Microsoft Teams とどのように連携するかについ](sharepoint-onedrive-interact.md)て」を参照してください。
 
-この組み合わせは 2 つのレベルにおけるネットワークに対して影響を及ぼします。ピアツーピアのシナリオの場合、トラフィックは Microsoft Teams クライアント間で直接にフローします。会議のシナリオの場合、トラフィックは Office 365 環境と Microsoft Teams クライアント間をフローします。最適なトラフィック フローを実現するには、内部ネットワーク セグメント間 (WAN 上でのサイト間) のフロー、さらにネットワーク サイトと Office 365 間のフローの両方を許可する必要があります。適切なポートを開かなかったり、特定のポートを自動的に遮断すると、ネットワーク エクスペリエンスの質が低下します。
-
-
-Microsoft Teams でリアルタイム メディアの最適な操作性を実現するには、Office 365 のネットワーク要件を満たす必要があります。 詳細については、「[Skype for Business Online におけるメディアの品質とネットワーク接続性のパフォーマンス](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)」をご覧ください。
-
-2 つの重要なネットワーク セグメント (クライアントから Microsoft Edge、Customer Edge から Microsoft Edge) については、以下の推奨事項を考慮してください。
-
-
-|値  |クライアントから Microsoft Edge  |Customer Edge から Microsoft Edge  |
-|:--- |:--- |:--- |
-|**遅延 (一方向)** \*  |< 50 ミリ秒          |< 30 ミリ秒         |
-|**遅延 (RTT または往復時間)** \* |< 100 ミリ秒   |< 60 ミリ秒 |
-|**バースト パケット損失**    |< 任意の 200 ミリ秒間隔で 10%         |< 任意の 200 ミリ秒間隔で 1%         |
-|**パケット損失**     |< 任意の 15 秒間隔で 1%          |< 任意の 15 秒間隔で 0.1%         |
-|**パケット到着間ジッター**    |< 15 秒間隔で 30 ミリ秒         |< 任意の 15 秒間隔で 15 ミリ秒         |
-|**パケットの並べ替え**    |< 順序が適切でないパケットが 0.05%         |< 順序が適切でないパケットが 0.01%         |
-
-\*待機時間メトリック ターゲットは、会社の 1 つまたは複数のサイトと  Microsoft edge が同じ大陸にあることを前提としています。
-
-Microsoft のネットワーク エッジへの会社のサイト接続には、WiFi またはその他のワイヤレス テクノロジとして使用できるファーストホップ ネットワーク アクセスが含まれています。
-
-ネットワークのパフォーマンス目標は適切な帯域幅や[QoS 計画](QoS-in-Teams.md)を想定しています。 つまり、ネットワーク接続負荷のピーク時は、要件が Teams リアルタイム メディア トラフィックに直接適用されます。
-
-Teams のネットワークを準備する方法について詳しくは、「[ネットワークプランナー](https://docs.microsoft.com/microsoftteams/network-planner)」をご覧ください。
-
-
-## <a name="bandwidth-requirements"></a>帯域幅要件
-Microsoft Teams を使用すると、最高のオーディオ、ビデオ、およびコンテンツのエクスペリエンスをネットワークの状態に関係なく共有できます。 可変コーデックを使用すると、限られた帯域幅の環境で最小限の影響でメディアをネゴシエートできます。 しかし帯域幅が問題にならない場合は、最大 1080 p のビデオ解像度、最大 30 fps のビデオと 15 fps コンテンツの、ハイファイ オーディオなど、エクスペリエンスを品質に合わせて最適化できます。
-
-[!INCLUDE [Bandwidth requirements](includes/bandwidth-requirements.md)]
-
-
-<!--
-The content you will find below can be used as supplemental background information; however, it is recommended that customers use [Network Planner](https://aka.ms/bwcalc) to track their needs.
+これらのネットワーク要件を満たしていることを確認したら、チームを[ロールアウト](How-to-roll-out-teams.md)することができます。 大企業向けの企業の場合、またはネットワークの制限事項があることがわかっている場合は、「チームのネットワークを評価して最適化する方法」をご覧ください。
 
 > [!IMPORTANT]
->If the required bandwidth is not available, the media stack inside Teams will degrade the quality of the audio/video session to accommodate for that lower amount of available bandwidth, impacting the quality of the call/meeting. The Teams client will attempt to prioritize the quality of audio over the quality of video. It is therefore extremely important to have the expected bandwidth available.
+> **教育機関向けの**場合: 組織が教育機関であり、学生情報システム (SIS) を使用している場合は、チームをロールアウトする前に[School Data Sync を展開](https://docs.microsoft.com/schooldatasync/)してください。
+>  
+> **オンプレミスの skype For Business server を実行**している場合: 組織がオンプレミスの Skype For business server (または Lync server) を実行している場合、オンプレミスのディレクトリを Office 365 と同期するように[Azure AD Connect を構成](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-azure-ad-connect)する必要があります。
 
+### <a name="best-practice-monitor-your-network-using-cqd-and-call-analytics"></a>ベストプラクティス: CQD と通話分析を使用してネットワークを監視する 
 
-|Activity  |Download Bandwidth  |Upload Bandwidth  |Traffic Flow |
-|---------|---------|---------|---------|
-|**Peer to peer Audio Call**     |0.1 Mb         |0.1Mb         |Client <> Client         |
-|**Peer to peer Video Call (full screen)**     |4 Mb         |4Mb         |Client <> Client          |
-|**Peer to peer Desktop Sharing (1920*1080 resolution)**     |4 Mb         |4 Mb         |Client <> Client          |
-|**2 Participant Meeting**     |4 Mb         |4 Mb         |Client <> Office 365         |
-|**3 participant meeting**     |8 Mb         |6.5 Mb         |Client <> Office 365           |
-|**4 participant meeting**     |5.5 Mb         |4 Mb         |Client <> Office 365           |
-|**5 participant+ meeting**     |6 Mb         |1.5 Mb         |Client <> Office 365           |
--->
+[通話品質ダッシュボード (CQD)](turning-on-and-using-call-quality-dashboard.md)を使用して、Teams での通話と会議の品質を把握します。 CQD は、品質、信頼性、ユーザーエクスペリエンスを常に把握して、ネットワークを最適化するのに役立ちます。 CQD は、全体的なパターンが明らかになる組織全体の集計テレメトリを確認します。これにより、問題を特定し、修復を計画することができます。 さらに、CQD には、品質、信頼性、ユーザーエクスペリエンス全体を把握するための、豊富な指標レポートが用意されています。 
 
-<a name="additional-network-considerations"></a>ネットワークに関する追加の考慮事項
----------------
+個々のユーザーの通話と会議の問題を調査するには、[通話分析](set-up-call-analytics.md)を使用します。
 
-#### <a name="external-name-resolution"></a>外部の名前解決
+## <a name="network-optimization"></a>ネットワーク最適化
 
-Teams を実行するすべてのクライアント コンピュータが外部 DNS クエリを解決して、Office 365 によって提供されるサービスを検出できること、およびファイアウォールが接続を妨げていないことを確認してください。 ファイアウォールのポートを構成する方法については、「 [Office 365 の URL と IP 範囲](office-365-urls-ip-address-ranges.md)」をご覧ください。
+次のタスクはオプションであり、チームをロールアウトする場合は必須ではありません。特に、小規模なビジネスで、Office 365 を既に展開している場合は、その必要はありません。 このガイダンスを使用して、ネットワークとチームのパフォーマンスを最適化します。また、ネットワークの制限事項があることがわかっている場合に使います。
 
-#### <a name="nat-pool-size"></a>NAT プール サイズ
+次のような場合には、追加のネットワーク最適化を行うことができます。
 
-複数のユーザーまたはデバイスがネットワーク アドレス変換 (NAT) またはポート アドレス変換 (PAT) を使用して Office 365 にアクセスする場合は、パブリック ルーティング可能な各 IP アドレスの後ろに隠れているデバイスが、サポートされる数値を超過していないことを確認する必要があります。
+  - チームの実行速度が遅い (帯域幅が十分でない可能性がある)
+  - 通話が切断される (ファイアウォールまたはプロキシブロックが原因である可能性があります)
+  - 通話は静的-y およびカットアウト、またはロボットなどのボイスサウンド (ジッタまたはパケットロスの可能性があります)
 
-このリスクを軽減するには、適切なパブリック IP アドレスを NAT プールに割り当ててポート枯渇を回避します。 ポート枯渇は、Office 365 サービスに接続するときに発生するエンドユーザーやデバイスの問題の原因となります。 詳細については、[Office 365 の NAT サポート](https://support.office.com/article/NAT-support-with-Office-365-170e96ea-d65d-4e51-acac-1de56abe39b9)をご覧ください。
+ネットワークの障害を特定して修正するためのガイダンスなど、ネットワークの最適化の詳細については、「 [Office 365 のネットワーク接続の原則](https://aka.ms/pnc)」を参照してください。
 
-#### <a name="intrusion-detection-and-prevention-guidance"></a>**侵入検知/防御のガイダンス**
+<table>
+<thead>
+<tr class="header">
+<th><strong>ネットワーク最適化タスク</strong></th>
+<th><strong>詳細</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ネットワークプランナー</td>
+<td><p>組織の物理的な場所での帯域幅の計算やネットワーク要件など、ネットワークの評価について詳しくは、「 <a href="https://docs.microsoft.com/microsoftteams/network-planner">Network Planner</a> <a href="https://admin.teams.microsoft.com">ツール」をご覧ください。</a> ネットワークの詳細とチームの利用状況を入力すると、ネットワーク Planner によって、組織の物理的な場所でチームとクラウドボイスを展開するためのネットワーク要件が計算されます。</p>
+<p>シナリオの例については、「<a href="https://docs.microsoft.com/microsoftteams/tutorial-network-planner-example">ネットワークプランナーの使用例のシナリオ</a>」を参照してください。</p></td>
+</tr>
+<tr class="even">
+<td>チーム向けのアドバイザー</td>
+<td><a href="https://docs.microsoft.com/microsoftteams/use-advisor-teams-roll-out">チームのアドバイザー</a>は<a href="https://admin.teams.microsoft.com">teams 管理センター</a>の一部です。 Office 365 環境を評価し、Teams を正常に展開する前に更新または変更する必要がある最も一般的な構成を特定します。</td>
+</tr>
+<tr class="odd">
+<td>外部の名前解決</td>
+<td>Teams クライアントを実行しているすべてのコンピューターで、Office 365 によって提供されるサービスを検出し、ファイアウォールによってアクセスが拒否されていないことを確認します。 ファイアウォールのポートを構成する方法については、「 <a href="https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges">Office 365 の URL と IP 範囲</a>」をご覧ください。</td>
+</tr>
+<tr class="odd">
+<td>検証 (NAT) プールサイズ</td>
+<td>ユーザー接続に必要なネットワークアドレス変換 (NAT) プールサイズを確認します。 複数のユーザーやデバイスが<a href="https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365">ネットワークアドレス変換 (NAT) またはポートアドレス変換 (PAT)</a>を使って Office 365 にアクセスする場合、各パブリックルーティング可能な IP アドレスの背後に隠れているデバイスが、サポートされている番号を超えないようにする必要があります。 ポートの枯渇を防ぐため、適切なパブリック IP アドレスが NAT プールに割り当てられていることを確認します。 ポートの枯渇は、社内ユーザーと、Office 365 サービスに接続できないデバイスに寄与します。</td>
+</tr>
+<tr class="even">
+<td>Microsoft データセンターへのルーティング</td>
+<td><a href="https://docs.microsoft.com/office365/enterprise/client-connectivity">Microsoft データセンターへの最も効率的なルーティングを実装</a>します。 ローカルまたは地域の出口ポイントを使用して、可能な限り効率的に Microsoft ネットワークに接続できる場所を特定します。</td>
+</tr>
+<tr class="odd">
+<td>侵入検知/防御のガイダンス</td>
+<td>お客様の環境に、送信接続用のセキュリティレイヤーを追加するために展開された<a href="https://docs.microsoft.com/azure/network-watcher/network-watcher-intrusion-detection-open-source-tools">侵入検出</a>または防止システム (IDS/IPS) が展開されている場合は、すべての Office 365 url をホワイトリストしてください。</td>
+</tr>
+<tr class="even">
+<td>分割トンネル VPN を構成する</td>
+<td><p>一般に[分割トンネル VPN](https://docs.microsoft.com/windows/security/identity-protection/vpn/vpn-routing)と呼ばれる仮想プライベートネットワーク (VPN) をバイパスするチームトラフィックの代替パスを指定することをお勧めします。 [トンネリングの分割とは、Office 365 のトラフィックが VPN 経由ではなく、直接 Office 365 に移動することを意味します。 VPN をバイパスすると、チームの品質にプラスの影響があり、VPN デバイスと組織のネットワークの負荷が軽減されます。 分離トンネル VPN を実装するには、VPN ベンダーと共同作業を行います。</p>
+<p>VPN のバイパスが推奨されるその他の理由:
+<ul>
+<li><p>通常、Vpn は、リアルタイムメディアをサポートするように設計されていないか、構成されていません。</p></li> 
+<li><p>一部の Vpn は、UDP をサポートしていない場合もあります (Teams に必要)。</p></li> 
+<li><p>Vpn は、既に暗号化されているメディアトラフィックの上に、暗号化の追加レイヤーを導入することもあります。</p></li> 
+<li><p>VPN デバイス経由でのヘアピンによるトラフィックにより、Teams への接続は効率的でない可能性があります。</p></li></td>
+</tr>
+<tr class="odd">
+<td>QoS の実装</td>
+<td><a href="https://docs.microsoft.com/microsoftteams/qos-in-teams">QoS (Quality Of Service) を使っ</a>てパケットの優先順位を設定します。 これにより、チームの通話品質が向上し、通話品質の監視とトラブルシューティングが容易になります。 QoS は、管理されたネットワークのすべてのセグメントに実装する必要があります。 ネットワークが帯域幅用に適切にプロビジョニングされている場合でも、予期しないネットワークイベントが発生した場合は、QoS によってリスクを軽減することができます。 QoS では、このような予期しないイベントが品質に悪影響を与えないように、ボイストラフィックの優先順位が付けられます。</td>
+</tr>
+<tr class="even">
+<td>WiFi の最適化</td>
+<td><p>VPN と同じように、WiFi ネットワークは、リアルタイムメディアをサポートするように設計されていないこともあります。 チームをサポートするための WiFi ネットワークを計画または最適化することは、高品質な展開を行うための重要な考慮事項です。 次のような要素を考慮してください。</p>
+<ul>
+<li><p>QoS または WiFi マルチメディア (WMM) を実装して、WiFi ネットワーク経由でメディアトラフィックの優先順位が適切に付けられるようにします。</p></li>
+<li><p>WiFi バンドおよびアクセスポイントの配置を計画して最適化します。 2.4 GHz の範囲は、アクセスポイントの配置によっては適切なエクスペリエンスを提供する場合がありますが、アクセスポイントは、その範囲内で動作する他のコンシューマーデバイスによって影響を受けることがあります。 5 GHz の範囲は、高密度な範囲に基づくリアルタイムのメディアに適していますが、十分な範囲を確保するには、さらに多くのアクセスポイントが必要です。 エンドポイントも、その帯をサポートしており、それらの帯を利用できるように構成されている必要があります。</p></li>
+<li><p>デュアルバンド WiFi ネットワークを使用している場合は、バンドステアリングの実装を検討してください。 <em>バンドステアリング</em>は、5 GHz のクライアントを使用するようにデュアルバンドクライアントに影響を与えるために、WiFi ベンダーによって実装された手法です。</p></li>
+<li><p>同じチャネルのアクセスポイントが近すぎる場合は、信号の重複が発生し、意図せず競合する可能性があり、その結果、ユーザーにとって悪い操作が発生する可能性があります。 互いに隣接するアクセスポイントが重なっていないチャネル上にあることを確認します。</p></li>
+</ul>
+<p>各無線ベンダーは、その無線ソリューションを展開する場合の推奨事項をそれぞれ持っています。 具体的なガイダンスについては、WiFi ベンダーにお問い合わせください。</p></td>
+</tr>
+</tbody>
+</table>
 
-送信接続の追加のセキュリティ レイヤとして環境に侵入検知/防御システム (IDS/IPS) が配備されている場合は、送信先から Office 365 URL へのトラフィックがホワイトリストに記載されていることを確認してください。
+## <a name="bandwidth-requirements"></a>帯域幅要件
 
-<a name="network-health-determination"></a>ネットワーク正常性の確認
------------------
+Teams は、ネットワークの状況に関係なく、最適なオーディオ、ビデオ、およびコンテンツ共有のエクスペリエンスを提供するために設計されています。 ただし、帯域幅が十分でない場合、チームはビデオ品質よりも音質の高い音質を優先します。
 
-ネットワーク内で Microsoft Teams を実装する計画を行う場合は、必要とされる帯域幅とすべての必須 IP アドレスへのアクセスを確保していること、正しいポートが開かれていること、リアルタイム メディアのパフォーマンス要件を満たしていることを確認する必要があります。
+帯域幅が制限されて*いない*場合、チームは、最大1080p のビデオ解像度、ビデオ用および 15 fps 用の最大30fps、および高品質のオーディオを含むメディアの品質を最適化します。 
 
-これらの条件を満たすことができない場合は通話や会議中の品質が悪くなるため、エンドユーザーは Teams の最適なエクスペリエンスを得ることができません。
+[!INCLUDE [bandwidth-requirements](includes/bandwidth-requirements.md)]
 
-これらの要件を満たしていない場合は、先に進む前にプロジェクトを中断して、条件を満たすことをお勧めします。
-
-
-|  |  |  |
-|---------|---------|---------|
-|![判断ポイントを表すアイコン](media/Prepare_your_organizations_network_for_Microsoft_Teams_image3.png)    |判断ポイント         |リアルタイム メディアをサポートするためにネットワーク能力を評価したことはありますか?<br></br>ネットワークが正しく評価されていない場合やリアルタイム メディアをサポートできないことが事前に分かっている場合は、ビデオや画面共有の機能を無効にして、ネットワークへの影響を軽減し、Teams エクスペリエンスの質を向上させることができます。         |
-|![次の手順を示すアイコン](media/Prepare_your_organizations_network_for_Microsoft_Teams_image4.png)     |次のステップ         |ネットワーク品質不明: ネットワークの準備評価を実行して、ネットワークがリアルタイムメディアの準備ができているかどうかを確認します。<br></br>ネットワークの品質が乏しい場合: ネットワーク改善の手順を実行して、高品質なリアルタイム メディアに適した環境を整えてください。<br></br>十分なネットワーク品質: すべての IP アドレスやポートに正しくアクセスできることを確認してください。           |
 
 ## <a name="related-topics"></a>関連項目
 
-[ビデオ : ネットワーク計画](https://aka.ms/teams-networking)
+[Office 365 のネットワーク接続の原則](https://aka.ms/pnc)
+
+[ワールドワイドエンドポイント: Skype for Business Online と Teams](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)
+
+[Teams のプロキシサーバー](proxy-servers-for-skype-for-business-online.md)
+
+[Teams のメディア: 会議が簡単である理由](https://aka.ms/teams-media)
+
+[Teams のメディア: メディアフローの詳細](https://aka.ms/teams-media-flows)
+
+[Teams での ID モデルと認証](identify-models-authentication.md)
+
+[Teams の展開方法](How-to-roll-out-teams.md)
+
+

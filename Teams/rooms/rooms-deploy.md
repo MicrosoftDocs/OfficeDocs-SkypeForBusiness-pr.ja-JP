@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Microsoft Teams ルームの展開については、この記事を参照してください。
-ms.openlocfilehash: 3cc8df810989163b622a96dc5f16c8aa883447cd
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 650302d6d952a59c1cc460e2cdf8758cfb0fcd41
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825965"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863348"
 ---
 # <a name="deployment-overview"></a>展開の概要
 
@@ -45,7 +45,7 @@ Microsoft Teams の会議室の展開は、基本的にフェーズに分けて�
 -   [証明書](rooms-prep.md#certificates)
 -   [プロキシ](rooms-prep.md#proxy)
 
-**Pro ヒント**-プロキシサーバーを使用して Microsoft Teams または Skype For business Online へのアクセスを提供する場合は、まず[この記事を確認](https://docs.microsoft.com/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online)してください。 プロキシサーバー経由の Skype for Business トラフィックについては、プロキシサーバーを完全にバイパスすることをお勧めします。 Skype for Business トラフィックは既に暗号化されているため、プロキシサーバーのセキュリティが強化されることはありません。 広い範囲に展開する場合は、「帯域幅計画の環境を[評価](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#network-readiness)する」のガイダンスに従って、リアルタイムトラフィックに対するネットワークの適合性を評価することをお勧めします。
+**Pro ヒント**-プロキシサーバーを使用して、Teams または Skype For business Online へのアクセスを提供する場合は、まず[この記事を確認](../proxy-servers-for-skype-for-business-online.md)してください。 プロキシサーバー経由の Skype for Business トラフィックについては、プロキシサーバーを完全にバイパスすることをお勧めします。 Skype for Business トラフィックは既に暗号化されているため、プロキシサーバーのセキュリティが強化されることはありません。 広く導入されている場合は、「ネットワークの帯域幅の計画を立てるために[ネットワークを準備](../prepare-network.md)する」のガイダンスに従って、リアルタイムトラフィックに対するネットワークの適合性を評価することをお勧めします。
 
 |    |     |
 |-----------|------------|

@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ここでは、Skype for Business および Microsoft Teams の Office 365 サービスをチェコ共和国で利用できるようにする方法について説明します。
-ms.openlocfilehash: 0c92b896627fd8cfaf294a86e3606b2d2f3afcac
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: d899311397b86effb5ea6c49a958a85c6c369450
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41683500"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41852354"
 ---
 # <a name="availability-in-the-czech-republic"></a>チェコ共和国での利用可能性
 
@@ -62,6 +62,8 @@ ms.locfileid: "41683500"
 |通話プランは購入できますか?  <br/> |いいえ  <br/> |
 |通話プランで利用可能な通話分数  <br/> |該当しない  <br/> |
 |発信通話を行うことができますか?  <br/> |該当しない  <br/> |
+
+通話プランを購入できない場合は、[電話システムのダイレクトルーティング](../direct-routing-landing-page.md)を使用することを検討してください。 直接ルーティングを使用すると、ほぼすべてのテレフォニーキャリアで電話システムを使うことができます。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
 

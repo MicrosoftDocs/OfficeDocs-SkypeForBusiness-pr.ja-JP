@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 51fd22257635502e92b89482f320b6bd68987cfe
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 2acb9d1734bb04c4db522417064c3d99fd660d89
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826705"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863218"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams のチャット、チーム、チャネル、およびアプリ
 
@@ -53,7 +53,7 @@ Teams は、すぐに使用できる優れたコラボレーション エクス�
 
 |確認事項|アクション |
 |------------|-------|
-|Teams を展開するために組織の準備が整っているか?|この質問に回答するには、次を参照してください。 <ul><li> [Teams の導入に向けた環境の準備を確認する](environment-readiness.md)</li><li>[Teams 用に組織のネットワークを準備する](prepare-network.md)</li><li>[Office 365 の URL と IP アドレスの範囲](office-365-urls-ip-address-ranges.md)</li><li>[チームを作成するときの Office 365 グループの計画](plan-office-365-groups.md)</li></ul>|
+|Teams を展開するために組織の準備が整っているか?|この質問に回答するには、次を参照してください。 <ul><li>[Teams 用に組織のネットワークを準備する](prepare-network.md)</li><li>[Office 365 の URL と IP アドレスの範囲](office-365-urls-ip-address-ranges.md)</li><li>[チームを作成するときの Office 365 グループの計画](plan-office-365-groups.md)</li></ul>|
 |||
 
 ## <a name="core-deployment-decisions"></a>展開に関する重要な決定事項

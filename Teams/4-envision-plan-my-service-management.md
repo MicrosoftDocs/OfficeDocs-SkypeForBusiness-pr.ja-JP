@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c44d1b35c19abb224f40bf71c81c61b91967c182
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 1268a87e5e5ae48547e1f2489641ac13cd3bae64
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825155"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41862717"
 ---
 # <a name="plan-my-service-management"></a>サービス管理を計画する
 
@@ -36,7 +36,7 @@ ms.locfileid: "41825155"
 サービス管理の概念は、ほとんどの組織において、新しい概念ではない可能性が高いです。 既存のサービスに関連付けられているプロセスやタスクは、既に実施されているのではないでしょうか。 これはすなわち、現在のサービス管理の計画を立てるときに整備したものが、将来的に Microsoft Teams をサポートするために増強することになる可能性があるということです。
 
 サービス管理は、Microsoft Teams のエンドツーエンドの管理に関与するすべてのアクティビティとプロセスを組み込んでいます。 サービス管理の一部 (Office 365 サービス自体が構成されるインフラストラクチャコンポーネント) は、Microsoft の責任となりますが、ユーザーは、チーム、ネットワーク、および組織のさまざまな側面を管理する責任を負うものとします。それらのエンドポイントによって提供されます。
-Teams サービス管理に関する顧客の責任と、ユーザーエクスペリエンスの質を underpin している主要コンポーネントにどのように関連しているかについて詳しくは、「[サービス管理と品質の計画](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide)」をご覧ください。
+Teams サービス管理に関する顧客の責任と、ユーザーエクスペリエンスの質を underpin している主要コンポーネントにどのように関連しているかについて詳しくは、「[サービス管理と品質の計画](https://docs.microsoft.com/MicrosoftTeams/prepare-network)」をご覧ください。
 
 ![品質の3つの構成要素の図](media/plan-my-service-management-image1.png "品質--Office 365 サービス、ネットワーク、エンドポイントの3つのコンポーネントの図。サービス管理の3つの要素が重なっています。")
 

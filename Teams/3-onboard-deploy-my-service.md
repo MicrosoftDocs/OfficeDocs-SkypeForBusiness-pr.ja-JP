@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65a9c79dd29656b7bdc8563f0444d90133399f2b
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 86e9fd1b26bebd120136c3c33abf0a44ffa03e0d
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825175"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41862817"
 ---
 # <a name="deploy-my-service"></a>サービスを展開する
 
@@ -44,7 +44,7 @@ ms.locfileid: "41825175"
 -   サポートニーズを減らし、ユーザーの満足度を高める。
 
 > [!NOTE]
-> この記事と関連するプレイブックは、サービスの有効化または特定のサイトへのダイヤルトーンの提供に必要なすべての技術的構成手順を説明することを目的としていません。 代わりに、ユーザーが簡単にオンボードで作業するために推奨されるアクティビティとタスクに重点を置いています。また、サポート要件を最小限に抑えながら、迅速かつスムーズな移行によってチームのボイスワークロードを使い始めることができます。 チームボイス向けに環境を最適に構成する方法についての技術ガイダンスについては、「チームの[音声ワークロードを構成](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)する」、 [「teams の](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md)[コア機能](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)」、「チーム[のネットワーク](onboarding-checklist-configure-networking.md)、 [Office 365 の有効化](onboarding-checklist-enable-office-365.md)」のオンボードチェックリストを参照してください。
+> この記事と関連するプレイブックは、サービスの有効化または特定のサイトへのダイヤルトーンの提供に必要なすべての技術的構成手順を説明することを目的としていません。 代わりに、ユーザーが簡単にオンボードで作業するために推奨されるアクティビティとタスクに重点を置いています。また、サポート要件を最小限に抑えながら、迅速かつスムーズな移行によってチームのボイスワークロードを使い始めることができます。 チームボイス向けに環境を最適に構成する方法についての技術ガイダンスについては、「チームの[音声ワークロードを構成](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)する」、 [「teams の](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md)[コア機能](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)」、「チーム[のネットワーク](prepare-network.md)、 [Office 365 の有効化](onboarding-checklist-enable-office-365.md)」のオンボードチェックリストを参照してください。
 
 <!--ENDOFSECTION-->
 

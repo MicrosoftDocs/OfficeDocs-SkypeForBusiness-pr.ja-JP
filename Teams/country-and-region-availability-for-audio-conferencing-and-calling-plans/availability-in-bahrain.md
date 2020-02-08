@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ここでは、Skype for Business および Microsoft Teams の Office 365 サービスをバーレーンで利用できるようにする方法について説明します。
-ms.openlocfilehash: 18aa99c7a96814d80dd8a38e43ea4f9a5f68246b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 55977fe2a7e70d672bdda6d158fe2f388680f2fd
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695422"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41853912"
 ---
 # <a name="availability-in-bahrain"></a>バーレーンでの利用可能性
 
@@ -62,6 +62,9 @@ ms.locfileid: "41695422"
 |通話プランは購入できますか?  <br/> |いいえ  <br/> |
 |通話プランで利用可能な通話分数  <br/> |該当しない  <br/> |
 |発信通話を行うことができますか?  <br/> |該当しない  <br/> |
+
+通話プランを購入できない場合は、[電話システムのダイレクトルーティング](../direct-routing-landing-page.md)を使用することを検討してください。 直接ルーティングを使用すると、ほぼすべてのテレフォニーキャリアで電話システムを使うことができます。
+
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
 

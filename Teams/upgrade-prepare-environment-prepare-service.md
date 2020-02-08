@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d723cae9bf26896f40fe14ad8f04038da6ed04dc
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5e70d9bed1dfc2f04d7c5fa5a6823f93a02ec759
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836117"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863448"
 ---
 ![テクニカルレディネスステージを強調したアップグレードの図](media/upgrade-banner-tech-readiness.png "技術的な準備段階に重点を置いたアップグレードの段階")
 
@@ -46,7 +46,7 @@ ms.locfileid: "41836117"
 
 - [Teams のコア機能を構成する](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
 
-- [ネットワークを構成する](onboarding-checklist-configure-networking.md)
+- [ネットワークを準備する](prepare-network.md)
 
 - [Teams でクラウド音声のワークロードを構成する](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)
 

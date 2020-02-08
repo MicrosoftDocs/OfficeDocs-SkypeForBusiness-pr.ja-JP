@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 次に示すのは、Office 365 services For Business および Microsoft Teams (イスラエル向け) です。
-ms.openlocfilehash: f428c2154e7942b1bd5eed04d11c82565d73f29f
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 277080f6d4e9bfbc09d2576a81393dbdff08466f
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695034"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41853279"
 ---
 # <a name="availability-in-israel"></a>イスラエルでの利用可能性
 
@@ -62,6 +62,8 @@ ms.locfileid: "41695034"
 |通話プランは購入できますか?  <br/> |いいえ  <br/> |
 |通話プランで利用可能な通話分数  <br/> |該当しない  <br/> |
 |発信通話を行うことができますか?  <br/> |該当しない  <br/> |
+
+通話プランを購入できない場合は、[電話システムのダイレクトルーティング](../direct-routing-landing-page.md)を使用することを検討してください。 直接ルーティングを使用すると、ほぼすべてのテレフォニーキャリアで電話システムを使うことができます。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
 

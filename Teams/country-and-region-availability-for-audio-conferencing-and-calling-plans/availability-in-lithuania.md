@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ここでは、Skype for Business および Microsoft Teams for リトアニア向けの Office 365 サービスを紹介します。
-ms.openlocfilehash: 5ea0978a0e53f879da815194edd45f61b73ea213
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 641f1d9cb575c7248e0a9abaa50d4daabbd399b7
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41683740"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41853036"
 ---
 # <a name="availability-in-lithuania"></a>リトアニアでの利用可能性
 
@@ -62,6 +62,8 @@ ms.locfileid: "41683740"
 |通話プランは購入できますか?  <br/> |いいえ  <br/> |
 |通話プランで利用可能な通話分数  <br/> |該当しない  <br/> |
 |発信通話を行うことができますか?  <br/> |該当しない  <br/> |
+
+通話プランを購入できない場合は、[電話システムのダイレクトルーティング](../direct-routing-landing-page.md)を使用することを検討してください。 直接ルーティングを使用すると、ほぼすべてのテレフォニーキャリアで電話システムを使うことができます。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
 

@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ここでは、Microsoft の Skype for Business および Microsoft Teams の Office 365 サービスをジョージアで利用できるようにする方法について説明します。
-ms.openlocfilehash: a25d69930d6b069629d1510db8c357ade246234a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 091dc098f05a0dc6ac09808347a9319dc7d87ea0
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695142"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41853522"
 ---
 # <a name="availability-in-georgia"></a>ジョージアでの利用可能性
 
@@ -62,6 +62,8 @@ ms.locfileid: "41695142"
 |通話プランは購入できますか?  <br/> |いいえ  <br/> |
 |通話プランで利用可能な通話分数  <br/> |該当しない  <br/> |
 |発信通話を行うことができますか?  <br/> |該当しない  <br/> |
+
+通話プランを購入できない場合は、[電話システムのダイレクトルーティング](../direct-routing-landing-page.md)を使用することを検討してください。 直接ルーティングを使用すると、ほぼすべてのテレフォニーキャリアで電話システムを使うことができます。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
 

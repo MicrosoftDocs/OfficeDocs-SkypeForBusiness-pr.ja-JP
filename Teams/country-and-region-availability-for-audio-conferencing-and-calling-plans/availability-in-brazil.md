@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下に、ブラジルで利用可能な Skype for Business および Microsoft Teams の Office 365 サービスを示します。
-ms.openlocfilehash: 8414e87d74d1d88cf9a05dd780c24eadbab66edc
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: d07ed05218f878ebf80502099fdb4a1b0b0a3913
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695322"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41853792"
 ---
 # <a name="availability-in-brazil"></a>ブラジルでの利用可能性
 
@@ -62,6 +62,8 @@ ms.locfileid: "41695322"
 |通話プランは購入できますか?  <br/> |いいえ  <br/> |
 |通話プランで利用可能な通話分数  <br/> |該当しない  <br/> |
 |発信通話を行うことができますか?  <br/> |該当しない  <br/> |
+
+通話プランを購入できない場合は、[電話システムのダイレクトルーティング](../direct-routing-landing-page.md)を使用することを検討してください。 直接ルーティングを使用すると、ほぼすべてのテレフォニーキャリアで電話システムを使うことができます。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
 

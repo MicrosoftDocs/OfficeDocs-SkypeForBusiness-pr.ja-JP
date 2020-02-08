@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: 4fe46800df7dbef9baf8184283d0e4d811388f53
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: b8462c7ad3c4f2820f1276be47fa4140ad79755a
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836737"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41852124"
 ---
 # <a name="what-are-communications-credits"></a>通信クレジットについて
 
@@ -52,7 +52,7 @@ ms.locfileid: "41836737"
   
 ## <a name="what-are-the-communications-credits-rates"></a>コミュニケーション クレジットの料金について
 
-通話プランでの通話の費用について知りたい場合は、コミュニケーション クレジットの[通話プランの料金](https://products.office.com/en-us/microsoft-teams/online-meeting-solutions#Rates)をご覧ください。
+通話プランの通話料金について知りたい場合は、「通話プランの通信クレジット[料金](https://products.office.com/en-us/microsoft-teams/online-meeting-solutions#Rates)」を参照してください (「通話する相手への通話料金を確認してください」をご覧ください)。
   
 ## <a name="what-is-it"></a>説明
 

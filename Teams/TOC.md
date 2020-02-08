@@ -480,7 +480,6 @@
 ### [Teams に向けて IT スタッフを準備する](upgrade-prepare-IT-pros.md)
 ### [前提条件](upgrade-plan-journey-prerequisites.md)
 ### [環境を評価する](upgrade-plan-journey-evaluate-environment.md)
-### [ネットワークを準備する](upgrade-prepare-environment-prepare-network.md)
 ### [サービスを準備する](upgrade-prepare-environment-prepare-service.md)
 
 ## Teams に向けて組織を準備する
@@ -673,7 +672,6 @@
 # Reference
 
 ## Teams のロールアウトの準備
-### [Teams の導入に向けた環境の準備を確認する](environment-readiness.md)
 ### [Teams 用に組織のネットワークを準備する](prepare-network.md)
 ### [Advisor for Teams を使用して Teams をロールアウトする](use-advisor-teams-roll-out.md)
 ### [Teams のネットワーク プランナーを使用する](network-planner.md)

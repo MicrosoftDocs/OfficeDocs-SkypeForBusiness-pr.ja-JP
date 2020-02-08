@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下は、Skype for Business の Office 365 サービスと、ケニアで利用可能な Microsoft Teams を示しています。
-ms.openlocfilehash: 208146c89d0c9499049199b1257ca5f7dcb320c2
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 20a71aad93f88d8eb0204e290f7c74f52a29ba43
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41694982"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41853192"
 ---
 # <a name="availability-in-kenya"></a>ケニアでの利用可能性
 
@@ -62,6 +62,8 @@ ms.locfileid: "41694982"
 |通話プランは購入できますか?  <br/> |いいえ  <br/> |
 |通話プランで利用可能な通話分数  <br/> |該当しない  <br/> |
 |発信通話を行うことができますか?  <br/> |該当しない  <br/> |
+
+通話プランを購入できない場合は、[電話システムのダイレクトルーティング](../direct-routing-landing-page.md)を使用することを検討してください。 直接ルーティングを使用すると、ほぼすべてのテレフォニーキャリアで電話システムを使うことができます。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
 

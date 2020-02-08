@@ -15,12 +15,12 @@ localization_priority: Normal
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a4ab037b416ab7a197f15729c73d8c1b9e107e50
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 4338e2b6b169fa6f8fc46ae116f3d297096543f7
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41832797"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41862988"
 ---
 # <a name="steering-committee"></a>運営委員会
 
@@ -127,7 +127,7 @@ ms.locfileid: "41832797"
 
         -   次のステップと、委員会のメンバーから求められるサポートの内容を確認します。
 
--   品質の概要: [quality チャンピオン](envision-planning-for-service-management-and-quality-complete-guide.md#the-quality-champion-role)のレポートを使用する
+-   品質の概要: ガイダンスを使用し[て、チームのネットワークを準備](prepare-network.md)します。
 
     -   これらの品質レポートの結果について説明し、記載されている問題を解決するための推奨事項を記載します。
 

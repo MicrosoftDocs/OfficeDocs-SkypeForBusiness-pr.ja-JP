@@ -268,7 +268,7 @@
 ### [ExpressRoute を使用したコール フロー](../optimizing-your-network/call-flow-using-expressroute.md)
 ### [Skype for Business Online での ExpressRoute および QoS](../optimizing-your-network/expressroute-and-qos-in-skype-for-business-online.md)
 ### [メディアの品質とネットワーク接続性のパフォーマンス](../optimizing-your-network/media-quality-and-network-connectivity-performance.md)
-### [Skype for Business Online 向けのプロキシ サーバー](/microsoftteams/proxy-servers-for-skype-for-business-online?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+### [Skype for Business Online 向けのプロキシ サーバー](../optimizing-your-network/proxy-servers-for-skype-for-business-online.md)
 ### [ネットワーク テスト コンパニオンを使用する](/microsoftteams/use-network-testing-companion?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 
 ## [通話分析および通話品質ダッシュボード](/microsoftteams/difference-between-call-analytics-and-call-quality-dashboard?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)

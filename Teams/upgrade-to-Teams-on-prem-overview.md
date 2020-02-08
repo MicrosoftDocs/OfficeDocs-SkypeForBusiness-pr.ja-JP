@@ -18,18 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e63a287fcd265a22dc2f9264920d3b0283a5bd6a
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: b9bac6ee38c166250746b6ce9f4fb48afe3cbfe2
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836209"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41852104"
 ---
 # <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>Skype for Business から Teams へのアップグレード &mdash; IT 管理者向け
 
 ## <a name="overview"></a>概要
 
-Skype for Business から Teams にアップグレードする場合、一部の組織では、その組織の IT 部門によって計画と管理が実施されるプログレッシブ ロールアウトが必要になります。 この記事は、大規模なオンプレミスの組織の IT 管理者を主に対象としていますが、一部の Skype for Business Online 組織にも適用されます。  この記事を読む前に、「[Microsoft Teams へのアップグレードを開始する](upgrade-start-here.md)」および「[アップグレードのフレームワークについて](upgrade-framework.md)」を必ずご覧ください。
+Skype for Business から Teams にアップグレードする場合、一部の組織では、その組織の IT 部門によって計画と管理が実施されるプログレッシブ ロールアウトが必要になります。 この記事は、大規模なオンプレミスの組織の IT 管理者を主に対象としていますが、一部の Skype for Business Online 組織にも適用されます。  この記事を読む前に、「[チームのアップグレードの](upgrade-start-here.md)概要」と「[アップグレードフレームワークについ](upgrade-framework.md)て」を参照してください。
 
 >[!NOTE]
 >この記事では、Skype for Business Online、Skype for Business オンプレミス、および Skype for Business という用語を使用します。  最後の用語は、オンライン バージョンとオンプレミス バージョンの両方を指します。
@@ -40,21 +40,21 @@ Teams に移行されたユーザーは、Skype for Business で開催される�
 
 Skype for Business (オンラインまたはオンプレミス) を使用する既存の組織を Teams に移行するには、次の 2 つの方式があります。
 
-- **併用方式** (アイランド モードを使用): 既存の Skype for Business 組織のユーザーが Teams に追加されることにより、これらのユーザーは移行期間中に両方のクライアントを併用できます。 この期間中、これらのユーザーは Teams のほとんどの機能 (全部ではありません) を利用できます。 この構成のモードは、"アイランド" と呼ばれ、これは Skype for Business を使用する既存の組織の既定のモードです。 組織での準備が整ったら、管理者はユーザーを TeamsOnly モードに移行します。
+- **機能のオーバーラップ方法**(孤島モードを使用): 既存の Skype for business 組織のユーザーは、移行フェーズで両方のクライアントを使用できるように、チームに導入されています。 この期間中、これらのユーザーは Teams のほとんどの機能 (全部ではありません) を利用できます。 この構成のモードは、"アイランド" と呼ばれ、これは Skype for Business を使用する既存の組織の既定のモードです。 組織での準備が整ったら、管理者はユーザーを TeamsOnly モードに移行します。
 
-- **マネージド方式** (Skype for Business の 1 つまたは複数のモードを使用): 管理者は、組織内のユーザーのためにチャット、通話、会議スケジュール機能の Skype for Business から Teams への移行を管理します。  これらの機能はいずれも、Skype for Business または Teams のいずれかで使用できますが、両方で使用することはできません。 管理者は、ユーザーのためにこの機能を Teams に移行するタイミングを制御するのに TeamsUpgradePolicy を使用します。 まだ TeamsOnly モードになっていないユーザーは、引き続き Skype for Business を使用してチャットと通話を行います。2 つのグループのユーザーは、相互運用機能を使用して通信できます。 管理者は、段階的により多くのユーザーを Teams に移行させることにより、移行を管理します。  
+- **選択的機能方式** (Skype for Business の 1つまたは複数のモードを使用): 管理者は、組織内のユーザーのためにチャット、通話、会議スケジュール機能の Skype for Business から Teams への移行を管理します。  これらの機能はいずれも、Skype for Business または Teams のいずれかで使用できますが、両方で使用することはできません。 管理者は、ユーザーのためにこの機能を Teams に移行するタイミングを制御するのに TeamsUpgradePolicy を使用します。 まだ TeamsOnly モードになっていないユーザーは、引き続き Skype for Business を使用してチャットと通話を行います。2 つのグループのユーザーは、相互運用機能を使用して通信できます。 管理者は、段階的により多くのユーザーを Teams に移行させることにより、移行を管理します。  
 
 この記事では、お客様の組織に適した方式を選択していただく助けとして、両方の方式について概観し、それぞれの長所と短所を説明します。 
 
-## <a name="side-by-side-method-using-islands-mode"></a>併用方式 (アイランド モードを使用)
+## <a name="overlapping-capabilities-method-using-islands-mode"></a>重複機能方式 (アイランド モードを使用)
 
-併用方式の場合、チャット、VoIP 通話、および会議を行うために、ユーザーは Teams と Skype for Business クライアントの両方を使用できます。 この状態は、"アイランド" モードと呼ばれます。これは、Skype for Business と Teams の通信トラフィックは (たとえ同一ユーザーのものであっても) 別々に保たれ、2 つの異なるクライアント同士が通信しないからです (同じ組織内のユーザーの場合)。 たとえば、受信者ユーザー A がアイランド モードであるとします。
+重複機能方式の場合、チャット、VoIP 通話、および会議を行うために、ユーザーは Teams と Skype for Business クライアントの両方を使用できます。 この状態は、"アイランド" モードと呼ばれます。これは、Skype for Business と Teams の通信トラフィックは (たとえ同一ユーザーのものであっても) 別々に保たれ、2 つの異なるクライアント同士が通信しないからです (同じ組織内のユーザーの場合)。 たとえば、受信者ユーザー A がアイランド モードであるとします。
 
 - 別のユーザーの Skype for Business クライアントから開始される通信は、常にユーザー A の Skype for Business クライアントに配信されます。
 - 別のユーザーの Teams クライアントから開始される通信は、*そのユーザーが同じ組織内に存在する場合*、常にユーザー A の Teams クライアントに配信されます。 
 - 別のユーザーの Teams クライアントから開始される通信は、*そのユーザーがフェデレーション組織内に存在する場合*、常にユーザー A の Skype for Business クライアントに配信されます。
 
-アイランド モードは、まだ TeamsOnly ではないすべての既存の組織に対する TeamsUpgradePolicy の既定モードです。 Office 365 ライセンスを割り当てると、Teams と Skype for Business Online の両方のライセンスが既定で割り当てられます。 (これは、ユーザーが Skype for Business Server でオンプレミスに所属している場合でも同じです。 ユーザーの所属がオンプレミスとオンラインのいずれであっても、Teams の機能をすべて使用するには Skype for Business Online が現状では必要なため、Skype for Business Online のライセンスを有効にしたままにします)。実際、既定の構成を変更する手順をまだ何も実行していない段階でも、ユーザーは自分の組織で Teams をかなりの程度使用できます。  これは、併用方式のメリットの 1 つです。 この方式を採用すると、迅速かつエンドユーザー主導の導入を組織内で実現できます。
+アイランド モードは、まだ TeamsOnly ではないすべての既存の組織に対する TeamsUpgradePolicy の既定モードです。 Office 365 ライセンスを割り当てると、Teams と Skype for Business Online の両方のライセンスが既定で割り当てられます。 (これは、ユーザーが Skype for Business Server でオンプレミスに所属している場合でも同じです。 ユーザーの所属がオンプレミスとオンラインのいずれであっても、Teams の機能をすべて使用するには Skype for Business Online が現状では必要なため、Skype for Business Online のライセンスを有効にしたままにします)。実際、既定の構成を変更する手順をまだ何も実行していない段階でも、ユーザーは自分の組織で Teams をかなりの程度使用できます。  これは、機能のオーバーラップ方法の1つです。 この方式を採用すると、迅速かつエンドユーザー主導の導入を組織内で実現できます。
 
 この方式が効果をもたらすには、すべてのユーザーが両方のクライアントを同時に実行している必要があります。 組織内から着信したアイランド モードのユーザー宛てのチャットと通話は、Skype for Business クライアントと Teams クライアントのいずれにも配信される可能性があり、受信者はこれを制御できません。 これは、送信者が通信を開始するために使用するクライアントにより左右されます。 送信者と受信者の組織が異なる場合、アイランド モードのユーザー宛ての着信チャットと通話は、常に Skype for Business クライアントに配信されます。  
 
@@ -80,7 +80,7 @@ Skype for Business (オンラインまたはオンプレミス) を使用する�
  |プレゼンス  | Skype for Business と Teams のプレゼンスは独立しています。 他のユーザーが使用するクライアントによって、同一のアイランド ユーザーであっても異なる状態が表示される可能性があります。 | プレゼンスは、Teams でのユーザーのアクティビティにのみに基づきます。 他のすべてのユーザーには、使用するクライアントに関係なく、そのプレゼンスが表示されます。 | 
  | 会議のスケジュール   | ユーザーは、Teams または Skype for Business のいずれでも会議をスケジュールできます。 ユーザーの Outlook には両方のアドインが表示されます。 |   会議のスケジュールは、Teams のみで行います。 Outlook では、Teams アドインのみを使用できます。 | 
 
-次の表に、組織を Teams へ移行するために併用方式を使用する場合のメリットとデメリットをまとめて示します。
+次の表は、組織を Teams へ移行させるために重複機能方式を使用する場合のメリットとデメリットをまとめたものです。
 
 | メリット     |       デメリット |
 | :------------------ | :---------------- |
@@ -89,19 +89,19 @@ Skype for Business (オンラインまたはオンプレミス) を使用する�
 | 最小限の管理作業で Teams の使用を開始できます。 | 組織内のすべてのユーザーが Teams を使用していない場合、特に、すべてのユーザーが Teams でアクティブではない場合は、アイランド モードから TeamsOnly モードに移行するのが困難な場合があります。 たとえば、ユーザーの一部が TeamsOnly モードにアップグレードされると、それらのユーザーは Teams でのみ送信します。 アイランド モードの他のユーザーには、それらのメッセージは常に Teams に配信されます。 しかし、ユーザーの一部が Teams を実行していない場合、それらのメッセージは受け取れていないものとして認識されます。 |
 |  | Teams を使用する場合、Skype for Business Server のオンプレミス アカウントを持つユーザーには、相互運用性やフェデレーションのサポートはありません。  このため、アイランド ユーザーの中に Skype for Business Online に所属しているユーザーと Skype for Business オンプレミスに所属しているユーザーが混在している場合、混乱を生じる可能性があります。   |
 
-## <a name="managed-transition-method-using-skype-for-business-modes"></a>マネージド移行方式 (Skype for Business のモードを使用)
+## <a name="select-capabilities-method-using-skype-for-business-modes"></a>選択的機能方式 (Skype for Business の各モードを使用)
 
-一部の組織では、組織を Skype for Business から Teams に移行する際に、シンプルで予測がより容易なエクスペリエンスをエンド ユーザーに提供することを優先する場合があります。 このモデルでは、IT 管理者は TeamsUpgradePolicy 内の Skype for Business モードのいずれかを使用して、TeamsOnly モードに移行する前に Skype for Business に残るユーザーを明示的に指定します。 管理者は、選択したユーザーを TeamsOnly モードに移行する準備ができたら、これらのユーザーのモードを TeamsOnly に更新します。  展開が進行するにつれて、Skype for Business から TeamsOnly モードへと徐々にユーザーが移行されます。  この移行中の動作は次のようになります。
+一部の組織では、組織を Skype for Business から Teams に移行する際に、シンプルで予測がより容易なエクスペリエンスをエンド ユーザーに提供することを優先する場合があります。 このモデルでは、IT 管理者は TeamsUpgradePolicy 内の Skype for Business モードのいずれかを使用して、TeamsOnly モードに移行する前に Skype for Business に残るユーザーを明示的に指定します。 管理者は、選択したユーザーを TeamsOnly モードに移行する準備ができたら、これらのユーザーのモードを TeamsOnly に更新します。 展開が進行するにつれて、Skype for Business から TeamsOnly モードへと徐々にユーザーが移行されます。  この移行中の動作は次のようになります。
 
 - Skype for Business をまだ使用しているユーザーの場合、通信の発信元が相手側ユーザーの Teams クライアントであっても Skype for Business クライアントであっても、着信したすべてのチャットと通話は Skype for Business クライアントで受け取ります。 また、これらの Skype for Business ユーザーに対しては、エンド ユーザーの混乱を防ぎ、適切なルーティングを確保するために、Teams クライアントでの通話とチャットの機能は無効になっています。 
 
 - 通信の発信元が Teams、Skype for Business、またはいかなる種類のフェデレーション ユーザーであった場合も、TeamsOnly モードのユーザーは着信したすべてのチャットと通話を Teams クライアントで受信します。 
 
-アイランド方式とは異なり、マネージド移行方式では、Skype for Business ユーザーと TeamsOnly ユーザーは相互に通信できます。 Skype for Business ユーザーと Teams ユーザーの間の通信は、相互運用性と呼ばれます。 (「[相互運用性](#interoperability)」を参照)。相互運用通信は、Skype for Business のユーザーと Teams の別のユーザーとの間の 1 対 1 ベースのチャットと通話で利用できます。 また、招待されたユーザーはいつでも Skype for Business 会議または Teams 会議に参加できますが、会議の種類に対応するクライアントを使用する必要があります。 詳細については、「[会議](#meetings)」を参照してください。
+孤島メソッドとは異なり、select capabilities メソッドでは、Skype for Business のユーザーとチームが互いに連絡を取ることができます。 Skype for Business ユーザーと Teams ユーザーの間の通信は、相互運用性と呼ばれます。 (「[相互運用性](#interoperability)」を参照)。相互運用通信は、Skype for Business のユーザーと Teams の別のユーザーとの間の 1 対 1 ベースのチャットと通話で利用できます。 また、招待されたユーザーはいつでも Skype for Business 会議または Teams 会議に参加できますが、会議の種類に対応するクライアントを使用する必要があります。 詳細については、「[会議](#meetings)」を参照してください。
 
-通常、マネージド移行されるユーザーはアイランド モードではないため、相手側のユーザーが使用するクライアントに関係なく、ユーザーのプレゼンスは一貫しています。 ユーザーが Skype for Business モードのいずれかのモードに設定されている場合、他のすべてのユーザーに表示されるプレゼンスは、そのユーザーの Skype for Business でのアクティビティに基づきます。 同様に、ユーザーが TeamsOnly モードの場合は、他のすべてのユーザーに表示されるプレゼンスは、そのユーザーの Teams でのアクティビティに基づきます。 詳細については、「[プレゼンス](#presence)」を参照してください。
+選択機能移行のユーザーは、通常は島々のモードではないため、ユーザーのプレゼンスは、他のユーザーがどのクライアントを使用しているかに関係なく一貫しています。 ユーザーが Skype for Business モードのいずれかのモードに設定されている場合、他のすべてのユーザーに表示されるプレゼンスは、そのユーザーの Skype for Business でのアクティビティに基づきます。 同様に、ユーザーが TeamsOnly モードの場合は、他のすべてのユーザーに表示されるプレゼンスは、そのユーザーの Teams でのアクティビティに基づきます。 詳細については、「[プレゼンス](#presence)」を参照してください。
 
-まだ Teams を使用し始めていない組織の場合、管理者はテナント全体のモードをアイランドから SfbWithTeamsCollab に変更する必要があります。 (既に Teams を部分的に使用している組織の場合は、管理者は Teams でアクティブなユーザーを grandfather 化することにより、この変更がそれらのユーザーに適用されないようにする必要があります。 詳細については、「[Teams をアイランド モードで既に使用している組織のマネージド アップグレード](#a-managed-upgrade-for-an-organization-that-is-already-using-teams-in-islands-mode)」を参照してください)。
+まだ Teams を使用し始めていない組織の場合、管理者はテナント全体のモードをアイランドから SfbWithTeamsCollab に変更する必要があります。 (既に Teams を部分的に使用している組織の場合は、管理者は Teams でアクティブなユーザーを grandfather 化することにより、この変更がそれらのユーザーに適用されないようにする必要があります。 詳細について[は、「アイランドモードで Teams を既に使用している組織の select 機能のアップグレード](#a-select-capabilities-upgrade-for-an-organization-that-is-already-using-teams-in-islands-mode)」を参照してください。)
 
 モードがアイランドから SfbWithTeamsCollab に変わっても、Teams を一度も使用したことがないユーザーは、Skype for Business の使い方に違いはないように感じます。 しかし、そのユーザーが Teams を使い始めた際に利用できる機能は、チームとチャネル、およびファイルなどに限定されます。 チャット、通話、会議のスケジュールは、優先クライアントとして Skype for Business が管理者により (現在は) 指定されているため、Teams では利用できません。  
 
@@ -118,7 +118,7 @@ Skype for Business (オンラインまたはオンプレミス) を使用する�
 | メリット     |       デメリット |
 | :------------------ | :---------------- |
 | エンド ユーザーにとって予測可能なルーティングです。  すべての通話とチャットは、管理者の選択に基づき、Skype for Business または Teams のいずれかに配信されます。  | 相互運用会話では、リッチ テキスト、ファイル共有、画面共有はサポートされていません。  これはオンデマンド会議で回避できますが、同じほどシームレスではありません。  |
-| 各機能は 1 つのクライアントでのみ使用可能であるため、エンド ユーザーの混乱を排除できます。  | ユーザーは、同じ機能セットについて、両方のクライアントを併用して試行することはできません。 これは特に、Skype for Business から Teams への移行をパラダイムの大きな変更であるとユーザーが感じている場合、考慮すべき要素となる可能性があります。 |
+| 各機能は 1 つのクライアントでのみ使用可能であるため、エンド ユーザーの混乱を排除できます。  | 同じ機能セットについて、ユーザーは両方のクライアントを並べて試すことはできません。 これは特に、Skype for Business から Teams への移行をパラダイムの大きな変更であるとユーザーが感じている場合、考慮すべき要素となる可能性があります。 |
 | Teams の段階的な導入が可能です。  |  | |
 | 管理者は、Skype for Business から Teams への移行を完全に制御できます。 |  | | 
 | 組織を TeamsOnly モードへ完全に移行する準備ができていない場合でも、組織は会議のために Teams を使用できます。 |  | |
@@ -128,7 +128,7 @@ Skype for Business (オンラインまたはオンプレミス) を使用する�
 
 次の表に、アップグレード方式をまとめて示します。
 
-| 併用 (アイランド モードを使用)     |      マネージド (Skype for Business のモードを使用) |
+| 重複機能 (アイランド モードを使用)     |      機能を選択する (Skype for Business モードを使用) |
 | :------------------ | :---------------- |
 | 着信したチャットと通話はいずれのクライアントにも配信される可能性があるため、TeamsOnly にアップグレードされる前は、ユーザーは両方のクライアントを同時に実行する必要があります。   | チャットと通話は、受信者のモードに基づき、1 つのクライアントにのみ配信されます。 アップグレード済みではないユーザーは両方のクライアントを実行することができますが、機能は重複しません (通話とチャットは Teams では利用できません)。  管理者は、ユーザーが会議のスケジュールを Teams と Skype for Business のどちらで行うかも制御できます。   |
 | ユーザーは、同じ機能について、Skype for Business と Teams を併用できます。   | 管理者は、Skype for Business にも備わっているものと同じ機能を提供することなく、Teams の純粋な新機能 (チームとチャネル) をエンド ユーザーに提供できます。   |
@@ -138,7 +138,7 @@ Skype for Business (オンラインまたはオンプレミス) を使用する�
 
 上述の方式のどちらを使用する場合でも、ユーザーの共存モードを制御する [TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps) を使用することにより、管理者は TeamsOnly への移行を管理します。 各モードの詳細については、「[共存モード](migration-interop-guidance-for-teams-with-skype.md#coexistence-modes)」を参照してください。
 
-管理者が Skype for Business のモードを使用してマネージド移行を実行する場合でも、既定のアイランド構成から TeamsOnly モードに単純にアップグレードする場合でも、TeamsUpgradePolicy が主要なツールになります。  Teams の他のポリシーと同様、TeamsUpgradePolicy はユーザーに直接割り当てることも、テナント全体の既定値として設定することもできます。 ユーザーへの割り当ては、テナントの既定の設定よりも優先されます。  これは、Teams の管理コンソールでも PowerShell でも管理できます。
+管理者が Skype for Business モードを使って select 機能の切り替えを実行するかどうか、または既定の孤島の構成から TeamsOnly モードにアップグレードするかどうかは、TeamsUpgradePolicy がプライマリツールです。  Teams の他のポリシーと同様、TeamsUpgradePolicy はユーザーに直接割り当てることも、テナント全体の既定値として設定することもできます。 ユーザーへの割り当ては、テナントの既定の設定よりも優先されます。  これは、Teams の管理コンソールでも PowerShell でも管理できます。
 
 管理者は、ユーザーが Skype for Business Online と Skype for Business オンプレミスのどちらに所属しているかにかかわらず、TeamsUpgradePolicy の任意のモードをユーザーに割り当てることができます。ただし、TeamsOnly モードは、既に Skype for Business Online に所属しているユーザーにのみ割り当てることができます。 これは、Skype for Business ユーザーとの相互運用とフェデレーションが、そのユーザーが Skype for Business Online に所属している場合にのみ可能になるためです。
 
@@ -228,22 +228,22 @@ TeamsOnly モードをテナント レベルで割り当てる場合は、どの
 
 このセクションでは、次のアップグレード オプションについて説明します。
 
-- 併用アップグレード (アイランド モードを使用)
-- Teams をまだ使用し始めていない組織のマネージド アップグレード
-- Teams をアイランド モードで既に使用している組織のマネージド アップグレード
+- 機能のアップグレード (孤島モードを使用)
+- Teams の使用を開始していない組織の select 機能アップグレード
+- 既に孤島モードで Teams を使用している組織の select 機能アップグレード
 
-### <a name="side-by-side-upgrade-using-islands-mode"></a>併用アップグレード (アイランド モードを使用)
+### <a name="overlapping-capabilities-upgrade-using-islands-mode"></a>機能のアップグレード (孤島モードを使用)
 
-併用アップグレード オプションの場合:
+重複機能のアップグレードオプションの場合:
 
 - 組織全体の迅速なアップグレードを行うことができる場合は、このオプションを検討します。  両方のクライアントを実行することに伴う混乱が生じる可能性があるので、この期間を最小限にとどめることをお勧めします。 管理者は、両方のクライアントを実行することをユーザーに周知する必要があります。
 
 - このオプションはすぐに使用できるモデルで、管理者は、Office 365 ライセンスを割り当てること以外、特別なアクションなしで Teams の使用を開始できます。 ユーザーが既に Skype for Business Online を使用している場合は、このモデルを既に使用している可能性があります。
 
-- 併用モードから TeamsOnly に移行するのが困難な場合があります。 アップグレード済みのユーザーは Teams でのみ通信するため、そのユーザーと通信する組織内の他のユーザーはすべて Teams を使用する必要があります。  Teams を使用し始めていないユーザーがいる場合、メッセージを受け取れない可能性が生じます。 さらに、そのようなユーザーには、オンラインの TeamsOnly ユーザーが Skype for Business に表示されません。 これを回避するために、テナントのグローバル ポリシーを使用してテナント全体のアップグレードを実行する組織もありますが、これにはすべてのユーザーのアップグレード準備が整うまで待つ必要があります。
+- 機能のオーバーラップモードの使用を終了して、TeamsOnly に移動することは難しい場合があります。 アップグレード済みのユーザーは Teams でのみ通信するため、そのユーザーと通信する組織内の他のユーザーはすべて Teams を使用する必要があります。  Teams を使用し始めていないユーザーがいる場合、メッセージを受け取れない可能性が生じます。 さらに、そのようなユーザーには、オンラインの TeamsOnly ユーザーが Skype for Business に表示されません。 これを回避するために、テナントのグローバル ポリシーを使用してテナント全体のアップグレードを実行する組織もありますが、これにはすべてのユーザーのアップグレード準備が整うまで待つ必要があります。
 
 
-### <a name="a-managed-upgrade-for-an-organization-that-has-not-yet-started-using-teams"></a>Teams をまだ使用し始めていない組織のマネージド アップグレード
+### <a name="a-select-capabilities-upgrade-for-an-organization-that-has-not-yet-started-using-teams"></a>Teams の使用を開始していない組織の select 機能アップグレード
 
 Teams のアクティブなユーザーが 1 人もいない組織の場合、最初のステップとして、テナント全体に対する TeamsUpgradePolicy の既定のポリシーを、Skype for Business のモードの 1 つ (SfbWithTeamsCollab など) に設定します。  Teams を使用し始めていないユーザーは、動作の違いに気付きません。 それでも、テナント レベルでこのポリシーを設定すると、TeamsOnly モードへのユーザーのアップグレードを開始でき、さらに、アップグレード済みユーザーはまだアップグレードしていないユーザーとの通信を行うことができます。  パイロット ユーザーを特定したら、それらのユーザーを TeamsOnly にアップグレードできます。  そのユーザーがオンプレミスの場合は、Move-CsUser を使用します。 そのユーザーがオンラインの場合は、TeamsUpgradePolicy を使用して、 TeamsOnly モードを割り当てます。  既定で、これらのユーザーによってスケジュールされている Skype for Business 会議は、Teams に移行されます。
 
@@ -275,12 +275,12 @@ Teams のアクティブなユーザーが 1 人もいない組織の場合、�
 - Move-CsUser は、オンプレミス ツールのコマンドレットです。 MoveToTeams スイッチを使用するには、Skype for Business Server 2019 か Skype for Business Server 2015 with CU8 が必要です。 以前のバージョンを使用している場合は、最初にユーザーを Skype for Business Online に移行してから、そのユーザーに TeamsOnly モードを付与できます。
 - 既定で、TeamsOnly モードへのアップグレードや SfbWithTeamsCollabAndMeetings モードの割り当てを実行すると、Skype for Business 会議は Teams に移行されます。  
 
-次の図に、Teams をこれまでに使用していない組織のマネージド アップグレードの概念フェーズを示します。 バーの高さは、ユーザー数を表します。 アップグレードのどのフェーズでも、すべてのユーザーが相互に通信できます。  Skype for Business ユーザーは TeamsOnly ユーザーと相互運用を使用して通信します。逆の場合も同様です。
+次の図は、Teams の使用を前に使用していない組織の選択機能アップグレードの概念フェーズを示しています。 バーの高さは、ユーザー数を表します。 アップグレードのどのフェーズでも、すべてのユーザーが相互に通信できます。  Skype for Business ユーザーは TeamsOnly ユーザーと相互運用を使用して通信します。逆の場合も同様です。
 
-![Teams を以前に使用していない場合のマネージド アップグレードを示す図](media/teams-upgrade-1.png)
+![チームを以前に使用していない、選択された機能アップグレードを示す図](media/teams-upgrade-1.png)
 
 
-### <a name="a-managed-upgrade-for-an-organization-that-is-already-using-teams-in-islands-mode"></a>Teams をアイランド モードで既に使用している組織のマネージド アップグレード
+### <a name="a-select-capabilities-upgrade-for-an-organization-that-is-already-using-teams-in-islands-mode"></a>既に孤島モードで Teams を使用している組織の select 機能アップグレード
 
 組織内の一部のユーザーが Teams をアイランド モードでアクティブに使用している場合、既存のユーザーから機能を削除することは望ましくない場合があります。 その場合、テナント全体のポリシーを変更する前に、もう 1 つステップが必要になります。 この問題の解決策は、テナント全体のポリシーを SfbWithTeamsCollab に設定する前に、既存のアクティブな Teams ユーザーをアイランド モードで grandfather 化することです。  これが完了したら、上述のように展開を実行できます。ただし、TeamsOnly に移行する 2 グループのユーザーが存在することになります。つまり、Teams でアクティブだったユーザーはアイランド モードになり、残りのユーザーは SfbWithTeamsCollab モードになります。 管理者は、これらのユーザーを TeamsOnly モードに段階的に移行できます。
 
@@ -318,10 +318,10 @@ Teams のアクティブなユーザーが 1 人もいない組織の場合、�
    Move-CsUser -Identity $user -Target sipfed.online.lync.com -MoveToTeams -credential $cred 
    ```
 
-次の図に、アクティブなアイランド ユーザーが既に存在する場合のマネージド移行の概念フェーズを示します。 バーの高さは、ユーザー数を表します。 アップグレードのどのフェーズでも、すべてのユーザーが相互に通信できます。  Skype for Business ユーザーは TeamsOnly ユーザーと相互運用を使用して通信します。逆の場合も同様です。
+次の図は、アクティブな孤島ユーザーが開始時にある select 機能移行の概念フェーズを示しています。 バーの高さは、ユーザー数を表します。 アップグレードのどのフェーズでも、すべてのユーザーが相互に通信できます。  Skype for Business ユーザーは TeamsOnly ユーザーと相互運用を使用して通信します。逆の場合も同様です。
 
 
-![アイランド モードのアクティブなユーザーが存在する場合のマネージド アップグレードを示す図](media/teams-upgrade-2.png)
+![島々モードでアクティブなユーザーとの選択機能のアップグレードを示す図](media/teams-upgrade-2.png)
 
    
 
@@ -337,7 +337,7 @@ PSTN 通話機能が関係している場合、TeamsOnly モードへの移行�
 
 - *エンタープライズ VoIP を使用している Skype for Business オンプレミスのユーザー*のうち、オンラインに移行して、Microsoft 通話プランを使用するユーザー。  このユーザーを Teams に移行するには、そのユーザーのオンプレミスの Skype for Business アカウントをクラウドに移行し、移行を A) Microsoft 通話プランへのユーザーの電話番号のポートに合わせて調整するか、B) 利用可能な地域から新しいサブスクライバー番号を割り当てる必要があります。
 
-この記事では、概要のみを説明します。  詳細については、「[電話システムのダイレクト ルーティング](direct-routing-landing-page.md)」および「[通話プラン](calling-plan-landing-page.md)」を参照してください。 また、Teams での電話システムの使用は、そのユーザーが TeamsOnly モードの場合にのみサポートされることにご注意ください。  ユーザーがアイランド モードの場合、電話システムは Skype for Business でのみサポートされます。 
+この記事では、概要のみを説明します。 詳細については、「[電話システムのダイレクト ルーティング](direct-routing-landing-page.md)」および「[通話プラン](calling-plan-landing-page.md)」を参照してください。 また、Teams での電話システムの使用は、そのユーザーが TeamsOnly モードの場合にのみサポートされることにご注意ください。  ユーザーがアイランド モードの場合、電話システムは Skype for Business でのみサポートされます。 
 
 ### <a name="from-skype-for-business-online-with-microsoft-calling-plans"></a>Microsoft 通話プランを使用している Skype for Business Online からの場合 
 

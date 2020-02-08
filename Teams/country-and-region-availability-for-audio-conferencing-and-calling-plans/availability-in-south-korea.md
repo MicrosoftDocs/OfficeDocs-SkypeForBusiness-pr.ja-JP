@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ここでは、韓国向けの Skype for Business および Microsoft Teams の Office 365 サービスについてご説明します。
-ms.openlocfilehash: 63009e4e1e517c5d3ae41832de22e40eb70d8451
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 503810734c2134aa9f93596707af28f07dee76f2
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41694612"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41852444"
 ---
 # <a name="availability-in-south-korea"></a>韓国での利用可能性
 
@@ -62,6 +62,8 @@ ms.locfileid: "41694612"
 |通話プランは購入できますか?  <br/> |いいえ  <br/> |
 |通話プランで利用可能な通話分数  <br/> |該当しない  <br/> |
 |発信通話を行うことができますか?  <br/> |該当しない  <br/> |
+
+通話プランを購入できない場合は、[電話システムのダイレクトルーティング](../direct-routing-landing-page.md)を使用することを検討してください。 直接ルーティングを使用すると、ほぼすべてのテレフォニーキャリアで電話システムを使うことができます。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
 

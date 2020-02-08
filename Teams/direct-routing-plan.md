@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: このトピックでは、Microsoft Phone システムのダイレクトルーティングを使用して、サポートされているユーザーが指定したセッションボーダーコントローラー (SBC) を Microsoft 電話システムに接続する方法について説明します。
-ms.openlocfilehash: f1d6c914a2ed95a073fdf900628ad96fa10b7428
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 4e6e26f0beaa74806ebc52ca31c007f5ec085fdc
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41835147"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863178"
 ---
 # <a name="plan-direct-routing"></a>ダイレクト ルーティングを計画する
 
@@ -249,17 +249,15 @@ FQDN sip.pstnhub.gov.teams.microsoft.us は、次のいずれかの IP アドレ
 
 ## <a name="sip-signaling-ports"></a>SIP シグナリング: ポート
 
-ダイレクトルーティングが提供されているすべての Office 365 環境では、ポート要件は同じです。
+ダイレクトルーティングが提供されている Office 365 環境には、次のポートを使用する必要があります。
 - Office 365
 - Office 365 GCC
 - Office 365 GCC 高
 - Office 365 DoD
 
-次のポートを使用する必要があります。
-
 |**通過**|**開始**|**終了**|**送信元ポート**|**宛先ポート**|
 |:--- |:--- |:--- |:--- |:--- |
-|SIP/TLS|SIP プロキシ|SBC|1024–65535|SBC で定義|
+|SIP/TLS|SIP プロキシ|SBC|1024– 65535 (Office 365 GCC 高/DoD のみ) ポート5061および5062のみ使用する必要があります。|SBC で定義|
 SIP/TLS|SBC|SIP プロキシ|SBC で定義|5061|
 ||||||
 

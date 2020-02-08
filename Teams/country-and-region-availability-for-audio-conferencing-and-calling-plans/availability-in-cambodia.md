@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下は、Skype for Business および Microsoft Teams 用の Office 365 サービスを、カンボジアで利用できるようにするものです。
-ms.openlocfilehash: 9425f1638614ff970e3d7a961e0b9451ea0e4c77
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 441d3fe9973b6c16bd5fddadd2509659c6629b1a
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684000"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41853742"
 ---
 # <a name="availability-in-cambodia"></a>カンボジアでの可用性
 
@@ -61,6 +61,8 @@ ms.locfileid: "41684000"
 |通話プランは購入できますか?  <br/> |いいえ  <br/> |
 |通話プランで利用可能な通話分数  <br/> |該当しない  <br/> |
 |発信通話を行うことができますか?  <br/> |該当しない  <br/> |
+
+通話プランを購入できない場合は、[電話システムのダイレクトルーティング](../direct-routing-landing-page.md)を使用することを検討してください。 直接ルーティングを使用すると、ほぼすべてのテレフォニーキャリアで電話システムを使うことができます。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
 

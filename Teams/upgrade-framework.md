@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d403a97b5c9a7320834d6c78f78cafa28d54116a
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 42b4efcd2e9b38aebb7f44d3aa09d7be1ca634f3
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837187"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863528"
 ---
 # <a name="about-the-upgrade-framework"></a>アップグレードのフレームワークについて
 
@@ -68,7 +68,7 @@ ms.locfileid: "41837187"
 | ステップ |  | 概要 | 設備 |
 |------|--|---------|----------|
 | **1** | **環境を評価して、チームのテクニカルオンボードを完成させる** | 環境のユーザーエクスペリエンスを最適化し、時間の経過と共にアップグレードを容易にするために、チームでの準備が整っていることを確認します。 | [Teams にアップグレードする前に、環境を評価して](upgrade-plan-journey-evaluate-environment.md)ください。<br><br> [Teams にアップグレードするためのサービスを準備する](upgrade-prepare-environment-prepare-service.md) |
-| **2** | **チーム用にネットワークを最適化する (特にリアルタイムのメディアシナリオ)** | オーディオ、ビデオ、または会議を展開している場合は、その機能を利用できるようにネットワークを最適化するために、次の追加の手順を実行します。 | [Teams にアップグレードするためにネットワークを準備する](upgrade-prepare-environment-prepare-network.md) |
+| **2** | **チーム用にネットワークを最適化する (特にリアルタイムのメディアシナリオ)** | オーディオ、ビデオ、または会議を展開している場合は、その機能を利用できるようにネットワークを最適化するために、次の追加の手順を実行します。 | [Teams にアップグレードするためにネットワークを準備する](prepare-network.md) |
 | **3** | **組織の変更の準備を評価し、チームワークのシナリオを定義する** | ユーザのベースを理解して、適切な価値のあるメッセージと教育レベルを準備し、ユーザーの導入を容易にします。 | [組織変更の準備](upgrade-org-change-readiness.md#organizational-change-readiness) |
 | **4** | **ユーザーによる通信、トレーニング、およびサポートの方法を定義するためのユーザーの準備計画を準備する** | コミュニケーション、トレーニング、サポート計画をカスタマイズして、新しいテクノロジに最適な receptiveness を実現します。 | [ユーザーの研修計画を準備する](upgrade-user-readiness.md)<br><br>[アップグレード成功キット](https://aka.ms/UpgradeSuccessKit) |
 | **5** | **Microsoft Teams の保留中のリリースをアナウンスする** | 早期にコミュニケーションして、ユーザーの気持ちを抑え、混乱を減らし、興奮を生み出します。 | [アップグレード成功キット](https://aka.ms/UpgradeSuccessKit) |

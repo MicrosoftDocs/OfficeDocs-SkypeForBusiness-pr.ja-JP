@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5000ecb5195654e902c06f329c910c0a5edb7d55
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2b97adde4f5016262ac3de1a5b79c9d69975580b
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837132"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863488"
 ---
 ![テクニカルレディネスステージを強調したアップグレードの図](media/upgrade-banner-tech-readiness.png "技術的な準備段階に重点を置いたアップグレードの段階")
 
@@ -196,4 +196,4 @@ ms.locfileid: "41837132"
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next step"/><br/>次の手順</td><td><ul><li>環境評価の結果を文書化します。</li></ul></td></tr>
 </table>
 
-環境の評価が完了したら、次の手順「[ネットワークを準備](upgrade-prepare-environment-prepare-network.md)する」に進みます。
+環境の評価が完了したら、次の手順「[ネットワークを準備](prepare-network.md)する」に進みます。

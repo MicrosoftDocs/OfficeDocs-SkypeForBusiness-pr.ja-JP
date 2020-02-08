@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下に、Skype for Business の Office 365 サービスと、アルジェリアで利用できる Microsoft Teams を示します。
-ms.openlocfilehash: a3b7661f3aa2dd79144e8e5080799aea8d0c9de9
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 22b099fcc5ca17328c3102b8491fa61ca1124bb7
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684090"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41853952"
 ---
 # <a name="availability-in-algeria"></a>アルジェリアで利用可能
 
@@ -61,6 +61,8 @@ ms.locfileid: "41684090"
 |通話プランは購入できますか?  <br/> |いいえ  <br/> |
 |通話プランで利用可能な通話分数  <br/> |該当しない  <br/> |
 |発信通話を行うことができますか?  <br/> |該当しない  <br/> |
+
+通話プランを購入できない場合は、[電話システムのダイレクトルーティング](../direct-routing-landing-page.md)を使用することを検討してください。 直接ルーティングを使用すると、ほぼすべてのテレフォニーキャリアで電話システムを使うことができます。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
 
