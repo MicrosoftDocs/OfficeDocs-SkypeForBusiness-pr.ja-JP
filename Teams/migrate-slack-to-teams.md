@@ -14,14 +14,15 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.custom: ''
+f1.keywords:
+- NOCSH
 description: Slack から Microsoft Teams への移行に関する詳細なガイダンス。
-ms.openlocfilehash: 56278359062bb7f154b5e3248c343f98c62cb916
-ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
+ms.openlocfilehash: 15ef6203fa2cf27d081865e3966198f033b1bd80
+ms.sourcegitcommit: 8e2fa7b744d0a174b699ae7298d4688b971eeff3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "38793473"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41845215"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>Slack から Microsoft Teams に移行する
 
@@ -43,7 +44,7 @@ Slack のエクスポート オプションの詳細については、Slack の 
 
 この記事で説明する Slack の移行に関する状況の概略を次の図に示します。 
 
-:::image type="content" source="media/migrate-slack-to-teams-image2.png" alt-text="Slack の移行に関する状況を示す図":::
+![Slack の移行に関する状況を示す図](media/migrate-slack-to-teams-image2.png)
 
 このセクションを読み終えると、次のことを理解できます。
 - Slack ワークスペースのサービス レベル
@@ -80,7 +81,7 @@ Slack のアプリは、Teams のアプリのようなものです。 ワーク�
 
 <your Slack workspace>.slack.com/apps/manage にアクセスしてアプリとカスタム統合の一覧を取得します。 このページには、各アプリが使用している構成の数も表示されます。 カスタム統合の移行性は一定ではありません。 Web フックの場合は、通常はそれを Office 365 コネクタに送信して、ワークフローを Teams に移動できます。 ボットやその他のアプリの Teams への移行については、それぞれの個別の状況に応じて評価を行うことにより計画を立てます。
 
-*アプリの使用が管理者により制限されている場合、使用可能なアプリの完全な一覧が表示されない可能性があります。
+\* アプリの使用が管理者により制限されている場合、使用可能なアプリの完全な一覧が表示されない可能性があります。
 
 ### <a name="users"></a>ユーザー
 Slack で使用してきた ID スキームは、Office 365 に直接マッピングできない可能性があります。 たとえば、Slack ユーザーのメール アドレスは、Office 365 の職場または学校のアカウントにマッピングできない場合があります。 Teams の展開を開始する前に、ユーザー ID マップを作成する必要があります。
@@ -162,10 +163,10 @@ Write-Host "`n $(Get-Timestamp) Generated SlackToAzureADIdentityMapping.csv. Exi
 ```
 
 このセクションの手順を完了すると、次の準備が完了します。
-- ワークスペースごとのチャンネルの一覧および使用状況の統計情報
-- Slack アプリの一覧およびチャンネルごとの構成
-- エクスポートする Slack メッセージ履歴の種類の特定 (エクスポートする場合)
-- ユーザーの Slack アカウントが Microsoft の職場または学校のアカウントにマッピングされるユーザーの一覧および、それらのユーザーが持っている Teams のライセンスの種類
+- ワークスペースごとのチャンネルの一覧および使用状況の統計情報。
+- Slack アプリの一覧およびチャンネルごとの構成。
+- エクスポートする Slack メッセージ履歴の種類の特定 (エクスポートする場合)。
+- ユーザーの Slack アカウントが Microsoft の職場または学校のアカウントにマッピングされるユーザーの一覧、およびそれらのユーザーが持っている Teams のライセンスの種類。
 
 ## <a name="plan-your-teams-deployment"></a>Teams の展開を計画する
 以上の手順により、必要なコンテンツの Slack からのエクスポートが完了します (必要のないコンテンツはエクスポートせずに残します)。 次に、Teams を展開し、Slack のデータをインポートする方法について説明します。 このステップでは、チームで効果的に使用されてきた内容を使用状況に基づいて評価し、Teams の展開計画にこれらの要素を含めることができます。 このセクションの手順を完了すると、Teams のユーザー、チャネル、アプリに関する詳細計画が完成します。 

@@ -13,15 +13,17 @@ ms.reviewer: marcl
 audience: admin
 localization_priority: Priority
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: 現在知られている Microsoft Teams クライアント アプリおよび管理エクスペリエンスでの問題の一覧です。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c613f2116b5ad9f97426f60466d71d4ffaddba1
-ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
+ms.openlocfilehash: 1f18bd8fa85ce07596fe36106ea97ef36e698a78
+ms.sourcegitcommit: 8e2fa7b744d0a174b699ae7298d4688b971eeff3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "41628533"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41845148"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams の既知の問題
 
@@ -42,6 +44,10 @@ ms.locfileid: "41628533"
 |テナント全体のコネクタに対する管理者による管理機能が利用できなくなっている  <br/> |コネクタをクライアントとオンライン バージョンの両方に追加しようとすると、「予期しないエラーが発生しました。もう一度やり直してください」というエラーが表示されます。Set-OrganizationConfig -ConnectorsEnabled=True   <br/> |Teams の設定で無効にします。次のサポート記事をご覧ください:  https://answers.microsoft.com/en-us/msoffice/forum/msoffice_o365admin-mso_teams-mso_o365b/how-to-enable-or-disable-connectors-in-office-365/33d4b2c1-00eb-420a-ad83-01a2b42ad098    <br/> |2017/6/21  <br/> |
 
 ## <a name="apps"></a>アプリ
+
+|**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
+|:-----|:-----|:-----|:-----|
+|Chromeバージョン 80 のユーザーは Teams プラットフォーム上のいくつかのアプリにログインできません。<br/>|ユーザーがパスワード資格情報をアプリのサインイン ページに正しく入力すると、ユーザーがアプリに認識されず、アプリのサインイン ページにリダイレクトされる連続サイクルが開始されます。 <br/>|ユーザーに Teams デスクトップ クライアントを使用するように指示します。 |19/11/15<br/> |
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
@@ -317,7 +323,7 @@ ms.locfileid: "41628533"
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
-|プランナー オンラインでの Teams プランナー統合 <br/> |所有者は、既存の Office 365 グループから作成されたチームからプランを作成することはできません。  <br/> |グループの所有者にメンバーのアクセス許可を付与します。 <br/> |2020/01/14  <br/>|
+|プランナー オンラインでの Teams プランナー統合 <br/> |所有者は、既存の Office 365 グループから作成されたチームのプランを作成することはできません。  <br/> |グループの所有者にメンバーのアクセス許可を付与します。 <br/> |2020/01/14  <br/>|
 
 
 
