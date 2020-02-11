@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: '概要: ユーザー設定を移行し、ユーザーを Teams に移動する方法について説明します。'
-ms.openlocfilehash: c719741323c0e1bc8435adf10364356d069e8774
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: af5281faffa9bd9439e045dc40f67283bb740cb5
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726747"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888776"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>オンプレミスから Teams へのユーザーの移動
 
@@ -73,11 +73,11 @@ Move-CsUser は、オンプレミスの Skype for Business 管理シェル Power
 
 次のコマンドレットシーケンスを使用して、ユーザーを TeamsOnly に移動できます。また、Office 365 資格情報が別のアカウントであると仮定して、資格情報の取得を求めるメッセージの入力として指定します。
 
-    ```
-    $cred=Get-Credential
-    $url="https://admin1a.online.lync.com/HostedMigration/hostedmigrationService.svc"
-    Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -MoveToTeams -Credential $cred -HostedMigrationOverrideUrl $url
-    ```
+  ```powershell
+  $cred=Get-Credential
+  $url="https://admin1a.online.lync.com/HostedMigration/hostedmigrationService.svc"
+  Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -MoveToTeams -Credential $cred -HostedMigrationOverrideUrl $url
+  ```
 
 ### <a name="move-to-teams-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロールパネルを使用して Teams に移動する
 
@@ -101,14 +101,16 @@ Skype for business Server 2015 と CU8 のオンプレミスの管理ツール�
 
 すぐに Teams にアップグレードすることをオンプレミスのユーザーに通知するには、NotifySfBUsers = true を使用して TeamsUpgradePolicy の新しいインスタンスを作成します。 そのポリシーをユーザーに直接割り当てるか、サイト、プール、またはグローバルレベルでポリシーを設定することによって、そのポリシーを通知するユーザーに割り当てます。 次のコマンドレットは、ユーザーレベルのポリシーを作成して付与します。
 
-```
+```powershell
 New-CsTeamsUpgradePolicy -Identity EnableNotifications -NotifySfbUser $true
 Grant-CsTeamsUpgradePolicy -Identity username@contoso.com -PolicyName EnableNotifications
 ```
 
 Skype for Business Win32 クライアントを使用した Teams の自動ダウンロードは、TeamsUpgradeConfiguration コマンドレットで DownloadTeams パラメーターを使用して制御されます。 この構成は、グローバル、サイト、およびプールレベルで作成します。 たとえば、次のコマンドを実行すると、サイト Redmond1 というの構成が作成されます。
 
-`New-CsTeamsUpgradeConfiguration -Identity “site:redmond1”`
+```powershell
+New-CsTeamsUpgradeConfiguration -Identity "site:redmond1"
+```
 
 既定では、DownloadTeams の値は True です。ただし、指定されたユーザーの NotifySfbUser = True の場合に*のみ*無視されます。
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 49733583
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4ba55ec7ff54858d3324df2ab8794176a5dc7a10
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ee1afd2e53bd29571818b9194fe77d3d350386f1
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762965"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888766"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="https://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="migrate-call-park-application-settings"></a>コール パーク アプリケーション設定の移行
 
@@ -39,11 +39,11 @@ _**最終更新日:** 2012-10-19_
 
 Lync Server 2010 から Lync Server 2013 へのコールパークアプリケーションの移行には、lync server 2013 プールのプロビジョニングが含まれています。このファイルには、Lync Server 2010 でアップロードされたすべてのカスタム音楽が含まれています。また、サービスレベルの設定と retargeting を復元します。すべてのコールパークが Lync Server 2013 プールに orbits ます。 カスタマイズした音楽の保留中のファイルが Lync Server 2010 プールで構成されている場合は、これらのファイルを新しい Lync Server 2013 プールにコピーする必要があります。 さらに、通話パークしたカスタマイズされた音楽の保留中のファイルを Lync Server 2010 から別の場所にバックアップすることをお勧めします。これは、コールパーク用にアップロードされたカスタマイズした音楽の保存ファイルの個別のバックアップコピーを保持するためです。 コールパークアプリケーション用にカスタマイズされた音楽保留のファイルは、プールのファイルストアに保存されます。 Lync Server 2010 プールファイルストアから Lync Server 2013 ファイルストアにオーディオファイルをコピーするには、次のパラメーターを使用して**Xcopy**コマンドを使用します。
 
-   ```
+   ```console
     Xcopy <Source: Lync Server 2010 Pool CPS File Store Path> <Destination: Lync Server 2013 Pool CPS File Store Path>
    ```
 
-   ```
+   ```console
     Example usage:  Xcopy "<Lync Server 2010 File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\"  "<Lync Server 2013 File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\" 
    ```
 
@@ -65,8 +65,8 @@ Lync Server 2010 から Lync Server 2013 へのコールパークアプリケー
 
     
     </div>
-    
-        Set-CsCpsConfiguration -Identity "<LS2013 Call Park Service ID>" -CallPickupTimeoutThreshold "<LS2010 CPS TimeSpan>" -EnableMusicOnHold "<LS2010 CPS value>" -MaxCallPickupAttempts "<LS2010 CPS pickup attempts>" -OnTimeoutURI "<LS2010 CPS timeout URI>"
+    ```powershell
+        Set-CsCpsConfiguration -Identity "<LS2013 Call Park Service ID>"-Callpup<LS2010 CPS TimeSpan>Uptimeoutthreshold" "-enablemusiconhold<LS2010 CPS value>" "-maxcallピック upattempts"<LS2010 CPS pickup attempts>"-ontimeouturi"<LS2010 CPS timeout URI>"```
 
 すべてのコールパークの範囲を Lync server 2010 プールから Lync Server 2013 プールに再割り当てするには、Lync Server コントロールパネルまたは Lync server 管理シェルを使用できます。
 
@@ -87,14 +87,17 @@ Lync Server 2010 から Lync Server 2013 へのコールパークアプリケー
 1.  Lync Server 管理シェルを開きます。
 
 2.  コマンドラインで、次のように入力します。
-    
-        Get-CsCallParkOrbit
+    ```powershell
+    Get-CsCallParkOrbit
+    ```
     
     このコマンドレットは、展開内のすべてのコールパーク範囲の範囲を一覧表示します。 Lync Server 2010 プールとして**CallParkServiceId**と**Callparkserverfqdn**パラメーターが設定されているすべての Call パーク orbits は、再割り当てする必要があります。
     
     Lync Server 2010 Call パークの範囲を Lync Server 2013 プールに再割り当てするには、コマンドラインで次のように入力します。
     
-        Set-CsCallParkOrbit -Identity "<Call Park Orbit Identity>" -CallParkService "service:ApplicationServer:<Lync Server 2013 Pool FQDN>"
+    ```powershell
+    Set-CsCallParkOrbit -Identity "<Call Park Orbit Identity>" -CallParkService "service:ApplicationServer:<Lync Server 2013 Pool FQDN>"
+    ```
 
 すべてのコールパークの範囲を Lync Server 2013 プールに再割り当てすると、コールパークアプリケーションの移行プロセスが完了し、Lync Server 2013 プールは、今後のすべてのコールパーク要求を処理します。
 
