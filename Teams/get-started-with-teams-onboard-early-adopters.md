@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c532748df9361a9cc7bba8b227c07fbdfc8f4a45
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: fff82f709c215b4a276258a7a57e1790956d0e70
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837157"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888626"
 ---
 # <a name="onboard-early-adopters-to-microsoft-teams"></a>Microsoft Teams に早期導入者を参加させる
 
@@ -36,7 +36,7 @@ ms.locfileid: "41837157"
 
 たとえば、"Get to know Teams" チームの場合は次のような電子メールを送信します。
 
-   ```
+   ```console
    Welcome to Microsoft Teams for <insert_company_name>. Teams is a chat-based workspace that brings together chat, files, people, and tools in one place. 
 
    We created a team called "Get to know Teams" to get you started. Use it to experiment, ask questions, and discover the possibilities of Teams. 

@@ -16,19 +16,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7aa3969d3943598c8e5657e1fcb94730179f57fe
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: eb0998579c29cd7405319600c436468bac2ec4e8
+ms.sourcegitcommit: 73376693670d12f3d9038d4ed604e6685ee21984
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837687"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41917022"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>Microsoft Teams Exploratory ライセンスを管理する
 =======================================================
 
 Microsoft Teams Exploratory エクスペリエンスを使用すると、Azure Active Directory (AAD) を持ち、Teams のライセンスを取得していない組織内のユーザーは、Teams の Exploratory エクスペリエンスを開始できます。 管理者は組織内のユーザーに対して、この機能をオンまたはオフに切り替えることができます。 以前の [Microsoft の商用クラウドの試用版](iw-trial-teams.md)は、Teams Exploratory エクスペリエンスと呼ばれています。
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)] このエクスペリエンスは、2020 年 1 月中旬から利用可能になります。
 
 ## <a name="whats-in-the-teams-exploratory-experience"></a>Teams Exploratory エクスペリエンスの内容
 
