@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams でクラウド音声機能のネットワーク設定を構成する方法について説明します。
-ms.openlocfilehash: d192fdd03f38b3e9c7fb0832d3a84bf464af0665
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2f615de14cb38c24a1789b968e7c77e38698e26d
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837497"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888706"
 ---
 # <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>Microsoft Teams でクラウド音声機能のネットワークトポロジを管理する
 
@@ -104,11 +104,14 @@ New-CsTenantNetworkRegion -NetworkRegionID "India"
 ```PowerShell
 New-CsTenantNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
 ```
+
 この例では、インド地域に2つの新しいネットワークサイト、ニューデリーと Hyderabad を作成します。
+
 ```PowerShell
 New-CsTenantNetworkSite -NetworkSiteID "Delhi" -NetworkRegionID "India"
 New-CsTenantNetworkSite -NetworkSiteID "Hyderabad" -NetworkRegionID "India"
 ```
+
 次の表は、この例で定義されているネットワークサイトを示しています。
 
 ||サイト1 |サイト2 |
@@ -131,8 +134,8 @@ New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmas
 ```PowerShell
 New-CsTenantNetworkSubnet -SubnetID "192.168.0.0" -MaskBits "24" -NetworkSiteID "Delhi"
 New-CsTenantNetworkSubnet -SubnetID "2001:4898:e8:25:844e:926f:85ad:dd8e" -MaskBits "120" -NetworkSiteID "Hyderabad"
-
 ```
+
 次の表は、この例で定義されているサブネットを示しています。
 
 ||サイト1 |サイト2 |
@@ -142,11 +145,14 @@ New-CsTenantNetworkSubnet -SubnetID "2001:4898:e8:25:844e:926f:85ad:dd8e" -MaskB
 |サイト ID  | サイト (ニューデリー) | サイト 2 (Hyderabad) |
 
 複数のサブネットの場合は、次のようなスクリプトを使用して CSV ファイルをインポートできます。
+
 ```PowerShell
 Import-CSV C:\subnet.csv | foreach {New-CsTenantNetworkSubnet –SubnetID $_.SubnetID-MaskBits $_.Mask -NetworkSiteID $_.SiteID}  
 ```
+
 この例では、CSV ファイルは次のようになります。
-```output
+
+```console
 Identity, Mask, SiteID
 172.11.12.0, 24, Redmond
 172.11.13.0, 24, Chicago
@@ -159,10 +165,13 @@ Identity, Mask, SiteID
 ### <a name="define-external-subnets-external-trusted-ip-addresses"></a>外部のサブネット (外部の信頼できる IP アドレス) を定義する
 
 [CsTenantTrustedIPAddress](https://docs.microsoft.com/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps)コマンドレットを使用して外部サブネットを定義し、それをテナントに割り当てます。 テナントに対して無制限の数の外部サブネットを定義できます。
+
 ```PowerShell
 New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description> 
 ```
+
 次に例を示します。
+
 ```PowerShell
 New-CsTenantTrustedIPAddress -IPAddress 198.51.100.0 -MaskBits 30 -Description "Contoso address"  
 ```

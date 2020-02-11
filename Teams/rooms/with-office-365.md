@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: このトピックでは、Office 365 で Microsoft Teams のルームを展開する方法について説明します。
-ms.openlocfilehash: d3fcfdd0b2aabc5d69946ba60b5b8c6fbc73f713
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 39a703b844df1a1ff487187772ff8eb8ea035191
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827445"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888756"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-office-365"></a>Office 365 での Microsoft Teams ミーティングを展開する
 
@@ -36,7 +36,7 @@ Skype for Business を有効にするには、次のものが必要です。
 
 - Office 365 プランで Skype for Business Online (プラン2、またはエンタープライズベースのプラン) 以上。 このプランでは、ダイヤルイン会議機能を許可する必要があります。
 
-- 会議からダイヤルイン機能が必要な場合は、電話会議と電話システムのライセンスが必要です。  会議からダイヤルアウト機能が必要な場合は、国内または国内の通話プランが必要です。
+- 会議からダイヤルイン機能が必要な場合は、電話会議と電話システムのライセンスが必要です。  会議からダイヤルアウト機能が必要な場合は、電話会議ライセンスが必要です。
 
 - テナントユーザーは Exchange メールボックスを持っている必要があります。
 

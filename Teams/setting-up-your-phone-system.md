@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '組織の電話システム (クラウド PBX) の設定方法について説明します。 '
-ms.openlocfilehash: 71e12447d0a6951ef787bf7c7cd82024375e11fd
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e1ae56200132ab4468b6db8d490c12d11b7a6deb
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837987"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888726"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>組織で電話システムをセットアップする
 
@@ -117,7 +117,7 @@ Office 365 からユーザーの電話番号を取得することに加えて、
 
 ## <a name="step-8-if-you-want-to-set-up-a-cloud-auto-attendant"></a>手順 8: クラウドの自動応答を設定する場合
 
-自動応答は、組織に電話をかけてくる方にメニュー システムを案内し、目的の部署、通話キュー、担当者、またはオペレーターにつなげます。Skype for Business 管理センターを使用して、組織の自動応答を作成できます。
+自動応答は、組織にコールインしているユーザーに対して、適切な部署、通話キュー、人、またはオペレーターにアクセスするためのメニューシステムの操作を許可します。 Teams 管理センターを使用して、組織の自動応答を作成できます。
 
 クラウド自動応答のセットアップについては、「[クラウド自動応答をセットアップする](create-a-phone-system-auto-attendant.md)attendendant を参照してください。
 

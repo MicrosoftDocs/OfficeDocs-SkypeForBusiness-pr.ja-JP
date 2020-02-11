@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Windows の Teams デスクトップクライアントアプリのインストールと更新に関する問題のトラブルシューティングを行う方法について説明します。
-ms.openlocfilehash: f47edf351d6a55f57977fee823d670b749896049
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5c6ee4da7e4bb78463cb262cb382e3a090529bb5
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837627"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888846"
 ---
 # <a name="troubleshoot-microsoft-teams-installation-and-update-issues-on-windows"></a>Windows での Microsoft Teams のインストールと更新に関する問題のトラブルシューティング
 
@@ -77,36 +77,36 @@ SquirrelTemp または Logs には、基になる原因を特定するための�
 
     1. TEMP フォルダーに移動するには、次の操作を実行します。
 
-        ```
+        ```console
         cd /d %TEMP%
         ```
     2. セットアップログとアプリケーションログをコピーします。 エラーの原因によっては、これらのログの一部が表示されない場合があることに注意してください。
 
-        ```
+        ```console
         copy %LocalAppData%\SquirrelTemp\SquirrelSetup.log SquirrelSetup.log
         copy %AppData%\Microsoft\Teams\logs.txt logs.txt
         copy %LocalAppData%\Microsoft\Teams\SquirrelSetup.log SquirrelSetup_Teams.log
         ```
     3. 開いているハンドルをキャプチャするには、次を実行します。
 
-        ```
+        ```console
         handle > handles.txt
         ```
 
     4. 次のように実行して、開いている Dll をキャプチャします。
 
-        ```
+        ```console
         listdlls -v Teams > dlls.txt
         ```
     5. 実行されているドライバーをキャプチャするには、次を実行します。
 
-        ```
+        ```console
         driverquery /v > driverquery.txt
         ```
 
     6. Teams フォルダーのアクセス制御リスト (Acl) を取得するには、次を実行します。
 
-        ``` 
+        ```console 
         icacls %LOCALAPPDATA%\Microsoft\Teams /save icacls.txt /T
         ```
 

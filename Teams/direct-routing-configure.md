@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Microsoft Phone システムのダイレクトルーティングを構成する方法について説明します。
-ms.openlocfilehash: 22cb8e289cd78d1736bb594280c6ebfc248c02a0
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 86406af88648d367f02fd420c9ba278bdfd47185
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836087"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888596"
 ---
 # <a name="configure-direct-routing"></a>ダイレクト ルーティングを構成する
 
@@ -49,9 +49,9 @@ Microsoft 電話システムを構成し、ユーザーが直接ルーティン�
 
 次に、SBC を直接ルーティングインターフェイスに接続するかペアリングする3つの大まかな手順について説明します。 
 
-- PowerShell を使用して**Skype For Business Online**管理センターに接続する 
-- SBC をペアリングする 
-- ペアリングを検証する 
+1. PowerShell を使用して**Skype For Business Online**管理センターに接続する 
+2. SBC をペアリングする 
+3. ペアリングを検証する 
 
 ### <a name="connect-to-skype-for-business-online-by-using-powershell"></a>PowerShell を使用して Skype for Business Online に接続する 
 
@@ -204,16 +204,16 @@ Skype for business Online の展開が Skype for Business 2015 または Lync 20
     Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<E.164 phone number>
     ```
 
-たとえば、"Spencer Low" というユーザーの電話番号を追加するには、次のように入力します。 
+    たとえば、"Spencer Low" というユーザーの電話番号を追加するには、次のように入力します。 
 
-```PowerShell
-Set-CsUser -Identity "Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
-```
+    ```PowerShell
+    Set-CsUser -Identity "Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    ```
 
-使用される電話番号は、国コードを含む完全な電子電話番号として構成する必要があります。 
+    使用される電話番号は、国コードを含む完全な電子電話番号として構成する必要があります。 
 
-  > [!NOTE]
-  > ユーザーの電話番号がオンプレミスで管理されている場合は、オンプレミスの Skype for Business 管理シェルまたはコントロールパネルを使用して、ユーザーの電話番号を構成します。 
+      > [!NOTE]
+      > ユーザーの電話番号がオンプレミスで管理されている場合は、オンプレミスの Skype for Business 管理シェルまたはコントロールパネルを使用して、ユーザーの電話番号を構成します。 
 
 ### <a name="configure-voice-routing"></a>音声ルーティングを構成する 
 
@@ -286,7 +286,7 @@ Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="US and Canada"}
 Get-CSOnlinePSTNUsage
 ``` 
 これは、切り捨てられる可能性がある名前のリストを返します。
-```output
+```console
 Identity    : Global
 Usage       : {testusage, US and Canada, International, karlUsage. . .}
 ```
@@ -487,28 +487,28 @@ Name                      : International
 
 PSTN の利用状況 "レドモンド 1" と "Redmond" は、電話番号 "+ 1 425 XXX XX XX" と "+ 1 206 XXX XX XX" への通話に対する特別な処理を、ローカルまたはオンプレミスの通話として維持するために、この音声ルーティングポリシーで再利用されています。
 
-   ```PowerShell
-   New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
-   ```
+  ```PowerShell
+  New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
+  ```
 
 PSTN の使用順序に注意してください。
 
-a. 次の例のように、利用状況を設定して、"+ 1 425 XXX XX XX" という数値を指定した場合は、通話は "US およびカナダ" の使用に設定され、特殊なルーティングロジックが適用されます。 つまり、sbc1.contoso.biz と sbc2.contoso.biz を使用して通話がルーティングされ、次にバックアップルートとして sbc3.contoso.biz と sbc4.contoso.biz が送信されます。
+  a. 次の例のように、利用状況を設定して、"+ 1 425 XXX XX XX" という数値を指定した場合は、通話は "US およびカナダ" の使用に設定され、特殊なルーティングロジックが適用されます。 つまり、sbc1.contoso.biz と sbc2.contoso.biz を使用して通話がルーティングされ、次にバックアップルートとして sbc3.contoso.biz と sbc4.contoso.biz が送信されます。
 
-b. "国際" という PSTN の使用が "US とカナダ" よりも前にある場合は、ルーティングロジックの一部として、+ 1 425 XXX XX XX への通話が sbc2.contoso.biz と sbc5.contoso.biz にルーティングされます。 コマンドを入力します。
+  b. "国際" という PSTN の使用が "US とカナダ" よりも前にある場合は、ルーティングロジックの一部として、+ 1 425 XXX XX XX への通話が sbc2.contoso.biz と sbc5.contoso.biz にルーティングされます。 コマンドを入力します。
 
-```PowerShell
-New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
-```
+  ```PowerShell
+  New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
+  ```
 
-戻り値
+戻り値:
 
-<pre>
-Identity              : International 
-OnlinePstnUsages : {US and Canada, International}    
-Description      :  
-RouteType             : BYOT
-</pre>
+    <pre>
+    Identity              : International 
+    OnlinePstnUsages : {US and Canada, International}    
+    Description      :  
+    RouteType             : BYOT
+    </pre>
 
 **手順 4**: 次のコマンドを使用して、ボイスルーティングポリシーをユーザーの "John 森" に割り当てます。
 

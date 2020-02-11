@@ -18,12 +18,12 @@ ms.collection:
 - SPO_Content
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4060dae11ad90793c6124b1b37971b15437caf39
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 4725669d4f5829941df4bded0a5f2bbb393fb034
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825755"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41887876"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Microsoft StaffHub のチームを Microsoft Teams のシフトに移動する
 
@@ -203,7 +203,7 @@ Move-StaffHubTeam -TeamId "TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f"
 
 StaffHub チームを Teams に移動する要求を送信した際に返される応答の例です。
 
-```output
+```console
  jobId                                      teamId                                      teamAlreadyInMicrosofteams  
 ---------------------------------------    ----------------------------------------    ---------------------------          
 JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   false
@@ -222,7 +222,7 @@ Get-TeamMigrationJobStatus -JobId "JOB_81b1f191-3e19-45ce-ab32-3ef51f100000"
 
 移動の進行中に返される応答の例です。
 
-```output
+```console
 jobId                                     status       teamId                                     isO365GroupCreated  Error
 ----------------------------------------  ----------   ----------------------------------------   ------------------  -----    
 JOB_81b1f191-3e19-45ce-ab32-3ef51f100000  inProgress   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f  true                none
@@ -284,7 +284,7 @@ foreach ($team in $StaffHubTeams[0]) {Move-StaffHubTeam -TeamId $team.Id}
 
 既に Teams に移動されたか既に Teams に存在するチームの場合、そうしたチームを移動するためのジョブを送信する必要がないため、jobId は "null" になります。
 
-```output
+```console
 jobId                                      teamId                                      teamAlreadyInMicrosofteams  
 ----------------------------------------   -----------------------------------------   --------------------------         
 null                                       TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   true

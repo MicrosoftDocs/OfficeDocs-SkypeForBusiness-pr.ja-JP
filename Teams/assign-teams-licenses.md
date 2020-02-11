@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: 電話会議、電話システム、通話プランなどの機能にライセンスを割り当てる方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 967b67c1d8bc92009e1319260373c9b8abc52b99
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 46ae5952d79f3f0ef0a6137b240661550ecead00
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826315"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888686"
 ---
 # <a name="assign-microsoft-teams-licenses"></a>Microsoft Teams ライセンスを割り当てる
 
@@ -58,7 +58,7 @@ ms.locfileid: "41826315"
 
 スクリプトに含まれているライセンス名または製品名が斜体で表示されます (「[電話システムと通話プランの製品名、または](#phone-system-and-calling-plans-product-names-or-skus-used-for-scripting)、例の後にスクリプトで使用される sku を参照してください)。
 
-```
+```powershell
 #Create a text file with a single row containing list of UserPrincipalName (UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
 
 #Example of text file:
@@ -93,6 +93,7 @@ for each ($user in $users)
  }
 
 ```
+
 ## <a name="phone-system-and-calling-plans-product-names-or-skus-used-for-scripting"></a>スクリプトで使用される電話システムと通話プランの製品名または SKU
 
 | 製品名 | SKU 部品名 |
@@ -131,7 +132,7 @@ for each ($user in $users)
 
 この例では、Enterprise E3 ライセンスと電話会議ライセンスを割り当てています。
 
-```
+```powershell
 #Create a text file with a single row containing list of UserPrincipalName(UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
 #Example of text file:
 #user1@domain.com
@@ -165,6 +166,7 @@ foreach ($user in $users)
     Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "companyname:MCOMEETADV " -ErrorAction SilentlyContinue
     }
 ```
+
 ## <a name="audio-conferencing-product-names-or-skus-used-for-scripting"></a>スクリプトで使用される電話会議の製品名または SKU
 
 | 製品名 | SKU 部品名 |

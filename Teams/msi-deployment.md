@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31a8731d5d9a1717b3e8574aae3de4a8402dfb78
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 6f57eeb44fd728d1b656ce13f56cf2c5997805b9
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41832487"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888366"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager を使用して Microsoft Teams をインストールする
 
@@ -104,11 +104,14 @@ Teams をインストールする前にこのポリシー設定を有効にす�
 次のように**OPTIONS = "noAutoStart = true"** パラメーターを使用して、MSI インストーラーの自動起動を無効にすることができます。  
 
 32 ビット 版向け
-```PowerShell
+
+```console
 msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true"
 ```
+
 64 ビット 版向け
-```PowerShell
+
+```console
 msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true"
 ```
 

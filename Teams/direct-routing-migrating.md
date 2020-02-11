@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Skype for Business Online および Teams の構成パースペクティブからダイレクト ルーティングに移行するために必要な作業について説明します。
-ms.openlocfilehash: 85b53bf33cd8f9015ea9294876a06da3532ad085
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: fa7a3e09d4f79328545bff29b2f440ba0bfe6990
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836057"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888586"
 ---
 # <a name="migrate-to-direct-routing"></a>ダイレクト ルーティングに移行する
 
@@ -31,7 +31,7 @@ ms.locfileid: "41836057"
 - Skype for Business Server のオンプレミス PSTN 接続による Office 365 電話システム (Skype for Business Online 向け)  
 - クラウド コネクタ エディションを使用したオンプレミス PSTN 接続による Office 365 電話システム (Skype for Business Online 向け)
 
-  
+
 これらの構成手順に加えて、通話を新しいルートへルーティングするために、セッション ボーダー コントローラー (SBC) 上での構成も必要です。 これは、このドキュメントの範囲外です。 詳細については、SBC 業者の資料を参照してください。  
 
 ## <a name="user-provisioning-end-state-for-various-pstn-connectivity-options"></a>さまざまな PSTN 接続オプションのユーザー プロビジョニングの最終状態 
@@ -55,7 +55,7 @@ OnPremLineURI |該当なし|電話番号は、オンプレミスの AD から同
 |TeamsCallingPolicy</br>AllowGroupCalling|True|該当なし|該当なし|True|
 ||||||
 
-<sup>1</sup>TeamsUpgradePolicy の適切なモードの選択は、シナリオによって異なります。 異なるモードでの音声環境の詳細については、「[Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス](migration-interop-guidance-for-teams-with-skype.md)」を参照してください。
+<sup>1</sup> TeamsUpgradePolicy の適切なモードの選択は、シナリオによって異なります。 異なるモードでの音声環境の詳細については、「[Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス](migration-interop-guidance-for-teams-with-skype.md)」を参照してください。
 
 Microsoft では、この取り組みとは別に、共存モードに基づく新しい管理モードを反映させるために Microsoft Teams 管理センター (モダン ポータルとも呼ばれます) を最近更新しました。 モダン ポータルでは、TeamsUpgradePolicy を構成することにより TeamsInteropPolicy も一貫性のある値に自動的に設定されため、TeamsInteropPolicy がユーザー インターフェイスに表示されなくなります。 ただし、PowerShell を使用している管理者は、適切なルーティングを確保するために、TeamsUpgradePolicy と TeamsInteropPolicy の両方を同時に設定する必要があります。 TeamsUpgradePolicy への移行が完了すると、TeamsInteropPolicy を設定する必要はなくなります。
 
@@ -72,7 +72,7 @@ Microsoft では、この取り組みとは別に、共存モードに基づく�
  
 次を実行し、以前に構成したライセンス プラン情報を削除することをお勧めします。
  
-```
+```powershell
 $companyname = “contoso” 
 $lic1 = $companyname + “:MCOPSTN1” 
 $lic2 = $companyname + “:MCOPSTN2” 
@@ -91,6 +91,7 @@ Skype for Business Server のオンプレミス PSTN 接続による電話シス
 ```PowerShell
 Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN> 
 ```
+> [!NOTE]
 > グローバル CsVoiceRoutingPolicy が構成されている場合は、このグローバルポリシーに関連付けられている PSTN 使用状況を削除することをお勧めします。 
 
 ## <a name="migrating-from-office-365-phone-system-with-on-premises-pstn-connectivity-via-cloud-connector-edition"></a>クラウド コネクタ エディション経由のオンプレミス PSTN 接続による Office 365 電話システムからの移行 

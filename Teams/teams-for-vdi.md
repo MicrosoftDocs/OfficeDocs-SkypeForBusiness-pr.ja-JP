@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e412f6f45fabda12ca01df0f50c46f3989b0afd1
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 7abe63551eee449afd507a786cd2efbf70e89afa
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837667"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888646"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>仮想デスクトップ インフラストラクチャ用の Teams
 
@@ -141,7 +141,7 @@ Teams と Office 365 ProPlus の詳細については、「 [office 365 ProPlus 
 
     - ユーザーごとのインストール (既定)
   
-        ```
+        ```console
         msiexec /i <path_to_msi> /l*v <install_logfile_name>
         ```
     
@@ -149,7 +149,7 @@ Teams と Office 365 ProPlus の詳細については、「 [office 365 ProPlus 
     
     - マシン単位のインストール
 
-        ```
+        ```console
         msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1
         ```
 
@@ -165,7 +165,7 @@ Teams と Office 365 ProPlus の詳細については、「 [office 365 ProPlus 
     
     - コマンドライン: この方法ではチームが削除されますが、Teams の再インストールはできません。 次のコマンドを実行します。
   
-      ```
+      ```console
       msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
       ```
       これにより、オペレーティングシステムの環境に応じて、Program Files (x86) フォルダーまたは Program Files フォルダーから Teams がアンインストールされます。
