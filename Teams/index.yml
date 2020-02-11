@@ -1,0 +1,53 @@
+### YamlMime:Hub
+title: Microsoft Teams のテクニカル ドキュメンテーション
+summary: Microsoft Teams のテクニカル ドキュメンテーション
+brand: teams
+metadata:
+  title: Microsoft Teams のテクニカル ドキュメンテーション
+  description: Microsoft Teams のテクニカル ドキュメンテーション
+  ms.service: msteams
+  ms.topic: hub-page
+  audience: ITPro
+  author: samanro
+  ms.author: samanro
+  ms.date: 07/03/2019
+  localization_priority: Priority
+  ms.openlocfilehash: 6c588d03d27d0f4c6641546a75e9e371b2b8c04b
+  ms.sourcegitcommit: 5e2dc3430e63bc0a17b87a63fa36ac93d96d8134
+  ms.translationtype: MT
+  ms.contentlocale: ja-JP
+  ms.lasthandoff: 02/11/2020
+  ms.locfileid: "41889426"
+additionalContent:
+  sections:
+  - title: IT プロフェッショナル向け
+    items:
+    - title: Teams へようこそ
+      summary: チームの概要について説明し、チームの管理者または IT プロフェッショナルとして必要な技術的ガイダンスについて説明します。
+      url: /MicrosoftTeams/teams-overview
+    - title: Skype for Business から Teams へのアップグレード
+      summary: チームへの最適なパスを調べるためのガイダンスとツールを見つけます。
+      url: /MicrosoftTeams/upgrade-start-here
+    - title: 導入ハブ
+      summary: チームのロールアウトをサポートするツールを入手します。
+      url: /MicrosoftTeams/adopt-microsoft-teams-landing-page
+    - title: トレーニングおよびビデオを参照する
+      summary: 'チームのトレーニングを受ける: 自分とユーザーのため。'
+      url: /MicrosoftTeams/training-microsoft-teams-landing-page
+    - title: ポスター：Teams アーキテクチャ、テレフォニーソリューション
+      summary: Teams IT アーキテクチャとテレフォニーソリューションの印刷可能な図を入手できます。
+      url: /microsoftteams/teams-architecture-solutions-posters
+    - title: Teams を組織全体で展開します
+      summary: 医療機関、firstline 員、小売業者、行政機関、教育機関など、業界向けのカスタムソリューションを見つけることができます。
+      url: /MicrosoftTeams/expand-teams-across-your-org/expand-teams-across-your-organization-landing-page
+  - title: 他のユーザーの場合
+    items:
+    - title: Teams 技術コミュニティ
+      summary: Teams の技術コミュニティに参加して質問をしたり回答を得たり、Teams のブログを読むことができます。
+      url: https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams
+    - title: Teams エンド ユーザー のヘルプ
+      summary: ヘルプ、トレーニング、およびエンドユーザー向けの新しいコンテンツに移動します。
+      url: https://support.office.com/Teams
+    - title: Teams 開発者プラットフォーム
+      summary: Teams の開発者プラットフォームと、それによって便利で強力なアプリを構築する方法について説明します。
+      url: /microsoftteams/platform/overview
