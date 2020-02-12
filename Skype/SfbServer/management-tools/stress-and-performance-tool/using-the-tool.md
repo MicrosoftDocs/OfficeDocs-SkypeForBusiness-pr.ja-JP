@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93f42230-24a2-418d-9770-bf4670a9d78f
 description: Skype for Business Server 2015 Stress and Performance Tool を実行するには、両側のユーザー、連絡先、およびユーザー プロファイルを管理できること、実行に備えてツールを構成できること、ツールによって生成された出力または結果を確認できることが必要です。
-ms.openlocfilehash: 9920eb446452b9df23470a46c16eab754cc91577
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 0bdffee133e583ebaf4177d3226479838495c69f
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816146"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888866"
 ---
 # <a name="using-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Skype for Business Server 2015 Stress and Performance Tool の使用
  
@@ -145,8 +145,8 @@ User Provisioning Tool を起動したら、[Configuration] をクリックし�
     
 8. **[Create Contacts]** をクリックして、連絡先の作成を開始します。 この処理は、数分間かかります。 処理の完了後、"Operation Completed Successfully" というメッセージのダイアログ ボックスが表示されます。 作成した連絡先は、[User Creation] タブで作成したユーザーとしてログインすることで検証できます。
     
-> [!NOTE]
-> 連絡先の作成後、このツールによりターゲット プール内のすべてのフロント エンド サーバーが再起動されます。 フロント エンド サーバーの起動には長い時間がかかることがあります (最大 2 時間)。この時間は、この操作で作成した連絡先の数によって異なります。 
+    > [!NOTE]
+    > 連絡先の作成後、このツールによりターゲット プール内のすべてのフロント エンド サーバーが再起動されます。 フロント エンド サーバーの起動には長い時間がかかることがあります (最大 2 時間)。この時間は、この操作で作成した連絡先の数によって異なります。 
   
 #### <a name="distribution-list"></a>配布リスト
 
@@ -367,7 +367,7 @@ Load Configuration ツール (UserProfileGenerator.exe) では、パフォーマ
     
 2. クライアントのフォルダーに移動して、**RunClient** バッチ スクリプトを実行します。 Windows のエクスプローラーでバッチ ファイルをダブルクリックすると、そのクライアント用のすべての構成ファイルを実行できます。 また、次の構文を使用して、クライアントのフォルダーからスクリプトを実行することもできます。
     
-   ```PowerShell
+   ```console
    RunClient0.bat "C:\Program Files\Skype for Business Server 2015\LyncStressAndPerfTool\LyncStress" 
    ```
 

@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: このトピックでは、Skype for Business Server 2015 リソースキットのツールについて説明します。各ツールの目的や使用例も記載されています。 Skype for Business Server 2015 リソースキットは、Skype for business Server 2015 を展開して管理する IT 管理者にとって、日常的なタスクを容易にするのに役立ちます。 たとえば、Web Conf Data ツールを使用すると、オンライン会議中にユーザーによってアップロードされたデータを簡単に制御できます。 SEFAUtil ツールを使用すると、ユーザーの問い合わせに対して自動転送や自動応答を設定できます。 IT 管理者はこれらのツールを使用して、より効率的に Skype for Business Server 2015 を管理することをお勧めします。
-ms.openlocfilehash: c4fb43d7996133f5608b13a3fea693665ebd3e4b
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 1a0b787f8cd82291d408e3e3ad30e58e0b8a3627
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816256"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888886"
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>Skype for Business Server 2015 リソース キット ツールのドキュメント
 
@@ -94,7 +94,7 @@ ABSConfig ツールは、absConfig.exe ファイルから起動できます。 �
 
 ABSConfig は、アドレス帳サービスの構成をデータベースに格納します。
 
-```PowerShell
+```console
 Path: %ProgramFiles%\Skype for Business Server 2015\Reskit
 ```
 
@@ -231,8 +231,8 @@ Bandwidth Utilization Analyzer の使用は、次の 2 つのフェーズに分�
 
 - レポートのカスタマイズ (BandwidthUtilizationAnalyzer.xlsm を使用)
 
-> [!IMPORTANT]
-> BandwidthUtilizationAnalyzer.xlsm はエンド ユーザーが手動で起動できないようにすることを強くお勧めします。
+    > [!IMPORTANT]
+    > BandwidthUtilizationAnalyzer.xlsm はエンド ユーザーが手動で起動できないようにすることを強くお勧めします。
 
 #### <a name="starting-bandwidth-utilization-analyzer"></a>Bandwidth Utilization Analyzer の起動
 
@@ -266,10 +266,10 @@ WanLinkLogCollector.exe を使用するには、次の 3 つの手順を実行�
 
 - **一時ファイルの保存場所**レポートの生成中に中間ファイルが保存される一時ファイルの場所。
 
-![Bandwidth Utilization Analyzer のファイル ディレクトリ](../media/Reskit_2012_Tools_Documentation_Image5.jpg)
+    ![Bandwidth Utilization Analyzer のファイル ディレクトリ](../media/Reskit_2012_Tools_Documentation_Image5.jpg)
 
-> [!NOTE]
-> サーバー ログや一時ファイルを格納するフォルダーにアクセスできる十分な権限をツールのユーザーに割り当てるようにしてください。
+    > [!NOTE]
+    > サーバー ログや一時ファイルを格納するフォルダーにアクセスできる十分な権限をツールのユーザーに割り当てるようにしてください。
 
 #### <a name="step-3---collect-the-logs-and-start-the-report-viewer"></a>手順 3 - ログを収集してレポート ビューアーを起動する
 
@@ -517,7 +517,7 @@ Dbanalyze .exe をインストールするには、ローカルフォルダー�
 
 次に、有効な Dbanalyze.exe コマンドの例を示します。
 
-```
+```console
 dbanalyze.exe /report:diag
 dbanalyze.exe /report:user /user:usera@domainb.com
 dbanalyze.exe /report:conf /user:bob@example.com /conf:1W9J71SKSX2X
@@ -558,7 +558,7 @@ Skype for Business Server 2015 リソースキットツールをインストー�
 
 ### <a name="examples"></a>例
 
-```
+```console
 >  C:\StorageService>ImportStorageServiceData.exe
 Description:
 This tool will re-import Storage Service (LYSS) flushed queue data back in.  For a pool: you are required to run this tool on a machine inside the pool which has the Lync Server Management Shell installed.  Additionally, all front end machines need to have Windows Powershell Remoting enabled before executing this tool by executing Enable-PSRemoting.  Also, please ensure that all Storage Service instance DB Size are at the 'Normal' level (verify this by viewing Eventlog events). Otherwise re-importing may cause data to be flushed out again if any Storage Service instance DB size level goes above 'Normal'.
@@ -746,7 +746,7 @@ Skype for Business Server 2015 リソースキットをインストールしま�
 
 C:\Program Files\Skype for Business Server 2015 \ ResKit\>lookupuserconsole
 
-```
+```console
 > sip:john.doe@vdomain.com
 
   Execution time (ms):                            171.094
@@ -835,7 +835,7 @@ MSTurnPing ツールを使用すると、Skype for Business Server 2015 通信�
 
 ツールの入力例は、次のとおりです。
 
-```
+```console
 MsTurnPing -ServerRole AudioVideoEdgeServer
 
 MsTurnPing -ServerRole BandwidthPolicyServer
@@ -1047,7 +1047,7 @@ SEFAUtil ツールは信頼されたアプリケーション プールに属し�
 
 1. SEFAUTil ツールは信頼されたアプリケーション プールに属しているコンピューターでのみ実行できます。 必要に応じて、新しい信頼できるアプリケーションプールとしてプールを追加するには、次のコマンドレットを実行して、Skype for Business Server 管理シェルを使用します。
 
-   ```PowerShell
+   ```powershell
    New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
    ```
 
@@ -1056,7 +1056,7 @@ SEFAUtil ツールは信頼されたアプリケーション プールに属し�
 
 2. 信頼されたアプリケーションを SEFAUtil ツールのトポロジ内に定義する必要があります。 SEFAUtil を新しい信頼されたアプリケーションとして定義するには、Skype for Business Server 管理シェルを使用して、次のコマンドレットを実行します。
 
-   ```PowerShell
+   ```powershell
    New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN> -Port 7489
    ```
 
@@ -1070,7 +1070,7 @@ SEFAUtil ツールは信頼されたアプリケーション プールに属し�
 
 3. トポロジの変更を有効にする必要があります。 トポロジの変更を有効にするには、次のコマンドレットを実行します。
 
-   ```PowerShell
+   ```powershell
    Enable-CsToplogy
    ```
 
@@ -1099,7 +1099,7 @@ SEFAUtil ツールは信頼されたアプリケーション プールに属し�
 
  **出力**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1112,13 +1112,13 @@ Call Forward No Answer to: voicemail
 
 この例では、着信転送/応答なしの宛先と呼び出しの遅延を設定します。 ここでは、/server スイッチは提供されません。SEFAUtil は、Skype for Business Server 2015 の自動検出を試みます。
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /enablefwdnoanswer /callanswerwaittime:30 /setfwddestination:+1425555 0126@contoso.com;user=phone
 ```
 
  **出力**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1131,13 +1131,13 @@ Call Forward No Answer to: sip:+14255550126@contoso.com;user=phone
 
 この例では、別のユーザーへの着信転送をすぐに有効にします。
 
-```
+```console
 SEFAUtil.exe sip:katarina@contoso.com /enablefwdimmediate /setfwddestination:anders@contoso.com
 ```
 
  **出力**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1149,13 +1149,13 @@ Forward immediate to: sip:anders@contoso.com
 
 この例では、別のユーザーへの着信転送をすぐに無効にします。
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com katarina@contoso.com  /disablefwdimmediate
 ```
 
  **出力**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1168,13 +1168,13 @@ Call Forward No Answer to: voicemail
 
 この例では、ユーザーを代理人として追加し、代理人の同時呼び出しを設定します。
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /adddelegate:joe@contoso.com /simulringdelegates
 ```
 
  **出力**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1185,13 +1185,13 @@ Simultaneously Ringing Delegates: sip:joe@contoso.com
 
 この例では、前の例で設定した代理人の同時呼び出しルールを遅延呼び出しルールに変更します。
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /delayringdelegates:10
 ```
 
  **出力**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1206,13 +1206,13 @@ Delay Ringing Delegates (delay:10 seconds): sip:joe@contoso.com
 > [!NOTE]
 > 最後の代理人が削除されると、代理人着信は自動的に無効になります。
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /removedelegate:joe@contoso.com
 ```
 
  **出力**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1225,13 +1225,13 @@ Call Forward No Answer to: voicemail
 
 この例では、代理人を追加し、代理人への着信転送ルールを設定します。
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /adddelegate:anders@contoso.com /fwdtodelegates
 ```
 
  **出力**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1242,7 +1242,7 @@ Forwarding calls to Delegates: sip:anders@contoso.com
 
 この例では、同時呼び出しを有効にして、同時呼び出しの宛先番号を設定します。
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /setsimulringdestination:+14255550126 /enablesimulring
 ```
 
@@ -1251,7 +1251,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /setsimulrin
 
  **出力**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1263,13 +1263,13 @@ Simul_Ringing to: sip:+14255550126@contoso.com;user=phone
 
 この例では、同時呼び出しを無効にします。
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /disablesimulring
 ```
 
  **出力**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1282,7 +1282,7 @@ Call Forward No Answer to: voicemail
 
 この例では、ユーザーのチーム呼び出しグループにチーム メンバーを追加し、チーム呼び出しグループへの同時呼び出しを有効にします。
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /addteammember:anders@contoso.com /simulringteam
 ```
 
@@ -1291,7 +1291,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /addteammemb
 
  **出力**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1302,7 +1302,7 @@ Team ringing enabled. Team: sip:anders@contoso.com
 
 この例では、ユーザーのチーム呼び出しグループからチーム メンバーを削除します。
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /removeteammember:anders@contoso.com
 ```
 
@@ -1311,7 +1311,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /removeteamm
 
  **出力**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1323,13 +1323,13 @@ Call Forward No Answer to: voicemail
 
 この例では、チーム呼び出しグループの時間設定の遅延呼び出しを変更します。
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /delayringteam:5
 ```
 
  **出力**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1340,7 +1340,7 @@ Delay Ringing Team (delay:5 seconds). Team: sip:anders@contoso.com
 
 この例では、ユーザーのチーム呼び出しを有効にします。
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /simulringteam
 ```
 
@@ -1353,13 +1353,13 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /simulringte
 
 この例では、ユーザーのチーム呼び出しを無効にします。
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /disableteamcall
 ```
 
  **出力**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1371,13 +1371,13 @@ Call Forward No Answer to: voicemail
 
 この例では、ユーザーにピックアップ グループを割り当て、グループ通話ピックアップを有効にします。
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /enablegrouppickup:199
 ```
 
  **出力**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1388,14 +1388,14 @@ Group Pickup Orbit: sip:199;phone-context=user-default@ contoso.com;user=phone
 
 この例では、特定のユーザーのグループ通話ピックアップを無効にします。
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /disablegrouppickup
 ```
 
 > [!NOTE]
 > ユーザーのグループ通話ピックアップを無効にした場合、ユーザーに割り当てられたグループ番号は保持されません。そのユーザーのグループ通話ピックアップを後からもう一度有効にする場合は、/enablegrouppickup スイッチでグループ番号をもう一度割り当てる必要があります。
 
-```
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1509,7 +1509,7 @@ Move-CsAnnouncementConfiguration スクリプトでは、下の表に示す 2 �
 
 この例では、割り当てられていない番号のアナウンスをソースプール (Lync Server 2013) から移行先プール (Skype for Business Server 2015) に移動します。
 
-```PowerShell
+```powershell
 Move-CsAnnouncementConfiguration.ps1 -Source LS2013Pool.contoso.com -Destination SfBS2015Pool.contoso.com
 ```
 
@@ -1517,7 +1517,7 @@ Move-CsAnnouncementConfiguration.ps1 -Source LS2013Pool.contoso.com -Destination
 
 この例では、ソースプール (Skype for Business Server 2015) から割り当てられていない番号のアナウンスを移行先のプール (Lync Server 2013) に移動します。
 
-```PowerShell
+```powershell
 Move-CsAnnouncementConfiguration.ps1 -Source SfBS2015Pool.contoso.com -Destination LS2013Pool.contoso.com
 ```
 
@@ -1538,8 +1538,8 @@ Web Conf データツールを使用すると、Skype for Business Server 2015 �
 
 4. ユーザーがあるプールから別のプールに移行した場合に、その 1 人のユーザーに関連付けられているすべての Web 会議データを移行する。
 
-> [!NOTE]
-> Lync Server 2010 用のリソースキットツールでは、1人のユーザーに関連付けられたすべての Web 会議データを別のプールに移動することができました。 このツールでは **MoveConferenceData** パラメーターのほうを優先して、この機能は現在廃止されています。 このパラメーターの詳細については、「[移動-CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser.md?view=skype-ps)コマンドレット」を参照してください。
+    > [!NOTE]
+    > Lync Server 2010 用のリソースキットツールでは、1人のユーザーに関連付けられたすべての Web 会議データを別のプールに移動することができました。 このツールでは **MoveConferenceData** パラメーターのほうを優先して、この機能は現在廃止されています。 このパラメーターの詳細については、「[移動-CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser.md?view=skype-ps)コマンドレット」を参照してください。
 
 このツールでは、非アクティブな会議の会議データのみが削除されます。アクティブな会議 (開催中の会議) は削除できません。
 
@@ -1565,13 +1565,13 @@ Web Conf データツールを使用すると、Skype for Business Server 2015 �
 
 ![Web Conf Data ツールのパラメーター](../media/Reskit_2012_Tools_Documentation_Image51.JPG)
 
-```
+```console
 WebConfDataTool.exe /User:user0@contoso.com /Action:query ""/ExpirationDate:08/09/2010 12:00:00""
 ```
 
 上の例は query コマンドの動作を示しています。このコマンドの出力は、ツールの影響を受けるすべての会議コンテンツ フォルダーの一覧になります。
 
-```
+```console
 WebConfDataTool.exe /User:user0@contoso.com /Action:delete
 ```
 

@@ -11,22 +11,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: コールパークアプリケーションの移行には、Skype for Business Server 2019 プールのプロビジョニングが含まれています。このファイルには、従来のインストールでアップロードされたカスタム音楽が含まれています。また、サービスレベル設定を復元して、orbits の retargetingSkype for Business Server 2019 プール。 カスタマイズした音楽の保留中のファイルがプールで構成されている場合は、これらのファイルを新しい Skype for Business Server 2019 プールにコピーする必要があります。 さらに、コールパーク用にアップロードされた、カスタマイズされた音楽の保存ファイルを別の場所にバックアップしておくことをお勧めします。これは、コールパーク用にアップロードされたカスタマイズされた音楽の保存ファイルの個別のバックアップコピーを保持するためです。 コールパークアプリケーション用にカスタマイズされた音楽保留のファイルは、プールのファイルストアに保存されます。 プールファイルストアから Skype for Business Server 2019 ファイルストアにオーディオファイルをコピーするには、次のパラメーターを使用して Xcopy コマンドを使用します。
-ms.openlocfilehash: b9e55bc76e718d499482fb21e029a0a74e8f207f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 058f2f1652dcb7c05730fd058e9867a4c2dee8af
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813585"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888136"
 ---
 # <a name="migrate-call-park-application-settings"></a>コール パーク アプリケーション設定の移行
 
 コールパークアプリケーションの移行には、Skype for Business Server 2019 プールのプロビジョニングが含まれます。このファイルには、従来のインストールでアップロードされたカスタムの音楽の保存ファイルが含まれています。サービスレベルの設定を復元して、すべてのコールパーク orbits を再ターゲット化します。Skype for Business Server 2019 プール。 カスタマイズした音楽の保留中のファイルがプールで構成されている場合は、これらのファイルを新しい Skype for Business Server 2019 プールにコピーする必要があります。 さらに、通話パークをカスタマイズして、コールパーク用にアップロードされたカスタマイズされた音楽の保存ファイルを別の場所に保存することをお勧めします。 コールパークアプリケーション用にカスタマイズされた音楽保留のファイルは、プールのファイルストアに保存されます。 プールファイルストアから Skype for Business Server 2019 ファイルストアにオーディオファイルをコピーするには、次のパラメーターを使用して**Xcopy**コマンドを使用します。 
 
-```
+```console
 Xcopy <Source: legacy Pool CPS File Store Path> <Destination: Skype for Business Server 2019 Pool CPS File Store Path>
 ```
 
-```
+```console
 Example usage:  Xcopy "<legacy File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\"  "<Skype for Business Server 2019 File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\" 
 ```
 

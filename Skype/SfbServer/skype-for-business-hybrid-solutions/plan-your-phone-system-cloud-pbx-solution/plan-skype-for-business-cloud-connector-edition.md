@@ -20,18 +20,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Skype for Business Cloud Connector エディションについて紹介します。Skype for Business Cloud Connector エディションは、Office 365 の電話システム (クラウド PBX) でのオンプレミスの PSTN 接続を実装する、パッケージ化された仮想マシン (VM) のセットです。
-ms.openlocfilehash: 20ea88b230fe0fd9a590c489cb6f0017a2c27209
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 966c295692dcc176a9003d134a161c45e90d47e6
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814465"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41887736"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Skype for Business Cloud Connector エディションの計画
 
 Skype for Business Cloud Connector エディションについて紹介します。Skype for Business Cloud Connector エディションは、Office 365 の電話システム (クラウド PBX) でのオンプレミスの PSTN 接続を実装する、パッケージ化された仮想マシン (VM) のセットです。
 
-既存の Lync Server または Skype for Business Server をまだインストールしていない場合は、クラウドコネクタエディションが組織に適したソリューションである可能性があります。 Office 365 ソリューションのどの電話システムがビジネスに適しているかをまだ調査している場合は、「 [Microsoft telephony ソリューション](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)」を参照してください。
+既存の Lync Server または Skype for Business Server をまだインストールしていない場合は、クラウドコネクタエディションが組織に適したソリューションである可能性があります。 Office 365 ソリューションのどの電話システムがビジネスに適しているかをまだ調査している場合は、「 [Microsoft telephony ソリューション](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)」を参照してください。
 
 このドキュメントでは、Cloud Connector エディションの要件とサポートされるトポロジについて説明し、クラウドコネクタエディションの展開を計画するのに役立ちます。 クラウドコネクタ環境を構成する前に、必ずこのトピックをお読みください。 Cloud Connector エディションを展開して構成する準備ができたら、「 [Skype For Business Cloud Connector エディションを構成および管理](configure-skype-for-business-cloud-connector-edition.md)する」を参照してください。
 
@@ -429,7 +429,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 
 - Office 365 の[証明書失効リスト url](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) [と IP アドレス範囲](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)
 
-- Windows Update:[ソフトウェア更新プログラム用にファイアウォールを構成する方法](https://technet.microsoft.com/en-us/library/bb693717.aspx)
+- Windows Update:[ソフトウェア更新プログラム用にファイアウォールを構成する方法](https://technet.microsoft.com/library/bb693717.aspx)
 
 - Skype for Business Online 管理者 PowerShell \*: online.lync.com
 
@@ -545,14 +545,14 @@ Edge コンポーネントは、Office 365 サービスの外部名と他のク�
 
 - **オプション1。** サブジェクト名には、Edge コンポーネントに割り当てたプール名が含まれている必要があります。 この名前はオンラインの Skype for Business Edge コンポーネント用に予約されているため、サブジェクト名を sip.sipdomain.com にすることはできません。 SAN には、sip.sipdomain.com とアクセスエッジプールの名前が含まれている必要があります。
 
-  ```
+  ```console
   SN = accessedgepoolnameforsite1.sipdomain.com, SAN = sip.sipdomain.com,
   acessedgepoolnameforsite1.sipdomain.com
   ```
 
 - **オプション2。** 展開するすべてのエッジプールサーバーで単一のワイルドカード証明書を使用する場合は、証明書のエッジプール名の\*代わりに、sipdomain.com のワイルドカード SAN エントリを使用できます。 サブジェクト名は、展開した任意のエッジプールのアクセスエッジプール名にすることができます。
 
-  ```
+  ```console
   SN = accessedgepoolnameforsite1.sipdomain.com, SAN = sip.sipdomain.com, SAN = *.sipdomain.com
   ```
 
@@ -568,14 +568,14 @@ Edge コンポーネントは、Office 365 サービスの外部名と他のク�
 
 - **オプション1。** サブジェクト名には、Edge コンポーネントに割り当てたプール名が含まれている必要があります。 この名前はオンラインの Skype for Business Edge コンポーネント用に予約されているため、サブジェクト名を sip.sipdomain.com にすることはできません。 SAN には、sip.sipdomain.com とアクセスエッジプールの名前が含まれている必要があります。
 
-  ```
+  ```console
   SN = accessedgepoolnameforsite1.sipdomain1.com, SAN = sip.sipdomain1.com, sip.sipdomain2.com,
   acessedgepoolnameforsite1.sipdomain1.com
   ```
 
 - <strong>オプション2。</strong>展開するすべてのエッジプールサーバーで単一のワイルドカード証明書を使用する場合は、証明書のエッジプール名の\*代わりに、sipdomain.com のワイルドカード SAN エントリを使用できます。 サブジェクト名は、展開した任意のエッジプールのアクセスエッジプール名にすることができます。
 
-  ```
+  ```console
   SN = accessedgepoolnameforsite1.sipdomain.com, SAN = sip.sipdomain1.com, sip.sipdomain2.com,
   SAN = *.sipdomain1.com
   ```
@@ -708,7 +708,7 @@ Cloud Connector 2.1 以降では、Operations Management Suite (OMS) を使用�
 
 詳細については、以下を参照してください。
 
-- [Microsoft テレフォニー ソリューション](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
+- [Microsoft テレフォニー ソリューション](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)
 
 - [Skype for Business Cloud Connector エディションの構成と管理](configure-skype-for-business-cloud-connector-edition.md)
 

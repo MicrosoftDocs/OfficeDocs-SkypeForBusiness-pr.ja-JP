@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 description: Skype for Business Server の展開のために現在ファイルストアとして機能しているファイルサーバーを削除する必要がある場合、または現在のファイルストアを使用できないその他の変更を行う必要がある場合は、最初に新しい共有を作成する必要があります。 その後、次の手順を実行する必要があります。
-ms.openlocfilehash: e1c4338e33e736c04dbb1a2a2e81a7233df65763
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 91ba8393a958188e368ff3f8f5d2a85bcfcc1396
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817108"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888456"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>ファイルストアデータを Skype for Business Server の新しいファイルストアに移動する
 
@@ -37,7 +37,7 @@ Skype for Business Server の展開のために現在ファイルストアとし
 
 1. Skype for Business サーバーの管理ツールがインストールされている RTCUniversersalServerAdmins または CsServerAdministrator グループのメンバーとしてコンピューターにログオンします。
 
-2.  ブラウザーウィンドウを開き、管理 URL を入力して、Skype for Business Server コントロールパネルを開きます。
+2. ブラウザーウィンドウを開き、管理 URL を入力して、Skype for Business Server コントロールパネルを開きます。
 
 3. 左側のナビゲーション バーで **[トポロジ]** をクリックし、**[状態]** をクリックします。
 
@@ -55,8 +55,8 @@ Skype for Business Server の展開のために現在ファイルストアとし
 
    c. **[新しいファイル ストアの定義]** の **[ファイル サーバーの FQDN]** で、ファイル サーバーの完全修飾ドメイン名 (FQDN) を入力します。 **[ファイル共有]** で、新しいファイル共有のフォルダー名を入力し、**[OK]** をクリックします。
 
-    > [!IMPORTANT]
-    > この手順では、トポロジビルダーで使用する新しいファイルストアを定義します。 その定義は一度だけ行い、サーバーごとに定義する必要はありません。 トポロジを公開する前に、定義したファイル共有を、定義したファイル サーバー上に作成する必要があります。 詳細については、「[Define the File Store for the Front End](https://technet.microsoft.com/library/90994400-c4e5-4509-af41-121ac716fbca.aspx)」をご覧ください。
+     > [!IMPORTANT]
+     > この手順では、トポロジビルダーで使用する新しいファイルストアを定義します。 その定義は一度だけ行い、サーバーごとに定義する必要はありません。 トポロジを公開する前に、定義したファイル共有を、定義したファイル サーバー上に作成する必要があります。 詳細については、「[Define the File Store for the Front End](https://technet.microsoft.com/library/90994400-c4e5-4509-af41-121ac716fbca.aspx)」をご覧ください。
 
 8. ファイル ストアを使用する各サーバーまたはプールでは、次を行います。
 
@@ -70,10 +70,9 @@ Skype for Business Server の展開のために現在ファイルストアとし
 
 11. コマンドラインで、次のように入力します。
 
-     ```console
-     Robocopy \\<OldFileServer>\<OldShare> \\<NewFileServer>\<NewShare> /S /R:10 /W:10 /XF Meeting.Active /MT /LOG:<directory path\logname>
-
-     ```
+    ```console
+    Robocopy \\<OldFileServer>\<OldShare> \\<NewFileServer>\<NewShare> /S /R:10 /W:10 /XF Meeting.Active /MT /LOG:<directory path\logname>
+    ```
 
     > [!TIP]
     > /S スイッチはファイル、ディレクトリ、およびサブディレクトリをコピーします。 /XF スイッチは Meeting.Active という名前のファイルをすべてスキップします。 /MT スイッチを備えた現在のバージョンの robocopy.exe は、複数のスレッドを使用してコピーの速度を大幅に高めています。 /LOG スイッチの場合は、C:\Logfiles\log.txt. の形式でディレクトリパスとログファイル名を使用します。 このスイッチは、指定された場所で操作のログ ファイルを作成します。
@@ -88,8 +87,6 @@ Skype for Business Server の展開のために現在ファイルストアとし
 
 ## <a name="see-also"></a>関連項目
 
-
 [別のファイルストアにサーバーを再割り当てする](https://technet.microsoft.com/library/18509cce-a4d2-4537-a822-f99de6d7598e.aspx)
 
 [ファイルストアを削除する](https://technet.microsoft.com/library/1ba7eb15-5c87-4357-b4d8-f59409ac7f71.aspx)
-

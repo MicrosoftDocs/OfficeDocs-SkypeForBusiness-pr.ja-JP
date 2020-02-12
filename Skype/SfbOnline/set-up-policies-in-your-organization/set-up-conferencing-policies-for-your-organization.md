@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 電話会議は Skype for Business Online の重要な部分です。電話会議により、ユーザーのグループがオンラインで一緒にスライドやビデオを表示したり、アプリケーションを共有したり、ファイルをやり取りしたり、連絡を取り合って共同作業することができるようになります。
-ms.openlocfilehash: ef7b764d674590ed07e461029110505446b09900
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: aba41b8c1e527157c9ff8d58a2a7a78bfebb0a82
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706642"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41887896"
 ---
 # <a name="set-up-conferencing-policies-for-your-organization"></a>組織の電話会議ポリシーをセットアップする
 
@@ -45,85 +45,85 @@ Skype for Business Online では、電話会議は電話会議ポリシーを使
 
 - **Windows PowerShell バージョン 3.0 以降を実行していることを確認する**
     
-1. 3.0 以降のバージョンが実行されていることを確認する場合: **[スタート] メニュー** > **[Windows PowerShell]**。
-    
-2. [ _Windows PowerShell_] ウィンドウに「 **Get-Host**」と入力して、バージョンを確認します。
-    
-3. バージョン 3.0 以降を使用していない場合は、Windows PowerShell の更新プログラムをダウンロードおよびインストールする必要があります。 Windows PowerShell をバージョン4.0 にダウンロードして更新するには、「 [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) 」を参照してください。 メッセージが表示されたら、コンピューターを再起動します。
-    
-4. Skype for Business Online に接続するリモートの Windows PowerShell セッションを作成できるように、Skype for Business Online の Windows PowerShell モジュールもインストールする必要があります。このモジュールは、64 ビット版のコンピューターでのみサポートされており、「[Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688)」の Microsoft ダウンロード センターからダウンロードできます。メッセージが表示されたら、コンピューターを再起動します。
+    1. 3.0 以降のバージョンが実行されていることを確認する場合: **[スタート] メニュー** > **[Windows PowerShell]**。
+        
+    2. [ _Windows PowerShell_] ウィンドウに「 **Get-Host**」と入力して、バージョンを確認します。
+        
+    3. バージョン 3.0 以降を使用していない場合は、Windows PowerShell の更新プログラムをダウンロードおよびインストールする必要があります。 Windows PowerShell をバージョン4.0 にダウンロードして更新するには、「 [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) 」を参照してください。 メッセージが表示されたら、コンピューターを再起動します。
+        
+    4. Skype for Business Online に接続するリモートの Windows PowerShell セッションを作成できるように、Skype for Business Online の Windows PowerShell モジュールもインストールする必要があります。このモジュールは、64 ビット版のコンピューターでのみサポートされており、「[Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688)」の Microsoft ダウンロード センターからダウンロードできます。メッセージが表示されたら、コンピューターを再起動します。
     
     詳細については、「[単一の Windows PowerShell ウィンドウですべての Office 365 サービスに接続する](https://technet.microsoft.com/library/dn568015.aspx)」を参照してください。
     
 - **Windows PowerShell セッションを開始する**
     
-1. From the **Start Menu** > **Windows PowerShell**.
-    
-2. [ **Windows PowerShell**] ウィンドウで、次を実行して、Office 365 の組織に接続します。
-    
-    > [!NOTE]
-    > Skype for Business Online Windows PowerShell モジュールを初めて使用するときに、 **Import-Module** コマンドを実行するだけです。
+    1. From the **Start Menu** > **Windows PowerShell**.
+        
+    2. [ **Windows PowerShell**] ウィンドウで、次を実行して、Office 365 の組織に接続します。
+        
+        > [!NOTE]
+        > Skype for Business Online Windows PowerShell モジュールを初めて使用するときに、 **Import-Module** コマンドを実行するだけです。
 
-   ```PowerShell      
-    Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
-    $credential = Get-Credential
-    $session = New-CsOnlineSession -Credential $credential
-    Import-PSSession $session
-   ```
+       ```PowerShell      
+        Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
+        $credential = Get-Credential
+        $session = New-CsOnlineSession -Credential $credential
+        Import-PSSession $session
+       ```
 
    Windows PowerShell の起動の詳細については、「[単一の Windows powershell ウィンドウですべての Office 365 サービスに接続](https://technet.microsoft.com/library/dn568015.aspx)する」または「 [windows powershell 用のコンピューターをセットアップ](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)する」を参照してください。
     
 ### <a name="block-file-transfers-and-desktop-sharing-during-meetings"></a>会議中のファイル転送およびデスクトップ共有を禁止する
 
 - これらの設定のために新しいポリシーを作成するには、次を実行します。
-  > 
-  > ```PowerShell
-  > New-CsConferencingPolicy -Identity DesktopConferencingPolicy -EnableAppDesktopSharing None  $true -EnableFileTransfer $false
-  > ```
-  > 詳細については、「 [set-csconferencingpolicy](https://technet.microsoft.com/library/mt779148.aspx)コマンドレット」を参照してください。
+   
+   ```powershell
+   New-CsConferencingPolicy -Identity DesktopConferencingPolicy -EnableAppDesktopSharing None  $true -EnableFileTransfer $false
+   ```
+   詳細については、「 [set-csconferencingpolicy](https://technet.microsoft.com/library/mt779148.aspx)コマンドレット」を参照してください。
     
 - 作成した新しいポリシーを組織内のすべてのユーザーに付与します。次を実行します。
-  > 
-  > ```PowerShell
-  > Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName DesktopConferencingPolicy
-  > ```
-  > [Set-csconferencingpolicy](https://technet.microsoft.com/library/mt779156.aspx)コマンドレットの詳細については、こちらを参照してください。
+   
+   ```powershell
+   Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName DesktopConferencingPolicy
+   ```
+   [Set-csconferencingpolicy](https://technet.microsoft.com/library/mt779156.aspx)コマンドレットの詳細については、こちらを参照してください。
     
   ポリシーを作成済みの場合は、[Set-CsConferencingPolicy](https://technet.microsoft.com/library/mt779157.aspx) コマンドレットを使用して、既存のポリシーに対する変更を行います。次に、[Grant-CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx) コマンドレットを使用して設定をユーザーに適用します。
   
 ### <a name="block-recording-of-conferences-and-prevent-anonymous-meeting-participants"></a>電話会議のレコーディングを禁止し、匿名ユーザーの会議参加者を防止する
 
 - これらの設定のために新しいポリシーを作成するには、次を実行します。 
-  > 
-  > ```PowerShell
-  > New-CsConferencingPolicy -Identity ConferencingPolicy -AllowAnonymousParticipantsInMeetings  $false -AllowConferenceRecording $false
-  > ```
-  > 詳細については、「 [set-csconferencingpolicy](https://technet.microsoft.com/library/mt779148.aspx)コマンドレット」を参照してください。
+   
+   ```powershell
+   New-CsConferencingPolicy -Identity ConferencingPolicy -AllowAnonymousParticipantsInMeetings  $false -AllowConferenceRecording $false
+   ```
+   詳細については、「 [set-csconferencingpolicy](https://technet.microsoft.com/library/mt779148.aspx)コマンドレット」を参照してください。
     
 - Amos Marble に作成した新しいポリシーを付与するには、次を実行します。
-  > 
-  > ```PowerShell
-  >  Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName ConferencingPolicy
-  > ```
-  > [Set-csconferencingpolicy](https://technet.microsoft.com//library/mt779156.aspx)コマンドレットの詳細については、こちらを参照してください。
+   
+   ```powershell
+    Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName ConferencingPolicy
+   ```
+   [Set-csconferencingpolicy](https://technet.microsoft.com/library/mt779156.aspx)コマンドレットの詳細については、こちらを参照してください。
     
 既にポリシーを作成済みの場合は、 [set-csconferencingpolicy](https://technet.microsoft.com/library/mt779157.aspx)コマンドレットを使用して既存のポリシーに変更を加えることができます。次に、 [set-csconferencingpolicy](https://technet.microsoft.com/library/mt779156.aspx)コマンドレットを使用して、ユーザーに設定を適用します。
   
 ### <a name="block-anonymous-participants-from-recording-meetings-and-external-users-from-saving-meeting-content"></a>匿名ユーザーの参加者による会議のレコーディングと、追加ユーザーによる会議の内容の保存を禁止する
 
 - これらの設定のために新しいポリシーを作成するには、次を実行します。  
-  > 
-  > ```PowerShell
-  > New-CsConferencingPolicy -Identity BlockedConferencingPolicy  -AllowExternalUsersToRecordMeeting  $false -AllowExternalUsersToSaveContent $false 
-  > ```
-  > 詳細については、「 [set-csconferencingpolicy](https://technet.microsoft.com/library/mt779148.aspx)コマンドレット」を参照してください。
+   
+   ```powershell
+   New-CsConferencingPolicy -Identity BlockedConferencingPolicy  -AllowExternalUsersToRecordMeeting  $false -AllowExternalUsersToSaveContent $false 
+   ```
+   詳細については、「 [set-csconferencingpolicy](https://technet.microsoft.com/library/mt779148.aspx)コマンドレット」を参照してください。
     
 - 作成した新しいポリシーを組織内のすべてのユーザーに付与するには、次を実行します。
     
-> 
->   ```PowerShell
->   Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName BlockedConferencingPolicy
->   ```
+ 
+   ```powershell
+   Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName BlockedConferencingPolicy
+   ```
 
 [Set-csconferencingpolicy](https://technet.microsoft.com/library/mt779156.aspx)コマンドレットの詳細については、こちらを参照してください。
     

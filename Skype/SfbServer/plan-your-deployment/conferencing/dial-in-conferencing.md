@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: ea024a26-37b3-410e-961b-83ab85c07540
 description: '概要: Skype for Business Server でのダイヤルイン会議の計画については、このトピックを参照してください。'
-ms.openlocfilehash: 90fe1ff1770d34b9fe0671de1a2fc0f9382acae5
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: f78f5dcea5ce26bdfeb0ba52a6eeaf046ae6965b
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815995"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888546"
 ---
 # <a name="plan-for-dial-in-conferencing-in-skype-for-business-server"></a>Skype for Business Server でのダイヤルイン会議の計画
  
@@ -92,9 +92,9 @@ PSTN ゲートウェイは、中央サイトまたはブランチ サイトに�
 
 会議ディレクトリは、Skype for Business を使用しているときに参加者が会議に参加するために使用する英数字の会議 ID と、ダイヤルイン会議の参加者が会議に参加するために使用する電話番号のみの会議 id の間のマッピングを維持します。 電話会議 ID の形式は次のとおりです。
   
-```
-<housekeeping digit (1 digit)><conference directory (usually 1-2 digits)><conference number (variable number of digits><check digit (1 digit)>
-```
+
+\<ハウスキーピング番号 (1 桁)\>\<会議ディレクトリ (通常は1-2 桁\>\<) 会議の電話番号 (桁数\>\<の可変数のチェックディジット (1 桁)\>
+
 
 複数の会議ディレクトリを作成すると、作成する会議の数がよほど多くならない限り電話会議 ID を短く保つことができます。ユーザーあたりの電話会議の数が一般的な組織の場合、プール内の 999 ユーザーごとに 1 つの会議ディレクトリを作成することをお勧めします。このガイドラインを使用すると、一般に電話会議 ID が短く保たれます。ただし、(すべてのプールの) 会議ディレクトリの数が 9 を超えると、追加の会議をサポートするために電話会議 ID の番号が長くなります。
   

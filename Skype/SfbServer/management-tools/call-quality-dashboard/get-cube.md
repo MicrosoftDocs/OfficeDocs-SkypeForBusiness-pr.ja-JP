@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c8eeb387-dc1e-44e0-bbf9-a566f8bda551
 description: '概要: 通話品質ダッシュボードのデータ API の一部である [キューブの取得] 操作について説明します。 通話品質ダッシュボードは、Skype for Business Server のツールです。'
-ms.openlocfilehash: 7ae24309ea49d8f7d8d2684c141adb44c5bff2b5
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 1d8327439d79e7d02182dc7195bc0052bf6c923c
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816836"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888826"
 ---
 # <a name="get-cube"></a>キューブの取得
  
@@ -52,7 +52,7 @@ ms.locfileid: "41816836"
 > [!NOTE]
 > このサンプルは、立方体要素の各グループの最初の2つの要素のみを示しています。 
   
-```
+```json
 {
 "Kpis": [{
 "FriendlyName": "Poor Trend Month",

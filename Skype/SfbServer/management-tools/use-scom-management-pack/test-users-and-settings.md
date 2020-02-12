@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ab2e0d93-cf52-4a4e-b5a4-fd545df7a1a9
 description: '概要: Skype for Business Server の代理トランザクションのテストユーザーアカウントとウォッチャーノード設定を構成します。'
-ms.openlocfilehash: ce0c82f6f850c7a2b632c828f938979747d99e97
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 877e7256c31bf5bf66f25e80c9625078cfc15b02
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816116"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888856"
 ---
 # <a name="configure-watcher-node-test-users-and-settings"></a>監視ノードのテスト ユーザーおよび設定の構成
  
@@ -278,19 +278,21 @@ Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseIn
     
 2. コンソール ウィンドウで、次のコマンドを入力し、Enter キーを押します。 
     
-```console
-bitsadmin /util /SetIEProxy NetworkService NO_PROXY
-```
+    ```console
+    bitsadmin /util /SetIEProxy NetworkService NO_PROXY
+    ```
 
-コマンド ウィンドウに次のようなメッセージが表示されます。
+    コマンド ウィンドウに次のようなメッセージが表示されます。
+
+    ```console
+    BITSAdmin is deprecated and is not guaranteed to be available in future versions of Windows. Administration tools for the BITS service are now provided by BITS PowerShell cmdlets.
   
-BITSAdmin is deprecated and is not guaranteed to be available in future versions of Windows. Administration tools for the BITS service are now provided by BITS PowerShell cmdlets.
-  
-Internet proxy settings for account NetworkService set to NO_PROXY. 
-  
-(connection = default)
-  
-このメッセージは、ネットワーク サービス アカウントの Internet Explorer プロキシ設定が無効になったことを意味します。
+    Internet proxy settings for account NetworkService set to NO_PROXY. 
+      
+    (connection = default)
+    ```
+      
+    このメッセージは、ネットワーク サービス アカウントの Internet Explorer プロキシ設定が無効になったことを意味します。
   
 ### <a name="exchange-unified-messaging-synthetic-transaction"></a>Exchange ユニファイド メッセージング代理トランザクション
 
@@ -304,7 +306,7 @@ Exchange Unified Messaging (UM) 代理トランザクションは、テスト �
   
 常設チャット代理トランザクションを使用して、このチャネルを構成できます。 
   
-```
+```powershell
 $cred1 = Get-Credential "contoso\testUser1"
 $cred2 = Get-Credential "contoso\testUser2"
 
@@ -376,7 +378,7 @@ Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"
   
 VISSTSupportPackage をインストールするには、msi の依存関係 (システム要件の下) が既にインストールされていることを確認します。 簡単なインストールを実行するには、VISSTSupportPackage を実行します。 .Msi は、次のパスにあるすべてのファイルをインストールします。 "%ProgramFiles%\VIS の代理トランザクションサポートパッケージ"。
   
-VIS の代理トランザクションの実行方法の詳細については、 [CsP2PVideoInteropServerSipTrunkAV](https://technet.microsoft.com/en-us/library/dn985894.aspx)コマンドレットのマニュアルを参照してください。
+VIS の代理トランザクションの実行方法の詳細については、 [CsP2PVideoInteropServerSipTrunkAV](https://technet.microsoft.com/library/dn985894.aspx)コマンドレットのマニュアルを参照してください。
   
 ## <a name="changing-the-run-frequency-for-synthetic-transactions"></a>代理トランザクションの実行頻度の変更
 <a name="special_synthetictrans"> </a>

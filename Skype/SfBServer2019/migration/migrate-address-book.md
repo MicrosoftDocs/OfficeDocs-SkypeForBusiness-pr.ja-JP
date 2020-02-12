@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 通常、アドレス帳は、他のトポロジと共に移行されます。 ただし、従来の環境で次のようにカスタマイズした場合は、移行後のいくつかの手順を実行する必要がある場合があります。
-ms.openlocfilehash: 73c491a538e6bce95779533b88513321c674f018
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 976717679a5a2f1dbdd1e2045cc5d5dfe43911e3
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813605"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888166"
 ---
 # <a name="migrate-address-book"></a>アドレス帳の移行
 
@@ -51,13 +51,13 @@ ms.locfileid: "41813605"
 
     必要な空白または句読点を含む文字列は、正規化ルールに入力された文字列から削除されるため、正規化ルールが失敗します。 文字列に必要な空白または句読点が含まれている場合は、文字列を変更する必要があります。 たとえば、次の文字列では正規化ルールが失敗します。
 
-   ```
+   ```console
    \s*\(\s*\d\d\d\s*\)\s*\-\s*\d\d\d\s*\-\s*\d\d\d\d
    ```
 
     次の文字列では、正規化ルールが失敗することはありません。
 
-   ```
+   ```console
    \s*\(?\s*\d\d\d\s*\)?\s*\-?\s*\d\d\d\s*\-?\s*\d\d\d\d
    ```
 

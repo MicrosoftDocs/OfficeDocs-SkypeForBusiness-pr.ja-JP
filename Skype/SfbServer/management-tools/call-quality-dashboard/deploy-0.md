@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: '概要: 通話品質ダッシュボードの展開プロセスについて説明します。 通話品質ダッシュボードは、Skype for Business Server のツールです。'
-ms.openlocfilehash: ccfb19bf8069bf72d52d7399b012d81af72e4110
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 3ab7ea5130b33578169505969ee8f43a73a2ac32
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816856"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888836"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>Skype for Business Server の通話品質ダッシュボードの展開
  
@@ -88,7 +88,7 @@ QoE アーカイブのセットアッププロセスでは、QoE アーカイブ
    - **SQL エージェントジョブユーザー-ユーザー名&amp;のパスワード:** SQL Server エージェントジョブの "QoE アーカイブデータ" 手順を実行するために使用される、ドメインサービスアカウント名とパスワード (マスクされたもの)。これは、ストアドプロシージャを実行して、QoE Metrics db からアーカイブ DB にデータを取得します。このアカウントは、[アカウント] セクションで説明されているように、QoE 指標データベース このアカウントでは、QoE アーカイブ SQL Server インスタンスにログインする必要もあります)。
     
      > [!NOTE]
-     > NT service¥ MSSQLSERVER などの SQL Server インスタンスが実行されているアカウントは、インストールを成功させるために、上で示したディレクトリへのアクセス/アクセス許可を持っている必要があります。 詳細については、「[データベースエンジンアクセスのためのファイルシステムアクセス許可の構成](https://msdn.microsoft.com/en-us/library/jj219062%28v=sql.110%29.aspx)」を参照してください。
+     > NT service¥ MSSQLSERVER などの SQL Server インスタンスが実行されているアカウントは、インストールを成功させるために、上で示したディレクトリへのアクセス/アクセス許可を持っている必要があります。 詳細については、「[データベースエンジンアクセスのためのファイルシステムアクセス許可の構成](https://msdn.microsoft.com/library/jj219062%28v=sql.110%29.aspx)」を参照してください。
   
 7. [次へ] をクリックすると、インストーラーは前提条件の確認を実行し、問題が発生した場合はレポートします。 前提条件の確認がすべて合格すると、インストーラーは [キューブの構成] ページに移動します。 
     
@@ -104,7 +104,7 @@ QoE アーカイブのセットアッププロセスでは、QoE アーカイブ
    - **キューブ分析サーバー:** キューブを作成する場所の SQL Server Analysis Services インスタンス名。 これは異なるコンピューターでもかまいませんが、インストールユーザーは、ターゲット SQL Server Analysis Services インスタンスのサーバー管理者のメンバーである必要があります。
     
      > [!NOTE]
-     >  Analysis Services のサーバー管理者権限の設定の詳細については、「[サーバー管理者権限を付与する (Analysis Services)](https://msdn.microsoft.com/en-us/library/ms174561.aspx) 」を参照してください。
+     >  Analysis Services のサーバー管理者権限の設定の詳細については、「[サーバー管理者権限を付与する (Analysis Services)](https://msdn.microsoft.com/library/ms174561.aspx) 」を参照してください。
   
    - **複数のパーティションを使用します。** 既定では、"複数パーティション" に設定されます。これには、Business 知能 edition または Enterprise edition の SQL Server が必要です。 Standard edition の場合、[単一パーティション] オプションを選択します。 単一のパーティションを使用している場合、キューブ処理のパフォーマンスに影響する可能性があることに注意してください。
     
@@ -135,7 +135,7 @@ QoE アーカイブのセットアッププロセスでは、QoE アーカイブ
   
 デバッグモードが有効になっている場合は、詳細なログメッセージが表示されます。 デバッグモードを有効にするには、 **%SYSTEMDRIVE%\Program Files\Skype For Business 2015 CQD\QoEDataService\web.config**に移動し、次の行を更新して値を**True**に設定します。
 
-```
+```xml
 <add key="QoEDataLib.DebugMode" value="True" /> 
 ```
 
@@ -161,7 +161,7 @@ QoE アーカイブのセットアッププロセスでは、QoE アーカイブ
   
 構成の詳細は、ポータルの物理ディレクトリにある web.config に保存されています。
   
-```XML
+```xml
 <?xml version="1.0" encoding="UTF-8"?> <configuration> <system.webServer> <security> <authorization> <remove users="*" roles="" verbs="" /> <add accessType="Allow" roles="CQDPortalUsers" /> </authorization> </security> </system.webServer> </configuration> 
 ```
 
@@ -233,7 +233,7 @@ HTTP ポートバインディングと HTTPS ポートバインドの場合、�
   
 IIS で SSL/TLS を有効にし、HTTP ではなくセキュリティで保護された HTTPS を使用してユーザーを接続するように強制するには:
   
-1. IIS でセキュアソケットレイヤーを構成する方法については、「 [iis 7 でセキュアソケットレイヤーを構成する](https://technet.microsoft.com/en-us/library/cc771438%28v=ws.10%29.aspx)」を参照してください。 完了したら、 `http`に`https`置き換えます。
+1. IIS でセキュアソケットレイヤーを構成する方法については、「 [iis 7 でセキュアソケットレイヤーを構成する](https://technet.microsoft.com/library/cc771438%28v=ws.10%29.aspx)」を参照してください。 完了したら、 `http`に`https`置き換えます。
     
 2. SQL Server 接続で TLS を有効にする方法については、「 [Microsoft 管理コンソールを使用して Sql server のインスタンスに対して SSL 暗号化を有効にする方法](https://support.microsoft.com/en-us/kb/316898/)」を参照してください。
     

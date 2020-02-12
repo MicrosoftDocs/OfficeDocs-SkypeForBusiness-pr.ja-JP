@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: クライアント ポリシーはユーザーが利用できる Skype for Business Online の機能を決めるのに役立ちます。たとえば、一部のユーザーにファイルを転送する権限を与えて、他のユーザーに対してはその権限を与えないようにする場合が考えられます。
-ms.openlocfilehash: 0d92e9d4aab477cdcb010b4840d43a622f28b8cf
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 4c3434a1649c7bce01557ab97c6c6d9f977c0ab4
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693002"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41887906"
 ---
 # <a name="set-up-client-policies-for-your-organization"></a>組織のクライアント ポリシーをセットアップする
 
@@ -41,51 +41,50 @@ ms.locfileid: "41693002"
 
 - **Windows PowerShell バージョン 3.0 以降を実行していることを確認する**
     
-1. 3.0 以降のバージョンが実行されていることを確認する場合: **[スタート] メニュー** > **[Windows PowerShell]**。
-    
-2. [ _Windows PowerShell_] ウィンドウに「 **Get-Host**」と入力して、バージョンを確認します。
-    
-3. バージョン 3.0 以降を使用していない場合は、Windows PowerShell の更新プログラムをダウンロードおよびインストールする必要があります。 Windows PowerShell をバージョン4.0 にダウンロードして更新するには、「 [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) 」を参照してください。 メッセージが表示されたら、コンピューターを再起動します。
-    
-4. Skype for Business Online に接続するリモートの Windows PowerShell セッションを作成できるように、Skype for Business Online の Windows PowerShell モジュールもインストールする必要があります。このモジュールは、64 ビット版のコンピューターでのみサポートされており、「[Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688)」の Microsoft ダウンロード センターからダウンロードできます。メッセージが表示されたら、コンピューターを再起動します。
+    1. 3.0 以降のバージョンが実行されていることを確認する場合: **[スタート] メニュー** > **[Windows PowerShell]**。
+        
+    2. [ _Windows PowerShell_] ウィンドウに「 **Get-Host**」と入力して、バージョンを確認します。
+        
+    3. バージョン 3.0 以降を使用していない場合は、Windows PowerShell の更新プログラムをダウンロードおよびインストールする必要があります。 Windows PowerShell をバージョン4.0 にダウンロードして更新するには、「 [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) 」を参照してください。 メッセージが表示されたら、コンピューターを再起動します。
+        
+    4. Skype for Business Online に接続するリモートの Windows PowerShell セッションを作成できるように、Skype for Business Online の Windows PowerShell モジュールもインストールする必要があります。このモジュールは、64 ビット版のコンピューターでのみサポートされており、「[Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688)」の Microsoft ダウンロード センターからダウンロードできます。メッセージが表示されたら、コンピューターを再起動します。
     
     詳細については、「[単一の Windows PowerShell ウィンドウですべての Office 365 サービスに接続する](https://technet.microsoft.com/library/dn568015.aspx)」を参照してください。
     
 - **Windows PowerShell セッションを開始する**
     
-1. From the **Start Menu** > **Windows PowerShell**.
+    1. From the **Start Menu** > **Windows PowerShell**.
+        
+    2. [ **Windows PowerShell**] ウィンドウで、次を実行して、Office 365 の組織に接続します。
     
-2. [ **Windows PowerShell**] ウィンドウで、次を実行して、Office 365 の組織に接続します。
-    
-    > [!NOTE]
-    > Skype for Business Online Windows PowerShell モジュールを初めて使用するときに、 **Import-Module** コマンドを実行するだけです。
+        > [!NOTE]
+        > Skype for Business Online Windows PowerShell モジュールを初めて使用するときに、 **Import-Module** コマンドを実行するだけです。
 
-   ```PowerShell      
-    Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
-    $credential = Get-Credential
-    $session = New-CsOnlineSession -Credential $credential
-    Import-PSSession $session
-   ```
-
-   Windows PowerShell の起動の詳細については、「[単一の Windows powershell ウィンドウですべての Office 365 サービスに接続](https://technet.microsoft.com/library/dn568015.aspx)する」または「 [windows powershell 用のコンピューターをセットアップ](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)する」を参照してください。
+       ```powershell
+        Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
+        $credential = Get-Credential
+        $session = New-CsOnlineSession -Credential $credential
+        Import-PSSession $session
+       ```
+Windows PowerShell の起動の詳細については、「[単一の Windows powershell ウィンドウですべての Office 365 サービスに接続](https://technet.microsoft.com/library/dn568015.aspx)する」または「 [windows powershell 用のコンピューターをセットアップ](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)する」を参照してください。
     
 ### <a name="disable-emoticons-and-presence-notifications-and-prevent-saving-of-ims"></a>絵文字、プレゼンスの通知を無効にして、インスタントメッセージ (IM) の保存を防止する
 
 - これらの設定のために新しいポリシーを作成するには、次を実行します。
     
-> 
->   ```PowerShell
->   New-CsClientPolicy -Identity ClientPolicy -DisableEmoticons $true -DisablePresenceNote -$true -DisableSavingIM $true
->   ```
+ 
+   ```powershell
+   New-CsClientPolicy -Identity ClientPolicy -DisableEmoticons $true -DisablePresenceNote -$true -DisableSavingIM $true
+   ```
 
   詳細については、「[新しい-CsClientPolicy](https://technet.microsoft.com/library/mt779155.aspx)コマンドレット」を参照してください。
     
 - 作成した新しいポリシーを組織内のすべてのユーザーに付与するには、次を実行します。
     
-> 
->   ```PowerShell
->   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ClientPolicy
->   ```
+ 
+   ```powershell
+   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ClientPolicy
+   ```
 
   詳細については、「 [Grant Clientpolicy](https://technet.microsoft.com/library/mt779152.aspx)コマンドレット」を参照してください。
     
@@ -95,19 +94,19 @@ ms.locfileid: "41693002"
 
 - これらの設定のために新しいポリシーを作成するには、次を実行します。
     
-> 
->   ```PowerShell
->   New-CsClientPolicy -Identity URLClientPolicy -EnableURL $true
->   ```
+ 
+   ```powershell
+   New-CsClientPolicy -Identity URLClientPolicy -EnableURL $true
+   ```
 
   詳細については、「[新しい-CsClientPolicy](https://technet.microsoft.com/library/mt779155.aspx)コマンドレット」を参照してください。
     
 - 作成した新しいポリシーを組織内のすべてのユーザーに付与するには、次を実行します。
     
-> 
->   ```PowerShell
->   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName URLClientPolicy
->   ```
+ 
+   ```powershell
+   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName URLClientPolicy
+   ```
 
   詳細については、「 [Grant Clientpolicy](https://technet.microsoft.com/library/mt779152.aspx)コマンドレット」を参照してください。
     
@@ -116,18 +115,18 @@ ms.locfileid: "41693002"
 ### <a name="prevent-showing-recent-contacts"></a>最近の連絡先を表示しないようにする
 
 - これらの設定のために新しいポリシーを作成するには、次を実行します。
-  > 
-  > ```PowerShell
-  > New-CsClientPolicy -Identity ContactsClientPolicy -ShowRecentContacts $false 
-  > ```
+   
+   ```powershell
+   New-CsClientPolicy -Identity ContactsClientPolicy -ShowRecentContacts $false 
+   ```
 
   詳細については、「[新しい-CsClientPolicy](https://technet.microsoft.com/library/mt779155.aspx)コマンドレット」を参照してください。
     
 - Amos Marble に作成した新しいポリシーを付与するには、次を実行します。
-  > 
-  > ```PowerShell
-  > Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ContactsClientPolicy
-  > ```
+   
+   ```powershell
+   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ContactsClientPolicy
+   ```
 
   詳細については、「 [Grant Clientpolicy](https://technet.microsoft.com/library/mt779152.aspx)コマンドレット」を参照してください。
     

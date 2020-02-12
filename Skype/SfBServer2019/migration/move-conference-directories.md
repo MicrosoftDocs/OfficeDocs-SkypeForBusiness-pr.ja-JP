@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: プールの使用を停止する前に、従来のプールの各会議ディレクトリについて、次の手順を実行する必要があります。
-ms.openlocfilehash: bdcb816a91f6bc4a4372141595e46ba2369618a6
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 339b2e31867b215c12c2422fd50b94cc42e625c7
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813285"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888076"
 ---
 # <a name="move-conference-directories"></a>会議ディレクトリを移動する
 
@@ -62,7 +62,7 @@ ms.locfileid: "41813285"
   
 会議ディレクトリを移動すると、次のようなエラーが発生する場合があります。
   
-```
+```console
 WARNING: Move operation failed for conference directory with ID "5". Cannot perform a rollback because data migration might have already started. Retry the operation.
 WARNING: Before using the -Force parameter, ensure that you have exported the conference directory data using DBImpExp.exe and imported the data on the target pool. Refer to the DBImpExp-Readme.htm file for more information.
 Move-CsConferenceDirectory : Unable to cast COM object of type 'System._ComObject' to interface type 'Microsoft.Rtc.Interop.User.IRtcConfDirManagement'. 

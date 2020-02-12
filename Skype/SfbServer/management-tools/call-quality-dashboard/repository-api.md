@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d53e990f-1c5f-46d1-9eb1-8396782c2753
 description: '概要: 通話品質ダッシュボードのリポジトリ API について説明します。 通話品質ダッシュボードは、Skype for Business Server のツールです。'
-ms.openlocfilehash: a027cc7402bad7524343391f9bf7039dd077a46c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 283ef7544435c3954898b2d5ae9e5f5b38762f3c
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816696"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888786"
 ---
 # <a name="repository-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>Skype for Business Server の通話品質ダッシュボード (CQD) 用リポジトリ API
  
@@ -58,7 +58,7 @@ ms.locfileid: "41816696"
   
 正確なプロトコル、ホスト名、ポート (存在する場合) を必ず含めてください。 末尾にスラッシュ文字 (/) を入力しないでください。 複数のエントリを指定するには、コンマで区切ります。
   
-```
+```xml
 <repositoryConfiguration>
     <service corsTrustedOrigin="https://<trusted-server>,http://<another-trusted-domain>:8080"" />
     <diagnostics eventLevel="Verbose" systemLoggedEventLevel="Error">

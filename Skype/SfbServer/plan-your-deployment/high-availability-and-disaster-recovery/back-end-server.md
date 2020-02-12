@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: AlwaysOn 可用性グループ、AlwaysOn フェールオーバークラスターインスタンス、データベースのミラーリング、SQL フェールオーバークラスタリングなど、Skype for Business Server でサポートされているバックエンドサーバーの高可用性オプションについて説明します。
-ms.openlocfilehash: a0aeb53aea0ee2eab25875de0fddbfd0fc26d90a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 4c814e525b3a1d0900e7162255ec4d7e86d79605
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815955"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888616"
 ---
 # <a name="back-end-server-high-availability-in-skype-for-business-server"></a>Skype for Business Server のバックエンドサーバーの高可用性
  
@@ -56,7 +56,7 @@ Skype for Business Server は、次のデータベースソフトウェアとの
     
 
 > [!NOTE]
-> SQL ミラーリングは、Skype for Business Server 2015 では使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 AlwaysOn 可用性グループ、AlwaysOn フェールオーバークラスターインスタンス (FCI)、SQL フェールオーバークラスタリングの各方法は、Skype for Business Server 2019 で推奨されます。
+> SQL ミラーリングは、Skype for Business Server 2015 では使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 AlwaysOn 可用性グループ、AlwaysOn フェールオーバークラスターインスタンス (FCI)、SQL フェールオーバークラスタリングの各方法は、Skype for Business Server 2019 でサポートされている唯一のオプションです。
     
 Skype for Business Server では、バックエンドサーバーの高可用性を実現するための非同期データベースミラーリングはサポートされていません。 これ以降、特に指定がない限り、データベース ミラーリングは同期データベース ミラーリングを意味するものとします。 
   

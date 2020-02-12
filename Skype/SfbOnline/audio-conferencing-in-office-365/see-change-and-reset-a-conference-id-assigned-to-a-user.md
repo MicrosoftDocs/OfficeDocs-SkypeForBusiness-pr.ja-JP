@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Skype of business オンライン のユーザーに会議 ID を割り当てる方法と、会議ID パラメーターのあるべき姿について学びます。 '
-ms.openlocfilehash: 84218fefb831e37255e7049e082f7fe715dc0eb4
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 10acf425db0230dd90f8c125b0d871e07dd69728
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680454"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888066"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>Skype of businessオンラインのユーザーに割り当てられている会議 ID を表示させリセットしてください。
 
@@ -65,11 +65,11 @@ ms.locfileid: "41680454"
 
 ユーザーの会議 ID を表示するのにWindows PowerShell を使用できます。 そのためには、次を実行します。
 
-  ```PowerShell
+  ```powershell
   Get-CsOnlineDialInConferencingUser -Identity "Amos Marble"
   ```
 
-    See [Get-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617693 ) to learn more about the cmdlet.
+コマンドレットの詳細については、 [get-csonlinedialinconferencinguser](https://go.microsoft.com/fwlink/?LinkId=617693 )を参照してください。
 
 
 ### <a name="to-reset-the-conference-id"></a>会議 ID をリセットするには

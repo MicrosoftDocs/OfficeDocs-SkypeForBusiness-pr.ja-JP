@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
 description: '概要: Skype for Business Server の DNS レコードを実装する前に、このトピックで簡単な URL の考慮事項を確認してください。'
-ms.openlocfilehash: 7eb734fb4a9005f833f27efd3b0d180593155f39
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 3296e3678d1d38f021b792a2362f61de66796d0f
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815785"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888476"
 ---
 # <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>Skype for Business Server の単純な Url の DNS 要件
 
@@ -102,13 +102,13 @@ Skype for Business Server では、次の3つの簡単な Url (会議、ダイ�
 
 これを構成するには、2つの GeoDNS アドレスを作成します。 各アドレスには2つの DNS A レコードまたは CNAME レコードがあり、これらは1つのプールに対応しているため、それらは共に災害回復目的でペアリングされます。 内部アクセスには1つの GeoDNS アドレスが使われ、2つのプールの内部 web FQDN またはロードバランサー IP アドレスに解決されます。 その他の GeoDNS アドレスは、外部アクセスに使われ、2つのプールの外部 web FQDN またはロードバランサー IP アドレスに解決されます。 次に示すのは、プールの Fqdn を使用した [simple URL の会議] の例です。 
 
-```
+```console
 Meet-int.geolb.contoso.com
      Pool1InternalWebFQDN.contoso.com
      Pool2InternalWebFQDN.contoso.com
 ```
 
-```
+```console
 Meet-ext.geolb.contoso.com
      Pool1ExternalWebFQDN.contoso.com
      Pool2ExternalWebFQDN.contoso.com
@@ -125,7 +125,7 @@ Meet-ext.geolb.contoso.com
 
 この構成が設定されたら、監視アプリケーションを使用して、エラーを監視するために HTTP 監視を設定する必要があります。 外部アクセスの場合、監視して HTTPS GET lyncdiscover があることを確認します。<sipdomain> 2つのプールの外部 web FQDN またはロードバランサー IP アドレスへの要求が成功します。 たとえば、次の要求には**ACCEPT**ヘッダーが含まれておらず、 **200 OK**を返す必要があります。
 
-```
+```console
 HTTPS GET Pool1ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
 HTTPS GET Pool2ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
 ```

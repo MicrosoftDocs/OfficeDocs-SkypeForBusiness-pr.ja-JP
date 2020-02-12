@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e7967dd9-0d6a-4a80-8b59-b8fc2e5615f8
 description: '概要: 通話品質ダッシュボードのデータ API の一部である、[最終統合データの取得] 操作について説明します。 通話品質ダッシュボードは、Skype for Business Server のツールです。'
-ms.openlocfilehash: a3b66114f457e48b169419baddbaa4e4dc8c0764
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: a4b455a543dd77f0edce223f43d64fe5c03e4bcb
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816776"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888796"
 ---
 # <a name="get-last-integration-data"></a>直近の統合データの取得
  
@@ -51,7 +51,7 @@ ms.locfileid: "41816776"
   
  **応答本文**-以下は、ログの状態の例です。
   
-```
+```json
 {
 "LastSuccessIntegrations": ["01/18/2015 10:30:13",
 "01/18/2015 10:28:29",

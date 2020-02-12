@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 545b1a93-9758-4344-98cc-aa0e559d494f
 description: このセクションには、常設チャットデータベースのサンプルクエリが含まれています。
-ms.openlocfilehash: f967e62ade8186bb2f0dae79c06af71e872808af
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: f161deb55cb9ecb0e42eb23e71cd842aa8f3d99a
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814725"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41887716"
 ---
 # <a name="sample-persistent-chat-database-queries"></a>常設チャット データベースのクエリのサンプル
  
@@ -26,7 +26,7 @@ ms.locfileid: "41814725"
   
 次の例を使用して、特定の日付以降にアクティブになっている常設チャットルームの一覧を取得します。
   
-```
+```SQL
 SELECT nodeName as ChatRoom, COUNT(*) as ChatMessages
   FROM tblChat, tblNode
   WHERE channelId = nodeID AND dbo.fnTicksToDate(chatDate) > '1/1/2011'
@@ -36,7 +36,7 @@ SELECT nodeName as ChatRoom, COUNT(*) as ChatMessages
 
 次の例を使用して、特定の日付以降の最もアクティブなユーザーの一覧を取得します。
   
-```
+```SQL
 SELECT prinName as Name, count(*) as ChatMessages
   FROM tblChat, tblPrincipal
   WHERE prinID = userId AND dbo.fnTicksToDate(chatDate) > '1/1/2011'
@@ -46,7 +46,7 @@ SELECT prinName as Name, count(*) as ChatMessages
 
 次の例を使用すると、"Hello World" というメッセージが送信されたすべてのユーザーの一覧を取得できます。
   
-```
+```SQL
 SELECT nodeName as ChatRoom, prinName as Name, content as Message
   FROM tblChat, tblNode, tblPrincipal
   WHERE channelId = nodeID AND userId = prinID AND content like '%Hello World%'
@@ -54,7 +54,7 @@ SELECT nodeName as ChatRoom, prinName as Name, content as Message
 
 特定のプリンシパルのグループメンバーシップの一覧を取得するには、次の例を使用します。
   
-```
+```SQL
 SELECT prinName as Name    
   FROM tblPrincipalAffiliations as pa, tblPrincipal
   where principalID = 7 and affiliationID = prinID
@@ -62,7 +62,7 @@ SELECT prinName as Name
 
 次の例を使用して、ユーザーの Jane が直接メンバーであるすべてのチャットルームの一覧を取得します。
   
-```
+```SQL
 SELECT DISTINCT nodeName as ChatRoom, prinName as Name          
   FROM tblPrincipalRole, tblPrincipal, tblNode
   WHERE  prinRoleNodeID = nodeID AND prinRolePrinID = prinID AND prinName = 'Jane Dow'
@@ -70,7 +70,7 @@ SELECT DISTINCT nodeName as ChatRoom, prinName as Name
 
 ユーザーが受信した招待状の一覧を取得するには、次の例を使用します。
   
-```
+```SQL
 SELECT prinName
       ,nodeName
       ,invID   

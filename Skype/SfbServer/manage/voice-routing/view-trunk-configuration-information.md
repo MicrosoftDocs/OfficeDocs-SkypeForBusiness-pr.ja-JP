@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: SIP トランク構成設定は、仲介サーバーと公衆交換電話網 (PSTN) ゲートウェイ、IP パブリックブランチ交換 (PBX)、またはサービスプロバイダのセッションボーダーコントローラー (SBC) 間の関係と機能を定義します。
-ms.openlocfilehash: 0ccbf86891d6265298411ad2f90988123529b614
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 40820729727ec02e5494e69c773d7fbd3d7b1154
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816906"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888486"
 ---
 # <a name="view-trunk-configuration-information-in-skype-for-business-server"></a>Skype for Business Server でトランク構成情報を表示する
 
@@ -35,14 +35,16 @@ Skype for Business Server をインストールすると、SIP トランク構�
 
 ## <a name="viewing-sip-trunk-configuration-information-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用した SIP トランク構成情報の表示
 
-SIP トランク構成設定は、Skype for Business Server PowerShell と Set-cstrunkconfiguration コマンドレットを使用して表示できます。 このコマンドレットは、Skype for Business Server 管理シェルから、またはリモートセッション Windows PowerShell から実行できます。 リモートの Windows PowerShell を使用して Skype for Business Server に接続する方法について詳しくは、「Lync Server Windows PowerShell のブログ記事」をご覧ください。「クイックhttp://go.microsoft.com/fwlink/p/?linkId=255876スタート: リモート PowerShell を使用して Microsoft Lync Server 2010 を管理する」を参照してください。 このリンクを置換または削除します。
+SIP トランク構成設定は、Skype for Business Server PowerShell と Set-cstrunkconfiguration コマンドレットを使用して表示できます。 このコマンドレットは、Skype for Business Server 管理シェルから、またはリモートセッション Windows PowerShell から実行できます。 リモートの Windows PowerShell を使用して Skype for Business Server に接続する方法について詳しくは、「Lync Server Windows PowerShell のブログ記事」をご覧ください。「クイックhttps://go.microsoft.com/fwlink/p/?linkId=255876スタート: リモート PowerShell を使用して Microsoft Lync Server 2010 を管理する」を参照してください。 このリンクを置換または削除します。
 
 
 **SIP トランクの構成情報を表示するには**
 
 SIP トランク構成のすべての設定に関する情報を表示するには、Skype for Business Server 管理シェルで次のコマンドを入力して、enter キーを押します。
 
-`Get-CsTrunkConfiguration`
+```powershell
+Get-CsTrunkConfiguration
+```
 
 次のような情報が表示されます。
 
@@ -72,7 +74,7 @@ Enable3pccRefer                           : False
 ForwardPAI                                : False
 EnableFastFailoverTimer                   : True
 ```
-詳細については、 [set-cstrunkconfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTrunkConfiguration)コマンドレットのヘルプトピックを参照してください。
+詳細については、 [set-cstrunkconfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunkConfiguration)コマンドレットのヘルプトピックを参照してください。
 
 
 

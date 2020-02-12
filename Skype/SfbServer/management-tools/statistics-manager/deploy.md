@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: '概要: このトピックでは、Skype for Business Server の統計情報マネージャーを展開する方法について説明します。'
-ms.openlocfilehash: 44aad14970716f00550255855d251919a767a268
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 008e9d56dd4c795f7e524ac927402d99261f3e75
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41803967"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888426"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Skype for Business Server の統計情報マネージャーの展開
  
@@ -100,9 +100,9 @@ StatsManPerfAgentListener.msi を実行し、以下を指定することによ�
     
      証明書マネージャーを使用するか、次の PowerShell コマンドを使用して証明書の拇印を見つけることができます。
     
-   ```PowerShell
-   Get-ChildItem -path cert:\LocalMachine\My
-   ```
+       ```PowerShell
+       Get-ChildItem -path cert:\LocalMachine\My
+       ```
 
    - **インストール ディレクトリ:** これはバイナリがインストールされるディレクトリです。 **ブラウズ...** ボタンを使用することによって、デフォルトを変更できます。
     
@@ -172,7 +172,7 @@ StatsManPerfAgent.msi を実行して以下を指定することによって、�
     
 エージェントを多数のコンピューターにインストールしている場合、その操作を無人モードで実行する方が望ましい場合が考えられます。例: 
   
-```
+```console
 msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> SERVICE_PASSWORD=<password> SERVICE_URI=https://<hostname>:<servicePort>/[INSTALLDIR=<directory>][DIR_  STATSMANAPPDATA=<directory>]
 ```
 
@@ -198,25 +198,25 @@ Skype for Business Server トポロジをインポートするには、以下の
     
    b. リスナーがインストールされているディレクトリに移動します。 既定値は次のとおりです。 
     
-   ```PowerShell
+   ```console
    cd C:\Program Files\Skype for Business Server StatsMan Listener
    ```
 
 3. どのサーバーが追加および更新されているかを確認するには、次のコマンドを実行します。
     
-   ```PowerShell
+   ```console
     .\Update-StatsManServerInfo.ps1 -CsPoolFile  <path to mypoolinfo.xml>
    ```
 
 次のコマンドで、すべてのオプションを表示することができます。
   
-```PowerShell
+```powershell
 Get-Help .\Update-StatsManServerInfo.ps1 -Detailed 
 ```
 
 現在のインポート済みのサーバー情報を表示するには、次のスクリプトを実行します。 
   
-```PowerShell
+```powershell
 .\Get-StatsManServerInfo.ps1
 ```
 
@@ -224,13 +224,13 @@ Skype for Business Server トポロジにないサーバー (例えば Exchange 
   
 1. リスナーがインストールされているディレクトリに移動します。 既定値は次のとおりです。 
     
-   ```
+   ```console
    cd C:\Program Files\Skype for Business Server StatsMan Listener
    ```
 
 2. 次のコマンドを実行します。
     
-   ```
+   ```powershell
     .\Update-StatsManServerInfo.ps1 -HostName <hostname> -SiteName <name of site> -PoolName <poolName> -Roles <role1>[,<role2>,<roleN>]
    ```
 
@@ -241,29 +241,29 @@ Skype for Business Server トポロジにないサーバー (例えば Exchange 
   
 - 統計情報 マネージャーにエージェントが登録されているか？
     
-1. 	トポロジのインポートの手順に従っていることを確認します。「[Import the topology (英語)](deploy.md#BKMK_ImportTopology)」を参照してください。  
-    
-2. このトポロジ内のリストに記述されていないサーバーにエージェントがある場合 (たとえば、SQL AlwaysOn クラスタ内のノード)、「[トポロジのインポート](deploy.md#BKMK_ImportTopology)」にある手順に従ってエージェントを手動で追加する必要があります。
+    1. 	トポロジのインポートの手順に従っていることを確認します。「[Import the topology (英語)](deploy.md#BKMK_ImportTopology)」を参照してください。  
+        
+    2. このトポロジ内のリストに記述されていないサーバーにエージェントがある場合 (たとえば、SQL AlwaysOn クラスタ内のノード)、「[トポロジのインポート](deploy.md#BKMK_ImportTopology)」にある手順に従ってエージェントを手動で追加する必要があります。
     
 - エージェントがリスナーと連絡することができるか
     
-1. リスナー サービスが実行中であることを確認します。 
-    
-    実行中でない場合は、Redis が実行していることを確認して、リスナーの再起動を試行します。
-    
-2. ポートがリスナー サービスに対して開いていて、エージェントのコンピューターがポートと通信できることを確認します。
+    1. リスナー サービスが実行中であることを確認します。 
+        
+        実行中でない場合は、Redis が実行していることを確認して、リスナーの再起動を試行します。
+        
+    2. ポートがリスナー サービスに対して開いていて、エージェントのコンピューターがポートと通信できることを確認します。
     
 - 統計情報 マネージャーがデータを収集していることを確認するには、以下のように CSV ファイルを調べます。 
     
     次のコマンドで、カウンターのストレージ名を取得します。 
     
-  ```
+  ```console
   .\PerfAgentStorageManager.exe -redis=localhost -a=listcounterstoragenames -mode=verbose | findstr /i processor
   ```
 
     次のコマンドで指定したカウンターの値を取得します。 
     
-  ```
+  ```console
   .\PerfAgentStorageManager.exe -redis=localhost -a=getcountervalues  -counter="\\*\Processor Information\% Processor Time_Mean_Mean\_Total" -file:all-processor.csv
   ```
 
@@ -276,7 +276,7 @@ Microsoft は、必ず信頼済みの認証局によって署名された証明�
   
 1. PowerShell コンソールから、管理者としてログ オンしている状態で、次を入力します。
     
-   ```PowerShell
+   ```powershell
    New-SelfSignedCertificate -DnsName StatsManListener -CertStoreLocation Cert:\LocalMachine\My
    ```
 

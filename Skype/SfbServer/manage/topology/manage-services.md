@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: サービスの状態の表示、サービスの開始と停止、サービスのセッションの無効化などの方法について説明します。
-ms.openlocfilehash: 154c7b2d5ff858e22be4159ec1797ef6a6724445
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: da617e386f30469c1b787522f8472d822d02b1e5
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817118"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888446"
 ---
 # <a name="manage-services-in-skype-for-business-server"></a>Skype for Business Server でサービスを管理する
 
@@ -59,7 +59,9 @@ Skype for Business Server コントロールパネルを使用して、Skype for
 
 コンピューターでサービスの状態を表示するには、Skype for Business Server 管理シェルで次のようなコマンドを入力し、enter キーを押します。
 
-`Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object RoleName, Status`
+```powershell
+Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object RoleName, Status
+```
 
 このコマンドは、次のような情報を返します。
 
@@ -75,7 +77,7 @@ RoleName                                  Status
 {MediationServer}                         Running
 ```
 
-詳細については、「 [CsWindowsService](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsWindowsService)」を参照してください。
+詳細については、「 [CsWindowsService](https://docs.microsoft.com/powershell/module/skype/Get-CsWindowsService)」を参照してください。
 
 ## <a name="start-or-stop-skype-for-business-services"></a>Skype for Business サービスを開始または停止する
 
@@ -85,7 +87,9 @@ Skype for Business Server コントロールパネルを使用して、特定の
 
 1. RTCUniversalServerAdmins グループのメンバーであるか (または同等のユーザー権限を持っている)、または CsServerAdministrator または CsAdministrator の役割に割り当てられているユーザーアカウントで、Skype for Business Server を展開したネットワーク内のコンピューターにログオンします。. 次のようなコマンドを実行すると、CsServerAdministrator または CsAdministrator の RBAC 役割が割り当てられているかどうかを確認できます。
 
-    `Get-CsAdminRoleAssignment -Identity "kenmyer"`
+    ```powershell
+    Get-CsAdminRoleAssignment -Identity "kenmyer"`
+    ```
 
 2. ブラウザーウィンドウを開き、管理 URL を入力して、Skype for Business Server コントロールパネルを開きます。 Skype for Business Server コントロールパネルの起動に使用できるさまざまな方法について詳しくは、「[管理ツールをインストールして開く](../../management-tools/install-and-open-administrative-tools.md)」をご覧ください。
 3. 左側のナビゲーション バーで **[トポロジ]** をクリックし、**[状態]** をクリックします。
