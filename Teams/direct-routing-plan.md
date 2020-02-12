@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: このトピックでは、Microsoft Phone システムのダイレクトルーティングを使用して、サポートされているユーザーが指定したセッションボーダーコントローラー (SBC) を Microsoft 電話システムに接続する方法について説明します。
-ms.openlocfilehash: 4e6e26f0beaa74806ebc52ca31c007f5ec085fdc
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: d279792315aec17df10f5c1335306147c7080287
+ms.sourcegitcommit: eab284e2add7af1b3f3c5f1f77c0a3bbf77857a7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863178"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "41953778"
 ---
 # <a name="plan-direct-routing"></a>ダイレクト ルーティングを計画する
 
@@ -257,7 +257,7 @@ FQDN sip.pstnhub.gov.teams.microsoft.us は、次のいずれかの IP アドレ
 
 |**通過**|**開始**|**終了**|**送信元ポート**|**宛先ポート**|
 |:--- |:--- |:--- |:--- |:--- |
-|SIP/TLS|SIP プロキシ|SBC|1024– 65535 (Office 365 GCC 高/DoD のみ) ポート5061および5062のみ使用する必要があります。|SBC で定義|
+|SIP/TLS|SIP プロキシ|SBC|1024–65535|SBC で定義されています (Office 365 GCC 高/DoD 専用ポート5061と5062のみを使用してください)。|
 SIP/TLS|SBC|SIP プロキシ|SBC で定義|5061|
 ||||||
 
