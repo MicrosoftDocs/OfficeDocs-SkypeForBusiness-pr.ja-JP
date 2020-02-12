@@ -3,71 +3,73 @@ title: 先進認証を使用して Microsoft Teams にサインインする
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 11/15/2018
 audience: Admin
-ms.topic: conceptual
+ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ''
-description: 先進認証を使用して Microsoft Teams にサインインする方法について説明します。
-localization_priority: Normal
+description: 先進認証を使用して Microsoft Teams にサインインする方法。
+localization_priority: Priority
 ms.collection:
 - M365-collaboration
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 79f04161c070ff4818fdb2dfc212e5c3fc98b2b0
-ms.sourcegitcommit: 8e2fa7b744d0a174b699ae7298d4688b971eeff3
-ms.translationtype: MT
+ms.openlocfilehash: 7bb74338a3e46bb4e3a65fcbf2a69d56558dad61
+ms.sourcegitcommit: f859843003b34feab18a3d2df34fdbb9858e7148
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41845138"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41889440"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>先進認証を使用して Microsoft Teams にサインインする
 ==========================
 
-Microsoft Teams は先進認証を使用して、サインインエクスペリエンスをシンプルかつ安全な状態に保ちます。 ユーザーがチームにサインインする方法を確認するには、「 [teams にサインイン](https://support.office.com/article/sign-in-to-teams-ea4b1443-d11b-4791-8ae1-9977e7723055)する」を参照してください。
+Microsoft Teams は先進認証を使用して、サインイン操作をシンプルかつ安全なものとしています。 ユーザーが Teams にサインインする方法については、「[Teams にサインインする](https://support.office.com/article/sign-in-to-teams-ea4b1443-d11b-4791-8ae1-9977e7723055)」を参照してください。
 
 ## <a name="how-modern-authentication-works"></a>先進認証のしくみ
 
-先進認証とは、ユーザーが既に資格情報 (仕事用のメールとパスワードなど) を別の場所に入力したことをチームに知らせるプロセスであり、アプリを開始するために再度入力する必要はありません。 エクスペリエンスは、ユーザーが Windows または Mac で作業している場合など、いくつかの要因によって異なります。 また、組織が単一要素認証を有効にしているか、多要素認証を有効にしているかによっても異なります (多要素認証では、通常、電話で資格情報を確認したり、固有のコードを提供したり、PIN を入力したりする必要があります)。拇印の提示。 最新の認証シナリオの概要を示します。
+先進認証とは、ユーザーが資格情報 (職場のメールやパスワードなど) を既に別の場所に入力したことを Teams に知らせ、ユーザーが資格情報を再度入力することを要求されることなくアプリを起動できるようにするためのプロセスです。 ユーザーが Windows を使用しているのか Mac を使用しているのかなど、いつくかの要因によってエクスペリエンスは異なります。 また、組織で単一要素認と多要素認証のいずれが有効にされているかによってもエクスペリエンスは異なります (多要素認証では通常、電話での資格情報の確認、一意のコードの提供、PIN の入力、または拇印の提示を行う必要があります)。 以下は、それぞれの先進認証シナリオの簡単な説明です。
 
-### <a name="windows-users"></a>Windows ユーザー: 
+### <a name="windows-users"></a>Windows ユーザー 
 
-- ユーザーが Office 365 エンタープライズアカウントを使用して他の Office アプリに既にサインインしている場合、チームを起動すると、そのアプリに直接移動します。 資格情報を入力する必要はありません。
+- ユーザーが自分の Office 365 Enterprise アカウントを使用して既に別の Office アプリにサインインしている場合、ユーザーが Teams を起動すると、直ちにアプリに移動します。 ユーザーは資格情報を入力する必要はありません。
 
-- ユーザーが自分の Office 365 Enterprise アカウントにサインインしていない場合、そのユーザーが Teams を開始すると、組織での決定に応じて、単一要素認証または多要素認証 (SFA または MFA) を提供するように求められます。処理を行います。
+- ユーザーが自分の Office 365 Enterprise アカウントにいずれのアプリからもサインインしていない場合、ユーザーがチームを開始すると、組織で単一要素認と多要素認証 (SFA または MFA) のどちらを求める設定になっているかにより、ユーザーはいずれかの認証を提供するよう求められます。
 
-- ユーザーがドメインに参加しているコンピューターにサインインしている場合、Teams を開始すると、組織で MFA を要求するか、またはコンピューターで既に MFA を要求しているかどうかによって、もう1つの認証手順を実行するように求められる場合があります。 お客様のコンピューターに、サインインのために既に MFA が必要な場合は、チームを開くときにアプリが自動的に起動します。
+- ドメインに参加しているコンピューターにユーザーがサインインしている場合、ユーザーが Teams を起動すると、MFA を要求するように組織で設定されているかどうか、または、ユーザーのコンピューターへのサインインで既に MFA が要求されているのかどうかにより、もう 1 つ別の認証手順を実行するよう求められる場合があります。 コンピューターへのサインインで既に MFA が要求されている場合、ユーザーが Teams を開くとアプリが自動的に起動します。
 
-- ユーザーがドメインに参加しているコンピューターにサインインしていて、そのユーザー名が Teams のサインイン画面に事前に入力されていない場合、管理者は次の Windows レジストリを設定して、ユーザー名の事前作成 (UPN) を無効にすることができます。
+- ドメインに参加しているコンピューターにユーザーがサインインしている場合に、Teams のサインイン画面にユーザー名を事前入力させたくない場合は、管理者は次の Windows レジストリを設定してユーザー名 (UPN) の事前入力を無効にできます。
 
-  コンピューター \ HKEY_CURRENT_USER \Software\Microsoft\Office\Teams<br/>
-  SkipUpnPrefill (REG_DWORD)<br/>
+  Computer\HKEY_CURRENT_USER\Software\Microsoft\Office\Teams<br/>
+  SkipUpnPrefill(REG_DWORD)<br/>
   0x00000001 (1)
 
     > [!NOTE]
-    > ユーザー名の末尾に ". .local" または "corp" が付いているユーザー名は既定でオンになっているため、この設定を無効にするためにレジストリキーを設定する必要はありません。 
+    > ".local" または ".corp" で終わるユーザー名については、ユーザー名の事前入力のスキップは既定でオンになっているため、レジストリ キーを設定してオフにする必要はありません。 
 
 
 ### <a name="mac-users"></a>Mac ユーザー 
 
-ユーザーが Teams を開始すると、そのコンピューターは、Office 365 エンタープライズアカウントまたは他の Office アプリケーションから資格情報を取得することはできません。 代わりに、組織の設定に応じて、SFA または MFA の入力を求めるプロンプトが表示されます。 ユーザーが資格情報を入力すると、もう一度提供する必要はありません。 この時点で、チームは同じコンピューターで作業しているときに自動的に開始されます。
+ユーザーが Teams を起動するとき、ユーザーのコンピューターでは Office 365 Enterprise アカウントまたはユーザーのいずれの他の Office アプリケーションからも資格情報を取得できません。 代わりに、(組織の設定に応じて) SFA または MFA を求めるメッセージがユーザーに表示されます。 ユーザーが資格情報を入力すると、入力を再度求められることはありません。 これ以降、ユーザーが同じコンピューターで作業している場合は常に、Teams が自動的に起動します。
 
-## <a name="switching-accounts-after-completing-modern-authentication"></a>先進認証が完了した後でアカウントを切り替える
+## <a name="switching-accounts-after-completing-modern-authentication"></a>先進認証を行った後のアカウントの切り替え
 
-ユーザーがドメインに参加しているコンピューターで作業している場合 (たとえば、テナントが Kerberos を有効にしている場合)、先進認証を完了した後でユーザーアカウントを切り替えることはできません。 ドメインに参加しているコンピューターでユーザーが作業していない場合は、アカウントを切り替えることができます。
+ドメインに参加しているコンピューターでユーザーが作業している場合 (テナントで Kerberos が有効になっている場合など)、先進認証を行った後は、ユーザーはアカウントを切り替えることはできません。 ユーザーが作業を行っているのはドメインに参加しているコンピューターではない場合、ユーザーはアカウントを切り替えることができます。
 
-## <a name="signing-out-of-microsoft-teams-after-completing-modern-authentication"></a>先進認証が完了した後に Microsoft Teams からサインアウトする
-Teams からサインアウトするには、アプリの上部にあるプロフィール写真をクリックして、[**サインアウト**] を選択します。また、タスクバーのアプリアイコンを右クリックし、[**ログアウト**] を選択することもできます。チームからサインアウトすると、アプリを起動するために資格情報を再入力する必要があります。
+## <a name="signing-out-of-teams-after-completing-modern-authentication"></a>先進認証を行った後に Teams からサインアウトする
+Teams からサインアウトするには、アプリの上部にある自分のプロファイル画像をクリックし、[**サインアウト**] を選択します。タスク バーにあるアプリのアイコンを右クリックして [**ログアウト**] を選択することもできます。一旦 Teams からサインアウトすると、アプリを起動するには資格情報をもう一度入力する必要があります。
 
-## <a name="urls-and-ip-address-ranges"></a>Url と IP アドレスの範囲
-チームにはインターネットへの接続が必要。 Office 365 プラン、行政機関、その他のクラウドで Teams を使用するユーザーにとって到達可能なエンドポイントについて理解するには、[次のガイダンス](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)を参照してください。 これに加えて、へのアクセスも許可する必要がhttps://ssl.gstatic.comあります。
+## <a name="urls-and-ip-address-ranges"></a>URL と IP アドレスの範囲
+Teams を使用するには、インターネットへの接続が必要です。 Office 365 の各プラン、政府機関向けまたはその他のクラウドを使用するユーザーが到達可能である必要があるエンドポイントについては、「[Office 365 の URL と IP アドレスの範囲](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)」を参照してください。 
+
+> [!IMPORTANT]
+> Teams では現在、すべてのユーザーについて、Google の ssl.gstatic.com サービス (https://ssl.gstatic.com) への接続 (TCP ポート 443) が要求されています。Gstatic を使用していない場合であってもこれは要求されます。 Teams では間もなく (2020 年前半) この要件が削除される予定になっており、そのタイミングに合わせてこの記事も更新されます。
 
 ## <a name="troubleshooting-modern-authentication"></a>先進認証のトラブルシューティング
 
-新しい認証は Teams を使用するすべての組織で利用できます。そのため、ユーザーが処理を完了できない場合は、自分のドメインまたは組織の Office 365 エンタープライズアカウントに問題がある可能性があります。 
+先進認証は Office を使用しているすべての組織で利用可能であるため、もしユーザーがこのプロセスを完了できない場合は、組織のドメインまたは組織の Office 365 Enterprise アカウントに何か問題がある可能性があります。 
 
-詳細については、「 [Microsoft Teams へのサインインで問題が発生するのはなぜですか?](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f) 」を参照してください。
+詳細については、「[Microsoft Teams へのサインインで問題が発生する理由](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)」を参照してください。
 
