@@ -15,16 +15,16 @@ f1.keywords:
 description: 情報の障壁とチームへの影響について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f516c01bed0dfca0363602aa131a9da22bd916f6
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 0d5b5964f3fcf0f4d24fee44121f868d573eb6e9
+ms.sourcegitcommit: 93a8bd330c9a8ced81cd3eafb7b7236e9ed2066f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836647"
+ms.lasthandoff: 02/13/2020
+ms.locfileid: "41962136"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft Teams の情報障壁
 
-情報バリアは、個人やグループ間の通信を防ぐために管理者が構成できるポリシーです。 これは、たとえば、ある部門が他の部署と共有する必要がない情報を処理している場合や、グループ外の人との通信を禁止または分離する必要がある場合に便利です。
+情報障壁 (IB) は、管理者が互いに連絡することを防止するために構成できるポリシーです。 これは、たとえば、ある部門が他の部署と共有する必要がない情報を処理している場合や、グループ外の人との通信を禁止または分離する必要がある場合に便利です。
 
 > [!NOTE]
 > - 情報バリアグループはテナント全体で作成できません。
@@ -96,7 +96,7 @@ IB コンプライアンス管理の役割は、情報バリアポリシーの�
 
 ## <a name="will-files-and-sharepoint-site-experiences-connected-to-teams-honor-ib-policy"></a>ファイルと SharePoint サイトエクスペリエンスは、Teams の IB ポリシーに接続されていますか?
  
-チームを作成すると、SharePoint サイトがプロビジョニングされ、ファイルエクスペリエンスのチームに関連付けられます。 この SharePoint サイトやファイルへのアクセスには、組織の IB ポリシーが適用されます。 ib セグメントを持つユーザーのみが IB ポリシーにアクセスできます。 ファイル共有の時点でも、IB ポリシーは受け入れられます。
+チームを作成すると、SharePoint サイトがプロビジョニングされ、ファイルエクスペリエンスのチームに関連付けられます。 この SharePoint サイトやファイルへのアクセスには、組織の IB のポリシーが適用されます。つまり、ib セグメントを持つユーザーのみがアクセスを許可します。 ファイル共有の時点でも、IB ポリシーは受け入れられます。
 
 たとえば、Contoso Bank corporation では、ユーザー ' Sesha@contosobank.onmicrosoft.com ' は投資銀行取引セグメントに属し、ユーザー ' Nikita@contosobank.onmicrosoft.com ' はセグメント勧告に属しています。 この2つのセグメント間の通信とコラボレーションは、組織の IB ポリシーによってブロックされます。 ユーザーが、投資銀行取引先のチームを作成すると、そのチームとそれをバックアップした SharePoint サイトにアクセスできるのは、投資銀行セグメントのユーザーのみになります。 ユーザー Nikita は、サイトリンクを持っている場合でも、そのサイトにアクセスすることはできません。
 
@@ -104,7 +104,7 @@ IB コンプライアンス管理の役割は、情報バリアポリシーの�
 
 プランや価格などの詳細については、「[ライセンスガイダンス](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-tenantlevel-services-licensing-guidance)」を参照してください。
 
-## <a name="more-information"></a>More information
+## <a name="more-information"></a>詳細情報
 
 - 情報の障壁の詳細については、「[情報の障壁](https://docs.microsoft.com/office365/securitycompliance/information-barriers)」を参照してください。
 
