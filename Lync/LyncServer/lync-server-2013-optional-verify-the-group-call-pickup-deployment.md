@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: (省略可能) グループ通話のピックアップの展開を確認する'
+title: 'Lync Server 2013: (オプション) グループ通話ピックアップの展開を確認する'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541493
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 91c449a0bafc4067b3315b659d981f7a57a023bb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5cdf1e75f950ebf155bfd21c68b860f48af8e978
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755671"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045539"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="optional-verify-the-group-call-pickup-deployment-in-lync-server-2013"></a><span data-ttu-id="3730c-102">省略Lync Server 2013 でグループ通話のピックアップの展開を確認する</span><span class="sxs-lookup"><span data-stu-id="3730c-102">(Optional) Verify the Group Call Pickup deployment in Lync Server 2013</span></span>
+# <a name="optional-verify-the-group-call-pickup-deployment-in-lync-server-2013"></a><span data-ttu-id="92f30-102">オプションLync Server 2013 でのグループ通話ピックアップの展開の確認</span><span class="sxs-lookup"><span data-stu-id="92f30-102">(Optional) Verify the Group Call Pickup deployment in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41755671"
 
 <span> </span>
 
-<span data-ttu-id="3730c-103">_**最終更新日:** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="3730c-103">_**Topic Last Modified:** 2013-01-30_</span></span>
+<span data-ttu-id="92f30-103">_**トピックの最終更新日:** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="92f30-103">_**Topic Last Modified:** 2013-01-30_</span></span>
 
-<span data-ttu-id="3730c-104">グループ通話のピックアップをユーザーに対して有効にしたら、構成が期待どおりに動作することを確認します。</span><span class="sxs-lookup"><span data-stu-id="3730c-104">After you enable Group Call Pickup for users, verify that the configuration works as expected.</span></span> <span data-ttu-id="3730c-105">少なくとも、以下を確認してください。</span><span class="sxs-lookup"><span data-stu-id="3730c-105">At a minimum, verify the following:</span></span>
+<span data-ttu-id="92f30-104">ユーザーのグループ通話ピックアップを有効にした後、構成が想定どおりに動作することを確認します。</span><span class="sxs-lookup"><span data-stu-id="92f30-104">After you enable Group Call Pickup for users, verify that the configuration works as expected.</span></span> <span data-ttu-id="92f30-105">少なくとも、以下のことを確認してください。</span><span class="sxs-lookup"><span data-stu-id="92f30-105">At a minimum, verify the following:</span></span>
 
-  - <span data-ttu-id="3730c-p102">グループ通話ピックアップを有効にしたユーザーを呼び出して、別のユーザーが呼び出しを受け取るようにします。別のユーザーは、同じグループでも、異なるグループでもよく、グループ通話ピックアップを有効にしている必要はありません。</span><span class="sxs-lookup"><span data-stu-id="3730c-p102">Call a user who is enabled for Group Call Pickup and have another user retrieve the call. The other user can be in the same group, in a different group, or not have Group Call Pickup enabled.</span></span>
+  - <span data-ttu-id="92f30-106">グループ通話ピックアップが有効になっているユーザーを呼び出し、別のユーザーが通話を取得するようにします。</span><span class="sxs-lookup"><span data-stu-id="92f30-106">Call a user who is enabled for Group Call Pickup and have another user retrieve the call.</span></span> <span data-ttu-id="92f30-107">他のユーザーは、同じグループ内、別のグループ内、またはグループ通話ピックアップが有効になっていない場合があります。</span><span class="sxs-lookup"><span data-stu-id="92f30-107">The other user can be in the same group, in a different group, or not have Group Call Pickup enabled.</span></span>
 
-  - <span data-ttu-id="3730c-108">グループ通話ピックアップを有効にしたユーザーを呼び出して、その呼び出しを無視します。</span><span class="sxs-lookup"><span data-stu-id="3730c-108">Call a user who is enabled for Group Call Pickup and do not answer the call.</span></span>
+  - <span data-ttu-id="92f30-108">グループ通話ピックアップが有効になっていて、通話に応答しないユーザーを呼び出します。</span><span class="sxs-lookup"><span data-stu-id="92f30-108">Call a user who is enabled for Group Call Pickup and do not answer the call.</span></span>
 
 </div>
 

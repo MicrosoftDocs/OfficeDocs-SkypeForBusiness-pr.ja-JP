@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ネットワーク領域、サイト、およびサブネットの構成'
+title: 'Lync Server 2013: ネットワーク地域、サイト、およびサブネットについて'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184335
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1f85d392f7d5f987bf14197fd5027c6568965ae8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d2f6de7a39b3029f1edc1252b90ec264d774632f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723427"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037929"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="about-network-regions-sites-and-subnets-in-lync-server-2013"></a><span data-ttu-id="bbd61-102">Lync Server 2013 ネットワーク領域、サイト、およびサブネットの構成</span><span class="sxs-lookup"><span data-stu-id="bbd61-102">About network regions, sites, and subnets in Lync Server 2013</span></span>
+# <a name="about-network-regions-sites-and-subnets-in-lync-server-2013"></a><span data-ttu-id="8c472-102">Lync Server 2013 のネットワーク地域、サイト、およびサブネットについて</span><span class="sxs-lookup"><span data-stu-id="8c472-102">About network regions, sites, and subnets in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,37 +35,37 @@ ms.locfileid: "41723427"
 
 <span> </span>
 
-<span data-ttu-id="bbd61-103">_**最終更新日:** 2013-02-24_</span><span class="sxs-lookup"><span data-stu-id="bbd61-103">_**Topic Last Modified:** 2013-02-24_</span></span>
+<span data-ttu-id="8c472-103">_**トピックの最終更新日:** 2013-02-24_</span><span class="sxs-lookup"><span data-stu-id="8c472-103">_**Topic Last Modified:** 2013-02-24_</span></span>
 
-<span data-ttu-id="bbd61-104">このセクションで説明されている高度なエンタープライズ Voip 機能は、ネットワーク領域、ネットワークサイト、サブネットの特定の構成要件を共有します。</span><span class="sxs-lookup"><span data-stu-id="bbd61-104">The advanced Enterprise Voice features described in this section share certain configuration requirements for network regions, network sites, and subnets.</span></span> <span data-ttu-id="bbd61-105">たとえば、3つの高度な機能を使用するには、トポロジの各サブネットが特定の*ネットワークサイト*と関連付けられ、各ネットワークサイトが*ネットワーク領域*に関連付けられている必要があります。</span><span class="sxs-lookup"><span data-stu-id="bbd61-105">For example, all three advanced features require that each subnet in your topology be associated with a specific *network site*, and each network site must be associated with a *network region*.</span></span>
+<span data-ttu-id="8c472-p101">このセクションで説明する高度なエンタープライズ VoIP の各機能は、ネットワーク地域、ネットワーク サイト、およびサブネットの特定の構成要件を共有します。 たとえば、3 つの高度な機能のいずれでも、トポロジの各サブネットが特定の*ネットワーク サイト*に関連付けられていて、各ネットワーク サイトは*ネットワーク地域*に関連付けられている必要があります。</span><span class="sxs-lookup"><span data-stu-id="8c472-p101">The advanced Enterprise Voice features described in this section share certain configuration requirements for network regions, network sites, and subnets. For example, all three advanced features require that each subnet in your topology be associated with a specific *network site*, and each network site must be associated with a *network region*.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="bbd61-106">通話受付制御、E9、またはメディアバイパスのネットワーク構成を始める前に、計画ドキュメントの「 <A href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">Lync Server 2013 の高度なエンタープライズ voip 機能のネットワーク設定</A>」のネットワーク設定に関する追加情報を確認していることを確認してください。</span><span class="sxs-lookup"><span data-stu-id="bbd61-106">Before you begin network configuration for call admission control, E9-1-1, or media bypass, make sure that you reviewed additional information about network settings in the <A href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">Network settings for the advanced Enterprise Voice features in Lync Server 2013</A> topic in the Planning documentation.</span></span> <span data-ttu-id="bbd61-107">ネットワーク構成の詳細については、主に通話受付制御について詳しくは、「計画ドキュメントの<A href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">Lync Server 2013 での通話受付制御の要件の定義</A>」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="bbd61-107">For details about network configuration primarily about call admission control, also see <A href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">Defining your requirements for call admission control in Lync Server 2013</A> in the Planning documentation.</span></span>
+> <span data-ttu-id="8c472-106">通話受付管理、E9-1-1、またはメディアバイパスのネットワーク構成を開始する前に、「計画」のドキュメントの「 <A href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">Lync Server 2013 の高度なエンタープライズ voip 機能のネットワーク</A>設定に関するその他の情報を確認してください。</span><span class="sxs-lookup"><span data-stu-id="8c472-106">Before you begin network configuration for call admission control, E9-1-1, or media bypass, make sure that you reviewed additional information about network settings in the <A href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">Network settings for the advanced Enterprise Voice features in Lync Server 2013</A> topic in the Planning documentation.</span></span> <span data-ttu-id="8c472-107">通話受付管理に関する基本的なネットワーク構成の詳細については、「計画」のドキュメントの「 <A href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">Lync Server 2013 での通話受付管理の要件の定義</A>」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="8c472-107">For details about network configuration primarily about call admission control, also see <A href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">Defining your requirements for call admission control in Lync Server 2013</A> in the Planning documentation.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="bbd61-108">通話受付管理および E9-1-1 には、ネットワーク サイトの追加構成要件があります。</span><span class="sxs-lookup"><span data-stu-id="bbd61-108">Call admission control and E9-1-1 have additional configuration requirements for network sites:</span></span>
+<span data-ttu-id="8c472-108">通話受付管理および E9-1-1 には、ネットワーク サイトの追加構成要件があります。</span><span class="sxs-lookup"><span data-stu-id="8c472-108">Call admission control and E9-1-1 have additional configuration requirements for network sites:</span></span>
 
-  - <span data-ttu-id="bbd61-109">通話受付管理では、WAN の帯域幅が制限されているサイトごとに*帯域幅ポリシー プロファイル*を指定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="bbd61-109">Call admission control requires that a *bandwidth policy profile* be specified for each site that is constrained by WAN bandwidth limitations.</span></span> <span data-ttu-id="bbd61-110">通話受付制御の展開を計画している場合は、ネットワークサイトを構成する前に、 [Lync Server 2013 で帯域幅ポリシープロファイルを作成](lync-server-2013-create-bandwidth-policy-profiles.md)する必要があります。</span><span class="sxs-lookup"><span data-stu-id="bbd61-110">If you plan to deploy call admission control, you must [Create bandwidth policy profiles in Lync Server 2013](lync-server-2013-create-bandwidth-policy-profiles.md) before you configure your network sites.</span></span>
+  - <span data-ttu-id="8c472-109">通話受付管理では、WAN の帯域幅が制限されているサイトごとに*帯域幅ポリシー プロファイル*を指定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="8c472-109">Call admission control requires that a *bandwidth policy profile* be specified for each site that is constrained by WAN bandwidth limitations.</span></span> <span data-ttu-id="8c472-110">通話受付管理を展開することを計画している場合は、ネットワークサイトを構成する前に、 [Lync Server 2013 で帯域幅ポリシープロファイルを作成](lync-server-2013-create-bandwidth-policy-profiles.md)する必要があります。</span><span class="sxs-lookup"><span data-stu-id="8c472-110">If you plan to deploy call admission control, you must [Create bandwidth policy profiles in Lync Server 2013](lync-server-2013-create-bandwidth-policy-profiles.md) before you configure your network sites.</span></span>
 
-  - <span data-ttu-id="bbd61-111">E9-1-1 では、サイトごとに *場所のポリシー*を指定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="bbd61-111">E9-1-1 requires that a *location policy* be specified for each site.</span></span> <span data-ttu-id="bbd61-112">E9 の展開を計画している場合は、ネットワークサイトを構成する前に、 [Lync Server 2013 で位置情報ポリシーを作成](lync-server-2013-create-location-policies.md)する必要があります。</span><span class="sxs-lookup"><span data-stu-id="bbd61-112">If you plan to deploy E9-1-1, you must [Create location policies in Lync Server 2013](lync-server-2013-create-location-policies.md) before you configure your network sites.</span></span>
+  - <span data-ttu-id="8c472-111">E9-1-1 では、サイトごとに*場所のポリシー*を指定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="8c472-111">E9-1-1 requires that a *location policy* be specified for each site.</span></span> <span data-ttu-id="8c472-112">E9-1-1 の展開を計画している場合は、ネットワークサイトを構成する前に、 [Lync Server 2013 で場所のポリシーを作成](lync-server-2013-create-location-policies.md)する必要があります。</span><span class="sxs-lookup"><span data-stu-id="8c472-112">If you plan to deploy E9-1-1, you must [Create location policies in Lync Server 2013](lync-server-2013-create-location-policies.md) before you configure your network sites.</span></span>
 
 <div>
 
-## <a name="create-or-modify-network-regions-network-sites-and-subnets"></a><span data-ttu-id="bbd61-113">ネットワーク領域、ネットワークサイト、サブネットを作成または変更する</span><span class="sxs-lookup"><span data-stu-id="bbd61-113">Create or Modify Network Regions, Network Sites, and Subnets</span></span>
+## <a name="create-or-modify-network-regions-network-sites-and-subnets"></a><span data-ttu-id="8c472-113">ネットワーク地域、ネットワーク サイト、サブネットの作成または変更</span><span class="sxs-lookup"><span data-stu-id="8c472-113">Create or Modify Network Regions, Network Sites, and Subnets</span></span>
 
-<span data-ttu-id="bbd61-114">次のトピックでは、ネットワーク領域とネットワークサイトを作成または変更し、サブネットをネットワークサイトに関連付ける手順について説明します。</span><span class="sxs-lookup"><span data-stu-id="bbd61-114">The following topics provide steps to create or modify network regions and network sites, and to associate subnets with network sites.</span></span> <span data-ttu-id="bbd61-115">これらのトピックは、特定の高度なエンタープライズ Voip 機能に固有のものではありません。</span><span class="sxs-lookup"><span data-stu-id="bbd61-115">These topics are not specific to any particular advanced Enterprise Voice feature.</span></span>
+<span data-ttu-id="8c472-p105">次のトピックには、ネットワーク地域およびネットワーク サイトを作成または変更するステップや、サブネットをネットワーク サイトに関連付けるステップが記載されています。 これらは、特定の高度なエンタープライズ VoIP 機能に固有のトピックではありません。</span><span class="sxs-lookup"><span data-stu-id="8c472-p105">The following topics provide steps to create or modify network regions and network sites, and to associate subnets with network sites. These topics are not specific to any particular advanced Enterprise Voice feature.</span></span>
 
-  - [<span data-ttu-id="bbd61-116">Lync Server 2013 でネットワークの領域を作成または変更する</span><span class="sxs-lookup"><span data-stu-id="bbd61-116">Create or modify a network region in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-network-region.md)
+  - [<span data-ttu-id="8c472-116">Lync Server 2013 でネットワーク地域を作成または変更する</span><span class="sxs-lookup"><span data-stu-id="8c472-116">Create or modify a network region in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-network-region.md)
 
-  - [<span data-ttu-id="bbd61-117">Lync Server 2013 でのネットワーク サイトの作成または変更</span><span class="sxs-lookup"><span data-stu-id="bbd61-117">Create or modify a network site in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-network-site.md)
+  - [<span data-ttu-id="8c472-117">Lync Server 2013 でのネットワークサイトの作成または変更</span><span class="sxs-lookup"><span data-stu-id="8c472-117">Create or modify a network site in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-network-site.md)
 
-  - [<span data-ttu-id="bbd61-118">Lync Server 2013 でのネットワーク サイトとサブネットの関連付け</span><span class="sxs-lookup"><span data-stu-id="bbd61-118">Associate a subnet with a network site in Lync Server 2013</span></span>](lync-server-2013-associate-a-subnet-with-a-network-site.md)
+  - [<span data-ttu-id="8c472-118">Lync Server 2013 でのサブネットとネットワークサイトの関連付け</span><span class="sxs-lookup"><span data-stu-id="8c472-118">Associate a subnet with a network site in Lync Server 2013</span></span>](lync-server-2013-associate-a-subnet-with-a-network-site.md)
 
 </div>
 

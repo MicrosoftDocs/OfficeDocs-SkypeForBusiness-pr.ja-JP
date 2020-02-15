@@ -12,20 +12,20 @@ ms:contentKeyID: 48184587
 ms.date: 10/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d722abaf76ef915b7587039cb7732cb281a06308
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ef825aa799cdcdec66903e002791f30d9b4cac00
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758141"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046420"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-dial-in-conferencing-in-lync-server-2013"></a><span data-ttu-id="bbe88-102">Lync Server 2013 でのダイヤルイン会議の構成</span><span class="sxs-lookup"><span data-stu-id="bbe88-102">Configuring dial-in conferencing in Lync Server 2013</span></span>
+# <a name="configuring-dial-in-conferencing-in-lync-server-2013"></a><span data-ttu-id="b0640-102">Lync Server 2013 でのダイヤルイン会議の構成</span><span class="sxs-lookup"><span data-stu-id="b0640-102">Configuring dial-in conferencing in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,51 +35,51 @@ ms.locfileid: "41758141"
 
 <span> </span>
 
-<span data-ttu-id="bbe88-103">_**最終更新日:** 2014-10-03_</span><span class="sxs-lookup"><span data-stu-id="bbe88-103">_**Topic Last Modified:** 2014-10-03_</span></span>
+<span data-ttu-id="b0640-103">_**トピックの最終更新日:** 2014-10-03_</span><span class="sxs-lookup"><span data-stu-id="b0640-103">_**Topic Last Modified:** 2014-10-03_</span></span>
 
-<span data-ttu-id="bbe88-104">このセクションでは、Lync Server 2013 ダイヤルイン会議の構成について説明します。</span><span class="sxs-lookup"><span data-stu-id="bbe88-104">This section guides you through the configuration of Lync Server 2013 dial-in conferencing.</span></span>
+<span data-ttu-id="b0640-104">このセクションでは、Lync Server 2013 ダイヤルイン会議の構成について手順を追って説明します。</span><span class="sxs-lookup"><span data-stu-id="b0640-104">This section guides you through the configuration of Lync Server 2013 dial-in conferencing.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="bbe88-105">このセクション中</span><span class="sxs-lookup"><span data-stu-id="bbe88-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="b0640-105">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="b0640-105">In This Section</span></span>
 
-  - [<span data-ttu-id="bbe88-106">Lync Server 2013 のダイヤルイン会議の前提条件とアクセス許可</span><span class="sxs-lookup"><span data-stu-id="bbe88-106">Dial-in conferencing configuration prerequisites and permissions in Lync Server 2013</span></span>](lync-server-2013-dial-in-conferencing-configuration-prerequisites-and-permissions.md)
+  - [<span data-ttu-id="b0640-106">Lync Server 2013 でのダイヤルイン会議構成の前提条件とアクセス許可</span><span class="sxs-lookup"><span data-stu-id="b0640-106">Dial-in conferencing configuration prerequisites and permissions in Lync Server 2013</span></span>](lync-server-2013-dial-in-conferencing-configuration-prerequisites-and-permissions.md)
 
-  - [<span data-ttu-id="bbe88-107">Lync Server 2013 のダイヤルイン会議の展開チェックリスト</span><span class="sxs-lookup"><span data-stu-id="bbe88-107">Deployment checklist for dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-deployment-checklist-for-dial-in-conferencing.md)
+  - [<span data-ttu-id="b0640-107">Lync Server 2013 でのダイヤルイン会議の展開チェックリスト</span><span class="sxs-lookup"><span data-stu-id="b0640-107">Deployment checklist for dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-deployment-checklist-for-dial-in-conferencing.md)
 
-  - [<span data-ttu-id="bbe88-108">Lync Server 2013 でのダイヤルイン会議のダイヤル プランの構成</span><span class="sxs-lookup"><span data-stu-id="bbe88-108">Configure dial plans for dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-configure-dial-plans-for-dial-in-conferencing.md)
+  - [<span data-ttu-id="b0640-108">Lync Server 2013 でダイヤルイン会議のダイヤルプランを構成する</span><span class="sxs-lookup"><span data-stu-id="b0640-108">Configure dial plans for dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-configure-dial-plans-for-dial-in-conferencing.md)
 
-  - [<span data-ttu-id="bbe88-109">「ダイヤルプラン Lync Server 2013 に地域が割り当てられていることを確認する」</span><span class="sxs-lookup"><span data-stu-id="bbe88-109">Make sure dial plans Lync Server 2013 have assigned regions</span></span>](lync-server-2013-make-sure-dial-plans-have-assigned-regions.md)
+  - [<span data-ttu-id="b0640-109">ダイヤルプラン Lync Server 2013 に地域が割り当てられていることを確認する</span><span class="sxs-lookup"><span data-stu-id="b0640-109">Make sure dial plans Lync Server 2013 have assigned regions</span></span>](lync-server-2013-make-sure-dial-plans-have-assigned-regions.md)
 
-  - [<span data-ttu-id="bbe88-110">(オプション) Lync Server 2013 での PIN ポリシー設定の確認</span><span class="sxs-lookup"><span data-stu-id="bbe88-110">(Optional) Verify PIN policy settings in Lync Server 2013</span></span>](lync-server-2013-optional-verify-pin-policy-settings.md)
+  - [<span data-ttu-id="b0640-110">オプションLync Server 2013 での PIN ポリシー設定の確認</span><span class="sxs-lookup"><span data-stu-id="b0640-110">(Optional) Verify PIN policy settings in Lync Server 2013</span></span>](lync-server-2013-optional-verify-pin-policy-settings.md)
 
-  - [<span data-ttu-id="bbe88-111">Lync Server 2013 でダイヤルインの会議ポリシーを構成する</span><span class="sxs-lookup"><span data-stu-id="bbe88-111">Configure conferencing policy for dial-in in Lync Server 2013</span></span>](lync-server-2013-configure-conferencing-policy-for-dial-in.md)
+  - [<span data-ttu-id="b0640-111">Lync Server 2013 でのダイヤルインの会議ポリシーの構成</span><span class="sxs-lookup"><span data-stu-id="b0640-111">Configure conferencing policy for dial-in in Lync Server 2013</span></span>](lync-server-2013-configure-conferencing-policy-for-dial-in.md)
 
-  - [<span data-ttu-id="bbe88-112">Lync Server 2013 でのダイヤルイン会議アクセス番号の構成</span><span class="sxs-lookup"><span data-stu-id="bbe88-112">Configure dial-in conferencing access numbers in Lync Server 2013</span></span>](lync-server-2013-configure-dial-in-conferencing-access-numbers.md)
+  - [<span data-ttu-id="b0640-112">Lync Server 2013 でのダイヤルイン会議アクセス番号の構成</span><span class="sxs-lookup"><span data-stu-id="b0640-112">Configure dial-in conferencing access numbers in Lync Server 2013</span></span>](lync-server-2013-configure-dial-in-conferencing-access-numbers.md)
 
-  - [<span data-ttu-id="bbe88-113">(オプション) Lync Server 2013 でのダイヤルイン会議の設定の検証</span><span class="sxs-lookup"><span data-stu-id="bbe88-113">(Optional) Verify dial-in conferencing settings in Lync Server 2013</span></span>](lync-server-2013-optional-verify-dial-in-conferencing-settings.md)
+  - [<span data-ttu-id="b0640-113">オプションLync Server 2013 でダイヤルイン会議の設定を確認する</span><span class="sxs-lookup"><span data-stu-id="b0640-113">(Optional) Verify dial-in conferencing settings in Lync Server 2013</span></span>](lync-server-2013-optional-verify-dial-in-conferencing-settings.md)
 
-  - [<span data-ttu-id="bbe88-114">(オプション) Lync Server 2013 で DTMF コマンドの主要なマッピングを変更する</span><span class="sxs-lookup"><span data-stu-id="bbe88-114">(Optional) Modify key mapping for DTMF commands in Lync Server 2013</span></span>](lync-server-2013-optional-modify-key-mapping-for-dtmf-commands.md)
+  - [<span data-ttu-id="b0640-114">オプションLync Server 2013 での DTMF コマンドのキーマッピングの変更</span><span class="sxs-lookup"><span data-stu-id="b0640-114">(Optional) Modify key mapping for DTMF commands in Lync Server 2013</span></span>](lync-server-2013-optional-modify-key-mapping-for-dtmf-commands.md)
 
-  - [<span data-ttu-id="bbe88-115">(オプション) Lync Server 2013 での会議への入退出のアナウンスの有効化および無効化</span><span class="sxs-lookup"><span data-stu-id="bbe88-115">(Optional) Enable and disable conference join and leave announcements in Lync Server 2013</span></span>](lync-server-2013-optional-enable-and-disable-conference-join-and-leave-announcements.md)
+  - [<span data-ttu-id="b0640-115">オプションLync Server 2013 での会議の参加と脱退のアナウンスを有効または無効にする</span><span class="sxs-lookup"><span data-stu-id="b0640-115">(Optional) Enable and disable conference join and leave announcements in Lync Server 2013</span></span>](lync-server-2013-optional-enable-and-disable-conference-join-and-leave-announcements.md)
 
-  - [<span data-ttu-id="bbe88-116">(オプション) Lync Server 2013 でのダイヤルイン会議の検証</span><span class="sxs-lookup"><span data-stu-id="bbe88-116">(Optional) Verify dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-optional-verify-dial-in-conferencing.md)
+  - [<span data-ttu-id="b0640-116">オプションLync Server 2013 でのダイヤルイン会議の確認</span><span class="sxs-lookup"><span data-stu-id="b0640-116">(Optional) Verify dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-optional-verify-dial-in-conferencing.md)
 
-  - [<span data-ttu-id="bbe88-117">Lync 2013 用オンライン会議アドインの展開</span><span class="sxs-lookup"><span data-stu-id="bbe88-117">Deploy the Online Meeting Add-in for Lync 2013</span></span>](lync-server-2013-deploy-the-online-meeting-add-in-for-lync-2013.md)
+  - [<span data-ttu-id="b0640-117">Lync 2013 用オンライン ミーティング アドインの展開</span><span class="sxs-lookup"><span data-stu-id="b0640-117">Deploy the Online Meeting Add-in for Lync 2013</span></span>](lync-server-2013-deploy-the-online-meeting-add-in-for-lync-2013.md)
 
-  - [<span data-ttu-id="bbe88-118">Lync Server 2013 でのユーザー アカウント設定の構成</span><span class="sxs-lookup"><span data-stu-id="bbe88-118">Configure user account settings in Lync Server 2013</span></span>](lync-server-2013-configure-user-account-settings.md)
+  - [<span data-ttu-id="b0640-118">Lync Server 2013 でユーザーアカウント設定を構成する</span><span class="sxs-lookup"><span data-stu-id="b0640-118">Configure user account settings in Lync Server 2013</span></span>](lync-server-2013-configure-user-account-settings.md)
 
-  - [<span data-ttu-id="bbe88-119">(Recommended) Create Conference Directories</span><span class="sxs-lookup"><span data-stu-id="bbe88-119">(Recommended) Create Conference Directories</span></span>](recommended-create-conference-directories.md)
+  - [<span data-ttu-id="b0640-119">勧め会議ディレクトリを作成する</span><span class="sxs-lookup"><span data-stu-id="b0640-119">(Recommended) Create Conference Directories</span></span>](recommended-create-conference-directories.md)
 
-  - [<span data-ttu-id="bbe88-120">(オプション) Lync Server 2013 でのダイヤルイン会議へのユーザーの受け入れ</span><span class="sxs-lookup"><span data-stu-id="bbe88-120">(Optional) Welcome users to dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-optional-welcome-users-to-dial-in-conferencing.md)
+  - [<span data-ttu-id="b0640-120">オプションLync Server 2013 でのダイヤルイン会議へのユーザーのようこそ</span><span class="sxs-lookup"><span data-stu-id="b0640-120">(Optional) Welcome users to dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-optional-welcome-users-to-dial-in-conferencing.md)
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a><span data-ttu-id="bbe88-121">関連項目</span><span class="sxs-lookup"><span data-stu-id="bbe88-121">Related Sections</span></span>
+## <a name="related-sections"></a><span data-ttu-id="b0640-121">関連情報</span><span class="sxs-lookup"><span data-stu-id="b0640-121">Related Sections</span></span>
 
-[<span data-ttu-id="bbe88-122">Lync Server 2013 の展開</span><span class="sxs-lookup"><span data-stu-id="bbe88-122">Deploying Lync Server 2013</span></span>](lync-server-2013-deploying-lync-server.md)
+[<span data-ttu-id="b0640-122">Lync Server 2013 の展開 </span><span class="sxs-lookup"><span data-stu-id="b0640-122">Deploying Lync Server 2013</span></span>](lync-server-2013-deploying-lync-server.md)
 
 </div>
 

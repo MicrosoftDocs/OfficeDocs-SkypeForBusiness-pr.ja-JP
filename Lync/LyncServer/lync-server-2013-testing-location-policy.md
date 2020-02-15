@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 場所のポリシーをテストする'
+title: 'Lync Server 2013: 場所のポリシーのテスト'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969591
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2a954405cb8dbba842250e0545ac8661d4f3795c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2a46eecb63ed35075cb44ff840e733f781357ea6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745777"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046570"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="testing-location-policy-in-lync-server-2013"></a><span data-ttu-id="402b9-102">Lync Server 2013 での場所のポリシーのテスト</span><span class="sxs-lookup"><span data-stu-id="402b9-102">Testing location policy in Lync Server 2013</span></span>
+# <a name="testing-location-policy-in-lync-server-2013"></a><span data-ttu-id="acdeb-102">Lync Server 2013 での場所のポリシーのテスト</span><span class="sxs-lookup"><span data-stu-id="acdeb-102">Testing location policy in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41745777"
 
 <span> </span>
 
-<span data-ttu-id="402b9-103">_**最終更新日:** 2014-06-05_</span><span class="sxs-lookup"><span data-stu-id="402b9-103">_**Topic Last Modified:** 2014-06-05_</span></span>
+<span data-ttu-id="acdeb-103">_**トピックの最終更新日:** 2014-06-05_</span><span class="sxs-lookup"><span data-stu-id="acdeb-103">_**Topic Last Modified:** 2014-06-05_</span></span>
 
 
 <table>
@@ -45,17 +45,17 @@ ms.locfileid: "41745777"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="402b9-104">確認のスケジュール</span><span class="sxs-lookup"><span data-stu-id="402b9-104">Verification schedule</span></span></p></td>
-<td><p><span data-ttu-id="402b9-105">[毎日]</span><span class="sxs-lookup"><span data-stu-id="402b9-105">Daily</span></span></p></td>
+<td><p><span data-ttu-id="acdeb-104">検証スケジュール</span><span class="sxs-lookup"><span data-stu-id="acdeb-104">Verification schedule</span></span></p></td>
+<td><p><span data-ttu-id="acdeb-105">毎日</span><span class="sxs-lookup"><span data-stu-id="acdeb-105">Daily</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="402b9-106">テストツール</span><span class="sxs-lookup"><span data-stu-id="402b9-106">Testing tool</span></span></p></td>
-<td><p><span data-ttu-id="402b9-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="402b9-107">Windows PowerShell</span></span></p></td>
+<td><p><span data-ttu-id="acdeb-106">テストツール</span><span class="sxs-lookup"><span data-stu-id="acdeb-106">Testing tool</span></span></p></td>
+<td><p><span data-ttu-id="acdeb-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="acdeb-107">Windows PowerShell</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="402b9-108">必要なアクセス許可</span><span class="sxs-lookup"><span data-stu-id="402b9-108">Permissions required</span></span></p></td>
-<td><p><span data-ttu-id="402b9-109">Lync Server 管理シェルを使用してローカルで実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</span><span class="sxs-lookup"><span data-stu-id="402b9-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
-<p><span data-ttu-id="402b9-110">Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには、CsLocationPolicy コマンドレットを実行するためのアクセス許可が与えられた RBAC の役割を割り当てる必要があります。</span><span class="sxs-lookup"><span data-stu-id="402b9-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsLocationPolicy cmdlet.</span></span> <span data-ttu-id="402b9-111">このコマンドレットを使うことができるすべての RBAC ロールの一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="402b9-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
+<td><p><span data-ttu-id="acdeb-108">必要なアクセス許可</span><span class="sxs-lookup"><span data-stu-id="acdeb-108">Permissions required</span></span></p></td>
+<td><p><span data-ttu-id="acdeb-109">Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</span><span class="sxs-lookup"><span data-stu-id="acdeb-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
+<p><span data-ttu-id="acdeb-110">Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには、Test-CsLocationPolicy コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。</span><span class="sxs-lookup"><span data-stu-id="acdeb-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsLocationPolicy cmdlet.</span></span> <span data-ttu-id="acdeb-111">このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="acdeb-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsLocationPolicy&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -64,112 +64,112 @@ ms.locfileid: "41745777"
 
 <div>
 
-## <a name="description"></a><span data-ttu-id="402b9-112">説明</span><span class="sxs-lookup"><span data-stu-id="402b9-112">Description</span></span>
+## <a name="description"></a><span data-ttu-id="acdeb-112">説明</span><span class="sxs-lookup"><span data-stu-id="acdeb-112">Description</span></span>
 
-<span data-ttu-id="402b9-113">テスト用の Locationpolicy コマンドレットは、位置情報ポリシーがユーザーに割り当てられていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="402b9-113">The Test-CsLocationPolicy cmdlet verifies that a location policy is assigned to a user.</span></span> <span data-ttu-id="402b9-114">場所ポリシーは、E9 の機能とクライアントの場所に関連する設定を適用するために使用されます。</span><span class="sxs-lookup"><span data-stu-id="402b9-114">The location policy is used to apply settings that relate to E9-1-1 functionality and client location.</span></span> <span data-ttu-id="402b9-115">位置情報ポリシーは、ユーザーが E9 に対して有効になっているかどうかを決定します。回答が "yes" の場合は、緊急通話の動作は何ですか。</span><span class="sxs-lookup"><span data-stu-id="402b9-115">The location policy determines whether a user is enabled for E9-1-1, and, if the answer is "yes,", what the behavior is of an emergency call.</span></span> <span data-ttu-id="402b9-116">たとえば、位置情報ポリシーを使って、緊急通話 (米国内の 911) を構成する番号、企業のセキュリティを自動的に通知するかどうか、通話のルーティング方法を定義できます。</span><span class="sxs-lookup"><span data-stu-id="402b9-116">For example, you can use the location policy to define what number makes up an emergency call (911 in the United States), whether corporate security should be automatically notified, and how the call should be routed.</span></span>
+<span data-ttu-id="acdeb-113">Test-CsLocationPolicy コマンドレットは、場所のポリシーがユーザーに割り当てられていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="acdeb-113">The Test-CsLocationPolicy cmdlet verifies that a location policy is assigned to a user.</span></span> <span data-ttu-id="acdeb-114">場所のポリシーを使用して、E9-1-1 の機能およびクライアントの場所に関連する設定を適用します。</span><span class="sxs-lookup"><span data-stu-id="acdeb-114">The location policy is used to apply settings that relate to E9-1-1 functionality and client location.</span></span> <span data-ttu-id="acdeb-115">場所のポリシーによって、ユーザーが E9-1-1 に対して有効になっているかどうかが判断されます。また、応答が "yes" の場合は、緊急電話の動作がどのようなものですか。</span><span class="sxs-lookup"><span data-stu-id="acdeb-115">The location policy determines whether a user is enabled for E9-1-1, and, if the answer is "yes,", what the behavior is of an emergency call.</span></span> <span data-ttu-id="acdeb-116">たとえば、場所のポリシーを使用して、会社のセキュリティを自動的に通知するかどうか、および通話をルーティングする方法を定義することができます (米国では 911)。</span><span class="sxs-lookup"><span data-stu-id="acdeb-116">For example, you can use the location policy to define what number makes up an emergency call (911 in the United States), whether corporate security should be automatically notified, and how the call should be routed.</span></span>
 
-<span data-ttu-id="402b9-117">ユーザーまたはネットワークサブネット上の位置情報ポリシーをテストすることができます。</span><span class="sxs-lookup"><span data-stu-id="402b9-117">You can test location policies on users or on network subnets.</span></span> <span data-ttu-id="402b9-118">サブネットに対してテストを実行する場合 (サブネットパラメーターの値を指定)、コマンドレットはそのサブネットの位置情報ポリシーを解決しようとします。</span><span class="sxs-lookup"><span data-stu-id="402b9-118">If you run the test against a subnet (by specifying a value for the Subnet parameter), the cmdlet will attempt to resolve the location policy for that subnet.</span></span> <span data-ttu-id="402b9-119">場所のポリシーがサブネットに割り当てられていない場合、構成されたユーザーの位置情報ポリシーが取得されます。</span><span class="sxs-lookup"><span data-stu-id="402b9-119">If no location policy is assigned to the subnet, the location policy for the configured user will be retrieved.</span></span> <span data-ttu-id="402b9-120">サブネットポリシーが正常に取得された場合、出力には subnet-tagid で始まる LocationPolicyTagID 値が含まれます。</span><span class="sxs-lookup"><span data-stu-id="402b9-120">If the subnet policy is retrieved successfully, the output will include a LocationPolicyTagID value that begins with subnet-tagid.</span></span> <span data-ttu-id="402b9-121">サブネットの場所ポリシーが見つからなかった場合は、LocationPolicyTagID は tagid を使用して開始されます。</span><span class="sxs-lookup"><span data-stu-id="402b9-121">If a location policy for the subnet was not found, the LocationPolicyTagID will begin with user-tagid.</span></span>
+<span data-ttu-id="acdeb-117">ユーザーまたはネットワーク サブネットに対して場所のポリシーをテストできます。</span><span class="sxs-lookup"><span data-stu-id="acdeb-117">You can test location policies on users or on network subnets.</span></span> <span data-ttu-id="acdeb-118">サブネットに対してテストを実行する場合 (Subnet パラメーターに値を指定します)、コマンドレットはそのサブネット用の場所のポリシーの解決を試みます。</span><span class="sxs-lookup"><span data-stu-id="acdeb-118">If you run the test against a subnet (by specifying a value for the Subnet parameter), the cmdlet will attempt to resolve the location policy for that subnet.</span></span> <span data-ttu-id="acdeb-119">サブネットに場所のポリシーが割り当てられていない場合、構成されているユーザーの場所のポリシーが取得されます。</span><span class="sxs-lookup"><span data-stu-id="acdeb-119">If no location policy is assigned to the subnet, the location policy for the configured user will be retrieved.</span></span> <span data-ttu-id="acdeb-120">サブネットポリシーが正常に取得された場合、出力には、サブネット-tagid で始まる LocationPolicyTagID 値が含まれます。</span><span class="sxs-lookup"><span data-stu-id="acdeb-120">If the subnet policy is retrieved successfully, the output will include a LocationPolicyTagID value that begins with subnet-tagid.</span></span> <span data-ttu-id="acdeb-121">サブネットの場所のポリシーが見つからなかった場合は、LocationPolicyTagID は user-tagid で始まります。</span><span class="sxs-lookup"><span data-stu-id="acdeb-121">If a location policy for the subnet was not found, the LocationPolicyTagID will begin with user-tagid.</span></span>
 
 </div>
 
 <div>
 
-## <a name="running-the-test"></a><span data-ttu-id="402b9-122">テストの実行</span><span class="sxs-lookup"><span data-stu-id="402b9-122">Running the test</span></span>
+## <a name="running-the-test"></a><span data-ttu-id="acdeb-122">テストの実行</span><span class="sxs-lookup"><span data-stu-id="acdeb-122">Running the test</span></span>
 
-<span data-ttu-id="402b9-123">テスト用の Locationpolicy コマンドレットを実行するには、事前に定義されたテストアカウント (「Lync Server テストを実行するためのテストアカウントをセットアップする」を参照) または Lync Server を有効にしているユーザーのアカウントのいずれかを使用します。</span><span class="sxs-lookup"><span data-stu-id="402b9-123">The Test-CsLocationPolicy cmdlet can be run using either a preconfigured test account (see Setting Up Test Accounts for Running Lync Server Tests) or the account of any user who is enabled for Lync Server.</span></span> <span data-ttu-id="402b9-124">テストアカウントを使用してこのチェックを実行するには、テスト対象の Lync Server プールの FQDN を指定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="402b9-124">To run this check using a test account, you just have to specify the FQDN of the Lync Server pool being tested.</span></span> <span data-ttu-id="402b9-125">次に例を示します。</span><span class="sxs-lookup"><span data-stu-id="402b9-125">For example:</span></span>
+<span data-ttu-id="acdeb-123">Test-CsLocationPolicy コマンドレットは、事前構成されたテストアカウント (「Lync Server テストを実行するためのテストアカウントの設定」を参照)、または Lync Server が有効になっているユーザーのアカウントのいずれかを使用して実行できます。</span><span class="sxs-lookup"><span data-stu-id="acdeb-123">The Test-CsLocationPolicy cmdlet can be run using either a preconfigured test account (see Setting Up Test Accounts for Running Lync Server Tests) or the account of any user who is enabled for Lync Server.</span></span> <span data-ttu-id="acdeb-124">テストアカウントを使用してこのチェックを実行するには、テストする Lync Server プールの FQDN を指定するだけで済みます。</span><span class="sxs-lookup"><span data-stu-id="acdeb-124">To run this check using a test account, you just have to specify the FQDN of the Lync Server pool being tested.</span></span> <span data-ttu-id="acdeb-125">例:</span><span class="sxs-lookup"><span data-stu-id="acdeb-125">For example:</span></span>
 
     Test-CsLocationPolicy -TargetFqdn "atl-cs-001.litwareinc.com"
 
-<span data-ttu-id="402b9-126">実際のユーザーアカウントを使用してこのチェックを実行するには、最初に、アカウント名とパスワードを含む Windows PowerShell 資格情報オブジェクトを作成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="402b9-126">To run this check using an actual user account, you must first create a Windows PowerShell credentials object that contains the account name and password.</span></span> <span data-ttu-id="402b9-127">次に、資格情報オブジェクトと、テスト用の (CsLocationPolicy) を呼び出すとアカウントに割り当てられた SIP アドレスを含める必要があります。</span><span class="sxs-lookup"><span data-stu-id="402b9-127">You must then include that credentials object and the SIP address assigned to the account when you call Test-CsLocationPolicy:</span></span>
+<span data-ttu-id="acdeb-126">実際のユーザーアカウントを使用してこのチェックを実行するには、まず、アカウント名とパスワードを含む Windows PowerShell credentials オブジェクトを作成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="acdeb-126">To run this check using an actual user account, you must first create a Windows PowerShell credentials object that contains the account name and password.</span></span> <span data-ttu-id="acdeb-127">次に、その資格情報オブジェクトと、Test-CsLocationPolicy を呼び出すときにアカウントに割り当てられた SIP アドレスを含める必要があります。</span><span class="sxs-lookup"><span data-stu-id="acdeb-127">You must then include that credentials object and the SIP address assigned to the account when you call Test-CsLocationPolicy:</span></span>
 
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsLocationPolicy -TargetFqdn "atl-cs-001.litwareinc.com"-UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-<span data-ttu-id="402b9-128">詳細については、「[テスト-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Test-CsLocationPolicy) 」コマンドレットのヘルプドキュメントを参照してください。</span><span class="sxs-lookup"><span data-stu-id="402b9-128">For more information, see the Help documentation for the [Test-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Test-CsLocationPolicy) cmdlet.</span></span>
+<span data-ttu-id="acdeb-128">詳細については、 [Test-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Test-CsLocationPolicy)コマンドレットのヘルプドキュメントを参照してください。</span><span class="sxs-lookup"><span data-stu-id="acdeb-128">For more information, see the Help documentation for the [Test-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Test-CsLocationPolicy) cmdlet.</span></span>
 
 </div>
 
 <div>
 
-## <a name="determining-success-or-failure"></a><span data-ttu-id="402b9-129">成功または失敗を確認する</span><span class="sxs-lookup"><span data-stu-id="402b9-129">Determining success or failure</span></span>
+## <a name="determining-success-or-failure"></a><span data-ttu-id="acdeb-129">成功または失敗を判断する</span><span class="sxs-lookup"><span data-stu-id="acdeb-129">Determining success or failure</span></span>
 
-<span data-ttu-id="402b9-130">指定したユーザーが有効な場所のポリシーを持っている場合は、次のような結果が返され、Result プロパティは Success とマークされ**ます。**</span><span class="sxs-lookup"><span data-stu-id="402b9-130">If the specified user has a valid location policy, then you'll receive output similar to this, with the Result property marked as **Success:**</span></span>
+<span data-ttu-id="acdeb-130">指定したユーザーに有効な場所ポリシーがある場合は、次のような出力が得られ、Result プロパティは Success としてマークされ**ます。**</span><span class="sxs-lookup"><span data-stu-id="acdeb-130">If the specified user has a valid location policy, then you'll receive output similar to this, with the Result property marked as **Success:**</span></span>
 
-<span data-ttu-id="402b9-131">EnhancedEmergencyServicesEnabled: true</span><span class="sxs-lookup"><span data-stu-id="402b9-131">EnhancedEmergencyServicesEnabled : true</span></span>
+<span data-ttu-id="acdeb-131">EnhancedEmergencyServicesEnabled: true</span><span class="sxs-lookup"><span data-stu-id="acdeb-131">EnhancedEmergencyServicesEnabled : true</span></span>
 
-<span data-ttu-id="402b9-132">LocationPolicyTagID: tagid</span><span class="sxs-lookup"><span data-stu-id="402b9-132">LocationPolicyTagID : user-tagid</span></span>
+<span data-ttu-id="acdeb-132">LocationPolicyTagID: user-tagid</span><span class="sxs-lookup"><span data-stu-id="acdeb-132">LocationPolicyTagID : user-tagid</span></span>
 
-<span data-ttu-id="402b9-133">TargetFqdn: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="402b9-133">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
+<span data-ttu-id="acdeb-133">TargetFqdn: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="acdeb-133">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
 
-<span data-ttu-id="402b9-134">結果: 成功</span><span class="sxs-lookup"><span data-stu-id="402b9-134">Result : Success</span></span>
+<span data-ttu-id="acdeb-134">結果: 成功</span><span class="sxs-lookup"><span data-stu-id="acdeb-134">Result : Success</span></span>
 
-<span data-ttu-id="402b9-135">待ち時間:00:00: 06.8630376</span><span class="sxs-lookup"><span data-stu-id="402b9-135">Latency : 00:00:06.8630376</span></span>
+<span data-ttu-id="acdeb-135">待機時間:00:00: 06.8630376</span><span class="sxs-lookup"><span data-stu-id="acdeb-135">Latency : 00:00:06.8630376</span></span>
 
-<span data-ttu-id="402b9-136">誤差</span><span class="sxs-lookup"><span data-stu-id="402b9-136">Error :</span></span>
+<span data-ttu-id="acdeb-136">エラー</span><span class="sxs-lookup"><span data-stu-id="acdeb-136">Error :</span></span>
 
-<span data-ttu-id="402b9-137">診断</span><span class="sxs-lookup"><span data-stu-id="402b9-137">Diagnosis :</span></span>
+<span data-ttu-id="acdeb-137">分析</span><span class="sxs-lookup"><span data-stu-id="acdeb-137">Diagnosis :</span></span>
 
-<span data-ttu-id="402b9-138">指定したユーザーに対して有効な場所のポリシーが見つからない場合は、結果がエラーとして表示され、エラーと診断のプロパティに追加情報が記録されます。</span><span class="sxs-lookup"><span data-stu-id="402b9-138">If a valid location policy cannot be found for the specified user, then Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:</span></span>
+<span data-ttu-id="acdeb-138">指定したユーザーの有効な場所のポリシーが見つからない場合は、結果がエラーとして表示され、次の情報が Error および診断プロパティに記録されます。</span><span class="sxs-lookup"><span data-stu-id="acdeb-138">If a valid location policy cannot be found for the specified user, then Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:</span></span>
 
-<span data-ttu-id="402b9-139">TargetFqdn: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="402b9-139">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
+<span data-ttu-id="acdeb-139">TargetFqdn: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="acdeb-139">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
 
-<span data-ttu-id="402b9-140">結果: エラー</span><span class="sxs-lookup"><span data-stu-id="402b9-140">Result : Failure</span></span>
+<span data-ttu-id="acdeb-140">結果: エラー</span><span class="sxs-lookup"><span data-stu-id="acdeb-140">Result : Failure</span></span>
 
-<span data-ttu-id="402b9-141">待ち時間: 00:00:00</span><span class="sxs-lookup"><span data-stu-id="402b9-141">Latency : 00:00:00</span></span>
+<span data-ttu-id="acdeb-141">待機時間: 00:00:00</span><span class="sxs-lookup"><span data-stu-id="acdeb-141">Latency : 00:00:00</span></span>
 
-<span data-ttu-id="402b9-142">エラー: 404、見つかりません</span><span class="sxs-lookup"><span data-stu-id="402b9-142">Error : 404, Not Found</span></span>
+<span data-ttu-id="acdeb-142">エラー: 404、見つかりません</span><span class="sxs-lookup"><span data-stu-id="acdeb-142">Error : 404, Not Found</span></span>
 
-<span data-ttu-id="402b9-143">診断: ErrorCode = 4005、Source = atl-cs-001.litwareinc.com、</span><span class="sxs-lookup"><span data-stu-id="402b9-143">Diagnosis : ErrorCode=4005,Source=atl-cs-001.litwareinc.com,</span></span>
+<span data-ttu-id="acdeb-143">診断: ErrorCode = 4005, Source = 001.litwareinc.com,</span><span class="sxs-lookup"><span data-stu-id="acdeb-143">Diagnosis : ErrorCode=4005,Source=atl-cs-001.litwareinc.com,</span></span>
 
-<span data-ttu-id="402b9-144">理由 = ターゲット URI が SIP で有効になっていないか、</span><span class="sxs-lookup"><span data-stu-id="402b9-144">Reason=Destination URI either not enabled for SIP or does not</span></span>
+<span data-ttu-id="acdeb-144">Reason = 宛先 URI が SIP に対して有効になっていないか、または使用されていません</span><span class="sxs-lookup"><span data-stu-id="acdeb-144">Reason=Destination URI either not enabled for SIP or does not</span></span>
 
-<span data-ttu-id="402b9-145">残っ.</span><span class="sxs-lookup"><span data-stu-id="402b9-145">exist.</span></span>
+<span data-ttu-id="acdeb-145">ない.</span><span class="sxs-lookup"><span data-stu-id="acdeb-145">exist.</span></span>
 
-<span data-ttu-id="402b9-146">DiagnosticHeader の場合</span><span class="sxs-lookup"><span data-stu-id="402b9-146">Microsoft.Rtc.Signaling.DiagnosticHeader</span></span>
+<span data-ttu-id="acdeb-146">DiagnosticHeader ()</span><span class="sxs-lookup"><span data-stu-id="acdeb-146">Microsoft.Rtc.Signaling.DiagnosticHeader</span></span>
 
-<span data-ttu-id="402b9-147">指定したユーザーが有効でないため、テストが失敗したことを示します。アカウントが存在しないか、ユーザーが Lync Server を有効にしていないことが原因です。</span><span class="sxs-lookup"><span data-stu-id="402b9-147">The previous output states that the test failed because the specified user is not valid: either the account does not exist or the user has not been enabled for Lync Server.</span></span> <span data-ttu-id="402b9-148">アカウントの有効性を確認し、次のようなコマンドを実行することにより、そのアカウントが nm-14-14-3 番目に有効になっているかどうかを確認できます。</span><span class="sxs-lookup"><span data-stu-id="402b9-148">You can verify the validity of an account, and determine whether or not that account has been enabled for nm-ocs-14-3rd, by running a command similar to this:</span></span>
+<span data-ttu-id="acdeb-147">指定されたユーザーが有効でないため、テストが失敗したことが示されます。アカウントが存在しないか、ユーザーが Lync Server に対して有効になっていません。</span><span class="sxs-lookup"><span data-stu-id="acdeb-147">The previous output states that the test failed because the specified user is not valid: either the account does not exist or the user has not been enabled for Lync Server.</span></span> <span data-ttu-id="acdeb-148">アカウントの有効性を確認し、次のようなコマンドを実行することによって、アカウントが、そのアカウントが有効になっているかどうかを確認できます。</span><span class="sxs-lookup"><span data-stu-id="acdeb-148">You can verify the validity of an account, and determine whether or not that account has been enabled for nm-ocs-14-3rd, by running a command similar to this:</span></span>
 
     Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object SipAddress, Enabled
 
-<span data-ttu-id="402b9-149">テスト用の場所のポリシーが失敗した場合は、Verbose パラメーターなどのテストを再実行することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="402b9-149">If Test-CsLocationPolicy fails, then you might want to rerun the test, this time including the Verbose parameter:</span></span>
+<span data-ttu-id="acdeb-149">Test-CsLocationPolicy が失敗した場合は、次のように詳細なパラメーターを含めて、テストを再実行することもできます。</span><span class="sxs-lookup"><span data-stu-id="acdeb-149">If Test-CsLocationPolicy fails, then you might want to rerun the test, this time including the Verbose parameter:</span></span>
 
     Test-CsLocationPolicy -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-<span data-ttu-id="402b9-150">Verbose パラメーターが含まれている場合、テスト-CsLocationPolicy は、位置情報ポリシーを確認したときに試行された各操作のステップバイステップのアカウントを返します。</span><span class="sxs-lookup"><span data-stu-id="402b9-150">When the Verbose parameter is included, Test-CsLocationPolicy will return a step-by-step account of each action it tried when verifying the location policy.</span></span> <span data-ttu-id="402b9-151">たとえば、次の出力は、無効なパスワードが提供されたため、Lync Server がテストユーザーにログオンできなかったことを示します。</span><span class="sxs-lookup"><span data-stu-id="402b9-151">For example, this output indicates that Lync Server couldn't log on the test user, probably because an invalid password was supplied:</span></span>
+<span data-ttu-id="acdeb-150">Verbose パラメーターが指定されている場合、テスト-CsLocationPolicy は、場所ポリシーの確認時に試行された各操作のステップバイステップのアカウントを返します。</span><span class="sxs-lookup"><span data-stu-id="acdeb-150">When the Verbose parameter is included, Test-CsLocationPolicy will return a step-by-step account of each action it tried when verifying the location policy.</span></span> <span data-ttu-id="acdeb-151">たとえば、次の出力は、無効なパスワードが指定されたために、Lync Server がテストユーザーにログオンできなかったことを示しています。</span><span class="sxs-lookup"><span data-stu-id="acdeb-151">For example, this output indicates that Lync Server couldn't log on the test user, probably because an invalid password was supplied:</span></span>
 
-<span data-ttu-id="402b9-152">登録リクエストの送信:</span><span class="sxs-lookup"><span data-stu-id="402b9-152">Sending Registration request :</span></span>
+<span data-ttu-id="acdeb-152">登録要求の送信:</span><span class="sxs-lookup"><span data-stu-id="acdeb-152">Sending Registration request :</span></span>
 
-<span data-ttu-id="402b9-153">ターゲット Fqdn = atl-cs-011.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="402b9-153">Target Fqdn = atl-cs-011.litwareinc.com</span></span>
+<span data-ttu-id="acdeb-153">ターゲット Fqdn = atl-cs-011.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="acdeb-153">Target Fqdn = atl-cs-011.litwareinc.com</span></span>
 
-<span data-ttu-id="402b9-154">ユーザー Sip アドレス = sip:kenmyer@litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="402b9-154">User Sip Address = sip:kenmyer@litwareinc.com</span></span>
+<span data-ttu-id="acdeb-154">ユーザー Sip アドレス = sip:kenmyer@litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="acdeb-154">User Sip Address = sip:kenmyer@litwareinc.com</span></span>
 
-<span data-ttu-id="402b9-155">レジストラーポート = 5061</span><span class="sxs-lookup"><span data-stu-id="402b9-155">Registrar Port = 5061</span></span>
+<span data-ttu-id="acdeb-155">レジストラーポート = 5061</span><span class="sxs-lookup"><span data-stu-id="acdeb-155">Registrar Port = 5061</span></span>
 
-<span data-ttu-id="402b9-156">認証の種類 ' IWA ' が選択されています。</span><span class="sxs-lookup"><span data-stu-id="402b9-156">Auth Type 'IWA' is selected.</span></span>
+<span data-ttu-id="acdeb-156">認証の種類 ' IWA ' が選択されています。</span><span class="sxs-lookup"><span data-stu-id="acdeb-156">Auth Type 'IWA' is selected.</span></span>
 
-<span data-ttu-id="402b9-157">Sip/atl に対する登録ヒット-.cs-litwareinc</span><span class="sxs-lookup"><span data-stu-id="402b9-157">Registration hit against sip/atl-cs-001.litwareinc.com</span></span>
+<span data-ttu-id="acdeb-157">Sip/atl-ws-01 に対する登録ヒット。 litwareinc</span><span class="sxs-lookup"><span data-stu-id="acdeb-157">Registration hit against sip/atl-cs-001.litwareinc.com</span></span>
 
-<span data-ttu-id="402b9-158">"Register" アクティビティは "0.0601795" 秒で完了しました。</span><span class="sxs-lookup"><span data-stu-id="402b9-158">'Register' activity completed in '0.0601795' secs.</span></span>
+<span data-ttu-id="acdeb-158">' Register ' アクティビティは、' 0.0601795 ' 秒で完了しました。</span><span class="sxs-lookup"><span data-stu-id="acdeb-158">'Register' activity completed in '0.0601795' secs.</span></span>
 
-<span data-ttu-id="402b9-159">例外 ' ログオンは拒否されました。</span><span class="sxs-lookup"><span data-stu-id="402b9-159">An exception 'The log on was denied.</span></span> <span data-ttu-id="402b9-160">正しい資格情報が使用されていて、アカウントがアクティブであることを確認します。</span><span class="sxs-lookup"><span data-stu-id="402b9-160">Check that the correct credentials are being used and the account is active.'</span></span> <span data-ttu-id="402b9-161">ワークフロー中に発生しました。</span><span class="sxs-lookup"><span data-stu-id="402b9-161">occurred during the Workflow.</span></span>
+<span data-ttu-id="acdeb-159">例外 ' ログオンが拒否されました。</span><span class="sxs-lookup"><span data-stu-id="acdeb-159">An exception 'The log on was denied.</span></span> <span data-ttu-id="acdeb-160">正しい資格情報が使用されており、アカウントがアクティブであることを確認してください。</span><span class="sxs-lookup"><span data-stu-id="acdeb-160">Check that the correct credentials are being used and the account is active.'</span></span> <span data-ttu-id="acdeb-161">ワークフローの実行中に発生した。</span><span class="sxs-lookup"><span data-stu-id="acdeb-161">occurred during the Workflow.</span></span>
 
 </div>
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="402b9-162">テストに失敗した可能性がある理由</span><span class="sxs-lookup"><span data-stu-id="402b9-162">Reasons why the test might have failed</span></span>
+## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="acdeb-162">テストが失敗した理由</span><span class="sxs-lookup"><span data-stu-id="acdeb-162">Reasons why the test might have failed</span></span>
 
-<span data-ttu-id="402b9-163">次に、テスト用の場所のポリシーが失敗する可能性がある一般的な理由をいくつか示します。</span><span class="sxs-lookup"><span data-stu-id="402b9-163">Here are some common reasons why Test-CsLocationPolicy might fail:</span></span>
+<span data-ttu-id="acdeb-163">次に、Test-CsLocationPolicy が失敗する主な理由を示します。</span><span class="sxs-lookup"><span data-stu-id="acdeb-163">Here are some common reasons why Test-CsLocationPolicy might fail:</span></span>
 
-  - <span data-ttu-id="402b9-164">無効なユーザーアカウントが指定されました。</span><span class="sxs-lookup"><span data-stu-id="402b9-164">You specified a user account that is not valid.</span></span> <span data-ttu-id="402b9-165">次のようなコマンドを実行すると、ユーザーアカウントが存在するかどうかを確認できます。</span><span class="sxs-lookup"><span data-stu-id="402b9-165">You can verify that a user account exists by running a command similar to this:</span></span>
+  - <span data-ttu-id="acdeb-164">無効なユーザーアカウントが指定されました。</span><span class="sxs-lookup"><span data-stu-id="acdeb-164">You specified a user account that is not valid.</span></span> <span data-ttu-id="acdeb-165">ユーザーアカウントが存在することを確認するには、次のようなコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="acdeb-165">You can verify that a user account exists by running a command similar to this:</span></span>
     
         Get-CsUser "sip:kenmyer@litwareinc.com"
 
-  - <span data-ttu-id="402b9-166">ユーザーアカウントは有効ですが、アカウントは現在 Lync Server に対して有効になっていません。</span><span class="sxs-lookup"><span data-stu-id="402b9-166">The user account is valid, but the account is currently not enabled for Lync Server.</span></span> <span data-ttu-id="402b9-167">Lync Server でユーザーアカウントが有効になっていることを確認するには、次のようなコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="402b9-167">To verify that a user account is enabled for Lync Server, run a command similar to the following:</span></span>
+  - <span data-ttu-id="acdeb-166">ユーザーアカウントは有効ですが、アカウントは現在 Lync Server に対して有効になっていません。</span><span class="sxs-lookup"><span data-stu-id="acdeb-166">The user account is valid, but the account is currently not enabled for Lync Server.</span></span> <span data-ttu-id="acdeb-167">ユーザーアカウントが Lync Server に対して有効になっていることを確認するには、次のようなコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="acdeb-167">To verify that a user account is enabled for Lync Server, run a command similar to the following:</span></span>
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled
     
-    <span data-ttu-id="402b9-168">Enabled プロパティが False に設定されている場合は、ユーザーが現在 Lync Server を有効にしていないことを意味します。</span><span class="sxs-lookup"><span data-stu-id="402b9-168">If the Enabled property is set to False, that means that the user is currently not enabled for Lync Server.</span></span>
+    <span data-ttu-id="acdeb-168">Enabled プロパティが False に設定されている場合は、ユーザーが現在 Lync Server に対して有効になっていないことを意味します。</span><span class="sxs-lookup"><span data-stu-id="acdeb-168">If the Enabled property is set to False, that means that the user is currently not enabled for Lync Server.</span></span>
 
 </div>
 
