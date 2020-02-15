@@ -12,20 +12,20 @@ ms:contentKeyID: 48183993
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3976b98fddc96ad08f3de4413bf8f38ec3525496
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ee16c492a42cb98ff3b5f326bd6f43a57c4d3f56
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764153"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034277"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tblprincipalaffiliations-in-lync-server-2013"></a><span data-ttu-id="76d2b-102">Lync Server 2013 の tblPrincipalAffiliations</span><span class="sxs-lookup"><span data-stu-id="76d2b-102">tblPrincipalAffiliations in Lync Server 2013</span></span>
+# <a name="tblprincipalaffiliations-in-lync-server-2013"></a><span data-ttu-id="37648-102">Lync Server 2013 の tblPrincipalAffiliations</span><span class="sxs-lookup"><span data-stu-id="37648-102">tblPrincipalAffiliations in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764153"
 
 <span> </span>
 
-<span data-ttu-id="76d2b-103">_**最終更新日:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="76d2b-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+<span data-ttu-id="37648-103">_**トピックの最終更新日:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="37648-103">_**Topic Last Modified:** 2012-09-12_</span></span>
 
-<span data-ttu-id="76d2b-104">tblPrincipalAffiliations には、active Directory ドメインサービスセキュリティグループなどの場所のメンバーシップを、ドメインの Active Directory コンテナーで説明するプリンシパルの所属が含まれています。</span><span class="sxs-lookup"><span data-stu-id="76d2b-104">tblPrincipalAffiliations contains the principal affiliations that describe memberships in locations, including Active Directory Domain Services security groups, in Active Directory containers, in domains.</span></span>
+<span data-ttu-id="37648-104">tblPrincipalAffiliations には、active directory ドメインサービスセキュリティグループ、Active Directory コンテナー、ドメインなどの場所でのメンバーシップを記述するプリンシパルの所属が含まれています。</span><span class="sxs-lookup"><span data-stu-id="37648-104">tblPrincipalAffiliations contains the principal affiliations that describe memberships in locations, including Active Directory Domain Services security groups, in Active Directory containers, in domains.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="76d2b-105">行</span><span class="sxs-lookup"><span data-stu-id="76d2b-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="37648-105">Columns</span><span class="sxs-lookup"><span data-stu-id="37648-105">Columns</span></span>
 
 <table>
 <colgroup>
@@ -49,37 +49,37 @@ ms.locfileid: "41764153"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="76d2b-106">列</span><span class="sxs-lookup"><span data-stu-id="76d2b-106">Column</span></span></th>
-<th><span data-ttu-id="76d2b-107">型</span><span class="sxs-lookup"><span data-stu-id="76d2b-107">Type</span></span></th>
-<th><span data-ttu-id="76d2b-108">説明</span><span class="sxs-lookup"><span data-stu-id="76d2b-108">Description</span></span></th>
+<th><span data-ttu-id="37648-106">列</span><span class="sxs-lookup"><span data-stu-id="37648-106">Column</span></span></th>
+<th><span data-ttu-id="37648-107">種類</span><span class="sxs-lookup"><span data-stu-id="37648-107">Type</span></span></th>
+<th><span data-ttu-id="37648-108">説明</span><span class="sxs-lookup"><span data-stu-id="37648-108">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="76d2b-109">principalID</span><span class="sxs-lookup"><span data-stu-id="76d2b-109">principalID</span></span></p></td>
-<td><p><span data-ttu-id="76d2b-110">int (null ではない)</span><span class="sxs-lookup"><span data-stu-id="76d2b-110">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="76d2b-111">関連主体の ID です。</span><span class="sxs-lookup"><span data-stu-id="76d2b-111">ID of the affiliated principal.</span></span></p></td>
+<td><p><span data-ttu-id="37648-109">principalID</span><span class="sxs-lookup"><span data-stu-id="37648-109">principalID</span></span></p></td>
+<td><p><span data-ttu-id="37648-110">NULL でない int</span><span class="sxs-lookup"><span data-stu-id="37648-110">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="37648-111">所属プリンシパルの ID。</span><span class="sxs-lookup"><span data-stu-id="37648-111">ID of the affiliated principal.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="76d2b-112">affiliationID</span><span class="sxs-lookup"><span data-stu-id="76d2b-112">affiliationID</span></span></p></td>
-<td><p><span data-ttu-id="76d2b-113">int (null ではない)</span><span class="sxs-lookup"><span data-stu-id="76d2b-113">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="76d2b-114">所属を表すプリンシパルの ID です。</span><span class="sxs-lookup"><span data-stu-id="76d2b-114">ID of the principal representing the affiliation.</span></span> <span data-ttu-id="76d2b-115">各プリンシパル (システムユーザーの種類を除く) には、自己所属も含まれています。</span><span class="sxs-lookup"><span data-stu-id="76d2b-115">Each principal (except system-user-types) has a self-affiliation as well.</span></span></p></td>
+<td><p><span data-ttu-id="37648-112">affiliationID</span><span class="sxs-lookup"><span data-stu-id="37648-112">affiliationID</span></span></p></td>
+<td><p><span data-ttu-id="37648-113">NULL でない int</span><span class="sxs-lookup"><span data-stu-id="37648-113">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="37648-p101">所属を表すプリンシパルの ID。各プリンシパル (system-user-types 除く) には自己所属も含まれます。</span><span class="sxs-lookup"><span data-stu-id="37648-p101">ID of the principal representing the affiliation. Each principal (except system-user-types) has a self-affiliation as well.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="76d2b-116">位置</span><span class="sxs-lookup"><span data-stu-id="76d2b-116">index</span></span></p></td>
-<td><p><span data-ttu-id="76d2b-117">int (null ではない)</span><span class="sxs-lookup"><span data-stu-id="76d2b-117">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="76d2b-118">位置.</span><span class="sxs-lookup"><span data-stu-id="76d2b-118">Index.</span></span> <span data-ttu-id="76d2b-119">自己所属の値は-1 であり、その他の所属については、principalID の各&lt;&gt;バケット内の1から順に1が増加します。</span><span class="sxs-lookup"><span data-stu-id="76d2b-119">The value for self-affiliations is -1, and for the other affiliations it increases sequentially from 1 within each &lt;principalID, affiliationId&gt; bucket.</span></span></p></td>
+<td><p><span data-ttu-id="37648-116">index</span><span class="sxs-lookup"><span data-stu-id="37648-116">index</span></span></p></td>
+<td><p><span data-ttu-id="37648-117">NULL でない int</span><span class="sxs-lookup"><span data-stu-id="37648-117">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="37648-118">順.</span><span class="sxs-lookup"><span data-stu-id="37648-118">Index.</span></span> <span data-ttu-id="37648-119">自己所属の値は-1 で、その他の所属については、各&lt;PrincipalID、affiliationId&gt;バケット内で1から順に増加します。</span><span class="sxs-lookup"><span data-stu-id="37648-119">The value for self-affiliations is -1, and for the other affiliations it increases sequentially from 1 within each &lt;principalID, affiliationId&gt; bucket.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="76d2b-120">updatedBy</span><span class="sxs-lookup"><span data-stu-id="76d2b-120">updatedBy</span></span></p></td>
-<td><p><span data-ttu-id="76d2b-121">int (null ではない)</span><span class="sxs-lookup"><span data-stu-id="76d2b-121">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="76d2b-122">最新の更新プログラムを実行したプリンシパル。</span><span class="sxs-lookup"><span data-stu-id="76d2b-122">Principal that did the latest update.</span></span> <span data-ttu-id="76d2b-123">これは通常1で、Active Directory の同期を意味します。</span><span class="sxs-lookup"><span data-stu-id="76d2b-123">This is usually 1, which means Active Directory Sync.</span></span></p></td>
+<td><p><span data-ttu-id="37648-120">updatedBy</span><span class="sxs-lookup"><span data-stu-id="37648-120">updatedBy</span></span></p></td>
+<td><p><span data-ttu-id="37648-121">NULL でない int</span><span class="sxs-lookup"><span data-stu-id="37648-121">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="37648-p103">最新の更新を実行したプリンシパル。通常は、Active Directory の同期を意味する 1 です。</span><span class="sxs-lookup"><span data-stu-id="37648-p103">Principal that did the latest update. This is usually 1, which means Active Directory Sync.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a><span data-ttu-id="76d2b-124">機能</span><span class="sxs-lookup"><span data-stu-id="76d2b-124">Keys</span></span>
+### <a name="keys"></a><span data-ttu-id="37648-124">Keys</span><span class="sxs-lookup"><span data-stu-id="37648-124">Keys</span></span>
 
 <table>
 <colgroup>
@@ -88,22 +88,22 @@ ms.locfileid: "41764153"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="76d2b-125">行</span><span class="sxs-lookup"><span data-stu-id="76d2b-125">Columns</span></span></th>
-<th><span data-ttu-id="76d2b-126">説明</span><span class="sxs-lookup"><span data-stu-id="76d2b-126">Description</span></span></th>
+<th><span data-ttu-id="37648-125">Columns</span><span class="sxs-lookup"><span data-stu-id="37648-125">Columns</span></span></th>
+<th><span data-ttu-id="37648-126">説明</span><span class="sxs-lookup"><span data-stu-id="37648-126">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="76d2b-127">&lt;principalID、index、affiliationID&gt;</span><span class="sxs-lookup"><span data-stu-id="76d2b-127">&lt;principalID, index, affiliationID&gt;</span></span></p></td>
-<td><p><span data-ttu-id="76d2b-128">主キー。</span><span class="sxs-lookup"><span data-stu-id="76d2b-128">Primary key.</span></span></p></td>
+<td><p><span data-ttu-id="37648-127">&lt;principalID、index、affiliationID&gt;</span><span class="sxs-lookup"><span data-stu-id="37648-127">&lt;principalID, index, affiliationID&gt;</span></span></p></td>
+<td><p><span data-ttu-id="37648-128">主キー。</span><span class="sxs-lookup"><span data-stu-id="37648-128">Primary key.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="76d2b-129">principalID</span><span class="sxs-lookup"><span data-stu-id="76d2b-129">principalID</span></span></p></td>
-<td><p><span data-ttu-id="76d2b-130">TblPrincipal Id テーブルで参照される外部キー。</span><span class="sxs-lookup"><span data-stu-id="76d2b-130">Foreign key with lookup in tblPrincipal.prinID table.</span></span></p></td>
+<td><p><span data-ttu-id="37648-129">principalID</span><span class="sxs-lookup"><span data-stu-id="37648-129">principalID</span></span></p></td>
+<td><p><span data-ttu-id="37648-130">tblPrincipal.prinID テーブル内の参照による外部キー。</span><span class="sxs-lookup"><span data-stu-id="37648-130">Foreign key with lookup in tblPrincipal.prinID table.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="76d2b-131">affiliationID</span><span class="sxs-lookup"><span data-stu-id="76d2b-131">affiliationID</span></span></p></td>
-<td><p><span data-ttu-id="76d2b-132">TblPrincipal Id テーブルで参照される外部キー。</span><span class="sxs-lookup"><span data-stu-id="76d2b-132">Foreign key with lookup in tblPrincipal.prinID table.</span></span></p></td>
+<td><p><span data-ttu-id="37648-131">affiliationID</span><span class="sxs-lookup"><span data-stu-id="37648-131">affiliationID</span></span></p></td>
+<td><p><span data-ttu-id="37648-132">tblPrincipal.prinID テーブル内の参照による外部キー。</span><span class="sxs-lookup"><span data-stu-id="37648-132">Foreign key with lookup in tblPrincipal.prinID table.</span></span></p></td>
 </tr>
 </tbody>
 </table>

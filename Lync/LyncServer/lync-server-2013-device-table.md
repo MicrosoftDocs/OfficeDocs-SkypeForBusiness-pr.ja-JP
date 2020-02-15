@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Device テーブル'
+title: 'Lync Server 2013: デバイステーブル'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185544
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7fd06db1bd429526826962d5c3ad098642a3a42d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3d9281c3059d8fa234b8f62b6223eb601f38b119
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762415"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031281"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="device-table-in-lync-server-2013"></a><span data-ttu-id="2dfad-102">Lync Server 2013 の Device テーブル</span><span class="sxs-lookup"><span data-stu-id="2dfad-102">Device table in Lync Server 2013</span></span>
+# <a name="device-table-in-lync-server-2013"></a><span data-ttu-id="90701-102">Lync Server 2013 のデバイステーブル</span><span class="sxs-lookup"><span data-stu-id="90701-102">Device table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762415"
 
 <span> </span>
 
-<span data-ttu-id="2dfad-103">_**最終更新日:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="2dfad-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="90701-103">_**トピックの最終更新日:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="90701-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="2dfad-104">Device テーブルは、さまざまなキャプチャデバイスやレンダリングデバイスに関する情報を格納するサポートテーブルです。</span><span class="sxs-lookup"><span data-stu-id="2dfad-104">The Device table is a supporting table that stores information about the various capture or render devices.</span></span> <span data-ttu-id="2dfad-105">テーブル内の各レコードは、1つのデバイスを表します。</span><span class="sxs-lookup"><span data-stu-id="2dfad-105">Each record in the table represents one device.</span></span>
+<span data-ttu-id="90701-104">デバイステーブルは、さまざまなキャプチャまたはレンダーデバイスに関する情報を格納するサポートテーブルです。</span><span class="sxs-lookup"><span data-stu-id="90701-104">The Device table is a supporting table that stores information about the various capture or render devices.</span></span> <span data-ttu-id="90701-105">テーブル内の各レコードは、1つのデバイスを表します。</span><span class="sxs-lookup"><span data-stu-id="90701-105">Each record in the table represents one device.</span></span>
 
 
 <table>
@@ -49,30 +49,30 @@ ms.locfileid: "41762415"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="2dfad-106"><strong>列</strong></span><span class="sxs-lookup"><span data-stu-id="2dfad-106"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="2dfad-107"><strong>データ型</strong></span><span class="sxs-lookup"><span data-stu-id="2dfad-107"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="2dfad-108"><strong>キー/インデックス</strong></span><span class="sxs-lookup"><span data-stu-id="2dfad-108"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="2dfad-109"><strong>詳細</strong></span><span class="sxs-lookup"><span data-stu-id="2dfad-109"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="90701-106"><strong>列</strong></span><span class="sxs-lookup"><span data-stu-id="90701-106"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="90701-107"><strong>データ型</strong></span><span class="sxs-lookup"><span data-stu-id="90701-107"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="90701-108"><strong>キー/インデックス</strong></span><span class="sxs-lookup"><span data-stu-id="90701-108"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="90701-109"><strong>詳細</strong></span><span class="sxs-lookup"><span data-stu-id="90701-109"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="2dfad-110"><strong>DeviceKey</strong></span><span class="sxs-lookup"><span data-stu-id="2dfad-110"><strong>DeviceKey</strong></span></span></p></td>
-<td><p><span data-ttu-id="2dfad-111">int</span><span class="sxs-lookup"><span data-stu-id="2dfad-111">int</span></span></p></td>
-<td><p><span data-ttu-id="2dfad-112">Primary</span><span class="sxs-lookup"><span data-stu-id="2dfad-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="2dfad-113">このデバイスを識別する一意の番号。</span><span class="sxs-lookup"><span data-stu-id="2dfad-113">Unique number identifying this device.</span></span></p></td>
+<td><p><span data-ttu-id="90701-110"><strong>DeviceKey</strong></span><span class="sxs-lookup"><span data-stu-id="90701-110"><strong>DeviceKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="90701-111">int</span><span class="sxs-lookup"><span data-stu-id="90701-111">int</span></span></p></td>
+<td><p><span data-ttu-id="90701-112">Primary</span><span class="sxs-lookup"><span data-stu-id="90701-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="90701-113">このデバイスを識別する一意の番号です。</span><span class="sxs-lookup"><span data-stu-id="90701-113">Unique number identifying this device.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2dfad-114"><strong>DeviceName</strong></span><span class="sxs-lookup"><span data-stu-id="2dfad-114"><strong>DeviceName</strong></span></span></p></td>
-<td><p><span data-ttu-id="2dfad-115">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="2dfad-115">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="2dfad-116">DeviceName + DeviceType の固有のキー</span><span class="sxs-lookup"><span data-stu-id="2dfad-116">DeviceName + DeviceType is unique</span></span></p></td>
-<td><p><span data-ttu-id="2dfad-117">デバイス名。</span><span class="sxs-lookup"><span data-stu-id="2dfad-117">Device name.</span></span></p></td>
+<td><p><span data-ttu-id="90701-114"><strong>DeviceName</strong></span><span class="sxs-lookup"><span data-stu-id="90701-114"><strong>DeviceName</strong></span></span></p></td>
+<td><p><span data-ttu-id="90701-115">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="90701-115">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="90701-116">DeviceName + DeviceType は一意</span><span class="sxs-lookup"><span data-stu-id="90701-116">DeviceName + DeviceType is unique</span></span></p></td>
+<td><p><span data-ttu-id="90701-117">デバイス名。</span><span class="sxs-lookup"><span data-stu-id="90701-117">Device name.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2dfad-118"><strong>DeviceType</strong></span><span class="sxs-lookup"><span data-stu-id="2dfad-118"><strong>DeviceType</strong></span></span></p></td>
-<td><p><span data-ttu-id="2dfad-119">bit</span><span class="sxs-lookup"><span data-stu-id="2dfad-119">bit</span></span></p></td>
-<td><p><span data-ttu-id="2dfad-120">DeviceName + DeviceType の固有のキー</span><span class="sxs-lookup"><span data-stu-id="2dfad-120">DeviceName + DeviceType is unique</span></span></p></td>
-<td><p><span data-ttu-id="2dfad-121">デバイスの種類。</span><span class="sxs-lookup"><span data-stu-id="2dfad-121">Device type.</span></span> <span data-ttu-id="2dfad-122">1はキャプチャデバイス、0はレンダーデバイスです。</span><span class="sxs-lookup"><span data-stu-id="2dfad-122">1 is a capture device, 0 is a render device.</span></span></p></td>
+<td><p><span data-ttu-id="90701-118"><strong>DeviceType</strong></span><span class="sxs-lookup"><span data-stu-id="90701-118"><strong>DeviceType</strong></span></span></p></td>
+<td><p><span data-ttu-id="90701-119">若干</span><span class="sxs-lookup"><span data-stu-id="90701-119">bit</span></span></p></td>
+<td><p><span data-ttu-id="90701-120">DeviceName + DeviceType は一意</span><span class="sxs-lookup"><span data-stu-id="90701-120">DeviceName + DeviceType is unique</span></span></p></td>
+<td><p><span data-ttu-id="90701-121">デバイスの種類。</span><span class="sxs-lookup"><span data-stu-id="90701-121">Device type.</span></span> <span data-ttu-id="90701-122">1はキャプチャデバイス、0はレンダーデバイスです。</span><span class="sxs-lookup"><span data-stu-id="90701-122">1 is a capture device, 0 is a render device.</span></span></p></td>
 </tr>
 </tbody>
 </table>

@@ -12,20 +12,20 @@ ms:contentKeyID: 48184286
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4798c763732f529de029db217eccd241902459ce
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 52edce26ca2bfd82113f576344bf89912f69ed1b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762455"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007846"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="determining-your-system-requirements-for-lync-server-2013"></a><span data-ttu-id="3c8de-102">Lync Server 2013 システム要件の決定</span><span class="sxs-lookup"><span data-stu-id="3c8de-102">Determining your system requirements for Lync Server 2013</span></span>
+# <a name="determining-your-system-requirements-for-lync-server-2013"></a><span data-ttu-id="92c00-102">Lync Server 2013 のシステム要件を決定する</span><span class="sxs-lookup"><span data-stu-id="92c00-102">Determining your system requirements for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41762455"
 
 <span> </span>
 
-<span data-ttu-id="3c8de-103">_**最終更新日:** 2014-01-02_</span><span class="sxs-lookup"><span data-stu-id="3c8de-103">_**Topic Last Modified:** 2014-01-02_</span></span>
+<span data-ttu-id="92c00-103">_**トピックの最終更新日:** 2014-01-02_</span><span class="sxs-lookup"><span data-stu-id="92c00-103">_**Topic Last Modified:** 2014-01-02_</span></span>
 
-<span data-ttu-id="3c8de-104">Lync Server を実行しているすべてのサーバーは、特定の最小システム要件を満たしている必要があります。</span><span class="sxs-lookup"><span data-stu-id="3c8de-104">All servers running Lync Server must meet certain minimum system requirements.</span></span> <span data-ttu-id="3c8de-105">Lync Server のシステム要件には、サーバーハードウェア、各サーバーにインストールされるオペレーティングシステム、および関連するソフトウェア要件 (Windows の更新プログラムや、サーバーにインストールする必要があるその他のソフトウェアなど) が含まれます。</span><span class="sxs-lookup"><span data-stu-id="3c8de-105">System requirements for Lync Server include the server hardware, the operating system to be installed on each server, and related software requirements, such as the Windows updates and other software that must be installed on the servers.</span></span>
+<span data-ttu-id="92c00-104">Lync Server を実行しているすべてのサーバーは、特定の最小システム要件を満たしている必要があります。</span><span class="sxs-lookup"><span data-stu-id="92c00-104">All servers running Lync Server must meet certain minimum system requirements.</span></span> <span data-ttu-id="92c00-105">Lync Server のシステム要件には、サーバーハードウェア、各サーバーにインストールするオペレーティングシステム、およびサーバーにインストールする必要がある Windows 更新プログラムやその他のソフトウェアなど、関連するソフトウェア要件があります。</span><span class="sxs-lookup"><span data-stu-id="92c00-105">System requirements for Lync Server include the server hardware, the operating system to be installed on each server, and related software requirements, such as the Windows updates and other software that must be installed on the servers.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="3c8de-106">Lync Server は64ビット版でのみ利用できます。これには、64ビットのハードウェアと64ビット版の Windows Server が必要です。</span><span class="sxs-lookup"><span data-stu-id="3c8de-106">Lync Server is available only in a 64-bit edition, which requires 64-bit hardware and a 64-bit edition of Windows Server.</span></span> <span data-ttu-id="3c8de-107">この例外は、32ビット版で利用できる Microsoft Lync Server 2013、計画ツールです。</span><span class="sxs-lookup"><span data-stu-id="3c8de-107">The exception is the Microsoft Lync Server 2013, Planning Tool, which is available in a 32-bit edition.</span></span>
+> <span data-ttu-id="92c00-106">Lync Server は64ビット版でのみ使用できます。これには、64ビットのハードウェアと64ビット版の Windows Server が必要です。</span><span class="sxs-lookup"><span data-stu-id="92c00-106">Lync Server is available only in a 64-bit edition, which requires 64-bit hardware and a 64-bit edition of Windows Server.</span></span> <span data-ttu-id="92c00-107">例外は Microsoft Lync Server 2013 の計画ツールであり、32ビット版で利用できます。</span><span class="sxs-lookup"><span data-stu-id="92c00-107">The exception is the Microsoft Lync Server 2013, Planning Tool, which is available in a 32-bit edition.</span></span>
 
 
 
@@ -53,7 +53,7 @@ ms.locfileid: "41762455"
 
 
 > [!NOTE]  
-> <span data-ttu-id="3c8de-108">Active Directory のサポート、サポートされているトポロジ、サーバーの配置、その他のサポートの問題について詳しくは、「 <A href="lync-server-2013-supportability.md">Lync server 2013 のサポート性</A>」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="3c8de-108">For details about Active Directory support, supported topologies, server collocation, and other supportability issues, see <A href="lync-server-2013-supportability.md">Supportability for Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="92c00-108">Active Directory のサポート、サポートされているトポロジ、サーバーの併置、およびその他のサポートの問題の詳細については、「 <A href="lync-server-2013-supportability.md">Lync server 2013 のサポートの</A>概要」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="92c00-108">For details about Active Directory support, supported topologies, server collocation, and other supportability issues, see <A href="lync-server-2013-supportability.md">Supportability for Lync Server 2013</A>.</span></span>
 
 
 
@@ -61,25 +61,25 @@ ms.locfileid: "41762455"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="3c8de-109">このセクション中</span><span class="sxs-lookup"><span data-stu-id="3c8de-109">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="92c00-109">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="92c00-109">In This Section</span></span>
 
-  - [<span data-ttu-id="3c8de-110">Lync Server 2013 のサーバー ハードウェア プラットフォーム</span><span class="sxs-lookup"><span data-stu-id="3c8de-110">Server hardware platforms for Lync Server 2013</span></span>](lync-server-2013-server-hardware-platforms.md)
+  - [<span data-ttu-id="92c00-110">Lync Server 2013 のサーバーハードウェアプラットフォーム</span><span class="sxs-lookup"><span data-stu-id="92c00-110">Server hardware platforms for Lync Server 2013</span></span>](lync-server-2013-server-hardware-platforms.md)
 
-  - [<span data-ttu-id="3c8de-111">Lync Server 2013 でのサーバーおよびツールのオペレーティング システムのサポート</span><span class="sxs-lookup"><span data-stu-id="3c8de-111">Server and tools operating system support in Lync Server 2013</span></span>](lync-server-2013-server-and-tools-operating-system-support.md)
+  - [<span data-ttu-id="92c00-111">Lync Server 2013 でのサーバーおよびツールのオペレーティングシステムのサポート</span><span class="sxs-lookup"><span data-stu-id="92c00-111">Server and tools operating system support in Lync Server 2013</span></span>](lync-server-2013-server-and-tools-operating-system-support.md)
 
-  - [<span data-ttu-id="3c8de-112">Lync Server 2013 でのデータベース ソフトウェアのサポート</span><span class="sxs-lookup"><span data-stu-id="3c8de-112">Database software support in Lync Server 2013</span></span>](lync-server-2013-database-software-support.md)
+  - [<span data-ttu-id="92c00-112">Lync Server 2013 でのデータベースソフトウェアのサポート</span><span class="sxs-lookup"><span data-stu-id="92c00-112">Database software support in Lync Server 2013</span></span>](lync-server-2013-database-software-support.md)
 
-  - [<span data-ttu-id="3c8de-113">Lync Server 2013 の追加ソフトウェア要件</span><span class="sxs-lookup"><span data-stu-id="3c8de-113">Additional software requirements for Lync Server 2013</span></span>](lync-server-2013-additional-software-requirements.md)
+  - [<span data-ttu-id="92c00-113">Lync Server 2013 の追加ソフトウェア要件</span><span class="sxs-lookup"><span data-stu-id="92c00-113">Additional software requirements for Lync Server 2013</span></span>](lync-server-2013-additional-software-requirements.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="3c8de-114">関連項目</span><span class="sxs-lookup"><span data-stu-id="3c8de-114">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="92c00-114">関連項目</span><span class="sxs-lookup"><span data-stu-id="92c00-114">See Also</span></span>
 
 
-[<span data-ttu-id="3c8de-115">Lync Server 2013 のクライアントとデバイスのハードウェア サポート</span><span class="sxs-lookup"><span data-stu-id="3c8de-115">Client and device hardware support in Lync Server 2013</span></span>](lync-server-2013-client-and-device-hardware-support.md)  
-[<span data-ttu-id="3c8de-116">Lync Server 2013 のサポート状況</span><span class="sxs-lookup"><span data-stu-id="3c8de-116">Supportability for Lync Server 2013</span></span>](lync-server-2013-supportability.md)  
+[<span data-ttu-id="92c00-115">Lync Server 2013 でのクライアントとデバイスのハードウェアのサポート</span><span class="sxs-lookup"><span data-stu-id="92c00-115">Client and device hardware support in Lync Server 2013</span></span>](lync-server-2013-client-and-device-hardware-support.md)  
+[<span data-ttu-id="92c00-116">Lync Server 2013 のサポート</span><span class="sxs-lookup"><span data-stu-id="92c00-116">Supportability for Lync Server 2013</span></span>](lync-server-2013-supportability.md)  
   
 
 </div>

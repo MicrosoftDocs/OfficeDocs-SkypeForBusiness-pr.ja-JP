@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: QoE データベース クエリのサンプル'
+title: 'Lync Server 2013: QoE データベースクエリのサンプル'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183280
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4e0a077a4da1bcbda9e8f14f9e2c4fcd838434b6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d454f04d521324f51712a632a339617b259cde5e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765025"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41987142"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="sample-qoe-database-queries-in-lync-server-2013"></a><span data-ttu-id="7aafe-102">Lync Server 2013 の QoE データベース クエリのサンプル</span><span class="sxs-lookup"><span data-stu-id="7aafe-102">Sample QoE database queries in Lync Server 2013</span></span>
+# <a name="sample-qoe-database-queries-in-lync-server-2013"></a><span data-ttu-id="aba23-102">Lync Server 2013 の QoE データベースクエリのサンプル</span><span class="sxs-lookup"><span data-stu-id="aba23-102">Sample QoE database queries in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41765025"
 
 <span> </span>
 
-<span data-ttu-id="7aafe-103">_**最終更新日:** 2012-10-17_</span><span class="sxs-lookup"><span data-stu-id="7aafe-103">_**Topic Last Modified:** 2012-10-17_</span></span>
+<span data-ttu-id="aba23-103">_**トピックの最終更新日:** 2012-10-17_</span><span class="sxs-lookup"><span data-stu-id="aba23-103">_**Topic Last Modified:** 2012-10-17_</span></span>
 
-<span data-ttu-id="7aafe-104">このセクションには、Quality of Experience (QoE) データベースのサンプルクエリが含まれています。</span><span class="sxs-lookup"><span data-stu-id="7aafe-104">This section contains sample queries for the Quality of Experience (QoE) database.</span></span>
+<span data-ttu-id="aba23-104">ここでは、QoE (Quality of Experience) データベースのサンプル クエリを示します。</span><span class="sxs-lookup"><span data-stu-id="aba23-104">This section contains sample queries for the Quality of Experience (QoE) database.</span></span>
 
-<span data-ttu-id="7aafe-105">すべてのオーディオストリームについて、ジッタとパケット損失の平均を取得するには、次の例を使用します。</span><span class="sxs-lookup"><span data-stu-id="7aafe-105">Use the following example to get the jitter and packet loss average for all audio streams.</span></span>
+<span data-ttu-id="aba23-105">次の例を使用すると、すべての音声ストリームのジッターとパケット損失の平均値を取得できます。</span><span class="sxs-lookup"><span data-stu-id="aba23-105">Use the following example to get the jitter and packet loss average for all audio streams.</span></span>
 
     select avg(cast(JitterInterArrival as bigint)) as JitterAvg, avg(PacketLossRate) as PacketLossRateAvg from AudioStream
 
-<span data-ttu-id="7aafe-106">次の例を使用して、会議コンソールを使用した会議の合計数を確認します。</span><span class="sxs-lookup"><span data-stu-id="7aafe-106">Use the following example to find the total numbers of conferences that used Meeting Console.</span></span>
+<span data-ttu-id="aba23-106">次の例を使用すると、Meeting コンソールを使用した会議の総数を取得できます。</span><span class="sxs-lookup"><span data-stu-id="aba23-106">Use the following example to find the total numbers of conferences that used Meeting Console.</span></span>
 
     select avg(ConversationalMOS)
     from SessionView s
@@ -54,7 +54,7 @@ ms.locfileid: "41765025"
        and s.CallerUserAgentType = 4 -- Lync
        and s.CalleeUserAgentType = 4 -- Lync
 
-<span data-ttu-id="7aafe-107">次の例を使用して、ConversstionalMOS、SendingMOS、ListendingMOS をキャプチャデバイスごとに取得します。</span><span class="sxs-lookup"><span data-stu-id="7aafe-107">Use the following example to get ConversstionalMOS, SendingMOS and ListendingMOS per capture device.</span></span>
+<span data-ttu-id="aba23-107">次の例を使用すると、キャプチャ デバイスごとに ConversstionalMOS、SendingMOS、および ListendingMOS を取得できます。</span><span class="sxs-lookup"><span data-stu-id="aba23-107">Use the following example to get ConversstionalMOS, SendingMOS and ListendingMOS per capture device.</span></span>
 
     select t.DeviceName as Device, count(*) as SampleNum, avg(ConversationalMOS) as ConversationalMOS, avg(SendListenMOS) SendingMOS, avg(RecvListenMOS) as ListendingMOS
     from

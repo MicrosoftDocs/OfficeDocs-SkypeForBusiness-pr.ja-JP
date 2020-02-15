@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ブランチサイト SIP トランク'
+title: 'Lync Server 2013: ブランチサイトの SIP トランキング'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185350
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9c31f0f42a10905f784536b08f10370be9694800
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 161964bc7a183672323ac277eae4f3a7ce0d2b82
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741817"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008079"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="branch-site-sip-trunking-in-lync-server-2013"></a><span data-ttu-id="c750a-102">Branch site SIP trunking in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c750a-102">Branch site SIP trunking in Lync Server 2013</span></span>
+# <a name="branch-site-sip-trunking-in-lync-server-2013"></a><span data-ttu-id="47040-102">Lync Server 2013 でのブランチサイト SIP トランキング</span><span class="sxs-lookup"><span data-stu-id="47040-102">Branch site SIP trunking in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41741817"
 
 <span> </span>
 
-<span data-ttu-id="c750a-103">_**最終更新日:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="c750a-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+<span data-ttu-id="47040-103">_**トピックの最終更新日:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="47040-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-<span data-ttu-id="c750a-104">場合によっては、選択したブランチサイトに配布 SIP トランキングを実装する必要があります。</span><span class="sxs-lookup"><span data-stu-id="c750a-104">In some cases, you may need to implement distributed SIP trunking at selected branch sites.</span></span> <span data-ttu-id="c750a-105">ブランチサイトに SIP トランクが必要かどうかを判断するには、「 [Lync Server 2013 で sip トランクを実装する方法](lync-server-2013-how-do-i-implement-sip-trunking.md)」の情報を確認します。</span><span class="sxs-lookup"><span data-stu-id="c750a-105">To determine whether a SIP trunk is needed for a branch site, review the information in [How do I implement SIP trunking in Lync Server 2013?](lync-server-2013-how-do-i-implement-sip-trunking.md).</span></span>
+<span data-ttu-id="47040-104">場合によっては、選択したブランチサイトでの分散 SIP トランキングの実装が必要になることがあります。</span><span class="sxs-lookup"><span data-stu-id="47040-104">In some cases, you may need to implement distributed SIP trunking at selected branch sites.</span></span> <span data-ttu-id="47040-105">ブランチサイトに SIP トランクが必要かどうかを判断するには、「 [Lync Server 2013 での sip トランキングの実装方法](lync-server-2013-how-do-i-implement-sip-trunking.md)」の情報を参照してください。</span><span class="sxs-lookup"><span data-stu-id="47040-105">To determine whether a SIP trunk is needed for a branch site, review the information in [How do I implement SIP trunking in Lync Server 2013?](lync-server-2013-how-do-i-implement-sip-trunking.md).</span></span>
 
-<span data-ttu-id="c750a-106">ブランチサイトでの SIP trunks の展開についてサポートされているトポロジーオプションの詳細については、「 [Lync Server 2013 でのブランチサイトの回復性ソリューション](lync-server-2013-branch-site-resiliency-solutions.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="c750a-106">For details about the supported topology options for deploying SIP trunks in branch sites, see [Branch-site resiliency solutions in Lync Server 2013](lync-server-2013-branch-site-resiliency-solutions.md).</span></span>
+<span data-ttu-id="47040-106">ブランチサイトでの SIP トランクの展開でサポートされるトポロジオプションの詳細については、「 [Lync Server 2013 の「ブランチサイトの復元ソリューション](lync-server-2013-branch-site-resiliency-solutions.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="47040-106">For details about the supported topology options for deploying SIP trunks in branch sites, see [Branch-site resiliency solutions in Lync Server 2013](lync-server-2013-branch-site-resiliency-solutions.md).</span></span>
 
 <div>
 
-## <a name="example-branch-site-sip-trunk-requirements-analysis"></a><span data-ttu-id="c750a-107">ブランチ サイト SIP トランク要件例の分析</span><span class="sxs-lookup"><span data-stu-id="c750a-107">Example Branch Site SIP Trunk Requirements Analysis</span></span>
+## <a name="example-branch-site-sip-trunk-requirements-analysis"></a><span data-ttu-id="47040-107">ブランチ サイト SIP トランク要件例の分析</span><span class="sxs-lookup"><span data-stu-id="47040-107">Example Branch Site SIP Trunk Requirements Analysis</span></span>
 
-<span data-ttu-id="c750a-108">ブランチサイト SIP トランクの展開を決定する際には、サイト固有のコスト分析を実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="c750a-108">When you decide to deploy a branch site SIP trunk, you need to perform a site-specific cost analysis.</span></span> <span data-ttu-id="c750a-109">たとえば、ニューヨークのレドモンド、ワシントン、支店にセントラルサイトがある企業では、ニューヨークサイトの SIP トランクをローカルサービスプロバイダに実装するかどうかを判断する分析を行う必要があります。</span><span class="sxs-lookup"><span data-stu-id="c750a-109">For example, an enterprise that has a central site in Redmond, Washington, and a branch site in New York, should do an analysis to determine whether to implement a SIP trunk from the New York site to a local service provider.</span></span>
+<span data-ttu-id="47040-108">ブランチサイトの SIP トランクを展開することを決定した場合は、サイト固有のコスト分析を実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="47040-108">When you decide to deploy a branch site SIP trunk, you need to perform a site-specific cost analysis.</span></span> <span data-ttu-id="47040-109">たとえば、Redmond、ワシントン、ニューヨークのブランチサイトに中央サイトがあるエンタープライズは、ニューヨークサイトからローカルサービスプロバイダへの SIP トランクを実装するかどうかを判断する分析を行う必要があります。</span><span class="sxs-lookup"><span data-stu-id="47040-109">For example, an enterprise that has a central site in Redmond, Washington, and a branch site in New York, should do an analysis to determine whether to implement a SIP trunk from the New York site to a local service provider.</span></span>
 
-<span data-ttu-id="c750a-110">ニューヨークでの分散型 SIP トランクの費用対効果が高いかどうかを判断するには、SIP トランクを使用する Direct Inward Dialing (DID) 番号を識別し、レドモンド (425) 以外の地域にニューヨークからかける電話の回数を分析します。</span><span class="sxs-lookup"><span data-stu-id="c750a-110">To determine whether a distributed SIP trunk in New York is cost-effective, identify which Direct Inward Dialing (DID) numbers will use the SIP trunk, and analyze the number of calls New York makes to areas other than Redmond (425).</span></span> <span data-ttu-id="c750a-111">セントラルサイトでブランチサイトの終了ができました。</span><span class="sxs-lookup"><span data-stu-id="c750a-111">You can have DID termination for the branch site at the central site.</span></span> <span data-ttu-id="c750a-112">たとえば、Redmond のセントラルサイトでは、ニューヨーク支社のサイトの番号をホストできます。</span><span class="sxs-lookup"><span data-stu-id="c750a-112">For example, the Redmond central site can host DID numbers for the New York branch site.</span></span> <span data-ttu-id="c750a-113">分散 SIP トランクの実装のコストがこれらの通話のコストよりも少ない場合は、ニューヨーク支店のサイトで SIP トランクを実装することを検討してください。</span><span class="sxs-lookup"><span data-stu-id="c750a-113">If the cost of implementing a distributed SIP trunk is less than the cost of those calls, consider implementing a SIP trunk at the New York branch site.</span></span>
+<span data-ttu-id="47040-110">ニューヨークでの分散型 SIP トランクの費用対効果が高いかどうかを判断するには、SIP トランクを使用する Direct Inward Dialing (DID) 番号を識別し、レドモンド (425) 以外の地域にニューヨークからかける電話の回数を分析します。</span><span class="sxs-lookup"><span data-stu-id="47040-110">To determine whether a distributed SIP trunk in New York is cost-effective, identify which Direct Inward Dialing (DID) numbers will use the SIP trunk, and analyze the number of calls New York makes to areas other than Redmond (425).</span></span> <span data-ttu-id="47040-111">中央サイトでブランチサイトの終了を完了しました。</span><span class="sxs-lookup"><span data-stu-id="47040-111">You can have DID termination for the branch site at the central site.</span></span> <span data-ttu-id="47040-112">たとえば、Redmond の中央サイトは、ニューヨークのブランチサイト用の電話番号をホストできます。</span><span class="sxs-lookup"><span data-stu-id="47040-112">For example, the Redmond central site can host DID numbers for the New York branch site.</span></span> <span data-ttu-id="47040-113">分散 SIP トランクを実装するコストがこれらの呼び出しのコストを下回っている場合は、ニューヨークブランチサイトで SIP トランクを実装することを検討してください。</span><span class="sxs-lookup"><span data-stu-id="47040-113">If the cost of implementing a distributed SIP trunk is less than the cost of those calls, consider implementing a SIP trunk at the New York branch site.</span></span>
 
 </div>
 
 <div>
 
-## <a name="other-branch-site-sip-trunk-requirements"></a><span data-ttu-id="c750a-114">その他のブランチ サイト SIP トランク要件</span><span class="sxs-lookup"><span data-stu-id="c750a-114">Other Branch Site SIP Trunk Requirements</span></span>
+## <a name="other-branch-site-sip-trunk-requirements"></a><span data-ttu-id="47040-114">その他のブランチ サイト SIP トランク要件</span><span class="sxs-lookup"><span data-stu-id="47040-114">Other Branch Site SIP Trunk Requirements</span></span>
 
-<span data-ttu-id="c750a-115">ゲートウェイの代わりに SIP トランクを展開するには、各オプションの PSTN (公衆交換電話網) の長距離電話料金の差に基づいて選択することができます。</span><span class="sxs-lookup"><span data-stu-id="c750a-115">The choice between a deploying a SIP trunk instead of a gateway is based on the difference between the public switched telephone network (PSTN) long distance toll charges of each option.</span></span> <span data-ttu-id="c750a-116">ブランチサイト SIP トランクを展開する場合は、回復性と帯域幅の要件を特定する必要もあります。</span><span class="sxs-lookup"><span data-stu-id="c750a-116">If you deploy a branch site SIP trunk, you also need to determine your resiliency and bandwidth requirements.</span></span> <span data-ttu-id="c750a-117">ブランチサイトとセントラルサイト間のリンクが回復可能であり、十分な帯域幅がある場合は、SIP トランクまたはゲートウェイを展開できます。</span><span class="sxs-lookup"><span data-stu-id="c750a-117">If the link between your branch site and central site is resilient and has sufficient bandwidth, you can deploy a SIP trunk or a gateway.</span></span> <span data-ttu-id="c750a-118">ブランチサイトに Survivable Branch Appliance を展開する必要はありません。</span><span class="sxs-lookup"><span data-stu-id="c750a-118">You do not need to deploy a Survivable Branch Appliance at the branch site.</span></span> <span data-ttu-id="c750a-119">ブランチサイトとセントラルサイト間のリンクが復元できない場合は、Survivable Branch Appliance を展開するか、ゲートウェイまたは SIP トランクのいずれかでブランチサイトに Survivable ブランチサーバーを展開してください。</span><span class="sxs-lookup"><span data-stu-id="c750a-119">If the link between your branch site and central site is not resilient, deploy a Survivable Branch Appliance, or deploy a Survivable Branch Server with either a gateway or SIP trunk at the branch site.</span></span>
+<span data-ttu-id="47040-115">ゲートウェイの代わりに SIP トランクを展開する方法の選択は、各オプションの公衆交換電話網 (PSTN) 長距離通話料金の違いに基づいています。</span><span class="sxs-lookup"><span data-stu-id="47040-115">The choice between a deploying a SIP trunk instead of a gateway is based on the difference between the public switched telephone network (PSTN) long distance toll charges of each option.</span></span> <span data-ttu-id="47040-116">ブランチサイトの SIP トランクを展開する場合は、復元および帯域幅の要件も決定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="47040-116">If you deploy a branch site SIP trunk, you also need to determine your resiliency and bandwidth requirements.</span></span> <span data-ttu-id="47040-117">ブランチサイトと中央サイトの間のリンクが復元性があり、十分な帯域幅がある場合は、SIP トランクまたはゲートウェイを展開できます。</span><span class="sxs-lookup"><span data-stu-id="47040-117">If the link between your branch site and central site is resilient and has sufficient bandwidth, you can deploy a SIP trunk or a gateway.</span></span> <span data-ttu-id="47040-118">ブランチサイトで存続可能ブランチアプライアンスを展開する必要はありません。</span><span class="sxs-lookup"><span data-stu-id="47040-118">You do not need to deploy a Survivable Branch Appliance at the branch site.</span></span> <span data-ttu-id="47040-119">ブランチサイトと中央サイトの間のリンクが復元できない場合は、存続可能 Branch Appliance を展開するか、ゲートウェイまたは SIP トランクを使用してブランチサイトに存続可能ブランチサーバーを展開します。</span><span class="sxs-lookup"><span data-stu-id="47040-119">If the link between your branch site and central site is not resilient, deploy a Survivable Branch Appliance, or deploy a Survivable Branch Server with either a gateway or SIP trunk at the branch site.</span></span>
 
 </div>
 
