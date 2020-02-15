@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 会議ポリシー設定リファレンス'
+title: 'Lync Server 2013: 会議ポリシーの設定のリファレンス'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185737
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9705a56a2167e0afc5e950c387e0f99b15deed1c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b71989b2dcc5dba8de877230d33133d88b95b221
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741437"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028838"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="conferencing-policy-settings-reference-for-lync-server-2013"></a><span data-ttu-id="65425-102">Lync Server 2013 の会議ポリシー設定リファレンス</span><span class="sxs-lookup"><span data-stu-id="65425-102">Conferencing policy settings reference for Lync Server 2013</span></span>
+# <a name="conferencing-policy-settings-reference-for-lync-server-2013"></a><span data-ttu-id="5e3b1-102">Lync Server 2013 の会議ポリシー設定のリファレンス</span><span class="sxs-lookup"><span data-stu-id="5e3b1-102">Conferencing policy settings reference for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41741437"
 
 <span> </span>
 
-<span data-ttu-id="65425-103">_**最終更新日:** 2014-04-22_</span><span class="sxs-lookup"><span data-stu-id="65425-103">_**Topic Last Modified:** 2014-04-22_</span></span>
+<span data-ttu-id="5e3b1-103">_**トピックの最終更新日:** 2014-04-22_</span><span class="sxs-lookup"><span data-stu-id="5e3b1-103">_**Topic Last Modified:** 2014-04-22_</span></span>
 
-<span data-ttu-id="65425-104">会議ポリシー設定の最新リストについては、「 [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) 」コマンドレットのヘルプトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="65425-104">For the most up-to-date list of conferencing policy settings see the help topic for the [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) cmdlet.</span></span>
+<span data-ttu-id="5e3b1-104">最新の会議ポリシー設定の一覧については、「 [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) 」コマンドレットのヘルプトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="5e3b1-104">For the most up-to-date list of conferencing policy settings see the help topic for the [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) cmdlet.</span></span>
 
 </div>
 

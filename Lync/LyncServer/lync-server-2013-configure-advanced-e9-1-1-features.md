@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: advanced E9-1 の機能を構成する'
+title: 'Lync Server 2013: advanced E9-1-1 機能の構成'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184646
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9805f505896cb27b7e895c0a586ffff3c6847fdb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: af8c376620c37af533aabec318ccbf1b1b745978
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757851"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028768"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-advanced-e9-1-1-features-in-lync-server-2013"></a><span data-ttu-id="38976-102">Lync Server 2013 の advanced E9-1-1 の機能を構成する</span><span class="sxs-lookup"><span data-stu-id="38976-102">Configure advanced E9-1-1 features in Lync Server 2013</span></span>
+# <a name="configure-advanced-e9-1-1-features-in-lync-server-2013"></a><span data-ttu-id="8192f-102">Lync Server 2013 の高度な E9-1-1 機能の構成</span><span class="sxs-lookup"><span data-stu-id="8192f-102">Configure advanced E9-1-1 features in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41757851"
 
 <span> </span>
 
-<span data-ttu-id="38976-103">_**最終更新日:** 2012-06-06_</span><span class="sxs-lookup"><span data-stu-id="38976-103">_**Topic Last Modified:** 2012-06-06_</span></span>
+<span data-ttu-id="8192f-103">_**トピックの最終更新日:** 2012-06-06_</span><span class="sxs-lookup"><span data-stu-id="8192f-103">_**Topic Last Modified:** 2012-06-06_</span></span>
 
-<span data-ttu-id="38976-104">Lync Server 2013 には、E9 の展開をカスタマイズするために使用できる次の機能が含まれています。</span><span class="sxs-lookup"><span data-stu-id="38976-104">Lync Server 2013 includes the following features that you can use to customize your E9-1-1 deployment:</span></span>
+<span data-ttu-id="8192f-104">Lync Server 2013 には、E9-1-1 展開のカスタマイズに使用できる次の機能が含まれています。</span><span class="sxs-lookup"><span data-stu-id="8192f-104">Lync Server 2013 includes the following features that you can use to customize your E9-1-1 deployment:</span></span>
 
-  - <span data-ttu-id="38976-105">位置情報サーバーを SNMP アプリケーションに接続するための web サービスインターフェイス。</span><span class="sxs-lookup"><span data-stu-id="38976-105">A web service interface to connect the Location Information Server to an SNMP application.</span></span>
+  - <span data-ttu-id="8192f-105">場所情報サーバーを SNMP アプリケーションに接続するための Web サービス インターフェイス</span><span class="sxs-lookup"><span data-stu-id="8192f-105">A web service interface to connect the Location Information Server to an SNMP application.</span></span>
 
-  - <span data-ttu-id="38976-106">セカンダリの場所のソースデータベースに接続するための web サービスインターフェイス。</span><span class="sxs-lookup"><span data-stu-id="38976-106">A web service interface to connect to a Secondary Location Source database.</span></span>
+  - <span data-ttu-id="8192f-106">セカンダリ場所ソース データベースに接続するための Web サービス インターフェイス</span><span class="sxs-lookup"><span data-stu-id="8192f-106">A web service interface to connect to a Secondary Location Source database.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="38976-107">このセクション中</span><span class="sxs-lookup"><span data-stu-id="38976-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="8192f-107">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="8192f-107">In This Section</span></span>
 
-  - [<span data-ttu-id="38976-108">Lync Server 2013 での SNMP アプリケーションの構成</span><span class="sxs-lookup"><span data-stu-id="38976-108">Configure an SNMP application in Lync Server 2013</span></span>](lync-server-2013-configure-an-snmp-application.md)
+  - [<span data-ttu-id="8192f-108">Lync Server 2013 で SNMP アプリケーションを構成する</span><span class="sxs-lookup"><span data-stu-id="8192f-108">Configure an SNMP application in Lync Server 2013</span></span>](lync-server-2013-configure-an-snmp-application.md)
 
-  - [<span data-ttu-id="38976-109">Lync Server 2013 でセカンダリ場所情報サービスを構成する</span><span class="sxs-lookup"><span data-stu-id="38976-109">Configure a secondary Location Information service in Lync Server 2013</span></span>](lync-server-2013-configure-a-secondary-location-information-service.md)
+  - [<span data-ttu-id="8192f-109">Lync Server 2013 のセカンダリ場所情報サービスを構成する</span><span class="sxs-lookup"><span data-stu-id="8192f-109">Configure a secondary Location Information service in Lync Server 2013</span></span>](lync-server-2013-configure-a-secondary-location-information-service.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: サーバーの役割とサービスコマンドレットのトラブルシューティング'
+title: 'Lync Server 2013: サーバーの役割およびサービスのコマンドレットのトラブルシューティング'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183268
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6bb8c4504674e5459fbbb0e7529ea4e6c4ad7a8f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: af0e5048b02720755c7f4ab65cddb1e9fa47b0bb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744997"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028878"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="troubleshooting-server-roles-and-services-cmdlets-in-lync-server-2013"></a><span data-ttu-id="15cdc-102">Lync Server 2013 のサーバーの役割とサービスコマンドレットのトラブルシューティング</span><span class="sxs-lookup"><span data-stu-id="15cdc-102">Troubleshooting server roles and services cmdlets in Lync Server 2013</span></span>
+# <a name="troubleshooting-server-roles-and-services-cmdlets-in-lync-server-2013"></a><span data-ttu-id="3d868-102">Lync Server 2013 のサーバーの役割およびサービスのコマンドレットのトラブルシューティング</span><span class="sxs-lookup"><span data-stu-id="3d868-102">Troubleshooting server roles and services cmdlets in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41744997"
 
 <span> </span>
 
-<span data-ttu-id="15cdc-103">_**最終更新日:** 2012-08-27_</span><span class="sxs-lookup"><span data-stu-id="15cdc-103">_**Topic Last Modified:** 2012-08-27_</span></span>
+<span data-ttu-id="3d868-103">_**トピックの最終更新日:** 2012-08-27_</span><span class="sxs-lookup"><span data-stu-id="3d868-103">_**Topic Last Modified:** 2012-08-27_</span></span>
 
-<span data-ttu-id="15cdc-104">トラブルシューティングのコマンドレットには、Microsoft Lync Server 2013 が予期したとおりに動作しているかどうかを確認するさまざまな方法があります。</span><span class="sxs-lookup"><span data-stu-id="15cdc-104">The troubleshooting cmdlets provide different ways to verify that Microsoft Lync Server 2013 is working as expected.</span></span> <span data-ttu-id="15cdc-105">たとえば、CsHealthMonitoringConfiguration コマンドレットを使用して、レジストラーとディレクタープールのテストアカウントをセットアップすることができます。</span><span class="sxs-lookup"><span data-stu-id="15cdc-105">For example, the CsHealthMonitoringConfiguration cmdlets enable you to set up test accounts for Registrar and Director pools.</span></span> <span data-ttu-id="15cdc-106">次に、これらのテストアカウントを使用して、ユーザーがシステムにログオンしたり、インスタントメッセージを交換したり、公衆交換電話網 (PSTN) にある電話への通話を発信したりするなどの一般的なタスクを正常に完了できることを確認できます。</span><span class="sxs-lookup"><span data-stu-id="15cdc-106">In turn, you can then use those test accounts to verify that users are able to successfully complete common tasks such as logging on to the system, exchanging instant messages, or making calls to a phone located on the public switched telephone network (PSTN).</span></span>
+<span data-ttu-id="3d868-104">トラブルシューティングのコマンドレットを使用すると、Microsoft Lync Server 2013 が期待どおりに動作していることを確認する方法が異なります。</span><span class="sxs-lookup"><span data-stu-id="3d868-104">The troubleshooting cmdlets provide different ways to verify that Microsoft Lync Server 2013 is working as expected.</span></span> <span data-ttu-id="3d868-105">たとえば、CsHealthMonitoringConfiguration コマンドレットを使用して、レジストラー プールとディレクター プールのテスト アカウントを設定できます。</span><span class="sxs-lookup"><span data-stu-id="3d868-105">For example, the CsHealthMonitoringConfiguration cmdlets enable you to set up test accounts for Registrar and Director pools.</span></span> <span data-ttu-id="3d868-106">また、それらのテスト アカウントを使用して、一般的なタスク (システムへのログオン、インスタント メッセージの交換、公衆交換電話網 (PSTN) の電話への発信など) をユーザーが正常に完了できることを確認できます。</span><span class="sxs-lookup"><span data-stu-id="3d868-106">In turn, you can then use those test accounts to verify that users are able to successfully complete common tasks such as logging on to the system, exchanging instant messages, or making calls to a phone located on the public switched telephone network (PSTN).</span></span>
 
 <div>
 
 
 > [!NOTE]
-> <span data-ttu-id="15cdc-107">コマンドレットの詳細については、「&nbsp;Lync Server Windows PowerShell <A href="http://go.microsoft.com/fwlink/p/?linkid=263432">http://go.microsoft.com/fwlink/p/?linkId=263432</A>のブログ」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="15cdc-107">For additional information about cmdlets, see the Lync Server&nbsp;Windows PowerShell Blog at <A href="http://go.microsoft.com/fwlink/p/?linkid=263432">http://go.microsoft.com/fwlink/p/?linkId=263432</A>.</span></span> <span data-ttu-id="15cdc-108">各ブログの内容と URL は、将来予告なしに変更されることがあります。</span><span class="sxs-lookup"><span data-stu-id="15cdc-108">The content of each blog and its URL are subject to change without notice.</span></span>
+> <span data-ttu-id="3d868-107">コマンドレットの詳細については、Lync&nbsp;Server Windows PowerShell の<A href="http://go.microsoft.com/fwlink/p/?linkid=263432">http://go.microsoft.com/fwlink/p/?linkId=263432</A>ブログを参照してください。</span><span class="sxs-lookup"><span data-stu-id="3d868-107">For additional information about cmdlets, see the Lync Server&nbsp;Windows PowerShell Blog at <A href="http://go.microsoft.com/fwlink/p/?linkid=263432">http://go.microsoft.com/fwlink/p/?linkId=263432</A>.</span></span> <span data-ttu-id="3d868-108">各ブログのコンテンツおよびその URL は予告なしに変更されることがあります。</span><span class="sxs-lookup"><span data-stu-id="3d868-108">The content of each blog and its URL are subject to change without notice.</span></span>
 
 
 
@@ -51,64 +51,64 @@ ms.locfileid: "41744997"
 
 <div>
 
-## <a name="server-roles-and-services-cmdlets"></a><span data-ttu-id="15cdc-109">サーバーの役割とサービスのコマンドレット</span><span class="sxs-lookup"><span data-stu-id="15cdc-109">Server Roles and Services Cmdlets</span></span>
+## <a name="server-roles-and-services-cmdlets"></a><span data-ttu-id="3d868-109">サーバーの役割およびサービスのコマンドレット</span><span class="sxs-lookup"><span data-stu-id="3d868-109">Server Roles and Services Cmdlets</span></span>
 
-<span data-ttu-id="15cdc-110">サーバーの役割とサービスのトラブルシューティングに直接関連するコマンドレットの一覧を次に示します。</span><span class="sxs-lookup"><span data-stu-id="15cdc-110">The following is a list of cmdlets that relate directly to troubleshooting server roles and services:</span></span>
+<span data-ttu-id="3d868-110">以下は、サーバーの役割およびサービスのトラブルシューティングに直接関連するコマンドレットの一覧です。</span><span class="sxs-lookup"><span data-stu-id="3d868-110">The following is a list of cmdlets that relate directly to troubleshooting server roles and services:</span></span>
 
-<span data-ttu-id="15cdc-111">**サーバーの役割とサービスのトラブルシューティング**</span><span class="sxs-lookup"><span data-stu-id="15cdc-111">**Troubleshooting Server Roles and Services**</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="15cdc-112">[Get-CsAudioTestServiceApplication](https://technet.microsoft.com/en-us/library/Gg412984(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="15cdc-112">[Get-CsAudioTestServiceApplication](https://technet.microsoft.com/en-us/library/Gg412984(v=OCS.15))</span></span>
+<span data-ttu-id="3d868-111">**サーバーの役割およびサービスのトラブルシューティング**</span><span class="sxs-lookup"><span data-stu-id="3d868-111">**Troubleshooting Server Roles and Services**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="15cdc-113">[Set-CsAudioTestServiceApplication](https://technet.microsoft.com/en-us/library/Gg398907(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="15cdc-113">[Set-CsAudioTestServiceApplication](https://technet.microsoft.com/en-us/library/Gg398907(v=OCS.15))</span></span>
+    <span data-ttu-id="3d868-112">[Get-CsAudioTestServiceApplication](https://technet.microsoft.com/library/Gg412984(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="3d868-112">[Get-CsAudioTestServiceApplication](https://technet.microsoft.com/library/Gg412984(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="3d868-113">[Set-CsAudioTestServiceApplication](https://technet.microsoft.com/library/Gg398907(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="3d868-113">[Set-CsAudioTestServiceApplication](https://technet.microsoft.com/library/Gg398907(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="15cdc-114">[Get-CsHealthMonitoringConfiguration](https://technet.microsoft.com/en-us/library/Gg398667(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="15cdc-114">[Get-CsHealthMonitoringConfiguration](https://technet.microsoft.com/en-us/library/Gg398667(v=OCS.15))</span></span>
+    <span data-ttu-id="3d868-114">[Get-cshealthmonitoringconfiguration](https://technet.microsoft.com/library/Gg398667(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="3d868-114">[Get-CsHealthMonitoringConfiguration](https://technet.microsoft.com/library/Gg398667(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="15cdc-115">[新規-CsHealthMonitoringConfiguration](https://technet.microsoft.com/en-us/library/Gg398718(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="15cdc-115">[New-CsHealthMonitoringConfiguration](https://technet.microsoft.com/en-us/library/Gg398718(v=OCS.15))</span></span>
+    <span data-ttu-id="3d868-115">[Get-cshealthmonitoringconfiguration](https://technet.microsoft.com/library/Gg398718(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="3d868-115">[New-CsHealthMonitoringConfiguration](https://technet.microsoft.com/library/Gg398718(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="15cdc-116">[Remove-CsHealthMonitoringConfiguration](https://technet.microsoft.com/en-us/library/Gg425794(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="15cdc-116">[Remove-CsHealthMonitoringConfiguration](https://technet.microsoft.com/en-us/library/Gg425794(v=OCS.15))</span></span>
+    <span data-ttu-id="3d868-116">[Get-cshealthmonitoringconfiguration](https://technet.microsoft.com/library/Gg425794(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="3d868-116">[Remove-CsHealthMonitoringConfiguration](https://technet.microsoft.com/library/Gg425794(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="15cdc-117">[Set-CsHealthMonitoringConfiguration](https://technet.microsoft.com/en-us/library/Gg425847(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="15cdc-117">[Set-CsHealthMonitoringConfiguration](https://technet.microsoft.com/en-us/library/Gg425847(v=OCS.15))</span></span>
+    <span data-ttu-id="3d868-117">[Get-cshealthmonitoringconfiguration](https://technet.microsoft.com/library/Gg425847(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="3d868-117">[Set-CsHealthMonitoringConfiguration](https://technet.microsoft.com/library/Gg425847(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="15cdc-118">[Get-CsDiagnosticConfiguration](https://technet.microsoft.com/en-us/library/Gg413034(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="15cdc-118">[Get-CsDiagnosticConfiguration](https://technet.microsoft.com/en-us/library/Gg413034(v=OCS.15))</span></span>
+    <span data-ttu-id="3d868-118">[Get-csdiagnosticconfiguration](https://technet.microsoft.com/library/Gg413034(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="3d868-118">[Get-CsDiagnosticConfiguration](https://technet.microsoft.com/library/Gg413034(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="15cdc-119">[新規-CsDiagnosticConfiguration](https://technet.microsoft.com/en-us/library/Gg398733(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="15cdc-119">[New-CsDiagnosticConfiguration](https://technet.microsoft.com/en-us/library/Gg398733(v=OCS.15))</span></span>
+    <span data-ttu-id="3d868-119">[Get-csdiagnosticconfiguration](https://technet.microsoft.com/library/Gg398733(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="3d868-119">[New-CsDiagnosticConfiguration](https://technet.microsoft.com/library/Gg398733(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="15cdc-120">[Remove-CsDiagnosticConfiguration](https://technet.microsoft.com/en-us/library/Gg412853(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="15cdc-120">[Remove-CsDiagnosticConfiguration](https://technet.microsoft.com/en-us/library/Gg412853(v=OCS.15))</span></span>
+    <span data-ttu-id="3d868-120">[Get-csdiagnosticconfiguration](https://technet.microsoft.com/library/Gg412853(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="3d868-120">[Remove-CsDiagnosticConfiguration](https://technet.microsoft.com/library/Gg412853(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="15cdc-121">[Set-CsDiagnosticConfiguration](https://technet.microsoft.com/en-us/library/Gg425734(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="15cdc-121">[Set-CsDiagnosticConfiguration](https://technet.microsoft.com/en-us/library/Gg425734(v=OCS.15))</span></span>
+    <span data-ttu-id="3d868-121">[Get-csdiagnosticconfiguration](https://technet.microsoft.com/library/Gg425734(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="3d868-121">[Set-CsDiagnosticConfiguration](https://technet.microsoft.com/library/Gg425734(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="15cdc-122">[新規-CsDiagnosticsFilter](https://technet.microsoft.com/en-us/library/Gg413009(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="15cdc-122">[New-CsDiagnosticsFilter](https://technet.microsoft.com/en-us/library/Gg413009(v=OCS.15))</span></span>
+    <span data-ttu-id="3d868-122">[New-csdiagnosticsfilter](https://technet.microsoft.com/library/Gg413009(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="3d868-122">[New-CsDiagnosticsFilter](https://technet.microsoft.com/library/Gg413009(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="15cdc-123">[Get-CsDiagnosticHeaderConfiguration](https://technet.microsoft.com/en-us/library/Gg412774(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="15cdc-123">[Get-CsDiagnosticHeaderConfiguration](https://technet.microsoft.com/en-us/library/Gg412774(v=OCS.15))</span></span>
+    <span data-ttu-id="3d868-123">[Get-csdiagnosticheaderconfiguration](https://technet.microsoft.com/library/Gg412774(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="3d868-123">[Get-CsDiagnosticHeaderConfiguration](https://technet.microsoft.com/library/Gg412774(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="15cdc-124">[New-CsDiagnosticHeaderConfiguration](https://technet.microsoft.com/en-us/library/Gg398350(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="15cdc-124">[New-CsDiagnosticHeaderConfiguration](https://technet.microsoft.com/en-us/library/Gg398350(v=OCS.15))</span></span>
+    <span data-ttu-id="3d868-124">[Get-csdiagnosticheaderconfiguration](https://technet.microsoft.com/library/Gg398350(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="3d868-124">[New-CsDiagnosticHeaderConfiguration](https://technet.microsoft.com/library/Gg398350(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="15cdc-125">[Remove-CsDiagnosticHeaderConfiguration](https://technet.microsoft.com/en-us/library/Gg398941(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="15cdc-125">[Remove-CsDiagnosticHeaderConfiguration](https://technet.microsoft.com/en-us/library/Gg398941(v=OCS.15))</span></span>
+    <span data-ttu-id="3d868-125">[Get-csdiagnosticheaderconfiguration](https://technet.microsoft.com/library/Gg398941(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="3d868-125">[Remove-CsDiagnosticHeaderConfiguration](https://technet.microsoft.com/library/Gg398941(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="15cdc-126">[Set-CsDiagnosticHeaderConfiguration](https://technet.microsoft.com/en-us/library/Gg399045(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="15cdc-126">[Set-CsDiagnosticHeaderConfiguration](https://technet.microsoft.com/en-us/library/Gg399045(v=OCS.15))</span></span>
+    <span data-ttu-id="3d868-126">[Get-csdiagnosticheaderconfiguration](https://technet.microsoft.com/library/Gg399045(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="3d868-126">[Set-CsDiagnosticHeaderConfiguration](https://technet.microsoft.com/library/Gg399045(v=OCS.15))</span></span>
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 常設チャット サーバーの構成'
+title: 'Lync Server 2013: 常設チャットサーバーの構成'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184709
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3762679b8926370b85e03d0ffac2981c5c7d13a3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 21c43bfaf3b40a746f09a000cb089509b589e39e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741347"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030811"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-persistent-chat-server-in-lync-server-2013"></a><span data-ttu-id="2b7b6-102">Lync Server 2013 での常設チャット サーバーの構成</span><span class="sxs-lookup"><span data-stu-id="2b7b6-102">Configure Persistent Chat Server in Lync Server 2013</span></span>
+# <a name="configure-persistent-chat-server-in-lync-server-2013"></a><span data-ttu-id="789da-102">Lync Server 2013 での常設チャットサーバーの構成</span><span class="sxs-lookup"><span data-stu-id="789da-102">Configure Persistent Chat Server in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41741347"
 
 <span> </span>
 
-<span data-ttu-id="2b7b6-103">_**最終更新日:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="2b7b6-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+<span data-ttu-id="789da-103">_**トピックの最終更新日:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="789da-103">_**Topic Last Modified:** 2012-10-06_</span></span>
 
-<span data-ttu-id="2b7b6-104">新しい常設チャット構成を作成するには</span><span class="sxs-lookup"><span data-stu-id="2b7b6-104">To create a new Persistent Chat configuration</span></span>
+<span data-ttu-id="789da-104">新しい常設チャット構成を作成するには</span><span class="sxs-lookup"><span data-stu-id="789da-104">To create a new Persistent Chat configuration</span></span>
 
     New-CsPersistentChatConfiguration -Identity <XdsIdentity> [-DefaultChatHistory <Integer>] [-MaxChatContentSizeMB <Integer>] [-MaxFileSizeKB <Integer>] [-ParticipantUpdateLimit <Integer>] [-FileServiceUrl <UrlForFileUpload>] [-RoomManagementUrl <RoomManagementUrl>] [-Instance <PSObject>] [-Force <Switch Parameter>] [-Confirm <Switch Parameter>] [-WhatIf <Switch Parameter>]
 
-<span data-ttu-id="2b7b6-105">常設チャットの設定を取得するには</span><span class="sxs-lookup"><span data-stu-id="2b7b6-105">To get Persistent Chat configuration</span></span>
+<span data-ttu-id="789da-105">常設チャットの構成を取得するには</span><span class="sxs-lookup"><span data-stu-id="789da-105">To get Persistent Chat configuration</span></span>
 
     Get-CsPersistentChatConfiguration [-LocalStore <Switch Parameter>] [-Identity <XdsIdentity>]
 
-<span data-ttu-id="2b7b6-106">常設チャットの構成を削除するには</span><span class="sxs-lookup"><span data-stu-id="2b7b6-106">To remove Persistent Chat configuration</span></span>
+<span data-ttu-id="789da-106">常設チャットの構成を削除するには</span><span class="sxs-lookup"><span data-stu-id="789da-106">To remove Persistent Chat configuration</span></span>
 
     Remove-CsPersistentChatConfiguration -Identity <XdsIdentity>
 
-<span data-ttu-id="2b7b6-107">常設チャットの構成を設定するには</span><span class="sxs-lookup"><span data-stu-id="2b7b6-107">To set Persistent Chat configuration</span></span>
+<span data-ttu-id="789da-107">常設チャットの構成を設定するには</span><span class="sxs-lookup"><span data-stu-id="789da-107">To set Persistent Chat configuration</span></span>
 
     Set-CsPersistentChatConfiguration [-DefaultChatHistory <Integer>] [-MaxChatContentSizeMB <Integer>] [-MaxFileSizeKB <Integer>] [-ParticipantUpdateLimit <Integer>] [-FileServiceUrl <UrlForFileUpload>] [-RoomManagementUrl <RoomManagementUrl>] [-Instance <PSObject >] [-Force <Switch Parameter>] [-Confirm <Switch Parameter>] [-WhatIf <Switch Parameter>]
 
-<span data-ttu-id="2b7b6-108">Lync Server 2013 の場合、すべての web サービストラフィックは、Lync Server 2013、フロントエンドサーバーでサポートされています。</span><span class="sxs-lookup"><span data-stu-id="2b7b6-108">For Lync Server 2013, all web service traffic is supported on the Lync Server 2013, Front End Servers.</span></span> <span data-ttu-id="2b7b6-109">したがって、常設チャットサーバーの gcweb01 アドレスは必要ありません。</span><span class="sxs-lookup"><span data-stu-id="2b7b6-109">Therefore, the gcweb01 address on Persistent Chat Server is not necessary.</span></span> <span data-ttu-id="2b7b6-110">内部 web サービスへのアクセスは引き続きサポートされるため、*内部*web サイト (リモートユーザー向けの*外部*web サイトではなく) にファイルアップロードとダウンロード web サービスを提供します。</span><span class="sxs-lookup"><span data-stu-id="2b7b6-110">We still support internal web service access because we provide the File Upload/Download Web service to the *internal* website only (not to the *external* website for remote users).</span></span>
+<span data-ttu-id="789da-108">Lync Server 2013 では、すべての web サービストラフィックが Lync Server 2013、フロントエンドサーバーでサポートされています。</span><span class="sxs-lookup"><span data-stu-id="789da-108">For Lync Server 2013, all web service traffic is supported on the Lync Server 2013, Front End Servers.</span></span> <span data-ttu-id="789da-109">そのため、常設チャットサーバーの gcweb01 アドレスは必要ありません。</span><span class="sxs-lookup"><span data-stu-id="789da-109">Therefore, the gcweb01 address on Persistent Chat Server is not necessary.</span></span> <span data-ttu-id="789da-110">ただし、(リモート ユーザーの "外部**" Web サイトにではなく) "内部**" Web サイトに対してのみファイル アップロード/ダウンロード Web サービスを提供しているため、現在も、内部 Web サービス アクセスをサポートしています。</span><span class="sxs-lookup"><span data-stu-id="789da-110">We still support internal web service access because we provide the File Upload/Download Web service to the *internal* website only (not to the *external* website for remote users).</span></span>
 
 </div>
 

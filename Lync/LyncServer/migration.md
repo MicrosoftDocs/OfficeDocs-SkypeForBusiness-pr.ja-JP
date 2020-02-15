@@ -12,20 +12,20 @@ ms:contentKeyID: 48183669
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4c3774083feecba11572e2e5d5d050422d5f6bfa
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e2107d649caa40b0813ca00b514a0d1fefbcf6d6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764007"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030651"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="migration"></a><span data-ttu-id="3a07c-102">移行</span><span class="sxs-lookup"><span data-stu-id="3a07c-102">Migration</span></span>
+# <a name="migration"></a><span data-ttu-id="4ac97-102">移行</span><span class="sxs-lookup"><span data-stu-id="4ac97-102">Migration</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41764007"
 
 <span> </span>
 
-<span data-ttu-id="3a07c-103">_**最終更新日:** 2012-09-18_</span><span class="sxs-lookup"><span data-stu-id="3a07c-103">_**Topic Last Modified:** 2012-09-18_</span></span>
+<span data-ttu-id="4ac97-103">_**トピックの最終更新日:** 2012-09-18_</span><span class="sxs-lookup"><span data-stu-id="4ac97-103">_**Topic Last Modified:** 2012-09-18_</span></span>
 
-<span data-ttu-id="3a07c-104">このセクションでは、Microsoft Office Communications Server 2007 R2 または Microsoft Lync Server 2010 から Microsoft lync server 2013、microsoft lync server 2010、グループチャットから Microsoft Lync Server 2013、常設チャットサーバー、およびから移行する方法について説明します。Microsoft Office Communications Server 2007 R2 グループチャットを常設チャットサーバーに接続します。</span><span class="sxs-lookup"><span data-stu-id="3a07c-104">This section explains how to migrate from Microsoft Office Communications Server 2007 R2 or Microsoft Lync Server 2010 to Microsoft Lync Server 2013, from Microsoft Lync Server 2010, Group Chat to Microsoft Lync Server 2013, Persistent Chat Server, and from Microsoft Office Communications Server 2007 R2 Group Chat to Persistent Chat Server.</span></span>
+<span data-ttu-id="4ac97-104">このセクションでは、microsoft Office Communications Server 2007 R2 または Microsoft Lync Server 2010 から Microsoft lync Server 2013 へ移行する方法について説明します。 Microsoft Lync server 2010 から、グループチャットから Microsoft Lync Server の2013、常設チャットサーバー、およびから移行する方法について説明します。Microsoft Office Communications Server 2007 R2 グループチャットから常設チャットサーバーへ。</span><span class="sxs-lookup"><span data-stu-id="4ac97-104">This section explains how to migrate from Microsoft Office Communications Server 2007 R2 or Microsoft Lync Server 2010 to Microsoft Lync Server 2013, from Microsoft Lync Server 2010, Group Chat to Microsoft Lync Server 2013, Persistent Chat Server, and from Microsoft Office Communications Server 2007 R2 Group Chat to Persistent Chat Server.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="3a07c-105">このセクション中</span><span class="sxs-lookup"><span data-stu-id="3a07c-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="4ac97-105">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="4ac97-105">In This Section</span></span>
 
-  - [<span data-ttu-id="3a07c-106">Lync Server 2010 から Lync Server 2013 への移行</span><span class="sxs-lookup"><span data-stu-id="3a07c-106">Migration from Lync Server 2010 to Lync Server 2013</span></span>](migration-from-lync-server-2010-to-lync-server-2013.md)
+  - [<span data-ttu-id="4ac97-106">Lync Server 2010 から Lync Server 2013 への移行</span><span class="sxs-lookup"><span data-stu-id="4ac97-106">Migration from Lync Server 2010 to Lync Server 2013</span></span>](migration-from-lync-server-2010-to-lync-server-2013.md)
 
-  - [<span data-ttu-id="3a07c-107">Office Communications Server 2007 R2 から Lync Server 2013 への移行</span><span class="sxs-lookup"><span data-stu-id="3a07c-107">Migration from Office Communications Server 2007 R2 to Lync Server 2013</span></span>](migration-from-office-communications-server-2007-r2-to-lync-server-2013.md)
+  - [<span data-ttu-id="4ac97-107">Office Communications Server 2007 R2 から Lync Server 2013 への移行</span><span class="sxs-lookup"><span data-stu-id="4ac97-107">Migration from Office Communications Server 2007 R2 to Lync Server 2013</span></span>](migration-from-office-communications-server-2007-r2-to-lync-server-2013.md)
 
-  - [<span data-ttu-id="3a07c-108">Lync Server 2010、グループ チャットまたは Office Communicatins Server 2007 R2 グループ チャットから Lync Server 2013、常設チャット サーバーへの移行</span><span class="sxs-lookup"><span data-stu-id="3a07c-108">Migration from Lync Server 2010, Group Chat or Office Communications Server 2007 R2 Group Chat to Lync Server 2013, Persistent Chat Server</span></span>](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md)
+  - [<span data-ttu-id="4ac97-108">Lync Server 2010、グループ チャットまたは Office Communicatins Server 2007 R2 グループ チャットから Lync Server 2013、常設チャット サーバーへの移行</span><span class="sxs-lookup"><span data-stu-id="4ac97-108">Migration from Lync Server 2010, Group Chat or Office Communications Server 2007 R2 Group Chat to Lync Server 2013, Persistent Chat Server</span></span>](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md)
 
 </div>
 

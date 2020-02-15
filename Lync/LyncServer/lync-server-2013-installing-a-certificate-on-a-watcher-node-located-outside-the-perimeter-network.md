@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 境界ネットワークの外側にあるウォッチャーノードに証明書をインストールする'
+title: 'Lync Server 2013: 境界ネットワークの外側に配置された監視ノードへの証明書のインストール'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733711
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 10cd31639445fab6138ea77cb40a03d727ecce12
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 74d89b14b783e2b78050b2db8e71a1009c974384
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726177"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029548"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="installing-a-certificate-on-a-watcher-node-located-outside-the-perimeter-network-of-lync-server-2013"></a><span data-ttu-id="78796-102">Lync Server 2013 の境界ネットワークの外側にあるウォッチャーノードに証明書をインストールする</span><span class="sxs-lookup"><span data-stu-id="78796-102">Installing a certificate on a watcher node located outside the perimeter network of Lync Server 2013</span></span>
+# <a name="installing-a-certificate-on-a-watcher-node-located-outside-the-perimeter-network-of-lync-server-2013"></a><span data-ttu-id="9b117-102">Lync Server 2013 の境界ネットワークの外部にある監視ノードに証明書をインストールする</span><span class="sxs-lookup"><span data-stu-id="9b117-102">Installing a certificate on a watcher node located outside the perimeter network of Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41726177"
 
 <span> </span>
 
-<span data-ttu-id="78796-103">_**最終更新日:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="78796-103">_**Topic Last Modified:** 2012-10-22_</span></span>
+<span data-ttu-id="9b117-103">_**トピックの最終更新日:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="9b117-103">_**Topic Last Modified:** 2012-10-22_</span></span>
 
-<span data-ttu-id="78796-104">境界ネットワーク (Lync Server Edge Server など) で実行されている System Center Operations Manager エージェント、エンタープライズ (外部の代理トランザクション監視ノードなど)、または Active Directory ドメインサービスの信頼境界を超えている場合、System Center Operations Manager ゲートウェイサーバーの構成が必要です。</span><span class="sxs-lookup"><span data-stu-id="78796-104">System Center Operations Manager agents running in a perimeter network (such as a Lync Server Edge Server), outside of the enterprise (such as an external synthetic transaction watcher node), or across an Active Directory Domain Services trust boundary, might require the configuration of a System Center Operations Manager Gateway Server.</span></span> <span data-ttu-id="78796-105">このサーバーの役割により、ルート管理サーバーとの信頼関係を持たないエージェントは、アラートを発生させることができます。</span><span class="sxs-lookup"><span data-stu-id="78796-105">This server role allows agents that do not have a trust relationship with the Root Management Server to raise alerts.</span></span> <span data-ttu-id="78796-106">詳細については、System Center Operations Manager の TechNet ライブラリの「Operations Manager 2007 でゲートウェイサーバーを[http://go.microsoft.com/fwlink/p/?LinkId=268703](http://go.microsoft.com/fwlink/p/?linkid=268703)管理する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="78796-106">For details, see "Managing Gateway Servers in Operations Manager 2007" in the System Center Operations Manager TechNet Library at [http://go.microsoft.com/fwlink/p/?LinkId=268703](http://go.microsoft.com/fwlink/p/?linkid=268703).</span></span>
+<span data-ttu-id="9b117-104">境界ネットワーク (Lync Server エッジサーバーなど)、エンタープライズ外部 (外部代理トランザクション監視ノードなど)、または Active Directory ドメインサービスの信頼境界を越えて実行されている System Center Operations Manager エージェントは、System Center Operations Manager ゲートウェイサーバーの構成が必要です。</span><span class="sxs-lookup"><span data-stu-id="9b117-104">System Center Operations Manager agents running in a perimeter network (such as a Lync Server Edge Server), outside of the enterprise (such as an external synthetic transaction watcher node), or across an Active Directory Domain Services trust boundary, might require the configuration of a System Center Operations Manager Gateway Server.</span></span> <span data-ttu-id="9b117-105">このサーバーの役割により、ルート管理サーバーと信頼関係を持たないエージェントは警告を出すことができるようになります。</span><span class="sxs-lookup"><span data-stu-id="9b117-105">This server role allows agents that do not have a trust relationship with the Root Management Server to raise alerts.</span></span> <span data-ttu-id="9b117-106">詳細については、System Center Operations Manager の TechNet ライブラリの「Operations Manager 2007 でのゲートウェイサーバー [http://go.microsoft.com/fwlink/p/?LinkId=268703](http://go.microsoft.com/fwlink/p/?linkid=268703)の管理」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="9b117-106">For details, see "Managing Gateway Servers in Operations Manager 2007" in the System Center Operations Manager TechNet Library at [http://go.microsoft.com/fwlink/p/?LinkId=268703](http://go.microsoft.com/fwlink/p/?linkid=268703).</span></span>
 
-<span data-ttu-id="78796-107">これらのいずれかの場所でエージェントを展開する場合は、watcher ノードが System Center Operations Manager に通知を送信できるようにする証明書を要求して構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="78796-107">If you deploy an agent in one of these locations, you will also need to request and configure a certificate that enables the watcher node to send alerts to System Center Operations Manager.</span></span> <span data-ttu-id="78796-108">このプロセスを簡略化するために、Operations Manager チームは、ウォッチャーノードのコンピューターで正しい種類の証明書を要求およびインストールできる一連のユーティリティを作成しました。</span><span class="sxs-lookup"><span data-stu-id="78796-108">To simplify this process, the Operations Manager team has created a set of utilities that enable you to request and install the correct type of certificate on the watcher node computer.</span></span> <span data-ttu-id="78796-109">詳細を確認し、これらのユーティリティをダウンロードするには、「証明書の生成ウィザードを使って簡単にドメインに参加して[http://go.microsoft.com/fwlink/p/?LinkId=267421](http://go.microsoft.com/fwlink/p/?linkid=267421)いないエージェントの証明書を取得する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="78796-109">For details, and to download these utilities, see the "Obtaining Certificates for Non-Domain Joined Agents Made Easy With Certificate Generation Wizard" blog article at [http://go.microsoft.com/fwlink/p/?LinkId=267421](http://go.microsoft.com/fwlink/p/?linkid=267421).</span></span>
+<span data-ttu-id="9b117-107">これらのいずれかの場所にエージェントを展開する場合は、監視ノードが System Center Operations Manager に通知を送信できるようにする証明書を要求して構成する必要もあります。</span><span class="sxs-lookup"><span data-stu-id="9b117-107">If you deploy an agent in one of these locations, you will also need to request and configure a certificate that enables the watcher node to send alerts to System Center Operations Manager.</span></span> <span data-ttu-id="9b117-108">このプロセスを簡単にするため、Operations Manager チームは、正しい種類の証明書を要求して監視ノード コンピューターにインストールできる一連のユーティリティを作成しました。</span><span class="sxs-lookup"><span data-stu-id="9b117-108">To simplify this process, the Operations Manager team has created a set of utilities that enable you to request and install the correct type of certificate on the watcher node computer.</span></span> <span data-ttu-id="9b117-109">詳細について、およびこれらのユーティリティをダウンロードするには、「証明書生成ウィザードを使用して簡単にドメインに参加[http://go.microsoft.com/fwlink/p/?LinkId=267421](http://go.microsoft.com/fwlink/p/?linkid=267421)していないエージェントの証明書を取得する」の記事を参照してください。</span><span class="sxs-lookup"><span data-stu-id="9b117-109">For details, and to download these utilities, see the "Obtaining Certificates for Non-Domain Joined Agents Made Easy With Certificate Generation Wizard" blog article at [http://go.microsoft.com/fwlink/p/?LinkId=267421](http://go.microsoft.com/fwlink/p/?linkid=267421).</span></span>
 
 </div>
 

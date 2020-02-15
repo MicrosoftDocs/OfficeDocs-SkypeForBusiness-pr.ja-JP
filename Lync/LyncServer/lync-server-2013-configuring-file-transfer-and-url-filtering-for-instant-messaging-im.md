@@ -1,5 +1,5 @@
 ---
-title: インスタントメッセージング (IM) のファイル転送と URL フィルタリングの構成
+title: インスタントメッセージング (IM) のファイル転送と URL フィルターを構成する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183440
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e6c5a6053118b14b68c49a7fdaa6f444aca7ad23
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b741418790c5faf11c566afb27a477a67beb71ac
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729027"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030611"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-file-transfer-and-url-filtering-for-instant-messaging-im-in-lync-server-2013"></a><span data-ttu-id="4515a-102">Lync Server 2013 でのインスタントメッセージング (IM) のファイル転送と URL フィルタリングの構成</span><span class="sxs-lookup"><span data-stu-id="4515a-102">Configuring file transfer and URL filtering for instant messaging (IM) in Lync Server 2013</span></span>
+# <a name="configuring-file-transfer-and-url-filtering-for-instant-messaging-im-in-lync-server-2013"></a><span data-ttu-id="a34f4-102">Lync Server 2013 でインスタントメッセージング (IM) 用のファイル転送および URL フィルターを構成する</span><span class="sxs-lookup"><span data-stu-id="a34f4-102">Configuring file transfer and URL filtering for instant messaging (IM) in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,51 +35,51 @@ ms.locfileid: "41729027"
 
 <span> </span>
 
-<span data-ttu-id="4515a-103">_**最終更新日:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="4515a-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="a34f4-103">_**トピックの最終更新日:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="a34f4-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="4515a-104">インテリジェント IM フィルターツールは、ユーザーエクスペリエンスの低下を最小限に抑えて、最も一般的な種類のウイルスの蔓延に対して Lync Server 2013 の展開を保護するのに役立ちます。</span><span class="sxs-lookup"><span data-stu-id="4515a-104">The Intelligent IM Filter tool helps protect your Lync Server 2013 deployment against the spread of the most common forms of viruses with minimal degradation to the user experience.</span></span> <span data-ttu-id="4515a-105">インテリジェント IM フィルターを使用して、組織外のエンドポイントからの不要または有害なインスタントメッセージをブロックするようにフィルターを設定します。</span><span class="sxs-lookup"><span data-stu-id="4515a-105">Use Intelligent IM Filter to configure filters to block unsolicited or potentially harmful instant messages from unknown endpoints outside the corporate firewall.</span></span> <span data-ttu-id="4515a-106">フィルターを設定するには、ブロックする必要があるものを決定するために使用する条件を指定します。たとえば、特定のプレフィックスと特定の拡張子を持つファイルが含まれるハイパーリンクを含むインスタントメッセージを作成します。</span><span class="sxs-lookup"><span data-stu-id="4515a-106">You configure filters by specifying the criteria to be used to determine what should be blocked, such as instant messages containing hyperlinks with specific prefixes and files with specific extensions.</span></span>
+<span data-ttu-id="a34f4-104">インテリジェント IM フィルターツールは、ユーザーの利便性を最小限に抑えながら、最も一般的な形式のウイルスの蔓延に対して Lync Server 2013 の展開を保護するのに役に立ちます。</span><span class="sxs-lookup"><span data-stu-id="a34f4-104">The Intelligent IM Filter tool helps protect your Lync Server 2013 deployment against the spread of the most common forms of viruses with minimal degradation to the user experience.</span></span> <span data-ttu-id="a34f4-105">インテリジェント IM フィルターを使用して、企業ファイアウォールの外側にある未知のエンドポイントから送信された、損害を与える可能性のある (または要求されていない) インスタント メッセージを禁止するようにフィルターを構成します。</span><span class="sxs-lookup"><span data-stu-id="a34f4-105">Use Intelligent IM Filter to configure filters to block unsolicited or potentially harmful instant messages from unknown endpoints outside the corporate firewall.</span></span> <span data-ttu-id="a34f4-106">フィルターを構成するには、禁止する対象 (特定のプレフィックスのハイパーリンクや、特定の拡張子のファイルを含むインスタント メッセージなど) を判断するための基準を指定します。</span><span class="sxs-lookup"><span data-stu-id="a34f4-106">You configure filters by specifying the criteria to be used to determine what should be blocked, such as instant messages containing hyperlinks with specific prefixes and files with specific extensions.</span></span>
 
-<span data-ttu-id="4515a-107">インテリジェント IM フィルターでは、次の機能が提供されます。</span><span class="sxs-lookup"><span data-stu-id="4515a-107">Intelligent IM Filter provides the following:</span></span>
+<span data-ttu-id="a34f4-107">インテリジェント IM フィルターには、以下の機能があります。</span><span class="sxs-lookup"><span data-stu-id="a34f4-107">Intelligent IM Filter provides the following:</span></span>
 
-  - <span data-ttu-id="4515a-108">強化された URL フィルター機能。</span><span class="sxs-lookup"><span data-stu-id="4515a-108">Enhanced URL filtering.</span></span>
+  - <span data-ttu-id="a34f4-108">拡張 URL フィルター。</span><span class="sxs-lookup"><span data-stu-id="a34f4-108">Enhanced URL filtering.</span></span>
 
-  - <span data-ttu-id="4515a-109">拡張されたファイル転送フィルター機能。</span><span class="sxs-lookup"><span data-stu-id="4515a-109">Enhanced file transfer filtering.</span></span>
+  - <span data-ttu-id="a34f4-109">拡張ファイル転送フィルター。</span><span class="sxs-lookup"><span data-stu-id="a34f4-109">Enhanced file transfer filtering.</span></span>
 
-<span data-ttu-id="4515a-110">インテリジェント IM フィルターを構成するには、次のものが含まれます。</span><span class="sxs-lookup"><span data-stu-id="4515a-110">Configuring Intelligent IM Filter includes the following:</span></span>
+<span data-ttu-id="a34f4-110">インテリジェント IM フィルターの構成には、以下を含みます。</span><span class="sxs-lookup"><span data-stu-id="a34f4-110">Configuring Intelligent IM Filter includes the following:</span></span>
 
-  - <span data-ttu-id="4515a-111">URL フィルタリングを構成する。</span><span class="sxs-lookup"><span data-stu-id="4515a-111">Configuring URL filtering.</span></span>
+  - <span data-ttu-id="a34f4-111">URL フィルターの構成。</span><span class="sxs-lookup"><span data-stu-id="a34f4-111">Configuring URL filtering.</span></span>
 
-  - <span data-ttu-id="4515a-112">ファイル転送フィルター処理を構成します。</span><span class="sxs-lookup"><span data-stu-id="4515a-112">Configuring file transfer filtering.</span></span>
-
-<div>
-
-## <a name="how-filtering-options-are-applied-to-instant-messages"></a><span data-ttu-id="4515a-113">フィルターオプションがインスタントメッセージに適用される方法</span><span class="sxs-lookup"><span data-stu-id="4515a-113">How Filtering Options Are Applied to Instant Messages</span></span>
-
-<span data-ttu-id="4515a-114">インテリジェント IM メッセージフィルターツールを展開する前に、メールが1つの Lync Server 2013 サーバーから別のサーバーにルーティングされるときのフィルターオプションの適用方法を理解しておく必要があります。</span><span class="sxs-lookup"><span data-stu-id="4515a-114">Before you deploy the Intelligent IM Message Filter tool, you need to understand how filtering options are applied as messages are routed from one Lync Server 2013 server to another.</span></span> <span data-ttu-id="4515a-115">これらのフィルターオプションの適用方法は、サーバーが1つの組織内に配置されているか、組織の境界を超えているかに関係なく一貫しています。</span><span class="sxs-lookup"><span data-stu-id="4515a-115">The way these filtering options are applied is consistent, regardless of whether the servers are located in a single organization or across organizational boundaries.</span></span> <span data-ttu-id="4515a-116">この一貫性は、カスタマイズされた通知や警告テキストをメッセージに挿入し、サーバー間で送信する方法に適用されます。</span><span class="sxs-lookup"><span data-stu-id="4515a-116">This consistency applies to the way that the customized notice and warning texts are inserted into messages and sent across servers.</span></span>
+  - <span data-ttu-id="a34f4-112">ファイル転送フィルターの構成。</span><span class="sxs-lookup"><span data-stu-id="a34f4-112">Configuring file transfer filtering.</span></span>
 
 <div>
 
+## <a name="how-filtering-options-are-applied-to-instant-messages"></a><span data-ttu-id="a34f4-113">インスタント メッセージ (IM) へのフィルター オプションの適用方法</span><span class="sxs-lookup"><span data-stu-id="a34f4-113">How Filtering Options Are Applied to Instant Messages</span></span>
 
-> [!NOTE]
-> <span data-ttu-id="4515a-117">インスタントメッセージフィルターは、メッセージ内の Url を処理するために必要な CPU リソースの量を増やします。</span><span class="sxs-lookup"><span data-stu-id="4515a-117">The instant message filter increases the amount of CPU resources required to process URLs in a message.</span></span> <span data-ttu-id="4515a-118">また、このような CPU 需要の増加は、Lync Server のパフォーマンスにも影響します。</span><span class="sxs-lookup"><span data-stu-id="4515a-118">This increase in CPU demand also affects the performance of Lync Server.</span></span>
-
-
-
-</div>
-
-<span data-ttu-id="4515a-119">Lync Server コントロールパネルの**IM とプレゼンス**グループで [ **URL フィルター** ] ページを使うと、一部またはすべてのハイパーリンクをブロックしたり、警告を構成したりすることができます。</span><span class="sxs-lookup"><span data-stu-id="4515a-119">By using the **URL Filter** page in the **IM and Presence** group in Lync Server Control Panel, you can block some or all hyperlinks or configure a warning.</span></span> <span data-ttu-id="4515a-120">**ハイパーリンクのプレフィックス**オプションを選択したときに**警告メッセージを送信**すると、ハイパーリンクが含まれているインスタントメッセージの先頭に警告が挿入されます。</span><span class="sxs-lookup"><span data-stu-id="4515a-120">The warning is inserted at the beginning of an instant message that contains a hyperlink when you choose the **Hyperlink prefix** option **Send warning message**.</span></span>
-
-<span data-ttu-id="4515a-121">インスタントメッセージがあるサーバーから別のサーバーに移動する場合、次の一般的なガイドラインが適用されます。</span><span class="sxs-lookup"><span data-stu-id="4515a-121">When an instant message travels from one server to another, the following general guidelines apply:</span></span>
-
-  - <span data-ttu-id="4515a-122">サーバーがインスタントメッセージをブロックしている場合 ([ **Url フィルター** ] ページで [**ファイル拡張子を含む url をブロック\*\*\*\*する] チェック**ボックスをオンにしている場合、または [ハイパーリンクの**接頭辞**] オプションを選択した場合)、クライアントにエラーメッセージが表示されます。</span><span class="sxs-lookup"><span data-stu-id="4515a-122">If a server blocks an instant message (because you selected the **Block URLs with file extension** check box on the **URL Filter** page or because you chose the **Hyperlink prefix** option **Block hyperlinks**), an error message is returned to the client.</span></span> <span data-ttu-id="4515a-123">後続のサーバーはこのインスタントメッセージを受け取りません。</span><span class="sxs-lookup"><span data-stu-id="4515a-123">Subsequent servers do not receive this instant message.</span></span>
-
-  - <span data-ttu-id="4515a-124">サーバー (Server1) がアクティブなハイパーリンクを含むインスタントメッセージに警告を追加した場合、その後のサーバー (Server2) は、インスタントメッセージに表示されているこのアクティブなハイパーリンクに基づいて別のアクションを実行することができます。インスタントメッセージまたは警告を追加します。</span><span class="sxs-lookup"><span data-stu-id="4515a-124">If a server (Server1) adds a warning to an instant message that contains an active hyperlink, a subsequent server (Server2) that receives this instant message can still take a different action based on this active hyperlink present in the instant message and block the instant message or add a warning.</span></span> <span data-ttu-id="4515a-125">Server2 がこの URL に対して警告を追加するように構成されている場合、Server1 によって追加された以前の警告が削除され、Server2 に設定されている警告がインスタントメッセージの先頭に追加されます。</span><span class="sxs-lookup"><span data-stu-id="4515a-125">If Server2 is configured only to add a warning for this URL, the earlier warning added by Server1 is removed, and the warning configured on Server2 is added to the beginning of the instant message.</span></span>
+<span data-ttu-id="a34f4-114">インテリジェント IM メッセージフィルターツールを展開する前に、Lync Server 2013 サーバー間でメッセージがルーティングされるときのフィルターオプションの適用方法を理解しておく必要があります。</span><span class="sxs-lookup"><span data-stu-id="a34f4-114">Before you deploy the Intelligent IM Message Filter tool, you need to understand how filtering options are applied as messages are routed from one Lync Server 2013 server to another.</span></span> <span data-ttu-id="a34f4-115">これらのサーバーが 1 つの組織内に配置されている場合も、組織の境界を越えて配置されている場合も、フィルター オプションが適用される方法は一貫しています。</span><span class="sxs-lookup"><span data-stu-id="a34f4-115">The way these filtering options are applied is consistent, regardless of whether the servers are located in a single organization or across organizational boundaries.</span></span> <span data-ttu-id="a34f4-116">カスタマイズされた通知、および警告テキストが、一貫した方法でメッセージに挿入され、サーバー間で送信されます。</span><span class="sxs-lookup"><span data-stu-id="a34f4-116">This consistency applies to the way that the customized notice and warning texts are inserted into messages and sent across servers.</span></span>
 
 <div>
 
 
 > [!NOTE]
-> <span data-ttu-id="4515a-126">混在環境で Lync Server 2013 を実行している場合、インテリジェント IM フィルターアプリケーションを使用するために必要な最小バージョンは、Live Communications Server 2005 SP1 です。</span><span class="sxs-lookup"><span data-stu-id="4515a-126">If you are running Lync Server 2013 in a mixed environment, Live Communications Server 2005 with SP1 is the minimum version required to use the Intelligent IM Filter application.</span></span> <span data-ttu-id="4515a-127">インテリジェント IM フィルターは、SP1 が適用されていない Live Communications Server 2005 ではサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="4515a-127">The Intelligent IM Filter is not supported on Live Communications Server 2005 without SP1.</span></span>
+> <span data-ttu-id="a34f4-117">インスタント メッセージ フィルターを使用すると、メッセージ中の URL を処理するために必要な CPU リソースの量が増加します。</span><span class="sxs-lookup"><span data-stu-id="a34f4-117">The instant message filter increases the amount of CPU resources required to process URLs in a message.</span></span> <span data-ttu-id="a34f4-118">この CPU 需要の増加は、Lync Server のパフォーマンスにも影響します。</span><span class="sxs-lookup"><span data-stu-id="a34f4-118">This increase in CPU demand also affects the performance of Lync Server.</span></span>
+
+
+
+</div>
+
+<span data-ttu-id="a34f4-119">Lync Server コントロールパネルの**IM およびプレゼンス**グループの**URL フィルター**ページを使用すると、一部またはすべてのハイパーリンクをブロックしたり、警告を構成したりすることができます。</span><span class="sxs-lookup"><span data-stu-id="a34f4-119">By using the **URL Filter** page in the **IM and Presence** group in Lync Server Control Panel, you can block some or all hyperlinks or configure a warning.</span></span> <span data-ttu-id="a34f4-120">警告は、[**ハイパーリンク プレフィックス**] オプションの [**警告メッセージを送信する**] を選択している場合に、ハイパーリンクを含むインスタント メッセージの先頭に挿入されます。</span><span class="sxs-lookup"><span data-stu-id="a34f4-120">The warning is inserted at the beginning of an instant message that contains a hyperlink when you choose the **Hyperlink prefix** option **Send warning message**.</span></span>
+
+<span data-ttu-id="a34f4-121">インスタント メッセージがサーバー間で転送される場合、次の一般的なガイドラインが適用されます。</span><span class="sxs-lookup"><span data-stu-id="a34f4-121">When an instant message travels from one server to another, the following general guidelines apply:</span></span>
+
+  - <span data-ttu-id="a34f4-p105">サーバーでインスタント メッセージが禁止されている ([**URL フィルター**] ページの [**ファイル拡張子を含む URL を禁止する**] チェック ボックスがオンになっている、または [**ハイパーリンク プレフィックス**] オプションの [**ハイパーリンクを禁止する**] が選択されているため) 場合、クライアントにエラー メッセージが返されます。 後続のサーバーには、このインスタント メッセージは転送されません。</span><span class="sxs-lookup"><span data-stu-id="a34f4-p105">If a server blocks an instant message (because you selected the **Block URLs with file extension** check box on the **URL Filter** page or because you chose the **Hyperlink prefix** option **Block hyperlinks**), an error message is returned to the client. Subsequent servers do not receive this instant message.</span></span>
+
+  - <span data-ttu-id="a34f4-p106">アクティブ ハイパーリンクが含まれるインスタント メッセージにあるサーバー (Server1) で警告が追加されても、このインスタント メッセージを受信する後続のサーバー (Server2) では、インスタント メッセージに含まれるこのアクティブ ハイパーリンクに基づいて別の処理を実行でき、インスタント メッセージの禁止または警告の追加を行うことができます。Server2 がこの URL について警告の追加のみを行うように構成されている場合は、Server1 によって事前に追加された警告は削除され、Server2 で構成された警告がインスタント メッセージの先頭に追加されます。</span><span class="sxs-lookup"><span data-stu-id="a34f4-p106">If a server (Server1) adds a warning to an instant message that contains an active hyperlink, a subsequent server (Server2) that receives this instant message can still take a different action based on this active hyperlink present in the instant message and block the instant message or add a warning. If Server2 is configured only to add a warning for this URL, the earlier warning added by Server1 is removed, and the warning configured on Server2 is added to the beginning of the instant message.</span></span>
+
+<div>
+
+
+> [!NOTE]
+> <span data-ttu-id="a34f4-126">Lync Server 2013 を混在環境で実行している場合は、インテリジェント IM フィルターアプリケーションを使用するために必要な最低限のバージョンは Live Communications Server 2005 SP1 です。</span><span class="sxs-lookup"><span data-stu-id="a34f4-126">If you are running Lync Server 2013 in a mixed environment, Live Communications Server 2005 with SP1 is the minimum version required to use the Intelligent IM Filter application.</span></span> <span data-ttu-id="a34f4-127">インテリジェント IM フィルターは、SP1 が適用されていない Live Communications Server 2005 ではサポートされません。</span><span class="sxs-lookup"><span data-stu-id="a34f4-127">The Intelligent IM Filter is not supported on Live Communications Server 2005 without SP1.</span></span>
 
 
 
@@ -87,80 +87,80 @@ ms.locfileid: "41729027"
 
 <div>
 
-## <a name="url-filtering"></a><span data-ttu-id="4515a-128">URL フィルター</span><span class="sxs-lookup"><span data-stu-id="4515a-128">URL Filtering</span></span>
+## <a name="url-filtering"></a><span data-ttu-id="a34f4-128">URL フィルター</span><span class="sxs-lookup"><span data-stu-id="a34f4-128">URL Filtering</span></span>
 
-<span data-ttu-id="4515a-129">Url は、ハイパーリンクのプレフィックスに基づいてフィルター処理されます。</span><span class="sxs-lookup"><span data-stu-id="4515a-129">URLs are filtered according to their hyperlink prefix.</span></span> <span data-ttu-id="4515a-130">有効なプレフィックスの例を次に示します。</span><span class="sxs-lookup"><span data-stu-id="4515a-130">The following examples are valid prefixes:</span></span>
+<span data-ttu-id="a34f4-p108">URL は、そのハイパーリンク プレフィックスに応じてフィルター処理されます。 次の例は、有効なプレフィックスです。</span><span class="sxs-lookup"><span data-stu-id="a34f4-p108">URLs are filtered according to their hyperlink prefix. The following examples are valid prefixes:</span></span>
 
-  - <span data-ttu-id="4515a-131">www\*。</span><span class="sxs-lookup"><span data-stu-id="4515a-131">www\*.</span></span>
+  - <span data-ttu-id="a34f4-131">www\*。</span><span class="sxs-lookup"><span data-stu-id="a34f4-131">www\*.</span></span>
 
-  - <span data-ttu-id="4515a-132">プロトコル.</span><span class="sxs-lookup"><span data-stu-id="4515a-132">ftp.</span></span>
+  - <span data-ttu-id="a34f4-132">転送.</span><span class="sxs-lookup"><span data-stu-id="a34f4-132">ftp.</span></span>
 
-  - <span data-ttu-id="4515a-133">http</span><span class="sxs-lookup"><span data-stu-id="4515a-133">http:</span></span>
+  - <span data-ttu-id="a34f4-133">プロトコル</span><span class="sxs-lookup"><span data-stu-id="a34f4-133">http:</span></span>
 
-<span data-ttu-id="4515a-134">任意の URL フィルター処理を実行するようにインスタントメッセージフィルターを構成していない場合、インスタントメッセージに含まれるすべての Url は、そのままサーバー経由で転送されます。</span><span class="sxs-lookup"><span data-stu-id="4515a-134">If you do not configure the instant message filter to perform any URL filtering, all URLs contained in instant messages are passed unmodified through the server.</span></span> <span data-ttu-id="4515a-135">URL フィルタリングを実行するようにインスタントメッセージフィルターを構成した場合、インスタントメッセージ内の Url は、[ **Url フィルターの編集**] または [**新しい url フィルター** ] ダイアログボックスで選択したオプションに基づいてフィルター処理されます。</span><span class="sxs-lookup"><span data-stu-id="4515a-135">If you configure the instant message filter to perform URL filtering, URLs in instant messages are filtered according to the options that you select in the **Edit URL Filter** or **New URL Filter** dialog box.</span></span>
+<span data-ttu-id="a34f4-p109">URL フィルター処理を実行するためにインスタント メッセージ フィルターを構成していない場合、インスタント メッセージに含まれるすべての URL がサーバーを介してそのまま渡されます。 URL フィルター処理を実行するためにインスタント メッセージ フィルターを構成している場合、インスタント メッセージ内の URL は、[**URL フィルターの編集**] または [**URL フィルターの新規作成**] ダイアログ ボックスで選択するオプションに応じてフィルター処理されます。</span><span class="sxs-lookup"><span data-stu-id="a34f4-p109">If you do not configure the instant message filter to perform any URL filtering, all URLs contained in instant messages are passed unmodified through the server. If you configure the instant message filter to perform URL filtering, URLs in instant messages are filtered according to the options that you select in the **Edit URL Filter** or **New URL Filter** dialog box.</span></span>
 
-  - <span data-ttu-id="4515a-136">**[Url フィルター**   を有効にする] グローバル展開または選択したサイトの url フィルタリングを有効にします。</span><span class="sxs-lookup"><span data-stu-id="4515a-136">**Enable URL filter**   This option enables URL filtering for the global deployment or for the site that you select.</span></span>
+  - <span data-ttu-id="a34f4-136">**[Url フィルター**   を有効にする] このオプションは、グローバル展開または選択したサイトの url フィルターを有効にします。</span><span class="sxs-lookup"><span data-stu-id="a34f4-136">**Enable URL filter**   This option enables URL filtering for the global deployment or for the site that you select.</span></span>
 
-  - <span data-ttu-id="4515a-137">**ファイル拡張子**   の付いた url をブロックするインスタントメッセージフィルターは、[**ファイルフィルターの編集**] ダイアログボックスで**ブロックするファイルの種類**の拡張子の下に表示されている拡張子を持つファイルを含む、アクティブなイントラネットまたはインターネット URL をブロックします。</span><span class="sxs-lookup"><span data-stu-id="4515a-137">**Block URLs with file extension**   The instant message filter blocks any active intranet or Internet URL that contains a file with an extension listed under **File type extensions to block** in the **Edit File Filter** dialog box.</span></span> <span data-ttu-id="4515a-138">URL がブロックされると、送信者にエラーメッセージが表示されます。</span><span class="sxs-lookup"><span data-stu-id="4515a-138">When a URL is blocked, an error message is displayed to the sender.</span></span> <span data-ttu-id="4515a-139">このオプションは、[**ブロックするファイルの種類の拡張子**] で定義されているすべてのファイル拡張子について、他のすべてのフィルターオプションよりも優先されます。</span><span class="sxs-lookup"><span data-stu-id="4515a-139">When selected, this option takes precedence over all other filtering options for any file extensions defined under **File type extensions to block**.</span></span>
+  - <span data-ttu-id="a34f4-137">**[ファイル拡張子**   を持つ url をブロックする] インスタントメッセージフィルターは、アクティブなイントラネットまたはインターネット URL で、[ファイル**フィルターの編集**] ダイアログボックスの [**ブロックするファイルの種類の拡張子**] の下に、拡張子が表示されているファイルが含まれているものをブロックします。</span><span class="sxs-lookup"><span data-stu-id="a34f4-137">**Block URLs with file extension**   The instant message filter blocks any active intranet or Internet URL that contains a file with an extension listed under **File type extensions to block** in the **Edit File Filter** dialog box.</span></span> <span data-ttu-id="a34f4-138">URL がブロックされると、送信者にエラーメッセージが表示されます。</span><span class="sxs-lookup"><span data-stu-id="a34f4-138">When a URL is blocked, an error message is displayed to the sender.</span></span> <span data-ttu-id="a34f4-139">このオプションを選択すると、[**ブロックするファイルの種類の拡張子**] で定義されているすべてのファイル拡張子について、他のすべてのフィルターオプションよりも優先されます。</span><span class="sxs-lookup"><span data-stu-id="a34f4-139">When selected, this option takes precedence over all other filtering options for any file extensions defined under **File type extensions to block**.</span></span>
     
     <div>
     
 
     > [!IMPORTANT]
-    > <span data-ttu-id="4515a-140">ファイル拡張子のフィルター処理は、標準のファイル名に制限されています。</span><span class="sxs-lookup"><span data-stu-id="4515a-140">Filtering of file extensions is limited to standard file names.</span></span> <span data-ttu-id="4515a-141">他の名前に埋め込まれているファイル拡張子では、フィルター処理が機能しないことがあります。</span><span class="sxs-lookup"><span data-stu-id="4515a-141">Filtering may not work with file extensions embedded in other names.</span></span>
+    > <span data-ttu-id="a34f4-140">ファイル拡張子のフィルター処理は、標準的なファイル名のみに制限されています。</span><span class="sxs-lookup"><span data-stu-id="a34f4-140">Filtering of file extensions is limited to standard file names.</span></span> <span data-ttu-id="a34f4-141">ファイル拡張子が他の名前に埋め込まれている場合は、フィルターが機能しない場合があります。</span><span class="sxs-lookup"><span data-stu-id="a34f4-141">Filtering may not work with file extensions embedded in other names.</span></span>
 
     
     </div>
 
-<span data-ttu-id="4515a-142">インスタントメッセージの会話でハイパーリンクを処理する方法を構成するには、[**ハイパーリンクの接頭**文字] で次のいずれかのオプションを選択します。</span><span class="sxs-lookup"><span data-stu-id="4515a-142">To configure how hyperlinks are handled in instant message conversations, select one of the following options under **Hyperlink prefix**:</span></span>
+<span data-ttu-id="a34f4-142">インスタント メッセージ会話でのハイパーリンクの処理方法を構成するには、[**ハイパーリンク プレフィックス**] で次のいずれかのオプションを選択します。</span><span class="sxs-lookup"><span data-stu-id="a34f4-142">To configure how hyperlinks are handled in instant message conversations, select one of the following options under **Hyperlink prefix**:</span></span>
 
-  - <span data-ttu-id="4515a-143">\*\*\*\*   メッセージ内の url をフィルター処理しないでください。</span><span class="sxs-lookup"><span data-stu-id="4515a-143">**Do not filter**   URLs in messages are sent through the server.</span></span> <span data-ttu-id="4515a-144">このオプションを選択すると、[**許可] メッセージ**ボックスが表示されます。</span><span class="sxs-lookup"><span data-stu-id="4515a-144">When you choose this option, the **Allow message** box appears.</span></span> <span data-ttu-id="4515a-145">[**許可] メッセージ**ボックスで、ハイパーリンクが含まれている各インスタントメッセージの先頭に挿入する通知を指定します。</span><span class="sxs-lookup"><span data-stu-id="4515a-145">In the **Allow message** box, specify the notice that you want to insert at the beginning of each instant message containing hyperlinks.</span></span> <span data-ttu-id="4515a-146">この通知は、65535文字以下で構成することができます。</span><span class="sxs-lookup"><span data-stu-id="4515a-146">This notice can consist of no more than 65535 characters.</span></span>
+  - <span data-ttu-id="a34f4-143">\*\*\*\*   サーバーを経由して送信されるメッセージ内の url にフィルターを適用しません。</span><span class="sxs-lookup"><span data-stu-id="a34f4-143">**Do not filter**   URLs in messages are sent through the server.</span></span> <span data-ttu-id="a34f4-144">このオプションを選択すると、[**許可] メッセージ**ボックスが表示されます。</span><span class="sxs-lookup"><span data-stu-id="a34f4-144">When you choose this option, the **Allow message** box appears.</span></span> <span data-ttu-id="a34f4-145">[**許可] メッセージ**ボックスで、ハイパーリンクを含む各インスタントメッセージの先頭に挿入する通知を指定します。</span><span class="sxs-lookup"><span data-stu-id="a34f4-145">In the **Allow message** box, specify the notice that you want to insert at the beginning of each instant message containing hyperlinks.</span></span> <span data-ttu-id="a34f4-146">この通知は、65535文字以下で構成することができます。</span><span class="sxs-lookup"><span data-stu-id="a34f4-146">This notice can consist of no more than 65535 characters.</span></span>
 
-  - <span data-ttu-id="4515a-147">**ハイパーリンクをブロック**   するアクティブなハイパーリンクを含むインスタントメッセージの配信は、Lync Server によってブロックされ、送信者にエラーメッセージが表示されます。</span><span class="sxs-lookup"><span data-stu-id="4515a-147">**Block hyperlinks**   Delivery of instant messages containing active hyperlinks is blocked by Lync Server, and an error message is displayed to the sender.</span></span>
+  - <span data-ttu-id="a34f4-147">**[ハイパーリンク**   を禁止する] アクティブなハイパーリンクを含むインスタントメッセージの配信が Lync Server によってブロックされ、送信者にエラーメッセージが表示されます。</span><span class="sxs-lookup"><span data-stu-id="a34f4-147">**Block hyperlinks**   Delivery of instant messages containing active hyperlinks is blocked by Lync Server, and an error message is displayed to the sender.</span></span>
 
-  - <span data-ttu-id="4515a-148">**警告メッセージ**   の送信 Lync Server では、インスタントメッセージ内にアクティブなハイパーリンクが許可されていますが、警告が含まれています。</span><span class="sxs-lookup"><span data-stu-id="4515a-148">**Send warning message**   Lync Server permits active hyperlinks in instant messages, but it includes a warning.</span></span> <span data-ttu-id="4515a-149">このオプションを選択すると、**警告メッセージ**ボックスが表示されます。</span><span class="sxs-lookup"><span data-stu-id="4515a-149">When you choose this option, the **Warning message** box appears.</span></span> <span data-ttu-id="4515a-150">[**警告メッセージ**] ボックスに、有効なハイパーリンクが含まれたインスタントメッセージに含める警告を入力する必要があります。</span><span class="sxs-lookup"><span data-stu-id="4515a-150">In the **Warning message** box, you must type the warning that you want to include with instant messages containing valid hyperlinks.</span></span> <span data-ttu-id="4515a-151">たとえば、この警告は、不明なリンクをクリックしたときに発生する可能性のある危険を示す可能性があります。または、組織の関連ポリシーと要件を参照している可能性があります。</span><span class="sxs-lookup"><span data-stu-id="4515a-151">For example, this warning might state the potential dangers of clicking an unknown link, or it might refer to your organization’s relevant policies and requirements.</span></span> <span data-ttu-id="4515a-152">警告は65535文字以下でなければなりません。</span><span class="sxs-lookup"><span data-stu-id="4515a-152">The warning can be no more than 65535 characters.</span></span>
+  - <span data-ttu-id="a34f4-148">**[警告メッセージ**   を送信する] インスタントメッセージ内でアクティブなハイパーリンクが許可されていますが、警告が含まれています。</span><span class="sxs-lookup"><span data-stu-id="a34f4-148">**Send warning message**   Lync Server permits active hyperlinks in instant messages, but it includes a warning.</span></span> <span data-ttu-id="a34f4-149">このオプションを選択した場合は、[**警告メッセージ**] ボックスが表示されます。</span><span class="sxs-lookup"><span data-stu-id="a34f4-149">When you choose this option, the **Warning message** box appears.</span></span> <span data-ttu-id="a34f4-150">[**警告メッセージ**] ボックスでは、有効なハイパーリンクを含むインスタント メッセージに添付する警告を入力する必要があります。</span><span class="sxs-lookup"><span data-stu-id="a34f4-150">In the **Warning message** box, you must type the warning that you want to include with instant messages containing valid hyperlinks.</span></span> <span data-ttu-id="a34f4-151">たとえば、この警告は、未知のリンクをクリックすることで発生する可能性のある危険の提示や、組織の関連ポリシーや要件への参照などを通知します。</span><span class="sxs-lookup"><span data-stu-id="a34f4-151">For example, this warning might state the potential dangers of clicking an unknown link, or it might refer to your organization’s relevant policies and requirements.</span></span> <span data-ttu-id="a34f4-152">この警告には、65,535 文字まで使用できます。</span><span class="sxs-lookup"><span data-stu-id="a34f4-152">The warning can be no more than 65535 characters.</span></span>
 
-<span data-ttu-id="4515a-153">[ハイパーリンクの**ブロック**] または [**警告メッセージの送信**] を選択した場合は、次のオプションを使用できます。</span><span class="sxs-lookup"><span data-stu-id="4515a-153">If you select **Block hyperlinks** or **Send warning message**, the following options are available:</span></span>
+<span data-ttu-id="a34f4-153">[**ハイパーリンクを禁止する**] または [**警告メッセージを送信する**] を選択する場合、次のオプションを使用できます。</span><span class="sxs-lookup"><span data-stu-id="a34f4-153">If you select **Block hyperlinks** or **Send warning message**, the following options are available:</span></span>
 
-  - <span data-ttu-id="4515a-154">**ローカルイントラネットのハイパーリンク**   を除外するインスタントメッセージフィルターでは、インターネットの url のみがブロックされます。</span><span class="sxs-lookup"><span data-stu-id="4515a-154">**Exclude local intranet hyperlinks**   The instant message filter blocks only Internet URLs.</span></span> <span data-ttu-id="4515a-155">イントラネット内の場所の Url は、サーバー経由では変更されません。</span><span class="sxs-lookup"><span data-stu-id="4515a-155">URLs for locations within your intranet are passed unmodified through the server.</span></span> <span data-ttu-id="4515a-156">ただし、Lync Server を実行している個々のサーバーがパスするイントラネット Url は、イントラネットゾーンの一部と見なされるローカル web サイトの種類によって異なります。</span><span class="sxs-lookup"><span data-stu-id="4515a-156">However, the intranet URLs that individual servers running Lync Server pass depend on which types of local websites are considered part of their intranet zone.</span></span> <span data-ttu-id="4515a-157">サーバーのイントラネットゾーンの設定を確認するには、「 [Lync server 2013 の既定の URL フィルターを変更](lync-server-2013-modify-the-default-url-filter.md)する」の手順の「Internet Explorer でイントラネット設定を構成する」の手順を参照してください。</span><span class="sxs-lookup"><span data-stu-id="4515a-157">To check a server’s intranet zone settings, see the “To configure your intranet settings in Internet Explorer” procedure in [Modify the default URL filter in Lync Server 2013](lync-server-2013-modify-the-default-url-filter.md).</span></span>
+  - <span data-ttu-id="a34f4-154">**ローカルイントラネットのハイパーリンク**   を除外するインスタントメッセージフィルターはインターネットの url のみをブロックします。</span><span class="sxs-lookup"><span data-stu-id="a34f4-154">**Exclude local intranet hyperlinks**   The instant message filter blocks only Internet URLs.</span></span> <span data-ttu-id="a34f4-155">イントラネット内の場所の Url は、サーバーを通じて変更されずに渡されます。</span><span class="sxs-lookup"><span data-stu-id="a34f4-155">URLs for locations within your intranet are passed unmodified through the server.</span></span> <span data-ttu-id="a34f4-156">ただし、Lync Server を実行している個々のサーバーが渡すイントラネット Url は、イントラネットゾーンの一部と見なされるローカル web サイトの種類によって異なります。</span><span class="sxs-lookup"><span data-stu-id="a34f4-156">However, the intranet URLs that individual servers running Lync Server pass depend on which types of local websites are considered part of their intranet zone.</span></span> <span data-ttu-id="a34f4-157">サーバーのイントラネットゾーン設定を確認するには、「 [Modify the DEFAULT URL filter In Lync server 2013](lync-server-2013-modify-the-default-url-filter.md)」の「Internet Explorer でイントラネット設定を構成するには」の手順を参照してください。</span><span class="sxs-lookup"><span data-stu-id="a34f4-157">To check a server’s intranet zone settings, see the “To configure your intranet settings in Internet Explorer” procedure in [Modify the default URL filter in Lync Server 2013](lync-server-2013-modify-the-default-url-filter.md).</span></span>
 
-  - <span data-ttu-id="4515a-158">**このハイパーリンクプレフィックス**   をフィルター処理して、ブロックするプレフィックスを選択し、[**選択**] をクリックして、[**ハイパーリンクプレフィックスの選択**] で [**ハイパーリンク**プレフィックス] の一覧にプレフィックスを追加します。</span><span class="sxs-lookup"><span data-stu-id="4515a-158">**Filter these hyperlink prefixes**   To choose which prefixes you want to block, click **Select**, and then, in **Select Hyperlink Prefix**, add the prefixes to the **Hyperlink prefixes** list.</span></span>
+  - <span data-ttu-id="a34f4-158">**[以下のハイパーリンクプレフィックス**   をフィルターする] 禁止するプレフィックスを選択するには、[**選択**] をクリックし、[**ハイパーリンクプレフィックスの選択**] で、プレフィックスを [**ハイパーリンク**プレフィックス] の一覧に追加します。</span><span class="sxs-lookup"><span data-stu-id="a34f4-158">**Filter these hyperlink prefixes**   To choose which prefixes you want to block, click **Select**, and then, in **Select Hyperlink Prefix**, add the prefixes to the **Hyperlink prefixes** list.</span></span>
     
-    <span data-ttu-id="4515a-159">**Href**を除くすべてのプレフィックスは、ピリオドまたはコロンで終わるか、アスタリスクの後にピリオドが続いている必要があります。</span><span class="sxs-lookup"><span data-stu-id="4515a-159">All prefixes except **href** must end with a period or a colon, or an asterisk followed by a period.</span></span> <span data-ttu-id="4515a-160">有効なプレフィックスには、アスタリスク (\*) を除く、有効な URL 文字のセット内の任意の文字を含めることができます。</span><span class="sxs-lookup"><span data-stu-id="4515a-160">Valid prefixes can contain any characters in the set of valid URL characters except the asterisk (\*).</span></span> <span data-ttu-id="4515a-161">有効な URL 文字のセットは次\# \*のとおりです。 +/\_ \` 0123456789 = @ABCDEFGHIJKLMNOPQRSTUVWXYZ ^ ABCDEFGHIJKLMNOPQRSTUVWXYZ | ~</span><span class="sxs-lookup"><span data-stu-id="4515a-161">The set of valid URL characters is: \#\*+/0123456789=@ABCDEFGHIJKLMNOPQRSTUVWXYZ^\_\` abcdefghijklmnopqrstuvwxyz|~</span></span>
+    <span data-ttu-id="a34f4-159">**href** 以外のすべてのプレフィックスは、末尾がピリオドまたはコロンであるか、アスタリスクとそれに続くピリオドである必要があります。</span><span class="sxs-lookup"><span data-stu-id="a34f4-159">All prefixes except **href** must end with a period or a colon, or an asterisk followed by a period.</span></span> <span data-ttu-id="a34f4-160">有効なプレフィックスには、アスタリスク (\*) を除く、有効な URL 文字のセット内の任意の文字を含めることができます。</span><span class="sxs-lookup"><span data-stu-id="a34f4-160">Valid prefixes can contain any characters in the set of valid URL characters except the asterisk (\*).</span></span> <span data-ttu-id="a34f4-161">有効な URL 文字のセットは次\# \*のとおりです。 +/\_ \` 0123456789 = @ABCDEFGHIJKLMNOPQRSTUVWXYZ ^ ABCDEFGHIJKLMNOPQRSTUVWXYZ | ~</span><span class="sxs-lookup"><span data-stu-id="a34f4-161">The set of valid URL characters is: \#\*+/0123456789=@ABCDEFGHIJKLMNOPQRSTUVWXYZ^\_\` abcdefghijklmnopqrstuvwxyz|~</span></span>
 
 </div>
 
 <div>
 
-## <a name="file-transfer-filtering"></a><span data-ttu-id="4515a-162">ファイル転送フィルター処理</span><span class="sxs-lookup"><span data-stu-id="4515a-162">File Transfer Filtering</span></span>
+## <a name="file-transfer-filtering"></a><span data-ttu-id="a34f4-162">ファイル転送フィルター処理</span><span class="sxs-lookup"><span data-stu-id="a34f4-162">File Transfer Filtering</span></span>
 
-<span data-ttu-id="4515a-163">フィルター転送フィルターは、インスタントメッセージと会議の両方に影響します。</span><span class="sxs-lookup"><span data-stu-id="4515a-163">Filter transfer filtering affects both instant messages and conferences.</span></span> <span data-ttu-id="4515a-164">会議の場合、これらの設定は、Office Live Meeting 2007 クライアントとマルチメディア再生機能の配布資料機能に影響します。</span><span class="sxs-lookup"><span data-stu-id="4515a-164">For conferences, these settings affect the handout feature in the Office Live Meeting 2007 client and multimedia playback features.</span></span>
+<span data-ttu-id="a34f4-p116">ファイル転送フィルター処理は、インスタント メッセージと会議の両方に影響します。 会議の場合、これらの設定は、Office Live Meeting 2007 クライアントの配布資料機能とマルチメディア再生機能に影響します。</span><span class="sxs-lookup"><span data-stu-id="a34f4-p116">Filter transfer filtering affects both instant messages and conferences. For conferences, these settings affect the handout feature in the Office Live Meeting 2007 client and multimedia playback features.</span></span>
 
 <div>
 
 
 > [!NOTE]
-> <span data-ttu-id="4515a-165">Lync Server では、ファイル転送設定オプションも提供されています。</span><span class="sxs-lookup"><span data-stu-id="4515a-165">Lync Server also offers file transfer setting options.</span></span> <span data-ttu-id="4515a-166">このサーバー側のオプションは、Lync Server で利用可能なクライアント側のコントロールに加えて提供されています。</span><span class="sxs-lookup"><span data-stu-id="4515a-166">This server-side option is offered in addition to the client-side controls available in Lync Server.</span></span>
+> <span data-ttu-id="a34f4-165">Lync Server では、ファイル転送設定オプションも提供されています。</span><span class="sxs-lookup"><span data-stu-id="a34f4-165">Lync Server also offers file transfer setting options.</span></span> <span data-ttu-id="a34f4-166">このサーバー側のオプションは、Lync Server で使用可能なクライアント側のコントロールに加えて提供されています。</span><span class="sxs-lookup"><span data-stu-id="a34f4-166">This server-side option is offered in addition to the client-side controls available in Lync Server.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="4515a-167">Office Live Meeting 2007 クライアントで配布資料機能を使用している場合、またはすべてのファイルの種類に対してマルチメディア再生機能を使用している場合、インスタントメッセージの会話中にファイル転送をフィルター処理することができます。</span><span class="sxs-lookup"><span data-stu-id="4515a-167">You can filter file transfers during instant message conversations, when you are using the handout feature in the Office Live Meeting 2007 client, and for multimedia playback features for all file types.</span></span> <span data-ttu-id="4515a-168">ファイル転送を制御するために、次のオプションを設定できます。</span><span class="sxs-lookup"><span data-stu-id="4515a-168">You can set the following options to control file transfers:</span></span>
+<span data-ttu-id="a34f4-p118">すべての種類のファイルについて、Office Live Meeting 2007 クライアントの配付資料機能の使用時、およびマルチメディア再生機能で、インスタント メッセージの会話中にファイル転送をフィルター処理できます。 次のオプションを設定して、ファイル転送を制御できます。</span><span class="sxs-lookup"><span data-stu-id="a34f4-p118">You can filter file transfers during instant message conversations, when you are using the handout feature in the Office Live Meeting 2007 client, and for multimedia playback features for all file types. You can set the following options to control file transfers:</span></span>
 
-  - <span data-ttu-id="4515a-169">**[ファイルフィルター**   を有効にする] このオプションをオンにすると、グローバル展開または選択したサイトに対してファイルのフィルターが有効になります。</span><span class="sxs-lookup"><span data-stu-id="4515a-169">**Enable file filter**   This option enables file filtering for the global deployment or for the site that you select.</span></span>
+  - <span data-ttu-id="a34f4-169">**[ファイルフィルター**   を有効にする] このオプションは、グローバル展開または選択したサイトのファイルフィルターを有効にします。</span><span class="sxs-lookup"><span data-stu-id="a34f4-169">**Enable file filter**   This option enables file filtering for the global deployment or for the site that you select.</span></span>
     
-    <span data-ttu-id="4515a-170">ファイルフィルターを有効にすると、[**ファイル送信**] で次のいずれかのオプションを選ぶことができます。</span><span class="sxs-lookup"><span data-stu-id="4515a-170">When you enable the file filter, you can choose one of the following options in **File transfer**:</span></span>
+    <span data-ttu-id="a34f4-170">ファイル フィルターを有効にすると、[**ファイル転送**] で次のオプションのうちの 1 つを選択できます。</span><span class="sxs-lookup"><span data-stu-id="a34f4-170">When you enable the file filter, you can choose one of the following options in **File transfer**:</span></span>
     
-      - <span data-ttu-id="4515a-171">**特定の種類**   のファイルをブロックするブロックするファイル拡張子の一覧を指定して、サーバーによってフィルター処理されるファイル転送要求を指定します。</span><span class="sxs-lookup"><span data-stu-id="4515a-171">**Block specific file types**   You specify which file transfer requests are filtered by the server by specifying a list of file extensions to block.</span></span> <span data-ttu-id="4515a-172">リスト内のエントリには、すべての標準文字を含めることができ\*ますが、ワイルドカード文字 () は使用できません。</span><span class="sxs-lookup"><span data-stu-id="4515a-172">Entries in the list can contain all standard characters, but not the wildcard character (\*).</span></span> <span data-ttu-id="4515a-173">Office Live Meeting 2007 クライアントでは、配布資料機能は有効になっていますが、この拡張子のファイルをアップロードまたはダウンロードすることはできません。</span><span class="sxs-lookup"><span data-stu-id="4515a-173">In the Office Live Meeting 2007 client the handout feature is enabled, but any file with this extension cannot be uploaded or downloaded.</span></span> <span data-ttu-id="4515a-174">[ **Url フィルター** ] タブに表示されている url フィルターの設定で、[**ファイル拡張子を含む url をブロック**する] チェックボックスをオンにした場合、url フィルターはこの同じリストを使って、これらのファイル拡張子を含むアクティブなハイパーリンクをブロックします。</span><span class="sxs-lookup"><span data-stu-id="4515a-174">If you select the **Block URLs with file extension** check box on the settings for a URL filter listed on the **URL Filter** tab, the URL filter uses this same list to block active hyperlinks that contain any of these file extensions.</span></span> <span data-ttu-id="4515a-175">ブロックするファイルの種類を選択するには、[**選択**] をクリックし、[**ファイルの種類の選択**] で、選択したファイルの種類の**拡張子**の一覧にファイルの種類の拡張子を追加します。</span><span class="sxs-lookup"><span data-stu-id="4515a-175">To choose which file types you want to block, click **Select**, and then, in **Select File Type**, add the file type extensions to the **Selected file type extensions** list.</span></span>
+      - <span data-ttu-id="a34f4-171">**特定のファイルの種類**   をブロックするブロックするファイル拡張子の一覧を指定して、サーバーによってフィルター処理されるファイル転送要求を指定します。</span><span class="sxs-lookup"><span data-stu-id="a34f4-171">**Block specific file types**   You specify which file transfer requests are filtered by the server by specifying a list of file extensions to block.</span></span> <span data-ttu-id="a34f4-172">リスト内のエントリには、すべての標準文字を含めることができ\*ますが、ワイルドカード文字 () は使用できません。</span><span class="sxs-lookup"><span data-stu-id="a34f4-172">Entries in the list can contain all standard characters, but not the wildcard character (\*).</span></span> <span data-ttu-id="a34f4-173">Office Live Meeting 2007 クライアントでは、配布資料機能は有効になっていますが、この拡張子を持つすべてのファイルをアップロードまたはダウンロードすることはできません。</span><span class="sxs-lookup"><span data-stu-id="a34f4-173">In the Office Live Meeting 2007 client the handout feature is enabled, but any file with this extension cannot be uploaded or downloaded.</span></span> <span data-ttu-id="a34f4-174">[ **Url フィルター] タブ**に一覧表示されている url フィルターの設定について [**ファイル拡張子を持つ url をブロック**する] チェックボックスをオンにすると、url フィルターはこの同じ一覧を使用して、これらのファイル拡張子を含むアクティブなハイパーリンクをブロックします。</span><span class="sxs-lookup"><span data-stu-id="a34f4-174">If you select the **Block URLs with file extension** check box on the settings for a URL filter listed on the **URL Filter** tab, the URL filter uses this same list to block active hyperlinks that contain any of these file extensions.</span></span> <span data-ttu-id="a34f4-175">ブロックするファイルの種類を選択するには、[**選択**] をクリックし、[**ファイルの種類の選択**] で、選択したファイルの種類の**拡張子**の一覧にファイルの種類の拡張子を追加します。</span><span class="sxs-lookup"><span data-stu-id="a34f4-175">To choose which file types you want to block, click **Select**, and then, in **Select File Type**, add the file type extensions to the **Selected file type extensions** list.</span></span>
     
-      - <span data-ttu-id="4515a-176">**すべて**   のサーバーをブロックするファイル転送要求を含むすべてのインスタントメッセージを削除し、要求の送信者にエラーメッセージを返します。</span><span class="sxs-lookup"><span data-stu-id="4515a-176">**Block All**   The server drops all instant messages that contain file transfer requests and returns an error message to the sender of the request.</span></span> <span data-ttu-id="4515a-177">Office Live Meeting 2007 クライアントの配布資料機能が無効になっています。</span><span class="sxs-lookup"><span data-stu-id="4515a-177">The handout feature in the Office Live Meeting 2007 client is disabled.</span></span>
+      - <span data-ttu-id="a34f4-176">**[すべて**   禁止] サーバーは、ファイル転送要求を含むすべてのインスタントメッセージを削除し、要求の送信者にエラーメッセージを返します。</span><span class="sxs-lookup"><span data-stu-id="a34f4-176">**Block All**   The server drops all instant messages that contain file transfer requests and returns an error message to the sender of the request.</span></span> <span data-ttu-id="a34f4-177">Office Live Meeting 2007 クライアントの配布資料機能は無効になっています。</span><span class="sxs-lookup"><span data-stu-id="a34f4-177">The handout feature in the Office Live Meeting 2007 client is disabled.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]
-> <span data-ttu-id="4515a-178">ファイル拡張子のフィルター処理は、標準のファイル名に制限されています。</span><span class="sxs-lookup"><span data-stu-id="4515a-178">Filtering of file extensions is limited to standard file names.</span></span> <span data-ttu-id="4515a-179">他の名前に埋め込まれているファイル拡張子では、フィルター処理が機能しないことがあります。</span><span class="sxs-lookup"><span data-stu-id="4515a-179">Filtering may not work with file extensions embedded in other names.</span></span>
+> <span data-ttu-id="a34f4-p121">ファイル拡張子のフィルター処理は、標準的なファイル名のみに制限されています。 ファイル拡張子が他の名前に埋め込まれている場合は、フィルターが機能しない場合があります。</span><span class="sxs-lookup"><span data-stu-id="a34f4-p121">Filtering of file extensions is limited to standard file names. Filtering may not work with file extensions embedded in other names.</span></span>
 
 
 
@@ -172,24 +172,24 @@ ms.locfileid: "41729027"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="4515a-180">このセクション中</span><span class="sxs-lookup"><span data-stu-id="4515a-180">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="a34f4-180">このセクション中</span><span class="sxs-lookup"><span data-stu-id="a34f4-180">In This Section</span></span>
 
-  - [<span data-ttu-id="4515a-181">Lync Server 2013 で既定のファイル転送フィルターを変更する</span><span class="sxs-lookup"><span data-stu-id="4515a-181">Modify the default file transfer filter in Lync Server 2013</span></span>](lync-server-2013-modify-the-default-file-transfer-filter.md)
+  - [<span data-ttu-id="a34f4-181">Lync Server 2013 での既定のファイル送信フィルターの変更</span><span class="sxs-lookup"><span data-stu-id="a34f4-181">Modify the default file transfer filter in Lync Server 2013</span></span>](lync-server-2013-modify-the-default-file-transfer-filter.md)
 
-  - [<span data-ttu-id="4515a-182">Lync Server 2013 で特定のサイト用の新しいファイル転送フィルターを作成する</span><span class="sxs-lookup"><span data-stu-id="4515a-182">Create a new file transfer filter in Lync Server 2013 for a specific site</span></span>](lync-server-2013-create-a-new-file-transfer-filter-for-a-specific-site.md)
+  - [<span data-ttu-id="a34f4-182">Lync Server 2013 で特定のサイトに対して新しいファイル転送フィルターを作成する</span><span class="sxs-lookup"><span data-stu-id="a34f4-182">Create a new file transfer filter in Lync Server 2013 for a specific site</span></span>](lync-server-2013-create-a-new-file-transfer-filter-for-a-specific-site.md)
 
-  - [<span data-ttu-id="4515a-183">Lync Server 2013 で既定の URL フィルターを変更する</span><span class="sxs-lookup"><span data-stu-id="4515a-183">Modify the default URL filter in Lync Server 2013</span></span>](lync-server-2013-modify-the-default-url-filter.md)
+  - [<span data-ttu-id="a34f4-183">Lync Server 2013 で既定の URL フィルターを変更する</span><span class="sxs-lookup"><span data-stu-id="a34f4-183">Modify the default URL filter in Lync Server 2013</span></span>](lync-server-2013-modify-the-default-url-filter.md)
 
-  - [<span data-ttu-id="4515a-184">Lync Server 2013 で新しい URL フィルターを作成して、IM 会話のハイパーリンクを処理する</span><span class="sxs-lookup"><span data-stu-id="4515a-184">Create a new URL filter in Lync Server 2013 to handle hyperlinks in IM conversations</span></span>](lync-server-2013-create-a-new-url-filter-to-handle-hyperlinks-in-im-conversations.md)
+  - [<span data-ttu-id="a34f4-184">IM 会話でのハイパーリンクを処理するために Lync Server 2013 で新しい URL フィルターを作成する</span><span class="sxs-lookup"><span data-stu-id="a34f4-184">Create a new URL filter in Lync Server 2013 to handle hyperlinks in IM conversations</span></span>](lync-server-2013-create-a-new-url-filter-to-handle-hyperlinks-in-im-conversations.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="4515a-185">関連項目</span><span class="sxs-lookup"><span data-stu-id="4515a-185">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a34f4-185">関連項目</span><span class="sxs-lookup"><span data-stu-id="a34f4-185">See Also</span></span>
 
 
-[<span data-ttu-id="4515a-186">Lync Server 2013 での IM とプレゼンス設定の管理</span><span class="sxs-lookup"><span data-stu-id="4515a-186">Managing IM and presence settings in Lync Server 2013</span></span>](lync-server-2013-managing-im-and-presence-settings.md)  
+[<span data-ttu-id="a34f4-186">Lync Server 2013 での IM およびプレゼンス設定の管理</span><span class="sxs-lookup"><span data-stu-id="a34f4-186">Managing IM and presence settings in Lync Server 2013</span></span>](lync-server-2013-managing-im-and-presence-settings.md)  
   
 
 </div>

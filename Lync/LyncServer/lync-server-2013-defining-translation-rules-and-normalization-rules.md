@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 翻訳ルールと正規化ルールを定義する'
+title: 'Lync Server 2013: 変換ルールおよび正規化ルールの定義'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733763
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d91415e467bfdb070d76415e47aaa59d0fab3be9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1ff8d054096f3c5d6d8293affc4dc9c1b6490e2c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728307"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029658"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="defining-translation-rules-and-normalization-rules-in-lync-server-2013"></a><span data-ttu-id="f1f0e-102">Lync Server 2013 での翻訳ルールと正規化ルールの定義</span><span class="sxs-lookup"><span data-stu-id="f1f0e-102">Defining translation rules and normalization rules in Lync Server 2013</span></span>
+# <a name="defining-translation-rules-and-normalization-rules-in-lync-server-2013"></a><span data-ttu-id="20ebf-102">Lync Server 2013 での変換ルールおよび正規化ルールの定義</span><span class="sxs-lookup"><span data-stu-id="20ebf-102">Defining translation rules and normalization rules in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,26 +35,26 @@ ms.locfileid: "41728307"
 
 <span> </span>
 
-<span data-ttu-id="f1f0e-103">_**最終更新日:** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="f1f0e-103">_**Topic Last Modified:** 2012-10-18_</span></span>
+<span data-ttu-id="20ebf-103">_**トピックの最終更新日:** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="20ebf-103">_**Topic Last Modified:** 2012-10-18_</span></span>
 
-<span data-ttu-id="f1f0e-104">Lync Server 2013 用に Trunks を構成する方法については、セクションのトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="f1f0e-104">Use the topics in the section to learn how to configure Trunks for Lync Server 2013.</span></span>
+<span data-ttu-id="20ebf-104">トランクを Lync Server 2013 用に構成する方法については、セクションのトピックを使用してください。</span><span class="sxs-lookup"><span data-stu-id="20ebf-104">Use the topics in the section to learn how to configure Trunks for Lync Server 2013.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="f1f0e-105">このセクション中</span><span class="sxs-lookup"><span data-stu-id="f1f0e-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="20ebf-105">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="20ebf-105">In This Section</span></span>
 
-  - [<span data-ttu-id="f1f0e-106">Lync Server 2013 での変換ルールの定義</span><span class="sxs-lookup"><span data-stu-id="f1f0e-106">Defining translation rules in Lync Server 2013</span></span>](lync-server-2013-defining-translation-rules.md)
+  - [<span data-ttu-id="20ebf-106">Lync Server 2013 での変換ルールの定義</span><span class="sxs-lookup"><span data-stu-id="20ebf-106">Defining translation rules in Lync Server 2013</span></span>](lync-server-2013-defining-translation-rules.md)
 
-  - [<span data-ttu-id="f1f0e-107">Lync Server 2013 の正規化ルールの定義</span><span class="sxs-lookup"><span data-stu-id="f1f0e-107">Defining normalization rules in Lync Server 2013</span></span>](lync-server-2013-defining-normalization-rules.md)
+  - [<span data-ttu-id="20ebf-107">Lync Server 2013 での正規化ルールの定義</span><span class="sxs-lookup"><span data-stu-id="20ebf-107">Defining normalization rules in Lync Server 2013</span></span>](lync-server-2013-defining-normalization-rules.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="f1f0e-108">関連項目</span><span class="sxs-lookup"><span data-stu-id="f1f0e-108">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="20ebf-108">関連項目</span><span class="sxs-lookup"><span data-stu-id="20ebf-108">See Also</span></span>
 
 
-[<span data-ttu-id="f1f0e-109">Lync Server 2013 での音声ルーティングの管理</span><span class="sxs-lookup"><span data-stu-id="f1f0e-109">Managing voice routing in Lync Server 2013</span></span>](lync-server-2013-managing-voice-routing.md)  
+[<span data-ttu-id="20ebf-109">Lync Server 2013 での音声ルーティングの管理</span><span class="sxs-lookup"><span data-stu-id="20ebf-109">Managing voice routing in Lync Server 2013</span></span>](lync-server-2013-managing-voice-routing.md)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: BackCompatSite を削除する
+title: BackCompatSite の削除
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183265
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ccfcd48c575e300b12fe08611d6f898749041478
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e7f613f6e96261d256c4c1f15fd2161648eed4fe
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727197"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008933"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="remove-backcompatsite"></a><span data-ttu-id="ad3f2-102">BackCompatSite を削除する</span><span class="sxs-lookup"><span data-stu-id="ad3f2-102">Remove BackCompatSite</span></span>
+# <a name="remove-backcompatsite"></a><span data-ttu-id="5d405-102">BackCompatSite の削除</span><span class="sxs-lookup"><span data-stu-id="5d405-102">Remove BackCompatSite</span></span>
 
 </div>
 
@@ -35,39 +35,39 @@ ms.locfileid: "41727197"
 
 <span> </span>
 
-<span data-ttu-id="ad3f2-103">_**最終更新日:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="ad3f2-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="5d405-103">_**トピックの最終更新日:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="5d405-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="ad3f2-104">すべてのプールが非アクティブ化され、すべてのエッジサーバーがアンインストールされたら、トポロジビルダーの結合ウィザードを実行して、 **BackCompatSite**を削除します。</span><span class="sxs-lookup"><span data-stu-id="ad3f2-104">After all pools are deactivated and all Edge Servers have been uninstalled, run the Topology Builder Merge wizard to remove the **BackCompatSite**.</span></span>
+<span data-ttu-id="5d405-104">すべてのプールを非アクティブ化し、すべてのエッジ サーバーをアンインストールした後、トポロジ ビルダー結合ウィザードを実行して、[**BackCompatSite**] を削除します。</span><span class="sxs-lookup"><span data-stu-id="5d405-104">After all pools are deactivated and all Edge Servers have been uninstalled, run the Topology Builder Merge wizard to remove the **BackCompatSite**.</span></span>
 
 <div>
 
-## <a name="to-remove-backcompat-site-from-topology-builder"></a><span data-ttu-id="ad3f2-105">Topology Builder から BackCompat サイトを削除するには</span><span class="sxs-lookup"><span data-stu-id="ad3f2-105">To remove BackCompat site from Topology Builder</span></span>
+## <a name="to-remove-backcompat-site-from-topology-builder"></a><span data-ttu-id="5d405-105">トポロジ ビルダーで BackCompat サイトを削除するには</span><span class="sxs-lookup"><span data-stu-id="5d405-105">To remove BackCompat site from Topology Builder</span></span>
 
-1.  <span data-ttu-id="ad3f2-106">トポロジビルダーから既存の展開を開きます。</span><span class="sxs-lookup"><span data-stu-id="ad3f2-106">Open an existing deployment from Topology Builder.</span></span>
+1.  <span data-ttu-id="5d405-106">トポロジ ビルダーから既存の展開を開きます。</span><span class="sxs-lookup"><span data-stu-id="5d405-106">Open an existing deployment from Topology Builder.</span></span>
 
-2.  <span data-ttu-id="ad3f2-107">[**操作**] メニューで、[ **2007 R2 トポロジのマージ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="ad3f2-107">In the **Action** menu, click **Merge 2007 R2 Topology**.</span></span>
+2.  <span data-ttu-id="5d405-107">[**操作**] メニューの [**Office Communications Server 2007 R2 トポロジのマージ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="5d405-107">In the **Action** menu, click **Merge 2007 R2 Topology**.</span></span>
 
-3.  <span data-ttu-id="ad3f2-108">[**次へ**] をクリックして続行します。</span><span class="sxs-lookup"><span data-stu-id="ad3f2-108">Click **Next** to continue.</span></span>
+3.  <span data-ttu-id="5d405-108">[**次へ**] をクリックして続行します。</span><span class="sxs-lookup"><span data-stu-id="5d405-108">Click **Next** to continue.</span></span>
 
-4.  <span data-ttu-id="ad3f2-109">[**レガシ edge の指定**] ページで、エッジサーバーの一覧が空であることを確認します。</span><span class="sxs-lookup"><span data-stu-id="ad3f2-109">On the **Specify Legacy Edge** page, ensure that list of Edge Servers is empty.</span></span> <span data-ttu-id="ad3f2-110">リストが空でない場合は、[**削除**] ボタンを使用して、すべてのレガシーエッジサーバーを削除してから、[**次へ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="ad3f2-110">If the list is not empty, use the **Remove** button to remove all the legacy Edge Servers, and then click **Next**.</span></span>
+4.  <span data-ttu-id="5d405-p101">[**レガシ エッジの指定**] ページで、エッジ サーバーの一覧が空になっていることを確認します。一覧が空でない場合は、[**削除**] ボタンを使用してすべてのレガシ エッジ サーバーを削除し、[**次へ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="5d405-p101">On the **Specify Legacy Edge** page, ensure that list of Edge Servers is empty. If the list is not empty, use the **Remove** button to remove all the legacy Edge Servers, and then click **Next**.</span></span>
     
-    <span data-ttu-id="ad3f2-111">![トポロジの結合ウィザード、[Edge セットアップ] ページを指定する](images/JJ204637.fb35a59a-711e-4259-b177-7311df1fed3c(OCS.15).jpg "トポロジの結合ウィザード、[Edge セットアップ] ページを指定する")</span><span class="sxs-lookup"><span data-stu-id="ad3f2-111">![Merge Topology Wizard, Specify Edge Setup page](images/JJ204637.fb35a59a-711e-4259-b177-7311df1fed3c(OCS.15).jpg "Merge Topology Wizard, Specify Edge Setup page")</span></span>  
+    <span data-ttu-id="5d405-111">![トポロジのマージウィザード、[エッジセットアップの指定] ページ](images/JJ204637.fb35a59a-711e-4259-b177-7311df1fed3c(OCS.15).jpg "トポロジのマージウィザード、[エッジセットアップの指定] ページ")</span><span class="sxs-lookup"><span data-stu-id="5d405-111">![Merge Topology Wizard, Specify Edge Setup page](images/JJ204637.fb35a59a-711e-4259-b177-7311df1fed3c(OCS.15).jpg "Merge Topology Wizard, Specify Edge Setup page")</span></span>  
 
-5.  <span data-ttu-id="ad3f2-112">[**内部 SIP ポート設定の指定**] ページで、[**次へ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="ad3f2-112">On the **Specify Internal SIP port setting** page, click **Next**.</span></span>
+5.  <span data-ttu-id="5d405-112">[**内部 SIP ポートの指定**] ページで、[**次へ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="5d405-112">On the **Specify Internal SIP port setting** page, click **Next**.</span></span>
 
-6.  <span data-ttu-id="ad3f2-113">[**概要**] ページで、[**次**へ] をクリックして、トポロジの結合を開始して、従来のサイトを削除します。</span><span class="sxs-lookup"><span data-stu-id="ad3f2-113">On the **Summary** page, click **Next** to begin merging the topologies to remove the legacy site.</span></span>
+6.  <span data-ttu-id="5d405-113">[**概要**] ページで、[**次**へ] をクリックして、従来のサイトを削除するためのトポロジのマージを開始します。</span><span class="sxs-lookup"><span data-stu-id="5d405-113">On the **Summary** page, click **Next** to begin merging the topologies to remove the legacy site.</span></span>
 
-7.  <span data-ttu-id="ad3f2-114">[**状態**] 列で、値が**成功**していることを確認し、[**完了**] をクリックしてウィザードを閉じます。</span><span class="sxs-lookup"><span data-stu-id="ad3f2-114">In the **Status** column, verify that the value is **Success** and then click **Finish** to close the wizard.</span></span>
+7.  <span data-ttu-id="5d405-114">[**状態**] 列の値が "**成功**" になっていることを確認し、[**完了**] をクリックしてウィザードを閉じます。</span><span class="sxs-lookup"><span data-stu-id="5d405-114">In the **Status** column, verify that the value is **Success** and then click **Finish** to close the wizard.</span></span>
 
-8.  <span data-ttu-id="ad3f2-115">[Topology Builder] の左側のウィンドウで、[BackCompatSite] を展開して、サーバーが一覧に表示されていないことを確認します。</span><span class="sxs-lookup"><span data-stu-id="ad3f2-115">In the left pane of Topology Builder, expand the BackCompatSite and ensure no servers are listed.</span></span>
+8.  <span data-ttu-id="5d405-115">トポロジ ビルダーの左側のウィンドウで [BackCompatSite] を展開し、サーバーが表示されないことを確認します。</span><span class="sxs-lookup"><span data-stu-id="5d405-115">In the left pane of Topology Builder, expand the BackCompatSite and ensure no servers are listed.</span></span>
 
-9.  <span data-ttu-id="ad3f2-116">**BackCompatSite**を右クリックし、[**削除**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="ad3f2-116">Right-click the **BackCompatSite**, and then click **Delete**.</span></span>
+9.  <span data-ttu-id="5d405-116">[**BackCompatSite**] を右クリックし、[**削除**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="5d405-116">Right-click the **BackCompatSite**, and then click **Delete**.</span></span>
 
-10. <span data-ttu-id="ad3f2-117">[**トポロジビルダー**] で、トップノードの**Lync Server**を選択します。</span><span class="sxs-lookup"><span data-stu-id="ad3f2-117">In **Topology Builder**, select the top-most node **Lync Server**.</span></span>
+10. <span data-ttu-id="5d405-117">**トポロジ ビルダー**で、最上位ノードの [**Lync Server**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="5d405-117">In **Topology Builder**, select the top-most node **Lync Server**.</span></span>
 
-11. <span data-ttu-id="ad3f2-118">[**アクション**] メニューで、[**発行トポロジ**] を選択し、[**次へ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="ad3f2-118">From the **Action** menu, select **Publish Topology** and then click **Next**.</span></span>
+11. <span data-ttu-id="5d405-118">[**操作**] メニューの [**トポロジの公開**] を選択し、[**次へ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="5d405-118">From the **Action** menu, select **Publish Topology** and then click **Next**.</span></span>
 
-12. <span data-ttu-id="ad3f2-119">**発行ウィザード**が完了したら、[**完了**] をクリックしてウィザードを閉じます。</span><span class="sxs-lookup"><span data-stu-id="ad3f2-119">When the **Publishing wizard** completes, click **Finish** to close the wizard.</span></span>
+12. <span data-ttu-id="5d405-119">**公開ウィザード**の実行が完了したら、[**完了**] をクリックしてウィザードを閉じます。</span><span class="sxs-lookup"><span data-stu-id="5d405-119">When the **Publishing wizard** completes, click **Finish** to close the wizard.</span></span>
 
 </div>
 

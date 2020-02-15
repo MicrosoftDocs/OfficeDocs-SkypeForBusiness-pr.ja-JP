@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 証明書の概要 - DNS および HLB による負荷分散'
+title: 'Lync Server 2013: 証明書の概要-DNS と HLB 負荷分散'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184676
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b8cd6d86844629544b54670eb07c3433d19f99f2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 44b89f1b305b99d86fd1843ac61625083a5fb51b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736657"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031131"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---dns-and-hlb-load-balanced-in-lync-server-2013"></a><span data-ttu-id="a0493-102">証明書の概要 - Lync Server 2013 の DNS および HLB による負荷分散</span><span class="sxs-lookup"><span data-stu-id="a0493-102">Certificate summary - DNS and HLB load balanced in Lync Server 2013</span></span>
+# <a name="certificate-summary---dns-and-hlb-load-balanced-in-lync-server-2013"></a><span data-ttu-id="671fb-102">証明書の概要-Lync Server 2013 での DNS および HLB の負荷分散</span><span class="sxs-lookup"><span data-stu-id="671fb-102">Certificate summary - DNS and HLB load balanced in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41736657"
 
 <span> </span>
 
-<span data-ttu-id="a0493-103">_**最終更新日:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="a0493-103">_**Topic Last Modified:** 2012-10-22_</span></span>
+<span data-ttu-id="671fb-103">_**トピックの最終更新日:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="671fb-103">_**Topic Last Modified:** 2012-10-22_</span></span>
 
-<span data-ttu-id="a0493-104">DNS の負荷分散とハードウェアのロードバランサーを備えたディレクターの証明書要件は、監督が受信できるサービスのサブジェクト名とサブジェクトの代替名を持つ既定の証明書を使います。</span><span class="sxs-lookup"><span data-stu-id="a0493-104">Certificate requirements for a Director with DNS load balancing and a hardware load balancer will use a default certificate that has a subject name and subject alternative names for services that the Director can receive.</span></span> <span data-ttu-id="a0493-105">プール内の各ディレクターに対して証明書が要求されます。</span><span class="sxs-lookup"><span data-stu-id="a0493-105">A certificate is requested for each Director in the pool.</span></span> <span data-ttu-id="a0493-106">ハードウェアロードバランサーでは、リバースプロキシからのトラフィックだけが負荷分散されることに注意することが重要です。</span><span class="sxs-lookup"><span data-stu-id="a0493-106">It is important to remember that the hardware load balancer is load balancing only the traffic from the reverse proxy.</span></span> <span data-ttu-id="a0493-107">さらに、サーバー間認証のための OAuth トークン証明書が、各サーバーにインストールされています。</span><span class="sxs-lookup"><span data-stu-id="a0493-107">Additionally, there is an OAuth Token certificate for server to server authentication purposes that is installed on each server.</span></span>
+<span data-ttu-id="671fb-104">ディレクターの証明書要件。 DNS 負荷分散とロードバランサー機器は、ディレクターが受信できるサービスのサブジェクト名とサブジェクトの別名を持つ既定の証明書を使用します。</span><span class="sxs-lookup"><span data-stu-id="671fb-104">Certificate requirements for a Director with DNS load balancing and a hardware load balancer will use a default certificate that has a subject name and subject alternative names for services that the Director can receive.</span></span> <span data-ttu-id="671fb-105">プール内の各ディレクターに証明書が要求されます。</span><span class="sxs-lookup"><span data-stu-id="671fb-105">A certificate is requested for each Director in the pool.</span></span> <span data-ttu-id="671fb-106">ハードウェア ロード バランサーはリバース プロキシからのトラフィックだけを負荷分散することを理解しておくことが重要です。</span><span class="sxs-lookup"><span data-stu-id="671fb-106">It is important to remember that the hardware load balancer is load balancing only the traffic from the reverse proxy.</span></span> <span data-ttu-id="671fb-107">さらに、サーバー間認証のために各サーバーにインストールされる OAuth トークンがあります。</span><span class="sxs-lookup"><span data-stu-id="671fb-107">Additionally, there is an OAuth Token certificate for server to server authentication purposes that is installed on each server.</span></span>
 
-### <a name="certificates-for-director"></a><span data-ttu-id="a0493-108">ディレクター用の証明書</span><span class="sxs-lookup"><span data-stu-id="a0493-108">Certificates for Director</span></span>
+### <a name="certificates-for-director"></a><span data-ttu-id="671fb-108">ディレクターの証明書</span><span class="sxs-lookup"><span data-stu-id="671fb-108">Certificates for Director</span></span>
 
 <table>
 <colgroup>
@@ -50,39 +50,39 @@ ms.locfileid: "41736657"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="a0493-109">コンポーネント</span><span class="sxs-lookup"><span data-stu-id="a0493-109">Component</span></span></th>
-<th><span data-ttu-id="a0493-110">サブジェクト名 (SN)</span><span class="sxs-lookup"><span data-stu-id="a0493-110">Subject name (SN)</span></span></th>
-<th><span data-ttu-id="a0493-111">サブジェクトの代替名 (SAN)</span><span class="sxs-lookup"><span data-stu-id="a0493-111">Subject alternative names (SAN)</span></span></th>
-<th><span data-ttu-id="a0493-112">コメント</span><span class="sxs-lookup"><span data-stu-id="a0493-112">Comments</span></span></th>
+<th><span data-ttu-id="671fb-109">コンポーネント</span><span class="sxs-lookup"><span data-stu-id="671fb-109">Component</span></span></th>
+<th><span data-ttu-id="671fb-110">サブジェクト名 (SN)</span><span class="sxs-lookup"><span data-stu-id="671fb-110">Subject name (SN)</span></span></th>
+<th><span data-ttu-id="671fb-111">サブジェクト名の別名 (SAN)</span><span class="sxs-lookup"><span data-stu-id="671fb-111">Subject alternative names (SAN)</span></span></th>
+<th><span data-ttu-id="671fb-112">コメント</span><span class="sxs-lookup"><span data-stu-id="671fb-112">Comments</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="a0493-113">Default</span><span class="sxs-lookup"><span data-stu-id="a0493-113">Default</span></span></p></td>
-<td><p><span data-ttu-id="a0493-114">dirpool01.contoso.net</span><span class="sxs-lookup"><span data-stu-id="a0493-114">dirpool01.contoso.net</span></span></p></td>
-<td><p><span data-ttu-id="a0493-115">dirpool01.contoso.net</span><span class="sxs-lookup"><span data-stu-id="a0493-115">dirpool01.contoso.net</span></span></p>
-<p><span data-ttu-id="a0493-116">dir01.contoso.net</span><span class="sxs-lookup"><span data-stu-id="a0493-116">dir01.contoso.net</span></span></p>
-<p><span data-ttu-id="a0493-117">dialin.contoso.com</span><span class="sxs-lookup"><span data-stu-id="a0493-117">dialin.contoso.com</span></span></p>
-<p><span data-ttu-id="a0493-118">meet.contoso.com</span><span class="sxs-lookup"><span data-stu-id="a0493-118">meet.contoso.com</span></span></p>
-<p><span data-ttu-id="a0493-119">lyncdiscoverinternal.contoso.com</span><span class="sxs-lookup"><span data-stu-id="a0493-119">lyncdiscoverinternal.contoso.com</span></span></p>
-<p><span data-ttu-id="a0493-120">lyncdiscover.contoso.com</span><span class="sxs-lookup"><span data-stu-id="a0493-120">lyncdiscover.contoso.com</span></span></p>
-<p><span data-ttu-id="a0493-121">(必要に応じて) \*. contoso.com</span><span class="sxs-lookup"><span data-stu-id="a0493-121">(Optionally) \*.contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="a0493-122">ディレクター証明書は、内部管理の証明機関 (CA) またはパブリック CA から要求することができます。</span><span class="sxs-lookup"><span data-stu-id="a0493-122">Director certificates can be requested from either an internally managed certification authority (CA) or from a public CA.</span></span></p>
-<p><span data-ttu-id="a0493-123">ディレクターは、境界サーバーまたはエッジサーバーのリバースプロキシからの要求に応答します。</span><span class="sxs-lookup"><span data-stu-id="a0493-123">The Director responds to requests from the reverse proxy in the perimeter or from the Edge Server.</span></span> <span data-ttu-id="a0493-124">内部クライアントでは、監督は使用されません。</span><span class="sxs-lookup"><span data-stu-id="a0493-124">Internal clients will not use the Director.</span></span></p>
-<p><span data-ttu-id="a0493-125">または、単純な Url のワイルドカードエントリ</span><span class="sxs-lookup"><span data-stu-id="a0493-125">Or, a wildcard entry for the simple URLs</span></span></p></td>
+<td><p><span data-ttu-id="671fb-113">既定値</span><span class="sxs-lookup"><span data-stu-id="671fb-113">Default</span></span></p></td>
+<td><p><span data-ttu-id="671fb-114">dirpool01.contoso.net</span><span class="sxs-lookup"><span data-stu-id="671fb-114">dirpool01.contoso.net</span></span></p></td>
+<td><p><span data-ttu-id="671fb-115">dirpool01.contoso.net</span><span class="sxs-lookup"><span data-stu-id="671fb-115">dirpool01.contoso.net</span></span></p>
+<p><span data-ttu-id="671fb-116">dir01.contoso.net</span><span class="sxs-lookup"><span data-stu-id="671fb-116">dir01.contoso.net</span></span></p>
+<p><span data-ttu-id="671fb-117">dialin.contoso.com</span><span class="sxs-lookup"><span data-stu-id="671fb-117">dialin.contoso.com</span></span></p>
+<p><span data-ttu-id="671fb-118">meet.contoso.com</span><span class="sxs-lookup"><span data-stu-id="671fb-118">meet.contoso.com</span></span></p>
+<p><span data-ttu-id="671fb-119">lyncdiscoverinternal.contoso.com</span><span class="sxs-lookup"><span data-stu-id="671fb-119">lyncdiscoverinternal.contoso.com</span></span></p>
+<p><span data-ttu-id="671fb-120">lyncdiscover.contoso.com</span><span class="sxs-lookup"><span data-stu-id="671fb-120">lyncdiscover.contoso.com</span></span></p>
+<p><span data-ttu-id="671fb-121">(オプション) \*.contoso.com</span><span class="sxs-lookup"><span data-stu-id="671fb-121">(Optionally) \*.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="671fb-122">ディレクター証明書は、内部管理の証明機関 (CA) またはパブリック CA のどちらかから要求できます。</span><span class="sxs-lookup"><span data-stu-id="671fb-122">Director certificates can be requested from either an internally managed certification authority (CA) or from a public CA.</span></span></p>
+<p><span data-ttu-id="671fb-123">ディレクターは、境界サーバーまたはエッジサーバーのリバースプロキシからの要求に応答します。</span><span class="sxs-lookup"><span data-stu-id="671fb-123">The Director responds to requests from the reverse proxy in the perimeter or from the Edge Server.</span></span> <span data-ttu-id="671fb-124">内部クライアントはディレクターを使用しません。</span><span class="sxs-lookup"><span data-stu-id="671fb-124">Internal clients will not use the Director.</span></span></p>
+<p><span data-ttu-id="671fb-125">または、簡易 URL のワイルドカード エントリ</span><span class="sxs-lookup"><span data-stu-id="671fb-125">Or, a wildcard entry for the simple URLs</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a0493-126">OAuthTokenIssuer</span><span class="sxs-lookup"><span data-stu-id="a0493-126">OAuthTokenIssuer</span></span></p></td>
-<td><p><span data-ttu-id="a0493-127">dir01.contoso.net</span><span class="sxs-lookup"><span data-stu-id="a0493-127">dir01.contoso.net</span></span></p></td>
-<td><p><span data-ttu-id="a0493-128">エントリがありません</span><span class="sxs-lookup"><span data-stu-id="a0493-128">No Entry</span></span></p></td>
+<td><p><span data-ttu-id="671fb-126">OAuthTokenIssuer</span><span class="sxs-lookup"><span data-stu-id="671fb-126">OAuthTokenIssuer</span></span></p></td>
+<td><p><span data-ttu-id="671fb-127">dir01.contoso.net</span><span class="sxs-lookup"><span data-stu-id="671fb-127">dir01.contoso.net</span></span></p></td>
+<td><p><span data-ttu-id="671fb-128">エントリはありません</span><span class="sxs-lookup"><span data-stu-id="671fb-128">No Entry</span></span></p></td>
 <td><div>
 
 > [!IMPORTANT]  
-> <span data-ttu-id="a0493-129">最小のキー長は1024ですが、最小の推奨されるキーの長さは2048ビットであるという警告が表示されることがあります。</span><span class="sxs-lookup"><span data-stu-id="a0493-129">Note that the minimum key length is 1024, but you may receive a warning that the minimum recommended key length is 2048 bits.</span></span>
+> <span data-ttu-id="671fb-129">キーの最低の長さは 1024 ですが、キーの推奨される最低の長さが 2048 ビットであるという警告が表示される場合があります。</span><span class="sxs-lookup"><span data-stu-id="671fb-129">Note that the minimum key length is 1024, but you may receive a warning that the minimum recommended key length is 2048 bits.</span></span>
 
 
 </div>
-<p><span data-ttu-id="a0493-130">OAuthTokenIssuer 証明書は、大規模な環境でサーバーを認証することを目的とした単一目的の証明書であり、内部 CA またはパブリック CA から要求することができます。</span><span class="sxs-lookup"><span data-stu-id="a0493-130">The OAuthTokenIssuer certificate is a single-purpose certificate for the purpose of authenticating servers in a large-scale environment, and can be requested from an internal CA or from a public CA.</span></span> <span data-ttu-id="a0493-131">証明書が必要です。</span><span class="sxs-lookup"><span data-stu-id="a0493-131">The certificate is required.</span></span></p></td>
+<p><span data-ttu-id="671fb-p103">OAuthTokenIssuer 証明書は、大規模な環境内のサーバーを認証するための単一目的の証明書であり、社内の CA またはパブリック CA に要求できます。この証明書は必須です。</span><span class="sxs-lookup"><span data-stu-id="671fb-p103">The OAuthTokenIssuer certificate is a single-purpose certificate for the purpose of authenticating servers in a large-scale environment, and can be requested from an internal CA or from a public CA. The certificate is required.</span></span></p></td>
 </tr>
 </tbody>
 </table>

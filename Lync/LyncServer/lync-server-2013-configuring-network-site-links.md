@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ネットワークサイトリンクを構成する'
+title: 'Lync Server 2013: ネットワークサイトリンクの構成'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184622
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e379a8195dd0a50d97a514307ac594908be4736c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: face7287ecf65a75e335b63f0a657c4534891277
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763481"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030510"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-network-site-links-in-lync-server-2013"></a><span data-ttu-id="c19ae-102">Lync Server 2013 でネットワークサイトリンクを構成する</span><span class="sxs-lookup"><span data-stu-id="c19ae-102">Configuring network site links in Lync Server 2013</span></span>
+# <a name="configuring-network-site-links-in-lync-server-2013"></a><span data-ttu-id="1e41e-102">Lync Server 2013 でのネットワークサイトリンクの構成</span><span class="sxs-lookup"><span data-stu-id="1e41e-102">Configuring network site links in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,73 +35,73 @@ ms.locfileid: "41763481"
 
 <span> </span>
 
-<span data-ttu-id="c19ae-103">_**最終更新日:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="c19ae-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="1e41e-103">_**トピックの最終更新日:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="1e41e-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="c19ae-104">通話受付制御 (CAC) 構成では、直接リンクされているサイト間の帯域幅の制限を定義するネットワーク間ポリシーを作成できます。</span><span class="sxs-lookup"><span data-stu-id="c19ae-104">Within a call admission control (CAC) configuration, you can create network inter-site policies that define bandwidth limitations between sites that are directly linked.</span></span> <span data-ttu-id="c19ae-105">ネットワークサイトが直接リンクを共有している場合、オーディオおよびビデオ接続の帯域幅の制限は、これら2つのサイト間で定義できます。</span><span class="sxs-lookup"><span data-stu-id="c19ae-105">When network sites share a direct link, bandwidth limitations for audio and video connections can be defined between those two sites.</span></span> <span data-ttu-id="c19ae-106">Lync Server コントロールパネルを使ってネットワークサイトポリシーを構成することはできません。これは、Lync Server 管理シェルのコマンドレットを使用することによってのみ実行できます。</span><span class="sxs-lookup"><span data-stu-id="c19ae-106">You cannot use the Lync Server Control Panel to configure network site policies, this can be done only by using cmdlets from the Lync Server Management Shell.</span></span> <span data-ttu-id="c19ae-107">Lync Server 管理シェルからネットワークサイトリンク (ネットワークのサイト間ポリシーとも呼ばれます) を作成、変更、削除することができます。</span><span class="sxs-lookup"><span data-stu-id="c19ae-107">You can create, modify, and remove a network site link (also known as a network inter-site policy) from the Lync Server Management Shell.</span></span>
+<span data-ttu-id="1e41e-104">通話受付管理 (CAC) 構成内で、直接リンクされたサイト間の帯域幅制限を定義するネットワークサイト間ポリシーを作成できます。</span><span class="sxs-lookup"><span data-stu-id="1e41e-104">Within a call admission control (CAC) configuration, you can create network inter-site policies that define bandwidth limitations between sites that are directly linked.</span></span> <span data-ttu-id="1e41e-105">ネットワーク サイトが直接リンクを共有している場合、これらの 2 つのサイト間にオーディオ接続およびビデオ接続の帯域幅制限を定義できます。</span><span class="sxs-lookup"><span data-stu-id="1e41e-105">When network sites share a direct link, bandwidth limitations for audio and video connections can be defined between those two sites.</span></span> <span data-ttu-id="1e41e-106">Lync Server コントロールパネルを使用してネットワークサイトポリシーを構成することはできません。これを行うには、Lync Server 管理シェルのコマンドレットを使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="1e41e-106">You cannot use the Lync Server Control Panel to configure network site policies, this can be done only by using cmdlets from the Lync Server Management Shell.</span></span> <span data-ttu-id="1e41e-107">Lync Server 管理シェルから、ネットワークサイトリンク (ネットワークサイト間ポリシーとも呼ばれます) を作成、変更、および削除することができます。</span><span class="sxs-lookup"><span data-stu-id="1e41e-107">You can create, modify, and remove a network site link (also known as a network inter-site policy) from the Lync Server Management Shell.</span></span>
 
 <div>
 
-## <a name="to-create-a-network-site-link"></a><span data-ttu-id="c19ae-108">ネットワークサイトのリンクを作成するには</span><span class="sxs-lookup"><span data-stu-id="c19ae-108">To create a network site link</span></span>
+## <a name="to-create-a-network-site-link"></a><span data-ttu-id="1e41e-108">ネットワーク サイト リンクを作成するには</span><span class="sxs-lookup"><span data-stu-id="1e41e-108">To create a network site link</span></span>
 
-1.  <span data-ttu-id="c19ae-109">Lync Server 管理シェルが RTCUniversalServerAdmins グループのメンバーとして、または「 [Lync server 2013 の委任セットアップの権限](lync-server-2013-delegate-setup-permissions.md)」で説明されているように、必要なユーザー権限を持つコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="c19ae-109">Log on to the computer where Lync Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or with the necessary user rights as described in [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
+1.  <span data-ttu-id="1e41e-109">Lync Server 管理シェルがインストールされているコンピューターに、RTCUniversalServerAdmins グループのメンバーとして、または「 [Lync server 2013 のセットアップのアクセス許可の委任](lync-server-2013-delegate-setup-permissions.md)」に説明されている必要なユーザー権限を使用してログオンします。</span><span class="sxs-lookup"><span data-stu-id="1e41e-109">Log on to the computer where Lync Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or with the necessary user rights as described in [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
 
-2.  <span data-ttu-id="c19ae-110">Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="c19ae-110">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="1e41e-110">Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="1e41e-110">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="c19ae-111">コマンドプロンプトで、次のコマンドを入力します。これは、構成に対して有効な値に置き換えます。</span><span class="sxs-lookup"><span data-stu-id="c19ae-111">From the command prompt, type the following command, substituting values that are valid for your configuration:</span></span>
+3.  <span data-ttu-id="1e41e-111">コマンド プロンプトで、使用している構成で有効な値に置き換えて、次のコマンドを入力します。</span><span class="sxs-lookup"><span data-stu-id="1e41e-111">From the command prompt, type the following command, substituting values that are valid for your configuration:</span></span>
     
         New-CsNetworkInterSitePolicy -Identity Reno_Portland -NetworkSiteID1 Reno -NetworkSiteID2 Portland -BWPolicyProfileID LowBWLimits
     
-    <span data-ttu-id="c19ae-112">この例では、Reno とポートランドのネットワーク\_サイト間の帯域幅の制限を設定する Reno ポートランドという名前の新しいネットワークサイトリンクを作成します。</span><span class="sxs-lookup"><span data-stu-id="c19ae-112">This example creates a new network site link named Reno\_Portland that sets bandwidth limitations between the Reno and Portland network sites.</span></span> <span data-ttu-id="c19ae-113">このコマンドを実行する前に、ネットワークサイトと帯域幅ポリシーのプロファイルが既に存在している必要があります。</span><span class="sxs-lookup"><span data-stu-id="c19ae-113">The network sites and the bandwidth policy profile must already exist before running this command.</span></span>
+    <span data-ttu-id="1e41e-112">この例では、リノとポートランドのネットワーク\_サイト間の帯域幅制限を設定するリノポートランドという名前の新しいネットワークサイトリンクを作成します。</span><span class="sxs-lookup"><span data-stu-id="1e41e-112">This example creates a new network site link named Reno\_Portland that sets bandwidth limitations between the Reno and Portland network sites.</span></span> <span data-ttu-id="1e41e-113">ネットワーク サイトと帯域幅ポリシーのプロファイルが、このコマンドを実行する前に既に存在している必要があります。</span><span class="sxs-lookup"><span data-stu-id="1e41e-113">The network sites and the bandwidth policy profile must already exist before running this command.</span></span>
 
-<span data-ttu-id="c19ae-114">パラメーターの詳細については、「Lync Server Management Shell ドキュメントの[CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy) 」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="c19ae-114">For detailed parameter descriptions, see [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy) in the Lync Server Management Shell documentation.</span></span> <span data-ttu-id="c19ae-115">ネットワークサイトリンクに適用できる帯域幅ポリシープロファイルの一覧を取得するには、 **CsNetworkBandwidthPolicyProfile**コマンドレットを呼び出します。</span><span class="sxs-lookup"><span data-stu-id="c19ae-115">To retrieve a list of bandwidth policy profiles that can be applied to the network site link, call the **Get-CsNetworkBandwidthPolicyProfile** cmdlet.</span></span> <span data-ttu-id="c19ae-116">詳細については、「Lync Server 管理シェルドキュメントの[CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile) 」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="c19ae-116">For details, see [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile) in the Lync Server Management Shell documentation.</span></span>
+<span data-ttu-id="1e41e-114">パラメーターの詳細については、「Lync Server Management Shell」のドキュメントの「 [get-csnetworkintersitepolicy](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy) 」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="1e41e-114">For detailed parameter descriptions, see [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy) in the Lync Server Management Shell documentation.</span></span> <span data-ttu-id="1e41e-115">ネットワーク サイト リンクに適用できる帯域幅ポリシーのプロファイルの一覧を取得するには、**Get-CsNetworkBandwidthPolicyProfile** コマンドレットを呼び出します。</span><span class="sxs-lookup"><span data-stu-id="1e41e-115">To retrieve a list of bandwidth policy profiles that can be applied to the network site link, call the **Get-CsNetworkBandwidthPolicyProfile** cmdlet.</span></span> <span data-ttu-id="1e41e-116">詳細については、「Lync Server Management Shell」のドキュメントの「 [get-csnetworkbandwidthpolicyprofile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile) 」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="1e41e-116">For details, see [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile) in the Lync Server Management Shell documentation.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-modify-a-network-site-link"></a><span data-ttu-id="c19ae-117">ネットワークサイトのリンクを変更するには</span><span class="sxs-lookup"><span data-stu-id="c19ae-117">To modify a network site link</span></span>
+## <a name="to-modify-a-network-site-link"></a><span data-ttu-id="1e41e-117">ネットワーク サイト リンクを変更するには</span><span class="sxs-lookup"><span data-stu-id="1e41e-117">To modify a network site link</span></span>
 
-1.  <span data-ttu-id="c19ae-118">Lync Server 管理シェルが RTCUniversalServerAdmins グループのメンバーとして、または「 [Lync server 2013 の委任セットアップの権限](lync-server-2013-delegate-setup-permissions.md)」で説明されているように、必要なユーザー権限を持つコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="c19ae-118">Log on to the computer where Lync Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or with the necessary user rights as described in [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
+1.  <span data-ttu-id="1e41e-118">Lync Server 管理シェルがインストールされているコンピューターに、RTCUniversalServerAdmins グループのメンバーとして、または「 [Lync server 2013 のセットアップのアクセス許可の委任](lync-server-2013-delegate-setup-permissions.md)」に説明されている必要なユーザー権限を使用してログオンします。</span><span class="sxs-lookup"><span data-stu-id="1e41e-118">Log on to the computer where Lync Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or with the necessary user rights as described in [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
 
-2.  <span data-ttu-id="c19ae-119">Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="c19ae-119">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="1e41e-119">Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="1e41e-119">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="c19ae-120">指定のネットワークサイトリンクのプロパティを変更するには、 **CsNetworkInterSitePolicy**コマンドレットを使用します。</span><span class="sxs-lookup"><span data-stu-id="c19ae-120">Use the **Set-CsNetworkInterSitePolicy** cmdlet to modify the properties of a given network site link.</span></span> <span data-ttu-id="c19ae-121">いずれか (または両方) または接続されたサイトを変更することができます。また、リンクに関連付けられている帯域幅ポリシープロファイルを変更することもできます。</span><span class="sxs-lookup"><span data-stu-id="c19ae-121">You can modify either (or both) or the connected sites, and you can modify the bandwidth policy profile associated with the link.</span></span> <span data-ttu-id="c19ae-122">Reno\_ポートランドという名前のサイトリンクの帯域幅ポリシープロファイルを変更する例を次に示します。</span><span class="sxs-lookup"><span data-stu-id="c19ae-122">Here is an example of modifying the bandwidth policy profile of a site link named Reno\_Portland:</span></span>
+3.  <span data-ttu-id="1e41e-120">特定のネットワーク サイト リンクのプロパティを変更するには、**Set-CsNetworkInterSitePolicy** コマンドレットを使用します。</span><span class="sxs-lookup"><span data-stu-id="1e41e-120">Use the **Set-CsNetworkInterSitePolicy** cmdlet to modify the properties of a given network site link.</span></span> <span data-ttu-id="1e41e-121">接続されたサイトの一方 (または両方) を変更したり、リンクに関連付けられた帯域幅ポリシーのプロファイルを変更したりできます。</span><span class="sxs-lookup"><span data-stu-id="1e41e-121">You can modify either (or both) or the connected sites, and you can modify the bandwidth policy profile associated with the link.</span></span> <span data-ttu-id="1e41e-122">ここでは、リノ\_ポートランドという名前のサイトリンクの帯域幅ポリシープロファイルを変更する例を示します。</span><span class="sxs-lookup"><span data-stu-id="1e41e-122">Here is an example of modifying the bandwidth policy profile of a site link named Reno\_Portland:</span></span>
     
         Set-CsNetworkInterSitePolicy -Identity Reno_Portland -BWPolicyProfileID HighBWLimits
 
-<span data-ttu-id="c19ae-123">パラメーターの詳細については、「Lync Server Management Shell ドキュメントの[CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterSitePolicy) 」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="c19ae-123">For detailed parameter descriptions, see [Set-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterSitePolicy) in the Lync Server Management Shell documentation.</span></span>
+<span data-ttu-id="1e41e-123">パラメーターの説明の詳細については、「Lync Server Management Shell」のドキュメントの「 [get-csnetworkintersitepolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterSitePolicy) 」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="1e41e-123">For detailed parameter descriptions, see [Set-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterSitePolicy) in the Lync Server Management Shell documentation.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-delete-a-network-site-link"></a><span data-ttu-id="c19ae-124">ネットワークサイトのリンクを削除するには</span><span class="sxs-lookup"><span data-stu-id="c19ae-124">To delete a network site link</span></span>
+## <a name="to-delete-a-network-site-link"></a><span data-ttu-id="1e41e-124">ネットワーク サイト リンクを削除するには</span><span class="sxs-lookup"><span data-stu-id="1e41e-124">To delete a network site link</span></span>
 
-1.  <span data-ttu-id="c19ae-125">Lync Server 管理シェルが RTCUniversalServerAdmins グループのメンバーとして、または「 [Lync server 2013 の委任セットアップの権限](lync-server-2013-delegate-setup-permissions.md)」で説明されているように、必要なユーザー権限を持つコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="c19ae-125">Log on to the computer where Lync Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or with the necessary user rights as described in [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
+1.  <span data-ttu-id="1e41e-125">Lync Server 管理シェルがインストールされているコンピューターに、RTCUniversalServerAdmins グループのメンバーとして、または「 [Lync server 2013 のセットアップのアクセス許可の委任](lync-server-2013-delegate-setup-permissions.md)」に説明されている必要なユーザー権限を使用してログオンします。</span><span class="sxs-lookup"><span data-stu-id="1e41e-125">Log on to the computer where Lync Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or with the necessary user rights as described in [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
 
-2.  <span data-ttu-id="c19ae-126">Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="c19ae-126">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="1e41e-126">Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="1e41e-126">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="c19ae-127">ネットワークサイトへのリンクを削除するには、 **CsNetworkInterSitePolicy**コマンドレットを使用します。</span><span class="sxs-lookup"><span data-stu-id="c19ae-127">Use the **Remove-CsNetworkInterSitePolicy** cmdlet to remove a network site link.</span></span> <span data-ttu-id="c19ae-128">次の例では、\_Reno ポートランドネットワークサイトのリンクを削除します。</span><span class="sxs-lookup"><span data-stu-id="c19ae-128">The following example deletes the Reno\_Portland network site link:</span></span>
+3.  <span data-ttu-id="1e41e-127">ネットワーク サイト リンクを削除するには、**Remove-CsNetworkInterSitePolicy** コマンドレットを使用します。</span><span class="sxs-lookup"><span data-stu-id="1e41e-127">Use the **Remove-CsNetworkInterSitePolicy** cmdlet to remove a network site link.</span></span> <span data-ttu-id="1e41e-128">次の例では、\_リノポートランドネットワークサイトリンクを削除します。</span><span class="sxs-lookup"><span data-stu-id="1e41e-128">The following example deletes the Reno\_Portland network site link:</span></span>
     
         Remove-CsNetworkInterSitePolicy -Identity Reno_Portland
 
-<span data-ttu-id="c19ae-129">パラメーターの詳細については、「Lync Server Management Shell ドキュメントの[CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterSitePolicy) 」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="c19ae-129">For detailed parameter descriptions, see [Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterSitePolicy) in the Lync Server Management Shell documentation.</span></span>
+<span data-ttu-id="1e41e-129">パラメーターの詳細については、「Lync Server Management Shell」のドキュメントの「 [get-csnetworkintersitepolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterSitePolicy) 」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="1e41e-129">For detailed parameter descriptions, see [Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterSitePolicy) in the Lync Server Management Shell documentation.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="c19ae-130">関連項目</span><span class="sxs-lookup"><span data-stu-id="c19ae-130">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1e41e-130">関連項目</span><span class="sxs-lookup"><span data-stu-id="1e41e-130">See Also</span></span>
 
 
-[<span data-ttu-id="c19ae-131">Lync Server 2013 での通話受付制御コマンドレット</span><span class="sxs-lookup"><span data-stu-id="c19ae-131">Call admission control cmdlets in Lync Server 2013</span></span>](https://docs.microsoft.com/powershell/module/skype/)  
+[<span data-ttu-id="1e41e-131">Lync Server 2013 での通話受付管理のコマンドレット</span><span class="sxs-lookup"><span data-stu-id="1e41e-131">Call admission control cmdlets in Lync Server 2013</span></span>](https://docs.microsoft.com/powershell/module/skype/)  
 
 
-[<span data-ttu-id="c19ae-132">新規-CsNetworkInterSitePolicy</span><span class="sxs-lookup"><span data-stu-id="c19ae-132">New-CsNetworkInterSitePolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy)  
-[<span data-ttu-id="c19ae-133">Set-CsNetworkInterSitePolicy</span><span class="sxs-lookup"><span data-stu-id="c19ae-133">Set-CsNetworkInterSitePolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterSitePolicy)  
-[<span data-ttu-id="c19ae-134">Remove-CsNetworkInterSitePolicy</span><span class="sxs-lookup"><span data-stu-id="c19ae-134">Remove-CsNetworkInterSitePolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterSitePolicy)  
-[<span data-ttu-id="c19ae-135">Get-CsNetworkInterSitePolicy</span><span class="sxs-lookup"><span data-stu-id="c19ae-135">Get-CsNetworkInterSitePolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterSitePolicy)  
-[<span data-ttu-id="c19ae-136">Get-CsNetworkBandwidthPolicyProfile</span><span class="sxs-lookup"><span data-stu-id="c19ae-136">Get-CsNetworkBandwidthPolicyProfile</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)  
+[<span data-ttu-id="1e41e-132">Get-csnetworkintersitepolicy</span><span class="sxs-lookup"><span data-stu-id="1e41e-132">New-CsNetworkInterSitePolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy)  
+[<span data-ttu-id="1e41e-133">Get-csnetworkintersitepolicy</span><span class="sxs-lookup"><span data-stu-id="1e41e-133">Set-CsNetworkInterSitePolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterSitePolicy)  
+[<span data-ttu-id="1e41e-134">Get-csnetworkintersitepolicy</span><span class="sxs-lookup"><span data-stu-id="1e41e-134">Remove-CsNetworkInterSitePolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterSitePolicy)  
+[<span data-ttu-id="1e41e-135">Get-csnetworkintersitepolicy</span><span class="sxs-lookup"><span data-stu-id="1e41e-135">Get-CsNetworkInterSitePolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterSitePolicy)  
+[<span data-ttu-id="1e41e-136">Get-csnetworkbandwidthpolicyprofile</span><span class="sxs-lookup"><span data-stu-id="1e41e-136">Get-CsNetworkBandwidthPolicyProfile</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)  
   
 
 </div>

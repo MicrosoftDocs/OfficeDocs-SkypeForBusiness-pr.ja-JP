@@ -12,20 +12,20 @@ ms:contentKeyID: 48183785
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 40901f879af6de5066f210b84caea30f37485983
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cafa0403035be17f3247fa289079295a0d99004e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731637"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031221"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="system-requirements-for-administration-tools-in-lync-server-2013"></a><span data-ttu-id="0ac45-102">Lync Server 2013 の管理ツールのシステム要件</span><span class="sxs-lookup"><span data-stu-id="0ac45-102">System requirements for administration tools in Lync Server 2013</span></span>
+# <a name="system-requirements-for-administration-tools-in-lync-server-2013"></a><span data-ttu-id="c34d6-102">Lync Server 2013 の管理ツールのシステム要件</span><span class="sxs-lookup"><span data-stu-id="c34d6-102">System requirements for administration tools in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41731637"
 
 <span> </span>
 
-<span data-ttu-id="0ac45-103">_**最終更新日:** 2012-06-29_</span><span class="sxs-lookup"><span data-stu-id="0ac45-103">_**Topic Last Modified:** 2012-06-29_</span></span>
+<span data-ttu-id="c34d6-103">_**トピックの最終更新日:** 2012-06-29_</span><span class="sxs-lookup"><span data-stu-id="c34d6-103">_**Topic Last Modified:** 2012-06-29_</span></span>
 
-<span data-ttu-id="0ac45-104">次のトピックでは、管理ツールをインストールしてトポロジを公開するための要件について説明します。</span><span class="sxs-lookup"><span data-stu-id="0ac45-104">The following topics describe the requirements for installing the administration tool and publishing a topology.</span></span>
+<span data-ttu-id="c34d6-104">以下のトピックでは、管理ツールのインストール、およびトポロジの公開の要件について説明します。</span><span class="sxs-lookup"><span data-stu-id="c34d6-104">The following topics describe the requirements for installing the administration tool and publishing a topology.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="0ac45-105">このセクション中</span><span class="sxs-lookup"><span data-stu-id="0ac45-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="c34d6-105">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="c34d6-105">In This Section</span></span>
 
-  - [<span data-ttu-id="0ac45-106">Lync Server 2013 の管理ツールのソフトウェア要件</span><span class="sxs-lookup"><span data-stu-id="0ac45-106">Administrative tools software requirements in Lync Server 2013</span></span>](lync-server-2013-administrative-tools-software-requirements.md)
+  - [<span data-ttu-id="c34d6-106">Lync Server 2013 の管理ツールソフトウェア要件</span><span class="sxs-lookup"><span data-stu-id="c34d6-106">Administrative tools software requirements in Lync Server 2013</span></span>](lync-server-2013-administrative-tools-software-requirements.md)
 
-  - [<span data-ttu-id="0ac45-107">Lync Server 2013 でトポロジを公開する場合の要件</span><span class="sxs-lookup"><span data-stu-id="0ac45-107">Requirements to publish a topology in Lync Server 2013</span></span>](lync-server-2013-requirements-to-publish-a-topology.md)
+  - [<span data-ttu-id="c34d6-107">Lync Server 2013 でトポロジを公開するための要件</span><span class="sxs-lookup"><span data-stu-id="c34d6-107">Requirements to publish a topology in Lync Server 2013</span></span>](lync-server-2013-requirements-to-publish-a-topology.md)
 
 </div>
 

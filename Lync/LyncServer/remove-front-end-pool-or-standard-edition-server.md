@@ -1,5 +1,5 @@
 ---
-title: フロントエンド プールまたは Standard Edition サーバーの削除
+title: フロントエンドプールまたは Standard Edition サーバーの削除
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733713
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8628f883285eec61a179c27d5dfda16b8c9b51d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4f866af74117547c279955747c5c3398369465a5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727177"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008923"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="remove-front-end-pool-or-standard-edition-server"></a><span data-ttu-id="510c3-102">フロントエンド プールまたは Standard Edition サーバーの削除</span><span class="sxs-lookup"><span data-stu-id="510c3-102">Remove Front End pool or Standard Edition server</span></span>
+# <a name="remove-front-end-pool-or-standard-edition-server"></a><span data-ttu-id="3aecc-102">フロントエンドプールまたは Standard Edition サーバーの削除</span><span class="sxs-lookup"><span data-stu-id="3aecc-102">Remove Front End pool or Standard Edition server</span></span>
 
 </div>
 
@@ -35,46 +35,46 @@ ms.locfileid: "41727177"
 
 <span> </span>
 
-<span data-ttu-id="510c3-103">_**最終更新日:** 2012-10-04_</span><span class="sxs-lookup"><span data-stu-id="510c3-103">_**Topic Last Modified:** 2012-10-04_</span></span>
+<span data-ttu-id="3aecc-103">_**トピックの最終更新日:** 2012-10-04_</span><span class="sxs-lookup"><span data-stu-id="3aecc-103">_**Topic Last Modified:** 2012-10-04_</span></span>
 
-<span data-ttu-id="510c3-104">このトピックでは、フロントエンドプールまたは標準エディションのフロントエンドサーバーを削除する手順について説明します。</span><span class="sxs-lookup"><span data-stu-id="510c3-104">This topic guides you through the process of removing a Front End pool or a Standard Edition Front End Server.</span></span> <span data-ttu-id="510c3-105">フロントエンドプールを削除する場合は、プールに属している各フロントエンドサーバーをプール削除プロセスの一部として削除します。</span><span class="sxs-lookup"><span data-stu-id="510c3-105">When you remove a Front End pool, you remove each Front End Server that belongs to the pool as a part of the pool removal process.</span></span> <span data-ttu-id="510c3-106">Standard Edition のフロントエンドサーバーを削除する場合は、トポロジビルダーから SQL ストアの定義を削除する必要があります。</span><span class="sxs-lookup"><span data-stu-id="510c3-106">When you remove a Standard Edition Front End Server, you must remove the SQL Store definition from Topology Builder.</span></span>
+<span data-ttu-id="3aecc-104">このトピックでは、フロントエンドプールまたは Standard Edition フロントエンドサーバーを削除するプロセスについて説明します。</span><span class="sxs-lookup"><span data-stu-id="3aecc-104">This topic guides you through the process of removing a Front End pool or a Standard Edition Front End Server.</span></span> <span data-ttu-id="3aecc-105">フロントエンドプールを削除する場合は、プール削除処理の一部として、そのプールに属する各フロントエンドサーバーを削除します。</span><span class="sxs-lookup"><span data-stu-id="3aecc-105">When you remove a Front End pool, you remove each Front End Server that belongs to the pool as a part of the pool removal process.</span></span> <span data-ttu-id="3aecc-106">Standard Edition フロントエンドサーバーを削除する場合は、トポロジビルダーから SQL ストア定義を削除する必要があります。</span><span class="sxs-lookup"><span data-stu-id="3aecc-106">When you remove a Standard Edition Front End Server, you must remove the SQL Store definition from Topology Builder.</span></span>
 
 <div>
 
-## <a name="to-remove-a-front-end-server-pool"></a><span data-ttu-id="510c3-107">フロントエンドサーバープールを削除するには</span><span class="sxs-lookup"><span data-stu-id="510c3-107">To remove a Front End Server pool</span></span>
+## <a name="to-remove-a-front-end-server-pool"></a><span data-ttu-id="3aecc-107">フロントエンド サーバー プールを削除するには</span><span class="sxs-lookup"><span data-stu-id="3aecc-107">To remove a Front End Server pool</span></span>
 
-1.  <span data-ttu-id="510c3-108">トポロジビルダーを開きます。</span><span class="sxs-lookup"><span data-stu-id="510c3-108">Open Topology Builder.</span></span>
+1.  <span data-ttu-id="3aecc-108">トポロジ ビルダーを開きます。</span><span class="sxs-lookup"><span data-stu-id="3aecc-108">Open Topology Builder.</span></span>
 
-2.  <span data-ttu-id="510c3-109">Lync Server 2010 ノードに移動します。</span><span class="sxs-lookup"><span data-stu-id="510c3-109">Navigate to the Lync Server 2010 node.</span></span>
+2.  <span data-ttu-id="3aecc-109">[Lync Server 2010 ノードに移動します。</span><span class="sxs-lookup"><span data-stu-id="3aecc-109">Navigate to the Lync Server 2010 node.</span></span>
 
-3.  <span data-ttu-id="510c3-110">**Enterprise Edition のフロントエンド**プールを展開し、フロントエンドプールを展開して、削除するフロントエンドプールを右クリックし、[**削除**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="510c3-110">Expand **Enterprise Edition Front End pools**, expand the Front End pool, right-click the Front End pool that you want to remove, and then click **Delete**.</span></span>
+3.  <span data-ttu-id="3aecc-110">[ **Enterprise Edition フロントエンド**プール] を展開し、フロントエンドプールを展開して、削除するフロントエンドプールを右クリックし、[**削除**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="3aecc-110">Expand **Enterprise Edition Front End pools**, expand the Front End pool, right-click the Front End pool that you want to remove, and then click **Delete**.</span></span>
 
-4.  <span data-ttu-id="510c3-111">トポロジを公開し、レプリケーションの状態を確認してから、必要に応じて Lync Server 展開ウィザードを実行します。</span><span class="sxs-lookup"><span data-stu-id="510c3-111">Publish the topology, check replication status, and then run the Lync Server Deployment Wizard as needed.</span></span>
+4.  <span data-ttu-id="3aecc-111">トポロジを公開し、レプリケーションの状態を確認してから、必要に応じて Lync Server 展開ウィザードを実行します。</span><span class="sxs-lookup"><span data-stu-id="3aecc-111">Publish the topology, check replication status, and then run the Lync Server Deployment Wizard as needed.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-remove-a-standard-edition-front-end-server"></a><span data-ttu-id="510c3-112">Standard Edition フロントエンドサーバーを削除するには</span><span class="sxs-lookup"><span data-stu-id="510c3-112">To remove a Standard Edition Front End server</span></span>
+## <a name="to-remove-a-standard-edition-front-end-server"></a><span data-ttu-id="3aecc-112">Standard Edition フロントエンド サーバーを削除するには</span><span class="sxs-lookup"><span data-stu-id="3aecc-112">To remove a Standard Edition Front End server</span></span>
 
-1.  <span data-ttu-id="510c3-113">トポロジビルダーを開きます。</span><span class="sxs-lookup"><span data-stu-id="510c3-113">Open Topology Builder.</span></span>
+1.  <span data-ttu-id="3aecc-113">トポロジ ビルダーを開きます。</span><span class="sxs-lookup"><span data-stu-id="3aecc-113">Open Topology Builder.</span></span>
 
-2.  <span data-ttu-id="510c3-114">Lync Server 2010 ノードに移動します。</span><span class="sxs-lookup"><span data-stu-id="510c3-114">Navigate to the Lync Server 2010 node.</span></span>
+2.  <span data-ttu-id="3aecc-114">[Lync Server 2010 ノードに移動します。</span><span class="sxs-lookup"><span data-stu-id="3aecc-114">Navigate to the Lync Server 2010 node.</span></span>
 
-3.  <span data-ttu-id="510c3-115">**Standard Edition のフロントエンド**サーバーを展開し、削除するフロントエンドサーバーを右クリックして、[**削除**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="510c3-115">Expand **Standard Edition Front End servers**, right-click the Front End Server that you want to remove, and then click **Delete**.</span></span>
+3.  <span data-ttu-id="3aecc-115">[ **Standard Edition フロントエンドサーバー**] を展開し、削除するフロントエンドサーバーを右クリックして、[**削除**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="3aecc-115">Expand **Standard Edition Front End servers**, right-click the Front End Server that you want to remove, and then click **Delete**.</span></span>
 
-4.  <span data-ttu-id="510c3-116">[ **Sql ストア**] を展開し、Standard Edition フロントエンドサーバーに関連付けられている sql Server データベースを右クリックし、[**削除**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="510c3-116">Expand **SQL stores**, right-click the SQL Server database that is associated with the Standard Edition Front End Server, and then click **Delete**.</span></span>
+4.  <span data-ttu-id="3aecc-116">[ **Sql ストア**] を展開し、Standard Edition フロントエンドサーバーに関連付けられている sql Server データベースを右クリックし、[**削除**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="3aecc-116">Expand **SQL stores**, right-click the SQL Server database that is associated with the Standard Edition Front End Server, and then click **Delete**.</span></span>
     
     <div>
     
 
     > [!IMPORTANT]  
-    > <span data-ttu-id="510c3-117">併置された SQL Server データベースの定義は、Standard Edition のフロントエンドサーバーから削除する必要があります。</span><span class="sxs-lookup"><span data-stu-id="510c3-117">You must remove the definition of the collocated SQL Server databases from the Standard Edition Front End Server.</span></span>
+    > <span data-ttu-id="3aecc-117">併置された SQL Server データベースの定義は、Standard Edition フロントエンドサーバーから削除する必要があります。</span><span class="sxs-lookup"><span data-stu-id="3aecc-117">You must remove the definition of the collocated SQL Server databases from the Standard Edition Front End Server.</span></span>
 
     
     </div>
 
-5.  <span data-ttu-id="510c3-118">トポロジを公開し、レプリケーションの状態を確認してから、必要に応じて Lync Server 展開ウィザードを実行します。</span><span class="sxs-lookup"><span data-stu-id="510c3-118">Publish the topology, check replication status, and then run the Lync Server Deployment Wizard as needed.</span></span>
+5.  <span data-ttu-id="3aecc-118">トポロジを公開し、レプリケーションの状態を確認してから、必要に応じて Lync Server 展開ウィザードを実行します。</span><span class="sxs-lookup"><span data-stu-id="3aecc-118">Publish the topology, check replication status, and then run the Lync Server Deployment Wizard as needed.</span></span>
 
 </div>
 

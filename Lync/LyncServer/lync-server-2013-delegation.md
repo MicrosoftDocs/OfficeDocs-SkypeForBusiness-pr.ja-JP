@@ -12,20 +12,20 @@ ms:contentKeyID: 51803956
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8da9568ae4cd613dcba0760fb4a8b20295fbb68d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a9d9f5473f94f093d92cce1b4664f54d6f32430d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739807"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028518"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="delegation-in-lync-server-2013"></a><span data-ttu-id="cdffc-102">Lync Server 2013 の委任</span><span class="sxs-lookup"><span data-stu-id="cdffc-102">Delegation in Lync Server 2013</span></span>
+# <a name="delegation-in-lync-server-2013"></a><span data-ttu-id="8f7f5-102">Lync Server 2013 での委任</span><span class="sxs-lookup"><span data-stu-id="8f7f5-102">Delegation in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,24 +35,24 @@ ms.locfileid: "41739807"
 
 <span> </span>
 
-<span data-ttu-id="cdffc-103">_**最終更新日:** 2013-03-09_</span><span class="sxs-lookup"><span data-stu-id="cdffc-103">_**Topic Last Modified:** 2013-03-09_</span></span>
+<span data-ttu-id="8f7f5-103">_**トピックの最終更新日:** 2013-03-09_</span><span class="sxs-lookup"><span data-stu-id="8f7f5-103">_**Topic Last Modified:** 2013-03-09_</span></span>
 
-<span data-ttu-id="cdffc-104">Lync の委任機能は、次のような方法で位置情報に基づくルーティングによって影響を受けます。</span><span class="sxs-lookup"><span data-stu-id="cdffc-104">The delegation capabilities in Lync are affected by Location-Based Routing in the following manner:</span></span>
+<span data-ttu-id="8f7f5-104">Lync の委任機能は、次の方法で場所に基づくルーティングによって影響を受けます。</span><span class="sxs-lookup"><span data-stu-id="8f7f5-104">The delegation capabilities in Lync are affected by Location-Based Routing in the following manner:</span></span>
 
-  - <span data-ttu-id="cdffc-105">位置情報に基づくルーティングを有効にした代理人が管理者の代わりに通話を発信する場合、代理人のボイスポリシーを使って通話を承認し、代理人のサイトボイスルーティングポリシーを使って通話をルーティングします。</span><span class="sxs-lookup"><span data-stu-id="cdffc-105">When a delegate enabled for Location-Based Routing places a call on behalf of a manager, the delegate’s voice policy is used to authorize the call and the delegate’s site voice routing policy will be used to route the call</span></span>
+  - <span data-ttu-id="8f7f5-105">場所に基づくルーティングを有効にした代理人が上司に代わって呼び出しを行う場合は、代理人の音声ポリシーを使用して通話を承認し、代理人のサイトの音声ルーティングポリシーを使用して通話をルーティングします。</span><span class="sxs-lookup"><span data-stu-id="8f7f5-105">When a delegate enabled for Location-Based Routing places a call on behalf of a manager, the delegate’s voice policy is used to authorize the call and the delegate’s site voice routing policy will be used to route the call</span></span>
 
-  - <span data-ttu-id="cdffc-106">マネージャーへの着信 PSTN 通話については、通話の転送または同時呼び出しに適用されるのと同じルールが適用されます (着信の転送と通話の転送および同時呼び出しのトピックを参照してください)。</span><span class="sxs-lookup"><span data-stu-id="cdffc-106">For incoming PSTN calls to a manager, the same rules applicable for call forwarding or simultaneously ringing will apply as described in the Call transfers and forwarding and Simultaneous ringing topics.</span></span>
+  - <span data-ttu-id="8f7f5-106">マネージャーへの PSTN 通話の着信の場合、通話の転送と同時呼び出しの場合と同じ規則が、「通話の転送と転送と同時呼び出し」のトピックで説明しているとおりに適用されます。</span><span class="sxs-lookup"><span data-stu-id="8f7f5-106">For incoming PSTN calls to a manager, the same rules applicable for call forwarding or simultaneously ringing will apply as described in the Call transfers and forwarding and Simultaneous ringing topics.</span></span>
 
-  - <span data-ttu-id="cdffc-107">代理人がマネージャーへの着信通話に対して PSTN エンドポイントを同時呼び出しターゲットとして設定すると、代理人の PSTN エンドポイントへの通話のルーティングに、受信トランクに関連付けられたサイトの音声ルーティング ポリシーが使用されます。</span><span class="sxs-lookup"><span data-stu-id="cdffc-107">When a delegate sets a PSTN endpoint as a simultaneous ring target, for an incoming call to the manager, the voice routing policy of the site that is associated to the incoming trunk will be used to route the call to the delegate’s PSTN endpoint.</span></span>
+  - <span data-ttu-id="8f7f5-107">代理人が PSTN エンドポイントを同時呼び出しターゲットとして設定している場合、マネージャーへの着信呼び出しでは、着信トランクに関連付けられているサイトの音声ルーティングポリシーを使用して、代理人の PSTN エンドポイントに通話をルーティングします。</span><span class="sxs-lookup"><span data-stu-id="8f7f5-107">When a delegate sets a PSTN endpoint as a simultaneous ring target, for an incoming call to the manager, the voice routing policy of the site that is associated to the incoming trunk will be used to route the call to the delegate’s PSTN endpoint.</span></span>
 
-  - <span data-ttu-id="cdffc-108">委任に関して、通常はマネージャーとその関連付けられた代理人を同じネットワーク サイトに配置することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="cdffc-108">For delegation, it’s recommended that the manager and his associated delegates to be usually located in the same network site.</span></span>
+  - <span data-ttu-id="8f7f5-108">委任では、管理者とその関連付けられた代理人を、通常同じネットワークサイトに配置することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="8f7f5-108">For delegation, it’s recommended that the manager and his associated delegates to be usually located in the same network site.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="cdffc-109">関連項目</span><span class="sxs-lookup"><span data-stu-id="cdffc-109">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8f7f5-109">関連項目</span><span class="sxs-lookup"><span data-stu-id="8f7f5-109">See Also</span></span>
 
 
-[<span data-ttu-id="cdffc-110">Lync Server 2013 の場所に基づくルーティングのシナリオ</span><span class="sxs-lookup"><span data-stu-id="cdffc-110">Scenarios for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-scenarios-for-location-based-routing.md)  
+[<span data-ttu-id="8f7f5-110">Lync Server 2013 での場所に基づくルーティングのシナリオ</span><span class="sxs-lookup"><span data-stu-id="8f7f5-110">Scenarios for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-scenarios-for-location-based-routing.md)  
   
 
 </div>

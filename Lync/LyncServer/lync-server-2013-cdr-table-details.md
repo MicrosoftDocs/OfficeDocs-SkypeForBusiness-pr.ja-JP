@@ -12,20 +12,20 @@ ms:contentKeyID: 48184730
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 650caa5244eaf796c066f1388f2fcbb5d3b0703a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 32b48f6a03c0663277404876f538ae2f15d1bc38
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736947"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008509"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="cdr-table-details-in-lync-server-2013"></a><span data-ttu-id="575f9-102">Lync Server 2013 の CDR テーブルの詳細</span><span class="sxs-lookup"><span data-stu-id="575f9-102">CDR table details in Lync Server 2013</span></span>
+# <a name="cdr-table-details-in-lync-server-2013"></a><span data-ttu-id="cba3f-102">Lync Server 2013 の CDR テーブルの詳細</span><span class="sxs-lookup"><span data-stu-id="cba3f-102">CDR table details in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,111 +35,111 @@ ms.locfileid: "41736947"
 
 <span> </span>
 
-<span data-ttu-id="575f9-103">_**最終更新日:** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="575f9-103">_**Topic Last Modified:** 2012-10-18_</span></span>
+<span data-ttu-id="cba3f-103">_**トピックの最終更新日:** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="cba3f-103">_**Topic Last Modified:** 2012-10-18_</span></span>
 
-<span data-ttu-id="575f9-104">次のトピックでは、各通話詳細レコード (CDR) データベーススキーマテーブルの列について詳しく説明します。</span><span class="sxs-lookup"><span data-stu-id="575f9-104">The following topics detail the columns in each of the call detail records (CDR) database schema tables.</span></span>
+<span data-ttu-id="cba3f-104">以下のトピックでは、通話詳細記録 (CDR) データベース スキーマの各テーブル内の列について詳しく説明します。</span><span class="sxs-lookup"><span data-stu-id="cba3f-104">The following topics detail the columns in each of the call detail records (CDR) database schema tables.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="575f9-105">このセクション中</span><span class="sxs-lookup"><span data-stu-id="575f9-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="cba3f-105">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="cba3f-105">In This Section</span></span>
 
-  - [<span data-ttu-id="575f9-106">Lync Server 2013 の Application テーブル</span><span class="sxs-lookup"><span data-stu-id="575f9-106">Application table in Lync Server 2013</span></span>](lync-server-2013-application-table.md)
+  - [<span data-ttu-id="cba3f-106">Lync Server 2013 のアプリケーションテーブル</span><span class="sxs-lookup"><span data-stu-id="cba3f-106">Application table in Lync Server 2013</span></span>](lync-server-2013-application-table.md)
 
-  - [<span data-ttu-id="575f9-107">Lync Server 2013 の CallPriorities テーブル</span><span class="sxs-lookup"><span data-stu-id="575f9-107">CallPriorities table in Lync Server 2013</span></span>](lync-server-2013-callpriorities-table.md)
+  - [<span data-ttu-id="cba3f-107">Lync Server 2013 の CallPriorities テーブル</span><span class="sxs-lookup"><span data-stu-id="cba3f-107">CallPriorities table in Lync Server 2013</span></span>](lync-server-2013-callpriorities-table.md)
 
-  - [<span data-ttu-id="575f9-108">Lync Server 2013 の CallType テーブル</span><span class="sxs-lookup"><span data-stu-id="575f9-108">CallType table in Lync Server 2013</span></span>](lync-server-2013-calltype-table.md)
+  - [<span data-ttu-id="cba3f-108">Lync Server 2013 の CallType テーブル</span><span class="sxs-lookup"><span data-stu-id="cba3f-108">CallType table in Lync Server 2013</span></span>](lync-server-2013-calltype-table.md)
 
-  - [<span data-ttu-id="575f9-109">Lync Server 2013 の ClientVersions テーブル</span><span class="sxs-lookup"><span data-stu-id="575f9-109">ClientVersions table in Lync Server 2013</span></span>](lync-server-2013-clientversions-table.md)
+  - [<span data-ttu-id="cba3f-109">Lync Server 2013 の ClientVersions テーブル</span><span class="sxs-lookup"><span data-stu-id="cba3f-109">ClientVersions table in Lync Server 2013</span></span>](lync-server-2013-clientversions-table.md)
 
-  - [<span data-ttu-id="575f9-110">Lync Server 2013 の ConferenceJoinTimeThresholds テーブル</span><span class="sxs-lookup"><span data-stu-id="575f9-110">ConferenceJoinTimeThresholds table in Lync Server 2013</span></span>](lync-server-2013-conferencejointimethresholds-table.md)
+  - [<span data-ttu-id="cba3f-110">Lync Server 2013 の ConferenceJoinTimeThresholds テーブル</span><span class="sxs-lookup"><span data-stu-id="cba3f-110">ConferenceJoinTimeThresholds table in Lync Server 2013</span></span>](lync-server-2013-conferencejointimethresholds-table.md)
 
-  - [<span data-ttu-id="575f9-111">Lync Server 2013 の ConferenceMessageCount テーブル</span><span class="sxs-lookup"><span data-stu-id="575f9-111">ConferenceMessageCount table in Lync Server 2013</span></span>](lync-server-2013-conferencemessagecount-table.md)
+  - [<span data-ttu-id="cba3f-111">Lync Server 2013 の ConferenceMessageCount テーブル</span><span class="sxs-lookup"><span data-stu-id="cba3f-111">ConferenceMessageCount table in Lync Server 2013</span></span>](lync-server-2013-conferencemessagecount-table.md)
 
-  - [<span data-ttu-id="575f9-112">Lync Server 2013 の Conferences テーブル</span><span class="sxs-lookup"><span data-stu-id="575f9-112">Conferences table in Lync Server 2013</span></span>](lync-server-2013-conferences-table.md)
+  - [<span data-ttu-id="cba3f-112">Lync Server 2013 の会議テーブル</span><span class="sxs-lookup"><span data-stu-id="cba3f-112">Conferences table in Lync Server 2013</span></span>](lync-server-2013-conferences-table.md)
 
-  - [<span data-ttu-id="575f9-113">Lync Server 2013 の ConferenceSessionDetails テーブル</span><span class="sxs-lookup"><span data-stu-id="575f9-113">ConferenceSessionDetails table in Lync Server 2013</span></span>](lync-server-2013-conferencesessiondetails-table.md)
+  - [<span data-ttu-id="cba3f-113">Lync Server 2013 の ConferenceSessionDetails テーブル</span><span class="sxs-lookup"><span data-stu-id="cba3f-113">ConferenceSessionDetails table in Lync Server 2013</span></span>](lync-server-2013-conferencesessiondetails-table.md)
 
-  - [<span data-ttu-id="575f9-114">Lync Server 2013 の ConferenceUris テーブル</span><span class="sxs-lookup"><span data-stu-id="575f9-114">ConferenceUris table in Lync Server 2013</span></span>](lync-server-2013-conferenceuris-table.md)
+  - [<span data-ttu-id="cba3f-114">Lync Server 2013 の ConferenceUris テーブル</span><span class="sxs-lookup"><span data-stu-id="cba3f-114">ConferenceUris table in Lync Server 2013</span></span>](lync-server-2013-conferenceuris-table.md)
 
-  - [<span data-ttu-id="575f9-115">Lync Server 2013 の ContentTypes テーブル</span><span class="sxs-lookup"><span data-stu-id="575f9-115">ContentTypes table in Lync Server 2013</span></span>](lync-server-2013-contenttypes-table.md)
+  - [<span data-ttu-id="cba3f-115">Lync Server 2013 の ContentTypes テーブル</span><span class="sxs-lookup"><span data-stu-id="cba3f-115">ContentTypes table in Lync Server 2013</span></span>](lync-server-2013-contenttypes-table.md)
 
-  - [<span data-ttu-id="575f9-116">Lync Server 2013 の DeRegisterType テーブル</span><span class="sxs-lookup"><span data-stu-id="575f9-116">DeRegisterType table in Lync Server 2013</span></span>](lync-server-2013-deregistertype-table.md)
+  - [<span data-ttu-id="cba3f-116">Lync Server 2013 の DeRegisterType テーブル</span><span class="sxs-lookup"><span data-stu-id="cba3f-116">DeRegisterType table in Lync Server 2013</span></span>](lync-server-2013-deregistertype-table.md)
 
-  - [<span data-ttu-id="575f9-117">Lync Server 2013 の Devices テーブル</span><span class="sxs-lookup"><span data-stu-id="575f9-117">Devices table in Lync Server 2013</span></span>](lync-server-2013-devices-table.md)
+  - [<span data-ttu-id="cba3f-117">Lync Server 2013 の Devices テーブル</span><span class="sxs-lookup"><span data-stu-id="cba3f-117">Devices table in Lync Server 2013</span></span>](lync-server-2013-devices-table.md)
 
-  - [<span data-ttu-id="575f9-118">Lync Server 2013 の Dialogs テーブル</span><span class="sxs-lookup"><span data-stu-id="575f9-118">Dialogs table in Lync Server 2013</span></span>](lync-server-2013-dialogs-table.md)
+  - [<span data-ttu-id="cba3f-118">Lync Server 2013 のダイアログテーブル</span><span class="sxs-lookup"><span data-stu-id="cba3f-118">Dialogs table in Lync Server 2013</span></span>](lync-server-2013-dialogs-table.md)
 
-  - [<span data-ttu-id="575f9-119">Lync Server 2013 の EdgeServers テーブル</span><span class="sxs-lookup"><span data-stu-id="575f9-119">EdgeServers table in Lync Server 2013</span></span>](lync-server-2013-edgeservers-table.md)
+  - [<span data-ttu-id="cba3f-119">Lync Server 2013 の EdgeServers テーブル</span><span class="sxs-lookup"><span data-stu-id="cba3f-119">EdgeServers table in Lync Server 2013</span></span>](lync-server-2013-edgeservers-table.md)
 
-  - [<span data-ttu-id="575f9-120">Lync Server 2013 の ErrorCategory テーブル</span><span class="sxs-lookup"><span data-stu-id="575f9-120">ErrorCategory table in Lync Server 2013</span></span>](lync-server-2013-errorcategory-table.md)
+  - [<span data-ttu-id="cba3f-120">Lync Server 2013 の ErrorCategory テーブル</span><span class="sxs-lookup"><span data-stu-id="cba3f-120">ErrorCategory table in Lync Server 2013</span></span>](lync-server-2013-errorcategory-table.md)
 
-  - [<span data-ttu-id="575f9-121">Lync Server 2013 ErrorDef テーブル</span><span class="sxs-lookup"><span data-stu-id="575f9-121">ErrorDef table in Lync Server 2013</span></span>](lync-server-2013-errordef-table.md)
+  - [<span data-ttu-id="cba3f-121">Lync Server 2013 の ErrorDef テーブル</span><span class="sxs-lookup"><span data-stu-id="cba3f-121">ErrorDef table in Lync Server 2013</span></span>](lync-server-2013-errordef-table.md)
 
-  - [<span data-ttu-id="575f9-122">Lync Server 2013 の ErrorReport テーブル</span><span class="sxs-lookup"><span data-stu-id="575f9-122">ErrorReport table in Lync Server 2013</span></span>](lync-server-2013-errorreport-table.md)
+  - [<span data-ttu-id="cba3f-122">Lync Server 2013 の ErrorReport テーブル</span><span class="sxs-lookup"><span data-stu-id="cba3f-122">ErrorReport table in Lync Server 2013</span></span>](lync-server-2013-errorreport-table.md)
 
-  - [<span data-ttu-id="575f9-123">Lync Server 2013 の FileTransfers テーブル</span><span class="sxs-lookup"><span data-stu-id="575f9-123">FileTransfers table in Lync Server 2013</span></span>](lync-server-2013-filetransfers-table.md)
+  - [<span data-ttu-id="cba3f-123">Lync Server 2013 の FileTransfers テーブル</span><span class="sxs-lookup"><span data-stu-id="cba3f-123">FileTransfers table in Lync Server 2013</span></span>](lync-server-2013-filetransfers-table.md)
 
-  - [<span data-ttu-id="575f9-124">Lync Server 2013 の FocusJoinsAndLeaves テーブル</span><span class="sxs-lookup"><span data-stu-id="575f9-124">FocusJoinsAndLeaves table in Lync Server 2013</span></span>](lync-server-2013-focusjoinsandleaves-table.md)
+  - [<span data-ttu-id="cba3f-124">Lync Server 2013 の FocusJoinsAndLeaves テーブル</span><span class="sxs-lookup"><span data-stu-id="cba3f-124">FocusJoinsAndLeaves table in Lync Server 2013</span></span>](lync-server-2013-focusjoinsandleaves-table.md)
 
-  - [<span data-ttu-id="575f9-125">Lync Server 2013 のフロントエンドテーブル</span><span class="sxs-lookup"><span data-stu-id="575f9-125">FrontEnd table in Lync Server 2013</span></span>](lync-server-2013-frontend-table.md)
+  - [<span data-ttu-id="cba3f-125">Lync Server 2013 のフロントエンドテーブル</span><span class="sxs-lookup"><span data-stu-id="cba3f-125">FrontEnd table in Lync Server 2013</span></span>](lync-server-2013-frontend-table.md)
 
-  - [<span data-ttu-id="575f9-126">Lync Server 2013 のゲートウェイ テーブル</span><span class="sxs-lookup"><span data-stu-id="575f9-126">Gateways table in Lync Server 2013</span></span>](lync-server-2013-gateways-table.md)
+  - [<span data-ttu-id="cba3f-126">Lync Server 2013 のゲートウェイテーブル</span><span class="sxs-lookup"><span data-stu-id="cba3f-126">Gateways table in Lync Server 2013</span></span>](lync-server-2013-gateways-table.md)
 
-  - [<span data-ttu-id="575f9-127">Lync Server 2013 の HardwareVersions テーブル</span><span class="sxs-lookup"><span data-stu-id="575f9-127">HardwareVersions table in Lync Server 2013</span></span>](lync-server-2013-hardwareversions-table.md)
+  - <span data-ttu-id="cba3f-127">[Lync Server 2013 の [ハードウェアバージョン表の一覧](lync-server-2013-hardwareversions-table.md)</span><span class="sxs-lookup"><span data-stu-id="cba3f-127">[HardwareVersions table in Lync Server 2013](lync-server-2013-hardwareversions-table.md)</span></span>
 
-  - [<span data-ttu-id="575f9-128">Lync Server 2013 の IMReportSummary テーブル</span><span class="sxs-lookup"><span data-stu-id="575f9-128">IMReportSummary table in Lync Server 2013</span></span>](lync-server-2013-imreportsummary-table.md)
+  - [<span data-ttu-id="cba3f-128">Lync Server 2013 の IMReportSummary テーブル</span><span class="sxs-lookup"><span data-stu-id="cba3f-128">IMReportSummary table in Lync Server 2013</span></span>](lync-server-2013-imreportsummary-table.md)
 
-  - [<span data-ttu-id="575f9-129">Lync Server 2013 の Locations テーブル</span><span class="sxs-lookup"><span data-stu-id="575f9-129">Locations table in Lync Server 2013</span></span>](lync-server-2013-locations-table.md)
+  - [<span data-ttu-id="cba3f-129">Lync Server 2013 の場所テーブル</span><span class="sxs-lookup"><span data-stu-id="cba3f-129">Locations table in Lync Server 2013</span></span>](lync-server-2013-locations-table.md)
 
-  - [<span data-ttu-id="575f9-130">Lync Server 2013 の Manufacturers テーブル</span><span class="sxs-lookup"><span data-stu-id="575f9-130">Manufacturers table in Lync Server 2013</span></span>](lync-server-2013-manufacturers-table.md)
+  - <span data-ttu-id="cba3f-130">[Lync Server 2013 の [製造元の表」](lync-server-2013-manufacturers-table.md)</span><span class="sxs-lookup"><span data-stu-id="cba3f-130">[Manufacturers table in Lync Server 2013](lync-server-2013-manufacturers-table.md)</span></span>
 
-  - [<span data-ttu-id="575f9-131">Lync Server 2013 の McuJoinsAndLeaves テーブル</span><span class="sxs-lookup"><span data-stu-id="575f9-131">McuJoinsAndLeaves table in Lync Server 2013</span></span>](lync-server-2013-mcujoinsandleaves-table.md)
+  - [<span data-ttu-id="cba3f-131">Lync Server 2013 の McuJoinsAndLeaves テーブル</span><span class="sxs-lookup"><span data-stu-id="cba3f-131">McuJoinsAndLeaves table in Lync Server 2013</span></span>](lync-server-2013-mcujoinsandleaves-table.md)
 
-  - [<span data-ttu-id="575f9-132">Lync Server 2013 の Mcus テーブル</span><span class="sxs-lookup"><span data-stu-id="575f9-132">Mcus table in Lync Server 2013</span></span>](lync-server-2013-mcus-table.md)
+  - [<span data-ttu-id="cba3f-132">Lync Server 2013 の mcu テーブル</span><span class="sxs-lookup"><span data-stu-id="cba3f-132">Mcus table in Lync Server 2013</span></span>](lync-server-2013-mcus-table.md)
 
-  - [<span data-ttu-id="575f9-133">Lync Server 2013 の Media テーブル</span><span class="sxs-lookup"><span data-stu-id="575f9-133">Media table in Lync Server 2013</span></span>](lync-server-2013-media-table.md)
+  - [<span data-ttu-id="cba3f-133">Lync Server 2013 のメディアテーブル</span><span class="sxs-lookup"><span data-stu-id="cba3f-133">Media table in Lync Server 2013</span></span>](lync-server-2013-media-table.md)
 
-  - [<span data-ttu-id="575f9-134">Lync Server 2013 の MediaList テーブル</span><span class="sxs-lookup"><span data-stu-id="575f9-134">MediaList table in Lync Server 2013</span></span>](lync-server-2013-medialist-table.md)
+  - [<span data-ttu-id="cba3f-134">Lync Server 2013 の MediaList テーブル</span><span class="sxs-lookup"><span data-stu-id="cba3f-134">MediaList table in Lync Server 2013</span></span>](lync-server-2013-medialist-table.md)
 
-  - [<span data-ttu-id="575f9-135">Lync Server 2013 の MediationServers テーブル</span><span class="sxs-lookup"><span data-stu-id="575f9-135">MediationServers table in Lync Server 2013</span></span>](lync-server-2013-mediationservers-table.md)
+  - [<span data-ttu-id="cba3f-135">Lync Server 2013 の MediationServers テーブル</span><span class="sxs-lookup"><span data-stu-id="cba3f-135">MediationServers table in Lync Server 2013</span></span>](lync-server-2013-mediationservers-table.md)
 
-  - [<span data-ttu-id="575f9-136">Lync Server 2013 の MSMQProcessing テーブル</span><span class="sxs-lookup"><span data-stu-id="575f9-136">MSMQProcessing table in Lync Server 2013</span></span>](lync-server-2013-msmqprocessing-table.md)
+  - [<span data-ttu-id="cba3f-136">Lync Server 2013 の MSMQProcessing テーブル</span><span class="sxs-lookup"><span data-stu-id="cba3f-136">MSMQProcessing table in Lync Server 2013</span></span>](lync-server-2013-msmqprocessing-table.md)
 
-  - [<span data-ttu-id="575f9-137">Lync Server 2013 の Phones テーブル</span><span class="sxs-lookup"><span data-stu-id="575f9-137">Phones table in Lync Server 2013</span></span>](lync-server-2013-phones-table.md)
+  - [<span data-ttu-id="cba3f-137">Lync Server 2013 の電話表</span><span class="sxs-lookup"><span data-stu-id="cba3f-137">Phones table in Lync Server 2013</span></span>](lync-server-2013-phones-table.md)
 
-  - [<span data-ttu-id="575f9-138">Lync Server 2013 の Pools テーブル</span><span class="sxs-lookup"><span data-stu-id="575f9-138">Pools table in Lync Server 2013</span></span>](lync-server-2013-pools-table.md)
+  - [<span data-ttu-id="cba3f-138">Lync Server 2013 のプールテーブル</span><span class="sxs-lookup"><span data-stu-id="cba3f-138">Pools table in Lync Server 2013</span></span>](lync-server-2013-pools-table.md)
 
-  - [<span data-ttu-id="575f9-139">Lync Server 2013 の ProgressReport テーブル</span><span class="sxs-lookup"><span data-stu-id="575f9-139">ProgressReport table in Lync Server 2013</span></span>](lync-server-2013-progressreport-table.md)
+  - [<span data-ttu-id="cba3f-139">Lync Server 2013 の進捗レポートの表</span><span class="sxs-lookup"><span data-stu-id="cba3f-139">ProgressReport table in Lync Server 2013</span></span>](lync-server-2013-progressreport-table.md)
 
-  - [<span data-ttu-id="575f9-140">Lync Server 2013 の PurgeSettings テーブル</span><span class="sxs-lookup"><span data-stu-id="575f9-140">PurgeSettings table in Lync Server 2013</span></span>](lync-server-2013-purgesettings-table.md)
+  - [<span data-ttu-id="cba3f-140">Lync Server 2013 の PurgeSettings テーブル</span><span class="sxs-lookup"><span data-stu-id="cba3f-140">PurgeSettings table in Lync Server 2013</span></span>](lync-server-2013-purgesettings-table.md)
 
-  - [<span data-ttu-id="575f9-141">Lync Server 2013 の Registration テーブル</span><span class="sxs-lookup"><span data-stu-id="575f9-141">Registration table in Lync Server 2013</span></span>](lync-server-2013-registration-table.md)
+  - [<span data-ttu-id="cba3f-141">Lync Server 2013 の登録テーブル</span><span class="sxs-lookup"><span data-stu-id="cba3f-141">Registration table in Lync Server 2013</span></span>](lync-server-2013-registration-table.md)
 
-  - [<span data-ttu-id="575f9-142">Lync Server 2013 の Roles テーブル</span><span class="sxs-lookup"><span data-stu-id="575f9-142">Roles table in Lync Server 2013</span></span>](lync-server-2013-roles-table.md)
+  - [<span data-ttu-id="cba3f-142">Lync Server 2013 の Roles テーブル</span><span class="sxs-lookup"><span data-stu-id="cba3f-142">Roles table in Lync Server 2013</span></span>](lync-server-2013-roles-table.md)
 
-  - [<span data-ttu-id="575f9-143">Lync Server 2013 の Servers テーブル</span><span class="sxs-lookup"><span data-stu-id="575f9-143">Servers table in Lync Server 2013</span></span>](lync-server-2013-servers-table.md)
+  - [<span data-ttu-id="cba3f-143">Lync Server 2013 のサーバーテーブル</span><span class="sxs-lookup"><span data-stu-id="cba3f-143">Servers table in Lync Server 2013</span></span>](lync-server-2013-servers-table.md)
 
-  - [<span data-ttu-id="575f9-144">Lync Server 2013 の SessionDetails テーブル</span><span class="sxs-lookup"><span data-stu-id="575f9-144">SessionDetails table in Lync Server 2013</span></span>](lync-server-2013-sessiondetails-table.md)
+  - [<span data-ttu-id="cba3f-144">Lync Server 2013 の SessionDetails テーブル</span><span class="sxs-lookup"><span data-stu-id="cba3f-144">SessionDetails table in Lync Server 2013</span></span>](lync-server-2013-sessiondetails-table.md)
 
-  - [<span data-ttu-id="575f9-145">Lync Server 2013 の SIPResponseMetaData テーブル</span><span class="sxs-lookup"><span data-stu-id="575f9-145">SIPResponseMetaData table in Lync Server 2013</span></span>](lync-server-2013-sipresponsemetadata-table.md)
+  - [<span data-ttu-id="cba3f-145">Lync Server 2013 の SIPResponseMetaData テーブル</span><span class="sxs-lookup"><span data-stu-id="cba3f-145">SIPResponseMetaData table in Lync Server 2013</span></span>](lync-server-2013-sipresponsemetadata-table.md)
 
-  - [<span data-ttu-id="575f9-146">Lync Server 2013 の Syndicators テーブル</span><span class="sxs-lookup"><span data-stu-id="575f9-146">Syndicators table in Lync Server 2013</span></span>](lync-server-2013-syndicators-table.md)
+  - [<span data-ttu-id="cba3f-146">Lync Server 2013 の Syndicators テーブル</span><span class="sxs-lookup"><span data-stu-id="cba3f-146">Syndicators table in Lync Server 2013</span></span>](lync-server-2013-syndicators-table.md)
 
-  - [<span data-ttu-id="575f9-147">Lync Server 2013 の SyndicatorsTenantMap テーブル</span><span class="sxs-lookup"><span data-stu-id="575f9-147">SyndicatorsTenantMap table in Lync Server 2013</span></span>](lync-server-2013-syndicatorstenantmap-table.md)
+  - [<span data-ttu-id="cba3f-147">Lync Server 2013 の SyndicatorsTenantMap テーブル</span><span class="sxs-lookup"><span data-stu-id="cba3f-147">SyndicatorsTenantMap table in Lync Server 2013</span></span>](lync-server-2013-syndicatorstenantmap-table.md)
 
-  - [<span data-ttu-id="575f9-148">Lync Server 2013 のタスクテーブル</span><span class="sxs-lookup"><span data-stu-id="575f9-148">Task table in Lync Server 2013</span></span>](lync-server-2013-task-table.md)
+  - [<span data-ttu-id="cba3f-148">Lync Server 2013 のタスクテーブル</span><span class="sxs-lookup"><span data-stu-id="cba3f-148">Task table in Lync Server 2013</span></span>](lync-server-2013-task-table.md)
 
-  - [<span data-ttu-id="575f9-149">Lync Server 2013 の Tenants テーブル</span><span class="sxs-lookup"><span data-stu-id="575f9-149">Tenants table in Lync Server 2013</span></span>](lync-server-2013-tenants-table.md)
+  - [<span data-ttu-id="cba3f-149">Lync Server 2013 のテナントテーブル</span><span class="sxs-lookup"><span data-stu-id="cba3f-149">Tenants table in Lync Server 2013</span></span>](lync-server-2013-tenants-table.md)
 
-  - [<span data-ttu-id="575f9-150">Lync Server 2013 の UriTypes テーブル</span><span class="sxs-lookup"><span data-stu-id="575f9-150">UriTypes table in Lync Server 2013</span></span>](lync-server-2013-uritypes-table.md)
+  - [<span data-ttu-id="cba3f-150">Lync Server 2013 の UriTypes テーブル</span><span class="sxs-lookup"><span data-stu-id="cba3f-150">UriTypes table in Lync Server 2013</span></span>](lync-server-2013-uritypes-table.md)
 
-  - [<span data-ttu-id="575f9-151">Lync Server 2013 のユーザー テーブル</span><span class="sxs-lookup"><span data-stu-id="575f9-151">Users table in Lync Server 2013</span></span>](lync-server-2013-users-table.md)
+  - [<span data-ttu-id="cba3f-151">Lync Server 2013 のユーザーテーブル</span><span class="sxs-lookup"><span data-stu-id="cba3f-151">Users table in Lync Server 2013</span></span>](lync-server-2013-users-table.md)
 
-  - [<span data-ttu-id="575f9-152">Lync Server 2013 の UserAgentDef テーブル</span><span class="sxs-lookup"><span data-stu-id="575f9-152">UserAgentDef table in Lync Server 2013</span></span>](lync-server-2013-useragentdef-table.md)
+  - [<span data-ttu-id="cba3f-152">Lync Server 2013 の UserAgentDef テーブル</span><span class="sxs-lookup"><span data-stu-id="cba3f-152">UserAgentDef table in Lync Server 2013</span></span>](lync-server-2013-useragentdef-table.md)
 
-  - [<span data-ttu-id="575f9-153">Lync Server 2013 の UserStatistics テーブル</span><span class="sxs-lookup"><span data-stu-id="575f9-153">UserStatistics table in Lync Server 2013</span></span>](lync-server-2013-userstatistics-table.md)
+  - [<span data-ttu-id="cba3f-153">Lync Server 2013 の UserStatistics テーブル</span><span class="sxs-lookup"><span data-stu-id="cba3f-153">UserStatistics table in Lync Server 2013</span></span>](lync-server-2013-userstatistics-table.md)
 
-  - [<span data-ttu-id="575f9-154">Lync Server 2013 の VoipDetails テーブル</span><span class="sxs-lookup"><span data-stu-id="575f9-154">VoipDetails table in Lync Server 2013</span></span>](lync-server-2013-voipdetails-table.md)
+  - [<span data-ttu-id="cba3f-154">Lync Server 2013 の VoipDetails テーブル</span><span class="sxs-lookup"><span data-stu-id="cba3f-154">VoipDetails table in Lync Server 2013</span></span>](lync-server-2013-voipdetails-table.md)
 
 </div>
 

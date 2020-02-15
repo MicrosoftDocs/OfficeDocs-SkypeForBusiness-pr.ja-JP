@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: XMPP フェデレーションに使用するエッジ プールのフェールオーバー'
+title: 'Lync Server 2013: XMPP フェデレーションに使用するエッジプールのフェールオーバー'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733659
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d1c76dc37ce1abb2d34c474d4144b0894d93a0f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f3957f3fc5a315c5b661ddeec4ea83b8e7f0eab0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765185"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030420"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="failing-over-the-edge-pool-used-for-xmpp-federation-in-lync-server-2013"></a><span data-ttu-id="c0a1c-102">Lync Server 2013 での、XMPP フェデレーションに使用するエッジ プールのフェールオーバー</span><span class="sxs-lookup"><span data-stu-id="c0a1c-102">Failing over the Edge pool used for XMPP federation in Lync Server 2013</span></span>
+# <a name="failing-over-the-edge-pool-used-for-xmpp-federation-in-lync-server-2013"></a><span data-ttu-id="891cb-102">Lync Server 2013 での XMPP フェデレーションに使用するエッジプールのフェールオーバー</span><span class="sxs-lookup"><span data-stu-id="891cb-102">Failing over the Edge pool used for XMPP federation in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,39 +35,39 @@ ms.locfileid: "41765185"
 
 <span> </span>
 
-<span data-ttu-id="c0a1c-103">_**最終更新日:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="c0a1c-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+<span data-ttu-id="891cb-103">_**トピックの最終更新日:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="891cb-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-<span data-ttu-id="c0a1c-104">組織では、1つのエッジプールがプールとして指定されています。</span><span class="sxs-lookup"><span data-stu-id="c0a1c-104">In your organization, there is one Edge pool designated as the pool to use for XMPP federation.</span></span> <span data-ttu-id="c0a1c-105">このプールがダウンした場合は、xmpp フェデレーションを再度使用する前に、別のエッジプールを使用するために XMPP フェデレーションをフェイルオーバーする必要があります。</span><span class="sxs-lookup"><span data-stu-id="c0a1c-105">If this pool goes down, you must fail over XMPP federation to use a different Edge pool before XMPP federation can work again.</span></span>
+<span data-ttu-id="891cb-p101">組織内に XMPP フェデレーションに使用するプールとして指定されたエッジ プールが 1 つあるとします。このプールがダウンした場合、XMPP フェデレーションを再び機能させるには、XMPP フェデレーションをフェールオーバーして別のエッジ プールを使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="891cb-p101">In your organization, there is one Edge pool designated as the pool to use for XMPP federation. If this pool goes down, you must fail over XMPP federation to use a different Edge pool before XMPP federation can work again.</span></span>
 
-<span data-ttu-id="c0a1c-106">最初に Edge プールをインストールして XMPP フェデレーションを有効にすると、1つの代わりに XMPP のすべてのエッジプールの外部 DNS SRV レコードを設定することで、障害回復プロセスを簡略化できます。</span><span class="sxs-lookup"><span data-stu-id="c0a1c-106">When you first install Edge pools and enable XMPP Federation, you can simplify the disaster recovery process by setting up external DNS SRV records for all of your Edge pools for XMPP federation, instead of just one.</span></span> <span data-ttu-id="c0a1c-107">各 SRV レコードには、異なる優先順位を設定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="c0a1c-107">Each of these SRV records must have a different priority set.</span></span> <span data-ttu-id="c0a1c-108">すべての XMPP フェデレーショントラフィックは、最も優先度の高い SRV レコードを持つプールを通過します。</span><span class="sxs-lookup"><span data-stu-id="c0a1c-108">All XMPP federation traffic goes through the pool with the SRV record with the highest priority.</span></span> <span data-ttu-id="c0a1c-109">XMPP フェデレーションを有効にしてセットアップする方法について詳しくは、「 [Lync Server 2013 での XMPP フェデレーションの](lync-server-2013-setting-up-xmpp-federation.md)セットアップ」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="c0a1c-109">For more information on enabling and setting up XMPP federation, see [Setting up XMPP federation in Lync Server 2013](lync-server-2013-setting-up-xmpp-federation.md).</span></span>
+<span data-ttu-id="891cb-106">エッジ プールを初めてインストールし、XMPP フェデレーションを有効にするときに、1 つのエッジ プールではなく、すべてのエッジ プールで XMPP フェデレーションの外部 DNS SRV レコードを設定することで障害復旧プロセスを簡素化できます。</span><span class="sxs-lookup"><span data-stu-id="891cb-106">When you first install Edge pools and enable XMPP Federation, you can simplify the disaster recovery process by setting up external DNS SRV records for all of your Edge pools for XMPP federation, instead of just one.</span></span> <span data-ttu-id="891cb-107">これらの SRV レコードには、それぞれ異なる優先順位が設定されている必要があります。</span><span class="sxs-lookup"><span data-stu-id="891cb-107">Each of these SRV records must have a different priority set.</span></span> <span data-ttu-id="891cb-108">すべての XMPP フェデレーション トラフィックは、優先順位が最も高い SRV レコードを使用してプールを通過します。</span><span class="sxs-lookup"><span data-stu-id="891cb-108">All XMPP federation traffic goes through the pool with the SRV record with the highest priority.</span></span> <span data-ttu-id="891cb-109">XMPP フェデレーションの有効化およびセットアップの詳細については、「 [Lync Server 2013 での xmpp フェデレーションの設定](lync-server-2013-setting-up-xmpp-federation.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="891cb-109">For more information on enabling and setting up XMPP federation, see [Setting up XMPP federation in Lync Server 2013](lync-server-2013-setting-up-xmpp-federation.md).</span></span>
 
-<span data-ttu-id="c0a1c-110">次の手順では、EdgePool1 は最初に XMPP フェデレーションをホストしたプールであり、EdgePool2 は XMPP フェデレーションをホストするプールです。</span><span class="sxs-lookup"><span data-stu-id="c0a1c-110">In the following procedure, EdgePool1 is the pool which originally hosted XMPP federation, and EdgePool2 is the pool which will now host XMPP federation.</span></span>
+<span data-ttu-id="891cb-110">次の手順では、EdgePool1 は XMPP フェデレーションをホストしていた元のプールを表し、EdgePool2 は XMPP フェデレーションをこれからホストするプールを表します。</span><span class="sxs-lookup"><span data-stu-id="891cb-110">In the following procedure, EdgePool1 is the pool which originally hosted XMPP federation, and EdgePool2 is the pool which will now host XMPP federation.</span></span>
 
 <div>
 
-## <a name="failing-over-the-edge-pool-used-for-xmpp-federation"></a><span data-ttu-id="c0a1c-111">XMPP フェデレーションに使用されるエッジプールのフェイルオーバー</span><span class="sxs-lookup"><span data-stu-id="c0a1c-111">Failing Over the Edge Pool Used for XMPP Federation</span></span>
+## <a name="failing-over-the-edge-pool-used-for-xmpp-federation"></a><span data-ttu-id="891cb-111">XMPP フェデレーションに使用するエッジ プールのフェールオーバー</span><span class="sxs-lookup"><span data-stu-id="891cb-111">Failing Over the Edge Pool Used for XMPP Federation</span></span>
 
-1.  <span data-ttu-id="c0a1c-112">(現在ダウンしている) 別の Edge プールをまだ展開していない場合は、そのプールを展開します。</span><span class="sxs-lookup"><span data-stu-id="c0a1c-112">If you don’t already have another Edge pool deployed (besides the one which is currently down), deploy that pool.</span></span> <span data-ttu-id="c0a1c-113">詳細については、「 [Lync Server 2013 での外部ユーザーアクセスの展開](lync-server-2013-deploying-external-user-access.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="c0a1c-113">For details, see [Deploying external user access in Lync Server 2013](lync-server-2013-deploying-external-user-access.md).</span></span>
+1.  <span data-ttu-id="891cb-112">(現在ダウンしているエッジ プール以外の) 別のエッジ プールをまだ展開していない場合は、そのプールを展開します。</span><span class="sxs-lookup"><span data-stu-id="891cb-112">If you don’t already have another Edge pool deployed (besides the one which is currently down), deploy that pool.</span></span> <span data-ttu-id="891cb-113">詳細については、「 [Lync Server 2013 での外部ユーザーアクセスの展開](lync-server-2013-deploying-external-user-access.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="891cb-113">For details, see [Deploying external user access in Lync Server 2013](lync-server-2013-deploying-external-user-access.md).</span></span>
 
-2.  <span data-ttu-id="c0a1c-114">新しいエッジプールの各エッジサーバーで XMPP federation (EdgePool2) をホストするために、次のコマンドレットを実行します。</span><span class="sxs-lookup"><span data-stu-id="c0a1c-114">On each Edge Server in the new Edge pool which will now host XMPP federation (EdgePool2), run the following cmdlet:</span></span>
+2.  <span data-ttu-id="891cb-114">XMPP フェデレーションをホストする新しいエッジ プール (EdgePool2) の各エッジ サーバーで、次のコマンドレットを実行します。</span><span class="sxs-lookup"><span data-stu-id="891cb-114">On each Edge Server in the new Edge pool which will now host XMPP federation (EdgePool2), run the following cmdlet:</span></span>
     
         Stop-CsWindowsService
 
-3.  <span data-ttu-id="c0a1c-115">XMPP フェデレーションルートを EdgePool2 に再ポイントするには、次のコマンドレットを実行します。</span><span class="sxs-lookup"><span data-stu-id="c0a1c-115">Run the following cmdlet to repoint the XMPP federation route to EdgePool2:</span></span>
+3.  <span data-ttu-id="891cb-115">XMPP フェデレーション ルートを変更して EdgePool2 を指すようにするには、次のコマンドレットを実行します。</span><span class="sxs-lookup"><span data-stu-id="891cb-115">Run the following cmdlet to repoint the XMPP federation route to EdgePool2:</span></span>
     
         Set-CsSite Site2 -XmppExternalFederationRoute EdgeServer2.contoso.com
     
-    <span data-ttu-id="c0a1c-116">この例では、Site2 は、XMPP フェデレーションルートをホストするエッジプールが含まれているサイトで、EdgeServer2.contoso.com はそのプールのエッジサーバーの FQDN です。</span><span class="sxs-lookup"><span data-stu-id="c0a1c-116">In this example, Site2 is the site containing the Edge pool which will now host the XMPP federation route, and EdgeServer2.contoso.com is the FQDN of an Edge Server in that pool.</span></span>
+    <span data-ttu-id="891cb-116">この例で、Site2 は XMPP フェデレーション ルートをこれからホストするエッジ プールを含むサイトを表します。また、EdgeServer2.contoso.com はそのプール内のエッジ サーバーの FQDN です。</span><span class="sxs-lookup"><span data-stu-id="891cb-116">In this example, Site2 is the site containing the Edge pool which will now host the XMPP federation route, and EdgeServer2.contoso.com is the FQDN of an Edge Server in that pool.</span></span>
 
-4.  <span data-ttu-id="c0a1c-117">外部 DNS サーバーで、XMPP フェデレーション用の DNS A レコードを EdgeServer2.contoso.com に変更します。</span><span class="sxs-lookup"><span data-stu-id="c0a1c-117">On the external DNS server, change the DNS A record for XMPP federation to point to EdgeServer2.contoso.com.</span></span>
+4.  <span data-ttu-id="891cb-117">外部 DNS サーバーで、XMPP フェデレーションの DNS A レコードを変更して、EdgeServer2.contoso.com を指すようにします。</span><span class="sxs-lookup"><span data-stu-id="891cb-117">On the external DNS server, change the DNS A record for XMPP federation to point to EdgeServer2.contoso.com.</span></span>
 
-5.  <span data-ttu-id="c0a1c-118">Xmpp フェデレーション用の DNS SRV レコードをまだ持っていない場合は、次の例のように、それを追加する必要があります。これは、現在 XMPP フェデレーションをホストしています。</span><span class="sxs-lookup"><span data-stu-id="c0a1c-118">If you do not already have a DNS SRV record for XMPP federation which resolves to the Edge pool which will now host XMPP federation, you must add it, as in the following example.</span></span> <span data-ttu-id="c0a1c-119">この SRV レコードには、5269のポート値を指定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="c0a1c-119">This SRV record must have a port value of 5269.</span></span>
+5.  <span data-ttu-id="891cb-p104">XMPP フェデレーションをホストする新しいエッジ プールに解決される、XMPP フェデレーションの DNS SRV レコードがまだない場合は、次の例に示すように、このレコードを追加する必要があります。この SRV レコードには、ポート値 5269 が含まれている必要があります。</span><span class="sxs-lookup"><span data-stu-id="891cb-p104">If you do not already have a DNS SRV record for XMPP federation which resolves to the Edge pool which will now host XMPP federation, you must add it, as in the following example. This SRV record must have a port value of 5269.</span></span>
     
         _xmpp-server._tcp.contoso.com
 
-6.  <span data-ttu-id="c0a1c-120">XMPP フェデレーションをホストしている Edge プールのポート5269が外部で開かれていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="c0a1c-120">Verify that the Edge pool which will now host XMPP federation has port 5269 open externally.</span></span>
+6.  <span data-ttu-id="891cb-120">XMPP フェデレーションをホストする新しいエッジ プールで、ポート 5269 が外部に開いていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="891cb-120">Verify that the Edge pool which will now host XMPP federation has port 5269 open externally.</span></span>
 
-7.  <span data-ttu-id="c0a1c-121">Edge プール内のすべてのエッジサーバーでサービスを開始します。これで、XMPP フェデレーションがホストされます。</span><span class="sxs-lookup"><span data-stu-id="c0a1c-121">Start the services on all Edge Servers in the Edge pool which will now host XMPP federation:</span></span>
+7.  <span data-ttu-id="891cb-121">XMPP フェデレーションをホストする新しいエッジ プール内のすべてのエッジ サーバーでサービスを開始します。</span><span class="sxs-lookup"><span data-stu-id="891cb-121">Start the services on all Edge Servers in the Edge pool which will now host XMPP federation:</span></span>
     
         Start-CsWindowsService
 

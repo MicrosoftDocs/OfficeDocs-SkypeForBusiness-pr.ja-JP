@@ -12,20 +12,20 @@ ms:contentKeyID: 48184053
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b73f6605f2fff063858a0180d61a306f7dd2d746
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6d3be41dd4ca3f942d5b57e1954cecf105fcc714
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729987"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030270"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="high-availability-and-disaster-recovery-support-in-lync-server-2013"></a><span data-ttu-id="b8d21-102">Lync Server 2013 での高可用性および障害復旧のサポート</span><span class="sxs-lookup"><span data-stu-id="b8d21-102">High availability and disaster recovery support in Lync Server 2013</span></span>
+# <a name="high-availability-and-disaster-recovery-support-in-lync-server-2013"></a><span data-ttu-id="ca294-102">Lync Server 2013 での高可用性および障害復旧のサポート</span><span class="sxs-lookup"><span data-stu-id="ca294-102">High availability and disaster recovery support in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41729987"
 
 <span> </span>
 
-<span data-ttu-id="b8d21-103">_**最終更新日:** 2012-09-25_</span><span class="sxs-lookup"><span data-stu-id="b8d21-103">_**Topic Last Modified:** 2012-09-25_</span></span>
+<span data-ttu-id="ca294-103">_**トピックの最終更新日:** 2012-09-25_</span><span class="sxs-lookup"><span data-stu-id="ca294-103">_**Topic Last Modified:** 2012-09-25_</span></span>
 
-<span data-ttu-id="b8d21-104">Lync Server 2013 は、プールによるサーバーの冗長性による高可用性を実現します。</span><span class="sxs-lookup"><span data-stu-id="b8d21-104">Lync Server 2013 provides high availability by server redundancy via pooling.</span></span> <span data-ttu-id="b8d21-105">特定のサーバーの役割を実行するサーバーで障害が発生した場合は、プール内の同じ役割を実行する他のサーバーがそのサーバーの負荷を引き受けます。</span><span class="sxs-lookup"><span data-stu-id="b8d21-105">If a server running a certain server role fails, the other servers in the pool running the same role take the load of that server.</span></span> <span data-ttu-id="b8d21-106">同じことが、フロントエンド サーバー、エッジ サーバー、仲介サーバー、およびディレクターでも実行されます。</span><span class="sxs-lookup"><span data-stu-id="b8d21-106">This applies to Front End Servers, Edge Servers, Mediation Servers, and Directors.</span></span> <span data-ttu-id="b8d21-107">サーバーの役割の詳細については、「 [Lync server 2013 のサーバーの役割](lync-server-2013-server-roles.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="b8d21-107">For details about server roles, see [Server roles in Lync Server 2013](lync-server-2013-server-roles.md).</span></span>
+<span data-ttu-id="ca294-104">Lync Server 2013 では、プールによるサーバー冗長性による高可用性が提供されます。</span><span class="sxs-lookup"><span data-stu-id="ca294-104">Lync Server 2013 provides high availability by server redundancy via pooling.</span></span> <span data-ttu-id="ca294-105">あるサーバーの役割を実行しているサーバーが失敗すると、プール内で同じサーバーの役割を実行している別のサーバーがそのサーバーの負荷を引き継ぎます。</span><span class="sxs-lookup"><span data-stu-id="ca294-105">If a server running a certain server role fails, the other servers in the pool running the same role take the load of that server.</span></span> <span data-ttu-id="ca294-106">これはフロントエンド サーバー、エッジ サーバー、仲介サーバー、およびディレクターに適用されます。</span><span class="sxs-lookup"><span data-stu-id="ca294-106">This applies to Front End Servers, Edge Servers, Mediation Servers, and Directors.</span></span> <span data-ttu-id="ca294-107">サーバーの役割の詳細については、「 [Lync server 2013 のサーバーの役割](lync-server-2013-server-roles.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="ca294-107">For details about server roles, see [Server roles in Lync Server 2013](lync-server-2013-server-roles.md).</span></span>
 
-<span data-ttu-id="b8d21-108">また、Lync Server 2013 は、プールのペアリングを有効にすることで、障害回復手段を提供します。</span><span class="sxs-lookup"><span data-stu-id="b8d21-108">Lync Server 2013 also provides disaster recovery measures by enabling pool pairing.</span></span> <span data-ttu-id="b8d21-109">このトポロジを展開する場合、フロントエンドプールのペアを指定します。各プールは、別々のデータセンターにあり、各プールは別々の地理的領域に配置されています。</span><span class="sxs-lookup"><span data-stu-id="b8d21-109">If you deploy this topology, you will designate pairs of Front End pools, with each pool in a pair located in a separate data center, and in a separate geographical area.</span></span> <span data-ttu-id="b8d21-110">1つのプールまたはサイトがダウンした場合は、サービスの中断を最小限に抑えて、そのプールのユーザーを、ペア内の他のプールを使用するようにリダイレクトすることができます。</span><span class="sxs-lookup"><span data-stu-id="b8d21-110">If one pool or site goes down, you can redirect the users of that pool to use the other pool in the pair, with minimal interruption of service.</span></span>
+<span data-ttu-id="ca294-108">Lync Server 2013 では、プールのペアリングを有効にすることで、障害復旧の手段を提供します。</span><span class="sxs-lookup"><span data-stu-id="ca294-108">Lync Server 2013 also provides disaster recovery measures by enabling pool pairing.</span></span> <span data-ttu-id="ca294-109">このトポロジを展開する場合は、フロントエンドプールのペアを指定し、各プールを別々のデータセンターに配置し、個別の地理的領域に配置します。</span><span class="sxs-lookup"><span data-stu-id="ca294-109">If you deploy this topology, you will designate pairs of Front End pools, with each pool in a pair located in a separate data center, and in a separate geographical area.</span></span> <span data-ttu-id="ca294-110">1つのプールまたはサイトに障害が発生した場合は、サービスの中断を最小限に抑えて、そのプールのユーザーがペアの他のプールを使用するようにリダイレクトすることができます。</span><span class="sxs-lookup"><span data-stu-id="ca294-110">If one pool or site goes down, you can redirect the users of that pool to use the other pool in the pair, with minimal interruption of service.</span></span>
 
-<span data-ttu-id="b8d21-111">Lync Server 2013 では、バックエンドサーバーの高可用性もサポートされています。</span><span class="sxs-lookup"><span data-stu-id="b8d21-111">Lync Server 2013 also supports Back End Server high availability.</span></span> <span data-ttu-id="b8d21-112">これは、フロントエンドプール用に2つのバックエンドサーバーを展開し、バックエンドサーバーで実行されているすべての Lync データベースの同期 SQL Server ミラーリングを設定する、オプションのトポロジです。</span><span class="sxs-lookup"><span data-stu-id="b8d21-112">This is an optional topology in which you deploy two Back End Servers for a Front End pool, and set up synchronous SQL Server mirroring for all the Lync databases running on the Back End Servers.</span></span>
+<span data-ttu-id="ca294-111">Lync Server 2013 では、バックエンドサーバーの高可用性もサポートしています。</span><span class="sxs-lookup"><span data-stu-id="ca294-111">Lync Server 2013 also supports Back End Server high availability.</span></span> <span data-ttu-id="ca294-112">これは、フロントエンドプール用に2台のバックエンドサーバーを展開し、バックエンドサーバーで実行されているすべての Lync データベースに対して同期 SQL Server ミラーリングをセットアップする、オプションのトポロジです。</span><span class="sxs-lookup"><span data-stu-id="ca294-112">This is an optional topology in which you deploy two Back End Servers for a Front End pool, and set up synchronous SQL Server mirroring for all the Lync databases running on the Back End Servers.</span></span>
 
-<span data-ttu-id="b8d21-113">プールのペアリングとバックエンドサーバーのミラーリングの詳細については、「 [Lync Server 2013 での高可用性と障害回復の計画](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="b8d21-113">For details about pool pairing and Back End Server mirroring, see [Planning for high availability and disaster recovery in Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).</span></span>
+<span data-ttu-id="ca294-113">プールのペアリングとバックエンドサーバーのミラーリングの詳細については、「 [Lync Server 2013 での高可用性と障害復旧の計画](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="ca294-113">For details about pool pairing and Back End Server mirroring, see [Planning for high availability and disaster recovery in Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="b8d21-114">関連項目</span><span class="sxs-lookup"><span data-stu-id="b8d21-114">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ca294-114">関連項目</span><span class="sxs-lookup"><span data-stu-id="ca294-114">See Also</span></span>
 
 
-[<span data-ttu-id="b8d21-115">Lync Server 2013 のサーバーの役割</span><span class="sxs-lookup"><span data-stu-id="b8d21-115">Server roles in Lync Server 2013</span></span>](lync-server-2013-server-roles.md)  
-[<span data-ttu-id="b8d21-116">Lync Server 2013 での高可用性および障害復旧の計画</span><span class="sxs-lookup"><span data-stu-id="b8d21-116">Planning for high availability and disaster recovery in Lync Server 2013</span></span>](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)  
+[<span data-ttu-id="ca294-115">Lync Server 2013 のサーバーの役割</span><span class="sxs-lookup"><span data-stu-id="ca294-115">Server roles in Lync Server 2013</span></span>](lync-server-2013-server-roles.md)  
+[<span data-ttu-id="ca294-116">Lync Server 2013 での高可用性および障害復旧の計画</span><span class="sxs-lookup"><span data-stu-id="ca294-116">Planning for high availability and disaster recovery in Lync Server 2013</span></span>](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)  
   
 
 </div>

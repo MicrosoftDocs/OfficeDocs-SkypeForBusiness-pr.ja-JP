@@ -12,20 +12,20 @@ ms:contentKeyID: 48185552
 ms.date: 03/07/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 51fb0081188618b6a5ea2951968effb0d55c4af7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d1e5434ed445bf19d2aaeea146ba0edb7dcac04c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765455"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030190"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="lync-vdi-plug-in-prerequisites-in-lync-server-2013"></a><span data-ttu-id="dd334-102">Lync Server 2013 の Lync VDI プラグインの前提条件</span><span class="sxs-lookup"><span data-stu-id="dd334-102">Lync VDI plug-in prerequisites in Lync Server 2013</span></span>
+# <a name="lync-vdi-plug-in-prerequisites-in-lync-server-2013"></a><span data-ttu-id="dad59-102">Lync Server 2013 での lync VDI プラグインの前提条件</span><span class="sxs-lookup"><span data-stu-id="dad59-102">Lync VDI plug-in prerequisites in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,64 +35,64 @@ ms.locfileid: "41765455"
 
 <span> </span>
 
-<span data-ttu-id="dd334-103">_**最終更新日:** 2017-03-07_</span><span class="sxs-lookup"><span data-stu-id="dd334-103">_**Topic Last Modified:** 2017-03-07_</span></span>
+<span data-ttu-id="dad59-103">_**トピックの最終更新日:** 2017-03-07_</span><span class="sxs-lookup"><span data-stu-id="dad59-103">_**Topic Last Modified:** 2017-03-07_</span></span>
 
-<span data-ttu-id="dd334-104">仮想デスクトップインフラストラクチャ (VDI) 環境では、仮想マシンとユーザーのローカルコンピューターがこのセクションで示されている要件を満たしている必要があります。</span><span class="sxs-lookup"><span data-stu-id="dd334-104">In a virtual desktop infrastructure (VDI) environment, the virtual machines and the user’s local computer must meet the requirements outlined in this section.</span></span>
+<span data-ttu-id="dad59-104">仮想デスクトップインフラストラクチャ (VDI) 環境では、仮想マシンとユーザーのローカルコンピューターが、このセクションで説明する要件を満たしている必要があります。</span><span class="sxs-lookup"><span data-stu-id="dad59-104">In a virtual desktop infrastructure (VDI) environment, the virtual machines and the user’s local computer must meet the requirements outlined in this section.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="dd334-105">仮想化された環境をインストールして展開する方法の詳細については、仮想化ソリューションプロバイダーを参照してください。</span><span class="sxs-lookup"><span data-stu-id="dd334-105">Refer to your virtualization solution provider for details about how to install and deploy the virtualized environment.</span></span> <span data-ttu-id="dd334-106">Hyper-v とリモートデスクトップサービスに基づいて仮想環境を展開する方法については、Microsoft TechNet ライブラリの次の記事を参照してください。</span><span class="sxs-lookup"><span data-stu-id="dd334-106">For information about deploying a virtualized environment based on Hyper-V and Remote Desktop Services, see the following articles in the Microsoft TechNet Library:</span></span> 
+> <span data-ttu-id="dad59-p101">仮想化環境のインストール方法および展開方法の詳細については、仮想化ソリューション プロバイダーに問い合わせてください。Hyper-V およびリモート デスクトップ サービスに基づいた仮想化環境の展開については、Microsoft TechNet ライブラリの次の記事を参照してください。</span><span class="sxs-lookup"><span data-stu-id="dad59-p101">Refer to your virtualization solution provider for details about how to install and deploy the virtualized environment. For information about deploying a virtualized environment based on Hyper-V and Remote Desktop Services, see the following articles in the Microsoft TechNet Library:</span></span> 
 > <UL>
 > <LI>
-> <P><span data-ttu-id="dd334-107">Hyper-v<A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=247514">https://go.microsoft.com/fwlink/p/?linkid=247514</A></span><span class="sxs-lookup"><span data-stu-id="dd334-107">Hyper-V at <A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=247514">https://go.microsoft.com/fwlink/p/?linkid=247514</A></span></span></P>
+> <P><span data-ttu-id="dad59-107">Hyper-v<A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=247514">https://go.microsoft.com/fwlink/p/?linkid=247514</A></span><span class="sxs-lookup"><span data-stu-id="dad59-107">Hyper-V at <A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=247514">https://go.microsoft.com/fwlink/p/?linkid=247514</A></span></span></P>
 > <LI>
-> <P><span data-ttu-id="dd334-108">Windows Server&nbsp;2008&nbsp;R2 のリモートデスクトップサービス (at)<A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=247513">https://go.microsoft.com/fwlink/p/?linkid=247513</A></span><span class="sxs-lookup"><span data-stu-id="dd334-108">Remote Desktop Services in Windows Server&nbsp;2008&nbsp;R2 at <A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=247513">https://go.microsoft.com/fwlink/p/?linkid=247513</A></span></span></P></LI></UL>
+> <P><span data-ttu-id="dad59-108">Windows Server&nbsp;2008&nbsp;R2 のリモートデスクトップサービス<A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=247513">https://go.microsoft.com/fwlink/p/?linkid=247513</A></span><span class="sxs-lookup"><span data-stu-id="dad59-108">Remote Desktop Services in Windows Server&nbsp;2008&nbsp;R2 at <A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=247513">https://go.microsoft.com/fwlink/p/?linkid=247513</A></span></span></P></LI></UL>
 
 
 
 </div>
 
-<span data-ttu-id="dd334-109">データセンターコンピューターで実行されている仮想マシンの要件を次に示します。</span><span class="sxs-lookup"><span data-stu-id="dd334-109">The following are requirements for the virtual machines running on the data center computer:</span></span>
+<span data-ttu-id="dad59-109">データ センターのコンピューターで実行されている仮想マシンに対する要件は次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="dad59-109">The following are requirements for the virtual machines running on the data center computer:</span></span>
 
-  - <span data-ttu-id="dd334-110">仮想マシンは、最新の service pack を使用して、Windows 10、Windows 8.1、Windows 8、windows 7、または Windows Server 2008 R2 で構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="dd334-110">Virtual machines must be configured with Windows 10, Windows 8.1, Windows 8, Windows 7, or Windows Server 2008 R2 with the latest service packs.</span></span>
+  - <span data-ttu-id="dad59-110">仮想マシンは、最新のサービスパックを使用して Windows 10、windows 8.1、Windows 8、Windows 7、または Windows Server 2008 R2 で構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="dad59-110">Virtual machines must be configured with Windows 10, Windows 8.1, Windows 8, Windows 7, or Windows Server 2008 R2 with the latest service packs.</span></span>
 
-<span data-ttu-id="dd334-111">ユーザーとユーザーのローカルコンピューターの要件を次に示します。</span><span class="sxs-lookup"><span data-stu-id="dd334-111">The following are requirements for the user and the user’s local computer:</span></span>
+<span data-ttu-id="dad59-111">ユーザーとユーザーのローカルコンピューターの要件は次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="dad59-111">The following are requirements for the user and the user’s local computer:</span></span>
 
-  - <span data-ttu-id="dd334-112">ユーザーは、Lync Server 2013 上に置かれている必要があります。</span><span class="sxs-lookup"><span data-stu-id="dd334-112">The user must be homed on Lync Server 2013.</span></span>
+  - <span data-ttu-id="dad59-112">ユーザーは、Lync Server 2013 に所属している必要があります。</span><span class="sxs-lookup"><span data-stu-id="dad59-112">The user must be homed on Lync Server 2013.</span></span>
 
-  - <span data-ttu-id="dd334-113">ローカルコンピューターでは、SP1、Windows 7 SP1、Windows 8、windows 8.1 Embedded、または Windows 8.1 (埋め込み以外) で Windows Embedded 標準7を実行している必要があります。</span><span class="sxs-lookup"><span data-stu-id="dd334-113">The local computer must be running Windows Embedded Standard 7 with SP1, Windows 7 with SP1, Windows 8, Windows 8.1 Embedded, or Windows 8.1 (not embedded).</span></span>
+  - <span data-ttu-id="dad59-113">ローカルコンピューターでは、Windows Embedded Standard 7 SP1、windows 7 SP1、windows 8、Windows 8.1 が埋め込まれているか、または Windows 8.1 (埋め込まれていない) を実行している必要があります。</span><span class="sxs-lookup"><span data-stu-id="dad59-113">The local computer must be running Windows Embedded Standard 7 with SP1, Windows 7 with SP1, Windows 8, Windows 8.1 Embedded, or Windows 8.1 (not embedded).</span></span>
 
-  - <span data-ttu-id="dd334-114">リモートデスクトップサービスを使用している場合は、Lync VDI プラグインビット (つまり、32ビットと64ビットのどちらであるか) がローカルコンピューターのオペレーティングシステムのビットと一致している必要があります。</span><span class="sxs-lookup"><span data-stu-id="dd334-114">If you are using Remote Desktop Services, the Lync VDI plug-in bitness (that is, whether the application is 32-bit or 64-bit) must match the local computer’s operating system bitness.</span></span> <span data-ttu-id="dd334-115">ローカルコンピューター上のオペレーティングシステムと仮想マシン上のオペレーティングシステムのビットが一致している必要はありません。</span><span class="sxs-lookup"><span data-stu-id="dd334-115">The bitness of the operating system on the local computer and the operating system on the virtual machine do not need to match.</span></span> <span data-ttu-id="dd334-116">別の仮想化ソリューションまたはプラットフォームを使用している場合は、「ビット要件について仮想化ソリューションプロバイダーからのガイダンス」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="dd334-116">If you are using another virtualization solution or platform, refer to guidance from your virtualization solution provider about bitness requirements.</span></span>
+  - <span data-ttu-id="dad59-114">リモートデスクトップサービスを使用している場合、Lync VDI プラグインのビット数 (つまり、アプリケーションが32ビットであるか、または64ビットであるか) は、ローカルコンピューターのオペレーティングシステムのビット数と一致している必要があります。</span><span class="sxs-lookup"><span data-stu-id="dad59-114">If you are using Remote Desktop Services, the Lync VDI plug-in bitness (that is, whether the application is 32-bit or 64-bit) must match the local computer’s operating system bitness.</span></span> <span data-ttu-id="dad59-115">ローカル コンピューターと仮想マシンのオペレーティング システムのビット数が一致する必要はありません。</span><span class="sxs-lookup"><span data-stu-id="dad59-115">The bitness of the operating system on the local computer and the operating system on the virtual machine do not need to match.</span></span> <span data-ttu-id="dad59-116">別の仮想化ソリューションまたは仮想化プラットフォームを使用している場合は、ビット数の要件については、仮想化ソリューション プロバイダーのガイダンスを参照してください。</span><span class="sxs-lookup"><span data-stu-id="dad59-116">If you are using another virtualization solution or platform, refer to guidance from your virtualization solution provider about bitness requirements.</span></span>
 
-  - <span data-ttu-id="dd334-117">ローカルコンピューターで、最新バージョンのリモートデスクトップクライアントが実行されている必要があります。</span><span class="sxs-lookup"><span data-stu-id="dd334-117">The local computer must be running the latest version of the remote desktop client.</span></span> <span data-ttu-id="dd334-118">Microsoft からリモート デスクトップ サービス クライアントの最新更新プログラムをインストールするか、仮想化ソリューション プロバイダーから最新のリモート デスクトップ クライアント ソフトウェアをインストールしてください。</span><span class="sxs-lookup"><span data-stu-id="dd334-118">Install the latest updates of Remote Desktop Services client from Microsoft or the latest remote desktop client software from your virtualization solution provider.</span></span> <span data-ttu-id="dd334-119">最新のリモートデスクトップサービスの更新につい[https://go.microsoft.com/fwlink/p/?LinkId=268032](https://go.microsoft.com/fwlink/p/?linkid=268032)ては、を参照してください。</span><span class="sxs-lookup"><span data-stu-id="dd334-119">For the latest Remote Desktop Services updates, see [https://go.microsoft.com/fwlink/p/?LinkId=268032](https://go.microsoft.com/fwlink/p/?linkid=268032).</span></span>
+  - <span data-ttu-id="dad59-117">ローカル コンピューターは、最新バージョンのリモート デスクトップ クライアントを実行している必要があります。</span><span class="sxs-lookup"><span data-stu-id="dad59-117">The local computer must be running the latest version of the remote desktop client.</span></span> <span data-ttu-id="dad59-118">マイクロソフトからリモート デスクトップ サービス クライアントの最新更新プログラムをインストールするか、仮想化ソリューション プロバイダーから最新のリモート デスクトップ クライアント ソフトウェアをインストールしてください。</span><span class="sxs-lookup"><span data-stu-id="dad59-118">Install the latest updates of Remote Desktop Services client from Microsoft or the latest remote desktop client software from your virtualization solution provider.</span></span> <span data-ttu-id="dad59-119">最新のリモートデスクトップサービスの更新につい[https://go.microsoft.com/fwlink/p/?LinkId=268032](https://go.microsoft.com/fwlink/p/?linkid=268032)ては、「」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="dad59-119">For the latest Remote Desktop Services updates, see [https://go.microsoft.com/fwlink/p/?LinkId=268032](https://go.microsoft.com/fwlink/p/?linkid=268032).</span></span>
 
-  - <span data-ttu-id="dd334-120">ローカル コンピューター上のリモート デスクトップ クライアントの設定は、オーディオがローカル コンピューターで再生され、リモート レコーディングが無効となるように構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="dd334-120">On the local computer, the remote desktop client settings must be configured so that audio plays on the local computer and remote recording is disabled.</span></span> <span data-ttu-id="dd334-121">Windows でリモートデスクトップ接続のこれらの設定を構成するには、次のセクション「リモートデスクトップ接続設定を構成する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="dd334-121">To configure these settings for Remote Desktop Connection in Windows, see the next section, "To configure Remote Desktop Connection settings."</span></span>
+  - <span data-ttu-id="dad59-120">ローカル コンピューター上のリモート デスクトップ クライアントの設定は、オーディオがローカル コンピューターで再生され、リモート録音が無効となるように構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="dad59-120">On the local computer, the remote desktop client settings must be configured so that audio plays on the local computer and remote recording is disabled.</span></span> <span data-ttu-id="dad59-121">Windows でこれらの設定をリモートデスクトップ接続用に構成するには、次のセクション「リモートデスクトップ接続の設定を構成するには」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="dad59-121">To configure these settings for Remote Desktop Connection in Windows, see the next section, "To configure Remote Desktop Connection settings."</span></span>
 
 <div>
 
-## <a name="to-configure-remote-desktop-connection-settings"></a><span data-ttu-id="dd334-122">リモートデスクトップ接続設定を構成するには</span><span class="sxs-lookup"><span data-stu-id="dd334-122">To configure Remote Desktop Connection settings</span></span>
+## <a name="to-configure-remote-desktop-connection-settings"></a><span data-ttu-id="dad59-122">リモート デスクトップ接続の設定を構成するには</span><span class="sxs-lookup"><span data-stu-id="dad59-122">To configure Remote Desktop Connection settings</span></span>
 
-<span data-ttu-id="dd334-123">Windows で Lync VDI プラグインのリモートデスクトップ接続を準備するには、次の手順を実行します。</span><span class="sxs-lookup"><span data-stu-id="dd334-123">To prepare Remote Desktop Connection in Windows for the Lync VDI plug-in, follow these steps.</span></span>
+<span data-ttu-id="dad59-123">Windows で Lync VDI プラグインのリモートデスクトップ接続を準備するには、次の手順を実行します。</span><span class="sxs-lookup"><span data-stu-id="dad59-123">To prepare Remote Desktop Connection in Windows for the Lync VDI plug-in, follow these steps.</span></span>
 
-1.  <span data-ttu-id="dd334-124">ローカルコンピューターで Windows 8 を実行している場合は、この手順をスキップしてください。</span><span class="sxs-lookup"><span data-stu-id="dd334-124">If the local computer is running Windows 8, skip this step.</span></span> <span data-ttu-id="dd334-125">ローカルコンピューターで Windows 7 SP1 を実行している場合は、最新の Windows 8 バージョンのリモートデスクトップサービスクライアントをインストール[https://go.microsoft.com/fwlink/p/?LinkId=268032](https://go.microsoft.com/fwlink/p/?linkid=268032)します。</span><span class="sxs-lookup"><span data-stu-id="dd334-125">If the local computer is running Windows 7 with SP1, install the latest Windows 8 version of the Remote Desktop Services client, available at [https://go.microsoft.com/fwlink/p/?LinkId=268032](https://go.microsoft.com/fwlink/p/?linkid=268032).</span></span>
+1.  <span data-ttu-id="dad59-124">ローカルコンピューターで Windows 8 を実行している場合は、この手順をスキップします。</span><span class="sxs-lookup"><span data-stu-id="dad59-124">If the local computer is running Windows 8, skip this step.</span></span> <span data-ttu-id="dad59-125">ローカルコンピューターで Windows 7 SP1 を実行している場合は、最新の Windows 8 バージョンのリモートデスクトップサービスクライアントをインストール[https://go.microsoft.com/fwlink/p/?LinkId=268032](https://go.microsoft.com/fwlink/p/?linkid=268032)します。</span><span class="sxs-lookup"><span data-stu-id="dad59-125">If the local computer is running Windows 7 with SP1, install the latest Windows 8 version of the Remote Desktop Services client, available at [https://go.microsoft.com/fwlink/p/?LinkId=268032](https://go.microsoft.com/fwlink/p/?linkid=268032).</span></span>
 
-2.  <span data-ttu-id="dd334-126">[**スタート**]、[**リモート デスクトップ接続**] の順にクリックして、リモート デスクトップ サービス クライアントを起動します。</span><span class="sxs-lookup"><span data-stu-id="dd334-126">Start the Remote Desktop Services client by clicking **Start**, and then clicking **Remote Desktop Connection**.</span></span>
+2.  <span data-ttu-id="dad59-126">[**スタート**]、[**リモート デスクトップ接続**] の順にクリックして、リモート デスクトップ サービス クライアントを起動します。</span><span class="sxs-lookup"><span data-stu-id="dad59-126">Start the Remote Desktop Services client by clicking **Start**, and then clicking **Remote Desktop Connection**.</span></span>
 
-3.  <span data-ttu-id="dd334-127">[**オプション**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="dd334-127">Click **Options**.</span></span>
+3.  <span data-ttu-id="dad59-127">[**オプション**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="dad59-127">Click **Options**.</span></span>
 
-4.  <span data-ttu-id="dd334-128">[**ローカル リソース**] タブをクリックします。[**リモート オーディオ**] の下にある [**設定**] をクリックし、次の手順を実行します。</span><span class="sxs-lookup"><span data-stu-id="dd334-128">Click the **Local Resources** tab. Under **Remote audio**, click **Settings**, and then do the following:</span></span>
+4.  <span data-ttu-id="dad59-128">[**ローカル リソース**] タブをクリックします。[**リモート オーディオ**] の下にある [**設定**] をクリックし、次の手順を実行します。</span><span class="sxs-lookup"><span data-stu-id="dad59-128">Click the **Local Resources** tab. Under **Remote audio**, click **Settings**, and then do the following:</span></span>
     
-      - <span data-ttu-id="dd334-129">[**リモート オーディオ再生**] で [**このコンピューターで再生**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="dd334-129">Under **Remote audio playback**, select **Play on this computer**.</span></span>
+      - <span data-ttu-id="dad59-129">[**リモート オーディオ再生**] の下の [**このコンピュータで再生**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="dad59-129">Under **Remote audio playback**, select **Play on this computer**.</span></span>
     
-      - <span data-ttu-id="dd334-130">[**リモート オーディオ録音**] で [**録音しない**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="dd334-130">Under **Remote audio recording**, select **Do not record**.</span></span>
+      - <span data-ttu-id="dad59-130">[**リモート オーディオ録音**] の下の [**録音しない**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="dad59-130">Under **Remote audio recording**, select **Do not record**.</span></span>
     
-      - <span data-ttu-id="dd334-131">[**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="dd334-131">Click **OK**.</span></span>
+      - <span data-ttu-id="dad59-131">[**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="dad59-131">Click **OK**.</span></span>
 
-5.  <span data-ttu-id="dd334-132">[**エクスペリエンス**] タブをクリックします。[**パフォーマンス**] で [**ビットマップのキャッシュを保持**] チェック ボックスをオフにします。</span><span class="sxs-lookup"><span data-stu-id="dd334-132">Click the **Experience** tab. Under **Performance**, clear the **Persistent bitmap caching** check box.</span></span>
+5.  <span data-ttu-id="dad59-132">[**エクスペリエンス**] タブをクリックします。[**パフォーマンス**] の下にある [**ビットマップのキャッシュを保持**] チェック ボックスをオフにします。</span><span class="sxs-lookup"><span data-stu-id="dad59-132">Click the **Experience** tab. Under **Performance**, clear the **Persistent bitmap caching** check box.</span></span>
 
-6.  <span data-ttu-id="dd334-133">[**全般**] タブをクリックします。[**コンピューター**] で、仮想マシンの名前を入力し、[**接続**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="dd334-133">Click the **General** tab. In **Computer**, type the name of the virtual machine, and then click **Connect**.</span></span>
+6.  <span data-ttu-id="dad59-133">[**全般**] タブをクリックします。[**コンピューター**] で仮想マシンの名前を入力し、[**接続**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="dad59-133">Click the **General** tab. In **Computer**, type the name of the virtual machine, and then click **Connect**.</span></span>
 
 </div>
 

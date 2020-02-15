@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013 のハードウェア ロード バランサーの要件
+title: Lync Server 2013 のハードウェアロードバランサーの要件
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49287208
 ms.date: 05/11/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 85ed4195d80ecc755faea74ddedb790c9f41ebfb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c89c600c822bc4e830bf60ed8131f747172018e2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727907"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030320"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="hardware-load-balancer-requirements-for-lync-server-2013"></a><span data-ttu-id="163e4-102">Lync Server 2013 のハードウェア ロード バランサーの要件</span><span class="sxs-lookup"><span data-stu-id="163e4-102">Hardware load balancer requirements for Lync Server 2013</span></span>
+# <a name="hardware-load-balancer-requirements-for-lync-server-2013"></a><span data-ttu-id="7b18f-102">Lync Server 2013 のハードウェアロードバランサーの要件</span><span class="sxs-lookup"><span data-stu-id="7b18f-102">Hardware load balancer requirements for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41727907"
 
 <span> </span>
 
-<span data-ttu-id="163e4-103">_**最終更新日:** 2015-05-11_</span><span class="sxs-lookup"><span data-stu-id="163e4-103">_**Topic Last Modified:** 2015-05-11_</span></span>
+<span data-ttu-id="7b18f-103">_**トピックの最終更新日:** 2015-05-11_</span><span class="sxs-lookup"><span data-stu-id="7b18f-103">_**Topic Last Modified:** 2015-05-11_</span></span>
 
-<span data-ttu-id="163e4-104">Lync Server 2013 スケーリングされた統合エッジトポロジは、新しい展開の場合、Lync Server を使用する他の組織との主な展開のために、DNS の負荷分散のために最適化されています。</span><span class="sxs-lookup"><span data-stu-id="163e4-104">The Lync Server 2013 scaled consolidated Edge topology is optimized for DNS load balancing for new deployments federating primarily with other organizations using Lync Server.</span></span> <span data-ttu-id="163e4-105">次のシナリオのいずれかに対して高可用性が必要な場合は、次のように、エッジサーバープールでハードウェアロードバランサーを使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="163e4-105">If high availability is required for any of the following scenarios, a hardware load balancer must be used on Edge Server pools for the following:</span></span>
+<span data-ttu-id="7b18f-104">Lync server 2013 拡張統合エッジトポロジは、主に Lync Server を使用している他の組織とフェデレーションする新しい展開での DNS 負荷分散のために最適化されています。</span><span class="sxs-lookup"><span data-stu-id="7b18f-104">The Lync Server 2013 scaled consolidated Edge topology is optimized for DNS load balancing for new deployments federating primarily with other organizations using Lync Server.</span></span> <span data-ttu-id="7b18f-105">次のいずれかのシナリオで高可用性が必要な場合は、次の目的で、エッジ サーバー プールでハードウェア ロード バランサーを使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="7b18f-105">If high availability is required for any of the following scenarios, a hardware load balancer must be used on Edge Server pools for the following:</span></span>
 
-  - <span data-ttu-id="163e4-106">Office Communications Server 2007 R2 または Office Communications Server 2007 を使用している組織とのフェデレーション</span><span class="sxs-lookup"><span data-stu-id="163e4-106">Federation with organizations using Office Communications Server 2007 R2 or Office Communications Server 2007</span></span>
+  - <span data-ttu-id="7b18f-106">Office Communications Server 2007 R2 または Office Communications Server 2007 を使用する組織とのフェデレーション</span><span class="sxs-lookup"><span data-stu-id="7b18f-106">Federation with organizations using Office Communications Server 2007 R2 or Office Communications Server 2007</span></span>
 
-  - <span data-ttu-id="163e4-107">Exchange 2010 SP1 より前の exchange UM を使用しているリモートユーザーの exchange UM</span><span class="sxs-lookup"><span data-stu-id="163e4-107">Exchange UM for remote users using Exchange UM prior to Exchange 2010 with SP1</span></span>
+  - <span data-ttu-id="7b18f-107">Exchange 2010 SP1 より前の exchange UM を使用するリモートユーザー用の exchange UM</span><span class="sxs-lookup"><span data-stu-id="7b18f-107">Exchange UM for remote users using Exchange UM prior to Exchange 2010 with SP1</span></span>
 
-  - <span data-ttu-id="163e4-108">パブリック IM ユーザーとの接続</span><span class="sxs-lookup"><span data-stu-id="163e4-108">Connectivity to public IM users</span></span>
+  - <span data-ttu-id="7b18f-108">パブリック IM ユーザーとの接続</span><span class="sxs-lookup"><span data-stu-id="7b18f-108">Connectivity to public IM users</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="163e4-p102">1 つのインターフェイスでハードウェア負荷分散を使用し、もう 1 つのインターフェイスで DNS 負荷分散を使用することはできません。両方のインターフェイスでハードウェア負荷分散を使用するか、両方で DNS 負荷分散を使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="163e4-p102">Using DNS load balancing on one interface and hardware load balancing on the other is not supported. You must use hardware load balancing for both interfaces or DNS load balancing for both.</span></span>
+> <span data-ttu-id="7b18f-p102">1 つのインターフェイスでハードウェア負荷分散を使用し、もう 1 つのインターフェイスで DNS 負荷分散を使用することはできません。両方のインターフェイスでハードウェア負荷分散を使用するか、両方で DNS 負荷分散を使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="7b18f-p102">Using DNS load balancing on one interface and hardware load balancing on the other is not supported. You must use hardware load balancing for both interfaces or DNS load balancing for both.</span></span>
 
 
 
@@ -59,7 +59,7 @@ ms.locfileid: "41727907"
 
 
 > [!NOTE]  
-> <span data-ttu-id="163e4-p103">ロード バランサー機器を使用している場合は、内部ネットワークとの接続用に展開されているロード バランサーを構成して、アクセス エッジ サービスおよび音声ビデオ サービスを実行しているサーバーへのトラフィックのみを負荷分散する必要があります。内部の Web 会議エッジ サービスまたは内部 XMPP プロキシ サービスへのトラフィックを負荷分散することはできません。</span><span class="sxs-lookup"><span data-stu-id="163e4-p103">If you are using a hardware load balancer, the load balancer deployed for connections with the internal network must be configured to load balance only the traffic to servers running the Access Edge service and the A/V Edge service. It cannot load balance the traffic to the internal Web Conferencing Edge service or the internal XMPP Proxy service.</span></span>
+> <span data-ttu-id="7b18f-p103">ロード バランザー機器を使用している場合は、内部ネットワークとの接続用に展開されているロード バランザーを構成して、アクセス エッジ サービスおよび音声ビデオ サービスを実行しているサーバーへのトラフィックのみを負荷分散する必要があります。内部の Web 会議エッジ サービスまたは内部 XMPP プロキシ サービスへのトラフィックを負荷分散することはできません。</span><span class="sxs-lookup"><span data-stu-id="7b18f-p103">If you are using a hardware load balancer, the load balancer deployed for connections with the internal network must be configured to load balance only the traffic to servers running the Access Edge service and the A/V Edge service. It cannot load balance the traffic to the internal Web Conferencing Edge service or the internal XMPP Proxy service.</span></span>
 
 
 
@@ -69,99 +69,99 @@ ms.locfileid: "41727907"
 
 
 > [!NOTE]  
-> <span data-ttu-id="163e4-113">Direct server return (DSR) NAT は、Lync Server 2013 ではサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="163e4-113">The direct server return (DSR) NAT is not supported with Lync Server 2013.</span></span>
+> <span data-ttu-id="7b18f-113">直接サーバーリターン (DSR) NAT は、Lync Server 2013 ではサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="7b18f-113">The direct server return (DSR) NAT is not supported with Lync Server 2013.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="163e4-114">使用[http://go.microsoft.com/fwlink/p/?linkId=202452](http://go.microsoft.com/fwlink/p/?linkid=202452)しているハードウェアロードバランサーが lync server 2013 に必要な機能をサポートしているかどうかを判断するには、の「lync Server 2010 ロードバランサーパートナー」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="163e4-114">To determine whether your hardware load balancer supports the necessary features required by Lync Server 2013, see "Lync Server 2010 Load Balancer Partners" at [http://go.microsoft.com/fwlink/p/?linkId=202452](http://go.microsoft.com/fwlink/p/?linkid=202452).</span></span>
+<span data-ttu-id="7b18f-114">ご使用のハードウェアロードバランサーが Lync Server 2013 で必要な機能をサポートしているかどうかを判断するには[http://go.microsoft.com/fwlink/p/?linkId=202452](http://go.microsoft.com/fwlink/p/?linkid=202452)、「lync Server 2010 ロードバランサーパートナー」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="7b18f-114">To determine whether your hardware load balancer supports the necessary features required by Lync Server 2013, see "Lync Server 2010 Load Balancer Partners" at [http://go.microsoft.com/fwlink/p/?linkId=202452](http://go.microsoft.com/fwlink/p/?linkid=202452).</span></span>
 
 <div>
 
-## <a name="hardware-load-balancer-requirements-for-edge-servers-running-the-av-edge-service"></a><span data-ttu-id="163e4-115">音声ビデオ エッジ サービスを実行するエッジ サーバーに対するロード バランサー機器の要件</span><span class="sxs-lookup"><span data-stu-id="163e4-115">Hardware Load Balancer Requirements for Edge Servers Running the A/V Edge Service</span></span>
+## <a name="hardware-load-balancer-requirements-for-edge-servers-running-the-av-edge-service"></a><span data-ttu-id="7b18f-115">音声ビデオ エッジ サービスを実行するエッジ サーバーに対するロード バランサー機器の要件</span><span class="sxs-lookup"><span data-stu-id="7b18f-115">Hardware Load Balancer Requirements for Edge Servers Running the A/V Edge Service</span></span>
 
-<span data-ttu-id="163e4-116">A/V Edge サービスを実行しているエッジサーバーのハードウェアロードバランサーの要件を次に示します。</span><span class="sxs-lookup"><span data-stu-id="163e4-116">Following are the hardware load balancer requirements for Edge Servers running the A/V Edge service:</span></span>
+<span data-ttu-id="7b18f-116">音声ビデオエッジサービスを実行するエッジサーバーに対するハードウェアロードバランサーの要件は次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="7b18f-116">Following are the hardware load balancer requirements for Edge Servers running the A/V Edge service:</span></span>
 
-  - <span data-ttu-id="163e4-p104">内部と外部の両方のポート 443 に対して TCP のネーグル処理がオフになっていること。ネーグル処理はいくつかの小さなパケットを 1 つの大きなパケットにまとめて転送効率を向上させるプロセスです。</span><span class="sxs-lookup"><span data-stu-id="163e4-p104">Turn off TCP nagling for both internal and external ports 443. Nagling is the process of combining several small packets into a single, larger packet for more efficient transmission.</span></span>
+  - <span data-ttu-id="7b18f-p104">内部と外部の両方のポート 443 に対して TCP のネーグル処理がオフになっていること。ネーグル処理はいくつかの小さなパケットを 1 つの大きなパケットにまとめて転送効率を向上させるプロセスです。</span><span class="sxs-lookup"><span data-stu-id="7b18f-p104">Turn off TCP nagling for both internal and external ports 443. Nagling is the process of combining several small packets into a single, larger packet for more efficient transmission.</span></span>
 
-  - <span data-ttu-id="163e4-119">外部ポート範囲 50000 ～ 59999 の TCP のネーグル処理がオフになっていること。</span><span class="sxs-lookup"><span data-stu-id="163e4-119">Turn off TCP nagling for external port range 50,000 – 59,999.</span></span>
+  - <span data-ttu-id="7b18f-119">外部ポート範囲 50000 ～ 59999 の TCP のネーグル処理がオフになっていること。</span><span class="sxs-lookup"><span data-stu-id="7b18f-119">Turn off TCP nagling for external port range 50,000 – 59,999.</span></span>
 
-  - <span data-ttu-id="163e4-120">内部または外部のファイアウォールで NAT が使用されていないこと。</span><span class="sxs-lookup"><span data-stu-id="163e4-120">Do not use NAT on the internal or external firewall.</span></span>
+  - <span data-ttu-id="7b18f-120">内部または外部のファイアウォールで NAT が使用されていないこと。</span><span class="sxs-lookup"><span data-stu-id="7b18f-120">Do not use NAT on the internal or external firewall.</span></span>
 
-  - <span data-ttu-id="163e4-121">Edge の内部インターフェイスは、エッジサーバーの外部インターフェイスとは異なるネットワーク上にあり、その間のルーティングを無効にする必要があります。</span><span class="sxs-lookup"><span data-stu-id="163e4-121">The edge internal interface must be on a different network than the Edge Server external interface and routing between them must be disabled.</span></span>
+  - <span data-ttu-id="7b18f-121">エッジの内部インターフェイスがエッジ サーバーの外部インターフェイスとは別のネットワークに存在し、それらの間のルーティングが無効になっていること。</span><span class="sxs-lookup"><span data-stu-id="7b18f-121">The edge internal interface must be on a different network than the Edge Server external interface and routing between them must be disabled.</span></span>
 
-  - <span data-ttu-id="163e4-122">A/V Edge サービスを実行しているエッジサーバーの外部インターフェイスでは、公開ルーティング可能な IP アドレスを使用し、エッジ外部 IP アドレスには NAT やポートの変換を行わないようにする必要があります。</span><span class="sxs-lookup"><span data-stu-id="163e4-122">The external interface of the Edge Server running the A/V Edge Service must use publicly routable IP addresses and no NAT or port translation on any of the edge external IP addresses.</span></span>
+  - <span data-ttu-id="7b18f-122">音声ビデオエッジサービスを実行しているエッジサーバーの外部インターフェイスでは、公開されたルーティング可能な IP アドレスを使用し、エッジの外部 IP アドレスで NAT またはポート変換を使用することはできません。</span><span class="sxs-lookup"><span data-stu-id="7b18f-122">The external interface of the Edge Server running the A/V Edge Service must use publicly routable IP addresses and no NAT or port translation on any of the edge external IP addresses.</span></span>
 
 </div>
 
 <div>
 
-## <a name="hardware-load-balancer-requirements"></a><span data-ttu-id="163e4-123">ロード バランサー機器の要件</span><span class="sxs-lookup"><span data-stu-id="163e4-123">Hardware Load Balancer Requirements</span></span>
+## <a name="hardware-load-balancer-requirements"></a><span data-ttu-id="7b18f-123">ハードウェア ロード バランサーの要件</span><span class="sxs-lookup"><span data-stu-id="7b18f-123">Hardware Load Balancer Requirements</span></span>
 
-<span data-ttu-id="163e4-124">Cookie ベースのアフィニティ要件は、Web サービスの Lync Server 2013 で大幅に削減されます。</span><span class="sxs-lookup"><span data-stu-id="163e4-124">Cookie-based affinity requirements are greatly reduced in Lync Server 2013 for Web services.</span></span> <span data-ttu-id="163e4-125">Lync server 2013 を展開していて、Lync Server 2010 フロントエンドサーバーまたはフロントエンドプールを保持していない場合は、cookie ベースの常設は必要ありません。</span><span class="sxs-lookup"><span data-stu-id="163e4-125">If you are deploying Lync Server 2013 and will not retain any Lync Server 2010 Front End Servers or Front End pools, you do not need cookie-based persistence.</span></span> <span data-ttu-id="163e4-126">ただし、Lync Server 2010 のフロントエンドサーバーまたはフロントエンドプールを一時的または完全に保持する場合でも、Lync Server 2010 用に展開して構成すると、cookie ベースの常設が使用されます。</span><span class="sxs-lookup"><span data-stu-id="163e4-126">However, if you will temporarily or permanently retain any Lync Server 2010 Front End Servers or Front End pools, you still use cookie-based persistence as it is deployed and configured for Lync Server 2010.</span></span>
-
-<div>
-
-
-> [!NOTE]  
-> <span data-ttu-id="163e4-127"><STRONG>展開では不要だが、Cookie ベースのアフィニティを使用する場合でも</STRONG>、悪影響はありません。</span><span class="sxs-lookup"><span data-stu-id="163e4-127"><STRONG>If you decide to use cookie-based affinity even though your deployment does not require it</STRONG>, there is no negative impact to doing so.</span></span>
-
-
-
-</div>
-
-<span data-ttu-id="163e4-128">Cookie ベースのアフィニティを**使用しない**展開の場合</span><span class="sxs-lookup"><span data-stu-id="163e4-128">For deployments that **will not use** cookie-based affinity:</span></span>
-
-  - <span data-ttu-id="163e4-129">リバース プロキシのポート 4443 に対する公開ルールで、[**ホスト ヘッダーを転送する**] を True に設定します。</span><span class="sxs-lookup"><span data-stu-id="163e4-129">On the reverse proxy publishing rule for port 4443, set **Forward host header** to True.</span></span> <span data-ttu-id="163e4-130">これにより、元の URL が確実に転送されます。</span><span class="sxs-lookup"><span data-stu-id="163e4-130">This will ensure that the original URL is forwarded.</span></span>
-
-<span data-ttu-id="163e4-131">Cookie ベースのアフィニティを**使用する**展開の場合</span><span class="sxs-lookup"><span data-stu-id="163e4-131">For deployments that **will use** cookie-based affinity:</span></span>
-
-  - <span data-ttu-id="163e4-p107">リバース プロキシのポート 4443 に対する公開ルールで、[**ホスト ヘッダーを転送する**] を True に設定します。これにより、元の URL が確実に転送されます。</span><span class="sxs-lookup"><span data-stu-id="163e4-p107">On the reverse proxy publishing rule for port 4443, set **Forward host header** to True. This will ensure that the original URL is forwarded.</span></span>
-
-  - <span data-ttu-id="163e4-134">ロード バランサー機器 Cookie が httpOnly とマークされていないこと</span><span class="sxs-lookup"><span data-stu-id="163e4-134">Hardware load balancer cookie MUST NOT be marked httpOnly</span></span>
-
-  - <span data-ttu-id="163e4-135">ロード バランサー機器 Cookie に有効期限がないこと</span><span class="sxs-lookup"><span data-stu-id="163e4-135">Hardware load balancer cookie MUST NOT have an expiration time</span></span>
-
-  - <span data-ttu-id="163e4-136">ロード バランサー機器 Cookie の名前が **MS-WSMAN** であること (これは Web サービスが受け取ることを想定している値であり、変更できません)</span><span class="sxs-lookup"><span data-stu-id="163e4-136">Hardware load balancer cookie MUST be named **MS-WSMAN** (This is the value that the Web services expect, and cannot be changed)</span></span>
-
-  - <span data-ttu-id="163e4-p108">ロード バランサー機器着信 HTTP 要求に Cookie が含まれていなかったすべての HTTP 応答に Cookie が設定されていること。同じ TCP 接続での以前の HTTP 応答で Cookie が既に取得されているかどうかは関係ありません。ロード バランサーによって、Cookie の挿入が TCP 接続ごとに 1 回のみ行われるように最適化されている場合は、その最適化を使用しないでください。</span><span class="sxs-lookup"><span data-stu-id="163e4-p108">Hardware load balancer cookie MUST be set in every HTTP response for which the incoming HTTP request did not have a cookie, regardless of whether a previous HTTP response on that same TCP connection had already obtained a cookie. If the load balancer optimizes cookie insert to only occur once per TCP connection, that optimization MUST NOT be used</span></span>
+<span data-ttu-id="7b18f-124">Web サービスの Lync Server 2013 では、Cookie ベースのアフィニティ要件が大幅に軽減されます。</span><span class="sxs-lookup"><span data-stu-id="7b18f-124">Cookie-based affinity requirements are greatly reduced in Lync Server 2013 for Web services.</span></span> <span data-ttu-id="7b18f-125">Lync server 2013 を展開していて、Lync Server 2010 フロントエンドサーバーまたはフロントエンドプールを保持していない場合は、cookie ベースの永続化は必要ありません。</span><span class="sxs-lookup"><span data-stu-id="7b18f-125">If you are deploying Lync Server 2013 and will not retain any Lync Server 2010 Front End Servers or Front End pools, you do not need cookie-based persistence.</span></span> <span data-ttu-id="7b18f-126">ただし、Lync Server 2010 のフロントエンドサーバーまたはフロントエンドプールを一時的または完全に保持している場合でも、Lync Server 2010 に対して展開および構成されているときは、cookie ベースの永続性を使用します。</span><span class="sxs-lookup"><span data-stu-id="7b18f-126">However, if you will temporarily or permanently retain any Lync Server 2010 Front End Servers or Front End pools, you still use cookie-based persistence as it is deployed and configured for Lync Server 2010.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="163e4-139">一般的なハードウェアロードバランサー構成では、ソースアドレスのアフィニティと20分の TCP セッションの有効期限が使用されます。これは、クライアントの使用状況やアプリケーションの操作によってセッションの状態が維持されるため、Lync Server と Lync 2013 クライアントにとって適切です。</span><span class="sxs-lookup"><span data-stu-id="163e4-139">Typical hardware load balancer configurations use source-address affinity and a 20 min. TCP session lifetime, which is fine for Lync Server and Lync 2013 clients because session state is maintained through client usage and/or and application interaction.</span></span>
+> <span data-ttu-id="7b18f-127"><STRONG>展開では不要だが、Cookie ベースのアフィニティを使用する場合でも</STRONG>、悪影響はありません。</span><span class="sxs-lookup"><span data-stu-id="7b18f-127"><STRONG>If you decide to use cookie-based affinity even though your deployment does not require it</STRONG>, there is no negative impact to doing so.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="163e4-140">モバイル デバイスを展開する場合、ロード バランサー機器で、TCP セッション内の個々の要求を負荷分散できるようにする必要があります (実際には、ターゲット IP アドレスに基づいて個々の要求を負荷分散できる必要があります)。</span><span class="sxs-lookup"><span data-stu-id="163e4-140">If you are deploying mobile devices, your hardware load balancer must be able to load balance individual request within a TCP session (in effect, you must be able to load balance an individual request based on the target IP address).</span></span>
+<span data-ttu-id="7b18f-128">Cookie ベースのアフィニティを**使用しない**展開の場合</span><span class="sxs-lookup"><span data-stu-id="7b18f-128">For deployments that **will not use** cookie-based affinity:</span></span>
+
+  - <span data-ttu-id="7b18f-129">リバース プロキシのポート 4443 に対する公開ルールで、[**ホスト ヘッダーを転送する**] が True に設定します。</span><span class="sxs-lookup"><span data-stu-id="7b18f-129">On the reverse proxy publishing rule for port 4443, set **Forward host header** to True.</span></span> <span data-ttu-id="7b18f-130">これにより、元の URL が確実に転送されます。</span><span class="sxs-lookup"><span data-stu-id="7b18f-130">This will ensure that the original URL is forwarded.</span></span>
+
+<span data-ttu-id="7b18f-131">Cookie ベースのアフィニティを**使用する**展開の場合</span><span class="sxs-lookup"><span data-stu-id="7b18f-131">For deployments that **will use** cookie-based affinity:</span></span>
+
+  - <span data-ttu-id="7b18f-p107">リバース プロキシのポート 4443 に対する公開ルールで、[**ホスト ヘッダーを転送する**] が True に設定します。これにより、元の URL が確実に転送されます。</span><span class="sxs-lookup"><span data-stu-id="7b18f-p107">On the reverse proxy publishing rule for port 4443, set **Forward host header** to True. This will ensure that the original URL is forwarded.</span></span>
+
+  - <span data-ttu-id="7b18f-134">ロード バランサー機器 Cookie が httpOnly とマークされていないこと</span><span class="sxs-lookup"><span data-stu-id="7b18f-134">Hardware load balancer cookie MUST NOT be marked httpOnly</span></span>
+
+  - <span data-ttu-id="7b18f-135">ロード バランサー機器 Cookie に有効期限がないこと</span><span class="sxs-lookup"><span data-stu-id="7b18f-135">Hardware load balancer cookie MUST NOT have an expiration time</span></span>
+
+  - <span data-ttu-id="7b18f-136">ロード バランサー機器 Cookie の名前が **MS-WSMAN** であること (これは Web サービスが受け取ることを想定している値であり、変更できません)</span><span class="sxs-lookup"><span data-stu-id="7b18f-136">Hardware load balancer cookie MUST be named **MS-WSMAN** (This is the value that the Web services expect, and cannot be changed)</span></span>
+
+  - <span data-ttu-id="7b18f-p108">ロード バランサー機器着信 HTTP 要求に Cookie が含まれていなかったすべての HTTP 応答に Cookie が設定されていること。同じ TCP 接続での以前の HTTP 応答で Cookie がすでに取得されているかどうかは関係ありません。ロード バランサーによって、Cookie の挿入が TCP 接続ごとに 1 回のみ行われるように最適化されている場合は、その最適化を使用しないでください。</span><span class="sxs-lookup"><span data-stu-id="7b18f-p108">Hardware load balancer cookie MUST be set in every HTTP response for which the incoming HTTP request did not have a cookie, regardless of whether a previous HTTP response on that same TCP connection had already obtained a cookie. If the load balancer optimizes cookie insert to only occur once per TCP connection, that optimization MUST NOT be used</span></span>
+
+<div>
+
+
+> [!NOTE]  
+> <span data-ttu-id="7b18f-139">通常、ハードウェアロードバランサーの構成では、ソースアドレスのアフィニティと20個の TCP セッションの有効期間が使用されます。これは、Lync Server および Lync 2013 クライアントに対しては、クライアントの使用状況やアプリケーションの相互作用によってセッション状態が維持されるため、正常に動作します。</span><span class="sxs-lookup"><span data-stu-id="7b18f-139">Typical hardware load balancer configurations use source-address affinity and a 20 min. TCP session lifetime, which is fine for Lync Server and Lync 2013 clients because session state is maintained through client usage and/or and application interaction.</span></span>
+
+
+
+</div>
+
+<span data-ttu-id="7b18f-140">モバイル デバイスを展開する場合、ロード バランサー機器で、TCP セッション内の個々の要求を負荷分散できるようにする必要があります (実際には、ターゲット IP アドレスに基づいて個々の要求を負荷分散できる必要があります)。</span><span class="sxs-lookup"><span data-stu-id="7b18f-140">If you are deploying mobile devices, your hardware load balancer must be able to load balance individual request within a TCP session (in effect, you must be able to load balance an individual request based on the target IP address).</span></span>
 
 <div>
 
 
 > [!WARNING]  
-> <span data-ttu-id="163e4-p109">F5 ロード バランサー機器には、OneConnect と呼ばれる機能があります。この機能を使用すると、TCP 接続内の各要求が個々に負荷分散されます。モバイル デバイスを展開する場合、ロード バランサー機器のベンダーが同じ機能をサポートしていることを確認してください。最新の Apple iOS モバイル アプリでは、トランスポート層セキュリティ (TLS) v1.2 が必要です。F5 は、その固有の設定を備えています。</span><span class="sxs-lookup"><span data-stu-id="163e4-p109">F5 hardware load balancers have a feature called OneConnect that ensures each request within a TCP connection is individually load balanced. If you are deploying mobile devices, ensure your hardware load balancer vendor supports the same functionality. The latest Apple iOS mobile apps require Transport Layer Security (TLS) version 1.2. F5 provides specific settings for this.</span></span><BR><span data-ttu-id="163e4-145">サードパーティのハードウェアロードバランサーの詳細については、<A href="http://go.microsoft.com/fwlink/p/?linkid=230700">http://go.microsoft.com/fwlink/p/?linkId=230700</A></span><span class="sxs-lookup"><span data-stu-id="163e4-145">For details on third party hardware load balancers, see <A href="http://go.microsoft.com/fwlink/p/?linkid=230700">http://go.microsoft.com/fwlink/p/?linkId=230700</A></span></span>
+> <span data-ttu-id="7b18f-p109">F5 ロード バランサー機器には、OneConnect と呼ばれる機能があります。この機能を使用すると、TCP 接続内の各要求が個々に負荷分散されます。モバイル デバイスを展開する場合、ロード バランサー機器のベンダーが同じ機能をサポートしていることを確認してください。最新の Apple iOS モバイル アプリでは、トランスポート層セキュリティ (TLS) v1.2 が必要です。F5 は、その固有の設定を備えています。</span><span class="sxs-lookup"><span data-stu-id="7b18f-p109">F5 hardware load balancers have a feature called OneConnect that ensures each request within a TCP connection is individually load balanced. If you are deploying mobile devices, ensure your hardware load balancer vendor supports the same functionality. The latest Apple iOS mobile apps require Transport Layer Security (TLS) version 1.2. F5 provides specific settings for this.</span></span><BR><span data-ttu-id="7b18f-145">サードパーティ製のロードバランサー機器の詳細については、「」を参照してください。<A href="http://go.microsoft.com/fwlink/p/?linkid=230700">http://go.microsoft.com/fwlink/p/?linkId=230700</A></span><span class="sxs-lookup"><span data-stu-id="7b18f-145">For details on third party hardware load balancers, see <A href="http://go.microsoft.com/fwlink/p/?linkid=230700">http://go.microsoft.com/fwlink/p/?linkId=230700</A></span></span>
 
 
 
 </div>
 
-<span data-ttu-id="163e4-146">ディレクターおよびフロントエンド プールの Web サービスに対するロード バランサー機器の要件は次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="163e4-146">Following are the hardware load balancer requirements for Director and Front End pool Web Services:</span></span>
+<span data-ttu-id="7b18f-146">ディレクターおよびフロントエンド プールの Web サービスに対するロード バランサー機器の要件は次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="7b18f-146">Following are the hardware load balancer requirements for Director and Front End pool Web Services:</span></span>
 
-  - <span data-ttu-id="163e4-147">内部の Web サービス Vip では、\_ハードウェアのロードバランサーでソースアドレスの常設 (内部ポート80、443) を設定します。</span><span class="sxs-lookup"><span data-stu-id="163e4-147">For internal Web Services VIPs, set Source\_addr persistence (internal port 80, 443) on the hardware load balancer.</span></span> <span data-ttu-id="163e4-148">Lync Server 2013 の場合、\_ソースアドレス常設は、1つの IP アドレスからの複数の接続が常に1つのサーバーに送信され、セッションの状態を維持することを意味します。</span><span class="sxs-lookup"><span data-stu-id="163e4-148">For Lync Server 2013, Source\_addr persistence means that multiple connections coming from a single IP address are always sent to one server to maintain session state.</span></span>
+  - <span data-ttu-id="7b18f-147">内部 Web サービスの Vip の場合は\_、ハードウェアロードバランサーでソースアドレス常設 (内部ポート80、443) を設定します。</span><span class="sxs-lookup"><span data-stu-id="7b18f-147">For internal Web Services VIPs, set Source\_addr persistence (internal port 80, 443) on the hardware load balancer.</span></span> <span data-ttu-id="7b18f-148">Lync Server 2013 の場合、\_ソースアドレスの常設とは、1つの IP アドレスからの複数の接続が、セッション状態を維持するために常に1台のサーバーに送信されることを意味します。</span><span class="sxs-lookup"><span data-stu-id="7b18f-148">For Lync Server 2013, Source\_addr persistence means that multiple connections coming from a single IP address are always sent to one server to maintain session state.</span></span>
 
-  - <span data-ttu-id="163e4-149">TCP アイドル タイムアウトが 1800 秒に設定されていること</span><span class="sxs-lookup"><span data-stu-id="163e4-149">Use TCP idle timeout of 1800 seconds.</span></span>
+  - <span data-ttu-id="7b18f-149">TCP アイドル タイムアウトが 1,800 秒に設定されていること</span><span class="sxs-lookup"><span data-stu-id="7b18f-149">Use TCP idle timeout of 1800 seconds.</span></span>
 
-  - <span data-ttu-id="163e4-p111">リバース プロキシと次ホップ プールのロード バランサー機器間のファイアウォールで、リバース プロキシからロード バランサー機器へのポート 4443 に対する https: トラフィックを許可するルールが作成されていること。ポート 80、443、および 4443 をリッスンするようにロード バランサー機器を構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="163e4-p111">On the firewall between the reverse proxy and the next hop pool’s hardware load balancer, create a rule to allow https: traffic on port 4443, from the reverse proxy to the hardware load balancer. The hardware load balancer must be configured to listen on ports 80, 443, and 4443.</span></span>
+  - <span data-ttu-id="7b18f-p111">リバース プロキシと次ホップ プールのハードウェア ロード バランサー間のファイアウォールで、リバース プロキシからハードウェア ロード バランサーへのポート 4443 に対する https: トラフィックを許可するルールが作成されていること。ポート 80、443、および 4443 をリッスンするようにハードウェア ロード バランサーを構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="7b18f-p111">On the firewall between the reverse proxy and the next hop pool’s hardware load balancer, create a rule to allow https: traffic on port 4443, from the reverse proxy to the hardware load balancer. The hardware load balancer must be configured to listen on ports 80, 443, and 4443.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="163e4-152">ハードウェアロードバランサーの構成の詳細については、「<A href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">ポートの概要-Lync Server 2013 でハードウェアロードバランサーを使用して拡大縮小されたエッジを</A>確認する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="163e4-152">For further reading on configuration of the hardware load balancer, please review <A href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">Port summary - Scaled consolidated edge with hardware load balancers in Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="7b18f-152">ロードバランサー機器の構成の詳細については、「 <A href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">Port summary-拡張統合エッジ (ハードウェアロードバランサー) (Lync Server 2013)」</A>を参照してください。</span><span class="sxs-lookup"><span data-stu-id="7b18f-152">For further reading on configuration of the hardware load balancer, please review <A href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">Port summary - Scaled consolidated edge with hardware load balancers in Lync Server 2013</A>.</span></span>
 
 
 
@@ -171,7 +171,7 @@ ms.locfileid: "41727907"
 
 <div>
 
-## <a name="summary-of-hardware-load-balancer-affinity-requirements"></a><span data-ttu-id="163e4-153">ロード バランサー機器のアフィニティ要件の概要</span><span class="sxs-lookup"><span data-stu-id="163e4-153">Summary of Hardware Load Balancer Affinity Requirements</span></span>
+## <a name="summary-of-hardware-load-balancer-affinity-requirements"></a><span data-ttu-id="7b18f-153">ロード バランサー機器のアフィニティ要件の概要</span><span class="sxs-lookup"><span data-stu-id="7b18f-153">Summary of Hardware Load Balancer Affinity Requirements</span></span>
 
 
 <table>
@@ -182,29 +182,29 @@ ms.locfileid: "41727907"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="163e4-154">クライアント/ユーザーの場所</span><span class="sxs-lookup"><span data-stu-id="163e4-154">Client/user location</span></span></th>
-<th><span data-ttu-id="163e4-155">外部 Web サービスの FQDN のアフィニティ要件</span><span class="sxs-lookup"><span data-stu-id="163e4-155">External web services FQDN affinity requirements</span></span></th>
-<th><span data-ttu-id="163e4-156">内部 Web サービスの FQDN のアフィニティ要件</span><span class="sxs-lookup"><span data-stu-id="163e4-156">Internal web services FQDN affinity requirements</span></span></th>
+<th><span data-ttu-id="7b18f-154">クライアント/ユーザーの場所</span><span class="sxs-lookup"><span data-stu-id="7b18f-154">Client/user location</span></span></th>
+<th><span data-ttu-id="7b18f-155">外部 Web サービスの FQDN のアフィニティ要件</span><span class="sxs-lookup"><span data-stu-id="7b18f-155">External web services FQDN affinity requirements</span></span></th>
+<th><span data-ttu-id="7b18f-156">内部 Web サービスの FQDN のアフィニティ要件</span><span class="sxs-lookup"><span data-stu-id="7b18f-156">Internal web services FQDN affinity requirements</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="163e4-157">Lync Web App (内部と外部のユーザー)</span><span class="sxs-lookup"><span data-stu-id="163e4-157">Lync Web App (internal and external users)</span></span></p>
-<p><span data-ttu-id="163e4-158">モバイル デバイス (内部および外部ユーザー)</span><span class="sxs-lookup"><span data-stu-id="163e4-158">Mobile device (internal and external users)</span></span></p></td>
-<td><p><span data-ttu-id="163e4-159">アフィニティなし</span><span class="sxs-lookup"><span data-stu-id="163e4-159">No affinity</span></span></p></td>
-<td><p><span data-ttu-id="163e4-160">送信元アドレスのアフィニティ</span><span class="sxs-lookup"><span data-stu-id="163e4-160">Source address affinity</span></span></p></td>
+<td><p><span data-ttu-id="7b18f-157">Lync Web App (内部および外部ユーザー)</span><span class="sxs-lookup"><span data-stu-id="7b18f-157">Lync Web App (internal and external users)</span></span></p>
+<p><span data-ttu-id="7b18f-158">モバイル デバイス (内部および外部ユーザー)</span><span class="sxs-lookup"><span data-stu-id="7b18f-158">Mobile device (internal and external users)</span></span></p></td>
+<td><p><span data-ttu-id="7b18f-159">アフィニティなし</span><span class="sxs-lookup"><span data-stu-id="7b18f-159">No affinity</span></span></p></td>
+<td><p><span data-ttu-id="7b18f-160">送信元アドレスのアフィニティ</span><span class="sxs-lookup"><span data-stu-id="7b18f-160">Source address affinity</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="163e4-161">Lync Web App (外部ユーザーのみ)</span><span class="sxs-lookup"><span data-stu-id="163e4-161">Lync Web App (external users only)</span></span></p>
-<p><span data-ttu-id="163e4-162">モバイル デバイス (内部および外部ユーザー)</span><span class="sxs-lookup"><span data-stu-id="163e4-162">Mobile device (internal and external users)</span></span></p></td>
-<td><p><span data-ttu-id="163e4-163">アフィニティなし</span><span class="sxs-lookup"><span data-stu-id="163e4-163">No affinity</span></span></p></td>
-<td><p><span data-ttu-id="163e4-164">送信元アドレスのアフィニティ</span><span class="sxs-lookup"><span data-stu-id="163e4-164">Source address affinity</span></span></p></td>
+<td><p><span data-ttu-id="7b18f-161">Lync Web App (外部ユーザーのみ)</span><span class="sxs-lookup"><span data-stu-id="7b18f-161">Lync Web App (external users only)</span></span></p>
+<p><span data-ttu-id="7b18f-162">モバイル デバイス (内部および外部ユーザー)</span><span class="sxs-lookup"><span data-stu-id="7b18f-162">Mobile device (internal and external users)</span></span></p></td>
+<td><p><span data-ttu-id="7b18f-163">アフィニティなし</span><span class="sxs-lookup"><span data-stu-id="7b18f-163">No affinity</span></span></p></td>
+<td><p><span data-ttu-id="7b18f-164">送信元アドレスのアフィニティ</span><span class="sxs-lookup"><span data-stu-id="7b18f-164">Source address affinity</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="163e4-165">Lync Web App (内部ユーザーのみ)</span><span class="sxs-lookup"><span data-stu-id="163e4-165">Lync Web App (internal users only)</span></span></p>
-<p><span data-ttu-id="163e4-166">モバイル デバイス (展開しない)</span><span class="sxs-lookup"><span data-stu-id="163e4-166">Mobile device (not deployed)</span></span></p></td>
-<td><p><span data-ttu-id="163e4-167">アフィニティなし</span><span class="sxs-lookup"><span data-stu-id="163e4-167">No affinity</span></span></p></td>
-<td><p><span data-ttu-id="163e4-168">送信元アドレスのアフィニティ</span><span class="sxs-lookup"><span data-stu-id="163e4-168">Source address affinity</span></span></p></td>
+<td><p><span data-ttu-id="7b18f-165">Lync Web App (内部ユーザーのみ)</span><span class="sxs-lookup"><span data-stu-id="7b18f-165">Lync Web App (internal users only)</span></span></p>
+<p><span data-ttu-id="7b18f-166">モバイル デバイス (展開しない)</span><span class="sxs-lookup"><span data-stu-id="7b18f-166">Mobile device (not deployed)</span></span></p></td>
+<td><p><span data-ttu-id="7b18f-167">アフィニティなし</span><span class="sxs-lookup"><span data-stu-id="7b18f-167">No affinity</span></span></p></td>
+<td><p><span data-ttu-id="7b18f-168">送信元アドレスのアフィニティ</span><span class="sxs-lookup"><span data-stu-id="7b18f-168">Source address affinity</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -214,11 +214,11 @@ ms.locfileid: "41727907"
 
 <div>
 
-## <a name="port-monitoring-for-hardware-load-balancers"></a><span data-ttu-id="163e4-169">ロード バランサー機器のポート監視</span><span class="sxs-lookup"><span data-stu-id="163e4-169">Port Monitoring for Hardware Load Balancers</span></span>
+## <a name="port-monitoring-for-hardware-load-balancers"></a><span data-ttu-id="7b18f-169">ロード バランサー機器のポート監視</span><span class="sxs-lookup"><span data-stu-id="7b18f-169">Port Monitoring for Hardware Load Balancers</span></span>
 
-<span data-ttu-id="163e4-170">特定のサービスがハードウェアまたは通信障害によって使用できないような状況を確認する目的で、ロード バランサー機器に対してポート監視を定義します。</span><span class="sxs-lookup"><span data-stu-id="163e4-170">You define port monitoring on the hardware load balancers to determine when specific services are no longer available due to hardware or communications failure.</span></span> <span data-ttu-id="163e4-171">たとえば、フロントエンドサーバーまたはフロントエンドプールに障害が発生したために、フロントエンドサーバーサービス (RTCSRV) が停止した場合、HLB の監視でも Web サービスのトラフィックの受信を停止する必要があります。</span><span class="sxs-lookup"><span data-stu-id="163e4-171">For example, if the Front End Server service (RTCSRV) stops because the Front End Server or Front End pool fails, the HLB monitoring should also stop receiving traffic on the Web Services.</span></span> <span data-ttu-id="163e4-172">以下を監視する目的で、HLB にポート監視を実装します。</span><span class="sxs-lookup"><span data-stu-id="163e4-172">You implement port monitoring on the HLB to monitor the following:</span></span>
+<span data-ttu-id="7b18f-170">特定のサービスがハードウェアまたは通信障害によって使用できないような状況を確認する目的で、ロード バランサー機器に対してポート監視を定義します。</span><span class="sxs-lookup"><span data-stu-id="7b18f-170">You define port monitoring on the hardware load balancers to determine when specific services are no longer available due to hardware or communications failure.</span></span> <span data-ttu-id="7b18f-171">たとえば、フロントエンドサーバーまたはフロントエンドプールに障害が発生したためにフロントエンドサーバーサービス (RTCSRV) が停止した場合、HLB の監視でも Web サービス上のトラフィックの受信を停止する必要があります。</span><span class="sxs-lookup"><span data-stu-id="7b18f-171">For example, if the Front End Server service (RTCSRV) stops because the Front End Server or Front End pool fails, the HLB monitoring should also stop receiving traffic on the Web Services.</span></span> <span data-ttu-id="7b18f-172">以下を監視する目的で、HLB にポート監視を実装します。</span><span class="sxs-lookup"><span data-stu-id="7b18f-172">You implement port monitoring on the HLB to monitor the following:</span></span>
 
-### <a name="front-end-server-user-pool--hlb-internal-interface"></a><span data-ttu-id="163e4-173">フロントエンドサーバーのユーザープール– HLB 内部インターフェイス</span><span class="sxs-lookup"><span data-stu-id="163e4-173">Front End Server User Pool – HLB Internal Interface</span></span>
+### <a name="front-end-server-user-pool--hlb-internal-interface"></a><span data-ttu-id="7b18f-173">フロントエンドサーバーユーザープール-HLB 内部インターフェイス</span><span class="sxs-lookup"><span data-stu-id="7b18f-173">Front End Server User Pool – HLB Internal Interface</span></span>
 
 <table>
 <colgroup>
@@ -230,37 +230,37 @@ ms.locfileid: "41727907"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="163e4-174">仮想 IP/ポート</span><span class="sxs-lookup"><span data-stu-id="163e4-174">Virtual IP/Port</span></span></th>
-<th><span data-ttu-id="163e4-175">ノード ポート</span><span class="sxs-lookup"><span data-stu-id="163e4-175">Node Port</span></span></th>
-<th><span data-ttu-id="163e4-176">ノード コンピューター/モニター</span><span class="sxs-lookup"><span data-stu-id="163e4-176">Node Machine/Monitor</span></span></th>
-<th><span data-ttu-id="163e4-177">保存プロファイル</span><span class="sxs-lookup"><span data-stu-id="163e4-177">Persistence Profile</span></span></th>
-<th><span data-ttu-id="163e4-178">メモ</span><span class="sxs-lookup"><span data-stu-id="163e4-178">Notes</span></span></th>
+<th><span data-ttu-id="7b18f-174">仮想 IP/ポート</span><span class="sxs-lookup"><span data-stu-id="7b18f-174">Virtual IP/Port</span></span></th>
+<th><span data-ttu-id="7b18f-175">ノード ポート</span><span class="sxs-lookup"><span data-stu-id="7b18f-175">Node Port</span></span></th>
+<th><span data-ttu-id="7b18f-176">ノード コンピューター/モニター</span><span class="sxs-lookup"><span data-stu-id="7b18f-176">Node Machine/Monitor</span></span></th>
+<th><span data-ttu-id="7b18f-177">保存プロファイル</span><span class="sxs-lookup"><span data-stu-id="7b18f-177">Persistence Profile</span></span></th>
+<th><span data-ttu-id="7b18f-178">メモ</span><span class="sxs-lookup"><span data-stu-id="7b18f-178">Notes</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="163e4-179">&lt;プール&gt;web int_mco_443_vs</span><span class="sxs-lookup"><span data-stu-id="163e4-179">&lt;pool&gt;web-int_mco_443_vs</span></span></p>
-<p><span data-ttu-id="163e4-180">443</span><span class="sxs-lookup"><span data-stu-id="163e4-180">443</span></span></p></td>
-<td><p><span data-ttu-id="163e4-181">443</span><span class="sxs-lookup"><span data-stu-id="163e4-181">443</span></span></p></td>
-<td><p><span data-ttu-id="163e4-182">フロントエンド</span><span class="sxs-lookup"><span data-stu-id="163e4-182">Front End</span></span></p>
-<p><span data-ttu-id="163e4-183">5061</span><span class="sxs-lookup"><span data-stu-id="163e4-183">5061</span></span></p></td>
-<td><p><span data-ttu-id="163e4-184">ソース</span><span class="sxs-lookup"><span data-stu-id="163e4-184">Source</span></span></p></td>
-<td><p><span data-ttu-id="163e4-185">HTTPS</span><span class="sxs-lookup"><span data-stu-id="163e4-185">HTTPS</span></span></p></td>
+<td><p><span data-ttu-id="7b18f-179">&lt;プール&gt;web-int_mco_443_vs</span><span class="sxs-lookup"><span data-stu-id="7b18f-179">&lt;pool&gt;web-int_mco_443_vs</span></span></p>
+<p><span data-ttu-id="7b18f-180">443</span><span class="sxs-lookup"><span data-stu-id="7b18f-180">443</span></span></p></td>
+<td><p><span data-ttu-id="7b18f-181">443</span><span class="sxs-lookup"><span data-stu-id="7b18f-181">443</span></span></p></td>
+<td><p><span data-ttu-id="7b18f-182">フロントエンド</span><span class="sxs-lookup"><span data-stu-id="7b18f-182">Front End</span></span></p>
+<p><span data-ttu-id="7b18f-183">5061</span><span class="sxs-lookup"><span data-stu-id="7b18f-183">5061</span></span></p></td>
+<td><p><span data-ttu-id="7b18f-184">ソース</span><span class="sxs-lookup"><span data-stu-id="7b18f-184">Source</span></span></p></td>
+<td><p><span data-ttu-id="7b18f-185">HTTPS</span><span class="sxs-lookup"><span data-stu-id="7b18f-185">HTTPS</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="163e4-186">&lt;プール&gt;web int_mco_80_vs</span><span class="sxs-lookup"><span data-stu-id="163e4-186">&lt;pool&gt;web-int_mco_80_vs</span></span></p>
-<p><span data-ttu-id="163e4-187">80</span><span class="sxs-lookup"><span data-stu-id="163e4-187">80</span></span></p></td>
-<td><p><span data-ttu-id="163e4-188">80</span><span class="sxs-lookup"><span data-stu-id="163e4-188">80</span></span></p></td>
-<td><p><span data-ttu-id="163e4-189">フロントエンド</span><span class="sxs-lookup"><span data-stu-id="163e4-189">Front End</span></span></p>
-<p><span data-ttu-id="163e4-190">5061</span><span class="sxs-lookup"><span data-stu-id="163e4-190">5061</span></span></p></td>
-<td><p><span data-ttu-id="163e4-191">ソース</span><span class="sxs-lookup"><span data-stu-id="163e4-191">Source</span></span></p></td>
-<td><p><span data-ttu-id="163e4-192">HTTP</span><span class="sxs-lookup"><span data-stu-id="163e4-192">HTTP</span></span></p></td>
+<td><p><span data-ttu-id="7b18f-186">&lt;プール&gt;web-int_mco_80_vs</span><span class="sxs-lookup"><span data-stu-id="7b18f-186">&lt;pool&gt;web-int_mco_80_vs</span></span></p>
+<p><span data-ttu-id="7b18f-187">80</span><span class="sxs-lookup"><span data-stu-id="7b18f-187">80</span></span></p></td>
+<td><p><span data-ttu-id="7b18f-188">80</span><span class="sxs-lookup"><span data-stu-id="7b18f-188">80</span></span></p></td>
+<td><p><span data-ttu-id="7b18f-189">フロントエンド</span><span class="sxs-lookup"><span data-stu-id="7b18f-189">Front End</span></span></p>
+<p><span data-ttu-id="7b18f-190">5061</span><span class="sxs-lookup"><span data-stu-id="7b18f-190">5061</span></span></p></td>
+<td><p><span data-ttu-id="7b18f-191">ソース</span><span class="sxs-lookup"><span data-stu-id="7b18f-191">Source</span></span></p></td>
+<td><p><span data-ttu-id="7b18f-192">HTTP</span><span class="sxs-lookup"><span data-stu-id="7b18f-192">HTTP</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="front-end-server-user-pool--hlb-external-interface"></a><span data-ttu-id="163e4-193">フロントエンドサーバーのユーザープール– HLB 外部インターフェイス</span><span class="sxs-lookup"><span data-stu-id="163e4-193">Front End Server User Pool – HLB External Interface</span></span>
+### <a name="front-end-server-user-pool--hlb-external-interface"></a><span data-ttu-id="7b18f-193">フロントエンドサーバーのユーザープール-HLB 外部インターフェイス</span><span class="sxs-lookup"><span data-stu-id="7b18f-193">Front End Server User Pool – HLB External Interface</span></span>
 
 <table>
 <colgroup>
@@ -272,31 +272,31 @@ ms.locfileid: "41727907"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="163e4-194">仮想 IP/ポート</span><span class="sxs-lookup"><span data-stu-id="163e4-194">Virtual IP/Port</span></span></th>
-<th><span data-ttu-id="163e4-195">ノード ポート</span><span class="sxs-lookup"><span data-stu-id="163e4-195">Node Port</span></span></th>
-<th><span data-ttu-id="163e4-196">ノード コンピューター/モニター</span><span class="sxs-lookup"><span data-stu-id="163e4-196">Node Machine/Monitor</span></span></th>
-<th><span data-ttu-id="163e4-197">保存プロファイル</span><span class="sxs-lookup"><span data-stu-id="163e4-197">Persistence Profile</span></span></th>
-<th><span data-ttu-id="163e4-198">メモ</span><span class="sxs-lookup"><span data-stu-id="163e4-198">Notes</span></span></th>
+<th><span data-ttu-id="7b18f-194">仮想 IP/ポート</span><span class="sxs-lookup"><span data-stu-id="7b18f-194">Virtual IP/Port</span></span></th>
+<th><span data-ttu-id="7b18f-195">ノード ポート</span><span class="sxs-lookup"><span data-stu-id="7b18f-195">Node Port</span></span></th>
+<th><span data-ttu-id="7b18f-196">ノード コンピューター/モニター</span><span class="sxs-lookup"><span data-stu-id="7b18f-196">Node Machine/Monitor</span></span></th>
+<th><span data-ttu-id="7b18f-197">保存プロファイル</span><span class="sxs-lookup"><span data-stu-id="7b18f-197">Persistence Profile</span></span></th>
+<th><span data-ttu-id="7b18f-198">メモ</span><span class="sxs-lookup"><span data-stu-id="7b18f-198">Notes</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="163e4-199">&lt;プール&gt;web_mco_443_vs</span><span class="sxs-lookup"><span data-stu-id="163e4-199">&lt;pool&gt;web_mco_443_vs</span></span></p>
-<p><span data-ttu-id="163e4-200">443</span><span class="sxs-lookup"><span data-stu-id="163e4-200">443</span></span></p></td>
-<td><p><span data-ttu-id="163e4-201">4443</span><span class="sxs-lookup"><span data-stu-id="163e4-201">4443</span></span></p></td>
-<td><p><span data-ttu-id="163e4-202">フロントエンド</span><span class="sxs-lookup"><span data-stu-id="163e4-202">Front End</span></span></p>
-<p><span data-ttu-id="163e4-203">5061</span><span class="sxs-lookup"><span data-stu-id="163e4-203">5061</span></span></p></td>
-<td><p><span data-ttu-id="163e4-204">なし</span><span class="sxs-lookup"><span data-stu-id="163e4-204">None</span></span></p></td>
-<td><p><span data-ttu-id="163e4-205">HTTPS</span><span class="sxs-lookup"><span data-stu-id="163e4-205">HTTPS</span></span></p></td>
+<td><p><span data-ttu-id="7b18f-199">&lt;プール&gt;web_mco_443_vs</span><span class="sxs-lookup"><span data-stu-id="7b18f-199">&lt;pool&gt;web_mco_443_vs</span></span></p>
+<p><span data-ttu-id="7b18f-200">443</span><span class="sxs-lookup"><span data-stu-id="7b18f-200">443</span></span></p></td>
+<td><p><span data-ttu-id="7b18f-201">4443</span><span class="sxs-lookup"><span data-stu-id="7b18f-201">4443</span></span></p></td>
+<td><p><span data-ttu-id="7b18f-202">フロントエンド</span><span class="sxs-lookup"><span data-stu-id="7b18f-202">Front End</span></span></p>
+<p><span data-ttu-id="7b18f-203">5061</span><span class="sxs-lookup"><span data-stu-id="7b18f-203">5061</span></span></p></td>
+<td><p><span data-ttu-id="7b18f-204">なし</span><span class="sxs-lookup"><span data-stu-id="7b18f-204">None</span></span></p></td>
+<td><p><span data-ttu-id="7b18f-205">HTTPS</span><span class="sxs-lookup"><span data-stu-id="7b18f-205">HTTPS</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="163e4-206">&lt;プール&gt;web_mco_80_vs</span><span class="sxs-lookup"><span data-stu-id="163e4-206">&lt;pool&gt;web_mco_80_vs</span></span></p>
-<p><span data-ttu-id="163e4-207">80</span><span class="sxs-lookup"><span data-stu-id="163e4-207">80</span></span></p></td>
-<td><p><span data-ttu-id="163e4-208">8080</span><span class="sxs-lookup"><span data-stu-id="163e4-208">8080</span></span></p></td>
-<td><p><span data-ttu-id="163e4-209">フロントエンド</span><span class="sxs-lookup"><span data-stu-id="163e4-209">Front End</span></span></p>
-<p><span data-ttu-id="163e4-210">5061</span><span class="sxs-lookup"><span data-stu-id="163e4-210">5061</span></span></p></td>
-<td><p><span data-ttu-id="163e4-211">なし</span><span class="sxs-lookup"><span data-stu-id="163e4-211">None</span></span></p></td>
-<td><p><span data-ttu-id="163e4-212">HTTP</span><span class="sxs-lookup"><span data-stu-id="163e4-212">HTTP</span></span></p></td>
+<td><p><span data-ttu-id="7b18f-206">&lt;プール&gt;web_mco_80_vs</span><span class="sxs-lookup"><span data-stu-id="7b18f-206">&lt;pool&gt;web_mco_80_vs</span></span></p>
+<p><span data-ttu-id="7b18f-207">80</span><span class="sxs-lookup"><span data-stu-id="7b18f-207">80</span></span></p></td>
+<td><p><span data-ttu-id="7b18f-208">8080</span><span class="sxs-lookup"><span data-stu-id="7b18f-208">8080</span></span></p></td>
+<td><p><span data-ttu-id="7b18f-209">フロントエンド</span><span class="sxs-lookup"><span data-stu-id="7b18f-209">Front End</span></span></p>
+<p><span data-ttu-id="7b18f-210">5061</span><span class="sxs-lookup"><span data-stu-id="7b18f-210">5061</span></span></p></td>
+<td><p><span data-ttu-id="7b18f-211">なし</span><span class="sxs-lookup"><span data-stu-id="7b18f-211">None</span></span></p></td>
+<td><p><span data-ttu-id="7b18f-212">HTTP</span><span class="sxs-lookup"><span data-stu-id="7b18f-212">HTTP</span></span></p></td>
 </tr>
 </tbody>
 </table>

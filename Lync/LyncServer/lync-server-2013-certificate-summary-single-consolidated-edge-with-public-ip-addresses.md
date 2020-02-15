@@ -1,5 +1,5 @@
 ---
-title: 証明書の概要 - パブリック IP アドレスを使用する単一の統合エッジ
+title: 証明書の概要-パブリック IP アドレスを使用する単一統合エッジ
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183653
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1880856214632357a1a4190a22cd56b29dee020a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 03c3fdf4b1ef103e38a0d1b2afb02d3dfb743ad3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722617"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031101"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---single-consolidated-edge-with-public-ip-addresses-in-lync-server-2013"></a><span data-ttu-id="325b8-102">証明書の概要 - Lync Server 2013 のパブリック IP アドレスを使用する単一の統合エッジ</span><span class="sxs-lookup"><span data-stu-id="325b8-102">Certificate summary - Single consolidated edge with public IP addresses in Lync Server 2013</span></span>
+# <a name="certificate-summary---single-consolidated-edge-with-public-ip-addresses-in-lync-server-2013"></a><span data-ttu-id="30b31-102">証明書の概要-Lync Server 2013 のパブリック IP アドレスを使用する単一統合エッジ</span><span class="sxs-lookup"><span data-stu-id="30b31-102">Certificate summary - Single consolidated edge with public IP addresses in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41722617"
 
 <span> </span>
 
-<span data-ttu-id="325b8-103">_**最終更新日:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="325b8-103">_**Topic Last Modified:** 2012-09-08_</span></span>
+<span data-ttu-id="30b31-103">_**トピックの最終更新日:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="30b31-103">_**Topic Last Modified:** 2012-09-08_</span></span>
 
-<span data-ttu-id="325b8-104">Microsoft Lync Server 2013 は、証明書を使って、他のサーバーを相互認証したり、サーバーやサーバーからクライアントにデータを暗号化したりします。</span><span class="sxs-lookup"><span data-stu-id="325b8-104">Microsoft Lync Server 2013 uses certificates to mutually authenticate other servers and to encrypt data from server to server and server to client.</span></span> <span data-ttu-id="325b8-105">証明書には、サーバーに関連付けられているドメインネームシステム (DNS) レコードと証明書のサブジェクト名 (SN) とサブジェクトの代替名 (SAN) の名前が一致している必要があります。</span><span class="sxs-lookup"><span data-stu-id="325b8-105">Certificates require name matching of the domain name system (DNS) records associated with the servers and the subject name (SN) and subject alternative name (SAN) on the certificate.</span></span> <span data-ttu-id="325b8-106">サーバー、DNS レコード、証明書エントリを正常にマッピングするには、DNS に登録されているサーバーの完全修飾ドメイン名と、証明書の SN および SAN エントリを慎重に計画する必要があります。</span><span class="sxs-lookup"><span data-stu-id="325b8-106">To successfully map servers, DNS records and certificate entries, you must carefully plan your intended server fully qualified domain names as registered in DNS and the SN and SAN entries on the certificate.</span></span>
+<span data-ttu-id="30b31-104">Microsoft Lync Server 2013 は、証明書を使用して、他のサーバーを相互に認証し、サーバーからサーバーおよびサーバーからクライアントへデータを暗号化します。</span><span class="sxs-lookup"><span data-stu-id="30b31-104">Microsoft Lync Server 2013 uses certificates to mutually authenticate other servers and to encrypt data from server to server and server to client.</span></span> <span data-ttu-id="30b31-105">証明書では、サーバーに関連付けられているドメイン ネーム システム (DNS) レコードの名前と、証明書のサブジェクト名 (SN) およびサブジェクトの別名 (SAN) の名前が一致している必要があります。</span><span class="sxs-lookup"><span data-stu-id="30b31-105">Certificates require name matching of the domain name system (DNS) records associated with the servers and the subject name (SN) and subject alternative name (SAN) on the certificate.</span></span> <span data-ttu-id="30b31-106">サーバー、DNS レコード、および証明書のエントリを正常にマッピングするには、DNS に登録される目的のサーバーの完全修飾ドメイン名、および証明書の SN エントリと SAN エントリを慎重に計画する必要があります。</span><span class="sxs-lookup"><span data-stu-id="30b31-106">To successfully map servers, DNS records and certificate entries, you must carefully plan your intended server fully qualified domain names as registered in DNS and the SN and SAN entries on the certificate.</span></span>
 
-<span data-ttu-id="325b8-107">エッジサーバーの外部インターフェイスに割り当てられている証明書は、公開証明機関 (CA) から要求されます。</span><span class="sxs-lookup"><span data-stu-id="325b8-107">The certificate assigned to the external interfaces of the Edge Server is requested from a public certification authority (CA).</span></span> <span data-ttu-id="325b8-108">統合された通信の目的で証明書を提供することに成功したことを示すパブリック[http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395) ca は、次の記事に記載されています。証明書を要求するときは、Lync Server Deployment ウィザードで生成された証明書要求を使用するか、または公開 ca から提供されたプロセスによって要求を作成できます</span><span class="sxs-lookup"><span data-stu-id="325b8-108">Public CAs that have demonstrated success in supplying certificates for the purposes of Unified Communications are listed in the following article: [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395) When requesting the certificate, you can use the certificate request generated by the Lync Server Deployment Wizard or create the request manually or by a process provided by the public CA.</span></span> <span data-ttu-id="325b8-109">証明書を割り当てる場合、証明書は、アクセスエッジサービスインターフェイス、Web 会議エッジサービスインターフェイス、および音声/ビデオ認証サービスに割り当てられます。</span><span class="sxs-lookup"><span data-stu-id="325b8-109">When assigning the certificate, the certificate is assigned to the Access Edge service interface, the Web Conferencing Edge service interface, and the Audio/Video Authentication service.</span></span> <span data-ttu-id="325b8-110">音声/ビデオ認証サービスは、音声とビデオのストリームを暗号化するために証明書を使用しない A/V Edge サービスと混同しないようにしてください。</span><span class="sxs-lookup"><span data-stu-id="325b8-110">The Audio/Video Authentication service should not be confused with the A/V Edge service which does not use a certificate to encrypt the audio and video streams.</span></span> <span data-ttu-id="325b8-111">内部の Edge Server インターフェイスは、内部 (組織) CA またはパブリック CA の証明書の証明書を使用できます。</span><span class="sxs-lookup"><span data-stu-id="325b8-111">The internal Edge Server interface can use a certificate from an internal (to your organization) CA or a certificate from a public CA.</span></span> <span data-ttu-id="325b8-112">内部インターフェイス証明書は、SN のみを使用します。 SAN エントリは必要ありません。</span><span class="sxs-lookup"><span data-stu-id="325b8-112">The internal interface certificate uses only the SN and does not need or use SAN entries.</span></span>
+<span data-ttu-id="30b31-107">エッジサーバーの外部インターフェイスに割り当てられた証明書は、パブリック証明機関 (CA) から要求されます。</span><span class="sxs-lookup"><span data-stu-id="30b31-107">The certificate assigned to the external interfaces of the Edge Server is requested from a public certification authority (CA).</span></span> <span data-ttu-id="30b31-108">ユニファイドコミュニケーションの目的で証明書の提供に成功したことを示すパブリック Ca について[http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395)は、次の記事に記載されています。証明書を要求する場合、Lync Server 展開ウィザードによって生成された証明書要求を使用するか、要求を手動で作成するか、またはパブリック CA によって提供されるプロセス</span><span class="sxs-lookup"><span data-stu-id="30b31-108">Public CAs that have demonstrated success in supplying certificates for the purposes of Unified Communications are listed in the following article: [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395) When requesting the certificate, you can use the certificate request generated by the Lync Server Deployment Wizard or create the request manually or by a process provided by the public CA.</span></span> <span data-ttu-id="30b31-109">証明書を割り当てるとき、証明書はアクセスエッジサービスインターフェイス、Web 会議エッジサービスインターフェイス、および音声ビデオ認証サービスに割り当てられます。</span><span class="sxs-lookup"><span data-stu-id="30b31-109">When assigning the certificate, the certificate is assigned to the Access Edge service interface, the Web Conferencing Edge service interface, and the Audio/Video Authentication service.</span></span> <span data-ttu-id="30b31-110">音声ビデオ認証サービスを音声ビデオエッジサービスと混同しないようにしてください。これは、オーディオおよびビデオストリームを暗号化するために証明書を使用しません。</span><span class="sxs-lookup"><span data-stu-id="30b31-110">The Audio/Video Authentication service should not be confused with the A/V Edge service which does not use a certificate to encrypt the audio and video streams.</span></span> <span data-ttu-id="30b31-111">内部エッジサーバーインターフェイスは、内部 (組織の場合) CA またはパブリック CA からの証明書からの証明書を使用できます。</span><span class="sxs-lookup"><span data-stu-id="30b31-111">The internal Edge Server interface can use a certificate from an internal (to your organization) CA or a certificate from a public CA.</span></span> <span data-ttu-id="30b31-112">内部インターフェイス証明書は SN のみを使用し、SAN エントリを必要としたり使用したりすることはありません。</span><span class="sxs-lookup"><span data-stu-id="30b31-112">The internal interface certificate uses only the SN and does not need or use SAN entries.</span></span>
 
 <div>
 
 
 > [!NOTE]
-> <span data-ttu-id="325b8-113">次の表は、参照用のサブジェクト代替名の一覧の2番目の SIP エントリ (sip.fabrikam.com) を示しています。</span><span class="sxs-lookup"><span data-stu-id="325b8-113">The following table shows a second SIP entry (sip.fabrikam.com) in the subject alternative name list for reference.</span></span> <span data-ttu-id="325b8-114">組織内の各 SIP ドメインについて、証明書のサブジェクトの [代替名] リストに記載されている対応する FQDN を追加する必要があります。</span><span class="sxs-lookup"><span data-stu-id="325b8-114">For each SIP domain in your organization, you need to add a corresponding FQDN listed in the certificate subject alternative name list.</span></span>
+> <span data-ttu-id="30b31-p103">次の表では、参考のためにサブジェクトの別名一覧の 2 つ目の SIP エントリ (sip.fabrikam.com) を示しています。組織内の各 SIP ドメインに対して、証明書のサブジェクトの別名一覧に記載されている対応する FQDN を追加する必要があります。</span><span class="sxs-lookup"><span data-stu-id="30b31-p103">The following table shows a second SIP entry (sip.fabrikam.com) in the subject alternative name list for reference. For each SIP domain in your organization, you need to add a corresponding FQDN listed in the certificate subject alternative name list.</span></span>
 
 
 
@@ -53,7 +53,7 @@ ms.locfileid: "41722617"
 
 <div>
 
-## <a name="certificates-required-for-single-consolidated-edge-with-public-ip-addresses"></a><span data-ttu-id="325b8-115">パブリック IP アドレスを持つ単一の統合エッジに必要な証明書</span><span class="sxs-lookup"><span data-stu-id="325b8-115">Certificates Required for Single Consolidated Edge with Public IP Addresses</span></span>
+## <a name="certificates-required-for-single-consolidated-edge-with-public-ip-addresses"></a><span data-ttu-id="30b31-115">パブリック IP アドレスを使用する単一の統合エッジに必要な証明書</span><span class="sxs-lookup"><span data-stu-id="30b31-115">Certificates Required for Single Consolidated Edge with Public IP Addresses</span></span>
 
 
 <table>
@@ -65,32 +65,32 @@ ms.locfileid: "41722617"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="325b8-116">コンポーネント</span><span class="sxs-lookup"><span data-stu-id="325b8-116">Component</span></span></th>
-<th><span data-ttu-id="325b8-117">サブジェクト名 (SN)</span><span class="sxs-lookup"><span data-stu-id="325b8-117">Subject name (SN)</span></span></th>
-<th><span data-ttu-id="325b8-118">サブジェクト代替名 (SAN)/Order</span><span class="sxs-lookup"><span data-stu-id="325b8-118">Subject alternative names (SAN)/Order</span></span></th>
-<th><span data-ttu-id="325b8-119">コメント</span><span class="sxs-lookup"><span data-stu-id="325b8-119">Comments</span></span></th>
+<th><span data-ttu-id="30b31-116">コンポーネント</span><span class="sxs-lookup"><span data-stu-id="30b31-116">Component</span></span></th>
+<th><span data-ttu-id="30b31-117">サブジェクト名 (SN)</span><span class="sxs-lookup"><span data-stu-id="30b31-117">Subject name (SN)</span></span></th>
+<th><span data-ttu-id="30b31-118">サブジェクトの別名 (SAN)/順序</span><span class="sxs-lookup"><span data-stu-id="30b31-118">Subject alternative names (SAN)/Order</span></span></th>
+<th><span data-ttu-id="30b31-119">コメント</span><span class="sxs-lookup"><span data-stu-id="30b31-119">Comments</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="325b8-120">単一連結エッジ (外部エッジ)</span><span class="sxs-lookup"><span data-stu-id="325b8-120">Single consolidated Edge (External Edge)</span></span></p></td>
-<td><p><span data-ttu-id="325b8-121">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="325b8-121">sip.contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="325b8-122">webcon.contoso.com</span><span class="sxs-lookup"><span data-stu-id="325b8-122">webcon.contoso.com</span></span></p>
-<p><span data-ttu-id="325b8-123">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="325b8-123">sip.contoso.com</span></span></p>
-<p><span data-ttu-id="325b8-124">sip.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="325b8-124">sip.fabrikam.com</span></span></p></td>
-<td><p><span data-ttu-id="325b8-125">証明書はパブリック CA からのものである必要があり、AOL とのパブリック IM 接続が展開される場合は、サーバーの EKU とクライアントの EKU を持っている必要があります。</span><span class="sxs-lookup"><span data-stu-id="325b8-125">Certificate must be from a Public CA, and must have the server EKU and client EKU if public IM connectivity with AOL is to be deployed.</span></span> <span data-ttu-id="325b8-126">証明書は、次のための外部エッジインターフェイスに割り当てられます。</span><span class="sxs-lookup"><span data-stu-id="325b8-126">The certificate is assigned to the external Edge interfaces for:</span></span></p>
+<td><p><span data-ttu-id="30b31-120">単一の統合エッジ (外部エッジ)</span><span class="sxs-lookup"><span data-stu-id="30b31-120">Single consolidated Edge (External Edge)</span></span></p></td>
+<td><p><span data-ttu-id="30b31-121">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="30b31-121">sip.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="30b31-122">webcon.contoso.com</span><span class="sxs-lookup"><span data-stu-id="30b31-122">webcon.contoso.com</span></span></p>
+<p><span data-ttu-id="30b31-123">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="30b31-123">sip.contoso.com</span></span></p>
+<p><span data-ttu-id="30b31-124">sip.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="30b31-124">sip.fabrikam.com</span></span></p></td>
+<td><p><span data-ttu-id="30b31-p104">証明書は公的 CA のものである必要があります。また、AOL とのパブリック IM 接続を展開する場合は、サーバー EKU およびクライアント EKU が必要です。証明書は、次のエッジの外部エッジ インターフェイスに割り当てられます。</span><span class="sxs-lookup"><span data-stu-id="30b31-p104">Certificate must be from a Public CA, and must have the server EKU and client EKU if public IM connectivity with AOL is to be deployed. The certificate is assigned to the external Edge interfaces for:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="325b8-127">アクセス エッジ</span><span class="sxs-lookup"><span data-stu-id="325b8-127">Access Edge</span></span></p></li>
-<li><p><span data-ttu-id="325b8-128">会議エッジ</span><span class="sxs-lookup"><span data-stu-id="325b8-128">Conferencing Edge</span></span></p></li>
-<li><p><span data-ttu-id="325b8-129">音声ビデオ エッジ</span><span class="sxs-lookup"><span data-stu-id="325b8-129">A/V Edge</span></span></p></li>
+<li><p><span data-ttu-id="30b31-127">アクセス エッジ</span><span class="sxs-lookup"><span data-stu-id="30b31-127">Access Edge</span></span></p></li>
+<li><p><span data-ttu-id="30b31-128">会議エッジ</span><span class="sxs-lookup"><span data-stu-id="30b31-128">Conferencing Edge</span></span></p></li>
+<li><p><span data-ttu-id="30b31-129">音声ビデオ エッジ</span><span class="sxs-lookup"><span data-stu-id="30b31-129">A/V Edge</span></span></p></li>
 </ul>
-<p><span data-ttu-id="325b8-130">San は、トポロジビルダーの定義に基づいて、自動的に証明書に追加されることに注意してください。</span><span class="sxs-lookup"><span data-stu-id="325b8-130">Note that SANs are automatically added to the certificate based on your definitions in Topology Builder.</span></span> <span data-ttu-id="325b8-131">必要に応じて、必要に応じて SAN エントリを追加します。これには、サポートが必要な追加の SIP ドメインや他のエントリも含まれます。</span><span class="sxs-lookup"><span data-stu-id="325b8-131">You add SAN entries as needed for additional SIP domains and other entries that you need to support.</span></span> <span data-ttu-id="325b8-132">サブジェクト名は SAN でレプリケートされ、正しい操作のために存在している必要があります。</span><span class="sxs-lookup"><span data-stu-id="325b8-132">The subject name is replicated in the SAN and must be present for correct operation.</span></span></p></td>
+<p><span data-ttu-id="30b31-p105">SAN は、トポロジ ビルダーの定義に基づいて自動的に証明書に追加されます。追加の SIP ドメインで必要な SAN エントリや、サポートする必要がある他のエントリを追加します。SAN にはサブジェクト名がレプリケートされるため、正常に動作するためにはサブジェクト名が存在している必要があります。</span><span class="sxs-lookup"><span data-stu-id="30b31-p105">Note that SANs are automatically added to the certificate based on your definitions in Topology Builder. You add SAN entries as needed for additional SIP domains and other entries that you need to support. The subject name is replicated in the SAN and must be present for correct operation.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="325b8-133">単一連結エッジ (内部エッジ)</span><span class="sxs-lookup"><span data-stu-id="325b8-133">Single consolidated Edge (Internal Edge)</span></span></p></td>
-<td><p><span data-ttu-id="325b8-134">lsedge.contoso.net</span><span class="sxs-lookup"><span data-stu-id="325b8-134">lsedge.contoso.net</span></span></p></td>
-<td><p><span data-ttu-id="325b8-135">SAN は必要ありません</span><span class="sxs-lookup"><span data-stu-id="325b8-135">No SAN required</span></span></p></td>
-<td><p><span data-ttu-id="325b8-136">証明書は、パブリックまたはプライベート CA によって発行され、サーバーの EKU を含む必要があります。</span><span class="sxs-lookup"><span data-stu-id="325b8-136">Certificate can be issued by a public or private CA, and must contain the server EKU.</span></span> <span data-ttu-id="325b8-137">証明書は、内部エッジインターフェイスに割り当てられます。</span><span class="sxs-lookup"><span data-stu-id="325b8-137">The certificate is assigned to the internal Edge interface.</span></span></p></td>
+<td><p><span data-ttu-id="30b31-133">単一の統合エッジ (内部エッジ)</span><span class="sxs-lookup"><span data-stu-id="30b31-133">Single consolidated Edge (Internal Edge)</span></span></p></td>
+<td><p><span data-ttu-id="30b31-134">lsedge.contoso.net</span><span class="sxs-lookup"><span data-stu-id="30b31-134">lsedge.contoso.net</span></span></p></td>
+<td><p><span data-ttu-id="30b31-135">SAN 必要なし</span><span class="sxs-lookup"><span data-stu-id="30b31-135">No SAN required</span></span></p></td>
+<td><p><span data-ttu-id="30b31-p106">証明書は、公的 CA またはプライベート CA が発行でき、サーバー EKU が含まれている必要があります。証明書は、内部エッジ インターフェイスに割り当てられます。</span><span class="sxs-lookup"><span data-stu-id="30b31-p106">Certificate can be issued by a public or private CA, and must contain the server EKU. The certificate is assigned to the internal Edge interface.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -100,7 +100,7 @@ ms.locfileid: "41722617"
 
 <div>
 
-## <a name="certificate-summary--public-instant-messaging-connectivity"></a><span data-ttu-id="325b8-138">証明書の概要–パブリックインスタントメッセージング接続</span><span class="sxs-lookup"><span data-stu-id="325b8-138">Certificate Summary – Public Instant Messaging Connectivity</span></span>
+## <a name="certificate-summary--public-instant-messaging-connectivity"></a><span data-ttu-id="30b31-138">証明書の概要 - パブリック インスタント メッセージング接続</span><span class="sxs-lookup"><span data-stu-id="30b31-138">Certificate Summary – Public Instant Messaging Connectivity</span></span>
 
 
 <table>
@@ -112,26 +112,26 @@ ms.locfileid: "41722617"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="325b8-139">コンポーネント</span><span class="sxs-lookup"><span data-stu-id="325b8-139">Component</span></span></th>
-<th><span data-ttu-id="325b8-140">サブジェクト名</span><span class="sxs-lookup"><span data-stu-id="325b8-140">Subject name</span></span></th>
-<th><span data-ttu-id="325b8-141">サブジェクト代替名 (SAN)/Order</span><span class="sxs-lookup"><span data-stu-id="325b8-141">Subject alternative names (SAN)/Order</span></span></th>
-<th><span data-ttu-id="325b8-142">コメント</span><span class="sxs-lookup"><span data-stu-id="325b8-142">Comments</span></span></th>
+<th><span data-ttu-id="30b31-139">コンポーネント</span><span class="sxs-lookup"><span data-stu-id="30b31-139">Component</span></span></th>
+<th><span data-ttu-id="30b31-140">サブジェクト名</span><span class="sxs-lookup"><span data-stu-id="30b31-140">Subject name</span></span></th>
+<th><span data-ttu-id="30b31-141">サブジェクトの別名 (SAN)/順序</span><span class="sxs-lookup"><span data-stu-id="30b31-141">Subject alternative names (SAN)/Order</span></span></th>
+<th><span data-ttu-id="30b31-142">コメント</span><span class="sxs-lookup"><span data-stu-id="30b31-142">Comments</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="325b8-143">外部/アクセスエッジ</span><span class="sxs-lookup"><span data-stu-id="325b8-143">External/Access Edge</span></span></p></td>
-<td><p><span data-ttu-id="325b8-144">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="325b8-144">sip.contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="325b8-145">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="325b8-145">sip.contoso.com</span></span></p>
-<p><span data-ttu-id="325b8-146">webcon.contoso.com</span><span class="sxs-lookup"><span data-stu-id="325b8-146">webcon.contoso.com</span></span></p>
-<p><span data-ttu-id="325b8-147">sip.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="325b8-147">sip.fabrikam.com</span></span></p></td>
-<td><p><span data-ttu-id="325b8-148">証明書はパブリック CA からのものである必要があり、AOL とのパブリック IM 接続が展開される場合は、サーバーの EKU とクライアントの EKU を持っている必要があります。</span><span class="sxs-lookup"><span data-stu-id="325b8-148">Certificate must be from a Public CA, and must have the server EKU and client EKU if public IM connectivity with AOL is to be deployed.</span></span> <span data-ttu-id="325b8-149">証明書は、次のための外部エッジインターフェイスに割り当てられます。</span><span class="sxs-lookup"><span data-stu-id="325b8-149">The certificate is assigned to the external Edge interfaces for:</span></span></p>
+<td><p><span data-ttu-id="30b31-143">外部/アクセス エッジ</span><span class="sxs-lookup"><span data-stu-id="30b31-143">External/Access Edge</span></span></p></td>
+<td><p><span data-ttu-id="30b31-144">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="30b31-144">sip.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="30b31-145">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="30b31-145">sip.contoso.com</span></span></p>
+<p><span data-ttu-id="30b31-146">webcon.contoso.com</span><span class="sxs-lookup"><span data-stu-id="30b31-146">webcon.contoso.com</span></span></p>
+<p><span data-ttu-id="30b31-147">sip.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="30b31-147">sip.fabrikam.com</span></span></p></td>
+<td><p><span data-ttu-id="30b31-p107">証明書は公的 CA のものである必要があります。また、AOL とのパブリック IM 接続を展開する場合は、サーバー EKU およびクライアント EKU が必要です。証明書は、次のエッジの外部エッジ インターフェイスに割り当てられます。</span><span class="sxs-lookup"><span data-stu-id="30b31-p107">Certificate must be from a Public CA, and must have the server EKU and client EKU if public IM connectivity with AOL is to be deployed. The certificate is assigned to the external Edge interfaces for:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="325b8-150">アクセス エッジ</span><span class="sxs-lookup"><span data-stu-id="325b8-150">Access Edge</span></span></p></li>
-<li><p><span data-ttu-id="325b8-151">会議エッジ</span><span class="sxs-lookup"><span data-stu-id="325b8-151">Conferencing Edge</span></span></p></li>
-<li><p><span data-ttu-id="325b8-152">音声ビデオ エッジ</span><span class="sxs-lookup"><span data-stu-id="325b8-152">A/V Edge</span></span></p></li>
+<li><p><span data-ttu-id="30b31-150">アクセス エッジ</span><span class="sxs-lookup"><span data-stu-id="30b31-150">Access Edge</span></span></p></li>
+<li><p><span data-ttu-id="30b31-151">会議エッジ</span><span class="sxs-lookup"><span data-stu-id="30b31-151">Conferencing Edge</span></span></p></li>
+<li><p><span data-ttu-id="30b31-152">音声ビデオ エッジ</span><span class="sxs-lookup"><span data-stu-id="30b31-152">A/V Edge</span></span></p></li>
 </ul>
-<p><span data-ttu-id="325b8-153">San は、トポロジビルダーの定義に基づいて、自動的に証明書に追加されることに注意してください。</span><span class="sxs-lookup"><span data-stu-id="325b8-153">Note that SANs are automatically added to the certificate based on your definitions in Topology Builder.</span></span> <span data-ttu-id="325b8-154">必要に応じて、必要に応じて SAN エントリを追加します。これには、サポートが必要な追加の SIP ドメインや他のエントリも含まれます。</span><span class="sxs-lookup"><span data-stu-id="325b8-154">You add SAN entries as needed for additional SIP domains and other entries that you need to support.</span></span> <span data-ttu-id="325b8-155">サブジェクト名は SAN でレプリケートされ、正しい操作のために存在している必要があります。</span><span class="sxs-lookup"><span data-stu-id="325b8-155">The subject name is replicated in the SAN and must be present for correct operation.</span></span></p></td>
+<p><span data-ttu-id="30b31-p108">SAN は、トポロジ ビルダーの定義に基づいて自動的に証明書に追加されます。追加の SIP ドメインで必要な SAN エントリや、サポートする必要がある他のエントリを追加します。SAN にはサブジェクト名がレプリケートされるため、正常に動作するためにはサブジェクト名が存在している必要があります。</span><span class="sxs-lookup"><span data-stu-id="30b31-p108">Note that SANs are automatically added to the certificate based on your definitions in Topology Builder. You add SAN entries as needed for additional SIP domains and other entries that you need to support. The subject name is replicated in the SAN and must be present for correct operation.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -141,7 +141,7 @@ ms.locfileid: "41722617"
 
 <div>
 
-## <a name="certificate-summary-for-extensible-messaging-and-presence-protocol"></a><span data-ttu-id="325b8-156">拡張メッセージングとプレゼンスプロトコルの証明書の概要</span><span class="sxs-lookup"><span data-stu-id="325b8-156">Certificate Summary for Extensible Messaging and Presence Protocol</span></span>
+## <a name="certificate-summary-for-extensible-messaging-and-presence-protocol"></a><span data-ttu-id="30b31-156">XMPP (eXtensible Messaging and Presence Protocol) の証明書の概要</span><span class="sxs-lookup"><span data-stu-id="30b31-156">Certificate Summary for Extensible Messaging and Presence Protocol</span></span>
 
 
 <table>
@@ -153,22 +153,22 @@ ms.locfileid: "41722617"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="325b8-157">コンポーネント</span><span class="sxs-lookup"><span data-stu-id="325b8-157">Component</span></span></th>
-<th><span data-ttu-id="325b8-158">サブジェクト名</span><span class="sxs-lookup"><span data-stu-id="325b8-158">Subject name</span></span></th>
-<th><span data-ttu-id="325b8-159">サブジェクト代替名 (SAN)/Order</span><span class="sxs-lookup"><span data-stu-id="325b8-159">Subject alternative names (SAN)/Order</span></span></th>
-<th><span data-ttu-id="325b8-160">コメント</span><span class="sxs-lookup"><span data-stu-id="325b8-160">Comments</span></span></th>
+<th><span data-ttu-id="30b31-157">コンポーネント</span><span class="sxs-lookup"><span data-stu-id="30b31-157">Component</span></span></th>
+<th><span data-ttu-id="30b31-158">サブジェクト名</span><span class="sxs-lookup"><span data-stu-id="30b31-158">Subject name</span></span></th>
+<th><span data-ttu-id="30b31-159">サブジェクトの別名 (SAN)/順序</span><span class="sxs-lookup"><span data-stu-id="30b31-159">Subject alternative names (SAN)/Order</span></span></th>
+<th><span data-ttu-id="30b31-160">コメント</span><span class="sxs-lookup"><span data-stu-id="30b31-160">Comments</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="325b8-161">エッジサーバーまたはエッジプールのアクセスエッジサービスに割り当てる</span><span class="sxs-lookup"><span data-stu-id="325b8-161">Assign to Access Edge service of Edge Server or Edge pool</span></span></p></td>
-<td><p><span data-ttu-id="325b8-162">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="325b8-162">sip.contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="325b8-163">webcon.contoso.com</span><span class="sxs-lookup"><span data-stu-id="325b8-163">webcon.contoso.com</span></span></p>
-<p><span data-ttu-id="325b8-164">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="325b8-164">sip.contoso.com</span></span></p>
-<p><span data-ttu-id="325b8-165">sip.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="325b8-165">sip.fabrikam.com</span></span></p>
-<p><span data-ttu-id="325b8-166">xmpp.contoso.com</span><span class="sxs-lookup"><span data-stu-id="325b8-166">xmpp.contoso.com</span></span></p>
-<p><span data-ttu-id="325b8-167"><strong>\*.contoso.com</strong></span><span class="sxs-lookup"><span data-stu-id="325b8-167"><strong>\*.contoso.com</strong></span></span></p></td>
-<td><p><span data-ttu-id="325b8-168">最初の3つの SAN エントリは、フルエッジサーバーの通常の SAN エントリです。</span><span class="sxs-lookup"><span data-stu-id="325b8-168">The first three SAN entries are the normal SAN entries for a full Edge Server.</span></span> <span data-ttu-id="325b8-169">Contoso.com は、ルートドメインレベルで XMPP パートナーとのフェデレーションを行うために必要なエントリです。</span><span class="sxs-lookup"><span data-stu-id="325b8-169">The contoso.com is the entry required for federation with the XMPP partner at the root domain level.</span></span> <span data-ttu-id="325b8-170">このエントリを使用すると、contoso.com サフィックスの付いたすべてのドメインで XMPP が許可されます。</span><span class="sxs-lookup"><span data-stu-id="325b8-170">This entry will allow XMPP for all domains with the suffix \*.contoso.com.</span></span></p></td>
+<td><p><span data-ttu-id="30b31-161">エッジサーバーまたはエッジプールのアクセスエッジサービスへの割り当て</span><span class="sxs-lookup"><span data-stu-id="30b31-161">Assign to Access Edge service of Edge Server or Edge pool</span></span></p></td>
+<td><p><span data-ttu-id="30b31-162">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="30b31-162">sip.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="30b31-163">webcon.contoso.com</span><span class="sxs-lookup"><span data-stu-id="30b31-163">webcon.contoso.com</span></span></p>
+<p><span data-ttu-id="30b31-164">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="30b31-164">sip.contoso.com</span></span></p>
+<p><span data-ttu-id="30b31-165">sip.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="30b31-165">sip.fabrikam.com</span></span></p>
+<p><span data-ttu-id="30b31-166">xmpp.contoso.com</span><span class="sxs-lookup"><span data-stu-id="30b31-166">xmpp.contoso.com</span></span></p>
+<p><span data-ttu-id="30b31-167"><strong>\*. contoso.com</strong></span><span class="sxs-lookup"><span data-stu-id="30b31-167"><strong>\*.contoso.com</strong></span></span></p></td>
+<td><p><span data-ttu-id="30b31-168">最初の3つの SAN エントリは、完全なエッジサーバーの通常の SAN エントリです。</span><span class="sxs-lookup"><span data-stu-id="30b31-168">The first three SAN entries are the normal SAN entries for a full Edge Server.</span></span> <span data-ttu-id="30b31-169">contoso.com は、ルート ドメイン レベルでの XMPP パートナーとのフェデレーションに必要なエントリです。</span><span class="sxs-lookup"><span data-stu-id="30b31-169">The contoso.com is the entry required for federation with the XMPP partner at the root domain level.</span></span> <span data-ttu-id="30b31-170">このエントリは、suffix \*.contoso.com ですべてのドメインに対する XMPP を許可します。</span><span class="sxs-lookup"><span data-stu-id="30b31-170">This entry will allow XMPP for all domains with the suffix \*.contoso.com.</span></span></p></td>
 </tr>
 </tbody>
 </table>

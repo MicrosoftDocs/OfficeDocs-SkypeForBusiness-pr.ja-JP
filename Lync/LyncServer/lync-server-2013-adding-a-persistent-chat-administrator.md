@@ -12,20 +12,20 @@ ms:contentKeyID: 48185300
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a23ced0c93aae8f55868f44f179c659aead26f1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 90fa941f575a49b3cb5de23f6aa38944d885eb85
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738197"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008813"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="adding-a-persistent-chat-administrator-in-lync-server-2013"></a><span data-ttu-id="f6f98-102">Lync Server 2013 での常設チャット管理者の追加</span><span class="sxs-lookup"><span data-stu-id="f6f98-102">Adding a Persistent Chat administrator in Lync Server 2013</span></span>
+# <a name="adding-a-persistent-chat-administrator-in-lync-server-2013"></a><span data-ttu-id="aafcd-102">Lync Server 2013 での常設チャット管理者の追加</span><span class="sxs-lookup"><span data-stu-id="aafcd-102">Adding a Persistent Chat administrator in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41738197"
 
 <span> </span>
 
-<span data-ttu-id="f6f98-103">_**最終更新日:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="f6f98-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+<span data-ttu-id="aafcd-103">_**トピックの最終更新日:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="aafcd-103">_**Topic Last Modified:** 2012-10-06_</span></span>
 
-<span data-ttu-id="f6f98-104">Lync Server 2013 では、特定のタスクを実行するユーザーは、1つ以上の特定のグループのメンバーとして割り当てる必要があります。</span><span class="sxs-lookup"><span data-stu-id="f6f98-104">In Lync Server 2013, users who perform specific tasks must be assigned as members of one or more specific groups.</span></span> <span data-ttu-id="f6f98-105">ロールベースのアクセス制御 (RBAC) を使用して、定義済みの Lync Server 2013 管理者ロールにユーザーを割り当てることによって、権限を付与することもできます。</span><span class="sxs-lookup"><span data-stu-id="f6f98-105">Role-based access control (RBAC) can also be used to grant privileges by assigning users to predefined Lync Server 2013 administrative roles.</span></span>
+<span data-ttu-id="aafcd-104">Lync Server 2013 では、特定のタスクを実行するユーザーは、1つ以上の特定のグループのメンバーとして割り当てられている必要があります。</span><span class="sxs-lookup"><span data-stu-id="aafcd-104">In Lync Server 2013, users who perform specific tasks must be assigned as members of one or more specific groups.</span></span> <span data-ttu-id="aafcd-105">また、役割ベースのアクセス制御 (RBAC) を使用して、定義済みの Lync Server 2013 管理役割にユーザーを割り当てることにより、特権を付与することもできます。</span><span class="sxs-lookup"><span data-stu-id="aafcd-105">Role-based access control (RBAC) can also be used to grant privileges by assigning users to predefined Lync Server 2013 administrative roles.</span></span>
 
-<span data-ttu-id="f6f98-106">常設チャットサーバーの構成と管理を行う前に、適切なユーザー権限と権限が設定されていることを確認してください。また、常設チャット管理者として分類されるすべてのユーザーが CsPersistentChatAdministrator セキュリティに追加されていることを確認してください。化.</span><span class="sxs-lookup"><span data-stu-id="f6f98-106">Before configuring and administering Persistent Chat Server, be sure that the appropriate user rights and permissions are in place, and that any users to be classified as Persistent Chat administrators are added to the CsPersistentChatAdministrator security group.</span></span>
+<span data-ttu-id="aafcd-106">常設チャットサーバーを構成および管理する前に、適切なユーザー権限とアクセス許可が設定されていること、および常設チャット管理者として分類するユーザーが CsPersistentChatAdministrator セキュリティに追加されていることを確認してください。group.</span><span class="sxs-lookup"><span data-stu-id="aafcd-106">Before configuring and administering Persistent Chat Server, be sure that the appropriate user rights and permissions are in place, and that any users to be classified as Persistent Chat administrators are added to the CsPersistentChatAdministrator security group.</span></span>
 
 </div>
 

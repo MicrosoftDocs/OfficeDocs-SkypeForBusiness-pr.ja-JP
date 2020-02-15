@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: カテゴリ別の Lync Server コマンドレット'
+title: 'Lync Server 2013: Lync Server のコマンドレット (カテゴリ別)'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184106
 ms.date: 09/20/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8d5d0dfc2540f5c623bff18f9739968983288e9e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6d5db33e3d41bca0a3d14361b6d7bda254d43d19
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723327"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030211"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-cmdlets-by-category"></a><span data-ttu-id="78cb1-102">カテゴリ別の Lync Server 2013 コマンドレット</span><span class="sxs-lookup"><span data-stu-id="78cb1-102">Lync Server 2013 cmdlets by category</span></span>
+# <a name="lync-server-2013-cmdlets-by-category"></a><span data-ttu-id="525ba-102">Lync Server 2013 のコマンドレット (カテゴリ別)</span><span class="sxs-lookup"><span data-stu-id="525ba-102">Lync Server 2013 cmdlets by category</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41723327"
 
 <span> </span>
 
-<span data-ttu-id="78cb1-103">_**最終更新日:** 2017-09-20_</span><span class="sxs-lookup"><span data-stu-id="78cb1-103">_**Topic Last Modified:** 2017-09-20_</span></span>
+<span data-ttu-id="525ba-103">_**トピックの最終更新日:** 2017-09-20_</span><span class="sxs-lookup"><span data-stu-id="525ba-103">_**Topic Last Modified:** 2017-09-20_</span></span>
 
-<span data-ttu-id="78cb1-104">Microsoft Lync Server 2013 には、ほとんどの550コマンドレットが付属しており、管理者が Lync Server をコマンドラインから管理できるように設計されています。</span><span class="sxs-lookup"><span data-stu-id="78cb1-104">Microsoft Lync Server 2013 ships with almost 550 cmdlets specifically designed to allow administrators to manage Lync Server from the command line.</span></span> <span data-ttu-id="78cb1-105">Lync Server 管理シェルからコマンドレットにアクセスします。</span><span class="sxs-lookup"><span data-stu-id="78cb1-105">You access the cmdlets from the Lync Server Management Shell.</span></span> <span data-ttu-id="78cb1-106">コマンドラインからコマンドレットのヘルプを直接取得するには、次のようなコマンドを入力します。</span><span class="sxs-lookup"><span data-stu-id="78cb1-106">You can retrieve help on a cmdlet directly from the command line by typing a command similar to the following:</span></span>
+<span data-ttu-id="525ba-104">Microsoft Lync Server 2013 には、管理者が Lync Server をコマンドラインから管理できるように特別に設計された、ほぼ550のコマンドレットが付属しています。</span><span class="sxs-lookup"><span data-stu-id="525ba-104">Microsoft Lync Server 2013 ships with almost 550 cmdlets specifically designed to allow administrators to manage Lync Server from the command line.</span></span> <span data-ttu-id="525ba-105">コマンドレットには、Lync Server 管理シェルからアクセスします。</span><span class="sxs-lookup"><span data-stu-id="525ba-105">You access the cmdlets from the Lync Server Management Shell.</span></span> <span data-ttu-id="525ba-106">コマンドラインから次のようなコマンドを入力すると、コマンドレットのヘルプを直接取得できます。</span><span class="sxs-lookup"><span data-stu-id="525ba-106">You can retrieve help on a cmdlet directly from the command line by typing a command similar to the following:</span></span>
 
     Get-Help New-CsVoicePolicy -Full
 
-<span data-ttu-id="78cb1-107">上のコマンドを実行すると、 **CsVoicePolicy**コマンドレットで利用できるすべてのヘルプが取得されます。</span><span class="sxs-lookup"><span data-stu-id="78cb1-107">The preceding command will retrieve all the help available for the **New-CsVoicePolicy** cmdlet.</span></span> <span data-ttu-id="78cb1-108">ヘルプを取得するコマンドレットの名前を使用して、参照を**新しい CsVoicePolicy**に置き換えます。</span><span class="sxs-lookup"><span data-stu-id="78cb1-108">Substitute the reference to **New-CsVoicePolicy** with the name of the cmdlet for which you want to retrieve help.</span></span>
+<span data-ttu-id="525ba-107">上記のコマンドは、 **set-csvoicepolicy**コマンドレットで利用可能なすべてのヘルプを取得します。</span><span class="sxs-lookup"><span data-stu-id="525ba-107">The preceding command will retrieve all the help available for the **New-CsVoicePolicy** cmdlet.</span></span> <span data-ttu-id="525ba-108">ヘルプを取得するコマンドレットの名前を使用して、Set-csvoicepolicy への参照を**追加**します。</span><span class="sxs-lookup"><span data-stu-id="525ba-108">Substitute the reference to **New-CsVoicePolicy** with the name of the cmdlet for which you want to retrieve help.</span></span>
 
-<span data-ttu-id="78cb1-109">Microsoft Lync Server 2013 を管理するために使用できるコマンドレットの完全な一覧を取得するには、Lync Server 管理シェルのコマンドプロンプトで次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="78cb1-109">To retrieve a full list of cmdlets available for managing Microsoft Lync Server 2013, type the following at the Lync Server Management Shell command prompt:</span></span>
+<span data-ttu-id="525ba-109">Microsoft Lync Server 2013 の管理に使用できるコマンドレットの完全な一覧を取得するには、Lync Server 管理シェルコマンドプロンプトで次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="525ba-109">To retrieve a full list of cmdlets available for managing Microsoft Lync Server 2013, type the following at the Lync Server Management Shell command prompt:</span></span>
 
     Get-Command * -Module Lync -CommandType cmdlet
 
-<span data-ttu-id="78cb1-110">必要なコマンドレットがわからない場合は、コマンドレットとヘルプトピックのカテゴリ別の一覧も提供しています。</span><span class="sxs-lookup"><span data-stu-id="78cb1-110">If you are unsure which cmdlets you need, we have also provided a categorized list of cmdlets and their help topics.</span></span> <span data-ttu-id="78cb1-111">いくつかのコマンドレットが複数のカテゴリに表示されることがわかります。これは、製品の複数の領域に適用されるためです。</span><span class="sxs-lookup"><span data-stu-id="78cb1-111">You will find that some of the cmdlets show up in more than one category, which was intentional as they apply to multiple areas of the product.</span></span> <span data-ttu-id="78cb1-112">カテゴリの一覧を次に示します。</span><span class="sxs-lookup"><span data-stu-id="78cb1-112">The following is a list of categories:</span></span>
+<span data-ttu-id="525ba-110">必要なコマンドレットがわからない場合は、コマンドレットとヘルプトピックのカテゴリ別の一覧も提供しています。</span><span class="sxs-lookup"><span data-stu-id="525ba-110">If you are unsure which cmdlets you need, we have also provided a categorized list of cmdlets and their help topics.</span></span> <span data-ttu-id="525ba-111">一部のコマンドレットは複数のカテゴリに表示されることがわかります。これは、製品の複数の領域に適用されるので、意図的に使用されていました。</span><span class="sxs-lookup"><span data-stu-id="525ba-111">You will find that some of the cmdlets show up in more than one category, which was intentional as they apply to multiple areas of the product.</span></span> <span data-ttu-id="525ba-112">カテゴリの一覧を次に示します。</span><span class="sxs-lookup"><span data-stu-id="525ba-112">The following is a list of categories:</span></span>
 
 <div>
 
 
 > [!NOTE]
-> <span data-ttu-id="78cb1-113">Skype for Business コマンドレットリファレンスは docs.microsoft.com に移動されました。</span><span class="sxs-lookup"><span data-stu-id="78cb1-113">Skype for Business cmdlet reference has moved to docs.microsoft.com.</span></span> <span data-ttu-id="78cb1-114">以下のリンクをクリックすると、新しい docs.microsoft.com ページに移動します。</span><span class="sxs-lookup"><span data-stu-id="78cb1-114">Clicking on the links below will take you to the new docs.microsoft.com page.</span></span> <span data-ttu-id="78cb1-115">これでコンテンツが公開され、GitHub を通じてコミュニティの投稿に使用できるようになりました。</span><span class="sxs-lookup"><span data-stu-id="78cb1-115">The content is now open sourced and available for community contributions through GitHub.</span></span> <span data-ttu-id="78cb1-116">投稿に興味をお持ちですか?</span><span class="sxs-lookup"><span data-stu-id="78cb1-116">Interested in contributing?</span></span> <span data-ttu-id="78cb1-117">ここでは、リポジトリ内の README を確認します。<A href="https://github.com/microsoftdocs/office-docs-powershell">https://github.com/MicrosoftDocs/office-docs-powershell</A></span><span class="sxs-lookup"><span data-stu-id="78cb1-117">Check out the README in the repo here: <A href="https://github.com/microsoftdocs/office-docs-powershell">https://github.com/MicrosoftDocs/office-docs-powershell</A></span></span>
+> <span data-ttu-id="525ba-113">Skype for Business のコマンドレットリファレンスが docs.microsoft.com に移動されました。</span><span class="sxs-lookup"><span data-stu-id="525ba-113">Skype for Business cmdlet reference has moved to docs.microsoft.com.</span></span> <span data-ttu-id="525ba-114">以下のリンクをクリックすると、新しい docs.microsoft.com ページに移動します。</span><span class="sxs-lookup"><span data-stu-id="525ba-114">Clicking on the links below will take you to the new docs.microsoft.com page.</span></span> <span data-ttu-id="525ba-115">これで、GitHub を通じてコミュニティの投稿に使用できるようになるコンテンツが公開されました。</span><span class="sxs-lookup"><span data-stu-id="525ba-115">The content is now open sourced and available for community contributions through GitHub.</span></span> <span data-ttu-id="525ba-116">投稿に興味はありますか?</span><span class="sxs-lookup"><span data-stu-id="525ba-116">Interested in contributing?</span></span> <span data-ttu-id="525ba-117">ここでは、リポジトリ内の README を確認してください。<A href="https://github.com/microsoftdocs/office-docs-powershell">https://github.com/MicrosoftDocs/office-docs-powershell</A></span><span class="sxs-lookup"><span data-stu-id="525ba-117">Check out the README in the repo here: <A href="https://github.com/microsoftdocs/office-docs-powershell">https://github.com/MicrosoftDocs/office-docs-powershell</A></span></span>
 
 
 
@@ -61,7 +61,7 @@ ms.locfileid: "41723327"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="78cb1-118">このセクション中</span><span class="sxs-lookup"><span data-stu-id="78cb1-118">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="525ba-118">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="525ba-118">In This Section</span></span>
 
 
 <table>
@@ -71,43 +71,43 @@ ms.locfileid: "41723327"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="78cb1-119"><a href="lync-server-2013-user-management-cmdlets.md">Lync Server 2013 のユーザー管理コマンドレット</a></span><span class="sxs-lookup"><span data-stu-id="78cb1-119"><a href="lync-server-2013-user-management-cmdlets.md">User management cmdlets in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="78cb1-120"><a href="lync-server-2013-voice-application-cmdlets.md">Lync Server 2013 の音声アプリケーションコマンドレット</a></span><span class="sxs-lookup"><span data-stu-id="78cb1-120"><a href="lync-server-2013-voice-application-cmdlets.md">Voice application cmdlets in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="525ba-119"><a href="lync-server-2013-user-management-cmdlets.md">Lync Server 2013 でのユーザー管理のコマンドレット</a></span><span class="sxs-lookup"><span data-stu-id="525ba-119"><a href="lync-server-2013-user-management-cmdlets.md">User management cmdlets in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="525ba-120"><a href="lync-server-2013-voice-application-cmdlets.md">Lync Server 2013 の音声アプリケーションのコマンドレット</a></span><span class="sxs-lookup"><span data-stu-id="525ba-120"><a href="lync-server-2013-voice-application-cmdlets.md">Voice application cmdlets in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="78cb1-121"><a href="lync-server-2013-client-management-cmdlets.md">Lync Server 2013 のクライアント管理コマンドレット</a></span><span class="sxs-lookup"><span data-stu-id="78cb1-121"><a href="lync-server-2013-client-management-cmdlets.md">Client management cmdlets in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="78cb1-122"><a href="lync-server-2013-advanced-enterprise-voice-cmdlets.md">Lync Server 2013 の高度なエンタープライズボイスコマンドレット</a></span><span class="sxs-lookup"><span data-stu-id="78cb1-122"><a href="lync-server-2013-advanced-enterprise-voice-cmdlets.md">Advanced Enterprise Voice cmdlets in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="525ba-121"><a href="lync-server-2013-client-management-cmdlets.md">Lync Server 2013 のクライアント管理のコマンドレット</a></span><span class="sxs-lookup"><span data-stu-id="525ba-121"><a href="lync-server-2013-client-management-cmdlets.md">Client management cmdlets in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="525ba-122"><a href="lync-server-2013-advanced-enterprise-voice-cmdlets.md">Lync Server 2013 の高度なエンタープライズ Voip のコマンドレット</a></span><span class="sxs-lookup"><span data-stu-id="525ba-122"><a href="lync-server-2013-advanced-enterprise-voice-cmdlets.md">Advanced Enterprise Voice cmdlets in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="78cb1-123"><a href="lync-server-2013-im-and-presence-cmdlets.md">Lync Server 2013 の IM とプレゼンスのコマンドレット</a></span><span class="sxs-lookup"><span data-stu-id="78cb1-123"><a href="lync-server-2013-im-and-presence-cmdlets.md">IM and presence cmdlets in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="78cb1-124"><a href="lync-server-2013-pstn-connectivity-cmdlets.md">Lync Server 2013 の PSTN 接続コマンドレット</a></span><span class="sxs-lookup"><span data-stu-id="78cb1-124"><a href="lync-server-2013-pstn-connectivity-cmdlets.md">PSTN connectivity cmdlets in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="525ba-123"><a href="lync-server-2013-im-and-presence-cmdlets.md">Lync Server 2013 の IM およびプレゼンスのコマンドレット</a></span><span class="sxs-lookup"><span data-stu-id="525ba-123"><a href="lync-server-2013-im-and-presence-cmdlets.md">IM and presence cmdlets in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="525ba-124"><a href="lync-server-2013-pstn-connectivity-cmdlets.md">Lync Server 2013 の PSTN 接続のコマンドレット</a></span><span class="sxs-lookup"><span data-stu-id="525ba-124"><a href="lync-server-2013-pstn-connectivity-cmdlets.md">PSTN connectivity cmdlets in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="78cb1-125"><a href="lync-server-2013-conferencing-cmdlets.md">Lync Server 2013 での会議コマンドレット</a></span><span class="sxs-lookup"><span data-stu-id="78cb1-125"><a href="lync-server-2013-conferencing-cmdlets.md">Conferencing cmdlets in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="78cb1-126"><a href="lync-server-2013-phones-and-devices-cmdlets.md">Lync Server 2013 の電話とデバイスのコマンドレット</a></span><span class="sxs-lookup"><span data-stu-id="78cb1-126"><a href="lync-server-2013-phones-and-devices-cmdlets.md">Phones and devices cmdlets in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="525ba-125"><a href="lync-server-2013-conferencing-cmdlets.md">Lync Server 2013 での会議のコマンドレット</a></span><span class="sxs-lookup"><span data-stu-id="525ba-125"><a href="lync-server-2013-conferencing-cmdlets.md">Conferencing cmdlets in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="525ba-126"><a href="lync-server-2013-phones-and-devices-cmdlets.md">Lync Server 2013 の電話およびデバイスのコマンドレット</a></span><span class="sxs-lookup"><span data-stu-id="525ba-126"><a href="lync-server-2013-phones-and-devices-cmdlets.md">Phones and devices cmdlets in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="78cb1-127"><a href="lync-server-2013-infrastructure-and-deployment-cmdlets.md">Lync Server 2013 のインフラストラクチャと展開コマンドレット</a></span><span class="sxs-lookup"><span data-stu-id="78cb1-127"><a href="lync-server-2013-infrastructure-and-deployment-cmdlets.md">Infrastructure and deployment cmdlets in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="78cb1-128"><a href="lync-server-2013-migration-and-coexistence-cmdlets.md">Lync Server 2013 での移行と共存のコマンドレット</a></span><span class="sxs-lookup"><span data-stu-id="78cb1-128"><a href="lync-server-2013-migration-and-coexistence-cmdlets.md">Migration and coexistence cmdlets in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="525ba-127"><a href="lync-server-2013-infrastructure-and-deployment-cmdlets.md">Lync Server 2013 のインフラストラクチャと展開のコマンドレット</a></span><span class="sxs-lookup"><span data-stu-id="525ba-127"><a href="lync-server-2013-infrastructure-and-deployment-cmdlets.md">Infrastructure and deployment cmdlets in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="525ba-128"><a href="lync-server-2013-migration-and-coexistence-cmdlets.md">Lync Server 2013 での移行と共存のコマンドレット</a></span><span class="sxs-lookup"><span data-stu-id="525ba-128"><a href="lync-server-2013-migration-and-coexistence-cmdlets.md">Migration and coexistence cmdlets in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="78cb1-129"><a href="lync-server-2013-security-cmdlets.md">Lync Server 2013 のセキュリティコマンドレット</a></span><span class="sxs-lookup"><span data-stu-id="78cb1-129"><a href="lync-server-2013-security-cmdlets.md">Security cmdlets in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="78cb1-130"><a href="lync-server-2013-lync-server-management-shell-configuration-cmdlets.md">Lync server 2013 の lync Server 管理シェル構成コマンドレット</a></span><span class="sxs-lookup"><span data-stu-id="78cb1-130"><a href="lync-server-2013-lync-server-management-shell-configuration-cmdlets.md">Lync Server Management Shell configuration cmdlets in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="525ba-129"><a href="lync-server-2013-security-cmdlets.md">Lync Server 2013 のセキュリティコマンドレット</a></span><span class="sxs-lookup"><span data-stu-id="525ba-129"><a href="lync-server-2013-security-cmdlets.md">Security cmdlets in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="525ba-130"><a href="lync-server-2013-lync-server-management-shell-configuration-cmdlets.md">Lync server 管理シェルの構成のコマンドレット (Lync Server 2013)</a></span><span class="sxs-lookup"><span data-stu-id="525ba-130"><a href="lync-server-2013-lync-server-management-shell-configuration-cmdlets.md">Lync Server Management Shell configuration cmdlets in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="78cb1-131"><a href="lync-server-2013-server-roles-and-services-cmdlets.md">Lync Server 2013 のサーバーの役割とサービスコマンドレット</a></span><span class="sxs-lookup"><span data-stu-id="78cb1-131"><a href="lync-server-2013-server-roles-and-services-cmdlets.md">Server roles and services cmdlets in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="78cb1-132"><a href="lync-server-2013-mobility-cmdlets.md">Lync Server 2013 のモバイルコマンドレット</a></span><span class="sxs-lookup"><span data-stu-id="78cb1-132"><a href="lync-server-2013-mobility-cmdlets.md">Mobility cmdlets in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="525ba-131"><a href="lync-server-2013-server-roles-and-services-cmdlets.md">Lync Server 2013 のサーバーの役割およびサービスのコマンドレット</a></span><span class="sxs-lookup"><span data-stu-id="525ba-131"><a href="lync-server-2013-server-roles-and-services-cmdlets.md">Server roles and services cmdlets in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="525ba-132"><a href="lync-server-2013-mobility-cmdlets.md">Lync Server 2013 でのモビリティのコマンドレット</a></span><span class="sxs-lookup"><span data-stu-id="525ba-132"><a href="lync-server-2013-mobility-cmdlets.md">Mobility cmdlets in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="78cb1-133"><a href="lync-server-2013-application-management-cmdlets.md">Lync Server 2013 のアプリケーション管理コマンドレット</a></span><span class="sxs-lookup"><span data-stu-id="78cb1-133"><a href="lync-server-2013-application-management-cmdlets.md">Application management cmdlets in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="78cb1-134"><a href="lync-server-2013-persistent-chat-server-cmdlets.md">Lync Server 2013 の常設チャットサーバーコマンドレット</a></span><span class="sxs-lookup"><span data-stu-id="78cb1-134"><a href="lync-server-2013-persistent-chat-server-cmdlets.md">Persistent Chat Server cmdlets in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="525ba-133"><a href="lync-server-2013-application-management-cmdlets.md">Lync Server 2013 のアプリケーション管理のコマンドレット</a></span><span class="sxs-lookup"><span data-stu-id="525ba-133"><a href="lync-server-2013-application-management-cmdlets.md">Application management cmdlets in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="525ba-134"><a href="lync-server-2013-persistent-chat-server-cmdlets.md">Lync Server 2013 の常設チャットサーバーのコマンドレット</a></span><span class="sxs-lookup"><span data-stu-id="525ba-134"><a href="lync-server-2013-persistent-chat-server-cmdlets.md">Persistent Chat Server cmdlets in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="78cb1-135"><a href="lync-server-2013-federation-and-external-access-cmdlets.md">Lync Server 2013 のフェデレーションと外部アクセスコマンドレット</a></span><span class="sxs-lookup"><span data-stu-id="78cb1-135"><a href="lync-server-2013-federation-and-external-access-cmdlets.md">Federation and external access cmdlets in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="78cb1-136"><a href="lync-server-2013-centralized-logging-cmdlets.md">Lync Server 2013 の集中化されたログコマンドレット</a></span><span class="sxs-lookup"><span data-stu-id="78cb1-136"><a href="lync-server-2013-centralized-logging-cmdlets.md">Centralized Logging cmdlets in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="525ba-135"><a href="lync-server-2013-federation-and-external-access-cmdlets.md">Lync Server 2013 のフェデレーションと外部アクセスのコマンドレット</a></span><span class="sxs-lookup"><span data-stu-id="525ba-135"><a href="lync-server-2013-federation-and-external-access-cmdlets.md">Federation and external access cmdlets in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="525ba-136"><a href="lync-server-2013-centralized-logging-cmdlets.md">Lync Server 2013 での集中ログのコマンドレット</a></span><span class="sxs-lookup"><span data-stu-id="525ba-136"><a href="lync-server-2013-centralized-logging-cmdlets.md">Centralized Logging cmdlets in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="78cb1-137"><a href="lync-server-2013-enterprise-voice-cmdlets.md">Lync Server 2013 のエンタープライズボイスコマンドレット</a></span><span class="sxs-lookup"><span data-stu-id="78cb1-137"><a href="lync-server-2013-enterprise-voice-cmdlets.md">Enterprise Voice cmdlets in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="525ba-137"><a href="lync-server-2013-enterprise-voice-cmdlets.md">Lync Server 2013 のエンタープライズ Voip のコマンドレット</a></span><span class="sxs-lookup"><span data-stu-id="525ba-137"><a href="lync-server-2013-enterprise-voice-cmdlets.md">Enterprise Voice cmdlets in Lync Server 2013</a></span></span></p></td>
 <td></td>
 </tr>
 </tbody>
@@ -118,10 +118,10 @@ ms.locfileid: "41723327"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="78cb1-138">関連項目</span><span class="sxs-lookup"><span data-stu-id="78cb1-138">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="525ba-138">関連項目</span><span class="sxs-lookup"><span data-stu-id="525ba-138">See Also</span></span>
 
 
-[<span data-ttu-id="78cb1-139">Lync Server PowerShell ブログ</span><span class="sxs-lookup"><span data-stu-id="78cb1-139">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="525ba-139">Lync Server PowerShell ブログ</span><span class="sxs-lookup"><span data-stu-id="525ba-139">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>
