@@ -12,20 +12,20 @@ ms:contentKeyID: 48185197
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e7654b88d209e6a19571632ed773e891c50679e2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5eb5cc86eeaf6be3f32993cf4374148bab7e5f5f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733587"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050019"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-lync-server-2013"></a>Lync Server 2013 の展開
+# <a name="deploying-lync-server-2013"></a>Lync Server 2013 の展開 
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41733587"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-18_
+_**トピックの最終更新日:** 2012-10-18_
 
-Lync Server 2013 の展開プロセスは、インストールする必要がある Lync Server のトポロジとコンポーネントによって決定されます。これには、フロントエンドプールと Standard Edition サーバーのどちらを展開するかなどが含まれます。 このセクションのトピックでは、展開する環境を決定し、展開プロセスについて説明します。
+Lync Server 2013 の展開プロセスは、インストールする Lync Server のトポロジとコンポーネント (フロントエンドプールまたは Standard Edition サーバーを展開するかどうかなど) によって決まります。 このセクションのトピックは、展開する環境を決定するのに役立ち、展開プロセスについて順を追って説明しています。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
   - [Lync Server 2013 の展開の概要](lync-server-2013-deployment-overview.md)
 
@@ -51,15 +51,15 @@ Lync Server 2013 の展開プロセスは、インストールする必要があ
 
   - [Lync Server 2013 でのトポロジの定義と構成](lync-server-2013-defining-and-configuring-the-topology.md)
 
-  - [Lync Server 2013 でのトポロジ設計の完了と実装](lync-server-2013-finalizing-and-implementing-the-topology-design.md)
+  - [Lync Server 2013 でのトポロジ設計の最終処理および実装](lync-server-2013-finalizing-and-implementing-the-topology-design.md)
 
-  - [Lync Server 2013 でのフロント エンド サーバーおよびフロント エンド プールの設定](lync-server-2013-setting-up-front-end-servers-and-front-end-pools.md)
+  - [Lync Server 2013 のフロントエンドサーバーおよびフロントエンドプールの設定](lync-server-2013-setting-up-front-end-servers-and-front-end-pools.md)
 
   - [既存の Lync Server 2013 Enterprise への Lync Server 2013 Standard Edition の展開](lync-server-2013-deploying-lync-server-2013-standard-edition-into-an-existing-lync-server-2013-enterprise.md)
 
   - [Lync Server 2013 でのサーバーの役割の追加](lync-server-2013-adding-server-roles.md)
 
-  - [Lync Server 2013 での Kerberos 認証の設定](lync-server-2013-setting-up-kerberos-authentication.md)
+  - [Lync Server 2013 での Kerberos 認証のセットアップ](lync-server-2013-setting-up-kerberos-authentication.md)
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48185929
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4228dd3a10924fdddcff2c23e2784740e3192039
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 682dda5cd6da569f15d209a3cc1c8a2cc943d750
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739407"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048448"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41739407"
 
 <span> </span>
 
-_**最終更新日:** 2012-08-16_
+_**トピックの最終更新日:** 2012-08-16_
 
-Lync Server 2013 には IPv6 アドレスのサポートが含まれています。 IP アドレスを必要とするデバイスの数が増加したため、利用可能な IPv4 アドレスの数 (32 ビットアドレス) が実行されています。IPv6 は、128ビットアドレスを使用しているため、非常に多くの使用可能なアドレスが提供されます。 使用している環境での IPv6 アドレスの使用は、使用しているデバイスでの IPv6 のサポートによって異なります。
+Lync Server 2013 には、IPv6 アドレスのサポートが含まれています。 IP アドレスを必要とするデバイスの数が増加するため、使用可能な IPv4 アドレスの数 (32 ビットのアドレス) が実行されています。IPv6 は、128ビットのアドレスを使用するため、使用可能なアドレス数がはるかに多くなります。 環境での IPv6 アドレスの使用は、使用するデバイスでの IPv6 のサポートに依存します。
 
-多くの既存のデバイスはまだ IPv6 をサポートしていないため、IPv4 から IPv6 への完全な移行は数年かかる可能性があります。 したがって、Lync Server 2013 には、IPv4 アドレスのみを使用したネットワーク環境のサポート、IPv6 アドレスのみ、二重スタック (IPv4 と IPv6) アドレスのみが含まれています。
+多くの既存のデバイスでは IPv6 がまだサポートされていないため、IPv4 から IPv6 への完全な移行には数年かかる可能性があります。 そのため、Lync Server 2013 には、IPv4 アドレスのみを使用するネットワーク環境、IPv6 アドレスのみ、およびデュアルスタック (IPv4 と IPv6) アドレスのみのサポートが含まれています。
 
 <div>
 

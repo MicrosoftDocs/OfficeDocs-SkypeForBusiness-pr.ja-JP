@@ -12,20 +12,20 @@ ms:contentKeyID: 49733703
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 809f7a94a4ab211f1bf21483729519cd53de2a2d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f8c61fac4c310eff24f14c31e67554934f3d7f67
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756921"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050529"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="modify-sip-trunk-configuration-settings-in-lync-server-2013"></a>Lync Server 2013 で SIP トランクの設定を変更する
+# <a name="modify-sip-trunk-configuration-settings-in-lync-server-2013"></a>Lync Server 2013 での SIP トランク構成設定の変更
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41756921"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-22_
+_**トピックの最終更新日:** 2013-02-22_
 
-SIP トランク構成設定は、仲介サーバーと公衆交換電話網 (PSTN) ゲートウェイ、IP パブリックブランチ交換 (PBX)、またはサービスプロバイダのセッションボーダーコントローラー (SBC) 間の関係と機能を定義します。 たとえば、次の設定ができます。
+SIP トランクの構成では、仲介サーバーと、公衆交換電話網 (PSTN) ゲートウェイ、IP-PBX (Public Branch Exchange)、サービス プロバイダーのセッション境界コントローラー (SBC) のいずれかとの間の関係および機能を定義します。たとえば、次の設定ができます。
 
   - トランクでメディア バイパスを有効化するか。
 
-  - リアルタイム伝送制御プロトコル (RTCP) パケットを送信する条件。
+  - Real-time Transport Control Protocol (RTCP) パケットが送信される条件。
 
-  - 各トランクで、セキュリティで保護されたリアルタイムプロトコル (SRTP) 暗号化が必要かどうかを示します。
+  - 各トランクでセキュア リアルタイム プロトコル (SRTP) 暗号化を要求するか。
 
-Microsoft Lync Server 2013 をインストールすると、SIP トランク構成設定のグローバルコレクションが作成されます。 また、管理者はサイト スコープまたはサービス スコープ (PSTN ゲートウェイ サービスの場合のみ) でカスタム設定のコレクションを作成することができます。 Lync Server コントロールパネルまたは Windows PowerShell を使用して、後でこれらのコレクションのいずれかを変更できます。
+Microsoft Lync Server 2013 をインストールすると、SIP トランク構成設定のグローバルコレクションが作成されます。 また、管理者はサイト スコープまたはサービス スコープ (PSTN ゲートウェイ サービスの場合のみ) でカスタム設定のコレクションを作成することができます。 これらのコレクションのいずれかは、後で Lync Server コントロールパネルまたは Windows PowerShell を使用して変更できます。
 
-Lync Server コントロールパネルを使用して SIP トランクの構成設定を変更する場合は、次のオプションを利用できます。
+Lync Server コントロールパネルを使用して SIP トランク構成設定を変更する場合、次のオプションを使用できます。
 
 
 <table>
@@ -76,13 +76,13 @@ Lync Server コントロールパネルを使用して SIP トランクの構成
 </tr>
 <tr class="odd">
 <td><p>サポートされる最大初期ダイアログの数</p></td>
-<td><p>MaxEarlyDialogs</p></td>
+<td><p>Maxんダイアログ</p></td>
 <td><p>サービス プロバイダーの PSTN ゲートウェイ、IP-PBX、または SBC が、仲介サーバーに送信した INVITE に対して受信できる分岐応答の最大数です。</p></td>
 </tr>
 <tr class="even">
 <td><p>暗号化サポート レベル</p></td>
 <td><p>SRTPMode</p></td>
-<td><p>仲介サーバーと、サービス プロバイダーの PSTN ゲートウェイ、IP-PBX、または SBC 間のメディア トラフィックを保護するためのサポート レベルを示します。 メディア バイパスの場合、この値はメディア構成の EncryptionLevel 設定と互換性を持つ必要があります。 メディア構成は、 <a href="https://docs.microsoft.com/powershell/module/skype/New-CsMediaConfiguration">CsMediaConfiguration</a>コマンドレットと<a href="https://docs.microsoft.com/powershell/module/skype/Set-CsMediaConfiguration">CsMediaConfiguration</a>コマンドレットを使用して設定されます。</p>
+<td><p>仲介サーバーと、サービス プロバイダーの PSTN ゲートウェイ、IP-PBX、または SBC 間のメディア トラフィックを保護するためのサポート レベルを示します。 メディア バイパスの場合、この値はメディア構成の EncryptionLevel 設定と互換性を持つ必要があります。 メディア構成は、 <a href="https://docs.microsoft.com/powershell/module/skype/New-CsMediaConfiguration">get-csmediaconfiguration</a>コマンドレットおよび<a href="https://docs.microsoft.com/powershell/module/skype/Set-CsMediaConfiguration">get-csmediaconfiguration</a>コマンドレットを使用して設定します。</p>
 <p>有効な値は次のとおりです。</p>
 <ul>
 <li><p>Required: SRTP 暗号化を使用する必要があります。</p></li>
@@ -96,7 +96,7 @@ Lync Server コントロールパネルを使用して SIP トランクの構成
 <td><p>Enable3pccRefer</p>
 <p>EnableReferSupport</p></td>
 <td><p>[<strong>ゲートウェイへの参照の送信を有効にする</strong>] に設定した場合、トランクが仲介サーバーからの REFER 要求の受信をサポートすることを示します。</p>
-<p>[<strong>サードパーティ通話コントロールを使用する参照を有効にする</strong>] に設定すると、3PCC プロトコルを使用して転送される通話がホストされたサイトをバイパスできるようにすることを示します。 3pcc はサードパーティコントロール&quot;&quot;とも呼ばれ、サードパーティが1組の発信者に接続するために使用される場合 (たとえば、ユーザー a からメンバー B に電話をかけているオペレーターなど) に発生します。</p></td>
+<p>[<strong>サードパーティ通話コントロールを使用する参照を有効にする</strong>] に設定すると、3PCC プロトコルを使用して転送される通話がホストされたサイトをバイパスできるようにすることを示します。 3pcc は、サードパーティ&quot;のコントロールとも&quot;呼ばれ、サードパーティが1組の呼び出し元を接続するために使用される場合 (たとえば、ユーザー a からユーザー B に電話をかけるオペレーターなど) に発生します。</p></td>
 </tr>
 <tr class="even">
 <td><p>メディアのバイパスを有効にする</p></td>
@@ -116,7 +116,7 @@ Lync Server コントロールパネルを使用して SIP トランクの構成
 <tr class="odd">
 <td><p>着信転送履歴を有効にする</p></td>
 <td><p>ForwardCallHistory</p></td>
-<td><p>通話履歴の情報をトランク経由で転送するかどうかを指定します。</p></td>
+<td><p>通話履歴の情報をトランク経由で転送するかどうかを示します。</p></td>
 </tr>
 <tr class="even">
 <td><p>P-Asserted-Identity データの転送を有効にする</p></td>
@@ -171,7 +171,7 @@ Lync Server コントロールパネルを使用して SIP トランクの構成
 
 
 > [!NOTE]  
-> Lync Server の Set-cstrunkconfiguration コマンドレットでは、Lync Server コントロールパネルに表示されない追加のプロパティがサポートされています。 詳細については、 <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsTrunkConfiguration">set-cstrunkconfiguration</A>コマンドレットのヘルプトピックを参照してください。
+> Lync Server Get-cstrunkconfiguration コマンドレットでは、Lync Server コントロールパネルに表示されない追加のプロパティをサポートしています。 詳細については、 <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsTrunkConfiguration">get-cstrunkconfiguration</A>コマンドレットのヘルプトピックを参照してください。
 
 
 
@@ -179,19 +179,19 @@ Lync Server コントロールパネルを使用して SIP トランクの構成
 
 <div>
 
-## <a name="to-modify-sip-trunk-configuration-settings-by-using-lync-server-control-panel"></a>Lync Server コントロールパネルを使用して SIP トランクの設定を変更するには
+## <a name="to-modify-sip-trunk-configuration-settings-by-using-lync-server-control-panel"></a>Lync Server コントロールパネルを使用して SIP トランク構成設定を変更するには
 
-1.  Lync Server コントロールパネルで、[**音声ルーティング**] をクリックし、[ **Trunk 構成**] をクリックします。
+1.  Lync Server コントロールパネルで、[**音声ルーティング**] をクリックし、[**トランク構成**] をクリックします。
 
 2.  [**トランク構成**] タブで、変更するトランク構成の設定をダブルクリックします。編集できる設定のコレクションは一度に 1 つだけです。複数のコレクションで同じ変更を行う場合は、Windows PowerShell を使用してください。
 
-3.  [**トランク構成の編集**] ダイアログ ボックスで、適切な選択を行った後、[**OK**] をクリックします。
+3.  [**トランク構成の編集**] ダイアログで、適切な選択を行って [ **OK]** をクリックします。
 
-4.  コレクションの [**状態**] プロパティが、[**コミットされていません**] に変わります。変更をコミットし、コレクションを削除するには、[**コミット**] をクリックした後、[**すべてコミット**] をクリックします。
+4.  コレクションの [**状態**] プロパティが [**コミットされていません**] に更新されます。変更をコミットし、コレクションを削除するには、[**コミット**]、[**すべてコミット**] の順にクリックします。
 
 5.  [**コミットされていない音声構成設定**] ダイアログ ボックスで、[**OK**] をクリックします。
 
-6.  [ **Microsoft Lync Server 2013 コントロールパネル**] ダイアログボックスで、[ **OK**] をクリックします。
+6.  [**Microsoft Lync Server 2013 Control Panel**] ダイアログ ボックスで、[**OK**] をクリックします。
 
 </div>
 

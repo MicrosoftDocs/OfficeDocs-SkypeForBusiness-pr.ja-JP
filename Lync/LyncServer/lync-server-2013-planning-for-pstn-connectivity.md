@@ -12,16 +12,16 @@ ms:contentKeyID: 48183684
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ec12aa5e579aed30e61c7cd34eab444e807c628f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 811f69e8286e341b7769a58d03c42d0a43e63075
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725257"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049909"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41725257"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-21_
+_**トピックの最終更新日:** 2012-09-21_
 
-エンタープライズ レベルの VoIP ソリューションでは、サービスの品質 (QoS) を低下させずに公衆交換電話網 (PSTN) との通話の発信および着信を処理する必要があります。 通話の発信と受信を行うユーザーは、基になるテクノロジを認識していません。ユーザーの視点から見ると、エンタープライズ Voip インフラストラクチャと PSTN との間の通話は、別の電話会議と同じように見えます。
+エンタープライズ レベルの VoIP ソリューションでは、サービスの品質 (QoS) を低下させずに公衆交換電話網 (PSTN) との通話の発信および着信を処理する必要があります。 呼び出しを発信または受信するユーザーは、基礎となるテクノロジに気付かないようにする必要があります。これは、ユーザーの観点から、エンタープライズ Voip インフラストラクチャと PSTN との間の通話は、別の通話と同じように見えます。
 
 Lync Server 2013 は、次のオプションを使用して、信頼性の高いスケーラブルな PSTN 接続を提供します。
 
@@ -47,19 +47,19 @@ Lync Server 2013 は、次のオプションを使用して、信頼性の高い
 
   - PBX への**直接 SIP 接続**
 
-企業は、その規模、地理的範囲、および既存の音声インフラストラクチャに応じて、さまざまな場所でこれらのオプションのうちの 1 つ、2 つ、または 3 つすべてを使用できます。
+企業は、そのサイズ、地理的範囲、および既存の音声インフラストラクチャに応じて、さまざまな場所でこれらのオプションのうちの 1 つ、2 つ、または 3 つすべてを使用できます。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 での SIP トランク](lync-server-2013-sip-trunking.md)
+  - [Lync Server 2013 での SIP トランキング](lync-server-2013-sip-trunking.md)
 
-  - [Lync Server 2013 での直接 SIP 接続](lync-server-2013-direct-sip-connections.md)
+  - [Lync Server 2013 の直接 SIP 接続](lync-server-2013-direct-sip-connections.md)
 
   - [Lync Server 2013 の M:N トランク](lync-server-2013-m-n-trunk.md)
 
-  - [Lync Server 2013 の翻訳ルール](lync-server-2013-translation-rules.md)
+  - [Lync Server 2013 の変換ルール](lync-server-2013-translation-rules.md)
 
   - [Lync Server 2013 での発信音声ルーティングの計画](lync-server-2013-planning-outbound-voice-routing.md)
 

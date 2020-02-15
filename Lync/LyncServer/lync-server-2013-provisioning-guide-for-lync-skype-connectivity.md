@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Lync と Skype の接続のプロビジョニング ガイド'
+title: 'Lync Server 2013: Lync と Skype の接続のプロビジョニングガイド'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 57793363
 ms.date: 11/26/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f94da566e4322f9b8d1d039441c561f5ed60f6c2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e8f6e1b9262e0e7ed0f9060f3e509924aee9ba62
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747217"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050299"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="provisioning-guide-for-lync-skype-connectivity-in-lync-server-2013"></a>Lync Server 2013 での Lync と Skype の接続のプロビジョニング ガイド
+# <a name="provisioning-guide-for-lync-skype-connectivity-in-lync-server-2013"></a>Lync Server 2013 での Lync と Skype の接続のプロビジョニングガイド
 
 </div>
 
@@ -35,30 +35,30 @@ ms.locfileid: "41747217"
 
 <span> </span>
 
-_**最終更新日:** 2014-11-26_
+_**トピックの最終更新日:** 2014-11-26_
 
-Lync Server 2013 は、Skype との接続をサポートしています。この接続を使用すると、Lync 2013 ユーザーは、Skype ユーザーの Microsoft Account (MSA) を使用して Skype の連絡先を追加できます。Skype クライアントも、Lync ユーザーを連絡先リストに追加できます。Lync Server で管理上設定されたポリシーに基づいて、Lync ユーザーと Skype ユーザーは、インスタント メッセージを使用して通信し、お互いのプレゼンスを確認し、音声およびビデオ通話を開始できるようになります。Lync と Skype の接続は、Lync Online の機能でもあり、Office 365 ポータル内の Lync 管理センターから Lync Online の顧客に対して有効にすることができます。
+Lync Server 2013 は、Skype との接続をサポートしています。 この接続により、Lync 2013 ユーザーは Skype ユーザーの Microsoft アカウント (MSA) を使用して Skype 連絡先を追加できます。 Skype クライアントは、Lync ユーザーを連絡先リストに追加することもできます。 Lync Server で管理上設定されたポリシーに基づいて、Lync および Skype ユーザーはインスタントメッセージングを使用して通信したり、お互いのプレゼンスを確認したり、音声およびビデオ通話を開始したりすることができます。 Lync と Skype の接続は、Lync Online の機能でもあり、Office 365 ポータル内の Lync 管理センターから Lync Online の顧客に対して有効にすることができます。
 
 <div>
 
 > [!IMPORTANT]  
-> Lync Server がパブリック インスタント メッセージング接続 (PIC) を使用して Windows Messenger と接続するように既に構成されている場合、展開は、既に Lync と Skype の接続用に構成されています。検討する対象となりうる唯一の変更は、既存の Messenger PIC エントリの名前を Skype などに変更することだけです。詳細については、このガイドで後述する Lync の「Lync 用の Skype PIC プロバイダー設定を構成する」を参照してください。
+> Lync Server がパブリックインスタントメッセージング接続 (PIC) を使用して Windows Messenger と接続するように既に構成されている場合、展開は既に Lync-Skype 接続用に構成されています。 検討する必要があるのは、既存の Messenger PIC エントリの名前を Skype に変更することだけです。 詳細については、このガイドの「Lync の Skype PIC プロバイダー設定を構成する」を参照してください。
 
 </div>
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Online ユーザー向けの lync Server 2013 での Lync についての注-Skype 接続](lync-server-2013-note-about-lync-skype-connectivity-for-lync-on.md)
+  - [Lync Online のお客様向け lync Server 2013 での Lync と Skype の接続に関する注意事項](lync-server-2013-note-about-lync-skype-connectivity-for-lync-on.md)
 
-  - [Lync Server 2013 から Lync Server パブリック IM 接続プロビジョニング サイトへのアクセス](lync-server-2013-accessing-the-lync-server-public-im-connectivity-provisioning-site.md)
+  - [Lync server 2013 からの Lync Server パブリック IM 接続プロビジョニングサイトへのアクセス](lync-server-2013-accessing-the-lync-server-public-im-connectivity-provisioning-site.md)
 
   - [Lync Server 2013 での Lync と Skype の接続の有効化](lync-server-2013-enabling-lync-skype-connectivity.md)
 
-  - [エンド ユーザーとしての Lync Server 2013 での Lync と Skype の接続の使用](lync-server-2013-using-lync-skype-connectivity-as-an-end-user.md)
+  - [エンドユーザーとしての lync Server 2013 での Lync と Skype の接続の使用](lync-server-2013-using-lync-skype-connectivity-as-an-end-user.md)
 
-  - [FAQ: Skype 接続用の Lync Server 2013 のプロビジョニング](lync-server-2013-frequently-asked-questions-provisioning-lync-server-for-skype-connectivity.md)
+  - [よく寄せられる質問: Lync Server 2013 を Skype 接続用にプロビジョニングする](lync-server-2013-frequently-asked-questions-provisioning-lync-server-for-skype-connectivity.md)
 
 </div>
 

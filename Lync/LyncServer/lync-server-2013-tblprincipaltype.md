@@ -12,16 +12,16 @@ ms:contentKeyID: 48183787
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6731d0bcda6e4e66b1b498a5f1bf91023627b1f0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4da3af65a20d13ce4d4f1078e5ef76cbc67f402c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764087"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046170"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764087"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-12_
+_**トピックの最終更新日:** 2012-09-12_
 
-tblPrincipalType には、tblPrincipal テーブルの内容を分類するためのプリンシパルの種類が含まれています。
+tblPrincipal テーブルには、tblPrincipal テーブルの内容を分類するプリンシパル型が含まれます。
 
-### <a name="columns"></a>行
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -50,30 +50,30 @@ tblPrincipalType には、tblPrincipal テーブルの内容を分類するた�
 <thead>
 <tr class="header">
 <th>列</th>
-<th>型</th>
+<th>種類</th>
 <th>説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>ptypeID</p></td>
-<td><p>smallint (null ではない)</p></td>
-<td><p>プリンシパルの種類 ID。</p></td>
+<td><p>Tblprincipaltype.ptypeid</p></td>
+<td><p>NULL でない smallint</p></td>
+<td><p>プリンシパル型 ID。</p></td>
 </tr>
 <tr class="even">
 <td><p>ptypeDesc</p></td>
-<td><p>nvarchar (256)、null ではない</p></td>
+<td><p>NULL でない nvarchar (256)</p></td>
 <td><p>型の説明。</p></td>
 </tr>
 <tr class="odd">
-<td><p>ptypeIsSystemUser 場合</p></td>
-<td><p>ビット、null ではない</p></td>
-<td><p>内部目的で使用されるプリンシパルに対応する型の場合は True です。</p></td>
+<td><p>ptypeIsSystemUser</p></td>
+<td><p>NULL でない bit</p></td>
+<td><p>型が内部の用途で使用されるプリンシパルに対応する場合、True。</p></td>
 </tr>
 <tr class="even">
 <td><p>ptypeIsUser</p></td>
-<td><p>ビット、null ではない</p></td>
-<td><p>型がユーザーの型である場合は True です。</p></td>
+<td><p>NULL でない bit</p></td>
+<td><p>型がユーザー型の場合、True。</p></td>
 </tr>
 </tbody>
 </table>
@@ -94,14 +94,14 @@ tblPrincipalType には、tblPrincipal テーブルの内容を分類するた�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>ptypeID</p></td>
+<td><p>Tblprincipaltype.ptypeid</p></td>
 <td><p>主キー。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="principal-values"></a>プリンシパルの値
+### <a name="principal-values"></a>プリンシパル値
 
 <table>
 <colgroup>
@@ -113,57 +113,57 @@ tblPrincipalType には、tblPrincipal テーブルの内容を分類するた�
 <thead>
 <tr class="header">
 <th>ID</th>
-<th>役割</th>
+<th>Role</th>
 <th>説明</th>
-<th>[ユーザー]</th>
+<th>ユーザー</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>任意</p></td>
-<td><p>既知の型のない汎用プリンシパル。 TblPrincipal テーブルでは使用されません。</p></td>
+<td><p>既知の型を持たない汎用的なプリンシパル。tblPrincipal テーブルでは使用されません。</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>両面</p></td>
-<td><p>任意のユーザー</p></td>
-<td><p>ユーザーの種類の汎用プリンシパル。 TblPrincipal テーブルでは使用されません。</p></td>
+<td><p>2 </p></td>
+<td><p>AnyUser</p></td>
+<td><p>ユーザー型の汎用的なプリンシパル。tblPrincipal テーブルでは使用されません。</p></td>
 <td><p>はい</p></td>
 </tr>
 <tr class="odd">
-<td><p>3</p></td>
+<td><p>3 </p></td>
 <td><p>AnyGroup</p></td>
-<td><p>グループの意味を持つ汎用プリンシパル。 TblPrincipal テーブルでは使用されません。</p></td>
+<td><p>グループ セマンティックを持つ汎用的なプリンシパル。tblPrincipal テーブルでは使用されません。</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>4</p></td>
-<td><p>他のお互い</p></td>
-<td><p>常設チャットサーバーで内部的に使用されているプリンシパル。</p></td>
+<td><p>4 </p></td>
+<td><p>自分のもの</p></td>
+<td><p>常設チャットサーバーによって内部的に使用されるプリンシパル。</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>5</p></td>
+<td><p>5 </p></td>
 <td><p>ユーザー</p></td>
-<td><p>標準ユーザー。</p></td>
+<td><p>標準のユーザー</p></td>
 <td><p>はい</p></td>
 </tr>
 <tr class="even">
-<td><p>個</p></td>
-<td><p>修飾</p></td>
+<td><p>8 </p></td>
+<td><p>DC</p></td>
 <td><p>Active Directory ドメインサービスのドメインコントローラー。</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>ファイブ</p></td>
-<td><p>化</p></td>
-<td><p>Active Directory セキュリティグループ。</p></td>
+<td><p>9 </p></td>
+<td><p>Group</p></td>
+<td><p>Active Directory セキュリティ グループ。</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>常用</p></td>
-<td><p>]</p></td>
+<td><p>10 </p></td>
+<td><p>フォルダー</p></td>
 <td><p>Active Directory コンテナーまたは組織単位。</p></td>
 <td></td>
 </tr>

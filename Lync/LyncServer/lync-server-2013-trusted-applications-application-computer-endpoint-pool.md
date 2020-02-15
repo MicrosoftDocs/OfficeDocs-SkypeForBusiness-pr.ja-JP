@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 信頼されているアプリケーション (アプリケーション/コンピューター/エンドポイント/プール)'
+title: 'Lync Server 2013: 信頼されたアプリケーション (アプリケーション、コンピューター、エンドポイント、プール)'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733667
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 04a80b13cc7fd1bd88ce8b361b08938719f5929b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f3fb02e36927c10f5a4f66f0e4908a26e440b555
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744917"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045910"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="trusted-applications-applicationcomputerendpointpool-in-lync-server-2013"></a>Lync Server 2013 の信頼済みアプリケーション (アプリケーション/コンピューター/エンドポイント/プール)
+# <a name="trusted-applications-applicationcomputerendpointpool-in-lync-server-2013"></a>Lync Server 2013 の信頼されたアプリケーション (アプリケーション、コンピューター、エンドポイント、プール)
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41744917"
 
 <span> </span>
 
-_**最終更新日:** 2012-11-01_
+_**トピックの最終更新日:** 2012-11-01_
 
-このセクションの手順を使用して、Lync Server 2013 の信頼済みアプリケーションを管理します。
+Lync Server 2013 の信頼されたアプリケーションを管理するには、このセクションの手順を使用します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 で信頼済みアプリケーションを管理する](lync-server-2013-managing-trusted-applications.md)
+  - [Lync Server 2013 で信頼されたアプリケーションを管理する](lync-server-2013-managing-trusted-applications.md)
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a>関連項目
+## <a name="related-sections"></a>関連情報
 
-[Lync Server 2013 の信頼済みアプリケーションコマンドレット](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
+[Lync Server 2013 の信頼されたアプリケーションのコマンドレット](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
 
 </div>
 
@@ -60,7 +60,7 @@ _**最終更新日:** 2012-11-01_
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 で信頼済みアプリケーションを管理する](lync-server-2013-managing-trusted-applications.md)  
+[Lync Server 2013 で信頼されたアプリケーションを管理する](lync-server-2013-managing-trusted-applications.md)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: サーバーおよびツールのオペレーティング システムのサポート'
+title: 'Lync Server 2013: サーバーおよびツールのオペレーティングシステムのサポート'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185214
 ms.date: 12/02/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f20648d3512914be3c8a32eb61389618eb17abd4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6def5ee0d20e50dbcd528b2e218fc1fe55217b32
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732507"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048698"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="server-and-tools-operating-system-support-in-lync-server-2013"></a>Lync Server 2013 でのサーバーおよびツールのオペレーティング システムのサポート
+# <a name="server-and-tools-operating-system-support-in-lync-server-2013"></a>Lync Server 2013 でのサーバーおよびツールのオペレーティングシステムのサポート
 
 </div>
 
@@ -35,61 +35,61 @@ ms.locfileid: "41732507"
 
 <span> </span>
 
-_**最終更新日:** 2014-12-01_
+_**トピックの最終更新日:** 2014-12-01_
 
-Lync Server 2013 は、64ビットでのみ使用できます。これには、64ビットハードウェアと64ビット版の Windows Server が必要です。 つまり、Lync Server 2013 管理ツールを実行しているすべてのサーバーの役割とコンピューターは、64ビット版のオペレーティングシステムを実行します。
+Lync Server 2013 は、64ビットでのみ使用できます。これには、64ビットのハードウェアと、Windows Server の64ビット版が必要です。 これは、Lync Server 2013 管理ツールを実行しているすべてのサーバーの役割とコンピューターが、64ビット版のオペレーティングシステムを実行することを意味します。
 
 <div>
 
-## <a name="operating-systems-for-server-roles"></a>サーバーロールのオペレーティングシステム
+## <a name="operating-systems-for-server-roles"></a>サーバーの役割に適したオペレーティング システム
 
-Lync Server 2013 は、Lync Server 2013 のすべてのサーバーの役割について、次のオペレーティングシステムの64ビットエディションをサポートしています。
+Lync Server 2013 は、Lync Server 2013 のすべてのサーバーの役割に対して、次のオペレーティングシステムの64ビット版をサポートしています。
 
-  - Windows Server 2008 R2 Service Pack 1 (SP1) 標準オペレーティングシステム (必須) または最新の Service pack (推奨)
+  - Windows Server 2008 R2 Service Pack 1 (SP1) Standard オペレーティングシステム (必須) または最新のサービスパック (推奨)
 
-  - Windows Server 2008 R2 SP1 Enterprise オペレーティングシステム (必須) または最新サービスパック (推奨)
+  - Windows Server 2008 R2 SP1 Enterprise オペレーティングシステム (必須) または最新のサービスパック (推奨)
 
-  - Windows Server 2008 R2 SP1 Datacenter オペレーティングシステム (必須) または最新サービスパック (推奨)
+  - Windows Server 2008 R2 SP1 Datacenter オペレーティングシステム (必須) または最新のサービスパック (推奨)
 
-  - Windows Server 2012 標準オペレーティングシステム
+  - Windows Server 2012 Standard オペレーティングシステム
 
   - Windows Server 2012 Datacenter オペレーティングシステム
 
-  - Windows Server 2012 R2 オペレーティングシステムは、Lync Server 2013: 2013 年10月の累積更新プログラムでサポートされています。
+  - Windows Server 2012 R2 オペレーティングシステムは、Lync Server 2013 の累積的な更新プログラム (2013 年10月) でサポートされます。
 
-Lync Server 2013 は、次のようにサポートされていません。
+Lync Server 2013 は、以下ではサポートされていません。
 
   - Windows Server 2008 R2 または Windows Server 2012 の Server Core インストールオプション
 
-  - Windows Web Server 2008 R2 オペレーティングシステムまたは Windows Web Server 2012 オペレーティングシステム
+  - Windows Web Server 2008 R2 オペレーティング システムまたは Windows Web Server 2012 オペレーティング システム
 
-  - Windows Server 2008 R2 HPC または Windows Server 2012 HPC エディション
-
-</div>
-
-<div>
-
-## <a name="additional-operating-systems-for-administrative-tools"></a>管理ツール用のその他のオペレーティングシステム
-
-Lync server 2013 管理ツールは、Lync Server 2013 を実行しているサーバー上に既定でインストールされますが、Windows オペレーティングシステムを実行している他のコンピューターでは、管理ツールを個別にインストールすることができます。 これには、次のオペレーティングシステムの64ビットバージョン、およびサーバーロールの展開をサポートするオペレーティングシステムの64ビットエディション (前のセクションで説明した) が含まれます。
-
-  - Windows 7 オペレーティングシステム SP1 オペレーティングシステム (必須) または最新サービスパック (推奨)
-
-  - Windows 8 オペレーティングシステムまたは最新の service pack (推奨)
-
-  - Windows 8.1 オペレーティングシステムまたは最新の service pack (推奨)
+  - Windows Server 2008 R2 HPC Edition または Windows Server 2012 HPC Edition
 
 </div>
 
 <div>
 
-## <a name="operating-systems-for-other-servers-in-your-deployment"></a>展開における他のサーバーのオペレーティングシステム
+## <a name="additional-operating-systems-for-administrative-tools"></a>管理ツールに適したその他のオペレーティング システム
 
-  - バックエンドサーバーと他のデータベースサーバーの要件の詳細については、「 [Lync Server 2013 でのデータベースソフトウェアのサポート](lync-server-2013-database-software-support.md)」を参照してください。
+Lync server 2013 管理ツールは、Lync Server 2013 を実行しているサーバーに既定でインストールされますが、Windows オペレーティングシステムを実行している他のコンピューターに管理ツールを個別にインストールすることができます。 これらには、サーバーの役割の展開 (前のセクションで説明したとおり) をサポートしているオペレーティングシステムの64ビットエディションに加えて、以下のオペレーティングシステムの64ビットバージョンが含まれています。
 
-  - リバースプロキシサーバー (Edge の展開用) の要件の詳細については、「 [Lync Server 2013 での IIS のサポート](lync-server-2013-iis-support.md)」を参照してください。
+  - Windows 7 オペレーティングシステム SP1 オペレーティングシステム (必須) または最新のサービスパック (推奨)
 
-  - 他のソフトウェア要件 (インフラストラクチャと仮想化のサポートなど) について詳しくは、「 [Lync server 2013 でのサーバーソフトウェアとインフラストラクチャのサポート](lync-server-2013-server-software-and-infrastructure-support.md)」の他のトピックをご覧ください。
+  - Windows 8 オペレーティングシステムまたは最新のサービスパック (推奨)
+
+  - Windows 8.1 オペレーティングシステムまたは最新のサービスパック (推奨)
+
+</div>
+
+<div>
+
+## <a name="operating-systems-for-other-servers-in-your-deployment"></a>展開内の他のサーバーのオペレーティングシステム
+
+  - バックエンドサーバーおよびその他のデータベースサーバーの要件の詳細については、「 [Lync Server 2013 のデータベースソフトウェアサポート](lync-server-2013-database-software-support.md)」を参照してください。
+
+  - リバースプロキシサーバーの要件 (エッジ展開の場合) の詳細については、「 [Lync Server 2013 の IIS サポート](lync-server-2013-iis-support.md)」を参照してください。
+
+  - インフラストラクチャおよび仮想化のサポートを含む、その他のソフトウェア要件の詳細については、「 [Lync server 2013 でのサーバーソフトウェアおよびインフラストラクチャサポート](lync-server-2013-server-software-and-infrastructure-support.md)」のその他のトピックを参照してください。
 
 </div>
 

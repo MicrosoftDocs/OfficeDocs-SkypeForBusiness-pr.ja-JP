@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 新しいボイス メールの機能'
+title: 'Lync Server 2013: 新しいボイスメール機能'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733715
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27dbea942488181eb69695f78713c9e126c32aab
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2b7951b0dd9a6841d66c1782322f6c44a4e16d99
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755851"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048418"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-voice-mail-feature-in-lync-server-2013"></a>Lync Server 2013 の新しいボイス メールの機能
+# <a name="new-voice-mail-feature-in-lync-server-2013"></a>Lync Server 2013 の新しいボイスメール機能
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41755851"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-05_
+_**トピックの最終更新日:** 2012-10-05_
 
-Lync Server 2013 ではボイスメールのエスケープ機能が導入され、ボイスメールを管理する機能が強化されています。 この新機能は、通話がボイスメールに転送されたことを検出し、ユーザーが電話に応答することなく、そのユーザーの携帯電話のボイスメールに通話がすぐにルーティングされないようにします。 このシナリオは、ユーザーが携帯電話との同時呼び出しを有効にしていて、その携帯電話がオフになっているか、バッテリー切れになっているか、または範囲外である場合に発生します。 ボイスメールのエスケープでは、ユーザーの携帯電話のボイスメールによって通話に応答したことが検出され、携帯電話のボイスメールへの通話が切断されます。 通話は、ユーザーがその他のエンドポイントを呼び出して、通話に応答できるようにします。 通話に応答しない場合、通話は企業のボイスメールにルーティングされます。
+Lync Server 2013 ボイスメールを管理するための拡張機能であるボイスメールエスケープが導入されています。 この新しい機能は、呼び出しがボイス メールにルーティングされたことを検出し、ユーザーが呼び出しに応える機会のないまま、呼び出しがすぐにユーザーの携帯電話のボイス メールにルーティングされないようにすることができます。 このようなシナリオは、ユーザーが携帯電話の同時呼び出しを有効にしていて、携帯電話がオフ、電池切れ、または圏外になっていると発生します。 ボイス メールのエスケープは、呼び出しがユーザーの携帯電話ボイス メールによってすぐに応答されたことを検出し、携帯電話ボイス メールに対する呼び出しを切断します。 呼び出しはユーザーの他のエンドポイントで呼び出しを続けて、ユーザーが呼び出しに応えられるようにします。 ユーザーが呼び出しに応えない場合、呼び出しは会社のボイス メールにルーティング されます。
 
 <div>
 
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 でボイスメールのエスケープを構成する](lync-server-2013-configuring-voice-mail-escape.md)  
+[Lync Server 2013 でのボイスメールエスケープの構成](lync-server-2013-configuring-voice-mail-escape.md)  
 
 
-[Lync Server 2013 の新しいエンタープライズ VoIP 機能](lync-server-2013-new-enterprise-voice-features.md)  
+[Lync Server 2013 の新しいエンタープライズ Voip 機能](lync-server-2013-new-enterprise-voice-features.md)  
   
 
 </div>

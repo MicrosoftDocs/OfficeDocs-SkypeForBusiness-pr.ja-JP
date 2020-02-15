@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 新しいグループ通話のピックアップ機能'
+title: 'Lync Server 2013: 新しいグループ通話ピックアップ機能'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541478
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0e42884d3880fa1a31c96d9a25676b5ceecd8313
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 566ef914236cfde9cb00c28c667189ebb6d1556f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758639"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048468"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-group-call-pickup-feature-in-lync-server-2013"></a>Lync Server 2013 の新しいグループ通話のピックアップ機能
+# <a name="new-group-call-pickup-feature-in-lync-server-2013"></a>Lync Server 2013 の新しいグループ通話ピックアップ機能
 
 </div>
 
@@ -35,18 +35,18 @@ ms.locfileid: "41758639"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-12_
+_**トピックの最終更新日:** 2013-02-12_
 
-Lync Server 2013 の累積更新プログラム: 2013 年2月に、グループ通話のピックアップが新しいエンタープライズ Voip 機能として導入されています。 グループ通話のピックアップ機能を使用すると、グループにユーザーを割り当てることができます。これにより、他のユーザーは、自分の電話からグループに参加しているユーザーへの着信に応答することができます。
+Lync Server 2013 の累積的な更新プログラム: 2 月2013は、新しいエンタープライズ Voip 機能としてグループ通話ピックアップを導入しました。 グループ通話ピックアップを使用すると、他のユーザーが自分の電話からグループ内のユーザーへの着信呼び出しに応答できるように、ユーザーをグループに割り当てることができます。
 
-グループ通話のピックアップは、コールパークアプリケーションに基づいています。 グループ通話の集配の場合、通話パークと同様に、グループ番号として使用するために、一定範囲の仮想番号を設定します。 ユーザーがグループ番号をダイヤルして、グループ内の他のユーザーに対して着信した通話を選びます。
+グループ通話ピックアップは、コールパークアプリケーションに基づいています。 グループ通話ピックアップの場合は、コールパークと同様に、グループ番号として使用するために、一定範囲の仮想番号を設定します。 ユーザーがグループ番号をダイヤルして、グループ内の別のユーザーに発信される通話を取得します。
 
 <div>
 
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 でグループ通話のピックアップを計画する](lync-server-2013-planning-for-group-call-pickup.md)  
+[Lync Server 2013 でのグループ通話ピックアップの計画](lync-server-2013-planning-for-group-call-pickup.md)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 一般的なエリア電話'
+title: 'Lync Server 2013: 共通領域電話'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803987
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 71fa61773a4801d2050d67d4e86458eb5d37759c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 736aa12c9de027aa485cfc89a6f5cd820a460833
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742787"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045819"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="common-area-phones-in-lync-server-2013"></a>Lync Server 2013 の一般的なエリア電話
+# <a name="common-area-phones-in-lync-server-2013"></a>Lync Server 2013 の共通領域電話
 
 </div>
 
@@ -37,17 +37,17 @@ ms.locfileid: "41742787"
 
 _**トピックの最終更新日:** 2013-02-20_
 
-一般的なエリア電話とは、個々のユーザーに関連付けられていない IP 電話のことです。 通常、一般的なエリアの電話は、他のユーザーのオフィスにいなくても、ロビー、cafeterias、従業員 lounges、会議室など、多数のユーザーが収集する可能性のある場所に配置されています。 Lync Server の他の電話とは異なり、個々のユーザーに割り当てられている音声ポリシーとダイヤルプランを使うことによって管理されますが、一般的なエリア電話には個々のユーザーが割り当てられるわけではありません。 これは、他の電話とは異なる方法で管理する必要があることを意味します。
+共通領域電話は、個々のユーザーに関連付けられていない IP 電話です。 一般的なエリア電話は、誰かのオフィスに配置するのではなく、通常、ロビー、cafeterias、従業員 lounges、会議室、および多数の人々が収集する可能性のある場所の作成に配置されます。 Lync Server の他の電話とは異なり、個々のユーザーに割り当てられている音声ポリシーとダイヤルプランを使用することで管理されていますが、共通領域の電話には個々のユーザーが割り当てられることはありません。 これは、他の電話とは異なる方法で管理する必要があることを意味します。
 
-一般的なエリア電話を管理するために、ユーザーアカウントなどの一般的なエリアの携帯電話のための Active Directory ドメインサービスの連絡先オブジェクトを作成して、ポリシーや音声プランを割り当てることができます。 この方法により、共通のエリアの携帯電話を管理することができます。これらの電話は個々のユーザーに関連付けられているわけではありません。
+共通領域電話を管理するには、ユーザーアカウントなどの共通領域電話すべてに対して Active Directory ドメインサービスの連絡先オブジェクトを作成し、ポリシーおよび音声プランを割り当てることができます。 このアプローチを使用すると、これらの電話が個々のユーザーに関連付けられていない場合でも、共通領域電話の制御を維持できます。
 
-このセクションのトピックを使用して、一般的なエリア携帯電話の連絡先オブジェクトの作成、変更、削除、展開での一般的なエリア電話に関する構成情報の構成と表示を行う方法について説明します。
+このセクションのトピックを使用して、共通領域電話の連絡先オブジェクトを作成し、それを変更および削除し、展開内の共通領域電話に関する構成情報を構成および表示する方法について説明します。
 
 <div>
 
 
 > [!NOTE]  
-> 一般的なエリア携帯電話には、Aastra 6721ip 共通エリア電話、HP 4110 IP 電話、Polycom CX500 IP 共通エリア電話の3つのオプションがあります。 Polycom CX3000 IP 会議電話は、別のバリエーションの一般的な市外電話です。 ただし、会議室での使用を目的としています。 一般的なエリア電話の詳細については、「<A href="http://technet.microsoft.com/en-us/library/gg398958(v=ocs.14).aspx">新しいデバイスを選択</A>する」の「一般的な市外局番」のセクションを参照してください。
+> 共通領域電話には、Aastra 6721ip 共通領域電話、HP 4110 IP 電話、および Polycom CX500 IP 共通領域電話の3つのオプションがあります。 Polycom CX3000 IP 会議電話は、別のバリエーション共通領域電話です。 ただし、会議室での使用を目的としています。 共通領域電話の詳細については、「 <A href="http://technet.microsoft.com/library/gg398958(v=ocs.14).aspx">New Devices</A>」を選択するの「共通領域電話機」セクションを参照してください。
 
 
 
@@ -55,17 +55,17 @@ _**トピックの最終更新日:** 2013-02-20_
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 で一般的な市外局番情報を表示する](lync-server-2013-view-common-area-phone-information.md)
+  - [Lync Server 2013 で共通領域電話の情報を表示する](lync-server-2013-view-common-area-phone-information.md)
 
-  - [Lync Server 2013 で一般的なエリア電話の連絡先オブジェクトを作成または変更する](lync-server-2013-create-or-modify-a-common-area-phone-contact-object.md)
+  - [Lync Server 2013 で共通領域電話の連絡先オブジェクトを作成または変更する](lync-server-2013-create-or-modify-a-common-area-phone-contact-object.md)
 
-  - [Lync Server 2013 でホット desking を有効または無効にする](lync-server-2013-enable-or-disable-hot-desking.md)
+  - [Lync Server 2013 の [ホット desking] を有効または無効にする](lync-server-2013-enable-or-disable-hot-desking.md)
 
-  - [Lync Server 2013 で一般的なエリア電話の連絡先オブジェクトを削除する](lync-server-2013-delete-a-common-area-phone-contact-object.md)
+  - [Lync Server 2013 で共通領域電話の連絡先オブジェクトを削除する](lync-server-2013-delete-a-common-area-phone-contact-object.md)
 
-  - [Lync Server 2013 で共通の市外局番にポリシーを割り当てる](lync-server-2013-assign-policies-to-a-common-area-phone.md)
+  - [Lync Server 2013 のポリシーを共通領域電話に割り当てる](lync-server-2013-assign-policies-to-a-common-area-phone.md)
 
 </div>
 
