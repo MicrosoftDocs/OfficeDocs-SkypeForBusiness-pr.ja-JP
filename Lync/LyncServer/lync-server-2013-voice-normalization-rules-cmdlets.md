@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 音声正規化ルールコマンドレット'
+title: 'Lync Server 2013: 音声正規化ルールのコマンドレット'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184758
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0ea2374d334a617d7824a073e62f557e6ca9916
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1ce93f84f977630ec4b0764b67ce4622c9b81f53
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757191"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041537"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="voice-normalization-rules-cmdlets-in-lync-server-2013"></a>Lync Server 2013 の音声正規化ルールコマンドレット
+# <a name="voice-normalization-rules-cmdlets-in-lync-server-2013"></a>Lync Server 2013 の音声正規化ルールのコマンドレット
 
 </div>
 
@@ -35,37 +35,37 @@ ms.locfileid: "41757191"
 
 <span> </span>
 
-_**最終更新日:** 2012-06-20_
+_**トピックの最終更新日:** 2012-06-20_
 
-音声正規化規則を使用して、電話によるダイヤルの要件 (たとえば、外線へのダイヤル9など) を、Microsoft Lync Server 2013 で使用されている電子電話番号形式 (164) に変換します。
+音声正規化ルールは、電話ダイヤルの要件 (たとえば、9を外線にアクセスするためのダイヤル番号) を、Microsoft Lync Server 2013 で使用される e.164 電話番号形式に変換するために使用されます。
 
 <div>
 
-## <a name="voice-normalization-rules-cmdlets"></a>音声正規化ルールコマンドレット
+## <a name="voice-normalization-rules-cmdlets"></a>音声正規化ルールのコマンドレット
 
-音声正規化規則を管理するには、次のコマンドレットを使用できます。
+以下のコマンドレットを使用して、音声正規化ルールを管理できます。
 
 **音声正規化ルール**
 
   - <span></span>  
-    [Get-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398393(v=OCS.15))
+    [Get-csvoicenormalizationrule](https://technet.microsoft.com/library/Gg398393(v=OCS.15))
 
   - <span></span>  
-    [新規-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398240(v=OCS.15))
+    [Get-csvoicenormalizationrule](https://technet.microsoft.com/library/Gg398240(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398501(v=OCS.15))
+    [Get-csvoicenormalizationrule](https://technet.microsoft.com/library/Gg398501(v=OCS.15))
 
   - <span></span>  
-    [Set-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398491(v=OCS.15))
+    [Get-csvoicenormalizationrule](https://technet.microsoft.com/library/Gg398491(v=OCS.15))
 
   - <span></span>  
-    [テスト-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg399003(v=OCS.15))
+    [Get-csvoicenormalizationrule](https://technet.microsoft.com/library/Gg399003(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [新規-CsVoiceRegex](https://technet.microsoft.com/en-us/library/Gg412751(v=OCS.15))
+    [CsVoiceRegex](https://technet.microsoft.com/library/Gg412751(v=OCS.15))
 
 </div>
 
@@ -74,7 +74,7 @@ _**最終更新日:** 2012-06-20_
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 のエンタープライズボイスコマンドレット](lync-server-2013-enterprise-voice-cmdlets.md)  
+[Lync Server 2013 のエンタープライズ Voip のコマンドレット](lync-server-2013-enterprise-voice-cmdlets.md)  
 
 
 [Lync Server PowerShell ブログ](http://go.microsoft.com/fwlink/p/?linkid=203150)  

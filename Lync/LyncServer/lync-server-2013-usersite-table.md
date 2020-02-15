@@ -12,16 +12,16 @@ ms:contentKeyID: 48183552
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e316fe33ac77784a681a71b9cabd0613bb1cc1b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 47d416017afdc36eefaffd3269359bcd0192a0c5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744267"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044369"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41744267"
 
 <span> </span>
 
-_**最終更新日:** 2010-11-09_
+_**トピックの最終更新日:** 2010-11-09_
 
-UserSite テーブルは、サポートされているテーブルです。 各レコードは、[ネットワーク構成] の設定で定義された1つのユーザーサイトを表します。
+UserSite テーブルはサポート テーブルです。各レコードは、ネットワーク構成の設定で定義されている 1 つのユーザー サイトを表します。
 
 
 <table>
@@ -60,19 +60,19 @@ UserSite テーブルは、サポートされているテーブルです。 各�
 <td><p><strong>UserSiteKey</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>ユーザーサイトを識別する一意の番号です。</p></td>
+<td><p>ユーザー サイトを示す一意の番号です。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserSiteName</strong></p></td>
 <td><p>nvarchar(128</p></td>
 <td><p>一意</p></td>
-<td><p>ユーザーサイトの名前。</p></td>
+<td><p>ユーザー サイトの名前です。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RegionKey</strong></p></td>
 <td><p>int</p></td>
 <td><p>外部</p></td>
-<td><p><a href="lync-server-2013-region-table.md">Lync Server 2013 の地域テーブル</a>から参照されている。</p></td>
+<td><p><a href="lync-server-2013-region-table.md">Lync Server 2013 の Region テーブル</a>から参照されます。</p></td>
 </tr>
 </tbody>
 </table>

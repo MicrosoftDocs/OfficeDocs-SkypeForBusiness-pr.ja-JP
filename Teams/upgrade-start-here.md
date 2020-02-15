@@ -26,12 +26,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ebbefefa64df4ac2a27b4b5cc10cd447327281f
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: d9f45ba60aeaff37f77769966ed97f50aec2950a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837087"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045049"
 ---
 # <a name="getting-started-with-your-microsoft-teams-upgrade"></a>Microsoft Teams へのアップグレードを開始する
 
@@ -41,7 +41,7 @@ Skype for Business Online から Teams にアップグレードする場合で�
 
 ## <a name="why-upgrade-to-microsoft-teams"></a>Microsoft Teams にアップグレードする理由
 
-Microsoft Teams は、Skype for Business の機能を拡張し、チャット、会議、通話、共同作業、アプリの統合、ファイルストレージを1つのインターフェイスにまとめます。 この新しいチームワークの中央ハブは、ユーザーが作業を完了し、ユーザーの満足度を向上させ、ビジネスの成果を高めるために役立ちます。 Microsoft は、チームの機能を継続的に拡張し、新しい方法でのコミュニケーションと共同作業を可能にし、組織および地理的な障壁を分解し、プロセスおよび意思決定を効率化しています。 Forrester レポートで Teams にアップグレードする利点の詳細については、「 [Microsoft Teams による全体的な影響度](https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams-Infographic.pdf)」を参照してください。  
+Microsoft Teams は、Skype for Business の機能を拡張し、チャット、会議、通話、共同作業、アプリの統合、ファイルストレージを1つのインターフェイスにまとめます。 この新しいチームワークの中央ハブは、ユーザーが作業を完了し、ユーザーの満足度を向上させ、ビジネスの成果を高めるために役立ちます。 Microsoft は、チームの機能を継続的に拡張し、新しい方法でのコミュニケーションと共同作業を可能にし、組織および地理的な障壁を分解し、プロセスおよび意思決定を効率化しています。 Forrester レポートで Teams にアップグレードする利点の詳細については、「 [Microsoft Teams による全体的な影響度](https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams-Infographic.pdf)」を参照してください。  
 
 ## <a name="when-should-my-organization-upgrade-to-teams"></a>組織が Teams にアップグレードされるのはいつですか?
 

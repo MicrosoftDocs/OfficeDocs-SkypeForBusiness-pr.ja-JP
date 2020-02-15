@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ユニファイド連絡先ストアへのアクセスのテスト'
+title: 'Lync Server 2013: 統合連絡先ストアのアクセスのテスト'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969621
 ms.date: 05/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 47d5d216a1d7a389f20bf2c59f94baf54636d409
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ff28fa3ba945c49bee6e5474cb841886bb54d8a0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745407"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041984"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="testing-unified-contact-store-access-in-lync-server-2013"></a>Lync Server 2013 での統合連絡先ストアへのアクセスのテスト
+# <a name="testing-unified-contact-store-access-in-lync-server-2013"></a>Lync Server 2013 での統合連絡先ストアアクセスのテスト
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41745407"
 
 <span> </span>
 
-_**最終更新日:** 2015-05-15_
+_**トピックの最終更新日:** 2015-05-15_
 
 
 <table>
@@ -45,8 +45,8 @@ _**最終更新日:** 2015-05-15_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>確認のスケジュール</p></td>
-<td><p>[毎日]</p></td>
+<td><p>検証スケジュール</p></td>
+<td><p>毎日</p></td>
 </tr>
 <tr class="even">
 <td><p>テストツール</p></td>
@@ -54,8 +54,8 @@ _**最終更新日:** 2015-05-15_
 </tr>
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
-<td><p>Lync Server 管理シェルを使用してローカルで実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使って実行する場合は、 <strong>CsUnifiedContactStore</strong>コマンドレットを実行するためのアクセス許可が与えられている RBAC の役割をユーザーに割り当てる必要があります。 このコマンドレットを使うことができるすべての RBAC ロールの一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合は、 <strong>test-csunifiedcontactstore</strong>コマンドレットを実行するためのアクセス許可を持つ RBAC の役割がユーザーに割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsUnifiedContactStore&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,11 +66,11 @@ _**最終更新日:** 2015-05-15_
 
 ## <a name="description"></a>説明
 
-Lync Server 2013 で導入された統合連絡先ストアでは、管理者はユーザーの連絡先を Lync Server ではなく Microsoft Exchange Server 2013 に保存するオプションが提供されます。 これにより、ユーザーは Lync 2013 だけでなく、Outlook Web Access でも同じ連絡先のセットにアクセスできるようになります。 (または、引き続き Lync Server に連絡先を保存することができます。 この場合、ユーザーは、Outlook と Outlook Web Access で使用するためと Lync 2013 で使用するために、2つの別々の連絡先を管理する必要があります。
+Lync Server 2013 で導入された統合連絡先ストアによって、管理者は、ユーザーの連絡先を Lync Server ではなく Microsoft Exchange Server 2013 に保存するオプションを選択できます。 これにより、ユーザーは Lync 2013 に加えて、Outlook Web Access 内の同じ連絡先セットにアクセスできるようになります。 (または、引き続き Lync Server に連絡先を保存することができます。 その場合、ユーザーは2つの別々の連絡先セットを保持する必要があります。1つは Outlook と Outlook Web Access で使用し、もう1つは Lync 2013 で使用するためです。
 
-**CsUnifiedContactStore**コマンドレットを実行することで、ユーザーの連絡先がユニファイド連絡先ストアに移動されたかどうかを確認できます。 **CsUnifiedContactStore**コマンドレットは、指定されたユーザーアカウントを受け取り、ユニファイド連絡先ストアに接続して、ユーザーの連絡先を取得しようとします。 連絡先を取得できない場合、コマンドは "ユーザーの連絡先は受信されませんでした" というメッセージと共に失敗します。 ユーザーに対して連絡先が存在することを確認します。 "
+**Test-csunifiedcontactstore**コマンドレットを実行して、ユーザーの連絡先が統合連絡先ストアに移動されたかどうかを判断できます。 **Test-csunifiedcontactstore**コマンドレットは、指定されたユーザーアカウントを取得し、統合連絡先ストアに接続して、ユーザーの連絡先を取得しようとします。 連絡先を取得できない場合、コマンドは "ユーザーの連絡先は受信されていません" というメッセージと共に失敗します。 ユーザーの連絡先が存在することを確認します。
 
-ユーザーが統合された連絡先ストアに正常に移行したが、連絡先リストに連絡先がない場合は、 **CsUnifiedContactStore**コマンドレットが失敗します。 指定したユーザーは、 **CsUnifiedContactStore**コマンドレットを正常に完了するために、少なくとも1つの連絡先を持っている必要があります。
+ユーザーが統合連絡先ストアに正常に移行されたが、連絡先リストに連絡先が存在しない場合、 **test-csunifiedcontactstore**コマンドレットは失敗します。 **Test-csunifiedcontactstore**コマンドレットを正常に完了するには、指定されたユーザーが少なくとも1つの連絡先を持っている必要があります。
 
 </div>
 
@@ -78,9 +78,9 @@ Lync Server 2013 で導入された統合連絡先ストアでは、管理者は
 
 ## <a name="running-the-test"></a>テストの実行
 
-次の例に示すコマンドは、ユーザー litwareinc\\kenmyer の連絡先がユニファイド連絡先ストアで見つかるかどうかを決定します。 これを行うには、この例の最初のコマンドでは、 **Credential**コマンドレットを使って、user litwareinc\\kenmyer の Windows PowerShell コマンドラインインターフェイスの credentials オブジェクトを作成します。 有効な資格情報オブジェクトを作成し、 **CsUnifiedContactStore**コマンドレットでチェックを実行できるようにするには、このアカウントのパスワードを指定する必要があることに注意してください。
+次の例に示すコマンドは、ユーザー litwareinc\\kenmyer の連絡先が統合連絡先ストアにあるかどうかを判断します。 これを行うには、この例の最初のコマンド**は、litwareinc コマンドレットを**使用して、user\\kenmyer の Windows PowerShell コマンドラインインターフェイス資格情報オブジェクトを作成します。 有効な資格情報オブジェクトを作成し、 **test-csunifiedcontactstore**コマンドレットでチェックを実行できることを確認するには、このアカウントのパスワードを指定する必要があることに注意してください。
 
-この例の2番目のコマンドでは、指定された資格情報オブジェクト ($x) と\\ユーザーの litwareinc KENMYER の SIP アドレスを使って、自分の連絡先がユニファイド連絡先ストアで見つかるかどうかを確認します。
+この例の2番目のコマンドでは、指定された credentials オブジェクト ($x) とユーザー\\litwareinc KENMYER の SIP アドレスを使用して、その連絡先が統合連絡先ストアに存在するかどうかを判断します。
 
     $credential = Get-Credential "litwareinc\kenmyer"
     
@@ -90,31 +90,31 @@ Lync Server 2013 で導入された統合連絡先ストアでは、管理者は
 
 <div>
 
-## <a name="determining-success-or-failure"></a>成功または失敗を確認する
+## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
-連絡先ストアへのアクセスが適切に構成されている場合は、次のような結果が返され、Result プロパティは Success とマークされ**ます。**
+連絡先ストアへのアクセスが正しく構成されている場合は、次のような出力が得られ、Result プロパティは Success としてマークされ**ます。**
 
 ターゲット Fqdn: atl-cs-001.litwareinc.com
 
 結果: 成功
 
-待ち時間:00:00: 14.9862716
+待機時間:00:00: 14.9862716
 
 エラーメッセージ:
 
-診断
+分析
 
-連絡先ストアへのアクセスが正しく構成されていない場合は、結果が**失敗**として表示され、エラーと診断のプロパティに追加の情報が記録されます。
+連絡先ストアへのアクセスが正しく構成されていない場合、結果は**失敗**として表示され、追加情報が Error および診断プロパティに記録されます。
 
-警告: 指定した完全修飾のレジストラーポート番号の読み取りに失敗しました
+警告: 指定された完全修飾のレジストラーポート番号を読み取ることができませんでした
 
-ドメイン名 (FQDN)。 既定のレジストラーポート番号を使用します。 エラー
+ドメイン名 (FQDN)。 既定のレジストラーポート番号を使用します。 例外
 
-InvalidOperationException: トポロジで一致するクラスターが見つかりませんでした。
+System.invalidoperationexception: トポロジ内に一致するクラスターが見つかりませんでした。
 
-自宅
+下部
 
-SipSyntheticTransaction-TryRetri の同期を行います。
+TryRetri を SipSyntheticTransaction していることを示します。
 
 eveRegistrarPortFromTopology (Int32& registrarPortNumber)
 
@@ -122,37 +122,37 @@ eveRegistrarPortFromTopology (Int32& registrarPortNumber)
 
 結果: エラー
 
-待ち時間: 00:00:00
+待機時間: 00:00:00
 
-エラーメッセージ: 10060、接続されているパーティのため、接続に失敗しました
+エラーメッセージ: 10060。接続しているパーティが原因で接続に失敗しました。
 
-一定の期間が経過した後に正しく応答しなかった場合、または
+一定期間後に正しく応答しなかったか、または
 
-接続されているホストに、接続に失敗しました
+接続されたホストの接続に失敗しました。
 
-10.188.116.96 に応答できませんでした: 5061
+10.188.116.96: 5061 に応答できませんでした
 
-内部例外: 接続の試行が失敗したため、接続できませんでした。
+内部例外: 接続の試行が失敗しました。
 
-しばらくしても、接続されているパーティが正しく応答しませんでした
+接続されたパーティは、一定期間の後に正しく応答しませんでした
 
-接続されているホストが原因で、時刻、または接続に失敗しました
+接続されているホストが原因で、接続に失敗しました。
 
-さんが10.188.116.96 に応答できませんでした: 5061
+10.188.116.96: 5061 に応答できませんでした
 
-診断
+分析
 
 </div>
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a>テストに失敗した可能性がある理由
+## <a name="reasons-why-the-test-might-have-failed"></a>テストが失敗した理由
 
-次に **、テスト-CsUnifiedContactStore**が失敗する可能性がある一般的な理由を示します。
+**Test-csunifiedcontactstore**が失敗する可能性のある一般的な原因を次に示します。
 
-  - 指定されたパラメーター値が正しくありません。 使用する場合は、オプションのパラメーターが正しく構成されている必要があります。または、テストが失敗します。 省略可能なパラメーターを指定せずにコマンドを再実行し、それが成功するかどうかを確認します。
+  - 指定されたパラメーター値が正しくありません。 省略可能なパラメーターが使用されている場合、オプションのパラメーターが正しく構成されている必要があります。テストは失敗します。 オプションのパラメーターを指定せずにコマンドを再実行し、それが成功するかどうかを確認します。
 
-  - ユニファイド連絡先ストアに接続できませんでした。ユーザーの連絡先を取得しようとしましたが、できませんでした。 ネットワーク接続に問題がある可能性があります。
+  - 統合連絡先ストアに接続できませんでした。ユーザーの連絡先を取得しようとしましたができませんでした。 ネットワーク接続の問題が発生している可能性があります。
 
 </div>
 
@@ -161,8 +161,8 @@ eveRegistrarPortFromTopology (Int32& registrarPortNumber)
 ## <a name="see-also"></a>関連項目
 
 
-[New-CsUserServicesPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsUserServicesPolicy)  
-[Set-CsUserServicesPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsUserServicesPolicy)  
+[新しい-Csuserサービスポリシー](https://docs.microsoft.com/powershell/module/skype/New-CsUserServicesPolicy)  
+[設定-Csuserサービスポリシー](https://docs.microsoft.com/powershell/module/skype/Set-CsUserServicesPolicy)  
   
 
 </div>

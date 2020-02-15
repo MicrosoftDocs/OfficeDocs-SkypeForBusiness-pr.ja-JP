@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: コール パークでサポートされているクライアント'
+title: 'Lync Server 2013: コールパークでサポートされているクライアント'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185320
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 52304a0241425a3b88c7f9419afa57f3d768fbb0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ee3916e74a68121b027061429bacb44e2dafacdb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756461"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044219"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="clients-supported-for-call-park-in-lync-server-2013"></a>Lync Server 2013 のコール パークでサポートされているクライアント
+# <a name="clients-supported-for-call-park-in-lync-server-2013"></a>Lync Server 2013 のコールパークに対してサポートされているクライアント
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41756461"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-13_
+_**トピックの最終更新日:** 2012-09-13_
 
-このセクションでは、通話をパークするために使用できるクライアントと、保留中の通話を取得するために使用できるクライアントを示します。
+ここでは、通話を保留するために使用できるクライアントと、保留された通話を取得するために使用できるクライアントを示します。
 
 <div>
 
@@ -49,13 +49,13 @@ IP、構内交換機 (PBX)、公衆交換電話網 (PSTN)、または携帯電�
 
 
 > [!NOTE]  
-> 音声通話だけを保留できます。インスタント メッセージと電話会議は保留できません。
+> 音声通話だけを保留できます。 インスタント メッセージと電話会議は保留できません。
 
 
 
 </div>
 
-次のクライアントでは、通話パークを使って通話をパークできます。
+次のクライアントは、コールパークを使用して通話をパークできます。
 
   - Lync 2013
 
@@ -69,7 +69,7 @@ IP、構内交換機 (PBX)、公衆交換電話網 (PSTN)、または携帯電�
 
 
 > [!NOTE]  
-> 携帯電話では、通話パークを使って通話をパークすることはできません。
+> 携帯電話は、コールパークを使用して通話をパークすることはできません。
 
 
 
@@ -81,11 +81,11 @@ IP、構内交換機 (PBX)、公衆交換電話網 (PSTN)、または携帯電�
 
 ## <a name="clients-supported-for-retrieving-calls"></a>通話の取得をサポートするクライアント
 
-オービット範囲は仮想の内線番号 (ユーザーまたは電話が割り当てられていない内線番号) のブロックとして構成されます。オービットを仮想の内線番号として構成すると、携帯電話と PSTN 電話は保留された通話を取得できません。
+オービット範囲は仮想の内線番号 (ユーザーまたは電話が割り当てられていない内線番号) のブロックとして構成されます。 オービットを仮想の内線番号として構成すると、携帯電話と PSTN 電話は保留された通話を取得できません。
 
 フェデレーション ユーザーは保留された通話を取得できません。
 
-次のクライアントは、コールパークで保留中の通話を取得できます。
+次のクライアントは、コールパークで保留されている通話を取得できます。
 
   - Lync 2013
 
@@ -97,7 +97,7 @@ IP、構内交換機 (PBX)、公衆交換電話網 (PSTN)、または携帯電�
 
   - IP 共通領域電話
 
-  - 一般的な市外局番、構内交換機 (PBX) 電話など、Lync Server 2013 インフラストラクチャに接続されている IP 以外の電話
+  - 共通領域電話、構内交換機 (PBX) 電話を含む、Lync Server 2013 のインフラストラクチャに接続されている非 IP 電話
 
 </div>
 

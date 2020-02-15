@@ -12,20 +12,20 @@ ms:contentKeyID: 51541414
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 893205127b6b1ccba958a0882c3aa0d1360a7c06
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8a3674742cedbdfb267326e0170703f3fbc3ba3b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730567"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044269"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="introduction"></a>概要
+# <a name="introduction"></a>はじめに
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41730567"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-24_
+_**トピックの最終更新日:** 2013-02-24_
 
-Lync Server 2013 のストレスとパフォーマンスツール (LyncPerfTool とも呼ばれます) では、次の種類のユーザーロードをシミュレートできます。
+Lync Server 2013 ストレスおよびパフォーマンスツール (LyncPerfTool と呼ばれます) は、次の種類のユーザーロードをシミュレートできます。
 
 
 <table>
@@ -47,12 +47,12 @@ Lync Server 2013 のストレスとパフォーマンスツール (LyncPerfTool 
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>インスタントメッセージング (IM) とプレゼンス</p></td>
+<td><p>インスタント メッセージング (IM) およびプレゼンス</p></td>
 <td><p>電話会議</p></td>
 </tr>
 <tr class="even">
 <td><p>アプリケーション共有</p></td>
-<td><p>VoIP (公衆交換電話網 (PSTN) シミュレーションを含む) ボイスオーバー IP (VoIP)</p></td>
+<td><p>公衆交換電話網 (PSTN) シミュレーションを含むボイスオーバー IP (VoIP)</p></td>
 </tr>
 <tr class="odd">
 <td><p>Web Access クライアント会議</p></td>
@@ -64,10 +64,10 @@ Lync Server 2013 のストレスとパフォーマンスツール (LyncPerfTool 
 </tr>
 <tr class="odd">
 <td><p>アドレス帳のダウンロードとアドレス帳のクエリ</p></td>
-<td><p>拡張 9-1-1 (E9) 通話と位置情報プロファイル (ダイヤルプラン)</p></td>
+<td><p>拡張 9-1-1 (E9-1-1) 通話と場所プロファイル (ダイヤルプラン)</p></td>
 </tr>
 <tr class="even">
-<td><p>MultiView</p></td>
+<td><p>マルチビュー</p></td>
 <td><p>会議から複数のストリームを表示する</p></td>
 </tr>
 <tr class="odd">
@@ -78,25 +78,25 @@ Lync Server 2013 のストレスとパフォーマンスツール (LyncPerfTool 
 </table>
 
 
-Lync Server 2013 のストレスとパフォーマンスツールは、高度な構成のみを通じて、クロスプールの負荷生成とフェデレーションをサポートします。
+Lync Server 2013 ストレスおよびパフォーマンスツールは、高度な構成のみを通じて、クロスプールの負荷生成とフェデレーションをサポートします。
 
-このツールでは、次のクライアントのユーザーロードもシミュレートされません。
+このツールでは、次のクライアントのユーザー負荷もシミュレートされません。
 
   - Office Live Meeting 2007
 
   - Lync 2013 常設チャット
 
-このため、Lync Server 2013 のストレスとパフォーマンスツールは、次のコンポーネントのテストをサポートしていません。
+そのため、Lync Server 2013 ストレスおよびパフォーマンスツールでは、次のコンポーネントのテストはサポートされません。
 
   - Lync 2013 常設チャット
 
-  - Exchange の統合シナリオ
+  - Exchange 統合のシナリオ
 
 <div>
 
-## <a name="applications-and-files-included-with-the-lync-server-2013-stress-and-performance-tool"></a>Lync Server 2013 のストレスとパフォーマンスツールに含まれているアプリケーションとファイル
+## <a name="applications-and-files-included-with-the-lync-server-2013-stress-and-performance-tool"></a>Lync Server 2013 ストレスおよびパフォーマンスツールに含まれているアプリケーションとファイル
 
-Lync Server 2013 のストレスとパフォーマンスツールには、次のアプリケーションが含まれています。
+Lync Server 2013 のストレスおよびパフォーマンスツールには、次のアプリケーションが含まれています。
 
 
 <table>
@@ -116,12 +116,12 @@ Lync Server 2013 のストレスとパフォーマンスツールには、次の
 <td><p>Lync Server 2013 ユーザープロビジョニングツール。 このツールは、ユーザーと連絡先を作成するために使用されます。</p></td>
 </tr>
 <tr class="even">
-<td><p>UserProfileGenerator</p></td>
-<td><p>Lync Server 2013 のロード構成ツール。 このツールは、シミュレートするためのユーザーロードの特性を構成するために使用されます。</p></td>
+<td><p>Userprofilegenerator.exe</p></td>
+<td><p>Lync Server 2013 Load 構成ツール。 このツールは、シミュレートするユーザーロードの特性を構成するために使用されます。</p></td>
 </tr>
 <tr class="odd">
 <td><p>LyncPerfTool</p></td>
-<td><p>Lync Server 2013 ストレスおよびパフォーマンスツール。 LyncPerfTool は、ユーザーロードをシミュレートするツールです。</p></td>
+<td><p>Lync Server 2013 ストレスおよびパフォーマンスツール。 LyncPerfTool は、ユーザー負荷をシミュレートするツールです。</p></td>
 </tr>
 <tr class="even">
 <td><p>Tmx</p></td>
@@ -129,7 +129,7 @@ Lync Server 2013 のストレスとパフォーマンスツールには、次の
 </tr>
 <tr class="odd">
 <td><p>プロビジョニングスクリプトの例</p></td>
-<td><p>次の例は、特定のシナリオに基づいて、ロードテストを実行するためのトポロジを構成するために使用されます。</p></td>
+<td><p>これらの例は、特定のシナリオに基づいて、ロードテストを実行するためのトポロジを構成するために使用されます。</p></td>
 </tr>
 </tbody>
 </table>

@@ -12,16 +12,16 @@ ms:contentKeyID: 48184222
 ms.date: 02/01/2018
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 210debb3c3879d6895b127b960139970bf73d020
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 59a9e05c828f78dc3d34321833c634f6bd437503
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756071"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043069"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,27 +35,27 @@ ms.locfileid: "41756071"
 
 <span> </span>
 
-_**最終更新日:** 2018-02-01_
+_**トピックの最終更新日:** 2018-02-01_
 
-応答グループは、ヘルプデスクなどの特定の領域に発信された通話をキューに追加して、その通話を*エージェント*と呼ばれる指定したユーザーのグループにルーティングすることを可能にする、通話管理機能です。
+応答グループは、ヘルプ デスクなどの特定の領域への通話をキューに登録し、**"エージェント" と呼ばれる人々の指定のグループにそれらの通話をルーティングできる通話管理機能です。
 
-応答グループを管理するには、エージェントグループ、キュー、ワークフローを構成します。これは、エージェントが応答するまでの間に発信された通話に対する処理を定義します。
+応答グループを管理するには、エージェント グループ、キュー、およびワークフローを構成します。これにより、通話が発生した時点からエージェントがその通話に応答するまでの間に行われる処理が定義されます。
 
 <div>
 
 
 > [!NOTE]  
-> 応答グループの展開で300ワークフローが1つのプールに含まれている場合は、Lync Server Management Shell コマンドレットを使用してワークフローを作成することをお勧めします。 [応答グループ] 構成ツールを使用して、300ワークフローを超えるプールのワークフローを作成すると、web ページの読み込みに時間がかかる場合があります。 キュー経由でワークフローに間接的に関連付けられているエージェントの数にも、ページの読み込みに比例した効果があります。
+> 応答グループ展開の1つのプールに300を超えるワークフローがある場合は、Lync Server 管理シェルコマンドレットを使用してワークフローを作成することをお勧めします。 応答グループ構成ツールを使用して、300 個を超えるワークフローがあるプールのワークフローを作成すると、Web ページの読み込みに時間がかかります。 キューを経由してワークフローに間接的に関連付けられているエージェントの数には、ページの読み込みに比例した影響もあります。
 
 
 
 </div>
 
-このセクションのトピックでは、展開で応答グループアプリケーションをカスタマイズして維持するために実行できるタスクのステップバイステップの手順について説明します。
+このセクションのトピックでは、展開で応答グループアプリケーションをカスタマイズして管理するために実行できるタスクの詳細な手順について説明します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
   - [Lync Server 2013 での応答グループエージェントグループの管理](lync-server-2013-managing-response-group-agent-groups.md)
 
@@ -63,11 +63,11 @@ _**最終更新日:** 2018-02-01_
 
   - [Lync Server 2013 での応答グループワークフローの管理](lync-server-2013-managing-response-group-workflows.md)
 
-  - [Lync Server 2013 でのアプリケーションレベルの応答グループの設定の管理](lync-server-2013-managing-application-level-response-group-settings.md)
+  - [Lync Server 2013 でのアプリケーションレベルの応答グループ設定の管理](lync-server-2013-managing-application-level-response-group-settings.md)
 
   - [Lync Server 2013 の新しいプールへの応答グループの移動](lync-server-2013-moving-response-groups-to-a-new-pool.md)
 
-  - [障害時の Lync Server 2013 での応答グループの管理](lync-server-2013-managing-response-groups-during-a-disaster.md)
+  - [障害時に Lync Server 2013 で応答グループを管理する](lync-server-2013-managing-response-groups-during-a-disaster.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 物理環境を確認する'
+title: 'Lync Server 2013: 物理環境の確認'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969582
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8838e5d3dfd1e3590f7988102f187c49114fc233
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6d8838336fbea4f901b763b7ca034f42e957de33
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734007"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043499"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="performing-physical-environmental-checks"></a>物理的な環境のチェックを実行する
+# <a name="performing-physical-environmental-checks"></a>物理的な環境のチェックの実行
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41734007"
 
 <span> </span>
 
-_**最終更新日:** 2014-04-30_
+_**トピックの最終更新日:** 2014-04-30_
 
-Lync Server 2013 展開のパフォーマンス、可用性、機能を確認する前に、物理環境を確認する必要があります。 たとえば、サーバーの室温の温度が下げられているか、ネットワークケーブルを交換しなければならない場合があります。 最善の結果を得るには、次の物理的な環境検査を実行します。
+Lync Server 2013 展開のパフォーマンス、可用性、および機能を確認する前に、物理環境を確認する必要があります。 たとえば、サーバーの室温を下げる必要がある場合や、ネットワークケーブルを交換する必要がある場合があります。 最良の結果を得るには、次の物理的な環境検査を実行します。
 
-  - **物理セキュリティ**   は、ロック、ドア、アクセス制限されたルームなどの物理的なセキュリティ保護を保護する必要があります。 許可されていない強制された入力と機器の破損を確認します。
+  - **物理的なセキュリティ対策**   ロック、ドア、制限付きアクセスルームなどの物理的なセキュリティ保護をセキュリティで保護する必要があります。 許可されていない強制のエントリと機器の損傷の兆候を確認します。
 
-  - **温度と湿度**   の高温、低品質の気流、湿度は、ハードウェアコンポーネントのオーバーヒートを引き起こす可能性があります。 温度と湿度をチェックして、加熱や空調などの環境システムがハードウェアの製造元の仕様に従って許容条件を満たしていることを確認します。 新しい機器が最近インストールされた場合は、両サーバー間の気流フローが unimpeded であり、製造元の仕様を満たしていることも確認してください。
+  - **温度と湿度**   の高い気温、通気流量、および湿度は、ハードウェアコンポーネントのオーバーヒートを引き起こす可能性があります。 温度と湿度をチェックして、暖房や空調などの環境システムが、ハードウェア製造元の仕様の範囲内で許容できる条件と機能を維持できることを確認してください。 新しい装置を最近インストールした場合は、サーバーとの間の気流フローが unimpeded で、製造元の仕様を満たしていることも確認してください。
 
-  - **デバイスとコンポーネント**   Lync Server 2013 組織は、機能している物理ネットワークと関連ハードウェアに依存しています。 ルーター、スイッチ、ハブ、物理ケーブル、コネクタが動作可能であることを確認します。
+  - **デバイスとコンポーネント**   Lync Server 2013 組織は、機能している物理ネットワークと関連するハードウェアに依存しています。 ルーター、スイッチ、ハブ、物理ケーブル、およびコネクタが動作していることを確認してください。
 
-これらのチェックを行う方法についての詳細は、インストールサイトと選択されたサーバーハードウェアによって大きく異なります。 このチェックを初めて実行するときは、ハードウェアのドキュメントを参照し、後で参照するために必要なパラメーターをメモしてください。
+これらのチェックを実行する方法についての詳細は、インストールサイトと選択したサーバーハードウェアに大きく依存します。 このチェックを初めて実行するときは、ハードウェアのドキュメントを参照し、後で参照するために必要なパラメーターを確認してください。
 
-### <a name="desired-server-space-environment"></a>必要なサーバースペース環境
+### <a name="desired-server-space-environment"></a>必要なサーバー容量環境
 
 <table>
 <colgroup>
@@ -62,7 +62,7 @@ Lync Server 2013 展開のパフォーマンス、可用性、機能を確認す
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>危険</p></td>
+<td><p>温度</p></td>
 <td></td>
 </tr>
 <tr class="even">
@@ -70,11 +70,11 @@ Lync Server 2013 展開のパフォーマンス、可用性、機能を確認す
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>サーバーの正面</p></td>
-<td><p>ホット通路/低通路</p></td>
+<td><p>サーバーフェイスの正面</p></td>
+<td><p>ホット通路/コールド通路</p></td>
 </tr>
 <tr class="even">
-<td><p>Unimpeded 排気クリアランス</p></td>
+<td><p>Unimpeded 排気認可上限</p></td>
 <td></td>
 </tr>
 </tbody>

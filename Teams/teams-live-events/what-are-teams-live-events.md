@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c3a32b49b6b95a2feea222d880a0e943c7189d0
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 23d0aac3fd5697b8e06c727acb3138a878e38bea
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827005"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008089"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams のライブ イベントについて
 
@@ -48,7 +48,7 @@ Teams のライブイベントにより、複数の役割 (開催者、プロデ
 上の図では、Teams でライブイベントと共に使用される4つの主要コンポーネントがあることがわかります。
 
 > [!NOTE]
-> ライブイベントと出席者エクスペリエンスのセットアップ方法の概要については、次の短い[ビデオ](https://support.office.com/en-us/article/video-plan-and-schedule-a-live-event-f92363a0-6d98-46d2-bdd9-f2248075e502)をご覧ください。
+> ライブイベントと出席者エクスペリエンスのセットアップ方法の概要については、次の短い[ビデオ](https://support.office.com/article/video-plan-and-schedule-a-live-event-f92363a0-6d98-46d2-bdd9-f2248075e502)をご覧ください。
 
 ### <a name="scheduling"></a>管理
 チームは、開催者が適切な出席者権限を持つイベントを作成し、イベントチームメンバーを指定し、運用方法を選択して、出席者を招待する機能を提供します。 ライブイベントが Yammer グループ内で作成された場合、ライブイベントの出席者は、イベントでのユーザーとのやり取りに Yammer の会話を使用できます。 

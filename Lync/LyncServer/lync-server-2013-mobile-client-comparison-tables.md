@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013:  モバイル クライアントの比較表'
+title: 'Lync Server 2013: モバイルクライアントの比較表'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541531
 ms.date: 09/21/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e326ddd479a3d414563b3dd690ecce758f16a9ef
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4f9a3627930f65740fdd00596ddde24cde4dabc3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758745"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044909"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="mobile-client-comparison-tables-for-lync-server-2013"></a>Lync Server 2013 のモバイル クライアントの比較表
+# <a name="mobile-client-comparison-tables-for-lync-server-2013"></a>Lync Server 2013 のモバイルクライアントの比較表
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41758745"
 
 <span> </span>
 
-_**最終更新日:** 2015-09-21_
+_**トピックの最終更新日:** 2015-09-21_
 
-次の表は、Lync 2013 モバイルクライアントと Lync 2013 デスクトップクライアントの機能を比較したものです。次のカテゴリがあります。
+次の表では、Lync 2013 モバイルクライアントと Lync 2013 デスクトップクライアントの機能を次のカテゴリで比較します。
 
   - サインイン、プッシュ通知、および一般的な機能
 
@@ -47,17 +47,17 @@ _**最終更新日:** 2015-09-21_
 
   - インスタント メッセージング (IM)
 
-  - Lync 間の音声とビデオ
+  - Lync 間の音声およびビデオ
 
   - 会議
 
-  - テレフォニー
+  - 網
 
   - 外部ユーザー
 
   - アーカイブとコンプライアンス
 
-次の表は、Lync Server 2013 のオンプレミス展開で Lync ユーザーが利用できる機能を示しています。 表の脚注に記載されていない場合は、Skype for Business Online および Microsoft Office 365 ユーザーも同じ機能を利用できます。
+これらの表は、Lync Server 2013 の社内展開で Lync ユーザーが利用できる機能を示しています。 表の脚注に特に明記されていない限り、同じ機能は、Skype for Business Online および Microsoft Office 365 ユーザーにも使用できます。
 
 <div>
 
@@ -65,13 +65,13 @@ _**最終更新日:** 2015-09-21_
 > [!NOTE]  
 > <UL>
 > <LI>
-> <P>Skype for Business のモバイルクライアントの比較表をお探しですか? 「 <A href="https://technet.microsoft.com/en-us/library/dn951412.aspx">Skype For business のモバイルクライアントの比較表」を</A>参照してください。</P>
+> <P>Skype for Business のモバイルクライアントの比較表を参照してください。 「 <A href="https://technet.microsoft.com/library/dn951412.aspx">Skype For business のモバイルクライアントの比較表」を</A>参照してください。</P>
 > <LI>
 > <P>エンドユーザー向けのオンラインヘルプとリソースについては、「 <A href="http://go.microsoft.com/fwlink/?linkid=286237">Microsoft Lync 2013 For Mobile Clients</A>」を参照してください。</P>
 > <LI>
-> <P>Lync 2013 クライアントで利用できる機能を比較するには、「 <A href="lync-server-2013-desktop-client-comparison-tables.md">Lync Server 2013 のクライアント比較表</A>」を参照してください。</P>
+> <P>他の Lync 2013 クライアントで利用可能な機能を比較するには、「 <A href="lync-server-2013-desktop-client-comparison-tables.md">Lync Server 2013 のクライアントの比較表</A>」を参照してください。</P>
 > <LI>
-> <P>Lync Server 2013 は Lync 2010 モバイルアプリもサポートしています。 詳細については、「Lync Server 2010 ドキュメントの<A href="http://go.microsoft.com/fwlink/p/?linkid=234777">モバイルクライアントの比較表</A>」を参照してください。</P></LI></UL>
+> <P>Lync Server 2013 では、Lync 2010 モバイルアプリもサポートしています。 詳細については、「Lync Server 2010 のドキュメントの「<A href="http://go.microsoft.com/fwlink/p/?linkid=234777">モバイルクライアントの比較表</A>」を参照してください。</P></LI></UL>
 
 
 
@@ -79,7 +79,7 @@ _**最終更新日:** 2015-09-21_
 
 <div>
 
-## <a name="sign-in-push-notifications-and-general-features"></a>サインイン、プッシュ通知、一般的な機能
+## <a name="sign-in-push-notifications-and-general-features"></a>サインイン、プッシュ通知、および一般的な機能
 
 
 <table style="width:100%;">
@@ -93,7 +93,7 @@ _**最終更新日:** 2015-09-21_
 </colgroup>
 <thead>
 <tr class="header">
-<th>機能/機能</th>
+<th>機能</th>
 <th>Lync 2013 デスクトップクライアント</th>
 <th>Windows Phone</th>
 <th>iPhone</th>
@@ -103,7 +103,7 @@ _**最終更新日:** 2015-09-21_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Lync セッションはサインインしたままになります</p></td>
+<td><p>Lync セッションはサインインしたままになります。</p></td>
 <td><p>●</p></td>
 <td><p>●1</p></td>
 <td><p>●1</p></td>
@@ -114,12 +114,12 @@ _**最終更新日:** 2015-09-21_
 <td><p>プッシュ通知のサポート</p></td>
 <td></td>
 <td><p>●</p></td>
-<td><p>4不要</p></td>
-<td><p>4不要</p></td>
-<td><p>4不要</p></td>
+<td><p>4Not ではありません</p></td>
+<td><p>4Not ではありません</p></td>
+<td><p>4Not ではありません</p></td>
 </tr>
 <tr class="odd">
-<td><p>地域の設定に基づいて国コードが入力される</p></td>
+<td><p>国コードが地域設定に基づいて入力される</p></td>
 <td></td>
 <td></td>
 <td><p>●</p></td>
@@ -135,7 +135,7 @@ _**最終更新日:** 2015-09-21_
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>スクリーン リーダー/読み上げ機能</p></td>
+<td><p>スクリーンリーダー/音声オーバー</p></td>
 <td><p>●</p></td>
 <td><p>●2<br />
 英語のみ</p></td>
@@ -145,7 +145,7 @@ _**最終更新日:** 2015-09-21_
 英語のみ</p></td>
 </tr>
 <tr class="even">
-<td><p>Lync で外付けキーボードを使う</p></td>
+<td><p>Lync で外部キーボードを使用する</p></td>
 <td></td>
 <td></td>
 <td><p>●3</p></td>
@@ -153,7 +153,7 @@ _**最終更新日:** 2015-09-21_
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>モバイルクライアント用の証明書とパッシブ認証のサポート (Lync Server のみ)</p></td>
+<td><p>モバイルクライアントの証明書およびパッシブ認証のサポート (Lync Server のみ)</p></td>
 <td></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -161,7 +161,7 @@ _**最終更新日:** 2015-09-21_
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Microsoft カスタマー エクスペリエンス向上プログラムのサポート </p></td>
+<td><p>Microsoft カスタマーエクスペリエンス向上プログラムのサポート </p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -172,21 +172,21 @@ _**最終更新日:** 2015-09-21_
 </table>
 
 
-1 Windows Phone では、ユーザーがアプリケーションを使用していない場合、次のように、Lync が自動的にサインアウトします。
+1 Windows Phone では、次のように、ユーザーが一定期間アプリケーションを使用していない場合、Lync は自動的にサインアウトします。
 
-  - ユーザーがプッシュ通知を有効にしている場合、Lync は、10日放置されてからサインアウトします。
+  - ユーザーがプッシュ通知を有効にしている場合、Lync は10日の非アクティブ時間が経過した後にサインアウトします。
 
   - ユーザーがプッシュ通知を有効にしていない場合、Lync は1時間後にサインアウトします。
 
-IPhone および iPad では、ユーザーがアプリケーションを使用していない場合は、次のように、Lync によって自動的にサインアウトされます。
+IPhone および iPad では、次のように、ユーザーが一定期間アプリケーションを使用していない場合、Lync は自動的にサインアウトします。
 
-  - ネットワーク接続の損失やその他の問題が原因で、モバイルクライアントから10日間サーバーに連絡がなかった場合。
+  - ネットワーク接続の損失やその他の問題が原因で、モバイルクライアントが10日間サーバーに接続していない場合。
 
-2アプリのみ。
+2アプリのみ
 
-3は VoiceOver モードである必要があります。
+3は VoiceOver モードでなければなりません。
 
-4iPhone、iPad、Android では、アプリがバックグラウンドで実行されているときにメッセージを受信するためのプッシュ通知は必要ありません。
+4iPhone、iPad、および Android では、アプリがバックグラウンドで実行されている場合にメッセージを受信するためのプッシュ通知は必要ありません。
 
 </div>
 
@@ -206,7 +206,7 @@ IPhone および iPad では、ユーザーがアプリケーションを使用�
 </colgroup>
 <thead>
 <tr class="header">
-<th>機能/機能</th>
+<th>機能</th>
 <th>Lync 2013 デスクトップクライアント</th>
 <th>Windows Phone</th>
 <th>iPhone</th>
@@ -224,7 +224,7 @@ IPhone および iPad では、ユーザーがアプリケーションを使用�
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>予定表の空き時間情報に基づく状態の表示</p></td>
+<td><p>カレンダーの空き時間情報に基づく状態の表示</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -256,7 +256,7 @@ IPhone および iPad では、ユーザーがアプリケーションを使用�
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>カレンダーの空き時間情報に基づく状態の公開 </p></td>
+<td><p>カレンダーの空き時間情報に基づく状態の公開</p></td>
 <td><p>●1</p></td>
 <td></td>
 <td></td>
@@ -264,7 +264,7 @@ IPhone および iPad では、ユーザーがアプリケーションを使用�
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>プレゼンス状態 (取り込み中、応答不可など) の手動設定</p></td>
+<td><p>手動プレゼンス状態 (取り込み中、応答不可など) を設定します。</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -275,7 +275,7 @@ IPhone および iPad では、ユーザーがアプリケーションを使用�
 </table>
 
 
-1 Lync モバイルクライアントでは、ユーザーのプレゼンスがユーザーの予定表の空き時間情報に基づいて更新されることはありません。 モバイルクライアントユーザーが Lync デスクトップクライアントにもサインインしている場合、デスクトップクライアントではユーザーのプレゼンスがユーザーの予定表の空き時間情報に基づいて更新されます。 ユーザーがモバイル クライアントのみにサインインしている場合は、ユーザーのプレゼンスは予定表の空き時間情報に基づいて更新されません。
+1 Lync mobile クライアントは、ユーザーの空き時間情報に基づいてユーザーのプレゼンスを更新しません。 モバイルクライアントユーザーが Lync デスクトップクライアントにもサインインしている場合、デスクトップクライアントはユーザーの空き時間情報に基づいてユーザーのプレゼンスを更新します。 ユーザーがモバイル クライアントのみにサインインしている場合は、ユーザーのプレゼンスはカレンダーの空き時間情報に基づいて更新されません。
 
 </div>
 
@@ -401,7 +401,7 @@ IPhone および iPad では、ユーザーがアプリケーションを使用�
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>ホーム画面への連絡先のピン留め</p></td>
+<td><p>連絡先をホーム画面にピン留めする</p></td>
 <td></td>
 <td><p>●</p></td>
 <td></td>
@@ -412,7 +412,7 @@ IPhone および iPad では、ユーザーがアプリケーションを使用�
 </table>
 
 
-1 Skype for Business Online や Office 365 ユーザーは使用できません。
+1 Skype for Business Online または Office 365 ユーザーは使用できません。
 
 </div>
 
@@ -442,7 +442,7 @@ IPhone および iPad では、ユーザーがアプリケーションを使用�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>連絡先とのインスタント メッセージ (IM) の開始</p></td>
+<td><p>連絡先とのインスタントメッセージング (IM) の開始</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -525,13 +525,13 @@ IPhone および iPad では、ユーザーがアプリケーションを使用�
 </table>
 
 
-1 IM 会話の現在のメッセージが表示されている場合でも、このデバイスは毎回 IM を受信するたびに振動ます。
+1 IM 会話の現在のメッセージが表示されていても、IM が受信されるたびに、このデバイスは振動ます。
 
 </div>
 
 <div>
 
-## <a name="lync-to-lync-audio-and-video"></a>Lync 間の音声とビデオ
+## <a name="lync-to-lync-audio-and-video"></a>Lync 間の音声およびビデオ
 
 
 <table style="width:100%;">
@@ -545,7 +545,7 @@ IPhone および iPad では、ユーザーがアプリケーションを使用�
 </colgroup>
 <thead>
 <tr class="header">
-<th>機能/機能</th>
+<th>機能</th>
 <th>Lync 2013 デスクトップクライアント</th>
 <th>Windows Phone</th>
 <th>iPhone</th>
@@ -555,7 +555,7 @@ IPhone および iPad では、ユーザーがアプリケーションを使用�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Lync 間の音声</p></td>
+<td><p>Lync から Lync への音声</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -563,7 +563,7 @@ IPhone および iPad では、ユーザーがアプリケーションを使用�
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Lync ビデオ</p></td>
+<td><p>Lync から Lync へのビデオ</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -578,7 +578,7 @@ IPhone および iPad では、ユーザーがアプリケーションを使用�
 
 <div>
 
-## <a name="conferencing-support-in-lync-mobile-clients"></a>Lync モバイルクライアントでの会議のサポート
+## <a name="conferencing-support-in-lync-mobile-clients"></a>Lync モバイルクライアントでの電話会議のサポート
 
 
 <table style="width:100%;">
@@ -592,7 +592,7 @@ IPhone および iPad では、ユーザーがアプリケーションを使用�
 </colgroup>
 <thead>
 <tr class="header">
-<th>機能/機能</th>
+<th>機能</th>
 <th>Lync 2013 デスクトップクライアント</th>
 <th>Windows Phone</th>
 <th>iPhone</th>
@@ -602,7 +602,7 @@ IPhone および iPad では、ユーザーがアプリケーションを使用�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>会議に参加するための会議のアラームのリンクをクリックする (公衆交換電話網 (PSTN))</p></td>
+<td><p>会議に参加するには、会議のアラームのリンクをクリックします (公衆交換電話網 (PSTN))。</p></td>
 <td><p>●</p></td>
 <td><p>●1</p></td>
 <td><p>●1</p></td>
@@ -610,7 +610,7 @@ IPhone および iPad では、ユーザーがアプリケーションを使用�
 <td><p>●1</p></td>
 </tr>
 <tr class="even">
-<td><p>ミーティング メッセージのリンクをクリックしてビデオまたは VoIP 会議に参加</p></td>
+<td><p>ミーティングのアラームのリンクをクリックして、ビデオまたは VoIP 会議に参加する</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -634,7 +634,7 @@ IPhone および iPad では、ユーザーがアプリケーションを使用�
 <td><p>●2</p></td>
 </tr>
 <tr class="odd">
-<td><p>ダイヤルイン音声会議の使用</p></td>
+<td><p>ダイヤルイン電話会議の使用</p></td>
 <td><p>●3</p></td>
 <td></td>
 <td></td>
@@ -650,7 +650,7 @@ IPhone および iPad では、ユーザーがアプリケーションを使用�
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>マルチパーティのビデオの表示 (ギャラリー ビュー)</p></td>
+<td><p>マルチパーティビデオの表示 (ギャラリービュー)</p></td>
 <td><p>●</p></td>
 <td></td>
 <td></td>
@@ -714,7 +714,7 @@ IPhone および iPad では、ユーザーがアプリケーションを使用�
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>会議ツール (Microsoft PowerPoint ファイルのプレゼンテーション、ホワイトボードの使用、投票の実施、ファイルの共有) を使用する</p></td>
+<td><p>会議ツールの使用 (Microsoft PowerPoint ファイルのプレゼンテーション、ホワイトボードの使用、投票の実行、ファイルの共有)</p></td>
 <td><p>●</p></td>
 <td></td>
 <td></td>
@@ -746,7 +746,7 @@ IPhone および iPad では、ユーザーがアプリケーションを使用�
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>クライアントまたはデバイスからの直接的な、複数の参加者とのスケジュールされていないグループ会話の開始 </p></td>
+<td><p>クライアントまたはデバイスから直接複数の参加者とのスケジュールされていないグループの会話を開始する</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -757,13 +757,13 @@ IPhone および iPad では、ユーザーがアプリケーションを使用�
 </table>
 
 
-1 Office 365 ユーザーの場合、この機能は電話会議プロバイダー (ACP) 対応の会議に対してのみ使用できます。
+1 Office 365 ユーザーの場合、この機能は電話会議プロバイダー (ACP) が有効な会議のみで使用できます。
 
 2 Office 365 ユーザーは使用できません。
 
-3 Skype for Business Online および Office 365 ユーザーの場合、この機能はサードパーティの電話会議プロバイダーから利用できます。
+3 Skype for Business Online または Office 365 ユーザーの場合、この機能はサードパーティの電話会議プロバイダーから入手できます。
 
-Lync Web App で共有されている 4A PowerPoint プレゼンテーションを Lync Mobile 2013 から表示することはできません。 Lync 2013 デスクトップクライアントで行われた注釈は、モバイルデバイスでは表示できません。
+Lync Web App で共有されている 4A PowerPoint プレゼンテーションは、Lync Mobile 2013 から表示できません。 Lync 2013 デスクトップクライアントで行われた注釈は、モバイルデバイスでは表示できません。
 
 </div>
 
@@ -783,7 +783,7 @@ Lync Web App で共有されている 4A PowerPoint プレゼンテーション�
 </colgroup>
 <thead>
 <tr class="header">
-<th>機能/機能</th>
+<th>機能</th>
 <th>Lync 2013 デスクトップクライアント</th>
 <th>Windows Phone</th>
 <th>iPhone</th>
@@ -793,7 +793,7 @@ Lync Web App で共有されている 4A PowerPoint プレゼンテーション�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Lync で、[通話] をタップして連絡先に電話をかける</p></td>
+<td><p>Lync で、通話アイコンをタップして連絡先を呼び出す</p></td>
 <td><p>●1</p></td>
 <td><p>●2</p></td>
 <td><p>●2</p></td>
@@ -857,7 +857,7 @@ Lync Web App で共有されている 4A PowerPoint プレゼンテーション�
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>代理人として構成されている場合の別の連絡先の通話の処理</p></td>
+<td><p>代理人として構成されている場合、別の連絡先の通話を処理する</p></td>
 <td><p>●3</p></td>
 <td><p>●3</p></td>
 <td><p>●3</p></td>
@@ -865,7 +865,7 @@ Lync Web App で共有されている 4A PowerPoint プレゼンテーション�
 <td><p>●3</p></td>
 </tr>
 <tr class="even">
-<td><p>勤務先から通話を使用する (Lync Server 2013 では、受信者の発信者番号に携帯電話の番号ではなく勤務先の電話番号が表示されるように、発信通話が行われます)</p></td>
+<td><p>[勤務先から通話] を使用する (Lync Server 2013 が発信通話を行うため、受信者の発信者 ID には携帯電話番号ではなく勤務先番号が表示されます)</p></td>
 <td></td>
 <td><p>●3</p></td>
 <td><p>●3</p></td>
@@ -892,13 +892,13 @@ Lync Web App で共有されている 4A PowerPoint プレゼンテーション�
 </table>
 
 
-1 lync Server 2013、Skype for Business Online、Office 365 ユーザーは、アイコンをタップすることで、他の Lync ユーザーや Skype ユーザーに通話を発信することができます。 Lync Server 2013 ユーザーは、アイコンをタップしても PSTN 通話を行うことができます。
+1 lync Server 2013、Skype for Business Online、および Office 365 のユーザーは、アイコンをタップして他の Lync ユーザーと Skype ユーザーを呼び出すことができます。 Lync Server 2013 ユーザーは、アイコンをタップして PSTN 通話を行うこともできます。
 
-2オンプレミスの Lync Server 2013 ユーザー、Windows Phone、iPhone、iPad デバイスでは、ユーザーは連絡先カードの [通話] アイコンをタップして、Lync Server 2013 からのコールバックを受け取ります。 Office 365 ユーザーの場合は、Windows Phone、iPhone、iPad デバイスでは、ユーザーが [通話] ボタンをタップすると、電話番号への通話を希望するかどうかを確認するダイアログボックスが表示されます。
+2オンプレミスの Lync Server 2013 ユーザー、Windows Phone、iPhone、iPad デバイスでは、ユーザーは連絡先カードの通話アイコンをタップして、Lync Server 2013 からのコールバックを受け入れます。 Office 365 ユーザー、Windows Phone、iPhone、iPad デバイスでは、ユーザーが call ボタンをタップすると、ユーザーが番号を呼び出すことを確認するダイアログボックスが表示されます。
 
-3 Skype for Business Online や Office 365 ユーザーは使用できません。
+3 Skype for Business Online または Office 365 ユーザーは使用できません。
 
-4 Skype for Business Online および Office 365 ユーザーの場合、この機能は Microsoft パートナーによってサポートされています。
+4 Skype for Business Online または Office 365 ユーザーの場合、この機能は Microsoft パートナーによってサポートされています。
 
 </div>
 
@@ -918,7 +918,7 @@ Lync Web App で共有されている 4A PowerPoint プレゼンテーション�
 </colgroup>
 <thead>
 <tr class="header">
-<th>機能/機能</th>
+<th>機能</th>
 <th>Lync 2013 デスクトップクライアント</th>
 <th>Windows Phone</th>
 <th>iPhone</th>
@@ -960,7 +960,7 @@ Lync Web App で共有されている 4A PowerPoint プレゼンテーション�
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>[勤務先から通話を使用して、自分の携帯電話でフェデレーションされた連絡先にアクセスするには、発行された作業時間1を呼び出します。</p></td>
+<td><p>勤務先から通話を使用して、公開された作業時間1を呼び出して、携帯電話のフェデレーション連絡先にアクセスする</p></td>
 <td></td>
 <td><p>●2</p></td>
 <td><p>●2</p></td>
@@ -971,7 +971,7 @@ Lync Web App で共有されている 4A PowerPoint プレゼンテーション�
 </table>
 
 
-1既定では、フェデレーションされたユーザーには、外部連絡先のプライバシー関係が割り当てられます。 公開された勤務先番号に電話をかけて、相手の携帯電話にあるフェデレーションからの連絡先にアクセスできるようにするには、フェデレーションからの連絡先側から手動で仕事仲間のプライバシー関係を割り当ててもらっている必要があります。
+1既定では、フェデレーションユーザーには外部連絡先のプライバシー関係が割り当てられます。 公開されている作業番号を呼び出すことによって、携帯電話のフェデレーション連絡先にアクセスできるようにするには、フェデレーションの連絡先は手動で仕事仲間のプライバシー関係を割り当てる必要があります。
 
 2 Office 365 ユーザーは使用できません。
 
@@ -993,7 +993,7 @@ Lync Web App で共有されている 4A PowerPoint プレゼンテーション�
 </colgroup>
 <thead>
 <tr class="header">
-<th>機能/機能</th>
+<th>機能</th>
 <th>Lync 2013 デスクトップクライアント</th>
 <th>Windows Phone</th>
 <th>iPhone</th>
@@ -1003,7 +1003,7 @@ Lync Web App で共有されている 4A PowerPoint プレゼンテーション�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>アドレス帳の連絡先に電話をかける</p></td>
+<td><p>アドレス帳の連絡先を呼び出す</p></td>
 <td></td>
 <td></td>
 <td></td>
@@ -1011,7 +1011,7 @@ Lync Web App で共有されている 4A PowerPoint プレゼンテーション�
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>アドレス帳から直接連絡先への通話を行う</p></td>
+<td><p>アドレス帳から直接、連絡先への Lync 通話を行う</p></td>
 <td></td>
 <td></td>
 <td></td>
@@ -1040,7 +1040,7 @@ Lync Web App で共有されている 4A PowerPoint プレゼンテーション�
 </colgroup>
 <thead>
 <tr class="header">
-<th>機能/機能</th>
+<th>機能</th>
 <th>Lync 2013 デスクトップクライアント</th>
 <th>Windows Phone</th>
 <th>iPhone</th>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: SIP トランクサービスプロバイダーの場所を管理する'
+title: 'Lync Server 2013: SIP トランクサービスプロバイダーの場所の管理'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185548
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e9ebc471459c8e406914f5a075d7e4cf8b69fadd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d2ffa9b16a2c582af2de990eab52b55c175121bc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762095"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042554"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-locations-for-sip-trunk-service-providers-in-lync-server-2013"></a>Lync Server 2013 で SIP トランクサービスプロバイダーの場所を管理する
+# <a name="managing-locations-for-sip-trunk-service-providers-in-lync-server-2013"></a>Lync Server 2013 での SIP トランクサービスプロバイダーの場所の管理
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41762095"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-02_
+_**トピックの最終更新日:** 2012-10-02_
 
-ネットワーク内でクライアントが自動的に検索されるように Lync Server を構成するには、場所情報サービスデータベースに network wiremap を設定して、場所を公開するか、既に正しいものが含まれている外部データベースにリンクする必要があります。関連付け. このプロセスの一環として、E9-1-1 サービスのサービス プロバイダーで場所の公的アドレスを確認する必要があります。 詳細については、「展開ドキュメントの[Lync Server 2013 で場所データベースを構成する](lync-server-2013-configure-the-location-database.md)」を参照してください。
+ネットワーク内のクライアントを自動的に検索するように Lync Server を構成するには、場所情報サービスデータベースにネットワークのワイヤマップを設定し、場所を公開するか、または既に正しい内容が含まれている外部データベースにリンクする必要があります。関連付け. このプロセスの一環として、E9-1-1 サービスのサービス プロバイダーで場所の公的アドレスを確認する必要があります。 詳細については、「展開」のドキュメントの「 [Configure the location database In Lync Server 2013](lync-server-2013-configure-the-location-database.md) 」を参照してください。
 
-場所情報サービス データベースに、公的アドレスと建物内の特定のアドレスで構成される緊急応答ロケーション (ERL) を取り込みます。 建物内の特定の場所である "位置情報サービス**の場所"** フィールドには、最大20文字 (スペースを含む) が使用されます。 この制限された長さの中に、以下を含めるようにします。
+場所情報サービス データベースに、公的アドレスと建物内の特定のアドレスで構成される緊急応答ロケーション (ERL) を取り込みます。 場所情報サービスの**場所**フィールド (建物内の特定の場所) の最大長は20文字 (スペースを含む) です。 この制限された長さの中に、以下を含めるようにします。
 
   - 緊急対応員が公的アドレスにたどり着いたときに特定の場所をすぐに特定するように、緊急電話の発信者の場所を特定するわかりやすい名前。この場所名には建物番号、階数、ウイング名、部屋番号などを含めることができます。従業員にしかわからないニックネームは避けてください。そのようなニックネームになっていると、緊急対応員が間違った場所へ行ってしまう可能性があります。
 
-  - Lync クライアントが適切な場所を取得したことをユーザーが簡単に確認できる場所識別子。 Lync クライアントは、[検出された**場所**] フィールドと [**市区町村**] フィールドを自動的に連結し、ヘッダーに表示します。 適切な方法としては、建物の番地を各場所の識別子 (たとえば、"第1階\<町村番号\>" など) に追加することをお勧めします。 番地がないと、「1 階」のような一般的な場所 ID は、市内のすべての建物に該当します。
+  - Lync クライアントが正しい場所を取得したことを、ユーザーが簡単に判別するのに役立つ場所の ID。 Lync クライアントは、検出したヘッダ内の [**Location**] フィールドと [**City**] フィールドを自動的に連結し、表示します。 建物の番地を各場所の識別子 (たとえば、"1 階\<のストリート番号\>") に追加することをお勧めします。 番地がないと、「1 階」のような一般的な場所 ID は、市内のすべての建物に該当します。
 
   - 場所がワイヤレス アクセス ポイントで決定されるために近似となる場合、「Near」という単語を追加することができます。たとえば、「Near 1 階 1234」です。
 
@@ -51,7 +51,7 @@ _**最終更新日:** 2012-10-02_
 
 
 > [!NOTE]  
-> 中央の場所のデータベースに追加された場所は、Lync Server 管理シェルコマンドを使用して公開され、プールのローカルストアにレプリケートされるまで、クライアントでは利用できません。 詳細については、展開ドキュメントの「 <A href="lync-server-2013-publish-the-location-database.md">Lync Server 2013 からロケーションデータベースを発行</A>する」を参照してください。
+> 中央の場所のデータベースに追加された場所は、Lync Server 管理シェルコマンドを使用して発行され、プールのローカルストアにレプリケートされるまでクライアントで使用できません。 詳細については、「展開」のドキュメントの「 <A href="lync-server-2013-publish-the-location-database.md">Lync Server 2013 からの場所データベースの発行</A>」を参照してください。
 
 
 
@@ -70,12 +70,12 @@ _**最終更新日:** 2012-10-02_
 
 <!-- end list -->
 
-  - **場所のマッピング情報が既に格納されているサードパーティのデータベースを定義するのか。**  
-    Lync Server の [Secondary Location Information service] オプションを使ってサードパーティのデータベースに接続すると、オフラインプラットフォームを使用して場所をグループ化して管理できます。 この方法の利点は、場所をネットワーク ID に関連付けることに加えて、場所をユーザーに関連付けられることです。 つまり、位置情報サービスは、セカンダリの場所情報サービスからの複数のアドレスを Lync Server クライアントに返すことができます。 その後、ユーザーは最適な場所を選択できます。
+  - **場所のマッピング情報がすでに格納されているサードパーティのデータベースを定義するのか。**  
+    Lync Server のセカンダリの場所情報サービスオプションを使用してサードパーティのデータベースに接続することにより、オフラインプラットフォームを使用して場所をグループ化および管理できます。 この方法の利点は、場所をネットワーク ID に関連付けることに加えて、場所をユーザーに関連付けられることです。 これは、場所情報サービスが、セカンダリ場所情報サービスから Lync Server クライアントに送信された複数のアドレスを返すことができることを意味します。 その後、ユーザーは最適な場所を選択できます。
     
-    位置情報サービスと統合するには、サードパーティのデータベースが Lync Server の場所要求/応答スキーマに従う必要があります。 詳細については\[、「MS\]-E911WS: E911 サポートプロトコル仕様」を参照<http://go.microsoft.com/fwlink/p/?linkid=213819>してください。 セカンダリ位置情報サービスの展開の詳細については、展開ドキュメントの「 [Lync Server 2013 でセカンダリ場所情報サービスを構成](lync-server-2013-configure-a-secondary-location-information-service.md)する」を参照してください。
+    場所情報サービスと統合するには、サードパーティのデータベースが Lync Server の場所の要求/応答スキーマに従う必要があります。 詳細については\[、「Ms-e911ws\]: Web Service For E911 Support Protocol Specification」を<http://go.microsoft.com/fwlink/p/?linkid=213819>参照してください。 セカンダリ場所情報サービスの展開の詳細については、「展開」のドキュメントの「 [Configure a Secondary Location information service In Lync Server 2013](lync-server-2013-configure-a-secondary-location-information-service.md) 」を参照してください。
 
-場所データベースの設定の詳細については、展開ドキュメントの「 [Lync Server 2013 で場所データベースを構成する](lync-server-2013-configure-the-location-database.md)」を参照してください。
+場所データベースの設定の詳細については、「展開」のドキュメントの「 [Configure the location database In Lync Server 2013](lync-server-2013-configure-the-location-database.md) 」を参照してください。
 
 </div>
 
@@ -91,7 +91,7 @@ _**最終更新日:** 2012-10-02_
 <!-- end list -->
 
   - **SNMP アプリケーションを使用して、Lync クライアントの MAC アドレスをポートおよびスイッチ ID と照合するのか。**  
-    SNMP アプリケーションを使用する場合は、SNMP アプリケーションと場所データベースの間でスイッチ シャーシおよびポート情報の整合性を維持するための手動のプロセスを作成する必要があります。 SNMP アプリケーションが、データベースに含まれていないシャーシの IP アドレスまたはポート ID を返す場合、位置情報サービスは位置情報をクライアントに返すことができません。
+    SNMP アプリケーションを使用する場合は、SNMP アプリケーションと場所データベースの間でスイッチ シャーシおよびポート情報の整合性を維持するための手動のプロセスを作成する必要があります。 SNMP アプリケーションがデータベースに含まれていないシャーシの IP アドレスまたはポート ID を返した場合、Location Information service はクライアントに場所を返すことができません。
 
 </div>
 

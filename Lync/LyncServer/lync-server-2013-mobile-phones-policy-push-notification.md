@@ -12,16 +12,16 @@ ms:contentKeyID: 49733705
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f17db6a855bb7c890f5218213e66986830e8badf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fe34ff7d4d0c31c282ee308f1dd389e124cb652b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758719"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044889"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41758719"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-15_
+_**トピックの最終更新日:** 2012-10-15_
 
-Lync server 2013 コントロールパネルの [**クライアント**] セクションから、lync server 2013 のモビリティポリシーとプッシュ通知を構成できます。 このセクションの手順を使用して、携帯電話の設定を構成します。
+Lync server 2013 コントロールパネルの [**クライアント**] セクションから lync server 2013 のモビリティポリシーとプッシュ通知を構成することができます。 携帯電話の設定を構成するには、このセクションの手順に従います。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 のモバイル機能ポリシー](lync-server-2013-mobility-policies.md)
+  - [Lync Server 2013 のモビリティポリシー](lync-server-2013-mobility-policies.md)
 
   - [Lync Server 2013 でのプッシュ通知](lync-server-2013-push-notifications.md)
 

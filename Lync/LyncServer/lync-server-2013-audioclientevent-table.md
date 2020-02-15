@@ -12,16 +12,16 @@ ms:contentKeyID: 48185967
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 44d5146b334af83618ca2dd6261a18e72708f4f5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 53f43bdae2fd134e851c93be958aa671657489e1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722627"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044599"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41722627"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-17_
+_**トピックの最終更新日:** 2012-10-17_
 
-各レコードには、音声通話中の1つのエンドポイントのクライアントイベントが含まれています。 通常、1つの通話には2つのレコードがあります。1つは呼び出し元用、もう1つは呼び出し先用です。
+各レコードには、音声通話の1つのエンドポイントのクライアントイベントが含まれています。 通常、1つの呼び出しには2つのレコードがあり、1つは呼び出し元用、もう1つは呼び出し先用です。
 
 
 <table>
@@ -58,141 +58,141 @@ _**最終更新日:** 2012-10-17_
 <tbody>
 <tr class="odd">
 <td><p><strong>ConferenceDateTime</strong></p></td>
-<td><p>datetime</p></td>
+<td><p>日付型</p></td>
 <td><p>Primary</p></td>
-<td><p><a href="lync-server-2013-medialine-table.md">Lync Server 2013 の MediaLine テーブル</a>から参照されている。</p></td>
+<td><p><a href="lync-server-2013-medialine-table.md">Lync Server 2013 の MediaLine テーブル</a>から参照されます。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionSeq</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p><a href="lync-server-2013-medialine-table.md">Lync Server 2013 の MediaLine テーブル</a>から参照されている。</p></td>
+<td><p><a href="lync-server-2013-medialine-table.md">Lync Server 2013 の MediaLine テーブル</a>から参照されます。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MediaLineLabel</strong></p></td>
 <td><p>tinyint</p></td>
 <td><p>Primary</p></td>
-<td><p><a href="lync-server-2013-medialine-table.md">Lync Server 2013 の MediaLine テーブル</a>から参照されている。</p></td>
+<td><p><a href="lync-server-2013-medialine-table.md">Lync Server 2013 の MediaLine テーブル</a>から参照されます。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>FromCaller</strong></p></td>
-<td><p>bit</p></td>
+<td><p>若干</p></td>
 <td><p>Primary</p></td>
 <td><p>0: 呼び出し先のデータ</p>
 <p>1: 発信者のデータ</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>NetworkSendQualityEventRatio</strong></p></td>
-<td><p>10進数 (5, 2)</p></td>
+<td><p>10進数 (5、2)</p></td>
 <td><p> </p></td>
-<td><p>セッションのパーセンテージ NetworkSendQuality イベントが ' Bad ' 状態に対して発生しました。</p>
-<p>ネットワーク品質は、ジッタまたはパケット損失の観点から、送信された音声の品質に重大な影響を与えることがあります。</p></td>
+<td><p>' Bad ' 状態に対して NetworkSendQuality イベントが発生したセッションの割合。</p>
+<p>ジッターまたはパケット損失の面でネットワーク品質が深刻で、送信される音声の品質に影響します。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>NetworkReceiveQualityEventRatio</strong></p></td>
-<td><p>10進数 (5, 2)</p></td>
+<td><p>10進数 (5、2)</p></td>
 <td><p> </p></td>
-<td><p>セッションのパーセンテージ ReceiveSendQuality イベントが ' Bad ' 状態で発生しました。</p>
-<p>ネットワーク品質は、ジッタまたはパケット損失の観点から、受信中のオーディオの品質に深刻な影響を与えることができます。</p></td>
+<td><p>対して receivesendquality イベントが ' Bad ' 状態に対して起動されたセッションの割合。</p>
+<p>ジッターまたはパケット損失の面でネットワーク品質が厳しく、受信する音声の品質に影響します。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>NetworkDelayEventRatio スペック</strong></p></td>
-<td><p>10進数 (5, 2)</p></td>
+<td><p><strong>Networkdelayeventrev</strong></p></td>
+<td><p>10進数 (5、2)</p></td>
 <td><p> </p></td>
-<td><p>セッションのパーセンテージ "Bad" 状態に対して Delay イベントが発生しました。 ネットワーク待ち時間が重大であり、対話的なコミュニケーションを防ぐことで、エクスペリエンスに影響を与える</p></td>
+<td><p>' Bad ' 状態で遅延イベントが発生したセッションの割合。 ネットワークの遅延が深刻で、対話的なコミュニケーションを妨げることによって、操作が影響を受ける</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>NetworkBandwidthLowEventRatio</strong></p></td>
-<td><p>10進数 (5, 2)</p></td>
+<td><p>10進数 (5、2)</p></td>
 <td><p> </p></td>
-<td><p>セッションのパーセンテージ低帯域幅イベントが ' Bad ' 状態に対して発生しました。 利用可能な音声エクスペリエンスを実現するには、利用可能な帯域幅が不足しています。</p></td>
+<td><p>[セッションの割合] LowBandwidth 幅イベントは、' Bad ' 状態に対して起動されました。 使用可能な音声環境に十分な帯域幅がありません。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CPUInsufficientEventRatio</strong></p></td>
-<td><p>10進数 (5, 2)</p></td>
+<td><p>10進数 (5、2)</p></td>
 <td><p> </p></td>
-<td><p>セッションの割合。不適切な CPU イベントが ' Bad ' 状態に対して発生しました。 現在使用中のモダリティとアプリケーションで処理するための CPU サイクルが十分にありません。 これにより、オーディオチャンネルでひずみが発生します。</p></td>
+<td><p>' Bad ' 状態に対して、CPU の不足イベントが発生したセッションの割合。 現在使用されているモダリティおよびアプリケーションとの処理に CPU サイクルが不足しています。 これにより、オーディオチャネルとのゆがみが発生します。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DeviceHalfDuplexAECEventRatio</strong></p></td>
-<td><p>10進数 (5, 2)</p></td>
+<td><p>10進数 (5、2)</p></td>
 <td><p> </p></td>
-<td><p>セッションのパーセンテージ DeviceHalfDuplexAEC イベントが ' Bad ' 状態で発生しました。 エコーを防ぐために、システムは半二重モードに設定されています。</p></td>
+<td><p>DeviceHalfDuplexAEC イベントが ' Bad ' 状態に対して起動されたセッションの割合。 エコーを防ぐために、システムは半二重入力します。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>DeviceRenderNotFunctioningEventRatio</strong></p></td>
-<td><p>10進数 (5, 2)</p></td>
+<td><p><strong>Devicerendernotfunctioningeventrev</strong></p></td>
+<td><p>10進数 (5、2)</p></td>
 <td><p> </p></td>
-<td><p>セッションの割合 DeviceRenderNotFunctioning イベントが ' Bad ' 状態に対して発生しました。 現在セッションで使用されているレンダーデバイスが正常に機能していません。 これにより、1方向の音声の問題が発生する可能性があります。</p></td>
+<td><p>' Bad ' 状態に対して DeviceRenderNotFunctioning イベントが発生したセッションの割合。 セッションで現在使用されているレンダーデバイスが正しく機能していません。 これにより、1ウェイの音声の問題が発生する可能性があります。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>DeviceCaptureNotFunctioningEventRatio 使い方</strong></p></td>
-<td><p>10進数 (5, 2)</p></td>
+<td><p><strong>Devicecapturenotfunctioningeventrev</strong></p></td>
+<td><p>10進数 (5、2)</p></td>
 <td><p> </p></td>
-<td><p>セッションのパーセンテージ DeviceCaptureNotFunctioning イベントが ' Bad ' 状態に対して発生しました。 現在セッションで使用されているキャプチャデバイスが正常に機能していません。 これにより、1方向の音声の問題が発生する可能性があります。</p></td>
+<td><p>' Bad ' 状態に対して DeviceCaptureNotFunctioning イベントが発生したセッションの割合。 セッションで現在使用されているキャプチャデバイスが正しく機能していません。 これにより、1ウェイの音声の問題が発生する可能性があります。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DeviceGlitchesEventRatio</strong></p></td>
-<td><p>10進数 (5, 2)</p></td>
+<td><p>10進数 (5、2)</p></td>
 <td><p> </p></td>
-<td><p>セッションの割合 DeviceGlitches イベントが ' Bad ' 状態で発生しました。 オーディオのレンダリングで、ひずみの原因となる重大な問題が発生します。 これらのエラーは、ドライバーの問題、遅延プロシージャ呼び出し (DPC) ストーム (ドライバー)、および CPU 使用率が高くなることが原因で発生する可能性があります。</p></td>
+<td><p>' Bad ' 状態で DeviceGlitches イベントが発生したセッションの割合。 ひずみが発生している音声のレンダリングに重大な問題があります。 これらの問題は、ドライバーの問題、遅延プロシージャ呼び出し (DPC) ストーム (ドライバー)、CPU 使用率が高いことが原因で発生することがあります。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DeviceLowSNREventRatio</strong></p></td>
-<td><p>10進数 (5, 2)</p></td>
+<td><p>10進数 (5、2)</p></td>
 <td><p> </p></td>
-<td><p>セッションのパーセンテージ DeviceLowSNR イベントが ' Bad ' 状態に対して発生しました。 キャプチャ品質は非常に低い。雑音が多いか、ユーザがマイクから離れすぎている。 これにより、ひずみが発生します。</p></td>
+<td><p>' Bad ' 状態に対して DeviceLowSNR イベントが発生したセッションの割合。 キャプチャ品質が非常に低い。雑音が多いか、ユーザーがマイクから離れすぎている。 これにより、ゆがみが発生します。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DeviceLowSpeechLevelEventRatio</strong></p></td>
-<td><p>10進数 (5, 2)</p></td>
+<td><p>10進数 (5、2)</p></td>
 <td><p> </p></td>
-<td><p>セッションのパーセンテージ DeviceLowSpeechLevel イベントが ' Bad ' 状態で発生しました。 ユーザーの音声レベルが低すぎて、システムがそれ以上の機能を向上させることができない。 これにより、ひずみが発生したり、一方向のオーディオとして認識されるようになります。</p></td>
+<td><p>DeviceLowSpeechLevel イベントが ' Bad ' 状態に対して起動されたセッションの割合。 ユーザーの音声レベルが低すぎるため、システムがこれ以上の機能を向上させることはできません。 これにより、ゆがみが一通行の音声として認識されることがあります。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DeviceClippingEventRatio</strong></p></td>
-<td><p>10進数 (5, 2)</p></td>
+<td><p>10進数 (5、2)</p></td>
 <td><p> </p></td>
-<td><p>セッションのパーセンテージ DeviceClipping イベントが ' Bad ' 状態で発生しました。</p>
-<p>ニアエンドの音声によってマイクがクリップされる場合は、クリッピングによるひずみが発生します。 ニアエンドマイクのクリッピングを回避することが重要です。</p></td>
+<td><p>対して deviceclipping イベントが ' Bad ' 状態に対して起動されたセッションの割合。</p>
+<p>ニアエンド音声によってマイクがクリップされると、遠方でクリッピングが発生することがあります。 ニアエンドマイクのクリッピングを回避することが重要です。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DeviceEchoEventRatio</strong></p></td>
-<td><p>10進数 (5, 2)</p></td>
+<td><p>10進数 (5、2)</p></td>
 <td><p> </p></td>
-<td><p>セッションのパーセンテージ DeviceEchoEvent イベントが ' Bad ' 状態で発生しました。 デバイスまたはセットアップが原因で、システムの補正機能を超えたエコーが発生しています。</p></td>
+<td><p>Deviceechoevent が生じイベントが ' Bad ' 状態に対して起動されたセッションの割合。 デバイスまたはセットアップによって、システムの機能を超えるエコーが発生しています。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>デバイスの Devicorています。</strong></p></td>
-<td><p>10進数 (5, 2)</p></td>
+<td><p><strong>Devicenん endtoo/exceloeventrev</strong></p></td>
+<td><p>10進数 (5、2)</p></td>
 <td><p> </p></td>
-<td><p>セッションのパーセンテージ Devicenなイベントが ' Bad ' 状態で発生しました。 ユーザーの音声が、ユーザーの中断を簡単にすることができるようになるため、キャプチャされたエコーと比較して、ユーザーエクスペリエンスに影響を与えることができます。 スピーカーの音量を下げて、マイクをトーカーに近づける。</p></td>
+<td><p>' Bad ' 状態に対して、Devicen/Endto///のイベントが発生したセッションの割合。 ユーザーの音声が小さすぎる場合は、キャプチャしたエコーと比較して、ユーザーが簡単に中断できることを制限するため、ユーザーの操作に影響を及ぼします。 スピーカー音量を下げるには、マイクをトーカーの近くに動かします。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DeviceMultipleEndpointsEventCount</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>セッション中に ' Bad ' 状態に対して DeviceMultipleEndpoints イベントが発生した回数。 同じセッション内の複数のオーディオエンドポイントが検出され、レンダーボリュームが減ることで、システムが補正しています。</p></td>
+<td><p>セッション中の DeviceMultipleEndpoints イベントが ' Bad ' 状態に対して起動された回数。 同じセッションで複数のオーディオエンドポイントが検出され、描画ボリュームが減少することにより、システムが補償しています。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Deviceskのイベントカウント</strong></p></td>
+<td><p><strong>Devicecount/Eventcount</strong></p></td>
 <td><p>int</p></td>
 <td><p> </p></td>
-<td><p>セッション中に、' Bad ' 状態に対して Deviceなイベントイベントが発生した回数。 音声フィードバックループが検出されました (複数のエンドポイントでのオーディオパスの共有によって発生)。</p></td>
+<td><p>セッション中に発生した回数。 ' Bad ' 状態で Deviceの状態イベントイベントが発生しました。 検出された音声フィードバックループ (複数のエンドポイントがオーディオパスを共有したことが原因)。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Devicerendervolumevolumeeventr</strong></p></td>
-<td><p>10進数 (5, 2)</p></td>
+<td><p><strong>Devicerenderゼロの volumeeventr</strong></p></td>
+<td><p>10進数 (5、2)</p></td>
 <td></td>
-<td><p>セッションのパーセンテージ Devicerenderゼロボリュームイベントが "Bad" 状態になったときに発生しました。 レンダーデバイスがボリューム0に設定されています。</p>
-<p>この列は Microsoft Lync Server 2013 で導入されました。</p></td>
+<td><p>"Bad" 状態になっているために、Devicerenderゼロボリュームイベントが発生したセッションの割合。 レンダーデバイスがボリューム0に設定されています。</p>
+<p>このコラムは、Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Devicerendermuteeventr</strong></p></td>
-<td><p>10進数 (5, 2)</p></td>
+<td><p><strong>DeviceRenderMuteEventRatio スペック)</strong></p></td>
+<td><p>10進数 (5、2)</p></td>
 <td></td>
-<td><p>セッションのパーセンテージ DeviceRenderMute イベントが "Bad" 状態になったときに発生しました。 レンダーデバイスがミュートにされました。</p>
-<p>この列は Microsoft Lync Server 2013 で導入されました。</p></td>
+<td><p>"Bad" 状態であるために、DeviceRenderMute イベントが発生したセッションの割合。 レンダーデバイスがミュートされました。</p>
+<p>このコラムは、Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 </tbody>
 </table>

@@ -12,16 +12,16 @@ ms:contentKeyID: 48184149
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8f5992b45d8930bac880f66422d10ddbd4b94f18
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6c97657b42ec4ea26f5300b1d28215d0360b63cf
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747417"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042424"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,25 +35,25 @@ ms.locfileid: "41747417"
 
 <span> </span>
 
-_**最終更新日:** 2013-11-07_
+_**トピックの最終更新日:** 2013-11-07_
 
-このトピックで説明されているタスクを実行するには、管理者グループのメンバーとしてログオンしている必要があります。
+このトピックで説明するタスクを実行するには、Administrators グループのメンバーとしてログオンする必要があります。
 
 <div>
 
-## <a name="system-requirements-for-best-practices-analyzer-installation"></a>ベストプラクティスアナライザーをインストールするためのシステム要件
+## <a name="system-requirements-for-best-practices-analyzer-installation"></a>ベスト プラクティス アナライザーをインストールするためのシステム要件
 
-Lync Server 2013 のベストプラクティスアナライザーを実行して環境をスキャンするには、コンピューターで次のいずれかのオペレーティングシステムの64ビット版が実行されている必要があります。
+Lync Server 2013 を実行するには、ベストプラクティスアナライザーを使用して環境をスキャンするには、次のいずれかのオペレーティングシステムの64ビット版がコンピューターで実行されている必要があります。
 
-  - Windows Server 2008 R2 Service Pack 1 (SP1) 標準オペレーティングシステム
+  - Windows Server 2008 R2 Service Pack 1 (SP1) Standard オペレーティングシステム
 
-  - Windows Server 2008 R2 SP1 Enterprise オペレーティングシステム
+  - Windows Server 2008 R2 SP1 エンタープライズオペレーティングシステム
 
   - Windows Server 2008 R2 SP1 Datacenter オペレーティングシステム
 
   - Windows Server 2012 Datacenter オペレーティングシステム
 
-  - Windows Server 2012 標準オペレーティングシステム
+  - Windows Server 2012 Standard オペレーティングシステム
 
   - Windows Server 2012 エンタープライズオペレーティングシステム
 
@@ -67,35 +67,35 @@ Lync Server 2013 のベストプラクティスアナライザーを実行して
 
   - Windows 7 オペレーティング システム
 
-コンピューターでは、次の操作も実行する必要があります。
+また、以下も実行している必要があります。
 
-  - Microsoft .NET Framework 4.5 Lync Server 2013 の場合は、Lync Server 2013 をインストールする前に、サーバーに64ビット版の Microsoft .NET Framework 4.5 を手動でインストールする必要があります。
+  - Microsoft .NET Framework 4.5。 Lync server 2013 の場合は、Lync Server 2013 をインストールする前に、サーバーに64ビット版の Microsoft .NET Framework 4.5 を手動でインストールする必要があります。
 
   - Lync Server 2013、コアコンポーネント。
 
-  - WMI の下位互換性パッケージ。 詳細については、「移行ドキュメントで[WMI 下位互換性パッケージをインストール](install-wmi-backward-compatibility-package.md)する」を参照してください。
+  - WMI 下位互換パッケージ。 詳細については、「移行」のドキュメントの「 [INSTALL WMI 下位互換パッケージをインストール](install-wmi-backward-compatibility-package.md)する」を参照してください。
 
-  - Windows PowerShell 3.0 詳細については、「展開ドキュメントで[Lync Server 2013 用に Windows PowerShell 3.0 をインストールする](lync-server-2013-installing-windows-powershell-3-0.md)」を参照してください。
+  - Windows PowerShell 3.0。 詳細については、「展開」のドキュメントの「 [Windows PowerShell 3.0 For Lync Server 2013 のインストール](lync-server-2013-installing-windows-powershell-3-0.md)」を参照してください。
 
-ベストプラクティスアナライザーは、Lync Server 2013、コアコンポーネント、または WMI 下位互換性パッケージを実行していないオペレーティングシステムがサポートされているコンピューターにインストールできますが、これらのコンピューターではベストプラクティスアナライザーを使ってレポートを表示することはできません。スキャンを実行します。
-
-</div>
-
-<div>
-
-## <a name="choosing-a-computer-for-installation"></a>インストールするコンピューターを選ぶ
-
-Lync server 2013 のベストプラクティスアナライザーを Lync Server 2013 管理専用のコンピューターにインストールすることをお勧めします。 Lync Server 2013 を実行しているサーバー、または Lync Server 2013 管理ツールを実行している管理コンピューターにツールをインストールすることができます。 Lync Server を実行しているサーバーにツールをインストールする場合は、このツールを使用してそのサーバーのみをスキャンすることをお勧めします。
+ベストプラクティスアナライザーは、Lync Server 2013、コアコンポーネント、または WMI 下位互換パッケージを実行していない、サポートされているオペレーティングシステムを搭載したコンピューターにインストールできますが、これらのコンピューターでベストプラクティスアナライザーを使用しても、レポートを表示することはできません。スキャンを実行する。
 
 </div>
 
 <div>
 
-## <a name="installing-best-practices-analyzer"></a>ベストプラクティスアナライザーをインストールする
+## <a name="choosing-a-computer-for-installation"></a>インストール対象のコンピューターの選択
 
-Lync Server 2013 のベストプラクティスアナライザーをダウンロードでき[http://go.microsoft.com/fwlink/p/?linkId=266539](http://go.microsoft.com/fwlink/p/?linkid=266539)ます。
+Lync server 2013 管理専用のコンピューターに Lync Server 2013、ベストプラクティスアナライザーをインストールすることをお勧めします。 Lync Server 2013 を実行しているサーバー、または Lync Server 2013 管理ツールを実行している管理コンピューターに、ツールをインストールすることができます。 Lync Server を実行しているサーバーにツールをインストールする場合は、ツールを使用してそのサーバーのみをスキャンすることをお勧めします。
 
-ベストプラクティスアナライザーをインストールするには、ツールをインストールするコンピューターで Microsoft インストーラーファイル RtcBPA .msi を起動し、画面の指示に従います。 プログラムファイルをインストールするための既定の\<場所は\>\\、システム\\ドライブのプログラム\\ファイル Lync Server 2013 BPA です。
+</div>
+
+<div>
+
+## <a name="installing-best-practices-analyzer"></a>ベスト プラクティス アナライザーのインストール
+
+Lync Server 2013 のベストプラクティスアナライザーをダウンロードすることが[http://go.microsoft.com/fwlink/p/?linkId=266539](http://go.microsoft.com/fwlink/p/?linkid=266539)できます。
+
+ベスト プラクティス アナライザーをインストールするには、ツールをインストールするコンピューターで Microsoft インストーラー ファイル (RtcBPA.msi) を起動し、画面の指示に従います。 プログラムファイルをインストールする既定の場所は\<、システム\>\\ドライブの\\プログラムファイル Lync\\Server 2013 BPA です。
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server で管理ツールをインストールする
+title: Skype for Business Server に管理ツールをインストールする
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -16,66 +16,66 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 52ee7da4-59ba-499a-a105-d93fa9941334
-description: '概要: Skype for Business Server のインストールに必要な管理ツールをインストールする方法について説明します。 Skype for Business Server の無料トライアルは、次https://www.microsoft.com/evalcenter/evaluate-skype-for-business-serverの Microsoft 評価センターからダウンロードしてください。'
-ms.openlocfilehash: 3abf2eb35a4593f25db75e175f3cd30fdf49e21b
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: '概要: Skype for Business Server のインストールに必要な管理ツールをインストールする方法について説明します。 次https://www.microsoft.com/evalcenter/evaluate-skype-for-business-serverの Microsoft 評価センターから、無料の Skype For business Server の試用版をダウンロードしてください。'
+ms.openlocfilehash: 27cda52612eef1259017250ebcc4669e45165229
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41790175"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42018268"
 ---
-# <a name="install-administrative-tools-in-skype-for-business-server"></a>Skype for Business Server で管理ツールをインストールする
+# <a name="install-administrative-tools-in-skype-for-business-server"></a>Skype for Business Server に管理ツールをインストールする
  
-**概要:** Skype for Business Server のインストールに必要な管理ツールをインストールする方法について説明します。 Skype for Business Server の無料トライアルは、次[https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)の Microsoft 評価センターからダウンロードしてください。
+**概要:** Skype for Business Server のインストールに必要な管理ツールのインストール方法について説明します。 次[https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)の Microsoft 評価センターから、無料の Skype For business Server の試用版をダウンロードしてください。
   
-管理ツールには、トポロジビルダーとコントロールパネルが含まれています。 Skype for Business Server でサポートされている Windows OS バージョンを実行している場合は、トポロジまたは64ビット管理ワークステーションの少なくとも1つのサーバーに管理ツールをインストールする必要があります。 手順 1 ～ 5 は任意の順序で実行できます。 ただし、手順 6、7、および 8 は、手順 1 ～ 5 の後に、図の順序で実行する必要があります。 管理ツールのインストール手順は 3/8 です。
+管理ツールには、トポロジビルダーとコントロールパネルがあります。 管理ツールは、トポロジ内の少なくとも1つのサーバーにインストールするか、Skype for Business Server でサポートされている Windows OS バージョンを実行している64ビットの管理ワークステーションにインストールする必要があります。 手順1から5までを任意の順序で実行できます。 ただし、手順6、7、および8は、図に示されているように、手順 1 ~ 5 の後で実行する必要があります。 管理ツールのインストール手順は 3/8 です。
   
 ![概要図](../../media/d856afe8-4758-432f-bc45-e1956016419a.png)
   
-## <a name="install-skype-for-business-server-administrative-tools"></a>Skype for Business Server 管理ツールをインストールする
+## <a name="install-skype-for-business-server-administrative-tools"></a>Skype for Business Server 管理ツールのインストール
 
-Skype for Business Server のインストールメディアには、柔軟なエクスペリエンスが用意されています。 Setup.exe を初めて実行するときにインストールされるツールは、Skype for Business Server 展開ウィザードと Skype for Business Server 管理シェルだけです。 コアコンポーネントと呼ばれるこれら2つのツールを使用することで、インストールプロセスを続行できますが、Skype for Business Server 環境全体の主要機能は提供されません。 展開ウィザードはコア コンポーネントのインストール後に自動で起動されます。 「**管理ツールをインストール**する」というタイトルの展開ウィザードのセクションでは、Skype For Business Server Topology Builder と Skype For Business Server コントロールパネルをインストールします。
+Skype for Business Server のインストールメディアには、柔軟な環境が用意されています。 Setup.exe を最初に実行したときにインストールされるツールは、Skype for Business Server 展開ウィザードと Skype for Business Server 管理シェルのみです。 コアコンポーネントと呼ばれるこれら2つのツールを使用することにより、インストールプロセスを続行できますが、全体的な Skype for Business Server 環境の主要な機能は提供されません。 展開ウィザードは、コアコンポーネントをインストールした後に自動的に起動します。 「 **Install 管理ツール**」というタイトルの展開ウィザードのセクションでは、Skype For Business Server トポロジビルダーと Skype For Business Server コントロールパネルがインストールされます。
   
 > [!IMPORTANT]
-> すべての Skype for Business Server 環境には、管理ツールがインストールされているサーバーが少なくとも1つ必要です。 
+> すべての Skype for Business Server 環境には、管理ツールがインストールされた少なくとも1つのサーバーが必要です。 
   
-**管理ツールのインストール**手順に関するビデオを見てください。
+**管理ツールをインストール**するためのビデオの手順をご覧ください。
   
-> [!video https://www.microsoft.com/en-us/videoplayer/embed/99a5c436-963b-4eed-b423-651568c87cb1?autoplay=false]
+> [!video https://www.microsoft.com/videoplayer/embed/99a5c436-963b-4eed-b423-651568c87cb1?autoplay=false]
   
 ### <a name="install-skype-for-business-server-administrative-tools-from-the-deployment-wizard"></a>展開ウィザードから Skype for Business Server 管理ツールをインストールする
 
-1. Skype for Business Server インストールメディアを挿入します。 セットアップが自動で開始されない場合は、[**セットアップ**] をダブルクリックします。
+1. Skype for Business Server のインストールメディアを挿入します。 セットアップが自動的に開始しない場合は、[**セットアップ**] をダブルクリックします。
     
-2. インストール メディアを実行するには、Microsoft Visual C++ が必要です。インストールするかどうかをたずねるダイアログ ボックスが表示されたら、[**はい**] をクリックします。
+2. インストールメディアを実行するには、Microsoft Visual C++ が必要です。 インストールするかどうかを確認するダイアログボックスが表示されます。 [**はい**] をクリックします。
     
-3. Skype for Business Server の新機能であるスマートセットアップを使用すると、インターネットに接続して、インストールプロセス中に更新プログラムを確認することができます。 これにより、インストール時の製品に最新の更新プログラムを確実に適用できるため、作業がしやすくなります。 [**インストール**] をクリックしてインストールを開始します。
+3. Skype for Business Server の新機能であるスマートセットアップを使用すると、インストールプロセス中にインターネットに接続して更新プログラムを確認できます。 これにより、インストール時に最新の更新プログラムがインストールされていることを確認することができるようになります。 **[インストール]** をクリックして、インストールを開始します。
     
-4. 使用許諾契約書の内容をよく読んでください。同意する場合は [**使用許諾契約書に同意します**] を選択し、[**OK**] をクリックします。
+4. 使用許諾契約書をよく読んで、同意する場合は [**使用許諾契約書に同意**します] を選択して、[ **OK**] をクリックします。
     
-5. Skype for Business Server のコアコンポーネントはサーバーにインストールされます。 
+5. Skype for Business Server のコアコンポーネントがサーバーにインストールされます。 
     
-    コア コンポーネントは、図に示されている次のコンポーネントで構成されています。
+    コアコンポーネントは、図に示すように、次の要素で構成されています。
     
-    ![アプリの画面のコア コンポーネント](../../media/0da1d983-4c4b-4b23-a196-c3bdba4857c6.png)
+    ![アプリ画面のコアコンポーネント。](../../media/0da1d983-4c4b-4b23-a196-c3bdba4857c6.png)
   
-   - **Skype For Business Server Deployment ウィザード**Skype for Business Server のさまざまなコンポーネントをインストールするための起動パッドを提供する展開プログラム。
+   - **Skype For Business Server 展開ウィザード**Skype for Business Server のさまざまなコンポーネントをインストールするための起動パッドを提供する展開プログラム。
     
-   - **Skype For Business Server 管理シェル**Skype for Business Server の管理を可能にする事前構成済み PowerShell プログラム。
+   - **Skype For Business Server 管理シェル**Skype for Business Server の管理を可能にする、あらかじめ構成された PowerShell プログラム。
     
-     コアコンポーネントのインストールが完了すると、図に示すように、Skype for Business Server Deployment ウィザードが自動的に起動します。 
+     コアコンポーネントのインストールが完了すると、図に示すように、Skype for Business Server 展開ウィザードが自動的に起動します。 
     
      ![Skype for Business Server 展開ウィザード](../../media/310c3437-83f9-48fa-a1e1-9fd09009fe31.png)
   
-6. コアコンポーネントに加えて、環境内の少なくとも1台のサーバーに Skype for Business Server Topology Builder と Skype for Business Server コントロールパネルをインストールする必要があります。 展開ウィザードの [**管理ツールのインストール**] をクリックします。
+6. コアコンポーネントに加えて、Skype for Business Server トポロジビルダーと Skype for Business Server コントロールパネルを環境内の少なくとも1つのサーバーにインストールする必要があります。 展開ウィザードで、[**管理ツールのインストール**] をクリックします。
     
 7. [**次へ**] をクリックして、インストールを開始します。
     
-8. インストールが完了したら、[**完了**] をクリックします。これで、管理ツールがサーバーに追加されました。図に例を示します。
+8. インストールが完了したら、[**完了**] をクリックします。 図に示すように、管理ツールがサーバーに追加されました。
     
     ![Skype for Business Server 管理ツール](../../media/760873dd-9c87-4efb-bf98-7162d876fd18.png)
   
-   - **Skype For Business Server トポロジビルダー**トポロジを構築、展開、管理するために使用されるプログラム。
+   - **Skype For Business Server トポロジビルダー**トポロジを構築、展開、および管理するために使用されるプログラム。
     
    - **Skype For Business Server コントロールパネル**インストールを管理するために使用されるプログラム。
     

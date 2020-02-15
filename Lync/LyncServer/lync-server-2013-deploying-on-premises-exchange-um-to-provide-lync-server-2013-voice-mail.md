@@ -1,5 +1,5 @@
 ---
-title: 内部設置型 Exchange UM を展開して Lync Server 2013 ボイス メールを提供する
+title: 社内 Exchange UM を展開して Lync Server 2013 ボイスメールを提供する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184859
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c836c579571645a7717ee54b697081104f90986d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3742b747a9dee55d02cbc261cbcbebce1f3c2591
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740957"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043409"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail"></a>内部設置型 Exchange UM を展開して Lync Server 2013 ボイス メールを提供する
+# <a name="deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail"></a>社内 Exchange UM を展開して Lync Server 2013 ボイスメールを提供する
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41740957"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-26_
+_**トピックの最終更新日:** 2012-09-26_
 
-組織に Microsoft Exchange Server を展開または展開する計画がある場合は、Exchange ユニファイドメッセージング (UM) 機能を使用して、エンタープライズボイスユーザーにボイスメールを提供できます。
+組織内に Microsoft Exchange Server を展開または展開する予定がある場合は、Exchange ユニファイドメッセージング (UM) 機能を使用して、エンタープライズ Voip ユーザーにボイスメールを提供できます。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 と連動させるための Microsoft Exchange Server のユニファイド メッセージングの構成](lync-server-2013-configuring-unified-messaging-on-microsoft-exchange-server-to-work-with-lync-server.md)
+  - [Lync Server 2013 で動作するように Microsoft Exchange Server でユニファイドメッセージングを構成する](lync-server-2013-configuring-unified-messaging-on-microsoft-exchange-server-to-work-with-lync-server.md)
 
-  - [Microsoft Exchange Server のユニファイド メッセージングと連動させるための Lync Server 2013 の構成](lync-server-2013-configure-lync-server-2013-to-work-with-unified-messaging-on-microsoft-exchange-server.md)
+  - [Microsoft Exchange Server でユニファイドメッセージングを使用するように Lync Server 2013 を構成する](lync-server-2013-configure-lync-server-2013-to-work-with-unified-messaging-on-microsoft-exchange-server.md)
 
 </div>
 

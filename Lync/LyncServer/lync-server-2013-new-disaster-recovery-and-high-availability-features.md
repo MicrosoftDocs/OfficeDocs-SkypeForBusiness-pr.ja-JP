@@ -12,16 +12,16 @@ ms:contentKeyID: 48184130
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aabac29c5e866c4bfeff8ad79d392578d52ba650
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6d69a77e1277b843ed1df13a130e67a9ee081d98
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757521"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042374"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41757521"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-20_
+_**トピックの最終更新日:** 2012-09-20_
 
-Lync Server 2010 の場合と同様に、Lync Server 2013 の主な高可用性 (HA) スキームは、プールによるサーバーの冗長性に基づいています。 特定のサーバーの役割を実行するサーバーで障害が発生した場合は、プール内の同じ役割を実行する他のサーバーがそのサーバーの負荷を引き受けます。 同じことが、フロントエンド サーバー、エッジ サーバー、仲介サーバー、およびディレクターでも実行されます。
+Lync Server 2010 の場合と同様に、Lync Server 2013 の主な高可用性 (HA) スキームは、プーリングによるサーバーの冗長性に基づいています。 あるサーバーの役割を実行しているサーバーが失敗すると、プール内で同じサーバーの役割を実行している別のサーバーがそのサーバーの負荷を引き継ぎます。 これはフロントエンド サーバー、エッジ サーバー、仲介サーバー、およびディレクターに適用されます。
 
-Lync Server 2013 は、2つのデータセンターにあるフロントエンドプールを組み合わせることによって、新しい障害回復手段を追加します。 ペアリングされたプールのいずれかがダウンした場合、管理者はそのプールのユーザーをペアの他のプールにフェールオーバーして、サービスの継続を提供できます。 この機能には、記憶域ネットワークや共有ディスクなどの高価なネットワークやハードウェアソリューションは必要ありません。
+Lync Server 2013 は、2つのデータセンターにあるフロントエンドプールをペアにすることによって、新しい障害復旧手段を追加します。 ペアになっているプールのいずれかがダウンすると、管理者はそのプールのユーザーをペアの他のプールにフェールオーバーして、サービスの継続を提供できます。 この機能には、記憶域ネットワークや共有ディスクなど、高価なネットワークやハードウェアソリューションは必要ありません。
 
-また、Lync Server 2013 により、バックエンドサーバーの高可用性が追加されます。 これは、フロントエンドプール用に2つのバックエンドサーバーを展開し、バックエンドサーバーで実行されているすべての Lync データベースの同期 SQL ミラーリングをセットアップする、オプションのトポロジです。 ミラーのミラーリングを行うかどうかを選ぶことができます。
+Lync Server 2013 では、バックエンドサーバーの高可用性も追加されます。 これは、フロントエンドプール用に2台のバックエンドサーバーを展開し、バックエンドサーバーで実行されているすべての Lync データベースの同期 SQL ミラーリングをセットアップするオプションのトポロジです。 ミラーの監視を展開するかどうかを選択できます。
 
 <div>
 

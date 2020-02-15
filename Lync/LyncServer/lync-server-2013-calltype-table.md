@@ -12,16 +12,16 @@ ms:contentKeyID: 48185019
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 98fd74831b90d88c7adc473c51ca88940eb34f18
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3f90be73c63921ebe9971abae85b2da22e76a560
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743197"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044209"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41743197"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-28_
+_**トピックの最終更新日:** 2012-09-28_
 
-CallType テーブルは、可能な呼び出しの種類の一覧を格納する静的テーブルです。
+CallType テーブルは、可能な通話の種類の一覧を格納する静的なテーブルです。
 
 
 <table>
@@ -57,7 +57,7 @@ CallType テーブルは、可能な呼び出しの種類の一覧を格納す�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>発信者の Typeid</strong></p></td>
+<td><p><strong>CallTypeId</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primary</p></td>
 <td></td>
@@ -66,14 +66,14 @@ CallType テーブルは、可能な呼び出しの種類の一覧を格納す�
 <td><p><strong>CallType</strong></p></td>
 <td><p>nvarchar</p></td>
 <td></td>
-<td><p>許可される値:</p>
+<td><p>有効な値は次のとおりです。</p>
 <ul>
-<li><p>0--不明</p></li>
-<li><p>1–インスタントメッセージ (im)</p></li>
+<li><p>0 -- 不明</p></li>
+<li><p>1–インスタントメッセージング</p></li>
 <li><p>2--アプリケーション共有</p></li>
-<li><p>3--オーディオ</p></li>
-<li><p>4-オーディオとビデオ</p></li>
-<li><p>5-ファイル送信</p></li>
+<li><p>3--音声</p></li>
+<li><p>4–音声およびビデオ</p></li>
+<li><p>5–ファイル転送</p></li>
 </ul></td>
 </tr>
 </tbody>

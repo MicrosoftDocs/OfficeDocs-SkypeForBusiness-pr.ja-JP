@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: DNS の概要 - 単一ディレクター'
+title: 'Lync Server 2013: DNS の概要-単一ディレクター'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184568
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 71fb3052de36a92afb4ed9076820f7fcb2b54997
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 44bcd52c2e7d13ef57e96e4ae5dc8841a58bc3d9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757581"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043789"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---single-director-in-lync-server-2013"></a>DNS の概要 - Lync Server 2013 の単一ディレクター
+# <a name="dns-summary---single-director-in-lync-server-2013"></a>DNS の概要-Lync Server 2013 の単一ディレクター
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41757581"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-20_
+_**トピックの最終更新日:** 2012-10-20_
 
-次の表には、1つのディレクターをサポートするために必要な DNS レコードの概要が記載されています。 ディレクターの役割には、フロントエンドサーバーと同様の DNS レコードが必要です。 必要なレコードの数は、ディレクター証明書に必要なサブジェクトの代替名に反映されます。 フロントエンドサーバーとは異なり、ディレクターはユーザーアカウントをホストしないか、モビリティサービスをホストしません。
+次の表に、単一ディレクターのサポートに必要な DNS レコードの概要を示します。 ディレクターの役割では、フロントエンドサーバーと同様の DNS レコードが必要です。 必要なレコード数は、ディレクター証明書で必要なサブジェクトの別名に反映されます。 フロントエンドサーバーとは異なり、ディレクターはユーザーアカウントをホストしたり、モビリティサービスをホストしたりしません。
 
 ### <a name="dns-records-required-for-the-director"></a>ディレクターに必要な DNS レコード
 
@@ -53,7 +53,7 @@ _**最終更新日:** 2012-10-20_
 <th>場所/種類/ポート</th>
 <th>FQDN/DNS レコード</th>
 <th>IP アドレス/FQDN</th>
-<th>マップ先/コメント</th>
+<th>マッピング先/コメント</th>
 </tr>
 </thead>
 <tbody>
@@ -61,7 +61,7 @@ _**最終更新日:** 2012-10-20_
 <td><p>内部 DNS/A</p></td>
 <td><p>dir01.contoso.net</p></td>
 <td><p>ディレクター</p></td>
-<td><p>レプリケーションとサーバー間で使用されるディレクターホストレコード</p></td>
+<td><p>レプリケーションおよびサーバー間で使用されるディレクターホストレコード</p></td>
 </tr>
 <tr class="even">
 <td><p>内部 DNS/A</p></td>
@@ -73,19 +73,19 @@ _**最終更新日:** 2012-10-20_
 <td><p>内部 DNS/A</p></td>
 <td><p>dialin.contoso.com</p></td>
 <td><p>ディレクター</p></td>
-<td><p>リバースプロキシから公開されたダイヤルインの web サービス</p></td>
+<td><p>リバース プロキシからの公開済みダイヤルイン Web サービス</p></td>
 </tr>
 <tr class="even">
 <td><p>内部 DNS/A</p></td>
 <td><p>meet.contoso.com</p></td>
 <td><p>ディレクター</p></td>
-<td><p>リバースプロキシから発行された web サービス</p></td>
+<td><p>リバース プロキシからの公開済みミーティング Web サービス</p></td>
 </tr>
 <tr class="odd">
 <td><p>内部 DNS/A</p></td>
 <td><p>webdirexternal.contoso.com</p></td>
 <td><p>ディレクター</p></td>
-<td><p>リバースプロキシ Web チケットによって公開および定義されるディレクターの外部 web サービス</p></td>
+<td><p>リバースプロキシの Web チケット外部 web サービスによって発行され、ディレクター用に定義される</p></td>
 </tr>
 </tbody>
 </table>

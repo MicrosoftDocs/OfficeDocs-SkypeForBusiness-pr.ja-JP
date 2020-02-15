@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d156761d8ebc39822d6ccf2fc28ed6c380c4e117
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 77a325fbe8cacb3b2760f5b3034dee0e16695278
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825185"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42021598"
 ---
 # <a name="plan-my-users-experience"></a>ユーザーエクスペリエンスを計画する
 
@@ -108,7 +108,7 @@ Microsoft Teams は会議のために、または電話システムとして使�
 デバイスを選択したら、それらを最終検証のパイロット テスト計画に含めます。 パイロット中にアンケートを活用して、デバイス戦略が適正であることを確認するために、フィードバックを収集します。
 
 > [!NOTE]
-> 現時点では、Skype for Business の認証プログラムを通して認証されたオーディオ デバイスを使用することをお勧めします。 このプログラムで認定されているデバイスを確認するには、 [Microsoft Teams デバイス](https://products.office.com/en-us/microsoft-teams/across-devices/devices)と[USB オーディオおよびビデオデバイス](https://docs.microsoft.com/SkypeForBusiness/certification/devices-usb-devices)を参照してください。
+> 現時点では、Skype for Business の認証プログラムを通して認証されたオーディオ デバイスを使用することをお勧めします。 このプログラムで認定されているデバイスを確認するには、 [Microsoft Teams デバイス](https://products.office.com/microsoft-teams/across-devices/devices)と[USB オーディオおよびビデオデバイス](https://docs.microsoft.com/SkypeForBusiness/certification/devices-usb-devices)を参照してください。
 
 
 

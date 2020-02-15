@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b5a6079924803f7dbdde0c49bb5bd5d1f1aa2c4b
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: ad0043b1599ac7ce90599a03d786d756cf16e684
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825706"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008149"
 ---
 # <a name="plan-to-move-your-staffhub-teams-to-shifts-in-microsoft-teams"></a>Microsoft Teams での StaffHub teams のシフトへの移行を計画する
 
@@ -49,7 +49,7 @@ StaffHub から Teams への移行を計画する場合は、タイムライン�
 |常用    |Teams でのシフトへの切り替えについて StaffHub ユーザーと通信する         |[StaffHub for Teams からユーザーへのメール通信のサンプル](staffhub-to-teams-email-template.md)         |
 |折り     |Teams クライアントをインストールする         |[Teams のクライアントを取得する](../../get-clients.md) |
 |以内    |ユーザーに FirstLineWorker アプリセットアップポリシーを割り当てます (または、カスタムアプリセットアップポリシーを作成して割り当てる)、シフトアプリを Teams クライアントにピン留めします。  |[FirstLineWorker アプリのセットアップ ポリシーをユーザーに割り当てる](move-staffhub-teams-to-shifts-in-teams.md#assign-the-firstlineworker-app-setup-policy-to-users)         |
-|14     |シフトやチームの使い方についてユーザーを教育する         |[Teams にユーザーをオンボードする](move-staffhub-teams-to-shifts-in-teams.md#onboard-users-to-teams)<br><br>[ヘルプドキュメントのシフト](https://support.office.com/en-us/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)<br><br>[Teams のヘルプ ドキュメント](https://support.office.com/teams)<br><br>[Teams のトレーニング用ビデオ](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)       |
+|14     |シフトやチームの使い方についてユーザーを教育する         |[Teams にユーザーをオンボードする](move-staffhub-teams-to-shifts-in-teams.md#onboard-users-to-teams)<br><br>[ヘルプドキュメントのシフト](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)<br><br>[Teams のヘルプ ドキュメント](https://support.office.com/teams)<br><br>[Teams のトレーニング用ビデオ](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)       |
 |14     |StaffHub teams のリストを確認して、それらのチームのすべてのユーザーを Teams に移動する必要があることを確認します。 スケジュールを設定しないユーザーを削除します。 |         |
 
 ## <a name="move-your-organizations-staffhub-teams-to-teams"></a>組織の StaffHub teams を Teams に移動する

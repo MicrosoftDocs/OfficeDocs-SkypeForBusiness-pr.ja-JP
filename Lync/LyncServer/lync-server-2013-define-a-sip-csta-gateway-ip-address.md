@@ -12,16 +12,16 @@ ms:contentKeyID: 48185073
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c50958f2c7c44045e25ff4ac9619f3ad73a5f302
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 60541799a66365275207ea998fa2d4dd218a7bc3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728517"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043649"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,31 +35,31 @@ ms.locfileid: "41728517"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-21_
+_**トピックの最終更新日:** 2012-09-21_
 
-Lync Server が伝送制御プロトコル (TCP) 接続を使ってリモート通話コントロール用に展開した SIP/CSTA ゲートウェイに接続する場合は、トポロジビルダーでゲートウェイの IP アドレスを定義する必要があります。 トランスポート層セキュリティ (TLS) 接続をサポートするゲートウェイの場合、この手順は必要ありません。 TLS 接続をサポートしているすべてのゲートウェイについては、この手順をスキップして、「lync[ユーザーが Lync Server 2013 のリモート通話制御を有効にする](lync-server-2013-enable-lync-users-for-remote-call-control.md)」の手順に従って、リモート通話コントロールの展開を継続できます。
+伝送制御プロトコル (TCP) 接続を使用して、リモート通話コントロール用に展開した SIP/CSTA ゲートウェイに Lync Server が接続する場合は、トポロジビルダーでゲートウェイの IP アドレスを定義する必要があります。 トランスポート層セキュリティ (TLS) 接続をサポートするゲートウェイの場合、このステップは必要ありません。 TLS 接続をサポートするすべてのゲートウェイについては、この手順を省略して、「 [lync ユーザーのリモート通話コントロールでの Lync Server 2013 の有効化](lync-server-2013-enable-lync-users-for-remote-call-control.md)」の手順に従って、リモート通話コントロールの展開を続行できます。
 
 <div>
 
-## <a name="to-define-the-sipcsta-gateway-ip-address-by-using-topology-builder"></a>Topology Builder を使用して SIP/CSTA ゲートウェイの IP アドレスを定義するには
+## <a name="to-define-the-sipcsta-gateway-ip-address-by-using-topology-builder"></a>トポロジ ビルダーを使用して SIP/CSTA ゲートウェイの IP アドレスを定義するには
 
 1.  トポロジ ビルダーがインストールされているコンピューターに、Domain Admins グループおよび RTCUniversalServerAdmins グループのメンバーとしてログオンします。
 
-2.  トポロジビルダーを開始します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server Topology Builder**] の順にクリックします。
+2.  トポロジ ビルダーを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server トポロジ ビルダー**] の順にクリックします。
 
-3.  既存のトポロジをダウンロードするためのオプションを選択します。
+3.  既存のトポロジをダウンロードするオプションを選択します。
 
-4.  [信頼されている**アプリケーションサーバー** ] ノードを展開します。
+4.  [**信頼されたアプリケーション サーバー**] ノードを展開します。
 
-5.  「 [Lync Server 2013 のリモート通話コントロールに対して信頼されているアプリケーションエントリを構成](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)する」の説明に従って、作成した信頼できるアプリケーションプールを右クリックし、[**プロパティの編集**] をクリックします。
+5.  「 [Lync Server 2013 のリモート通話コントロールの信頼済みアプリケーションエントリを構成](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)する」の説明に従って、作成した信頼されたアプリケーションプールを右クリックし、[**プロパティの編集**] をクリックします。
 
-6.  [**このプールへの構成データのレプリケーションを有効に**する] チェックボックスをオフにします。
+6.  [**このプールへの構成データのレプリケーションを有効にする**] チェック ボックスをオフにします。
 
-7.  [**サービスの利用制限を選択した IP アドレスに制限] を**クリックします。 既定の設定では、[構成され**た IP アドレスをすべて使用する**] を選びます。
+7.  [**サービスの使用を選択した IP アドレスに限定する**] をクリックします。 既定の設定は [**すべての構成済み IP アドレスの使用**] です。
 
-8.  [**プライマリ IP アドレス**] テキストボックスに、SIP/csta ゲートウェイの IP アドレスを入力します。
+8.  [**プライマリ IP アドレス**] テキスト ボックスに、SIP/CSTA ゲートウェイの IP アドレスを入力します。
 
-9.  サーバーの全体管理ストアでトポロジを更新するには、コンソールツリーで [ **Lync Server**] をクリックし、[**操作**] ウィンドウで [**発行**] をクリックします。
+9.  中央管理ストアでトポロジを更新するには、コンソール ツリーの [**Lync Server**] をクリックし、[**操作**] ウィンドウで [**公開**] をクリックします。
 
 </div>
 
@@ -68,8 +68,8 @@ Lync Server が伝送制御プロトコル (TCP) 接続を使ってリモート�
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 でのリモート通話コントロールの静的ルートの構成](lync-server-2013-configure-a-static-route-for-remote-call-control.md)  
-[Lync Server 2013 でリモート通話コントロールの信頼済みアプリケーション エントリを構成する](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)  
+[Lync Server 2013 でリモート通話コントロールの静的ルートを構成する](lync-server-2013-configure-a-static-route-for-remote-call-control.md)  
+[Lync Server 2013 でのリモート通話コントロールの信頼済みアプリケーションエントリを構成する](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)  
   
 
 </div>

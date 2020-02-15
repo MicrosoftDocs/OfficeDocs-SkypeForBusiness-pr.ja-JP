@@ -12,20 +12,20 @@ ms:contentKeyID: 48185442
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eaa41fe229e9246506fd92eb9f48767994997e4e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 23aab6df352b162f7f389ef56fb2300f01654edb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725677"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042324"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="intertrunk-routing-in-lync-server-2013"></a>Lync Server 2013 のトランク間ルーティング
+# <a name="intertrunk-routing-in-lync-server-2013"></a>Lync Server 2013 でのトランク間ルーティング
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41725677"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-20_
+_**トピックの最終更新日:** 2012-10-20_
 
-Lync Server 2013 は、IP PBX を公衆交換電話網 (PSTN) ゲートウェイに接続して、PBX 携帯電話からの通話を PSTN にルーティングし、着信 PSTN 通話を構内交換機 (PBX) 電話にルーティングすることができます。 同様に、Lync Server 2013 は2つ以上の IP PBX システムを相互接続して、さまざまな IP PBX システムからの PBX 電話間で通話を発信および受信できるようにすることができます。
+Lync Server 2013 は、PBX と公衆交換電話網 (PSTN) ゲートウェイを相互に接続して、PBX 電話からの通話を PSTN にルーティングし、PSTN 通話の着信を構内交換機 (PBX) 電話にルーティングすることができます。 同様に、Lync Server 2013 は2つ以上の ip-pbx システムを相互に接続して、異なる ip-pbx システムからの PBX 電話間で通話を発信および受信できるようにすることができます。
 
-このクロストランクルーティング機能を構成するには、Lync Server Management Shell コマンドレット**set-cstrunkconfiguration**を使用して、新しいパラメーター PstnUsages を設定します。 このパラメーターは、使用する PSTN 利用状況レコードのセットを指定します。 トランクはこの PSTN 使用法を使ってルートを特定し、着信通話をすべてルーティングします。
+このトランク間ルーティング機能を構成するには、Lync Server 管理シェルコマンドレット**get-cstrunkconfiguration**を使用して、新しいパラメーターである PstnUsages を設定します。 このパラメーターでは、使用する一連の PSTN 使用法レコードを指定します。 トランクはこの PSTN 使用法を使用して、ルートを決定し、それに従って着信したすべての通話をルーティングします。
 
     Set-CsTrunkConfiguration -Identity <TrunkId> -PstnUsages @{add="<UsageString>"}
 
-次の図は、PSTN ゲートウェイと ip-pbx の間の相互に通信できる Lync Server 2013 を示しています。
+次の図は、PSTN ゲートウェイと ip-pbx の間の相互関係を提供する Lync Server 2013 を示しています。
 
-**ゲートウェイと IP PBX 間の intertrunk ルーティング**
+**ゲートウェイと IP PBX の間のトランク間ルーティング**
 
-![Lync Server、PSTN ゲートウェイ/IP-PBX の接続図](images/JJ721940.cc3858ca-2ee3-4d51-8a51-db078366b50b(OCS.15).jpg "Lync Server、PSTN ゲートウェイ/IP-PBX の接続図")
+![PSTN ゲートウェイまたは ip-pbx に接続する Lync Server](images/JJ721940.cc3858ca-2ee3-4d51-8a51-db078366b50b(OCS.15).jpg "PSTN ゲートウェイまたは ip-pbx に接続する Lync Server")
 
-次の図は、2つの IP PBX システムでの Lync Server 2013 相互の相互に対応しています。
+次の図は、Lync Server 2013 相互に2つの ip-pbx システムを相互に相互に相互に相互に相互に相互に相互に
 
-**2つの IP Pbx 間での intertrunk ルーティング**
+**2 つの IP PBX 間のトランク間ルーティング**
 
-![Lync Server、IP-PAX システムの相互接続図](images/JJ721940.6ba18ec9-df70-498a-9cf7-7fc41e5ec432(OCS.15).jpg "Lync Server、IP-PAX システムの相互接続図")
+![Lync Server 相互による IP-PAX システムの図](images/JJ721940.6ba18ec9-df70-498a-9cf7-7fc41e5ec432(OCS.15).jpg "Lync Server 相互による IP-PAX システムの図")
 
 </div>
 

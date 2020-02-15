@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'ビジネス向けの Microsoft 電話システムの計画とセットアップ方法について説明します。 '
-ms.openlocfilehash: ec41a7ac88c6c7c1a99c7c547b45ef1b95c25cc8
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: b1ba96143c62b829ef9461c1429a83a8b3cfe51e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836319"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045169"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Office 365 の電話システムでできること
 
@@ -56,13 +56,13 @@ ms.locfileid: "41836319"
 |[発信者番号](how-can-caller-id-be-used-in-your-organization.md)  <br/> |社内からの通話には、会社のディレクトリから情報を取得する詳細な発信者番号が表示され、電話番号だけではなく、写真の ID と役職が表示されます。 外部電話番号からの通話の場合、電話サービスプロバイダによって提供される発信者番号認識が表示されます。 外部電話番号が企業ディレクトリ内のセカンダリ番号の場合は、企業ディレクトリからの情報が表示されます。  <br/> |
 |デバイス切り替え  <br/> |ユーザーは、チームに接続されている別の HID デバイスで通話または会議を再生することができます。たとえば、PC スピーカーからヘッドセットに切り替えます。   <br/> |
 |プレゼンスベースの通話ルーティング <br/> |プレゼンスを使って着信通信を制御します。ユーザーは、明示的に指定されたものを除き、すべての着信をブロックすることができます。  <br/> |
-|[統合ダイヤルパッド](https://support.office.com/en-us/article/use-the-dial-pad-in-teams-27bc60b5-74c0-4e9c-808b-da4db9514d89) <br/> | ユーザーは、名前または検索バーとダイヤルパッドの任意の場所で番号をダイヤルして、通話の発信プロセスを高速化することができます。 <br/> |
+|[統合ダイヤルパッド](https://support.office.com/article/use-the-dial-pad-in-teams-27bc60b5-74c0-4e9c-808b-da4db9514d89) <br/> | ユーザーは、名前または検索バーとダイヤルパッドの任意の場所で番号をダイヤルして、通話の発信プロセスを高速化することができます。 <br/> |
 |フェデレーション通話  <br/> |フェデレーションされたテナント内のユーザーと安全に接続、通信、共同作業を行うことができます。  <br/> |
 |[ビデオ通話の発信と受信](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42) <br/> | ユーザのアカウントがビデオ通話に対応している場合、ユーザはコンタクトと対面のビデオ通話を行うことができます。 必要なのは、カメラ、コンピュータのスピーカー、マイクだけです。 内蔵のオーディオデバイスがコンピューターに搭載されていない場合、ユーザーはヘッドセットを使用することもできます。<br/> |
 |[クラウドボイスメール](set-up-phone-system-voicemail.md) <br/> | ユーザーがボイスメールを受信すると、ボイスメールが添付ファイルとしてメールとして送信されます。 ユーザーは、認定されたデスクトップ電話で、すべてのチームまたは Skype for business アプリケーションでメッセージを聞くことができます。 ボイスメール トランスクリプションに対するサポートは 2017 年 3 月時点で追加されており、すべての組織とユーザーに対して既定で有効になっています。   <br/> |
 |[クラウドボイスメールのユーザー設定](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US) <br/> | ユーザーは、不在時の応答を含め、ボイスメール応答メッセージ、通話応答ルール、およびグリーティングの言語のクライアント設定を構成できます。   |
 |[セカンダリ着信](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) <br/> | PC に複数のスピーカーデバイスが接続されているユーザーは、既定のスピーカーに加えて、2台目のデバイスの着信音を設定することができます。 たとえば、PC と机のスピーカーに接続されているヘッドセットを使用しているユーザーは、着信があったときにヘッドセットと机スピーカーのどちらの輪を持っているかを選択して、通話を逃すことはありません。  |
-|[ディスティンクティブリング通知](https://support.office.com/en-us/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f)(Teams のみ)<br/> |通話の種類を区別できるように、通常の通話、着信の転送、委任された通話に対して、着信音を個別に選ぶことができます。  <br/> |
+|[ディスティンクティブリング通知](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f)(Teams のみ)<br/> |通話の種類を区別できるように、通常の通話、着信の転送、委任された通話に対して、着信音を個別に選ぶことができます。  <br/> |
 |[回線共有機能](shared-line-appearance.md) <br/> | 他のユーザーが自分の代わりに通話を発信および受信できるように、ユーザーが電話回線を共有できるようにします。|
 |[取り込み中 (Teams](teams-calling-policy.md)のみ) <br/> | ユーザーが既に通話または会議に参加している場合や、通話が保留になっている場合に、着信通話の処理方法を構成できる通話ポリシー。 通話先が電話に入っているときは、発信者は取り込み中の信号を受け取ります。 呼び出し元は不在着信通知を取得しますが、着信呼び出しに応答することはできません。 この機能は既定では無効になっていますが、テナント管理者が有効にすることができます。 |
 |[通話ブロック](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US) <br/> | ユーザーが (PSTN) 電話番号をブロックされたリストに追加して、その番号からの次の着信がブロックされるのを防ぐことができます。|

@@ -12,20 +12,20 @@ ms:contentKeyID: 48184623
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab8196070bbb7992aed915cf188d67e95912524a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4ae55f6146e59931b55ec384d374ea837eeb598c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742407"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044039"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="call-admission-control-on-a-sip-trunk-in-lync-server-2013"></a>Lync Server 2013 の SIP トランク上の通話受付管理
+# <a name="call-admission-control-on-a-sip-trunk-in-lync-server-2013"></a>Lync Server 2013 での SIP トランク上の通話受付管理
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41742407"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-22_
+_**トピックの最終更新日:** 2012-09-22_
 
 SIP トランクに通話受付管理 (CAC) を展開するには、インターネット テレフォニー サービス プロバイダー (ITSP) を表すためのネットワーク サイトを作成します。SIP トランクに帯域幅ポリシーの値を適用するには、企業内のネットワーク サイトと ITSP を表すために作成するネットワーク サイトのサイト間ポリシーを作成します。
 
@@ -43,11 +43,11 @@ SIP トランクに通話受付管理 (CAC) を展開するには、インター
 
 **SIP トランクの CAC 構成**
 
-![通話受付管理の SIP トランキングの図](images/Gg398632.276c0d8f-1dd5-4883-8499-c202399ddbe9(OCS.15).jpg "通話受付管理の SIP トランキングの図")
+![通話受付管理 SIP トランクの図](images/Gg398632.276c0d8f-1dd5-4883-8499-c202399ddbe9(OCS.15).jpg "通話受付管理 SIP トランクの図")
 
 SIP トランクに CAC を構成するには、CAC の展開時に次の作業を行う必要があります。
 
-1.  ITSP を表すためのネットワーク サイトを作成します。 ネットワーク サイトを適切なネットワーク地域に関連付けて、このネットワーク サイトの音声とビデオにゼロの帯域幅を割り当てます。 詳細については、展開ドキュメントの「 [Lync Server 2013 で CAC 用のネットワークサイトを構成する](lync-server-2013-configure-network-sites-for-cac.md)」を参照してください。
+1.  ITSP を表すためのネットワーク サイトを作成します。 ネットワーク サイトを適切なネットワーク地域に関連付けて、このネットワーク サイトの音声とビデオにゼロの帯域幅を割り当てます。 詳細については、「展開」のドキュメントの「 [Configure network sites FOR CAC On Lync Server 2013](lync-server-2013-configure-network-sites-for-cac.md) 」を参照してください。
     
     <div>
     
@@ -58,9 +58,9 @@ SIP トランクに CAC を構成するには、CAC の展開時に次の作業�
     
     </div>
 
-2.  手順 1 で作成したサイトの関連するパラメーター値を使用して、SIP トランクのサイト間リンクを作成します。 たとえば、企業内のネットワーク サイトの名前を NetworkSiteID1 パラメーターの値として使用し、ITSP ネットワーク サイトの名前を NetworkSiteID2 パラメーターの値として使用します。 詳細については、展開ドキュメントの「 [Lync Server 2013 でのネットワークサイト間ポリシーの作成](lync-server-2013-create-network-intersite-policies.md)」を参照してください。 また、CsNetworkInterSitePolicy コマンドレットの Lync Server 管理シェルドキュメントも参照してください。
+2.  手順 1 で作成したサイトの関連するパラメーター値を使用して、SIP トランクのサイト間リンクを作成します。 たとえば、企業内のネットワーク サイトの名前を NetworkSiteID1 パラメーターの値として使用し、ITSP ネットワーク サイトの名前を NetworkSiteID2 パラメーターの値として使用します。 詳細については、「展開」のドキュメントの「 [Create network インターサイトポリシーを Lync Server 2013 で作成](lync-server-2013-create-network-intersite-policies.md)する」を参照してください。 Get-csnetworkintersitepolicy コマンドレットについては、「Lync Server Management Shell」のドキュメントも参照してください。
 
-3.  ITSP からセッション ボーダー コントローラー (SCB) のメディア終端ポイントの IP アドレスを取得します。 サブネット マスクが 32 の IP アドレスを、ITSP を表すネットワーク サイトに追加します。 詳細については、「 [Lync Server 2013 でサブネットとネットワークサイトを関連付ける](lync-server-2013-associate-a-subnet-with-a-network-site.md)」を参照してください。
+3.  ITSP からセッション ボーダー コントローラー (SCB) のメディア終端ポイントの IP アドレスを取得します。 サブネット マスクが 32 の IP アドレスを、ITSP を表すネットワーク サイトに追加します。 詳細については、「 [Lync Server 2013 でのネットワークサイトへのサブネットの関連付け](lync-server-2013-associate-a-subnet-with-a-network-site.md)」を参照してください。
 
 </div>
 

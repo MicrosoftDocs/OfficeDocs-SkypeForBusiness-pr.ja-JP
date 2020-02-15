@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 未割り当ての電話番号を構成する'
+title: 'Lync Server 2013: 割り当てられていない電話番号の構成'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185009
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 02dd4f71b3bc9d53fcbd65f4e143fec550c6a528
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4d7fdbbca81ecd0dd42a9b5198f266b9a63d793e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736467"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043149"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41736467"
 
 <span> </span>
 
-_**最終更新日:** 2012-11-01_
+_**トピックの最終更新日:** 2012-11-01_
 
-Lync Server を使用すると、組織で有効であるが、ユーザーまたは電話に割り当てられていない電話番号への着信通話に対する処理を構成できます。 このような通話の処理を構成するには、未割り当ての番号テーブルを設定します。 テーブルを使用して、通話をアナウンスメントアプリケーションまたは Exchange UM サーバーにルーティングすることができます。
+Lync Server を使用すると、組織に対して有効であっても、ユーザーまたは電話に割り当てられていない電話番号への着信呼び出しに対して行われる処理を構成できます。 このような通話の処理を構成するには、割り当てられていない番号の表を設定します。 この表を使用して、アナウンスアプリケーションまたは Exchange UM サーバーへの通話をルーティングできます。
 
-割り当てられていない番号の表の構成方法は、その使用方法によって異なります。組織の有効な内線番号すべて、割り当てられていない内線番号のみ、または両方の種類の番号の組み合わせで、この表を構成できます。割り当てられていない番号の表には、割り当てられている番号と割り当てられていない番号を両方入れることができますが、現在割り当てられていない番号を発信者がダイヤルしたときのみ呼び出されます。有効な内線番号すべてを割り当てられていない番号の表に入れる場合、テーブルを再構成しなくても、ユーザーが組織を離れたとき必ず行う処理を指定できます。割り当てられていない内線番号を表に入れる場合、特定の番号について行う処理を調整できます。たとえば、顧客サービス デスクの内線番号を変更する場合、古い顧客サービス番号を表に入れ、新しい番号を知らせるアナウンスをそれに割り当てることができます。
+割り当てられていない番号の表の構成方法はその使用方法によって異なります。組織の有効な内線番号すべて、割り当てられていない内線番号のみ、または両方の種類の番号の組み合わせで、この表を構成できます。割り当てられていない番号の表には、割り当てられている番号と割り当てられていない番号を両方入れることができますが、現在割り当てられていない番号を発信者がダイヤルしたときのみ呼び出されます。有効な内線番号すべてを割り当てられていない番号の表に入れる場合、テーブルを再構成しなくても、ユーザーが組織を離れたとき必ず行う処理を指定できます。割り当てられていない内線番号を表に入れる場合、特定の番号について行う処理を調整できます。たとえば、顧客サービス デスクの内線番号を変更する場合、古い顧客サービス番号を表に入れ、新しい番号を知らせるアナウンスをそれに割り当てることができます。
 
 <div>
 
 
 > [!IMPORTANT]  
-> [割り当てられていない番号] テーブルを構成する前に、1つ以上のアナウンス、または Exchange UM 自動応答を設定する必要があります。 お知らせの作成の詳細については、「 <A href="lync-server-2013-create-an-announcement.md">Lync Server 2013 でお知らせを作成</A>する」を参照してください。 Exchange UM 設定が構成されているかどうかを確認するには、 <STRONG>Get-Csexcontact</STRONG>コマンドレットを実行します。 詳細については、「 <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsExUmContact">Get-CsExUmContact</A>」を参照してください。
+> 割り当てられていない番号の表を構成する前に、1つまたは複数のアナウンスを定義しているか、または Exchange UM 自動応答を設定しておく必要があります。 アナウンスの作成の詳細については、「 <A href="lync-server-2013-create-an-announcement.md">Lync Server 2013 のアナウンスを作成</A>する」を参照してください。 Exchange UM 設定が構成されているかどうかを確認するには、 <STRONG>Get-CsExUmContact</STRONG>コマンドレットを実行します。 詳細については、「 <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsExUmContact">get-help</A>」を参照してください。
 
 
 
@@ -53,11 +53,11 @@ Lync Server を使用すると、組織で有効であるが、ユーザーま�
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 で、割り当てられていない番号範囲を作成または変更する](lync-server-2013-create-or-modify-an-unassigned-number-range.md)
+  - [Lync Server 2013 で割り当てられていない番号範囲を作成または変更する](lync-server-2013-create-or-modify-an-unassigned-number-range.md)
 
-  - [Lync Server 2013 で、割り当てられていない番号範囲を削除する](lync-server-2013-delete-an-unassigned-number-range.md)
+  - [Lync Server 2013 で割り当てられていない番号範囲を削除する](lync-server-2013-delete-an-unassigned-number-range.md)
 
 </div>
 

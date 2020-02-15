@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ダイヤルイン会議アクセス番号を表示する'
+title: 'Lync Server 2013: ダイヤルイン会議アクセス番号の表示'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733628
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e86127c2a945bcd9154df0456545f5783fd1a34
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 851ac4d48a5242355baa1f25499dcaf26e8ef099
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731087"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043739"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-dial-in-conferencing-access-numbers-in-lync-server-2013"></a>Lync Server 2013 でダイヤルイン会議アクセス番号を表示する
+# <a name="view-dial-in-conferencing-access-numbers-in-lync-server-2013"></a>Lync Server 2013 でのダイヤルイン会議アクセス番号の表示
 
 </div>
 
@@ -37,35 +37,35 @@ ms.locfileid: "41731087"
 
 _**トピックの最終更新日:** 2013-02-23_
 
-Lync Server 2013 コントロールパネルでは、ユーザーが外部から会議に参加できるようにダイヤルインアクセス番号をユーザーに提供します。
+Lync Server 2013 コントロールパネルでは、ユーザーがダイヤルインアクセス番号を提供して、外部に会議に参加できるようにします。
 
 <div>
 
-## <a name="to-view-dial-in-access-numbers"></a>ダイヤルインアクセス番号を表示するには
+## <a name="to-view-dial-in-access-numbers"></a>ダイヤルイン アクセス番号を表示するには
 
 1.  CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
 3.  左側のナビゲーション バーで [**会議**] をクリックし、[**ダイヤルイン アクセス番号**] をクリックします。
 
 4.  [**ダイヤルイン アクセス番号**] ページで、表示するアクセス番号をクリックします。
 
-5.  [**編集**] で、[**詳細の表示**] を選択します。 チェックボックスをオンにします。
+5.  [**編集**] で、[**詳細の表示**] チェック ボックスをオンにします。
 
 </div>
 
 <div>
 
-## <a name="viewing-dial-in-conferencing-access-numbers-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して、ダイヤルイン会議アクセス番号を表示する
+## <a name="viewing-dial-in-conferencing-access-numbers-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用してダイヤルイン会議アクセス番号を表示する
 
-Windows PowerShell と CsDialInConferencingAccessNumber コマンドレットを使用して、ダイヤルイン会議アクセス番号を表示できます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
+ダイヤルイン会議アクセス番号は、Windows PowerShell と Get-csdialinconferencingaccessnumber コマンドレットを使用して表示できます。 このコマンドレットは、Lync Server 2013 管理シェルから実行するか、Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 <div>
 
 ## <a name="to-view-dial-in-conferencing-access-numbers"></a>ダイヤルイン会議アクセス番号を表示するには
 
-  - すべてのダイヤルイン会議アクセス番号に関する情報を表示するには、Lync Server 管理シェルで次のコマンドを入力し、enter キーを押します。
+  - すべてのダイヤルイン会議アクセス番号に関する情報を表示するには、Lync Server 管理シェルで次のコマンドを入力し、ENTER キーを押します。
     
         Get-CsDialInConferencingAccessNumber
     
@@ -86,7 +86,7 @@ Windows PowerShell と CsDialInConferencingAccessNumber コマンドレットを
 
 </div>
 
-詳細については、 [CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/Get-CsDialInConferencingAccessNumber)コマンドレットのヘルプトピックを参照してください。
+詳細については、 [get-csdialinconferencingaccessnumber](https://docs.microsoft.com/powershell/module/skype/Get-CsDialInConferencingAccessNumber)コマンドレットのヘルプトピックを参照してください。
 
 </div>
 

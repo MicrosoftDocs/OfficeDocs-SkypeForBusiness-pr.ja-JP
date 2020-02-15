@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d3849a3e4601c6af48e5a848774708d6c66a761e
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 346ef795f8432154d74610e4d061d00fc6039f2a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827535"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008159"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>Microsoft StaffHub の廃止
 
@@ -70,7 +70,7 @@ Teams のシフトアプリは、Firstline Worker を接続して同期させる
 
 #### <a name="how-do-i-get-shifts"></a>シフトを取得するにはどうすればよいですか? 
 
-シフトを含むプランを既にお持ちの場合は、チームの一員として今日シフトの使用を開始できます。 「[シフトの開始」を](https://support.office.com/en-us/article/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6)ご覧ください。
+シフトを含むプランを既にお持ちの場合は、チームの一員として今日シフトの使用を開始できます。 「[シフトの開始」を](https://support.office.com/article/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6)ご覧ください。
 
 #### <a name="which-devices-or-platforms-is-shifts-available-on"></a>シフトはどのデバイスまたはプラットフォームで利用できますか?
 

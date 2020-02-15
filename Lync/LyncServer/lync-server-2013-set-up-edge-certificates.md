@@ -12,20 +12,20 @@ ms:contentKeyID: 48185151
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 517d5203efa8c50e66e849b89623cad04770e02a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5056fd4c9c90accd7414936c68d43a6a023d3a13
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732247"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043749"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="set-up-edge-certificates-for-lync-server-2013"></a>Lync Server 2013 用のエッジ証明書のセットアップ
+# <a name="set-up-edge-certificates-for-lync-server-2013"></a>Lync Server 2013 のエッジ証明書のセットアップ
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41732247"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-08_
+_**トピックの最終更新日:** 2012-09-08_
 
-エッジサーバーをインストールする場合は、内部インターフェイスと外部インターフェイスに必要な証明書を要求、インストールして割り当てる必要があります。
+エッジ サーバーをインストールするときは、内部インターフェイスと外部インターフェイスに必要な証明書の要求、インストール、および割り当てを行う必要があります。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 における外部ユーザー アクセスに対する証明書要件](lync-server-2013-certificate-requirements-for-external-user-access.md)
+  - [Lync Server 2013 での外部ユーザーアクセスの証明書要件](lync-server-2013-certificate-requirements-for-external-user-access.md)
 
-  - [Lync Server 2013 での内部エッジ インターフェイス用の証明書の設定](lync-server-2013-set-up-certificates-for-the-internal-edge-interface.md)
+  - [Lync Server 2013 での内部エッジインターフェイス用の証明書の設定](lync-server-2013-set-up-certificates-for-the-internal-edge-interface.md)
 
-  - [Lync Server 2013 外部エッジ インターフェイスの証明書の設定](lync-server-2013-set-up-certificates-for-the-external-edge-interface.md)
+  - [Lync Server 2013 の外部エッジインターフェイス用の証明書の設定](lync-server-2013-set-up-certificates-for-the-external-edge-interface.md)
 
-  - [Lync Server 2013 でのリバース プロキシの証明書の設定](lync-server-2013-set-up-certificates-for-the-reverse-proxy.md)
+  - [Lync Server 2013 でリバースプロキシの証明書をセットアップする](lync-server-2013-set-up-certificates-for-the-reverse-proxy.md)
 
 </div>
 

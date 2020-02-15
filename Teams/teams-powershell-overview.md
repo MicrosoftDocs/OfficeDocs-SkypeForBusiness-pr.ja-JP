@@ -15,12 +15,12 @@ f1.keywords:
 description: PowerShell コントロールを使用して Microsoft Teams を管理する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d22eb0b14d25bec57949bb804e8bb8098ee33510
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5b211493bb5b0bfa3dea1abfc0c9b59eadcb4206
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836957"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035359"
 ---
 # <a name="teams-powershell-overview"></a>Teams での PowerShell の概要
 
@@ -30,7 +30,7 @@ Microsoft Teams には、IT 管理者が Microsoft Teams 管理センター、Po
 
 Teams を管理するための PowerShell コントロールは、次の 2 つの異なる PowerShell モジュールにあります。 
 - [Microsoft Teams PowerShell モジュール](https://www.powershellgallery.com/packages/MicrosoftTeams/): Teams PowerShell モジュールには、チームの作成と管理に必要なすべてのコマンドレットが含まれています。  
-- [Skype for Business PowerShell モジュール](https://www.microsoft.com/en-us/download/details.aspx?id=39366): Skype for Business PowerShell モジュールには、ポリシー、構成、その他の Teams のツールを管理するコマンドレットが含まれています。 
+- [Skype for Business PowerShell モジュール](https://www.microsoft.com/download/details.aspx?id=39366): Skype for Business PowerShell モジュールには、ポリシー、構成、その他の Teams のツールを管理するコマンドレットが含まれています。 
 
 PowerShell コントロールのリファレンス ドキュメントには、調査中のコマンドレットが含まれるモジュールが表示されます (最終的には、2 つのモジュールが結合されます)。
 
@@ -79,7 +79,7 @@ PowerShell コントロールのリファレンス ドキュメントには、�
 
 ## <a name="managing-policies-via-powershell"></a>PowerShell によるポリシーの管理
 
-ポリシー管理用のコマンドレットは、[Skype for Business コマンドレット モジュール](https://www.microsoft.com/en-us/download/details.aspx?id=39366)内にあります。
+ポリシー管理用のコマンドレットは、[Skype for Business コマンドレット モジュール](https://www.microsoft.com/download/details.aspx?id=39366)内にあります。
 
 > [!NOTE]
 > Skype for Business Online に接続すると、PowerShell セッションでコマンドレットを使用できるようになります。 詳細については、「[Office 365 PowerShell を使用して Skype for Business Online を管理する](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)」を参照してください。 
@@ -111,7 +111,7 @@ PowerShell コントロールのリファレンス ドキュメントには、�
 
 ## <a name="managing-configurations-via-powershell"></a>PowerShell による構成の管理
 
-構成管理用のコマンドレットは、[Skype for Business コマンドレット モジュール](https://www.microsoft.com/en-us/download/details.aspx?id=39366)内にあります。
+構成管理用のコマンドレットは、[Skype for Business コマンドレット モジュール](https://www.microsoft.com/download/details.aspx?id=39366)内にあります。
 
 構成は、ユーザー レベルで指定できないサービスで維持されている設定のバケットです。 設定は常に組織全体に適用されます。 グローバル構成は、組織で唯一の有効な構成です。 各構成の種類には、次の 2 つの主なコマンドレットが用意されています。
 

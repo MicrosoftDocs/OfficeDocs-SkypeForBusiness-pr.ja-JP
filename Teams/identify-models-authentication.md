@@ -17,12 +17,12 @@ ms.collection:
 description: クラウド、同期済み、フェデレーションなど、Microsoft Teams のさまざまな ID モデルを紹介します。また、多要素認証についても紹介します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11bf92cc2801d67d9b19d3c54f4c878e0913ffc3
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5c09702700cf62505bbe0016d44545a02596f6b8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41835927"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42022288"
 ---
 <a name="identity-models-and-authentication-in-microsoft-teams"></a>Microsoft Teams での ID モデルと認証
 ==========================================
@@ -63,4 +63,4 @@ Office 365 プランでは、Office 365 サービスへのユーザー ログイ
 |テナント タイプ  |MFA の 2 番目の要素に関する利用可能なオプション  |メモ  |
 |---------|---------|---------|
 |**クラウドのみ**     |Office 365 の MFA <ul><li>電話</li><li>テキスト メッセージ</li><li>モバイル アプリへの通知</li><li>モバイル アプリの確認コード</li></ul>        |[Office 365 展開用の多要素認証の計画](https://support.office.com/article/Plan-for-multi-factor-authentication-for-Office-365-Deployments-043807b2-21db-4d5c-b430-c8a6dee0e6ba)         |
-|**ハイブリッド セットアップ (同期済みまたはフェデレーション ID モデル)**     |<ul><li>Office 365 の MFA</li><li>Azure MFA モジュール (ADFS 統合)</li><li>物理または仮想スマート カード (ADFS 統合)</li></ul>         |注: 追加の MFA ソリューションは、 [AZURE AD Id プロバイダーの互換性](https://www.microsoft.com/en-us/download/details.aspx?id=56843)に関するドキュメントで利用できます。         |
+|**ハイブリッド セットアップ (同期済みまたはフェデレーション ID モデル)**     |<ul><li>Office 365 の MFA</li><li>Azure MFA モジュール (ADFS 統合)</li><li>物理または仮想スマート カード (ADFS 統合)</li></ul>         |注: 追加の MFA ソリューションは、 [AZURE AD Id プロバイダーの互換性](https://www.microsoft.com/download/details.aspx?id=56843)に関するドキュメントで利用できます。         |

@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c700ed6fb4f95f3cc9a4ecfc6d66c7791aabb74
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 20fd9372c34fd189868aa32882115bee3f6c6f8f
+ms.sourcegitcommit: 346b58b5d5ea0d2ec68891275628dfde32c074fe
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833237"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41977529"
 ---
 <a name="what-the-guest-experience-is-like"></a>ゲストのエクスペリエンスについて
 =================================
@@ -56,6 +56,7 @@ ms.locfileid: "41833237"
 |パブリック チームを検出して参加する  <br/> |![チェックマークを示すアイコン ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |組織図を表示する  <br/> |![チェックマークを示すアイコン ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |インライン翻訳を使用する  <br/> |![チェックマークを示すアイコン ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|チーム所有者になる  <br/> |![チェックマークを示すアイコン ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
    
 次の表は、他の種類のユーザーと比較した場合の、ゲストで利用可能な通話機能と会議機能を示しています。
 

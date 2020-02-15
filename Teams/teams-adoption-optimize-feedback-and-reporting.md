@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b1367ce5f3814c7ca6a9743e5ec0ccc159312cc
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 81e0b580099f3fb8f40a3109dc5f1c76e910c02b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837787"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046040"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Microsoft Teams の導入についてのフィードバックとレポートを最適化する
 
@@ -55,7 +55,7 @@ Microsoft Teams の使用を拡大縮小するための準備として、展開�
 Microsoft Teams の展開と採用の際には、次の3種類のレポートを確認する必要があります。
 
 - [サービス正常性](https://status.office365.com/)– Office 365 と社内 IT サポート部門の両方から。
-- [[サービスアクティビティ](https://docs.microsoft.com/en-us/office365/admin/activity-reports/activity-reports?redirectSourcePath=%252fen-us%252farticle%252fActivity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263&view=o365-worldwide)] – Office 365 から[Microsoft Teams のレポート](https://docs.microsoft.com/en-us/office365/admin/activity-reports/microsoft-teams-user-activity?redirectSourcePath=%252farticle%252fOffice-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524&view=o365-worldwide)を表示します。 組織内の他のシステムの情報を使用することもできます。
+- [[サービスアクティビティ](https://docs.microsoft.com/office365/admin/activity-reports/activity-reports?redirectSourcePath=%252fen-us%252farticle%252fActivity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263&view=o365-worldwide)] – Office 365 から[Microsoft Teams のレポート](https://docs.microsoft.com/office365/admin/activity-reports/microsoft-teams-user-activity?redirectSourcePath=%252farticle%252fOffice-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524&view=o365-worldwide)を表示します。 組織内の他のシステムの情報を使用することもできます。
 - サービスの満足度–社内コミュニティフォーラムから収集された、特定のエクスペリエンスに関するアンケート
 
 ![次の手順](media/teams-adoption-next-icon.png)を示すアイコン:[ドライブの認識とトレーニングの実装](teams-adoption-drive-awareness.md)

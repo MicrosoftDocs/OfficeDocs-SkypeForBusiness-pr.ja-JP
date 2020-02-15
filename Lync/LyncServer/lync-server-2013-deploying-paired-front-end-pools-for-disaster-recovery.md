@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 障害復旧用のペアのフロント エンド プールの展開'
+title: 'Lync Server 2013: 障害復旧用のペアのフロントエンドプールの展開'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183727
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d264128a7fef38fd220d2527772d6065dca7c964
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a18b92dde9b6ca48ffe8912f216331c39ef9cc9d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740917"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043439"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-paired-front-end-pools-for-disaster-recovery-in-lync-server-2013"></a>Lync Server 2013 での障害復旧用のペアのフロント エンド プールの展開
+# <a name="deploying-paired-front-end-pools-for-disaster-recovery-in-lync-server-2013"></a>Lync Server 2013 での障害復旧用のペアのフロントエンドプールの展開
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41740917"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-21_
+_**トピックの最終更新日:** 2013-02-21_
 
-トポロジビルダーを使用すると、ペアリングされたフロントエンドプールの障害回復トポロジを簡単に展開できます。
+トポロジビルダーを使用して、ペアになったフロントエンドプールの障害復旧トポロジを簡単に展開できます。
 
 <div>
 
-## <a name="to-deploy-a-pair-of-front-end-pools"></a>フロント エンド プールのペアを展開するには
+## <a name="to-deploy-a-pair-of-front-end-pools"></a>ペアのフロントエンド プールを展開するには
 
-1.  プールが新しく、まだ定義されていない場合は、トポロジビルダーを使用してプールを作成します。
+1.  プールが新規でまだ定義されていない場合は、トポロジビルダーを使用してプールを作成します。
 
 2.  トポロジビルダーで、2つのプールのいずれかを右クリックし、[**プロパティの編集**] をクリックします。
 
-3.  左ウィンドウの **[復元]** をクリックし、右ウィンドウの **[関連付けられているバックアップ プール]** を選びます。
+3.  左ウィンドウの [**復元**] をクリックし、右ウィンドウの [**関連付けられているバックアップ プール**] を選択します。
 
-4.  **[関連付けられているバックアップ プール]** の下のボックスで、このプールとペアにするプールを選択します。ペアでない単独の既存のプールのみを選ぶことができます。
+4.  [**関連付けられているバックアップ プール**] の下のボックスで、このプールとペアにするプールを選択します。別のプールとペアでない既存のプールのみ選択できます。
     
     ![36080581-db76-497d-bf9e-f02b39574d0e](images/JJ204773.36080581-db76-497d-bf9e-f02b39574d0e(OCS.15).png "36080581-db76-497d-bf9e-f02b39574d0e")  
 
-5.  **[音声の自動フェールオーバーとフェールバック]** を選択し、**[OK]** をクリックします。
+5.  [**音声の自動フェールオーバーとフェールバック**] を選択し、[**OK**] をクリックします。
     
-    このプールの詳細情報を表示すると、関連付けられているプールが右ウィンドウの **[復元]** の下に表示されます。
+    このプールの詳細情報を表示すると、関連付けられているプールが右ウィンドウの [**復元**] の下に表示されます。
 
 6.  トポロジビルダーを使用してトポロジを公開します。
 
@@ -69,7 +69,7 @@ _**最終更新日:** 2013-02-21_
     ```
     これによって、バックアップ ペアが適切に動作するために必要な他のサービスが構成されます。
 
-9.  Lync Server 管理シェルのコマンドプロンプトから次のコマンドを実行します。
+9.  Lync Server 管理シェルコマンドプロンプトで、次のコマンドを実行します。
     ```powershell
     Start-CsWindowsService -Name LYNCBACKUP
     ```
@@ -83,7 +83,7 @@ _**最終更新日:** 2013-02-21_
         Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
        ```
     
-    データの同期には時間がかかる場合があります。次のコマンドレットを使用して、状態を確認できます。両方向の状態が安定状態であることを確認します。
+    データの同期には時間がかかる場合があります。 次のコマンドレットを使用して、状態を確認できます。 双方向の状態が安定していることを確認します。
     
        ```powershell
         Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
@@ -97,7 +97,7 @@ _**最終更新日:** 2013-02-21_
 
 
 > [!NOTE]  
-> [<STRONG>音声の自動フェールオーバー</STRONG> ] オプションと [トポロジビルダー] の関連付けられた時間間隔は、Lync Server 2010 で導入された音声回復機能のみに適用されます。 このオプションを選んでも、このドキュメントに記載されているプール フェールオーバーが自動的に行われるわけではありません。 プールのフェールオーバーとフェールバックを行うには、フェールオーバーとフェールバックのコマンドレットを、常に管理者が手動でそれぞれ起動する必要があります。
+> [<STRONG>音声の自動フェールオーバーとフェールバック</STRONG>] オプションおよびトポロジビルダーの関連付けられた時間間隔は、Lync Server 2010 で導入された音声復元機能にのみ適用されます。 このオプションを選択しても、このドキュメントに記載されているプール フェールオーバーが自動的に行われるわけではありません。 プールのフェールオーバーとフェールバックを行うには、フェールオーバーとフェールバックのコマンドレットを、常に管理者が手動でそれぞれ起動する必要があります。
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: コール パークの処理能力計画'
+title: 'Lync Server 2013: コールパークの処理能力計画'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184529
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dd4cc9d10a3a3562c035c7bc2f64f551b70cc5da
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f1192ef9b5b30c722a4f62973cf4992da3ca7300
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743427"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044179"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="capacity-planning-for-call-park-in-lync-server-2013"></a>Lync Server 2013 のコール パークの処理能力計画
+# <a name="capacity-planning-for-call-park-in-lync-server-2013"></a>Lync Server 2013 でのコールパークの処理能力計画
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41743427"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-13_
+_**トピックの最終更新日:** 2012-09-13_
 
 <div id="sectionSection0" class="section">
 
-次の表では、キャパシティ計画の要件の基礎として使用できるコールパークユーザーモデルについて説明します。
+次の表では、容量計画の要件の基礎として使用できるコールパークユーザーモデルについて説明します。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 障害復旧のキャパシティ計画として、ペアリングされたプールの各プールは、両方のプールのコールパークサービスのワークロードを処理できる必要があることに注意してください。
+> 障害復旧の処理能力を計画する場合は、ペアになっているプールの各プールで、両方のプールのコールパークサービスのワークロードを処理できる必要があることに注意してください。
 
 
 
@@ -61,8 +61,8 @@ _**最終更新日:** 2012-09-13_
 </colgroup>
 <thead>
 <tr class="header">
-<th>指標</th>
-<th>フロントエンドプールあたり (8 個のフロントエンドサーバーを含む)</th>
+<th>測定基準</th>
+<th>フロントエンドプールごと (8 台のフロントエンドサーバー)</th>
 <th>Standard Edition サーバーごと</th>
 </tr>
 </thead>

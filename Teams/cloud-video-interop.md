@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3a8d3d41d974e78a708fdf91ee6aac13beb6b7b
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 2f2c5cb45c82696ec5b365dc8e887cbaa9abce13
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825065"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046500"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Microsoft Teams のクラウド ビデオ相互運用性
 
@@ -83,7 +83,7 @@ CVI 展開用に選択したパートナーは、組織内で正常に展開す�
 
 ### <a name="provision"></a>プロビジョニング  
 
-プロビジョニング フェーズでは、パートナーから提供された構成ガイドに従って、適切なユーザーにライセンスを割り当てます。 また、パートナーが Teams 環境にアクセスできるようにするには、Azure 同意プロセスも実行する必要があります。 Azure 同意プロセスの詳細については、こちらを参照してください。https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent 
+プロビジョニング フェーズでは、パートナーから提供された構成ガイドに従って、適切なユーザーにライセンスを割り当てます。 また、パートナーが Teams 環境にアクセスできるようにするには、Azure 同意プロセスも実行する必要があります。 Azure 同意プロセスの詳細については、こちらを参照してください。https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent 
 
 ### <a name="schedule"></a>スケジュール
 

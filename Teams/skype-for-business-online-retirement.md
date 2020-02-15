@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9986355905cb40e26182368dec8f53d796432fe
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: faaed56f9b150104fba93683b37b7551b828ce80
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837947"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029398"
 ---
 # <a name="skype-for-business-online-retirement"></a>Skype for Business Online のサポート終了
 
@@ -34,7 +34,7 @@ Skype for Business Online は、2021年7月31日に廃止され、その後、�
 
 ## <a name="why-are-we-making-this-announcement-now"></a>今回このお知らせが登場するのはなぜですか?
 
-2017では、microsoft Teams を Microsoft 365 の "チームワークのハブ" として起動しました。 Teams では、チャット、ビデオ、通話、ドキュメントの共同作業を1つの統合されたアプリにまとめることができ、まったく新しい作業を実現します。 過去2年間で、お客様と緊密に協力してチームを絞り込みましたが、Skype for Business Online のすべてのお客様へのアップグレードとして、自信を持ってお勧めします。 すでに移行を行っているお客様は、チームが共同作業を改善しただけでなく、組織内で作業が行われる方法の再検討も困難であることをご説明します。 Teams を使用すると、世界中の企業がより機敏になり、サイクル時間の短縮、重要なワークフローの効率性の向上、不要なオーバーヘッドの削減が実現されます。 Teams は、Skype for Business Online のアップグレードだけではなく、ビジネスを実行するためのまったく新しい方法でドアを開く強力なツールです。 でも、word を使用することはできません。 組織にとってのチームの潜在的な利点について詳しくは、「[Microsoft teams の全体的な経済影響](https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf)」を参照してください。
+2017では、microsoft Teams を Microsoft 365 の "チームワークのハブ" として起動しました。 Teams では、チャット、ビデオ、通話、ドキュメントの共同作業を1つの統合されたアプリにまとめることができ、まったく新しい作業を実現します。 過去2年間で、お客様と緊密に協力してチームを絞り込みましたが、Skype for Business Online のすべてのお客様へのアップグレードとして、自信を持ってお勧めします。 すでに移行を行っているお客様は、チームが共同作業を改善しただけでなく、組織内で作業が行われる方法の再検討も困難であることをご説明します。 Teams を使用すると、世界中の企業がより機敏になり、サイクル時間の短縮、重要なワークフローの効率性の向上、不要なオーバーヘッドの削減が実現されます。 Teams は、Skype for Business Online のアップグレードだけではなく、ビジネスを実行するためのまったく新しい方法でドアを開く強力なツールです。 でも、word を使用することはできません。 組織にとってのチームの潜在的な利点について詳しくは、「[Microsoft teams の全体的な経済影響](https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf)」を参照してください。
 
 ## <a name="what-is-microsoft-doing-to-help-customers-migrate-to-teams"></a>ユーザーが Teams に移行できるようにするための Microsoft の取り組み
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ブランチ サイト用の PSTN ゲートウェイの定義'
+title: 'Lync Server 2013: ブランチサイト用の PSTN ゲートウェイの定義'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184724
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e4445647e6ffcbfc2cfc137bd120d0aced6a9908
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3ae74ead7eb481a6551156fc0ce228c743fdf1b6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728527"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043669"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="define-a-pstn-gateway-for-a-branch-site-in-lync-server-2013"></a>Lync Server 2013 でのブランチ サイト用の PSTN ゲートウェイの定義
+# <a name="define-a-pstn-gateway-for-a-branch-site-in-lync-server-2013"></a>Lync Server 2013 でのブランチサイト用の PSTN ゲートウェイの定義
 
 </div>
 
@@ -35,20 +35,20 @@ ms.locfileid: "41728527"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-21_
+_**トピックの最終更新日:** 2012-09-21_
 
-この手順はセントラルサイトで実行します。これには、少なくとも1つのフロントエンドプールまたは Standard Edition サーバーが含まれます。
+この手順は、少なくとも1つのフロントエンドプールまたは Standard Edition サーバーが含まれるセントラルサイトで実行してください。
 
 <div>
 
 
 > [!IMPORTANT]  
-> この手順を実行する前に、次の条件を満たしている必要があります。 
+> 手順を実行する前に、以下の条件が整っている必要があります。 
 > <UL>
 > <LI>
-> <P>Lync Server 2013&nbsp;通信ソフトウェアがセントラルサイトでセットアップされている必要があります。</P>
+> <P>Lync Server 2013&nbsp;通信ソフトウェアは、セントラルサイトで設定する必要があります。</P>
 > <LI>
-> <P>仲介サーバーがセントラルサイトに展開されている必要があります。</P></LI></UL>
+> <P>中央サイトに仲介サーバーを展開する必要があります。</P></LI></UL>
 
 
 
@@ -58,23 +58,23 @@ _**最終更新日:** 2012-09-21_
 
 ## <a name="to-define-a-pstn-gateway"></a>PSTN ゲートウェイを定義するには
 
-1.  [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server**]、[ **lync server Topology Builder**] の順にクリックします。
+1.  [**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server**]、[**Lync Server トポロジ ビルダー**] の順にクリックします。
 
-2.  コンソールツリーで、[セントラルサイト]、[**ブランチオフィスサイト**] の順に展開し、公衆交換電話網 (PSTN) ゲートウェイを定義するブランチサイトの名前を展開して、[**共有コンポーネント**] を展開します。
+2.  コンソール ツリーで中央サイトを展開して、[**ブランチ オフィス サイト**] を展開し、公衆交換電話網 (PSTN) ゲートウェイを定義するブランチ サイトの名前を展開し、次に [**共有コンポーネント**] を展開します。
 
-3.  [ **PSTN ゲートウェイ**] を右クリックし、[**新しい IP/PSTN ゲートウェイ**] をクリックします。
+3.  [**PSTN ゲートウェイ**] を右クリックして、[**新しい IP/PSTN ゲートウェイ**] をクリックします。
 
-4.  [**新しい IP/PSTN ゲートウェイの定義**] ダイアログボックスで、[**ゲートウェイの FQDN または ip アドレス**] をクリックし、ブランチサイトで展開するゲートウェイの完全修飾ドメイン名 (FQDN) または ip アドレスを入力します。
+4.  [**新しい IP/PSTN ゲートウェイの定義**] ダイアログ ボックスで、[**ゲートウェイ FQDN または IP アドレス**] をクリックして、ブランチ サイトに展開するゲートウェイの完全修飾ドメイン名 (FQDN) または IP アドレスを入力します。
 
-5.  [ **IP/PSTN ゲートウェイのリスニングポート**] をクリックし、既定値をそのまま使用します。
+5.  [**IP/PSTN ゲートウェイのリッスン ポート**] をクリックして、既定値をそのまま使用します。
 
-6.  [ **SIP トランスポートプロトコル**] ボックスの一覧で、ゲートウェイが使用するトランスポートプロトコルをクリックし、[ **OK]** をクリックします。
+6.  [**SIP トランスポート プロトコル**] リストで、ゲートウェイで使用するトランスポート プロトコルをクリックして、[**OK**] をクリックします。
     
     <div>
     
 
     > [!NOTE]  
-    > セキュリティ上の理由から、トランスポート層セキュリティ (TLS) をサポートする PSTN ゲートウェイを使用することを強くお勧めします。
+    > セキュリティ上の理由のため、トランスポート層セキュリティ (TLS) をサポートする PSTN ゲートウェイの使用を強くお勧めします。
 
     
     </div>
@@ -83,13 +83,13 @@ _**最終更新日:** 2012-09-21_
 
 
 > [!TIP]  
-> <STRONG>コマンドレットを使用</STRONG>して、PSTN ゲートウェイのプロパティを変更します。 詳しくは、「Lync Server 管理シェルのヘルプ」の「 <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsPstnGateway">Set-CsPstnGateway</A>」をご覧ください。
+> コマンドレット <STRONG>Set-CsPstnGateway</STRONG> を使用して、PSTN ゲートウェイのプロパティを変更します。 詳細については、「Lync Server 管理シェルのヘルプ」の「 <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsPstnGateway">Set-CsPstnGateway</A>」を参照してください。
 
 
 
 </div>
 
-ブランチサイトの回復の**次のステップ**: [Lync Server 2013 でブランチサイトの回復用ユーザーを構成する](lync-server-2013-configuring-users-for-branch-site-resiliency.md)
+ブランチサイトの復元の**次のステップ**: [Lync Server 2013 でのブランチサイトの復元のユーザーの構成](lync-server-2013-configuring-users-for-branch-site-resiliency.md)
 
 </div>
 

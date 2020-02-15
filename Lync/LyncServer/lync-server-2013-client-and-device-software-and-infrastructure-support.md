@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: クライアントとデバイス ソフトウェアおよびインフラストラクチャ サポート'
+title: 'Lync Server 2013: クライアントおよびデバイスのソフトウェアとインフラストラクチャのサポート'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184265
 ms.date: 08/27/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1a741d4696d883d9a29dc0117be28ea82f474cff
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 55095e968e898445e42ceebed73f95ee9fb128d9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729867"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043849"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="client-and-device-software-and-infrastructure-support-in-lync-server-2013"></a>Lync Server 2013 のクライアントとデバイス ソフトウェアおよびインフラストラクチャ サポート
+# <a name="client-and-device-software-and-infrastructure-support-in-lync-server-2013"></a>Lync Server 2013 でのクライアントおよびデバイスソフトウェアおよびインフラストラクチャのサポート
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41729867"
 
 <span> </span>
 
-_**最終更新日:** 2014-08-27_
+_**トピックの最終更新日:** 2014-08-27_
 
-Lync Server 2013 展開のクライアントとデバイスのソフトウェアサポートには、サポートされているオペレーティングシステム、インフラストラクチャソフトウェア、およびクライアントとデバイスの機能をサポートするために必要なその他のソフトウェアが含まれます。
+Lync Server 2013 展開のクライアントおよびデバイスのソフトウェアサポートには、サポートされているオペレーティングシステム、インフラストラクチャソフトウェア、およびクライアントとデバイスの機能をサポートするために必要なその他のソフトウェアが含まれています。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
   - <span></span>  
     [Lync Server 2013 での lync クライアントソフトウェアのサポート](lync-server-2013-lync-client-software-support.md)
@@ -56,7 +56,7 @@ Lync Server 2013 展開のクライアントとデバイスのソフトウェア
 
 
 > [!NOTE]  
-> Lync Phone Edition は、lync server 2010 と同じように、Lync Server 2013 と同じように動作します。 デバイスのソフトウェアサポートの詳細については、Lync Server 2010 TechNet ライブラリの次のトピックを参照してください。 
+> Lync Phone Edition は、lync Server 2010 の場合と同じように、Lync Server 2013 と同じように動作します。 デバイスのソフトウェアサポートの詳細については、Lync Server 2010 TechNet ライブラリの次のトピックを参照してください。 
 > <UL>
 > <LI>
 > <P>のデバイスに必要な Lync Server 2010 コンポーネント<A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=256488">http://go.microsoft.com/fwlink/p/?linkid=256488</A></P>

@@ -12,20 +12,20 @@ ms:contentKeyID: 51803982
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 967b5b7388ce60eafd46791c226bf1a3edbe0c2b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 99e28778a8bd299d5ead25220f19b27927a63d44
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743187"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044199"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="capabilities-not-supported-by-location-based-routing-in-lync-server-2013"></a>Lync Server 2013 の場所に基づくルーティングでサポートされていない機能
+# <a name="capabilities-not-supported-by-location-based-routing-in-lync-server-2013"></a>Lync Server 2013 での場所に基づくルーティングでサポートされていない機能
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41743187"
 
 <span> </span>
 
-_**最終更新日:** 2014-03-12_
+_**トピックの最終更新日:** 2014-03-12_
 
-位置情報に基づくルーティングは、次の種類の操作には適用されません。 Lync エンドポイントがこれらの機能を使って PSTN エンドポイントを操作する場合、位置情報に基づくルーティングは強制されません。
+場所に基づくルーティングは、次の種類の相互作用には適用されません。 Lync エンドポイントがこれらの機能を使用して PSTN エンドポイントと対話する場合、場所に基づくルーティングは適用されません。
 
-  - 会議への PSTN ダイヤルイン
+  - 電話会議への PSTN ダイヤルイン
 
-  - 応答グループによる PSTN 通話の着信および発信
+  - 応答グループを介した着信および発信 PSTN 通話
 
-  - 通話保留による PSTN 通話の保留または再開
+  - コールパークによる PSTN 通話のコールパークまたは取得
 
-  - アナウンス サービスへの PSTN 通話の着信
+  - アナウンスサービスへの PSTN 通話の着信
 
-  - 着信 PSTN 通話のグループ通話ピックアップによる再開
+  - グループ通話ピックアップで取得した PSTN 通話の着信
 
-次の一覧の操作の種類に位置ベースのルーティングルールを適用するには、会議で位置情報に基づくルーティングを有効にする必要があります。
+次の一覧の操作の種類に対して、場所に基づくルーティングルールを適用するには、会議の場所に基づくルーティングを有効にする必要があります。
 
   - 会議からの PSTN ダイヤルアウト
 
-  - ピアツーピアの音声会話から PSTN エンドポイントを利用する会議へのエスカレーション
+  - ピアツーピア音声会話から PSTN エンドポイントを含む会議へのエスカレーション
 
-  - PSTN エンドポイントを利用する取次転送
+  - PSTN エンドポイントを含む提案転送
 
-会議で位置情報に基づくルーティングを有効にするには、「 [Lync Server 2013 の会議での位置情報に基づくルーティング](lync-server-2013-location-based-routing-for-conferencing.md)」を参照してください。
+会議の場所に基づくルーティングを有効にするには、「 [Lync Server 2013 の会議の場所に基づくルーティング](lync-server-2013-location-based-routing-for-conferencing.md)」を参照してください。
 
 <div>
 

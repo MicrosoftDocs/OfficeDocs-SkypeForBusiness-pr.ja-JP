@@ -1,5 +1,5 @@
 ---
-title: ポートの概要 - パブリック IP アドレスを使用する単一の統合エッジ
+title: ポートの概要-パブリック IP アドレスを使用する単一統合エッジ
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183685
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7ad4d6dc9b7eda2e476068d5fae4a40d066a0d71
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9020821da26c39094e7c04f3cbf72875b91ffaff
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747477"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043139"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---single-consolidated-edge-with-public-ip-addresses-in-lync-server-2013"></a>ポートの概要 - Lync Server 2013 でパブリック IP アドレスを使用する単一の統合エッジ
+# <a name="port-summary---single-consolidated-edge-with-public-ip-addresses-in-lync-server-2013"></a>ポートの概要-Lync Server 2013 でのパブリック IP アドレスを使用する単一統合エッジ
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41747477"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-21_
+_**トピックの最終更新日:** 2013-02-21_
 
-このシナリオアーキテクチャで説明されている Lync Server 2013 のエッジサーバー機能は、Lync Server 2010 で実装されたものとよく似ています。 最も顕著な追加機能は、拡張メッセージングとプレゼンスプロトコル (XMPP) の TCP エントリのポート**5269**です。 Lync Server 2013 では、必要に応じて、microsoft Edge サーバーまたはエッジプールに XMPP プロキシを展開し、フロントエンドサーバーまたはフロントエンドプールに XMPP ゲートウェイサーバーを配置します。 リバースプロキシおよびフェデレーションの計画情報については、「 [lync server 2013 のリバースプロキシのシナリオ](lync-server-2013-scenarios-for-reverse-proxy.md)」および「 [lync server 2013 セクションでの SIP、xmpp フェデレーション、パブリックインスタントメッセージングの計画](lync-server-2013-planning-for-sip-xmpp-federation-and-public-instant-messaging.md)」を参照してください。
+このシナリオアーキテクチャで説明されている Lync server 2013 のエッジサーバー機能は、Lync Server 2010 で実装されていたものとよく似ています。 最も目を引くのは、XMPP (Extensible Messaging and Presence Protocol) 用の ポート **5269/TCP** エントリが追加されたことです。 Lync Server 2013 は、フロントエンドサーバーまたはフロントエンドプールに、エッジサーバーまたはエッジプールおよび XMPP ゲートウェイサーバー上に XMPP プロキシを任意で展開します。 リバースプロキシとフェデレーションの計画情報については、「 [Lync server 2013 のリバースプロキシのシナリオ](lync-server-2013-scenarios-for-reverse-proxy.md)」および「 [lync server 2013 セクションでの SIP、xmpp フェデレーション、パブリックインスタントメッセージングの計画](lync-server-2013-planning-for-sip-xmpp-federation-and-public-instant-messaging.md)」を参照してください。
 
-IPv4 に加えて、エッジサーバーは IPv6 をサポートするようになりました。 わかりやすくするために、シナリオでは IPv4 のみが使用されます。
+IPv4 に加えて、エッジサーバーは IPv6 をサポートするようになりました。 わかりやすいように、シナリオでは IPv4 のみを使用します。
 
-**パブリック IP アドレスを使った単一の統合エッジのエンタープライズ境界ネットワーク**
+**パブリック IP アドレスを使用する単一統合エッジのエンタープライズ境界ネットワーク**
 
 ![f8c144c5-e5fb-498a-823e-eb39f26b6847](images/Gg425891.f8c144c5-e5fb-498a-823e-eb39f26b6847(OCS.15).jpg "f8c144c5-e5fb-498a-823e-eb39f26b6847")
 
@@ -49,11 +49,11 @@ IPv4 に加えて、エッジサーバーは IPv6 をサポートするように
 
 ## <a name="port-and-protocol-details"></a>ポートとプロトコルの詳細
 
-外部アクセスを提供する機能をサポートするために必要なポートのみを開くことをお勧めします。
+外部アクセスを提供する機能のサポートに必要なポートのみを開くことをお勧めします。
 
-エッジサービスに対してリモートアクセスを使用するには、受信/送信エッジトラフィックの図に示すように、SIP トラフィックが双方向に流れるようにすることが必須です。 別の方法として、アクセスエッジサービスとの間の SIP メッセージングは、インスタントメッセージング (IM)、プレゼンス、web 会議、音声/ビデオ (A/V)、およびフェデレーションに関連しています。
+エッジ サービスのリモート アクセスが機能するためには、受信/送信のエッジ トラフィックの図が示すように、SIP トラフィックの双方向通過が許可されていることが必須です。つまり、インスタント メッセージング (IM)、プレゼンス、Web 会議、音声ビデオ (A/V)、およびフェデレーションでは、アクセス エッジ サービスとの間で SIP メッセージングが実行されます。
 
-### <a name="firewall-summary-for-single-consolidated-edge-with-public-ip-addresses-external-interface"></a>パブリック IP アドレスを持つ単一の統合エッジのファイアウォールの概要: 外部インターフェイス
+### <a name="firewall-summary-for-single-consolidated-edge-with-public-ip-addresses-external-interface"></a>パブリック IP アドレスを使用する単一の統合エッジのファイアウォールの概要: 外部インターフェイス
 
 <table>
 <colgroup>
@@ -64,7 +64,7 @@ IPv4 に加えて、エッジサーバーは IPv6 をサポートするように
 </colgroup>
 <thead>
 <tr class="header">
-<th>Role/Protocol/TCP または UDP/ポート</th>
+<th>役割/プロトコル/TCP または UDP/ポート</th>
 <th>送信元 IP アドレス</th>
 <th>宛先 IP アドレス</th>
 <th>メモ</th>
@@ -74,44 +74,44 @@ IPv4 に加えて、エッジサーバーは IPv6 をサポートするように
 <tr class="odd">
 <td><p>XMPP/TCP/5269</p></td>
 <td><p>任意</p></td>
-<td><p>XMPP プロキシサービス (アクセスエッジサービスで IP アドレスを共有)</p></td>
-<td><p>XMPP プロキシサービスは、定義された XMPP フェデレーションの XMPP 連絡先からのトラフィックを受け入れます。</p></td>
+<td><p>XMPP プロキシサービス (アクセスエッジサービスを使用して IP アドレスを共有)</p></td>
+<td><p>XMPP プロキシ サービスは、定義された XMPP フェデレーションの XMPP コンタクトからトラフィックを受け付けます</p></td>
 </tr>
 <tr class="even">
 <td><p>Access/HTTP/TCP/80</p></td>
 <td><p>エッジサーバーアクセスエッジサービスのパブリック IP アドレス</p></td>
 <td><p>任意</p></td>
-<td><p>証明書の失効/CRL の確認と取得</p></td>
+<td><p>証明書の失効/CRL のチェックおよび取得</p></td>
 </tr>
 <tr class="odd">
-<td><p>Access/DNS/TCP/53</p></td>
+<td><p>アクセス/DNS/TCP/53</p></td>
 <td><p>エッジサーバーアクセスエッジサービスのパブリック IP アドレス</p></td>
 <td><p>任意</p></td>
-<td><p>TCP 経由の DNS クエリ</p></td>
+<td><p>TCP による DNS クエリ</p></td>
 </tr>
 <tr class="even">
-<td><p>Access/DNS/UDP/53</p></td>
+<td><p>アクセス/DNS/UDP/53</p></td>
 <td><p>エッジサーバーアクセスエッジサービスのパブリック IP アドレス</p></td>
 <td><p>任意</p></td>
-<td><p>UDP 経由の DNS クエリ</p></td>
+<td><p>UDP による DNS クエリ</p></td>
 </tr>
 <tr class="odd">
 <td><p>アクセス/SIP (TLS)/TCP/443</p></td>
 <td><p>任意</p></td>
 <td><p>エッジサーバーアクセスエッジサービスのパブリック IP アドレス</p></td>
-<td><p>外部ユーザーアクセスのクライアントツーサーバー SIP トラフィック</p></td>
+<td><p>外部ユーザー アクセス用のクライアントからサーバーへの SIP トラフィック</p></td>
 </tr>
 <tr class="even">
 <td><p>アクセス/SIP (MTLS)/TCP/5061</p></td>
 <td><p>任意</p></td>
 <td><p>エッジサーバーアクセスエッジサービスのパブリック IP アドレス</p></td>
-<td><p>SIP を使用するフェデレーションおよびパブリック IM 接続の場合</p></td>
+<td><p>SIP を使用したフェデレーションおよびパブリック IM 接続用</p></td>
 </tr>
 <tr class="odd">
 <td><p>アクセス/SIP (MTLS)/TCP/5061</p></td>
 <td><p>エッジサーバーアクセスエッジサービスのパブリック IP アドレス</p></td>
 <td><p>任意</p></td>
-<td><p>SIP を使用するフェデレーションおよびパブリック IM 接続の場合</p></td>
+<td><p>SIP を使用したフェデレーションおよびパブリック IM 接続用</p></td>
 </tr>
 <tr class="even">
 <td><p>Web 会議/PSOM (TLS)/TCP/443</p></td>
@@ -120,58 +120,58 @@ IPv4 に加えて、エッジサーバーは IPv6 をサポートするように
 <td><p>Web 会議メディア</p></td>
 </tr>
 <tr class="odd">
-<td><p>A/V/RTP/59,999</p></td>
+<td><p>音声/V/RTP/TCP/50,000-59999</p></td>
 <td><p>エッジサーバーアクセスエッジサービスのパブリック IP アドレス</p></td>
 <td><p>任意</p></td>
-<td><p>Office Communications Server 2007、Office Communications Server 2007 R2、Lync Server 2010、および Lync Server 2013 を実行しているパートナーとのフェデレーションに必要。</p></td>
+<td><p>Office Communications Server 2007、Office Communications Server 2007 R2、Lync Server 2010、Lync Server 2013 を実行しているパートナーとのフェデレーションに必要です。</p></td>
 </tr>
 <tr class="even">
-<td><p>A/V/RTP/59,999</p></td>
-<td><p>エッジサーバーの A/V エッジサービスのパブリック IP アドレス</p></td>
+<td><p>A/V/RTP/UDP/50000-59999</p></td>
+<td><p>エッジサーバーの音声ビデオエッジサービスのパブリック IP アドレス</p></td>
 <td><p>任意</p></td>
-<td><p>Office Communications Server 2007 を実行しているパートナーとのフェデレーションにのみ必須</p></td>
+<td><p>Office Communications Server 2007 を実行しているパートナーとのフェデレーションにのみ必要</p></td>
 </tr>
 <tr class="odd">
-<td><p>A/V/RTP/59,999</p></td>
+<td><p>音声/V/RTP/TCP/50,000-59999</p></td>
 <td><p>任意</p></td>
-<td><p>エッジサーバーの A/V エッジサービスのパブリック IP アドレス</p></td>
-<td><p>Office Communications Server 2007 を実行しているパートナーとのフェデレーションの場合のみ必須です。</p></td>
+<td><p>エッジサーバーの音声ビデオエッジサービスのパブリック IP アドレス</p></td>
+<td><p>Office Communications Server 2007 を実行しているパートナーとのフェデレーションにのみ必要。</p></td>
 </tr>
 <tr class="even">
-<td><p>A/V/RTP/59,999</p></td>
+<td><p>A/V/RTP/UDP/50000-59999</p></td>
 <td><p>任意</p></td>
-<td><p>エッジサーバーの A/V エッジサービスのパブリック IP アドレス</p></td>
-<td><p>Office Communications Server 2007 を実行しているパートナーとのフェデレーションの場合のみ必須です。</p></td>
+<td><p>エッジサーバーの音声ビデオエッジサービスのパブリック IP アドレス</p></td>
+<td><p>Office Communications Server 2007 を実行しているパートナーとのフェデレーションにのみ必要。</p></td>
 </tr>
 <tr class="odd">
 <td><p>A/V/STUN、MSTURN/UDP/3478</p></td>
-<td><p>エッジサーバーの A/V エッジサービスのパブリック IP アドレス</p></td>
+<td><p>エッジサーバーの音声ビデオエッジサービスのパブリック IP アドレス</p></td>
 <td><p>任意</p></td>
-<td><p>3478送信は、Lync Server が通信するエッジサーバーのバージョンと、エッジサーバーからエッジサーバーへのメディアトラフィックも確認するために使用されます。 Lync Server 2010、Windows Live Messenger、Office Communications Server 2007 R2 とのフェデレーション、および複数のエッジプールが会社内に展開されている場合に必要です。</p></td>
+<td><p>3478の送信は、Lync Server の通信相手であるエッジサーバーのバージョンと、エッジサーバー間のメディアトラフィックに使用されます。 Lync Server 2010、Windows Live Messenger、および Office Communications Server 2007 R2 とのフェデレーションに必要です。また、複数のエッジプールが会社内に展開されている場合も必須です。</p></td>
 </tr>
 <tr class="even">
 <td><p>A/V/STUN、MSTURN/UDP/3478</p></td>
 <td><p>任意</p></td>
-<td><p>エッジサーバーの A/V エッジサービスのパブリック IP アドレス</p></td>
-<td><p>UDP/3478 経由の候補のネゴシエーションをオフ/オンにする</p></td>
+<td><p>エッジサーバーの音声ビデオエッジサービスのパブリック IP アドレス</p></td>
+<td><p>STUN/UDP による候補の TURN ネゴシエーション/3478</p></td>
 </tr>
 <tr class="odd">
-<td><p>A/V/STUN、MSTURN/443</p></td>
+<td><p>A/V/STUN、MSTURN/TCP/443</p></td>
 <td><p>任意</p></td>
-<td><p>エッジサーバーの A/V エッジサービスのパブリック IP アドレス</p></td>
-<td><p>TCP/443 経由での候補のネゴシエーションをオフ/オンにする</p></td>
+<td><p>エッジサーバーの音声ビデオエッジサービスのパブリック IP アドレス</p></td>
+<td><p>STUN/TCP による候補の TURN ネゴシエーション/443</p></td>
 </tr>
 <tr class="even">
-<td><p>A/V/STUN、MSTURN/443</p></td>
-<td><p>エッジサーバーの A/V エッジサービスのパブリック IP アドレス</p></td>
+<td><p>A/V/STUN、MSTURN/TCP/443</p></td>
+<td><p>エッジサーバーの音声ビデオエッジサービスのパブリック IP アドレス</p></td>
 <td><p>任意</p></td>
-<td><p>TCP/443 経由での候補のネゴシエーションをオフ/オンにする</p></td>
+<td><p>STUN/TCP による候補の TURN ネゴシエーション/443</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="firewall-summary-for-single-consolidated-edge-with-public-ip-addresses-internal-interface"></a>パブリック IP アドレスを持つ単一の統合エッジのファイアウォールの概要: 内部インターフェイス
+### <a name="firewall-summary-for-single-consolidated-edge-with-public-ip-addresses-internal-interface"></a>パブリック IP アドレスを使用する単一の統合エッジのファイアウォールの概要: 内部インターフェイス
 
 <table>
 <colgroup>
@@ -182,7 +182,7 @@ IPv4 に加えて、エッジサーバーは IPv6 をサポートするように
 </colgroup>
 <thead>
 <tr class="header">
-<th>Protocol/TCP または UDP/ポート</th>
+<th>プロトコル/TCP または UDP/ポート</th>
 <th>送信元 IP アドレス</th>
 <th>宛先 IP アドレス</th>
 <th>コメント</th>
@@ -191,69 +191,69 @@ IPv4 に加えて、エッジサーバーは IPv6 をサポートするように
 <tbody>
 <tr class="odd">
 <td><p>XMPP/MTLS/TCP/23456</p></td>
-<td><p>Any (標準エディションサーバー IP、Standard Edition server IP アドレス、または XMPP ゲートウェイサービスを実行しているプール IP アドレスとして定義できます)</p></td>
+<td><p>Any (Standard Edition サーバー IP、Standard Edition サーバー IP アドレス、または XMPP ゲートウェイサービスを実行しているプール IP アドレスとして定義できます)</p></td>
 <td><p>エッジサーバーの内部インターフェイス</p></td>
 <td><p>フロントエンドサーバーまたはフロントエンドプールで実行されている XMPP ゲートウェイサービスからの送信 XMPP トラフィック</p></td>
 </tr>
 <tr class="even">
 <td><p>SIP/MTLS/TCP/5061</p></td>
-<td><p>Any (ディレクター、ディレクタープールの IP アドレス、フロントエンドサーバー、フロントエンドプールの IP アドレスとして定義できます)</p></td>
+<td><p>任意 (ディレクター、ディレクタープールの IP アドレス、フロントエンドサーバー、またはフロントエンドプールの IP アドレスとして定義可能)</p></td>
 <td><p>エッジサーバー IP、または内部インターフェイスを保持するプール</p></td>
-<td><p>送信 SIP トラフィック (ディレクター、ディレクタープール IP アドレス、フロントエンドサーバーまたはフロントエンドプールの IP アドレス) からエッジサーバーの内部インターフェイスへ</p></td>
+<td><p>(ディレクター、ディレクタープールの IP アドレス、フロントエンドサーバーまたはフロントエンドプールの IP アドレスからの) エッジサーバーの内部インターフェイスへの送信 SIP トラフィック</p></td>
 </tr>
 <tr class="odd">
 <td><p>SIP/MTLS/TCP/5061</p></td>
 <td><p>エッジサーバーの内部インターフェイス</p></td>
-<td><p>Any (ディレクター、ディレクタープール IP アドレス、フロントエンドサーバー、フロントエンドプールのアドレスとして定義できます)</p></td>
-<td><p>エッジサーバーの内部インターフェイスから受信 SIP トラフィック (ディレクター、ディレクタープール IP アドレス、フロントエンドサーバー、またはフロントエンドプールの IP アドレス)</p></td>
+<td><p>任意 (ディレクター、ディレクタープールの IP アドレス、フロントエンドサーバー、またはフロントエンドプールのアドレスとして定義可能)</p></td>
+<td><p>エッジサーバーの内部インターフェイスからの受信 SIP トラフィック (ディレクター、ディレクタープールの IP アドレス、フロントエンドサーバー、またはフロントエンドプールの ip アドレス)</p></td>
 </tr>
 <tr class="even">
 <td><p>PSOM/MTLS/TCP/8057</p></td>
-<td><p>Any (フロントエンドサーバーの IP アドレス、またはフロントエンドプールの各フロントエンドサーバー IP アドレスとして定義できます)</p></td>
+<td><p>任意 (フロントエンドサーバーの IP アドレスとして、またはフロントエンドプール内の各フロントエンドサーバーの IP アドレスとして定義可能)</p></td>
 <td><p>エッジサーバーの内部インターフェイス</p></td>
-<td><p>フロントエンドサーバーからの Web 会議トラフィック、またはプール内の各フロントエンドサーバーから Edge Server の内部インターフェイスへの Web 会議トラフィック</p></td>
+<td><p>フロントエンドサーバーまたはプール内の各フロントエンドサーバーからエッジサーバーの内部インターフェイスへの Web 会議トラフィック</p></td>
 </tr>
 <tr class="odd">
 <td><p>SIP/MTLS/TCP/5062</p></td>
-<td><p>Any (フロントエンドサーバーの IP アドレス、またはこのエッジサーバーを使用している Survivable Branch Appliance または Survivable ブランチサーバー) として定義することができます。</p></td>
+<td><p>Any (このエッジサーバーを使用するフロントエンドサーバーの IP アドレスまたはフロントエンドプールの IP アドレス、または存続可能 Branch Appliance または存続可能ブランチサーバーとして定義できます)</p></td>
 <td><p>エッジサーバーの内部インターフェイス</p></td>
-<td><p>このエッジサーバーを使用して、フロントエンドサーバーまたはフロントエンドプールの IP アドレスまたは Survivable Branch Appliance または Survivable ブランチサーバーからの、A/V ユーザー (A/V 認証サービス) の認証</p></td>
+<td><p>このエッジサーバーを使用するフロントエンドサーバーまたはフロントエンドプールの IP アドレスまたは任意の存続可能 Branch Appliance または存続可能ブランチサーバーからの音声ビデオユーザーの認証 (音声ビデオ認証サービス)</p></td>
 </tr>
 <tr class="even">
 <td><p>STUN/MSTURN/UDP/3478</p></td>
 <td><p>任意</p></td>
 <td><p>エッジサーバーの内部インターフェイス</p></td>
-<td><p>内部と外部のユーザー、Survivable Branch Appliance または Survivable ブランチサーバー間の A/V メディア転送の優先パス</p></td>
+<td><p>内部ユーザーと外部ユーザーとの間の音声ビデオメディア転送の優先パス、存続可能 Branch Appliance または存続可能 Branch Server</p></td>
 </tr>
 <tr class="odd">
-<td><p>STUN/MSTURN/443</p></td>
+<td><p>STUN/MSTURN/TCP/443</p></td>
 <td><p>任意</p></td>
 <td><p>エッジサーバーの内部インターフェイス</p></td>
-<td><p>内部と外部のユーザーとの間でのメディア転送のフォールバックパス Survivable Branch Appliance または Survivable Branch Server (UDP 通信が確立できない場合は、TCP を使ってファイル転送とデスクトップ共有を行う)</p></td>
+<td><p>内部ユーザーと外部ユーザーとの間の音声ビデオメディア転送のフォールバックパス UDP 通信を確立できない場合は、存続可能 Branch Appliance または存続可能 Branch Server、TCP はファイル転送およびデスクトップ共有に使用されます。</p></td>
 </tr>
 <tr class="even">
 <td><p>HTTPS/TCP/4443</p></td>
-<td><p>Any (任意) (フロントエンドサーバーの IP アドレス、または全体管理ストアを保持するプールとして定義できます)</p></td>
+<td><p>任意 (フロントエンドサーバーの IP アドレス、または中央管理ストアを保持するプールとして定義可能)</p></td>
 <td><p>エッジサーバーの内部インターフェイス</p></td>
-<td><p>中央管理ストアからエッジサーバーへの変更のレプリケーション</p></td>
+<td><p>中央管理ストアからエッジ サーバーへの変更のレプリケーション</p></td>
 </tr>
 <tr class="odd">
 <td><p>MTLS/TCP/50001</p></td>
 <td><p>任意</p></td>
 <td><p>エッジサーバーの内部インターフェイス</p></td>
-<td><p>Lync Server 管理シェルと一元ログサービスコマンドレットを使用した一元管理サービスコントローラー、ClsController コマンドライン (ClsController) またはエージェント (Clscontroller .exe) コマンドとログ収集</p></td>
+<td><p>Lync Server 管理シェルと集中ログサービスコマンドレットを使用した集中ログサービスコントローラー、ClsController コマンドライン (ClsController) またはエージェント (Clscontroller. .exe) コマンドとログ収集</p></td>
 </tr>
 <tr class="even">
 <td><p>MTLS/TCP/50002</p></td>
 <td><p>任意</p></td>
 <td><p>エッジサーバーの内部インターフェイス</p></td>
-<td><p>Lync Server 管理シェルと一元ログサービスコマンドレットを使用した一元管理サービスコントローラー、ClsController コマンドライン (ClsController) またはエージェント (Clscontroller .exe) コマンドとログ収集</p></td>
+<td><p>Lync Server 管理シェルと集中ログサービスコマンドレットを使用した集中ログサービスコントローラー、ClsController コマンドライン (ClsController) またはエージェント (Clscontroller. .exe) コマンドとログ収集</p></td>
 </tr>
 <tr class="odd">
 <td><p>MTLS/TCP/50003</p></td>
 <td><p>任意</p></td>
 <td><p>エッジサーバーの内部インターフェイス</p></td>
-<td><p>Lync Server 管理シェルと一元ログサービスコマンドレットを使用した一元管理サービスコントローラー、ClsController コマンドライン (ClsController) またはエージェント (Clscontroller .exe) コマンドとログ収集</p></td>
+<td><p>Lync Server 管理シェルと集中ログサービスコマンドレットを使用した集中ログサービスコントローラー、ClsController コマンドライン (ClsController) またはエージェント (Clscontroller. .exe) コマンドとログ収集</p></td>
 </tr>
 </tbody>
 </table>
@@ -263,7 +263,7 @@ IPv4 に加えて、エッジサーバーは IPv6 をサポートするように
 
 <div>
 
-## <a name="firewall-summary-for-federation"></a>フェデレーションのためのファイアウォールの概要
+## <a name="firewall-summary-for-federation"></a>フェデレーションのファイアウォールの概要
 
 
 <table>
@@ -275,7 +275,7 @@ IPv4 に加えて、エッジサーバーは IPv6 をサポートするように
 </colgroup>
 <thead>
 <tr class="header">
-<th>Role/Protocol/TCP または UDP/ポート</th>
+<th>役割/プロトコル/TCP または UDP/ポート</th>
 <th>送信元 IP アドレス</th>
 <th>宛先 IP アドレス</th>
 <th>メモ</th>
@@ -284,9 +284,9 @@ IPv4 に加えて、エッジサーバーは IPv6 をサポートするように
 <tbody>
 <tr class="odd">
 <td><p>アクセス/SIP (MTLS)/TCP/5061</p></td>
-<td><p>アクセスエッジサービスのパブリック IP アドレス</p></td>
+<td><p>アクセス エッジ サービス パブリック IP アドレス</p></td>
 <td><p>任意</p></td>
-<td><p>SIP を使用するフェデレーションおよびパブリック IM 接続の場合</p></td>
+<td><p>SIP を使用したフェデレーションおよびパブリック IM 接続用</p></td>
 </tr>
 </tbody>
 </table>
@@ -296,7 +296,7 @@ IPv4 に加えて、エッジサーバーは IPv6 をサポートするように
 
 <div>
 
-## <a name="firewall-summary--public-instant-messaging-connectivity"></a>ファイアウォールの概要–パブリックインスタントメッセージング接続
+## <a name="firewall-summary--public-instant-messaging-connectivity"></a>ファイアウォールの概要 ‐ パブリック インスタント メッセージング接続
 
 
 <table>
@@ -308,7 +308,7 @@ IPv4 に加えて、エッジサーバーは IPv6 をサポートするように
 </colgroup>
 <thead>
 <tr class="header">
-<th>Role/Protocol/TCP または UDP/ポート</th>
+<th>役割/プロトコル/TCP または UDP/ポート</th>
 <th>送信元 IP アドレス</th>
 <th>宛先 IP アドレス</th>
 <th>メモ</th>
@@ -319,37 +319,37 @@ IPv4 に加えて、エッジサーバーは IPv6 をサポートするように
 <td><p>アクセス/SIP (MTLS)/TCP/5061</p></td>
 <td><p>パブリック IM 接続パートナー</p></td>
 <td><p>エッジサーバーアクセスエッジサービス</p></td>
-<td><p>SIP を使用するフェデレーションおよびパブリック IM 接続の場合</p></td>
+<td><p>SIP を使用したフェデレーションおよびパブリック IM 接続用</p></td>
 </tr>
 <tr class="even">
 <td><p>アクセス/SIP (MTLS)/TCP/5061</p></td>
 <td><p>エッジサーバーアクセスエッジサービス</p></td>
 <td><p>パブリック IM 接続パートナー</p></td>
-<td><p>SIP を使用するフェデレーションおよびパブリック IM 接続の場合</p></td>
+<td><p>SIP を使用したフェデレーションおよびパブリック IM 接続用</p></td>
 </tr>
 <tr class="odd">
 <td><p>アクセス/SIP (TLS)/TCP/443</p></td>
 <td><p>クライアント</p></td>
 <td><p>エッジサーバーアクセスエッジサービス</p></td>
-<td><p>外部ユーザーアクセスのクライアントツーサーバー SIP トラフィック</p></td>
+<td><p>外部ユーザー アクセス用のクライアントからサーバーへの SIP トラフィック</p></td>
 </tr>
 <tr class="even">
-<td><p>A/V/RTP/59,999</p></td>
-<td><p>エッジサーバーの A/V Edge サービス</p></td>
+<td><p>音声/V/RTP/TCP/50,000-59999</p></td>
+<td><p>エッジサーバーの音声ビデオエッジサービス</p></td>
 <td><p>Live Messenger クライアント</p></td>
-<td><p>パブリック IM 接続が構成されている場合、Windows Live Messenger でのセッションに使用されます。</p></td>
+<td><p>パブリック IM 接続が構成されている場合に、Windows Live Messenger との音声ビデオ セッションに使用されます。</p></td>
 </tr>
 <tr class="odd">
 <td><p>A/V/STUN、MSTURN/UDP/3478</p></td>
-<td><p>エッジサーバーの A/V Edge サービス</p></td>
+<td><p>エッジサーバーの音声ビデオエッジサービス</p></td>
 <td><p>Live Messenger クライアント</p></td>
-<td><p>Windows Live Messenger とのパブリック IM 接続に必要</p></td>
+<td><p>Windows Live Messenger とのパブリック IM 接続では必須</p></td>
 </tr>
 <tr class="even">
 <td><p>A/V/STUN、MSTURN/UDP/3478</p></td>
 <td><p>Live Messenger クライアント</p></td>
-<td><p>エッジサーバーの A/V Edge サービス</p></td>
-<td><p>Windows Live Messenger とのパブリック IM 接続に必要</p></td>
+<td><p>エッジサーバーの音声ビデオエッジサービス</p></td>
+<td><p>Windows Live Messenger とのパブリック IM 接続では必須</p></td>
 </tr>
 </tbody>
 </table>
@@ -359,7 +359,7 @@ IPv4 に加えて、エッジサーバーは IPv6 をサポートするように
 
 <div>
 
-## <a name="firewall-summary-for-extensible-messaging-and-presence-protocol"></a>拡張メッセージングとプレゼンスプロトコルのファイアウォールの概要
+## <a name="firewall-summary-for-extensible-messaging-and-presence-protocol"></a>XMPP のファイアウォールの概要
 
 
 <table>
@@ -371,8 +371,8 @@ IPv4 に加えて、エッジサーバーは IPv6 をサポートするように
 </colgroup>
 <thead>
 <tr class="header">
-<th>Protocol/TCP または UDP/ポート</th>
-<th>ソース (IP アドレス)</th>
+<th>プロトコル/TCP または UDP/ポート</th>
+<th>送信元 (IP アドレス)</th>
 <th>宛先 (IP アドレス)</th>
 <th>コメント</th>
 </tr>
@@ -382,19 +382,19 @@ IPv4 に加えて、エッジサーバーは IPv6 をサポートするように
 <td><p>XMPP/TCP/5269</p></td>
 <td><p>任意</p></td>
 <td><p>エッジサーバーアクセスエッジサービスインターフェイスの IP アドレス</p></td>
-<td><p>XMPP 向けの標準的なサーバー間通信ポート。 フェデレーションされた XMPP パートナーからエッジサーバーの XMPP プロキシへの通信を許可します。</p></td>
+<td><p>XMPP 用の標準的なサーバー間通信。 フェデレーションされた XMPP パートナーからのエッジサーバー XMPP プロキシへの通信を許可します。</p></td>
 </tr>
 <tr class="even">
 <td><p>XMPP/TCP/5269</p></td>
 <td><p>エッジサーバーアクセスエッジサービスインターフェイスの IP アドレス</p></td>
 <td><p>任意</p></td>
-<td><p>XMPP 向けの標準的なサーバー間通信ポート。 エッジサーバーの XMPP プロキシからフェデレーションされた XMPP パートナーへの通信を許可します。</p></td>
+<td><p>XMPP 用の標準的なサーバー間通信。 エッジサーバー XMPP プロキシからフェデレーションされた XMPP パートナーへの通信を許可します。</p></td>
 </tr>
 <tr class="odd">
 <td><p>XMPP/MTLS/TCP/23456</p></td>
 <td><p>任意</p></td>
 <td><p>各内部エッジサーバーインターフェイス IP</p></td>
-<td><p>フロントエンドサーバーまたはフロントエンドプールの XMPP ゲートウェイから Edge Server 内部 IP アドレスまたは各エッジプールメンバーの内部 IP アドレスへの内部の XMPP トラフィック</p></td>
+<td><p>フロントエンドサーバーまたはフロントエンドプールの XMPP ゲートウェイから、エッジサーバーの内部 IP アドレスまたは各エッジプールメンバーの内部 IP アドレスへの内部 XMPP トラフィック</p></td>
 </tr>
 </tbody>
 </table>

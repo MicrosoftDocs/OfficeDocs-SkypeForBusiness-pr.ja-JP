@@ -12,16 +12,16 @@ ms:contentKeyID: 51803921
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8c2c9f7068943deabb90e5a87d95f35fecfbc30c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7213513657720cc08057cbf2d54d425b5d2a96f4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762375"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044869"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,23 +37,23 @@ ms.locfileid: "41762375"
 
 _**トピックの最終更新日:** 2013-02-20_
 
-Lync Server には、Web サービスの役割の一部として自動的にインストールされるデバイス更新 Web サービスが含まれています。 このサービスを利用すると、Microsoft から更新プログラムをダウンロードし、テストして、組織内の IP 電話に更新プログラムを展開することができます。 また、デバイス更新 Web サービスを使って、デバイスを以前のバージョンのソフトウェアに戻すこともできます。
+Lync Server には、Web サービスの役割の一部として自動的にインストールされるデバイス更新 Web サービスが含まれています。 このサービスを使用すると、Microsoft から更新プログラムをダウンロードしてテストし、組織内の IP 電話に更新プログラムを展開することができます。 デバイス更新 Web サービスを使用して、デバイスを以前のソフトウェアバージョンにロールバックすることもできます。
 
-このセクションでは、デバイス更新プログラムのログ、ルール (Lync Phone Edition で、ハードウェアデバイスとのファームウェアバージョンの更新プログラムに関連付けられ*たルールを使用し*ます)、構成設定を使用して、デバイス更新 Web サービスを管理し、更新プログラムを展開する方法について詳しく説明します。
+このセクションでは、デバイス更新プログラムの Web サービスを管理する方法、およびデバイス更新ログを使用して更新プログラムを展開する方法、ルール (Lync Phone Edition がファームウェアバージョンの更新プログラムをハードウェアデバイスに関連付けるための*ルール*を使用する)、構成設定について詳しく説明します。
 
-デバイス更新 Web サービスのプロセスと機能の詳細については、「Lync Server 2010 TechNet ライブラリでの[デバイスの更新](http://technet.microsoft.com/en-us/library/gg412864\(v=ocs.14\).aspx)」を参照してください。 (また、lync Phone Edition のすべてのコンポーネントなどのデバイス更新 Web サービスは、lync Server 2010 と同じように、Lync Server 2013 と同じように動作します)。
+デバイス更新 Web サービスのプロセスと機能の詳細については、「Lync Server 2010 TechNet ライブラリの[デバイスの更新](http://technet.microsoft.com/library/gg412864\(v=ocs.14\).aspx)」を参照してください。 (すべての Lync Phone Edition コンポーネントと同様に、lync server 2010 の場合と同じように、デバイス更新 Web サービスは lync Server 2013 と同じように動作します)。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 のデバイスの更新ログとファイル](lync-server-2013-device-update-logs-and-files.md)
+  - [Lync Server 2013 のデバイス更新ログとファイル](lync-server-2013-device-update-logs-and-files.md)
 
   - [Lync Server 2013 のデバイス更新ルール](lync-server-2013-device-update-rules.md)
 
-  - [Lync Server 2013 のデバイス更新設定の設定](lync-server-2013-device-update-configuration-settings.md)
+  - [Lync Server 2013 のデバイス更新構成設定](lync-server-2013-device-update-configuration-settings.md)
 
-  - [Lync Server 2013 でのデバイスのソフトウェア更新プログラムの表示](lync-server-2013-view-software-updates-for-devices-in-your-organization.md)
+  - [Lync Server 2013 のデバイスのソフトウェア更新プログラムを表示する](lync-server-2013-view-software-updates-for-devices-in-your-organization.md)
 
 </div>
 
@@ -62,7 +62,7 @@ Lync Server には、Web サービスの役割の一部として自動的にイ�
 ## <a name="see-also"></a>関連項目
 
 
-[デバイスの管理とトラブルシューティングのためのツールとサービス](http://technet.microsoft.com/en-us/library/gg425800\(v=ocs.14\).aspx)  
+[デバイスの管理とトラブルシューティングのためのツールとサービス](http://technet.microsoft.com/library/gg425800\(v=ocs.14\).aspx)  
   
 
 </div>

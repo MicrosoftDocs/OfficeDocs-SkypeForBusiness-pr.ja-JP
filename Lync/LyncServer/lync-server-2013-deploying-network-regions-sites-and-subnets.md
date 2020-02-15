@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ネットワークの領域、サイト、サブネットの展開'
+title: 'Lync Server 2013: ネットワーク地域、サイト、およびサブネットの展開'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803978
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 04c39a18147bad3f84bd345ec0a56b606db4cae4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 46e4db701dc3d43ed30b8101ef2af5ff2e4a2ad0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736277"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043549"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-network-regions-sites-and-subnets-in-lync-server-2013"></a>Lync Server 2013 でのネットワークのリージョン、サイト、サブネットの展開
+# <a name="deploying-network-regions-sites-and-subnets-in-lync-server-2013"></a>Lync Server 2013 でのネットワーク地域、サイト、およびサブネットの展開
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41736277"
 
 <span> </span>
 
-_**最終更新日:** 2013-03-12_
+_**トピックの最終更新日:** 2013-03-12_
 
-エンタープライズ Voip を展開したら、次のように構成する必要があります。
+エンタープライズ Voip を展開したら、次の構成を行う必要があります。
 
-  - ネットワーク領域
+  - ネットワーク地域
 
   - ネットワークサイト
 
-  - ネットワークサブネット
+  - ネットワーク サブネット
 
 <div>
 
-## <a name="define-network-regions"></a>ネットワーク領域を定義する
+## <a name="define-network-regions"></a>ネットワーク地域の定義
 
-Lync Server Windows PowerShell コマンド、新しい CsNetworkRegion、または Lync Server コントロールパネルを使用して、ネットワークの領域を定義します。
+Lync Server Windows PowerShell コマンド、新しい-CsNetworkRegion、または Lync Server コントロールパネルを使用して、ネットワーク地域を定義します。
 
     New-CsNetworkRegion -NetworkRegionID <region ID> -CentralSite <site ID>
 
-詳細については、「[新しい-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegion)」を参照してください。
+詳細については、「 [New-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegion)」を参照してください。
 
-この例では、次の Windows PowerShell コマンドは、このシナリオで定義されたネットワークの領域 (インド) を示しています。
+この例では、次の Windows PowerShell コマンドは、このシナリオで定義されたネットワーク地域 (インド) を示しています。
 
     New-CsNetworkRegion -NetworkRegionID "India" -CentralSite "India Central Site"
 
@@ -68,15 +68,15 @@ Lync Server Windows PowerShell コマンド、新しい CsNetworkRegion、また
 
 <div>
 
-## <a name="define-network-sites"></a>ネットワークサイトを定義する
+## <a name="define-network-sites"></a>ネットワークサイトの定義
 
-Lync Server Windows PowerShell コマンド、新しい CsNetworkSite、または Lync Server コントロールパネルを使用して、ネットワークサイトを定義します。
+Lync Server Windows PowerShell コマンド、新しい-CsNetworkSite、または Lync Server コントロールパネルを使用して、ネットワークサイトを定義します。
 
     New-CsNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
 
-詳細については、「[新しい-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSite)」を参照してください。
+詳細については、「 [New-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSite)」を参照してください。
 
-この例では、次の表と Lync Server Windows PowerShell コマンドはこのシナリオで定義されたネットワークサイトを示しています。 この表には、場所に基づくルーティングに固有の設定のみが含まれています。
+この例では、次の表および Lync Server Windows PowerShell コマンドは、このシナリオで定義されているネットワークサイトを示しています。 説明のため、表には場所に基づいたルーティングに固有の設定のみが含まれています。
 
     New-CsNetworkSite -NetworkSiteID "Delhi" -NetworkRegionID "India"
     New-CsNetworkSite -NetworkSiteID "Hyderabad" -NetworkRegionID "India"
@@ -121,13 +121,13 @@ Lync Server Windows PowerShell コマンド、新しい CsNetworkSite、また�
 
 ## <a name="define-network-subnets"></a>ネットワークサブネットを定義する
 
-Lync Server Windows PowerShell コマンド、新しい-CsNetworkSubnet、または Lync Server コントロールパネルを使用して、ネットワークサブネットを定義し、それらをネットワークサイトに割り当てることができます。
+Lync Server Windows PowerShell コマンド、新しい-CsNetworkSubnet、または Lync Server コントロールパネルを使用して、ネットワークサブネットを定義し、それらをネットワークサイトに割り当てます。
 
     New-CsNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID>
 
-詳細については、「[新しい-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet)」を参照してください。
+詳細については、「 [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet)」を参照してください。
 
-この例では、次の表と Windows PowerShell コマンドは、このシナリオで定義されたネットワークサイト、ニューデリー、Hyderabad へのネットワークサブネットの割り当てを示しています。 この表には、場所に基づくルーティングに固有の設定のみが含まれています。
+この例では、次の表および Windows PowerShell コマンドを使用して、このシナリオで定義されているネットワークサイト Hyderabad、ニューデリー、およびへのネットワークサブネットの割り当てを示しています。 説明のため、表には場所に基づいたルーティングに固有の設定のみが含まれています。
 
     New-CsNetworkSubnet -SubnetID "192.168.0.0" -MaskBits "24" -NetworkSiteID "Delhi"
     New-CsNetworkSubnet -SubnetID "192.168.1.0" -MaskBits "24" -NetworkSiteID "Hyderabad"
@@ -154,8 +154,8 @@ Lync Server Windows PowerShell コマンド、新しい-CsNetworkSubnet、また
 </tr>
 <tr class="even">
 <td><p>Mask</p></td>
-<td><p>24</p></td>
-<td><p>24</p></td>
+<td><p>ソケット</p></td>
+<td><p>ソケット</p></td>
 </tr>
 <tr class="odd">
 <td><p>サイト ID</p></td>
@@ -178,7 +178,7 @@ Lync Server Windows PowerShell コマンド、新しい-CsNetworkSubnet、また
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 の場所に基づくルーティングの構成](lync-server-2013-configuring-location-based-routing.md)  
+[Lync Server 2013 での場所に基づくルーティングの構成](lync-server-2013-configuring-location-based-routing.md)  
   
 
 </div>

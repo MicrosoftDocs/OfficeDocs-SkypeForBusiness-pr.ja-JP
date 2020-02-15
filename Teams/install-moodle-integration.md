@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 128e476447898e659961a27e071b992b6b802ebf
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: efb53e9b3299f45cd1abfabe508a55ca081a0b92
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836617"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045129"
 ---
 # <a name="installing-the-moodle-integration-with-microsoft-teams"></a>Microsoft Teams との Moodle 統合をインストールする
 
@@ -173,7 +173,7 @@ Azure へのリソースの展開が完了したら、Office 365 Moodle プラ�
 
 Bot が Azure に展開され、Moodle サーバーと通信できるように構成されたら、Microsoft Teams アプリを展開します。 これを行うには、前の手順の Office 365 Moodle プラグインチーム設定ページからダウンロードしたマニフェストファイルを読み込みます。
 
-アプリをインストールするには、アプリの外部アプリとサイドローディングが有効になっていることを確認する必要があります。 そのためには、次[の手順](https://docs.microsoft.com/en-us/MicrosoftTeams/admin-settings)を実行します。 外部アプリが有効になっていることを確認したら、次の手順に従ってアプリを展開できます。
+アプリをインストールするには、アプリの外部アプリとサイドローディングが有効になっていることを確認する必要があります。 そのためには、次[の手順](https://docs.microsoft.com/MicrosoftTeams/admin-settings)を実行します。 外部アプリが有効になっていることを確認したら、次の手順に従ってアプリを展開できます。
 
 1. Microsoft Teams を開きます。
 2. ナビゲーションバーの左下にある [**ストア**] アイコンをクリックします。

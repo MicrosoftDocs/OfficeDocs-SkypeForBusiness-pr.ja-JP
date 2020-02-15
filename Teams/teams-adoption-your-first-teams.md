@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c8cf33a5ac4c498e6d6996f6096fbf9599b5ad2e
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 1a62bc73e7dc2496a9fedc94ad7fc38f2ebecd65
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837717"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030771"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Microsoft Teams で最初のチームを作成する
 
@@ -36,7 +36,7 @@ ms.locfileid: "41837717"
 | Microsoft Teams の実装 | General <br/> 認知度と導入 <br/> ビジネスエンゲージメント <br/> 早期導入プログラム <br/> フィードバックと分析 <br/> セキュリティとコンプライアンス <br/> 戦略と計画 <br/> サービス正常性とインシデント <br/> トレーニング <br/> Watercooler チャット |
 | チームワークエキスパート | General <br/> ベストプラクティス、トレーニング、および使い方 <br/> 精鋭コーナー <br/> フィードバックとサポート <br/> プログラムの潜在顧客 <br/> ソーシャルハブ |
 
-Microsoft Teams[では、](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/tabs/tabs-overview)管理者によって有効になっているすべての Office 365 とサードパーティ製のアプリにアクセスできます。 製品の最大値を取得するには、適切な各チャネルのタブとしてキーリソースをピン留めすることをお勧めします。 次の例を参照してください。
+Microsoft Teams[では、](https://docs.microsoft.com/microsoftteams/platform/concepts/tabs/tabs-overview)管理者によって有効になっているすべての Office 365 とサードパーティ製のアプリにアクセスできます。 製品の最大値を取得するには、適切な各チャネルのタブとしてキーリソースをピン留めすることをお勧めします。 次の例を参照してください。
 
 ![既定のタブとカスタムタブを示すスクリーンショット](media/teams-adoption-tab-example.png)
 
@@ -50,7 +50,7 @@ Microsoft Teams[では、](https://docs.microsoft.com/en-us/microsoftteams/platf
 | ビジネスエンゲージメント | Wiki –契約ガイダンス<br/>フォーム– Teams の相談要求<br/>リスト–契約要求 |
 |最早採用 | 固定されたフィードバックのコミュニティ <br/> OneNote for FAQ と一般的なテーマ |
 | フィードバックと報告 | 固定された Office 365 使用状況レポート (Office 365 管理者のみ) |
-| セキュリティとコンプライアンス | Microsoft 信頼ポータル <br/> [セキュリティとコンプライアンスに関するドキュメント](https://docs.microsoft.com/en-us/office365/securitycompliance/index)<br/> [Roadmap](https://docs.microsoft.com/office365/securitycompliance/security-roadmap) |
+| セキュリティとコンプライアンス | Microsoft 信頼ポータル <br/> [セキュリティとコンプライアンスに関するドキュメント](https://docs.microsoft.com/office365/securitycompliance/index)<br/> [Roadmap](https://docs.microsoft.com/office365/securitycompliance/security-roadmap) |
 | 戦略と計画 | 共同作業用の北 Star PowerPoint <br/> サービス導入プロジェクト計画 |
 | トレーニング | カスタム学習トレーニングポータル <br/> [Teams online のトレーニング](https://aka.ms/TeamsTraining) |
 | **チームワークエキスパート**|  |

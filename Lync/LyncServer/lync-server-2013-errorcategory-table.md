@@ -12,16 +12,16 @@ ms:contentKeyID: 48183425
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c5da1da6f54fa9099cc455040a71fb11c4fe070e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 407b7efd00a521e0eec7a6d573368d2f971ce3bc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735427"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042104"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41735427"
 
 <span> </span>
 
-_**最終更新日:** 2012-08-20_
+_**トピックの最終更新日:** 2012-08-20_
 
-ErrorCategory テーブルには、Microsoft Lync Server 2013 診断分類ごとのフレンドリ名が含まれています。 既定では、Lync Server 2013 には次のような分類が使用されます。
+ErrorCategory テーブルには、Microsoft Lync Server 2013 の診断分類のフレンドリ名が含まれています。 既定では、Lync Server 2013 は次の分類を使用します。
 
-  - 0--成功
+  - 0 -- 成功
 
-  - 1--予期しないエラー
+  - 1--予期されたエラー
 
-  - 2-予期しないエラー
+  - 2 – 予期しないエラー
 
 この表は、Microsoft Lync Server 2013 で導入されました。
 
@@ -72,13 +72,13 @@ ErrorCategory テーブルには、Microsoft Lync Server 2013 診断分類ごと
 </tr>
 <tr class="even">
 <td><p><strong>名前</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td></td>
-<td><p>分類に割り当てられている値とフレンドリ名。 有効な値は次のとおりです。</p>
+<td><p>分類に割り当てられる値とフレンドリ名。有効な値は次のとおりです。</p>
 <ul>
-<li><p>0--成功</p></li>
-<li><p>1--予期しないエラー</p></li>
-<li><p>2-予期しないエラー</p></li>
+<li><p>0 -- 成功</p></li>
+<li><p>1--予期されたエラー</p></li>
+<li><p>2 – 予期しないエラー</p></li>
 </ul></td>
 </tr>
 </tbody>

@@ -12,20 +12,20 @@ ms:contentKeyID: 48185431
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a4e515b668bd91cc04752dffb034569cd8aa7abf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: aa3a7ffd1d9b69170c942b3402f156ff1cd5a86d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762985"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042354"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-exchange-server-integration-features-in-lync-server-2013"></a>Lync Server 2013 の新しい Exchange Server の統合機能
+# <a name="new-exchange-server-integration-features-in-lync-server-2013"></a>Lync Server 2013 の新しい Exchange Server 統合機能
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41762985"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-24_
+_**トピックの最終更新日:** 2012-09-24_
 
-Lync Server 2013 は、次の一覧に示すように、Microsoft Exchange Server 2013 と共に展開された場合に、新機能をサポートします。 これらの各機能を使用するには、Lync Server 2013 と Exchange 2013 の両方が展開されている必要があります。
+Lync Server 2013 では、次の一覧に示すように、Microsoft Exchange Server 2013 と共に展開すると、新機能をサポートしています。 これらの機能が動作するためには、Lync Server 2013 と Exchange 2013 の両方が展開されている必要があります。
 
-  - Exchange 2013 で Lync の連絡先リストが保存されている**ユニファイド連絡先ストア**を使用して、lync 2013、outlook 2013、Outlook Web App で連絡先ストアを管理することができます。
+  - Lync 連絡先リストが Exchange 2013 に格納されている**統合連絡先ストア**を使用して、lync 2013、outlook 2013、および Outlook Web App で連絡先ストアを管理することができます。
 
-  - 連絡先には**高解像度写真**を使用できます。 最大648x648 ピクセルの写真は Exchange 2013 に保存され、Lync 2013、Outlook 2013、Microsoft Lync Web app、Outlook Web App などのクライアントで利用できるようになります。
+  - 連絡先用に**高解像度の写真**を使用できます。 最大648x648 ピクセルの写真は、Exchange 2013 に格納され、Lync 2013、Outlook 2013、Microsoft Lync Web App、および Outlook Web App を含むクライアントが使用できるようになります。
 
-  - Lync アーカイブの**統合**を有効にすると、exchange 2013 を使用しているユーザーに対して、lync Server 2013 アーカイブが exchange 2013 のインプレースホールド機能に統合されます。これにより、管理者はコンプライアンスと電子情報開示に関する一般的なエクスペリエンスを実現できます。
+  - Lync アーカイブの**統合**を有効にすることができます。これにより、exchange 2013 に所属するユーザーのために lync Server 2013 アーカイブが Exchange 2013 のインプレース保持機能に統合されます。これにより、管理者は、コンプライアンスと電子情報開示に関して共通の作業を行うことができます。
 
 <div>
 

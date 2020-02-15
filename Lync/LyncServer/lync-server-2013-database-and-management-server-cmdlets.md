@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: データベースと管理サーバーのコマンドレット'
+title: 'Lync Server 2013: データベースおよび管理サーバーのコマンドレット'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185174
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 770107bb4f7fafc4b1d43db8a5bdfcd3efef63e0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 25bf5b464b8bda91d2374811d3c727154d1ceccc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728597"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044149"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="database-and-management-server-cmdlets-in-lync-server-2013"></a>Lync Server 2013 のデータベースと管理サーバーのコマンドレット
+# <a name="database-and-management-server-cmdlets-in-lync-server-2013"></a>Lync Server 2013 のデータベースおよび管理サーバーのコマンドレット
 
 </div>
 
@@ -35,76 +35,76 @@ ms.locfileid: "41728597"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-09_
+_**トピックの最終更新日:** 2012-10-09_
 
-データベースと管理サーバーのコマンドレットを使用して、Microsoft Lync Server 2013 バックエンドデータベースとフロントエンド管理サービスの両方を管理します。 これらのコマンドレットを使用して、Lync Server 2013 で使用されているデータベースをインストールまたはアンインストールすることができます。また、中央管理ストアの Active Directory サービス制御ポイントを構成することもできます。
+データベースおよび管理サーバーのコマンドレットは、Microsoft Lync Server 2013 のバックエンドデータベースとフロントエンド管理サービスの両方を管理するために使用されます。 これらのコマンドレットを使用して、中央管理ストアの Active Directory サービス制御ポイントを構成するだけでなく、Lync Server 2013 で使用されているデータベースをインストールまたはアンインストールすることができます。
 
 <div>
 
-## <a name="database-and-management-server-cmdlets"></a>データベースと管理サーバーのコマンドレット
+## <a name="database-and-management-server-cmdlets"></a>データベースおよび管理サーバーのコマンドレット
 
-データベースと管理サーバーの管理に直接関連するコマンドレットの一覧を次に示します。
+以下は、データベースと管理サーバーの管理に直接関連するコマンドレットの一覧です。
 
-**データベースと管理サーバー**
-
-  - <span></span>  
-    [Get-CsConfigurationStoreLocation](https://technet.microsoft.com/en-us/library/Gg412814(v=OCS.15))
+**データベースおよび管理サーバー**
 
   - <span></span>  
-    [Remove-CsConfigurationStoreLocation](https://technet.microsoft.com/en-us/library/Gg398214(v=OCS.15))
+    [Remove-csconfigurationstorelocation](https://technet.microsoft.com/library/Gg412814(v=OCS.15))
 
   - <span></span>  
-    [Set-CsConfigurationStoreLocation](https://technet.microsoft.com/en-us/library/Gg398258(v=OCS.15))
+    [Remove-csconfigurationstorelocation](https://technet.microsoft.com/library/Gg398214(v=OCS.15))
+
+  - <span></span>  
+    [Remove-csconfigurationstorelocation](https://technet.microsoft.com/library/Gg398258(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Install-CsDatabase](https://technet.microsoft.com/en-us/library/Gg399044(v=OCS.15))
+    [-CsDatabase をインストールする](https://technet.microsoft.com/library/Gg399044(v=OCS.15))
 
   - <span></span>  
-    [Test-CsDatabase](https://technet.microsoft.com/en-us/library/JJ204839(v=OCS.15))
+    [テスト-CsDatabase](https://technet.microsoft.com/library/JJ204839(v=OCS.15))
 
   - <span></span>  
-    [Uninstall-CsDatabase](unhttps://technet.microsoft.com/en-us/library/Gg399044(v=OCS.15))
+    [アンインストール-CsDatabase](unhttps://technet.microsoft.com/library/Gg399044(v=OCS.15))
 
 <!-- end list -->
 
-  - [Invoke-CsDatabaseFailover](https://technet.microsoft.com/en-us/library/JJ204744(v=OCS.15))
+  - [Invoke-CsDatabaseFailover](https://technet.microsoft.com/library/JJ204744(v=OCS.15))
 
 <!-- end list -->
 
-  - [Get-CsDatabaseMirrorState](https://technet.microsoft.com/en-us/library/JJ204845(v=OCS.15))
+  - [Get-csdatabasemirrorstate 戻し](https://technet.microsoft.com/library/JJ204845(v=OCS.15))
 
 <!-- end list -->
 
-  - [Install-CsMirrorDatabase](https://technet.microsoft.com/en-us/library/JJ204986(v=OCS.15))
+  - [Install-csmirrordatabase](https://technet.microsoft.com/library/JJ204986(v=OCS.15))
 
-  - [Uninstall-CsMirrorDatabase](unhttps://technet.microsoft.com/en-us/library/JJ204986(v=OCS.15))
-
-<!-- end list -->
-
-  - <span></span>  
-    [Get-CsUserDatabaseState](https://technet.microsoft.com/en-us/library/Gg398831(v=OCS.15))
-
-  - <span></span>  
-    [設定-CsUserDatabaseState](https://technet.microsoft.com/en-us/library/Gg412973(v=OCS.15))
+  - [アンインストール-Install-csmirrordatabase](unhttps://technet.microsoft.com/library/JJ204986(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [CsUserDatabase の更新](https://technet.microsoft.com/en-us/library/Gg398682(v=OCS.15))
+    [取得-CsUserDatabaseState](https://technet.microsoft.com/library/Gg398831(v=OCS.15))
+
+  - <span></span>  
+    [設定-CsUserDatabaseState](https://technet.microsoft.com/library/Gg412973(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [CsManagementServer の移動](https://technet.microsoft.com/en-us/library/Gg412921(v=OCS.15))
-
-  - <span></span>  
-    [Set-CsManagementServer](https://technet.microsoft.com/en-us/library/Gg398465(v=OCS.15))
+    [-CsUserDatabase を更新する](https://technet.microsoft.com/library/Gg398682(v=OCS.15))
 
 <!-- end list -->
 
-  - [Invoke-CsManagementServerFailover](https://technet.microsoft.com/en-us/library/JJ204647(v=OCS.15))
+  - <span></span>  
+    [Move-csmanagementserver](https://technet.microsoft.com/library/Gg412921(v=OCS.15))
+
+  - <span></span>  
+    [Move-csmanagementserver](https://technet.microsoft.com/library/Gg398465(v=OCS.15))
+
+<!-- end list -->
+
+  - [呼び出し-CsManagementServerFailover](https://technet.microsoft.com/library/JJ204647(v=OCS.15))
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 禁止された外部ドメイン向けサポートの構成'
+title: 'Lync Server 2013: ブロックされた外部ドメインのサポートを構成する'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733638
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3fe73985687e7a1d6fcd2bbf615127c0757a5307
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2f34f620fe6f98053e40c5999bcde29d88b6371a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763551"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043289"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-support-for-blocked-external-domains-in-lync-server-2013"></a>Lync Server 2013 での禁止された外部ドメイン向けサポートの構成
+# <a name="configure-support-for-blocked-external-domains-in-lync-server-2013"></a>Lync Server 2013 で禁止された外部ドメインのサポートを構成する
 
 </div>
 
@@ -35,46 +35,46 @@ ms.locfileid: "41763551"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-08_
+_**トピックの最終更新日:** 2012-09-08_
 
-フェデレーションパートナーのサポートを構成している場合は、どのドメインを組織とのフェデレーションからブロックするかを管理できます。 ブロックされたドメインの一覧はブロックリスト (許可されていない明示的なエントリの一覧) として機能し、このオプションを有効にしている場合はフェデレーションドメインの検出に適用されます。 詳細については、「 [Lync Server 2013 でフェデレーションパートナーの検出を有効または無効](lync-server-2013-enable-or-disable-discovery-of-federation-partners.md)にする」を参照してください。
+フェデレーション パートナーに対するサポートが構成されている場合、組織とのフェデレーションを禁止するドメインを管理できます。 このオプションが有効な場合は、禁止されているドメインの一覧は禁止リスト (許可されていない明示的なエントリの一覧) として機能し、フェデレーション ドメインの検出時に適用されます。 詳細については、「 [Lync Server 2013 でのフェデレーションパートナーの検出の有効化または無効化](lync-server-2013-enable-or-disable-discovery-of-federation-partners.md)」を参照してください。
 
-1つ以上の外部ドメインをブロックして組織に接続します。 そのためには、ブロックされたドメインの一覧にドメインを追加します。
+1 つまたは複数の外部ドメインの組織への接続を禁止します。この構成を実行するには、ドメインを禁止ドメインの一覧に追加します。
 
 <div>
 
-## <a name="to-add-an-external-domain-to-the-list-of-blocked-domains"></a>ブロックされたドメインの一覧に外部ドメインを追加するには
+## <a name="to-add-an-external-domain-to-the-list-of-blocked-domains"></a>外部ドメインを禁止ドメインの一覧に追加するには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
-3.  左側のナビゲーションバーで、[**外部ユーザーアクセス**] をクリックします。
+3.  左側のナビゲーション バーで [**外部ユーザー アクセス**] をクリックします。
 
-4.  [**フェデレーションドメイン**] をクリックし、[**新規作成**] をクリックして、[**禁止ドメイン**] をクリックします。
+4.  [**フェデレーション ドメイン**] をクリックし、[**新規**] をクリックし、[**禁止ドメイン**] をクリックします。
 
-5.  **新しいフェデレーションドメイン**で、次の操作を行います。
+5.  [**新規フェデレーション ドメイン**] で、次の操作を実行します。
     
-      - [ **Domain name (または FQDN)**] に、ブロックするフェデレーションパートナードメインの名前を入力します。
+      - [**ドメイン名 (または FQDN)**] で、禁止するフェデレーション パートナー ドメインの名前を入力します。
         
         <div>
         
 
         > [!NOTE]  
-        > 名前の長さは、256文字以下にすることはできません。<BR>フェデレーションパートナーのドメイン名での検索では、サフィックス一致が実行されます。 たとえば、 <STRONG>contoso.com</STRONG>と入力すると、検索によってドメイン<STRONG>it.contoso.com</STRONG>も返されます。<BR>フェデレーションパートナードメインは、同時にブロックおよび許可することはできません。 Lync Server 2013 では、リストを同期する必要がないように、この問題を回避することができます。
+        > 名前の長さは、最大 256 文字です。<BR>フェデレーション パートナー ドメインの名前についての検索では、サフィックスの一致が実行されます。たとえば、<STRONG>contoso.com</STRONG> と入力すると、検索によりドメイン <STRONG>it.contoso.com</STRONG> も戻されます。<BR>フェデレーション パートナー ドメインを同時に禁止および許可することはできません。 Lync Server 2013 では、リストを同期する必要がないように、この問題を回避することができます。
 
         
         </div>
     
-      - 省略[**コメント**] に、この構成について他のシステム管理者と共有する情報を入力します。
+      - (オプション) [**コメント**] で、この構成について他のシステム管理者と共有する必要のある情報を入力します。
 
-6.  [**コミット**] をクリックします。
+6.  [**確定**] をクリックします。
 
-7.  ブロックするフェデレーションパートナーごとに、手順 4 ~ 6 を繰り返します。
+7.  禁止するフェデレーション パートナーごとに、ステップ 4 ～ 6 を繰り返します。
 
-フェデレーションされたユーザーアクセスを有効にするには、組織でフェデレーションされたユーザーアクセスのサポートを有効にする必要もあります。 詳細については、「 [Lync Server 2013 でリモートユーザーアクセスを有効または無効](lync-server-2013-enable-or-disable-remote-user-access.md)にする」を参照してください。
+フェデレーション ユーザー アクセスを有効にするには、組織でフェデレーション ユーザー アクセスのサポートも有効にする必要があります。 詳細については、「 [Lync Server 2013 でリモートユーザーアクセスを有効または無効](lync-server-2013-enable-or-disable-remote-user-access.md)にする」を参照してください。
 
-さらに、フェデレーションされたユーザーと共同作業できるようにするユーザーにポリシーを構成して適用する必要があります。 詳細については、「 [Lync Server 2013 でフェデレーションされたユーザーアクセスを制御するためのポリシーを構成する](lync-server-2013-configure-policies-to-control-federated-user-access.md)」を参照してください。
+また、ポリシーを構成して、フェデレーション ユーザーと共同作業できるようにするユーザーに適用する必要があります。 詳細については、「 [Lync Server 2013 でフェデレーションユーザーアクセスを制御するようにポリシーを構成する](lync-server-2013-configure-policies-to-control-federated-user-access.md)」を参照してください。
 
 </div>
 

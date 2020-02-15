@@ -12,20 +12,20 @@ ms:contentKeyID: 48185887
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 23289399e4eee4a654b41f2978191a6329739b4e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 16b2716bee52902f55160e770df36801d18f1b78
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738987"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043249"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="hosted-exchange-user-management-in-lync-server-2013"></a>Lync Server 2013 の Hosted Exchange ユーザー管理
+# <a name="hosted-exchange-user-management-in-lync-server-2013"></a>Lync Server 2013 での Hosted Exchange ユーザー管理
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41738987"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-18_
+_**トピックの最終更新日:** 2012-10-18_
 
-ホストされている Exchange サービス上にメールボックスがある Lync Server 2013 ユーザー用のボイスメールサービスを提供するには、ホストされているボイスメールに対してユーザーアカウントを有効にする必要があります。
+ホストされた Exchange サービスにメールボックスがある Lync Server 2013 ユーザーにボイスメールサービスを提供するには、ホストボイスメールに対して自分のユーザーアカウントを有効にする必要があります。
 
 <div>
 
 
 > [!NOTE]  
-> ホストされているボイスメールに対して Lync Server 2013 ユーザーを有効にするには、対応するユーザーアカウントに適用されるホストされたボイスメールポリシーを展開する必要があります。 ポリシーは、有効にするユーザーに適用される限り、スコープ内でグローバル、サイト、またはユーザーごとに設定できます。 詳細については、「 <A href="lync-server-2013-hosted-voice-mail-policies.md">Lync Server 2013 のホスト型ボイスメールポリシー</A>」を参照してください。
+> ホストボイスメールに対して Lync Server 2013 ユーザーを有効にするには、対応するユーザーアカウントに適用されるホストボイスメールポリシーを展開する必要があります。 ここで展開するポリシーは、有効化するユーザーに適用するのであれば、そのスコープがグローバルなものでも、サイト レベルのものでも、ユーザー単位のものでもかまいません。 詳細については、「 <A href="lync-server-2013-hosted-voice-mail-policies.md">Lync Server 2013 のホストボイスメールポリシー</A>」を参照してください。
 
 
 
@@ -51,15 +51,15 @@ _**最終更新日:** 2012-10-18_
 
 <div>
 
-## <a name="the-msexchucvoicemailsettings-attribute"></a>MsExchUCVoiceMailSettings 属性
+## <a name="the-msexchucvoicemailsettings-attribute"></a>msExchUCVoiceMailSettings 属性
 
-Lync Server 2013 には、Lync Server 2013 Active Directory スキーマの準備の一部として作成された**msExchUCVoiceMailSettings**という新しいユーザー属性が導入されています。 この複数値属性は、Lync Server 2013 とホストされる Exchange サービスで共有されるボイスメール設定を保持します。
+Lync Server 2013 は、 **msExchUCVoiceMailSettings**という名前の新しいユーザー属性を導入しています。これは、lync Server 2013 Active Directory スキーマの準備の一部として作成されます。 この複数値属性は、Lync Server 2013 と hosted Exchange サービスで共有されるボイスメール設定を保持します。
 
-ホストされた Exchange サービスは、Exchange UM を有効にするプロセス、またはメールボックスをホストされた Exchange サーバーに移行するプロセスで、msExchUCVoiceMailSettings 属性の値を設定する場合があります。 この属性が Exchange によって設定されていない場合は、このトピックで前に説明したように、Set-CsUser コマンドレットを実行して Lync Server 2013 管理者が設定する必要があります。
+Hosted Exchange サービスでは、Exchange UM の有効化プロセス、または Hosted Exchange Server へのメールボックスの転送プロセス中に、msExchUCVoiceMailSettings 属性の値が設定されることがあります。 この属性が Exchange によって設定されていない場合、Lync Server 2013 管理者は、このトピックで前述したように、Set-CsUser コマンドレットを実行して設定する必要があります。
 
-属性のキー/値ペアとその作成者を次の表に示します。
+次の表では、属性のキー/値ペアとその設定元について説明します。
 
-### <a name="the-msexchucvoicemailsettings-attribute-keyvalue-pairs"></a>MsExchUCVoiceMailSettings 属性のキーと値のペア
+### <a name="the-msexchucvoicemailsettings-attribute-keyvalue-pairs"></a>msExchUCVoiceMailSettings 属性のキー/値ペア
 
 <table>
 <colgroup>
@@ -70,7 +70,7 @@ Lync Server 2013 には、Lync Server 2013 Active Directory スキーマの準�
 <thead>
 <tr class="header">
 <th>値</th>
-<th>著作者</th>
+<th>設定元</th>
 <th>意味</th>
 </tr>
 </thead>
@@ -78,22 +78,22 @@ Lync Server 2013 には、Lync Server 2013 Active Directory スキーマの準�
 <tr class="odd">
 <td><p>ExchangeHostedVoiceMail = 1</p></td>
 <td><p>Exchange</p></td>
-<td><p>ユーザーは Exchange Server によってホストされた UM アクセスが有効になっています。 Exchange UM ルーティングアプリケーションは、ルーティングの詳細についてユーザーのホストされるボイスメールポリシーを確認します。</p></td>
+<td><p>ユーザーによるホスト型 UM へのアクセスは Exchange Server によって有効化されています。 Exchange UM ルーティングアプリケーションは、ルーティングの詳細について、ユーザーのホストボイスメールポリシーをチェックします。</p></td>
 </tr>
 <tr class="even">
 <td><p>ExchangeHostedVoiceMail = 0</p></td>
 <td><p>Exchange</p></td>
-<td><p>Exchange Server でホストされている UM アクセスのユーザーが無効になっています。</p></td>
+<td><p>ユーザーによるホスト型 UM へのアクセスは Exchange Server によって無効化されています。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CsHostedVoiceMail = 1</p></td>
 <td><p>Lync Server</p></td>
-<td><p>ユーザーが Lync Server 2013 によってホストされた UM アクセスが有効になっている。 Lync Server 2013 ExUM ルーティングアプリケーションは、ルーティングの詳細について、ユーザーのホストされるボイスメールポリシーを確認します。</p></td>
+<td><p>ユーザーが Lync Server 2013 によってホストされた UM アクセスが有効になっている。 Lync Server 2013 ExUM ルーティングアプリケーションは、ルーティングの詳細についてユーザーのホストボイスメールポリシーをチェックします。</p></td>
 </tr>
 <tr class="even">
 <td><p>CsHostedVoiceMail = 0</p></td>
 <td><p>Lync Server</p></td>
-<td><p>Lync Server 2013 でホストされている UM アクセスのユーザーが無効になっている。</p></td>
+<td><p>Lync Server 2013 によるホスト型 UM へのアクセスがユーザーに対して無効になっています。</p></td>
 </tr>
 </tbody>
 </table>
@@ -103,7 +103,7 @@ Lync Server 2013 には、Lync Server 2013 Active Directory スキーマの準�
 
 
 > [!NOTE]  
-> 属性に既に、Lync Server 2013 の1つ以外の値 (CSHostedVoiceMail = 0 または CSHostedVoiceMail = 1) 以外の値が含まれている場合、その属性は別のアプリケーションによって管理されている可能性があることを示す警告が表示されます。 たとえば、キー/値のペア ExchangeHostedVoiceMail = 0 または ExchangeHostedVoiceMail = 1 が既に存在する場合、警告が表示されます。 この場合、値を変更するには、Active Directory を編集するか、次のコマンドレットを実行して値を null に設定します。<BR>Set-CsUser – identity user – HostedVoicemail $null
+> 属性に既に Lync Server 2013 のキー/値ペア (CSHostedVoiceMail = 0 または CSHostedVoiceMail = 1) 以外の値が設定されている場合は、その属性が別のアプリケーションによって管理されている可能性があることを示す警告が表示されます。 たとえば、キー/値ペア ExchangeHostedVoiceMail=0 または ExchangeHostedVoiceMail=1 がすでに存在している場合には、警告が表示されます。 そのようなときには、Active Directory で値を変更するか、または次のコマンドレットを実行して、値を Null に設定します。<BR>Set-CsUser –identity user –HostedVoicemail $null
 
 
 
@@ -113,23 +113,23 @@ Lync Server 2013 には、Lync Server 2013 Active Directory スキーマの準�
 
 <div>
 
-## <a name="enabling-users-for-hosted-voice-mail"></a>ホストされたボイスメール用にユーザーを有効にする
+## <a name="enabling-users-for-hosted-voice-mail"></a>ユーザーによるホスト ボイス メールの有効化
 
-ユーザーのボイスメールの呼び出しをホストされた Exchange UM にルーティングできるようにするには、 *HostedVoiceMail*パラメーターの値を設定するために、Set-csuser コマンドレットを実行する必要があります。 また、このパラメーターは、"ボイスメールの呼び出し" インジケーターを明るくするために、Lync Server 2013 にも通知します。
+ユーザーのボイス メール通話が Hosted Exchange UM へルーティングされるようにするには、Set-CsUser コマンドレットを実行して、*HostedVoiceMail* パラメーターの値を設定する必要があります。 また、このパラメーターは Lync Server 2013 に通知して、"ボイスメールの呼び出し" インジケーターを明るくします。
 
-  - 次の例では、ホストされているボイスメールに対して Pilar Ackerman のユーザーアカウントを有効にします。
+  - 次の例では、Pilar Ackerman のユーザー アカウントでホスト ボイス メールを使用できるようにします。
     
         Set-CsUser -Identity "Pilar Ackerman" -HostedVoiceMail $True
     
-    このコマンドレットは、ホストされたボイスメールポリシー (グローバル、サイトレベル、またはユーザーごと) がこのユーザーに適用されることを確認します。 ポリシーが適用されない場合、コマンドレットは失敗します。
+    これは、ホスト ボイス メールのポリシー (グローバル、サイトレベル、またはユーザー単位) がこのユーザーに適用されていることを確認するコマンドレットです。 適用されるポリシーがない場合には、このコマンドレットは失敗します。
 
-  - 次の例では、ホストされているボイスメールの Pilar Ackerman のユーザーアカウントを無効にします。
+  - 次の例では、Pilar Ackerman のユーザー アカウントでホスト ボイス メールを使用できないようにします。
     
         Set-CsUser -Identity "Pilar Ackerman" -HostedVoiceMail $False
     
-    このコマンドレットは、ホストされているボイスメールポリシー (グローバル、サイトレベル、またはユーザーごと) がこのユーザーに適用されていないことを確認します。 ポリシーが適用されると、コマンドレットは失敗します。
+    これは、ホスト ボイス メールのポリシー (グローバル、サイトレベル、またはユーザー単位) がこのユーザーに適用されていないことを確認するコマンドレットです。 適用されるポリシーがある場合には、このコマンドレットは失敗します。
 
-Set-CsUser コマンドレットの使い方の詳細については、「Lync Server 管理シェルのドキュメント」を参照してください。
+Set-CsUser コマンドレットの使用の詳細については、「Lync Server Management Shell」のドキュメントを参照してください。
 
 </div>
 

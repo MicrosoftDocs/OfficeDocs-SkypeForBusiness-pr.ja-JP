@@ -1,5 +1,5 @@
 ---
-title: ベストプラクティスアナライザーを使用して展開の潜在的な問題を特定する
+title: ベストプラクティスアナライザーを使用して展開で発生する可能性のある問題を特定する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183344
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e60945f9a7ee8f8b6fe52857fd73a399725de5be
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 12cf3fcc76c1fba3b8162a4928f672558818e735
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744217"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041774"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="using-best-practices-analyzer-to-identify-potential-issues-in-your-lync-server-2013-deployment"></a>ベストプラクティスアナライザーを使用して Lync Server 2013 の展開で発生する可能性のある問題を特定する
+# <a name="using-best-practices-analyzer-to-identify-potential-issues-in-your-lync-server-2013-deployment"></a>ベストプラクティスアナライザーを使用して Lync Server 2013 展開で発生する可能性のある問題を特定する
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41744217"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-21_
+_**トピックの最終更新日:** 2012-09-21_
 
-ベストプラクティスアナライザーを使って Lync Server 2013 環境をスキャンするには、スキャンを開始する前にシステムが特定の前提条件を満たしている必要があります。 システムが前提条件を満たしていることを確認したら、ベストプラクティスアナライザーを使用してスキャンプロセスを完了することができます。
+ベストプラクティスアナライザーを使用して Lync Server 2013 環境をスキャンするには、スキャンを開始する前に、システムが特定の前提条件を満たしている必要があります。 システムが前提条件を満たしていることを確認した後、Best Practices Analyzer を使用してスキャン処理を実行できます。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
   - [Lync Server 2013 でベストプラクティスアナライザーを実行するための前提条件](lync-server-2013-prerequisites-for-running-best-practices-analyzer.md)
 
-  - [Lync Server 2013 でのベストプラクティスアナライザーの更新プログラムを確認する](lync-server-2013-checking-for-updates-to-best-practices-analyzer.md)
+  - [Lync Server 2013 でのベストプラクティスアナライザーの更新プログラムの確認](lync-server-2013-checking-for-updates-to-best-practices-analyzer.md)
 
-  - [ベストプラクティスアナライザーを使用して Lync Server 2013 の展開をスキャンし、潜在的な問題を検出する](lync-server-2013-using-best-practices-analyzer-to-scan-your-deployment-for-potential-issues.md)
+  - [ベストプラクティスアナライザーを使用して Lync Server 2013 の展開で問題が発生する可能性のある問題をスキャンする](lync-server-2013-using-best-practices-analyzer-to-scan-your-deployment-for-potential-issues.md)
 
 </div>
 

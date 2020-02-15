@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Active Directory ドメイン サービスの準備'
+title: 'Lync Server 2013: Active Directory ドメインサービスの準備'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184620
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da033b8b7589b5257a73d77f3cd618236a2e4747
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b8ba47445194f4b7d4c02966404c03ee981e1c76
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724987"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042979"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41724987"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-21_
+_**トピックの最終更新日:** 2013-02-21_
 
-Lync Server 2013 を展開して運用する前に、スキーマを拡張し、オブジェクトを作成して構成することによって、Active Directory ドメインサービスを準備する必要があります。 スキーマの拡張機能によって、Lync Server で必要な Active Directory のクラスと属性が追加されます。
+Lync Server 2013 を展開して運用する前に、スキーマを拡張してからオブジェクトを作成および構成して、Active Directory ドメインサービスを準備する必要があります。 スキーマの拡張によって、Lync Server が必要とする Active Directory クラスと属性が追加されます。
 
-このセクションのトピックでは、Lync Server を展開するために AD DS を準備する方法と、セットアップおよび組織単位 (OU) の権限を割り当てる方法について説明します。 Lync Server に必要なスキーマ変更の詳細については、「 [Active Directory スキーマの拡張機能、クラス、および Lync server 2013 で使用される属性](lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md)」を参照してください。
+このセクションのトピックでは、Lync Server を展開するための AD DS の準備方法と、セットアップおよび組織単位 (OU) のアクセス許可を割り当てる方法について説明します。 Lync Server に必要なスキーマ変更の詳細については、「 [Active Directory スキーマ拡張、クラス、および Lync server 2013 で使用される属性](lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md)」を参照してください。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 に関する Active Directory インフラストラクチャの要件](lync-server-2013-active-directory-infrastructure-requirements.md)
+  - [Lync Server 2013 の Active Directory インフラストラクチャの要件](lync-server-2013-active-directory-infrastructure-requirements.md)
 
-  - [Lync Server 2013 の Active Directory ドメイン サービスの準備の概要](lync-server-2013-overview-of-active-directory-domain-services-preparation.md)
+  - [Lync Server 2013 での Active Directory ドメインサービスの準備の概要](lync-server-2013-overview-of-active-directory-domain-services-preparation.md)
 
-  - [Lync Server 2013 での Active Directory ドメイン サービスの準備](lync-server-2013-preparing-active-directory-domain-services_1.md)
+  - [Lync Server 2013 での Active Directory ドメインサービスの準備](lync-server-2013-preparing-active-directory-domain-services_1.md)
 
-  - [Lync Server 2013 でのロックダウンされた Active Directory ドメイン サービスの準備](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md)
+  - [Lync Server 2013 のロックダウンされた Active Directory ドメインサービスの準備](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md)
 
   - [Lync Server 2013 でのアクセス許可の付与](lync-server-2013-granting-permissions.md)
 

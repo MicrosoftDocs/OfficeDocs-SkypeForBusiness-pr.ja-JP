@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: アドオンライセンス、各ライセンスで利用できる機能、製品の購入方法、および既存の通信事業者との使用方法について説明します。 Office 365、通信クレジット、および通話プランの価格と計画の詳細については、こちらを参照してください。
-ms.openlocfilehash: e7a4853bcb5cb1522f185f8f66ccb0931cdc2be2
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: c1faf51c6f0c61ce569a0e3f14181aa8db276a2c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826635"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029378"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Microsoft Teams アドオン ライセンス
 
@@ -55,7 +55,7 @@ Microsoft Teams のライセンスは、最大限の柔軟性を提供するた�
 |**電話会議** <br/> |組織内のユーザーは、自分のコンピューターを使う代わりに、電話を使って Teams 会議にコールインする必要がある場合があります。 この状況では、電話会議機能を使用します。  <br/> 国または地域でオーディオ会議が利用可能かどうかを調べるには、 [オーディオ会議や呼び出しプランが利用可能な国および地域](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)を参照してください。 <br/> 料金を知りたい場合は、「[電話会議の価格](https://products.office.com/microsoft-teams/online-meeting-solutions)を確認する」を参照してください。  <br/> |
 |**会議へのダイヤルイン アクセスのための無料電話番号や、世界中の電話番号に発信して誰かを追加するために会議からダイヤルアウトする機能** <br/> |オーディオ会議を追加する場合は、 [コミュニケーション クレジットを設定](../set-up-communications-credits-for-your-organization.md)することをおすすめします。 <br/> |
 |**電話システム** <br/> |PBX は、ビジネスにおける電話システムです。 Office 365 の電話システムは、ホストされた電話サービスです。 従来型と革新的な PBX 機能の両方が提供されますが、複雑で高価な機器は必要ありません。 [Office 365 の電話システムで利用できる機能は次のとおり](../here-s-what-you-get-with-phone-system.md)です。  <br/> 料金をお探しの場合は、「[電話システム](https://products.office.com/microsoft-teams/voice-calling)」をご覧ください。  <br/> |
-|**通話プラン** <br/> |他の Teams ユーザへの通話は無料ですが、ユーザが社外の電話番号に通話を発信できるようにするには、[通話プラン](../calling-plans-for-office-365.md)を購入します。 Office 365 には国内通話プランと、国内および国際通話プランがあります。  <br/> 料金をお探しの場合は、「[通話プランの価格設定](https://products.office.com/en-us/microsoft-teams/voice-calling)」をご覧ください。  <br/> |
+|**通話プラン** <br/> |他の Teams ユーザへの通話は無料ですが、ユーザが社外の電話番号に通話を発信できるようにするには、[通話プラン](../calling-plans-for-office-365.md)を購入します。 Office 365 には国内通話プランと、国内および国際通話プランがあります。  <br/> 料金をお探しの場合は、「[通話プランの価格設定](https://products.office.com/microsoft-teams/voice-calling)」をご覧ください。  <br/> |
 |**Microsoft Teams ミーティング** <br/> |これはアドオンではありませんが、会議室にビデオ、音声、コンテンツの共有をもたらす機能です。 「 [Microsoft Teams のルーム](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)」を参照してください。  <br/> |
 
 すべてのアドオンオプションについて誰かに相談する必要がある場合 [ビジネス製品のサポートについては、「管理者向けヘルプ」を参照してください](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
@@ -84,7 +84,7 @@ Microsoft Teams のライセンスは、最大限の柔軟性を提供するた�
 ## <a name="how-do-i-use-my-existing-calling-plans-with-teams"></a>既存の通話プランを Teams で使用するにはどうすればよいですか?
 <a name="bkmk_existing"></a>
 <!---
-If you want to use your existing Calling Plan, buy the **Phone System** add-on and use it with the **[free Cloud connector](https://technet.microsoft.com/en-us/library/mt605227.aspx)**.
+If you want to use your existing Calling Plan, buy the **Phone System** add-on and use it with the **[free Cloud connector](https://technet.microsoft.com/library/mt605227.aspx)**.
 --->
 ハイブリッド ユーザー向けにオンプレミス PSTN 接続を使用している場合は、 *電話システム*  のライセンス **のみ**をユーザーに割り当てる必要があります。同時に PSTN 通話プランも割り当て **ないでください** 。
 
@@ -102,5 +102,5 @@ If you want to use your existing Calling Plan, buy the **Phone System** add-on a
     
 - [資金を追加してコミュニケーション クレジットを管理する](../add-funds-and-manage-communications-credits.md)
 <!---    
-- [Configure the Cloud Connector](https://technet.microsoft.com/en-us/library/mt605228.aspx) and [Download the Cloud Connector](https://aka.ms/CloudConnectorInstaller)
+- [Configure the Cloud Connector](https://technet.microsoft.com/library/mt605228.aspx) and [Download the Cloud Connector](https://aka.ms/CloudConnectorInstaller)
 --->

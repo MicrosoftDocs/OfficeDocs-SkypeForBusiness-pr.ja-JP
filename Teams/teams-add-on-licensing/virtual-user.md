@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 無料の仮想ユーザーライセンスについて説明します。
-ms.openlocfilehash: 0b580a396dedfab81ab207fa0b1d6fee5caa705b
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 5b31c9edaf42508e59000257a33b9ddeba4c6fb5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826515"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029358"
 ---
 # <a name="phone-systemvirtual-user-license"></a>電話システム–仮想ユーザーライセンス 
 
@@ -67,7 +67,7 @@ Contoso は、自動応答と通話キューシステムを再設計すること
 リソースアカウントのライセンスを電話システムのライセンスから電話システムに切り替える場合は、仮想ユーザーライセンス: 
 
 1. 新しい電話システムを取得します (仮想ユーザーライセンス)。 
-2. Microsoft 365 管理センターのリンクされた手順に従って、[ユーザーを別のサブスクリプションに移動](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription)します。 
+2. Microsoft 365 管理センターのリンクされた手順に従って、[ユーザーを別のサブスクリプションに移動](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription)します。 
 
 > [!WARNING]
 > 常に、完全な電話システムのライセンスを削除し、電話システム–仮想ユーザーライセンスを同じライセンスアクティビティに割り当てます。 古いライセンスを削除した場合は、アカウントの変更を保存し、新しいライセンスを追加してから、アカウント設定をもう一度保存すると、リソースアカウントが予期したとおりに機能しなくなることがあります。 この問題が発生した場合は、電話システムの新しいリソースアカウントを作成することをお勧めします。仮想ユーザーライセンスは、破損したリソースアカウントを削除することをお勧めします。 

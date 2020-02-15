@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Hosted Exchange ユニファイド メッセージング統合'
+title: 'Lync Server 2013: Hosted Exchange ユニファイドメッセージング統合'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185829
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6fff608d74da3851f810b971f922bafd2e4c1f76
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 358bdeb20629bcaf69536cb6ac90d8a2d7255485
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738997"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043269"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="hosted-exchange-unified-messaging-integration-in-lync-server-2013"></a>Lync Server 2013 の Hosted Exchange ユニファイド メッセージング統合
+# <a name="hosted-exchange-unified-messaging-integration-in-lync-server-2013"></a>Lync Server 2013 でのホスト型 Exchange ユニファイドメッセージングの統合
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41738997"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-20_
+_**トピックの最終更新日:** 2012-09-20_
 
-以前の Lync Server 2013 リリースでは、Exchange ユニファイドメッセージング (UM) の*オンプレミス*展開との統合に加えて、lync server 2013 では、*ホスティング*された exchange UM との統合のサポートが提供されています。 ホストされた Exchange UM を使用すると、Microsoft Exchange Online などのホストされている Exchange サービスプロバイダーに一部またはすべてのユーザーを転送する場合に、Lync Server 2013 でユーザーに音声メッセージを提供できます。
+以前の Lync Server 2013 リリースは2013、Exchange ユニファイドメッセージング (UM) の*社内*展開との統合のために提供されたサポートに加えて、 *hosted* Exchange UM との統合のサポートが導入されました。 Hosted Exchange UM を使用すると、Microsoft Exchange Online などのホストされた Exchange サービスプロバイダーに一部またはすべてを転送する場合に、Lync Server 2013 がユーザーにボイスメッセージングを提供することができます。
 
-Lync Server 2013 エンタープライズ Voip は、Exchange UM インフラストラクチャを使って、通話応答、通話通知、音声アクセス (ボイスメールを含む)、自動応答サービスを提供します。 詳細については、「[統合ユニファイドメッセージングと Lync Server 2013 の機能](lync-server-2013-features-of-integrated-unified-messaging.md)」を参照してください。
+Lync Server 2013 Enterprise Voice は、Exchange UM インフラストラクチャを使用して、通話応答、通話通知、音声アクセス (ボイスメールを含む)、および自動応答サービスを提供します。 詳細については、「[統合ユニファイドメッセージングと Lync Server 2013 の機能](lync-server-2013-features-of-integrated-unified-messaging.md)」を参照してください。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 の Hosted Exchange UM アーキテクチャとルーティング](lync-server-2013-hosted-exchange-um-architecture-and-routing.md)
+  - [Lync Server 2013 での Hosted Exchange UM アーキテクチャとルーティング](lync-server-2013-hosted-exchange-um-architecture-and-routing.md)
 
-  - [Lync Server 2013 のホスト型ボイス メール ポリシー](lync-server-2013-hosted-voice-mail-policies.md)
+  - [Lync Server 2013 のホストボイスメールポリシー](lync-server-2013-hosted-voice-mail-policies.md)
 
-  - [Lync Server 2013 の Hosted Exchange ユーザー管理](lync-server-2013-hosted-exchange-user-management.md)
+  - [Lync Server 2013 での Hosted Exchange ユーザー管理](lync-server-2013-hosted-exchange-user-management.md)
 
-  - [Lync Server 2013 の Hosted Exchange 連絡先オブジェクト管理](lync-server-2013-hosted-exchange-contact-object-management.md)
+  - [Lync Server 2013 での Hosted Exchange の連絡先オブジェクト管理](lync-server-2013-hosted-exchange-contact-object-management.md)
 
-  - [Hosted Exchange UM と Lync Server 2013 の統合のための展開プロセス](lync-server-2013-deployment-process-for-integrating-hosted-exchange-um.md)
+  - [ホストされた Exchange UM と Lync Server 2013 を統合するための展開プロセス](lync-server-2013-deployment-process-for-integrating-hosted-exchange-um.md)
 
 </div>
 

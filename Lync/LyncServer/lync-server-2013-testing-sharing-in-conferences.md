@@ -12,20 +12,20 @@ ms:contentKeyID: 63969660
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 54997f5ec8cd81154c1a456541ec0612187ec747
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0094c0b58281027f24d4cd902a4e0813c7e45f96
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745497"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044819"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="testing-sharing-in-conferences-in-lync-server-2013"></a>Lync Server 2013 での会議の共有をテストする
+# <a name="testing-sharing-in-conferences-in-lync-server-2013"></a>Lync Server 2013 での会議での共有のテスト
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41745497"
 
 <span> </span>
 
-_**最終更新日:** 2014-11-01_
+_**トピックの最終更新日:** 2014-11-01_
 
 
 <table>
@@ -45,8 +45,8 @@ _**最終更新日:** 2014-11-01_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>確認のスケジュール</p></td>
-<td><p>[毎日]</p></td>
+<td><p>検証スケジュール</p></td>
+<td><p>毎日</p></td>
 </tr>
 <tr class="even">
 <td><p>テストツール</p></td>
@@ -54,8 +54,8 @@ _**最終更新日:** 2014-11-01_
 </tr>
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
-<td><p>Lync Server 管理シェルを使用してローカルで実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使って実行する場合は、 <strong>CsDataConference</strong>コマンドレットを実行するためのアクセス許可が与えられている RBAC の役割をユーザーに割り当てる必要があります。 このコマンドレットを使うことができるすべての RBAC ロールの一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合は、 <strong>test-csdataconference</strong>コマンドレットを実行するためのアクセス許可を持つ RBAC の役割がユーザーに割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsDataConference&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +66,7 @@ _**最終更新日:** 2014-11-01_
 
 ## <a name="description"></a>説明
 
-Lync Server 2013 では、データ会議は、whiteboarding や注釈などのコラボレーションアクティビティを使用する会議です。 **CsDataConference**コマンドレットを使用すると、ユーザーのペアがデータ会議に参加できるかどうかを確認できます。
+Lync Server 2013 のデータ会議とは、ホワイトボードや注釈などのコラボレーションアクティビティを使用する会議のことです。 **Test-csdataconference**コマンドレットを使用すると、ユーザーのペアがデータ会議に参加できることを確認できます。
 
 </div>
 
@@ -74,13 +74,13 @@ Lync Server 2013 では、データ会議は、whiteboarding や注釈などの�
 
 ## <a name="running-the-test"></a>テストの実行
 
-例1に示すコマンドは、プール atl-cs-001.litwareinc.com でデータ会議を実行できるかどうかを確認します。 このコマンドは、指定されたプールのテストユーザーのペアを構成していることを前提としています。 このようなテストユーザーが存在しない場合、コマンドは失敗します。
+例 1 に示すコマンドは、atl-cs-001.litwareinc.com というプールでデータ電話会議を実施できるかどうかを確認します。ここでは、指定するプールに対して 1 組のテスト ユーザーが構成済みであることを前提としています。テスト ユーザーが構成されていない場合、コマンドの実行は失敗します。
 
     Test-CsDataConference -TargetFqdn "atl-cs-001.litwareinc.com" 
 
-例2に示すコマンドは、ユーザーのペア (litwareinc\\pilar と litwareinc\\Kenmyer) が Lync Server 2013 にログオンして、データ会議を開催する機能をテストします。 これを行うには、この例の最初のコマンドでは、 **Credential**コマンドレットを使用して、User Pilar Ackerman の名前とパスワードを含む Windows PowerShell コマンドラインインターフェイス Credential オブジェクトを作成します。 (Logon name、litwareinc\\pilar はパラメーターとして指定されているため、Windows PowerShell 資格情報の要求ダイアログボックスでは、管理者は Pilar Ackerman アカウントのパスワードを入力する必要があります)。結果として得られた資格情報オブジェクトは、$cred 1 という名前の変数に格納されます。 2番目のコマンドでも同じことが実行されますが、今回は Ken Myer アカウントの credential オブジェクトを返します。
+例2のコマンドは、ユーザーのペア (litwareinc\\pilar と litwareinc\\Kenmyer) が Lync Server 2013 にログオンし、データ会議を行うことができるかどうかをテストします。 これを行うために、この例の最初のコマンドは、**資格情報**コマンドレットを使用して、User Pilar Ackerman の名前とパスワードを含む Windows PowerShell コマンドラインインターフェイス資格情報オブジェクトを作成します。 (ログオン名 litwareinc\\pilar がパラメーターとして含まれているため、[Windows PowerShell 資格情報の要求] ダイアログボックスでは、管理者のみが Pilar Ackerman アカウントのパスワードを入力する必要があります)。その後、結果として得られる資格情報オブジェクトは $cred 1 という名前の変数に格納されます。 2番目のコマンドは同じことを行いますが、今度は Ken Myer アカウントの credential オブジェクトを返します。
 
-資格情報オブジェクトが手元にある場合、3番目のコマンドは、これら2人のユーザーが Lync Server 2013 にログオンして、データ会議を実行できるかどうかを決定します。 この処理を実行するために、 **CsDataConference**コマンドレットが呼び出され、次のパラメーターが使用されます。 targetfqdn (レジストラープールの FQDN)。SenderSipAddress (最初のテストユーザーの SIP アドレス)SenderCredential (同じユーザーの資格情報が含まれている Windows PowerShell オブジェクト)ReceiverSipAddress (他のテストユーザーの SIP アドレス)ReceiverCredential (他のテストユーザーの資格情報を格納する Windows PowerShell オブジェクト)。
+資格情報オブジェクトが手元にある場合、3番目のコマンドは、これら2人のユーザーが Lync Server 2013 にログオンしてデータ会議を実行できるかどうかを判断します。 このタスクを実行するために、 **test-csdataconference**コマンドレットを次のパラメーターと共に呼び出します。 targetfqdn (レジストラープールの FQDN)。SenderSipAddress (最初のテストユーザーの SIP アドレス)。SenderCredential (この同じユーザーの資格情報を含む Windows PowerShell オブジェクト)。ReceiverSipAddress (他のテストユーザーの SIP アドレス)。と ReceiverCredential (他のテストユーザーの資格情報を格納している Windows PowerShell オブジェクト)。
 
     $credential1 = Get-Credential "litwareinc\pilar" 
     $credential2 = Get-Credential "litwareinc\kenmyer" 
@@ -90,19 +90,19 @@ Lync Server 2013 では、データ会議は、whiteboarding や注釈などの�
 
 <div>
 
-## <a name="determining-success-or-failure"></a>成功または失敗を確認する
+## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
-データ会議が正しく構成されている場合は、次のような結果が返され、Result プロパティは Success とマークされ**ます。**
+データ会議が正しく構成されている場合は、次のような出力が得られ、Result プロパティは Success とマークされ**ます。**
 
 ターゲット Fqdn: atl-cs-001.litwareinc.com
 
 結果: 成功
 
-待ち時間: 00:00:00
+待機時間: 00:00:00
 
 エラーメッセージ:
 
-診断
+分析
 
 指定したユーザーがデータ共有を使用できない場合は、結果**がエラーとして**表示され、エラーと診断のプロパティに追加情報が記録されます。
 
@@ -110,41 +110,41 @@ Lync Server 2013 では、データ会議は、whiteboarding や注釈などの�
 
 結果: エラー
 
-待ち時間: 00:00:00
+待機時間: 00:00:00
 
-エラーメッセージ: 10060、接続されているパーティのため、接続に失敗しました
+エラーメッセージ: 10060。接続しているパーティが原因で接続に失敗しました。
 
-一定の期間が経過した後に正しく応答しなかった場合、または
+一定期間後に正しく応答しなかったか、または
 
-接続されているホストに、接続に失敗しました
+接続されたホストの接続に失敗しました。
 
-2001: 4898 \[: f39e: 5c9a: ad83: 81b3: 9944\]: 5061 を応答できませんでした。
+2001年に\[応答できませんでした: 4898: e8: f39e: 5c9a: ad83:\]81b3: 9944: 5061
 
-内部例外: 接続の試行が失敗したため、接続できませんでした。
+内部例外: 接続の試行が失敗しました。
 
-しばらくしても、接続されているパーティが正しく応答しませんでした
+接続されたパーティは、一定期間の後に正しく応答しませんでした
 
-接続されているホストが原因で、時刻、または接続に失敗しました
+接続されているホストが原因で、接続に失敗しました。
 
-が応答しませんでした
+応答に失敗した
 
-\[2001: 4898: f39e: 5c9a: ad83: 81b3: 9944\]: 5061
+\[2001年: 4898: e8: f39e: 5c9a: ad83: 81b3:\]9944: 5061
 
-診断
+分析
 
 </div>
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a>テストに失敗した可能性がある理由
+## <a name="reasons-why-the-test-might-have-failed"></a>テストが失敗した理由
 
-次に **、テスト-CsDataConference**が失敗する可能性がある一般的な理由を示します。
+**Test-csdataconference**が失敗する可能性のある一般的な原因を次に示します。
 
-  - 指定されたパラメーター値が正しくありません。 使用する場合は、オプションのパラメーターが正しく構成されている必要があります。または、テストが失敗します。 省略可能なパラメーターを指定せずにコマンドを再実行し、それが成功するかどうかを確認します。
+  - 指定されたパラメーター値が正しくありません。 省略可能なパラメーターが使用されている場合、オプションのパラメーターが正しく構成されている必要があります。テストは失敗します。 オプションのパラメーターを指定せずにコマンドを再実行し、それが成功するかどうかを確認します。
 
-  - データ会議を開催する機能は、会議を開催したユーザーに割り当てられている会議ポリシー ( **CsDataConference**コマンドレットの場合は "送信者") によって異なります。 開催者が、会議に共同作業のアクティビティを含めることを許可していない場合 (たとえば、自分の会議ポリシーの EnableDataCollaboration プロパティが False に設定されている場合など)、 **CsDataConference**コマンドレットは失敗します。
+  - データ会議を開催できるかどうかは、会議を開催したユーザー ( **test-csdataconference**コマンドレットの場合は "sender") に割り当てられている会議ポリシーによって決まります。 開催者が会議に共同作業のアクティビティを含めることが許可されていない場合 (たとえば、その会議ポリシーで EnableDataCollaboration プロパティが False に設定されている場合)、 **test-csdataconference**コマンドレットは失敗します。
 
-  - エッジサーバーが正しく構成されていないか、まだ展開されていない場合、このコマンドは失敗します。
+  - エッジサーバーの構成が正しくないか、まだ展開されていない場合、このコマンドは失敗します。
 
 </div>
 

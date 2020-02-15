@@ -12,16 +12,16 @@ ms:contentKeyID: 48185330
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fc306e97c3325ce4cfc11110665bd2f23781cf89
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 72708219dcb6df3b0a0185cb9c59bcbd84c5c19a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742897"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044429"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41742897"
 
 <span> </span>
 
-_**最終更新日:** 2012-06-18_
+_**トピックの最終更新日:** 2012-06-18_
 
-このトピックでは、Lync Server 2013 で構成できるクライアント関連の設定とポリシーの概要について説明します。 Lync Server 2013 には、クライアントを管理および構成するための次のツールが含まれています。
+このトピックでは、Lync Server 2013 で構成できるクライアント関連の設定とポリシーの概要について説明します。 Lync Server 2013 には、クライアントの管理と構成に使用する次のツールが含まれています。
 
-  - **Lync Server 2013 コントロールパネル**   サーバー、ユーザー、クライアント、デバイスを管理および構成するための web ベースのグラフィカルユーザーインターフェイスです。
+  - **Lync Server 2013 コントロールパネル**   サーバー、ユーザー、クライアント、デバイスを管理および構成するための web ベースのグラフィカルユーザーインターフェイス。
 
-  - **Lync Server management Shell**   Windows PowerShell コマンドラインインターフェイスコマンドレットの豊富なセットと、事前に定義された多数のスクリプトを含む管理インターフェイスです。
+  - **Lync Server 管理シェル**   は、Windows PowerShell コマンドラインインターフェイスコマンドレットの豊富なセットと事前に定義された多数のスクリプトを備えた管理インターフェイスを備えています。
 
-  - **Lync 2013 グループポリシー**     Office グループポリシー管理用テンプレートを使用して、クライアントに対して構成できる一連のポリシーです。 Lync 2013 クライアントを展開する前に、特定のクライアントブートストラップポリシーを構成する必要があります。 Lync 2010 のその他のオプションの設定は、引き続き Lync 2013 で受け入れられます。
+  - **Lync 2013 グループポリシー**     Office グループポリシー管理用テンプレートを使用して、クライアントに対して構成できる一連のポリシー。 Lync 2013 クライアントを展開する前に、特定のクライアントブートストラップポリシーを構成する必要があります。 Lync 2010 からのその他のオプション設定は、引き続き Lync 2013 で使用されます。
 
 このセクションでは、Lync Server 2013 でのクライアント関連の設定の変更について説明します。
 

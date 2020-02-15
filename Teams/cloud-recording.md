@@ -16,12 +16,12 @@ f1.keywords:
 description: Microsoft Teams でクラウド音声機能を展開するための実用的なガイダンス。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38981774af168c978371b06d8de6eeedd4b16644
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 5041b35822a04dc98aa6c07d3731ad8c6791af98
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825605"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030721"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams のクラウド会議の記録
 
@@ -112,7 +112,7 @@ PowerShell を使用して、TeamsMeetingPolicy で AllowCloudRecording 設定�
 
 Microsoft stream データが保存されている地域を確認するには、Microsoft Stream でをクリックし**ます。** 右上隅の [ **Microsoft Stream のバージョン情報**] をクリックし、**データが保存**されているをクリックします。  Microsoft Stream にデータが保存されている地域の詳細については、「 [Microsoft stream](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in)に関する FAQ」を参照してください。
 
-Office 365 のサービス間でデータが保存される場所の詳細については、「[データがどこにあるか](https://products.office.com/en-us/where-is-your-data-located?rtc=1)を確認する」を参照してください。
+Office 365 のサービス間でデータが保存される場所の詳細については、「[データがどこにあるか](https://products.office.com/where-is-your-data-located?rtc=1)を確認する」を参照してください。
 
 ### <a name="turn-on-or-turn-off-recording-transcription"></a>レコーディングの議事録を有効または無効にする
 

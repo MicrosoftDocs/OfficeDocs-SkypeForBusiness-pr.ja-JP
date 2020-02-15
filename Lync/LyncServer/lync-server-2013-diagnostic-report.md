@@ -12,16 +12,16 @@ ms:contentKeyID: 48185159
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 14a2fa69e0e2397b970850a91042f0241060f839
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a906e131329df1b59c4ac6067a4696871f0bebfc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762345"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044839"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41762345"
 
 <span> </span>
 
-_**最終更新日:** 2014-02-07_
+_**トピックの最終更新日:** 2014-02-07_
 
-診断レポートは、失敗したセッションの診断とトラブルシューティングに関する情報を提供します。 この情報には、診断 ID と、セッションが失敗したときに報告された診断ヘッダーの両方が含まれます。 診断 ID は、SIP メッセージに添付される一意の識別子 (ms diagnostics ヘッダーの形式) ですが、診断ヘッダーには診断 ID の説明が示されます。 レポートには、レポートコンポーネントによって認識される貴重なトラブルシューティングの詳細情報が含まれている場合もあります。 次に例を示します。
+診断レポートは、エラーが発生したセッションの診断とトラブルシューティングの情報を提供します。 この情報には、診断 ID と、セッションが失敗したときに報告された診断ヘッダーの両方が含まれます。 診断 ID は、SIP メッセージに関連付けられた一意の識別子 (ms diagnostics ヘッダーの形式) ですが、診断ヘッダーは診断 ID に関する説明を提供します。 レポートには、レポートコンポーネントによって知られる重要なトラブルシューティングの詳細が含まれていることもあります。 例:
 
   - エラーを生成した PSTN ゲートウェイによって提供された原因コード。発信通話が PSTN ネットワークで失敗すると、ISDN User Part (ISUP) の原因コードが自動的に生成されます。たとえば、PSTN ゲートウェイは原因コード 34 を送信して、通話を完了するための使用可能な回線またはチャネルが存在しないことを示す場合があります。
 
-  - 接続エラーのピア FQDN、ポート、および Winsock エラー。
+  - 接続エラーのピアの FQDN、ポート、および Winsock エラー。
 
   - DNS 解決エラーで検索されている名前。DNS 解決は、クライアントがネーム サーバーに問い合わせ、指定されたデバイス名に対応する IP アドレスを要求するときにいつでも実行されます。
 
@@ -49,7 +49,7 @@ _**最終更新日:** 2014-02-07_
 
 ## <a name="accessing-the-diagnostic-report"></a>診断レポートへのアクセス
 
-診断レポートにアクセスするには、Lync Server 2013 または [会議の詳細] レポートの[ピアツーピアセッションの詳細レポート](lync-server-2013-peer-to-peer-session-detail-report.md)で診断レポート (詳細) のメトリックをクリックします。
+診断レポートには、 [Lync Server 2013 のピアツーピアセッション詳細レポート](lync-server-2013-peer-to-peer-session-detail-report.md)または会議詳細レポートで [診断レポート (詳細)] 指標をクリックするとアクセスできます。
 
 </div>
 
@@ -99,7 +99,7 @@ _**最終更新日:** 2014-02-07_
 <td><p>失敗した SIP 要求の種類 (INVITE、BYE、SERVICE など)。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>ソース</strong></p></td>
+<td><p><strong>Source</strong></p></td>
 <td><p>いいえ</p></td>
 <td><p>エラーのソース。</p></td>
 </tr>
@@ -116,7 +116,7 @@ _**最終更新日:** 2014-02-07_
 <tr class="odd">
 <td><p><strong>診断 ID</strong></p></td>
 <td><p>いいえ</p></td>
-<td><p>SIP メッセージに (ms-diagnostics ヘッダーの形で) 添付された一意の識別子。多くの場合、この情報はトラブルシューティングに役立ちます。</p></td>
+<td><p>エラーのトラブルシューティングに役立つ情報を得られることが多い、SIP メッセージに添付された一意の識別子です (ms-diagnostics ヘッダーの形式)。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>コンテンツの種類</strong></p></td>
@@ -124,7 +124,7 @@ _**最終更新日:** 2014-02-07_
 <td><p>失敗したメディア コンテンツの種類。たとえば、よく使われるコンテンツの種類は Application/sdp です。セッション記述プロトコル (SDP) は、セッションのアナウンス、セッションの招待、その他のマルチメディア セッション開始形式で使われる標準インターネット プロトコルです。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>アプリケーション</strong></p></td>
+<td><p><strong>Application</strong></p></td>
 <td><p>いいえ</p></td>
 <td><p>エラーに関係するアプリケーション。</p></td>
 </tr>
@@ -140,14 +140,14 @@ _**最終更新日:** 2014-02-07_
 </tr>
 <tr class="even">
 <td><p><strong>診断ヘッダー</strong></p></td>
-<td><p>不可</p></td>
+<td><p>いいえ</p></td>
 <td><p>診断 ID の説明。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-診断エラーの一覧は、[ [Ms 診断ヘッダー] ページ](http://msdn.microsoft.com/en-us/library/gg132446\(v=office.12\).aspx)にあります。
+診断エラーの一覧については、「 [Ms Diagnostics Header」ページ](http://msdn.microsoft.com/library/gg132446\(v=office.12\).aspx)を参照してください。
 
 </div>
 

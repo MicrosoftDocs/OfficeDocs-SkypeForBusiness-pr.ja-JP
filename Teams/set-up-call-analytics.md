@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: Skype for Business および Microsoft Teams の通話品質の問題を特定してトラブルシューティングするために通話分析をセットアップして使用します。
-ms.openlocfilehash: fe46ee580554969d26395b26117649ab8ada2ea0
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 347725e77806f94e44b4c8d160736ceb23265f11
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838057"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029408"
 ---
 # <a name="set-up-call-analytics"></a>通話分析をセットアップする
 
@@ -74,7 +74,7 @@ Teams の管理者ロールの詳細については、「 [Microsoft teams の�
  ### <a name="set-up-permissions-by-assigning-admin-roles"></a>管理者ロールを割り当ててアクセス許可を設定する
 <a name="BKMK_SetUpTier"> </a>
 
-Azure Active Directory に管理者ロールを割り当てる方法については、「 [Azure Active directory での役割の表示と割り当て](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-manage-roles-portal)」を参照してください。
+Azure Active Directory に管理者ロールを割り当てる方法については、「 [Azure Active directory での役割の表示と割り当て](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-manage-roles-portal)」を参照してください。
 
 ## <a name="upload-a-tsv-or-csv-file-to-add-building-site-and-tenant-information"></a>.Tsv または .csv ファイルをアップロードして、建物、サイト、テナントの情報を追加する
 <a name="BKMK_UploadFiles"> </a>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Lync Online からオンプレミスの Lync にユーザーを移動する'
+title: 'Lync Server 2013: Lync Online から Lync オンプレミスへのユーザーの移動'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 62258122
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bea1463660e420edbf296be3d47aaca6d8545feb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5e390bfbd327bf8823b66a180ce17dcb54ad0349
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756701"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043869"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="moving-users-from-lync-online-to-lync-on-premises-in-lync-server-2013"></a>Lync Online のユーザーをオンプレミスの lync Server 2013 に移動する
+# <a name="moving-users-from-lync-online-to-lync-on-premises-in-lync-server-2013"></a>Lync Online から lync Server 2013 の Lync オンプレミスへのユーザーの移動
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41756701"
 
 <span> </span>
 
-_**最終更新日:** 2014-05-08_
+_**トピックの最終更新日:** 2014-05-08_
 
-組織が lync Server をオンプレミスで展開する前に、Lync Online を展開しましたか? 次に、Lync Online の lync 用に最初に有効になっていたユーザーアカウントをオンプレミスの Lync Server 展開に移動しますか? このセクションは、そのために役立ちます。
+Lync Server を社内に展開する前に、組織で Lync Online を展開したことがありますか。 これで、Lync Online で Lync が有効になっていたユーザーアカウントをオンプレミスの Lync Server 展開に移動できるようになりましたか? このセクションでは、その方法について説明します。
 
 <div>
 
 
 > [!NOTE]  
-> このセクションは、Lync Online で初めて Lync を有効にしたユーザーの移動についてのみ説明します。 Lync のオンプレミスに対して初めて有効にしたユーザーアカウントがある場合は、Lync Online に移動しますか? このような場合、オンプレミスに戻すには、<A href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">ハイブリッド Lync Server 2013 展開でのユーザーの管理</A>という手順が簡単です。
+> このセクションでは、最初に Lync Online で Lync が有効になっていたユーザーの移動についてのみ説明します。 最初に Lync オンプレミスに対して有効にしたユーザーアカウントがあり、その後 Lync Online に移動したかどうか。 その場合は、オンプレミスのに戻すことができますが、<A href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">ハイブリッド Lync Server 2013 展開でユーザーを管理</A>するのは簡単です。
 
 
 
 </div>
 
-  - [Lync Online から内部設置型 lync へのユーザーの移行を開始する前の最初の手順2013](lync-server-2013-first-steps-before-you-start-migrating-users-from-lync-online-to-lync-on-premises.md)
+  - [Lync Online から lync Server 2013 の Lync オンプレミスへのユーザーの移行を開始する前の最初の手順](lync-server-2013-first-steps-before-you-start-migrating-users-from-lync-online-to-lync-on-premises.md)
 
-  - [Lync Online ユーザーをオンプレミスの lync Server に移行する2013](lync-server-2013-migrating-lync-online-users-to-lync-on-premises.md)
+  - [Lync Online ユーザーを lync Server 2013 の Lync オンプレミスに移行する](lync-server-2013-migrating-lync-online-users-to-lync-on-premises.md)
 
 </div>
 

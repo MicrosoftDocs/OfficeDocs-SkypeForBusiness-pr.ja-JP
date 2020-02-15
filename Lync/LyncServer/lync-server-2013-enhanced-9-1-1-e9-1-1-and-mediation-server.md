@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Enhanced 9-1-1 (E9-1-1) と仲介サーバー'
+title: 'Lync Server 2013: Enhanced 9-1-1 (E9-1-1) および仲介サーバー'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185448
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac6d6d7c9dd533d26f2cbf5c5116db7af4424ffe
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bd74c7ee030516b12039427a618596972240b901
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735463"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042134"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enhanced-9-1-1-e9-1-1-and-mediation-server-in-lync-server-2013"></a>Lync Server 2013 の Enhanced 9-1-1 (E9-1-1) と仲介サーバー
+# <a name="enhanced-9-1-1-e9-1-1-and-mediation-server-in-lync-server-2013"></a>Lync Server 2013 の拡張 9-1-1 (E9-1-1) および仲介サーバー
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41735463"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-29_
+_**トピックの最終更新日:** 2012-09-29_
 
-仲介サーバーは、拡張された 9-1-1 (E9) サービスプロバイダーと正しく対話できるように拡張された機能を備えています。 仲介サーバーには特別な構成は必要ありません。E9 の操作に必要な SIP 拡張機能は、既定では、仲介サーバーの SIP プロトコル (PSTN ゲートウェイ、IP PBX、またはインターネットテレフォニーサービスプロバイダーの E9 に含まれています) に含まれていますが、これには、サービスが含まれています。会社
+仲介サーバーは、拡張された 9-1-1 (E9-1-1) サービスプロバイダーと正しく対話できるように拡張された機能を備えています。 仲介サーバーに特別な構成は必要ありません。E9-1-1 の相互作用に必要な SIP 拡張機能は、既定では、ゲートウェイピア (PSTN ゲートウェイ、ip-pbx、またはインターネットテレフォニーサービスプロバイダーの SBC (E9-1-1 サービスを含む) との相互作用について、仲介サーバーの SIP プロトコルに含まれています。会社
 
-E9 サービスプロバイダーへの SIP トランクを既存の仲介サーバープールで終了できるかどうかは、E9 の SBC が仲介サーバーのプールを操作できるかどうかによって、スタンドアロンの仲介サーバーが必要になるかどうかによって異なります。 詳細については、「 [Lync Server 2013 の M:N トランク](lync-server-2013-m-n-trunk.md)」を参照してください。
+E9-1-1 サービスプロバイダーへの SIP トランクを既存の仲介サーバープールで終了することができるかどうか、またはスタンドアロンの仲介サーバーが必要かどうかは、E9-1-1 SBC が仲介サーバーのプールと対話できるかどうかによって決まります。 詳細については、「 [M:N トランク In Lync Server 2013](lync-server-2013-m-n-trunk.md)」を参照してください。
 
 </div>
 

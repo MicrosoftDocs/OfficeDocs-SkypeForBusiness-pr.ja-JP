@@ -1,5 +1,5 @@
 ---
-title: コンピューター、サイト、グローバルな集中化されたログサービスの構成を管理する
+title: コンピューター、サイト、およびグローバルな集中ログサービスの構成を管理する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733738
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8f714c82fdc4ade0fc70b0a977e32ef46b26914d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b405cef9efd63956b6d676d751027318897f5e98
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729337"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043119"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-computer-site-and-global-centralized-logging-service-configuration-in-lync-server-2013"></a>Lync Server 2013 でのコンピューター、サイト、グローバルな集中ログサービスの構成の管理
+# <a name="managing-computer-site-and-global-centralized-logging-service-configuration-in-lync-server-2013"></a>Lync Server 2013 でのコンピューター、サイト、およびグローバルな集中ログサービスの構成の管理
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41729337"
 
 <span> </span>
 
-_**最終更新日:** 2014-02-04_
+_**トピックの最終更新日:** 2014-02-04_
 
-一元ログサービスは、1台のコンピューター、コンピューターのプール、サイトのスコープ (つまり、展開のコンピューターとプールのコレクションを含むサイトの Redmond などの定義済みサイト)、またはグローバルスコープで実行することができます (これは、[展開に含まれるすべてのコンピューターとプール] を選びます。
+集中ログサービスは、1台のコンピューター、コンピューターのプール、サイトスコープ (展開内のコンピューターとプールのコレクションが含まれているサイト Redmond などの定義済みサイト)、またはグローバルスコープ (場合があります) を含むスコープで実行できます。、展開内のすべてのコンピューターとプール)。
 
-Lync Server 管理シェルを使用して一元的なログサービスのスコープを構成するには、CsAdministrator または CsServerAdministrator の役割ベースのアクセス制御 (RBAC) セキュリティグループのメンバーであるか、またはこれら2つのグループのどちらかです。 このコマンドレットが割り当てられているすべての RBAC ロールの一覧を返すには (自分自身で作成したカスタム RBAC ロールを含む)、Lync Server 管理シェルまたは Windows PowerShell プロンプトから次のコマンドを実行します。
+Lync Server 管理シェルを使用して集中ログサービススコープを構成するには、CsAdministrator または CsServerAdministrator の役割ベースのアクセス制御 (RBAC) セキュリティグループのメンバーであるか、または、を含むカスタムの RBAC の役割を持っている必要があります。これら2つのグループのどちらか。 このコマンドレットが割り当てられているすべての RBAC の役割 (自分で作成したカスタムの RBAC の役割を含む) の一覧を返すには、Lync Server 管理シェルまたは Windows PowerShell プロンプトから次のコマンドを実行します。
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "<Lync Server 2013 cmdlet>"}
 
-次に例を示します。
+例:
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
@@ -51,31 +51,31 @@ Lync Server 管理シェルを使用して一元的なログサービスのス�
 
 
 > [!NOTE]
-> Windows PowerShell には、CLSController を使って利用できないその他のオプションとその他の構成オプションが用意されています。 CLSController は、コマンドを実行するための簡単で簡潔な方法を提供しますが、CLSController で利用できるコマンドのセットに制限されています。 Windows PowerShell は、CLSController のコマンドプロセッサで利用できるコマンドだけに限らず、幅広いコマンドと豊富なオプションを提供します。 たとえば、CLSController では、コンピューターとプールのスコープオプションが提供されます。 Windows PowerShell では、ほとんどのコマンドでコンピューターまたはプールを示すことができます。また、新しいシナリオを定義する場合は、サイトまたはグローバルスコープを定義できます。 Windows PowerShell のこの強力な機能により、サイトまたはグローバルスコープを定義できますが、実際のログはコンピューターまたはプールに制限されます。<BR>Windows PowerShell または CLSController で実行できるコマンドラインコマンドには、基本的な違いがあります。 Windows PowerShell には、シナリオを構成して定義するための豊富な方法が用意されています。また、トラブルシューティングシナリオには、わかりやすい方法でこれらのシナリオを再利用することもできます。 CLSController には、コマンドを発行して結果を取得するための高速で効率的な方法が用意されていますが、CLSController 用のコマンドセットは、コマンドラインから利用できる有限コマンドによって制限されます。 Windows PowerShell コマンドレットとは異なり、CLSController では、新しいシナリオを定義することはできません。サイトまたはグローバルレベルでスコープを管理することも、動的に構成できない有限コマンドセットに関するその他多くの制限事項もあります。 CLSController は、高速実行の手段を提供しますが、Windows PowerShell は、CLSController で可能な範囲を超えて一元的なログサービス機能を拡張するための手段を提供します。
+> Windows PowerShell には、CLSController を使用して利用できないオプションと追加の構成オプションが用意されています。 CLSController は、コマンドをすばやく、簡単に実行するための方法を提供しますが、CLSController で使用できるコマンドのセットに制限されています。 Windows PowerShell は、CLSController のコマンドプロセッサで使用可能なコマンドだけに制限されていません。また、幅広いコマンドと豊富なオプションが用意されています。 たとえば、CLSController では、– computers および–プールのスコープオプションが提供されます。 Windows PowerShell を使用すると、ほとんどのコマンドでコンピューターやプールを指定できます。また、新しいシナリオを定義するときに (CLSController にはユーザーが変更できないシナリオの数が限られています)、サイトまたはグローバルスコープを定義できます。 Windows PowerShell のこの強力な機能により、シナリオをサイトまたはグローバルスコープで定義できますが、実際のログ出力はコンピューターまたはプールに制限されます。<BR>Windows PowerShell または CLSController で実行できるコマンドラインコマンドには、基本的な違いがあります。 Windows PowerShell には、シナリオを構成して定義するための豊富な方法が用意されています。また、これらのシナリオをトラブルシューティングのシナリオに合わせてわかりやすく再利用できます。 CLSController では、コマンドを発行して結果を取得する高速で効率的な方法が提供されていますが、CLSController のコマンドセットは、コマンドラインから使用可能な有限コマンドによって制限されます。 Windows PowerShell コマンドレットとは異なり、CLSController では新しいシナリオを定義したり、サイトまたはグローバルレベルでスコープを管理したり、動的に構成することができない制限されたコマンドセットに関するその他の多くの制限を設けたりすることはできません。 CLSController は高速実行の手段を提供しますが、Windows PowerShell では、集中化されたログサービス機能を、CLSController で可能な範囲を超えて拡張する手段が提供されています。
 
 
 
 </div>
 
--Computers パラメーターを使用して [Search-CsClsLogging](https://technet.microsoft.com/en-us/library/JJ619189(v=OCS.15))、[Show-CsClsLogging](https://technet.microsoft.com/en-us/library/JJ619173(v=OCS.15))、[Start-CsClsLogging](https://technet.microsoft.com/en-us/library/JJ619190(v=OCS.15))、[Stop-CsClsLogging](https://technet.microsoft.com/en-us/library/JJ619180(v=OCS.15))、[Sync-CsClsLogging](https://technet.microsoft.com/en-us/library/JJ619169(v=OCS.15))、[Update-CsClsLogging](https://technet.microsoft.com/en-us/library/JJ619170(v=OCS.15)) の各コマンドを実行する場合に、単一のコンピューターのスコープを定義できます。-Computers パラメーターには、対象のコンピューターの完全修飾ドメイン名 (FQDN) のコンマ区切り一覧を指定できます。
+1台のコンピュータースコープは、検索の実行中に定義できます。このスコープは、-Computers パラメーターを使用して、[検索-CsClsLogging](https://technet.microsoft.com/library/JJ619189(v=OCS.15))、 [Show-](https://technet.microsoft.com/library/JJ619173(v=OCS.15))csclslogging、 [Start-CsClsLogging](https://technet.microsoft.com/library/JJ619190(v=OCS.15))、 [Stop-csclslogging](https://technet.microsoft.com/library/JJ619180(v=OCS.15))、 [Sync-csclslogging](https://technet.microsoft.com/library/JJ619169(v=OCS.15)) 、および[Update-](https://technet.microsoft.com/library/JJ619170(v=OCS.15)) csclslogging コマンドの実行中に定義できます。 – Computers パラメーターには、ターゲットコンピューターの完全修飾ドメイン名 (Fqdn) のコンマ区切りリストを指定します。
 
 <div>
 
 
 > [!TIP]
-> -Pools およびログ記録コマンドを実行するプールのコンマ区切り一覧を定義することもできます。
+> また、ログコマンドを実行するプールとコンマで区切られた一覧を定義することもできます。
 
 
 
 </div>
 
-サイトとグローバルスコープ**は、****新しい****集中化さ**れたログサービスコマンドレットで定義されます。 以下の例は、サイト スコープとグローバル スコープを設定する方法を示しています。
+サイトとグローバルスコープは、**新しい-**、 **Set-** および**Remove-** 集中ログサービスのコマンドレットで定義されています。 次の例は、サイトとグローバルスコープを設定する方法を示しています。
 
 <div>
 
 
 > [!IMPORTANT]
-> 表示されるコマンドには、他のセクションで説明するパラメーターと概念が含まれている場合があります。 この例のコマンドは、スコープを定義する<STRONG>– Identity</STRONG>パラメーターの使い方を示すことを目的としており、その他のパラメーターが完全に含まれており、スコープを指定するために使用されます。 <STRONG>Set-csclsconfiguration</STRONG>コマンドレットの詳細については、「操作のドキュメントでの<A href="https://technet.microsoft.com/en-us/library/JJ619182(v=OCS.15)">Set-csclsconfiguration</A> 」をご覧ください。
+> 表示されているコマンドには、他のセクションで説明しているパラメーターと概念が含まれている場合があります。 この例では、 <STRONG>-Identity</STRONG>パラメーターを使用してスコープを定義することを示し、その他のパラメーターは完全に、そのスコープを指定することを目的としています。 <STRONG>設定-csclsconfiguration</STRONG>コマンドレットの詳細については、「操作」のドキュメントの「 <A href="https://technet.microsoft.com/library/JJ619182(v=OCS.15)">Set-csclsconfiguration</A> 」を参照してください。
 
 
 
@@ -83,33 +83,33 @@ Lync Server 管理シェルを使用して一元的なログサービスのス�
 
 <div>
 
-## <a name="to-retrieve-the-current-centralized-logging-service-configuration"></a>現在の集中化ログサービス構成を取得するには
+## <a name="to-retrieve-the-current-centralized-logging-service-configuration"></a>現在の集中ログサービスの構成を取得するには
 
-1.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+1.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
-2.  コマンド ライン プロンプトで次のように入力します。
+2.  コマンドラインプロンプトで次のように入力します。
     
         Get-CsClsConfiguration
 
-**New-CsClsConfiguration** コマンドレットと **Set-CsClsConfiguration** コマンドレットを使用して、新しい構成を作成するか、既存の構成を更新します。
+新しい構成を作成したり、既存の構成を更新したりするには、**新しい-csclsconfiguration**および**Set-csclsconfiguration**コマンドレットを使用します。
 
-**Get-CsClsConfiguration** を実行すると、次のスクリーンショットに示すような情報が表示されます。現在、この展開には既定のグローバル構成がありますが、サイト構成は定義されていません。
+**取得-CsClsConfiguration**を実行すると、次のスクリーンショットに示すような情報が表示されます。現在、展開には既定のグローバル構成がありますが、サイト構成は定義されていません。
 
-![Get-CsClsConfiguration からのサンプル出力](images/JJ688029.23f98ddc-fc48-499a-b6c5-752611f2a0b0(OCS.15).jpg "Get-CsClsConfiguration からのサンプル出力")
+![Get-CsClsConfiguration からの出力例。](images/JJ688029.23f98ddc-fc48-499a-b6c5-752611f2a0b0(OCS.15).jpg "Get-CsClsConfiguration からの出力例。")
 
 </div>
 
 <div>
 
-## <a name="to-retrieve-the-current-centralized-logging-service-configuration-from-the-computer-local-store"></a>コンピューターのローカルストアから現在の集中化されたログサービス構成を取得するには
+## <a name="to-retrieve-the-current-centralized-logging-service-configuration-from-the-computer-local-store"></a>コンピューターのローカルストアから現在の集中ログサービスの構成を取得するには
 
-1.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+1.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
-2.  コマンド ライン プロンプトで次のように入力します。
+2.  コマンドラインプロンプトで次のように入力します。
     
         Get-CsClsConfiguration -LocalStore
 
-最初の例の " **Get-CsClsConfiguration**でパラメーターが指定されていない" という最初の例を使用すると、コマンドはデータの中央管理ストアを参照します。 Parameter – LocalStore を指定した場合、コマンドは中央管理ストアではなくコンピューターの LocalStore を参照します。
+**Get-CsClsConfiguration**でパラメーターが指定されていない最初の例を使用すると、コマンドはデータの中央管理ストアを参照します。 パラメーター– LocalStore を指定すると、コマンドは中央管理ストアの代わりにコンピューターの LocalStore を参照します。
 
 </div>
 
@@ -117,49 +117,49 @@ Lync Server 管理シェルを使用して一元的なログサービスのス�
 
 ## <a name="to-retrieve-a-listing-of-scenarios-currently-defined"></a>現在定義されているシナリオの一覧を取得するには
 
-1.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+1.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
-2.  コマンド ライン プロンプトで次のように入力します。
+2.  コマンドラインプロンプトで次のように入力します。
     
         Get-CsClsConfiguration -Identity <scope and name> | Select-Object -ExpandProperty Scenarios
     
-    たとえば、グローバル スコープで定義されているシナリオを取得するには、次のように入力します。
+    たとえば、グローバルスコープで定義されているシナリオを取得するには、次のようにします。
     
         Get-CsClsConfiguration -Identity "global" | Select-Object -ExpandProperty Scenarios
 
-**Get-CsClsConfiguration** コマンドレットを使用すると、特定のスコープの構成に含まれるシナリオが常に表示されます。 ほとんどの場合、シナリオがすべて表示されるのではなく、一部が切り捨てられます。 ここで使用するコマンドは、すべてのシナリオおよび使用されているプロバイダー、設定、およびフラグに関する一部の情報を一覧表示します。
+コマンドレットを**取得**すると、指定したスコープの構成の一部であるシナリオが常に表示されます。 ほとんどの場合、すべてのシナリオは表示されず、切り捨てられます。 ここで使用しているコマンドは、すべてのシナリオと、プロバイダー、設定、およびフラグを使用することに関する情報の一部を示しています。
 
 </div>
 
 <div>
 
-## <a name="to-update-a-global-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a>Windows PowerShell を使用して一元的なログサービスのグローバルスコープを更新するには
+## <a name="to-update-a-global-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a>Windows PowerShell を使用して集中ログサービスのグローバルスコープを更新するには
 
-1.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+1.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
-2.  コマンド ライン プロンプトで次のように入力します。
+2.  コマンドラインプロンプトで次のように入力します。
     
         Set-CsClsConfiguration -Identity <scope> -EtlFileRolloverSizeMB <size for logging file in megabytes>
     
-    次に例を示します。
+    例:
     
         Set-CsClsConfiguration -Identity "global" -EtlFileRolloverSizeMB 40
 
-このコマンドは、トレース ファイルのロールオーバーのサイズを 40 MB に設定するよう、展開内の各コンピューターおよびプールの CLSAgent に指示します。すべてのサイトのコンピューターとプールがこのコマンドの対象となり、コンピューターとプールの構成済みのトレース ログのロールオーバーの値が 40 MB に設定されます。
+このコマンドは、展開内の各コンピューターおよびプールの CLSAgent に対して、トレースファイルのロールオーバー値のサイズを 40 mb に設定するように指示します。 すべてのサイトのコンピューターとプールはコマンドの影響を受け、構成済みのトレースログのロールオーバー値は40メガバイトに設定されます。
 
 </div>
 
 <div>
 
-## <a name="to-update-a-site-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a>Windows PowerShell を使用して一元的なログサービスのサイト範囲を更新するには
+## <a name="to-update-a-site-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a>Windows PowerShell を使用して集中ログサービスのサイトスコープを更新するには
 
-1.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+1.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
-2.  コマンド ライン プロンプトで次のように入力します。
+2.  コマンドラインプロンプトで次のように入力します。
     
         Set-CsClsConfiguration -Identity <scope/site name> -EtlFileRolloverSizeMB <size for logging file in megabytes> -EtlFileFolder <default location %TEMP%\Tracing>
     
-    次に例を示します。
+    例:
     
         Set-CsClsConfiguration -Identity "site/Redmond" -EtlFileRolloverSizeMB 40 -EtlFileFolder "C:\LogFiles\Tracing" 
     
@@ -167,22 +167,22 @@ Lync Server 管理シェルを使用して一元的なログサービスのス�
     
 
     > [!NOTE]
-    > この例に示すように、ログ ファイルの既定の場所は %TEMP%\Tracing です。ただし、これは実際にはファイルを書き込む CLSAgent であり、CSLAgent はネットワーク サービスとして実行されるため、%TEMP% 変数は %WINDIR%\ServiceProfiles\NetworkService\AppData\Local に展開されます。
+    > 例に示されているように、ログファイルの既定の場所は%TEMP%\Tracing. です。 ただし、実際には、ファイルを書き込み中で、CSLAgent はネットワークサービスとして実行されるので、このような場合、%Windir%\serviceprofiles\networkservice\appdata\local には% TEMP% 変数が展開されます。
 
     
     </div>
 
-このコマンドは、トレース ファイルのロールオーバーのサイズを 40 MB に設定するよう、Redmond サイト内の各コンピューターおよびプールの CLSAgent に指示します。他のサイトのコンピューターとプールはこのコマンドの対象ではなく、現在構成されているトレース ログのロールオーバーの値 (既定値の 20 MB またはログ記録セッションの開始時に定義された値) が引き続き使用されます。
+このコマンドは、サイト Redmond の各コンピューターおよびプールの CLSAgent に対して、トレースファイルのロールオーバー値のサイズを 40 mb に設定します。 他のサイト内のコンピューターとプールはコマンドの影響を受けず、現在構成されているトレースログのロールオーバー値 (既定値 (20 mb) またはログセッションの開始時) を引き続き使用します。
 
 </div>
 
 <div>
 
-## <a name="to-create-a-new-centralized-logging-service-configuration"></a>新しい一元ログサービス構成を作成するには
+## <a name="to-create-a-new-centralized-logging-service-configuration"></a>新しい集中ログサービスの構成を作成するには
 
-1.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+1.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
-2.  コマンド ライン プロンプトで次のように入力します。
+2.  コマンドラインプロンプトで次のように入力します。
     
         New-CsClsConfiguration -Identity <scope and name> [CsClsConfiguration options for this site]
     
@@ -190,30 +190,30 @@ Lync Server 管理シェルを使用して一元的なログサービスのス�
     
 
     > [!NOTE]
-    > New-CsClsConfiguration を使用すると、オプションの多数の構成設定にアクセスできます。 構成オプションの詳細については、「 <A href="https://technet.microsoft.com/en-us/library/JJ619179(v=OCS.15)">CsClsConfiguration</A> 」および「 <A href="lync-server-2013-understanding-centralized-logging-service-configuration-settings.md">Lync Server 2013 での一元ログサービスの構成設定につい</A>て」を参照してください。
+    > 新しい-CsClsConfiguration を使用すると、多数のオプションの構成設定にアクセスできます。 構成オプションの詳細については、「<A href="https://technet.microsoft.com/library/JJ619179(v=OCS.15)">取得-CsClsConfiguration</A> 」および「 <A href="lync-server-2013-understanding-centralized-logging-service-configuration-settings.md">Lync Server 2013 での集中ログサービスの構成設定に</A>ついて」を参照してください。
 
     
     </div>
     
-    たとえば、キャッシュ ファイル用のネットワーク フォルダー、ログ ファイルのロールオーバー時間、およびログ ファイルのロールオーバー サイズを定義する新しい構成を作成するには、次のように入力します。
+    たとえば、キャッシュファイル用のネットワークフォルダー、ログファイルのロールオーバー期間、およびログファイルのロールオーバーサイズを定義する新しい構成を作成するには、次のように入力します。
     
         New-CsClsConfiguration -Identity "site:Redmond" -CacheFileNetworkFolder "\\fs01.contoso.net\filestore\logfiles" -EtlFileRolloverMinutes 120 -EtlFileRolloverSizeMB 40
 
-新しい構成の作成を慎重に計画し、一元管理サービスの新しいプロパティを定義する方法を検討してください。 変更は慎重に行い、問題のシナリオのログを適切に記録する機能に及ぼす影響について理解しておいてください。 ログの管理機能を強化する、つまり発生した問題を解決するためのサイズおよびロールオーバー時間を定義できるように構成を変更する必要があります。
+新しい構成の作成を慎重に計画し、集中ログサービスの新しいプロパティを定義する方法を検討する必要があります。 変更を行って、問題のシナリオを適切にログに記録する機能への影響を理解しておく必要があります。 ログの管理能力を向上させるように構成を変更する必要があります。これにより、問題が発生したときに問題を解決するためのサイズとロールオーバー期間が向上します。
 
 </div>
 
 <div>
 
-## <a name="to-remove-an-existing-centralized-logging-service-configuration"></a>既存の一元ログサービス構成を削除するには
+## <a name="to-remove-an-existing-centralized-logging-service-configuration"></a>既存の集中ログサービスの構成を削除するには
 
-1.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+1.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
-2.  コマンド ライン プロンプトで次のように入力します。
+2.  コマンドラインプロンプトで次のように入力します。
     
         Remove-CsClsConfiguration -Identity <scope and name>
     
-    たとえば、ログファイルのロールオーバー時間を増やすために作成した一元ログサービスの構成を削除するには、ロールオーバーログファイルのサイズを大きくして、次のようにログファイルキャッシュの場所をネットワーク共有に設定します。
+    たとえば、ログファイルのロールオーバー時間を長くするために作成した集中ログサービスの構成を削除するには、次のように、ロールオーバーログファイルのサイズを大きくして、ログファイルのキャッシュの場所をネットワーク共有に設定します。
     
         Remove-CsClsConfiguration -Identity "site:Redmond"
     
@@ -221,12 +221,12 @@ Lync Server 管理シェルを使用して一元的なログサービスのス�
     
 
     > [!NOTE]
-    > これは、「新しい一元ログサービス構成を作成する」の手順で作成した新しい構成です。
+    > これは、「新しい集中ログサービスの構成を作成するには」の手順で作成した新しい構成です。
 
     
     </div>
 
-サイト レベルの構成の削除を選択すると、そのサイトではグローバル設定が使用されます。
+サイトレベルの構成の削除を選択すると、サイトではグローバル設定が使用されます。
 
 </div>
 
@@ -235,14 +235,14 @@ Lync Server 管理シェルを使用して一元的なログサービスのス�
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 の一元管理されたログサービスの概要](lync-server-2013-overview-of-the-centralized-logging-service.md)  
+[Lync Server 2013 の集中ログサービスの概要](lync-server-2013-overview-of-the-centralized-logging-service.md)  
 
 
-[Lync Server 2013 で中央集中ログサービスの構成設定を管理する](lync-server-2013-managing-the-centralized-logging-service-configuration-settings.md)  
-[Set-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619182(v=OCS.15))  
-[Get-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619179(v=OCS.15))  
-[New-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619177(v=OCS.15))  
-[CsClsConfiguration の削除](https://technet.microsoft.com/en-us/library/JJ619191(v=OCS.15))  
+[Lync Server 2013 での集中ログサービスの構成設定の管理](lync-server-2013-managing-the-centralized-logging-service-configuration-settings.md)  
+[設定-CsClsConfiguration](https://technet.microsoft.com/library/JJ619182(v=OCS.15))  
+[取得-CsClsConfiguration](https://technet.microsoft.com/library/JJ619179(v=OCS.15))  
+[新しい-CsClsConfiguration](https://technet.microsoft.com/library/JJ619177(v=OCS.15))  
+[削除-CsClsConfiguration](https://technet.microsoft.com/library/JJ619191(v=OCS.15))  
   
 
 </div>

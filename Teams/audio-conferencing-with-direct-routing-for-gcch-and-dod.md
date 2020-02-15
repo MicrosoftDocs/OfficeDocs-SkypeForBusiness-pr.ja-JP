@@ -19,12 +19,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: GCCH および DoD 環境で直接ルーティングを使用して電話会議を使用する方法について説明します。
-ms.openlocfilehash: 8304d18777739b4667c0f47b9dee3e9f8f6dcc38
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: a8a9b5a46f1efd88de38fa65e857d3eebbbd6e3d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825655"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047188"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>GCC High および DoD のダイレクト ルーティングを使用する電話会議
 
@@ -92,7 +92,7 @@ Get-csonlinedialinconferencingbridge を使用して、電話会議ブリッジ�
 
 ### <a name="step-4-assign-audio-conferencing-with-direct-routing-for-gcc-high-or-dod-licenses-to-your-users"></a>手順 4: ユーザーに GCC 高または DoD ライセンスのダイレクトルーティングを使用して電話会議を割り当てる
 
-スマートなスマート電話会議をユーザーに対して、GCC 高または DoD ライセンスのダイレクトルーティングで割り当てるには、「一般[法人向け Office 365 でライセンスをユーザーに割り当てる](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users)」を参照してください。
+スマートなスマート電話会議をユーザーに対して、GCC 高または DoD ライセンスのダイレクトルーティングで割り当てるには、「一般[法人向け Office 365 でライセンスをユーザーに割り当てる](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users)」を参照してください。
 
 ### <a name="step-5-optional-see-a-list-of-audio-conferencing-numbers-in-teams"></a>手順 5: (オプション) Teams で電話会議番号のリストを表示する
 

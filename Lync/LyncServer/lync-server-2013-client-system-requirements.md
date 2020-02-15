@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: クライアントシステム要件'
+title: 'Lync Server 2013: クライアントのシステム要件'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183900
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6ac52ae9856d49047040bb839ad650cbe591ec95
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c0415f2d7380b86facb727541e73ad57d5b5d2ca
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742837"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044419"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41742837"
 
 <span> </span>
 
-_**最終更新日:** 2012-11-06_
+_**トピックの最終更新日:** 2012-11-06_
 
-このセクションでは、Lync 2013 クライアントのハードウェアとソフトウェアの要件について説明します。
+このセクションでは、Lync 2013 クライアントのハードウェアおよびソフトウェア要件について説明します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 での Lync クライアントのハードウェアのサポート](lync-server-2013-lync-client-hardware-support.md)
+  - [Lync Server 2013 での lync クライアントハードウェアのサポート](lync-server-2013-lync-client-hardware-support.md)
 
   - [Lync Server 2013 の lync クライアントのビデオ要件](lync-server-2013-lync-client-video-requirements.md)
 
   - [Lync Server 2013 での lync クライアントソフトウェアのサポート](lync-server-2013-lync-client-software-support.md)
 
-  - [Lync Web App が Lync Server 2013 用にサポートされているプラットフォーム](lync-server-2013-lync-web-app-supported-platforms.md)
+  - [Lync Server 2013 の lync Web App がサポートされているプラットフォーム](lync-server-2013-lync-web-app-supported-platforms.md)
 
   - [Lync Server 2013 の lync Windows ストアアプリの要件](lync-server-2013-lync-windows-store-app-requirements.md)
 

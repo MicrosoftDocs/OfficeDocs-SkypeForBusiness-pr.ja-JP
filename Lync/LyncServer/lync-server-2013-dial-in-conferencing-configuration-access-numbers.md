@@ -12,16 +12,16 @@ ms:contentKeyID: 49733858
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e30bc351494185203808a9e8b0c6d7138ebf00d7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 997d343d535c54a493125978a73c0a53d0a4ca44
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762315"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044669"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41762315"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-18_
+_**トピックの最終更新日:** 2012-09-18_
 
-このセクションのトピックでは、lync server 2013 コントロールパネルを使用して、Lync Server 2013 環境を使用するためにダイヤルイン会議を構成する方法について説明します。
+このセクションのトピックでは、lync server 2013 環境を使用するために、Lync Server 2013 コントロールパネルを使用してダイヤルイン会議を構成する方法について説明します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
   - [Lync Server 2013 で会議のダイヤルイン会議を有効または無効にする](lync-server-2013-enable-or-disable-dial-in-conferencing-for-meetings.md)
 
-  - [Lync Server 2013 でのダイヤルイン会議アクセス番号](lync-server-2013-dial-in-conferencing-access-numbers.md)
+  - [Lync Server 2013 のダイヤルイン会議アクセス番号](lync-server-2013-dial-in-conferencing-access-numbers.md)
 
   - [Lync Server 2013 でダイヤルイン会議の暗証番号 (PIN) ルールを構成する](lync-server-2013-configure-dial-in-conferencing-personal-identification-number-pin-rules.md)
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: トランク構成コマンドレット'
+title: 'Lync Server 2013: トランキング構成のコマンドレット'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183703
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 26b3bb328b3567cb9a8826412838d7aad0ada386
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 34a885d465fec2825c222d578490c4a74e0117de
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744977"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042929"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="trunking-configuration-cmdlets-in-lync-server-2013"></a>Lync Server 2013 のトランク構成コマンドレット
+# <a name="trunking-configuration-cmdlets-in-lync-server-2013"></a>Lync Server 2013 でのトランク構成のコマンドレット
 
 </div>
 
@@ -35,69 +35,69 @@ ms.locfileid: "41744977"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-08_
+_**トピックの最終更新日:** 2012-10-08_
 
-トランク構成コマンドレットは、公衆交換電話網 (PSTN) ゲートウェイ、IP パブリックブランチエクスチェンジ (PBX)、またはサービスプロバイダのセッションボーダーコントローラー (SBC) などのトランクピアエンティティの設定を定義するために使用されます。 これらの設定では、このトランクでメディア バイパスが有効かどうか、特定の条件下でリアルタイム転送制御プロトコル (RTCP) パケットを送信するかどうか、セキュア リアルタイム プロトコル (SRTP) 暗号化を要求するかどうかなどを構成します。
+トランク構成のコマンドレットは、公衆交換電話網 (PSTN) ゲートウェイ、IP-PBX (Public Branch Exchange)、サービス プロバイダーのセッション境界コントローラー (SBC) などのトランキング ピア エンティティの設定の定義に使用します。これらの設定では、このトランクでメディア バイパスが有効か、特定の条件下で Real-time Transport Control Protocol (RTCP) パケットを送信するか、セキュア リアルタイム プロトコル (SRTP) 暗号化を要求するかなどを構成します。
 
 <div>
 
-## <a name="trunking-configuration-cmdlets"></a>トランク構成コマンドレット
+## <a name="trunking-configuration-cmdlets"></a>トランク構成のコマンドレット
 
-トランク構成には、次のコマンドレットを使用します。
+トランク構成には次のコマンドレットを使用します。
 
 **トランク構成**
 
-  - [Test-CsInterTrunkRouting](https://technet.microsoft.com/en-us/library/JJ204741(v=OCS.15))
+  - [Test-csintertrunkrouting](https://technet.microsoft.com/library/JJ204741(v=OCS.15))
 
 <!-- end list -->
 
-  - [Get-CsOutboundCallingNumberTranslationRule](https://technet.microsoft.com/en-us/library/JJ204962(v=OCS.15))
+  - [New-csoutboundcallingnumbertranslationrule](https://technet.microsoft.com/library/JJ204962(v=OCS.15))
 
-  - [新規-CsOutboundCallingNumberTranslationRule](https://technet.microsoft.com/en-us/library/JJ205097(v=OCS.15))
+  - [New-csoutboundcallingnumbertranslationrule](https://technet.microsoft.com/library/JJ205097(v=OCS.15))
 
-  - [Remove-CsOutboundCallingNumberTranslationRule](https://technet.microsoft.com/en-us/library/JJ204836(v=OCS.15))
+  - [New-csoutboundcallingnumbertranslationrule](https://technet.microsoft.com/library/JJ204836(v=OCS.15))
 
-  - [Set-CsOutboundCallingNumberTranslationRule](https://technet.microsoft.com/en-us/library/JJ205400(v=OCS.15))
-
-<!-- end list -->
-
-  - <span></span>  
-    [Get-CsOutboundTranslationRule](https://technet.microsoft.com/en-us/library/Gg398104(v=OCS.15))
-
-  - <span></span>  
-    [New-CsOutboundTranslationRule](https://technet.microsoft.com/en-us/library/Gg412803(v=OCS.15))
-
-  - <span></span>  
-    [Remove-CsOutboundTranslationRule](https://technet.microsoft.com/en-us/library/Gg398556(v=OCS.15))
-
-  - <span></span>  
-    [Set-CsOutboundTranslationRule](https://technet.microsoft.com/en-us/library/Gg413073(v=OCS.15))
-
-<!-- end list -->
-
-  - [Get-CsTrunk](https://technet.microsoft.com/en-us/library/JJ205244(v=OCS.15))
+  - [New-csoutboundcallingnumbertranslationrule](https://technet.microsoft.com/library/JJ205400(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-Set-cstrunkconfiguration](https://technet.microsoft.com/en-us/library/Gg398224(v=OCS.15))
+    [New-csoutboundtranslationrule](https://technet.microsoft.com/library/Gg398104(v=OCS.15))
 
   - <span></span>  
-    [新規-Set-cstrunkconfiguration](https://technet.microsoft.com/en-us/library/Gg413021(v=OCS.15))
+    [New-csoutboundtranslationrule](https://technet.microsoft.com/library/Gg412803(v=OCS.15))
 
   - <span></span>  
-    [Remove-Set-cstrunkconfiguration](https://technet.microsoft.com/en-us/library/Gg425943(v=OCS.15))
+    [New-csoutboundtranslationrule](https://technet.microsoft.com/library/Gg398556(v=OCS.15))
 
   - <span></span>  
-    [Set-CsTrunkConfiguration](https://technet.microsoft.com/en-us/library/Gg398238(v=OCS.15))
+    [New-csoutboundtranslationrule](https://technet.microsoft.com/library/Gg413073(v=OCS.15))
 
-  - <span></span>  
-    [テスト-Set-cstrunkconfiguration](https://technet.microsoft.com/en-us/library/Gg398137(v=OCS.15))
+<!-- end list -->
+
+  - [取得-CsTrunk](https://technet.microsoft.com/library/JJ205244(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [新規-CsVoiceRegex](https://technet.microsoft.com/en-us/library/Gg412751(v=OCS.15))
+    [Get-cstrunkconfiguration](https://technet.microsoft.com/library/Gg398224(v=OCS.15))
+
+  - <span></span>  
+    [Get-cstrunkconfiguration](https://technet.microsoft.com/library/Gg413021(v=OCS.15))
+
+  - <span></span>  
+    [Get-cstrunkconfiguration](https://technet.microsoft.com/library/Gg425943(v=OCS.15))
+
+  - <span></span>  
+    [Get-cstrunkconfiguration](https://technet.microsoft.com/library/Gg398238(v=OCS.15))
+
+  - <span></span>  
+    [Get-cstrunkconfiguration](https://technet.microsoft.com/library/Gg398137(v=OCS.15))
+
+<!-- end list -->
+
+  - <span></span>  
+    [CsVoiceRegex](https://technet.microsoft.com/library/Gg412751(v=OCS.15))
 
 </div>
 

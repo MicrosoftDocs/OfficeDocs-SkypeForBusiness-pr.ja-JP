@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 専任の会議の開催者'
+title: 'Lync Server 2013: 専用の会議の開催者'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183730
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 429c68ad96d4738b835f549a5f355e6c133ead74
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4609f588eec8d68ec163abd8a15a44f5f88a7620
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728537"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044089"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="dedicated-meeting-organizers-in-lync-server-2013"></a>Lync Server 2013 の専用会議の開催者
+# <a name="dedicated-meeting-organizers-in-lync-server-2013"></a>Lync Server 2013 の専用の会議の開催者
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41728537"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-01_
+_**トピックの最終更新日:** 2012-10-01_
 
-大会議のプールでのリアルタイム通信のトラフィックを最小限に抑えるため、Lync クライアントを使用して定期的にサインインし、インスタントメッセージング (IM)、プレゼンス、会議、音声セッションに参加するユーザーをホストすることはお勧めしません。 代わりに、次のいずれかの操作を行うことをお勧めします。
+大規模な会議のプールでのリアルタイム通信トラフィックを最小限に抑えるために、Lync クライアントを使用して定期的にサインインし、インスタント メッセージング (IM)、プレゼンス、電話会議、および音声のセッションに参加するユーザーをホストしないことをお勧めします。代わりに、次のどちらかを行うことをお勧めします。
 
-  - 大人数の会議をスケジュールするためだけに1つまたは複数の専用ユーザーアカウントを作成します。
+  - 大規模な会議のスケジュール専用のユーザー アカウントを 1 つ以上作成します。
 
-  - 大規模な会議のプールで大人数の会議をスケジュールする担当者のユーザーアカウント。
+  - 大規模な会議のプールに、大規模な会議のスケジュール担当スタッフのユーザー アカウントを所属させます。
 
-どちらの場合も、大規模な会議のプールをホームにしているユーザーアカウントを使用して、会議をスケジュールする以外に Lync に定期的にサインインすることはできません。
+どちらの場合も、大規模な会議のプールに所属するユーザー アカウントでは、会議のスケジュール以外の目的で Lync に定期的にサインインしないでください。
 
 </div>
 

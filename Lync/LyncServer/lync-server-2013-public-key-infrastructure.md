@@ -12,20 +12,20 @@ ms:contentKeyID: 59893870
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9b205699e9efd896a157654f5c1fb200e34087fc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9878cf6d6de482e2319cfd3cddf15e6d0e6ecb6e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724627"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044409"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="public-key-infrastructure-for-lync-server-2013"></a>Lync Server 2013 用の公開キー基盤
+# <a name="public-key-infrastructure-for-lync-server-2013"></a>Lync Server 2013 の公開キー基盤
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41724627"
 
 <span> </span>
 
-_**最終更新日:** 2013-11-13_
+_**トピックの最終更新日:** 2013-11-13_
 
-Microsoft Lync Server 2013 は、サーバー認証には証明書を使用し、クライアントとサーバー間、およびサーバーのさまざまな役割間で信頼のチェーンを確立します。 Windows Server 2012 R2、Windows Server 2012、windows Server 2008 R2、windows server 2008、および Windows Server 2003 公開キー基盤 (PKI) は、この信頼チェーンを確立して検証するためのインフラストラクチャを提供します。
+Microsoft Lync Server 2013 は、サーバー認証に証明書を使用し、クライアントとサーバーの間、およびさまざまなサーバーの役割間の信頼チェーンを確立します。 Windows Server 2012 R2、Windows server 2012、Windows Server 2008 R2、Windows Server 2008、および Windows Server 2003 公開キー基盤 (PKI) は、この信頼チェーンを確立して検証するためのインフラストラクチャを提供します。
 
-証明書とはデジタル ID です。証明書は、名前によってサーバーを識別し、そのプロパティを指定します。証明書の情報が有効であるためには、サーバーに接続するクライアントやその他のサーバーが信頼する CA から証明書が発行されている必要があります。サーバーがプライベート ネットワーク上の他のクライアントおよびサーバーとのみ接続する場合は、CA はエンタープライズ CA で問題ありません。サーバーがプライベート ネットワーク外のエンティティと対話する場合は、パブリック CA が必要な可能性があります。
+証明書とはデジタル ID です。 証明書は、名前によってサーバーを識別し、そのプロパティを指定します。 証明書の情報が有効であることを確認するには、サーバーに接続するクライアントまたは他のサーバーによって信頼されている CA が証明書を発行する必要があります。 サーバーがプライベート ネットワーク上の他のクライアントおよびサーバーとのみ接続する場合は、CA はエンタープライズ CA で問題ありません。 サーバーがプライベート ネットワーク外のエンティティと対話する場合は、パブリック CA が必要な可能性があります。
 
 証明書の情報が有効であっても、証明書を提示しているサーバーが、実際に証明書によって提示されているサーバーであることを確認する手段が必要です。ここで Windows PKI が役立ちます。
 
@@ -49,7 +49,7 @@ Microsoft Lync Server 2013 は、サーバー認証には証明書を使用し�
 
 
 > [!NOTE]  
-> すべてのパブリック Ca が Lync Server 2013 証明書の要件を満たしているわけではありません。 認定されているパブリック CA ベンダーの一覧を参照して、パブリック証明書のニーズに合ったベンダーを探すことをお勧めします。 詳細については、「ユニファイド<A href="http://go.microsoft.com/fwlink/p/?linkid=140898">http://go.microsoft.com/fwlink/p/?LinkId=140898</A>コミュニケーションの証明書パートナー」を参照してください。
+> すべてのパブリック Ca が Lync Server 2013 証明書の要件に準拠しているわけではありません。 認定されているパブリック CA ベンダーの一覧を参照して、パブリック証明書のニーズに合ったベンダーを探すことをお勧めします。 詳細については、「統合コミュニケーション<A href="http://go.microsoft.com/fwlink/p/?linkid=140898">http://go.microsoft.com/fwlink/p/?LinkId=140898</A>証明書パートナー」を参照してください。
 
 
 
@@ -59,7 +59,7 @@ Microsoft Lync Server 2013 は、サーバー認証には証明書を使用し�
 
 ## <a name="crl-distribution-points"></a>CRL 配布ポイント
 
-Lync Server 2013 では、すべてのサーバー証明書に1つ以上の証明書失効リスト (CRL) 配布ポイントが含まれている必要があります。 CRL 配布ポイント (CDP) とは、証明書の発行後にそれが失効していないこと、および証明書が有効期限内にあることを確認するために、CRL をダウンロードできる場所です。 CRL 配布ポイントは、URL として証明書のプロパティに記述され、通常、セキュア HTTP です。
+Lync Server 2013 には、すべてのサーバー証明書に1つ以上の証明書失効リスト (CRL) 配布ポイントが含まれている必要があります。 CRL 配布ポイント (Cdp) は、発行後に証明書が失効しておらず、証明書が有効期間内にあることを確認するために、Crl をダウンロードできる場所です。 CRL 配布ポイントは、証明書のプロパティに URL として記載されています。通常、HTTP はセキュリティで保護されています。
 
 </div>
 
@@ -67,13 +67,13 @@ Lync Server 2013 では、すべてのサーバー証明書に1つ以上の証�
 
 ## <a name="enhanced-key-usage"></a>拡張キー使用法
 
-Lync Server 2013 では、サーバー認証のために、すべてのサーバー証明書で拡張キー使用法 (EKU) がサポートされている必要があります。 サーバー認証用に EKU フィールドを構成することは、サーバーの認証に対して、その証明書が有効であることを意味します。 この EKU は、MTLS には不可欠です。 EKU には、複数のエントリを指定し、複数の目的に対して証明書を有効にできます。
+Lync Server 2013 では、サーバー認証のために拡張キー使用法 (EKU) をサポートするすべてのサーバー証明書が必要です。 サーバー認証の EKU フィールドを構成することは、証明書がサーバーの認証を目的として有効であることを意味します。 この EKU は、MTLS にとって不可欠です。 EKU に複数のエントリを含めることができます。これにより、複数の目的に対して証明書を有効にできます。
 
 <div>
 
 
 > [!NOTE]  
-> Live Communications Server 2003 および Live Communications Server 2005 からの送信 MTLS 接続には、クライアント認証 EKU が必要ですが、これは不要になりました。 ただし、パブリック IM 接続を使って AOL に接続するエッジサーバーには、この EKU が存在している必要があります。
+> Live Communications Server 2003 および Live Communications Server 2005 からの送信 MTLS 接続には、クライアント認証 EKU が必要ですが、これは不要になりました。 ただし、この EKU は、パブリック IM 接続を使用して AOL に接続するエッジサーバー上に存在する必要があります。
 
 
 

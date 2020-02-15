@@ -12,20 +12,20 @@ ms:contentKeyID: 48184403
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 55a6ab9a8bf50639267824c8330701ee74cb3f5a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c490bc9b5058af75704ec3d10c3535581c56df2b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735437"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042094"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="errordef-table-in-lync-server-2013"></a>Lync Server 2013 ErrorDef テーブル
+# <a name="errordef-table-in-lync-server-2013"></a>Lync Server 2013 の ErrorDef テーブル
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41735437"
 
 <span> </span>
 
-_**最終更新日:** 2012-05-25_
+_**トピックの最終更新日:** 2012-05-25_
 
-ErrorDef テーブルには、発生する可能性がある各エラーの種類に関する情報が格納されます。 各レコードは1種類のエラーです。
+ErrorDef テーブルは、発生する可能性がある各エラーの種類に関する情報を格納します。 各レコードは、1種類のエラーです。
 
 
 <table>
@@ -60,13 +60,13 @@ ErrorDef テーブルには、発生する可能性がある各エラーの種�
 <td><p><strong>ErrorId</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>この種類のエラーを識別する固有の ID 番号。</p></td>
+<td><p>この種類のエラーを識別する一意の ID 番号。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>返信</strong></p></td>
+<td><p><strong>ResponseCode</strong></p></td>
 <td><p>int</p></td>
 <td><p> </p></td>
-<td><p>このエラーに関連付けられた標準 SIP 応答コード。</p></td>
+<td><p>このエラーに関連付けられている標準 SIP 応答コード。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MsDiagId</strong></p></td>
@@ -75,10 +75,10 @@ ErrorDef テーブルには、発生する可能性がある各エラーの種�
 <td><p>Microsoft 診断 ID。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>発信者の Typeid</strong></p></td>
+<td><p><strong>CallTypeId</strong></p></td>
 <td><p>Int</p></td>
 <td><p>外部</p></td>
-<td><p>通話の種類。 詳細については、「 <a href="lync-server-2013-calltype-table.md">Lync Server 2013 の CallType テーブル</a>」を参照してください。</p></td>
+<td><p>呼び出しの種類。 詳細については、「 <a href="lync-server-2013-calltype-table.md">Lync Server 2013 の CallType テーブル</a>」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RequestType</strong></p></td>
@@ -92,7 +92,7 @@ ErrorDef テーブルには、発生する可能性がある各エラーの種�
 <td><p><strong>ContentType</strong></p></td>
 <td><p>varbinary (257)</p></td>
 <td><p> </p></td>
-<td><p>失敗した要求のコンテンツタイプ。</p>
+<td><p>失敗した要求のコンテンツの種類。</p>
 <p>このデータは、次の syntaxt を使用してテキスト形式に変換できます。</p>
 <p><code>cast(cast(ContentType as varbinary(max)) as varchar(max))</code></p></td>
 </tr>

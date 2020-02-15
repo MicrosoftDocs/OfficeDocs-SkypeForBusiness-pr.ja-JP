@@ -12,20 +12,20 @@ ms:contentKeyID: 48184516
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e55e2471a71c985861c35c4ec2e07582dbfa0f23
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 275556e6be613d2dfe23cf245e75c725286e0c02
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740757"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043309"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-archiving-in-lync-server-2013"></a>Lync Server 2013 のアーカイブの展開チェックリスト
+# <a name="deployment-checklist-for-archiving-in-lync-server-2013"></a>Lync Server 2013 でのアーカイブの展開チェックリスト
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41740757"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-18_
+_**トピックの最終更新日:** 2012-10-18_
 
-アーカイブは、Lync Server 2013 展開の各フロントエンドサーバーに自動的にインストールされますが、使用する前に設定する必要があります。 このセクションで概要を設定するために必要な手順は、アーカイブの展開を構成するものです。
+アーカイブは、Lync Server 2013 展開の各フロントエンドサーバーに自動的にインストールされますが、使用する前に設定する必要があります。 ここで説明するセットアップに必要な手順では、アーカイブの展開を構成します。
 
 <div>
 
-## <a name="deployment-sequence"></a>展開シーケンス
+## <a name="deployment-sequence"></a>展開の順序
 
-アーカイブの設定方法は、選択したストレージオプションによって異なります。
+アーカイブのセットアップ方法は、選択するストレージ オプションによって異なります。
 
-  - 展開のすべてのユーザーに対して Microsoft Exchange 統合を使用している場合は、ユーザーの Lync Server 2013 アーカイブポリシーを構成する必要はありません。 代わりに、exchange 2013 を使用しているユーザーのアーカイブをサポートするように Exchange のインプレースホールドポリシーを構成し、メールボックスがインプレース保持されるようにします。 これらのポリシーの構成の詳細については、Exchange 2013 の製品に関するドキュメントを参照してください。
+  - 展開内のすべてのユーザーに対して Microsoft Exchange 統合を使用する場合は、Lync Server 2013 アーカイブポリシーをユーザーに対して構成する必要はありません。 代わりに、exchange 2013 に所属するユーザーのアーカイブをサポートするように Exchange のインプレース保持ポリシーを構成します。メールボックスはインプレース保持に配置されています。 これらのポリシーの構成の詳細については、「Exchange 2013 製品のドキュメント」を参照してください。
 
-  - 展開内のすべてのユーザーに対して Microsoft Exchange 統合を使用していない場合は、お客様のトポロジに Lync Server アーカイブデータベース (SQL Server データベース) を追加し、それを公開して、ユーザーのポリシーと設定を構成する必要があります。それらのユーザーのデータをアーカイブします。 最初のトポロジを展開するとき、または少なくとも1つのフロントエンドプールまたは Standard Edition サーバーを展開した後で、アーカイブデータベースを展開することができます。 このドキュメントでは、アーカイブデータベースを既存の展開に追加して展開する方法について説明します。
+  - 展開内のすべてのユーザーに対して Microsoft Exchange 統合を使用しない場合は、Lync Server アーカイブデータベース (SQL Server データベース) をトポロジに追加してから発行し、ユーザーのポリシーと設定を構成する必要があります。その前に、これらのユーザーのデータをアーカイブします。 アーカイブデータベースは、初期トポロジを展開するとき、または少なくとも1つのフロントエンドプールまたは Standard Edition サーバーを展開した後に展開できます。 このドキュメントでは、アーカイブデータベースを既存の展開に追加して展開する方法について説明します。
 
-1つのフロントエンドプールまたは Standard Edition サーバーでアーカイブを有効にしている場合、展開内の他のすべてのフロントエンドプールおよび Standard Edition サーバーでアーカイブを有効にする必要があります。 その理由は、通信のアーカイブが必要なユーザーは、別のプールでホストされるグループ IM 会話や会議に招待される可能性があるからです。 会話や会議がホストされているプールでアーカイブが有効になっていない場合は、セッション全体をアーカイブすることはできません。 このような場合、アーカイブが有効なユーザーの IM はアーカイブできますが、会議コンテンツ ファイルや会議参加または退出イベントはアーカイブできません。
+1 つのフロントエンド プールまたは Standard Edition サーバーでアーカイブを有効にする場合、展開内の他のすべてのフロントエンド プールおよび Standard Edition サーバーに対してアーカイブを有効にする必要があります。これは、通信をアーカイブする必要があるユーザーは、別のプールでホストされるグループ IM 会話やミーティングに招待される可能性があるためです。会話やミーティングがホストされているプールでアーカイブが有効になっていない場合は、完全なセッションをアーカイブすることはできません。このような場合、アーカイブが有効なユーザーの IM はアーカイブできますが、会議コンテンツ ファイルおよび会議参加または退出イベントはアーカイブできません。
 
 <div>
 
 
 > [!IMPORTANT]  
-> コンプライアンス上の理由からアーカイブが重要である場合は、アーカイブを展開し、ポリシーおよびその他のオプションを適切なレベルで構成して、適切なユーザー全員に対して有効にしてから、Lync Server 2013 のユーザーを有効にする必要があります。
+> コンプライアンス上の理由からアーカイブが重要な場合は、アーカイブを展開し、ポリシーおよびその他のオプションを適切なレベルで構成して、適切なユーザーすべてに対して有効にしてから、Lync Server 2013 のユーザーを有効にする必要があります。
 
 
 
@@ -65,7 +65,7 @@ _**最終更新日:** 2012-10-18_
 
 <div>
 
-## <a name="archiving-deployment-process"></a>アーカイブ展開プロセス
+## <a name="archiving-deployment-process"></a>アーカイブの展開プロセス
 
 次の表に、既存のトポロジにアーカイブを展開するために必要な手順の概要を示します。
 
@@ -79,7 +79,7 @@ _**最終更新日:** 2012-10-18_
 </colgroup>
 <thead>
 <tr class="header">
-<th>段階</th>
+<th>フェーズ</th>
 <th>手順</th>
 <th>役割とグループ メンバーシップ</th>
 <th>ドキュメント</th>
@@ -89,42 +89,42 @@ _**最終更新日:** 2012-10-18_
 <tr class="odd">
 <td><p><strong>必要なハードウェアとソフトウェアのインストール</strong></p></td>
 <td><ul>
-<li><p>Microsoft Exchange 統合 (一部またはすべてのユーザーのアーカイブストレージに Exchange 2013 を使用) を使用するには、既存の Exchange 2013 の展開が必要です。</p></li>
-<li><p>一部またはすべてのユーザーのアーカイブストレージに個別のアーカイブデータベース (SQL Server データベースを使用) を使用するには、アーカイブデータを格納するサーバー上の SQL Server。</p></li>
+<li><p>Microsoft Exchange 統合 (Exchange 2013 を使用して一部またはすべてのユーザーのストレージをアーカイブする) を使用するには、既存の Exchange 2013 展開が必要です。</p></li>
+<li><p>一部またはすべてのユーザーのストレージをアーカイブするために別のアーカイブ データベースを使用するには (SQL Server データベースを使用する場合)、アーカイブ データを格納するサーバーに SQL Server が必要です。</p></li>
 </ul>
 <div>
 
 > [!NOTE]  
-> アーカイブは、エンタープライズプールと Standard Edition サーバーのフロントエンドサーバー上で実行されます。 これらのサーバーのインストールに必要なもの以外には、追加のハードウェア要件やソフトウェア要件はありません。
+> アーカイブは、エンタープライズ プールのフロントエンド サーバーと Standard Edition サーバー上で実行されます。これらのサーバーのインストールに必要なもの以外には、追加のハードウェア要件やソフトウェア要件はありません。
 
 
 </div></td>
 <td><p>ローカルの Administrators グループのメンバーであるドメイン ユーザー。</p></td>
-<td><p><a href="lync-server-2013-supported-hardware.md">サポートされているドキュメントの Lync Server 2013 でサポートされているハードウェア</a>。</p>
-<p>サポートドキュメントの<a href="lync-server-2013-server-software-and-infrastructure-support.md">Lync server 2013 でのサーバーソフトウェアとインフラストラクチャのサポート</a>。</p>
-<p>計画ドキュメントの<a href="lync-server-2013-technical-requirements-for-archiving.md">Lync Server 2013 でのアーカイブの技術要件</a>。</p>
-<p>展開ドキュメントの<a href="lync-server-2013-setting-up-systems-and-infrastructure-for-archiving.md">Lync Server 2013 でアーカイブ用にシステムとインフラストラクチャ</a>をセットアップします。</p>
-<p>サポートドキュメントの<a href="lync-server-2013-exchange-and-sharepoint-integration-support.md">Lync server 2013 での Exchange Server と SharePoint の統合のサポート</a>。</p></td>
+<td><p>「サポート」のドキュメントの「 <a href="lync-server-2013-supported-hardware.md">Lync Server 2013 でサポートされているハードウェア</a>」。</p>
+<p>「サポート」のドキュメントの「 <a href="lync-server-2013-server-software-and-infrastructure-support.md">Lync server 2013 でのサーバーソフトウェアとインフラストラクチャのサポート」</a> 。</p>
+<p>「計画」のドキュメントの「 <a href="lync-server-2013-technical-requirements-for-archiving.md">Lync Server 2013 でのアーカイブの技術要件</a>」。</p>
+<p>「展開」のドキュメントの「 <a href="lync-server-2013-setting-up-systems-and-infrastructure-for-archiving.md">Lync Server 2013 でのアーカイブのためのシステムとインフラストラクチャの</a>セットアップ」を参照してください。</p>
+<p>「サポート」のドキュメントの「 <a href="lync-server-2013-exchange-and-sharepoint-integration-support.md">Lync server 2013 での Exchange Server および SharePoint の統合のサポート</a>」。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>アーカイブをサポートする適切な内部トポロジを作成します (展開のすべてのユーザーに対して Microsoft Exchange 統合を使用していない場合のみ)。</strong></p></td>
+<td><p><strong>アーカイブをサポートするために適切な内部トポロジを作成します (展開内のすべてのユーザーに対して Microsoft Exchange 統合を使用していない場合のみ)。</strong></p></td>
 <td><p>トポロジビルダーを実行して、Lync Server 2013 アーカイブデータベース (SQL Server データベース) をトポロジに追加してから、トポロジを公開します。</p></td>
-<td><p>アーカイブデータベースを取り込むためのトポロジを定義するには、ローカルユーザーグループのメンバーであるアカウント。</p>
-<p>トポロジを公開するには、ドメイン管理者グループと RTCUniversalServerAdmins グループのメンバーであり、Lync Server 2013 ファイルストアに使用するフルコントロール権限 (読み取り/書き込み/変更) を持つアカウント (トポロジビルダーが必要な Dacl を構成できるようにします) を公開します。</p></td>
-<td><p>展開ドキュメントの<a href="lync-server-2013-adding-archiving-databases-to-an-existing-lync-server-2013-deployment.md">既存の Lync Server 2013 展開にアーカイブデータベースを追加する</a></p></td>
+<td><p>アーカイブ データベースを組み込むためのトポロジを定義する場合は、ローカル ユーザー グループのメンバーであるアカウント。</p>
+<p>トポロジを公開するには、domain admins グループおよび RTCUniversalServerAdmins グループのメンバーであり、Lync Server 2013 ファイルストアに対して使用されるファイル共有のフルコントロールアクセス許可 (読み取り/書き込み/変更) を持つアカウント (トポロジビルダーが必要な Dacl を構成できるようにするため)。</p></td>
+<td><p>「展開」のドキュメントの「<a href="lync-server-2013-adding-archiving-databases-to-an-existing-lync-server-2013-deployment.md">既存の Lync Server 2013 展開へのアーカイブデータベースの追加」を</a>参照してください。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>サーバー間認証を構成する (Microsoft Exchange 統合を使用している場合のみ)</strong></p></td>
-<td><p>Lync Server 2013 と Exchange 2013 の間の認証を有効にするようにサーバーを構成します。 アーカイブを有効にする前に<strong>、CsExchangeStorageConnectivity testuser_sipUri –フォルダー収集</strong>を実行して、Exchange アーカイブストレージの接続を検証することをお勧めします。</p></td>
+<td><p><strong>サーバー間認証を構成する (Microsoft Exchange 統合を使用する場合のみ)</strong></p></td>
+<td><p>Lync Server 2013 と Exchange 2013 の間の認証を有効にするようにサーバーを構成します。 アーカイブを有効にする前に、Exchange アーカイブストレージの接続を検証するには、 <strong>CsExchangeStorageConnectivity testuser_sipUri-フォルダー収集</strong>を実行することをお勧めします。</p></td>
 <td><p>サーバーで証明書を管理するための適切なアクセス許可のあるアカウント。</p></td>
-<td><p>展開ドキュメントまたは運用ドキュメントの<a href="lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md">Lync server 2013 でサーバー間認証 (OAuth) とパートナーアプリケーションを管理</a>します。</p></td>
+<td><p>「展開」のドキュメントまたは「操作」のドキュメントの<a href="lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md">「Lync server 2013 でのサーバー間認証 (OAuth) およびパートナーアプリケーションの管理」</a>を参照してください。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>アーカイブポリシーと構成を構成する</strong></p></td>
-<td><p>Microsoft Exchange 統合を使用するかどうか、グローバルポリシー、サイトとユーザーのポリシー (すべてのデータストレージに対して Microsoft Exchange の統合を使用していない場合)、および重要なモードやデータなどの特定のアーカイブオプションを含むアーカイブを構成します。エクスポートと削除。</p>
-<p>Microsoft Exchange 統合を使用している場合は、必要に応じて、Exchange のインプレースホールドポリシーを構成します。</p></td>
-<td><p>RTCUniversalServerAdmins グループ (Windows PowerShell のみ)。または、CSArchivingAdministrator の役割または CSAdministrator の役割にユーザーを割り当てます。</p></td>
-<td><p>展開ドキュメントの<a href="lync-server-2013-configuring-support-for-archiving.md">Lync Server 2013 でアーカイブのサポートを構成</a>します。</p>
+<td><p><strong>アーカイブ ポリシーと設定の構成</strong></p></td>
+<td><p>アーカイブを構成する (Microsoft Exchange 統合を使用するかどうか、グローバルポリシーとサイトポリシーおよびユーザーポリシーを (すべてのデータ記憶域に対して Microsoft Exchange 統合を使用しない場合)、および特定のアーカイブオプション (重要なモードやデータなど) を含む)。エクスポートと削除。</p>
+<p>Microsoft Exchange 統合を使用する場合は、必要に応じて Exchange のインプレース保持ポリシーを構成します。</p></td>
+<td><p>RTCUniversalServerAdmins グループ (Windows PowerShell のみ)。あるいは、CSArchivingAdministrator の役割または CSAdministrator の役割にユーザーを割り当てます。</p></td>
+<td><p>「展開」のドキュメントの「 <a href="lync-server-2013-configuring-support-for-archiving.md">Lync Server 2013 でのアーカイブのサポートの構成</a>」を参照してください。</p>
 <p>Exchange 製品ドキュメント (Microsoft Exchange 統合を使用している場合)。</p></td>
 </tr>
 </tbody>
@@ -135,9 +135,9 @@ _**最終更新日:** 2012-10-18_
 
 <div>
 
-## <a name="deploying-lync-server-and-microsoft-exchange-in-different-forests"></a>さまざまなフォレストでの Lync Server と Microsoft Exchange の展開
+## <a name="deploying-lync-server-and-microsoft-exchange-in-different-forests"></a>異なるフォレストへの Lync Server と Microsoft Exchange の展開
 
-Microsoft Exchange Server が Lync Server と同じフォレストに展開されていない場合は、次の Exchange Active Directory 属性が Lync Server が展開されているフォレストと同期されていることを確認する必要があります。
+Microsoft Exchange Server が Lync Server と同じフォレストに展開されていない場合は、次の Exchange Active Directory 属性が Lync Server が展開されているフォレストに同期されていることを確認する必要があります。
 
 1.  msExchUserHoldPolicies
 

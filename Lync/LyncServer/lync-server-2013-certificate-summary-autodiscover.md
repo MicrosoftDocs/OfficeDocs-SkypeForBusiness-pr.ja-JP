@@ -12,16 +12,16 @@ ms:contentKeyID: 51541451
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8956c8a0ed4e149f336e6670aaf5b262f1868748
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ae57440d4843151da61d24a9ff015778a5c65b07
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736667"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043989"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,42 +35,42 @@ ms.locfileid: "41736667"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-14_
+_**トピックの最終更新日:** 2013-02-14_
 
-Lync Server 2013 自動検出サービスは、監督およびフロントエンドプールサーバー上で実行され、DNS で公開されると、Lync クライアントがサーバーおよびユーザーサービスを見つけるために使うことができます。 Lync Server 2010 からアップグレードしていて、モビリティを展開していない場合は、クライアントで自動検出を使用できるようにする前に、自動検出サービスを実行しているすべてのディレクターおよびフロントエンドサーバーで、証明書のサブジェクトの代替名の一覧を変更する必要があります。 さらに、リバースプロキシの外部 web サービス公開ルールに使用されている証明書のサブジェクト代替名の一覧を変更することが必要になる場合もあります。
+Lync Server 2013 自動検出サービスは、ディレクターおよびフロントエンドプールサーバー上で実行され、DNS で公開されると、Lync クライアントがサーバーとユーザーサービスを検索するために使用できます。 Lync Server 2010 からアップグレードし、モビリティを展開しない場合は、クライアントで自動検出を使用する前に、自動検出サービスを実行しているすべてのディレクターおよびフロントエンドサーバーで、証明書のサブジェクトの別名の一覧を変更する必要があります。 さらに、リバースプロキシの外部 web サービス公開ルールに使用される証明書のサブジェクトの別名の一覧を変更する必要がある場合があります。
 
-リバースプロキシでサブジェクト代替名の一覧を使用するかどうかは、自動検出サービスをポート80またはポート443のどちらに発行するかに基づいて決定されます。
+リバースプロキシでサブジェクトの別名の一覧を使用するかどうかは、自動検出サービスをポート80またはポート443に公開するかどうかに基づいて決定されます。
 
-  - **ポート 80**   で公開自動検出サービスへの最初のクエリがポート80経由で発生した場合、証明書の変更は必要ありません。 これは、Lync を実行しているモバイルデバイスは、ポート80の逆プロキシに外部からアクセスして、ポート8080の内部でディレクターまたはフロントエンドサーバーにブリッジするためです。 詳細については、「 [Lync Server 2013 でのモビリティの技術要件](lync-server-2013-technical-requirements-for-mobility.md)」を参照してください。「ポート80を使った最初の自動検出プロセス」を参照してください。
+  - **ポート 80**   で公開された自動検出サービスへの最初のクエリがポート80経由で行われる場合、証明書の変更は必要ありません。 これは、Lync を実行しているモバイルデバイスがポート80のリバースプロキシに外部でアクセスし、内部でポート8080のディレクターまたはフロントエンドサーバーにブリッジされるためです。 詳細については、「 [Lync Server 2013 でのモビリティの技術的な要件](lync-server-2013-technical-requirements-for-mobility.md)」セクションの「ポート80を使用した初期の自動検出プロセス」を参照してください。
 
-  - **ポート 443**   で公開される外部 web サービス公開ルールで使われる証明書のサブジェクトの別名リストは、lyncdiscover を含む必要があり*ます。\<組織\> *内の各 SIP ドメインの sipdomain エントリ。
+  - **ポート 443**   で公開されました。外部 web サービス公開ルールで使用される証明書のサブジェクトの別名リストには、lyncdiscover が含まれている必要があり*ます。\<組織\> *内の各 SIP ドメインの microsoft.rtc.management.xds.sipdomain エントリ。
     
     <div>
     
 
     > [!IMPORTANT]  
-    > HTTP 経由で HTTPS を使用することを強くお勧めします。 HTTPS は、証明書を使ってトラフィックを暗号化します。 HTTP では暗号化は提供されず、送信されたデータはすべてプレーンテキストになります。
+    > HTTPS over HTTP を使用することを強くお勧めします。 HTTPS は、証明書を使用してトラフィックを暗号化します。 HTTP では暗号化が提供されず、送信されるデータはプレーンテキストになります。
 
     
     </div>
 
-内部証明機関を使った証明書の再発行は、通常、単純なプロセスです。 ただし、web サービスの公開ルールで使用されているパブリック証明書の場合、複数のサブジェクト代替名エントリを追加すると、負荷が高くなる可能性があります。 この問題を回避するには、ポート80経由の最初の自動検出接続をサポートします。その後、ディレクターまたはフロントエンドサーバー上のポート8080にリダイレクトされます。
+内部証明機関を使用した証明書の再発行は、通常、単純なプロセスです。 しかし、web サービス公開ルールで使用されるパブリック証明書の場合、複数のサブジェクトの別名エントリを追加すると、コストがかかることがあります。 この問題を回避するために、ポート80経由の最初の自動検出接続をサポートします。その後、ディレクターまたはフロントエンドサーバーのポート8080にリダイレクトされます。
 
 <div>
 
 
 > [!NOTE]  
-> Lync Server 2013 インフラストラクチャで内部証明機関 (CA) から発行された内部証明書を使用していて、ワイヤレス接続のモバイルデバイスをサポートする予定の場合は、内部 CA からのルート証明書チェーンをインストールする必要があります。モバイルデバイスの場合、または Lync Server 2013 インフラストラクチャの公開証明書に変更する必要があります。
+> Lync Server 2013 インフラストラクチャが内部証明機関 (CA) から発行された内部証明書を使用し、ワイヤレス接続をサポートすることを計画している場合は、内部 CA からのルート証明書チェーンをインストールする必要があります。モバイルデバイスでは、または Lync Server 2013 インフラストラクチャ上のパブリック証明書に変更する必要があります。
 
 
 
 </div>
 
-このトピックでは、監督、フロントエンドサーバー、リバースプロキシに必要な追加サブジェクトの代替名について説明します。 追加されたサブジェクト代替名 (SAN) のみが参照されます。 証明書の他のエントリに関するガイダンスについては、計画セクションを参照してください。 詳細については、「lync [server 2013 のディレクターのシナリオ](lync-server-2013-scenarios-for-the-director.md)」、「 [lync server 2013 の外部ユーザーアクセスのシナリオ](lync-server-2013-scenarios-for-external-user-access.md)」、「 [lync server 2013 でのリバースプロキシの](lync-server-2013-scenarios-for-reverse-proxy.md)シナリオ」を参照してください。
+このトピックでは、ディレクター、フロントエンドサーバー、およびリバースプロキシに必要な追加のサブジェクトの別名について説明します。 追加されたサブジェクトの別名 (SAN) のみが参照されます。 証明書の他のエントリに関するガイダンスについては、「計画」のセクションを参照してください。 詳細については、「 [lync server 2013 のディレクターのシナリオ](lync-server-2013-scenarios-for-the-director.md)」、「 [lync server 2013 の外部ユーザーアクセスのシナリオ](lync-server-2013-scenarios-for-external-user-access.md)」、および「 [lync server 2013 のリバースプロキシの](lync-server-2013-scenarios-for-reverse-proxy.md)シナリオ」を参照してください。
 
-次の表では、ディレクタープール、フロントエンドプール、リバースプロキシの自動検出 SAN エントリを定義しています。
+次の表は、ディレクタープール、フロントエンドプール、リバースプロキシの自動検出 SAN エントリを定義しています。
 
-### <a name="director-pool-certificate-requirements"></a>ディレクタープール証明書の要件
+### <a name="director-pool-certificate-requirements"></a>ディレクター プールの証明書の要件
 
 <table>
 <colgroup>
@@ -80,7 +80,7 @@ Lync Server 2013 自動検出サービスは、監督およびフロントエン
 <thead>
 <tr class="header">
 <th>説明</th>
-<th>サブジェクトの代替名エントリ</th>
+<th>サブジェクト名の別名エントリ</th>
 </tr>
 </thead>
 <tbody>
@@ -89,8 +89,8 @@ Lync Server 2013 自動検出サービスは、監督およびフロントエン
 <td><p>SAN = lyncdiscoverinternal。&lt;内部ドメイン名&gt;</p></td>
 </tr>
 <tr class="even">
-<td><p>外部自動検出サービスの URL</p></td>
-<td><p>SAN = lyncdiscover。&lt;sipdomain&gt;</p></td>
+<td><p>外部自動検出サービス URL</p></td>
+<td><p>SAN = lyncdiscover。&lt;microsoft.rtc.management.xds.sipdomain&gt;</p></td>
 </tr>
 </tbody>
 </table>
@@ -100,13 +100,13 @@ Lync Server 2013 自動検出サービスは、監督およびフロントエン
 
 
 > [!NOTE]  
-> 新しい SAN エントリを使って、新しく更新された証明書を既定の証明書に割り当てます。 または、SAN = * を使用することもできます。&lt;sipdomain&gt;。
+> 新しく更新された証明書を新しい SAN エントリと共に既定の証明書に割り当てます。 または、SAN = * を使用することもできます。&lt;microsoft.rtc.management.xds.sipdomain&gt;。
 
 
 
 </div>
 
-### <a name="front-end-pool-certificate-requirements"></a>フロントエンドプール証明書の要件
+### <a name="front-end-pool-certificate-requirements"></a>フロント エンド プールの証明書の要件
 
 <table>
 <colgroup>
@@ -116,7 +116,7 @@ Lync Server 2013 自動検出サービスは、監督およびフロントエン
 <thead>
 <tr class="header">
 <th>説明</th>
-<th>サブジェクトの代替名エントリ</th>
+<th>サブジェクト名の別名エントリ</th>
 </tr>
 </thead>
 <tbody>
@@ -125,8 +125,8 @@ Lync Server 2013 自動検出サービスは、監督およびフロントエン
 <td><p>SAN = lyncdiscoverinternal。&lt;内部ドメイン名&gt;</p></td>
 </tr>
 <tr class="even">
-<td><p>外部自動検出サービスの URL</p></td>
-<td><p>SAN = lyncdiscover。&lt;sipdomain&gt;</p></td>
+<td><p>外部自動検出サービス URL</p></td>
+<td><p>SAN = lyncdiscover。&lt;microsoft.rtc.management.xds.sipdomain&gt;</p></td>
 </tr>
 </tbody>
 </table>
@@ -136,13 +136,13 @@ Lync Server 2013 自動検出サービスは、監督およびフロントエン
 
 
 > [!NOTE]  
-> 新しい SAN エントリを使って、新しく更新された証明書を既定の証明書に割り当てます。 または、SAN = * を使用することもできます。&lt;sipdomain&gt;
+> 新しく更新された証明書を新しい SAN エントリと共に既定の証明書に割り当てます。 または、SAN = * を使用することもできます。&lt;microsoft.rtc.management.xds.sipdomain&gt;
 
 
 
 </div>
 
-### <a name="reverse-proxy-public-ca-certificate-requirements"></a>リバースプロキシ (パブリック CA) 証明書の要件
+### <a name="reverse-proxy-public-ca-certificate-requirements"></a>リバース プロキシ (パブリック CA) の証明書の要件
 
 <table>
 <colgroup>
@@ -152,13 +152,13 @@ Lync Server 2013 自動検出サービスは、監督およびフロントエン
 <thead>
 <tr class="header">
 <th>説明</th>
-<th>サブジェクトの代替名エントリ</th>
+<th>サブジェクト名の別名エントリ</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>外部自動検出サービスの URL</p></td>
-<td><p>SAN = lyncdiscover。&lt;sipdomain&gt;</p></td>
+<td><p>外部自動検出サービス URL</p></td>
+<td><p>SAN = lyncdiscover。&lt;microsoft.rtc.management.xds.sipdomain&gt;</p></td>
 </tr>
 </tbody>
 </table>
@@ -168,7 +168,7 @@ Lync Server 2013 自動検出サービスは、監督およびフロントエン
 
 
 > [!NOTE]  
-> 新しい SAN エントリを使って、新しく更新された証明書をリバースプロキシの SSL リスナーに割り当てます。
+> 新しく更新された証明書を、リバースプロキシ上の SSL リスナーに新しい SAN エントリで割り当てます。
 
 
 

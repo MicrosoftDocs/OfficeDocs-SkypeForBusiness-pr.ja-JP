@@ -12,16 +12,16 @@ ms:contentKeyID: 48184536
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6651c9cb15322498d68fa9b6cd705b68dc601c6d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4c2cb64b3ca2d8e7d0c520e1d8ff4ee896895e13
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740837"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043419"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41740837"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-20_
+_**トピックの最終更新日:** 2012-10-20_
 
-このセクションでは、組織内のユーザーにリモート通話コントロール機能を展開するプロセスについて説明します。
+ここでは、組織のユーザーにリモート通話コントロール機能を展開するプロセスについて説明します。
 
 <div>
 
 
 > [!NOTE]  
-> リモートユーザーは、組織のファイアウォールの外側にいるリモート通話コントロール機能を使用できますが、外部アクセスシナリオの展開について詳しくは、このドキュメントの範囲外です。 外部ユーザーアクセスの展開の詳細については、展開ドキュメントの「 <A href="lync-server-2013-deploying-external-user-access.md">Lync Server 2013 での外部ユーザーアクセスの展開</A>」を参照してください。
+> リモート ユーザーは組織のファイアウォールの外側にいるときにリモート通話コントロール機能を使用できますが、外部アクセスの展開の詳細はこのドキュメントには記載されていません。 外部ユーザーアクセスの展開の詳細については、「展開」のドキュメントの「Deployment <A href="lync-server-2013-deploying-external-user-access.md">external user access In Lync Server 2013</A> 」を参照してください。
 
 
 
@@ -51,27 +51,27 @@ _**最終更新日:** 2012-10-20_
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [SIP/CSTA ゲートウェイにルーティングするための Lync Server 2013 の構成](lync-server-2013-configuring-lync-server-to-route-to-a-sip-csta-gateway.md)
+  - [SIP/CSTA ゲートウェイにルーティングするように Lync Server 2013 を構成する](lync-server-2013-configuring-lync-server-to-route-to-a-sip-csta-gateway.md)
 
-  - [Lync Server 2013 でのリモート通話コントロールの静的ルートの構成](lync-server-2013-configure-a-static-route-for-remote-call-control.md)
+  - [Lync Server 2013 でリモート通話コントロールの静的ルートを構成する](lync-server-2013-configure-a-static-route-for-remote-call-control.md)
 
-  - [Lync Server 2013 でリモート通話コントロールの信頼済みアプリケーション エントリを構成する](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)
+  - [Lync Server 2013 でのリモート通話コントロールの信頼済みアプリケーションエントリを構成する](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)
 
-  - [Lync Server 2013 で SIP/CSTA ゲートウェイの IP アドレスを定義](lync-server-2013-define-a-sip-csta-gateway-ip-address.md)する (ゲートウェイが TCP を使用するように構成されている場合のみ)
+  - [Lync Server 2013 で SIP/CSTA ゲートウェイの IP アドレスを定義](lync-server-2013-define-a-sip-csta-gateway-ip-address.md)します (ゲートウェイが TCP を使用するように構成されている場合のみ)。
 
-  - [Lync Server 2013 でのリモート通話コントロールの Lync ユーザーの有効化](lync-server-2013-enable-lync-users-for-remote-call-control.md)
+  - [Lync Server 2013 で Lync ユーザーのリモート通話コントロールを有効にする](lync-server-2013-enable-lync-users-for-remote-call-control.md)
 
-  - [Lync Server 2013 でのリモート通話コントロールと電話番号正規化](lync-server-2013-remote-call-control-and-phone-number-normalization.md)
+  - [Lync Server 2013 でのリモート通話コントロールと電話番号の正規化](lync-server-2013-remote-call-control-and-phone-number-normalization.md)
 
-  - [Lync Server 2013 で従来の承認済みホストを削除する (オプション)](lync-server-2013-remove-a-legacy-authorized-host-optional.md) (リモート通話コントロールで以前に有効にしたユーザーを移行する場合のみ)
+  - [Lync Server 2013 での従来の承認済みホストの削除 (オプション)](lync-server-2013-remove-a-legacy-authorized-host-optional.md) (以前にリモート通話コントロールに対して有効にしたユーザーを移行する場合のみ)
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a>関連項目
+## <a name="related-sections"></a>関連情報
 
 [Lync Server 2013 でのリモート通話コントロールの計画](lync-server-2013-planning-for-remote-call-control.md)
 
