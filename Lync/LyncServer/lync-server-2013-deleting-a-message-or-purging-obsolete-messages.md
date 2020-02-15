@@ -12,20 +12,20 @@ ms:contentKeyID: 48706000
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d8040d52690628b6085727d6a1fdac9288b94d5e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5fb0c960140ebe7474ac7b4b5322f7b42d611af5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763239"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048958"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deleting-a-message-or-purging-obsolete-messages-in-lync-server-2013"></a><span data-ttu-id="097e0-102">Lync Server 2013 でのメッセージの削除または廃止メッセージの削除</span><span class="sxs-lookup"><span data-stu-id="097e0-102">Deleting a message or purging obsolete messages in Lync Server 2013</span></span>
+# <a name="deleting-a-message-or-purging-obsolete-messages-in-lync-server-2013"></a><span data-ttu-id="322ba-102">Lync Server 2013 でのメッセージの削除または廃止されたメッセージの削除</span><span class="sxs-lookup"><span data-stu-id="322ba-102">Deleting a message or purging obsolete messages in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41763239"
 
 <span> </span>
 
-<span data-ttu-id="097e0-103">_**最終更新日:** 2014-02-05_</span><span class="sxs-lookup"><span data-stu-id="097e0-103">_**Topic Last Modified:** 2014-02-05_</span></span>
+<span data-ttu-id="322ba-103">_**トピックの最終更新日:** 2014-02-05_</span><span class="sxs-lookup"><span data-stu-id="322ba-103">_**Topic Last Modified:** 2014-02-05_</span></span>
 
-<span data-ttu-id="097e0-104">常設チャット管理者は、常設チャットルームからのメッセージを削除できます (必要に応じて、別のメッセージに置き換えることができます)。</span><span class="sxs-lookup"><span data-stu-id="097e0-104">A Persistent Chat administrator can delete a message from a Persistent Chat room (and, optionally, can replace it with another message).</span></span> <span data-ttu-id="097e0-105">管理者は、継続的なメンテナンスの一部として古いメッセージを削除することで、データベースの増加を最小限に抑えることができます。</span><span class="sxs-lookup"><span data-stu-id="097e0-105">Administrators can also purge obsolete messages as part of ongoing maintenance, to minimize growth of the database.</span></span> <span data-ttu-id="097e0-106">たとえば、次の Windows PowerShell コマンドは、ユーザー kenmyer@litwareinc.com によって投稿されたすべてのメッセージを ITChatRoom チャットルームから削除します。</span><span class="sxs-lookup"><span data-stu-id="097e0-106">For example, this Windows PowerShell command removes all the messages from the ITChatRoom chat room that were posted by the user kenmyer@litwareinc.com:</span></span>
+<span data-ttu-id="322ba-104">常設チャット管理者は、常設チャットルームからメッセージを削除できます (必要に応じて別のメッセージに置き換えることもできます)。</span><span class="sxs-lookup"><span data-stu-id="322ba-104">A Persistent Chat administrator can delete a message from a Persistent Chat room (and, optionally, can replace it with another message).</span></span> <span data-ttu-id="322ba-105">管理者は、継続的なメンテナンスの一環として、古いメッセージを削除して、データベースの拡大を最小限にすることもできます。</span><span class="sxs-lookup"><span data-stu-id="322ba-105">Administrators can also purge obsolete messages as part of ongoing maintenance, to minimize growth of the database.</span></span> <span data-ttu-id="322ba-106">たとえば、次の Windows PowerShell コマンドは、ユーザー kenmyer@litwareinc.com によって投稿された ITChatRoom チャットルームからのすべてのメッセージを削除します。</span><span class="sxs-lookup"><span data-stu-id="322ba-106">For example, this Windows PowerShell command removes all the messages from the ITChatRoom chat room that were posted by the user kenmyer@litwareinc.com:</span></span>
 
     Remove-CsPersistentChatMessage -Identity "atl-persistentchat-001.litwareinc.com\ITChatRoom" -UserUri "sip:kenmyer@litwareinc.com"
 
-<span data-ttu-id="097e0-107">この例では、削除されたすべてのメッセージを、メッセージが利用できなくなったというメモに置き換えます。</span><span class="sxs-lookup"><span data-stu-id="097e0-107">And this example replaces any removed messages with the note that the message is no longer available:</span></span>
+<span data-ttu-id="322ba-107">次の使用例は、削除されたメッセージをすべて、メッセージが使用できなくなったことを示すメモに置き換えます。</span><span class="sxs-lookup"><span data-stu-id="322ba-107">And this example replaces any removed messages with the note that the message is no longer available:</span></span>
 
     Remove-CsPersistentChatMessage -Identity "atl-persistentchat-001.litwareinc.com\ITChatRoom" -UserUri "sip:kenmyer@litwareinc.com" -ReplaceMessage "This message is no longer available."
 
-<span data-ttu-id="097e0-108">詳細については、 [CsPersistentChatMessage](https://docs.microsoft.com/powershell/module/skype/Remove-CsPersistentChatMessage)コマンドレットのヘルプトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="097e0-108">For more information, see the help topic for the [Remove-CsPersistentChatMessage](https://docs.microsoft.com/powershell/module/skype/Remove-CsPersistentChatMessage) cmdlet.</span></span>
+<span data-ttu-id="322ba-108">詳細については、 [test-cspersistentchatmessage](https://docs.microsoft.com/powershell/module/skype/Remove-CsPersistentChatMessage)コマンドレットのヘルプトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="322ba-108">For more information, see the help topic for the [Remove-CsPersistentChatMessage](https://docs.microsoft.com/powershell/module/skype/Remove-CsPersistentChatMessage) cmdlet.</span></span>
 
 </div>
 

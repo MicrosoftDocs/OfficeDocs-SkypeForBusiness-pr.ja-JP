@@ -12,20 +12,20 @@ ms:contentKeyID: 48183666
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de621d7508b69dd3adc3babf487406825f3a93f1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 062eb44fb79d6ecfa33f449e62341003bbed571b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738947"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050449"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="how-do-i-implement-sip-trunking-in-lync-server-2013"></a><span data-ttu-id="dc7ae-102">Lync Server 2013 での SIP トランキングの実装方法</span><span class="sxs-lookup"><span data-stu-id="dc7ae-102">How do I implement SIP trunking in Lync Server 2013?</span></span>
+# <a name="how-do-i-implement-sip-trunking-in-lync-server-2013"></a><span data-ttu-id="cae7f-102">Lync Server 2013 で SIP トランキングを実装するにはどうすればよいですか?</span><span class="sxs-lookup"><span data-stu-id="cae7f-102">How do I implement SIP trunking in Lync Server 2013?</span></span>
 
 </div>
 
@@ -35,101 +35,53 @@ ms.locfileid: "41738947"
 
 <span> </span>
 
-<span data-ttu-id="dc7ae-103">_**最終更新日:** 2013-03-18_</span><span class="sxs-lookup"><span data-stu-id="dc7ae-103">_**Topic Last Modified:** 2013-03-18_</span></span>
+<span data-ttu-id="cae7f-103">_**トピックの最終更新日:** 2013-03-18_</span><span class="sxs-lookup"><span data-stu-id="cae7f-103">_**Topic Last Modified:** 2013-03-18_</span></span>
 
-<span data-ttu-id="dc7ae-104">SIP トランクを実装するには、必要に応じて、Lync Server 2013 クライアントとサービスプロバイダと transcodes メディア間の通信セッションのプロキシとして機能する仲介サーバー経由で接続をルーティングする必要があります。</span><span class="sxs-lookup"><span data-stu-id="dc7ae-104">To implement SIP trunking, you must route the connection through a Mediation Server, which acts as a proxy for communications sessions between Lync Server 2013 clients and the service provider and transcodes media, when necessary.</span></span>
+<span data-ttu-id="cae7f-104">SIP トランキングを実装するには、必要に応じて、Lync Server 2013 クライアントとサービスプロバイダーとコード変換メディア間の通信セッションのプロキシとして機能する仲介サーバーを経由して接続をルーティングする必要があります。</span><span class="sxs-lookup"><span data-stu-id="cae7f-104">To implement SIP trunking, you must route the connection through a Mediation Server, which acts as a proxy for communications sessions between Lync Server 2013 clients and the service provider and transcodes media, when necessary.</span></span>
 
-<span data-ttu-id="dc7ae-105">各仲介サーバーには、内部ネットワークインターフェイスと外部ネットワークインターフェイスがあります。</span><span class="sxs-lookup"><span data-stu-id="dc7ae-105">Each Mediation Server has an internal network interface and an external network interface.</span></span> <span data-ttu-id="dc7ae-106">内部インターフェイスは、フロントエンドサーバーに接続します。</span><span class="sxs-lookup"><span data-stu-id="dc7ae-106">The internal interface connects to the Front End Servers.</span></span> <span data-ttu-id="dc7ae-107">外部インターフェイスは、一般的に、仲介サーバーを公衆交換電話網 (PSTN) ゲートウェイまたは IP PBX に接続するために使用されていたため、ゲートウェイインターフェイスと呼ばれます。</span><span class="sxs-lookup"><span data-stu-id="dc7ae-107">The external interface is commonly called the gateway interface because it has traditionally been used to connect the Mediation Server to a public switched telephone network (PSTN) gateway or an IP-PBX.</span></span> <span data-ttu-id="dc7ae-108">SIP トランクを実装するには、仲介サーバーの外部インターフェイスを ITSP の外部エッジコンポーネントに接続します。</span><span class="sxs-lookup"><span data-stu-id="dc7ae-108">To implement a SIP trunk, you connect the external interface of the Mediation Server to the external edge component of the ITSP.</span></span>
-
-<div>
-
-
-> [!NOTE]  
-> <span data-ttu-id="dc7ae-109">ITSP の外部エッジ コンポーネントとは、セッション ボーダー コントローラー (SBC)、ルーター、またはゲートウェイです。</span><span class="sxs-lookup"><span data-stu-id="dc7ae-109">The external edge component of the ITSP could be a Session Border Controller (SBC), a router, or a gateway.</span></span>
-
-
-
-</div>
-
-<span data-ttu-id="dc7ae-110">仲介サーバーの詳細については、「 [Lync server 2013 の仲介サーバーコンポーネント](lync-server-2013-mediation-server-component.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="dc7ae-110">For details about Mediation Servers, see [Mediation Server component in Lync Server 2013](lync-server-2013-mediation-server-component.md).</span></span>
-
-<div>
-
-## <a name="centralized-vs-distributed-sip-trunking"></a><span data-ttu-id="dc7ae-111">集中型と分散型 SIP トランキングの比較</span><span class="sxs-lookup"><span data-stu-id="dc7ae-111">Centralized vs. Distributed SIP Trunking</span></span>
-
-<span data-ttu-id="dc7ae-112">*一元管理*SIP トランキングは、ブランチサイトトラフィックを含むすべてのボイスオーバーインターネットプロトコル (VoIP) トラフィックをセントラルサイト経由でルーティングします。</span><span class="sxs-lookup"><span data-stu-id="dc7ae-112">*Centralized* SIP trunking routes all Voice over Internet Protocol (VoIP) traffic, including branch site traffic, through your central site.</span></span> <span data-ttu-id="dc7ae-113">一元展開モデルはシンプルでコスト効率が高いため、通常は、Lync Server 2013 で SIP trunks を実装するために推奨される方法です。</span><span class="sxs-lookup"><span data-stu-id="dc7ae-113">The centralized deployment model is simple, cost-effective, and is generally the recommended approach for implementing SIP trunks with Lync Server 2013.</span></span>
-
-<span data-ttu-id="dc7ae-114">*均等割り付け*SIP トランキングは、1つ以上のブランチサイトにローカル SIP トランクを実装する展開モデルです。</span><span class="sxs-lookup"><span data-stu-id="dc7ae-114">*Distributed* SIP trunking is a deployment model in which you implement a local SIP trunk at one or more branch sites.</span></span> <span data-ttu-id="dc7ae-115">VoIP トラフィックは、セントラルサイトを経由せずに、ブランチサイトから直接サービスプロバイダにルーティングされます。</span><span class="sxs-lookup"><span data-stu-id="dc7ae-115">VoIP traffic is then routed from the branch site directly to a service provider without going through the central site.</span></span>
-
-<span data-ttu-id="dc7ae-116">分散型 SIP トランキングが必要なのは、次のケースだけです。</span><span class="sxs-lookup"><span data-stu-id="dc7ae-116">Distributed SIP trunking is required only in the following cases:</span></span>
-
-  - <span data-ttu-id="dc7ae-117">ブランチサイトには、survivable の電話接続 (WAN がダウンした場合など) が必要です。</span><span class="sxs-lookup"><span data-stu-id="dc7ae-117">The branch site requires survivable phone connectivity (for example, if the WAN goes down).</span></span> <span data-ttu-id="dc7ae-118">この要件は、ブランチサイトごとに分析する必要があります。一部の支店では、冗長性とフェールオーバーが必要となる場合がありますが、そうでない場合もあります。</span><span class="sxs-lookup"><span data-stu-id="dc7ae-118">This requirement should be analyzed for each branch site; some of your branches may require redundancy and failover, whereas others may not.</span></span>
-
-  - <span data-ttu-id="dc7ae-119">2つのセントラルサイト間の回復性が必要です。</span><span class="sxs-lookup"><span data-stu-id="dc7ae-119">Resiliency is required between two central sites.</span></span> <span data-ttu-id="dc7ae-120">SIP トランクが各セントラルサイトで終了するようにする必要があります。</span><span class="sxs-lookup"><span data-stu-id="dc7ae-120">You need to make sure that a SIP trunk terminates at each central site.</span></span> <span data-ttu-id="dc7ae-121">たとえば、ダブリンと Tuがセントラルサイトを持っていて、どちらも1つのサイトの SIP トランクのみを使用している場合、その他のサイトのユーザーは PSTN 通話を行うことができません。</span><span class="sxs-lookup"><span data-stu-id="dc7ae-121">For example, if you have Dublin and Tukwila central sites and both use only one site’s SIP trunk, if the trunk goes down, the other site’s users cannot make PSTN calls.</span></span>
-
-  - <span data-ttu-id="dc7ae-122">ブランチサイトとセントラルサイトは、国/地域によって異なります。</span><span class="sxs-lookup"><span data-stu-id="dc7ae-122">The branch site and central site are in different countries/regions.</span></span> <span data-ttu-id="dc7ae-123">互換性と法律上の理由により、国/地域ごとに少なくとも 1 つの SIP トランクが必要です。</span><span class="sxs-lookup"><span data-stu-id="dc7ae-123">For compatibility and legal reasons, you need at least one SIP trunk per country/region.</span></span> <span data-ttu-id="dc7ae-124">たとえば EU では、通信は現地の中央ポイントで終了することなしに国/地域外に出ることはできません。</span><span class="sxs-lookup"><span data-stu-id="dc7ae-124">For example, in the European Union, communications cannot leave a country/region without terminating locally at a centralized point.</span></span>
-
-<span data-ttu-id="dc7ae-125">サイトの地理的な場所や企業内で予想されるトラフィックの量によっては、すべてのユーザーを中央 SIP トランク経由でルーティングすることはできません。また、一部のユーザーをブランチサイトの SIP トランク経由でルーティングすることを選択することもできます。</span><span class="sxs-lookup"><span data-stu-id="dc7ae-125">Depending on the geographical location of sites and how much traffic you anticipate within your enterprise, you may not want to route all users through the central SIP trunk, or you may opt to route some users through a SIP trunk at their branch site.</span></span> <span data-ttu-id="dc7ae-126">必要性を分析するために、次の質問に回答してください。</span><span class="sxs-lookup"><span data-stu-id="dc7ae-126">To analyze your needs, answer the following questions:</span></span>
-
-  - <span data-ttu-id="dc7ae-127">各サイトの規模はどのくらいですか (つまり、エンタープライズ Voip に対して有効になっているユーザー数)?</span><span class="sxs-lookup"><span data-stu-id="dc7ae-127">How big is each site (that is, how many users are enabled for Enterprise Voice)?</span></span>
-
-  - <span data-ttu-id="dc7ae-128">各サイトで最も通話を受ける Direct Inward Dialing (DID) 番号はどれですか。</span><span class="sxs-lookup"><span data-stu-id="dc7ae-128">Which direct inward dialing (DID) numbers at each site get the most phone calls?</span></span>
-
-<span data-ttu-id="dc7ae-129">集中型 SIP トランキングと分散型 SIP トランキングのどちらを展開するかを決定するには、費用便益分析が必要です。</span><span class="sxs-lookup"><span data-stu-id="dc7ae-129">The decision whether to deploy centralized or distributed SIP trunking requires a cost-benefit analysis.</span></span> <span data-ttu-id="dc7ae-130">必要のない場合にも分散型展開モデルを選択した方が有益な場合があります。</span><span class="sxs-lookup"><span data-stu-id="dc7ae-130">In some cases, it may be advantageous to opt for the distributed deployment model even if it is not required.</span></span> <span data-ttu-id="dc7ae-131">完全に一元管理された展開では、すべてのブランチサイトトラフィックが WAN リンクを介してルーティングされます。</span><span class="sxs-lookup"><span data-stu-id="dc7ae-131">In a completely centralized deployment, all branch site traffic is routed over WAN links.</span></span> <span data-ttu-id="dc7ae-132">WAN リンクに必要な帯域幅に費用をかけるより、分散型 SIP トランキングを使用したい場合があります。</span><span class="sxs-lookup"><span data-stu-id="dc7ae-132">Instead of paying for the bandwidth required for WAN linking, you may want to use distributed SIP trunking.</span></span> <span data-ttu-id="dc7ae-133">たとえば、セントラルサイトとフェデレーションされているブランチサイトに Standard Edition サーバーを展開することもできます。または、小型のゲートウェイを使用して Survivable Branch Appliance または Survivable Branch Server を展開することもできます。</span><span class="sxs-lookup"><span data-stu-id="dc7ae-133">For example, you may want to deploy a Standard Edition server at a branch site with federation to the central site, or you may want to deploy a Survivable Branch Appliance or a Survivable Branch Server with a small gateway.</span></span>
+<span data-ttu-id="cae7f-105">各仲介サーバーには、内部ネットワークインターフェイスと外部ネットワークインターフェイスがあります。</span><span class="sxs-lookup"><span data-stu-id="cae7f-105">Each Mediation Server has an internal network interface and an external network interface.</span></span> <span data-ttu-id="cae7f-106">内部インターフェイスはフロントエンドサーバーに接続します。</span><span class="sxs-lookup"><span data-stu-id="cae7f-106">The internal interface connects to the Front End Servers.</span></span> <span data-ttu-id="cae7f-107">一般に、外部インターフェイスは、仲介サーバーを公衆交換電話網 (PSTN) ゲートウェイまたは ip-pbx に接続するために使用されていたため、ゲートウェイインターフェイスと呼ばれていました。</span><span class="sxs-lookup"><span data-stu-id="cae7f-107">The external interface is commonly called the gateway interface because it has traditionally been used to connect the Mediation Server to a public switched telephone network (PSTN) gateway or an IP-PBX.</span></span> <span data-ttu-id="cae7f-108">SIP トランクを実装するには、仲介サーバーの外部インターフェイスを ITSP の外部エッジコンポーネントに接続します。</span><span class="sxs-lookup"><span data-stu-id="cae7f-108">To implement a SIP trunk, you connect the external interface of the Mediation Server to the external edge component of the ITSP.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="dc7ae-134">分散 SIP トランクの詳細については、「 <A href="lync-server-2013-branch-site-sip-trunking.md">Lync Server 2013 のブランチサイト SIP トランク</A>」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="dc7ae-134">For details about distributed SIP trunking, see <A href="lync-server-2013-branch-site-sip-trunking.md">Branch site SIP trunking in Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="cae7f-109">ITSP の外部エッジ コンポーネントとは、セッション ボーダー コントローラー (SBC)、ルーター、またはゲートウェイです。</span><span class="sxs-lookup"><span data-stu-id="cae7f-109">The external edge component of the ITSP could be a Session Border Controller (SBC), a router, or a gateway.</span></span>
 
 
 
 </div>
 
-</div>
+<span data-ttu-id="cae7f-110">仲介サーバーの詳細については、「 [Lync server 2013 の仲介サーバーコンポーネント](lync-server-2013-mediation-server-component.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="cae7f-110">For details about Mediation Servers, see [Mediation Server component in Lync Server 2013](lync-server-2013-mediation-server-component.md).</span></span>
 
 <div>
 
-## <a name="supported-sip-trunking-connection-types"></a><span data-ttu-id="dc7ae-135">サポートされている SIP トランキング接続の種類</span><span class="sxs-lookup"><span data-stu-id="dc7ae-135">Supported SIP Trunking Connection Types</span></span>
+## <a name="centralized-vs-distributed-sip-trunking"></a><span data-ttu-id="cae7f-111">集中型と分散型 SIP トランキングの比較</span><span class="sxs-lookup"><span data-stu-id="cae7f-111">Centralized vs. Distributed SIP Trunking</span></span>
 
-<span data-ttu-id="dc7ae-136">Lync Server は、SIP トランクで次の接続の種類をサポートしています。</span><span class="sxs-lookup"><span data-stu-id="dc7ae-136">Lync Server supports the following connection types for SIP trunking:</span></span>
+<span data-ttu-id="cae7f-112">*一元*SIP トランキングは、ブランチサイトトラフィックを含むすべてのボイスオーバーインターネットプロトコル (VoIP) トラフィックを中央サイト経由でルーティングします。</span><span class="sxs-lookup"><span data-stu-id="cae7f-112">*Centralized* SIP trunking routes all Voice over Internet Protocol (VoIP) traffic, including branch site traffic, through your central site.</span></span> <span data-ttu-id="cae7f-113">一元展開モデルはシンプルで費用対効果があり、通常は、Lync Server 2013 を使用して SIP トランクを実装するために推奨される方法です。</span><span class="sxs-lookup"><span data-stu-id="cae7f-113">The centralized deployment model is simple, cost-effective, and is generally the recommended approach for implementing SIP trunks with Lync Server 2013.</span></span>
 
-  - <span data-ttu-id="dc7ae-p109">Multiprotocol Label Switching (MPLS) は、ネットワーク ノード間でデータを伝送するプライベート ネットワークです。MPLS ネットワークの帯域幅は他のサブスクライバーと共有され、サブスクライバーのデータどうしを区別するためにデータ パケットごとにラベルが付けられます。この接続の種類に仮想プライベート ネットワーク (VPN) は必要ありません。潜在的な欠点は、VoIP トラフィックに優先度を与えないと、過剰な IP トラフィックが VoIP の処理に干渉する可能性があることです。</span><span class="sxs-lookup"><span data-stu-id="dc7ae-p109">Multiprotocol Label Switching (MPLS) is a private network that directs and carries data from one network node to the next. The bandwidth in an MPLS network is shared with other subscribers, and each data packet is assigned a label to distinguish one subscriber’s data from another’s. This connection type does not require a virtual private network (VPN). A potential drawback is that excessive IP traffic can interfere with VoIP operation unless VoIP traffic is given priority.</span></span>
+<span data-ttu-id="cae7f-114">*Distributed*SIP トランキングは、1つ以上のブランチサイトにローカル SIP トランクを実装する展開モデルです。</span><span class="sxs-lookup"><span data-stu-id="cae7f-114">*Distributed* SIP trunking is a deployment model in which you implement a local SIP trunk at one or more branch sites.</span></span> <span data-ttu-id="cae7f-115">その後、VoIP トラフィックは、中央サイトを経由することなく、ブランチサイトから直接サービスプロバイダーにルーティングされます。</span><span class="sxs-lookup"><span data-stu-id="cae7f-115">VoIP traffic is then routed from the branch site directly to a service provider without going through the central site.</span></span>
 
-  - <span data-ttu-id="dc7ae-p110">他のトラフィックを使用しないプライベート接続 (専用の光ファイバー接続、T1 回線など) は、通常、最も信頼できるセキュリティで保護された接続の種類です。 この接続の種類には、最高の通話伝送能力がありますが、通常最も費用がかかります。VPN は必要ありません。プライベート接続は、通話件数が多いか、セキュリティと可用性の要件が厳しい組織に適しています。</span><span class="sxs-lookup"><span data-stu-id="dc7ae-p110">A private connection with no other traffic—for example, a leased fiber-optic connection or T1 line—is typically the most reliable and secure connection type. This connection type provides the highest call-carrying capacity, but it is typically the most expensive. VPN is not required. Private connections are appropriate for organizations with high call volumes or stringent security and availability requirements.</span></span>
+<span data-ttu-id="cae7f-116">分散型 SIP トランキングが必要なのは、次のケースだけです。</span><span class="sxs-lookup"><span data-stu-id="cae7f-116">Distributed SIP trunking is required only in the following cases:</span></span>
 
-  - <span data-ttu-id="dc7ae-145">インターネットは、最も費用のかからない接続の種類ですが、最も信頼性が低くなります。</span><span class="sxs-lookup"><span data-stu-id="dc7ae-145">The Internet is the least expensive connection type, but it is also the least reliable.</span></span> <span data-ttu-id="dc7ae-146">インターネット接続は、VPN を必要とする唯一の Lync Server SIP トランク接続の種類です。</span><span class="sxs-lookup"><span data-stu-id="dc7ae-146">Internet connection is the only Lync Server SIP trunking connection type that requires VPN.</span></span>
+  - <span data-ttu-id="cae7f-117">ブランチ サイトに存続可能な通話接続が必要な場合 (WAN がダウンした場合など)。</span><span class="sxs-lookup"><span data-stu-id="cae7f-117">The branch site requires survivable phone connectivity (for example, if the WAN goes down).</span></span> <span data-ttu-id="cae7f-118">この要件は、ブランチサイトごとに分析する必要があります。ブランチの中には、冗長性とフェールオーバーを必要とするものもあれば、できないものもあります。</span><span class="sxs-lookup"><span data-stu-id="cae7f-118">This requirement should be analyzed for each branch site; some of your branches may require redundancy and failover, whereas others may not.</span></span>
 
-<div>
+  - <span data-ttu-id="cae7f-119">2つの中央サイト間で復元が必要です。</span><span class="sxs-lookup"><span data-stu-id="cae7f-119">Resiliency is required between two central sites.</span></span> <span data-ttu-id="cae7f-120">SIP トランクが各中央サイトで終了するようにする必要があります。</span><span class="sxs-lookup"><span data-stu-id="cae7f-120">You need to make sure that a SIP trunk terminates at each central site.</span></span> <span data-ttu-id="cae7f-121">たとえば、1つの中央サイトを使用していて、両方のサイトの SIP トランクのみを使用している場合、トランクが停止した場合、他のサイトのユーザーは PSTN 通話を行うことができません。</span><span class="sxs-lookup"><span data-stu-id="cae7f-121">For example, if you have Dublin and Tukwila central sites and both use only one site’s SIP trunk, if the trunk goes down, the other site’s users cannot make PSTN calls.</span></span>
 
-## <a name="selecting-a-connection-type"></a><span data-ttu-id="dc7ae-147">接続の種類の選択</span><span class="sxs-lookup"><span data-stu-id="dc7ae-147">Selecting a Connection Type</span></span>
+  - <span data-ttu-id="cae7f-122">ブランチサイトと中央サイトが異なる国/地域にある。</span><span class="sxs-lookup"><span data-stu-id="cae7f-122">The branch site and central site are in different countries/regions.</span></span> <span data-ttu-id="cae7f-123">互換性と法律上の理由により、国/地域ごとに少なくとも 1 つの SIP トランクが必要です。</span><span class="sxs-lookup"><span data-stu-id="cae7f-123">For compatibility and legal reasons, you need at least one SIP trunk per country/region.</span></span> <span data-ttu-id="cae7f-124">たとえば EU では、通信は現地の中央ポイントで終了することなしに国/地域外にでることはできません。</span><span class="sxs-lookup"><span data-stu-id="cae7f-124">For example, in the European Union, communications cannot leave a country/region without terminating locally at a centralized point.</span></span>
 
-<span data-ttu-id="dc7ae-148">企業に最適な SIP トランキング接続の種類は、ニーズと予算によって異なります。</span><span class="sxs-lookup"><span data-stu-id="dc7ae-148">The most appropriate SIP trunking connection type for your enterprise depends on your needs and your budget.</span></span>
+<span data-ttu-id="cae7f-125">サイトの地理的な場所と企業内で予想されるトラフィックの量によっては、すべてのユーザーを中央 SIP トランク経由でルーティングしないようにしたり、一部のユーザーをブランチサイトの SIP トランクを介してルーティングすることを選択することができます。</span><span class="sxs-lookup"><span data-stu-id="cae7f-125">Depending on the geographical location of sites and how much traffic you anticipate within your enterprise, you may not want to route all users through the central SIP trunk, or you may opt to route some users through a SIP trunk at their branch site.</span></span> <span data-ttu-id="cae7f-126">必要性を分析するために、次の質問に回答してください。</span><span class="sxs-lookup"><span data-stu-id="cae7f-126">To analyze your needs, answer the following questions:</span></span>
 
-  - <span data-ttu-id="dc7ae-p112">中規模または比較的大規模な企業では、通常、MPLS ネットワークが最も費用対効果が高くなります。専用のプライベート ネットワークに比べて、必要な帯域幅が安価に提供されます。</span><span class="sxs-lookup"><span data-stu-id="dc7ae-p112">For a mid-size or larger enterprise, an MPLS network usually provides the greatest value. It can provide the necessary bandwidth at a cheaper rate than a specialized private network.</span></span>
+  - <span data-ttu-id="cae7f-127">各サイトの規模はどの程度ですか (つまり、エンタープライズ Voip が有効になっているユーザーの数)。</span><span class="sxs-lookup"><span data-stu-id="cae7f-127">How big is each site (that is, how many users are enabled for Enterprise Voice)?</span></span>
 
-  - <span data-ttu-id="dc7ae-151">大規模な企業には、プライベートな光ファイバー接続、T1、T3、またはそれ以上の接続が必要なことがあります (EU では E1、E3、またはそれ以上の接続)。</span><span class="sxs-lookup"><span data-stu-id="dc7ae-151">Large enterprises may require a private fiber-optic, T1, T3 or higher connection (E1, E3 or higher in the European Union).</span></span>
+  - <span data-ttu-id="cae7f-128">各サイトで最も通話を受ける Direct Inward Dialing (DID) 番号はどれですか。</span><span class="sxs-lookup"><span data-stu-id="cae7f-128">Which direct inward dialing (DID) numbers at each site get the most phone calls?</span></span>
 
-  - <span data-ttu-id="dc7ae-152">通話音量が低い小規模企業または支店の場合、インターネットを介した SIP トランクが最適な選択肢となることがあります。</span><span class="sxs-lookup"><span data-stu-id="dc7ae-152">For a small enterprise or branch site with low call volume, SIP trunking through the Internet may be the best choice.</span></span> <span data-ttu-id="dc7ae-153">この接続の種類は、中規模サイズあるいは比較的大規模なサイトには推奨されません。</span><span class="sxs-lookup"><span data-stu-id="dc7ae-153">This connection type is not recommended for mid-size or larger sites.</span></span>
-
-</div>
-
-</div>
-
-<div>
-
-## <a name="bandwidth-requirements"></a><span data-ttu-id="dc7ae-154">帯域幅要件</span><span class="sxs-lookup"><span data-stu-id="dc7ae-154">Bandwidth Requirements</span></span>
-
-<span data-ttu-id="dc7ae-p114">実装に必要となる帯域幅は、通話処理能力 (サポートされなければならない同時通話の数) によって異なります。代金を支払っている最大処理能力をできるだけ活用できるよう、使用可能な帯域幅を考慮に入れる必要があります。SIP トランクの最大帯域幅要件を計算するには次の式を使用してください。</span><span class="sxs-lookup"><span data-stu-id="dc7ae-p114">The amount of bandwidth your implementation requires depends on call capacity (the number of concurrent calls you must be able to support). You need to consider bandwidth availability, so that you can take full advantage of the peak capacity that you have paid for. Use the following formula to calculate SIP trunk peak bandwidth requirement:</span></span>
-
-<span data-ttu-id="dc7ae-158">SIP トランク最大帯域幅 = 最大同時通話数 x (64 kbps + ヘッダー サイズ)</span><span class="sxs-lookup"><span data-stu-id="dc7ae-158">SIP Trunk Peak Bandwidth = Max Simultaneous Calls x (64 kbps + header size)</span></span>
+<span data-ttu-id="cae7f-129">集中型 SIP トランキングと分散型 SIP トランキングのどちらを展開するかを決定するには、費用便益分析が必要です。</span><span class="sxs-lookup"><span data-stu-id="cae7f-129">The decision whether to deploy centralized or distributed SIP trunking requires a cost-benefit analysis.</span></span> <span data-ttu-id="cae7f-130">必要のない場合にも分散型展開モデルを選択したほうが有益な場合があります。</span><span class="sxs-lookup"><span data-stu-id="cae7f-130">In some cases, it may be advantageous to opt for the distributed deployment model even if it is not required.</span></span> <span data-ttu-id="cae7f-131">完全な集中型展開では、すべてのブランチ サイトのトラフィックが WAN リンク経由でルーティングされます。</span><span class="sxs-lookup"><span data-stu-id="cae7f-131">In a completely centralized deployment, all branch site traffic is routed over WAN links.</span></span> <span data-ttu-id="cae7f-132">WAN リンクに必要な帯域幅に費用をかけるより、分散型 SIP トランキングを使用したい場合があります。</span><span class="sxs-lookup"><span data-stu-id="cae7f-132">Instead of paying for the bandwidth required for WAN linking, you may want to use distributed SIP trunking.</span></span> <span data-ttu-id="cae7f-133">たとえば、中央サイトにフェデレーションがあるブランチサイトで Standard Edition サーバーを展開する場合や、小規模ゲートウェイを使用して存続可能 Branch Appliance または存続可能ブランチサーバーを展開する場合があります。</span><span class="sxs-lookup"><span data-stu-id="cae7f-133">For example, you may want to deploy a Standard Edition server at a branch site with federation to the central site, or you may want to deploy a Survivable Branch Appliance or a Survivable Branch Server with a small gateway.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="dc7ae-159">ヘッダー サイズは最大で 20 バイトです。</span><span class="sxs-lookup"><span data-stu-id="dc7ae-159">Header size is 20 bytes maximum.</span></span>
+> <span data-ttu-id="cae7f-134">分散型 SIP トランキングの詳細については、「 <A href="lync-server-2013-branch-site-sip-trunking.md">Lync Server 2013 のブランチサイト SIP トランキング</A>」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="cae7f-134">For details about distributed SIP trunking, see <A href="lync-server-2013-branch-site-sip-trunking.md">Branch site SIP trunking in Lync Server 2013</A>.</span></span>
 
 
 
@@ -139,29 +91,77 @@ ms.locfileid: "41738947"
 
 <div>
 
-## <a name="codec-support"></a><span data-ttu-id="dc7ae-160">コーデックのサポート</span><span class="sxs-lookup"><span data-stu-id="dc7ae-160">Codec Support</span></span>
+## <a name="supported-sip-trunking-connection-types"></a><span data-ttu-id="cae7f-135">サポートされている SIP トランキング接続の種類</span><span class="sxs-lookup"><span data-stu-id="cae7f-135">Supported SIP Trunking Connection Types</span></span>
 
-<span data-ttu-id="dc7ae-161">Lync Server 2013 は、次のコーデックのみをサポートしています。</span><span class="sxs-lookup"><span data-stu-id="dc7ae-161">Lync Server 2013 supports only the following codecs:</span></span>
+<span data-ttu-id="cae7f-136">Lync Server は、SIP トランキングに対して次の接続の種類をサポートしています。</span><span class="sxs-lookup"><span data-stu-id="cae7f-136">Lync Server supports the following connection types for SIP trunking:</span></span>
 
-  - <span data-ttu-id="dc7ae-162">G.711 A-Law (主に北米以外で使用)</span><span class="sxs-lookup"><span data-stu-id="dc7ae-162">G.711 a-law (used primarily outside North America)</span></span>
+  - <span data-ttu-id="cae7f-p109">Multiprotocol Label Switching (MPLS) は、ネットワーク ノード間でデータを伝送するプライベート ネットワークです。MPLS ネットワークの帯域幅は他のサブスクライバーと共有され、サブスクライバーのデータどうしを区別するためにデータ パケットごとにラベルが付けられます。この接続の種類に仮想プライベート ネットワーク (VPN) は必要ありません。潜在的な欠点は、VoIP トラフィックに優先度を与えないと、過剰な IP トラフィックが VoIP の処理に干渉する可能性があることです。</span><span class="sxs-lookup"><span data-stu-id="cae7f-p109">Multiprotocol Label Switching (MPLS) is a private network that directs and carries data from one network node to the next. The bandwidth in an MPLS network is shared with other subscribers, and each data packet is assigned a label to distinguish one subscriber’s data from another’s. This connection type does not require a virtual private network (VPN). A potential drawback is that excessive IP traffic can interfere with VoIP operation unless VoIP traffic is given priority.</span></span>
 
-  - <span data-ttu-id="dc7ae-163">G.711 μ-Law (北米で使用)</span><span class="sxs-lookup"><span data-stu-id="dc7ae-163">G.711 µ-law (used in North America)</span></span>
+  - <span data-ttu-id="cae7f-p110">他のトラフィックを使用しないプライベート接続 (専用の光ファイバー接続、T1 回線など) は、通常、最も信頼できるセキュリティで保護された接続の種類です。 この接続の種類には、最高の通話伝送能力がありますが、通常最も費用がかかります。VPN は必要ありません。プライベート接続は、通話件数が多いか、セキュリティと可用性の要件が厳しい組織に適しています。</span><span class="sxs-lookup"><span data-stu-id="cae7f-p110">A private connection with no other traffic—for example, a leased fiber-optic connection or T1 line—is typically the most reliable and secure connection type. This connection type provides the highest call-carrying capacity, but it is typically the most expensive. VPN is not required. Private connections are appropriate for organizations with high call volumes or stringent security and availability requirements.</span></span>
+
+  - <span data-ttu-id="cae7f-145">インターネットは、最も費用のかからない接続の種類ですが、最も信頼性が低いです。</span><span class="sxs-lookup"><span data-stu-id="cae7f-145">The Internet is the least expensive connection type, but it is also the least reliable.</span></span> <span data-ttu-id="cae7f-146">インターネット接続は、VPN を必要とする唯一の Lync Server SIP トランキング接続の種類です。</span><span class="sxs-lookup"><span data-stu-id="cae7f-146">Internet connection is the only Lync Server SIP trunking connection type that requires VPN.</span></span>
+
+<div>
+
+## <a name="selecting-a-connection-type"></a><span data-ttu-id="cae7f-147">接続の種類の選択</span><span class="sxs-lookup"><span data-stu-id="cae7f-147">Selecting a Connection Type</span></span>
+
+<span data-ttu-id="cae7f-148">企業に最適な SIP トランキング接続の種類は、ニーズと予算によって異なります。</span><span class="sxs-lookup"><span data-stu-id="cae7f-148">The most appropriate SIP trunking connection type for your enterprise depends on your needs and your budget.</span></span>
+
+  - <span data-ttu-id="cae7f-p112">中規模または比較的大規模な企業では、通常、MPLS ネットワークが最も費用対効果が高くなります。専用のプライベート ネットワークに比べて、必要な帯域幅が安価に提供されます。</span><span class="sxs-lookup"><span data-stu-id="cae7f-p112">For a mid-size or larger enterprise, an MPLS network usually provides the greatest value. It can provide the necessary bandwidth at a cheaper rate than a specialized private network.</span></span>
+
+  - <span data-ttu-id="cae7f-151">大規模な企業には、プライベートな光ファイバー接続、T1、T3、またはそれ以上の接続が必要なことがあります (EU では E1、E3、またはそれ以上の接続)。</span><span class="sxs-lookup"><span data-stu-id="cae7f-151">Large enterprises may require a private fiber-optic, T1, T3 or higher connection (E1, E3 or higher in the European Union).</span></span>
+
+  - <span data-ttu-id="cae7f-152">通話が少ない小規模な企業やブランチサイトでは、インターネットを介した SIP トランキングが最良の選択になることがあります。</span><span class="sxs-lookup"><span data-stu-id="cae7f-152">For a small enterprise or branch site with low call volume, SIP trunking through the Internet may be the best choice.</span></span> <span data-ttu-id="cae7f-153">この接続の種類は、中規模サイズあるいは比較的大規模なサイトには推奨されません。</span><span class="sxs-lookup"><span data-stu-id="cae7f-153">This connection type is not recommended for mid-size or larger sites.</span></span>
+
+</div>
 
 </div>
 
 <div>
 
-## <a name="internet-telephony-service-provider"></a><span data-ttu-id="dc7ae-164">インターネット テレフォニー サービス プロバイダー</span><span class="sxs-lookup"><span data-stu-id="dc7ae-164">Internet Telephony Service Provider</span></span>
+## <a name="bandwidth-requirements"></a><span data-ttu-id="cae7f-154">帯域幅要件</span><span class="sxs-lookup"><span data-stu-id="cae7f-154">Bandwidth Requirements</span></span>
 
-<span data-ttu-id="dc7ae-165">SIP トランク接続のサービス プロバイダー側の実装方法は、ITSP 間で異なります。</span><span class="sxs-lookup"><span data-stu-id="dc7ae-165">How you implement the service provider side of a SIP trunk connection varies from one ITSP to another.</span></span> <span data-ttu-id="dc7ae-166">展開の情報については、サービス プロバイダーにお問い合わせください。</span><span class="sxs-lookup"><span data-stu-id="dc7ae-166">For deployment information, contact your service provider.</span></span> <span data-ttu-id="dc7ae-167">認定された SIP トランクサービスプロバイダのリストについては、「 [Microsoft ユニファイドコミュニケーションでオープンな相互運用性プログラム web サイト](http://go.microsoft.com/fwlink/?linkid=287029)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="dc7ae-167">For a list of certified SIP trunking service providers, see [Microsoft Unified Communications Open Interoperability Program website](http://go.microsoft.com/fwlink/?linkid=287029).</span></span>
+<span data-ttu-id="cae7f-p114">実装に必要となる帯域幅は、通話処理能力 (サポートされなければならない同時通話の数) によって異なります。代金を支払っている最大処理能力をできるだけ活用できるよう、使用可能な帯域幅を考慮に入れる必要があります。SIP トランクの最大帯域幅要件を計算するには次の式を使用してください。</span><span class="sxs-lookup"><span data-stu-id="cae7f-p114">The amount of bandwidth your implementation requires depends on call capacity (the number of concurrent calls you must be able to support). You need to consider bandwidth availability, so that you can take full advantage of the peak capacity that you have paid for. Use the following formula to calculate SIP trunk peak bandwidth requirement:</span></span>
 
-<span data-ttu-id="dc7ae-168">Microsoft 認定 SIP トランキング プロバイダーの詳細については、Microsoft 担当者に問い合わせてください。</span><span class="sxs-lookup"><span data-stu-id="dc7ae-168">For details about Microsoft certified SIP trunking providers, contact your Microsoft representative.</span></span>
+<span data-ttu-id="cae7f-158">SIP トランク最大帯域幅 = 最大同時通話数 x (64 kbps + ヘッダー サイズ)</span><span class="sxs-lookup"><span data-stu-id="cae7f-158">SIP Trunk Peak Bandwidth = Max Simultaneous Calls x (64 kbps + header size)</span></span>
+
+<div>
+
+
+> [!NOTE]  
+> <span data-ttu-id="cae7f-159">ヘッダー サイズは最大で 20 バイトです。</span><span class="sxs-lookup"><span data-stu-id="cae7f-159">Header size is 20 bytes maximum.</span></span>
+
+
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="codec-support"></a><span data-ttu-id="cae7f-160">コーデックのサポート</span><span class="sxs-lookup"><span data-stu-id="cae7f-160">Codec Support</span></span>
+
+<span data-ttu-id="cae7f-161">Lync Server 2013 でサポートされているコーデックは次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="cae7f-161">Lync Server 2013 supports only the following codecs:</span></span>
+
+  - <span data-ttu-id="cae7f-162">G.711 A-Law (主に北米以外で使用)</span><span class="sxs-lookup"><span data-stu-id="cae7f-162">G.711 a-law (used primarily outside North America)</span></span>
+
+  - <span data-ttu-id="cae7f-163">G.711 µ-Law (北米で使用)</span><span class="sxs-lookup"><span data-stu-id="cae7f-163">G.711 µ-law (used in North America)</span></span>
+
+</div>
+
+<div>
+
+## <a name="internet-telephony-service-provider"></a><span data-ttu-id="cae7f-164">インターネット テレフォニー サービス プロバイダー</span><span class="sxs-lookup"><span data-stu-id="cae7f-164">Internet Telephony Service Provider</span></span>
+
+<span data-ttu-id="cae7f-165">SIP トランク接続のサービス プロバイダー側の実装方法は、ITSP 間で異なります。</span><span class="sxs-lookup"><span data-stu-id="cae7f-165">How you implement the service provider side of a SIP trunk connection varies from one ITSP to another.</span></span> <span data-ttu-id="cae7f-166">展開の情報については、サービス プロバイダーにお問い合わせください。</span><span class="sxs-lookup"><span data-stu-id="cae7f-166">For deployment information, contact your service provider.</span></span> <span data-ttu-id="cae7f-167">認定済み SIP トランキングサービスプロバイダーの一覧については、「 [Microsoft 統合コミュニケーションオープン相互運用性プログラム web サイト](http://go.microsoft.com/fwlink/?linkid=287029)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="cae7f-167">For a list of certified SIP trunking service providers, see [Microsoft Unified Communications Open Interoperability Program website](http://go.microsoft.com/fwlink/?linkid=287029).</span></span>
+
+<span data-ttu-id="cae7f-168">Microsoft 認定 SIP トランキング プロバイダーの詳細については、Microsoft 担当者に問い合わせてください。</span><span class="sxs-lookup"><span data-stu-id="cae7f-168">For details about Microsoft certified SIP trunking providers, contact your Microsoft representative.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="dc7ae-p116">SIP トランクを通過するすべての機能を ITSP が確実にサポートするためには、Microsoft 認定のサービス プロバイダーを利用する必要があります (セッションのセットアップおよび管理、拡張 VoIP サービスの全機能のサポートなど)。Microsoft テクニカル サポートは、認定されていないプロバイダーを使用する構成には適用されません。現在、SIP トランキングに認定されていないインターネット サービス プロバイダーを使用している場合は、そのプロバイダーを ISP として使用し続け、SIP トランキングには Microsoft 認定プロバイダーを使用することもできます。</span><span class="sxs-lookup"><span data-stu-id="dc7ae-p116">You must use a Microsoft certified service provider to ensure that your ITSP supports all of the functionality that traverses the SIP trunk (for example, setting up and managing sessions and supporting all of the extended VoIP services). Microsoft technical support does not extend to configurations that use noncertified providers. If you currently use an Internet service provider that is not certified for SIP trunking, you can opt to continue using that provider as your ISP and use a provider certified by Microsoft for SIP trunking.</span></span>
+> <span data-ttu-id="cae7f-p116">SIP トランクを通過するすべての機能を ITSP が確実にサポートするためには、Microsoft 認定のサービス プロバイダーを利用する必要があります (セッションのセットアップおよび管理、拡張 VoIP サービスの全機能のサポートなど)。Microsoft テクニカル サポートは、認定されていないプロバイダーを使用する構成には適用されません。現在、SIP トランキングに認定されていないインターネット サービス プロバイダーを使用している場合は、そのプロバイダーを ISP として使用し続け、SIP トランキングには Microsoft 認定プロバイダーを使用することもできます。</span><span class="sxs-lookup"><span data-stu-id="cae7f-p116">You must use a Microsoft certified service provider to ensure that your ITSP supports all of the functionality that traverses the SIP trunk (for example, setting up and managing sessions and supporting all of the extended VoIP services). Microsoft technical support does not extend to configurations that use noncertified providers. If you currently use an Internet service provider that is not certified for SIP trunking, you can opt to continue using that provider as your ISP and use a provider certified by Microsoft for SIP trunking.</span></span>
 
 
 
