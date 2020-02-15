@@ -18,12 +18,12 @@ ms.custom:
 description: Microsoft Teamsの計画、展開、および実行方法に関するトレーニングビデオ、PowerPointデッキ、チュートリアル、およびその他の管理者向けリソース。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a602aef5d817e3d7aecae95491f7de559598570b
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 9cf627c21e98f64f14a8a925fa615f02b38fae28
+ms.sourcegitcommit: 561b9bab7d6f5a621436bc85ea28ea14657e7868
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834469"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048808"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams の管理者トレーニング
 
@@ -90,17 +90,18 @@ ms.locfileid: "41834469"
 
 <h2>テクニカルなトレーニング</h2>
 
-| モジュール | ビデオ | PowerPoint デッキ |
+| モジュール | ビデオ | PowerPoint デッキ  |
 | ------------ | -------------------- | -------------------- |
 | [Microsoft のメカニズム-IT YouTube チャネルの Teams の基礎](https://aka.ms/MicrosoftTeamsforIT) | [ビデオ: IT のための Teams の基礎](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn)(10:13 分)<br>[ビデオ: Teams を展開 & 構成する-概要](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2)(8:22 分)  <br>[ビデオ: セキュリティとコンプライアンス](https://youtu.be/91lHNKVVvQ4)(12:42 分)<br>[ビデオ: セキュリティとコンプライアンスのための Teams コントロール](https://www.youtube.com/watch?v=Km4T4hMM__k)(10:54 分)||
 | コア コンポーネントの基礎 | [ビデオ](https://aka.ms/teams-foundations) | [デッキ](https://aka.ms/teams-foundations-deck) |
 | Windows デスクトップ クライアント | [ビデオ](https://aka.ms/teams-clients) | [デッキ](https://aka.ms/teams-clients-deck) |
 | ガバナンス、管理とライフサイクル | [ビデオ](https://aka.ms/teams-governance) | [デッキ](https://aka.ms/teams-governance-deck) |
 | セキュリティとコンプライアンス | [ビデオ](https://aka.ms/teams-security-compliance) | [デッキ](https://aka.ms/teams-security-compliance-deck) |
-| ネットワークの計画 | [ビデオ](https://aka.ms/teams-networking) | [デッキ](https://aka.ms/teams-networking-deck) |
 | 通話品質の概要 | [ビデオ](https://aka.ms/teams-quality) | [デッキ](https://aka.ms/teams-quality-deck) |
 | 会議の概要 | [ビデオ](https://aka.ms/teams-meetings-intro) | [デッキ](https://aka.ms/teams-meetings-intro-deck) |
-| メディア |[ビデオ](https://aka.ms/media-in-teams)  | [デッキ](https://aka.ms/media-in-teams-deck)|
+| メディア-会議が簡単に|[ビデオ](https://aka.ms/media-in-teams)  | [デッキ](https://aka.ms/media-in-teams-deck)|
+| メディア-メディアフロー | [ビデオ](https://aka.ms/teams-media-flows) | [デッキ](https://aka.ms/teams-media-flows-deck)  |
+| 動的な緊急通話 | [ビデオ](https://aka.ms/teams-dec) |  [デッキ](https://aka.ms/teams-dec-deck) |
 | ライブ イベント | [ビデオ](https://aka.ms/teams-live-events-session) | [デッキ](https://aka.ms/teams-live-events-deck) |
 | 電話システムの概要 | [ビデオ](https://aka.ms/teams-phone-system) | [デッキ](https://aka.ms/teams-phone-system-deck) |
 | ダイレクト ルーティング | [ビデオ](https://aka.ms/teams-direct-routing) | [デッキ](https://aka.ms/teams-direct-routing-deck) |

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 専任の会議の開催者'
+title: 'Lync Server 2013: 専用の会議の開催者'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183730
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 429c68ad96d4738b835f549a5f355e6c133ead74
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4609f588eec8d68ec163abd8a15a44f5f88a7620
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728537"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044089"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="dedicated-meeting-organizers-in-lync-server-2013"></a><span data-ttu-id="7e336-102">Lync Server 2013 の専用会議の開催者</span><span class="sxs-lookup"><span data-stu-id="7e336-102">Dedicated meeting organizers in Lync Server 2013</span></span>
+# <a name="dedicated-meeting-organizers-in-lync-server-2013"></a><span data-ttu-id="f14e1-102">Lync Server 2013 の専用の会議の開催者</span><span class="sxs-lookup"><span data-stu-id="f14e1-102">Dedicated meeting organizers in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41728537"
 
 <span> </span>
 
-<span data-ttu-id="7e336-103">_**最終更新日:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="7e336-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="f14e1-103">_**トピックの最終更新日:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="f14e1-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="7e336-104">大会議のプールでのリアルタイム通信のトラフィックを最小限に抑えるため、Lync クライアントを使用して定期的にサインインし、インスタントメッセージング (IM)、プレゼンス、会議、音声セッションに参加するユーザーをホストすることはお勧めしません。</span><span class="sxs-lookup"><span data-stu-id="7e336-104">To minimize the real-time communications traffic in the large-meeting pool, we do not recommend hosting users who regularly sign in using Lync clients and participate in instant messaging (IM), presence, conferencing, and voice sessions.</span></span> <span data-ttu-id="7e336-105">代わりに、次のいずれかの操作を行うことをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="7e336-105">Instead, we recommend doing one of the following:</span></span>
+<span data-ttu-id="f14e1-p101">大規模な会議のプールでのリアルタイム通信トラフィックを最小限に抑えるために、Lync クライアントを使用して定期的にサインインし、インスタント メッセージング (IM)、プレゼンス、電話会議、および音声のセッションに参加するユーザーをホストしないことをお勧めします。代わりに、次のどちらかを行うことをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="f14e1-p101">To minimize the real-time communications traffic in the large-meeting pool, we do not recommend hosting users who regularly sign in using Lync clients and participate in instant messaging (IM), presence, conferencing, and voice sessions. Instead, we recommend doing one of the following:</span></span>
 
-  - <span data-ttu-id="7e336-106">大人数の会議をスケジュールするためだけに1つまたは複数の専用ユーザーアカウントを作成します。</span><span class="sxs-lookup"><span data-stu-id="7e336-106">Create one or more dedicated user accounts just for scheduling large meetings, or</span></span>
+  - <span data-ttu-id="f14e1-106">大規模な会議のスケジュール専用のユーザー アカウントを 1 つ以上作成します。</span><span class="sxs-lookup"><span data-stu-id="f14e1-106">Create one or more dedicated user accounts just for scheduling large meetings, or</span></span>
 
-  - <span data-ttu-id="7e336-107">大規模な会議のプールで大人数の会議をスケジュールする担当者のユーザーアカウント。</span><span class="sxs-lookup"><span data-stu-id="7e336-107">Home the user accounts of the staff responsible for scheduling large meetings on a large-meeting pool.</span></span>
+  - <span data-ttu-id="f14e1-107">大規模な会議のプールに、大規模な会議のスケジュール担当スタッフのユーザー アカウントを所属させます。</span><span class="sxs-lookup"><span data-stu-id="f14e1-107">Home the user accounts of the staff responsible for scheduling large meetings on a large-meeting pool.</span></span>
 
-<span data-ttu-id="7e336-108">どちらの場合も、大規模な会議のプールをホームにしているユーザーアカウントを使用して、会議をスケジュールする以外に Lync に定期的にサインインすることはできません。</span><span class="sxs-lookup"><span data-stu-id="7e336-108">In either case, the user accounts that are homed on the large-meeting pool should not be used to regularly sign in to Lync, other than to schedule meetings.</span></span>
+<span data-ttu-id="f14e1-108">どちらの場合も、大規模な会議のプールに所属するユーザー アカウントでは、会議のスケジュール以外の目的で Lync に定期的にサインインしないでください。</span><span class="sxs-lookup"><span data-stu-id="f14e1-108">In either case, the user accounts that are homed on the large-meeting pool should not be used to regularly sign in to Lync, other than to schedule meetings.</span></span>
 
 </div>
 

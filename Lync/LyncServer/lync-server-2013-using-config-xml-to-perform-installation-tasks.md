@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: インストールタスクを実行するための Config.xml の使用'
+title: 'Lync Server 2013: Config.xml を使用してインストールタスクを実行する'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183332
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5b6e037f2c69e963e8ca5963a71dabe80f9c75fd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2adadafcbb5338f47aa13d25b3dfd39386935b30
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744177"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044329"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="using-configxml-to-perform-installation-tasks-in-lync-server-2013"></a><span data-ttu-id="f6361-102">Lync Server 2013 で Config.xml を使ってインストールタスクを実行する</span><span class="sxs-lookup"><span data-stu-id="f6361-102">Using Config.xml to perform installation tasks in Lync Server 2013</span></span>
+# <a name="using-configxml-to-perform-installation-tasks-in-lync-server-2013"></a><span data-ttu-id="a97a8-102">Lync Server 2013 で Config.xml を使用してインストールタスクを実行する</span><span class="sxs-lookup"><span data-stu-id="a97a8-102">Using Config.xml to perform installation tasks in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "41744177"
 
 <span> </span>
 
-<span data-ttu-id="f6361-103">_**最終更新日:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="f6361-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="a97a8-103">_**トピックの最終更新日:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="a97a8-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="f6361-p101">Office カスタマイズ ツール (OCT) はカスタマイズ インストール向けの主要ツールですが、管理者は OCT では使用できない追加のインストール手順を Config.xml ファイルによって指定できます。以下のカスタマイズは、Config.xml ファイルを使用しないと実行できません。</span><span class="sxs-lookup"><span data-stu-id="f6361-p101">Although the Office Customization Tool (OCT) is the primary tool for customization installation, administrators can use the Config.xml file to specify additional installation instructions that are not available in the OCT. The following customizations can only be made by using the Config.xml file:</span></span>
+<span data-ttu-id="a97a8-p101">Office カスタマイズ ツール (OCT) はカスタマイズ インストール向けの主要ツールですが、管理者は OCT では使用できない追加のインストール手順を Config.xml ファイルによって指定できます。以下のカスタマイズは、Config.xml ファイルを使用しないと実行できません。</span><span class="sxs-lookup"><span data-stu-id="a97a8-p101">Although the Office Customization Tool (OCT) is the primary tool for customization installation, administrators can use the Config.xml file to specify additional installation instructions that are not available in the OCT. The following customizations can only be made by using the Config.xml file:</span></span>
 
-  - <span data-ttu-id="f6361-106">ネットワーク インストール ポイントのパスを指定する。</span><span class="sxs-lookup"><span data-stu-id="f6361-106">Specify the path of the network installation point.</span></span>
+  - <span data-ttu-id="a97a8-106">ネットワーク インストール ポイントのパスを指定する。</span><span class="sxs-lookup"><span data-stu-id="a97a8-106">Specify the path of the network installation point.</span></span>
 
-  - <span data-ttu-id="f6361-107">インストールする製品を選択する。</span><span class="sxs-lookup"><span data-stu-id="f6361-107">Select the products to install.</span></span>
+  - <span data-ttu-id="a97a8-107">インストールする製品を選択する。</span><span class="sxs-lookup"><span data-stu-id="a97a8-107">Select the products to install.</span></span>
 
-  - <span data-ttu-id="f6361-108">ログ記録や、セットアップ カスタマイズ ファイルおよびソフトウェア更新プログラムの場所を構成する。</span><span class="sxs-lookup"><span data-stu-id="f6361-108">Configure logging and the location of the Setup customization file and software updates.</span></span>
+  - <span data-ttu-id="a97a8-108">ログ記録や、セットアップ カスタマイズ ファイルおよびソフトウェア更新プログラムの場所を構成する。</span><span class="sxs-lookup"><span data-stu-id="a97a8-108">Configure logging and the location of the Setup customization file and software updates.</span></span>
 
-  - <span data-ttu-id="f6361-109">インストール オプション (ユーザー名など) を指定する。</span><span class="sxs-lookup"><span data-stu-id="f6361-109">Specify installation options, such as user name.</span></span>
+  - <span data-ttu-id="a97a8-109">インストール オプション (ユーザー名など) を指定する。</span><span class="sxs-lookup"><span data-stu-id="a97a8-109">Specify installation options, such as user name.</span></span>
 
-  - <span data-ttu-id="f6361-110">Office をインストールせずにローカル インストール ソース (LIS) をユーザーのコンピューターにコピーする。</span><span class="sxs-lookup"><span data-stu-id="f6361-110">Copy the local installation source (LIS) to the user's computer without installing Office.</span></span>
+  - <span data-ttu-id="a97a8-110">Office をインストールせずにローカル インストール ソース (LIS) をユーザーのコンピューターにコピーする。</span><span class="sxs-lookup"><span data-stu-id="a97a8-110">Copy the local installation source (LIS) to the user's computer without installing Office.</span></span>
 
-  - <span data-ttu-id="f6361-111">インストールに対する言語の追加または削除を行う。</span><span class="sxs-lookup"><span data-stu-id="f6361-111">Add or remove languages from the installation.</span></span>
+  - <span data-ttu-id="a97a8-111">インストールに対して言語の追加または削除を行う。</span><span class="sxs-lookup"><span data-stu-id="a97a8-111">Add or remove languages from the installation.</span></span>
 
-<span data-ttu-id="f6361-112">Lync 2013 サイレントインストールを構成するには、Config.xml ファイルを使用することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="f6361-112">We recommend that you use the Config.xml file to configure Lync 2013 silent installation.</span></span>
+<span data-ttu-id="a97a8-112">Config.xml ファイルを使用して Lync 2013 サイレントインストールを構成することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="a97a8-112">We recommend that you use the Config.xml file to configure Lync 2013 silent installation.</span></span>
 
-<span data-ttu-id="f6361-113">既定では、コア製品フォルダーに保存されている Config.xml ファイル (product など\\) が含まれます。WW) その製品をインストールするようにセットアップに指示します。</span><span class="sxs-lookup"><span data-stu-id="f6361-113">By default, the Config.xml file that is stored in the core product folder (for example, \\product.WW) directs Setup to install that product.</span></span> <span data-ttu-id="f6361-114">たとえば、次のフォルダーの Config.xml ファイルは Lync 2013 をインストールします。</span><span class="sxs-lookup"><span data-stu-id="f6361-114">For example, the Config.xml file in the following folder installs Lync 2013:</span></span>
+<span data-ttu-id="a97a8-113">既定では、コア製品フォルダー (たとえば、product) \\に格納されている config.xml ファイル。WW) セットアップに、その製品をインストールするように指示します。</span><span class="sxs-lookup"><span data-stu-id="a97a8-113">By default, the Config.xml file that is stored in the core product folder (for example, \\product.WW) directs Setup to install that product.</span></span> <span data-ttu-id="a97a8-114">たとえば、次のフォルダーの Config.xml ファイルでは、Lync 2013 がインストールされます。</span><span class="sxs-lookup"><span data-stu-id="a97a8-114">For example, the Config.xml file in the following folder installs Lync 2013:</span></span>
 
-  - <span data-ttu-id="f6361-115">\\\\サーバー\\共有\\Lync15\\Lync. \\xml</span><span class="sxs-lookup"><span data-stu-id="f6361-115">\\\\server\\share\\Lync15\\Lync.WW \\Config.xml</span></span>
+  - <span data-ttu-id="a97a8-115">\\\\サーバー\\共有\\Lync15\\Lync. \\xml</span><span class="sxs-lookup"><span data-stu-id="a97a8-115">\\\\server\\share\\Lync15\\Lync.WW \\Config.xml</span></span>
 
-<span data-ttu-id="f6361-116">Lync 2013 のインストールに最もよく使われる Config.xml 要素は、次の表に記載されています。</span><span class="sxs-lookup"><span data-stu-id="f6361-116">The Config.xml elements most commonly used for Lync 2013 installation are listed in the following table.</span></span>
+<span data-ttu-id="a97a8-116">Lync 2013 のインストールに最もよく使用される Config.xml 要素を、次の表に示します。</span><span class="sxs-lookup"><span data-stu-id="a97a8-116">The Config.xml elements most commonly used for Lync 2013 installation are listed in the following table.</span></span>
 
-### <a name="configxml-elements"></a><span data-ttu-id="f6361-117">Config.xml の要素</span><span class="sxs-lookup"><span data-stu-id="f6361-117">Config.xml elements</span></span>
+### <a name="configxml-elements"></a><span data-ttu-id="a97a8-117">Config.xml の要素</span><span class="sxs-lookup"><span data-stu-id="a97a8-117">Config.xml elements</span></span>
 
 <table>
 <colgroup>
@@ -68,60 +68,60 @@ ms.locfileid: "41744177"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="f6361-118">要素</span><span class="sxs-lookup"><span data-stu-id="f6361-118">Element</span></span></th>
-<th><span data-ttu-id="f6361-119">説明</span><span class="sxs-lookup"><span data-stu-id="f6361-119">Description</span></span></th>
+<th><span data-ttu-id="a97a8-118">要素</span><span class="sxs-lookup"><span data-stu-id="a97a8-118">Element</span></span></th>
+<th><span data-ttu-id="a97a8-119">説明</span><span class="sxs-lookup"><span data-stu-id="a97a8-119">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f6361-120">Configuration</span><span class="sxs-lookup"><span data-stu-id="f6361-120">Configuration</span></span></p></td>
-<td><p><span data-ttu-id="f6361-121">トップレベルの要素 (必須)。</span><span class="sxs-lookup"><span data-stu-id="f6361-121">Top-level element (required).</span></span> <span data-ttu-id="f6361-122">Product 属性 (製品 = Lync など) が含まれています。</span><span class="sxs-lookup"><span data-stu-id="f6361-122">Contains the Product attribute, for example: Product=Lync</span></span></p></td>
+<td><p><span data-ttu-id="a97a8-120">Configuration</span><span class="sxs-lookup"><span data-stu-id="a97a8-120">Configuration</span></span></p></td>
+<td><p><span data-ttu-id="a97a8-p103">最上位の要素 (必須)。製品属性が含まれます。例: Product=Lync</span><span class="sxs-lookup"><span data-stu-id="a97a8-p103">Top-level element (required). Contains the Product attribute, for example: Product=Lync</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f6361-123">OptionState</span><span class="sxs-lookup"><span data-stu-id="f6361-123">OptionState</span></span></p></td>
-<td><p><span data-ttu-id="f6361-124">インストール中、特定の製品の機能が処理される方法を指定します。</span><span class="sxs-lookup"><span data-stu-id="f6361-124">Specifies how specific product features are handled during installation.</span></span> <span data-ttu-id="f6361-125">次の属性を使用して、Business Connectivity Services のインストールを防止します。これには、Outlook 2010 を妨害する共有コンポーネントが含まれます。</span><span class="sxs-lookup"><span data-stu-id="f6361-125">Use the following attributes to prevent installation of Business Connectivity Services, which includes shared components that interfere with Outlook 2010:</span></span></p>
+<td><p><span data-ttu-id="a97a8-123">OptionState</span><span class="sxs-lookup"><span data-stu-id="a97a8-123">OptionState</span></span></p></td>
+<td><p><span data-ttu-id="a97a8-124">インストール中、特定の製品の機能が処理される方法を指定します。</span><span class="sxs-lookup"><span data-stu-id="a97a8-124">Specifies how specific product features are handled during installation.</span></span> <span data-ttu-id="a97a8-125">次の属性を使用して、Outlook 2010 に影響を与える共有コンポーネントを含む Business Connectivity Services のインストールを禁止します。</span><span class="sxs-lookup"><span data-stu-id="a97a8-125">Use the following attributes to prevent installation of Business Connectivity Services, which includes shared components that interfere with Outlook 2010:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="f6361-126">Id =&quot;lobimain&quot;</span><span class="sxs-lookup"><span data-stu-id="f6361-126">Id=&quot;LOBiMain&quot;</span></span></p></li>
-<li><p><span data-ttu-id="f6361-127">都道府県 =&quot;不在&quot;</span><span class="sxs-lookup"><span data-stu-id="f6361-127">State=&quot;Absent&quot;</span></span></p></li>
-<li><p><span data-ttu-id="f6361-128">子供 =&quot;強制&quot;</span><span class="sxs-lookup"><span data-stu-id="f6361-128">Children=&quot;Force&quot;</span></span></p></li>
+<li><p><span data-ttu-id="a97a8-126">Id =&quot;lobimain&quot;</span><span class="sxs-lookup"><span data-stu-id="a97a8-126">Id=&quot;LOBiMain&quot;</span></span></p></li>
+<li><p><span data-ttu-id="a97a8-127">状態 =&quot;存在しない&quot;</span><span class="sxs-lookup"><span data-stu-id="a97a8-127">State=&quot;Absent&quot;</span></span></p></li>
+<li><p><span data-ttu-id="a97a8-128">Children =&quot;Force&quot;</span><span class="sxs-lookup"><span data-stu-id="a97a8-128">Children=&quot;Force&quot;</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f6361-129">Display</span><span class="sxs-lookup"><span data-stu-id="f6361-129">Display</span></span></p></td>
-<td><p><span data-ttu-id="f6361-p105">セットアップがユーザーに表示する UI のレベル。一般的には次の属性があります。</span><span class="sxs-lookup"><span data-stu-id="f6361-p105">The level of UI that Setup displays to the user. Typical attributes include the following:</span></span></p>
+<td><p><span data-ttu-id="a97a8-129">表示</span><span class="sxs-lookup"><span data-stu-id="a97a8-129">Display</span></span></p></td>
+<td><p><span data-ttu-id="a97a8-p105">セットアップがユーザーに表示する UI のレベル。一般的には次の属性があります。</span><span class="sxs-lookup"><span data-stu-id="a97a8-p105">The level of UI that Setup displays to the user. Typical attributes include the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="f6361-132">"はい"&quot;の&quot; | &quot;通知&quot;= [いいえ] (既定)</span><span class="sxs-lookup"><span data-stu-id="f6361-132">CompletionNotice=&quot;Yes&quot; | &quot;No&quot;(default)</span></span></p></li>
-<li><p><span data-ttu-id="f6361-133">AcceptEula =&quot;Yes&quot; | &quot;no&quot;(既定値)</span><span class="sxs-lookup"><span data-stu-id="f6361-133">AcceptEula=&quot;Yes&quot; | &quot;No&quot;(default)</span></span></p></li>
+<li><p><span data-ttu-id="a97a8-132">完了通知 =&quot;はい&quot; | &quot;No&quot;(既定値)</span><span class="sxs-lookup"><span data-stu-id="a97a8-132">CompletionNotice=&quot;Yes&quot; | &quot;No&quot;(default)</span></span></p></li>
+<li><p><span data-ttu-id="a97a8-133">AcceptEula =&quot;はい&quot; | &quot;No&quot;(既定値)</span><span class="sxs-lookup"><span data-stu-id="a97a8-133">AcceptEula=&quot;Yes&quot; | &quot;No&quot;(default)</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f6361-134">Logging</span><span class="sxs-lookup"><span data-stu-id="f6361-134">Logging</span></span></p></td>
-<td><p><span data-ttu-id="f6361-p106">セットアップが実行するログ記録の種類のオプション。一般的には次の属性があります。</span><span class="sxs-lookup"><span data-stu-id="f6361-p106">Options for the kind of logging that Setup performs. Typical attributes include the following:</span></span></p>
+<td><p><span data-ttu-id="a97a8-134">ログ記録</span><span class="sxs-lookup"><span data-stu-id="a97a8-134">Logging</span></span></p></td>
+<td><p><span data-ttu-id="a97a8-p106">セットアップが実行するログ記録の種類のオプション。一般的には次の属性があります。</span><span class="sxs-lookup"><span data-stu-id="a97a8-p106">Options for the kind of logging that Setup performs. Typical attributes include the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="f6361-137">Type =&quot;Off&quot; | &quot;Standard&quot;(既定) |&quot;Verbose&quot;</span><span class="sxs-lookup"><span data-stu-id="f6361-137">Type =&quot;Off&quot; | &quot;Standard&quot;(default) | &quot;Verbose&quot;</span></span></p></li>
-<li><p><span data-ttu-id="f6361-138">Template=”filename.txt” (ログファイルの名前)</span><span class="sxs-lookup"><span data-stu-id="f6361-138">Template=”filename.txt” (the name of the log file)</span></span></p></li>
+<li><p><span data-ttu-id="a97a8-137">Type =&quot;Off&quot; | &quot;Standard&quot;(既定値) |&quot;詳細&quot;</span><span class="sxs-lookup"><span data-stu-id="a97a8-137">Type =&quot;Off&quot; | &quot;Standard&quot;(default) | &quot;Verbose&quot;</span></span></p></li>
+<li><p><span data-ttu-id="a97a8-138">Template=”filename.txt” (ログファイルの名前)</span><span class="sxs-lookup"><span data-stu-id="a97a8-138">Template=”filename.txt” (the name of the log file)</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f6361-139">Setting</span><span class="sxs-lookup"><span data-stu-id="f6361-139">Setting</span></span></p></td>
-<td><p><span data-ttu-id="f6361-p107">Windows インストーラーのプロパティの値を指定します。一般的には次の属性があります。</span><span class="sxs-lookup"><span data-stu-id="f6361-p107">Specifies values for Windows Installer properties. Typical attributes include the following:</span></span></p>
+<td><p><span data-ttu-id="a97a8-139">設定</span><span class="sxs-lookup"><span data-stu-id="a97a8-139">Setting</span></span></p></td>
+<td><p><span data-ttu-id="a97a8-p107">Windows インストーラーのプロパティの値を指定します。一般的には次の属性があります。</span><span class="sxs-lookup"><span data-stu-id="a97a8-p107">Specifies values for Windows Installer properties. Typical attributes include the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="f6361-142">設定 Id =&quot;Name&quot; (Windows Installer プロパティの名前)</span><span class="sxs-lookup"><span data-stu-id="f6361-142">Setting Id=&quot;name&quot; (the name of the Windows Installer property)</span></span></p></li>
-<li><p><span data-ttu-id="f6361-143">Value =&quot;value&quot; (プロパティに割り当てる値)</span><span class="sxs-lookup"><span data-stu-id="f6361-143">Value=&quot;value&quot; (the value to assign to the property)</span></span></p></li>
+<li><p><span data-ttu-id="a97a8-142">Setting Id =&quot;Name&quot; (Windows Installer プロパティの名前)</span><span class="sxs-lookup"><span data-stu-id="a97a8-142">Setting Id=&quot;name&quot; (the name of the Windows Installer property)</span></span></p></li>
+<li><p><span data-ttu-id="a97a8-143">値 =&quot;value&quot; (プロパティに割り当てる値)</span><span class="sxs-lookup"><span data-stu-id="a97a8-143">Value=&quot;value&quot; (the value to assign to the property)</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f6361-144">DistributionPoint</span><span class="sxs-lookup"><span data-stu-id="f6361-144">DistributionPoint</span></span></p></td>
-<td><p><span data-ttu-id="f6361-p108">インストールを実行するネットワーク インストール ポイントの完全修飾パス</span><span class="sxs-lookup"><span data-stu-id="f6361-p108">The fully qualified path of the network installation point from which the installation is to run. Includes the Location attribute:</span></span></p>
+<td><p><span data-ttu-id="a97a8-144">DistributionPoint</span><span class="sxs-lookup"><span data-stu-id="a97a8-144">DistributionPoint</span></span></p></td>
+<td><p><span data-ttu-id="a97a8-p108">インストールを実行するネットワーク インストール ポイントの完全修飾パス</span><span class="sxs-lookup"><span data-stu-id="a97a8-p108">The fully qualified path of the network installation point from which the installation is to run. Includes the Location attribute:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="f6361-147">Location=” path”</span><span class="sxs-lookup"><span data-stu-id="f6361-147">Location=”path”</span></span></p></li>
+<li><p><span data-ttu-id="a97a8-147">Location = "path"</span><span class="sxs-lookup"><span data-stu-id="a97a8-147">Location=”path”</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="f6361-148">次の例は、Lync 2013 の一般的なサイレントインストール用の Config.xml ファイルを示しています。</span><span class="sxs-lookup"><span data-stu-id="f6361-148">The following example shows a Config.xml file for a typical silent installation of Lync 2013.</span></span>
+<span data-ttu-id="a97a8-148">次の例は、Lync 2013 の一般的なサイレントインストール用の Config.xml ファイルを示しています。</span><span class="sxs-lookup"><span data-stu-id="a97a8-148">The following example shows a Config.xml file for a typical silent installation of Lync 2013.</span></span>
 
     <Configuration Product="Lync">
       <OptionState Id="LOBiMain" State="Absent" Children="Force" />
@@ -131,21 +131,21 @@ ms.locfileid: "41744177"
       <DistributionPoint Location="\\server\share\Lync15" />
     </Configuration>
 
-<span data-ttu-id="f6361-149">Config.xml ファイルを使用して Office のインストールとメンテナンスタスクを実行する方法について<http://go.microsoft.com/fwlink/p/?linkid=267514>詳しくは、を参照してください。</span><span class="sxs-lookup"><span data-stu-id="f6361-149">Detailed information about using the Config.xml file to perform Office installation and maintenance tasks is available at <http://go.microsoft.com/fwlink/p/?linkid=267514>.</span></span>
+<span data-ttu-id="a97a8-149">Config.xml ファイルを使用した Office のインストールおよびメンテナンスタスクの実行方法の詳細につい<http://go.microsoft.com/fwlink/p/?linkid=267514>ては、を参照してください。</span><span class="sxs-lookup"><span data-stu-id="a97a8-149">Detailed information about using the Config.xml file to perform Office installation and maintenance tasks is available at <http://go.microsoft.com/fwlink/p/?linkid=267514>.</span></span>
 
 <div>
 
-## <a name="to-customize-the-configxml-file"></a><span data-ttu-id="f6361-150">Config.xml ファイルをカスタマイズするには</span><span class="sxs-lookup"><span data-stu-id="f6361-150">To customize the Config.xml file</span></span>
+## <a name="to-customize-the-configxml-file"></a><span data-ttu-id="a97a8-150">Config.xml ファイルをカスタマイズするには</span><span class="sxs-lookup"><span data-stu-id="a97a8-150">To customize the Config.xml file</span></span>
 
-1.  <span data-ttu-id="f6361-151">Notepad などのテキスト エディター ツールで Config.xml ファイルを開きます。</span><span class="sxs-lookup"><span data-stu-id="f6361-151">Open the Config.xml file by using a text editor tool, such as Notepad.</span></span>
+1.  <span data-ttu-id="a97a8-151">Notepad などのテキスト エディター ツールで Config.xml ファイルを開きます。</span><span class="sxs-lookup"><span data-stu-id="a97a8-151">Open the Config.xml file by using a text editor tool, such as Notepad.</span></span>
 
-2.  <span data-ttu-id="f6361-152">変更する要素を含む行に移動します。</span><span class="sxs-lookup"><span data-stu-id="f6361-152">Locate the lines that contain the elements you want to change.</span></span>
+2.  <span data-ttu-id="a97a8-152">変更する要素を含む行に移動します。</span><span class="sxs-lookup"><span data-stu-id="a97a8-152">Locate the lines that contain the elements you want to change.</span></span>
 
-3.  <span data-ttu-id="f6361-153">使用するサイレント オプションで要素のエントリを変更します。</span><span class="sxs-lookup"><span data-stu-id="f6361-153">Modify the element entry with the silent options that you want to use.</span></span> <span data-ttu-id="f6361-154">コメント区切り文字 "\<\!--" と "--\>" は削除してください。</span><span class="sxs-lookup"><span data-stu-id="f6361-154">Make sure that you remove the comment delimiters, "\<\!--" and "--\>".</span></span> <span data-ttu-id="f6361-155">たとえば、次の構文を使用します。</span><span class="sxs-lookup"><span data-stu-id="f6361-155">For example, use the following syntax:</span></span>
+3.  <span data-ttu-id="a97a8-153">使用するサイレント オプションで要素のエントリを変更します。</span><span class="sxs-lookup"><span data-stu-id="a97a8-153">Modify the element entry with the silent options that you want to use.</span></span> <span data-ttu-id="a97a8-154">コメントの区切り文字 "\<\!--" と "--\>" は削除してください。</span><span class="sxs-lookup"><span data-stu-id="a97a8-154">Make sure that you remove the comment delimiters, "\<\!--" and "--\>".</span></span> <span data-ttu-id="a97a8-155">たとえば、次の構文を使用します。</span><span class="sxs-lookup"><span data-stu-id="a97a8-155">For example, use the following syntax:</span></span>
     
         < DistributionPoint Location="\\server\share\Lync15" />
 
-4.  <span data-ttu-id="f6361-156">Config.xml ファイルを保存します。</span><span class="sxs-lookup"><span data-stu-id="f6361-156">Save the Config.xml file.</span></span>
+4.  <span data-ttu-id="a97a8-156">Config.xml ファイルを保存します。</span><span class="sxs-lookup"><span data-stu-id="a97a8-156">Save the Config.xml file.</span></span>
 
 </div>
 

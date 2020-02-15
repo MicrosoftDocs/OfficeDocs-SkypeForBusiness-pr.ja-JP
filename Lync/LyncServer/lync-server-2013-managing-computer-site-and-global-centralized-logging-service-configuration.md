@@ -1,5 +1,5 @@
 ---
-title: コンピューター、サイト、グローバルな集中化されたログサービスの構成を管理する
+title: コンピューター、サイト、およびグローバルな集中ログサービスの構成を管理する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733738
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8f714c82fdc4ade0fc70b0a977e32ef46b26914d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b405cef9efd63956b6d676d751027318897f5e98
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729337"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043119"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-computer-site-and-global-centralized-logging-service-configuration-in-lync-server-2013"></a><span data-ttu-id="294a5-102">Lync Server 2013 でのコンピューター、サイト、グローバルな集中ログサービスの構成の管理</span><span class="sxs-lookup"><span data-stu-id="294a5-102">Managing computer, site and global Centralized Logging Service configuration in Lync Server 2013</span></span>
+# <a name="managing-computer-site-and-global-centralized-logging-service-configuration-in-lync-server-2013"></a><span data-ttu-id="d14c3-102">Lync Server 2013 でのコンピューター、サイト、およびグローバルな集中ログサービスの構成の管理</span><span class="sxs-lookup"><span data-stu-id="d14c3-102">Managing computer, site and global Centralized Logging Service configuration in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41729337"
 
 <span> </span>
 
-<span data-ttu-id="294a5-103">_**最終更新日:** 2014-02-04_</span><span class="sxs-lookup"><span data-stu-id="294a5-103">_**Topic Last Modified:** 2014-02-04_</span></span>
+<span data-ttu-id="d14c3-103">_**トピックの最終更新日:** 2014-02-04_</span><span class="sxs-lookup"><span data-stu-id="d14c3-103">_**Topic Last Modified:** 2014-02-04_</span></span>
 
-<span data-ttu-id="294a5-104">一元ログサービスは、1台のコンピューター、コンピューターのプール、サイトのスコープ (つまり、展開のコンピューターとプールのコレクションを含むサイトの Redmond などの定義済みサイト)、またはグローバルスコープで実行することができます (これは、[展開に含まれるすべてのコンピューターとプール] を選びます。</span><span class="sxs-lookup"><span data-stu-id="294a5-104">The Centralized Logging Service can be run at a scope that includes a single computer, a pool of computers, at a site scope (that is, a defined site such as the site Redmond that contains a collection of computer and pools in your deployment), or at a global scope (that is, all computers and pools in your deployment).</span></span>
+<span data-ttu-id="d14c3-104">集中ログサービスは、1台のコンピューター、コンピューターのプール、サイトスコープ (展開内のコンピューターとプールのコレクションが含まれているサイト Redmond などの定義済みサイト)、またはグローバルスコープ (場合があります) を含むスコープで実行できます。、展開内のすべてのコンピューターとプール)。</span><span class="sxs-lookup"><span data-stu-id="d14c3-104">The Centralized Logging Service can be run at a scope that includes a single computer, a pool of computers, at a site scope (that is, a defined site such as the site Redmond that contains a collection of computer and pools in your deployment), or at a global scope (that is, all computers and pools in your deployment).</span></span>
 
-<span data-ttu-id="294a5-105">Lync Server 管理シェルを使用して一元的なログサービスのスコープを構成するには、CsAdministrator または CsServerAdministrator の役割ベースのアクセス制御 (RBAC) セキュリティグループのメンバーであるか、またはこれら2つのグループのどちらかです。</span><span class="sxs-lookup"><span data-stu-id="294a5-105">To configure the Centralized Logging Service scope by using the Lync Server Management Shell, you must be a member of either the CsAdministrator or the CsServerAdministrator role-based access control (RBAC) security groups, or a custom RBAC role that contains either of these two groups.</span></span> <span data-ttu-id="294a5-106">このコマンドレットが割り当てられているすべての RBAC ロールの一覧を返すには (自分自身で作成したカスタム RBAC ロールを含む)、Lync Server 管理シェルまたは Windows PowerShell プロンプトから次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="294a5-106">To return a list of all the RBAC roles this cmdlet has been assigned to (including any custom RBAC roles you have created yourself), run the following command from the Lync Server Management Shell or the Windows PowerShell prompt:</span></span>
+<span data-ttu-id="d14c3-105">Lync Server 管理シェルを使用して集中ログサービススコープを構成するには、CsAdministrator または CsServerAdministrator の役割ベースのアクセス制御 (RBAC) セキュリティグループのメンバーであるか、または、を含むカスタムの RBAC の役割を持っている必要があります。これら2つのグループのどちらか。</span><span class="sxs-lookup"><span data-stu-id="d14c3-105">To configure the Centralized Logging Service scope by using the Lync Server Management Shell, you must be a member of either the CsAdministrator or the CsServerAdministrator role-based access control (RBAC) security groups, or a custom RBAC role that contains either of these two groups.</span></span> <span data-ttu-id="d14c3-106">このコマンドレットが割り当てられているすべての RBAC の役割 (自分で作成したカスタムの RBAC の役割を含む) の一覧を返すには、Lync Server 管理シェルまたは Windows PowerShell プロンプトから次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="d14c3-106">To return a list of all the RBAC roles this cmdlet has been assigned to (including any custom RBAC roles you have created yourself), run the following command from the Lync Server Management Shell or the Windows PowerShell prompt:</span></span>
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "<Lync Server 2013 cmdlet>"}
 
-<span data-ttu-id="294a5-107">次に例を示します。</span><span class="sxs-lookup"><span data-stu-id="294a5-107">For example:</span></span>
+<span data-ttu-id="d14c3-107">例:</span><span class="sxs-lookup"><span data-stu-id="d14c3-107">For example:</span></span>
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
@@ -51,31 +51,31 @@ ms.locfileid: "41729337"
 
 
 > [!NOTE]
-> <span data-ttu-id="294a5-108">Windows PowerShell には、CLSController を使って利用できないその他のオプションとその他の構成オプションが用意されています。</span><span class="sxs-lookup"><span data-stu-id="294a5-108">Windows PowerShell provides you more options and additional configuration options that are not available by using CLSController.exe.</span></span> <span data-ttu-id="294a5-109">CLSController は、コマンドを実行するための簡単で簡潔な方法を提供しますが、CLSController で利用できるコマンドのセットに制限されています。</span><span class="sxs-lookup"><span data-stu-id="294a5-109">CLSController offers a quick, concise method to run commands, but is limited to the set of commands available for the CLSController.</span></span> <span data-ttu-id="294a5-110">Windows PowerShell は、CLSController のコマンドプロセッサで利用できるコマンドだけに限らず、幅広いコマンドと豊富なオプションを提供します。</span><span class="sxs-lookup"><span data-stu-id="294a5-110">Windows PowerShell is not limited to just the command available to the command processor of the CLSController, and provides a wider set of commands and a richer set of options.</span></span> <span data-ttu-id="294a5-111">たとえば、CLSController では、コンピューターとプールのスコープオプションが提供されます。</span><span class="sxs-lookup"><span data-stu-id="294a5-111">For example, CLSController.exe does provide you with a scope options for –computers and –pools.</span></span> <span data-ttu-id="294a5-112">Windows PowerShell では、ほとんどのコマンドでコンピューターまたはプールを示すことができます。また、新しいシナリオを定義する場合は、サイトまたはグローバルスコープを定義できます。</span><span class="sxs-lookup"><span data-stu-id="294a5-112">With Windows PowerShell, you can indicate computers or pools in most commands, and when you define new scenarios (CLSController has a finite number of scenarios that are not user modifiable) you can define a site or global scope.</span></span> <span data-ttu-id="294a5-113">Windows PowerShell のこの強力な機能により、サイトまたはグローバルスコープを定義できますが、実際のログはコンピューターまたはプールに制限されます。</span><span class="sxs-lookup"><span data-stu-id="294a5-113">This powerful feature of Windows PowerShell enables you to define a scenario a site or global scope, but limit the actual logging to a computer or pool.</span></span><BR><span data-ttu-id="294a5-114">Windows PowerShell または CLSController で実行できるコマンドラインコマンドには、基本的な違いがあります。</span><span class="sxs-lookup"><span data-stu-id="294a5-114">There are fundamental differences between the command-line commands that you can run in Windows PowerShell or CLSController.</span></span> <span data-ttu-id="294a5-115">Windows PowerShell には、シナリオを構成して定義するための豊富な方法が用意されています。また、トラブルシューティングシナリオには、わかりやすい方法でこれらのシナリオを再利用することもできます。</span><span class="sxs-lookup"><span data-stu-id="294a5-115">Windows PowerShell provides a rich method to configure and define scenarios, and to reuse those scenarios in a meaningful way for your troubleshooting scenarios.</span></span> <span data-ttu-id="294a5-116">CLSController には、コマンドを発行して結果を取得するための高速で効率的な方法が用意されていますが、CLSController 用のコマンドセットは、コマンドラインから利用できる有限コマンドによって制限されます。</span><span class="sxs-lookup"><span data-stu-id="294a5-116">While CLSController does provide a fast and efficient way to issue commands and get results, the command set for CLSController is limited by the finite commands that you have available from the command line.</span></span> <span data-ttu-id="294a5-117">Windows PowerShell コマンドレットとは異なり、CLSController では、新しいシナリオを定義することはできません。サイトまたはグローバルレベルでスコープを管理することも、動的に構成できない有限コマンドセットに関するその他多くの制限事項もあります。</span><span class="sxs-lookup"><span data-stu-id="294a5-117">Unlike the Windows PowerShell cmdlets, CLSController cannot define new scenarios, manage scope at a site or global level, and many other limitations of a finite command set that cannot be dynamically configured.</span></span> <span data-ttu-id="294a5-118">CLSController は、高速実行の手段を提供しますが、Windows PowerShell は、CLSController で可能な範囲を超えて一元的なログサービス機能を拡張するための手段を提供します。</span><span class="sxs-lookup"><span data-stu-id="294a5-118">While CLSController provides a means for fast execution, Windows PowerShell provides a means to extend the Centralized Logging Service functionality beyond what is possible with CLSController.</span></span>
+> <span data-ttu-id="d14c3-108">Windows PowerShell には、CLSController を使用して利用できないオプションと追加の構成オプションが用意されています。</span><span class="sxs-lookup"><span data-stu-id="d14c3-108">Windows PowerShell provides you more options and additional configuration options that are not available by using CLSController.exe.</span></span> <span data-ttu-id="d14c3-109">CLSController は、コマンドをすばやく、簡単に実行するための方法を提供しますが、CLSController で使用できるコマンドのセットに制限されています。</span><span class="sxs-lookup"><span data-stu-id="d14c3-109">CLSController offers a quick, concise method to run commands, but is limited to the set of commands available for the CLSController.</span></span> <span data-ttu-id="d14c3-110">Windows PowerShell は、CLSController のコマンドプロセッサで使用可能なコマンドだけに制限されていません。また、幅広いコマンドと豊富なオプションが用意されています。</span><span class="sxs-lookup"><span data-stu-id="d14c3-110">Windows PowerShell is not limited to just the command available to the command processor of the CLSController, and provides a wider set of commands and a richer set of options.</span></span> <span data-ttu-id="d14c3-111">たとえば、CLSController では、– computers および–プールのスコープオプションが提供されます。</span><span class="sxs-lookup"><span data-stu-id="d14c3-111">For example, CLSController.exe does provide you with a scope options for –computers and –pools.</span></span> <span data-ttu-id="d14c3-112">Windows PowerShell を使用すると、ほとんどのコマンドでコンピューターやプールを指定できます。また、新しいシナリオを定義するときに (CLSController にはユーザーが変更できないシナリオの数が限られています)、サイトまたはグローバルスコープを定義できます。</span><span class="sxs-lookup"><span data-stu-id="d14c3-112">With Windows PowerShell, you can indicate computers or pools in most commands, and when you define new scenarios (CLSController has a finite number of scenarios that are not user modifiable) you can define a site or global scope.</span></span> <span data-ttu-id="d14c3-113">Windows PowerShell のこの強力な機能により、シナリオをサイトまたはグローバルスコープで定義できますが、実際のログ出力はコンピューターまたはプールに制限されます。</span><span class="sxs-lookup"><span data-stu-id="d14c3-113">This powerful feature of Windows PowerShell enables you to define a scenario a site or global scope, but limit the actual logging to a computer or pool.</span></span><BR><span data-ttu-id="d14c3-114">Windows PowerShell または CLSController で実行できるコマンドラインコマンドには、基本的な違いがあります。</span><span class="sxs-lookup"><span data-stu-id="d14c3-114">There are fundamental differences between the command-line commands that you can run in Windows PowerShell or CLSController.</span></span> <span data-ttu-id="d14c3-115">Windows PowerShell には、シナリオを構成して定義するための豊富な方法が用意されています。また、これらのシナリオをトラブルシューティングのシナリオに合わせてわかりやすく再利用できます。</span><span class="sxs-lookup"><span data-stu-id="d14c3-115">Windows PowerShell provides a rich method to configure and define scenarios, and to reuse those scenarios in a meaningful way for your troubleshooting scenarios.</span></span> <span data-ttu-id="d14c3-116">CLSController では、コマンドを発行して結果を取得する高速で効率的な方法が提供されていますが、CLSController のコマンドセットは、コマンドラインから使用可能な有限コマンドによって制限されます。</span><span class="sxs-lookup"><span data-stu-id="d14c3-116">While CLSController does provide a fast and efficient way to issue commands and get results, the command set for CLSController is limited by the finite commands that you have available from the command line.</span></span> <span data-ttu-id="d14c3-117">Windows PowerShell コマンドレットとは異なり、CLSController では新しいシナリオを定義したり、サイトまたはグローバルレベルでスコープを管理したり、動的に構成することができない制限されたコマンドセットに関するその他の多くの制限を設けたりすることはできません。</span><span class="sxs-lookup"><span data-stu-id="d14c3-117">Unlike the Windows PowerShell cmdlets, CLSController cannot define new scenarios, manage scope at a site or global level, and many other limitations of a finite command set that cannot be dynamically configured.</span></span> <span data-ttu-id="d14c3-118">CLSController は高速実行の手段を提供しますが、Windows PowerShell では、集中化されたログサービス機能を、CLSController で可能な範囲を超えて拡張する手段が提供されています。</span><span class="sxs-lookup"><span data-stu-id="d14c3-118">While CLSController provides a means for fast execution, Windows PowerShell provides a means to extend the Centralized Logging Service functionality beyond what is possible with CLSController.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="294a5-p104">-Computers パラメーターを使用して [Search-CsClsLogging](https://technet.microsoft.com/en-us/library/JJ619189(v=OCS.15))、[Show-CsClsLogging](https://technet.microsoft.com/en-us/library/JJ619173(v=OCS.15))、[Start-CsClsLogging](https://technet.microsoft.com/en-us/library/JJ619190(v=OCS.15))、[Stop-CsClsLogging](https://technet.microsoft.com/en-us/library/JJ619180(v=OCS.15))、[Sync-CsClsLogging](https://technet.microsoft.com/en-us/library/JJ619169(v=OCS.15))、[Update-CsClsLogging](https://technet.microsoft.com/en-us/library/JJ619170(v=OCS.15)) の各コマンドを実行する場合に、単一のコンピューターのスコープを定義できます。-Computers パラメーターには、対象のコンピューターの完全修飾ドメイン名 (FQDN) のコンマ区切り一覧を指定できます。</span><span class="sxs-lookup"><span data-stu-id="294a5-p104">A single computer scope can be defined during the execution of a [Search-CsClsLogging](https://technet.microsoft.com/en-us/library/JJ619189(v=OCS.15)), [Show-CsClsLogging](https://technet.microsoft.com/en-us/library/JJ619173(v=OCS.15)), [Start-CsClsLogging](https://technet.microsoft.com/en-us/library/JJ619190(v=OCS.15)), [Stop-CsClsLogging](https://technet.microsoft.com/en-us/library/JJ619180(v=OCS.15)), [Sync-CsClsLogging](https://technet.microsoft.com/en-us/library/JJ619169(v=OCS.15)) and [Update-CsClsLogging](https://technet.microsoft.com/en-us/library/JJ619170(v=OCS.15)) command using the –Computers parameter. The –Computers parameter accepts a comma separated list of fully qualified domain names (FQDNs) for the target computer.</span></span>
+<span data-ttu-id="d14c3-119">1台のコンピュータースコープは、検索の実行中に定義できます。このスコープは、-Computers パラメーターを使用して、[検索-CsClsLogging](https://technet.microsoft.com/library/JJ619189(v=OCS.15))、 [Show-](https://technet.microsoft.com/library/JJ619173(v=OCS.15))csclslogging、 [Start-CsClsLogging](https://technet.microsoft.com/library/JJ619190(v=OCS.15))、 [Stop-csclslogging](https://technet.microsoft.com/library/JJ619180(v=OCS.15))、 [Sync-csclslogging](https://technet.microsoft.com/library/JJ619169(v=OCS.15)) 、および[Update-](https://technet.microsoft.com/library/JJ619170(v=OCS.15)) csclslogging コマンドの実行中に定義できます。</span><span class="sxs-lookup"><span data-stu-id="d14c3-119">A single computer scope can be defined during the execution of a [Search-CsClsLogging](https://technet.microsoft.com/library/JJ619189(v=OCS.15)), [Show-CsClsLogging](https://technet.microsoft.com/library/JJ619173(v=OCS.15)), [Start-CsClsLogging](https://technet.microsoft.com/library/JJ619190(v=OCS.15)), [Stop-CsClsLogging](https://technet.microsoft.com/library/JJ619180(v=OCS.15)), [Sync-CsClsLogging](https://technet.microsoft.com/library/JJ619169(v=OCS.15)) and [Update-CsClsLogging](https://technet.microsoft.com/library/JJ619170(v=OCS.15)) command using the –Computers parameter.</span></span> <span data-ttu-id="d14c3-120">– Computers パラメーターには、ターゲットコンピューターの完全修飾ドメイン名 (Fqdn) のコンマ区切りリストを指定します。</span><span class="sxs-lookup"><span data-stu-id="d14c3-120">The –Computers parameter accepts a comma separated list of fully qualified domain names (FQDNs) for the target computer.</span></span>
 
 <div>
 
 
 > [!TIP]
-> <span data-ttu-id="294a5-121">-Pools およびログ記録コマンドを実行するプールのコンマ区切り一覧を定義することもできます。</span><span class="sxs-lookup"><span data-stu-id="294a5-121">You can also define –Pools and a comma separated list of pools that you want to run the logging commands on.</span></span>
+> <span data-ttu-id="d14c3-121">また、ログコマンドを実行するプールとコンマで区切られた一覧を定義することもできます。</span><span class="sxs-lookup"><span data-stu-id="d14c3-121">You can also define –Pools and a comma separated list of pools that you want to run the logging commands on.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="294a5-122">サイトとグローバルスコープ**は、\*\*\*\*新しい\*\*\*\*集中化さ**れたログサービスコマンドレットで定義されます。</span><span class="sxs-lookup"><span data-stu-id="294a5-122">Site and Global scopes are defined in the **New-**, **Set-**, and **Remove-** Centralized Logging Service cmdlets.</span></span> <span data-ttu-id="294a5-123">以下の例は、サイト スコープとグローバル スコープを設定する方法を示しています。</span><span class="sxs-lookup"><span data-stu-id="294a5-123">The following examples demonstrate how to set a site and a global scope.</span></span>
+<span data-ttu-id="d14c3-122">サイトとグローバルスコープは、**新しい-**、 **Set-** および**Remove-** 集中ログサービスのコマンドレットで定義されています。</span><span class="sxs-lookup"><span data-stu-id="d14c3-122">Site and Global scopes are defined in the **New-**, **Set-**, and **Remove-** Centralized Logging Service cmdlets.</span></span> <span data-ttu-id="d14c3-123">次の例は、サイトとグローバルスコープを設定する方法を示しています。</span><span class="sxs-lookup"><span data-stu-id="d14c3-123">The following examples demonstrate how to set a site and a global scope.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]
-> <span data-ttu-id="294a5-124">表示されるコマンドには、他のセクションで説明するパラメーターと概念が含まれている場合があります。</span><span class="sxs-lookup"><span data-stu-id="294a5-124">The commands shown may contain parameters and concepts that are covered in other sections.</span></span> <span data-ttu-id="294a5-125">この例のコマンドは、スコープを定義する<STRONG>– Identity</STRONG>パラメーターの使い方を示すことを目的としており、その他のパラメーターが完全に含まれており、スコープを指定するために使用されます。</span><span class="sxs-lookup"><span data-stu-id="294a5-125">The example commands are intended to demonstrate the use of the <STRONG>–Identity</STRONG> parameter to define scope, and the other parameters are included for completeness and to specify the scope.</span></span> <span data-ttu-id="294a5-126"><STRONG>Set-csclsconfiguration</STRONG>コマンドレットの詳細については、「操作のドキュメントでの<A href="https://technet.microsoft.com/en-us/library/JJ619182(v=OCS.15)">Set-csclsconfiguration</A> 」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="294a5-126">For details about the <STRONG>Set-CsClsConfiguration</STRONG> cmdlets, see <A href="https://technet.microsoft.com/en-us/library/JJ619182(v=OCS.15)">Set-CsClsConfiguration</A> in the Operations documentation.</span></span>
+> <span data-ttu-id="d14c3-124">表示されているコマンドには、他のセクションで説明しているパラメーターと概念が含まれている場合があります。</span><span class="sxs-lookup"><span data-stu-id="d14c3-124">The commands shown may contain parameters and concepts that are covered in other sections.</span></span> <span data-ttu-id="d14c3-125">この例では、 <STRONG>-Identity</STRONG>パラメーターを使用してスコープを定義することを示し、その他のパラメーターは完全に、そのスコープを指定することを目的としています。</span><span class="sxs-lookup"><span data-stu-id="d14c3-125">The example commands are intended to demonstrate the use of the <STRONG>–Identity</STRONG> parameter to define scope, and the other parameters are included for completeness and to specify the scope.</span></span> <span data-ttu-id="d14c3-126"><STRONG>設定-csclsconfiguration</STRONG>コマンドレットの詳細については、「操作」のドキュメントの「 <A href="https://technet.microsoft.com/library/JJ619182(v=OCS.15)">Set-csclsconfiguration</A> 」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="d14c3-126">For details about the <STRONG>Set-CsClsConfiguration</STRONG> cmdlets, see <A href="https://technet.microsoft.com/library/JJ619182(v=OCS.15)">Set-CsClsConfiguration</A> in the Operations documentation.</span></span>
 
 
 
@@ -83,83 +83,83 @@ ms.locfileid: "41729337"
 
 <div>
 
-## <a name="to-retrieve-the-current-centralized-logging-service-configuration"></a><span data-ttu-id="294a5-127">現在の集中化ログサービス構成を取得するには</span><span class="sxs-lookup"><span data-stu-id="294a5-127">To retrieve the current Centralized Logging Service configuration</span></span>
+## <a name="to-retrieve-the-current-centralized-logging-service-configuration"></a><span data-ttu-id="d14c3-127">現在の集中ログサービスの構成を取得するには</span><span class="sxs-lookup"><span data-stu-id="d14c3-127">To retrieve the current Centralized Logging Service configuration</span></span>
 
-1.  <span data-ttu-id="294a5-128">Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="294a5-128">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="d14c3-128">Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="d14c3-128">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="294a5-129">コマンド ライン プロンプトで次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="294a5-129">Type the following at the command-line prompt:</span></span>
+2.  <span data-ttu-id="d14c3-129">コマンドラインプロンプトで次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="d14c3-129">Type the following at the command-line prompt:</span></span>
     
         Get-CsClsConfiguration
 
-<span data-ttu-id="294a5-130">**New-CsClsConfiguration** コマンドレットと **Set-CsClsConfiguration** コマンドレットを使用して、新しい構成を作成するか、既存の構成を更新します。</span><span class="sxs-lookup"><span data-stu-id="294a5-130">Use the **New-CsClsConfiguration** and **Set-CsClsConfiguration** cmdlets to create a new configuration or to update an existing configuration.</span></span>
+<span data-ttu-id="d14c3-130">新しい構成を作成したり、既存の構成を更新したりするには、**新しい-csclsconfiguration**および**Set-csclsconfiguration**コマンドレットを使用します。</span><span class="sxs-lookup"><span data-stu-id="d14c3-130">Use the **New-CsClsConfiguration** and **Set-CsClsConfiguration** cmdlets to create a new configuration or to update an existing configuration.</span></span>
 
-<span data-ttu-id="294a5-131">**Get-CsClsConfiguration** を実行すると、次のスクリーンショットに示すような情報が表示されます。現在、この展開には既定のグローバル構成がありますが、サイト構成は定義されていません。</span><span class="sxs-lookup"><span data-stu-id="294a5-131">When you run **Get-CsClsConfiguration**, it displays information similar to the following screen shot, where the deployment currently has the default Global configuration, but no site configurations defined:</span></span>
+<span data-ttu-id="d14c3-131">**取得-CsClsConfiguration**を実行すると、次のスクリーンショットに示すような情報が表示されます。現在、展開には既定のグローバル構成がありますが、サイト構成は定義されていません。</span><span class="sxs-lookup"><span data-stu-id="d14c3-131">When you run **Get-CsClsConfiguration**, it displays information similar to the following screen shot, where the deployment currently has the default Global configuration, but no site configurations defined:</span></span>
 
-<span data-ttu-id="294a5-132">![Get-CsClsConfiguration からのサンプル出力](images/JJ688029.23f98ddc-fc48-499a-b6c5-752611f2a0b0(OCS.15).jpg "Get-CsClsConfiguration からのサンプル出力")</span><span class="sxs-lookup"><span data-stu-id="294a5-132">![Sample output from Get-CsClsConfiguration.](images/JJ688029.23f98ddc-fc48-499a-b6c5-752611f2a0b0(OCS.15).jpg "Sample output from Get-CsClsConfiguration.")</span></span>
+<span data-ttu-id="d14c3-132">![Get-CsClsConfiguration からの出力例。](images/JJ688029.23f98ddc-fc48-499a-b6c5-752611f2a0b0(OCS.15).jpg "Get-CsClsConfiguration からの出力例。")</span><span class="sxs-lookup"><span data-stu-id="d14c3-132">![Sample output from Get-CsClsConfiguration.](images/JJ688029.23f98ddc-fc48-499a-b6c5-752611f2a0b0(OCS.15).jpg "Sample output from Get-CsClsConfiguration.")</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-retrieve-the-current-centralized-logging-service-configuration-from-the-computer-local-store"></a><span data-ttu-id="294a5-133">コンピューターのローカルストアから現在の集中化されたログサービス構成を取得するには</span><span class="sxs-lookup"><span data-stu-id="294a5-133">To retrieve the current Centralized Logging Service configuration from the computer local store</span></span>
+## <a name="to-retrieve-the-current-centralized-logging-service-configuration-from-the-computer-local-store"></a><span data-ttu-id="d14c3-133">コンピューターのローカルストアから現在の集中ログサービスの構成を取得するには</span><span class="sxs-lookup"><span data-stu-id="d14c3-133">To retrieve the current Centralized Logging Service configuration from the computer local store</span></span>
 
-1.  <span data-ttu-id="294a5-134">Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="294a5-134">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="d14c3-134">Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="d14c3-134">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="294a5-135">コマンド ライン プロンプトで次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="294a5-135">Type the following at the command-line prompt:</span></span>
+2.  <span data-ttu-id="d14c3-135">コマンドラインプロンプトで次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="d14c3-135">Type the following at the command-line prompt:</span></span>
     
         Get-CsClsConfiguration -LocalStore
 
-<span data-ttu-id="294a5-136">最初の例の " **Get-CsClsConfiguration**でパラメーターが指定されていない" という最初の例を使用すると、コマンドはデータの中央管理ストアを参照します。</span><span class="sxs-lookup"><span data-stu-id="294a5-136">When you use the first example where **Get-CsClsConfiguration** does not specify any parameters, the command references the Central Management store for the data.</span></span> <span data-ttu-id="294a5-137">Parameter – LocalStore を指定した場合、コマンドは中央管理ストアではなくコンピューターの LocalStore を参照します。</span><span class="sxs-lookup"><span data-stu-id="294a5-137">If you specify the parameter –LocalStore, the command references the computer LocalStore instead of the Central Management store.</span></span>
+<span data-ttu-id="d14c3-136">**Get-CsClsConfiguration**でパラメーターが指定されていない最初の例を使用すると、コマンドはデータの中央管理ストアを参照します。</span><span class="sxs-lookup"><span data-stu-id="d14c3-136">When you use the first example where **Get-CsClsConfiguration** does not specify any parameters, the command references the Central Management store for the data.</span></span> <span data-ttu-id="d14c3-137">パラメーター– LocalStore を指定すると、コマンドは中央管理ストアの代わりにコンピューターの LocalStore を参照します。</span><span class="sxs-lookup"><span data-stu-id="d14c3-137">If you specify the parameter –LocalStore, the command references the computer LocalStore instead of the Central Management store.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-retrieve-a-listing-of-scenarios-currently-defined"></a><span data-ttu-id="294a5-138">現在定義されているシナリオの一覧を取得するには</span><span class="sxs-lookup"><span data-stu-id="294a5-138">To retrieve a listing of scenarios currently defined</span></span>
+## <a name="to-retrieve-a-listing-of-scenarios-currently-defined"></a><span data-ttu-id="d14c3-138">現在定義されているシナリオの一覧を取得するには</span><span class="sxs-lookup"><span data-stu-id="d14c3-138">To retrieve a listing of scenarios currently defined</span></span>
 
-1.  <span data-ttu-id="294a5-139">Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="294a5-139">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="d14c3-139">Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="d14c3-139">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="294a5-140">コマンド ライン プロンプトで次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="294a5-140">Type the following at the command-line prompt:</span></span>
+2.  <span data-ttu-id="d14c3-140">コマンドラインプロンプトで次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="d14c3-140">Type the following at the command-line prompt:</span></span>
     
         Get-CsClsConfiguration -Identity <scope and name> | Select-Object -ExpandProperty Scenarios
     
-    <span data-ttu-id="294a5-141">たとえば、グローバル スコープで定義されているシナリオを取得するには、次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="294a5-141">For example, to retrieve the scenarios that is defined at the global scope:</span></span>
+    <span data-ttu-id="d14c3-141">たとえば、グローバルスコープで定義されているシナリオを取得するには、次のようにします。</span><span class="sxs-lookup"><span data-stu-id="d14c3-141">For example, to retrieve the scenarios that is defined at the global scope:</span></span>
     
         Get-CsClsConfiguration -Identity "global" | Select-Object -ExpandProperty Scenarios
 
-<span data-ttu-id="294a5-142">**Get-CsClsConfiguration** コマンドレットを使用すると、特定のスコープの構成に含まれるシナリオが常に表示されます。</span><span class="sxs-lookup"><span data-stu-id="294a5-142">The cmdlet **Get-CsClsConfiguration** always displays the scenarios that are a part of a given scope’s configuration.</span></span> <span data-ttu-id="294a5-143">ほとんどの場合、シナリオがすべて表示されるのではなく、一部が切り捨てられます。</span><span class="sxs-lookup"><span data-stu-id="294a5-143">In most cases, all scenarios are not displayed, and are truncated.</span></span> <span data-ttu-id="294a5-144">ここで使用するコマンドは、すべてのシナリオおよび使用されているプロバイダー、設定、およびフラグに関する一部の情報を一覧表示します。</span><span class="sxs-lookup"><span data-stu-id="294a5-144">The command used here lists all of the scenarios and partial information about what providers, settings, and flags are used.</span></span>
+<span data-ttu-id="d14c3-142">コマンドレットを**取得**すると、指定したスコープの構成の一部であるシナリオが常に表示されます。</span><span class="sxs-lookup"><span data-stu-id="d14c3-142">The cmdlet **Get-CsClsConfiguration** always displays the scenarios that are a part of a given scope’s configuration.</span></span> <span data-ttu-id="d14c3-143">ほとんどの場合、すべてのシナリオは表示されず、切り捨てられます。</span><span class="sxs-lookup"><span data-stu-id="d14c3-143">In most cases, all scenarios are not displayed, and are truncated.</span></span> <span data-ttu-id="d14c3-144">ここで使用しているコマンドは、すべてのシナリオと、プロバイダー、設定、およびフラグを使用することに関する情報の一部を示しています。</span><span class="sxs-lookup"><span data-stu-id="d14c3-144">The command used here lists all of the scenarios and partial information about what providers, settings, and flags are used.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-update-a-global-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a><span data-ttu-id="294a5-145">Windows PowerShell を使用して一元的なログサービスのグローバルスコープを更新するには</span><span class="sxs-lookup"><span data-stu-id="294a5-145">To update a global scope for the Centralized Logging Service by using Windows PowerShell</span></span>
+## <a name="to-update-a-global-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a><span data-ttu-id="d14c3-145">Windows PowerShell を使用して集中ログサービスのグローバルスコープを更新するには</span><span class="sxs-lookup"><span data-stu-id="d14c3-145">To update a global scope for the Centralized Logging Service by using Windows PowerShell</span></span>
 
-1.  <span data-ttu-id="294a5-146">Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="294a5-146">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="d14c3-146">Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="d14c3-146">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="294a5-147">コマンド ライン プロンプトで次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="294a5-147">Type the following at the command-line prompt:</span></span>
+2.  <span data-ttu-id="d14c3-147">コマンドラインプロンプトで次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="d14c3-147">Type the following at the command-line prompt:</span></span>
     
         Set-CsClsConfiguration -Identity <scope> -EtlFileRolloverSizeMB <size for logging file in megabytes>
     
-    <span data-ttu-id="294a5-148">次に例を示します。</span><span class="sxs-lookup"><span data-stu-id="294a5-148">For example:</span></span>
+    <span data-ttu-id="d14c3-148">例:</span><span class="sxs-lookup"><span data-stu-id="d14c3-148">For example:</span></span>
     
         Set-CsClsConfiguration -Identity "global" -EtlFileRolloverSizeMB 40
 
-<span data-ttu-id="294a5-p109">このコマンドは、トレース ファイルのロールオーバーのサイズを 40 MB に設定するよう、展開内の各コンピューターおよびプールの CLSAgent に指示します。すべてのサイトのコンピューターとプールがこのコマンドの対象となり、コンピューターとプールの構成済みのトレース ログのロールオーバーの値が 40 MB に設定されます。</span><span class="sxs-lookup"><span data-stu-id="294a5-p109">The command tells the CLSAgent on each computer and pool in the deployment to set the size of the rollover value on the tracing file to 40 megabytes. Computers and pools in all sites are affected by the command, and will set their configured trace log rollover value to 40 megabytes.</span></span>
+<span data-ttu-id="d14c3-149">このコマンドは、展開内の各コンピューターおよびプールの CLSAgent に対して、トレースファイルのロールオーバー値のサイズを 40 mb に設定するように指示します。</span><span class="sxs-lookup"><span data-stu-id="d14c3-149">The command tells the CLSAgent on each computer and pool in the deployment to set the size of the rollover value on the tracing file to 40 megabytes.</span></span> <span data-ttu-id="d14c3-150">すべてのサイトのコンピューターとプールはコマンドの影響を受け、構成済みのトレースログのロールオーバー値は40メガバイトに設定されます。</span><span class="sxs-lookup"><span data-stu-id="d14c3-150">Computers and pools in all sites are affected by the command, and will set their configured trace log rollover value to 40 megabytes.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-update-a-site-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a><span data-ttu-id="294a5-151">Windows PowerShell を使用して一元的なログサービスのサイト範囲を更新するには</span><span class="sxs-lookup"><span data-stu-id="294a5-151">To update a site scope for the Centralized Logging Service by using Windows PowerShell</span></span>
+## <a name="to-update-a-site-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a><span data-ttu-id="d14c3-151">Windows PowerShell を使用して集中ログサービスのサイトスコープを更新するには</span><span class="sxs-lookup"><span data-stu-id="d14c3-151">To update a site scope for the Centralized Logging Service by using Windows PowerShell</span></span>
 
-1.  <span data-ttu-id="294a5-152">Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="294a5-152">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="d14c3-152">Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="d14c3-152">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="294a5-153">コマンド ライン プロンプトで次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="294a5-153">Type the following at the command-line prompt:</span></span>
+2.  <span data-ttu-id="d14c3-153">コマンドラインプロンプトで次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="d14c3-153">Type the following at the command-line prompt:</span></span>
     
         Set-CsClsConfiguration -Identity <scope/site name> -EtlFileRolloverSizeMB <size for logging file in megabytes> -EtlFileFolder <default location %TEMP%\Tracing>
     
-    <span data-ttu-id="294a5-154">次に例を示します。</span><span class="sxs-lookup"><span data-stu-id="294a5-154">For example:</span></span>
+    <span data-ttu-id="d14c3-154">例:</span><span class="sxs-lookup"><span data-stu-id="d14c3-154">For example:</span></span>
     
         Set-CsClsConfiguration -Identity "site/Redmond" -EtlFileRolloverSizeMB 40 -EtlFileFolder "C:\LogFiles\Tracing" 
     
@@ -167,22 +167,22 @@ ms.locfileid: "41729337"
     
 
     > [!NOTE]
-    > <span data-ttu-id="294a5-p110">この例に示すように、ログ ファイルの既定の場所は %TEMP%\Tracing です。ただし、これは実際にはファイルを書き込む CLSAgent であり、CSLAgent はネットワーク サービスとして実行されるため、%TEMP% 変数は %WINDIR%\ServiceProfiles\NetworkService\AppData\Local に展開されます。</span><span class="sxs-lookup"><span data-stu-id="294a5-p110">As noted in the example, the default location of the log files is %TEMP%\Tracing. However, because it is actually CLSAgent that is writing the file and CSLAgent runs as Network Service, the %TEMP% variable expands to %WINDIR%\ServiceProfiles\NetworkService\AppData\Local.</span></span>
+    > <span data-ttu-id="d14c3-155">例に示されているように、ログファイルの既定の場所は%TEMP%\Tracing. です。</span><span class="sxs-lookup"><span data-stu-id="d14c3-155">As noted in the example, the default location of the log files is %TEMP%\Tracing.</span></span> <span data-ttu-id="d14c3-156">ただし、実際には、ファイルを書き込み中で、CSLAgent はネットワークサービスとして実行されるので、このような場合、%Windir%\serviceprofiles\networkservice\appdata\local には% TEMP% 変数が展開されます。</span><span class="sxs-lookup"><span data-stu-id="d14c3-156">However, because it is actually CLSAgent that is writing the file and CSLAgent runs as Network Service, the %TEMP% variable expands to %WINDIR%\ServiceProfiles\NetworkService\AppData\Local.</span></span>
 
     
     </div>
 
-<span data-ttu-id="294a5-p111">このコマンドは、トレース ファイルのロールオーバーのサイズを 40 MB に設定するよう、Redmond サイト内の各コンピューターおよびプールの CLSAgent に指示します。他のサイトのコンピューターとプールはこのコマンドの対象ではなく、現在構成されているトレース ログのロールオーバーの値 (既定値の 20 MB またはログ記録セッションの開始時に定義された値) が引き続き使用されます。</span><span class="sxs-lookup"><span data-stu-id="294a5-p111">The command tells the CLSAgent on each computer and pool in the site Redmond to set the size of the rollover value on the tracing file to 40 megabytes. Computers and pools in other sites will not be affected by the command, and will continue to use the currently configured trace log rollover value defined either by default (20 megabytes) or during the start of the logging session.</span></span>
+<span data-ttu-id="d14c3-157">このコマンドは、サイト Redmond の各コンピューターおよびプールの CLSAgent に対して、トレースファイルのロールオーバー値のサイズを 40 mb に設定します。</span><span class="sxs-lookup"><span data-stu-id="d14c3-157">The command tells the CLSAgent on each computer and pool in the site Redmond to set the size of the rollover value on the tracing file to 40 megabytes.</span></span> <span data-ttu-id="d14c3-158">他のサイト内のコンピューターとプールはコマンドの影響を受けず、現在構成されているトレースログのロールオーバー値 (既定値 (20 mb) またはログセッションの開始時) を引き続き使用します。</span><span class="sxs-lookup"><span data-stu-id="d14c3-158">Computers and pools in other sites will not be affected by the command, and will continue to use the currently configured trace log rollover value defined either by default (20 megabytes) or during the start of the logging session.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-create-a-new-centralized-logging-service-configuration"></a><span data-ttu-id="294a5-159">新しい一元ログサービス構成を作成するには</span><span class="sxs-lookup"><span data-stu-id="294a5-159">To create a new Centralized Logging Service configuration</span></span>
+## <a name="to-create-a-new-centralized-logging-service-configuration"></a><span data-ttu-id="d14c3-159">新しい集中ログサービスの構成を作成するには</span><span class="sxs-lookup"><span data-stu-id="d14c3-159">To create a new Centralized Logging Service configuration</span></span>
 
-1.  <span data-ttu-id="294a5-160">Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="294a5-160">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="d14c3-160">Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="d14c3-160">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="294a5-161">コマンド ライン プロンプトで次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="294a5-161">Type the following at the command-line prompt:</span></span>
+2.  <span data-ttu-id="d14c3-161">コマンドラインプロンプトで次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="d14c3-161">Type the following at the command-line prompt:</span></span>
     
         New-CsClsConfiguration -Identity <scope and name> [CsClsConfiguration options for this site]
     
@@ -190,30 +190,30 @@ ms.locfileid: "41729337"
     
 
     > [!NOTE]
-    > <span data-ttu-id="294a5-162">New-CsClsConfiguration を使用すると、オプションの多数の構成設定にアクセスできます。</span><span class="sxs-lookup"><span data-stu-id="294a5-162">New-CsClsConfiguration provides access to a large number of optional configuration settings.</span></span> <span data-ttu-id="294a5-163">構成オプションの詳細については、「 <A href="https://technet.microsoft.com/en-us/library/JJ619179(v=OCS.15)">CsClsConfiguration</A> 」および「 <A href="lync-server-2013-understanding-centralized-logging-service-configuration-settings.md">Lync Server 2013 での一元ログサービスの構成設定につい</A>て」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="294a5-163">For details about the configuration options, see <A href="https://technet.microsoft.com/en-us/library/JJ619179(v=OCS.15)">Get-CsClsConfiguration</A> and <A href="lync-server-2013-understanding-centralized-logging-service-configuration-settings.md">Understanding Centralized Logging Service configuration settings in Lync Server 2013</A>.</span></span>
+    > <span data-ttu-id="d14c3-162">新しい-CsClsConfiguration を使用すると、多数のオプションの構成設定にアクセスできます。</span><span class="sxs-lookup"><span data-stu-id="d14c3-162">New-CsClsConfiguration provides access to a large number of optional configuration settings.</span></span> <span data-ttu-id="d14c3-163">構成オプションの詳細については、「<A href="https://technet.microsoft.com/library/JJ619179(v=OCS.15)">取得-CsClsConfiguration</A> 」および「 <A href="lync-server-2013-understanding-centralized-logging-service-configuration-settings.md">Lync Server 2013 での集中ログサービスの構成設定に</A>ついて」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="d14c3-163">For details about the configuration options, see <A href="https://technet.microsoft.com/library/JJ619179(v=OCS.15)">Get-CsClsConfiguration</A> and <A href="lync-server-2013-understanding-centralized-logging-service-configuration-settings.md">Understanding Centralized Logging Service configuration settings in Lync Server 2013</A>.</span></span>
 
     
     </div>
     
-    <span data-ttu-id="294a5-164">たとえば、キャッシュ ファイル用のネットワーク フォルダー、ログ ファイルのロールオーバー時間、およびログ ファイルのロールオーバー サイズを定義する新しい構成を作成するには、次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="294a5-164">For example, to create a new configuration that defines a network folder for cache files, rollover time period for the log files and rollover size for the log files, you would type:</span></span>
+    <span data-ttu-id="d14c3-164">たとえば、キャッシュファイル用のネットワークフォルダー、ログファイルのロールオーバー期間、およびログファイルのロールオーバーサイズを定義する新しい構成を作成するには、次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="d14c3-164">For example, to create a new configuration that defines a network folder for cache files, rollover time period for the log files and rollover size for the log files, you would type:</span></span>
     
         New-CsClsConfiguration -Identity "site:Redmond" -CacheFileNetworkFolder "\\fs01.contoso.net\filestore\logfiles" -EtlFileRolloverMinutes 120 -EtlFileRolloverSizeMB 40
 
-<span data-ttu-id="294a5-165">新しい構成の作成を慎重に計画し、一元管理サービスの新しいプロパティを定義する方法を検討してください。</span><span class="sxs-lookup"><span data-stu-id="294a5-165">You should carefully plan the creation of new configurations and how you define new properties for the Centralized Logging Service.</span></span> <span data-ttu-id="294a5-166">変更は慎重に行い、問題のシナリオのログを適切に記録する機能に及ぼす影響について理解しておいてください。</span><span class="sxs-lookup"><span data-stu-id="294a5-166">You should be cautious about making changes and make sure you understand the impact on your ability to properly log problem scenarios.</span></span> <span data-ttu-id="294a5-167">ログの管理機能を強化する、つまり発生した問題を解決するためのサイズおよびロールオーバー時間を定義できるように構成を変更する必要があります。</span><span class="sxs-lookup"><span data-stu-id="294a5-167">You should make changes to the configuration that will enhance your ability to manage logs to a size and a rollover period that will allow problem solving when it arises.</span></span>
+<span data-ttu-id="d14c3-165">新しい構成の作成を慎重に計画し、集中ログサービスの新しいプロパティを定義する方法を検討する必要があります。</span><span class="sxs-lookup"><span data-stu-id="d14c3-165">You should carefully plan the creation of new configurations and how you define new properties for the Centralized Logging Service.</span></span> <span data-ttu-id="d14c3-166">変更を行って、問題のシナリオを適切にログに記録する機能への影響を理解しておく必要があります。</span><span class="sxs-lookup"><span data-stu-id="d14c3-166">You should be cautious about making changes and make sure you understand the impact on your ability to properly log problem scenarios.</span></span> <span data-ttu-id="d14c3-167">ログの管理能力を向上させるように構成を変更する必要があります。これにより、問題が発生したときに問題を解決するためのサイズとロールオーバー期間が向上します。</span><span class="sxs-lookup"><span data-stu-id="d14c3-167">You should make changes to the configuration that will enhance your ability to manage logs to a size and a rollover period that will allow problem solving when it arises.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-remove-an-existing-centralized-logging-service-configuration"></a><span data-ttu-id="294a5-168">既存の一元ログサービス構成を削除するには</span><span class="sxs-lookup"><span data-stu-id="294a5-168">To remove an existing Centralized Logging Service configuration</span></span>
+## <a name="to-remove-an-existing-centralized-logging-service-configuration"></a><span data-ttu-id="d14c3-168">既存の集中ログサービスの構成を削除するには</span><span class="sxs-lookup"><span data-stu-id="d14c3-168">To remove an existing Centralized Logging Service configuration</span></span>
 
-1.  <span data-ttu-id="294a5-169">Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="294a5-169">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="d14c3-169">Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="d14c3-169">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="294a5-170">コマンド ライン プロンプトで次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="294a5-170">Type the following at the command-line prompt:</span></span>
+2.  <span data-ttu-id="d14c3-170">コマンドラインプロンプトで次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="d14c3-170">Type the following at the command-line prompt:</span></span>
     
         Remove-CsClsConfiguration -Identity <scope and name>
     
-    <span data-ttu-id="294a5-171">たとえば、ログファイルのロールオーバー時間を増やすために作成した一元ログサービスの構成を削除するには、ロールオーバーログファイルのサイズを大きくして、次のようにログファイルキャッシュの場所をネットワーク共有に設定します。</span><span class="sxs-lookup"><span data-stu-id="294a5-171">For example, to remove a Centralized Logging Service configuration that you created to increase the log file rollover time, increase the rollover log file size, and set the log file cache location to a network share as follows:</span></span>
+    <span data-ttu-id="d14c3-171">たとえば、ログファイルのロールオーバー時間を長くするために作成した集中ログサービスの構成を削除するには、次のように、ロールオーバーログファイルのサイズを大きくして、ログファイルのキャッシュの場所をネットワーク共有に設定します。</span><span class="sxs-lookup"><span data-stu-id="d14c3-171">For example, to remove a Centralized Logging Service configuration that you created to increase the log file rollover time, increase the rollover log file size, and set the log file cache location to a network share as follows:</span></span>
     
         Remove-CsClsConfiguration -Identity "site:Redmond"
     
@@ -221,28 +221,28 @@ ms.locfileid: "41729337"
     
 
     > [!NOTE]
-    > <span data-ttu-id="294a5-172">これは、「新しい一元ログサービス構成を作成する」の手順で作成した新しい構成です。</span><span class="sxs-lookup"><span data-stu-id="294a5-172">This is the new configuration that was created in the procedure "To create a new Centralized Logging Service configuration."</span></span>
+    > <span data-ttu-id="d14c3-172">これは、「新しい集中ログサービスの構成を作成するには」の手順で作成した新しい構成です。</span><span class="sxs-lookup"><span data-stu-id="d14c3-172">This is the new configuration that was created in the procedure "To create a new Centralized Logging Service configuration."</span></span>
 
     
     </div>
 
-<span data-ttu-id="294a5-173">サイト レベルの構成の削除を選択すると、そのサイトではグローバル設定が使用されます。</span><span class="sxs-lookup"><span data-stu-id="294a5-173">If you choose to remove a site-level configuration, the site will use the global settings.</span></span>
+<span data-ttu-id="d14c3-173">サイトレベルの構成の削除を選択すると、サイトではグローバル設定が使用されます。</span><span class="sxs-lookup"><span data-stu-id="d14c3-173">If you choose to remove a site-level configuration, the site will use the global settings.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="294a5-174">関連項目</span><span class="sxs-lookup"><span data-stu-id="294a5-174">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d14c3-174">関連項目</span><span class="sxs-lookup"><span data-stu-id="d14c3-174">See Also</span></span>
 
 
-[<span data-ttu-id="294a5-175">Lync Server 2013 の一元管理されたログサービスの概要</span><span class="sxs-lookup"><span data-stu-id="294a5-175">Overview of the Centralized Logging Service in Lync Server 2013</span></span>](lync-server-2013-overview-of-the-centralized-logging-service.md)  
+[<span data-ttu-id="d14c3-175">Lync Server 2013 の集中ログサービスの概要</span><span class="sxs-lookup"><span data-stu-id="d14c3-175">Overview of the Centralized Logging Service in Lync Server 2013</span></span>](lync-server-2013-overview-of-the-centralized-logging-service.md)  
 
 
-[<span data-ttu-id="294a5-176">Lync Server 2013 で中央集中ログサービスの構成設定を管理する</span><span class="sxs-lookup"><span data-stu-id="294a5-176">Managing the Centralized Logging Service configuration settings in Lync Server 2013</span></span>](lync-server-2013-managing-the-centralized-logging-service-configuration-settings.md)  
-<span data-ttu-id="294a5-177">[Set-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619182(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="294a5-177">[Set-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619182(v=OCS.15))</span></span>  
-<span data-ttu-id="294a5-178">[Get-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619179(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="294a5-178">[Get-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619179(v=OCS.15))</span></span>  
-<span data-ttu-id="294a5-179">[New-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619177(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="294a5-179">[New-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619177(v=OCS.15))</span></span>  
-<span data-ttu-id="294a5-180">[CsClsConfiguration の削除](https://technet.microsoft.com/en-us/library/JJ619191(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="294a5-180">[Remove-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619191(v=OCS.15))</span></span>  
+[<span data-ttu-id="d14c3-176">Lync Server 2013 での集中ログサービスの構成設定の管理</span><span class="sxs-lookup"><span data-stu-id="d14c3-176">Managing the Centralized Logging Service configuration settings in Lync Server 2013</span></span>](lync-server-2013-managing-the-centralized-logging-service-configuration-settings.md)  
+<span data-ttu-id="d14c3-177">[設定-CsClsConfiguration](https://technet.microsoft.com/library/JJ619182(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="d14c3-177">[Set-CsClsConfiguration](https://technet.microsoft.com/library/JJ619182(v=OCS.15))</span></span>  
+<span data-ttu-id="d14c3-178">[取得-CsClsConfiguration](https://technet.microsoft.com/library/JJ619179(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="d14c3-178">[Get-CsClsConfiguration](https://technet.microsoft.com/library/JJ619179(v=OCS.15))</span></span>  
+<span data-ttu-id="d14c3-179">[新しい-CsClsConfiguration](https://technet.microsoft.com/library/JJ619177(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="d14c3-179">[New-CsClsConfiguration](https://technet.microsoft.com/library/JJ619177(v=OCS.15))</span></span>  
+<span data-ttu-id="d14c3-180">[削除-CsClsConfiguration](https://technet.microsoft.com/library/JJ619191(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="d14c3-180">[Remove-CsClsConfiguration](https://technet.microsoft.com/library/JJ619191(v=OCS.15))</span></span>  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: コール パークの処理能力計画'
+title: 'Lync Server 2013: コールパークの処理能力計画'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184529
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dd4cc9d10a3a3562c035c7bc2f64f551b70cc5da
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f1192ef9b5b30c722a4f62973cf4992da3ca7300
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743427"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044179"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="capacity-planning-for-call-park-in-lync-server-2013"></a><span data-ttu-id="2f991-102">Lync Server 2013 のコール パークの処理能力計画</span><span class="sxs-lookup"><span data-stu-id="2f991-102">Capacity planning for Call Park in Lync Server 2013</span></span>
+# <a name="capacity-planning-for-call-park-in-lync-server-2013"></a><span data-ttu-id="c4ddc-102">Lync Server 2013 でのコールパークの処理能力計画</span><span class="sxs-lookup"><span data-stu-id="c4ddc-102">Capacity planning for Call Park in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41743427"
 
 <span> </span>
 
-<span data-ttu-id="2f991-103">_**最終更新日:** 2012-09-13_</span><span class="sxs-lookup"><span data-stu-id="2f991-103">_**Topic Last Modified:** 2012-09-13_</span></span>
+<span data-ttu-id="c4ddc-103">_**トピックの最終更新日:** 2012-09-13_</span><span class="sxs-lookup"><span data-stu-id="c4ddc-103">_**Topic Last Modified:** 2012-09-13_</span></span>
 
 <div id="sectionSection0" class="section">
 
-<span data-ttu-id="2f991-104">次の表では、キャパシティ計画の要件の基礎として使用できるコールパークユーザーモデルについて説明します。</span><span class="sxs-lookup"><span data-stu-id="2f991-104">The following table describes the Call Park user model that you can use as the basis for capacity planning requirements.</span></span>
+<span data-ttu-id="c4ddc-104">次の表では、容量計画の要件の基礎として使用できるコールパークユーザーモデルについて説明します。</span><span class="sxs-lookup"><span data-stu-id="c4ddc-104">The following table describes the Call Park user model that you can use as the basis for capacity planning requirements.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="2f991-105">障害復旧のキャパシティ計画として、ペアリングされたプールの各プールは、両方のプールのコールパークサービスのワークロードを処理できる必要があることに注意してください。</span><span class="sxs-lookup"><span data-stu-id="2f991-105">Keep in mind that, for disaster recovery capacity planning, each pool of a paired pool should be able to handle the workloads for Call Park services in both pools.</span></span>
+> <span data-ttu-id="c4ddc-105">障害復旧の処理能力を計画する場合は、ペアになっているプールの各プールで、両方のプールのコールパークサービスのワークロードを処理できる必要があることに注意してください。</span><span class="sxs-lookup"><span data-stu-id="c4ddc-105">Keep in mind that, for disaster recovery capacity planning, each pool of a paired pool should be able to handle the workloads for Call Park services in both pools.</span></span>
 
 
 
 </div>
 
-### <a name="call-park-user-model"></a><span data-ttu-id="2f991-106">コール パークのユーザー モデル</span><span class="sxs-lookup"><span data-stu-id="2f991-106">Call Park User Model</span></span>
+### <a name="call-park-user-model"></a><span data-ttu-id="c4ddc-106">コール パークのユーザー モデル</span><span class="sxs-lookup"><span data-stu-id="c4ddc-106">Call Park User Model</span></span>
 
 <table>
 <colgroup>
@@ -61,26 +61,26 @@ ms.locfileid: "41743427"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="2f991-107">指標</span><span class="sxs-lookup"><span data-stu-id="2f991-107">Metric</span></span></th>
-<th><span data-ttu-id="2f991-108">フロントエンドプールあたり (8 個のフロントエンドサーバーを含む)</span><span class="sxs-lookup"><span data-stu-id="2f991-108">Per Front End pool (with 8 Front End Servers)</span></span></th>
-<th><span data-ttu-id="2f991-109">Standard Edition サーバーごと</span><span class="sxs-lookup"><span data-stu-id="2f991-109">Per Standard Edition server</span></span></th>
+<th><span data-ttu-id="c4ddc-107">測定基準</span><span class="sxs-lookup"><span data-stu-id="c4ddc-107">Metric</span></span></th>
+<th><span data-ttu-id="c4ddc-108">フロントエンドプールごと (8 台のフロントエンドサーバー)</span><span class="sxs-lookup"><span data-stu-id="c4ddc-108">Per Front End pool (with 8 Front End Servers)</span></span></th>
+<th><span data-ttu-id="c4ddc-109">Standard Edition サーバーごと</span><span class="sxs-lookup"><span data-stu-id="c4ddc-109">Per Standard Edition server</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="2f991-110">保留率</span><span class="sxs-lookup"><span data-stu-id="2f991-110">Park rate</span></span></p></td>
-<td><p><span data-ttu-id="2f991-111">8 分間に 1 回</span><span class="sxs-lookup"><span data-stu-id="2f991-111">8 per minute</span></span></p></td>
-<td><p><span data-ttu-id="2f991-112">1 分間に 1 回</span><span class="sxs-lookup"><span data-stu-id="2f991-112">1 per minute</span></span></p></td>
+<td><p><span data-ttu-id="c4ddc-110">保留率</span><span class="sxs-lookup"><span data-stu-id="c4ddc-110">Park rate</span></span></p></td>
+<td><p><span data-ttu-id="c4ddc-111">8 分間に 1 回</span><span class="sxs-lookup"><span data-stu-id="c4ddc-111">8 per minute</span></span></p></td>
+<td><p><span data-ttu-id="c4ddc-112">1 分間に 1 回</span><span class="sxs-lookup"><span data-stu-id="c4ddc-112">1 per minute</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2f991-113">取得通話保留率</span><span class="sxs-lookup"><span data-stu-id="2f991-113">Retrieve parked call rate</span></span></p></td>
-<td><p><span data-ttu-id="2f991-114">8 分間に 1 回</span><span class="sxs-lookup"><span data-stu-id="2f991-114">8 per minute</span></span></p></td>
-<td><p><span data-ttu-id="2f991-115">1 分間に 1 回</span><span class="sxs-lookup"><span data-stu-id="2f991-115">1 per minute</span></span></p></td>
+<td><p><span data-ttu-id="c4ddc-113">取得通話保留率</span><span class="sxs-lookup"><span data-stu-id="c4ddc-113">Retrieve parked call rate</span></span></p></td>
+<td><p><span data-ttu-id="c4ddc-114">8 分間に 1 回</span><span class="sxs-lookup"><span data-stu-id="c4ddc-114">8 per minute</span></span></p></td>
+<td><p><span data-ttu-id="c4ddc-115">1 分間に 1 回</span><span class="sxs-lookup"><span data-stu-id="c4ddc-115">1 per minute</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2f991-116">平均保留時間</span><span class="sxs-lookup"><span data-stu-id="2f991-116">Average park duration</span></span></p></td>
-<td><p><span data-ttu-id="2f991-117">60 秒</span><span class="sxs-lookup"><span data-stu-id="2f991-117">60 seconds</span></span></p></td>
-<td><p><span data-ttu-id="2f991-118">60 秒</span><span class="sxs-lookup"><span data-stu-id="2f991-118">60 seconds</span></span></p></td>
+<td><p><span data-ttu-id="c4ddc-116">平均保留時間</span><span class="sxs-lookup"><span data-stu-id="c4ddc-116">Average park duration</span></span></p></td>
+<td><p><span data-ttu-id="c4ddc-117">60 秒</span><span class="sxs-lookup"><span data-stu-id="c4ddc-117">60 seconds</span></span></p></td>
+<td><p><span data-ttu-id="c4ddc-118">60 秒</span><span class="sxs-lookup"><span data-stu-id="c4ddc-118">60 seconds</span></span></p></td>
 </tr>
 </tbody>
 </table>
