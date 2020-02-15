@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 仮想マシン上の Lync 2013 へのサインインと使用'
+title: 'Lync Server 2013: 仮想マシンでの Lync 2013 のサインインと使用'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184318
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 40c5c18c4e991c3b53e37e090e7f2d960a32f71c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e530f24150bac692717cefb2412712bf3bf8dd1c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732037"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037547"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="signing-in-and-using-lync-2013-on-the-virtual-machine"></a>仮想マシン上の Lync 2013 へのサインインと使用
+# <a name="signing-in-and-using-lync-2013-on-the-virtual-machine"></a>仮想マシンでの Lync 2013 のサインインと使用
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41732037"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-03_
+_**トピックの最終更新日:** 2012-10-03_
 
-VDI プラグインが有効になった後、ユーザーが Lync 2013 にサインインすると、次の手順が発生します。
+VDI プラグインを有効にした後、ユーザーが Lync 2013 にサインインすると、次の手順が実行されます。
 
-1.  ユーザーは、仮想マシンで実行されている Lync 2013 クライアントに自分の資格情報を入力します。
+1.  ユーザーは、仮想マシン上で実行されている Lync 2013 クライアントに自分の資格情報を入力します。
 
-2.  Lync は、VDI プラグインの可用性を検出した後、ユーザーに資格情報を再入力するように求めます。 このダイアログボックスでは、ユーザーが [**パスワードを保存**する] チェックボックスをオンにして、以降のサインインで資格情報を入力する必要がないようにすることをお勧めします。
+2.  Lync は、VDI プラグインの可用性を検出した後、ユーザーに資格情報を再入力するように求めるメッセージを表示します。 このダイアログボックスでは、[**パスワードを保存**する] チェックボックスをオンにすることをお勧めします。これにより、ユーザーは、以降のサインイン時に資格情報を入力する必要がなくなります。
 
-3.  Lync は、VDI プラグインとのペアリングを開始します。 ペアリングが完了する前に、クライアントは Lync ステータスバーに2つのアイコンを表示します。 左下のアイコンは、オーディオデバイスが利用できないことを示し、右下の [点滅] アイコンは、次のように、VDI ペアリングが進行中であることを示します。
+3.  Lync は、VDI プラグインとのペアリングを開始します。 ペアリングが完了する前に、クライアントは Lync ステータスバーに2つのアイコンを表示します。 次に示す左下のアイコンは利用可能なオーディオ デバイスがないことを示し、右下の点滅するアイコンは VDI ペアリングが進行中であることを示します。
     
-    ![成功したペアリングを示す Lync VDI アイコン](images/JJ204948.303d618c-4bc8-41c4-8553-2475de0d395e(OCS.15).png "成功したペアリングを示す Lync VDI アイコン")  
+    ![ペアリングが成功したことを示す Lync VDI アイコン](images/JJ204948.303d618c-4bc8-41c4-8553-2475de0d395e(OCS.15).png "ペアリングが成功したことを示す Lync VDI アイコン")  
 
 4.  VDI ペアリングが成功すると、通話に使用されるオーディオ デバイスおよび VDI ペアリングが成功したことを示すアイコンに変わります。
     
     ![成功を示す Lync VDI ペアリングアイコン](images/JJ204948.57be3387-a3e5-4949-831e-f5ff9fcc5598(OCS.15).png "成功を示す Lync VDI ペアリングアイコン")  
 
-5.  Lync と VDI プラグインをペアリングした後、ユーザーはローカルコンピューターに接続されている Lync 互換デバイスで自分のプレゼンスを見ることができます。 これで、ユーザーは通常の方法で通話を発信して応答することができます。
+5.  Lync を VDI プラグインと組み合わせて使用すると、ユーザーは、ローカルコンピューターに接続されている Lync 互換デバイスでプレゼンスを確認できます。 これで、ユーザーは通常どおり通話を行うことができます。
 
 </div>
 

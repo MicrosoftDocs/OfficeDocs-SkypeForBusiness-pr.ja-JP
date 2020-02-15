@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: IM とプレゼンスコマンドレット'
+title: 'Lync Server 2013: IM およびプレゼンスのコマンドレット'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184589
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0d96b8971bb25898e9e8b02403b0f8cd5447681c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7886300b49cfea014b04cca01c859852dcd74d9c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764037"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038789"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="im-and-presence-cmdlets-in-lync-server-2013"></a>Lync Server 2013 の IM とプレゼンスのコマンドレット
+# <a name="im-and-presence-cmdlets-in-lync-server-2013"></a>Lync Server 2013 の IM およびプレゼンスのコマンドレット
 
 </div>
 
@@ -37,124 +37,124 @@ ms.locfileid: "41764037"
 
 _**トピックの最終更新日:** 2012-06-26_
 
-インスタントメッセージング (IM) とプレゼンスコマンドレットを使用すると、Windows PowerShell を介してそれらのクライアント機能を管理することができます。 グローバル、サイト、またはユーザーごとのスコープでユーザーに適用されるプレゼンスポリシーを設定できます。 また、プライバシーと IM のさまざまな機能を構成することもできます。
+インスタントメッセージング (IM) とプレゼンスのコマンドレットを使用すると、Windows PowerShell を使用してこれらのクライアント機能を管理できます。 グローバル サイト、またはユーザーごとのスコープに適用されるプレゼンス ポリシーを設定できます。 また、さまざまなプライバシー機能と IM 機能を構成できます。
 
 <div>
 
-## <a name="im-and-presence-cmdlets"></a>IM とプレゼンスコマンドレット
+## <a name="im-and-presence-cmdlets"></a>IM およびプレゼンスのコマンドレット
 
-IM とプレゼンスを構成するには、次のコマンドレットを使用します。
-
-  - <span></span>  
-    [Get-CsPresencePolicy](https://technet.microsoft.com/en-us/library/Gg398463(v=OCS.15))
+IM とプレゼンスを構成するには、以下のコマンドレットを使用します。
 
   - <span></span>  
-    [Grant-CsPresencePolicy](https://technet.microsoft.com/en-us/library/Gg398571(v=OCS.15))
+    [Get-CsPresencePolicy](https://technet.microsoft.com/library/Gg398463(v=OCS.15))
 
   - <span></span>  
-    [New-CsPresencePolicy](https://technet.microsoft.com/en-us/library/Gg412747(v=OCS.15))
+    [Grant-CsPresencePolicy](https://technet.microsoft.com/library/Gg398571(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsPresencePolicy](https://technet.microsoft.com/en-us/library/Gg399070(v=OCS.15))
+    [新しい-CsPresencePolicy](https://technet.microsoft.com/library/Gg412747(v=OCS.15))
 
   - <span></span>  
-    [Set-CsPresencePolicy](https://technet.microsoft.com/en-us/library/Gg425782(v=OCS.15))
+    [Remove-CsPresencePolicy](https://technet.microsoft.com/library/Gg399070(v=OCS.15))
+
+  - <span></span>  
+    [Set-CsPresencePolicy](https://technet.microsoft.com/library/Gg425782(v=OCS.15))
 
 <!-- end list -->
 
-  - [Get-CsPresenceProvider](https://technet.microsoft.com/en-us/library/JJ204705(v=OCS.15))
+  - [Get-CsPresenceProvider](https://technet.microsoft.com/library/JJ204705(v=OCS.15))
 
-  - [新しい-CsPresenceProvider](https://technet.microsoft.com/en-us/library/JJ204895(v=OCS.15))
+  - [新しい-CsPresenceProvider](https://technet.microsoft.com/library/JJ204895(v=OCS.15))
 
-  - [削除-CsPresenceProvider](https://technet.microsoft.com/en-us/library/JJ205036(v=OCS.15))
+  - [Remove-CsPresenceProvider](https://technet.microsoft.com/library/JJ205036(v=OCS.15))
 
-  - [Set-CsPresenceProvider](https://technet.microsoft.com/en-us/library/JJ204833(v=OCS.15))
-
-<!-- end list -->
-
-  - <span></span>  
-    [Get-CsPrivacyConfiguration](https://technet.microsoft.com/en-us/library/Gg413002(v=OCS.15))
-
-  - <span></span>  
-    [新規-CsPrivacyConfiguration](https://technet.microsoft.com/en-us/library/Gg398807(v=OCS.15))
-
-  - <span></span>  
-    [Remove-CsPrivacyConfiguration](https://technet.microsoft.com/en-us/library/Gg425821(v=OCS.15))
-
-  - <span></span>  
-    [Set-CsPrivacyConfiguration](https://technet.microsoft.com/en-us/library/Gg398484(v=OCS.15))
+  - [Set-CsPresenceProvider](https://technet.microsoft.com/library/JJ204833(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Set-CsUserServer](https://technet.microsoft.com/en-us/library/Gg413026(v=OCS.15))
+    [Get-csprivacyconfiguration 戻し](https://technet.microsoft.com/library/Gg413002(v=OCS.15))
+
+  - <span></span>  
+    [Get-csprivacyconfiguration 戻し](https://technet.microsoft.com/library/Gg398807(v=OCS.15))
+
+  - <span></span>  
+    [Get-csprivacyconfiguration 戻し](https://technet.microsoft.com/library/Gg425821(v=OCS.15))
+
+  - <span></span>  
+    [Get-csprivacyconfiguration 戻し](https://technet.microsoft.com/library/Gg398484(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Csuserサービスの構成を取得する](https://technet.microsoft.com/en-us/library/Gg398133(v=OCS.15))
-
-  - <span></span>  
-    [新しい Csuserサービス構成](https://technet.microsoft.com/en-us/library/Gg412926(v=OCS.15))
-
-  - <span></span>  
-    [Csuserサービス構成の削除](https://technet.microsoft.com/en-us/library/Gg398722(v=OCS.15))
-
-  - <span></span>  
-    [設定-Csuserサービス構成](https://technet.microsoft.com/en-us/library/Gg398340(v=OCS.15))
+    [設定-CsUserServer](https://technet.microsoft.com/library/Gg413026(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [CsFileTransferFilterConfiguration の取得](https://technet.microsoft.com/en-us/library/Gg398527(v=OCS.15))
+    [-Csuserサービス構成を取得する](https://technet.microsoft.com/library/Gg398133(v=OCS.15))
 
   - <span></span>  
-    [新しい-CsFileTransferFilterConfiguration](https://technet.microsoft.com/en-us/library/Gg425897(v=OCS.15))
+    [新しい-Csuserサービスの構成](https://technet.microsoft.com/library/Gg412926(v=OCS.15))
 
   - <span></span>  
-    [CsFileTransferFilterConfiguration の削除](https://technet.microsoft.com/en-us/library/Gg413064(v=OCS.15))
+    [-Csuserサービス構成を削除する](https://technet.microsoft.com/library/Gg398722(v=OCS.15))
 
   - <span></span>  
-    [Set-CsFileTransferFilterConfiguration](https://technet.microsoft.com/en-us/library/Gg425736(v=OCS.15))
+    [-Csuserサービス構成の設定](https://technet.microsoft.com/library/Gg398340(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [取得-Cシム Filterconfiguration](https://technet.microsoft.com/en-us/library/Gg398980(v=OCS.15))
+    [-CsFileTransferFilterConfiguration の取得](https://technet.microsoft.com/library/Gg398527(v=OCS.15))
 
   - <span></span>  
-    [新しい-Cシム Filterconfiguration](https://technet.microsoft.com/en-us/library/Gg398244(v=OCS.15))
+    [新しい-CsFileTransferFilterConfiguration](https://technet.microsoft.com/library/Gg425897(v=OCS.15))
 
   - <span></span>  
-    [削除-Cシム Filterconfiguration](https://technet.microsoft.com/en-us/library/Gg398171(v=OCS.15))
+    [削除-CsFileTransferFilterConfiguration](https://technet.microsoft.com/library/Gg413064(v=OCS.15))
 
   - <span></span>  
-    [Set-Cシム Filterconfiguration](https://technet.microsoft.com/en-us/library/Gg412960(v=OCS.15))
+    [Set-CsFileTransferFilterConfiguration](https://technet.microsoft.com/library/Gg425736(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsGroupExpansion](https://technet.microsoft.com/en-us/library/Gg399009(v=OCS.15))
+    [Get-Cシム Filterconfiguration](https://technet.microsoft.com/library/Gg398980(v=OCS.15))
+
+  - <span></span>  
+    [New-Cシム Filterconfiguration](https://technet.microsoft.com/library/Gg398244(v=OCS.15))
+
+  - <span></span>  
+    [Remove-Cシム Filterconfiguration](https://technet.microsoft.com/library/Gg398171(v=OCS.15))
+
+  - <span></span>  
+    [Set-Cシム Filterconfiguration](https://technet.microsoft.com/library/Gg412960(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsGroupIM](https://technet.microsoft.com/en-us/library/Gg398273(v=OCS.15))
+    [テスト-CsGroupExpansion](https://technet.microsoft.com/library/Gg399009(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsIM](https://technet.microsoft.com/en-us/library/Gg425802(v=OCS.15))
+    [テスト-CsGroupIM](https://technet.microsoft.com/library/Gg398273(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsP2PAV](https://technet.microsoft.com/en-us/library/Gg412821(v=OCS.15))
+    [テスト-CsIM](https://technet.microsoft.com/library/Gg425802(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsPresence](https://technet.microsoft.com/en-us/library/Gg398148(v=OCS.15))
+    [Test-csp2pav](https://technet.microsoft.com/library/Gg412821(v=OCS.15))
+
+<!-- end list -->
+
+  - <span></span>  
+    [テスト-CsPresence](https://technet.microsoft.com/library/Gg398148(v=OCS.15))
 
 </div>
 
@@ -163,7 +163,7 @@ IM とプレゼンスを構成するには、次のコマンドレットを使�
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 のクライアント管理コマンドレット](lync-server-2013-client-management-cmdlets.md)  
+[Lync Server 2013 のクライアント管理のコマンドレット](lync-server-2013-client-management-cmdlets.md)  
 
 
 [Lync Server PowerShell ブログ](http://go.microsoft.com/fwlink/p/?linkid=203150)  

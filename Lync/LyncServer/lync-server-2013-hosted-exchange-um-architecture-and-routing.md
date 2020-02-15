@@ -12,20 +12,20 @@ ms:contentKeyID: 48184122
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a0196026552d19f4338c1a2afa265b8a3e67eb77
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3846e6b2a6817bb01b678f6ddb2c8d0ce7231ec1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739017"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046830"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="hosted-exchange-um-architecture-and-routing-in-lync-server-2013"></a>Lync Server 2013 の Hosted Exchange UM アーキテクチャとルーティング
+# <a name="hosted-exchange-um-architecture-and-routing-in-lync-server-2013"></a>Lync Server 2013 での Hosted Exchange UM アーキテクチャとルーティング
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41739017"
 
 <span> </span>
 
-_**最終更新日:** 2012-03-26_
+_**トピックの最終更新日:** 2012-03-26_
 
-このセクションでは、サポートされているモード、共有 SIP スペース、ルーティングの考慮事項など、オンプレミスとホスト型の Exchange UM の統合のアーキテクチャの概要について説明します。
+ここでは、内部設置型 Hosted Exchange UM 統合のアーキテクチャの概要 (サポートされているモード、共有 SIP 空間、ルーティングの考慮事項など) について説明します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 の Hosted Exchange UM 統合のアーキテクチャ](lync-server-2013-hosted-exchange-um-integration-architecture.md)
+  - [Lync Server 2013 の Hosted Exchange UM 統合アーキテクチャ](lync-server-2013-hosted-exchange-um-integration-architecture.md)
 
-  - [Lync Server 2013 Hosted Exchange UM のルーティング](lync-server-2013-hosted-exchange-um-routing.md)
+  - [Lync Server 2013 での Hosted Exchange UM ルーティング](lync-server-2013-hosted-exchange-um-routing.md)
 
 </div>
 

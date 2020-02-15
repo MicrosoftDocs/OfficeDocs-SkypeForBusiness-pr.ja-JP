@@ -1,5 +1,5 @@
 ---
-title: (オプション) 会議への入退出のアナウンスの有効化および無効化
+title: オプション会議の参加と退室のアナウンスを有効または無効にする
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185403
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8b8e75a0d2ed81a515540f2a8a1811998a85d44c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6b18dadbb4b7dc5a35f8688c46f2836b46cb55a5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755751"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051149"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="optional-enable-and-disable-conference-join-and-leave-announcements-in-lync-server-2013"></a>(オプション) Lync Server 2013 での会議への入退出のアナウンスの有効化および無効化
+# <a name="optional-enable-and-disable-conference-join-and-leave-announcements-in-lync-server-2013"></a>オプションLync Server 2013 での会議の参加と脱退のアナウンスを有効または無効にする
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41755751"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-30_
+_**トピックの最終更新日:** 2012-09-30_
 
-ダイヤルインユーザーが会議に参加しているとき、会議に参加しているときに、会議アナウンスメントアプリケーションは、トーンを再生したり名前を言ったりして、開始または終了することができます。 コマンドレットを実行することで、お知らせの動作を変更することができます。 この手順は省略可能です。
+ダイヤルインユーザーが会議に参加または退室したときに、電話会議アナウンスアプリケーションは、トーンを再生したり名前を言ったりすることで、開始または終了をアナウンスできます。 アナウンス方法はコマンドレットを実行することによって変更できます。 このステップはオプションです。
 
 <div>
 
 ## <a name="to-modify-the-conference-join-and-leave-announcement-behavior"></a>会議への出退席のアナウンス方法を変更するには
 
-1.  RTCUniversalServerAdmins グループのメンバーとして、または**Cs-serveradministrator**または**csadministrator**の役割のメンバーとしてコンピューターにログオンします。
+1.  RTCUniversalServerAdmins グループのメンバーか、**Cs-ServerAdministrator** または **CsAdministrator** の役割のメンバーとしてコンピューターにログオンします。
 
-2.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+2.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
 3.  コマンド プロンプトで次のコマンドを実行します。
     
         Get-CsDialinConferencingConfiguration
     
-    このコマンドレットは、会議に参加するときに参加者が名前を記録する必要があるかどうか、また、参加者がダイヤルイン会議に参加または退出したときに Lync Server がどのように応答するかに関する情報を取得します。
+    このコマンドレットは、会議に参加するときに参加者が名前を記録する必要があるかどうか、および参加者がダイヤルイン会議に参加または退室したときに Lync Server が応答するかどうかに関する情報を取得します。
 
 4.  コマンド プロンプトで次のコマンドを実行します。
     
@@ -60,22 +60,22 @@ _**最終更新日:** 2012-09-30_
         [-EntryExitAnnouncementsEnabledByDefault <$true | $false>]
         [-EntryExitAnnouncementsType <UseNames | ToneOnly]
     
-    **EnableNameRecording**   は、会議に参加する前に、匿名の参加者が名前の記録を求められるかどうかを決定します。 既定値は "$true" で、これは、会議に参加するときに、匿名の参加者に名前の入力を求めるメッセージが表示されることを意味します。 (認証済みの参加者は、表示名が代わりに使用されるため、名前を記録しません。)
+    **EnableNameRecording**   は、会議に入る前に、匿名の参加者が名前を記録するように要求するかどうかを決定します。 既定値は "$true" で、これは、匿名参加者が会議に参加するときに名前を入力するように求められることを意味します。 (認証された参加者は、表示名が代わりに使用されるので、名前を記録しません。)
     
-    **EntryExitAnnouncementsEnabledByDefault**   は、お知らせが既定でオンまたはオフになっているかどうかを示します。 既定値は "$false" で、これは既定で、参加者が会議に出席または会議から退席するときにアナウンスが行われないことを意味します。 ミーティング開催者は、ミーティングをスケジュールするときにこの設定を上書きできます。
+    **EntryExitAnnouncementsEnabledByDefault**   は、アナウンスが既定でオンまたはオフにされているかどうかを示します。 既定値は "$false" で、これは既定で、参加者が会議に参加または退室したときにアナウンスがないことを意味します。 会議の開催者は、会議をスケジュールするときにこの設定を上書きすることができます。
     
-    **Entryexitアナウンス ementstype**   は、アナウンスが有効になっている会議に参加者が参加または退室したときに実行されるアクションを示します。 既定値は "UseNames" で、これは、アナウンスをオンにすると、"Ken Myer が会議に参加しました" というようなアナウンスが行われることを意味します。
+    **Entryexitアナウンス ementstype**   は、参加者がアナウンスが有効になっている会議に参加または退室したときに実行されるアクションを示します。 既定値は "UseNames です。これは、アナウンスが有効になっている場合に、" Ken Myer が会議に参加しました "ということを意味します。
     
-    これらの設定は、グローバル スコープまたはサイト スコープで構成できます。サイト スコープで構成した設定は、グローバル スコープで構成した設定より優先されます。
+    これらの設定は、グローバル スコープまたはサイト スコープで構成できます。 サイト スコープで構成した設定は、グローバル スコープで構成した設定より優先されます。
     
-    次に例を示します。
+    次にその例を示します。
     
         Set-CsDialinConferencingConfiguration -Identity site:Redmond
         -EnableNameRecording $false
         -EntryExitAnnouncementsEnabledByDefault $true
         -EntryExitAnnouncementsType ToneOnly
     
-    この例では、設定は Redmond のサイトスコープで構成されています。 アナウンスはオンにされますが、会議に参加するときに名前を言うように参加者が求められることはありません。 参加者が会議に参加または退出したときにトーンが再生されます。
+    この例では、設定が Redmond のサイト スコープで定義されます。 アナウンスはオンにされますが、会議に参加するときに名前を言うよう参加者が求められることはありません。 参加者が会議に出席または会議から退席するときには、トーン音が再生されます。
 
 </div>
 

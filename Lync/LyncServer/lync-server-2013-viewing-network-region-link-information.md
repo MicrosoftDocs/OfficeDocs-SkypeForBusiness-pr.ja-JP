@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ネットワーク領域のリンク情報の表示'
+title: 'Lync Server 2013: ネットワーク地域リンク情報の表示'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733701
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 935d1a98bd4f446ec8861ae8382eb724611a945f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7046f4f405bc3ece0170c4d598369828b47aa910
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757281"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046450"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="viewing-network-region-link-information-in-lync-server-2013"></a>Lync Server 2013 でのネットワーク領域のリンク情報の表示
+# <a name="viewing-network-region-link-information-in-lync-server-2013"></a>Lync Server 2013 でのネットワーク地域リンク情報の表示
 
 </div>
 
@@ -37,25 +37,25 @@ ms.locfileid: "41757281"
 
 _**トピックの最終更新日:** 2013-02-23_
 
-通話受付制御 (CAC) の一部として、2つのネットワーク領域間のリンクを表示することができます。 ネットワーク内の領域は、物理ワイドエリアネットワーク (WAN) 接続によってリンクされています。 Lync Server コントロールパネルを使用して、2つのネットワーク領域間の既存のリンクを表示することができます。 ネットワーク領域へのリンクの作成または変更の詳細については、「 [Lync Server 2013 でのネットワーク領域のリンクの構成](lync-server-2013-configuring-network-region-links.md)」を参照してください。
+通話受付管理 (CAC) の一環として、2 つのネットワーク地域間のリンクを表示できます。 ネットワーク内の地域は、物理的なワイド エリア ネットワーク (WAN) 接続を経由してリンクされます。 Lync Server コントロールパネルを使用して、2つのネットワーク地域間の既存のリンクを表示することができます。 ネットワーク地域リンクの作成または変更の詳細については、「 [Lync Server 2013 でのネットワーク地域リンクの構成](lync-server-2013-configuring-network-region-links.md)」を参照してください。
 
 <div>
 
-## <a name="to-view-a-network-region-link-in-lync-server-control-panel"></a>Lync Server コントロールパネルでネットワーク領域のリンクを表示するには
+## <a name="to-view-a-network-region-link-in-lync-server-control-panel"></a>Lync Server コントロールパネルでネットワーク地域リンクを表示するには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
-3.  左側のナビゲーションバーで [**ネットワーク構成**] をクリックし、[**地域] リンク**をクリックします。
+3.  左側のナビゲーション バーで [**ネットワーク構成**] をクリックし、[**地域リンク**] をクリックします。
 
-4.  [**地域] リンク**ページで、表示する地域のリンクをクリックします。
+4.  [**地域リンク**] ページで、表示する地域リンクをクリックします。
     
     <div>
     
 
     > [!NOTE]  
-    > 一度に表示できるのは、1つの地域のリンクに関する情報だけです。
+    > 一度に情報を表示できる地域リンクは 1 つだけです。
 
     
     </div>
@@ -66,15 +66,15 @@ _**トピックの最終更新日:** 2013-02-23_
 
 <div>
 
-## <a name="viewing-network-region-link-information-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用したネットワーク領域のリンク情報の表示
+## <a name="viewing-network-region-link-information-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用してネットワーク地域リンク情報を表示する
 
-ネットワークの領域のリンクを表示するには、Windows PowerShell を使用するか、または**CsNetworkRegionLink**コマンドレットを使用します。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
+Windows PowerShell と**Get-CsNetworkRegionLink**コマンドレットを使用して、ネットワーク地域リンクを表示することができます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 <div>
 
-## <a name="to-view-network-region-link-information"></a>ネットワーク領域のリンク情報を表示するには
+## <a name="to-view-network-region-link-information"></a>ネットワーク地域リンク情報を表示するには
 
-  - すべてのネットワーク領域のリンクに関する情報を表示するには、Lync Server 管理シェルで次のコマンドを入力し、enter キーを押します。
+  - すべてのネットワーク地域リンクに関する情報を表示するには、Lync Server 管理シェルで次のコマンドを入力し、enter キーを押します。
     
         Get-CsNetworkRegionLink
     
@@ -88,7 +88,7 @@ _**トピックの最終更新日:** 2013-02-23_
 
 </div>
 
-詳細については、「 [CsNetworkRegionLink の入手](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink)」を参照してください。
+詳細については、「[Get-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink)」を参照してください。
 
 </div>
 
@@ -97,7 +97,7 @@ _**トピックの最終更新日:** 2013-02-23_
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 でネットワークサイトリンクを構成する](lync-server-2013-configuring-network-site-links.md)  
+[Lync Server 2013 でのネットワークサイトリンクの構成](lync-server-2013-configuring-network-site-links.md)  
   
 
 </div>

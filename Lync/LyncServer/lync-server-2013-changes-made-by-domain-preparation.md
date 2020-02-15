@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ドメインの準備によって行われた変更'
+title: 'Lync Server 2013: ドメインの準備によって加えられた変更'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184845
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cbdd1fa1fbb5bd7a396e17f478326a9e4dd700f8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fb693f79470e7d68a1aaf662c9ab82b8bafa5c39
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730107"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037257"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="changes-made-by-domain-preparation-in-lync-server-2013"></a>Lync Server 2013 でのドメインの準備によって行われた変更
+# <a name="changes-made-by-domain-preparation-in-lync-server-2013"></a>Lync Server 2013 のドメインの準備によって加えられた変更
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41730107"
 
 <span> </span>
 
-_**最終更新日:** 2010-10-18_
+_**トピックの最終更新日:** 2010-10-18_
 
-次の表に、ドメインの準備でドメインルート上に作成されるアクセス制御エントリ (Ace) を示します。 特に注記がない限り、すべての Ace が継承されます。
+次の表は、ドメインを準備する際にドメイン ルートに作成されるアクセス制御エントリ (ACE) を示しています。特に注記のない限り、これらの ACE はすべて継承されます。
 
 <div id="sectionSection0" class="section">
 
-### <a name="aces-added-to-domain-root"></a>ドメインルートに追加された Ace
+### <a name="aces-added-to-domain-root"></a>ドメイン ルートに追加された ACE
 
 <table style="width:100%;">
 <colgroup>
@@ -54,110 +54,110 @@ _**最終更新日:** 2010-10-18_
 </colgroup>
 <thead>
 <tr class="header">
-<th>AS</th>
+<th>ACE</th>
 <th>RTCUniversal-UserReadOnly-グループ</th>
 <th>RTCUniversal-ServerReadOnly-グループ</th>
 <th>RTCUniversal-UserAdmins</th>
 <th>RTCHSUniversal-サービス</th>
-<th>認証済み-ユーザー</th>
+<th>認証されたユーザー</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>読み取りコンテナー (継承されません)</p></td>
+<td><p>コンテナーの読み取り (継承されない)</p></td>
 <td><p><strong>はい</strong></p></td>
-<td><p><strong>はい</strong></p></td>
+<td><p><strong>○</strong></p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 </tr>
 <tr class="even">
-<td><p>ユーザー PropertySet の読み取りユーザーアカウントの制限</p></td>
-<td><p><strong>はい</strong></p></td>
+<td><p>User-Account-Restrictions ユーザー プロパティ セットの読み取り</p></td>
+<td><p><strong>○</strong></p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 </tr>
 <tr class="odd">
-<td><p>ユーザー PropertySet の個人情報を読む</p></td>
-<td><p><strong>はい</strong></p></td>
+<td><p>Personal-Information ユーザー プロパティ セットの読み取り</p></td>
+<td><p><strong>○</strong></p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 </tr>
 <tr class="even">
-<td><p>ユーザー PropertySet の読み取りの概要-情報</p></td>
-<td><p><strong>はい</strong></p></td>
+<td><p>General-Information ユーザー プロパティ セットの読み取り</p></td>
+<td><p><strong>○</strong></p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 </tr>
 <tr class="odd">
-<td><p>ユーザー PropertySet パブリック情報を読む</p></td>
-<td><p><strong>はい</strong></p></td>
+<td><p>Public-Information ユーザー プロパティ セットの読み取り</p></td>
+<td><p><strong>○</strong></p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 </tr>
 <tr class="even">
-<td><p>ユーザー PropertySet RTCUserSearchProperty セットを読み取ります。</p></td>
-<td><p><strong>はい</strong></p></td>
+<td><p>RTCUserSearchProperty-Set ユーザー プロパティ セットの読み取り</p></td>
+<td><p><strong>○</strong></p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 <td><p><strong>はい</strong></p></td>
 </tr>
 <tr class="odd">
-<td><p>ユーザー PropertySet RTCPropertySet を読む</p></td>
-<td><p><strong>はい</strong></p></td>
+<td><p>RTCPropertySet ユーザー プロパティ セットの読み取り</p></td>
+<td><p><strong>○</strong></p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 </tr>
 <tr class="even">
-<td><p>ユーザープロパティプロキシアドレスの書き込み</p></td>
+<td><p>Proxy-Addresses ユーザー プロパティの書き込み</p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
-<td><p><strong>はい</strong></p></td>
+<td><p><strong>○</strong></p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 </tr>
 <tr class="odd">
-<td><p>User PropertySet RTCUserSearchProperty セットの書き込み</p></td>
+<td><p>RTCUserSearchProperty-Set ユーザー プロパティ セットの書き込み</p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
-<td><p><strong>はい</strong></p></td>
+<td><p><strong>○</strong></p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 </tr>
 <tr class="even">
-<td><p>ユーザー PropertySet の書き込み RTCPropertySet</p></td>
+<td><p>RTCPropertySet ユーザー プロパティ セットの書き込み</p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
-<td><p><strong>はい</strong></p></td>
+<td><p><strong>○</strong></p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 </tr>
 <tr class="odd">
-<td><p>PropertySet の DS-レプリケーション-すべての Active Directory オブジェクトの変更内容を確認する</p></td>
+<td><p>すべての Active Directory オブジェクトの DS-Replication-Get-Changes プロパティ セットの読み取り</p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
-<td><p><strong>はい</strong></p></td>
-<td><p>いいえ</p></td>
+<td><p><strong>○</strong></p></td>
+<td><p>×</p></td>
 </tr>
 </tbody>
 </table>
 
 
-次の表は、3つの組み込みコンテナー (ユーザー、コンピューター、ドメインコントローラー) で、ドメインの準備によって作成される Ace を示しています。 特に注記がない限り、すべての Ace が継承されます。
+次の表は、ドメインを準備する際に 3 つの組み込みコンテナー (Users、Computers、および Domain Controllers) に作成される ACE を示しています。特に注記のない限り、これらの ACE はすべて継承されます。
 
-### <a name="aces-added-to-built-in-containers"></a>組み込みのコンテナーに追加された Ace
+### <a name="aces-added-to-built-in-containers"></a>組み込みコンテナーに追加された ACE
 
 <table>
 <colgroup>
@@ -167,16 +167,16 @@ _**最終更新日:** 2010-10-18_
 </colgroup>
 <thead>
 <tr class="header">
-<th>AS</th>
+<th>ACE</th>
 <th>RTCUniversal-UserReadOnly-グループ</th>
 <th>RTCUniversal-ServerReadOnly-グループ</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>読み取りコンテナー (継承されません)</p></td>
+<td><p>コンテナーの読み取り (継承されない)</p></td>
 <td><p><strong>はい</strong></p></td>
-<td><p><strong>はい</strong></p></td>
+<td><p><strong>○</strong></p></td>
 </tr>
 </tbody>
 </table>

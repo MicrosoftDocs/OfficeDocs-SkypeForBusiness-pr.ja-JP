@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: バックアップ サービスを使用した会議コンテンツの復元'
+title: 'Lync Server 2013: バックアップサービスを使用した会議コンテンツの復元'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733620
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 873ca354ca592eb6bc317b579a0a6f5008e6a172
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d8fb791362718b2bce5e7c13c0cc6aab779d954f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733197"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051079"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="restoring-conference-contents-using-the-backup-service-in-lync-server-2013"></a>Lync Server 2013 でのバックアップ サービスを使用した会議コンテンツの復元
+# <a name="restoring-conference-contents-using-the-backup-service-in-lync-server-2013"></a>Lync Server 2013 でのバックアップサービスを使用した会議コンテンツの復元
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41733197"
 
 <span> </span>
 
-_**最終更新日:** 2012-11-01_
+_**トピックの最終更新日:** 2012-11-01_
 
-フロントエンドプールのファイルストアに保存されている会議情報が利用できなくなった場合。 この情報を復元すると、プールをホームにしているユーザーが会議データを保持するようになります。 会議データを紛失したフロントエンドプールが別のフロントエンドプールとペアリングされている場合は、バックアップサービスを使ってデータを復元することができます。
+フロントエンド プールのファイル ストアに格納されている会議情報が使用できなくなった場合は、この情報を復元する必要があります。これにより、プールのユーザーが会議データを保持できます。会議データを失ったフロントエンド プールと他のフロントエンド プールがペアになっている場合は、バックアップ サービスを使用してデータを復元できます。
 
-また、プール全体で障害が発生し、ユーザーがバックアッププールにフェールオーバーしなければならない場合は、このタスクを実行する必要があります。 これらのユーザーが元のプールにフェールバックされた場合は、この手順を使用して、会議のコンテンツを元のプールにもコピーし直す必要があります。
+プール全体で障害が発生し、ユーザーをバックアップ プールにフェールオーバーする必要がある場合も、このタスクを実行します。これらのユーザーが元のプールにフェールオーバーされるときに、この手順を使用して、会議コンテンツも元のプールにコピーする必要があります。
 
-Pool1 が Pool2 とペアリングされていることを前提としていますが、Pool1 の会議データは失われます。 次のコマンドレットを使用して、バックアップサービスを呼び出して内容を復元できます。
+Pool1 と Pool2 がペアで、Pool1 の会議データが失われたとします。 次のコマンドレットを使用して、バックアップサービスを呼び出してコンテンツを復元できます。
 
     Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN> -BackupModule ConfServices.DataConf
 
-会議の内容の復元には、サイズによっては時間がかかる場合があります。 プロセスの状態を確認するには、次のコマンドレットを使用します。
+会議コンテンツのサイズによっては、コンテンツを復元するのに時間がかかる場合があります。次のコマンドレットを使用すると、プロセスの状態を確認できます。
 
     Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN> -BackupModule ConfServices.DataConf
 
-プロセスは、このコマンドレットがデータ会議モジュールの安定した状態の値を返すときに実行されます。
+このコマンドレットがデータ会議モジュールに対して安定状態の値を返すと、プロセスは完了です。
 
 </div>
 

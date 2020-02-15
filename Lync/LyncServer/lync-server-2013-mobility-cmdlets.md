@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: モビリティーコマンドレット'
+title: 'Lync Server 2013: Mobility コマンドレット'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183973
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c2e1f5339f2c47a611fa29d9511d4d73148afcda
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 88343e0e430f28e7661c18072bad799c46d84f3f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758709"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037637"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="mobility-cmdlets-in-lync-server-2013"></a>Lync Server 2013 のモバイルコマンドレット
+# <a name="mobility-cmdlets-in-lync-server-2013"></a>Lync Server 2013 でのモビリティのコマンドレット
 
 </div>
 
@@ -35,86 +35,86 @@ ms.locfileid: "41758709"
 
 <span> </span>
 
-_**最終更新日:** 2012-06-20_
+_**トピックの最終更新日:** 2012-06-20_
 
-モバイルコマンドレットは、Lync Server 2010 の累積的な更新で追加されたモバイル機能を管理するために導入されました。2011年11月。 これらのコマンドレットを使用して、モビリティーサービス構成やユーザーポリシーなどのモビリティ機能の設定を管理します。
+Mobility コマンドレットは、Lync Server 2010 の累積的な更新プログラム (11 月 2011) で追加されたモビリティ機能を管理するために導入されました。 これらのコマンドレットを使用して、Mobility Service の構成、ユーザー ポリシーなどのモビリティ機能の設定を管理します。
 
 <div>
 
-## <a name="mobility-cmdlets"></a>モバイルコマンドレット
+## <a name="mobility-cmdlets"></a>モビリティ コマンドレット
 
-モバイル機能を構成するコマンドレットを使用すると、Lync Server 管理シェルからコマンドを実行したり、さまざまなモバイル設定を構成およびテストするスクリプトを作成したりすることができます。
-
-  - <span></span>  
-    [Get-CsAutodiscoverConfiguration](https://technet.microsoft.com/en-us/library/Hh690014(v=OCS.15))
+モビリティ機能を構成するコマンドレットを使用すると、Lync Server 管理シェルからコマンドを実行したり、さまざまなモビリティ設定を構成およびテストするためのスクリプトを書き込んだりすることができます。
 
   - <span></span>  
-    [New-CsAutodiscoverConfiguration](https://technet.microsoft.com/en-us/library/Hh690022(v=OCS.15))
+    [Get-csautodiscoverconfiguration](https://technet.microsoft.com/library/Hh690014(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsAutodiscoverConfiguration](https://technet.microsoft.com/en-us/library/Hh690054(v=OCS.15))
+    [Get-csautodiscoverconfiguration](https://technet.microsoft.com/library/Hh690022(v=OCS.15))
 
   - <span></span>  
-    [Set-CsAutodiscoverConfiguration](https://technet.microsoft.com/en-us/library/Hh689980(v=OCS.15))
+    [Get-csautodiscoverconfiguration](https://technet.microsoft.com/library/Hh690054(v=OCS.15))
 
   - <span></span>  
-    [新しい-CsWebLink](https://technet.microsoft.com/en-us/library/Hh690053(v=OCS.15))
+    [Get-csautodiscoverconfiguration](https://technet.microsoft.com/library/Hh689980(v=OCS.15))
+
+  - <span></span>  
+    [新しい-CsWebLink](https://technet.microsoft.com/library/Hh690053(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsMcxConfiguration](https://technet.microsoft.com/en-us/library/Hh690031(v=OCS.15))
+    [Get-CsMcxConfiguration](https://technet.microsoft.com/library/Hh690031(v=OCS.15))
 
   - <span></span>  
-    [新しい-CsMcxConfiguration](https://technet.microsoft.com/en-us/library/Hh690035(v=OCS.15))
+    [新しい-CsMcxConfiguration](https://technet.microsoft.com/library/Hh690035(v=OCS.15))
 
   - <span></span>  
-    [CsMcxConfiguration の削除](https://technet.microsoft.com/en-us/library/Hh690026(v=OCS.15))
+    [Remove-CsMcxConfiguration](https://technet.microsoft.com/library/Hh690026(v=OCS.15))
 
   - <span></span>  
-    [Set-CsMcxConfiguration](https://technet.microsoft.com/en-us/library/Hh690050(v=OCS.15))
+    [Set-CsMcxConfiguration](https://technet.microsoft.com/library/Hh690050(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/Hh690017(v=OCS.15))
+    [Get-csmobilitypolicy](https://technet.microsoft.com/library/Hh690017(v=OCS.15))
 
   - <span></span>  
-    [Grant-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/Hh690038(v=OCS.15))
+    [Get-csmobilitypolicy](https://technet.microsoft.com/library/Hh690038(v=OCS.15))
 
   - <span></span>  
-    [New-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/Hh689987(v=OCS.15))
+    [Get-csmobilitypolicy](https://technet.microsoft.com/library/Hh689987(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/Hh690048(v=OCS.15))
+    [Get-csmobilitypolicy](https://technet.microsoft.com/library/Hh690048(v=OCS.15))
 
   - <span></span>  
-    [Set-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/Hh690021(v=OCS.15))
+    [Get-csmobilitypolicy](https://technet.microsoft.com/library/Hh690021(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsPushNotificationConfiguration](https://technet.microsoft.com/en-us/library/Hh690049(v=OCS.15))
+    [Get-Cspの、構成](https://technet.microsoft.com/library/Hh690049(v=OCS.15))
 
   - <span></span>  
-    [新しい-Cspの通知構成](https://technet.microsoft.com/en-us/library/Hh690027(v=OCS.15))
+    [新しい-Cspの、構成](https://technet.microsoft.com/library/Hh690027(v=OCS.15))
 
   - <span></span>  
-    [削除-Cspの通知構成](https://technet.microsoft.com/en-us/library/Hh690028(v=OCS.15))
+    [削除-Cspの "構成"](https://technet.microsoft.com/library/Hh690028(v=OCS.15))
 
   - <span></span>  
-    [Set-Cspの通知構成](https://technet.microsoft.com/en-us/library/Hh690013(v=OCS.15))
+    [Set-Cspの通知構成](https://technet.microsoft.com/library/Hh690013(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsMcxConference](https://technet.microsoft.com/en-us/library/Hh690045(v=OCS.15))
+    [テスト-CsMcxConference 会議](https://technet.microsoft.com/library/Hh690045(v=OCS.15))
 
   - <span></span>  
-    [テスト-CsMcxP2PIM](https://technet.microsoft.com/en-us/library/Hh690020(v=OCS.15))
+    [Test-csmcxp2pim](https://technet.microsoft.com/library/Hh690020(v=OCS.15))
 
   - <span></span>  
-    [テスト-CsMcxPushNotification](https://technet.microsoft.com/en-us/library/Hh690043(v=OCS.15))
+    [テスト-CsMcxPushNotification](https://technet.microsoft.com/library/Hh690043(v=OCS.15))
 
 </div>
 

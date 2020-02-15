@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ユーザーアカウントのプロパティを変更する'
+title: 'Lync Server 2013: ユーザーアカウントのプロパティの変更'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733546
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d327da37188625fd44e01dc6146c5d6341f60fbc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e10f172ec6b1d96a94d74a7654ceb908687ad264
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41766008"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051259"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41766008"
 
 <span> </span>
 
-_**最終更新日:** 2012-11-01_
+_**トピックの最終更新日:** 2012-11-01_
 
-このセクションの手順を使用して、個々のユーザーアカウントのプロパティを変更することができます。
+このセクションの手順を使用して、個々のユーザーアカウントのプロパティを変更できます。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
   - [Lync Server 2013 でユーザーのテレフォニーを構成する](lync-server-2013-configure-telephony-for-a-user.md)
 
@@ -54,8 +54,8 @@ _**最終更新日:** 2012-11-01_
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 で有効になっているユーザーアカウント](lync-server-2013-user-accounts-enabled-for-lync-server.md)  
-[Lync Server 2013 でのユーザーごとのポリシーの割り当て](lync-server-2013-assigning-per-user-policies.md)  
+[Lync Server 2013 に対して有効になっているユーザーアカウント](lync-server-2013-user-accounts-enabled-for-lync-server.md)  
+[Lync Server 2013 でのユーザー単位のポリシーの割り当て](lync-server-2013-assigning-per-user-policies.md)  
   
 
 </div>

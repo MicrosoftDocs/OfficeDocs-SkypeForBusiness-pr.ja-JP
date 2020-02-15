@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 事前の証明書の要求 (オプション)'
+title: 'Lync Server 2013: 事前に証明書を要求する (オプション)'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184915
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7ee4598f35bb607a9262bfeb7931e2c88e27920c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7c2df4d328154133df91503877a22234e6a05aa3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723837"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046903"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="request-certificates-in-advance-optional-for-lync-server-2013"></a>Lync Server 2013 の事前の証明書の要求 (オプション)
+# <a name="request-certificates-in-advance-optional-for-lync-server-2013"></a>Lync Server 2013 の証明書を事前に要求する (オプション)
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41723837"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-21_
+_**トピックの最終更新日:** 2013-02-21_
 
-この証明書は、Lync Server 2013 を実行しているすべての内部サーバー、Standard Edition server、監督、エッジサーバー、スタンドアロン仲介サーバーなど、すべての内部サーバーに必要です。 内部サーバーでは社内のエンタープライズ証明機関 (CA) を使うことをお勧めしますが、パブリック CA を使用することもできます。 証明書の要件とパブリック CA の使用について詳しくは、「計画ドキュメントの「 [Lync Server 2013 の内部サーバーの証明書要件](lync-server-2013-certificate-requirements-for-internal-servers.md)」をご覧ください。
+各 Enterprise Edition フロントエンドサーバー、Standard Edition サーバー、ディレクター、エッジサーバー、およびスタンドアロン仲介サーバーを含む、Lync Server 2013 を実行しているすべての内部サーバーに対して証明書が必要です。 内部サーバーには内部のエンタープライズ証明機関 (CA) をお勧めしますが、パブリック CA を使用することもできます。 証明書の要件およびパブリック CA の使用に関する詳細については、「計画」のドキュメントの「 [Lync Server 2013 の内部サーバーの証明書要件](lync-server-2013-certificate-requirements-for-internal-servers.md)」を参照してください。
 
-Lync Server 2013 セットアップには証明書ウィザードが含まれています。これにより、展開中に証明書の要求、割り当て、インストールのタスクを簡単に行うことができます。 サーバーをインストールする前に証明書を要求する場合 (たとえば、サーバーの実際の展開中に時間を節約するため)、Lync Server 2013 管理ツールがインストールされているコンピューター、または証明書の要求を使用して、証明書を要求することができます。組織で定義された手順。証明書がエクスポート可能であり、必要な件名の代替名がすべて含まれていることを確認します。 事前に証明書を要求することは任意です。 事前に要求していない場合は、証明書が必要な各サーバーのセットアップの一部として要求する必要があります。
+Lync Server 2013 セットアップには、証明書ウィザードが含まれています。これにより、展開時に証明書の要求、割り当て、およびインストールのタスクを容易に実行できます。 サーバーをインストールする前に証明書を要求する必要がある場合 (たとえば、実際にサーバーを展開する時間を節約するため)、Lync Server 2013 管理ツールがインストールされているコンピューター、または証明書要求を使用して証明書を要求することができます。証明書がエクスポート可能で、必要なサブジェクトの別名がすべて含まれている場合に限り、組織内で定義されている手順。 事前に証明書を要求することはオプションです。 事前に要求しない場合は、証明書を必要とする各サーバーのセットアップの一部として要求する必要があります。
 
-この展開ドキュメントでは、「 [lync server 2013 のサーバー用の証明](lync-server-2013-configure-certificates-for-servers.md)書を構成する」の説明に従って、セットアッププロセスの一環として証明書を要求するための手順について説明します。「lync server [2013 でディレクターの証明書を構成](lync-server-2013-configure-certificates-for-the-director.md)する」を参照[2013](lync-server-2013-install-the-files-for-mediation-server.md)してください 事前に証明書を要求する場合は、展開の時点で証明書を要求する代わりに、証明書のインポートと割り当てに応じて、これらのセクションで証明書の展開手順を変更する必要があります。
+この展開ドキュメントでは、証明書ウィザードを使用して、セットアッププロセスの一環として証明書を要求する手順について説明します。「 [lync server 2013 のサーバーの証明](lync-server-2013-configure-certificates-for-servers.md)書の構成」で説明されているように、 [lync Server 2013 でディレクターの証明書を構成](lync-server-2013-configure-certificates-for-the-director.md)し、この展開のドキュメントの「 [lync server 2013](lync-server-2013-install-the-files-for-mediation-server.md) 」のセクションに 事前に証明書を要求する場合は、これらのセクションの証明書の展開手順を、展開時に要求するのではなく、証明書のインポートと割り当てに応じて変更する必要があります。
 
 <div>
 
 
 > [!NOTE]  
-> Lync Server 2013 には、Windows Vista、Windows Server&nbsp;2008、windows server&nbsp;2008&nbsp;R2、Windows 7 オペレーティングシステム、lync Phone Edition を実行しているクライアントからの接続のための SHA-256 証明書がサポートされています。 SHA-256 を使って外部アクセスをサポートするために、外部証明書は SHA-256 を使ってパブリック CA によって発行されます。
+> Lync Server 2013 には、Windows Vista、Windows Server&nbsp;2008、windows server&nbsp;2008&nbsp;R2、Windows 7 オペレーティングシステム、および Lync Phone Edition を実行しているクライアントからの接続用の SHA-256 証明書のサポートが含まれています。 SHA-256 を使用する外部アクセスをサポートするには、SHA-256 を使用するパブリック CA が外部証明書を発行する必要があります。
 
 
 

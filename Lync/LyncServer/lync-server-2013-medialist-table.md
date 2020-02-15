@@ -12,16 +12,16 @@ ms:contentKeyID: 48183579
 ms.date: 07/12/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b92c8a0a6957eed00cf4e25f60ce2e0ff24d1fd2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6fe16e903a1dfbc958336dca68903ca80770995d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762995"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42039491"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41762995"
 
 <span> </span>
 
-_**最終更新日:** 2016-07-12_
+_**トピックの最終更新日:** 2016-07-12_
 
 MediaList テーブルは、さまざまなメディアの種類の一覧を格納する静的なテーブルです。
 
@@ -60,28 +60,28 @@ MediaList テーブルは、さまざまなメディアの種類の一覧を格�
 <td><p><strong>MediaId</strong></p></td>
 <td><p>tinyint</p></td>
 <td><p>Primary</p></td>
-<td><p>値: 1 -7</p></td>
+<td><p>値: 1-7</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>メディア</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td></td>
-<td><p>MediaID 値と Media 値の固定マッピング:</p>
+<td><p>MediaID とメディアの値の静的マッピング:</p>
 <ul>
 <li><p>1– IM</p></li>
-<li><p>2 – ファイル転送</p></li>
-<li><p>3 – リモート アシスタンス</p></li>
-<li><p>4 – アプリケーション共有</p></li>
-<li><p>5-オーディオ</p></li>
-<li><p>6-ビデオ</p></li>
-<li><p>7 – アプリケーション招待</p></li>
+<li><p>2 -- ファイル転送</p></li>
+<li><p>3 -- リモート アシスタンス</p></li>
+<li><p>4 -- アプリケーション共有</p></li>
+<li><p>5–音声</p></li>
+<li><p>6–ビデオ</p></li>
+<li><p>7 -- アプリケーション招待</p></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
 
-LcsCDR.SessionDetailsView.MediaTypes の値でモダリティの種類を特定しようとしている場合は、次の Join スニペットを使用する必要があります。
+LcsCDR MediaTypes の値のモダリティの種類を決定しようとしている場合は、次の Join スニペットを使用する必要があります。
 
     LEFT JOIN on Media.MediaId = MediaList.MediaId
 

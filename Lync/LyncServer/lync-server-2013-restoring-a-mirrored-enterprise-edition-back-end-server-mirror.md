@@ -12,20 +12,20 @@ ms:contentKeyID: 51541471
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 84a7c5a2aa12c1599d16ec563d10e8f5147df400
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5338dd867c5c6f3509f9d42107224cf7370a362c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723527"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051219"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="restoring-a-mirrored-enterprise-edition-back-end-server-in-lync-server-2013---mirror"></a>Lync Server 2013-mirror でのミラー化された Enterprise Edition バックエンドサーバーの復元
+# <a name="restoring-a-mirrored-enterprise-edition-back-end-server-in-lync-server-2013---mirror"></a>Lync Server 2013 のミラー化された Enterprise Edition バックエンドサーバーを復元する
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41723527"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-19_
+_**トピックの最終更新日:** 2013-02-19_
 
-ミラーリングされた構成で Enterprise Edition バックエンドサーバーを使用していて、ミラーのみが失敗した場合は、このセクションの手順に従ってください。 プライマリデータベースとミラーの両方が失敗した場合は、「 [Lync Server 2013 で Enterprise Edition バックエンドサーバーを復元する](lync-server-2013-restoring-an-enterprise-edition-back-end-server.md)」を参照してください。 プライマリのみが失敗した場合は、「 [Lync Server 2013-プライマリでのミラーリングされた Enterprise Edition バックエンドサーバーの復元](lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-primary.md)」を参照してください。 中央管理ストアをホストしているデータベースに障害が発生した場合は、「 [Lync server 2013 で中央管理ストアをホストしているサーバーの復元](lync-server-2013-restoring-the-server-hosting-the-central-management-store.md)」を参照してください。 バックエンドサーバーではない Enterprise Edition のメンバーサーバーに障害が発生した場合は、「 [Lync server 2013 で Enterprise edition のメンバーサーバーを復元](lync-server-2013-restoring-an-enterprise-edition-member-server.md)する」を参照してください。
+ミラー化された構成に Enterprise Edition バックエンドサーバーがあり、ミラーのみが失敗した場合は、このセクションの手順を実行します。 プライマリデータベースとミラーの両方で障害が発生した場合は、「 [Lync Server 2013 で Enterprise Edition バックエンドサーバーを復元する](lync-server-2013-restoring-an-enterprise-edition-back-end-server.md)」を参照してください。 プライマリのみが失敗する場合は、「 [Lync Server 2013-プライマリのミラー化された Enterprise Edition バックエンドサーバーの復元](lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-primary.md)」を参照してください。 中央管理ストアをホストしているデータベースに障害が発生した場合は、「 [Lync server 2013 の中央管理ストアをホスト](lync-server-2013-restoring-the-server-hosting-the-central-management-store.md)しているサーバーを復元する」を参照してください。 バックエンドサーバーに含まれていない Enterprise Edition メンバーサーバーの障害が発生した場合は、「 [Lync server 2013 で Enterprise edition のメンバーサーバーを復元](lync-server-2013-restoring-an-enterprise-edition-member-server.md)する」を参照してください。
 
-復元を開始する前に、システムのイメージコピーを取得することをお勧めします。 復元中に問題が発生した場合に備えて、この画像をロールバックポイントとして使うことができます。 オペレーティングシステムと SQL Server をインストールした後に画像のコピーを取得し、証明書を復元または reenroll することができます。
+復元を開始する前に、システムのイメージコピーを取得することをお勧めします。 復元中に問題が発生した場合に備えて、このイメージをロールバックポイントとして使用できます。 オペレーティングシステムと SQL Server をインストールした後、画像コピーを取得し、証明書を復元または reenroll することができます。
 
 <div>
 
@@ -47,41 +47,41 @@ _**最終更新日:** 2013-02-19_
 
 1.  RTCUniversalServerAdmins グループのメンバーであるユーザーアカウントから、フロントエンドサーバーにログオンします。
 
-2.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+2.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
 3.  ミラーリングをアンインストールします。 最初に、次のコマンドレットを入力します。
     
         Uninstall -CsMirrorDatabase -DatabaseType User -SqlServerFqdn <PrimaryServerFqdn> -SqlInstanceName <SQLInstance> -verbose
     
-    次に例を示します。
+    例:
     
         Uninstall -CsMirrorDatabase -DatabaseType User -SqlServerFqdn server4.contoso.com -SqlInstanceName archinst -verbose
     
-    このサーバー上のすべてのデータベースの種類に対して、この操作を実行します。
+    このサーバー上のすべてのデータベースの種類に対してこれを実行します。
 
-4.  障害のあるコンピューターと同じ完全修飾ドメイン名 (FQDN) (DB1.contoso.com) を持つクリーンまたは新しいサーバーを作成し、オペレーティングシステムをインストールして、証明書を復元または reenroll します。 このサーバは、新しいミラーとして機能します。
+4.  障害が発生したコンピューターと同じ完全修飾ドメイン名 (FQDN) (DB1.contoso.com) を持つクリーンサーバーまたは新しいサーバーを作成し、オペレーティングシステムをインストールしてから、証明書を復元または reenroll します。 このサーバーは、新しいミラーとして機能します。
 
 5.  RTCUniversalServerAdmins グループのメンバーであるユーザーアカウントから、新しいサーバーにログオンします。
 
-6.  SQL Server 2012 または SQL Server 2008 R2 をインストールして、インスタンス名がエラーの前と同じになるようにします。
+6.  SQL Server 2012 または SQL Server 2008 R2 をインストールして、インスタンス名を失敗前と同じ状態に保ちます。
 
 7.  RTCUniversalServerAdmins グループのメンバーであるユーザーアカウントから、フロントエンドサーバーにログオンします。
 
 8.  トポロジビルダーを使用して、ミラーデータベースをインストールします。 次の手順を実行します。
     
-      - トポロジビルダーを開始します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server Topology Builder**] の順にクリックします。
+      - トポロジ ビルダーを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server トポロジ ビルダー**] の順にクリックします。
     
       - [Lync Server 2013] ノードを右クリックし、[**トポロジ**] をクリックして、[**データベースのインストール**] をクリックします。
     
-      - データベースの**インストール**ウィザードを実行します。 [**データベースの作成**] ページで、再作成するデータベースを選びます。
+      - [**データベースのインストール**] ウィザードに従います。 [**データベースの作成**] ページで、再作成するデータベースを選択します。
     
-      - ウィザードの指示に従って、**ミラーデータベースの作成**のプロンプトが表示されるまで待ちます。 インストールするデータベースを選んで、このプロセスを完了します。
+      - [**ミラーデータベースの作成**] プロンプトが表示されるまで、ウィザードの指示に従います。 インストールするデータベースを選択し、このプロセスを完了します。
         
         <div>
         
 
         > [!TIP]
-        > Topology Builder を実行する代わりに、 <STRONG>CsMirrorDatabase</STRONG>コマンドレットを使用して、ミラーリングを構成することができます。 詳細については、「Lync Server 管理シェルのドキュメント」を参照してください。
+        > トポロジビルダーを実行する代わりに、 <STRONG>install-csmirrordatabase</STRONG>コマンドレットを使用してミラーリングを構成できます。 詳細については、Lync Server 管理シェルのドキュメントを参照してください。
 
         
         </div>

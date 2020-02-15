@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 会議コマンドレット'
+title: 'Lync Server 2013: 会議のコマンドレット'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184640
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a95cf0c07726670b15891b2a067346e3452f333
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ae783c9a9298a5eba876c448a21f1a6b55b3f0d7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741557"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040816"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="conferencing-cmdlets-in-lync-server-2013"></a>Lync Server 2013 での会議コマンドレット
+# <a name="conferencing-cmdlets-in-lync-server-2013"></a>Lync Server 2013 での会議のコマンドレット
 
 </div>
 
@@ -35,174 +35,174 @@ ms.locfileid: "41741557"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-09_
+_**トピックの最終更新日:** 2012-10-09_
 
-Microsoft Lync Server 2013 を使用すると、ユーザーは、Lync 2013 などの会議アプリケーションまたは電話でダイヤルインすることにより、2つの異なる方法で会議に参加できます。 ダイヤルインユーザーは、スライドの表示やインスタントメッセージなどの操作を行うことはできませんが、会議の音声部分に完全に参加することはできます。
+Microsoft Lync Server 2013 を使用すると、ユーザーは、Lync 2013 などの会議アプリケーションを使用するか、電話を使用してダイヤルインするという2つの異なる方法で会議に参加できます。 ダイヤルイン ユーザーは、スライドの表示やインスタント メッセージの交換を行うことはできませんが、会議のオーディオ部分には完全に参加できます。
 
 <div>
 
-## <a name="conferencing-cmdlets"></a>会議コマンドレット
+## <a name="conferencing-cmdlets"></a>会議のコマンドレット
 
-**Csdial incall**コマンドレットは、ダイヤルイン会議のプロパティを構成するために使用されます。電話番号の指定は、ユーザーが会議に参加した後で電話会議に参加できるようにするために使います (たとえば、6を押すと、電話をミュートまたはミュート解除します)。 会議のその他の機能 (たとえば、ユーザーが会議を記録したり、会議中にユーザーを共有できる場合など) は、 **set-csconferencingpolicy**コマンドレットを使用して管理されます。
+**CsDialInConferencing** コマンドレットを使用して、ダイヤルイン会議のプロパティ (会議参加用の電話番号の指定や、会議参加後に使用できるキーパッド コマンド (6 を押して電話をミュートまたはミュート解除するなど) などのさまざまなプロパティが含まれる) を構成します。 会議のその他のほとんどの機能 (ユーザーが会議を記録できるか、会議中にアプリケーションを共有できるか、など) は、**CsConferencingPolicy** コマンドレットを使用して管理します。
 
 **[Lync Server 2013 でのダイヤルイン会議のコマンドレット](lync-server-2013-dial-in-conferencing-cmdlets.md)**
 
   - <span></span>  
-    [Get-CsConferenceDirectory](https://technet.microsoft.com/en-us/library/Gg425771(v=OCS.15))
+    [Get-csconferencedirectory](https://technet.microsoft.com/library/Gg425771(v=OCS.15))
 
   - <span></span>  
-    [Move-CsConferenceDirectory](https://technet.microsoft.com/en-us/library/Gg412968(v=OCS.15))
+    [Get-csconferencedirectory](https://technet.microsoft.com/library/Gg412968(v=OCS.15))
 
   - <span></span>  
-    [New-CsConferenceDirectory](https://technet.microsoft.com/en-us/library/Gg413080(v=OCS.15))
+    [Get-csconferencedirectory](https://technet.microsoft.com/library/Gg413080(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsConferenceDirectory](rehttps://technet.microsoft.com/en-us/library/Gg412968(v=OCS.15))
+    [Get-csconferencedirectory](rehttps://technet.microsoft.com/library/Gg412968(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsDialInConferencing](https://technet.microsoft.com/en-us/library/Gg399013(v=OCS.15))
+    [テスト-Csダイヤルイン会議](https://technet.microsoft.com/library/Gg399013(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsDialInConferencingAccessNumber](https://technet.microsoft.com/en-us/library/Gg413015(v=OCS.15))
+    [Get-csdialinconferencingaccessnumber](https://technet.microsoft.com/library/Gg413015(v=OCS.15))
 
   - <span></span>  
-    [New-CsDialInConferencingAccessNumber](https://technet.microsoft.com/en-us/library/Gg398818(v=OCS.15))
+    [Get-csdialinconferencingaccessnumber](https://technet.microsoft.com/library/Gg398818(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsDialInConferencingAccessNumber](https://technet.microsoft.com/en-us/library/Gg412782(v=OCS.15))
+    [Get-csdialinconferencingaccessnumber](https://technet.microsoft.com/library/Gg412782(v=OCS.15))
 
   - <span></span>  
-    [Set-CsDialInConferencingAccessNumber](https://technet.microsoft.com/en-us/library/Gg425770(v=OCS.15))
+    [Get-csdialinconferencingaccessnumber](https://technet.microsoft.com/library/Gg425770(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsDialInConferencingConfiguration](https://technet.microsoft.com/en-us/library/Gg398575(v=OCS.15))
+    [Set-csdialinconferencingconfiguration](https://technet.microsoft.com/library/Gg398575(v=OCS.15))
 
   - <span></span>  
-    [New-CsDialInConferencingConfiguration](https://technet.microsoft.com/en-us/library/Gg412816(v=OCS.15))
+    [Set-csdialinconferencingconfiguration](https://technet.microsoft.com/library/Gg412816(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsDialInConferencingConfiguration](https://technet.microsoft.com/en-us/library/Gg398174(v=OCS.15))
+    [Set-csdialinconferencingconfiguration](https://technet.microsoft.com/library/Gg398174(v=OCS.15))
 
   - <span></span>  
-    [Set-CsDialInConferencingConfiguration](https://technet.microsoft.com/en-us/library/Gg425825(v=OCS.15))
+    [Set-csdialinconferencingconfiguration](https://technet.microsoft.com/library/Gg425825(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsDialInConferencingDtmfConfiguration](https://technet.microsoft.com/en-us/library/Gg398578(v=OCS.15))
+    [Set-csdialinconferencingdtmfconfiguration](https://technet.microsoft.com/library/Gg398578(v=OCS.15))
 
   - <span></span>  
-    [New-CsDialInConferencingDtmfConfiguration](https://technet.microsoft.com/en-us/library/Gg425792(v=OCS.15))
+    [Set-csdialinconferencingdtmfconfiguration](https://technet.microsoft.com/library/Gg425792(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsDialInConferencingDtmfConfiguration](https://technet.microsoft.com/en-us/library/Gg425894(v=OCS.15))
+    [Set-csdialinconferencingdtmfconfiguration](https://technet.microsoft.com/library/Gg425894(v=OCS.15))
 
   - <span></span>  
-    [Set-CsDialInConferencingDtmfConfiguration](https://technet.microsoft.com/en-us/library/Gg398860(v=OCS.15))
+    [Set-csdialinconferencingdtmfconfiguration](https://technet.microsoft.com/library/Gg398860(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsDialInConferencingLanguageList](https://technet.microsoft.com/en-us/library/Gg425869(v=OCS.15))
+    [Get-csdialinconferencinglanguagelist](https://technet.microsoft.com/library/Gg425869(v=OCS.15))
 
-**[Lync Server 2013 の Web 会議コマンドレット](lync-server-2013-web-conferencing-cmdlets.md)**
-
-  - <span></span>  
-    [Get-CsConferenceDisclaimer](https://technet.microsoft.com/en-us/library/Gg425714(v=OCS.15))
+**[Lync Server 2013 での Web 会議のコマンドレット](lync-server-2013-web-conferencing-cmdlets.md)**
 
   - <span></span>  
-    [Remove-CsConferenceDisclaimer](https://technet.microsoft.com/en-us/library/Gg398243(v=OCS.15))
+    [Get-csconferencedisclaimer](https://technet.microsoft.com/library/Gg425714(v=OCS.15))
 
   - <span></span>  
-    [Set-CsConferenceDisclaimer](https://technet.microsoft.com/en-us/library/Gg398776(v=OCS.15))
+    [Get-csconferencedisclaimer](https://technet.microsoft.com/library/Gg398243(v=OCS.15))
+
+  - <span></span>  
+    [Get-csconferencedisclaimer](https://technet.microsoft.com/library/Gg398776(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Set-CsConferenceServer](https://technet.microsoft.com/en-us/library/Gg398738(v=OCS.15))
+    [CsConferenceServer](https://technet.microsoft.com/library/Gg398738(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsConferencingConfiguration](https://technet.microsoft.com/en-us/library/Gg398965(v=OCS.15))
+    [Get-csconferencingconfiguration](https://technet.microsoft.com/library/Gg398965(v=OCS.15))
 
   - <span></span>  
-    [New-CsConferencingConfiguration](https://technet.microsoft.com/en-us/library/Gg412967(v=OCS.15))
+    [Get-csconferencingconfiguration](https://technet.microsoft.com/library/Gg412967(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsConferencingConfiguration](https://technet.microsoft.com/en-us/library/Gg412767(v=OCS.15))
+    [Get-csconferencingconfiguration](https://technet.microsoft.com/library/Gg412767(v=OCS.15))
 
   - <span></span>  
-    [Set-CsConferencingConfiguration](https://technet.microsoft.com/en-us/library/Gg412969(v=OCS.15))
+    [Get-csconferencingconfiguration](https://technet.microsoft.com/library/Gg412969(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/Gg398293(v=OCS.15))
+    [Get-CsConferencingPolicy](https://technet.microsoft.com/library/Gg398293(v=OCS.15))
 
   - <span></span>  
-    [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/Gg425937(v=OCS.15))
+    [Get-csconferencingpolicy](https://technet.microsoft.com/library/Gg425937(v=OCS.15))
 
   - <span></span>  
-    [New-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/Gg413019(v=OCS.15))
+    [Get-csconferencingpolicy](https://technet.microsoft.com/library/Gg413019(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/Gg398728(v=OCS.15))
+    [Get-csconferencingpolicy](https://technet.microsoft.com/library/Gg398728(v=OCS.15))
 
   - <span></span>  
-    [Set-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/Gg425788(v=OCS.15))
+    [Get-csconferencingpolicy](https://technet.microsoft.com/library/Gg425788(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsMeetingConfiguration](https://technet.microsoft.com/en-us/library/Gg425875(v=OCS.15))
+    [-Cs会議構成の取得](https://technet.microsoft.com/library/Gg425875(v=OCS.15))
 
   - <span></span>  
-    [New-CsMeetingConfiguration](https://technet.microsoft.com/en-us/library/Gg398065(v=OCS.15))
+    [新しい-Cs会議の構成](https://technet.microsoft.com/library/Gg398065(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsMeetingConfiguration](https://technet.microsoft.com/en-us/library/Gg412775(v=OCS.15))
+    [削除-Cs会議の構成](https://technet.microsoft.com/library/Gg412775(v=OCS.15))
 
   - <span></span>  
-    [Set-CsMeetingConfiguration](https://technet.microsoft.com/en-us/library/Gg398648(v=OCS.15))
+    [設定-Cs会議構成](https://technet.microsoft.com/library/Gg398648(v=OCS.15))
 
 <!-- end list -->
 
-  - [Disable-CsMeetingRoom](https://technet.microsoft.com/en-us/library/JJ204723(v=OCS.15))
+  - [無効化-Csの会議室](https://technet.microsoft.com/library/JJ204723(v=OCS.15))
 
-  - [Enable-CsMeetingRoom](https://technet.microsoft.com/en-us/library/JJ205062(v=OCS.15))
+  - [Enable-Csの会議室](https://technet.microsoft.com/library/JJ205062(v=OCS.15))
 
-  - [Get-CsMeetingRoom](https://technet.microsoft.com/en-us/library/JJ205277(v=OCS.15))
+  - [取得-Cs会議室](https://technet.microsoft.com/library/JJ205277(v=OCS.15))
 
-  - [Move-CsMeetingRoom](https://technet.microsoft.com/en-us/library/JJ204889(v=OCS.15))
+  - [移行-Csの会議室](https://technet.microsoft.com/library/JJ204889(v=OCS.15))
 
-  - [Set-CsMeetingRoom](https://technet.microsoft.com/en-us/library/JJ204831(v=OCS.15))
+  - [セットアップ-Csの会議室](https://technet.microsoft.com/library/JJ204831(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsASConference](https://technet.microsoft.com/en-us/library/JJ205227(v=OCS.15))
+    [テスト-CsASConference](https://technet.microsoft.com/library/JJ205227(v=OCS.15))
 
   - <span></span>  
-    [Test-CsAVConference](https://technet.microsoft.com/en-us/library/Gg412749(v=OCS.15))
+    [テスト-CsAVConference 会議](https://technet.microsoft.com/library/Gg412749(v=OCS.15))
 
   - <span></span>  
-    [Test-CsDataConference](https://technet.microsoft.com/en-us/library/JJ205219(v=OCS.15))
+    [Test-csdataconference](https://technet.microsoft.com/library/JJ205219(v=OCS.15))
 
   - <span></span>  
-    [Test-CsWebApp](https://technet.microsoft.com/en-us/library/Hh689989(v=OCS.15))
+    [テスト-CsWebApp](https://technet.microsoft.com/library/Hh689989(v=OCS.15))
 
   - <span></span>  
-    [Test-CsWebAppAnonymous](https://technet.microsoft.com/en-us/library/Hh690041(v=OCS.15))
+    [Test-cswebappanonymous](https://technet.microsoft.com/library/Hh690041(v=OCS.15))
 
   - <span></span>  
-    [Test-CsWebScheduler](https://technet.microsoft.com/en-us/library/JJ204829(v=OCS.15))
+    [テスト-CsWebScheduler](https://technet.microsoft.com/library/JJ204829(v=OCS.15))
 
 </div>
 

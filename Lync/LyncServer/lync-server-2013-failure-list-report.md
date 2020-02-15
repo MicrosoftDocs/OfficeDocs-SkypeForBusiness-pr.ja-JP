@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: エラー一覧レポート'
+title: 'Lync Server 2013: エラーリストレポート'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185194
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 370008a5b33cc7eb45802fb02bdd9a873184ed5a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f9cd8d15e81a54085624fab2dc751759d8196c48
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765165"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041046"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41765165"
 
 <span> </span>
 
-_**最終更新日:** 2012-07-02_
+_**トピックの最終更新日:** 2012-07-02_
 
 エラー リスト レポートは、エラーが発生したピアツーピア セッションまたは電話会議セッションに参加した個々の参加者に関する情報を提供します。この情報には、問題が発生したユーザーの URI、エラーに関連付けられている SIP 応答コードおよび診断 ID が含まれています。
 
@@ -43,25 +43,25 @@ _**最終更新日:** 2012-07-02_
 
 ## <a name="accessing-the-failure-list-report"></a>エラー リスト レポートへのアクセス
 
-[エラー一覧] レポートにアクセスするには、「 [Lync Server 2013 のエラー配布レポート](lync-server-2013-failure-distribution-report.md)で、次のいずれかの指標をクリックします。
+エラーリストレポートにアクセスするには、 [Lync Server 2013 のエラー分布レポート](lync-server-2013-failure-distribution-report.md)で次のいずれかの指標をクリックします。
 
-  - トップの診断理由 (セッション)
+  - [トップの診断理由] (セッション)
 
-  - トップのモダリティ (セッション)
+  - [トップ モダリティ] (セッション)
 
-  - トップのプール (セッション)
+  - [トップ プール] (セッション))
 
-  - トップのソース (セッション)
+  - [トップ ソース] (セッション))
 
-  - トップのコンポーネント (セッション)
+  - [トップ コンポーネント] (セッション)
 
-  - トップの発信元ユーザー (セッション)
+  - [トップの発信元ユーザー] (セッション)
 
-  - トップの発信先ユーザー (セッション)
+  - [トップの発信先ユーザー] (セッション)
 
-  - トップの発信元ユーザー エージェント (セッション)
+  - [送信元ユーザー エージェント] (セッション)
 
-[エラー一覧] レポートから、Lync Server 2013 のピアツーピア[セッション詳細レポート](lync-server-2013-peer-to-peer-session-detail-report.md)にアクセスできます。これには、ピアツーピアセッションのセッション詳細メトリックをクリックします。 また、電話会議の [電話会議] の指標をクリックすると、会議詳細レポートにもアクセスできます。
+エラーリストレポートでは、ピアツーピアセッションのセッション詳細指標をクリックすることによって、 [Lync Server 2013 のピアツーピアセッション詳細レポート](lync-server-2013-peer-to-peer-session-detail-report.md)にアクセスできます。 また、電話会議の電話会議の指標をクリックすると、会議詳細レポートにもアクセスできます。
 
 </div>
 
@@ -69,16 +69,16 @@ _**最終更新日:** 2012-07-02_
 
 ## <a name="making-the-best-use-of-the-failure-list-report"></a>エラー リスト レポートの活用
 
-エラー リスト レポートでは、マウス ポインターを値の上に置くだけで、それぞれの応答コードまたは診断 ID の説明を表示できます。たとえば、診断 ID 7025 の上にマウス ポインターを置くと、次のような説明がヒントに表示されます。
+エラー リスト レポートでは、マウス ポインターを値の上に置くだけで、それぞれの応答コードまたは診断 ID の説明を表示することができます。たとえば、診断 ID 7025 の上にマウス ポインターを置くと、次の説明がツールチップに表示されます。
 
-ユーザーのメディアの作成中に内部サーバー エラーが発生しました。
+Internal server error creating media for user. (ユーザーのメディアの作成中に内部サーバー エラーが発生しました。)
 
-障害リストレポートでは、1つ以上のセッションに参加しているすべてのユーザーの一覧を直接取得する方法はありません。また、どのユーザーが失敗したかを判断する方法も提供されていない点に注意してください。セッション. (1 つの問題については、エラーリストレポートにはフィルター機能はありません)。ただし、データをエクスポートして、コンマ区切り値ファイルに変換した場合は、Windows PowerShell を使用して、そのような質問に対する回答を見つけることができます。 たとえば、データをに保存するとします。CSV ファイル名 C:\\データ\\エラー\_リスト .csv。 このコマンドは、そのファイルに保存されているデータに基づいて、1つ以上の失敗したセッションに参加していたすべてのユーザーを一覧表示します。
+エラーリストレポートには、少なくとも1つの失敗したセッションに参加したすべてのユーザーの一覧を直接取得する簡単な方法が提供されているわけではないことに注意してください。また、最も多く使用して失敗したユーザーを特定する方法も提供していません。セッション. (1 つは、エラーリストレポートにはフィルター機能がありません)。ただし、データをエクスポートしてからコンマ区切り値ファイルに変換する場合は、Windows PowerShell を使用して、これらの質問に対する答えを見つけることができます。 たとえば、データをに保存するとします。C:\\データ\\エラー\_リスト .csv という名前の csv ファイル。 このコマンドは、そのファイルに保存されているデータに基づいて、少なくとも1つの失敗したセッションに参加したすべてのユーザーを一覧表示します。
 
     $failures = Import-Csv -Path " C:\Data\Failure_List.csv"
     $failure |Sort-Object "From user" | Select-Object "From user" -Unique
 
-このコマンドを実行すると、次のような一覧が返されます。
+このコマンドにより、次にような一覧が返されます。
 
     From user
     ----
@@ -93,7 +93,7 @@ _**最終更新日:** 2012-07-02_
     $failures = Import-Csv -Path "C:\Data\Failure_List.csv"
     $failures | Group-Object "From user" | Select-Object Count, Name | Sort-Object -Property Count -Descending
 
-この結果、次のようなデータが返されます。
+これにより、次のようなデータが返されます。
 
     Count    Name
      -----    ----
@@ -109,7 +109,7 @@ _**最終更新日:** 2012-07-02_
 
 ## <a name="filters"></a>フィルター
 
-なし。エラー リスト レポートにフィルターを適用することはできません。
+なし。エラー リスト レポートはフィルターできません。
 
 </div>
 
@@ -138,42 +138,42 @@ _**最終更新日:** 2012-07-02_
 <tr class="odd">
 <td><p><strong>レポートされた時刻</strong></p></td>
 <td><p>いいえ</p></td>
-<td><p>レポートが記録された日時。</p></td>
+<td><p>レポートが記録された日時です。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>要求</strong></p></td>
 <td><p>いいえ</p></td>
-<td><p>失敗した SIP 要求の種類 (INVITE、BYE など)。</p></td>
+<td><p>失敗した SIP 要求の種類です (INVITE、BYE など)。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>応答コード</strong></p></td>
 <td><p>いいえ</p></td>
-<td><p>会議にエラーが発生したときに送信された SIP 応答コード。</p></td>
+<td><p>会議にエラーが発生したときに送信された SIP 応答コードです。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>診断 ID</strong></p></td>
 <td><p>いいえ</p></td>
-<td><p>SIP メッセージに (ms-diagnostics ヘッダーの形で) 添付された一意の識別子。多くの場合、この情報はトラブルシューティングに役立ちます。</p></td>
+<td><p>エラーのトラブルシューティングに役立つ情報を得られることが多い、SIP メッセージに添付された一意の識別子です (ms-diagnostics ヘッダーの形式)。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>参加コスト時間 (ミリ秒)</strong></p></td>
+<td><p>[<strong>Join cost time (ms)</strong>] (参加に要した時間 (ミリ秒))</p></td>
 <td><p>いいえ</p></td>
 <td><p>ユーザーが会議に参加するのに要した時間 (ミリ秒)。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>移動元ユーザー</strong></p></td>
+<td><p><strong>送信元ユーザー</strong></p></td>
 <td><p>いいえ</p></td>
-<td><p>呼び出しを開始したユーザーの SIP アドレス。</p></td>
+<td><p>呼び出しを開始したユーザーの SIP アドレスです。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>送信元ユーザー エージェント</strong></p></td>
 <td><p>いいえ</p></td>
-<td><p>呼び出しを開始したユーザーのエンドポイントで使用されているソフトウェア。</p></td>
+<td><p>呼び出しを開始したユーザーのエンドポイントで使用されているソフトウェアです。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>対象ユーザー</strong></p></td>
-<td><p>不可</p></td>
-<td><p>呼び出しを受けたユーザーの SIP アドレス。</p></td>
+<td><p><strong>送信先ユーザー</strong></p></td>
+<td><p>いいえ</p></td>
+<td><p>呼び出しを受けたユーザーの SIP アドレスです。</p></td>
 </tr>
 </tbody>
 </table>

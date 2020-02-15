@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013 ツール
+title: Lync Server 2013 のツール
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 52253957
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d440cc6339f77c43a2371411127fe820aa3092a4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 35d58ddd116a91c66a23c3ab81c0d4c879bfa356
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763997"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038329"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-tools"></a>Lync Server 2013 ツール
+# <a name="lync-server-2013-tools"></a>Lync Server 2013 のツール
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41763997"
 
 <span> </span>
 
-_**最終更新日:** 2013-03-14_
+_**トピックの最終更新日:** 2013-03-14_
 
 Lync Server 2013 では、次のツールを使用できます。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-[Lync Server 2013 ストレスおよびパフォーマンス ツール](lync-server-2013-stress-and-performance-tool.md)
+[Lync Server 2013 ストレスおよびパフォーマンスツール](lync-server-2013-stress-and-performance-tool.md)
 
 [Lync Server 2013 リソースキットツールのドキュメント](lync-server-2013-resource-kit-tools-documentation.md)
 

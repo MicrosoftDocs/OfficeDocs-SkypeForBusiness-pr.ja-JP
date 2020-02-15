@@ -1,5 +1,5 @@
 ---
-title: Skype Room System アカウントの Office 365 でのプロビジョニング
+title: Office 365 での Skype Room System アカウントのプロビジョニング
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -11,33 +11,33 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
-description: このトピックでは、Office 365 に Skype Room System アカウントをプロビジョニングする方法について説明します。
-ms.openlocfilehash: 33c3acf2f0fffc69da55468e8c16902ec7fa4f88
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Office 365 での Skype Room System アカウントのプロビジョニングの詳細については、このトピックをお読みください。
+ms.openlocfilehash: 141c833bcbdd744a7577c0762cb8ba55dd3d5c54
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768750"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037727"
 ---
-# <a name="provisioning-skype-room-system-accounts-in-office-365"></a>Skype Room System アカウントの Office 365 でのプロビジョニング
+# <a name="provisioning-skype-room-system-accounts-in-office-365"></a>Office 365 での Skype Room System アカウントのプロビジョニング
  
-このトピックでは、Office 365 に Skype Room System アカウントをプロビジョニングする方法について説明します。
+Office 365 での Skype Room System アカウントのプロビジョニングの詳細については、このトピックをお読みください。
   
-以下のセクションでは、Office 365 テナントでの Skype Room System アカウントのプロビジョニングについて説明します。
+次のセクションでは、Office 365 テナントの Skype Room System アカウントのプロビジョニングについて説明します。
   
 ## <a name="office-365-prerequisites"></a>Office 365 の前提条件
 
-オンライン テナントは、次の要件を満たしている必要があります。
+オンラインテナントは、次の要件を満たしている必要があります。
   
-- Office 365 プランには、Skype for Business Online Plan 2、または Office 365 E1、E3、または E5 が含まれている必要があります。 <br/>Skype for Business Online プランの詳細については、「 [skype For Business Online サービスの説明](https://technet.microsoft.com/library/jj822172.aspx)」を参照してください。
+- Office 365 プランには、Skype for Business Online プラン2、または Office 365 E1、E3、または E5 を含める必要があります。 <br/>Skype for business Online プランの詳細については、「 [skype For Business Online サービスの説明](https://technet.microsoft.com/library/jj822172.aspx)」を参照してください。
     
-- テナントには、Skype for Business が有効になっている会議機能が含まれている必要があります。
+- テナントには、Skype for Business が有効になっている会議機能が必要です。
     
-- テナントで、Exchange Online を有効にしていること。 
+- テナントでは、Exchange Online が有効になっている必要があります。 
     
-- テナントのリモート管理者に次の PowerShell アクセス権があること。
+- テナントのリモート管理者は、次の PowerShell アクセス権を持っている必要があります。
     
-  - Exchange Remote PowerShell へのアクセス権
+  - Exchange リモート PowerShell アクセス
     
   - Skype for Business Online のリモート PowerShell アクセス
     
@@ -47,31 +47,31 @@ Skype Room アカウントの場合は、次のライセンスが必要です。
   
 - Skype 会議を有効にするには、Skype for Business Online プラン2または Office 365 E1 または E3 ライセンスが必要です。
     
-- エンタープライズ Voip 機能を使用して部屋を entitle し、会議室を電話番号で有効にできるようにするには、電話システムライセンスまたは Office 365 E5 が含まれる Skype for Business Online プラン2が必要です (1)。
+- 電話番号で会議室を有効にできるように、エンタープライズ Voip 機能を使用して会議室を entitle するために、電話システムライセンスまたは Office 365 E5 がある Skype for Business Online プラン2が必要です (1)。
     
-- 会議からダイヤルイン機能が必要な場合は、電話会議と電話システムのライセンスが必要です。  会議からダイヤルアウト機能が必要な場合は、国内または国内の通話プランが必要です。 
+- 会議からダイヤルイン機能が必要な場合は、電話会議と電話システムのライセンスが必要です。  会議からのダイヤルアウト機能が必要な場合は、国内または国内および国際通話プランが必要です。 
     
-- Skype Room アカウントの場合は、リソース メールボックス アカウントとして構成する必要があるため、Exchange Online ライセンスは不要です。
+- アカウントは、リソースメールボックスアカウントとして構成する必要があるため、Skype Room アカウントには Exchange Online ライセンスは必要ありません。
     
 ## <a name="provisioning-overview"></a>プロビジョニングの概要
 
-次の図は、Office 365 での Skype Room System アカウントのプロビジョニングフローの概要を示しています。
+次の図は、Office 365 の Skype Room System アカウントのプロビジョニングフローの概要を示しています。
   
 ![O365 の Skype Room System のプロビジョニング手順](../../media/354c5659-317b-4e85-a1bc-c60c07f305a4.png)
   
-## <a name="identify-a-new-conference-room"></a>新しい会議ルームを特定する
+## <a name="identify-a-new-conference-room"></a>新しい会議室を識別する
 
-スケジュール機能を提供している Exchange のリソースルームメールボックスが既に存在する可能性があります。または、Skype Room System の展開を容易にするために初めてリソースメールボックスを作成している可能性があります。 いずれの場合も、テナントで使用するルーム アカウントを特定する必要があります。 Exchange Online のプロビジョニングと Skype for Business のプロビジョニングのセクションでは、両方のアカウントのガイダンスを提供します。 たとえば、次の2つのルームを持っていて、両方の部屋の Skype Room System を展開したいとします。
+スケジュール機能を提供する Exchange のリソースルームメールボックスが既にあるか、Skype Room System の展開を容易にするために初めてリソースメールボックスを作成している可能性があります。 いずれの場合も、テナントで使用する会議室のアカウントを特定する必要があります。 「Exchange Online のプロビジョニング」および「Skype for Business のプロビジョニング」セクションでは、両方の種類のアカウントについてのガイダンスを提供します。 たとえば、次の2つのルームがあり、両方に対して Skype Room System を展開したいとします。
   
-- 既存のリソース メールボックス アカウント: confrm1@contoso.onmicrosoft.com
+- 既存のリソースメールボックスアカウント: confrm1@contoso.onmicrosoft.com
     
-- 新しいリソース メールボックス アカウント: confrm2@contoso.onmicrosoft.com
+- 新しいリソースメールボックスアカウント: confrm2@contoso.onmicrosoft.com
     
 ## <a name="exchange-online-provisioning"></a>Exchange Online のプロビジョニング
 
-まず、「 [Exchange Online powershell に接続する](https://go.microsoft.com/fwlink/p/?LinkId=396554)」の手順に従って、Exchange online powershell に接続します。
+最初に、トピック「 [Exchange Online powershell に接続する](https://go.microsoft.com/fwlink/p/?LinkId=396554)」の手順に従って Exchange online powershell に接続します。
   
-Skype Room System の既存のリソースルームメールボックスアカウントを設定するには、Exchange Online PowerShell で次のコマンドを実行します。
+Skype Room System の既存のリソース会議のメールボックスアカウントを設定するには、Exchange Online PowerShell で次のコマンドを実行します。
   
 ```powershell
 $rm="confrm1@contoso.onmicrosoft.com"
@@ -87,21 +87,21 @@ $newpass='pass@word1'
 New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString $newpass -AsPlainText -Force)
 ```
 
-前のコマンドでは、アカウントを有効にすることによって、Skype Room システムの使用を目的とした新しい Exchange リソースメールボックスアカウントのセットアップまたは作成を行うことができます。
+上記のコマンドは、アカウントを有効にすることによって、Skype Room System の使用のための新しい Exchange リソースメールボックスアカウントをセットアップまたは作成します。
   
-メールボックスを作成した後で、Exchange Online PowerShell の設定-CalendarProcessing コマンドレットを使用して、メールボックスを構成することができます。 詳細については、単一フォレストのオンプレミス展開の手順 3 ～ 6 を参照してください。
+メールボックスを作成したら、Exchange Online PowerShell で、CalendarProcessing コマンドレットを使用してメールボックスを構成できます。 詳細については、単一フォレストのオンプレミス展開の手順 3 ~ 6 を参照してください。
 
-## <a name="assigning-a-skype-for-business-online-license"></a>Skype for Business Online ライセンスを割り当てる
+## <a name="assigning-a-skype-for-business-online-license"></a>Skype for Business Online ライセンスの割り当て
 
-「一般法人向け Office 365 または[skype For business アドオンライセンス](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)[のライセンスの割り当てまたは削除](https://support.office.com/en-us/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US)」の説明に従って、office 365 管理ポータルを使用して、skype For business online (プラン 2) または skype For business online (プラン 3) ライセンスを割り当てることができます。 
+「Office 365 for business または[skype For business アドオンライセンス](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)[のライセンスを割り当てるまたは削除](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US)する」に記載されているように、office 365 管理ポータルを使用して skype For business online (プラン 2) または skype For business online (プラン 3) ライセンスを割り当てることができるようになりました。 
   
-Skype for Business Online のライセンスを割り当てると、ログインして、Skype for Business クライアントを使ってアカウントがアクティブであることを確認することができます。
+Skype for business Online のライセンスを割り当てた後は、Skype for Business クライアントを使用してログインし、アカウントがアクティブであることを確認できます。
   
 ## <a name="skype-for-business-online-provisioning"></a>Skype for Business Online のプロビジョニング
 
-前に説明したように、リソースルームメールボックスアカウントを作成して有効にした後、Skype for business Online のアカウントのライセンスが付与されている場合、アカウントは Exchange Online フォレストから Skype for Business Online フォレストに同期します。Windows Azure Active Directory フォレスト。 Skype for Business Online プールで Skype Room System アカウントをプロビジョニングするには、次の手順を実行する必要があります。 この手順は、既存のリソースメールボックスアカウントと新しく作成されたアカウント (confrm1 または confrm2) のどちらにも同じです。 Exchange Online で有効にすると、これらの両方のアカウントが同じ方法で Skype for Business Online と同期されるため、次のようになります。
+前に示したように、リソース会議のメールボックスアカウントを作成して有効にした後、Skype For Business Online のアカウントのライセンスを取得すると、このアカウントは、Exchange Online フォレストから Skype for business Online フォレストに同期されます。Windows Azure Active Directory フォレスト。 Skype for Business Online プールで Skype Room System アカウントをプロビジョニングするには、次の手順が必要です。 これらの手順は、既存のリソースメールボックスアカウントまたは新しく作成されたアカウント (confrm1 または confrm2) の両方で同じです。これらのアカウントは、Exchange Online で有効になると、同じ方法で Skype for Business Online と同期されます。
   
-1. リモート PowerShell セッションを作成します。 Skype for Business Online Connector モジュールと Microsoft Online Services サインインアシスタントをダウンロードして、コンピューターが構成されていることを確認する必要があることに注意してください。 詳細については、「 [Windows PowerShell 用にコンピューターをセットアップする](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)」を参照してください。
+1. リモート PowerShell セッションを作成します。 Skype for Business Online Connector モジュールと Microsoft Online Services サインインアシスタントをダウンロードして、コンピューターが構成されていることを確認する必要があることに注意してください。 詳細については、「 [Windows PowerShell 用にコンピューター](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)をセットアップする」を参照してください。
     
    ```powershell
    Import-Module LyncOnlineConnector
@@ -109,13 +109,13 @@ Skype for Business Online のライセンスを割り当てると、ログイン
    Import-PSSession $cssess -AllowClobber
    ```
 
-2. Skype for Business の Skype Room System アカウントを有効にするには、次のコマンドを実行します。
+2. Skype for business の Skype Room System アカウントを有効にするには、次のコマンドを実行します。
     
    ```powershell
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
    ```
 
-    このプロパティを返すには、次のコマンドを使用して、Skype for Business ユーザーが既存のアカウントのいずれかに所属している RegistrarPool アドレスを取得できます。
+    このプロパティを取得するには、次のコマンドを使用して、Skype for Business ユーザーが既存のアカウントのいずれかに所属している RegistrarPool アドレスを取得します。
     
    ```powershell
    Get-CsOnlineUser -Identity 'alice@contoso.onmicrosoft.com'| fl *registrarpool*
@@ -124,11 +124,11 @@ Skype for Business Online のライセンスを割り当てると、ログイン
 >[!NOTE] 
 >Skype Room System アカウントでは、多要素認証 (MFA) はサポートされていません。 
 
-## <a name="password-expiration"></a>パスワードの有効期限
+## <a name="password-expiration"></a>パスワードの期限切れ
 
-Office 365 では、別のパスワードの有効期限ポリシーを構成しない限り、すべてのユーザー アカウントのパスワードの有効期限ポリシーは、既定で 90 日間です。 Skype Room System アカウントの場合は、次の手順に従って [無期限パスワード] 設定を選択できます。
+Office 365 では、別のパスワードの有効期限ポリシーを構成しない限り、すべてのユーザーアカウントの既定のパスワードの有効期限ポリシーは90日になります。 Skype Room System アカウントの場合は、次の手順を使用してパスワードを無期限に設定することができます。
   
-1. 管理者のグローバル資格情報を使用して、Windows Azure Active Directory セッションを作成します。
+1. テナント全体管理者の資格情報を使用して、Windows Azure Active Directory セッションを作成します。
     
     ```powershell
     $cred=Get-Credential admin@$org
@@ -141,9 +141,9 @@ Office 365 では、別のパスワードの有効期限ポリシーを構成し
    Set-MsolUser -UserPrincipalName confrm1@skypelrs.onmicrosoft.com -PasswordNeverExpires $true
    ```
 
-詳細については、「 [Windows PowerShell 用にコンピューターをセットアップする](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)」を参照してください。
+詳細については、「 [Windows PowerShell 用にコンピューター](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)をセットアップする」を参照してください。
   
-## <a name="validate"></a>有効性
+## <a name="validate"></a>検証
 
-検証のために、Skype for Business クライアントを使って、作成したアカウントにサインインできるようにする必要があります。
+検証のために、任意の Skype for Business クライアントを使用して、作成したアカウントにサインインできる必要があります。
 

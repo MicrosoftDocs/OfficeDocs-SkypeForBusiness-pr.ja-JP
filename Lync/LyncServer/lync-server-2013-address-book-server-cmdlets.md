@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: アドレス帳サーバーコマンドレット'
+title: 'Lync Server 2013: アドレス帳サーバーのコマンドレット'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183793
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5117b7a17d607ec995df371fd0cd80fd7c05aeab
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1782dbc22b94ed492878c545df70fa1bdaaeeeb3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737997"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038449"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="address-book-server-cmdlets-in-lync-server-2013"></a>Lync Server 2013 のアドレス帳サーバーコマンドレット
+# <a name="address-book-server-cmdlets-in-lync-server-2013"></a>Lync Server 2013 のアドレス帳サーバーのコマンドレット
 
 </div>
 
@@ -37,47 +37,47 @@ ms.locfileid: "41737997"
 
 _**トピックの最終更新日:** 2012-06-26_
 
-アドレス帳サーバーは、Active Directory ドメインサービスと Microsoft Lync Server 2013 との間で中継されています。 アドレス帳サーバーによって、Lync Server 2013 に保存されているユーザー情報が Active Directory に保存されているユーザー情報と同期していることが保証されます。 これは、ユーザーデータベースに保存されている情報を使用して、定期的にアドレス帳ファイルを同期することによって行われます。 さらに、Lync Server には、アドレス帳サーバーを管理するための多数のコマンドレットが用意されています。
+アドレス帳サーバーは、Active Directory ドメインサービスと Microsoft Lync Server 2013 の間で中継されます。 アドレス帳サーバーによって、Lync Server 2013 に格納されているユーザー情報が Active Directory に格納されているユーザー情報と同期していることが保証されます。 この処理は、アドレス帳ファイルとユーザー データベース保存されている情報との同期を定期的に取ることで実行されます。 さらに、Lync Server には、アドレス帳サーバーを管理するためのコマンドレットが多数含まれています。
 
 <div>
 
 ## <a name="address-book-server-cmdlets"></a>アドレス帳サーバーのコマンドレット
 
-Lync Server コントロールパネルで、アドレス帳のサーバー設定を構成することはできません。 Windows PowerShell は、これらの設定を管理するための主要なツールです。 アドレス帳サーバーの管理に直接関連するコマンドレットの一覧を次に示します。
+Lync Server コントロールパネルでアドレス帳サーバーの設定を構成することはできません。 Windows PowerShell は、これらの設定を管理するための主要なツールです。 以下は、アドレス帳サーバーの管理に直接関連するコマンドレットの一覧です。
 
 **アドレス帳サーバー**
 
   - <span></span>  
-    [CsAddressBookConfiguration の入手](https://technet.microsoft.com/en-us/library/Gg398132(v=OCS.15))
+    [-CsAddressBookConfiguration の取得](https://technet.microsoft.com/library/Gg398132(v=OCS.15))
 
   - <span></span>  
-    [New-CsAddressBookConfiguration](https://technet.microsoft.com/en-us/library/Gg398395(v=OCS.15))
+    [新しい-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg398395(v=OCS.15))
 
   - <span></span>  
-    [CsAddressBookConfiguration の削除](https://technet.microsoft.com/en-us/library/Gg398934(v=OCS.15))
+    [-CsAddressBookConfiguration の削除](https://technet.microsoft.com/library/Gg398934(v=OCS.15))
 
   - <span></span>  
-    [Set-CsAddressBookConfiguration](https://technet.microsoft.com/en-us/library/Gg412784(v=OCS.15))
+    [設定-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg412784(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [更新-CsAddressBook](https://technet.microsoft.com/en-us/library/Gg398194(v=OCS.15))
+    [Update-csaddressbook](https://technet.microsoft.com/library/Gg398194(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Debug-CsAddressBookReplication](https://technet.microsoft.com/en-us/library/JJ205232(v=OCS.15))
+    [デバッグ-CsAddressBookReplication](https://technet.microsoft.com/library/JJ205232(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsAddressBookService](https://technet.microsoft.com/en-us/library/Gg398661(v=OCS.15))
+    [Test-CsAddressBookService](https://technet.microsoft.com/library/Gg398661(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsAddressBookWebQuery](https://technet.microsoft.com/en-us/library/Gg398773(v=OCS.15))
+    [Test-CsAddressBookWebQuery](https://technet.microsoft.com/library/Gg398773(v=OCS.15))
 
 </div>
 

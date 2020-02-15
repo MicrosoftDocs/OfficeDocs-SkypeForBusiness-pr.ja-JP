@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea50a504aa43c9df333a077c7f866a487f544a04
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 0fd871f36c2261dd5ec243dbd8dbdd52a3a8e694
+ms.sourcegitcommit: 93a8bd330c9a8ced81cd3eafb7b7236e9ed2066f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833457"
+ms.lasthandoff: 02/13/2020
+ms.locfileid: "41962086"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
@@ -42,6 +42,7 @@ ms.locfileid: "41833457"
 |Office 365 テナントが持てるチームの数    | 500,000&sup2;     |
 |チームごとのチャネル数    | 200 (削除されたチャネルを含む) &sup3;         |
 |チームごとのプライベート チャネル数    |30|
+|チャネル会話の投稿サイズ | 投稿ごとに約 28 KB<sup>4</sup> |
 
 &sup1; Azure Active Directory の任意のディレクトリ オブジェクトは、この制限にカウントされます。 グローバル管理者は、[アプリケーションのアクセス許可](https://docs.microsoft.com/graph/permissions-reference)を使用して Microsoft Graph を呼び出すアプリと同様に、この制限から除外されます。
 
@@ -49,7 +50,9 @@ ms.locfileid: "41833457"
 
 &sup3; 削除したチャネルは、30 日以内であれば復元できます。 この 30 日間、削除されたチャンネルはチームごとの制限である 200 チャンネルとしてカウントされ続けます。 30 日を経過すると、削除されたチャネルとそのコンテンツは完全に削除され、チャンネルはチームごとの制限である 200 チャンネルとしてカウントされなくなります。
 
-## <a name="messaging"></a>メッセージング 
+<sup>4</sup> 28 KBは、メッセージ自体 （テキスト、画像リンクなど）、@メンション、コネクタの数、およびリアクションを含むため、おおよその制限です。
+
+## <a name="messaging"></a>Messaging
 
 ### <a name="chat"></a>チャット
 
@@ -61,10 +64,13 @@ Teams チャットは、Microsoft Exchange のバックエンドで動作する�
 |---------|---------|
 |プライベート チャットに参加できるユーザー数 <sup>1</sup>  | 100    |
 |添付ファイルの数 <sup>2</sup>  |10     |
+|チャットのサイズ | 投稿ごとに約 28 KB<sup>3</sup> |
 
 <sup>1</sup> チャットに 20 人以上いる場合、次のチャット機能は無効になります。Outlook の自動応答と Teams 状態メッセージ、入力インジケーター、ビデオおよび音声通話、共有、開封確認。
 
 <sup>2</sup> 添付ファイルの数がこの制限を超えると、エラー メッセージが表示されます。
+
+<sup>3</sup> 28 KBは、メッセージ自体 （テキスト、画像リンクなど）、@メンション、およびリアクションを含むため、おおよその制限です。
 
 ### <a name="emailing-a-channel"></a>電子メールでチャネルを送信する
 
