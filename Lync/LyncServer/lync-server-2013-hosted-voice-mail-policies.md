@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ホスト型ボイス メール ポリシー'
+title: 'Lync Server 2013: ホストボイスメールポリシー'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185506
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 811f975868dad7bc0fcf6d5a2867ca2f3b81cd59
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 01e844e62934a697b12afa76d2e9c9405a30a4a4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738977"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043179"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="hosted-voice-mail-policies-in-lync-server-2013"></a>Lync Server 2013 のホスト型ボイス メール ポリシー
+# <a name="hosted-voice-mail-policies-in-lync-server-2013"></a>Lync Server 2013 のホストボイスメールポリシー
 
 </div>
 
@@ -35,37 +35,37 @@ ms.locfileid: "41738977"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-01_
+_**トピックの最終更新日:** 2012-10-01_
 
-ホストされた*ボイスメールポリシー*は、ホストされた Exchange サービス上にあるメールボックスを持つユーザーの呼び出しをルーティングする場所について、Lync Server 2013 Exum ルーティングアプリケーションに情報を提供します。
-
-<div>
-
-
-> [!NOTE]  
-> ホストされたボイスメールポリシーは、Lync Server 2013 でのホストされた Exchange UM との統合にのみ必要です。 オンプレミスの Exchange UM との統合には必要ありません。
-
-
-
-</div>
-
-<div>
-
-## <a name="hosted-voice-mail-policy-scope"></a>ホストされたボイスメールポリシーのスコープ
-
-ホストされたボイスメールポリシーのスコープによって、ポリシーが適用される階層レベルが決まります。 以下のスコープレベルで、ホストされたボイスメールポリシーを構成できます。
-
-  - *グローバル*ポリシーは、Lync Server 2013 の展開におけるすべてのユーザーに影響を与える可能性があります。 ホストされた Exchange UM アクセスが有効になっていて、ユーザーごとのポリシーが割り当てられていない場合や、サイトポリシーがユーザーのサイトに割り当てられていない場合は、グローバルポリシーが適用されます。 グローバルポリシーは Lync Server 2013 と共にインストールされます。 必要に応じて変更できますが、名前の変更や削除はできません。
-
-  - *サイト*ポリシーは、ポリシーが定義されているサイトをホームにしているすべてのユーザーに影響を与える可能性があります。 ユーザーがホストされた Exchange UM アクセス用に構成されていて、ユーザーごとのポリシーが割り当てられていない場合は、サイトポリシーが適用されます。
-
-  - *ユーザーごと*のポリシーは、個々のユーザーまたはグループにのみ影響を与える可能性があります。 ユーザーごとのポリシーを適用するには、個々のユーザー、グループ、連絡先オブジェクトにポリシーを明示的に割り当てる必要があります。
+*ホストボイスメールポリシー*は、ホストされた Exchange サービスにメールボックスがあるユーザーの呼び出しをルーティングする場所について、Lync Server 2013 Exum ルーティングアプリケーションに情報を提供します。
 
 <div>
 
 
 > [!NOTE]  
-> ほとんどの場合、ホストされるボイスメールのポリシーは1つだけ必要です。 多くの場合、すべてのニーズに合わせてグローバルポリシーを変更できます。 複数のホストされたボイスメールポリシーを展開する場合、そのようなすべてのポリシーにはユーザーごとのスコープがあります。
+> ホストボイスメールポリシーは、ホストされた Exchange UM との Lync Server 2013 の統合にのみ必要です。 内部設置型の Exchange UM との統合には必要ありません。
+
+
+
+</div>
+
+<div>
+
+## <a name="hosted-voice-mail-policy-scope"></a>ホスト ボイス メール ポリシーのスコープ
+
+ホスト ボイス メール ポリシーのスコープでは、ポリシーが適用される階層レベルが指定されます。以下のスコープ レベルのホスト ボイス メール ポリシーを構成できます。
+
+  - *グローバル*ポリシーは、Lync Server 2013 展開内のすべてのユーザーに影響を与える可能性があります。 Hosted Exchange UM へのアクセスが有効になっているユーザーに対してユーザー単位のポリシーが割り当てられていない場合、およびユーザーのサイトにサイト ポリシーが割り当てられていない場合には、グローバル ポーリシーが適用されます。 グローバルポリシーは、Lync Server 2013 と共にインストールされます。 グローバル ポリシーを必要に応じて変更することはできますが、名前変更や削除はできません。
+
+  - *サイト* ポリシーは、このポリシーが定義されているサイトに所属するすべてのユーザーに影響します。Hosted Exchange UM にアクセスできるように構成されているユーザーにユーザー単位のポリシーが割り当てられていない場合には、サイト ポリシーが適用されます。
+
+  - *ユーザー単位の*ポリシーは、個々のユーザーやグループにだけ影響します。ユーザー単位のポリシーを適用するには、個々のユーザー、グループ、または連絡先オブジェクトにこのポリシーを明示的に割り当てる必要があります。
+
+<div>
+
+
+> [!NOTE]  
+> ほとんどの場合には、必要なホスト ボイス メール ポリシーは 1 つだけです。多くの場合には、必要に応じてグローバル ポリシーを変更できます。複数のホスト ボイス メール ポリシーを展開する場合には、展開するすべてのポリシーにユーザー単位のスコープがあります。
 
 
 
@@ -75,11 +75,11 @@ _**最終更新日:** 2012-10-01_
 
 <div>
 
-## <a name="hosted-voice-mail-policy-attributes"></a>ホストされたボイスメールポリシーの属性
+## <a name="hosted-voice-mail-policy-attributes"></a>ホスト ボイス メール ポリシーの属性
 
-ボイスメールポリシーは、次の2つの属性を定義します。 Lync Server 2013 ExUM ルーティングアプリケーションは、ホストされた Exchange UM 実装に送信される INVITE メッセージの要求 URI に挿入します。
+ボイスメールポリシーは、Lync Server 2013 ExUM ルーティングアプリケーションが、hosted Exchange UM 実装に送信される INVITE メッセージの要求 URI に挿入する2つの属性を定義します。
 
-  - **Destination:** ホストされている Exchange UM サービスの完全修飾ドメイン名 (FQDN)。 この値は、ルーティング目的でオンプレミスの Lync Server Edge サーバーによって使用されます。
+  - **Destination:** Hosted Exchange UM サービスの完全修飾ドメイン名 (FQDN)。 この値は、ルーティングのためにオンプレミスの Lync Server エッジサーバーによって使用されます。
     
     <div>
     
@@ -90,19 +90,19 @@ _**最終更新日:** 2012-10-01_
     
     </div>
 
-  - **組織:** Lync Server 2013 ユーザーのメールボックスをホームとする、ホストされた Exchange UM サービス上のテナントの FQDN。 ボイスメールのポリシーには、複数の組織を含めることができます。 ポリシーに複数の組織が含まれている場合、この属性は、Lync Server 2013 ユーザーメールボックスのホームとなる Exchange Server テナントのコンマ区切りリストである必要があります。
+  - **組織:** Lync Server 2013 ユーザーのメールボックスをホームとする、ホストされた Exchange UM サービス上のテナントの FQDN。 ボイス メール ポリシーには複数の組織が含まれていることがあります。 ポリシーに複数の組織が含まれている場合、この属性は、Lync Server 2013 ユーザーメールボックスのホームとなる Exchange Server テナントのコンマ区切りのリストである必要があります。
 
 <div>
 
 
 > [!NOTE]  
-> ホストされた Exchange UM サービスのテナント管理者が、宛先と組織の属性設定に必要な値を提供します。 ポリシーを構成するには、CsHostedVoicemailPolicy コマンドレットを実行するか、CsHostedVoicemailPolicy コマンドレットを使用して存在するもの (グローバルポリシーなど) を変更する必要があります。
+> Hosted Exchange UM サービスのテナント管理者が、宛先と組織の属性設定に必要な値を提供します。ポリシーを構成するには、New-CsHostedVoicemailPolicy コマンドレットを実行するか、または Set-CsHostedVoicemailPolicy コマンドレットを使用して既存のポリシー (例: グローバル ポリシー) を変更する必要があります。
 
 
 
 </div>
 
-ホストされたボイスメールポリシーの管理について詳しくは、次のコマンドレットの Lync Server 管理シェルに関するドキュメントをご覧ください。
+ホストボイスメールポリシーの管理の詳細については、「Lync Server Management Shell」のドキュメントの次のコマンドレットを参照してください。
 
   - New-CsHostedVoicemailPolicy
 
@@ -114,11 +114,11 @@ _**最終更新日:** 2012-10-01_
 
 <div>
 
-## <a name="per-user-voice-mail-policy-assignment"></a>ユーザーごとのボイスメールポリシーの割り当て
+## <a name="per-user-voice-mail-policy-assignment"></a>ユーザー単位のボイス メール ポリシーの割り当て
 
-ホストされたボイスメールのポリシーがユーザーごとのスコープで定義されている場合は、明示的に割り当てる必要があります。 CsHostedVoicemailPolicy コマンドレットを実行して、個々のユーザーまたはグループにポリシーを割り当てることができます。
+ホスト ボイス メール ポリシーがユーザー単位のスコープで定義されている場合には、ユーザー単位のスコープを明示的に割り当てる必要があります。Grant-CsHostedVoicemailPolicy コマンドレッドを実行して、ポリシーを個々のユーザーまたはグループに割り当てることができます。
 
-ユーザーごとにホストされるボイスメールのポリシーの割り当てまたは削除の詳細については、次のコマンドレットの Lync Server 管理シェルに関するドキュメントを参照してください。
+ユーザーごとのホストボイスメールポリシーの割り当てまたは削除の詳細については、「Lync Server Management Shell」のドキュメントの次のコマンドレットを参照してください。
 
   - Grant-CsHostedVoicemailPolicy
 

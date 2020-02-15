@@ -12,16 +12,16 @@ ms:contentKeyID: 48185690
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4365e5bbfe92168047165adf6504333e1c34fab6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 385279d422827b689561902becbd512f4e9261ab
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765265"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044099"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41765265"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-28_
+_**トピックの最終更新日:** 2012-09-28_
 
-このテーブルの各レコードには、1人のユーザーの参加に関する CDR 情報と、1人の会議に関する情報が含まれています。 各会議は、ユーザーが会議に参加して退席するたびに、1つのレコードでこのテーブルに表示されます。
+この表の各レコードには、1つの会議に関する1人のユーザーの参加および退出情報に関する CDR 情報が含まれています。 各会議は、ユーザーが会議に参加および退室するたびに1つずつ、このテーブルに表示されます。
 
 
 <table>
@@ -57,62 +57,62 @@ _**最終更新日:** 2012-09-28_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>セッション Id</strong></p></td>
-<td><p>datetime</p></td>
-<td><p>プライマリ、外部</p></td>
-<td><p>会議インスタンスの時刻。 電話会議インスタンスを一意に識別するために<strong>Sessionidseq</strong>と組み合わせて使用されます。 詳細については、「 <a href="lync-server-2013-conferences-table.md">Lync Server 2013 での会議の表</a>」を参照してください。</p></td>
+<td><p><strong>SessionIdTime</strong></p></td>
+<td><p>日付型</p></td>
+<td><p>主/プライマリ、外部</p></td>
+<td><p>会議インスタンスの時間。 <strong>Sessionidseq</strong>と組み合わせて、電話会議のインスタンスを一意に識別するために使用されます。 詳細については、「 <a href="lync-server-2013-conferences-table.md">Lync Server 2013</a>の電話会議の表」を参照してください。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>SessionIdSeq</strong></p></td>
+<td><p><strong>Sessionidseq と</strong></p></td>
 <td><p>int</p></td>
-<td><p>プライマリ、外部</p></td>
-<td><p>会議インスタンスを識別する ID 番号。 電話会議インスタンスを一意に識別するために<strong>Sessionidtime</strong>と組み合わせて使用されます。 詳細については、「 <a href="lync-server-2013-conferences-table.md">Lync Server 2013 での会議の表</a>」を参照してください。</p></td>
+<td><p>主/プライマリ、外部</p></td>
+<td><p>会議インスタンスを識別する ID 番号。 <strong>Sessionidtime</strong>と組み合わせて、電話会議のインスタンスを一意に識別するために使用されます。 詳細については、「 <a href="lync-server-2013-conferences-table.md">Lync Server 2013</a>の電話会議の表」を参照してください。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>/セッション Id</strong></p></td>
-<td><p>datetime</p></td>
-<td><p>プライマリ、外部</p></td>
-<td><p>セッション要求の時刻。 セッションを一意に識別するために<strong>Sessionidseq</strong>と組み合わせて使用されます。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a>」を参照してください。</p></td>
+<td><p><strong>DialogSessionIdTime</strong></p></td>
+<td><p>日付型</p></td>
+<td><p>主/プライマリ、外部</p></td>
+<td><p>セッション要求の時刻。 セッションを一意に識別するために <strong>SessionIdSeq</strong> と併用されます。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a>」を参照してください。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>"/セッション Id"</strong></p></td>
+<td><p><strong>DialogSessionIdSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>プライマリ、外部</p></td>
-<td><p>セッションを識別する ID 番号。 セッションを一意に識別するために<strong>Sessionidtime</strong>と組み合わせて使用されます。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a>」を参照してください。</p></td>
+<td><p>主/プライマリ、外部</p></td>
+<td><p>セッションを識別するための ID 番号。 セッションを一意に識別するために <strong>SessionIdTime</strong> と併用されます。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a>」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserId</strong></p></td>
 <td><p>int</p></td>
 <td><p>外部</p></td>
-<td><p>このユーザーを識別する一意の番号です。 <a href="lync-server-2013-users-table.md">Lync Server 2013 の [ユーザー] テーブル</a>から参照されます。</p></td>
+<td><p>このユーザーを示す一意の番号。 <a href="lync-server-2013-users-table.md">Lync Server 2013 の [ユーザー] テーブル</a>から参照されます。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>FocusUserInstance</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>ユーザーが複数のコンピューターまたはデバイスに同時にログオンしている場合は、 <strong>UserInstance</strong>を使って、ユーザーとデバイスの組み合わせを一意に識別します。</p></td>
+<td><p>ユーザーが複数のコンピューターまたはデバイスで同時にログオンしている場合、 <strong>UserInstance</strong>を使用して、ユーザーとデバイスの組み合わせを一意に識別します。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>IsUserInternal</strong></p></td>
-<td><p>bit</p></td>
+<td><p>若干</p></td>
 <td><p> </p></td>
-<td><p>ユーザーが内部からログオンしているかどうか。</p></td>
+<td><p>ユーザーが内部からログオンしたかどうかを示します。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserRole</strong></p></td>
 <td><p>int</p></td>
 <td><p> </p></td>
-<td><p>会議でのこのユーザーの役割 (発表者や出席者など)</p></td>
+<td><p>会議でのこのユーザーの役割 (発表者や参加者など)。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserJoinTime</strong></p></td>
-<td><p>datetime</p></td>
+<td><p>日付型</p></td>
 <td><p> </p></td>
 <td><p>このユーザーが会議に参加した時刻。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserLeaveTime</strong></p></td>
-<td><p>datetime</p></td>
+<td><p>日付型</p></td>
 <td><p> </p></td>
 <td><p>このユーザーが会議から退席した時刻。</p></td>
 </tr>
@@ -124,7 +124,7 @@ _**最終更新日:** 2012-09-28_
 </tr>
 <tr class="even">
 <td><p><strong>UserEndpointId</strong></p></td>
-<td><p>長さ</p></td>
+<td><p>識別子</p></td>
 <td></td>
 <td><p>電話会議で使用されるエンドポイントのグローバル一意識別子 (GUID)。</p>
 <p>このフィールドは、Microsoft Lync Server 2013 で導入されました。</p></td>

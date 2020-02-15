@@ -12,16 +12,16 @@ ms:contentKeyID: 49733827
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7609747848e1943a08eff2fa77b87f0168710f81
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 98c24093f332f568daadfb0cd336f0d5fde3eb35
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744257"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044349"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41744257"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-28_
+_**トピックの最終更新日:** 2012-09-28_
 
-UserStatistics テーブルは、サポートテーブルです。 テーブルの各レコードには、個々のユーザーによるシステムの使用状況に関する情報が格納されます。 この表は、Microsoft Lync Server 2013 で導入されました。
+UserStatistics テーブルはサポート テーブルです。 このテーブル内の各レコードは、システムの個々のユーザーの使用状況についての情報を格納しています。 この表は、Microsoft Lync Server 2013 で導入されました。
 
 
 <table>
@@ -60,31 +60,31 @@ UserStatistics テーブルは、サポートテーブルです。 テーブル�
 <td><p><strong>UserId</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>このユーザーを識別する一意の番号です。</p></td>
+<td><p>このユーザーを識別する一意の番号。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>最終ログイン時間</strong></p></td>
-<td><p>datetime</p></td>
+<td><p><strong>LastLogInTime</strong></p></td>
+<td><p>日付型</p></td>
 <td></td>
-<td><p>前回ユーザーがログインした日時。</p></td>
+<td><p>ユーザーが最後にログインした時刻。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Lastconforizedtime</strong></p></td>
-<td><p>datetime</p></td>
+<td><p><strong>Lastconforガント Izedtime</strong></p></td>
+<td><p>日付型</p></td>
 <td></td>
-<td><p>ユーザーが最後に会議を開催した日時。</p></td>
+<td><p>ユーザーが最後に会議を開催した時刻。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Lastcallオーガナイザー Ercallfailuretime</strong></p></td>
-<td><p>datetime</p></td>
+<td><p>日付型</p></td>
 <td></td>
-<td><p>前回ユーザーが通話の失敗を経験した日時。</p></td>
+<td><p>ユーザーが最後に通話に失敗した時刻。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Lastconforガント Izercallfailuretime</strong></p></td>
-<td><p>datetime</p></td>
+<td><p>日付型</p></td>
 <td></td>
-<td><p>前回ユーザーが会議開催者として通話の失敗を経験した時刻。</p></td>
+<td><p>ユーザーが会議開催者として最後に通話に失敗した時刻。</p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: DNS 概要-SIP、XMPP フェデレーション、パブリックインスタントメッセージ
+title: DNS の概要-SIP、XMPP フェデレーション、およびパブリックインスタントメッセージング
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49105656
 ms.date: 03/09/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c927836377a0c7c14054073a9cf17ce638662450
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 90b7b6f9639a43a1eb16623fe0ea174b6e932ab5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757571"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042768"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---sip-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a>DNS 概要-Lync Server 2013 での SIP、XMPP フェデレーション、およびパブリックインスタントメッセージング
+# <a name="dns-summary---sip-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a>Lync Server 2013 の DNS の概要-SIP、XMPP フェデレーション、およびパブリックインスタントメッセージング
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41757571"
 
 <span> </span>
 
-_**最終更新日:** 2017-03-09_
+_**トピックの最終更新日:** 2017-03-09_
 
-Office Communications Server または Lync Server パートナーとのフェデレーションを定義するために必要なドメインネームシステム (DNS) レコードは、他のパースペクティブパートナーによるドメインの自動 DNS 検出を許可するかどうかを決定することによって決定されます。 \_Sipfederationtls を発行する場合。\_tcp。 *SIP ドメイン名\> \<* SRV レコードでは、他の SIP フェデレーションドメインでフェデレーションを「検出」できます。 Lync Server コントロールパネルで [ドメインとブロックされたドメインを許可する] 設定を使用するか、Lync Server 管理シェルと、[**取得**]、[**設定**]、[**新規作成** **]、** [ **CsBlockedDomain** PowerShell コマンドレット] を使用して、許可または禁止されたドメインの構成を設定することで、どのフェデレーションドメインを制御できますか。 これらの設定を構成する方法と PowerShell コマンドレットの使用方法の詳細については、このトピックの最後にある**関連トピック**を参照してください。
+Office Communications Server または Lync Server パートナーとのフェデレーションを定義するために必要となるドメインネームシステム (DNS) レコードは、他の組織のドメインの自動 DNS 検出を許可するかどうかを決定します。 Sipfederationtls を\_発行する場合。\_tcp。 *SIP ドメイン名\> \<* SRV レコード。他の SIP フェデレーションドメインは、フェデレーションを "検出" することができます。 Lync server コントロールパネルで [ドメインとブロックされたドメインを許可する] の設定を使用するか、Lync Server 管理シェルと**Get**、 **Set**、 **New**、 **Remove-csalloweddomain**および **-get-csblockeddomain** PowerShell コマンドレットを使用して、許可または禁止ドメイン構成を設定することによって、どのフェデレーションドメインが自分と通信できるかを制御できます。 これらの設定の構成方法および PowerShell コマンドレットの使用の詳細については、このトピックの最後にある**関連トピック**を参照してください。
 
-[DNS records summary] テーブルには、オープン、または検出可能なフェデレーションに必要なエントリが示されています。 フェデレーション検出を実装しない場合は、 \_sipfederationtls を構成しないことを選択できます。\_tcp。 *SIP ドメイン名\>レコード。 \<*
+DNS レコードの概要の表には、開いている、つまり検出可能なフェデレーションに必要なエントリが示されています。 フェデレーション検出を実装しない場合は、 \_sipfederationtls を構成しないことを決定できます。\_tcp。 *SIP ドメイン名\>レコード。 \<*
 
 <div>
 
 
 > [!IMPORTANT]
-> _Sipfederationtls は、_tcp が必要な特定のシナリオがあります。 <EM>SIP ドメイン名&gt; &lt;</EM>SRV レコードですが、検出可能なフェデレーションは必要ありません。 このようなインスタンスの1つは、ユーザーのモバイル機能を展開した場合です。 モビリティープッシュ通知 (PNCH) は、lync 2010 モバイルクライアントまたは Lync 2013 モバイルクライアントを使用して、Lync 2010 モバイルクライアントまたは Windows Phone を使用している、Apple iPhone または iPad 上の Microsoft Lync モバイルクライアントで使用される特殊な種類のフェデレーションです。 _Tcp _sipfederationtls ます。 <EM>SIP ドメイン名&gt; &lt;</EM>SRV レコードは、モビリティーとプッシュ通知の場合に使用されます。 この問題を軽減して発見性を制御するには、[<STRONG>パートナードメイン探索を有効</STRONG>にする] 設定をオフにして検出をオフにします。
+> _Sipfederationtls を使用する必要がある特定のシナリオがあります。 _tcp。 <EM>SIP ドメイン名&gt; &lt;</EM>SRV レコード。ただし、検出可能なフェデレーションを使用したくありません。 このようなインスタンスの1つとして、ユーザーのモビリティを展開した場所があります。 モビリティープッシュ通知クリアリングハウス (PNCH) は特別な種類のフェデレーションで、lync 2010 モバイルクライアントまたは lync 2013 モバイルクライアント2010を使用して、Lync モバイルクライアントまたは Windows Phone を使用している Apple iPhone または iPad の Microsoft Lync Mobile クライアントに使用されます。 _Sipfederationtls _tcp。 <EM>SIP ドメイン名&gt; &lt;</EM>SRV レコードは、モビリティおよびプッシュ通知の場合に使用されます。 この問題を軽減して、発見性を制御するには、[<STRONG>パートナードメインの検出を有効</STRONG>にする] の設定をクリアして、検出をオフにします。
 
 
 
 </div>
 
-展開用の拡張メッセージングとプレゼンスプロトコル (XMPP) を構成するには、外部 DNS サーバーで、エッジサーバーまたはエッジプールのアクセスエッジサービスへのレコードを解決する2つのドメインネームシステム (DNS) レコードを作成します。
+展開用に拡張メッセージとプレゼンスプロトコル (XMPP) を構成するには、外部 DNS サーバーに2つのドメインネームシステム (DNS) レコードを作成します。これにより、エッジサーバーまたはエッジプールのアクセスエッジサービスに対するレコードが解決されます。
 
-パブリックインスタントメッセージング接続用にドメインネームシステム (DNS) を構成すると、外部ユーザーをサポートする構成はパブリック IM 接続をサポートすることになります。 エッジサーバーまたはエッジプールを既に構成している場合は、パブリック IM 接続をサポートするために必要な DNS レコードを用意する必要があります。
+パブリックインスタントメッセージング接続用にドメインネームシステム (DNS) を構成すると、外部ユーザーをサポートする構成がパブリック IM 接続をサポートすることがわかります。 エッジサーバーまたはエッジプールを既に構成している場合は、パブリック IM 接続をサポートするために必要な DNS レコードを用意する必要があります。
 
 <div>
 
-## <a name="dns-summary---sip-federation-including-public-instant-messaging-connectivity"></a>DNS 概要-パブリックインスタントメッセージング接続を含む SIP フェデレーション
+## <a name="dns-summary---sip-federation-including-public-instant-messaging-connectivity"></a>DNS の概要-パブリックインスタントメッセージング接続を含む SIP フェデレーション
 
 
 <table>
@@ -71,21 +71,21 @@ Office Communications Server または Lync Server パートナーとのフェ�
 <tr class="header">
 <th>場所/種類/ポート</th>
 <th>FQDN</th>
-<th>IP アドレス/FQDN ホストレコード</th>
-<th>マップ先/コメント</th>
+<th>IP アドレス/FQDN ホスト レコード</th>
+<th>マッピング先/コメント</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>外部 DNS/SRV/5061</p></td>
-<td><p>_sipfederationtls._tcp.contoso.com</p></td>
+<td><p>_sipfederationtls の _tcp</p></td>
 <td><p>sip.contoso.com</p></td>
-<td><p>他の潜在的なフェデレーションパートナーとのフェデレーションを自動的に検出するには、アクセスエッジサービスの外部インターフェイスが必要です。また、"許可された SIP ドメイン" と呼ばれます (以前のリリースでは拡張フェデレーションと呼ばれます)。Lync を有効にしたユーザーがいるすべての SIP ドメインで、必要に応じて繰り返す</p>
+<td><p>他の潜在的フェデレーションパートナーへのフェデレーションの自動 DNS 検出に必要なアクセスエッジサービスの外部インターフェイス (以前のリリースでは拡張フェデレーションと呼ばれます) と呼ばれる、"許可された SIP ドメイン" と呼ばれるものです。Lync が有効なユーザーを持つすべての SIP ドメインについて必要に応じて繰り返します。</p>
 
 
 
 > [!IMPORTANT]
-> この SRV レコードは、モビリティとプッシュ通知のクリアリングハウスで必要です。 SIP ドメインが複数ある場合は、Lync モバイルクライアントを含むドメインごとに SRV レコードを作成して公開します。 展開でサポートされている SIP ドメインごとに、明示的な SRV レコードがない場合、プッシュ通知サービスと Apple プッシュ通知サービスが予期したとおりに動作しないことがあります。
+> この SRV レコードは、モビリティおよび Push Notification Clearing House (PNCH) で必要です。 複数の SIP ドメインがある場合は、Lync Mobile クライアントを持つ各ドメインの SRV レコードを作成して発行します。 展開でサポートされている各 SIP ドメインに対して明示的な SRV レコードが存在しない場合、プッシュ通知サービスと Apple プッシュ通知サービスが期待どおりに動作しないことがあります。
 
 </td>
 </tr>
@@ -111,22 +111,22 @@ Office Communications Server または Lync Server パートナーとのフェ�
 <tr class="header">
 <th>場所/種類/ポート</th>
 <th>FQDN</th>
-<th>IP アドレス/FQDN ホストレコード</th>
-<th>マップ先/コメント</th>
+<th>IP アドレス/FQDN ホスト レコード</th>
+<th>マッピング先/コメント</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>外部 DNS/SRV/5269</p></td>
-<td><p>_xmpp-server._tcp.contoso.com</p></td>
+<td><p>_xmpp-サーバーの _tcp</p></td>
 <td><p>xmpp.contoso.com</p></td>
-<td><p>アクセスエッジサービスまたはエッジプールの XMPP プロキシ外部インターフェイス。グローバルポリシー、ユーザーが配置されているサイトポリシー、またはユーザーポリシーを使用して、外部アクセスポリシーの構成を通じて、すべての内部 SIP ドメインについて必要に応じてこの手順を繰り返します。Lync 対応ユーザー。 許可されている XMPP ドメインは、XMPP フェデレーションパートナーポリシーでも構成する必要があります。 詳細については、 <strong>「</strong>関連項目」を参照してください。</p></td>
+<td><p>アクセスエッジサービスまたはエッジプール上の XMPP プロキシの外部インターフェイス。すべての内部 SIP ドメインについて必要に応じて、グローバルポリシー、ユーザーが配置されているサイトポリシー、またはユーザーポリシーを使用して、外部アクセスポリシーを構成することにより、Lync が有効なユーザー。 許可されている XMPP ドメインは、XMPP フェデレーションパートナーポリシーでも構成する必要があります。 詳細については、 <strong>「</strong>関連項目」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p>外部 DNS/A</p></td>
-<td><p>xmpp.contoso.com (など)</p></td>
-<td><p>エッジサーバーまたは XMPP プロキシをホストしているエッジプールのアクセスエッジサービスの IP アドレス</p></td>
-<td><p>XMPP プロキシサービスをホストしているアクセスエッジサービスまたはエッジプールへのポイント。 通常、作成した SRV レコードは、このホスト (A または AAAA) レコードをポイントします。</p></td>
+<td><p>xmpp.contoso.com (例)</p></td>
+<td><p>XMPP プロキシをホストしているエッジサーバーまたはエッジプールのアクセスエッジサービスの IP アドレス</p></td>
+<td><p>XMPP プロキシサービスをホストするアクセスエッジサービスまたはエッジプールを指します。 通常、作成する SRV レコードはこのホスト (A または AAAA) レコードを指し示します。</p></td>
 </tr>
 </tbody>
 </table>
@@ -139,16 +139,16 @@ Office Communications Server または Lync Server パートナーとのフェ�
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 XMPP フェデレーションのセットアップ](lync-server-2013-setting-up-xmpp-federation.md)  
-[Lync Server 2013 でプッシュ通知を構成する](lync-server-2013-configuring-for-push-notifications.md)  
-[Lync Server 2013 でのフェデレーション パートナーの検出の有効化または無効化](lync-server-2013-enable-or-disable-discovery-of-federation-partners.md)  
+[Lync Server 2013 での XMPP フェデレーションのセットアップ](lync-server-2013-setting-up-xmpp-federation.md)  
+[Lync Server 2013 でのプッシュ通知の構成](lync-server-2013-configuring-for-push-notifications.md)  
+[Lync Server 2013 でのフェデレーションパートナーの検出を有効または無効にする](lync-server-2013-enable-or-disable-discovery-of-federation-partners.md)  
 
 
-[Lync Server 2013 の外部ユーザー アクセスのシナリオ](lync-server-2013-scenarios-for-external-user-access.md)  
-[Lync Server 2013 の DNS の要件を確認する](lync-server-2013-determine-dns-requirements.md)  
+[Lync Server 2013 での外部ユーザーアクセスのシナリオ](lync-server-2013-scenarios-for-external-user-access.md)  
+[Lync Server 2013 の DNS 要件を決定する](lync-server-2013-determine-dns-requirements.md)  
 
 
-[Lync Server 2013 での組織の SIP フェデレーション ドメインの管理](lync-server-2013-manage-sip-federated-domains-for-your-organization.md)  
+[Lync Server 2013 での組織の SIP フェデレーションドメインの管理](lync-server-2013-manage-sip-federated-domains-for-your-organization.md)  
   
 
 </div>

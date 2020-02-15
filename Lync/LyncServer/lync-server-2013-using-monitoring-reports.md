@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 監視レポートを使用する'
+title: 'Lync Server 2013: 監視レポートの使用'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184480
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5662ba6df2f270355a3c7f7532c3283cc033d73d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c37cd0f96ea0dd8e3fa63a851c3c93caf5988c7d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744067"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044279"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="using-monitoring-reports-in-lync-server-2013"></a>Lync Server 2013 で監視レポートを使用する
+# <a name="using-monitoring-reports-in-lync-server-2013"></a>Lync Server 2013 での監視レポートの使用
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41744067"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-21_
+_**トピックの最終更新日:** 2012-10-21_
 
-Lync Server 2013 には、Microsoft SQL Server Reporting Service によって公開されている一連の標準レポートが含まれています。 これらのレポートは、web ブラウザーを使用してアクセスできます。これらのレポートは、CDR と QoE データベースに保存されている通話の詳細記録 (CDR) と Quality of Experience (QoE) レコードに基づいて提供されます。
+Lync Server 2013 には、Microsoft SQL Server Reporting Service によって発行される標準レポートのセットが含まれています。 これらのレポートは、web ブラウザーを使用してアクセスできます。これらのレポートには、使用状況、通話診断情報、およびメディア品質情報があります。これには、CDR および QoE データベースに格納されているすべての通話詳細記録 (CDR) および QoE (Quality of Experience) レコードに基づいています。
 
-これらのレポートを使用するためには、SQL Server のインスタンスが実行されているコンピューターに監視レポートをインストールする必要があります。
+これらのレポートを使用するためには、SQL Server のインスタンスを実行しているコンピューターに監視レポートをインストールする必要があります。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013](lync-server-2013-using-the-monitoring-dashboard.md)   で監視ダッシュボードを使うと、管理者は、システムの正常性とシステム使用状況の概要を簡単に見ることができます。
+  - [Lync Server 2013](lync-server-2013-using-the-monitoring-dashboard.md)   の監視ダッシュボードを使用すると、管理者はシステムの正常性とシステム使用率の概要をすばやく表示できます。
 
-  - [Lync server 2013](lync-server-2013-system-usage-reports.md)   のシステム使用状況レポートでは、lync server によって収集された CDR データに基づいてシステムの使用状況に関する情報を提供します。
+  - [Lync server 2013](lync-server-2013-system-usage-reports.md)   のシステム使用状況レポート lync server で収集された CDR データに基づいてシステム使用状況情報を提供します。
 
-  - [Lync Server 2013 での (ユーザーごとの) 診断レポート (ユーザーごと)](lync-server-2013-call-diagnostic-reports-per-user.md)   に、失敗したピアツーピアと会議セッションに関するユーザーごとの情報が提供されます。
+  - [Lync Server 2013 の通話診断レポート (ユーザーごと)](lync-server-2013-call-diagnostic-reports-per-user.md)   エラーが発生したピアツーピアセッションと電話会議セッションに関する情報をユーザー別に提供します。
 
-  - [Lync Server 2013](lync-server-2013-call-diagnostic-reports.md)   の [診断レポートを呼び出す] ピアツーピアおよび会議セッションの失敗に関する概要情報と診断データが提供されます。
+  - [通話診断レポート Lync Server 2013](lync-server-2013-call-diagnostic-reports.md)   で、失敗したピアツーピアセッションと電話会議セッションに関する概要情報と診断データが提供されます。
 
-  - [Lync Server 2013](lync-server-2013-media-quality-diagnostic-reports.md)   のメディア品質診断レポートでは、通話の品質と、失敗した通話の診断とトラブルシューティングに関する情報が提供されます。
+  - [Lync Server 2013](lync-server-2013-media-quality-diagnostic-reports.md)   のメディア品質診断レポート通話品質に関する情報、および失敗した通話の診断およびトラブルシューティングの情報を提供します。
 
 </div>
 
@@ -61,7 +61,7 @@ Lync Server 2013 には、Microsoft SQL Server Reporting Service によって公
 
 ## <a name="locating-records"></a>レコードの検索
 
-監視レポートで画面上に一度に表示されるレコードの数は限られています。実際に画面に表示されるレコードの数は、レポートによって異なります。画面に現在表示されていないレコードを表示する場合は、データの表示ページを切り替えることができる標準の "進む" および "戻る" のコントロール (各レポートのツール バー上にあります) を使用できます。また、データセットの最初または最後のページにすばやく移動できます。
+監視レポートで画面上に一度に表示されるレコードの数は限られています。実際に画面に表示されるレコードの数は、レポートによって異なります。画面に現在表示されていないレコードを表示する場合は、データの表示ページを切り替えることができる標準の "進む" および "戻る" のコントロール (各レポートのツールバー上にあります) を使用できます。また、データセットの最初または最後のページにすばやく移動できます。
 
 "進む" と "戻る" のコントロールを使用する以外に、[**現在のページ**] ボックスにページ番号を入力して Enter キーを押すだけで、データセットの任意のページに移動することもできます。
 
@@ -87,7 +87,7 @@ Lync Server 2013 には、Microsoft SQL Server Reporting Service によって公
 
 ## <a name="exporting-data"></a>データのエクスポート
 
-監視レポートには、レポート内のデータをエクスポートする方法が少なくとも 2 つあります。各レポートの最上部に表示されるツール バーの [**エクスポート**] オプションを使用することです。このオプションを使用するには、[**形式を選択してください**] ドロップダウン リストで適切なエクスポート形式を選択します。使用できる形式は次のとおりです。
+監視レポートには、レポート内のデータをエクスポートする方法が少なくとも 2 つあります。各レポートの最上部に表示されるツールバーの [**エクスポート**] オプションを使用することです。このオプションを使用するには、[**形式を選択してください**] ドロップダウン リストで適切なエクスポート形式を選択します。使用できる形式は次のとおりです。
 
   - レポート データが含まれている XML ファイル
 
@@ -103,7 +103,7 @@ Lync Server 2013 には、Microsoft SQL Server Reporting Service によって公
 
   - Word
 
-形式の選択後、[**エクスポート**] をクリックします。[**ファイルのダウンロード**] ダイアログ ボックスが表示されたら、[**保存**] をクリックします。[**名前を付けて保存**] ダイアログ ボックスで、保存先フォルダーを選択し、ファイル名を入力して、[**保存**] をクリックします。
+形式の選択後、[**エクスポート**] をクリックします。[**ファイルのダウンロード**] ダイアログ ボックスが表示されたら、[**保存**] をクリックします。[ **名前を付けて保存**] ダイアログ ボックスで、保存先フォルダーを選択し、ファイル名を入力して、[**保存**] をクリックします。
 
 Microsoft OneNote がインストールされている場合は、レポート データを OneNote にコピーすることもできます。そのためには、ツールバーの [**レポートの表示**] ボタンをクリックします。[**OneNote の場所の選択**] ダイアログ ボックスで、データのコピー先となる OneNote のセクションを選択し、[**OK**] をクリックします。
 

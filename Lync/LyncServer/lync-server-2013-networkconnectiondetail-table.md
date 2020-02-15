@@ -12,16 +12,16 @@ ms:contentKeyID: 48185170
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2035fff89437c10732c704eee47c145b45d9db96
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 784e229ee16bfee0e9e828f1df7f06a98e898eb4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765858"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043859"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41765858"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-02_
+_**トピックの最終更新日:** 2012-10-02_
 
-NetworkConnectionDetail テーブルは、ネットワーク接続の種類を、エクスペリエンスデータベースの他の場所で使用されていたネットワーク接続識別子にマップします。 この表は、Microsoft Lync Server 2013 で導入されました。
+NetworkConnectionDetail テーブルは、Quality of Experience データベースの他の場所で使用されるネットワーク接続の識別子にネットワーク接続の種類を対応させます。 この表は、Microsoft Lync Server 2013 で導入されました。
 
 
 <table>
@@ -57,20 +57,20 @@ NetworkConnectionDetail テーブルは、ネットワーク接続の種類を�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Networkconnectionのキー</strong></p></td>
+<td><p><strong>Networkconnectionのすべてのキー</strong></p></td>
 <td><p>tinyint</p></td>
 <td><p>Primary</p></td>
-<td><p>ネットワーク接続の種類を表す一意の識別子です。</p></td>
+<td><p>ネットワーク接続の種類の一意の識別子。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>NetworkConnectionDetail</strong></p></td>
 <td><p>varchar (256)</p></td>
 <td><p>一意</p></td>
-<td><p>ネットワーク接続の種類。ネットワーク接続の種類キーに対応しています。 有効な値は次のとおりです。</p>
+<td><p>NetworkConnectionDetailKey に対応するネットワーク接続の種類。有効な値は次のとおりです。</p>
 <ol>
-<li><p>0--有線</p></li>
-<li><p>1--WiFi</p></li>
-<li><p>2--イーサネット</p></li>
+<li><p>0: 有線</p></li>
+<li><p>1: WiFi</p></li>
+<li><p>2: イーサネット</p></li>
 </ol></td>
 </tr>
 </tbody>

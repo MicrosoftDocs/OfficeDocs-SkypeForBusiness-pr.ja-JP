@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '政府機関、教育機関 および非営利組織 のプラン用のアドオン ライセンスと機能について説明します。 '
-ms.openlocfilehash: 9d33cbb7367a1608b0ff7c9fdd05447a98edba8b
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 8544d685fffa1a4ab4f53a83e0651bd898e3c845
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826685"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029388"
 ---
 # <a name="gov-edu-and-non-profit-organizations"></a>GOV、EDU、非営利団体
 
@@ -36,4 +36,4 @@ ms.locfileid: "41826685"
 |Office 365 電話システム  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |
 |Office 365 国内通話プラン  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |
    
-ブログの投稿記事「[Advanced Office 365 capabilities now available to U.S. Government Community Cloud customers](https://www.microsoft.com/en-us/microsoft-365/blog/2017/01/17/advanced-office-365-capabilities-now-available-to-u-s-government-community-customers/)」をご覧ください。
+ブログの投稿記事「[Advanced Office 365 capabilities now available to U.S. Government Community Cloud customers](https://www.microsoft.com/microsoft-365/blog/2017/01/17/advanced-office-365-capabilities-now-available-to-u-s-government-community-customers/)」をご覧ください。

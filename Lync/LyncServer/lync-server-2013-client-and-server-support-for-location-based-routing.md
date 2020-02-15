@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 場所に基づくルーティングに対するクライアントとサーバーのサポート'
+title: 'Lync Server 2013: 場所に基づくルーティングのためのクライアントとサーバーのサポート'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 51803933
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ad7ead20eb9961180fec9204a84b3392b7fa96f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: efdb03adbdf1392e27c3107eef4aaf97f3708e66
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729857"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043839"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41729857"
 
 <span> </span>
 
-_**最終更新日:** 2013-06-18_
+_**トピックの最終更新日:** 2013-06-18_
 
-場所に基づくルーティングは、Lync Server によって適用されます。 Lync Server は、企業ネットワーク内からユーザーが接続するネットワークサイトを特定できます。 リモート ユーザーは企業ネットワークの外部に存在するため、リモート ユーザーの場所は不明と見なされます。
+場所に基づくルーティングは、Lync Server によって適用されます。 Lync Server は、ユーザーが企業ネットワーク内から接続しているネットワークサイトを識別できます。 リモートユーザーは企業ネットワークの外部に存在するため、その場所は不明と見なされます。
 
 <div>
 
 ## <a name="lync-server-support"></a>Lync Server のサポート
 
-位置情報に基づくルーティングを行うには、Lync Server 2013 CU1 が、特定のトポロジに含まれるすべてのフロントエンドプールおよび標準エディションのサーバーに展開されている必要があります。 トポロジで特定の Lync コンポーネントに Lync Server 2013 CU1 がインストールされていない場合、場所に基づくルーティングの制限を完全に適用することはできません。
+場所に基づくルーティングでは、Lync Server 2013 CU1 が、特定のトポロジ内のすべてのフロントエンドプールおよび Standard Edition サーバーに展開されている必要があります。 Lync Server 2013 CU1 がトポロジ内の特定の Lync コンポーネントにインストールされていない場合、場所に基づいたルーティング制限を完全に適用することはできません。
 
-次の表は、位置情報に基づくルーティングでサポートされているサーバーの役割とバージョンの組み合わせを示しています。
+次の表は、場所に基づくルーティングでサポートされているサーバーの役割とバージョンの組み合わせを示しています。
 
 
 <table>
@@ -56,45 +56,45 @@ _**最終更新日:** 2013-06-18_
 </colgroup>
 <thead>
 <tr class="header">
-<th>プールのバージョン</th>
+<th>プールバージョン</th>
 <th>仲介サーバーのバージョン</th>
-<th>サポート対象</th>
+<th>サポートされている</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Lync Server 2013 (2013 年2月の累積更新プログラム)</p></td>
-<td><p>Lync Server 2013 (2013 年2月の累積更新プログラム)</p></td>
+<td><p>Lync Server 2013 年2月2013累積的な更新プログラム</p></td>
+<td><p>Lync Server 2013 年2月2013累積的な更新プログラム</p></td>
 <td><p>はい</p></td>
 </tr>
 <tr class="even">
-<td><p>Lync Server 2013 (2013 年2月の累積更新プログラム)</p></td>
+<td><p>Lync Server 2013 年2月2013累積的な更新プログラム</p></td>
 <td><p>Lync Server 2013</p></td>
 <td><p>いいえ</p></td>
 </tr>
 <tr class="odd">
-<td><p>Lync Server 2013 (2013 年2月の累積更新プログラム)</p></td>
+<td><p>Lync Server 2013 年2月2013累積的な更新プログラム</p></td>
 <td><p>Lync Server 2010</p></td>
 <td><p>いいえ</p></td>
 </tr>
 <tr class="even">
-<td><p>Lync Server 2013 (2013 年2月の累積更新プログラム)</p></td>
+<td><p>Lync Server 2013 年2月2013累積的な更新プログラム</p></td>
 <td><p>Office Communications Server 2007 R2</p></td>
 <td><p>いいえ</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync Server 2013</p></td>
-<td><p>任意</p></td>
+<td><p>any</p></td>
 <td><p>いいえ</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync Server 2010</p></td>
-<td><p>任意</p></td>
+<td><p>any</p></td>
 <td><p>いいえ</p></td>
 </tr>
 <tr class="odd">
 <td><p>Office Communications Server 2007 R2</p></td>
-<td><p>任意</p></td>
+<td><p>any</p></td>
 <td><p>いいえ</p></td>
 </tr>
 </tbody>
@@ -107,7 +107,7 @@ _**最終更新日:** 2013-06-18_
 
 ## <a name="lync-client-support"></a>Lync クライアントのサポート
 
-次の表は、場所に基づくルーティングでサポートされているクライアントを示しています。
+次の表は、場所に基づくルーティングがサポートするクライアントを示しています。
 
 
 <table>
@@ -119,7 +119,7 @@ _**最終更新日:** 2013-06-18_
 <thead>
 <tr class="header">
 <th>クライアントの種類</th>
-<th>サポート対象</th>
+<th>サポートされている</th>
 <th>詳細</th>
 </tr>
 </thead>
@@ -127,7 +127,7 @@ _**最終更新日:** 2013-06-18_
 <tr class="odd">
 <td><p>Lync 2013</p></td>
 <td><p>はい</p></td>
-<td><p>2013年 2 2013 月の累積更新プログラム (Lync)</p></td>
+<td><p>Lync 2013 年2月2013の累積的な更新プログラムを含む</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync 2010</p></td>
@@ -150,14 +150,14 @@ _**最終更新日:** 2013-06-18_
 <td> </td>
 </tr>
 <tr class="even">
-<td><p>Windows 8 版 Lync</p></td>
+<td><p>Lync for Windows 8</p></td>
 <td><p>いいえ</p></td>
 <td> </td>
 </tr>
 <tr class="odd">
 <td><p>Lync Mobile 2013</p></td>
 <td><p>いいえ</p></td>
-<td><p>場所に基づくルーティングが有効になっているユーザーが使用した場合、Lync Mobile 2013 クライアントで VoIP を無効にする必要があります。</p></td>
+<td><p>場所に基づくルーティングが有効になっているユーザーが使用している場合は、Lync Mobile 2013 クライアントで VoIP を無効にする必要があります。</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync Mobile 2010</p></td>
@@ -173,7 +173,7 @@ _**最終更新日:** 2013-06-18_
 
 
 > [!NOTE]  
-> Lync Mobile 2013 クライアントで VoIP を無効にするには、位置情報に基づくルーティングが有効になっているすべてのユーザーに対して、設定、[IP Audio/ビデオ] の順に移動して、モビリティポリシーを割り当てます。 モビリティ ポリシーの詳細については、「<A href="https://docs.microsoft.com/powershell/module/skype/New-CsMobilityPolicy">New-CsMobilityPolicy</A>」を参照してください。
+> Lync Mobile 2013 クライアントの VoIP を無効にするには、場所に基づくルーティングが有効になっているすべてのユーザーに対して、[IP Audio/ビデオ] を設定したモビリティポリシーを割り当てます。 モビリティポリシーの詳細については、「 <A href="https://docs.microsoft.com/powershell/module/skype/New-CsMobilityPolicy">get-csmobilitypolicy</A>」を参照してください。
 
 
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48184806
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e88f3de6f653354087d1abd0f7884ee09eda2f36
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6546ac3e13795871461dcdd425e96e801ee19e9d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746817"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042909"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="in-lync-server-2013-remove-kerberos-authentication-from-a-site"></a>Lync Server 2013 でのサイトからの Kerberos 認証の削除
+# <a name="in-lync-server-2013-remove-kerberos-authentication-from-a-site"></a>Lync Server 2013 で、サイトから Kerberos 認証を削除する
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41746817"
 
 <span> </span>
 
-_**最終更新日:** 2012-01-16_
+_**トピックの最終更新日:** 2012-01-16_
 
-この手順を正常に完了するには、RTCUniversalServerAdmins グループのメンバーであるユーザーとしてログオンする必要があります。
+この手順を正常に完了させるには、RTCUniversalServerAdmins グループのメンバーであるユーザーとしてログオンする必要があります。
 
-サイトからの Kerberos 認証を削除する必要がある場合、またはサイトを削除する必要がある場合は、 **CsKerberosAccountAssignment**コマンドレットを使用して、サイトから kerberos 認証アカウントの割り当てを削除する必要があります。 次の手順を使用して、Kerberos 認証アカウントの割り当てを削除します。これにより、サイト内のすべてのコンピューターから課題が削除されます。
+サイトから Kerberos 認証を削除する必要がある場合、またはサイトを廃止する必要がある場合は、 **get-cskerberosaccountassignment**コマンドレットを使用して、サイトから kerberos 認証アカウントの割り当てを削除する必要があります。 Kerberos 認証アカウントの割り当てを削除するには、次の手順を使用します。これにより、サイト内のすべてのコンピューターから割り当てが削除されます。
 
 <div class=" ">
 
 
 > [!WARNING]  
-> Kerberos 対応のアカウントを完全に無効にする場合は、割り当てを削除した後で Active Directory ユーザーとコンピューターを使用して Active Directory ドメインサービスから削除する必要があります。 今後このオブジェクトを使う予定がある場合は、Active Directory オブジェクトを保持しておくことをお勧めします。
+> Kerberos が有効なアカウントを完全に削除する場合は、割り当てを削除した後、Active directory のユーザーとコンピューターを使用して Active Directory ドメインサービスから削除する必要があります。 オブジェクトを後で使用する場合、Active Directory オブジェクトを保持しておくことができます。
 
 
 
@@ -57,9 +57,9 @@ _**最終更新日:** 2012-01-16_
 
 1.  RTCUniversalServerAdmins グループのメンバーとして、Lync Server 2013 を実行しているドメイン内のコンピューター、または管理ツールがインストールされているコンピューターにログオンします。
 
-2.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+2.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
-3.  コマンドラインで、次の2つのコマンドを実行します。
+3.  コマンド ラインで次の 2 つのコマンドを実行します。
     
        ```PowerShell
         Remove-CsKerberosAccountAssignment -Identity "site:SiteName"
@@ -69,7 +69,7 @@ _**最終更新日:** 2012-01-16_
         Enable-CsTopology
        ```
     
-    次に例を示します。
+    次にその例を示します。
     
        ```PowerShell
         Remove-CsKerberosAccountAssignment -Identity "site:Redmond"
@@ -83,7 +83,7 @@ _**最終更新日:** 2012-01-16_
     
 
     > [!IMPORTANT]  
-    > アカウントの追加やアカウントの削除など、Kerberos 認証を変更した後は、Lync Server 管理シェルのコマンドプロンプトから、 <STRONG>Enable-CsTopology</STRONG>方法を実行する必要があります。
+    > アカウントの追加、アカウントの削除など、Kerberos 認証に変更を加えた後、Lync Server 管理シェルコマンドプロンプトから<STRONG>Enable-CsTopology</STRONG>設定を実行する必要があります。
 
     
     </div>

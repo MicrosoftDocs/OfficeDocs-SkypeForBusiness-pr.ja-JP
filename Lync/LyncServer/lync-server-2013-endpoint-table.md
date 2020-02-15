@@ -12,20 +12,20 @@ ms:contentKeyID: 48184098
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 11da225da1a8120f5de7ac21b3beb318326601f9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 201e2ae3b44f59f0edb128f58af6c18e18e51931
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735587"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042234"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="endpoint-table-in-lync-server-2013"></a>Lync Server 2013 の Endpoint テーブル
+# <a name="endpoint-table-in-lync-server-2013"></a>Lync Server 2013 のエンドポイントテーブル
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41735587"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-02_
+_**トピックの最終更新日:** 2012-10-02_
 
-エンドポイントテーブルは、データベースに記録されているセッションに参加しているエンドポイントに関する情報を格納するサポートテーブルです。 テーブル内の各レコードは、1つのエンドポイントを表します。
+エンドポイントテーブルは、データベースに記録されたセッションに参加しているエンドポイントに関する情報を格納するサポートテーブルです。 テーブル内の各レコードは、1つのエンドポイントを表します。
 
 
 <table>
@@ -64,12 +64,12 @@ _**最終更新日:** 2012-10-02_
 </tr>
 <tr class="even">
 <td><p><strong>名前</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td><p>一意</p></td>
 <td><p>エンドポイント名。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>OS</strong></p></td>
+<td><p><strong>HP-UX</strong></p></td>
 <td><p>nvarchar(128</p></td>
 <td><p> </p></td>
 <td><p>エンドポイントのオペレーティングシステム (OS)。</p></td>
@@ -87,16 +87,16 @@ _**最終更新日:** 2012-10-02_
 <td><p>エンドポイントの CPU コアの数。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>プロセッサーの速度</strong></p></td>
+<td><p><strong>Cpu プロセッサ速度</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>エンドポイントの CPU プロセッサの速度。</p></td>
+<td><p>エンドポイントの CPU プロセッサ速度。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>VirtualizationFlag</strong></p></td>
 <td><p>tinyint</p></td>
 <td></td>
-<td><p>システムが仮想環境で実行されているかどうかを示すビットフラグ。</p>
+<td><p>システムが仮想化環境で実行されているかどうかを示すビットフラグ。</p>
 <ul>
 <li><p>0x0000 –なし</p></li>
 <li><p>0x0001 – HyperV</p></li>

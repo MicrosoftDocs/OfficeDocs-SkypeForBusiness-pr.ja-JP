@@ -12,20 +12,20 @@ ms:contentKeyID: 48185142
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cf6adeec7b2a1cd3e73d60b918a68b2d31c48f3c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0566e45f5e0d94690daeece80165eea0b5807899
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747197"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042114"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="pstn-connectivity-cmdlets-in-lync-server-2013"></a>Lync Server 2013 の PSTN 接続コマンドレット
+# <a name="pstn-connectivity-cmdlets-in-lync-server-2013"></a>Lync Server 2013 の PSTN 接続のコマンドレット
 
 </div>
 
@@ -35,193 +35,193 @@ ms.locfileid: "41747197"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-09_
+_**トピックの最終更新日:** 2012-10-09_
 
-エンタープライズボイスは、サービスの品質 (QoS) を拒否せずに、公衆交換電話網 (PSTN) との間での通話を可能にする設定を提供します。 Lync Server 管理シェルから利用可能なコマンドレットを使用して、これらの設定を構成できます。
+エンタープライズ VoIP を使用すると、サービスの品質 (QoS) を低下させずに公衆交換電話網 (PSTN) との間で通話できる設定が可能になります。 これらの設定は、Lync Server 管理シェルで使用可能なコマンドレットを使用して構成できます。
 
 <div>
 
 ## <a name="pstn-connectivity-cmdlets"></a>PSTN 接続のコマンドレット
 
-PSTN 接続のさまざまな側面を構成するには、次のコマンドレットを使用します。
+PSTN 接続のさまざまな面を構成するには、次のコマンドレットを使用します。
 
 **[Lync Server 2013 の PSTN ゲートウェイのコマンドレット](lync-server-2013-pstn-gateways-cmdlets.md)**
 
   - <span></span>  
-    [Set-CsPstnGateway](https://technet.microsoft.com/en-us/library/Gg398408(v=OCS.15))
+    [Set-CsPstnGateway](https://technet.microsoft.com/library/Gg398408(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsPstnOutboundCall](https://technet.microsoft.com/en-us/library/Gg398207(v=OCS.15))
+    [テスト-CsPstnOutboundCall](https://technet.microsoft.com/library/Gg398207(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsPstnPeerToPeerCall](https://technet.microsoft.com/en-us/library/Gg398662(v=OCS.15))
+    [テスト-CsPstnPeerToPeerCall](https://technet.microsoft.com/library/Gg398662(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Set-CsMediationServer](https://technet.microsoft.com/en-us/library/Gg398213(v=OCS.15))
+    [Set-CsMediationServer](https://technet.microsoft.com/library/Gg398213(v=OCS.15))
 
-**[Lync Server 2013 の静的ルーティングコマンドレット](lync-server-2013-static-routing-cmdlets.md)**
-
-  - <span></span>  
-    [Get-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/en-us/library/Gg398130(v=OCS.15))
+**[Lync Server 2013 の静的ルーティングのコマンドレット](lync-server-2013-static-routing-cmdlets.md)**
 
   - <span></span>  
-    [New-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/en-us/library/Gg413041(v=OCS.15))
+    [Get-cssipresponsecodetranslationrule](https://technet.microsoft.com/library/Gg398130(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/en-us/library/Gg412932(v=OCS.15))
+    [Get-cssipresponsecodetranslationrule](https://technet.microsoft.com/library/Gg413041(v=OCS.15))
 
   - <span></span>  
-    [Set-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/en-us/library/Gg425895(v=OCS.15))
+    [Get-cssipresponsecodetranslationrule](https://technet.microsoft.com/library/Gg412932(v=OCS.15))
+
+  - <span></span>  
+    [Get-cssipresponsecodetranslationrule](https://technet.microsoft.com/library/Gg425895(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [新しい-CsStaticRoute](https://technet.microsoft.com/en-us/library/Gg398265(v=OCS.15))
+    [新しい-CsStaticRoute](https://technet.microsoft.com/library/Gg398265(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [CsStaticRoutingConfiguration の取得](https://technet.microsoft.com/en-us/library/Gg398754(v=OCS.15))
+    [-CsStaticRoutingConfiguration の取得](https://technet.microsoft.com/library/Gg398754(v=OCS.15))
 
   - <span></span>  
-    [新しい-CsStaticRoutingConfiguration](https://technet.microsoft.com/en-us/library/Gg425811(v=OCS.15))
+    [新しい-CsStaticRoutingConfiguration](https://technet.microsoft.com/library/Gg425811(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsStaticRoutingConfiguration](https://technet.microsoft.com/en-us/library/Gg398668(v=OCS.15))
+    [-CsStaticRoutingConfiguration の削除](https://technet.microsoft.com/library/Gg398668(v=OCS.15))
 
   - <span></span>  
-    [設定-CsStaticRoutingConfiguration](https://technet.microsoft.com/en-us/library/Gg398724(v=OCS.15))
+    [-CsStaticRoutingConfiguration の設定](https://technet.microsoft.com/library/Gg398724(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [New-CsSipProxyCustom](https://technet.microsoft.com/en-us/library/Gg425904(v=OCS.15))
+    [New-cssipproxycustom](https://technet.microsoft.com/library/Gg425904(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [新規-CsSipProxyRealm](https://technet.microsoft.com/en-us/library/Gg413084(v=OCS.15))
+    [New-cssipproxyrealm](https://technet.microsoft.com/library/Gg413084(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [新規-CsSipProxyTCP](https://technet.microsoft.com/en-us/library/Gg425745(v=OCS.15))
+    [New-cssipproxytcp](https://technet.microsoft.com/library/Gg425745(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [新規-CsSipProxyTLS](https://technet.microsoft.com/en-us/library/Gg398629(v=OCS.15))
+    [New-cssipproxytls](https://technet.microsoft.com/library/Gg398629(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [New-CsSipProxyTransport](https://technet.microsoft.com/en-us/library/Gg398489(v=OCS.15))
+    [New-cssipproxytransport](https://technet.microsoft.com/library/Gg398489(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [新規-CsSipProxyUseDefault](https://technet.microsoft.com/en-us/library/Gg398274(v=OCS.15))
+    [New-cssipproxyusedefault](https://technet.microsoft.com/library/Gg398274(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [新規-CsSipProxyUseDefaultCert](https://technet.microsoft.com/en-us/library/Gg425858(v=OCS.15))
+    [New-cssipproxyusedefaultcert は](https://technet.microsoft.com/library/Gg425858(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [新規-CsIssuedCertId](https://technet.microsoft.com/en-us/library/Gg425814(v=OCS.15))
+    [New-csissuedcertid](https://technet.microsoft.com/library/Gg425814(v=OCS.15))
 
-**[Lync Server 2013 のトランク構成コマンドレット](lync-server-2013-trunking-configuration-cmdlets.md)**
+**[Lync Server 2013 でのトランク構成のコマンドレット](lync-server-2013-trunking-configuration-cmdlets.md)**
 
-  - [Test-CsInterTrunkRouting](https://technet.microsoft.com/en-us/library/JJ204741(v=OCS.15))
-
-<!-- end list -->
-
-  - [Get-CsOutboundCallingNumberTranslationRule](https://technet.microsoft.com/en-us/library/JJ204962(v=OCS.15))
-
-  - [新規-CsOutboundCallingNumberTranslationRule](https://technet.microsoft.com/en-us/library/JJ205097(v=OCS.15))
-
-  - [Remove-CsOutboundCallingNumberTranslationRule](https://technet.microsoft.com/en-us/library/JJ204836(v=OCS.15))
-
-  - [Set-CsOutboundCallingNumberTranslationRule](https://technet.microsoft.com/en-us/library/JJ205400(v=OCS.15))
+  - [Test-csintertrunkrouting](https://technet.microsoft.com/library/JJ204741(v=OCS.15))
 
 <!-- end list -->
 
-  - <span></span>  
-    [Get-CsOutboundTranslationRule](https://technet.microsoft.com/en-us/library/Gg398104(v=OCS.15))
+  - [New-csoutboundcallingnumbertranslationrule](https://technet.microsoft.com/library/JJ204962(v=OCS.15))
 
-  - <span></span>  
-    [New-CsOutboundTranslationRule](https://technet.microsoft.com/en-us/library/Gg412803(v=OCS.15))
+  - [New-csoutboundcallingnumbertranslationrule](https://technet.microsoft.com/library/JJ205097(v=OCS.15))
 
-  - <span></span>  
-    [Remove-CsOutboundTranslationRule](https://technet.microsoft.com/en-us/library/Gg398556(v=OCS.15))
+  - [New-csoutboundcallingnumbertranslationrule](https://technet.microsoft.com/library/JJ204836(v=OCS.15))
 
-  - <span></span>  
-    [Set-CsOutboundTranslationRule](https://technet.microsoft.com/en-us/library/Gg413073(v=OCS.15))
-
-<!-- end list -->
-
-  - [Get-CsTrunk](https://technet.microsoft.com/en-us/library/JJ205244(v=OCS.15))
+  - [New-csoutboundcallingnumbertranslationrule](https://technet.microsoft.com/library/JJ205400(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-Set-cstrunkconfiguration](https://technet.microsoft.com/en-us/library/Gg398224(v=OCS.15))
+    [New-csoutboundtranslationrule](https://technet.microsoft.com/library/Gg398104(v=OCS.15))
 
   - <span></span>  
-    [新規-Set-cstrunkconfiguration](https://technet.microsoft.com/en-us/library/Gg413021(v=OCS.15))
+    [New-csoutboundtranslationrule](https://technet.microsoft.com/library/Gg412803(v=OCS.15))
 
   - <span></span>  
-    [Remove-Set-cstrunkconfiguration](https://technet.microsoft.com/en-us/library/Gg425943(v=OCS.15))
+    [New-csoutboundtranslationrule](https://technet.microsoft.com/library/Gg398556(v=OCS.15))
 
   - <span></span>  
-    [Set-CsTrunkConfiguration](https://technet.microsoft.com/en-us/library/Gg398238(v=OCS.15))
+    [New-csoutboundtranslationrule](https://technet.microsoft.com/library/Gg413073(v=OCS.15))
 
-  - <span></span>  
-    [テスト-Set-cstrunkconfiguration](https://technet.microsoft.com/en-us/library/Gg398137(v=OCS.15))
+<!-- end list -->
+
+  - [取得-CsTrunk](https://technet.microsoft.com/library/JJ205244(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [新規-CsVoiceRegex](https://technet.microsoft.com/en-us/library/Gg412751(v=OCS.15))
-
-**[Lync Server 2013 の音声ルーティングコマンドレット](lync-server-2013-voice-routing-cmdlets.md)**
+    [Get-cstrunkconfiguration](https://technet.microsoft.com/library/Gg398224(v=OCS.15))
 
   - <span></span>  
-    [CsRoutingConfiguration を取得する](https://technet.microsoft.com/en-us/library/Gg425851(v=OCS.15))
+    [Get-cstrunkconfiguration](https://technet.microsoft.com/library/Gg413021(v=OCS.15))
 
   - <span></span>  
-    [新しい-CsRoutingConfiguration](https://technet.microsoft.com/en-us/library/Gg399056(v=OCS.15))
+    [Get-cstrunkconfiguration](https://technet.microsoft.com/library/Gg425943(v=OCS.15))
 
   - <span></span>  
-    [CsRoutingConfiguration の削除](https://technet.microsoft.com/en-us/library/Gg398643(v=OCS.15))
+    [Get-cstrunkconfiguration](https://technet.microsoft.com/library/Gg398238(v=OCS.15))
 
   - <span></span>  
-    [設定-CsRoutingConfiguration](https://technet.microsoft.com/en-us/library/Gg412811(v=OCS.15))
+    [Get-cstrunkconfiguration](https://technet.microsoft.com/library/Gg398137(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsVoiceRoute](https://technet.microsoft.com/en-us/library/Gg425926(v=OCS.15))
+    [CsVoiceRegex](https://technet.microsoft.com/library/Gg412751(v=OCS.15))
+
+**[Lync Server 2013 での音声ルーティングのコマンドレット](lync-server-2013-voice-routing-cmdlets.md)**
 
   - <span></span>  
-    [新規-CsVoiceRoute](https://technet.microsoft.com/en-us/library/Gg398197(v=OCS.15))
+    [-CsRoutingConfiguration の取得](https://technet.microsoft.com/library/Gg425851(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsVoiceRoute](https://technet.microsoft.com/en-us/library/Gg398468(v=OCS.15))
+    [新しい-CsRoutingConfiguration](https://technet.microsoft.com/library/Gg399056(v=OCS.15))
 
   - <span></span>  
-    [Set-CsVoiceRoute](https://technet.microsoft.com/en-us/library/Gg412893(v=OCS.15))
+    [-CsRoutingConfiguration の削除](https://technet.microsoft.com/library/Gg398643(v=OCS.15))
 
   - <span></span>  
-    [テスト-CsVoiceRoute](https://technet.microsoft.com/en-us/library/Gg425873(v=OCS.15))
+    [-CsRoutingConfiguration の設定](https://technet.microsoft.com/library/Gg412811(v=OCS.15))
+
+<!-- end list -->
+
+  - <span></span>  
+    [Get-csvoiceroute](https://technet.microsoft.com/library/Gg425926(v=OCS.15))
+
+  - <span></span>  
+    [Get-csvoiceroute](https://technet.microsoft.com/library/Gg398197(v=OCS.15))
+
+  - <span></span>  
+    [Get-csvoiceroute](https://technet.microsoft.com/library/Gg398468(v=OCS.15))
+
+  - <span></span>  
+    [Get-csvoiceroute](https://technet.microsoft.com/library/Gg412893(v=OCS.15))
+
+  - <span></span>  
+    [Get-csvoiceroute](https://technet.microsoft.com/library/Gg425873(v=OCS.15))
 
 </div>
 

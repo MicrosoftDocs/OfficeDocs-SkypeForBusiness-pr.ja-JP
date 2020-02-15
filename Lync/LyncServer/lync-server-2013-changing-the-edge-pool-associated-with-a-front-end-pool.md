@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: フロント エンド プールに関連付けられたエッジ プールの変更'
+title: 'Lync Server 2013: フロントエンドプールに関連付けられたエッジプールの変更'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733613
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 736ed552a51182102310f4e10eb28472b251eb22
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b7ad6ee6e40edb76d4ef5d7d53524f89e44a2aee
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729897"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043519"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="changing-the-edge-pool-associated-with-a-front-end-pool-in-lync-server-2013"></a>Lync Server 2013 でのフロント エンド プールに関連付けられたエッジ プールの変更
+# <a name="changing-the-edge-pool-associated-with-a-front-end-pool-in-lync-server-2013"></a>Lync Server 2013 のフロントエンドプールに関連付けられたエッジプールの変更
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41729897"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-21_
+_**トピックの最終更新日:** 2012-09-21_
 
-エッジプールがダウンしていても、同じサイトのフロントエンドプールがまだ実行されている場合は、失敗したエッジプールが復元されるまで、別のサイトでエッジプールを使用するようにフロントエンドプールを設定する必要があります。
+エッジ プールがダウンして同じサイトのフロントエンド プールがまだ実行中の場合、問題の発生したエッジ プールが復元されるまで、別のサイトのエッジ プールを使用するようにフロントエンド プールを設定する必要があります。
 
 <div>
 
-## <a name="changing-the-edge-pool-associated-with-a-front-end-pool"></a>フロントエンドプールに関連付けられているエッジプールの変更
+## <a name="changing-the-edge-pool-associated-with-a-front-end-pool"></a>フロントエンド プールに関連付けられたエッジ プールを変更する
 
-1.  [Topology Builder] で、変更する必要があるフロントエンドプールの名前に移動します。
+1.  トポロジ ビルダーで、変更するフロントエンド プールの名前を表示します。
 
-2.  プールを右クリックし、[プロパティの**編集**] をクリックします。
+2.  プールを右クリックし、[**プロパティの編集**] をクリックします。
 
-3.  [**関連付け**] セクションの [ **Edge プールの関連付け (メディアコンポーネントの場合)**] で、ドロップダウンボックスを使用して、このフロントエンドプールを関連付けるエッジプールを選択します。
+3.  [**関連付け**] セクションの、[**エッジ プールの関連付け (メディア コンポーネント用) の**] 下のドロップダウン ボックスを使用して、このフロントエンド プールを関連付けるエッジ プールを選択します。
 
-4.  **[OK]** をクリックします。
+4.  [**OK**] をクリックします。
 
 </div>
 
@@ -58,7 +58,7 @@ _**最終更新日:** 2012-09-21_
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 でのエッジ サーバーの障害復旧](lync-server-2013-edge-server-disaster-recovery.md)  
+[Lync Server 2013 でのエッジサーバーの障害復旧](lync-server-2013-edge-server-disaster-recovery.md)  
   
 
 </div>

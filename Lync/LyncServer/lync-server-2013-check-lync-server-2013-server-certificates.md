@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Lync Server 2013 サーバーの証明書を確認する'
+title: 'Lync Server 2013: Lync Server 2013 サーバー証明書の確認'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969620
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af0a80df18a4fc6e27200d1ac04476fcea798b9b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ebdbfdc4ed0f88d78fc78037a3522c73bd220270
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733997"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043509"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="check-lync-server-2013-server-certificates"></a>Lync Server 2013 サーバー証明書を確認する
+# <a name="check-lync-server-2013-server-certificates"></a>Lync Server 2013 のサーバー証明書を確認する
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41733997"
 
 <span> </span>
 
-_**最終更新日:** 2014-11-01_
+_**トピックの最終更新日:** 2014-11-01_
 
 
 <table>
@@ -45,7 +45,7 @@ _**最終更新日:** 2014-11-01_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>確認のスケジュール</p></td>
+<td><p>検証スケジュール</p></td>
 <td><p>毎月</p></td>
 </tr>
 <tr class="even">
@@ -54,8 +54,8 @@ _**最終更新日:** 2014-11-01_
 </tr>
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
-<td><p>Lync Server 管理シェルを使用してローカルで実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使って実行する場合、ユーザーには、CsCertificate の取得コマンドレットを実行するためのアクセス許可が与えられた RBAC の役割を割り当てる必要があります。 このコマンドレットを使うことができるすべての RBAC ロールの一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合は、ユーザーに、CsCertificate コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <p><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Get-CsCertificate&quot;}</code></p></td>
 </tr>
 </tbody>
@@ -66,7 +66,7 @@ _**最終更新日:** 2014-11-01_
 
 ## <a name="description"></a>説明
 
-CsCertificate コマンドレットを使用すると、Lync Server の各証明書に関する情報を取得できます。 これは特に重要です。証明書には有効期限があります。 たとえば、プライベートに発行された証明書は通常、12か月後に期限切れになります。 いずれかの Lync Server 証明書の有効期限が切れている場合は、その証明書が更新または置き換えられるまで、付属の機能が失われます。
+Get-help Certificate コマンドレットを使用すると、各 Lync Server 証明書に関する情報を取得できます。 証明書には有効期限が組み込まれているため、これは特に重要です。 たとえば、非公開で発行された証明書は、通常12か月後に期限切れになります。 いずれかの Lync Server 証明書の有効期限が切れた場合は、その証明書が更新または置き換えられるまで、付随する機能が失われます。
 
 </div>
 
@@ -74,17 +74,17 @@ CsCertificate コマンドレットを使用すると、Lync Server の各証明
 
 ## <a name="running-the-test"></a>テストの実行
 
-Lync Server の各証明書に関する情報を取得するには、次のコマンドを実行します。
+各 Lync Server 証明書に関する情報を戻すには、次のコマンドを実行するだけです。
 
 `Get-CsCertificate`
 
-または、有効期限日に基づいて、返送証明書情報をフィルター処理することもできます。 たとえば、次のコマンドは、返されるデータを有効期限が切れた証明書 (2014 年6月1日以降は使用できません) に制限します。
+または、有効期限の日付に基づいて、返却証明書の情報をフィルター処理することができます。 たとえば、次のコマンドは、返されるデータを、有効期限が切れた (後で使用することができない) 証明書 (2014 年6月1日) に制限します。
 
 `Get-CsCertificate | Where-Object {$_.NotAfter -lt "6/1/2014"}`
 
-詳細については、「CsCertificate を取得する」コマンドレットのヘルプドキュメントを参照してください。
+詳細については、「Get-help Certificate コマンドレットのヘルプドキュメント」を参照してください。
 
-ここでは、テスト用の Csコマンドレットは存在しますが、管理者にとってはあまり役に立ちません。 (その代わりに、このコマンドレットは証明書ウィザードで主に使用されます)。このコマンドレットは動作しますが、次の出力例に示すように、返される情報は最小限の値になります。
+なお、Test-Cs/cs/コマンドレットは存在していても、管理者にとってはあまり役に立たないことに注意してください。 (そのコマンドレットは、主に証明書ウィザードによって使用されます)。コマンドレットは動作しますが、次の出力例に示すように、返される情報は最小値です。
 
 拇印の使用
 
@@ -96,9 +96,9 @@ A9D51A2911C74FABFF7F2A8A994B20857D399107 の既定値
 
 <div>
 
-## <a name="reviewing-the-output"></a>出力を確認する
+## <a name="reviewing-the-output"></a>出力の確認
 
-各 Lync Server 証明書について、次のような情報が返されます。
+Get-help Certificate コマンドレットは、各 Lync Server 証明書について次のような情報を返します。
 
 発行者: CN = FabrikamCA
 
@@ -108,39 +108,39 @@ NotBefore: 1/2/2014 12:49:37 PM
 
 シリアル: 611BB01200000000000C
 
-Subject: CN = LYNC-SE.fabrikam.com
+件名: CN = LYNC-SE.fabrikam.com
 
-代替: {sip.fabrikam.com、LYNC-SE.fabrikam.com、
+代替の [ベンダー]: {sip.fabrikam.com, LYNC-SE.fabrikam.com,
 
 meet.fabrikam.com、admin.fabrikam.com
 
-拇印: A9D51A2911C74FABFF7F2A8A994B20857D399107
+Thumbprint: A9D51A2911C74FABFF7F2A8A994B20857D399107
 
-使用: 既定
+Use: Default
 
-ルールとして、Lync Server の証明書に関連する主な問題には、証明書が適用される時期 (NotBefore)、または期限切れになったとき (NotAfter) など、日付と時刻が含まれます。 このような日付と時刻は重要であるため、証明書の使用、証明書のシリアル番号、証明書の有効期限などの情報に、返されるデータを制限することができます。これにより、すべての証明書を簡単に確認して、期限切れにすることができます。 その情報だけを返すには、次のようなオプションと共にコマンドを使用します。
+原則として、Lync Server 証明書に関連する主な問題には、証明書が有効になったときや期限切れになったとき (NotAfter) など、日付と時刻が含まれます。 これらの日付と時刻が重要であるため、返されるデータを証明書の使用、証明書のシリアル番号、証明書の有効期限などの情報に制限することをお勧めします。これにより、すべての証明書とその期限が切れるまでの時間をすばやく確認できます。 その情報のみを返すには、次のようなオプションを使用してコマンドを使用します。
 
 `Get-CsCertificate | Select-Object Use, SerialNumber, NotAfter | Sort-Object NotAfter`
 
-このコマンドを実行すると、次のようなデータが返されます。証明書は有効期限の順に並べ替えられます。
+このコマンドは、証明書が有効期限の順に並べ替えられた状態で、次のようなデータを返します。
 
-以降のシリアルで使用
+シリアルの使用
 
 \--- ------------ --------
 
-既定の 611BB01200000000000C 12/28/2015 3:35:41 PM
+Default 611BB01200000000000C 12/28/2015 3:35:41 PM
 
-Webservices Interal 32980AA20BBB20000191 02/15/2016 2:16:12 PM
+Webサービス Interal 32980AA20BBB20000191 02/15/2016 2:16:12 PM
 
 WebServicesExternal 0451B012003872651A0C 02/20/2016 7:11:58 AM
 
-証明書の問題がある場合は、証明書に対して構成されている代替の内容を確認することをお勧めします。 一見したところ、問題に思えるかもしれません。 既定では、コンソールウィンドウのサイズに応じて、ユーザーがすべての名前を表示できない場合があります。
+証明書に問題がある場合は、証明書に対して構成された代替のベンダーを確認する必要があります。 一見すると、問題があるように見えます。 既定では、コンソールウィンドウのサイズによっては、を取得すると、すべての名前を表示できない場合があります。
 
-代替: {sip.fabrikam.com、LYNC.fabrikam.com、
+代替の [ベンダー]: {sip.fabrikam.com, LYNC.fabrikam.com,
 
-meet.fabrikam.com の場合は、fabrika
+meet.fabrikam.com, fabrika...}
 
-証明書に割り当てられている代替名をすべて表示するには、次のようなコマンドを使用します。
+証明書に割り当てられているすべての代替名を表示するには、次のようなコマンドを使用します。
 
 `Get-CsCertificate | Where-Object {$_.SerialNumber -eq "611BB01200000000000C"} | Select-Object -ExpandProperty AlternativeNames`
 
@@ -165,7 +165,7 @@ Dialin.fabrikam.com
 ## <a name="see-also"></a>関連項目
 
 
-[Get-CsCertificate](https://docs.microsoft.com/powershell/module/skype/Get-CsCertificate)  
+[-CsCertificate の取得](https://docs.microsoft.com/powershell/module/skype/Get-CsCertificate)  
   
 
 </div>

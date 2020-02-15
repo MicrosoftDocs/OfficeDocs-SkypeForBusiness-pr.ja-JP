@@ -12,16 +12,16 @@ ms:contentKeyID: 48183346
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65c94513a3578f8608da555cdd0b3e2273b8a7da
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 915a5d0a2c5c4a5f38063b56dc133d2558aa65ac
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762535"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042174"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762535"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-28_
+_**トピックの最終更新日:** 2012-09-28_
 
-DeRegisterType テーブルは、可能なユーザーのレジスタ型 ("クライアントで開始された"、"登録の期限切れ"、または "クライアントが応答を停止しました" など) の一覧を格納する静的テーブルです。
+DeRegisterType テーブルは、使用できるユーザー登録解除の種類 ("クライアント開始済み"、"登録期限切れ"、"クライアント停止済み" など) の一覧を格納する静的テーブルです。
 
 
 <table>
@@ -64,17 +64,17 @@ DeRegisterType テーブルは、可能なユーザーのレジスタ型 ("ク�
 </tr>
 <tr class="even">
 <td><p><strong>DeRegisterReason</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td></td>
-<td><p>許可される値:</p>
+<td><p>有効な値は次のとおりです。</p>
 <ul>
-<li><p>0--不明</p></li>
-<li><p>1--クライアントが開始した登録解除</p></li>
-<li><p>2--登録が期限切れになりました</p></li>
-<li><p>3–クライアントがクラッシュした</p></li>
-<li><p>4--ユーザー属性が変更されました</p></li>
-<li><p>5-優先レジストラーが変更されました</p></li>
-<li><p>6--サバイバルモードでのレガシークライアント</p></li>
+<li><p>0 -- 不明</p></li>
+<li><p>1 -- クライアントが登録解除を開始済み</p></li>
+<li><p>2 -- 登録期限切れ</p></li>
+<li><p>3 – クライアントのクラッシュ</p></li>
+<li><p>4 -- ユーザー属性変更</p></li>
+<li><p>5 - 優先レジストラー変更</p></li>
+<li><p>6 -- サバイバル モードのレガシ クライアント</p></li>
 </ul></td>
 </tr>
 </tbody>

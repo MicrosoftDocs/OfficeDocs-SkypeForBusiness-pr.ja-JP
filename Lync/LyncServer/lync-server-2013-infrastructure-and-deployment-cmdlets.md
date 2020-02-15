@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: インフラストラクチャと展開コマンドレット'
+title: 'Lync Server 2013: インフラストラクチャと展開のコマンドレット'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183364
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d75e0f1f62ec2594ab8d774dc9d426b8bdd56061
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 93d2c35fcc9ebf037eb33e6553cef28b9e1041ec
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763791"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044649"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="infrastructure-and-deployment-cmdlets-in-lync-server-2013"></a>Lync Server 2013 のインフラストラクチャと展開コマンドレット
+# <a name="infrastructure-and-deployment-cmdlets-in-lync-server-2013"></a>Lync Server 2013 のインフラストラクチャと展開のコマンドレット
 
 </div>
 
@@ -35,197 +35,197 @@ ms.locfileid: "41763791"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-09_
+_**トピックの最終更新日:** 2012-10-09_
 
-Microsoft Lync Server 2013 に含まれているインフラストラクチャと展開コマンドレットは、製品の最初のセットアップと展開で役立ちます。Lync Server を展開した後は、これらのコマンドレットを使って、コンポーネントが予期したとおりに動作していることを確認することができます。レプリケーションの設定を管理するLync Server のトポロジ、ポリシー、構成設定のバックアップと復元を行います。
+Microsoft Lync Server 2013 に含まれるインフラストラクチャと展開のコマンドレットは、製品の初期セットアップと展開に役立ちます。Lync Server を展開した後は、これらのコマンドレットを使用して、コンポーネントが期待どおりに動作しているかどうかを確認することができます。レプリケーションの設定を管理する。そして、Lync Server のトポロジ、ポリシー、および構成設定をバックアップおよび復元します。
 
 <div>
 
-## <a name="infrastructure-and-deployment-cmdlets"></a>インフラストラクチャと展開コマンドレット
+## <a name="infrastructure-and-deployment-cmdlets"></a>インフラストラクチャおよび展開のコマンドレット
 
-管理者はほとんどの場合、インフラストラクチャと展開の多くを直接呼び出す必要があります。 これは、これらのコマンドレットは、セットアップまたはトポロジビルダーを実行したときに自動的に呼び出されるためです。 (1 つの重大な例外は、**エクスポート-CsConfiguration**コマンドレットである場合があります。これにより、Lync Server のトポロジ、ポリシー、構成設定のバックアップコピーを作成できます)。ただし、必要に応じて、インフラストラクチャと展開コマンドレットは、Lync Server 管理シェルから、またはスクリプト内から実行することもできます。スクリプトを使用すると、特定のタスクを自動化できます。 インフラストラクチャと展開に直接関連するコマンドレットの一覧を次に示します。
+管理者は、ほとんどの場合、インフラストラクチャと展開の多くを直接呼び出す必要があります。 そのため、これらのコマンドレットは、セットアップまたはトポロジビルダーを実行するときに自動的に呼び出されます。 (1 つの大きな例外が、Lync Server のトポロジ、ポリシー、および構成設定のバックアップコピーを作成できる、**エクスポート-CsConfiguration**コマンドレットである可能性があります)。ただし、必要に応じて、Lync Server 管理シェルまたはスクリプト内から、インフラストラクチャと展開のコマンドレットを実行することもできます。スクリプトを使用すると、特定のタスクを自動化できます。 以下に、インフラストラクチャと展開に直接関連するコマンドレットの一覧を示します。
 
-**[Lync Server 2013 の Active Directory コマンドレット](lync-server-2013-active-directory-cmdlets.md)**
-
-  - <span></span>  
-    [無効-CsAdDomain](https://technet.microsoft.com/en-us/library/Gg398785(v=OCS.15))
+**[Lync Server 2013 での Active Directory のコマンドレット](lync-server-2013-active-directory-cmdlets.md)**
 
   - <span></span>  
-    [使用できるようにする-CsAdDomain](https://technet.microsoft.com/en-us/library/Gg412764(v=OCS.15))
+    [無効-CsAdDomain](https://technet.microsoft.com/library/Gg398785(v=OCS.15))
 
   - <span></span>  
-    [入手-CsAdDomain](https://technet.microsoft.com/en-us/library/Gg398453(v=OCS.15))
+    [Enable-CsAdDomain](https://technet.microsoft.com/library/Gg412764(v=OCS.15))
+
+  - <span></span>  
+    [取得-CsAdDomain](https://technet.microsoft.com/library/Gg398453(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [CsAdForest を無効にする](https://technet.microsoft.com/en-us/library/Gg398122(v=OCS.15))
+    [無効-CsAdForest](https://technet.microsoft.com/library/Gg398122(v=OCS.15))
 
   - <span></span>  
-    [CsAdForest を有効にする](https://technet.microsoft.com/en-us/library/Gg425713(v=OCS.15))
+    [Enable-CsAdForest](https://technet.microsoft.com/library/Gg425713(v=OCS.15))
 
   - <span></span>  
-    [CsAdForest の入手](https://technet.microsoft.com/en-us/library/Gg412995(v=OCS.15))
+    [取得-CsAdForest](https://technet.microsoft.com/library/Gg412995(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [CsAdServerSchema の入手](https://technet.microsoft.com/en-us/library/Gg413070(v=OCS.15))
+    [取得-CsAdServerSchema](https://technet.microsoft.com/library/Gg413070(v=OCS.15))
 
   - <span></span>  
-    [Install-CsAdServerSchema](https://technet.microsoft.com/en-us/library/Gg398681(v=OCS.15))
+    [Install-CsAdServerSchema](https://technet.microsoft.com/library/Gg398681(v=OCS.15))
 
-**[Lync Server 2013 のレプリケーションコマンドレット](lync-server-2013-replication-cmdlets.md)**
+**[Lync Server 2013 のレプリケーションのコマンドレット](lync-server-2013-replication-cmdlets.md)**
 
   - <span></span>  
-    [Debug-CsInterPoolReplication](https://technet.microsoft.com/en-us/library/JJ619185(v=OCS.15))
+    [デバッグ-CsInterPoolReplication](https://technet.microsoft.com/library/JJ619185(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [CsManagementStoreReplication](https://technet.microsoft.com/en-us/library/Gg413060(v=OCS.15))
+    [Invoke-csmanagementstorereplication](https://technet.microsoft.com/library/Gg413060(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsManagementStoreReplicationStatus](https://technet.microsoft.com/en-us/library/Gg399052(v=OCS.15))
+    [Get-csmanagementstorereplicationstatus](https://technet.microsoft.com/library/Gg399052(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [CsReplica を有効にする](https://technet.microsoft.com/en-us/library/Gg425965(v=OCS.15))
+    [を有効にする-CsReplica](https://technet.microsoft.com/library/Gg425965(v=OCS.15))
 
   - <span></span>  
-    [CsReplica のテスト](https://technet.microsoft.com/en-us/library/JJ205289(v=OCS.15))
+    [テスト-CsReplica](https://technet.microsoft.com/library/JJ205289(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [CsUserReplicatorConfiguration の入手](https://technet.microsoft.com/en-us/library/Gg398548(v=OCS.15))
+    [-CsUserReplicatorConfiguration の取得](https://technet.microsoft.com/library/Gg398548(v=OCS.15))
 
   - <span></span>  
-    [New-CsUserReplicatorConfiguration](https://technet.microsoft.com/en-us/library/Gg399059(v=OCS.15))
+    [新しい-CsUserReplicatorConfiguration](https://technet.microsoft.com/library/Gg399059(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsUserReplicatorConfiguration](https://technet.microsoft.com/en-us/library/Gg425738(v=OCS.15))
+    [-CsUserReplicatorConfiguration の削除](https://technet.microsoft.com/library/Gg425738(v=OCS.15))
 
   - <span></span>  
-    [Set-CsUserReplicatorConfiguration](https://technet.microsoft.com/en-us/library/Gg398540(v=OCS.15))
+    [設定-CsUserReplicatorConfiguration](https://technet.microsoft.com/library/Gg398540(v=OCS.15))
 
-**[トポロジコマンドレット、Lync Server 2013](lync-server-2013-topology-cmdlets.md)**
+**[トポロジのコマンドレット (Lync Server 2013)](lync-server-2013-topology-cmdlets.md)**
 
   - <span></span>  
-    [取得-CsPool](https://technet.microsoft.com/en-us/library/Gg398992(v=OCS.15))
+    [取得-CsPool](https://technet.microsoft.com/library/Gg398992(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [CsSite](https://technet.microsoft.com/en-us/library/Gg398185(v=OCS.15))
+    [取得-CsSite](https://technet.microsoft.com/library/Gg398185(v=OCS.15))
 
   - <span></span>  
-    [Set-CsSite](https://technet.microsoft.com/en-us/library/Gg413023(v=OCS.15))
+    [設定-CsSite](https://technet.microsoft.com/library/Gg413023(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [有効にする-CsTopology テクノロジー](https://technet.microsoft.com/en-us/library/Gg398398(v=OCS.15))
+    [Enable-CsTopology](https://technet.microsoft.com/library/Gg398398(v=OCS.15))
 
   - <span></span>  
-    [CsTopology テクノロジー](https://technet.microsoft.com/en-us/library/Gg412824(v=OCS.15))
+    [取得-CsTopology テクノロジー](https://technet.microsoft.com/library/Gg412824(v=OCS.15))
 
   - <span></span>  
-    [公開-CsTopology テクノロジー](https://technet.microsoft.com/en-us/library/Gg398953(v=OCS.15))
+    [発行-CsTopology テクノロジー](https://technet.microsoft.com/library/Gg398953(v=OCS.15))
 
   - <span></span>  
-    [テスト-CsTopology テクノロジー](https://technet.microsoft.com/en-us/library/Gg398127(v=OCS.15))
+    [テスト-CsTopology テクノロジー](https://technet.microsoft.com/library/Gg398127(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [エクスポート-CsConfiguration](https://technet.microsoft.com/en-us/library/Gg398627(v=OCS.15))
+    [エクスポート-CsConfiguration](https://technet.microsoft.com/library/Gg398627(v=OCS.15))
 
   - <span></span>  
-    [インポート-CsConfiguration](https://technet.microsoft.com/en-us/library/Gg398800(v=OCS.15))
+    [インポート-CsConfiguration](https://technet.microsoft.com/library/Gg398800(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsServerVersion](https://technet.microsoft.com/en-us/library/Gg398470(v=OCS.15))
+    [Get-csserverversion](https://technet.microsoft.com/library/Gg398470(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [CsComputer を無効にする](https://technet.microsoft.com/en-us/library/Gg399023(v=OCS.15))
+    [-CsComputer を無効にする](https://technet.microsoft.com/library/Gg399023(v=OCS.15))
 
   - <span></span>  
-    [CsComputer を有効にする](https://technet.microsoft.com/en-us/library/Gg412815(v=OCS.15))
+    [を有効にする-CsComputer](https://technet.microsoft.com/library/Gg412815(v=OCS.15))
 
   - <span></span>  
-    [CsComputer の入手](https://technet.microsoft.com/en-us/library/Gg425959(v=OCS.15))
+    [-CsComputer の取得](https://technet.microsoft.com/library/Gg425959(v=OCS.15))
 
   - <span></span>  
-    [CsComputer](https://technet.microsoft.com/en-us/library/Gg398162(v=OCS.15))
+    [テスト-CsComputer](https://technet.microsoft.com/library/Gg398162(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsNetworkInterface](https://technet.microsoft.com/en-us/library/Gg398121(v=OCS.15))
+    [Get-csnetworkinterface](https://technet.microsoft.com/library/Gg398121(v=OCS.15))
 
 **[Lync Server 2013 のバックアップと高可用性のコマンドレット](lync-server-2013-backup-and-high-availability-cmdlets.md)**
 
-  - [Get-CsBackupServiceConfiguration](https://technet.microsoft.com/en-us/library/JJ205087(v=OCS.15))
+  - [Get-csbackupserviceconfiguration](https://technet.microsoft.com/library/JJ205087(v=OCS.15))
 
-  - [Remove-CsBackupServiceConfiguration](https://technet.microsoft.com/en-us/library/JJ204903(v=OCS.15))
+  - [Get-csbackupserviceconfiguration](https://technet.microsoft.com/library/JJ204903(v=OCS.15))
 
-  - [Set-CsBackupServiceConfiguration](https://technet.microsoft.com/en-us/library/JJ205006(v=OCS.15))
-
-<!-- end list -->
-
-  - [Get-CsBackupServiceStatus](https://technet.microsoft.com/en-us/library/JJ205032(v=OCS.15))
+  - [Get-csbackupserviceconfiguration](https://technet.microsoft.com/library/JJ205006(v=OCS.15))
 
 <!-- end list -->
 
-  - [CsBackupServiceSync](https://technet.microsoft.com/en-us/library/JJ205374(v=OCS.15))
+  - [Get-csbackupservicestatus](https://technet.microsoft.com/library/JJ205032(v=OCS.15))
 
 <!-- end list -->
 
-  - [Debug-CsIntraPoolReplication](https://technet.microsoft.com/en-us/library/JJ205103(v=OCS.15))
+  - [Invoke-csbackupservicesync](https://technet.microsoft.com/library/JJ205374(v=OCS.15))
 
 <!-- end list -->
 
-  - [Backup-CsPool](https://technet.microsoft.com/en-us/library/JJ204955(v=OCS.15))
+  - [デバッグ-Csintrアポストロフィ Olreplication](https://technet.microsoft.com/library/JJ205103(v=OCS.15))
 
 <!-- end list -->
 
-  - [Get-CsPoolBackupRelationship](https://technet.microsoft.com/en-us/library/JJ204745(v=OCS.15))
+  - [バックアップ-CsPool](https://technet.microsoft.com/library/JJ204955(v=OCS.15))
 
 <!-- end list -->
 
-  - [Get-CsPoolFabricState](https://technet.microsoft.com/en-us/library/JJ619188(v=OCS.15))
+  - [Get-cspoolbackuprelationship](https://technet.microsoft.com/library/JJ204745(v=OCS.15))
 
 <!-- end list -->
 
-  - [Invoke-CsPoolFailBack](https://technet.microsoft.com/en-us/library/JJ204873(v=OCS.15))
+  - [Get-cspoolfabricstate](https://technet.microsoft.com/library/JJ619188(v=OCS.15))
 
 <!-- end list -->
 
-  - [Invoke-CsPoolFailOver](https://technet.microsoft.com/en-us/library/JJ205189(v=OCS.15))
+  - [Invoke-cspoolfailback](https://technet.microsoft.com/library/JJ204873(v=OCS.15))
 
 <!-- end list -->
 
-  - [Get-CsPoolUpgradeReadinessState](https://technet.microsoft.com/en-us/library/JJ204689(v=OCS.15))
+  - [Initialize-cspoolfailover](https://technet.microsoft.com/library/JJ205189(v=OCS.15))
 
 <!-- end list -->
 
-  - [CsStorageServiceFlush](https://technet.microsoft.com/en-us/library/JJ619175(v=OCS.15))
+  - [Get-cspoolupgradereadinessstate 戻し](https://technet.microsoft.com/library/JJ204689(v=OCS.15))
 
 <!-- end list -->
 
-  - [同期-CsUserData](https://technet.microsoft.com/en-us/library/JJ205242(v=OCS.15))
+  - [Invoke-csstorageserviceflush](https://technet.microsoft.com/library/JJ619175(v=OCS.15))
 
 <!-- end list -->
 
-  - [CsUserStoreBackupData を削除します](https://technet.microsoft.com/en-us/library/JJ205003(v=OCS.15))
+  - [同期-CsUserData](https://technet.microsoft.com/library/JJ205242(v=OCS.15))
+
+<!-- end list -->
+
+  - [-CsUserStoreBackupData を削除する](https://technet.microsoft.com/library/JJ205003(v=OCS.15))
 
 </div>
 

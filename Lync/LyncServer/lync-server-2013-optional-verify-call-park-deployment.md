@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: (オプション) コールパークの展開を確認する'
+title: 'Lync Server 2013: (オプション) コールパーク展開の確認'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185952
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5cfc0d62bcfabe1a5bcddfb069d95b18aa0d30d4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 05b18de4af492fb45ef37e64cca45cc2d3d2b965
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755721"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044629"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="optional-verify-call-park-deployment-in-lync-server-2013"></a>省略Lync Server 2013 でのコールパークの展開を確認する
+# <a name="optional-verify-call-park-deployment-in-lync-server-2013"></a>オプションLync Server 2013 でのコールパーク展開の確認
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41755721"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-11_
+_**トピックの最終更新日:** 2012-09-11_
 
-コールパークのインストールと構成が完了したら、構成を確認して、パーキングと着信の取得が期待どおりに動作することを確認する必要があります。 少なくとも、以下を確認してください。
+コールパークをインストールして構成した後、構成を検証して、駐車が期待どおりに動作することを確認する必要があります。 少なくとも、以下を確認してください。
 
-  - コールパークが有効になっていて、ユーザが通話をパークしているユーザに電話をかけます。
+  - コールパークが有効になっていて、ユーザーが通話をパークできるユーザーを呼び出します。
     
     <div>
     
 
     > [!NOTE]  
-    > このテストを実行する前に、音声ポリシーでコールパークを有効にしている場合は、その通話を保留にしているユーザーが Lync Server からサインアウトしてから、もう一度サインインすると、[着信の転送] リストの [コールパーク] オプションが表示されます。
+    > このテストを実行する直前に、音声ポリシーでコールパークを有効にした場合、その通話が参加しているユーザーは、Lync Server からサインアウトしてから再度サインインする必要があります。転送通話リストにコールパークオプションが表示されます。
 
     
     </div>

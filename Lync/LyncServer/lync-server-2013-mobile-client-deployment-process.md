@@ -12,16 +12,16 @@ ms:contentKeyID: 51541484
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e6beaeac91dae0ff5fbf755c4ccb33cae288df75
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 841b0349818fd94d828e3aaa93b3f7c9a99f9f00
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758735"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044899"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,11 +37,11 @@ ms.locfileid: "41758735"
 
 _**トピックの最終更新日:** 2013-02-20_
 
-Microsoft Lync Server 2013 の展開が完了したら、ユーザーは、特定のデバイスで使い慣れたモバイル市場から Lync 2013 アプリをインストールできます。
+Microsoft Lync Server 2013 の展開が完了した後、ユーザーは、特定のデバイスに慣れているモバイルマーケットプレースから Lync 2013 アプリをインストールすることができます。
 
 <div>
 
-## <a name="lync-mobile-deployment-process"></a>Lync モバイル展開プロセス
+## <a name="lync-mobile-deployment-process"></a>Lync モバイルの展開プロセス
 
 
 <table>
@@ -53,60 +53,60 @@ Microsoft Lync Server 2013 の展開が完了したら、ユーザーは、特�
 </colgroup>
 <thead>
 <tr class="header">
-<th>段階</th>
-<th>ステップ</th>
+<th>フェーズ</th>
+<th>手順</th>
 <th>アクセス許可</th>
 <th>ドキュメント</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>セットアップ前のタスクを実行します。</p></td>
+<td><p>セットアップ前のタスクを実行する</p></td>
 <td><ol>
 <li><p>Lync Server 2013 の展開を確認します。</p></li>
 <li><p>証明書の要件を確認します。</p></li>
 </ol></td>
-<td><p>Administrator</p></td>
-<td><p>サーバー計画ドキュメントの<a href="lync-server-2013-planning-for-mobility.md">Lync server 2013 でのモビリティの計画</a>。</p>
-<p>サーバー展開ドキュメントの<a href="lync-server-2013-deploying-mobility.md">Lync server 2013</a>へのモビリティの展開。</p>
-<p>サーバー計画ドキュメントの<a href="lync-server-2013-certificate-infrastructure-requirements.md">Lync server 2013 の証明書インフラストラクチャの要件</a>。</p></td>
+<td><p>管理者</p></td>
+<td><p>サーバー計画のドキュメントの「 <a href="lync-server-2013-planning-for-mobility.md">Lync server 2013 でのモビリティの計画</a>」を参照してください。</p>
+<p>サーバー展開のドキュメントの「 <a href="lync-server-2013-deploying-mobility.md">Lync server 2013 でのモビリティの展開</a>」を参照してください。</p>
+<p>サーバー計画のドキュメントの「 <a href="lync-server-2013-certificate-infrastructure-requirements.md">Lync server 2013 の証明書インフラストラクチャ要件</a>」。</p></td>
 </tr>
 <tr class="even">
-<td><p>Lync アプリケーションをテストデバイスにインストールします。</p></td>
+<td><p>Lync アプリケーションをテスト デバイスにインストールする</p></td>
 <td><ol>
-<li><p>前提条件をインストールします。</p></li>
-<li><p>モバイルデバイスに固有の marketplace からインストールします。</p></li>
+<li><p>必要なソフトウェアをインストールします。</p></li>
+<li><p>モバイル デバイスに固有のマーケットプレースからインストールします。</p></li>
 </ol></td>
-<td><p>Administrator</p></td>
-<td><p><a href="lync-server-2013-deploying-mobile-clients.md">Lync Server 2013 でモバイルクライアントを展開</a>するときのモバイルデバイス固有のインストール手順。</p></td>
+<td><p>管理者</p></td>
+<td><p><a href="lync-server-2013-deploying-mobile-clients.md">Lync Server 2013 でのモバイルクライアントの展開</a>でのモバイルデバイスに固有のインストール手順。</p></td>
 </tr>
 <tr class="odd">
-<td><p>クライアントを構成します。</p></td>
+<td><p>クライアントを構成する</p></td>
 <td><ul>
-<li><p>サインインの設定とサーバー情報を構成します。</p></li>
+<li><p>サインイン設定とサーバー情報を構成します。</p></li>
 </ul></td>
-<td><p>Administrator</p></td>
-<td><p><a href="lync-server-2013-deploying-mobile-clients.md">Lync Server 2013 でモバイルクライアントを展開する</a></p></td>
+<td><p>管理者</p></td>
+<td><p><a href="lync-server-2013-deploying-mobile-clients.md">Lync Server 2013 でのモバイルクライアントの展開</a></p></td>
 </tr>
 <tr class="even">
-<td><p>モバイルシナリオをテストする。</p></td>
+<td><p>モバイル シナリオをテストする</p></td>
 <td><ol>
 <li><p>インスタントメッセージング (IM) とプレゼンスをテストします。</p></li>
 <li><p>ダイヤルアウト会議をテストします。</p></li>
 <li><p>会社のディレクトリで連絡先を検索します。</p></li>
 <li><p>プッシュ通知をテストします。</p></li>
 </ol></td>
-<td><p>Administrator</p></td>
-<td><p><a href="lync-server-2013-deploying-mobile-clients.md">Lync Server 2013 でモバイルクライアントを展開</a>するときのモバイルデバイス固有の確認手順。</p></td>
+<td><p>管理者</p></td>
+<td><p><a href="lync-server-2013-deploying-mobile-clients.md">Lync Server 2013 でのモバイルクライアントの展開</a>でのモバイルデバイスに固有の確認手順。</p></td>
 </tr>
 <tr class="odd">
-<td><p>Lync アプリケーションを携帯電話にインストールします。</p></td>
+<td><p>Lync アプリケーションを携帯電話にインストールする</p></td>
 <td><ol>
-<li><p>前提条件をインストールします。</p></li>
-<li><p>モバイルデバイスに固有の marketplace からインストールします。</p></li>
+<li><p>必要なソフトウェアをインストールします。</p></li>
+<li><p>モバイル デバイスに固有のマーケットプレースからインストールします。</p></li>
 </ol></td>
 <td><p>ユーザー</p></td>
-<td><p><a href="lync-server-2013-deploying-mobile-clients.md">Lync Server 2013 でモバイルクライアントを展開</a>するときのモバイルデバイス固有のインストール手順。</p></td>
+<td><p><a href="lync-server-2013-deploying-mobile-clients.md">Lync Server 2013 でのモバイルクライアントの展開</a>でのモバイルデバイスに固有のインストール手順。</p></td>
 </tr>
 </tbody>
 </table>

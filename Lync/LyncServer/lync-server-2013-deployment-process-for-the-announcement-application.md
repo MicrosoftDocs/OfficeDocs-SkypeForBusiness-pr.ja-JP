@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: アナウンスメントアプリケーションの展開プロセス'
+title: 'Lync Server 2013: アナウンスアプリケーションの展開プロセス'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184500
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dcb56f197a32403d1207cf0a15d47e0459fc41bf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 55e0c65bfbbed55a8d7f9c3be4f7a586581c2307
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762575"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042254"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-for-the-announcement-application-in-lync-server-2013"></a>Lync Server 2013 のアナウンスメントアプリケーションの展開プロセス
+# <a name="deployment-process-for-the-announcement-application-in-lync-server-2013"></a>Lync Server 2013 のアナウンスアプリケーションの展開プロセス
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762575"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-12_
+_**トピックの最終更新日:** 2012-09-12_
 
-このセクションでは、アナウンスメントアプリケーションの展開に関連する手順の概要を説明します。 お知らせを構成する前に、エンタープライズボイスを展開する必要があります。 [エンタープライズ Voip] を展開すると、アナウンスメントアプリケーションで必要なコンポーネントがインストールされて有効になります。
+このセクションでは、アナウンスメントアプリケーションの展開に必要な手順の概要について説明します。 アナウンスを構成する前に、エンタープライズ Voip を展開する必要があります。 [] エンタープライズ Voip を展開すると、アナウンスメントアプリケーションに必要なコンポーネントがインストールされ、有効になります。
 
 ### <a name="announcement-deployment-process"></a>アナウンスの展開プロセス
 
@@ -52,30 +52,30 @@ _**最終更新日:** 2012-09-12_
 <tr class="header">
 <th>フェーズ</th>
 <th>手順</th>
-<th>役割</th>
-<th>「展開」のドキュメント</th>
+<th>ロール</th>
+<th>展開のドキュメント</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>アナウンス設定の構成</p></td>
+<td><p>アナウンス設定を構成する</p></td>
 <td><ul>
-<li><p>オーディオ ファイルをレコーディングして読み込むか、音声合成 (TTS) を使用して、アナウンスを作成します。</p></li>
-<li><p>割り当てられていない番号の表で、割り当てられていない番号の範囲を構成して、適切なアナウンスに関連付けます。</p></li>
+<li><p>音声ファイルを録音およびアップロードするか、音声合成 (TTS) を使用してアナウンスを作成します。</p></li>
+<li><p>割り当てられていない番号の範囲を構成し、適切なアナウンスに関連付けます。</p></li>
 </ul></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsVoiceAdministrator</p>
 <p>CsServerAdministrator</p>
 <p>CsAdministrator</p>
 <p>CsViewOnlyAdministrator</p></td>
-<td><p><a href="lync-server-2013-create-an-announcement.md">Lync Server 2013 でお知らせを作成する</a></p>
-<p><a href="lync-server-2013-configure-the-unassigned-number-table.md">Lync Server 2013 での割り当てられていない番号の表の構成</a></p></td>
+<td><p><a href="lync-server-2013-create-an-announcement.md">Lync Server 2013 でアナウンスを作成する</a></p>
+<p><a href="lync-server-2013-configure-the-unassigned-number-table.md">Lync Server 2013 で割り当てられていない番号の表を構成する</a></p></td>
 </tr>
 <tr class="even">
 <td><p>アナウンスの展開の確認</p></td>
 <td><p>アナウンスを聞いてテストし、構成が予想どおりに動作することを確認します。</p></td>
 <td><p>-</p></td>
-<td><p><a href="lync-server-2013-optional-verify-announcement-deployment.md">省略Lync Server 2013 でのアナウンスメントの展開を確認する</a></p></td>
+<td><p><a href="lync-server-2013-optional-verify-announcement-deployment.md">オプションLync Server 2013 でのアナウンスの展開の確認</a></p></td>
 </tr>
 </tbody>
 </table>

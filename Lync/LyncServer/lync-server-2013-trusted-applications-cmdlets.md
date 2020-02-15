@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 信頼できるアプリケーションのコマンドレット'
+title: 'Lync Server 2013: 信頼されたアプリケーションのコマンドレット'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184071
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 878ce959b10c6868f415ec86d717de590b9c8c29
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ca3abaa9817095e2c125affa240c3e5f4d44e9db
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744867"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044009"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="trusted-applications-cmdlets-in-lync-server-2013"></a>Lync Server 2013 の信頼済みアプリケーションコマンドレット
+# <a name="trusted-applications-cmdlets-in-lync-server-2013"></a>Lync Server 2013 の信頼されたアプリケーションのコマンドレット
 
 </div>
 
@@ -35,68 +35,68 @@ ms.locfileid: "41744867"
 
 <span> </span>
 
-_**最終更新日:** 2012-06-20_
+_**トピックの最終更新日:** 2012-06-20_
 
-信頼されたアプリケーションは、サードパーティによって開発されたアプリケーションで、Microsoft Lync Server 2013 の一部として実行される信頼された状態で、製品の組み込みの部分ではありません。 Lync Server 2013 には、信頼済みアプリケーションの構成と管理に使うことができるコマンドレットが用意されています。
+信頼されたアプリケーションとは、Microsoft Lync Server 2013 の一部として実行される信頼できる状態を付与された、サードパーティによって開発されたアプリケーションで、これは製品の組み込みパーツではありません。 Lync Server 2013 には、信頼されたアプリケーションの構成および管理に使用できるコマンドレットが用意されています。
 
 <div>
 
-## <a name="trusted-applications-cmdlets"></a>信頼できるアプリケーションのコマンドレット
+## <a name="trusted-applications-cmdlets"></a>Trusted Applications Cmdlets
 
-信頼できるアプリケーションを管理するには、次のコマンドレットを使用します。
+信頼されたアプリケーションを管理するには、次のコマンドレットを使用します。
 
-**信頼済みアプリケーション**
-
-  - <span></span>  
-    [Get-CsTrustedApplication](https://technet.microsoft.com/en-us/library/Gg399025(v=OCS.15))
+**信頼されたアプリケーション**
 
   - <span></span>  
-    [新規-CsTrustedApplication](https://technet.microsoft.com/en-us/library/Gg398259(v=OCS.15))
+    [「New-cstrustedapplication](https://technet.microsoft.com/library/Gg399025(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsTrustedApplication](https://technet.microsoft.com/en-us/library/Gg398176(v=OCS.15))
+    [「New-cstrustedapplication](https://technet.microsoft.com/library/Gg398259(v=OCS.15))
 
   - <span></span>  
-    [Set-CsTrustedApplication](https://technet.microsoft.com/en-us/library/Gg425840(v=OCS.15))
+    [「New-cstrustedapplication](https://technet.microsoft.com/library/Gg398176(v=OCS.15))
+
+  - <span></span>  
+    [「New-cstrustedapplication](https://technet.microsoft.com/library/Gg425840(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsTrustedApplicationComputer](https://technet.microsoft.com/en-us/library/Gg425843(v=OCS.15))
+    [CsTrustedApplicationComputer](https://technet.microsoft.com/library/Gg425843(v=OCS.15))
 
   - <span></span>  
-    [新規-CsTrustedApplicationComputer](https://technet.microsoft.com/en-us/library/Gg398405(v=OCS.15))
+    [CsTrustedApplicationComputer](https://technet.microsoft.com/library/Gg398405(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsTrustedApplicationComputer](https://technet.microsoft.com/en-us/library/Gg398838(v=OCS.15))
+    [CsTrustedApplicationComputer](https://technet.microsoft.com/library/Gg398838(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsTrustedApplicationEndpoint](https://technet.microsoft.com/en-us/library/Gg413035(v=OCS.15))
+    [CsTrustedApplicationEndpoint](https://technet.microsoft.com/library/Gg413035(v=OCS.15))
 
   - <span></span>  
-    [New-CsTrustedApplicationEndpoint](https://technet.microsoft.com/en-us/library/Gg398594(v=OCS.15))
+    [CsTrustedApplicationEndpoint](https://technet.microsoft.com/library/Gg398594(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsTrustedApplicationEndpoint](https://technet.microsoft.com/en-us/library/Gg398837(v=OCS.15))
+    [CsTrustedApplicationEndpoint](https://technet.microsoft.com/library/Gg398837(v=OCS.15))
 
   - <span></span>  
-    [Set-CsTrustedApplicationEndpoint](https://technet.microsoft.com/en-us/library/Gg398509(v=OCS.15))
+    [CsTrustedApplicationEndpoint](https://technet.microsoft.com/library/Gg398509(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsTrustedApplicationPool](https://technet.microsoft.com/en-us/library/Gg413055(v=OCS.15))
+    [「New-cstrustedapplicationpool](https://technet.microsoft.com/library/Gg413055(v=OCS.15))
 
   - <span></span>  
-    [新規-CsTrustedApplicationPool](https://technet.microsoft.com/en-us/library/Gg425804(v=OCS.15))
+    [「New-cstrustedapplicationpool](https://technet.microsoft.com/library/Gg425804(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsTrustedApplicationPool](https://technet.microsoft.com/en-us/library/Gg398750(v=OCS.15))
+    [「New-cstrustedapplicationpool](https://technet.microsoft.com/library/Gg398750(v=OCS.15))
 
   - <span></span>  
-    [Set-CsTrustedApplicationPool](https://technet.microsoft.com/en-us/library/Gg398187(v=OCS.15))
+    [「New-cstrustedapplicationpool](https://technet.microsoft.com/library/Gg398187(v=OCS.15))
 
 </div>
 
