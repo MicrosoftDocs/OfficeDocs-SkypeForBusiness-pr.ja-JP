@@ -12,20 +12,20 @@ ms:contentKeyID: 48184544
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d107889b49ec16c51224b075a8fb7f7a7cec1b00
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ff03309ab4c71f2dfda9aac96223cde2cd6e000a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731737"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038679"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="subnet-table-in-lync-server-2013"></a>Lync Server 2013 の Subnet テーブル
+# <a name="subnet-table-in-lync-server-2013"></a>Lync Server 2013 のサブネットテーブル
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41731737"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-02_
+_**トピックの最終更新日:** 2012-10-02_
 
-サブネットの表はサポートテーブルです。 各レコードは、[ネットワーク構成] の設定で定義された1つのサブネットを表します。
+Subnet テーブルは、サポート テーブルです。それぞれのレコードは、ネットワーク構成の設定で定義された 1 つのサブネットを表します。
 
 
 <table>
@@ -59,11 +59,11 @@ _**最終更新日:** 2012-10-02_
 <tr class="odd">
 <td><p><strong>SubnetIP</strong></p></td>
 <td><p>int</p></td>
-<td><p>プライマリ、外部</p></td>
-<td><p>サブネットの IP の整数表現。</p></td>
+<td><p>主/プライマリ、外部</p></td>
+<td><p>サブネット IP の整数表現。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>ネット</strong></p></td>
+<td><p><strong>マスク</strong></p></td>
 <td><p>int</p></td>
 <td></td>
 <td><p>サブネット マスク。</p></td>

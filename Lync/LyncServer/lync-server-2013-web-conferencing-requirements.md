@@ -12,16 +12,16 @@ ms:contentKeyID: 49733559
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 186f597c4328c8cee5085e7e599228b60c300a96
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 914fee9d2ddf0a7e6d6867879a197b55380d35c9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758517"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041276"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41758517"
 
 <span> </span>
 
-_**最終更新日:** 2013-01-30_
+_**トピックの最終更新日:** 2013-01-30_
 
 Web 会議を有効にすることにした場合、次のものを計画する必要があります。
 
@@ -49,17 +49,17 @@ Web 会議を有効にすることにした場合、次のものを計画する�
 
 ## <a name="file-store"></a>ファイル ストア
 
-Lync Server 2013 web 会議サービスでは、会議中に共有されたコンテンツをファイルストアに保存します。 展開の一環として、Standard Edition server または Enterprise Edition のフロントエンドプールのファイルストアとして使用するファイル共有を指定する必要があります。 ファイルストアには既存のファイル共有を使用できます。また、ファイル共有が配置されているファイルサーバーの完全修飾ドメイン名 (FQDN) と新しいファイル共有のフォルダー名を指定して、新しいファイル共有を指定することもできます。詳細については、「トポロジビルダー–フロントエンド用のファイルストアの定義」を参照してください。 Web 会議サービスによって、コンテンツがファイルストアに保存される前に暗号化されます。
+Lync Server 2013 web 会議サービスは、会議中に共有されたコンテンツをファイルストアに保存します。 展開の一環として、Standard Edition サーバーまたは Enterprise Edition フロントエンドプールのいずれかのファイルストアとして使用するファイル共有を指定する必要があります。 既存のファイル共有をファイルストアに使用することも、ファイル共有を配置するファイルサーバーの完全修飾ドメイン名 (FQDN) と新しいファイル共有のフォルダー名を指定して、新しいファイル共有を指定することもできます。詳細については、「トポロジビルダー-フロントエンドのファイルストアを定義する」を参照してください。 Web 会議サービスは、コンテンツを暗号化してからファイルストアに保存します。
 
-Lync Server 2013 は、直接接続型ストレージ (DAS) またはストレージエリアネットワーク (SAN) 上でのファイル共有の使用をサポートします。これには、分散ファイルシステム (DFS) や、ファイルストアの独立したディスク (RAID) の冗長配列が含まれます。 Lync Server 展開ウィザードでファイル共有の場所が定義されると、Lync Server によって、次のようなファイル共有内にフォルダー構造が作成されます。
+Lync Server 2013 では、直接接続ストレージ (DAS) またはストレージエリアネットワーク (SAN) (分散ファイルシステム (DFS) や、ファイルストア用の独立したディスク (RAID) の冗長アレイ) のいずれかでのファイル共有の使用がサポートされています。 Lync server 展開ウィザードによってファイル共有の場所が定義されると、Lync Server は次のようなファイル共有内にフォルダー構造を作成します。
 
   - 1-ApplicationServer-1
 
   - 1-CentralMgmt-1
 
-  - 1-WebServices-1
+  - 1-1-1
     
-      - CollabContent
+      - によっ
     
       - CollabMetadata
     
@@ -67,25 +67,25 @@ Lync Server 2013 は、直接接続型ストレージ (DAS) またはストレ�
 
 次に、Web 会議サービスによって、PowerPoint スライド、ホワイトボード、ポーリング、および添付ファイルなどのコンテンツが WebServices フォルダーにある CollabContent フォルダーおよび CollabMetadata フォルダーに格納されます。
 
-管理者は、ファイル共有に対するアクセス許可を設定して、RTC グループが必要な読み取りおよび書き込みアクセス権を持つようにする必要があります。
+管理者は、ファイル共有に対するアクセス許可を設定して、必要な読み取りおよび書き込みのアクセスを RTC グループに付与する必要があります。
 
 <div>
 
 
 > [!WARNING]  
-> 権限に関するエラーが発生した場合は、トポロジビルダーを開き、既存のトポロジをダウンロードして再公開します。 トポロジを公開することで、ファイル共有のアクセス許可を確認し、必要に応じてリセットできます。
+> アクセス許可に関するエラーが発生する場合は、トポロジ ビルダーを開き、既存のトポロジをダウンロードして再公開してください。トポロジを公開することによって、ファイル共有のアクセス許可が検証され、必要に応じてリセットされます。
 
 
 
 </div>
 
-会議のコンテンツの保存方法を管理するには、次の設定を使用できます。
+次の設定項目を使用すると、会議用にコンテンツを格納する方法を管理できます。
 
-  - **ContentGracePeriod**は、 [CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsConferencingConfiguration)で指定された web 会議コンテンツが、会議終了後にサーバー上に残る長さを設定します。
+  - **ContentGracePeriod**は、 [get-csconferencingconfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsConferencingConfiguration)に配置されているため、会議が終了した後に web 会議のコンテンツをサーバー上に保持する時間を設定します。
 
-  - **Maxcontentstoragemb**は、1 [](https://docs.microsoft.com/powershell/module/skype/Set-CsConferencingConfiguration)回の会議中にコンテンツの保存に使用できるファイル領域の最大サイズを設定します。
+  - **Maxcontentstoragemb**は、1 [](https://docs.microsoft.com/powershell/module/skype/Set-CsConferencingConfiguration)つの会議中にコンテンツの格納に使用できる最大ファイル領域を設定します。
 
-**Maxuploadfilesizemb 枠**は、Lync Web App のファイルアップロード設定を制限していません。 Lync Web App のファイルサイズのアップロードの上限は約30MB に設定されており、IIS の web.config ファイルで制御されます:/Datacollabweb/Int\[\]Lync Web App のファイルサイズのアップロード制限を構成するに`maxRequestLength`は`maxAllowedContentLength` 、以下に示すように、web.config ファイルを使用します。
+**Maxuploadfilesizemb 枠**は、Lync Web App のファイルのアップロード設定を制限しません。 Lync Web App のファイルサイズのアップロードの制限は約30MB に設定されており、IIS web.config ファイルによって制御されます。/\[Datacollabweb/Int Ext\]/ハンドラー/web¥ config。Lync Web App のファイルサイズのアップロード制限を構成するに`maxRequestLength`は`maxAllowedContentLength` 、以下に示すように、web.config ファイルを更新します。
 
     <system.web>
         <!-- 
@@ -113,7 +113,7 @@ Lync Server 2013 は、直接接続型ストレージ (DAS) またはストレ�
 
 ## <a name="office-web-apps-server"></a>Office Web Apps サーバー
 
-これらの新機能を使用するには、管理者が Office Web Apps サーバーをインストールしている必要があります。また、管理者は、Office Web Apps サーバーと通信するように Lync Server 2013 を構成する必要があります。 このドキュメントでは、Lync Server 2013 を Office Web Apps サーバーと連携するように構成する方法について説明します。 このドキュメントでは、Office Web Apps サーバーをインストールする方法について説明していません。 インストールの詳細については、の Microsoft Office Web Apps <http://go.microsoft.com/fwlink/p/?linkid=257525>展開 web サイトを参照してください。 このガイドには、Office Web Apps サーバーの必要な情報がすべて記載されています。 Office Web Apps サーバーは、Lync Server、SQL Server、またはその他のサーバーアプリケーションを実行していないスタンドアロンコンピューターにインストールする必要があることに注意してください。 (そのコンピューターに Office のバージョンがインストールされていない必要があります)。Office Web Apps サーバーを実行するために使用されるコンピューターには、特定のソフトウェアセット (.NET Framework 4.5 および Windows PowerShell 3.0 を含む) がインストールされている必要もあります。 これらの要件と、証明書とインターネットインフォメーションサービス (IIS) を構成する方法については、Microsoft Office Web Apps 展開の web <http://go.microsoft.com/fwlink/p/?linkid=257525>サイトで詳しく説明します。
+これらの新機能を使用するには、管理者が Office Web Apps サーバーをインストールする必要があります。また、Office Web Apps サーバーと通信するように Lync Server 2013 を構成する必要があります。 このドキュメントでは、Office Web Apps サーバーを使用するように Lync Server 2013 を構成する方法について説明します。 このドキュメントでは、Office Web Apps サーバーのインストール方法について説明します。 インストールの詳細については、「Microsoft Office Web Apps <http://go.microsoft.com/fwlink/p/?linkid=257525>展開 web サイト」を参照してください。 このガイドには、Office Web Apps サーバーの完全な前提条件に関する情報が含まれています。 Office Web Apps サーバーは、Lync Server、SQL Server、またはその他のサーバーアプリケーションを実行していないスタンドアロンのコンピューターにインストールする必要があることに注意してください。 (そのコンピューターに Office のバージョンがインストールされていない必要があります)。Office Web Apps サーバーを実行するために使用するすべてのコンピューターに、特定のソフトウェアセット (.NET Framework 4.5 および Windows PowerShell 3.0 を含む) がインストールされている必要もあります。 これらの要件と、証明書とインターネットインフォメーションサービス (IIS) の構成の詳細については、「Microsoft Office Web Apps 展開 web <http://go.microsoft.com/fwlink/p/?linkid=257525>サイト」を参照してください。
 
 </div>
 
@@ -122,8 +122,8 @@ Lync Server 2013 は、直接接続型ストレージ (DAS) またはストレ�
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 での web 会議の概要](lync-server-2013-web-conferencing-overview.md)  
-[Lync Server 2013 の web 会議の展開チェックリスト](lync-server-2013-deployment-checklist-for-web-conferencing.md)  
+[Lync Server 2013 の web 会議の概要](lync-server-2013-web-conferencing-overview.md)  
+[Lync Server 2013 での web 会議の展開チェックリスト](lync-server-2013-deployment-checklist-for-web-conferencing.md)  
   
 
 </div>

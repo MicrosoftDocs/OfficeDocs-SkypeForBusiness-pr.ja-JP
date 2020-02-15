@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ダイヤル プランの構成'
+title: 'Lync Server 2013: ダイヤルプランの構成'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185512
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b49bc53a02f9b3a5beb4458dcebaa9aa6398823a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bcd19d3f0ae11b38afd6d95fc443683963185075
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758131"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046410"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-dial-plans-in-lync-server-2013"></a>Lync Server 2013 でのダイヤル プランの構成
+# <a name="configuring-dial-plans-in-lync-server-2013"></a>Lync Server 2013 でのダイヤルプランの構成
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41758131"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-22_
+_**トピックの最終更新日:** 2013-02-22_
 
-Lync Server 2013 dial plan は、電話の認証と通話ルーティングを目的として、名前付きの場所、個々のユーザー、または連絡先オブジェクトの電話番号を翻訳する、名前付きの正規化ルールのセットです。
+Lync Server 2013 ダイヤルプランは、電話の承認と通話のルーティングを目的として、名前付きの場所、個人ユーザー、または連絡先オブジェクトの電話番号を変換する正規化ルールの名前付きセットです。
 
 <div>
 
 
 > [!NOTE]  
-> 詳細については、計画ドキュメントの「 <A href="lync-server-2013-dial-plans-and-normalization-rules.md">Lync Server 2013 でのダイヤルプランと正規化ルール</A>」を参照してください。
+> 詳細については、「計画」のドキュメントの「<A href="lync-server-2013-dial-plans-and-normalization-rules.md">ダイヤルプランと正規化ルール (Lync Server 2013</A> )」を参照してください。
 
 
 
@@ -51,13 +51,13 @@ Lync Server 2013 dial plan は、電話の認証と通話ルーティングを�
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
   - [Lync Server 2013 でのダイヤルプラン情報の表示](lync-server-2013-view-dial-plan-information.md)
 
   - [Lync Server 2013 でダイヤルプランを作成する](lync-server-2013-create-a-dial-plan.md)
 
-  - [Lync Server 2013 でのダイヤル プランの変更](lync-server-2013-modify-a-dial-plan.md)
+  - [Lync Server 2013 でダイヤルプランを変更する](lync-server-2013-modify-a-dial-plan.md)
 
 </div>
 
@@ -66,7 +66,7 @@ Lync Server 2013 dial plan は、電話の認証と通話ルーティングを�
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 でのダイヤルプランと正規化ルール](lync-server-2013-dial-plans-and-normalization-rules.md)  
+[Lync Server 2013 のダイヤルプランと正規化ルール](lync-server-2013-dial-plans-and-normalization-rules.md)  
   
 
 </div>

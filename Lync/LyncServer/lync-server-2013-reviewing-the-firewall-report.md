@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ファイアウォールレポートを確認する'
+title: 'Lync Server 2013: ファイアウォールレポートの確認'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541481
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 56539fd8afcfe934aa6a3850ae6869cf08d64802
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1a7b3e2592c088c03b0a597bf285ae04891d8a07
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765085"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051531"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="reviewing-the-firewall-report-in-lync-server-2013"></a>Lync Server 2013 でファイアウォールレポートを確認する
+# <a name="reviewing-the-firewall-report-in-lync-server-2013"></a>Lync Server 2013 でのファイアウォールレポートの確認
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41765085"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-21_
+_**トピックの最終更新日:** 2013-02-21_
 
-Lync Server 2013 には、複雑なファイアウォールルールが含まれている可能性があります。 計画ツールでは、デザイナーの入力条件に基づいて、すべてのファイアウォール要件を詳細に定義するレポートを生成して、この複雑さを軽減します。 IT 部門のファイアウォール管理者は、このレポートを使用して、必要なルールを構成および定義することができます。
+Lync Server 2013 には、複雑なファイアウォールルールのセットがあります。 計画ツールは、デザイナーの入力条件に基づいて、すべてのファイアウォール要件を詳細に定義するレポートを生成することで、この複雑さを軽減します。 IT 部門のファイアウォール管理者は、このレポートを使用して必要なルールを構成および定義することができます。
 
-ファイアウォール管理の観点から、このレポートを慎重に確認して、既存のファイアウォール ルールと矛盾がないかどうか、また、違反する可能性があるポリシーや手順がないかどうかを確認することをお勧めします。
+ファイアウォール管理の観点から、レポートを慎重に確認して、既存のファイアウォールルールと競合していないことや、違反する可能性があるポリシーや手順がないことを確認する必要があります。
 
 ![ファイアウォール管理レポート](images/Gg558654.575c1081-5849-45a2-b73c-ab96f55518c3(OCS.15).jpg "ファイアウォール管理レポート")
 

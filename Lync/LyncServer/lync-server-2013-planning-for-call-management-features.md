@@ -12,20 +12,20 @@ ms:contentKeyID: 48184298
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 206974500bd27c0cbecd902f9e87daf9a435c6dd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3bc3e644955a59515334a30fdf974db6c90d3f33
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41754627"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037125"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-call-management-features-in-lync-server-2013"></a>Lync Server 2013 の通話管理機能の計画
+# <a name="planning-for-call-management-features-in-lync-server-2013"></a>Lync Server 2013 での通話管理機能の計画
 
 </div>
 
@@ -35,36 +35,36 @@ ms.locfileid: "41754627"
 
 <span> </span>
 
-_**最終更新日:** 2012-12-17_
+_**トピックの最終更新日:** 2012-12-17_
 
-エンタープライズ音声通話管理機能は、着信通話のルーティングと応答の方法を制御します。 Lync Server 2013 には、次のような通話管理機能が用意されています。
+エンタープライズ VoIP 通話管理機能は、着信通話のルーティング方法と応答方法を制御します。 Lync Server 2013 には、次の通話管理機能があります。
 
   - **コール パーク**: VoIP ユーザーは、通話を一時的に保留し、同じ電話や別の電話で受けることができます。
 
-  - **グループ ピックアップ**: VoIP ユーザーは、通話ピックアップ グループに割り当てられている他の VoIP ユーザーへの電話を受けることができます。
+  - **グループピックアップ**: 音声ユーザーは、通話ピックアップグループに割り当てられている他の音声ユーザーに対して着信する通話を選択できます。
     
     <div>
     
 
     > [!NOTE]  
-    > グループピックアップは、Lync Server 2013 の累積更新プログラムで、2013年2月に追加されています。
+    > グループピックアップは、Lync Server 2013 用の累積的な更新プログラム (2013 年2月) で新しく追加されています。
 
     
     </div>
 
-  - **応答グループ**: ハント グループまたは対話型音声応答 (IVR) の質問と回答を使用して、着信通話をエージェントのグループにルーティングします。
+  - **応答グループ**: ハントグループまたは対話型音声応答 (IVR) の質問と回答を使用して、着信通話をエージェントのグループにルーティングします。
 
-  - **お知らせ:**    割り当てられていない番号への通話に対してメッセージを再生するか、通話を別の場所またはその両方にルーティングします。
+  - **アナウンス:**    割り当てられていない番号への通話に対してメッセージを再生するか、通話を別の場所またはその両方にルーティングします。
 
 エンタープライズ VoIP の展開を計画している場合、これらの通話管理機能のいずれかまたはすべてを実装するように選択できます。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 でのコール パークの計画](lync-server-2013-planning-for-call-park.md)
+  - [Lync Server 2013 でのコールパークの計画](lync-server-2013-planning-for-call-park.md)
 
-  - [Lync Server 2013 でグループ通話のピックアップを計画する](lync-server-2013-planning-for-group-call-pickup.md)
+  - [Lync Server 2013 でのグループ通話ピックアップの計画](lync-server-2013-planning-for-group-call-pickup.md)
 
   - [Lync Server 2013 での応答グループの計画](lync-server-2013-planning-for-response-groups.md)
 

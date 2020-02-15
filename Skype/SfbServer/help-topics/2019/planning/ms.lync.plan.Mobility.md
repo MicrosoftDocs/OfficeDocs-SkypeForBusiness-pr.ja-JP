@@ -1,5 +1,5 @@
 ---
-title: Mobility (Planning Tool)
+title: モビリティ (計画ツール)
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -14,18 +14,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: feceed86-0f71-47e4-8e56-e5181c6b5cc9
-description: Skype for Business Server のモバイル機能は、モバイルデバイスでの Skype for Business の機能をサポートしています。
-ms.openlocfilehash: 26bab4c75d09320b16e06aa66beb27058b620cca
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Skype for Business Server のモビリティ機能は、モバイルデバイスでの Skype for Business 機能をサポートしています。
+ms.openlocfilehash: a35d3b7b8f1dd0f595c78e33ae6752e0b6940c15
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797128"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036557"
 ---
-# <a name="mobility-planning-tool"></a>Mobility (Planning Tool)
+# <a name="mobility-planning-tool"></a>モビリティ (計画ツール)
  
-Skype for Business Server のモバイル機能は、モバイルデバイスでの Skype for Business の機能をサポートしています。
+Skype for Business Server のモビリティ機能は、モバイルデバイスでの Skype for Business 機能をサポートしています。
   
-モバイル機能は、Lync Server 2013 と同じように、Skype for Business Server でも同じです。 モバイル環境の準備について詳しくは、「 [Lync Server 2013 でのモビリティの計画](https://technet.microsoft.com/en-us/library/hh689981%28v=ocs.15%29.aspx)」をご覧ください。
+モビリティ機能は、Lync Server 2013 の場合と同じように、Skype for Business Server でも同じです。 モビリティ用の環境を準備する方法の詳細については、「 [Lync Server 2013 でのモビリティの計画](https://technet.microsoft.com/library/hh689981%28v=ocs.15%29.aspx)」を参照してください。
   
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 51541519
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a0ecc58dc2683cd07b83a8c57385593961c3e985
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bff6ad3eec632aaf6f076e0df92d7b8df3ac67e0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723457"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051511"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41723457"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-21_
+_**トピックの最終更新日:** 2013-02-21_
 
-中央管理ストアをホストしていない Standard Edition サーバーで問題が発生した場合は、このセクションの手順に従ってください。 サーバーの全体管理ストアでエラーが発生した場合は、「 [Lync server 2013 で中央管理ストアをホストしているサーバーの復元](lync-server-2013-restoring-the-server-hosting-the-central-management-store.md)」を参照してください。
+中央管理ストアをホストしていない Standard Edition サーバーで障害が発生した場合は、このセクションの手順を実行します。 中央管理ストアに障害が発生した場合は、「 [Lync server 2013 の中央管理ストアをホスト](lync-server-2013-restoring-the-server-hosting-the-central-management-store.md)しているサーバーを復元する」を参照してください。
 
 <div>
 
 
 > [!TIP]  
-> 復元を開始する前に、システムのイメージコピーを取得することをお勧めします。 復元中に問題が発生した場合に備えて、この画像をロールバックポイントとして使うことができます。 オペレーティングシステムと SQL Server をインストールした後に画像のコピーを取得し、証明書を復元または再登録することができます。
+> 復元を開始する前に、システムのイメージコピーを取得することをお勧めします。 復元中に問題が発生した場合に備えて、このイメージをロールバックポイントとして使用できます。 オペレーティングシステムと SQL Server をインストールしてから、証明書を復元または再登録した後で、イメージコピーを取得することもできます。
 
 
 
@@ -53,59 +53,59 @@ _**最終更新日:** 2013-02-21_
 
 ## <a name="to-restore-a-standard-edition-server"></a>Standard Edition サーバーを復元するには
 
-1.  障害のあるコンピューターと同じ完全修飾ドメイン名 (FQDN) を持つクリーンで、または新しいサーバーから始め、オペレーティングシステムをインストールして、証明書を復元または reenroll します。
+1.  障害が発生したコンピューターと同じ完全修飾ドメイン名 (FQDN) を持つクリーンサーバーまたは新しいサーバーを起動し、オペレーティングシステムをインストールしてから、証明書を復元または reenroll します。
     
     <div>
     
 
     > [!NOTE]  
-    > 組織のサーバー展開手順に従って、この手順を実行します。
+    > 組織で定めるサーバーの展開手順に従って、この手順を実行します。
 
     
     </div>
 
-2.  RTCUniversalServerAdmins グループとローカルの管理者グループのメンバーであるユーザーアカウントから、復元しているサーバーにログオンします。
+2.  RTCUniversalServerAdmins グループとローカルの Administrators グループのメンバーであるユーザーアカウントから、復元するサーバーにログオンします。
 
-3.  適切なファイルストアを $Backup からサーバー上のファイルストアの場所にコピーして、ファイルストアを復元し、フォルダーを共有します。
+3.  適切なファイルストアを $Backup からサーバー上のファイルストアの場所にコピーし、フォルダーを共有することによって、ファイルストアを復元します。
     
     <div>
     
 
     > [!IMPORTANT]  
-    > 復元されたファイルストアのパスとファイル名は、ファイルを使用するコンポーネントがアクセスできるように、バックアップされたファイルストアとまったく同じである必要があります。
+    > 復元されたファイルストアのパスおよびファイル名は、ファイルを使用するコンポーネントがアクセスできるように、バックアップされたファイルストアと正確に一致する必要があります。
 
     
     </div>
 
 4.  トポロジビルダーを実行します。
     
-    1.  トポロジビルダーを開始します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server Topology Builder**] の順にクリックします。
+    1.  トポロジ ビルダーを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server トポロジ ビルダー**] の順にクリックします。
     
-    2.  [**既存の展開からトポロジをダウンロード**] をクリックし、[ **OK**] をクリックします。
+    2.  [**既存の展開からトポロジをダウンロードする**] をクリックし、[**OK**] をクリックします。
     
-    3.  トポロジを選択し、[**保存**] をクリックします。 選択内容を確認するには、[**はい]** をクリックします。
+    3.  トポロジを選択し、[**保存**] をクリックします。[**はい**] をクリックして選択を確定します。
 
-5.  Lync Server のインストールフォルダーまたはメディアを参照し、セットアップ\\\\Amd64\\Setup.exe で [lync server 展開ウィザード] を起動します。 Lync Server 展開ウィザードを使用して、次の操作を行います。
+5.  Lync Server インストールフォルダーまたはメディアを参照して、セットアップ\\\\Amd64\\setup.exe で lync server 展開ウィザードを起動します。 Lync Server 展開ウィザードを使用して、次の操作を行います。
     
-    1.  **手順 1: ローカル構成ストアをインストール**して、ローカル構成ファイルをインストールします。
+    1.  [**ステップ 1: ローカル構成ストアのインストール**] を実行して、ローカル構成ファイルをインストールします。
     
-    2.  **手順 2: lync server のコンポーネントをセットアップまたは削除**して lync server サーバーの役割をインストールする
+    2.  [**ステップ 2: lync Server コンポーネントのセットアップまたは削除**を実行して、lync server のサーバーの役割をインストールする」を実行します。
     
-    3.  手順 3: 証明書を割り当てるために**証明書を要求、インストール、または割り当て**ます。
+    3.  [**ステップ 3: 証明書の要求、インストール、または割り当て**] を実行して、証明書を割り当てます。
     
-    4.  **手順 4: サービスを開始**して、サーバー上のサービスを開始します。
+    4.  [**ステップ 4: サービスの開始**] を実行して、サーバー上でサービスを開始します。
     
-    展開ウィザードの実行の詳細については、復元するサーバーの役割の展開ドキュメントを参照してください。
+    展開ウィザードの実行の詳細については、展開に関するドキュメントで復元しているサーバーの役割を参照してください。
 
-6.  ユーザーデータを復元するには、次の操作を行います。
+6.  次の操作を実行してユーザー データを復元します。
     
-    1.  $Backup\\からローカルディレクトリに ExportedUserData をコピーします。
+    1.  ExportedUserData を $Backup\\からローカルディレクトリにコピーします。
     
-    2.  ユーザーデータを復元する前に、Lync サービスを停止する必要があります。 そのためには、次のように入力します。
+    2.  ユーザーデータを復元する前に、Lync services を停止する必要があります。 これを行うには、次のように入力します。
         
             Stop-CsWindowsService
     
-    3.  ユーザーデータを復元するには、コマンドラインで次のように入力します。
+    3.  ユーザー データを復元するには、コマンド ラインで、次のように入力します。
         
             Import-CsUserData -PoolFqdn <Fqdn> -FileName <String>
         
@@ -113,17 +113,17 @@ _**最終更新日:** 2013-02-21_
         
             Import-CsUserData -PoolFqdn "atl0cs-001.litwareinc.com" -FileName "C:\Logs\ExportedUserDatal.zip"
     
-    4.  次のように入力して Lync サービスを再起動します。
+    4.  次のように入力して Lync services を再起動します。
         
             Start-CsWindowsService
 
-7.  この Standard Edition サーバーで応答グループを展開した場合は、応答グループの構成データを復元します。 詳細については、「 [Lync Server 2013 での応答グループの設定の復元](lync-server-2013-restoring-response-group-settings.md)」を参照してください。
+7.  この Standard Edition サーバーで応答グループを展開した場合は、応答グループ構成データを復元します。 詳細については、「 [Lync Server 2013 での応答グループの設定の復元](lync-server-2013-restoring-response-group-settings.md)」を参照してください。
 
-8.  この Standard Edition サーバーに常設チャットを展開した場合は、常設チャットデータベース (行う) を復元します。
+8.  この Standard Edition サーバーで常設チャットを展開した場合は、常設チャットデータベース (mgc) を復元します。
     
-    SQL Server バックアップを使って常設チャットデータベースをバックアップした場合は、SQL Server の復元手順を使用して復元します。
+    SQL Server バックアップを使用して常設チャットデータベースをバックアップした場合は、SQL Server の復元手順を使用して復元します。
     
-    CsPersistentChatData コマンドレットを使用してバックアップを作成した場合は、CsPersistentChatData を使用して復元します。
+    Export-cspersistentchatdata コマンドレットを使用してバックアップを作成した場合は、Export-cspersistentchatdata を使用してそれを復元します。
 
 </div>
 

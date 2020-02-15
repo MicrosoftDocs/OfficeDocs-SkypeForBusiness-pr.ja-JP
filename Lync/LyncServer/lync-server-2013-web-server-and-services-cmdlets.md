@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Web サーバーとサービスのコマンドレット'
+title: 'Lync Server 2013: Web サーバーおよびサービスのコマンドレット'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183326
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ffd517f46d6d1793ad1f947f56b1d7e423bfb269
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2f65acbee339a868f7656b853a9bc611f567c381
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758507"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041266"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="web-server-and-services-cmdlets-in-lync-server-2013"></a>Lync Server 2013 の Web サーバーとサービスのコマンドレット
+# <a name="web-server-and-services-cmdlets-in-lync-server-2013"></a>Lync Server 2013 の Web サーバーおよびサービスのコマンドレット
 
 </div>
 
@@ -35,101 +35,101 @@ ms.locfileid: "41758507"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-18_
+_**トピックの最終更新日:** 2013-02-18_
 
-Microsoft Lync Server 2013 の多くのコンポーネントは web ベースです。これらのコンポーネントは、Web サービスまたは Web ページを使ってタスクを実行します。 Web サーバーと Web サービスのコマンドレットを使用すると、Web サーバーの設定の構成や簡単な Url の管理などの操作を行うことができます。 単純な Url を使用すると、ユーザーは会議や会議に簡単に参加できるようになり、管理者は Lync Server 2013 コントロールパネルに簡単にログオンできます。
+Microsoft Lync Server 2013 の多くのコンポーネントは web ベースです。これらのコンポーネントは、Web サービスまたは Web ページを使用してタスクを実行します。 Web サーバーと Web サービスのコマンドレットを使用すると、Web サーバーの設定を構成したり、簡単な Url を管理したりするなどの作業を行うことができます。 簡易 Url を使用すると、ユーザーが会議や会議に参加しやすくなり、管理者が Lync Server 2013 コントロールパネルに容易にログオンできるようになります。
 
 <div>
 
 ## <a name="web-server-and-web-services-cmdlets"></a>Web サーバーと Web サービスのコマンドレット
 
-Web サーバーと Web サービスの管理に直接関連するコマンドレットの一覧を次に示します。
+以下に、Web サーバーと Web サービスの管理に直接関連するコマンドレットの一覧を示します。
 
 **Web サーバーとサービス**
 
   - <span></span>  
-    [New-CsSimpleUrl](https://technet.microsoft.com/en-us/library/Gg398180(v=OCS.15))
+    [新しい-CsSimpleUrl](https://technet.microsoft.com/library/Gg398180(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [CsSimpleUrlConfiguration の入手](https://technet.microsoft.com/en-us/library/Gg398392(v=OCS.15))
+    [取得-CsSimpleUrlConfiguration](https://technet.microsoft.com/library/Gg398392(v=OCS.15))
 
   - <span></span>  
-    [New-CsSimpleUrlConfiguration](https://technet.microsoft.com/en-us/library/Gg425813(v=OCS.15))
+    [新規-CsSimpleUrlConfiguration](https://technet.microsoft.com/library/Gg425813(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsSimpleUrlConfiguration](https://technet.microsoft.com/en-us/library/Gg398515(v=OCS.15))
+    [削除-CsSimpleUrlConfiguration](https://technet.microsoft.com/library/Gg398515(v=OCS.15))
 
   - <span></span>  
-    [Set-CsSimpleUrlConfiguration](https://technet.microsoft.com/en-us/library/Gg412991(v=OCS.15))
+    [設定-CsSimpleUrlConfiguration](https://technet.microsoft.com/library/Gg412991(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [New-CsSimpleUrlEntry](https://technet.microsoft.com/en-us/library/Gg425902(v=OCS.15))
+    [新しい-CsSimpleUrlEntry](https://technet.microsoft.com/library/Gg425902(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [新しい CsWebOrigin](https://technet.microsoft.com/en-us/library/JJ950236(v=OCS.15))
+    [新規-CsWebOrigin](https://technet.microsoft.com/library/JJ950236(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Set-CsWebServer](https://technet.microsoft.com/en-us/library/Gg398759(v=OCS.15))
+    [設定-CsWebServer](https://technet.microsoft.com/library/Gg398759(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsWebServiceConfiguration](https://technet.microsoft.com/en-us/library/Gg425751(v=OCS.15))
+    [Set-cswebserviceconfiguration](https://technet.microsoft.com/library/Gg425751(v=OCS.15))
 
   - <span></span>  
-    [New-CsWebServiceConfiguration](https://technet.microsoft.com/en-us/library/Gg398440(v=OCS.15))
+    [Set-cswebserviceconfiguration](https://technet.microsoft.com/library/Gg398440(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsWebServiceConfiguration](https://technet.microsoft.com/en-us/library/Gg398266(v=OCS.15))
+    [Set-cswebserviceconfiguration](https://technet.microsoft.com/library/Gg398266(v=OCS.15))
 
   - <span></span>  
-    [Set-CsWebServiceConfiguration](https://technet.microsoft.com/en-us/library/Gg398396(v=OCS.15))
+    [Set-cswebserviceconfiguration](https://technet.microsoft.com/library/Gg398396(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [新規-CsWebTrustedCACertificate](https://technet.microsoft.com/en-us/library/Gg412746(v=OCS.15))
+    [New-cswebtrustedcacertificate は](https://technet.microsoft.com/library/Gg412746(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [新しい-Csker"@ @" アカウント](https://technet.microsoft.com/en-us/library/Gg398485(v=OCS.15))
+    [New-Csker' Osaccount '](https://technet.microsoft.com/library/Gg398485(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsKerberosAccountAssignment](https://technet.microsoft.com/en-us/library/Gg398526(v=OCS.15))
+    [Get-cskerberosaccountassignment](https://technet.microsoft.com/library/Gg398526(v=OCS.15))
 
   - <span></span>  
-    [New-CsKerberosAccountAssignment](https://technet.microsoft.com/en-us/library/Gg398074(v=OCS.15))
+    [Get-cskerberosaccountassignment](https://technet.microsoft.com/library/Gg398074(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsKerberosAccountAssignment](https://technet.microsoft.com/en-us/library/Gg413052(v=OCS.15))
+    [Get-cskerberosaccountassignment](https://technet.microsoft.com/library/Gg413052(v=OCS.15))
 
   - <span></span>  
-    [Set-CsKerberosAccountAssignment](https://technet.microsoft.com/en-us/library/Gg398232(v=OCS.15))
+    [Get-cskerberosaccountassignment](https://technet.microsoft.com/library/Gg398232(v=OCS.15))
 
   - <span></span>  
-    [Test-CsKerberosAccountAssignment](https://technet.microsoft.com/en-us/library/Gg425938(v=OCS.15))
+    [Get-cskerberosaccountassignment](https://technet.microsoft.com/library/Gg425938(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Set-Csker\ "Osaccountpassword"](https://technet.microsoft.com/en-us/library/Gg398659(v=OCS.15))
+    [Set-Csker' Osaccountpassword](https://technet.microsoft.com/library/Gg398659(v=OCS.15))
 
 <!-- end list -->
 
-  - [Test-CsWebApp](https://technet.microsoft.com/en-us/library/Hh689989(v=OCS.15))
+  - [テスト-CsWebApp](https://technet.microsoft.com/library/Hh689989(v=OCS.15))
 
-  - [Test-CsWebAppAnonymous](https://technet.microsoft.com/en-us/library/Hh690041(v=OCS.15))
+  - [Test-cswebappanonymous](https://technet.microsoft.com/library/Hh690041(v=OCS.15))
 
 </div>
 

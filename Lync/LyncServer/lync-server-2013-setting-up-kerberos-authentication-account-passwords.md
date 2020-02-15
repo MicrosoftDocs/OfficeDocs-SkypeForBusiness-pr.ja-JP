@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Kerberos 認証アカウント パスワードの設定'
+title: 'Lync Server 2013: Kerberos 認証アカウントのパスワードの設定'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185167
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1c156e26a54e9762b1b57d1513f37cb7d7088cee
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0342c83090dee6cbe021a400acd87e557860518b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764613"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037577"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-kerberos-authentication-account-passwords-in-lync-server-2013"></a>Lync Server 2013 での Kerberos 認証アカウント パスワードの設定
+# <a name="setting-up-kerberos-authentication-account-passwords-in-lync-server-2013"></a>Lync Server 2013 での Kerberos 認証アカウントパスワードの設定
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41764613"
 
 <span> </span>
 
-_**最終更新日:** 2010-11-03_
+_**トピックの最終更新日:** 2010-11-03_
 
-Kerberos 認証アカウントのコンピューターオブジェクトを作成したら、アカウントのパスワードを設定できます。 1つのサーバーで Kerberos アカウントのパスワードを設定するための Windows PowerShell コマンドレットを実行します。 Kerberos 認証用に作成したオブジェクトに対してパスワードを設定することができます。 パスワードは既知の値に設定できますが、既定ではランダムなパスワードになります。 パスワードは、そのアカウントを使用するすべての Kerberos 認証ソースで利用できます。 Kerberos アカウントのパスワードをセットアップして管理するには、Windows PowerShell コマンドレットを使用します。
+Kerberos 認証アカウントのコンピューター オブジェクトを作成したら、そのアカウント用のパスワードを設定できます。 Windows PowerShell コマンドレットを実行して、1台のサーバーで Kerberos アカウントのパスワードを設定します。 Kerberos 認証のために作成したオブジェクトにパスワードを設定できます。 このパスワードは既知の値に設定することができますが、既定値はランダムなパスワードです。 このパスワードは、このアカウントを使用するすべての Kerberos 認証ソースを利用できます。 Kerberos アカウントのパスワードを設定して管理するには、Windows PowerShell コマンドレットを使用します。
 
 <div>
 
 
 > [!NOTE]  
-> Kerberos アカウントオブジェクトはコンピューターオブジェクトですが、参照されている Windows PowerShell コマンドレットの操作には UserAccount パラメーターを使います。 これは間違いではありませんが、Kerberos アカウントの作成とメンテナンスで使用する場合のコマンドレットの動作です。
+> Kerberos アカウントオブジェクトはコンピューターオブジェクトですが、参照されている Windows PowerShell コマンドレットの操作には UserAccount パラメーターを使用します。 これは間違いではなく、このコマンドレットを Kerberos のアカウントの作成および管理に使用するときの、意図的な動作です。
 
 
 
@@ -51,11 +51,11 @@ Kerberos 認証アカウントのコンピューターオブジェクトを作�
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 でのサーバーへの Kerberos 認証アカウント パスワードの設定](lync-server-2013-set-a-kerberos-authentication-account-password-on-a-server.md)
+  - [Lync Server 2013 のサーバーで Kerberos 認証アカウントのパスワードを設定する](lync-server-2013-set-a-kerberos-authentication-account-password-on-a-server.md)
 
-  - [Lync Server 2013 での Kerberos 認証アカウント パスワードと IIS との同期](lync-server-2013-synchronize-a-kerberos-authentication-account-password-to-iis.md)
+  - [Lync Server 2013 で Kerberos 認証アカウントのパスワードを IIS に同期させる](lync-server-2013-synchronize-a-kerberos-authentication-account-password-to-iis.md)
 
 </div>
 

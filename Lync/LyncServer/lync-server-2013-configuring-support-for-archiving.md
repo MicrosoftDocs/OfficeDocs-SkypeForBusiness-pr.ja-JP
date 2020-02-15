@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: アーカイブのサポートを構成する'
+title: 'Lync Server 2013: アーカイブサポートの構成'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184187
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1cf99fecc57f680c7da751beae1e50eab55e0dc1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2543f587ad4e545f55a6cb643531cb941ad26622
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734827"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040996"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-support-for-archiving-in-lync-server-2013"></a>Lync Server 2013 でアーカイブのサポートを構成する
+# <a name="configuring-support-for-archiving-in-lync-server-2013"></a>Lync Server 2013 でのアーカイブのサポートの構成
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41734827"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-01_
+_**トピックの最終更新日:** 2012-10-01_
 
-トポロジにアーカイブを追加し、新しいトポロジを公開した後、展開でのアーカイブの最初の実装方法のオプションを構成し、展開用のアーカイブを有効にするために1つ以上のアーカイブポリシーを構成する必要があります。必要に応じて、特定のサイトとユーザーを対象にします。 Lync Server 2013 コントロールパネルを使用して、この操作を行うことができます。
+アーカイブをトポロジに追加し、その新しいトポロジを公開した後は、展開の中でのアーカイブの初期実装についてのオプションを構成し、さらに 1 つ以上のアーカイブ ポリシーを構成して、アーカイブを展開に関して有効にし、場合によっては個別のサイトとユーザーに関しても有効にする必要があります。 これを行うには、Lync Server 2013 コントロールパネルを使用します。
 
 <div>
 
 
 > [!NOTE]  
-> 展開後、アーカイブ設定を変更してアーカイブを無効にするか、有効にすることができます。 日常的な管理のためのアーカイブサポートを実装する方法、または展開後に組織内の新しい要件を満たす方法について詳しくは、「運用ドキュメントの<A href="lync-server-2013-managing-archiving.md">Lync Server 2013 アーカイブを管理</A>する」をご覧ください。
+> 展開後、アーカイブ設定を変更して、アーカイブを無効または有効にすることができます。 日常の管理のアーカイブサポートを実装する方法、または展開後に組織の新しい要件を満たす方法の詳細については、「操作」のドキュメントの「 <A href="lync-server-2013-managing-archiving.md">Lync Server 2013 アーカイブの管理</A>」を参照してください。
 
 
 
@@ -51,13 +51,13 @@ _**最終更新日:** 2012-10-01_
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 でアーカイブオプションを構成する](lync-server-2013-configuring-archiving-options.md)
+  - [Lync Server 2013 でのアーカイブオプションの構成](lync-server-2013-configuring-archiving-options.md)
 
-  - [Lync Server 2013 でアーカイブポリシーを構成して割り当てる](lync-server-2013-configuring-and-assigning-archiving-policies.md)
+  - [Lync Server 2013 でのアーカイブポリシーの構成と割り当て](lync-server-2013-configuring-and-assigning-archiving-policies.md)
 
-  - [Lync Server 2013 でのフェデレーション パートナーに対するアーカイブ免責事項の送信の有効化または無効化](lync-server-2013-enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md)
+  - [Lync Server 2013 でのフェデレーションパートナーへのアーカイブ免責事項の送信を有効または無効にする](lync-server-2013-enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md)
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48183673
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a7a6be73d31892b5a0d5a3a5b10ad136f92afbf5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 287fc0ceff26a5940d717b4efa1ef2c525acb0f1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763821"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038689"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41763821"
 
 <span> </span>
 
-_**最終更新日:** 2012-08-20_
+_**トピックの最終更新日:** 2012-08-20_
 
-Imreportの概要表は、組織内で開催されたインスタントメッセージセッションに関する全体的なレポートを提供します。 この表は、Microsoft Lync Server 2013 で導入されました。
+IMReportSummaryTable は、組織内で確立されているインスタント メッセージング セッションについての概要レポートを提供します。 この表は、Microsoft Lync Server 2013 で導入されました。
 
 
 <table>
@@ -58,12 +58,12 @@ Imreportの概要表は、組織内で開催されたインスタントメッセ
 <tbody>
 <tr class="odd">
 <td><p><strong>StartTime</strong></p></td>
-<td><p>datetime</p></td>
+<td><p>日付型</p></td>
 <td><p>Primary</p></td>
-<td><p>インスタントメッセージングセッションが開始された日付と時刻。</p></td>
+<td><p>インスタント メッセージング セッションが開始された日時。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>期間</strong></p></td>
+<td><p><strong>TimePeriod</strong></p></td>
 <td><p>char (1)</p></td>
 <td><p>Primary</p></td>
 <td></td>
@@ -72,13 +72,13 @@ Imreportの概要表は、組織内で開催されたインスタントメッセ
 <td><p><strong>PoolFQDN</strong></p></td>
 <td><p>nvarchar (257)</p></td>
 <td><p>Primary</p></td>
-<td><p>セッションをホストしているプールの完全修飾ドメイン名。</p></td>
+<td><p>セッションをホストするプールの完全修飾ドメイン名。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>AuthType</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>通話の優先度 (緊急または不急など) 優先度の情報は、 <a href="lync-server-2013-callpriorities-table.md">Lync Server 2013 の callpriorities テーブル</a>に格納されています。</p></td>
+<td><p>通話の優先度 (緊急、非緊急など)。 優先度の情報は、 <a href="lync-server-2013-callpriorities-table.md">Lync Server 2013 の呼び出し優先度テーブル</a>に格納されます。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>SessionCount</strong></p></td>
@@ -90,7 +90,7 @@ Imreportの概要表は、組織内で開催されたインスタントメッセ
 <td><p><strong>MsgCount</strong></p></td>
 <td><p>bigint</p></td>
 <td></td>
-<td><p>セッション中に交換されたインスタントメッセージの合計数です。</p></td>
+<td><p>セッション中に交換されたインスタント メッセージの合計数。</p></td>
 </tr>
 </tbody>
 </table>

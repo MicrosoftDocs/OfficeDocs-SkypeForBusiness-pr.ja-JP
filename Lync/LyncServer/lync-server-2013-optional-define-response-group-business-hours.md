@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: (オプション) 応答グループの勤務時間を定義する'
+title: 'Lync Server 2013: (オプション) 応答グループの営業時間の定義'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185504
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5829ca56c2a06f54ba19064a5b24caad2aa7ed25
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 62fe312c08c639293dbd35623d10b58f3e51fe14
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755771"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051189"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="optional-define-response-group-business-hours-in-lync-server-2013"></a>省略Lync Server 2013 での応答グループの営業時間の定義
+# <a name="optional-define-response-group-business-hours-in-lync-server-2013"></a>オプションLync Server 2013 で応答グループの営業時間を定義する
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41755771"
 
 <span> </span>
 
-_**最終更新日:** 2012-11-01_
+_**トピックの最終更新日:** 2012-11-01_
 
 <div>
 
@@ -47,7 +47,7 @@ _**最終更新日:** 2012-11-01_
 
 
 > [!TIP]  
-> ワークフローを作成または変更するときに、そのワークフローのみに適用されるカスタム スケジュールを指定できます。 詳細については、「 <A href="lync-server-2013-create-or-modify-a-hunt-group-workflow.md">Lync server 2013 でハントグループワークフローを作成または変更</A>する」または「 <A href="lync-server-2013-create-or-modify-an-interactive-workflow.md">lync server 2013 で対話型ワークフローを作成または変更</A>する」を参照してください。
+> ワークフローを作成または変更するときに、そのワークフローのみに適用されるカスタム スケジュールを指定できます。 詳細については、「 <A href="lync-server-2013-create-or-modify-a-hunt-group-workflow.md">Lync server 2013 でハントグループワークフローを作成または変更する</A>」または「 <A href="lync-server-2013-create-or-modify-an-interactive-workflow.md">lync server 2013 で対話ワークフローを作成または変更</A>する」を参照してください。
 
 
 
@@ -79,7 +79,7 @@ _**最終更新日:** 2012-11-01_
 
 1.  RTCUniversalServerAdmins グループのメンバーまたは応答グループをサポートする定義済みの管理者の役割のいずれかのメンバーとしてログオンします。
 
-2.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+2.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
 3.  定義する一意の時間の範囲ごとに、以下を実行します。
     

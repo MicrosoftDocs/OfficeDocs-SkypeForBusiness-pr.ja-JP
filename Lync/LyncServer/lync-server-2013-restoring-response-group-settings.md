@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 応答グループの設定を復元する'
+title: 'Lync Server 2013: 応答グループの設定の復元'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 51541473
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 64bc766cf970e95ad03be65c490882dd3471955b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1557640fa021faf7313af834eb06f94f1c7432a2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733057"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051481"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41733057"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-18_
+_**トピックの最終更新日:** 2013-02-18_
 
 応答グループアプリケーションを展開し、バックエンドサーバーまたは Standard Edition サーバーを復元する必要がある場合は、応答グループの構成設定も復元する必要があります。
 
 <div>
 
-## <a name="to-restore-response-group-configuration-settings"></a>応答グループの構成設定を復元するには
+## <a name="to-restore-response-group-configuration-settings"></a>応答グループ構成設定を復元するには
 
 1.  コマンドラインで、次のように入力します。
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:<pool FQDN>" -OverwriteOwner -FileName "<path and file name of the backed up file at $Backup>"
     
-    例:
+    次に例を示します。
     
         Import-CsRgsConfiguration -Destination "service: ApplicationServer:pool01.contoso.com" -OverwriteOwner -FileName "C:\RgsConfiguration.zip"
 

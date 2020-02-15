@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: エッジ サーバーの設定'
+title: 'Lync Server 2013: エッジサーバーの設定'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183354
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7621d8d8cfb22e774bd13f767c37e49321d3e0a7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a3702038781010ce56887ba39c89d09c23bffdbd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764623"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037607"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-edge-servers-in-lync-server-2013"></a>Lync Server 2013 でのエッジ サーバーの設定
+# <a name="setting-up-edge-servers-in-lync-server-2013"></a>Lync Server 2013 でのエッジサーバーのセットアップ
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41764623"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-08_
+_**トピックの最終更新日:** 2012-09-08_
 
-エッジサーバーのセットアップに必要な主なタスクは、1つのエッジサーバーまたはエッジサーバーの負荷分散プールをインストールする場合と同じですが、ハードウェア負荷分散エッジサーバーのプールにはロードバランサーの展開と追加の手順が必要である点が異なります。複数のエッジサーバーで設定を複製します。
+エッジ サーバーを設定するために必要な主要なタスクは、ハードウェア負荷分散されたエッジ サーバーのプールでロード バランサーを展開し、複数のエッジ サーバーに設定をレプリケートする追加の手順が必要になることを除き、単一エッジ サーバーまたはエッジ サーバーの負荷分散プールをインストールする場合と同じです。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 でのエッジ サーバーのネットワーク インターフェイスの設定](lync-server-2013-set-up-network-interfaces-for-edge-servers.md)
+  - [Lync Server 2013 でのエッジサーバーのネットワークインターフェイスの設定](lync-server-2013-set-up-network-interfaces-for-edge-servers.md)
 
-  - [Lync Server 2013 のエッジ サーバーへの必要なソフトウェアのインストール](lync-server-2013-install-prerequisite-software-on-edge-servers.md)
+  - [Lync Server 2013 のエッジサーバーへの必要なソフトウェアのインストール](lync-server-2013-install-prerequisite-software-on-edge-servers.md)
 
-  - [エッジ インストール用の Lync Server 2013 のトポロジをエクスポートして外部メディアにコピーする](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md)
+  - [エッジインストールのために Lync Server 2013 トポロジをエクスポートして外部メディアにコピーする](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md)
 
-  - [Lync Server 2013 のエッジ サーバーのインストール](lync-server-2013-install-edge-servers.md)
+  - [Lync Server 2013 のエッジサーバーのインストール](lync-server-2013-install-edge-servers.md)
 
-  - [Lync Server 2013 用のエッジ証明書のセットアップ](lync-server-2013-set-up-edge-certificates.md)
+  - [Lync Server 2013 のエッジ証明書のセットアップ](lync-server-2013-set-up-edge-certificates.md)
 
-  - [Lync Server 2013 でのエッジ サーバーの起動](lync-server-2013-start-edge-servers.md)
+  - [Lync Server 2013 でのエッジサーバーの起動](lync-server-2013-start-edge-servers.md)
 
-  - [Lync Server 2013 のリバース プロキシ サーバーの設定](lync-server-2013-setting-up-reverse-proxy-servers.md)
+  - [Lync Server 2013 用のリバースプロキシサーバーのセットアップ](lync-server-2013-setting-up-reverse-proxy-servers.md)
 
 </div>
 

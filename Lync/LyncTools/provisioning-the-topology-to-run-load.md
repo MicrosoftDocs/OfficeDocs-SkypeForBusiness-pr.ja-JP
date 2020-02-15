@@ -1,5 +1,5 @@
 ---
-title: ロードを実行するトポロジのプロビジョニング
+title: 負荷を実行するためのトポロジのプロビジョニング
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541424
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf4c296068e2bd0deea9470dd84d8fd0c0c9d451
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6a913dc678b2f5e929ad22e09e1d8350f667ce39
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763601"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038289"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="provisioning-the-topology-to-run-load"></a>ロードを実行するトポロジのプロビジョニング
+# <a name="provisioning-the-topology-to-run-load"></a>負荷を実行するためのトポロジのプロビジョニング
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41763601"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-04_
+_**トピックの最終更新日:** 2013-02-04_
 
 <div>
 
-## <a name="provisioning-the-topology-to-run-load"></a>ロードを実行するトポロジのプロビジョニング
+## <a name="provisioning-the-topology-to-run-load"></a>負荷を実行するためのトポロジのプロビジョニング
 
-Lync Server 2013 の既存の設定と構成によっては、お使いの環境で次の変更を行う必要があります。
+既存の設定と Lync Server 2013 の構成によっては、環境を次のように変更する必要があります。
 
-1.  Windows PowerShell の実行ポリシーを無制限に設定します。 実行ポリシーの設定を確認するには、Lync Server 管理シェルを開き、次のコマンドを実行します。
+1.  Windows PowerShell 実行ポリシーを無制限に設定します。 実行ポリシーの設定を確認するには、Lync Server 管理シェルを開き、次のコマンドを実行します。
 
     ``` powershell
         Get-ExecutionPolicy
     ```        
 
-    このコマンドを実行しても無制限の値が返されない場合は、次のコマンドを実行します。
+    このコマンドで無制限の値が返されない場合は、次のコマンドを実行します。
 
     ``` powershell
         Set-ExecutionPolicy -Unrestricted
@@ -57,9 +57,9 @@ Lync Server 2013 の既存の設定と構成によっては、お使いの環境
 
 2.  Lync Server 2013 を効果的に構成するには、次のことを行う必要があります。
     
-      - Lync Server 2013 トポロジ (コンピューター名、サービスインスタンス、サイト名、ポリシーなど) について理解している必要があります。
+      - Lync Server 2013 トポロジ (コンピューター名、サービスインスタンス、サイト名、ポリシーなど) について理解していること。
     
-      - 応答グループのハントグループ (SIP Uri など) など、グループに作成されたユーザーの一部を割り当てます。
+      - 応答グループのハントグループ (たとえば、SIP Uri) など、グループに作成された一部のユーザーを割り当てます。
 
 3.  コマンドラインからスクリプトを実行するには、次のように使用します。
 
@@ -67,9 +67,9 @@ Lync Server 2013 の既存の設定と構成によっては、お使いの環境
         Powershell.exe -file <path to the file>
     ```
     
-4.  通常、このパッケージのいずれかのスクリプトが実行されると、スクリプトからの結果のトレースは、scriptname \<\>$h $ m $ s .txt という名前のスクリプトが呼び出された同じパスのファイルに格納されます。 たとえば、ArchivingPolicy を午後12:15 時に実行します。 ArchivingPolicy121500 などのログファイルが生成されます。
+4.  通常、このパッケージのいずれかのスクリプトを実行した後、スクリプトから得られたトレースは、スクリプトが呼び出されたパス内のファイルに格納さ\<れ\>ます。これは、scriptname $h $ m $ s .txt という名前です。 たとえば、ArchivingPolicy を午後12:15 時に実行したとします。 は、ArchivingPolicy121500 などのログファイルを生成します。
 
-5.  最後に、サーバーを構成するための例を用意しましたが、ロードの実行が完了した後で構成を変更または削除する責任があります。
+5.  最後に、サーバーを構成するための例を提供していますが、負荷の実行が終了したら、構成を変更または削除する必要があることに注意してください。
 
 </div>
 

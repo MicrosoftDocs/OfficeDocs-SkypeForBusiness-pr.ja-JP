@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: アーカイブのグローバルポリシーを構成する'
+title: 'Lync Server 2013: アーカイブ用のグローバルポリシーの構成'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184192
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c14cbb69ce620498e1d804483f97c47da37e8522
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e6dcd2af235c161e3f35c675daf8494a2490fddd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734667"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040936"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-the-global-policy-for-archiving-in-lync-server-2013"></a>Lync Server 2013 でアーカイブ用のグローバルポリシーを構成する
+# <a name="configuring-the-global-policy-for-archiving-in-lync-server-2013"></a>Lync Server 2013 でのアーカイブ用のグローバルポリシーの構成
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41734667"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-09_
+_**トピックの最終更新日:** 2012-10-09_
 
-フロントエンドサーバーを展開すると、Lync Server によってアーカイブ用のグローバルポリシーが作成されます。 既定では、アーカイブはグローバルポリシーで無効になっています。 グローバルポリシーは、サイトまたはユーザーのポリシーをセットアップしてグローバルポリシーを上書きするか、または Microsoft Exchange の統合を使用しているかどうかにかかわらず、展開全体の内部と外部の通信でアーカイブを有効にするかどうかを制御します。ユーザー。 Microsoft Exchange 統合を使用している場合、グローバルポリシーは、Exchange 2013 を使用していて、メールボックスがインプレースホールドに配置されているユーザーには適用されません。
+フロントエンドサーバーを展開すると、Lync Server によってアーカイブ用のグローバルポリシーが作成されます。 既定では、グローバルポリシーでアーカイブは無効になっています。 グローバルポリシーでは、サイトポリシーまたはユーザーポリシーを設定してグローバルポリシーを上書きするか、または Microsoft Exchange 統合を使用して一部またはすべてのを展開する場合を除いて、展開全体の内部通信と外部通信のアーカイブを有効にするかどうかを制御します。ユーザー。 Microsoft Exchange 統合を使用する場合、グローバルポリシーは、Exchange 2013 に所属していて、メールボックスがインプレース保持に配置されているすべてのユーザーには適用されません。
 
-グローバル、サイト、ユーザーのポリシーの階層など、アーカイブポリシーの動作について詳しくは、「 [Lync Server 2013 でのアーカイブのしくみ](lync-server-2013-how-archiving-works.md)」をご覧ください。
+グローバルポリシー、サイトポリシー、およびユーザーポリシーの階層を含むアーカイブポリシーのしくみの詳細については、「 [Lync Server 2013](lync-server-2013-how-archiving-works.md)の計画に関するドキュメント、展開に関するドキュメント、または操作のドキュメントでのアーカイブの仕組み」を参照してください。
 
 <div>
 
 
 > [!NOTE]  
-> 展開で Microsoft Exchange の統合を有効にした場合、exchange 2013 を使っているユーザーに対してアーカイブが有効になっていて、メールボックスがインプレースホールドに配置されているかどうかを Exchange のインプレースホールドポリシーで制御します。 詳細については、展開ドキュメントで<A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Exchange Server との統合を使用する場合の「Lync server 2013 でアーカイブするためのポリシーを設定する</A>」を参照してください。<BR>アーカイブを有効にする前に、アーカイブ構成ですべての適切なオプションを指定する必要があります。 詳細については、展開ドキュメントの「 <A href="lync-server-2013-configuring-archiving-options.md">Lync Server 2013 でアーカイブオプションを構成する</A>」を参照してください。
+> 展開に対して Microsoft Exchange 統合を有効にすると、exchange 2013 に所属しているユーザーに対してアーカイブを有効にし、メールボックスをインプレース保持に設定するかどうかを Exchange のインプレース保持ポリシーで制御します。 詳細については、「展開」のドキュメントの「 <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Setting up policies For Exchange server integration using The Lync server 2013</A> 」を参照してください。<BR>アーカイブを有効にするには、その前にアーカイブ構成で適切なオプションをすべて指定する必要があります。 詳細については、「展開」のドキュメントの「 <A href="lync-server-2013-configuring-archiving-options.md">Lync Server 2013 のアーカイブオプションの構成</A>」を参照してください。
 
 
 
@@ -53,11 +53,11 @@ _**最終更新日:** 2012-10-09_
 
 <div>
 
-## <a name="to-configure-the-global-policy-for-archiving-when-using-lync-server-archiving-databases"></a>Lync Server アーカイブデータベースを使用するときに、アーカイブ用のグローバルポリシーを構成するには
+## <a name="to-configure-the-global-policy-for-archiving-when-using-lync-server-archiving-databases"></a>Lync Server アーカイブ データベースを使用するときにアーカイブのグローバル ポリシーを構成するには
 
 1.  CsArchivingAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server 2013 コントロールパネルを開きます。 Lync Server 2013 コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server 2013 コントロールパネルを開きます。 Lync Server 2013 コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
 3.  左側のナビゲーション バーで、[**監視とアーカイブ**] をクリックし、[**アーカイブ ポリシー**] をクリックします。
 

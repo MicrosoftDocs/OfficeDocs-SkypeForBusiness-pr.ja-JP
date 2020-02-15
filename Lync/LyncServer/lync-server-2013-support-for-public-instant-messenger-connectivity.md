@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013 でのパブリックインスタントメッセンジャー接続のサポート
+title: Lync Server 2013 パブリックインスタントメッセンジャー接続のサポート
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 59170234
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2cd3c8cf89b9d5e1637db893b57e6b5955fbcee9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8a6941fb5f087d667e65c178474531aa573a61b9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764373"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038619"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,39 +35,39 @@ ms.locfileid: "41764373"
 
 <span> </span>
 
-_**最終更新日:** 2013-10-07_
+_**トピックの最終更新日:** 2013-10-07_
 
 <div>
 
-## <a name="support-for-public-instant-messenger-connectivity"></a>パブリックインスタントメッセンジャーの接続のサポート
+## <a name="support-for-public-instant-messenger-connectivity"></a>パブリックインスタントメッセンジャー接続のサポート
 
-この記事では、パブリック IM 接続 (PIC) のサポートについて説明します。 PIC は、Microsoft Lync の機能で、組織が lync クライアントや id を通じて、特定のパブリックインスタントメッセージング (IM) サービスのユーザーとつながることができるようにします。
+この記事では、パブリック IM 接続 (PIC) のサポートに関する情報を提供します。 PIC は Microsoft Lync の機能です。これにより、組織は lync ユーザーが特定のパブリックインスタントメッセージング (IM) サービスのユーザーと Lync クライアントおよび id を介して接続できるようになります。
 
-エンドユーザーは、顧客、パートナー、ベンダーとの間で利用できるようになります。 Lync の制御機能、コンプライアンス機能、アーカイブ機能を維持しながら、単一のリアルタイム通信クライアントをサポートすることができます。 Lync-Skype の接続機能は、2013年 5[月に公開](http://blogs.technet.com/b/lync/archive/2013/05/23/lync-skype-connectivity-available-today.aspx)されています。 Lync/Office communications SERVER (OCS)/Live communications SERVER (LCS) は、最初に MSN、Windows LIVE、AOL、Yahoo に接続するための PIC で確立されています。Lync-Skype の接続について詳しくは、「 [lync-skype の接続](http://office.microsoft.com/en-us/lync/lync-skype-connectivity-fx103789635.aspx)」をご覧ください。 Windows Live、AOL、Yahoo とのフェデレーションはそれぞれ、ライフサイクルの終了までのパスにあります。このページでは、各サービスの状態が記載されています。
+エンドユーザーにとっては、顧客、パートナー、およびベンダーとの間で顧客、パートナー、およびベンダーと接続できるという利点があります。 Lync の制御、コンプライアンス、およびアーカイブ機能を維持しながら、1つのリアルタイム通信クライアントをサポートすることでメリットを得られます。 Lync と Skype の接続は、2013年 5[月に公開](http://blogs.technet.com/b/lync/archive/2013/05/23/lync-skype-connectivity-available-today.aspx)されていますが、Lync/Office Communications SERVER (OCS)/Live communications SERVER (LCS) を最初に、MSN/Windows LIVE、AOL、および Yahoo に接続する PIC で確立したものに依存しています。Lync と Skype の接続の詳細については、「 [lync-skype の接続](http://office.microsoft.com/lync/lync-skype-connectivity-fx103789635.aspx)」を参照してください。 Windows Live、AOL、および Yahoo とのフェデレーションは、それぞれ有効期限までの経路上にあります。このページには、各サービスの状態が記載されています。
 
-PIC を使用するには、各パブリック IM サービスプロバイダーのサービスをアクティブ化する必要があります。 この方法の要件と詳細は、IM サービスプロバイダーと顧客の基になるライセンスプログラムによって異なります。
+PIC を使用するには、お客様がパブリック IM サービスプロバイダーごとにサービスをアクティブにする必要があります。 これを行う方法の要件と詳細については、「IM サービスプロバイダー」および「お客様の基になるライセンスプログラム」を参照してください。
 
 <div>
 
 ## <a name="windows-live-messenger"></a>Windows Live Messenger
 
-Microsoft は、Windows Live Messenger と Skype を連携させることができました。 2013年4月に、Messenger ユーザーはサインイン時に Skype に移行されました。 Lync とのフェデレーションを利用している Lync のお客様は、Skype に更新した後でも、Messenger の連絡先と通信することができます。 Lync 管理者または Lync のエンドユーザーがサービスの継続性を維持するために必要な操作はありません。また、Lync 内でのこの機能の管理は、Messenger との通信を行う場合と同じです。 
+Microsoft は、Windows Live Messenger と Skype を一緒にご提供しています。 2013年4月に、メッセンジャーユーザーが Skype For-サインインに移行されました。 メッセンジャーとのフェデレーションを利用している Lync のお客様は、Skype に更新された後であっても、引き続きメッセンジャーの連絡先と通信できるようになります。 Lync 管理者または Lync エンドユーザーがサービスの連続性を維持するために必要なことはありません。また、Lync 内でのこの機能の管理は、Messenger との通信のために維持されています。 
 
-Messenger ユーザーが Microsoft アカウント (つまり、Messenger に使用されるのと同じ資格情報) を使って Skype にサインインしたときに、Lync のフェデレーションを含むすべての Messenger の連絡先が表示されます。 Skype に連絡してください。 この連絡先の Skype と Lync 間のプレゼンス共有とインスタントメッセージ (im) は、ご利用いただけます。 
+Messenger ユーザーが自分の Microsoft アカウント (Messenger に使用される同じ資格情報) を使用して Skype にサインインするときに、Lync の連絡先を含むすべてのメッセンジャー連絡先 (たとえば、Skype に依存している)。 これらの連絡先については、Skype と Lync 間のプレゼンス情報の共有とインスタントメッセージングを利用できます。 
 
-Lync-Skype 接続-連絡先の追加、プレゼンスの共有、インスタントメッセージング、および Lync と Skype ユーザー間の音声通話は、すべての Lync ユーザーが利用できるようになりました。
+Lync-Skype 接続-Lync および Skype ユーザー間の連絡先追加、プレゼンス共有、インスタントメッセージング、および音声通話は、すべての Lync お客様が利用できるようになりました。
 
 </div>
 
 <div>
 
-## <a name="yahoo-and-aol-instant-messenger"></a>!\! AOL のインスタントメッセンジャー
+## <a name="yahoo-and-aol-instant-messenger"></a>Yahoo\! および AOL インスタントメッセンジャー
 
-Yahoo とのフェデレーション\! また、AOL は、Lync (および Office Communications Server) のお客様にとって、エンドツーエンドのパスにあります。 これらの各サービスを提供するための Microsoft の機能は、Yahoo のサポートによって異なります。\! および AOL では、これらの契約の基になっています。 両方の Yahoo の場合\! また AOL は、2014年6月に引き続きご利用いただけます。
+Yahoo とのフェデレーション\! および AOL は、Lync (および Office Communications Server) のお客様のために、エンドツーライフのパスにあります。 これらの各サービスを提供する Microsoft の機能は、Yahoo からのサポートに応じて異なります。\! および AOL は、これらの基礎となる契約が下になります。 両方の Yahoo\! AOL の場合、サービスは2014年6月に継続されます。
 
-  - **Yahoo** -サービスは2014年6月に継続され、お客様は引き続き Microsoft LYNC パブリック IM 接続ユーザーサブスクリプションライセンス ("PIC USL") でライセンスを取得する必要があります。2012年9月1日時点で、PIC USL は、新規または更新契約の購入に使用できなくなりました。この日付より前に購入したライセンスをお持ちのお客様は、引き続き Yahoo とのフェデレーションを行うことができます。\! サービス終了日またはライセンスの有効期限が切れるまでの間。Lync チームブログの[お知らせ](http://blogs.technet.com/b/lync/archive/2012/11/26/lync-and-yahoo-federation-end-of-life.aspx)を参照してください。2014年6月30日以降の契約について、お客様は、2014年6月30日以降の期間における支払い金額に応じてクレジットを受け取ります。
+  - **Yahoo** Service は2014年6月に継続され、お客様は引き続き Microsoft LYNC パブリック IM 接続ユーザーサブスクリプションライセンス ("PIC USL") を使用してライセンスを供与する必要があります。2012年9月1日時点で、PIC USL は、新規または契約の更新の購入に使用できなくなりました。この日以前に購入したライセンスを持つお客様は、Yahoo とのフェデレーションを続行できます。\! サービスの以前の終了日まで、またはそのライセンスの有効期限が切れるまで。「Lync チームブログ」の[アナウンス](http://blogs.technet.com/b/lync/archive/2012/11/26/lync-and-yahoo-federation-end-of-life.aspx)を参照してください。2014年6月30日よりも後の契約で PIC ライセンスを持っているお客様は、2014年6月30日以降の期間における支払い額に比例してクレジットを受け取ります。
 
-  - **AOL** -2014 年6月30日に、LYNC の IM 接続 ("PIC") サービスは利用できなくなります。サービス終了時に顧客の中断を抑えるため、お客様の追加のドメインのプロビジョニングは廃止されました。 2014年6月30日まで、お客様はターゲットとのフェデレーションコミュニケーションを引き続きサポートするために何もする必要はありません。 この日付 (またはその間に追加のドメインをプロビジョニングしたいお客様向け) には、AOL から直接代替サービスを利用できます。 AOL の新しいサービスの詳細については、「   [AIM と直接フェデレーションを確立](http://aimenterprise.aol.com/pic.php)する (AOL.com で新しいページを開く)」を参照してください。  
+  - **AOL** -2014 年6月30日に、LYNC の IM 接続 ("PIC") サービスは使用できなくなります。サービスの終了時に顧客の中断を制限するために、お客様の追加のドメインのプロビジョニングは廃止されました。 2014年6月30日まで、お客様は、ターゲットとのフェデレーション通信を引き続きサポートするために何もする必要はありません。 この日以降 (または、その間に追加のドメインをプロビジョニングしたいと考えているお客様の場合)、AOL から直接代替サービスを利用できます。 AOL の新しいサービスの詳細については、「   [AIM を使用して直接フェデレーションを確立](http://aimenterprise.aol.com/pic.php)する (AOL.com で新しいページを開く)」を参照してください。  
 
 </div>
 
@@ -75,7 +75,7 @@ Yahoo とのフェデレーション\! また、AOL は、Lync (および Office
 
 ## <a name="public-im-provider-summary"></a>パブリック IM プロバイダーの概要
 
-次の表では、パブリック IM サービスプロバイダーの概要、Lync とのフェデレーション機能、およびライセンスの要件について説明します。
+次の表は、パブリック IM サービスプロバイダー、Lync とのフェデレーション機能、およびライセンス要件の概要を示しています。
 
 
 <table>
@@ -94,23 +94,23 @@ Yahoo とのフェデレーション\! また、AOL は、Lync (および Office
 <tbody>
 <tr class="odd">
 <td><p>Skype</p></td>
-<td><p>IM、プレゼンス、音声</p></td>
-<td><p>Lync Server クライアントアクセスライセンス、Lync Online Plan 1/2/3</p></td>
+<td><p>IM、プレゼンス、オーディオ</p></td>
+<td><p>Lync Server クライアントアクセスライセンス、Lync Online プラン1/2/3</p></td>
 </tr>
 <tr class="even">
 <td><p>Windows Live Messenger</p></td>
-<td><p>IM、プレゼンス、音声/ビデオ</p></td>
-<td><p>Lync Server クライアントアクセスライセンス (WLM が市場にある限りサポートされます)</p></td>
+<td><p>IM、プレゼンス、音声ビデオ</p></td>
+<td><p>Lync Server クライアントアクセスライセンス (WLM が市場にある限り、サポートされています)</p></td>
 </tr>
 <tr class="odd">
 <td><p>AOL</p></td>
 <td><p>IM、プレゼンス</p></td>
-<td><p>Lync Server クライアントアクセスライセンス既存のお客様は、2014年6月にサポートされます。</p></td>
+<td><p>Lync Server クライアントアクセスライセンス。既存のお客様に対して、2014年6月にサポートされます。</p></td>
 </tr>
 <tr class="even">
 <td><p>Yahoo!</p></td>
 <td><p>IM、プレゼンス</p></td>
-<td><p>Lync Server クライアントアクセスライセンスに加えて、追加の Microsoft Lync パブリック IM 接続ユーザーサブスクリプションライセンス ("PIC USL") が必要です。 2012年9月の価格表の時点では、PIC USL は購入できなくなりました。 アクティブなライセンスを持つユーザーは Yahoo! とのフェデレーションを続行できる 2014年6月30日にサービスが終了するまでの Messenger。</p></td>
+<td><p>Lync Server クライアントアクセスライセンスに加えて、追加の Microsoft Lync パブリック IM 接続ユーザーサブスクリプションライセンス ("PIC USL") が必要です。 2012年9月の価格リストの時点で、PIC USL は購入できなくなりました。 アクティブなライセンスを持つお客様は、Yahoo! とのフェデレーションを続行できます。 2014年6月30日にサービスがシャットダウンされるまでメッセンジャー。</p></td>
 </tr>
 </tbody>
 </table>

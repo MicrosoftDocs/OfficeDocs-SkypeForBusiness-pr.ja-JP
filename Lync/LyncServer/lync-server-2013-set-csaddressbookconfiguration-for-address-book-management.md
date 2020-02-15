@@ -12,16 +12,16 @@ ms:contentKeyID: 48183913
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a45d5fb9e8ea6eb4b37c34c5347c37c6c9bfe940
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7897d1441746430310d392456adacc6756f469d0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732367"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046560"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41732367"
 
 <span> </span>
 
-_**最終更新日:** 2012-11-01_
+_**トピックの最終更新日:** 2012-11-01_
 
-このコマンドレットを実行できるユーザー: 既定では、次のグループのメンバーは、Set-CsAddressBookConfiguration コマンドレットをローカルで実行することを許可されています。 RTCUniversalServerAdmins このコマンドレットが割り当てられているすべての役割ベースのアクセス制御 (RBAC) ロールのリストを返すには (自分自身で作成したカスタム RBAC ロールを含む)、Windows PowerShell プロンプトから次のコマンドを実行します。
+このコマンドレットを実行できる人は次のとおりです。 既定では、次のグループのメンバーは Set-CsAddressBookConfiguration コマンドレットのローカル実行を承認されています。 RTCUniversalServerAdmins。 このコマンドレットが割り当てられているすべての役割ベースのアクセス制御 (RBAC) の役割の一覧 (自身が作成したカスタムの RBAC の役割を含む) を戻すには、Windows PowerShell プロンプトから次のコマンドを実行します。
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsAddressBookConfiguration"}
 
-Set-CsAddressBookConfiguration は、既存の構成の変更に使用される点を除き、新しい-CsAddressBookConfiguration コマンドレットと似ています。
+Set-CsAddressBookConfiguration は、既存の構成を変更するために使用するという点を除けば、New-CsAddressBookConfiguration コマンドレットによく似ています。
 
-次に例を示します。
+次にその例を示します。
 
     Set-CsAddressBookConfiguration -identity site:Redmond -RunTimeOfDay 23:00
 
@@ -52,7 +52,7 @@ Set-CsAddressBookConfiguration は、既存の構成の変更に使用される�
 ## <a name="see-also"></a>関連項目
 
 
-[Set-CsAddressBookConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsAddressBookConfiguration)  
+[設定-CsAddressBookConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsAddressBookConfiguration)  
   
 
 </div>

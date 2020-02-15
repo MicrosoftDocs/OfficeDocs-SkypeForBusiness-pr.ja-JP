@@ -12,16 +12,16 @@ ms:contentKeyID: 63969613
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1afb4ee2e1a500b08c3481f71994f585298bc8c2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2d83d3c3fe933a4538d9c2508668497af42c3340
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745837"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046590"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41745837"
 
 <span> </span>
 
-_**最終更新日:** 2014-06-05_
+_**トピックの最終更新日:** 2014-06-05_
 
 
 <table>
@@ -45,8 +45,8 @@ _**最終更新日:** 2014-06-05_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>確認のスケジュール</p></td>
-<td><p>[毎日]</p></td>
+<td><p>検証スケジュール</p></td>
+<td><p>毎日</p></td>
 </tr>
 <tr class="even">
 <td><p>テストツール</p></td>
@@ -54,8 +54,8 @@ _**最終更新日:** 2014-06-05_
 </tr>
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
-<td><p>Lync Server 管理シェルを使用してローカルで実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには、テスト用の CsDialInConferencing コマンドレットを実行する権限を持つ RBAC の役割を割り当てる必要があります。 このコマンドレットを使うことができるすべての RBAC ロールの一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには、Test-CsDialInConferencing コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsDialInConferencing&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +66,7 @@ _**最終更新日:** 2014-06-05_
 
 ## <a name="description"></a>説明
 
-テスト用のダイヤルイン会議コマンドレットは、ユーザーがダイヤルイン会議に参加できるかどうかを確認します。 テスト-Cslocin 会議は、テストユーザーをシステムに記録しようとすることで動作します。 ログオンが成功すると、コマンドレットはユーザーの資格情報とアクセス許可を使って、利用可能なダイヤルイン会議アクセス番号をすべて試します。 各ダイヤルイン試行の成功または失敗が通知されます。次に、テストユーザーは、Lync Server からログオフされます。テスト-Csdial Inコンファレンスは、適切な接続を確立できることのみを確認します。 このコマンドレットは、実際には電話をかけたり、他のユーザーが参加できるダイヤルイン会議を作成したりすることはありません。
+Test-Csdial Inコンファレンスコマンドレットは、ユーザーがダイヤルイン会議に参加できるかどうかを確認します。 テスト用のダイヤルイン会議は、テストユーザーをシステムにログオンすることによって動作します。 ログオンに成功すると、コマンドレットはユーザーの資格情報とアクセス許可を使用して、使用可能なすべてのダイヤルイン会議アクセス番号を試します。 各ダイヤルイン試行の成功または失敗が表示されます。その後、テストユーザーは Lync Server からログオフされます。テスト-Csdial In会議では、適切な接続が可能であることのみが確認されます。 このコマンドレットでは、他のユーザーが参加できる電話会議は、実際には作成されません。
 
 </div>
 
@@ -74,54 +74,54 @@ _**最終更新日:** 2014-06-05_
 
 ## <a name="running-the-test"></a>テストの実行
 
-テスト用の [会議] コマンドレットは、事前に定義されたテストアカウント (「Lync Server テストを実行するためのテストアカウントをセットアップする」を参照)、または Lync Server を有効にしているユーザーのアカウントを使用して実行できます。 テストアカウントを使用してこのチェックを実行するには、テスト対象の Lync Server プールの FQDN を指定する必要があります。 次に例を示します。
+Test-CsDialInConferencing コマンドレットは、事前構成されたテストアカウント (「Lync Server テストを実行するためのテストアカウントの設定」を参照)、または Lync Server が有効になっているユーザーのアカウントのいずれかを使用して実行できます。 テストアカウントを使用してこのチェックを実行するには、テストする Lync Server プールの FQDN を指定するだけで済みます。 例:
 
     Test-CsDialInConferencing -TargetFqdn "atl-cs-001.litwareinc.com" 
 
-実際のユーザーアカウントを使用してこのチェックを実行するには、アカウント名とパスワードを含む Windows PowerShell 資格情報オブジェクトを作成する必要があります。 次に、その資格情報オブジェクトと、通話テスト用のアカウント SIP アドレスを指定する必要があります。
+実際のユーザーアカウントを使用してこのチェックを実行するには、アカウント名とパスワードを含む Windows PowerShell 資格情報オブジェクトを作成する必要があります。 次に、その資格情報オブジェクトとアカウント SIP アドレスを呼び出し元のテスト-Csダイヤルイン会議に含める必要があります。
 
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsDialInConferencing -TargetFqdn atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-詳細については、「[テスト](https://docs.microsoft.com/powershell/module/skype/Test-CsDialInConferencing)用のヘルプ」コマンドレットのヘルプドキュメントを参照してください。
+詳細については、「 [Test-CsDialInConferencing](https://docs.microsoft.com/powershell/module/skype/Test-CsDialInConferencing)コマンドレットのヘルプドキュメント」を参照してください。
 
 </div>
 
 <div>
 
-## <a name="determining-success-or-failure"></a>成功または失敗を確認する
+## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
-指定したユーザーが Lync サーバーにログオンして、利用可能なダイヤルイン会議アクセス番号のいずれかを使用して接続すると、次のような出力が表示され、Result プロパティは Success とマークされ**ます。**
+指定したユーザーが Lync Server にログオンして、使用可能なダイヤルイン会議アクセス番号のいずれかを使用して接続すると、次のような出力が得られます。 Result プロパティは Success としてマークされてい**ます。**
 
 TargetFqdn: atl-cs-001.litwareinc.com
 
 結果: 成功
 
-待ち時間:00:00: 06.8630376
+待機時間:00:00: 06.8630376
 
-誤差
+エラー
 
-診断
+分析
 
-指定したユーザーがこの接続を確立できない場合、結果はエラーとして表示され、エラーと診断のプロパティに追加情報が記録されます。
+指定したユーザーがこの接続を確立できない場合は、結果がエラーとして表示され、エラーと診断のプロパティに追加情報が記録されます。
 
 TargetFqdn: atl-cs-001.litwareinc.com
 
 結果: エラー
 
-待ち時間: 00:00:00
+待機時間: 00:00:00
 
-エラー: ログオンは拒否されました。 適切な資格情報があることを確認する
+エラー: ログオンが拒否されました。 適切な資格情報があることを確認する
 
-使用されていて、アカウントが有効になっています。
+使用されており、アカウントがアクティブである。
 
-内部例外: NegotiateSecurityAssociation に失敗しました。エラー:-
+内部例外: NegotiateSecurityAssociation が失敗しました。エラー:-
 
 2146893044
 
-診断
+分析
 
-前回の出力では、テストユーザーが Lync Server 自体へのアクセスを拒否されたことを示しています。 これは、通常は、Csのテスト用のユーザー資格情報が有効ではないことを意味します。 さらに、Windows PowerShell 資格情報オブジェクトを再作成する必要があります。 ユーザーアカウントのパスワードを取得することはできますが、次のようなコマンドを使用して SIP アドレスを確認できます。
+上記の出力は、テストユーザーが Lync Server 自体へのアクセスを拒否されたことを示しています。 これは、通常、Test-CsDialInConferencing に渡されたユーザー資格情報が無効であったことを意味します。 その後で、Windows PowerShell 資格情報オブジェクトを再作成する必要があります。 ユーザーアカウントのパスワードを取得することもできますが、次のようなコマンドを使用して SIP アドレスを確認できます。
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object SipAddress
 
@@ -129,21 +129,21 @@ TargetFqdn: atl-cs-001.litwareinc.com
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a>テストに失敗した可能性がある理由
+## <a name="reasons-why-the-test-might-have-failed"></a>テストが失敗した理由
 
-次に、テスト用のヘルプが表示される理由として、次のような原因が考えられます。
+次に、テスト用のダイヤルイン会議が失敗する主な理由を示します。
 
-  - 無効なユーザーアカウントが指定されました。 次のようなコマンドを実行すると、ユーザーアカウントが存在するかどうかを確認できます。
+  - 無効なユーザーアカウントが指定されました。 ユーザーアカウントが存在することを確認するには、次のようなコマンドを実行します。
     
         Get-CsUser "sip:kenmyer@litwareinc.com"
 
-  - ユーザーアカウントは有効ですが、アカウントは現在 Lync Server に対して有効になっていません。 Lync Server でユーザーアカウントが有効になっていることを確認するには、次のようなコマンドを実行します。
+  - ユーザーアカウントは有効ですが、アカウントは現在 Lync Server に対して有効になっていません。 ユーザーアカウントが Lync Server に対して有効になっていることを確認するには、次のようなコマンドを実行します。
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled
     
-    Enabled プロパティが False に設定されている場合は、ユーザーが現在 Lync Server を有効にしていないことを意味します。
+    Enabled プロパティが False に設定されている場合は、ユーザーが現在 Lync Server に対して有効になっていないことを意味します。
 
-  - ダイヤルイン会議のアクセス番号が間違っている可能性があります。 次のコマンドを使用して、現在構成されているダイヤルイン会議アクセス番号のリストを返すことができます。
+  - ダイヤルイン会議アクセス番号が正しくない可能性があります。 次のコマンドを使用して、現在構成されているダイヤルイン会議アクセス番号の一覧を返すことができます。
     
         Get-CsDialConferencingAccessNumber
 

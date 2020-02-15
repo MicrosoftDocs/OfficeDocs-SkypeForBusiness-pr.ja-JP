@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: インターネット インフォメーション サービス (IIS) の要件'
+title: 'Lync Server 2013: インターネットインフォメーションサービス (IIS) の要件'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184128
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3f4b51ac4996e2556ced3ad91e15a6cc58a1623c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9a086713c4c4c1ea5752c7e1b46ce46e48a0ea42
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725807"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040946"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="internet-information-services-iis-requirements-in-lync-server-2013"></a>Lync Server 2013 のインターネット インフォメーション サービス (IIS) の要件
+# <a name="internet-information-services-iis-requirements-in-lync-server-2013"></a>Lync Server 2013 のインターネットインフォメーションサービス (IIS) の要件
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41725807"
 
 <span> </span>
 
-_**最終更新日:** 2012-06-19_
+_**トピックの最終更新日:** 2012-06-19_
 
-一部の Lync Server 2013 コンポーネントには、インターネットインフォメーションサービス (IIS) が必要です。 このトピックでは、Lync Server をサポートするために必要な特定の IIS 機能について説明します。 このセクションのトピックでは、IIS の特定のコンポーネントの要件について説明します。
+いくつかの Lync Server 2013 コンポーネントには、インターネットインフォメーションサービス (IIS) が必要です。 このトピックでは、Lync Server をサポートするために必要な特定の IIS 機能について説明します。 このセクションのトピックでは、IIS の特定のコンポーネントの要件について説明します。
 
-Windows Server 2008 で Web サーバー (IIS) の役割が有効になっていると、さまざまな役割サービスが既定でインストールされます。 次の表では、Windows Server 2008 で Web サーバー (IIS) の役割が有効になったときにインストールする必要があるその他の役割サービスについて説明します。
+Windows Server 2008 で Web サーバー (IIS) の役割が有効になっていると、さまざまな役割サービスが既定でインストールされます。 次の表で、Windows Server 2008 で Web サーバー (IIS) の役割が有効になっている場合にインストールする必要がある、追加の役割サービスを示します。
 
 
 <table>
@@ -55,8 +55,8 @@ Windows Server 2008 で Web サーバー (IIS) の役割が有効になってい
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>HTTP 共通機能</p></td>
-<td><p>HTTP リダイレクション</p></td>
+<td><p>共通の HTTP 機能</p></td>
+<td><p>HTTP リダイレクト</p></td>
 </tr>
 <tr class="even">
 <td><p>アプリケーション開発</p></td>
@@ -64,7 +64,7 @@ Windows Server 2008 で Web サーバー (IIS) の役割が有効になってい
 </tr>
 <tr class="odd">
 <td><p>アプリケーション開発</p></td>
-<td><p>.NET の拡張性</p></td>
+<td><p>.NET 拡張機能</p></td>
 </tr>
 <tr class="even">
 <td><p>アプリケーション開発</p></td>
@@ -80,7 +80,7 @@ Windows Server 2008 で Web サーバー (IIS) の役割が有効になってい
 </tr>
 <tr class="odd">
 <td><p>状態と診断</p></td>
-<td><p>トレース</p></td>
+<td><p>・</p></td>
 </tr>
 <tr class="even">
 <td><p>セキュリティ</p></td>
@@ -96,7 +96,7 @@ Windows Server 2008 で Web サーバー (IIS) の役割が有効になってい
 </tr>
 <tr class="odd">
 <td><p>管理ツール</p></td>
-<td><p>IIS 6 管理の互換性</p></td>
+<td><p>IIS 6 管理互換</p></td>
 </tr>
 </tbody>
 </table>
@@ -107,12 +107,12 @@ Windows Server 2008 で Web サーバー (IIS) の役割が有効になってい
 <table>
 <thead>
 <tr class="header">
-<th><img src="images/Gg398321.security(OCS.15).gif" title="証券" alt="security" />セキュリティメモ:</th>
+<th><img src="images/Gg398321.security(OCS.15).gif" title="security" alt="security" />セキュリティに関する注意事項:</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Windows Server 2008 オペレーティングシステムで IIS 7.0 を使用している場合、Lync Server セットアップは IIS のカーネルモード認証を無効にします。</td>
+<td>Windows Server 2008 オペレーティングシステムで IIS 7.0 を使用している場合、Lync Server セットアップでは IIS でカーネルモード認証が無効になります。</td>
 </tr>
 </tbody>
 </table>
@@ -122,9 +122,9 @@ Windows Server 2008 で Web サーバー (IIS) の役割が有効になってい
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 のフロントエンド プールおよび Standard Edition サーバーの IIS 要件](lync-server-2013-iis-requirements-for-front-end-pools-and-standard-edition-servers.md)
+  - [Lync Server 2013 のフロントエンドプールおよび Standard Edition サーバーの IIS 要件](lync-server-2013-iis-requirements-for-front-end-pools-and-standard-edition-servers.md)
 
 </div>
 

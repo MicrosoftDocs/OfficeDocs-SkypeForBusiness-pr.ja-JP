@@ -12,20 +12,20 @@ ms:contentKeyID: 48183980
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bd5e0247ccdff82737c2ed7ed830b0a99b7da1f6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fc968af06590eab55d541330bbfeef9d9cc4d24c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735077"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037859"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="add-a-location-policy-to-a-network-site-in-lync-server-2013"></a>Lync Server 2013 でネットワークサイトに位置情報ポリシーを追加する
+# <a name="add-a-location-policy-to-a-network-site-in-lync-server-2013"></a>Lync Server 2013 でのネットワークサイトへの場所ポリシーの追加
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41735077"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-24_
+_**トピックの最終更新日:** 2013-02-24_
 
-次の例は、 [Lync Server 2013 の [場所ポリシーの作成](lync-server-2013-create-location-policies.md)] で定義されている**redmond**の場所ポリシーを既存のネットワークサイトに追加する方法と、 **redmond**の場所ポリシーを使用する新しいネットワークサイトを作成する方法を示しています。
+次の例は、 [Lync Server 2013 の [場所ポリシーの作成](lync-server-2013-create-location-policies.md)] で定義された**redmond**の場所のポリシーを既存のネットワークサイトに追加する方法と、 **redmond**の場所のポリシーを使用する新しいネットワークサイトを作成する方法を示しています。
 
-ネットワークサイトの操作の詳細については、次のコマンドレットの Lync Server 管理シェルに関するドキュメントを参照してください。
+ネットワークサイトの使用の詳細については、以下のコマンドレットの Lync Server Management Shell のドキュメントを参照してください。
 
   - **新しい-CsNetworkSite**
 
-  - **Get-CsNetworkSite**
+  - **-CsNetworkSite の取得**
 
-  - **Set-CsNetworkSite**
+  - **設定-CsNetworkSite**
 
-  - **CsNetworkSite の削除**
+  - **-CsNetworkSite の削除**
 
 <div>
 
 ## <a name="to-assign-a-location-policy-to-an-existing-network-site"></a>場所のポリシーを既存のネットワーク サイトに割り当てるには
 
-1.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+1.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
 2.  既存のネットワーク サイトを変更するには、以下のコマンドレットを実行します。
     
-    **Redmond** とマークされている場所のポリシーを、**Redmond** という名前の既存のネットワーク サイトに割り当てます。
+    **Redmond というタグ付き**の場所のポリシーを、 **redmond**という名前の既存のネットワークサイトに割り当てます。
     
         Set-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"
 
@@ -67,7 +67,7 @@ _**最終更新日:** 2013-02-24_
 
 ## <a name="to-assign-a-location-policy-to-a-new-network-site"></a>場所のポリシーを新しいネットワーク サイトに割り当てるには
 
-1.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+1.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
 2.  新しいネットワーク サイトを作成するには、以下のコマンドレットを実行します。
     

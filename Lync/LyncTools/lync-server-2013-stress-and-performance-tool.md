@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013 ストレスおよびパフォーマンス ツール
+title: Lync Server 2013 ストレスおよびパフォーマンスツール
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541435
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b1dd1aff9eda1d40ba231a5c23e47e77c1c19858
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6b98c2d8b45db16880f22ed3a26fc61774db2213
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723417"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038349"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-stress-and-performance-tool"></a>Lync Server 2013 ストレスおよびパフォーマンス ツール
+# <a name="lync-server-2013-stress-and-performance-tool"></a>Lync Server 2013 ストレスおよびパフォーマンスツール
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41723417"
 
 <span> </span>
 
-_**最終更新日:** 2013-01-25_
+_**トピックの最終更新日:** 2013-01-25_
 
-Lync Server 2013 のストレスとパフォーマンスツールには、Lync Server 2013 のキャパシティ計画を簡素化するためのツールが含まれています。 Lync Server 2013 のストレスとパフォーマンスツールは、次のことを行うのに役立ちます。
+Lync Server 2013 のストレスおよびパフォーマンスツールには、Lync Server 2013 の容量計画を簡素化するツールが含まれています。 Lync Server 2013 ストレスおよびパフォーマンスツールは、次のように役立ちます。
 
   - Lync Server 2013 のハードウェア計画を簡素化します。
 
-  - パフォーマンスの調整に関する知識とベストプラクティスを強化します。
+  - パフォーマンスをチューニングするための、強化された知識とベストプラクティスを提供します。
 
-  - 目的の Lync Server 2013 展開のパフォーマンスを測定します。
+  - 想定される Lync Server 2013 展開のパフォーマンスを測定します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-1.  [概要](introduction.md)
+1.  [はじめに](introduction.md)
 
 2.  [前提条件](prerequisites.md)
 
@@ -57,15 +57,15 @@ Lync Server 2013 のストレスとパフォーマンスツールには、Lync S
 
 4.  [Lync Server 2013 のシナリオを構成する](configure-lync-server-2013-scenarios.md)
 
-5.  [ユーザーと連絡先の作成](create-users-and-contacts.md)
+5.  [ユーザーと連絡先を作成する](create-users-and-contacts.md)
 
-6.  [ユーザー プロファイルの構成](configure-user-profile.md)
+6.  [ユーザープロファイルを構成する](configure-user-profile.md)
 
-7.  [LyncPerfTool の実行](run-lyncperftool.md)
+7.  [LyncPerfTool を実行する](run-lyncperftool.md)
 
 8.  [結果の解釈](interpreting-the-results.md)
 
-9.  [Lync Server 2013 のストレスとパフォーマンスに関するツールについてよく寄せられる質問](lync-server-2013-stress-and-performance-tool-faq.md)
+9.  [Lync Server 2013 ストレスおよびパフォーマンスツールの FAQ](lync-server-2013-stress-and-performance-tool-faq.md)
 
 </div>
 

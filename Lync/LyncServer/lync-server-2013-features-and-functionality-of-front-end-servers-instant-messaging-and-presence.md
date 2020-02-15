@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: フロントエンド サーバー、インスタント メッセージングおよびプレゼンスの特徴と機能'
+title: 'Lync Server 2013: フロントエンドサーバー、インスタントメッセージング、およびプレゼンスの特徴と機能'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183294
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4a76dfed553e85838739c7c348e5bc53fc9943a1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e8e25a74dcffe76f16b12a8c80f8ad8f980370dc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765155"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041036"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="features-and-functionality-of-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Lync Server 2013 のフロントエンド サーバー、インスタント メッセージングおよびプレゼンスの特徴と機能
+# <a name="features-and-functionality-of-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Lync Server 2013 のフロントエンドサーバー、インスタントメッセージング、およびプレゼンスの特徴と機能
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41765155"
 
 <span> </span>
 
-_**最終更新日:** 2013-03-17_
+_**トピックの最終更新日:** 2013-03-17_
 
-フロントエンドサーバーは、ほとんどの Lync Server 機能を提供します。 次の2つのエディションがあります。 Lync Server Enterprise Edition は、主に大規模な組織向けに設計されています。また、主に小規模の組織向けに設計されています。これは、より小さいハードウェアの investement を必要とします。高可用性が必要です。 どちらのエディションも、IM、プレゼンス、会議、エンタープライズ Voip などのすべての Lync Server ワークロードをサポートしています。
+フロントエンドサーバーは、ほとんどの Lync Server 機能を提供します。 次の2つのエディションがあります。 Lync Server Enterprise Edition は、主に大規模な組織向けに設計されており、主に小規模の組織向けに設計されており、小規模のハードウェア investement を必要とします。高可用性が必要です。 両方のエディションは、IM、プレゼンス、会議、エンタープライズ Voip などのすべての Lync Server ワークロードをサポートしています。
 
 インスタント メッセージング (IM) を使用すると、ユーザーは各自のコンピューターでテキスト ベースのメッセージを使用して、リアルタイムで相互通信を行うことができます。 2 パーティとマルチパーティの両方の IM セッションがサポートされています。 2 パーティの IM 会話の参加者は、3 番目の参加者をいつでも会話に追加できます。 この際には、会議機能をサポートするように会話ウィンドウが変更されます。
 
@@ -45,13 +45,13 @@ _**最終更新日:** 2013-03-17_
 
 
 > [!IMPORTANT]
-> Lync と Communicator クライアントが1対1の通信に関わる場合、ピアツーピアと呼ばれることがよくあります。 技術的には、2つのクライアントは1つの会話と1つの会話の間でやり取りされ、中央にはインスタントメッセージング multipoint コントロールユニット (IMMCU) が含まれます。 IMMCU は、フロントエンドサーバーのコンポーネントです。 必要な通信ワークフローに IMMCU を配置すると、フロントエンドサーバーが有効になっている通話の詳細の記録とその他の機能を使用できます。 通信は、クライアント上の動的ソースポートからフロントエンドサーバーポート TLS/TCP/5061 に送信されます (推奨トランスポート層セキュリティを使用していることを前提としています)。 設計上、ピアツーピア通信 (およびマルチパーティの IM) は、Lync Server と IMMCU がアクティブで利用可能な場合にのみ可能です。
+> 1対1の通信に関係する Lync および Communicator クライアントは、ピアツーピアと呼ばれることがよくあります。 技術的には、2つのクライアントは1つの会話に、インスタントメッセージング multipoint control unit (IMMCU) を中央に持つ1つの会話と通信します。 IMMCU はフロントエンドサーバーのコンポーネントです。 必要な通信ワークフローに IMMCU を配置すると、フロントエンドサーバーが有効になっている通話詳細記録およびその他の機能を使用できるようになります。 クライアント上の動的送信元ポートからフロントエンドサーバーポート TLS/TCP/5061 への通信です (推奨トランスポート層セキュリティを使用していることを前提としています)。 設計上、Lync Server と IMMCU がアクティブで利用可能な場合にのみ、ピアツーピア通信 (およびマルチパーティ IM) を使用できます。
 
 
 
 </div>
 
-*プレゼンス*は、ネットワーク上の他の状態に関する情報をユーザーに提供します。 ユーザーのプレゼンス状態からは、他のユーザーがそのユーザーに連絡してもよいかどうかや、連絡する場合にインスタント メッセージング、電話、メールのどれを使用するかを判断するのに役立つ情報が得られます。 プレゼンスにより、可能な場合にはすぐにやりとりできますが、他にも、ユーザーが会議中であるかどうかや、外出のために応答できない状況なのかに関する情報も提供されます。 このプレゼンス状態は、Microsoft Outlook メッセージングおよびコラボレーションクライアント、Microsoft SharePoint テクノロジ、Microsoft Word、Microsoft Excel スプレッドシートなど、Lync およびその他のプレゼンスに対応しているアプリケーションのプレゼンスアイコンとして表示されます。プログラム. プレゼンス アイコンからは、そのユーザーの現在の状態と、連絡してもよいかどうかを判別できます。
+プレゼンス** は、ネットワーク上の他のユーザーの状態に関する情報をユーザーに提供します。 ユーザーのプレゼンス状態からは、他のユーザーがそのユーザーに連絡してもよいかどうかや、連絡する場合にインスタント メッセージング、電話、および電子メールのどれを使用するかを判断するのに役立つ情報を得ることができます。 プレゼンスにより、可能な場合は即時に通信しやすくなりますが、ユーザーが会議中であるかどうかや、外出のために応答できない状況なのかに関する情報も提供されます。 このプレゼンス状態は、Lync などのプレゼンスアイコンとして表示されます。これには、Microsoft Outlook メッセージングおよびコラボレーションクライアント、Microsoft SharePoint テクノロジ、microsoft Word、microsoft Excel スプレッドシートなどのその他のプレゼンスを認識するアプリケーションがあります。ソフトウェア. プレゼンス アイコンからは、そのユーザーの現在の状態と、連絡してもよいかどうかを判別できます。
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 49733610
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: debb82de758d8ab585a6fb7e56d7af6eb2f05c62
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7e044f1153f1b7837c2658a64373db6c84e7807d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738957"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037227"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41738957"
 
 <span> </span>
 
-_**最終更新日:** 2012-11-01_
+_**トピックの最終更新日:** 2012-11-01_
 
-Lync Server 2013 用のアプリケーションを管理するには、このセクションの手順を使用します。
+Lync Server 2013 のアプリケーションを管理するには、このセクションの手順を使用します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 で新しい信頼できるアプリケーションサーバーを構成する](lync-server-2013-configure-a-new-trusted-application-server.md)
+  - [Lync Server 2013 で新しい信頼されたアプリケーションサーバーを構成する](lync-server-2013-configure-a-new-trusted-application-server.md)
 
-  - [Lync Server 2013 の信頼済みアプリケーション (アプリケーション/コンピューター/エンドポイント/プール)](lync-server-2013-trusted-applications-application-computer-endpoint-pool.md)
+  - [Lync Server 2013 の信頼されたアプリケーション (アプリケーション、コンピューター、エンドポイント、プール)](lync-server-2013-trusted-applications-application-computer-endpoint-pool.md)
 
 </div>
 
@@ -54,7 +54,7 @@ Lync Server 2013 用のアプリケーションを管理するには、このセ
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 サービスとサーバーの役割を管理する](lync-server-2013-managing-lync-server-services-and-server-roles.md)  
+[Lync Server 2013 サービスとサーバーの役割の管理](lync-server-2013-managing-lync-server-services-and-server-roles.md)  
   
 
 </div>

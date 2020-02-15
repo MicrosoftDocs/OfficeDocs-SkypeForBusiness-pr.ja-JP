@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 概要レポートを確認する'
+title: 'Lync Server 2013: 概要レポートの確認'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541459
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0fdcde0c82f2b1b157db13fe22ee5cb792a4c1c6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bf9b53c295aa2616c5886ab9383f46e64c300a99
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732997"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051501"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="reviewing-the-summary-report-in-lync-server-2013"></a>Lync Server 2013 の概要レポートを確認する
+# <a name="reviewing-the-summary-report-in-lync-server-2013"></a>Lync Server 2013 の概要レポートの確認
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41732997"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-21_
+_**トピックの最終更新日:** 2013-02-21_
 
-Lync Server 管理者レポートは、設計の詳細を記載した4つの重要なレポートの最初です。 このレポートと他の3つの関連するレポートの情報は、お客様の情報技術チーム向けの優れたドキュメントです。
+Lync Server 管理者レポートは、ユーザーの設計を詳細に記録した 4 つの貴重なレポートのうちの最初のレポートに当たります。 このレポートおよび関連付けられた他の 3 つのレポートの情報は、情報テクノロジ チームにとって貴重な資料です。
 
-![概要管理レポート](images/Gg558626.9c529ef7-cb1b-4ce1-a8bc-3ec79aba2377(OCS.15).jpg "概要管理レポート")
+![一般的な概要管理レポート](images/Gg558626.9c529ef7-cb1b-4ce1-a8bc-3ec79aba2377(OCS.15).jpg "一般的な概要管理レポート")
 
   - 証明書レポート
 
@@ -47,9 +47,9 @@ Lync Server 管理者レポートは、設計の詳細を記載した4つの重�
 
   - DNS レポート
 
-概要レポートは、エッジ ネットワークに関連付けられた一般的な構成情報を示します。レポートには、位置、完全修飾ドメイン名 (FQDN) と IP アドレス、ネットワークの種類、特定の役割に固有のコメントが記録されます。
+概要レポートは、エッジ ネットワークに関連付けられた一般的な構成情報を示します。 場所、完全修飾ドメイン名 (FQDN) と IP アドレス、ネットワークの種類、および特定の役割に固有のコメントが文書化されています。
 
-設計者および、インフラストラクチャの展開、管理、およびメンテナンスを担当する各チームは、概要レポートを参照して精度を高め、エラーを最小限に抑える必要があります。
+設計者と、インフラストラクチャの展開、管理、および保守を行う各チームは、概要レポートの精度を確認し、エラーが最小限であることを確認する必要があります。
 
 <div>
 

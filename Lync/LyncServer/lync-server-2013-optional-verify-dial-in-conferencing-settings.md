@@ -12,20 +12,20 @@ ms:contentKeyID: 48185027
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dd283e8d7b86fbadfb2c23b0e8cbe2dc22b66cce
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 86ec4e4852594e7e4748213de994b6b4f471d460
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755711"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037667"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="optional-verify-dial-in-conferencing-settings-in-lync-server-2013"></a>(オプション) Lync Server 2013 でのダイヤルイン会議の設定の検証
+# <a name="optional-verify-dial-in-conferencing-settings-in-lync-server-2013"></a>オプションLync Server 2013 でダイヤルイン会議の設定を確認する
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41755711"
 
 <span> </span>
 
-_**最終更新日:** 2010-11-02_
+_**トピックの最終更新日:** 2010-11-02_
 
-ダイヤルイン会議構成の最後の確認作業として、どのアクセス番号も使用しないダイヤルイン会議の地域があるダイヤル プランやダイヤルイン会議の地域が指定されていないアクセス番号を検索します。 この手順は省略可能です。
+ダイヤルイン会議構成の最後の確認作業として、どのアクセス番号も使用しないダイヤルイン会議の地域があるダイヤル プランやダイヤルイン会議の地域が指定されていないアクセス番号を検索します。このステップはオプションです。
 
 <div>
 
-## <a name="to-find-dial-plans-with-a-dial-in-conferencing-region-that-is-not-used-by-an-access-number"></a>アクセス番号で使用されていないダイヤルイン会議領域でダイヤルプランを検索するには
+## <a name="to-find-dial-plans-with-a-dial-in-conferencing-region-that-is-not-used-by-an-access-number"></a>どのアクセス番号も使用しないダイヤルイン会議の地域があるダイヤル プランを検索するには
 
-1.  RTCUniversalServerAdmins グループのメンバーとして、または**Cs-serveradministrator**または**csadministrator**の役割のメンバーとしてコンピューターにログオンします。
+1.  RTCUniversalServerAdmins グループのメンバーか、**Cs-ServerAdministrator** または **CsAdministrator** の役割のメンバーとしてコンピューターにログオンします。
 
-2.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+2.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
 3.  コマンド プロンプトで次のコマンドを実行します。
     
@@ -57,17 +57,17 @@ _**最終更新日:** 2010-11-02_
 
 <div>
 
-## <a name="to-find-access-numbers-without-assigned-regions"></a>割り当てられている地域のないアクセス番号を検索するには
+## <a name="to-find-access-numbers-without-assigned-regions"></a>地域が割り当てられていないアクセス番号を検索するには
 
-1.  RTCUniversalServerAdmins グループのメンバーとして、または**Cs-serveradministrator**または**csadministrator**の役割のメンバーとしてコンピューターにログオンします。
+1.  RTCUniversalServerAdmins グループのメンバーか、**Cs-ServerAdministrator** または **CsAdministrator** の役割のメンバーとしてコンピューターにログオンします。
 
-2.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+2.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
 3.  コマンド プロンプトで次のコマンドを実行します。
     
         Get-CsDialinConferencingAccessNumber -Region NULL
     
-    このコマンドレットは、地域に関連付けられていないダイヤルイン会議アクセス番号をすべて返します。
+    このコマンドレットは、地域に関連付けられていないダイヤルイン会議のアクセス番号をすべて返します。
 
 </div>
 

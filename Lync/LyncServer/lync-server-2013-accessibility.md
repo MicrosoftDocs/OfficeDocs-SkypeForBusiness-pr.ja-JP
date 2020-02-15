@@ -12,20 +12,20 @@ ms:contentKeyID: 48183681
 ms.date: 01/15/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b3830196baea942bcbdf2109b9a3a761083cd02
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ddaf4d5c8d85adfd7d69955df20ab6018966845b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730479"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037889"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="accessibility-in-lync-server-2013"></a>Lync Server 2013 のアクセシビリティ
+# <a name="accessibility-in-lync-server-2013"></a>Lync Server 2013 でのアクセシビリティ
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41730479"
 
 <span> </span>
 
-_**最終更新日:** 2014-10-09_
+_**トピックの最終更新日:** 2014-10-09_
 
-Microsoft は、すべてのユーザーが使用できるように製品とサービスをより簡単にするために取り組んでいます。 以下のセクションでは、障碍のある方にとって Lync Server 2013 のアクセシビリティを高めるのに役立つ機能、製品、サービスについて説明します。
+Microsoft では、すべてのユーザーにとって使いやすい製品とサービスを提供できるよう取り組んでいます。 次のセクションでは、障碍がある方のために Lync Server 2013 をより使いやすくするために役立つ機能、製品、およびサービスについて説明します。
 
 <div>
 
-## <a name="accessibility-features-of-lync-server-2013"></a>Lync Server 2013 のアクセシビリティ機能
+## <a name="accessibility-features-of-lync-server-2013"></a>Lync Server 2013 のユーザー補助機能
 
-Lync Server 2013 の次の機能を使用すると、障碍のある方にとってアクセシビリティの高い機能を実現できます。
+Lync Server 2013 の次の機能を使用すると、障碍のある方がアクセスしやすくなります。
 
-  - ショートカットキー
+  - キーボード ショートカット
 
   - 図の代替テキスト
 
-また、Windows のアクセシビリティ機能とツールによっては、Lync Server ユーザーが障碍のある方が便利な場合があります。 Windows PowerShell のサイズと色を変更すると、Lync Server 管理シェルを使用するときのアクセシビリティオプションが提供されます。 Windows PowerShell のアクセシビリティオプションの詳細については、TechNet ライブラリの「Windows PowerShell 2.0 での[http://go.microsoft.com/fwlink/p/?linkId=98964](http://go.microsoft.com/fwlink/p/?linkid=98964)アクセシビリティ」を参照してください。
+また、Windows のユーザー補助機能とツールの中には、Lync Server ユーザーに障害が発生する利点があります。 Windows PowerShell のサイズと色の変更によって、Lync Server 管理シェルを使用する場合のユーザー補助オプションが提供されます。 Windows PowerShell のユーザー補助オプションの詳細については、TechNet ライブラリの「Windows PowerShell 2.0 で[http://go.microsoft.com/fwlink/p/?linkId=98964](http://go.microsoft.com/fwlink/p/?linkid=98964)のアクセシビリティ」を参照してください。
 
 </div>
 
@@ -57,11 +57,11 @@ Lync Server 2013 の次の機能を使用すると、障碍のある方にとっ
 
 <div>
 
-## <a name="keyboard-shortcuts"></a>ショートカットキー
+## <a name="keyboard-shortcuts"></a>キーボード ショートカット
 
-キーボードショートカットを使用して、Lync Server 管理ツールやその他の機能のユーザーインターフェイスを操作することができます。
+Lync Server 管理ツールおよびその他の機能のユーザーインターフェイスを操作するには、キーボードショートカットを使用できます。
 
-キーボードショートカットを使用すると、次の一般的なタスクをすばやく実行できます。
+キーボード ショートカットを使用することによって、次のような一般的なタスクを迅速に実行できます。
 
 
 <table>
@@ -71,61 +71,61 @@ Lync Server 2013 の次の機能を使用すると、障碍のある方にとっ
 </colgroup>
 <thead>
 <tr class="header">
-<th>目的</th>
-<th>使用するショートカットキー</th>
+<th>操作内容</th>
+<th>使用するキーボード ショートカット</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>ユーザーインターフェイスで要素を切り替える。</p></td>
-<td><p>見出し</p></td>
+<td><p>ユーザー インターフェイスの要素の間で切り替える</p></td>
+<td><p>Tab</p></td>
 </tr>
 <tr class="even">
-<td><p>選択した要素のアクションを実行します。たとえば、[<strong>すべて表示</strong>]、[<strong>すべて表示</strong>しない]、[ハイパーリンクを開く] などです。</p></td>
-<td><p>ください</p></td>
+<td><p>[<strong>すべて表示</strong>]、[<strong>すべて非表示</strong>]、ハイパーリンクのオープンなど、選択した要素に対してアクションを実行する</p></td>
+<td><p>次のように入力します</p></td>
 </tr>
 <tr class="odd">
-<td><p>選択した要素を、ページまたはメニューの次の要素に変更します。</p></td>
-<td><p>見出し</p></td>
+<td><p>選択要素をページまたはメニューの次の要素に変更する</p></td>
+<td><p>Tab</p></td>
 </tr>
 <tr class="even">
-<td><p>選択した要素をページの前の要素に変更します。</p></td>
+<td><p>選択要素をページの前の要素に変更する</p></td>
 <td><p>Shift + Tab</p></td>
 </tr>
 <tr class="odd">
-<td><p>ページまたはメニュー上の選択した要素を上下左右に変更します。</p></td>
+<td><p>ページまたはメニューで選択要素を上、下、左、右に変更する</p></td>
 <td><p>方向キー</p></td>
 </tr>
 <tr class="even">
-<td><p>ツリーで選んだノードを展開します。</p></td>
-<td><p>+キー</p></td>
+<td><p>ツリーの選択されたノードを展開する</p></td>
+<td><p>+要点</p></td>
 </tr>
 <tr class="odd">
-<td><p>ツリーで選んだノードを折りたたみます。</p></td>
-<td><p>-キー</p></td>
+<td><p>ツリーの選択されたノードを折りたたむ</p></td>
+<td><p>-要点</p></td>
 </tr>
 <tr class="even">
-<td><p>メニューバーにアクセスする。</p></td>
-<td><p>Del</p></td>
+<td><p>メニュー バーにアクセスする</p></td>
+<td><p>Alt</p></td>
 </tr>
 <tr class="odd">
-<td><p>メニューバーコマンドにアクセスする。</p></td>
-<td><p>Alt + ショートカットメニューの下線付き文字</p></td>
+<td><p>メニュー バー コマンドにアクセスする</p></td>
+<td><p>Alt + ショートカット メニューで下線の付いている文字</p></td>
 </tr>
 <tr class="even">
-<td><p>証明書ウィザードでドロップダウンリストを選択します。</p></td>
-<td><p>見出し</p></td>
+<td><p>証明書ウィザードでドロップダウン リストを選択する</p></td>
+<td><p>Tab</p></td>
 </tr>
 <tr class="odd">
-<td><p>証明書ウィザードでドロップダウンリストを開きます。</p></td>
+<td><p>証明書ウィザードでドロップダウン リストを開く</p></td>
 <td><p>Ctrl + Space</p></td>
 </tr>
 <tr class="even">
-<td><p>証明書ウィザードのドロップダウンリストで、項目を強調表示します。</p></td>
-<td><p>Tab キーを押し、Ctrl キーを押しながら方向キーを押して項目間を移動します。</p></td>
+<td><p>証明書ウィザードでドロップダウン リストの項目を強調表示する</p></td>
+<td><p>Tab キーを押した後、Ctrl キーを押しながら方向キーを押して項目間を移動</p></td>
 </tr>
 <tr class="odd">
-<td><p>証明書ウィザードのドロップダウンリストで、アイテムを選択または選択解除します。</p></td>
+<td><p>証明書ウィザードでドロップダウン リストの項目を選択または選択解除する</p></td>
 <td><p>Ctrl + Space</p></td>
 </tr>
 </tbody>
@@ -140,7 +140,7 @@ Lync Server 2013 の次の機能を使用すると、障碍のある方にとっ
 
 ## <a name="alternate-text-for-figures"></a>図の代替テキスト
 
-Lync Server 2013 ヘルプのすべての図 (スクリーンショット、図、フローチャート、その他の図など) には、代替テキストが関連付けられています。 図の表示が困難なユーザーは、図のカーソルを一時停止して代替テキストを読み上げることができます。 代替テキストは、図に示されている内容を説明します。
+Lync Server 2013 のヘルプのすべての図には、スクリーンショット、図、フローチャート、その他の図を含む代替テキストが関連付けられています。 図を見ることが困難なユーザーは、図の上にカーソルを置くと、代替テキストを読むことができます。 代替テキストには、図の内容が説明されています。
 
 </div>
 
@@ -148,15 +148,15 @@ Lync Server 2013 ヘルプのすべての図 (スクリーンショット、図�
 
 <div>
 
-## <a name="accessibility-products-and-services-from-microsoft"></a>Microsoft のアクセシビリティ製品とサービス
+## <a name="accessibility-products-and-services-from-microsoft"></a>マイクロソフトが提供するユーザー補助製品およびサービス
 
-以下のセクションでは、障碍のあるユーザーが Windows を使いやすくするための機能、製品、サービスについて説明します。
+次のセクションでは、障碍がある方のために Windows をより使いやすくするための機能、製品、およびサービスについて説明します。
 
 <div>
 
 
 > [!NOTE]  
-> このセクションの情報は、米国で Microsoft 製品をライセンスしているユーザーにのみ適用されます。 この製品を米国外で入手した場合は、ソフトウェアパッケージに付属の子会社の情報カードを使用するか、Microsoft のアクセシビリティ web <A href="http://go.microsoft.com/fwlink/p/?linkid=18139">http://go.microsoft.com/fwlink/p/?linkId=18139</A>サイトにアクセスして、microsoft サポートサービスの電話番号と住所の一覧を参照してください。 このセクションに記載されている製品とサービスの種類が、お住まいの地域で利用可能かどうかを確認するには、お住まいの地域に連絡してください。 Microsoft 製品に含まれているアクセシビリティ機能の詳細については、「Microsoft 製品の web サイトのアクセシビリティ」を参照してください。
+> ここに記載されている情報は、米国内で Microsoft 製品のライセンスを取得しているユーザーのみが対象となります。 この製品を米国外で購入した場合は、ソフトウェアパッケージに付属の子会社情報カードを使用するか、microsoft アクセシビリティ web サイト<A href="http://go.microsoft.com/fwlink/p/?linkid=18139">http://go.microsoft.com/fwlink/p/?linkId=18139</A>にアクセスして、microsoft サポートサービスの電話番号と住所の一覧を参照できます。 ここで説明する種類の製品やサービスがお住まいの地域で利用できるかどうかについては、お近くの子会社に問い合わせてください。 マイクロソフト製品に含まれているユーザー補助機能の詳細については、Web サイト「Accessibility in Microsoft Products」を参照してください。
 
 
 
@@ -166,25 +166,25 @@ Lync Server 2013 ヘルプのすべての図 (スクリーンショット、図�
 
 ## <a name="accessibility-features-of-windows"></a>Windows のユーザー補助機能
 
-Windows オペレーティングシステムには、入力やマウスの使用が困難な方、視覚に障碍のある方、または聴覚障碍のある方にとって役立つ、さまざまなアクセシビリティ機能が用意されています。 これらの機能は、セットアップ時にインストールされます。 これらの機能の詳細については、「Windows の[http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)ヘルプまたは Microsoft のアクセシビリティ」を参照してください。
+Windows オペレーティング システムには、キーボード入力やマウスの使用が困難な方や、視覚や聴覚に障碍がある方に役立つ、ユーザー補助機能が多数組み込まれています。 これらの機能は、セットアップ中にインストールされます。 これらの機能の詳細については、「Windows ヘルプ[http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)または Microsoft アクセシビリティ」を参照してください。
 
-  - **無料のステップバイステップガイド**   Microsoft は、コンピューター上のアクセシビリティオプションと設定を調整するための詳しい手順を説明する一連のステップバイステップガイドを提供しています。 この情報は、マウス、キーボード、または両方の組み合わせを使用する方法を学習できるように、左右に並べて表示されます。
+  - **無料のステップバイステップチュートリアル**   Microsoft は、コンピューター上のユーザー補助のオプションと設定を調整するための詳細な手順を説明する一連のステップごとのチュートリアルを提供しています。 この情報は隣り合わせに表示されるため、マウス、キーボード、またはその組み合わせの使用方法がひとめでわかります。
     
-    Microsoft 製品のステップバイステップガイドについては、「Microsoft の[http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)アクセシビリティ」を参照してください。
+    Microsoft 製品のステップバイステップのチュートリアルについては、「Microsoft Accessibility [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)」を参照してください。
 
-  - **Windows 向けの支援技術製品**   には、障碍のある方に簡単にコンピューターを使用できるように、さまざまな支援技術製品が用意されています。 Microsoft アクセシビリティ web サイトの Windows で実行される支援技術製品のカタログを検索すること[http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)ができます。
+  - **Windows 用の支援技術製品**   には、障碍のある方のためにコンピューターを使いやすくするためのさまざまな支援技術製品が用意されています。 Microsoft アクセシビリティ web サイト上の Windows 上で実行されている支援技術製品のカタログ[http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)は、で検索できます。
     
-    支援技術を利用している場合は、ソフトウェアまたはハードウェアをアップグレードする前に支援技術のベンダーに連絡して、互換性の問題がないか確認してください。
+    補助テクノロジを使用する場合は、ソフトウェアまたはハードウェアをアップグレードする前に、互換性の問題がないかどうかを補助テクノロジ ベンダーにお問い合わせください。
 
 </div>
 
 <div>
 
-## <a name="documentation-in-alternative-formats"></a>別の形式のドキュメント
+## <a name="documentation-in-alternative-formats"></a>代替形式のドキュメント
 
-印刷資料の読み取りや処理が困難な場合は、よりアクセシビリティの高い形式で、多くの Microsoft 製品のドキュメントを入手できます。 Microsoft アクセシビリティ web サイトで、アクセシビリティの高い製品ドキュメントのインデックスを取得[http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)できます。
+Microsoft 製品のドキュメントの多くは、印刷されたドキュメントが読みにくい、または扱いにくい方でも快適にご利用いただけるよう、さまざまな形態で入手できます。 アクセス可能な製品ドキュメントのインデックスは、Microsoft アクセシビリティ web サイトのから[http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)入手できます。
 
-さらに、失読症、Inc. (RFB\&D) のブラインド & の記録から、その他の Microsoft のドキュメントを取得することもできます。 RFB\&D は、これらのドキュメントを、配布サービスの登録済みの対象メンバーに配布します。 Microsoft プレスの microsoft 製品ドキュメントと書籍の可用性の詳細については、\&RFB D にお問い合わせください。
+さらに、ブラインド & Dyslexic (http://www.rfbd.org/http://www.rfbd.org/, Inc (RFB\&D) の記録から、その他の Microsoft の文書を入手することもできます。 RFB\&D は、これらのドキュメントを、配布サービスの登録済みの対象となるメンバーに配布します。 Microsoft プレスからの Microsoft 製品ドキュメントおよび書籍の入手については、RFB\&D を参照してください。
 
 
 <table>
@@ -193,11 +193,11 @@ Windows オペレーティングシステムには、入力やマウスの使用
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>ブラインド&amp;失読症, inc. のレコーディング</p>
-<p>20 roszel の交通</p>
-<p>PrinNJ 08540</p>
+<td><p>ブラインド&amp; Dyslexic (http://www.rfbd.org/http://www.rfbd.org/, Inc のレコーディング</p>
+<p>20 Roszel Road</p>
+<p>Princeton, NJ 08540</p>
 <p>米国内からの電話番号: (800) 221-4792</p>
-<p>Web サイト: のブラインド&amp;失読症の記録<a href="http://www.rfbd.org/" class="uri">http://www.rfbd.org/</a></p></td>
+<p>Web サイト: 次の場所&amp;にあるブラインド Dyslexic (http://www.rfbd.org/http://www.rfbd.org/の記録<a href="http://www.rfbd.org/" class="uri">http://www.rfbd.org/</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -209,15 +209,15 @@ Windows オペレーティングシステムには、入力やマウスの使用
 
 ## <a name="customer-service-for-people-with-disabilities"></a>障碍のある方のためのカスタマーサービス
 
-Microsoft は、障碍のある方を含め、すべてのユーザーに最適なエクスペリエンスを提供したいと考えています。 ヘルプが必要な場合は、skype のアクセシビリティサポートチームに連絡してください。 skype は、電話やメールで障碍のあるユーザーを支援します。
+Microsoft は、障碍のある方を含むすべてのお客様に最適な経験を提供したいと考えています。 サポートが必要な場合は、ユーザー補助サポートチームに連絡してください。電話または電子メールで障碍のある方のためのトレーニングを受けることができます。
 
-[障碍の Answer Desk に連絡する](http://support.microsoft.com/gp/contact-microsoft-accessibility)
+[障碍応答デスクに連絡する](http://support.microsoft.com/gp/contact-microsoft-accessibility)
 
-直通電話: 1-800-936-5900
+直通電話回線: 1-800-936-5900
 
 TTY: 1-800-892-5234
 
-平日: 午前5時 -午後9時 (太平洋標準時)
+平日: 午前5時 -9 P.M. (太平洋標準時)
 
 週末: 午前6時 ~ 午後3時 (太平洋標準時)
 
@@ -225,15 +225,15 @@ TTY: 1-800-892-5234
 
 <div>
 
-## <a name="customer-service-for-people-with-hearing-impairments"></a>聞くことに困難のある方のためのカスタマー サービス
+## <a name="customer-service-for-people-with-hearing-impairments"></a>聴覚に障碍がある方のための顧客サービス
 
-聴覚に障碍のある方は、テキスト電話 (TTY/TDD) サービスを利用して、Microsoft 製品とカスタマーサービスに完全にアクセスできます。
+聴覚に障碍がある方は、テキスト電話 (TTY/TDD) サービスをご利用いただくと、Microsoft 製品および顧客サービスにアクセスできます。
 
-  - カスタマサービスについては、Microsoft の売上情報センター (800) 892-5234 (6:30 am) にお問い合わせください。 午後5:30 太平洋標準時 (休日を除く) 月曜日 ~ 金曜日。
+  - 顧客サービスについては、祝日を除く月曜から金曜の午前 6 時 30 分から午後 5 時 30 分 (太平洋標準時) の間に Microsoft Sales Information Center (電話: (800) 892-5234) までお問い合わせください。
 
-  - 米国のテクニカルサポートについては、Microsoft 製品サポートサービス (800) 892-5234 (6:00 am) にお問い合わせください。 午後6:00 太平洋標準時 (休日を除く) 月曜日 ~ 金曜日。 カナダの場合は、8:00 A.M. の間の 568-9641 (905) 午後8:00 東部標準時 (祝祭日を除く) 月曜日から金曜日までの時間。
+  - 米国内における技術サポートについては、祝日を除く月曜から金曜の午前 6 時から午後 6 時 (太平洋標準時) の間に Microsoft Product Support Services (電話: (800) 892-5234) までお問い合わせください。カナダの場合は、祝日を除く月曜から金曜の午前 8 時から午後 8 時の間に (905) 568-9641 までお問い合わせください。
 
-Microsoft サポートサービスには、サービスを使用する時点での料金、条項、条件が適用されます。 詳細については、の[http://go.microsoft.com/fwlink/p/?linkId=18142](http://go.microsoft.com/fwlink/p/?linkid=18142)Microsoft サポートに関するページを参照してください。
+Microsoft のサポート サービスには、サービス利用時の料金、条項、および条件が適用されます。 詳細については、「 [http://go.microsoft.com/fwlink/p/?linkId=18142](http://go.microsoft.com/fwlink/p/?linkid=18142)Microsoft サポート」を参照してください。
 
 </div>
 
@@ -241,9 +241,9 @@ Microsoft サポートサービスには、サービスを使用する時点で�
 
 <div>
 
-## <a name="for-more-information"></a>関連情報
+## <a name="for-more-information"></a>詳細情報
 
-障碍のある方の生活を向上させるために、コンピューターのアクセシビリティ技術の詳細について[http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)は、「Microsoft のアクセシビリティ」を参照してください。
+障碍のある方がコンピューターの機能を向上させる方法については、「Microsoft Accessibility」 [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)を参照してください。
 
 </div>
 

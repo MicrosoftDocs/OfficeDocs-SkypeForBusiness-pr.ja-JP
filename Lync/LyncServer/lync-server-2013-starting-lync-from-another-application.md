@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 別のアプリケーションから Lync を起動する'
+title: 'Lync Server 2013: 別のアプリケーションからの Lync の起動'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184184
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dafb8295d3070cd9f38e8691e654146978156d45
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c22f5e365e47ae7b6a41cd6e917b87718e07ac9e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764403"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038759"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="starting-lync-from-another-application"></a>別のアプリケーションから Lync を起動する
+# <a name="starting-lync-from-another-application"></a>別のアプリケーションからの Lync の起動
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41764403"
 
 _**トピックの最終更新日:** 2013-02-20_
 
-コマンドラインパラメーターを使用して、Lync 2013 のクイック起動を行うことができます。 たとえば、ユーザーが別のアプリケーションで電話番号をクリックした場合、アプリケーションは Lync 2013 のインスタンスを起動し、その番号への通話を開始することができます。
+コマンドラインパラメーターを使用して、Lync 2013 をクイックスタートすることができます。 たとえば、ユーザーが別のアプリケーションで電話番号をクリックすると、アプリケーションは Lync 2013 のインスタンスを開始し、その番号への呼び出しを開始することができます。
 
-Lync 2013 では、連絡先名のセミコロンで区切られたリストを、マルチパーティ会議でも認識できます。
+Lync 2013 は、マルチパーティ会議の連絡先名のセミコロンで区切られたリストを認識することもできます。
 
-Lync 2013 が起動時に自動的にサインインするように構成されている場合は、コマンドラインパラメーターを使用して Lync 2013 を起動すると、Lync メインウィンドウが開きます。 Lync が起動時に自動的にサインインするように構成されていない場合は、サインインウィンドウが開きます。
+Lync 2013 が開始時に自動的にサインインするように構成されている場合、lync 2013 をコマンドラインパラメーター付きで開始すると、Lync のメインウィンドウが開きます。 Lync で起動時の自動的なサインインが構成されていない場合は、サインイン ウィンドウが開きます。
 
-次の表は、使用できるパラメーターを示しています。
+次の表に、使用可能なパラメーターを示します。
 
-### <a name="lync-2013-command-line-parameters"></a>Lync 2013 のコマンドラインパラメーター
+### <a name="lync-2013-command-line-parameters"></a>Lync 2013 コマンドラインパラメーター
 
 <table>
 <colgroup>
@@ -55,50 +55,50 @@ Lync 2013 が起動時に自動的にサインインするように構成され�
 </colgroup>
 <thead>
 <tr class="header">
-<th>補助</th>
-<th>データの書式設定</th>
-<th>アクション</th>
+<th>拡張子</th>
+<th>データ形式</th>
+<th>Action</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>tel</p></td>
+<td><p>電話</p></td>
 <td><p>tel URI</p></td>
-<td><p>音声通話の会話ウィンドウが開きますが、指定された番号をダイヤルしません。</p></td>
+<td><p>音声通話用に [会話] ウィンドウを開きますが、指定の番号はダイヤルしません。</p></td>
 </tr>
 <tr class="even">
 <td><p>callto</p></td>
-<td><p>tel:、sip:、または?</p></td>
-<td><p>音声通話の会話ウィンドウが開きますが、指定された番号をダイヤルしません。</p></td>
+<td><p>tel:、sip:、または入力可能な tel URI</p></td>
+<td><p>音声通話用に [会話] ウィンドウを開きますが、指定の番号はダイヤルしません。</p></td>
 </tr>
 <tr class="odd">
-<td><p>フェデレーション</p></td>
+<td><p>sip</p></td>
 <td><p>SIP URI</p></td>
-<td><p>参加者リストの指定した SIP uri (URL) を使用して、会話ウィンドウを開きます。</p></td>
+<td><p>参加者リストの指定の SIP 一意リソース識別子 (URI) で、[会話] ウィンドウを開きます。</p></td>
 </tr>
 <tr class="even">
-<td><p>Sip</p></td>
+<td><p>Sips</p></td>
 <td><p>SIP URI</p></td>
-<td><p>Lync 2013 がトランスポート層セキュリティ (TLS) プロトコルを使用するように構成されている場合、sip: とまったく同じ機能が使われます。 TLS が使用されていない場合は、より高いレベルのセキュリティが必要であることをユーザーに知らせるダイアログボックスが表示されます。</p></td>
+<td><p>Lync 2013 がトランスポート層セキュリティ (TLS) プロトコルを使用するように構成されている場合は、sip: とまったく同じように機能します。 TLS が使用されていない場合は、より高いセキュリティ レベルが必要であることをユーザーに通知するダイアログ ボックスが表示されます。</p></td>
 </tr>
 <tr class="odd">
-<td><p>会議</p></td>
+<td><p>conf</p></td>
 <td><p>参加する会議の SIP URI</p></td>
-<td><p>URI が self の場合は、フォーカスがインスタンス化され、一覧のみのビューが表示されます。 そうしないと、[名簿] ビューが表示されますが、招待状は送信されません。</p></td>
+<td><p>自己の URI の場合は、フォーカスをインスタンス化して名簿のみを表示します。 名簿を表示しない場合は、INVITE を送信しないでください。</p></td>
 </tr>
 <tr class="even">
-<td><p>im</p></td>
+<td><p>メッセージング</p></td>
 <td><p>SIP URI</p></td>
-<td><p>SIP URI でインスタントメッセージング (IM) 専用の会話ウィンドウを表示します。 区切り記号を付けずに、山かっこ&lt;&gt;() 内で指定された複数の SIP uri を受け入れます。</p>
+<td><p>SIP URI でインスタント メッセージング (IM) のみの [会話] ウィンドウを表示します。 山かっこ (&lt;&gt;) 内で指定した複数の SIP uri を区切り記号なしで受け入れます。</p>
 <pre><code>im:&lt;sip:user1@host&gt;&lt;sip:user2@host&gt;</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-次の表では、これらのコマンドラインパラメーターの例を示します。
+次の表にこれらコマンドライン パラメーターの例を示します。
 
-### <a name="command-line-parameter-examples"></a>コマンドラインパラメーターの例
+### <a name="command-line-parameter-examples"></a>コマンドライン パラメーターの例
 
 <table>
 <colgroup>
@@ -107,30 +107,30 @@ Lync 2013 が起動時に自動的にサインインするように構成され�
 </colgroup>
 <thead>
 <tr class="header">
-<th>Instance</th>
-<th>より</th>
+<th>インスタンス</th>
+<th>結果</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Tel: + 14255550101</p></td>
-<td><p>+ 14255550101 で電話専用ビューを開きます。</p></td>
+<td><p>+14255550101 の電話のみの表示を開きます。</p></td>
 </tr>
 <tr class="even">
-<td><p>Callto: tel: + 14255550101</p></td>
-<td><p>+ 14255550101 で電話専用ビューを開きます。</p></td>
+<td><p>Callto:tel:+ 14255550101</p></td>
+<td><p>+14255550101 の電話のみの表示を開きます。</p></td>
 </tr>
 <tr class="odd">
 <td><p>Callto:sip:kazuto@litwareinc.com</p></td>
-<td><p>Kazuto@litwareinc.com で電話専用ビューを開きます。</p></td>
+<td><p>kazuto@litwareinc.com との電話のみの表示を開きます。</p></td>
 </tr>
 <tr class="even">
 <td><p>sip:kazuto@litwareinc.com</p></td>
-<td><p>Kazuto@litwareinc.com を使用して、会話ウィンドウを開きます。</p></td>
+<td><p>kazuto@litwareinc.com との [会話] ウィンドウを開きます。</p></td>
 </tr>
 <tr class="odd">
 <td><p>conf: sip:https://meet.contoso.com/kazuto/7322994</p></td>
-<td><p>会話ウィンドウが開き、会議の音声参加オプションが表示されます。</p></td>
+<td><p>会話ウィンドウが開き、会議のオーディオ参加オプションが表示されます。</p></td>
 </tr>
 </tbody>
 </table>

@@ -12,20 +12,20 @@ ms:contentKeyID: 48184756
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c6f159cc77cccd5db031caa83b1d9abf90c92790
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a1bd882fa889589a260e2327ff27fb80fe30937c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755137"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046750"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-archiving-in-lync-server-2013"></a>Lync Server 2013 のアーカイブの計画
+# <a name="planning-for-archiving-in-lync-server-2013"></a>Lync Server 2013 でのアーカイブの計画
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41755137"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-28_
+_**トピックの最終更新日:** 2012-09-28_
 
-企業やその他の組織には、特定の種類の通信内容を保持するように求める規制が業界や政府機関から多数課せられています。 組織にこのような要件がある場合は、Lync server 2013 でアーカイブを使用して、コンプライアンス要件の一部をサポートできるように、Lync Server 経由で送信されたインスタントメッセージング (IM) と会議 (会議) の通信をアーカイブすることができます。
+企業やその他の組織には、特定の種類の通信内容を保持するように求める規制が業界や政府機関から多数課せられています。 組織でこのような要件がある場合は、Lync Server 2013 のアーカイブを使用して、Lync Server 経由で送信されたインスタントメッセージング (IM) と会議 (会議) の通信をアーカイブし、コンプライアンス要件の一部をサポートできます。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 のアーカイブの概要](lync-server-2013-overview-of-archiving.md)
+  - [Lync Server 2013 でのアーカイブの概要](lync-server-2013-overview-of-archiving.md)
 
   - [Lync Server 2013 でのアーカイブのしくみ](lync-server-2013-how-archiving-works.md)
 
   - [Lync Server 2013 でのアーカイブ要件の定義](lync-server-2013-defining-your-requirements-for-archiving.md)
 
-  - [Lync Server 2013 のアーカイブ用のコンポーネントとトポロジ](lync-server-2013-components-and-topologies-for-archiving.md)
+  - [Lync Server 2013 でのアーカイブ用のコンポーネントとトポロジ](lync-server-2013-components-and-topologies-for-archiving.md)
 
   - [Lync Server 2013 でのアーカイブの技術要件](lync-server-2013-technical-requirements-for-archiving.md)
 
-  - [Lync Server 2013 のアーカイブの展開チェックリスト](lync-server-2013-deployment-checklist-for-archiving.md)
+  - [Lync Server 2013 でのアーカイブの展開チェックリスト](lync-server-2013-deployment-checklist-for-archiving.md)
 
 </div>
 

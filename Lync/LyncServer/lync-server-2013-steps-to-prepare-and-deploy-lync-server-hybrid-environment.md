@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Lync Server ハイブリッド環境を準備および展開する手順'
+title: 'Lync Server 2013: Lync Server ハイブリッド環境を準備および展開するための手順'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185060
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6ebcce8d0021789a409c8f41b5f635d82284b7bc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3326db7ce62279c4295bc13ec262a5a553ca5e62
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764393"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038699"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="steps-to-prepare-and-deploy-lync-server-2013-hybrid-environment"></a>Lync Server 2013 ハイブリッド環境を準備および展開する手順
+# <a name="steps-to-prepare-and-deploy-lync-server-2013-hybrid-environment"></a>Lync Server 2013 ハイブリッド環境を準備および展開するための手順
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41764393"
 
 <span> </span>
 
-_**最終更新日:** 2016-12-08_
+_**トピックの最終更新日:** 2016-12-08_
 
-次の表に、Skype for Business Online と Microsoft Office 365 でのハイブリッド展開の環境を準備するために必要な手順を示します。
+次の表に、Skype for Business Online および Microsoft Office 365 を使用したハイブリッド展開用に環境を準備するために必要な手順を示します。
 
 
 <table>
@@ -48,65 +48,65 @@ _**最終更新日:** 2016-12-08_
 </colgroup>
 <thead>
 <tr class="header">
-<th>完了状態</th>
-<th>ステップ</th>
+<th>完了済み</th>
+<th>手順</th>
 <th>説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td></td>
-<td><p>Office 365 のテナントアカウントを作成して、Lync Online を有効にする</p></td>
-<td><p>Office <a href="https://go.microsoft.com/fwlink/p/?linkid=254980">365</a>での office 365 と Lync Online について説明します。</p>
-<p>環境の Office 365 の準備が整っていることを確認するには、<a href="https://go.microsoft.com/fwlink/p/?linkid=401408">システム要件</a>を参照してください。</p>
-<p>Office 365 のセットアップの詳細については、「 <a href="https://go.microsoft.com/fwlink/p/?linkid=254982">office 365 の使用を開始</a>する」および「 <a href="http://go.microsoft.com/fwlink/p/?linkid=254979">office 365</a>をセットアップする」を参照してください。</p></td>
+<td><p>Office 365 のテナントアカウントを作成して Lync Online を有効にする</p></td>
+<td><p>Office 365 および Lync Online ( <a href="https://go.microsoft.com/fwlink/p/?linkid=254980">office 365</a>) について説明します。</p>
+<p>環境で Office 365 の準備が整っていることを確認するには、<a href="https://go.microsoft.com/fwlink/p/?linkid=401408">システム要件</a>を参照してください。</p>
+<p>Office 365 のセットアップの詳細については、「 <a href="https://go.microsoft.com/fwlink/p/?linkid=254982">365 office を使い始める</a>」および「 <a href="http://go.microsoft.com/fwlink/p/?linkid=254979">office 365</a>をセットアップする」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td></td>
 <td><p>ドメインを追加して所有権を確認する</p></td>
-<td><p>ドメインは、「<em>バニティ ドメイン</em>」とも呼ばれます。Office 365 テナントにドメインを追加して、Office 365 でそのドメインを検証します。この検証は、ドメインの所有者が自分であることを確認するために必要な手順です。</p>
-<p>Office 365 テナントにドメインを追加するには、「 <a href="https://go.microsoft.com/fwlink/p/?linkid=254983">office 365 にドメインを追加</a>する」に記載されている手順を実行します。</p>
-<p>「Office 365 サービスの DNS レコードを編集する」など&quot;、トピックの各セクションのすべての手順を実行します。&quot;</p></td>
+<td><p>ドメインは、<em>バニティドメイン</em>と呼ばれることもあります。 Office 365 テナントにドメインを追加してから、「Office 365 でドメインを検証するには」の手順を実行する必要があります。 これは、ドメインの所有者であることを確認するためのものです。</p>
+<p>Office 365 テナントにドメインを追加するには、「 <a href="https://go.microsoft.com/fwlink/p/?linkid=254983">add your domain To office 365</a>」に記載されている手順に従います。</p>
+<p>「Office 365 サービスの DNS レコードの編集」を含む&quot;、トピックの各セクションのすべての手順を完了します。&quot;</p></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td><p>環境の準備状況を確認する</p></td>
-<td><p>Office 365 セットアップアシスタントを使用して、Office 365 を展開することができます。 詳細については、「<a href="https://go.microsoft.com/fwlink/p/?linkid=254985">セットアップアシスタントを使用して Office 365 の準備を確認する」を</a>参照してください。</p>
-<p>このツールの使用と Office 365 の展開の詳細については、「 <a href="https://go.microsoft.com/fwlink/p/?linkid=257337">office 365 展開ガイド</a>」を参照してください。</p></td>
+<td><p>Office 365 セットアップアシスタントを使用して、Office 365 を展開することができます。 詳細については、「<a href="https://go.microsoft.com/fwlink/p/?linkid=254985">セットアップアシスタントを使用して Office 365 の準備状況を判断する</a>」を参照してください。</p>
+<p>ツールの使用と Office 365 の展開の詳細については、「 <a href="https://go.microsoft.com/fwlink/p/?linkid=257337">office 365 展開ガイド</a>」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td></td>
 <td><p>Active Directory の同期を準備する</p></td>
-<td><p>Active Directory の同期によって、オンプレミスの Active Directory が Office 365 と継続的に同期されます。 これにより、各ユーザー アカウントおよびグループの同期バージョンを作成できるだけでなく、ローカルの Microsoft Exchange Server 環境から Microsoft Exchange Online へのグローバル アドレス一覧 (GAL) の同期を実行できるようになります。</p>
+<td><p>Active Directory 同期では、オンプレミスの Active Directory が Office 365 と継続的に同期されます。 これにより、各ユーザーアカウントおよびグループの同期バージョンを作成できます。また、ローカルの Microsoft Exchange Server 環境から Microsoft Exchange Online へのグローバルアドレス一覧 (GAL) 同期も有効にすることができます。</p>
 <div>
 
 > [!IMPORTANT]  
-> ユーザーが Lync Online に移行されていない場合でも、組織内のすべての Lync ユーザーの AD アカウントを、オンプレミスとオンラインの Lync 展開の間で同期する必要があります。 すべてのユーザーを同期しない場合、組織のオンプレミス展開のユーザーとオンライン ユーザーとの間の通信が正常に動作しない可能性があります。
+> ユーザーが Lync Online に移動されていない場合でも、組織内のすべての Lync ユーザーの AD アカウントをオンプレミスとオンラインの Lync 展開との間で同期する必要があります。 すべてのユーザーを同期しない場合は、組織内のオンプレミスのユーザーとオンラインユーザーとの間の通信が期待どおりに機能しないことがあります。
 
 
 </div>
-<p>Active Directory 同期のために環境を準備するには、「<a href="https://go.microsoft.com/fwlink/p/?linkid=254988">ディレクトリ同期のロードマップ</a>」で説明されている手順に従ってください。シングルサインオンの設定が含まれます。</p></td>
+<p>Active Directory 同期のために環境を準備するには、「シングルサインオンの設定」を含む「<a href="https://go.microsoft.com/fwlink/p/?linkid=254988">ディレクトリ同期のロードマップ</a>」で説明されている手順に従います。</p></td>
 </tr>
 <tr class="odd">
 <td></td>
-<td><p>Active Directory フェデレーションサービス (AD FS) 用の証明書を作成する</p></td>
-<td><p>Office 365 との id フェデレーションに使用する証明書を作成する必要があります。 詳細については、「<a href="https://go.microsoft.com/fwlink/p/?linkid=285376">チェックリスト: AD fs を使用してシングルサインオンを実装および管理する</a>」の「フェデレーションサーバー証明書の計画と展開」のセクションを参照してください。</p></td>
+<td><p>Active Directory フェデレーションサービス (AD FS) の証明書を作成する</p></td>
+<td><p>Office 365 との id フェデレーションで使用される証明書を作成する必要があります。 詳細については、「<a href="https://go.microsoft.com/fwlink/p/?linkid=285376">チェックリスト: AD fs を使用してシングルサインオンを実装および管理する</a>」の「ad Fs を計画して展開する」の「フェデレーションサーバー証明書」セクションを参照してください。</p></td>
 </tr>
 <tr class="even">
 <td></td>
-<td><p>AD FS 用の証明書を割り当てる</p></td>
-<td><p>Office 365 との id フェデレーションで使用する証明書を作成したら、それをインストールして割り当てる必要があります。</p></td>
+<td><p>AD FS 用の証明書の割り当て</p></td>
+<td><p>Office 365 との id フェデレーションで使用される証明書を作成した後、それらをインストールして割り当てる必要があります。</p></td>
 </tr>
 <tr class="odd">
 <td></td>
-<td><p>パイロットユーザーを Skype for Business Online に移行する</p></td>
-<td><p>Skype for Business Online の環境を準備して構成するための手順を完了したら、パイロットユーザーを Lync Online に移行することができます。</p>
-<p>「 <a href="lync-server-2013-move-users-to-lync-online.md">Lync Server 2013 でユーザーを Lync Online に移動する」を</a>参照してください。</p></td>
+<td><p>パイロットユーザーを Skype for Business Online に移動する</p></td>
+<td><p>Skype for Business Online の環境を準備および構成する手順を完了したら、パイロットユーザーの Lync Online への移行を開始できます。</p>
+<p>「 <a href="lync-server-2013-move-users-to-lync-online.md">Lync Server 2013 でユーザーを Lync Online に移行する」を</a>参照してください。</p></td>
 </tr>
 <tr class="even">
 <td></td>
 <td><p>ハイブリッド展開でユーザーを管理する</p></td>
-<td><p>ハイブリッド展開でユーザーを管理する方法の詳細については、「<a href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">ハイブリッド Lync Server 2013 展開でユーザーを管理</a>する」を参照してください。</p></td>
+<td><p>ハイブリッド展開でユーザーを管理する方法の詳細については、「<a href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">ハイブリッド Lync Server 2013 展開でユーザー</a>を管理する」を参照してください。</p></td>
 </tr>
 </tbody>
 </table>

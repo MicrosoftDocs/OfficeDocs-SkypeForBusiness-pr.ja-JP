@@ -12,16 +12,16 @@ ms:contentKeyID: 49733740
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1188f80c5dc8555b53f54e7a13c60f97817eaba2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f5d0a9b1141688ad5c524090999d6277eb8a733b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738803"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037527"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41738803"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-10_
+_**トピックの最終更新日:** 2012-09-10_
 
-コールパークアプリケーションを使うと、エンタープライズボイスユーザーは1つの電話から通話を保留にすることができ、その後で任意の電話から通話を受信することができます。 ユーザーが通話をパークすると、Lync Server は、着信が転送されるまでの一時的な電話番号に通話を*転送します*。この番号は、だれかが通話を発信するか、またはタイムアウトします。
+コールパークアプリケーションを使用すると、エンタープライズ Voip ユーザーは1つの電話から通話を保留した後、電話をかけて後で通話を取得することができます。 ユーザーが電話をパークすると、Lync Server が通話を*オービット*と呼ばれる一時的な番号に転送します。この番号は、だれかが取得するか、タイムアウトになるまで通話を保持します。
 
-このセクションのトピックでは、展開でコールパークアプリケーションをカスタマイズして維持するために実行できるタスクのステップバイステップの手順について説明します。
+このセクションのトピックでは、展開でコールパークアプリケーションをカスタマイズして管理するために実行できるタスクの手順について順を追って説明します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 でのパーキング通話用の電話番号の内線番号を構成する](lync-server-2013-configure-phone-number-extensions-for-parking-calls.md)
+  - [Lync Server 2013 でのパーキング呼び出しの内線電話番号の構成](lync-server-2013-configure-phone-number-extensions-for-parking-calls.md)
 
-  - [Lync Server 2013 でのコールパーク設定の構成](lync-server-2013-configure-call-park-settings.md)
+  - [Lync Server 2013 でコールパーク設定を構成する](lync-server-2013-configure-call-park-settings.md)
 
-  - [通話パークをカスタマイズする Lync Server 2013 の保留中の音楽](lync-server-2013-customize-call-park-music-on-hold.md)
+  - [Lync Server 2013 でコールパーク保留音をカスタマイズする](lync-server-2013-customize-call-park-music-on-hold.md)
 
-  - [Lync Server 2013 での障害復旧時のコール パークの管理](lync-server-2013-manage-call-park-during-disaster-recovery.md)
+  - [Lync Server 2013 での障害復旧時のコールパークの管理](lync-server-2013-manage-call-park-during-disaster-recovery.md)
 
 </div>
 

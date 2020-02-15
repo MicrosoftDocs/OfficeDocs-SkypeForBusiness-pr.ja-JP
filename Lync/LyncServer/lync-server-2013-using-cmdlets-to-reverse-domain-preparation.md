@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: コマンドレットの使用によるドメインの準備の無効化'
+title: 'Lync Server 2013: コマンドレットを使用してドメインの準備を元に戻す'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183227
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d72c135e7daccd677f8e42ea93a2aace8d7cafb8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1c280cdcaa9d06b9ce7eee02cb043ecba0a9deb8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744197"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041256"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="using-cmdlets-to-reverse-domain-preparation-for-lync-server-2013"></a>Lync Server 2013 のコマンドレットの使用によるドメインの準備の無効化
+# <a name="using-cmdlets-to-reverse-domain-preparation-for-lync-server-2013"></a>Lync Server 2013 のコマンドレットを使用してドメインの準備を元に戻す
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41744197"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-29_
+_**トピックの最終更新日:** 2012-10-29_
 
-[無効にする] **-CsAdDomain**コマンドレットを使用して、ドメインの準備手順を逆にします。
+**Disable-CsAdDomain** コマンドレットを使用して、ドメインの準備ステップを元に戻します。
 
 <div>
 
-## <a name="to-use-cmdlets-to-reverse-domain-preparation"></a>コマンドレットを使用してドメインの準備を逆にするには
+## <a name="to-use-cmdlets-to-reverse-domain-preparation"></a>コマンドレットを使用してドメインの準備を元に戻すには
 
-1.  Domain Admins グループのメンバーとして、ドメイン内の任意のサーバーにログオンします。
+1.  Domain Admins グループのメンバーとしてドメイン内の任意のサーバーにログオンします。
 
-2.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+2.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
-3.  次のコマンドレットを実行します。
+3.  実行
     
         Disable-CsAdDomain [-Domain <Fqdn>] [-DomainController <Fqdn>] [-Force <SwitchParameter>] 
         [-GlobalCatalog <Fqdn>] [-GlobalSettingsDomainController <Fqdn>] 
@@ -56,13 +56,13 @@ _**最終更新日:** 2012-10-29_
     
         Disable-CsAdDomain -Domain domain1.contoso.net -GlobalSettingsDomainController dc01.domain1.contoso.net -Force
     
-    Force パラメーターが存在する場合、ドメイン内の1つ以上のフロントエンドサーバーまたは A/V 会議サーバーがアクティブ化されている場合でも、ドメインの準備はロールバックされます。 Force パラメーターが存在しない場合、ドメイン内のフロントエンドサーバーまたは A/V 会議サーバーがアクティブ化されていると、ドメインの準備のロールバックが終了します。
+    Force パラメーターが指定されている場合は、ドメイン内の1つ以上のフロントエンドサーバーまたは音声ビデオ会議サーバーがアクティブになっていても、ドメインの準備がロールバックされます。 Force パラメーターが指定されていない場合は、ドメイン内のフロントエンドサーバーまたは音声ビデオ会議サーバーがアクティブ化されていると、ドメインの準備のロールバックが終了します。
     
     <div>
     
 
     > [!NOTE]  
-    > Parameter GlobalSettingsDomainController を使うと、グローバル設定が保存されている場所を指定できます。 設定がシステムコンテナーに保存されている場合 (つまり、グローバル設定が構成コンテナーに移行されていないアップグレード展開で一般的)、Active Directory フォレストのルートでドメインコントローラーを定義します。 グローバル設定を構成コンテナーに保存する (新しい展開または構成コンテナーに設定を移行しているアップグレードの展開で一般的) 場合、フォレストに任意のドメイン コントローラーを定義します。 このパラメーターを指定しない場合、設定は構成コンテナーに保存され、AD&nbsp;DS の任意のドメインコントローラーを参照することがコマンドレットによって想定されます。
+    > パラメーター GlobalSettingsDomainController を使用して、グローバル設定を保存する場所を指定できます。 設定をシステム コンテナーに保存する (構成コンテナーにグローバル設定を移行していないアップグレードの展開で一般的) 場合、使用する Active Directory フォレストのルートに 1 つのドメイン コントローラーを定義します。 グローバル設定を構成コンテナーに保存する (新しい展開または構成コンテナーに設定を移行しているアップグレードの展開で一般的) 場合、フォレストに任意のドメイン コントローラーを定義します。 このパラメーターを指定しない場合、コマンドレットは、設定が構成コンテナーに格納されていると見なし、AD&nbsp;DS の任意のドメインコントローラーを参照します。
 
     
     </div>
@@ -74,7 +74,7 @@ _**最終更新日:** 2012-10-29_
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 のドメイン準備手続き](lync-server-2013-running-domain-preparation.md)  
+[Lync Server 2013 のドメインの準備を実行する](lync-server-2013-running-domain-preparation.md)  
 
 
 [Lync Server 2013 のドメインの準備](lync-server-2013-preparing-domains.md)  

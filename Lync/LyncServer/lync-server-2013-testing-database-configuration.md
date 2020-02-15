@@ -12,16 +12,16 @@ ms:contentKeyID: 63969606
 ms.date: 07/07/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6fcf6679481d4f35a457eb72960a8ae999b004d3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 45781238f7fb8aa461e050f2e8f0cbf04e45a950
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745827"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038179"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41745827"
 
 <span> </span>
 
-_**最終更新日:** 2016-07-07_
+_**トピックの最終更新日:** 2016-07-07_
 
 
 <table>
@@ -45,8 +45,8 @@ _**最終更新日:** 2016-07-07_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>確認のスケジュール</p></td>
-<td><p>[毎日]</p></td>
+<td><p>検証スケジュール</p></td>
+<td><p>毎日</p></td>
 </tr>
 <tr class="even">
 <td><p>テストツール</p></td>
@@ -54,8 +54,8 @@ _**最終更新日:** 2016-07-07_
 </tr>
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
-<td><p>Lync Server 管理シェルを使用してローカルで実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーであり、SQL Server の管理者権限を持っている必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使って実行する場合、ユーザーには、<strong>テスト用のデータベース</strong>コマンドレットを実行する権限を持つ RBAC の役割を割り当てる必要があります。 このコマンドレットを使うことができるすべての RBAC ロールの一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があり、SQL Server の管理者権限を持っている必要があります。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには、 <strong>Test-CsDatabase</strong>コマンドレットを実行する権限を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsDatabase&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +66,7 @@ _**最終更新日:** 2016-07-07_
 
 ## <a name="description"></a>説明
 
-**テスト用のデータベース**コマンドレットは、1つ以上の Lync Server 2013 データベースへの接続を確認します。 **テスト用のデータベース**コマンドレットを実行すると、Lync Server トポロジを読み取り、関連データベースに接続しようとし、各試行の成功または失敗を報告します。 接続できる場合は、コマンドレットによって、データベース名、SQL Server のバージョン情報、インストールされているミラーデータベースの場所などの情報も報告されます。
+**Test-CsDatabase**コマンドレットは、1つまたは複数の Lync Server 2013 データベースへの接続を確認します。 このコマンドを実行すると、Lync Server トポロジが読み取られ、関連するデータベースへの接続が試行**された**後、試行の成功または失敗が報告されます。 接続されると、コマンドレットは、データベース名、SQL Server バージョン情報、およびインストールされたミラー データベースの場所のような情報のレポートを戻します。
 
 </div>
 
@@ -74,19 +74,19 @@ _**最終更新日:** 2016-07-07_
 
 ## <a name="running-the-test"></a>テストの実行
 
-例1に示すコマンドは、サーバーの全体管理データベースの構成を確認します。
+例 1 に示すコマンドは、中央管理データベースの構成を確認します。
 
     Test-CsDatabase -CentralManagementDatabase
 
-使用例 2: コンピューター atl-sql-001.litwareinc.com にインストールされているすべての Lync Server データベースを確認します。
+例2では、コンピューター atl-sql-001.litwareinc.com にインストールされているすべての Lync Server データベースを確認します。
 
     Test-CsDatabase -ConfiguredDatabases -SqlServerFqdn "atl-sql-001.litwareinc.com"
 
-例3では、コンピューター atl-sql-001.litwareinc.com にインストールされているアーカイブデータベースに対してのみ確認が行われます。 SqlInstanceName パラメーターは、アーカイブデータベースが配置されている SQL Server インスタンス (アーキテクチャ) を指定するために含まれていることに注意してください。
+例 3 では、コンピューター atl-sql-001.litwareinc.com にインストールされているアーカイブ データベースに対してのみ確認が行われます。アーカイブ データベースが置かれている SQL Server インスタンス (Archinst) を指定するために、SqlInstanceName パラメーターが含まれています。
 
     Test-CsDatabase -DatabaseType "Archiving" -SqlServerFqdn "atl-sql-001.litwareinc.com" -SqlInstanceName "archinst"
 
-例4に示すコマンドは、ローカルコンピューターにインストールされているデータベースを確認します。
+例 4 に示すコマンドは、ローカル コンピューター上にインストールされたデータベースを確認します。
 
     Test-CsDatabase -LocalService
 
@@ -94,9 +94,9 @@ _**最終更新日:** 2016-07-07_
 
 <div>
 
-## <a name="determining-success-or-failure"></a>成功または失敗を確認する
+## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
-データベース接続が適切に構成されている場合は、次のような出力が返されます。これは、成功プロパティが**True**とマークされていることになります。
+データベース接続が正しく構成されていると、次のような出力が得られます。これは、Succeed プロパティが**True**として設定されています。
 
 SqlServerFqdn: atl-sql-001.litwareinc.com
 
@@ -108,7 +108,7 @@ MirrorSqlInstanceName :
 
 DatabaseName: xds
 
-データソース
+データ
 
 SQLServerVersion :
 
@@ -128,7 +128,7 @@ MirrorSqlInstanceName :
 
 DatabaseName: lis
 
-データソース
+データ
 
 SQLServerVersion :
 
@@ -138,7 +138,7 @@ ExpectedVersion: 3.1.1
 
 成功: True
 
-データベースが正しく構成されていても利用可能な場合は、"成功" フィールドに**False**と表示され、追加の警告と情報が提供されます。
+データベースが正しく構成されていても利用可能な場合は、[成功] フィールドが**False**と表示され、追加の警告と情報が提供されます。
 
 SqlServerFqdn: atl-sql-001.litwareinc.com
 
@@ -150,7 +150,7 @@ MirrorSqlInstanceName :
 
 DatabaseName: xds
 
-データソース
+データ
 
 SQLServerVersion :
 
@@ -170,7 +170,7 @@ MirrorSqlInstanceName :
 
 DatabaseName: lis
 
-データソース
+データ
 
 SQLServerVersion :
 
@@ -180,15 +180,15 @@ ExpectedVersion: 3.1.1
 
 成功: False
 
-警告: テスト-CsDatabase でエラーが発生しました。 ログファイルを参照してください。
+警告: Test-CsDatabase でエラーが発生しました。 ログファイルを参照してください。
 
-詳細な分析と、すべてのエラー (2) と警告 (0) が対応していることを確認する
+詳細な分析を行い、すべてのエラー (2) と警告 (0) が解決されていることを確認する
 
 続行してください。
 
-警告: 詳細な結果は次のページでご覧いただけます。
+警告: 詳細な結果は次の場所にあります。
 
-"C:\\\\\\AppData\\ローカル\\Temp\\2\\テスト-csdatabase-b18d488a-8044-4679-bbf2-
+「C:\\ユーザー\\が\\AppData\\ローカル\\一時\\2\\Test をテストする-csdatabase-b18d488a-8044-4679-bbf2-
 
 04d593cce8e6 "。
 
@@ -196,13 +196,13 @@ ExpectedVersion: 3.1.1
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a>テストに失敗した可能性がある理由
+## <a name="reasons-why-the-test-might-have-failed"></a>テストが失敗した理由
 
-次に **、テスト用のデータベース**が失敗する一般的な理由をいくつか示します。
+**テスト用データベース**が失敗する主な理由を次に示します。
 
-  - 指定されたパラメーター値が正しくありません。 使用する場合は、オプションのパラメーターが正しく構成されている必要があります。または、テストが失敗します。 省略可能なパラメーターを指定せずにコマンドを再実行し、それが成功するかどうかを確認します。
+  - 指定されたパラメーター値が正しくありません。 省略可能なパラメーターが使用されている場合、オプションのパラメーターが正しく構成されている必要があります。テストは失敗します。 オプションのパラメーターを指定せずにコマンドを再実行し、それが成功するかどうかを確認します。
 
-  - データベースが正しく構成されていないか、まだ配置されていない場合、このコマンドは失敗します。
+  - データベースが正しく構成されていないか、まだ展開されていない場合、このコマンドは失敗します。
 
 </div>
 
@@ -211,9 +211,9 @@ ExpectedVersion: 3.1.1
 ## <a name="see-also"></a>関連項目
 
 
-[Get-CsDatabaseMirrorState](https://docs.microsoft.com/powershell/module/skype/Get-CsDatabaseMirrorState)  
-[CsService の入手](https://docs.microsoft.com/powershell/module/skype/Get-CsService)  
-[Get-CsUserDatabaseState](https://docs.microsoft.com/powershell/module/skype/Get-CsUserDatabaseState)  
+[Get-csdatabasemirrorstate 戻し](https://docs.microsoft.com/powershell/module/skype/Get-CsDatabaseMirrorState)  
+[取得-CsService](https://docs.microsoft.com/powershell/module/skype/Get-CsService)  
+[取得-CsUserDatabaseState](https://docs.microsoft.com/powershell/module/skype/Get-CsUserDatabaseState)  
   
 
 </div>

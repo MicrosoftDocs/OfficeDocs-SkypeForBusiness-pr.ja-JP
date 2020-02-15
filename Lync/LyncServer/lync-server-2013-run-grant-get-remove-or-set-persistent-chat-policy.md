@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 常設チャット ポリシーを実行、付与、削除、または設定する'
+title: 'Lync Server 2013: 常設チャットポリシーを実行、付与、取得、削除、または設定します。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183857
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e48f07207387a27701041f3decc36417b4cb30b8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dd269b21d8ef0031bd199b68bd7cc670b0335106
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732867"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037307"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="run-grant-get-remove-or-set-persistent-chat-policy-in-lync-server-2013"></a>Lync Server 2013 で常設チャット ポリシーを実行、付与、削除、または設定する
+# <a name="run-grant-get-remove-or-set-persistent-chat-policy-in-lync-server-2013"></a>Lync Server 2013 での常設チャットポリシーの実行、付与、取得、削除、または設定
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41732867"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-01_
+_**トピックの最終更新日:** 2012-10-01_
 
 新しい常設チャットポリシーを作成するには
 
@@ -45,7 +45,7 @@ _**最終更新日:** 2012-10-01_
 
     Grant-CsPersistentChatPolicy -Identity <UserIdParameter> -PolicyName <String> [-Confirm <Switch Parameter>] [-WhatIf <Switch Parameter>]
 
-常設チャットのポリシーを取得するには
+常設チャットポリシーを取得するには
 
     Get-CsPersistentChatPolicy [-Identity <XdsIdentity>] [-Filter <String>] [-LocalStore <Switch Parameter>]
 

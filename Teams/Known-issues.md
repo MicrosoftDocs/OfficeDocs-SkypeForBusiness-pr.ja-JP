@@ -18,12 +18,12 @@ f1.keywords:
 description: 現在知られている Microsoft Teams クライアント アプリおよび管理エクスペリエンスでの問題の一覧です。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b90c2ab7b204964082c05cbc657c4945f5730fde
-ms.sourcegitcommit: f859843003b34feab18a3d2df34fdbb9858e7148
+ms.openlocfilehash: d0aafe4bcceca731825726d084e41fab37bb9931
+ms.sourcegitcommit: 93a8bd330c9a8ced81cd3eafb7b7236e9ed2066f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41889450"
+ms.lasthandoff: 02/13/2020
+ms.locfileid: "41962096"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams の既知の問題
 
@@ -78,7 +78,7 @@ ms.locfileid: "41889450"
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
-|Teams で Google Gstatic へのアクセスが要求される <br/> |Teams では現在、すべてのユーザーについて、Google の ssl.gstatic.com サービス (https://ssl.gstatic.com) への接続 (TCP ポート 443) が要求されています。Gstatic を使用していない場合であってもこれは要求されます。 Teams では間もなく (2020 年前半) この要件が削除される予定になっています。 <br/> | 回避策なし。 <br/> |2020/2/10  <br/> |
+|Teams で Google Gstatic へのアクセスが要求される <br/> |Teams では現在、すべてのユーザーについて、Google の ssl.gstatic.com サービスへの接続 (TCP ポート 443) が要求されています。Gstatic を使用していない場合であってもこれは要求されます。 Teams では間もなく (2020 年前半) この要件が削除される予定になっています。 <br/> | 回避策なし。 <br/> |20/1/30  <br/> |
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|

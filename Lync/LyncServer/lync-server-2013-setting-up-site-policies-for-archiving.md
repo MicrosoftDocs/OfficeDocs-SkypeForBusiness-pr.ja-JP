@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: アーカイブのためのサイトポリシーを設定する'
+title: 'Lync Server 2013: アーカイブ用のサイトポリシーのセットアップ'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185613
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1ebb1efdfff09f51b13ada9d1e2aa571ab88c888
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2fd9e63ad6aec440c090b4303a32cba37953e1d3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732107"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040826"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-site-policies-for-archiving-in-lync-server-2013"></a>Lync Server 2013 でアーカイブ用のサイトポリシーを設定する
+# <a name="setting-up-site-policies-for-archiving-in-lync-server-2013"></a>Lync Server 2013 でのアーカイブ用のサイトポリシーのセットアップ
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41732107"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-09_
+_**トピックの最終更新日:** 2012-10-09_
 
-各サイトのアーカイブポリシーを作成して構成することで、特定のサイトのアーカイブを有効または無効にすることができます。 サイト ポリシーはグローバル ポリシーより優先されますが、サイト ポリシーよりもユーザー ポリシーが優先されます。 アーカイブポリシーが適用されるのは、Microsoft Exchange 統合を使用していない場合、または Microsoft Exchange 統合を使用していて、Exchange 2013 を使っていないユーザーがいて、メールボックスがインプレース保持されている場合のみです。
+特定のサイトのアーカイブを有効または無効にするには、各サイトのアーカイブポリシーを作成して構成します。 サイトポリシーはグローバルポリシーより優先されますが、ユーザーポリシーはサイトポリシーより優先されます。 アーカイブポリシーは、Microsoft Exchange 統合を使用していない場合、または Microsoft Exchange 統合を使用しているが、Exchange 2013 に所属しておらず、メールボックスがインプレース保持に配置されている場合にのみ適用されます。
 
-グローバル、サイト、ユーザーのポリシーの階層など、アーカイブポリシーの動作について詳しくは、「 [Lync Server 2013 でのアーカイブのしくみ](lync-server-2013-how-archiving-works.md)」をご覧ください。
+グローバルポリシー、サイトポリシー、およびユーザーポリシーの階層を含むアーカイブポリシーのしくみの詳細については、「 [Lync Server 2013](lync-server-2013-how-archiving-works.md)の計画に関するドキュメント、展開に関するドキュメント、または操作のドキュメントでのアーカイブの仕組み」を参照してください。
 
 <div>
 
 
 > [!NOTE]  
-> 展開で Microsoft Exchange の統合を有効にした場合、exchange 2013 を使っているユーザーに対してアーカイブが有効になっていて、メールボックスがインプレースホールドに配置されているかどうかを Exchange のインプレースホールドポリシーで制御します。 詳細については、展開ドキュメントで<A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Exchange Server との統合を使用する場合の「Lync server 2013 でアーカイブするためのポリシーを設定する</A>」を参照してください。<BR>アーカイブ ポリシーで内部または外部の通信のアーカイブを有効にする前に、アーカイブ構成のすべてのオプションを適切に指定してください。 詳細については、展開ドキュメントの「 <A href="lync-server-2013-configuring-archiving-options.md">Lync Server 2013 でアーカイブオプションを構成する</A>」を参照してください。
+> 展開に対して Microsoft Exchange 統合を有効にすると、exchange 2013 に所属しているユーザーに対してアーカイブを有効にし、メールボックスをインプレース保持に設定するかどうかを Exchange のインプレース保持ポリシーで制御します。 詳細については、「展開」のドキュメントの「 <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Setting up policies For Exchange server integration using The Lync server 2013</A> 」を参照してください。<BR>アーカイブ ポリシーで内部または外部の通信のアーカイブを有効にする前に、アーカイブ構成のすべてのオプションを適切に指定してください。 詳細については、「展開」のドキュメントの「 <A href="lync-server-2013-configuring-archiving-options.md">Lync Server 2013 のアーカイブオプションの構成</A>」を参照してください。
 
 
 
@@ -61,21 +61,21 @@ _**最終更新日:** 2012-10-09_
 
 3.  左側のナビゲーション バーで、[**監視とアーカイブ**] をクリックし、[**アーカイブ ポリシー**] をクリックします。
     
-    グローバル、サイト、ユーザーのポリシーの階層など、アーカイブポリシーの動作について詳しくは、「 [Lync Server 2013 でのアーカイブのしくみ](lync-server-2013-how-archiving-works.md)」をご覧ください。
+    グローバルポリシー、サイトポリシー、およびユーザーポリシーの階層を含むアーカイブポリシーのしくみの詳細については、「 [Lync Server 2013](lync-server-2013-how-archiving-works.md)の計画に関するドキュメント、展開に関するドキュメント、または操作のドキュメントでのアーカイブの仕組み」を参照してください。
 
 4.  [**新規作成**] をクリックし、[**サイト ポリシー**] をクリックします。
 
-5.  [**サイトの選択**] でポリシーを適用するサイトをクリックします。
+5.  [**サイトの選択**] で、ポリシーを適用するサイトをクリックします。
 
-6.  [**新しいアーカイブ ポリシー**] で、次の操作を実行します。
+6.  **[新しいアーカイブ ポリシー]** で、次の操作を実行します。
     
-      - [**名前**] で、サイト ポリシーの名前を指定します。
+      - [**名前**] で、サイトポリシーの名前を指定します。
     
-      - [**説明**] にサイト ポリシーに関する情報を入力します (「Redmond のサイト ポリシー」など)。
+      - [**説明**] に、サイトポリシーの内容に関する情報を入力します (例: Redmond のサイトポリシー)。
     
-      - 指定したサイトの内部通信のアーカイブを制御するには、[**内部通信をアーカイブする**] チェック ボックスをオンまたはオフにします。
+      - 指定したサイトの内部通信のアーカイブを制御するには、[**内部通信をアーカイブ**する] チェックボックスをオンまたはオフにします。
     
-      - 指定したサイトの外部通信のアーカイブを制御するには、[**外部通信をアーカイブする**] チェック ボックスをオンまたはオフにします。
+      - 指定したサイトの外部通信のアーカイブを制御するには、[**外部通信をアーカイブ**する] チェックボックスをオンまたはオフにします。
 
 7.  [**確定**] をクリックします。
 

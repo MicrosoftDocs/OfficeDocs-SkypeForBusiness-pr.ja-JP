@@ -12,16 +12,16 @@ ms:contentKeyID: 48185129
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8de4163f94d5848808c5b01c34b1676d3a0bbcff
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9f9377b70923c1dc2c7213e9ac72486daffcda99
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735387"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037687"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41735387"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-28_
+_**トピックの最終更新日:** 2012-09-28_
 
-ErrorReport テーブルには、発生したエラーに関する情報が格納されます。 各レコードはエラー発生の1つです。 このエラーは、フロントエンドサーバーで実行されている CDR エージェントまたはクライアントから送信された cd-r エージェントによってキャプチャされます。
+ErrorReport テーブルには、発生したエラーに関する情報が格納されます。 各レコードは、エラー発生の1つです。 エラーは、フロントエンドサーバーで実行されている CDR エージェント、またはクライアントから送信されます。
 
 
 <table>
@@ -58,51 +58,51 @@ ErrorReport テーブルには、発生したエラーに関する情報が格�
 <tbody>
 <tr class="odd">
 <td><p><strong>ErrorTime</strong></p></td>
-<td><p>datetime</p></td>
+<td><p>日付型</p></td>
 <td><p>Primary</p></td>
 <td><p>エラーが発生した日付と時刻。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>ErrorReportSeq</strong></p></td>
+<td><p><strong>Errorreportseq、</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>エラーレポートを識別する ID 番号。 エラーレポートを一意に識別するための<strong>Errortime</strong>と組み合わせて使用されます。</p></td>
+<td><p>エラーレポートを識別する ID 番号。 エラーレポートを一意に識別するために<strong>Errortime</strong>と組み合わせて使用されます。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ErrorId</strong></p></td>
 <td><p>int</p></td>
 <td><p>外部</p></td>
-<td><p>エラーの種類の一意の ID です。 詳細については、「 <a href="lync-server-2013-errordef-table.md">Lync Server 2013 の Errordef テーブル</a>」を参照してください。</p></td>
+<td><p>エラーの種類の一意の ID。 詳細については、「 <a href="lync-server-2013-errordef-table.md">Lync Server 2013 の Errordef table</a> 」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>FromUserId</strong></p></td>
 <td><p>int</p></td>
 <td><p>外部</p></td>
-<td><p>エラーの原因となった要求を生成したユーザー。 詳細については、「 <a href="lync-server-2013-users-table.md">Lync Server 2013 のユーザーテーブル</a>」を参照してください。</p></td>
+<td><p>エラーの原因となった要求を発信したユーザー。 詳細については、「 <a href="lync-server-2013-users-table.md">Lync Server 2013 のユーザー</a> 」の表を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ToUserId</strong></p></td>
 <td><p>int</p></td>
 <td><p>外部</p></td>
-<td><p>エラーの原因となった要求の送信先ユーザー。 詳細については、「 <a href="lync-server-2013-users-table.md">Lync Server 2013 のユーザーテーブル</a>」を参照してください。</p></td>
+<td><p>エラーの原因となった要求の送信先ユーザー。 詳細については、「 <a href="lync-server-2013-users-table.md">Lync Server 2013 のユーザー</a> 」の表を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ConferenceUriId</strong></p></td>
 <td><p>int</p></td>
 <td><p>外部</p></td>
-<td><p>エラーに関連する会議の URI。 詳細については、「 <a href="lync-server-2013-conferenceuris-table.md">Lync Server 2013 の ConferenceUris テーブル</a>」を参照してください。 通常、ConferenceUriId が null でない場合は、FromUserId または ToUserId は null になります。</p></td>
+<td><p>エラーに関連する会議 URI。 詳細については、「 <a href="lync-server-2013-conferenceuris-table.md">Lync Server 2013 の ConferenceUris テーブル</a>」を参照してください。 通常、ConferenceUriId が null でない場合、FromUserId または ToUserId のいずれかが null になります。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>セッション Id</strong></p></td>
-<td><p>datetime</p></td>
+<td><p><strong>SessionIdTime</strong></p></td>
+<td><p>日付型</p></td>
 <td><p>外部</p></td>
-<td><p>セッションを一意に識別するために<strong>Sessionidseq</strong>と組み合わせて使用されます。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a>」を参照してください。</p></td>
+<td><p>セッションを一意に識別するために <strong>SessionIdSeq</strong> と併用されます。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a>」を参照してください。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>SessionIdSeq</strong></p></td>
+<td><p><strong>Sessionidseq と</strong></p></td>
 <td><p>int</p></td>
 <td><p>外部</p></td>
-<td><p>セッションを識別する ID 番号。 セッションを一意に識別するために<strong>Sessionidtime</strong>と組み合わせて使用されます。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a>」を参照してください。</p></td>
+<td><p>セッションを識別するための ID 番号。 セッションを一意に識別するために <strong>SessionIdTime</strong> と併用されます。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a>」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>SourceId</strong></p></td>
@@ -120,7 +120,7 @@ ErrorReport テーブルには、発生したエラーに関する情報が格�
 </tr>
 <tr class="odd">
 <td><p><strong>MsDiagHeader</strong></p></td>
-<td><p>画像</p></td>
+<td><p>image</p></td>
 <td><p> </p></td>
 <td><p>エラーに関する詳細情報。</p>
 <p>このデータは、次の構文を使用してテキスト形式に変換できます。</p>
@@ -130,32 +130,32 @@ ErrorReport テーブルには、発生したエラーに関する情報が格�
 <td><p><strong>ClientVersionId</strong></p></td>
 <td><p>int</p></td>
 <td><p>外部</p></td>
-<td><p>エラーレポートを送信するエンドポイントのクライアントバージョン。 詳細については、「 <a href="lync-server-2013-clientversions-table.md">Lync Server 2013 の Clientversions の表</a>」を参照してください。</p></td>
+<td><p>エラーレポートを送信するエンドポイントのクライアントバージョン。 詳細については、「 <a href="lync-server-2013-clientversions-table.md">Lync Server 2013 の Clientversions</a> 」の表を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>IsCapturedByServer</strong></p></td>
-<td><p>bit</p></td>
+<td><p>若干</p></td>
 <td></td>
-<td><p>エラーレポートは、フロントエンドサーバーで実行されている CDR エージェントまたはクライアントによってキャプチャされます。</p></td>
+<td><p>は、フロントエンドサーバーで実行されている CDR エージェントまたはクライアントによって送信されたエラーレポートです。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>フラッグ</strong></p></td>
+<td><p><strong>Flag</strong></p></td>
 <td><p>smallint</p></td>
 <td></td>
-<td><p>今後の使用のために予約されています。</p></td>
+<td><p>将来使用するために予約されています。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>TelemetryId</strong></p></td>
-<td><p>長さ</p></td>
+<td><p>識別子</p></td>
 <td></td>
-<td><p>電話会議に参加しているさまざまなコンポーネントについての、固有の識別子による結合時間情報の関連付け。</p>
+<td><p>会議に関するさまざまなコンポーネントの参加時間情報に関係する一意の識別子。</p>
 <p>このフィールドは、Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionSetupTime 時間</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>特定のコンポーネントが会議に参加するために必要な時間 (ミリ秒単位) です。</p>
+<td><p>特定のコンポーネントが会議に参加するのに必要な時間 (ミリ秒)。</p>
 <p>このフィールドは、Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="odd">
@@ -168,7 +168,7 @@ ErrorReport テーブルには、発生したエラーに関する情報が格�
 <td><p><strong>PoolId</strong></p></td>
 <td><p>int</p></td>
 <td><p>外部</p></td>
-<td><p>エラーレポートが生成されたプールの完全修飾ドメイン名を表します。</p></td>
+<td><p>エラー報告が生成されたプールの完全修飾ドメイン名を表します。</p></td>
 </tr>
 </tbody>
 </table>

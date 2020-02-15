@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 月次タスク'
+title: 'Lync Server 2013: 毎月のタスク'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 63969654
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3d4a7ae6009c7e34c49d0e49bea131b6cc03fd15
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5c2ced4d5d61a51ff3e25422ba9486887b72470a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756771"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047465"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,47 +35,47 @@ ms.locfileid: "41756771"
 
 <span> </span>
 
-_**最終更新日:** 2014-08-18_
+_**トピックの最終更新日:** 2014-08-18_
 
-毎月のタスクでは、システムの長期の正常性を保証することに重点を置いています。
+月単位のタスクは、システムの長期的な正常性を確保することに重点を置いています。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
 次のタスクは、月単位で実行する必要があります。
 
-  - [Lync Server 2013 でフォレストのグローバル設定の状態を表示する](lync-server-2013-viewing-status-of-global-settings-for-a-forest.md)
+  - [Lync Server 2013 のフォレストのグローバル設定の状態を表示する](lync-server-2013-viewing-status-of-global-settings-for-a-forest.md)
 
-  - [Lync Server 2013 でエッジサーバーの設定を表示する](lync-server-2013-view-edge-server-settings.md)
+  - [Lync Server 2013 でのエッジサーバーの設定の表示](lync-server-2013-view-edge-server-settings.md)
 
-  - [Lync Server 2013 サーバー証明書を確認する](lync-server-2013-check-lync-server-2013-server-certificates.md)
+  - [Lync Server 2013 のサーバー証明書を確認する](lync-server-2013-check-lync-server-2013-server-certificates.md)
 
-  - [Lync Server 2013 での電話番号に対するトランクの構成を確認する](lync-server-2013-check-trunk-configuration-against-a-phone-number.md)
+  - [Lync Server 2013 で電話番号に対するトランク構成を確認する](lync-server-2013-check-trunk-configuration-against-a-phone-number.md)
 
-  - [Lync Server 2013 で音声正規化ルールを確認する](lync-server-2013-check-voice-normalization-rules.md)
+  - [Lync Server 2013 で音声正規化ルールをチェックする](lync-server-2013-check-voice-normalization-rules.md)
 
-  - [Lync Server 2013 でボイスポリシーに対して電話番号をテストする](lync-server-2013-test-telephone-number-against-a-voice-policy.md)
+  - [Lync Server 2013 で音声ポリシーに対して電話番号をテストする](lync-server-2013-test-telephone-number-against-a-voice-policy.md)
 
-  - [Lync Server 2013 でボイスルートに対して電話番号をテストする](lync-server-2013-test-telephone-number-against-a-voice-route.md)
+  - [Lync Server 2013 でのボイスルートに対して電話番号をテストする](lync-server-2013-test-telephone-number-against-a-voice-route.md)
 
   - [Lync Server 2013 での音声構成のテスト](lync-server-2013-test-voice-configuration.md)
 
-  - [Lync Server 2013 でのボイスルール、ルート、ポリシーのテスト](lync-server-2013-test-voice-rules-routes-and-policies.md)
+  - [Lync Server 2013 での音声ルール、ルート、ポリシーのテスト](lync-server-2013-test-voice-rules-routes-and-policies.md)
 
-  - [Lync Server 2013 で Web アプリへのアクセスをテストする](lync-server-2013-test-web-app-access.md)
+  - [Lync Server 2013 での Web アプリケーションアクセスのテスト](lync-server-2013-test-web-app-access.md)
 
-  - [Lync Server 2013 での匿名 Web アプリアクセスのテスト](lync-server-2013-test-anonymous-web-app-access.md)
+  - [Lync Server 2013 で匿名 Web アプリのアクセスをテストする](lync-server-2013-test-anonymous-web-app-access.md)
 
   - [Lync Server 2013 でのモバイルユーザーアクセスのテスト](lync-server-2013-test-mobile-user-access.md)
 
-  - [Lync Server 2013 でモバイルユーザーがインスタントメッセージをやり取りする機能をテストする](lync-server-2013-test-mobile-users-ability-to-exchange-instant-messages.md)
+  - [モバイルユーザーが Lync Server 2013 でインスタントメッセージを交換できるかどうかをテストする](lync-server-2013-test-mobile-users-ability-to-exchange-instant-messages.md)
 
-  - [Lync Server 2013 でのスマートフォンへのプッシュ通知をテストする](lync-server-2013-test-push-notifications-to-smart-phones.md)
+  - [Lync Server 2013 でのスマートフォンへのプッシュ通知のテスト](lync-server-2013-test-push-notifications-to-smart-phones.md)
 
   - [Lync Server 2013 のセキュリティチェック](lync-server-2013-security-checks.md)
 
-  - [Lync Server 2013 でのキャパシティレビュー](lync-server-2013-capacity-review.md)
+  - [Lync Server 2013 での容量のレビュー](lync-server-2013-capacity-review.md)
 
   - [Lync Server 2013 での障害復旧テスト](lync-server-2013-disaster-recovery-test.md)
 
@@ -86,7 +86,7 @@ _**最終更新日:** 2014-08-18_
 ## <a name="see-also"></a>関連項目
 
 
-[毎月のタスクチェックリスト](lync-server-2013-operations-checklists.md)  
+[月次タスクチェックリスト](lync-server-2013-operations-checklists.md)  
   
 
 </div>

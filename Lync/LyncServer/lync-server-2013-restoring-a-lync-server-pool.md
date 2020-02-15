@@ -12,16 +12,16 @@ ms:contentKeyID: 51541488
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f43cbe049fdedc2f0b4d31eecc4a0506a4a62201
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6a4cfda150c1ea8fadba3adff98ab1a95255c11e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723537"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051229"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41723537"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-18_
+_**トピックの最終更新日:** 2013-02-18_
 
-Lync Server の展開には、次のいずれかの種類のプールが含まれます。
+Lync Server の展開には、次の種類のプールを含めることができます。
 
-  - フロントエンド サーバー
+  - フロント エンド サーバー
 
   - 仲介サーバー
 
@@ -47,11 +47,11 @@ Lync Server の展開には、次のいずれかの種類のプールが含ま�
 
   - エッジ サーバー
 
-プール全体で障害が発生する場合は、プールの各メンバーサーバーごとに次の手順を実行します。
+プール全体で停止が発生する場合は、プール内の各メンバーサーバーに対して次の手順を実行します。
 
-  - フロントエンドプールの場合は、まずバックエンドサーバーを復元してから、各フロントエンドサーバーを復元します。 詳細については、「 [Lync server 2013 で Enterprise Edition バックエンドサーバーを復元する](lync-server-2013-restoring-an-enterprise-edition-back-end-server.md)」および「 [lync Server 2013 で enterprise edition のメンバーサーバーを復元](lync-server-2013-restoring-an-enterprise-edition-member-server.md)する」を参照してください。
+  - フロントエンドプールの場合は、バックエンドサーバーを最初に復元してから、各フロントエンドサーバーを復元します。 詳細については、「 [Lync server 2013 で Enterprise edition のバックエンドサーバーを復元する](lync-server-2013-restoring-an-enterprise-edition-back-end-server.md)」および「 [lync Server 2013 で enterprise edition のメンバーサーバーを復元](lync-server-2013-restoring-an-enterprise-edition-member-server.md)する」を参照してください。
 
-  - 他のすべての種類のプールの場合は、各メンバーサーバーを復元します。 詳細については、「 [Lync server 2013 で Enterprise Edition のメンバーサーバーを復元する](lync-server-2013-restoring-an-enterprise-edition-member-server.md)」を参照してください。
+  - その他すべての種類のプールでは、各メンバー サーバーを復元します。 詳細については、「 [Lync server 2013 で Enterprise Edition のメンバーサーバーを復元する](lync-server-2013-restoring-an-enterprise-edition-member-server.md)」を参照してください。
 
 </div>
 

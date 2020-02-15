@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 追加サーバー サポートおよび要件'
+title: 'Lync Server 2013: その他のサーバーのサポートと要件'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184535
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3f111b80bc88b632ff1020f45e899f220edeb7d5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2d8eb02f0cf178807c656520787024d79ab0f09b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738012"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038489"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="additional-server-support-and-requirements-in-lync-server-2013"></a>Lync Server 2013 の追加サーバー サポートおよび要件
+# <a name="additional-server-support-and-requirements-in-lync-server-2013"></a>Lync Server 2013 におけるその他のサーバーのサポートおよび要件
 
 </div>
 
@@ -35,64 +35,64 @@ ms.locfileid: "41738012"
 
 <span> </span>
 
-_**最終更新日:** 2013-12-09_
+_**トピックの最終更新日:** 2013-12-09_
 
-このサポート文書の他のセクションで説明されているソフトウェアのサポートに加えて、Lync Server 2013 には次のサポート制限があります。
+このサポートドキュメントの他のセクションで説明されているソフトウェアサポートに加えて、Lync Server 2013 には次のサポート制限があります。
 
-  - Lync Server 2013 は、特定のサーバーの役割に対して、ドメインネームシステム (DNS) とハードウェアの負荷分散をサポートしています。 また、必要に応じて、仲介サーバーのアプリケーションロードバランシングもサポートしています。 それぞれの用途の詳細については、計画に関するドキュメントをご覧ください。
+  - Lync Server 2013 では、特定のサーバーの役割に対してドメインネームシステム (DNS) とハードウェア負荷分散がサポートされています。 また、仲介サーバーのアプリケーション負荷分散も、必要に応じてサポートします。 それぞれをいつ使用するかの詳細については、「計画」のドキュメントを参照してください。
 
-  - Lync Server 2013 は、配布リスト展開プロトコル (DLX) を使用して配布リストを展開します。 このプロトコルは、配布リストのメンバーシップを取得するために使用される web サービスメソッドも指定します。 Microsoft Exchange Server では、メンバーに静的に割り当てられていない動的なグループがサポートされています。 代わりに、グループを展開したときに評価されるクエリを保存します。 DLX は動的配布リストをサポートしていません。 この DLX の制限は、すべてのバージョンの Lync Server に適用されます。
+  - Lync Server 2013 は、配布リスト展開プロトコル (DLX) を使用して、配布リストを展開します。 このプロトコルは、配布リストのメンバーシップの取得に使用する Web サービス メソッドも指定します。 Microsoft Exchange Server は、静的に割り当てられたメンバーを持たない動的グループをサポートしています。 代わりにこれらのグループは、グループの展開時に評価されるクエリを格納します。 DLX は動的な配布リストをサポートしていません。 この DLX の制限は、Lync Server のすべてのバージョンに適用されます。
 
-  - [ユーザーの有効化] ウィザードでは、英語以外の文字の SIP 準拠の URI への自動変換はサポートされていないため、SIP アドレスを手動で変更する必要があります。
+  - ユーザーの有効化ウィザードでは、英語以外の文字の SIP 準拠 URI への自動変換はサポートされていません。したがって、SIP アドレスを手動で変更する必要があります。
 
-  - ウイルス対策ソフトウェアを実行しているサーバーの場合は、「 [Lync Server 2013 のウイルススキャン除外](lync-server-2013-antivirus-scanning-exclusions.md)」を参照して、ウイルスの除外やその他のセキュリティ関連の推奨事項を参照してください。
+  - ウイルス対策ソフトウェアを実行しているサーバーについては、「 [Lync Server 2013 のウイルス対策スキャン除外](lync-server-2013-antivirus-scanning-exclusions.md)」を参照してください。ウイルスの推奨候補およびその他のセキュリティ関連の推奨事項
 
-  - IPsec を使用している場合は、音声とビデオのトラフィックに使われるポート範囲で IPsec を無効にすることをお勧めします。 詳細については、計画ドキュメントの「 [Lync Server 2013 での IPsec の例外](lync-server-2013-ipsec-exceptions.md)」を参照してください。
+  - IPsec を使用する場合は、音声およびビデオ トラフィックに使用されるポート範囲に対する IPsec を無効にすることをお勧めします。 詳細については、「計画」のドキュメントの「 [IPsec 例外 (Lync Server 2013](lync-server-2013-ipsec-exceptions.md) )」を参照してください。
 
-  - 組織でサービスの品質 (QoS) インフラストラクチャが使用されている場合、メディア サブシステムは、この既存のインフラストラクチャで機能するように設計されています。 QoS の実装について詳しくは、「運用ドキュメントの[Lync Server 2013 でのサービスの品質 (QoS) の管理](lync-server-2013-managing-quality-of-service-qos.md)」をご覧ください。
+  - 組織でサービスの品質 (QoS) インフラストラクチャが使用されている場合、メディア サブシステムは、この既存のインフラストラクチャで機能するように設計されています。 QoS の実装の詳細については、「操作」のドキュメントの「 [Lync Server 2013 でのサービスの品質 (qos) の管理](lync-server-2013-managing-quality-of-service-qos.md)」を参照してください。
 
-  - オペレーティングシステムファイアウォールの使用はサポートされています。 Lync Server 2013 は、Microsoft SQL Server データベースソフトウェアを除き、オペレーティングシステムファイアウォールのファイアウォール例外を管理します。 SQL Server のファイアウォール要件の詳細については、SQL Server のドキュメントを参照してください。
+  - オペレーティング システムのファイアウォールの使用がサポートされています。 Lync Server 2013 は、Microsoft SQL Server データベースソフトウェアを除き、オペレーティングシステムファイアウォールのファイアウォール例外を管理します。 SQL Server のファイアウォールの要件の詳細については、SQL Server のドキュメントを参照してください。
 
-  - 外部ユーザーアクセスのサポートを実装するために使用される外部インターフェイスは、内部インターフェイスと同じネットワーク上では*なく*、別のサブネット上にある必要があります。
+  - 外部ユーザー アクセスのサポートの実装で使用する外部インターフェイスは、内部インターフェイスと同じネットワーク上*ではなく*、別のサブネット上にある必要があります。
 
   - Lync Server 2013 の XMPP 機能は、Google Talk とのインスタント メッセージングのフェデレーションについては Microsoft によってテストとサポートが行われています。その他の XMPP システムについては、Lync Server 2013 とのフェデレーションのサポートや、展開またはトラブルシューティングの推奨事項に関して、サード パーティ ベンダーに問い合わせて確認してください。
 
-  - Lync server 2013 累積更新プログラムのリリースでは、2013年7月、Lync Server 2013 で2段階認証がサポートされるようになりました。 詳細については、「 [Lync Server 2013 での2要素認証](lync-server-2013-planning-for-and-deploying-two-factor-authentication.md)」を参照してください。
+  - Lync Server 2013 の累積的な更新プログラム (2013 年7月) のリリースでは、Lync Server 2013 は2要素認証をサポートするようになりました。 詳細については、「 [Lync Server 2013 の2要素認証](lync-server-2013-planning-for-and-deploying-two-factor-authentication.md)」を参照してください。
 
-  - ほとんどの内部サーバーでは、**オープン認証**(OAuth) として定義された証明書の種類が必要です。 要求時に OAuth 証明書を要求して割り当てる必要があります。 Lync Server 展開ウィザードの [**証明書のインストールと割り当て]** フェーズを行う必要があります。 OAuth 証明書キーの最小サイズは、1024ビットです。 長さが2048ビット未満のキーの長さを持つ証明書を要求した場合は、警告が表示されることがあります。 警告の代わりに2048のキーの長さが強制された場合に発生する可能性のある問題を回避するために、OAuth 証明書のキーの長さとして常に2048を使うことを強くお勧めします。
+  - ほとんどの内部サーバーでは、証明書の種類として **[オープン認証**(OAuth)] と定義されている必要があります。 [Lync Server 展開ウィザード] の [**証明書の要求、インストール、および割り当て**] フェーズで OAuth 証明書を要求して割り当てる必要があります。 OAuth 証明書キーの最小サイズは1024ビットです。 キーの長さが2048ビット未満の証明書を要求した場合は、警告が表示されることがあります。 警告の代わりに2048のキー長が適用された場合に発生する可能性のある問題を回避するために、OAuth 証明書には常に2048のキー長を使用することを強くお勧めします。
 
-  - Lync Server 2013 および Microsoft Exchange Server 2010 Service Pack 1 (SP1) では、Windows Server 2008 R2 オペレーティングシステムが、FIPS 140-2 アルゴリズムを使用するように構成されている場合に、米国連邦情報処理標準 (FIPS) 140-2 アルゴリズムのサポートを利用して動作します。システム暗号化。 FIPS サポートを実装するには、Lync Server 2013 を実行している各サーバーでサポートされるように構成する必要があります。 FIPS 準拠のアルゴリズム、および FIPS サポートを実装する方法の詳細については、Microsoft サポート技術情報の記事811833「システム暗号化: Windows XP およびそれ以降のバージョンの Windows で暗号化、ハッシュ、および署名のセキュリティ[http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=811833](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=811833)設定を行うための fips 準拠アルゴリズムを使用する」を参照してください。 Exchange 2010 の FIPS 140-2 のサポートと制限事項の詳細については、「Exchange 2010 SP1 と FIPS 準拠アルゴリズム[http://go.microsoft.com/fwlink/p/?linkId=205335](http://go.microsoft.com/fwlink/p/?linkid=205335)のサポート」を参照してください。
+  - Lync Server 2013 と Microsoft Exchange Server 2010 Service Pack 1 (SP1) は、Windows Server 2008 R2 オペレーティングシステムが、に対して FIPS の140-2 アルゴリズムを使用するように構成されている場合に、連邦情報処理規格 (FIPS) の140-2 アルゴリズムをサポートして動作します。システム暗号化。 FIPS サポートを実装するには、Lync Server 2013 を実行している各サーバーをサポートするように構成する必要があります。 FIPS 準拠アルゴリズムと FIPS サポートを実装する方法の詳細については、Microsoft サポート技術情報の記事811833「システム暗号化: Windows XP およびそれ以降のバージョンの Windows で暗号化、ハッシュ、署名のセキュリティ設定を使用[http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=811833](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=811833)する」を参照してください。 Exchange 2010 の FIPS 140-2 のサポートおよび制限事項の詳細については、「Exchange 2010 SP1 およびサポートさ[http://go.microsoft.com/fwlink/p/?linkId=205335](http://go.microsoft.com/fwlink/p/?linkid=205335)れている Fips 準拠アルゴリズムのサポート」を参照してください。
 
-Lync Server 2013 では、展開前または展開中に、特定のコンポーネントにその他のソフトウェアをインストールする必要があります。 これには、オペレーティングシステム、ダウンロード可能なソフトウェア、および Lync Server 2013 のインストール時に自動的にインストールされるソフトウェアで利用できるソフトウェアが含まれます。 必要に応じて、その他のソフトウェアの一覧を次に示します。
+Lync Server 2013 では、展開前または展開中に特定のコンポーネントに他のソフトウェアをインストールする必要があります。 これには、オペレーティングシステム、ダウンロード可能なソフトウェア、および Lync Server 2013 のインストール時に自動的にインストールされるソフトウェアで利用できるソフトウェアが含まれています。 必要になる可能性のある追加ソフトウェアは、次の一覧のとおりです。
 
   - Windows Update
 
   - Windows Identity Foundation
 
-  - Microsoft .NET 4.5 フレームワーク
+  - Microsoft .NET 4.5 Framework
 
-  - Microsoft Visual C++ 2012 再頒布可能
+  - Microsoft Visual C++ 2012 再頒布可能パッケージ
     
     <div>
     
 
     > [!NOTE]  
-    > Lync Server 2013 をインストールすると、Microsoft Visual C++ 2012 再頒布可能パッケージが自動的にインストールされます。 他のバージョンをインストールして使用することはできません。
+    > Microsoft Visual C++ 2012 再頒布可能パッケージは、Lync Server 2013 をインストールすると、自動的にインストールされます。 他のバージョンをインストールして使用することはできません。
 
     
     </div>
 
-  - URL リライトモジュールバージョン2.0 の再頒布可能
+  - URL Rewrite Module Version 2.0 (再頒布可能)
 
   - Windows Media フォーマット ランタイム
 
   - Windows PowerShell バージョン3.0
 
-  - Microsoft Silverlight 4 browser プラグイン (Silverlight 4.0.50524.0 または Lync Server コントロールパネルの最新バージョン)
+  - Microsoft Silverlight 4 ブラウザー プラグイン (Lync Server コントロール パネルの場合は Silverlight 4.0.50524.0 または最新バージョン)
 
-  - Active Directory ドメインサービスツール
+  - Active Directory ドメインサービスのツール
 
-これらのソフトウェア要件の一部は、特定のサーバーの役割またはコンポーネントにのみ適用されます。 これらのソフトウェア要件の詳細については、計画ドキュメントの「 [Lync Server 2013 のその他のソフトウェア要件](lync-server-2013-additional-software-requirements.md)」を参照してください。
+上記のソフトウェア要件の中には、特定のサーバーの役割またはコンポーネントに対してのみ適用されるものもあります。 これらのソフトウェア要件の詳細については、「計画」のドキュメントの「 [Lync Server 2013 の追加ソフトウェア要件](lync-server-2013-additional-software-requirements.md)」を参照してください。
 
 </div>
 

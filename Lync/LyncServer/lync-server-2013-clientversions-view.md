@@ -12,16 +12,16 @@ ms:contentKeyID: 49733825
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8fd25da49e8a3b6ad7838ff27a4472e711b97421
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1a7e62fbf56d270c6d2d0c65415dc28dd30e4449
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756411"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046670"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41756411"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-01_
+_**トピックの最終更新日:** 2012-10-01_
 
-[ClientVersions] ビューには、データベースに記録されているセッションに参加しているさまざまなクライアントの種類とバージョンに関する情報が格納されます。 ビューの各レコードは、1つのクライアントバージョンを表します。 このビューは、Microsoft Lync Server 2013 で導入されました。
+ClientVersions ビューは、データベースに記録されるセッションに参加した、さまざまなクライアントの種類およびバージョンの情報を格納します。 ビュー内の各レコードは、1 つのクライアント バージョンを表します。 このビューは Microsoft Lync Server 2013 で導入されました。
 
 <div>
 
 
 > [!NOTE]  
-> 特定の列に対して複数のレコードが存在する場合があります。
+> 一部の列には複数のレコードが存在する場合があります。
 
 
 
@@ -71,8 +71,8 @@ _**最終更新日:** 2012-10-01_
 </tr>
 <tr class="even">
 <td><p><strong>バージョン</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>ユーザーエージェントを表します。</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>ユーザー エージェントを表す。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ClientType</strong></p></td>
@@ -82,7 +82,7 @@ _**最終更新日:** 2012-10-01_
 <tr class="even">
 <td><p><strong>ClientCategory</strong></p></td>
 <td><p>nvarchar (64)</p></td>
-<td><p>クライアントが所属するカテゴリ。 たとえば、.0 というクライアント Conferencing_Attendant_1 は ClientCategory CAA をに属しています。</p></td>
+<td><p>クライアントが属するカテゴリ。たとえば、Conferencing_Attendant_1.0 というクライアントは CAA という ClientCategory に属します。</p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 標準的な手順'
+title: 'Lync Server 2013: 標準手順'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 63969581
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5160e67d13b7ff3ea1502c093a0ed010d176568f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e59c3c4a1b76b7f3549f53721e29aa1e34085334
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731867"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038819"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,30 +35,30 @@ ms.locfileid: "41731867"
 
 <span> </span>
 
-_**最終更新日:** 2014-08-18_
+_**トピックの最終更新日:** 2014-08-18_
 
-いくつかのリソースを使って、組織に必要な標準手順とその実行方法を定義できます。 各組織は固有のものであるため、日常的な要件に合わせて、これらのリソースをさらにカスタマイズして、適応することが必要な場合があります。標準的な操作手順の変更とドキュメントの変更が必要な場合があります。 変更が加えられると、Microsoft の運用フレームワークのサービス管理機能で定義されている変更管理プロセスによって、管理タスクの実行方法とタイミングにどのような影響が及ぶ可能性があるかを特定する必要があります。 変更管理関数を使用して、手続きのドキュメントを更新して制御します。タスクを日常的、毎週、毎月、必要に応じて実行する管理可能なワークロードに分割することをお勧めします。 日常的な作業では、システムの機能にとって非常に重要な側面に重点を置いています。また、月次のタスクでは、システムの長期の正常性を確保することに重点を置いています。 実行する必要があるタスクは、次のカテゴリに分けることができます。
+組織で必要な標準手順を定義し、それらを実行する方法については、いくつかのリソースを参照してください。 各組織は固有のものなので、日常の要件に合わせてこれらのリソースをさらにカスタマイズして適応する必要がある場合があります。標準的な運用手順の変更、およびドキュメントを改訂する必要がある場合があります。 変更が行われると、Microsoft 運用フレームワークのサービス管理機能で定義されている変更管理プロセスによって、管理タスクの実行方法やタイミングにどのような影響が生じる可能性があるかを特定する必要があります。 変更管理機能を使用して、手続きのドキュメントを更新し、制御します。運用タスクは、日単位、週単位、月単位、および必要に応じて、管理可能なワークロードに分けて行うことをお勧めします。 日常のタスクでは、システムの機能にとって非常に重要な側面に焦点を当てることができます。また、月単位のタスクでは、システムの長期的な正常性を確保することに重点を置いています。 実行する必要があるタスクは、次のカテゴリに分けることができます。
 
-  - [Lync Server 2013 での日次タスク](lync-server-2013-daily-tasks.md)
+  - [Lync Server 2013 の毎日のタスク](lync-server-2013-daily-tasks.md)
 
-  - [Lync Server 2013 での週次タスク](lync-server-2013-weekly-tasks.md)
+  - [Lync Server 2013 の週次タスク](lync-server-2013-weekly-tasks.md)
 
   - [Lync Server 2013 の月次タスク](lync-server-2013-monthly-tasks.md)
 
-  - [Lync Server 2013 での必要なタスク](lync-server-2013-as-needed-tasks.md)
+  - [Lync Server 2013 で必要になるタスク](lync-server-2013-as-needed-tasks.md)
 
-運用管理のためのドキュメントを準備するときに、チェックリストを使用して、必要なタスクが適切なタイミングで実行されることを確認します。 操作のチェックリストを準備する方法の詳細については、「操作のチェックリスト」にあるサンプルチェックリストを参照してください。
+運用管理のためのドキュメントを準備するときは、チェックリストを使用して、必要なタスクが適切なタイミングで実行されることを確認してください。 操作チェックリストを準備する方法の詳細については、「操作チェックリスト」にあるサンプルチェックリストを参照してください。
 
-多くの場合、変更管理はシステム管理が終了する場所に引き継がれます。 タスクが標準的な手順でカバーされている場合は、システム管理機能の一部です。 タスクの標準的な手順がない場合は、変更管理機能を使用して処理する必要があります。
+多くの場合、変更管理はシステム管理の終了時に引き継がれます。 タスクが標準的な手順でカバーされている場合は、システム管理機能の一部です。 タスクの標準手順がない場合は、変更管理機能を使用して処理する必要があります。
 
 <div>
 
 ## <a name="see-also"></a>関連項目
 
 
-[日次タスク チェックリスト](lync-server-2013-operations-checklists.md)  
+[日毎のタスクチェックリスト](lync-server-2013-operations-checklists.md)  
 [毎週のタスクチェックリスト](lync-server-2013-operations-checklists.md)  
-[毎月のタスクチェックリスト](lync-server-2013-operations-checklists.md)  
+[月次タスクチェックリスト](lync-server-2013-operations-checklists.md)  
   
 
 </div>

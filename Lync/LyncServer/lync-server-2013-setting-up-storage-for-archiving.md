@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: アーカイブ用に記憶域を設定する'
+title: 'Lync Server 2013: アーカイブ用のストレージのセットアップ'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185858
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a5a380ce6c863c54739e74488bfa3b3979664e78
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5a3633ee21fc26fe21557731ece31cf5a0bbb171
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732087"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040629"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-storage-for-archiving-in-lync-server-2013"></a>Lync Server 2013 でアーカイブ用に記憶域を設定する
+# <a name="setting-up-storage-for-archiving-in-lync-server-2013"></a>Lync Server 2013 でのアーカイブ用の記憶域のセットアップ
 
 </div>
 
@@ -35,49 +35,49 @@ ms.locfileid: "41732087"
 
 <span> </span>
 
-_**最終更新日:** 2013-12-17_
+_**トピックの最終更新日:** 2013-12-17_
 
-Lync Server 2013 のアーカイブストレージには、次のものが含まれます。
+Lync Server 2013 のアーカイブ記憶域には次のものが含まれます。
 
-  - ****   IM コンテンツを保存するには、データストレージデータストレージが必要です。
+  - **データストレージ**   データストレージは IM コンテンツを格納するために必要です。
 
-  - ****   会議 (会議) コンテンツデータストレージとファイルストレージを保存するには、ファイルストレージファイルストレージが必要です。
-
-<div>
-
-## <a name="setting-up-data-storage"></a>データストレージのセットアップ
-
-Lync Server 2013 でアーカイブ用にデータストレージを設定するための要件は、アーカイブデータの保存方法によって異なります。
-
-  - Lync Server 2013 アーカイブを Exchange の展開と統合して、Exchange ストレージを使ってアーカイブデータを保存します。
-
-  - アーカイブデータを格納するために、個別の SQL Server データベースサーバーをセットアップします。
+  - **ファイルストレージ**   ファイルストレージは、会議 (会議) コンテンツのデータストレージおよびファイルストレージを格納するために必要です。
 
 <div>
 
-## <a name="setting-up-exchange-storage-for-archiving-data"></a>データをアーカイブするための Exchange ストレージのセットアップ
+## <a name="setting-up-data-storage"></a>データ ストレージのセットアップ
 
-アーカイブデータの保存用に Exchange をセットアップするには、exchange の展開で Exchange 2013 が実行されている必要があります。 さらに、ユーザーのメールボックスは Exchange 2013 サーバー上にある必要があり、そのメールボックスはインプレースホールドに配置されている必要があります。 Exchange 2013 の構成の詳細については、Exchange の製品に関するドキュメントを参照してください。
+Lync Server 2013 でアーカイブ用のデータストレージをセットアップするための要件は、アーカイブデータの保存方法によって異なります。
+
+  - Exchange ストレージを使用してアーカイブデータを保存するために、Lync Server 2013 アーカイブを Exchange 展開と統合します。
+
+  - アーカイブデータを格納する個別の SQL Server データベースサーバーをセットアップします。
+
+<div>
+
+## <a name="setting-up-exchange-storage-for-archiving-data"></a>アーカイブ データ用の Exchange ストレージのセットアップ
+
+アーカイブデータのストレージ用に Exchange をセットアップするには、exchange の展開で Exchange 2013 を実行している必要があります。 また、ユーザーメールボックスは Exchange 2013 サーバー上に配置され、メールボックスがインプレース保持に配置されている必要があります。 Exchange 2013 の構成の詳細については、「Exchange 製品のドキュメント」を参照してください。
 
 </div>
 
 <div>
 
-## <a name="setting-up-sql-server-database-servers-for-storage-of-archiving-data"></a>アーカイブデータを保存するための SQL Server データベースサーバーのセットアップ
+## <a name="setting-up-sql-server-database-servers-for-storage-of-archiving-data"></a>アーカイブ データのストレージ用 SQL Server データベースのセットアップ
 
-展開を Exchange と統合しない限り、Lync Server 2013 でアーカイブするには、アーカイブされたデータを格納するための SQL Server データベースソフトウェアが必要です。
+Lync Server 2013 のアーカイブには、展開と Exchange を統合しない限り、アーカイブされたデータを格納するための SQL Server データベースソフトウェアが必要です。
 
-SQL Server アーカイブデータベースの場合は、アーカイブデータベースをホストするコンピューターに SQL Server をインストールする必要があります。 フロントエンドプールのバックエンドデータベースに使用するのと同じ SQL インスタンスを使用できます。 最高のパフォーマンスを得るには、一元管理ストアとは別のコンピューターにアーカイブデータベースを展開する必要があります。 Lync Server の2013コンポーネントの詳細について詳しくは、「[サポートされている2013サーバー](lync-server-2013-supported-server-collocation.md)の検索 (サポート対象ドキュメント)」をご覧ください。
+SQL Server アーカイブデータベースの場合は、アーカイブデータベースをホストするコンピューターに SQL Server をインストールする必要があります。 フロントエンド プールのバックエンド データベースに使用するものと同じ SQL インスタンスを使用できます。 パフォーマンスを最大限に高めるために、中央管理ストアとは別のコンピューター上にアーカイブ データベースを展開する必要があります。 Lync server 2013 コンポーネントの併置の詳細については、「サポート」のドキュメントの「supported [server 併置する in lync server 2013](lync-server-2013-supported-server-collocation.md) 」を参照してください。
 
-各データベースサーバーでは、サポートされているバージョンの SQL Server が実行されている必要があります。 サポートされているバージョンの詳細については、計画ドキュメントの「 [Lync Server 2013 でのアーカイブの技術要件](lync-server-2013-technical-requirements-for-archiving.md)」を参照してください。
+各データベースサーバーは、サポートされているバージョンの SQL Server を実行している必要があります。 サポートされているバージョンの詳細については、「計画」のドキュメントの「 [Lync Server 2013 でのアーカイブの技術要件](lync-server-2013-technical-requirements-for-archiving.md)」を参照してください。
 
-アーカイブを展開して有効にする前に、SQL Server プラットフォームをセットアップする必要があります。 トポロジの公開に使用するアカウントに適切な管理権限とアクセス許可がある場合、トポロジを公開するときにアーカイブ データベース (LcsLog) を作成できます。 また、インストール手順の一部として、後でデータベースを作成することもできます。 SQL Server の詳細については、SQL Server の[http://go.microsoft.com/fwlink/p/?linkID=129045](http://go.microsoft.com/fwlink/p/?linkid=129045)TechCenter を参照してください。
+アーカイブを展開して有効にする前に、SQL Server プラットフォームをセットアップする必要があります。 トポロジの公開に使用するアカウントに適切な管理権限とアクセス許可がある場合、トポロジを公開するときにアーカイブ データベース (LcsLog) を作成できます。 インストール手順の一部を含め、データベースを後で作成することもできます。 SQL Server の詳細については、SQL Server TechCenter [http://go.microsoft.com/fwlink/p/?linkID=129045](http://go.microsoft.com/fwlink/p/?linkid=129045)の「」を参照してください。
 
 <div>
 
 
 > [!NOTE]  
-> 既定のアーカイブ SQL Server メンテナンスジョブが、アーカイブデータベースを保持している SQL インスタンスで実行されていることを確認します。これにより、既定のアーカイブ SQL Server メンテナンスジョブは、SQL Server エージェントサービスの制御。
+> SQL Server エージェントサービスのスタートアップの種類が自動で、アーカイブデータベースを保持している SQL インスタンスに対して SQL Server エージェントサービスが実行されていることを確認します。これにより、既定のアーカイブ SQL Server メンテナンスジョブが、そのスケジュールに従って、SQL Server エージェントサービスの制御。
 
 
 
@@ -89,9 +89,9 @@ SQL Server アーカイブデータベースの場合は、アーカイブデー
 
 <div>
 
-## <a name="setting-up-file-storage"></a>ファイルストレージを設定する
+## <a name="setting-up-file-storage"></a>ファイル ストレージのセットアップ
 
-アーカイブでは、フロントエンドプールまたは Standard Edition サーバーのセットアップ時に指定した Lync Server 2013 ファイル共有が使用されます。 アーカイブに使用するファイル共有を変更することはできません。 サポートされているファイルストレージシステムの詳細については、サポートドキュメントの「 [Lync Server 2013 でのファイルストレージのサポート](lync-server-2013-file-storage-support.md)」を参照してください。
+アーカイブでは、フロントエンドプールまたは Standard Edition サーバーをセットアップするときに指定した Lync Server 2013 ファイル共有を使用します。 アーカイブに使用するファイル共有を変更することはできません。 サポートされているファイルストレージシステムの詳細については、「サポート」のドキュメントの「 [Lync Server 2013 のファイルストレージサポート](lync-server-2013-file-storage-support.md)」を参照してください。
 
 </div>
 

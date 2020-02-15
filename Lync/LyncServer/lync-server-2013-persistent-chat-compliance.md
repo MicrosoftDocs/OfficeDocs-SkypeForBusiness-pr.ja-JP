@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 常設チャット コンプライアンス'
+title: 'Lync Server 2013: 常設チャットのコンプライアンス'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184099
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bca8bec32c846d5d3c5defe87e4ebfe526dc5f63
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e5e62c003762c68c83113c80420eb1e68b721719
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725657"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050879"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="persistent-chat-compliance-in-lync-server-2013"></a>Lync Server 2013 の常設チャット コンプライアンス
+# <a name="persistent-chat-compliance-in-lync-server-2013"></a>Lync Server 2013 の常設チャットコンプライアンス
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41725657"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-06_
+_**トピックの最終更新日:** 2012-10-06_
 
 新しい常設チャットのコンプライアンス構成を作成するには
 

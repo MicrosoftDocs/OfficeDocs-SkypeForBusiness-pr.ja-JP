@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ユーザーのアーカイブポリシーを設定する'
+title: 'Lync Server 2013: ユーザーのアーカイブポリシーの設定'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183549
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c3f2be2a41aae741a2dae5e3becb522dead8754
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a5adef442b4e890a8f157208aa6e7055725c014e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732237"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037627"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-archiving-policies-for-users-in-lync-server-2013"></a>Lync Server 2013 でユーザーのアーカイブポリシーを設定する
+# <a name="setting-up-archiving-policies-for-users-in-lync-server-2013"></a>Lync Server 2013 でユーザーのアーカイブポリシーをセットアップする
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41732237"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-09_
+_**トピックの最終更新日:** 2012-10-09_
 
-特定のユーザーのアーカイブを有効または無効にするには、ユーザーのアーカイブポリシーを作成して構成し、そのポリシーを特定のユーザーまたはユーザーグループに適用します。 ユーザー ポリシーは、グローバル ポリシーやサイト ポリシーより優先されます。 アーカイブポリシーが適用されるのは、Microsoft Exchange 統合を使用していない場合、または Microsoft Exchange 統合を使用していて、Exchange 2013 を使っていないユーザーがいて、メールボックスがインプレース保持されている場合のみです。
+ユーザーのアーカイブ ポリシーを作成および構成し、そのポリシーを特定のユーザーまたはユーザー グループに適用することで、特定のユーザーに対してアーカイブを有効または無効にできます。 ユーザー ポリシーは、グローバル ポリシーやサイト ポリシーより優先されます。 アーカイブポリシーは、Microsoft Exchange 統合を使用していない場合、または Microsoft Exchange 統合を使用しているが、Exchange 2013 に所属しておらず、メールボックスがインプレース保持に配置されている場合にのみ適用されます。
 
-グローバル、サイト、ユーザーのポリシーの階層など、アーカイブポリシーの動作について詳しくは、「 [Lync Server 2013 でのアーカイブのしくみ](lync-server-2013-how-archiving-works.md)」をご覧ください。
+グローバルポリシー、サイトポリシー、およびユーザーポリシーの階層を含むアーカイブポリシーのしくみの詳細については、「 [Lync Server 2013](lync-server-2013-how-archiving-works.md)の計画に関するドキュメント、展開に関するドキュメント、または操作のドキュメントでのアーカイブの仕組み」を参照してください。
 
 <div>
 
 
 > [!NOTE]  
-> 展開で Microsoft Exchange の統合を有効にした場合、exchange 2013 を使っているユーザーに対してアーカイブが有効になっていて、メールボックスがインプレースホールドに配置されているかどうかを Exchange のインプレースホールドポリシーで制御します。 詳細については、展開ドキュメントで<A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Exchange Server との統合を使用する場合の「Lync server 2013 でアーカイブするためのポリシーを設定する</A>」を参照してください。<BR>アーカイブ ポリシーで内部または外部の通信のアーカイブを有効にする前に、アーカイブ構成のすべてのオプションを適切に指定してください。 詳細については、展開ドキュメントの「 <A href="lync-server-2013-configuring-archiving-options.md">Lync Server 2013 でアーカイブオプションを構成する</A>」を参照してください。
+> 展開に対して Microsoft Exchange 統合を有効にすると、exchange 2013 に所属しているユーザーに対してアーカイブを有効にし、メールボックスをインプレース保持に設定するかどうかを Exchange のインプレース保持ポリシーで制御します。 詳細については、「展開」のドキュメントの「 <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Setting up policies For Exchange server integration using The Lync server 2013</A> 」を参照してください。<BR>アーカイブ ポリシーで内部または外部の通信のアーカイブを有効にする前に、アーカイブ構成のすべてのオプションを適切に指定してください。 詳細については、「展開」のドキュメントの「 <A href="lync-server-2013-configuring-archiving-options.md">Lync Server 2013 のアーカイブオプションの構成</A>」を参照してください。
 
 
 
@@ -53,11 +53,11 @@ _**最終更新日:** 2012-10-09_
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 でアーカイブ用のユーザーポリシーを設定する](lync-server-2013-setting-up-user-policies-for-archiving-in-lync-server.md)
+  - [Lync Server 2013 でのアーカイブ用のユーザーポリシーのセットアップ](lync-server-2013-setting-up-user-policies-for-archiving-in-lync-server.md)
 
-  - [Exchange Server との統合を使用するときに、Lync Server 2013 でアーカイブするためのポリシーを設定する](lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md)
+  - [Exchange Server 統合を使用する場合の Lync Server 2013 でのアーカイブポリシーの設定](lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md)
 
 </div>
 

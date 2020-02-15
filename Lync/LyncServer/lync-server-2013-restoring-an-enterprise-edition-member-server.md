@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Enterprise Edition のメンバーサーバーを復元する'
+title: 'Lync Server 2013: Enterprise Edition メンバーサーバーの復元'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541523
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e870b68d1252ea5a203b3c334299fb65b6a56512
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c0643cf250e00b447bfac8a1b32c2a3038cff139
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733217"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051089"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="restoring-an-enterprise-edition-member-server-in-lync-server-2013"></a>Lync Server 2013 で Enterprise Edition メンバーサーバーを復元する
+# <a name="restoring-an-enterprise-edition-member-server-in-lync-server-2013"></a>Lync Server 2013 での Enterprise Edition メンバーサーバーの復元
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41733217"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-18_
+_**トピックの最終更新日:** 2013-02-18_
 
-次のいずれかのサーバーの役割を実行しているサーバーで障害が発生した場合は、このトピックの手順に従ってサーバーを復元します。 複数のサーバーが個別に失敗した場合は、各サーバーの手順に従います。
+次のいずれかのサーバーの役割を実行しているサーバーで障害が発生した場合は、このトピックの手順に従ってサーバーを復元します。 複数のサーバーで個別に障害が発生した場合は、各サーバーで手順を実行します。
 
-  - フロントエンド サーバー
+  - フロント エンド サーバー
 
   - 仲介サーバー
 
@@ -53,7 +53,7 @@ _**最終更新日:** 2013-02-18_
 
 
 > [!TIP]  
-> 復元を開始する前に、システムのイメージコピーを取得することをお勧めします。 復元中に問題が発生した場合に備えて、この画像をロールバックポイントとして使うことができます。 オペレーティングシステムと SQL Server をインストールした後に画像のコピーを取得し、証明書を復元または reenroll することができます。
+> 復元を開始する前に、システムのイメージコピーを取得することをお勧めします。 復元中に問題が発生した場合に備えて、このイメージをロールバックポイントとして使用できます。 オペレーティングシステムと SQL Server をインストールした後、画像コピーを取得し、証明書を復元または reenroll することができます。
 
 
 
@@ -61,34 +61,34 @@ _**最終更新日:** 2013-02-18_
 
 <div>
 
-## <a name="to-restore-a-member-server"></a>メンバーサーバーを復元するには
+## <a name="to-restore-a-member-server"></a>メンバー サーバーを復元するには
 
-1.  障害が発生したサーバーと同じ完全修飾ドメイン名 (FQDN) を持つクリーンまたは新しいサーバーを起動し、オペレーティングシステムをインストールして、証明書を復元または reenroll します。
+1.  障害が発生したサーバーと同じ完全修飾ドメイン名 (FQDN) を持つクリーンサーバーまたは新しいサーバーを起動し、オペレーティングシステムをインストールしてから、証明書を復元または reenroll します。
     
     <div>
     
 
     > [!NOTE]  
-    > 組織のサーバー展開手順に従って、この手順を実行します。
+    > 組織で定めるサーバーの展開手順に従って、この手順を実行します。
 
     
     </div>
 
-2.  RTCUniversalServerAdmins グループのメンバーであるユーザーアカウントから、復元しているサーバーにログオンします。
+2.  RTCUniversalServerAdmins グループのメンバーであるユーザーアカウントから、復元するサーバーにログオンします。
 
-3.  Lync Server のインストールフォルダーまたはメディアを参照し、セットアップ\\\\Amd64\\Setup.exe で [lync server 展開ウィザード] を起動します。
+3.  Lync Server インストールフォルダーまたはメディアを参照し、セットアップ\\\\Amd64\\setup.exe で lync server 展開ウィザードを起動します。
 
-4.  展開ウィザードの指示に従って、次の操作を行います。
+4.  展開ウィザードに従って、次の操作を行います。
     
-    1.  **手順 1: ローカル構成ストアをインストール**して、ローカル構成ファイルをインストールします。
+    1.  [**ステップ 1: ローカル構成ストアのインストール**] を実行して、ローカル構成ファイルをインストールします。
     
-    2.  **手順 2: lync server のコンポーネントをセットアップまたは削除**して lync server server の役割をインストールする
+    2.  [**ステップ 2: lync Server コンポーネントのセットアップまたは削除**を実行して、lync server のサーバーの役割をインストールする」を実行します。
     
-    3.  手順 3: 証明書を割り当てるために**証明書を要求、インストール、または割り当て**ます。
+    3.  [**ステップ 3: 証明書の要求、インストール、または割り当て**] を実行して、証明書を割り当てます。
     
-    4.  **手順 4: サービスを開始**して、サーバー上のサービスを開始します。
+    4.  [**ステップ 4: サービスの開始**] を実行して、サーバー上でサービスを開始します。
     
-    展開ウィザードの実行の詳細については、復元するサーバーの役割の展開ドキュメントを参照してください。
+    展開ウィザードの実行の詳細については、「展開」のドキュメントの「復元」を参照してください。
 
 </div>
 

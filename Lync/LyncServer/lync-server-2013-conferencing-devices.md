@@ -12,16 +12,16 @@ ms:contentKeyID: 51803961
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a1fbe13b788b8add2f609cc59ed832e6bd67dc1d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a6af847b13a073a8135cf9c54ea0f503c6e1af71
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741537"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040796"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41741537"
 
 <span> </span>
 
-_**最終更新日:** 2014-02-05_
+_**トピックの最終更新日:** 2014-02-05_
 
-会議デバイスは、Lync Phone Edition 機能を会議室に取り込み、チャットルーム内のユーザーが聞くことができるようにします。また、デバイスによっては、他の場所にいるユーザーも表示されます。
+会議デバイスは、Lync Phone Edition 機能を会議室に取り込み、チャットルーム内のユーザーが音声を聞くことができるようにします。また、デバイスによっては、他の場所にいるユーザーを表示します。
 
-このセクションのトピックを使用して、会議デバイスのセットアップと管理を行う方法について説明します。
+このセクションのトピックを使用して、会議デバイスをセットアップおよび管理する方法について説明します。
 
 <div>
 
 
 > [!NOTE]  
-> Lync Server 2013 でサポートされている会議デバイスの詳細については、「 <A href="http://technet.microsoft.com/en-us/lync/gg278164.aspx">Microsoft Lync 用に認定</A>された web ページの電話とデバイス」を参照してください。
+> Lync Server 2013 での使用がサポートされている電話会議デバイスの詳細については、「 <A href="http://technet.microsoft.com/lync/gg278164.aspx">Microsoft Lync 用の web ページ電話とデバイス</A>」を参照してください。
 
 
 
@@ -53,9 +53,9 @@ _**最終更新日:** 2014-02-05_
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 で会議デバイス情報を表示する](lync-server-2013-view-conferencing-device-information.md)
+  - [Lync Server 2013 での会議デバイス情報の表示](lync-server-2013-view-conferencing-device-information.md)
 
   - [Lync Server 2013 で会議デバイスの連絡先オブジェクトを作成または変更する](lync-server-2013-create-or-modify-a-conferencing-device-contact-object.md)
 
@@ -74,4 +74,3 @@ _**最終更新日:** 2014-02-05_
 </div>
 
 </div>
-

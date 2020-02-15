@@ -12,20 +12,20 @@ ms:contentKeyID: 48184599
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3df3cbd4d71a1decc3607263f2e98b159dc29b2e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b99fd96b16d19305ea5bb63ea9f84096ef6117c7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735867"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046650"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enable-users-for-unified-contact-store-in-lync-server-2013"></a>Lync Server 2013 の統合連絡先ストアでユーザーを有効にする
+# <a name="enable-users-for-unified-contact-store-in-lync-server-2013"></a>Lync Server 2013 で統合連絡先ストアに対してユーザーを有効にする
 
 </div>
 
@@ -35,39 +35,39 @@ ms.locfileid: "41735867"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-07_
+_**トピックの最終更新日:** 2012-10-07_
 
-Lync Server 2013 を展開してトポロジを公開すると、既定では、統合連絡先ストアがすべてのユーザーに対して有効になります。 Lync Server 2013 を展開した後、ユニファイド連絡先ストアを有効にするために、追加の操作を行う必要はありません。 ただし、**Set-CsUserServicesPolicy** コマンドレットを使用すると、どのユーザーが統合連絡先ストアを使用できるのかをカスタマイズできます。 この機能の有効化は、グローバルに行うことも、サイトごと、テナントごと、または個人やそのグループごとに行うこともできます。
+Lync Server 2013 を展開してトポロジを公開すると、既定では、すべてのユーザーに対して統合連絡先ストアが有効になります。 Lync Server 2013 を展開した後に、統合連絡先ストアを有効にするために追加のアクションを実行する必要はありません。 ただし、**Set-CsUserServicesPolicy** コマンドレットを使用すると、どのユーザーが統合連絡先ストアを使用できるのかをカスタマイズできます。 この機能の有効化は、グローバルに行うことも、サイトごと、テナントごと、または個人やそのグループごとに行うこともできます。
 
 <div>
 
 ## <a name="to-enable-users-for-unified-contact-store"></a>統合連絡先ストアでユーザーを有効にするには
 
-1.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+1.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
-2.  次のいずれかの操作を実行します。
+2.  次のどちらかの操作を行います。
     
-      - すべての Lync Server ユーザーに対して、統合された連絡先ストアをグローバルに有効にするには、コマンドラインで次のように入力します。
+      - すべての Lync Server ユーザーに対して統合連絡先ストアをグローバルに有効にするには、コマンドラインで次のように入力します。
         
             Set-CsUserServicesPolicy -Identity global -UcsAllowed $True
     
-      - 特定のサイトのユーザーに対してユニファイド連絡先ストアを有効にするには、コマンドラインで次のように入力します。
+      - 統合連絡先ストアを特定のサイトのユーザーに対して有効にするには、コマンドラインで次のように入力します。
         
             New-CsUserServicesPolicy -Identity site:<site name> -UcsAllowed $True
         
-        次に例を示します。
+        例:
         
             New-CsUserServicesPolicy -Identity site:Redmond -UcsAllowed $True
     
-      - テナントを使用してユニファイド連絡先ストアを有効にするには、コマンドラインで次のように入力します。
+      - 統合連絡先ストアをテナントごとに有効にするには、コマンドラインで次のように入力します。
         
             Set-CsUserServicesPolicy -Tenant <tenantId> -UcsAllowed $True
         
-        次に例を示します。
+        例:
         
             Set-CsUserServicesPolicy -Tenant "38aad667-af54-4397-aaa7-e94c79ec2308" -UcsAllowed $True
     
-      - 特定のユーザーに対してユニファイド連絡先ストアを有効にするには、コマンドラインで次のように入力します。
+      - 統合連絡先ストアを特定のユーザーに対して有効にするには、コマンドラインで次のように入力します。
         
             New-CsUserServicesPolicy -Identity "<policy name>" -UcsAllowed $True
             Grant-CsUserServicesPolicy -Identity "<user display name>" -PolicyName <"policy name">
@@ -90,7 +90,7 @@ Lync Server 2013 を展開してトポロジを公開すると、既定では、
         
 
         > [!NOTE]  
-        > 前記の例の最初のコマンドでは、UcsAllowed フラグを True に設定することで、新しいユーザーごとのポリシーを <EM>UCS Enabled Users</EM> という名前で作成しています。2 番目のコマンドでは、Ken Myer という表示名のユーザーにこのポリシーを割り当てています。これは、Ken Myer が統合連絡先ストアで有効になったことを意味します。
+        > 前記の例の最初のコマンドでは、UcsAllowed フラグを True に設定することで、新しいユーザーごとのポリシーを UCS Enabled Users<EM></EM> という名前で作成しています。2 番目のコマンドでは、Ken Myer という表示名のユーザーにこのポリシーを割り当てています。これは、Ken Myer が統合連絡先ストアで有効になったことを意味します。
 
         
         </div>

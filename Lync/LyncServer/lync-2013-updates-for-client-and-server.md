@@ -1,5 +1,5 @@
 ---
-title: 'Lync 2013: クライアントとサーバーの更新プログラム'
+title: 'Lync 2013: クライアントおよびサーバーの更新プログラム'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 63369406
 ms.date: 11/12/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 937af764342def5e4d3923cfb82e771e31fe9aa8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1352b228a6c4292beba4b4ebb19b787111d1379b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730547"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037347"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41730547"
 
 <span> </span>
 
-_**最終更新日:** 2014-11-12_
+_**トピックの最終更新日:** 2014-11-12_
 
-最新バージョンの Lync クライアントを使用していることを確認するには、「Microsoft Lync 2013 のすべてのクライアントリリースバージョンの更新された最新の一覧」を参照してください。
+最新バージョンの Lync クライアントを使用していることを確認するには、Microsoft Lync 2013 のすべてのクライアントリリースバージョンの更新された頻繁な一覧を確認してください。
 
 <div>
 
 ## <a name="determining-your-lync-desktop-client-version"></a>Lync デスクトップクライアントのバージョンを確認する
 
-使用している Lync デスクトップクライアントのバージョンを確認するには、[オプション] アイコンをクリックして [Lync のバージョン**情報**] ダイアログボックスを開きます。 [**オプション**] メニューで、[**ヘルプ**] を選択し、[ **Microsoft Lync のバージョン情報**] を選択します。 クライアントのバージョン番号は、通常、[Lync のバージョン**情報**] ダイアログボックスの最初の行に表示されます。
+使用している Lync desktop クライアントのバージョンを確認するには、[オプション] アイコンをクリックして [ **About lync** ] ダイアログを開きます。 [**オプション**] メニューの [**ヘルプ**] をクリックし、[**バージョン情報**] を選択します。 クライアントバージョン番号は、通常 [バージョン**情報**] ダイアログボックスの最初の行に表示されます。
 
 </div>
 
@@ -51,9 +51,9 @@ _**最終更新日:** 2014-11-12_
 
 ## <a name="lync-client-updates"></a>Lync クライアントの更新プログラム
 
-Lync クライアントの問題をトラブルシューティングするときに、最も一般的なチェックの1つとして、最新バージョンの Lync クライアントを実行しているかどうか、すべての更新プログラムがインストールされているかどうかを確認することがあります。 報告された Lync クライアントの問題の大部分は、製品の最新リリースまたは更新プログラムにアップグレードすることによって解決されます。 したがって、Microsoft 製品サポートに問い合わせる前に、最新の更新プログラムと共に最新バージョンの Lync クライアントをインストールすることを強くお勧めします。 この[記事](https://docs.microsoft.com/SkypeForBusiness/sfb-client-updates#lync-2013-client-updates)では、適切なリリースバージョン番号を特定する方法について説明します。
+Lync クライアントの問題をトラブルシューティングする際に実行する最も一般的なチェックの1つは、最新バージョンの Lync クライアントを実行しているかどうか、およびすべてのパッチがインストールされているかどうかを判断することです。 報告された Lync クライアントの問題の大部分は、製品の最新リリースまたは更新プログラムにアップグレードすることによって解決できます。 そのため、Microsoft 製品サポートに問い合わせる前に、最新バージョンの Lync クライアントを最新の更新プログラムと共にインストールすることを強くお勧めします。 この[記事](https://docs.microsoft.com/SkypeForBusiness/sfb-client-updates#lync-2013-client-updates)では、正しいリリースバージョン番号を特定する方法について説明します。
 
-Lync クライアント用の更新プログラムごとに、それぞれのバージョン番号が含まれています。 更新プログラムに関連付けられているバージョン番号を確認するには、次の表にリンクされている関連するサポート技術情報の記事を参照してください。
+Lync クライアント用の各更新プログラムには、独自のバージョン番号があります。 更新プログラムに関連付けられているバージョン番号は、次の表にリンクされているサポート技術情報の記事を参照することで確認できます。
 
 </div>
 
@@ -61,7 +61,7 @@ Lync クライアント用の更新プログラムごとに、それぞれのバ
 
 ## <a name="lync-server-updates"></a>Lync Server の更新プログラム
 
-Lync Server 2013 の更新情報については、Microsoft サポート web の「 [Lync server 2013 の更新プログラム](https://support.microsoft.com/help/2809243/updates-for-lync-server-2013)」を参照してください。
+Lync Server 2013 の更新プログラムの詳細については、Microsoft サポート web 上の「 [Lync server 2013 の更新プログラム](https://support.microsoft.com/help/2809243/updates-for-lync-server-2013)」を参照してください。
 
 </div>
 

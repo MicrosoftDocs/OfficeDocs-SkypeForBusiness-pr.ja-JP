@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: IP アドレス タイプの概要'
+title: 'Lync Server 2013: IP アドレスの種類の概要'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185759
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d1172fc7da9600de036312adb05548b51dea6b0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: feb900c6f3d2ac426c184048986a7a751a205874
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755531"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051049"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-ip-address-types-for-lync-server-2013"></a>Lync Server 2013 の IP アドレス タイプの概要
+# <a name="overview-of-ip-address-types-for-lync-server-2013"></a>Lync Server 2013 の IP アドレスの種類の概要
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41755531"
 
 <span> </span>
 
-_**最終更新日:** 2013-01-29_
+_**トピックの最終更新日:** 2013-01-29_
 
-Lync Server 2013 で IP アドレスを構成する際には、次の3つのオプションがあります。 Lync Server 2013 は、IP バージョン 4 (IPv4)、IP バージョン 6 (IPv6)、またはその両方の組み合わせ (*デュアルスタック*とも呼ばれます) をサポートするように構成できます。 各種の構成には、いくつか考慮すべき問題があります。
+Lync Server 2013 で IP アドレスを構成する場合、3つのオプションがあります。 Lync Server 2013 は、IP バージョン 4 (IPv4)、IP バージョン 6 (IPv6) のみ、または両方の組み合わせ (*デュアルスタック*とも呼ばれます) をサポートするように構成できます。 各構成には、いくつか考慮すべき問題があります。
 
-  - **Ipv4 のみ**   ipv4 アドレスが不足しているため、IPv6 のみが作成されました。 最終的には、IPv6 は世界中で完全にサポートされますが、現時点では、企業が通信する必要がある多くの会社やデバイスは IPv6 をサポートしていませんが、しばらくの間、そうでない可能性があります。 IPv4 のみの構成は、Lync Server の実装が、既存のほとんどのデバイスと通信できるようにするために役立ちます。
+  - **Ipv4 のみ**   IPv6 が作成されています。世界では ipv4 アドレスが不足しています。 最終的には、IPv6 は完全にサポートされていますが、現時点では、企業が通信する必要がある多くの企業やデバイスが IPv6 をサポートしていない場合があります。 IPv4 のみの構成は、Lync Server の実装が、ほとんどの既存のデバイスと通信できるようにするのに役立ちます。
 
-  - **Ipv6 のみ**   逆に、現時点では ipv6 の完全な実装であるため、多くの既存のデバイスとの通信は除外されます。
+  - **Ipv6 のみ**   反対に、現時点で完全な ipv6 実装では、多くの既存デバイスとの通信が除外されます。
 
-  - **デュアルスタック**   デュアルスタックは、IPv4 アドレスと IPv6 アドレスの両方が有効になっているネットワークです。 この構成は Lync Server 2013 でサポートされているため、ほとんどの場合、フル IPv4 からフル-IPv6 への移行は数年で完了します。
+  - **デュアルスタック**   デュアルスタックは、IPv4 と IPv6 の両方のアドレスが有効になっているネットワークです。 この構成は、Lync Server 2013 でサポートされています。ほとんどの場合、フル-IPv4 からフル-IPv6 への移行は数年かかります。
 
-以下のセクションでは、Lync Server のさまざまな機能について、これらの3つの構成の互換性についての概要を示します。
+次のセクションでは、Lync Server のさまざまな機能について、これらの3つの構成の互換性について概説します。
 
 <div>
 
@@ -157,7 +157,7 @@ Lync Server 2013 で IP アドレスを構成する際には、次の3つのオ�
 
 ## <a name="conferencing"></a>会議
 
-会議には、音声/ビデオ、アプリケーション共有、データコラボレーション (whiteboarding とファイル共有) が含まれます。
+会議には、音声ビデオ、アプリケーション共有、およびデータ コラボレーション (ホワイト ボードとファイル共有) が含まれます。
 
 
 <table>
@@ -210,7 +210,7 @@ Lync Server 2013 で IP アドレスを構成する際には、次の3つのオ�
 
 ## <a name="mediation-serverpstn"></a>仲介サーバー/PSTN
 
-トラフィックが IPv6 インターフェイスを通過している場合、Lync Server 2013 は、公衆交換電話網 (PSTN) 通話のメディアバイパスをサポートしていません。 メディア バイパスが必要な場合は、PSTN ゲートウェイを IPv4 に構成することをお勧めします。
+Lync Server 2013 は、トラフィックが IPv6 インターフェイスを経由している場合は、公衆交換電話網 (PSTN) 通話のメディアバイパスをサポートしていません。 メディア バイパスが必要な場合は、PSTN ゲートウェイを IPv4 に構成することをお勧めします。
 
 
 <table>
@@ -320,7 +320,7 @@ Lync Server 2013 で IP アドレスを構成する際には、次の3つのオ�
 <tr class="even">
 <td><p><strong>フロントエンド プール: IPv4</strong></p></td>
 <td><p>はい</p></td>
-<td><p>あり</p></td>
+<td><p>はい</p></td>
 <td><p>いいえ</p></td>
 </tr>
 <tr class="odd">
@@ -331,7 +331,7 @@ Lync Server 2013 で IP アドレスを構成する際には、次の3つのオ�
 </tr>
 <tr class="even">
 <td><p><strong>フロントエンド プール: IPv6</strong></p></td>
-<td><p>なし</p></td>
+<td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 <td><p>はい*</p></td>
 </tr>
@@ -368,7 +368,7 @@ Lync Server 2013 で IP アドレスを構成する際には、次の3つのオ�
 <tr class="odd">
 <td><p><strong>エッジ プール (内部エッジ): デュアル スタック</strong></p></td>
 <td><p>いいえ</p></td>
-<td><p>あり</p></td>
+<td><p>はい</p></td>
 <td><p>いいえ</p></td>
 </tr>
 <tr class="even">
@@ -395,13 +395,13 @@ Lync Server 2013 で IP アドレスを構成する際には、次の3つのオ�
 
 
 > [!NOTE]  
-> デュアルスタック展開では、Lync クライアントが IPv6 を使って Lync サーバーに接続している場合でも、Lync では、E9-1 をサポートする適切な IPv4 アドレスをマッピングすることが最善に行われます。
+> デュアルスタック展開では、lync クライアントが IPv6 を使用して Lync サーバーに接続している場合でも、Lync は E9-1-1 をサポートするために適切な IPv4 アドレスをマップするための最善の努力を行います。
 
 
 
 </div>
 
-IPv6 アドレスを使用した位置情報サービスはサポートされていません。
+IPv6 アドレスを使用した場所情報サービスはサポートされていません。
 
 Exchange ユニファイド メッセージング (UM) では IPv6 をサポートしていません。Exchange UM の場合は、DNS 解決が IPv6 アドレスを返さないことを確認します。IPv6 を使用すると、通話がボイス メールに送信されたときに障害が発生する可能性があります。
 
@@ -409,17 +409,17 @@ Exchange ユニファイド メッセージング (UM) では IPv6 をサポー�
 
 <div>
 
-## <a name="other-lync-server-2013-feature-support-for-ipv6"></a>IPv6 向けのその他の Lync Server 2013 機能のサポート
+## <a name="other-lync-server-2013-feature-support-for-ipv6"></a>その他の Lync Server 2013 機能の IPv6 のサポート
 
-前に説明した機能とコンポーネントに加えて、Lync Server 2013 では、次の機能の IPv6 がサポートされています。
+以前に説明した機能とコンポーネントに加えて、Lync Server 2013 は次の機能に対して IPv6 をサポートしています。
 
   - **常設チャット**
     
-    "トポロジビルダー" を使用して、常設チャットの IPv6 を構成します。 常設チャットの設定の詳細については、「常設チャットサーバーのマニュアルの展開」を参照してください。
+    常設チャットには、トポロジビルダーを使用して IPv6 を構成します。 常設チャットの構成の詳細については、「常設チャットサーバーのドキュメントを展開する」を参照してください。
 
   - **Quality of Experience (QoE) と通話詳細記録 (CDR) のレポート**
     
-    IPv4 と IPv6 のいずれの場合でも、監視レポートには監視サーバー データベースに格納されている IP アドレスがそのまま含まれます。
+    IPv4 か IPv6 かにかかわらず、監視レポートには監視サーバー データベースに格納されている IP アドレスがそのまま含まれます。
 
 </div>
 

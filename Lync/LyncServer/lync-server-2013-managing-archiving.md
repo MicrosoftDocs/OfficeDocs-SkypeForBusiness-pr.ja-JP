@@ -12,16 +12,16 @@ ms:contentKeyID: 48184003
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b3bb7ecac5204fc42b44e919dbbab8e9b720acc7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 16c9b901575e844954b9dd3454c4ecc7c86e7c3b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738867"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037217"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41738867"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-10_
+_**トピックの最終更新日:** 2012-10-10_
 
-組織のアーカイブを展開するときは、展開時に初期構成を指定します。 ただし、日常的な管理のためのアーカイブサポートの実装方法を変更したり、組織の新しい要件を満たすことが必要になる場合もあります。 たとえば、組織内の特定のサイト、プール、またはユーザーについて、アーカイブのサポートを設定する必要がある場合があります。 Lync Server 2013 を使用しているユーザーは、アーカイブポリシーと構成の作成とカスタマイズを行います。 Microsoft Exchange 統合を使用している場合は、Exchange 2013 の設定も構成する必要があります。 このセクションでは、アーカイブの展開を変更できるようにするための情報と手順について説明します。
+組織のアーカイブを展開するときは、展開時に初期構成を指定します。 ただし、日常の管理のためのアーカイブサポートの実装方法を変更したり、組織の新しい要件を満たす必要がある場合があります。 たとえば、組織内の特定のサイト、プール、またはユーザーについて、アーカイブサポートを異なる方法で設定する必要がある場合があります。 Lync Server 2013 に所属するユーザーは、アーカイブポリシーと構成を作成してカスタマイズすることになります。 Microsoft Exchange 統合を使用する場合は、Exchange 2013 設定も構成する必要があります。 このセクションでは、アーカイブ展開を変更できるようにするための情報と手順について説明します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
   - [Lync Server 2013 でのアーカイブのしくみ](lync-server-2013-how-archiving-works.md)
 
   - [Lync Server 2013 での内部および外部通信のアーカイブの管理](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md)
 
-  - [組織、サイト、およびプールの Lync Server 2013 でアーカイブ構成オプションを管理する](lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md)
+  - [組織、サイト、およびプールの Lync Server 2013 でのアーカイブ構成オプションの管理](lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md)
 
-  - [Lync Server 2013 でアーカイブデータベースのオプションを変更する](lync-server-2013-changing-archiving-database-options.md)
+  - [Lync Server 2013 でのアーカイブデータベースオプションの変更](lync-server-2013-changing-archiving-database-options.md)
 
-  - [Lync Server 2013 からアーカイブデータをエクスポートする](lync-server-2013-exporting-archived-data.md)
+  - [Lync Server 2013 からのアーカイブされたデータのエクスポート](lync-server-2013-exporting-archived-data.md)
 
 </div>
 

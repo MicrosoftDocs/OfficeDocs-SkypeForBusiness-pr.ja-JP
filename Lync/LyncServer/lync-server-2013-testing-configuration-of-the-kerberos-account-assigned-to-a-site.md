@@ -1,5 +1,5 @@
 ---
-title: サイトに割り当てられている Kerberos アカウントの構成をテストする
+title: サイトに割り当てられた Kerberos アカウントの構成をテストする
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969637
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c096edc0267501bb17870a5c018e4b6b0c513422
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d916ba2123f6a34150a9fe5c9c3977d75743dae0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745847"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037049"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="testing-configuration-of-the-kerberos-account-assigned-to-a-site-in-lync-server-2013"></a>Lync Server 2013 でサイトに割り当てられている Kerberos アカウントの構成をテストする
+# <a name="testing-configuration-of-the-kerberos-account-assigned-to-a-site-in-lync-server-2013"></a>Lync Server 2013 のサイトに割り当てられた Kerberos アカウントの構成をテストする
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41745847"
 
 <span> </span>
 
-_**最終更新日:** 2014-06-05_
+_**トピックの最終更新日:** 2014-06-05_
 
 
 <table>
@@ -45,8 +45,8 @@ _**最終更新日:** 2014-06-05_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>確認のスケジュール</p></td>
-<td><p>[毎日]</p></td>
+<td><p>検証スケジュール</p></td>
+<td><p>毎日</p></td>
 </tr>
 <tr class="even">
 <td><p>テストツール</p></td>
@@ -54,8 +54,8 @@ _**最終更新日:** 2014-06-05_
 </tr>
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
-<td><p>Lync Server 管理シェルを使用してローカルで実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使って実行する場合は、CsKerberosAccountAssignment コマンドレットを実行するためのアクセス許可が与えられている RBAC の役割をユーザーに割り当てる必要があります。 このコマンドレットを使うことができるすべての RBAC ロールの一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合は、Get-cskerberosaccountassignment コマンドレットを実行するためのアクセス許可を持つ RBAC の役割がユーザーに割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsKerberosAccountAssignment&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,9 +66,9 @@ _**最終更新日:** 2014-06-05_
 
 ## <a name="description"></a>説明
 
-CsKerberosAccountAssignment コマンドレットを使用すると、指定したサイトに Kerberos アカウントが関連付けられていること、アカウントが正しく構成されていること、アカウントが予期したとおりに動作していることを確認できます。 Kerberos アカウントは、インターネットインフォメーションサーバー (IIS) を実行しているサイト内のすべてのコンピューターの認証プリンシパルとして機能するコンピューターアカウントです。 これらのアカウントは Kerberos 認証プロトコルを使用しているため、アカウントは Kerberos アカウントと呼ばれ、新しい認証プロセスは Kerberos web 認証と呼ばれます。 これにより、1つのアカウントを使用してすべての IIS サーバーを管理することができます。
+Get-cskerberosaccountassignment コマンドレットを使用すると、Kerberos アカウントが特定のサイトに関連付けられていること、このアカウントが正しく構成されていること、およびアカウントが期待どおりに動作していることを確認できます。 Kerberos アカウントは、インターネットインフォメーションサービス (IIS) を実行しているサイト内のすべてのコンピューターの認証プリンシパルとして機能するコンピューターアカウントです。 これらのアカウントは kerberos 認証プロトコルを使用するため、アカウントは Kerberos アカウントと呼ばれ、新しい認証プロセスは Kerberos web 認証と呼ばれます。 これにより、1つのアカウントを使用してすべての IIS サーバーを管理できるようになります。
 
-詳細については、「 [CsKerberosAccountAssignment](https://technet.microsoft.com/en-us/library/Gg425938(v=OCS.15))コマンドレットのヘルプドキュメント」を参照してください。
+詳細については、 [get-cskerberosaccountassignment](https://technet.microsoft.com/library/Gg425938(v=OCS.15))コマンドレットのヘルプドキュメントを参照してください。
 
 </div>
 
@@ -76,51 +76,51 @@ CsKerberosAccountAssignment コマンドレットを使用すると、指定し�
 
 ## <a name="running-the-test"></a>テストの実行
 
-既定では、CsKerberosAccountAssignment には、画面上に非常に小さな出力が表示されます。 代わりに、コマンドレットによって返される情報は、HTML ファイルに書き込まれます。 このため、CsKerberosAccountAssignment を実行するたびに Verbose パラメーターと Report パラメーターを含めることをお勧めします。 Verbose パラメーターは、コマンドレットが実行されている間、画面上により詳細な出力を提供します。 レポートパラメーターを使用すると、CsKerberosAccountAssignment によって生成された HTML ファイルのファイルパスとファイル名を指定できます。 レポートパラメーターが含まれていない場合、HTML ファイルは [ユーザー] フォルダーに自動的に保存され、次のような名前が付けられます。 ce84964a-c4da-4622 2-ad34-361f、.html
+既定では、Get-cskerberosaccountassignment では、画面に表示される出力はほとんどありません。 代わりに、コマンドレットによって返される情報は、HTML ファイルに書き込まれます。 そのため、Get-cskerberosaccountassignment を実行するたびに Verbose パラメーターと Report パラメーターを含めることをお勧めします。 Verbose パラメーターは、コマンドレットの実行中に画面により詳細な出力を提供します。 Report パラメーターを使用すると、Get-cskerberosaccountassignment によって生成された HTML ファイルのファイルパスとファイル名を指定できます。 Report パラメーターを指定しない場合は、HTML ファイルは自動的にユーザーのフォルダーに保存され、次のような名前が付けられます。 ce84964a-c4da-c4da-4622 2-ad34-c54ff3ed361f .html。
 
-また、CsKerberosAccountAssignment を実行するときに、サイト Id を指定する必要があります。 Kerberos アカウントは、サイトの範囲で割り当てられます。
+Get-cskerberosaccountassignment を実行するときに、サイト Id も指定する必要があります。 Kerberos アカウントは、サイトスコープで割り当てられます。
 
-次のコマンドは、CsKerberosAccountAssignment を実行し、出力を C:\\Logs\\KerberosTest という名前のファイルに保存します。
+次のコマンドは、Get-cskerberosaccountassignment を実行し、出力を C:\\Logs\\KerberosTest という名前のファイルに保存します。
 
     Test-CsKerberosAccountAssignment -Identity "site:Redmond" -Report "C:\Logs\KerberosTest.html" -Verbose
 
-詳細については、「 [CsKerberosAccountAssignment](https://technet.microsoft.com/en-us/library/Gg425938(v=OCS.15))コマンドレットのヘルプドキュメント」を参照してください。
+詳細については、 [get-cskerberosaccountassignment](https://technet.microsoft.com/library/Gg425938(v=OCS.15))コマンドレットのヘルプドキュメントを参照してください。
 
 </div>
 
 <div>
 
-## <a name="determining-success-or-failure"></a>成功または失敗を確認する
+## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
-CsKerberosAccountAssignment コマンドレットでは、成功または失敗を示す単純な通知は返されません。 代わりに、Internet Explorer を使用して生成された HTML ファイルを表示する必要があります。
+Get-cskerberosaccountassignment コマンドレットは、成功または失敗の簡単な通知を返しません。 代わりに、生成された HTML ファイルを Internet Explorer を使用して表示する必要があります。
 
 </div>
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a>テストに失敗した可能性がある理由
+## <a name="reasons-why-the-test-might-have-failed"></a>テストが失敗した理由
 
-次に、テスト-CsKerberosAccountAssignment が失敗する可能性がある一般的な理由を示します。
+Get-cskerberosaccountassignment が失敗する可能性のある一般的な原因を次に示します。
 
-  - 指定したサイト Id が間違っている可能性があります。 有効なサイト Id のリストを返すには、次のコマンドを使用します。
+  - 正しくないサイト Id が指定されている可能性があります。 有効なサイト Id の一覧を返すには、次のコマンドを使用します。
     
         Get-CsSite | Select-Identity Identity
     
-    サイト Id は、通常、次のようになります。
+    サイト Id は通常、次のようになります。
     
-    サイト: レドモンド
+    サイト: Redmond
 
-  - 指定したサイトには、Kerberos アカウントが割り当てられていない可能性があります。 次のようなコマンドを実行することで、サイトに Kerberos アカウントが割り当てられているかどうかを確認できます。
+  - 指定したサイトに Kerberos アカウントが割り当てられていない可能性があります。 次のようなコマンドを実行することによって、サイトに Kerberos アカウントが割り当てられているかどうかを判断できます。
     
         Get-CsKerberosAccountAssignment -Identity "site:Redmond"
 
-  - Kerberos アカウントのパスワードが有効でない可能性があります。 レポートで次のエラーメッセージが表示された場合は、おそらく Kerberos アカウントのパスワードを再設定する必要があります。
+  - Kerberos アカウントに有効ではないパスワードが設定されている可能性があります。 次のエラーメッセージがレポートに表示された場合は、Kerberos アカウントのパスワードをリセットする必要があります。
     
     InvalidKerberosConfiguration: Kerberos 構成が無効です。
     
-    InvalidKerberosConfiguration: atl-cs001.litwareinc.com の Kerberos 構成が無効です。 期待される割り当て済みアカウント\\は litwareinc kerberostest です。 アカウントの有効期限が切れていないこと、およびコンピューター上の構成されたパスワードが、アカウントの Active Directory パスワードと一致していることを確認します。
+    InvalidKerberosConfiguration: atl-cs001.litwareinc.com 上の Kerberos 構成が無効です。 必要な割り当て済みアカウントが\\litwareinc kerberostest である。 アカウントの有効期限が切れていないこと、およびコンピューター上の構成されたパスワードがアカウントの Active Directory パスワードと一致することを確認します。
     
-    パスワードを設定するには、 [set-Csker"@ Accountpassword](https://technet.microsoft.com/en-us/library/Gg398659(v=OCS.15)) " コマンドレットを使用します。
+    パスワードを設定するには、 [set-Cskerの Osaccountpassword](https://technet.microsoft.com/library/Gg398659(v=OCS.15))コマンドレットを使用します。
 
 </div>
 

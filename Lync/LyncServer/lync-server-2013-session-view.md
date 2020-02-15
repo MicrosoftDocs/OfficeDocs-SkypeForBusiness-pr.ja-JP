@@ -12,16 +12,16 @@ ms:contentKeyID: 49733641
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6a153899fd484da861088a8e7672a69707e46a59
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7d20d748f9c9754efab768a702f1272bc70d889e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764815"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051299"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41764815"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-03_
+_**トピックの最終更新日:** 2012-10-03_
 
-セッションビューには、データベース内にレコードがあるセッションに関する情報が格納されます。 このビューは、Microsoft Lync Server 2013 で導入されました。
+セッション ビューには、データベースにレコードがあるセッションに関する情報が保存されます。 このビューは Microsoft Lync Server 2013 で導入されました。
 
 
 <table>
@@ -56,104 +56,104 @@ _**最終更新日:** 2012-10-03_
 <tbody>
 <tr class="odd">
 <td><p>ConferenceDateTime</p></td>
-<td><p>datetime</p></td>
+<td><p>日付型</p></td>
 <td><p>MediaLine テーブルから参照されます。</p></td>
 </tr>
 <tr class="even">
 <td><p>ConferenceURI</p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>会議の URI (会議の場合) または [この Id がピアツーピアセッションの場合] です。</p></td>
+<td><p>これが会議の場合は会議 URI、ピアツーピア セッションの場合は DialogID です。</p></td>
 </tr>
 <tr class="odd">
-<td><p>関連性</p></td>
+<td><p>関連付け</p></td>
 <td><p>varchar (max)</p></td>
 <td><p>セッションの関連付け ID。</p></td>
 </tr>
 <tr class="even">
-<td><p>このカテゴリ</p></td>
-<td><p>bit</p></td>
-<td><p>ダイアログカテゴリ0は Lync Server、仲介サーバーの区間、1は、PSTN ゲートウェイ区間への仲介サーバーです。</p></td>
+<td><p>' このカテゴリ</p></td>
+<td><p>若干</p></td>
+<td><p>ダイアログのカテゴリ。0は Lync Server から仲介サーバーまでです。1は仲介サーバーから PSTN ゲートウェイレグになります。</p></td>
 </tr>
 <tr class="odd">
 <td><p>MediationServerBypassFlag</p></td>
-<td><p>bit</p></td>
+<td><p>若干</p></td>
 <td><p>通話がバイパスされたかどうかを示します。</p></td>
 </tr>
 <tr class="even">
 <td><p>Mediabypasswarnings フラグ</p></td>
 <td><p>int</p></td>
-<td><p>このフィールドは、バイパス Id が一致した場合でも、着信がバイパスされなかった理由を示します (存在する場合)。 Lync Server の場合は、1つの値のみが定義されます。</p>
-<p>0x0001 –既定のネットワークアダプターの不明なバイパス ID</p></td>
+<td><p>このフィールドは、(存在する場合) バイパス ID が一致したのに通話がバイパスされなかった理由を示します。 Lync Server の場合は、1つの値のみが定義されます。</p>
+<p>0x0001 - 既定のネットワーク アダプターのバイパス ID が不明です。</p></td>
 </tr>
 <tr class="odd">
 <td><p>StartTime</p></td>
-<td><p>datetime</p></td>
-<td><p>通話開始時刻。</p></td>
+<td><p>日付型</p></td>
+<td><p>通話の開始時刻。</p></td>
 </tr>
 <tr class="even">
 <td><p>EndTime</p></td>
-<td><p>datetime</p></td>
-<td><p>通話終了時刻。</p></td>
+<td><p>日付型</p></td>
+<td><p>通話の終了時刻。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerPool</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>発信者番号プールの FQDN。</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>発信者プールの FQDN。</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleePool</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>呼び出し元プールの FQDN。</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>呼び出し先プールの FQDN。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerPAI</p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>呼び出し元の p がアサートされた id URI。</p></td>
+<td><p>発信者の P-Asserted-Identity (PAI) URI。</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleePAI</p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>呼び出し先の p-アサートされた id URI。</p></td>
+<td><p>呼び出し先の P-Asserted-Identity (PAI) URI。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerEndpoint</p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td><p>発信者のエンドポイント名。</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleeEndpoint</p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td><p>発信者のエンドポイント名。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerUserAgent</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>呼び出し元のユーザーエージェント文字列。</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>発信者のユーザー エージェント文字列。</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerUserAgentType</p></td>
 <td><p>smallint</p></td>
-<td><p>呼び出し元のユーザーエージェントの種類。 詳細については、「 <a href="lync-server-2013-useragent-table.md">Lync Server 2013 の UserAgent テーブル</a>」を参照してください。</p></td>
+<td><p>発信者のユーザー エージェントの種類。 詳細については、「 <a href="lync-server-2013-useragent-table.md">Lync Server 2013 の UserAgent テーブル</a>」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerUserAgentCategory</p></td>
 <td><p>nvarchar (64)</p></td>
-<td><p>呼び出し元のユーザーエージェントのカテゴリ。 詳細については、「 <a href="lync-server-2013-useragentdef-table-qoe.md">Lync Server 2013 の Useragentdef テーブル (QoE)</a> 」を参照してください。</p></td>
+<td><p>発信者のユーザー エージェントのカテゴリ。 詳細については、「 <a href="lync-server-2013-useragentdef-table-qoe.md">Lync Server 2013 の Useragentdef テーブル (QoE)</a> 」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleeUserAgent</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>呼び出し先のユーザーエージェント文字列。</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>呼び出し先のユーザー エージェント文字列。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeUserAgentType</p></td>
 <td><p>smallint</p></td>
-<td><p>呼び出し先のユーザーエージェントの種類。 詳細については、「 <a href="lync-server-2013-useragent-table.md">Lync Server 2013 の UserAgent テーブル</a>」を参照してください。</p></td>
+<td><p>呼び出し先のユーザー エージェント タイプ。 詳細については、「 <a href="lync-server-2013-useragent-table.md">Lync Server 2013 の UserAgent テーブル</a>」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleeUserAgentCategory</p></td>
 <td><p>nvarchar (64)</p></td>
-<td><p>呼び出し先のユーザーエージェントカテゴリ。 詳細については、「 <a href="lync-server-2013-useragentdef-table-qoe.md">Lync Server 2013 の Useragentdef テーブル (QoE)</a> 」を参照してください。</p></td>
+<td><p>呼び出し先のユーザー エージェントのカテゴリ。 詳細については、「 <a href="lync-server-2013-useragentdef-table-qoe.md">Lync Server 2013 の Useragentdef テーブル (QoE)</a> 」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerURI</p></td>
@@ -166,9 +166,9 @@ _**最終更新日:** 2012-10-03_
 <td><p>呼び出し先の URI。</p></td>
 </tr>
 <tr class="odd">
-<td><p>通話</p></td>
+<td><p>CallPrioirty</p></td>
 <td><p>int</p></td>
-<td><p>通話の優先度。</p></td>
+<td><p>通話の優先順位。</p></td>
 </tr>
 </tbody>
 </table>

@@ -12,16 +12,16 @@ ms:contentKeyID: 48183365
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e10b8e85f6db445acb21beb6e272e2147e89b474
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 73c8c13c4333ea8458d5e8365de03dcace2bcd64
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41754347"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037009"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41754347"
 
 <span> </span>
 
-_**最終更新日:** 2014-02-10_
+_**トピックの最終更新日:** 2014-02-10_
 
-このセクションのトピックでは、Microsoft Lync Server 2013 クライアントを展開する際の計画の考慮事項について説明します。 新しい Lync Server 2013 のインストールを展開するか、以前の展開から移行するかにかかわらず、これらのトピックではクライアントの計画に関する重要な情報を提供します。
+このセクションのトピックでは、Microsoft Lync Server 2013 クライアントを展開するための計画に関する考慮事項について説明します。 新しい Lync Server 2013 インストールを展開するか、以前の展開から移行するかにかかわらず、これらのトピックではクライアントの計画に関する重要な情報を提供します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
   - [Lync Server 2013 のクライアント](lync-server-2013-clients.md)
 
@@ -53,7 +53,7 @@ _**最終更新日:** 2014-02-10_
 
   - [Lync 2013 の互換性](lync-server-2013-lync-2013-compatibility.md)
 
-  - [Lync 2013 でのクライアント相互運用性](lync-server-2013-client-interoperability-in-lync-2013.md)
+  - [Lync 2013 でのクライアントの相互運用性](lync-server-2013-client-interoperability-in-lync-2013.md)
 
   - [Lync Server 2013 での会議の移行に関する考慮事項](lync-server-2013-migration-considerations-for-meetings.md)
 

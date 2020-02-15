@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013 の関連トポロジ
+title: Lync Server 2013 リファレンストポロジ
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183544
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6bc7f3838cef5689cab0a81b59556c147f3588c3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 145b5855f4576e68517e4bd837671000fb4a97e3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724417"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037069"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="reference-topologies-in-lync-server-2013"></a>Lync Server 2013 の関連トポロジ
+# <a name="reference-topologies-in-lync-server-2013"></a>Lync Server 2013 の参照トポロジ
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41724417"
 
 <span> </span>
 
-_**最終更新日:** 2012-05-21_
+_**トピックの最終更新日:** 2012-05-21_
 
-理想的な Lync Server トポロジは、組織の規模、展開するワークロード、および高可用性と投資コストとの間の設定によって異なります。
+理想的な Lync Server トポロジは、組織の規模、展開するワークロード、高可用性と投資コストの設定によって異なります。
 
-次のトピックでは、3つの参照トポロジの概要について説明します。これには、各トポロジの要件を決定する多くの決定事項が含まれます。
+次のトピックでは、3 つの関連トポロジについて簡単に説明します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [小規模組織の Lync Server 2013 のリファレンストポロジ](lync-server-2013-reference-topology-for-small-organizations.md)
+  - [小規模な組織での Lync Server 2013 の参照トポロジ](lync-server-2013-reference-topology-for-small-organizations.md)
 
-  - [Lync Server 2013 の中規模組織用の関連トポロジ](lync-server-2013-reference-topology-for-medium-size-organizations.md)
+  - [中規模組織での Lync Server 2013 のリファレンストポロジ](lync-server-2013-reference-topology-for-medium-size-organizations.md)
 
-  - [複数のデータ センターを持つ大規模な組織の Lync Server 2013 向けの関連トポロジ](lync-server-2013-reference-topology-for-large-organizations-with-multiple-data-centers.md)
+  - [複数のデータセンターを持つ大規模な組織での Lync Server 2013 の関連トポロジ](lync-server-2013-reference-topology-for-large-organizations-with-multiple-data-centers.md)
 
 </div>
 

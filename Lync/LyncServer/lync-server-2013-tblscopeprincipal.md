@@ -12,16 +12,16 @@ ms:contentKeyID: 48184009
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 72c6f15b2f0a219871436fe4451984abfddc947a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ab3faccea0ba914ca17c9aefcd0ea112e5b58a96
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764077"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037477"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764077"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-12_
+_**トピックの最終更新日:** 2012-09-12_
 
-tblScopePrincipal には、ノードに割り当てられたスコープが含まれます。
+tblScopePrincipal には、ノードに割り当てられるスコープが含まれます。
 
-### <a name="columns"></a>行
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -50,36 +50,36 @@ tblScopePrincipal には、ノードに割り当てられたスコープが含�
 <thead>
 <tr class="header">
 <th>列</th>
-<th>型</th>
+<th>種類</th>
 <th>説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>scopeNodeID</p></td>
-<td><p>int (null ではない)</p></td>
-<td><p>スコープが適用されるノード ID。</p></td>
+<td><p>Scopeprincipal.scopenodeid</p></td>
+<td><p>NULL でない int</p></td>
+<td><p>範囲の適用先ノード ID。</p></td>
 </tr>
 <tr class="even">
-<td><p>scopePrinID</p></td>
-<td><p>int (null ではない)</p></td>
+<td><p>Scopeprincipal.scopeprinid</p></td>
+<td><p>NULL でない int</p></td>
 <td><p>プリンシパル ID。</p></td>
 </tr>
 <tr class="odd">
 <td><p>scopeIsDenied</p></td>
-<td><p>ビット、null ではない</p></td>
-<td><p>スコープの型が拒否された場合は True。許可する場合は False。</p></td>
+<td><p>NULL でない bit</p></td>
+<td><p>スコープの種類が [拒否] の場合は True、[許可] の場合は False。</p></td>
 </tr>
 <tr class="even">
-<td><p>スコープ</p></td>
-<td><p>int (null ではない)</p></td>
-<td><p>このエントリを最後に更新したプリンシパルの ID です。</p></td>
+<td><p>scopeupdat</p></td>
+<td><p>NULL でない int</p></td>
+<td><p>このエントリを最後に更新したプリンシパルの ID。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>機能
+### <a name="keys"></a>Keys
 
 <table>
 <colgroup>
@@ -94,16 +94,16 @@ tblScopePrincipal には、ノードに割り当てられたスコープが含�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;scopeNodeID、scopePrinID&gt;</p></td>
+<td><p>&lt;Scopeprincipal.scopenodeid、scopePrinID&gt;</p></td>
 <td><p>主キー。</p></td>
 </tr>
 <tr class="even">
-<td><p>scopeNodeID</p></td>
-<td><p>TblNode テーブルで参照される外部キー。</p></td>
+<td><p>Scopeprincipal.scopenodeid</p></td>
+<td><p>tblNode.nodeID テーブル内の参照による外部キー。</p></td>
 </tr>
 <tr class="odd">
-<td><p>scopePrinID</p></td>
-<td><p>TblPrincipal Id テーブルで参照される外部キー。</p></td>
+<td><p>Scopeprincipal.scopeprinid</p></td>
+<td><p>tblPrincipal.prinID テーブル内の参照による外部キー。</p></td>
 </tr>
 </tbody>
 </table>

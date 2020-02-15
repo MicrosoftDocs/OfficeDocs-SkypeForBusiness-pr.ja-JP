@@ -12,20 +12,20 @@ ms:contentKeyID: 48183941
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f1b5f078ccd5e95df708012b7be1527736133392
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 133d0bccb919e537998878306b3bbf85d77bd0cb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755701"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037647"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="optional-verify-dial-in-conferencing-in-lync-server-2013"></a>(オプション) Lync Server 2013 でのダイヤルイン会議の検証
+# <a name="optional-verify-dial-in-conferencing-in-lync-server-2013"></a>オプションLync Server 2013 でのダイヤルイン会議の確認
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41755701"
 
 <span> </span>
 
-_**最終更新日:** 2011-01-21_
+_**トピックの最終更新日:** 2011-01-21_
 
 ダイヤルイン会議の設定の Web ページとダイヤルイン アクセス番号が正しく動作していることを確認するには、以下を実行する必要があります。
 
-  - 簡易 URL にサインインして、ダイヤルイン会議の設定の Web ページをテストします。
+  - 簡単な URL にサインインして、ダイヤルイン会議の設定の Web ページをテストします。
 
-  - この後のスクリプトを実行して、特定のプールでそのアクセス番号が正しく動作することをテストします。このスクリプトは、アクセス番号への通話をシミュレートします。このスクリプトを使用するには、特定のプールでホストされている 1 つの統合コミュニケーション (UC) クライアントの SIP アドレスと資格情報が必要です。
+  - この後のスクリプトを実行して、特定のプールでそのアクセス番号が正しく動作することをテストします。 このスクリプトは、アクセス番号への通話をシミュレートします。 このスクリプトを使用するには、特定のプールでホストされている 1 つの統合コミュニケーション (UC) クライアントの SIP アドレスと資格情報が必要です。
 
-この手順は省略可能です。
+このステップはオプションです。
 
 <div>
 
 ## <a name="to-test-access-numbers-for-a-specific-pool"></a>特定のプールのアクセス番号をテストするには
 
-1.  RTCUniversalServerAdmins グループのメンバーとして、または**Cs-serveradministrator**または**csadministrator**の役割のメンバーとしてコンピューターにログオンします。
+1.  RTCUniversalServerAdmins グループのメンバーか、**Cs-ServerAdministrator** または **CsAdministrator** の役割のメンバーとしてコンピューターにログオンします。
 
-2.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+2.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
 3.  コマンド プロンプトで次のコマンドを実行します。
     
@@ -60,7 +60,7 @@ _**最終更新日:** 2011-01-21_
            Password:   ********
         Test-CsDialInConferencing -UserSipAddress sip:testuser1@contoso.com -UserCredential $credentials -TargetFqdn <serverName>.<domainName>.com -Verbose
     
-    結果レポートに、コマンドの成否と特定の診断情報が表示されます。–Verbose フラグには、検出されたアクセス番号の数とその詳細に関する情報が、より詳しく表示されます。
+    結果レポートに、コマンドの成否と特定の診断情報が表示されます。 –Verbose フラグには、検出されたアクセス番号の数とその詳細に関する情報が、より詳しく表示されます。
 
 </div>
 

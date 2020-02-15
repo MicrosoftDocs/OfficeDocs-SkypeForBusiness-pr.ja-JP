@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: カスタマイズされた常設チャット Server コンプライアンスアダプターを使用した Xml アダプターの置き換え'
+title: 'Lync Server 2013: カスタマイズされた常設チャットサーバーコンプライアンスアダプターを使用して XmlAdapter を置き換える'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49558152
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9235c57a055131049251d17b75f73a4370cc5f2c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5c6cd49ee2596627849b5b67147d6f7ef2a328e3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746687"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050869"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="replacing-the-xmladapter-with-a-customized-persistent-chat-server-compliance-adapter-in-lync-server-2013"></a>Lync Server 2013 での、カスタマイズされた常設チャットサーバーのコンプライアンスアダプターを使用した Xml アダプターの置き換え
+# <a name="replacing-the-xmladapter-with-a-customized-persistent-chat-server-compliance-adapter-in-lync-server-2013"></a>Lync Server 2013 で、カスタマイズされた常設チャットサーバーコンプライアンスアダプターに XmlAdapter を置き換える
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41746687"
 
 <span> </span>
 
-_**最終更新日:** 2012-11-01_
+_**トピックの最終更新日:** 2012-11-01_
 
-常設チャットサーバーと共にインストールされている XmlAdapter を使う代わりに、カスタムアダプターを作成することができます。 記述するには、**IComplianceAdapter** インターフェイスを実装するパブリック クラスを含む .NET Framework アセンブリを提供する必要があります。 このアセンブリは、常設チャットサーバープールの各サーバーの常設チャットサーバーのインストールフォルダーに配置する必要があります。 任意のコンプライアンス サーバーからアダプターにコンプライアンス データを提供できますが、コンプライアンス サーバーからアダプターの複数のインスタンスに対して重複するコンプライアンス データを提供することはできません。
+常設チャットサーバーと共にインストールされる XmlAdapter を使用する代わりに、カスタムアダプターを作成することができます。 カスタム アダプターを記述するには、**IComplianceAdapter** インターフェイスを実装するパブリック クラスを含む .NET Framework アセンブリを提供する必要があります。 このアセンブリは、常設チャットサーバープールの各サーバーの常設チャットサーバーのインストールフォルダーに配置する必要があります。 任意のコンプライアンス サーバーからアダプターにコンプライアンス データを提供できますが、コンプライアンス サーバーからアダプターの複数のインスタンスに対して重複するコンプライアンス データを提供することはできません。
 
 <div>
 
 ## <a name="implementing-the-icomplianceadapter-interface"></a>IComplianceAdapter インターフェイスの実装
 
-インターフェイスは、名前空間`Microsoft.Rtc.Internal.Chat.Server.Compliance`の対応する .dll アセンブリで定義されます。 このインターフェイスには、カスタム アダプターが実装する必要のある 2 つのメソッドが定義されています。
+このインターフェイスは、名前空間`Microsoft.Rtc.Internal.Chat.Server.Compliance`内の対応する .dll アセンブリに定義されています。 このインターフェイスには、カスタム アダプターが実装する必要のある 2 つのメソッドが定義されています。
 
     void SetConfig(AdapterConfig config)
 
-常設チャットのコンプライアンスサーバーは、アダプターが最初に読み込まれたときにこのメソッドを呼び出します。 に`AdapterConfig`は、コンプライアンスアダプターに関連する常設チャットのコンプライアンス構成が含まれています。
+常設チャットコンプライアンスサーバーは、アダプターが最初に読み込まれたときにこのメソッドを呼び出します。 に`AdapterConfig`は、コンプライアンスアダプターに関連する常設チャットのコンプライアンス構成が含まれています。
 
     void Translate(ConversationCollection conversations)
 
-常設チャットのコンプライアンスサーバーは、翻訳する新しいデータがある限り、定期的な間隔でこのメソッドを呼び出します。 この時間間隔は、常設チャット`RunInterval`のコンプライアンス構成で設定された as と同じです。
+常設チャットコンプライアンスサーバーは、翻訳する新しいデータがある限り、定期的な間隔でこのメソッドを呼び出します。 この時間間隔は、常設チャット`RunInterval`のコンプライアンス構成で設定されたと同じです。
 
-に`ConversationCollection`は、このメソッドが最後に呼び出されたときから収集されたスレッド情報が含まれています。
+に`ConversationCollection`は、このメソッドが最後に呼び出されたときに収集された会話情報が含まれています。
 
 </div>
 

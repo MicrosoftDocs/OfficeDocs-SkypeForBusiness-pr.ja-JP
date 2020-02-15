@@ -12,20 +12,20 @@ ms:contentKeyID: 51803988
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6e26b67aba2bf792b3248e7771f938a8bced1668
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4fac37d87813597fe790db96482e8740fc2d59f3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765658"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047689"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-information-about-device-update-rules-in-lync-server-2013"></a>Lync Server 2013 でのデバイス更新ルールに関する情報を確認する
+# <a name="view-information-about-device-update-rules-in-lync-server-2013"></a>Lync Server 2013 でのデバイス更新ルールに関する情報の表示
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41765658"
 
 _**トピックの最終更新日:** 2013-02-23_
 
-更新が適用されるデバイスの種類、モデル、およびブランドを含む、既にインポートされているデバイス更新ルールについての詳細を表示します。更新プログラムのバージョンと種類更新プログラムのロケールとプール。 インポートされたすべてのデバイス更新ルール (承認待ち、展開済み、承認済み)、リコール (復元)、および使用しないことを決定したもの (リセット) に関する情報を利用できます。 Lync Server コントロールパネルまたは Windows PowerShell から、この情報にアクセスします。
+更新プログラムが適用されるデバイスの種類、モデル、およびブランドを含む、既にインポートされているデバイス更新ルールに関する詳細を表示します。更新のバージョンと種類。更新プログラムのロケールとプール。 インポートされたすべてのデバイス更新ルール (承認待ち、展開 (承認済み)、リコール (復元)、および使用しない (リセット) に関する情報を利用できます。 この情報には、Lync Server コントロールパネルまたは Windows PowerShell からアクセスします。
 
 <div>
 
 
 > [!NOTE]  
-> 仕分けルールのインポート、承認、リセット、復元、および削除を行う方法の詳細については、「 <A href="lync-server-2013-device-update-rules.md">Lync Server 2013 のデバイス更新ルール</A>」に記載されているトピックを参照してください。
+> ルールのインポート、承認、リセット、復元、および削除の詳細については、「 <A href="lync-server-2013-device-update-rules.md">Lync Server 2013 のデバイス更新ルール</A>」に記載されているトピックを参照してください。
 
 
 
@@ -55,17 +55,17 @@ _**トピックの最終更新日:** 2013-02-23_
 
 1.  CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
-3.  左側のナビゲーションバーで、[**クライアント**] をクリックし、[**デバイスの更新**] ナビゲーションボタンをクリックします。 インポートしたルールは、[**デバイスの更新**] ページに一覧表示されます。
+3.  左側のナビゲーションバーで [**クライアント**] をクリックし、[**デバイスの更新**] ナビゲーションボタンをクリックします。 インポートされたルールは、[**デバイスの更新**] ページに一覧表示されます。
 
 </div>
 
 <div>
 
-## <a name="viewing-device-update-rules-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用したデバイス更新ルールの表示
+## <a name="viewing-device-update-rules-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用してデバイス更新ルールを表示する
 
-すべてのデバイス更新ルールに関する詳細情報は、Windows PowerShell と**CsDeviceUpdateRule**コマンドレットを使用して表示することもできます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。
+すべてのデバイス更新ルールに関する詳細情報は、Windows PowerShell および**get-csdeviceupdaterule**コマンドレットを使用して表示することもできます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。
 
 <div>
 
@@ -81,7 +81,7 @@ _**トピックの最終更新日:** 2013-02-23_
 
 ## <a name="to-view-all-your-device-update-rules"></a>すべてのデバイス更新ルールを表示するには
 
-  - 次のコマンドは、組織で使用するように構成されているすべてのデバイス更新規則に関する情報を返します。
+  - 次のコマンドは、組織で使用するように構成されているすべてのデバイス更新規則に関する情報を戻します。
     
         Get-CsDeviceUpdateRule
     
@@ -103,15 +103,15 @@ _**トピックの最終更新日:** 2013-02-23_
 
 <div>
 
-## <a name="to-view-all-the-device-update-rules-on-a-specific-web-server"></a>特定の web サーバーですべてのデバイス更新ルールを表示するには
+## <a name="to-view-all-the-device-update-rules-on-a-specific-web-server"></a>特定の web サーバー上のすべてのデバイス更新ルールを表示するには
 
-  - 特定のコンピューターでデバイス更新ルールを表示するには、フィルターパラメーターの後にサーバー Id とワイルドカード文字 (\*) を使用します。 次に例を示します。
+  - 特定のコンピューターのデバイス更新ルールを表示するには、Filter パラメーターの後にサーバー Id とワイルドカード文字 (\*) を使用します。 例:
     
         Get-CsDeviceUpdateRule -Filter "service:WebServer:atl-cs-001.litwareinc.com*"
 
 </div>
 
-詳細については、 [CsDeviceUpdateRule](https://docs.microsoft.com/powershell/module/skype/Get-CsDeviceUpdateRule)コマンドレットのヘルプトピックを参照してください。
+詳細については、 [get-csdeviceupdaterule](https://docs.microsoft.com/powershell/module/skype/Get-CsDeviceUpdateRule)コマンドレットのヘルプトピックを参照してください。
 
 </div>
 

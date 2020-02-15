@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Lync Server のユーザーアカウントを追加して有効にする'
+title: 'Lync Server 2013: Lync Server のユーザーアカウントの追加と有効化'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183578
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a04a798a69279ebef6c4917938ead2fd88a49805
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b0478bec0d78b56061cf68d9efabe5e78a60bad4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735057"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037839"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41735057"
 
 <span> </span>
 
-_**最終更新日:** 2012-11-02_
+_**トピックの最終更新日:** 2012-11-02_
 
-Active Directory ユーザーとコンピューターでユーザーアカウントを有効にした後、Lync Server コントロールパネルを使用して、Active Directory ユーザーを Lync Server に追加することで、新しい Lync Server 2013 ユーザーアカウントを作成して有効にすることができます。
+Active Directory ユーザーとコンピューターでユーザーアカウントを有効にした後、lync server コントロールパネルを使用して、lync Server に Active Directory ユーザーを追加することにより、新しい Lync Server 2013 ユーザーアカウントを作成して有効にすることができます。
 
 <div>
 
@@ -45,19 +45,19 @@ Active Directory ユーザーとコンピューターでユーザーアカウン
 
 1.  CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
 3.  左側のナビゲーション バーで [**ユーザー**] をクリックします。
 
-4.  [**ユーザーを有効にする] を**クリックします。
+4.  [**ユーザーの有効化**] をクリックします。
 
-5.  [**新しい Lync Server ユーザー** ] ダイアログボックスで、[**追加**] をクリックします。
+5.  [**新規 Lync Server ユーザー**] ダイアログで [**追加**] をクリックします。
 
-6.  [**ユーザーの検索**] ボックスで、名前、表示名、姓、名、姓、セキュリティアカウントマネージャー (SAM) アカウント名、メールアドレス、ユーザープリンシパル名 (UPN)、または必要な Active Directory ユーザーアカウントの電話番号のすべてまたは最初の部分を入力し、[**検索**] をクリックします。
+6.  [**ユーザーの検索**] ボックスに、名前、表示名、名、姓、セキュリティ アカウント マネージャー (SAM) のアカウント名、電子メール アドレス、ユーザーのプリンシパル名 (UPN)、または対象の Active Directory ユーザー アカウントの電話番号の全体か最初の一部の文字列を入力して、[**検索**] をクリックします。
 
-7.  表で、Lync Server に追加するアカウントを選び、[ **OK]** をクリックします。
+7.  表で、Lync Server に追加するアカウントを選択し、[ **OK]** をクリックします。
 
-8.  プールにユーザーを割り当て、追加の詳細を指定して、ポリシーを目的のユーザーに割り当て、[**有効に**する] をクリックします。
+8.  ユーザーをプールに割り当て、詳細情報を指定し、ポリシーを対象のユーザーに割り当て、[**有効にする**] をクリックします。
 
 </div>
 
@@ -66,11 +66,11 @@ Active Directory ユーザーとコンピューターでユーザーアカウン
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 のユーザーアカウントを無効にするか、再び有効にする](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)  
+[Lync Server 2013 のユーザーアカウントを無効または再度有効にする](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)  
 [Lync Server 2013 からユーザーアカウントを削除する](lync-server-2013-remove-a-user-account-from-lync-server.md)  
 
 
-[Lync Server 2013 のユーザーを有効または無効にする](lync-server-2013-enabling-and-disabling-users-for-lync-server.md)  
+[Lync Server 2013 のユーザーの有効化および無効化](lync-server-2013-enabling-and-disabling-users-for-lync-server.md)  
   
 
 </div>

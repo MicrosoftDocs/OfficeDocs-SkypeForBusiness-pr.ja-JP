@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: PSTN 使用状況レコードの表示'
+title: 'Lync Server 2013: PSTN 使用法レコードの表示'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184361
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b2551c8bbc40429d7e5bc4af45cae862991381a8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 84ba8e2091a88238caee188f3542b76f652129c4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756681"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038039"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-pstn-usage-records-in-lync-server-2013"></a>Lync Server 2013 での PSTN 使用状況レコードの表示
+# <a name="view-pstn-usage-records-in-lync-server-2013"></a>Lync Server 2013 での PSTN 使用法レコードの表示
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41756681"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-22_
+_**トピックの最終更新日:** 2013-02-22_
 
-公衆交換電話網 (PSTN) 利用状況レコードは、組織内のさまざまなユーザーまたはユーザーグループによって作成される通話のクラス (内部、ローカル、または長距離など) を指定します。 詳細については、計画ドキュメントの「 [Lync Server 2013 の PSTN 使用状況レコード](lync-server-2013-pstn-usage-records.md)」を参照してください。
+公衆交換電話網 (PSTN) 使用法レコードは、組織内のさまざまなユーザーまたはグループが利用できる通話のクラス (内部、市内、長距離など) を指定します。 詳細については、「計画」のドキュメントの「 [Lync Server 2013 の PSTN 使用法レコード](lync-server-2013-pstn-usage-records.md)」を参照してください。
 
 <div>
 
-## <a name="to-view-a-pstn-usage-record-by-using-lync-server-control-panel"></a>Lync Server コントロールパネルを使用して PSTN 使用状況レコードを表示するには
+## <a name="to-view-a-pstn-usage-record-by-using-lync-server-control-panel"></a>Lync Server コントロールパネルを使用して PSTN 使用法レコードを表示するには
 
-1.  RTCUniversalServerAdmins グループのメンバーとして、あるいは CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator の役割のメンバーとしてコンピューターにログオンします。 詳細については、「 [Lync Server 2013 でセットアップのアクセス許可を委任](lync-server-2013-delegate-setup-permissions.md)する」を参照してください。
+1.  RTCUniversalServerAdmins グループのメンバーとして、または CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator の役割のメンバーとしてコンピューターにログオンします。 詳細については、「 [Lync Server 2013 でのセットアップのアクセス許可の委任](lync-server-2013-delegate-setup-permissions.md)」を参照してください。
 
-2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
 3.  左側のナビゲーション バーで [**音声ルーティング**] をクリックし、[**PSTN 使用法**] をクリックします。
 
@@ -64,15 +64,15 @@ _**最終更新日:** 2013-02-22_
 
 <div>
 
-## <a name="viewing-pstn-usage-information-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用した PSTN 使用状況情報の表示
+## <a name="viewing-pstn-usage-information-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して PSTN 使用法情報を表示する
 
-Windows PowerShell と**Get-CsPstnUsage**コマンドレットを使用して、PSTN の使用状況を表示することもできます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
+Windows PowerShell および**Get-CsPstnUsage**コマンドレットを使用して、PSTN 使用法を表示することもできます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 <div>
 
-## <a name="to-view-pstn-usage-information-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して PSTN の使用状況の情報を表示するには
+## <a name="to-view-pstn-usage-information-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して PSTN 使用状況の情報を表示するには
 
-  - すべての PSTN 使用状況に関する情報を表示するには、Lync Server 管理シェルで次のコマンドを入力し、enter キーを押します。
+  - すべての PSTN 使用法に関する情報を表示するには、Lync Server 管理シェルで次のコマンドを入力し、ENTER キーを押します。
     
         Get-CsPstnUsage
     
@@ -83,7 +83,7 @@ Windows PowerShell と**Get-CsPstnUsage**コマンドレットを使用して、
 
 </div>
 
-詳細については、「 [Get-CsPstnUsage](https://docs.microsoft.com/powershell/module/skype/Get-CsPstnUsage)」をご覧ください。
+詳細については、「[Get-CsPstnUsage](https://docs.microsoft.com/powershell/module/skype/Get-CsPstnUsage)」を参照してください。
 
 </div>
 
@@ -92,8 +92,8 @@ Windows PowerShell と**Get-CsPstnUsage**コマンドレットを使用して、
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 で音声ポリシーを作成し、PSTN 使用状況レコードを構成する](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md)  
-[Lync Server 2013 で音声ポリシーを変更し、PSTN 使用状況レコードを構成する](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md)  
+[Lync Server 2013 で音声ポリシーを作成し、PSTN 使用法レコードを構成する](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md)  
+[Lync Server 2013 での音声ポリシーの変更と PSTN 使用法レコードの構成](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md)  
   
 
 </div>

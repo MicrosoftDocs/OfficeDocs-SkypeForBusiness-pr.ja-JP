@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: フロントエンド プールの障害復旧'
+title: 'Lync Server 2013: フロントエンドプールの障害復旧'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733593
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 751234b4f3a9a903612d8354abe26f6a2d960ead
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: baa2326a827959d7d21286152950e1025ad2f457
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739767"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038089"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="front-end-pool-disaster-recovery-in-lync-server-2013"></a>Lync Server 2013 でのフロントエンド プールの障害復旧
+# <a name="front-end-pool-disaster-recovery-in-lync-server-2013"></a>Lync Server 2013 のフロントエンドプールの障害復旧
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41739767"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-17_
+_**トピックの最終更新日:** 2012-09-17_
 
-このセクションのトピックでは、Lync Server 2013 の [高可用性] と [障害回復機能] フロントエンドプールについて説明します。
+このセクションのトピックでは、Lync Server 2013 の高可用性と障害復旧機能のフロントエンドプールについて説明します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 でのフロント エンド プールのペアリングの計画](lync-server-2013-planning-for-front-end-pool-pairing.md)
+  - [Lync Server 2013 でのフロントエンドプールのペアリングの計画](lync-server-2013-planning-for-front-end-pool-pairing.md)
 
-  - [Lync Server 2013 でのプール障害時のユーザーエクスペリエンス](lync-server-2013-user-experience-during-pool-failure.md)
+  - [Lync Server 2013 でのプール障害時のユーザー環境](lync-server-2013-user-experience-during-pool-failure.md)
 
-  - [Lync Server 2013 でのバックエンドサーバーの高可用性](lync-server-2013-back-end-server-high-availability.md)
+  - [Lync Server 2013 のバックエンドサーバーの高可用性](lync-server-2013-back-end-server-high-availability.md)
 
   - [Lync Server 2013 でのファイル共有の高可用性](lync-server-2013-file-sharing-high-availability.md)
 

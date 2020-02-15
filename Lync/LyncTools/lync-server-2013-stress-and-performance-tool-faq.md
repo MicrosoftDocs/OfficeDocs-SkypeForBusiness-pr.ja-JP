@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013 のストレスとパフォーマンスに関するツールについてよく寄せられる質問
+title: Lync Server 2013 ストレスおよびパフォーマンスツールの FAQ
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541426
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9138a23ee1fa45f3da827832b568852952b0ae4d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9de9555f9f009558b700a32ca6e58059eb5ea990
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763611"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038359"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-stress-and-performance-tool-faq"></a>Lync Server 2013 のストレスとパフォーマンスに関するツールについてよく寄せられる質問
+# <a name="lync-server-2013-stress-and-performance-tool-faq"></a>Lync Server 2013 ストレスおよびパフォーマンスツールの FAQ
 
 </div>
 
@@ -35,57 +35,57 @@ ms.locfileid: "41763611"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-24_
+_**トピックの最終更新日:** 2013-02-24_
 
 <div>
 
 ## <a name="frequently-asked-questions"></a>よく寄せられる質問
 
-ここでは、Lync Server 2013 のストレスとパフォーマンスツールについてよく寄せられる質問を示します。
+ここでは、Lync Server 2013 ストレスおよびパフォーマンスツールに関してよく寄せられる質問をいくつか紹介します。
 
 <div>
 
 ## <a name="can-i-run-lyncperftoolexe-in-production"></a>LyncPerfTool を運用環境で実行できますか?
 
-この方法はお勧めしません。 このツールは、サーバーのパフォーマンス、セキュリティ、ユーザーエクスペリエンスに影響を与えます。
+この方法はお勧めしません。 このツールは、サーバーのパフォーマンス、セキュリティ、およびユーザーの操作に影響を与えます。
 
 </div>
 
 <div>
 
-## <a name="i-am-logging-on-my-users-for-the-first-time-why-are-the-servers-running-at-such-high-load"></a>ユーザーに初めてログオンしています。 サーバーが高負荷で実行されているのはなぜですか?
+## <a name="i-am-logging-on-my-users-for-the-first-time-why-are-the-servers-running-at-such-high-load"></a>ユーザーが初めてログオンしたとき。 サーバーがこのような高負荷で実行されている理由
 
-ユーザーが初めてログオンしたときは、その他の操作が行われます。 その結果、Microsoft SQL Server バックエンドサーバーのパフォーマンスが低下します。 すべてのユーザーにログを記録する短いテストを実行してから、結果を測定する前にクライアントを再起動することをお勧めします。 1秒あたり12回の同時ユーザーログオンセッションはサポートされませんが、これはハードウェア構成によって異なります。
-
-</div>
-
-<div>
-
-## <a name="my-clients-are-running-out-of-memory-what-should-i-do"></a>クライアントでメモリが不足しています。 どうしたらいいでしょう。
-
-クライアントのメモリが不足している場合は、コンピューターあたりのユーザー数を減らす必要があります。
+ユーザーが初めてログオンしたときに、追加の操作が行われます。 その結果、Microsoft SQL Server バックエンドサーバーのパフォーマンスが低下します。 結果を測定する前に、すべてのユーザーにログを記録する短時間のテストを実行してから、クライアントを再起動することをお勧めします。 1秒あたり12人を超える同時ユーザーログオンセッションはサポートしていませんが、ハードウェア構成によって異なります。
 
 </div>
 
 <div>
 
-## <a name="my-clients-are-at-100-percent-cpu-all-the-time-what-should-i-do"></a>クライアントは、常に100% の CPU を搭載しています。 どうしたらいいでしょう。
+## <a name="my-clients-are-running-out-of-memory-what-should-i-do"></a>クライアントのメモリが不足しています。 どうすればよいですか?
 
-すべてのユーザーがログオンした後でクライアントが非常に高い CPU で実行されている場合は、コンピューターあたりのユーザー数を減らす必要があります。 CPU のスパイクの増加は許容されていますが、持続する場合は、読み込みを減らす必要があります。
-
-</div>
-
-<div>
-
-## <a name="can-i-run-the-tool-on-the-server-itself"></a>サーバー自体でツールを実行できますか?
-
-いいえ。 このシナリオはサポートされていないため、バイナリの不一致のために失敗することがあります。 また、ポイントはサーバー上のリソース消費量を測定するため、ツールを実行すると、測定の意味がありません。
+クライアントのメモリが不足している場合は、コンピューターごとのユーザー数を減らす必要があります。
 
 </div>
 
 <div>
 
-## <a name="can-i-run-lyncperftoolexe-on-a-virtual-server-or-on-microsoft-hyper-v-server-20082012"></a>仮想サーバーまたは Microsoft Hyper-v Server 2008/2012 で LyncPerfTool を実行できますか?
+## <a name="my-clients-are-at-100-percent-cpu-all-the-time-what-should-i-do"></a>クライアントは、常に100% の CPU を消費します。 どうすればよいですか?
+
+すべてのユーザーがログオンした後、クライアントが非常に高い CPU を使用して実行されている場合は、コンピューターごとのユーザー数を減らす必要があります。 高 CPU スパイクを使用できますが、維持されている場合は負荷を減らす必要があります。
+
+</div>
+
+<div>
+
+## <a name="can-i-run-the-tool-on-the-server-itself"></a>サーバー自体でツールを実行することはできますか?
+
+いいえ。 このシナリオはサポートされておらず、バイナリの不一致が原因で失敗する可能性があります。 また、ポイントはサーバー上のリソース消費を測定することなので、ツールを実行すると、測定値は無意味になります。
+
+</div>
+
+<div>
+
+## <a name="can-i-run-lyncperftoolexe-on-a-virtual-server-or-on-microsoft-hyper-v-server-20082012"></a>仮想サーバー上または Microsoft Hyper-v Server 2008/2012 上で LyncPerfTool を実行できますか。
 
 はい。
 
@@ -93,31 +93,31 @@ _**最終更新日:** 2013-02-24_
 
 <div>
 
-## <a name="what-does-mpop-mean"></a>MPOP は何を意味していますか?
+## <a name="what-does-mpop-mean"></a>MPOP の意味
 
-MPOP は、複数のプレゼンスポイントを表します。 これは、ユーザーが複数のコンピューターから Lync 2013 にログオンしているシナリオをシミュレートすることを目的としています。 LyncPerfTool では、各エンドポイントが既定のプロファイルを使用していることに注意してください (つまり、プロファイルは2つのプレゼンス間で分割されません)。
-
-</div>
-
-<div>
-
-## <a name="i-started-lyncperftoolexe-but-nothing-is-happening-whats-going-on"></a>LyncPerfTool を開始しましたが、何も起こりません。 どうなっているのですか。
-
-クライアントの [アクティブなエンドポイントの合計数カウンターを確認して、ユーザーが接続しているかどうかを確認します。 ユーザーが接続していない場合は、Lync Server 2013 の構成を確認します。 この問題は、サーバー名、ユーザーのプレフィックス、またはパスワードが正しくないことが原因で発生します。 外部クライアントでは、TargetServer 値としてアクセスプロキシを指定する必要があることに注意してください。 構成ファイルでポートを確認します。
+MPOP は、複数のプレゼンスポイントを表します。 これは、ユーザーが複数のコンピューターから Lync 2013 にログオンしているシナリオをシミュレートすることを目的としています。 LyncPerfTool では、各エンドポイントが既定のプロファイルを使用しています (つまり、プロファイルが2つのプレゼンス間で分割されていないことに注意してください)。
 
 </div>
 
 <div>
 
-## <a name="how-do-i-know-something-is-happening"></a>何が起こっているかを知る方法を教えてください。
+## <a name="i-started-lyncperftoolexe-but-nothing-is-happening-whats-going-on"></a>LyncPerfTool を開始しましたが、何も起きていません。 どうなっているのですか。
 
-さまざまな LyncPerfTool パフォーマンスカウンターは、ユーザーが接続して操作を実行しているかどうかを示します。 ただし、Lync 2013 を使用して、必要な操作を実行して、アカウントの1つにログオンすることを簡単に確認できます。
+ユーザーが接続しているかどうかを確認するには、クライアントの [アクティブなエンドポイントの合計数」カウンターを確認します。 ユーザーが接続していない場合は、Lync Server 2013 の構成を確認します。 通常、この問題は、サーバー名、ユーザーのプレフィックス、またはパスワードが正しくないことが原因で発生します。 外部クライアントでは、TargetServer 値としてアクセスプロキシを指定する必要があることに注意してください。 構成ファイルのポートを確認します。
 
 </div>
 
 <div>
 
-## <a name="i-have-live-communications-server-2007-r2-capacity-planning-tools-andor-lync-server-2010-installed-is-that-ok"></a>Live Communications Server 2007 R2 キャパシティプランニングツールまたは Lync Server 2010 がインストールされています。 よろしいですか?
+## <a name="how-do-i-know-something-is-happening"></a>問題が発生していることをどのように確認できますか?
+
+さまざまな LyncPerfTool パフォーマンスカウンターは、ユーザーが接続し、アクションを実行しているかどうかを示します。 ただし、Lync 2013 を使用して目的のアクションを実行することによって、アカウントの1つにログオンすることが簡単に確認できます。
+
+</div>
+
+<div>
+
+## <a name="i-have-live-communications-server-2007-r2-capacity-planning-tools-andor-lync-server-2010-installed-is-that-ok"></a>Live Communications Server 2007 R2 容量計画ツールまたは Lync Server 2010 がインストールされている。 これでよろしいですか。
 
 いいえ。 相互運用性の問題があるため、この製品の以前のバージョンをすべてアンインストールする必要があります。
 
@@ -125,17 +125,17 @@ MPOP は、複数のプレゼンスポイントを表します。 これは、�
 
 <div>
 
-## <a name="will-the-stress-and-performance-tools-set-up-the-caa-call-information-server-topology"></a>ストレスとパフォーマンスのツールで CAA を Call Information server topology をセットアップしますか?
+## <a name="will-the-stress-and-performance-tools-set-up-the-caa-call-information-server-topology"></a>ストレスとパフォーマンスのツールによって、CAA 呼び出し情報サーバーのトポロジはセットアップされますか。
 
-いいえ。 このツールでは、ユーザー、連絡先、配布リストが作成され、ユーザーロードがシミュレートされます。
+いいえ。 このツールは、ユーザー、連絡先、および配布リストを作成し、ユーザーの負荷をシミュレートします。
 
 </div>
 
 <div>
 
-## <a name="what-is-the-maximum-number-of-users-that-the-tools-support"></a>ツールでサポートされるユーザーの最大数は何人ですか?
+## <a name="what-is-the-maximum-number-of-users-that-the-tools-support"></a>ツールがサポートする最大ユーザー数はどのくらいですか?
 
-これらのツールを使用して、最大で8万ユーザーを作成し、合計3万ユーザーを実行しました。 使用できるクライアントとサーバーのハードウェアによっては、最大で12万のユーザーを対象としていますが、技術的な制限により、高い価値を実現することができます。
+これらのツールを使用して、合計8万のユーザーと実行される、3万ユーザーを合計してテストしました。 使用可能なクライアントとサーバーのハードウェアに応じて、技術上の制限により、より高い価値を実現できるということは、最大で12万のユーザーを推奨します。
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 通話受付制御の管理'
+title: 'Lync Server 2013: 通話受付管理の管理'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733784
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 11cd9e2bb894f5fcb2230d08939d29852fba3fcd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ccb92b69c16f6dd45eedb584f0f63294dcbea4c0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738817"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037135"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-call-admission-control-in-lync-server-2013"></a>Lync Server 2013 での通話受付制御の管理
+# <a name="managing-call-admission-control-in-lync-server-2013"></a>Lync Server 2013 での通話受付管理の管理
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41738817"
 
 <span> </span>
 
-_**最終更新日:** 2012-11-01_
+_**トピックの最終更新日:** 2012-11-01_
 
-通話受付管理 (CAC) では、利用可能なネットワーク帯域幅に基づいて、音声通話やビデオ通話などのリアルタイム コミュニケーションのセッションの確立を許可するかどうかを判断します。 次の手順を使用して、Lync Server 2013 環境のさまざまな CAC 機能を管理します。
+通話受付管理 (CAC) では、利用可能なネットワーク帯域幅に基づいて、音声通話やビデオ通話のようなリアルタイム通信セッションの確立を許可するかどうかを判断できます。 Lync Server 2013 環境のさまざまな CAC 機能を管理するには、以下の手順を使用します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 での通話受付制御の有効化](lync-server-2013-enabling-call-admission-control.md)
+  - [Lync Server 2013 での通話受付管理の有効化](lync-server-2013-enabling-call-admission-control.md)
 
   - [Lync Server 2013 でのネットワーク帯域幅ポリシープロファイルの管理](lync-server-2013-managing-network-bandwidth-policy-profiles.md)
 
-  - [Lync Server 2013 のネットワーク領域](lync-server-2013-network-regions.md)
+  - [Lync Server 2013 のネットワーク地域](lync-server-2013-network-regions.md)
 
-  - [Lync Server 2013 のネットワーク領域ルート](lync-server-2013-network-region-routes.md)
+  - [Lync Server 2013 のネットワーク地域ルート](lync-server-2013-network-region-routes.md)
 
-  - [Lync Server 2013 でのサイトの通話受付制御](lync-server-2013-call-admission-control-for-sites.md)
+  - [Lync Server 2013 のサイトの通話受付管理](lync-server-2013-call-admission-control-for-sites.md)
 
-  - [Lync Server 2013 でメディアのバイパスを有効または無効にする](lync-server-2013-enabling-and-disabling-media-bypass.md)
+  - [Lync Server 2013 でメディアバイパスを有効または無効にする](lync-server-2013-enabling-and-disabling-media-bypass.md)
 
-  - [Lync Server 2013 でのネットワーク領域のリンク](lync-server-2013-linking-network-regions.md)
+  - [Lync Server 2013 でのネットワーク地域のリンク](lync-server-2013-linking-network-regions.md)
 
   - [Lync Server 2013 でのネットワークサブネットの管理](lync-server-2013-managing-network-subnets.md)
 
@@ -66,7 +66,7 @@ _**最終更新日:** 2012-11-01_
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 の通話受付制御の概要](lync-server-2013-overview-of-call-admission-control.md)  
+[Lync Server 2013 での通話受付管理の概要](lync-server-2013-overview-of-call-admission-control.md)  
   
 
 </div>

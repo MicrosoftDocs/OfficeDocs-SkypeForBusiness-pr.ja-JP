@@ -12,20 +12,20 @@ ms:contentKeyID: 51803941
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 07a7db57d506b892fd030efccfb304c7103e1e9f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7bc7320ffd8bb4d12483a882b588205d26e7e164
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755511"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051009"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-location-based-routing-in-lync-server-2013"></a>Lync Server 2013 での位置情報に基づくルーティングの概要
+# <a name="overview-of-location-based-routing-in-lync-server-2013"></a>Lync Server 2013 での場所に基づくルーティングの概要
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41755511"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-21_
+_**トピックの最終更新日:** 2013-02-21_
 
-場所に基づいたルーティングでは、国内および国際 PSTN 通話のルーティングを変更する新しいルール セットを導入して、課金回避を防止します。場所に基づいたルーティングによって、これらのルールを特定の地域、ゲートウェイ、ユーザー群のみに柔軟に適用できます。
+場所に基づくルーティングでは、国内および国際間の PSTN 通話のルーティングを変更して、有料のバイパスを防止する新しいルールのセットが導入されています。 場所に基づくルーティングは、これらのルールを特定の地域、特定のゲートウェイ、または特定のユーザーのセットに限定するための柔軟性を提供します。
 
-次のシナリオでは、位置ベースのルーティングで適用される主な種類の制限について説明します。
+次のシナリオでは、場所に基づいたルーティングによって実行される主な種類の制限について説明します。
 
-  - 出口呼び出し–位置情報に基づくルーティングでは、発信者が PSTN の電話と同じ地域に配置されている PSTN ゲートウェイからの発信通話を強制することができます。これにより、発信者は、別の地域にある PSTN ゲートウェイからの出口を、相手.
+  - 出口呼び出し–場所に基づいたルーティングでは、発信者が PSTN の通話を禁止しているのと同じ地域に配置されている pstn ゲートウェイからの発信呼び出しを強制できます。これにより、別の地域にある PSTN ゲートウェイからの呼び出しが、コール.
 
-  - 受信通話–位置ベースのルーティングでは、着信通話の着信が Lync ユーザーと同じ地域にない場合に、着信 PSTN 通話が Lync エンドポイントを呼び出すことができなくなります。
+  - 受信呼び出し–場所に基づくルーティングは、着信呼び出しをルーティングする PSTN ゲートウェイが Lync ユーザーと同じ地域にない場合に、Lync エンドポイントを着信させないようにすることができます。
 
-  - 不明な地域-場所に基づくルーティングでは、不定の場所 (インターネットから接続されているか、または不明な地域にいるリモートユーザー) との間で送受信される PSTN 通話を制限します。
+  - 不明な地域–場所に基づいたルーティングでは、不定の場所にあるユーザーとの間で送受信される PSTN 通話を制限します (つまり、リモートユーザーがインターネットから接続するか、または不明な地域に配置されます)。
 
-  - 国際地域–位置に基づくルーティングでは、ユーザーの位置情報に対するローカルゲートウェイが見つからない場合、国際 PSTN ゲートウェイを介した発信通話のルーティングが強制されます。
+  - 国際的な地域–場所に基づいたルーティングによって、ユーザーの場所にローカルのゲートウェイが見つからない場合は、国際 PSTN ゲートウェイを経由した発信呼び出しのルーティングが強制されます。
 
 <div>
 

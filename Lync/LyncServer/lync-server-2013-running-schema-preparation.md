@@ -12,16 +12,16 @@ ms:contentKeyID: 48184911
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 06b02981e9baa589801839c8fd8c871ae35b0dde
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c58f50cb5c4668525450c4aa95b4a00513d5fc17
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765045"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050969"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,51 +35,51 @@ ms.locfileid: "41765045"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-29_
+_**トピックの最終更新日:** 2012-10-29_
 
-セットアップまたは Lync Server 管理シェルコマンドレットを使用して、Active Directory スキーマを準備することができます。 Active Directory スキーマを拡張するコマンドレットは、**インストール-CsAdServerSchema**です。
+セットアップまたは Lync Server 管理シェルコマンドレットを使用して、Active Directory スキーマを準備することができます。 Active Directory スキーマを拡張するコマンドレットは **Install-CsAdServerSchema** です。
 
 <div>
 
 
 > [!NOTE]  
-> スキーマ準備コマンドレット (<STRONG>Install: CsAdServerSchema</STRONG>) では、スキーママスターにアクセスする必要があります。これには、リモートレジストリサービスが実行されており、リモートレジストリキーが有効になっている必要があります。 スキーママスターでリモートレジストリサービスを有効にできない場合は、スキーママスターでコマンドレットをローカルで実行できます。 レジストリのリモートアクセスの詳細については、Microsoft サポート技術情報の記事314837「レジストリへのリモートアクセスを管理<A href="http://go.microsoft.com/fwlink/p/?linkid=125769">http://go.microsoft.com/fwlink/p/?linkId=125769</A>する方法」を参照してください。
+> スキーマ準備コマンドレット (<STRONG>Install-CsAdServerSchema</STRONG>) はスキーママスターにアクセスする必要があります。これには、リモートレジストリサービスが実行されていて、リモートレジストリキーが有効になっている必要があります。 スキーママスターでリモートレジストリサービスを有効にできない場合は、スキーママスターでローカルにコマンドレットを実行できます。 レジストリのリモートアクセスの詳細については、Microsoft サポート技術情報の記事314837「レジストリへのリモートアクセスを管理<A href="http://go.microsoft.com/fwlink/p/?linkid=125769">http://go.microsoft.com/fwlink/p/?linkId=125769</A>する方法」を参照してください。
 
 
 
 </div>
 
-スキーマの準備が完了したら、フォレストの準備に進む前に、スキーマパーティションがレプリケートされていることを手動で確認します。 詳細については、「 [Lync Server 2013 での Active Directory スキーマのレプリケーションを確認](lync-server-2013-verifying-schema-replication.md)する」を参照してください。
+スキーマの準備が完了したら、スキーマ パーティションがレプリケートされたことを手動で確認してから、フォレストの準備に進んでください。 詳細については、「 [Lync Server 2013 での Active Directory スキーマレプリケーションの確認](lync-server-2013-verifying-schema-replication.md)」を参照してください。
 
 <div>
 
-## <a name="to-use-setup-to-prepare-the-schema-of-the-current-forest"></a>セットアップを使用して現在のフォレストのスキーマを準備するには
+## <a name="to-use-setup-to-prepare-the-schema-of-the-current-forest"></a>セットアップを使用して、現在のフォレストのスキーマを準備するには
 
-1.  Schema Admins グループのメンバーとして、またはスキーママスターの管理者権限を持つ、フォレスト内のサーバーにログオンします。
+1.  Schema Admins グループのメンバーとして、さらに、スキーマ マスターにおける管理者権限を使用して、フォレスト内のサーバーにログオンします。
 
-2.  Lync Server 2013 インストールフォルダーまたはメディアから setup.exe を実行して、展開ウィザードを開始します。
+2.  Lync Server 2013 インストールフォルダーまたはメディアから、setup.exe を実行して、展開ウィザードを開始します。
 
-3.  Microsoft Visual C++ 再頒布可能パッケージをインストールするかどうかを確認するメッセージが表示されたら、[**はい**] をクリックします。
+3.  Microsoft Visual C++ (再頒布可能) のインストールを要求するメッセージが表示されたら、**[はい]** をクリックします。
 
-4.  [Lync Server 2013 セットアップ] ダイアログボックスで、Lync Server ファイルをインストールする場所を入力するように求められます。 既定の場所を選ぶか、目的の場所を**参照**し、[**インストール**] をクリックします。
+4.  [Lync Server 2013 セットアップ] ダイアログボックスで、Lync Server ファイルをインストールする場所を指定するように求められます。 既定の場所を選択するか、または好みの場所を **[参照]** で選択し、**[インストール]** をクリックします。
 
-5.  [使用許諾契約] ページで、[**使用許諾契約書に同意**します] をオンにし、[ **OK]** をクリックします。
+5.  [使用許諾契約書] ページで **[使用許諾契約書に同意します]** チェック ボックスをオンにし、**[OK]** をクリックします。
 
-6.  インストーラーによって Lync Server のコアコンポーネントがインストールされます。
+6.  インストーラーによって Lync Server コアコンポーネントがインストールされます。
 
-7.  展開ウィザードの準備ができたら、[ **Active Directory の準備**] をクリックし、展開の状態が決定されるまで待ちます。
+7.  展開ウィザードの準備ができたら、[**Active Directory の準備**] をクリックし、展開状態が判別されるまで待機します。
 
-8.  **手順 1: スキーマを準備**して、[**実行**] をクリックします。
+8.  [**ステップ 1: スキーマの準備**] で、[**実行**] をクリックします。
 
 9.  [**スキーマの準備**] ページで、[**次へ**] をクリックします。
 
 10. [**コマンドの実行**] ページで [**タスク状態: 完了**] を見つけて、[**ログの表示**] をクリックします。
 
-11. [**アクション**] 列で、[**スキーマの準備**] を展開し、各タスクの最後で** \<成功\> **の実行結果を確認して、スキーマの準備が正常に完了したことを確認します。次に、[**完了**] をクリックします。
+11. [**アクション**] 列で [**スキーマ**の準備] を展開し、各タスクの最後に** \<成功\> **した実行結果を探して、スキーマの準備が正常に完了したことを確認し、ログを閉じて、[**完了**] をクリックします。
 
-12. Active Directory のレプリケーションが完了するまで待つか、レプリケーションを強制的に実行します。
+12. Active Directory レプリケーションが完了するのを待機するか、レプリケーションを強制的に実行します。
 
-13. スキーマの変更が他のすべてのドメインコントローラーにレプリケートされていることを手動で確認します。 詳細については、「 [Lync Server 2013 での Active Directory スキーマのレプリケーションを確認](lync-server-2013-verifying-schema-replication.md)する」を参照してください。
+13. スキーマの変更が他のすべてのドメイン コントローラーにレプリケートされたことを手動で確認します。 詳細については、「 [Lync Server 2013 での Active Directory スキーマレプリケーションの確認](lync-server-2013-verifying-schema-replication.md)」を参照してください。
 
 </div>
 
@@ -87,39 +87,39 @@ _**最終更新日:** 2012-10-29_
 
 ## <a name="to-use-cmdlets-to-prepare-the-schema-of-the-current-forest"></a>コマンドレットを使用して現在のフォレストのスキーマを準備するには
 
-1.  フォレスト内のコンピューターに Schema Admins グループのメンバーとしてログオンし、スキーママスターの管理者権限を持つコンピューターにログオンします。
+1.  Schema Admins グループのメンバーとして、さらに、スキーマ マスターにおける管理者の権限を使用して、フォレスト内のコンピューターにログオンします。
 
-2.  Lync Server のコアコンポーネントは、次のようにインストールします。
+2.  Lync Server コアコンポーネントを次のようにインストールします。
     
-    1.  Lync Server 2013 のインストールフォルダーまたはメディアから setup.exe を実行して、Lync Server 展開ウィザードを開始します。
+    1.  Lync Server 2013 のインストールフォルダーまたはメディアから、setup.exe を実行して Lync Server 展開ウィザードを起動します。
     
-    2.  Microsoft Visual C++ 再頒布可能パッケージをインストールするかどうかを確認するメッセージが表示されたら、[**はい**] をクリックします。
+    2.  Microsoft Visual C++ (再頒布可能) のインストールを要求するメッセージが表示されたら、**[はい]** をクリックします。
     
-    3.  [Lync Server 2013 セットアップ] ダイアログボックスで、Lync Server ファイルをインストールする場所を入力するように求められます。 既定の場所を選ぶか、目的の場所を**参照**し、[**インストール**] をクリックします。
+    3.  [Lync Server 2013 セットアップ] ダイアログボックスで、Lync Server ファイルをインストールする場所を指定するように求められます。 既定の場所を選択するか、または好みの場所を **[参照]** で選択し、**[インストール]** をクリックします。
     
-    4.  [使用許諾契約] ページで、[**使用許諾契約書に同意**します] をオンにし、[ **OK]** をクリックします。 インストーラーは、Lync Server 2013 コアコンポーネントをインストールします。
+    4.  [使用許諾契約書] ページで **[使用許諾契約書に同意します]** チェック ボックスをオンにし、**[OK]** をクリックします。 インストーラーによって Lync Server 2013 のコアコンポーネントがインストールされます。
 
-3.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+3.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
-4.  次のコマンドレットを実行します。
+4.  実行
     
         Install-CsAdServerSchema [-Ldf <directory where the .ldf file is located>] 
     
-    Ldf パラメーターを指定しない場合、既定値は、レジストリから読み取った Lync Server 2013 インストールパスです。
+    Ldf パラメーターを指定しない場合、既定値は、レジストリから読み取った Lync Server 2013 のインストールパスになります。
     
     次に例を示します。
     
         Install-CsAdServerSchema -Ldf "C:\Program Files\Microsoft Lync Server 2013\Deployment\Setup"
 
-5.  次のコマンドレットを使用して、スキーマの準備が完了するのを確認します。
+5.  次のコマンドレットを使用し、スキーマの準備が完了したことを確認します。
     
         Get-CsAdServerSchema 
     
-    スキーマ**\_の\_\_** 準備が正常に完了した場合、このコマンドレットは、スキーマのバージョンの現在の値を返します。
+    スキーマの準備が成功した場合、このコマンドレットは**スキーマ\_\_バージョン状態\_の CURRENT**の値を返します。
 
-6.  Active Directory のレプリケーションが完了するまで待つか、レプリケーションを強制的に実行します。
+6.  Active Directory レプリケーションが完了するのを待機するか、レプリケーションを強制的に実行します。
 
-7.  スキーマの変更が他のすべてのドメインコントローラーにレプリケートされていることを手動で確認します。 詳細については、「 [Lync Server 2013 での Active Directory スキーマのレプリケーションを確認](lync-server-2013-verifying-schema-replication.md)する」を参照してください。
+7.  スキーマの変更が他のすべてのドメイン コントローラーにレプリケートされたことを手動で確認します。 詳細については、「 [Lync Server 2013 での Active Directory スキーマレプリケーションの確認](lync-server-2013-verifying-schema-replication.md)」を参照してください。
 
 </div>
 

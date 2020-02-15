@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 会議構成の設定'
+title: 'Lync Server 2013: 会議の構成設定'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733637
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aa234a4420c1bec54cd673eb59d254e07deab8f8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9b5a3176067d7ec9927165bd13b6b1a34dfb00d9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41766058"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42039460"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="meeting-configuration-settings-in-lync-server-2013"></a>Lync Server 2013 の会議構成の設定
+# <a name="meeting-configuration-settings-in-lync-server-2013"></a>Lync Server 2013 の会議構成設定
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41766058"
 
 <span> </span>
 
-_**最終更新日:** 2012-11-01_
+_**トピックの最終更新日:** 2012-11-01_
 
-Lync Server 2013 では、会議ポリシーによってユーザーのスケジュールと参加のエクスペリエンスが定義され、会議の [設定] ページにある [会議参加] の設定は、次のように定義されます。
+Lync Server 2013 では、会議ポリシーによってユーザーのスケジュールと参加の操作が定義され、会議の構成ページにある会議参加の設定が次のように定義されます。
 
   - 公衆交換電話網 (PSTN) からダイヤルインするユーザーをロビーに移動するかどうか
 
@@ -47,17 +47,17 @@ Lync Server 2013 では、会議ポリシーによってユーザーのスケジ
 
   - 匿名 (認証されていない) ユーザーを既定で許可するかどうか
 
-このセクションのトピックでは、会議の参加設定を構成する方法について説明します。
+このセクションのトピックでは、会議参加設定の構成方法について説明します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
   - [Lync Server 2013 で会議の構成設定を表示する](lync-server-2013-view-meeting-configuration-settings.md)
 
   - [Lync Server 2013 で会議の構成設定のコレクションを作成または変更する](lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings.md)
 
-  - [Lync Server 2013 で既存の会議構成設定のコレクションを削除する](lync-server-2013-delete-an-existing-collection-of-meeting-configuration-settings.md)
+  - [Lync Server 2013 で会議の構成設定の既存のコレクションを削除する](lync-server-2013-delete-an-existing-collection-of-meeting-configuration-settings.md)
 
 </div>
 

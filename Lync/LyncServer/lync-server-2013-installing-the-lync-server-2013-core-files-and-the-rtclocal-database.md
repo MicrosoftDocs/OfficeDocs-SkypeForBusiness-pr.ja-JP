@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013 コアファイルと RTCLocal データベースのインストール
+title: Lync Server 2013 コアファイルおよび RTCLocal データベースのインストール
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183591
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da8f0dd1fb83c595ed444a487d0321c571a09315
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c8502e1af9ddb607c25ed04429f6b5bb7fbfe980
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725997"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046810"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="installing-the-lync-server-2013-core-files-and-the-rtclocal-database"></a>Lync Server 2013 コアファイルと RTCLocal データベースのインストール
+# <a name="installing-the-lync-server-2013-core-files-and-the-rtclocal-database"></a>Lync Server 2013 コアファイルおよび RTCLocal データベースのインストール
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41725997"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-20_
+_**トピックの最終更新日:** 2012-10-20_
 
-Lync Server 2013 コアファイルをコンピューターにインストールするには、次の手順を実行します。 RTCLocal データベースは、コアファイルのインストール時に自動的にインストールされます。 監視ノードに SQL Server をインストールする必要はないことに注意してください。 代わりに、SQL Server Express が自動的にインストールされます。
+Lync Server 2013 のコアファイルをコンピューターにインストールするには、次の手順を実行します。 RTCLocal データベースは、コア ファイルをインストールするときに自動的にインストールされます。 監視ノードに SQL Server をインストールする必要はないことに注意してください。 代わりに、SQL Server Express が自動的にインストールされます。
 
-Lync Server 2013 コアファイルと RTCLocal データベースをインストールするには、次の操作を行います。
+Lync Server 2013 コアファイルおよび RTCLocal データベースをインストールするには、次のようにします。
 
-1.  ウォッチャーノードのコンピューターで、[**スタート**] をクリックし、[**すべてのプログラム**]、[**アクセサリ**]、[**コマンドプロンプト**] を右クリックして、[**管理者として実行**] をクリックします。
+1.  ウォッチャー ノード コンピューターで、[**スタート**] ボタンをクリックし、[**すべてのプログラム**]、[**アクセサリ**] の順にクリックします。次に、[**コマンド プロンプト**] を右クリックし、[**管理者として実行**] をクリックします。
 
-2.  [コンソール] ウィンドウで、次のコマンドを入力し、ENTER キーを押します。 Lync Server セットアップファイルへの適切なパスを使用します。
+2.  コンソールウィンドウで、次のコマンドを入力し、ENTER キーを押して、Lync Server セットアップファイルへの適切なパスを指定します。
     
         D:\Setup.exe /BootstrapLocalMgmt
 
-主要な Lync Server コンポーネントが正常にインストールされたことを確認するには、[**スタート**] をクリックし、[**すべてのプログラム**]、[ **lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。 Lync Server 2013 管理シェルで、次の Windows PowerShell コマンドを入力し、enter キーを押します。
+コア Lync Server コンポーネントが正常にインストールされたことを確認するには、[**スタート**]、[**すべてのプログラム**]、[ **lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。 Lync Server 2013 管理シェルで、次の Windows PowerShell コマンドを入力し、enter キーを押します。
 
     Get-CsWatcherNodeConfiguration
 
-このコマンドを初めて実行したときに、ウォッチャーノードのコンピューターをまだ構成していないため、データは返されません。 コマンドを実行してもエラーが返されない限り、Lync Server のセットアップが正常に完了したと見なすことができます。
+最初にこのコマンドを実行したときは、まだウォッチャー ノード コンピューターを構成していないので何もデータが表示されません。 エラーが返されずにコマンドが実行されている限り、Lync Server のセットアップが正常に完了したと見なすことができます。
 
-ウォッチャーノードのコンピューターが境界ネットワーク内にある場合は、次のコマンドを実行して、Lync Server 2013 のインストールを確認できます。
+監視ノードコンピューターが境界ネットワーク内にある場合は、次のコマンドを実行して Lync Server 2013 のインストールを確認できます。
 
     Get-CsPinPolicy
 
-組織で使用するために構成されている暗証番号 (PIN) ポリシーの数に応じて、次のような情報が表示されます。
+組織で構成されている暗証番号 (PIN) ポリシーの数に応じて、次のような情報が表示されます。
 
     Identity             : Global
     Description          :
@@ -67,7 +67,7 @@ Lync Server 2013 コアファイルと RTCLocal データベースをインス�
     PINLifetime          : 0
     MaximumLogonAttempts :
 
-PIN ポリシーに関する情報が表示される場合は、コアコンポーネントが正常にインストールされていることを意味します。
+PIN ポリシーに関する情報が表示された場合は、コア コンポーネントが正常にインストールされています。
 
 </div>
 

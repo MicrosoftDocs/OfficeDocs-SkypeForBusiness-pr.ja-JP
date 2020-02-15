@@ -1,5 +1,5 @@
 ---
-title: フロントエンド プールおよび Standard Edition サーバーの IIS 要件
+title: フロントエンドプールおよび Standard Edition サーバーの IIS 要件
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185888
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c00ffe97b77f20107fc3351a678c71e28bbc6675
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bc92cc4c27f7af395a8e41bec26679a27010562d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729347"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037869"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="iis-requirements-for-front-end-pools-and-standard-edition-servers-in-lync-server-2013"></a>Lync Server 2013 のフロントエンド プールおよび Standard Edition サーバーの IIS 要件
+# <a name="iis-requirements-for-front-end-pools-and-standard-edition-servers-in-lync-server-2013"></a>Lync Server 2013 のフロントエンドプールおよび Standard Edition サーバーの IIS 要件
 
 </div>
 
@@ -35,42 +35,42 @@ ms.locfileid: "41729347"
 
 <span> </span>
 
-_**最終更新日:** 2012-06-19_
+_**トピックの最終更新日:** 2012-06-19_
 
-Standard Edition サーバー、フロントエンドサーバー、およびディレクターの場合、Lync Server 2013 installer では、次の目的でインターネットインフォメーションサービス (IIS) で仮想ディレクトリが作成されます。
+Standard Edition サーバーとフロントエンドサーバーおよびディレクターの場合、Lync Server 2013 インストーラーは次の目的のためにインターネットインフォメーションサービス (IIS) に仮想ディレクトリを作成します。
 
-  - ユーザーがアドレス帳サービスからファイルをダウンロードできるようにするには
+  - ユーザーがアドレス帳サービスからファイルをダウンロードできるようにする。
 
-  - クライアントが更新プログラムを取得できるようにするには
+  - クライアントが更新を取得できるようにするには
 
-  - 会議を有効にするには
+  - 会議を有効にする。
 
-  - ユーザーが会議コンテンツをダウンロードできるようにするには
+  - ユーザーが会議コンテンツをダウンロードできるようにする。
 
-  - ユーザーが配布グループを展開できるようにするには
+  - ユーザーが配布グループを拡張できるようにする。
 
-  - 電話会議を有効にするには
+  - 電話会議を有効にする。
 
-  - 応答グループの機能を有効にするには
+  - 応答グループ機能を有効にする。
 
-さらに、Lync Server 2010: 2011 年11月の累積更新プログラムでは、次の目的で IIS で仮想ディレクトリが作成されます。
+さらに、Lync Server 2010:11 月2011インストーラーの累積的な更新プログラムにより、次の目的のために IIS で仮想ディレクトリが作成されます。
 
-  - モバイルデバイスでのインスタントメッセージング (IM) やプレゼンスなどの機動性機能をサポートするフロントエンドサーバーまたは Standard Edition サーバーの場合
+  - インスタントメッセージング (IM) やプレゼンスなど、モバイルデバイスでのモビリティ機能をサポートするフロントエンドサーバーまたは Standard Edition サーバー上
 
-  - フロントエンドサーバーまたは標準エディションのサーバーおよびディレクターで、モバイルデバイスでモビリティリソースを自動的に検出できるようにする
+  - フロントエンドサーバーまたは Standard Edition サーバーとディレクターで、モバイルデバイスがモビリティリソースを自動的に検出できるようにする
 
 
 
 > [!NOTE]
-> モバイル機能を導入する場合は、IIS 7.5 を使用することをお勧めします。 Lync Server Mobility Service installer は、パフォーマンスを向上させるためにいくつかの ASP.NET フラグを設定します。 既定では、Windows Server 2008 R2 に IIS 7.5 がインストールされ、モビリティサービスのインストーラーによって ASP.NET の設定が自動的に変更されます。 Windows Server 2008 で IIS 7.0 を使っている場合は、これらの設定を手動で変更する必要があります。
+> モビリティを展開する場合は、IIS 7.5 を使用することをお勧めします。 Lync Server Mobility Service installer は、パフォーマンスを向上させるためにいくつかの ASP.NET フラグを設定します。 既定では、IIS 7.5 が Windows Server 2008 R2 にインストールされ、Mobility Service インストーラーによって ASP.NET 設定が自動的に変更されます。 Windows Server 2008 で IIS 7.0 を使用する場合は、この設定を手動で変更する必要があります。
 
 
 
-Lync Server では、次の IIS モジュールをインストールする必要があります。
+Lync Server には、次の IIS モジュールがインストールされている必要があります。
 
 
 > [!IMPORTANT]
-> 組織で IIS およびすべての Web サービスをシステムドライブ以外のドライブに配置する必要がある場合、[セットアップ] ダイアログボックスで Lync Server ファイルのインストール場所のパスを変更することができます。 このパス (OCSCore など) にセットアップファイルをインストールすると、その他の Lync Server ファイルもこのドライブに展開されます。 IIS をインストールするときに、Windows Server Manager によって展開された INETPUB <A href="http://go.microsoft.com/fwlink/p/?linkid=216888">http://go.microsoft.com/fwlink/p/?linkId=216888</A>を再配置する方法の詳細については、を参照してください。
+> IIS およびすべての Web サービスをシステムドライブ以外のドライブに配置する必要がある組織では、[セットアップ] ダイアログボックスで Lync Server ファイルのインストール場所のパスを変更できます。 このパスに対して、OCSCore を含むセットアップファイルをインストールすると、残りの Lync Server ファイルもこのドライブに展開されます。 IIS のインストール時に Windows Server Manager によって展開された INETPUB の再<A href="http://go.microsoft.com/fwlink/p/?linkid=216888">http://go.microsoft.com/fwlink/p/?linkId=216888</A>配置方法の詳細については、「」を参照してください。
 
 
   - 静的コンテンツ
@@ -81,17 +81,17 @@ Lync Server では、次の IIS モジュールをインストールする必要
 
   - ASP.NET
 
-  - .NET の拡張性
+  - .NET 拡張機能
 
-  - Internet Server API (ISAPI) の拡張機能
+  - Internet Server API (ISAPI) 拡張機能
 
   - ISAPI フィルター
 
-  - HTTP ログ
+  - HTTP ロギング機能
 
   - ログ ツール
 
-  - トレース
+  - ・
 
   - Windows 認証
 
@@ -105,11 +105,11 @@ Lync Server では、次の IIS モジュールをインストールする必要
 
   - IIS 管理スクリプトおよびツール
 
-  - 匿名認証 (IIS がインストールされている場合に既定でインストールされます)
+  - 匿名認証 (IIS のインストール時に既定でインストールされる)
 
   - クライアント証明書マッピング認証
 
-次の表は、内部アクセス用の仮想ディレクトリと、それらが参照するファイルシステムリソースの Uri を示しています。
+次の表では、内部アクセス用の仮想ディレクトリの URI とそれらが参照しているファイル システム リソースの一覧を示します。
 
 ### <a name="virtual-directories-for-internal-access"></a>内部アクセス用の仮想ディレクトリ
 
@@ -129,58 +129,58 @@ Lync Server では、次の IIS モジュールをインストールする必要
 <tbody>
 <tr class="odd">
 <td><p>アドレス帳サーバー</p></td>
-<td><p>https://&lt;の内部&gt;FQDN/ABS/int/Handler</p></td>
-<td><p>内部ユーザーのアドレス帳サーバーのダウンロードファイルの場所。</p></td>
+<td><p>https://&lt;内部 FQDN&gt;/ABS/int/Handler</p></td>
+<td><p>内部ユーザー用のアドレス帳サーバー ダウンロード ファイルの場所。</p></td>
 </tr>
 <tr class="even">
 <td><p>自動検出サービス</p></td>
 <td><p>https://&lt;内部 FQDN&gt;/自動検出</p></td>
-<td><p>内部のモバイルデバイスユーザーのモビリティリソースを検索する、Lync Server 自動検出サービスの場所。</p></td>
+<td><p>内部モバイルデバイスユーザーのモビリティリソースを検索する Lync Server 自動検出サービスの場所。</p></td>
 </tr>
 <tr class="odd">
 <td><p>クライアントの更新</p></td>
-<td><p>http://&lt;の内部&gt;FQDN/AutoUpdate/Int</p></td>
-<td><p>内部コンピューターベースのクライアントの更新ファイルの場所。</p></td>
+<td><p>http://&lt;内部 FQDN&gt;/AutoUpdate/Int</p></td>
+<td><p>内部のコンピューターベース クライアント用の更新ファイルの場所。</p></td>
 </tr>
 <tr class="even">
-<td><p>会議</p></td>
+<td><p>Conf</p></td>
 <td><p>http://&lt;内部 FQDN&gt;/conf/Int</p></td>
-<td><p>内部ユーザーの会議リソースの場所。</p></td>
+<td><p>内部ユーザー用会議リソースの場所。</p></td>
 </tr>
 <tr class="odd">
-<td><p>デバイスの更新</p></td>
-<td><p>http://&lt;の内部&gt;FQDN/DeviceUpdateFiles_Int</p></td>
-<td><p>内部 UC デバイスの統合通信 (UC) デバイス更新ファイルの場所。</p></td>
+<td><p>デバイス更新</p></td>
+<td><p>http://&lt;内部 FQDN&gt;/DeviceUpdateFiles_Int</p></td>
+<td><p>内部統合コミュニケーション (UC) デバイス用の UC デバイス更新ファイルの場所。</p></td>
 </tr>
 <tr class="even">
 <td><p>会議</p></td>
-<td><p>http://&lt;の内部&gt;FQDN/etc/place/null</p></td>
-<td><p>内部ユーザー向けの会議コンテンツの場所。</p></td>
+<td><p>http://&lt;内部 FQDN&gt;/etc/place/null</p></td>
+<td><p>内部ユーザー用のミーティング コンテンツの場所。</p></td>
 </tr>
 <tr class="odd">
-<td><p>モバイルサービス</p></td>
+<td><p>Mobility Service</p></td>
 <td><p>https://&lt;内部 FQDN&gt;/mcx</p></td>
-<td><p>内部モバイルデバイスユーザー向けのモビリティサービスリソースの場所。</p></td>
+<td><p>内部モバイル デバイス ユーザー用の Mobility Service リソースの場所。</p></td>
 </tr>
 <tr class="even">
-<td><p>グループの展開とアドレス帳 Web クエリサービス</p></td>
-<td><p>http://&lt;の内部&gt;FQDN またはグループの無効化</p></td>
-<td><p>内部ユーザーに対してグループの拡張を可能にする Web サービスの場所。 また、内部の Lync Mobile Microsoft Lync 2010 モバイルクライアントにグローバルアドレス一覧の情報を提供するアドレス帳 Web クエリサービスの場所。</p></td>
+<td><p>グループ拡張およびアドレス帳 Web クエリ サービス</p></td>
+<td><p>http://&lt;内部 FQDN&gt;/グループの内部 FQDN</p></td>
+<td><p>内部ユーザーのグループ拡張を有効にする Web サービスの場所。 また、内部 Lync Mobile Microsoft Lync 2010 モバイルクライアントにグローバルアドレス一覧情報を提供する、アドレス帳 Web クエリサービスの場所についても説明します。</p></td>
 </tr>
 <tr class="odd">
 <td><p>電話会議</p></td>
-<td><p>http://&lt;の内部&gt;FQDN/PhoneConferencing/Int</p></td>
-<td><p>内部ユーザー向けの電話会議データの場所。</p></td>
+<td><p>http://&lt;内部 FQDN&gt;/PhoneConferencing/Int</p></td>
+<td><p>内部ユーザー用の電話会議データの場所。</p></td>
 </tr>
 <tr class="even">
-<td><p>デバイスの更新</p></td>
-<td><p>http://&lt;の内部&gt;FQDN/RequestHandler</p></td>
-<td><p>内部の UC デバイスでログをアップロードし、更新プログラムを確認できるようにする、デバイス更新 Web サービス要求ハンドラーの場所。</p></td>
+<td><p>デバイス更新</p></td>
+<td><p>http://&lt;内部 FQDN&gt;/RequestHandler</p></td>
+<td><p>内部 UC デバイスによるログのアップロードと更新の確認を可能にするデバイス更新 Web サービス要求ハンドラーの場所。</p></td>
 </tr>
 <tr class="odd">
 <td><p>応答グループ アプリケーション</p></td>
-<td><p>http://&lt;の内部&gt;FQDN/RgsConfig</p>
-<p>http://&lt;の内部&gt;FQDN/RgsClients</p></td>
+<td><p>http://&lt;内部 FQDN&gt;/RgsConfig</p>
+<p>http://&lt;内部 FQDN&gt;/RgsClients</p></td>
 <td><p>応答グループ構成ツールの場所。</p></td>
 </tr>
 </tbody>
@@ -188,18 +188,18 @@ Lync Server では、次の IIS モジュールをインストールする必要
 
 
 > [!NOTE]
-> 統合された構成のフロントエンドプールの場合は、プールにサーバーを追加する前に、IIS を展開する必要があります。
+> 統合構成のフロントエンドプールの場合は、サーバーをプールに追加する前に IIS を展開する必要があります。
 
 
 <table>
 <thead>
 <tr class="header">
-<th><img src="images/Gg398321.security(OCS.15).gif" title="証券" alt="security" />セキュリティメモ:</th>
+<th><img src="images/Gg398321.security(OCS.15).gif" title="security" alt="security" />セキュリティに関する注意事項:</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Iis 管理スナップインを使用して、IIS web コンポーネントサーバーで使用する証明書を割り当てる必要があります。</td>
+<td>IIS 管理用スナップインを使用して、IIS Web コンポーネント サーバーで使用される証明書を割り当てる必要があります。</td>
 </tr>
 </tbody>
 </table>

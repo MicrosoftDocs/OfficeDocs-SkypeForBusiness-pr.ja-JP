@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: アドレス帳管理のための CsService'
+title: 'Lync Server 2013: アドレス帳管理用の取得-CsService'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183853
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 656c1aa545a1f10e49c5ff60b51c20386854d146
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8d41d0d3fe8960f286cfe9bed1f27ae08d43c9fe
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763581"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037949"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,25 +35,25 @@ ms.locfileid: "41763581"
 
 <span> </span>
 
-_**最終更新日:** 2012-11-01_
+_**トピックの最終更新日:** 2012-11-01_
 
-このコマンドレットを実行できるユーザー: 既定では、次のグループのメンバーは、RTCUniversalUserAdmins、RTCUniversalServerAdmins のように、ローカルで CsService コマンドレットを実行することを許可されています。 このコマンドレットが割り当てられているすべての役割ベースのアクセス制御 (RBAC) ロールのリストを返すには (自分自身で作成したカスタム RBAC ロールを含む)、Windows PowerShell プロンプトから次のコマンドを実行します。
+このコマンドレットを実行できる人は次のとおりです。 既定では、次のグループのメンバーが、Get-CsService コマンドレットのローカル実行を承認されています。RTCUniversalUserAdmins、RTCUniversalServerAdmins。 このコマンドレットが割り当てられているすべての役割ベースのアクセス制御 (RBAC) の役割の一覧 (自身が作成したカスタムの RBAC の役割を含む) を戻すには、Windows PowerShell プロンプトから次のコマンドを実行します。
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Get-CsService"}
 
-CsService は、インフラストラクチャで定義された Web サービスの現在の構成を取得して表示するのに役立ちます。 プールの完全修飾ドメイン名 (FQDN) とパラメーター WebServer を定義することによって、サーバーによって提供される web ベースのサービス (アドレス帳ハンドラー、配布リスト展開の Uri など) が返されます。
+Get-help Service は、インフラストラクチャで定義されている Web サービスの現在の構成を取得して表示するのに役立ちます。 このコマンドレットは、プールの完全修飾ドメイン名 (FQDN) および WebServer パラメーターを定義することで、アドレス帳のハンドラーおよび配布リストの拡張 URI など、サーバーが提供する Web ベースのサービスを戻します。
 
-次に例を示します。
+次にその例を示します。
 
     Get-CsService -PoolFqdn "fe01.contoso.net" -WebServer
 
-このコマンドレットは、次の値を返します。
+このコマンドレットは、次の情報を返します。
 
-Identity: WebServer: pool01. net.tcp
+Identity: WebServer/pool01. .net
 
-FileStore: FileStore: dc01. net
+ファイルストア: ファイルストア: dc01. .net
 
-UserServer: UserServer: pool01. net
+UserServer: UserServer: pool01. .net
 
 PrimaryHttpPort:80
 
@@ -85,17 +85,17 @@ Abハンドラ Internaluri:https://internalweb.contoso.net/abs/handler
 
 Abハンドラ Externaluri:https://csweb.contoso.com/abs/handler
 
-Dlのお持ちの Uri:https://internalweb.contoso.net/groupexpansion/service.svc
+Dlのこの Uri:https://internalweb.contoso.net/groupexpansion/service.svc
 
-Dlの外部の Uri:https://csweb.contoso.com/groupexpansion/service.svc
+Dlます。 Externaluri:https://csweb.contoso.com/groupexpansion/service.svc
 
 Caハンドラ Internaluri:https://internalweb.contoso.net/CertProv/CertProvisioningService.svc
 
 CAHandlerInternalAnonUri :http://internalweb.contoso.net/CertProv/CertProvisioningService.svc
 
-他のコンテンツ:https://internalweb.contoso.net/CollabContent
+共に、次のようにします。https://internalweb.contoso.net/CollabContent
 
-他のコンテンツ:https://csweb.contoso.com/CollabContent
+共に、外部 Uri:https://csweb.contoso.com/CollabContent
 
 Caハンドラ Externaluri:https://csweb.contoso.com/CertProv/CertProvisioningService.svc
 
@@ -129,11 +129,11 @@ ExternalFqdn: csweb.contoso.com
 
 InternalFqdn: internalweb.contoso.net
 
-DependentServiceList: {レジストラー: pool01. net、ConferencingServer: pool01. net}
+DependentServiceList: {レジストラー: pool01. ConferencingServer: pool01.. .net}
 
-ServiceId: 1-1-1
+ServiceId: 1-1
 
-SiteId: サイト: レドモンド
+SiteId: サイト: Redmond
 
 PoolFqdn: pool01.contoso.net
 
@@ -146,7 +146,7 @@ PoolFqdn: pool01.contoso.net
 ## <a name="see-also"></a>関連項目
 
 
-[Get-CsService](https://docs.microsoft.com/powershell/module/skype/Get-CsService)  
+[取得-CsService](https://docs.microsoft.com/powershell/module/skype/Get-CsService)  
   
 
 </div>

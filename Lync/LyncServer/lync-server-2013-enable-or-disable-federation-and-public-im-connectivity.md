@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: フェデレーションおよびパブリック IM 接続の有効化または無効化'
+title: 'Lync Server 2013: フェデレーションとパブリック IM 接続の有効化または無効化'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184813
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: edbf03ee2e2772e6df1425ffd666176c1947f0e4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9281b4dab225ddb336dbc74a5d2892f0f4a015d5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736067"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040205"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enable-or-disable-federation-and-public-im-connectivity-in-lync-server-2013"></a>Lync Server 2013 でのフェデレーションおよびパブリック IM 接続の有効化または無効化
+# <a name="enable-or-disable-federation-and-public-im-connectivity-in-lync-server-2013"></a>Lync Server 2013 でフェデレーションとパブリック IM 接続を有効または無効にする
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41736067"
 
 <span> </span>
 
-_**最終更新日:** 2013-06-24_
+_**トピックの最終更新日:** 2013-06-24_
 
-フェデレーションのサポートは、信頼された顧客またはパートナー組織のアカウントを持っているユーザー (パートナーのドメインや、サポートしているパブリックインスタントメッセージング (IM) プロバイダーのユーザーを含む) を有効にして、ユーザーとの共同作業を行うことができるようにする必要があります。組織. また、ホストされている exchange サービスプロバイダーを使用して、メールボックスが Microsoft Exchange Online などのホスティングされた Exchange サービス上にあるエンタープライズボイスユーザーに、ボイスメールを提供する必要があります。 これらの外部ドメインとの信頼関係を確立したら、これらのドメインのユーザーに対して、展開にアクセスして Lync Server の通信に参加することを許可することができます。 この信頼関係はフェデレーションと呼ばれており、Active Directory の信頼関係に関連していない、または依存していません。
+フェデレーションのサポートを有効にするには、パートナードメインや、サポートしているパブリックインスタントメッセージング (IM) プロバイダユーザーのパートナードメインやユーザーを含む、信頼できる顧客またはパートナーの組織のアカウントを持つユーザーを有効にする必要があります。機関. また、ホストされている exchange サービスプロバイダーを使用して、Microsoft Exchange Online などのホストされた Exchange サービスにメールボックスがある場合には、フェデレーションを使用して、エンタープライズ Voip ユーザーにボイスメールを提供する必要があります。 これらの外部ドメインとの信頼関係を確立したら、それらのドメイン内のユーザーによる展開へのアクセスと Lync Server の通信への参加を承認することができます。 この信頼関係は、フェデレーションと呼ばれ、Active Directory の信頼関係に関連していないか、またはそれに依存していません。
 
-フェデレーションドメインのユーザーによるアクセスをサポートするには、フェデレーションを有効にする必要があります。 組織のフェデレーションを有効にする場合は、次のオプションを実装するかどうかも指定する必要があります。
+フェデレーション ドメインのユーザーによるアクセスをサポートするには、フェデレーションを有効にする必要があります。 組織に対してフェデレーションを有効にする場合、次のオプションを実装するかどうかも指定する必要があります。
 
-  - **パートナードメインの検出**   を有効にするこのオプションを有効にした場合、Lync Server はドメインネームシステム (DNS) レコードを使って、[許可したドメイン] 一覧にないドメインを検出し、検出されたフェデレーションパートナーから受信トラフィックを自動的に評価し、信頼レベル、トラフィック量、管理設定に基づいてトラフィックを制限またはブロックします このオプションが選択されていない場合、フェデレーションされたユーザーのアクセス許可は、[許可したドメイン] リストに含めるドメイン内のユーザーに対してのみ有効になります。 このオプションが選択されているかどうかにかかわらず、フェデレーションドメインでアクセスエッジサービスを実行している特定のサーバーへのアクセスを制限するなど、個々のドメインをブロックまたは許可するように指定することができます。 フェデレーションドメインによるアクセスの制御の詳細については、「 [Lync Server 2013 で許可されている外部ドメインのサポートを構成する](lync-server-2013-configure-support-for-allowed-external-domains.md)」を参照してください。
+  - **[パートナードメインの検出**   を有効にする] このオプションを有効にすると、Lync Server はドメインネームシステム (DNS) レコードを使用して、[許可されたドメイン] リストに一覧表示されていないドメインの検出を試行し、検出されたフェデレーションパートナーからの受信トラフィックを自動的に評価し、トラフィックの量、トラフィック、および管理 このオプションを無効にすると、フェデレーション ユーザーは、許可済みのドメイン一覧に含めたドメインのユーザーにしか、アクセスできません。 このオプションの有効、無効にかかわらず、フェデレーション ドメイン内のアクセス エッジ サービスを実行する特定のサーバーへのアクセスを制限するなど、個々のドメインを禁止するか許可するかを指定できます。 フェデレーションドメインによるアクセス制御の詳細については、「 [Configure support for allowed external domains In Lync Server 2013](lync-server-2013-configure-support-for-allowed-external-domains.md)」を参照してください。
 
-  - **フェデレーションパートナー**    にアーカイブの免責事項を送信する免責事項は、展開にアーカイブすることが適切に行われるフェデレーションパートナーに送信されます。 フェデレーションパートナードメインとの外部通信のアーカイブをサポートしている場合は、アーカイブの免責事項の通知を有効にして、メッセージがアーカイブされていることをパートナーに警告する必要があります。
+  - **アーカイブに関する免責事項をフェデレーションパートナー**    に送信する免責事項は、展開でのアーカイブが実施されていることを示す、フェデレーションパートナーに送信されます。 フェデレーションパートナードメインとの外部通信のアーカイブをサポートする場合は、アーカイブについての免責事項の通知を有効にして、メッセージがアーカイブされることをパートナーに警告する必要があります。
 
-後でフェデレーションドメインのユーザーによるアクセスを一時的または完全に禁止する場合は、組織のフェデレーションを無効にできます。 このセクションの手順を使用して、組織のフェデレーションされたユーザーアクセスを有効または無効にします。組織でサポートする必要のあるフェデレーションオプションを指定するなどの操作を行います。
+後でフェデレーション ドメイン ユーザーからのアクセスを一時的または永久に禁止する場合は、組織に対するフェデレーションを無効にできます。組織でサポートする適切なフェデレーション オプションを指定するなど、組織に対するフェデレーション ユーザーのアクセスを有効または無効にするには、このセクションの手順を使用します。
 
 <div>
 
 
 > [!NOTE]  
-> 組織でフェデレーションを有効にすると、アクセスエッジサービスを実行しているサーバーでフェデレーションドメインへのルーティングがサポートされるようになります。 フェデレーションドメイン内のユーザーは、フェデレーションされたユーザーアクセスをサポートするために少なくとも1つのポリシーを構成するまで、組織内の IM または会議に参加することはできません。 パブリック IM サービスプロバイダーのユーザーは、パブリック IM 接続をサポートするように少なくとも1つのポリシーを構成するまで、組織内の IM または会議に参加することはできません。 ホストされている exchange サービスを使用して、ホストされているボイスメールポリシーを構成するまで、ホストされている Exchange サービスにメールボックスがあるユーザーのために、通話応答、Outlook Voice Access (ボイスメールを含む)、自動応答サービスを提供することはできません。ルーティング情報を提供します。 他の組織のフェデレーションドメインのユーザーと通信するためのポリシーを構成する方法について詳しくは、「運用ドキュメントの「 <A href="lync-server-2013-manage-sip-federated-domains-for-your-organization.md">Lync Server 2013 で組織の SIP フェデレーションドメインを管理</A>する」をご覧ください。 さらに、IM サービスプロバイダーのユーザーとの通信をサポートする必要がある場合は、それをサポートするようにポリシーを構成し、サポートする個々のサービスプロバイダーのサポートも構成する必要があります。 詳細については、操作のドキュメントの「 <A href="lync-server-2013-manage-sip-federated-providers-for-your-organization.md">Lync Server 2013 で組織の SIP フェデレーションプロバイダーを管理</A>する」を参照してください。 ホスト型ボイスメールのポリシーを作成する方法の詳細については、展開ドキュメントの「 <A href="lync-server-2013-manage-hosted-voice-mail-policies.md">Lync Server 2013 でホストされているボイスメールポリシーを管理</A>する」を参照してください。
+> 組織に対してフェデレーションを有効にしても、アクセス エッジ サービスを実行するサーバーで、フェデレーション ドメイン宛てのルーティングをサポートすることを指定するだけです。 フェデレーション ユーザー アクセスをサポートするポリシーを少なくとも 1 つ構成するまでは、フェデレーション ドメインのユーザーは、組織の会議や IM に参加できません。 パブリック IM 接続をサポートするポリシーを少なくとも 1 つ構成するまでは、パブリック IM サービス プロバイダーのユーザーも、組織の会議や IM に参加できません。 ルーティング情報を提供するホスト ボイス メール ポリシーを構成するまでは、Lync サーバーは、Hosted Exchange サービスを使用して、Hosted Exchange サービスにあるメールボックスを使用するユーザーに対して、通話応答、Outlook Voice Access (ボイス メールを含む)、および自動応答サービスを提供できません。 他の組織のフェデレーションドメインのユーザーと通信するためのポリシーの構成の詳細については、「操作」のドキュメントの「 <A href="lync-server-2013-manage-sip-federated-domains-for-your-organization.md">MANAGE SIP フェデレーションドメイン for Your Lync Server 2013</A> 」を参照してください。 さらに、IM サービス プロバイダーのユーザーとの通信をサポートする場合は、これをサポートするポリシーを構成し、サポートする個々のサービス プロバイダーのサポートも構成する必要があります。 詳細については、「操作」のドキュメントの「 <A href="lync-server-2013-manage-sip-federated-providers-for-your-organization.md">Lync Server 2013 での組織の SIP フェデレーションプロバイダーの管理</A>」を参照してください。 ホストボイスメールポリシーの作成の詳細については、「展開」のドキュメントの「 <A href="lync-server-2013-manage-hosted-voice-mail-policies.md">Manage hosted voice mail policies In Lync Server 2013</A> 」を参照してください。
 
 
 
@@ -59,45 +59,45 @@ _**最終更新日:** 2013-06-24_
 
 <div>
 
-## <a name="to-enable-or-disable-federated-user-access-for-your-organization"></a>組織のフェデレーションされたユーザーアクセスを有効または無効にするには
+## <a name="to-enable-or-disable-federated-user-access-for-your-organization"></a>組織に対するフェデレーション ユーザー アクセスを有効または無効にするには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
-3.  左側のナビゲーションバーで、[**外部ユーザーアクセス**] をクリックし、[**アクセスエッジ構成**] をクリックします。
+3.  左側のナビゲーション バーで [**外部ユーザー アクセス**] をクリックし、[**アクセス エッジ構成**] をクリックします。
 
-4.  [**アクセスエッジの構成**] ページで [**グローバル**] をクリックし、[**編集**] をクリックして、[**詳細の表示**] をクリックします。
+4.  [**アクセス エッジ構成**] ページで、[**グローバル**]、[**編集**]、[**詳細の表示**] の順にクリックします。
 
-5.  [ **Access Edge 構成の編集**] で、次のいずれかの操作を行います。
+5.  [**アクセス エッジ構成の編集**] で、次のどちらかの操作を行います。
     
-      - 組織のフェデレーションされたユーザーアクセスを有効にするには、[**フェデレーションユーザーとの通信を有効**にする] チェックボックスをオンにします。
+      - 組織に対してフェデレーション ユーザー アクセスを有効にするには、[**フェデレーション ユーザーとの通信を有効にする**] チェック ボックスをオンにします。
     
-      - 組織のフェデレーションされたユーザーアクセスを無効にするには、[フェデレーションされ**たユーザーとの通信を有効**にする] チェックボックスをオフにします。
+      - 組織に対してフェデレーション ユーザー アクセスを無効にするには、[**フェデレーション ユーザーとの通信を有効にする**] チェック ボックスをオフにします。
 
-6.  [**フェデレーションユーザーとの通信を有効に**する] チェックボックスをオンにした場合は、次の操作を行います。
+6.  [**フェデレーション ユーザーとの通信を有効にする**] チェック ボックスをオンにした場合は、次を実行します。
     
-    1.  パートナードメインの自動検出をサポートするには、[**パートナードメイン探索を有効に**する] チェックボックスをオンにします。
+    1.  パートナー ドメインの自動検出をサポートする場合は、[**パートナー ドメインの検出を有効にする**] チェック ボックスをオンにします。
     
-    2.  組織で外部通信のアーカイブがサポートされている場合は、[**フェデレーションパートナーにアーカイブの免責事項を送信する**] チェックボックスをオンにします。
+    2.  組織で外部通信のアーカイブをサポートする場合は、[**フェデレーション パートナーにアーカイブについての免責事項を送信する**] チェック ボックスをオンにします。
 
-7.  [**コミット**] をクリックします。
+7.  [**確定**] をクリックします。
 
-フェデレーションされたユーザーが Lync Server 2013 の展開でユーザーと共同作業できるようにするには、フェデレーションされたユーザーアクセスをサポートするために、少なくとも1つの外部アクセスポリシーを構成する必要があります。 詳細については、「展開ドキュメントまたは運用ドキュメントの「 [Lync Server 2013 でフェデレーションされたユーザーアクセスを制御するためのポリシーを構成する](lync-server-2013-configure-policies-to-control-federated-user-access.md)」を参照してください。 特定のフェデレーションドメインへのアクセスを制御するには、展開ドキュメントまたは操作のドキュメントの「 [Lync Server 2013 で許可されている外部ドメインのサポートを構成](lync-server-2013-configure-support-for-allowed-external-domains.md)する」を参照してください。
+フェデレーションユーザーが Lync Server 2013 展開内のユーザーと共同作業できるようにするには、フェデレーションユーザーアクセスをサポートするために少なくとも1つの外部アクセスポリシーを構成する必要があります。 詳細については、「展開」のドキュメントまたは「操作」のドキュメントの「 [Configure policies to control For Lync Server 2013」](lync-server-2013-configure-policies-to-control-federated-user-access.md)を参照してください。 特定のフェデレーションドメインのアクセスを制御するには、「展開」のドキュメントまたは「操作」のドキュメントの「 [Configure support for allowed external domains In Lync Server 2013](lync-server-2013-configure-support-for-allowed-external-domains.md) 」を参照してください。
 
 </div>
 
 <div>
 
-## <a name="enabling-or-disabling-federation-and-public-im-connectivity-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用してフェデレーションおよびパブリック IM 接続を有効または無効にする
+## <a name="enabling-or-disabling-federation-and-public-im-connectivity-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用してフェデレーションとパブリック IM 接続を有効または無効にする
 
-フェデレーションとパブリック IM 接続は、Windows PowerShell と CsAccessEdgeConfiguration コマンドレットを使用して管理することもできます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
+フェデレーションとパブリック IM 接続は、Windows PowerShell と Set-csaccessedgeconfiguration コマンドレットを使用して管理することもできます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 <div>
 
 ## <a name="to-enable-federation-and-public-im-connectivity"></a>フェデレーションとパブリック IM 接続を有効にするには
 
-  - フェデレーションとパブリック IM 接続を有効にするには、 **AllowFederatedUsers**プロパティの値を True ($True) に設定します。
+  - フェデレーションとパブリック IM 接続を有効にするには、**AllowFederatedUsers** プロパティの値を True ($True) に設定します。
     
         Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 
@@ -107,7 +107,7 @@ _**最終更新日:** 2013-06-24_
 
 ## <a name="to-disable-federation-and-public-im-connectivity"></a>フェデレーションとパブリック IM 接続を無効にするには
 
-  - フェデレーションとパブリック IM 接続を無効にするには、 **AllowFederatedUsers**プロパティの値を False ($False) に設定します。
+  - フェデレーションとパブリック IM 接続を無効にするには、**AllowFederatedUsers** プロパティの値を False ($False) に設定します。
     
         Set-CsAccessEdgeConfiguration -AllowFederatedUsers $False
 

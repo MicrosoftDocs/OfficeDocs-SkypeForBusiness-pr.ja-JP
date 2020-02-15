@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Lync Server の Windows 更新プログラム'
+title: 'Lync Server 2013: Lync Server の Windows Update'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 62625495
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 57949b051468241e18d8a121e9d79bc1fdb378f7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e70ac17e27508a7922d8353e6142b3b5f05b34e9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727397"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041146"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="windows-update-for-lync-server-2013"></a>Lync Server 2013 の Windows 更新プログラム
+# <a name="windows-update-for-lync-server-2013"></a>Lync Server 2013 の Windows Update
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41727397"
 
 <span> </span>
 
-_**最終更新日:** 2013-12-05_
+_**トピックの最終更新日:** 2013-12-05_
 
-Windows Update Services を使用して、更新プログラムとセキュリティ更新プログラムを頻繁に確認して適用します。 こうすることによって、攻撃者が Microsoft Lync Server 2013 を実行しているサーバーへのアクセス権を管理者権限で実行し、Lync Server 2013 に悪影響を与える可能性のあるその他のシステムコンポーネントの脆弱性を防ぐことができます。
+Windows Update サービスを使用して、更新プログラムおよびセキュリティ更新プログラムの確認と適用を頻繁に行ってください。 これにより、管理者権限を持つ Microsoft Lync Server 2013 を実行しているサーバーにアクセスでき、Lync Server 2013 を侵害する可能性がある他のシステムコンポーネントの脆弱性を防ぐことができます。
 
-Microsoft SQL Server 2008 Express (64 ビット版) の更新プログラムは、各 Lync Server 2013 Standard Edition server (バックエンドデータベース用) とその他のすべての Lync Server 2013 server (ローカル構成ストア用) で実行されます。SQL Server 2008 R2 Express のデータベース。 フロントエンドプールのバックエンドデータベース、監視データベース、アーカイブデータベースの SQL Server は、定期的なセキュリティ更新プログラムの保守の一部として考慮する必要があります。
+Microsoft SQL Server 2008 Express (64 ビット版) の更新プログラムは、各 Lync Server 2013 Standard Edition サーバー (バックエンドデータベースの場合) とその他のすべての Lync Server 2013 サーバーロール (ローカル構成ストアの場合) のいずれかをアップグレードしていない限り、実行されます。データベースを SQL Server 2008 R2 Express に。 このようなデータベースは、フロントエンドプールのバックエンドデータベース、監視データベース、およびアーカイブデータベースに SQL Server が必要となるように、定期的なセキュリティ更新プログラムの保守の一部として考慮する必要があります。
 
 <div>
 
-## <a name="best-practice"></a>ベストプラクティス
+## <a name="best-practice"></a>ベスト プラクティス
 
-  - Windows Update で現在の状態を維持します。
+  - Windows Update を使用して、コンピューターを常に最新の状態に保ちます。
 
 </div>
 
