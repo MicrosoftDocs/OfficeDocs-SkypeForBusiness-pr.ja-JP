@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Exchange Server との統合の計画'
+title: 'Lync Server 2013: Exchange Server 統合の計画'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733693
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1ebfc5543e7708b4c88bce458ae8a0a20b3ac593
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 631e80d9de61e2304cd8ec65bb144aa3e0e3e7fb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725427"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036859"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-exchange-server-integration-with-lync-server-2013"></a>Exchange Server と Lync Server 2013 の統合計画
+# <a name="planning-for-exchange-server-integration-with-lync-server-2013"></a>Exchange Server と Lync Server の統合の計画2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41725427"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-20_
+_**トピックの最終更新日:** 2012-09-20_
 
-組織に Exchange と Lync の両方のサーバーを展開すると、両方の製品の多くの機能が拡張されます。 このセクションには、これらの機能に関する情報が含まれています。
+組織に Exchange サーバーと Lync Server の両方を展開すると、両方の製品の多くの機能が強化されます。 ここでは、このような機能について説明します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Microsoft Lync Server 2013 と Microsoft Exchange Server 2013 の統合](lync-server-2013-integrating-with-microsoft-exchange-server-2013.md)
+  - [Microsoft Lync Server 2013 および Microsoft Exchange Server 2013 の統合](lync-server-2013-integrating-with-microsoft-exchange-server-2013.md)
 
-  - [Lync Server 2013 での Exchange ユニファイド メッセージング統合の計画](lync-server-2013-planning-for-exchange-unified-messaging-integration.md)
+  - [Lync Server 2013 での Exchange ユニファイドメッセージング統合の計画](lync-server-2013-planning-for-exchange-unified-messaging-integration.md)
 
-  - [Lync Server 2013 の Hosted Exchange ユニファイド メッセージング統合](lync-server-2013-hosted-exchange-unified-messaging-integration.md)
+  - [Lync Server 2013 でのホスト型 Exchange ユニファイドメッセージングの統合](lync-server-2013-hosted-exchange-unified-messaging-integration.md)
 
 </div>
 

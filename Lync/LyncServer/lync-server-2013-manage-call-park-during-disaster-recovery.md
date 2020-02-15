@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 障害復旧時のコール パークの管理'
+title: 'Lync Server 2013: 障害復旧時のコールパークの管理'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733645
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f324064e2936bda7b5e015aa502aaca10407e591
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 727751762fc63d9e4f888b20dabd62fef0278ea6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733417"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007806"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="manage-call-park-during-disaster-recovery-in-lync-server-2013"></a>Lync Server 2013 での障害復旧時のコール パークの管理
+# <a name="manage-call-park-during-disaster-recovery-in-lync-server-2013"></a>Lync Server 2013 での障害復旧時のコールパークの管理
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41733417"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-10_
+_**トピックの最終更新日:** 2012-09-10_
 
-Lync Server 2013 は、障害回復中のバックアッププールでのコールパークをサポートしています。 このセクションでは、停止中にコールパークをサポートし、停止の段階での保留中の通話の動作について説明します。
+Lync Server 2013 は、障害復旧時にバックアッププールのコールパークをサポートします。 このセクションでは、停止中にコールパークをサポートする必要がある場合、および停止の段階で保留された通話について、考慮すべき事項について説明します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 でのコール パーク障害復旧の計画](lync-server-2013-planning-for-call-park-disaster-recovery.md)
+  - [Lync Server 2013 でのコールパーク障害復旧の計画](lync-server-2013-planning-for-call-park-disaster-recovery.md)
 
-  - [プール障害時の Lync Server 2013 のコール パーク エクスペリエンス](lync-server-2013-call-park-experience-during-pool-failure.md)
+  - [プール障害発生時の Lync Server 2013 でのコールパークの動作](lync-server-2013-call-park-experience-during-pool-failure.md)
 
 </div>
 

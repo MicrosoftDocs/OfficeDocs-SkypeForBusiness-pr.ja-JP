@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Tenants テーブル'
+title: 'Lync Server 2013: テナントテーブル'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185309
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de776adeb8c280c5216b35cc8236a0834c14aa13
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b0d2459c169fb93520125ceef7a8076bd51343db
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746497"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006102"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tenants-table-in-lync-server-2013"></a>Lync Server 2013 の Tenants テーブル
+# <a name="tenants-table-in-lync-server-2013"></a>Lync Server 2013 のテナントテーブル
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41746497"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-28_
+_**トピックの最終更新日:** 2012-09-28_
 
-テナントの表は、さまざまなテナントの一覧を格納するサポートテーブルです。 テーブル内の各レコードは、1つのテナントを表します。
+Tenants テーブルは、各種テナントの一覧を格納しているサポート テーブルです。テーブル内の各レコードが 1 つのテナントを表します。
 
 <div>
 
 
 > [!NOTE]  
-> オンプレミスの展開では、CDR はビルトインのテナント ID を使用して、パブリック IM 接続、フェデレーション、匿名など、さまざまな認証の種類を示します。
+> 内部設置型展開では、CDR は組み込みのテナント ID を使用して、パブリック IM 接続、フェデレーション、匿名など、さまざまな認証の種類を示します。
 
 
 
@@ -67,21 +67,21 @@ _**最終更新日:** 2012-09-28_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>テナント</strong></p></td>
+<td><p><strong>TenantId</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>このテナント ID を識別する一意の番号です。</p></td>
+<td><p>このテナント ID を識別する一意の番号。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>TenantKey</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td></td>
-<td><p>許可される値:</p>
+<td><p>有効な値は次のとおりです。</p>
 <ul>
-<li><p>00000000-0000-0000-0000-000000000000 – Enterprise</p></li>
-<li><p>00000000-0000-0000-0000-000000000001 –フェデレーション</p></li>
-<li><p>00000000-0000-0000-0000-000000000002 –匿名</p></li>
-<li><p>00000000-0000-0000-0000-000000000003 –パブリック IM 接続</p></li>
+<li><p>00000000-0000-0000-0000-000000000000 – エンタープライズ</p></li>
+<li><p>00000000-0000-0000-0000-000000000001 – フェデレーション</p></li>
+<li><p>00000000-0000-0000-0000-000000000002 – 匿名</p></li>
+<li><p>00000000-0000-0000-0000-000000000003 – パブリック IM 接続</p></li>
 </ul></td>
 </tr>
 </tbody>

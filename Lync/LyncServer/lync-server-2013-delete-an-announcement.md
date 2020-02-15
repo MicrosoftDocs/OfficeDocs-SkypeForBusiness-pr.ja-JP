@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: お知らせを削除する'
+title: 'Lync Server 2013: アナウンスの削除'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733588
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 91a15057e4785a16e7fc632422573ee02d1d920b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0a7c21a6b44d31514cc9addc800b2ae0812a5ad3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736427"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035973"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="delete-an-announcement-in-lync-server-2013"></a>Lync Server 2013 でお知らせを削除する
+# <a name="delete-an-announcement-in-lync-server-2013"></a>Lync Server 2013 でのアナウンスの削除
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41736427"
 
 <span> </span>
 
-_**最終更新日:** 2012-11-01_
+_**トピックの最終更新日:** 2012-11-01_
 
-次の手順を使用して、割り当てられていない番号への通話に使用されるお知らせを削除します。
+未使用の番号への通話に使用されるアナウンスを削除するには、次の手順を実行します。
 
 <div>
 
 ## <a name="to-delete-an-announcement"></a>アナウンスを削除するには
 
-1.  Lync Server 管理シェルが RTCUniversalServerAdmins グループのメンバーとして、または「 [Lync server 2013 の委任セットアップの権限](lync-server-2013-delegate-setup-permissions.md)」で説明されているように、必要なユーザー権限を持つコンピューターにログオンします。
+1.  Lync Server 管理シェルがインストールされているコンピューターに、RTCUniversalServerAdmins グループのメンバーとして、または「 [Lync server 2013 のセットアップのアクセス許可の委任](lync-server-2013-delegate-setup-permissions.md)」に説明されている必要なユーザー権限を使用してログオンします。
 
-2.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+2.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
 3.  組織のすべてのアナウンスの一覧を取得します。コマンド ラインで次のコマンドを実行します。
     
@@ -55,7 +55,7 @@ _**最終更新日:** 2012-11-01_
     
         Remove-CsAnnouncement -Identity "<Service:service ID/guid>" 
     
-    例:
+    次に例を示します。
     
         Remove-CsAnnouncement -Identity "ApplicationServer:Redmond.contoso.com/1951f734-c80f-4fb2-965d-51807c792b90"
     
@@ -63,7 +63,7 @@ _**最終更新日:** 2012-11-01_
     
 
     > [!NOTE]  
-    > その他のオプションの詳細については、「 <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsAnnouncement">csannouncement</A>と<A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsAnnouncement">Csannouncement の削除</A>」を参照してください。
+    > その他のオプションの詳細については、「 <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsAnnouncement">Get-help アナウンスメント</A>」および「 <A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsAnnouncement">Remove-csannouncement</A>」を参照してください。
 
     
     </div>
@@ -75,11 +75,11 @@ _**最終更新日:** 2012-11-01_
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 でお知らせを作成する](lync-server-2013-create-an-announcement.md)  
+[Lync Server 2013 でアナウンスを作成する](lync-server-2013-create-an-announcement.md)  
 
 
-[CsAnnouncement の削除](https://docs.microsoft.com/powershell/module/skype/Remove-CsAnnouncement)  
-[CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/Get-CsAnnouncement)  
+[削除-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/Remove-CsAnnouncement)  
+[-CsAnnouncement を入手する](https://docs.microsoft.com/powershell/module/skype/Get-CsAnnouncement)  
   
 
 </div>

@@ -12,16 +12,16 @@ ms:contentKeyID: 48183389
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f1021295b375e4f28294ffb1ca5738d651f9ced2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 123535ae3e14669e343c881869304e95ce666040
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734587"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41996182"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41734587"
 
 <span> </span>
 
-_**最終更新日:** 2012-11-01_
+_**トピックの最終更新日:** 2012-11-01_
 
-エンタープライズ Voip の展開の一部として、仲介サーバーと次のピアの1つ以上にトランクを構成して、組織内のエンタープライズボイスクライアントとデバイスの公衆交換電話網 (PSTN) 接続を提供できます。
+エンタープライズ Voip の展開の一部として、仲介サーバーと次の1つ以上のピアの間のトランクを構成して、組織内のエンタープライズ Voip クライアントおよびデバイスの公衆交換電話網 (PSTN) 接続を提供することができます。
 
   - インターネット テレフォニー サービス プロバイダー (ITSP) への SIP トランク接続
 
@@ -45,13 +45,13 @@ _**最終更新日:** 2012-11-01_
 
   - 構内交換機 (PBX)
 
-詳細については、計画ドキュメントの「 [Lync Server 2013 での PSTN 接続の計画](lync-server-2013-planning-for-pstn-connectivity.md)」を参照してください。
+詳細については、「計画」のドキュメントの「 [planning FOR PSTN connectivity In Lync Server 2013](lync-server-2013-planning-for-pstn-connectivity.md) 」を参照してください。
 
 <div>
 
 
 > [!IMPORTANT]  
-> トランクの構成を開始する前に、トポロジが作成され、仲介サーバーとそのピアが構成されて互いに関連付けられていることを確認します。 詳細については、展開ドキュメントの「 <A href="lync-server-2013-define-a-gateway-in-topology-builder.md">Lync Server 2013 でのトポロジビルダーでのゲートウェイの定義</A>」を参照してください。
+> トランク構成を開始する前に、トポロジが既に作成済みであること、および仲介サーバーとそのピアが構成され、互いに関連付けられていることを確認します。 詳細については、「展開」のドキュメントの「 <A href="lync-server-2013-define-a-gateway-in-topology-builder.md">Lync Server 2013 のトポロジビルダーでのゲートウェイの定義</A>」を参照してください。
 
 
 
@@ -61,7 +61,7 @@ _**最終更新日:** 2012-11-01_
 
 
 > [!NOTE]  
-> トランク構成の一部として、Lync Server 2013 メディアバイパス機能を有効にして、メディアが仲介サーバーをバイパスすることを可能にすることができます。 Trunks は、メディアのバイパスを有効にするかどうかを指定して構成できますが、有効にすることを強くお勧めします。 詳細については、計画ドキュメントの「 <A href="lync-server-2013-planning-for-media-bypass.md">Lync Server 2013 でのメディアのバイパスの計画</A>」を参照してください。
+> トランク構成の一環として、Lync Server 2013 media バイパス機能を有効にして、メディアが仲介サーバーをバイパスできるようにすることができます。 トランクは、メディアバイパスを有効にするかどうかにかかわらず構成できますが、有効にすることを強くお勧めします。 詳細については、「計画」のドキュメントの「 <A href="lync-server-2013-planning-for-media-bypass.md">planning for media バイパス In Lync Server 2013</A> 」を参照してください。
 
 
 
@@ -69,27 +69,27 @@ _**最終更新日:** 2012-11-01_
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 での複数のトランクのサポート](lync-server-2013-multiple-trunk-support.md)
+  - [Lync Server 2013 での複数トランクのサポート](lync-server-2013-multiple-trunk-support.md)
 
-  - [Lync Server 2013 のクロストランクルーティング](lync-server-2013-inter-trunk-routing.md)
+  - [Lync Server 2013 でのトランク間ルーティング](lync-server-2013-inter-trunk-routing.md)
 
   - [Lync Server 2013 でのトランク構成情報の表示](lync-server-2013-view-trunk-configuration-information.md)
 
-  - [Configure a trunk with media bypass in Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md)
+  - [Lync Server 2013 でメディアバイパスを使用してトランクを構成する](lync-server-2013-configure-a-trunk-with-media-bypass.md)
 
-  - [Lync Server 2013 でメディアをバイパスせずにトランクを構成する](lync-server-2013-configure-a-trunk-without-media-bypass.md)
+  - [Lync Server 2013 でメディアバイパスを使用せずにトランクを構成する](lync-server-2013-configure-a-trunk-without-media-bypass.md)
 
-  - [Lync Server 2013 で、トランク構成設定の新しいコレクションを作成する](lync-server-2013-create-a-new-collection-of-trunk-configuration-settings.md)
+  - [Lync Server 2013 でのトランク構成設定の新しいコレクションの作成](lync-server-2013-create-a-new-collection-of-trunk-configuration-settings.md)
 
-  - [Lync Server 2013 で既存の SIP トランク構成設定のコレクションを削除する](lync-server-2013-delete-an-existing-collection-of-sip-trunk-configuration-settings.md)
+  - [Lync Server 2013 の SIP トランク構成設定の既存コレクションの削除](lync-server-2013-delete-an-existing-collection-of-sip-trunk-configuration-settings.md)
 
-  - [Lync Server 2013 で SIP トランクの設定を変更する](lync-server-2013-modify-sip-trunk-configuration-settings.md)
+  - [Lync Server 2013 での SIP トランク構成設定の変更](lync-server-2013-modify-sip-trunk-configuration-settings.md)
 
-  - [Lync Server 2013 で SIP トランクの構成設定をテストする](lync-server-2013-test-sip-trunk-configuration-settings.md)
+  - [Lync Server 2013 での SIP トランク構成設定のテスト](lync-server-2013-test-sip-trunk-configuration-settings.md)
 
-  - [Lync Server 2013 で個別の SIP trunks に関する情報を表示する](lync-server-2013-view-information-about-individual-sip-trunks.md)
+  - [Lync Server 2013 の個々の SIP トランクに関する情報を表示する](lync-server-2013-view-information-about-individual-sip-trunks.md)
 
 </div>
 
@@ -98,11 +98,11 @@ _**最終更新日:** 2012-11-01_
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 でのトポロジビルダーでのゲートウェイの定義](lync-server-2013-define-a-gateway-in-topology-builder.md)  
+[Lync Server 2013 のトポロジビルダーでゲートウェイを定義する](lync-server-2013-define-a-gateway-in-topology-builder.md)  
 
 
 [Lync Server 2013 での PSTN 接続の計画](lync-server-2013-planning-for-pstn-connectivity.md)  
-[Lync Server 2013 でのメディア バイパスの計画](lync-server-2013-planning-for-media-bypass.md)  
+[Lync Server 2013 でのメディアバイパスの計画](lync-server-2013-planning-for-media-bypass.md)  
   
 
 </div>

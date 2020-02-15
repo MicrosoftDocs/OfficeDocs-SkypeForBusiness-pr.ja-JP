@@ -12,16 +12,16 @@ ms:contentKeyID: 48185394
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 146c22b77ac6d2681c1844feade86242e1fcd72f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ebddb1e0313d0c47acb4171929d12d352f69c260
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744407"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007606"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41744407"
 
 <span> </span>
 
-_**最終更新日:** 2014-03-25_
+_**トピックの最終更新日:** 2014-03-25_
 
-UserAgentDef テーブルは、ユーザーエージェント識別子をエージェントのわかりやすい名前にマップします。 ユーザーエージェントは、Microsoft Lync Server 2013 に接続するために使用されるソフトウェアクライアントです。
+UserAgentDef テーブルでは、ユーザー エージェントの識別子をエージェントの説明的な名前にマップします。 ユーザーエージェントは、Microsoft Lync Server 2013 に接続するために使用されるソフトウェアクライアントです。
 
 
 <table>
@@ -55,27 +55,27 @@ UserAgentDef テーブルは、ユーザーエージェント識別子をエー�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>MediationServer</p></td>
 <td><p>MediationServer</p></td>
 </tr>
 <tr class="even">
-<td><p>両面</p></td>
+<td><p>2 </p></td>
 <td><p>AV-MCU</p></td>
 <td><p>AV-MCU</p></td>
 </tr>
 <tr class="odd">
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>OC</p></td>
 <td><p>OC</p></td>
 </tr>
 <tr class="even">
-<td><p>個</p></td>
+<td><p>8 </p></td>
 <td><p>OCPhone</p></td>
 <td><p>OCPhone</p></td>
 </tr>
 <tr class="odd">
-<td><p>16</p></td>
+<td><p>16 </p></td>
 <td><p>LMC</p></td>
 <td><p>LMC</p></td>
 </tr>
@@ -86,53 +86,53 @@ UserAgentDef テーブルは、ユーザーエージェント識別子をエー�
 </tr>
 <tr class="odd">
 <td><p>64</p></td>
-<td><p>TU</p></td>
-<td><p>TU</p></td>
+<td><p>MM</p></td>
+<td><p>MM</p></td>
 </tr>
 <tr class="even">
 <td><p>64</p></td>
 <td><p>MC</p></td>
-<td><p>TU</p></td>
+<td><p>MM</p></td>
 </tr>
 <tr class="odd">
 <td><p>128</p></td>
-<td><p>Attendant</p></td>
-<td><p>Attendant</p></td>
+<td><p>Um</p></td>
+<td><p>Um</p></td>
 </tr>
 <tr class="even">
 <td><p>256</p></td>
 <td><p>Conferencing_Announcement_Service_1 0</p></td>
-<td><p>CAS</p></td>
+<td><p>CA</p></td>
 </tr>
 <tr class="odd">
 <td><p>512</p></td>
 <td><p>Conferencing_Attendant_1 0</p></td>
-<td><p>CAA を</p></td>
+<td><p>CAA</p></td>
 </tr>
 <tr class="even">
 <td><p>512</p></td>
 <td><p>Conference_Auto_Attendant_1 0</p></td>
-<td><p>CAA を</p></td>
+<td><p>CAA</p></td>
 </tr>
 <tr class="odd">
 <td><p>1024</p></td>
 <td><p>Response_Group_Service</p></td>
-<td><p>RGS</p></td>
+<td><p>RG</p></td>
 </tr>
 <tr class="even">
 <td><p>1032</p></td>
 <td><p>Call_Park_Service_1 0</p></td>
-<td><p>RESERVED</p></td>
+<td><p>CPS</p></td>
 </tr>
 <tr class="odd">
 <td><p>1040</p></td>
 <td><p>Response_Group_Service Announcement_Service</p></td>
-<td><p>も</p></td>
+<td><p>AS</p></td>
 </tr>
 <tr class="even">
 <td><p>2048</p></td>
-<td><p>Microsoft Rtc. アプリケーションの Ccs</p></td>
-<td><p>CCS</p></td>
+<td><p>Microsoft では、アプリケーション</p></td>
+<td><p>CC</p></td>
 </tr>
 <tr class="odd">
 <td><p>16386</p></td>
@@ -141,8 +141,8 @@ UserAgentDef テーブルは、ユーザーエージェント識別子をエー�
 </tr>
 <tr class="even">
 <td><p>16387</p></td>
-<td><p>CWA</p></td>
-<td><p>CWA</p></td>
+<td><p>NM-CWA-NO-VERSION</p></td>
+<td><p>NM-CWA-NO-VERSION</p></td>
 </tr>
 <tr class="odd">
 <td><p>16388</p></td>
@@ -162,12 +162,12 @@ UserAgentDef テーブルは、ユーザーエージェント識別子をエー�
 <tr class="even">
 <td><p>16395</p></td>
 <td><p>ArchivingAgent</p></td>
-<td><p>ARCH AGENT</p></td>
+<td><p>アーキテクチャエージェント</p></td>
 </tr>
 <tr class="odd">
 <td><p>16396</p></td>
-<td><p>短期</p></td>
-<td><p>短期</p></td>
+<td><p>停止</p></td>
+<td><p>停止</p></td>
 </tr>
 <tr class="even">
 <td><p>16397</p></td>
@@ -206,8 +206,8 @@ UserAgentDef テーブルは、ユーザーエージェント識別子をエー�
 </tr>
 <tr class="odd">
 <td><p>16404</p></td>
-<td><p>SKYDRIVE</p></td>
-<td><p>SKYDRIVE</p></td>
+<td><p>CPC</p></td>
+<td><p>CPC</p></td>
 </tr>
 <tr class="even">
 <td><p>16405</p></td>
@@ -216,13 +216,13 @@ UserAgentDef テーブルは、ユーザーエージェント識別子をエー�
 </tr>
 <tr class="odd">
 <td><p>16406</p></td>
-<td><p>OUTLOOK</p></td>
-<td><p>OUTLOOK</p></td>
+<td><p>OWA</p></td>
+<td><p>OWA</p></td>
 </tr>
 <tr class="even">
 <td><p>16407</p></td>
-<td><p>AOC</p></td>
-<td><p>AOC</p></td>
+<td><p>の「c」</p></td>
+<td><p>の「c」</p></td>
 </tr>
 <tr class="odd">
 <td><p>16408</p></td>

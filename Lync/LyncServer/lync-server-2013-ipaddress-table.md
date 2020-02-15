@@ -12,16 +12,16 @@ ms:contentKeyID: 48184771
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6344319fbdf581a5e51a1f61e141833910e9e29f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 31e99e05013d823d5a3a1c1ce1eef6ccc47cfb59
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733467"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035069"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41733467"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-17_
+_**トピックの最終更新日:** 2012-10-17_
 
-IPAddress テーブルは、パフォーマンスの高いデータベースの別の場所で使用されている一意の IP アドレス識別子に IP アドレスをマッピングします。 この表は、Microsoft Lync Server 2013 で導入されました。
+IPAddress テーブルは、IP アドレスを体感品質データベースの他の場所で使用される一意の IP アドレス識別子にマップします。 この表は、Microsoft Lync Server 2013 で導入されました。
 
 
 <table>
@@ -64,9 +64,9 @@ IPAddress テーブルは、パフォーマンスの高いデータベースの�
 </tr>
 <tr class="even">
 <td><p><strong>IPAddress</strong></p></td>
-<td><p>varchar(50)</p></td>
+<td><p>varchar (50)</p></td>
 <td><p>一意</p></td>
-<td><p>IpAddressKey にマップされる固有の IP アドレス (たとえば、189.168.1.1)。 これは IPv4 または IPv6 アドレスのいずれかになります。</p></td>
+<td><p>IpAddressKey にマップされる一意の IP アドレス (189.168.1.1 など)。これは IPv4 または IPv6 アドレスです。</p></td>
 </tr>
 </tbody>
 </table>

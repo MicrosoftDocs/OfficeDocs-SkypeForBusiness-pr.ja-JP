@@ -1,5 +1,5 @@
 ---
-title: 併置した仲介サーバーをスタンドアロンの仲介サーバーに移行する (オプション)
+title: 併置された仲介サーバーをスタンドアロンの仲介サーバーに移行する (オプション)
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184602
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2c6a76bceb935900521859911ce5398ae2213e22
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6fe982dca1c1cfda341bd3226b57e7793a948fb7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738667"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035563"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="transition-a-collocated-mediation-server-to-a-stand-alone-mediation-server-optional"></a>併置した仲介サーバーをスタンドアロンの仲介サーバーに移行する (オプション)
+# <a name="transition-a-collocated-mediation-server-to-a-stand-alone-mediation-server-optional"></a>併置された仲介サーバーをスタンドアロンの仲介サーバーに移行する (オプション)
 
 </div>
 
@@ -35,45 +35,45 @@ ms.locfileid: "41738667"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-19_
+_**トピックの最終更新日:** 2012-10-19_
 
-次の手順を使用して、標準エディションサーバーまたはフロントエンドプールに配置された仲介サーバーを、単一サイト展開用のスタンドアロンの仲介サーバーに移行します。
+次の手順を使用して、Standard Edition サーバーまたはフロントエンド プールに併置された仲介サーバーを単一サイト展開用のスタンドアロン仲介サーバーへ移行します。
 
 <div>
 
-## <a name="to-transition-a-collocated-mediation-server-to-a-stand-alone-mediation-server"></a>併置している仲介サーバーをスタンドアロンの仲介サーバーに移行するには
+## <a name="to-transition-a-collocated-mediation-server-to-a-stand-alone-mediation-server"></a>併置された仲介サーバーをスタンドアロンの仲介サーバーに移行するには
 
-1.  トポロジビルダーから既存のトポロジを開きます。
+1.  トポロジ ビルダーで既存のトポロジを開きます。
 
 2.  左側のウィンドウで、[**仲介プール**] に移動します。
 
 3.  [**仲介プール**] を右クリックし、[**新しい仲介サーバー**] を選択します。
 
-4.  [**新しい仲介プールの定義**] ページで、新しい仲介サーバープールの FQDN を指定します。 また、このプールを単一サーバープールにするか、複数サーバープールにするかを選択し、[**次へ**] をクリックします。
+4.  [**新しい仲介プールの定義**] ページで、新しい仲介サーバー プールの FQDN を提供します。さらに、このプールを単一サーバー プールまたは複数サーバー プールとするかを選択し、[**次へ**] をクリックします。
 
-5.  新しい仲介サーバーが着信通話をルーティングする次ホップのフロントエンドサーバープールを選択し、[**次へ**] をクリックします。
+5.  新しい仲介サーバーによる着信通話のルーティング先となる次ホップ フロントエンド サーバー プールを選択し、[**次へ**] をクリックします。
 
-6.  仲介サーバーで使用するエッジプールを選択し、[**次へ**] をクリックします。
+6.  仲介サーバーで使用されるエッジ プールを選択し、[**次へ**] をクリックします。
 
-7.  [ **Pstn ゲートウェイの指定**] ページで、前の pstn ゲートウェイを仲介サーバーに関連付けます。 ゲートウェイを選択し、[**追加**] をクリックします。
+7.  [**PSTN ゲートウェイの指定**] ページで、以前の PSTN ゲートウェイを仲介サーバーと関連付けます。ゲートウェイを選択し、[**追加**] をクリックします。
 
-8.  [**完了**] をクリックして、[**新しい仲介プールの定義**] ウィザードを閉じます。
+8.  [**完了**] をクリックして、**新しい仲介プールの定義**ウィザードを閉じます。
 
-9.  [**トポロジビルダー**] で、トップノードの**Lync Server 2013**を選びます。
+9.  [**トポロジビルダー**] で、最上位ノードの [ **Lync Server 2013**] を選択します。
 
-10. [**操作**] ウィンドウで、[**発行トポロジ**] を選択し、ウィザードを完了します。
+10. [**操作**] ウィンドウで、[**トポロジの公開**] を選択してウィザードを完了します。
 
-11. 展開ドキュメントの[Lync server 2013 で、「仲介サーバー用のファイルをインストール](lync-server-2013-install-the-files-for-mediation-server.md)する」の手順に従って、新しい仲介サーバーにファイルをインストールします。
+11. 「展開」のドキュメントの「 [install The 仲介 server For Lync server 2013](lync-server-2013-install-the-files-for-mediation-server.md) 」の手順に従って、新しい仲介サーバーにファイルをインストールします。
 
-12. ファイルが仲介サーバーにインストールされたら、[トポロジビルダー] に戻り、左側のウィンドウでプールに移動します。
+12. 仲介サーバーにファイルをインストールした後、トポロジ ビルダーに戻り、左側のウィンドウでプールに移動します。
 
-13. プールを右クリックして、[**プロパティの編集**] を選択します。
+13. プールを右クリックし、[**プロパティの編集**] を選択します。
 
-14. [**仲介サーバー**] で、[併置された**仲介サーバーを有効に**する] チェックボックスをオフにして、[ **OK]** をクリックします。
+14. [**仲介サーバー**] で、[**併置された仲介サーバーが有効**] チェック ボックスをオフにし、[**OK**] をクリックします。
 
-15. [**トポロジビルダー**] で、トップノードの**Lync Server 2013**を選びます。
+15. [**トポロジビルダー**] で、最上位ノードの [ **Lync Server 2013**] を選択します。
 
-16. [**アクション**] メニューで、[**トポロジの公開**] を選択し、ウィザードを完了します。
+16. [**操作**] メニューで、[**トポロジの公開**] を選択してウィザードを完了します。
 
 </div>
 

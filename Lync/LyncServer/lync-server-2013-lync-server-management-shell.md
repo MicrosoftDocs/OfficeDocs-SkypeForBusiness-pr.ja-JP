@@ -12,16 +12,16 @@ ms:contentKeyID: 48184386
 ms.date: 09/20/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d519b647eae4937af10a38673803484a253baef7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8d8ba2330e59d4f352407d94c6e73f96a5fff816
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742187"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006163"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,46 +35,46 @@ ms.locfileid: "41742187"
 
 <span> </span>
 
-_**最終更新日:** 2017-09-20_
+_**トピックの最終更新日:** 2017-09-20_
 
 <div>
 
 
 > [!NOTE]  
-> Skype for Business コマンドレットリファレンスは docs.microsoft.com に移動されました。 以下のリンクをクリックすると、新しい docs.microsoft.com ページに移動します。 これでコンテンツが公開され、GitHub を通じてコミュニティの投稿に使用できるようになりました。 投稿に興味をお持ちですか? ここでは、リポジトリ内の README を確認します。<A href="https://github.com/microsoftdocs/office-docs-powershell">https://github.com/MicrosoftDocs/office-docs-powershell</A>
+> Skype for Business のコマンドレットリファレンスが docs.microsoft.com に移動されました。 以下のリンクをクリックすると、新しい docs.microsoft.com ページに移動します。 これで、GitHub を通じてコミュニティの投稿に使用できるようになるコンテンツが公開されました。 投稿に興味はありますか? ここでは、リポジトリ内の README を確認してください。<A href="https://github.com/microsoftdocs/office-docs-powershell">https://github.com/MicrosoftDocs/office-docs-powershell</A>
 
 
 
 </div>
 
-Microsoft Lync Server 2010 は、Microsoft Office Communications Server 2007 R2 で利用可能な新機能と改善された機能のセットを導入しました。 改善点の1つとして、実装を管理する方法があります。 たとえば、Lync Server コントロールパネルと呼ばれる新しいユーザーインターフェイスが用意されています。このインターフェイスは、Microsoft 管理コンソールでほとんどのユーザーが使用しているものからの大きなシフトを表します。 管理性の大幅な向上には、Windows PowerShell が含まれています。
+Microsoft Lync Server 2010 は、Microsoft Office Communications Server 2007 R2 で利用可能な機能と比較して、新しい機能と改善された機能のセットを導入しました。 1つの改善点は、実装を管理する方法です。 たとえば、Lync Server コントロールパネルと呼ばれる新しいユーザーインターフェイスが用意されています。これは、Microsoft 管理コンソールで最も多くのユーザーが使用しているものから大きな変化を表します。 その他の管理性の向上には、Windows PowerShell が含まれています。
 
-Windows PowerShell を使用すると、コマンドラインから Microsoft アプリケーションを管理できます。 コマンド ライン環境、製品固有のコマンド、完全なスクリプト言語が用意されています。 Windows PowerShell は、最初に2006の Windows オペレーティングシステムのダウンロード可能なリリースとして導入されましたが、Microsoft Exchange Server 2007 の管理のためのコマンドラインインターフェイスとして採用されています。 この時点では、今後も成長し、Microsoft Server 製品のほとんどに組み込まれており、最新の microsoft Lync Server 2013 になっています。 Lync Server 2010 は、展開のすべての局面を管理するために使用できる、550製品固有のコマンドレットに近い方法で導入されています。
+Windows PowerShell を使用すると、コマンドラインから Microsoft アプリケーションを管理できます。 Windows PowerShell にはコマンドライン環境、製品固有のコマンド、およびすべてのスクリプト言語が含まれます。 Windows PowerShell は、最初は2006でリリースされた Windows オペレーティングシステム用のダウンロード可能なリリースとして導入され、Microsoft Exchange Server 2007 を管理するためのコマンドラインインターフェイスとして組み込まれていました。 その時点から、成長を続け、多くの Microsoft サーバー製品に組み込まれており、Microsoft Lync Server 2013 の最新の状態になっています。 Lync Server 2010 には、展開のすべての側面を管理するために使用できる、550製品固有のコマンドレットがあります。
 
-以降のセクションに、コマンドレットの一覧とその説明を示します。 この情報は、コマンド ラインで直接表示することもできます。 Lync Server 管理シェルのコマンドプロンプトで次のように入力します。
+次のセクションには、コマンドレットの一覧とその説明が含まれます。 この情報は、コマンド ラインから直接入手することもできます。 Lync Server 管理シェルコマンドプロンプトで、次のように入力します。
 
     Get-Help <cmdlet name> -Full
 
-たとえば、**New-CsVoicePolicy** コマンドレットに関するヘルプをコマンド プロンプトで表示するには、以下のように入力します。
+たとえば、**New-CsVoicePolicy** コマンドレットに関するヘルプをコマンド プロンプトから取得するには、以下のように入力します。
 
     Get-Help New-CsVoicePolicy -Full
 
-Lync Server 2013 での Windows PowerShell について知っておくべきこと:
+Lync Server 2013 での Windows PowerShell について知っておくべき事柄:
 
-  - Lync Server のコマンドレットを実行するには、Lync Server 管理シェルを開きます。
+  - Lync Server コマンドレットを実行するには、Lync Server 管理シェルを開きます。
     
     <div>
     
 
     > [!WARNING]  
-    > Lync Server 管理シェルではなく、Windows PowerShell ウィンドウを開いた場合、既定では、Lync Server コマンドレットを実行することはできません。 Windows PowerShell 内から Lync Server コマンドレットを実行するには、Windows PowerShell コマンドプロンプトで次のように入力します。<BR>インポート-モジュール Lync
+    > Lync Server 管理シェルではなく、Windows PowerShell ウィンドウを開くと、既定で Lync Server コマンドレットを実行することはできません。 Windows PowerShell 内から Lync Server コマンドレットを実行するには、まず Windows PowerShell コマンドプロンプトで次のように入力します。<BR>Import-Module Lync
 
     
     </div>
 
-  - Lync Server 管理シェルは、すべての Lync Server Enterprise Edition のフロントエンドサーバーまたは Standard Edition サーバーに自動的にインストールされます。
+  - Lync server 管理シェルは、すべての Lync Server Enterprise Edition フロントエンドサーバーまたは Standard Edition サーバーに自動的にインストールされます。
 
-  - 新規および更新された情報、サンプルスクリプト、および使用を開始するためのヘルプ、および Windows PowerShell と Microsoft Lync Server 2013 コマンドレットの詳細につい[https://go.microsoft.com/fwlink/p/?linkId=203150](https://go.microsoft.com/fwlink/p/?linkid=203150)ては、「Lync Server Windows powershell ブログ」を参照してください。
+  - Windows PowerShell および Microsoft Lync Server 2013 コマンドレットの概要と詳細情報については、「Lync Server Windows PowerShell ブログ[https://go.microsoft.com/fwlink/p/?linkId=203150](https://go.microsoft.com/fwlink/p/?linkid=203150)」を参照してください。
 
 </div>
 

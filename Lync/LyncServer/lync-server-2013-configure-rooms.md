@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ルームを構成する'
+title: 'Lync Server 2013: ルームの構成'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184750
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 06fea4fcda27eaedd671d833a4f53ed0ddec67c6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0d6d5fabe5b465fd2ecab3cfee7474aa64160210
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730034"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035249"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-rooms-in-lync-server-2013"></a>Lync Server 2013 でルームを構成する
+# <a name="configure-rooms-in-lync-server-2013"></a>Lync Server 2013 での会議室の構成
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "41730034"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-06_
+_**トピックの最終更新日:** 2012-10-06_
 
-常設チャットルームの構成は、一般に、Windows PowerShell コマンドラインインターフェイスを使用して、ユーザーまたは他の中央チームによって処理されます。通常、管理者はチャットルームを管理しません。 ただし、チャットルームを作成して管理する必要がある場合は、Windows PowerShell コマンドラインインターフェイスを使用するか、自分をメンバーとしてチャットルームに追加して、Lync 2013 クライアントを使うことができます。
+常設チャットルームの構成は、通常、Windows PowerShell コマンドラインインターフェイスを使用して、ユーザーまたは他の中央のチームによって処理されます。通常、管理者はチャットルームを管理しません。 ただし、チャットルームを作成して管理する必要がある場合は、Windows PowerShell コマンドラインインターフェイスを使用するか、自分をメンバーとしてチャットルームに追加して、Lync 2013 クライアントを使用することができます。
 
-Windows PowerShell コマンドラインインターフェイスを使用してチャットルームを構成する方法について詳しくは、「 [Windows powershell コマンドレットを使用して常設チャットサーバーを構成](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md)する」の「会議室の管理」をご覧ください。
+Windows PowerShell コマンドラインインターフェイスを使用したチャットルームの構成の詳細については、「 [Windows powershell コマンドレットを使用して常設チャットサーバーを構成](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md)する」の「Room Management」を参照してください。
 
 <div>
 
-## <a name="managing-data-in-chat-rooms"></a>チャットルームでデータを管理する
+## <a name="managing-data-in-chat-rooms"></a>チャット ルームのデータの管理
 
-常設チャットサーバーを使うと、ユーザーは永続的なチャットルームにメッセージを投稿して共同作業を行うことができます。 データはサーバー上に保持され、会議室のメンバーは履歴データなどのデータにアクセスできます。 ただし、異なるロールを持つユーザーは、次の一覧に示すように、保持されているデータに異なるアクセス権を持っています。
+常設チャットサーバーを使用すると、ユーザーは永続的なチャットルームにメッセージを投稿して共同作業を行うことができます。 データはサーバーに保持され、チャット ルームのメンバーは、履歴データなどのデータにアクセスできます。 ただし、次に示すように、アクセスできる永続的なデータは、ユーザーの役割によって異なります。
 
-  - 管理者は、データベースが大きくなりすぎないようにチャット ルームから古いコンテンツ (たとえば、特定の日付より前に投稿されたコンテンツ) を削除できます。 また、特定のチャットルームでは不適切と見なされるメッセージを削除したり、置き換えたりすることができます。
+  - 管理者は、データベースが大きくなりすぎないようにチャット ルームから古いコンテンツ (たとえば、特定の日付より前に投稿されたコンテンツ) を削除できます。また、管理者は、特定のチャット ルームにとって不適切と判断されるメッセージを削除または置換することもできます。
 
-  - エンド ユーザーは、メッセージの作成者を含めて、チャット ルームからコンテンツを削除できません。
+  - エンドユーザー (メッセージの作成者を含む) は、チャット ルームのコンテンツを削除できません。
 
-  - チャットルーム管理者は、ルームを無効にすることはできますが、ルームを削除することはできません。 チャットルームを作成した後に削除できるのは管理者だけです。
+  - チャット ルームの管理者は、チャット ルームを無効にできますが、チャット ルームを削除することはできません。チャット ルームを削除できるのは管理者のみです。
 
-メッセージが削除された場合、操作を元に戻すことはできません。 ただし、バックアップがある場合は、削除されたメッセージを復元することができます。 常設チャットのコンプライアンスサーバーが有効になっている場合、古いメッセージはコンプライアンスデータベースに保存されます。
+メッセージを削除しても、アクションを元に戻すことはできません。 ただし、バックアップがある場合は、削除されたメッセージを復元できます。 常設チャットコンプライアンスサーバーが有効になっている場合、古いメッセージはコンプライアンスデータベースに保持されます。
 
 <div>
 
 
 > [!NOTE]  
-> このチャットルームのデータ使用は、管理者の役割が関係する場合を除き、Lync Server 2013、常設 Chat Server API アプリケーションに適用されます。 常設チャットサーバー API を使用して、管理者の操作を実行することはできません。 これらの操作は、Lync Server 管理シェルで実行する必要があります。
+> このチャットルームのデータ使用法は、管理者の役割が関与している場合を除き、Lync Server 2013、常設チャットサーバー API アプリケーションに適用されます。 常設チャットサーバー API を使用して、管理者の操作を実行することはできません。 これらの操作は、Lync Server 管理シェルで実行する必要があります。
 
 
 

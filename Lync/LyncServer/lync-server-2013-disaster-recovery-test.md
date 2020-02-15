@@ -12,16 +12,16 @@ ms:contentKeyID: 63969571
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7c6c3b7c3b5d78324fe9c674650dd94338baea4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4fc04381e315375fe0d5858c9a12ad577f6c8baf
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739197"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007826"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,66 +35,66 @@ ms.locfileid: "41739197"
 
 <span> </span>
 
-_**最終更新日:** 2015-01-26_
+_**トピックの最終更新日:** 2015-01-26_
 
-Lync Server 2013 プールサーバーのシステム回復を実行して、文書化された障害回復プロセスをテストします。 このテストは、サーバーの完全なハードウェア エラーをシミュレーションを実行して、リソース、プラン、およびデータを回復に利用できることを保証するのに役立ちます。 異なるサーバーやその他の装置のエラーをいつでもテストできるようにテストの焦点を各月で循環させるようにしてください。
+Lync Server 2013 プールサーバーのシステム回復を実行して、ドキュメント化された障害回復プロセスをテストします。 このテストでは、1台のサーバーの完全なハードウェア障害をシミュレートし、リソース、計画、およびデータを回復できるようにするために役立ちます。 組織が異なるサーバーまたは他の機器に障害を発生させないようにするために、毎月テストの焦点を回すようにしてください。
 
-組織が障害回復テストを実施するスケジュールは異なることに注意してください。障害回復テストが無視またはなおざりにされないことが非常に重要です。
+組織が障害回復テストを実行するスケジュールは、どのようなものであるかが異なることに注意してください。 障害復旧テストは無視または放置されていないことが非常に重要です。
 
 <div>
 
 
-Lync Server 2013 のトポロジ、ポリシー、構成設定をファイルにエクスポートします。 また、アップグレード、ハードウェア障害、またはその他の問題のためにデータを消失してしまっても、このファイルを使用して、これらの情報を中央管理ストアに復元することができます。
+Lync Server 2013 のトポロジ、ポリシー、および構成設定をファイルにエクスポートします。 特に、アップグレード、ハードウェア障害、またはその他の問題によってデータが失われた後に、このファイルを中央管理ストアに復元することができます。
 
-次のコマンドで示されているように、Lync Server 2013 のトポロジ、ポリシー、構成設定を中央管理ストアまたはローカルコンピューターにインポートします。
+次のコマンドで示すように、Lync Server 2013 のトポロジ、ポリシー、および構成設定を中央管理ストアまたはローカルコンピューターにインポートします。
 
 `Import-CsConfiguration -ByteInput <Byte[]> [-Force <SwitchParameter>] [-LocalStore <SwitchParameter>]`
 
 `Import-CsConfiguration -FileName <String> [-Force <SwitchParameter>] [-LocalStore <SwitchParameter>]`
 
-プロダクション用の Lync Server 2013 データをバックアップするには、次の操作を行います。
+Lync Server 2013 の運用データをバックアップするには、次のようにします。
 
-  - 標準の SQL Server バックアッププロセスを使用して、RTC と LCSLog データベースのバックアップを作成し、ファイルまたはテープダンプデバイスにデータベースをダンプします。
+  - データベースをファイルまたはテープダンプデバイスにダンプするには、標準の SQL Server バックアッププロセスを使用して、RTC および LCSLog データベースをバックアップします。
 
-  - サードパーティ バックアップ アプリケーションを使用してデータをファイルまたはテープにバック アップします。
+  - サードパーティ製のバックアップアプリケーションを使用して、データをファイルまたはテープにバックアップします。
 
-  - Export-CsUserData コマンドレットを使用して、RTC データベース全体の XML エクスポートを作成します。
+  - RTC データベース全体の XML エクスポートを作成するには、エクスポート-CsUserData コマンドレットを使用します。
 
-  - ファイル システム バックアップまたはサードパーティ バックアップ アプリケーションを使用して、会議コンテンツやコンプライアンス ログをバックアップします。
+  - ファイルシステムバックアップまたはサードパーティを使用して、会議コンテンツとコンプライアンスログをバックアップします。
 
-  - エクスポート-CsConfiguration コマンドラインツールを使用して、Lync Server 2013 の設定をバックアップします。
+  - Lync Server 2013 の設定をバックアップするには、Export-CsConfiguration コマンドラインツールを使用します。
 
-フェールオーバー手順の最初の手順には、運用プールから障害回復プールへのユーザーの強制的な移動が含まれます。
+フェールオーバー手順の最初の手順には、運用プールから障害復旧プールへのユーザーの強制移行が含まれます。
 
 運用プールはユーザーの再配置を受け入れることができないため、これは強制的な移動になります。
 
-Lync Server 2013 の移動ユーザープロセスは、実質的には、RTC SQL データベースのレコードの更新に加えて、ユーザーアカウントオブジェクトの属性に対する変更になります。
+Lync Server 2013 の移動ユーザープロセスは、実質的には、RTC SQL データベース上のレコードの更新に加えて、ユーザーアカウントオブジェクトの属性を変更します。
 
-このデータは、以下の 2 つの処理を通じて復元できます。
+このデータは、次の2つのプロセスによって復元できます。
 
-  - RTC データベースは、標準の SQL Server 復元プロセスを使用するか、サードパーティのバックアップ/復元ユーティリティを使用して、実働 SQL Server から元のバックアップダンプデバイスから復元することができます。
+  - RTC データベースは、標準の SQL Server 復元プロセスを使用して、またはサードパーティのバックアップ/復元ユーティリティを使用して、運用 SQL Server から元のバックアップダンプデバイスから復元できます。
 
-  - ユーザー連絡先データは、運用 SQL Server エクスポートから作成した XML ファイルを使用して、DBIMPEXP.exe ユーティリティで復元できます。
+  - ユーザー連絡先データは、運用 SQL Server エクスポートから作成された XML ファイルを使用して、DBIMPEXP ユーティリティを使用して復元できます。
 
-このデータが復元されると、ユーザーは効果的に Disaster Recovery Lync Server 2013 プールに接続し、通常どおりに動作することができます。
+このデータを復元した後は、ユーザーは効果的に Disaster Recovery Lync Server 2013 プールに接続し、通常どおりに動作させることができます。
 
-ユーザーが Disaster Recovery Lync Server 2013 プールに接続できるようにするには、DNS レコードの変更が必要になります。
+ユーザーが Disaster Recovery Lync Server 2013 プールに接続できるようにするために、DNS レコードの変更が必要になります。
 
-プロダクション Lync Server 2013 プールは、次の自動構成と DNS SRV レコードを使用してクライアントから参照されます。
+運用 Lync Server 2013 プールは、次の自動構成および DNS SRV レコードを使用してクライアントによって参照されます。
 
   - SRV: \_sip。\_tls。\<ドメイン\> /CNAME: SIP。\<ドメイン\>
 
-  - CNAME: SIP。\<domain\> /cvc¥ pool1。\<ドメイン\>
+  - CNAME: SIP。\<ドメイン\> /cvc。\<ドメイン\>
 
-フェールオーバーを促進するために、この CNAME レコードを更新して DROCSPool FQDN を次のように参照する必要があります。
+フェールオーバーを容易にするために、この CNAME レコードを更新して、次のように、この CNAME レコードを参照する必要があります。
 
-  - CNAME: SIP。\<domain\> /DROCSPool.\<ドメイン\>
+  - CNAME: SIP。\<ドメイン\> /DROCSPool.\<ドメイン\>
 
-  - フェデレーション.\<ドメイン\>
+  - Sip.\<ドメイン\>
 
-  - AV。\<ドメイン名\>
+  - AV\<ドメイン\>
 
-  - webconf\<ドメイン\>
+  - fea-webconf-service.\<ドメイン\>
 
   - OCSServices。\<ドメイン\>
 
@@ -102,7 +102,7 @@ Lync Server 2013 の移動ユーザープロセスは、実質的には、RTC SQ
 
 
 > [!IMPORTANT]  
-> 管理と管理の詳細な手順については、「 <A href="lync-server-2013-backing-up-and-restoring-lync-server.md">Lync Server 2013 のバックアップと復元</A>」を参照してください。
+> 管理手順の詳細については、「 <A href="lync-server-2013-backing-up-and-restoring-lync-server.md">Lync Server 2013 のバックアップと復元</A>」を参照してください。
 
 
 
@@ -121,7 +121,7 @@ Lync Server 2013 の移動ユーザープロセスは、実質的には、RTC SQ
 
 [インポート-CsConfiguration](https://docs.microsoft.com/powershell/module/skype/Import-CsConfiguration)  
 [Lync Server 2013 のバックアップと復元](lync-server-2013-backing-up-and-restoring-lync-server.md)  
-[Lync Server 2013 の障害復旧、高可用性およびバックアップ サービスの管理](lync-server-2013-managing-lync-server-disaster-recovery-high-availability-and-backup-service.md)  
+[Lync Server 2013 の障害復旧、高可用性、およびバックアップサービスの管理](lync-server-2013-managing-lync-server-disaster-recovery-high-availability-and-backup-service.md)  
   
 
 </div>

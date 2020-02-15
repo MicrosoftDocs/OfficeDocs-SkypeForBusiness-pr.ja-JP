@@ -12,33 +12,33 @@ ms:contentKeyID: 56558839
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a3dfc2ee8cd812b597f363934475d1996f2e42a0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ad366315bbc4acf5afb417262da92a5683a084df
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727597"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42001732"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-do-not-use-a-scope-or-an-identity"></a>スコープまたは id を使用しない Skype for Business Online のコマンドレット
 
  
 
 
-許可リストとブロックリスト (ユーザーが通信できる外部組織を決定するリスト) を変更するときに使用するコマンドレットは、スコープまたは Id のどちらも使用しません。 実際、 **CsEdgeAllowAllKnownDomains**コマンドレットには何のパラメーターもありません。 スコープまたは Id を使用しないコマンドレットは、次のようになります。
+許可されたリストとブロックリストを変更するときに使用されるコマンドレット (ユーザーが通信を許可されている組織外を決定するリスト) は、スコープも Id も使用しません。 実際には、 **CsEdgeAllowAllKnownDomains**コマンドレットにはパラメーターはありません。 スコープまたは Id を使用しないコマンドレットは、次のとおりです。
 
-  - [New-CsEdgeAllowAllKnownDomains](https://technet.microsoft.com/en-us/library/jj994088\(v=ocs.15\))
+  - [CsEdgeAllowAllKnownDomains](https://technet.microsoft.com/library/jj994088\(v=ocs.15\))
 
-  - [New-CsEdgeAllowList](https://technet.microsoft.com/en-us/library/jj994023\(v=ocs.15\))
+  - [CsEdgeAllowList](https://technet.microsoft.com/library/jj994023\(v=ocs.15\))
 
-  - [New-CsEdgeDomainPattern](https://technet.microsoft.com/en-us/library/jj994040\(v=ocs.15\))
+  - [CsEdgeDomainPattern](https://technet.microsoft.com/library/jj994040\(v=ocs.15\))
 
-**CsEdgeAllowList**コマンドレットと**CsEdgeDomainPattern**コマンドレットの両方を使用して、ドメインパラメーターを含める必要があることに注意してください。 次に例を示します。
+**CsEdgeAllowList**コマンドレットと**CsEdgeDomainPattern**コマンドレットの両方を使用して、Domain パラメーターを含める必要があることに注意してください。 次に例を示します。
 
     $x = New-CsEdgeDomainPattern -Domain "fabrikam.com"
 
 ## <a name="see-also"></a>関連項目
 
 
-[Skype for Business Online の id、スコープ、テナント](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Lync Online のコマンドレット](https://technet.microsoft.com/en-us/library/dn362817\(v=ocs.15\))
+[Skype for Business Online の id、スコープ、およびテナント](identities-scopes-and-tenants-in-skype-for-business-online.md)  
+[Skype for Business Online のコマンドレット](https://technet.microsoft.com/library/dn362817\(v=ocs.15\))
 

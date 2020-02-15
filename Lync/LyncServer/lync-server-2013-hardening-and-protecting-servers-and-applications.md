@@ -12,16 +12,16 @@ ms:contentKeyID: 62625491
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42b8b9d3fc21c590bda12841cb6002987d4c0650
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6b0a6179e77e4688693fe277748a8933a9dbe911
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739597"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006203"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41739597"
 
 <span> </span>
 
-_**最終更新日:** 2013-12-05_
+_**トピックの最終更新日:** 2013-12-05_
 
-特定のコンポーネントのベストプラクティスに従って、オペレーティングシステムとアプリケーションを強化して保護する必要があります。 このセクションでは、アプリケーションサーバーを強化する方法と、グループポリシーを使ってセキュリティ lockdowns を実装する方法について説明します。
+個々のコンポーネントのベスト プラクティスに従って、オペレーティング システムおよびアプリケーションを強化して保護することをお勧めします。 ここでは、アプリケーション サーバーを強化し、グループ ポリシーを使用してセキュリティ ロックダウンを実装する方法を説明します。
 
 <div>
 
 
 > [!NOTE]  
-> Microsoft Lync Server 2013 の展開に使用されるデータベースを強化および保護することもできます。 詳細については、「 <A href="lync-server-2013-hardening-and-protecting-databases.md">Lync Server 2013 のデータベースの強化と保護</A>」を参照してください。
+> Microsoft Lync Server 2013 の展開に使用するデータベースを強化および保護することもできます。 詳細については、「 <A href="lync-server-2013-hardening-and-protecting-databases.md">Lync Server 2013 のデータベースのセキュリティ強化と保護</A>」を参照してください。
 
 
 
@@ -51,27 +51,27 @@ _**最終更新日:** 2013-12-05_
 
 <div>
 
-## <a name="securing-application-servers"></a>アプリケーションサーバーをセキュリティで保護する
+## <a name="securing-application-servers"></a>アプリケーション サーバーのセキュリティ保護
 
-アプリケーションサーバーの場合、オペレーティングシステムとアプリケーションが強化されている必要があります。 たとえば、Microsoft インターネットセキュリティとアクセラレータ (ISA) サーバー2006の実行専用の Windows Server 2008 コンピューターは、オペレーティングシステムとアプリケーションの観点から強化する必要があります。 サーバーによって実行されるサービスの数を最小限に抑えることは、主な目標です。
-
-</div>
-
-<div>
-
-## <a name="securing-virtual-servers"></a>仮想サーバーをセキュリティで保護する
-
-仮想サーバースナップショットには、サーバーのデータディスクのコピーと、メモリ内データのダンプも含まれています。どちらの場合も、攻撃を招く可能性のある機密性の高い暗号化データが含まれている可能性があります。 仮想化を使用して実装された運用サーバーの場合は、サーバースナップショットをすべて無効にするか、非常に制御された方法で管理する必要があります。 Hyper-v 仮想サーバーのセキュリティ保護の詳細については、「」の Hyper-v セキュリティガイド[http://go.microsoft.com/fwlink/p/?LinkId=214176](http://go.microsoft.com/fwlink/p/?linkid=214176)を参照してください。
+アプリケーション サーバーの場合は、オペレーティング システムとアプリケーションを強化する必要があります。たとえば、Microsoft Internet Security and Acceleration (ISA) Server 2006 の実行専用に使用する Windows Server 2008 コンピューターは、オペレーティング システムとアプリケーションの両方の面から強化する必要があります。主な目標は、サーバーで実行および提供されるサービスの数をできるだけ少なくすることです。
 
 </div>
 
 <div>
 
-## <a name="group-policy"></a>グループポリシー
+## <a name="securing-virtual-servers"></a>仮想サーバーのセキュリティ保護
 
-Windows Server 2008 および Windows Server 2008 R2 では、グループポリシーによってディレクトリベースのデスクトップ構成管理が提供されます。 グループポリシーを使用して、次のようにコンピューターとユーザーの設定をグループポリシーオブジェクト (GPO) 内で定義することにより、セキュリティ lockdowns を実装できます。
+仮想サーバーのスナップショットには、サーバーのデータディスクのコピーが含まれており、メモリ内データのダンプも含まれています。どちらにも、攻撃につながる可能性がある機密性の高い暗号化データを含めることができます。 仮想化を使用して実装された運用サーバーでは、すべてのサーバーのスナップショットを無効にするか、非常に制御された方法で管理する必要があります。 Hyper-v 仮想サーバーのセキュリティ保護の詳細については、「」の「Hyper-v Security [http://go.microsoft.com/fwlink/p/?LinkId=214176](http://go.microsoft.com/fwlink/p/?linkid=214176)Guide」を参照してください。
 
-  - レジストリベースのポリシー
+</div>
+
+<div>
+
+## <a name="group-policy"></a>グループ ポリシー
+
+Windows Server 2008 および Windows Server 2008 R2 では、グループ ポリシーにより、ディレクトリ ベースのデスクトップ構成の管理が行われます。次のグループ ポリシー オブジェクト (GPO) 内でコンピューターとユーザーの設定を定義することにより、グループ ポリシーを使用してセキュリティ ロックダウンを実装できます。
+
+  - レジストリ ベースのポリシー
 
   - セキュリティ
 
@@ -79,23 +79,23 @@ Windows Server 2008 および Windows Server 2008 R2 では、グループポリ
 
   - スクリプト
 
-  - フォルダリダイレクション
+  - フォルダー リダイレクト
 
-  - リモートインストールサービス
+  - リモート インストール サービス
 
-これらの設定を構成する管理者向けのユーザーインターフェイスを提供するために、管理用テンプレートは、オペレーティングシステムリリース、service pack リリース、および Lync Server 2013 などの一部のアプリケーションに付属しています。
+管理者がこれらの設定を構成するためのユーザーインターフェイスを提供するために、管理用テンプレートにはオペレーティングシステムのリリース、service pack のリリース、および Lync Server 2013 を含む一部のアプリケーションが付属しています。
 
-Communicator ファイルは、Lync Server 2013 に付属している管理用テンプレートであり、% windir%\\inf\\ディレクトリにインストールされ、グループポリシー設定のインターフェイスを提供します。 Communicator の各設定は、アプリケーションの動作に影響するレジストリ内の設定に対応しています。
+Communicator ファイルは、Lync Server 2013 に付属している管理用テンプレートで、% windir%\\inf\\ディレクトリにインストールされ、グループポリシー設定へのインターフェイスを提供します。 Communicator.adm の各設定は、アプリケーションの動作に影響するレジストリの設定に対応しています。
 
-設定は、Active Directory ユーザーとコンピューター本体およびグループポリシー管理コンソール (GPMC) から利用できる GPedit からアクセスできます。
+この設定には、GPedit.dll からアクセスできます。GPedit.dll は、Active Directory ユーザーとコンピューターのコンソールおよびグループ ポリシー管理コンソール (GPMC) から利用できます。
 
 </div>
 
 <div>
 
-## <a name="group-policy-security-settings"></a>グループポリシーのセキュリティ設定
+## <a name="group-policy-security-settings"></a>グループ ポリシーのセキュリティの設定
 
-グループポリシーには、GPedit からアクセスした場合の、[コンピューターの構成]、[Windows の設定]、[セキュリティ設定] の下にある GPO のセキュリティ設定が含まれています。 セキュリティテンプレートをインポートして、GPO のセキュリティ設定を構成することができます。 Windows server 2008 セキュリティガイド[http://go.microsoft.com/fwlink/p/?LinkId=145186](http://go.microsoft.com/fwlink/p/?linkid=145186)と windows Server 2008 R2 セキュリティコンプライアンス管理ツールキットに[http://go.microsoft.com/fwlink/p/?LinkId=211882](http://go.microsoft.com/fwlink/p/?linkid=211882)は、必要に応じて変更できる多数のサンプルテンプレートが含まれています。
+グループポリシーには、GPedit からアクセスする場合の [コンピューターの構成]、[Windows の設定]、[セキュリティの設定] にある GPO のセキュリティ設定が含まれています。 セキュリティテンプレートをインポートして、GPO のセキュリティ設定を構成することができます。 「Windows Server 2008 セキュリティガイド」 [http://go.microsoft.com/fwlink/p/?LinkId=145186](http://go.microsoft.com/fwlink/p/?linkid=145186)および「windows Server 2008 R2 セキュリティコンプライアンス管理ツールキット[http://go.microsoft.com/fwlink/p/?LinkId=211882](http://go.microsoft.com/fwlink/p/?linkid=211882) 」には、必要に応じて変更できるサンプルテンプレートがいくつか含まれています。
 
 </div>
 
@@ -103,11 +103,11 @@ Communicator ファイルは、Lync Server 2013 に付属している管理用�
 
 ## <a name="best-practices"></a>ベスト プラクティス
 
-  - すべてのサーバーオペレーティングシステムとアプリケーションを強化します。
+  - すべてのサーバー オペレーティング システムおよびアプリケーションを強化します。
 
   - サーバーのスナップショットを保護し、すべての仮想サーバーのセキュリティを強化します。
 
-  - グループポリシーを使用して、セキュリティ lockdowns を実装します。
+  - グループ ポリシーを使用して、セキュリティ ロックダウンを実装します。
 
 </div>
 

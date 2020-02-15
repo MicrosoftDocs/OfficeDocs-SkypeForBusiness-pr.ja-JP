@@ -12,16 +12,16 @@ ms:contentKeyID: 48183736
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 93dc2fd539ccc24717939ccfa2ca93032fd9f25b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9ffd2c289917c5ccf0ec3a484284fecca3323810
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741987"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007256"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41741987"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-02_
+_**トピックの最終更新日:** 2012-10-02_
 
-VideoMetricsThreshold テーブルには、ビデオ通話で使用されるエクスペリエンスメトリックの品質と受け入れ可能な値が含まれています。
+VideoMetricsThreshold テーブルには、ビデオ通話で使用される QoE 指標の最適な値および許容可能な値が含まれています。
 
 
 <table>
@@ -60,103 +60,103 @@ VideoMetricsThreshold テーブルには、ビデオ通話で使用されるエ�
 <td><p><strong>CallType</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>発信した通話の種類。</p></td>
+<td><p>発信された通話の種類</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>VideoPostFECPLROptimal</strong></p></td>
-<td><p>10進数 (5, 2)</p></td>
+<td><p>10進数 (5、2)</p></td>
 <td></td>
-<td><p>既定値は0.05 です。</p></td>
+<td><p>既定値は 0.05 です。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>VideoPostFECPLRAcceptable</strong></p></td>
-<td><p>10進数 (5, 2)</p></td>
+<td><p>10進数 (5、2)</p></td>
 <td></td>
-<td><p>既定値は0.10 です。</p></td>
+<td><p>既定値は 0.10 です。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>VideoLocalFrameLostPercentageAverageOptimal</strong></p></td>
-<td><p>10進数 (5, 2)</p></td>
+<td><p>10進数 (5、2)</p></td>
 <td></td>
-<td><p>既定値は5.0 です。</p></td>
+<td><p>既定値は 5.0 です。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>VideoLocalFrameLostPercentageAverageAcceptable</strong></p></td>
-<td><p>10進数 (5, 2)</p></td>
+<td><p>10進数 (5、2)</p></td>
 <td></td>
-<td><p>既定値は10.0 です。</p></td>
+<td><p>既定値は 10.0 です。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RecvFrameRateAverageOptimal</strong></p></td>
-<td><p>10進数 (9, 4)</p></td>
+<td><p>10進数 (9、4)</p></td>
 <td></td>
-<td><p>既定値は12.0000 です。</p></td>
+<td><p>既定値は 12.0000 です。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RecvFramerateAverageAcceptable</strong></p></td>
-<td><p>10進数 (9, 4)</p></td>
+<td><p>10進数 (9、4)</p></td>
 <td></td>
-<td><p>既定値は7.0000 です。</p></td>
+<td><p>既定値は 7.0000 です。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LowFrameRateCallPercentOptimal</strong></p></td>
-<td><p>10進数 (5, 2)</p></td>
+<td><p>10進数 (5、2)</p></td>
 <td></td>
-<td><p>既定値は5.0 です。</p></td>
+<td><p>既定値は 5.0 です。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LowFrameRateCallPercentAcceptable</strong></p></td>
-<td><p>10進数 (5, 2)</p></td>
+<td><p>10進数 (5、2)</p></td>
 <td></td>
-<td><p>既定値は 10.0/</p></td>
+<td><p>既定値は 10.0 です。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LowResolutionCallPercentOptimal</strong></p></td>
-<td><p>10進数 (5, 2)</p></td>
+<td><p>10進数 (5、2)</p></td>
 <td></td>
-<td><p>既定値は5.0 です。</p></td>
+<td><p>既定値は 5.0 です。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LowResolutionCallPercentAcceptable</strong></p></td>
-<td><p>10進数 (5, 2)</p></td>
+<td><p>10進数 (5、2)</p></td>
 <td></td>
-<td><p>既定値は10.0 です。</p></td>
+<td><p>既定値は 10.0 です。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>VideoPacketLossRateOptimal</strong></p></td>
-<td><p>@</p></td>
+<td><p>=</p></td>
 <td></td>
-<td><p>既定値は0.05 です。</p></td>
+<td><p>既定値は 0.05 です。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>VideoPacketLossRateAcceptable</strong></p></td>
-<td><p>float</p></td>
+<td><p>浮動小数点数</p></td>
 <td></td>
-<td><p>既定値は0.10 です。</p></td>
+<td><p>既定値は 0.10 です。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>VideoFrameRateAvgOptimal</strong></p></td>
-<td><p>float</p></td>
+<td><p>浮動小数点数</p></td>
 <td></td>
-<td><p>既定値は12です。</p></td>
+<td><p>既定値は 12 です。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>VideoFrameRateAvgAcceptable</strong></p></td>
-<td><p>float</p></td>
+<td><p>浮動小数点数</p></td>
 <td></td>
-<td><p>既定値は7です。</p></td>
+<td><p>既定値は 7 です。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DynamicCapabilityPercentOptimal</strong></p></td>
-<td><p>10進数 (5, 2)</p></td>
+<td><p>10進数 (5、2)</p></td>
 <td></td>
-<td><p>既定値は5.00 です。</p></td>
+<td><p>既定値は 5.00 です。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DynamicCapabilityPercentAcceptable</strong></p></td>
-<td><p>10進数 (5, 2)</p></td>
+<td><p>10進数 (5、2)</p></td>
 <td></td>
-<td><p>既定値は10.00 です。</p></td>
+<td><p>既定値は 10.00 です。</p></td>
 </tr>
 </tbody>
 </table>

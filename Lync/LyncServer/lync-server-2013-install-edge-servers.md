@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: エッジ サーバーのインストール'
+title: 'Lync Server 2013: エッジサーバーのインストール'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183503
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 22d1961a158ead735ae63d20bb2bd233d6ed5958
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2738367bbbf2c81d5d5b0d084fffa9e992410f18
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763761"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008339"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="install-edge-servers-for-lync-server-2013"></a>Lync Server 2013 のエッジ サーバーのインストール
+# <a name="install-edge-servers-for-lync-server-2013"></a>Lync Server 2013 のエッジサーバーのインストール
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41763761"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-08_
+_**トピックの最終更新日:** 2012-09-08_
 
-Lync Server 2013 は、Lync Server 展開ウィザードを使って、エッジサーバーにインストールします。 各エッジサーバーで展開ウィザードを実行することで、エッジサーバーのセットアップに必要なほとんどのタスクを実行できます。 エッジサーバーに Lync Server 2013 を展開するには、既にトポロジビルダーを実行して、エッジサーバートポロジを定義および公開し、エッジサーバーから入手できるメディアにエクスポートする必要があります。 詳細については、「 [Lync server 2013 の外部ユーザーアクセスのシナリオ](lync-server-2013-scenarios-for-external-user-access.md)」および「 [lync server 2013 トポロジをエクスポートして、edge インストール用の外部メディアにコピーする](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md)」を参照してください。
+[Lync server 展開ウィザード] を使用して、エッジサーバーに Lync Server 2013 をインストールします。 各エッジ サーバーで展開ウィザードを実行することにより、エッジ サーバーのセットアップに必要なタスクの大部分を完了できます。 エッジサーバーに Lync Server 2013 を展開するには、既にトポロジビルダーを実行している必要があります。これにより、エッジサーバートポロジを定義して発行し、エッジサーバーから使用可能なメディアにエクスポートする必要があります。 詳細については、「 [Lync server 2013 の外部ユーザーアクセスのシナリオ](lync-server-2013-scenarios-for-external-user-access.md)」および「 [lync server 2013 トポロジをエクスポートして、エッジインストール用の外部メディアにコピーする](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md)」を参照してください。
 
-展開ウィザードを使用して各エッジサーバーをインストールし、必要な証明書をインストールして割り当て、必要なサービスを開始するには、「 [Lync server 2013 で外部ユーザーアクセスのサポートを構成](lync-server-2013-configuring-support-for-external-user-access.md)する」の情報を使用して、外部ユーザーのアクセスを有効にして構成すると共に、 [lync server 2013 で](lync-server-2013-verifying-your-edge-deployment.md)の microsoft Edge の展開を確認し
+展開ウィザードを使用して各エッジサーバーをインストールし、必要な証明書をインストールして割り当て、必要なサービスを開始するには、「 [Lync server 2013 2013 での外部ユーザーアクセスのサポートの構成](lync-server-2013-configuring-support-for-external-user-access.md)」に記載されている情報を[](lync-server-2013-verifying-your-edge-deployment.md)使用して設定を完了します。この情報を使用して、セットアップを検証します (サーバーとクライアントの
 
 <div>
 
-## <a name="to-install-an-edge-server"></a>エッジサーバーをインストールするには
+## <a name="to-install-an-edge-server"></a>エッジ サーバーをインストールするには
 
-1.  エッジサーバーをローカルの管理者グループのメンバーまたは同等のユーザー権限とアクセス許可を持つアカウントとしてインストールするコンピューターにログオンします。
+1.  Administrators グループのメンバーとして、または同等の権限およびアクセス権を有するアカウントとして、エッジ サーバーをインストールするコンピューターにログオンします。
 
-2.  トポロジビルダーを使用して作成したトポロジ構成ファイルと、外部メディアにエクスポートしてコピーしたものは、Edge サーバーで利用できます (たとえば、トポロジ構成ファイルをコピーした USB ドライブにアクセスするか、確認してください)。ファイルをコピーしたネットワーク共有にアクセスします)。
+2.  トポロジビルダーを使用して作成したトポロジ構成ファイルが、エッジサーバーで使用できることを確認します (たとえば、トポロジ構成ファイルをコピーした USB ドライブにアクセスするか、または検証します)。ファイルをコピーしたネットワーク共有にアクセスできます)。
 
 3.  展開ウィザードを開始します。
     
@@ -55,24 +55,24 @@ Lync Server 2013 は、Lync Server 展開ウィザードを使って、エッジ
     
 
     > [!NOTE]  
-    > Microsoft Visual C++ 再頒布可能パッケージをインストールする必要があるというメッセージが表示されたら、[<STRONG>はい</STRONG>] をクリックします。 次のダイアログボックスでは、既定の<STRONG>インストール場所</STRONG>をそのまま使用するか、[<STRONG>参照</STRONG>] をクリックして別の場所を選択し、[<STRONG>インストール</STRONG>] をクリックします。 次のダイアログボックスで、[<STRONG>使用許諾契約書の条項に同意</STRONG>します] チェックボックスをオンにし、[ <STRONG>OK</STRONG>] をクリックします。
+    > Microsoft Visual C++ (再頒布可能) をインストール必要があるというメッセージが表示されたら、[<STRONG>はい</STRONG>] をクリックします。 次のダイアログ ボックスで、既定の [<STRONG>インストール先</STRONG>] をそのまま使用するか、または [<STRONG>参照</STRONG>] をクリックして別のロケーションを選択し、[<STRONG>インストール</STRONG>] をクリックします。 次のダイアログ ボックスで、[<STRONG>使用許諾契約書に同意します</STRONG>] チェック ボックスをオンにし、[<STRONG>OK</STRONG>] をクリックします。
 
     
     </div>
 
-4.  展開ウィザードで、[ **Lync Server System のインストールまたは更新**] をクリックします。
+4.  展開ウィザードで、[**Lync Server システムのインストールまたは更新**] をクリックします。
 
-5.  ウィザードによって、手順1の展開状態が決定された後 **。ローカル構成ストアをインストール**し、[**実行**] をクリックして、次の操作を行います。
+5.  ウィザードが展開状態を判別した後、[**手順 1: ローカル構成ストアのインストール**] で [**実行**] をクリックし、次の手順に従います。
     
-      - [**全体管理ストアのローカルレプリカの構成**] ダイアログボックスで、[**ファイルからのインポート (Edge サーバーに推奨)**] をクリックし、エクスポートされたトポロジ構成ファイルの場所に移動して、.zip ファイルを選択し、[**開く**] をクリックして、[**次へ**] をクリックします。
+      - [**中央管理ストアのローカル レプリカの構成**] ダイアログ ボックスで、[**ファイルからインポートする (エッジ サーバーで推奨)**] をクリックします。エクスポートしたトポロジ構成ファイルのロケーションに進み、.zip ファイルを選択し、[**開く**] をクリックします。そして、[**次へ**] をクリックします。
     
-      - 展開ウィザードは、構成ファイルから構成情報を読み取り、その XML 構成ファイルをローカルコンピューターに書き込みます。
+      - 展開ウィザードが構成ファイルから構成情報を読み取り、ローカル コンピューターへ XML 構成ファイルを書き込みます。
     
       - [**コマンドの実行**] プロセスが完了した後、[**終了**] をクリックします。
 
-6.  展開ウィザードで、[**手順 2: Lync サーバーコンポーネントをセットアップまたは削除**する] をクリックして、ローカルコンピューターに保存されている XML 構成ファイルで指定されている lync server 2013 edge コンポーネントをインストールします。
+6.  展開ウィザードで、[**ステップ 2: Lync Server コンポーネントのセットアップまたは削除**] をクリックして、ローカルコンピューターに格納されている XML 構成ファイルに指定されている lync server 2013 エッジコンポーネントをインストールします。
 
-7.  インストールが完了したら、サービスを開始する前に、 [Lync Server 2013 の Edge 証明書のセットアップ](lync-server-2013-set-up-edge-certificates.md)に関する情報を使用して、必要な証明書をインストールして割り当てます。
+7.  インストールが完了したら、「 [Set Up Edge certificates For Lync Server 2013](lync-server-2013-set-up-edge-certificates.md) 」の情報を使用して、サービスを開始する前に必要な証明書をインストールして割り当てます。
 
 </div>
 

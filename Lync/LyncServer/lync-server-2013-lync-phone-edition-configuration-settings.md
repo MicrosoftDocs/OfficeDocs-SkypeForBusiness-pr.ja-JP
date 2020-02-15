@@ -12,16 +12,16 @@ ms:contentKeyID: 49733881
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8f48f165d9694e35aebb3861d0bce9fddd70be49
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 45fed4d87adc438ce282c340d329f59036a596f5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765465"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035269"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41765465"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-10_
+_**トピックの最終更新日:** 2012-10-10_
 
-Lync Phone Edition を実行しているデバイスの構成設定はグローバルに適用されます。または、特定のサイトに適用される設定の新しいコレクションを作成することもできます。 コレクションには、SIP セキュリティ、デバイスロックの設定などが含まれます。
+Lync Phone Edition を実行しているデバイスの構成設定をグローバルに適用するか、または特定のサイトに適用する設定の新しいコレクションを作成することができます。 コレクションには、SIP セキュリティ、デバイスロック設定などが含まれます。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 で Lync Phone Edition の構成設定の情報を表示する](lync-server-2013-view-lync-phone-edition-configuration-settings-information.md)
+  - [Lync Server 2013 での Lync Phone Edition の構成設定情報の表示](lync-server-2013-view-lync-phone-edition-configuration-settings-information.md)
 
-  - [Lync Server 2013 で Lync Phone エディションの構成設定のコレクションを作成または変更する](lync-server-2013-create-or-modify-a-collection-of-lync-phone-edition-configuration-settings.md)
+  - [Lync Server 2013 の Lync Phone Edition 構成設定のコレクションを作成または変更する](lync-server-2013-create-or-modify-a-collection-of-lync-phone-edition-configuration-settings.md)
 
-  - [Lync Server 2013 で既存の Lync Phone エディション構成の設定を削除する](lync-server-2013-delete-an-existing-collection-of-lync-phone-edition-configuration-settings.md)
+  - [Lync Server 2013 の Lync Phone Edition 構成設定の既存コレクションの削除](lync-server-2013-delete-an-existing-collection-of-lync-phone-edition-configuration-settings.md)
 
   - [Lync Server 2013 で Lync Phone Edition のセキュリティ設定を構成する](lync-server-2013-configure-security-settings-for-lync-phone-edition.md)
 
-  - [Lync Server 2013 での電話のロックを適用する](lync-server-2013-enforce-phone-locking.md)
+  - [Lync Server 2013 での電話ロックの適用](lync-server-2013-enforce-phone-locking.md)
 
 </div>
 

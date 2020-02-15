@@ -1,5 +1,5 @@
 ---
-title: 移行のためのクライアントの構成
+title: 移行用にクライアントを構成する
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -13,20 +13,20 @@ ms:contentKeyID: 48185411
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ebfba9142aca4981f02b0dca7e8e0b16a2cde446
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d8ebfefb24d1857a7addade5e92c94bf5daa54f6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727967"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42000572"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-clients-for-migration"></a>移行のためのクライアントの構成
+# <a name="configure-clients-for-migration"></a>移行用にクライアントを構成する
 
 </div>
 
@@ -36,17 +36,17 @@ ms.locfileid: "41727967"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-24_
+_**トピックの最終更新日:** 2012-09-24_
 
-このトピックでは、Lync Server 2013 に移行する前に推奨されるクライアント展開の手順について説明します。 これらの構成変更は、Lync Server 2010 で行う必要があります。
+このトピックでは、Lync Server 2013 に移行する前に実行する必要がある、推奨されるクライアントの展開手順について説明します。 これらの構成の変更は、Lync Server 2010 で行う必要があります。
 
 <div>
 
-## <a name="to-configure-clients-before-migration"></a>移行前にクライアントを構成するには
+## <a name="to-configure-clients-before-migration"></a>移行の前にクライアントを構成するには
 
-1.  Lync Server 2010 の最新のサーバー、クライアント、およびデバイスの更新プログラム (ホットフィックス) を展開します。 Lync Server 2010 に関する最新情報については、「Lync for Lync のリソースセンターの更新<http://go.microsoft.com/fwlink/p/?linkid=232630>」を参照してください。
+1.  Lync Server 2010 の最新のサーバー、クライアント、およびデバイスの更新プログラム (ホットフィックス) を展開します。 Lync Server 2010 に関する最新情報については、「Lync のリソースセンターを更新する」 <http://go.microsoft.com/fwlink/p/?linkid=232630>を参照してください。
 
-2.  Lync Server 2010 では、最新の更新プログラムがインストールされているクライアントのみにクライアントのバージョンフィルタリングを使用できます。
+2.  Lync Server 2010 で、クライアントバージョンフィルターを使用して、最新の更新プログラムがインストールされているクライアントのみを許可します。
 
 </div>
 
@@ -56,7 +56,7 @@ _**最終更新日:** 2012-09-24_
 
 
 [Lync 2013 の新しい設定と変更された設定](lync-server-2013-new-and-changed-settings-for-lync-2013.md)  
-[Lync 2013 でのクライアント相互運用性](lync-server-2013-client-interoperability-in-lync-2013.md)  
+[Lync 2013 でのクライアントの相互運用性](lync-server-2013-client-interoperability-in-lync-2013.md)  
 
 
 [Lync Server 2013 でのクライアントとデバイスの計画](lync-server-2013-planning-for-clients-and-devices.md)  

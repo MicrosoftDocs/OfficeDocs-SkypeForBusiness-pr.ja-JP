@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 常設チャット サーバー テーブルの詳細'
+title: 'Lync Server 2013: 常設チャットサーバーのテーブルの詳細'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185323
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cd738a423744257968eb029abdd29e5964c0c623
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3caf59185bc3fbe985ea8b7d4371d464b515e3fe
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755217"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006895"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="persistent-chat-server-table-details-in-lync-server-2013"></a>Lync Server 2013 の常設チャット サーバー テーブルの詳細
+# <a name="persistent-chat-server-table-details-in-lync-server-2013"></a>Lync Server 2013 の常設チャットサーバーテーブルの詳細
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41755217"
 
 <span> </span>
 
-_**最終更新日:** 2012-06-25_
+_**トピックの最終更新日:** 2012-06-25_
 
-次のトピックでは、常設チャットデータベースの各スキーマテーブルの列について詳しく説明します。
+次のトピックでは、各常設チャットデータベーススキーマテーブルの列について詳しく説明します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
   - [Lync Server 2013 の tblADCookie](lync-server-2013-tbladcookie.md)
 
@@ -67,7 +67,7 @@ _**最終更新日:** 2012-06-25_
 
   - [Lync Server 2013 の tblScopePrincipal](lync-server-2013-tblscopeprincipal.md)
 
-  - [Lync Server 2013 の tblPrincipalRole](lync-server-2013-tblprincipalrole.md)
+  - [Lync Server 2013 のに tblprincipalrole](lync-server-2013-tblprincipalrole.md)
 
   - [Lync Server 2013 の tblSiopWhiteList](lync-server-2013-tblsiopwhitelist.md)
 
@@ -75,7 +75,7 @@ _**最終更新日:** 2012-06-25_
 
   - [Lync Server 2013 の tblEnumValue](lync-server-2013-tblenumvalue.md)
 
-  - [Lync Server 2013 の tblPrincipalInvites](lync-server-2013-tblprincipalinvites.md)
+  - [Lync Server 2013 のそして tblprincipalinvites](lync-server-2013-tblprincipalinvites.md)
 
   - [Lync Server 2013 の tblChat](lync-server-2013-tblchat.md)
 
@@ -99,9 +99,9 @@ _**最終更新日:** 2012-06-25_
 
   - [Lync Server 2013 の tblComplianceData](lync-server-2013-tblcompliancedata.md)
 
-  - [Lync Server 2013 内の tblComplianceFanout](lync-server-2013-tblcompliancefanout.md)
+  - [Lync Server 2013 の tblComplianceFanout](lync-server-2013-tblcompliancefanout.md)
 
-  - [Lync Server 2013 内の tblComplianceParticipant](lync-server-2013-tblcomplianceparticipant.md)
+  - [Lync Server 2013 の tblComplianceParticipant](lync-server-2013-tblcomplianceparticipant.md)
 
   - [Lync Server 2013 の tblComplianceState](lync-server-2013-tblcompliancestate.md)
 

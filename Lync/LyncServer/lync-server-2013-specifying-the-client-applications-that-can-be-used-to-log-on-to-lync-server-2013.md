@@ -12,20 +12,20 @@ ms:contentKeyID: 48185450
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 788a0638dee6b9d52a5d954eafb7b4e33bdfd294
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ea0083a28253f5b79e6124dc7733a3ea096f4509
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731877"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006122"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="specifying-the-client-applications-that-can-be-used-to-log-on-to-lync-server-2013"></a>Lync Server 2013 へのログオンに使用できるクライアントアプリケーションの指定
+# <a name="specifying-the-client-applications-that-can-be-used-to-log-on-to-lync-server-2013"></a>Lync Server 2013 へのログオンに使用できるクライアントアプリケーションを指定する
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41731877"
 
 <span> </span>
 
-_**最終更新日:** 2012-12-11_
+_**トピックの最終更新日:** 2012-12-11_
 
-Lync Server 2013 では、環境でサポートされているクライアントのバージョンを指定することができます。 クライアントバージョンポリシーを使用すると、複数のクライアントバージョンのサポートに関連するコストを削減することができます。 また、以前のバージョンのクライアントが動作している場合、使用可能な機能は以前のバージョンのクライアントで制限される可能性があるため、全体的なユーザーエクスペリエンスを向上させることができます。
+Lync Server 2013 では、環境でサポートされているクライアントのバージョンを指定することができます。 クライアントバージョンポリシーを使用すると、複数のクライアントバージョンをサポートするためのコストを削減できます。 また、クライアントの以前のバージョンとそれ以降のバージョンでは、使用可能な機能が以前のバージョンのクライアントによって制限される可能性があるため、ユーザーの全体的な操作が向上します。
 
-クライアントのバージョン管理には、次の3つのコンポーネントがあります。
+クライアントバージョン管理には、次の3つのコンポーネントがあります。
 
-  - クライアントバージョンの構成設定は、グローバルに、または特定のサイトに対して、クライアントのバージョン管理をオンまたはオフにするために使用されます。
+  - クライアントバージョンの構成設定を使用して、クライアントバージョンの制御をグローバルに、または特定のサイトに対して有効または無効にします。
 
-  - クライアントバージョンポリシーは、一連のルールをグローバルに、または特定のサイト、プール、またはユーザーのグループに割り当てるために使用されます。
+  - クライアントバージョンポリシーを使用して、ルールのセットをグローバルに、または特定のサイト、プール、またはユーザーのグループに割り当てることができます。
 
-  - クライアントバージョンポリシールールは、クライアントバージョンポリシーを構成し、ユーザーが特定のクライアントとクライアントバージョンでログオンしようとしたときに実行するアクションを定義するために使用されます。
+  - クライアントバージョンポリシールールはクライアントバージョンポリシーを構成し、ユーザーが特定のクライアントおよびクライアントバージョンでログオンしようとしたときに実行するアクションを定義するために使用されます。
 
 <div>
 
@@ -59,13 +59,13 @@ Lync Server 2013 では、環境でサポートされているクライアント
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
   - [Lync Server 2013 のクライアントバージョンの構成設定](lync-server-2013-client-version-configuration-settings.md)
 
   - [Lync Server 2013 のクライアントバージョンポリシー](lync-server-2013-client-version-policies.md)
 
-  - [Lync Server 2013 でのクライアントのバージョンルール](lync-server-2013-client-version-rules.md)
+  - [Lync Server 2013 のクライアントバージョンルール](lync-server-2013-client-version-rules.md)
 
 </div>
 
@@ -74,7 +74,7 @@ Lync Server 2013 では、環境でサポートされているクライアント
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 でのデバイス、電話、クライアント アプリケーションの管理](lync-server-2013-managing-devices-phones-and-client-applications.md)  
+[Lync Server 2013 でのデバイス、電話、クライアントアプリケーションの管理](lync-server-2013-managing-devices-phones-and-client-applications.md)  
   
 
 </div>

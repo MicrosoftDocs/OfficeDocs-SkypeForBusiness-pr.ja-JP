@@ -12,20 +12,20 @@ ms:contentKeyID: 50675352
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ad64a77e8244bf1eb2073a5d62edcb30e41eb20
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6bd2f021241f373a30e205ddb81c21ba9a4a5beb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736417"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007095"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="delete-an-existing-client-version-policy-rule-in-lync-server-2013"></a>Lync Server 2013 で既存のクライアントのバージョンポリシールールを削除する
+# <a name="delete-an-existing-client-version-policy-rule-in-lync-server-2013"></a>Lync Server 2013 の既存のクライアントバージョンポリシールールを削除する
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41736417"
 
 <span> </span>
 
-_**最終更新日:** 2013-01-21_
+_**トピックの最終更新日:** 2013-01-21_
 
-クライアントのバージョンポリシーは、一連のクライアントバージョンポリシールールで構成されています。 これらのルールでは、ユーザーが特定のクライアントおよびクライアント バージョンでログオンしようとしたときに実行するアクションが定義されています。 Lync Server 2013 コントロールパネルからクライアントのバージョンポリシーから個々のルールを削除することができます。
+クライアントバージョンポリシーは、一連のクライアントバージョンポリシールールで構成されています。 これらのルールでは、ユーザーが特定のクライアントおよびクライアント バージョンでログオンしようとしたときに実行するアクションが定義されています。 Lync Server 2013 コントロールパネルから、クライアントバージョンポリシーから個々のルールを削除することができます。
 
 <div>
 
-## <a name="to-delete-client-version-policy-rules-with-lync-server-control-panel"></a>Lync Server コントロールパネルでクライアントのバージョンポリシールールを削除するには
+## <a name="to-delete-client-version-policy-rules-with-lync-server-control-panel"></a>Lync Server コントロールパネルを使用してクライアントバージョンポリシールールを削除するには
 
 1.  CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
-3.  左側のナビゲーションバーで、[**クライアント**] をクリックし、[**クライアントバージョンポリシー** ] ナビゲーションボタンをクリックします。
+3.  左側のナビゲーションバーで [**クライアント**] をクリックし、[**クライアントバージョンポリシー** ] ナビゲーションボタンをクリックします。
 
-4.  [**クライアントのバージョンポリシー** ] ページで、削除するルールのクライアントのバージョンポリシーをダブルクリックします。
+4.  [**クライアントバージョンポリシー** ] ページで、削除するルールのクライアントバージョンポリシーをダブルクリックします。
 
-5.  [**クライアントのバージョンポリシーの編集**] ページにルールが表示されます。 ルールを削除するには、ルールを選択し、[**削除**] をクリックします。
+5.  ルールは [**クライアントバージョンポリシーの編集**] ページに表示されます。 ルールを削除するには、ルールを選択し、[**削除**] をクリックします。
 
 </div>
 

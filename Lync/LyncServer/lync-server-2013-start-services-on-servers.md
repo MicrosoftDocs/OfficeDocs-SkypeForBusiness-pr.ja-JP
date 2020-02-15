@@ -12,16 +12,16 @@ ms:contentKeyID: 48185912
 ms.date: 09/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1e6474071e7f95228f3c04c4931b4f899df68b40
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ee5e58f316acde9e1aadeee80cfccb6ee1b189be
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764413"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007706"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,27 +35,27 @@ ms.locfileid: "41764413"
 
 <span> </span>
 
-_**最終更新日:** 2014-09-03_
+_**トピックの最終更新日:** 2014-09-03_
 
-この手順を正常に完了するには、RTCUniversalServerAdmins グループのメンバーであるか、適切な権限が委任されているユーザーとしてログインしている必要があります。 権限の委任の詳細については、「 [Lync Server 2013 の委任のセットアップのアクセス許可](lync-server-2013-delegate-setup-permissions.md)」を参照してください。
+この手順を正常に完了するには、RTCUniversalServerAdmins グループのメンバーとしてログオンしているか、適切なアクセス許可が委任されている必要があります。 アクセス許可の委任の詳細については、「 [Lync Server 2013 の委任のセットアップのアクセス許可](lync-server-2013-delegate-setup-permissions.md)」を参照してください。
 
-サーバーにローカル構成ストアをインストールし、Lync Server 2013 コンポーネントをインストールして、フロントエンドサーバーまたはフロントエンドサーバーで証明書を構成したら、サーバー上で Lync Server 2013 サービスを開始する必要があります。 展開の各フロントエンドサーバーでサービスを開始するには、次の手順を実行します。
+サーバーにローカル構成ストアをインストールし、Lync Server 2013 コンポーネントをインストールして、フロントエンドサーバーまたはフロントエンドサーバーで証明書を構成すると、サーバー上で Lync Server 2013 サービスを開始する必要があります。 次の手順を使用して、展開内の各フロントエンドサーバーでサービスを開始します。
 
 <div>
 
-## <a name="to-start-services-on-a-standard-edition-or-front-end-server"></a>標準エディションまたはフロントエンドサーバーでサービスを開始するには
+## <a name="to-start-services-on-a-standard-edition-or-front-end-server"></a>Standard Edition またはフロントエンドサーバーでサービスを開始するには
 
-1.  Lync Server の展開ウィザードの [ **Lync server 2013** ] ページで、[**手順 4: サービスを開始**する] の横にある [**実行**] をクリックします。
+1.  Lync Server 展開ウィザードの [ **Lync server 2013** ] ページで、[**ステップ 4: サービスの開始**] の横にある [**実行**] をクリックします。
 
 2.  [**サービスの開始**] ページで、[**次**へ] をクリックして、サーバー上の Lync Server サービスを開始します。
 
-3.  すべてのサービスが正常に開始されたら、[**コマンドの実行**] ページで [**終了**] をクリックします。
+3.  すべてのサービスが正常に開始されたら、**[コマンドの実行]** ページで **[終了]** をクリックします。
     
     <div>
     
 
     > [!IMPORTANT]  
-    > サーバー上のサービスを開始するコマンドは、実際にサービスが開始されたことを報告するためのベストエフォートメソッドです。 サービスの実際の状態を反映していない場合もあります。 [<STRONG>サービスの開始</STRONG>] のすぐ下にある手順<STRONG>サービスの状態 (オプション)</STRONG>を使って MICROSOFT 管理コンソール (MMC) を開き、サービスが正常に開始されたことを確認することをお勧めします。 いずれかの Lync Server サービスが開始されていない場合は、MMC でそのサービスを右クリックし、[<STRONG>開始</STRONG>] をクリックします。
+    > サーバーのサービスを開始するコマンドは、サービスが事実上開始されたことをレポートするベストエフォート型の方法です。 サービスの実際の状態を反映していない場合もあります。 [<STRONG>サービスの開始</STRONG>] の直後に、ステップ [<STRONG>サービスの状態 (オプション)</STRONG>] で Microsoft 管理コンソール (MMC) を開き、サービスが正常に開始されたことを確認することをお勧めします。 いずれかの Lync Server サービスが開始されていない場合は、MMC でそのサービスを右クリックし、[<STRONG>開始</STRONG>] をクリックします。
 
     
     </div>

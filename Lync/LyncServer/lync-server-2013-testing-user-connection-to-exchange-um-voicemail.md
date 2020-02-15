@@ -12,16 +12,16 @@ ms:contentKeyID: 63969604
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c533781fedc3bf3d6266bae80e5c59cacbec4874
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ae68b9a5fb2e03fd08fbc7cd06507c54a383197f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745387"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033306"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41745387"
 
 <span> </span>
 
-_**最終更新日:** 2014-11-01_
+_**トピックの最終更新日:** 2014-11-01_
 
 
 <table>
@@ -45,8 +45,8 @@ _**最終更新日:** 2014-11-01_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>確認のスケジュール</p></td>
-<td><p>[毎日]</p></td>
+<td><p>検証スケジュール</p></td>
+<td><p>毎日</p></td>
 </tr>
 <tr class="even">
 <td><p>テストツール</p></td>
@@ -54,8 +54,8 @@ _**最終更新日:** 2014-11-01_
 </tr>
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
-<td><p>Lync Server 管理シェルを使用してローカルで実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使って実行する場合は、<strong>テスト-CsExUMVoiceMail メール</strong>コマンドレットを実行する権限を持つ RBAC の役割をユーザーに割り当てる必要があります。 このコマンドレットを使うことができるすべての RBAC ロールの一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合は、<strong>テスト-CsExUMVoiceMail メール</strong>コマンドレットを実行するためのアクセス許可を持つ RBAC の役割がユーザーに割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsExUMVoiceMail&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +66,7 @@ _**最終更新日:** 2014-11-01_
 
 ## <a name="description"></a>説明
 
-**テスト-CsExUMVoiceMail メール**コマンドレットを使用すると、管理者は、ユーザーが Microsoft Exchange Server 2013 ユニファイドメッセージングサービスにアクセスして使用できることを確認できます。 これを行うために、コマンドレットはユニファイドメッセージングサービスに接続し、指定されたメールボックスにボイスメールを残します。 これは、システムによって提供されるボイスメールの場合もあれば、カスタムの場合もあります。自分で録音した WAV ファイル。
+**Test-CsExUMVoiceMail**コマンドレットを使用すると、管理者はユーザーが Microsoft Exchange Server 2013 ユニファイドメッセージングサービスにアクセスして使用できることを確認できます。 このために、コマンドレットはユニファイド メッセージング サービスに接続し、指定されたメールボックスにボイス メールを残します。 このボイス メールは、システムが提供するボイス メールか、自分自身で録音したカスタムの .WAV ファイルです。
 
 </div>
 
@@ -74,19 +74,19 @@ _**最終更新日:** 2014-11-01_
 
 ## <a name="running-the-test"></a>テストの実行
 
-次の例では、プール atl-cs-001.litwareinc.com の Exchange ユニファイドメッセージングのボイスメール接続をテストします。 このコマンドは、テストユーザーがプール atl-cs-001.litwareinc.com に対して定義されている場合にのみ機能します。 その場合、コマンドは、最初のテストユーザーがユニファイドメッセージングボイスメールを使用できるかどうかを決定します。 プールのテストユーザーが構成されていない場合、コマンドは失敗します。
+次の例では、プール atl-cs-001.litwareinc.com の Exchange ユニファイドメッセージングボイスメール接続をテストします。 このコマンドは、atl-cs-001.litwareinc.com プールに対してテストユーザーが定義されている場合にのみ機能します。 その場合は、コマンドによって、最初のテストユーザーがユニファイドメッセージングボイスメールを使用できるかどうかが判断されます。 プールに対してテストユーザーが構成されていない場合、コマンドは失敗します。
 
     Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress "sip:kenmyer@litwareinc.com" 
 
-次の例に示すコマンドは、ユーザー litwareinc\\Kenmyer の Exchange ユニファイドメッセージングのボイスメール接続のテストです。 これを行うには、この例の最初のコマンドでは、 **Credential**コマンドレットを使って、user litwareinc\\kenmyer の Windows PowerShell コマンドラインインターフェイスの credentials オブジェクトを作成します。 このアカウントのパスワードを入力して、有効な資格情報オブジェクトを作成し、**テスト用の CsExUMVoiceMail メール**コマンドレットでチェックを実行できるようにする必要があることに注意してください。
+次の例に示すコマンドは、ユーザー litwareinc\\Kenmyer の Exchange ユニファイドメッセージングボイスメール接続をテストします。 これを行うには、この例の最初のコマンド**は、litwareinc コマンドレットを**使用して、user\\kenmyer の Windows PowerShell コマンドラインインターフェイス資格情報オブジェクトを作成します。 有効な資格情報オブジェクトを作成するには、このアカウントのパスワードを指定する必要があります。また、 **Test-CsExUMVoiceMail メール**コマンドレットでチェックを実行できることに注意してください。
 
-この例の2番目のコマンドでは、指定された資格情報オブジェクト ($x) と\\ユーザー litwareinc KENMYER の SIP アドレスを使って、Exchange ユニファイドメッセージングボイスメールに接続できるかどうかを決定します。
+この例の2番目のコマンドでは、指定された credentials オブジェクト ($x) とユーザー\\litwareinc KENMYER の SIP アドレスを使用して、このユーザーが Exchange ユニファイドメッセージングボイスメールに接続できるかどうかを判断します。
 
     $credential = Get-Credential "litwareinc\pilar" 
     
     Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress "sip:kenmyer@litwareinc.com" -SenderSipAddress "sip:pilar@litwareinc.com" -SenderCredential $credential 
 
-次の例に示すコマンドは、例1に示すコマンドの変形です。この例では、OutLoggerVariable パラメーターが含まれており、**テスト-CsExUMVoiceMail メール**レットによって実行されたすべての手順の詳細なログを生成し、それらの各手順の成功または失敗を生成します。 これを行うには、パラメーター値 ExumText と共に OutLoggerVariable パラメーターを追加します。これにより、詳細なログ情報が $ExumTest という名前の変数に格納されます。 この例の最後のコマンドでは、ToXML () メソッドを使ってログ情報を XML 形式に変換しています。 その XML データは、\\\\VoicemailTest コマンドレットを使用して、C: という名前のファイルに書き込まれます。
+次の例に示すコマンドは、例1に示すコマンドのバリエーションです。この例では、OutLoggerVariable パラメーターが含まれています。このパラメーターは、**テスト-CsExUMVoiceMail メール**レットによって実行されたすべてのステップの詳細ログを生成し、それらの各ステップの成功または失敗を生成します。 これを行うには、パラメーター値 ExumText の横に OutLoggerVariable パラメーターを追加します。これにより、詳細なログ情報が $ExumTest という名前の変数に格納されます。 この例の最後のコマンドでは、ToXML () メソッドを使用して、ログ情報を XML 形式に変換します。 その XML データは、VoicemailTest コマンドレットを使用して C:\\Logs\\という名前のファイルに書き込まれます。
 
     Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress "sip:kenmyer@litwareinc.com" -OutLoggerVariable VoicemailTest 
      
@@ -96,31 +96,31 @@ _**最終更新日:** 2014-11-01_
 
 <div>
 
-## <a name="determining-success-or-failure"></a>成功または失敗を確認する
+## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
-Exchange の統合が適切に構成されている場合は、次のような結果が返され、Result プロパティは**Success**とマークされます。
+Exchange の統合が正しく構成されている場合は、次のような出力が得られ、Result プロパティは**Success**としてマークされます。
 
 ターゲット Fqdn: atl-cs-001.litwareinc.com
 
 結果: 成功
 
-待ち時間:00:00: 02.9911345
+待機時間:00:00: 02.9911345
 
 エラーメッセージ:
 
-診断
+分析
 
-指定したユーザーがボイスメールに接続できない場合、結果はエラーとして表示さ**れ、エラー**と診断のプロパティに追加情報が記録されます。
+指定したユーザーがボイスメールに接続できない場合、結果は**失敗**として表示され、エラーと診断のプロパティに追加情報が記録されます。
 
-警告: 指定した完全修飾のレジストラーポート番号の読み取りに失敗しました
+警告: 指定された完全修飾のレジストラーポート番号を読み取ることができませんでした
 
-ドメイン名 (FQDN)。 既定のレジストラーポート番号を使用します。 エラー
+ドメイン名 (FQDN)。 既定のレジストラーポート番号を使用します。 例外
 
-InvalidOperationException: トポロジで一致するクラスターが見つかりませんでした。
+System.invalidoperationexception: トポロジ内に一致するクラスターが見つかりませんでした。
 
-自宅
+下部
 
-SipSyntheticTransaction-TryRetri の同期を行います。
+TryRetri を SipSyntheticTransaction していることを示します。
 
 eveRegistrarPortFromTopology (Int32& registrarPortNumber)
 
@@ -128,37 +128,37 @@ eveRegistrarPortFromTopology (Int32& registrarPortNumber)
 
 結果: エラー
 
-待ち時間: 00:00:00
+待機時間: 00:00:00
 
-エラーメッセージ: 10060、接続されているパーティのため、接続に失敗しました
+エラーメッセージ: 10060。接続しているパーティが原因で接続に失敗しました。
 
-一定の期間が経過した後に正しく応答しなかった場合、または
+一定期間後に正しく応答しなかったか、または
 
-接続されているホストに、接続に失敗しました
+接続されたホストの接続に失敗しました。
 
-10.188.116.96 に応答できませんでした: 5061
+10.188.116.96: 5061 に応答できませんでした
 
-内部例外: 接続の試行が失敗したため、接続できませんでした。
+内部例外: 接続の試行が失敗しました。
 
-しばらくしても、接続されているパーティが正しく応答しませんでした
+接続されたパーティは、一定期間の後に正しく応答しませんでした
 
-接続されているホストが原因で、時刻、または接続に失敗しました
+接続されているホストが原因で、接続に失敗しました。
 
-さんが10.188.116.96 に応答できませんでした: 5061
+10.188.116.96: 5061 に応答できませんでした
 
-診断
+分析
 
 </div>
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a>テストに失敗した可能性がある理由
+## <a name="reasons-why-the-test-might-have-failed"></a>テストが失敗した理由
 
-次に **、テスト-CsExUMVoiceMail メール**が失敗する理由をいくつか示します。
+**テスト-CsExUMVoiceMail メール**が失敗する原因となる一般的な理由を次に示します。
 
-  - 指定されたパラメーター値が正しくありません。 使用する場合は、オプションのパラメーターが正しく構成されている必要があります。または、テストが失敗します。 省略可能なパラメーターを指定せずにコマンドを再実行し、それが成功するかどうかを確認します。
+  - 指定されたパラメーター値が正しくありません。 省略可能なパラメーターが使用されている場合、オプションのパラメーターが正しく構成されている必要があります。テストは失敗します。 オプションのパラメーターを指定せずにコマンドを再実行し、それが成功するかどうかを確認します。
 
-  - このコマンドは、Exchange サーバーが正しく構成されていないか、まだ展開されていない場合に失敗します。
+  - Exchange サーバーが正しく構成されていないか、まだ展開されていない場合、このコマンドは失敗します。
 
 </div>
 
@@ -167,7 +167,7 @@ eveRegistrarPortFromTopology (Int32& registrarPortNumber)
 ## <a name="see-also"></a>関連項目
 
 
-[Test-CsExUMConnectivity](https://docs.microsoft.com/powershell/module/skype/Test-CsExUMConnectivity)  
+[テスト-CsExUMConnectivity](https://docs.microsoft.com/powershell/module/skype/Test-CsExUMConnectivity)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013 への残りのユーザーの移動
+title: 残りのユーザーを Lync Server 2013 に移動する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733689
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d60b3ba622e88978a8bbf555972c95979e8f8c3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 43be496d0fea280374358b1967ee899ad67624b7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743757"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034537"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="move-remaining-users-to-lync-server-2013"></a>Lync Server 2013 への残りのユーザーの移動
+# <a name="move-remaining-users-to-lync-server-2013"></a>残りのユーザーを Lync Server 2013 に移動する
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41743757"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-29_
+_**トピックの最終更新日:** 2012-09-29_
 
-Lync Server コントロールパネルまたは Lync Server 管理シェルを使用して、ユーザーを新しい Lync Server 2013 の展開に移動することができます。 Lync Server 2013 にスムーズに移行するためには、いくつかの要件を満たしている必要があります。 このトピックの手順を完了するための前提条件の詳細については、「[移行のためにクライアントを構成](configure-clients-for-migration.md)する」を参照してください。 ユーザーの移動の詳細な手順については、「[フェーズ 4: テストユーザーをパイロットプールに移動する](phase-4-move-test-users-to-the-pilot-pool.md)」を参照してください。
+Lync Server コントロールパネルまたは Lync Server 管理シェルを使用して、ユーザーを新しい Lync Server 2013 展開に移動することができます。 Lync Server 2013 にスムーズに移行できるようにするには、いくつかの要件を満たす必要があります。 このトピックの手順を完了するための前提条件の詳細については、「 [Configure clients for migration](configure-clients-for-migration.md)」を参照してください。 ユーザーの移動の詳細な手順については、「[フェーズ 4: テストユーザーをパイロットプールに移動する](phase-4-move-test-users-to-the-pilot-pool.md)」を参照してください。
 
 <div>
 
 
 > [!IMPORTANT]  
-> Active Directory ユーザーとコンピューターのスナップインまたは Lync Server 2010 管理ツールを使用して、ユーザーを従来の環境から Lync Server 2013 に移動することはできません。
+> Active Directory ユーザーとコンピュータースナップインまたは Lync Server 2010 管理ツールを使用して、レガシ環境から Lync Server 2013 にユーザーを移動することはできません。
 
 
 
 </div>
 
-ユーザーを Lync Server 2013 プールに移動すると、そのユーザーのデータは、新しいプールに関連付けられているバックエンドデータベースに移動されます。
+ユーザーを Lync Server 2013 プールに移動すると、そのユーザーのデータは、新しいプールに関連付けられたバックエンドデータベースに移動されます。
 
 <div>
 
 
 > [!IMPORTANT]  
-> これには、従来のユーザーによって作成されたアクティブな会議も含まれます。 たとえば、従来のユーザーが<STRONG>会議</STRONG>用の会議を構成している場合は、ユーザーが移動された後も、新しい Lync Server 2013 プールでその会議を利用できます。 会議にアクセスするための詳細は、会議の<STRONG>URL と会議 ID と</STRONG>同じである必要があります。 唯一の違いは、会議が lync server 2013 プールでホストされており、Lync Server 2010 プールではホストされていないことです。
+> これには、レガシ ユーザーによって作成されたアクティブな会議が含まれます。 たとえば、従来のユーザーが<STRONG>会議</STRONG>の会議を構成している場合は、ユーザーが移動された後も、新しい Lync Server 2013 プールでその会議を利用できます。 会議へのアクセスに使用する<STRONG>会議 URL と電話会議 ID</STRONG> も同じです。 唯一の違いは、会議が lync server 2010 プールではなく Lync Server 2013 プールでホストされるようになったことです。
 
 
 
@@ -65,7 +65,7 @@ Lync Server コントロールパネルまたは Lync Server 管理シェルを�
 
 
 > [!NOTE]  
-> Lync Server 2013 のホームユーザーは、アップグレードされたクライアントを展開する必要はありません。 新しい機能は、ユーザーが新しいクライアントソフトウェアにアップグレードした場合にのみ利用可能になります。
+> Lync Server 2013 上のホームユーザーは、アップグレードされたクライアントを同時に展開する必要はありません。 クライアントが新しいクライアント ソフトウェアにアップグレードされている場合に限り、ユーザーは新しい機能を使用できます。
 
 
 
@@ -73,15 +73,15 @@ Lync Server コントロールパネルまたは Lync Server 管理シェルを�
 
 <div>
 
-## <a name="post-migration-task"></a>移行後の作業
+## <a name="post-migration-task"></a>移行後のタスク
 
-1.  ユーザーを移動した後、それらに割り当てられている会議ポリシーを確認します。
+1.  ユーザーを移動した後、ユーザーに割り当てられている会議ポリシーを確認します。
 
-2.  Lync Server 2013 を使っているユーザーによって開催された会議が、Lync Server 2010 を使用しているフェデレーションユーザーとシームレスに動作するようにするには、移行したユーザーに割り当てられている会議ポリシーで、匿名の参加者を許可する必要があります。
+2.  Lync server 2013 に所属するユーザーによって開催された会議が、Lync Server 2010 に所属しているフェデレーションユーザーとシームレスに機能するようにするには、移行したユーザーに割り当てられている会議ポリシーで匿名の参加者を許可する必要があります。
 
-3.  匿名の参加者を許可する会議ポリシーでは、Lync server 2013 コントロールパネルで選択された**匿名ユーザーの招待を許可**することができます。また、Lync Server 管理シェルの**set-csconferencingpolicy**コマンドレットの出力で**AllowAnonymousParticipantsInMeetings**を**True**に設定します。
+3.  匿名参加者に許可されている会議ポリシーによって、Lync server 2013 コントロールパネルで選択した**匿名ユーザーの招待を参加者に許可**し、Lync Server 管理シェルの**get-csconferencingpolicy**コマンドレットの出力で**AllowAnonymousParticipantsInMeetings**を**True**に設定しました。
 
-4.  Lync Server 管理シェルを使用して会議ポリシーを構成する方法の詳細については、「Lync Server 管理シェルドキュメントの[set-csconferencingpolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsConferencingPolicy) 」を参照してください。
+4.  Lync Server 管理シェルを使用した会議ポリシーの構成の詳細については、「Lync Server Management Shell」のドキュメントの「 [get-csconferencingpolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsConferencingPolicy) 」を参照してください。
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: SQL Server クラスタリングを構成する'
+title: 'Lync Server 2013: SQL Server のクラスター化の構成'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 56472032
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b63d338e630da93c90b573ac098d47e0929f0d84
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 984e7d7e287e9177fff5798c9cb20ab476591f46
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729997"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035199"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-sql-server-clustering-for-lync-server-2013"></a>Lync Server 2013 用の SQL Server クラスタリングを構成する
+# <a name="configure-sql-server-clustering-for-lync-server-2013"></a>Lync Server 2013 の SQL Server クラスタリングを構成する
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41729997"
 
 <span> </span>
 
-_**最終更新日:** 2014-01-10_
+_**トピックの最終更新日:** 2014-01-10_
 
-Microsoft Lync Server 2013 は、SQL Server 2012 と SQL Server 2008 R2 のクラスタリングをサポートしています。 サポートされる機能の詳細については、「 [Lync Server 2013 でのデータベースソフトウェアのサポート](lync-server-2013-database-software-support.md)」を参照してください。
+Microsoft Lync Server 2013 は、SQL Server 2012 および SQL Server 2008 R2 のクラスタリングをサポートしています。 サポートされている機能の詳細については、「 [Lync Server 2013 のデータベースソフトウェアサポート](lync-server-2013-database-software-support.md)」を参照してください。
 
-Enterprise Edition フロントエンドサーバーとバックエンドデータベースをインストールして展開する前に、SQL Server クラスターをセットアップして構成する必要があります。 SQL Server 2012 のフェールオーバークラスタリングのベストプラクティスとセットアップ手順につい<http://technet.microsoft.com/en-us/library/hh231721.aspx>ては、を参照してください。 SQL Server 2008 のフェールオーバークラスタリングについ<http://technet.microsoft.com/en-us/library/ms189134(v=sql.105).aspx>ては、を参照してください。
+Enterprise Edition フロントエンドサーバーとバックエンドデータベースをインストールして展開する前に、SQL Server クラスターをセットアップして構成する必要があります。 SQL Server 2012 のフェールオーバークラスタリングのベストプラクティスとセットアップ手順につい<http://technet.microsoft.com/library/hh231721.aspx>ては、「」を参照してください。 SQL Server 2008 のフェールオーバークラスタリングについ<http://technet.microsoft.com/library/ms189134(v=sql.105).aspx>ては、「」を参照してください。
 
-SQL Server をインストールする際は、SQL Server Management Studio をインストールしてデータベースとログ ファイルの場所を管理する必要があります。SQL Server Management Studio は、SQL Server のインストール時にオプション コンポーネントとしてインストールされます。
+SQL Server をインストールする際には、データベースの場所とログ ファイルの場所を管理するための SQL Server Management Studio をインストールする必要があります。 SQL Server Management Studio は、SQL Server のインストール時にオプションのコンポーネントとしてインストールされます。
 
 <div>
 
 
 > [!IMPORTANT]  
-> SQL Server ベースのサーバーにデータベースをインストールして展開するには、データベースファイルをインストールする SQL server ベースのサーバーの SQL Server sysadmin グループのメンバーである必要があります。 SQL Server sysadmin グループのメンバーでない場合は、データベースファイルが展開されるまで、グループに追加するように依頼する必要があります。 Sysadmin グループのメンバーになることができない場合は、SQL Server データベース管理者に、データベースを構成して展開するためのスクリプトを用意する必要があります。 手順を実行するために必要な適切なユーザー権限と権限の詳細については、「 <A href="lync-server-2013-deployment-permissions-for-sql-server.md">Lync server 2013 の SQL Server の展開権限</A>」を参照してください。
+> SQL Server ベースのサーバーにデータベースをインストールおよび展開するには、データベース ファイルをインストールする SQL Server ベースのサーバーの SQL Server の sysadmins グループのメンバーである必要があります。 SQL Server の sysadmin グループのメンバーではない場合は、データベース ファイルを展開するまで、そのグループに追加してもらうように要求する必要があります。 sysadmin グループのメンバーになれない場合、SQL Server のデータベース管理者にデータベースを構成および展開するためのスクリプトを提供する必要があります。 手順を実行するために必要な正しいユーザー権限とアクセス許可の詳細については、「 <A href="lync-server-2013-deployment-permissions-for-sql-server.md">Lync server 2013 の SQL Server の展開権限</A>」を参照してください。
 
 
 
@@ -57,31 +57,31 @@ SQL Server をインストールする際は、SQL Server Management Studio を�
 
 ## <a name="to-configure-sql-server-clustering"></a>SQL Server クラスタリングを構成するには
 
-1.  SQL Server クラスタリングのインストールと構成を完了した後は、sql server の仮想クラスター名 (SQL Server クラスタリングのセットアップで構成されます) とインスタンスを使用して、トポロジビルダーで SQL Server ストアを定義します。SQL Server データベースの名前。 SQL Server ベースの1台のサーバーとは異なり、クラスター化された SQL Server ベースのサーバーには仮想ノードの完全修飾ドメイン名 (FQDN) を使用します。
+1.  SQL Server クラスタリングのインストールと構成が完了したら、sql server インスタンスの仮想クラスター名 (「SQL Server のクラスター化のセットアップ」で構成されている) とインスタンスを使用して、SQL Server ストアをトポロジビルダーで定義します。SQL Server データベースの名前。 単一の SQL Server ベースのサーバーとは異なり、クラスター化された SQL Server ベースのサーバーには仮想ノードの完全修飾ドメイン名 (FQDN) を使用します。
     
     <div>
     
 
     > [!NOTE]  
-    > 個々の Windows Server クラスターノードは、トポロジビルダー用に構成する必要はありません。 仮想 SQL Server クラスター名のみが使用されます。
+    > 個々の Windows Server クラスターノードは、トポロジビルダー用に構成する必要はありません。 仮想 SQL Server のクラスター名のみを使用します。
 
     
     </div>
 
-2.  トポロジビルダーを使用してデータベースを展開している場合は、SQL Server sysadmin グループのメンバーである必要があります。 SQL Server sysadmin グループのメンバーであるが、ドメインの権限がない場合 (たとえば、SQL Server データベース管理者の役割)、データベースを作成する権限はありますが、Lync Server で必要な情報を読み取ることはできません。 Lync Server の展開に必要なユーザー権限と権限の詳細については、「 [Lync server 2013 の SQL Server の展開権限](lync-server-2013-deployment-permissions-for-sql-server.md)」を参照してください。
+2.  トポロジビルダーを使用してデータベースを展開している場合は、SQL Server sysadmin グループのメンバーである必要があります。 SQL Server sysadmin グループのメンバーであっても、ドメイン内に権限がない (たとえば、SQL Server データベース管理者の役割) 場合は、データベースを作成する権限がありますが、Lync Server で必要な情報を読み取ることはできません。 Lync Server の展開に必要なユーザー権限とアクセス許可の詳細については、「 [Lync server 2013 の SQL Server の展開権限](lync-server-2013-deployment-permissions-for-sql-server.md)」を参照してください。
 
-3.  SQL Server Management Studio を使用して、データベースフォルダーとログファイルフォルダーの既定値が、SQL Server クラスターの共有ディスクに正しくマッピングされていることを確認します。 トポロジビルダーを使用してデータベースを作成する場合は、この手順を実行する必要があります。
+3.  SQL Server Management Studio を使用して、データベース フォルダーとログ ファイル フォルダーの既定値が、SQL Server クラスター内の共有ディスクに正しくマッピングされていることを確認してください。 これは、トポロジ ビルダーを使用してデータベースを使用する予定がある場合に必要な手順です。
     
     <div>
     
 
     > [!NOTE]  
-    > SQL Server Management Studio をインストールしていない場合は、SQL Server のインストールを再実行して、既存の SQL Server 展開の追加機能として管理ツールを選択してインストールできます。
+    > SQL Server Management Studio をインストールしていなかった場合は、SQL Server のインストールを再実行し、管理ツールを既存の SQL Server 展開の追加機能として選択することでインストールできます。
 
     
     </div>
 
-4.  トポロジビルダーまたは Windows PowerShell コマンドレットを使用して、SQL Server ベースのサーバーのデータベースをインストールします。 トポロジビルダーを使用するには、次の手順を使用します。 Windows PowerShell コマンドレットを使用するには、「 [lync server 2013 の Lync Server 管理シェルを使用したデータベースのインストール](lync-server-2013-database-installation-using-lync-server-management-shell.md)」を参照してください。
+4.  トポロジビルダーまたは Windows PowerShell コマンドレットのいずれかを使用して、SQL Server ベースのサーバーのデータベースをインストールします。 トポロジビルダーを使用するには、次の手順を使用します。 Windows PowerShell コマンドレットを使用するには、「 [lync server 2013 での Lync Server 管理シェルを使用したデータベースのインストール](lync-server-2013-database-installation-using-lync-server-management-shell.md)」を参照してください。
 
 </div>
 
@@ -89,26 +89,26 @@ SQL Server をインストールする際は、SQL Server Management Studio を�
 
 ## <a name="to-create-databases-using-topology-builder"></a>トポロジビルダーを使用してデータベースを作成するには
 
-1.  トポロジビルダーを開始します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server Topology Builder**] の順にクリックします。
+1.  トポロジ ビルダーを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server トポロジ ビルダー**] の順にクリックします。
     
     <div>
     
 
     > [!WARNING]  
-    > 次の手順では、トポロジビルダーでトポロジを定義して構成していることを前提としています。 トポロジの定義の詳細については、「<A href="lync-server-2013-defining-and-configuring-the-topology.md">Lync Server 2013 でトポロジを定義して構成する</A>」を参照してください。 トポロジビルダーを使用してトポロジを公開し、データベースを構成するには、適切なユーザー権限とグループメンバーシップを持つユーザーとしてログオンする必要があります。 必要な権限とグループメンバーシップの詳細については、「 <A href="lync-server-2013-deployment-permissions-for-sql-server.md">Lync server 2013 の SQL Server の展開権限</A>」を参照してください。
+    > 次の手順では、トポロジビルダーでトポロジを定義して構成していることを前提としています。 トポロジの定義の詳細については、「<A href="lync-server-2013-defining-and-configuring-the-topology.md">Lync Server 2013 でのトポロジの定義と構成</A>」を参照してください。 トポロジ ビルダーを使用してトポロジを公開し、データベースを構成するには、正しいユーザー権限およびグループ メンバーシップを持つユーザーとしてログオンする必要があります。 必要な権限およびグループメンバーシップの詳細については、「 <A href="lync-server-2013-deployment-permissions-for-sql-server.md">Lync server 2013 の SQL Server の展開権限</A>」を参照してください。
 
     
     </div>
 
-2.  トポロジビルダーでは、トポロジを公開するときに、[**データベースの作成**] ページで [**詳細設定**] をクリックします。
+2.  トポロジビルダーで、トポロジを公開するときに、[**データベースの作成**] ページで [**詳細設定**] をクリックします。
 
-3.  **[データベースファイルの場所の選択**] ページには、データベースファイルが SQL Server クラスターにどのように展開されるかを決定する2つのオプションがあります。 次のいずれかを選択します。
+3.  **[データベース ファイルの場所の選択]** ページには、SQL Server クラスターへのデータベース ファイルの展開方法を決定する 2 つのオプションがあります。次のどちらかを選択します。
     
-      - **データベースファイルの場所を自動的に特定します。** この選択では、アルゴリズムを使って、SQL Server ベースのサーバーのドライブ構成に基づいて、データベースログとデータファイルの場所を特定します。 ファイルは、最適なパフォーマンスを実現するための手段として配布されます。
+      - **データベースファイルの場所を自動的に決定します。** この選択では、アルゴリズムを使用して、SQL Server ベースのサーバー上のドライブ構成に基づいてデータベースログとデータファイルの場所を特定します。 これらのファイルは、最適なパフォーマンスを実現するための方法で配布されます。
     
-      - [既定の SQL Server インスタンスを使用する]。 このオプションを選択すると、SQL Server インスタンスの設定に従ってログとデータファイルがインストールされます。 Sql server にデータベースファイルを展開した後、SQL server データベース管理者は、特定の SQL Server 構成要件のパフォーマンスを最適化するために、ファイルを再配置することができます。
+      - [既定の SQL Server インスタンスを使用する]。 このオプションを選択すると、SQL Server インスタンスの設定に従ってログおよびデータ ファイルがインストールされます。 SQL Server にデータベース ファイルを展開した後、特定の SQL Server の構成要件でパフォーマンスが最適となるよう、SQL Server データベースの管理者がファイルの場所を変更する場合があります。
 
-4.  トポロジの発行を完了し、操作中にエラーがないことを確認します。
+4.  トポロジの公開を完了し、操作中にエラーが発生しなかったことを確認してください。
 
 </div>
 

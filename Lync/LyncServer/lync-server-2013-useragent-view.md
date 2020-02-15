@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: UserAgent view'
+title: 'Lync Server 2013: UserAgent ビュー'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733795
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 828e81d028fb476362a91c4fa0ab83c5e2c34c20
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7b82d8a03f159aa1c99d53dd06a0811847f77b12
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744417"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007616"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="useragent-view-in-lync-server-2013"></a>Lync Server 2013 での UserAgent の表示
+# <a name="useragent-view-in-lync-server-2013"></a>Lync Server 2013 の UserAgent ビュー
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41744417"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-03_
+_**トピックの最終更新日:** 2012-10-03_
 
-UserAgent ビューには、データベース内のレコードを持つセッションに関連しているユーザーエージェントに関する情報が格納されます。 このビューは、Microsoft Lync Server 2013 で導入されました。
+UserAgent ビューには、データベース内のレコードを持つセッションに関係しているユーザーエージェントに関する情報が格納されます。 このビューは Microsoft Lync Server 2013 で導入されました。
 
 
 <table>
@@ -57,11 +57,11 @@ UserAgent ビューには、データベース内のレコードを持つセッ�
 <tr class="odd">
 <td><p>UserAgentKey</p></td>
 <td><p>int</p></td>
-<td><p>このユーザーエージェントを識別する一意の番号です。</p></td>
+<td><p>このユーザーエージェントを識別する一意の番号。</p></td>
 </tr>
 <tr class="even">
 <td><p>UserAgent</p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td><p>ユーザーエージェント文字列。</p></td>
 </tr>
 <tr class="odd">
@@ -72,7 +72,7 @@ UserAgent ビューには、データベース内のレコードを持つセッ�
 <tr class="even">
 <td><p>UACategory</p></td>
 <td><p>nvarchar (64)</p></td>
-<td><p>ユーザーエージェントが属しているカテゴリ。 たとえば、.0 Conferencing_Attendant_1 .0 は UACategory CAA をに属しています。</p></td>
+<td><p>ユーザー エージェントが属するカテゴリ。たとえば、ユーザー エージェント Conferencing_Attendant_1.0 は UACategory CAA に属します。</p></td>
 </tr>
 </tbody>
 </table>

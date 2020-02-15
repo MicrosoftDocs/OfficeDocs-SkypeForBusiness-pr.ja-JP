@@ -1,5 +1,5 @@
 ---
-title: 'フェーズ 8: パイロット展開から実稼働への移行'
+title: 'フェーズ 8: パイロット展開から運用への移行'
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733539
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 72465d617e747616921825e771b3be6bff157a21
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 07ab5e017f165a3dc5d9883f14b3711501a0e0d4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727357"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034137"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-8-move-from-pilot-deployment-into-production"></a>フェーズ 8: パイロット展開から実稼働への移行
+# <a name="phase-8-move-from-pilot-deployment-into-production"></a>フェーズ 8: パイロット展開から運用への移行
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41727357"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-15_
+_**トピックの最終更新日:** 2012-10-15_
 
-このセクションのトピックでは、パイロット展開から実稼働レベルの展開への Lync Server 2013 の展開を移行する前に完了する必要があるタスクについて説明します。
+このセクションのトピックでは、Lync Server 2013 の展開をパイロット展開から運用レベル展開に移行する前に完了しておく必要があるタスクについて説明します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [フェデレーション ルートとメディア トラフィックの構成](configure-federation-routes-and-media-traffic_1.md)
+  - [フェデレーション ルートとメディア トラフィックを構成する](configure-federation-routes-and-media-traffic_1.md)
 
-  - [Lync Server 2013 への残りのユーザーの移動](move-remaining-users-to-lync-server-2013_1.md)
+  - [残りのユーザーを Lync Server 2013 に移動する](move-remaining-users-to-lync-server-2013_1.md)
 
-  - [Lync Server 2013 での XMPP ゲートウェイの構成](configure-xmpp-gateway-on-lync-server-2013_1.md)
+  - [Lync Server 2013 で XMPP ゲートウェイを構成する](configure-xmpp-gateway-on-lync-server-2013_1.md)
 
 </div>
 

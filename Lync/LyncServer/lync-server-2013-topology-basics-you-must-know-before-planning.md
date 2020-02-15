@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 計画の前に理解しておく必要があるトポロジの基本'
+title: Lync Server 2013 を計画する前に把握しておく必要があるトポロジの基本
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184510
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9034ce0802cce542c8e7b893feaafd618bb56b97
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: af22effc5c16f824952806dffe1d6c646b4b7654
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745197"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036587"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="topology-basics-you-must-know-before-planning-for-lync-server-2013"></a>Lync Server 2013 に関して計画の前に理解しておく必要があるトポロジの基本
+# <a name="topology-basics-you-must-know-before-planning-for-lync-server-2013"></a>Lync Server 2013 を計画する前に把握しておく必要があるトポロジの基本
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41745197"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-25_
+_**トピックの最終更新日:** 2012-09-25_
 
-計画ツールを実行するには、Lync Server の専門家である必要はありません。 実際には、計画ツールを複数回実行して、質問に異なる方法で答えることができます。出力を比較することは、Lync Server について学習するための優れた方法です。
+計画ツールを実行するには、Lync Server の専門家である必要はありません。 実際には、計画ツールを複数回実行して、質問に異なる回答を行い、出力を比較して Lync Server について理解していただくことをお勧めします。
 
-さまざまなコンポーネントについてさらに詳しく理解する前に、Lync Server 2013 トポロジの次の基本的な側面について理解しておく必要があります。
+さまざまなコンポーネントについて詳しく知る前に、Lync Server 2013 のトポロジの次の基本的な側面について理解しておく必要があります。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 の Lync Server サイト](lync-server-2013-sites.md)
+  - [Lync server 2013 の lync Server サイト](lync-server-2013-sites.md)
 
   - [Lync Server 2013 のサーバーの役割](lync-server-2013-server-roles.md)
 

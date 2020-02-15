@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 常設チャット データベースのクエリのサンプル'
+title: 'Lync Server 2013: 常設チャットデータベースのクエリのサンプル'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184133
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a31863ef11f144b5996468ccbeef35f55bd9aa66
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3fc1d53046b6a43da38a7a91c7e19f195e6667f1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732767"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41987302"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="sample-persistent-chat-database-queries-for-lync-server-2013"></a>Lync Server 2013 の常設チャット データベースのクエリのサンプル
+# <a name="sample-persistent-chat-database-queries-for-lync-server-2013"></a>Lync Server 2013 の常設チャットデータベースのクエリのサンプル
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41732767"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-06_
+_**トピックの最終更新日:** 2012-10-06_
 
-このセクションには、常設チャットデータベースのサンプルクエリが含まれています。
+このセクションには、常設チャットデータベースのクエリの例が含まれています。
 
-次の例を使用して、特定の日付以降にアクティブになっている常設チャットルームの一覧を取得します。
+特定の日付以降に最もアクティブな常設チャットルームのリストを取得するには、次の例を使用します。
 
     SELECT nodeName as ChatRoom, COUNT(*) as ChatMessages
       FROM tblChat, tblNode
@@ -47,7 +47,7 @@ _**最終更新日:** 2012-10-06_
       GROUP BY nodeName
       ORDER BY ChatMessages DESC
 
-次の例を使用して、特定の日付以降の最もアクティブなユーザーの一覧を取得します。
+特定の日付以降に最もアクティブなユーザーのリストを取得するには、次の例を使用します。
 
     SELECT prinName as Name, count(*) as ChatMessages
       FROM tblChat, tblPrincipal
@@ -55,25 +55,25 @@ _**最終更新日:** 2012-10-06_
       GROUP BY prinName
       ORDER BY ChatMessages DESC
 
-次の例を使用すると、"Hello World" というメッセージが送信されたすべてのユーザーの一覧を取得できます。
+"Hello World" という文字列が含まれるメッセージを送信したことがあるユーザー全員のリストを取得するには、次の例を使用します。
 
     SELECT nodeName as ChatRoom, prinName as Name, content as Message
       FROM tblChat, tblNode, tblPrincipal
       WHERE channelId = nodeID AND userId = prinID AND content like '%Hello World%'
 
-特定のプリンシパルのグループメンバーシップの一覧を取得するには、次の例を使用します。
+特定のプリンシパルのグループ メンバーシップのリストを取得するには、次の例を使用します。
 
     SELECT prinName as Name    
       FROM tblPrincipalAffiliations as pa, tblPrincipal
       where principalID = 7 and affiliationID = prinID
 
-次の例を使用して、ユーザーの Jane が直接メンバーであるすべてのチャットルームの一覧を取得します。
+ユーザー Jane Dow が直接メンバーであるすべてのチャット ルームのリストを取得するには、次の例を使用します。
 
     SELECT DISTINCT nodeName as ChatRoom, prinName as Name          
       FROM tblPrincipalRole, tblPrincipal, tblNode
       WHERE  prinRoleNodeID = nodeID AND prinRolePrinID = prinID AND prinName = 'Jane Dow'
 
-ユーザーが受信した招待状の一覧を取得するには、次の例を使用します。
+ユーザーが受け取った招待のリストを取得するには、次の例を使用します。
 
     SELECT prinName
           ,nodeName

@@ -1,5 +1,5 @@
 ---
-title: 共有線の外観 (SLA) コマンドレット
+title: 共有回線の外観 (SLA) のコマンドレット
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 72808515
 ms.date: 04/12/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cd799d8f6dc04a060fa658ccca53096b8432e806
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 638fe68c0cd1f1521e689dd0e769f501833c39ed
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730228"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035683"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="shared-line-appearance-sla-cmdlets"></a>共有線の外観 (SLA) コマンドレット
+# <a name="shared-line-appearance-sla-cmdlets"></a>共有回線の外観 (SLA) のコマンドレット
 
 </div>
 
@@ -35,34 +35,34 @@ ms.locfileid: "41730228"
 
 <span> </span>
 
-_**最終更新日:** 2016-04-12_
+_**トピックの最終更新日:** 2016-04-12_
 
-単一の線の外観 (SLA) に関連するコマンドレットを使用すると、共有された電話番号を複数の代理人で構成できます。
+一重線の表示 (SLA) に関連するコマンドレットを使用すると、その回線を利用できる複数の代理人との共有電話番号を構成できます。
 
 <div>
 
 ## <a name="sla-cmdlets"></a>SLA のコマンドレット
 
-SLA には、次のコマンドレットを使用します。
+SLA に対して、次のコマンドレットを使用します。
 
-**SLA の構成**
-
-  - <span></span>  
-    [Get-CsSlaConfiguration](https://technet.microsoft.com/en-us/library/Mt703200(v=OCS.15))
+**SLA を構成する**
 
   - <span></span>  
-    [Set-CsSlaConfiguration](https://technet.microsoft.com/en-us/library/Mt703202(v=OCS.15))
+    [Set-csslaconfiguration](https://technet.microsoft.com/library/Mt703200(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsSlaConfiguration](https://technet.microsoft.com/en-us/library/Mt703201(v=OCS.15))
-
-**SLA デリゲートの構成**
+    [Set-csslaconfiguration](https://technet.microsoft.com/library/Mt703202(v=OCS.15))
 
   - <span></span>  
-    [Add-CsSlaDelegates](https://technet.microsoft.com/en-us/library/Mt703199(v=OCS.15))
+    [Set-csslaconfiguration](https://technet.microsoft.com/library/Mt703201(v=OCS.15))
+
+**SLA 委任を構成する**
 
   - <span></span>  
-    [Remove-CsSlaDelegates](https://technet.microsoft.com/en-us/library/Mt703203(v=OCS.15))
+    [CsSlaDelegates](https://technet.microsoft.com/library/Mt703199(v=OCS.15))
+
+  - <span></span>  
+    [CsSlaDelegates](https://technet.microsoft.com/library/Mt703203(v=OCS.15))
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: アドレスを確認する'
+title: 'Lync Server 2013: アドレスの検証'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185108
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 397c1037937e100f1981a689f0860362d852ed10
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 75eeabe640c9d66c897d59f4e06bb485a482ed04
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743807"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007446"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="validate-addresses-in-lync-server-2013"></a>Lync Server 2013 で住所を検証する
+# <a name="validate-addresses-in-lync-server-2013"></a>Lync Server 2013 での住所の検証
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41743807"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-17_
+_**トピックの最終更新日:** 2012-09-17_
 
-位置情報データベースを公開する前に、SIP トランクまたは公衆交換電話網 (PSTN) E9 サービスプロバイダーによって維持されている、主要な住所ガイド (MSAG) に対して新しい場所を検証する必要があります。
+場所データベースを公開する前に、SIP トランクまたは公衆交換電話網 (PSTN) E9-1-1 サービス プロバイダーが維持する主要道路住所案内 (MSAG) で新しい場所を確認する必要があります。
 
-SIP トランクの E9 サービスプロバイダの詳細については、「 [Lync Server 2013 の E9 サービスプロバイダーを選択する](lync-server-2013-choosing-an-e9-1-1-service-provider.md)」を参照してください。
+SIP トランク E9-1-1 サービスプロバイダーの詳細については、「 [Lync Server 2013 の E9-1-1 サービスプロバイダーの選択](lync-server-2013-choosing-an-e9-1-1-service-provider.md)」を参照してください。
 
-住所の検証の詳細については、次のコマンドレットの Lync Server 管理シェルに関するドキュメントを参照してください。
+住所の検証の詳細については、以下のコマンドレットの Lync Server Management Shell のドキュメントを参照してください。
 
-  - **Get-CsLisServiceProvider**
+  - **CsLisServiceProvider**
 
-  - **Set-CsLisServiceProvider**
+  - **CsLisServiceProvider**
 
-  - **Remove-CsLisServiceProvider**
+  - **CsLisServiceProvider**
 
-  - **Get-CsLisCivicAddress**
+  - **Test-csliscivicaddress**
 
-  - **テスト-CsLisCivicAddress**
+  - **Test-csliscivicaddress**
 
 <div>
 
 ## <a name="to-validate-addresses-located-in-the-location-database"></a>場所データベースにある住所を確認するには
 
-1.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+1.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
 2.  次のコマンドレットを実行して、緊急サービス プロバイダーとの接続を構成します。
     

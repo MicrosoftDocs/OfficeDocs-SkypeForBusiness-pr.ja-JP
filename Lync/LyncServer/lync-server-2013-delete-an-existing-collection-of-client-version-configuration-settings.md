@@ -1,5 +1,5 @@
 ---
-title: クライアントバージョンの構成設定の既存のコレクションを削除する
+title: クライアントバージョン構成設定の既存のコレクションを削除する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 50873760
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf3015358c27786b03b505e580acd599e26d4f3a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 00b594254b4ecac166be8e639dd8e7d437fcdffc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737427"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007055"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="delete-an-existing-collection-of-client-version-configuration-settings-in-lync-server-2013"></a>Lync Server 2013 でクライアントバージョンの構成設定の既存のコレクションを削除する
+# <a name="delete-an-existing-collection-of-client-version-configuration-settings-in-lync-server-2013"></a>Lync Server 2013 でクライアントバージョン構成設定の既存のコレクションを削除する
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41737427"
 
 _**トピックの最終更新日:** 2013-02-23_
 
-サイト用に以前に構成されていたクライアントの構成設定を削除する場合は、Lync Server 2013 コントロールパネルまたは Lync Server 2013 管理シェルから設定を削除します。
+以前にサイト用に構成されたクライアント構成設定を削除する場合は、Lync Server 2013 コントロールパネルまたは Lync Server 2013 管理シェルから設定を削除できます。
 
 <div>
 
@@ -45,25 +45,25 @@ _**トピックの最終更新日:** 2013-02-23_
 
 1.  CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
-3.  左側のナビゲーションバーで、[**クライアント**] をクリックし、[**クライアントバージョンの構成**] ナビゲーションボタンをクリックします。
+3.  左側のナビゲーションバーで [**クライアント**] をクリックし、[**クライアントバージョンの構成**] ナビゲーションボタンをクリックします。
 
-4.  サイトを選択し、[**編集**] をクリックし、[**削除**] をクリックして、[ **OK]** をクリックします。
+4.  サイトを選択し、[**編集**]、[**削除**]、[ **OK**] の順にクリックします。
 
 </div>
 
 <div>
 
-## <a name="removing-client-version-configuration-settings-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用してクライアントのバージョン構成設定を削除する
+## <a name="removing-client-version-configuration-settings-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用してクライアントバージョン構成設定を削除する
 
-クライアントのバージョン設定を削除するには、ユーザー**設定コマンドレット**を使用します。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
+クライアントバージョン構成**設定は、コマンドレット**を使用して削除できます。 このコマンドレットは、Lync Server 2013 管理シェルから実行するか、Windows PowerShell のリモートセッションから実行できます。 リモート Windows PowerShell を使用して Lync Server に接続する方法の詳細については、Lync Server Windows PowerShell のブログ記事「Quick Start: Microsoft Lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)を使用したリモート PowerShell の管理」を参照してください。
 
 <div>
 
-## <a name="to-remove-a-specified-collection-of-client-version-configuration-settings"></a>指定したクライアントバージョンの構成設定のコレクションを削除するには
+## <a name="to-remove-a-specified-collection-of-client-version-configuration-settings"></a>指定したクライアントバージョン構成設定のコレクションを削除するには
 
-  - 次のコマンドは、Redmond サイトに適用されているクライアントのバージョン設定を削除します。
+  - 次のコマンドは、Redmond サイトに適用されているクライアントバージョンの構成設定を削除します。
     
         Remove-CsClientVersionConfiguration -Identity "site:Redmond"
 
@@ -71,9 +71,9 @@ _**トピックの最終更新日:** 2013-02-23_
 
 <div>
 
-## <a name="to-remove-all-the-client-version-configuration-settings-applied-to-the-site-scope"></a>サイトの範囲に適用されているすべてのクライアントバージョンの構成設定を削除するには
+## <a name="to-remove-all-the-client-version-configuration-settings-applied-to-the-site-scope"></a>サイトスコープに適用されているすべてのクライアントバージョン構成設定を削除するには
 
-  - このコマンドは、サイトスコープで構成されているすべてのクライアントバージョンの構成設定を削除します。
+  - このコマンドは、サイトスコープで構成されているすべてのクライアントバージョン構成設定を削除します。
     
         Get-CsClientVersionConfiguration -Filter site:* | Remove-CsClientVersionConfiguration
 
@@ -81,15 +81,15 @@ _**トピックの最終更新日:** 2013-02-23_
 
 <div>
 
-## <a name="to-remove-all-the-client-version-configuration-settings-based-on-the-value-of-the-defaultaction-property"></a>DefaultAction プロパティの値に基づいて、すべてのクライアントバージョンの構成設定を削除するには
+## <a name="to-remove-all-the-client-version-configuration-settings-based-on-the-value-of-the-defaultaction-property"></a>DefaultAction プロパティの値に基づいて、すべてのクライアントバージョン構成設定を削除するには
 
-  - このコマンドを実行すると、既定のアクションが "Block" に設定されているすべてのクライアントバージョンの構成設定が削除されます。
+  - 次のコマンドを実行すると、既定のアクションが "ブロック" に設定されているすべてのクライアントバージョンの構成設定が削除されます。
     
         Get-CsClientVersionConfiguration | Where-Object {$_.DefaultAction -eq "Block" | Remove-CsClientVersionConfiguration
 
 </div>
 
-詳細については、「 [CsClientVersionConfiguration](https://technet.microsoft.com/en-us/library/Gg425925(v=OCS.15))コマンドレットのヘルプ」を参照してください。
+詳細については、「 [Remove-CsClientVersionConfiguration](https://technet.microsoft.com/library/Gg425925(v=OCS.15))コマンドレット」のヘルプトピックを参照してください。
 
 </div>
 

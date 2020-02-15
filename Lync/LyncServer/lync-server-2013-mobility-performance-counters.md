@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: モビリティーパフォーマンスカウンター'
+title: 'Lync Server 2013: モビリティパフォーマンスカウンター'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185441
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 439c179476c89de8a5245e80e26586d42f4f6e3b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 56454e4ea4fa1498dc73056d5b5f01193b007352
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758689"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006153"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="mobility-performance-counters-in-lync-server-2013"></a>Lync Server 2013 のモバイルパフォーマンスカウンター
+# <a name="mobility-performance-counters-in-lync-server-2013"></a>Lync Server 2013 のモビリティパフォーマンスカウンター
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41758689"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-22_
+_**トピックの最終更新日:** 2013-02-22_
 
-次の表は、ユニファイドコミュニケーション Web API (UCWA) および Lync Server 2013 Mcx Mobility Service を実行しているサーバーを監視するために使用できるパフォーマンスカウンターの名前と説明を示しています。
+次の表に、統合コミュニケーション Web API (UCWA) および Lync Server 2013 Mcx Mobility Service を実行しているサーバーの監視に使用できるパフォーマンスカウンターの名前と説明を示します。
 
-UCWA の表のカウンターのカテゴリ名は、**LS:WEB - UCWA** です。
+UCWA テーブル内のカウンターのカテゴリ名は、 **LS: WEB – UCWA**です。
 
-Mcx Mobility Service の表のカウンターのカテゴリ名は、**LS:WEB - Mobile Communication Service** です。
+Mcx Mobility Service テーブル内のカウンターのカテゴリ名は、 **LS: WEB-Mobile Communication service**です。
 
 <div>
 
-## <a name="performance-counters-for-ucwa"></a>UCWA のパフォーマンス カウンター
+## <a name="performance-counters-for-ucwa"></a>UCWA のパフォーマンスカウンター
 
 
 <table>
@@ -61,176 +61,176 @@ Mcx Mobility Service の表のカウンターのカテゴリ名は、**LS:WEB - 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Active Application Count</p></td>
+<td><p>アクティブなアプリケーション数</p></td>
 <td><p>現在のアプリケーション数</p></td>
 </tr>
 <tr class="even">
-<td><p>Active Application Sharing Modality Count</p></td>
-<td><p>現在のアプリケーション共有モダリティ数</p></td>
+<td><p>アクティブなアプリケーション共有のモダリティ数</p></td>
+<td><p>アプリケーション共有モダリティの現在の数</p></td>
 </tr>
 <tr class="odd">
-<td><p>Active Audio Modality Count</p></td>
+<td><p>アクティブな音声モダリティ数</p></td>
 <td><p>現在の音声モダリティ数</p></td>
 </tr>
 <tr class="even">
-<td><p>Active Data Collaboration Modality Count</p></td>
-<td><p>現在のデータの共同作業モダリティ数</p></td>
+<td><p>アクティブデータコラボレーションのモダリティ数</p></td>
+<td><p>現在のデータコラボレーションモダリティ数</p></td>
 </tr>
 <tr class="odd">
-<td><p>Active Directory Photo Get Latency (ms)</p></td>
-<td><p>このカウンターは、Active Directory から写真を取得する平均時間 (ミリ秒) を示します</p></td>
+<td><p>Active Directory の写真取得待機時間 (ミリ秒)</p></td>
+<td><p>このカウンターは、active directory から写真を取得する平均時間 (ミリ秒) を示します。</p></td>
 </tr>
 <tr class="even">
-<td><p>Active Messaging Modality Count</p></td>
-<td><p>現在のメッセージング モダリティ数</p></td>
+<td><p>アクティブなメッセージングモダリティ数</p></td>
+<td><p>現在のメッセージングモダリティ数</p></td>
 </tr>
 <tr class="odd">
-<td><p>Active Panoramic Video Modality Count</p></td>
-<td><p>現在のパノラマ ビデオ モダリティ数</p></td>
+<td><p>アクティブなパノラマビデオモダリティ数</p></td>
+<td><p>現在のパノラマビデオモダリティ数</p></td>
 </tr>
 <tr class="even">
-<td><p>Active Pending Get Count</p></td>
-<td><p>現在アクティブな保留中の取得数。サーバーへの接続は長時間維持されます</p></td>
+<td><p>アクティブな保留中の取得数</p></td>
+<td><p>現在アクティブな保留中の数を取得します。サーバーへの長時間保持接続</p></td>
 </tr>
 <tr class="odd">
-<td><p>Active Session Count</p></td>
-<td><p>アプリケーションごとに UCWA に登録されている現在のエンドポイント数と合計数</p></td>
+<td><p>アクティブなセッション数</p></td>
+<td><p>アプリケーションごとに UCWA に登録されている現在のエンドポイント数と合計</p></td>
 </tr>
 <tr class="even">
-<td><p>Active User Instance Count</p></td>
-<td><p>現在のユーザー インスタンス数</p></td>
+<td><p>アクティブなユーザーインスタンス数</p></td>
+<td><p>ユーザーインスタンスの現在の数</p></td>
 </tr>
 <tr class="odd">
-<td><p>Active User Instances without Application</p></td>
-<td><p>現在のユーザー インスタンス数 (アプリケーションを含まない)</p></td>
+<td><p>アプリケーションを使用しないアクティブなユーザーインスタンス</p></td>
+<td><p>アプリケーションが適用されていない現在のユーザーインスタンス数</p></td>
 </tr>
 <tr class="even">
-<td><p>Active Video Modality Count</p></td>
-<td><p>現在のビデオ モダリティ数</p></td>
+<td><p>アクティブなビデオモダリティ数</p></td>
+<td><p>現在のビデオモダリティ数</p></td>
 </tr>
 <tr class="odd">
-<td><p>Application Creation Requests Received/Second</p></td>
-<td><p>受信したアプリケーション作成要求の 1 秒あたりの数</p></td>
+<td><p>受信したアプリケーション作成要求の数/秒</p></td>
+<td><p>受信したアプリケーション作成要求の1秒あたりの数</p></td>
 </tr>
 <tr class="even">
-<td><p>AS MCU Join Failures</p></td>
-<td><p>AS MCU 参加に失敗した数</p></td>
+<td><p>MCU の参加に失敗した場合</p></td>
+<td><p>AS MCU 参加エラーの数</p></td>
 </tr>
 <tr class="odd">
-<td><p>AV MCU Join Failures</p></td>
-<td><p>AV MCU 参加に失敗した数</p></td>
+<td><p>AV MCU 参加エラー</p></td>
+<td><p>AV MCU の参加に失敗した回数</p></td>
 </tr>
 <tr class="even">
-<td><p>Average Application Startup Time (ms)</p></td>
+<td><p>アプリケーションの平均起動時間 (ミリ秒)</p></td>
 <td><p>アプリケーションの平均起動時間 (ミリ秒)</p></td>
 </tr>
 <tr class="odd">
-<td><p>Average Lifetime for Session (ms)</p></td>
-<td><p>セッションの平均存続期間 (ミリ秒)</p></td>
+<td><p>セッションの平均有効期間 (ミリ秒)</p></td>
+<td><p>セッションの平均有効期間 (ミリ秒単位)</p></td>
 </tr>
 <tr class="even">
-<td><p>Data MCU Join Failures</p></td>
-<td><p>Data MCU 参加に失敗した数</p></td>
+<td><p>データ MCU の参加エラー</p></td>
+<td><p>データ MCU の参加に失敗した回数</p></td>
 </tr>
 <tr class="odd">
-<td><p>Exchange Contact Search Latency (ms)</p></td>
-<td><p>このカウンターは、Exchange 内の連絡先を検索する平均時間 (ミリ秒) を示します</p></td>
+<td><p>Exchange の連絡先検索の待機時間 (ミリ秒)</p></td>
+<td><p>このカウンターは、Exchange の連絡先を検索する平均時間 (ミリ秒) を示します。</p></td>
 </tr>
 <tr class="even">
-<td><p>Exchange HD Photo Get Latency (ms)</p></td>
-<td><p>このカウンターは、Exchange から写真を取得する平均時間 (ミリ秒) を示します</p></td>
+<td><p>Exchange HD Photo Get 待機時間 (ミリ秒)</p></td>
+<td><p>このカウンターは、Exchange から写真を取得する平均時間 (ミリ秒) を示します。</p></td>
 </tr>
 <tr class="odd">
-<td><p>HTTP 4xx Responses/Second</p></td>
-<td><p>HTTP 4xx コードでの応答の 1 秒あたりの数</p></td>
+<td><p>HTTP 4xx 応答/秒</p></td>
+<td><p>HTTP 4xx コードでの応答の1秒あたりの数</p></td>
 </tr>
 <tr class="even">
-<td><p>HTTP 5xx Responses/Second</p></td>
-<td><p>HTTP 5xx コードでの応答の 1 秒あたりの数</p></td>
+<td><p>HTTP 5xx 応答/秒</p></td>
+<td><p>HTTP 5xx コードでの応答の1秒あたりの数</p></td>
 </tr>
 <tr class="odd">
-<td><p>IM MCU Join Failures</p></td>
-<td><p>IM MCU 参加に失敗した数</p></td>
+<td><p>IM MCU の参加エラー</p></td>
+<td><p>IM MCU の参加に失敗した回数</p></td>
 </tr>
 <tr class="even">
-<td><p>Number of Active Directory Photo Get Failures</p></td>
-<td><p>Active Directory からの写真の取得に失敗した合計数</p></td>
+<td><p>Active Directory の写真の Get エラー数</p></td>
+<td><p>Active Directory からの写真の取得に失敗した回数の合計</p></td>
 </tr>
 <tr class="odd">
-<td><p>Number of Contact Search failures</p></td>
-<td><p>Exchange の連絡先の検索に失敗した合計数</p></td>
+<td><p>連絡先検索エラー数</p></td>
+<td><p>Exchange での連絡先の検索に失敗した回数の合計</p></td>
 </tr>
 <tr class="even">
-<td><p>Number of Deserialization Failures</p></td>
-<td><p>シリアル化解除が失敗した合計数</p></td>
+<td><p>逆シリアル化エラーの数</p></td>
+<td><p>逆シリアル化エラーの合計数</p></td>
 </tr>
 <tr class="odd">
 <td><p>HD Photo Get エラーの数</p></td>
-<td><p>Exchange からの HD 写真の取得に失敗した合計数</p></td>
+<td><p>Exchange からの HD 写真の取得に失敗した回数の合計</p></td>
 </tr>
 <tr class="even">
-<td><p>Over The Maximum Subscriptions Per Application</p></td>
-<td><p>アプリケーションごとに許可された最大値を超えるサブスクリプション要求の数</p></td>
+<td><p>アプリケーションごとのサブスクリプションの最大数</p></td>
+<td><p>アプリケーションごとに許容される最大数を超えるサブスクリプション要求の数</p></td>
 </tr>
 <tr class="odd">
-<td><p>Over The Maximum Subscriptions Per Batch</p></td>
-<td><p>バッチごとに許可された最大値を超えるサブスクリプション要求の数</p></td>
+<td><p>バッチごとの最大サブスクリプション数</p></td>
+<td><p>バッチごとに許容される最大数を超えるサブスクリプション要求の数</p></td>
 </tr>
 <tr class="even">
-<td><p>Presence Subscription Failures</p></td>
-<td><p>プレゼンスの登録に失敗した数</p></td>
+<td><p>プレゼンスサブスクリプションエラー</p></td>
+<td><p>プレゼンスをサブスクライブしているエラーの数</p></td>
 </tr>
 <tr class="odd">
-<td><p>Registering Endpoint Failures</p></td>
-<td><p>エンドポイントの登録に失敗した数</p></td>
+<td><p>エンドポイントエラーの登録</p></td>
+<td><p>エンドポイントの登録に失敗した回数</p></td>
 </tr>
 <tr class="even">
-<td><p>Requests Received/Second</p></td>
-<td><p>受信した要求の 1 秒あたりの数</p></td>
+<td><p>Received/Second 要求数</p></td>
+<td><p>受信した要求の1秒あたりの数</p></td>
 </tr>
 <tr class="odd">
-<td><p>Requests Succeeded/Second</p></td>
-<td><p>成功した要求 (HTTP 2xx/3xx 応答コード) の 1 秒あたりの数</p></td>
+<td><p>成功した要求数/秒</p></td>
+<td><p>成功した要求の1秒あたりの数 (HTTP 2xx/3xx 応答コード)</p></td>
 </tr>
 <tr class="even">
-<td><p>Succeeded Create Application Requests/Second</p></td>
-<td><p>成功したアプリケーション作成要求の 1 秒あたりの数</p></td>
+<td><p>正常に作成したアプリケーション要求/秒</p></td>
+<td><p>成功したアプリケーション作成要求の1秒あたりの数</p></td>
 </tr>
 <tr class="odd">
-<td><p>Timed Out Pending Get Count</p></td>
+<td><p>タイムアウト保留中の取得数</p></td>
 <td><p>タイムアウトした保留中の取得の数</p></td>
 </tr>
 <tr class="even">
-<td><p>Total Application Creation Requests Received</p></td>
-<td><p>サービスの開始以降に受信したアプリケーション作成要求の合計数</p></td>
+<td><p>受信したアプリケーション作成要求の合計数</p></td>
+<td><p>サービスの開始以降に受信されたアプリケーション作成要求の合計数</p></td>
 </tr>
 <tr class="odd">
-<td><p>Total HTTP 4xx Responses</p></td>
+<td><p>HTTP 4xx 応答の合計数</p></td>
 <td><p>HTTP 4xx 応答の合計数</p></td>
 </tr>
 <tr class="even">
-<td><p>Total HTTP 5xx Responses</p></td>
+<td><p>HTTP 5xx 応答の合計数</p></td>
 <td><p>HTTP 5xx 応答の合計数</p></td>
 </tr>
 <tr class="odd">
-<td><p>Total Requests Received on the Command Channel</p></td>
-<td><p>コマンド チャネルで受信した要求の合計数</p></td>
+<td><p>コマンドチャネルで受信した要求の合計数</p></td>
+<td><p>コマンドチャネルで受信した要求の合計数</p></td>
 </tr>
 <tr class="even">
-<td><p>Total Requests Succeeded</p></td>
+<td><p>成功した要求の合計数</p></td>
 <td><p>成功した要求の合計数</p></td>
 </tr>
 <tr class="odd">
-<td><p>Total Sessions Initiated</p></td>
-<td><p>サービスが開始されてから起動されたセッションの合計数</p></td>
+<td><p>開始されたセッションの合計数</p></td>
+<td><p>サービスの開始以降に開始されたセッションの合計数</p></td>
 </tr>
 <tr class="even">
-<td><p>Total Sessions Terminated Because of Idle Timeout</p></td>
-<td><p>ユーザーのアイドル タイムアウトが原因で終了したセッションの合計数</p></td>
+<td><p>アイドルタイムアウトが原因で終了したセッションの合計</p></td>
+<td><p>ユーザーのアイドルタイムアウトが原因で終了したセッションの合計数</p></td>
 </tr>
 <tr class="odd">
-<td><p>Total Throttled Applications</p></td>
-<td><p>制限されたアプリケーションの数</p></td>
+<td><p>調整されるアプリケーションの合計数</p></td>
+<td><p>調整されたアプリケーションの数</p></td>
 </tr>
 </tbody>
 </table>
@@ -240,7 +240,7 @@ Mcx Mobility Service の表のカウンターのカテゴリ名は、**LS:WEB - 
 
 <div id="sectionSection1" class="section">
 
-### <a name="performance-counters-for-mcx-mobility-service"></a>Mcx Mobility Service のパフォーマンス カウンター
+### <a name="performance-counters-for-mcx-mobility-service"></a>Mcx Mobility Service のパフォーマンスカウンター
 
 <table>
 <colgroup>
@@ -255,127 +255,127 @@ Mcx Mobility Service の表のカウンターのカテゴリ名は、**LS:WEB - 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Average Lifetime for a Session in Milliseconds</p></td>
-<td><p>セッションの平均存続期間 (ミリ秒)</p></td>
+<td><p>セッションの平均有効期間 (ミリ秒)</p></td>
+<td><p>セッションの平均有効期間 (ミリ秒単位)</p></td>
 </tr>
 <tr class="even">
-<td><p>Current Push Notification Subscriptions</p></td>
-<td><p>プッシュ通知サブスクリプションの現在の数。この数は、Currently Active Session Count と連携して、Windows Mobile または iPhone のデバイスに登録された現在アクティブなセッションのサブセットを表します。</p></td>
+<td><p>現在のプッシュ通知サブスクリプション</p></td>
+<td><p>プッシュ通知サブスクリプションの現在の数。 この数値は、現在アクティブなセッション数と組み合わせて、Windows Mobile または iPhone デバイス用に登録されている現在アクティブなセッションのサブセットを表します。</p></td>
 </tr>
 <tr class="odd">
-<td><p>Currently Active Network Timeout Poll Count</p></td>
-<td><p>タイムアウトしたネットワーク ポーリングの数</p></td>
+<td><p>現在アクティブなネットワークのタイムアウトポーリング数</p></td>
+<td><p>タイムアウトしたネットワークポーリングの数</p></td>
 </tr>
 <tr class="even">
-<td><p>Currently Active Poll Count</p></td>
-<td><p>現在アクティブなポーリングの数 (長時間維持されるサーバーとの接続)</p></td>
+<td><p>現在アクティブなポーリング数</p></td>
+<td><p>現在アクティブなポーリングの数 (長時間保持されているサーバーへの接続)</p></td>
 </tr>
 <tr class="odd">
-<td><p>Currently Active Session Count</p></td>
-<td><p>Mobility Service に登録されたエンドポイントの現在の数</p></td>
+<td><p>現在アクティブなセッション数</p></td>
+<td><p>Mobility Service に登録されている現在のエンドポイント数</p></td>
 </tr>
 <tr class="even">
-<td><p>Currently Active Session Count with Active Presence Subscriptions</p></td>
-<td><p>アクティブなプレゼンス サブスクリプションのある現在アクティブなセッションの数</p></td>
+<td><p>アクティブなプレゼンスサブスクリプションのある現在アクティブなセッション数</p></td>
+<td><p>アクティブなプレゼンスサブスクリプションのある現在アクティブなセッションの数</p></td>
 </tr>
 <tr class="odd">
-<td><p>Push Notification Requests Failed/Second</p></td>
-<td><p>失敗したプッシュ通知の 1 秒あたりの数</p></td>
+<td><p>プッシュ通知要求が失敗した/秒</p></td>
+<td><p>失敗したプッシュ通知の1秒あたりの数</p></td>
 </tr>
 <tr class="even">
-<td><p>Push Notification Requests Succeeded/Second</p></td>
-<td><p>成功したプッシュ通知の 1 秒あたりの数</p></td>
+<td><p>1秒あたりに成功したプッシュ通知要求</p></td>
+<td><p>成功したプッシュ通知の1秒あたりの数</p></td>
 </tr>
 <tr class="odd">
-<td><p>Push Notification Requests Throttled/Second</p></td>
-<td><p>調整済みのプッシュ通知の 1 秒あたりの数</p></td>
+<td><p>プッシュ通知要求の調整/秒</p></td>
+<td><p>調整されたプッシュ通知の1秒あたりの数</p></td>
 </tr>
 <tr class="even">
-<td><p>Push Notification Requests/Second</p></td>
-<td><p>送信されたプッシュ通知の 1 秒あたりの数</p></td>
+<td><p>プッシュ通知要求/秒</p></td>
+<td><p>送信されたプッシュ通知の1秒あたりの数</p></td>
 </tr>
 <tr class="odd">
-<td><p>Requests Failed/Second</p></td>
-<td><p>失敗した要求の 1 秒あたりの数</p></td>
+<td><p>失敗した要求数/秒</p></td>
+<td><p>失敗した要求の1秒あたりの数</p></td>
 </tr>
 <tr class="even">
-<td><p>Requests Received/Second</p></td>
-<td><p>受信した要求の 1 秒あたりの数</p></td>
+<td><p>Received/Second 要求数</p></td>
+<td><p>受信した要求の1秒あたりの数</p></td>
 </tr>
 <tr class="odd">
-<td><p>Requests Rejected/Second</p></td>
-<td><p>拒否された要求の 1 秒あたりの数</p></td>
+<td><p>拒否された要求数/秒</p></td>
+<td><p>拒否された要求の1秒あたりの数</p></td>
 </tr>
 <tr class="even">
-<td><p>Requests Succeeded/Second</p></td>
-<td><p>成功した要求の 1 秒あたりの数</p></td>
+<td><p>成功した要求数/秒</p></td>
+<td><p>成功した要求の1秒あたりの数</p></td>
 </tr>
 <tr class="odd">
-<td><p>Succeeded Initiate Session Requests/Second</p></td>
-<td><p>成功した Get Location 要求の 1 秒あたりの数。セッションを開始する要求は、サーバー上の大部分の CPU を消費します。ピーク時にサポートされるロードは 12/秒です。持続可能性は、サーバー上の他のロードによって異なります。セッションの開始は、通常、長時間サインアウトしていたユーザーのサインインを意味します。</p></td>
+<td><p>正常開始セッション要求数/秒</p></td>
+<td><p>成功した場所の取得要求の1秒あたりの数。 セッションを開始する要求は、サーバー上で最も CPU を消費します。 サポートされているピーク負荷は 12/秒です。 持続性は、サーバー上の他の負荷に依存します。 通常、セッションを開始することは、長期間にわたるサインアウトされたユーザーに対してサインインすることを意味します。</p></td>
 </tr>
 <tr class="even">
-<td><p>Total Declined Inbound Voice Calls</p></td>
+<td><p>着信音声通話の拒否合計数</p></td>
 <td><p>拒否された着信音声通話の合計数</p></td>
 </tr>
 <tr class="odd">
-<td><p>Total Failed Inbound Voice Calls</p></td>
+<td><p>失敗した着信音声通話の合計数</p></td>
 <td><p>失敗した着信音声通話の合計数</p></td>
 </tr>
 <tr class="even">
-<td><p>Total Failed Outbound Voice Calls</p></td>
+<td><p>失敗した発信音声通話の合計数</p></td>
 <td><p>失敗した発信音声通話の合計数</p></td>
 </tr>
 <tr class="odd">
-<td><p>Total number of sessions terminated by user</p></td>
+<td><p>ユーザーが終了したセッションの合計数</p></td>
 <td><p>ユーザーが終了したセッションの合計数</p></td>
 </tr>
 <tr class="even">
-<td><p>Total Push Notification Requests</p></td>
+<td><p>プッシュ通知要求の合計数</p></td>
 <td><p>プッシュ通知要求の合計数</p></td>
 </tr>
 <tr class="odd">
-<td><p>Total Push Notification Requests Failed</p></td>
+<td><p>失敗したプッシュ通知要求の合計数</p></td>
 <td><p>失敗したプッシュ通知要求の合計数</p></td>
 </tr>
 <tr class="even">
-<td><p>Total Push Notification Requests Succeeded</p></td>
+<td><p>成功したプッシュ通知要求の合計数</p></td>
 <td><p>成功したプッシュ通知要求の合計数</p></td>
 </tr>
 <tr class="odd">
-<td><p>Total Push Notification Requests Throttled</p></td>
-<td><p>調整済みのプッシュ通知要求の合計数</p></td>
+<td><p>調整されるプッシュ通知要求の合計数</p></td>
+<td><p>調整されたプッシュ通知要求の合計数</p></td>
 </tr>
 <tr class="even">
-<td><p>Total Requests Failed</p></td>
+<td><p>失敗した要求の合計数</p></td>
 <td><p>失敗した要求の合計数</p></td>
 </tr>
 <tr class="odd">
-<td><p>Total Requests received on the Command Channel</p></td>
-<td><p>コマンド チャネルで受信した要求の合計数</p></td>
+<td><p>コマンドチャネルで受信した要求の合計数</p></td>
+<td><p>コマンドチャネルで受信した要求の合計数</p></td>
 </tr>
 <tr class="even">
-<td><p>Total Requests Rejected</p></td>
+<td><p>拒否された要求の合計数</p></td>
 <td><p>拒否された要求の合計数</p></td>
 </tr>
 <tr class="odd">
-<td><p>Total Requests Succeeded</p></td>
-<td><p>Mobility Service に対する成功した要求の合計数</p></td>
+<td><p>成功した要求の合計数</p></td>
+<td><p>Mobility Service に対して成功した要求の合計数</p></td>
 </tr>
 <tr class="even">
-<td><p>Total Session Initiated Count</p></td>
-<td><p>Mobility Service が開始されてから起動されたセッションの合計数</p></td>
+<td><p>セッションが開始した合計数</p></td>
+<td><p>Mobility Service の開始以降に開始されたセッションの合計数</p></td>
 </tr>
 <tr class="odd">
-<td><p>Total Sessions Terminated Because of User Idle Timeout</p></td>
-<td><p>ユーザーのアイドル タイムアウトが原因で終了したセッションの合計数</p></td>
+<td><p>ユーザーのアイドルタイムアウトが原因で終了したセッションの合計数</p></td>
+<td><p>ユーザーのアイドルタイムアウトが原因で終了したセッションの合計数</p></td>
 </tr>
 <tr class="even">
-<td><p>Total Successful Inbound Voice Calls</p></td>
+<td><p>成功した着信音声通話の合計数</p></td>
 <td><p>成功した着信音声通話の合計数</p></td>
 </tr>
 <tr class="odd">
-<td><p>Total Successful Outbound Voice Calls</p></td>
+<td><p>成功した発信音声通話の合計数</p></td>
 <td><p>成功した発信音声通話の合計数</p></td>
 </tr>
 </tbody>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: エンタープライズボイスコマンドレット'
+title: 'Lync Server 2013: エンタープライズ Voip のコマンドレット'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184613
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fc1c5516c80ed38839b795c92a5521be93711cad
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9ba86ee45a1eb1286e84843d84c299dc1fb73fca
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735397"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41993612"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enterprise-voice-cmdlets-in-lync-server-2013"></a>Lync Server 2013 のエンタープライズボイスコマンドレット
+# <a name="enterprise-voice-cmdlets-in-lync-server-2013"></a>Lync Server 2013 のエンタープライズ Voip のコマンドレット
 
 </div>
 
@@ -35,169 +35,169 @@ ms.locfileid: "41735397"
 
 <span> </span>
 
-_**最終更新日:** 2014-03-19_
+_**トピックの最終更新日:** 2014-03-19_
 
-[エンタープライズボイス] は、Microsoft Voice over IP (VoIP) 実装です。 Microsoft Lync Server 2013 でエンタープライズ Voip を管理するために使用できるコマンドレットを使うと、ダイヤルプラン (以前は位置情報プロファイル)、音声ポリシー、ルート、正規化ルールを作成および変更することができます。
+エンタープライズ VoIP とは Microsoft が実装するボイス オーバー IP (VoIP) です。 Microsoft Lync Server 2013 でエンタープライズ Voip を管理するために使用できるコマンドレットを使用すると、ダイヤルプラン (以前の場所のプロファイル)、音声ポリシー、ルート、および正規化ルールを作成および変更することができます。
 
 <div>
 
-## <a name="enterprise-voice-cmdlets"></a>エンタープライズ Voip コマンドレット
+## <a name="enterprise-voice-cmdlets"></a>エンタープライズ VoIP のコマンドレット
 
-エンタープライズボイスに適用されるほとんどの管理タスクは、Lync Server コントロールパネルから実行できます。 このようなタスクは、Lync Server 管理シェルからコマンドレットを使用して実行することも、スクリプト内から実行することで、特定のタスクを自動化することもできます。 エンタープライズ Voip の管理に直接関連するコマンドレットの一覧を次に示します。
+エンタープライズ Voip に適用されるほとんどの管理タスクは、Lync Server コントロールパネルから実行できます。 これらの同じタスクは、Lync Server 管理シェルまたはスクリプト内からコマンドレットを使用して実行できるため、特定のタスクを自動化できます。 エンタープライズ Voip の管理に直接関連するコマンドレットの一覧を次に示します。
 
-**[Lync Server 2013 でのエンタープライズボイスコマンドレットのトラブルシューティング](lync-server-2013-troubleshooting-enterprise-voice-cmdlets.md)**
-
-  - <span></span>  
-    [Get-CsVoiceConfiguration](https://technet.microsoft.com/en-us/library/Gg398815(v=OCS.15))
+**[Lync Server 2013 でのエンタープライズ Voip のコマンドレットのトラブルシューティング](lync-server-2013-troubleshooting-enterprise-voice-cmdlets.md)**
 
   - <span></span>  
-    [Remove-CsVoiceConfiguration](https://technet.microsoft.com/en-us/library/Gg398804(v=OCS.15))
+    [CsVoiceConfiguration](https://technet.microsoft.com/library/Gg398815(v=OCS.15))
 
   - <span></span>  
-    [Set-CsVoiceConfiguration](https://technet.microsoft.com/en-us/library/Gg398967(v=OCS.15))
+    [CsVoiceConfiguration](https://technet.microsoft.com/library/Gg398804(v=OCS.15))
+
+  - <span></span>  
+    [CsVoiceConfiguration](https://technet.microsoft.com/library/Gg398967(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsVoiceTestConfiguration](https://technet.microsoft.com/en-us/library/Gg412957(v=OCS.15))
+    [Test-csvoicetestconfiguration](https://technet.microsoft.com/library/Gg412957(v=OCS.15))
 
   - <span></span>  
-    [新規-CsVoiceTestConfiguration](https://technet.microsoft.com/en-us/library/Gg398961(v=OCS.15))
+    [Test-csvoicetestconfiguration](https://technet.microsoft.com/library/Gg398961(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsVoiceTestConfiguration](https://technet.microsoft.com/en-us/library/Gg412813(v=OCS.15))
+    [Test-csvoicetestconfiguration](https://technet.microsoft.com/library/Gg412813(v=OCS.15))
 
   - <span></span>  
-    [Set-CsVoiceTestConfiguration](https://technet.microsoft.com/en-us/library/Gg398614(v=OCS.15))
+    [Test-csvoicetestconfiguration](https://technet.microsoft.com/library/Gg398614(v=OCS.15))
 
   - <span></span>  
-    [テスト-CsVoiceTestConfiguration](https://technet.microsoft.com/en-us/library/Gg398260(v=OCS.15))
+    [Test-csvoicetestconfiguration](https://technet.microsoft.com/library/Gg398260(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsDialPlan](https://technet.microsoft.com/en-us/library/Gg399024(v=OCS.15))
+    [Get-csdialplan](https://technet.microsoft.com/library/Gg399024(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [テスト-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg399003(v=OCS.15))
+    [Get-csvoicenormalizationrule](https://technet.microsoft.com/library/Gg399003(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [テスト-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg398310(v=OCS.15))
+    [Set-csvoicepolicy](https://technet.microsoft.com/library/Gg398310(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [テスト-CsVoiceRoute](https://technet.microsoft.com/en-us/library/Gg425873(v=OCS.15))
+    [Get-csvoiceroute](https://technet.microsoft.com/library/Gg425873(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [テスト-Get-csvoiceuser](https://technet.microsoft.com/en-us/library/Gg413013(v=OCS.15))
+    [CsVoiceUser](https://technet.microsoft.com/library/Gg413013(v=OCS.15))
 
-**[Lync Server 2013 の音声正規化ルールコマンドレット](lync-server-2013-voice-normalization-rules-cmdlets.md)**
-
-  - <span></span>  
-    [Get-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398393(v=OCS.15))
+**[Lync Server 2013 の音声正規化ルールのコマンドレット](lync-server-2013-voice-normalization-rules-cmdlets.md)**
 
   - <span></span>  
-    [新規-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398240(v=OCS.15))
+    [Get-csvoicenormalizationrule](https://technet.microsoft.com/library/Gg398393(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398501(v=OCS.15))
+    [Get-csvoicenormalizationrule](https://technet.microsoft.com/library/Gg398240(v=OCS.15))
 
   - <span></span>  
-    [Set-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398491(v=OCS.15))
+    [Get-csvoicenormalizationrule](https://technet.microsoft.com/library/Gg398501(v=OCS.15))
 
   - <span></span>  
-    [テスト-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg399003(v=OCS.15))
+    [Get-csvoicenormalizationrule](https://technet.microsoft.com/library/Gg398491(v=OCS.15))
+
+  - <span></span>  
+    [Get-csvoicenormalizationrule](https://technet.microsoft.com/library/Gg399003(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [新規-CsVoiceRegex](https://technet.microsoft.com/en-us/library/Gg412751(v=OCS.15))
+    [CsVoiceRegex](https://technet.microsoft.com/library/Gg412751(v=OCS.15))
 
-**[Lync Server 2013 の音声ポリシーコマンドレット](lync-server-2013-voice-policy-cmdlets.md)**
-
-  - <span></span>  
-    [Get-CsDialPlan](https://technet.microsoft.com/en-us/library/Gg413043(v=OCS.15))
+**[Lync Server 2013 の音声ポリシーのコマンドレット](lync-server-2013-voice-policy-cmdlets.md)**
 
   - <span></span>  
-    [Grant-CsDialPlan](https://technet.microsoft.com/en-us/library/Gg398547(v=OCS.15))
+    [Get-CsDialPlan](https://technet.microsoft.com/library/Gg413043(v=OCS.15))
 
   - <span></span>  
-    [New-CsDialPlan](https://technet.microsoft.com/en-us/library/Gg425860(v=OCS.15))
+    [Get-csdialplan](https://technet.microsoft.com/library/Gg398547(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsDialPlan](https://technet.microsoft.com/en-us/library/Gg398791(v=OCS.15))
+    [Get-csdialplan](https://technet.microsoft.com/library/Gg425860(v=OCS.15))
 
   - <span></span>  
-    [Set-CsDialPlan](https://technet.microsoft.com/en-us/library/Gg398644(v=OCS.15))
+    [Get-csdialplan](https://technet.microsoft.com/library/Gg398791(v=OCS.15))
 
   - <span></span>  
-    [Test-CsDialPlan](https://technet.microsoft.com/en-us/library/Gg399024(v=OCS.15))
+    [Get-csdialplan](https://technet.microsoft.com/library/Gg398644(v=OCS.15))
+
+  - <span></span>  
+    [Get-csdialplan](https://technet.microsoft.com/library/Gg399024(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsPstnUsage](https://technet.microsoft.com/en-us/library/Gg412734(v=OCS.15))
+    [Get-CsPstnUsage](https://technet.microsoft.com/library/Gg412734(v=OCS.15))
 
   - <span></span>  
-    [Set-CsPstnUsage](https://technet.microsoft.com/en-us/library/Gg399069(v=OCS.15))
+    [Set-CsPstnUsage](https://technet.microsoft.com/library/Gg399069(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg398101(v=OCS.15))
+    [Get-CsVoicePolicy](https://technet.microsoft.com/library/Gg398101(v=OCS.15))
 
   - <span></span>  
-    [Grant-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg398828(v=OCS.15))
+    [Set-csvoicepolicy](https://technet.microsoft.com/library/Gg398828(v=OCS.15))
 
   - <span></span>  
-    [New-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg425856(v=OCS.15))
+    [Set-csvoicepolicy](https://technet.microsoft.com/library/Gg425856(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg398309(v=OCS.15))
+    [Set-csvoicepolicy](https://technet.microsoft.com/library/Gg398309(v=OCS.15))
 
   - <span></span>  
-    [Set-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg399021(v=OCS.15))
+    [Set-csvoicepolicy](https://technet.microsoft.com/library/Gg399021(v=OCS.15))
 
   - <span></span>  
-    [テスト-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg398310(v=OCS.15))
+    [Set-csvoicepolicy](https://technet.microsoft.com/library/Gg398310(v=OCS.15))
 
-**[Lync Server 2013 の音声ルーティングコマンドレット](lync-server-2013-voice-routing-cmdlets.md)**
-
-  - <span></span>  
-    [CsRoutingConfiguration を取得する](https://technet.microsoft.com/en-us/library/Gg425851(v=OCS.15))
+**[Lync Server 2013 での音声ルーティングのコマンドレット](lync-server-2013-voice-routing-cmdlets.md)**
 
   - <span></span>  
-    [新しい-CsRoutingConfiguration](https://technet.microsoft.com/en-us/library/Gg399056(v=OCS.15))
+    [-CsRoutingConfiguration の取得](https://technet.microsoft.com/library/Gg425851(v=OCS.15))
 
   - <span></span>  
-    [CsRoutingConfiguration の削除](https://technet.microsoft.com/en-us/library/Gg398643(v=OCS.15))
+    [新しい-CsRoutingConfiguration](https://technet.microsoft.com/library/Gg399056(v=OCS.15))
 
   - <span></span>  
-    [設定-CsRoutingConfiguration](https://technet.microsoft.com/en-us/library/Gg412811(v=OCS.15))
+    [-CsRoutingConfiguration の削除](https://technet.microsoft.com/library/Gg398643(v=OCS.15))
+
+  - <span></span>  
+    [-CsRoutingConfiguration の設定](https://technet.microsoft.com/library/Gg412811(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsVoiceRoute](https://technet.microsoft.com/en-us/library/Gg425926(v=OCS.15))
+    [Get-csvoiceroute](https://technet.microsoft.com/library/Gg425926(v=OCS.15))
 
   - <span></span>  
-    [新規-CsVoiceRoute](https://technet.microsoft.com/en-us/library/Gg398197(v=OCS.15))
+    [Get-csvoiceroute](https://technet.microsoft.com/library/Gg398197(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsVoiceRoute](https://technet.microsoft.com/en-us/library/Gg398468(v=OCS.15))
+    [Get-csvoiceroute](https://technet.microsoft.com/library/Gg398468(v=OCS.15))
 
   - <span></span>  
-    [Set-CsVoiceRoute](https://technet.microsoft.com/en-us/library/Gg412893(v=OCS.15))
+    [Get-csvoiceroute](https://technet.microsoft.com/library/Gg412893(v=OCS.15))
 
   - <span></span>  
-    [テスト-CsVoiceRoute](https://technet.microsoft.com/en-us/library/Gg425873(v=OCS.15))
+    [Get-csvoiceroute](https://technet.microsoft.com/library/Gg425873(v=OCS.15))
 
 </div>
 
@@ -206,8 +206,8 @@ _**最終更新日:** 2014-03-19_
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 の高度なエンタープライズボイスコマンドレット](lync-server-2013-advanced-enterprise-voice-cmdlets.md)  
-[Lync Server 2013 の音声アプリケーションコマンドレット](lync-server-2013-voice-application-cmdlets.md)  
+[Lync Server 2013 の高度なエンタープライズ Voip のコマンドレット](lync-server-2013-advanced-enterprise-voice-cmdlets.md)  
+[Lync Server 2013 の音声アプリケーションのコマンドレット](lync-server-2013-voice-application-cmdlets.md)  
 
 
 [Lync Server PowerShell ブログ](http://go.microsoft.com/fwlink/p/?linkid=203150)  

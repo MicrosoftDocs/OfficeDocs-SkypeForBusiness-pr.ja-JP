@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 帯域幅ポリシープロファイルを作成する'
+title: 'Lync Server 2013: 帯域幅ポリシープロファイルの作成'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185086
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7d3eef3ea6dfb349f0f712c1127adb8310d90c27
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ea1e44f7c8c0d81757d6d10a63194de7c0d12c08
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726337"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035803"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-bandwidth-policy-profiles-in-lync-server-2013"></a>Lync Server 2013 で帯域幅ポリシープロファイルを作成する
+# <a name="create-bandwidth-policy-profiles-in-lync-server-2013"></a>Lync Server 2013 での帯域幅ポリシープロファイルの作成
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41726337"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-19_
+_**トピックの最終更新日:** 2012-10-19_
 
-*帯域幅ポリシー*は、リアルタイムのオーディオおよびビデオのモダリティについて、帯域幅使用量の制限を定義します。帯域幅ポリシーは*帯域幅ポリシーのプロファイル*に適用され、帯域幅ポリシーのプロファイルは通話受付管理のために複数のネットワーク サイトに適用することができます。
+*帯域幅ポリシー*は、リアルタイムのオーディオおよびビデオのモダリティについて、帯域幅使用量の制限を定義します。 帯域幅ポリシーは*帯域幅ポリシーのプロファイル*に適用され、帯域幅ポリシーのプロファイルは通話受付管理のために複数のネットワーク サイトに適用することができます。
 
-CAC 展開で設定する必要がある帯域幅制限のガイドラインについては、「計画ドキュメントの[Lync Server 2013 での通話受付制御の要件の定義](lync-server-2013-defining-your-requirements-for-call-admission-control.md)」を参照してください。
+CAC の展開にどの程度の帯域幅制限を設定するかに関するガイドラインについては、「計画」のドキュメントの「 [Lync Server 2013 での通話受付管理の要件の定義](lync-server-2013-defining-your-requirements-for-call-admission-control.md)」を参照してください。
 
-帯域幅ポリシーおよびポリシープロファイルの使用について詳しくは、次のコマンドレットの Lync Server 管理シェルに関するドキュメントをご覧ください。
+帯域幅ポリシーおよびポリシープロファイルの使用の詳細については、「Lync Server Management Shell」のドキュメントの次のコマンドレットを参照してください。
 
-  - [新規-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkBandwidthPolicyProfile)
+  - [Get-csnetworkbandwidthpolicyprofile](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkBandwidthPolicyProfile)
 
-  - [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)
+  - [Get-csnetworkbandwidthpolicyprofile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)
 
-  - [Set-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkBandwidthPolicyProfile)
+  - [Get-csnetworkbandwidthpolicyprofile](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkBandwidthPolicyProfile)
 
-  - [Remove-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkBandwidthPolicyProfile)
+  - [Get-csnetworkbandwidthpolicyprofile](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkBandwidthPolicyProfile)
 
-次の手順で作成されるポリシーの例は、オーディオ トラフィック全体、個々のオーディオ セッション、ビデオ トラフィック全体、および個々のビデオ セッションに制限を設定します。 たとえば、5Mb\_のリンク帯域幅ポリシープロファイルは、次の制限を設定します。
+次の手順で作成されるポリシーの例は、オーディオ トラフィック全体、個々のオーディオ セッション、ビデオ トラフィック全体、および個々のビデオ セッションに制限を設けます。 たとえば、5Mb\_のリンク帯域幅ポリシープロファイルは次の制限を設定します。
 
   - オーディオ リミット: 2,000 kbps
 
@@ -73,11 +73,11 @@ CAC 展開で設定する必要がある帯域幅制限のガイドラインに�
 
 <div>
 
-## <a name="to-create-bandwidth-policy-profiles-by-using-management-shell"></a>管理シェルを使用して帯域幅ポリシープロファイルを作成するには
+## <a name="to-create-bandwidth-policy-profiles-by-using-management-shell"></a>管理シェルを使用して帯域幅ポリシー プロファイルを作成するには
 
-1.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+1.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
-2.  作成する帯域幅ポリシーのプロファイルごとに、New-CsNetworkBandwidthPolicyProfile コマンドレットを実行します。 たとえば、以下を実行します。
+2.  作成する帯域幅ポリシーのプロファイルごとに、New-CsNetworkBandwidthPolicyProfile コマンドレットを実行します。たとえば、以下を実行します。
     
        ```powershell
         New-CsNetworkBandwidthPolicyProfile -Identity 5Mb_Link -Description "BW profile for 5Mb links" -AudioBWLimit 2000 -AudioBWSessionLimit 200 -VideoBWLimit 1400  -VideoBWSessionLimit 700
@@ -99,9 +99,9 @@ CAC 展開で設定する必要がある帯域幅制限のガイドラインに�
 
 <div>
 
-## <a name="to-create-bandwidth-policy-profiles-by-using-lync-server-control-panel"></a>Lync Server コントロールパネルを使用して帯域幅ポリシープロファイルを作成するには
+## <a name="to-create-bandwidth-policy-profiles-by-using-lync-server-control-panel"></a>Lync Server コントロール パネルを使用して帯域幅ポリシーのプロファイルを作成するには
 
-1.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+1.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
 2.  左側のナビゲーション バーで [**ネットワーク構成**] をクリックします。
 
@@ -123,7 +123,7 @@ CAC 展開で設定する必要がある帯域幅制限のガイドラインに�
 
 11. [**確定**] をクリックします。
 
-12. トポロジの帯域幅ポリシーのプロファイル作成を完了するには、他の帯域幅ポリシーのプロファイルの設定値を使用してステップ 4 ～ 11 を繰り返します。
+12. トポロジの帯域幅ポリシーのプロファイル作成を完了するには、ステップ 4 ～ 11 を繰り返して、他の帯域幅ポリシーのプロファイルを設定します。
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 49733822
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0a5f80066a68b45e062a351478bea93a5c2e8fd0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d1bfa41eebf8231a1118ca16c83ca8f27ecb4244
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763339"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035481"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,17 +37,17 @@ ms.locfileid: "41763339"
 
 _**トピックの最終更新日:** 2013-02-23_
 
-[会議の設定] ページの設定を使用して、会議の参加エクスペリエンスのさまざまな特性を定義できます。 既定では、グローバル設定によって結合操作が定義されます。 サイトレベルとプールレベルの会議の参加設定を作成することもできます。 プール レベル設定を作成すると、その設定は、そのプールがホストするすべての会議に適用されます。 プール レベル設定を作成しない場合は、サイト レベル設定が存在すればそれが適用されます。 サイト レベル設定を定義しない場合は、グローバル設定がすべての会議に適用されます。
+[会議の構成] ページの設定を使って、会議の参加に関する操作性のさまざまな特性を定義できます。既定では、グローバル設定が参加に関する操作性を定義していますが、サイト レベルとプール レベルの会議参加設定を作成することもできます。プール レベル設定を作成すると、その設定は、そのプールがホストするすべての会議に適用されます。プール レベル設定を作成しない場合は、サイト レベル設定が存在すればそれが適用されます。サイト レベル設定を定義しない場合は、グローバル設定がすべての会議に適用されます。
 
 <div>
 
-## <a name="to-create-new-meeting-join-settings"></a>新しい会議の参加設定を作成するには
+## <a name="to-create-new-meeting-join-settings"></a>新しい会議参加設定を作成するには
 
 1.  CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
-3.  左側のナビゲーションバーで、[**会議**] をクリックし、[**会議の設定**] をクリックします。
+3.  左側のナビゲーション バーで、[**会議**] をクリックし、[**会議の構成**] をクリックします。
 
 4.  [**会議の構成**] ページで、[**新規作成**] をクリックし、次のいずれかを実行します。
     
@@ -69,7 +69,7 @@ _**トピックの最終更新日:** 2013-02-23_
 
 8.  匿名 (未認証) ユーザーが自動的に承認されないようにするには、[**既定で匿名ユーザーを承認する**] チェック ボックスをオフにします。既定では、匿名ユーザーは会議に対して自動的に承認されます。
 
-9.  参加者に送られる会議の招待をカスタマイズするには、以下を行います。 URL およびカスタム フッター テキストの長さは最大 1 KB です。 [**ヘルプ URL**] 以外は、カスタムの値を指定しない場合、会議に含まれません。 ユーザー設定のヘルプ URL が含まれていない場合は、Lync の既定のヘルプ URL が招待状に表示されます。
+9.  参加者に送られる会議の招待をカスタマイズするには、以下を行います。 URL およびカスタム フッター テキストの長さは最大 1 KB です。 [**ヘルプ URL**] 以外は、カスタムの値を指定しない場合、会議に含まれません。 カスタムヘルプ URL が含まれていない場合は、Lync の既定のヘルプ URL が招待状に表示されます。
     
       - 会議の招待に表示されるロゴをカスタマイズするには、[**ロゴ URL**] にロゴの場所を入力します。
         
@@ -84,7 +84,7 @@ _**トピックの最終更新日:** 2013-02-23_
     
       - 会議招待に表示されるヘルプ テキストをカスタマイズするには、[**ヘルプ URL**] にヘルプ テキストの場所を入力します。
     
-      - 会議の招待に表示される法的情報をカスタマイズするには、[**リーガル テキスト URL**] にリーガル テキストの場所を入力します。
+      - 会議の招待に表示される法的情報をカスタマイズするには、[**リーガル テキスト URL**] にロゴの場所を入力します。
     
       - 会議の招待に表示されるカスタム フッター テキストをカスタマイズするには、[**カスタム フッターのテキスト**] にテキストを入力します。
 
@@ -94,19 +94,19 @@ _**トピックの最終更新日:** 2013-02-23_
 
 <div>
 
-## <a name="to-modify-an-existing-collection-of-meeting-configurations"></a>会議の構成の既存のコレクションを変更するには
+## <a name="to-modify-an-existing-collection-of-meeting-configurations"></a>会議構成の既存のコレクションを変更するには
 
 1.  CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
-3.  左側のナビゲーションバーで、[**会議**] をクリックし、[**会議の設定**] をクリックします。
+3.  左側のナビゲーション バーで、[**会議**] をクリックし、[**会議の構成**] をクリックします。
 
-4.  会議構成の一覧で、変更する構成をクリックし、[**編集**] をクリックして、[**詳細の表示**] をクリックします。
+4.  会議の構成の一覧で、変更する構成をクリックし、[**編集**] をクリックして、[**詳細の表示**] をクリックします。
 
-5.  [**会議の構成の編集**] で、構成名以外の構成設定を変更します (構成名は変更不可です)。
+5.  [**会議の構成の編集**] で、構成名以外の設定を変更します (構成名は変更不可です)。
 
-6.  [**コミット**] をクリックします。
+6.  [**確定**] をクリックします。
 
 </div>
 
@@ -114,13 +114,13 @@ _**トピックの最終更新日:** 2013-02-23_
 
 ## <a name="creating-new-meeting-configuration-settings-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して新しい会議構成設定を作成する
 
-会議の構成設定は、Windows PowerShell と新しい-Csmeeting 構成コマンドレットを使用して、(サイトのスコープのみで) 作成できます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
+会議の構成設定は、Windows PowerShell と新しい-Csの会議構成コマンドレットを使用して、(サイトスコープでのみ) 作成できます。 このコマンドレットは、Lync Server 2013 管理シェルから実行するか、Windows PowerShell のリモートセッションから実行できます。 リモート Windows PowerShell を使用して Lync Server に接続する方法の詳細については、Lync Server Windows PowerShell のブログ記事「Quick Start: Microsoft Lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)を使用したリモート PowerShell の管理」を参照してください。
 
 <div>
 
-## <a name="to-create-meeting-configuration-settings-that-use-the-default-values"></a>既定値を使用する会議の構成設定を作成するには
+## <a name="to-create-meeting-configuration-settings-that-use-the-default-values"></a>既定値を使用する会議構成設定を作成するには
 
-  - このコマンドは、Redmond サイトの会議構成設定の新しいセットを作成します。
+  - このコマンドは、Redmond サイト用に会議構成設定の新しいセットを作成しています。
     
         New-CsMeetingConfiguration -Identity "site:Redmond"
     
@@ -130,7 +130,7 @@ _**トピックの最終更新日:** 2013-02-23_
 
 <div>
 
-## <a name="to-change-a-property-value-when-creating-meeting-configuration-settings"></a>会議の構成設定を作成するときにプロパティの値を変更するには
+## <a name="to-change-a-property-value-when-creating-meeting-configuration-settings"></a>会議構成設定の作成時にプロパティ値を変更するには
 
   - 異なるプロパティ値を使用する設定を作成するには、適切なパラメーターとパラメーター値を指定します。たとえば、会議の全員が発表者となることを既定で許可する会議構成設定のセットを作成するには、次のようなコマンドを使用します。
     
@@ -140,15 +140,15 @@ _**トピックの最終更新日:** 2013-02-23_
 
 <div>
 
-## <a name="to-change-multiple-property-values-when-creating-meeting-configuration-settings"></a>会議の構成設定を作成するときに複数のプロパティの値を変更するには
+## <a name="to-change-multiple-property-values-when-creating-meeting-configuration-settings"></a>会議の構成設定の作成時に複数のプロパティ値を変更するには
 
-  - 複数のプロパティ値は、複数のパラメーターを含めることによって変更できます。 たとえば、次のコマンドは、発表者として会議に対して全員を管理し、その会議に対して正式に許可されるまでは、ロビーでも PSTN ユーザーによる待機を強制します。
+  - 複数のパラメーターを含めることにより複数のプロパティ値を変更できます。たとえば、次のコマンドは、会議の全員が発表者となることを許可し、さらに PSTN ユーザーは会議に対して正式に承認されるまで必ずロビーで待機するように設定しています。
     
         New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone" -PSTNUCallersBypassLobby $True
 
 </div>
 
-詳細については、「[新しい-Cs会議構成](https://technet.microsoft.com/en-us/library/Gg398065(v=OCS.15))」コマンドレットのヘルプトピックを参照してください。
+詳細につい[ては、](https://technet.microsoft.com/library/Gg398065(v=OCS.15)) 「」のヘルプトピックを参照してください。
 
 </div>
 

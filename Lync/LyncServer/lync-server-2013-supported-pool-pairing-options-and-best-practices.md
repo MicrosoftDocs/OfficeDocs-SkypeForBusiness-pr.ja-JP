@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013 でサポートされているプールペアリングオプションとベストプラクティス
+title: Lync Server 2013 サポートされているプールのペアのオプションとベストプラクティス
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183478
 ms.date: 03/09/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9090fefba4b80f14382b9b43b5e9ced7cb36b2e0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 963f1532ca7a1aa5402a54936909a22727ab9716
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764333"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006845"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="supported-pool-pairing-options-and-best-practices-for-lync-server-2013"></a>サポートされているプールペアリングオプションと Lync Server 2013 のベストプラクティス
+# <a name="supported-pool-pairing-options-and-best-practices-for-lync-server-2013"></a>Lync Server 2013 でサポートされているプールのペアのオプションとベストプラクティス
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41764333"
 
 <span> </span>
 
-_**最終更新日:** 2017-03-09_
+_**トピックの最終更新日:** 2017-03-09_
 
-2つのデータセンター間の距離には制限はありません。これによって、フロントエンドプールが互いにペアリングされます。 同じワールドリージョンの2つのデータセンターを使用して、その間に高速リンクを使用することをお勧めします。 この2つのデータセンターは、1つの災害が同時に発生するのを避けるために、十分に分離されていることをお勧めします。
+相互にペアとなるフロントエンド プールが含まれる 2 つのデータ センター間の距離に制限はありません。同一地域内の 2 つのデータ センターを高速リンクで接続して使用することをお勧めします。2 つのデータ センターが両方とも同時に同じ障害の影響を受けないように、両者を十分に分離することをお勧めします。
 
-世界各地の2つのデータセンターを使用することは可能ですが、データレプリケーションの遅延によるデータ損失の増加につながる可能性があります。
+異なる地域にある 2 つのデータ センターを使用することもできますが、データ レプリケーションの待ち時間が原因でデータ損失が発生する可能性が高くなります。
 
-どのプールをペアにするかを計画する場合、サポートされるのは次の組み合わせのみであることに注意してください。
+どのプールをペアにするかを計画するときは、次の組み合わせのみがサポートされることに注意してください。
 
-  - Enterprise Edition プールとペアにできるのは他の Enterprise Edition プールのみです。 同様に、Standard Edition プールとペアにできるのは他の Standard Edition プールのみです。
+  - Enterprise Edition プールとペアにできるのは他の Enterprise Edition プールのみです。同様に、Standard Edition プールとペアにできるのは他の Standard Edition プールのみです。
 
-  - 物理プールとペアにできるのは他の物理プールのみです。 同様に、仮想プールとペアにできるのは他の仮想プールのみです。
+  - 物理プールとペアにできるのは他の物理プールのみです。同様に、仮想プールとペアにできるのは他の仮想プールのみです。
 
-  - ペアリングされているプールは、同じオペレーティングシステムを実行している必要があります。
+  - ペアになっているプールは、同じオペレーティングシステムを実行している必要があります。
 
-トポロジ ビルダーでもトポロジ検証でも、この推奨事項に従わない方法で 2 つのプールをペアにする操作は阻止されません。たとえば、トポロジ ビルダーでは、Enterprise Edition プールと Standard Edition プールをペアにできます。ただし、そのような組み合わせのペアはサポートされません。
+トポロジ ビルダーでもトポロジ検証でも、この推奨事項に従わない方法で 2 つのプールをペアにする操作は阻止されません。 たとえば、トポロジ ビルダーでは、Enterprise Edition プールと Standard Edition プールをペアにできます。 ただし、これらの種類の組み合わせはサポートされていません。
 
-1組の各プールには、障害が発生した場合に両方のプールのすべてのユーザーに対してサービスを提供する能力が必要です。
+ペアにするどちらのプールにも、障害発生時に備えて、両方のプールのすべてのユーザーに機能を提供できる処理能力が必要です。
 
-Enterprise Edition プールをペアとして使用する場合は、バックエンドサーバーに高可用性を実装することもできますが、Standard Edition プールのペアには、障害回復の手段のみが用意されています。
+Enterprise Edition プールをペアにする場合、バックエンド サーバーに高可用性も実装できますが、Standard Edition プールのペアの場合に使用できるのは障害復旧手段のみです。
 
 </div>
 

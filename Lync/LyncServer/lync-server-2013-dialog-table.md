@@ -12,20 +12,20 @@ ms:contentKeyID: 48184068
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2f0ef564ad1224ba9970b7cceb5db60e0eb344da
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 578b27a61e6af7114da19eb0d6d21dea38dba551
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762245"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036737"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="dialog-table-in-lync-server-2013"></a>Lync Server 2013 の Dialog テーブル
+# <a name="dialog-table-in-lync-server-2013"></a>Lync Server 2013 のダイアログテーブル
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762245"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-02_
+_**トピックの最終更新日:** 2012-10-02_
 
-ダイアログテーブルはサポートテーブルです。各レコードは、1つのセッション開始プロトコル (SIP) ダイアログを表します。
+Dialog テーブルは、サポートテーブルです。各レコードは、1つのセッション開始プロトコル (SIP) ダイアログを表します。
 
 
 <table>
@@ -58,26 +58,26 @@ _**最終更新日:** 2012-10-02_
 <tbody>
 <tr class="odd">
 <td><p><strong>ConferenceDateTime</strong></p></td>
-<td><p>datetime</p></td>
+<td><p>日付型</p></td>
 <td><p>Primary</p></td>
-<td><p>卓越した品質 (QoE) エージェントが、呼び出し元または呼び出し元から最初のレポートを受け取る時刻。 セッションを一意に識別するために SessionSeq と組み合わせて使用されます。</p></td>
+<td><p>[最高水準 (QoE)] エージェントが、呼び出し元または呼び出し先から最初のレポートを受信する時間。 セッションを一意に識別するために SessionSeq と組み合わせて使用されます。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionSeq</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>セッションを区別するための順序番号 (同じ ConferenceDateTime がある場合)。</p></td>
+<td><p>同じ ConferenceDateTime を持つセッションを区別するためのシーケンス番号。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>この Id</strong></p></td>
+<td><p><strong>DialogID</strong></p></td>
 <td><p>varchar (256)</p></td>
 <td></td>
-<td><p>グローバルに一意のダイアログ ID。</p></td>
+<td><p>グローバルに一意のダイアログ ID です。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>このチェックサム</strong></p></td>
+<td><p><strong>DialogIDChecksum</strong></p></td>
 <td><p>int</p></td>
-<td><p>位置</p></td>
+<td><p>index</p></td>
 <td><p>ダイアログ ID のチェックサム。</p></td>
 </tr>
 </tbody>

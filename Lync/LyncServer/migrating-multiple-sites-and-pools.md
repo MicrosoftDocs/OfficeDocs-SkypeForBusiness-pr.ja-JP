@@ -12,16 +12,16 @@ ms:contentKeyID: 48185079
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b2f01303c7fe137253d8e993edb05e9562d963ff
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 52e14cccb9856534ea9b7229fd020edc2ec21dba
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765255"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036059"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41765255"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-17_
+_**トピックの最終更新日:** 2012-09-17_
 
-Lync Server 2013 は、複数サイトと複数プールの展開をサポートしています。 複数のプールを Lync Server 2010 から Lync Server 2013 に移行するには、次の点を考慮する必要があります。
+Lync Server 2013 では、複数サイトと複数プールの展開がサポートされています。 Lync Server 2010 から Lync Server 2013 に複数のプールを移行するプロセスには、以下の点を考慮する必要があります。
 
-1.  Lync Server 2013 パイロットプールを展開した後、Lync Server 2013 プールに移動されるパイロットユーザーのサブセットと、ユーザーの機能を検証するための方法を定義する必要があります。 たとえば、パイロットプールにユーザーを移動した後、ユーザーの会議ポリシーが Lync Server 2013 に移動されたことを確認します。
+1.  Lync Server 2013 パイロットプールを展開した後は、Lync Server 2013 プールに移動するパイロットユーザーのサブセットと、ユーザーの機能を検証するための方法を定義する必要があります。 たとえば、ユーザーをパイロットプールに移動した後、ユーザーの会議ポリシーが Lync Server 2013 に移動されたことを確認します。
 
 2.  パイロットプールにエッジサーバーを展開した後、外部ユーザーが Lync Server 2013 プールと通信できることを検証する必要があります。
 
-3.  Lync Server 2010 エッジサーバーからのフェデレーションルートを試験的な Lync Server 2013 エッジサーバーに移行した後、フェデレーションされたユーザーが Lync Server 2013 プールと通信できることを検証する必要があります。
+3.  Lync server 2010 エッジサーバーから lync Server 2013 エッジサーバーへのフェデレーションルートを移行した後、フェデレーションユーザーが Lync Server 2013 プールと通信できることを検証する必要があります。
 
-4.  すべてのユーザーと非ユーザーの連絡先オブジェクトを移動した後、Lync Server 2010 プールが空であることを確認する必要があります。
+4.  ユーザーおよびユーザー以外のすべての連絡先オブジェクトを移動した後、Lync Server 2010 プールが空であることを確認する必要があります。
 
 5.  Lync Server 2010 プールが空であることを確認した後、プールを非アクティブ化することができます。
     
-    従来の Lync Server 2010 プールとサーバーを非アクティブ化する方法について詳しくは、「[フェーズ 8: レガシプールの廃止](phase-8-decommission-legacy-pools.md)」をご覧ください。
+    従来の Lync Server 2010 プールおよびサーバーを非アクティブ化する方法の詳細については、「[フェーズ 8: 従来のプール](phase-8-decommission-legacy-pools.md)を使用停止にする」を参照してください。
 
 </div>
 

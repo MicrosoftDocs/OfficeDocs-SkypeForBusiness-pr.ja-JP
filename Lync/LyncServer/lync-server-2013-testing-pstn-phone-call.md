@@ -12,16 +12,16 @@ ms:contentKeyID: 63969656
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8095b4b0bb6aa4e6920d291c3fde3885ae6bfb03
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4092f728cc691ab73432d7ca853f6441728b5713
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745587"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036265"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41745587"
 
 <span> </span>
 
-_**最終更新日:** 2014-06-05_
+_**トピックの最終更新日:** 2014-06-05_
 
 
 <table>
@@ -45,8 +45,8 @@ _**最終更新日:** 2014-06-05_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>確認のスケジュール</p></td>
-<td><p>[毎日]</p></td>
+<td><p>検証スケジュール</p></td>
+<td><p>毎日</p></td>
 </tr>
 <tr class="even">
 <td><p>テストツール</p></td>
@@ -54,8 +54,8 @@ _**最終更新日:** 2014-06-05_
 </tr>
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
-<td><p>Lync Server 管理シェルを使用してローカルで実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには、CsRegistration コマンドレットを実行するためのアクセス許可が与えられた RBAC の役割を割り当てる必要があります。 このコマンドレットを使うことができるすべての RBAC ロールの一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには、テスト用の登録コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsPstnOutboundCall&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,9 +66,9 @@ _**最終更新日:** 2014-06-05_
 
 ## <a name="description"></a>説明
 
-テスト-CsPstnOutboundCall コマンドレットを使って、ユーザーが PSTN 上にある電話番号に通話を発信できるかどうかをテストします。 テスト-CsPstnOutboundCall を実行するときに、コマンドレットはまずテストユーザーを Lync Server にログオンしようとします。 ログオンが成功すると、コマンドレットは PSTN ゲートウェイ間で電話をかけようとします。 この電話番号は、ダイヤルプラン、ボイスポリシー、テストアカウントに割り当てられたその他のポリシーと設定を使って発信されます。 通話に応答すると、コマンドレットはネットワーク経由でデュアルトーンマルチ周波数 (DTMF) コードを送信して、メディアの接続性を確認します。
+Test-CsPstnOutboundCall コマンドレットは、ユーザーが PSTN にある電話番号に電話をかけることができるかどうかをテストします。 テスト-CsPstnOutboundCall を実行すると、コマンドレットはまず、テストユーザーを Lync Server にログインしようとします。 ログオンに成功すると、コマンドレットは PSTN ゲートウェイを経由して電話をかけることになります。 この通話は、ダイヤルプラン、音声ポリシー、およびテストアカウントに割り当てられたその他のポリシーと設定を使用して行われます。 呼び出しに応答すると、コマンドレットはネットワーク経由でデュアルトーン多重周波数 (DTMF) コードを送信して、メディア接続を確認します。
 
-テスト-CsPstnOutboundCall を実行すると、実際の電話がかけられます。ターゲットの電話が呼び出され、テストが成功するために応答する必要があります。 この通話は、管理者が手動で終了する必要もあります。
+テストを実行するときは、テスト-CsPstnOutboundCall が実際の電話を発信します。対象の電話は着信し、テストが成功するには応答する必要があります。 この呼び出しは、管理者が手動で終了する必要もあります。
 
 </div>
 
@@ -76,84 +76,84 @@ _**最終更新日:** 2014-06-05_
 
 ## <a name="running-the-test"></a>テストの実行
 
-テスト-CsPstnOutboundCall コマンドレットは、事前に定義されたテストアカウント (「Lync Server テストを実行するためのテストアカウントのセットアップ」をご覧ください)、または Lync Server を有効にしているユーザーのアカウントを使って実行できます。 テストアカウントを使用してこのチェックを実行するには、テスト対象の Lync Server プールの FQDN と、着信する PSTN 電話番号を指定する必要があります。 次に例を示します。
+テスト-CsPstnOutboundCall コマンドレットは、事前構成されたテストアカウント (「Lync Server テストを実行するためのテストアカウントの設定」を参照)、または Lync Server が有効になっているユーザーのアカウントのいずれかを使用して実行できます。 このチェックをテストアカウントを使用して実行するには、テスト対象の Lync Server プールの FQDN と、着信される PSTN 電話番号を指定する必要があります。 例:
 
     Test-CsPstnOutboundCall -TargetFqdn "atl-cs-001.litwareinc.com" -TargetPstnPhoneNumber "+12065551219"
 
-実際のユーザーアカウントを使用してこのチェックを実行するには、最初に、アカウント名とパスワードを含む Windows PowerShell 資格情報オブジェクトを作成する必要があります。 次に、資格情報オブジェクトと、テスト (CsPstnOutboundCall) を呼び出すときにアカウントに割り当てられた SIP アドレスを指定する必要があります。
+実際のユーザーアカウントを使用してこのチェックを実行するには、まず、アカウント名とパスワードを含む Windows PowerShell credentials オブジェクトを作成する必要があります。 次に、その資格情報オブジェクトと、テスト-CsPstnOutboundCall を呼び出すときにアカウントに割り当てられた SIP アドレスを含める必要があります。
 
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsPstnOutboundCall -TargetFqdn "atl-cs-001.litwareinc.com" -TargetPstnPhoneNumber "+12065551219" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-詳細については、「[テスト-CsPstnOutboundCall](https://docs.microsoft.com/powershell/module/skype/Test-CsPstnOutboundCall) 」コマンドレットのヘルプドキュメントを参照してください。
+詳細については、「 [Test-CsPstnOutboundCall](https://docs.microsoft.com/powershell/module/skype/Test-CsPstnOutboundCall)コマンドレットのヘルプドキュメント」を参照してください。
 
 </div>
 
 <div>
 
-## <a name="determining-success-or-failure"></a>成功または失敗を確認する
+## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
-指定したユーザーが通話を発信できる場合は、通話に応答すると、次のような結果が返されます。これには、Result プロパティが Success とマークされてい**ます。**
+指定したユーザーが通話を行うことができ、応答がある場合は次のような出力が返され、Result プロパティは Success とマークされ**ます。**
 
 TargetFqdn: atl-cs-001.litwareinc.com
 
 結果: 成功
 
-待ち時間:00:00: 06.8630376
+待機時間:00:00: 06.8630376
 
-誤差
+エラー
 
-診断
+分析
 
-指定したユーザーが通話を発信できない場合、または通話に応答しない場合は、結果が失敗として表示され、エラーと診断のプロパティに追加情報が記録されます。
+指定したユーザーが通話を行うことができない場合、または通話に応答がない場合、結果は失敗として表示され、エラーと診断のプロパティに追加情報が記録されます。
 
 TargetFqdn: atl-cs-001.litwareinc.com
 
 結果: エラー
 
-待ち時間: 00:00:0987365
+待機時間: 00:00:0987365
 
-エラー: 403、許可されていません
+エラー: 403、禁止
 
-診断: ErrorCode = 12001、Source = atl-litwareinc、Reason = User:
+診断: エラーコード = 12001、ソース = litwareinc、理由 = [ユーザー]
 
-ポリシーには電話ルートの使用が含まれない
+ポリシーには電話ルートの使用法は含まれていません
 
-指定したユーザーに割り当てられている音声ポリシーに電話の使用が含まれていないため、テストが失敗したことが示されます。 (電話の使用状況によりボイスポリシーを音声ルートに関連付けます。 ボイスポリシーと、対応する音声ルートの両方がないと、PSTN 経由で通話を発信することはできません。)
+指定したユーザーに割り当てられている音声ポリシーに電話の使用法が含まれていないため、テストが失敗したことが前の出力に示されています。 (電話使用法は音声ポリシーを音声ルートに関連付けます。 音声ポリシーと対応する音声ルートの両方を使用しない場合、PSTN を介して通話を行うことはできません。
 
-テスト-CsPstnOutboundCall 呼び出しが失敗した場合は、Verbose パラメーターなどのテストを再実行することをお勧めします。
+テスト-CsPstnOutboundCall に失敗した場合は、次のように詳細なパラメーターを含めて、テストを再実行することをお勧めします。
 
     Test-CsPstnOutboundCall -TargetFqdn "atl-cs-001.litwareinc.com" -TargetPstnPhoneNumber "+12065551219" -Verbose
 
-Verbose パラメーターが含まれている場合、テスト-CsPstnOutboundCall は、指定されたユーザーが Lync Server にログオンする機能を確認したときに実行される各操作のステップバイステップのアカウントを返します。 たとえば、次の出力は、ネットワークの問題によって PSTN との接続が妨げられていることを示しています。
+Verbose パラメーターが含まれている場合、テスト-CsPstnOutboundCall は、指定されたユーザーが Lync Server にログオンできるかどうかを確認したときに試行された各アクションのステップバイステップのアカウントを返します。 たとえば、次の出力は、ネットワークの問題によって PSTN との接続が妨げられていることを示しています。
 
-' Sip: + 12065551219@litwareinc、ユーザー = 電話 ' への音声ビデオ通話を確立しています。
+音声ビデオ通話を ' sip: + 12065551219@litwareinc .com; ユーザー = 電話 ' に設定します。
 
-ネットワークから受信した例外 ' A 404 (見つからない) 応答は、操作に失敗しました。
+例外 ' A 404 (見つかりません) 応答がネットワークから受信され、操作に失敗しました。
 
 </div>
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a>テストに失敗した可能性がある理由
+## <a name="reasons-why-the-test-might-have-failed"></a>テストが失敗した理由
 
-テスト-CsPstnOutboundCall 呼び出しが失敗する理由としては、次のようなものがあります。
+テスト-CsPstnOutboundCall が失敗する主な理由を次に示します。
 
-  - 無効なユーザアカウントを指定しました。 次のようなコマンドを実行すると、ユーザーアカウントが存在するかどうかを確認できます。
+  - 無効なユーザーアカウントが指定されています。 ユーザーアカウントが存在することを確認するには、次のようなコマンドを実行します。
     
         Get-CsUser "sip:kenmyer@litwareinc.com"
 
-  - ユーザーアカウントは有効ですが、アカウントは現在 Lync Server に対して有効になっていません。 Lync Server でユーザーアカウントが有効になっていることを確認するには、次のようなコマンドを実行します。
+  - ユーザーアカウントは有効ですが、アカウントは現在 Lync Server に対して有効になっていません。 ユーザーアカウントが Lync Server に対して有効になっていることを確認するには、次のようなコマンドを実行します。
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled
     
-    Enabled プロパティが False に設定されている場合は、ユーザーが現在 Lync Server を有効にしていないことを意味します。
+    Enabled プロパティが False に設定されている場合は、ユーザーが Lync Server に対して有効になっていないことを意味します。
 
-  - 指定したユーザーに割り当てられている音声ポリシーに、有効な PSTN の使用状況がありません。 次のようなコマンドを使用して、ユーザーに割り当てられている音声ポリシーを確認できます。
+  - 指定したユーザーに割り当てられている音声ポリシーに、有効な PSTN 使用法がありません。 次のようなコマンドを使用して、ユーザーに割り当てられている音声ポリシーを判別できます。
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object VoicePolicy
     
-    次のようなコマンドを使用して、そのポリシーに割り当てられている PSTN (存在する場合) を特定することができます。これにより、ユーザーごとの音声ポリシー RedmondVoicePolicy に関する情報を取得できます。
+    その後、次のようなコマンドを使用して、そのポリシーに割り当てられている PSTN 使用法 (ある場合) を判別できます。これは、ユーザー単位の音声ポリシー RedmondVoicePolicy に関する情報を取得します。
     
         Get-CsVoicePolicy -Identity "RedmondVoicePolicy"
 

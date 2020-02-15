@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: トポロジ ビルダーでのトポロジの定義と構成'
+title: 'Lync Server 2013: トポロジビルダーでのトポロジの定義と構成'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184953
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 876651b0d0c5ed33d4e82429822585de4a2b8579
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e3877b19bac01991856313302378c92065bacf22
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728427"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036617"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="define-and-configure-a-topology-in-topology-builder-for-lync-server-2013"></a>Lync Server 2013 のトポロジ ビルダーでのトポロジの定義と構成
+# <a name="define-and-configure-a-topology-in-topology-builder-for-lync-server-2013"></a>Lync Server 2013 のトポロジビルダーでのトポロジの定義と構成
 
 </div>
 
@@ -35,33 +35,33 @@ ms.locfileid: "41728427"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-21_
+_**トピックの最終更新日:** 2013-02-21_
 
-トポロジビルダーを実行して新しいトポロジを定義したり、既存のトポロジを変更したりするには、ローカル管理者または特権ドメイングループのメンバーシップは必要ありません。 トポロジビルダーは、構成要件に基づいて、Enterprise Edition フロントエンドプールまたは標準エディションのトポロジを定義するために必要な手順を実行します。
+トポロジビルダーを実行して新しいトポロジを定義したり、既存のトポロジを変更したりするには、ローカル管理者または特権ドメイングループのメンバーである必要はありません。 トポロジビルダーは、構成要件に基づいて、Enterprise Edition フロントエンドプールまたは Standard Edition のトポロジを定義するために必要な手順を説明します。
 
-サーバーに Lync Server 2013 をインストールするには、トポロジビルダーを使用してトポロジを完了して公開する必要があります。 次の手順では、新しいトポロジを定義するために必要な手順について説明します。
+サーバーに Lync Server 2013 をインストールするには、トポロジビルダーを使用してトポロジを完成させ、公開する必要があります。 次の手順には、新しいトポロジを定義するために必要な手順も含まれています。
 
 <div>
 
 ## <a name="to-define-a-topology"></a>トポロジを定義するには
 
-1.  トポロジビルダーを開始します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server Topology Builder**] の順にクリックします。
+1.  トポロジ ビルダーを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server トポロジ ビルダー**] の順にクリックします。
 
-2.  [トポロジビルダー] で [**新しいトポロジ**] を選びます。 トポロジを保存する場所とファイル名を入力するように求められます。 トポロジファイルにわかりやすい名前を付け、tbxml の既定の拡張子をそのまま使用します。 **[OK]** をクリックします。
+2.  [トポロジビルダー] で、[**新しいトポロジ**] を選択します。 トポロジを保存する場所とファイル名を指定するように求められます。 トポロジ ファイルにわかりやすい名前を付け、既定の拡張子 .tbxml をそのまま使用します。 [**OK**] をクリックします。
 
-3.  新しいトポロジ XML ファイルを保存する場所に移動し、ファイルの名前を入力して、[**保存**] をクリックします。
+3.  新しいトポロジ XML ファイルを保存する場所に移動してファイル名を入力し、[**保存**] をクリックします。
 
-4.  [**プライマリドメインの定義**] ページで、組織のプライマリ SIP ドメインの名前を入力し、[**次へ**] をクリックします。
+4.  [**プライマリ ドメインの定義**] ページで、組織のプライマリ SIP ドメイン名を入力し、[**次へ**] をクリックします。
 
-5.  [**追加でサポートされるドメインの指定**] ページで、必要に応じて追加ドメインの名前を入力し、[**次へ**] をクリックします。
+5.  [**追加でサポートされるドメインの指定**] ページで、追加のドメイン名を入力し (存在する場合)、[**次へ**] をクリックします。
 
 6.  [**最初のサイトの定義**] ページで、最初のサイトの名前と説明を入力し、[**次へ**] をクリックします。
 
-7.  [**サイトの詳細の指定**] ページで、サイトの場所情報を入力し、[**次へ**] をクリックします。
+7.  [**サイト詳細の指定**] ページで、サイトの場所情報を入力し、[**次へ**] をクリックします。
 
-8.  [**新しいトポロジの定義が完了しました**] ページで、[**このウィザードを閉じるときに新しいフロントエンドウィザードを開く**] チェックボックスがオンになっていることを確認し、[**完了**] をクリックします。
+8.  [**新しいトポロジが正常に定義されました**] ページで、[**このウィザードを閉じるときに新しいフロントエンドウィザードを開く**] チェックボックスがオンになっていることを確認し、[**完了**] をクリックします。
 
-トポロジを定義して保存したら、新しいフロントエンドウィザードを使って、サイトのフロントエンドプールまたは Standard Edition サーバーを定義します。 詳細について[は、「Lync server 2013 でフロントエンドプールまたは Standard Edition サーバーを定義して構成](lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md)する」を参照してください。
+トポロジを定義して保存した後、新しいフロントエンドウィザードを使用して、サイトのフロントエンドプールまたは Standard Edition サーバーを定義します。 詳細については、「 [Lync server 2013 でのフロントエンドプールまたは Standard Edition サーバーの定義と構成](lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md)」を参照してください。
 
 </div>
 

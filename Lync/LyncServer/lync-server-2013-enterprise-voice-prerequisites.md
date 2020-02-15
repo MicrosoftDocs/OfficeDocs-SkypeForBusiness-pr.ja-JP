@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: エンタープライズ VoIP の前提条件'
+title: 'Lync Server 2013: エンタープライズ Voip の前提条件'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185746
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7d04b94fe5d31c4105d58651b2bc5fa5635bddde
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4289d79be09b1bfbcb9d11e53d97ef2ee9a37dca
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735407"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41993522"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enterprise-voice-prerequisites-for-lync-server-2013"></a>Lync Server 2013 のエンタープライズ VoIP の前提条件
+# <a name="enterprise-voice-prerequisites-for-lync-server-2013"></a>Lync Server 2013 のエンタープライズ Voip の前提条件
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41735407"
 
 <span> </span>
 
-_**最終更新日:** 2012-08-06_
+_**トピックの最終更新日:** 2012-08-06_
 
-エンタープライズ Voip を展開するときに最適なエクスペリエンスを実現するには、IT インフラストラクチャ、ネットワーク、システムがこのセクションのトピックで説明する前提条件を満たしていることを確認してください。
+エンタープライズ VoIP を展開するときには、最適なパフォーマンスを実現できるように、IT インフラストラクチャ、ネットワーク、およびシステムが、このセクションのトピックで説明されている前提条件を満たしていることを確認してください。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 のエンタープライズ VoIP のソフトウェア前提条件](lync-server-2013-software-prerequisites-for-enterprise-voice.md)
+  - [Lync Server 2013 のエンタープライズ Voip のソフトウェア前提条件](lync-server-2013-software-prerequisites-for-enterprise-voice.md)
 
-  - [Lync Server 2013 でのエンタープライズ Voip のセキュリティと構成の前提条件](lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md)
+  - [Lync Server 2013 でのエンタープライズ Voip のセキュリティおよび構成の前提条件](lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md)
 
 </div>
 

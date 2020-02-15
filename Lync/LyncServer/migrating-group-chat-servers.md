@@ -12,16 +12,16 @@ ms:contentKeyID: 49733609
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5741b3344c6cff3ae3acd641478c9203f5e9a6a1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5446cdb144b59865f22b6bd18a73fb2782802f44
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763309"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036105"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41763309"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-29_
+_**トピックの最終更新日:** 2012-09-29_
 
-従来の Lync Server 2010 環境にグループチャットサーバーを展開した場合は、Lync Server 2013 常設チャットサーバーを展開する必要があります。 グループチャットサーバーと常設チャットサーバーは共存できますが、コンテンツ (チャットルームなど) はこれらのサーバー間で共有されません。 常設チャットサーバーから従来のグループチャットサーバーのコンテンツにアクセスするには、グループチャットサーバーを常設チャットサーバーに移行する必要があります。 常設チャットサーバーへの移行の詳細については、「 [Lync server 2010、グループチャット、または Office Communications Server 2007 R2 グループチャットから Lync server 2013、常設チャットサーバーへ](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md)の移行」を参照してください。
+従来の Lync Server 2010 環境にグループチャットサーバーを展開した場合は、Lync Server 2013 常設チャットサーバーを展開する必要があります。 グループチャットサーバーと常設チャットサーバーは共存できますが、これらのサーバー間でコンテンツ (チャットルームなど) を共有することはできません。 常設チャットサーバーから従来のグループチャットサーバーのコンテンツにアクセスするには、グループチャットサーバーを常設チャットサーバーに移行する必要があります。 常設チャットサーバーへの移行の詳細については、「移行」のドキュメントの「 [Lync server 2010、グループチャットまたは Office Communications server 2007 R2 グループチャットから Lync Server 2013、常設チャットサーバーへの移行](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md)」を参照してください。
 
 </div>
 

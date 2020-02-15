@@ -1,5 +1,5 @@
 ---
-title: 移行のためのクライアントの構成
+title: 移行用にクライアントを構成する
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -13,20 +13,20 @@ ms:contentKeyID: 49733729
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 84205c75da4c52aa6c90f3a501c74dd849933d9f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 24c5c530b51b24b23f266786cd763994c4798d1b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727957"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41999192"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-clients-for-migration"></a>移行のためのクライアントの構成
+# <a name="configure-clients-for-migration"></a>移行用にクライアントを構成する
 
 </div>
 
@@ -36,25 +36,25 @@ ms.locfileid: "41727957"
 
 <span> </span>
 
-_**最終更新日:** 2013-11-21_
+_**トピックの最終更新日:** 2013-11-21_
 
-このトピックでは、Lync Server 2013 に移行する前に推奨されるクライアント展開の手順について説明します。 これらの構成変更は、Office Communications Server 2007 R2 で行う必要があります。 移行する前に、次の手順を実行することが非常に重要です。 詳細については、「 [Lync Server 2013 でのクライアントとデバイスの計画](lync-server-2013-planning-for-clients-and-devices.md)」を参照してください。
+このトピックでは、Lync Server 2013 に移行する前に実行する必要のある推奨クライアント展開手順について説明します。 これらの構成の変更は、Office Communications Server 2007 R2 で行う必要があります。 移行の前にこれらの手順を実行することが非常に重要です。 詳細については、「 [Lync Server 2013 でのクライアントとデバイスの計画](lync-server-2013-planning-for-clients-and-devices.md)」を参照してください。
 
 <div>
 
-## <a name="to-configure-clients-prior-to-migration"></a>移行前にクライアントを構成するには
+## <a name="to-configure-clients-prior-to-migration"></a>移行の前にクライアントを構成するには
 
-1.  最新の Office Communications Server 2007 R2 server、クライアント、およびデバイスの更新プログラム (ホットフィックス) を展開します。
+1.  最新の Office Communications Server 2007 R2 サーバー、クライアント、およびデバイスの更新プログラム (ホットフィックス) を展開します。
     
       - [Office Communications Server 2007 R2 の更新プログラムを適用する](apply-office-communications-server-2007-r2-updates.md)
     
-      - [Communicator 2007 R2 の累積的な更新プログラムパッケージについて](http://go.microsoft.com/fwlink/p/?linkid=335808)
+      - [Communicator 2007 R2 の累積的な更新プログラムパッケージの説明](http://go.microsoft.com/fwlink/p/?linkid=335808)
     
-      - [デバイスのソフトウェア更新プログラムを入手する](http://go.microsoft.com/fwlink/?linkid=335809)
+      - [デバイスのソフトウェア更新プログラムの取得](http://go.microsoft.com/fwlink/?linkid=335809)
 
-2.  Office Communications Server 2007 R2 の場合、クライアントのバージョンフィルタリングを使用して、最新の更新プログラムがインストールされている Office Communications Server 2007 R2 クライアントだけにサインインを許可します。
+2.  Office Communications Server 2007 R2 では、クライアントバージョンフィルターを使用して、Office Communications Server 2007 R2 クライアントのみに最新の更新プログラムをインストールしてサインインできるようにします。
 
-3.  Office Communications Server 2007 R2 で、クライアントのバージョンフィルタリングを使用して、Lync Server 2013 クライアントからのサインインをブロックします。 次の表に記載されているバージョン[http://go.microsoft.com/fwlink/p/?linkId=202488](http://go.microsoft.com/fwlink/p/?linkid=202488)フィルターを追加するには、「**クライアントバージョンフィルターを構成**する」の手順に従ってください。 バージョンフィルターごとに、アクション**ブロック**を割り当てます。
+3.  Office Communications Server 2007 R2 では、クライアントバージョンフィルタリングを使用して Lync Server 2013 クライアントのサインインをブロックします。 次の表に記載されているバージョン[http://go.microsoft.com/fwlink/p/?linkId=202488](http://go.microsoft.com/fwlink/p/?linkid=202488)フィルターを追加するには、「**クライアントバージョンフィルター**をで構成する」で説明されている手順に従います。 各バージョン フィルターで、[**ブロック**] のアクションを割り当てます。
     
     
     <table>
@@ -66,7 +66,7 @@ _**最終更新日:** 2013-11-21_
     <thead>
     <tr class="header">
     <th>クライアント</th>
-    <th>ユーザーエージェントのヘッダー</th>
+    <th>ユーザー エージェントのヘッダー</th>
     <th>バージョン</th>
     </tr>
     </thead>
@@ -78,7 +78,7 @@ _**最終更新日:** 2013-11-21_
     </tr>
     <tr class="even">
     <td><p>Lync Web App</p></td>
-    <td><p>CWA</p></td>
+    <td><p>NM-CWA-NO-VERSION</p></td>
     <td><p>5.*..**</p></td>
     </tr>
     <tr class="odd">

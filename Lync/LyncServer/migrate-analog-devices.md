@@ -1,5 +1,5 @@
 ---
-title: アナログ デバイスの移行
+title: アナログデバイスを移行する
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733779
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e809db03cf098bea07f57673ddcbfc019e15f299
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f8e176b03adf3d64b06e7bd9e2a0e72282a1f0f1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762975"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034597"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="migrate-analog-devices"></a>アナログ デバイスの移行
+# <a name="migrate-analog-devices"></a>アナログデバイスを移行する
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41762975"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-16_
+_**トピックの最終更新日:** 2012-10-16_
 
-Lync Server は、アナログデバイスのサポートを提供します。 特に、サポートされているアナログデバイスはアナログオーディオ電話とアナログ fax マシンです。 Lync Server 環境でのアナログデバイスの使用をサポートするために、修飾ゲートウェイを構成することができます。 Lync Server 2010 から Lync Server 2013 に移行した後、アナログデバイスに関連付けられた連絡先オブジェクトも移行する必要があります。 Lync server 管理シェルを使用して、Lync Server 2010 アナログデバイスに関連付けられたすべての連絡先オブジェクトを取得してから、それらのオブジェクトを Lync Server 2013 プールに移動します。
+Lync Server は、アナログデバイスのサポートを提供します。 具体的には、アナログ音声電話とアナログ FAX 電話がアナログ デバイスとしてサポートされます。 Lync Server 環境でのアナログデバイスの使用をサポートするために、認定ゲートウェイを構成することができます。 Lync Server 2010 から Lync Server 2013 に移行した後、アナログデバイスに関連付けられている連絡先オブジェクトも移行する必要があります。 Lync server 管理シェルを使用して、まず Lync Server 2010 のアナログデバイスに関連付けられているすべての連絡先オブジェクトを取得し、そのオブジェクトを Lync Server 2013 プールに移動します。
 
 <div>
 
-## <a name="to-migrate-analog-devices"></a>アナログデバイスを移行するには
+## <a name="to-migrate-analog-devices"></a>アナログ デバイスを移行するには
 
-1.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+1.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
-2.  コマンド ラインで次を入力します。
+2.  コマンドラインで、次のように入力します。
     
         Get-CsAnalogDevice -Filter {RegistrarPool -eq "pool01.contoso.net"} | Move-CsAnalogDevice -Target pool02.contoso.net
 
-3.  すべての連絡先オブジェクトが Lync Server 2013 プールに移動されていることを確認します。 コマンド ラインで次を入力します。
+3.  すべての連絡先オブジェクトが Lync Server 2013 プールに移動されたことを確認します。 コマンドラインで、次のように入力します。
     
         Get-CsAnalogDevice -Filter {RegistrarPool -eq "pool02.contoso.net"}
 
-4.  すべての連絡先オブジェクトが Lync Server 2013 プールと関連付けられていることを確認します。
+4.  すべての連絡先オブジェクトが Lync Server 2013 プールに関連付けられていることを確認します。
 
 </div>
 

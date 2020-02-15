@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ネットワーク領域リンクを作成する'
+title: 'Lync Server 2013: ネットワーク地域リンクの作成'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185873
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f40b9d569cbc571fe931a53b6f399b6273efd055
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6ef56e2b71e1692b4343515613dec37b2a30621b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740247"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007106"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-network-region-links-in-lync-server-2013"></a>Lync Server 2013 でネットワークの地域リンクを作成する
+# <a name="create-network-region-links-in-lync-server-2013"></a>Lync Server 2013 でのネットワーク地域リンクの作成
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41740247"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-19_
+_**トピックの最終更新日:** 2012-10-19_
 
-ネットワーク内の地域は、物理的な WAN 接続を経由してリンクされます。 [*ネットワーク領域] リンク*は、通話受付制御 (CAC) 用に構成された2つの領域間のリンクを作成し、これらの地域間の音声とビデオのトラフィックの帯域幅の制限を設定します。
+ネットワーク内の地域は、物理的な WAN 接続を経由してリンクされます。 *ネットワーク地域リンク*は、通話受付管理 (CAC) 用に構成された 2 つの地域間のリンクを作成し、これらの地域間の音声トラフィックとビデオ トラフィックに帯域幅制限を設定します。
 
-ネットワーク領域へのリンクの操作の詳細については、次のコマンドレットの Lync Server 管理シェルに関するドキュメントを参照してください。
+ネットワーク地域リンクの使用の詳細については、以下のコマンドレットの Lync Server Management Shell のドキュメントを参照してください。
 
   - [新しい-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegionLink)
 
   - [Get-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink)
 
-  - [Set-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkRegionLink)
+  - [設定-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkRegionLink)
 
-  - [CsNetworkRegionLink を削除する](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkRegionLink)
+  - [-CsNetworkRegionLink の削除](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkRegionLink)
 
-トポロジの例では、North America 地域と APAC 地域間のリンク、および EMEA 地域と APAC 地域間のリンクを含みます。 計画ドキュメントの「 [Lync Server 2013 で通話受付制御の要件を収集](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md)する」で説明されているように、これらの地域リンクはそれぞれ WAN の帯域幅によって制限されます。
+トポロジの例では、North America 地域と APAC 地域間のリンク、および EMEA 地域と APAC 地域間のリンクを含みます。 これらの地域リンクは、「計画」のドキュメントの「地域リンクの帯域幅情報の表」に記載されているように、WAN 帯域幅によって制限されます。「計画」のドキュメントの「 [Lync Server 2013 での通話受付管理の要件の収集](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md)」を参照してください。
 
 <div>
 
-## <a name="to-create-network-region-links-by-using-lync-server-management-shell"></a>Lync Server 管理シェルを使用してネットワーク領域のリンクを作成するには
+## <a name="to-create-network-region-links-by-using-lync-server-management-shell"></a>Lync Server 管理シェルを使用して、ネットワーク地域リンクを作成するには
 
-1.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+1.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
-2.  New-CsNetworkRegionLink コマンドレットを実行して、地域リンクを作成し、適切な帯域幅ポリシー プロファイルを適用します。 たとえば、以下を実行します。
+2.  New-CsNetworkRegionLink コマンドレットを実行して、地域リンクを作成し、適切な帯域幅ポリシー プロファイルを適用します。たとえば、以下を実行します。
     
       ```powershell
         New-CsNetworkRegionLink -NetworkRegionLinkID NA-EMEA-LINK -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -BWPolicyProfileID 50Mb_Link
@@ -71,9 +71,9 @@ _**最終更新日:** 2012-10-19_
 
 <div>
 
-## <a name="to-create-network-region-links-by-using-lync-server-control-panel"></a>Lync Server コントロールパネルを使用してネットワーク領域のリンクを作成するには
+## <a name="to-create-network-region-links-by-using-lync-server-control-panel"></a>Lync Server コントロール パネルを使用して、ネットワーク地域リンクを作成するには
 
-1.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+1.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
 2.  左側のナビゲーション バーで [**ネットワーク構成**] をクリックします。
 
@@ -83,9 +83,9 @@ _**最終更新日:** 2012-10-19_
 
 5.  [**新しい地域リンク**] ページで、[**名前**] をクリックし、ネットワーク地域リンクの名前を入力します。
 
-6.  [**ネットワーク領域\#1**] をクリックし、ネットワーク領域\#2 にリンクさせるリストのネットワーク領域をクリックします。
+6.  [**ネットワーク地域\#1**] をクリックし、一覧でネットワーク地域\#2 にリンクするネットワーク地域をクリックします。
 
-7.  [**ネットワーク領域\#2**] をクリックし、ネットワーク領域\#1 にリンクさせるリスト内のネットワーク領域をクリックします。
+7.  [**ネットワーク地域\#2**] をクリックし、一覧でネットワーク地域\#1 にリンクするネットワーク地域をクリックします。
 
 8.  オプションで、[**帯域幅ポリシー**] をクリックし、ネットワーク地域リンクに適用する帯域幅ポリシーのプロファイルを選択します。
     
@@ -100,7 +100,7 @@ _**最終更新日:** 2012-10-19_
 
 9.  [**確定**] をクリックします。
 
-10. 他の地域についての設定でステップ 4 ～ 9 を繰り返し、ご使用のトポロジのネットワーク地域リンクの作成を完了します。
+10. 他の地域についての設定を二間してステップ 4 ～ 9 を繰り返し、ご使用のトポロジのネットワーク地域リンクの作成を完了します。
 
 </div>
 

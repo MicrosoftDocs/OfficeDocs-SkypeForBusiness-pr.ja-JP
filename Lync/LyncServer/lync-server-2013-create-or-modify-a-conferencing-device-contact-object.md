@@ -12,16 +12,16 @@ ms:contentKeyID: 51803945
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 56d594f0bf6e393545f4a7c29785b5f66b328bdc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 03bd3cfa6099d45cbad2d15ed164652756f50f5e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758101"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035405"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41758101"
 
 <span> </span>
 
-_**最終更新日:** 2013-10-02_
+_**トピックの最終更新日:** 2013-10-02_
 
-会議室オブジェクトを作成するには、まず、デバイスを表す Active Directory ユーザーアカウントを作成します。 次に、 **Csroom room**コマンドレットを使用して、そのアカウントを会議デバイスとして機能させることができるようにします。 既存の会議デバイスのプロパティを変更する必要がある場合は、 **Set-Csroom room**コマンドレットを使用します。
+会議室オブジェクトを作成するには、まず、デバイスを表す Active Directory ユーザーアカウントを作成します。 その後、この**コマンドレットを使用して**、そのアカウントを会議デバイスとして機能できるようにします。 既存の会議デバイスのプロパティを変更する必要がある場合は、コマンドレットの**設定**を使用します。
 
-これらのコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。
+これらのコマンドレットは、Lync Server 2013 管理シェルから実行するか、Windows PowerShell のリモートセッションから実行できます。
 
 <div>
 
 
 > [!NOTE]  
-> リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を<A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>で参照してください。
+> リモート Windows PowerShell を使用して Lync Server に接続する方法の詳細については、Lync Server Windows PowerShell のブログ記事「Quick Start: Microsoft Lync Server 2010 <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>を使用したリモート PowerShell の管理」を参照してください。
 
 
 
@@ -58,7 +58,7 @@ _**最終更新日:** 2013-10-02_
 
 ## <a name="creating-a-conferencing-device"></a>会議デバイスの作成
 
-  - 新しい会議デバイスを表す Active Directory ユーザーアカウントを作成した後、[**有効にする-Csroom room** ] コマンドレットを使用して有効にします。 会議デバイス id、b) 会議室アカウントが所属するレジストラープール、およびそのアカウントに割り当てられる SIP アドレスを必ず含めてください。)。 次に例を示します。
+  - 新しい会議デバイスを表す Active Directory ユーザーアカウントを作成した後、 **enable-csコンファレンスルーム**コマンドレットを使用して有効にします。 会議デバイス id、b) 会議室のアカウントが所属するレジストラープール、およびそのアカウントに割り当てる SIP アドレスは、必ず含めるようにしてください。 例:
     
         Enable-CsMeetingRoom -Identity "Redmond Conferencing device" -RegistrarPool "atl-cs-001.litwareinc.com" -SipAddress "sip:RedmondMeetingRoom@litwareinc.com"
 
@@ -68,13 +68,13 @@ _**最終更新日:** 2013-10-02_
 
 ## <a name="modifying-a-conferencing-device"></a>会議デバイスの変更
 
-  - 既存の会議デバイスのプロパティ値を変更するには、 **Set-Csroom room**コマンドレットを使用します。 たとえば、次のコマンドは、会議デバイスに関連付けられている電話番号 (LineUri) を更新します。
+  - 既存の会議デバイスのプロパティ値を変更するには、コマンドレットの**設定**を使用します。 たとえば、次のコマンドを実行すると、会議デバイスに関連付けられた電話番号 (LineUri) が更新されます。
     
         Set-CsMeetingRoom -Identity "Redmond Conferencing device" -LineUri "tel:+12065551219"
 
 </div>
 
-詳細については、「 [Csroom Room を有効にする](https://docs.microsoft.com/powershell/module/skype/Enable-CsMeetingRoom)」コマンドレットと、「 [csroom room](https://docs.microsoft.com/powershell/module/skype/Set-CsMeetingRoom) 」コマンドレットのヘルプトピックを参照してください。
+詳細については、を参照してください。[このコマンドレット](https://docs.microsoft.com/powershell/module/skype/Enable-CsMeetingRoom)[のヘルプ](https://docs.microsoft.com/powershell/module/skype/Set-CsMeetingRoom)トピックを参照してください。
 
 </div>
 

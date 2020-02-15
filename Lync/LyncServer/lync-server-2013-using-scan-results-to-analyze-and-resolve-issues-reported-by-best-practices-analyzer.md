@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: スキャン結果を使ってベストプラクティスアナライザーによって報告された問題を分析および解決する'
+title: 'Lync Server 2013: スキャン結果を使用して、ベストプラクティスアナライザーによって報告された問題を分析および解決する'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185581
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9f2e7225cd79f4a89fcba1a168b9828ce6b72c8b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 116970f981c03212ec8ad769eaad71acb4d57cd8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744027"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007566"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="using-scan-results-to-analyze-and-resolve-issues-reported-by-best-practices-analyzer-in-lync-server-2013"></a>[スキャン結果] を使用して、Lync Server 2013 のベストプラクティスアナライザーによって報告された問題を分析し、解決する
+# <a name="using-scan-results-to-analyze-and-resolve-issues-reported-by-best-practices-analyzer-in-lync-server-2013"></a>Lync Server 2013 のベストプラクティスアナライザーによって報告された問題を分析および解決するためのスキャン結果の使用
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41744027"
 
 <span> </span>
 
-_**最終更新日:** 2012-06-14_
+_**トピックの最終更新日:** 2012-06-14_
 
-Lync Server 2013 を実行する場合は、Lync Server 2013 環境でベストプラクティスアナライザーを実行すると、スキャン結果が使用され、展開に関する問題のレポートが生成されます。 ベストプラクティスアナライザーによって生成されたレポートを使用して、特定の問題を特定して解決することができます。
+Lync server 2013 のベストプラクティスアナライザーを Lync Server 2013 環境で実行すると、このツールはスキャン結果を使用して、展開に関する問題のレポートを生成します。 ベスト プラクティス アナライザーによって生成されたレポートを使用して、それぞれの問題を特定し、解決することができます。
 
 <div>
 
 
 > [!NOTE]  
-> Lync Server 2013 のベストプラクティスアナライザーは、Lync Server 2013 コンポーネントの問題のみをスキャンして報告します。 展開に Microsoft Lync Server 2010 または Office Communications Server 2007 R2 コンポーネントが含まれている場合は、前のバージョンのベストプラクティスアナライザーを使用して、それらのコンポーネントを分析します。 詳細については、「 <A href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">Lync Server 2013 でベストプラクティスアナライザーを実行するための要件</A>」を参照してください。
+> Lync Server 2013、ベストプラクティスアナライザーは Lync Server 2013 コンポーネントの問題のみをスキャンして報告します。 展開に Microsoft Lync Server 2010 または Office Communications Server 2007 R2 コンポーネントが含まれている場合は、以前のバージョンのベストプラクティスアナライザーを使用してこれらのコンポーネントを分析します。 詳細については、「 <A href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">Lync Server 2013 でベストプラクティスアナライザーを実行するための要件</A>」を参照してください。
 
 
 
@@ -51,11 +51,11 @@ Lync Server 2013 を実行する場合は、Lync Server 2013 環境でベスト�
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 でベストプラクティスアナライザーによって作成されたレポートを表示して操作する](lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md)
+  - [Lync Server 2013 でのベストプラクティスアナライザーによって作成されたレポートの表示と操作](lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md)
 
-  - [Lync Server 2013 のベストプラクティスアナライザーによって識別された問題を分析し、解決する](lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md)
+  - [Lync Server 2013 でのベストプラクティスアナライザーによって識別された問題の分析と解決](lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md)
 
 </div>
 

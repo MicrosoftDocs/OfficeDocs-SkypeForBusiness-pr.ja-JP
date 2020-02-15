@@ -1,5 +1,5 @@
 ---
-title: セットアップと管理に必要な管理者権限およびアクセス許可
+title: セットアップと管理に必要な管理者権限とアクセス許可
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185329
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca9fb6982a84ff70791fd4896ab92daf683b9864
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bea99b254504907b429da831fa6b072b482b61b3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737837"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41998522"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41737837"
 
 <span> </span>
 
-_**最終更新日:** 2012-06-29_
+_**トピックの最終更新日:** 2012-06-29_
 
-Lync Server 2013 のセットアップと展開を行うには、ソフトウェアをインストールして展開する人がローカルまたはドメインレベルのグループのメンバーである必要があります。 Lync Server 2013 の管理ツールには、追加の権限が必要です。
+Lync Server 2013 のセットアップと展開では、ソフトウェアをインストールして展開するユーザーがローカルまたはドメインレベルのグループのメンバーである必要があります。 Lync Server 2013 の管理ツールには、追加のアクセス許可が必要な場合があります。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 のグループ メンバーシップの要件](lync-server-2013-group-membership-requirements.md)
+  - [Lync Server 2013 のグループメンバーシップ要件](lync-server-2013-group-membership-requirements.md)
 
   - [Lync Server 2013 でのセットアップのアクセス許可の委任](lync-server-2013-delegate-setup-permissions.md)
 

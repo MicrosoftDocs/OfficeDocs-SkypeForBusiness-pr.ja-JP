@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: IPv6 の移行および共存の検討事項'
+title: 'Lync Server 2013: IPv6 の移行と共存の考慮事項'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184751
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d5785b270aa3070c2b1592112ab4d5ae582e52bc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3f4a042089c0961eb8ea8313b78bbfcafa72c999
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41766028"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033346"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="migration-and-coexistence-considerations-for-ipv6-in-lync-server-2013"></a>Lync Server 2013 における IPv6 の移行および共存の検討事項
+# <a name="migration-and-coexistence-considerations-for-ipv6-in-lync-server-2013"></a>Lync Server 2013 での IPv6 の移行と共存の考慮事項
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41766028"
 
 <span> </span>
 
-_**最終更新日:** 2012-06-14_
+_**トピックの最終更新日:** 2012-06-14_
 
-IP version 6 (IPv6) は、Lync Server 2010 または Office Communications Server ではサポートされていません。 パイロットのために、Lync Server 2010 および Lync Server 2013 の2つのスタックを共存させることができます。 いずれかのプールで IPv6 (デュアルスタックネットワーク) を有効にする前に、特定のセントラルサイトのすべてのプールを Lync Server 2013 にアップグレードすることをお勧めします。 IPv6 に対応したプールのみを構成する必要がある場合は、テスト用のラボ環境に IPv6 専用のプールを設定することをお勧めします。
+IP version 6 (IPv6) は、Lync Server 2010 または Office Communications Server ではサポートされていません。 パイロット目的で、Lync Server 2010 と Lync Server 2013 のデュアルスタック共存をテストできます。 任意のプールに対して IPv6 (デュアルスタックネットワーク) を有効にする前に、特定の中央サイトのすべてのプールを Lync Server 2013 にアップグレードすることをお勧めします。 IPv6 に対応したプールのみを構成する必要がある場合は、テスト用のラボ環境に IPv6 専用のプールを設定することをお勧めします。
 
 次のシナリオは、移行と共存でサポートされます。
 
-  - Lync server 2013、Lync Server 2010、Office Communications Server 2007 R2 プール (IPv4 モード) では、Lync Server 2013 とデュアルスタックモードを共存させることができます。
+  - Lync server 2013、Lync Server 2010、および Office Communications Server 2007 R2 プールを IPv4 モードで使用すると、デュアルスタックモードで Lync Server 2013 と共存させることができます。
 
-  - Ipv6 専用プールが孤立している場合は、IPv6 専用モードの Lync Server 2013 プール。
+  - Ipv6 専用のプールが孤立している場合は、Lync Server 2013 プールを IPv6 専用モードにします。
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48184001
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 326ecac8df81eeba11ed29ff9f1968b681cdb98f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: be0bb5a603f856aa0faa02074962618fcb82448e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762255"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036727"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="dialogs-table-in-lync-server-2013"></a>Lync Server 2013 の Dialogs テーブル
+# <a name="dialogs-table-in-lync-server-2013"></a>Lync Server 2013 のダイアログテーブル
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41762255"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-28_
+_**トピックの最終更新日:** 2012-09-28_
 
 Dialogs テーブルは、ピアツーピアセッションの DialogIDs に関する情報を格納するサポートテーブルです。
 
@@ -57,29 +57,29 @@ Dialogs テーブルは、ピアツーピアセッションの DialogIDs に関�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>セッション Id</strong></p></td>
-<td><p>datetime</p></td>
+<td><p><strong>SessionIdTime</strong></p></td>
+<td><p>日付型</p></td>
 <td><p>Primary</p></td>
 <td><p>セッション要求の時刻。セッションを一意に識別するために SessionIDSeq と組み合わせて使用されます。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>SessionIdSeq</strong></p></td>
+<td><p><strong>Sessionidseq と</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>セッションを識別する ID 番号。 セッションを一意に識別するために SessionIDTime と組み合わせて使用されます。</p></td>
+<td><p>セッションを識別するための ID 番号。 セッションを一意に識別するために SessionIDTime と組み合わせて使用されます。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>ExternalChecksum</strong></p></td>
+<td><p><strong>ExternalChecksum サム</strong></p></td>
 <td><p>int</p></td>
 <td><p> </p></td>
-<td><p>ExternalID のチェックサム。 このフィールドは、データベースの検索速度を上げるために使用されます。</p></td>
+<td><p>ExternalID のチェックサム。 このフィールドは、データベースの検索速度を向上させるために使用します。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ExternalId</strong></p></td>
 <td><p>varbinary (775)</p></td>
 <td><p> </p></td>
-<td><p>SIP ダイアログ ID。バイナリとして保存されます。 バイナリの形式は次のとおりです。</p>
-<p>ダイアログ; 開始タグからタグへ</p>
+<td><p>SIP ダイアログ ID。バイナリとして格納されます。 バイナリの形式は次のとおりです。</p>
+<p>dialog、from タグ、およびタグ</p>
 <p>このデータは、次の構文を使用してテキスト形式に変換できます。</p>
 <p><code>cast(cast(ExternalId as varbinary(max)) as varchar(max))</code></p></td>
 </tr>

@@ -12,16 +12,16 @@ ms:contentKeyID: 49733862
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 77f53a4263fd0e0b64ccd6894d27e30c0c5be95c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b85e0398dc02c6138ebd41914f6edeb35ecefe01
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757401"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036375"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,25 +35,25 @@ ms.locfileid: "41757401"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-22_
+_**トピックの最終更新日:** 2013-02-22_
 
-SIP トランク構成設定は、仲介サーバーと公衆交換電話網 (PSTN) ゲートウェイ、IP パブリックブランチ交換 (PBX)、またはサービスプロバイダのセッションボーダーコントローラー (SBC) 間の関係と機能を定義します。 たとえば、次の設定ができます。
+SIP トランクの構成では、仲介サーバーと、公衆交換電話網 (PSTN) ゲートウェイ、IP-PBX (Public Branch Exchange)、サービス プロバイダーのセッション境界コントローラー (SBC) のいずれかとの間の関係および機能を定義します。たとえば、次の設定ができます。
 
   - トランクでメディア バイパスを有効化するか。
 
-  - リアルタイム伝送制御プロトコル (RTCP) パケットを送信する条件。
+  - Real-time Transport Control Protocol (RTCP) パケットが送信される条件。
 
-  - 各トランクで、セキュリティで保護されたリアルタイムプロトコル (SRTP) 暗号化が必要かどうかを示します。
+  - 各トランクでセキュア リアルタイム プロトコル (SRTP) 暗号化を要求するか。
 
 Microsoft Lync Server 2013 をインストールすると、SIP トランク構成設定のグローバルコレクションが作成されます。 また、管理者はサイト スコープまたはサービス スコープ (PSTN ゲートウェイ サービスの場合のみ) でカスタム設定のコレクションを作成することができます。
 
 <div>
 
-## <a name="to-view-sip-trunk-configuration-information-by-using-lync-server-control-panel"></a>Lync Server コントロールパネルを使用して SIP トランクの構成情報を表示するには
+## <a name="to-view-sip-trunk-configuration-information-by-using-lync-server-control-panel"></a>Lync Server コントロールパネルを使用して SIP トランク構成情報を表示するには
 
-1.  Lync Server コントロールパネルで、[**音声ルーティング**] をクリックし、[**トランク構成**] をクリックします。
+1.  Lync Server コントロールパネルで、[**音声のルーティング**] をクリックし、[**トランク構成**] をクリックします。
 
-2.  [**トランクの構成**] タブに、すべてのトランク構成設定のコレクションの一覧が表示されます。各コレクションについて、**名前**、**スコープ**、**状態**、**メディアバイパス**の各プロパティの値と共に、 **PSTN 使用**量、**通話番号の規則**、コレクションに関連付けられている**番号ルール**の数が表示されます。 トランク構成設定のコレクションに関する追加情報を表示するには、目的のコレクションをクリックし、[**編集**] をクリックして、[**詳細の表示**] をクリックします。 一度に1つのトランク構成設定のコレクションについてのみ、詳細情報を表示できます。
+2.  [**トランク構成**] タブには、すべてのトランク構成設定コレクションの一覧が表示されます。コレクションごとに、 **Name**、 **Scope**、 **State**、および**Media バイパス**の各プロパティの値と共に、 **PSTN 使用法**の数、**呼び出し番号のルール**、およびコレクションに関連付けられた**番号のルール**が表示されます。 トランク構成設定のコレクションに関するその他の詳細を確認するには、目的のコレクションをクリックし、[**編集**] をクリックして、[**詳細の表示**] をクリックします。 一度に1つのトランク構成設定のコレクションの詳細情報を表示できることに注意してください。
 
 </div>
 
@@ -61,13 +61,13 @@ Microsoft Lync Server 2013 をインストールすると、SIP トランク構�
 
 ## <a name="viewing-sip-trunk-configuration-information-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用した SIP トランク構成情報の表示
 
-SIP トランク構成設定は、Lync Server PowerShell と Set-cstrunkconfiguration コマンドレットを使用して表示できます。 このコマンドレットは、Lync Server 2013 Management Shell またはリモートセッション Windows PowerShell から実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
+SIP トランク構成設定は、Lync Server PowerShell と Get-cstrunkconfiguration コマンドレットを使用して表示できます。 このコマンドレットは、Lync Server 2013 管理シェルまたはリモートセッション Windows PowerShell から実行できます。 リモート Windows PowerShell を使用して Lync Server に接続する方法の詳細については、Lync Server Windows PowerShell のブログ記事「Quick Start: Microsoft Lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)を使用したリモート PowerShell の管理」を参照してください。
 
 <div>
 
-## <a name="to-view-sip-trunk-configuration-information"></a>SIP トランクの構成情報を表示するには
+## <a name="to-view-sip-trunk-configuration-information"></a>SIP トランク構成情報を表示するには
 
-  - SIP トランク構成のすべての設定に関する情報を表示するには、Lync Server 管理シェルで次のコマンドを入力して、enter キーを押します。
+  - すべての SIP トランク構成設定に関する情報を表示するには、Lync Server 管理シェルで次のコマンドを入力し、ENTER キーを押します。
     
         Get-CsTrunkConfiguration
     
@@ -100,7 +100,7 @@ SIP トランク構成設定は、Lync Server PowerShell と Set-cstrunkconfigur
 
 </div>
 
-詳細については、 [set-cstrunkconfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunkConfiguration)コマンドレットのヘルプトピックを参照してください。
+詳細については、 [get-cstrunkconfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunkConfiguration)コマンドレットのヘルプトピックを参照してください。
 
 </div>
 

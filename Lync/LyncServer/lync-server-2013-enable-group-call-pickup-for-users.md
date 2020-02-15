@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: グループ通話のピックアップをユーザーに対して有効にする'
+title: 'Lync Server 2013: ユーザーのグループ通話ピックアップを有効にする'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541457
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1fc2f513960371d0115b63260d35180f319bd923
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a7e744f42368cd02b197533b84352f8f0477d848
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736267"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033766"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enable-group-call-pickup-for-users-in-lync-server-2013"></a>Lync Server 2013 のユーザーに対してグループ通話のピックアップを有効にする
+# <a name="enable-group-call-pickup-for-users-in-lync-server-2013"></a>Lync Server 2013 でユーザーのグループ通話ピックアップを有効にする
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41736267"
 
 <span> </span>
 
-_**最終更新日:** 2013-01-30_
+_**トピックの最終更新日:** 2013-01-30_
 
-SEFAUtil リソースキットツールを使用して、ユーザーのグループ通話のピックアップを有効にします。 グループ通話のピックアップを有効にするには、コールパークの軌道の種類が GroupPickup のグループ番号がユーザーに割り当てられている必要があります。 通話集配グループ番号を割り当てて、同時にグループ通話のピックアップを有効にするには、SEFAUtil を実行するときに、/enablegrouppickup パラメーターを使用します。
+SEFAUtil リソースキットツールを使用して、ユーザーのグループ通話ピックアップを有効にします。 グループ通話ピックアップを有効にするには、コールパークオービットテーブルで種類が GroupPickup のグループ番号がユーザーに割り当てられている必要があります。 SEFAUtil を実行するときに、/enablegrouppickup パラメーターを使用して、通話ピックアップグループ番号を割り当て、グループ通話ピックアップを同時に有効にします。
 
 <div>
 
-## <a name="to-enable-group-call-pickup-for-a-user"></a>ユーザーに対してグループ通話のピックアップを有効にするには
+## <a name="to-enable-group-call-pickup-for-a-user"></a>ユーザーのグループ通話ピックアップを有効にするには
 
 1.  SEFAUtil ツールをインストールしたコンピューターに管理者権限でログオンします。
 
@@ -49,7 +49,7 @@ SEFAUtil リソースキットツールを使用して、ユーザーのグル�
     
         SEFAUtil.exe sip:<sip address of user> /server:<pool FQDN> /enablegrouppickup:<group number>
     
-    例:
+    次に例を示します。
     
         SEFAUtil.exe katarina@contoso.com /server:pool01.contoso.com /enablegrouppickup:199
 
@@ -60,8 +60,8 @@ SEFAUtil リソースキットツールを使用して、ユーザーのグル�
 ## <a name="see-also"></a>関連項目
 
 
-[グループ通話の集配番号を Lync Server 2013 のユーザーに割り当てる](lync-server-2013-assign-group-call-pickup-numbers-to-users.md)  
-[Lync Server 2013 のユーザーに対してグループ通話のピックアップを無効にする](lync-server-2013-disable-group-call-pickup-for-users.md)  
+[Lync Server 2013 でグループ通話ピックアップ番号をユーザーに割り当てる](lync-server-2013-assign-group-call-pickup-numbers-to-users.md)  
+[Lync Server 2013 でユーザーのグループ通話ピックアップを無効にする](lync-server-2013-disable-group-call-pickup-for-users.md)  
   
 
 </div>

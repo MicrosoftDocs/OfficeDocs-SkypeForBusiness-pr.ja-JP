@@ -12,20 +12,20 @@ ms:contentKeyID: 48183233
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f2e5dc3323ad14f02a5b24258878512707f66f19
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: db3e420a1fad89692133df4422138b43d4d7210e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764473"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41987032"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-sites-for-lync-server-2013"></a>Lync Server 2013 の Lync Server サイト
+# <a name="lync-server-sites-for-lync-server-2013"></a>Lync server 2013 の lync Server サイト
 
 </div>
 
@@ -35,35 +35,35 @@ ms.locfileid: "41764473"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-16_
+_**トピックの最終更新日:** 2012-10-16_
 
-Lync server では、Lync Server コンポーネントが含まれているネットワーク上の*サイト*を定義します。 サイトとは、1 つのローカル エリア ネットワーク (LAN)、または高速の光ファイバー ネットワークで接続された 2 つのネットワークなど、高速で遅延の少ないネットワークによる良好な接続が保たれているコンピューターの集合です。 Lync Server サイトは、Active Directory ドメインサービスサイトと Microsoft Exchange Server サイトとは別の概念であることに注意してください。 Lync Server サイトは、Active Directory サイトに対応している必要はありません。
+Lync Server では、Lync Server コンポーネントを含むネットワーク上の*サイト*を定義します。 サイトとは、1 つのローカル エリア ネットワーク (LAN) または高速の光ファイバー ネットワークで接続された 2 つのネットワークのように、高速で遅延の少ないネットワークによる良好な接続が保たれているコンピューターの集合です。 Lync Server サイトは、Active Directory ドメインサービスサイトと Microsoft Exchange Server サイトとは別の概念であることに注意してください。 Lync Server サイトは、Active Directory サイトに対応する必要はありません。
 
 <div>
 
 ## <a name="site-types"></a>サイトの種類
 
-各サイトは、少なくとも1つのフロントエンドプールまたは Standard Edition サーバー、または*ブランチサイト*を含む*セントラルサイト*です。 各ブランチサイトは1つのセントラルサイトと関連付けられ、ブランチサイトのユーザーは、関連付けられたセントラルサイトのサーバーからほとんどの Lync Server 機能を利用します。
+各サイトは、少なくとも1つのフロントエンドプールまたは Standard Edition サーバー、または*ブランチサイト*を含む*セントラルサイト*です。 各ブランチサイトは1つの中央サイトに関連付けられ、ブランチサイトのユーザーは、関連付けられた中央サイトのサーバーからほとんどの Lync Server 機能を取得します。
 
-各分岐サイトには、次のいずれかが含まれます。
+各ブランチ サイトは、次のいずれかを含みます。
 
-  - *Survivable Branch Appliance (SBA)*。これは、Lync server レジストラーと Windows server で実行されている仲介サーバーを備えた業界標準のブレードサーバーです。 Survivable Branch Appliance には、公衆交換電話網 (PSTN) ゲートウェイも含まれています。 Survivable Branch アプライアンスは、25 ~ 1000 ユーザーの支店向けサイト向けに設計されています。
+  - *存続可能 Branch Appliance (SBA)*。これは、Lync server レジストラーと、Windows server を実行している仲介サーバーを備えた業界標準のブレードサーバーです。 存続可能ブランチアプライアンスには、公衆交換電話網 (PSTN) ゲートウェイも搭載されています。 存続可能 Branch アプライアンスは、ユーザーが 25 ~ 1000 のブランチサイト向けに設計されています。
 
-  - *Survivable Branch server (SBS)*: 指定されたハードウェア要件を満たし、Lync server レジストラーと仲介サーバーソフトウェアがインストールされているサーバーです。 これを、PSTN ゲートウェイ、または電話サービス プロバイダーへの SIP トランクに接続する必要があります。 Survivable Branch Server は、1000と5000のユーザーを含むブランチサイト向けに設計されています。
+  - *存続可能ブランチサーバー (SBS)*。これは、指定されたハードウェア要件を満たし、Lync server レジストラーおよび仲介サーバーソフトウェアがインストールされている、Windows server を実行しているサーバーです。 これを、PSTN ゲートウェイ、または電話サービス プロバイダーへの SIP トランクに接続する必要があります。 存続可能ブランチサーバーは、1000と5000のユーザーが関係するブランチサイト用に設計されています。
 
-  - PSTN ゲートウェイ、および必要に応じて*仲介サーバー*。 このようなサーバーの役割の詳細については、「 [Lync server 2013 のサーバーの役割](lync-server-2013-server-roles.md)」を参照してください。
+  - PSTN ゲートウェイ、およびオプションの仲介サーバー**。 このおよびその他のサーバーの役割の詳細については、「 [Lync server 2013 のサーバーの役割](lync-server-2013-server-roles.md)」を参照してください。
 
-セントラルサイトへの弾力性のあるワイドエリアネットワーク (WAN) リンクを備えたブランチオフィスでは、3番目のオプション (PSTN ゲートウェイ) と、必要に応じて仲介サーバーを使用できます。 回復性の低いリンクを使用する支店のサイトでは、Survivable Branch Appliance または Survivable Branch Server を使用する必要があります。これにより、広域ネットワーク障害の時間の回復性が提供されます。 たとえば、Survivable Branch Appliance または Survivable Branch Server が展開されているサイトでは、ブランチサイトをセントラルサイトに接続している WAN が停止している場合でも、ユーザーはエンタープライズ音声通話の発信と受信を行うことができます。 Survivable Branch Appliance、Survivable Branch Server、復元性の詳細については、計画ドキュメントの「 [Lync server 2013 でのエンタープライズボイスの回復性の計画](lync-server-2013-planning-for-enterprise-voice-resiliency.md)」を参照してください。
+セントラル サイトへの復元力のあるワイド エリア ネットワーク (WAN) リンクを備えるブランチ オフィスでは、3 番目のオプションである PSTN ゲートウェイを (必要に応じて仲介サーバーも) 使用できます。 あまり回復不能なリンクを持つ支社のサイトでは、存続可能 Branch Appliance または存続可能ブランチサーバーを使用する必要があります。これにより、広域ネットワーク障害の時間内で復元性が提供されます。 たとえば、存続可能 Branch Appliance または存続可能 Branch Server が展開されているサイトでは、ブランチサイトを中央サイトに接続している WAN がダウンしている場合でも、ユーザーはエンタープライズ Voip 通話を確立したり、受信したりできます。 存続可能 Branch Appliance、存続可能 Branch Server、および復元の詳細については、「計画」のドキュメントの「 [planning For Enterprise Voice 弾力性 In Lync server 2013](lync-server-2013-planning-for-enterprise-voice-resiliency.md) 」を参照してください。
 
 </div>
 
 <div>
 
-## <a name="site-topologies"></a>サイトトポロジ
+## <a name="site-topologies"></a>サイト トポロジ
 
-展開には、少なくとも1つのセントラルサイトを含める必要があります。また、0を複数のブランチサイトに含めることができます。 各ブランチサイトは、1つのセントラルサイトと関連付けられています。 セントラルサイトは、プレゼンスや会議など、ブランチサイトでローカルにホストされていない支社サイトへの Lync Server サービスを提供します。
+展開には、少なくとも1つの中央サイトが含まれている必要があります。また、ゼロには多数のブランチサイトを含めることができます。 各ブランチサイトは、1つの中央サイトに関連付けられています。 中央サイトは、プレゼンスや会議など、ブランチサイトでローカルにホストされていないブランチサイトに Lync Server サービスを提供します。
 
-複数のサイトがある場合は、さまざまなサイトでフロントエンドプールを組み合わせて、障害回復機能を有効にすることができます。 詳細については、「 [Lync Server 2013 での高可用性と障害回復のサポート](lync-server-2013-high-availability-and-disaster-recovery-support.md)」を参照してください。
+複数のサイトがある場合は、異なるサイトのフロントエンド プールどうしをペアリングして、障害復旧の機能を有効にできます。 詳細については、「 [Lync Server 2013 の高可用性と障害復旧のサポート](lync-server-2013-high-availability-and-disaster-recovery-support.md)」を参照してください。
 
 </div>
 
@@ -76,7 +76,7 @@ Lync server では、Lync Server コンポーネントが含まれているネ�
 [Lync Server 2013 での高可用性および障害復旧のサポート](lync-server-2013-high-availability-and-disaster-recovery-support.md)  
 
 
-[Lync Server 2013 でのエンタープライズ VoIP の復旧の計画](lync-server-2013-planning-for-enterprise-voice-resiliency.md)  
+[Lync Server 2013 でのエンタープライズ Voip の復元の計画](lync-server-2013-planning-for-enterprise-voice-resiliency.md)  
   
 
 </div>

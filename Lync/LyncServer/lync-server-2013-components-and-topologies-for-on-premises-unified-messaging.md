@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 社内ユニファイド メッセージングのコンポーネントとトポロジ'
+title: 'Lync Server 2013: オンプレミスのユニファイドメッセージングのコンポーネントとトポロジ'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183619
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1739dbb7d603f112af72c78032c46b94470302bb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 94a22348ca5b0f17415edf0a4f259d5c58d473a9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742587"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007987"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="components-and-topologies-for-on-premises-unified-messaging-in-lync-server-2013"></a>Lync Server 2013 の社内ユニファイド メッセージングのコンポーネントとトポロジ
+# <a name="components-and-topologies-for-on-premises-unified-messaging-in-lync-server-2013"></a>Lync Server 2013 でのオンプレミスのユニファイドメッセージングのコンポーネントとトポロジ
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41742587"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-25_
+_**トピックの最終更新日:** 2012-09-25_
 
-このトピックでは、Lync Server 2013 の展開に Exchange ユニファイドメッセージング (UM) 機能を提供するために必要な Microsoft Exchange Server 2013 コンポーネントについて説明します。 また、オンプレミスの Exchange UM との統合でサポートされているトポロジについても説明します。
+このトピックでは、Exchange ユニファイドメッセージング (UM) 機能を Lync Server 2013 展開に提供するために必要な Microsoft Exchange Server 2013 コンポーネントについて説明します。 また、オンプレミスの Exchange UM 統合に対してサポートされているトポロジについても説明します。
 
 <div>
 
 ## <a name="exchange-server-components"></a>Exchange Server コンポーネント
 
-統合された[ユニファイドメッセージングおよび Lync Server 2013 の機能](lync-server-2013-features-of-integrated-unified-messaging.md)について説明した exchange UM の機能とサービスを組織内のエンタープライズボイスユーザーに提供するには、Microsoft Exchange メールボックスサーバーとクライアントアクセスサーバーを展開して、ユーザーのメールボックスをホストし、メールやボイスメール用の1つの保存場所を提供する必要があります。 Exchange UM は、Exchange メールボックスとクライアントアクセスサーバーでサービスとして実行されます。
+統合された[ユニファイドメッセージングと Lync Server 2013 の機能](lync-server-2013-features-of-integrated-unified-messaging.md)について説明されている exchange UM の機能とサービスを組織のエンタープライズ voip ユーザーに提供するには、ユーザーメールボックスをホストする Microsoft Exchange メールボックスサーバーとクライアントアクセスサーバーを展開し、電子メールとボイスメール用の単一の格納場所を提供する必要があります。 Exchange UM は、Exchange メールボックスサーバーおよびクライアントアクセスサーバー上のサービスとして実行されます。
 
-Microsoft Exchange Server 2007 および Microsoft Exchange Server 2010 の Exchange UM コンポーネントの詳細については、「展開ドキュメントで[Lync Server 2013 ボイスメールを提供するためのオンプレミスの EXCHANGE UM の展開」を](lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail.md)参照してください。
+Microsoft Exchange Server 2007 と Microsoft Exchange Server 2010 の Exchange UM コンポーネントの詳細については、「展開」のドキュメントの「[社内 EXCHANGE um を展開して Lync Server 2013 ボイスメールを提供する](lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail.md)」を参照してください。
 
 </div>
 
@@ -53,23 +53,23 @@ Microsoft Exchange Server 2007 および Microsoft Exchange Server 2010 の Exch
 
 ## <a name="supported-topologies"></a>サポートされるトポロジ
 
-Lync Server 2013 と Exchange ユニファイドメッセージング (UM) は、同じフォレストまたは複数のフォレストに展開できます。 展開が複数のフォレストにまたがる場合は、各 Exchange UM フォレストの Exchange 統合手順を実行する必要があります。 さらに、Lync Server 2013 フォレストと Lync Server 2013 フォレストを信頼するように Microsoft Exchange フォレストを構成し、各 Exchange UM フォレストを信頼するようにする必要があります。 このフォレストの信頼に加えて、Lync Server 2013 フォレストのユーザーオブジェクトに対して、すべてのユーザーの Exchange UM 設定を設定する必要があります。
+Lync Server 2013 と Exchange ユニファイドメッセージング (UM) を同じフォレストまたは複数のフォレストに展開できます。 複数のフォレストにまたがる展開の場合は、exchange UM フォレストごとに Exchange 統合の手順を実行する必要があります。 さらに、Lync Server 2013 フォレストと Lync Server 2013 フォレストを信頼して各 Exchange UM フォレストを信頼するように、各 Microsoft Exchange フォレストを構成する必要があります。 このフォレストの信頼に加えて、Lync Server 2013 フォレスト内のユーザーオブジェクトに対して、すべてのユーザーの Exchange UM 設定を設定する必要があります。
 
-Lync Server 2013 は、Exchange UM との統合のために次のトポロジをサポートしています。
+Lync Server 2013 は、Exchange UM 統合のために次のトポロジをサポートしています。
 
-  - 1つのフォレスト
+  - 単一のフォレスト
 
-  - 単一ドメイン (つまり、単一のドメインを持つ単一フォレスト)。 Lync Server 2013、Microsoft Exchange、およびユーザーはすべて同じドメインに存在します。
+  - 単一ドメイン (すなわち、単一ドメインを含む単一フォレスト)。 Lync Server 2013、Microsoft Exchange、およびユーザーはすべて同じドメインに存在します。
 
-  - 複数のドメイン (つまり、1つ以上の子ドメインを持つルートドメイン)。 Lync Server 2013、および Microsoft Exchange サーバーは、ユーザーを作成するドメインとは異なるドメインに展開されます。 Exchange UM サーバーは、サポートされている Lync Server 2013 プールとは異なるドメインに展開できます。
+  - 複数のドメイン (つまり、1つ以上の子ドメインを持つルートドメイン)。 Lync Server 2013 と Microsoft Exchange サーバーは、ユーザーを作成するドメインとは異なるドメインに展開されます。 Exchange UM サーバーは、サポートする Lync Server 2013 プールとは異なるドメインに展開できます。
 
-  - 複数のフォレスト (リソースフォレスト)。 Lync Server 2013 は1つのフォレストに展開され、ユーザーは複数のフォレストに分散されます。 ユーザーの Exchange UM 属性は、Lync Server 2013 フォレストにレプリケートする必要があります。
+  - 複数のフォレスト (すなわち、リソース フォレスト)。 Lync Server 2013 は単一のフォレストに展開され、ユーザーは複数のフォレスト間で分散されます。 ユーザーの Exchange UM 属性は、Lync Server 2013 フォレストにレプリケートする必要があります。
     
     <div>
     
 
     > [!NOTE]  
-    > Exchange は複数のフォレストに展開できます。 各 Exchange 組織は、Exchange UM をそのユーザーに提供することができます。また、Exchange UM を Lync Server 2013 と同じフォレストに展開することもできます。
+    > Exchange は複数のフォレストに展開できます。 各 Exchange 組織は Exchange UM をユーザーに提供できます。または、Exchange UM を Lync Server 2013 と同じフォレストに展開できます。
 
     
     </div>

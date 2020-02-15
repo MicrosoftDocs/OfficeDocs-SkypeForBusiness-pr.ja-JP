@@ -1,5 +1,5 @@
 ---
-title: 'フェーズ 6: パイロット展開から運用展開への移行'
+title: 'フェーズ 6: パイロット展開から運用への移行'
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733867
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 61720e8a255be3f5eedbee3c8cf409b4342427af
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 50f4b6c9b9930b9966f13ec44e7f418d7595e2f5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743627"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034207"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-6-move-from-pilot-deployment-into-production"></a>フェーズ 6: パイロット展開から運用展開への移行
+# <a name="phase-6-move-from-pilot-deployment-into-production"></a>フェーズ 6: パイロット展開から運用への移行
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41743627"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-19_
+_**トピックの最終更新日:** 2012-10-19_
 
-このセクションのトピックでは、パイロット展開から実稼働レベルの展開への Lync Server 2013 の展開を移行する前に完了する必要があるタスクについて説明します。
+このセクションのトピックでは、Lync Server 2013 の展開をパイロット展開から運用レベル展開に移行する前に完了しておく必要があるタスクについて説明します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [フェデレーション ルートとメディア トラフィックの構成](configure-federation-routes-and-media-traffic.md)
+  - [フェデレーション ルートとメディア トラフィックを構成する](configure-federation-routes-and-media-traffic.md)
 
-  - [外部ユーザーのフェデレーションとリモート アクセスの確認](verify-federation-and-remote-access-for-external-users.md)
+  - [外部ユーザーのフェデレーションとリモート アクセスを確認する](verify-federation-and-remote-access-for-external-users.md)
 
-  - [移行後の簡易 URL の変更](change-simple-urls-after-migration.md)
+  - [移行後に簡単な Url を変更する](change-simple-urls-after-migration.md)
 
-  - [Lync Server 2013 への残りのユーザーの移動](move-remaining-users-to-lync-server-2013.md)
+  - [残りのユーザーを Lync Server 2013 に移動する](move-remaining-users-to-lync-server-2013.md)
 
-  - [Lync Server 2013 での XMPP ゲートウェイの構成](configure-xmpp-gateway-on-lync-server-2013.md)
+  - [Lync Server 2013 で XMPP ゲートウェイを構成する](configure-xmpp-gateway-on-lync-server-2013.md)
 
 </div>
 

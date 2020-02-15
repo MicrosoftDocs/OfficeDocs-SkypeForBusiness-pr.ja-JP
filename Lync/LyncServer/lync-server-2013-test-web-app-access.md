@@ -12,20 +12,20 @@ ms:contentKeyID: 63969584
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7618bcc9a69d177950bae64354106a67721e822a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a48580561a1a070b44b202e5d49c89261518dafe
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746007"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42017848"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="test-web-app-access-in-lync-server-2013"></a>Lync Server 2013 で Web アプリへのアクセスをテストする
+# <a name="test-web-app-access-in-lync-server-2013"></a>Lync Server 2013 での Web アプリケーションアクセスのテスト
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41746007"
 
 <span> </span>
 
-_**最終更新日:** 2014-06-07_
+_**トピックの最終更新日:** 2014-06-07_
 
 
 <table>
@@ -45,7 +45,7 @@ _**最終更新日:** 2014-06-07_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>確認のスケジュール</p></td>
+<td><p>検証スケジュール</p></td>
 <td><p>毎月</p></td>
 </tr>
 <tr class="even">
@@ -54,8 +54,8 @@ _**最終更新日:** 2014-06-07_
 </tr>
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
-<td><p>Lync Server 管理シェルを使用してローカルで実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使って実行する場合、ユーザーには、テスト用の CsWebApp コマンドレットを実行するアクセス許可が与えられた RBAC の役割を割り当てる必要があります。 このコマンドレットを使うことができるすべての RBAC ロールの一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには、Test-CsWebApp コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsWebApp&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,9 +66,9 @@ _**最終更新日:** 2014-06-07_
 
 ## <a name="description"></a>説明
 
-テスト用の Web コマンドレットは、認証されたユーザーが Lync Web App を使って Lync Server 会議に参加できることを確認します。 コマンドレットを実行するときに、テスト用の Web チケットサービスに連絡して、指定されたユーザーの web チケットを取得します。 これらのチケットは、Lync Server 会議の "受付チケット" として効果的に機能します。 チケットを取得できる場合に、ユーザーを認証できる場合は、ユーザーは Lync Server に連絡し、インスタントメッセージング、アプリケーション共有、データの共同作業のために個別の会議を確立しようとします。
+Test-CsWebApp コマンドレットは、認証されたユーザーが lync Web App を使用して Lync Server 会議に参加できることを確認します。 コマンドレットを実行すると、テスト-CsWebApp は Web チケットサービスに接続して、指定されたユーザーの web チケットを取得します。 これらのチケットは、Lync Server 会議の「受付チケット」として効果的に機能します。 チケットを取得でき、ユーザーを認証できる場合、テスト-CsWebApp は Lync Server に接続して、インスタントメッセージング、アプリケーション共有、およびデータコラボレーションのための個別の会議を確立しようとします。
 
-このテストでは、これらの会議を作成するために使用された Api と接続を確認するだけであることに注意してください。 このコマンドレットは、Lync Web App を使用して会議を作成して参加できることを確認するように設計されています。 ただし、実際には会議を作成して実施するわけではありません。
+Test-CsWebApp は、これらの会議の作成に使用された Api と接続を確認するだけであることに注意してください。 コマンドレットは、Lync Web App を使用して会議の作成と参加を行うことができることを確認するように設計されています。 ただし、実際には会議を作成して実施することはありません。
 
 </div>
 
@@ -76,64 +76,64 @@ _**最終更新日:** 2014-06-07_
 
 ## <a name="running-the-test"></a>テストの実行
 
-テスト用の Webapp コマンドレットを実行するには、構成済みのテストアカウントのペア、または Lync Server を有効にしている2人のユーザーのアカウントのいずれかを使用します。 テストアカウントを使用してこのチェックを実行するには、テスト対象の Lync サーバープールの完全修飾ドメイン名を指定する必要があります。 次に例を示します。
+Test-CsWebApp コマンドレットは、構成済みのテストアカウントのペア、または Lync Server が有効になっている2人のユーザーのアカウントのいずれかを使用して実行できます。 このチェックをテストアカウントを使用して実行するには、テストする Lync Server プールの完全修飾ドメイン名を指定するだけで済みます。 例:
 
     Test-CsWebApp -TargetFqdn "atl-cs-001.litwareinc.com"
 
-実際のユーザーアカウントを使用してこのチェックを実行するには、2つの Windows PowerShell credentials オブジェクト (アカウント名とパスワードを含むオブジェクト) を各アカウントに作成する必要があります。 次に、これらの資格情報オブジェクトと、次に記載されている2つのアカウントの SIP アドレスを、テスト用の Webapp の作成時に含める必要があります。
+実際のユーザーアカウントを使用してこのチェックを実行するには、2つの Windows PowerShell credentials オブジェクト (アカウント名とパスワードを含むオブジェクト) を各アカウントに作成する必要があります。 次に、Test-CsWebApp を呼び出すときに、これらの資格情報オブジェクトと2つのアカウントの SIP アドレスを含める必要があります。
 
     $cred1 = Get-Credential "litwareinc\kenmyer"
     $cred2 = Get-Credential "litwareinc\pilar"
     
     Test-CsWebApp -TargetFqdn atl-cs-001.litwareinc.com -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $cred1 -User2SipAddress "sip:pilar@litwareinc.com" -User2Credential $cred2
 
-詳細については、「[テスト-CsWebApp](https://docs.microsoft.com/powershell/module/skype/Test-CsWebApp)コマンドレットのヘルプ」を参照してください。 テスト用 CsWebApp は、Lync Server 2013 で使用するために廃止されたことに注意してください。
+詳細については、 [Test-CsWebApp](https://docs.microsoft.com/powershell/module/skype/Test-CsWebApp)コマンドレットのヘルプトピックを参照してください。 Lync Server 2013 で使用するために、Test-CsWebApp は推奨されていないことに注意してください。
 
 </div>
 
 <div>
 
-## <a name="determining-success-or-failure"></a>成功または失敗を確認する
+## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
-テスト用の Webapp をユーザーが会議に参加できる場合、コマンドレットによってテスト結果の成功が返されます。
+Test-CsWebApp を使用してユーザーを会議に参加させる場合、コマンドレットはテスト結果の成功を返します。
 
 ターゲット Fqdn:
 
 結果: 成功
 
-待ち時間: 00:00:00
+待機時間: 00:00:00
 
 エラーメッセージ:
 
-診断
+分析
 
-ユーザーが必要な会議に参加できない場合、テスト結果は [エラー] としてマークされます。 通常、テスト用の Webapp は、詳細なエラーメッセージと診断についても報告します。
+ユーザーが必要な電話会議に参加できない場合は、テスト結果が [失敗] としてマークされます。 通常、Test-CsWebApp は、詳細なエラーメッセージと診断についても報告します。
 
 ターゲット Fqdn: atl-cs-001.litwareinc.com
 
 結果: エラー
 
-待ち時間: 00:00:00
+待機時間: 00:00:00
 
-エラーメッセージ: Web チケットサービスの応答がありません
+エラーメッセージ: Web チケットサービスの応答が受信されていません
 
-診断: HTTP 要求はクライアントで承認されていません
+診断: HTTP 要求はクライアントによって承認されていません
 
 認証スキーム ' Ntlm '。 認証
 
-サーバーから受信したヘッダーは、"Negotiate、NTLM" でした。
+サーバーから送信されたヘッダーは ' Negotiate, NTLM ' でした。
 
 </div>
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a>テストに失敗した可能性がある理由
+## <a name="reasons-why-the-test-might-have-failed"></a>テストが失敗した理由
 
-通常、テスト用の Webapp のエラーには、ユーザー認証エラーが含まれます。 テスト用の作成に失敗した場合は、最初に、指定したユーザーに有効なユーザーアカウントがあり、Lync Server が有効になっていることを確認する必要があります。 次のようなコマンドを使用して、アカウント情報を取得できます。
+通常、テスト-CsWebApp の障害には、ユーザー認証エラーが伴います。 Test-CsWebApp が失敗した場合は、まず、指定されたユーザーが有効なユーザーアカウントを持っていて、Lync Server に対して有効になっていることを確認する必要があります。 次のようなコマンドを使用して、アカウント情報を取得できます。
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object Enabled
 
-Enabled プロパティが True と等しくない場合、またはコマンドが失敗した場合は、ユーザーが有効な Lync Server アカウントを持っていないことを意味します。また、コマンドレットに指定したパスワードが有効であることも確認する必要があります。
+Enabled プロパティが True と一致しない場合、またはコマンドが失敗した場合は、ユーザーが有効な Lync Server アカウントを持っていないことを意味します。また、コマンドレットに指定したパスワードが有効であることも確認する必要があります。
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48185444
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b27fc4f3dfc42e9187ea0aee801b3c2115d83ff0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5b45f52a07713973d8f642389513d0e34b5236de
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746037"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42018038"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41746037"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-24_
+_**トピックの最終更新日:** 2013-02-24_
 
-Lync Server コントロールパネルの [**ボイスルーティングのテスト**] タブを使用して、テストケースのシナリオを構成することができます。 テストケースを定義するには、指定した電話番号をテストするためのダイヤルプラン、音声ポリシー、PSTN 使用量、および音声ルートを指定します。
+[Lync Server コントロールパネル] [**音声ルーティングのテスト**] タブを使用して、テストケースシナリオを構成できます。 テスト ケースを定義するには、ダイヤル プラン、音声ポリシー、PSTN 使用法、およびボイス ルートを、テストする特定の電話番号に対して指定します。
 
-実際にボイスルーティング構成を展開する前に、さまざまな電話番号でテストして、期待どおりの結果が得られていることを確認することをお勧めします。
+音声ルーティング構成を実際に展開する前に、さまざまな電話番号でテストして、期待している結果が得られることを確認することをお勧めします。
 
 <div>
 
 
 > [!TIP]  
-> [<STRONG>テストケースのエクスポート</STRONG>] と [<STRONG>テストケースのインポート</STRONG>] コマンドを使用して、ボイスルーティングテストケースを保存し、別のコンピューターで使用するためにインポートすることができます。
+> [<STRONG>テスト ケースのエクスポート</STRONG>] コマンドおよび [<STRONG>テスト ケースのインポート</STRONG>] コマンドを使用して、音声ルーティングのテスト ケースを保存したり、他のコンピューターで使用するためにインポートしたりできます。
 
 
 
@@ -55,7 +55,7 @@ Lync Server コントロールパネルの [**ボイスルーティングのテ�
 
 
 > [!WARNING]  
-> ダイヤルプラン、ボイスポリシー、ボイスルート、または電話の使用状況など、音声ルーティング構成の一部を削除する場合は、ボイスルーティングテストケースを確認して更新する必要があります。 Lync Server コントロールパネルでは、設定が変更されたために無効になったケースをテストすることはできません。
+> ダイヤル プラン、音声ポリシー、ボイス ルート、電話使用法などの音声ルーティング構成の一部を削除した場合、音声ルーティング テスト ケースを確認して更新する必要があります。 Lync Server コントロールパネルは、構成が変更されたために有効でなくなったケースをテストすることを警告しません。
 
 
 
@@ -63,15 +63,15 @@ Lync Server コントロールパネルの [**ボイスルーティングのテ�
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 での音声ルーティング テスト ケースの作成](lync-server-2013-create-a-voice-routing-test-case.md)
+  - [Lync Server 2013 での音声ルーティングテストケースの作成](lync-server-2013-create-a-voice-routing-test-case.md)
 
-  - [Lync Server 2013 での音声ルーティング テスト ケースのエクスポート](lync-server-2013-export-voice-routing-test-cases.md)
+  - [Lync Server 2013 での音声ルーティングテストケースのエクスポート](lync-server-2013-export-voice-routing-test-cases.md)
 
-  - [Lync Server 2013 音声ルーティング テスト ケースのインポート](lync-server-2013-import-voice-routing-test-cases.md)
+  - [Lync Server 2013 での音声ルーティングテストケースのインポート](lync-server-2013-import-voice-routing-test-cases.md)
 
-  - [Lync Server 2013 での音声ルーティング テストの実行](lync-server-2013-running-voice-routing-tests.md)
+  - [Lync Server 2013 での音声ルーティングテストの実行](lync-server-2013-running-voice-routing-tests.md)
 
 </div>
 

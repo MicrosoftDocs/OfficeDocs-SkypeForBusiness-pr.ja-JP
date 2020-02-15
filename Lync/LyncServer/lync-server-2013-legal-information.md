@@ -12,16 +12,16 @@ ms:contentKeyID: 48183258
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f9486431d320a5ba081afd85daa3b5e295028a12
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 84def7e711a18762f4473bbda5946a14eff3b1e8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758001"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034929"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41758001"
 
 <span> </span>
 
-_**最終更新日:** 2011-02-22_
+_**トピックの最終更新日:** 2011-02-22_
 
-このドキュメントは“現状のまま”提供されます。このドキュメントに記載されている情報およびビュー (URL 等のインターネット Web サイトに関する情報を含む) は、将来予告なしに変更されることがあります。
+このドキュメントは "現状のまま" 提供されます。このドキュメントに記載されている情報およびビュー (URL 等のインターネット Web サイトに関する情報を含む) は、将来予告なしに変更されることがあります。
 
-このドキュメントに示されるいくつかの例は、説明のためにのみ提供されるものであり、架空のものです。 実在の団体や関係は想定されておらず、推察するものでもありません。
+このドキュメントで使用しているサンプルは例示のみを目的として提供されており、名称などは架空のものです。実在する商品名、団体名、個人名などとは一切関係ありません。
 
-このドキュメントは、読者に Microsoft 製品の知的財産に対する法的権利を付与するものではありません。お客様による内部的な参照目的での、このドキュメントのコピーおよび使用は許可されます。
+このドキュメントは、読者にマイクロソフト製品の知的財産に対する法的権利を付与するものではありません。お客様による内部的な参照目的での、このドキュメントのコピーおよび使用は許可されます。
 
-著作権© 2013 Microsoft Corporation。 All rights reserved.
+Copyright © 2013 Microsoft Corporation。 All rights reserved.
 
 </div>
 

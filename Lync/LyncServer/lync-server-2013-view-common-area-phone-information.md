@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 一般的な市外局番の情報を表示する'
+title: 'Lync Server 2013: 共通領域電話の情報の表示'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803992
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 38614b2993ddd9ad3fe3a662a334440a1d1287b7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7e045cb13d0e0d0c085d9d45e23b1510d61c93a3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757461"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007166"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-common-area-phone-information-in-lync-server-2013"></a>Lync Server 2013 で一般的な市外局番情報を表示する
+# <a name="view-common-area-phone-information-in-lync-server-2013"></a>Lync Server 2013 で共通領域電話の情報を表示する
 
 </div>
 
@@ -37,22 +37,22 @@ ms.locfileid: "41757461"
 
 _**トピックの最終更新日:** 2013-02-20_
 
-組織で使用できるように構成されている一般的なエリア電話に関する情報を表示するには、 **CsCommonAreaPhone**コマンドレットを使用します。 パラメーターを指定せずにこのコマンドレットを使うと、すべての共通エリア電話に関する情報が返されます。 オプションのパラメーターを使うと、情報をフィルター処理する方法が異なります。 たとえば、指定した組織単位 (OU) 内の連絡先オブジェクト、または指定した建物内のすべての連絡先オブジェクトを持つ共通の市外電話をすべて取得できます。 **CsCommonAreaPhone**パラメーターの詳細については、「 [get-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone)」を参照してください。
+組織で使用するために構成されている共通領域電話の情報は、 **move-cscommonareaphone**コマンドレットを使用して確認できます。 パラメーターを指定せずにこのコマンドレットを実行すると、すべての共通領域電話に関する情報が戻されます。 オプションのパラメーターを使用すると、情報をフィルター処理する方法が異なります。 たとえば、指定された組織単位 (OU) または指定した建物にあるすべての連絡先オブジェクトを含む共通領域電話をすべて返すことができます。 **Move-cscommonareaphone**パラメーターの詳細については、「 [move-cscommonareaphone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone)」を参照してください。
 
-**CsCommonAreaPhone**は、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行します。
-
-<div>
-
+**Move-cscommonareaphone**を Lync Server 2013 管理シェルから実行するか、Windows PowerShell のリモートセッションから実行します。
 
 <div>
 
-## <a name="viewing-information-about-all-your-common-area-phones"></a>共通のエリア電話に関する情報を表示する
 
-  - 一般的なすべての地域電話に関する情報を表示するには、Lync Server 管理シェルで次のコマンドを入力し、enter キーを押します。
+<div>
+
+## <a name="viewing-information-about-all-your-common-area-phones"></a>すべての共通領域電話に関する情報の表示
+
+  - すべての共通領域電話に関する情報を表示するには、Lync Server 管理シェルで次のコマンドを入力し、Enter キーを押します。
     
         Get-CsCommonAreaPhone
     
-    次のような情報が表示できます。
+    次のような情報が表示されることになります。
     
         Identity           : CN=Building 14 Lobby,OU=Redmond,
                              DC=litwareinc,DC=com
@@ -74,7 +74,7 @@ _**トピックの最終更新日:** 2013-02-20_
 
 </div>
 
-詳細については、 [CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone)コマンドレットのヘルプトピックを参照してください。
+詳細については、 [move-cscommonareaphone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone)コマンドレットのヘルプトピックを参照してください。
 
 </div>
 

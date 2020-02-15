@@ -1,5 +1,5 @@
 ---
-title: テナントパラメーターを使う Skype for Business Online のコマンドレット
+title: テナントパラメーターを使用する Skype for Business Online のコマンドレット
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -13,60 +13,60 @@ ms:contentKeyID: 56558865
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 40f325c55415f97822b1e8c9d21a6d2e80e27273
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 121133ce163b73bd0ddf49faa1db03ae352056d3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728017"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42000932"
 ---
-# <a name="cmdlets-in-skype-for-business-online-that-use-the-tenant-parameter"></a>テナントパラメーターを使う Skype for Business Online のコマンドレット
+# <a name="cmdlets-in-skype-for-business-online-that-use-the-tenant-parameter"></a>テナントパラメーターを使用する Skype for Business Online のコマンドレット
 
  
 
 
-パブリックプロバイダーの設定を変更する場合は、常にテナント id を指定する必要があります。これは、1つのテナントのみがある場合にも当てはまります。 たとえば、次のコマンドは、Windows Live を、ユーザーが通信できる唯一のパブリックプロバイダーとして設定します。
+パブリックプロバイダーの設定を変更するときは、常にテナント id を指定する必要があります。これは、テナントが1つだけの場合でも同様です。 たとえば、次のコマンドは、ユーザーが通信できるパブリックプロバイダーとして Windows Live を設定します。
 
     Set-CsTenantPublicProvider -Tenant "bf19b7db-6960-41e5-a139-2aa373474354" -Provider "WindowsLive"
 
-ただし、これらのコマンドレットのいずれかを実行するたびに、テナント ID (bf19b7db-6960-41e5-a139-2aa373474354 など) を入力する必要はありません。 代わりに、 [CsTenant](https://technet.microsoft.com/en-us/library/jj994044\(v=ocs.15\))コマンドレットを実行し、テナント id を変数に保存してから、他のコマンドレットのいずれかを呼び出すときにその変数を使用して、テナント id を取得できます。 次に例を示します。
+これらのコマンドレットのいずれかを実行するたびに、テナント ID (たとえば、bf19b7db-6960-41e5-a139-2aa373474354) を入力する必要はありません。 その代わりに、 [get-cstenant](https://technet.microsoft.com/library/jj994044\(v=ocs.15\))コマンドレットを実行してテナント id を変数に格納し、他のコマンドレットのいずれかを呼び出すときにその変数を使用することで、テナント id を取得できます。 例:
 
     $x = (Get-CsTenant).TenantId
     Set-CsTenantPublicProvider -Tenant $x -Provider "WindowsLive"
 
-または、1つのコマンドでテナント ID を取得し、その値を CsTenantPublicProvider コマンドレットにパイプすることで、この操作を行うこともできます。
+または、テナント ID を取得し、その値を CsTenantPublicProvider コマンドレットにパイプ処理することによって、この操作を1つのコマンドで行うこともできます。
 
     Get-CsTenant | Select-Object TenantId | ForEach-Object {Set-CsTenantPublicProvider -Tenant $_.TenantId -Provider "WindowsLive"}
 
-**Get-CsTenant**コマンドレットを呼び出すときに、テナント ID を指定する必要はありません。 このコマンドは、テナントに関する情報を返します。
+**Get-cstenant**コマンドレットを呼び出すときに、テナント ID を指定する必要はありません。 このコマンドは、テナントに関する情報を返します。
 
     Get-CsTenant
 
-次のコマンドレットは、テナント id を受け取ります。 ただし、この場合、パラメーターは省略可能であり、コマンドレットを呼び出すときに入力する必要はありません。 代わりに、Windows PowerShell は、現在接続している Skype for Business Online テナントに基づいて、適切にテナント id を入力します。
+次のコマンドレットは、テナント id を受け入れます。 ただし、このような場合、パラメーターは省略可能であり、コマンドレットを呼び出すときに入力する必要はありません。 代わりに、Windows PowerShell は、現在接続されている Skype for Business Online テナントに基づいて、次のようなテナント id を実際に入力します。
 
-  - [Get-CsTenant](https://technet.microsoft.com/en-us/library/jj994044\(v=ocs.15\))
+  - [Get-cstenant](https://technet.microsoft.com/library/jj994044\(v=ocs.15\))
 
-  - [Set-CsTenantFederationConfiguration](https://technet.microsoft.com/en-us/library/jj994080\(v=ocs.15\))
+  - [CsTenantFederationConfiguration](https://technet.microsoft.com/library/jj994080\(v=ocs.15\))
 
-  - [Set-CsTenantHybridConfiguration](https://technet.microsoft.com/en-us/library/jj994046\(v=ocs.15\))
+  - [CsTenantHybridConfiguration](https://technet.microsoft.com/library/jj994046\(v=ocs.15\))
 
-  - [Get-CsTenantFederationConfiguration](https://technet.microsoft.com/en-us/library/jj994072\(v=ocs.15\))
+  - [CsTenantFederationConfiguration](https://technet.microsoft.com/library/jj994072\(v=ocs.15\))
 
-  - [Get-CsTenantHybridConfiguration](https://technet.microsoft.com/en-us/library/jj994034\(v=ocs.15\))
+  - [CsTenantHybridConfiguration](https://technet.microsoft.com/library/jj994034\(v=ocs.15\))
 
-  - [Get-CsTenantLicensingConfiguration](https://technet.microsoft.com/en-us/library/dn362770\(v=ocs.15\))
+  - [Get-cstenantlicensingconfiguration](https://technet.microsoft.com/library/dn362770\(v=ocs.15\))
 
-たとえば、 **CsTenantFederationConfiguration**コマンドレットは、次のコマンドを使って呼び出すことができます。
+たとえば、 **CsTenantFederationConfiguration**コマンドレットは、次のコマンドを使用して呼び出すことができます。
 
     Get-CsTenantFederationConfiguration
 
-必須ではありませんが、CsTenantFederationConfiguration を呼び出すときにテナントパラメーターを含めることができます。
+必須ではありませんが、CsTenantFederationConfiguration を呼び出すときにテナントパラメータを含めることができます。
 
     Get-CsTenantFederationConfiguration -Tenant "bf19b7db-6960-41e5-a139-2aa373474354"
 
 ## <a name="see-also"></a>関連項目
 
 
-[Skype for Business Online の id、スコープ、テナント](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Lync Online のコマンドレット](https://technet.microsoft.com/en-us/library/dn362817\(v=ocs.15\))
+[Skype for Business Online の id、スコープ、およびテナント](identities-scopes-and-tenants-in-skype-for-business-online.md)  
+[Skype for Business Online のコマンドレット](https://technet.microsoft.com/library/dn362817\(v=ocs.15\))
 

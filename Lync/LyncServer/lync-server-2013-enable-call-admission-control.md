@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 通話受付制御を有効にする'
+title: 'Lync Server 2013: 通話受付管理の有効化'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184650
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1776cc173d7ddec50aae34e8316844d14f67b009
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e3bb2c0360b5348f2556c880cbe7c68d59ba1995
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729357"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034017"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enable-call-admission-control-in-lync-server-2013"></a>Lync Server 2013 で通話受付制御を有効にする
+# <a name="enable-call-admission-control-in-lync-server-2013"></a>Lync Server 2013 で通話受付管理を有効にする
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41729357"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-19_
+_**トピックの最終更新日:** 2012-10-19_
 
 通話受付管理展開のネットワーク設定を構成したら、帯域幅ポリシーを反映させるために CAC を有効にする必要があります。
 
-詳細については、次のコマンドレットの Lync Server 管理シェルに関するドキュメントを参照してください。
+詳細については、以下のコマンドレットの Lync Server 管理シェルのドキュメントを参照してください。
 
-  - [Get-Set-csnetworkconfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkConfiguration)
+  - [Get-csnetworkconfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkConfiguration)
 
-  - [Set-Set-csnetworkconfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkConfiguration)
+  - [Get-csnetworkconfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkConfiguration)
 
-  - [Remove-Set-csnetworkconfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkConfiguration)
+  - [Get-csnetworkconfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkConfiguration)
 
 <div>
 
-## <a name="to-enable-call-admission-control-by-using-management-shell"></a>管理シェルを使用して通話受付制御を有効にするには
+## <a name="to-enable-call-admission-control-by-using-management-shell"></a>管理シェルを使用して通話受付管理を有効にするには
 
-1.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+1.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
 2.  Set-CsNetworkConfiguration コマンドレットを実行して、ネットワークの CAC を有効にします。たとえば、以下を実行します。
     
@@ -65,9 +65,9 @@ _**最終更新日:** 2012-10-19_
 
 <div>
 
-## <a name="to-enable-call-admission-control-by-using-lync-server-control-panel"></a>Lync Server コントロールパネルを使用して通話受付制御を有効にするには
+## <a name="to-enable-call-admission-control-by-using-lync-server-control-panel"></a>Lync Server コントロール パネルを使用して通話受付管理を有効にするには
 
-1.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+1.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
 2.  左側のナビゲーション バーで [**ネットワーク構成**] をクリックします。
 

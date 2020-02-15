@@ -1,5 +1,5 @@
 ---
-title: トポロジ情報を確認する
+title: トポロジの情報を確認する
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185046
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ec6c73f274cb67b527aaf1147f20e83959487255
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5987dc071abb888f8d1f6eca0d3082f2a8ab7523
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730837"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036275"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="verify-topology-information"></a>トポロジ情報を確認する
+# <a name="verify-topology-information"></a>トポロジの情報を確認する
 
 </div>
 
@@ -35,54 +35,54 @@ ms.locfileid: "41730837"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-26_
+_**トピックの最終更新日:** 2012-09-26_
 
-マージが正常に完了したことを確認するための最初の手順は、Lync Server 2013 に統合した Office Communications Server 2007 R2 のトポロジ情報を表示することです。 トポロジビルダーでは、 **BackCompatSite**ノードに、マージした各 Office Communications Server 2007 R2 プールとサーバーの完全修飾ドメイン名 (FQDN) が表示されます。
+マージが正常に完了したことを確認するための最初の手順は、Lync Server 2013 に結合した Office Communications Server 2007 R2 のトポロジ情報を表示することです。 トポロジビルダーでは、 **BackCompatSite**ノードには、結合した各 Office Communications Server 2007 R2 プールおよびサーバーの完全修飾ドメイン名 (FQDN) が表示されます。
 
 <div>
 
-## <a name="to-view-backcompatsite-in-topology-builder"></a>トポロジビルダーで BackCompatSite を表示するには
+## <a name="to-view-backcompatsite-in-topology-builder"></a>トポロジ ビルダーで BackCompatSite を表示するには
 
 1.  Office Communications Server 2007 R2 環境で、Office Communications Server 2007 R2 管理ツールを開き、従来のプールとサーバーの Fqdn をメモします。
 
-2.  Lync Server 2013 環境で、[トポロジビルダー] を開き、[ **BackCompatSite** ] ノードを展開します。
+2.  Lync Server 2013 環境で、トポロジビルダーを開き、[ **BackCompatSite** ] ノードを展開します。
 
-3.  マージするプールとサーバーの Fqdn が表示されていることを確認します。
+3.  マージするプールおよびサーバーの FQDN がすべて表示されていることを確認します。
     
     <div>
     
 
     > [!NOTE]  
-    > フロントエンドサーバーまたは Standard Edition サーバーに併置されているサーバーの役割については、 <STRONG>BackCompatSite</STRONG>に情報は表示されません。 Office Communications Server 2007 R2 と Lync Server 2013 の間の相互運用性を確保するために必要なサーバーの役割のみが表示されます。
+    > <STRONG>BackCompatSite</STRONG>では、フロントエンドサーバーまたは Standard Edition サーバーに併置されているサーバーの役割に関する情報は表示されません。 Office Communications Server 2007 R2 および Lync Server 2013 間の相互運用性を実現するために必要なサーバーの役割のみが示されています。
 
     
     </div>
 
-![[トポロジビルダー BackCompatSite] ダイアログボックス](images/JJ205243.62751c76-f018-4c6d-bb48-c61ef8974d31(OCS.15).jpg "[トポロジビルダー BackCompatSite] ダイアログボックス")
+![[トポロジビルダーの BackCompatSite] ダイアログボックス](images/JJ205243.62751c76-f018-4c6d-bb48-c61ef8974d31(OCS.15).jpg "[トポロジビルダーの BackCompatSite] ダイアログボックス")
 
-Lync Server 2013 コントロールパネルを使用して、結合されたトポロジを表示することもできます。 Lync Server 2013 コントロールパネルでは、各サーバーの FQDN、プールの FQDN、およびマージされたトポロジのサイト名を確認できます。 結合されたサーバーには、 **BackCompatSite**の**サイト**名があります。
+Lync Server 2013 コントロールパネルを使用して、結合したトポロジを表示することもできます。 Lync Server 2013 コントロールパネルでは、各サーバーの FQDN、プールの FQDN、および結合されたトポロジのサイト名を表示できます。 マージされたサーバーの [**サイト**] 列には、[**BackCompatSite**] という名前が表示されます。
 
 </div>
 
 <div>
 
-## <a name="to-view-the-merged-topology-in-lync-server-2013-control-panel"></a>Lync Server 2013 コントロールパネルで結合されたトポロジを表示するには
+## <a name="to-view-the-merged-topology-in-lync-server-2013-control-panel"></a>Lync Server 2013 コントロールパネルでマージされたトポロジを表示するには
 
 1.  Lync Server 2013 コントロールパネルを開きます。
 
 2.  [**トポロジ**] をクリックします。
 
-3.  [**状態**] タブで、[**サイト**] 列の [ **BackCompatSite** ] を探して、マージしたサーバーとプールが表示されていることを確認します。
+3.  [**状態**] タブで、[**サイト**] 列の [**BackCompatSite**] を見つけて、マージしたサーバーおよびプールが表示されていることを確認します。
 
-![結合されたトポロジを示す Lync Server コントロールパネル](images/JJ205151.f986ddd4-2040-454d-9389-7f6154b59cc9(OCS.15).jpg "結合されたトポロジを示す Lync Server コントロールパネル")
+![統合されたトポロジを示す Lync Server コントロールパネル](images/JJ205151.f986ddd4-2040-454d-9389-7f6154b59cc9(OCS.15).jpg "統合されたトポロジを示す Lync Server コントロールパネル")
 
-マージされたプールの詳細については、「 **CsPool**コマンドレットを使用する」を参照してください。 このコマンドレットでは、トポロジビルダーと Lync Server 2013 コントロールパネルで利用できる情報に加えて、Lync Server 2013 プールで実行されるサービスを表示します。
+マージ済みプールの詳細を表示するには、**Get-CsPool** コマンドレットを使用します。 このコマンドレットでは、トポロジビルダーおよび Lync Server 2013 コントロールパネルで使用可能な情報に加えて、Lync Server 2013 プールで実行されるサービスを表示します。
 
 <div>
 
 
 > [!NOTE]  
-> トポロジビルダーでマージウィザードを実行した後にトポロジを発行すると、会議ディレクトリは Lync Server 2013 に統合されます。 <STRONG>CsConferenceDirectory</STRONG>コマンドレットを実行することで、会議ディレクトリを確認できます。
+> トポロジビルダーでマージウィザードを実行した後でトポロジを公開すると、会議ディレクトリが Lync Server 2013 に統合されます。 会議ディレクトリは、 <STRONG>get-csconferencedirectory</STRONG>コマンドレットを実行して確認できます。
 
 
 
@@ -92,7 +92,7 @@ Lync Server 2013 コントロールパネルを使用して、結合されたト
 
 <div>
 
-## <a name="to-view-services-on-a-merged-pool"></a>マージされたプールのサービスを表示するには
+## <a name="to-view-services-on-a-merged-pool"></a>マージ済みプール上のサービスを表示するには
 
 1.  Lync Server 2013 管理シェルを開きます。
 
@@ -108,7 +108,7 @@ Lync Server 2013 コントロールパネルを使用して、結合されたト
 
 <div>
 
-## <a name="to-verify-conference-directories-merged"></a>会議ディレクトリが結合されていることを確認するには
+## <a name="to-verify-conference-directories-merged"></a>マージされた会議ディレクトリを検証するには
 
 1.  Lync Server 2013 管理シェルを開きます。
 
@@ -116,7 +116,7 @@ Lync Server 2013 コントロールパネルを使用して、結合されたト
     
         Get-CsConferenceDirectory
 
-3.  マージするプールまたはサーバーのすべての会議ディレクトリが Lync Server 2013 に表示されるようになっていることを確認します。
+3.  マージするプールまたはサーバーのすべての会議ディレクトリが Lync Server 2013 に含まれるようになっていることを確認します。
 
 </div>
 

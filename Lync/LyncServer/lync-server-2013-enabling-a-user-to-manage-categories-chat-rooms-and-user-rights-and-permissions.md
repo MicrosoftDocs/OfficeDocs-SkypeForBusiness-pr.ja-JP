@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: カテゴリ、チャット ルーム、ユーザーの権限とアクセス許可のユーザーによる管理の有効化'
+title: 'Lync Server 2013: ユーザーがカテゴリ、チャットルーム、およびユーザーの権限とアクセス許可を管理できるようにする'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48706002
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4fa2c31a293f13fdca861f4183911272c55a2bad
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7bfa07380a5c6e73b8112cd0a421ed05c33bc1b9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735877"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034789"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enabling-a-user-to-manage-categories-chat-rooms-and-user-rights-and-permissions-in-lync-server-2013"></a>Lync Server 2013 でのカテゴリ、チャット ルーム、ユーザーの権限とアクセス許可のユーザーによる管理の有効化
+# <a name="enabling-a-user-to-manage-categories-chat-rooms-and-user-rights-and-permissions-in-lync-server-2013"></a>ユーザーが Lync Server 2013 でカテゴリ、チャットルーム、およびユーザー権限とアクセス許可を管理できるようにする
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41735877"
 
 <span> </span>
 
-_**最終更新日:** 2012-11-01_
+_**トピックの最終更新日:** 2012-11-01_
 
-**CsPersistentChatAdministrator**ロールのメンバー (常設チャット管理者) は、チャットルーム管理者の権限と権限を他のユーザーに与えることができます。
+**CsPersistentChatAdministrator**の役割 (常設チャット管理者) のメンバーは、チャットルーム管理者の権限とアクセス許可を他のユーザーや自分自身に付与することができます。
 
-常設チャット管理者は、次の操作を行うことができます。
+常設チャット管理者は、次の操作を実行できます。
 
-  - ルームのカテゴリとチャットルームを作成します。
+  - ルーム カテゴリおよびチャット ルームを作成します。
 
-  - すべてのカテゴリとチャットルームのメンバーシップを設定します。
+  - すべてのカテゴリとチャット ルームにメンバーシップを設定します。
 
-  - すべてのカテゴリとチャットルームのすべての設定を管理します。
+  - すべてのカテゴリおよびチャット ルームのすべての設定を管理します。
 
   - 常設チャットサーバーのポリシーを有効または無効にします。
 
-  - 常設チャットサーバープールの構成設定を設定および管理します。
+  - 常設チャットサーバープールの構成設定を設定して管理します。
 
-詳細については、展開ドキュメントの「 [Lync Server 2013 での常設チャット管理者の追加](lync-server-2013-adding-a-persistent-chat-administrator.md)」を参照してください。
+詳細については、「展開」のドキュメントの「 [Lync Server 2013 での常設チャット管理者の追加](lync-server-2013-adding-a-persistent-chat-administrator.md)」を参照してください。
 
 </div>
 

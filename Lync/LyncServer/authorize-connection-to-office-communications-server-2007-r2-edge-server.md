@@ -1,5 +1,5 @@
 ---
-title: Office Communications Server 2007 R2 Edge サーバーへの接続を承認する
+title: Office Communications Server 2007 R2 エッジサーバーへの接続を承認する
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -13,20 +13,20 @@ ms:contentKeyID: 48183493
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8dbce32a12f05dff768d23a2bdccfe1b84a567cb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 64786c29027c99de2f3b5e01846a5283ec57a084
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724217"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42003982"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="authorize-connection-to-office-communications-server-2007-r2-edge-server"></a>Office Communications Server 2007 R2 Edge サーバーへの接続を承認する
+# <a name="authorize-connection-to-office-communications-server-2007-r2-edge-server"></a>Office Communications Server 2007 R2 エッジサーバーへの接続を承認する
 
 </div>
 
@@ -36,31 +36,31 @@ ms.locfileid: "41724217"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-28_
+_**トピックの最終更新日:** 2012-09-28_
 
-パイロットプールの各 Lync Server 2013 フロントエンドサーバーまたは Standard Edition サーバーの場合、Office Communications Server 2007 R2 Edge Server への接続が許可されている内部サーバーの一覧を更新する必要があります。 これらの更新プログラムがないと、従来のエッジサーバーを使用して参加しているユーザーの外部オーディオ/ビジュアル (A/V) 会議が機能しなくなります。
+パイロットプール内の各 Lync Server 2013 フロントエンドサーバーまたは Standard Edition サーバーについては、Office Communications Server 2007 R2 エッジサーバーへの接続を承認されている内部サーバーの一覧を更新する必要があります。 更新しないと、従来のエッジ サーバーを使用して参加するユーザーに対する外部音声ビデオ (A/V) 会議が動作しません。
 
 <div>
 
-## <a name="to-authorize-connection-to-office-communications-server-2007-r2-edge-server"></a>Office Communications Server 2007 R2 Edge サーバーへの接続を承認するには
+## <a name="to-authorize-connection-to-office-communications-server-2007-r2-edge-server"></a>Office Communications Server 2007 R2 エッジサーバーへの接続を承認するには
 
-1.  Office Communications Server 2007 R2 Edge サーバーから、[**管理ツール**] グループから [コンピューターの**管理**] スナップインを開きます。
+1.  Office Communications Server 2007 R2 エッジサーバーから、[**管理ツール**] グループから [コンピューターの**管理**] スナップインを開きます。
 
-2.  コンソールツリーで、[**サービスとアプリケーション**] を展開します。
+2.  コンソール ツリーで [**サービスとアプリケーション**] を展開します。
 
-3.  **Office Communications Server 2007 R2**を右クリックし、[**プロパティ**] をクリックします。
+3.  [**Office Communications Server 2007 R2**] を右クリックし、[**プロパティ**] をクリックします。
 
 4.  [**内部**] タブをクリックします。
 
-5.  [**サーバーの追加**] の [**追加**] をクリックします。
+5.  [**サーバーの追加**] で [**追加**] をクリックします。
 
-6.  [ **Office Communications Server の追加**] ダイアログボックスで、必要な情報を入力します。
+6.  [**Office Communications Server の追加**] ダイアログ ボックスで、適切な情報を入力します。
     
-      - 各 Lync Server 2013 フロントエンドサーバーまたは標準エディションサーバー、および Lync Server 2013 プールの完全修飾ドメイン名 (FQDN) を指定します。
+      - 各 Lync Server 2013 フロントエンドサーバーまたは Standard Edition サーバー、および Lync Server 2013 プールの完全修飾ドメイン名 (FQDN) を指定します。
     
-      - 次ホップのコンピューターを FQDN で指定するプールで静的ルートを構成している場合は、Lync Server 2013 ディレクターの FQDN を指定します。
+      - 次ホップコンピューターを FQDN で指定する静的ルートをプールに構成した場合は、Lync Server 2013 ディレクターの FQDN を指定します。
 
-7.  各 Lync Server 2013、フロントエンドサーバー、Standard Edition server、プール、およびディレクターのエントリを追加したら、[**適用**] をクリックし、[ **OK** ] をクリックしてプロパティページを閉じます。
+7.  各 Lync Server 2013、フロントエンドサーバー、Standard Edition サーバー、プール、およびディレクターのエントリを追加した後、[**適用**] をクリックし、[ **OK** ] をクリックして [プロパティ] ページを閉じます。
 
 </div>
 

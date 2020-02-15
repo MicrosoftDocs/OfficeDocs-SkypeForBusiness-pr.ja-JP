@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013 IPsec の例外
+title: Lync Server 2013 の IPsec 例外
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183627
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 37d5becaab996d6fe4889086d3a68a45ffc1f6d7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: db7291674485dec30211d88e2739b0da89fb334f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733457"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035059"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="ipsec-exceptions-in-lync-server-2013"></a>Lync Server 2013 での IPsec の例外
+# <a name="ipsec-exceptions-in-lync-server-2013"></a>Lync Server 2013 の IPsec 例外
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41733457"
 
 <span> </span>
 
-_**最終更新日:** 2012-06-27_
+_**トピックの最終更新日:** 2012-06-27_
 
-インターネットプロトコルセキュリティ (IPsec 4301-4309) が展開されているエンタープライズネットワークの場合、オーディオ、ビデオ、およびパノラマビデオの配信に使用するポートの範囲で IPsec を無効にする必要があります。 この操作を行うと、IPsec のネゴシエーションによってメディア用ポートの割り当てに遅延が生じるのを避けることができます。
+企業ネットワーク上でインターネット プロトコル セキュリティ (IPsec) (IETF RFC 4301 ～ 4309 を参照) を導入している場合、音声、ビデオ、およびパノラマ ビデオの配信に使用するポートに対して IPsec を無効にする必要があります。これにより、IPsec のネゴシエーションによってメディア用ポートの割り当てに遅延が生じるのを避けることができます。
 
 次の表に、推奨される IPsec 例外設定を示します。
 
@@ -70,7 +70,7 @@ _**最終更新日:** 2012-06-27_
 <td><p>任意</p></td>
 <td><p>内部音声ビデオ エッジ サーバー</p></td>
 <td><p>UDP および TCP</p></td>
-<td><p>任意 </p></td>
+<td><p>任意</p></td>
 <td><p>任意</p></td>
 <td><p>認証しない</p></td>
 </tr>
@@ -79,7 +79,7 @@ _**最終更新日:** 2012-06-27_
 <td><p>任意</p></td>
 <td><p>外部音声ビデオ エッジ サーバー</p></td>
 <td><p>UDP および TCP</p></td>
-<td><p>任意 </p></td>
+<td><p>任意</p></td>
 <td><p>任意</p></td>
 <td><p>認証しない</p></td>
 </tr>
@@ -88,7 +88,7 @@ _**最終更新日:** 2012-06-27_
 <td><p>内部音声ビデオ エッジ サーバー</p></td>
 <td><p>任意</p></td>
 <td><p>UDP &amp; TCP</p></td>
-<td><p>任意 </p></td>
+<td><p>任意</p></td>
 <td><p>任意</p></td>
 <td><p>認証しない</p></td>
 </tr>
@@ -97,7 +97,7 @@ _**最終更新日:** 2012-06-27_
 <td><p>外部音声ビデオ エッジ サーバー</p></td>
 <td><p>任意</p></td>
 <td><p>UDP および TCP</p></td>
-<td><p>任意 </p></td>
+<td><p>任意</p></td>
 <td><p>任意</p></td>
 <td><p>認証しない</p></td>
 </tr>
@@ -107,7 +107,7 @@ _**最終更新日:** 2012-06-27_
 <td><p>仲介</p>
 <p>サーバー</p></td>
 <td><p>UDP および TCP</p></td>
-<td><p>任意 </p></td>
+<td><p>任意</p></td>
 <td><p>任意</p></td>
 <td><p>認証しない</p></td>
 </tr>
@@ -117,7 +117,7 @@ _**最終更新日:** 2012-06-27_
 <p>サーバー</p></td>
 <td><p>任意</p></td>
 <td><p>UDP および TCP</p></td>
-<td><p>任意 </p></td>
+<td><p>任意</p></td>
 <td><p>任意</p></td>
 <td><p>認証しない</p></td>
 </tr>
@@ -126,7 +126,7 @@ _**最終更新日:** 2012-06-27_
 <td><p>任意</p></td>
 <td><p>会議アテンダントを実行するフロントエンド サーバー</p></td>
 <td><p>UDP および TCP</p></td>
-<td><p>任意 </p></td>
+<td><p>任意</p></td>
 <td><p>任意</p></td>
 <td><p>認証しない</p></td>
 </tr>
@@ -135,16 +135,16 @@ _**最終更新日:** 2012-06-27_
 <td><p>会議アテンダントを実行するフロントエンド サーバー</p></td>
 <td><p>任意</p></td>
 <td><p>UDP および TCP</p></td>
-<td><p>任意 </p></td>
+<td><p>任意</p></td>
 <td><p>任意</p></td>
 <td><p>認証しない</p></td>
 </tr>
 <tr class="odd">
 <td><p>音声ビデオ会議サーバー/受信</p></td>
 <td><p>任意</p></td>
-<td><p>フロントエンド サーバー</p></td>
+<td><p>フロント エンド サーバー</p></td>
 <td><p>UDP および TCP</p></td>
-<td><p>任意 </p></td>
+<td><p>任意</p></td>
 <td><p>任意</p></td>
 <td><p>認証しない</p></td>
 </tr>
@@ -153,7 +153,7 @@ _**最終更新日:** 2012-06-27_
 <td><p>フロントエンド サーバー</p></td>
 <td><p>任意</p></td>
 <td><p>UDP および TCP</p></td>
-<td><p>任意 </p></td>
+<td><p>任意</p></td>
 <td><p>任意</p></td>
 <td><p>認証しない</p></td>
 </tr>
@@ -162,7 +162,7 @@ _**最終更新日:** 2012-06-27_
 <td><p>任意</p></td>
 <td><p>Exchange ユニファイド メッセージング</p></td>
 <td><p>UDP および TCP</p></td>
-<td><p>任意 </p></td>
+<td><p>任意</p></td>
 <td><p>任意</p></td>
 <td><p>認証しない</p></td>
 </tr>
@@ -180,7 +180,7 @@ _**最終更新日:** 2012-06-27_
 <td><p>アプリケーション共有サーバー</p></td>
 <td><p>任意</p></td>
 <td><p>TCP</p></td>
-<td><p>任意 </p></td>
+<td><p>任意</p></td>
 <td><p>任意</p></td>
 <td><p>認証しない</p></td>
 </tr>
@@ -189,15 +189,15 @@ _**最終更新日:** 2012-06-27_
 <td><p>Exchange ユニファイド メッセージング</p></td>
 <td><p>任意</p></td>
 <td><p>UDP および TCP</p></td>
-<td><p>任意 </p></td>
+<td><p>任意</p></td>
 <td><p>任意</p></td>
 <td><p>認証しない</p></td>
 </tr>
 <tr class="odd">
 <td><p>クライアント</p></td>
-<td><p>任意 </p></td>
 <td><p>任意</p></td>
-<td><p>UDP</p></td>
+<td><p>任意</p></td>
+<td><p>受信</p></td>
 <td><p>指定メディア ポート範囲</p></td>
 <td><p>任意</p></td>
 <td><p>認証しない</p></td>

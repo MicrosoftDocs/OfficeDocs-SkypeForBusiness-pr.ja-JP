@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ハイブリッド展開でユーザーを管理する'
+title: 'Lync Server 2013: ハイブリッド展開でのユーザーの管理'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184381
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e416901fd5a98ffa3974c29e469eef2b6f4cb783
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a82cb5ae505db5db3bbd8dd216ad61256368814e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737967"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41998742"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,25 +35,25 @@ ms.locfileid: "41737967"
 
 <span> </span>
 
-_**最終更新日:** 2014-05-29_
+_**トピックの最終更新日:** 2014-05-29_
 
-Microsoft Office 365 Online ポータルで利用可能なユーザー管理機能を使って、Lync Online に移行したユーザーのユーザー設定とポリシーを管理できます。 管理タスクを実行するには、テナント管理者アカウントを使用してサインインする必要があります。
+Microsoft Office 365 Online ポータルで使用可能なユーザー管理機能を使用して、Lync Online に移行したユーザーのユーザー設定とポリシーを管理できます。 管理タスクを実行するには、テナント管理者アカウントを使用してサインインする必要があります。
 
 <div>
 
-## <a name="moving-users-back-to-on-premises"></a>ユーザーをオンプレミスに戻す
+## <a name="moving-users-back-to-on-premises"></a>ユーザーを社内に戻す
 
 <div class="">
 
 
 > [!IMPORTANT]  
-> このセクションは、Lync をオンプレミスで作成して有効にし、オンプレミスの展開から Lync Online に移行したユーザーにのみ適用されます。 Lync Online で作成されたユーザーを移動する場合 (オンプレミスの展開で Lync に対して有効にしていない場合) は、「lync <A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Online のユーザーを Lync Server 2013 で社内の lync に移動</A>する」を参照してください。
+> このセクションは、Lync オンプレミスに対して作成および有効化された後、オンプレミス展開から Lync Online に移動したユーザーに対してのみ適用されます。 Lync Online で作成されたユーザーを移動する必要があり、オンプレミス展開で Lync が有効になっていない場合は、「lync <A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">online から Lync Server 2013 の lync オンプレミスへのユーザーの移動</A>」を参照してください。
 
 
 
 </div>
 
-  - Lync Online からオンプレミスの Lync にユーザーを戻すには、次のコマンドレットを実行します。
+  - 次のコマンドレットを実行して、ユーザーを Lync Online から Lync オンプレミスに戻します。
     
        ```PowerShell
         $cred=Get-Credential
@@ -63,27 +63,27 @@ Microsoft Office 365 Online ポータルで利用可能なユーザー管理機�
         Move-CsUser -Identity username@contoso.com -Target localpool.contoso.com -Credential $cred -HostedMigrationOverrideUrl <URL>
        ```
 
-**HostedMigrationOverrideUrl** パラメーターの URL には、ホスティング型移行サービスが実行されているプールへの URL を次の形式で指定する必要があります。
+**HostedMigrationOverrideUrl**パラメーターに指定する url の形式は、次の形式で、Hosted Migration service が実行されているプールへの url である必要があります。
 
-Https://\<Pool FQDN\>/HostedMigration/hostedmigrationService.svc. ホスティング型移行サービスへの URL は、ご使用の Office 365 テナント アカウント用の Lync Online コントロール パネルの URL を表示することで確認できます。
+Https://\<プールの\>FQDN/hostedmigration/hostedmigrationservice.svc Office 365 テナントアカウントの Lync Online コントロールパネルの URL を表示することによって、ホストされた移行サービスへの URL を確認できます。
 
-**Office 365 テナントのホスティング型移行サービスの URL を確認するには**
+**Office 365 テナントのホスト型移行サービスの URL を確認するには**
 
-1.  管理者として Office 365 テナントにログインします。
+1.  Office 365 テナントに管理者としてログインします。
 
 2.  **Lync 管理センター**を開きます。
 
-3.  **Lync 管理センター**が表示されたら、アドレスバーの URL を選択して**lync.com**にコピーします。 URL は、次のような書式です。
+3.  **Lync 管理センター**が表示されたら、アドレスバーの URL を選択して、 **lync.com**までコピーします。 URL の例は、次のようになります。
     
     `https://webdir0a.online.lync.com/lscp/?language=en-US&tenantID=`
 
-4.  URL の **webdir** を **admin** に置き換えると、次のようになります。
+4.  URL 内の**webdir**を**管理者**に置き換えます。結果は次のようになります。
     
     `https://admin0a.online.lync.com`
 
-5.  URL に以下の文字列を付加します。**/HostedMigration/hostedmigrationservice.svc**
+5.  次の文字列を URL: **/HostedMigration/hostedmigrationservice.svc**に追加します。
     
-    以上の手順によって、**HostedMigrationOverrideUrl** の値を持った URL は次のようになります。
+    生成される URL は**HostedMigrationOverrideUrl**の値で、次のようになります。
     
     `https://admin0a.online.lync.com/HostedMigration/hostedmigrationservice.svc`
 

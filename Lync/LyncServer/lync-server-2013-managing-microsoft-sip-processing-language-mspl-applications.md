@@ -1,5 +1,5 @@
 ---
-title: Microsoft SIP 処理言語 (MSPL) アプリケーションを管理する
+title: Microsoft SIP 処理言語 (MSPL) アプリケーションの管理
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733623
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1d0f73933c04b78b9557694fa8b030fbeffe8a2b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0ae3d8fbe015b260d4867635874d5eea39e7f5ea
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765598"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033716"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41765598"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-14_
+_**トピックの最終更新日:** 2012-10-14_
 
-このセクションの手順を使用して、Microsoft SIP 処理言語 (MSPL) アプリケーションを管理することができます。
+このセクションの手順を使用すると、Microsoft SIP 処理言語 (MSPL) アプリケーションを管理できます。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 での Microsoft SIP 処理言語  (MSPL) サーバー アプリケーションの表示](lync-server-2013-view-microsoft-sip-processing-language-mspl-server-applications.md)
+  - [Lync Server 2013 での Microsoft SIP 処理言語 (MSPL) サーバーアプリケーションの表示](lync-server-2013-view-microsoft-sip-processing-language-mspl-server-applications.md)
 
-  - [Lync Server 2013 で Microsoft SIP 処理言語 (MSPL) アプリケーションを critical または critical としてマークする](lync-server-2013-mark-a-microsoft-sip-processing-language-mspl-application-as-critical-or-not-critical.md)
+  - [Lync Server 2013 で、Microsoft SIP 処理言語 (MSPL) アプリケーションを重要または重要ではないとしてマークする](lync-server-2013-mark-a-microsoft-sip-processing-language-mspl-application-as-critical-or-not-critical.md)
 
   - [Lync Server 2013 で Microsoft SIP 処理言語 (MSPL) サーバーアプリケーションを有効または無効にする](lync-server-2013-enable-or-disable-a-microsoft-sip-processing-language-mspl-server-application.md)
 

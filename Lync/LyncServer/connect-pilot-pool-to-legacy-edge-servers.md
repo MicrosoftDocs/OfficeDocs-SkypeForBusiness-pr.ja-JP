@@ -1,5 +1,5 @@
 ---
-title: パイロット プールのレガシ エッジ サーバーへの接続
+title: パイロットプールを従来のエッジサーバーに接続する
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733808
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 447a0ead887b8283aa2701963a0107ef318bb312
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cc9213dbf5d75b80ccbfc67d03cfb3c02ef87145
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723227"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006513"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="connect-pilot-pool-to-legacy-edge-servers"></a>パイロット プールのレガシ エッジ サーバーへの接続
+# <a name="connect-pilot-pool-to-legacy-edge-servers"></a>パイロットプールを従来のエッジサーバーに接続する
 
 </div>
 
@@ -35,45 +35,45 @@ ms.locfileid: "41723227"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-29_
+_**トピックの最終更新日:** 2012-09-29_
 
-Lync Server 2013 を展開した後、サイトのフェデレーションルートを構成する必要があります。 Lync Server 2010 で使用されているフェデレーションルートを使用するには、Lync Server 2013 がこのルートを使用するように構成されている必要があります。
+Lync Server 2013 を展開した後、サイトのフェデレーションルートを構成する必要があります。 Lync Server 2010 で使用されているフェデレーションルートを使用するためには、このルートを使用するように Lync Server 2013 を構成する必要があります。
 
-Lync server 2013 サイトで Lync Server 2010 展開のディレクターとエッジサーバーを使用できるようにするには、トポロジビルダーを使用して、従来のエッジプールを関連付けます。
+Lync server 2013 サイトが Lync Server 2010 展開のディレクターおよびエッジサーバーを使用できるようにするには、トポロジビルダーを使用して、従来のエッジプールを関連付けます。
 
 <div>
 
-## <a name="to-associate-the-legacy-edge-pool-by-using-topology-builder"></a>トポロジビルダーを使用して従来のエッジプールを関連付けるには
+## <a name="to-associate-the-legacy-edge-pool-by-using-topology-builder"></a>トポロジ ビルダーを使用してレガシ エッジ プールを関連付けるには
 
-1.  **トポロジビルダー**を開きます。
+1.  **トポロジ ビルダー**を開きます。
 
-2.  **Lync Server**ノードのすぐ下にあるサイトを選びます。
+2.  **Lync Server** ノードの直下にあるサイトを選択します。
 
 3.  [**操作**] メニューの [**プロパティの編集**] をクリックします。
 
-4.  左側のウィンドウで、[**フェデレーションルート**] を選びます。
+4.  左ウィンドウで、[**フェデレーション ルート**] をクリックします。
 
-5.  [**サイトフェデレーションルートの割り当て**] で、[ **SIP フェデレーションを有効にする**] を選び、lync server 2010 ディレクター、またはディレクターが表示されていない場合は Lync server 2010 エッジサーバーを選びます。
+5.  ディレクターが表示されていない場合は、[**サイトのフェデレーションルートの割り当て**] で [ **SIP フェデレーションの有効化**] を選択し、[lync server 2010 director] または [Lync server 2010 エッジサーバー] を選択します。
     
     ![[プロパティの編集]、[フェデレーションルート] ページ](images/JJ721875.5f1d04c3-c724-426d-b27d-3fe89c6c5cfb(OCS.15).jpg "[プロパティの編集]、[フェデレーションルート] ページ")  
 
-6.  [ **OK]** をクリックして、[**プロパティの編集**] ページを閉じます。
+6.  [**OK**] をクリックして、[**プロパティの編集**] ページを閉じます。
 
-7.  [トポロジビルダー] の [Lync Server 2013] ノードで、 **Standard edition Server**または**Enterprise Edition のフロントエンドプール**に移動し、プールを右クリックして、[**プロパティの編集**] をクリックします。
+7.  [トポロジビルダー] の [Lync Server 2013] ノードで、 **Standard Edition サーバー**または**Enterprise Edition フロントエンドプール**に移動して、プールを右クリックし、[**プロパティの編集**] をクリックします。
 
-8.  [**関連付け**] で [ **Edge プールを関連付ける (メディアコンポーネント)**] の横にあるチェックボックスをオンにします。
+8.  [**関連付け**] で、[**エッジ プール (メディア コンポーネント用) を関連付ける**] の横のチェック ボックスをオンにします。
 
-9.  リストから、従来のエッジサーバーを選択します。
+9.  一覧から、レガシ エッジ サーバーを選択します。
     
-    ![[プロパティの編集] ダイアログ、[旧端] の選択](images/JJ721875.feae8156-540e-4804-bb0a-2b5736ec2900(OCS.15).jpg "[プロパティの編集] ダイアログ、[旧端] の選択")  
+    ![従来のエッジを選択する [プロパティの編集] ダイアログ](images/JJ721875.feae8156-540e-4804-bb0a-2b5736ec2900(OCS.15).jpg "従来のエッジを選択する [プロパティの編集] ダイアログ")  
 
-10. [ **OK]** をクリックして、[**プロパティの編集**] ページを閉じます。
+10. [**OK**] をクリックして、[**プロパティの編集**] ページを閉じます。
 
-11. [**トポロジビルダー**] で、最上位のノードである**Lync Server**を選択します。
+11. **トポロジ ビルダー**で、最上位ノードの **Lync Server** を選択します。
 
-12. [**操作**] メニューの [**トポロジの公開**] をクリックし、[**次へ**] をクリックします。
+12. [**操作**] メニューで、[**トポロジの公開**]、[**次へ**] の順にクリックします。
 
-13. **発行ウィザード**が完了したら、[**完了**] をクリックします。
+13. **公開ウィザード**の実行が完了したら、[**完了**] をクリックします。
 
 </div>
 

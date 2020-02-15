@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Lync Server で有効になっているユーザーアカウント'
+title: 'Lync Server 2013: Lync Server に対して有効になっているユーザーアカウント'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184651
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 613d6350fcb405b1ae8beef78c3ee8c8a64a084c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6d51f72f586ab6d5b5094c61ae09d8ac316350b7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744657"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033987"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="user-accounts-enabled-for-lync-server-2013"></a>Lync Server 2013 で有効になっているユーザーアカウント
+# <a name="user-accounts-enabled-for-lync-server-2013"></a>Lync Server 2013 に対して有効になっているユーザーアカウント
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41744657"
 
 <span> </span>
 
-_**最終更新日:** 2014-04-18_
+_**トピックの最終更新日:** 2014-04-18_
 
-このセクションのトピックでは、Lync Server 2013 コントロールパネルを使用して実行できるユーザー設定を構成するための手順について説明します。
+このセクションのトピックでは、Lync Server 2013 コントロールパネルを使用して実行できるユーザー設定を構成するための手順を順を追って説明します。
 
 <div>
 
 
 > [!IMPORTANT]  
-> Lync Server コントロールパネルを使用して、Active Directory Domain Admins グループのメンバーであるユーザーを管理することはできません。 ドメイン管理者のユーザーの場合は、Lync Server コントロールパネルのみを使って読み取り専用の検索操作を実行できます。 ドメイン管理者のユーザーに対して書き込み操作を実行するには (たとえば、Lync Server コントロールパネルの有効化または無効化、プールまたはポリシーの割り当ての変更、テレフォニーの設定、SIP アドレス)、ドメイン管理者ユーザーとしてログオンしている場合は、Windows PowerShell コマンドレットを使用する必要があります。 Windows PowerShell コマンドレットを使用してユーザーを管理する方法の詳細については、「 <A href="lync-server-2013-lync-server-management-shell.md">Lync Server 2013 管理シェル</A>」を参照してください。
+> Lync Server コントロールパネルを使用して、Active Directory Domain Admins グループのメンバーであるユーザーを管理することはできません。 ドメイン管理者ユーザーの場合、Lync Server コントロールパネルのみを使用して読み取り専用の検索操作を実行できます。 ドメイン管理者のユーザーに対して書き込み操作を実行する (たとえば、Lync Server コントロールパネルの有効化または無効化、プールまたはポリシーの割り当ての変更、テレフォニー設定、SIP アドレス) については、ドメイン管理者ユーザーとしてログオンしているときに Windows PowerShell コマンドレットを使用する必要があります。 Windows PowerShell コマンドレットを使用してユーザーを管理する方法の詳細については、「 <A href="lync-server-2013-lync-server-management-shell.md">Lync Server 2013 Management Shell</A>」を参照してください。
 
 
 
 </div>
 
-ユーザーを検索する、またはユーザーの検索結果をフィルター処理する必要がある Lync Server 2013 管理タスクを実行すると、一部のユーザープロパティが Active Directory ドメインサービスの属性として存在しますが、グローバルカタログにはレプリケートされません。Microsoft Exchange Server が展開されるまで。 Microsoft Exchange は、Lync Server ではなく、インストール時にグローバルカタログへの次の属性をマークします。
+ユーザーを検索したり、ユーザーの検索結果をフィルター処理したりする Lync Server 2013 の管理タスクを実行すると、Active Directory ドメインサービスに属性として存在するが、グローバルカタログにレプリケートされないユーザープロパティがいくつかあります。Microsoft Exchange Server が展開されるまで。 Lync Server ではなく、Microsoft Exchange は、次の属性がインストールされているグローバルカタログへのレプリケーションをマークします。
 
 
 <table>
@@ -60,23 +60,23 @@ _**最終更新日:** 2014-04-18_
 </colgroup>
 <thead>
 <tr class="header">
-<th>ユーザー情報</th>
-<th>住所と電話番号</th>
+<th>ユーザー情報:</th>
+<th>住所と電話番号:</th>
 <th>組織</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>ネーム</p></td>
-<td><p>住所</p>
-<p>国または地域</p>
-<p>ページャー</p>
-<p>/Fax</p>
-<p>モバイル</p></td>
-<td><p>タイトル</p>
-<p>貴社</p>
-<p>各部</p>
-<p>Office</p></td>
+<td><p>Initials</p></td>
+<td><p>番地</p>
+<p>国/地域</p>
+<p>Pager</p>
+<p>FAX</p>
+<p>Mobile</p></td>
+<td><p>役職</p>
+<p>Company</p>
+<p>部署</p>
+<p>事業所</p></td>
 </tr>
 </tbody>
 </table>
@@ -84,19 +84,19 @@ _**最終更新日:** 2014-04-18_
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 で有効になっているユーザーアカウントに関する情報の表示](lync-server-2013-viewing-information-about-user-accounts-enabled-for-lync-server.md)
+  - [Lync Server 2013 に対して有効になっているユーザーアカウントに関する情報の表示](lync-server-2013-viewing-information-about-user-accounts-enabled-for-lync-server.md)
 
-  - [Lync Server 2013 のユーザーを有効または無効にする](lync-server-2013-enabling-and-disabling-users-for-lync-server.md)
+  - [Lync Server 2013 のユーザーの有効化および無効化](lync-server-2013-enabling-and-disabling-users-for-lync-server.md)
 
-  - [Lync Server 2013 でのユーザーのエンタープライズボイスの管理](lync-server-2013-managing-enterprise-voice-for-users.md)
+  - [Lync Server 2013 でのユーザーのエンタープライズ Voip の管理](lync-server-2013-managing-enterprise-voice-for-users.md)
 
   - [Lync Server 2013 でユーザーアカウントのプロパティを変更する](lync-server-2013-modifying-user-account-properties.md)
 
-  - [Lync Server 2013 での組織の外部アクセス ポリシーの管理](lync-server-2013-manage-external-access-policy-for-your-organization.md)
+  - [Lync Server 2013 での外部アクセスポリシーの管理](lync-server-2013-manage-external-access-policy-for-your-organization.md)
 
-  - [Lync Server 2013 でのユーザーごとのポリシーの割り当て](lync-server-2013-assigning-per-user-policies.md)
+  - [Lync Server 2013 でのユーザー単位のポリシーの割り当て](lync-server-2013-assigning-per-user-policies.md)
 
 </div>
 
@@ -105,10 +105,10 @@ _**最終更新日:** 2014-04-18_
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 のユーザー管理コマンドレット](lync-server-2013-user-management-cmdlets.md)  
+[Lync Server 2013 でのユーザー管理のコマンドレット](lync-server-2013-user-management-cmdlets.md)  
 
 
-[Lync Server 2013 のユーザー管理](lync-server-2013-managing-users-in-lync-server.md)  
+[Lync Server 2013 でのユーザーの管理](lync-server-2013-managing-users-in-lync-server.md)  
   
 
 </div>

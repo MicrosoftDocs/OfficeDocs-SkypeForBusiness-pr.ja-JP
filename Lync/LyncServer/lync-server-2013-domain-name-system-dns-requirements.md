@@ -12,20 +12,20 @@ ms:contentKeyID: 48184194
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2eddf86c881875ebbe08fddd6ffa85403dda6b60
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2536e5079009d508765055d31e80efb1b998aa0b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739797"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006293"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="domain-name-system-dns-requirements-for-lync-server-2013"></a>Lync Server 2013 のドメインネームシステム (DNS) 要件
+# <a name="domain-name-system-dns-requirements-for-lync-server-2013"></a>Lync Server 2013 のドメインネームシステム (DNS) の要件
 
 </div>
 
@@ -35,41 +35,41 @@ ms.locfileid: "41739797"
 
 <span> </span>
 
-_**最終更新日:** 2012-06-18_
+_**トピックの最終更新日:** 2012-06-18_
 
-Lync Server を展開するには、クライアントとサーバーの検出を有効にするドメインネームシステム (DNS) レコードを作成し、必要に応じて、組織でサポートが必要な場合は、自動クライアントサインインをサポートする必要があります。
+Lync Server を展開するには、クライアントとサーバーの検出を有効にするドメインネームシステム (DNS) レコードを作成する必要があります。また、必要に応じて、組織でサポートする必要がある場合に、自動クライアントサインインをサポートする必要があります。
 
-Lync Server では、次のような方法で DNS を使用します。
+Lync Server は、次の方法で DNS を使用します。
 
-  - 内部サーバーまたはサーバー間通信のプールを検出します。
+  - サーバー間通信用の内部のサーバーまたはプールを検出する。
 
-  - クライアントが、さまざまな SIP トランザクションに使用されるフロントエンドプールまたは Standard Edition サーバーを検出できるようにするには、
+  - クライアントが、さまざまな SIP トランザクションに使用されるフロントエンドプールまたは Standard Edition サーバーを検出できるようにします。
 
-  - ログオンしていないユニファイドコミュニケーション (UC) デバイスで、デバイス更新 Web サービスが実行されているフロントエンドプールまたは Standard Edition サーバーを検出し、更新プログラムを入手してログを送信できるようにするには、
+  - ログオンしていない統合コミュニケーション (UC) デバイスによる、デバイス更新 Web サービスを実行しているフロントエンドプールまたは Standard Edition サーバーの検出、更新プログラムの取得、およびログの送信を許可します。
 
-  - 外部サーバーとクライアントが、エッジサーバーまたはインスタントメッセージング (IM) または会議の HTTP リバースプロキシに接続できるようにするには、こちらを参照してください。
+  - 外部サーバーとクライアントが、インスタントメッセージング (IM) または会議用のエッジサーバーまたは HTTP リバースプロキシに接続できるようにします。
 
-  - 外部 UC デバイスがエッジサーバーまたは HTTP リバースプロキシ経由でデバイス更新 Web サービスに接続できるようにするには、[更新プログラムの取得] を選びます。
+  - 外部 UC デバイスがエッジサーバーまたは HTTP リバースプロキシ経由でデバイス更新 Web サービスに接続できるようにするには、更新を取得します。
 
-  - モバイルクライアントが、デバイス設定で Url を手動で入力する必要なく、Web サービスのリソースを自動的に検出できるようにする。
+  - モバイル クライアントによる、ユーザーがデバイスの設定で URL を手動で入力する必要がない、Web サービス リソースの自動検出を許可する。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 の DNS の要件を確認する](lync-server-2013-determine-dns-requirements.md)
+  - [Lync Server 2013 の DNS 要件を決定する](lync-server-2013-determine-dns-requirements.md)
 
   - [Lync Server 2013 のフロントエンドプールの DNS 要件](lync-server-2013-dns-requirements-for-front-end-pools.md)
 
-  - [Lync Server 2013 での Standard Edition サーバーの DNS 要件](lync-server-2013-dns-requirements-for-standard-edition-servers.md)
+  - [Lync Server 2013 の Standard Edition サーバーの DNS 要件](lync-server-2013-dns-requirements-for-standard-edition-servers.md)
 
-  - [Lync Server 2013 の簡易 URL の DNS 要件](lync-server-2013-dns-requirements-for-simple-urls.md)
+  - [Lync Server 2013 の簡易 Url の DNS 要件](lync-server-2013-dns-requirements-for-simple-urls.md)
 
   - [Lync Server 2013 での自動クライアントサインインの DNS 要件](lync-server-2013-dns-requirements-for-automatic-client-sign-in.md)
 
-  - [Lync Server 2013 を使ったモビリティの DNS 要件](lync-server-2013-dns-requirements-for-mobility.md)
+  - [Lync Server 2013 を使用したモビリティの DNS 要件](lync-server-2013-dns-requirements-for-mobility.md)
 
-  - [Lync Server 2013 での DNS の負荷分散](lync-server-2013-dns-load-balancing.md)
+  - [Lync Server 2013 での DNS 負荷分散](lync-server-2013-dns-load-balancing.md)
 
 </div>
 

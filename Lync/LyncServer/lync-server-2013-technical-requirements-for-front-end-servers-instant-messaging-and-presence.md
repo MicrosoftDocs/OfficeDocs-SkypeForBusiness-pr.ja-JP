@@ -1,5 +1,5 @@
 ---
-title: フロントエンド サーバー、インスタント メッセージングおよびプレゼンスの技術要件
+title: フロントエンドサーバー、インスタントメッセージング、およびプレゼンスの技術要件
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183575
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b3fd89dfe950ccc6c36f014acdf525664096b40f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9502d5cab3cb348b9fdf03236c6da966893d0852
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746587"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006723"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Lync Server 2013 のフロントエンド サーバー、インスタント メッセージングおよびプレゼンスの技術要件
+# <a name="technical-requirements-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Lync Server 2013 でのフロントエンドサーバー、インスタントメッセージング、およびプレゼンスの技術要件
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41746587"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-18_
+_**トピックの最終更新日:** 2012-09-18_
 
-インスタント メッセージング (IM) とプレゼンスは、常に Enterprise Edition フロントエンド プールと Standard Edition サーバーで実行されます。 サポートされているハードウェア、オペレーティングシステム、データベースソフトウェアについては、以下を参照してください。
+インスタントメッセージング (IM) とプレゼンスは、Enterprise Edition フロントエンドプールおよび Standard Edition サーバーで常に実行されます。 サポートされるハードウェア、オペレーティング システム、およびデータベース ソフトウェアの詳細については、以下を参照してください。
 
-  - [Lync Server 2013 でサポートされるハードウェア](lync-server-2013-supported-hardware.md)
+  - [Lync Server 2013 でサポートされているハードウェア](lync-server-2013-supported-hardware.md)
 
-  - [Lync Server 2013 でのサーバーのソフトウェアおよびインフラストラクチャ サポート](lync-server-2013-server-software-and-infrastructure-support.md)
+  - [Lync Server 2013 でのサーバーソフトウェアとインフラストラクチャのサポート](lync-server-2013-server-software-and-infrastructure-support.md)
 
 <div>
 
-## <a name="supported-collocation"></a>サポートされている Collocation
+## <a name="supported-collocation"></a>サポートされる配置
 
-フロントエンドサーバーの役割は、仲介サーバーと連携することができます。 フロントエンドサーバーで監視とアーカイブを実行することもできます。 フロントエンドサーバーをエッジサーバーまたはディレクターと連携させることはできません。
+フロントエンド サーバーの役割は仲介サーバーと併置できます。フロントエンド サーバーでは監視とアーカイブも実行できます。フロントエンド サーバーをエッジ サーバーまたはディレクターと併置することはできません。
 
 </div>
 

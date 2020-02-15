@@ -12,16 +12,16 @@ ms:contentKeyID: 48183502
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 12db97a72a9882964727edd3084e0bd598527358
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e4409632afc61aea4606864e7dd230ad4d295935
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757091"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007947"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,35 +35,35 @@ ms.locfileid: "41757091"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-08_
+_**トピックの最終更新日:** 2012-09-08_
 
-ディレクターを作成して構成するために必要なコンポーネントは、ディレクターサーバーの役割を展開することだけです。 これを行うには、トポロジビルダーを使用し、1台のコンピュータープールまたはディレクタープールノードの複数のコンピュータープールを定義します。 ディレクターまたはディレクタープールを定義したら、ディレクターになるコンピューターで Lync Server Deployment ウィザードを実行します。 ディレクタープールの場合は、プールのメンバーになっている各サーバーで Lync Server Deployment ウィザードを実行します。
+ディレクターを作成して構成するために必要なコンポーネントは、ディレクターサーバーの役割を展開することだけです。 これを行うには、トポロジビルダーを使用して、ディレクタープールノードに1台のコンピュータープールまたは複数のコンピュータープールを定義します。 ディレクターまたはディレクタープールを定義した後、ディレクターになるコンピューターで Lync Server 展開ウィザードを実行します。 ディレクタープールの場合は、プールのメンバーになる各サーバーで Lync Server 展開ウィザードを実行します。
 
 <div>
 
-## <a name="topologies"></a>トポロジー
+## <a name="topologies"></a>テクノロジ
 
-1つのディレクターサーバーまたはディレクタープールを実装できます。 ディレクターは常に個別のサーバーまたはプールであり、Lync Server 2013 では他のサーバーの役割とは関係ありません。
+単一のディレクターサーバーまたはディレクタープールを実装できます。 ディレクターは常に別個のサーバーまたはプールで、Lync Server 2013 の他のサーバーの役割とは併置されていません。
 
 <div>
 
 
 > [!NOTE]  
-> ディレクターを展開しない場合は、フロントエンドサーバーまたはフロントエンドプールによってディレクターの役割が想定されます。
+> ディレクターを展開しない場合は、フロントエンドサーバーまたはフロントエンドプールがディレクターの役割を引き受けます。
 
 
 
 </div>
 
-ディレクターのプールは、負荷分散されている必要があります。 次のいずれかの操作を行うことができます。
+ディレクターのプールは負荷分散されている必要があります。 これには次のどちらかの方法を使用します。
 
-  - その他の種類のトラフィックに対して、web サービスとドメインネームシステム (DNS) 負荷分散用のハードウェアロードバランサーを使用するトポロジを作成します。
+  - Web サービスおよびドメイン ネーム システム (DNS) の負荷分散用のロード バランサー機器を他の種類のトラフィックに使用するトポロジを作成する。
     
-    [拡張ディレクター プール - Lync Server 2013 の DNS 負荷分散とロード バランサー機器](lync-server-2013-scaled-director-pool-dns-load-balancing-and-hardware-load-balancer.md)
+    [拡張ディレクタープール-Lync Server 2013 での DNS 負荷分散とロードバランサー機器](lync-server-2013-scaled-director-pool-dns-load-balancing-and-hardware-load-balancer.md)
 
-  - ハードウェアロードバランサーを使用するトポロジを作成して、ディレクタープールに必要な負荷分散を行います。
+  - ディレクタープールに必要な負荷分散のためにロードバランサー機器を使用するトポロジを作成します。
     
-    [拡張ディレクター プール - Lync Server 2013 のハードウェア負荷分散](lync-server-2013-scaled-director-pool-hardware-load-balancer.md)
+    [拡張ディレクタープール-Lync Server 2013 のハードウェアロードバランサー](lync-server-2013-scaled-director-pool-hardware-load-balancer.md)
 
 </div>
 

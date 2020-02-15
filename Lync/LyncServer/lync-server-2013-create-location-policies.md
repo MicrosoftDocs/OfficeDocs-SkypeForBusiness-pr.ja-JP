@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 場所のポリシーを作成する'
+title: 'Lync Server 2013: 場所のポリシーの作成'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185794
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 55c10244bb3a70f7218dc3967e7f4f134048024f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e7b815f533661fb553c7b9217f23b70f0027c559
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726317"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035783"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-location-policies-in-lync-server-2013"></a>Lync Server 2013 で位置情報のポリシーを作成する
+# <a name="create-location-policies-in-lync-server-2013"></a>Lync Server 2013 での場所のポリシーの作成
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41726317"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-11_
+_**トピックの最終更新日:** 2012-09-11_
 
-Lync Server は、位置情報ポリシーを使用して、クライアントの登録中に E9-1 の Lync クライアントを有効にします。 場所ポリシーには、E9-1-1 の実装方法を定義する設定が含まれます。
+Lync Server は、場所ポリシーを使用して、クライアントの登録時に E9-1-1 の Lync クライアントを有効にします。 場所のポリシーには、E9-1-1 の実装方法を定義する設定が含まれます。
 
 グローバルの場所のポリシーを編集して、マークされた新しい場所のポリシーを作成できます。場所のポリシーが関連付けられたサブネット内部に配置されていない場合や、場所のポリシーが直接割り当てられていない場合に、クライアントはグローバル ポリシーを取得します。マークされたポリシーは、サブネットまたはユーザーに割り当てられます。
 
 場所のポリシーを作成するには、作成するユーザーが RTCUniversalServerAdmins グループまたは CsVoiceAdministrator 管理者役割のメンバーか、あるいは同等の管理者権限とアクセス許可を持つ必要があります。
 
-場所のポリシーの詳細については、「 [Lync Server 2013 の位置情報ポリシーを定義](lync-server-2013-defining-the-location-policy.md)する」を参照してください。 この手順のコマンドレットは、次の値を使用して定義された位置情報ポリシーを使用します。
+場所のポリシーの詳細については、「 [Lync Server 2013 の場所のポリシーの定義](lync-server-2013-defining-the-location-policy.md)」を参照してください。 この手順の各コマンドレットは、次の値を使用して定義された場所のポリシーを使用します。
 
 
 <table>
@@ -64,10 +64,10 @@ Lync Server は、位置情報ポリシーを使用して、クライアント�
 </tr>
 <tr class="even">
 <td><p>LocationRequired</p></td>
-<td><p><strong>Disclaimer</strong></p></td>
+<td><p><strong>免責事項</strong></p></td>
 </tr>
 <tr class="odd">
-<td><p>EnhancedEmergencyServiceDisclaimer</p></td>
+<td><p>Microsoft.rtc.management.writableconfig.policy.location.enhancedemergencyservicedisclaimer 型</p></td>
 <td><p>会社のポリシーで場所の設定が要求されています。場所を設定しない場合、緊急サービスが緊急時に発見できません。場所を設定してください。</p></td>
 </tr>
 <tr class="even">
@@ -106,23 +106,23 @@ Lync Server は、位置情報ポリシーを使用して、クライアント�
 </table>
 
 
-場所のポリシーの使用について詳しくは、次のコマンドレットの Lync Server 管理シェルに関するドキュメントをご覧ください。
+場所ポリシーの使用の詳細については、以下のコマンドレットの Lync Server 管理シェルのドキュメントを参照してください。
 
-  - New-CsLocationPolicy
+  - 新しい-CsLocationPolicy
 
-  - Get-CsLocationPolicy
+  - -CsLocationPolicy の取得
 
-  - Set-CsLocationPolicy
+  - 設定-CsLocationPolicy
 
-  - Remove-CsLocationPolicy
+  - 削除-CsLocationPolicy
 
-  - 許可-CsLocationPolicy
+  - Grant-CsLocationPolicy
 
 <div>
 
 ## <a name="to-create-location-policies"></a>場所のポリシーを作成するには
 
-1.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+1.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
     
     <div>
     

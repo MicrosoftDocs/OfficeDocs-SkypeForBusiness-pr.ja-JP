@@ -12,16 +12,16 @@ ms:contentKeyID: 51541420
 ms.date: 12/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 789c3ee8c18b5fb0e92ef9a520152644bebbdde1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 60da62851580487ea04dd1797ed91a1f8acd251b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730723"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036165"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41730723"
 
 <span> </span>
 
-_**最終更新日:** 2016-12-28_
+_**トピックの最終更新日:** 2016-12-28_
 
-Lync Server 2013 応力とパフォーマンスツール (LyncPerfTool) を実行するには、最初に Lync Server 2013 トポロジを実行するシナリオに対して構成する必要があります。 Lync Server 2013 が構成されていないか、正しく構成されていない場合、ほとんどの場合、読み込みシミュレーションは失敗します。 Lync server 2013 のストレスとパフォーマンスツールを使って、lync server の管理シェルスクリプトと基本的なリソースファイルの例を提供して、Lync Server 2013 の構成の出発点として使用することができます。 このトピックでは、提供されている Windows PowerShell の例について説明します。 Lync Server 2013 全般を構成する方法については、このトピックの目標ではありません。 Lync Server 2013 での Windows PowerShell の使用の詳細については、「Lync Server 管理<https://technet.microsoft.com/en-us/library/gg398474.aspx>シェルに関するドキュメント」を参照してください。
+Lync Server 2013 のストレスおよびパフォーマンスツール (LyncPerfTool) を実行するには、最初に Lync Server 2013 トポロジを、実行するシナリオに対して構成する必要があります。 Lync Server 2013 が構成されていない場合や、正しく構成されていない場合は、ほとんどの場合、負荷シミュレーションは失敗します。 Lync server 2013 のストレスおよびパフォーマンスツールを使用して、lync server の管理シェルスクリプトと基本的なリソースファイルの例をご用意しました。これは、Lync Server 2013 を構成するための開始点として使用できます。 このトピックでは、提供されている Windows PowerShell の例について説明します。 このトピックでは、一般に Lync Server 2013 を構成する方法については説明していないことに注意してください。 Lync Server 2013 での Windows PowerShell の使用の詳細については、「Lync Server Management <https://technet.microsoft.com/library/gg398474.aspx>Shell」のドキュメントを参照してください。
 
 <div>
 
 ## <a name="about-running-lync-server-management-shell-scripts"></a>Lync Server 管理シェルスクリプトの実行について
 
-ここでは、ロードシミュレーションを実行するための準備として使用される可能性のある Lync Server Management Shell スクリプトの例を提供しています。 このスクリプトは、読み込みシミュレーションを目的としているため、単純で寛容なものであるため、運用には適していない可能性があります。 すべてのスクリプトは例であり、確認する必要があります。また、場合によっては、トポロジを反映するように変更されます。 少なくとも、応答グループサービス (RGS) シナリオは、エージェントグループに割り当てられているエージェントを指定するように変更する必要があることを前提としています。 ただし、このロードをシミュレートするオプションはありません。
+ここでは、負荷シミュレーションを実行するための準備に使用できる Lync Server 管理シェルスクリプトの例を提供しています。 スクリプトは負荷シミュレーションを目的としているため、単純で寛容なものであるため、運用環境には適していない場合があります。 すべてのスクリプトは例であり、場合によっては、トポロジを反映するように変更する必要があります。 少なくとも、応答グループサービス (RGS) シナリオは、エージェントグループに割り当てられるエージェントを指定するように変更する必要があると考えられます。 ただし、この負荷をシミュレートするオプションはありません。
 
 <div>
 
 
 > [!WARNING]  
-> 提供されている例を確認して理解してください。 スクリプトはトポロジ内の既存の設定を上書きします。
+> 提供される例を確認し、理解してください。 スクリプトは、トポロジ内の既存の設定を上書きします。
 
 
 
@@ -59,7 +59,7 @@ Lync Server 2013 応力とパフォーマンスツール (LyncPerfTool) を実�
 
 
 > [!NOTE]  
-> Windows PowerShell と Lync Server 管理シェルの使用の詳細については、「Lync Server 2013 Windows PowerShell <A href="https://go.microsoft.com/fwlink/?linkid=203150">https://go.microsoft.com/fwlink/?LinkId=203150</A>のブログ」を参照してください。
+> Windows PowerShell および Lync Server 管理シェルの使用の詳細については、「Lync Server 2013 Windows PowerShell <A href="https://go.microsoft.com/fwlink/?linkid=203150">https://go.microsoft.com/fwlink/?LinkId=203150</A>のブログ」を参照してください。
 
 
 
@@ -69,13 +69,13 @@ Lync Server 2013 応力とパフォーマンスツール (LyncPerfTool) を実�
 
 <div>
 
-## <a name="stress-and-performance-tool-client-version-monikers"></a>ストレスとパフォーマンスのツールクライアントバージョンのモニカー
+## <a name="stress-and-performance-tool-client-version-monikers"></a>ストレスおよびパフォーマンスツールクライアントバージョンモニカー
 
-既定値の設定を変更した場合は、クライアントのバージョンチェックポリシーの構成が必要になることがあります。 詳細については、「サポートされて<https://technet.microsoft.com/en-us/library/gg412832(v=ocs.15).aspx>いるクライアントバージョンを構成する」を参照してください。 Lync Server 2013 のストレスとパフォーマンスツールでは、Lync Server 2013 と通信するときに、次のユーザーエージェントバージョンが既定で使用されます。
+既定値の設定を変更した場合、クライアントバージョンチェックポリシーを構成する必要がある場合があります。 詳細については、「」の「サポート<https://technet.microsoft.com/library/gg412832(v=ocs.15).aspx>されているクライアントバージョンを構成する」を参照してください。 Lync server 2013 のストレスおよびパフォーマンスツールは、Lync Server 2013 と通信するときに既定で次のユーザーエージェントバージョンを使用します。
 
-  - LSPT/15.0.0.0 (Lync Server 2013 応力とパフォーマンスツール)
+  - LSPT/15.0.0.0 です (Lync Server 2013 ストレスおよびパフォーマンスツール)
 
-  - OCPHONE 電話/0.522
+  - OCPHONE/. 0.522
 
 LyncPerfTool のモビリティ (UCWA) クライアントの場合は、次のようになります。
 

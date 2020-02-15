@@ -12,16 +12,16 @@ ms:contentKeyID: 48184245
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 43209ccc816e1c5d2c877aa0ac9089c81db4cd08
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fc6702a1958dc9e2582cf3d59720f729dbdb5e54
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755581"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034347"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41755581"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-30_
+_**トピックの最終更新日:** 2012-09-30_
 
-会議を展開するときに、web 会議と A/V の会議、または単なる web 会議の両方を有効にして使用することができます。 ダイヤルイン会議は音声会議のサブセットであり、追加構成が必要です。
+会議を展開する場合、Web 会議と音声ビデオ会議の両方を有効にして使用するのか、Web 会議のみを有効にして使用するのかを選択できます。ダイヤルイン会議は音声会議のサブセットであり、追加構成が必要です。
 
-すべての形式の会議が有効になっていると、ユーザーはインスタントメッセージング (IM)、音声、ビデオ、デスクトップ共有、スライドプレゼンテーション、添付ファイルの共有、アプリケーションの共有の任意の組み合わせを使用して、最も豊富な電話会議環境を楽しむことができます。 会議をスケジュールまたは非スケジュール設定することができます。また、ユーザーは会議の開催時に簡単にコミュニケーションのフォームを追加できます。 たとえば、[IM] から始めて、ドキュメントのグループ作業を追加して、音声やビデオを追加します。 新しい参加者は、リアルタイムで進行中の会議に追加することもできます。
+すべての会議形式が有効になっていると、インスタント メッセージング (IM)、音声、ビデオ、デスクトップ共有、スライド プレゼンテーション、添付ファイル共有、およびアプリケーション共有を任意に組み合わせて充実した会議環境をユーザーに提供できます。会議はあらかじめ予定しておくことも臨時で行うこともできます。また、ユーザーは会議の開催中にコミュニケーション形式を簡単に追加できます。たとえば、IM で開始して、ドキュメント コラボレーションを追加し、さらに音声やビデオを追加できます。開催中の会議に新しい参加者をリアルタイムで追加することもできます。
 
-次のトピックでは、web 会議、A/V 会議、ダイヤルイン会議によって提供される特定の機能の概要を説明します。
+以下のトピックでは、Web 会議、音声ビデオ会議、およびダイヤルイン会議で提供される機能の概要を説明します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
   - [Lync Server 2013 での一般的な会議の概念](lync-server-2013-common-conferencing-concepts.md)
 
-  - [Lync Server 2013 での web 会議の概要](lync-server-2013-web-conferencing-overview.md)
+  - [Lync Server 2013 の web 会議の概要](lync-server-2013-web-conferencing-overview.md)
 
-  - [Lync Server 2013 での A/V 会議の概要](lync-server-2013-a-v-conferencing-overview.md)
+  - [Lync Server 2013 での音声ビデオ会議の概要](lync-server-2013-a-v-conferencing-overview.md)
 
   - [Lync Server 2013 でのダイヤルイン会議の概要](lync-server-2013-dial-in-conferencing-overview.md)
 

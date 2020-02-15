@@ -1,5 +1,5 @@
 ---
-title: 通話の記録とエクスペリエンスデータベースの品質を手動で削除する
+title: 通話詳細記録と qoe (Quality of Experience) データベースを手動で削除する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183859
 ms.date: 07/07/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 50d7de2fdb63b9152731214edeff3bf9c03aa634
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f14485465e44b089e5002a04d3ed5e5a392ad4d8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723997"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41991862"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="manually-purging-the-call-detail-recording-and-quality-of-experience-databases-in-lync-server-2013"></a>Lync Server 2013 で通話の記録とエクスペリエンスデータベースの記録を手動で削除する
+# <a name="manually-purging-the-call-detail-recording-and-quality-of-experience-databases-in-lync-server-2013"></a>Lync Server 2013 で通話詳細記録と qoe (Quality of Experience) データベースを手動で削除する
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41723997"
 
 <span> </span>
 
-_**最終更新日:** 2014-07-07_
+_**トピックの最終更新日:** 2014-07-07_
 
-管理者は、データベースから以前のレコードを自動的に削除するように通話詳細記録 (CDR) か QoE (QoE) データベース、またはその両方を構成できます。これは、指定したデータベース (CDR または QoE) で削除が有効になっており、レコードが指定した時間以上、データベース内にあると実行されます。たとえば、毎日、午前 1 時 00 分に、60 日以上経った QoE レコードが QoE データベースから削除されるように、管理者がシステムを構成できます。
+管理者は、通話詳細記録 (CDR) や QoE (Quality of Experience) データベースを構成して、データベースから古いレコードを自動的に削除することができます。これは、指定されたデータベース (CDR または QoE) に対して削除が有効になっており、指定された時間よりも長いデータベースにレコードがある場合に発生します。 たとえば、1:00 AM 管理者の毎日、qoe 60 レコードが QoE データベースから削除されるようにシステムを構成することができます。
 
-自動パージに加えて、CsCdrDatabasePurge とという2つの新しいコマンドレットが、Microsoft Lync Server 2013 に追加されています。これらのコマンドレットを使用すると、管理者はいつでも CDR と QoE データベースからレコードを手動で削除できます。 たとえば、CDR データベースから10日以上経過しているすべてのレコードを手動で消去するには、次のようなコマンドを使用できます。
+この自動削除に加えて、Invoke-cscdrdatabasepurge と Invoke-CsQoEDatbasePurge という2つの新しいコマンドレットが、Microsoft Lync Server 2013 に追加されました。これらのコマンドレットを使用すると、管理者はいつでも CDR と QoE データベースからレコードを手動で削除できます。 たとえば、次のようなコマンドを使用すると、CDR データベースから10日以上経過したレコードをすべて手動で削除することができます。
 
     Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 10
 
-上記のコマンドでは、両方の通話の詳細レコードと、10日以上経過した診断データレコードが atl-sql-001.litwareinc.com の監視データベースから削除されます。 (通話の詳細レコードは、ユーザー/セッションレポートです。 診断データレコードは、Lync 2013 などのクライアントアプリケーションによってアップロードされた診断ログです。)
+上記のコマンドでは、通話詳細レコードと10日以上経過した診断データレコードの両方が、atl-sql-001.litwareinc.com 上の監視データベースから削除されます。 (通話詳細レコードは、ユーザーまたはセッションレポートです。 診断データレコードは、Lync 2013 などのクライアントアプリケーションによってアップロードされる診断ログです。)
 
-上に示すように、Invoke-CsCdrDatabasePurge コマンドレットを実行するときは、PurgeCallDetaiDataOlderThanDays と PurgeDiagnosticDataOlderThanDays の両方のパラメーターが含まれる必要があります。 ただし、これらのパラメーターを同じ値に設定する必要はありません。 たとえば、10 日より前の詳細通話記録を削除する一方で、すべての診断データ レコードをデータベースに残すことはできます。 そのためには、PurgeCallDetailDataOlderThanDays を10、PurgeDiagnosticDataOlderThanDays を0に設定します。 次に例を示します。
+上に示すように、Invoke-CsCdrDatabasePurge コマンドレットを実行するときは、PurgeCallDetaiDataOlderThanDays および PurgeDiagnosticDataOlderThanDays パラメーターの両方が含まれる必要があります。 しかし、これらのパラメーターを同じ値に設定する必要はありません。 たとえば、10 日より古い詳細通話記録を削除する一方で、すべての診断データ レコードをデータベースに残すことはできます。 そのためには、Purgecalldetaildataolderthandays はを10に、PurgeDiagnosticDataOlderThanDays を0に設定します。 例:
 
     Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 0
 
@@ -56,15 +56,15 @@ _**最終更新日:** 2014-07-07_
     Performing operation "Stored procedure: RtcCleanupDiag" on Target "Target SQL Server:atl-sql-001.litwareinc.com\archinst Database: lcscdr".
     [Y] Yes  [A] Yes to All  [N] No  [L] No to All [S] Suspend  [?] Help (default is "Y"):
 
-データベース削除が実際に行われる前に、Y (はい) または A (すべてはい) を入力する必要があります。これらの確認メッセージを表示しないようにする場合は、Invoke-CsCdrDatabasePurge の呼び出しの最後に以下のパラメーターを追加します。
+データベース削除が実際に行われる前に、Y (はい (Yes)) または A (すべてはい (Yes to All)) を入力する必要があります。これらの確認メッセージを表示しないようにする場合は、Invoke-CsCdrDatabasePurge の呼び出しの最後に以下のパラメーターを追加します。
 
     -Confirm:$False
 
-例:
+次に例を示します。
 
     Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 10 -Confirm:$False
 
-この操作を実行すると、確認メッセージは表示されず、データベースの削除がすぐに実行されます。
+このようにした場合、確認メッセージは表示されず、データベースの削除はすぐに行われます。
 
 QoE データベースを削除するには、Invoke-CsQoEDatabasePurge コマンドレットを使用し、削除するレコードの保有期間を (日単位で) 指定します。
 

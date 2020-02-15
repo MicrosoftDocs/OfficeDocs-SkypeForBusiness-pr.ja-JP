@@ -12,16 +12,16 @@ ms:contentKeyID: 48183379
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: baaf336013ec09b17b8e688889fdf27aa29ef644
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0ca8ccc9c60bdd608992dc3daf085568d34bee69
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764143"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034097"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764143"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-12_
+_**トピックの最終更新日:** 2012-09-12_
 
-tblPrincipalMemberDifference には、後の Active Directory ドメインサービスの同期手順でまだ処理されていないグループメンバーシップの変更 (メンバーの追加と削除) が含まれています。
+tblPrincipalMemberDifference には、以降の Active Directory ドメインサービス同期手順でまだ処理されていないグループメンバーシップの変更 (メンバーの追加および削除) が含まれています。
 
-### <a name="columns"></a>行
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -50,14 +50,14 @@ tblPrincipalMemberDifference には、後の Active Directory ドメインサー
 <thead>
 <tr class="header">
 <th>列</th>
-<th>型</th>
+<th>種類</th>
 <th>説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>prinGuid</p></td>
-<td><p>GUID、null ではない</p></td>
+<td><p>Principal.pringuid</p></td>
+<td><p>NULL でない GUID</p></td>
 <td><p>変更されたグループのプリンシパル GUID。</p></td>
 </tr>
 <tr class="even">
@@ -67,8 +67,8 @@ tblPrincipalMemberDifference には、後の Active Directory ドメインサー
 </tr>
 <tr class="odd">
 <td><p>メンバーの削除</p></td>
-<td><p>ビット、null ではない</p></td>
-<td><p>メンバーが追加された場合は False。 メンバーが削除された場合は True です。</p></td>
+<td><p>NULL でない bit</p></td>
+<td><p>メンバーが追加された場合は False。メンバーが削除された場合は True。</p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: モビリティ ポリシーの構成'
+title: 'Lync Server 2013: モビリティポリシーの構成'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184204
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 39a7f0791def99e0b42a57b1f13aae88abbfafa4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6410e50a5e7d84de152b9a4e4bd1f962c5a3c9bd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763401"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008409"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-mobility-policy-in-lync-server-2013"></a>Lync Server 2013 でのモビリティ ポリシーの構成
+# <a name="configuring-mobility-policy-in-lync-server-2013"></a>Lync Server 2013 でのモビリティポリシーの構成
 
 </div>
 
@@ -35,49 +35,49 @@ ms.locfileid: "41763401"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-13_
+_**トピックの最終更新日:** 2013-02-13_
 
     Some information in this topic pertains to Cumulative Updates for Lync Server 2013: February 2013.
 
-Lync Server 2013 は、モバイル機能を使用できるユーザー、勤務先での通話、ボイスオーバー IP (VoIP)、またはビデオ、または VoIP とビデオのどちらで WiFi が必要かを決定するためのモビリティーポリシーを提供します。 [職場での通話] 機能を使うと、携帯電話の電話番号ではなく勤務先の電話番号を使用して、携帯電話で通話を発信および受信することができます。 この機能により、通話発信者の携帯電話番号が表示されず、ユーザーが送信通話料金を回避することができます。 VoIP とビデオを設定することで、ユーザーは VoIP 通話とビデオの受信とビデオの実行が可能になります。 WiFi 使用の設定は、ユーザーのデバイスが携帯電話のデータネットワーク経由で WiFi ネットワークを使用する必要があるかどうかを定義します。
+Lync Server 2013 には、モビリティ機能を使用できるユーザー、勤務先から通話、ボイスオーバー IP (VoIP) またはビデオ、および VoIP またはビデオのどちらかに Wi-fi が必要かどうかを決定するモビリティポリシーが用意されています。 Via for Work 機能を使用すると、モバイルユーザーは携帯電話番号ではなく勤務先電話番号を使用して、携帯電話で通話を発信および受信することができます。 この機能により、呼び出し元の携帯電話番号が表示されないようにし、ユーザーが発信通話料金を回避することができます。 VoIP およびビデオを構成することにより、ユーザーは VoIP 通話とビデオを受信できます。 WiFi 使用法の設定ユーザーのデバイスが、携帯データネットワーク経由で WiFi ネットワークを使用する必要があるかどうかを定義します。
 
-既定では、モビリティ、勤務先からの通話、VoIP とビデオの機能が有効になっています。 VoIp およびビデオに WiFi を必須にする設定は無効になっています。 管理者は、コマンドレットを実行することで、これらの機能にアクセスできるユーザーを確認できます。 オプションは、グローバル、サイト、またはユーザーごとにオフにすることができます。
+既定では、モビリティ、勤務先から通話、および VoIP およびビデオの機能が有効になっています。 VoIp およびビデオ用に WiFi を必須にする設定は無効になっています。 管理者は、コマンドレットを実行して、これらの機能にアクセスできるユーザーを指定できます。 オプションは、グローバル、サイト別、またはユーザー別に無効にできます。
 
-モバイル機能を使用し、勤務先から通話を発信できるようにするには、次の前提条件を満たしている必要があります。
+モビリティ機能および [勤務先から通話] を使用できるためには、ユーザーが次の前提条件を満たしている必要があります。
 
-  - Lync Server 2013 でユーザーを有効にする必要があります。
+  - ユーザーが Lync Server 2013 に対して有効になっている必要があります。
 
-  - ユーザーはエンタープライズ Voip 用に有効になっている必要があります。
+  - ユーザーは、エンタープライズ VoIP に対して有効になっている必要があります。
 
-  - ユーザーには、 **EnableMobility**オプションが True に設定されているモビリティーポリシーが割り当てられている必要があります。
+  - ユーザーには、**EnableMobility** オプションが True に設定されているモビリティ ポリシーが割り当てられている必要があります。
 
-ユーザーが職場経由で通話を使用できるようにするには、次の2つの追加の前提条件を満たしている必要があります。
+ユーザーが [勤務先から通話] を使用できるためには、ユーザーは次の 2 つの追加の前提条件を満たす必要があります。
 
-  - ユーザーには、[**電話の同時呼び出しを有効にする**] オプションが選択されているボイスポリシーが割り当てられている必要があります。
+  - ユーザーには、[**電話の同時呼び出しを有効にする**] オプションが選択されている音声ポリシーが割り当てられている必要があります。
 
-  - ユーザーには、 **EnableOutsideVoice**オプションが True に設定されているモビリティーポリシーが割り当てられている必要があります。
+  - ユーザーには、**EnableOutsideVoice** オプションが True に設定されているモビリティ ポリシーが割り当てられている必要があります。
 
 <div>
 
 
 > [!NOTE]  
-> エンタープライズ Voip を有効にしていないユーザーは、モバイルデバイスを使用して、Lync のボイスオーバー IP (VoIP) 通話を行うことができます。または、モバイルデバイスで [クリックして参加] リンクを使用して、ユーザーに音声ポリシーの適切なオプションを割り当てると、会議に参加できます。 詳細については、「 <A href="lync-server-2013-defining-your-mobility-requirements.md">Lync Server 2013 のモビリティ要件の定義</A>」を参照してください。
+> エンタープライズ Voip が有効になっていないユーザーは、モバイルデバイスを使用して Lync Voice over IP (VoIP) 通話を行うことができます。または、自分のモバイルデバイスで [クリックして参加] リンクを使用して会議に参加できます。これらのユーザーに音声ポリシーの適切なオプションを割り当てる場合。 詳細については、「 <A href="lync-server-2013-defining-your-mobility-requirements.md">Lync Server 2013 のモビリティ要件の定義</A>」を参照してください。
 
 
 
 </div>
 
-Lync Server 2013 でユーザーを有効にする方法の詳細については、「 [Lync server 2013 のユーザーアカウントを無効にする、または再度有効にする](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)」を参照してください。 エンタープライズ Voip のユーザーを有効にする方法について詳しくは、「 [Lync Server 2013 でエンタープライズ voip のユーザーを有効にする](lync-server-2013-enable-users-for-enterprise-voice.md)」をご覧ください。 ボイスポリシーオプションの設定の詳細については、「 [Lync Server 2013 で音声ポリシーを変更し、PSTN 使用状況レコードを構成](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md)する」を参照してください。
+Lync Server 2013 でユーザーを有効にする方法の詳細については、「 [Lync server 2013 のユーザーアカウントの無効化または再有効化](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)」を参照してください。 エンタープライズ Voip に対するユーザーの有効化の詳細については、「 [Enable users For Enterprise voice In Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md)」を参照してください。 音声ポリシーオプションの設定の詳細については、「 [Modify a voice policy」および「CONFIGURE PSTN usage records In Lync Server 2013](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md)」を参照してください。
 
 <div>
 
-## <a name="to-modify-global-mobility-policy"></a>グローバルモビリティポリシーを変更するには
+## <a name="to-modify-global-mobility-policy"></a>グローバル モビリティ ポリシーを変更するには
 
-1.  Lync Server 管理シェルと Ocscore が CsAdministrator ロールのメンバーとしてインストールされているコンピューターにログオンします。
+1.  Lync Server 管理シェルと Ocscore がインストールされている任意のコンピューターに CsAdministrator の役割のメンバーとしてログオンします。
 
-2.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+2.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
-3.  モバイル機能へのアクセスをオフにして、世界中の勤務先から通話を発信します。 コマンド ラインで次を入力します。
+3.  モビリティおよび [勤務先から通話] へのアクセスをグローバルに無効にします。コマンド ラインで、次のように入力します。
     
         Set-CsMobilityPolicy -EnableMobility $False -EnableOutsideVoice $False
     
@@ -85,7 +85,7 @@ Lync Server 2013 でユーザーを有効にする方法の詳細については
     
 
     > [!NOTE]  
-    > 「モビリティーへのアクセスをオフにする」をオフにすると、勤務先から通話をオフにすることができます。 ただし、勤務先からの通話をオフにすることなく、モバイル機能をオフにすることはできません。
+    > モビリティへのアクセスをオフにしなくても "勤務先から通話" をオフにできます。ただし、モビリティをオフにする場合は、"勤務先から通話" もオフにする必要があります。
 
     
     </div>
@@ -94,13 +94,13 @@ Lync Server 2013 でユーザーを有効にする方法の詳細については
 
 <div>
 
-## <a name="to-modify-mobility-policy-by-site"></a>サイトによってモビリティポリシーを変更するには
+## <a name="to-modify-mobility-policy-by-site"></a>モビリティ ポリシーをサイト別に変更するには
 
-1.  Lync Server 管理シェルと Ocscore が CsAdministrator ロールのメンバーとしてインストールされているコンピューターにログオンします。
+1.  Lync Server 管理シェルと Ocscore がインストールされている任意のコンピューターに CsAdministrator の役割のメンバーとしてログオンします。
 
-2.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+2.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
-3.  サイトレベルのポリシーを作成し、VoIP およびビデオをオフにして、[IP オーディオと IP ビデオに WiFi を必須にする] を有効にします。 コマンド ラインで次を入力します。
+3.  サイトレベルのポリシーを作成し、VoIP およびビデオをオフにして、IP オーディオと IP ビデオをサイトごとに有効にすることができます。 コマンドラインで、次のように入力します。
     
         New-CsMobilityPolicy -Identity site:<site identifier> -EnableIPAudioVideo $False -RequireWiFiForIPAudio $True -RequireWiFiForIPVideo $True
 
@@ -108,20 +108,20 @@ Lync Server 2013 でユーザーを有効にする方法の詳細については
 
 <div>
 
-## <a name="to-modify-mobility-policy-by-user"></a>ユーザーによるモビリティポリシーの変更
+## <a name="to-modify-mobility-policy-by-user"></a>モビリティ ポリシーをユーザー別に変更するには
 
-1.  Lync Server 管理シェルと Ocscore が CsAdministrator ロールのメンバーとしてインストールされているコンピューターにログオンします。
+1.  Lync Server 管理シェルと Ocscore がインストールされている任意のコンピューターに CsAdministrator の役割のメンバーとしてログオンします。
 
-2.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+2.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
-3.  ユーザーレベルのモバイル処理ポリシーを作成し、機動性をオフにして、ユーザーによる勤務先から通話を発信します。 コマンド ラインで次を入力します。
+3.  ユーザー レベルのモビリティ ポリシーを作成し、モビリティと [勤務先から通話] をユーザー別に無効にします。コマンド ラインで、次のように入力します。
     
         New-CsMobilityPolicy -Identity <policy name> -EnableMobility $False -EnableOutsideVoice $False
         Grant-CsMobilityPolicy -Identity <user identifier> -PolicyName <policy name>
     
-    「モビリティーへのアクセスをオフにする」をオフにすると、勤務先から通話をオフにすることができます。 ただし、勤務先からの通話をオフにすることなく、モバイル機能をオフにすることはできません。
+    モビリティへのアクセスをオフにしなくても "勤務先から通話" をオフにできます。ただし、モビリティをオフにする場合は、"勤務先から通話" もオフにする必要があります。
     
-    次に例を示します。
+    たとえば、次のようになります。
     
         New-CsMobilityPolicy "tag:disableOutsideVoice" -EnableOutsideVoice $False
         Grant-CsMobilityPolicy -Identity -MobileUser1@contoso.com -PolicyName Tag:disableOutsideVoice
@@ -133,19 +133,19 @@ Lync Server 2013 でユーザーを有効にする方法の詳細については
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 のユーザーアカウントを無効にするか、再び有効にする](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)  
-[Lync Server 2013 でのエンタープライズ Voip のユーザーの有効化](lync-server-2013-enable-users-for-enterprise-voice.md)  
-[Lync Server 2013 で音声ポリシーを変更し、PSTN 使用状況レコードを構成する](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md)  
+[Lync Server 2013 のユーザーアカウントを無効または再度有効にする](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)  
+[Lync Server 2013 のエンタープライズ Voip でユーザーを有効にする](lync-server-2013-enable-users-for-enterprise-voice.md)  
+[Lync Server 2013 での音声ポリシーの変更と PSTN 使用法レコードの構成](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md)  
 
 
-[Lync Server 2013 でのモビリティの要件の定義](lync-server-2013-defining-your-mobility-requirements.md)  
+[Lync Server 2013 のモビリティ要件の定義](lync-server-2013-defining-your-mobility-requirements.md)  
 
 
-[New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsMobilityPolicy)  
-[Set-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsMobilityPolicy)  
-[Get-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsMobilityPolicy)  
-[Grant-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsMobilityPolicy)  
-[Remove-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsMobilityPolicy)  
+[Get-csmobilitypolicy](https://docs.microsoft.com/powershell/module/skype/New-CsMobilityPolicy)  
+[Get-csmobilitypolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsMobilityPolicy)  
+[Get-csmobilitypolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsMobilityPolicy)  
+[Get-csmobilitypolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsMobilityPolicy)  
+[Get-csmobilitypolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsMobilityPolicy)  
   
 
 </div>

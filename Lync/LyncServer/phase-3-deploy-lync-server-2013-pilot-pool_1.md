@@ -1,5 +1,5 @@
 ---
-title: 'フェーズ 3: Lync Server 2013 パイロットプールの展開'
+title: 'フェーズ 3: Lync Server 2013 パイロットプールを展開する'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184005
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 87a5275f423ba8acafd885332a14de2efa030a33
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 03e1d3c052b92ef61881b43e3ef3246b36c31f8f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765748"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034297"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-3-deploy-lync-server-2013-pilot-pool"></a>フェーズ 3: Lync Server 2013 パイロットプールの展開
+# <a name="phase-3-deploy-lync-server-2013-pilot-pool"></a>フェーズ 3: Lync Server 2013 パイロットプールを展開する
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41765748"
 
 <span> </span>
 
-_**最終更新日:** 2012-08-28_
+_**トピックの最終更新日:** 2012-08-28_
 
-このセクションでは、Lync Server 2013 の試験的展開を展開するために必要な手順と、2つのプールを共存させるための重要な検証手順について説明します。
+このセクションでは、Lync Server 2013 のパイロット展開を展開するために必要な手順と、2つのプールが共存していることを確認するためのいくつかの重要な検証手順について説明します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 用に Active Directory を準備する](prepare-active-directory-for-lync-server-2013.md)
+  - [Lync Server 2013 の Active Directory の準備](prepare-active-directory-for-lync-server-2013.md)
 
-  - [Lync Server 管理ツールをインストールする](install-lync-server-administration-tools.md)
+  - [Lync Server 管理ツールのインストール](install-lync-server-administration-tools.md)
 
   - [Lync Server 2013 パイロットプールの展開](deploy-lync-server-2013-pilot-pool_1.md)
 
-  - [パイロット プールとレガシ プールの共存の確認](verify-pilot-pool-coexistence-with-legacy-pool_1.md)
+  - [パイロットプールとレガシプールの共存を確認する](verify-pilot-pool-coexistence-with-legacy-pool_1.md)
 
 </div>
 

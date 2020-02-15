@@ -12,16 +12,16 @@ ms:contentKeyID: 48184545
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 632c76e04c58abd5458de78d17c4a8f6bb079e6d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f2ad6cf0792898994ba2b31f94cccf878337d1d9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41754137"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036979"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41754137"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-28_
+_**トピックの最終更新日:** 2013-02-28_
 
-Lync Server 2013 には、Lync Phone Edition、認定されたデバイスで実行されるソフトウェア、従来およびアドバンストのテレフォニー機能、統合されたセキュリティ、管理性などが用意されています。 Lync Phone Edition は、lync server 2010 と同じように、Lync Server 2013 と同じように動作します。 デバイスの計画について詳しくは、「Lync Server 2010 TechNet ライブラリでの[デバイスの計画](http://go.microsoft.com/fwlink/p/?linkid=285880)」をご覧ください。
+Lync Server 2013 には、Lync Phone Edition、認定されたデバイスで動作するソフトウェア、従来および高度なテレフォニー機能、統合セキュリティ、管理性などがあります。 Lync Phone Edition は、lync Server 2010 の場合と同じように、Lync Server 2013 と同じように動作します。 デバイスの計画の詳細については、「Lync Server 2010 TechNet ライブラリでの[デバイスの計画](http://go.microsoft.com/fwlink/p/?linkid=285880)」を参照してください。
 
 <div>
 
@@ -45,7 +45,7 @@ Lync Server 2013 には、Lync Phone Edition、認定されたデバイスで実
 
 
 [デバイスの展開](http://go.microsoft.com/fwlink/p/?linkid=285881)  
-[クライアントとデバイスのソフトウェアとインフラストラクチャのサポート](http://go.microsoft.com/fwlink/p/?linkid=285882)  
+[クライアントとデバイス ソフトウェアおよびインフラストラクチャ サポート](http://go.microsoft.com/fwlink/p/?linkid=285882)  
   
 
 </div>

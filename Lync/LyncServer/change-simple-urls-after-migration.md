@@ -1,5 +1,5 @@
 ---
-title: 移行後の簡易 URL の変更
+title: 移行後に簡単な Url を変更する
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -13,20 +13,20 @@ ms:contentKeyID: 49733777
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a24eda274734e0c5a27fab30640a363de6653514
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: df0d6666f4ea824d59a97eb1f63b66016c75d547
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726727"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42003422"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="change-simple-urls-after-migration"></a>移行後の簡易 URL の変更
+# <a name="change-simple-urls-after-migration"></a>移行後に簡単な Url を変更する
 
 </div>
 
@@ -36,41 +36,41 @@ ms.locfileid: "41726727"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-22_
+_**トピックの最終更新日:** 2012-09-22_
 
 Lync Server は、次の3つの簡単な Url をサポートします。
 
-  - **会議**は、サイトまたは組織内のすべての会議のベース URL として使用されます。 [会議への参加] の [シンプル URL] を使用すると、会議に参加するためのリンクを簡単に理解して、簡単に連絡して配布することができます。
+  - **Meet**は、サイトまたは組織内のすべての電話会議のベース URL として使用されます。 簡単な会議 URL を使用すると、会議に参加するためのリンクが覚えやすくなり、通知も配布も簡単になります。
 
-  - [**ダイヤル**イン] は、ダイヤルイン会議の設定の web ページにアクセスできるようにします。 ダイヤルインの簡易 URL は、会議にダイヤルインするユーザーが必要な電話番号と PIN 情報にアクセスできるように、すべての会議出席依頼に含まれています。
+  - **ダイヤル**インは、ダイヤルイン会議設定 web ページへのアクセスを有効にします。 ダイヤルインの簡易 URL は、すべての会議出席依頼に含まれているため、会議にダイヤルインするユーザーは必要な電話番号と PIN 情報にアクセスできます。
 
-  - **管理者**が Lync Server コントロールパネルにすばやくアクセスできるようにします。 管理者の簡易 URL は、組織の内部にあります。
+  - **管理者**は、Lync Server コントロールパネルにすばやくアクセスできます。 簡単な管理 URL は、組織内部の URL です。
 
-Lync Server 2013 に移行した後は、変更によって単純な Url の DNS レコードと証明書にどのような影響があるかを把握しておく必要があります。 従来の Lync Server 2010 ディレクターがトポロジで引き続き使用されている場合は、単純な Url への変更は必要ありません。 移行後に Lync Server 2010 ディレクターがトポロジから削除された場合は、Lync Server 2013 プールの1つをポイントするように、単純な URL の DNS レコードを更新する必要があります。 ただし、単純な URL 名を変更する場合は必ず、各ディレクターとフロントエンドサーバーで [ユーザーの有効化] を実行して、変更を登録する必要があります。
+Lync Server 2013 に移行した後、変更によって簡単な Url の DNS レコードと証明書に与える影響に注意する必要があります。 従来の Lync Server 2010 ディレクターがトポロジで使用されている場合は、簡易 Url を変更する必要はありません。 移行後に Lync Server 2010 ディレクターがトポロジから削除された場合は、簡単な URL の DNS レコードを更新して、Lync Server 2013 プールの1つをポイントする必要があります。 ただし、簡易 URL 名を変更する場合は必ず、各ディレクターおよびフロントエンド サーバーで Enable-CsComputer を実行して変更を登録する必要があります。
 
 <div>
 
-## <a name="changing-simple-urls-after-migration"></a>移行後に単純な Url を変更する
+## <a name="changing-simple-urls-after-migration"></a>移行後の簡易 Url の変更
 
-**[シンプルの概要 URL を更新するには、**
+**簡単な会議 URL を更新するには**
 
-1.  [トポロジビルダー] で、トップノードの**Lync サーバー**を右クリックし、[**プロパティの編集**] をクリックします。
+1.  トポロジビルダーで、最上位ノードの [ **Lync Server**] を右クリックし、[**プロパティの編集**] をクリックします。
 
-2.  左側のウィンドウで [**単純な url** ] を選び、[会議 url] を選び**ます。** [会議 url] を選び、[ **url の編集**] をクリックします。
+2.  左側のウィンドウで [**簡易 url** ] を選択し、[**会議の url:** ] の下の [url の**編集**] をクリックします。
 
 3.  URL を目的の値に更新し、[**OK**] をクリックして編集した URL を保存します。
 
 **管理者の簡易 URL を更新するには**
 
-1.  [トポロジビルダー] で、トップノードの**Lync サーバー**を右クリックし、[**プロパティの編集**] をクリックします。
+1.  トポロジビルダーで、最上位ノードの [ **Lync Server**] を右クリックし、[**プロパティの編集**] をクリックします。
 
-2.  左側のウィンドウで [**単純な url** ] を選び、[**管理アクセス URL** ] ボックスに、Lync Server 2013 コントロールパネルへの管理アクセスに使用する単純な url を入力して、[ **OK]** をクリックします。
+2.  [**簡易 url**の選択] 左側のウィンドウで、[**管理アクセス url** ] ボックスに、Lync Server 2013 コントロールパネルへの管理アクセスに使用する簡易 url を入力し、[ **OK**] をクリックします。
     
     <div>
     
 
     > [!TIP]  
-    > 管理 URL には、できる限りシンプルな URL を使用することをお勧めします。 最も簡単なオプションは<STRONG> https://adminです。</STRONG>&lt;ドメイン&gt;。
+    > 管理 URL にできるだけ簡易 URL を使用することをお勧めします。 最も簡単なオプションは<STRONG> https://admin、です。</STRONG>&lt;ドメイン&gt;。
 
     
     </div>
@@ -82,7 +82,7 @@ Lync Server 2013 に移行した後は、変更によって単純な Url の DNS
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 での簡単な URL の計画](lync-server-2013-planning-for-simple-urls.md)  
+[Lync Server 2013 での簡単な Url の計画](lync-server-2013-planning-for-simple-urls.md)  
   
 
 </div>

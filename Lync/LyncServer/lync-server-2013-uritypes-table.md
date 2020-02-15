@@ -12,16 +12,16 @@ ms:contentKeyID: 48184553
 ms.date: 06/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b6f1de8d9ae54a71a04e90a914edbd779aa3e41d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 03d4b2af9c0d746c713a2e98019f278ceb3df6e5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744647"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034007"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41744647"
 
 <span> </span>
 
-_**最終更新日:** 2015-06-16_
+_**トピックの最終更新日:** 2015-06-16_
 
-UriTypes テーブルには、Microsoft Lync Server 2013 で監視されるさまざまな URI (Uniform resource identifier) の種類が含まれています。
+UriTypes テーブルには、Microsoft Lync Server 2013 で監視されたさまざまな URI (Uniform resource identifier) の種類が含まれています。
 
 
 <table>
@@ -60,13 +60,13 @@ UriTypes テーブルには、Microsoft Lync Server 2013 で監視されるさ�
 <td><p><strong>UriTypeId</strong></p></td>
 <td><p>tinyint</p></td>
 <td><p>Primary</p></td>
-<td><p>URI 型に割り当てられている一意の識別子。</p></td>
+<td><p>URI の種類に割り当てられている一意の ID です。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UriType</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td></td>
-<td><p>各種の URI の種類について説明します。 有効な値は次のとおりです。</p>
+<td><p>URI の種類の説明です。有効な値は次のとおりです。</p>
 <ul>
 <li><p>1–電話の Uri</p></li>
 <li><p>0–ユーザー Uri</p></li>

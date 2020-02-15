@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 負荷分散のためにドメインネームシステムの設定を検証する'
+title: 'Lync Server 2013: 負荷分散のためのドメインネームシステム設定の検証'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969625
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0178d179a9684cf07450cdee839af1c8c1ebc22d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3cc1766ad11a5a6b7933d95b2c3e1182ff8ffc6a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727527"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007436"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="validate-domain-name-system-settings-for-load-balancing-in-lync-server-2013"></a>Lync Server 2013 での負荷分散のためにドメインネームシステムの設定を検証する
+# <a name="validate-domain-name-system-settings-for-load-balancing-in-lync-server-2013"></a>Lync Server 2013 での負荷分散のドメインネームシステム設定の検証
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41727527"
 
 <span> </span>
 
-_**最終更新日:** 2014-05-02_
+_**トピックの最終更新日:** 2014-05-02_
 
-DNS の負荷分散で使用される FQDN をサポートするには、DNS をプロビジョニングしてプールの FQDN (pool01.contoso.com など) を、プール内のすべてのサーバーの IP アドレス (たとえば、192.168.1.1、192.168.1.2 など) に解決する必要があります。 現在展開されているサーバーの IP アドレスのみを含める必要があります。
+DNS 負荷分散で使用される FQDN をサポートするには、プールの FQDN (pool01.contoso.com など) をプール内のすべてのサーバーの IP アドレス (192.168.1.1、192.168.1.2 など) に解決するように DNS をプロビジョニングする必要があります。現在展開されているサーバーの IP アドレスのみ含めるようにしてください。
 
-また、エッジプールで DNS の負荷分散を使用している場合は、次の DNS エントリが必要になります。
+また、エッジプールに DNS 負荷分散を使用している場合は、次の DNS エントリが必要です。
 
-  - Lync Server Access Edge サービスの場合、プール内の各サーバーに対して1つのエントリが必要です。 各エントリでは、Lync Server アクセスエッジサービスの FQDN (sip.contoso.com など) を、プール内のいずれかのエッジサーバー上にある Lync Server アクセスエッジサービスの IP アドレスに解決する必要があります。
+  - Lync Server アクセスエッジサービスの場合は、プール内のサーバーごとに1つのエントリが必要です。 各エントリは、Lync Server アクセスエッジサービス (たとえば、sip.contoso.com) の FQDN を、プール内のいずれかのエッジサーバー上の Lync Server アクセスエッジサービスの IP アドレスに解決する必要があります。
 
-  - Lync Server Web 会議エッジサービスの場合、プール内の各サーバーに対して1つのエントリを用意する必要があります。 各エントリでは、Lync Server Web 会議エッジサービスの FQDN (webconf.contoso.com など) を、プール内のいずれかのエッジサーバー上にある Lync Server Web 会議エッジサービスの IP アドレスに解決する必要があります。
+  - Lync Server Web 会議エッジサービスでは、プール内のサーバーごとに1つのエントリが必要です。 各エントリは、Lync Server Web 会議エッジサービスの FQDN (webconf.contoso.com など) を、プール内のいずれかのエッジサーバー上の Lync Server Web 会議エッジサービスの IP アドレスに解決する必要があります。
 
-  - Lync Server の音声/ビデオエッジサービスの場合、プール内の各サーバーに対して1つのエントリが必要です。 各エントリは、Lync Server の音声/ビデオエッジサービス (av.contoso.com など) の FQDN を、プール内のエッジサーバーの1つである Lync Server オーディオ/ビデオエッジサービスの IP アドレスに解決する必要があります。
+  - Lync Server 音声ビデオエッジサービスの場合は、プール内のサーバーごとに1つのエントリが必要です。 各エントリは、Lync Server 音声ビデオエッジサービス (たとえば、av.contoso.com) の FQDN を、プール内のいずれかのエッジサーバー上の Lync Server 音声ビデオエッジサービスの IP アドレスに解決する必要があります。
 
-  - エッジプールの内部インターフェイスで DNS の負荷分散を使用する場合は、1つの DNS レコードを追加する必要があります。これにより、エッジプールの内部 FQDN がプール内の各サーバーの IP アドレスに解決されます。
+  - エッジプールの内部インターフェイスで DNS 負荷分散を使用する場合は、1つの DNS レコードを追加する必要があります。これにより、エッジプールの内部 FQDN がプール内の各サーバーの IP アドレスに解決されます。
 
-DNS が DNS の負荷分散の正しい値を返していることを確認するには、nslookup ツールを使用する必要があります。 Nslookup を使用して DNS レコードのすべての値を返すには、次のコマンドを実行します。
+DNS が DNS 負荷分散の正しい値を返すことを確認するには、nslookup ツールを使用する必要があります。 Nslookup を使用して DNS レコードのすべての値を返すには、次のコマンドを実行する必要があります。
 
 `nslookup <FQDN >`
 
-Dns ロードバランス構成で使用されているすべてのレコードセットで、すべての正しいエントリが返されたことを確認するために、このコマンドを実行します。
+Dns 負荷分散構成で使用されているすべての FQDN に対してこのコマンドを実行し、DNS 負荷分散のすべてのレコードセットが正しいエントリをすべて返すようにします。
 
 </div>
 

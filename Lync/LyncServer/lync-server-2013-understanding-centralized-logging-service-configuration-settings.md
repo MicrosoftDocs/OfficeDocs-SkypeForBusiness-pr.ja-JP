@@ -12,20 +12,20 @@ ms:contentKeyID: 49733619
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a766756f082e6666d37dff793c457cb335736fe0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1bda4fe432841cd005671b18a163df57bd6e0bb7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744807"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006693"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="understanding-centralized-logging-service-configuration-settings-in-lync-server-2013"></a>Lync Server 2013 の一元ログサービスの構成設定について
+# <a name="understanding-centralized-logging-service-configuration-settings-in-lync-server-2013"></a>Lync Server 2013 での集中ログサービスの構成設定について
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41744807"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-21_
+_**トピックの最終更新日:** 2013-02-21_
 
-一元的なログサービスは、ログサービスの収集方法、収集方法、収集される場所、およびログ設定の内容を定義するように構成されています。 これらの設定は、グローバル (展開全体) またはサイト (展開内で指定されたサイト) に対して定義します。 定義するすべてのログで、ログを開始、停止、更新、および検索するコマンドに対して使用する ID に適した設定が使用されます。
+集中ログサービスは、ログサービスが収集する目的、収集方法、収集される場所、およびログ設定について定義するように構成されています。 これらの設定は、グローバルに (つまり、展開全体で)、またはサイト (展開内の名前付きサイト) で定義します。 定義するすべてのログで、ログを開始、停止、更新、および検索するコマンドに対して使用する ID に適した設定が使用されます。
 
 <div>
 
-## <a name="to-display-the-current-centralized-logging-service-configuration"></a>現在の集中化ログサービスの構成を表示するには
+## <a name="to-display-the-current-centralized-logging-service-configuration"></a>現在の集中ログサービスの構成を表示するには
 
-1.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+1.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
 2.  コマンド ライン プロンプトで、次のように入力します。
     
@@ -53,14 +53,14 @@ _**最終更新日:** 2013-02-21_
     
 
     > [!TIP]
-    > 定義<CODE>-Identity</CODE>によって返される構成設定の範囲を絞り込んだり、展開したりすることができます。たとえば、"Site: レドモンド" のように、サイトレドモンドの CsClsConfiguration のみを返すようにします。 構成の特定の部分に関する詳細が必要な場合は、出力を別の Windows PowerShell コマンドレットにパイプすることができます。 たとえば、サイト "Redmond" の構成で定義されているシナリオに関する詳細情報を取得するには、次のように入力します。<CODE>Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandPropery Scenarios</CODE>
+    > 定義<CODE>-Identity</CODE>によって返される構成設定の範囲を絞り込んだり展開したり、"Site: redmond" のようにスコープを展開して、サイト Redmond の CsClsConfiguration のみを取得したりすることができます。 構成の特定の部分に関する詳細が必要な場合は、出力を別の Windows PowerShell コマンドレットにパイプ処理できます。 たとえば、"Redmond" サイトの構成で定義されているシナリオの詳細を取得するには、次のように入力します。<CODE>Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandPropery Scenarios</CODE>
 
     
     </div>
     
-    ![Get-CsClsConfiguration からのサンプル出力](images/JJ688029.23f98ddc-fc48-499a-b6c5-752611f2a0b0(OCS.15).jpg "Get-CsClsConfiguration からのサンプル出力")
+    ![Get-CsClsConfiguration からの出力例。](images/JJ688029.23f98ddc-fc48-499a-b6c5-752611f2a0b0(OCS.15).jpg "Get-CsClsConfiguration からの出力例。")
     
-    このコマンドレットの結果には、一元管理サービスの現在の構成が表示されます。
+    コマンドレットの結果によって、集中ログサービスの現在の構成が表示されます。
     
     
     <table>
@@ -76,7 +76,7 @@ _**最終更新日:** 2013-02-21_
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p><strong>Identity</strong></p></td>
+    <td><p><strong>ID</strong></p></td>
     <td><p>この構成のスコープと名前を識別します。存在するグローバル構成は 1 つのみで、サイトごとに 1 つの構成があります。</p></td>
     </tr>
     <tr class="even">
@@ -85,22 +85,22 @@ _**最終更新日:** 2013-02-21_
     </tr>
     <tr class="odd">
     <td><p><strong>SearchTerms</strong></p></td>
-    <td><p>構成の定義済み検索用語。 Office 365、オンプレミス展開ではありません。</p></td>
+    <td><p>構成の定義済み検索用語。 Office 365。オンプレミス展開ではありません。</p></td>
     </tr>
     <tr class="even">
-    <td><p><strong>SecurityGroups</strong></p></td>
+    <td><p><strong>Securitygroups まとめる</strong></p></td>
     <td><p>コンピューターを確認できるユーザー (つまり、セキュリティ グループのメンバー) を、そのユーザーのサイトに基づいて制御する定義済みセキュリティ グループ。 このコンテキストのサイトは、トポロジビルダーで定義されているサイトです。</p></td>
     </tr>
     <tr class="odd">
-    <td><p><strong>Regions</strong></p></td>
+    <td><p><strong>地域</strong></p></td>
     <td><p>SecurityGroups を地域にまとめる際に定義済み地域が使用されます。</p></td>
     </tr>
     <tr class="even">
     <td><p><strong>EtlFileFolder</strong></p></td>
-    <td><p>コンピューター上でログファイルが書き込まれる場所の定義パス。 CLSAgent は、ログファイルを書き込み、ネットワークサービスのコンテキストで実行します。 この場合、% TEMP% が%WINDIR%\ServiceProfiles\NetworkService\AppData\Local に拡張されます。</p></td>
+    <td><p>ログ ファイルが書き込まれるコンピューター上の場所への定義済みパス。CLSAgent はログ ファイルを書き込み、ネットワーク サービスとの関連で実行されます。この場合は、%TEMP% が %WINDIR%\ServiceProfiles\NetworkService\AppData\Local に展開されます。</p></td>
     </tr>
     <tr class="odd">
-    <td><p><strong>EtlFileRolloverSizeMB</strong></p></td>
+    <td><p><strong>Etlfilerolloversizembe</strong></p></td>
     <td><p>パラメーターは、新しいイベント トレース ログ (.etl) ファイルが作成される前のログ ファイルの最大サイズを示します。定義したサイズに達すると、EtlFileRolloverMinutes で設定された最大時間に達していなくても、新しいログ ファイルが作成されます。</p></td>
     </tr>
     <tr class="even">
@@ -109,10 +109,10 @@ _**最終更新日:** 2013-02-21_
     </tr>
     <tr class="odd">
     <td><p><strong>TmfFileSearchPath</strong></p></td>
-    <td><p>トレース メッセージ形式のファイルを検索する場所。 トレースメッセージ形式のファイルは、バイナリファイルを人間が読める形式に変換するために使用されます。</p></td>
+    <td><p>トレース メッセージ形式のファイルを検索する場所。トレース メッセージ形式のファイルは、バイナリ ファイルを人が読み取れる形式に変換するときに使用されます。</p></td>
     </tr>
     <tr class="even">
-    <td><p><strong>CacheFileLocalFolders</strong></p></td>
+    <td><p><strong>よる cachefilelocalfolders</strong></p></td>
     <td><p>キャッシュ ファイルが書き込まれるコンピューター上の場所への定義済みパス。CLSAgent はキャッシュ ファイルを書き込み、ネットワーク サービスとの関連で実行されます。この場合は、%TEMP% が %WINDIR%\ServiceProfiles\NetworkService\AppData\Local に展開されます。既定では、キャッシュ ファイルとログ ファイルは同じディレクトリに書き込まれます。</p></td>
     </tr>
     <tr class="odd">
@@ -150,13 +150,13 @@ _**最終更新日:** 2013-02-21_
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 の一元管理されたログサービスの概要](lync-server-2013-overview-of-the-centralized-logging-service.md)  
+[Lync Server 2013 の集中ログサービスの概要](lync-server-2013-overview-of-the-centralized-logging-service.md)  
 
 
-[Set-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619182(v=OCS.15))  
-[CsClsConfiguration の削除](https://technet.microsoft.com/en-us/library/JJ619191(v=OCS.15))  
-[New-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619177(v=OCS.15))  
-[Get-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619179(v=OCS.15))  
+[設定-CsClsConfiguration](https://technet.microsoft.com/library/JJ619182(v=OCS.15))  
+[削除-CsClsConfiguration](https://technet.microsoft.com/library/JJ619191(v=OCS.15))  
+[新しい-CsClsConfiguration](https://technet.microsoft.com/library/JJ619177(v=OCS.15))  
+[取得-CsClsConfiguration](https://technet.microsoft.com/library/JJ619179(v=OCS.15))  
   
 
 </div>

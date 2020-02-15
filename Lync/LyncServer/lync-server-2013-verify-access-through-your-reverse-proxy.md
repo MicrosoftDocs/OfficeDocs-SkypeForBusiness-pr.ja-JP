@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: リバース プロキシ経由のアクセスを確認する'
+title: 'Lync Server 2013: リバースプロキシ経由のアクセスを確認する'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183753
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e13f7e23f3404191f7251c1f49bda6f8935a2929
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4dec8a6d5339af93a7e8c0f63aca5f5d3f990583
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763561"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007376"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="verify-access-through-your-reverse-proxy-in-lync-server-2013"></a>Lync Server 2013 でリバース プロキシ経由のアクセスを確認する
+# <a name="verify-access-through-your-reverse-proxy-in-lync-server-2013"></a>Lync Server 2013 でリバースプロキシ経由のアクセスを確認する
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41763561"
 
 <span> </span>
 
-_**最終更新日:** 2013-03-29_
+_**トピックの最終更新日:** 2013-03-29_
 
-リバースプロキシ上の情報にユーザーがアクセスできることを確認するには、次の手順に従います。 Access が正常に動作するためには、ファイアウォールの構成とドメインネームシステム (DNS) の構成を完了する必要がある場合があります。
+以下の手順に従って、ユーザーがリバース プロキシ上の情報にアクセスできることを確認します。 正しくアクセスできるようにするには、ファイアウォール構成とドメイン ネーム システム (DNS) 構成を完了する必要がある場合があります。
 
 <div>
 
-## <a name="to-verify-that-you-can-access-the-website-through-the-internet"></a>インターネット経由で web サイトにアクセスできることを確認するには
+## <a name="to-verify-that-you-can-access-the-website-through-the-internet"></a>インターネット経由で Web サイトにアクセスできることを確認するには
 
-  - Web ブラウザーを開き、クライアントがアドレス帳ファイルと会議の web サイトにアクセスするために使用する**アドレス**バーに、次のように url を入力します。
+  - Web ブラウザーを開き、アドレス帳ファイルや会議用の Web サイトにアクセスする際にクライアントが使用する URL を [**アドレス**] バーに入力します。以下に例を示します。
     
-      - アドレス帳サーバーの場合、次のような URL を入力**https://externalwebfarmFQDN/abs**します。ここで、externalwebfarmFQDN は、アドレス帳サービスをホストする外部 web サービスの外部 FQDN です。 アドレス帳サーバーフォルダーのディレクトリセキュリティが既定で Windows 認証に構成されているため、ユーザーは HTTP チャレンジを受け取る必要があります。
+      - アドレス帳サーバーの場合は、次のような URL を**https://externalwebfarmFQDN/abs**入力します。ここで、externalwebfarmFQDN は、アドレス帳サービスをホストする外部 web サービスの外部 FQDN です。 アドレス帳サーバーフォルダーのディレクトリセキュリティが既定で Windows 認証に構成されているため、ユーザーは HTTP チャレンジを受信する必要があります。
     
-      - [会議] には、次のような URL **https://externalwebfarmFQDN/meet**を入力します。ここで、externalwebfarmFQDN は会議コンテンツをホストする web ファームの外部 FQDN です。 この URL には、会議のトラブルシューティングページが表示されます。 または、会議の簡単な URL が正しく機能することを確認します。 会議参加の単純な URL の例を次に示します。https://meet.contoso.com
+      - 会議の場合は、次のような URL を**https://externalwebfarmFQDN/meet**入力します。ここで、externalwebfarmFQDN は、会議コンテンツをホストする web ファームの外部 FQDN です。 この URL には、会議のトラブルシューティングのページが表示されます。 または、会議用の簡易 URL が正常に動作することを確認します。 会議参加の簡単な URL の例を次に示します。https://meet.contoso.com
     
-      - 配布グループの展開については、次のような**https://externalwebfarmFQDN/GroupExpansion/service.svc**URL を入力してください。 配布グループ展開サービスのディレクトリセキュリティが既定で Windows 認証に構成されているため、ユーザーは HTTP チャレンジを受け取る必要があります。
+      - 配布グループの展開の場合は、次のような URL **https://externalwebfarmFQDN/GroupExpansion/service.svc**を入力します。 配布グループ拡張サービスのディレクトリセキュリティが既定で Windows 認証に構成されているため、ユーザーは HTTP チャレンジを受信する必要があります。
     
-      - [ダイヤルイン] には、次**https://externalwebfarmFQDN/dialin**のような単純な URL を入力します。ここで、externalwebfarmFQDN は、ダイヤルイン会議のダイヤルインページをホストする web ファームの外部 FQDN です。 ユーザーは、ダイヤルインページに転送される必要があります。 または、Simple URL のダイヤルイン機能が正しく動作することを確認します。 ダイヤルインの単純な URL の例を次に示します。https://dialin.contoso.com
+      - ダイヤルインの場合、次**https://externalwebfarmFQDN/dialin**のような簡単な URL を入力します。ここで、externalwebfarmFQDN は、ダイヤルイン会議のダイヤルインページをホストする web ファームの外部 FQDN です。 ユーザーはダイヤルインのページに進みます。 または、簡易 URL でのダイヤルインが正常に動作することを確認します。 ダイヤルインの簡単な URL の例は、次のようになります。https://dialin.contoso.com
     
-      - 自動検出 URL が機能していることをhttps://lyncdiscover確認するには、「」と入力します。 Externaldomaqdn。 ブラウザーでファイルを開くように求められます。 [メモ帳] を選択して開きます。 一般的な応答は、次のようになります。
+      - 自動検出 URL が機能していることをhttps://lyncdiscover確認するには、「」と入力します。 externaldomainFQDN。 ブラウザーからファイルを開くように求めるメッセージが表示されます。 [メモ帳] を選択して開きます。 通常の応答は次のようになります。
         
             {"AccessLocation":"External","Root":{"Links":[{"href":"https:\/\/extweb.contoso.com\/Autodiscover\/AutodiscoverService.svc\/root\/domain","token":"Domain"},
             {"href":"https:\/\/extweb.contoso.com\/Autodiscover\/AutodiscoverService.svc\/root\/user","token":"User"},

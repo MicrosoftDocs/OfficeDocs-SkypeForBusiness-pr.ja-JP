@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: フロント エンド プールのペアリングの計画'
+title: 'Lync Server 2013: フロントエンドプールのペアリングの計画'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185508
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d85f6e19f3aa74c09a522e737d1223095f17d7c1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4daeb3ea88570afaf9fc90c0e252466be67ed192
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725397"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036777"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-front-end-pool-pairing-in-lync-server-2013"></a>Lync Server 2013 でのフロント エンド プールのペアリングの計画
+# <a name="planning-for-front-end-pool-pairing-in-lync-server-2013"></a>Lync Server 2013 でのフロントエンドプールのペアリングの計画
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41725397"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-28_
+_**トピックの最終更新日:** 2012-09-28_
 
-Lync Server 2013 で最高の障害回復機能を使用するには、地理的に分散した2つのサイトにフロントエンドプールのペアを展開します。 各サイトには、他のサイトで対応するフロントエンドプールとペアリングされたフロントエンドプールが含まれています。 両方のサイトがアクティブになり、Lync Server バックアップサービスはリアルタイムのデータレプリケーションを提供して、プールの同期を維持します。 バックアップサービスは、Lync Server 2013 の新機能であり、障害回復ソリューションをサポートするように設計されています。 プールを別のフロントエンドプールとペアリングすると、フロントエンドプールにインストールされます。
+Lync Server 2013 で最高の障害復旧機能を使用するには、2つの地理的に分散したサイト間でフロントエンドプールのペアを展開します。 各サイトのフロントエンド プールは、他のサイトの対応するフロントエンド プールとペアになっています。 両方のサイトがアクティブであり、Lync Server バックアップサービスは、プールの同期を維持するためのリアルタイムデータレプリケーションを提供します。 バックアップサービスは、Lync Server 2013 の新機能で、障害復旧ソリューションをサポートするように設計されています。 プールを別のフロントエンド プールとペアにすると、バックアップ サービスがフロントエンド プールにインストールされます
 
-1つのサイトのプールで障害が発生した場合は、そのプールのユーザーを他のサイトのプールにフェイルオーバーすることができます。これにより、両方のプールのすべてのユーザーにサービスが提供されます。 容量の計画を立てるために、各プールは、障害が発生した場合に両方のプールのすべてのユーザーの作業負荷を処理するように設計する必要があります。
+一方のサイトのプールで障害が発生した場合は、そのプールから他のサイトのプールにユーザーをフェールオーバーでき、それ以降はそのサイトが両方のプールのすべてのユーザーに対応します。容量計画では、障害発生時に両方のプールの全ユーザーのワークロードを処理するように各プールを設計する必要があります。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [サポートされているプールペアリングオプションと Lync Server 2013 のベストプラクティス](lync-server-2013-supported-pool-pairing-options-and-best-practices.md)
+  - [Lync Server 2013 でサポートされているプールのペアのオプションとベストプラクティス](lync-server-2013-supported-pool-pairing-options-and-best-practices.md)
 
-  - [Lync Server 2013 のバックアップ レジストラー関係](lync-server-2013-backup-registrar-relationships.md)
+  - [Lync Server 2013 のバックアップレジストラーの関係](lync-server-2013-backup-registrar-relationships.md)
 
-  - [Lync Server 2013 のプールのフェールオーバーおよびフェールバックの復旧時間](lync-server-2013-recovery-time-for-pool-failover-and-pool-failback.md)
+  - [Lync Server 2013 でのプールのフェールオーバーおよびプールのフェールバックの復旧時間](lync-server-2013-recovery-time-for-pool-failover-and-pool-failback.md)
 
-  - [Lync Server 2013 の中央管理ストアのフェールオーバー](lync-server-2013-central-management-store-failover.md)
+  - [Lync Server 2013 での中央管理ストアのフェールオーバー](lync-server-2013-central-management-store-failover.md)
 
-  - [Lync Server 2013 でのフロントエンド プールのペアリング データのセキュリティ](lync-server-2013-front-end-pool-pairing-data-security.md)
+  - [Lync Server 2013 でのフロントエンドプールのペアリングデータのセキュリティ](lync-server-2013-front-end-pool-pairing-data-security.md)
 
 </div>
 

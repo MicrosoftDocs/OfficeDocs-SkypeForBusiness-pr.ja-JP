@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: エッジの展開の検証'
+title: 'Lync Server 2013: エッジ展開の確認'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183290
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1e6e3bf4e2fb1004c1e0312b4ef43f3f6f6ba690
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ac4c4ad1b6bddcdc44383f0be8e2c05e00de7b52
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742027"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007286"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="verifying-your-edge-deployment-in-lync-server-2013"></a>Lync Server 2013 でのエッジの展開の検証
+# <a name="verifying-your-edge-deployment-in-lync-server-2013"></a>Lync Server 2013 でのエッジ展開の確認
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41742027"
 
 <span> </span>
 
-_**最終更新日:** 2010-11-07_
+_**トピックの最終更新日:** 2010-11-07_
 
-エッジコンポーネントのインストールと構成が完了したら、サーバーの構成と接続を確認し、サポートしている外部ユーザーの種類ごとに接続性を確認する必要があります。
+エッジ コンポーネントのインストールと構成が完了したら、サーバーの構成と接続、およびサポートする各種外部ユーザーの接続を確認する必要があります。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 での内部サーバーとエッジ サーバーの間の接続の検証](lync-server-2013-verify-connectivity-between-internal-servers-and-edge-servers.md)
+  - [Lync Server 2013 の内部サーバーとエッジサーバーの間の接続を確認する](lync-server-2013-verify-connectivity-between-internal-servers-and-edge-servers.md)
 
   - [Lync Server 2013 での外部ユーザーの接続の確認](lync-server-2013-verify-connectivity-for-external-users.md)
 

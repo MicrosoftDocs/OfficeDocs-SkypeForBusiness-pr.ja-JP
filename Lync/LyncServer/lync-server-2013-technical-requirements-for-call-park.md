@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: コール パークの技術要件'
+title: 'Lync Server 2013: コールパークの技術要件'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183897
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 742d6ef62068e3e6e3bbd953e078b186e86bb497
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ff91e6b458d4c86f2246cff19e72e5221728e774
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746607"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006779"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-call-park-in-lync-server-2013"></a>Lync Server 2013 のコール パークの技術要件
+# <a name="technical-requirements-for-call-park-in-lync-server-2013"></a>Lync Server 2013 のコールパークの技術要件
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41746607"
 
 <span> </span>
 
-_**最終更新日:** 2013-11-07_
+_**トピックの最終更新日:** 2013-11-07_
 
-このセクションでは、次のようなコールパークの技術要件について説明します。
+このセクションでは、コールパークの次の技術要件について説明します。
 
   - ハードウェア要件
 
@@ -45,13 +45,13 @@ _**最終更新日:** 2013-11-07_
 
   - ポートの要件
 
-  - オーディオファイルの要件
+  - オーディオ ファイルの要件
 
 <div>
 
 ## <a name="hardware-requirements"></a>ハードウェア要件
 
-コールパークアプリケーションには、フロントエンドサーバーと同じハードウェア要件があります。 ハードウェア要件の詳細については、サポートドキュメントの「[サーバーハードウェアプラットフォーム (Lync server 2013 の場合](lync-server-2013-server-hardware-platforms.md))」を参照してください。
+コールパークアプリケーションには、フロントエンドサーバーと同じハードウェア要件があります。 ハードウェア要件の詳細については、「サポート」のドキュメントの「 [Lync server 2013 のサーバーハードウェアプラットフォーム](lync-server-2013-server-hardware-platforms.md)」を参照してください。
 
 </div>
 
@@ -59,9 +59,9 @@ _**最終更新日:** 2013-11-07_
 
 ## <a name="software-requirements"></a>ソフトウェア要件
 
-コールパークアプリケーションには、フロントエンドサーバーと同じオペレーティングシステム要件とソフトウェアの前提条件があります。 ソフトウェア要件の詳細については、サポートドキュメントの「 [Lync server 2013 でのサーバーとツールのオペレーティングシステムのサポート](lync-server-2013-server-and-tools-operating-system-support.md)」を参照してください。
+コールパークアプリケーションには、フロントエンドサーバーと同じオペレーティングシステム要件とソフトウェア前提条件があります。 ソフトウェア要件の詳細については、「サポート」のドキュメントの「 [Lync server 2013 のサーバーおよびツールのオペレーティングシステムのサポート](lync-server-2013-server-and-tools-operating-system-support.md)」を参照してください。
 
-コールパークアプリケーションが展開されているすべてのフロントエンドサーバーおよび標準エディションのサーバーは、windows server 2008 R2 を実行しているサーバー、または Windows Server 2012 を実行しているサーバーの Microsoft メディアファンデーションに Windows Media Format ランタイムをインストールしている必要があります。Windows Server 2012 R2。 Windows Server 2008 R2 の場合、windows Media Format Runtime は Windows デスクトップエクスペリエンスの一部としてインストールされます。 Windows media 形式のランタイムまたは Microsoft メディアファンデーションが必要なのは、Windows Media オーディオ (.wma) ファイルで、保留中の音楽の再生が再生されます。
+コールパークアプリケーションが展開されているすべてのフロントエンドサーバーおよび Standard Edition サーバーには、windows Server 2008 R2 を実行しているサーバー、または Windows Server 2012 を実行しているサーバー用の Microsoft Media Foundation を実行する Windows Media フォーマットランタイムがインストールされている必要があります。Windows Server 2012 R2。 Windows Server 2008 R2 では、windows Media フォーマットランタイムが windows デスクトップ環境の一部としてインストールされています。 Windows media フォーマットランタイムまたは Microsoft Media Foundation は、コールパークが保留音に対して再生する Windows Media Audio (.wma) ファイルに必要です。
 
 </div>
 
@@ -69,15 +69,15 @@ _**最終更新日:** 2013-11-07_
 
 ## <a name="port-requirements"></a>ポートの要件
 
-コールパークアプリケーションでは、次のポートを使用します。
+コールパークアプリケーションは、次のポートを使用します。
 
-  - ****   SIP リスニング要求に使用されるポート5075。
+  - **ポート 5075**   SIP リッスン要求に使用されます。
 
 <div>
 
 
 > [!NOTE]  
-> このポートは既定の設定であり、<STRONG>Set-CsApplicationServer</STRONG> コマンドレットを使用して変更できます。 このコマンドレットの詳細については、「Lync Server 管理シェルのドキュメント」を参照してください。
+> このポートは既定の設定であり、<STRONG>Set-CsApplicationServer</STRONG> コマンドレットを使用して変更できます。 このコマンドレットの詳細については、「Lync Server Management Shell」のドキュメントを参照してください。
 
 
 
@@ -89,7 +89,7 @@ _**最終更新日:** 2013-11-07_
 
 ## <a name="audio-file-requirements"></a>オーディオ ファイルの要件
 
-コールパークアプリケーションは、保留中の音楽に対して Windows Media オーディオ (.wma) ファイルのみをサポートします。 保留音のファイルをカスタマイズするには、Microsoft Expression Encoder 4 を使用できます。 式エンコーダー4をダウンロードするには、の「Expression Encoder [http://go.microsoft.com/fwlink/p/?linkId=202843](http://go.microsoft.com/fwlink/p/?linkid=202843)4」を参照してください。 このツールを使用すると、ファイルを WMA 形式に変換できます。 通話パーク音楽の保存に推奨される形式は、メディアオーディオ9、44 kHz、16ビット、モノラル、CBR、32 kbps です。
+コールパークアプリケーションは、保留音に対して Windows Media オーディオ (.wma) ファイルのみをサポートします。 保留音のファイルをカスタマイズするには、Microsoft Expression Encoder 4 を使用できます。 Expression Encoder 4 をダウンロードするには、「Expression Encoder 4 [http://go.microsoft.com/fwlink/p/?linkId=202843](http://go.microsoft.com/fwlink/p/?linkid=202843)」を参照してください。 このツールを使用すると、ファイルを WMA 形式に変換できます。 コール パークの保留音ファイルとしての推奨形式は Media Audio 9、44 kHz、16 ビット、モノラル、CBR、32 kbps です。
 
 <div>
 

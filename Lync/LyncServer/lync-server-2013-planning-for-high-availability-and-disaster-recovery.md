@@ -12,16 +12,16 @@ ms:contentKeyID: 48183497
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 79abf8b98252f3b05b899a9840e7a9c9a2e8096c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 38a41585da7cb247dc955b3f4e18ee4812ef5a2a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41752187"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036697"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,29 +35,29 @@ ms.locfileid: "41752187"
 
 <span> </span>
 
-_**最終更新日:** 2013-10-31_
+_**トピックの最終更新日:** 2013-10-31_
 
-Lync server 2010 の場合と同様に、Lync Server 2013 のほとんどのサーバーの役割に関する高可用性の主要なスキームは、プールによるサーバーの冗長性に基づいています。 特定のサーバーの役割を実行するサーバーで障害が発生した場合は、プール内の同じ役割を実行する他のサーバーがそのサーバーの負荷を引き受けます。 同じことが、フロントエンド サーバー、エッジ サーバー、仲介サーバー、およびディレクターでも実行されます。
+Lync server 2010 の場合と同様に、Lync Server 2013 のほとんどのサーバーの役割に関する主な高可用性スキームは、プーリングによるサーバーの冗長性に基づいています。 あるサーバーの役割を実行しているサーバーが失敗すると、プール内で同じサーバーの役割を実行している別のサーバーがそのサーバーの負荷を引き継ぎます。 これはフロントエンド サーバー、エッジ サーバー、仲介サーバー、およびディレクターに適用されます。
 
-Lync Server 2013 では、サーバーの地理的な dispersement を2つのデータセンターに導入して、1つのプールまたはサイトを停止する必要がある場合に、フロントエンドプール用の新しい障害回復手段を追加します。
+Lync Server 2013 は、サーバーの地理的なた場合地理的を2つのデータセンターに導入して、1つのプールまたはサイトを停止する必要があることを提供することにより、フロントエンドプール用の新しい障害復旧手段を追加します。
 
-また、バックエンドデータベースの同期 SQL ミラーリングをサポートすることにより、バックエンドサーバーの高可用性が強化されています。2013
+Lync Server 2013 では、バックエンドデータベースの同期 SQL ミラーリングをサポートすることにより、バックエンドサーバーの高可用性も強化されています。
 
-このセクションでは、これらの主要な高可用性および障害回復機能について説明し、他のサーバーの役割に対して高可用性と障害回復を実現するための手順についても説明します。
+このセクションでは、これらの主要な高可用性機能と障害復旧機能について説明し、別のサーバーの役割の高可用性と障害復旧に使用できる手順についても説明します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 でのフロントエンド プールの障害復旧](lync-server-2013-front-end-pool-disaster-recovery.md)
+  - [Lync Server 2013 のフロントエンドプールの障害復旧](lync-server-2013-front-end-pool-disaster-recovery.md)
 
-  - [Lync Server 2013 でのエッジ サーバーの障害復旧](lync-server-2013-edge-server-disaster-recovery.md)
+  - [Lync Server 2013 でのエッジサーバーの障害復旧](lync-server-2013-edge-server-disaster-recovery.md)
 
-  - [Lync Server 2013 でのエンタープライズ VoIP の復旧の計画](lync-server-2013-planning-for-enterprise-voice-resiliency.md)
+  - [Lync Server 2013 でのエンタープライズ Voip の復元の計画](lync-server-2013-planning-for-enterprise-voice-resiliency.md)
 
-  - [Lync Server 2013 の障害復旧用の通話管理機能](lync-server-2013-call-management-features-for-disaster-recovery.md)
+  - [Lync Server 2013 での障害復旧のための通話管理機能](lync-server-2013-call-management-features-for-disaster-recovery.md)
 
-  - [Lync Server 2013 の高可用性と障害復旧に対応した常設チャット サーバーの構成](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md)
+  - [Lync Server 2013 での高可用性および障害復旧用の常設チャットサーバーの構成](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md)
 
   - [Lync Server 2010 大都市サイト復元](lync-server-2013-compatibility-with-lync-server-2010-metropolitan-site-resiliency.md)
 

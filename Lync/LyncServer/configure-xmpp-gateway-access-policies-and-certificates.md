@@ -1,5 +1,5 @@
 ---
-title: XMPP ゲートウェイ アクセス ポリシーおよび証明書の構成
+title: XMPP ゲートウェイアクセスポリシーと証明書を構成する
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -13,20 +13,20 @@ ms:contentKeyID: 49733882
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5b1aab41b1a9af8c7b8df888dcb3a0c8621fa44e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e785b3f3df2e37bc7cdaaaccdb2e027652a0da36
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723237"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006583"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-xmpp-gateway-access-policies-and-certificates"></a>XMPP ゲートウェイ アクセス ポリシーおよび証明書の構成
+# <a name="configure-xmpp-gateway-access-policies-and-certificates"></a>XMPP ゲートウェイアクセスポリシーと証明書を構成する
 
 </div>
 
@@ -36,21 +36,21 @@ ms.locfileid: "41723237"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-15_
+_**トピックの最終更新日:** 2012-10-15_
 
-XMPP フェデレーションは、拡張メッセージングとプレゼンスプロトコル (XMPP) に基づいて外部展開を定義します。 XMPP の構成により、Lync ユーザーは次の方法で XMPP ドメインユーザーにアクセスできます。
+XMPP フェデレーションは、XMPP (eXtensible Messaging and Presence Protocol) に基づいて外部展開を定義します。XMPP を構成すると、Lync ユーザーは XMPP ドメイン ユーザーに次の方法でアクセスできます。
 
-  - IM とプレゼンス–人物との連絡のみ
+  - IM およびプレゼンス (1 対 1 のみ)
 
-  - Lync クライアントでの XMPP フェデレーション連絡先の作成
+  - XMPP フェデレーションからの連絡先を Lync クライアントに作成
 
-拡張メッセージングとプレゼンスプロトコル (XMPP) フェデレーションパートナーをサポートするためにポリシーを構成すると、そのポリシーは XMPP フェデレーションドメインのユーザーに適用されますが、セッション開始プロトコル (SIP) のインスタントメッセージング (IM) サービスプロバイダーのユーザーには適用されません。(たとえば、Windows Live など)、または SIP フェデレーションドメイン。 ユーザーが連絡先を追加して通信できるようにする、各 XMPP フェデレーションドメインに対して XMPP フェデレーションパートナーを構成します。 ポリシーが設定されたら、XMPP ゲートウェイ証明書を構成する必要があります。
+XMPP (eXtensible Messaging and Presence Protocol) フェデレーション パートナーをサポートするポリシーを構成すると、そのポリシーは XMPP フェデレーション ドメインのユーザーには適用されますが、SIP (セッション開始プロトコル) インスタント メッセージング (IM) サービス プロバイダー (Windows Live など) のユーザーや、SIP フェデレーション ドメインのユーザーには適用されません。ユーザーによる連絡先の追加や通信を許可する XMPP フェデレーション ドメインごとに XMPP フェデレーション パートナーを構成します。ポリシーを設定したら、XMPP ゲートウェイ証明書を構成する必要があります。
 
 <div>
 
 
 > [!NOTE]  
-> XMPP ゲートウェイの移行を開始するには、Lync Server 2013 XMPP ゲートウェイを展開し、アクセスポリシーを構成して、Lync Server 2013 XMPP ゲートウェイのユーザーを有効にする必要があります。 これらの手順を実行する前に、すべてのユーザーを Lync Server 2013 展開に移動する必要があります。 詳細については、「 <A href="configure-xmpp-gateway-on-lync-server-2013.md">Lync Server 2013 での XMPP ゲートウェイの構成</A>」を参照してください。
+> XMPP ゲートウェイの移行を開始するには、Lync Server 2013 XMPP ゲートウェイを展開し、Lync Server 2013 XMPP ゲートウェイのユーザーを有効にするためのアクセスポリシーを構成する必要があります。 これらの手順を実行する前に、すべてのユーザーを Lync Server 2013 展開に移動する必要があります。 詳細については、「 <A href="configure-xmpp-gateway-on-lync-server-2013.md">Configure XMPP gateway On Lync Server 2013</A>」を参照してください。
 
 
 
@@ -58,23 +58,23 @@ XMPP フェデレーションは、拡張メッセージングとプレゼンス
 
 <div>
 
-## <a name="configure-an-external-access-policy-to-enable-users-for-lync-server-2013-xmpp-gateway"></a>外部アクセスポリシーを構成して Lync Server 2013 XMPP ゲートウェイのユーザーを有効にする
+## <a name="configure-an-external-access-policy-to-enable-users-for-lync-server-2013-xmpp-gateway"></a>Lync Server 2013 XMPP ゲートウェイに対してユーザーを有効にする外部アクセス ポリシーを構成する
 
 1.  [Lync Server コントロール パネル] を開きます。
 
-2.  左側のナビゲーションバーで、[**フェデレーションと外部アクセス**] をクリックし、[**外部アクセスポリシー**] をクリックします。
+2.  左側のナビゲーション バーで [**フェデレーションと外部アクセス**] をクリックし、[**外部アクセス ポリシー**] をクリックします。
 
-3.  [**新規作成**] をクリックし、[**ユーザーポリシー**] をクリックします。
+3.  [**新規**] をクリックし、[**ユーザー ポリシー**] をクリックします。
 
-4.  外部アクセスのユーザーポリシーの名前を入力します。
+4.  外部アクセス ユーザー ポリシーの名前を入力します。
 
-5.  外部アクセスユーザーポリシーの説明を入力します。
+5.  外部アクセス ユーザー ポリシーの説明を入力します。
 
-6.  [**フェデレーションユーザーとの通信を有効にする**] を選択します。
+6.  [**フェデレーション ユーザーとの通信を有効にする**] を選択します。
 
-7.  [ **XMPP フェデレーションユーザーとの通信を有効にする**] を選択します。
+7.  [**XMPP フェデレーション ユーザーとの通信を有効にする**] を選択します。
 
-8.  [**コミット**] をクリックして、サイトまたはユーザーポリシーの変更を保存します。
+8.  [**確定**] をクリックして、サイトまたはユーザー ポリシーへの変更を保存します。
 
 </div>
 

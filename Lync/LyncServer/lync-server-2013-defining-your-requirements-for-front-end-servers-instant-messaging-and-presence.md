@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: フロントエンド サーバー、インスタント メッセージング、およびプレゼンスに関する要件の定義'
+title: 'Lync Server 2013: フロントエンドサーバー、インスタントメッセージング、およびプレゼンスの要件の定義'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185319
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af371d116948d348b49c552dfe53290c1dae1900
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 82cce58ab401149871073f6bc49ed4c53f301cb7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743417"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42032093"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="defining-your-requirements-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Lync Server 2013 でのフロントエンド サーバー、インスタント メッセージング、およびプレゼンスに関する要件の定義
+# <a name="defining-your-requirements-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Lync Server 2013 でのフロントエンドサーバー、インスタントメッセージング、およびプレゼンスの要件の定義
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41743417"
 
 <span> </span>
 
-_**最終更新日:** 2013-10-07_
+_**トピックの最終更新日:** 2013-10-07_
 
-インスタントメッセージング (IM) とプレゼンスを計画する主なタスクは、ユーザーに対して十分なフロントエンドサーバーがあることを確認することです。
+インスタント メッセージング (IM) とプレゼンスの計画における主なタスクは、ユーザーのために十分な数のフロント エンド サーバーを確保することです。
 
 <div>
 
-## <a name="enabling-communication-with-external-users"></a>外部ユーザーとの通信を有効にする
+## <a name="enabling-communication-with-external-users"></a>外部ユーザーとの通信の有効化
 
-ユーザーが外部ユーザーと通信できるようにすることで、Lync Server での投資の利点を大幅に高めることができます。 外部ユーザーには次のユーザーが含まれます。
+ユーザーが外部ユーザーと通信できるようにすることで、Lync Server に対する投資のメリットを大幅に向上させることができます。 外部ユーザーには次のユーザーが含まれます。
 
-  - **リモートユーザー**   は、ファイアウォール外で作業していて、ノート pc やその他の Lync Server デバイスを使用している場合に、組織の独自のユーザーを管理します。
+  - **リモートユーザー**   ファイアウォールの外側で作業し、ラップトップやその他の Lync Server デバイスを使用している場合は、組織のユーザーを所有します。
 
-  - ****   Lync Server を実行している企業の会社からフェデレーションされたユーザー。 自社ユーザーがこうしたユーザーに容易にコンタクトできるようにするには、これらの企業とフェデレーション関係を作成する必要があります。
+  - ****   Lync Server を実行しているユーザーと共同で作業する企業のフェデレーションユーザー。 こちら側のユーザーがこれらのユーザーに容易にコンタクトできるようにするには、これらの企業とフェデレーション関係を作成する必要があります。
 
-  - ****   パブリック im サービスを利用する一般ユーザー (インターネットサービス、Yahoo\!、AOL の Windows Live ネットワークによって提供された im サービス、または Google Talk などの拡張メッセージングとプレゼンスプロトコル (xmpp) を使用するプロバイダーおよびサーバーのユーザー。
+  - **パブリックユーザー**   インターネットサービス、Yahoo\!、AOL の Windows Live ネットワークによって提供される im サービスなどのパブリック im サービスのユーザー、および Google Talk などの拡張可能なメッセージングとプレゼンスプロトコル (xmpp) を使用するプロバイダーおよびサーバーのユーザー。
     
     <div>
     
 
     > [!NOTE]  
-    > Windows Live、AOL、Yahoo! のパブリック IM 接続には個別のライセンスが必要になる場合があることに注意してください。
+    > ただし、Windows Live、AOL、Yahoo! とのパブリック IM 接続には、個別のライセンスが必要な場合があります。
 
     
     </div>
@@ -66,16 +66,16 @@ _**最終更新日:** 2013-10-07_
     > [!IMPORTANT]  
     > <UL>
     > <LI>
-    > <P>2012年9月1日以降、Microsoft Lync パブリック IM 接続ユーザーサブスクリプションライセンス ("PIC USL") は、新規または更新契約の購入に使用できなくなりました。 アクティブなライセンスを持っているお客様は、Yahoo! とのフェデレーションを継続できます。 サービスが終了するまでの Messenger。 AOL および Yahoo! の2014年6月の終了日 が発表されました。 詳細については、「 <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Lync Server 2013 でのパブリックインスタントメッセンジャー接続のサポート</A>」を参照してください。</P>
+    > <P>2012年9月1日時点で、Microsoft Lync パブリック IM 接続ユーザーサブスクリプションライセンス ("PIC USL") は、新規購入時または契約の更新時に購入することができなくなりました。 アクティブなライセンスを持つお客様は、Yahoo! とのフェデレーションを続行できます。 メッセンジャーサービスが終了するまでの期間。 AOL および Yahoo! の2014年6月の寿命の終了日 が発表されました。 詳細については、「 <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Lync Server 2013 でのパブリックインスタントメッセンジャー接続のサポート</A>」を参照してください。</P>
     > <LI>
-    > <P>PIC USL は、Lync Server または Office Communications Server が Yahoo! とのフェデレーションを行うために必要な1か月あたりのユーザーごとのサブスクリプションライセンスです。 Messenger. このサービスを提供するための Microsoft の機能は、Yahoo! からのサポートによって決定されたものであり、その基となる契約は "巻停止" となります。</P>
+    > <P>PIC USL は、Lync Server または Office Communications Server が Yahoo! とのフェデレーションを行うために必要なユーザーごとの月ごとのサブスクリプションライセンスです。 Messenger. このサービスを提供するための Microsoft の機能は、Yahoo! からのサポートに応じて決定されました。これは、使用する基礎となる契約です。</P>
     > <LI>
-    > <P>Lync は、組織間、および世界各地の個人と接続するための強力なツールです。 Windows Live Messenger とのフェデレーションには、Lync 標準 CAL 以外の追加のユーザー/デバイスライセンスは必要ありません。 Skype federation はこのリストに追加されます。 Lync ユーザーは、IM と音声を使用して、数百人の何百万ものユーザーに連絡できます。</P></LI></UL>
+    > <P>Lync は、組織間や世界中の個人と接続するための強力なツールです。 Windows Live Messenger とのフェデレーションでは、Lync Standard CAL を超えるユーザー/デバイスライセンスを追加する必要はありません。 Skype フェデレーションがこの一覧に追加され、Lync ユーザーが IM と音声を使用して数百人のユーザーにアクセスできるようになります。</P></LI></UL>
 
     
     </div>
 
-これらのシナリオのいずれかまたはすべてを有効にするには、お客様が Lync Server の展開と外部ユーザーとの間で安全な通信を実現するために、エッジサーバーを展開する必要があります。 組織のリモート ユーザーとフェデレーション組織のユーザーは、IM を使用して互いのプレゼンスと通信を確認できるようになります。 外部ユーザーとの通信を有効にする方法の詳細については、計画ドキュメントの「 [Lync Server 2013 での外部ユーザーアクセスの計画](lync-server-2013-planning-for-external-user-access.md)」を参照してください。
+これらのシナリオのいずれかまたはすべてを有効にするには、Lync server の展開と外部ユーザーとの間でセキュリティで保護された通信を有効にするためにエッジサーバーを展開する必要があります。 組織のリモート ユーザーとフェデレーション組織のユーザーは、IM を使用して互いのプレゼンスと通信を確認できるようになります。 外部ユーザーとの通信の有効化の詳細については、「計画」のドキュメントの「 [planning for external user access In Lync Server 2013](lync-server-2013-planning-for-external-user-access.md) 」を参照してください。
 
 </div>
 
@@ -83,9 +83,9 @@ _**最終更新日:** 2013-10-07_
 
 ## <a name="archiving-im-content"></a>IM コンテンツのアーカイブ
 
-Lync Server には、組織がコンプライアンス規則に従う必要がある場合に使用できる機能が用意されています。 アーカイブを使用すると、組織内のすべてのユーザーまたは指定する特定のユーザーの IM メッセージの内容をアーカイブすることができます。 詳細については、計画ドキュメントの「 [Lync Server 2013 でのアーカイブの計画](lync-server-2013-planning-for-archiving.md)」を参照してください。
+Lync Server は、組織が法令遵守規制に従う必要がある場合に使用できる機能を提供します。 アーカイブを使用すると、組織内のすべてのユーザーまたは指定した特定のユーザーに対して、IM メッセージの内容をアーカイブすることができます。 詳細については、「計画」のドキュメントの「 [planning For アーカイビング In Lync Server 2013](lync-server-2013-planning-for-archiving.md) 」を参照してください。
 
-Microsoft Exchange Server 2013 が展開されている場合は、Exchange データのアーカイブを Lync Server データのアーカイブと統合することができます。また、単一のツールを使用して、両方の種類のアーカイブデータを検索することもできます。 詳細については、「microsoft [Lync server 2013 で Microsoft Exchange Server 2013 アーカイブを使用するように構成する](configuring-lync-server-2013-to-use-microsoft-exchange-server-2013-archiving.md)」を参照してください。
+Microsoft Exchange Server 2013 が展開されている場合は、Exchange データのアーカイブと Lync Server データのアーカイブを統合し、単一のツールを使用して両方の種類のアーカイブデータを検索することができます。 詳細については、microsoft [Exchange server 2013 アーカイブを使用するように Microsoft Lync Server 2013 を構成する](configuring-lync-server-2013-to-use-microsoft-exchange-server-2013-archiving.md)を参照してください。
 
 </div>
 

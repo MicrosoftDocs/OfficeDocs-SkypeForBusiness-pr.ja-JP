@@ -1,5 +1,5 @@
 ---
-title: 新しい Lync Server 2013 仲介サーバーを使用するようにボイスルートを変更する
+title: 新しい Lync Server 2013 仲介サーバーを使用するように音声ルートを変更する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -13,20 +13,20 @@ ms:contentKeyID: 48185069
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 40f9bed4262adcabdb23e5b5b85e7de43292d18b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c8edaf6c8d912e9784a0a3df6dfe27a45aa873e7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727557"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42003212"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="change-voice-routes-to-use-the-new-lync-server-2013-mediation-server"></a>新しい Lync Server 2013 仲介サーバーを使用するようにボイスルートを変更する
+# <a name="change-voice-routes-to-use-the-new-lync-server-2013-mediation-server"></a>新しい Lync Server 2013 仲介サーバーを使用するように音声ルートを変更する
 
 </div>
 
@@ -36,37 +36,37 @@ ms.locfileid: "41727557"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-28_
+_**トピックの最終更新日:** 2012-09-28_
 
-この手順では、従来の Office Communications Server 2007 R2 仲介サーバーではなく、Lync Server 2013 仲介サーバーを使用するように、ボイスルートを変更します。
+この手順では、従来の Office Communications Server 2007 R2 仲介サーバーではなく、Lync Server 2013 仲介サーバーを使用するように音声ルートを変更します。
 
 <div>
 
-## <a name="to-change-the-voice-routes-to-use-the-new-mediation-server"></a>新しい仲介サーバーを使用するようにボイスルートを変更するには
+## <a name="to-change-the-voice-routes-to-use-the-new-mediation-server"></a>新しい仲介サーバーを使用するように音声ルートを変更するには
 
 1.  Lync Server 2013 コントロール パネル
 
-2.  左側のウィンドウで、[**音声ルーティング**]、[Route] の**順**に選択します。
+2.  左ウィンドウで、[**音声のルーティング**]、[**ルート**] の順に選択します。
 
-3.  [**新規**] をクリックして、新しいボイスルートを作成します。
+3.  [**新規**] をクリックして、新しい音声ルートを作成します。
 
 4.  次のフィールドに入力します。
     
-      - **名前**: ボイスルートのわかりやすい名前を入力します。 このドキュメントでは、 **W15PSTNRoute**を使用します。
+      - [**名前**]: 音声ルートのわかりやすい名前を入力します。このドキュメントでは、**W15PSTNRoute** を使用します。
     
-      - [ **Description (説明**): ボイスルートの短い説明を入力します。
+      - [**説明**]: 音声ルートの簡単な説明を入力します。
 
-5.  **関連するゲートウェイ**に到達するまで、残りのすべてのセクションをスキップします。 [**追加**] をクリックします。 新しいデフォルトゲートウェイを選択して、[ **OK]** をクリックします。
+5.  [**関連付けられているゲートウェイ**] より前の残りのすべてのセクションをスキップします。[**追加**] をクリックします。新しいデフォルト ゲートウェイを選択し、[**OK**] をクリックします。
 
-6.  [**関連する PSTN 使用**] で、[**選択**] をクリックします。
+6.  [**関連付けられている PSTN 使用法**] で、[**選択**] をクリックします。
 
-7.  **[PSTN 使用状況レコードの選択**] ページからレコード名を選び、[ **OK]** をクリックします。
+7.  [**PSTN 使用法レコードの選択**] ページで、レコードの名前を選択し、[**OK**] をクリックします。
 
-8.  [**新しいボイスルーティング**] ページで [ **OK** ] をクリックして、**ボイスルート**を作成します。
+8.  [**新規音声ルート**] ページで、[**OK**] をクリックして [**音声ルート**] を作成します。
 
-9.  [**音声ルーティング**] ページで、[**ルーティング**] を選びます。
+9.  [**音声のルーティング**] ページで、[**ルート**] を選択します。
 
-10. 新しく作成されたルートを一覧の一番上に移動して、[**コミット**] を選びます。
+10. 新しく作成されたルートを一覧の先頭に移動し、[**コミット**] を選択します。
 
 </div>
 

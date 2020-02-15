@@ -12,20 +12,20 @@ ms:contentKeyID: 48184674
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42cbc1429d4e27ee172dc1dacf6b86fa6ac243d9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 09a7a8a17e3431c382ce4f49534336d266bbaa13
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737807"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41998082"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="announcement-configuration-prerequisites-and-roles-in-lync-server-2013"></a>Lync Server 2013 のアナウンスの構成の前提条件と役割
+# <a name="announcement-configuration-prerequisites-and-roles-in-lync-server-2013"></a>Lync Server 2013 でのアナウンスの構成の前提条件と役割
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41737807"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-25_
+_**トピックの最終更新日:** 2013-02-25_
 
-"お知らせ" は、エンタープライズの音声通話管理機能です。 このトピックでは、アナウンスメントを構成するために必要な準備と、構成タスクを実行するために必要な役割の割り当てについて説明します。
+アナウンスメントは、エンタープライズ Voip の通話管理機能です。 このトピックでは、アナウンスを構成する前に行う必要のある内容と、構成タスクを実行するために必要な役割の割り当てについて説明します。
 
-このセクションでは、お知らせに関連する計画ドキュメントを読み取っていることを前提としています (「 [Lync Server 2013 の通話管理機能の計画](lync-server-2013-planning-for-call-management-features.md)」を参照してください)。
+このセクションでは、「アナウンスに関連する計画」のドキュメントを読んでいることを前提としています (「 [Lync Server 2013 の通話管理機能の計画](lync-server-2013-planning-for-call-management-features.md)」を参照してください)。
 
 <div>
 
-## <a name="announcement-configuration-prerequisites"></a>アナウンスメント構成の前提条件
+## <a name="announcement-configuration-prerequisites"></a>アナウンスの構成の前提条件
 
 アナウンスメントアプリケーションには、次のコンポーネントが必要です。
 
@@ -51,37 +51,37 @@ _**最終更新日:** 2013-02-25_
 
   - 応答グループ アプリケーション
 
-  - ファイルストア、オーディオファイルを保持する場合
+  - ファイル ストア (オーディオ ファイルを格納)
 
-エンタープライズボイスを展開すると、これらのすべてのコンポーネントが既定でインストールされます。
+これらのコンポーネントはすべて、エンタープライズ VoIP を展開するときに既定でインストールされます。
 
 </div>
 
 <div>
 
-## <a name="announcement-configuration-roles"></a>アナウンスメント構成ロール
+## <a name="announcement-configuration-roles"></a>アナウンスの構成の役割
 
-以下の管理ツールを使用して、お知らせを構成することができます。
+以下の管理ツールを使用してアナウンスを構成できます。
 
   - Lync Server コントロール パネル
 
   - Lync Server 管理シェル
 
-アナウンスメントアプリケーションを構成するには、次の管理者ロールのいずれかが必要です。
+アナウンスアプリケーションを構成するには、次の管理役割のいずれかが必要です。
 
-  - ****   この管理者の役割を CsVoiceAdministrator すると、お知らせの設定など、音声に関連するすべての設定とポリシーを作成、構成、管理できます。
+  - **CsVoiceAdministrator**   この管理者の役割は、アナウンス設定を含むすべての音声関連の設定とポリシーを作成、構成、および管理できます。
 
-  - **Csserveradministrator**   この管理者ロールは、サーバーとサービスの管理、監視、トラブルシューティング、すべてのアナウンスメント設定の構成を行うことができます。
+  - **Csserveradministrator**   この管理役割は、サーバーとサービスを管理、監視、およびトラブルシューティングし、すべてのアナウンス設定を構成できます。
 
-  - **Csadministrator**   この管理者ロールは、すべての管理タスクを実行し、すべての設定を変更することができます。
+  - **Csadministrator**   この管理者の役割は、すべての管理タスクを実行し、すべての設定を変更できます。
 
-  - **Csviewonlyadministrator**   この管理者ロールは展開の正常性を監視するために展開を表示できます。
+  - **Csviewonlyadministrator**   この管理役割は展開を表示して、展開の状態を監視できます。
 
 <div>
 
 
 > [!NOTE]  
-> 管理ユーザー権限の詳細については、計画ドキュメントの「 <A href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013 での役割ベースのアクセス制御の計画</A>」を参照してください。
+> 管理ユーザー権限の詳細については、「計画」のドキュメントの「 <A href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013 でのロールベースのアクセス制御の計画</A>」を参照してください。
 
 
 
@@ -94,10 +94,10 @@ _**最終更新日:** 2013-02-25_
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 でのエンタープライズボイスの展開](lync-server-2013-deploying-enterprise-voice.md)  
+[Lync Server 2013 でのエンタープライズ Voip の展開](lync-server-2013-deploying-enterprise-voice.md)  
 
 
-[Lync Server 2013 の通話管理機能の計画](lync-server-2013-planning-for-call-management-features.md)  
+[Lync Server 2013 での通話管理機能の計画](lync-server-2013-planning-for-call-management-features.md)  
   
 
 </div>

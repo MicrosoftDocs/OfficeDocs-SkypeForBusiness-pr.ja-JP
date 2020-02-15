@@ -1,5 +1,5 @@
 ---
-title: トポロジ ビルダーを使用して高可用性と障害回復を構成する
+title: トポロジビルダーを使用して高可用性と障害復旧を構成する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185113
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73bcd2c2892e4e121512ae852d5920d600af91ff
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fc0f47bf8e0a0aec5d2a2374decd79ce2bae77f2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743827"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007466"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="using-topology-builder-to-configure-high-availability-and-disaster-recovery-in-lync-server-2013"></a>Lync Server 2013 でトポロジ ビルダーを使用して高可用性と障害回復を構成する
+# <a name="using-topology-builder-to-configure-high-availability-and-disaster-recovery-in-lync-server-2013"></a>トポロジビルダーを使用して Lync Server 2013 での高可用性および障害復旧を構成する
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41743827"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-06_
+_**トピックの最終更新日:** 2012-10-06_
 
-[トポロジビルダー] で次の手順を実行して、常設チャットサーバーの高可用性と障害回復を構成します。
+[トポロジビルダー] で次の手順を実行して、常設チャットサーバーの高可用性および障害復旧を構成します。
 
-1.  ミラーデータベースとログ配布のセカンダリデータベース SQL Server ストアを追加します。
+1.  ミラーデータベースとログ配布セカンダリデータベース SQL Server ストアを追加します。
 
-2.  常設チャットサーバーサービスのプロパティを編集するには、次の操作を行います。
+2.  常設チャットサーバーサービスのプロパティを次のように編集します。
     
     1.  プライマリ データベースのミラーリングを有効にします。
     
     2.  プライマリミラー SQL Server ストアを追加します。
     
-    3.  SQL Server のログ配布データベースを有効にします。
+    3.  SQL Server ログ配布データベースを有効にします。
     
     4.  SQL Server ログ配布のセカンダリ SQL Server ストアを追加します。
     

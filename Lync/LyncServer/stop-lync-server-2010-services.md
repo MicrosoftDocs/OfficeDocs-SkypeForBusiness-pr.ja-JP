@@ -12,16 +12,16 @@ ms:contentKeyID: 49733796
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 630472c67c560438f37fa65607dc817782535963
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fe22268f7376b1744e5997a3f9916395109c9e39
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756031"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035663"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41756031"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-04_
+_**トピックの最終更新日:** 2012-10-04_
 
-Lync Server コントロールパネルを使用すると、特定のコンピューターで実行されているすべての Lync Server 2010 サービスを開始または停止したり、特定の Lync Server 2010 サービスを開始または停止することができます。
+Lync server コントロールパネルを使用して、特定のコンピューターで実行されているすべての Lync Server 2010 サービスを開始または停止したり、特定の Lync Server 2010 サービスを開始または停止したりすることができます。
 
 <div>
 
@@ -45,9 +45,9 @@ Lync Server コントロールパネルを使用すると、特定のコンピ�
 
 1.  [Lync Server コントロール パネル] を開きます。
 
-2.  左側のナビゲーションバーで、[**トポロジ**] をクリックし、[**状態**] をクリックします。
+2.  左側のナビゲーション バーで [**トポロジ**] をクリックし、[**状態**] をクリックします。
 
-3.  [**状態**] ページで、必要に応じて一覧を並べ替えて検索するか、開始または停止するサービスを実行しているコンピューターを検索して、それをクリックします。
+3.  [**状態**] ページで、必要に応じてリストを並べ替えるかまたは検索して、開始または停止するサービスを実行しているコンピューターを見つけ、クリックします。
 
 4.  [**アクション**] をクリックします。
 
@@ -61,13 +61,13 @@ Lync Server コントロールパネルを使用すると、特定のコンピ�
 
 1.  [Lync Server コントロール パネル] を開きます。
 
-2.  左側のナビゲーションバーで、[**トポロジ**] をクリックし、[**状態**] をクリックします。
+2.  左側のナビゲーション バーで [**トポロジ**] をクリックし、[**状態**] をクリックします。
 
-3.  [**状態**] ページで、必要に応じて一覧を並べ替えます。または、開始または停止するサービスを実行しているコンピューターを検索して、それをクリックします。
+3.  [**状態**] ページで、必要に応じて一覧を並べ替えるかまたは検索して、開始または停止するサービスを実行しているコンピューターを確認してクリックします。
 
 4.  [**プロパティ**] をクリックします。
 
-5.  必要に応じてサービスの一覧を並べ替え、開始または停止するサービスをクリックします。
+5.  必要に応じて、サービスのリストを並べ替え、開始または停止するサービスをクリックします。
 
 6.  [**アクション**] をクリックします。
 

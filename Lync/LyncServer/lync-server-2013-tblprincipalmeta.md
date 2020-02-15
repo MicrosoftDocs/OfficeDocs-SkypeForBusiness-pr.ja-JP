@@ -12,16 +12,16 @@ ms:contentKeyID: 48184648
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 848f4dc19ddf64c53c2dd30ae6ca4c8036b67c79
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3a3571cd93ae5d69fa4a432035284b9a752287b1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764097"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033686"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764097"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-12_
+_**トピックの最終更新日:** 2012-09-12_
 
 tblPrincipalMeta には、Active Directory ドメインサービスから更新する必要があるプリンシパルが含まれています。
 
-### <a name="columns"></a>行
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -50,51 +50,51 @@ tblPrincipalMeta には、Active Directory ドメインサービスから更新�
 <thead>
 <tr class="header">
 <th>列</th>
-<th>型</th>
+<th>種類</th>
 <th>説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>prinID</p></td>
-<td><p>int (null ではない)</p></td>
+<td><p>Tblprincipal.prinid</p></td>
+<td><p>NULL でない int</p></td>
 <td><p>プリンシパル ID。</p></td>
 </tr>
 <tr class="even">
 <td><p>prinAffiliationsDirty</p></td>
-<td><p>ビット、null ではない</p></td>
-<td><p>プリンシパルの所属を更新する必要がある場合は True。</p></td>
+<td><p>NULL でない bit</p></td>
+<td><p>プリンシパルの所属を最新の情報に更新する必要がある場合は True。</p></td>
 </tr>
 <tr class="odd">
-<td><p>Prin属性のダーティ</p></td>
-<td><p>ビット、null ではない</p></td>
-<td><p>プリンシパル属性を更新する必要がある場合は True。</p></td>
+<td><p>Prinattributes ダーティ</p></td>
+<td><p>NULL でない bit</p></td>
+<td><p>プリンシパル属性を最新の情報に更新する必要がある場合は True。</p></td>
 </tr>
 <tr class="even">
-<td><p>プリントが削除されました</p></td>
-<td><p>ビット、null ではない</p></td>
-<td><p>プリンシパルが削除された場合は True。</p></td>
+<td><p>prinDeleted</p></td>
+<td><p>NULL でない bit</p></td>
+<td><p>プリンシパルが削除されている場合は True。</p></td>
 </tr>
 <tr class="odd">
 <td><p>tryCount</p></td>
 <td><p>int</p></td>
-<td><p>これまでに発生した、AD DS からプリンシパルを更新しようとした回数。</p></td>
+<td><p>それまでに行われた AD DS からプリンシパルを更新する試行の数。</p></td>
 </tr>
 <tr class="even">
-<td><p>最終試用</p></td>
-<td><p>datetime</p></td>
-<td><p>プリンシパルを最新の状態に更新しようとしたときのタイムスタンプ。 更新をまだ実行していない場合は、null を指定できます。</p></td>
+<td><p>lastTry</p></td>
+<td><p>日付型</p></td>
+<td><p>プリンシパルを最新の情報に更新する最新の試行からのタイム スタンプ。最新の情報への更新をまだ試みていない場合は NULL になります。</p></td>
 </tr>
 <tr class="odd">
 <td><p>nextTry</p></td>
-<td><p>datetime</p></td>
-<td><p>スケジュールされている次回の更新のタイムスタンプ。 それ以降の更新がスケジュールされていない場合は、null を指定できます。</p></td>
+<td><p>日付型</p></td>
+<td><p>次にスケジュールされている最新の情報への更新のタイム スタンプ。最新の情報への更新がスケジュールされていない場合は NULL になります。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>機能
+### <a name="keys"></a>Keys
 
 <table>
 <colgroup>
@@ -109,12 +109,12 @@ tblPrincipalMeta には、Active Directory ドメインサービスから更新�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>prinID</p></td>
+<td><p>Tblprincipal.prinid</p></td>
 <td><p>主キー。</p></td>
 </tr>
 <tr class="even">
-<td><p>prinID</p></td>
-<td><p>TblPrincipal Id テーブルで参照される外部キー。</p></td>
+<td><p>Tblprincipal.prinid</p></td>
+<td><p>tblPrincipal.prinID テーブル内の参照による外部キー。</p></td>
 </tr>
 </tbody>
 </table>

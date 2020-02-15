@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 信頼できるアプリケーションの一覧を表示する'
+title: 'Lync Server 2013: 信頼されたアプリケーションの一覧を表示する'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185844
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3d5f9d112e045e753147f7fcffa875177a6feb0d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 16f1e202c1d7e60202b76d42f0104f372213597f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757501"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007216"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-a-list-of-trusted-applications-in-lync-server-2013"></a>Lync Server 2013 で信頼済みアプリケーションの一覧を表示する
+# <a name="view-a-list-of-trusted-applications-in-lync-server-2013"></a>Lync Server 2013 で信頼されたアプリケーションの一覧を表示する
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "41757501"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-21_
+_**トピックの最終更新日:** 2012-09-21_
 
-Lync Server 2013 コントロールパネルを使用して、Lync Server 2013 環境に展開した信頼済みアプリケーションの一覧を表示することができます。 信頼されたアプリケーションは、Lync Server 2013 によって信頼されている Microsoft ユニファイドコミュニケーションマネージ API (UCMA) 3.0 コア SDK に基づくアプリケーションです。 この信頼関係は、次の一覧にまとめられています。
+Lync server 2013 コントロールパネルを使用して、Lync Server 2013 環境に展開した信頼されたアプリケーションの一覧を表示できます。 信頼されたアプリケーションは、Lync Server 2013 によって信頼されている Microsoft 統合コミュニケーション Managed API (UCMA) 3.0 コア SDK に基づくアプリケーションです。 この信頼関係は、次の一覧に要約されています。
 
-  - 信頼されたアプリケーションは、Lync Server による認証の対象にはなりません。
+  - 信頼されたアプリケーションは、Lync Server による認証にチャレンジされません。
 
-  - SIP トランザクション、接続、またはボイスオーバーインターネットプロトコル (VoIP) 通話の場合、信頼済みアプリケーションは Lync Server によって調整されません。
+  - 信頼されたアプリケーションは、SIP トランザクション、接続、または発信ボイスオーバー Ip (VoIP) 呼び出しで Lync Server によって調整されることはありません。
 
-  - 信頼されたアプリケーションは、選手名簿に表示されることなく、任意のユーザーを偽装し、会議に参加することができます。
+  - 信頼されたアプリケーションは、すべてのユーザーを偽装し、名簿に表示されることなく会議に参加できます。
 
-  - 信頼性の高いアプリケーションは、高可用性と回復性を備えています。
+  - 信頼されたアプリケーションは、高い可用性と復元性を備えています。
 
 Lync Server コントロールパネルには、アプリケーションの名前、実行されているプール、および使用しているポートが表示されます。
 
 <div>
 
-## <a name="to-view-a-list-of-trusted-applications"></a>信頼されているアプリケーションの一覧を表示するには
+## <a name="to-view-a-list-of-trusted-applications"></a>信頼されたアプリケーションの一覧を表示するには
 
-1.  CsServerAdministrator、CsAdministrator、CsHelpDesk、CsViewOnlyAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。 Lync Server 2013 で利用できる定義済みの管理者ロールの詳細については、「 [Lync server 2013 でのロールベースのアクセス制御の計画](lync-server-2013-planning-for-role-based-access-control.md)」を参照してください。
+1.  CsServerAdministrator、CsAdministrator、CsHelpDesk、または CsViewOnlyAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。 Lync Server 2013 で使用できる定義済みの管理者の役割の詳細については、「 [Lync server 2013 で役割ベースのアクセス制御を計画する](lync-server-2013-planning-for-role-based-access-control.md)」を参照してください。
 
-2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
-3.  左側のナビゲーションバーで、[**トポロジ**] をクリックし、[**信頼済みアプリケーション**] をクリックします。
+3.  左側のナビゲーションバーで、[**トポロジ**] をクリックし、[**信頼さ**れたアプリケーション] をクリックします。
 
-4.  [**信頼済みアプリケーション**] ページで、必要に応じて、アプリケーションを並べ替える列見出しをクリックします。
+4.  [**信頼さ**れたアプリケーション] ページで、必要に応じて列の見出しをクリックしてアプリケーションを並べ替えます。
 
 </div>
 

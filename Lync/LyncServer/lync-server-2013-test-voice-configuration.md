@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ボイス構成のテスト'
+title: 'Lync Server 2013: 音声構成のテスト'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 63969605
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9532327640be12351143632813d403edddf5c437
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2894d61a4dabd174315e24a225392bde7a893300
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746047"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42018208"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41746047"
 
 <span> </span>
 
-_**最終更新日:** 2014-05-20_
+_**トピックの最終更新日:** 2014-05-20_
 
 
 <table>
@@ -45,7 +45,7 @@ _**最終更新日:** 2014-05-20_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>確認のスケジュール</p></td>
+<td><p>検証スケジュール</p></td>
 <td><p>毎月</p></td>
 </tr>
 <tr class="even">
@@ -54,8 +54,8 @@ _**最終更新日:** 2014-05-20_
 </tr>
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
-<td><p>Lync Server 管理シェルを使用してローカルで実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使って実行する場合は、CsVoiceTestConfiguration コマンドレットを実行するためのアクセス許可が与えられている RBAC の役割をユーザーに割り当てる必要があります。 このコマンドレットを使うことができるすべての RBAC ロールの一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合は、Test-csvoicetestconfiguration コマンドレットを実行するためのアクセス許可を持つ RBAC の役割がユーザーに割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <p><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsVoiceTestConfiguration&quot;}</code></p></td>
 </tr>
 </tbody>
@@ -66,9 +66,9 @@ _**最終更新日:** 2014-05-20_
 
 ## <a name="description"></a>説明
 
-Lync Server には、複数の Windows PowerShell コマンドレット (CsVoiceRoute や CsVoicePolicy のテストなど) が含まれており、エンタープライズ Voip インフラストラクチャの個々の要素 (ボイスルーティング、音声) を確認できます。ポリシー、SIP trunks –期待どおりに機能しています。
+Lync Server には、いくつかの Windows PowerShell コマンドレット (Get-csvoiceroute、Set-csvoicepolicy、Get-cstrunkconfiguration など) が含まれています。これを使用すると、エンタープライズ Voip インフラストラクチャの個々の要素 (音声ルート、音声) を確認できます。ポリシー、SIP トランク–期待どおりに動作しています。
 
-エンタープライズ Voip では、個々の要素がすべて機能することが重要です。ただし、有効なボイスルート、有効な音声ポリシー、有効な SIP トランクを持っていても、ユーザーは電話をかけたり受けたりすることはできません。 そのため、Lync Server にはボイステスト構成を作成する機能もあります。 音声テスト構成は、一般的なエンタープライズ Voip シナリオを示します。このようなことは、ボイスルート、音声ポリシー、ダイヤルプランなどを指定できます。また、それらの項目が複数のユーザーが協力して電話サービスを提供できることを確認できます。 さらに、特定のシナリオで期待値を検証することもできます。 たとえば、ダイヤルプラン A とボイスポリシー B の組み合わせによって、ボイスルーティング C 経由で通話がルーティングされていると想定したとします。ボイスルーティング C を ExpectedRoute として入力できます。 テストを実行すると、voice route C が使用されていない場合、テストは失敗したとマークされます。
+個人のすべての要素が機能することはエンタープライズ Voip にとって重要ですが、有効な音声ルート、有効な音声ポリシー、および有効な SIP トランクを持つことができますが、ユーザーは通話を発信または受信できません。 そのため、Lync Server では音声テスト構成を作成することもできます。 音声テスト構成は、一般的なエンタープライズ Voip シナリオを表します。たとえば、音声ルート、音声ポリシー、ダイヤルプランなどを指定し、それらの各アイテムが連携して電話サービスを提供できるようにすることができます。 さらに、特定のシナリオで期待値を検証することもできます。 たとえば、ダイヤルプラン A と音声ポリシー B の組み合わせによって、呼び出しがボイスルート C を経由してルーティングされると想定しているとします。音声ルート C を ExpectedRoute として入力できます。 テストを実行すると、音声ルート C が使用されていない場合、テストは失敗したとしてマークされます。
 
 </div>
 
@@ -76,35 +76,35 @@ Lync Server には、複数の Windows PowerShell コマンドレット (CsVoice
 
 ## <a name="running-the-test"></a>テストの実行
 
-Windows PowerShell を使用してボイス構成コレクションをテストする前に、まず CsVoiceTestConfiguration コマンドレットを使用してこれらの構成設定のインスタンスを取得する必要があります。 その後、そのインスタンスを CsVoiceTestConfiguration にパイプする必要があります。 次に例を示します。
+Windows PowerShell を使用して音声構成コレクションをテストする前に、まず Test-csvoicetestconfiguration コマンドレットを使用してこれらの構成設定のインスタンスを取得する必要があります。 その後、そのインスタンスを Test-csvoicetestconfiguration にパイプ処理する必要があります。 例:
 
 `Get-CsVoiceTestConfiguration -Identity "RedmondVoiceTestConfiguration" | Test-CsVoiceTestConfiguration`
 
-すべての音声テストの構成設定を同時に検証するには、代わりに次のコマンドを使用します。
+すべての音声テスト構成設定を同時に検証するには、代わりに次のコマンドを使用します。
 
 `Get-CsVoiceTestConfiguration | Test-CsVoiceTestConfiguration`
 
-詳細については、「CsVoiceTestConfiguration コマンドレットのヘルプドキュメント」を参照してください。
+詳細については、Test-csvoicetestconfiguration コマンドレットのヘルプドキュメントを参照してください。
 
 </div>
 
 <div>
 
-## <a name="determining-success-or-failure"></a>成功または失敗を確認する
+## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
-CsVoiceTestConfiguration コマンドレットは、テストが失敗したか成功したかを報告し、タスクを完了するために使用された翻訳ルール、ボイスルーティング、PSTN の使用状況などの各テストの成功に関する追加情報を提供します。
+Test-csvoicetestconfiguration コマンドレットでは、テストが失敗したか成功したかを報告し、成功した各テストに関する追加情報を提供します。これには、タスクを完了するために使用される変換ルール、ボイスルート、および PSTN 使用法などがあります。
 
 結果: 成功
 
 TranslatedNumber: + 15551234
 
-MatchingRule: Description =;Pattern = ^ (\\d{4}) $;翻訳 = + 1\\d;Name = Test; IsInternalExtension = False
+MatchingRule: Description =;Pattern = ^ (\\d{4}) $;直線移動 = +\\1 d;Name = Test; IsInternalExtension = False
 
-FirstMatchingRoute: サイト: レドモンド
+FirstMatchingRoute: サイト: Redmond
 
-MatchingUsage: Local
+MatchingUsage: ローカル
 
-テストが失敗した場合、結果は Fail として報告されます。
+テストが失敗した場合、結果は失敗として報告されます。
 
 結果: Fail
 
@@ -118,9 +118,9 @@ MatchingUsage:      
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a>テストに失敗した可能性がある理由
+## <a name="reasons-why-the-test-might-have-failed"></a>テストが失敗した理由
 
-ボイステスト構成テストでは、ボイスポリシー、ダイヤルプラン、音声ルートなど、さまざまな項目をテストするため、テストが失敗する原因となる可能性のある要素がいくつかあります。 テストに失敗した場合は、最初の手順として、CsVoiceTestConfiguration コマンドレットを使用して構成設定を確認する必要があります。
+音声テスト構成テストでは、音声ポリシー、ダイヤルプラン、音声ルートなど、いくつかの異なるアイテムがテストされるため、テストに失敗する可能性があるさまざまな要因があります。 テストが失敗した場合は、最初の手順として、Test-csvoicetestconfiguration コマンドレットを使用して構成設定を確認する必要があります。
 
 `Get-CsVoiceTestConfiguration -Identity "RedmondVoiceTestConfiguration"`
 
@@ -128,15 +128,15 @@ MatchingUsage:      
 
 `Get-CsVoiceTestConfiguration -Identity "RedmondVoiceTestConfiguration" | Test-CsVoiceTestConfiguration`
 
-Verbose パラメーターは、次の例に示すように、CsVoiceTestConfiguration によって実行される各アクションのステップバイステップのアカウントを提供します。
+Verbose パラメーターは、次の例に示すように、Test-csvoicetestconfiguration によって実行される各アクションのステップバイステップのアカウントを提供します。
 
-詳細: ダイヤルプランの読み込み: "グローバル"
+VERBOSE: ダイヤルプランの読み込み: "グローバル"
 
-詳細: 音声ポリシーを読み込み中: "RedmondDialPlan"
+VERBOSE: 音声ポリシーの読み込み: "RedmondDialPlan"
 
-このステップバイステップのアカウントでは、テストが実際に失敗した場所について、役に立つ手掛かりを提供する場合があります。 それ以外の場合は、Windows PowerShell コマンドレット (CsVoicePolicy など) を使用して、ボイステスト構成の設定に含まれている個々のコンポーネントの確認を系統的に開始できます。
+このステップごとのアカウントでは、テストが実際に失敗した場所について有用な手掛かりが提供されることがあります。 それ以外の場合は、他の Windows PowerShell コマンドレット (Set-csvoicepolicy など) を使用し、入念に開始して、音声テスト構成設定に含まれている個々のコンポーネントを確認できます。
 
-これに加えて、テストによって通話のルーティングが可能で、まだエラーとしてマークされている場合もあります。これは、ExpectedRoute、ExpectedTranslatedNumber、ExpectedUsage の値を入力した場合に発生する可能性があります。これらの期待値は満たされません。 たとえば、予想されるボイスルートとして「ボイスルーティング C」と入力しても、テストではボイスルーティング D を使って通話を完了しているとします。その場合、予期されるボイスルートが使用されなかったため、テストは失敗としてマークされます。 テストが失敗した場合は、ExpectedRoute、ExpectedTranslatedNumber、ExpectedUsage の値を削除して、テストを再実行することができます。 これは、通話が完了できなかったこと、または1つの問題が発生して、実際に他のユーザーが受信したためにエラーが発生したかどうかを判断するのに役立ちます。
+それに加えて、テストで呼び出しをルーティングでき、まだエラーとしてマークされている場合もあることに注意してください。これは、ExpectedRoute、ExpectedTranslatedNumber、および ExpectedUsage の値を入力し、これらの期待値が満たされていない場合に発生する可能性があります。 たとえば、予想される音声ルートとして音声ルート C を入力したものの、テストではボイスルート D を使用して通話を実際に完了したとします。その場合、予想される音声ルートが使用されていなかったため、テストは失敗としてマークされます。 テストが失敗した場合は、ExpectedRoute、ExpectedTranslatedNumber、および ExpectedUsage の値を削除してからテストを再実行することができます。 これは、呼び出しが完了できなかったこと、または1つの問題が発生して実際に別のものを受信したことが原因でエラーが発生したかどうかを判断するのに役立ちます。
 
 </div>
 
@@ -145,7 +145,7 @@ Verbose パラメーターは、次の例に示すように、CsVoiceTestConfigu
 ## <a name="see-also"></a>関連項目
 
 
-[テスト-CsVoiceTestConfiguration](https://docs.microsoft.com/powershell/module/skype/Test-CsVoiceTestConfiguration)  
+[Test-csvoicetestconfiguration](https://docs.microsoft.com/powershell/module/skype/Test-CsVoiceTestConfiguration)  
   
 
 </div>

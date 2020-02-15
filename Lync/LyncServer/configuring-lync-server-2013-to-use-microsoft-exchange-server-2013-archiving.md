@@ -12,16 +12,16 @@ ms:contentKeyID: 49557731
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b163b0ce3324455f8a80eca7be5c1423b302a3d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1ed9152727f3a2247386e84386fb9e0f90620117
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723187"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006543"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,45 +35,45 @@ ms.locfileid: "41723187"
 
 <span> </span>
 
-_**最終更新日:** 2014-06-24_
+_**トピックの最終更新日:** 2014-06-24_
 
-Microsoft Lync Server 2013 を使用すると、管理者は、インスタントメッセージと Web 会議のトランスクリプトを SQL Server データベースではなく、ユーザーの Microsoft Exchange Server 2013 メールボックスにアーカイブするオプションが提供されます。 管理者がこのオプションを有効にすると、トランスクリプトはユーザーのメールボックスの Purges フォルダーに書き込まれます。 Purges フォルダーは、Recoverable Items フォルダーにある隠しフォルダーです。 このフォルダーは、エンドユーザーには表示されませんが、Exchange のメールボックス検索や Microsoft SharePoint Server 2013 を使用すると、フォルダーは Exchange 検索エンジンによってインデックス処理され、検出できます。 情報は、Exchange のインプレースホールド機能で使用されているものと同じフォルダー (メールのアーカイブおよびその他の Exchange 通信を担当します) に保存されているため、管理者は、1つのツールを使用してアーカイブされているすべての電子通信を検索することができます。ユーザーズ.
+Microsoft Lync Server 2013 を使用すると、管理者は、インスタントメッセージングと Web 会議のトランスクリプトを SQL Server データベースではなく、ユーザーの Microsoft Exchange Server 2013 メールボックスにアーカイブすることができます。 管理者がこのオプションを有効にすると、トランスクリプトはユーザーのメールボックスの Purges フォルダーに書き込まれます。 Purges フォルダーは、Recoverable Items フォルダーにある隠しフォルダーです。 このフォルダーはエンドユーザーには表示されませんが、フォルダーは Exchange 検索エンジンによってインデックスが作成され、Exchange メールボックスの検索や Microsoft SharePoint Server 2013 を使用して検出できます。 情報は、Exchange のインプレース保持機能 (メールのアーカイブとその他の Exchange 通信を担当する) で使用されるものと同じフォルダーに格納されているため、管理者は1つのツールを使用してアーカイブされたすべての電子通信を検索できます。マニュアル.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Lync の会話のアーカイブを完全に無効にするには、Lync の会話履歴も無効にする必要があります。 詳細については、次のトピックを参照してください。 <A href="lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md">Lync Server 2013 での内部および外部通信のアーカイブの管理</A>、<A href="https://docs.microsoft.com/powershell/module/skype/New-CsClientPolicy">新しい-csclientpolicy</A>、および<A href="https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy">Set csclientpolicy</A>。
+> Lync 会話のアーカイブを完全に無効にするには、Lync 会話履歴も無効にする必要があります。 詳細については、以下のトピックを参照してください。 Lync Server 2013、 <A href="https://docs.microsoft.com/powershell/module/skype/New-CsClientPolicy">New-CsClientPolicy</A>、および<A href="https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy">Set-csclientpolicy</A><A href="lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md">で、内部通信と外部通信のアーカイブを管理</A>する。
 
 
 
 </div>
 
-Exchange 2013 にトランスクリプトをアーカイブするには、最初に2つのサーバー間でサーバー間認証を構成する必要があります。 サーバー間認証が行われたら、Microsoft Lync Server 2013 で次のタスクを実行できます (ただし、セットアップと構成によっては、これらのすべてのタスクを完了する必要がない場合があることに注意してください)。
+Exchange 2013 にトランスクリプトをアーカイブするには、2つのサーバー間でサーバー間認証を構成することから始める必要があります。 サーバー間認証が行われた後、Microsoft Lync Server 2013 で次のタスクを実行できます (セットアップと構成によっては、これらのタスクをすべて完了する必要がない場合があることに注意してください)。
 
-1.  Lync Server のアーカイブ構成設定を変更して、Exchange のアーカイブを有効にします。 この手順はすべての展開で必要です。
+1.  Lync Server アーカイブ構成設定を変更して、Exchange アーカイブを有効にします。 この手順はすべての展開で必要です。
 
 2.  ユーザーの内部通信と外部通信のどちらかまたは両方のアーカイブを有効にします。 この手順はすべての展開で必要です。
 
-3.  各ユーザーの ExchangeArchivingPolicy プロパティを構成します。 この手順は、Lync Server でのみ必要であり、Exchange は異なるフォレストに配置されています。
+3.  各ユーザーの ExchangeArchivingPolicy プロパティを構成します。 この手順は、Lync Server でのみ必要であり、Exchange が異なるフォレストに配置されています。
 
 <div>
 
-## <a name="step-1-enabling-exchange-archiving"></a>手順 1: Exchange のアーカイブを有効にする
+## <a name="step-1-enabling-exchange-archiving"></a>手順 1: Exchange アーカイブを有効にする
 
-Lync Server のアーカイブは、主にアーカイブ構成設定を使用して管理されます。 Lync Server 2013 をインストールすると、次の設定のグローバルコレクションが自動的に作成されます。 (管理者は、必要に応じて、サイトのスコープでアーカイブ設定の新しいコレクションを作成することができます)。既定では、グローバル設定ではアーカイブが有効になっていません。また、これらの設定では Exchange アーカイブが有効になっていません。 Exchange アーカイブ管理者を使用するには、これらの構成設定で EnableArchiving と Enableexchangeアーカイブの両方のプロパティを設定する必要があります。 EnableArchiving プロパティは、次の3つの値のいずれかに設定できます。
+Lync Server でのアーカイブは、主にアーカイブ構成設定を使用して管理されます。 Lync Server 2013 をインストールすると、これらの設定の単一のグローバルコレクションが自動的に割り当てられます。 (必要に応じて、管理者はサイトスコープでアーカイブ設定の新しいコレクションを作成できます)。既定では、グローバル設定でアーカイブが有効になっていません。また、これらの設定では Exchange アーカイブが有効になっていません。 Exchange アーカイブ管理者を使用するには、これらの構成設定で EnableArchiving と Enableexchangeアーカイビングプロパティの両方を構成する必要があります。 EnableArchiving プロパティには、次の3つの値のいずれかを設定できます。
 
-  - **なし**。 アーカイブが無効になっています。 これは既定の値です。 EnableArchiving が None に設定されている場合、Lync Server アーカイブデータベースまたは Exchange 2013 には何もアーカイブされません。
+  - **なし**。 アーカイブが無効になっています。 これは既定の値です。 EnableArchiving が [なし] に設定されている場合は、Lync Server アーカイブデータベースまたは Exchange 2013 のいずれかにアーカイブされません。
 
-  - **Imonly**。 インスタントメッセージのトランスクリプトのみがアーカイブされます。 Exchange アーカイブが有効になっている場合、これらのトランスクリプトは Exchange 2013 にアーカイブされます。 Exchange アーカイブが無効になっている場合、これらのトランスクリプトは Lync Server にアーカイブされます。
+  - **Imonly**。 インスタントメッセージのトランスクリプトのみがアーカイブされます。 Exchange アーカイブが有効になっている場合、これらのトランスクリプトは Exchange 2013 にアーカイブされます。 Exchange のアーカイブが無効になっている場合、これらのトランスクリプトは Lync Server にアーカイブされます。
 
-  - **Imandwebconf**。 インスタントメッセージのトランスクリプトと Web 会議のトランスクリプトは両方ともアーカイブされます。 Exchange アーカイブが有効になっている場合、これらのトランスクリプトは Exchange 2013 にアーカイブされます。 Exchange アーカイブが無効になっている場合、これらのトランスクリプトは Lync Server にアーカイブされます。
+  - **Imandwebconf**。 インスタントメッセージのトランスクリプトと Web 会議のトランスクリプトは、両方ともアーカイブされます。 Exchange アーカイブが有効になっている場合、これらのトランスクリプトは Exchange 2013 にアーカイブされます。 Exchange のアーカイブが無効になっている場合、これらのトランスクリプトは Lync Server にアーカイブされます。
 
-EnableExchangeArchiving プロパティは、"EnableExchangeArchiving を True ($True)" に設定して Exchange アーカイブを有効にするか、EnableExchangeArchiving を False ($False) に設定して Exchange のアーカイブを無効にすることができます。 たとえば、次のコマンドを実行すると、インスタントメッセージのトランスクリプトがアーカイブされ、Exchange アーカイブも有効になります。
+EnableExchangeArchiving プロパティは、ブール値です。 EnableExchangeArchiving を True ($True) に設定して、Exchange アーカイブを有効にするか、EnableExchangeArchiving を False ($False) に設定して Exchange アーカイブを無効にします。 たとえば、次のコマンドを実行すると、インスタントメッセージングトランスクリプトのアーカイブが有効になり、Exchange アーカイブも有効になります。
 
     Set-CsArchivingConfiguration -Identity "global" -EnableArchiving ImOnly -EnableExchangeArchiving $True
 
-Exchange アーカイブを無効にするには、次のようなコマンドを使用します。これにより、インスタントメッセージアーカイブは有効になりますが、Exchange へのアーカイブは無効になります (つまり、トランスクリプトは Lync Server にアーカイブされます)。
+Exchange アーカイブを無効にするには、次のようなコマンドを使用します。これにより、インスタントメッセージングアーカイブは有効になりますが、Exchange へのアーカイブが無効になります (つまり、トランスクリプトは Lync Server にアーカイブされます)。
 
     Set-CsArchivingConfiguration -Identity "global" -EnableArchiving ImOnly -EnableExchangeArchiving $False
 
@@ -81,21 +81,21 @@ Exchange アーカイブを無効にするには、次のようなコマンド�
 
 
 > [!NOTE]  
-> EnableArchiving プロパティが None に設定されている場合、Lync Server では、インスタントメッセージングと Web 会議のトランスクリプトはまったくアーカイブされません。 この場合、サーバーは単に EnableExchangeArchiving に構成されている値を無視します。
+> EnableArchiving プロパティが None に設定されている場合、Lync Server はインスタントメッセージングと Web 会議のトランスクリプトをまったくアーカイブしません。 この場合、サーバーは単に EnableExchangeArchiving に構成されている値を無視します。
 
 
 
 </div>
 
-Exchange アーカイブは、Lync Server コントロールパネルを使用して有効 (または無効) にすることもできます。 この操作を行うには、次の手順を実行します。
+Exchange アーカイブは、Lync Server コントロールパネルを使用して有効または無効にすることもできます。 これを行うには、次の手順を実行します。
 
 1.  コントロール パネルで、[**監視およびアーカイブ**] をクリックし、[**アーカイブ構成**] をクリックします。
 
 2.  [**アーカイブ構成**] タブで、変更するアーカイブ設定のコレクション ([**グローバル**] コレクションなど) をダブルクリックします。
 
-3.  [**編集アーカイブ設定**] ウィンドウで、[**アーカイブ設定**] ドロップダウン リストをクリックし、[**IM セッションをアーカイブする**] (インスタント メッセージング セッションのみをアーカイブする場合) または [**IM および Web 会議セッションをアーカイブする**] (インスタント メッセージング セッションと Web 会議セッションの両方をアーカイブする場合) のどちらかを選択します。
+3.  [**編集 アーカイブ設定**] ウィンドウで、[**アーカイブ設定**] ドロップダウン リストをクリックし、[**IM セッションをアーカイブする**] (インスタント メッセージング セッションのみをアーカイブする場合) または [**IM および Web 会議セッションをアーカイブする**] (インスタント メッセージング セッションと Web 会議セッションの両方をアーカイブする場合) のどちらかを選択します。
 
-4.  アーカイブする項目を選んだら、[ **Exchange Server 統合**] チェックボックスをオンにして、exchange アーカイブを有効にします。 Exchange のアーカイブを無効にするには、このチェックボックスをオフにします。
+4.  アーカイブするアイテムを選択した後、[ **Exchange Server 統合**] チェックボックスをオンにして、exchange アーカイブを有効にします。 Exchange アーカイブを無効にするには、このチェックボックスをオフにします。
 
 <div>
 
@@ -107,9 +107,9 @@ Exchange アーカイブは、Lync Server コントロールパネルを使用�
 
 </div>
 
-Lync Server 2013 と Exchange 2013 が同じフォレストに配置されている場合、個々のユーザー (または少なくとも Exchange 2013 のメールアカウントを持つユーザー) のアーカイブは、Exchange のインプレースホールドポリシーを使用して管理されます。 以前のバージョンの Exchange を使用しているユーザーがいる場合、そのユーザーのアーカイブは Lync Server のアーカイブポリシーを使って管理されます。 Exchange 2013 上のアカウントを持つユーザーのみが、Lync のトランスクリプトを Exchange にアーカイブすることができます。
+Lync Server 2013 と Exchange 2013 が同じフォレストに存在する場合、個々のユーザー (または少なくとも Exchange 2013 の電子メールアカウントを持つユーザー) のアーカイブは、Exchange のインプレース保持ポリシーを使用して管理されます。 以前のバージョンの Exchange に所属しているユーザーがいる場合は、それらのユーザーのアーカイブが Lync Server アーカイブポリシーを使用して管理されます。 Exchange 2013 上のアカウントを持つユーザーのみが、Lync トランスクリプトを Exchange にアーカイブできることに注意してください。
 
-Lync Server 2013 と Exchange 2013 が異なるフォレストに配置されている場合、個々のユーザー用のアーカイブは、個々のユーザーアカウントの ExchangeArchivingPolicy プロパティを構成することによって管理されます。 詳細については、手順3を参照してください。
+Lync Server 2013 と Exchange 2013 が異なるフォレストに配置されている場合は、個々のユーザーアカウントの ExchangeArchivingPolicy プロパティを構成することによって、個々のユーザーのアーカイブを管理できます。 詳細については、手順3を参照してください。
 
 </div>
 
@@ -117,13 +117,13 @@ Lync Server 2013 と Exchange 2013 が異なるフォレストに配置されて
 
 ## <a name="step-2-enabling-the-archiving-of-internal-andor-external-communications"></a>手順 2: 内部通信と外部通信のどちらかまたは両方のアーカイブを有効にする
 
-アーカイブ (および Exchange のアーカイブ) を有効にした後、適切なアーカイブポリシーを変更して、ユーザーセッションが実際にアーカイブされることを確認する必要があります。 アーカイブを有効にする (手順 1) と、Lync Server でインスタントメッセージングと Web 会議のトランスクリプトのアーカイブが開始されないことに注意してください。 このため、アーカイブ ポリシーを使用して内部通信と外部通信のどちらかまたは両方のアーカイブを有効にする必要があります。 Lync Server 2013 をインストールする場合は、次の2つのプロパティを含む単一のグローバルアーカイブポリシーもインストールします。
+アーカイブ (および Exchange アーカイブ) を有効にした後、適切なアーカイブポリシーを変更して、ユーザーセッションが実際にアーカイブされるようにする必要があります。 アーカイブを有効にする (手順 1) だけでは、Lync Server でインスタントメッセージングと Web 会議のトランスクリプトのアーカイブが開始されることはありません。 このため、アーカイブ ポリシーを使用して内部通信と外部通信のどちらかまたは両方のアーカイブを有効にする必要があります。 Lync Server 2013 をインストールするときは、次の2つのプロパティを含む単一のグローバルなアーカイブポリシーもインストールします。
 
   - **ArchiveInternal**: True ($True) に設定すると、組織の Active Directory アカウントを持つユーザーのみが参加している内部通信セッションがアーカイブされます。
 
   - **ArchiveExternal**: True ($True) に設定すると、内部通信セッション (組織の Active Directory アカウントを持たないユーザーが少なくとも 1 人参加しているセッション) がアーカイブされます。
 
-既定では、これらのプロパティの値はどちらも False に設定されており、内部通信セッションも外部通信セッションもアーカイブされません。 グローバルポリシーを変更するには、Lync Server 管理シェルと CsArchivingPolicy コマンドレットを使用します。 次のコマンドを実行すると、内部通信セッションと外部通信セッションの両方のアーカイブが有効になります。
+既定では、これらのプロパティの値はどちらも False に設定されており、内部通信セッションも外部通信セッションもアーカイブされません。 グローバルポリシーを変更するには、Lync Server 管理シェルと Grant-csarchivingpolicy コマンドレットを使用できます。 次のコマンドを実行すると、内部通信セッションと外部通信セッションの両方のアーカイブが有効になります。
 
     Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True -ArchiveExternal $True
 
@@ -135,7 +135,7 @@ Lync Server 2013 と Exchange 2013 が異なるフォレストに配置されて
 
     Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName  "RedmondArchivingPolicy"
 
-また、アーカイブポリシーは、Lync Server コントロールパネルを使用して管理することもできます。 コントロール パネル内で、[**監視およびアーカイブ**] をクリックし、[**アーカイブ ポリシー**] をクリックします。 既存のポリシーを変更するには、ポリシー ([グローバル] など) をダブルクリックし、[**アーカイブ ポリシーの編集**] ウィンドウで、[**内部通信をアーカイブする**] および [**外部通信をアーカイブする**] チェック ボックスを必要に応じてオンまたはオフにします。 新しいアーカイブポリシーを作成するには、[**新規**] をクリックし、[**サイトポリシー** ] または [**ユーザーポリシー**] を選びます。 新しいユーザー ポリシーを作成した場合は、適切なユーザー アカウントに ([**ユーザー**] タブから) アクセスし、ユーザーに新しいポリシーを割り当てる必要があります。
+また、アーカイブポリシーは、Lync Server コントロールパネルを使用して管理することもできます。 コントロール パネル内で、[**監視およびアーカイブ**] をクリックし、[**アーカイブ ポリシー**] をクリックします。 既存のポリシーを変更するには、ポリシー ([グローバル] など) をダブルクリックし、[**アーカイブ ポリシーの編集**] ウィンドウで、[**内部通信をアーカイブする**] および [**外部通信をアーカイブする**] チェック ボックスを必要に応じてオンまたはオフにします。 新しいアーカイブポリシーを作成するには、[**新規**] をクリックし、[**サイトポリシー** ] または [**ユーザーポリシー**] を選択します。 新しいユーザー ポリシーを作成した場合は、適切なユーザー アカウントに ([**ユーザー**] タブから) アクセスし、ユーザーに新しいポリシーを割り当てる必要があります。
 
 </div>
 
@@ -143,17 +143,17 @@ Lync Server 2013 と Exchange 2013 が異なるフォレストに配置されて
 
 ## <a name="step-3-configuring-the-exchangearchivingpolicy-property"></a>手順 3: ExchangeArchivingPolicy プロパティを構成する
 
-Lync Server 2013 と Exchange 2013 が異なるフォレストにある場合は、アーカイブ構成設定で Exchange アーカイブを有効にするだけでは十分ではありません。これにより、インスタントメッセージと Web 会議のトランスクリプトは Exchange にアーカイブされません。 代わりに、関連する各 Lync Server ユーザーアカウントの ExchangeArchivingPolicy プロパティも構成する必要があります。 このプロパティは、次の4つの値のいずれかに設定できます。
+Lync Server 2013 と Exchange 2013 が異なるフォレストに配置されている場合は、アーカイブ構成設定で Exchange アーカイブを有効にできるだけではありません。これにより、インスタントメッセージングと Web 会議のトランスクリプトは Exchange にアーカイブされません。 代わりに、各関連する Lync Server ユーザーアカウントで ExchangeArchivingPolicy プロパティを構成する必要もあります。 このプロパティには、次の4つの値のいずれかを設定できます。
 
-1.  Uninitialized: ユーザーの nm-exch-15-short メールボックスに対して構成されているインプレース保持設定に基づいてアーカイブが行われます。 アーカイブが、ユーザーの Exchange メールボックスに対して構成されているインプレースホールド設定に基づいていることを示します。ユーザーのメールボックスでインプレース保持が有効になっていない場合、ユーザーは、そのユーザーのメッセージングと Web 会議の議事録を Lync Server にアーカイブします。
+1.  ない. アーカイブが、ユーザーの Exchange メールボックスに対して構成されたインプレース保持の設定に基づいて行われることを示します。ユーザーのメールボックスでインプレースホールドが有効になっていない場合、ユーザーには、そのユーザーのメッセージングと Web 会議のトランスクリプトが Lync Server にアーカイブされます。
 
-2.  **UseLyncArchivingPolicy**。 ユーザーのインスタントメッセージングと Web 会議のトランスクリプトを、Exchange ではなく Lync Server にアーカイブする必要があることを示します。
+2.  **UseLyncArchivingPolicy**。 ユーザーのインスタントメッセージングおよび Web 会議のトランスクリプトを Exchange ではなく Lync Server にアーカイブする必要があることを示します。
 
-3.  **Noarchiving**。 ユーザーのインスタントメッセージングと Web 会議のトランスクリプトがまったくアーカイブされないことを示します。 この設定は、ユーザーに割り当てられている Lync Server アーカイブポリシーよりも優先されることに注意してください。
+3.  **Noarchiving**。 ユーザーのインスタントメッセージングと Web 会議のトランスクリプトをまったくアーカイブしないことを示します。 この設定は、ユーザーに割り当てられた Lync Server アーカイブポリシーよりも優先されることに注意してください。
 
-4.  **ArchivingToExchange**。 ユーザーのインスタントメッセージングおよび Web 会議のトランスクリプトが、ユーザーのメールボックスに割り当てられている (または使用されていない) インプレースホールドの設定に関係なく、Exchange にアーカイブされることを示します。
+4.  **ArchivingToExchange**。 ユーザーのメールボックスに割り当てられている (またはしていない) インプレース保持の設定に関係なく、ユーザーのインスタントメッセージングおよび Web 会議のトランスクリプトを Exchange にアーカイブする必要があることを示します。
 
-たとえば、インスタントメッセージングと Web 会議のトランスクリプトが常に Exchange にアーカイブされるようにユーザーアカウントを構成するには、次のようなコマンドを Lync Server 管理シェルから使うことができます。
+たとえば、インスタントメッセージングと Web 会議のトランスクリプトを常に Exchange にアーカイブするようにユーザーアカウントを構成するには、Lync Server 管理シェルから次のようなコマンドを使用できます。
 
     Set-CsUser -Identity "Ken Myer" -ExchangeArchivingPolicy ArchivingToExchange
 
@@ -161,7 +161,7 @@ Lync Server 2013 と Exchange 2013 が異なるフォレストにある場合は
 
     Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.litwareinc.com"} | Set-CsUser -ExchangeArchivingPolicy ArchivingToExchange
 
-ExchangeArchivingPolicy プロパティの値を構成するためには、Lync Server 管理シェル (および Windows PowerShell) を使用する必要があることに注意してください。 このプロパティは、Lync Server コントロールパネルの管理者には公開されません。
+ExchangeArchivingPolicy プロパティの値を構成するには、Lync Server 管理シェル (および Windows PowerShell) を使用する必要があることに注意してください。 このプロパティは、Lync Server コントロールパネルの管理者には公開されません。
 
 特定のアーカイブ ポリシーを割り当てられているすべてのユーザーの一覧を表示するには、次のようなコマンドを使用します。このコマンドを実行すると、ExchangeArchivingPolicy プロパティが Uninitialized に設定されているすべてのユーザーの Active Directory 表示名が取得されます。
 

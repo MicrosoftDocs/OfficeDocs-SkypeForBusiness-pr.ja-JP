@@ -12,16 +12,16 @@ ms:contentKeyID: 48185100
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 89d7caadc6ccc4bd7c1030a3e7020129be14a68f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6c1fcd4422ca855e7247c57d07887b9df20ea695
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738767"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006965"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,31 +35,31 @@ ms.locfileid: "41738767"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-06_
+_**トピックの最終更新日:** 2012-10-06_
 
-Lync Server 2013 コントロールパネル、または Windows PowerShell コマンドレットを使用して、常設チャット管理者は**常設チャット**ページを使用して、カテゴリとアドインを作成することができます。常設チャットルームを管理するために、管理者は Windows PowerShell コマンドレットを使うことができます。 または、常設チャットの管理者も SIP 対応の場合は、Lync クライアントを使って web ページを起動し、チャットルームを作成して管理することができます。
+Lync Server 2013 コントロールパネル、または Windows PowerShell コマンドレットを使用すると、常設チャット管理者は**常設チャット**ページを使用してカテゴリとアドインを作成できます。常設チャットルームを管理するために、管理者は Windows PowerShell コマンドレットを使用できます。 別の方法として、常設チャット管理者も SIP を有効にしている場合は、Lync クライアントを使用して、チャットルームを作成して管理するための web ページを起動することができます。
 
-次のトピックでは、カテゴリとチャットルームを作成して操作する方法について説明します。
+以下のトピックでは、カテゴリおよびチャット ルームを作成して使用する方法について説明します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
   - [Lync Server 2013 での新しいカテゴリの作成または編集](lync-server-2013-creating-or-editing-a-new-category.md)
 
-  - [Lync Server 2013 での新しいチャット ルームの作成または編集](lync-server-2013-creating-or-editing-a-new-room.md)
+  - [Lync Server 2013 での新しい会議室の作成または編集](lync-server-2013-creating-or-editing-a-new-room.md)
 
   - [Lync Server 2013 でのルーム用の新しいアドインの作成](lync-server-2013-creating-new-add-ins-for-rooms.md)
 
-  - [Lync Server 2013 での大会議室のチャット ルームでメッセージを投稿できるユーザーの設定](lync-server-2013-setting-who-can-post-messages-in-an-auditorium-chat-room.md)
+  - [Lync Server 2013 の大会議室のチャットルームでメッセージを投稿できるユーザーの設定](lync-server-2013-setting-who-can-post-messages-in-an-auditorium-chat-room.md)
 
-  - [Lync Server 2013 でのチャット ルームの無効化または有効化](lync-server-2013-disabling-or-enabling-a-chat-room.md)
+  - [Lync Server 2013 でのチャットルームの無効化または有効化](lync-server-2013-disabling-or-enabling-a-chat-room.md)
 
-  - [Lync Server 2013 での 1 つのカテゴリから他のカテゴリへのチャット ルームの移動](lync-server-2013-moving-a-chat-room-from-one-category-to-another.md)
+  - [Lync Server 2013 での1つのカテゴリから別のカテゴリへのチャットルームの移動](lync-server-2013-moving-a-chat-room-from-one-category-to-another.md)
 
-  - [Lync Server 2013 でのチャット ルームまたはカテゴリの削除](lync-server-2013-deleting-a-chat-room-or-category.md)
+  - [Lync Server 2013 でのチャットルームまたはカテゴリの削除](lync-server-2013-deleting-a-chat-room-or-category.md)
 
-  - [Lync Server 2013 でのメッセージの削除または廃止メッセージの削除](lync-server-2013-deleting-a-message-or-purging-obsolete-messages.md)
+  - [Lync Server 2013 でのメッセージの削除または廃止されたメッセージの削除](lync-server-2013-deleting-a-message-or-purging-obsolete-messages.md)
 
 </div>
 

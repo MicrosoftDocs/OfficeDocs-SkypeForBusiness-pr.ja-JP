@@ -12,16 +12,16 @@ ms:contentKeyID: 48184157
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b5251abe8519d4d4560df57c7d7e70e5d4773c47
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6fe0594d9ab6eb27d38d41df1f71cf25d53b350d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763781"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008369"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41763781"
 
 <span> </span>
 
-_**最終更新日:** 2012-08-21_
+_**トピックの最終更新日:** 2012-08-21_
 
-特別なネットワークルーターなど、追加のインフラストラクチャ要件は必要ありません。 Lync Server 2013 を展開すると、通話受付制御 (CAC) ポリシーを適用するために使用される帯域幅ポリシーサービスが自動的にインストールされます。 通話受付制御は、Lync を実行しているクライアントでのみ動作します。
+特殊なネットワーク ルーターなどの追加のインフラストラクチャ要件は不要です。 Lync Server 2013 を展開すると、通話受付管理 (CAC) ポリシーを強制するために使用される帯域幅ポリシーサービスが自動的にインストールされます。 通話受付管理は、Lync を実行しているクライアントでのみ動作します。
 
 </div>
 

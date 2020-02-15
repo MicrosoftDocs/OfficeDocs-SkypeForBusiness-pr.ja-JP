@@ -12,16 +12,16 @@ ms:contentKeyID: 49733745
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 70d031481746f9f7408cc7b5e36081bb977b189d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d659e879b821f27c159cee874dae9db0796f079b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743767"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034547"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41743767"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-02_
+_**トピックの最終更新日:** 2012-10-02_
 
-Lync Server 2013 コントロールパネルまたは Lync Server 2013 Management Shell を使用して、Office Communications Server 2007 R2 プールから Lync Server 2013 パイロットプールに複数のユーザーを移動することができます。
+Lync Server 2013 コントロールパネルまたは Lync Server 2013 管理シェルを使用して、Office Communications Server 2007 R2 プールから Lync Server 2013 パイロットプールに複数のユーザーを移動することができます。
 
 <div>
 
@@ -45,27 +45,27 @@ Lync Server 2013 コントロールパネルまたは Lync Server 2013 Managemen
 
 1.  [**Lync Server コントロール パネル**] を開きます。
 
-2.  [**ユーザー検索**] タブで、[**検索**] ボタンをクリックします。
+2.  [**ユーザー検索**] タブの [**検索**] ボタンをクリックします。
 
 3.  次に、[**フィルターの追加**] をクリックします。
 
-4.  **Office Communications Server ユーザー**が**True**に等しいフィルターを作成します。
+4.  [**Office Communications Server ユーザー**] が [**True**] のフィルターを作成します。
 
 5.  [**検索**] をクリックして、従来の Office Communications Server 2007 R2 ユーザーを検索します。
 
-6.  Lync Server 2013 プールに移動する2人のユーザーを選びます。 この例では、Chen Yang sold と Claus というユーザーを移動します。
+6.  Lync Server 2013 プールに移動する2人のユーザーを選択します。 この例では、Chen Yang および Claus Hansen というユーザーを移動します。
     
-    ![OCS ユーザーを検索するときに表示されるユーザーリスト](images/JJ688143.76beb4fa-72e0-41ef-b96e-3553e96645c0(OCS.15).jpg "OCS ユーザーを検索するときに表示されるユーザーリスト")  
+    ![OCS ユーザーを検索したときに表示されるユーザーリスト](images/JJ688143.76beb4fa-72e0-41ef-b96e-3553e96645c0(OCS.15).jpg "OCS ユーザーを検索したときに表示されるユーザーリスト")  
 
-7.  [**アクション**] メニューで、[**選択したユーザーをプールに移動**] を選択します。
+7.  [**アクション**] メニューで、[**選択されたユーザーをプールに移動**] をクリックします。
 
-8.  ドロップダウンリストから、Lync Server 2013 プールを選択します。
+8.  ドロップダウンリストから、[Lync Server 2013] プールを選択します。
 
 9.  [**アクション**] をクリックし、[**選択されたユーザーをプールに移動**] をクリックします。 [OK] をクリックします。
     
-    ![[ユーザーの移動]、[宛先レジストラー pool] ダイアログボックス](images/JJ205401.8a375003-dc00-4541-b578-4d88f2010601(OCS.15).png "[ユーザーの移動]、[宛先レジストラー pool] ダイアログボックス")  
+    ![[ユーザーの移動]、[宛先レジストラープール] ダイアログボックス](images/JJ205401.8a375003-dc00-4541-b578-4d88f2010601(OCS.15).png "[ユーザーの移動]、[宛先レジストラープール] ダイアログボックス")  
 
-10. ユーザーの**レジストラー pool**列に Lync Server 2013 プールが含まれていることを確認します。これは、ユーザーが正常に移動されたことを示します。
+10. ユーザーの [**レジストラープール**] 列に Lync Server 2013 プールが含まれるようになっていることを確認します。これは、ユーザーが正常に移動されたことを示します。
 
 </div>
 
@@ -75,19 +75,19 @@ Lync Server 2013 コントロールパネルまたは Lync Server 2013 Managemen
 
 1.  Lync Server 2013 管理シェルを開きます。
 
-2.  コマンドラインで、次のように入力し、移動する特定のユーザー名で**User1**と**User2**を置き換えて、**プール\_の FQDN**を移行先プールの名前で置き換えます。 この例では、ユーザーの Hao Chen と Katie ヨルダンを移動します。
+2.  コマンドラインで、次のように入力し、 **User1**と**User2**を特定のユーザー名に置き換えて、**プール\_の FQDN**を移行先のプールの名前に置き換えます。 この例では、ユーザーが Hao Chen と Katie ヨルダンを移動します。
     
         Get-CsUser -Filter {DisplayName -eq "User1" -or DisplayName - eq "User2"} | Move-CsLegacyUser -Target "pool_FQDN"
     
-    ![従来のユーザーを移動するコマンドレットの例](images/JJ688143.57cfc28e-3df5-459f-83ef-8b0edf182a25(OCS.15).jpg "従来のユーザーを移動するコマンドレットの例")  
+    ![レガシユーザーを移動するコマンドレットの例](images/JJ688143.57cfc28e-3df5-459f-83ef-8b0edf182a25(OCS.15).jpg "レガシユーザーを移動するコマンドレットの例")  
 
-3.  コマンドラインで、次のように入力します。
+3.  コマンド ラインで、次のように入力します。
     
         Get-CsUser -Identity "User1"
 
-4.  これで、**レジストラープール**id が、前の手順で**プール\_の FQDN**として指定したプールをポイントするようになります。 この id の存在は、ユーザーが正常に移動されたことを確認します。 「 **User2**が移動されたことを確認する」の手順を繰り返します。
+4.  **レジストラープール**id は、前の手順で**プール\_の FQDN**として指定したプールを指すようになります。 この ID が存在していることにより、ユーザーが正常に移動されたことを確認できます。 手順を繰り返して、 **User2**が移動されたことを確認します。
     
-    ![PowerShell Get-UsUser Identity コマンドレットの出力](images/JJ205096.8ff04c67-37a0-4156-bfbc-28f9f7b137c8(OCS.15).jpg "PowerShell Get-UsUser Identity コマンドレットの出力")  
+    ![PowerShell の Get-UsUser-Identity コマンドレットの出力](images/JJ205096.8ff04c67-37a0-4156-bfbc-28f9f7b137c8(OCS.15).jpg "PowerShell の Get-UsUser-Identity コマンドレットの出力")  
 
 </div>
 
@@ -95,7 +95,7 @@ Lync Server 2013 コントロールパネルまたは Lync Server 2013 Managemen
 
 ## <a name="to-move-all-users-at-the-same-time-by-using-the-lync-server-2013-management-shell"></a>Lync Server 2013 管理シェルを使用してすべてのユーザーを同時に移動するには
 
-この例では、すべてのユーザーが Office Communications Server 2007 R2 pool (pool01.contoso.net) に戻されています。 Lync Server 2013 管理シェルを使用して、すべてのユーザーを Lync Server 2013 プール (pool02.contoso.net) に同時に移行します。
+この例では、すべてのユーザーが Office Communications Server 2007 R2 プール (pool01.contoso.net) に返されています。 Lync Server 2013 管理シェルを使用して、すべてのユーザーを同時に Lync Server 2013 プール (pool02.contoso.net) に移動します。
 
 1.  **Lync Server 2013 管理シェル**を開きます。
 
@@ -105,13 +105,13 @@ Lync Server 2013 コントロールパネルまたは Lync Server 2013 Managemen
     
     ![プール内のすべてのレガシユーザーを移動するコマンドレットの例](images/JJ688143.e6a2d578-296e-476c-bd45-d757917ea853(OCS.15).jpg "プール内のすべてのレガシユーザーを移動するコマンドレットの例")  
 
-3.  次に、パイロットユーザーの1人に対して、**ユーザーの取得-CsUser**を実行します。
+3.  次に、いずれかのパイロット ユーザーに対して **Get-CsUser** を実行します。
     
         Get-CsUser -Identity "Hao Chen"
 
-4.  各ユーザーの**レジストラープール**id は、前の手順で "プール\_FQDN" として指定したプールを指すようになりました。 この id の存在は、ユーザーが正常に移動されたことを確認します。
+4.  各ユーザーの**レジストラープール**id は、前の手順で "プール\_FQDN" として指定したプールを指すようになりました。 この ID が存在していることにより、ユーザーが正常に移動されたことを確認できます。
 
-5.  さらに、Lync Server 2013 コントロールパネルでユーザーの一覧を表示し、[レジストラー Pool] の値が Lync Server 2013 プールを指すようになったことを確認します。
+5.  さらに、Lync Server 2013 コントロールパネルでユーザーの一覧を表示し、レジストラープールの値が Lync Server 2013 プールを指すようになっていることを確認することができます。
     
     ![Lync Server 2013 コントロールパネルのユーザーリスト](images/JJ205096.3f2e87a7-ec59-43c5-82cb-e770108bfb04(OCS.15).jpg "Lync Server 2013 コントロールパネルのユーザーリスト")  
 

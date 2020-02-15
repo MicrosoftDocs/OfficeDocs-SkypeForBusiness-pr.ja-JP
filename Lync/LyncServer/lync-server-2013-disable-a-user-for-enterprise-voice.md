@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: エンタープライズ Voip のユーザーを無効にする'
+title: 'Lync Server 2013: エンタープライズ Voip のユーザーの無効化'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733635
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8f89b40a7398f35efab418fac7be92536ec17270
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5a0d2e5cf6eaa6ed594e7f5fbbc5b1e6a4c9103a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762215"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036607"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="disable-a-user-for-enterprise-voice-in-lync-server-2013"></a>Lync Server 2013 でエンタープライズ Voip のユーザーを無効にする
+# <a name="disable-a-user-for-enterprise-voice-in-lync-server-2013"></a>Lync Server 2013 でのエンタープライズ Voip のユーザーの無効化
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762215"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-21_
+_**トピックの最終更新日:** 2012-09-21_
 
-Lync Server 2013 用に有効になっているユーザーアカウントのエンタープライズボイスを無効にするには、次の手順を使用します。
+Lync Server 2013 に対して有効になっているユーザーアカウントのエンタープライズ Voip を無効にするには、次の手順を使用します。
 
 <div>
 
@@ -45,30 +45,30 @@ Lync Server 2013 用に有効になっているユーザーアカウントのエ
 
 1.  CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
-3.  左側のナビゲーション バーで [**ユーザー**] をクリックします。
+3.  左側のナビゲーション バーで **[ユーザー]** をクリックします。
 
-4.  [**ユーザーの検索**] ボックスに、有効にするユーザー アカウントの表示名、名、姓、セキュリティ アカウント マネージャー (SAM) のアカウント名、SIP アドレス、または回線 URI (Uniform Resource Identifier) の全体か先頭の部分の文字列を入力して、[**検索**] をクリックします。
+4.  **[ユーザーの検索]** ボックスに、有効にするユーザー アカウントの表示名、名、姓、セキュリティ アカウント マネージャー (SAM) のアカウント名、SIP アドレス、または回線 URI (Uniform Resource Identifier) の全体か最初の一部の文字列を入力して、**[検索]** をクリックします。
 
 5.  表で、エンタープライズ Voip を有効にするユーザーアカウントをクリックします。
 
 6.  [**編集**] メニューの [**詳細の表示**] をクリックします。
 
-7.  [ **Lync Server ユーザーの編集**] ページの [**テレフォニー**] で、[**エンタープライズ voip**] 以外のオプションをクリックします。
+7.  [**Lync Server ユーザーの編集**] ページの [**テレフォニー**] で、[**エンタープライズ VoIP**] 以外のオプションをクリックします。
     
     <div>
     
 
     > [!NOTE]  
-    > ユーザーが Lync を使って音声またはビデオ通話を発信することを制限するには、[<STRONG>テレフォニー</STRONG>] で [<STRONG>オーディオ/ビデオを無効</STRONG>にする] をクリックします。
+    > ユーザーが Lync を使用して音声またはビデオ通話を行うことを制限するには、[<STRONG>テレフォニー</STRONG>] で [<STRONG>音声ビデオを無効</STRONG>にする] をクリックします。
 
     
     </div>
 
-8.  [**コミット**] をクリックします。
+8.  [**確定**] をクリックします。
 
-これで、ユーザーはエンタープライズ Voip 機能を使用できなくなります。
+これで、ユーザーはエンタープライズ Voip 機能を使用できなくなりました。
 
 </div>
 
@@ -77,10 +77,10 @@ Lync Server 2013 用に有効になっているユーザーアカウントのエ
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 でのエンタープライズ Voip のユーザーの有効化](lync-server-2013-enable-users-for-enterprise-voice.md)  
+[Lync Server 2013 のエンタープライズ Voip でユーザーを有効にする](lync-server-2013-enable-users-for-enterprise-voice.md)  
 
 
-[Lync Server 2013 でのユーザーのエンタープライズボイスの管理](lync-server-2013-managing-enterprise-voice-for-users.md)  
+[Lync Server 2013 でのユーザーのエンタープライズ Voip の管理](lync-server-2013-managing-enterprise-voice-for-users.md)  
 [Lync Server 2013 管理シェル](lync-server-2013-lync-server-management-shell.md)  
   
 

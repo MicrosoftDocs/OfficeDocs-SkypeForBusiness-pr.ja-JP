@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Lync Server 2013 に必要なソフトウェアのインストール'
+title: 'Lync Server 2013: Lync Server 2013 の前提条件となるソフトウェアのインストール'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184028
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8e37e18fc18a0c57a2905302529ec0cb41d7c11f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2bf287ac6bb92f070047368685c1f1cbad371f2f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763751"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008329"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="install-lync-server-2013-prerequisite-software"></a>Lync Server 2013 に必要なソフトウェアのインストール
+# <a name="install-lync-server-2013-prerequisite-software"></a>Lync Server 2013 の前提条件となるソフトウェアをインストールする
 
 </div>
 
@@ -35,22 +35,22 @@ ms.locfileid: "41763751"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-21_
+_**トピックの最終更新日:** 2013-02-21_
 
-常設チャットサーバーの必須ソフトウェアは、Lync Server 2013 フロントエンドサーバーと、常設チャットサーバー機能がインストールされている Lync Server 2013 Standard Edition サーバーの必須ソフトウェアと同じです。
+常設チャットサーバーの前提条件となるソフトウェアは、Lync Server 2013 フロントエンドサーバー、および常設チャットサーバーの機能がインストールされている Lync Server 2013 Standard Edition サーバーの前提条件のソフトウェアと同じです。
 
 常設チャットサーバーのファイルストアに必要な必須ソフトウェアは、Lync Server 2013 の場合と同じです。
 
-常設チャットサーバーのコンテンツとコンプライアンスのための SQL Server データベースの必須ソフトウェアは、Lync Server 2013 の場合と同じです。
+常設チャットサーバーのコンテンツとコンプライアンスのための SQL Server データベースの前提条件となるソフトウェアは、Lync Server 2013 の場合と同じです。
 
-Lync Server 2013 サーバーのすべてのソフトウェア要件の詳細については、サポートドキュメントの「 [Lync server 2013 のその他のサーバーのサポートと要件](lync-server-2013-additional-server-support-and-requirements.md)」を参照してください。
+Lync Server 2013 サーバーのすべてのソフトウェア要件の詳細については、「サポート」のドキュメントの「[追加のサーバーサポートと要件 (Lync server 2013](lync-server-2013-additional-server-support-and-requirements.md) )」を参照してください。
 
 <div>
 
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 の追加サーバー サポートおよび要件](lync-server-2013-additional-server-support-and-requirements.md)  
+[Lync Server 2013 におけるその他のサーバーのサポートおよび要件](lync-server-2013-additional-server-support-and-requirements.md)  
   
 
 </div>

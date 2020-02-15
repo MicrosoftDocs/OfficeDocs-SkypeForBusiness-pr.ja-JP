@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: フロント エンド サーバーおよびフロント エンド プールの設定'
+title: 'Lync Server 2013: フロントエンドサーバーおよびフロントエンドプールの設定'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185381
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8b912eca536960bccc09c5e7a14c9adc245fe69e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3c615d383d2eedf1c24e2da2ddb2561476f4c8db
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732197"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007736"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-front-end-servers-and-front-end-pools-for-lync-server-2013"></a>Lync Server 2013 でのフロント エンド サーバーおよびフロント エンド プールの設定
+# <a name="setting-up-front-end-servers-and-front-end-pools-for-lync-server-2013"></a>Lync Server 2013 のフロントエンドサーバーおよびフロントエンドプールの設定
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41732197"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-01_
+_**トピックの最終更新日:** 2012-10-01_
 
-このセクションでは、Lync Server 2013 をインストールする方法と、フロントエンドサーバーと、フロントエンドサーバーと連携しているサーバーの役割を含む、Standard Edition サーバーとフロントエンドプールのサーバーロールを設定する方法について説明します。 サーバーの役割をインストールしてセットアップするには、サーバーの役割をインストールする各コンピューターで Lync Server Deployment ウィザードを実行します。 展開ウィザードを使って、ローカル構成ストアのインストール、フロントエンドサーバーのインストール、証明書の構成、サービスの開始などの4つの展開手順をすべて実行します。
+このセクションでは、Lync Server 2013 をインストールする方法と、Standard Edition サーバーとフロントエンドプールのサーバーの役割を設定する方法について説明します。これにはフロントエンドサーバーと、フロントエンドサーバーに併置されているすべてのサーバーの役割が含まれます。 サーバーの役割をインストールしてセットアップするには、サーバーの役割をインストールする各コンピューターで Lync Server Deployment ウィザードを実行します。 展開ウィザードを使用して、ローカル構成ストアのインストール、フロントエンドサーバーのインストール、証明書の構成、サービスの開始など、4つの展開手順をすべて実行します。
 
 <div>
 
 
 > [!NOTE]  
-> サーバーの役割を設定する前に、トポロジが正常に公開されている必要があります。 トポロジの発行の詳細については、「 <A href="lync-server-2013-finalizing-and-implementing-the-topology-design.md">Lync Server 2013 でのトポロジ設計の最終処理と実装</A>」を参照してください。
+> サーバーの役割を設定するには、まずトポロジを正常に公開する必要があります。 トポロジの公開の詳細については、「 <A href="lync-server-2013-finalizing-and-implementing-the-topology-design.md">Lync Server 2013 でのトポロジ設計の最終処理と実装</A>」を参照してください。
 
 
 
@@ -51,17 +51,17 @@ _**最終更新日:** 2012-10-01_
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
   - [Lync Server 2013 でのローカル構成ストアのインストール](lync-server-2013-install-the-local-configuration-store.md)
 
-  - [Lync Server 2013 のサーバー コンポーネントのインストール](lync-server-2013-install-lync-server-server-components.md)
+  - [Lync Server 2013 のサーバーコンポーネントのインストール](lync-server-2013-install-lync-server-server-components.md)
 
-  - [Lync Server 2013 でのサーバーの証明書の構成](lync-server-2013-configure-certificates-for-servers.md)
+  - [Lync Server 2013 のサーバーの証明書を構成する](lync-server-2013-configure-certificates-for-servers.md)
 
   - [Lync Server 2013 のサーバーでのサービスの開始](lync-server-2013-start-services-on-servers.md)
 
-  - [Lync Server 2013 でのプール展開のテスト](lync-server-2013-test-the-pool-deployment.md)
+  - [Lync Server 2013 でプール展開をテストする](lync-server-2013-test-the-pool-deployment.md)
 
   - [Lync Server 2013 での Standard Edition サーバーのテスト](lync-server-2013-test-the-standard-edition-server.md)
 

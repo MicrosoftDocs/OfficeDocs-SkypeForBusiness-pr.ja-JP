@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: モビリティ展開の確認'
+title: 'Lync Server 2013: モビリティの展開の確認'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184477
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 96b6c82478fffe2815e9d69b870b3b434eadb3cf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6777414e7fc558e8eef0f913aca90fc7edd924ca
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742017"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007276"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="verifying-your-mobility-deployment-in-lync-server-2013"></a>Lync Server 2013 でのモビリティ展開の確認
+# <a name="verifying-your-mobility-deployment-in-lync-server-2013"></a>Lync Server 2013 でのモビリティの展開の確認
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41742017"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-12_
+_**トピックの最終更新日:** 2013-02-12_
 
     Some information in this topic pertains to Cumulative Updates for Lync Server 2013: February 2013.
 
-Lync Server Mobility Service と Lync Server 自動検出サービスを展開した後、テストトランザクションを実行して、展開が正常に動作することを確認します。 **CsUcwaConference**を実行して、Lync 2013 モバイルクライアントを使用している2人のユーザーが会議での作成、参加、通信を行うことができるかどうかをテストできます。 このテストトランザクションを使用するには、2つの実際のユーザーを作成するか、ユーザーをテストして、すべての資格情報を確認する必要があります。
+Lync Server Mobility Service と Lync Server 自動検出サービスを展開した後、テストトランザクションを実行して展開が正しく動作することを確認します。 **Test-csucwaconference**を実行して、Lync 2013 モバイルクライアントを使用している2人のユーザーが会議で作成、参加、および通信できるかどうかをテストできます。 このテストトランザクションを使用するには、2つの実際のユーザーまたはテストユーザーと、それらの完全な資格情報が必要です。
 
-Lync 2010 Mobile を使用している2人のユーザー間のインスタントメッセージの送信をテストするには **、CsMcxP2PIM**を使用します。 **CsUcwaConference**と同様に、2つの実際のユーザーまたは2つの定義済みのテストユーザーを使用します。
+Lync 2010 Mobile を使用している2人のユーザー間のインスタントメッセージの送信をテストするには、 **test-csmcxp2pim**を使用します。 **Test-csucwaconference**と同様に、2つの実際のユーザーまたは2つの定義済みのテストユーザーを使用します。
 
 <div>
 
-## <a name="to-test-conferencing-for-lync-2013-mobile-clients"></a>Lync 2013 モバイルクライアント用の会議をテストするには
+## <a name="to-test-conferencing-for-lync-2013-mobile-clients"></a>Lync 2013 Mobile クライアントの会議をテストするには
 
-1.  Lync Server 管理シェル および Ocscore がインストールされている任意のコンピューターに CsAdministrator の役割のメンバーとしてログオンします。
+1.  Lync Server 管理シェルおよび Ocscore がインストールされている任意のコンピューターで、CsAdministrator の役割のメンバーとしてログオンします。
 
-2.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+2.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
-3.  コマンド ラインで次を入力します。
+3.  コマンドラインで、次のように入力します。
     
         Test-CsUcwaConference -TargetFqdn <FQDN of Front End pool> -Authentication <TrustedServer | Negotiate | ClientCertificate | LiveID> -OrganizerSipAddress sip:<SIP address of test user 1> -OrganizerCredential <test user 1 credentials> -ParticipantSipAddress sip:<SIP address of test user 2> -ParticipantCredential <test user 2 credentials> -v
     
-    スクリプトで資格情報を設定し、テストコマンドレットに渡すことができます。 次に例を示します。
+    スクリプト内に資格情報を設定して、資格情報をテスト コマンドレットに渡すことができます。たとえば、以下のようになります。
     
         $passwd1 = ConvertTo-SecureString "Password01" -AsPlainText -Force
         $passwd2 = ConvertTo-SecureString "Password02" -AsPlainText -Force
@@ -67,17 +67,17 @@ Lync 2010 Mobile を使用している2人のユーザー間のインスタン�
 
 <div>
 
-## <a name="to-test-person-to-person-instant-messaging-im-for-lync-2010-mobile"></a>Lync 2010 Mobile のユーザー間のインスタントメッセージング (IM) をテストするには
+## <a name="to-test-person-to-person-instant-messaging-im-for-lync-2010-mobile"></a>Lync 2010 Mobile の個人間のインスタントメッセージング (IM) をテストするには
 
-1.  Lync Server 管理シェル および Ocscore がインストールされている任意のコンピューターに CsAdministrator の役割のメンバーとしてログオンします。
+1.  Lync Server 管理シェルおよび Ocscore がインストールされている任意のコンピューターで、CsAdministrator の役割のメンバーとしてログオンします。
 
-2.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+2.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
-3.  コマンド ラインで次を入力します。
+3.  コマンドラインで、次のように入力します。
     
         Test-CsMcxP2PIM -TargetFqdn <FQDN of Front End pool> -Authentication <TrustedServer | Negotiate | ClientCertificate | LiveID> -SenderSipAddress sip:<SIP address of test user 1> -SenderCredential <test user 1 credentials> -ReceiverSipAddress sip:<SIP address of test user 2> -ReceiverCredential <test user 2 credentials> -v
     
-    スクリプトで資格情報を設定し、テストコマンドレットに渡すことができます。 次に例を示します。
+    スクリプト内に資格情報を設定して、資格情報をテスト コマンドレットに渡すことができます。たとえば、以下のようになります。
     
         $passwd1 = ConvertTo-SecureString "Password01" -AsPlainText -Force
         $passwd2 = ConvertTo-SecureString "Password02" -AsPlainText -Force
@@ -92,8 +92,8 @@ Lync 2010 Mobile を使用している2人のユーザー間のインスタン�
 ## <a name="see-also"></a>関連項目
 
 
-[テスト-CsMcxP2PIM](https://docs.microsoft.com/powershell/module/skype/Test-CsMcxP2PIM)  
-[Test-CsUcwaConference](https://docs.microsoft.com/powershell/module/skype/Test-CsUcwaConference)  
+[Test-csmcxp2pim](https://docs.microsoft.com/powershell/module/skype/Test-CsMcxP2PIM)  
+[Test-csucwaconference](https://docs.microsoft.com/powershell/module/skype/Test-CsUcwaConference)  
   
 
 </div>

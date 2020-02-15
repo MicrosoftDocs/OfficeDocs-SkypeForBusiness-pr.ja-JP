@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Lync Server と連動させるための Microsoft Exchange Server のユニファイド メッセージングの構成'
+title: 'Lync Server 2013: Lync Server で動作するように Microsoft Exchange Server でユニファイドメッセージングを構成する'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183289
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5e2bc41d4fa0411c4184c0edda35d6d0cd98df9a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2cbb859a3cd9f49791eb7b959a59c00c38db6336
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734477"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41995972"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-unified-messaging-on-microsoft-exchange-server-to-work-with-lync-server-2013"></a>Lync Server 2013 と連動させるための Microsoft Exchange Server のユニファイド メッセージングの構成
+# <a name="configuring-unified-messaging-on-microsoft-exchange-server-to-work-with-lync-server-2013"></a>Lync Server 2013 で動作するように Microsoft Exchange Server でユニファイドメッセージングを構成する
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41734477"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-11_
+_**トピックの最終更新日:** 2012-10-11_
 
 <div>
 
 
 > [!IMPORTANT]  
-> Exchange ユニファイドメッセージング (UM) を使用して、通話応答、Outlook Voice Access、またはエンタープライズ Voip サービスを提供する場合は、計画ドキュメントの「 <A href="lync-server-2013-planning-for-exchange-unified-messaging-integration.md">Lync Server 2013 での Exchange ユニファイドメッセージングの統合の計画</A>」を参照して、このセクションの指示に従ってください。
+> Exchange ユニファイドメッセージング (UM) を使用して、エンタープライズ Voip ユーザーの通話応答、Outlook Voice Access、または自動応答サービスを提供する場合は、「計画」のドキュメントの「 <A href="lync-server-2013-planning-for-exchange-unified-messaging-integration.md">Lync Server 2013 での Exchange ユニファイドメッセージング統合の計画</A>」を読んで、このセクションの指示に従います。
 
 
 
 </div>
 
-エンタープライズ Voip と連携するように Exchange ユニファイドメッセージング (UM) を構成するには、次の作業を行う必要があります。
+エンタープライズ Voip を使用するように Exchange ユニファイドメッセージング (UM) を構成するには、次のタスクを実行する必要があります。
 
   - Exchange ユニファイドメッセージング (UM) サービスを実行しているサーバーで証明書を構成する
     
@@ -55,71 +55,71 @@ _**最終更新日:** 2012-10-11_
     
 
     > [!NOTE]  
-    > すべてのクライアントアクセスとメールボックスサーバーを UM SIP のすべての URI ダイヤルプランに追加します。 そうしないと、発信通話のルーティングが予期したとおりに機能しません。
+    > すべてのクライアントアクセスサーバーおよびメールボックスサーバーをすべての UM SIP URI ダイヤルプランに追加します。 そうでない場合は、発信通話のルーティングが期待どおりに機能しません。
 
     
     </div>
 
-  - 必要に応じて、サブスクライバーアクセス用電話番号と共に1つまたは複数の UM SIP URI ダイヤルプランを作成して、対応する Lync Server ダイヤルプランを作成します。
+  - 必要に応じて、1つまたは複数の UM SIP URI ダイヤルプランと、サブスクライバーアクセス用の電話番号を作成し、対応する Lync Server のダイヤルプランを作成します。
 
-  - 次のような操作を実行するために**exchucutil**スクリプトを使います。
+  - 次のように、 **exchucutil. ps1**スクリプトを使用します。
     
       - UM IP ゲートウェイを作成します。
     
-      - UM ハントグループを作成します。
+      - UM ハント グループを作成します。
     
-      - UM Active Directory ドメインサービスオブジェクトを読み取るために Lync Server 2013 のアクセス許可を付与します。
+      - UM Active Directory ドメインサービスオブジェクトを読み取るための Lync Server 2013 アクセス許可を付与します。
 
   - UM 自動応答オブジェクトを作成します。
 
   - サブスクライバーアクセスオブジェクトを作成します。
 
-  - ユーザーごとに SIP URI を作成し、UM SIP URI ダイヤルプランを使用してユーザーを関連付けます。
+  - 各ユーザーの SIP URI を作成し、ユーザーと UM SIP URI ダイヤルプランを関連付けます。
 
 <div>
 
 ## <a name="requirements-and-recommendations"></a>要件と推奨事項
 
-作業を始める前に、このセクションのドキュメントでは、次の Exchange 2013 の役割 (クライアントアクセスとメールボックス) が展開されていることを前提としています。 Microsoft Exchange Server 2013 では、Exchange UM はこれらのサーバーでサービスとして実行されます。
+開始する前に、このセクションのドキュメントでは、次の Exchange 2013 の役割 (クライアントアクセスとメールボックス) を展開していることを前提としています。 Microsoft Exchange Server 2013 では、Exchange UM はこれらのサーバー上でサービスとして実行されます。
 
-Exchange 2013 の展開について詳しくは2013、[http://go.microsoft.com/fwlink/p/?LinkId=266637](http://go.microsoft.com/fwlink/p/?linkid=266637)
+Exchange 2013 の展開の詳細については、「」の「Exchange 2013 TechNet ライブラリ」を参照してください。[http://go.microsoft.com/fwlink/p/?LinkId=266637](http://go.microsoft.com/fwlink/p/?linkid=266637)
 
-次の点にも注意してください。
+以下の点にも注意してください。
 
-  - Exchange UM が複数のフォレストにインストールされている場合は、各 UM フォレストで Exchange Server の統合手順を実行する必要があります。 さらに、各 UM フォレストが、Lync Server 2013 が展開されているフォレストを信頼するように構成されている必要があります。また、Lync Server 2013 が展開されているフォレストは、各 UM フォレストを信頼するように構成されている必要があります。
+  - Exchange UM が複数のフォレストにインストールされている場合は、Exchange サーバーの統合手順を各 UM フォレストに対して実行する必要があります。 また、Lync Server 2013 が展開されているフォレストを信頼するように各 UM フォレストを構成する必要があります。また、Lync Server 2013 が展開されているフォレストは、各 UM フォレストを信頼するように構成する必要があります。
 
-  - 統合手順は、ユニファイドメッセージングサービスが実行されている Exchange Server の役割と、Lync Server 2013 を実行しているサーバーで実行されます。 Lync Server 2013 の統合手順を実行する前に、Exchange Server ユニファイドメッセージング統合の手順を実行する必要があります。
+  - 統合手順は、ユニファイドメッセージングサービスが実行されている Exchange サーバーの役割と、Lync Server 2013 を実行しているサーバーの両方で実行されます。 Lync Server 2013 の統合手順を実行する前に、Exchange Server ユニファイドメッセージングの統合手順を実行する必要があります。
     
     <div>
     
 
     > [!NOTE]  
-    > どのサーバーに対して実行される統合手順と管理者の役割を確認するには、「<A href="lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md">オンプレミスユニファイドメッセージングと Lync Server 2013 を統合する展開プロセス</A>」を参照してください。
+    > どのサーバーに対してどの統合手順が実行されるか、および管理者の役割がどのようになるかを確認するには、「<A href="lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md">オンプレミスのユニファイドメッセージングと Lync Server 2013 を統合するための展開プロセス</A>」を参照してください。
 
     
     </div>
 
-Exchange UM を実行している各サーバーでは、次のツールを使用できる必要があります。
+Exchange UM を実行している各サーバーで、次のツールが使用可能である必要があります。
 
   - Exchange 管理シェル
 
-  - スクリプト**exchucutil**は、次のタスクを実行します。
+  - **exchucutil.ps1** スクリプト。このスクリプトは以下のタスクを実行します。
     
-      - 各 Lync Server 2013 に対して UM IP ゲートウェイを作成します。
+      - 各 Lync Server 2013 の UM IP ゲートウェイを作成します。
     
-      - 各ゲートウェイのハントグループを作成します。 各ハントグループのパイロット識別子は、ゲートウェイに関連付けられているフロントエンドプールまたは Standard Edition サーバーで使用される UM SIP URI ダイヤルプランを指定します。
+      - 各ゲートウェイのハント グループを作成します。 各ハントグループのパイロット id は、ゲートウェイに関連付けられているフロントエンドプールまたは Standard Edition サーバーによって使用される UM SIP URI ダイヤルプランを指定します。
     
-      - Active Directory ドメインサービスで Exchange UM オブジェクトを読み取るための Lync Server 2013 アクセス許可を付与します。
+      - Active Directory ドメインサービスの Exchange UM オブジェクトを読み取るための Lync Server 2013 アクセス許可を付与します。
 
 </div>
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
   - [Microsoft Exchange Server ユニファイドメッセージングを実行しているサーバーで証明書を構成する](lync-server-2013-configure-certificates-on-the-server-running-microsoft-exchange-server-unified-messaging.md)
 
-  - [Lync Server 2013 向けの Microsoft Exchange でユニファイドメッセージングを構成する](lync-server-2013-configure-unified-messaging-on-microsoft-exchange.md)
+  - [Lync Server 2013 の Microsoft Exchange でのユニファイドメッセージングの構成](lync-server-2013-configure-unified-messaging-on-microsoft-exchange.md)
 
 </div>
 

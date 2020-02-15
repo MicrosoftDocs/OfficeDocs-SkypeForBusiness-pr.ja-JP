@@ -12,20 +12,20 @@ ms:contentKeyID: 48183781
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dba3296ee01f997857660d2a3f328f663d32cf99
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ba04284106bcd1b0cbf17d214d8ad0b1a1ff9024
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744817"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006683"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="understanding-firewall-requirements-for-sql-server-with-lync-server-2013"></a>Lync Server 2013 での SQL Server のファイアウォール要件について
+# <a name="understanding-firewall-requirements-for-sql-server-with-lync-server-2013"></a>Lync Server 2013 を使用した SQL Server のファイアウォール要件について
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41744817"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-21_
+_**トピックの最終更新日:** 2013-02-21_
 
-Standard Edition の展開の場合、ファイアウォールの例外は Lync Server 2013 のセットアップ中に自動的に作成されます。 ただし、Enterprise Edition の展開の場合は、SQL Server バックエンドサーバーでファイアウォールの例外を手動で構成する必要があります。 TCP/IP プロトコルでは、特定の IP アドレスに対して1つのポートを使うことができます。 つまり、SQL Server ベースのサーバーの場合、既定のデータベースインスタンスに既定の TCP ポート1433を割り当てることができます。 その他の場合は、SQL Server 構成マネージャーを使って、一意の未使用のポートを割り当てる必要があります。 ここでは、次の内容を説明します。
+Standard Edition 展開の場合、ファイアウォール例外は Lync Server 2013 セットアップ時に自動的に作成されます。 ただし、Enterprise Edition の展開では、SQL Server バックエンドサーバー上でファイアウォール例外を手動で構成する必要があります。 TCP/IP プロトコルでは、特定のポートを複数の IP アドレスで共有することはできません。 このため、SQL Server ベースのサーバーでは、既定のデータベース インスタンスを既定の TCP ポート 1433 に割り当てることができます。 他のインスタンスに対しては、SQL Server Configuration Manager を使用して未使用の固有ポートを割り当てる必要があります。 このトピックでは、以下の内容について説明します。
 
   - 既定のインスタンスを使用する場合のファイアウォール例外の要件
 
-  - SQL Server Browser サービスのファイアウォール例外の要件
+  - SQL Server ブラウザー サービスのファイアウォール例外の要件
 
-  - 名前付きインスタンスを使用するときの静的リッスンポートの要件
+  - 名前付きインスタンスを使用する場合の静的リッスン ポートの要件
 
 <div>
 
 ## <a name="requirements-for-a-firewall-exception-when-using-the-default-instance"></a>既定のインスタンスを使用する場合のファイアウォール例外の要件
 
-Lync Server 2013 を展開するときに、任意のデータベースに対して SQL Server の既定のインスタンスを使用している場合、フロントエンドプールから SQL Server の既定のインスタンスへの通信を確実にするために、次のファイアウォール規則要件が使用されます。
+Lync Server 2013 を展開するときに、任意のデータベースに対して SQL Server の既定のインスタンスを使用している場合は、フロントエンドプールから SQL Server の既定のインスタンスへの通信を確実にするために、次のファイアウォール規則要件を使用します。
 
 
 <table>
@@ -62,14 +62,14 @@ Lync Server 2013 を展開するときに、任意のデータベースに対し
 <tr class="header">
 <th>プロトコル</th>
 <th>ポート</th>
-<th>方向</th>
+<th>Direction</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>TCP</p></td>
 <td><p>1433</p></td>
-<td><p>SQL Server への受信</p></td>
+<td><p>SQL Server に対する受信</p></td>
 </tr>
 </tbody>
 </table>
@@ -79,9 +79,9 @@ Lync Server 2013 を展開するときに、任意のデータベースに対し
 
 <div>
 
-## <a name="requirements-for-a-firewall-exception-for-the-sql-server-browser-service"></a>SQL Server Browser サービスのファイアウォール例外の要件
+## <a name="requirements-for-a-firewall-exception-for-the-sql-server-browser-service"></a>SQL Server ブラウザー サービスのファイアウォール例外の要件
 
-SQL Server Browser サービスは、データベースインスタンスを探し、インスタンス (名前付きまたは既定) が使用するように構成されているポートを伝えます。
+SQL Server ブラウザー サービスは、データベース インスタンスを見つけて、そのインスタンス (名前付きまたは既定) が使用するように構成されているポートを通知します。
 
 
 <table>
@@ -94,14 +94,14 @@ SQL Server Browser サービスは、データベースインスタンスを探�
 <tr class="header">
 <th>プロトコル</th>
 <th>ポート</th>
-<th>方向</th>
+<th>Direction</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>UDP</p></td>
+<td><p>受信</p></td>
 <td><p>1434</p></td>
-<td><p>トラフィック</p></td>
+<td><p>受信</p></td>
 </tr>
 </tbody>
 </table>
@@ -111,9 +111,9 @@ SQL Server Browser サービスは、データベースインスタンスを探�
 
 <div>
 
-## <a name="requirements-for-static-listening-ports-when-using-named-instances"></a>名前付きインスタンスを使用するときの静的リッスンポートの要件
+## <a name="requirements-for-static-listening-ports-when-using-named-instances"></a>名前付きインスタンスを使用する場合の静的リッスン ポートの要件
 
-Lync Server 2013 をサポートするデータベースの SQL Server 構成で名前付きインスタンスを使用している場合は、SQL Server 構成マネージャーを使って静的ポートを構成します。 名前付きインスタンスごとに静的ポートを割り当てると、ファイアウォールの各静的ポートに対して例外が作成されます。
+Lync Server 2013 をサポートするデータベース用の SQL Server 構成で名前付きインスタンスを使用する場合は、SQL Server 構成マネージャーを使用して静的ポートを構成します。 名前付きインスタンスごとに静的ポートを割り当てたら、ファイアウォールで静的ポートごとに例外を作成します。
 
 
 <table>
@@ -126,14 +126,14 @@ Lync Server 2013 をサポートするデータベースの SQL Server 構成で
 <tr class="header">
 <th>プロトコル</th>
 <th>ポート</th>
-<th>方向</th>
+<th>Direction</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>TCP</p></td>
-<td><p>静的に定義された</p></td>
-<td><p>トラフィック</p></td>
+<td><p>静的に定義</p></td>
+<td><p>受信</p></td>
 </tr>
 </tbody>
 </table>
@@ -145,7 +145,7 @@ Lync Server 2013 をサポートするデータベースの SQL Server 構成で
 
 ## <a name="sql-server-documentation"></a>SQL Server ドキュメント
 
-Microsoft SQL Server 2012 ドキュメントは、データベースのファイアウォールアクセスを構成する方法についての詳細なガイダンスを提供します。 Microsoft SQL Server 2012 の詳細については、「」の「SQL Server へのアクセスを[http://go.microsoft.com/fwlink/p/?linkId=218031](http://go.microsoft.com/fwlink/p/?linkid=218031)許可するように Windows ファイアウォールを構成する」を参照してください。
+Microsoft SQL Server 2012 ドキュメントは、データベースのファイアウォールアクセスを構成する方法について詳細なガイダンスを提供します。 Microsoft SQL Server 2012 の詳細については、「」の「SQL Server へのアクセスを[http://go.microsoft.com/fwlink/p/?linkId=218031](http://go.microsoft.com/fwlink/p/?linkid=218031)許可するように Windows ファイアウォールを構成する」を参照してください。
 
 </div>
 

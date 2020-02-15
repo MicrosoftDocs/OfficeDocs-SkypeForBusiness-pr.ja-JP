@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ネットワーク帯域幅ポリシープロファイルを管理する'
+title: 'Lync Server 2013: ネットワーク帯域幅ポリシープロファイルの管理'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733800
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3bd960561309bf8d7e82b028b5a2314400763dc4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f536f82042da6f24c981ea9109a2d81d1736a541
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743317"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033706"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,25 +35,25 @@ ms.locfileid: "41743317"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-15_
+_**トピックの最終更新日:** 2012-10-15_
 
-このセクションの手順を使用して、ネットワーク帯域幅ポリシープロファイルを管理します。 メディアトラフィックのネットワーク帯域幅の要件の詳細については、「 [Lync Server 2013 でのメディアトラフィックのネットワーク帯域幅要件](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)」を参照してください。
+このセクションの手順を使用して、ネットワーク帯域幅ポリシーのプロファイルを管理します。 メディアトラフィックのネットワーク帯域幅の要件の詳細については、「 [Lync Server 2013 のメディアトラフィックのネットワーク帯域幅要件](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)」を参照してください。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 でネットワーク帯域幅ポリシーのプロファイル情報を表示する](lync-server-2013-viewing-network-bandwidth-policy-profile-information.md)
+  - [Lync Server 2013 でのネットワーク帯域幅ポリシープロファイル情報の表示](lync-server-2013-viewing-network-bandwidth-policy-profile-information.md)
 
   - [Lync Server 2013 での帯域幅ポリシープロファイルの作成または変更](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md)
 
-  - [Lync Server 2013 でネットワーク帯域幅ポリシープロファイルを削除する](lync-server-2013-deleting-network-bandwidth-policy-profiles.md)
+  - [Lync Server 2013 でのネットワーク帯域幅ポリシープロファイルの削除](lync-server-2013-deleting-network-bandwidth-policy-profiles.md)
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a>関連項目
+## <a name="related-sections"></a>関連情報
 
 [Lync Server 2013 のネットワーク計画](lync-server-2013-network-planning.md)
 

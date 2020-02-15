@@ -12,16 +12,16 @@ ms:contentKeyID: 48184997
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 245fa0cb3bb5393f1d0f09a3f3b9c10176c015ce
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 394200b21d3720f288fc89780c6ff193bd278cec
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739827"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031755"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41739827"
 
 <span> </span>
 
-_**最終更新日:** 2014-02-05_
+_**トピックの最終更新日:** 2014-02-05_
 
-Lync server 2013 を展開しているユーザーまたはグループに domain Admins グループのメンバーシップを許可しない場合は、RTCUniversalServerAdmins グループのメンバーを有効にして、lync server 2013 を実行しているサーバーで、 **cstopology** Windows PowerShell コマンドレットを実行します。 既定では、RTCUniversalServerAdmins グループのメンバーはこのコマンドレットを実行することはできません。 Lync Server を実行しているサーバーで**Enable-CsTopology**機能を実行するに**は、管理**者の権限とアクセス許可を付与することができます。これには、lync server 2013 を実行しているサーバーのコンピューターオブジェクトがある組織単位 (OU) を指定します。
+Lync server 2013 を展開しているユーザーまたはグループに domain Admins グループのメンバーシップを付与しない場合は、RTCUniversalServerAdmins グループのメンバーが、lync server 2013 を実行しているサーバーで、 **enable-cstopology** Windows PowerShell コマンドレットを実行できるようにすることができます。 既定では、RTCUniversalServerAdmins グループのメンバーは、このコマンドレットを実行することはできません。 Lync Server を実行しているサーバーで**Enable-CsTopology**を実行する**ための管理**者権限とアクセス許可を付与するには、lync server 2013 を実行しているサーバーのコンピューターオブジェクトが配置されている組織単位 (OU) を指定します。
 
-Lync Server をインストールするときに実行されるドメインの準備によって、RTCUniversalServerAdmins グループのメンバーが Enable-CsTopology コマンドレットを実行できるようにする権限が自動的に追加されることはありません。 つまり、トポロジを有効にするには、既定でドメイン管理者である必要があることを意味します。 トポロジを有効にする権利を RTCUniversalServerAdmins グループのメンバーに付与するには、グラント Setuppermissions コマンドレットを実行する必要があります。 さらに、Lync Server を実行しているコンピューターを格納する各 Active Directory コンテナーに対して、このコマンドレットを実行する必要があります。
+Lync Server をインストールするときに実行されるドメインの準備では、RTCUniversalServerAdmins グループのメンバーが Enable-CsTopology コマンドレットを実行するためのアクセス許可が自動的に追加されることはありません。 つまり、既定では、トポロジを有効にするためにはドメイン管理者である必要があります。 RTCUniversalServerAdmins グループのメンバーにトポロジを有効にする権限を付与するには、Grant-CsSetupPermissions コマンドレットを実行する必要があります。 さらに、Lync Server を実行しているコンピューターを格納する各 Active Directory コンテナーに対して、このコマンドレットを実行する必要があります。
 
-このコマンドレットは、RTCUniversalServerAdmins グループに対してのみアクセス許可を付与することに注意してください。コマンドレットを使用して、他のセキュリティグループまたは個々のユーザーに権限を付与することはできません。
+このコマンドレットは、RTCUniversalServerAdmins グループのみにアクセス許可を付与する点に留意してください。他のセキュリティ グループまたは個別のユーザーにアクセス許可を付与するために使用することはできません。
 
 <div>
 
 
 > [!NOTE]  
-> <STRONG>Enable-CsTopology</STRONG>は、RTCUniversalServerAdmins group メンバーが Lync Server 2013 をセットアップして展開できるようにするためのキーコマンドレットです。
+> <STRONG>Enable-CsTopology</STRONG>は、RTCUniversalServerAdmins グループのメンバーが Lync Server 2013 のセットアップと展開を行えるようにするためのキーコマンドレットです。
 
 
 
@@ -55,13 +55,13 @@ Lync Server をインストールするときに実行されるドメインの�
 
 <div>
 
-## <a name="to-add-the-ability-to-run-enable-cstopology-to-the-rtcuniversalserveradmins-group"></a>Enable-CsTopology ツールを実行する機能を RTCUniversalServerAdmins グループに追加するには
+## <a name="to-add-the-ability-to-run-enable-cstopology-to-the-rtcuniversalserveradmins-group"></a>RTCUniversalServerAdmins グループに、Enable-CsTopology を実行する権限を追加するには
 
-1.  委任されたユーザーが実行**可能な**ドメインの domain Admins グループのメンバーとしてサーバーにログオンします。
+1.  委任されたユーザーが **Enable-CsTopology** を実行する予定のドメインの Domain Admins グループのメンバーとしてサーバーにログオンします。
 
-2.  Lync Server 2013 管理シェルを開きます。 Lync Server 2013 管理シェルは、各フロントエンドサーバーまたは Lync Server 2013 管理ツールがインストールされているすべてのコンピューターに自動的にインストールされます。 Lync Server 2013 管理シェルの詳細については、「運用ドキュメントの[Lync server 2013 管理シェル](lync-server-2013-lync-server-management-shell.md)」を参照してください。
+2.  Lync Server 2013 管理シェルを開きます。 Lync Server 2013 管理シェルは、各フロントエンドサーバーまたは Lync Server 2013 管理ツールがインストールされているすべてのコンピューターに、自動的にインストールされます。 Lync Server 2013 管理シェルの詳細については、「操作」のドキュメントの「 [Lync server 2013 Management shell](lync-server-2013-lync-server-management-shell.md) 」を参照してください。
 
-3.  Lync Server 2013 管理シェルから次のコマンドレットを実行します。
+3.  Lync Server 2013 管理シェルから、次のコマンドレットを実行します。
     
         Grant-CsSetupPermission -ComputerOU <DN of the OU> -Domain <Domain FQDN>
     
@@ -69,12 +69,12 @@ Lync Server をインストールするときに実行されるドメインの�
     
 
     > [!NOTE]  
-    > OU が最上位レベルではない場合は、完全なドメイン名を指定する必要があります。
+    > OU が最上位レベルでない場合は、完全ドメイン名を指定する必要があります。
 
     
     </div>
     
-    次の例では、OU は contoso.com ドメイン内の "Lync Servers" です。
+    次の例では、OU は、contoso.com ドメインにある "Lync Servers" です。
     
         Grant-CsSetupPermission -ComputerOU "OU=Lync Servers" -Domain contoso.com
 

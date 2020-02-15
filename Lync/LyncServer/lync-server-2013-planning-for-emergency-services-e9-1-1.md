@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 緊急サービス (E9-1-1) の計画'
+title: 'Lync Server 2013: Planning for エマージェンシーサービス (E9-1-1)'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183363
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 11c6116cc3ad63674acd65e7d2de863e7911bcf8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6096c271259dd6252bd4996606f270a2ae873015
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755207"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036969"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41755207"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-17_
+_**トピックの最終更新日:** 2012-10-17_
 
-Lync Server 2013 は、エンタープライズ Voip 展開の一部として、米国内での拡張 9-1-1 (E9-1) サービスをサポートしています。 E9-1 は、9-1-1 通話を、オフィスの建物からの通話に関する市民 (つまり、番地) とその他の特定の位置情報 (床番号など) で構成される緊急対応の場所 (ERL) と関連付けるための緊急派遣機能です。その他のマルチテナント機能。 提供された ERL を使用することによって、公開された安全な応答ポイント (PSAP) は、応答が不正確またはあいまいな場所に誤って通知されるリスクを軽減することで、最初のレスポンダーを distress で直接ディスパッチすることができます。
+Lync Server 2013 は、エンタープライズ Voip 展開の一部として米国内での拡張 9-1-1 (E9-1-1) サービスをサポートしています。 E9-1-1 は、office 建物からの通話に対して、市民 (つまり、ストリート) 住所とその他の具体的な位置情報 (フロア番号など) で構成される緊急応答場所 (ERL) との9-1-1 通話を関連付けた緊急ディスパッチ機能です。その他のマルチテナント機能。 提供されている ERL を使用することによって、公共の安全な応答ポイント (PSAP) は、応答側を誤っているか不明瞭な場所に誤って通知するリスクを軽減することで、最初の応答を支援で発信者に直ちにディスパッチできます。
 
 <div>
 
 
 > [!NOTE]  
-> Lync Server には、通話受付制御、緊急サービス (E9-1)、メディアバイパスという3つの高度なエンタープライズ音声機能があります。 これら3つの機能の計画情報の概要については、「 <A href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">Lync Server 2013 の高度なエンタープライズ voip 機能のネットワーク設定</A>」を参照してください。
+> Lync Server には、通話受付管理、緊急サービス (E9-1-1)、メディアバイパスという3つの高度なエンタープライズ Voip 機能があります。 これら3つの機能すべてに共通の計画情報の概要については、「 <A href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">Lync Server 2013 の高度なエンタープライズ voip 機能のネットワーク設定</A>」を参照してください。
 
 
 
@@ -51,13 +51,13 @@ Lync Server 2013 は、エンタープライズ Voip 展開の一部として、
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
   - [Lync Server 2013 の E9-1-1 の概要](lync-server-2013-overview-of-e9-1-1.md)
 
   - [Lync Server 2013 での緊急電話の要件の定義](lync-server-2013-defining-your-requirements-for-emergency-calls.md)
 
-  - [Lync Server 2013 の E9-1 の展開チェックリスト](lync-server-2013-deployment-checklist-for-e9-1-1.md)
+  - [Lync Server 2013 の E9-1-1 の展開チェックリスト](lync-server-2013-deployment-checklist-for-e9-1-1.md)
 
 </div>
 

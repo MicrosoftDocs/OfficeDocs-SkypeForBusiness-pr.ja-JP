@@ -12,16 +12,16 @@ ms:contentKeyID: 48183532
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5e3d956d4252d73d2aa1d393917a5b3d72976209
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5d337fec0fcb5261e01424f5bcfbad9de07448cb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765708"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034247"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41765708"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-19_
+_**トピックの最終更新日:** 2012-10-19_
 
-パイロットプールが作成され、従来の展開情報が Lync Server 2013 に統合されました。このセクションでは、パイロットプールに加える必要があるいくつかの構成を示します。
+パイロットプールが作成され、従来の展開情報が Lync Server 2013 にマージされたので、このセクションではパイロットプールに対して行う必要があるいくつかの構成を示します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [パイロット プールのレガシ エッジ サーバーへの接続](connect-pilot-pool-to-legacy-edge-servers_1.md)
+  - [パイロットプールを従来のエッジサーバーに接続する](connect-pilot-pool-to-legacy-edge-servers_1.md)
 
-  - [Office Communications Server 2007 R2 Edge サーバーへの接続を承認する](authorize-connection-to-office-communications-server-2007-r2-edge-server.md)
+  - [Office Communications Server 2007 R2 エッジサーバーへの接続を承認する](authorize-connection-to-office-communications-server-2007-r2-edge-server.md)
 
-  - [構成の設定の確認](verify-configuration-settings_1.md)
+  - [構成の設定を確認する](verify-configuration-settings_1.md)
 
-  - [XMPP ゲートウェイ アクセス ポリシーおよび証明書の構成](configure-xmpp-gateway-access-policies-and-certificates_1.md)
+  - [XMPP ゲートウェイアクセスポリシーと証明書を構成する](configure-xmpp-gateway-access-policies-and-certificates_1.md)
 
 </div>
 

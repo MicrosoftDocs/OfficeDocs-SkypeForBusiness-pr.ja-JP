@@ -12,16 +12,16 @@ ms:contentKeyID: 49733577
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c79731117c7ba1e04f55bad3a308cca9225621d3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: db05bdc9f2c22bb46b34249a86979cb80b55cc7f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756131"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034387"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41756131"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-21_
+_**トピックの最終更新日:** 2013-02-21_
 
 このセクションの手順を使用して、[**トポロジ**] ページから Lync Server 2013 サービスを管理します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 のコンピューターで実行されているサービスの状態を表示する](lync-server-2013-view-the-status-of-services-running-on-a-computer.md)
+  - [Lync Server 2013 でコンピューター上で実行されているサービスの状態を表示する](lync-server-2013-view-the-status-of-services-running-on-a-computer.md)
 
 </div>
 

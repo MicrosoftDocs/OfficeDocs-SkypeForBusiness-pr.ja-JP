@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 会議および電話会議の管理'
+title: 'Lync Server 2013: 会議と会議の管理'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184755
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 23a3b907702cda1ae3f528da8890256dd0facce1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3f9da919b539ce80303889069379aea9abc89e80
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762065"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033726"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-meetings-and-conferences-in-lync-server-2013"></a>Lync Server 2013 での会議および電話会議の管理
+# <a name="managing-meetings-and-conferences-in-lync-server-2013"></a>Lync Server 2013 での会議と会議の管理
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41762065"
 
 <span> </span>
 
-_**最終更新日:** 2013-08-09_
+_**トピックの最終更新日:** 2013-08-09_
 
-このセクションのトピックでは、Lync Server コントロールパネルの**会議**グループのページを使用して実行できるタスクのステップバイステップの手順について説明します。
+このセクションのトピックでは、Lync Server コントロールパネルの [**電話会議**] グループのページを使用して実行できるタスクの手順を順を追って説明します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 の会議構成の設定](lync-server-2013-meeting-configuration-settings.md)
+  - [Lync Server 2013 の会議構成設定](lync-server-2013-meeting-configuration-settings.md)
 
   - [Lync Server 2013 の会議ポリシー](lync-server-2013-conferencing-policies.md)
 
   - [Lync Server 2013 のダイヤルイン会議 (構成/アクセス番号)](lync-server-2013-dial-in-conferencing-configuration-access-numbers.md)
 
-  - [Lync 対応電話および Lync Server 2013 での [折り返し] の使用](lync-server-2013-using-call-me-at-with-a-lync-enabled-phone.md)
+  - [Lync が有効な電話および Lync Server 2013 での Call Me の使用](lync-server-2013-using-call-me-at-with-a-lync-enabled-phone.md)
 
 </div>
 

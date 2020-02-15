@@ -12,16 +12,16 @@ ms:contentKeyID: 48184146
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8430ec5cc8b362aa78f97afc24ab0e588c7bc650
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c4f4f5ef6dfe595c87745571d061d104916067c8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728377"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036407"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,49 +35,49 @@ ms.locfileid: "41728377"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-14_
+_**トピックの最終更新日:** 2012-09-14_
 
-トポロジを定義して構成するには、トポロジビルダーを使用します。 トポロジビルダーでは、ローカルの管理者グループまたは (Domain Admins など) の権限を持つドメイングループのメンバーである必要はありません。 トポロジは標準ユーザーとして定義できます。 最初の使用時と後続の編集セッションでトポロジビルダーを起動すると、トポロジビルダーで現在の構成ドキュメントを読み込む場所を確認するメッセージが表示されます。 以下の選択肢があります。
+トポロジビルダーを使用して、トポロジを定義および構成します。 トポロジビルダーでは、ローカルの Administrators グループまたは権限のあるドメイングループ (Domain Admins など) のメンバーである必要はありません。 標準ユーザーでもトポロジを定義できます。 初めてトポロジ ビルダーを起動して、その後、編集セッションを行う場合、トポロジ ビルダーに現在の構成ドキュメントを読み込ませる場所を指定するようメッセージが表示されます。 選択肢には以下があります。
 
   - 既存の展開環境からトポロジをダウンロードする
 
-  - ローカルファイルからトポロジを開く
+  - ローカル ファイルからトポロジを開く
 
   - 新しいトポロジ
 
-トポロジを既に定義していて、全体管理ストアを確立している場合は、既存の展開からトポロジをダウンロードすることを選択する必要があります。 トポロジビルダーはデータベースを読み取り、現在の定義を取得します。 既存のサーバーの全体管理ストアがある場合は、常にこのオプションを選択する必要があります。
+トポロジを既に定義していて、中央管理ストアを設定している場合は、既存の展開からトポロジをダウンロードすることを選択する必要があります。 トポロジ ビルダーは、データベースを読み取り、現在の定義を取得します。 既存の中央管理ストアがある場合は、常にこのオプションを選択する必要があります。
 
-一元管理ストアを確立していない場合に、以前に保存した構成を編集するには、ローカルファイルからトポロジを開くように選択する必要があります。 開こうとしているファイルは、以前のセッションで保存された構成ファイルです。 このオプションを使用して、以前に保存したトポロジを編集できます。
+中央管理ストアが確立されておらず、以前に保存された構成を編集する場合は、ローカルファイルからトポロジを開くことを選択する必要があります。 開くファイルは、以前のセッションで保存した構成ファイルになります。 このオプションを使用して、以前保存されたトポロジを編集することができます。
 
 <div>
 
 
 > [!WARNING]  
-> 公開されているトポロジを既に持っている場合は、ローカル構成ファイルを読み込まないでください。 既存の展開からトポロジをダウンロードすることを選択する必要があります。
+> トポロジを既に公開している場合は、ローカル構成ファイルを読み込まないでください。 既存の展開環境からトポロジをダウンロードする必要があります。
 
 
 
 </div>
 
-新しいトポロジビルダー構成を作成する場合は、新しいトポロジを作成します。 以前のデザインセッションで作成したのと同じファイルとして保存するように選択しない限り、以前に保存したデザインは上書きされません。
+新しいトポロジビルダー構成を作成する場合は、新しいトポロジを作成することを選択します。 以前の設計セッションで作成したものと同じファイルとして保存しなければ、以前保存した設計は上書きされません。
 
-これらの各オプションでは、トポロジビルダー構成ファイルを保存する場所を指定するように求められます。 ファイルの場所は、ローカルの場所、確立されたファイル共有上の共有の場所、リムーバブルメディアのいずれかになります。
+これらの各オプションでは、トポロジビルダー構成ファイルを保存する場所を指定するように求められます。 ファイルの場所は、ローカルの場所、確立されたファイル共有の共有の場所、またはリムーバブル メディアにすることができます。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 のトポロジ ビルダーでのトポロジの定義と構成](lync-server-2013-define-and-configure-a-topology-in-topology-builder.md)
+  - [Lync Server 2013 のトポロジビルダーでのトポロジの定義と構成](lync-server-2013-define-and-configure-a-topology-in-topology-builder.md)
 
-  - [Lync Server 2013 でフロントエンド プールまたは Standard Edition サーバーを定義および構成する](lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md)
+  - [Lync Server 2013 でのフロントエンドプールまたは Standard Edition サーバーの定義と構成](lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md)
 
-  - [Lync Server 2013 での障害復旧用のペアのフロント エンド プールの展開](lync-server-2013-deploying-paired-front-end-pools-for-disaster-recovery.md)
+  - [Lync Server 2013 での障害復旧用のペアのフロントエンドプールの展開](lync-server-2013-deploying-paired-front-end-pools-for-disaster-recovery.md)
 
-  - [Lync Server 2013 でのバックエンド サーバーの高可用性を実現するための SQL ミラーリングの展開](lync-server-2013-deploying-sql-mirroring-for-back-end-server-high-availability.md)
+  - [Lync Server 2013 でバックエンドサーバーの高可用性を実現するための SQL ミラーリングの展開](lync-server-2013-deploying-sql-mirroring-for-back-end-server-high-availability.md)
 
-  - [Lync Server 2013 での簡単な URL の編集または構成](lync-server-2013-edit-or-configure-simple-urls.md)
+  - [Lync Server 2013 での簡易 Url の編集または構成](lync-server-2013-edit-or-configure-simple-urls.md)
 
-  - [Lync Server 2013 での中央管理サーバーの選択](lync-server-2013-select-the-central-management-server.md)
+  - [Lync Server 2013 で中央管理サーバーを選択します。](lync-server-2013-select-the-central-management-server.md)
 
 </div>
 

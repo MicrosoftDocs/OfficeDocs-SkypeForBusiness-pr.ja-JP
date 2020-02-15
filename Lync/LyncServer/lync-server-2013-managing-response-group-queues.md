@@ -12,16 +12,16 @@ ms:contentKeyID: 48183576
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 496dcc3dfafcc7a583fe74d729c3b90d8677691e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6e1c9a55c72522604168fec235f1b9d716cd5cec
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756081"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41992042"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41756081"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-02_
+_**トピックの最終更新日:** 2012-10-02_
 
-キューは、エージェントが通話に応答するまで、応答グループへの呼び出しを保持します。 キューを管理するときには、1つまたは複数のエージェントグループをキューに割り当て、オーバーフロー操作を実行する前にキューが保持できる呼び出しの数や、タイムアウトを実行する前に、待機時間の長さなどのキュー設定を指定します。ction. 応答グループアプリケーションは、利用可能なエージェントを検索するときに、一覧に表示されている順序でエージェントグループを検索します。
+応答グループに対する通話は、エージェントが通話に応答するまではキューに保持されます。 キューを管理する場合、1 つ以上のエージェント グループをキューに割り当て、オーバーフロー時の動作の実行に移る前にキューが保持できる通話の数、タイムアウト処理の実行に移るまでに通話がエージェントを待機する時間など、キューの設定値を指定します。 応答グループアプリケーションは、利用可能なエージェントを検索するときに、エージェントグループをリストに従って検索します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
   - [Lync Server 2013 でキューを作成または変更する](lync-server-2013-create-or-modify-a-queue.md)
 

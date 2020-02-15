@@ -1,5 +1,5 @@
 ---
-title: ユーザー レプリケーションの完了の確認
+title: ユーザーのレプリケーションが完了したことを確認する
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183441
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bed93912b62e323186a902fb717548c16b405299
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 35e6cde338c4469cc7a04452cdf03fe87077d89f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730767"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036205"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="verify-user-replication-has-completed"></a>ユーザー レプリケーションの完了の確認
+# <a name="verify-user-replication-has-completed"></a>ユーザーのレプリケーションが完了したことを確認する
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41730767"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-17_
+_**トピックの最終更新日:** 2012-09-17_
 
-**移動-csuser**コマンドレットを実行しているときに、最初のレプリケーションが完了していないため、Active Directory ドメインサービス (AD DS) と Lync Server 2013 データベース間のユーザー情報が同期されていないため、エラーが発生する可能性があります。 Lync Server 2013 ユーザーレプリケーターサービスの初回の同期が正常に完了するまでにかかる時間は、Lync Server 2013 プールをホストしている Active Directory フォレストでホストされているドメインコントローラーの数によって異なります。 Lync server 2013 ユーザーレプリケーターサービスの初期同期処理は、Lync Server 2013 フロントエンドサーバーが初めて起動されたときに発生します。 その後、同期はユーザーレプリケーターの間隔に基づいています。 次の手順を実行して、ユーザーの複製が完了したことを確認してから、**移動-csuser**コマンドレットを実行します。
+最初のレプリケーションが完了していないため、Active Directory ドメインサービス (AD DS) と Lync Server 2013 データベース間のユーザー情報が同期されていないために、 **csuser**コマンドレットを実行しているときにエラーが発生することがあります。 Lync Server 2013 のユーザーレプリケーターサービスの初期同期が正常に完了するまでにかかる時間は、Lync Server 2013 プールをホストしている Active Directory フォレスト内でホストされているドメインコントローラーの数によって異なります。 Lync Server 2013 のユーザーレプリケーターサービスの初期同期処理は、Lync Server 2013 フロントエンドサーバーが初めて起動されたときに発生します。 その後、この同期はユーザー レプリケーターの間隔に基づいて行われます。 **Move-CsUser** コマンドレットを実行する前に、次の手順を実行して、ユーザーのレプリケーションが完了していることを確認してください。
 
 <div>
 
-## <a name="to-verify-user-replication-has-completed"></a>ユーザーの複製が完了したことを確認するには
+## <a name="to-verify-user-replication-has-completed"></a>ユーザーのレプリケーションが完了したことを確認するには
 
 1.  トポロジ ビルダーがインストールされているコンピューターに、Domain Admins グループおよび RTCUniversalServerAdmins グループのメンバーとしてログオンします。
 
-2.  [**スタート**] メニューをクリックし、[**実行**] をクリックします。
+2.  [**スタート**] メニューをクリックし、[**ファイル名を指定して実行**] をクリックします。
 
-3.  **Eventvwr.exe**と入力して、[ **OK]** をクリックします。
+3.  「**eventvwr.exe**」と入力し、[**OK**] をクリックします。
 
-4.  イベントビューアーで [**アプリケーションとサービスログ**] をクリックして展開し、[Lync Server] を選択します。
+4.  イベント ビューアーで、[**アプリケーションとサービス ログ**] をクリックして展開し、[Lync Server] を選択します。
 
-5.  **操作**ウィンドウで、[**現在のログをフィルター**] をクリックします。
+5.  [**操作**] ウィンドウで [**現在のログをフィルター**] をクリックします。
 
-6.  [**イベントソース**] ボックスの一覧の [ **LS ユーザーレプリケーター**] をクリックします。
+6.  [**イベント ソース**] ボックスの一覧の [**LS User Replicator**] をクリックします。
 
 7.  ** \<すべてのイベント id\> **に**30024**と入力し、[ **OK]** をクリックします。
 
-8.  [フィルター処理されたイベント] ボックスの一覧の **[全般**] タブで、ユーザーの複製が正常に完了したことを示すエントリを探します。
+8.  フィルターが適用されたイベントの一覧の [**全般**] タブで、ユーザーのレプリケーションが正常に完了したことを示す項目を探します。
 
 </div>
 

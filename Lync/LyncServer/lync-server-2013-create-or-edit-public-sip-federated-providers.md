@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 公開 SIP フェデレーション プロバイダーの作成または編集'
+title: 'Lync Server 2013: パブリック SIP フェデレーションプロバイダーの作成または編集'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184167
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 33303217e6e1a1fefb502f1e9b364a46adc85e02
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 795950427023a193eff3ab0012687e381e3d3eff
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740207"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035713"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-or-edit-public-sip-federated-providers-in-lync-server-2013"></a>Lync Server 2013 での公開 SIP フェデレーション プロバイダーの作成または編集
+# <a name="create-or-edit-public-sip-federated-providers-in-lync-server-2013"></a>Lync Server 2013 でのパブリック SIP フェデレーションプロバイダーの作成または編集
 
 </div>
 
@@ -35,43 +35,43 @@ ms.locfileid: "41740207"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-19_
+_**トピックの最終更新日:** 2012-10-19_
 
-パブリックインスタントメッセージング (IM) 接続を使うと、組織内のユーザーは IM を使用して、Windows Live Messenger、Yahoo\!、AOL など、パブリック im サービスプロバイダーが提供する im サービスのユーザーと通信できます。
+パブリックインスタントメッセージング (IM) 接続を使用すると、組織内のユーザーは IM を使用して、パブリック IM サービスプロバイダーが提供する IM サービス (Windows Live Messenger\!、YAHOO、AOL など) のユーザーと通信することができます。
 
-Lync Server 2013 には、America Online、Windows Live、Yahoo 用のパブリックプロバイダー構成があります。\! インスタントメッセージ (im)。 各パブリックプロバイダーは、プロバイダーのエッジサーバーの完全修飾ドメイン名で構成され、既定の認証レベルでは、**このプロバイダーを使用する連絡先リストのユーザーのみとの通信を許可**します。
+Lync Server 2013 には、America Online、Windows Live、Yahoo 用のパブリックプロバイダー構成があります。\! の各インスタント メッセージングのパブリック プロバイダー構成が含まれています。 各パブリック プロバイダーは、そのプロバイダーのエッジ サーバーの完全修飾ドメイン名と、既定の確認レベルである [**Allow users to communicate only with people on their Contacts list who use this provider**] を指定して構成されています。
 
-既定の設定では、どのパブリックプロバイダーも有効になっていません。 パブリックプロバイダーを有効にする前に、ライセンス契約とプロビジョニング作業を完了する必要があります。 ライセンスとプロビジョニングの作業を完了する前に、プロバイダーを有効にすることができます。 ユーザーは、前提条件となる作業が完了するまで、これらのプロバイダーの連絡先と通信できません。 パブリックプロバイダーのライセンスとプロビジョニングの詳細については、「 [Lync Server 2013 でパブリックユーザーアクセスを制御するためのポリシーを構成する](lync-server-2013-configure-policies-to-control-public-user-access.md)」を参照してください。
+既定の設定では、パブリック プロバイダーはいずれも無効になっています。 パブリック プロバイダーを有効にする前に、使用許諾契約とプロビジョニング作業を完了する必要があります。 ライセンスとプロビジョニングの作業を完了する前にプロバイダーを有効にできます。 前提条件となる作業を完了するまで、ユーザーはそのプロバイダーで連絡先と通信することはできません。 パブリックプロバイダーのライセンスとプロビジョニングの詳細については、「 [Configure policies to control public user access In Lync Server 2013](lync-server-2013-configure-policies-to-control-public-user-access.md)」を参照してください。
 
-パブリックプロバイダーを作成または編集するには、次の手順を使用します。
+次の手順を使用して、パブリック プロバイダーを作成または編集します。
 
 <div>
 
-## <a name="to-create-or-edit-public-providers"></a>パブリックプロバイダーを作成または編集するには
+## <a name="to-create-or-edit-public-providers"></a>パブリック プロバイダーを作成または編集するには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
-3.  左側のナビゲーションバーで、[**フェデレーションと外部アクセス**] をクリックし、[ **SIP フェデレーションプロバイダー**] をクリックします。
+3.  左側のナビゲーション バーで、[**フェデレーションと外部アクセス**] をクリックし、[**SIP フェデレーション プロバイダー**] をクリックします。
 
-4.  新しいパブリックプロバイダーを作成する必要がある場合は、[**新規**] をクリックし、[**パブリックプロバイダー**] をクリックします。
+4.  新しいパブリック プロバイダーを作成する必要がある場合は、[**新規作成**] をクリックし、[**パブリック プロバイダー**] をクリックします。
 
-5.  パブリックプロバイダーの一覧からエントリを編集する必要がある場合は、パブリックプロバイダーを選択し、[**編集**] をクリックして、[**詳細の表示**] をクリックします。
+5.  パブリック プロバイダーの一覧のエントリを編集する必要がある場合は、パブリック プロバイダーを選択し、[**編集**] をクリックして [**詳細の表示**] をクリックします。
 
-6.  [ **SIP フェデレーションプロバイダーの編集**] ページでは、次の設定を入力または編集できます。
+6.  [**編集 SIP フェデレーション プロバイダー**] ページでは、次の設定を入力または編集できます。
     
-      - **このプロバイダー**   との通信を有効にするこの設定をオンにすると、このプロバイダーのユーザーとの IM が有効になります。
+      - **[このプロバイダー**   との通信を有効にする] この設定を選択すると、このプロバイダーのユーザーとの IM が有効になります。
     
-      - **[Provider name]:**   必要なプロパティは、SIP フェデレーションプロバイダーの一覧に反映されるプロバイダーの名前を入力します。
+      - **プロバイダー名:**   必要なプロパティ。プロバイダーの名前を入力します。これは、SIP フェデレーションプロバイダーの一覧に反映されます。
     
-      - **Access edge サービス (FQDN):**   必要なプロパティで、構成しているプロバイダーのアクセスエッジサービスの完全修飾ドメイン名を入力します。 この情報は既定の項目として提供され、パブリックプロバイダーがアクセスエッジサービスの FQDN に変更を加えた場合にのみ変更する必要があります。
+      - **アクセスエッジサービス (FQDN):**   必要なプロパティ。構成するプロバイダーのアクセスエッジサービスの完全修飾ドメイン名を入力します。 この情報は既定のアイテムとして提供され、パブリックプロバイダがパブリックプロバイダのアクセスエッジサービスの FQDN に変更を加える場合にのみ変更する必要があります。
     
-      - **既定の確認レベル:**   既定の設定では、ユーザーが連絡先リストに登録されているユーザー**との通信を許可**します。このプロバイダーを使用すると、承諾した連絡先と連絡先リストに含まれている連絡先への通信が制限されます。
+      - **既定の検証レベル:**   既定の設定では、**このプロバイダーを使用するユーザーが連絡先リストにあるユーザーとの通信を許可**します。このプロバイダーを使用すると、承諾した連絡先リストに含まれる連絡先への通信が制限されます。
         
-        [**このプロバイダーを使用するすべてのユーザーとの通信を許可する**] を選択すると、連絡先への招待を受信して受け付けるために必要な制限が解除されます。 この設定では、パブリックプロバイダーのネットワークから連絡できるユーザーを制限することはできません。
+        [**Allow users to communicate with everyone using this provider**] を選択すると、連絡先からの招待を受け取って承認しておく必要があるという制限がなくなります。この設定では、パブリック プロバイダーのネットワークからユーザーに連絡できる相手先は制限されません。
 
-7.  設定の構成が完了したら、[**確定**] をクリックするか、[**キャンセル**] をクリックして変更を破棄します。
+7.  設定の構成が完了したら、[**コミット**] をクリックして保存するか、[**キャンセル**] をクリックして変更を破棄します。
 
 </div>
 
@@ -80,8 +80,8 @@ Lync Server 2013 には、America Online、Windows Live、Yahoo 用のパブリ�
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 でのパブリック ユーザー アクセスを制御するポリシーの構成](lync-server-2013-configure-policies-to-control-public-user-access.md)  
-[Lync Server 2013 でのフェデレーションおよびパブリック IM 接続の有効化または無効化](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)  
+[Lync Server 2013 でのパブリックユーザーアクセスを制御するポリシーの構成](lync-server-2013-configure-policies-to-control-public-user-access.md)  
+[Lync Server 2013 でフェデレーションとパブリック IM 接続を有効または無効にする](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)  
   
 
 </div>

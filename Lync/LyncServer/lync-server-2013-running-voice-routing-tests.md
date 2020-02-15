@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 音声ルーティング テストの実行'
+title: 'Lync Server 2013: 音声ルーティングテストの実行'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184185
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 869966f5d315fdfaa92409a7586b9eec8fd01ec4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a04188d671c514557107a7e54eab9ea00d00f2a0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765035"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41987332"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="running-voice-routing-tests-in-lync-server-2013"></a>Lync Server 2013 での音声ルーティング テストの実行
+# <a name="running-voice-routing-tests-in-lync-server-2013"></a>Lync Server 2013 での音声ルーティングテストの実行
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41765035"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-21_
+_**トピックの最終更新日:** 2013-02-21_
 
-Lync Server 2013 には、音声ルートをテストするための2つの異なる方法が用意されています。任意の電話番号やボイスルートに対して臨時のアドホックテストを行うことができます。または、ボイスルーティングテストケースを使用して、さらに正式なテストを行うこともできます。 正式なテストでは、ダイヤルする番号やダイヤルプランと音声ポリシーなどを定義して、それらの条件が満たされた場合に、指定された番号を PSTN ネットワークに正常にルーティングできることを確認します。 この2つの方法については、このドキュメントの以降のセクションで説明します。
+Lync Server 2013 では、ボイスルートをテストするための2つの異なる方法が提供されています。あらゆる電話番号や音声ルートに対して非公式なアドホックテストを行うことができます。または、ボイスルートのテストケースを使用して、より正式なテストを行うことができます。 正式なテストでは、ダイヤルする番号、使用するダイヤルプランと音声ポリシーなどの項目を定義します。次に、これらの条件が満たされた場合に、指定した番号を PSTN ネットワークにルーティングできることを、Lync Server が確認できます。 これらの方法については、このドキュメントの次のセクションで説明します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 で非公式の音声ルーティングテストを実行する](lync-server-2013-run-informal-voice-routing-tests.md)
+  - [Lync Server 2013 での非公式の音声ルーティングテストの実行](lync-server-2013-run-informal-voice-routing-tests.md)
 
-  - [Lync Server 2013 でボイスルーティングテストケースを実行する](lync-server-2013-run-voice-routing-test-cases.md)
+  - [Lync Server 2013 での音声ルーティングテストケースの実行](lync-server-2013-run-voice-routing-test-cases.md)
 
 </div>
 

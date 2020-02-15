@@ -12,16 +12,16 @@ ms:contentKeyID: 48184616
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 419da11696e5938d4c93cde565e6d0b1b6fc6e76
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9db240b042c40ffaf07d42ce4c60bb1777963fce
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743587"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034167"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41743587"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-26_
+_**トピックの最終更新日:** 2012-09-26_
 
-このセクションのトピックでは、パイロットプールの展開に Lync Server 2013 Edge サーバーを追加する方法について説明します。 このトピックでは、[**新しいエッジプールの展開**] ウィザードを実行するときの構成と検証のガイダンスを提供します。
+このセクションのトピックでは、Lync Server 2013 エッジサーバーをパイロットプール展開に追加する方法について説明します。 各トピックでは、**新しいエッジ プールの展開**ウィザードを実行するときの構成および確認の方法について説明します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [パイロット エッジ サーバーの展開](deploy-pilot-edge-server_1.md)
+  - [パイロット エッジ サーバーを展開する](deploy-pilot-edge-server_1.md)
 
   - [構成設定のレプリケーションを検証する](validate-replication-of-configuration-settings.md)
 

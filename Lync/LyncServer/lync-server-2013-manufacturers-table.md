@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Manufacturers テーブル'
+title: 'Lync Server 2013: 製造元テーブル'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184481
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8123d516e41d2d6a25d4cfca2234110bff129782
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 80ff164c294e2f9133f249ab9bfc3b737f7e5e3e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723987"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41991502"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="manufacturers-table-in-lync-server-2013"></a>Lync Server 2013 の Manufacturers テーブル
+# <a name="manufacturers-table-in-lync-server-2013"></a>Lync Server 2013 の [製造元の表」
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41723987"
 
 <span> </span>
 
-_**最終更新日:** 2010-11-07_
+_**トピックの最終更新日:** 2010-11-07_
 
-製造業者テーブルは、サポートされているテーブルです。 各レコードには、1つのデバイス (卓上電話) の製造元に関する情報が格納されます。
+ベンダーテーブルは、サポートテーブルです。 各レコードには、1つのデバイス (電話) の製造元に関する情報が格納されます。
 
 
 <table>
@@ -57,16 +57,16 @@ _**最終更新日:** 2010-11-07_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Manufacturerid]</strong></p></td>
+<td><p><strong>ManufacturerId</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>この製造元を特定する固有の番号。</p></td>
+<td><p>この製造元を識別する一意の番号。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>[製造元]</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p><strong>製造</strong></p></td>
+<td><p>nvarchar (256)</p></td>
 <td><p> </p></td>
-<td><p>メーカー名。</p></td>
+<td><p>製造元の名前。</p></td>
 </tr>
 </tbody>
 </table>

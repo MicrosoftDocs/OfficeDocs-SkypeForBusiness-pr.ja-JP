@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ネットワークメディアのバイパスを無効にする'
+title: 'Lync Server 2013: ネットワークメディアバイパスの無効化'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733741
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0457281a743d317e17a5fd0728e1a747b4d88271
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 58bf551f94bc6b3ba919437730841f54dd01e291
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757611"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034839"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="disabling-network-media-bypass-in-lync-server-2013"></a>Lync Server 2013 でネットワークメディアのバイパスを無効にする
+# <a name="disabling-network-media-bypass-in-lync-server-2013"></a>Lync Server 2013 でのネットワークメディアバイパスの無効化
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41757611"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-15_
+_**トピックの最終更新日:** 2012-10-15_
 
-メディアバイパスの設定は、Microsoft Lync Server 2013 の展開でグローバルに適用されます。 メディアのバイパスでは、仲介サーバーを経由せずに通話を発信できます。 メディアのバイパスを使用する場合の詳細については、「計画」セクションの「 [Lync Server 2013 でのメディアのバイパスの計画](lync-server-2013-planning-for-media-bypass.md)」を参照してください。Lync Server コントロールパネルからメディアのバイパスを無効にすることができます。 Medial バイパスの有効化と構成の詳細については、「 [Lync Server 2013 でネットワークメディアのバイパスを有効にする](lync-server-2013-enabling-network-media-bypass.md)」を参照してください。
+メディアバイパスの設定は、Microsoft Lync Server 2013 の展開全体でグローバルに適用されます。 メディアバイパスは、呼び出しが仲介サーバーをバイパスすることを許可します。 メディアバイパスを使用するタイミングの詳細については、「計画」セクションの「 [Lync Server 2013 でのメディアバイパスの計画](lync-server-2013-planning-for-media-bypass.md)」を参照してください。Lync Server コントロールパネルからメディアバイパスを無効にすることができます。 Medial バイパスの有効化と構成の詳細については、「 [Lync Server でのネットワークメディアバイパスの有効化 2013](lync-server-2013-enabling-network-media-bypass.md) 」を参照してください。
 
 <div>
 
-## <a name="to-disable-media-bypass"></a>メディアのバイパスを無効にするには
+## <a name="to-disable-media-bypass"></a>メディア バイパスを無効にするには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
-3.  左側のナビゲーションバーで [**ネットワーク構成**] をクリックし、[**グローバル**] をクリックします。
+3.  左側のナビゲーション バーで [**ネットワーク構成**] をクリックし、[**グローバル**] をクリックします。
 
-4.  [**グローバル**] ページで、[**グローバル**構成] をクリックします。 構成は常に1つだけであり、常に Global という名前が付いています。
+4.  [**グローバル**] ページで [**グローバル**] 構成をクリックします。存在する構成は必ず 1 つのみで、必ずグローバルという名前です。
 
 5.  [**編集**] メニューの [**詳細の表示**] をクリックします。
 
-6.  [**グローバル設定の編集**] ページで、[**メディアバイパスを有効にする**] チェックボックスをオフにします。
+6.  [**グローバル設定の編集**] ページの [**メディア バイパスを有効にする**] チェック ボックスをオフにします。
 
-7.  [**コミット**] をクリックして変更内容を保存します。
+7.  [**確定**] をクリックして変更を保存します。
 
 </div>
 
@@ -64,7 +64,7 @@ _**最終更新日:** 2012-10-15_
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 でネットワークメディアのバイパスを有効にする](lync-server-2013-enabling-network-media-bypass.md)  
+[Lync Server 2013 でのネットワークメディアバイパスの有効化](lync-server-2013-enabling-network-media-bypass.md)  
   
 
 </div>
