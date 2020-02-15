@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: アナウンスメントアプリケーションの展開プロセス'
+title: 'Lync Server 2013: アナウンスアプリケーションの展開プロセス'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184500
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dcb56f197a32403d1207cf0a15d47e0459fc41bf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 55e0c65bfbbed55a8d7f9c3be4f7a586581c2307
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762575"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042254"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-for-the-announcement-application-in-lync-server-2013"></a><span data-ttu-id="4a8d3-102">Lync Server 2013 のアナウンスメントアプリケーションの展開プロセス</span><span class="sxs-lookup"><span data-stu-id="4a8d3-102">Deployment process for the Announcement application in Lync Server 2013</span></span>
+# <a name="deployment-process-for-the-announcement-application-in-lync-server-2013"></a><span data-ttu-id="3dae5-102">Lync Server 2013 のアナウンスアプリケーションの展開プロセス</span><span class="sxs-lookup"><span data-stu-id="3dae5-102">Deployment process for the Announcement application in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41762575"
 
 <span> </span>
 
-<span data-ttu-id="4a8d3-103">_**最終更新日:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="4a8d3-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+<span data-ttu-id="3dae5-103">_**トピックの最終更新日:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="3dae5-103">_**Topic Last Modified:** 2012-09-12_</span></span>
 
-<span data-ttu-id="4a8d3-104">このセクションでは、アナウンスメントアプリケーションの展開に関連する手順の概要を説明します。</span><span class="sxs-lookup"><span data-stu-id="4a8d3-104">This section provides an overview of the steps involved in deploying the Announcement application.</span></span> <span data-ttu-id="4a8d3-105">お知らせを構成する前に、エンタープライズボイスを展開する必要があります。</span><span class="sxs-lookup"><span data-stu-id="4a8d3-105">You must deploy Enterprise Voice before you configure announcements.</span></span> <span data-ttu-id="4a8d3-106">[エンタープライズ Voip] を展開すると、アナウンスメントアプリケーションで必要なコンポーネントがインストールされて有効になります。</span><span class="sxs-lookup"><span data-stu-id="4a8d3-106">The components required by the Announcement application are installed and enabled when you deploy Enterprise Voice.</span></span>
+<span data-ttu-id="3dae5-104">このセクションでは、アナウンスメントアプリケーションの展開に必要な手順の概要について説明します。</span><span class="sxs-lookup"><span data-stu-id="3dae5-104">This section provides an overview of the steps involved in deploying the Announcement application.</span></span> <span data-ttu-id="3dae5-105">アナウンスを構成する前に、エンタープライズ Voip を展開する必要があります。</span><span class="sxs-lookup"><span data-stu-id="3dae5-105">You must deploy Enterprise Voice before you configure announcements.</span></span> <span data-ttu-id="3dae5-106">[] エンタープライズ Voip を展開すると、アナウンスメントアプリケーションに必要なコンポーネントがインストールされ、有効になります。</span><span class="sxs-lookup"><span data-stu-id="3dae5-106">The components required by the Announcement application are installed and enabled when you deploy Enterprise Voice.</span></span>
 
-### <a name="announcement-deployment-process"></a><span data-ttu-id="4a8d3-107">アナウンスの展開プロセス</span><span class="sxs-lookup"><span data-stu-id="4a8d3-107">Announcement Deployment Process</span></span>
+### <a name="announcement-deployment-process"></a><span data-ttu-id="3dae5-107">アナウンスの展開プロセス</span><span class="sxs-lookup"><span data-stu-id="3dae5-107">Announcement Deployment Process</span></span>
 
 <table>
 <colgroup>
@@ -50,32 +50,32 @@ ms.locfileid: "41762575"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="4a8d3-108">フェーズ</span><span class="sxs-lookup"><span data-stu-id="4a8d3-108">Phase</span></span></th>
-<th><span data-ttu-id="4a8d3-109">手順</span><span class="sxs-lookup"><span data-stu-id="4a8d3-109">Steps</span></span></th>
-<th><span data-ttu-id="4a8d3-110">役割</span><span class="sxs-lookup"><span data-stu-id="4a8d3-110">Roles</span></span></th>
-<th><span data-ttu-id="4a8d3-111">「展開」のドキュメント</span><span class="sxs-lookup"><span data-stu-id="4a8d3-111">Deployment documentation</span></span></th>
+<th><span data-ttu-id="3dae5-108">フェーズ</span><span class="sxs-lookup"><span data-stu-id="3dae5-108">Phase</span></span></th>
+<th><span data-ttu-id="3dae5-109">手順</span><span class="sxs-lookup"><span data-stu-id="3dae5-109">Steps</span></span></th>
+<th><span data-ttu-id="3dae5-110">ロール</span><span class="sxs-lookup"><span data-stu-id="3dae5-110">Roles</span></span></th>
+<th><span data-ttu-id="3dae5-111">展開のドキュメント</span><span class="sxs-lookup"><span data-stu-id="3dae5-111">Deployment documentation</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="4a8d3-112">アナウンス設定の構成</span><span class="sxs-lookup"><span data-stu-id="4a8d3-112">Configure Announcement settings</span></span></p></td>
+<td><p><span data-ttu-id="3dae5-112">アナウンス設定を構成する</span><span class="sxs-lookup"><span data-stu-id="3dae5-112">Configure Announcement settings</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="4a8d3-113">オーディオ ファイルをレコーディングして読み込むか、音声合成 (TTS) を使用して、アナウンスを作成します。</span><span class="sxs-lookup"><span data-stu-id="4a8d3-113">Create the announcement by recording and uploading audio files or by using text-to-speech (TTS).</span></span></p></li>
-<li><p><span data-ttu-id="4a8d3-114">割り当てられていない番号の表で、割り当てられていない番号の範囲を構成して、適切なアナウンスに関連付けます。</span><span class="sxs-lookup"><span data-stu-id="4a8d3-114">Configure the unassigned number ranges in the unassigned number table and associate them with the appropriate announcement.</span></span></p></li>
+<li><p><span data-ttu-id="3dae5-113">音声ファイルを録音およびアップロードするか、音声合成 (TTS) を使用してアナウンスを作成します。</span><span class="sxs-lookup"><span data-stu-id="3dae5-113">Create the announcement by recording and uploading audio files or by using text-to-speech (TTS).</span></span></p></li>
+<li><p><span data-ttu-id="3dae5-114">割り当てられていない番号の範囲を構成し、適切なアナウンスに関連付けます。</span><span class="sxs-lookup"><span data-stu-id="3dae5-114">Configure the unassigned number ranges in the unassigned number table and associate them with the appropriate announcement.</span></span></p></li>
 </ul></td>
-<td><p><span data-ttu-id="4a8d3-115">RTCUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="4a8d3-115">RTCUniversalServerAdmins</span></span></p>
-<p><span data-ttu-id="4a8d3-116">CsVoiceAdministrator</span><span class="sxs-lookup"><span data-stu-id="4a8d3-116">CsVoiceAdministrator</span></span></p>
-<p><span data-ttu-id="4a8d3-117">CsServerAdministrator</span><span class="sxs-lookup"><span data-stu-id="4a8d3-117">CsServerAdministrator</span></span></p>
-<p><span data-ttu-id="4a8d3-118">CsAdministrator</span><span class="sxs-lookup"><span data-stu-id="4a8d3-118">CsAdministrator</span></span></p>
-<p><span data-ttu-id="4a8d3-119">CsViewOnlyAdministrator</span><span class="sxs-lookup"><span data-stu-id="4a8d3-119">CsViewOnlyAdministrator</span></span></p></td>
-<td><p><span data-ttu-id="4a8d3-120"><a href="lync-server-2013-create-an-announcement.md">Lync Server 2013 でお知らせを作成する</a></span><span class="sxs-lookup"><span data-stu-id="4a8d3-120"><a href="lync-server-2013-create-an-announcement.md">Create an announcement in Lync Server 2013</a></span></span></p>
-<p><span data-ttu-id="4a8d3-121"><a href="lync-server-2013-configure-the-unassigned-number-table.md">Lync Server 2013 での割り当てられていない番号の表の構成</a></span><span class="sxs-lookup"><span data-stu-id="4a8d3-121"><a href="lync-server-2013-configure-the-unassigned-number-table.md">Configure the unassigned number table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="3dae5-115">RTCUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="3dae5-115">RTCUniversalServerAdmins</span></span></p>
+<p><span data-ttu-id="3dae5-116">CsVoiceAdministrator</span><span class="sxs-lookup"><span data-stu-id="3dae5-116">CsVoiceAdministrator</span></span></p>
+<p><span data-ttu-id="3dae5-117">CsServerAdministrator</span><span class="sxs-lookup"><span data-stu-id="3dae5-117">CsServerAdministrator</span></span></p>
+<p><span data-ttu-id="3dae5-118">CsAdministrator</span><span class="sxs-lookup"><span data-stu-id="3dae5-118">CsAdministrator</span></span></p>
+<p><span data-ttu-id="3dae5-119">CsViewOnlyAdministrator</span><span class="sxs-lookup"><span data-stu-id="3dae5-119">CsViewOnlyAdministrator</span></span></p></td>
+<td><p><span data-ttu-id="3dae5-120"><a href="lync-server-2013-create-an-announcement.md">Lync Server 2013 でアナウンスを作成する</a></span><span class="sxs-lookup"><span data-stu-id="3dae5-120"><a href="lync-server-2013-create-an-announcement.md">Create an announcement in Lync Server 2013</a></span></span></p>
+<p><span data-ttu-id="3dae5-121"><a href="lync-server-2013-configure-the-unassigned-number-table.md">Lync Server 2013 で割り当てられていない番号の表を構成する</a></span><span class="sxs-lookup"><span data-stu-id="3dae5-121"><a href="lync-server-2013-configure-the-unassigned-number-table.md">Configure the unassigned number table in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4a8d3-122">アナウンスの展開の確認</span><span class="sxs-lookup"><span data-stu-id="4a8d3-122">Verify your Announcement deployment</span></span></p></td>
-<td><p><span data-ttu-id="4a8d3-123">アナウンスを聞いてテストし、構成が予想どおりに動作することを確認します。</span><span class="sxs-lookup"><span data-stu-id="4a8d3-123">Test by listening to announcements to verify that your configuration works as expected.</span></span></p></td>
+<td><p><span data-ttu-id="3dae5-122">アナウンスの展開の確認</span><span class="sxs-lookup"><span data-stu-id="3dae5-122">Verify your Announcement deployment</span></span></p></td>
+<td><p><span data-ttu-id="3dae5-123">アナウンスを聞いてテストし、構成が予想どおりに動作することを確認します。</span><span class="sxs-lookup"><span data-stu-id="3dae5-123">Test by listening to announcements to verify that your configuration works as expected.</span></span></p></td>
 <td><p>-</p></td>
-<td><p><span data-ttu-id="4a8d3-124"><a href="lync-server-2013-optional-verify-announcement-deployment.md">省略Lync Server 2013 でのアナウンスメントの展開を確認する</a></span><span class="sxs-lookup"><span data-stu-id="4a8d3-124"><a href="lync-server-2013-optional-verify-announcement-deployment.md">(Optional) Verify Announcement deployment in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="3dae5-124"><a href="lync-server-2013-optional-verify-announcement-deployment.md">オプションLync Server 2013 でのアナウンスの展開の確認</a></span><span class="sxs-lookup"><span data-stu-id="3dae5-124"><a href="lync-server-2013-optional-verify-announcement-deployment.md">(Optional) Verify Announcement deployment in Lync Server 2013</a></span></span></p></td>
 </tr>
 </tbody>
 </table>

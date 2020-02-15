@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: クライアントのバージョン構成の設定'
+title: 'Lync Server 2013: クライアントバージョンの構成設定'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 50553005
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 588189b093a27c65ff8348a9c176f9be4f9d1c4d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3365f3a1d2059692a5222fd19871f91836852a04
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733837"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044399"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="client-version-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="b52ba-102">Lync Server 2013 のクライアントバージョンの構成設定</span><span class="sxs-lookup"><span data-stu-id="b52ba-102">Client version configuration settings in Lync Server 2013</span></span>
+# <a name="client-version-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="b7cbf-102">Lync Server 2013 のクライアントバージョンの構成設定</span><span class="sxs-lookup"><span data-stu-id="b7cbf-102">Client version configuration settings in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41733837"
 
 <span> </span>
 
-<span data-ttu-id="b52ba-103">_**最終更新日:** 2012-12-12_</span><span class="sxs-lookup"><span data-stu-id="b52ba-103">_**Topic Last Modified:** 2012-12-12_</span></span>
+<span data-ttu-id="b7cbf-103">_**トピックの最終更新日:** 2012-12-12_</span><span class="sxs-lookup"><span data-stu-id="b7cbf-103">_**Topic Last Modified:** 2012-12-12_</span></span>
 
-<span data-ttu-id="b52ba-104">クライアントバージョンの構成設定は、グローバルに、または特定のサイトに対して、クライアントのバージョン管理をオンまたはオフにするために使用されます。</span><span class="sxs-lookup"><span data-stu-id="b52ba-104">Client version configuration settings are used to turn client version control on or off, either globally or for particular sites.</span></span> <span data-ttu-id="b52ba-105">Lync Server 2013 のクライアントバージョンの構成設定を構成するには、次の手順を使用します。</span><span class="sxs-lookup"><span data-stu-id="b52ba-105">Use the following procedures to configure client version configuration settings for Lync Server 2013.</span></span>
+<span data-ttu-id="b7cbf-104">クライアントバージョンの構成設定を使用して、クライアントバージョンの制御をグローバルに、または特定のサイトに対して有効または無効にします。</span><span class="sxs-lookup"><span data-stu-id="b7cbf-104">Client version configuration settings are used to turn client version control on or off, either globally or for particular sites.</span></span> <span data-ttu-id="b7cbf-105">Lync Server 2013 のクライアントバージョンの構成設定を構成するには、以下の手順を使用します。</span><span class="sxs-lookup"><span data-stu-id="b7cbf-105">Use the following procedures to configure client version configuration settings for Lync Server 2013.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="b52ba-106">このセクション中</span><span class="sxs-lookup"><span data-stu-id="b52ba-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="b7cbf-106">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="b7cbf-106">In This Section</span></span>
 
-  - [<span data-ttu-id="b52ba-107">Lync Server 2013 でクライアントのバージョン管理を有効または無効にする</span><span class="sxs-lookup"><span data-stu-id="b52ba-107">Enable or disable client versioning in Lync Server 2013</span></span>](lync-server-2013-enable-or-disable-client-versioning.md)
+  - [<span data-ttu-id="b7cbf-107">Lync Server 2013 でクライアントのバージョン管理を有効または無効にする</span><span class="sxs-lookup"><span data-stu-id="b7cbf-107">Enable or disable client versioning in Lync Server 2013</span></span>](lync-server-2013-enable-or-disable-client-versioning.md)
 
-  - [<span data-ttu-id="b52ba-108">Lync Server 2013 でクライアントのバージョン構成設定のコレクションを作成または変更する</span><span class="sxs-lookup"><span data-stu-id="b52ba-108">Create or modify a collection of client version configuration settings in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-collection-of-client-version-configuration-settings.md)
+  - [<span data-ttu-id="b7cbf-108">Lync Server 2013 でクライアントバージョン構成設定のコレクションを作成または変更する</span><span class="sxs-lookup"><span data-stu-id="b7cbf-108">Create or modify a collection of client version configuration settings in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-collection-of-client-version-configuration-settings.md)
 
-  - [<span data-ttu-id="b52ba-109">Lync Server 2013 で明示的にサポートまたは制限されていないクライアントの既定のアクションを変更する</span><span class="sxs-lookup"><span data-stu-id="b52ba-109">Modify the default action for clients not explicitly supported or restricted in Lync Server 2013</span></span>](lync-server-2013-modify-the-default-action-for-clients-not-explicitly-supported-or-restricted.md)
+  - [<span data-ttu-id="b7cbf-109">Lync Server 2013 で明示的にサポートまたは制限されていないクライアントの既定のアクションを変更する</span><span class="sxs-lookup"><span data-stu-id="b7cbf-109">Modify the default action for clients not explicitly supported or restricted in Lync Server 2013</span></span>](lync-server-2013-modify-the-default-action-for-clients-not-explicitly-supported-or-restricted.md)
 
-  - [<span data-ttu-id="b52ba-110">Lync Server 2013 でクライアントのバージョン構成の設定を表示する</span><span class="sxs-lookup"><span data-stu-id="b52ba-110">View client version configuration settings in Lync Server 2013</span></span>](lync-server-2013-view-client-version-configuration-settings.md)
+  - [<span data-ttu-id="b7cbf-110">Lync Server 2013 でクライアントバージョンの構成設定を表示する</span><span class="sxs-lookup"><span data-stu-id="b7cbf-110">View client version configuration settings in Lync Server 2013</span></span>](lync-server-2013-view-client-version-configuration-settings.md)
 
-  - [<span data-ttu-id="b52ba-111">Lync Server 2013 でクライアントバージョンの構成設定の既存のコレクションを削除する</span><span class="sxs-lookup"><span data-stu-id="b52ba-111">Delete an existing collection of client version configuration settings in Lync Server 2013</span></span>](lync-server-2013-delete-an-existing-collection-of-client-version-configuration-settings.md)
+  - [<span data-ttu-id="b7cbf-111">Lync Server 2013 でクライアントバージョン構成設定の既存のコレクションを削除する</span><span class="sxs-lookup"><span data-stu-id="b7cbf-111">Delete an existing collection of client version configuration settings in Lync Server 2013</span></span>](lync-server-2013-delete-an-existing-collection-of-client-version-configuration-settings.md)
 
 </div>
 

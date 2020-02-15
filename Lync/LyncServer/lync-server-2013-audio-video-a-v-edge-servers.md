@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 音声/ビデオ (A/V) エッジサーバー'
+title: 'Lync Server 2013: 音声ビデオ (A/V) エッジサーバー'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733785
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c99cc3522c13ece937c6e2a0ba06f995431e08d8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1262ee1a2db12569538f499731de53a9da133c98
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722647"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044739"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="audiovideo-av-edge-servers-in-lync-server-2013"></a><span data-ttu-id="b7abc-102">Lync Server 2013 の音声/ビデオ (A/V) エッジサーバー</span><span class="sxs-lookup"><span data-stu-id="b7abc-102">Audio/Video (A/V) Edge Servers in Lync Server 2013</span></span>
+# <a name="audiovideo-av-edge-servers-in-lync-server-2013"></a><span data-ttu-id="d5491-102">Lync Server 2013 の音声ビデオ (A/V) エッジサーバー</span><span class="sxs-lookup"><span data-stu-id="d5491-102">Audio/Video (A/V) Edge Servers in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41722647"
 
 <span> </span>
 
-<span data-ttu-id="b7abc-103">_**最終更新日:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="b7abc-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="d5491-103">_**トピックの最終更新日:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="d5491-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="b7abc-104">A/V Edge サービスは、内部ユーザー (組織のネットワークにログオンしているユーザー) が、外部ユーザー (組織のネットワークにログオンしていないユーザー) とオーディオやビデオを共有できるようにするための手段を提供します。</span><span class="sxs-lookup"><span data-stu-id="b7abc-104">The A/V Edge service provide a way for your internal users (users who are logged on to your organizational network) to share audio and video with external users (users who are not logged on to your organizational network).</span></span> <span data-ttu-id="b7abc-105">オーディオとビデオに加えて、A/V Edge サービスでは、デスクトップ共有やファイル転送などの機能もサポートしています。</span><span class="sxs-lookup"><span data-stu-id="b7abc-105">In addition to audio and video, the A/V Edge service also provides support for such things desktop sharing and file transfer.</span></span>
+<span data-ttu-id="d5491-p101">音声ビデオ エッジ サービスを使用すると、内部ユーザー (組織のネットワークにログオンしているユーザー) は外部ユーザー (組織のネットワークにログオンしていないユーザー) とオーディオおよびビデオを共有できるようになります。音声およびビデオに加え、音声ビデオ エッジ サービスはデスクトップ共有やファイル送信などもサポートします。</span><span class="sxs-lookup"><span data-stu-id="d5491-p101">The A/V Edge service provide a way for your internal users (users who are logged on to your organizational network) to share audio and video with external users (users who are not logged on to your organizational network). In addition to audio and video, the A/V Edge service also provides support for such things desktop sharing and file transfer.</span></span>
 
-<span data-ttu-id="b7abc-106">A/V Edge サービスは、主に、A/V Edge 構成を使って管理されます。これらの設定では、1つのポートとユーザーごとに割り当てることができる帯域幅の最大量を管理できます。また、そのトークンが更新されるまでに認証トークンを使うことができる時間の長さを指定します。</span><span class="sxs-lookup"><span data-stu-id="b7abc-106">The A/V Edge service is primarily managed by using A/V Edge configuration; these settings enable you to manage the maximum amount of bandwidth to be allocated per port and per user, and to specify the length of time that an authentication token can be used before that token must be renewed.</span></span> <span data-ttu-id="b7abc-107">A/V Edge の構成設定は、サイトまたは個々の A/V エッジサーバーに適用できます。</span><span class="sxs-lookup"><span data-stu-id="b7abc-107">A/V Edge configuration settings can be applied to sites or to individual A/V Edge servers.</span></span> <span data-ttu-id="b7abc-108">優先される設定のコレクションを決定する際には、次のガイドを使用します。</span><span class="sxs-lookup"><span data-stu-id="b7abc-108">When determining which collection of settings will take priority, use the following guide:</span></span>
+<span data-ttu-id="d5491-p102">音声ビデオ エッジ サービスは主に音声ビデオ エッジ構成を使用して管理されます。これらの設定を使用すると、ポートごとおよびユーザーごとに割り当てる最大帯域幅を管理したり、認証トークンを更新する前に使用できる時間の長さを指定したりすることができます。音声ビデオ エッジ構成設定は、サイトまたは個々の音声ビデオ エッジ サーバーに適用できます。優先する設定のコレクションを判断するときは、以下のガイドを使用します。</span><span class="sxs-lookup"><span data-stu-id="d5491-p102">The A/V Edge service is primarily managed by using A/V Edge configuration; these settings enable you to manage the maximum amount of bandwidth to be allocated per port and per user, and to specify the length of time that an authentication token can be used before that token must be renewed. A/V Edge configuration settings can be applied to sites or to individual A/V Edge servers. When determining which collection of settings will take priority, use the following guide:</span></span>
 
-  - <span data-ttu-id="b7abc-109">サービスの範囲 (つまり個々のサーバー) で構成された設定は、すべてのユーザーに対して優先順位を持ちます。</span><span class="sxs-lookup"><span data-stu-id="b7abc-109">Settings configured at the service scope (that is, on an individual server) take priority over everything.</span></span>
+  - <span data-ttu-id="d5491-109">サービス スコープで (つまり個々のサーバーで) 構成した設定は最優先されます。</span><span class="sxs-lookup"><span data-stu-id="d5491-109">Settings configured at the service scope (that is, on an individual server) take priority over everything.</span></span>
 
-  - <span data-ttu-id="b7abc-110">サイトのスコープで構成された設定は、グローバルスコープで構成されている設定よりも優先されます。</span><span class="sxs-lookup"><span data-stu-id="b7abc-110">Settings configured at the site scope take priority over settings configured at the global scope.</span></span> <span data-ttu-id="b7abc-111">ただし、サービスの範囲設定は、サイトの範囲設定にも優先されます。</span><span class="sxs-lookup"><span data-stu-id="b7abc-111">However, service scope settings will also supersede site-scope settings.</span></span>
+  - <span data-ttu-id="d5491-p103">サイト スコープで構成した設定は、グローバル スコープで構成した設定より優先されます。ただし、サービス スコープ設定はサイトスコープ設定を置き換えます。</span><span class="sxs-lookup"><span data-stu-id="d5491-p103">Settings configured at the site scope take priority over settings configured at the global scope. However, service scope settings will also supersede site-scope settings.</span></span>
 
-  - <span data-ttu-id="b7abc-112">グローバルスコープの設定は、個々のサーバーで構成されているサービス設定がなく、そのサーバーが配置されているサイトのサイト設定がない場合にのみ使用されます。</span><span class="sxs-lookup"><span data-stu-id="b7abc-112">Settings at the global scope will be used only if there are no service settings configured on the individual server and if there are no site settings for the site where that server is located.</span></span>
+  - <span data-ttu-id="d5491-112">グローバル スコープで構成した設定は、個々のサーバーで構成されたサービス設定がなく、サーバーが配置されているサイトのサイト設定がない場合にのみ使用されます。</span><span class="sxs-lookup"><span data-stu-id="d5491-112">Settings at the global scope will be used only if there are no service settings configured on the individual server and if there are no site settings for the site where that server is located.</span></span>
 
-<span data-ttu-id="b7abc-113">A/V Edge サービスを管理するには、Lync Server PowerShell と CsAVEdgeConfiguration コマンドレットを使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="b7abc-113">The A/V Edge service can only be managed by using Lync Server PowerShell and the CsAVEdgeConfiguration cmdlets.</span></span>
+<span data-ttu-id="d5491-113">音声ビデオエッジサービスは、Lync Server PowerShell と Get-csavedgeconfiguration コマンドレットを使用してのみ管理できます。</span><span class="sxs-lookup"><span data-stu-id="d5491-113">The A/V Edge service can only be managed by using Lync Server PowerShell and the CsAVEdgeConfiguration cmdlets.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="b7abc-114">このセクション中</span><span class="sxs-lookup"><span data-stu-id="b7abc-114">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="d5491-114">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="d5491-114">In This Section</span></span>
 
-  - [<span data-ttu-id="b7abc-115">Lync Server 2013 で A/V Edge サーバーの構成情報を返す</span><span class="sxs-lookup"><span data-stu-id="b7abc-115">Return A/V Edge Server configuration information in Lync Server 2013</span></span>](lync-server-2013-return-a-v-edge-server-configuration-information.md)
+  - [<span data-ttu-id="d5491-115">Lync Server 2013 での音声ビデオエッジサーバーの構成情報の取得</span><span class="sxs-lookup"><span data-stu-id="d5491-115">Return A/V Edge Server configuration information in Lync Server 2013</span></span>](lync-server-2013-return-a-v-edge-server-configuration-information.md)
 
-  - [<span data-ttu-id="b7abc-116">Lync Server 2013 での A/V Edge サーバー構成設定のコレクションを作成または変更する</span><span class="sxs-lookup"><span data-stu-id="b7abc-116">Create or modify a collection of A/V Edge Server configuration settings in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-collection-of-a-v-edge-server-configuration-settings.md)
+  - [<span data-ttu-id="d5491-116">Lync Server 2013 での音声ビデオエッジサーバー構成設定のコレクションの作成または変更</span><span class="sxs-lookup"><span data-stu-id="d5491-116">Create or modify a collection of A/V Edge Server configuration settings in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-collection-of-a-v-edge-server-configuration-settings.md)
 
-  - [<span data-ttu-id="b7abc-117">Lync Server 2013 での既存の A/V エッジサーバー構成の設定を削除する</span><span class="sxs-lookup"><span data-stu-id="b7abc-117">Delete an existing collection of A/V Edge Server configuration settings in Lync Server 2013</span></span>](lync-server-2013-delete-an-existing-collection-of-a-v-edge-server-configuration-settings.md)
+  - [<span data-ttu-id="d5491-117">Lync Server 2013 の音声ビデオエッジサーバー構成設定の既存コレクションの削除</span><span class="sxs-lookup"><span data-stu-id="d5491-117">Delete an existing collection of A/V Edge Server configuration settings in Lync Server 2013</span></span>](lync-server-2013-delete-an-existing-collection-of-a-v-edge-server-configuration-settings.md)
 
 </div>
 

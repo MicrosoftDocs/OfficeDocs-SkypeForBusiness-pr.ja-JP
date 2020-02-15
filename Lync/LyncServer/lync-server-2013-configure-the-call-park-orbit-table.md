@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: コール パーク オービット テーブルの構成'
+title: 'Lync Server 2013: コールパークオービットテーブルの構成'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185666
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 417fb90feb9f12f8c2776518fa8fefffae7ff003
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dbeb465bd9ac4e62a51ab562238db9a6c0828f99
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739997"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043239"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-the-call-park-orbit-table-in-lync-server-2013"></a><span data-ttu-id="31e76-102">Lync Server 2013 でのコール パーク オービット テーブルの構成</span><span class="sxs-lookup"><span data-stu-id="31e76-102">Configure the Call Park orbit table in Lync Server 2013</span></span>
+# <a name="configure-the-call-park-orbit-table-in-lync-server-2013"></a><span data-ttu-id="a899c-102">Lync Server 2013 でコールパークオービットテーブルを構成する</span><span class="sxs-lookup"><span data-stu-id="a899c-102">Configure the Call Park orbit table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41739997"
 
 <span> </span>
 
-<span data-ttu-id="31e76-103">_**最終更新日:** 2012-09-10_</span><span class="sxs-lookup"><span data-stu-id="31e76-103">_**Topic Last Modified:** 2012-09-10_</span></span>
+<span data-ttu-id="a899c-103">_**トピックの最終更新日:** 2012-09-10_</span><span class="sxs-lookup"><span data-stu-id="a899c-103">_**Topic Last Modified:** 2012-09-10_</span></span>
 
-<span data-ttu-id="31e76-104">コールパークでは、orbits を使用してパーキング通話を行います。</span><span class="sxs-lookup"><span data-stu-id="31e76-104">Call Park uses orbits for parking calls.</span></span> <span data-ttu-id="31e76-105">ユーザーが通話をパークして取得するには、その前に、コールパークの軌道テーブルを構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="31e76-105">Before users can park and retrieve calls, you must configure the Call Park orbit table.</span></span> <span data-ttu-id="31e76-106">組織がパーキング通話のために予約する内線番号 (orbits) の範囲を指定し、各範囲に対してどのコールパークプールを処理するかを指定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="31e76-106">You need to specify the ranges of extension numbers (orbits) that your organization will reserve for parking calls and define the routing for those ranges by specifying which Call Park pool handles each range.</span></span> <span data-ttu-id="31e76-107">軌道の範囲を定義する場合は、1つの軌道がすぐに再利用されることがないように、1つの orbits を使用することをお勧めします。ただし、ユーザーまたは他のサービスで使用可能な拡張機能の数を制限する orbits はあまり多くありません。</span><span class="sxs-lookup"><span data-stu-id="31e76-107">When you define orbit ranges, the goal is to have enough orbits so that any one orbit is not reused too quickly, but not so many orbits that you limit the number of extensions available for users or other services.</span></span> <span data-ttu-id="31e76-108">コールパークアプリケーションが展開されている Lync サーバープールごとに、複数のコールパークの範囲を作成できます。</span><span class="sxs-lookup"><span data-stu-id="31e76-108">You can create multiple Call Park orbit ranges for each Lync Server pool where the Call Park application is deployed.</span></span> <span data-ttu-id="31e76-109">各 Call パーク範囲には、グローバルに一意の名前と一連の固有の拡張子を指定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="31e76-109">Each Call Park orbit range must have a globally unique name and a unique set of extensions.</span></span>
+<span data-ttu-id="a899c-104">コールパークは、オービットを使用してパーキング呼び出しを行います。</span><span class="sxs-lookup"><span data-stu-id="a899c-104">Call Park uses orbits for parking calls.</span></span> <span data-ttu-id="a899c-105">ユーザーが通話をパークおよび取得できるようにするには、コールパークオービットテーブルを構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="a899c-105">Before users can park and retrieve calls, you must configure the Call Park orbit table.</span></span> <span data-ttu-id="a899c-106">組織がパーキング呼び出しに対して予約する内線番号の範囲 (オービット) を指定し、各範囲のルーティングを定義する必要があります。その範囲には、各範囲で処理するコールパークプールを指定します。</span><span class="sxs-lookup"><span data-stu-id="a899c-106">You need to specify the ranges of extension numbers (orbits) that your organization will reserve for parking calls and define the routing for those ranges by specifying which Call Park pool handles each range.</span></span> <span data-ttu-id="a899c-107">オービット範囲を定義するときには、1つのオービットが短時間で再利用されないように、また、ユーザーまたはその他のサービスで使用できる拡張機能の数を制限するために、多くのオービットを使用するのではなく、十分なオービットを使用することを目標にします。</span><span class="sxs-lookup"><span data-stu-id="a899c-107">When you define orbit ranges, the goal is to have enough orbits so that any one orbit is not reused too quickly, but not so many orbits that you limit the number of extensions available for users or other services.</span></span> <span data-ttu-id="a899c-108">コールパークアプリケーションが展開されている Lync Server プールごとに、複数のコールパークオービット範囲を作成できます。</span><span class="sxs-lookup"><span data-stu-id="a899c-108">You can create multiple Call Park orbit ranges for each Lync Server pool where the Call Park application is deployed.</span></span> <span data-ttu-id="a899c-109">各コールパークオービット範囲には、グローバルに一意の名前と、固有の拡張子のセットを含める必要があります。</span><span class="sxs-lookup"><span data-stu-id="a899c-109">Each Call Park orbit range must have a globally unique name and a unique set of extensions.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="31e76-p102">一般的にオービット範囲には 100 未満のオービットが含まれます。1 つの範囲の上限は 10,000 オービットです。1 つのプールに含まれるオービットの数は 50,000 未満です。範囲が小さすぎると、オービットが再び使用されるまでの時間が短くなります。</span><span class="sxs-lookup"><span data-stu-id="31e76-p102">An orbit range typically encompasses 100 or fewer orbits. Each range can be much larger, as long as it is smaller than the maximum of 10,000 orbits per range and you have fewer than 50,000 orbits per pool. If a range is too small, the orbits are reused more quickly.</span></span>
+> <span data-ttu-id="a899c-p102">一般的にオービット範囲には 100 未満のオービットが含まれます。 1 つの範囲の上限は 10,000 オービットです。1 つのプールに含まれるオービットの数は 50,000 未満です。 範囲が小さすぎると、オービットが再び使用されるまでの時間が短くなります。</span><span class="sxs-lookup"><span data-stu-id="a899c-p102">An orbit range typically encompasses 100 or fewer orbits. Each range can be much larger, as long as it is smaller than the maximum of 10,000 orbits per range and you have fewer than 50,000 orbits per pool. If a range is too small, the orbits are reused more quickly.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="31e76-113">オービット範囲には、仮想内線番号ブロック (ユーザーまたは電話機が割り当てられていない内線番号) を使用します。</span><span class="sxs-lookup"><span data-stu-id="31e76-113">Use blocks of virtual extensions (extensions that have no user or phone assigned to them) for your orbit ranges.</span></span>
+<span data-ttu-id="a899c-113">オービット範囲には、仮想内線番号ブロック (ユーザーまたは電話機が割り当てられていない内線番号) を使用します。</span><span class="sxs-lookup"><span data-stu-id="a899c-113">Use blocks of virtual extensions (extensions that have no user or phone assigned to them) for your orbit ranges.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="31e76-114">コールパークの軌道テーブルでは、内側の市内ダイヤル (DID) 番号を軌道番号として割り当てることはできません。</span><span class="sxs-lookup"><span data-stu-id="31e76-114">Assigning Direct Inward Dialing (DID) numbers as orbit numbers in the Call Park orbit table is not supported.</span></span>
+> <span data-ttu-id="a899c-114">コールパークオービットテーブルでは、Direct 内ダイヤル (DID) 番号をオービット番号として割り当てることはサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="a899c-114">Assigning Direct Inward Dialing (DID) numbers as orbit numbers in the Call Park orbit table is not supported.</span></span>
 
 
 
@@ -63,9 +63,9 @@ ms.locfileid: "41739997"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="31e76-115">このセクション中</span><span class="sxs-lookup"><span data-stu-id="31e76-115">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="a899c-115">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="a899c-115">In This Section</span></span>
 
-[<span data-ttu-id="31e76-116">通話パークの作成または変更 Lync Server 2013 の範囲の軌道</span><span class="sxs-lookup"><span data-stu-id="31e76-116">Create or modify a Call Park orbit range in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-call-park-orbit-range.md)
+[<span data-ttu-id="a899c-116">Lync Server 2013 でのコールパークオービット範囲の作成または変更</span><span class="sxs-lookup"><span data-stu-id="a899c-116">Create or modify a Call Park orbit range in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-call-park-orbit-range.md)
 
 </div>
 
