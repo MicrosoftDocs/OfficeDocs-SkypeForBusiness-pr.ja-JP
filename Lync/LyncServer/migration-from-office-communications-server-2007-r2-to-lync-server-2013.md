@@ -12,20 +12,20 @@ ms:contentKeyID: 48185802
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e32d43e8052de454647cd9f69b4572d178a0cecb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 624891658fb925fbc2522e98f8b216e535d2bf0c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730967"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035893"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="migration-from-office-communications-server-2007-r2-to-lync-server-2013"></a><span data-ttu-id="3a2e2-102">Office Communications Server 2007 R2 から Lync Server 2013 への移行</span><span class="sxs-lookup"><span data-stu-id="3a2e2-102">Migration from Office Communications Server 2007 R2 to Lync Server 2013</span></span>
+# <a name="migration-from-office-communications-server-2007-r2-to-lync-server-2013"></a><span data-ttu-id="bf723-102">Office Communications Server 2007 R2 から Lync Server 2013 への移行</span><span class="sxs-lookup"><span data-stu-id="bf723-102">Migration from Office Communications Server 2007 R2 to Lync Server 2013</span></span>
 
 </div>
 
@@ -35,69 +35,69 @@ ms.locfileid: "41730967"
 
 <span> </span>
 
-<span data-ttu-id="3a2e2-103">_**最終更新日:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="3a2e2-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+<span data-ttu-id="bf723-103">_**トピックの最終更新日:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="bf723-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-<span data-ttu-id="3a2e2-104">このセクションのトピックでは、Office Communications Server 2007 R2 から Lync Server 2013 への移行プロセスについて説明します。</span><span class="sxs-lookup"><span data-stu-id="3a2e2-104">The topics in this section guide you through the process of migrating from Office Communications Server 2007 R2 to Lync Server 2013</span></span>
+<span data-ttu-id="bf723-104">このセクションのトピックでは、Office Communications Server 2007 R2 から Lync Server 2013 に移行するプロセスについて説明します。</span><span class="sxs-lookup"><span data-stu-id="bf723-104">The topics in this section guide you through the process of migrating from Office Communications Server 2007 R2 to Lync Server 2013</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="3a2e2-105">このドキュメントでは、移行の各フェーズを実行するために必要な手順について説明します。</span><span class="sxs-lookup"><span data-stu-id="3a2e2-105">This document describes the steps generally required to accomplish each phase of migration.</span></span> <span data-ttu-id="3a2e2-106">これは、すべてのレガシ展開トポロジまたは可能な移行シナリオには対応していません。</span><span class="sxs-lookup"><span data-stu-id="3a2e2-106">It does not address every possible legacy deployment topology or every possible migration scenario.</span></span> <span data-ttu-id="3a2e2-107">このため、説明されている手順をすべて実行する必要がない場合や、展開によっては追加の手順を実行する必要がある場合があります。</span><span class="sxs-lookup"><span data-stu-id="3a2e2-107">Therefore, you may not need to perform every step described, or you may need to perform additional steps, depending on your deployment.</span></span> <span data-ttu-id="3a2e2-108">このドキュメントでは、確認手順の例についても説明します。</span><span class="sxs-lookup"><span data-stu-id="3a2e2-108">This document also provides examples of verification steps.</span></span> <span data-ttu-id="3a2e2-109">この確認手順は、移行の進行に合わせて各フェーズが正常に完了するために必要な情報を確認するために用意されています。</span><span class="sxs-lookup"><span data-stu-id="3a2e2-109">These verification steps are provided to help you understand what you need to look for to ensure that each phase completes successfully as you progress through your migration.</span></span> <span data-ttu-id="3a2e2-110">この確認手順は、特定の移行プロセスに合わせて調整してください。</span><span class="sxs-lookup"><span data-stu-id="3a2e2-110">Tailor these verification steps to your specific migration process.</span></span>
+> <span data-ttu-id="bf723-p101">このドキュメントでは、移行の各フェーズを実現するために一般的に必要となる手順について説明します。この手順は、考え得るすべての従来の展開トポロジやすべての移行シナリオに対応するものではありません。したがって、展開によっては、記載されているすべての手順を実行する必要がない場合や、追加の手順が必要になる場合があります。また、このドキュメントでは検証手順の例も示します。検証手順を見ることによって、移行の作業を進める過程で各フェーズが正常に完了したことを確認するために何を調べる必要があるかを理解できるようになります。各自の移行プロセスに合わせてこれらの検証手順を変更してください。</span><span class="sxs-lookup"><span data-stu-id="bf723-p101">This document describes the steps generally required to accomplish each phase of migration. It does not address every possible legacy deployment topology or every possible migration scenario. Therefore, you may not need to perform every step described, or you may need to perform additional steps, depending on your deployment. This document also provides examples of verification steps. These verification steps are provided to help you understand what you need to look for to ensure that each phase completes successfully as you progress through your migration. Tailor these verification steps to your specific migration process.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="3a2e2-111">このガイドには、既存の展開のアップグレードに固有の情報が記載されています。</span><span class="sxs-lookup"><span data-stu-id="3a2e2-111">This guide provides information specific to upgrading your existing deployment.</span></span> <span data-ttu-id="3a2e2-112">既存のトポロジを変更する方法については説明しません。</span><span class="sxs-lookup"><span data-stu-id="3a2e2-112">It does not explain how to change your existing topology.</span></span> <span data-ttu-id="3a2e2-113">このガイドでは、新機能の実装については説明しません。</span><span class="sxs-lookup"><span data-stu-id="3a2e2-113">This guide does not cover the implementation of new features.</span></span> <span data-ttu-id="3a2e2-114">詳細な手順については、別のドキュメントまたはドキュメントの説明を参照してください。</span><span class="sxs-lookup"><span data-stu-id="3a2e2-114">When a detailed procedure is documented elsewhere, this guide directs you to the appropriate document or document section.</span></span>
+<span data-ttu-id="bf723-p102">このガイドでは、既存の展開をアップグレードする方法についてのみ説明します。既存のトポロジを変更する方法については説明しません。また、このガイドでは新しい機能の実装については説明しません。詳細な手順が他のドキュメントに記載されている場合は、参照先のドキュメントまたはドキュメントのセクションを示します。</span><span class="sxs-lookup"><span data-stu-id="bf723-p102">This guide provides information specific to upgrading your existing deployment. It does not explain how to change your existing topology. This guide does not cover the implementation of new features. When a detailed procedure is documented elsewhere, this guide directs you to the appropriate document or document section.</span></span>
 
-<span data-ttu-id="3a2e2-115">このドキュメントでは、次の一覧で指定された用語を定義しています。</span><span class="sxs-lookup"><span data-stu-id="3a2e2-115">This document defines terms as specified in the following list.</span></span>
+<span data-ttu-id="bf723-115">このドキュメントで使用される用語の定義は次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="bf723-115">This document defines terms as specified in the following list.</span></span>
 
-  - <span data-ttu-id="3a2e2-116">*用*</span><span class="sxs-lookup"><span data-stu-id="3a2e2-116">*migration*</span></span>  
-    <span data-ttu-id="3a2e2-117">以前のバージョンの Office Communications Server 2007 R2 から Lync Server 2013 に運用環境の展開を移行します。</span><span class="sxs-lookup"><span data-stu-id="3a2e2-117">Moving your production deployment from a previous version of Office Communications Server 2007 R2 to Lync Server 2013.</span></span>
-
-<!-- end list -->
-
-  - <span data-ttu-id="3a2e2-118">*アップグレード*</span><span class="sxs-lookup"><span data-stu-id="3a2e2-118">*upgrade*</span></span>  
-    <span data-ttu-id="3a2e2-119">新しいバージョンのソフトウェアをサーバーまたはクライアントコンピューターにインストールします。</span><span class="sxs-lookup"><span data-stu-id="3a2e2-119">Installing a newer version of software on a server or client computer.</span></span>
+  - <span data-ttu-id="bf723-116">*転送*</span><span class="sxs-lookup"><span data-stu-id="bf723-116">*migration*</span></span>  
+    <span data-ttu-id="bf723-117">以前のバージョンの Office Communications Server 2007 R2 から Lync Server 2013 に運用環境の展開を移行する。</span><span class="sxs-lookup"><span data-stu-id="bf723-117">Moving your production deployment from a previous version of Office Communications Server 2007 R2 to Lync Server 2013.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="3a2e2-120">*共存*</span><span class="sxs-lookup"><span data-stu-id="3a2e2-120">*coexistence*</span></span>  
-    <span data-ttu-id="3a2e2-121">一部の機能が Lync Server 2013 に移行されていて、その他の機能が以前のバージョンの Office Communications Server 2007 R2 上に残っている場合に、移行中に存在する一時的な環境。</span><span class="sxs-lookup"><span data-stu-id="3a2e2-121">The temporary environment that exists during migration when some functionality has been migrated to Lync Server 2013 and other functionality still remains on a prior version of Office Communications Server 2007 R2.</span></span>
+  - <span data-ttu-id="bf723-118">*アップグレード*</span><span class="sxs-lookup"><span data-stu-id="bf723-118">*upgrade*</span></span>  
+    <span data-ttu-id="bf723-119">サーバーまたはクライアント コンピューターに、以前より新しいバージョンのソフトウェアをインストールすること。</span><span class="sxs-lookup"><span data-stu-id="bf723-119">Installing a newer version of software on a server or client computer.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="3a2e2-122">*運用性*</span><span class="sxs-lookup"><span data-stu-id="3a2e2-122">*interoperability*</span></span>  
-    <span data-ttu-id="3a2e2-123">共存期間中に展開が正常に動作する能力。</span><span class="sxs-lookup"><span data-stu-id="3a2e2-123">The ability of your deployment to operate successfully during the period of coexistence.</span></span>
+  - <span data-ttu-id="bf723-120">*共存*</span><span class="sxs-lookup"><span data-stu-id="bf723-120">*coexistence*</span></span>  
+    <span data-ttu-id="bf723-121">移行中に存在する一時的な環境は、一部の機能が Lync Server 2013 に移行されていて、その他の機能が以前のバージョンの Office Communications Server 2007 R2 上に残っている場合です。</span><span class="sxs-lookup"><span data-stu-id="bf723-121">The temporary environment that exists during migration when some functionality has been migrated to Lync Server 2013 and other functionality still remains on a prior version of Office Communications Server 2007 R2.</span></span>
+
+<!-- end list -->
+
+  - <span data-ttu-id="bf723-122">*作用*</span><span class="sxs-lookup"><span data-stu-id="bf723-122">*interoperability*</span></span>  
+    <span data-ttu-id="bf723-123">共存の期間中に展開を正常に運用する能力。</span><span class="sxs-lookup"><span data-stu-id="bf723-123">The ability of your deployment to operate successfully during the period of coexistence.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="3a2e2-124">このセクション中</span><span class="sxs-lookup"><span data-stu-id="3a2e2-124">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="bf723-124">このセクション中</span><span class="sxs-lookup"><span data-stu-id="bf723-124">In This Section</span></span>
 
-  - [<span data-ttu-id="3a2e2-125">移行を始める前に</span><span class="sxs-lookup"><span data-stu-id="3a2e2-125">Before you begin the migration</span></span>](before-you-begin-the-migration_1.md)
+  - [<span data-ttu-id="bf723-125">移行を開始する前に</span><span class="sxs-lookup"><span data-stu-id="bf723-125">Before you begin the migration</span></span>](before-you-begin-the-migration_1.md)
 
-  - [<span data-ttu-id="3a2e2-126">移行のフェーズ</span><span class="sxs-lookup"><span data-stu-id="3a2e2-126">Migration phases</span></span>](migration-phases_1.md)
+  - [<span data-ttu-id="bf723-126">移行フェーズ</span><span class="sxs-lookup"><span data-stu-id="bf723-126">Migration phases</span></span>](migration-phases_1.md)
 
-  - [<span data-ttu-id="3a2e2-127">フェーズ 1: Office Communications Server 2007 R2 からの移行を計画する</span><span class="sxs-lookup"><span data-stu-id="3a2e2-127">Phase 1: Plan your migration from Office Communications Server 2007 R2</span></span>](phase-1-plan-your-migration-from-office-communications-server-2007-r2.md)
+  - [<span data-ttu-id="bf723-127">フェーズ 1: Office Communications Server 2007 R2 からの移行を計画する</span><span class="sxs-lookup"><span data-stu-id="bf723-127">Phase 1: Plan your migration from Office Communications Server 2007 R2</span></span>](phase-1-plan-your-migration-from-office-communications-server-2007-r2.md)
 
-  - [<span data-ttu-id="3a2e2-128">フェーズ 2: 移行の準備</span><span class="sxs-lookup"><span data-stu-id="3a2e2-128">Phase 2: Prepare for migration</span></span>](phase-2-prepare-for-migration_1.md)
+  - [<span data-ttu-id="bf723-128">フェーズ 2: 移行の準備をする</span><span class="sxs-lookup"><span data-stu-id="bf723-128">Phase 2: Prepare for migration</span></span>](phase-2-prepare-for-migration_1.md)
 
-  - [<span data-ttu-id="3a2e2-129">フェーズ 3: Lync Server 2013 パイロットプールの展開</span><span class="sxs-lookup"><span data-stu-id="3a2e2-129">Phase 3: Deploy Lync Server 2013 pilot pool</span></span>](phase-3-deploy-lync-server-2013-pilot-pool_1.md)
+  - [<span data-ttu-id="bf723-129">フェーズ 3: Lync Server 2013 パイロットプールを展開する</span><span class="sxs-lookup"><span data-stu-id="bf723-129">Phase 3: Deploy Lync Server 2013 pilot pool</span></span>](phase-3-deploy-lync-server-2013-pilot-pool_1.md)
 
-  - [<span data-ttu-id="3a2e2-130">フェーズ 4: トポロジの結合</span><span class="sxs-lookup"><span data-stu-id="3a2e2-130">Phase 4: Merge topologies</span></span>](phase-4-merge-topologies.md)
+  - [<span data-ttu-id="bf723-130">フェーズ 4: トポロジを結合する</span><span class="sxs-lookup"><span data-stu-id="bf723-130">Phase 4: Merge topologies</span></span>](phase-4-merge-topologies.md)
 
-  - [<span data-ttu-id="3a2e2-131">フェーズ 5: パイロットプールを構成する</span><span class="sxs-lookup"><span data-stu-id="3a2e2-131">Phase 5: Configure the pilot pool</span></span>](phase-5-configure-the-pilot-pool.md)
+  - [<span data-ttu-id="bf723-131">フェーズ 5: パイロットプールを構成する</span><span class="sxs-lookup"><span data-stu-id="bf723-131">Phase 5: Configure the pilot pool</span></span>](phase-5-configure-the-pilot-pool.md)
 
-  - [<span data-ttu-id="3a2e2-132">フェーズ 6: ユーザーをパイロットプールに移動する</span><span class="sxs-lookup"><span data-stu-id="3a2e2-132">Phase 6: Move users to the pilot pool</span></span>](phase-6-move-users-to-the-pilot-pool.md)
+  - [<span data-ttu-id="bf723-132">フェーズ 6: ユーザーをパイロットプールに移動する</span><span class="sxs-lookup"><span data-stu-id="bf723-132">Phase 6: Move users to the pilot pool</span></span>](phase-6-move-users-to-the-pilot-pool.md)
 
-  - [<span data-ttu-id="3a2e2-133">フェーズ 7: Lync Server 2013 エッジサーバーをパイロットプールに追加する</span><span class="sxs-lookup"><span data-stu-id="3a2e2-133">Phase 7: Add Lync Server 2013 Edge Server to pilot pool</span></span>](phase-7-add-lync-server-2013-edge-server-to-pilot-pool.md)
+  - [<span data-ttu-id="bf723-133">フェーズ 7: Lync Server 2013 エッジサーバーをパイロットプールに追加する</span><span class="sxs-lookup"><span data-stu-id="bf723-133">Phase 7: Add Lync Server 2013 Edge Server to pilot pool</span></span>](phase-7-add-lync-server-2013-edge-server-to-pilot-pool.md)
 
-  - [<span data-ttu-id="3a2e2-134">フェーズ 8: パイロット展開から実稼働への移行</span><span class="sxs-lookup"><span data-stu-id="3a2e2-134">Phase 8: Move from pilot deployment into production</span></span>](phase-8-move-from-pilot-deployment-into-production.md)
+  - [<span data-ttu-id="bf723-134">フェーズ 8: パイロット展開から運用への移行</span><span class="sxs-lookup"><span data-stu-id="bf723-134">Phase 8: Move from pilot deployment into production</span></span>](phase-8-move-from-pilot-deployment-into-production.md)
 
-  - [<span data-ttu-id="3a2e2-135">フェーズ 9: 移行後のタスクを完了する</span><span class="sxs-lookup"><span data-stu-id="3a2e2-135">Phase 9: Complete post-migration tasks</span></span>](phase-9-complete-post-migration-tasks.md)
+  - [<span data-ttu-id="bf723-135">フェーズ 9: 移行後のタスクを完了する</span><span class="sxs-lookup"><span data-stu-id="bf723-135">Phase 9: Complete post-migration tasks</span></span>](phase-9-complete-post-migration-tasks.md)
 
-  - [<span data-ttu-id="3a2e2-136">フェーズ 10: レガシサイトの廃止</span><span class="sxs-lookup"><span data-stu-id="3a2e2-136">Phase 10: Decommission legacy site</span></span>](phase-10-decommission-legacy-site.md)
+  - [<span data-ttu-id="bf723-136">フェーズ 10: 従来のサイトを使用停止にする</span><span class="sxs-lookup"><span data-stu-id="bf723-136">Phase 10: Decommission legacy site</span></span>](phase-10-decommission-legacy-site.md)
 
 </div>
 

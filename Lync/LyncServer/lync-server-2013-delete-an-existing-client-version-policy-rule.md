@@ -12,20 +12,20 @@ ms:contentKeyID: 50675352
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ad64a77e8244bf1eb2073a5d62edcb30e41eb20
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6bd2f021241f373a30e205ddb81c21ba9a4a5beb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736417"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007095"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="delete-an-existing-client-version-policy-rule-in-lync-server-2013"></a><span data-ttu-id="88295-102">Lync Server 2013 で既存のクライアントのバージョンポリシールールを削除する</span><span class="sxs-lookup"><span data-stu-id="88295-102">Delete an existing client version policy rule in Lync Server 2013</span></span>
+# <a name="delete-an-existing-client-version-policy-rule-in-lync-server-2013"></a><span data-ttu-id="16d05-102">Lync Server 2013 の既存のクライアントバージョンポリシールールを削除する</span><span class="sxs-lookup"><span data-stu-id="16d05-102">Delete an existing client version policy rule in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41736417"
 
 <span> </span>
 
-<span data-ttu-id="88295-103">_**最終更新日:** 2013-01-21_</span><span class="sxs-lookup"><span data-stu-id="88295-103">_**Topic Last Modified:** 2013-01-21_</span></span>
+<span data-ttu-id="16d05-103">_**トピックの最終更新日:** 2013-01-21_</span><span class="sxs-lookup"><span data-stu-id="16d05-103">_**Topic Last Modified:** 2013-01-21_</span></span>
 
-<span data-ttu-id="88295-104">クライアントのバージョンポリシーは、一連のクライアントバージョンポリシールールで構成されています。</span><span class="sxs-lookup"><span data-stu-id="88295-104">A client version policy is made up of a set of client version policy rules.</span></span> <span data-ttu-id="88295-105">これらのルールでは、ユーザーが特定のクライアントおよびクライアント バージョンでログオンしようとしたときに実行するアクションが定義されています。</span><span class="sxs-lookup"><span data-stu-id="88295-105">These rules define the actions that should be taken when users attempt to log on with specific clients and client versions.</span></span> <span data-ttu-id="88295-106">Lync Server 2013 コントロールパネルからクライアントのバージョンポリシーから個々のルールを削除することができます。</span><span class="sxs-lookup"><span data-stu-id="88295-106">You can delete individual rules from a client version policy from Lync Server 2013 Control Panel.</span></span>
+<span data-ttu-id="16d05-104">クライアントバージョンポリシーは、一連のクライアントバージョンポリシールールで構成されています。</span><span class="sxs-lookup"><span data-stu-id="16d05-104">A client version policy is made up of a set of client version policy rules.</span></span> <span data-ttu-id="16d05-105">これらのルールでは、ユーザーが特定のクライアントおよびクライアント バージョンでログオンしようとしたときに実行するアクションが定義されています。</span><span class="sxs-lookup"><span data-stu-id="16d05-105">These rules define the actions that should be taken when users attempt to log on with specific clients and client versions.</span></span> <span data-ttu-id="16d05-106">Lync Server 2013 コントロールパネルから、クライアントバージョンポリシーから個々のルールを削除することができます。</span><span class="sxs-lookup"><span data-stu-id="16d05-106">You can delete individual rules from a client version policy from Lync Server 2013 Control Panel.</span></span>
 
 <div>
 
-## <a name="to-delete-client-version-policy-rules-with-lync-server-control-panel"></a><span data-ttu-id="88295-107">Lync Server コントロールパネルでクライアントのバージョンポリシールールを削除するには</span><span class="sxs-lookup"><span data-stu-id="88295-107">To delete client version policy rules with Lync Server Control Panel</span></span>
+## <a name="to-delete-client-version-policy-rules-with-lync-server-control-panel"></a><span data-ttu-id="16d05-107">Lync Server コントロールパネルを使用してクライアントバージョンポリシールールを削除するには</span><span class="sxs-lookup"><span data-stu-id="16d05-107">To delete client version policy rules with Lync Server Control Panel</span></span>
 
-1.  <span data-ttu-id="88295-108">CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="88295-108">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="16d05-108">CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="16d05-108">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="88295-109">ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="88295-109">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="88295-110">Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="88295-110">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="16d05-109">ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="16d05-109">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="16d05-110">Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="16d05-110">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="88295-111">左側のナビゲーションバーで、[**クライアント**] をクリックし、[**クライアントバージョンポリシー** ] ナビゲーションボタンをクリックします。</span><span class="sxs-lookup"><span data-stu-id="88295-111">In the left navigation bar, click **Clients**, and then click the **Client Version Policy** navigation button.</span></span>
+3.  <span data-ttu-id="16d05-111">左側のナビゲーションバーで [**クライアント**] をクリックし、[**クライアントバージョンポリシー** ] ナビゲーションボタンをクリックします。</span><span class="sxs-lookup"><span data-stu-id="16d05-111">In the left navigation bar, click **Clients**, and then click the **Client Version Policy** navigation button.</span></span>
 
-4.  <span data-ttu-id="88295-112">[**クライアントのバージョンポリシー** ] ページで、削除するルールのクライアントのバージョンポリシーをダブルクリックします。</span><span class="sxs-lookup"><span data-stu-id="88295-112">On the **Client Version Policy** page, double-click the client version policy for the rule you want to delete.</span></span>
+4.  <span data-ttu-id="16d05-112">[**クライアントバージョンポリシー** ] ページで、削除するルールのクライアントバージョンポリシーをダブルクリックします。</span><span class="sxs-lookup"><span data-stu-id="16d05-112">On the **Client Version Policy** page, double-click the client version policy for the rule you want to delete.</span></span>
 
-5.  <span data-ttu-id="88295-113">[**クライアントのバージョンポリシーの編集**] ページにルールが表示されます。</span><span class="sxs-lookup"><span data-stu-id="88295-113">The rules appear on the **Edit Client Version Policy** page.</span></span> <span data-ttu-id="88295-114">ルールを削除するには、ルールを選択し、[**削除**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="88295-114">To delete a rule, select the rule, and then click **Remove**.</span></span>
+5.  <span data-ttu-id="16d05-113">ルールは [**クライアントバージョンポリシーの編集**] ページに表示されます。</span><span class="sxs-lookup"><span data-stu-id="16d05-113">The rules appear on the **Edit Client Version Policy** page.</span></span> <span data-ttu-id="16d05-114">ルールを削除するには、ルールを選択し、[**削除**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="16d05-114">To delete a rule, select the rule, and then click **Remove**.</span></span>
 
 </div>
 

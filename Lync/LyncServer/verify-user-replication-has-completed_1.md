@@ -1,5 +1,5 @@
 ---
-title: ユーザー レプリケーションの完了の確認
+title: ユーザーのレプリケーションが完了したことを確認する
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183524
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc6d8100a7bd0d348c3414da627584bae8697a1c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6433c1e88edf69b957047b9dc405df392e5ec104
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730777"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036195"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="verify-user-replication-has-completed"></a><span data-ttu-id="350a5-102">ユーザー レプリケーションの完了の確認</span><span class="sxs-lookup"><span data-stu-id="350a5-102">Verify user replication has completed</span></span>
+# <a name="verify-user-replication-has-completed"></a><span data-ttu-id="4f800-102">ユーザーのレプリケーションが完了したことを確認する</span><span class="sxs-lookup"><span data-stu-id="4f800-102">Verify user replication has completed</span></span>
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41730777"
 
 <span> </span>
 
-<span data-ttu-id="350a5-103">_**最終更新日:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="350a5-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="4f800-103">_**トピックの最終更新日:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="4f800-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="350a5-104">**CsLegacyUser**コマンドレットを実行しているときに、最初のレプリケーションが完了していないため、Active Directory ドメインサービス (AD DS) と Lync Server 2013 データベースの同期が無効になっているために、エラーが発生する可能性があります。</span><span class="sxs-lookup"><span data-stu-id="350a5-104">When running the **Move-CsLegacyUser** cmdlet, you may experience a failure due to user information between Active Directory Domain Services (AD DS) and the Lync Server 2013 databases being out of sync because the initial replication is incomplete.</span></span> <span data-ttu-id="350a5-105">Lync Server 2013 ユーザーレプリケーターサービスの初回の同期が正常に完了するまでにかかる時間は、Lync Server 2013 プールをホストしている Active Directory フォレストでホストされているドメインコントローラーの数によって異なります。</span><span class="sxs-lookup"><span data-stu-id="350a5-105">The time it takes for the successful completion of the Lync Server 2013 User Replicator service's initial synchronization depends on the number of domain controllers that are hosted in the Active Directory forest that hosts the Lync Server 2013 pool.</span></span> <span data-ttu-id="350a5-106">Lync server 2013 ユーザーレプリケーターサービスの初期同期処理は、Lync Server 2013 フロントエンドサーバーが初めて起動されたときに発生します。</span><span class="sxs-lookup"><span data-stu-id="350a5-106">The Lync Server 2013 User Replicator service initial synchronization process occurs when the Lync Server 2013 Front End Server is started for the first time.</span></span> <span data-ttu-id="350a5-107">その後、同期はユーザーレプリケーターの間隔に基づいています。</span><span class="sxs-lookup"><span data-stu-id="350a5-107">After that, the synchronization is then based on the User Replicator interval.</span></span> <span data-ttu-id="350a5-108">次の手順を実行して、 **CsLegacyUser**コマンドレットを実行する前にユーザーレプリケーションが完了していることを確認します。</span><span class="sxs-lookup"><span data-stu-id="350a5-108">Complete the following steps to verify user replication has completed before running the **Move-CsLegacyUser** cmdlet.</span></span>
+<span data-ttu-id="4f800-104">**Move-cslegacyuser**コマンドレットを実行しているときに、最初のレプリケーションが完了していないため、Active Directory ドメインサービス (AD DS) と Lync Server 2013 データベースの間のユーザー情報が同期されていないために障害が発生することがあります。</span><span class="sxs-lookup"><span data-stu-id="4f800-104">When running the **Move-CsLegacyUser** cmdlet, you may experience a failure due to user information between Active Directory Domain Services (AD DS) and the Lync Server 2013 databases being out of sync because the initial replication is incomplete.</span></span> <span data-ttu-id="4f800-105">Lync Server 2013 のユーザーレプリケーターサービスの初期同期が正常に完了するまでにかかる時間は、Lync Server 2013 プールをホストしている Active Directory フォレスト内でホストされているドメインコントローラーの数によって異なります。</span><span class="sxs-lookup"><span data-stu-id="4f800-105">The time it takes for the successful completion of the Lync Server 2013 User Replicator service's initial synchronization depends on the number of domain controllers that are hosted in the Active Directory forest that hosts the Lync Server 2013 pool.</span></span> <span data-ttu-id="4f800-106">Lync Server 2013 のユーザーレプリケーターサービスの初期同期処理は、Lync Server 2013 フロントエンドサーバーが初めて起動されたときに発生します。</span><span class="sxs-lookup"><span data-stu-id="4f800-106">The Lync Server 2013 User Replicator service initial synchronization process occurs when the Lync Server 2013 Front End Server is started for the first time.</span></span> <span data-ttu-id="4f800-107">それ以降は、ユーザー レプリケーターの間隔に基づいて同期が行われます。</span><span class="sxs-lookup"><span data-stu-id="4f800-107">After that, the synchronization is then based on the User Replicator interval.</span></span> <span data-ttu-id="4f800-108">**Move-CsLegacyUser** コマンドレットを実行する前に次の手順を実行し、ユーザーのレプリケーションが完了していることを確認します。</span><span class="sxs-lookup"><span data-stu-id="4f800-108">Complete the following steps to verify user replication has completed before running the **Move-CsLegacyUser** cmdlet.</span></span>
 
 <div>
 
-## <a name="to-verify-that-user-replication-has-completed"></a><span data-ttu-id="350a5-109">ユーザーの複製が完了したことを確認するには</span><span class="sxs-lookup"><span data-stu-id="350a5-109">To verify that user replication has completed</span></span>
+## <a name="to-verify-that-user-replication-has-completed"></a><span data-ttu-id="4f800-109">ユーザーのレプリケーションが完了していることを確認するには</span><span class="sxs-lookup"><span data-stu-id="4f800-109">To verify that user replication has completed</span></span>
 
-1.  <span data-ttu-id="350a5-110">Lync Server 2013 フロントエンドサーバーから、[**スタート**] メニューをクリックし、[**実行**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="350a5-110">From the Lync Server 2013 Front End server, click the **Start** menu, and then click **Run**.</span></span>
+1.  <span data-ttu-id="4f800-110">Lync Server 2013 フロントエンドサーバーから、[**スタート**] メニューをクリックし、[**実行**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="4f800-110">From the Lync Server 2013 Front End server, click the **Start** menu, and then click **Run**.</span></span>
 
-2.  <span data-ttu-id="350a5-111">**Eventvwr.exe**と入力して、[ **OK]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="350a5-111">Enter **eventvwr.exe** and then click **OK**.</span></span>
+2.  <span data-ttu-id="4f800-111">「**eventvwr.exe**」と入力し、[**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="4f800-111">Enter **eventvwr.exe** and then click **OK**.</span></span>
 
-3.  <span data-ttu-id="350a5-112">イベントビューアーで [**アプリケーションとサービスログ**] をクリックして展開し、[Lync Server] を選択します。</span><span class="sxs-lookup"><span data-stu-id="350a5-112">In Event Viewer, click **Applications and Services logs** to expand it, and then select Lync Server.</span></span>
+3.  <span data-ttu-id="4f800-112">イベント ビューアーで、[**アプリケーションとサービス ログ**] をクリックして展開し、[Lync Server] を選択します。</span><span class="sxs-lookup"><span data-stu-id="4f800-112">In Event Viewer, click **Applications and Services logs** to expand it, and then select Lync Server.</span></span>
 
-4.  <span data-ttu-id="350a5-113">**操作**ウィンドウで、[**現在のログをフィルター**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="350a5-113">In the **Actions** pane click **Filter Current Log**.</span></span>
+4.  <span data-ttu-id="4f800-113">[**操作**] ウィンドウで [**現在のログをフィルター**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="4f800-113">In the **Actions** pane click **Filter Current Log**.</span></span>
 
-5.  <span data-ttu-id="350a5-114">[**イベントソース**] ボックスの一覧の [ **LS ユーザーレプリケーター**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="350a5-114">From the **Event sources** list, click **LS User Replicator**.</span></span>
+5.  <span data-ttu-id="4f800-114">[**イベント ソース**] ボックスの一覧の [**LS User Replicator**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="4f800-114">From the **Event sources** list, click **LS User Replicator**.</span></span>
 
-6.  <span data-ttu-id="350a5-115">\*\* \<すべてのイベント id\> **に**30024\*\*と入力し、[ **OK]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="350a5-115">In **\<All Event IDs\>** enter **30024** and then click **OK**.</span></span>
+6.  <span data-ttu-id="4f800-115">\*\* \<すべてのイベント id\> **に**30024\*\*と入力し、[ **OK]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="4f800-115">In **\<All Event IDs\>** enter **30024** and then click **OK**.</span></span>
 
-7.  <span data-ttu-id="350a5-116">[フィルター処理されたイベント] ボックスの一覧の **[全般**] タブで、ユーザーの複製が正常に完了したことを示すエントリを探します。</span><span class="sxs-lookup"><span data-stu-id="350a5-116">In the filtered events list, on the **General** tab, look for an entry that states user replication has completed successfully.</span></span>
+7.  <span data-ttu-id="4f800-116">フィルターが適用されたイベントの一覧の [**全般**] タブで、ユーザーのレプリケーションが正常に完了したことを示す項目を探します。</span><span class="sxs-lookup"><span data-stu-id="4f800-116">In the filtered events list, on the **General** tab, look for an entry that states user replication has completed successfully.</span></span>
 
 </div>
 

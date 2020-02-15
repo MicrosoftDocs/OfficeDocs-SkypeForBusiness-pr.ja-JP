@@ -1,5 +1,5 @@
 ---
-title: 移行を始める前に
+title: 移行を開始する前に
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -13,20 +13,20 @@ ms:contentKeyID: 48183259
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 83fd5b0ddbb4a1e1266a99963dc443f516c86b9a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d484ddfc9487c89300a2d0a795da83bfb33d82f9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724067"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42003622"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="before-you-begin-the-migration"></a><span data-ttu-id="ae9e2-102">移行を始める前に</span><span class="sxs-lookup"><span data-stu-id="ae9e2-102">Before you begin the migration</span></span>
+# <a name="before-you-begin-the-migration"></a><span data-ttu-id="68fa3-102">移行を開始する前に</span><span class="sxs-lookup"><span data-stu-id="68fa3-102">Before you begin the migration</span></span>
 
 </div>
 
@@ -36,25 +36,25 @@ ms.locfileid: "41724067"
 
 <span> </span>
 
-<span data-ttu-id="ae9e2-103">_**最終更新日:** 2012-09-23_</span><span class="sxs-lookup"><span data-stu-id="ae9e2-103">_**Topic Last Modified:** 2012-09-23_</span></span>
+<span data-ttu-id="68fa3-103">_**トピックの最終更新日:** 2012-09-23_</span><span class="sxs-lookup"><span data-stu-id="68fa3-103">_**Topic Last Modified:** 2012-09-23_</span></span>
 
-<span data-ttu-id="ae9e2-104">開始する前に、このドキュメントと次のガイドを参照して、対応する Lync Server 2013 ロールの展開について理解しておくことをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="ae9e2-104">Before you begin, we recommend that you read this document and the following guides to familiarize yourself with deploying the corresponding Lync Server 2013 roles:</span></span>
+<span data-ttu-id="68fa3-104">開始する前に、このドキュメントと次のガイドを読んで、対応する Lync Server 2013 の役割の展開について理解することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="68fa3-104">Before you begin, we recommend that you read this document and the following guides to familiarize yourself with deploying the corresponding Lync Server 2013 roles:</span></span>
 
-  - [<span data-ttu-id="ae9e2-105">Lync Server 2013 の展開</span><span class="sxs-lookup"><span data-stu-id="ae9e2-105">Deploying Lync Server 2013</span></span>](lync-server-2013-deploying-lync-server.md)
+  - [<span data-ttu-id="68fa3-105">Lync Server 2013 の展開 </span><span class="sxs-lookup"><span data-stu-id="68fa3-105">Deploying Lync Server 2013</span></span>](lync-server-2013-deploying-lync-server.md)
 
-  - [<span data-ttu-id="ae9e2-106">既存の Lync Server 2013 Enterprise への Lync Server 2013 Standard Edition の展開</span><span class="sxs-lookup"><span data-stu-id="ae9e2-106">Deploying Lync Server 2013 Standard Edition into an existing Lync Server 2013 Enterprise</span></span>](lync-server-2013-deploying-lync-server-2013-standard-edition-into-an-existing-lync-server-2013-enterprise.md)
+  - [<span data-ttu-id="68fa3-106">既存の Lync Server 2013 Enterprise への Lync Server 2013 Standard Edition の展開</span><span class="sxs-lookup"><span data-stu-id="68fa3-106">Deploying Lync Server 2013 Standard Edition into an existing Lync Server 2013 Enterprise</span></span>](lync-server-2013-deploying-lync-server-2013-standard-edition-into-an-existing-lync-server-2013-enterprise.md)
 
-  - [<span data-ttu-id="ae9e2-107">Lync Server 2013 での外部ユーザー アクセスの展開</span><span class="sxs-lookup"><span data-stu-id="ae9e2-107">Deploying external user access in Lync Server 2013</span></span>](lync-server-2013-deploying-external-user-access.md)
+  - [<span data-ttu-id="68fa3-107">Lync Server 2013 での外部ユーザーアクセスの展開</span><span class="sxs-lookup"><span data-stu-id="68fa3-107">Deploying external user access in Lync Server 2013</span></span>](lync-server-2013-deploying-external-user-access.md)
 
-  - [<span data-ttu-id="ae9e2-108">Lync Server 2013 でのクライアントとデバイスの展開</span><span class="sxs-lookup"><span data-stu-id="ae9e2-108">Deploying clients and devices in Lync Server 2013</span></span>](lync-server-2013-deploying-clients-and-devices.md)
+  - [<span data-ttu-id="68fa3-108">Lync Server 2013 でのクライアントとデバイスの展開</span><span class="sxs-lookup"><span data-stu-id="68fa3-108">Deploying clients and devices in Lync Server 2013</span></span>](lync-server-2013-deploying-clients-and-devices.md)
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="ae9e2-109">このセクション中</span><span class="sxs-lookup"><span data-stu-id="ae9e2-109">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="68fa3-109">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="68fa3-109">In This Section</span></span>
 
-  - [<span data-ttu-id="ae9e2-110">移行のプロセス</span><span class="sxs-lookup"><span data-stu-id="ae9e2-110">Migration process</span></span>](migration-process.md)
+  - [<span data-ttu-id="68fa3-110">移行のプロセス</span><span class="sxs-lookup"><span data-stu-id="68fa3-110">Migration process</span></span>](migration-process.md)
 
-  - [<span data-ttu-id="ae9e2-111">移行のフェーズ</span><span class="sxs-lookup"><span data-stu-id="ae9e2-111">Migration phases</span></span>](migration-phases.md)
+  - [<span data-ttu-id="68fa3-111">移行フェーズ</span><span class="sxs-lookup"><span data-stu-id="68fa3-111">Migration phases</span></span>](migration-phases.md)
 
 </div>
 

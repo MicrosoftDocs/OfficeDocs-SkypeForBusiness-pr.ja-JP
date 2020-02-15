@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: LIS サーバー構成のテスト'
+title: 'Lync Server 2013: LIS サーバーの構成のテスト'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969614
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3f3c99e9f10f98d93af73869d166c33a27e9ce18
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c38c0e05647e13a1da1f4a5f173b3e92c37a5300
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745787"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036285"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="testing-lis-server-configuration-in-lync-server-2013"></a><span data-ttu-id="687c1-102">Lync Server 2013 での LIS サーバーの構成のテスト</span><span class="sxs-lookup"><span data-stu-id="687c1-102">Testing LIS server configuration in Lync Server 2013</span></span>
+# <a name="testing-lis-server-configuration-in-lync-server-2013"></a><span data-ttu-id="1184b-102">Lync Server 2013 での LIS サーバーの構成のテスト</span><span class="sxs-lookup"><span data-stu-id="1184b-102">Testing LIS server configuration in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41745787"
 
 <span> </span>
 
-<span data-ttu-id="687c1-103">_**最終更新日:** 2014-06-05_</span><span class="sxs-lookup"><span data-stu-id="687c1-103">_**Topic Last Modified:** 2014-06-05_</span></span>
+<span data-ttu-id="1184b-103">_**トピックの最終更新日:** 2014-06-05_</span><span class="sxs-lookup"><span data-stu-id="1184b-103">_**Topic Last Modified:** 2014-06-05_</span></span>
 
 
 <table>
@@ -45,17 +45,17 @@ ms.locfileid: "41745787"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="687c1-104">確認のスケジュール</span><span class="sxs-lookup"><span data-stu-id="687c1-104">Verification schedule</span></span></p></td>
-<td><p><span data-ttu-id="687c1-105">[毎日]</span><span class="sxs-lookup"><span data-stu-id="687c1-105">Daily</span></span></p></td>
+<td><p><span data-ttu-id="1184b-104">検証スケジュール</span><span class="sxs-lookup"><span data-stu-id="1184b-104">Verification schedule</span></span></p></td>
+<td><p><span data-ttu-id="1184b-105">毎日</span><span class="sxs-lookup"><span data-stu-id="1184b-105">Daily</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="687c1-106">テストツール</span><span class="sxs-lookup"><span data-stu-id="687c1-106">Testing tool</span></span></p></td>
-<td><p><span data-ttu-id="687c1-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="687c1-107">Windows PowerShell</span></span></p></td>
+<td><p><span data-ttu-id="1184b-106">テストツール</span><span class="sxs-lookup"><span data-stu-id="1184b-106">Testing tool</span></span></p></td>
+<td><p><span data-ttu-id="1184b-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="1184b-107">Windows PowerShell</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="687c1-108">必要なアクセス許可</span><span class="sxs-lookup"><span data-stu-id="687c1-108">Permissions required</span></span></p></td>
-<td><p><span data-ttu-id="687c1-109">Lync Server 管理シェルを使用してローカルで実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</span><span class="sxs-lookup"><span data-stu-id="687c1-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
-<p><span data-ttu-id="687c1-110">Windows PowerShell のリモートインスタンスを使って実行する場合は、CsLisConfiguration コマンドレットを実行するためのアクセス許可が与えられている RBAC の役割をユーザーに割り当てる必要があります。</span><span class="sxs-lookup"><span data-stu-id="687c1-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsLisConfiguration cmdlet.</span></span> <span data-ttu-id="687c1-111">このコマンドレットを使うことができるすべての RBAC ロールの一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="687c1-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
+<td><p><span data-ttu-id="1184b-108">必要なアクセス許可</span><span class="sxs-lookup"><span data-stu-id="1184b-108">Permissions required</span></span></p></td>
+<td><p><span data-ttu-id="1184b-109">Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</span><span class="sxs-lookup"><span data-stu-id="1184b-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
+<p><span data-ttu-id="1184b-110">Windows PowerShell のリモートインスタンスを使用して実行する場合は、Export-cslisconfiguration コマンドレットを実行するためのアクセス許可を持つ RBAC の役割がユーザーに割り当てられている必要があります。</span><span class="sxs-lookup"><span data-stu-id="1184b-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsLisConfiguration cmdlet.</span></span> <span data-ttu-id="1184b-111">このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="1184b-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsLisConfiguration&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -64,110 +64,110 @@ ms.locfileid: "41745787"
 
 <div>
 
-## <a name="description"></a><span data-ttu-id="687c1-112">説明</span><span class="sxs-lookup"><span data-stu-id="687c1-112">Description</span></span>
+## <a name="description"></a><span data-ttu-id="1184b-112">説明</span><span class="sxs-lookup"><span data-stu-id="1184b-112">Description</span></span>
 
-<span data-ttu-id="687c1-113">CsLisConfiguration コマンドレットによって、LIS web サービスに連絡する機能が確認されます。</span><span class="sxs-lookup"><span data-stu-id="687c1-113">The Test-CsLisConfiguration cmdlet verifies your ability to contact the LIS web service.</span></span> <span data-ttu-id="687c1-114">Web サービスに連絡できる場合は、特定の場所が見つかるかどうかに関係なく、テストが成功したと見なされます。</span><span class="sxs-lookup"><span data-stu-id="687c1-114">If the web service can be contacted, then the test will be considered a success, regardless of whether any specific locations can be found.</span></span>
+<span data-ttu-id="1184b-113">Export-cslisconfiguration コマンドレットは、LIS web サービスに接続できるかどうかを確認します。</span><span class="sxs-lookup"><span data-stu-id="1184b-113">The Test-CsLisConfiguration cmdlet verifies your ability to contact the LIS web service.</span></span> <span data-ttu-id="1184b-114">Web サービスに接続できる場合は、特定の場所が見つからないかどうかに関係なく、テストは成功したと見なされます。</span><span class="sxs-lookup"><span data-stu-id="1184b-114">If the web service can be contacted, then the test will be considered a success, regardless of whether any specific locations can be found.</span></span>
 
 </div>
 
 <div>
 
-## <a name="running-the-test"></a><span data-ttu-id="687c1-115">テストの実行</span><span class="sxs-lookup"><span data-stu-id="687c1-115">Running the test</span></span>
+## <a name="running-the-test"></a><span data-ttu-id="1184b-115">テストの実行</span><span class="sxs-lookup"><span data-stu-id="1184b-115">Running the test</span></span>
 
-<span data-ttu-id="687c1-116">CsLisConfguration コマンドレットを実行するには、事前に定義されたテストアカウント (「Lync Server テストを実行するためのテストアカウントをセットアップする」を参照) を使用するか、Lync Server を有効にしているユーザーのアカウントを使用します。</span><span class="sxs-lookup"><span data-stu-id="687c1-116">The Test-CsLisConfguration cmdlet can be run using either a preconfigured test account (see Setting Up Test Accounts for Running Lync Server Tests) or the account of any user who is enabled for Lync Server.</span></span> <span data-ttu-id="687c1-117">テストアカウントを使用してこのチェックを実行するには、テスト対象の Lync Server プールの FQDN を指定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="687c1-117">To run this check using a test account, you just have to specify the FQDN of the Lync Server pool being tested.</span></span> <span data-ttu-id="687c1-118">次に例を示します。</span><span class="sxs-lookup"><span data-stu-id="687c1-118">For example:</span></span>
+<span data-ttu-id="1184b-116">CsLisConfguration コマンドレットを実行するには、事前に構成されたテストアカウントを使用するか (「Lync Server テストを実行するためのテストアカウントを設定する」を参照)、Lync Server が有効になっているユーザーのアカウントを使用します。</span><span class="sxs-lookup"><span data-stu-id="1184b-116">The Test-CsLisConfguration cmdlet can be run using either a preconfigured test account (see Setting Up Test Accounts for Running Lync Server Tests) or the account of any user who is enabled for Lync Server.</span></span> <span data-ttu-id="1184b-117">テストアカウントを使用してこのチェックを実行するには、テストする Lync Server プールの FQDN を指定するだけで済みます。</span><span class="sxs-lookup"><span data-stu-id="1184b-117">To run this check using a test account, you just have to specify the FQDN of the Lync Server pool being tested.</span></span> <span data-ttu-id="1184b-118">例:</span><span class="sxs-lookup"><span data-stu-id="1184b-118">For example:</span></span>
 
     Test-CsLisConfiguration -TargetFqdn "atl-cs-001.litwareinc.com"
 
-<span data-ttu-id="687c1-119">実際のユーザーアカウントを使用してこのチェックを実行するには、最初に、アカウント名とパスワードを含む Windows PowerShell 資格情報オブジェクトを作成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="687c1-119">To run this check using an actual user account, you must first create a Windows PowerShell credentials object that contains the account name and password.</span></span> <span data-ttu-id="687c1-120">次に、CsLisConfiguration を呼び出したときに、アカウントに割り当てられている資格情報オブジェクトと SIP アドレスを指定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="687c1-120">You must then include that credentials object and the SIP address assigned to the account when you call Test-CsLisConfiguration:</span></span>
+<span data-ttu-id="1184b-119">実際のユーザーアカウントを使用してこのチェックを実行するには、まず、アカウント名とパスワードを含む Windows PowerShell credentials オブジェクトを作成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="1184b-119">To run this check using an actual user account, you must first create a Windows PowerShell credentials object that contains the account name and password.</span></span> <span data-ttu-id="1184b-120">その資格情報オブジェクトと、Export-cslisconfiguration を呼び出すときにアカウントに割り当てられた SIP アドレスを含める必要があります。</span><span class="sxs-lookup"><span data-stu-id="1184b-120">You must then include that credentials object and the SIP address assigned to the account when you call Test-CsLisConfiguration:</span></span>
 
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsLisConfiguration -TargetFqdn "atl-cs-001.litwareinc.com"-UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-<span data-ttu-id="687c1-121">詳細については、「 [CsLisConfiguration](https://docs.microsoft.com/powershell/module/skype/Test-CsLisConfiguration)コマンドレットのヘルプドキュメント」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="687c1-121">For more information, see the Help documentation for the [Test-CsLisConfiguration](https://docs.microsoft.com/powershell/module/skype/Test-CsLisConfiguration) cmdlet.</span></span>
+<span data-ttu-id="1184b-121">詳細については、 [export-cslisconfiguration](https://docs.microsoft.com/powershell/module/skype/Test-CsLisConfiguration)コマンドレットのヘルプドキュメントを参照してください。</span><span class="sxs-lookup"><span data-stu-id="1184b-121">For more information, see the Help documentation for the [Test-CsLisConfiguration](https://docs.microsoft.com/powershell/module/skype/Test-CsLisConfiguration) cmdlet.</span></span>
 
 </div>
 
 <div>
 
-## <a name="determining-success-or-failure"></a><span data-ttu-id="687c1-122">成功または失敗を確認する</span><span class="sxs-lookup"><span data-stu-id="687c1-122">Determining success or failure</span></span>
+## <a name="determining-success-or-failure"></a><span data-ttu-id="1184b-122">成功または失敗を判断する</span><span class="sxs-lookup"><span data-stu-id="1184b-122">Determining success or failure</span></span>
 
-<span data-ttu-id="687c1-123">LIS が適切に構成されている場合は、次のような結果が返され、Result プロパティは Success とマークされ**ます。**</span><span class="sxs-lookup"><span data-stu-id="687c1-123">If the LIS is correctly configured, you'll receive output similar to this, with the Result property marked as **Success:**</span></span>
+<span data-ttu-id="1184b-123">LIS が正しく構成されている場合は、次のような出力が得られ、Result プロパティは Success としてマークされ**ます。**</span><span class="sxs-lookup"><span data-stu-id="1184b-123">If the LIS is correctly configured, you'll receive output similar to this, with the Result property marked as **Success:**</span></span>
 
-<span data-ttu-id="687c1-124">TargetUri :https://atl-cs-001.litwareinc.com:443/locationinformation/</span><span class="sxs-lookup"><span data-stu-id="687c1-124">TargetUri : https://atl-cs-001.litwareinc.com:443/locationinformation/</span></span>
+<span data-ttu-id="1184b-124">TargetUrihttps://atl-cs-001.litwareinc.com:443/locationinformation/</span><span class="sxs-lookup"><span data-stu-id="1184b-124">TargetUri : https://atl-cs-001.litwareinc.com:443/locationinformation/</span></span>
 
-<span data-ttu-id="687c1-125">liservice .svc</span><span class="sxs-lookup"><span data-stu-id="687c1-125">liservice.svc</span></span>
+<span data-ttu-id="1184b-125">liservice svc</span><span class="sxs-lookup"><span data-stu-id="1184b-125">liservice.svc</span></span>
 
-<span data-ttu-id="687c1-126">TargetFqdn: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="687c1-126">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
+<span data-ttu-id="1184b-126">TargetFqdn: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="1184b-126">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
 
-<span data-ttu-id="687c1-127">結果: 成功</span><span class="sxs-lookup"><span data-stu-id="687c1-127">Result : Success</span></span>
+<span data-ttu-id="1184b-127">結果: 成功</span><span class="sxs-lookup"><span data-stu-id="1184b-127">Result : Success</span></span>
 
-<span data-ttu-id="687c1-128">待ち時間:00:00: 06.1616913</span><span class="sxs-lookup"><span data-stu-id="687c1-128">Latency : 00:00:06.1616913</span></span>
+<span data-ttu-id="1184b-128">待機時間:00:00: 06.1616913</span><span class="sxs-lookup"><span data-stu-id="1184b-128">Latency : 00:00:06.1616913</span></span>
 
-<span data-ttu-id="687c1-129">誤差</span><span class="sxs-lookup"><span data-stu-id="687c1-129">Error :</span></span>
+<span data-ttu-id="1184b-129">エラー</span><span class="sxs-lookup"><span data-stu-id="1184b-129">Error :</span></span>
 
-<span data-ttu-id="687c1-130">診断</span><span class="sxs-lookup"><span data-stu-id="687c1-130">Diagnosis :</span></span>
+<span data-ttu-id="1184b-130">分析</span><span class="sxs-lookup"><span data-stu-id="1184b-130">Diagnosis :</span></span>
 
-<span data-ttu-id="687c1-131">指定したユーザーがログオンまたはログオフできない場合は、結果がエラーとして表示され、エラーと診断のプロパティに追加情報が記録されます。</span><span class="sxs-lookup"><span data-stu-id="687c1-131">If the specified user can't log on or log off, the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:</span></span>
+<span data-ttu-id="1184b-131">指定したユーザーがログオンまたはログオフできない場合は、結果がエラーとして表示され、エラーと診断のプロパティに追加情報が記録されます。</span><span class="sxs-lookup"><span data-stu-id="1184b-131">If the specified user can't log on or log off, the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:</span></span>
 
-<span data-ttu-id="687c1-132">TargetUri :</span><span class="sxs-lookup"><span data-stu-id="687c1-132">TargetUri :</span></span>
+<span data-ttu-id="1184b-132">TargetUri</span><span class="sxs-lookup"><span data-stu-id="1184b-132">TargetUri :</span></span>
 
-<span data-ttu-id="687c1-133">TargetFqdn: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="687c1-133">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
+<span data-ttu-id="1184b-133">TargetFqdn: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="1184b-133">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
 
-<span data-ttu-id="687c1-134">結果: エラー</span><span class="sxs-lookup"><span data-stu-id="687c1-134">Result : Failure</span></span>
+<span data-ttu-id="1184b-134">結果: エラー</span><span class="sxs-lookup"><span data-stu-id="1184b-134">Result : Failure</span></span>
 
-<span data-ttu-id="687c1-135">待ち時間: 00:00:00</span><span class="sxs-lookup"><span data-stu-id="687c1-135">Latency : 00:00:00</span></span>
+<span data-ttu-id="1184b-135">待機時間: 00:00:00</span><span class="sxs-lookup"><span data-stu-id="1184b-135">Latency : 00:00:00</span></span>
 
-<span data-ttu-id="687c1-136">エラー: 11004、要求された名前は有効ですが、要求されたデータがありません</span><span class="sxs-lookup"><span data-stu-id="687c1-136">Error : 11004, The requested name is valid but no data of the requested</span></span>
+<span data-ttu-id="1184b-136">エラー: 11004、要求された名前は有効ですが、要求されたデータがありません</span><span class="sxs-lookup"><span data-stu-id="1184b-136">Error : 11004, The requested name is valid but no data of the requested</span></span>
 
-<span data-ttu-id="687c1-137">種類が見つかりました</span><span class="sxs-lookup"><span data-stu-id="687c1-137">type was found</span></span>
+<span data-ttu-id="1184b-137">種類が見つかりました</span><span class="sxs-lookup"><span data-stu-id="1184b-137">type was found</span></span>
 
-<span data-ttu-id="687c1-138">診断</span><span class="sxs-lookup"><span data-stu-id="687c1-138">Diagnosis :</span></span>
+<span data-ttu-id="1184b-138">分析</span><span class="sxs-lookup"><span data-stu-id="1184b-138">Diagnosis :</span></span>
 
-<span data-ttu-id="687c1-139">CsLisConfiguration: トポロジで一致するクラスターが見つかりませんでした。</span><span class="sxs-lookup"><span data-stu-id="687c1-139">Test-CsLisConfiguration : No matching cluster found in topology.</span></span>
+<span data-ttu-id="1184b-139">Export-cslisconfiguration: トポロジ内に一致するクラスターが見つかりませんでした。</span><span class="sxs-lookup"><span data-stu-id="1184b-139">Test-CsLisConfiguration : No matching cluster found in topology.</span></span>
 
-<span data-ttu-id="687c1-140">たとえば、前の出力には "一致するクラスターがトポロジで見つかりませんでした" というメモが含まれています。</span><span class="sxs-lookup"><span data-stu-id="687c1-140">For example, the previous output includes the note “No matching cluster found in topology.”</span></span> <span data-ttu-id="687c1-141">これは通常、エッジサーバーに問題があることを示します。これは、サービスプロバイダに接続してアドレスを検証するためにエッジサーバーを使用している LIS。</span><span class="sxs-lookup"><span data-stu-id="687c1-141">That typically indicates a problem with the Edge Server: the LIS using the Edge Server to connect to the service provider and validate addresses.</span></span>
+<span data-ttu-id="1184b-140">たとえば、前の出力には「トポロジ内に一致するクラスターが見つかりません」というメモが含まれています。</span><span class="sxs-lookup"><span data-stu-id="1184b-140">For example, the previous output includes the note “No matching cluster found in topology.”</span></span> <span data-ttu-id="1184b-141">これは通常、エッジサーバーに問題があることを示しています: LIS は、サービスプロバイダーに接続し、アドレスを検証します。</span><span class="sxs-lookup"><span data-stu-id="1184b-141">That typically indicates a problem with the Edge Server: the LIS using the Edge Server to connect to the service provider and validate addresses.</span></span>
 
-<span data-ttu-id="687c1-142">テスト-CsLisConfiguration が失敗した場合は、Verbose パラメーターも含めて、テストを再実行することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="687c1-142">If Test-CsLisConfiguration fails then you might want to rerun the test, this time including the Verbose parameter:</span></span>
+<span data-ttu-id="1184b-142">Export-cslisconfiguration に障害が発生した場合は、次のように詳細パラメーターを含めて、テストを再実行することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="1184b-142">If Test-CsLisConfiguration fails then you might want to rerun the test, this time including the Verbose parameter:</span></span>
 
     Test-CsLisConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-<span data-ttu-id="687c1-143">Verbose パラメーターが含まれている場合、CsLisConfiguration は、指定されたユーザーが Lync Server にログオンする機能を確認したときに実行された各操作のステップバイステップのアカウントを返します。</span><span class="sxs-lookup"><span data-stu-id="687c1-143">When the Verbose parameter is included, Test-CsLisConfiguration will return a step-by-step account of each action it tried when it checked the ability of the specified user to log on to Lync Server.</span></span> <span data-ttu-id="687c1-144">次に例を示します。</span><span class="sxs-lookup"><span data-stu-id="687c1-144">For example:</span></span>
+<span data-ttu-id="1184b-143">Verbose パラメーターが含まれている場合、Export-cslisconfiguration は、指定されたユーザーの Lync Server へのログオン能力を確認したときに実行された各操作のステップバイステップのアカウントを返します。</span><span class="sxs-lookup"><span data-stu-id="1184b-143">When the Verbose parameter is included, Test-CsLisConfiguration will return a step-by-step account of each action it tried when it checked the ability of the specified user to log on to Lync Server.</span></span> <span data-ttu-id="1184b-144">例:</span><span class="sxs-lookup"><span data-stu-id="1184b-144">For example:</span></span>
 
-<span data-ttu-id="687c1-145">位置情報サービスを呼び出しています。</span><span class="sxs-lookup"><span data-stu-id="687c1-145">Calling Location Information Service.</span></span>
+<span data-ttu-id="1184b-145">場所情報サービスを呼び出しています。</span><span class="sxs-lookup"><span data-stu-id="1184b-145">Calling Location Information Service.</span></span>
 
-<span data-ttu-id="687c1-146">サービスパス =https://atl-cs-001.litwareinc.com:443/locationinformation/liservice.svc</span><span class="sxs-lookup"><span data-stu-id="687c1-146">Service Path = https://atl-cs-001.litwareinc.com:443/locationinformation/liservice.svc</span></span>
+<span data-ttu-id="1184b-146">サービスパス =https://atl-cs-001.litwareinc.com:443/locationinformation/liservice.svc</span><span class="sxs-lookup"><span data-stu-id="1184b-146">Service Path = https://atl-cs-001.litwareinc.com:443/locationinformation/liservice.svc</span></span>
 
-<span data-ttu-id="687c1-147">Subnet =</span><span class="sxs-lookup"><span data-stu-id="687c1-147">Subnet =</span></span>
+<span data-ttu-id="1184b-147">Subnet =</span><span class="sxs-lookup"><span data-stu-id="1184b-147">Subnet =</span></span>
 
-<span data-ttu-id="687c1-148">BssId = 5</span><span class="sxs-lookup"><span data-stu-id="687c1-148">BssId = 5</span></span>
+<span data-ttu-id="1184b-148">BssId = 5</span><span class="sxs-lookup"><span data-stu-id="1184b-148">BssId = 5</span></span>
 
-<span data-ttu-id="687c1-149">Chいい Sid =</span><span class="sxs-lookup"><span data-stu-id="687c1-149">ChassisId =</span></span>
+<span data-ttu-id="1184b-149">Ch/Sid =</span><span class="sxs-lookup"><span data-stu-id="1184b-149">ChassisId =</span></span>
 
-<span data-ttu-id="687c1-150">PortId =</span><span class="sxs-lookup"><span data-stu-id="687c1-150">PortId =</span></span>
+<span data-ttu-id="1184b-150">PortId =</span><span class="sxs-lookup"><span data-stu-id="1184b-150">PortId =</span></span>
 
-<span data-ttu-id="687c1-151">PortIdSubType = 未定義の型</span><span class="sxs-lookup"><span data-stu-id="687c1-151">PortIdSubType = Undefined Type</span></span>
+<span data-ttu-id="1184b-151">PortIdSubType = 未定義の種類</span><span class="sxs-lookup"><span data-stu-id="1184b-151">PortIdSubType = Undefined Type</span></span>
 
-<span data-ttu-id="687c1-152">Mac</span><span class="sxs-lookup"><span data-stu-id="687c1-152">Mac</span></span>
+<span data-ttu-id="1184b-152">Mac</span><span class="sxs-lookup"><span data-stu-id="1184b-152">Mac</span></span>
 
-<span data-ttu-id="687c1-153">"位置情報の Web サービス要求" の例外は、応答コード Item400 で失敗しました。 '</span><span class="sxs-lookup"><span data-stu-id="687c1-153">An exception 'Location Information Web Service request has failed with a response code Item400.'</span></span> <span data-ttu-id="687c1-154">STLisConfigurationWorkflow の実行中に発生したワークフローのことです。.</span><span class="sxs-lookup"><span data-stu-id="687c1-154">occurred during Workflow Microsoft.Rtc.SyntheticTrsnactions.Workflows.STLisConfigurationWorkflow execution.</span></span>
+<span data-ttu-id="1184b-153">例外 ' 場所情報 Web サービス要求が応答コード Item400 で失敗しました。 '</span><span class="sxs-lookup"><span data-stu-id="1184b-153">An exception 'Location Information Web Service request has failed with a response code Item400.'</span></span> <span data-ttu-id="1184b-154">ワークフローの STLisConfigurationWorkflow の実行中に発生しました。この操作は、ワークフローの実行中に発生します。</span><span class="sxs-lookup"><span data-stu-id="1184b-154">occurred during Workflow Microsoft.Rtc.SyntheticTrsnactions.Workflows.STLisConfigurationWorkflow execution.</span></span>
 
-<span data-ttu-id="687c1-155">前の出力をよく確認すると、位置情報サービスを呼び出した後にコマンドレットが失敗したことがわかります。</span><span class="sxs-lookup"><span data-stu-id="687c1-155">If you examine the previous output closely, you’ll see that the cmdlet failed after it tried to call the Location Information Service.</span></span> <span data-ttu-id="687c1-156">この呼び出しで使用されたパラメーターの1つは、次のようになりました。</span><span class="sxs-lookup"><span data-stu-id="687c1-156">One of the parameters that were used in that call was this:</span></span>
+<span data-ttu-id="1184b-155">以前の出力を詳しく調べると、場所情報サービスを呼び出した後にコマンドレットが失敗したことがわかります。</span><span class="sxs-lookup"><span data-stu-id="1184b-155">If you examine the previous output closely, you’ll see that the cmdlet failed after it tried to call the Location Information Service.</span></span> <span data-ttu-id="1184b-156">その呼び出しで使用されたパラメーターの1つは次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="1184b-156">One of the parameters that were used in that call was this:</span></span>
 
-<span data-ttu-id="687c1-157">BssId = 5</span><span class="sxs-lookup"><span data-stu-id="687c1-157">BssId = 5</span></span>
+<span data-ttu-id="1184b-157">BssId = 5</span><span class="sxs-lookup"><span data-stu-id="1184b-157">BssId = 5</span></span>
 
-<span data-ttu-id="687c1-158">これは、基本サービスセット識別子 (BssID) の有効な値ではありません。</span><span class="sxs-lookup"><span data-stu-id="687c1-158">That’s not a valid value for the Basic Service Set Identifier (BssID).</span></span> <span data-ttu-id="687c1-159">代わりに、BssID は次のようになります。</span><span class="sxs-lookup"><span data-stu-id="687c1-159">Instead, a BssID should resemble this:</span></span>
+<span data-ttu-id="1184b-158">これは、基本サービスセット識別子 (BssID) の有効な値ではありません。</span><span class="sxs-lookup"><span data-stu-id="1184b-158">That’s not a valid value for the Basic Service Set Identifier (BssID).</span></span> <span data-ttu-id="1184b-159">代わりに、BssID は次のようになります。</span><span class="sxs-lookup"><span data-stu-id="1184b-159">Instead, a BssID should resemble this:</span></span>
 
-<span data-ttu-id="687c1-160">12-34-56-78-90-ab</span><span class="sxs-lookup"><span data-stu-id="687c1-160">12-34-56-78-90-ab</span></span>
+<span data-ttu-id="1184b-160">12-34-56-78-90-ab</span><span class="sxs-lookup"><span data-stu-id="1184b-160">12-34-56-78-90-ab</span></span>
 
 </div>
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="687c1-161">テストに失敗した可能性がある理由</span><span class="sxs-lookup"><span data-stu-id="687c1-161">Reasons why the test might have failed</span></span>
+## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="1184b-161">テストが失敗した理由</span><span class="sxs-lookup"><span data-stu-id="1184b-161">Reasons why the test might have failed</span></span>
 
-<span data-ttu-id="687c1-162">次に、テスト-CsLisConfiguration が失敗する可能性がある一般的な理由を示します。</span><span class="sxs-lookup"><span data-stu-id="687c1-162">Here are some common reasons why Test-CsLisConfiguration might fail:</span></span>
+<span data-ttu-id="1184b-162">Export-cslisconfiguration が失敗する可能性のある一般的な原因を次に示します。</span><span class="sxs-lookup"><span data-stu-id="1184b-162">Here are some common reasons why Test-CsLisConfiguration might fail:</span></span>
 
-  - <span data-ttu-id="687c1-163">指定されたパラメーター値が正しくありません。</span><span class="sxs-lookup"><span data-stu-id="687c1-163">An incorrect parameter value was supplied.</span></span> <span data-ttu-id="687c1-164">上の例で示したように、オプションのパラメーターは正しく構成されている必要があります。また、テストは失敗します。</span><span class="sxs-lookup"><span data-stu-id="687c1-164">As shown in the previous example, the optional parameters must be configured correctly or the test will fail.</span></span> <span data-ttu-id="687c1-165">省略可能なパラメーターを指定せずにコマンドを再実行し、それが成功するかどうかを確認します。</span><span class="sxs-lookup"><span data-stu-id="687c1-165">Rerun the command without the optional parameters and see whether that succeeds.</span></span>
+  - <span data-ttu-id="1184b-163">指定されたパラメーター値が正しくありません。</span><span class="sxs-lookup"><span data-stu-id="1184b-163">An incorrect parameter value was supplied.</span></span> <span data-ttu-id="1184b-164">前の例で示されているように、オプションのパラメーターが正しく構成されている必要があります。または、テストが失敗します。</span><span class="sxs-lookup"><span data-stu-id="1184b-164">As shown in the previous example, the optional parameters must be configured correctly or the test will fail.</span></span> <span data-ttu-id="1184b-165">オプションのパラメーターを指定せずにコマンドを再実行し、それが成功するかどうかを確認します。</span><span class="sxs-lookup"><span data-stu-id="1184b-165">Rerun the command without the optional parameters and see whether that succeeds.</span></span>
 
 </div>
 

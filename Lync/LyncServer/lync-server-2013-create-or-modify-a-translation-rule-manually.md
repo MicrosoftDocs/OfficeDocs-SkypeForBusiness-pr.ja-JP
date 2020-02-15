@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 翻訳ルールを手動で作成または変更する'
+title: 'Lync Server 2013: 変換ルールを手動で作成または変更する'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183276
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 372b394619a83ec01ca7a36bac4037c815f09fc1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5ae305052523c05bacb294928c1f81afd4e51931
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757891"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41995542"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-translation-rule-manually-in-lync-server-2013"></a><span data-ttu-id="cd837-102">Lync Server 2013 で翻訳ルールを手動で作成または変更する</span><span class="sxs-lookup"><span data-stu-id="cd837-102">Create or modify a translation rule manually in Lync Server 2013</span></span>
+# <a name="create-or-modify-a-translation-rule-manually-in-lync-server-2013"></a><span data-ttu-id="02233-102">Lync Server 2013 で変換ルールを手動で作成または変更する</span><span class="sxs-lookup"><span data-stu-id="02233-102">Create or modify a translation rule manually in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,45 +35,45 @@ ms.locfileid: "41757891"
 
 <span> </span>
 
-<span data-ttu-id="cd837-103">_**最終更新日:** 2012-08-06_</span><span class="sxs-lookup"><span data-stu-id="cd837-103">_**Topic Last Modified:** 2012-08-06_</span></span>
+<span data-ttu-id="02233-103">_**トピックの最終更新日:** 2012-08-06_</span><span class="sxs-lookup"><span data-stu-id="02233-103">_**Topic Last Modified:** 2012-08-06_</span></span>
 
-<span data-ttu-id="cd837-104">一致するパターンと翻訳ルールの正規表現を作成して、翻訳ルールを定義する場合は、次の手順に従います。</span><span class="sxs-lookup"><span data-stu-id="cd837-104">Follow these steps if you want to define a translation rule by writing a regular expression for the matching pattern and translation rule.</span></span> <span data-ttu-id="cd837-105">または、[**翻訳ルール**ツールのビルド] ツールで一連の値を入力し、Lync Server コントロールパネルを有効にして、対応する照合パターンと翻訳ルールを生成することもできます。</span><span class="sxs-lookup"><span data-stu-id="cd837-105">Alternatively, you can enter a set of values in the **Build a Translation Rule** tool and enable Lync Server Control Panel to generate the corresponding matching pattern and translation rule for you.</span></span> <span data-ttu-id="cd837-106">詳細については、「 [Lync Server 2013 の翻訳ルールの作成ツールを使用して、翻訳ルールを作成または変更](lync-server-2013-create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool.md)する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="cd837-106">For details, see [Create or modify a translation rule by using the Build a Translation Rule tool in Lync Server 2013](lync-server-2013-create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool.md).</span></span>
+<span data-ttu-id="02233-104">一致するパターンおよび変換ルールの正規表現を書いて変換ルールを定義する場合は、次の手順を実行します。</span><span class="sxs-lookup"><span data-stu-id="02233-104">Follow these steps if you want to define a translation rule by writing a regular expression for the matching pattern and translation rule.</span></span> <span data-ttu-id="02233-105">または、[**変換ルールの構築**] ツールに値のセットを入力し、Lync Server コントロールパネルを有効にして、対応する一致パターンと変換ルールを生成することもできます。</span><span class="sxs-lookup"><span data-stu-id="02233-105">Alternatively, you can enter a set of values in the **Build a Translation Rule** tool and enable Lync Server Control Panel to generate the corresponding matching pattern and translation rule for you.</span></span> <span data-ttu-id="02233-106">詳細については、「 [Lync Server 2013 の変換ルールの構築ツールを使用して変換ルールを作成または変更](lync-server-2013-create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool.md)する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="02233-106">For details, see [Create or modify a translation rule by using the Build a Translation Rule tool in Lync Server 2013](lync-server-2013-create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool.md).</span></span>
 
 <div>
 
-## <a name="to-define-a-translation-rule-manually"></a><span data-ttu-id="cd837-107">変換ルールを手動で定義するには</span><span class="sxs-lookup"><span data-stu-id="cd837-107">To define a translation rule manually</span></span>
+## <a name="to-define-a-translation-rule-manually"></a><span data-ttu-id="02233-107">変換ルールを手動で定義するには</span><span class="sxs-lookup"><span data-stu-id="02233-107">To define a translation rule manually</span></span>
 
-1.  <span data-ttu-id="cd837-108">RTCUniversalServerAdmins グループのメンバーとして、あるいは CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator の役割のメンバーとしてコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="cd837-108">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role.</span></span> <span data-ttu-id="cd837-109">詳細については、「 [Lync Server 2013 でセットアップのアクセス許可を委任](lync-server-2013-delegate-setup-permissions.md)する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="cd837-109">For details, see [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
+1.  <span data-ttu-id="02233-108">RTCUniversalServerAdmins グループのメンバーとして、または CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator の役割のメンバーとしてコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="02233-108">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role.</span></span> <span data-ttu-id="02233-109">詳細については、「 [Lync Server 2013 でのセットアップのアクセス許可の委任](lync-server-2013-delegate-setup-permissions.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="02233-109">For details, see [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
 
-2.  <span data-ttu-id="cd837-110">ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="cd837-110">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="cd837-111">Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="cd837-111">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="02233-110">ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="02233-110">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="02233-111">Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="02233-111">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="cd837-112">翻訳ルールの定義を開始するには、「 [Lync server 2013 でメディアバイパスを使用してトランクを構成](lync-server-2013-configure-a-trunk-with-media-bypass.md)する」を参照するか、「 [lync server 2013 でメディアをバイパスしないトランクを構成](lync-server-2013-configure-a-trunk-without-media-bypass.md)する」の手順に従ってください。</span><span class="sxs-lookup"><span data-stu-id="cd837-112">To begin defining a translation rule, follow the steps in [Configure a trunk with media bypass in Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md) through step 10 or [Configure a trunk without media bypass in Lync Server 2013](lync-server-2013-configure-a-trunk-without-media-bypass.md) through step 9.</span></span>
+3.  <span data-ttu-id="02233-112">変換ルールの定義を開始するには、「 [lync server 2013 でのメディアバイパスを使用](lync-server-2013-configure-a-trunk-with-media-bypass.md)したトランクの構成」の手順10まで、または「 [lync server 2013 でのメディアバイパスを使用しないトランクの構成](lync-server-2013-configure-a-trunk-without-media-bypass.md)」の手順9に記載されている手順を実行します。</span><span class="sxs-lookup"><span data-stu-id="02233-112">To begin defining a translation rule, follow the steps in [Configure a trunk with media bypass in Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md) through step 10 or [Configure a trunk without media bypass in Lync Server 2013](lync-server-2013-configure-a-trunk-without-media-bypass.md) through step 9.</span></span>
 
-4.  <span data-ttu-id="cd837-113">[**新しい変換ルール**] ページまたは [**変換ルールの編集**] ページの [**名前**] フィールドに、変換対象の番号パターンを説明する名前を入力します。</span><span class="sxs-lookup"><span data-stu-id="cd837-113">In the **Name** field on the **New Translation Rule** or **Edit Translation Rule** page, type a name that describes the number pattern being translated.</span></span>
+4.  <span data-ttu-id="02233-113">[**新しい変換ルール**] ページまたは [**変換ルールの編集**] ページの [**名前**] フィールドに、変換対象の番号パターンを説明する名前を入力します。</span><span class="sxs-lookup"><span data-stu-id="02233-113">In the **Name** field on the **New Translation Rule** or **Edit Translation Rule** page, type a name that describes the number pattern being translated.</span></span>
 
-5.  <span data-ttu-id="cd837-114">(オプション) [**説明**] に、「**US International long-distance dialing**」など、変換ルールの説明を入力します。</span><span class="sxs-lookup"><span data-stu-id="cd837-114">(Optional) In **Description**, type a description of the translation rule, for example **US International long-distance dialing**.</span></span>
+5.  <span data-ttu-id="02233-114">(省略可能) [**説明**] に、「**米国長距離国際電話ダイヤル**」など、変換ルールの説明を入力します。</span><span class="sxs-lookup"><span data-stu-id="02233-114">(Optional) In **Description**, type a description of the translation rule, for example **US International long-distance dialing**.</span></span>
 
-6.  <span data-ttu-id="cd837-115">[**変換ルールの構築**] セクションの一番下にある [**編集**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="cd837-115">Click **Edit** at the bottom of the **Build a Translation Rule** section.</span></span>
+6.  <span data-ttu-id="02233-115">[**変換ルールの構築**] セクションの一番下にある [**編集**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="02233-115">Click **Edit** at the bottom of the **Build a Translation Rule** section.</span></span>
 
-7.  <span data-ttu-id="cd837-116">[**正規表現の入力**] で次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="cd837-116">Enter the following in **Type a Regular Expression**:</span></span>
+7.  <span data-ttu-id="02233-116">[**正規表現の入力**] に、次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="02233-116">Enter the following in **Type a Regular Expression**:</span></span>
     
-      - <span data-ttu-id="cd837-117">[**このパターンと一致**] に、変換する番号を照合するために使用するパターンを指定します。</span><span class="sxs-lookup"><span data-stu-id="cd837-117">In **Match this pattern**, specify the pattern that will be used to match the numbers to be translated.</span></span>
+      - <span data-ttu-id="02233-117">[**このパターンと一致**] に、変換する番号を照合するために使用するパターンを指定します。</span><span class="sxs-lookup"><span data-stu-id="02233-117">In **Match this pattern**, specify the pattern that will be used to match the numbers to be translated.</span></span>
     
-      - <span data-ttu-id="cd837-118">[**変換ルール**] に、変換される番号の形式のパターンを指定します。</span><span class="sxs-lookup"><span data-stu-id="cd837-118">In **Translation rule**, specify a pattern for the format of translated numbers.</span></span>
+      - <span data-ttu-id="02233-118">[**変換ルール**] に、変換される番号の形式のパターンを指定します。</span><span class="sxs-lookup"><span data-stu-id="02233-118">In **Translation rule**, specify a pattern for the format of translated numbers.</span></span>
     
-    <span data-ttu-id="cd837-119">たとえば、「 \*\* ^ \\+\\{9}\\(d d +) $\*\* 」と入力すると (**このパターン**と**011 $ 1**の**翻訳ルール**が適用されます)、ルールは + 441235551010 から011441235551010に変換されます。</span><span class="sxs-lookup"><span data-stu-id="cd837-119">For example, if you enter **^\\+(\\d{9}\\d+)$** in **Match this pattern** and **011$1** in **Translation rule**, the rule will translate +441235551010 to 011441235551010.</span></span>
+    <span data-ttu-id="02233-119">たとえば、[**このパターンを照合**] に「 \*\* ^ \\+\\(d{9}\\d +) $\*\* 」と入力し、[**変換ルール**] に「 **011 $ 1** 」と入力すると、ルールは + 441235551010 から011441235551010に変換されます。</span><span class="sxs-lookup"><span data-stu-id="02233-119">For example, if you enter **^\\+(\\d{9}\\d+)$** in **Match this pattern** and **011$1** in **Translation rule**, the rule will translate +441235551010 to 011441235551010.</span></span>
 
-8.  <span data-ttu-id="cd837-120">[**OK**] をクリックして変換ルールを保存します。</span><span class="sxs-lookup"><span data-stu-id="cd837-120">Click **OK** to save the translation rule.</span></span>
+8.  <span data-ttu-id="02233-120">[**OK**] をクリックして変換ルールを保存します。</span><span class="sxs-lookup"><span data-stu-id="02233-120">Click **OK** to save the translation rule.</span></span>
 
-9.  <span data-ttu-id="cd837-121">[**OK**] をクリックしてトランク構成を保存します。</span><span class="sxs-lookup"><span data-stu-id="cd837-121">Click **OK** to save the trunk configuration.</span></span>
+9.  <span data-ttu-id="02233-121">[**OK**] をクリックしてトランク構成を保存します。</span><span class="sxs-lookup"><span data-stu-id="02233-121">Click **OK** to save the trunk configuration.</span></span>
 
-10. <span data-ttu-id="cd837-122">[**トランク構成**] ページで [**確定**] をクリックして、[**すべて確定**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="cd837-122">On the **Trunk Configuration** page, click **Commit**, and then click **Commit all**.</span></span>
+10. <span data-ttu-id="02233-122">[**トランク構成**] ページで [**確定**] をクリックして、[**すべて確定**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="02233-122">On the **Trunk Configuration** page, click **Commit**, and then click **Commit all**.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="cd837-123">変換ルールを作成または変更したときは必ず、[<STRONG>すべて確定</STRONG>] コマンドを実行して構成の変更を公開する必要があります。</span><span class="sxs-lookup"><span data-stu-id="cd837-123">Whenever you create or modify a translation rule, you must run the <STRONG>Commit all</STRONG> command to publish the configuration change.</span></span> <span data-ttu-id="cd837-124">詳細については、「操作のドキュメントで「 <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Lync Server 2013 のボイスルーティング構成に保留中の変更を発行する</A>」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="cd837-124">For details, see <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publish pending changes to the voice routing configuration in Lync Server 2013</A> in the Operations documentation.</span></span>
+    > <span data-ttu-id="02233-123">変換ルールを作成または変更したときは必ず、[<STRONG>すべて確定</STRONG>] コマンドを実行して構成の変更を公開する必要があります。</span><span class="sxs-lookup"><span data-stu-id="02233-123">Whenever you create or modify a translation rule, you must run the <STRONG>Commit all</STRONG> command to publish the configuration change.</span></span> <span data-ttu-id="02233-124">詳細については、「操作」のドキュメントの「 <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Lync Server 2013 での音声ルーティング構成に対する保留中の変更の公開</A>」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="02233-124">For details, see <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publish pending changes to the voice routing configuration in Lync Server 2013</A> in the Operations documentation.</span></span>
 
     
     </div>
@@ -82,16 +82,16 @@ ms.locfileid: "41757891"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="cd837-125">関連項目</span><span class="sxs-lookup"><span data-stu-id="cd837-125">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="02233-125">関連項目</span><span class="sxs-lookup"><span data-stu-id="02233-125">See Also</span></span>
 
 
-[<span data-ttu-id="cd837-126">Lync Server 2013 の翻訳ルールの作成ツールを使用して、翻訳ルールを作成または変更する</span><span class="sxs-lookup"><span data-stu-id="cd837-126">Create or modify a translation rule by using the Build a Translation Rule tool in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool.md)  
-[<span data-ttu-id="cd837-127">Configure a trunk with media bypass in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cd837-127">Configure a trunk with media bypass in Lync Server 2013</span></span>](lync-server-2013-configure-a-trunk-with-media-bypass.md)  
-[<span data-ttu-id="cd837-128">Lync Server 2013 でメディアをバイパスせずにトランクを構成する</span><span class="sxs-lookup"><span data-stu-id="cd837-128">Configure a trunk without media bypass in Lync Server 2013</span></span>](lync-server-2013-configure-a-trunk-without-media-bypass.md)  
-[<span data-ttu-id="cd837-129">Lync Server 2013 の音声ルーティング構成に保留中の変更を発行する</span><span class="sxs-lookup"><span data-stu-id="cd837-129">Publish pending changes to the voice routing configuration in Lync Server 2013</span></span>](lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md)  
+[<span data-ttu-id="02233-126">Lync Server 2013 で変換ルールの構築ツールを使用して変換ルールを作成または変更する</span><span class="sxs-lookup"><span data-stu-id="02233-126">Create or modify a translation rule by using the Build a Translation Rule tool in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool.md)  
+[<span data-ttu-id="02233-127">Lync Server 2013 でメディアバイパスを使用してトランクを構成する</span><span class="sxs-lookup"><span data-stu-id="02233-127">Configure a trunk with media bypass in Lync Server 2013</span></span>](lync-server-2013-configure-a-trunk-with-media-bypass.md)  
+[<span data-ttu-id="02233-128">Lync Server 2013 でメディアバイパスを使用せずにトランクを構成する</span><span class="sxs-lookup"><span data-stu-id="02233-128">Configure a trunk without media bypass in Lync Server 2013</span></span>](lync-server-2013-configure-a-trunk-without-media-bypass.md)  
+[<span data-ttu-id="02233-129">Lync Server 2013 で保留中の変更を音声ルーティング構成に公開する</span><span class="sxs-lookup"><span data-stu-id="02233-129">Publish pending changes to the voice routing configuration in Lync Server 2013</span></span>](lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md)  
 
 
-[<span data-ttu-id="cd837-130">Lync Server 2013 のグローバルメディアバイパスオプション</span><span class="sxs-lookup"><span data-stu-id="cd837-130">Global media bypass options in Lync Server 2013</span></span>](lync-server-2013-global-media-bypass-options.md)  
+[<span data-ttu-id="02233-130">Lync Server 2013 のグローバルメディアバイパスオプション</span><span class="sxs-lookup"><span data-stu-id="02233-130">Global media bypass options in Lync Server 2013</span></span>](lync-server-2013-global-media-bypass-options.md)  
   
 
 </div>

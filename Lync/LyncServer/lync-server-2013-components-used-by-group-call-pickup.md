@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: グループ通話のピックアップで使用されるコンポーネント'
+title: 'Lync Server 2013: グループ通話ピックアップで使用されるコンポーネント'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541470
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7b9c810d5835d113a26bd3a15295f75a71552590
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a05bf0b6a55eb3d8d3d322061947ac43f6295c63
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757071"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007927"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="components-used-by-group-call-pickup-in-lync-server-2013"></a><span data-ttu-id="700bc-102">Lync Server 2013 でグループ通話のピックアップによって使用されるコンポーネント</span><span class="sxs-lookup"><span data-stu-id="700bc-102">Components used by Group Call Pickup in Lync Server 2013</span></span>
+# <a name="components-used-by-group-call-pickup-in-lync-server-2013"></a><span data-ttu-id="4d215-102">Lync Server 2013 のグループ通話ピックアップで使用されるコンポーネント</span><span class="sxs-lookup"><span data-stu-id="4d215-102">Components used by Group Call Pickup in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41757071"
 
 <span> </span>
 
-<span data-ttu-id="700bc-103">_**最終更新日:** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="700bc-103">_**Topic Last Modified:** 2013-01-30_</span></span>
+<span data-ttu-id="4d215-103">_**トピックの最終更新日:** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="4d215-103">_**Topic Last Modified:** 2013-01-30_</span></span>
 
-<span data-ttu-id="700bc-104">グループ通話のピックアップは、エンタープライズボイスと Call パークアプリケーションを展開したときに自動的に展開されます。</span><span class="sxs-lookup"><span data-stu-id="700bc-104">Group Call Pickup is automatically deployed when you deploy Enterprise Voice and the Call Park application.</span></span> <span data-ttu-id="700bc-105">グループ通話のピックアップを有効にするには、通話ピックアップグループ番号として指定された別の範囲の番号を使用して、ユーザーをピックアップグループに発信し、グループ通話のピックアップを許可するようにユーザーを割り当てることで、グループ通話のピックアップを有効にします。</span><span class="sxs-lookup"><span data-stu-id="700bc-105">You enable Group Call Pickup by configuring the Call Park orbit table with separate ranges of numbers designated as call pickup group numbers, and then by assigning users to call pickup groups and enabling the users for Group Call Pickup.</span></span> <span data-ttu-id="700bc-106">グループ通話のピックアップは、次の Lync Server コンポーネントでサポートされています。</span><span class="sxs-lookup"><span data-stu-id="700bc-106">The following Lync Server components support Group Call Pickup:</span></span>
+<span data-ttu-id="4d215-104">グループ通話ピックアップは、エンタープライズ Voip およびコールパークアプリケーションを展開するときに自動的に展開されます。</span><span class="sxs-lookup"><span data-stu-id="4d215-104">Group Call Pickup is automatically deployed when you deploy Enterprise Voice and the Call Park application.</span></span> <span data-ttu-id="4d215-105">グループ通話ピックアップを有効にするには、通話ピックアップグループ番号として指定された別の番号の範囲を使用してコールパークオービットテーブルを構成し、ユーザーを割り当ててグループ通話ピックアップのユーザーを有効にします。</span><span class="sxs-lookup"><span data-stu-id="4d215-105">You enable Group Call Pickup by configuring the Call Park orbit table with separate ranges of numbers designated as call pickup group numbers, and then by assigning users to call pickup groups and enabling the users for Group Call Pickup.</span></span> <span data-ttu-id="4d215-106">グループ通話ピックアップをサポートする Lync Server コンポーネントは次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="4d215-106">The following Lync Server components support Group Call Pickup:</span></span>
 
-  - <span data-ttu-id="700bc-107">**アプリケーションサービス**   アプリケーションサービスは、コールパークアプリケーションなどのユニファイドコミュニケーションアプリケーションを展開、ホスティング、および管理するためのプラットフォームを提供します。</span><span class="sxs-lookup"><span data-stu-id="700bc-107">**Application service**   Application service provides a platform for deploying, hosting, and managing unified communications applications, such as the Call Park application.</span></span> <span data-ttu-id="700bc-108">アプリケーションサービスは、フロントエンドプールのすべてのフロントエンドサーバーと、すべての Standard Edition サーバーに自動的にインストールされます。</span><span class="sxs-lookup"><span data-stu-id="700bc-108">Application service is automatically installed on every Front End Server in a Front End pool and on every Standard Edition server.</span></span>
+  - <span data-ttu-id="4d215-107">**Application service**   アプリケーションサービスは、コールパークアプリケーションなどの統合コミュニケーションアプリケーションを展開、ホスト、および管理するためのプラットフォームを提供します。</span><span class="sxs-lookup"><span data-stu-id="4d215-107">**Application service**   Application service provides a platform for deploying, hosting, and managing unified communications applications, such as the Call Park application.</span></span> <span data-ttu-id="4d215-108">アプリケーションサービスは、フロントエンドプール内のすべてのフロントエンドサーバーとすべての Standard Edition サーバーに自動的にインストールされます。</span><span class="sxs-lookup"><span data-stu-id="4d215-108">Application service is automatically installed on every Front End Server in a Front End pool and on every Standard Edition server.</span></span>
 
-  - <span data-ttu-id="700bc-109">**コールパーク**   アプリケーションは、アプリケーションサービスによってホストされるユニファイドコミュニケーションアプリケーションの1つです。</span><span class="sxs-lookup"><span data-stu-id="700bc-109">**Call Park application**   The Call Park application is one of the unified communications applications that are hosted by Application service.</span></span> <span data-ttu-id="700bc-110">グループ通話のピックアップは、コールパークアプリケーションに基づいています。</span><span class="sxs-lookup"><span data-stu-id="700bc-110">Group Call Pickup is based on the Call Park application.</span></span>
+  - <span data-ttu-id="4d215-109">**コールパークアプリケーション**   コールパークアプリケーションは、アプリケーションサービスによってホストされている統合コミュニケーションアプリケーションの1つです。</span><span class="sxs-lookup"><span data-stu-id="4d215-109">**Call Park application**   The Call Park application is one of the unified communications applications that are hosted by Application service.</span></span> <span data-ttu-id="4d215-110">グループ通話ピックアップは、コールパークアプリケーションに基づいています。</span><span class="sxs-lookup"><span data-stu-id="4d215-110">Group Call Pickup is based on the Call Park application.</span></span>
 
-  - <span data-ttu-id="700bc-111">**Lync server 管理**   シェル lync server 管理シェルを使ってグループ通話のピックアップグループを管理します。</span><span class="sxs-lookup"><span data-stu-id="700bc-111">**Lync Server Management Shell**   You use Lync Server Management Shell to manage Group Call Pickup groups.</span></span>
+  - <span data-ttu-id="4d215-111">**Lync server 管理シェル**   lync server 管理シェルを使用して、グループ通話ピックアップグループを管理します。</span><span class="sxs-lookup"><span data-stu-id="4d215-111">**Lync Server Management Shell**   You use Lync Server Management Shell to manage Group Call Pickup groups.</span></span>
 
-  - <span data-ttu-id="700bc-112">**SEFAUtil リソースキットツール**   セカンダリ拡張機能のアクティブ化ユーティリティ (SEFAUtil) を使って、ユーザーを通話ピックアップグループに割り当て、ユーザーに対して通話集配を有効または無効にします。</span><span class="sxs-lookup"><span data-stu-id="700bc-112">**SEFAUtil resource kit tool**   You use the secondary extension feature activation utility (SEFAUtil) to assign users to a call pickup group and to enable or disable call pickup for users.</span></span>
+  - <span data-ttu-id="4d215-112">**SEFAUtil resource kit tool**   セカンダリ拡張機能のアクティブ化ユーティリティ (SEFAUtil) を使用して、ユーザーを通話ピックアップグループに割り当て、ユーザーの通話ピックアップを有効または無効にします。</span><span class="sxs-lookup"><span data-stu-id="4d215-112">**SEFAUtil resource kit tool**   You use the secondary extension feature activation utility (SEFAUtil) to assign users to a call pickup group and to enable or disable call pickup for users.</span></span>
 
 </div>
 

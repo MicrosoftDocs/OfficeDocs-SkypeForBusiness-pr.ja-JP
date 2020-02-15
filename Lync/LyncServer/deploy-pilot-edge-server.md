@@ -1,5 +1,5 @@
 ---
-title: パイロット エッジ サーバーの展開
+title: パイロット エッジ サーバーを展開する
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185559
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cc9f88d731873a16535e80eb0726aec8335e447b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d2227e4ca38039b60d9ef26c25bfe11c3cc7fff6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729947"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006443"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploy-pilot-edge-server"></a><span data-ttu-id="54e3f-102">パイロット エッジ サーバーの展開</span><span class="sxs-lookup"><span data-stu-id="54e3f-102">Deploy pilot Edge Server</span></span>
+# <a name="deploy-pilot-edge-server"></a><span data-ttu-id="0740e-102">パイロット エッジ サーバーを展開する</span><span class="sxs-lookup"><span data-stu-id="0740e-102">Deploy pilot Edge Server</span></span>
 
 </div>
 
@@ -35,45 +35,45 @@ ms.locfileid: "41729947"
 
 <span> </span>
 
-<span data-ttu-id="54e3f-103">_**最終更新日:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="54e3f-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+<span data-ttu-id="0740e-103">_**トピックの最終更新日:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="0740e-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-<span data-ttu-id="54e3f-104">このトピックでは、Lync Server 2013 Edge サーバーを展開する前に知っておく必要がある構成設定について説明します。</span><span class="sxs-lookup"><span data-stu-id="54e3f-104">This topic highlights configuration settings you should be aware of prior to deploying your Lync Server 2013 Edge Server.</span></span> <span data-ttu-id="54e3f-105">Lync Server 2013 の展開と構成のプロセスは、Lync Server 2010 とよく似ています。</span><span class="sxs-lookup"><span data-stu-id="54e3f-105">The deployment and configuration processes for Lync Server 2013 are very similar to Lync Server 2010.</span></span> <span data-ttu-id="54e3f-106">このセクションでは、パイロットプールの展開の一部として考慮する必要がある重要なポイントについて説明します。</span><span class="sxs-lookup"><span data-stu-id="54e3f-106">This section only highlights key points you should consider as part of your pilot pool deployment.</span></span> <span data-ttu-id="54e3f-107">詳細な手順については、「展開プロセスについて説明し、外部ユーザーアクセスの構成情報も提供する展開ドキュメントの「 [Lync Server 2013 での外部ユーザーアクセスの展開](lync-server-2013-deploying-external-user-access.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="54e3f-107">For detailed steps, see [Deploying external user access in Lync Server 2013](lync-server-2013-deploying-external-user-access.md) in the Deployment documentation, which describes the deployment process and also gives configuration information for external user access.</span></span>
+<span data-ttu-id="0740e-104">このトピックでは、Lync Server 2013 エッジサーバーを展開する前に認識しておく必要がある構成設定について説明します。</span><span class="sxs-lookup"><span data-stu-id="0740e-104">This topic highlights configuration settings you should be aware of prior to deploying your Lync Server 2013 Edge Server.</span></span> <span data-ttu-id="0740e-105">Lync Server 2013 の展開および構成プロセスは、Lync Server 2010 によく似ています。</span><span class="sxs-lookup"><span data-stu-id="0740e-105">The deployment and configuration processes for Lync Server 2013 are very similar to Lync Server 2010.</span></span> <span data-ttu-id="0740e-106">このセクションで説明するのは、パイロット プールの展開の際に考慮が必要となる主なポイントのみです。</span><span class="sxs-lookup"><span data-stu-id="0740e-106">This section only highlights key points you should consider as part of your pilot pool deployment.</span></span> <span data-ttu-id="0740e-107">詳細な手順については、「展開」のドキュメントの「Deployment [external user access In Lync Server 2013](lync-server-2013-deploying-external-user-access.md) 」 (展開プロセスについて説明し、外部ユーザーアクセスの構成情報も提供します) を参照してください。</span><span class="sxs-lookup"><span data-stu-id="0740e-107">For detailed steps, see [Deploying external user access in Lync Server 2013](lync-server-2013-deploying-external-user-access.md) in the Deployment documentation, which describes the deployment process and also gives configuration information for external user access.</span></span>
 
-<span data-ttu-id="54e3f-108">[**新しいエッジプールの定義**] ウィザードを実行するときに、次の手順に示されているキー構成の設定を確認します。</span><span class="sxs-lookup"><span data-stu-id="54e3f-108">As you navigate through the **Define New Edge Pool** wizard, review the key configuration settings shown in the following steps.</span></span> <span data-ttu-id="54e3f-109">[**新しいエッジプールの定義**] ウィザードの一部のページのみが表示されることに注意してください。</span><span class="sxs-lookup"><span data-stu-id="54e3f-109">Note that only a few pages of the **Define New Edge Pool** wizard are shown.</span></span>
+<span data-ttu-id="0740e-p102">**新しいエッジ プールの定義**ウィザードでは、以下の手順に示すキー構成の設定を確認してください。ただし、**新しいエッジ プールの定義**ウィザードのごく一部のページのみが示されています。</span><span class="sxs-lookup"><span data-stu-id="0740e-p102">As you navigate through the **Define New Edge Pool** wizard, review the key configuration settings shown in the following steps. Note that only a few pages of the **Define New Edge Pool** wizard are shown.</span></span>
 
-<span data-ttu-id="54e3f-110">**エッジプールを定義する**</span><span class="sxs-lookup"><span data-stu-id="54e3f-110">**Define an Edge Pool**</span></span>
+<span data-ttu-id="0740e-110">**エッジ プールを定義する**</span><span class="sxs-lookup"><span data-stu-id="0740e-110">**Define an Edge Pool**</span></span>
 
-1.  <span data-ttu-id="54e3f-111">トポロジ ビルダーがインストールされているコンピューターに、Domain Admins グループおよび RTCUniversalServerAdmins グループのメンバーとしてログオンします。</span><span class="sxs-lookup"><span data-stu-id="54e3f-111">Log on to the computer where Topology Builder is installed as a member of the Domain Admins group and the RTCUniversalServerAdmins group.</span></span>
+1.  <span data-ttu-id="0740e-111">トポロジ ビルダーがインストールされているコンピューターに、Domain Admins グループおよび RTCUniversalServerAdmins グループのメンバーとしてログオンします。</span><span class="sxs-lookup"><span data-stu-id="0740e-111">Log on to the computer where Topology Builder is installed as a member of the Domain Admins group and the RTCUniversalServerAdmins group.</span></span>
 
-2.  <span data-ttu-id="54e3f-112">Lync Server 2013 ノードに移動します。</span><span class="sxs-lookup"><span data-stu-id="54e3f-112">Navigate to the Lync Server 2013 node.</span></span> <span data-ttu-id="54e3f-113">[**エッジプール**] を右クリックし、[**新しいエッジプール**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="54e3f-113">Right-click **Edge pools**, and click **New Edge pool**.</span></span>
+2.  <span data-ttu-id="0740e-112">[Lync Server 2013 ノードに移動します。</span><span class="sxs-lookup"><span data-stu-id="0740e-112">Navigate to the Lync Server 2013 node.</span></span> <span data-ttu-id="0740e-113">[**エッジ プール**] を右クリックし、[**新しいエッジ プール**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="0740e-113">Right-click **Edge pools**, and click **New Edge pool**.</span></span>
     
-    <span data-ttu-id="54e3f-114">![[新しいエッジプールの定義] ダイアログボックス](images/JJ205306.a90d388c-49ff-4620-a19d-42e2f1bb559c(OCS.15).jpg "[新しいエッジプールの定義] ダイアログボックス")</span><span class="sxs-lookup"><span data-stu-id="54e3f-114">![Define the New Edge Pool dialog box](images/JJ205306.a90d388c-49ff-4620-a19d-42e2f1bb559c(OCS.15).jpg "Define the New Edge Pool dialog box")</span></span>
+    <span data-ttu-id="0740e-114">![[新しいエッジプールの定義] ダイアログボックス](images/JJ205306.a90d388c-49ff-4620-a19d-42e2f1bb559c(OCS.15).jpg "[新しいエッジプールの定義] ダイアログボックス")</span><span class="sxs-lookup"><span data-stu-id="0740e-114">![Define the New Edge Pool dialog box](images/JJ205306.a90d388c-49ff-4620-a19d-42e2f1bb559c(OCS.15).jpg "Define the New Edge Pool dialog box")</span></span>
 
-3.  <span data-ttu-id="54e3f-115">エッジプールには、**複数のコンピュータプール**または**単一のコンピュータプール**を使用できます。</span><span class="sxs-lookup"><span data-stu-id="54e3f-115">An Edge pool can be a **Multiple computer pool** or **Single computer pool**.</span></span>
+3.  <span data-ttu-id="0740e-115">エッジ プールは、[**複数のコンピューター プール**] または [**単一コンピューター プール**] のどちらかになります。</span><span class="sxs-lookup"><span data-stu-id="0740e-115">An Edge pool can be a **Multiple computer pool** or **Single computer pool**.</span></span>
     
-    <span data-ttu-id="54e3f-116">![エッジプールの FQDN ダイアログボックスの定義](images/JJ205306.4904fe8f-537c-4e66-a399-1bd8a316dc10(OCS.15).jpg "エッジプールの FQDN ダイアログボックスの定義")</span><span class="sxs-lookup"><span data-stu-id="54e3f-116">![Define the Edge Pool FQDN dialog box](images/JJ205306.4904fe8f-537c-4e66-a399-1bd8a316dc10(OCS.15).jpg "Define the Edge Pool FQDN dialog box")</span></span>
+    <span data-ttu-id="0740e-116">![[エッジプールの FQDN の定義] ダイアログボックス](images/JJ205306.4904fe8f-537c-4e66-a399-1bd8a316dc10(OCS.15).jpg "[エッジプールの FQDN の定義] ダイアログボックス")</span><span class="sxs-lookup"><span data-stu-id="0740e-116">![Define the Edge Pool FQDN dialog box](images/JJ205306.4904fe8f-537c-4e66-a399-1bd8a316dc10(OCS.15).jpg "Define the Edge Pool FQDN dialog box")</span></span>
 
-4.  <span data-ttu-id="54e3f-117">**[機能の選択**] ページで、フェデレーションまたは xmpp フェデレーションを有効にしないようにします。</span><span class="sxs-lookup"><span data-stu-id="54e3f-117">On the **Select features** page, do not enable federation or XMPP federation.</span></span> <span data-ttu-id="54e3f-118">フェデレーションと XMPP フェデレーションは、現在、従来の Lync Server 2010 Edge サーバー経由でルーティングされます。</span><span class="sxs-lookup"><span data-stu-id="54e3f-118">Federation and XMPP federation are both currently routed through the legacy Lync Server 2010 Edge Server.</span></span> <span data-ttu-id="54e3f-119">これらの機能は、移行の後のフェーズで構成されます。</span><span class="sxs-lookup"><span data-stu-id="54e3f-119">These features will be configured in a later phase of migration.</span></span>
+4.  <span data-ttu-id="0740e-117">[**機能の選択**] ページでは、フェデレーションまたは XMPP フェデレーションを有効にしないでください。</span><span class="sxs-lookup"><span data-stu-id="0740e-117">On the **Select features** page, do not enable federation or XMPP federation.</span></span> <span data-ttu-id="0740e-118">フェデレーションと XMPP フェデレーションは、現在、従来の Lync Server 2010 エッジサーバーを経由してルーティングされています。</span><span class="sxs-lookup"><span data-stu-id="0740e-118">Federation and XMPP federation are both currently routed through the legacy Lync Server 2010 Edge Server.</span></span> <span data-ttu-id="0740e-119">この機能は、後ほど移行のフェーズで構成されます。</span><span class="sxs-lookup"><span data-stu-id="0740e-119">These features will be configured in a later phase of migration.</span></span>
     
-    <span data-ttu-id="54e3f-120">![[機能の選択] ダイアログボックス](images/JJ205306.cb0b45a4-2856-45ba-bd97-e49fafbb077e(OCS.15).jpg "[機能の選択] ダイアログボックス")</span><span class="sxs-lookup"><span data-stu-id="54e3f-120">![Select Features dialog box](images/JJ205306.cb0b45a4-2856-45ba-bd97-e49fafbb077e(OCS.15).jpg "Select Features dialog box")</span></span>
+    <span data-ttu-id="0740e-120">![[機能の選択] ダイアログボックス](images/JJ205306.cb0b45a4-2856-45ba-bd97-e49fafbb077e(OCS.15).jpg "[機能の選択] ダイアログボックス")</span><span class="sxs-lookup"><span data-stu-id="0740e-120">![Select Features dialog box](images/JJ205306.cb0b45a4-2856-45ba-bd97-e49fafbb077e(OCS.15).jpg "Select Features dialog box")</span></span>
 
-5.  <span data-ttu-id="54e3f-121">次に、次のウィザードページに進んでください。**外部 fqdn**、**内部 ip アドレスの定義**、**外部 ip アドレスの定義**を行います。</span><span class="sxs-lookup"><span data-stu-id="54e3f-121">Next, continue completing the following wizard pages: **External FQDNs**, **Define the internal IP address**, and **Define the external IP address**.</span></span>
+5.  <span data-ttu-id="0740e-121">次に、次のウィザードページに進みます。**外部 fqdn**、**内部 IP アドレスの定義**、および**外部 ip アドレスの定義**を行います。</span><span class="sxs-lookup"><span data-stu-id="0740e-121">Next, continue completing the following wizard pages: **External FQDNs**, **Define the internal IP address**, and **Define the external IP address**.</span></span>
 
-6.  <span data-ttu-id="54e3f-122">[**次ホップの定義**] ページで、Lync Server 2010 Edge プールの次ホップのディレクターを選択します。</span><span class="sxs-lookup"><span data-stu-id="54e3f-122">On the **Define the next hop** page, select the Director for the next hop of the Lync Server 2010 Edge pool.</span></span>
+6.  <span data-ttu-id="0740e-122">[**次ホップの定義**] ページで、Lync Server 2010 エッジプールの次ホップのディレクターを選択します。</span><span class="sxs-lookup"><span data-stu-id="0740e-122">On the **Define the next hop** page, select the Director for the next hop of the Lync Server 2010 Edge pool.</span></span>
     
-    <span data-ttu-id="54e3f-123">![[次ホップの定義] ダイアログボックス](images/JJ205306.11baf3ea-74f5-4eb7-8650-b03b3b190416(OCS.15).jpg "[次ホップの定義] ダイアログボックス")</span><span class="sxs-lookup"><span data-stu-id="54e3f-123">![Define the Next Hop dialog box](images/JJ205306.11baf3ea-74f5-4eb7-8650-b03b3b190416(OCS.15).jpg "Define the Next Hop dialog box")</span></span>
+    <span data-ttu-id="0740e-123">![[次ホップの定義] ダイアログボックス](images/JJ205306.11baf3ea-74f5-4eb7-8650-b03b3b190416(OCS.15).jpg "[次ホップの定義] ダイアログボックス")</span><span class="sxs-lookup"><span data-stu-id="0740e-123">![Define the Next Hop dialog box](images/JJ205306.11baf3ea-74f5-4eb7-8650-b03b3b190416(OCS.15).jpg "Define the Next Hop dialog box")</span></span>
 
-7.  <span data-ttu-id="54e3f-124">[**フロントエンドまたは仲介プールの関連付け**] ページで、この時点ではプールをこのエッジプールに関連付けないでください。</span><span class="sxs-lookup"><span data-stu-id="54e3f-124">On the **Associate Front End or Mediation pools** page, do not associate a pool with this Edge pool at this time.</span></span> <span data-ttu-id="54e3f-125">外部メディアトラフィックは、現在、従来の Lync Server 2010 エッジサーバーを介してルーティングされています。</span><span class="sxs-lookup"><span data-stu-id="54e3f-125">External media traffic is currently routed through the legacy Lync Server 2010 Edge Server.</span></span> <span data-ttu-id="54e3f-126">この設定は、移行の後のフェーズで構成されます。</span><span class="sxs-lookup"><span data-stu-id="54e3f-126">This setting will be configured in a later phase of migration.</span></span>
+7.  <span data-ttu-id="0740e-124">[**フロントエンドまたは仲介プールの関連付け**] ページで、現時点ではプールをこのエッジプールに関連付けないでください。</span><span class="sxs-lookup"><span data-stu-id="0740e-124">On the **Associate Front End or Mediation pools** page, do not associate a pool with this Edge pool at this time.</span></span> <span data-ttu-id="0740e-125">外部メディアトラフィックは、現在、従来の Lync Server 2010 エッジサーバーを経由してルーティングされています。</span><span class="sxs-lookup"><span data-stu-id="0740e-125">External media traffic is currently routed through the legacy Lync Server 2010 Edge Server.</span></span> <span data-ttu-id="0740e-126">この設定は、後ほど移行のフェーズで構成されます。</span><span class="sxs-lookup"><span data-stu-id="0740e-126">This setting will be configured in a later phase of migration.</span></span>
     
-    <span data-ttu-id="54e3f-127">![[フロントエンドプールの関連付け] ダイアログボックス](images/JJ205306.fe0da887-7b51-4564-afc5-d57da95a2eb6(OCS.15).jpg "[フロントエンドプールの関連付け] ダイアログボックス")</span><span class="sxs-lookup"><span data-stu-id="54e3f-127">![Associate Front End Pools dialog box](images/JJ205306.fe0da887-7b51-4564-afc5-d57da95a2eb6(OCS.15).jpg "Associate Front End Pools dialog box")</span></span>
+    <span data-ttu-id="0740e-127">![[フロントエンドプールの関連付け] ダイアログボックス](images/JJ205306.fe0da887-7b51-4564-afc5-d57da95a2eb6(OCS.15).jpg "[フロントエンドプールの関連付け] ダイアログボックス")</span><span class="sxs-lookup"><span data-stu-id="0740e-127">![Associate Front End Pools dialog box](images/JJ205306.fe0da887-7b51-4564-afc5-d57da95a2eb6(OCS.15).jpg "Associate Front End Pools dialog box")</span></span>
 
-8.  <span data-ttu-id="54e3f-128">[**完了**] をクリックして、トポロジを**公開**します。</span><span class="sxs-lookup"><span data-stu-id="54e3f-128">Click **Finish** and then **Publish** the topology.</span></span>
+8.  <span data-ttu-id="0740e-128">[**完了**] をクリックし、[**公開**] をクリックしてトポロジを公開します。</span><span class="sxs-lookup"><span data-stu-id="0740e-128">Click **Finish** and then **Publish** the topology.</span></span>
 
-9.  <span data-ttu-id="54e3f-129">展開ドキュメントの「 [Lync server 2013 用エッジサーバー](lync-server-2013-install-edge-servers.md)をインストールする」の手順に従って、新しいエッジサーバーにファイルをインストールし、証明書を構成して、サービスを開始します。</span><span class="sxs-lookup"><span data-stu-id="54e3f-129">Follow the steps in [Install Edge Servers for Lync Server 2013](lync-server-2013-install-edge-servers.md) in the Deployment documentation to install the files on the new Edge Server, configure certificates, and start the services.</span></span>
+9.  <span data-ttu-id="0740e-129">「展開」のドキュメントの「 [Install Edge Servers For Lync server 2013](lync-server-2013-install-edge-servers.md) 」の手順に従って、新しいエッジサーバーにファイルをインストールし、証明書を構成して、サービスを開始します。</span><span class="sxs-lookup"><span data-stu-id="0740e-129">Follow the steps in [Install Edge Servers for Lync Server 2013](lync-server-2013-install-edge-servers.md) in the Deployment documentation to install the files on the new Edge Server, configure certificates, and start the services.</span></span>
 
-<span data-ttu-id="54e3f-130">展開ドキュメントの「 [Lync Server 2013 での外部ユーザーアクセスの展開に](lync-server-2013-deploying-external-user-access.md)関するトピック」のガイドラインに従うことが非常に重要です。</span><span class="sxs-lookup"><span data-stu-id="54e3f-130">It’s very important that you follow the guidelines in the topics [Deploying external user access in Lync Server 2013](lync-server-2013-deploying-external-user-access.md) in the Deployment documentation.</span></span> <span data-ttu-id="54e3f-131">このセクションでは、これらのサーバーの役割をインストールするときの構成設定について、いくつかのガイダンスを示しました。</span><span class="sxs-lookup"><span data-stu-id="54e3f-131">This section merely provided some guidance on configuration settings when installing these server roles.</span></span>
+<span data-ttu-id="0740e-130">「展開」のドキュメントの「 [Lync Server 2013 での外部ユーザーアクセスの展開](lync-server-2013-deploying-external-user-access.md)」のトピックのガイドラインに従うことが非常に重要です。</span><span class="sxs-lookup"><span data-stu-id="0740e-130">It’s very important that you follow the guidelines in the topics [Deploying external user access in Lync Server 2013](lync-server-2013-deploying-external-user-access.md) in the Deployment documentation.</span></span> <span data-ttu-id="0740e-131">このセクションでは、これらのサーバーの役割をインストールする際の構成設定に関するガイドラインの一部を提供したにすぎません。</span><span class="sxs-lookup"><span data-stu-id="0740e-131">This section merely provided some guidance on configuration settings when installing these server roles.</span></span>
 
-<span data-ttu-id="54e3f-132">Lync server 2013 Edge server の展開と並行して、従来の Lync Server 2010 Edge サーバーを展開する必要があります。</span><span class="sxs-lookup"><span data-stu-id="54e3f-132">You should now have a legacy Lync Server 2010 Edge Server deployed in parallel with a Lync Server 2013 Edge server deployment.</span></span> <span data-ttu-id="54e3f-133">両方の展開が適切に実行されていることを確認し、サービスが開始されていることを確認します。次のフェーズに移行する前に、各展開を管理することができます。</span><span class="sxs-lookup"><span data-stu-id="54e3f-133">Verify that both deployments are running properly, services are started, and you can administer each deployment prior to moving to the next phase.</span></span>
+<span data-ttu-id="0740e-132">これで、Lync server 2013 エッジサーバー展開と並行して、従来の Lync Server 2010 エッジサーバーが展開されるようになります。</span><span class="sxs-lookup"><span data-stu-id="0740e-132">You should now have a legacy Lync Server 2010 Edge Server deployed in parallel with a Lync Server 2013 Edge server deployment.</span></span> <span data-ttu-id="0740e-133">次のフェーズに進む前に、双方の展開が適切に動作していること、サービスが開始されていること、および各展開を管理できることを確認してください。</span><span class="sxs-lookup"><span data-stu-id="0740e-133">Verify that both deployments are running properly, services are started, and you can administer each deployment prior to moving to the next phase.</span></span>
 
 </div>
 

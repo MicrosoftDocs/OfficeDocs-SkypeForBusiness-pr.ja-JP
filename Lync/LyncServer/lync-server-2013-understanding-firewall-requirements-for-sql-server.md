@@ -12,20 +12,20 @@ ms:contentKeyID: 48183781
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dba3296ee01f997857660d2a3f328f663d32cf99
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ba04284106bcd1b0cbf17d214d8ad0b1a1ff9024
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744817"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006683"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="understanding-firewall-requirements-for-sql-server-with-lync-server-2013"></a><span data-ttu-id="a256e-102">Lync Server 2013 での SQL Server のファイアウォール要件について</span><span class="sxs-lookup"><span data-stu-id="a256e-102">Understanding firewall requirements for SQL Server with Lync Server 2013</span></span>
+# <a name="understanding-firewall-requirements-for-sql-server-with-lync-server-2013"></a><span data-ttu-id="81b7b-102">Lync Server 2013 を使用した SQL Server のファイアウォール要件について</span><span class="sxs-lookup"><span data-stu-id="81b7b-102">Understanding firewall requirements for SQL Server with Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41744817"
 
 <span> </span>
 
-<span data-ttu-id="a256e-103">_**最終更新日:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="a256e-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="81b7b-103">_**トピックの最終更新日:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="81b7b-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="a256e-104">Standard Edition の展開の場合、ファイアウォールの例外は Lync Server 2013 のセットアップ中に自動的に作成されます。</span><span class="sxs-lookup"><span data-stu-id="a256e-104">For a Standard Edition deployment, firewall exceptions are created automatically during Lync Server 2013 Setup.</span></span> <span data-ttu-id="a256e-105">ただし、Enterprise Edition の展開の場合は、SQL Server バックエンドサーバーでファイアウォールの例外を手動で構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="a256e-105">However, for Enterprise Edition deployments, you must configure the firewall exceptions manually on the SQL Server Back End Server.</span></span> <span data-ttu-id="a256e-106">TCP/IP プロトコルでは、特定の IP アドレスに対して1つのポートを使うことができます。</span><span class="sxs-lookup"><span data-stu-id="a256e-106">The TCP/IP protocol allows for a given port to be used once for a given IP address.</span></span> <span data-ttu-id="a256e-107">つまり、SQL Server ベースのサーバーの場合、既定のデータベースインスタンスに既定の TCP ポート1433を割り当てることができます。</span><span class="sxs-lookup"><span data-stu-id="a256e-107">This means that for the SQL Server-based server you can assign the default database instance the default TCP port 1433.</span></span> <span data-ttu-id="a256e-108">その他の場合は、SQL Server 構成マネージャーを使って、一意の未使用のポートを割り当てる必要があります。</span><span class="sxs-lookup"><span data-stu-id="a256e-108">For any other instances you will need to use the SQL Server Configuration Manager to assign unique and unused ports.</span></span> <span data-ttu-id="a256e-109">ここでは、次の内容を説明します。</span><span class="sxs-lookup"><span data-stu-id="a256e-109">This topic covers:</span></span>
+<span data-ttu-id="81b7b-104">Standard Edition 展開の場合、ファイアウォール例外は Lync Server 2013 セットアップ時に自動的に作成されます。</span><span class="sxs-lookup"><span data-stu-id="81b7b-104">For a Standard Edition deployment, firewall exceptions are created automatically during Lync Server 2013 Setup.</span></span> <span data-ttu-id="81b7b-105">ただし、Enterprise Edition の展開では、SQL Server バックエンドサーバー上でファイアウォール例外を手動で構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="81b7b-105">However, for Enterprise Edition deployments, you must configure the firewall exceptions manually on the SQL Server Back End Server.</span></span> <span data-ttu-id="81b7b-106">TCP/IP プロトコルでは、特定のポートを複数の IP アドレスで共有することはできません。</span><span class="sxs-lookup"><span data-stu-id="81b7b-106">The TCP/IP protocol allows for a given port to be used once for a given IP address.</span></span> <span data-ttu-id="81b7b-107">このため、SQL Server ベースのサーバーでは、既定のデータベース インスタンスを既定の TCP ポート 1433 に割り当てることができます。</span><span class="sxs-lookup"><span data-stu-id="81b7b-107">This means that for the SQL Server-based server you can assign the default database instance the default TCP port 1433.</span></span> <span data-ttu-id="81b7b-108">他のインスタンスに対しては、SQL Server Configuration Manager を使用して未使用の固有ポートを割り当てる必要があります。</span><span class="sxs-lookup"><span data-stu-id="81b7b-108">For any other instances you will need to use the SQL Server Configuration Manager to assign unique and unused ports.</span></span> <span data-ttu-id="81b7b-109">このトピックでは、以下の内容について説明します。</span><span class="sxs-lookup"><span data-stu-id="81b7b-109">This topic covers:</span></span>
 
-  - <span data-ttu-id="a256e-110">既定のインスタンスを使用する場合のファイアウォール例外の要件</span><span class="sxs-lookup"><span data-stu-id="a256e-110">Requirements for a firewall exception when using the default instance</span></span>
+  - <span data-ttu-id="81b7b-110">既定のインスタンスを使用する場合のファイアウォール例外の要件</span><span class="sxs-lookup"><span data-stu-id="81b7b-110">Requirements for a firewall exception when using the default instance</span></span>
 
-  - <span data-ttu-id="a256e-111">SQL Server Browser サービスのファイアウォール例外の要件</span><span class="sxs-lookup"><span data-stu-id="a256e-111">Requirements for a firewall exception for the SQL Server Browser service</span></span>
+  - <span data-ttu-id="81b7b-111">SQL Server ブラウザー サービスのファイアウォール例外の要件</span><span class="sxs-lookup"><span data-stu-id="81b7b-111">Requirements for a firewall exception for the SQL Server Browser service</span></span>
 
-  - <span data-ttu-id="a256e-112">名前付きインスタンスを使用するときの静的リッスンポートの要件</span><span class="sxs-lookup"><span data-stu-id="a256e-112">Requirements for static listening ports when using named instances</span></span>
+  - <span data-ttu-id="81b7b-112">名前付きインスタンスを使用する場合の静的リッスン ポートの要件</span><span class="sxs-lookup"><span data-stu-id="81b7b-112">Requirements for static listening ports when using named instances</span></span>
 
 <div>
 
-## <a name="requirements-for-a-firewall-exception-when-using-the-default-instance"></a><span data-ttu-id="a256e-113">既定のインスタンスを使用する場合のファイアウォール例外の要件</span><span class="sxs-lookup"><span data-stu-id="a256e-113">Requirements for a Firewall Exception When Using the Default Instance</span></span>
+## <a name="requirements-for-a-firewall-exception-when-using-the-default-instance"></a><span data-ttu-id="81b7b-113">既定のインスタンスを使用する場合のファイアウォール例外の要件</span><span class="sxs-lookup"><span data-stu-id="81b7b-113">Requirements for a Firewall Exception When Using the Default Instance</span></span>
 
-<span data-ttu-id="a256e-114">Lync Server 2013 を展開するときに、任意のデータベースに対して SQL Server の既定のインスタンスを使用している場合、フロントエンドプールから SQL Server の既定のインスタンスへの通信を確実にするために、次のファイアウォール規則要件が使用されます。</span><span class="sxs-lookup"><span data-stu-id="a256e-114">If you are using the SQL Server default instance for any database when deploying Lync Server 2013, the following firewall rule requirements are used to help ensure communication from the Front End pool to the SQL Server default instance.</span></span>
+<span data-ttu-id="81b7b-114">Lync Server 2013 を展開するときに、任意のデータベースに対して SQL Server の既定のインスタンスを使用している場合は、フロントエンドプールから SQL Server の既定のインスタンスへの通信を確実にするために、次のファイアウォール規則要件を使用します。</span><span class="sxs-lookup"><span data-stu-id="81b7b-114">If you are using the SQL Server default instance for any database when deploying Lync Server 2013, the following firewall rule requirements are used to help ensure communication from the Front End pool to the SQL Server default instance.</span></span>
 
 
 <table>
@@ -60,16 +60,16 @@ ms.locfileid: "41744817"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="a256e-115">プロトコル</span><span class="sxs-lookup"><span data-stu-id="a256e-115">Protocol</span></span></th>
-<th><span data-ttu-id="a256e-116">ポート</span><span class="sxs-lookup"><span data-stu-id="a256e-116">Port</span></span></th>
-<th><span data-ttu-id="a256e-117">方向</span><span class="sxs-lookup"><span data-stu-id="a256e-117">Direction</span></span></th>
+<th><span data-ttu-id="81b7b-115">プロトコル</span><span class="sxs-lookup"><span data-stu-id="81b7b-115">Protocol</span></span></th>
+<th><span data-ttu-id="81b7b-116">ポート</span><span class="sxs-lookup"><span data-stu-id="81b7b-116">Port</span></span></th>
+<th><span data-ttu-id="81b7b-117">Direction</span><span class="sxs-lookup"><span data-stu-id="81b7b-117">Direction</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="a256e-118">TCP</span><span class="sxs-lookup"><span data-stu-id="a256e-118">TCP</span></span></p></td>
-<td><p><span data-ttu-id="a256e-119">1433</span><span class="sxs-lookup"><span data-stu-id="a256e-119">1433</span></span></p></td>
-<td><p><span data-ttu-id="a256e-120">SQL Server への受信</span><span class="sxs-lookup"><span data-stu-id="a256e-120">Inbound to SQL Server</span></span></p></td>
+<td><p><span data-ttu-id="81b7b-118">TCP</span><span class="sxs-lookup"><span data-stu-id="81b7b-118">TCP</span></span></p></td>
+<td><p><span data-ttu-id="81b7b-119">1433</span><span class="sxs-lookup"><span data-stu-id="81b7b-119">1433</span></span></p></td>
+<td><p><span data-ttu-id="81b7b-120">SQL Server に対する受信</span><span class="sxs-lookup"><span data-stu-id="81b7b-120">Inbound to SQL Server</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -79,9 +79,9 @@ ms.locfileid: "41744817"
 
 <div>
 
-## <a name="requirements-for-a-firewall-exception-for-the-sql-server-browser-service"></a><span data-ttu-id="a256e-121">SQL Server Browser サービスのファイアウォール例外の要件</span><span class="sxs-lookup"><span data-stu-id="a256e-121">Requirements for a Firewall Exception for the SQL Server Browser Service</span></span>
+## <a name="requirements-for-a-firewall-exception-for-the-sql-server-browser-service"></a><span data-ttu-id="81b7b-121">SQL Server ブラウザー サービスのファイアウォール例外の要件</span><span class="sxs-lookup"><span data-stu-id="81b7b-121">Requirements for a Firewall Exception for the SQL Server Browser Service</span></span>
 
-<span data-ttu-id="a256e-122">SQL Server Browser サービスは、データベースインスタンスを探し、インスタンス (名前付きまたは既定) が使用するように構成されているポートを伝えます。</span><span class="sxs-lookup"><span data-stu-id="a256e-122">The SQL Server Browser service will locate database instances and communicate the port that the instance (named or default) is configured to use.</span></span>
+<span data-ttu-id="81b7b-122">SQL Server ブラウザー サービスは、データベース インスタンスを見つけて、そのインスタンス (名前付きまたは既定) が使用するように構成されているポートを通知します。</span><span class="sxs-lookup"><span data-stu-id="81b7b-122">The SQL Server Browser service will locate database instances and communicate the port that the instance (named or default) is configured to use.</span></span>
 
 
 <table>
@@ -92,16 +92,16 @@ ms.locfileid: "41744817"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="a256e-123">プロトコル</span><span class="sxs-lookup"><span data-stu-id="a256e-123">Protocol</span></span></th>
-<th><span data-ttu-id="a256e-124">ポート</span><span class="sxs-lookup"><span data-stu-id="a256e-124">Port</span></span></th>
-<th><span data-ttu-id="a256e-125">方向</span><span class="sxs-lookup"><span data-stu-id="a256e-125">Direction</span></span></th>
+<th><span data-ttu-id="81b7b-123">プロトコル</span><span class="sxs-lookup"><span data-stu-id="81b7b-123">Protocol</span></span></th>
+<th><span data-ttu-id="81b7b-124">ポート</span><span class="sxs-lookup"><span data-stu-id="81b7b-124">Port</span></span></th>
+<th><span data-ttu-id="81b7b-125">Direction</span><span class="sxs-lookup"><span data-stu-id="81b7b-125">Direction</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="a256e-126">UDP</span><span class="sxs-lookup"><span data-stu-id="a256e-126">UDP</span></span></p></td>
-<td><p><span data-ttu-id="a256e-127">1434</span><span class="sxs-lookup"><span data-stu-id="a256e-127">1434</span></span></p></td>
-<td><p><span data-ttu-id="a256e-128">トラフィック</span><span class="sxs-lookup"><span data-stu-id="a256e-128">Inbound</span></span></p></td>
+<td><p><span data-ttu-id="81b7b-126">受信</span><span class="sxs-lookup"><span data-stu-id="81b7b-126">UDP</span></span></p></td>
+<td><p><span data-ttu-id="81b7b-127">1434</span><span class="sxs-lookup"><span data-stu-id="81b7b-127">1434</span></span></p></td>
+<td><p><span data-ttu-id="81b7b-128">受信</span><span class="sxs-lookup"><span data-stu-id="81b7b-128">Inbound</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -111,9 +111,9 @@ ms.locfileid: "41744817"
 
 <div>
 
-## <a name="requirements-for-static-listening-ports-when-using-named-instances"></a><span data-ttu-id="a256e-129">名前付きインスタンスを使用するときの静的リッスンポートの要件</span><span class="sxs-lookup"><span data-stu-id="a256e-129">Requirements for Static Listening Ports When Using Named Instances</span></span>
+## <a name="requirements-for-static-listening-ports-when-using-named-instances"></a><span data-ttu-id="81b7b-129">名前付きインスタンスを使用する場合の静的リッスン ポートの要件</span><span class="sxs-lookup"><span data-stu-id="81b7b-129">Requirements for Static Listening Ports When Using Named Instances</span></span>
 
-<span data-ttu-id="a256e-130">Lync Server 2013 をサポートするデータベースの SQL Server 構成で名前付きインスタンスを使用している場合は、SQL Server 構成マネージャーを使って静的ポートを構成します。</span><span class="sxs-lookup"><span data-stu-id="a256e-130">When using named instances in the SQL Server configuration for databases supporting Lync Server 2013, you configure static ports by using SQL Server Configuration Manager.</span></span> <span data-ttu-id="a256e-131">名前付きインスタンスごとに静的ポートを割り当てると、ファイアウォールの各静的ポートに対して例外が作成されます。</span><span class="sxs-lookup"><span data-stu-id="a256e-131">After the static ports have been assigned to each named instance, you create exceptions for each static port in the firewall.</span></span>
+<span data-ttu-id="81b7b-130">Lync Server 2013 をサポートするデータベース用の SQL Server 構成で名前付きインスタンスを使用する場合は、SQL Server 構成マネージャーを使用して静的ポートを構成します。</span><span class="sxs-lookup"><span data-stu-id="81b7b-130">When using named instances in the SQL Server configuration for databases supporting Lync Server 2013, you configure static ports by using SQL Server Configuration Manager.</span></span> <span data-ttu-id="81b7b-131">名前付きインスタンスごとに静的ポートを割り当てたら、ファイアウォールで静的ポートごとに例外を作成します。</span><span class="sxs-lookup"><span data-stu-id="81b7b-131">After the static ports have been assigned to each named instance, you create exceptions for each static port in the firewall.</span></span>
 
 
 <table>
@@ -124,16 +124,16 @@ ms.locfileid: "41744817"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="a256e-132">プロトコル</span><span class="sxs-lookup"><span data-stu-id="a256e-132">Protocol</span></span></th>
-<th><span data-ttu-id="a256e-133">ポート</span><span class="sxs-lookup"><span data-stu-id="a256e-133">Port</span></span></th>
-<th><span data-ttu-id="a256e-134">方向</span><span class="sxs-lookup"><span data-stu-id="a256e-134">Direction</span></span></th>
+<th><span data-ttu-id="81b7b-132">プロトコル</span><span class="sxs-lookup"><span data-stu-id="81b7b-132">Protocol</span></span></th>
+<th><span data-ttu-id="81b7b-133">ポート</span><span class="sxs-lookup"><span data-stu-id="81b7b-133">Port</span></span></th>
+<th><span data-ttu-id="81b7b-134">Direction</span><span class="sxs-lookup"><span data-stu-id="81b7b-134">Direction</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="a256e-135">TCP</span><span class="sxs-lookup"><span data-stu-id="a256e-135">TCP</span></span></p></td>
-<td><p><span data-ttu-id="a256e-136">静的に定義された</span><span class="sxs-lookup"><span data-stu-id="a256e-136">Statically defined</span></span></p></td>
-<td><p><span data-ttu-id="a256e-137">トラフィック</span><span class="sxs-lookup"><span data-stu-id="a256e-137">Inbound</span></span></p></td>
+<td><p><span data-ttu-id="81b7b-135">TCP</span><span class="sxs-lookup"><span data-stu-id="81b7b-135">TCP</span></span></p></td>
+<td><p><span data-ttu-id="81b7b-136">静的に定義</span><span class="sxs-lookup"><span data-stu-id="81b7b-136">Statically defined</span></span></p></td>
+<td><p><span data-ttu-id="81b7b-137">受信</span><span class="sxs-lookup"><span data-stu-id="81b7b-137">Inbound</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -143,9 +143,9 @@ ms.locfileid: "41744817"
 
 <div>
 
-## <a name="sql-server-documentation"></a><span data-ttu-id="a256e-138">SQL Server ドキュメント</span><span class="sxs-lookup"><span data-stu-id="a256e-138">SQL Server Documentation</span></span>
+## <a name="sql-server-documentation"></a><span data-ttu-id="81b7b-138">SQL Server ドキュメント</span><span class="sxs-lookup"><span data-stu-id="81b7b-138">SQL Server Documentation</span></span>
 
-<span data-ttu-id="a256e-139">Microsoft SQL Server 2012 ドキュメントは、データベースのファイアウォールアクセスを構成する方法についての詳細なガイダンスを提供します。</span><span class="sxs-lookup"><span data-stu-id="a256e-139">Microsoft SQL Server 2012 documentation provides detailed guidance on how to configure firewall access for databases.</span></span> <span data-ttu-id="a256e-140">Microsoft SQL Server 2012 の詳細については、「」の「SQL Server へのアクセスを[http://go.microsoft.com/fwlink/p/?linkId=218031](http://go.microsoft.com/fwlink/p/?linkid=218031)許可するように Windows ファイアウォールを構成する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="a256e-140">For details about Microsoft SQL Server 2012, see “Configuring the Windows Firewall to Allow SQL Server Access” at [http://go.microsoft.com/fwlink/p/?linkId=218031](http://go.microsoft.com/fwlink/p/?linkid=218031).</span></span>
+<span data-ttu-id="81b7b-139">Microsoft SQL Server 2012 ドキュメントは、データベースのファイアウォールアクセスを構成する方法について詳細なガイダンスを提供します。</span><span class="sxs-lookup"><span data-stu-id="81b7b-139">Microsoft SQL Server 2012 documentation provides detailed guidance on how to configure firewall access for databases.</span></span> <span data-ttu-id="81b7b-140">Microsoft SQL Server 2012 の詳細については、「」の「SQL Server へのアクセスを[http://go.microsoft.com/fwlink/p/?linkId=218031](http://go.microsoft.com/fwlink/p/?linkid=218031)許可するように Windows ファイアウォールを構成する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="81b7b-140">For details about Microsoft SQL Server 2012, see “Configuring the Windows Firewall to Allow SQL Server Access” at [http://go.microsoft.com/fwlink/p/?linkId=218031](http://go.microsoft.com/fwlink/p/?linkid=218031).</span></span>
 
 </div>
 

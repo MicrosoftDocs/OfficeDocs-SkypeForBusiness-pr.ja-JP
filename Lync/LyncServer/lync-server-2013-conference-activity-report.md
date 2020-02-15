@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 会議アクティビティレポート'
+title: 'Lync Server 2013: 電話会議アクティビティレポート'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183618
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c098bc3a1c8b937b72707c76a3943866ad7b9fbb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f8992d4a8e6dc0933449c4ab4be4602d9707f1d8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757041"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007896"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="conference-activity-report-in-lync-server-2013"></a><span data-ttu-id="1c0ab-102">Lync Server 2013 での会議アクティビティレポート</span><span class="sxs-lookup"><span data-stu-id="1c0ab-102">Conference Activity Report in Lync Server 2013</span></span>
+# <a name="conference-activity-report-in-lync-server-2013"></a><span data-ttu-id="28491-102">Lync Server 2013 の電話会議動作状況レポート</span><span class="sxs-lookup"><span data-stu-id="28491-102">Conference Activity Report in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,45 +35,45 @@ ms.locfileid: "41757041"
 
 <span> </span>
 
-<span data-ttu-id="1c0ab-103">_**最終更新日:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="1c0ab-103">_**Topic Last Modified:** 2012-10-22_</span></span>
+<span data-ttu-id="28491-103">_**トピックの最終更新日:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="28491-103">_**Topic Last Modified:** 2012-10-22_</span></span>
 
-<span data-ttu-id="1c0ab-104">電話会議動作状況レポートを使用すると、たとえば 1 日に開催されている電話会議の数や、その時間帯に関する質問に簡単に答えることができます。</span><span class="sxs-lookup"><span data-stu-id="1c0ab-104">The Conference Activity Report makes it easy for you to answer questions like these: how many conferences are being held each day, and when are those conferences being held?</span></span> <span data-ttu-id="1c0ab-105">このような情報はそれ自体が有用であるだけでなく、トラブルシューティング ツールとしても役立ちます。</span><span class="sxs-lookup"><span data-stu-id="1c0ab-105">Information like this is useful not only in its own right, but also as a troubleshooting tool.</span></span> <span data-ttu-id="1c0ab-106">たとえば、昼頃になるとネットワークが著しく遅くなるという苦情がユーザーから寄せられているとします。</span><span class="sxs-lookup"><span data-stu-id="1c0ab-106">For example, suppose users are complaining that the network seems particularly slow in the middle of the day.</span></span> <span data-ttu-id="1c0ab-107">会議アクティビティレポートの概要については、考えられる理由の1つとして、10:00 AM と 2:00 PM の間でスケジュールされている会議の数を確認します。</span><span class="sxs-lookup"><span data-stu-id="1c0ab-107">A quick glance at the Conference Activity reports might suggest one possible reason: far more conferences are being scheduled between the hours of 10:00 AM and 2:00 PM then at any other time.</span></span>
+<span data-ttu-id="28491-104">電話会議動作状況レポートを使用すると、たとえば 1 日にいくつの電話会議が開催されているかや、電話会議がいつ開催されているかといった質問に簡単に答えることができます。</span><span class="sxs-lookup"><span data-stu-id="28491-104">The Conference Activity Report makes it easy for you to answer questions like these: how many conferences are being held each day, and when are those conferences being held?</span></span> <span data-ttu-id="28491-105">このような情報はそれ自体が有用であるだけでなく、トラブルシューティング ツールとしても役立ちます。</span><span class="sxs-lookup"><span data-stu-id="28491-105">Information like this is useful not only in its own right, but also as a troubleshooting tool.</span></span> <span data-ttu-id="28491-106">たとえば、昼頃になるとネットワークが著しく遅くなるという苦情がユーザーから寄せられているとします。</span><span class="sxs-lookup"><span data-stu-id="28491-106">For example, suppose users are complaining that the network seems particularly slow in the middle of the day.</span></span> <span data-ttu-id="28491-107">電話会議のアクティビティレポートでは、次のような理由が考えられます。電話会議の時間は、10:00 AM ~ 2:00 PM の間でいつでもスケジュールされています。</span><span class="sxs-lookup"><span data-stu-id="28491-107">A quick glance at the Conference Activity reports might suggest one possible reason: far more conferences are being scheduled between the hours of 10:00 AM and 2:00 PM then at any other time.</span></span>
 
-<span data-ttu-id="1c0ab-108">ネットワーク速度が遅いために問題が起きている場合は、一部の電話会議の予定をトラフィックが少ない時間帯にずらしてもらうようにユーザーに働きかけることができます。</span><span class="sxs-lookup"><span data-stu-id="1c0ab-108">If the slow network is causing problems, you can encourage users to reschedule some of their conferences during the less-heavily trafficked times of the day.</span></span>
+<span data-ttu-id="28491-108">ネットワークが遅いせいで問題が起きている場合は、一部の電話会議の予定をトラフィックが少ない時間帯にずらしてもらうようにユーザーに働きかけることができます。</span><span class="sxs-lookup"><span data-stu-id="28491-108">If the slow network is causing problems, you can encourage users to reschedule some of their conferences during the less-heavily trafficked times of the day.</span></span>
 
 <div>
 
-## <a name="accessing-the-conference-activity-report"></a><span data-ttu-id="1c0ab-109">電話会議動作状況レポートにアクセスする</span><span class="sxs-lookup"><span data-stu-id="1c0ab-109">Accessing the Conference Activity Report</span></span>
+## <a name="accessing-the-conference-activity-report"></a><span data-ttu-id="28491-109">電話会議動作状況レポートにアクセスする</span><span class="sxs-lookup"><span data-stu-id="28491-109">Accessing the Conference Activity Report</span></span>
 
-<span data-ttu-id="1c0ab-110">会議アクティビティレポートには、 [Lync Server 2013 の [会議の概要] レポート](lync-server-2013-conference-summary-report.md)からアクセスできます。次のいずれかの指標をクリックします。</span><span class="sxs-lookup"><span data-stu-id="1c0ab-110">The Conference Activity Report is accessed from the [Conference Summary Report in Lync Server 2013](lync-server-2013-conference-summary-report.md) by clicking either one of the following metrics:</span></span>
+<span data-ttu-id="28491-110">次のいずれかの指標をクリックすることによって、 [Lync Server 2013 の電話会議の概要レポート](lync-server-2013-conference-summary-report.md)から電話会議アクティビティレポートにアクセスできます。</span><span class="sxs-lookup"><span data-stu-id="28491-110">The Conference Activity Report is accessed from the [Conference Summary Report in Lync Server 2013](lync-server-2013-conference-summary-report.md) by clicking either one of the following metrics:</span></span>
 
-  - <span data-ttu-id="1c0ab-111">電話会議の合計数</span><span class="sxs-lookup"><span data-stu-id="1c0ab-111">Total conferences</span></span>
+  - <span data-ttu-id="28491-111">電話会議の合計数</span><span class="sxs-lookup"><span data-stu-id="28491-111">Total conferences</span></span>
 
-  - <span data-ttu-id="1c0ab-112">参加者の合計数</span><span class="sxs-lookup"><span data-stu-id="1c0ab-112">Total participants</span></span>
+  - <span data-ttu-id="28491-112">参加者の合計数</span><span class="sxs-lookup"><span data-stu-id="28491-112">Total participants</span></span>
 
 </div>
 
 <div>
 
-## <a name="making-the-best-use-of-the-conference-activity-report"></a><span data-ttu-id="1c0ab-113">電話会議動作状況レポートを最大限に活用する</span><span class="sxs-lookup"><span data-stu-id="1c0ab-113">Making the Best Use of the Conference Activity Report</span></span>
+## <a name="making-the-best-use-of-the-conference-activity-report"></a><span data-ttu-id="28491-113">電話会議動作状況レポートを最大限に活用する</span><span class="sxs-lookup"><span data-stu-id="28491-113">Making the Best Use of the Conference Activity Report</span></span>
 
-<span data-ttu-id="1c0ab-p102">既定では、電話会議動作状況レポートには指定した期間における電話会議の合計数 (たとえば、1 日あたりの電話会議の合計数や、1 日の 1 時間あたりの電話会議の合計数) が表示されます。ただし、その期間における参加者の合計数や、参加者の合計分数を表示することもできます。この操作を行うには、[パラメーターの表示/非表示] ボタンをクリックしてフィルター オプションを表示し、[報告元] ドロップダウン リストから次のいずれかを選択します。</span><span class="sxs-lookup"><span data-stu-id="1c0ab-p102">By default the Conference Activity Report shows you the total number of conferences for the specified time period (for example, the total number of conferences per day, or the total number of conferences per hour of the day). However, you can also choose to display the total number of participants for that time period or the total number of participant minutes. To do that, click the Show/Hide Parameters button to display the filtering options, and then select one of the following from the Report by dropdown list:</span></span>
+<span data-ttu-id="28491-p102">既定では、電話会議動作状況レポートには指定した期間における電話会議の合計数 (たとえば、1 日あたりの電話会議の合計数や、1 日の 1 時間あたりの電話会議の合計数) が表示されます。ただし、その期間における参加者の合計数や、参加者の合計分数を表示することもできます。これを行うには、[パラメーターの表示/非表示] ボタンをクリックしてフィルター オプションを表示し、[報告元] ドロップダウン リストから次のいずれかを選択します。</span><span class="sxs-lookup"><span data-stu-id="28491-p102">By default the Conference Activity Report shows you the total number of conferences for the specified time period (for example, the total number of conferences per day, or the total number of conferences per hour of the day). However, you can also choose to display the total number of participants for that time period or the total number of participant minutes. To do that, click the Show/Hide Parameters button to display the filtering options, and then select one of the following from the Report by dropdown list:</span></span>
 
-  - <span data-ttu-id="1c0ab-117">参加者数</span><span class="sxs-lookup"><span data-stu-id="1c0ab-117">Participant count</span></span>
+  - <span data-ttu-id="28491-117">参加者数</span><span class="sxs-lookup"><span data-stu-id="28491-117">Participant count</span></span>
 
-  - <span data-ttu-id="1c0ab-118">参加者の分数</span><span class="sxs-lookup"><span data-stu-id="1c0ab-118">Participant minutes</span></span>
+  - <span data-ttu-id="28491-118">参加者の分数</span><span class="sxs-lookup"><span data-stu-id="28491-118">Participant minutes</span></span>
 
-  - <span data-ttu-id="1c0ab-119">電話会議数</span><span class="sxs-lookup"><span data-stu-id="1c0ab-119">Conference count</span></span>
+  - <span data-ttu-id="28491-119">電話会議数</span><span class="sxs-lookup"><span data-stu-id="28491-119">Conference count</span></span>
 
 </div>
 
 <div>
 
-## <a name="filters"></a><span data-ttu-id="1c0ab-120">フィルター</span><span class="sxs-lookup"><span data-stu-id="1c0ab-120">Filters</span></span>
+## <a name="filters"></a><span data-ttu-id="28491-120">フィルター</span><span class="sxs-lookup"><span data-stu-id="28491-120">Filters</span></span>
 
-<span data-ttu-id="1c0ab-p103">フィルターは、細かく絞り込んだデータ セットを返したり、返されたデータをさまざまな方法で表示したりする方法として利用できます。次の表に、電話会議動作状況レポートで使用できるフィルターを示します。</span><span class="sxs-lookup"><span data-stu-id="1c0ab-p103">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. The following table lists the filters that you can use with the Conference Activity Report.</span></span>
+<span data-ttu-id="28491-p103">フィルターは、細かく絞り込んだデータ セットを返したり、返されたデータをさまざま方法で表示したりする方法として利用できます。次の表に、電話会議動作状況レポートで使用できるフィルターを示します。</span><span class="sxs-lookup"><span data-stu-id="28491-p103">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. The following table lists the filters that you can use with the Conference Activity Report.</span></span>
 
-### <a name="conference-activity-report-filters"></a><span data-ttu-id="1c0ab-123">電話会議動作状況レポートのフィルター</span><span class="sxs-lookup"><span data-stu-id="1c0ab-123">Conference Activity Report Filters</span></span>
+### <a name="conference-activity-report-filters"></a><span data-ttu-id="28491-123">電話会議動作状況レポートのフィルター</span><span class="sxs-lookup"><span data-stu-id="28491-123">Conference Activity Report Filters</span></span>
 
 <table>
 <colgroup>
@@ -82,49 +82,49 @@ ms.locfileid: "41757041"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="1c0ab-124">名前</span><span class="sxs-lookup"><span data-stu-id="1c0ab-124">Name</span></span></th>
-<th><span data-ttu-id="1c0ab-125">説明</span><span class="sxs-lookup"><span data-stu-id="1c0ab-125">Description</span></span></th>
+<th><span data-ttu-id="28491-124">名前</span><span class="sxs-lookup"><span data-stu-id="28491-124">Name</span></span></th>
+<th><span data-ttu-id="28491-125">説明</span><span class="sxs-lookup"><span data-stu-id="28491-125">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1c0ab-126"><strong>開始</strong></span><span class="sxs-lookup"><span data-stu-id="1c0ab-126"><strong>From</strong></span></span></p></td>
-<td><p><span data-ttu-id="1c0ab-p104">時間範囲の開始日と開始時刻。データを時間単位で表示するには、次のように開始日と開始時刻の両方を入力します。</span><span class="sxs-lookup"><span data-stu-id="1c0ab-p104">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
-<p><span data-ttu-id="1c0ab-129">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="1c0ab-129">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="1c0ab-p105">開始時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に開始します。データを日単位で表示するには、次のように日付のみを入力します。</span><span class="sxs-lookup"><span data-stu-id="1c0ab-p105">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="1c0ab-132">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="1c0ab-132">7/7/2012</span></span></p>
-<p><span data-ttu-id="1c0ab-133">週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。</span><span class="sxs-lookup"><span data-stu-id="1c0ab-133">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="1c0ab-134">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="1c0ab-134">7/3/2012</span></span></p>
-<p><span data-ttu-id="1c0ab-135">一週間は、日曜日から始まり、土曜日で終わるものとします。</span><span class="sxs-lookup"><span data-stu-id="1c0ab-135">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="28491-126"><strong>From</strong></span><span class="sxs-lookup"><span data-stu-id="28491-126"><strong>From</strong></span></span></p></td>
+<td><p><span data-ttu-id="28491-p104">時間範囲の開始日と開始時刻。データを時間単位で表示するには、次のように開始日と開始時刻の両方を入力します。</span><span class="sxs-lookup"><span data-stu-id="28491-p104">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
+<p><span data-ttu-id="28491-129">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="28491-129">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="28491-p105">開始時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に開始します。データを日単位で表示するには、次のように日付のみを入力します。</span><span class="sxs-lookup"><span data-stu-id="28491-p105">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="28491-132">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="28491-132">7/7/2012</span></span></p>
+<p><span data-ttu-id="28491-133">週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。</span><span class="sxs-lookup"><span data-stu-id="28491-133">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="28491-134">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="28491-134">7/3/2012</span></span></p>
+<p><span data-ttu-id="28491-135">週は、常に日曜日から土曜日までです。</span><span class="sxs-lookup"><span data-stu-id="28491-135">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1c0ab-136"><strong>終了</strong></span><span class="sxs-lookup"><span data-stu-id="1c0ab-136"><strong>To</strong></span></span></p></td>
-<td><p><span data-ttu-id="1c0ab-p106">時間範囲の終了日と終了時刻。データを時間単位で表示するには、次のように終了日と終了時刻の両方を入力します。</span><span class="sxs-lookup"><span data-stu-id="1c0ab-p106">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
-<p><span data-ttu-id="1c0ab-139">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="1c0ab-139">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="1c0ab-p107">終了時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に終了します。データを日単位で表示するには、次のように日付のみを入力します。</span><span class="sxs-lookup"><span data-stu-id="1c0ab-p107">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="1c0ab-142">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="1c0ab-142">7/7/2012</span></span></p>
-<p><span data-ttu-id="1c0ab-143">週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。</span><span class="sxs-lookup"><span data-stu-id="1c0ab-143">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="1c0ab-144">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="1c0ab-144">7/3/2012</span></span></p>
-<p><span data-ttu-id="1c0ab-145">一週間は、日曜日から始まり、土曜日で終わるものとします。</span><span class="sxs-lookup"><span data-stu-id="1c0ab-145">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="28491-136"><strong>To</strong></span><span class="sxs-lookup"><span data-stu-id="28491-136"><strong>To</strong></span></span></p></td>
+<td><p><span data-ttu-id="28491-p106">時間範囲の終了日と終了時刻。データを時間単位で表示するには、次のように終了日と終了時刻の両方を入力します。</span><span class="sxs-lookup"><span data-stu-id="28491-p106">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
+<p><span data-ttu-id="28491-139">7/7/2012 13:00</span><span class="sxs-lookup"><span data-stu-id="28491-139">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="28491-p107">終了時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に終了します。データを日単位で表示するには、次のように日付のみを入力します。</span><span class="sxs-lookup"><span data-stu-id="28491-p107">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="28491-142">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="28491-142">7/7/2012</span></span></p>
+<p><span data-ttu-id="28491-143">週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。</span><span class="sxs-lookup"><span data-stu-id="28491-143">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="28491-144">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="28491-144">7/3/2012</span></span></p>
+<p><span data-ttu-id="28491-145">週は、常に日曜日から土曜日までです。</span><span class="sxs-lookup"><span data-stu-id="28491-145">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1c0ab-146"><strong>[間隔]</strong></span><span class="sxs-lookup"><span data-stu-id="1c0ab-146"><strong>Interval</strong></span></span></p></td>
-<td><p><span data-ttu-id="1c0ab-p108">時間間隔です。次のいずれかを選択します。</span><span class="sxs-lookup"><span data-stu-id="1c0ab-p108">Time interval. Select any of the following:</span></span></p>
+<td><p><span data-ttu-id="28491-146"><strong>間隔</strong></span><span class="sxs-lookup"><span data-stu-id="28491-146"><strong>Interval</strong></span></span></p></td>
+<td><p><span data-ttu-id="28491-p108">時間間隔です。次のいずれかを選択します。</span><span class="sxs-lookup"><span data-stu-id="28491-p108">Time interval. Select any of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="1c0ab-149">毎時 (最大 25 時間の表示が可能)</span><span class="sxs-lookup"><span data-stu-id="1c0ab-149">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="1c0ab-150">毎日 (最大 31 日の表示が可能)</span><span class="sxs-lookup"><span data-stu-id="1c0ab-150">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="1c0ab-151">毎週 (最大 12 週の表示が可能)</span><span class="sxs-lookup"><span data-stu-id="1c0ab-151">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="1c0ab-152">毎月 (最大 12 か月の表示が可能)</span><span class="sxs-lookup"><span data-stu-id="1c0ab-152">Monthly (a maximum of 12 months can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="28491-149">時間単位 (最大 25 時間の表示が可能)</span><span class="sxs-lookup"><span data-stu-id="28491-149">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="28491-150">日単位 (最大 31 日の表示が可能)</span><span class="sxs-lookup"><span data-stu-id="28491-150">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="28491-151">週単位 (最大 12 週の表示が可能)</span><span class="sxs-lookup"><span data-stu-id="28491-151">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="28491-152">月単位 (最大 12 か月の表示が可能)</span><span class="sxs-lookup"><span data-stu-id="28491-152">Monthly (a maximum of 12 months can be displayed)</span></span></p></li>
 </ul>
-<p><span data-ttu-id="1c0ab-153">入力した開始日と終了日が選択した間隔で使用できる値の最大数を超える場合は、最大数の値 (開始日からカウント) のみが表示されます。</span><span class="sxs-lookup"><span data-stu-id="1c0ab-153">If the start and end dates exceed the maximum number of values allowed for the selected interval, only the maximum number of values (starting from the start date) is displayed.</span></span> <span data-ttu-id="1c0ab-154">たとえば、開始日が7/7/2012 で、終了日が2/28/2012 の [日] 間隔を選択した場合は、8/7/2012 12:00 AM から 9/7/2012 12:00 AM (つまり、31日分のデータ) のデータが表示されます。</span><span class="sxs-lookup"><span data-stu-id="1c0ab-154">For example, if you select the Daily interval with a start date of 7/7/2012 and an end date of 2/28/2012, data is displayed for the days 8/7/2012 12:00 AM to 9/7/2012 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
+<p><span data-ttu-id="28491-p109">入力した開始日と終了日が選択した間隔で使用できる値の最大数を超える場合は、最大数の値 (開始日からカウント) のみが表示されます。たとえば、開始日と終了日をそれぞれ 2012-07-07、2012-02-28 として毎日の間隔を選択しても、2012 年 8 月 7 日の午前 12:00 から 2012 年 9 月 7 日の午前 12:00 までの日付のデータ (つまり、合計 31 日分のデータのみ) が表示されることになります。</span><span class="sxs-lookup"><span data-stu-id="28491-p109">If the start and end dates exceed the maximum number of values allowed for the selected interval, only the maximum number of values (starting from the start date) is displayed. For example, if you select the Daily interval with a start date of 7/7/2012 and an end date of 2/28/2012, data is displayed for the days 8/7/2012 12:00 AM to 9/7/2012 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1c0ab-155"><strong>[報告元]</strong></span><span class="sxs-lookup"><span data-stu-id="1c0ab-155"><strong>Report by</strong></span></span></p></td>
-<td><p><span data-ttu-id="1c0ab-p110">レポートで使用する値を指定します。次の中から選択します。</span><span class="sxs-lookup"><span data-stu-id="1c0ab-p110">Indicates the values to be used in the report. You can select one of the following:</span></span></p>
+<td><p><span data-ttu-id="28491-155">[<strong>報告元</strong>]</span><span class="sxs-lookup"><span data-stu-id="28491-155"><strong>Report by</strong></span></span></p></td>
+<td><p><span data-ttu-id="28491-p110">レポートで使用する値を指定します。次の中から選択します。</span><span class="sxs-lookup"><span data-stu-id="28491-p110">Indicates the values to be used in the report. You can select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="1c0ab-158">参加者数</span><span class="sxs-lookup"><span data-stu-id="1c0ab-158">Participant Count</span></span></p></li>
-<li><p><span data-ttu-id="1c0ab-159">参加者の分数</span><span class="sxs-lookup"><span data-stu-id="1c0ab-159">Participant Minutes</span></span></p></li>
-<li><p><span data-ttu-id="1c0ab-160">電話会議数</span><span class="sxs-lookup"><span data-stu-id="1c0ab-160">Conference Count</span></span></p></li>
+<li><p><span data-ttu-id="28491-158">参加者数</span><span class="sxs-lookup"><span data-stu-id="28491-158">Participant Count</span></span></p></li>
+<li><p><span data-ttu-id="28491-159">参加者の分数</span><span class="sxs-lookup"><span data-stu-id="28491-159">Participant Minutes</span></span></p></li>
+<li><p><span data-ttu-id="28491-160">電話会議数</span><span class="sxs-lookup"><span data-stu-id="28491-160">Conference Count</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -135,11 +135,11 @@ ms.locfileid: "41757041"
 
 <div>
 
-## <a name="metrics-for-conferences-by-pool"></a><span data-ttu-id="1c0ab-161">電話会議 (プール別) の指標</span><span class="sxs-lookup"><span data-stu-id="1c0ab-161">Metrics for Conferences by Pool</span></span>
+## <a name="metrics-for-conferences-by-pool"></a><span data-ttu-id="28491-161">電話会議 (プール別) の指標</span><span class="sxs-lookup"><span data-stu-id="28491-161">Metrics for Conferences by Pool</span></span>
 
-<span data-ttu-id="1c0ab-162">次の表に、プールごとの電話会議動作状況レポートでの情報を示します。</span><span class="sxs-lookup"><span data-stu-id="1c0ab-162">The following table lists the information in the Conference Activity Report for each pool.</span></span>
+<span data-ttu-id="28491-162">次の表に、プールごとの電話会議動作状況レポートでの情報を示します。</span><span class="sxs-lookup"><span data-stu-id="28491-162">The following table lists the information in the Conference Activity Report for each pool.</span></span>
 
-### <a name="metrics-for-conferences-by-pool"></a><span data-ttu-id="1c0ab-163">電話会議 (プール別) の指標</span><span class="sxs-lookup"><span data-stu-id="1c0ab-163">Metrics for Conferences by Pool</span></span>
+### <a name="metrics-for-conferences-by-pool"></a><span data-ttu-id="28491-163">電話会議 (プール別) の指標</span><span class="sxs-lookup"><span data-stu-id="28491-163">Metrics for Conferences by Pool</span></span>
 
 <table>
 <colgroup>
@@ -149,26 +149,26 @@ ms.locfileid: "41757041"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="1c0ab-164">名前</span><span class="sxs-lookup"><span data-stu-id="1c0ab-164">Name</span></span></th>
-<th><span data-ttu-id="1c0ab-165">この項目での並べ替え</span><span class="sxs-lookup"><span data-stu-id="1c0ab-165">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="1c0ab-166">説明</span><span class="sxs-lookup"><span data-stu-id="1c0ab-166">Description</span></span></th>
+<th><span data-ttu-id="28491-164">名前</span><span class="sxs-lookup"><span data-stu-id="28491-164">Name</span></span></th>
+<th><span data-ttu-id="28491-165">この項目での並べ替え</span><span class="sxs-lookup"><span data-stu-id="28491-165">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="28491-166">説明</span><span class="sxs-lookup"><span data-stu-id="28491-166">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1c0ab-167"><strong>プール</strong></span><span class="sxs-lookup"><span data-stu-id="1c0ab-167"><strong>Pool</strong></span></span></p></td>
-<td><p><span data-ttu-id="1c0ab-168">いいえ</span><span class="sxs-lookup"><span data-stu-id="1c0ab-168">No</span></span></p></td>
-<td><p><span data-ttu-id="1c0ab-169">電話会議で使用されたレジストラー プールまたはエッジ サーバーの名前。</span><span class="sxs-lookup"><span data-stu-id="1c0ab-169">Name of the Registrar pool or Edge Server used in the conference.</span></span></p></td>
+<td><p><span data-ttu-id="28491-167"><strong>Pool</strong></span><span class="sxs-lookup"><span data-stu-id="28491-167"><strong>Pool</strong></span></span></p></td>
+<td><p><span data-ttu-id="28491-168">いいえ</span><span class="sxs-lookup"><span data-stu-id="28491-168">No</span></span></p></td>
+<td><p><span data-ttu-id="28491-169">電話会議で使用されたレジストラー プールまたはエッジ サーバーの名前。</span><span class="sxs-lookup"><span data-stu-id="28491-169">Name of the Registrar pool or Edge Server used in the conference.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1c0ab-170"><strong>日付/時刻</strong></span><span class="sxs-lookup"><span data-stu-id="1c0ab-170"><strong>Date/Time</strong></span></span></p></td>
-<td><p><span data-ttu-id="1c0ab-171">いいえ</span><span class="sxs-lookup"><span data-stu-id="1c0ab-171">No</span></span></p></td>
-<td><p><span data-ttu-id="1c0ab-172">電話会議の開始日時。</span><span class="sxs-lookup"><span data-stu-id="1c0ab-172">Date and time when the conference was held.</span></span></p></td>
+<td><p><span data-ttu-id="28491-170"><strong>日付/時刻</strong></span><span class="sxs-lookup"><span data-stu-id="28491-170"><strong>Date/Time</strong></span></span></p></td>
+<td><p><span data-ttu-id="28491-171">いいえ</span><span class="sxs-lookup"><span data-stu-id="28491-171">No</span></span></p></td>
+<td><p><span data-ttu-id="28491-172">電話会議の開始日時。</span><span class="sxs-lookup"><span data-stu-id="28491-172">Date and time when the conference was held.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1c0ab-173"><strong>[合計]</strong></span><span class="sxs-lookup"><span data-stu-id="1c0ab-173"><strong>Total</strong></span></span></p></td>
-<td><p><span data-ttu-id="1c0ab-174">いいえ</span><span class="sxs-lookup"><span data-stu-id="1c0ab-174">No</span></span></p></td>
-<td><p><span data-ttu-id="1c0ab-175">参加者総数、参加者総時間 (分)、電話会議総数。</span><span class="sxs-lookup"><span data-stu-id="1c0ab-175">Total participant count, total participant minutes, or total conference count.</span></span></p></td>
+<td><p><span data-ttu-id="28491-173"><strong>合計</strong></span><span class="sxs-lookup"><span data-stu-id="28491-173"><strong>Total</strong></span></span></p></td>
+<td><p><span data-ttu-id="28491-174">いいえ</span><span class="sxs-lookup"><span data-stu-id="28491-174">No</span></span></p></td>
+<td><p><span data-ttu-id="28491-175">参加者総数、参加者総時間 (分)、電話会議総数。</span><span class="sxs-lookup"><span data-stu-id="28491-175">Total participant count, total participant minutes, or total conference count.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -178,11 +178,11 @@ ms.locfileid: "41757041"
 
 <div>
 
-## <a name="metrics-for-conferences-by-server-type"></a><span data-ttu-id="1c0ab-176">電話会議 (サーバーの種類別) の指標</span><span class="sxs-lookup"><span data-stu-id="1c0ab-176">Metrics for Conferences by Server Type</span></span>
+## <a name="metrics-for-conferences-by-server-type"></a><span data-ttu-id="28491-176">電話会議 (サーバーの種類別) の指標</span><span class="sxs-lookup"><span data-stu-id="28491-176">Metrics for Conferences by Server Type</span></span>
 
-<span data-ttu-id="1c0ab-177">次の表に、サーバーの種類ごとの電話会議動作状況レポートでの情報を示します。</span><span class="sxs-lookup"><span data-stu-id="1c0ab-177">The following table lists the information in the Conference Activity Report for each type of server.</span></span>
+<span data-ttu-id="28491-177">次の表に、サーバーの種類ごとの電話会議動作状況レポートでの情報を示します。</span><span class="sxs-lookup"><span data-stu-id="28491-177">The following table lists the information in the Conference Activity Report for each type of server.</span></span>
 
-### <a name="metrics-for-conferences-by-server-type"></a><span data-ttu-id="1c0ab-178">電話会議 (サーバーの種類別) の指標</span><span class="sxs-lookup"><span data-stu-id="1c0ab-178">Metrics for Conferences by Server Type</span></span>
+### <a name="metrics-for-conferences-by-server-type"></a><span data-ttu-id="28491-178">電話会議 (サーバーの種類別) の指標</span><span class="sxs-lookup"><span data-stu-id="28491-178">Metrics for Conferences by Server Type</span></span>
 
 <table>
 <colgroup>
@@ -192,33 +192,33 @@ ms.locfileid: "41757041"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="1c0ab-179">名前</span><span class="sxs-lookup"><span data-stu-id="1c0ab-179">Name</span></span></th>
-<th><span data-ttu-id="1c0ab-180">この項目での並べ替え</span><span class="sxs-lookup"><span data-stu-id="1c0ab-180">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="1c0ab-181">説明</span><span class="sxs-lookup"><span data-stu-id="1c0ab-181">Description</span></span></th>
+<th><span data-ttu-id="28491-179">名前</span><span class="sxs-lookup"><span data-stu-id="28491-179">Name</span></span></th>
+<th><span data-ttu-id="28491-180">この項目での並べ替え</span><span class="sxs-lookup"><span data-stu-id="28491-180">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="28491-181">説明</span><span class="sxs-lookup"><span data-stu-id="28491-181">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1c0ab-182"><strong>[会議サーバーの種類]</strong></span><span class="sxs-lookup"><span data-stu-id="1c0ab-182"><strong>Conferencing server type</strong></span></span></p></td>
-<td><p><span data-ttu-id="1c0ab-183">不可</span><span class="sxs-lookup"><span data-stu-id="1c0ab-183">No</span></span></p></td>
-<td><p><span data-ttu-id="1c0ab-184">電話会議で使用されたサーバーの種類。通常は、次のいずれかです。</span><span class="sxs-lookup"><span data-stu-id="1c0ab-184">Type of server used in the conference, typically one of the following:</span></span></p>
+<td><p><span data-ttu-id="28491-182">[<strong>会議サーバーの種類</strong>]</span><span class="sxs-lookup"><span data-stu-id="28491-182"><strong>Conferencing server type</strong></span></span></p></td>
+<td><p><span data-ttu-id="28491-183">いいえ</span><span class="sxs-lookup"><span data-stu-id="28491-183">No</span></span></p></td>
+<td><p><span data-ttu-id="28491-184">電話会議で使用されたサーバーの種類。通常は、次のいずれかです。</span><span class="sxs-lookup"><span data-stu-id="28491-184">Type of server used in the conference, typically one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="1c0ab-185">Web 会議サーバー</span><span class="sxs-lookup"><span data-stu-id="1c0ab-185">Web Conferencing Server</span></span></p></li>
-<li><p><span data-ttu-id="1c0ab-186">IM 会議サービス</span><span class="sxs-lookup"><span data-stu-id="1c0ab-186">IM Conferencing Server</span></span></p></li>
-<li><p><span data-ttu-id="1c0ab-187">テレフォニー会議サービス</span><span class="sxs-lookup"><span data-stu-id="1c0ab-187">Telephony Conferencing Server</span></span></p></li>
-<li><p><span data-ttu-id="1c0ab-188">音声ビデオ会議サーバー</span><span class="sxs-lookup"><span data-stu-id="1c0ab-188">AV Conferencing Server</span></span></p></li>
-<li><p><span data-ttu-id="1c0ab-189">アプリケーション共有</span><span class="sxs-lookup"><span data-stu-id="1c0ab-189">Application Sharing</span></span></p></li>
+<li><p><span data-ttu-id="28491-185">Web 会議サーバー</span><span class="sxs-lookup"><span data-stu-id="28491-185">Web Conferencing Server</span></span></p></li>
+<li><p><span data-ttu-id="28491-186">IM 会議サービス</span><span class="sxs-lookup"><span data-stu-id="28491-186">IM Conferencing Server</span></span></p></li>
+<li><p><span data-ttu-id="28491-187">テレフォニー会議サービス</span><span class="sxs-lookup"><span data-stu-id="28491-187">Telephony Conferencing Server</span></span></p></li>
+<li><p><span data-ttu-id="28491-188">音声ビデオ会議サーバー</span><span class="sxs-lookup"><span data-stu-id="28491-188">AV Conferencing Server</span></span></p></li>
+<li><p><span data-ttu-id="28491-189">アプリケーション共有</span><span class="sxs-lookup"><span data-stu-id="28491-189">Application Sharing</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1c0ab-190"><strong>[日付/時刻]</strong></span><span class="sxs-lookup"><span data-stu-id="1c0ab-190"><strong>Date/Time</strong></span></span></p></td>
-<td><p><span data-ttu-id="1c0ab-191">いいえ</span><span class="sxs-lookup"><span data-stu-id="1c0ab-191">No</span></span></p></td>
-<td><p><span data-ttu-id="1c0ab-192">電話会議の開始日時。</span><span class="sxs-lookup"><span data-stu-id="1c0ab-192">Date and time when the conference was held.</span></span></p></td>
+<td><p><span data-ttu-id="28491-190"><strong>日付/時刻</strong></span><span class="sxs-lookup"><span data-stu-id="28491-190"><strong>Date/Time</strong></span></span></p></td>
+<td><p><span data-ttu-id="28491-191">いいえ</span><span class="sxs-lookup"><span data-stu-id="28491-191">No</span></span></p></td>
+<td><p><span data-ttu-id="28491-192">電話会議の開始日時。</span><span class="sxs-lookup"><span data-stu-id="28491-192">Date and time when the conference was held.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1c0ab-193"><strong>[合計]</strong></span><span class="sxs-lookup"><span data-stu-id="1c0ab-193"><strong>Total</strong></span></span></p></td>
-<td><p><span data-ttu-id="1c0ab-194">いいえ</span><span class="sxs-lookup"><span data-stu-id="1c0ab-194">No</span></span></p></td>
-<td><p><span data-ttu-id="1c0ab-195">参加者総数、参加者総時間 (分)、電話会議総数。</span><span class="sxs-lookup"><span data-stu-id="1c0ab-195">Total participant count, total participant minutes, or total conference count.</span></span></p></td>
+<td><p><span data-ttu-id="28491-193"><strong>合計</strong></span><span class="sxs-lookup"><span data-stu-id="28491-193"><strong>Total</strong></span></span></p></td>
+<td><p><span data-ttu-id="28491-194">いいえ</span><span class="sxs-lookup"><span data-stu-id="28491-194">No</span></span></p></td>
+<td><p><span data-ttu-id="28491-195">参加者総数、参加者総時間 (分)、電話会議総数。</span><span class="sxs-lookup"><span data-stu-id="28491-195">Total participant count, total participant minutes, or total conference count.</span></span></p></td>
 </tr>
 </tbody>
 </table>

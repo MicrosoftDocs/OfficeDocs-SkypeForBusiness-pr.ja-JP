@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 緊急対応の手順'
+title: 'Lync Server 2013: 緊急時の手順'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969640
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 28f6ab6f10d071fc86646deed030ab87d931ad95
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 65f50a5b78c92b82ec4a17711add8744bb2313d6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729377"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006233"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="emergency-procedures-in-lync-server-2013"></a><span data-ttu-id="69508-102">Lync Server 2013 の緊急対応手順</span><span class="sxs-lookup"><span data-stu-id="69508-102">Emergency procedures in Lync Server 2013</span></span>
+# <a name="emergency-procedures-in-lync-server-2013"></a><span data-ttu-id="d679e-102">Lync Server 2013 の緊急時の手順</span><span class="sxs-lookup"><span data-stu-id="d679e-102">Emergency procedures in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,24 +35,24 @@ ms.locfileid: "41729377"
 
 <span> </span>
 
-<span data-ttu-id="69508-103">_**最終更新日:** 2014-08-18_</span><span class="sxs-lookup"><span data-stu-id="69508-103">_**Topic Last Modified:** 2014-08-18_</span></span>
+<span data-ttu-id="d679e-103">_**トピックの最終更新日:** 2014-08-18_</span><span class="sxs-lookup"><span data-stu-id="d679e-103">_**Topic Last Modified:** 2014-08-18_</span></span>
 
-<span data-ttu-id="69508-104">緊急時の手順は、前に説明した標準的な手順の外側にあり、変更管理機能によって処理される必要があるオンデマンドの手順です (「変更管理」機能の説明については[MOF](http://go.microsoft.com/fwlink/p/?linkid=40939)を参照してください)。</span><span class="sxs-lookup"><span data-stu-id="69508-104">Emergency procedures are on-demand procedures that fall outside the standard procedures previously discussed and should be handled by the change management function (refer to the [MOF](http://go.microsoft.com/fwlink/p/?linkid=40939) for a description on the "change management" function).</span></span> <span data-ttu-id="69508-105">通常、これらの手順は、次のいずれかに関連しています。</span><span class="sxs-lookup"><span data-stu-id="69508-105">These procedures usually relate to one of the following:</span></span>
+<span data-ttu-id="d679e-104">緊急時の手順は、前に説明した標準的な手順の外にあるオンデマンドの手順であり、変更管理機能によって処理する必要があります (「change management」関数の説明については[MOF](http://go.microsoft.com/fwlink/p/?linkid=40939)を参照してください)。</span><span class="sxs-lookup"><span data-stu-id="d679e-104">Emergency procedures are on-demand procedures that fall outside the standard procedures previously discussed and should be handled by the change management function (refer to the [MOF](http://go.microsoft.com/fwlink/p/?linkid=40939) for a description on the "change management" function).</span></span> <span data-ttu-id="d679e-105">通常、これらの手順は次のいずれかに関連しています。</span><span class="sxs-lookup"><span data-stu-id="d679e-105">These procedures usually relate to one of the following:</span></span>
 
-  - <span data-ttu-id="69508-106">トラブルシューティング作業の一環として変更を実装して、特定されたシステムの問題を解決する。</span><span class="sxs-lookup"><span data-stu-id="69508-106">Implementing change as part of a troubleshooting effort—to resolve an identified system issue.</span></span>
+  - <span data-ttu-id="d679e-106">トラブルシューティング作業の一環として変更を実装し、特定されたシステムの問題を解決します。</span><span class="sxs-lookup"><span data-stu-id="d679e-106">Implementing change as part of a troubleshooting effort—to resolve an identified system issue.</span></span>
 
-  - <span data-ttu-id="69508-107">特定されたセキュリティの脅威 (ソフトウェアの更新など) を解決する。</span><span class="sxs-lookup"><span data-stu-id="69508-107">Resolve an identified security threat—such as software updates.</span></span>
+  - <span data-ttu-id="d679e-107">特定されたセキュリティ上の脅威 (ソフトウェアの更新など) を解決します。</span><span class="sxs-lookup"><span data-stu-id="d679e-107">Resolve an identified security threat—such as software updates.</span></span>
 
-<span data-ttu-id="69508-108">ビジネスへの影響を評価し、変更作業領域のガイダンスによって定義された、正式な変更管理の手順を通じて、一時的な変更を実装または送信する必要があるかどうかを判断する必要があります。</span><span class="sxs-lookup"><span data-stu-id="69508-108">Impact to the business should be evaluated to determine whether a temporary change should be implemented or channeled through the official change management procedures as defined by the Changing Quadrant guidance.</span></span>
+<span data-ttu-id="d679e-108">ビジネスへの影響を評価して、変更作業領域のガイダンスで定義されているように、正式な変更管理手順を通じて、一時的な変更を実装または実行する必要があるかどうかを判断する必要があります。</span><span class="sxs-lookup"><span data-stu-id="d679e-108">Impact to the business should be evaluated to determine whether a temporary change should be implemented or channeled through the official change management procedures as defined by the Changing Quadrant guidance.</span></span>
 
-<span data-ttu-id="69508-109">緊急時の変更手順を実装することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="69508-109">We recommend implementing emergency change procedures.</span></span> <span data-ttu-id="69508-110">たとえば、これらの種類の手順を処理する方法を文書化し、緊急時の変更が表示されたときの混乱を避けるために役立ちます。</span><span class="sxs-lookup"><span data-stu-id="69508-110">For example, document how to deal with these types of procedures and help with reducing a state of confusion when an emergency change is presented.</span></span>
+<span data-ttu-id="d679e-109">緊急変更手順を実装することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="d679e-109">We recommend implementing emergency change procedures.</span></span> <span data-ttu-id="d679e-110">たとえば、これらの種類の手順をどのように処理するかを文書化し、緊急の変更が発生した場合に混乱の状態を減らすための支援を提供します。</span><span class="sxs-lookup"><span data-stu-id="d679e-110">For example, document how to deal with these types of procedures and help with reducing a state of confusion when an emergency change is presented.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="69508-111">関連項目</span><span class="sxs-lookup"><span data-stu-id="69508-111">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d679e-111">関連項目</span><span class="sxs-lookup"><span data-stu-id="d679e-111">See Also</span></span>
 
 
-[<span data-ttu-id="69508-112">Microsoft 運用フレームワーク4.0</span><span class="sxs-lookup"><span data-stu-id="69508-112">Microsoft Operations Framework 4.0</span></span>](http://go.microsoft.com/fwlink/p/?linkid=40939)  
+[<span data-ttu-id="d679e-112">Microsoft Operations Framework 4.0</span><span class="sxs-lookup"><span data-stu-id="d679e-112">Microsoft Operations Framework 4.0</span></span>](http://go.microsoft.com/fwlink/p/?linkid=40939)  
   
 
 </div>

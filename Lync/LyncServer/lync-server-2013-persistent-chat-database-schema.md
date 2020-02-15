@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 常設チャット データベースのスキーマ'
+title: 'Lync Server 2013: 常設チャットデータベーススキーマ'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184228
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73f3b21fe8ea7f9fc71aa5432a601e9fa3ad2425
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 51ee4506a22d866a5ba0f771db47546a8fa15e6e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755237"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006915"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="persistent-chat-database-schema-in-lync-server-2013"></a><span data-ttu-id="eb093-102">Lync Server 2013 の常設チャット データベースのスキーマ</span><span class="sxs-lookup"><span data-stu-id="eb093-102">Persistent Chat database schema in Lync Server 2013</span></span>
+# <a name="persistent-chat-database-schema-in-lync-server-2013"></a><span data-ttu-id="b4a13-102">Lync Server 2013 の常設チャットデータベーススキーマ</span><span class="sxs-lookup"><span data-stu-id="b4a13-102">Persistent Chat database schema in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,43 +35,43 @@ ms.locfileid: "41755237"
 
 <span> </span>
 
-<span data-ttu-id="eb093-103">_**最終更新日:** 2012-09-18_</span><span class="sxs-lookup"><span data-stu-id="eb093-103">_**Topic Last Modified:** 2012-09-18_</span></span>
+<span data-ttu-id="b4a13-103">_**トピックの最終更新日:** 2012-09-18_</span><span class="sxs-lookup"><span data-stu-id="b4a13-103">_**Topic Last Modified:** 2012-09-18_</span></span>
 
-<span data-ttu-id="eb093-104">これにより、Lync Server 2013 通信ソフトウェアの常設チャットデータベースのスキーマがドキュメントに記載されます。</span><span class="sxs-lookup"><span data-stu-id="eb093-104">This documents the schema of the Persistent Chat database in Lync Server 2013 communications software.</span></span>
+<span data-ttu-id="b4a13-104">このドキュメントでは、Lync Server 2013 communications software の常設チャットデータベースのスキーマについて解説します。</span><span class="sxs-lookup"><span data-stu-id="b4a13-104">This documents the schema of the Persistent Chat database in Lync Server 2013 communications software.</span></span>
 
-<span data-ttu-id="eb093-105">常設チャットデータベースは、Lync Server 2013 バックエンドサーバーのロール PersistentChatStore (行うデータベースに対応) と**PersistentChatComplianceStore** ( \*\*\*\* ccomp データベースに対応) に対応するデータベースを参照します。</span><span class="sxs-lookup"><span data-stu-id="eb093-105">The Persistent Chat database refers to the database corresponding to the Lync Server 2013 Back End Server roles **PersistentChatStore** (corresponding to the mgc database) and **PersistentChatComplianceStore** (corresponding to the mgccomp database).</span></span> <span data-ttu-id="eb093-106">このスキーマを公開することは、お客様がクエリを作成して、チャットの利用状況、アクティブな会議室、トップ投稿などに関する有用なレポートを作成できるようにすることを目的としています。</span><span class="sxs-lookup"><span data-stu-id="eb093-106">The goal of publishing this schema is to enable you to build queries and gain some insights into building useful reporting around chat usage, active rooms, top posters, and so on.</span></span>
+<span data-ttu-id="b4a13-105">常設チャットデータベースは、Lync Server 2013 のバックエンドサーバーロール**PersistentChatStore** (mgc データベースに対応) および**PersistentChatComplianceStore** (データベースに対応) に対応するデータベースを参照します。</span><span class="sxs-lookup"><span data-stu-id="b4a13-105">The Persistent Chat database refers to the database corresponding to the Lync Server 2013 Back End Server roles **PersistentChatStore** (corresponding to the mgc database) and **PersistentChatComplianceStore** (corresponding to the mgccomp database).</span></span> <span data-ttu-id="b4a13-106">このスキーマを公開する目的は、クエリを作成し、チャットの使用状況、アクティブなルーム、上位のポスターなどに関する有用なレポートの作成について理解できるようにすることです。</span><span class="sxs-lookup"><span data-stu-id="b4a13-106">The goal of publishing this schema is to enable you to build queries and gain some insights into building useful reporting around chat usage, active rooms, top posters, and so on.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="eb093-107">このスキーマを進化させる権利を留保します。</span><span class="sxs-lookup"><span data-stu-id="eb093-107">We reserve the right to evolve this schema.</span></span> <span data-ttu-id="eb093-108">Microsoft は、この公開されたスキーマとの完全な下位互換性を維持する保証を行っていません。</span><span class="sxs-lookup"><span data-stu-id="eb093-108">Microsoft does not make any guarantees to maintain full backward compatibility with this published schema.</span></span>
+> <span data-ttu-id="b4a13-p102">Microsoft はこのスキーマを進化させる権利があります。Microsoft では、公開されたこのスキーマとの完全な下位互換性を維持することは一切保証していません。</span><span class="sxs-lookup"><span data-stu-id="b4a13-p102">We reserve the right to evolve this schema. Microsoft does not make any guarantees to maintain full backward compatibility with this published schema.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="eb093-109">以下のベストプラクティスに従ってください。</span><span class="sxs-lookup"><span data-stu-id="eb093-109">Follow these best practices:</span></span>
+<span data-ttu-id="b4a13-109">次のベスト プラクティスに従ってください。</span><span class="sxs-lookup"><span data-stu-id="b4a13-109">Follow these best practices:</span></span>
 
-  - <span data-ttu-id="eb093-110">列リスト\*のサイズが大きくなる可能性があるため、SELECT//はサポートされません。</span><span class="sxs-lookup"><span data-stu-id="eb093-110">No SELECT\* // is supported because the column list can grow.</span></span>
+  - <span data-ttu-id="b4a13-110">列リスト\*を拡張できるため、SELECT//はサポートされません。</span><span class="sxs-lookup"><span data-stu-id="b4a13-110">No SELECT\* // is supported because the column list can grow.</span></span>
 
-  - <span data-ttu-id="eb093-111">ユーザーが生成したスキーマの変更はサポートされません。</span><span class="sxs-lookup"><span data-stu-id="eb093-111">No user-generated schema modifications are supported.</span></span>
+  - <span data-ttu-id="b4a13-111">ユーザーが生成したスキーマの変更はサポートされません。</span><span class="sxs-lookup"><span data-stu-id="b4a13-111">No user-generated schema modifications are supported.</span></span>
 
-  - <span data-ttu-id="eb093-112">書き込み操作はサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="eb093-112">No write operations are supported.</span></span>
+  - <span data-ttu-id="b4a13-112">書き込み操作はサポートされません。</span><span class="sxs-lookup"><span data-stu-id="b4a13-112">No write operations are supported.</span></span>
 
-  - <span data-ttu-id="eb093-113">Representatively サイズのデータベースで作成したクエリをテストして、ニーズに合わせてクエリが確実に実行されることを確認します。</span><span class="sxs-lookup"><span data-stu-id="eb093-113">Test any queries that you build on representatively-sized databases to be sure that the queries can perform at a level to meet your needs.</span></span>
+  - <span data-ttu-id="b4a13-113">作成したクエリを標準的なサイズのデータベースでテストして、ニーズを満たすレベルでクエリを実行できることを確認してください。</span><span class="sxs-lookup"><span data-stu-id="b4a13-113">Test any queries that you build on representatively-sized databases to be sure that the queries can perform at a level to meet your needs.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="eb093-114">このセクション中</span><span class="sxs-lookup"><span data-stu-id="eb093-114">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="b4a13-114">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="b4a13-114">In This Section</span></span>
 
-  - [<span data-ttu-id="eb093-115">Lync Server 2013 の常設チャット サーバーのテーブルのリスト</span><span class="sxs-lookup"><span data-stu-id="eb093-115">List of Persistent Chat Server tables in Lync Server 2013</span></span>](lync-server-2013-list-of-persistent-chat-server-tables.md)
+  - [<span data-ttu-id="b4a13-115">Lync Server 2013 の常設チャットサーバーのテーブルの一覧</span><span class="sxs-lookup"><span data-stu-id="b4a13-115">List of Persistent Chat Server tables in Lync Server 2013</span></span>](lync-server-2013-list-of-persistent-chat-server-tables.md)
 
-  - [<span data-ttu-id="eb093-116">Lync Server 2013 の常設チャット サーバーのコンプライアンス テーブルのリスト</span><span class="sxs-lookup"><span data-stu-id="eb093-116">List of Persistent Chat Server compliance tables in Lync Server 2013</span></span>](lync-server-2013-list-of-persistent-chat-server-compliance-tables.md)
+  - [<span data-ttu-id="b4a13-116">Lync Server 2013 の常設チャットサーバーのコンプライアンステーブルのリスト</span><span class="sxs-lookup"><span data-stu-id="b4a13-116">List of Persistent Chat Server compliance tables in Lync Server 2013</span></span>](lync-server-2013-list-of-persistent-chat-server-compliance-tables.md)
 
-  - [<span data-ttu-id="eb093-117">Lync Server 2013 の常設チャット サーバー テーブルの詳細</span><span class="sxs-lookup"><span data-stu-id="eb093-117">Persistent Chat Server table details in Lync Server 2013</span></span>](lync-server-2013-persistent-chat-server-table-details.md)
+  - [<span data-ttu-id="b4a13-117">Lync Server 2013 の常設チャットサーバーテーブルの詳細</span><span class="sxs-lookup"><span data-stu-id="b4a13-117">Persistent Chat Server table details in Lync Server 2013</span></span>](lync-server-2013-persistent-chat-server-table-details.md)
 
-  - [<span data-ttu-id="eb093-118">Lync Server 2013 の常設チャット データベースのクエリのサンプル</span><span class="sxs-lookup"><span data-stu-id="eb093-118">Sample Persistent Chat database queries for Lync Server 2013</span></span>](lync-server-2013-sample-persistent-chat-database-queries.md)
+  - [<span data-ttu-id="b4a13-118">Lync Server 2013 の常設チャットデータベースのクエリのサンプル</span><span class="sxs-lookup"><span data-stu-id="b4a13-118">Sample Persistent Chat database queries for Lync Server 2013</span></span>](lync-server-2013-sample-persistent-chat-database-queries.md)
 
 </div>
 

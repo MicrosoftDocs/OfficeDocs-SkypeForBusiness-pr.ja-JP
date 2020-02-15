@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013 用に Active Directory を準備する
+title: Lync Server 2013 の Active Directory の準備
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185413
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d6bedd4e0d008f448da97ad5fc5bf62d810cfedc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 725bb861cdabff370d8a15b15d3dc8d511cbe901
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727367"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035883"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="prepare-active-directory-for-lync-server-2013"></a><span data-ttu-id="11dbb-102">Lync Server 2013 用に Active Directory を準備する</span><span class="sxs-lookup"><span data-stu-id="11dbb-102">Prepare Active Directory for Lync Server 2013</span></span>
+# <a name="prepare-active-directory-for-lync-server-2013"></a><span data-ttu-id="1d999-102">Lync Server 2013 の Active Directory の準備</span><span class="sxs-lookup"><span data-stu-id="1d999-102">Prepare Active Directory for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41727367"
 
 <span> </span>
 
-<span data-ttu-id="11dbb-103">_**最終更新日:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="11dbb-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="1d999-103">_**トピックの最終更新日:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="1d999-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="11dbb-104">Office Communications Server 2007 R2 を使用して、共存状態で Lync Server 2013 を展開する前に、Lync Server 2013 のスキーマ、フォレスト、ドメインを構成するために、追加の Active Directory タスクを実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="11dbb-104">Prior to deploying Lync Server 2013 in a coexistence state with Office Communications Server 2007 R2, you must perform some additional Active Directory tasks to configure the schema, forest, and domain for Lync Server 2013.</span></span> <span data-ttu-id="11dbb-105">スキーマの拡張機能によって、Lync Server で必要な Active Directory のクラスと属性が追加されます。</span><span class="sxs-lookup"><span data-stu-id="11dbb-105">The schema extensions add the Active Directory classes and attributes that are required by Lync Server.</span></span> <span data-ttu-id="11dbb-106">詳細については、「 [Lync Server 2013 用の Active Directory ドメインサービスの準備](lync-server-2013-preparing-active-directory-domain-services.md)」のトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="11dbb-106">For additional information, see the topic [Preparing Active Directory Domain Services for Lync Server 2013](lync-server-2013-preparing-active-directory-domain-services.md).</span></span>
+<span data-ttu-id="1d999-104">Lync Server 2013 を Office Communications Server 2007 R2 と共存状態に展開する前に、追加の Active Directory タスクを実行して、Lync Server 2013 のスキーマ、フォレスト、およびドメインを構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="1d999-104">Prior to deploying Lync Server 2013 in a coexistence state with Office Communications Server 2007 R2, you must perform some additional Active Directory tasks to configure the schema, forest, and domain for Lync Server 2013.</span></span> <span data-ttu-id="1d999-105">スキーマの拡張によって、Lync Server が必要とする Active Directory クラスと属性が追加されます。</span><span class="sxs-lookup"><span data-stu-id="1d999-105">The schema extensions add the Active Directory classes and attributes that are required by Lync Server.</span></span> <span data-ttu-id="1d999-106">詳細については、「 [Lync Server 2013 用の Active Directory ドメインサービスの準備](lync-server-2013-preparing-active-directory-domain-services.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="1d999-106">For additional information, see the topic [Preparing Active Directory Domain Services for Lync Server 2013](lync-server-2013-preparing-active-directory-domain-services.md).</span></span>
 
-<span data-ttu-id="11dbb-107">**Lync Server 2013 用に Active Directory を準備する**</span><span class="sxs-lookup"><span data-stu-id="11dbb-107">**Prepare Active Directory for Lync Server 2013**</span></span>
+<span data-ttu-id="1d999-107">**Lync Server 2013 の Active Directory の準備**</span><span class="sxs-lookup"><span data-stu-id="1d999-107">**Prepare Active Directory for Lync Server 2013**</span></span>
 
-1.  <span data-ttu-id="11dbb-108">Lync Server 2013 フロントエンドサーバーで、Lync Server 2013 のセットアップを実行します。</span><span class="sxs-lookup"><span data-stu-id="11dbb-108">On the Lync Server 2013 Front End Server, run Lync Server 2013 Setup.</span></span>
+1.  <span data-ttu-id="1d999-108">Lync Server 2013 フロントエンドサーバーで、Lync Server 2013 セットアップを実行します。</span><span class="sxs-lookup"><span data-stu-id="1d999-108">On the Lync Server 2013 Front End Server, run Lync Server 2013 Setup.</span></span>
 
-2.  <span data-ttu-id="11dbb-109">[ **Active Directory の準備**] を選ぶ</span><span class="sxs-lookup"><span data-stu-id="11dbb-109">Select **Prepare Active Directory**</span></span>
+2.  <span data-ttu-id="1d999-109">[**Active Directory の準備**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="1d999-109">Select **Prepare Active Directory**</span></span>
     
-    <span data-ttu-id="11dbb-110">![Lync Server 2013 展開ウィザードの [ようこそ] ページ](images/JJ205265.5f88ae18-9c3c-42ea-a91a-836ecf5d515f(OCS.15).jpg "Lync Server 2013 展開ウィザードの [ようこそ] ページ")</span><span class="sxs-lookup"><span data-stu-id="11dbb-110">![Lync Server 2013 Deployment Wizard, Welcome page](images/JJ205265.5f88ae18-9c3c-42ea-a91a-836ecf5d515f(OCS.15).jpg "Lync Server 2013 Deployment Wizard, Welcome page")</span></span>
+    <span data-ttu-id="1d999-110">![Lync Server 2013 展開ウィザード、ウェルカムページ](images/JJ205265.5f88ae18-9c3c-42ea-a91a-836ecf5d515f(OCS.15).jpg "Lync Server 2013 展開ウィザード、ウェルカムページ")</span><span class="sxs-lookup"><span data-stu-id="1d999-110">![Lync Server 2013 Deployment Wizard, Welcome page](images/JJ205265.5f88ae18-9c3c-42ea-a91a-836ecf5d515f(OCS.15).jpg "Lync Server 2013 Deployment Wizard, Welcome page")</span></span>
 
-3.  <span data-ttu-id="11dbb-111">手順1から5を実行します。</span><span class="sxs-lookup"><span data-stu-id="11dbb-111">Complete steps 1 through 5.</span></span>
+3.  <span data-ttu-id="1d999-111">手順 1 ～ 5 を行います。</span><span class="sxs-lookup"><span data-stu-id="1d999-111">Complete steps 1 through 5.</span></span>
     
-    <span data-ttu-id="11dbb-112">![展開ウィザードの [Active Directory]](images/JJ205265.eddd9e94-fa70-453f-8810-b99a2bf0844a(OCS.15).jpg "展開ウィザードの [Active Directory]")</span><span class="sxs-lookup"><span data-stu-id="11dbb-112">![Deployment Wizard, Active Directory Prearation](images/JJ205265.eddd9e94-fa70-453f-8810-b99a2bf0844a(OCS.15).jpg "Deployment Wizard, Active Directory Prearation")</span></span>
+    <span data-ttu-id="1d999-112">![展開ウィザード、Active Directory](images/JJ205265.eddd9e94-fa70-453f-8810-b99a2bf0844a(OCS.15).jpg "展開ウィザード、Active Directory")</span><span class="sxs-lookup"><span data-stu-id="1d999-112">![Deployment Wizard, Active Directory Prearation](images/JJ205265.eddd9e94-fa70-453f-8810-b99a2bf0844a(OCS.15).jpg "Deployment Wizard, Active Directory Prearation")</span></span>
 
 </div>
 

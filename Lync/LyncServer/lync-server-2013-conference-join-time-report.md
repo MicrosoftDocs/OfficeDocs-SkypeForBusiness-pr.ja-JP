@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 電話会議の参加時間レポート'
+title: 'Lync Server 2013: 会議参加時間レポート'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185686
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cce80d3c61e94752423c70de9827d41243da7119
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 96b1e8af206e6beaec1bf96bc2d91b88f672bd4f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757011"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007866"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="conference-join-time-report-in-lync-server-2013"></a><span data-ttu-id="07859-102">Lync Server 2013 の会議参加時間レポート</span><span class="sxs-lookup"><span data-stu-id="07859-102">Conference Join Time Report in Lync Server 2013</span></span>
+# <a name="conference-join-time-report-in-lync-server-2013"></a><span data-ttu-id="d0207-102">Lync Server 2013 の会議参加時間レポート</span><span class="sxs-lookup"><span data-stu-id="d0207-102">Conference Join Time Report in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41757011"
 
 <span> </span>
 
-<span data-ttu-id="07859-103">_**最終更新日:** 2014-04-23_</span><span class="sxs-lookup"><span data-stu-id="07859-103">_**Topic Last Modified:** 2014-04-23_</span></span>
+<span data-ttu-id="d0207-103">_**トピックの最終更新日:** 2014-04-23_</span><span class="sxs-lookup"><span data-stu-id="d0207-103">_**Topic Last Modified:** 2014-04-23_</span></span>
 
-<span data-ttu-id="07859-p101">会議参加時間の概要を使用すると、ユーザーが会議に参加するのに要した時間を判定できます。このレポートは、平均参加時間 (ミリ秒) を表示します。また、2 秒以内に会議に参加できたユーザーの数や会議に参加するのに 2 ～ 5 秒かかったユーザーの数などがわかる詳細を提供します。</span><span class="sxs-lookup"><span data-stu-id="07859-p101">The Conference Join Time Summary enables you to determine how long it takes your users to join a conference. The report shows the average join time (in milliseconds), and also provides a breakdown that lets you know how many users were able to join a conference in 2 seconds or less, how many users required between 2 and 5 seconds to join the conference, and so on.</span></span>
+<span data-ttu-id="d0207-p101">会議参加時間の概要を使用すると、ユーザーが会議に参加するのに要した時間を判定できます。このレポートは、平均参加時間 (ミリ秒) を表示します。また、2 秒以内に会議に参加できたユーザーの数や会議に参加するのに 2 ～ 5 秒かかったユーザーの数などが分かる詳細を提供します。</span><span class="sxs-lookup"><span data-stu-id="d0207-p101">The Conference Join Time Summary enables you to determine how long it takes your users to join a conference. The report shows the average join time (in milliseconds), and also provides a breakdown that lets you know how many users were able to join a conference in 2 seconds or less, how many users required between 2 and 5 seconds to join the conference, and so on.</span></span>
 
 <div>
 
-## <a name="accessing-the-conference-join-time-report"></a><span data-ttu-id="07859-106">電話会議参加時間レポートにアクセスする</span><span class="sxs-lookup"><span data-stu-id="07859-106">Accessing the Conference Join Time Report</span></span>
+## <a name="accessing-the-conference-join-time-report"></a><span data-ttu-id="d0207-106">会議参加時間レポートにアクセスする</span><span class="sxs-lookup"><span data-stu-id="d0207-106">Accessing the Conference Join Time Report</span></span>
 
-<span data-ttu-id="07859-107">監視レポートのホーム ページから電話会議参加時間レポートにアクセスできます。</span><span class="sxs-lookup"><span data-stu-id="07859-107">The Conference Join Time Report is accessed from the Monitoring Reports home page.</span></span>
+<span data-ttu-id="d0207-107">監視レポートのホーム ページから会議参加時間レポートにアクセスできます。</span><span class="sxs-lookup"><span data-stu-id="d0207-107">The Conference Join Time Report is accessed from the Monitoring Reports home page.</span></span>
 
 </div>
 
 <div>
 
-## <a name="filters"></a><span data-ttu-id="07859-108">フィルター</span><span class="sxs-lookup"><span data-stu-id="07859-108">Filters</span></span>
+## <a name="filters"></a><span data-ttu-id="d0207-108">フィルター</span><span class="sxs-lookup"><span data-stu-id="d0207-108">Filters</span></span>
 
-<span data-ttu-id="07859-p102">フィルターは、細かく絞り込んだデータ セットを返したり、返されたデータをさまざまな方法で表示したりする方法として利用できます。次の表に、電話会議参加時間レポートで使用できるフィルターを示します。</span><span class="sxs-lookup"><span data-stu-id="07859-p102">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. The following table lists the filters that you can use with the Conference Join Time Report.</span></span>
+<span data-ttu-id="d0207-p102">フィルターは、細かく絞り込んだデータ セットを返したり、返されたデータをさまざま方法で表示したりする方法として利用できます。次の表に、会議参加時間レポートで使用できるフィルターを示します。</span><span class="sxs-lookup"><span data-stu-id="d0207-p102">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. The following table lists the filters that you can use with the Conference Join Time Report.</span></span>
 
-### <a name="conference-join-time-report-filters"></a><span data-ttu-id="07859-111">電話会議参加時間レポートのフィルター</span><span class="sxs-lookup"><span data-stu-id="07859-111">Conference Join Time Report Filters</span></span>
+### <a name="conference-join-time-report-filters"></a><span data-ttu-id="d0207-111">会議参加時間レポートのフィルター</span><span class="sxs-lookup"><span data-stu-id="d0207-111">Conference Join Time Report Filters</span></span>
 
 <table>
 <colgroup>
@@ -62,56 +62,56 @@ ms.locfileid: "41757011"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="07859-112">名前</span><span class="sxs-lookup"><span data-stu-id="07859-112">Name</span></span></th>
-<th><span data-ttu-id="07859-113">説明</span><span class="sxs-lookup"><span data-stu-id="07859-113">Description</span></span></th>
+<th><span data-ttu-id="d0207-112">名前</span><span class="sxs-lookup"><span data-stu-id="d0207-112">Name</span></span></th>
+<th><span data-ttu-id="d0207-113">説明</span><span class="sxs-lookup"><span data-stu-id="d0207-113">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="07859-114"><strong>開始</strong></span><span class="sxs-lookup"><span data-stu-id="07859-114"><strong>From</strong></span></span></p></td>
-<td><p><span data-ttu-id="07859-p103">時間範囲の開始日と開始時刻。データを時間単位で表示するには、次のように開始日と開始時刻の両方を入力します。</span><span class="sxs-lookup"><span data-stu-id="07859-p103">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
-<p><span data-ttu-id="07859-117">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="07859-117">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="07859-p104">開始時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に開始します。データを日単位で表示するには、次のように日付のみを入力します。</span><span class="sxs-lookup"><span data-stu-id="07859-p104">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="07859-120">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="07859-120">7/7/2012</span></span></p>
-<p><span data-ttu-id="07859-121">週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。</span><span class="sxs-lookup"><span data-stu-id="07859-121">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="07859-122">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="07859-122">7/3/2012</span></span></p>
-<p><span data-ttu-id="07859-123">一週間は、日曜日から始まり、土曜日で終わるものとします。</span><span class="sxs-lookup"><span data-stu-id="07859-123">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="d0207-114"><strong>From</strong></span><span class="sxs-lookup"><span data-stu-id="d0207-114"><strong>From</strong></span></span></p></td>
+<td><p><span data-ttu-id="d0207-p103">時間範囲の開始日と開始時刻。データを時間単位で表示するには、次のように開始日と開始時刻の両方を入力します。</span><span class="sxs-lookup"><span data-stu-id="d0207-p103">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
+<p><span data-ttu-id="d0207-117">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="d0207-117">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="d0207-p104">開始時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に開始します。データを日単位で表示するには、次のように日付のみを入力します。</span><span class="sxs-lookup"><span data-stu-id="d0207-p104">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="d0207-120">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="d0207-120">7/7/2012</span></span></p>
+<p><span data-ttu-id="d0207-121">週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。</span><span class="sxs-lookup"><span data-stu-id="d0207-121">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="d0207-122">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="d0207-122">7/3/2012</span></span></p>
+<p><span data-ttu-id="d0207-123">週は、常に日曜日から土曜日までです。</span><span class="sxs-lookup"><span data-stu-id="d0207-123">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="07859-124"><strong>終了</strong></span><span class="sxs-lookup"><span data-stu-id="07859-124"><strong>To</strong></span></span></p></td>
-<td><p><span data-ttu-id="07859-p105">時間範囲の終了日と終了時刻。データを時間単位で表示するには、次のように終了日と終了時刻の両方を入力します。</span><span class="sxs-lookup"><span data-stu-id="07859-p105">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
-<p><span data-ttu-id="07859-127">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="07859-127">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="07859-p106">終了時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に終了します。データを日単位で表示するには、次のように日付のみを入力します。</span><span class="sxs-lookup"><span data-stu-id="07859-p106">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="07859-130">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="07859-130">7/7/2012</span></span></p>
-<p><span data-ttu-id="07859-131">週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。</span><span class="sxs-lookup"><span data-stu-id="07859-131">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="07859-132">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="07859-132">7/3/2012</span></span></p>
-<p><span data-ttu-id="07859-133">一週間は、日曜日から始まり、土曜日で終わるものとします。</span><span class="sxs-lookup"><span data-stu-id="07859-133">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="d0207-124"><strong>To</strong></span><span class="sxs-lookup"><span data-stu-id="d0207-124"><strong>To</strong></span></span></p></td>
+<td><p><span data-ttu-id="d0207-p105">時間範囲の終了日と終了時刻。データを時間単位で表示するには、次のように終了日と終了時刻の両方を入力します。</span><span class="sxs-lookup"><span data-stu-id="d0207-p105">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
+<p><span data-ttu-id="d0207-127">7/7/2012 13:00</span><span class="sxs-lookup"><span data-stu-id="d0207-127">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="d0207-p106">終了時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に終了します。データを日単位で表示するには、次のように日付のみを入力します。</span><span class="sxs-lookup"><span data-stu-id="d0207-p106">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="d0207-130">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="d0207-130">7/7/2012</span></span></p>
+<p><span data-ttu-id="d0207-131">週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。</span><span class="sxs-lookup"><span data-stu-id="d0207-131">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="d0207-132">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="d0207-132">7/3/2012</span></span></p>
+<p><span data-ttu-id="d0207-133">週は、常に日曜日から土曜日までです。</span><span class="sxs-lookup"><span data-stu-id="d0207-133">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="07859-134"><strong>[間隔]</strong></span><span class="sxs-lookup"><span data-stu-id="07859-134"><strong>Interval</strong></span></span></p></td>
-<td><p><span data-ttu-id="07859-p107">時間間隔です。次のいずれかを選択します。</span><span class="sxs-lookup"><span data-stu-id="07859-p107">Time interval. Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="d0207-134"><strong>間隔</strong></span><span class="sxs-lookup"><span data-stu-id="d0207-134"><strong>Interval</strong></span></span></p></td>
+<td><p><span data-ttu-id="d0207-p107">時間間隔です。次のいずれかを選択します。</span><span class="sxs-lookup"><span data-stu-id="d0207-p107">Time interval. Select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="07859-137">毎時 (最大 25 時間の表示が可能)</span><span class="sxs-lookup"><span data-stu-id="07859-137">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="07859-138">毎日 (最大 31 日の表示が可能)</span><span class="sxs-lookup"><span data-stu-id="07859-138">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="07859-139">毎週 (最大 12 週の表示が可能)</span><span class="sxs-lookup"><span data-stu-id="07859-139">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="07859-140">毎月 (最大 12 か月の表示が可能)</span><span class="sxs-lookup"><span data-stu-id="07859-140">Monthly (a maximum of 12 months can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="d0207-137">時間単位 (最大 25 時間の表示が可能)</span><span class="sxs-lookup"><span data-stu-id="d0207-137">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="d0207-138">日単位 (最大 31 日の表示が可能)</span><span class="sxs-lookup"><span data-stu-id="d0207-138">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="d0207-139">週単位 (最大 12 週の表示が可能)</span><span class="sxs-lookup"><span data-stu-id="d0207-139">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="d0207-140">月単位 (最大 12 か月の表示が可能)</span><span class="sxs-lookup"><span data-stu-id="d0207-140">Monthly (a maximum of 12 months can be displayed)</span></span></p></li>
 </ul>
-<p><span data-ttu-id="07859-141">入力した開始日と終了日が選択した間隔で使用できる値の最大数を超える場合は、最大数の値 (開始日からカウント) のみが表示されます。</span><span class="sxs-lookup"><span data-stu-id="07859-141">If the start and end dates exceed the maximum number of values allowed for the selected interval, only the maximum number of values (starting from the start date) is displayed.</span></span> <span data-ttu-id="07859-142">たとえば、開始日が7/7/2012 で、終了日が2/28/2012 の [日] 間隔を選択した場合は、8/7/2012 12:00 AM から 9/7/2012 12:00 AM (つまり、31日分のデータ) のデータが表示されます。</span><span class="sxs-lookup"><span data-stu-id="07859-142">For example, if you select the Daily interval with a start date of 7/7/2012 and an end date of 2/28/2012, data is displayed for the days 8/7/2012 12:00 AM to 9/7/2012 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
+<p><span data-ttu-id="d0207-p108">入力した開始日と終了日が選択した間隔で使用できる値の最大数を超える場合は、最大数の値 (開始日からカウント) のみが表示されます。たとえば、開始日と終了日をそれぞれ 7/7/2012 (2012 年 7 月 7 日)、2/28/2012 (2012 年 2 月 28 日) として毎日の間隔を選択しても、2012 年 8 月 7 日の午前 12:00 から 2012 年 9 月 7 日の午前 12:00 までの日付のデータ (つまり、合計 31 日分のデータのみ) が表示されることになります。</span><span class="sxs-lookup"><span data-stu-id="d0207-p108">If the start and end dates exceed the maximum number of values allowed for the selected interval, only the maximum number of values (starting from the start date) is displayed. For example, if you select the Daily interval with a start date of 7/7/2012 and an end date of 2/28/2012, data is displayed for the days 8/7/2012 12:00 AM to 9/7/2012 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="07859-143"><strong>プール</strong></span><span class="sxs-lookup"><span data-stu-id="07859-143"><strong>Pool</strong></span></span></p></td>
-<td><p><span data-ttu-id="07859-p109">レジストラー プールまたはエッジ サーバーの完全修飾ドメイン名 (FQDN)。個別のプールを選択するか、[<strong>すべて</strong>] をクリックしてすべてのプールのデータを表示できます。このドロップダウン リストは、データベース内のレコードに基づいて自動的に設定されます。</span><span class="sxs-lookup"><span data-stu-id="07859-p109">Fully qualified domain name (FQDN) of the Registrar pool or Edge Server. You can either select an individual pool or click <strong>[All]</strong> to view data for all the pools. This drop-down list is automatically populated for you based on the records in the database.</span></span></p></td>
+<td><p><span data-ttu-id="d0207-143"><strong>Pool</strong></span><span class="sxs-lookup"><span data-stu-id="d0207-143"><strong>Pool</strong></span></span></p></td>
+<td><p><span data-ttu-id="d0207-p109">レジストラー プールまたはエッジ サーバーの完全修飾ドメイン名 (FQDN)。個別のプールを選択するか、[<strong>すべて</strong>] をクリックしてすべてのプールのデータを表示できます。このドロップダウン リストは、データベース内のレコードに基づいて自動的に設定されます。</span><span class="sxs-lookup"><span data-stu-id="d0207-p109">Fully qualified domain name (FQDN) of the Registrar pool or Edge Server. You can either select an individual pool or click <strong>[All]</strong> to view data for all the pools. This drop-down list is automatically populated for you based on the records in the database.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="07859-147"><strong>電話会議セッション</strong></span><span class="sxs-lookup"><span data-stu-id="07859-147"><strong>Conference sessions</strong></span></span></p></td>
-<td><p><span data-ttu-id="07859-p110">セッションの種類。有効な値は次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="07859-p110">Type of session. Allowed values are:</span></span></p>
+<td><p><span data-ttu-id="d0207-147"><strong>会議セッション</strong></span><span class="sxs-lookup"><span data-stu-id="d0207-147"><strong>Conference sessions</strong></span></span></p></td>
+<td><p><span data-ttu-id="d0207-p110">セッションの種類。有効な値は次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="d0207-p110">Type of session. Allowed values are:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="07859-150">[すべて]</span><span class="sxs-lookup"><span data-stu-id="07859-150">[All]</span></span></p></li>
-<li><p><span data-ttu-id="07859-151">フォーカス セッション ("フォーカス" は、オンライン会議のための中央のポリシーおよび状態マネージャーで、会議のあらゆる側面を調整します)</span><span class="sxs-lookup"><span data-stu-id="07859-151">Focus sessions (the Focus is the central policy and state manager for online meetings and coordinates all aspects of A conference</span></span></p></li>
-<li><p><span data-ttu-id="07859-152">アプリケーション共有</span><span class="sxs-lookup"><span data-stu-id="07859-152">Application sharing</span></span></p></li>
-<li><p><span data-ttu-id="07859-153">音声ビデオ会議</span><span class="sxs-lookup"><span data-stu-id="07859-153">A/V conferencing</span></span></p></li>
+<li><p><span data-ttu-id="d0207-150">いずれ</span><span class="sxs-lookup"><span data-stu-id="d0207-150">[All]</span></span></p></li>
+<li><p><span data-ttu-id="d0207-151">フォーカスセッション (フォーカスはオンライン会議の中心的なポリシーおよび状態マネージャーで、会議のすべての側面を調整します)</span><span class="sxs-lookup"><span data-stu-id="d0207-151">Focus sessions (the Focus is the central policy and state manager for online meetings and coordinates all aspects of A conference</span></span></p></li>
+<li><p><span data-ttu-id="d0207-152">アプリケーション共有</span><span class="sxs-lookup"><span data-stu-id="d0207-152">Application sharing</span></span></p></li>
+<li><p><span data-ttu-id="d0207-153">音声ビデオ会議</span><span class="sxs-lookup"><span data-stu-id="d0207-153">A/V conferencing</span></span></p></li>
 </ul>
-<p><span data-ttu-id="07859-p111">[すべて] を選択した場合は、会議参加時間の合計がレポートの上部に表示されます。これらの合計は、Microsoft Exchange または Microsoft Outlook を使用してスケジュールされた会議のみに関する合計です。</span><span class="sxs-lookup"><span data-stu-id="07859-p111">If you select [All], the total conference join time will be displayed at the top of the report. Note that these totals are only for conferences which were scheduled by using Microsoft Exchange or Microsoft Outlook.</span></span></p></td>
+<p><span data-ttu-id="d0207-p111">[すべて] を選択した場合は、会議参加時間の合計がレポートの上部に表示されます。これらの合計は、Microsoft Exchange または Microsoft Outlook を使用してスケジュールされた会議のみについての合計であることに注意してください。</span><span class="sxs-lookup"><span data-stu-id="d0207-p111">If you select [All], the total conference join time will be displayed at the top of the report. Note that these totals are only for conferences which were scheduled by using Microsoft Exchange or Microsoft Outlook.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -121,11 +121,11 @@ ms.locfileid: "41757011"
 
 <div>
 
-## <a name="metrics"></a><span data-ttu-id="07859-156">指標</span><span class="sxs-lookup"><span data-stu-id="07859-156">Metrics</span></span>
+## <a name="metrics"></a><span data-ttu-id="d0207-156">指標</span><span class="sxs-lookup"><span data-stu-id="d0207-156">Metrics</span></span>
 
-<span data-ttu-id="07859-157">次の表に、電話会議参加時間レポートで提供される情報を示します。</span><span class="sxs-lookup"><span data-stu-id="07859-157">The following table lists the information provided in the Conference Join Time Report.</span></span>
+<span data-ttu-id="d0207-157">次の表に、会議参加時間レポートで提供される情報を示します。</span><span class="sxs-lookup"><span data-stu-id="d0207-157">The following table lists the information provided in the Conference Join Time Report.</span></span>
 
-### <a name="conference-join-time-report-metrics"></a><span data-ttu-id="07859-158">電話会議参加時間レポートの指標</span><span class="sxs-lookup"><span data-stu-id="07859-158">Conference Join Time Report Metrics</span></span>
+### <a name="conference-join-time-report-metrics"></a><span data-ttu-id="d0207-158">会議参加時間レポートの指標</span><span class="sxs-lookup"><span data-stu-id="d0207-158">Conference Join Time Report Metrics</span></span>
 
 <table>
 <colgroup>
@@ -135,67 +135,67 @@ ms.locfileid: "41757011"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="07859-159">名前</span><span class="sxs-lookup"><span data-stu-id="07859-159">Name</span></span></th>
-<th><span data-ttu-id="07859-160">この項目での並べ替え</span><span class="sxs-lookup"><span data-stu-id="07859-160">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="07859-161">説明</span><span class="sxs-lookup"><span data-stu-id="07859-161">Description</span></span></th>
+<th><span data-ttu-id="d0207-159">名前</span><span class="sxs-lookup"><span data-stu-id="d0207-159">Name</span></span></th>
+<th><span data-ttu-id="d0207-160">この項目での並べ替え</span><span class="sxs-lookup"><span data-stu-id="d0207-160">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="d0207-161">説明</span><span class="sxs-lookup"><span data-stu-id="d0207-161">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="07859-162"><strong>日付</strong></span><span class="sxs-lookup"><span data-stu-id="07859-162"><strong>Date</strong></span></span></p>
-<p><span data-ttu-id="07859-163">この指標の実際の名前は、選択した間隔によって異なります。</span><span class="sxs-lookup"><span data-stu-id="07859-163">The actual title for this metric will vary depending on the Interval that was selected.</span></span></p></td>
-<td><p><span data-ttu-id="07859-164">いいえ</span><span class="sxs-lookup"><span data-stu-id="07859-164">No</span></span></p></td>
-<td><p><span data-ttu-id="07859-165">会議が開催された日時です。</span><span class="sxs-lookup"><span data-stu-id="07859-165">Date and time that the conference took place.</span></span></p></td>
+<td><p><span data-ttu-id="d0207-162"><strong>Date</strong></span><span class="sxs-lookup"><span data-stu-id="d0207-162"><strong>Date</strong></span></span></p>
+<p><span data-ttu-id="d0207-163">この指標の実際の名前は、選択した間隔によって異なります。</span><span class="sxs-lookup"><span data-stu-id="d0207-163">The actual title for this metric will vary depending on the Interval that was selected.</span></span></p></td>
+<td><p><span data-ttu-id="d0207-164">いいえ</span><span class="sxs-lookup"><span data-stu-id="d0207-164">No</span></span></p></td>
+<td><p><span data-ttu-id="d0207-165">会議が開催された日時です。</span><span class="sxs-lookup"><span data-stu-id="d0207-165">Date and time that the conference took place.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="07859-166"><strong>セッションの合計数</strong></span><span class="sxs-lookup"><span data-stu-id="07859-166"><strong>Total sessions</strong></span></span></p></td>
-<td><p><span data-ttu-id="07859-167">いいえ</span><span class="sxs-lookup"><span data-stu-id="07859-167">No</span></span></p></td>
-<td><p><span data-ttu-id="07859-168">セッションの総数です。成功したセッション、失敗したセッション (予期されるエラーと予期しないエラーの両方)、およびどちらにも分類されないセッションを含みます。</span><span class="sxs-lookup"><span data-stu-id="07859-168">Total number of sessions, including successful sessions, failed sessions (both expected failures and unexpected failures), and uncategorized sessions.</span></span></p></td>
+<td><p><span data-ttu-id="d0207-166"><strong>セッションの合計数</strong></span><span class="sxs-lookup"><span data-stu-id="d0207-166"><strong>Total sessions</strong></span></span></p></td>
+<td><p><span data-ttu-id="d0207-167">いいえ</span><span class="sxs-lookup"><span data-stu-id="d0207-167">No</span></span></p></td>
+<td><p><span data-ttu-id="d0207-168">セッションの総数です。成功したセッション、失敗したセッション (予期されるエラーと予期しないエラーの両方)、およびどちらにも分類されないセッションを含みます。</span><span class="sxs-lookup"><span data-stu-id="d0207-168">Total number of sessions, including successful sessions, failed sessions (both expected failures and unexpected failures), and uncategorized sessions.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="07859-169"><strong>平均 (ミリ秒)</strong></span><span class="sxs-lookup"><span data-stu-id="07859-169"><strong>Average (ms)</strong></span></span></p></td>
-<td><p><span data-ttu-id="07859-170">いいえ</span><span class="sxs-lookup"><span data-stu-id="07859-170">No</span></span></p></td>
-<td><p><span data-ttu-id="07859-171">参加者が会議に参加するのに要した平均時間 (ミリ秒) です。</span><span class="sxs-lookup"><span data-stu-id="07859-171">Average amount of time (in milliseconds) that it took participants to join the conference.</span></span></p></td>
+<td><p><span data-ttu-id="d0207-169"><strong>平均 (ミリ秒)</strong></span><span class="sxs-lookup"><span data-stu-id="d0207-169"><strong>Average (ms)</strong></span></span></p></td>
+<td><p><span data-ttu-id="d0207-170">いいえ</span><span class="sxs-lookup"><span data-stu-id="d0207-170">No</span></span></p></td>
+<td><p><span data-ttu-id="d0207-171">参加者が会議に参加するのに要した平均時間 (ミリ秒) です。</span><span class="sxs-lookup"><span data-stu-id="d0207-171">Average amount of time (in milliseconds) that it took participants to join the conference.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="07859-172"><strong>セッション&lt; 2 秒、ボリューム</strong></span><span class="sxs-lookup"><span data-stu-id="07859-172"><strong>Sessions &lt; 2 seconds, Volume</strong></span></span></p></td>
-<td><p><span data-ttu-id="07859-173">いいえ</span><span class="sxs-lookup"><span data-stu-id="07859-173">No</span></span></p></td>
-<td><p><span data-ttu-id="07859-174">2 秒未満で会議に参加できた参加者の数です。</span><span class="sxs-lookup"><span data-stu-id="07859-174">Number of participants who were able to join the conference in less than 2 seconds.</span></span></p></td>
+<td><p><span data-ttu-id="d0207-172"><strong>セッション&lt; 2 秒、ボリューム</strong></span><span class="sxs-lookup"><span data-stu-id="d0207-172"><strong>Sessions &lt; 2 seconds, Volume</strong></span></span></p></td>
+<td><p><span data-ttu-id="d0207-173">いいえ</span><span class="sxs-lookup"><span data-stu-id="d0207-173">No</span></span></p></td>
+<td><p><span data-ttu-id="d0207-174">2 秒未満で会議に参加できた参加者の数です。</span><span class="sxs-lookup"><span data-stu-id="d0207-174">Number of participants who were able to join the conference in less than 2 seconds.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="07859-175"><strong>セッション&lt; 2 秒、パーセンテージ</strong></span><span class="sxs-lookup"><span data-stu-id="07859-175"><strong>Sessions &lt; 2 seconds, Percentage</strong></span></span></p></td>
-<td><p><span data-ttu-id="07859-176">いいえ</span><span class="sxs-lookup"><span data-stu-id="07859-176">No</span></span></p></td>
+<td><p><span data-ttu-id="d0207-175"><strong>セッション&lt; 2 秒、パーセンテージ</strong></span><span class="sxs-lookup"><span data-stu-id="d0207-175"><strong>Sessions &lt; 2 seconds, Percentage</strong></span></span></p></td>
+<td><p><span data-ttu-id="d0207-176">いいえ</span><span class="sxs-lookup"><span data-stu-id="d0207-176">No</span></span></p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="07859-177"><strong>セッション 2 ～ 5 秒、数</strong></span><span class="sxs-lookup"><span data-stu-id="07859-177"><strong>Sessions 2-5 seconds, Volume</strong></span></span></p></td>
-<td><p><span data-ttu-id="07859-178">いいえ</span><span class="sxs-lookup"><span data-stu-id="07859-178">No</span></span></p></td>
-<td><p><span data-ttu-id="07859-179">2 ～ 5 秒で会議に参加できた参加者の数です。</span><span class="sxs-lookup"><span data-stu-id="07859-179">Number of participants who took between 2 seconds and 5 seconds to join the conference.</span></span></p></td>
+<td><p><span data-ttu-id="d0207-177"><strong>セッション 2 ～ 5 秒、数</strong></span><span class="sxs-lookup"><span data-stu-id="d0207-177"><strong>Sessions 2-5 seconds, Volume</strong></span></span></p></td>
+<td><p><span data-ttu-id="d0207-178">いいえ</span><span class="sxs-lookup"><span data-stu-id="d0207-178">No</span></span></p></td>
+<td><p><span data-ttu-id="d0207-179">2 ～ 5 秒で会議に参加できた参加者の数です。</span><span class="sxs-lookup"><span data-stu-id="d0207-179">Number of participants who took between 2 seconds and 5 seconds to join the conference.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="07859-180"><strong>セッション 2 ～ 5 秒、割合</strong></span><span class="sxs-lookup"><span data-stu-id="07859-180"><strong>Sessions 2-5 seconds, Percentage</strong></span></span></p></td>
-<td><p><span data-ttu-id="07859-181">いいえ</span><span class="sxs-lookup"><span data-stu-id="07859-181">No</span></span></p></td>
-<td><p><span data-ttu-id="07859-182">2 ～ 5 秒で会議に参加できた参加者の合計の割合です。</span><span class="sxs-lookup"><span data-stu-id="07859-182">Percentage of the total call participants who took between 2 seconds and 5 seconds to join the conference.</span></span></p></td>
+<td><p><span data-ttu-id="d0207-180"><strong>セッション 2 ～ 5 秒、割合</strong></span><span class="sxs-lookup"><span data-stu-id="d0207-180"><strong>Sessions 2-5 seconds, Percentage</strong></span></span></p></td>
+<td><p><span data-ttu-id="d0207-181">いいえ</span><span class="sxs-lookup"><span data-stu-id="d0207-181">No</span></span></p></td>
+<td><p><span data-ttu-id="d0207-182">2 ～ 5 秒で会議に参加できた参加者の合計の割合です。</span><span class="sxs-lookup"><span data-stu-id="d0207-182">Percentage of the total call participants who took between 2 seconds and 5 seconds to join the conference.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="07859-183"><strong>セッション 5 ～ 10 秒、数</strong></span><span class="sxs-lookup"><span data-stu-id="07859-183"><strong>Sessions 5-10 seconds, Volume</strong></span></span></p></td>
-<td><p><span data-ttu-id="07859-184">いいえ</span><span class="sxs-lookup"><span data-stu-id="07859-184">No</span></span></p></td>
-<td><p><span data-ttu-id="07859-185">5 ～ 10 秒で会議に参加できた参加者の数です。</span><span class="sxs-lookup"><span data-stu-id="07859-185">Number of participants who took between 5 seconds and 10 seconds to join the conference.</span></span></p></td>
+<td><p><span data-ttu-id="d0207-183"><strong>セッション 5 ～ 10 秒、数</strong></span><span class="sxs-lookup"><span data-stu-id="d0207-183"><strong>Sessions 5-10 seconds, Volume</strong></span></span></p></td>
+<td><p><span data-ttu-id="d0207-184">いいえ</span><span class="sxs-lookup"><span data-stu-id="d0207-184">No</span></span></p></td>
+<td><p><span data-ttu-id="d0207-185">5 ～ 10 秒で会議に参加できた参加者の数です。</span><span class="sxs-lookup"><span data-stu-id="d0207-185">Number of participants who took between 5 seconds and 10 seconds to join the conference.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="07859-186"><strong>セッション 5 ～ 10 秒、割合</strong></span><span class="sxs-lookup"><span data-stu-id="07859-186"><strong>Sessions 5-10 seconds, Percentage</strong></span></span></p></td>
-<td><p><span data-ttu-id="07859-187">不可</span><span class="sxs-lookup"><span data-stu-id="07859-187">No</span></span></p></td>
-<td><p><span data-ttu-id="07859-188">5 ～ 10 秒で会議に参加できた参加者の合計の割合です。</span><span class="sxs-lookup"><span data-stu-id="07859-188">Percentage of the total call participants who took between 5 seconds and 10 seconds to join the conference.</span></span></p></td>
+<td><p><span data-ttu-id="d0207-186"><strong>セッション 5 ～ 10 秒、割合</strong></span><span class="sxs-lookup"><span data-stu-id="d0207-186"><strong>Sessions 5-10 seconds, Percentage</strong></span></span></p></td>
+<td><p><span data-ttu-id="d0207-187">いいえ</span><span class="sxs-lookup"><span data-stu-id="d0207-187">No</span></span></p></td>
+<td><p><span data-ttu-id="d0207-188">5 ～ 10 秒で会議に参加できた参加者の合計の割合です。</span><span class="sxs-lookup"><span data-stu-id="d0207-188">Percentage of the total call participants who took between 5 seconds and 10 seconds to join the conference.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="07859-189"><strong>セッション&gt; 10 秒、ボリューム</strong></span><span class="sxs-lookup"><span data-stu-id="07859-189"><strong>Sessions &gt; 10 seconds, Volume</strong></span></span></p></td>
-<td><p><span data-ttu-id="07859-190">いいえ</span><span class="sxs-lookup"><span data-stu-id="07859-190">No</span></span></p></td>
-<td><p><span data-ttu-id="07859-191">会議に参加するのに 10 秒以上かかった参加者の数です。</span><span class="sxs-lookup"><span data-stu-id="07859-191">Number of participants who required more than 10 seconds to join the conference.</span></span></p></td>
+<td><p><span data-ttu-id="d0207-189"><strong>セッション&gt; 10 秒、ボリューム</strong></span><span class="sxs-lookup"><span data-stu-id="d0207-189"><strong>Sessions &gt; 10 seconds, Volume</strong></span></span></p></td>
+<td><p><span data-ttu-id="d0207-190">いいえ</span><span class="sxs-lookup"><span data-stu-id="d0207-190">No</span></span></p></td>
+<td><p><span data-ttu-id="d0207-191">会議に参加するのに 10 秒以上かかった参加者の数です。</span><span class="sxs-lookup"><span data-stu-id="d0207-191">Number of participants who required more than 10 seconds to join the conference.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="07859-192"><strong>セッション&gt; 10 秒、パーセンテージ</strong></span><span class="sxs-lookup"><span data-stu-id="07859-192"><strong>Sessions &gt; 10 seconds, Percentage</strong></span></span></p></td>
-<td><p><span data-ttu-id="07859-193">不可</span><span class="sxs-lookup"><span data-stu-id="07859-193">No</span></span></p></td>
-<td><p><span data-ttu-id="07859-194">会議に参加するのに 10 秒以上かかった参加者の合計の割合です。</span><span class="sxs-lookup"><span data-stu-id="07859-194">Percentage of the total call participants who required more than 10 seconds to join the conference.</span></span></p></td>
+<td><p><span data-ttu-id="d0207-192"><strong>セッション&gt; 10 秒、割合</strong></span><span class="sxs-lookup"><span data-stu-id="d0207-192"><strong>Sessions &gt; 10 seconds, Percentage</strong></span></span></p></td>
+<td><p><span data-ttu-id="d0207-193">いいえ</span><span class="sxs-lookup"><span data-stu-id="d0207-193">No</span></span></p></td>
+<td><p><span data-ttu-id="d0207-194">会議に参加するのに 10 秒以上かかった参加者の合計の割合です。</span><span class="sxs-lookup"><span data-stu-id="d0207-194">Percentage of the total call participants who required more than 10 seconds to join the conference.</span></span></p></td>
 </tr>
 </tbody>
 </table>

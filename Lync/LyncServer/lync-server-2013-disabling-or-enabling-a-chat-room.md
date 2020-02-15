@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: チャット ルームの無効化または有効化'
+title: 'Lync Server 2013: チャットルームの無効化または有効化'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48706011
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a3ed23319631dd8ab51131fe9a8d7a9099e35d18
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 55d9c706c0ea5afcff4f249a9c00a2355667f221
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757601"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007836"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="disabling-or-enabling-a-chat-room-in-lync-server-2013"></a><span data-ttu-id="e3f20-102">Lync Server 2013 でのチャット ルームの無効化または有効化</span><span class="sxs-lookup"><span data-stu-id="e3f20-102">Disabling or enabling a chat room in Lync Server 2013</span></span>
+# <a name="disabling-or-enabling-a-chat-room-in-lync-server-2013"></a><span data-ttu-id="27049-102">Lync Server 2013 でのチャットルームの無効化または有効化</span><span class="sxs-lookup"><span data-stu-id="27049-102">Disabling or enabling a chat room in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41757601"
 
 <span> </span>
 
-<span data-ttu-id="e3f20-103">_**最終更新日:** 2014-02-05_</span><span class="sxs-lookup"><span data-stu-id="e3f20-103">_**Topic Last Modified:** 2014-02-05_</span></span>
+<span data-ttu-id="27049-103">_**トピックの最終更新日:** 2014-02-05_</span><span class="sxs-lookup"><span data-stu-id="27049-103">_**Topic Last Modified:** 2014-02-05_</span></span>
 
-<span data-ttu-id="e3f20-104">常設チャットルームのトピックが不要になった場合は、そのチャットルームを無効にしてユーザーが利用できないようにすることができます。</span><span class="sxs-lookup"><span data-stu-id="e3f20-104">If the topic of a Persistent Chat room is no longer relevant, you can make the chat room unavailable to users by disabling it.</span></span> <span data-ttu-id="e3f20-105">チャット ルームを無効にすると、すべてのメンバーがチャット ルームから即座に切断されます。</span><span class="sxs-lookup"><span data-stu-id="e3f20-105">When a chat room is disabled, all members are immediately disconnected from the room.</span></span> <span data-ttu-id="e3f20-106">チャット ルームを無効にした後、ユーザーは、そのチャット ルームに再び参加することも、チャット ルームを検索することもできません。</span><span class="sxs-lookup"><span data-stu-id="e3f20-106">After a chat room is disabled, users cannot rejoin it or find it in chat room searches.</span></span>
+<span data-ttu-id="27049-104">常設チャットルームのトピックが関連していない場合は、無効にすることでチャットルームをユーザーが使用できないようにすることができます。</span><span class="sxs-lookup"><span data-stu-id="27049-104">If the topic of a Persistent Chat room is no longer relevant, you can make the chat room unavailable to users by disabling it.</span></span> <span data-ttu-id="27049-105">チャットルームが無効になると、すべてのメンバーが会議室からすぐに切断されます。</span><span class="sxs-lookup"><span data-stu-id="27049-105">When a chat room is disabled, all members are immediately disconnected from the room.</span></span> <span data-ttu-id="27049-106">チャットルームが無効になると、ユーザーはチャットルームの検索で再参加または検索を行うことができなくなります。</span><span class="sxs-lookup"><span data-stu-id="27049-106">After a chat room is disabled, users cannot rejoin it or find it in chat room searches.</span></span>
 
-<span data-ttu-id="e3f20-107">無効になったチャットルームは、常設チャット管理者が後で有効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="e3f20-107">A disabled chat room can be enabled later by a Persistent Chat administrator.</span></span> <span data-ttu-id="e3f20-108">チャットルームを無効にすると、そのメンバーのメンバーシップリストとその他の設定が保持されます。</span><span class="sxs-lookup"><span data-stu-id="e3f20-108">If a chat room is disabled, its membership list and other settings are preserved.</span></span> <span data-ttu-id="e3f20-109">もう一度会議室を有効にした場合は、手動で設定を再作成する必要はありません。</span><span class="sxs-lookup"><span data-stu-id="e3f20-109">If you enable the room again, you do not need to manually re-create the settings.</span></span>
+<span data-ttu-id="27049-107">常設チャットの管理者は、無効にされたチャットルームを後で有効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="27049-107">A disabled chat room can be enabled later by a Persistent Chat administrator.</span></span> <span data-ttu-id="27049-108">チャット ルームを無効にすると、メンバーシップ リストとその他の設定が保持されます。</span><span class="sxs-lookup"><span data-stu-id="27049-108">If a chat room is disabled, its membership list and other settings are preserved.</span></span> <span data-ttu-id="27049-109">会議室を再度有効にする場合は、手動で設定を再作成する必要はありません。</span><span class="sxs-lookup"><span data-stu-id="27049-109">If you enable the room again, you do not need to manually re-create the settings.</span></span>
 
-<span data-ttu-id="e3f20-110">チャットルームの履歴が残っている場合 (チャットルームの履歴の保存は、カテゴリ内のすべての会議室に適用されるカテゴリのオプションの設定です。既定では、固定されていますが、カテゴリの [**チャット履歴**を無効にする] に設定することでオフにすることができます)。</span><span class="sxs-lookup"><span data-stu-id="e3f20-110">If the chat room’s history persists (chat room history persistence is an optional setting on a category that applies to all rooms within the category; the default is that it is persisted, but can be turned off by setting the category’s **Enable Chat History** to false), the content is preserved when the chat room is disabled.</span></span> <span data-ttu-id="e3f20-111">ただし、チャット ルームが無効になっている間、コンテンツは検索に表示されません。</span><span class="sxs-lookup"><span data-stu-id="e3f20-111">However, that content will not appear in searches during the time that the chat room remains in a disabled state.</span></span> <span data-ttu-id="e3f20-112">チャット ルームを後で有効にすると、ユーザーは、チャット ルームが無効になる前に投稿されたメッセージを検索できます。</span><span class="sxs-lookup"><span data-stu-id="e3f20-112">If you later enable the chat room, users can search for messages that were posted before the chat room was disabled.</span></span>
+<span data-ttu-id="27049-110">チャットルームの履歴が残っている場合 (チャットルームの履歴の永続は、カテゴリ内のすべての会議に適用されるカテゴリのオプションの設定です。既定では、固定されていますが、カテゴリの [**チャットの有効**] を false に設定することによって無効にすることができます)、チャットルームが無効にされて</span><span class="sxs-lookup"><span data-stu-id="27049-110">If the chat room’s history persists (chat room history persistence is an optional setting on a category that applies to all rooms within the category; the default is that it is persisted, but can be turned off by setting the category’s **Enable Chat History** to false), the content is preserved when the chat room is disabled.</span></span> <span data-ttu-id="27049-111">ただし、チャットルームが無効の状態のままになるときには、そのコンテンツは検索に表示されません。</span><span class="sxs-lookup"><span data-stu-id="27049-111">However, that content will not appear in searches during the time that the chat room remains in a disabled state.</span></span> <span data-ttu-id="27049-112">後でチャットルームを有効にした場合、ユーザーはチャットルームが無効になる前に投稿されたメッセージを検索できます。</span><span class="sxs-lookup"><span data-stu-id="27049-112">If you later enable the chat room, users can search for messages that were posted before the chat room was disabled.</span></span>
 
-<span data-ttu-id="e3f20-113">Windows PowerShell コマンドラインインターフェイスを使用してチャットルームを無効にして有効にする方法について詳しくは、「 [Windows powershell コマンドレットを使用して常設チャットサーバーを構成](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md)する」の「会議室の管理」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="e3f20-113">For details about disabling and enabling chat rooms by using the Windows PowerShell command-line interface, see "Room Management" in [Configuring Persistent Chat Server by using Windows PowerShell cmdlets](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md).</span></span> <span data-ttu-id="e3f20-114">チャットルームを無効にするには、次のようなコマンドを使用します。</span><span class="sxs-lookup"><span data-stu-id="e3f20-114">To disable a chat room, use a command similar to this:</span></span>
+<span data-ttu-id="27049-113">Windows PowerShell コマンドラインインターフェイスを使用してチャットルームを無効および有効にする方法の詳細については、「 [Windows powershell コマンドレットを使用して常設チャットサーバーを構成する](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md)」の「Room Management」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="27049-113">For details about disabling and enabling chat rooms by using the Windows PowerShell command-line interface, see "Room Management" in [Configuring Persistent Chat Server by using Windows PowerShell cmdlets](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md).</span></span> <span data-ttu-id="27049-114">チャットルームを無効にするには、次のようなコマンドを使用します。</span><span class="sxs-lookup"><span data-stu-id="27049-114">To disable a chat room, use a command similar to this:</span></span>
 
     Set-CsPersistentChatRoom -Identity "atl-cs-001.litwareinc.com\ITChatRoom" -Disabled $True
 
-<span data-ttu-id="e3f20-115">チャットルームを有効にするには、Disabled プロパティを False に設定します。</span><span class="sxs-lookup"><span data-stu-id="e3f20-115">To enabled a chat room, set the Disabled property to False:</span></span>
+<span data-ttu-id="27049-115">チャットルームを有効にするには、Disabled プロパティを False に設定します。</span><span class="sxs-lookup"><span data-stu-id="27049-115">To enabled a chat room, set the Disabled property to False:</span></span>
 
     Set-CsPersistentChatRoom -Identity "atl-cs-001.litwareinc.com\ITChatRoom" -Disabled $False
 
-<span data-ttu-id="e3f20-116">Lync Server コントロールパネルを使用して、チャットルームを有効または無効にすることはできません。</span><span class="sxs-lookup"><span data-stu-id="e3f20-116">Note that chat rooms cannot be enabled or disabled by using the Lync Server Control Panel.</span></span>
+<span data-ttu-id="27049-116">なお、チャットルームは、Lync Server コントロールパネルを使用して有効または無効にすることはできません。</span><span class="sxs-lookup"><span data-stu-id="27049-116">Note that chat rooms cannot be enabled or disabled by using the Lync Server Control Panel.</span></span>
 
-<span data-ttu-id="e3f20-117">チャットルームの設定の詳細については、展開ドキュメントの「 [Lync Server 2013 で会議室を構成](lync-server-2013-configure-rooms.md)する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="e3f20-117">For details about configuring chat rooms, see [Configure rooms in Lync Server 2013](lync-server-2013-configure-rooms.md) in the Deployment documentation.</span></span>
+<span data-ttu-id="27049-117">チャットルームの構成の詳細については、「展開」のドキュメントの「 [Configure 室 In Lync Server 2013](lync-server-2013-configure-rooms.md) 」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="27049-117">For details about configuring chat rooms, see [Configure rooms in Lync Server 2013](lync-server-2013-configure-rooms.md) in the Deployment documentation.</span></span>
 
 </div>
 

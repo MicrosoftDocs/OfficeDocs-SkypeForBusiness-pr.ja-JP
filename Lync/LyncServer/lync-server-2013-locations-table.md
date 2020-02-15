@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Locations テーブル'
+title: 'Lync Server 2013: 場所テーブル'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184579
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e2d16ffd08184a650f993d175239f5aff72b8b3b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: accab39d1f1f7cb1855ba651ea217aa3b0a4bd8d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762135"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033356"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="locations-table-in-lync-server-2013"></a><span data-ttu-id="8aa7d-102">Lync Server 2013 の Locations テーブル</span><span class="sxs-lookup"><span data-stu-id="8aa7d-102">Locations table in Lync Server 2013</span></span>
+# <a name="locations-table-in-lync-server-2013"></a><span data-ttu-id="36418-102">Lync Server 2013 の場所テーブル</span><span class="sxs-lookup"><span data-stu-id="36418-102">Locations table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762135"
 
 <span> </span>
 
-<span data-ttu-id="8aa7d-103">_**最終更新日:** 2012-05-25_</span><span class="sxs-lookup"><span data-stu-id="8aa7d-103">_**Topic Last Modified:** 2012-05-25_</span></span>
+<span data-ttu-id="36418-103">_**トピックの最終更新日:** 2012-05-25_</span><span class="sxs-lookup"><span data-stu-id="36418-103">_**Topic Last Modified:** 2012-05-25_</span></span>
 
-<span data-ttu-id="8aa7d-104">各レコードは、E9 通話のような緊急通話での1つの場所参照を表します。</span><span class="sxs-lookup"><span data-stu-id="8aa7d-104">Each record represents one location reference in an emergency call, like an E9-1-1 call.</span></span>
+<span data-ttu-id="36418-104">それぞれのレコードは、E9-1-1 通話など、緊急通話における 1 つの場所の参照を表します。</span><span class="sxs-lookup"><span data-stu-id="36418-104">Each record represents one location reference in an emergency call, like an E9-1-1 call.</span></span>
 
 
 <table>
@@ -49,30 +49,30 @@ ms.locfileid: "41762135"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="8aa7d-105">列</span><span class="sxs-lookup"><span data-stu-id="8aa7d-105">Column</span></span></th>
-<th><span data-ttu-id="8aa7d-106">データ型</span><span class="sxs-lookup"><span data-stu-id="8aa7d-106">Data Type</span></span></th>
-<th><span data-ttu-id="8aa7d-107">キー/インデックス</span><span class="sxs-lookup"><span data-stu-id="8aa7d-107">Key/Index</span></span></th>
-<th><span data-ttu-id="8aa7d-108">詳細</span><span class="sxs-lookup"><span data-stu-id="8aa7d-108">Details</span></span></th>
+<th><span data-ttu-id="36418-105">列</span><span class="sxs-lookup"><span data-stu-id="36418-105">Column</span></span></th>
+<th><span data-ttu-id="36418-106">データ型</span><span class="sxs-lookup"><span data-stu-id="36418-106">Data Type</span></span></th>
+<th><span data-ttu-id="36418-107">キー/インデックス</span><span class="sxs-lookup"><span data-stu-id="36418-107">Key/Index</span></span></th>
+<th><span data-ttu-id="36418-108">詳細</span><span class="sxs-lookup"><span data-stu-id="36418-108">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="8aa7d-109"><strong>セッション Id</strong></span><span class="sxs-lookup"><span data-stu-id="8aa7d-109"><strong>SessionIdTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="8aa7d-110">datetime</span><span class="sxs-lookup"><span data-stu-id="8aa7d-110">datetime</span></span></p></td>
-<td><p><span data-ttu-id="8aa7d-111">プライマリ、外部</span><span class="sxs-lookup"><span data-stu-id="8aa7d-111">Primary, Foreign</span></span></p></td>
-<td><p><span data-ttu-id="8aa7d-112">セッション要求の時刻。</span><span class="sxs-lookup"><span data-stu-id="8aa7d-112">Time of session request.</span></span> <span data-ttu-id="8aa7d-113">セッションを一意に識別するために<strong>Sessionidseq</strong>と組み合わせて使用されます。</span><span class="sxs-lookup"><span data-stu-id="8aa7d-113">Used in conjunction with <strong>SessionIdSeq</strong> to uniquely identify a session.</span></span> <span data-ttu-id="8aa7d-114">詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a>」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="8aa7d-114">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="36418-109"><strong>SessionIdTime</strong></span><span class="sxs-lookup"><span data-stu-id="36418-109"><strong>SessionIdTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="36418-110">日付型</span><span class="sxs-lookup"><span data-stu-id="36418-110">datetime</span></span></p></td>
+<td><p><span data-ttu-id="36418-111">主/プライマリ、外部</span><span class="sxs-lookup"><span data-stu-id="36418-111">Primary, Foreign</span></span></p></td>
+<td><p><span data-ttu-id="36418-112">セッション要求の時刻。</span><span class="sxs-lookup"><span data-stu-id="36418-112">Time of session request.</span></span> <span data-ttu-id="36418-113">セッションを一意に識別するために <strong>SessionIdSeq</strong> と併用されます。</span><span class="sxs-lookup"><span data-stu-id="36418-113">Used in conjunction with <strong>SessionIdSeq</strong> to uniquely identify a session.</span></span> <span data-ttu-id="36418-114">詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a>」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="36418-114">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="8aa7d-115"><strong>SessionIdSeq</strong></span><span class="sxs-lookup"><span data-stu-id="8aa7d-115"><strong>SessionIdSeq</strong></span></span></p></td>
-<td><p><span data-ttu-id="8aa7d-116">int</span><span class="sxs-lookup"><span data-stu-id="8aa7d-116">int</span></span></p></td>
-<td><p><span data-ttu-id="8aa7d-117">プライマリ、外部</span><span class="sxs-lookup"><span data-stu-id="8aa7d-117">Primary, Foreign</span></span></p></td>
-<td><p><span data-ttu-id="8aa7d-118">セッションを識別する ID 番号。</span><span class="sxs-lookup"><span data-stu-id="8aa7d-118">ID number to identify the session.</span></span> <span data-ttu-id="8aa7d-119">セッションを一意に識別するために<strong>Sessionidtime</strong>と組み合わせて使用されます。</span><span class="sxs-lookup"><span data-stu-id="8aa7d-119">Used in conjunction with <strong>SessionIdTime</strong> to uniquely identify a session.</span></span> <span data-ttu-id="8aa7d-120">詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a>」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="8aa7d-120">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="36418-115"><strong>Sessionidseq と</strong></span><span class="sxs-lookup"><span data-stu-id="36418-115"><strong>SessionIdSeq</strong></span></span></p></td>
+<td><p><span data-ttu-id="36418-116">int</span><span class="sxs-lookup"><span data-stu-id="36418-116">int</span></span></p></td>
+<td><p><span data-ttu-id="36418-117">主/プライマリ、外部</span><span class="sxs-lookup"><span data-stu-id="36418-117">Primary, Foreign</span></span></p></td>
+<td><p><span data-ttu-id="36418-118">セッションを識別するための ID 番号。</span><span class="sxs-lookup"><span data-stu-id="36418-118">ID number to identify the session.</span></span> <span data-ttu-id="36418-119">セッションを一意に識別するために <strong>SessionIdTime</strong> と併用されます。</span><span class="sxs-lookup"><span data-stu-id="36418-119">Used in conjunction with <strong>SessionIdTime</strong> to uniquely identify a session.</span></span> <span data-ttu-id="36418-120">詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a>」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="36418-120">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="8aa7d-121"><strong>場所</strong></span><span class="sxs-lookup"><span data-stu-id="8aa7d-121"><strong>Location</strong></span></span></p></td>
-<td><p><span data-ttu-id="8aa7d-122">nvarchar (max)</span><span class="sxs-lookup"><span data-stu-id="8aa7d-122">nvarchar(max)</span></span></p></td>
+<td><p><span data-ttu-id="36418-121"><strong>場所</strong></span><span class="sxs-lookup"><span data-stu-id="36418-121"><strong>Location</strong></span></span></p></td>
+<td><p><span data-ttu-id="36418-122">nvarchar (max)</span><span class="sxs-lookup"><span data-stu-id="36418-122">nvarchar(max)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="8aa7d-123">緊急通話の場所。</span><span class="sxs-lookup"><span data-stu-id="8aa7d-123">Location of emergency call.</span></span></p></td>
+<td><p><span data-ttu-id="36418-123">緊急通話の場所。</span><span class="sxs-lookup"><span data-stu-id="36418-123">Location of emergency call.</span></span></p></td>
 </tr>
 </tbody>
 </table>

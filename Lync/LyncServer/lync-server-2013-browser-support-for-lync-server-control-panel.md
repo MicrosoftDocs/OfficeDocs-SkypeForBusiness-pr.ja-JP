@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Lync Server コントロール パネルのブラウザー サポート'
+title: 'Lync Server 2013: Lync Server コントロールパネルのブラウザーサポート'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184459
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 43e224e878b645daa355cfa5617ff42c69b61b94
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6fbdd00adb7a71c85d35f7f3834db0bd831ec9a8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741807"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007997"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="browser-support-for-lync-server-2013-control-panel"></a><span data-ttu-id="86bea-102">Lync Server 2013 コントロール パネルのブラウザー サポート</span><span class="sxs-lookup"><span data-stu-id="86bea-102">Browser support for Lync Server 2013 Control Panel</span></span>
+# <a name="browser-support-for-lync-server-2013-control-panel"></a><span data-ttu-id="ae4ec-102">Lync Server 2013 コントロールパネルのブラウザーサポート</span><span class="sxs-lookup"><span data-stu-id="ae4ec-102">Browser support for Lync Server 2013 Control Panel</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41741807"
 
 <span> </span>
 
-<span data-ttu-id="86bea-103">_**最終更新日:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="86bea-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="ae4ec-103">_**トピックの最終更新日:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="ae4ec-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="86bea-104">Lync Server 2013 では、次のブラウザーを使用するときに、トポロジビルダーと Lync Server 2013 コントロールパネルの使用がサポートされています。</span><span class="sxs-lookup"><span data-stu-id="86bea-104">Lync Server 2013 supports the use of Topology Builder and Lync Server 2013 Control Panel is supported when using the following browsers:</span></span>
+<span data-ttu-id="ae4ec-104">Lync Server 2013 でサポートされているのは、次のブラウザーを使用する場合に、トポロジビルダーおよび Lync Server 2013 コントロールパネルの使用をサポートします。</span><span class="sxs-lookup"><span data-stu-id="ae4ec-104">Lync Server 2013 supports the use of Topology Builder and Lync Server 2013 Control Panel is supported when using the following browsers:</span></span>
 
-  - <span data-ttu-id="86bea-105">Internet Explorer 10、32ビット</span><span class="sxs-lookup"><span data-stu-id="86bea-105">Internet Explorer 10, 32-bit</span></span>
+  - <span data-ttu-id="ae4ec-105">Internet Explorer 10 (64 ビット版)</span><span class="sxs-lookup"><span data-stu-id="ae4ec-105">Internet Explorer 10, 32-bit</span></span>
 
-  - <span data-ttu-id="86bea-106">Internet Explorer 9、32ビット</span><span class="sxs-lookup"><span data-stu-id="86bea-106">Internet Explorer 9, 32-bit</span></span>
+  - <span data-ttu-id="ae4ec-106">Internet Explorer 9 (32 ビット版)</span><span class="sxs-lookup"><span data-stu-id="ae4ec-106">Internet Explorer 9, 32-bit</span></span>
 
-  - <span data-ttu-id="86bea-107">Internet Explorer 8、32ビット</span><span class="sxs-lookup"><span data-stu-id="86bea-107">Internet Explorer 8, 32 bit</span></span>
+  - <span data-ttu-id="ae4ec-107">Internet Explorer 8 (32 ビット版)</span><span class="sxs-lookup"><span data-stu-id="ae4ec-107">Internet Explorer 8, 32 bit</span></span>
 
 </div>
 
