@@ -12,16 +12,16 @@ ms:contentKeyID: 48184901
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 834ee6650e6bedfe76b1e46943f05e0aa713095d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4cf06b283221202943399f71ecf7b19224d29a3e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764057"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42024688"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764057"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-12_
+_**トピックの最終更新日:** 2012-09-12_
 
-tblSystemRevision には、複数の管理者クライアント間で一貫性を確保するために、tblAdminLock テーブルと共に使用されるリビジョン番号が含まれています。
+tblSystemRevision には、複数の管理者クライアント間で一貫性を保つために tblAdminLock テーブルで使用されるリビジョン番号が含まれています。
 
-### <a name="columns"></a>行
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -50,15 +50,15 @@ tblSystemRevision には、複数の管理者クライアント間で一貫性�
 <thead>
 <tr class="header">
 <th>列</th>
-<th>型</th>
+<th>種類</th>
 <th>説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>sysRevision</p></td>
-<td><p>bigint (null ではない)</p></td>
-<td><p>リビジョン番号。</p></td>
+<td><p>NULL でない bigint</p></td>
+<td><p>改訂番号</p></td>
 </tr>
 </tbody>
 </table>

@@ -12,16 +12,16 @@ ms:contentKeyID: 48183523
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73ac5a7cf26c97b31daf5785a90fac102c50e480
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8d7078c36763fb5c582f62c5b4ff7ddedf9cd100
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764193"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42027338"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764193"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-12_
+_**トピックの最終更新日:** 2012-09-12_
 
-tblEnumAttribute は、ノードテーブルで使用される Visibility 属性と Behavior 属性を含む、ハードコーディングされた表です。
+tblEnumAttribute は、Node テーブルで使用される表示および動作属性を含むハードコードされたテーブルです。
 
-### <a name="columns"></a>行
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -50,19 +50,19 @@ tblEnumAttribute は、ノードテーブルで使用される Visibility 属性
 <thead>
 <tr class="header">
 <th>列</th>
-<th>型</th>
+<th>種類</th>
 <th>説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>attributeID</p></td>
-<td><p>smallint (null ではない)</p></td>
-<td><p>属性の ID です。</p></td>
+<td><p>NULL でない smallint</p></td>
+<td><p>属性の ID。</p></td>
 </tr>
 <tr class="even">
 <td><p>attributeName</p></td>
-<td><p>nvarchar (256)、null ではない</p></td>
+<td><p>NULL でない nvarchar (256)</p></td>
 <td><p>属性の名前。</p></td>
 </tr>
 </tbody>
@@ -91,7 +91,7 @@ tblEnumAttribute は、ノードテーブルで使用される Visibility 属性
 </table>
 
 
-### <a name="table-values"></a>テーブルの値
+### <a name="table-values"></a>テーブル値
 
 <table>
 <colgroup>
@@ -106,12 +106,12 @@ tblEnumAttribute は、ノードテーブルで使用される Visibility 属性
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1</p></td>
-<td><p>明確化.</p></td>
+<td><p>1 </p></td>
+<td><p>表示.</p></td>
 </tr>
 <tr class="even">
-<td><p>両面</p></td>
-<td><p>状況.</p></td>
+<td><p>2 </p></td>
+<td><p>Behavior.</p></td>
 </tr>
 </tbody>
 </table>

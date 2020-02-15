@@ -12,16 +12,16 @@ ms:contentKeyID: 48184383
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0437f56c5eb5564eb4f85809aefd181c2cbd2eaf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ba8e3e02efeddc1229d3616c0cdcaf4ca241bf24
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746557"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42024408"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41746557"
 
 <span> </span>
 
-_**最終更新日:** 2013-01-06_
+_**トピックの最終更新日:** 2013-01-06_
 
-常設チャットサーバーをホストする各コンピューターは、次のコンポーネントを使用して、既存の Lync Server 2013 トポロジにアクセスする必要があります。
+常設チャットサーバーをホストする各コンピューターは、以下のコンポーネントを使用して、既存の Lync Server 2013 トポロジにアクセスできる必要があります。
 
-  - **Lync Server 2013、フロントエンドサーバー。** フロントエンドサーバーは、セッション開始プロトコル (SIP) ルーティングの基盤です。これにより、常設チャットサーバーを実行しているコンピューターと常設チャット機能を実行しているコンピューター間の通信が可能になります。 常設チャットサーバーの展開を開始する前に、組織に合わせて、lync server 2013、Standard Edition、または lync server のフロントエンドプールと lync server が実行されているその他の内部コンピューターの展開を確認します。
+  - **Lync Server 2013、フロントエンドサーバー。** フロントエンドサーバーは、セッション開始プロトコル (SIP) ルーティングの基盤であり、常設チャットサーバーと常設チャット機能を実行しているコンピューター間の通信を可能にします。 常設チャットサーバーの展開を開始する前に、組織に合わせて lync server 2013、Standard Edition、lync Server フロントエンドプール、および Lync server を実行している他の内部コンピューターの展開を確認します。
 
-以下のセクションでは、常設チャットサーバーと永続的なチャットデータを格納するデータベースの固有の要件について説明します。
+次のセクションでは、常設チャットサーバーおよび常設チャットデータを格納するデータベースの特定の要件について説明します。
 
 <div>
 
 ## <a name="persistent-chat-server-requirements"></a>常設チャットサーバーの要件
 
-Lync Server および最新バージョンの常設チャットサーバーの展開に推奨されるハードウェアの詳細については、サポートドキュメントの「 [Lync server 2013 用のサーバーハードウェアプラットフォーム](lync-server-2013-server-hardware-platforms.md)」を参照してください。
+Lync Server および常設チャットサーバーの最新バージョンを展開するために推奨されるハードウェアの詳細については、「サポート」のドキュメントの「 [Lync server 2013 のサーバーハードウェアプラットフォーム](lync-server-2013-server-hardware-platforms.md)」を参照してください。
 
-Lync Server および常設チャットサーバー向けのサーバーとツールのオペレーティングシステムサポートの詳細については、サポートドキュメントの「 [Lync server 2013 でのサーバーとツールのオペレーティングシステムのサポート](lync-server-2013-server-and-tools-operating-system-support.md)」を参照してください。
+Lync Server および常設チャットサーバーのサーバーおよびツールのオペレーティングシステムのサポートの詳細については、「サポート」のドキュメントの「 [Lync server 2013 でのサーバーとツールのオペレーティングシステムのサポート](lync-server-2013-server-and-tools-operating-system-support.md)」を参照してください。
 
-常設チャットサーバーの展開に必要なその他のソフトウェアの詳細については、次の表を参照してください。
+常設チャットサーバーの展開に必要な追加ソフトウェアの詳細については、次の表を参照してください。
 
 ### <a name="persistent-chat-server-software-prerequisites"></a>常設チャットサーバーソフトウェアの前提条件
 
@@ -68,8 +68,8 @@ Lync Server および常設チャットサーバー向けのサーバーとツ�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>メッセージキュー</p></td>
-<td><p>常設チャットサーバーと常設チャットコンプライアンスサービス (展開されている場合)。</p></td>
+<td><p>メッセージ キュー</p></td>
+<td><p>常設チャットサーバーおよび常設チャットコンプライアンスサービス (展開されている場合) によって使用されます。</p></td>
 </tr>
 </tbody>
 </table>
@@ -79,37 +79,37 @@ Lync Server および常設チャットサーバー向けのサーバーとツ�
 
 <div>
 
-## <a name="persistent-chat-server-database-requirements"></a>常設チャットサーバーのデータベース要件
+## <a name="persistent-chat-server-database-requirements"></a>常設チャットサーバーのデータベースの要件
 
-常設チャットサーバーは、常設チャットデータベースを使って、チャット履歴、構成、ユーザープロビジョニングデータを保存します。 必要に応じて、常設チャットのコンプライアンスデータベースを使ってコンプライアンスデータを保存します。
+常設チャットサーバーは、常設チャットデータベースを使用して、チャットの履歴、構成、およびユーザープロビジョニングデータを保存します。 必要に応じて、常設チャットコンプライアンスデータベースを使用してコンプライアンスデータを保存します。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 常設チャットデータベース (行う) とコンプライアンスデータベース () は、SQL Server の同じインスタンスまたは別の SQL server に配置できます。
+> 常設チャットデータベース (mgc) とコンプライアンスデータベース (メンバーサーバー) は、SQL Server の同じインスタンスまたは別の SQL Server に配置できます。
 
 
 
 </div>
 
-データベース サーバー プラットフォームを準備するには、各コンピューターがハードウェア要件を満たしていることを確認した後、必要なソフトウェアをインストールします。
+データベースサーバープラットフォームを準備するには、各コンピューターがハードウェア要件を満たしていることを確認してから、前提条件となるソフトウェアをインストールします。
 
-常設チャットデータベースサーバーのサーバープラットフォームには、Lync Server バックエンドデータベースサーバーと同じハードウェアが必要です。 詳細については、サポートドキュメントの「 [Lync server 2013 用のサーバーハードウェアプラットフォーム](lync-server-2013-server-hardware-platforms.md)」を参照してください。
+常設チャットデータベースサーバーのサーバープラットフォームには、Lync Server バックエンドデータベースサーバーと同じハードウェアが必要です。 詳細については、「サポート」のドキュメントの「 [Lync server 2013 のサーバーハードウェアプラットフォーム](lync-server-2013-server-hardware-platforms.md)」を参照してください。
 
-次のどちらかのソフトウェア アプリケーションがデータベース サーバーにインストールされていることを確認してください。
+データベースサーバーで、次のいずれかのソフトウェアアプリケーションがインストールされていることを確認します。
 
-  - Microsoft SQL Server 2012 Microsoft SQL Server 2012 のインストール方法の詳細については、「SQL Server 2012 を[http://go.microsoft.com/fwlink/p/?LinkID=248559](http://go.microsoft.com/fwlink/p/?linkid=248559)インストールする」を参照してください。
+  - Microsoft SQL Server 2012。 Microsoft SQL Server 2012 をインストールする方法の詳細については、「SQL Server 2012 [http://go.microsoft.com/fwlink/p/?LinkID=248559](http://go.microsoft.com/fwlink/p/?linkid=248559)をインストールする」を参照してください。
 
-  - Microsoft SQL Server 2008 R2 Microsoft SQL Server 2008 R2 のインストール方法の詳細については、「SQL Server のインストール (SQL Server 2008 R2 [http://go.microsoft.com/fwlink/?LinkId=275702](http://go.microsoft.com/fwlink/?linkid=275702))」を参照してください。
+  - Microsoft SQL Server 2008 R2 Microsoft SQL Server 2008 R2 のインストール方法の詳細については、「」の「SQL Server のインストール (SQL [http://go.microsoft.com/fwlink/?LinkId=275702](http://go.microsoft.com/fwlink/?linkid=275702)Server 2008 R2)」を参照してください。
 
 </div>
 
 <div>
 
-## <a name="persistent-chat-server-certificate-requirements"></a>常設チャットサーバー証明書の要件
+## <a name="persistent-chat-server-certificate-requirements"></a>常設チャットサーバーの証明書の要件
 
-証明書の取得、SQL Server データベースの作成、ファイルストアの作成の詳細については、「展開ドキュメントに[Lync Server 2013 を展開](lync-server-2013-deploying-lync-server.md)する」を参照してください。
+証明書の取得、SQL Server データベースの作成、およびファイルストアの作成の詳細については、「展開」のドキュメントの「[展開 Lync Server 2013](lync-server-2013-deploying-lync-server.md) 」を参照してください。
 
 </div>
 

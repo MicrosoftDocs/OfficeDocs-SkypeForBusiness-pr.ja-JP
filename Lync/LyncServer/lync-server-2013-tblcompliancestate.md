@@ -12,16 +12,16 @@ ms:contentKeyID: 48185937
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 61824b09d1c36aec876ef81762205c81c7f1300d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2eadff371314088e99752ca2bab4c74bcae174c1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764203"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42027598"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764203"
 
 <span> </span>
 
-_**最終更新日:** 2012-06-28_
+_**トピックの最終更新日:** 2012-06-28_
 
-tblComplianceState には、プール全体のコンプライアンスの状態に関する情報が含まれています。
+tblComplianceState には、プール全体のコンプライアンス状態情報が含まれています。
 
-### <a name="columns"></a>行
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -50,25 +50,25 @@ tblComplianceState には、プール全体のコンプライアンスの状態�
 <thead>
 <tr class="header">
 <th>列</th>
-<th>型</th>
+<th>種類</th>
 <th>説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>lastProcessedEntryID</p></td>
-<td><p>bigint (null ではない)</p></td>
-<td><p>最新の処理済みのコンプライアンスイベントの ID です。</p></td>
+<td><p>Lastprocesseデの Tryid</p></td>
+<td><p>NULL でない bigint</p></td>
+<td><p>最後に処理されたコンプライアンスイベントの ID。</p></td>
 </tr>
 <tr class="even">
 <td><p>activeServerID</p></td>
-<td><p>int (null ではない)</p></td>
-<td><p>データベースの排他ロックを保持しているコンプライアンスサーバーの ID。または、なしの場合は-1。</p></td>
+<td><p>NULL でない int</p></td>
+<td><p>データベースの排他ロックを保持しているコンプライアンスサーバーの ID。存在しない場合は-1。</p></td>
 </tr>
 <tr class="odd">
 <td><p>lockExpirationTime</p></td>
-<td><p>datetime2、null ではない</p></td>
-<td><p>有効期限をロックします (activeServerID が-1 でない場合)。</p></td>
+<td><p>datetime2 (null 以外)</p></td>
+<td><p>ロックの有効期限の時刻 (activeServerID が-1 でない場合)。</p></td>
 </tr>
 </tbody>
 </table>

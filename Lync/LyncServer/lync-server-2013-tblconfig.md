@@ -12,16 +12,16 @@ ms:contentKeyID: 48184515
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8b0e383791eafbe017e5163156ba53cdad581cb0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 399d4e794b45f549aed86838463091db437b286f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731497"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42027458"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41731497"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-12_
+_**トピックの最終更新日:** 2012-09-12_
 
-tblConfig には、一部の常設チャットサーバーでサポートされない構成が1つの行に含まれています。
+tblConfig には、一部の常設チャットサーバーのサポートされない構成が1つの行に含まれています。
 
-### <a name="columns"></a>行
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -50,25 +50,25 @@ tblConfig には、一部の常設チャットサーバーでサポートされ�
 <thead>
 <tr class="header">
 <th>列</th>
-<th>型</th>
+<th>種類</th>
 <th>説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>configLabel</p></td>
-<td><p>nvarchar (255)、null ではない</p></td>
-<td><p>プール&quot;が含まれます。&quot;</p></td>
+<td><p>NULL でない nvarchar (255)</p></td>
+<td><p>プール&quot;を含みます。&quot;</p></td>
 </tr>
 <tr class="even">
 <td><p>configContent</p></td>
 <td><p>nvarchar (max)</p></td>
-<td><p>構成コンテンツ。</p></td>
+<td><p>構成の内容です。</p></td>
 </tr>
 <tr class="odd">
 <td><p>configPoolID</p></td>
-<td><p>GUID、null ではない</p></td>
-<td><p>データベースインスタンスの一意の ID。</p></td>
+<td><p>NULL でない GUID</p></td>
+<td><p>データベース インスタンスの一意の識別子。</p></td>
 </tr>
 </tbody>
 </table>

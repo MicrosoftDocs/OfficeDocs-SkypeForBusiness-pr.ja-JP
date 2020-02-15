@@ -12,16 +12,16 @@ ms:contentKeyID: 48184073
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b469b79e680c202654024d1ac20a55b9929e4b10
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 839086521c6e9054d1759943134b305c8205f59f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764183"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42025718"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764183"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-12_
+_**トピックの最終更新日:** 2012-09-12_
 
-tblFileToken には、ファイル転送のための一時トークンが含まれています。
+tblFileToken には、ファイル送信を目的とする一時的なトークンが格納されます。
 
-### <a name="columns"></a>行
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -50,61 +50,61 @@ tblFileToken には、ファイル転送のための一時トークンが含ま�
 <thead>
 <tr class="header">
 <th>列</th>
-<th>型</th>
+<th>種類</th>
 <th>説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>fileToken</p></td>
-<td><p>nvarchar (50)、null ではない</p></td>
+<td><p>NULL でない nvarchar (50)</p></td>
 <td><p>一意のトークン (GUID)。</p></td>
 </tr>
 <tr class="even">
 <td><p>fileTokenUserID</p></td>
-<td><p>int (null ではない)</p></td>
-<td><p>ファイルを転送するプリンシパルの ID です。</p></td>
+<td><p>NULL でない int</p></td>
+<td><p>ファイルを転送するプリンシパルの ID。</p></td>
 </tr>
 <tr class="odd">
 <td><p>fileTokenChannelID</p></td>
-<td><p>GUID、null ではない</p></td>
-<td><p>チャットルームノードの GUID です。</p></td>
+<td><p>NULL でない GUID</p></td>
+<td><p>チャット ルーム ノードの GUID。</p></td>
 </tr>
 <tr class="even">
 <td><p>fileTokenExpireDate</p></td>
-<td><p>datetime。 null ではありません</p></td>
-<td><p>有効期限。 (固定されていない限り、トークンは30分後に期限切れになります (このコラムの次の説明を参照してください)。</p></td>
+<td><p>NULL でない datetime</p></td>
+<td><p>有効期限。固定されていない場合、トークンの有効期限は 30 分 （この列の以下の説明を参照)。</p></td>
 </tr>
 <tr class="odd">
 <td><p>fileTokenComplianceFileUrl</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>転送されたファイルの URL (コンプライアンスサービスの使用の場合)。</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>転送ファイルの URL (Compliance Service で使用)。</p></td>
 </tr>
 <tr class="even">
 <td><p>fileTokenComplianceThumbnailUrl</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>転送されたファイル (コンプライアンスサービスの使用の場合) のサムネイルの URL。</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>転送ファイルのサムネイルの URL (Compliance Service で使用)。</p></td>
 </tr>
 <tr class="odd">
 <td><p>fileTokenComplianceTime</p></td>
 <td><p>datetime2</p></td>
-<td><p>実際のファイル転送操作のタイムスタンプ (コンプライアンスサービスの使用の場合)。</p></td>
+<td><p>実際のファイル転送操作のタイムスタンプ (Compliance Service で使用)。</p></td>
 </tr>
 <tr class="even">
 <td><p>fileTokenComplianceIsUpload</p></td>
-<td><p>bit</p></td>
-<td><p>アップロードの場合は True(コンプライアンスサービスの使用のために) False を返します。</p></td>
+<td><p>若干</p></td>
+<td><p>アップロードの場合は True、ダウンロードの場合 False (Compliance Service で使用)。</p></td>
 </tr>
 <tr class="odd">
 <td><p>fileTokenCompliancePinned</p></td>
-<td><p>ビット、null ではない</p></td>
-<td><p>トークンがピン留めされている場合は True です。 これは、コンプライアンスサービスが関連するフィールドを取得できるようになるまで、トークンをテーブルに保持するために使われます。</p></td>
+<td><p>NULL でない bit</p></td>
+<td><p>トークンが固定されている場合は True。Compliance Service が関連フィールドを取得できるようになるまで、テーブル内にトークンを維持するために使用されます。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>機能
+### <a name="keys"></a>Keys
 
 <table>
 <colgroup>
@@ -124,7 +124,7 @@ tblFileToken には、ファイル転送のための一時トークンが含ま�
 </tr>
 <tr class="even">
 <td><p>fileTokenChannelID</p></td>
-<td><p>TblNode Guid テーブルで参照されている外部キー。</p></td>
+<td><p>tblNode.nodeGuid テーブルを参照する外部キー。</p></td>
 </tr>
 </tbody>
 </table>

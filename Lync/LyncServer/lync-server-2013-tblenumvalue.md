@@ -12,16 +12,16 @@ ms:contentKeyID: 48185040
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2c09c5e911dcd63f50d8b15343075c5b3e05e631
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d182a3689ae38d4117b45d6590bb2ccd08c0a8b7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731477"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42027058"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41731477"
 
 <span> </span>
 
-_**最終更新日:** 2012-06-28_
+_**トピックの最終更新日:** 2012-06-28_
 
-tblEnumValue は、ノードテーブルで使用されている属性の可視性と動作の値を含む、ハードコーディングされた表です。
+tblEnumValue は、ノード テーブルで使われる属性の Visibility (表示設定) 値と Behavior (動作) 値を含む、ハードコードされたテーブルです。
 
-### <a name="columns"></a>行
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -50,31 +50,31 @@ tblEnumValue は、ノードテーブルで使用されている属性の可視�
 <thead>
 <tr class="header">
 <th>列</th>
-<th>型</th>
+<th>種類</th>
 <th>説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>valueID</p></td>
-<td><p>smallint (null ではない)</p></td>
-<td><p>値の ID です。</p></td>
+<td><p>NULL でない smallint</p></td>
+<td><p>値の ID。</p></td>
 </tr>
 <tr class="even">
 <td><p>attributeID</p></td>
-<td><p>smallint (null ではない)</p></td>
-<td><p>属性の ID です。</p></td>
+<td><p>NULL でない smallint</p></td>
+<td><p>属性の ID。</p></td>
 </tr>
 <tr class="odd">
 <td><p>attributeValue</p></td>
-<td><p>nvarchar (256)、null ではない</p></td>
+<td><p>NULL でない nvarchar (256)</p></td>
 <td><p>値の名前。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>機能
+### <a name="keys"></a>Keys
 
 <table>
 <colgroup>
@@ -94,13 +94,13 @@ tblEnumValue は、ノードテーブルで使用されている属性の可視�
 </tr>
 <tr class="even">
 <td><p>attributeID</p></td>
-<td><p>TblEnumAttribute テーブルで参照する外部キー</p></td>
+<td><p>tblEnumAttribute.attributeID テーブルを参照する外部キー。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="table-values"></a>テーブルの値
+### <a name="table-values"></a>テーブル値
 
 <table>
 <colgroup>
@@ -117,29 +117,29 @@ tblEnumValue は、ノードテーブルで使用されている属性の可視�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>両面</p></td>
-<td><p>1</p></td>
-<td><p>private</p></td>
+<td><p>2 </p></td>
+<td><p>1 </p></td>
+<td><p>機密性</p></td>
 </tr>
 <tr class="even">
-<td><p>3</p></td>
-<td><p>1</p></td>
-<td><p>種類</p></td>
+<td><p>3 </p></td>
+<td><p>1 </p></td>
+<td><p>scope</p></td>
 </tr>
 <tr class="odd">
-<td><p>4</p></td>
-<td><p>両面</p></td>
-<td><p>標準</p></td>
+<td><p>4 </p></td>
+<td><p>2 </p></td>
+<td><p>ノーマル</p></td>
 </tr>
 <tr class="even">
-<td><p>5</p></td>
-<td><p>両面</p></td>
-<td><p>大</p></td>
+<td><p>5 </p></td>
+<td><p>2 </p></td>
+<td><p>大会議室</p></td>
 </tr>
 <tr class="odd">
-<td><p>6</p></td>
-<td><p>1</p></td>
-<td><p>開こう</p></td>
+<td><p>6 </p></td>
+<td><p>1 </p></td>
+<td><p>開か</p></td>
 </tr>
 </tbody>
 </table>
