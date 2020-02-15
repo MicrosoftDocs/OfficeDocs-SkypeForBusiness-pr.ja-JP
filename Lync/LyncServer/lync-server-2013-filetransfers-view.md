@@ -12,16 +12,16 @@ ms:contentKeyID: 49733848
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fc4469140f7f92c563a594c883d02f3add1e65c5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 95cc6790766d68ee478cf1b80326c974f7c15f1f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743377"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028478"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41743377"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-01_
+_**トピックの最終更新日:** 2012-10-01_
 
-FileTransfer ビューには、ピアツーピアファイル転送セッションに関する情報が格納されます。 このビューは、Microsoft Lync Server 2013 で導入されました。
+FileTransfer view は、ピアツーピアのファイル転送セッションに関する情報を格納します。 このビューは Microsoft Lync Server 2013 で導入されました。
 
 <div>
 
 
 > [!NOTE]  
-> FileTransfers ビューには、 <A href="lync-server-2013-sessiondetails-view.md">Lync Server 2013 の Sessiondetails ビュー</A>のすべての列に加えて、以下の列も含まれています。
+> FileTransfers ビューには、以下の列に加えて、 <A href="lync-server-2013-sessiondetails-view.md">Lync Server 2013 の Sessiondetails ビュー</A>のすべての列が含まれています。
 
 
 
@@ -66,33 +66,33 @@ FileTransfer ビューには、ピアツーピアファイル転送セッショ�
 <tbody>
 <tr class="odd">
 <td><p><strong>FileName</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>転送されたファイルの名前。</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>送信されたファイルの名前です。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>クッキー</strong></p></td>
 <td><p>nvarchar(128</p></td>
-<td><p>すべてのフォローアップメッセージをこのメールに関連付けられているものとして識別するために使用されます。</p></td>
+<td><p>すべてのフォローアップ メッセージをこれに関連付けられたものとして識別するために使用します。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>FileIdentity</strong></p></td>
-<td><p>長さ</p></td>
-<td><p>同じファイル名を含むファイル転送を区別する一意の識別子。</p></td>
+<td><p>識別子</p></td>
+<td><p>同じファイル名が使用されているファイル送信を区別するための一意の識別子です。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>受諾</strong></p></td>
-<td><p>bit</p></td>
-<td><p>TRUE または NULL を指定できます。 TRUE の場合は、拒否とキャンセルは NULL になります。</p></td>
+<td><p><strong>Accept</strong></p></td>
+<td><p>若干</p></td>
+<td><p>TRUE または NULL。TRUE の場合は、Reject と Cancel が NULL になります。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>拒否</strong></p></td>
-<td><p>bit</p></td>
-<td><p>TRUE または NULL を指定できます。 TRUE の場合は、Accept と Cancel は NULL になります。</p></td>
+<td><p><strong>拒否する</strong></p></td>
+<td><p>若干</p></td>
+<td><p>TRUE または NULL。TRUE の場合は、Accept と Cancel が NULL になります。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>キャンセル</strong></p></td>
-<td><p>bit</p></td>
-<td><p>TRUE または NULL を指定できます。 TRUE の場合は、Accept と Reject は NULL になります。</p></td>
+<td><p><strong>Cancel</strong></p></td>
+<td><p>若干</p></td>
+<td><p>TRUE または NULL。TRUE の場合は、Accept と Reject が NULL になります。</p></td>
 </tr>
 </tbody>
 </table>

@@ -12,16 +12,16 @@ ms:contentKeyID: 48183469
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 659ae8b1184e22b8e681f6c8166d079655b12c4f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8a1fc4f23779c7f75dc7e11a9eed7050e6bd737c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764463"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41985102"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41764463"
 
 <span> </span>
 
-_**最終更新日:** 2012-06-29_
+_**トピックの最終更新日:** 2012-06-29_
 
-このセクションでは、環境でハードウェアをセットアップした後に必要なソフトウェアのセットアップについて詳しく説明します。
+このセクションでは、環境にハードウェアをセットアップした後に必要となるソフトウェアのセットアップの詳細について説明します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 のオペレーティング システムと必要なソフトウェアのサーバーへのインストール](lync-server-2013-install-operating-systems-and-prerequisite-software-on-servers.md)
+  - [Lync Server 2013 のサーバーにオペレーティングシステムと必要なソフトウェアをインストールする](lync-server-2013-install-operating-systems-and-prerequisite-software-on-servers.md)
 
-  - [Lync Server 2013 用のファイルストレージを構成する](lync-server-2013-configure-dfs-file-storage.md)
+  - [Lync Server 2013 のファイル記憶域を構成する](lync-server-2013-configure-dfs-file-storage.md)
 
-  - [Lync Server 2013 の事前の証明書の要求 (オプション)](lync-server-2013-request-certificates-in-advance-optional.md)
+  - [Lync Server 2013 の証明書を事前に要求する (オプション)](lync-server-2013-request-certificates-in-advance-optional.md)
 
-  - [Lync Server 2013 での IIS の構成](lync-server-2013-configure-iis.md)
+  - [Lync Server 2013 の IIS を構成する](lync-server-2013-configure-iis.md)
 
   - [Lync Server 2013 用の Windows PowerShell 3.0 のインストール](lync-server-2013-installing-windows-powershell-3-0.md)
 

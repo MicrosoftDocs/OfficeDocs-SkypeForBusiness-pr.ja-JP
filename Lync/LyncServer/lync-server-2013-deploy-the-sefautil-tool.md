@@ -12,20 +12,20 @@ ms:contentKeyID: 51541534
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dcd995a99514fa54a221e17f1ea556565cbebdcb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b3ff23a228710ecc934e2984f27c63351ccf6d32
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729617"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030951"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploy-the-sefautil-tool-in-lync-server-2013"></a>Deploy the SEFAUtil tool in Lync Server 2013
+# <a name="deploy-the-sefautil-tool-in-lync-server-2013"></a>SEFAUtil ツールを Lync Server 2013 に展開する
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41729617"
 
 <span> </span>
 
-_**最終更新日:** 2013-01-30_
+_**トピックの最終更新日:** 2013-01-30_
 
-グループ通話のピックアップを展開して管理するには、SEFAUtil リソースキットツールを使用する必要があります。 このツールは、Lync Server 2013 リソースキットツールに含まれています。 SEFAUtil をインストールする前に、信頼できるアプリケーションプールをトポロジに設定し、信頼できるアプリケーションとして SEFAUtil を指定して、トポロジを有効にする必要があります。
+グループ通話ピックアップを展開および管理するには、SEFAUtil リソースキットツールを使用する必要があります。 このツールは、Lync Server 2013 リソースキットツールに含まれています。 SEFAUtil をインストールする前に、信頼されたアプリケーションプールをトポロジに含める必要があり、信頼済みアプリケーションとして SEFAUtil を指定し、トポロジを有効にする必要があります。
 
 <div>
 
 
 > [!IMPORTANT]  
-> Microsoft Unified Communications Managed API (UCMA) 3.0 Core SDK を、SEFAUtil ツールを実行する予定のすべてのコンピューターにインストールする必要があります。
+> Microsoft 統合コミュニケーション管理 API (UCMA) 3.0 コア SDK は、SEFAUtil ツールの実行を計画している任意のコンピューターにインストールする必要があります。
 
 
 
 </div>
 
-SEFAUtil は、展開の任意のフロントエンドプールで実行できます。
+SEFAUtil は、展開内の任意のフロントエンドプールで実行できます。
 
 <div>
 
 
 > [!NOTE]  
-> SEFAUtil の実行の詳細については、Technet の記事「SEFAutil を実行する方法」を参照してください。 at <A href="http://go.microsoft.com/fwlink/?linkid=278940">http://go.microsoft.com/fwlink/?LinkId=278940</A>。
+> SEFAUtil の実行の詳細については、Technet の記事「How to get SEFAutil running?」を参照してください。 at <A href="http://go.microsoft.com/fwlink/?linkid=278940">http://go.microsoft.com/fwlink/?LinkId=278940</A>
 
 
 
@@ -65,15 +65,15 @@ SEFAUtil は、展開の任意のフロントエンドプールで実行でき�
 
 ## <a name="to-deploy-sefautil"></a>SEFAUtil を展開するには
 
-1.  Lync Server 管理シェルが RTCUniversalServerAdmins グループのメンバーとして、または「 [Lync server 2013 の委任セットアップの権限](lync-server-2013-delegate-setup-permissions.md)」で説明されているように、必要なユーザー権限を持つコンピューターにログオンします。
+1.  Lync Server 管理シェルがインストールされているコンピューターに、RTCUniversalServerAdmins グループのメンバーとして、または「 [Lync server 2013 のセットアップのアクセス許可の委任](lync-server-2013-delegate-setup-permissions.md)」に説明されている必要なユーザー権限を使用してログオンします。
 
-2.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+2.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
-3.  SEFAUtil ツールは、信頼済みアプリケーション プールに含まれるコンピューターでのみ実行できます。 必要に応じて、SEFAUtil を実行する予定のフロントエンドプールの信頼されたアプリケーションプールを定義します。 コマンド ラインで、次のコマンドを実行します。
+3.  SEFAUtil ツールは、信頼されたアプリケーションプールの一部であるコンピューターでのみ実行できます。 必要に応じて、SEFAUtil の実行を計画しているフロントエンドプールの信頼されたアプリケーションプールを定義します。 コマンド ラインで、次のコマンドを実行します。
     
         New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
 
-4.  SEFAUtil ツールを信頼済みアプリケーションとして定義します。コマンド ラインで、次のコマンドを実行します。
+4.  SEFAUtil ツールを信頼済みアプリケーションとして定義します。 コマンド ラインで、次のコマンドを実行します。
     
         New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN>  -Port 7489
     
@@ -81,31 +81,31 @@ SEFAUtil は、展開の任意のフロントエンドプールで実行でき�
     
 
     > [!NOTE]  
-    > 必要に応じて、別のポートを使用できます。
+    > 必要に応じて、別のポートを使用することができます。
 
     
     </div>
 
-5.  変更を加えたトポロジを有効にします。コマンド ラインで、次のコマンドを実行します。
+5.  変更したトポロジを有効にします。 コマンド ラインで、次のコマンドを実行します。
     
         Enable-CsTopology
 
-6.  手順3で作成した信頼済みアプリケーションプール内のフロントエンドサーバーに Lync Server 2013 リソースキットツールをインストールします。
+6.  手順3で作成した信頼されたアプリケーションプールにあるフロントエンドサーバーに、Lync Server 2013 リソースキットツールをインストールします。
 
-7.  次のように、SEFAUtil ツールが正常に実行していることを確認します。
+7.  SEFAUtil ツールが正常に実行されていることを、次のように確認します。
     
-    1.  管理者特権で Windows コマンド プロンプトからツールを実行し、展開内のユーザーの着信転送設定を表示します。
+    1.  管理者特権を使用して Windows コマンドプロンプトからツールを実行し、展開内のユーザーの着信転送設定を表示します。
         
         <div>
         
 
         > [!NOTE]  
-        > このツールは、Reskit の Lync Server 2013 \ にあります。
+        > このツールは、うえの「Lync Server 2013」にあります。
 
         
         </div>
     
-    2.  ユーザーの着信転送設定を表示します。コマンド ラインで、次のコマンドを実行します。
+    2.  ユーザーの着信転送設定を表示します。 コマンド ラインで、次のコマンドを実行します。
         
             SEFAUtil.exe <user SIP address> /server:<Lync Server/Pool FQDN>
         

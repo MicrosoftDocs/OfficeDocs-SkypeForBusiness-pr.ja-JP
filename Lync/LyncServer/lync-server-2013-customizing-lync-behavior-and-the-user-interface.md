@@ -12,16 +12,16 @@ ms:contentKeyID: 48183443
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: df800b1670226d90deee6921d0c0514cbfdcee14
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5d5b006c14932e011fc0921c2f0a92933515e5bb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728717"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028528"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,29 +35,29 @@ ms.locfileid: "41728717"
 
 <span> </span>
 
-_**最終更新日:** 2013-03-22_
+_**トピックの最終更新日:** 2013-03-22_
 
 このセクションでは、Lync 2013 にカスタム機能を追加する方法について説明します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 でメディアポート範囲設定を構成する](lync-server-2013-configuring-media-port-range-settings.md)
+  - [Lync Server 2013 でのメディアポート範囲設定の構成](lync-server-2013-configuring-media-port-range-settings.md)
 
   - [Lync Server 2013 での Lync メニューへのコマンドの追加](lync-server-2013-adding-commands-to-lync-menus.md)
 
-  - [サードパーティコラボレーションアプリケーションと Lync Server 2013 の統合](lync-server-2013-integrating-a-third-party-collaboration-application-with-lync.md)
+  - [サードパーティ製コラボレーションアプリケーションと Lync Server 2013 の統合](lync-server-2013-integrating-a-third-party-collaboration-application-with-lync.md)
 
   - [Lync Server 2013 でのカスタムプレゼンス状態の構成](lync-server-2013-configuring-custom-presence-states.md)
 
-  - [Lync Server 2013 での Lync エラー メッセージへのユーザー設定リンクの追加](lync-server-2013-adding-a-custom-link-to-lync-error-messages.md)
+  - [Lync Server 2013 での Lync エラーメッセージへのカスタムリンクの追加](lync-server-2013-adding-a-custom-link-to-lync-error-messages.md)
 
-  - [Lync Server 2013 でのインスタント メッセージへのユーザー設定テキストの追加](lync-server-2013-adding-custom-text-to-instant-messages.md)
+  - [Lync Server 2013 でのインスタントメッセージへのカスタムテキストの追加](lync-server-2013-adding-custom-text-to-instant-messages.md)
 
-  - [別のアプリケーションから Lync を起動する](lync-server-2013-starting-lync-from-another-application.md)
+  - [別のアプリケーションからの Lync の起動](lync-server-2013-starting-lync-from-another-application.md)
 
-  - [Lync Server 2013 で既定のピクチャオプションを構成する](lync-server-2013-configuring-default-picture-options.md)
+  - [Lync Server 2013 での既定の画像のオプションの構成](lync-server-2013-configuring-default-picture-options.md)
 
 </div>
 

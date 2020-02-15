@@ -1,5 +1,5 @@
 ---
-title: フロント エンド プールまたは Standard Edition サーバー用の DNS レコードの構成
+title: フロントエンドプールまたは Standard Edition サーバーの DNS レコードを構成する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183244
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 89acbccd226c15d9c8359fc01d010655fc46a989
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 633282e30cae401f2bed39522864f076d0ce85ea
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755971"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028578"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-dns-records-in-lync-server-2013-for-a-front-end-pool-or-standard-edition-server"></a>Lync Server 2013 でのフロント エンド プールまたは Standard Edition サーバー用の DNS レコードの構成
+# <a name="configure-dns-records-in-lync-server-2013-for-a-front-end-pool-or-standard-edition-server"></a>フロントエンドプールまたは Standard Edition サーバーの Lync Server 2013 で DNS レコードを構成する
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41755971"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-01_
+_**トピックの最終更新日:** 2012-10-01_
 
-Lync Server 2013 は、ドメインネームシステム (DNS) を使用して、適切なドメイン名と IP アドレスの解決のためにレコードの登録と管理を行います。 Standard Edition サーバーまたはフロントエンドプールを操作する前に、展開に必要な DNS レコードを構成する必要があります。 次のリンクでは、Lync Server 2013 の適切な操作を可能にするために作成する必要があるレコードについて説明します。
+Lync Server 2013 は、ドメインネームシステム (DNS) を使用して、適切なドメイン名と IP アドレス解決のレコードを登録し、管理します。 Standard Edition サーバーまたはフロントエンドプールを運用する前に、展開に必要な DNS レコードを構成する必要があります。 次のリンクは、Lync Server 2013 の適切な運用を可能にするために作成する必要があるレコードについてのガイダンスを提供します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 での負荷分散の DNS 構成](lync-server-2013-configure-dns-for-load-balancing.md)
+  - [Lync Server 2013 での負荷分散の DNS の構成](lync-server-2013-configure-dns-for-load-balancing.md)
 
-  - [Lync Server 2013 での DNS ホスト レコードの構成](lync-server-2013-configure-dns-host-records.md)
+  - [Lync Server 2013 の DNS ホストレコードの構成](lync-server-2013-configure-dns-host-records.md)
 
-  - [Lync Server 2013 での DNS SRV レコードの作成と確認](lync-server-2013-create-and-verify-dns-srv-records.md)
+  - [Lync Server 2013 で DNS SRV レコードを作成および確認する](lync-server-2013-create-and-verify-dns-srv-records.md)
 
 </div>
 

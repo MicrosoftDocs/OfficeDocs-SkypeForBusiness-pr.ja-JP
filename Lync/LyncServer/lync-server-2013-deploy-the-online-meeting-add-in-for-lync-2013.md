@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Lync 2013 用オンライン会議アドインの展開'
+title: 'Lync Server 2013: Lync 2013 用オンラインミーティングアドインの展開'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185485
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c6c89c9d49754464c954c04ee0673f122848cdea
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cb38b41b57898b24abe1197a516103fa47c72d6f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729637"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028898"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploy-the-online-meeting-add-in-for-lync-2013"></a>Lync 2013 用オンライン会議アドインの展開
+# <a name="deploy-the-online-meeting-add-in-for-lync-2013"></a>Lync 2013 用オンライン ミーティング アドインの展開
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41729637"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-30_
+_**トピックの最終更新日:** 2012-09-30_
 
-Lync 2013 用のオンライン会議アドインを展開して、ユーザーがダイヤルイン会議をサポートする会議をスケジュールできるようにします。
+ユーザーがダイヤルイン会議をサポートする会議をスケジュール設定できるように、Lync 2013 用のオンラインミーティングアドインを展開します。
 
-Lync 2013 をインストールすると、Lync 2013 用のオンライン会議アドインが自動的にインストールされます。 Lync 用の Lync 2013 用のオンライン会議アドインのカスタマイズの詳細については、「 [Lync Server 2013 で会議出席依頼を設定する](lync-server-2013-configuring-the-meeting-invitation.md)」を参照してください。
+Lync 2013 をインストールすると、Lync 2013 用のオンラインミーティングアドインが自動的にインストールされます。 Lync 2013 lync 用オンラインミーティングアドインのカスタマイズの詳細については、「 [Lync Server 2013 での会議出席依頼の構成](lync-server-2013-configuring-the-meeting-invitation.md)」を参照してください。
 
 </div>
 

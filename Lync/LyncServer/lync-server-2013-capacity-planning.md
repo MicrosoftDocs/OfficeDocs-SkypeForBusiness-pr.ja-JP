@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013 キャパシティプランニング
+title: Lync Server 2013 の容量計画
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49352446
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d6e2abe708554a24fabfe5c408d969dc0789c683
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3ca40d198a03ccae9924292fdf85eb2c10cc5841
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737007"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008529"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="capacity-planning-for-lync-server-2013"></a>Lync Server 2013 のキャパシティ計画
+# <a name="capacity-planning-for-lync-server-2013"></a>Lync Server 2013 の容量計画
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41737007"
 
 <span> </span>
 
-_**最終更新日:** 2013-07-31_
+_**トピックの最終更新日:** 2013-07-31_
 
-このセクションのトピックでは、Lync Server 2013 の計画と展開の方法について説明します。これにより、組織内のユーザー数を適切に計画し、アクティビティによって生成されるサーバー負荷を計画することができます。
+このセクションのトピックでは、Lync Server 2013 を計画して展開する方法を理解するのに役立ちます。これにより、組織内のユーザー数を適切に計画し、アクティビティによって生成されるサーバー負荷を計画することができます。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [ユーザーモデルを使用した Lync Server 2013 のキャパシティ計画](lync-server-2013-capacity-planning-using-the-user-models.md)
+  - [ユーザーモデルを使用した Lync Server 2013 の容量計画](lync-server-2013-capacity-planning-using-the-user-models.md)
 
-  - [Lync Server 2013 の音声の利用状況とトラフィックの予測](lync-server-2013-estimating-voice-usage-and-traffic.md)
+  - [Lync Server 2013 の音声の使用状況とトラフィックの予測](lync-server-2013-estimating-voice-usage-and-traffic.md)
 
-  - [Lync Server 2013 での仲介サーバーの展開ガイドライン](lync-server-2013-deployment-guidelines-for-mediation-server.md)
+  - [Lync Server 2013 の仲介サーバーの展開ガイドライン](lync-server-2013-deployment-guidelines-for-mediation-server.md)
 
   - [Lync Server 2013 のユーザーモデル](lync-server-2013-user-models.md)
 
-  - [Lync Server 2013 のキャパシティプランニング電卓を使用する](lync-server-2013-capacity-planning-calculator.md)
+  - [Lync Server 2013 の容量計画の計算機の使用](lync-server-2013-capacity-planning-calculator.md)
 
 </div>
 

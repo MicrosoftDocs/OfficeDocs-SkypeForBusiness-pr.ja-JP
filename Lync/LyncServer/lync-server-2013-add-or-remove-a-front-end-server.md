@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: フロントエンドサーバーを追加または削除する'
+title: 'Lync Server 2013: フロントエンドサーバーの追加または削除'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185050
 ms.date: 01/21/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 078c3d8eed34e7fb6fd98d2d7c12014b87a0497b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1a13a7d618b7d7f8883d43e6aed7ac456bb5ab6c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724017"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008843"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="add-or-remove-a-front-end-server-in-lync-server-2013"></a>Add or remove a Front End Server in Lync Server 2013
+# <a name="add-or-remove-a-front-end-server-in-lync-server-2013"></a>Lync Server 2013 でのフロントエンドサーバーの追加または削除
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41724017"
 
 <span> </span>
 
-_**最終更新日:** 2016-01-21_
+_**トピックの最終更新日:** 2016-01-21_
 
-フロントエンドサーバーをプールに追加する場合、またはプールからフロントエンドサーバーを削除する場合は、プールを再起動する必要があります。 ユーザーによるサービスの中断を防ぐには、フロントエンドサーバーを追加または削除するときに、次の手順を使用します。
+フロントエンド サーバーをプールに追加したり、フロントエンド サーバーをプールから削除した場合は、プールを再起動する必要があります。ユーザーへのサービスを中断しないようにするには、フロントエンド サーバーを追加または削除するときに次の手順を使用します。
 
 <div>
 
 
 > [!NOTE]  
-> プールに新しいサーバーを追加する場合、累積的な更新プログラムがプール内の既存のサーバーと同じレベルになるように、新しいプール サーバーを更新します。
+> プールに新しいサーバーを追加している場合は、プール内の既存のサーバーと同じ累積更新レベルになるように、新しいプールサーバーを更新します。
 
 
 
@@ -53,23 +53,23 @@ _**最終更新日:** 2016-01-21_
 
 ## <a name="to-add-or-remove-front-end-servers"></a>フロントエンドサーバーを追加または削除するには
 
-1.  フロントエンドサーバーを削除する場合は、まず、それらのサーバーへの新しい接続を停止します。 これを実行するには、次のコマンドレットを使用できます。
+1.  フロントエンド サーバーを削除する場合、最初にこれらのサーバーへの新しい接続を停止します。これを実行するには、次のコマンドレットを使用できます。
     
         Stop-CsWindowsServices -Graceful
 
-2.  削除するサーバーに現在のセッションがない場合は、Lync Server サービスを停止します。
+2.  削除するサーバーに現在使用しているセッションがない場合、それらの Lync Server サービスを停止します。
 
-3.  トポロジビルダーを開き、必要なサーバーを追加または削除します。
+3.  トポロジ ビルダーを開き、必要なサーバーを追加または削除します。
 
 4.  トポロジを公開します。
 
-5.  プールの2台以上のフロントエンドサーバーを2つ以上にしたり、2つ以上のサーバーから2台以上のサーバーを使用していなかったりする場合は、次のコマンドレットを入力する必要があります。
+5.  プールで2台以上のフロントエンドサーバーが2台以上になっていない場合、または2台以上のサーバーから完全に2台になった場合は、次のコマンドレットを入力する必要があります。
     
         Reset-CsPoolRegistrarState-ResetType FullReset -PoolFqdn <PoolFqdn>
     
-    プールに3つ以上のサーバーがある場合は、このコマンドレットを入力するときに、これらのサーバーの少なくとも3つを実行している必要があります。
+    プールに 3 つ以上のサーバーがある場合は、このコマンドレットを入力するとき、これらのサーバーのうち少なくとも 3 つのサーバーが実行されている必要があります。
 
-6.  プール内のすべてのフロントエンドサーバーを一度に1つずつ再起動します。
+6.  プール内のすべてのフロントエンドサーバーを1つずつ再起動します。
 
 </div>
 

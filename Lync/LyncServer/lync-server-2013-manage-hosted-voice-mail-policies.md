@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ホスト ボイス メール ポリシーの管理'
+title: 'Lync Server 2013: ホストボイスメールポリシーの管理'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184139
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 434cc1eb721635f4a56be33f48802da3bc6db0e3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d854a70fed08bd364f1df69b272ee46792eab786
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733357"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028448"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="manage-hosted-voice-mail-policies-in-lync-server-2013"></a>Lync Server 2013 でのホスト ボイス メール ポリシーの管理
+# <a name="manage-hosted-voice-mail-policies-in-lync-server-2013"></a>Lync Server 2013 でホストボイスメールポリシーを管理する
 
 </div>
 
@@ -35,33 +35,33 @@ ms.locfileid: "41733357"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-20_
+_**トピックの最終更新日:** 2012-09-20_
 
-ホストされた*ボイスメールポリシー*は、ホストされた Exchange サービス上にあるメールボックスを持つユーザーの呼び出しをルーティングする場所について、Lync Server 2013 Exum ルーティングアプリケーションに情報を提供します。
+*ホストボイスメールポリシー*は、ホストされた Exchange サービスにメールボックスがあるユーザーの呼び出しをルーティングする場所について、Lync Server 2013 Exum ルーティングアプリケーションに情報を提供します。
 
 <div>
 
 
 > [!NOTE]  
-> 通常は、1つのホストされたボイスメールポリシーのみが必要です。 多くの場合、すべてのニーズに合わせてグローバルポリシーを変更できます。 サイトのスコープを使用してポリシーを作成すると、指定したサイトに所属するすべてのユーザーに自動的に割り当てられます。 ユーザーごとのスコープを持つポリシーを作成する場合は、ユーザー、グループ、連絡先オブジェクトに明示的に割り当てる必要があります。 複数のホストされたボイスメールポリシーを展開することもできますが、その場合は、ポリシーをユーザーごとに割り当てる必要があります。
+> 通常、必要なのは 1 つのホスト ボイス メール ポリシーのみです。 多くの場合、すべてのニーズが満たされるようにグローバル ポリシーを変更することができます。 サイト スコープでポリシーを作成すると、そのポリシーは、指定のサイトに存在するすべてのユーザーに自動的に割り当てられます。 ユーザー単位のスコープでポリシーを作成する場合は、そのポリシーをユーザー、グループ、および連絡先オブジェクトに明示的に割り当てる必要があります。 複数のホスト ボイス メール ポリシーを展開できますが、その場合は、ポリシーをユーザーごとに割り当てる必要があります。
 
 
 
 </div>
 
-ホストされたボイスメールポリシーの計画の詳細については、計画ドキュメントの「 [Lync Server 2013 のホスト型ボイスメールポリシー](lync-server-2013-hosted-voice-mail-policies.md) 」を参照してください。
+ホストボイスメールポリシーの計画の詳細については、「計画」のドキュメントの「 [hosted voice mail policies In Lync Server 2013](lync-server-2013-hosted-voice-mail-policies.md) 」を参照してください。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 でグローバルにホストされるボイスメールのポリシーを変更する](lync-server-2013-modify-the-global-hosted-voice-mail-policy.md)
+  - [Lync Server 2013 でのグローバルホストボイスメールポリシーの変更](lync-server-2013-modify-the-global-hosted-voice-mail-policy.md)
 
-  - [Lync Server 2013 でサイトレベルでホストされるボイスメールのポリシーを作成する](lync-server-2013-create-a-site-level-hosted-voice-mail-policy.md)
+  - [Lync Server 2013 でサイトレベルのホストボイスメールポリシーを作成する](lync-server-2013-create-a-site-level-hosted-voice-mail-policy.md)
 
-  - [Lync Server 2013 でユーザーごとにホストされるボイスメールのポリシーを作成する](lync-server-2013-create-a-per-user-hosted-voice-mail-policy.md)
+  - [Lync Server 2013 でユーザーごとのホストボイスメールポリシーを作成する](lync-server-2013-create-a-per-user-hosted-voice-mail-policy.md)
 
-  - [Lync Server 2013 でユーザーごとにホストされるボイスメールのポリシーを割り当てる](lync-server-2013-assign-a-per-user-hosted-voice-mail-policy.md)
+  - [Lync Server 2013 でユーザーごとにホストされるボイスメールポリシーを割り当てる](lync-server-2013-assign-a-per-user-hosted-voice-mail-policy.md)
 
 </div>
 

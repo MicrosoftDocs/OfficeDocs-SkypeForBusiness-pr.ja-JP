@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: コールパークの設定を構成する'
+title: 'Lync Server 2013: コールパーク設定の構成'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183922
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ee4f12ccf614816e27262f8b393cdc1dac4a7a5e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 644ec44d4086b0acc326e043cbf63d7ceb2c640c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757781"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028718"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-call-park-settings-in-lync-server-2013"></a>Lync Server 2013 でのコールパーク設定の構成
+# <a name="configure-call-park-settings-in-lync-server-2013"></a>Lync Server 2013 でコールパーク設定を構成する
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41757781"
 
 <span> </span>
 
-_**最終更新日:** 2012-11-01_
+_**トピックの最終更新日:** 2012-11-01_
 
-既定のコールパーク設定を使用しない場合は、カスタマイズすることができます。 コールパークアプリケーションをインストールすると、既定でグローバル設定が構成されます。 グローバル設定を変更できます。また、サイト固有の設定を指定することもできます。 新しいサイト固有の設定を作成するには、 **CsCpsConfiguration**コマンドレットを使用します。 既存の設定を変更するには、 **CsCpsConfiguration**コマンドレットを使用します。
+既定のコールパーク設定を使用しない場合は、それらをカスタマイズできます。 コールパークアプリケーションをインストールすると、既定でグローバル設定が構成されます。 グローバル設定を変更したり、サイト固有の設定を指定したりすることもできます。 新しいサイト固有の設定を作成するには、 **new-cscpsconfiguration**コマンドレットを使用します。 既存の設定を変更するには、 **new-cscpsconfiguration**コマンドレットを使用します。
 
 <div>
 
@@ -67,7 +67,7 @@ _**最終更新日:** 2012-11-01_
 <tr class="odd">
 <td><p><strong>CallPickupTimeoutThreshold</strong></p></td>
 <td><p>通話が保留されてから、呼び出しに応答した電話にかけ直されるまでの経過時間。</p>
-<p>この値は、hh:mm:ss の形式で入力し、時間、分、および秒を指定する必要があります。最小値は 10 秒、最大値は 10 分です。既定値は 00:01:30 です。</p></td>
+<p>この値は、hh:mm:ss の形式で入力し、時間、分、および秒を指定する必要があります。 最小値は 10 秒、最大値は 10 分です。 既定値は 00:01:30 です。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>EnableMusicOnHold</strong></p></td>
@@ -79,9 +79,9 @@ _**最終更新日:** 2012-11-01_
 <td><p>保留された通話が [<strong>OnTimeoutURI</strong>] で指定した代替 URI (Uniform Resource Identifier) に転送される前に、応答電話にかけ直される回数。既定値は 1 です。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>OnTimeoutURI</strong></p></td>
+<td><p><strong>[Ontimeouturi]</strong></p></td>
 <td><p><strong>MaxCallPickupAttempts</strong> を超過した場合に、応答のない保留通話のルーティング先となるユーザーまたは応答グループの SIP アドレス。</p>
-<p>値は、文字列 sip: で始まる SIP URI にする必要があります。たとえば、sip:bob@contoso.com などです。既定値は転送アドレスではありません。</p></td>
+<p>値は、文字列 sip: で始まる SIP URI にする必要があります。 たとえば、sip:bob@contoso.com などです。既定値は転送アドレスではありません。</p></td>
 </tr>
 </tbody>
 </table>
@@ -89,13 +89,13 @@ _**最終更新日:** 2012-11-01_
 
 <div>
 
-## <a name="to-configure-call-park-settings"></a>コールパークの設定を構成するには
+## <a name="to-configure-call-park-settings"></a>コールパーク設定を構成するには
 
-1.  Lync Server 管理シェルが RTCUniversalServerAdmins グループのメンバーとして、または「 [Lync server 2013 の委任セットアップの権限](lync-server-2013-delegate-setup-permissions.md)」で説明されているように、必要なユーザー権限を持つコンピューターにログオンします。
+1.  Lync Server 管理シェルがインストールされているコンピューターに、RTCUniversalServerAdmins グループのメンバーとして、または「 [Lync server 2013 のセットアップのアクセス許可の委任](lync-server-2013-delegate-setup-permissions.md)」に説明されている必要なユーザー権限を使用してログオンします。
 
-2.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+2.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
-3.  次のコマンドレットを実行します。
+3.  実行
     
         New-CsCpsConfiguration -Identity site:<sitename to apply settings> [-CallPickupTimeoutThreshold <hh:mm:ss>] -[EnableMusicOnHold <$true | $false>] [-MaxCallPickupAttempts <number of rings>] [-OnTimeoutURI sip:<sip URI for routing unanswered call>]
     
@@ -103,7 +103,7 @@ _**最終更新日:** 2012-11-01_
     
 
     > [!TIP]  
-    > サイトを識別するには、<STRONG>Get-CsSite</STRONG> コマンドレットを使用します。 詳細については、「Lync Server 管理シェルのドキュメント」を参照してください。
+    > サイトを識別するには、<STRONG>Get-CsSite</STRONG> コマンドレットを使用します。 詳細については、「Lync Server Management Shell」のドキュメントを参照してください。
 
     
     </div>
@@ -119,12 +119,12 @@ _**最終更新日:** 2012-11-01_
 ## <a name="see-also"></a>関連項目
 
 
-[通話パークをカスタマイズする Lync Server 2013 の保留中の音楽](lync-server-2013-customize-call-park-music-on-hold.md)  
+[Lync Server 2013 でコールパーク保留音をカスタマイズする](lync-server-2013-customize-call-park-music-on-hold.md)  
 
 
-[新規-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsCpsConfiguration)  
-[Set-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsCpsConfiguration)  
-[CsSite](https://docs.microsoft.com/powershell/module/skype/Get-CsSite)  
+[New-cscpsconfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsCpsConfiguration)  
+[New-cscpsconfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsCpsConfiguration)  
+[取得-CsSite](https://docs.microsoft.com/powershell/module/skype/Get-CsSite)  
   
 
 </div>

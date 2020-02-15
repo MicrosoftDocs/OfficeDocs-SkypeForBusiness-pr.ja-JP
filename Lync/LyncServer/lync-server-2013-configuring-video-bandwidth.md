@@ -12,16 +12,16 @@ ms:contentKeyID: 48183984
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3cca8df1ea3c4c2458851da24ab8b39dbbab2d3d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2f1eb39099f51da36b62360282bc89c06ab94817
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734447"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029970"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,84 +35,84 @@ ms.locfileid: "41734447"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-02_
+_**トピックの最終更新日:** 2012-10-02_
 
-Lync Server 2013 には、2パーティーの通話とマルチパーティの会議のビデオを管理するためのいくつかの設定が含まれています。 Lync Server 2013 を展開するときは、既定の設定が組織に適しているかどうかを評価し、必要に応じて変更します。
+Lync Server 2013 には、2者間通話とマルチパーティ会議のビデオを管理するための設定がいくつか含まれています。 Lync Server 2013 を展開する場合は、既定の設定が組織に適しているかどうかを評価し、必要に応じて変更する必要があります。
 
-このセクションで説明するパラメーターは、2人の通話とマルチパーティの会議の両方に適用されます。 これらの設定を表示または変更するには、次のいずれかのコマンドレットを使用します。
+このセクションで説明するパラメーターは、2 者間通話とマルチパーティ会議の両方に適用されます。これらの設定を表示または変更するときは、次のコマンドレットの 1 つを使用します。
 
   - **Get-CsConferencingPolicy**
 
-  - **Set-CsConferencingPolicy**
+  - **Get-csconferencingpolicy**
 
-  - **New-CsConferencingPolicy**
+  - **Get-csconferencingpolicy**
 
-会議ポリシーで、次の設定を確認します。
+会議ポリシーの次の設定を確認します。
 
-  - **VideoBitRateKb**   この設定では、ユーザーが送信したビデオに使用されるビデオの最大ビットレート (kbps) を指定します。 既定値は 5万 kbps です。 有効な値は 0 ~ 5万です。
+  - **VideoBitRateKb**   この設定は、ユーザーによって送信されるビデオに対して使用されるビデオの最大ビットレート (キロビット/秒 (kbps)) を指定します。 既定値は 50000 kbps です。 有効な値は 0 から 50000 です。
     
-    この設定は、メインビデオとパノラマビデオに個別に適用されます。
+    この設定は、メイン ビデオと	パノラマ ビデオに別々に適用されます。
     
-    例: 2000 kbps を指定した場合、Lync Server は、パノラマビデオストリームについて、メインビデオストリームと 2000 kbps の 2000 kbps を送信できます。
-    
-    <div>
-    
-
-    > [!NOTE]  
-    > Lync 2013 エンドポイントの最大ビデオネットワーク帯域幅は、メインビデオでは 8000 kbps、パノラマビデオでは 2500 kbps です。 これらの最大値は、複数のビデオを受信または送信した場合にのみ達成されます。 詳細については、「 <A href="lync-server-2013-network-bandwidth-requirements-for-media-traffic.md">Lync Server 2013 のメディアトラフィックのネットワーク帯域幅の要件</A>」の「メディアトラフィックのネットワーク使用量」セクションを参照してください。 このセクションでは、サポートされているすべての解像度について、最大と標準的なビデオストリームの帯域幅を一覧表示します。
-
-    
-    </div>
-
-  - **この設定**は、Lync Server 2013 の新しい設定であり、クライアントが受信するすべてのビデオストリームに対して許可される最大ビットレート (1 秒あたりのビット数) を指定します。    つまり、クライアントが受け取ることができる、パノラマビデオストリームを除くすべてのビデオストリームの合計が指定されます。 たとえば、1500 kbps を指定した場合、クライアントは最大 1500 kbps のビデオを受信できます。これは、複数のビデオストリームまたは1つのビデオストリームで構成されている可能性があります。 この設定は、Lync Server 2013 クライアントにのみ適用されます。
-    
-    **TotalReceiveVideoBitRateKb**の既定値は 5万 kbps です。 ギャラリービューの**EnableMultiviewJoin**設定が True に設定されている場合、 **TotalReceiveVideoBitRateKb**は 420 kbps 未満に設定しないでください。 ギャラリービューの**EnableMultiviewJoin**設定が False に設定されている場合、 **TotalReceiveVideoBitRateKb**は 100 kbps 未満に設定しないでください。 **EnableMultiviewJoin**が True に設定されていて、420 kbps 未満の値を設定した場合、値は既定のしきい値に設定されます。 このしきい値は、ユーザーエクスペリエンスが低下する可能性がある偶発的な誤りを防ぐのに役立ちます。
+    例: 2000 kbps を指定すると、Lync Server は、メインビデオストリームに 2000 kbps を送信し、パノラマビデオストリームについては 2000 kbps を送信できます。
     
     <div>
     
 
     > [!NOTE]  
-    > <STRONG>EnableMultiviewJoin</STRONG>の設定の詳細については、「 <A href="lync-server-2013-configuring-gallery-view.md">Lync Server 2013 でギャラリービューを構成する</A>」を参照してください。
+    > Lync 2013 エンドポイントの最大ビデオネットワーク帯域幅は、メインビデオの場合は 8000 kbps、パノラマビデオの場合は 2500 kbps です。 こらの最大値に達するのは、複数のビデオが送受信される場合に限ります。 詳細については、「 <A href="lync-server-2013-network-bandwidth-requirements-for-media-traffic.md">Lync Server 2013 のメディアトラフィックのネットワーク帯域幅要件</A>」の「メディアトラフィックネットワークの使用率」セクションを参照してください。 このセクションでは、サポートされているすべての解像度に関して、最大かつ一般的なビデオ ストリーム帯域幅を示します。
 
     
     </div>
 
-  - **MaxVideoConferencingResolution**   このパラメーターは、lync server 2013 会議の lync server 2013 クライアントでは使われなくなりました。 Lync Server 2013 会議では、このセクションで既に説明したビットレートコントロールを使用します。 この設定は、Lync Server 2013 会議に参加している従来のクライアントでも使用されます。 このパラメーターは、Lync Server 2013 を使っているユーザーが開催する、会議内のレガシクライアントで許可される最大解像度を決定します。 つまり、従来のクライアントは、以前のバージョンの Lync Server または Office Communications Server と同じように扱われます。
+  - **TotalReceiveVideoBitRateKb**   この設定は、Lync Server 2013 で新しく追加されたもので、クライアントが受信するすべてのビデオストリームに対して許可される最大のビットレート (1 秒あたりのビット数) を指定します。 つまり、クライアントが受信できる全ビデオ ストリーム (パノラマ ビデオ ストリームは除く) の合計値を指定します。 たとえば 1500 kbps を指定すると、クライアントは複数のビデオ ストリームまたは単一のビデオ ストリームから構成される最大 1500 kbps のビデオを受信できます。 この設定は、Lync Server 2013 クライアントにのみ適用されます。
+    
+    **TotalReceiveVideoBitRateKb** の既定値は 50000 kbps です。ギャラリー ビューの **EnableMultiviewJoin** 設定が True に設定されている場合、**TotalReceiveVideoBitRateKb** を 420 kbps 未満に設定しないようにします。ギャラリー ビューの **EnableMultiviewJoin** 設定が False に設定されている場合、**TotalReceiveVideoBitRateKb** を 100 kbps 未満に設定しないようにします。**EnableMultiviewJoin** が True に設定されており、値を 420 kbps 未満に設定した場合は、既定では、値はしきい値に設定されます。このしきい値によって、ユーザー エクスペリエンスの低下の原因となる予想外の構成ミスを防ぐことができます。
+    
+    <div>
+    
 
-ユーザーに適用される会議ポリシーの設定に加えて、メディア構成の設定を評価します。 これらの設定を表示または変更するには、次のいずれかのコマンドレットを使用します。
+    > [!NOTE]  
+    > <STRONG>EnableMultiviewJoin</STRONG>の設定の詳細については、「 <A href="lync-server-2013-configuring-gallery-view.md">Lync Server 2013 でのギャラリービューの構成</A>」を参照してください。
 
-  - **Get-CsMediaConfiguration**
+    
+    </div>
 
-  - **Set-CsMediaConfiguration**
+  - **MaxVideoConferencingResolution**   このパラメーターは、lync server 2013 会議の lync server 2013 クライアントでは使用されなくなりました。 Lync Server 2013 会議では、このセクションで前述したビットレートコントロールを使用します。 この設定は、Lync Server 2013 会議に参加しているレガシクライアントでも使用されます。 このパラメーターは、Lync Server 2013 に所属するユーザーが開催する、電話会議のレガシクライアントに許可される最大解像度を指定します。 つまり、従来のクライアントは、以前のバージョンの Lync Server または Office Communications Server と同じように処理されます。
 
-  - **新規-CsMediaConfiguration**
+ユーザーに適用される会議ポリシー設定のほかに、メディア構成設定を評価します。これらの設定を表示または変更するときは、次のコマンドレットの 1 つを使用します。
+
+  - **Get-csmediaconfiguration**
+
+  - **Get-csmediaconfiguration**
+
+  - **Get-csmediaconfiguration**
 
 次の設定を確認します。
 
-  - ****   [プールごとの MaxVideoRateAllowed] 設定では、クライアントエンドポイントでビデオ信号を転送する最大速度を指定します。 これは、以前のバージョンの Lync Server クライアントにのみ適用されます。
+  - **MaxVideoRateAllowed**   このプール設定では、クライアントエンドポイントでビデオ信号を転送する最大速度を指定します。 これは、以前のバージョンの Lync Server クライアントにのみ適用されます。
     
     <div>
     
 
     > [!NOTE]  
-    > Lync Server 2013 クライアントでは、この設定は無視され、会議ポリシーの TotalReceiveVideoBitRateKb 設定が使用されます。
+    > Lync Server 2013 クライアントはこの設定を無視し、代わりに会議ポリシーの TotalReceiveVideoBitRateKb 設定を使用します。
 
     
     </div>
     
-    既定値はあることです。 有効な値は、HD720p15M、VGA600K、および CIF250K です。
+    既定値は HD720P です。有効な値は、HD720p15M、VGA600K、および CIF250K です。
     
-    例: 1500 kbps を指定した場合、プール内のすべてのレガシークライアントは、2パーティまたはマルチパーティの会議で最大 1500 kbps のビデオを受信できます。
+    例: 1500 kbps を指定すると、プール内の従来のクライアントすべてが、2 者間会議またはマルチパーティ会議で 1500 kbps までのビデオを受信できます。
 
-次の手順では、このセクションで説明するように、Lync Server 管理シェルを使用して設定を変更する例を示します。
+次の手順では、このセクションで説明する設定を Lync Server 管理シェルを使用して変更する例を示します。
 
 <div>
 
 ## <a name="to-modify-conferencing-policy-for-video-settings"></a>ビデオ設定の会議ポリシーを変更するには
 
-1.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+1.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
-2.  コマンドラインで、次のコマンドレットを実行して会議ポリシーを編集します。
+2.  コマンド ラインで次のコマンドレットを実行して、会議ポリシーを編集します。
     
         Set-CsConferencingPolicy -Identity Pool01ConferencingPolicy -VideoBitRateKb 2000 -TotalReceiveVideoBitRateKb 2000 
 
@@ -120,11 +120,11 @@ Lync Server 2013 には、2パーティーの通話とマルチパーティの�
 
 <div>
 
-## <a name="to-modify-media-configuration-for-legacy-clients"></a>レガシクライアントのメディア構成を変更するには
+## <a name="to-modify-media-configuration-for-legacy-clients"></a>従来のクライアント向けのメディア構成を変更するには
 
-1.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+1.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
-2.  コマンドラインで次のコマンドレットを実行して、メディアの構成を編集します。
+2.  コマンド ラインで次のコマンドレットを実行して、メディア構成を編集します。
     
         Set-CsMediaConfiguration -Identity site:Redmond01 -MaxVideoRateAllowed CIF250K
 

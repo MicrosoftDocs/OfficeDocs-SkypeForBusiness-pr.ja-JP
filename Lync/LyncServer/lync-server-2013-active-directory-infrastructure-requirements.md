@@ -12,20 +12,20 @@ ms:contentKeyID: 48185318
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 75278700623ae7251fe7cebec36e959a38f325dc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 14980b886ac9a00b9ea23a0d915bc34ac3956c7f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735217"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008549"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="active-directory-infrastructure-requirements-for-lync-server-2013"></a>Lync Server 2013 に関する Active Directory インフラストラクチャの要件
+# <a name="active-directory-infrastructure-requirements-for-lync-server-2013"></a>Lync Server 2013 の Active Directory インフラストラクチャの要件
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41735217"
 
 <span> </span>
 
-_**最終更新日:** 2013-11-07_
+_**トピックの最終更新日:** 2013-11-07_
 
-Lync Server 2013 用の Active Directory ドメインサービスの準備プロセスを開始する前に、Active Directory インフラストラクチャが次の前提条件を満たしていることを確認してください。
+Lync Server 2013 の Active Directory ドメインサービスを準備するプロセスを開始する前に、Active Directory インフラストラクチャが次の前提条件を満たしていることを確認してください。
 
-  - Lync Server を展開したフォレストのすべてのドメインコントローラー (すべてのグローバルカタログサーバーを含む) は、次のいずれかのオペレーティングシステムを実行します。
+  - Lync Server を展開するフォレスト内のすべてのドメインコントローラー (すべてのグローバルカタログサーバーを含む) は、次のいずれかのオペレーティングシステムを実行します。
     
       - Windows Server 2012 R2 オペレーティングシステム
     
@@ -49,15 +49,15 @@ Lync Server 2013 用の Active Directory ドメインサービスの準備プロ
     
       - Windows Server 2008 オペレーティング システム
     
-      - Windows Server 2008 Enterprise 32 ビット
+      - Windows Server 2008 Enterprise 32-Bit
     
-      - 32ビット版または64ビット版の Windows Server 2003 R2 オペレーティングシステム
+      - 32 ビットまたは 64 ビット版の Windows Server 2003 R2 オペレーティング システム
     
-      - 32ビット版または64ビット版の Windows Server 2003 オペレーティングシステム
+      - 32ビットまたは64ビットバージョンの Windows Server 2003 オペレーティングシステム
 
-  - Lync Server を展開するすべてのドメインは、Windows Server 2012 R2、Windows Server 2012、Windows Server 2008 R2、Windows Server 2008、または少なくとも Windows Server 2003 のドメイン機能レベルに発生します。
+  - Lync Server を展開するすべてのドメインは、Windows Server 2012 R2、Windows Server 2012、Windows Server 2008 R2、Windows Server 2008、または少なくとも Windows Server 2003 のドメイン機能レベルに上げられます。
 
-  - Lync Server を展開するフォレストは、Windows Server 2012 R2、Windows Server 2012、Windows Server 2008 R2、Windows Server 2008、または Windows server 2003 以上のフォレストの機能レベルに上げられます。
+  - Lync Server を展開するフォレストは、Windows Server 2012 R2、Windows Server 2012、Windows Server 2008 R2、Windows Server 2008、または少なくとも Windows Server 2003 のフォレスト機能レベルに上げられます。
     
     <div>
     
@@ -70,7 +70,7 @@ Lync Server 2013 用の Active Directory ドメインサービスの準備プロ
 
   - グローバルカタログは、Lync Server コンピューターまたはユーザーを展開するすべてのドメインに展開されます。
 
-Lync Server 2013 は、Windows Server 2012 R2、Windows Server 2012、Windows Server 2008 R2、Windows Server 2008、Windows Server 2003 オペレーティングシステムのユニバーサルグループをサポートしています。 ユニバーサルグループのメンバーには、ドメインツリーまたはフォレスト内の任意のドメインの他のグループとアカウントを含めることができ、ドメインツリーまたはフォレスト内の任意のドメインでアクセス許可を割り当てることができます。 ユニバーサルグループのサポートは、管理者の委任と組み合わせて、Lync Server の展開の管理を簡素化します。 たとえば、あるドメインを別のドメインに追加して、管理者が両方を管理できるようにする必要はありません。
+Lync Server 2013 では、Windows Server 2012 R2、Windows Server 2012、Windows Server 2008 R2、Windows Server 2008、および Windows Server 2003 オペレーティングシステムのユニバーサルグループがサポートされています。 ユニバーサルグループのメンバーには、ドメインツリーまたはフォレスト内の任意のドメインの他のグループとアカウントを含めることができます。また、ドメインツリーまたはフォレスト内の任意のドメインでアクセス許可を割り当てることができます。 ユニバーサルグループのサポートを管理者の委任と組み合わせて使用すると、Lync Server の展開の管理が簡単になります。 たとえば、あるドメインを別のドメインに追加して、管理者が両方を管理できるようにする必要はありません。
 
 </div>
 

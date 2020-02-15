@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: アーカイブのためにシステムプラットフォームを設定する'
+title: 'Lync Server 2013: アーカイブ用のシステムプラットフォームのセットアップ'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183716
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 13682b7507e133dd49c102bf6c25293ff5da2c08
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 88e1a8aea999fdf134b0152a9d37b2d36fc81ee8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732077"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008669"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-system-platforms-for-archiving-in-lync-server-2013"></a>Lync Server 2013 でアーカイブするためのシステムプラットフォームを設定する
+# <a name="setting-up-system-platforms-for-archiving-in-lync-server-2013"></a>Lync Server 2013 でのアーカイブ用のシステムプラットフォームのセットアップ
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41732077"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-09_
+_**トピックの最終更新日:** 2012-10-09_
 
-アーカイブの展開を開始する前に、システム要件を満たすハードウェアに必要なオペレーティングシステムとその他の必須ソフトウェアをインストールする必要があります。
+アーカイブの展開を開始する前に、システム要件を満たすハードウェアに、必要なオペレーティング システムとその他の必須ソフトウェアをインストールする必要があります。
 
-  - **Lync server 2013 platform**   lync server 2013 の展開には、アーカイブサーバーがありません。 代わりに、統合されたデータ収集エージェントは、アーカイブのためにデータを取得するためにフロントエンドサーバーと標準エディションのサーバー上で実行されるため、アーカイブをホストするために別個のシステムプラットフォームは必要ありません。
+  - **Lync server 2013 プラットフォーム**   lync server 2013 展開には、アーカイブサーバーがありません。 代わりに、統合データ収集エージェントはフロントエンドサーバーと Standard Edition サーバー上で実行されてアーカイブ用のデータをキャプチャするため、アーカイブをホストするために個別のシステムプラットフォームは必要ありません。
 
   - **データストレージプラットフォーム**   Lync Server 2013 では、次のいずれかを使用してデータを保存できます。
     
-      - **Microsoft exchange**   との統合 exchange 2013 の展開を使用して Lync Server 2013 アーカイブデータを保存する場合、またはアーカイブデータの保存用に別のデータベースを設定するのではなく、exchange 2013 を実行している必要があります。 Exchange 2013 のシステムプラットフォームのセットアップの詳細については、Exchange の製品に関するドキュメントを参照してください。
+      - **Microsoft exchange 統合**   exchange 2013 展開を使用して Lync Server 2013 アーカイブデータを保存する場合、またはアーカイブデータの格納用に別のデータベースをセットアップするのではなく、exchange 2013 を実行している必要があります。 Exchange 2013 用のシステムプラットフォームのセットアップの詳細については、「Exchange 製品のドキュメント」を参照してください。
     
-      - **Sql server**   Microsoft Exchange 統合の代わりに、または Microsoft Exchange 統合の使用に加えて、アーカイブデータの保存用に別の sql server データベースを使用する場合は、アーカイブの展開前にデータベースのシステムプラットフォームを設定する必要があります。 特定のシステムプラットフォーム要件は、アーカイブデータベース用に Microsoft SQL Server 2008 R2 と Microsoft SQL Server 2012 のどちらを使用するかによって異なります。 これらのデータベースのシステムプラットフォームのセットアップの詳細については、Microsoft SQL Server 2008 R2 および Microsoft SQL Server 2012 の製品に関するドキュメントを参照してください。
+      - **Sql server**   Microsoft Exchange 統合を使用するのではなく、アーカイブデータの格納に別の sql server データベースを使用する場合は、アーカイブを展開する前に、データベースのシステムプラットフォームを設定する必要があります。 特定のシステムプラットフォームの要件は、アーカイブデータベースに Microsoft SQL Server 2008 R2 と Microsoft SQL Server 2012 のどちらを使用するかによって異なります。 これらのデータベースのシステムプラットフォームの設定の詳細については、Microsoft SQL Server 2008 R2 および Microsoft SQL Server 2012 製品ドキュメントを参照してください。
 
-  - **ファイルサーバープラットフォーム**   lync server 2013 は、フロントエンドサーバーまたは Standard Edition サーバーのセットアップ時に、ファイルストレージとして指定した場所に lync server のアーカイブファイルを保存します。 アーカイブファイルの保存場所を個別に指定することはできません。そのため、ファイルストレージをアーカイブするために個別のシステムプラットフォームは必要ありません。 Microsoft Exchange 統合2013を使用している場合、アーカイブされた Lync 通信用のファイルは exchange 2013 サーバーに保存され、それらの Exchange サーバー上のユーザーが使用できます。
+  - **ファイルサーバープラットフォーム**   lync server 2013 は、フロントエンドサーバーまたは Standard Edition サーバーをセットアップするときに、ファイル記憶域に指定したのと同じ場所に lync server アーカイブファイルを格納します。 ファイル記憶域をアーカイブするために別の場所を指定することはできません。そのため、アーカイブファイルの保存には個別のシステムプラットフォームは必要ありません。 Microsoft Exchange 統合2013を使用している場合、アーカイブされた Lync コミュニケーションのファイルは exchange 2013 サーバーに格納され、これらの Exchange サーバーに所属するユーザーには保存されます。
 
 </div>
 

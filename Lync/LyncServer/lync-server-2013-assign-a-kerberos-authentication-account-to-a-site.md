@@ -12,20 +12,20 @@ ms:contentKeyID: 48183929
 ms.date: 04/18/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 230341bfc6b26bebd22b55195280ffdff130873d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bf69e71dd66337551557bddd3bfb7700257a7f69
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738387"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029278"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="assign-a-kerberos-authentication-account-to-a-site-in-lync-server-2013"></a>Lync Server 2013 での、サイトへの Kerberos 認証アカウントの割り当て
+# <a name="assign-a-kerberos-authentication-account-to-a-site-in-lync-server-2013"></a>Lync Server 2013 のサイトへの Kerberos 認証アカウントの割り当て
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41738387"
 
 <span> </span>
 
-_**最終更新日:** 2017-04-18_
+_**トピックの最終更新日:** 2017-04-18_
 
-この手順を正常に完了するには、RTCUniversalServerAdmins グループのメンバーであるユーザーとしてログオンする必要があります。
+この手順を正常に完了させるには、RTCUniversalServerAdmins グループのメンバーであるユーザーとしてログオンする必要があります。
 
-Kerberos アカウントを作成したら、それをサイトに割り当てる必要があります。 これは、Active Directory サイトではなく、Lync Server 2013 サイトです。 展開ごとに複数の Kerberos 認証アカウントを作成することはできますが、1つのサイトに割り当てることができるアカウントは1つだけです。 以前に作成した Kerberos 認証アカウントをサイトに割り当てるには、次の手順を使用します。 Kerberos アカウントの作成の詳細については、「 [Lync Server 2013 で kerberos 認証アカウントを作成](lync-server-2013-create-a-kerberos-authentication-account.md)する」を参照してください。
+Kerberos アカウントを作成した後、これをサイトに割り当てる必要があります。 これは、Active Directory サイトではなく、Lync Server 2013 サイトです。 1 つの展開に複数の Kerberos 認証アカウントを作成できますが、サイトに割り当てられるアカウントは 1 つだけです。 以前に作成した Kerberos 認証アカウントをサイトに割り当てるには、次の手順を使用します。 Kerberos アカウントの作成の詳細については、「 [Lync Server 2013 で kerberos 認証アカウントを作成する](lync-server-2013-create-a-kerberos-authentication-account.md)」を参照してください。
 
 <div>
 
-## <a name="to-assign-a-kerberos-authentication-account-to-a-site"></a>サイトに Kerberos 認証アカウントを割り当てるには
+## <a name="to-assign-a-kerberos-authentication-account-to-a-site"></a>Kerberos 認証アカウントをサイトに割り当てるには
 
 1.  RTCUniversalServerAdmins グループのメンバーとして、Lync Server 2013 を実行しているドメイン内のコンピューター、または管理ツールがインストールされているコンピューターにログオンします。
 
-2.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+2.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
-3.  コマンドラインで、次の2つのコマンドを実行します。
+3.  コマンド ラインで次の 2 つのコマンドを実行します。
     
        ```powershell
         New-CsKerberosAccountAssignment -UserAccount "Domain\UserAccount"
@@ -60,7 +60,7 @@ Kerberos アカウントを作成したら、それをサイトに割り当て�
         Enable-CsTopology
        ```
     
-    次に例を示します。
+    次にその例を示します。
     
        ```powershell
         New-CsKerberosAccountAssignment -UserAccount "contoso\kerbauth"
@@ -75,12 +75,12 @@ Kerberos アカウントを作成したら、それをサイトに割り当て�
     
 
     > [!NOTE]  
-    > UserAccount パラメーターを指定するには、Domain\User 形式を使用する必要があります。 Kerberos 認証のために作成されたコンピューターオブジェクトを参照する場合、User@Domain 拡張子形式はサポートされません。
+    > UserAccount パラメーターは、ドメイン\ユーザーの形式で指定する必要があります。 ユーザー@ドメイン.拡張子の形式は、Kerberos 認証用に作成されたコンピューター オブジェクトの参照ではサポートされていません。
 
     
     </div>
 
-4.  **オプション**: [Lync Server 2013 で WEB サービスの URL を変更](lync-server-2013-change-the-web-services-url.md)すると、WEB サイトの上書き FQDN (完全修飾ドメイン名) が設定されている可能性があります。 その場合は、この FQDN の SPN も追加する必要があります。 たとえば、FQDN が .local の場合は、次のように実行します。
+4.  **オプション**: [Lync Server 2013 での Web サービス URL の変更](lync-server-2013-change-the-web-services-url.md)に応じて、WEB サービスの上書き FQDN (完全修飾ドメイン名) を構成した可能性があります。 その場合は、この FQDN の SPN も追加する必要があります。 たとえば、FQDN が [イントラネット] の場合は、次のように実行します。
     
     ```console
     setspn -S http/webservices.contoso.local kerbauth
@@ -90,7 +90,7 @@ Kerberos アカウントを作成したら、それをサイトに割り当て�
     
 
     > [!IMPORTANT]  
-    > アカウントの追加やアカウントの削除など、Kerberos 認証を変更した後は、Lync Server 管理シェルのコマンドプロンプトから、 <STRONG>Enable-CsTopology</STRONG>方法を実行する必要があります。
+    > アカウントの追加、アカウントの削除など、Kerberos 認証に変更を加えた後、Lync Server 管理シェルコマンドプロンプトから<STRONG>Enable-CsTopology</STRONG>設定を実行する必要があります。
 
     
     </div>

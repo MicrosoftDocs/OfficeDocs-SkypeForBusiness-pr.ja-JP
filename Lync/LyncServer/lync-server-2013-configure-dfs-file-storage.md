@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ファイルの記憶域を構成する'
+title: 'Lync Server 2013: DFS ファイルストレージの構成'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185037
 ms.date: 05/23/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1bbb932a602ad1fc49907be9c5ab2777bc7a415f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d5ce6be2a3fce1f334e9e4b1d14ea41a3dd57a6e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739337"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028648"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-dfs-file-storage-for-lync-server-2013"></a>Lync Server 2013 でファイルの記憶域を構成する
+# <a name="configure-dfs-file-storage-for-lync-server-2013"></a>Lync Server 2013 の DFS ファイル記憶域を構成する
 
 </div>
 
@@ -35,51 +35,51 @@ ms.locfileid: "41739337"
 
 <span> </span>
 
-_**最終更新日:** 2016-05-23_
+_**トピックの最終更新日:** 2016-05-23_
 
-Lync Server 2013 は、分散ファイルシステム (DFS) でのファイル共有の使用をサポートしています。 Windows Server 2008 用の DFS の詳細については、Windows Server 2008 の DFS のステップバイステップガイド[http://go.microsoft.com/fwlink/p/?linkId=202835](http://go.microsoft.com/fwlink/p/?linkid=202835)を参照してください。DFS を使用するには、Lync Server 2013 で次のことを行う必要があります。
+Lync Server 2013 は、分散ファイルシステム (DFS) でのファイル共有の使用をサポートしています。 Windows Server 2008 の DFS の詳細については、「Windows Server 2008 の DFS のステップバイステップガイド[http://go.microsoft.com/fwlink/p/?linkId=202835](http://go.microsoft.com/fwlink/p/?linkid=202835)」を参照してください。DFS を使用するには、Lync Server 2013 に次のものが必要です。
 
-  - 名前空間はドメインベース
+  - 名前空間はドメインベースであること。
 
-  - すべての名前空間サーバーは、少なくとも Windows 2008 を実行しています
+  - すべての名前空間サーバーで Windows 2008 以降を実行すること。
 
-Lync Server 2013 セットアップでは、共有フォルダーに対するアクセス許可を付与して、管理者へのフルアクセスを許可する必要があります。 Lync Server 2013 は、NTFS ファイルのアクセス許可を使用してフォルダーに ACL を設定します。 継承された DFS 共有のアクセス許可は、アクセスを制限するためには使用されません。
+Lync Server 2013 セットアッププログラムを実行するには、共有フォルダーに対するアクセス許可が管理者へのフルアクセスを許可する必要があります。 Lync Server 2013 は、NTFS ファイルアクセス許可を使用してフォルダーに ACL を設定します。 継承された DFS 共有アクセス許可はアクセスの制限に使用されません。
 
-ファイル共有の要件の詳細については、サポートドキュメントの「 [Lync Server 2013 でのファイルストレージのサポート](lync-server-2013-file-storage-support.md)」を参照してください。
+ファイル共有の要件の詳細については、「サポート」のドキュメントの「 [Lync Server 2013 のファイル記憶域サポート](lync-server-2013-file-storage-support.md)」を参照してください。
 
 <div>
 
 
 > [!NOTE]  
-> DFS 以外の共有を構成する方法については、こちらを参照してください。 その場合は、「 <A href="lync-server-2013-hardware-setup.md">Lync Server 2013 用のハードウェアのセットアップ</A>」をご覧ください。
+> 非 DFS 共有を構成する方法については、「」を参照してください。 その場合は、「 <A href="lync-server-2013-hardware-setup.md">Lync Server 2013 のハードウェアセットアップ</A>」を確認してください。
 
 
 
 </div>
 
-次の手順では、DFS 名前空間ウィザードを使用して、共有フォルダーのアクセス許可を適切に構成する方法について説明します (「DFS のセットアップガイド」で説明します)。
+次の手順では、(DFS セットアップ ガイドに示す) DFS 名前空間ウィザードを使用して、共有フォルダー アクセス許可を適切に構成する方法について説明します。
 
 <div>
 
-## <a name="to-configure-shared-folder-permissions"></a>共有フォルダーのアクセス許可を構成するには
+## <a name="to-configure-shared-folder-permissions"></a>共有フォルダー アクセス許可を構成するには
 
-1.  [**スタート**] をクリックし、[**すべてのプログラム**]、[**管理ツール**] の順にポイントして、[ **DFS の管理**] をクリックします。
+1.  [**スタート**] ボタンをクリックし、[**すべてのプログラム**] をポイントします。次に、[**管理ツール**] をポイントし、[**DFS の管理**] をクリックします。
 
-2.  DFS の管理スナップインのコンソールツリーで、名前空間サーバー (たとえば、filesrv1.contoso.com) を右クリックし、[**設定の編集**] をクリックします。
+2.  DFS の管理スナップインのコンソール ツリーで、名前空間サーバー (たとえば、filesrv1.contoso.com) を右クリックし、[**設定の編集**] をクリックします。
 
-3.  [**共有フォルダーの権限**] を選びます。
+3.  [**共有フォルダーのアクセス許可**] を選択します。
 
-4.  [**ユーザー設定の権限を使用する**] を選びます。
+4.  [**カスタムのアクセス許可**] を選択します。
 
-5.  [管理者] グループで、[許可] で次の**よう**に選択します。
+5.  管理者グループの場合、[**許可**] の下で、次の選択を行います。
     
-      - **フルコントロール**
+      - [**フル コントロール**]
     
       - **変更**
     
-      - **モード**
+      - **読み取り**
 
-6.  [**適用**] をクリックし、[ **OK]** をクリックします。
+6.  [**適用**] をクリックし、[**OK**] をクリックします。
 
 </div>
 

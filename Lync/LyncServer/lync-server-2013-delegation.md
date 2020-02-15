@@ -12,20 +12,20 @@ ms:contentKeyID: 51803956
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8da9568ae4cd613dcba0760fb4a8b20295fbb68d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a9d9f5473f94f093d92cce1b4664f54d6f32430d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739807"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028518"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="delegation-in-lync-server-2013"></a>Lync Server 2013 の委任
+# <a name="delegation-in-lync-server-2013"></a>Lync Server 2013 での委任
 
 </div>
 
@@ -35,24 +35,24 @@ ms.locfileid: "41739807"
 
 <span> </span>
 
-_**最終更新日:** 2013-03-09_
+_**トピックの最終更新日:** 2013-03-09_
 
-Lync の委任機能は、次のような方法で位置情報に基づくルーティングによって影響を受けます。
+Lync の委任機能は、次の方法で場所に基づくルーティングによって影響を受けます。
 
-  - 位置情報に基づくルーティングを有効にした代理人が管理者の代わりに通話を発信する場合、代理人のボイスポリシーを使って通話を承認し、代理人のサイトボイスルーティングポリシーを使って通話をルーティングします。
+  - 場所に基づくルーティングを有効にした代理人が上司に代わって呼び出しを行う場合は、代理人の音声ポリシーを使用して通話を承認し、代理人のサイトの音声ルーティングポリシーを使用して通話をルーティングします。
 
-  - マネージャーへの着信 PSTN 通話については、通話の転送または同時呼び出しに適用されるのと同じルールが適用されます (着信の転送と通話の転送および同時呼び出しのトピックを参照してください)。
+  - マネージャーへの PSTN 通話の着信の場合、通話の転送と同時呼び出しの場合と同じ規則が、「通話の転送と転送と同時呼び出し」のトピックで説明しているとおりに適用されます。
 
-  - 代理人がマネージャーへの着信通話に対して PSTN エンドポイントを同時呼び出しターゲットとして設定すると、代理人の PSTN エンドポイントへの通話のルーティングに、受信トランクに関連付けられたサイトの音声ルーティング ポリシーが使用されます。
+  - 代理人が PSTN エンドポイントを同時呼び出しターゲットとして設定している場合、マネージャーへの着信呼び出しでは、着信トランクに関連付けられているサイトの音声ルーティングポリシーを使用して、代理人の PSTN エンドポイントに通話をルーティングします。
 
-  - 委任に関して、通常はマネージャーとその関連付けられた代理人を同じネットワーク サイトに配置することをお勧めします。
+  - 委任では、管理者とその関連付けられた代理人を、通常同じネットワークサイトに配置することをお勧めします。
 
 <div>
 
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 の場所に基づくルーティングのシナリオ](lync-server-2013-scenarios-for-location-based-routing.md)  
+[Lync Server 2013 での場所に基づくルーティングのシナリオ](lync-server-2013-scenarios-for-location-based-routing.md)  
   
 
 </div>

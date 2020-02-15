@@ -12,16 +12,16 @@ ms:contentKeyID: 48183668
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6aef41f14b37d2a21fa747bb14132bd6e9ba93ad
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 243e8d44cb5d6e3662c51c643a86cc9379ee958b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735007"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028628"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41735007"
 
 <span> </span>
 
-_**最終更新日:** 2012-06-19_
+_**トピックの最終更新日:** 2012-06-19_
 
-組織内の Active Directory ドメインサービス (AD DS) の資格情報を持つ Lync Server 2013 ユーザーは、暗証番号 (PIN) を使って、認証されたユーザーとしてダイヤルイン会議に参加できます。 PIN ポリシーは、ダイヤルイン会議 PIN がどのように機能するかについてのルールを定義します。
+Lync Server 2013 組織内の Active Directory ドメインサービス (AD DS) の資格情報を持つユーザーは、個人識別番号 (PIN) を使用して、認証されたユーザーとしてダイヤルイン会議に参加できます。 PIN ポリシーは、ダイヤルイン会議の Pin の動作規則を定義します。
 
-特定のポリシーをサイトまたは特定のユーザー グループに適用する場合は、新しい PIN ポリシーを作成できます。 組織全体で同じ PIN ポリシーを使用する場合は、グローバル PIN ポリシーを使用でき、必要に応じて変更することもできます。 PIN ポリシーは、最も狭いスコープから最も広いスコープまでのどのスコープでも、ユーザーに適用されます。 ユーザーレベルの PIN ポリシーをユーザーに割り当てると、それらの設定は優先権を持ちます。 ユーザー ポリシーを割り当てない場合は、サイトレベルの PIN ポリシーがあれば、そのポリシーが適用されます。 ユーザー ポリシーもサイト ポリシーも適用されていない場合は、グローバル PIN ポリシーが既定の設定を提供します。
+特定のポリシーをサイトまたは特定のユーザーグループに適用する場合は、新しい PIN ポリシーを作成できます。 組織全体で同じ PIN ポリシーを使用する場合は、グローバル PIN ポリシーを使用して、必要に応じて変更することができます。 PIN ポリシーは、最も狭いスコープから最も広いスコープへのユーザーに適用されます。 ユーザーレベルの PIN ポリシーをユーザーに割り当てると、それらの設定が優先されます。 ユーザーポリシーを割り当てない場合は、サイトレベルの PIN ポリシーが適用されます (存在する場合)。 ユーザーポリシーまたはサイトポリシーが適用されていない場合は、グローバル PIN ポリシーが既定の設定を提供します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
   - [Lync Server 2013 での既定のダイヤルイン会議の PIN 設定の変更](lync-server-2013-modify-the-default-dial-in-conferencing-pin-settings.md)
 
-  - [サイトまたはユーザーのグループ向けに Lync Server 2013 でダイヤルイン会議の PIN 設定を作成または変更する](lync-server-2013-create-or-modify-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users.md)
+  - [サイトまたはユーザーのグループに対して Lync Server 2013 でダイヤルイン会議の PIN 設定を作成または変更する](lync-server-2013-create-or-modify-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users.md)
 
-  - [Lync Server 2013 でサイトまたはユーザーのグループのダイヤルイン会議の PIN 設定を削除する](lync-server-2013-delete-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users.md)
+  - [Lync Server 2013 で、サイトまたはユーザーのグループのダイヤルイン会議の PIN 設定を削除する](lync-server-2013-delete-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users.md)
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48185226
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2721f88ce703fe4c26fbc7a9a6cd02cdde6b14a8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d0eeb3feda41a62472c79214681bc4b9ce0a22ee
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762755"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029638"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="defining-your-mobility-requirements-for-lync-server-2013"></a>Lync Server 2013 でのモビリティの要件の定義
+# <a name="defining-your-mobility-requirements-for-lync-server-2013"></a>Lync Server 2013 のモビリティ要件の定義
 
 </div>
 
@@ -35,37 +35,37 @@ ms.locfileid: "41762755"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-14_
+_**トピックの最終更新日:** 2013-02-14_
 
     Some information in this topic pertains to Cumulative Updates for Lync Server 2013: February 2013.
 
-Lync 2010 Mobile および Lync 2013 モバイルクライアントを使用している場合、Lync Server 2013 のモバイル機能の計画フェーズでは、展開の手順を決定する意思決定を行います。
+Lync 2010 Mobile および Lync 2013 Mobile クライアントを使用している場合は、Lync Server 2013 モビリティ機能の計画フェーズで、展開の手順を決定する決定を行います。
 
 考慮する必要がある決定事項は次のとおりです。
 
-  - **Lync モバイルクライアントの自動検出を使用しますか?**
+  - **Lync モバイル クライアントで、自動検出を使用しますか。**
     
-    自動検出をサポートする必要がある場合は、新しい内部および外部ドメインネームシステム (DNS) レコードを作成し、フロントエンドサーバー、ディレクター、リバースプロキシ上の証明書にサブジェクトの代替名を追加して、既存の公開ルールを変更する必要があります。リバースプロキシ。 詳細については、「 [Lync Server 2013 でのモビリティの技術要件](lync-server-2013-technical-requirements-for-mobility.md)」を参照してください。 自動検出を使用すると、ユーザーは、モバイルデバイスの設定で Url を入力しなくても、企業ネットワークの内外の任意の場所から Lync Server 2013 Web サービスを自動的に見つけることができます。
+    自動検出をサポートする必要がある場合は、新しい内部および外部のドメインネームシステム (DNS) レコードを作成し、フロントエンドサーバー、ディレクター、リバースプロキシの証明書にサブジェクトの別名を追加して、既存の公開ルールを変更する必要があります。リバースプロキシで。 詳細については、「 [Lync Server 2013 でのモビリティの技術要件](lync-server-2013-technical-requirements-for-mobility.md)」を参照してください。 自動検出を使用すると、ユーザーは、モバイルデバイスの設定に Url を入力することなく、企業ネットワークの内外にある任意の場所から Lync Server 2013 Web サービスを自動的に検索できます。
     
-    自動検出の代わりに手動の設定を使用する場合、モバイルユーザーは、モバイルデバイスに次の Url を手動で入力する必要があります。
+    自動検出の代わりに手動設定を使用する場合、モバイルユーザーはモバイルデバイスに以下の Url を手動で入力する必要があります。
     
-      - 外部\<アクセス用の\>Https://extpoolfqdn/Autodiscover/autodiscoverservice.svc/Root
+      - 外部\<アクセス用の\>Https://extpoolfqdn/autodiscover/autodiscoverservice.svc/root (
     
-      - https://\<intpoolfqdn\>/AutoDiscover/autodiscoverservice、内部アクセス用のルート
+      - https://\<intpoolfqdn\>/AutoDiscover/autodiscoverservice 内部アクセス用のルート
     
-    自動検出を使用することを強くお勧めします。 手動設定の主な用途は、トラブルシューティングです。
+    自動検出を使用することを強くお勧めします。手動設定を使用するのは、主にトラブルシューティングを行う場合です。
 
-  - **自動検出をサポートすることにした場合、リバースプロキシの証明書を各 SIP ドメインのサブジェクト別の名前を使用して更新する必要がありますか?**
+  - **自動検出のサポートを決めた場合は、SIP ドメインごとにサブジェクトの別名でリバース プロキシ上の証明書を更新しますか。**
     
-    SIP ドメインが多い場合は、リバースプロキシのパブリック証明書を更新すると非常にコストがかかることがあります。 この場合は、自動検出を実装して、HTTPS をポート443で使う代わりに、最初の自動検出サービス要求でポート80に対して HTTP を使うようにすることができます。 ただし、この方法はお勧めできません。 この代替を選択する場合は、リバースプロキシで証明書を更新する必要はありませんが、HTTP 用の web 公開ルールは、ポート80で作成する必要があります。 詳細については、「 [Lync Server 2013 でのモビリティの技術要件](lync-server-2013-technical-requirements-for-mobility.md)」を参照してください。
+    SIP ドメインが多い場合、リバース プロキシ上のパブリック証明書の更新は非常に高コストになる可能性があります。 その場合は、ポート443で HTTPS を使用するのではなく、最初の自動検出サービス要求がポート80で HTTP を使用するように自動検出を実装することを選択できます。 ただし、これは推奨されている方法ではありません。 この代替方法を選択する場合は、リバースプロキシの証明書を更新する必要はありませんが、ポート80で HTTP 用の web 公開ルールを作成する必要があります。 詳細については、「 [Lync Server 2013 でのモビリティの技術要件](lync-server-2013-technical-requirements-for-mobility.md)」を参照してください。
 
-  - **企業ネットワークの内部と外部の両方の Lync モバイルクライアントをサポートしますか。または企業ネットワーク内でのみサポートされているクライアントをサポートしますか?**
+  - **企業ネットワークの内外で Lync モバイル クライアントをサポートしますか。または企業ネットワークの内部のみでクライアントをサポートしますか。**
     
-    ネットワークの内部と外部のモバイルクライアントをサポートしたい場合、モバイルデバイスはどこからでもモビリティ機能にアクセスできます。 既定の構成では、社内ネットワークと社外のクライアントの両方をサポートします。
+    企業ネットワークの内外でモバイル クライアントをサポートする場合は、モバイル デバイスはどの場所からでもモビリティ機能にアクセスできます。既定の構成は、企業ネットワークの内外でクライアントをサポートするようになっています
     
-    既定の構成では、モバイルクライアントトラフィックが外部サイトを通過できるようになりますが、モバイルクライアントトラフィックを内部の企業ネットワークに制限することができます。 内部ネットワークへのトラフィックを制限すると、ユーザーは、ネットワーク内にいるときにのみ、モバイルデバイスで Lync モバイルアプリケーションを使用できます。
+    既定の構成では、モバイル クライアントのトラフィックが外部サイトを経由することを許可していますが、モバイル クライアントのトラフィックを内部企業ネットワークに制限することができます。 トラフィックを内部ネットワークに制限すると、モバイル デバイスが企業ネットワーク内に存在する場合に限り、ユーザーはそのモバイル デバイス上で Lync モバイル アプリケーションを使用できます。
     
-    Mcx mobility service と Lync 2010 Mobile を使ったモビリティをサポートする展開の場合は、 **Set-CsMcxConfiguration**コマンドレットを実行します。 内部使用のためだけにモバイル機能を設定するには、次のようなコマンドを使用します。
+    Mcx mobility service と Lync 2010 Mobile を使用したモビリティをサポートする展開では、 **Set-CsMcxConfiguration**コマンドレットを実行します。 内部使用のみのモビリティを設定するには、次のようなコマンドを使用します。
     
         Set-CsMcxConfiguration -Identity site:Redmond -ExposedWebURL Internal
     
@@ -73,7 +73,7 @@ Lync 2010 Mobile および Lync 2013 モバイルクライアントを使用し�
     
 
     > [!NOTE]  
-    > UCWA には、その他の構成は必要ありません。 UCWA には、相当する内部専用構成がありません。
+    > UCWA には、追加の構成は必要ありません。 UCWA には、それに相当する内部のみの構成がありません。
 
     
     </div>
@@ -82,40 +82,40 @@ Lync 2010 Mobile および Lync 2013 モバイルクライアントを使用し�
     
 
     > [!IMPORTANT]  
-    > Lync Server&nbsp;2013 フロントエンドサーバーまたはフロントエンドプールを使用してい<STRONG></STRONG>て、Lync Server 2010&nbsp;フロントエンドサーバーまたはフロントエンドプールを使っていない場合は、 <STRONG>cookie ベースの常設は必要ありませ</STRONG>ん。 Lync Server 2010&nbsp;フロントエンドサーバーまたはフロントエンドプールを保持する必要がある場合は、依然として、cookie ベースの常設用に lync server 2010 の場合と同じ規則が適用されます。
+    > Lync server 2013&nbsp;フロントエンドサーバーまたはフロントエンドプールを使用していて、lync server&nbsp;2010 フロントエンドサーバーまたはフロントエンドプールを使用して<STRONG>いない</STRONG>場合は、 <STRONG>cookie ベースの永続化の要件はありません</STRONG>。 Lync Server 2010&nbsp;のフロントエンドサーバーまたはフロントエンドプールを保持する必要がある場合は、引き続き、cookie ベースの永続化のために lync server 2010 の場合と同じルールが適用されます。
 
     
     </div>
 
-  - **Apple iOS デバイスと Windows Phone のプッシュ通知をサポートしますか?**
+  - **Apple iOS デバイスと Windows Phone でプッシュ通知をサポートしますか。**
     
-    プッシュ通知をサポートしている場合、サポートされている Apple iOS デバイスと Windows Phone は、モバイルアプリケーションが非アクティブなときに発生するイベントの通知を受け取ります。 エッジサーバーは、Lync Online データセンターにあるクラウドベースの Lync Server プッシュ通知サービスとのフェデレーション関係を持ち、プッシュ通知を有効にするコマンドレットを実行するように構成する必要があります。
+    プッシュ通知をサポートすると、サポートされている Apple iOS デバイスと Windows Phone は、モバイル アプリケーションが非アクティブな場合に発生するイベントの通知を受け取ります。 Lync Online データセンターにあるクラウドベースの Lync Server プッシュ通知サービスとのフェデレーション関係を持つようにエッジサーバーを構成し、コマンドレットを実行してプッシュ通知を有効にする必要があります。
     
-    Wi-fi ネットワーク経由でのプッシュ通知をサポートする場合は、モバイルデバイスプロバイダーの3G またはデータネットワーク経由でのプッシュ通知のサポートに加えて、エンタープライズ Wi-fi ネットワークでポート5223を開く必要があります。 Wi-fi ネットワーク経由でのプッシュ通知のサポートには、不適切な室内受信の Wi-fi とモバイルデバイスのみを使用するモバイルデバイスがサポートされています。
+    Wi-fi ネットワーク経由のプッシュ通知をサポートする必要がある場合は、モバイルデバイスプロバイダーの3G またはデータネットワークでプッシュ通知をサポートすることに加えて、エンタープライズ Wi-fi ネットワーク上でポート5223アウトを開く必要があります。 Wi-Fi ネットワークでプッシュ通知をサポートすると、Wi-Fi のみを使用するモバイル デバイスと室内での受信が弱いモバイル デバイスがサポートされます。
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Lync 2010 モバイルクライアントを実行している Apple デバイスをサポートしている場合にのみ、ポート TCP 5223 を開く必要があります。
+    > Lync 2010 モバイルクライアントを実行している Apple デバイスをサポートする場合にのみ、ポート TCP 5223 を開く必要があります。
 
     
     </div>
     
-    プッシュ通知がサポートされていない場合は、Apple モバイルデバイスおよび Windows Phone のユーザーは、モバイルアプリケーションが非アクティブなときに発生する、インスタントメッセージの招待状や不在着信メッセージなどのイベントについては検出されません。
+    プッシュ通知をサポートしていない場合、Apple モバイルデバイスおよび Windows Phone のユーザーは、モバイルアプリケーションが非アクティブな場合に発生するインスタントメッセージの招待や不在着信メッセージなどのイベントについては確認できません。
     
     <div>
     
 
     > [!NOTE]  
-    > Apple デバイス上の Lync 2013 モバイルクライアントでは、プッシュ通知は必要ありません。 Windows Phone の Lync 2013 モバイルクライアントでは、プッシュ通知が使われます。 プッシュ通知の計画とプッシュ通知のクリアリングハウスは、Lync 2013 モバイルクライアントを実行できない Windows Phone および Apple デバイス上の Lync Mobile でも同じです。
+    > Apple デバイス上の Lync 2013 モバイルクライアントは、プッシュ通知を必要としません。 Windows Phone 上の Lync 2013 モバイルクライアントは、プッシュ通知を使用します。 プッシュ通知およびプッシュ通知クリアリングハウスの計画は、lync 2013 Mobile クライアントを実行できない Windows Phone および Apple のデバイス上の Lync Mobile に対して同じままです。
 
     
     </div>
 
-  - **すべてのユーザーがモビリティ機能にアクセスできるようにするか、これらの機能にアクセスできるユーザーを指定できるようにする必要がありますか。**
+  - **すべてのユーザーがモビリティ機能にアクセスできるようにするか、またはこれらの機能にアクセスできるユーザーを指定できるようにしますか。**
     
-    この表では、Lync Server 2013 でユーザーが使用できる機能について説明します。 既定では、勤務先での通話が許可され、ボイスオーバー IP (VoIP) が許可され、モビリティが有効になります。 使用可能なオプションの全セットを次に示します。
+    Lync Server 2013 でユーザーが使用できる機能について説明します。 既定では、勤務先から通話、ボイスオーバー IP (VoIP) を許可、モビリティを有効にできます。 利用可能なオプションの全セットを次に示します。
     
     
     <table>
@@ -126,66 +126,66 @@ Lync 2010 Mobile および Lync 2013 モバイルクライアントを使用し�
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Feature/Parameter Name/Scope (ポリシーパラメーター名は同じではない可能性があります)</th>
+    <th>Feature/Parameter Name/Scope (ポリシーパラメーター名が同じではない可能性があります)</th>
     <th>説明</th>
-    <th>導か</th>
+    <th>導入</th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
     <td><p>モビリティを有効にする</p>
     <p>パラメーター名:<code>EnableMobility</code></p>
-    <p>スコープ: グローバル/サイト/ユーザー</p></td>
-    <td><p>管理者設定 Lync Mobile がインストールされている特定のスコープでユーザーを制御するには、ポリシーを False に設定すると、ユーザーはクライアントにサインインできなくなります。</p>
-    <p>既定の設定は True です。</p></td>
-    <td><p>Lync Server 2010 の累積更新プログラム: 2011 年11月</p></td>
+    <p>範囲: グローバル/サイト/ユーザー</p></td>
+    <td><p>管理者設定 Lync Mobile がインストールされている特定のスコープ内のユーザーを制御するには、ポリシーが False に設定されている場合、ユーザーはクライアントにサインインできません。</p>
+    <p>既定値は True です。</p></td>
+    <td><p>Lync Server 2010 の累積的な更新プログラム:11 月2011</p></td>
     </tr>
     <tr class="even">
     <td><p>外部音声を有効にする</p>
     <p>パラメーター名:<code>EnableOutsideVoice</code></p>
-    <p>スコープ: グローバル/サイト/ユーザー</p></td>
-    <td><p>勤務先のユーザーが通話を使用する機能を制御します。この機能は、ユーザーが携帯電話番号の代わりに勤務先の電話番号を使って通話を発信および受信できるようにします。 False に設定した場合、ユーザーはモバイルデバイスから勤務先の電話番号を使用して通話を発信または受信することができなくなります。</p>
-    <p>既定の設定は True です。</p></td>
-    <td><p>Lync Server 2010 の累積更新プログラム: 2011 年11月</p></td>
+    <p>範囲: グローバル/サイト/ユーザー</p></td>
+    <td><p>ユーザーが携帯電話番号ではなく勤務先番号を使用して通話を発信または受信できるようにする機能を、勤務先から通話を使用できるように制御します。 False に設定されている場合、ユーザーはモバイルデバイスから自分の勤務先番号を使用して通話を発信または受信できません。</p>
+    <p>既定値は True です。</p></td>
+    <td><p>Lync Server 2010 の累積的な更新プログラム:11 月2011</p></td>
     </tr>
     <tr class="odd">
-    <td><p>IP オーディオと IP ビデオを有効にする</p>
+    <td><p>IP オーディオおよびビデオを有効にする</p>
     <p>パラメーター名:<code>EnableIPAudioVideo</code></p>
-    <p>スコープ: グローバル/サイト/ユーザー</p></td>
-    <td><p>ユーザーがモバイルデバイスで VoIP を使用して音声通話またはビデオ通話を受信できるようにするかどうかを制御します。 False に設定すると、ユーザーはデバイスで VoIP またはビデオ通話を発信または受信できなくなります。</p>
-    <p>既定の設定は True です。</p></td>
+    <p>範囲: グローバル/サイト/ユーザー</p></td>
+    <td><p>ユーザーが VoIP を使用して、モバイルデバイスで音声またはビデオ通話を発信または受信できるようにするかどうかを制御します。 False に設定されている場合、ユーザーはデバイス上で VoIP またはビデオ通話を発信または受信できません。</p>
+    <p>既定値は True です。</p></td>
     <td><p>Microsoft Lync Server 2013</p></td>
     </tr>
     <tr class="even">
-    <td><p>IP オーディオ用の WiFi が必要</p>
+    <td><p>IP オーディオに WiFi が必要</p>
     <p>パラメーター名:<code>RequireWiFiForIPAudio</code></p>
-    <p>スコープ: グローバル/サイト/ユーザー</p></td>
-    <td><p>この設定は、携帯電話のデータネットワークではなく、WiFi 上の VoIP 経由での通話の発信と受信をクライアントが必要とするかどうかを定義します。 True に設定すると、ユーザーは WiFi ネットワークに接続している場合にのみ VoIP 通話を発信および受信できます。</p>
-    <p>既定の設定は False です。</p></td>
+    <p>範囲: グローバル/サイト/ユーザー</p></td>
+    <td><p>この設定では、携帯データネットワークではなく、Wi-fi で VoIP 経由の通話を発信および受信するためにクライアントが必要かどうかを定義します。 True に設定すると、ユーザーは WiFi ネットワークに接続されている場合にのみ VoIP 通話を発信および受信できるようになります。</p>
+    <p>既定値は False です。</p></td>
     <td><p>Microsoft Lync Server 2013</p></td>
     </tr>
     <tr class="odd">
-    <td><p>IP ビデオ用の WiFi が必要</p>
+    <td><p>IP ビデオに WiFi が必要</p>
     <p>パラメーター名:<code>RequireWiFiForIPVideo</code></p>
-    <p>スコープ: グローバル/サイト/ユーザー</p></td>
-    <td><p>この設定は、携帯電話のデータネットワークではなく、wi-fi でのビデオ通話の発信と受信をクライアントが要求するかどうかを定義します。 True に設定した場合、ユーザーは、Wi-fi ネットワークに接続されているときにのみビデオ通話を発信および受信できます。</p>
-    <p>既定の設定は False です。</p></td>
+    <p>範囲: グローバル/サイト/ユーザー</p></td>
+    <td><p>この設定では、携帯データネットワークではなく、Wi-fi でビデオ通話を発信および受信するためにクライアントが必要かどうかを定義します。 True に設定すると、ユーザーは Wi-fi ネットワークに接続されている場合にのみ、ビデオ通話を発信および受信できます。</p>
+    <p>既定値は False です。</p></td>
     <td><p>Microsoft Lync Server 2013</p></td>
     </tr>
     </tbody>
     </table>
     
-    構成可能なポリシー設定とポリシーの管理方法の説明については、「 [New-set-csmobilitypolicy](https://docs.microsoft.com/powershell/module/skype/New-CsMobilityPolicy)、 [Set-set-csmobilitypolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsMobilityPolicy)、 [Get-set-csmobilitypolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsMobilityPolicy)、 [Grant-set-csmobilitypolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsMobilityPolicy) 、 [Remove-set-csmobilitypolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsMobilityPolicy)」を参照してください。
+    構成できるポリシー設定、およびポリシーを管理する方法については、「 [get-csmobilitypolicy](https://docs.microsoft.com/powershell/module/skype/New-CsMobilityPolicy)」、「 [get-csmobilitypolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsMobilityPolicy)」、「 [get-csmobilitypolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsMobilityPolicy)」、「 [Get-csmobilitypolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsMobilityPolicy) 」、および「 [Remove-get-csmobilitypolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsMobilityPolicy)」を参照してください。
 
-  - **エンタープライズ Voip が有効になっていないユーザーが、クリックして会議に参加できるようにしますか?**
+  - **エンタープライズ VoIP が有効になっていないユーザーが、クリックして参加を使用して会議に参加できるようにしますか。**
     
-    ユーザーがモバイル機能にアクセスし、勤務先から通話を発信できるようにするには、エンタープライズ Voip を有効にする必要があります。 ただし、エンタープライズ Voip を有効にしていないユーザーは、モバイルデバイス上のリンクをクリックすると、適切な音声ポリシーが割り当てられている場合に、会議に参加できます。 特定のボイスポリシーをこれらのユーザーに割り当てるか、グローバルポリシーまたはサイトレベルのポリシーが存在していることを確認することができます。 割り当てるボイスポリシーには、公衆交換電話網 (PSTN) 利用状況レコードと、ユーザーが電話会議にダイヤルアウトできる領域を定義するルートが含まれている必要があります。 ボイスポリシー、PSTN 使用状況レコード、およびルートの設定の詳細については、「 [Lync Server 2013 で音声ポリシー、pstn 使用状況レコード、および音声ルートを構成する](lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md)」を参照してください。
+    モビリティ機能や勤務先電話からの通話機能にアクセスできるユーザーは、エンタープライズ VoIP が有効になっている必要があります。 ただし、エンタープライズ Voip が有効になっていないユーザーは、適切な音声ポリシーが割り当てられている場合は、モバイルデバイスでリンクをクリックすることで会議に参加できます。 特定の音声ポリシーをこれらのユーザーに割り当てるか、グローバルポリシーまたはサイトレベルのポリシーが適用されるようにすることができます。 割り当てる音声ポリシーには、公衆交換電話網 (PSTN) 使用法レコードと、ユーザーが会議に参加するためにダイヤルアウトできる領域を定義するルートがある必要があります。 音声ポリシー、PSTN 使用法レコード、およびルートの設定の詳細については、「 [Lync Server 2013 での音声ポリシー、pstn 使用法レコード、およびボイスルートの構成](lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md)」を参照してください。
     
     <div>
     
 
     > [!NOTE]  
-    > クリックして参加したいモバイルユーザーは、モバイルデバイスでリンクをクリックすると、Lync Server 2013 からの発信通話が発生するため、音声ポリシーと関連する PSTN 使用状況レコードと音声ルートが必要になります。
+    > モバイルデバイス上のリンクをクリックすると Lync Server 2013 からの発信通話が発生するため、クリックして参加するモバイルユーザーには音声ポリシーと関連する PSTN 使用法レコードおよび音声ルートが必要です。
 
     
     </div>
@@ -198,7 +198,7 @@ Lync 2010 Mobile および Lync 2013 モバイルクライアントを使用し�
 [Lync Server 2013 でのモビリティの技術要件](lync-server-2013-technical-requirements-for-mobility.md)  
 
 
-[Lync Server 2013 での音声ポリシー、PSTN 使用状況レコード、および音声ルートの構成](lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md)  
+[Lync Server 2013 での音声ポリシー、PSTN 使用法レコード、およびボイスルートの構成](lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md)  
   
 
 </div>

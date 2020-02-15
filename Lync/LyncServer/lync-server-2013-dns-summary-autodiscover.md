@@ -12,20 +12,20 @@ ms:contentKeyID: 51541504
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6ed7d6edb44ebca8656a50aec432fe3c0ac669d8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 236a3625b755697580e57c926dd5714a44c0347f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737347"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029578"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---autodiscover-in-lync-server-2013"></a>DNS 概要-Lync Server 2013 での自動検出
+# <a name="dns-summary---autodiscover-in-lync-server-2013"></a>DNS の概要-Lync Server 2013 での自動検出
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41737347"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-13_
+_**トピックの最終更新日:** 2013-02-13_
 
-自動検出は、HTTP または HTTPS 経由での通信を受け付ける、柔軟なサービスです。 これを実現するために、ドメインネームシステム (DNS) と自動検出サービスをホストするサーバーによって使われる証明書が正しく構成されている必要があります。 証明書の要件については[、「証明書の概要-Lync Server 2013 での自動検出](lync-server-2013-certificate-summary-autodiscover.md)」で説明します。
+自動検出は、HTTP または HTTPS を経由した通信を受け付ける、柔軟なサービスです。 これを実現するには、ドメインネームシステム (DNS) と自動検出サービスをホストするサーバーで使用される証明書が正しく構成されている必要があります。 証明書の要件は[、「証明書の概要-Lync Server 2013 での自動検出](lync-server-2013-certificate-summary-autodiscover.md)」で説明されています。
 
 <div>
 
 
 > [!IMPORTANT]  
-> Lync Server クライアントの DNS 検索ロジックは、特定の解決方法を使用します。 常に lyncdiscoverinternal の両方が含まれている必要があります。&lt;ドメイン&gt;と lyncdiscover&lt;DNS&gt;でドメインを選びます。 Lyncdiscoverinternal を除外します。&lt;ドメイン&gt;レコードを使用すると、内部クライアントは、目的のサービスに接続できないか、または正しくない自動検出応答を受信します。
+> Lync Server クライアントの DNS 参照ロジックでは、特定の順序で解決されます。 常に lyncdiscoverinternal を含める必要があります。&lt;ドメイン&gt;および lyncdiscover。&lt;DNS&gt;のドメイン。 Lyncdiscoverinternal を除外します。&lt;ドメイン&gt;レコードを使用すると、内部クライアントは、目的のサービスへの接続を失敗させたり、誤った自動検出応答を受信したりします。
 
 
 
@@ -68,18 +68,18 @@ _**最終更新日:** 2013-02-13_
 <tr class="odd">
 <td><p>CNAME</p></td>
 <td><p>Lyncdiscoverinternal.&lt;内部ドメイン名&gt;</p></td>
-<td><p>ディレクタープールがある場合は、そのディレクタープールの内部 Web サービス FQDN。ディレクターを持っていない場合は、フロントエンドプールにも使用できます。</p></td>
+<td><p>ディレクターを所有していない場合は、ディレクタープールの内部 Web サービスの FQDN、またはディレクターを持っていない場合はフロントエンドプール用。</p></td>
 </tr>
 <tr class="even">
 <td><p>A (IPv6 の場合は host、AAAA の場合)</p></td>
 <td><p>lyncdiscoverinternal.&lt;内部ドメイン名&gt;</p></td>
-<td><p>ディレクターを持っていない場合は、ディレクタープールの内部 Web サービス IP アドレス (ロードバランサーを使用している場合は仮想 IP (VIP) のアドレス)。ディレクターを持っていない場合は、フロントエンドプールを所有している場合は、このアドレスを使用します。</p></td>
+<td><p>ディレクタープールがある場合、ディレクタープールの内部 Web サービス IP アドレス (ロードバランサーを使用する場合は仮想 IP (VIP) アドレス) (ディレクターを持っていない場合は、フロントエンドプールがある場合)。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-次のいずれかの外部 DNS レコードを作成する必要があります。
+次の外部 DNS レコードの 1 つを作成する必要があります。
 
 ### <a name="external-dns-records"></a>外部 DNS レコード
 
@@ -99,12 +99,12 @@ _**最終更新日:** 2013-02-13_
 <tbody>
 <tr class="odd">
 <td><p>CNAME</p></td>
-<td><p>lyncdiscover.&lt;sipdomain&gt;</p></td>
-<td><p>ディレクタープールを所有している場合は、そのディレクタープールの外部 Web サービス FQDN。ディレクターを持っていない場合は、フロントエンドプールに対応する必要があります。</p></td>
+<td><p>lyncdiscover.&lt;microsoft.rtc.management.xds.sipdomain&gt;</p></td>
+<td><p>ディレクターが存在しない場合は、ディレクタープールの外部 Web サービスの FQDN、またはディレクターを持っていない場合はフロントエンドプール。</p></td>
 </tr>
 <tr class="even">
 <td><p>A (IPv6 の場合は host、AAAA の場合)</p></td>
-<td><p>lyncdiscover.&lt;sipdomain&gt;</p></td>
+<td><p>lyncdiscover.&lt;microsoft.rtc.management.xds.sipdomain&gt;</p></td>
 <td><p>リバースプロキシの外部またはパブリック IP アドレス。</p></td>
 </tr>
 </tbody>
@@ -115,7 +115,7 @@ _**最終更新日:** 2013-02-13_
 
 
 > [!NOTE]  
-> 外部トラフィックはリバースプロキシ経由で送信されます。
+> 外部トラフィックはリバース プロキシを経由します。
 
 
 
@@ -125,7 +125,7 @@ _**最終更新日:** 2013-02-13_
 
 
 > [!NOTE]  
-> モバイルデバイスクライアントは、異なるドメインからの複数の Secure Sockets Layer (SSL) 証明書をサポートしていません。 したがって、異なるドメインへの CNAME リダイレクションは HTTPS 経由ではサポートされません。 たとえば、director.contoso.net のアドレスにリダイレクトされる lyncdiscover.contoso.com の DNS CNAME レコードは HTTPS ではサポートされません。 このようなトポロジでは、モバイルデバイスクライアントは、最初の要求に対して HTTP を使う必要があるため、CNAME リダイレクションが HTTP で解決されます。 それ以降の要求では HTTPS を使用します。 このシナリオをサポートするには、ポート 80 (HTTP) 用の web 公開ルールを使用してリバースプロキシを構成する必要があります。 詳細については、「 <A href="lync-server-2013-configuring-the-reverse-proxy-for-mobility.md">Lync Server 2013 でモビリティのリバースプロキシを構成</A>する」の「ポート80用の web 公開ルールを作成するには」を参照してください。 同じドメインへの CNAME リダイレクションは HTTPS 経由でサポートされています。 この場合、宛先ドメインの証明書は元のドメインを対象としています。
+> モバイル デバイスのクライアントでは、異なるドメインからの複数の SSL (Secure Sockets Layer) 証明書がサポートされません。 つまり、HTTPS では、異なるドメインへの CNAME のリダイレクトがサポートされません。 たとえば、director.contoso.net のアドレスにリダイレクトされる lyncdiscover.contoso.com の DNS CNAME レコードは、HTTPS ではサポートされません。 このようなトポロジでは、CNAME のリダイレクトが HTTP で解決されるように、モバイル デバイスのクライアントは、最初の要求に対して HTTP を使用する必要があります。 その後、以降の要求については HTTPS を使用します。 このシナリオをサポートするには、ポート 80 (HTTP) の Web 公開ルールを使用して、リバース プロキシを構成する必要があります。 詳細については、「 <A href="lync-server-2013-configuring-the-reverse-proxy-for-mobility.md">Lync Server 2013 でモビリティのリバースプロキシを構成</A>する」の「ポート80の web 公開ルールを作成するには」を参照してください。 HTTPS では、同じドメインへの CNAME のリダイレクトはサポートされます。 この例では、宛先ドメインの証明書が元のドメインを対象としています。
 
 
 
@@ -136,7 +136,7 @@ _**最終更新日:** 2013-02-13_
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 での、モビリティに合わせたリバース プロキシの構成](lync-server-2013-configuring-the-reverse-proxy-for-mobility.md)  
+[Lync Server 2013 でのモビリティのリバースプロキシの構成](lync-server-2013-configuring-the-reverse-proxy-for-mobility.md)  
 
 
 [証明書の概要-Lync Server 2013 での自動検出](lync-server-2013-certificate-summary-autodiscover.md)  

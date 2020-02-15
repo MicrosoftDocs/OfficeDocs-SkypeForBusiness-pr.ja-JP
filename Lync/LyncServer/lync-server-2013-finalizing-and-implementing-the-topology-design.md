@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: トポロジ設計の完了と実装'
+title: 'Lync Server 2013: トポロジ設計の最終処理および実装'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183403
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 217857cf0699b68ef3a0daf63bfc0b658258c480
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 88ffdc547bf0caed9b10f6555e2c56f03b50f467
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765365"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028468"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="finalizing-and-implementing-the-topology-design-in-lync-server-2013"></a>Lync Server 2013 でのトポロジ設計の完了と実装
+# <a name="finalizing-and-implementing-the-topology-design-in-lync-server-2013"></a>Lync Server 2013 でのトポロジ設計の最終処理および実装
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41765365"
 
 <span> </span>
 
-_**最終更新日:** 2012-06-19_
+_**トピックの最終更新日:** 2012-06-19_
 
-環境の準備が完了したら、トポロジの設計を完了して実装する準備が整いました。 これには、トポロジビルダーを使用してトポロジを公開する方法が含まれます。これは、Lync Server 2013 サーバーの役割をインストールするために必要です。
+環境の準備が完了したら、トポロジ設計を完成および実装できます。 これには、トポロジビルダーを使用してトポロジを公開することが含まれます。これは、Lync Server 2013 のサーバーの役割をインストールするために必要です。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 の Standard Edition サーバー データベースのインストール](lync-server-2013-install-standard-edition-server-database.md)
+  - [Lync Server 2013 用の Standard Edition サーバーデータベースのインストール](lync-server-2013-install-standard-edition-server-database.md)
 
   - [Lync Server 2013 でのトポロジ設計の確認](lync-server-2013-verify-the-topology-design.md)
 

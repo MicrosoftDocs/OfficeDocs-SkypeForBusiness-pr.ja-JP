@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 常設チャット サーバーの構成'
+title: 'Lync Server 2013: 常設チャットサーバーの構成'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184709
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3762679b8926370b85e03d0ffac2981c5c7d13a3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 21c43bfaf3b40a746f09a000cb089509b589e39e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741347"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030811"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013 での常設チャット サーバーの構成
+# <a name="configure-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013 での常設チャットサーバーの構成
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41741347"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-06_
+_**トピックの最終更新日:** 2012-10-06_
 
 新しい常設チャット構成を作成するには
 
     New-CsPersistentChatConfiguration -Identity <XdsIdentity> [-DefaultChatHistory <Integer>] [-MaxChatContentSizeMB <Integer>] [-MaxFileSizeKB <Integer>] [-ParticipantUpdateLimit <Integer>] [-FileServiceUrl <UrlForFileUpload>] [-RoomManagementUrl <RoomManagementUrl>] [-Instance <PSObject>] [-Force <Switch Parameter>] [-Confirm <Switch Parameter>] [-WhatIf <Switch Parameter>]
 
-常設チャットの設定を取得するには
+常設チャットの構成を取得するには
 
     Get-CsPersistentChatConfiguration [-LocalStore <Switch Parameter>] [-Identity <XdsIdentity>]
 
@@ -53,7 +53,7 @@ _**最終更新日:** 2012-10-06_
 
     Set-CsPersistentChatConfiguration [-DefaultChatHistory <Integer>] [-MaxChatContentSizeMB <Integer>] [-MaxFileSizeKB <Integer>] [-ParticipantUpdateLimit <Integer>] [-FileServiceUrl <UrlForFileUpload>] [-RoomManagementUrl <RoomManagementUrl>] [-Instance <PSObject >] [-Force <Switch Parameter>] [-Confirm <Switch Parameter>] [-WhatIf <Switch Parameter>]
 
-Lync Server 2013 の場合、すべての web サービストラフィックは、Lync Server 2013、フロントエンドサーバーでサポートされています。 したがって、常設チャットサーバーの gcweb01 アドレスは必要ありません。 内部 web サービスへのアクセスは引き続きサポートされるため、*内部*web サイト (リモートユーザー向けの*外部*web サイトではなく) にファイルアップロードとダウンロード web サービスを提供します。
+Lync Server 2013 では、すべての web サービストラフィックが Lync Server 2013、フロントエンドサーバーでサポートされています。 そのため、常設チャットサーバーの gcweb01 アドレスは必要ありません。 ただし、(リモート ユーザーの "外部**" Web サイトにではなく) "内部**" Web サイトに対してのみファイル アップロード/ダウンロード Web サービスを提供しているため、現在も、内部 Web サービス アクセスをサポートしています。
 
 </div>
 

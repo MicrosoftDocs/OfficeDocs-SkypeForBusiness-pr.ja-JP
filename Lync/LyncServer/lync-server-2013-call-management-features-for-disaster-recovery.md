@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 障害復旧用の通話管理機能'
+title: Lync Server 2013 の障害復旧用の通話管理機能
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733871
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c276c8dac153ebd2ba08c55d8444bcc746287ffc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4126f35850aeae6bd2d0bbd8f678e9f082a13355
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742997"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028968"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="call-management-features-for-disaster-recovery-in-lync-server-2013"></a>Lync Server 2013 の障害復旧用の通話管理機能
+# <a name="call-management-features-for-disaster-recovery-in-lync-server-2013"></a>Lync Server 2013 での障害復旧のための通話管理機能
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41742997"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-21_
+_**トピックの最終更新日:** 2012-09-21_
 
-次のトピックには、Lync Server の通話管理機能の高可用性機能と障害回復機能に関する情報が含まれています。
+以下のトピックには、Lync Server の通話管理機能の高可用性および障害復旧機能に関する情報が記載されています。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [障害時の Lync Server 2013 での応答グループの管理](lync-server-2013-managing-response-groups-during-a-disaster.md)
+  - [障害時に Lync Server 2013 で応答グループを管理する](lync-server-2013-managing-response-groups-during-a-disaster.md)
 
-  - [Lync Server 2013 での障害復旧時のコール パークの管理](lync-server-2013-manage-call-park-during-disaster-recovery.md)
+  - [Lync Server 2013 での障害復旧時のコールパークの管理](lync-server-2013-manage-call-park-during-disaster-recovery.md)
 
   - [Lync Server 2013 での障害復旧時のアナウンスの管理](lync-server-2013-manage-announcements-during-disaster-recovery.md)
 
@@ -56,7 +56,7 @@ _**最終更新日:** 2012-09-21_
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 の障害復旧、高可用性およびバックアップ サービスの管理](lync-server-2013-managing-lync-server-disaster-recovery-high-availability-and-backup-service.md)  
+[Lync Server 2013 の障害復旧、高可用性、およびバックアップサービスの管理](lync-server-2013-managing-lync-server-disaster-recovery-high-availability-and-backup-service.md)  
   
 
 </div>

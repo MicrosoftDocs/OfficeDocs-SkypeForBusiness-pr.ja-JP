@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: メディアのバイパスを有効または無効にする'
+title: 'Lync Server 2013: メディアバイパスを有効または無効にする'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733874
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 612b944d35e3e8158622a4d18105074f5888daca
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dfdb2e252ec50ca73471f22a59d8f9d1f65f4908
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735847"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030841"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enabling-and-disabling-media-bypass-in-lync-server-2013"></a>Lync Server 2013 でメディアのバイパスを有効または無効にする
+# <a name="enabling-and-disabling-media-bypass-in-lync-server-2013"></a>Lync Server 2013 でメディアバイパスを有効または無効にする
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41735847"
 
 <span> </span>
 
-_**最終更新日:** 2012-11-01_
+_**トピックの最終更新日:** 2012-11-01_
 
-Lync Server コントロールパネルを使用してメディアのバイパスを有効または無効にするには、このセクションの手順を使用します。 メディアのバイパスを使用する場合の詳細については、「 [Lync Server 2013 でのメディアのバイパスの計画](lync-server-2013-planning-for-media-bypass.md)」を参照してください。
+このセクションの手順を使用して、Lync Server コントロールパネルを使用してメディアバイパスを有効または無効にします。 メディアバイパスを使用する状況の詳細については、「 [Lync Server 2013 でのメディアバイパスの計画](lync-server-2013-planning-for-media-bypass.md)」を参照してください。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 でネットワークメディアのバイパスを有効にする](lync-server-2013-enabling-network-media-bypass.md)
+  - [Lync Server 2013 でのネットワークメディアバイパスの有効化](lync-server-2013-enabling-network-media-bypass.md)
 
-  - [Lync Server 2013 でネットワークメディアのバイパスを無効にする](lync-server-2013-disabling-network-media-bypass.md)
+  - [Lync Server 2013 でのネットワークメディアバイパスの無効化](lync-server-2013-disabling-network-media-bypass.md)
 
 </div>
 
@@ -54,10 +54,10 @@ Lync Server コントロールパネルを使用してメディアのバイパ�
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 でのメディアのバイパスの概要](lync-server-2013-overview-of-media-bypass.md)  
+[Lync Server 2013 でのメディアバイパスの概要](lync-server-2013-overview-of-media-bypass.md)  
 
 
-[Lync Server 2013 でのメディア バイパスの計画](lync-server-2013-planning-for-media-bypass.md)  
+[Lync Server 2013 でのメディアバイパスの計画](lync-server-2013-planning-for-media-bypass.md)  
   
 
 </div>

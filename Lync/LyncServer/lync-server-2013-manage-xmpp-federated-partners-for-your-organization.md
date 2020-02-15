@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 組織の XMPP フェデレーション パートナーの管理'
+title: 'Lync Server 2013: 組織の XMPP フェデレーションパートナーの管理'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48679561
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 329f2621a4c1904e515f77e0cbcc17effad99bc3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1ea1e2993ed168ece718864f4167815e799605d4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733257"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028948"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="manage-xmpp-federated-partners-in-lync-server-2013"></a>Lync Server 2013 での組織の XMPP フェデレーション パートナーの管理
+# <a name="manage-xmpp-federated-partners-in-lync-server-2013"></a>Lync Server 2013 での XMPP フェデレーションパートナーの管理
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "41733257"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-19_
+_**トピックの最終更新日:** 2012-10-19_
 
 このドキュメントは暫定版であり、変更される可能性があります。 空白のトピックがプレースホルダーとして含まれています。
 
-XMPP フェデレーションドメインのユーザーのサポートを管理するには、次の操作を行う必要があります。
+XMPP フェデレーション ドメインのユーザーのサポートを管理するには、次の操作を行う必要があります。
 
-  - XMPP フェデレーションドメインのユーザーをサポートするために、1つ以上の外部アクセスポリシーを構成します。
+  - 1 つまたは複数の外部アクセス ポリシーを構成して、XMPP フェデレーション ドメインのユーザーをサポートします。
 
-  - アクセスエッジ構成ポリシーを構成してフェデレーションをサポートします。
+  - アクセス エッジ構成ポリシーを構成して、フェデレーションをサポートします。
 
-  - XMPP フェデレーションパートナーの定義を作成します。
+  - XMPP フェデレーション パートナーの定義を作成します。
 
-  - XMPP フェデレーションで利用可能なネゴシエーション設定について説明します。
+  - XMPP フェデレーションで利用できるネゴシエーション設定を理解します。
 
 これらのタスクを実行するには、このセクションの手順を使用します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
   - [Lync Server 2013 での XMPP パートナー構成の作成または編集](lync-server-2013-create-or-edit-xmpp-partner-configuration.md)
 
-  - [Lync Server 2013 の XMPP フェデレーション パートナーのネゴシエーション設定](lync-server-2013-negotiation-settings-for-xmpp-federated-partners.md)
+  - [Lync Server 2013 での XMPP フェデレーションパートナーのネゴシエーション設定](lync-server-2013-negotiation-settings-for-xmpp-federated-partners.md)
 
-  - [Lync Server 2013 での XMPP 構成の例  - Google Talk との XMPP フェデレーション](lync-server-2013-example-xmpp-configuration-–-xmpp-federation-with-google-talk.md)
+  - [Lync Server 2013 の XMPP 構成の例-Google Talk との XMPP フェデレーション](lync-server-2013-example-xmpp-configuration-–-xmpp-federation-with-google-talk.md)
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 51541462
 ms.date: 06/02/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dc80d20006b63c2af50d10aa51150ebfa75b7a88
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 969674ea6e426178ecb040d9474fc8fec85395cb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765485"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030891"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="lync-for-iphone-and-ipad-requirements-in-lync-server-2013"></a>Lync Server 2013 での lync for iPhone および iPad の要件
+# <a name="lync-for-iphone-and-ipad-requirements-in-lync-server-2013"></a>Lync Server 2013 の lync for iPhone および iPad の要件
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41765485"
 
 <span> </span>
 
-_**最終更新日:** 2015-06-01_
+_**トピックの最終更新日:** 2015-06-01_
 
 Microsoft Lync 2013 for iPhone または Microsoft Lync 2013 for iPad をサポートするには、デバイスが次の要件を満たしている必要があります。
 
-  - iPhone 6 モバイルデジタルデバイス (Apple iOS 8 または最新バージョン)
+  - Apple iOS 8 または最新バージョンが搭載された iPhone 6 モバイルデジタルデバイス。
 
-  - iPhone 5 モバイルデジタルデバイス (Apple iOS 7 または最新バージョン)
+  - Apple iOS 7 または最新バージョンが搭載された iPhone 5 モバイルデジタルデバイス。
 
-  - iPhone 4 モバイルデジタルデバイス (Apple iOS 7 または最新バージョン)
+  - Apple iOS 7 または最新バージョンが搭載された iPhone 4 モバイルデジタルデバイス。
 
-  - iPad 2 以降のバージョンのモバイルデジタルデバイス (Apple iOS 7 または最新バージョン)
+  - Apple iOS 7 または最新バージョンが搭載された、iPad 2 またはそれ以降のバージョンのモバイルデジタルデバイス。
 
-  - iPad ミニモバイルデジタルデバイス (Apple iOS 7 または最新バージョン)
+  - Apple iOS 7 または最新バージョンが搭載された iPad ミニモバイルデジタルデバイス。
 
 </div>
 

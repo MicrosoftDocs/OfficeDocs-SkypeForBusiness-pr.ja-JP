@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ネットワーク領域の作成または変更'
+title: 'Lync Server 2013: ネットワーク地域の作成または変更'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185266
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fbebccd02b74c4fbfb69225a6397c1dd7cef862d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 04f85e4546d8cfa3154c2fc5a87676ff0377795b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756281"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030971"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="creating-or-modifying-network-regions-in-lync-server-2013"></a>Lync Server 2013 でのネットワーク領域の作成または変更
+# <a name="creating-or-modifying-network-regions-in-lync-server-2013"></a>Lync Server 2013 でのネットワーク地域の作成または変更
 
 </div>
 
@@ -35,57 +35,57 @@ ms.locfileid: "41756281"
 
 <span> </span>
 
-_**最終更新日:** 2012-11-01_
+_**トピックの最終更新日:** 2012-11-01_
 
-ネットワーク領域は、ネットワークのさまざまな部分を複数の地域で相互接続します。 すべてのネットワーク領域はセントラルサイトと関連付けられている必要があります。 セントラルサイトは、通話受付制御 (CAC) 帯域幅ポリシーサービスが実行されているデータセンターサイトです。 Lync Server コントロールパネルを使用して、ネットワークの領域を構成することができます。 [ネットワーク] 領域には、インターネット経由の代替パスが音声とビデオに接続できるかどうかを決定する設定が含まれます。 Lync Server コントロールパネルから、ネットワークの領域を作成、変更、または削除することができます。 このトピックは、ネットワーク領域の作成と変更に使用します。 既存のネットワーク領域の削除の詳細については、「 [Lync Server 2013 で既存のネットワーク領域を削除](lync-server-2013-deleting-existing-network-regions.md)する」を参照してください。
+ネットワーク地域は、複数の地理的な領域にまたがるネットワークのさまざまな部分を相互接続します。 すべてのネットワーク地域は、セントラル サイトと関連付ける必要があります。 このセントラル サイトは、通話受付管理 (CAC) 帯域幅ポリシー サービスが実行されているデータ センター サイトです。 Lync Server コントロールパネルを使用して、ネットワーク地域を構成できます。 ネットワーク地域には、オーディオとビデオの接続でインターネット経由の代替パスを許可するかどうかを決定する設定が含まれます。 Lync Server コントロールパネルから、ネットワーク地域を作成、変更、または削除することができます。 ネットワーク地域を作成および変更するには、このトピックを参考にしてください。 既存のネットワーク領域の削除の詳細については、「 [Lync Server 2013 の既存のネットワーク地域の削除](lync-server-2013-deleting-existing-network-regions.md)」を参照してください。
 
 <div>
 
-## <a name="to-create-a-network-region"></a>ネットワークの領域を作成するには
+## <a name="to-create-a-network-region"></a>ネットワーク地域を作成するには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
-3.  左側のナビゲーションバーで [**ネットワーク構成**] をクリックし、[**地域**] をクリックします。
+3.  左側のナビゲーション バーで [**ネットワーク構成**] をクリックし、[**地域**] をクリックします。
 
-4.  [**領域**] ページで、[**新規**] をクリックします。
+4.  [**地域**] ページで [**新規**] をクリックします。
 
-5.  [**新しい領域**] ページで、[**名前**] フィールドに値を入力します。 この値は、Microsoft Lync Server 2013 の展開内で一意である必要があります。
+5.  [**新しい地域**] ページで、[**名前**] フィールドに値を入力します。 この値は、Microsoft Lync Server 2013 展開内で一意である必要があります。
 
-6.  [**セントラルサイト**] ドロップダウンリストから、このネットワーク領域のセントラルサイトを選びます。
+6.  [**セントラル サイト**] ドロップダウン リストで、このネットワーク地域に対応するセントラル サイトを選択します。
 
-7.  [**オーディオ代替パスを有効にする**] チェックボックスは、既定でオンになっています。 このフィールドは、十分な帯域幅がプライマリパスに存在しない場合に、代替パスを介して音声通話をルーティングするかどうかを決定します。 オフロードをインターネットにオフにする必要がある場合にのみ、このチェックボックスをオフにします。 いずれかの通話がインターネット通話の場合は、帯域幅の設定に関係なく、このチェックボックスをオンにする必要があります。
+7.  既定では、[**オーディオ代替パスを有効にする**] チェック ボックスはオンになっています。このフィールドで、プライマリ パスに適当な帯域幅がない場合に音声通話を代替パスにルーティングするかどうかを設定します。インターネットへの負荷分散を無効する必要がある場合にのみ、このチェック ボックスをオフにします。いずれかの通話をインターネット通話にする場合は、帯域幅設定に関係なく、このチェック ボックスをオンにする必要があります。
 
-8.  [**ビデオの代替パスを有効にする**] チェックボックスは、既定でオンになっています。 このフィールドは、ビデオ通話が、プライマリパスに十分な帯域幅が存在しない場合に、代替パスを使用してビデオ通話をルーティングするかどうかを決定します。 オフロードをインターネットにオフにする必要がある場合にのみ、このチェックボックスをオフにします。 いずれかの通話がインターネット通話の場合は、帯域幅の設定に関係なく、このチェックボックスをオンにする必要があります。
+8.  既定では、[**ビデオ代替パスを有効にする**] チェック ボックスはオンになっています。このフィールドで、プライマリ パスに適当な帯域幅がない場合にビデオ通話を代替パスにルーティングするかどうかを設定します。インターネットへの負荷分散を無効する必要がある場合にのみ、このチェック ボックスをオフにします。いずれかの通話をインターネット通話にする場合は、帯域幅設定に関係なく、このチェック ボックスをオンにする必要があります。
 
-9.  省略[**説明**] フィールドに値を入力して、この領域について、名前だけでは表現できない詳細情報を入力します。
+9.  (オプション) [**説明**] フィールドに値を入力して、名前だけでは表現できないこの地域に関する詳細を設定します。
 
 10. [**コミット**] をクリックします。
 
-**関連付けら**れたサイトテーブルは、ネットワーク領域の作成には使用されません。 サイトを作成または変更するときに、サイトを地域に関連付けます。 詳細について[は、「Lync Server 2013 でネットワークサイトを作成または変更する](lync-server-2013-creating-or-modifying-network-sites.md)」を参照してください。
+[**関連付けられているサイト**] テーブルは、ネットワーク地域の作成では使用しません。 サイトを作成または変更するときに、サイトと地域を関連付けます。 詳細については、「 [Lync Server 2013 でのネットワークサイトの作成または変更](lync-server-2013-creating-or-modifying-network-sites.md)」を参照してください。
 
 </div>
 
 <div>
 
-## <a name="to-modify-a-network-region"></a>ネットワークの領域を変更するには
+## <a name="to-modify-a-network-region"></a>ネットワーク地域を変更するには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
-3.  左側のナビゲーションバーで [**ネットワーク構成**] をクリックし、[**地域**] をクリックします。
+3.  左側のナビゲーション バーで [**ネットワーク構成**] をクリックし、[**地域**] をクリックします。
 
-4.  [**領域**] ページで、変更する領域をクリックします。
+4.  [**地域**] ページで、変更する地域をクリックします。
 
 5.  [**編集**] メニューの [**詳細の表示**] をクリックします。
 
-6.  [**領域の編集**] ページで、オーディオおよびビデオの代替パスを有効または無効にする設定を変更したり、説明を変更したりすることができます (詳細については、このトピックの「ネットワーク領域を作成する」セクションを参照してください)。
+6.  [**編集 地域**] ページで、オーディオとビデオの代替パスを有効または無効に切り替えたり、説明を変更したりできます。詳細については、このトピック前半の「ネットワーク地域を作成するには」のセクションを参照してください。
 
 7.  [**コミット**] をクリックします。
 
-このページでは、**関連付けられたサイト**を変更することはできません。 関連付けられたサイトの一覧は参照用に提供されるため、地域設定を変更したときに影響を受けるサイトがわかります。
+このページでは [**関連付けられているサイト**] を変更できません。関連付けられているサイトの一覧は参考のために表示されています。これにより、地域設定を変更するとどのサイトが影響を受けるか確認することができます。
 
 </div>
 
@@ -94,14 +94,14 @@ _**最終更新日:** 2012-11-01_
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 で既存のネットワーク領域を削除する](lync-server-2013-deleting-existing-network-regions.md)  
-[Lync Server 2013 での CAC のネットワーク領域の構成](lync-server-2013-configure-network-regions-for-cac.md)  
+[Lync Server 2013 の既存のネットワーク領域の削除](lync-server-2013-deleting-existing-network-regions.md)  
+[Lync Server 2013 で CAC のネットワーク地域を構成する](lync-server-2013-configure-network-regions-for-cac.md)  
 
 
-[新しい CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegion)  
-[Set-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkRegion)  
-[CsNetworkRegion の削除](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkRegion)  
-[Get-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink)  
+[新しい-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegion)  
+[設定-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkRegion)  
+[-CsNetworkRegion の削除](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkRegion)  
+[取得-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink)  
   
 
 </div>

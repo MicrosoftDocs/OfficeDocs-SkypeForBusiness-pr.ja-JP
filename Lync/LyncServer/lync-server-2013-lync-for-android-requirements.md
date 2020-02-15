@@ -12,20 +12,20 @@ ms:contentKeyID: 53312965
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2c584a20df5dc2516115b4b137c0543576d5fa4d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c89439f46c98fd1f00d7cb95eb4a910b26971be0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765495"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030901"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="lync-for-android-requirements-in-lync-server-2013"></a>Lync for Android の要件 Lync Server 2013
+# <a name="lync-for-android-requirements-in-lync-server-2013"></a>Lync Server 2013 での lync for Android の要件
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "41765495"
 
 <span> </span>
 
-_**最終更新日:** 2014-04-24_
+_**トピックの最終更新日:** 2014-04-24_
 
-Microsoft Lync 2013 Microsoft Lync 2013 for Android では、Android デバイスから接続している組織内のユーザーに対してインスタントメッセージング (IM)、拡張プレゼンス、および Lync 会議参加機能が提供されます。 このトピックでは、前提条件、技術要件、必須コンポーネントなど、Lync 2013 for Android の考慮事項について説明します。
+Microsoft Lync 2013 Microsoft Lync 2013 for Android は、Android デバイスから接続している組織内のユーザーに、インスタントメッセージング (IM)、拡張プレゼンス、および Lync 会議参加機能を提供します。 このトピックでは、前提条件、技術要件、必要なコンポーネントを含む、Lync 2013 for Android の考慮事項について説明します。
 
 <div>
 
 ## <a name="lync-for-android-prerequisite"></a>Lync for Android の前提条件
 
-Android 用の Lync 2013 をサポートするには、Android デバイスは次の要件を満たしている必要があります。
+Android 用 Lync 2013 をサポートするには、Android デバイスは次の要件を満たしている必要があります。
 
-  - Android デバイスでは、Android 4.0 以降の電話またはタブレット搭載のオペレーティングシステムが実行されている必要があります (Tegra2 チップを除く)。
+  - Android デバイスは、Android 4.0 またはそれ以降の電話機またはタブレット指向のオペレーティングシステムを実行している必要があります (Tegra2 チップを除く)。
 
-  - デバイスには、1.2 GHz のデュアルコア以上の CPU が搭載されている必要があります。
+  - デバイスには、1.2 GHz のデュアルコアまたはそれ以上の CPU が搭載されている必要があります。
 
   - デバイスカメラ (フロント/リア) 解像度は VGA 以上である必要があります。
 
-  - その他のハードウェア要件は、Android 4.0 互換性定義ドキュメントに合わせる必要があります。
+  - その他のハードウェア要件は、Android 4.0 の互換性の定義ドキュメントに合わせる必要があります。
 
 </div>
 
 <div>
 
-## <a name="other-technical-considerations"></a>その他の技術的な考慮事項
+## <a name="other-technical-considerations"></a>その他の技術的考慮事項
 
-Android デバイスプラットフォームでは、Lync アプリケーションをバックグラウンドで実行できます。 そのため、他のモバイルデバイスプラットフォームとは異なり、プッシュ通知は Android デバイスでは必要ありません。 Android デバイスで Lync アプリケーションを終了するには、Lync から明示的にサインアウトする方法しかありません。 このバージョンの Lync アプリケーションは、Tegra 2 チップセットを搭載したデバイスではサポートされていません。
+Android デバイスプラットフォームでは、Lync アプリケーションをバックグラウンドで実行できます。 そのため、他のモバイルデバイスプラットフォームとは異なり、Android デバイスでプッシュ通知が必要になることはありません。 Android デバイスで Lync アプリケーションを終了する唯一の方法は、Lync から明示的にサインアウトすることです。 このバージョンの Lync アプリケーションは、Tegra 2 チップセットのデバイスではサポートされていません。
 
 </div>
 

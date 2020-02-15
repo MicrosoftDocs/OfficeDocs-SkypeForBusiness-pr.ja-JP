@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 通話ピックアップグループ番号を構成する'
+title: 'Lync Server 2013: 通話ピックアップグループ番号の構成'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541479
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc2badf254fc42e9e8db401065467a6c673660ad
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 42023f82240e99695678bc25f1f38b7a20234d37
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757771"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028708"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-call-pickup-group-numbers-in-lync-server-2013"></a>Lync Server 2013 での通話ピックアップグループ番号の設定
+# <a name="configure-call-pickup-group-numbers-in-lync-server-2013"></a>Lync Server 2013 での通話ピックアップグループ番号の構成
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41757771"
 
 <span> </span>
 
-_**最終更新日:** 2013-01-30_
+_**トピックの最終更新日:** 2013-01-30_
 
-グループ通話のピックアップは、コールパークアプリケーションに基づいています。 グループ通話のピックアップを展開するときは、通話集配グループ番号として指定されている電話番号の範囲を使って、コールパークの軌道テーブルを構成します。 ユーザーはこのグループ番号にダイヤルし、他のユーザーに着信している通話をピックアップします。
+グループ通話ピックアップは、コールパークアプリケーションに基づいています。 グループ通話ピックアップを展開する場合は、通話ピックアップグループ番号として指定された電話番号の範囲をコールパークオービットテーブルに設定します。 これらのグループ番号は、ユーザーが別のユーザーの通話を取得するためにダイヤルする番号です。
 
-コール パーク オービットの番号と同様に、通話ピックアップのグループ番号には、ユーザーや電話が割り当てられていない仮想の内線番号を使用する必要があります。 グループ通話のピックアップを展開する各フロントエンドプールには、1つ以上の通話ピックアップグループ番号が含まれていることがあります。 グループ番号の範囲は、Lync Server 展開でグローバルに一意である必要があります。
+コールパークオービット番号と同様に、通話ピックアップグループ番号は、ユーザーまたは電話が割り当てられていない仮想内線である必要があります。 グループ通話ピックアップを展開する各フロントエンドプールには、1つまたは複数の通話ピックアップグループ番号範囲を含めることができます。 グループ番号の範囲は、Lync Server 展開間でグローバルに一意である必要があります。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-[Create or modify a Group Call Pickup number range in Lync Server 2013](lync-server-2013-create-or-modify-a-group-call-pickup-number-range.md)
+[Lync Server 2013 でグループ通話ピックアップ番号の範囲を作成または変更する](lync-server-2013-create-or-modify-a-group-call-pickup-number-range.md)
 
 </div>
 

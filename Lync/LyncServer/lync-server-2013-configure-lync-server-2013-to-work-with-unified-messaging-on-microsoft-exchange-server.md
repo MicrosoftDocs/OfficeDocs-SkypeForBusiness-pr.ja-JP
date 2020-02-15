@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Microsoft Exchange Server のユニファイド メッセージングと連動させるための Lync Server 2013 の構成'
+title: 'Lync Server 2013: Microsoft Exchange Server でユニファイドメッセージングを使用するように Lync Server 2013 を構成する'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183430
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 985b2d286f65be2353c2ace0d59872f4d0fc47ad
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 65908f1b142c72f584c48493023803e5dfd56208
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729747"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031001"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-lync-server-2013-to-work-with-unified-messaging-on-microsoft-exchange-server"></a>Microsoft Exchange Server のユニファイド メッセージングと連動させるための Lync Server 2013 の構成
+# <a name="configure-lync-server-2013-to-work-with-unified-messaging-on-microsoft-exchange-server"></a>Microsoft Exchange Server でユニファイドメッセージングを使用するように Lync Server 2013 を構成する
 
 </div>
 
@@ -33,111 +33,111 @@ ms.locfileid: "41729747"
 
 <div id="mainBody">
 
-_**最終更新日:** 2013-04-03_
+_**トピックの最終更新日:** 2013-04-03_
 
-この手順では、Exchange UM 統合ユーティリティ (OcsUmUtil) が必要です。 このツールは、の Lync Server 2013 サーバーにあります。\\Program Files\\の一般的\\なファイル Microsoft Lync\\Server 2013 サポートフォルダー。
+このステップを実行するには、Exchange UM 統合ユーティリティ (OcsUmUtil.exe) が必要です。 このツールは、の Lync Server 2013 サーバーにあります。\\Program Files\\Common Files\\Microsoft Lync Server 2013\\サポートフォルダ。
 
 <div>
 
 ## <a name="running-the-exchange-um-integration-utility"></a>Exchange UM 統合ユーティリティの実行
 
-Exchange UM 統合ユーティリティは、次の特徴を持つユーザーアカウントから実行されている必要があります。
+Exchange UM 統合ユーティリティは、次の特性を持つユーザー アカウントで実行する必要があります。
 
-  - RTCUniversalServerAdmins グループおよび RtcUniversalUserAdmins groups のメンバーシップ (Exchange Server ユニファイドメッセージングの設定を確認するためのアクセス許可を含みます)。
+  - RTCUniversalServerAdmins グループおよび RtcUniversalUserAdmins グループ (Exchange Server ユニファイド メッセージングの設定を読み取るアクセス許可が割り当てられている) に属している。
 
-  - ドメイン内のユーザー権利。指定された組織単位 (OU) コンテナーに連絡先オブジェクトを作成します。
+  - 指定された組織単位 (OU) コンテナーに連絡先オブジェクトを作成するための、ドメイン内のユーザー権限。
 
-Exchange UM 統合ユーティリティを実行すると、次のタスクが実行されます。
+Exchange UM 統合ユーティリティを実行すると、以下のタスクが実行されます。
 
-  - エンタープライズボイスユーザーが使用する自動応答とサブスクライバーアクセス番号ごとに連絡先オブジェクトを作成します。
+  - エンタープライズ VoIP ユーザーが使用する各自動応答番号とサブスクライバー アクセス番号の連絡先オブジェクトを作成します。
 
-  - 各エンタープライズボイスダイヤルプランの名前が、対応するユニファイドメッセージング (UM) ダイヤルプランの電話コンテキストに一致していることを確認します。 この照合が必要なのは、UM ダイヤルプランが Exchange 2010 Service Pack 1 (SP1) よりも*前*のバージョンの exchange で実行されている場合のみです。
+  - 各エンタープライズ Voip ダイヤルプランの名前が、対応するユニファイドメッセージング (UM) ダイヤルプランの電話のコンテキストに一致することを確認します。 この一致は、UM ダイヤルプランが Exchange 2010 Service Pack 1 (SP1) より*前*のバージョンの exchange 上で実行されている場合にのみ必要です。
 
 > [!IMPORTANT]
-> Exchange UM 統合ユーティリティを実行する前に、次の作業を行っていることを確認します。
+> Exchange UM 統合ユーティリティを実行する前に、次の操作が完了していることを確認してください。
 > <ul>
 > <li><p>Exchange 製品のドキュメントで説明されているように、1つ以上の Exchange UM ダイヤルプランを作成します。</p>
-> <p>Microsoft Exchange Server 2010 について&quot;は、「AT で&quot; <a href="http://go.microsoft.com/fwlink/p/?linkid=186177">http://go.microsoft.com/fwlink/p/?linkId=186177</a>UM ダイヤルプランを作成する」をご覧ください。</p>
-> <p>Microsoft Exchange Server 2007 Service Pack 1 (SP1) について&quot;は、「ユニファイドメッセージング SIP URI ダイヤルプラン&quot;を<a href="http://go.microsoft.com/fwlink/p/?linkid=185771">http://go.microsoft.com/fwlink/p/?linkId=185771</a>作成する方法」を参照してください。</p></li>
-> <li><p>「 <a href="lync-server-2013-create-a-dial-plan.md">Lync server 2013 でダイヤルプランを作成</a>する」の説明に従って、1つまたは複数の lync server のダイヤルプランを作成します。</p></li>
-> <ul><li>Microsoft Exchange Server 2010 SP1 より前のバージョンの Exchange を使用している場合は、Lync Server 2013 の [ダイヤルプランの<STRONG>簡易名</STRONG>] フィールドに、対応する Exchange ユニファイドメッセージング (UM) SIP ダイヤルプランの完全修飾ドメイン名 (FQDN) を入力する必要があります。 Microsoft Exchange Server 2010 SP1 または最新の service pack を使用している場合、このダイヤルプランの名前の一致は必要ありません。</li></ul>
-> <li>自動応答を作成し、サブスクライバーアクセス番号と自動応答番号の両方が必ず164形式になっていることを確認します。</li></ul>
+> <p>Microsoft Exchange Server 2010 について&quot;は、「UM ダイヤル&quot;プラン<a href="http://go.microsoft.com/fwlink/p/?linkid=186177">http://go.microsoft.com/fwlink/p/?linkId=186177</a>を作成する」を参照してください。</p>
+> <p>Microsoft Exchange Server 2007 Service Pack 1 (SP1) について&quot;は、「How to Create a ユニファイドメッセージング&quot; SIP <a href="http://go.microsoft.com/fwlink/p/?linkid=185771">http://go.microsoft.com/fwlink/p/?linkId=185771</a>URI ダイヤルプラン」を参照してください。</p></li>
+> <li><p>「 <a href="lync-server-2013-create-a-dial-plan.md">Lync server 2013 でダイヤルプランを作成</a>する」の説明に従って、1つ以上の対応する lync server ダイヤルプランを作成します。</p></li>
+> <ul><li>Microsoft Exchange Server 2010 SP1 より前のバージョンの Exchange を使用している場合は、対応する Exchange ユニファイドメッセージング (UM) SIP ダイヤルプランの完全修飾ドメイン名 (FQDN) を Lync Server 2013 ダイヤルプランの [<STRONG>簡易名</STRONG>] フィールドに入力する必要があります。 Microsoft Exchange Server 2010 SP1 または最新の service pack を使用している場合は、このダイヤルプラン名の一致は必要ありません。</li></ul>
+> <li>自動応答を作成し、サブスクライバー アクセス番号と自動応答番号の両方が E.164 形式であることを確認します。</li></ul>
 
 
 <div>
 
 ## <a name="to-run-the-exchange-um-integration-utility"></a>Exchange UM 統合ユーティリティを実行するには
 
-1.  フロントエンドサーバーでコマンドプロンプトを開き、「 **cd% CommonProgramFiles%\\Microsoft Lync Server 2013\\サポート**」と入力して、enter キーを押します。
+1.  フロントエンドサーバーで、コマンドプロンプトを開き、「 **cd% CommonProgramFiles%\\Microsoft Lync Server 2013\\サポート**」と入力し、enter キーを押します。
 
-2.  「 **Ocsumutil**」と入力して、enter キーを押します。
+2.  「**OcsUmUtil.exe**」と入力し、Enter キーを押します。
 
-3.  [**データの読み込み**] をクリックして、信頼できるすべての Exchange フォレストを検索します。
+3.  **[データの読み込み]** をクリックして、信頼できるすべての Exchange フォレストを探します。
 
-4.  **Sip ダイヤルプラン**リストで、コンタクトオブジェクトを作成する UM SIP ダイヤルプランを選択し、「**追加**」をクリックします。
+4.  **[SIP ダイヤル プラン]** ボックスの一覧で、連絡先オブジェクトを作成する UM SIP ダイヤル プランを選択し、**[追加]** をクリックします。
 
-5.  [**連絡先**] ボックスで、既定の組織単位をそのまま使用するか、[**参照**] をクリックして**OU 選択**を開始します。 [ **Ou の選択**] ボックスで、ou を選んで [ **OK**] をクリックします。または、ドメイン内のルートまたは他の ou (たとえば、"OU = RTC Special account, dc = 4 thコーヒー, dc = com") に新しい組織単位を作成**するには**、[ **ok**] をクリックします。
+5.  **[連絡先]** ボックスで、既定の組織単位をそのまま使用するか、または **[参照]** をクリックして **[OU の選択]** を開始します。 **[OU の選択]** ボックスで、OU を選択して **[OK]** をクリックするか、または **[新しい OU の作成]** をクリックしてルートまたはドメイン内のその他の OU の下に新しい組織単位を作成し、**[OK]** をクリックします (たとえば、"OU=RTC Special Accounts,DC=fourthcoffee,DC=com")。
     
     <div>
     
 
     > [!NOTE]  
-    > 選択または作成した OU の識別名 (DN) が [<STRONG>組織単位</STRONG>] ボックスに表示されるようになります。
+    > 選択または作成した OU の識別名 (DN) が <STRONG>[組織単位]</STRONG> ボックスに表示されます。
 
     
     </div>
 
-6.  [**名前**] ボックスで、既定のダイヤルプラン名をそのまま使うか、作成している連絡先オブジェクトの新しい表示名を入力します。
+6.  既定のダイヤル プラン名をそのまま使用するか、作成する連絡先オブジェクトの新しい表示名を **[名前]** ボックスに入力します。
     
     <div>
     
 
     > [!NOTE]  
-    > たとえば、サブスクライバーアクセスの contact オブジェクトを作成する場合は、"サブスクライバーアクセス" という名前を付けるだけです。
+    > たとえば、サブスクライバー アクセス連絡先オブジェクトを作成する場合は、名前を単に「Subscriber Access」とすることもできます。
 
     
     </div>
 
-7.  [ **Sip アドレス**] ボックスに、既定の sip アドレスをそのまま使うか、新しい sip アドレスを入力します。
+7.  **[SIP アドレス]** ボックスで、既定の SIP アドレスをそのまま使用するか、別の SIP アドレスを入力します。
     
     <div>
     
 
     > [!NOTE]  
-    > 新しい SIP アドレスを入力する場合は、 <STRONG>sip</STRONG>で始める必要があります (つまり、コロンを含む "sip:")。
+    > 別の SIP アドレスを入力する場合は、<STRONG>[SIP:]</STRONG>(コロンを含む "SIP:") で始める必要があります。
 
     
     </div>
 
-8.  [**サーバーまたはプール**] ボックスの一覧で、連絡先オブジェクトを有効にする標準エディションサーバーまたはフロントエンドプールを選択します。
+8.  [**サーバーまたはプール**] の一覧で、連絡先オブジェクトを有効にする Standard Edition サーバーまたはフロントエンドプールを選択します。
     
     <div>
     
 
     > [!NOTE]  
-    > 可能であれば、選択したプールは、エンタープライズボイスと Exchange UM が有効になっているユーザーが展開する1つのプールである必要があります。
+    > プールの場合は、できれば、エンタープライズ VoIP と Exchange UM を有効にしたユーザーを展開するプールを選択します。
 
     
     </div>
 
-9.  [**電話番号**] ボックスの一覧で、[**電話番号を入力**するか、 **Exchange UM からこのパイロット番号を使用する**] を選択し、電話番号を入力します。
+9.  **[電話番号]** ボックスの一覧で、**[電話番号の入力]** または **[Exchange UM からのこのパイロット番号を使用]** をクリックし、電話番号を入力します。
 
-10. [**連絡先の種類**] ボックスの一覧で、作成する連絡先の種類を選び、[ **OK**] をクリックします。
+10. **[連絡先の種類]** ボックスの一覧で作成する連絡先の種類を選択し、**[OK]** をクリックします。
 
-11. 作成する追加の連絡先オブジェクトについて、手順 1 ~ 10 を繰り返します。
+11. ステップ 1. ～ 10. を繰り返し、必要に応じて、追加の連絡先オブジェクトを作成します。
     
     <div>
     
 
     > [!NOTE]  
-    > 自動応答ごとに、少なくとも1つの連絡先を作成する必要があります。 外部アクセスが必要な場合は、サブスクライバーへのアクセスにもサブスクライバーへのアクセスが必要です。また、直接の内側ダイヤル (DID) 番号を指定する必要があります。
+    > 自動応答ごとに少なくとも 1 つの連絡先を作成してください。外部アクセスが必要な場合は、サブスクライバー アクセス連絡先が必要であり、DID (Direct Inward Dial) 番号を指定する必要があります。
 
     
     </div>
 
 </div>
 
-連絡先オブジェクトが作成されたことを確認するには、[Active Directory ユーザーとコンピューター] を開き、オブジェクトが作成された OU を選択します。 連絡先オブジェクトが詳細ウィンドウに表示されます。
+連絡先オブジェクトが作成されていることを確認するには、Active Directory ユーザーとコンピューターを開き、オブジェクトを作成した OU を選択します。作成したオブジェクトが詳細ウィンドウに表示されます。
 
 </div>
 

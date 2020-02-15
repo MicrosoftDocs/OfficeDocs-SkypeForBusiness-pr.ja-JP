@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ブランチ サイトの復元ソリューション'
+title: 'Lync Server 2013: ブランチサイトの復元ソリューション'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183517
 ms.date: 12/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 16261d4add87462991c877e85cc6a0ff1e7fdfd4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 019da9259cae95d019f954f275ed36a5f79174e4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741837"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029258"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="branch-site-resiliency-solutions-in-lync-server-2013"></a>Lync Server 2013 のブランチ サイトの復元ソリューション
+# <a name="branch-site-resiliency-solutions-in-lync-server-2013"></a>Lync Server 2013 のブランチサイトの復元ソリューション
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41741837"
 
 <span> </span>
 
-_**最終更新日:** 2014-12-10_
+_**トピックの最終更新日:** 2014-12-10_
 
-ブランチ サイトの復元を提供することには明白な利点があります。 特に、セントラルサイトへの接続が切断された場合、ブランチサイトユーザーは引き続きエンタープライズ Voip サービスとボイスメールを使用できます (詳細については、「[サイトの回復力2013の要件](lync-server-2013-branch-site-resiliency-requirements.md)」を参照してください)。 ただし、ユーザー数が 25 に満たないサイトでは、復元ソリューションによる十分な投資利益が得られない場合があります。
+ブランチサイトの復元を組織に提供することには明らかな利点があります。 特に、セントラルサイトへの接続が失われた場合、ブランチサイトのユーザーは引き続きエンタープライズ Voip サービスとボイスメールを使用できます (ボイスメール再ルーティング設定を構成する場合は、「 [Lync Server 2013 のブランチサイトの復元要件](lync-server-2013-branch-site-resiliency-requirements.md)」を参照してください)。 ただし、ユーザー数が25を超えるサイトでは、復元ソリューションによって十分な投資回収が得られない場合があります。
 
 ブランチ サイトの復元を実現するには、3 つの方法があります。次の表は、組織に最適な方法を判断するのに役立ちます。
 
@@ -52,29 +52,29 @@ _**最終更新日:** 2014-12-10_
 </colgroup>
 <thead>
 <tr class="header">
-<th>条件</th>
+<th>もしも</th>
 <th>推奨されるオプション</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>ブランチ サイトに 25 から 1,000 ユーザーが所属しており、投資収益率が全面的な展開をサポートしない、またはローカル管理者がいない場合</p></td>
+<td><p>ブランチ サイトに 25 から 1000 ユーザーが所属しており、投資収益率が全面的な展開をサポートしない、またはローカル管理者がいない場合</p></td>
 <td><p>存続可能ブランチ アプライアンス</p>
-<p>Survivable Branch Appliance は、業界標準のブレードサーバーであり、Windows Server 2008 R2 で実行されている Lync Server レジストラーと仲介サーバーが含まれています。 Survivable Branch Appliance には、公衆交換電話網 (PSTN) ゲートウェイも含まれています。 認定されたサードパーティ製デバイス (Survivable Branch Appliance (SBA) 認定プログラムで Microsoft パートナーによって開発されたもの) は、WAN の障害が発生した場合に、継続的な PSTN 接続を提供しますが、これらの機能はセントラルサイトのフロントエンドサーバーに依存するため、弾力性のあるプレゼンスと会議を提供しません。</p>
-<p>Survivable Branch アプライアンスの詳細について&quot;は、このトピックの&quot;後半の「Survivable branch Appliance の詳細」を参照してください。</p>
-<p><strong>注:</strong>Survivable Branch アプライアンスでも SIP トランクを使用することにした場合は、Survivable Branch Appliance ベンダーにお問い合わせください。組織に最も適したサービスプロバイダーについては、こちらをご覧ください。</p></td>
+<p>存続可能 Branch Appliance は、Windows Server 2008 R2 上で Lync Server レジストラーと仲介サーバーを実行する業界標準のブレードサーバーです。 存続可能ブランチアプライアンスには、公衆交換電話網 (PSTN) ゲートウェイも搭載されています。 認定されたサードパーティ製のデバイス (存続可能 Branch Appliance (SBA) 修飾/証明プログラムで Microsoft パートナーが開発したもの) は、WAN 障害が発生した場合にも継続的な PSTN 接続を提供しますが、これらの機能は中央サイトのフロントエンドサーバーに依存しているため、回復可能なプレゼンスと会議を提供しません。</p>
+<p>存続可能ブランチアプライアンスの詳細について&quot;は、このトピックで&quot;後述する「存続可能 branch Appliance details」を参照してください。</p>
+<p><strong>注:</strong>存続可能ブランチアプライアンスで SIP トランクも使用することにした場合は、存続可能 Branch Appliance ベンダーに問い合わせて、組織に最適なサービスプロバイダーについて確認してください。</p></td>
 </tr>
 <tr class="even">
-<td><p>ブランチサイトでの1000と2000ユーザーの間のホスト、回復可能な WAN 接続の不足、Lync Server 管理者のトレーニング</p></td>
-<td><p>Survivable Branch Server または2つの Survivable Branch アプライアンス。</p>
-<p>Survivable Branch Server は、Lync Server レジストラーと仲介サーバーソフトウェアがインストールされている、Windows Server 会議の指定したハードウェア要件です。 これを、PSTN ゲートウェイ、または電話サービス プロバイダーへの SIP トランクに接続する必要があります。</p>
-<p>Survivable ブランチサーバーの詳細について&quot;は、このトピックの&quot;後半の「Survivable branch Server の詳細」を参照してください。</p></td>
+<td><p>ブランチサイトで1000と2000のユーザーをホストし、回復可能な WAN 接続がなく、専任の Lync Server 管理者が利用できるようになります。</p></td>
+<td><p>存続可能ブランチサーバーまたは2つの存続可能 Branch アプライアンス。</p>
+<p>存続可能ブランチサーバーは、Lync Server レジストラーおよび仲介サーバーソフトウェアがインストールされている、指定されたハードウェア要件を満たす Windows Server です。 これを、PSTN ゲートウェイ、または電話サービス プロバイダーへの SIP トランクに接続する必要があります。</p>
+<p>存続可能ブランチサーバーの詳細について&quot;は、このトピックで&quot;後述する「存続可能 branch Server details」を参照してください。</p></td>
 </tr>
 <tr class="odd">
-<td><p>最大5000ユーザー向けの音声機能だけでなく、プレゼンスと会議の機能が必要な場合、Lync Server 管理者のトレーニングを受けることができます。</p></td>
+<td><p>最大5000ユーザーのための音声機能に加えて、プレゼンスおよび会議機能が必要な場合、および専任の Lync Server 管理者を使用できるようにする</p></td>
 <td><p>ブランチ サイトとしてではなく、Standard Edition サーバーが含まれるセントラル サイトとして展開します。</p>
-<p>フルスケールの Lync Server 展開では、WAN の障害が発生した場合に、継続的な PSTN 接続、回復可能なプレゼンス、会議が提供されます。</p>
-<p>このソリューションの準備の詳細については、「 <a href="lync-server-2013-planning-for-your-organization.md">Lync server 2013 向けの組織計画</a>」、「 <a href="lync-server-2013-determining-your-system-requirements.md">lync server 2013 のシステム要件を決定</a>する」、「 <a href="lync-server-2013-determining-your-infrastructure-requirements.md">lync server 2013 のインフラストラクチャ要件</a>、および計画ドキュメントの関連セクション」を参照してください。</p></td>
+<p>フルスケールの Lync Server の展開では、WAN の障害発生時に、継続的な PSTN 接続と回復性のあるプレゼンスと会議が提供されます。</p>
+<p>このソリューションの準備の詳細については、「 <a href="lync-server-2013-planning-for-your-organization.md">Lync server 2013 の組織の計画</a>」、「 <a href="lync-server-2013-determining-your-system-requirements.md">lync server 2013 のシステム要件の決定</a>」、「 <a href="lync-server-2013-determining-your-infrastructure-requirements.md">lync server 2013 のインフラストラクチャ要件の決定</a>」、および「計画」のドキュメントの関連するセクションを参照してください。</p></td>
 </tr>
 </tbody>
 </table>
@@ -84,7 +84,7 @@ _**最終更新日:** 2014-12-10_
 
 ## <a name="resiliency-topologies"></a>復元のトポロジ
 
-次の図は、ブランチ サイトの復元性を確保するうえで推奨されるトポロジを示しています。
+次の図は、ブランチ サイトの復元の推奨されるトポロジを示しています。
 
 **ブランチ サイトの復元オプション**
 
@@ -96,9 +96,9 @@ _**最終更新日:** 2014-12-10_
 
 ## <a name="survivable-branch-appliance-details"></a>存続可能ブランチ アプライアンスの詳細
 
-Lync Server Survivable Branch Appliance には、次のコンポーネントが含まれています。
+Lync Server 存続可能 Branch Appliance には、次のコンポーネントが含まれています。
 
-  - ユーザー認証、登録、通話ルーティングのためのレジストラー
+  - ユーザー認証、登録、通話ルーティングのためのレジストラー。
 
   - レジストラーと PSTN ゲートウェイ間の信号を処理する仲介サーバー
 
@@ -106,17 +106,17 @@ Lync Server Survivable Branch Appliance には、次のコンポーネントが�
 
   - ローカル ユーザーのデータ記憶域用 SQL Server Express
 
-Survivable Branch Appliance には、PSTN trunks、アナログポート、イーサネットアダプターも含まれています。
+存続可能ブランチアプライアンスには、PSTN トランク、アナログポート、およびイーサネットアダプターも含まれています。
 
-セントラルサイトへのブランチサイトの WAN 接続が利用できなくなった場合、内部ブランチユーザーは引き続き Survivable Branch Appliance レジストラーに登録され、Survivable Branch Appliance 接続を使用して中断した音声サービスを取得しますを選びます。 自宅またはその他のリモートの場所から接続しているブランチ サイトのユーザーは、ブランチ サイトへの WAN リンクが使用できない場合にセントラル サイトのレジストラー サーバーに登録されることができます。 これらのユーザーはすべての統合コミュニケーション機能を使用できますが、唯一の例外は、ブランチ サイトへの着信通話がボイス メールに転送されることです。 WAN 接続が使用可能になると、ブランチ サイトのユーザーはすべての機能を再び使用できるようになります。 Survivable Branch Appliance へのフェールオーバーもサービスの復元でも、IT 管理者が存在している必要はありません。
+中央サイトへのブランチサイトの WAN 接続が使用できなくなると、内部ブランチユーザーは引き続き存続可能 Branch Appliance レジストラーに登録され、存続可能 Branch Appliance 接続を使用して中断のない音声サービスを取得します。を PSTN に。 自宅またはその他のリモートの場所から接続しているブランチ サイトのユーザーは、ブランチ サイトへの WAN リンクが使用できない場合にセントラル サイトのレジストラー サーバーに登録されることができます。 これらのユーザーはすべての統合コミュニケーション機能を使用できますが、唯一の例外は、ブランチ サイトへの着信通話がボイス メールに転送されることです。 WAN 接続が使用可能になると、ブランチ サイトのユーザーはすべての機能を再び使用できるようになります。 存続可能ブランチアプライアンスへのフェールオーバーやサービスの復元では、IT 管理者の存在は必要ありません。
 
-Lync Server は、ブランチサイトで最大2つの Survivable ブランチアプライアンスをサポートしています。
+Lync Server は、ブランチサイトで最大2つの存続可能ブランチアプライアンスをサポートします。
 
 <div>
 
 
 > [!NOTE]  
-> Lync Server Survivable Branch Appliance をホームとして使用しているユーザーは、新しいチャットルームを作成したり、既存のルームの会議室カードを表示したりすることはできません。
+> Lync Server 存続可能 Branch アプライアンスに所属しているユーザーは、新しいチャットルームを作成したり、既存のルームのルームカードを表示したりすることはできません。
 
 
 
@@ -126,9 +126,9 @@ Lync Server は、ブランチサイトで最大2つの Survivable ブランチ�
 
 ## <a name="survivable-branch-appliance-deployment-overview"></a>存続可能ブランチ アプライアンスの展開の概要
 
-Survivable Branch Appliance は、Microsoft との提携により、元の機器メーカーによって製造され、付加価値の小売店に代わって展開されます。 この展開は、Lync Server がセントラルサイトに展開されている場合、またはブランチサイトへの WAN 接続が行われていて、ブランチサイトユーザーがエンタープライズ Voip を有効にしている場合にのみ発生します。
+存続可能 Branch Appliance は、Microsoft とのパートナーシップで元の機器メーカーによって製造され、付加価値のある小売業者によって開発されています。 この展開は、Lync Server が中央サイトに展開されていて、ブランチサイトへの WAN 接続が確立されており、ブランチサイトユーザーがエンタープライズ Voip に対して有効になっている場合にのみ発生します。
 
-これらのフェーズの詳細については、「 [Survivable Branch Appliance または server を Lync Server 2013 に](lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md)展開する」を参照してください。
+これらのフェーズの詳細については、「展開」のドキュメントの「[存続可能ブランチアプライアンスまたはサーバーを Lync server 2013 を使用して展開する](lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md)」を参照してください。
 
 
 <table>
@@ -139,30 +139,30 @@ Survivable Branch Appliance は、Microsoft との提携により、元の機器
 </colgroup>
 <thead>
 <tr class="header">
-<th>段階</th>
-<th>ステップ</th>
+<th>フェーズ</th>
+<th>手順</th>
 <th>ユーザー権限</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Survivable Branch Appliance の Active Directory ドメインサービスのセットアップ</p></td>
+<td><p>存続可能ブランチアプライアンスの Active Directory ドメインサービスのセットアップ</p></td>
 <td><p><strong>セントラル サイトにおいて:</strong></p>
 <ol>
-<li><p>ブランチサイトに Survivable Branch Appliance をインストールしてアクティブ化する技術者のドメインユーザーアカウント (またはエンタープライズ id) を作成します。</p></li>
-<li><p>Active Directory Domain Services で、Survivable Branch Appliance の完全修飾ドメイン名 (FQDN) が適用されたコンピューターアカウントを作成します。</p></li>
-<li><p>Topology Builder で、Survivable Branch Appliance を作成して公開します。</p></li>
+<li><p>ブランチサイトで存続可能 Branch Appliance をインストールしてアクティブ化する技術者のドメインユーザーアカウント (またはエンタープライズ id) を作成します。</p></li>
+<li><p>Active Directory ドメインサービスの存続可能 Branch Appliance に、該当する完全修飾ドメイン名 (FQDN) を使用して、コンピューターアカウントを作成します。</p></li>
+<li><p>トポロジビルダーで、存続可能 Branch Appliance を作成して発行します。</p></li>
 </ol></td>
-<td><p>技術者のユーザー アカウントは、RTCUniversalSBATechnicians のメンバーである必要があります。 Survivable Branch アプライアンスは、RTCSBAUniversalServices グループに属している必要があります。これは、Topology Builder を使用すると自動的に発生します。</p></td>
+<td><p>技術者のユーザー アカウントは、RTCUniversalSBATechnicians のメンバーである必要があります。 存続可能 Branch アプライアンスは、RTCSBAUniversalServices グループに属している必要があります。これは、トポロジビルダーを使用したときに自動的に発生します。</p></td>
 </tr>
 <tr class="even">
-<td><p>Survivable Branch アプライアンスをインストールしてアクティブ化します。</p></td>
+<td><p>存続可能ブランチアプライアンスをインストールしてアクティブ化します。</p></td>
 <td><p><strong>ブランチ サイトにおいて:</strong></p>
 <ol>
-<li><p>Survivable Branch アプライアンスをイーサネットポートと PSTN ポートに接続します。</p></li>
-<li><p>Survivable Branch Appliance を起動します。</p></li>
-<li><p>セントラルサイトで Survivable Branch Appliance 用に作成したドメインユーザーアカウントを使用して、Survivable Branch Appliance をドメインに参加します。 コンピューター アカウントで作成された FQDN に一致する FQDN と IP アドレスを設定します。</p></li>
-<li><p>OEM のユーザーインターフェイスを使用して、Survivable Branch Appliance を構成します。</p></li>
+<li><p>存続可能 Branch アプライアンスをイーサネットポートおよび PSTN ポートに接続します。</p></li>
+<li><p>存続可能 Branch アプライアンスを開始します。</p></li>
+<li><p>中央サイトで存続可能ブランチアプライアンス用に作成されたドメインユーザーアカウントを使用して、存続可能 Branch アプライアンスをドメインに参加させる。 コンピューター アカウントで作成された FQDN に一致する FQDN と IP アドレスを設定します。</p></li>
+<li><p>OEM ユーザーインターフェイスを使用して、存続可能 Branch Appliance を構成します。</p></li>
 <li><p>PSTN 接続をテストします。</p></li>
 </ol></td>
 <td><p>技術者のユーザー アカウントは、RTCUniversalSBATechnicians のメンバーである必要があります。</p></td>
@@ -179,7 +179,7 @@ Survivable Branch Appliance は、Microsoft との提携により、元の機器
 
 ## <a name="survivable-branch-server-details"></a>存続可能ブランチ サーバーの詳細
 
-[Topology Builder] で、ブランチサイトを作成し、そのサイトに Survivable Branch Server を追加してから、役割をインストールするコンピューターで Lync Server Deployment ウィザードを実行します。
+トポロジビルダーで、ブランチサイトを作成し、そのサイトに存続可能ブランチサーバーを追加した後、役割をインストールするコンピューターで Lync Server 展開ウィザードを実行します。
 
 </div>
 
@@ -190,7 +190,7 @@ Survivable Branch Appliance は、Microsoft との提携により、元の機器
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 の展開](lync-server-2013-deploying-lync-server.md)  
+[Lync Server 2013 の展開 ](lync-server-2013-deploying-lync-server.md)  
   
 
 </div>

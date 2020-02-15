@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 外部ユーザー アクセス コンポーネントのシステム要件'
+title: 'Lync Server 2013: 外部ユーザーアクセスコンポーネントのシステム要件'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183966
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8407f7fa407713f6feff6123e5526c779d3bfd3d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c8548c1d8dd456d3bb65d98dd639aec71c236fc5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764273"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031211"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="system-requirements-for-external-user-access-components-for-lync-server-2013"></a>Lync Server 2013 の外部ユーザー アクセス コンポーネントのシステム要件
+# <a name="system-requirements-for-external-user-access-components-for-lync-server-2013"></a>Lync Server 2013 の外部ユーザーアクセスコンポーネントのシステム要件
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41764273"
 
 <span> </span>
 
-_**最終更新日:** 2013-01-17_
+_**トピックの最終更新日:** 2013-01-17_
 
-エッジコンポーネントのシステム要件には、エッジサーバーのハードウェア、ソフトウェア、および collocation の要件、リバースプロキシサーバーと展開を計画するオプションのディレクターが含まれます。
+エッジコンポーネントのシステム要件には、エッジサーバー、リバースプロキシサーバー、および展開を計画するオプションのディレクターのハードウェア、ソフトウェア、および併置の要件が含まれます。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 の外部ユーザー アクセスに必要なコンポーネント](lync-server-2013-components-required-for-external-user-access.md)
+  - [Lync Server 2013 での外部ユーザーアクセスに必要なコンポーネント](lync-server-2013-components-required-for-external-user-access.md)
 
   - [Lync Server 2013 でのリバースプロキシの構成要件](lync-server-2013-configuration-requirements-for-reverse-proxy.md)
 
-  - [Lync Server 2013 のハードウェア ロード バランサーの要件](lync-server-2013-hardware-load-balancer-requirements.md)
+  - [Lync Server 2013 のハードウェアロードバランサーの要件](lync-server-2013-hardware-load-balancer-requirements.md)
 
-  - [Lync Server 2013 のエッジ コンポーネントのハードウェアおよびソフトウェア要件](lync-server-2013-hardware-and-software-requirements-for-edge-components.md)
+  - [Lync Server 2013 のエッジコンポーネントのハードウェア要件およびソフトウェア要件](lync-server-2013-hardware-and-software-requirements-for-edge-components.md)
 
-  - [Lync Server 2013 での、エッジ コンポーネントのサポートされるサーバーの併置](lync-server-2013-supported-server-collocation-for-edge-components.md)
+  - [Lync Server 2013 のエッジコンポーネントに対してサポートされているサーバーの併置](lync-server-2013-supported-server-collocation-for-edge-components.md)
 
 </div>
 

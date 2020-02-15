@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 拡張  9-1-1 および場所サービスの管理'
+title: 'Lync Server 2013: 拡張9-1-1 および場所サービスの管理'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733600
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 251d76cd7fcdc04834dbab3146ac39847630f45c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6ea5107ddbcc4e98473f58c43d10fe8f745b2e64
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729287"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029498"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-enhanced-9-1-1-and-the-location-service-in-lync-server-2013"></a>Lync Server 2013 での拡張  9-1-1 および場所サービスの管理
+# <a name="managing-enhanced-9-1-1-and-the-location-service-in-lync-server-2013"></a>Lync Server 2013 での拡張9-1-1 と場所サービスの管理
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41729287"
 
 <span> </span>
 
-_**最終更新日:** 2012-11-01_
+_**トピックの最終更新日:** 2012-11-01_
 
-Lync Server 2013 は、Lync クライアントおよび Lync Phone Edition デバイスからの拡張 9-1-1 (E9) 通話をサポートしています。 Lync Server 2013 for E9-1 を構成する場合、Lync 2013 または Lync Phone Edition から発信された緊急通話は、場所情報サービスデータベースからの緊急応答の場所 (ERL) 情報を含みます。 場所のポリシーを管理するには、このセクションの手順を使用します。
+Lync Server 2013 は、Lync クライアントおよび Lync Phone Edition デバイスからの拡張 9-1-1 (E9-1-1) 通話をサポートしています。 E9-1-1 用に Lync Server 2013 を構成する場合、Lync 2013 または Lync Phone Edition からの緊急応答には、場所情報サービスデータベースからの緊急対応の場所 (ERL) 情報が含まれます。 このセクションの手順を使用して、場所ポリシーを管理します。
 
 <div>
 
 
 > [!NOTE]  
-> E9-1 や位置情報サービスなどの高度なエンタープライズボイス機能の展開について詳しくは、「 <A href="lync-server-2013-deploying-advanced-enterprise-voice-features.md">Lync Server 2013 での高度なエンタープライズ voip 機能の展開</A>」をご覧ください。
+> E9-1-1 や場所情報サービスなどの高度なエンタープライズ Voip 機能の展開の詳細については、「 <A href="lync-server-2013-deploying-advanced-enterprise-voice-features.md">Lync Server 2013 での高度なエンタープライズ voip 機能の展開</A>」を参照してください。
 
 
 
@@ -51,9 +51,9 @@ Lync Server 2013 は、Lync クライアントおよび Lync Phone Edition デ�
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 で位置情報のポリシーを管理する](lync-server-2013-managing-location-policy.md)
+  - [Lync Server 2013 での場所のポリシーの管理](lync-server-2013-managing-location-policy.md)
 
 </div>
 

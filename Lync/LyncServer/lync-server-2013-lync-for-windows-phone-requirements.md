@@ -12,16 +12,16 @@ ms:contentKeyID: 51541514
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1ea0721b69ff8c7fa666a77f96123c9f605092ae
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f5ea73784e025cb1270451706d5a59628020b629
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765475"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030881"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,19 +37,19 @@ ms.locfileid: "41765475"
 
 _**トピックの最終更新日:** 2013-02-20_
 
-Windows Phone 向けの Microsoft Lync 2013 は、スマートフォンまたは Windows Professional モバイルデバイスから接続している組織内のユーザーに対してインスタントメッセージング (IM)、拡張プレゼンス、テレフォニーを提供します。 モバイルデバイスを使用すると、ユーザーは Lync 2013 のリーチを拡張できます。 このトピックでは、前提条件と技術要件、必須コンポーネント、展開のガイダンスなどを含む、Lync 2013 for Windows Phone の計画に関する考慮事項について説明します。
+Microsoft Lync 2013 for Windows Phone は、スマートフォンまたは Windows Professional モバイルデバイスから接続している組織内のユーザーに、インスタントメッセージング (IM)、拡張プレゼンス、およびテレフォニーを提供します。 モバイルデバイスを使用すると、ユーザーは Lync 2013 のリーチを拡張できます。 このトピックでは、前提条件と技術要件、必要なコンポーネント、および展開ガイダンスを含む Lync 2013 for Windows Phone の計画に関する考慮事項について説明します。
 
 <div>
 
-## <a name="lync-for-windows-phone-prerequisites"></a>Lync for Windows Phone の前提条件
+## <a name="lync-for-windows-phone-prerequisites"></a>Lync for Windows Phone の前提要件
 
-次に示すのは、Windows Phone の携帯電話の前提条件となる Lync 2013 です。
+次に示すのは、Windows Phone 版の Lync 2013 の前提条件です。
 
-  - Windows Phone 8、codenamed "Apollo"、または最新バージョン。
+  - Windows Phone 8、コード名 "Apollo"、または最新バージョン。
 
-  - Windows Phone デバイスには、Microsoft から入手できる最新の更新プログラムが必要です。 詳細については、「Windows Phone 8 [http://go.microsoft.com/fwlink/p/?LinkID=281961](http://go.microsoft.com/fwlink/p/?linkid=281961)の更新履歴」を参照してください。
+  - Windows Phone デバイスには、Microsoft から入手可能な最新の更新プログラムがインストールされている必要があります。 詳細については、「Windows Phone 8 [http://go.microsoft.com/fwlink/p/?LinkID=281961](http://go.microsoft.com/fwlink/p/?linkid=281961)の更新履歴」を参照してください。
 
-  - デバイスには、12 MB の空きディスク領域が必要です。
+  - デバイスには、12 MB の空き領域が必要です。
 
   - ユーザーは、利用している通信事業者の音声およびデータ通信プランが必要です。
 

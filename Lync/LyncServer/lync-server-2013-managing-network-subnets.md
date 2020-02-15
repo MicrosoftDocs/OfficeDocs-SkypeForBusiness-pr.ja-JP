@@ -12,16 +12,16 @@ ms:contentKeyID: 49733540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ad3d4a56a03d22ecf7fcef85df8b3e6e5ea4c8b8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5ae37b876ec2a3cab28d778ffc2bac4682c6a66b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762019"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008689"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41762019"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-15_
+_**トピックの最終更新日:** 2012-10-15_
 
-Lync Server 2013 コントロールパネルまたは Lync Server 2013 Management Shell を使って、ネットワークサブネットを管理することができます。 通話受付制御 (CAC) が実装されている Lync Server 2013 のほとんどの展開では、通常、多くのサブネットが存在します。 このため、多くの場合、Lync Server 管理シェルからサブネットを構成することをお勧めします。
+Lync Server 2013 コントロールパネルまたは Lync Server 2013 管理シェルのいずれかを使用して、ネットワークサブネットを管理することができます。 通話受付管理 (CAC) が実装されている Lync Server 2013 のほとんどの展開では、通常は多数のサブネットがあります。 このため、多くの場合、Lync Server 管理シェルからサブネットを構成することをお勧めします。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
   - [Lync Server 2013 でのネットワークサブネット情報の表示](lync-server-2013-viewing-network-subnet-information.md)
 
-  - [Lync Server 2013 でネットワークサブネットを作成または変更する](lync-server-2013-create-or-modify-network-subnets.md)
+  - [Lync Server 2013 でのネットワークサブネットの作成または変更](lync-server-2013-create-or-modify-network-subnets.md)
 
   - [Lync Server 2013 でのネットワークサブネットの削除](lync-server-2013-deleting-network-subnets.md)
 
@@ -56,7 +56,7 @@ Lync Server 2013 コントロールパネルまたは Lync Server 2013 Managemen
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 でのネットワーク サイトとサブネットの関連付け](lync-server-2013-associate-a-subnet-with-a-network-site.md)  
+[Lync Server 2013 でのサブネットとネットワークサイトの関連付け](lync-server-2013-associate-a-subnet-with-a-network-site.md)  
   
 
 </div>

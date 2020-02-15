@@ -12,16 +12,16 @@ ms:contentKeyID: 48184093
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3bd6b46dbe0362f81cdaf6a1bf52a27112604a46
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c67030878e4fe99a0deaa89e69c553b2e225fd8f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728297"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029648"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41728297"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-22_
+_**トピックの最終更新日:** 2013-02-22_
 
-Lync Server 2013 エンタープライズボイスは、形式が164で正規化された電話番号に基づいて、通話をルーティングします。 つまり、電話番号参照 (RNL) を実行する目的で、すべてのダイヤルされた文字列を E-164 形式に正規化して、一致する SIP URI に翻訳することができます。 Lync Server 2013 には、呼び出された ID と発信者番号通知のプレゼンテーションを操作する機能が用意されています。
+Lync Server 2013 エンタープライズ Voip は、e.164 形式に正規化された電話番号に基づいて通話をルーティングします。 つまり、逆引き番号検索 (RNL) を実行して、一致する SIP URI に変換できるようにするには、すべてのダイヤル文字列を e.164 形式に正規化する必要があります。 Lync Server 2013 には、呼び出し元 ID と発信者番号のプレゼンテーションを操作する機能が用意されています。
 
-このセクションでは、呼び出された ID と発信者番号を操作する方法について説明します。
+このセクションでは、呼び出し先 id と発信者番号を操作する方法について説明します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 での発信者番号通知のプレゼンテーション](lync-server-2013-caller-id-presentation.md)
+  - [Lync Server 2013 の発信者番号のプレゼンテーション](lync-server-2013-caller-id-presentation.md)
 
-  - [Lync Server 2013 の ID プレゼンテーション](lync-server-2013-called-id-presentation.md)
+  - [Lync Server 2013 での ID のプレゼンテーションの呼び出し](lync-server-2013-called-id-presentation.md)
 
 </div>
 
@@ -56,7 +56,7 @@ Lync Server 2013 エンタープライズボイスは、形式が164で正規化
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 の正規化ルールの定義](lync-server-2013-defining-normalization-rules.md)  
+[Lync Server 2013 での正規化ルールの定義](lync-server-2013-defining-normalization-rules.md)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: グループ通話のピックアップの構成'
+title: 'Lync Server 2013: グループ通話ピックアップの構成'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541505
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3096c468b478da365bcfa0e38fa287a5c2ab57a2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cbd4c7fc1d0e2c052910b6ddcc9027b9c3db4f72
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728817"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030581"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-group-call-pickup-in-lync-server-2013"></a>Lync Server 2013 でグループ通話のピックアップを構成する
+# <a name="configuring-group-call-pickup-in-lync-server-2013"></a>Lync Server 2013 でグループ通話ピックアップを構成する
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "41728817"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-01_
+_**トピックの最終更新日:** 2013-02-01_
 
-Lync Server 2013 の累積更新プログラム: 2013 年2月に、グループ通話のピックアップが新しいエンタープライズ Voip 機能として導入されています。 グループ通話のピックアップにより、ユーザーは、通話ピックアップグループ番号にダイヤルすることによって、他のユーザーが着信した通話を受け取れるようになります。
+Lync Server 2013 の累積的な更新プログラム: 2 月2013は、新しいエンタープライズ Voip 機能としてグループ通話ピックアップを導入しました。 グループ通話ピックアップでは、通話ピックアップグループ番号をダイヤルすることによって、他のユーザーに対して着信する通話を選択できます。
 
-グループ通話のピックアップで使用されるコンポーネントは、エンタープライズボイスの展開時に、フロントエンドサーバーまたは Standard Edition サーバーに自動的にインストールされ、有効になります。 ただし、グループ通話のピックアップは、ユーザーが利用できるようになる前に設定する必要があります。
+エンタープライズ Voip を展開するときに、グループ通話ピックアップが使用するコンポーネントは、フロントエンドサーバーまたは Standard Edition サーバーに自動的にインストールされ、有効になります。 ただし、ユーザーが使用できるようにするには、グループ通話ピックアップを構成する必要があります。
 
-このセクションでは、グループ通話のピックアップの構成について説明します。
+このセクションでは、グループ通話ピックアップの構成について説明します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-[グループ通話の集配構成の前提条件とユーザー権限 Lync Server 2013](lync-server-2013-group-call-pickup-configuration-prerequisites-and-user-rights.md)
+[Lync Server 2013 でのグループ通話ピックアップ構成の前提条件とユーザー権限](lync-server-2013-group-call-pickup-configuration-prerequisites-and-user-rights.md)
 
-[Lync Server 2013 でのグループ通話のピックアップの展開プロセス](lync-server-2013-deployment-process-for-group-call-pickup.md)
+[Lync Server 2013 でのグループ通話ピックアップの展開プロセス](lync-server-2013-deployment-process-for-group-call-pickup.md)
 
-[Deploy the SEFAUtil tool in Lync Server 2013](lync-server-2013-deploy-the-sefautil-tool.md)
+[SEFAUtil ツールを Lync Server 2013 に展開する](lync-server-2013-deploy-the-sefautil-tool.md)
 
-[Lync Server 2013 での通話ピックアップグループ番号の設定](lync-server-2013-configure-call-pickup-group-numbers.md)
+[Lync Server 2013 での通話ピックアップグループ番号の構成](lync-server-2013-configure-call-pickup-group-numbers.md)
 
-[Lync Server 2013 のユーザーに対してグループ通話のピックアップを有効にし、グループ番号を割り当てる](lync-server-2013-enable-group-call-pickup-for-users-and-assign-a-group-number.md)
+[Lync Server 2013 のユーザーのグループ通話ピックアップを有効にし、グループ番号を割り当てる](lync-server-2013-enable-group-call-pickup-for-users-and-assign-a-group-number.md)
 
-[グループ通話の集配の課題を Lync Server 2013 のユーザーに伝える](lync-server-2013-communicate-group-call-pickup-assignment-to-users.md)
+[グループ通話ピックアップの割り当てを Lync Server 2013 のユーザーに伝達する](lync-server-2013-communicate-group-call-pickup-assignment-to-users.md)
 
-[省略Lync Server 2013 でグループ通話のピックアップの展開を確認する](lync-server-2013-optional-verify-the-group-call-pickup-deployment.md)
+[オプションLync Server 2013 でのグループ通話ピックアップの展開の確認](lync-server-2013-optional-verify-the-group-call-pickup-deployment.md)
 
 </div>
 

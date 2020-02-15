@@ -12,20 +12,20 @@ ms:contentKeyID: 48183920
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3132ec1e18d27564f0077e83d411c5b3930c241b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2064181a7c4d60015905d5974ac01378b7d025e2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737367"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029598"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="dns-requirements-for-standard-edition-servers-in-lync-server-2013"></a>Lync Server 2013 での Standard Edition サーバーの DNS 要件
+# <a name="dns-requirements-for-standard-edition-servers-in-lync-server-2013"></a>Lync Server 2013 の Standard Edition サーバーの DNS 要件
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41737367"
 
 <span> </span>
 
-_**最終更新日:** 2012-06-19_
+_**トピックの最終更新日:** 2012-06-19_
 
-このセクションでは、Standard Edition サーバーの展開に必要なドメインネームシステム (DNS) レコードについて説明します。
+ここでは、Standard Edition サーバーの展開に必要なドメイン ネーム システム (DNS) レコードについて説明します。
 
 <div>
 
 ## <a name="dns-records-for-standard-edition-servers"></a>Standard Edition サーバーの DNS レコード
 
-次の表では、Lync Server 2013 Standard Edition server の展開の DNS 要件を示します。
+次の表は、Lync Server 2013 Standard Edition サーバー展開の DNS 要件を示しています。
 
-### <a name="dns-requirements-for-a-standard-edition-server"></a>Standard Edition Server の DNS 要件
+### <a name="dns-requirements-for-a-standard-edition-server"></a>Standard Edition サーバーの DNS 要件
 
 <table>
 <colgroup>
@@ -61,19 +61,19 @@ _**最終更新日:** 2012-06-19_
 <tbody>
 <tr class="odd">
 <td><p>Standard Edition サーバー</p></td>
-<td><p>内部の A レコード。サーバーの完全修飾ドメイン名 (FQDN) を IP アドレスに解決します。</p></td>
+<td><p>サーバーの完全修飾ドメイン名 (FQDN) を、そのサーバーの IP アドレスに解決する内部 A レコード。</p></td>
 </tr>
 <tr class="even">
-<td><p>自動クライアントサインイン</p></td>
-<td><p>サポートされている各 SIP ドメインについて、_sipinternaltls の SRV レコード。 _tcp。&lt;サインイン&gt;のためのクライアント要求を認証してリダイレクトする標準エディションサーバーの FQDN にマップされる、ポート5061経由のドメイン。 詳細については、「 <a href="lync-server-2013-dns-requirements-for-automatic-client-sign-in.md">Lync Server 2013 での自動クライアントサインインの DNS 要件</a>」を参照してください。</p></td>
+<td><p>自動クライアント サインイン</p></td>
+<td><p>サポートされている各 SIP ドメインについて、_sipinternaltls の SRV レコード。 _tcp。&lt;サインイン&gt;のためのクライアント要求を認証およびリダイレクトする STANDARD Edition サーバーの FQDN にマップされる、ドメインのポート5061。 詳細については、「 <a href="lync-server-2013-dns-requirements-for-automatic-client-sign-in.md">Lync Server 2013 での自動クライアントサインインの DNS 要件</a>」を参照してください。</p></td>
 </tr>
 <tr class="odd">
-<td><p>ユニファイドコミュニケーション (UC) デバイスによるデバイス更新 Web サービスの検出</p></td>
-<td><p>"Ucupdates-r2" という名前の内部 A レコード。&lt;デバイス更新&gt; Web サービスをホストしている STANDARD Edition サーバーの IP アドレスに解決される SIP ドメイン。 UC デバイスが有効になっている状態で、ユーザーがデバイスにログインしたことがない場合、A レコードによってデバイス更新 Web サービスをホストするサーバーがデバイスで検出され、更新プログラムが取得されます。 そうしないと、デバイスは、ユーザーが初めてログインしたときに、インバンドプロビジョニングでサーバー情報を取得します。</p></td>
+<td><p>統合コミュニケーション (UC) デバイスによるデバイス更新 Web サービスの検出</p></td>
+<td><p>Ucupdates-r2 という名前の内部 A レコード。&lt;デバイス更新&gt; Web サービスをホストする STANDARD Edition サーバーの IP アドレスに解決される SIP ドメイン。 UC デバイスが有効になっていても、ユーザーがデバイスにログインしたことがない場合、デバイスは、A レコードを使用して、デバイス更新 Web サービスをホストするサーバーを検出し、更新プログラムを取得できます。 この方法を実行しない場合、デバイスはユーザーが最初にログインしたときにインバンド プロビジョニングを通じてサーバー情報を取得します。</p></td>
 </tr>
 <tr class="even">
-<td><p>HTTP トラフィックをサポートする逆プロキシ</p></td>
-<td><p>外部の web ファーム FQDN をリバースプロキシの外部 IP アドレスに解決する外部の A レコード。 クライアントと UC デバイスこのレコードを使ってリバースプロキシに接続します。 詳細については、「計画ドキュメントの「 <a href="lync-server-2013-determine-dns-requirements.md">Lync Server 2013 の DNS 要件を決定</a>する」を参照してください。</p></td>
+<td><p>HTTP トラフィックをサポートするためのリバース プロキシ</p></td>
+<td><p>Web ファームの外部 FQDN を、リバース プロキシの外部 IP アドレスに解決する外部 A レコード。 クライアントと UC デバイスは、このレコードを使用してリバース プロキシに接続します。 詳細については、「計画」のドキュメントの「 <a href="lync-server-2013-determine-dns-requirements.md">Lync Server 2013 の DNS 要件を決定</a>する」を参照してください。</p></td>
 </tr>
 </tbody>
 </table>

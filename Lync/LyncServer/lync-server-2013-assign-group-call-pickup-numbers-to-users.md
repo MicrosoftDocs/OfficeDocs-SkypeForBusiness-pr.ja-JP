@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: グループ通話の集配番号をユーザーに割り当てる'
+title: 'Lync Server 2013: グループ通話ピックアップ番号をユーザーに割り当てる'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541508
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e65eef9fcf425ad8ea9f36dc57899bb6af924bf5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5a27746909a5a4baa5ea6c3c6d050393e66dab05
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734057"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030080"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="assign-group-call-pickup-numbers-to-users-in-lync-server-2013"></a>グループ通話の集配番号を Lync Server 2013 のユーザーに割り当てる
+# <a name="assign-group-call-pickup-numbers-to-users-in-lync-server-2013"></a>Lync Server 2013 でグループ通話ピックアップ番号をユーザーに割り当てる
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41734057"
 
 <span> </span>
 
-_**最終更新日:** 2013-01-30_
+_**トピックの最終更新日:** 2013-01-30_
 
-グループ通話のピックアップグループ番号をコールパークの軌道テーブルに追加したら、グループをユーザーに割り当てることができます。 セカンダリ拡張機能のアクティブ化 (SEFAUtil) リソースキットツールを使用して、ユーザーに通話ピックアップグループを割り当てます。
+グループ通話ピックアップグループ番号をコールパークオービットテーブルに追加すると、グループをユーザーに割り当てることができます。 代理の拡張機能のアクティブ化 (SEFAUtil) リソースキットツールを使用して、ユーザーに通話ピックアップグループを割り当てます。
 
 <div>
 
 
 > [!NOTE]  
-> ハイブリッド展開では、オンラインのユーザーにグループの通話ピックアップグループを割り当てないでください。 自宅のユーザーはグループ通話のピックアップに参加できません。 つまり、オンラインに所属するユーザーへの呼び出しを他のユーザーが応答することや、他のユーザーへの呼び出しをオンラインに所属するユーザーが応答することはできません。
+> ハイブリッド展開では、online に所属しているユーザーにグループ通話ピックアップグループを割り当てないでください。 オンラインに所属しているユーザーは、グループ通話ピックアップに参加できません。 つまり、他のユーザーはその通話に応答できないため、他のユーザーの呼び出しに応答できません。
 
 
 
@@ -51,7 +51,7 @@ _**最終更新日:** 2013-01-30_
 
 <div>
 
-## <a name="to-assign-a-group-call-pickup-group-to-a-user"></a>グループ通話のピックアップグループをユーザーに割り当てるには
+## <a name="to-assign-a-group-call-pickup-group-to-a-user"></a>グループの通話ピックアップグループをユーザーに割り当てるには
 
 1.  SEFAUtil ツールをインストールしたコンピューターに管理者権限でログオンします。
 
@@ -59,7 +59,7 @@ _**最終更新日:** 2013-01-30_
     
         SEFAUtil.exe sip:<sip address of user> /server:<pool FQDN> /enablegrouppickup:<group number>
     
-    例:
+    次に例を示します。
     
         SEFAUtil.exe katarina@contoso.com /server:pool01.contoso.com /enablegrouppickup:199
 
@@ -70,8 +70,8 @@ _**最終更新日:** 2013-01-30_
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 のユーザーに対してグループ通話のピックアップを有効にする](lync-server-2013-enable-group-call-pickup-for-users.md)  
-[Lync Server 2013 のユーザーに対してグループ通話のピックアップを無効にする](lync-server-2013-disable-group-call-pickup-for-users.md)  
+[Lync Server 2013 でユーザーのグループ通話ピックアップを有効にする](lync-server-2013-enable-group-call-pickup-for-users.md)  
+[Lync Server 2013 でユーザーのグループ通話ピックアップを無効にする](lync-server-2013-disable-group-call-pickup-for-users.md)  
   
 
 </div>

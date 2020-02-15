@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ハードウェアのセットアップ'
+title: 'Lync Server 2013: ハードウェアセットアップ'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183834
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6831ba5f8d2afea7bddbd0c26ab4cebb2cff44f1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 02161765e6d3bd9c56eaddcb7f79b9d41dac3b16
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727897"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030310"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,40 +35,40 @@ ms.locfileid: "41727897"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-21_
+_**トピックの最終更新日:** 2013-02-21_
 
-トポロジを実装するために必要なハードウェアおよびその他のコンポーネントをセットアップするには、トポロジビルダーでトポロジを公開する前に、次の操作を行う必要があります。
+トポロジを実装するために必要なインフラストラクチャで必要なハードウェアとその他のコンポーネントを設定するには、トポロジビルダーでトポロジを公開する前に、次のことを行う必要があります。
 
-  - 必要なすべてのコンピューター (すべての必須コンピューター (Lync Server 2013 を実行しているサーバー、データベースサーバー、インターネットインフォメーションサービス (IIS) を実行しているサーバー) を含むトポロジ設計で、各コンポーネントのハードウェアをインストールし、必要に応じてプロキシサーバーを逆にします)、ネットワークアダプター、ハードウェアロードバランサー、ストレージデバイス (ファイルサーバーなど)。 ネットワークアダプターの数と速度に関する推奨事項に従っていることを確認します。 ハードウェアロードバランサーを使用する場合は、Lync Server 2013 で使用するために、ベンダーから適切な情報が設定されていることを確認してください。 ファイルサーバーまたは他のサーバーを使用して、Lync Server に必要なファイル共有を保存する場合は、サーバーが使用可能であり、ファイル共有を構成する準備ができていることを確認します。 展開に必要なコンポーネントを指定するトポロジの定義方法について詳しくは、「 [Lync Server 2013 でトポロジを定義して構成](lync-server-2013-defining-and-configuring-the-topology.md)する」をご覧ください。 サーバーのハードウェア要件の詳細については、サポートされているドキュメントで「 [Lync Server 2013 に](lync-server-2013-supported-hardware.md)対応したハードウェア」を参照してください。
+  - 必要なすべてのコンピューター (Lync Server 2013、データベースサーバー、インターネットインフォメーションサービス (IIS) を実行しているサーバーを実行しているサーバー) を含む、トポロジビルダーを使用して作成および保存した各コンポーネントのハードウェアをインストールし、必要に応じて、リバースプロキシサーバー、ネットワークアダプター、ハードウェアロードバランサー、およびストレージデバイス (ファイルサーバーなど)。 ネットワーク アダプターについて推奨される数および速度に従っていることを確認してください。 ハードウェアロードバランサーを使用する場合は、それらを構成して Lync Server 2013 で使用できるようにするための適切な情報がベンダーから得られていることを確認してください。 ファイルサーバーまたはその他のサーバーを使用して Lync Server で必要なファイル共有を格納する場合は、サーバーが利用可能であり、ファイル共有の構成の準備が整っていることを確認してください。 展開に必要なコンポーネントを指定するトポロジを定義する方法の詳細については、「 [Lync Server 2013 でのトポロジの定義と構成](lync-server-2013-defining-and-configuring-the-topology.md)」を参照してください。 サーバーのハードウェア要件の詳細については、「サポート」のドキュメントの「supported [hardware For Lync Server 2013](lync-server-2013-supported-hardware.md) 」を参照してください。
 
-  - ネットワークインフラストラクチャが要件を満たしていることを確認します。 詳細については、計画ドキュメントの「 [Lync Server 2013 のネットワークインフラストラクチャ要件](lync-server-2013-network-infrastructure-requirements.md)」を参照してください。
+  - ネットワークインフラストラクチャが要件を満たしていることを確認してください。 詳細については、「計画」のドキュメントの「 [Lync Server 2013 のネットワークインフラストラクチャ要件](lync-server-2013-network-infrastructure-requirements.md)」を参照してください。
 
-  - Active Directory ドメインサービスをセットアップします。 Ad ds のセットアップには、ad ds の準備と、AD DS に展開するすべてのコンポーネントの定義が含まれます。 AD DS の準備について詳しくは、展開ドキュメントの「 [Lync Server 2013 用 Active Directory ドメインサービスの準備](lync-server-2013-preparing-active-directory-domain-services.md)」をご覧ください。
+  - Active Directory ドメインサービスをセットアップします。 AD DS の設定には、AD DS の準備、AD DS に展開するすべてのコンポーネントの定義などが含まれます。 AD DS の準備の詳細については、「展開」のドキュメントの「 [Active Directory ドメインサービスの Lync Server 2013 の準備](lync-server-2013-preparing-active-directory-domain-services.md)」を参照してください。
 
-  - ファイル共有の作成に必要なアクセス許可を設定します。 Lync Server 2013 によるファイル共有を使用するためのアクセス許可は、トポロジの公開時にトポロジビルダーによって自動的に構成されます。 ただし、トポロジビルダーで必要なアクセス許可を構成するには、トポロジを公開するために使用されるユーザーアカウントで、ファイル共有に対してフルコントロール (読み取り/書き込み/変更) が必要です。 トポロジビルダーの公開プロセス中にファイル共有を適切に管理できるようにするには、ユーザーがメンバーになっているユーザーまたはドメイングループを、ファイル共有があるコンピューターのローカル管理者グループのメンバーにする必要があります。 マルチドメインシナリオでは、ドメインのユーザーまたはグループが、ファイル共有が配置されているドメイン B のコンピューターのローカル管理者グループのメンバーである必要があります。
+  - ファイル共有の作成に必要なアクセス許可を設定します。 Lync Server 2013 でファイル共有を使用するためのアクセス許可は、トポロジを公開するときに、トポロジビルダーによって自動的に構成されます。 ただし、トポロジビルダーで必要なアクセス許可を構成するためには、トポロジの公開に使用されるユーザーアカウントに、ファイル共有のフルコントロール (読み取り/書き込み/変更) が必要です。 トポロジビルダーの公開プロセス中にファイル共有を適切に管理できるようにするには、ユーザーまたはユーザーがメンバーになっているドメイングループを、ファイル共有が配置されているコンピューターのローカルの Administrators グループのメンバーにする必要があります。 マルチドメイン シナリオでは、ドメイン A のユーザーまたはグループを、ファイル共有が配置されるドメイン B のマシン上でローカルの Administrators グループのメンバーにしてください。
     
-    分散ファイルシステム (DFS) でファイル共有を使用して更新する方法の詳細については、「 [Lync Server 2013 用にファイルストレージを構成](lync-server-2013-configure-dfs-file-storage.md)する」を参照してください。
+    分散ファイルシステム (DFS) でのファイル共有の使用を更新する方法の詳細については、「 [Configure file storage For Lync Server 2013](lync-server-2013-configure-dfs-file-storage.md)」を参照してください。
     
     <div>
     
 
     > [!WARNING]  
-    > Lync Server 2013 用のファイル共有 (Enterprise Edition) は、フロントエンドサーバー上に配置することはできません。
+    > Lync Server 2013 Enterprise Edition のファイル共有は、フロントエンドサーバーに配置できません。
 
     
     </div>
 
-  - Web サービス用のハードウェアロードバランサーをインストールしてセットアップします。 ドメインネームシステム (DNS) 負荷分散が展開されている場合でも、これらのプールにはハードウェアロードバランサーを使用する必要があります。ただし、HTTP/HTTPS トラフィックに対してのみ必要です。 ハードウェアロードバランサーは、ポート443および80経由のクライアントからの HTTPS トラフィックに使用されます。 ただし、これらのプールについては、ハードウェアロードバランサーが必要ですが、これらの設定と管理は主に HTTP/HTTPS トラフィック用であり、ハードウェアロードバランサーの管理者は使い慣れています。
+  - Web サービス用のロードバランサー機器をインストールしてセットアップします。 ドメイン ネーム システム (DNS) の負荷分散が展開されている場合には、その後もこれらのプールでハードウェア ロード バランサーを使用する必要がありますが、HTTP/HTTPS トラフィックの場合だけです。 ハードウェア ロード バランサーは、クライアントからのポート 443 および 80 経由での HTTPS トラフィックで使用されます。 これらのプール用のハードウェア ロード バランサーは引き続き必要ですが、そのセットアップと管理は主に HTTP/HTTPS トラフィックに対するものであり、ハードウェア ロード バランサーの管理者にはなじみのあるものです。
 
-このトピックで説明したすべての準備作業を完了した後で、トポロジを公開する前に、次のことも行う必要があります。
+このトピックの説明に従ってすべての準備タスクを完了したた場合でも、トポロジの公開前に、次のタスクを完了させておく必要があります。
 
-  - [Lync Server 2013 のオペレーティング システムと必要なソフトウェアのサーバーへのインストール](lync-server-2013-install-operating-systems-and-prerequisite-software-on-servers.md)
+  - [Lync Server 2013 のサーバーにオペレーティングシステムと必要なソフトウェアをインストールする](lync-server-2013-install-operating-systems-and-prerequisite-software-on-servers.md)
 
-  - [Lync Server 2013 での IIS の構成](lync-server-2013-configure-iis.md)
+  - [Lync Server 2013 の IIS を構成する](lync-server-2013-configure-iis.md)
 
   - [Lync Server 2013 用 SQL Server の構成](lync-server-2013-configure-sql-server-for-lync-server.md)
 
-  - [Lync Server 2013 でのフロント エンド プールまたは Standard Edition サーバー用の DNS レコードの構成](lync-server-2013-configure-dns-records-for-a-front-end-pool-or-standard-edition-server.md)
+  - [フロントエンドプールまたは Standard Edition サーバーの Lync Server 2013 で DNS レコードを構成する](lync-server-2013-configure-dns-records-for-a-front-end-pool-or-standard-edition-server.md)
 
 </div>
 

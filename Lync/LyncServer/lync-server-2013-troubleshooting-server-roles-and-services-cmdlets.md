@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: サーバーの役割とサービスコマンドレットのトラブルシューティング'
+title: 'Lync Server 2013: サーバーの役割およびサービスのコマンドレットのトラブルシューティング'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183268
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6bb8c4504674e5459fbbb0e7529ea4e6c4ad7a8f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: af0e5048b02720755c7f4ab65cddb1e9fa47b0bb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744997"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028878"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="troubleshooting-server-roles-and-services-cmdlets-in-lync-server-2013"></a>Lync Server 2013 のサーバーの役割とサービスコマンドレットのトラブルシューティング
+# <a name="troubleshooting-server-roles-and-services-cmdlets-in-lync-server-2013"></a>Lync Server 2013 のサーバーの役割およびサービスのコマンドレットのトラブルシューティング
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41744997"
 
 <span> </span>
 
-_**最終更新日:** 2012-08-27_
+_**トピックの最終更新日:** 2012-08-27_
 
-トラブルシューティングのコマンドレットには、Microsoft Lync Server 2013 が予期したとおりに動作しているかどうかを確認するさまざまな方法があります。 たとえば、CsHealthMonitoringConfiguration コマンドレットを使用して、レジストラーとディレクタープールのテストアカウントをセットアップすることができます。 次に、これらのテストアカウントを使用して、ユーザーがシステムにログオンしたり、インスタントメッセージを交換したり、公衆交換電話網 (PSTN) にある電話への通話を発信したりするなどの一般的なタスクを正常に完了できることを確認できます。
+トラブルシューティングのコマンドレットを使用すると、Microsoft Lync Server 2013 が期待どおりに動作していることを確認する方法が異なります。 たとえば、CsHealthMonitoringConfiguration コマンドレットを使用して、レジストラー プールとディレクター プールのテスト アカウントを設定できます。 また、それらのテスト アカウントを使用して、一般的なタスク (システムへのログオン、インスタント メッセージの交換、公衆交換電話網 (PSTN) の電話への発信など) をユーザーが正常に完了できることを確認できます。
 
 <div>
 
 
 > [!NOTE]
-> コマンドレットの詳細については、「&nbsp;Lync Server Windows PowerShell <A href="http://go.microsoft.com/fwlink/p/?linkid=263432">http://go.microsoft.com/fwlink/p/?linkId=263432</A>のブログ」を参照してください。 各ブログの内容と URL は、将来予告なしに変更されることがあります。
+> コマンドレットの詳細については、Lync&nbsp;Server Windows PowerShell の<A href="http://go.microsoft.com/fwlink/p/?linkid=263432">http://go.microsoft.com/fwlink/p/?linkId=263432</A>ブログを参照してください。 各ブログのコンテンツおよびその URL は予告なしに変更されることがあります。
 
 
 
@@ -51,64 +51,64 @@ _**最終更新日:** 2012-08-27_
 
 <div>
 
-## <a name="server-roles-and-services-cmdlets"></a>サーバーの役割とサービスのコマンドレット
+## <a name="server-roles-and-services-cmdlets"></a>サーバーの役割およびサービスのコマンドレット
 
-サーバーの役割とサービスのトラブルシューティングに直接関連するコマンドレットの一覧を次に示します。
+以下は、サーバーの役割およびサービスのトラブルシューティングに直接関連するコマンドレットの一覧です。
 
-**サーバーの役割とサービスのトラブルシューティング**
-
-  - <span></span>  
-    [Get-CsAudioTestServiceApplication](https://technet.microsoft.com/en-us/library/Gg412984(v=OCS.15))
+**サーバーの役割およびサービスのトラブルシューティング**
 
   - <span></span>  
-    [Set-CsAudioTestServiceApplication](https://technet.microsoft.com/en-us/library/Gg398907(v=OCS.15))
+    [Get-CsAudioTestServiceApplication](https://technet.microsoft.com/library/Gg412984(v=OCS.15))
+
+  - <span></span>  
+    [Set-CsAudioTestServiceApplication](https://technet.microsoft.com/library/Gg398907(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsHealthMonitoringConfiguration](https://technet.microsoft.com/en-us/library/Gg398667(v=OCS.15))
+    [Get-cshealthmonitoringconfiguration](https://technet.microsoft.com/library/Gg398667(v=OCS.15))
 
   - <span></span>  
-    [新規-CsHealthMonitoringConfiguration](https://technet.microsoft.com/en-us/library/Gg398718(v=OCS.15))
+    [Get-cshealthmonitoringconfiguration](https://technet.microsoft.com/library/Gg398718(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsHealthMonitoringConfiguration](https://technet.microsoft.com/en-us/library/Gg425794(v=OCS.15))
+    [Get-cshealthmonitoringconfiguration](https://technet.microsoft.com/library/Gg425794(v=OCS.15))
 
   - <span></span>  
-    [Set-CsHealthMonitoringConfiguration](https://technet.microsoft.com/en-us/library/Gg425847(v=OCS.15))
+    [Get-cshealthmonitoringconfiguration](https://technet.microsoft.com/library/Gg425847(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsDiagnosticConfiguration](https://technet.microsoft.com/en-us/library/Gg413034(v=OCS.15))
+    [Get-csdiagnosticconfiguration](https://technet.microsoft.com/library/Gg413034(v=OCS.15))
 
   - <span></span>  
-    [新規-CsDiagnosticConfiguration](https://technet.microsoft.com/en-us/library/Gg398733(v=OCS.15))
+    [Get-csdiagnosticconfiguration](https://technet.microsoft.com/library/Gg398733(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsDiagnosticConfiguration](https://technet.microsoft.com/en-us/library/Gg412853(v=OCS.15))
+    [Get-csdiagnosticconfiguration](https://technet.microsoft.com/library/Gg412853(v=OCS.15))
 
   - <span></span>  
-    [Set-CsDiagnosticConfiguration](https://technet.microsoft.com/en-us/library/Gg425734(v=OCS.15))
+    [Get-csdiagnosticconfiguration](https://technet.microsoft.com/library/Gg425734(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [新規-CsDiagnosticsFilter](https://technet.microsoft.com/en-us/library/Gg413009(v=OCS.15))
+    [New-csdiagnosticsfilter](https://technet.microsoft.com/library/Gg413009(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsDiagnosticHeaderConfiguration](https://technet.microsoft.com/en-us/library/Gg412774(v=OCS.15))
+    [Get-csdiagnosticheaderconfiguration](https://technet.microsoft.com/library/Gg412774(v=OCS.15))
 
   - <span></span>  
-    [New-CsDiagnosticHeaderConfiguration](https://technet.microsoft.com/en-us/library/Gg398350(v=OCS.15))
+    [Get-csdiagnosticheaderconfiguration](https://technet.microsoft.com/library/Gg398350(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsDiagnosticHeaderConfiguration](https://technet.microsoft.com/en-us/library/Gg398941(v=OCS.15))
+    [Get-csdiagnosticheaderconfiguration](https://technet.microsoft.com/library/Gg398941(v=OCS.15))
 
   - <span></span>  
-    [Set-CsDiagnosticHeaderConfiguration](https://technet.microsoft.com/en-us/library/Gg399045(v=OCS.15))
+    [Get-csdiagnosticheaderconfiguration](https://technet.microsoft.com/library/Gg399045(v=OCS.15))
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: DNS の概要 - リバース プロキシ'
+title: 'Lync Server 2013: DNS の概要-リバースプロキシ'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183755
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ae4834ce608f6726403e8742a4d506b173309b35
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fde945b4bd08020a072f36be073169454e423279
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737207"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028508"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---reverse-proxy-in-lync-server-2013"></a>DNS の概要 - Lync Server 2013 でのリバース プロキシ
+# <a name="dns-summary---reverse-proxy-in-lync-server-2013"></a>DNS の概要-Lync Server 2013 のリバースプロキシ
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41737207"
 
 <span> </span>
 
-_**最終更新日:** 2013-03-22_
+_**トピックの最終更新日:** 2013-03-22_
 
-リバースプロキシでは、次のように2つのネットワークアダプターを構成します。
+リバース プロキシでは、2 つのネットワーク アダプターを次のように構成します。
 
 <div>
 
-## <a name="reverse-proxy-network-adapter-requirements"></a>リバースプロキシネットワークアダプターの要件
+## <a name="reverse-proxy-network-adapter-requirements"></a>リバース プロキシ ネットワーク アダプターの要件
 
-  - **ネットワークアダプター 1 (内部インターフェイス)** の例
+  - **ネットワーク アダプター 1 (内部インターフェイス)** の例
     
-    172.25.33.40 が割り当てられている内部インターフェイス。
+    172.25.33.40 が割り当てられた内部インターフェイス。
     
-    既定のゲートウェイは定義されていません。
+    デフォルト ゲートウェイは定義されません。
     
-    Lync Server フロントエンドプールサーバーが含まれているネットワーク (172.25.33.0 から192.168.10.0 など) に、リバースプロキシの内部インターフェイスが含まれているネットワークからのルートがあることを確認します。
+    リバースプロキシの内部インターフェイスを含むネットワークから、Lync Server フロントエンドプールサーバー (たとえば、172.25.33.0 から 192.168.10.0) を含む任意のネットワークへのルートが存在することを確認します。
 
-  - **ネットワークアダプター 2 (外部インターフェイス)** の例
+  - **ネットワーク アダプター 2 (外部インターフェイス)** の例
     
-    このネットワークアダプターには、少なくとも1つのパブリック IP アドレスが割り当てられています。
+    このネットワーク アダプターには、1 つ以上のパブリック IP アドレスが割り当てられます。
     
-    ゲートウェイは、外部境界のルーターまたは統合ファイアウォールを指すように定義されています。 (シナリオの例の 10.45.16.1)
+    ゲートウェイは、境界の外側のルーターまたは統合ファイアウォールを指すように定義されます (シナリオ例では 10.45.16.1)。
 
-### <a name="dns-records-required-for-reverse-proxy"></a>リバースプロキシに必要な DNS レコード
+### <a name="dns-records-required-for-reverse-proxy"></a>リバース プロキシで必要な DNS レコード
 
 <table>
 <colgroup>
@@ -71,25 +71,25 @@ _**最終更新日:** 2013-03-22_
 <th>場所/種類/ポート</th>
 <th>FQDN</th>
 <th>IP アドレス</th>
-<th>マップ先/コメント</th>
+<th>マッピング先/コメント</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>外部 DNS/A</p></td>
 <td><p>webext.contoso.com</p></td>
-<td><p>外部公開リソースの割り当て済みのリスナー</p></td>
-<td><p>内部展開からの外部 web サービス。 このリバースプロキシを使用し、外部 web サービスが定義されているすべての SIP ドメイン用のすべてのプールおよび単一サーバー用に、追加のレコードを定義して作成することができます。</p></td>
+<td><p>外部に公開されたリソースに割り当てられたリスナー</p></td>
+<td><p>内部展開からの外部 Web サービス。このリバース プロキシを使用し、外部 Web サービスを定義している任意の SIP ドメインの、すべてのプールと単一のサーバーについて、追加のレコードを定義および作成できます。</p></td>
 </tr>
 <tr class="even">
 <td><p>外部 DNS/A</p></td>
 <td><p>webdirext.contoso.com</p></td>
-<td><p>外部公開リソースの割り当て済みのリスナー</p></td>
-<td><p>展開内のディレクターまたはディレクタープール用の外部 web サービス。 複数のダイレクタを定義できます。これらは、他の SIP ドメインと関連付けられる場合があります。</p>
+<td><p>外部に公開されたリソースに割り当てられたリスナー</p></td>
+<td><p>展開内のディレクターまたはディレクタープール用の外部 web サービス。 別の SIP ドメインに関連付けることができる個別のディレクターとして、ディレクターをいくつか定義できます。</p>
 <div>
 
 > [!IMPORTANT]  
-> ディレクターの DNS レコードの定義と、フロントエンドプールまたはディレクターの決定にはなりません。 ディレクターを使用している場合は、監督とフロントエンドプールの両方の外部 web サービスを定義して公開する必要があります。 トポロジで定義されている場合、まず、特定のトラフィックの種類 (認証やその他の使用用) がディレクターに送信されます。
+> ディレクターの DNS レコードを定義して、ディレクターを公開することは、フロントエンドプールまたはディレクターの決定にはなりません。 ディレクターを使用している場合は、ディレクターおよびフロントエンドプールの外部 web サービスの両方を定義して発行する必要があります。 トポロジで定義されている場合は、特定の種類のトラフィック (認証やその他の使用用) が最初にディレクターに送信されます。
 
 
 </div></td>
@@ -97,26 +97,26 @@ _**最終更新日:** 2013-03-22_
 <tr class="odd">
 <td><p>外部 DNS/A</p></td>
 <td><p>dialin.contoso.com</p></td>
-<td><p>外部公開リソースの割り当て済みのリスナー</p></td>
-<td><p>外部で公開されたダイヤルイン会議</p></td>
+<td><p>外部に公開されたリソースに割り当てられたリスナー</p></td>
+<td><p>外部に公開されるダイヤルイン会議</p></td>
 </tr>
 <tr class="even">
 <td><p>外部 DNS/A</p></td>
 <td><p>meet.contoso.com</p></td>
-<td><p>外部公開リソースの割り当て済みのリスナー</p></td>
-<td><p>外部で公開された会議</p></td>
+<td><p>外部に公開されたリソースに割り当てられたリスナー</p></td>
+<td><p>外部に公開される会議</p></td>
 </tr>
 <tr class="odd">
 <td><p>外部 DNS/A</p></td>
 <td><p>officewebapps01.contoso.com</p></td>
-<td><p>Office Web Apps サーバーの割り当て済みのリスナー</p></td>
-<td><p>Office Web Apps サーバーが内部または境界内に展開され、外部クライアントアクセス用に公開されている</p></td>
+<td><p>Office Web Apps サーバー用に割り当てられたリスナー</p></td>
+<td><p>内部または境界に展開され、外部クライアントアクセス用に公開された Office Web Apps サーバー</p></td>
 </tr>
 <tr class="even">
 <td><p>外部 DNS/A</p></td>
 <td><p>lyncdiscover.contoso.com</p></td>
-<td><p>外部公開リソースの割り当て済みのリスナー</p></td>
-<td><p>Lync で外部公開の自動検出の外部レコードが検出されました。モビリティ、Microsoft Lync Web App、scheduler Web アプリが含まれています。</p></td>
+<td><p>外部に公開されたリソースに割り当てられたリスナー</p></td>
+<td><p>Lync は外部公開自動検出の外部レコードを検出し、モビリティ、Microsoft Lync Web App、および scheduler Web アプリを含みます。</p></td>
 </tr>
 </tbody>
 </table>

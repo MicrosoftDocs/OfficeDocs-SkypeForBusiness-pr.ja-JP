@@ -12,16 +12,16 @@ ms:contentKeyID: 48184235
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3023741b1b9e71d7789857c9b55fb195453ee5b3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ba88fdce88280597e9e621c13267de2b9b76d0fb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757551"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030360"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41757551"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-03_
+_**トピックの最終更新日:** 2012-10-03_
 
-以前のバージョンの Lync と Office Communicator では、スタンドアロンの Communicator 管理用テンプレートを使用してクライアントグループポリシー設定を構成できました。 Lync 2013 では、新しい管理用テンプレートファイル (admx および adml ファイル) が、Office グループポリシー管理用テンプレートと共に含まれています。 Lync 2013 の admx ファイルと adml ファイルを使用できるかどうかによって、テンプレートをダウンロードし、すべての Office プログラムと言語パックのグループポリシー設定を一元管理できます。 詳細については、Office 2013 ドキュメントの「Office 2013 管理用テンプレートファイル (ADMX、ADML) <http://go.microsoft.com/fwlink/p/?linkid=267516>」を参照してください。
+以前のバージョンの Lync および Office Communicator では、スタンドアロンの Communicator 管理用テンプレートを使用してクライアントグループポリシー設定を構成できました。 Lync 2013 では、新しい管理用テンプレートファイル (admx および adml ファイル) が Office グループポリシー管理用テンプレートと共に含まれています。 Lync 2013 ファイルと adml ファイルを使用すると、テンプレートをダウンロードして、すべての Office プログラムおよび言語パックのグループポリシー設定を一元管理できます。 詳細については、Office 2013 のドキュメントの「Office 2013 管理用テンプレートファイル (ADMX, ADML <http://go.microsoft.com/fwlink/p/?linkid=267516>)」を参照してください。
 
 <div>
 
-## <a name="client-bootstrapping-policies"></a>クライアントブートストラップポリシー
+## <a name="client-bootstrapping-policies"></a>クライアント ブートストラップ ポリシー
 
-ユーザーが初めてサーバーにサインインする前に構成する必要があるクライアントブートストラップポリシーはいくつかあります。 これらのポリシーは、クライアントがサインインしてサーバーからインバンドのプロビジョニング設定を受信する前に有効になるため、グループポリシーを使って構成することができます。 詳細については、展開ドキュメントの「 [Lync Server 2013 でのクライアントブートストラップポリシーの構成](lync-server-2013-configuring-client-bootstrapping-policies.md)」を参照してください。
+ユーザーが初めてサーバーにサインインする前に、幾つかのクライアント ブートストラップ ポリシーを構成する必要があります。 これらのポリシーは、クライアントがサインインする前に有効になり、サーバーからインバンド プロビジョニング設定を受け取るようになるため、グループ ポリシーを使って構成できます。 詳細については、「展開」のドキュメントの「 [Lync Server 2013 でのクライアントブートストラップポリシーの構成](lync-server-2013-configuring-client-bootstrapping-policies.md)」を参照してください。
 
 </div>
 

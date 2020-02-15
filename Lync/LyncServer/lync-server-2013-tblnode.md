@@ -12,16 +12,16 @@ ms:contentKeyID: 48184960
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 24ba45d9ba650a9de4359d64e3281fb488b6a279
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 81a57d54663b1adf837a4ca38896dd7da3eff883
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731487"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42009580"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41731487"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-12_
+_**トピックの最終更新日:** 2012-09-12_
 
-tblNode には、Lync Server 2013 コントロールパネルと管理コマンドレットで管理されるオブジェクトツリー (カテゴリまたはチャットルームノードを含む) が含まれています。
+tblNode には、Lync Server 2013 コントロールパネルおよび管理コマンドレットで管理されるオブジェクトツリー (カテゴリまたはチャットルームノードを含む) が含まれています。
 
-### <a name="columns"></a>行
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -50,19 +50,19 @@ tblNode には、Lync Server 2013 コントロールパネルと管理コマン�
 <thead>
 <tr class="header">
 <th>列</th>
-<th>型</th>
+<th>種類</th>
 <th>説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>nodeID</p></td>
-<td><p>int (null ではない)</p></td>
+<td><p>NULL でない int</p></td>
 <td><p>ノード ID (一意の番号)。</p></td>
 </tr>
 <tr class="even">
-<td><p>nodeGuid</p></td>
-<td><p>GUID、null ではない</p></td>
+<td><p>Tblnode.nodeguid</p></td>
+<td><p>NULL でない GUID</p></td>
 <td><p>ノード GUID。</p></td>
 </tr>
 <tr class="odd">
@@ -72,64 +72,64 @@ tblNode には、Lync Server 2013 コントロールパネルと管理コマン�
 </tr>
 <tr class="even">
 <td><p>nodeType</p></td>
-<td><p>ビット、null ではない</p></td>
-<td><p>ノードがカテゴリの場合は True です。</p>
-<p>ノードがチャットルームの場合は False です。</p></td>
+<td><p>NULL でない bit</p></td>
+<td><p>ノードがカテゴリの場合は True。</p>
+<p>False ノードがチャットルームの場合。</p></td>
 </tr>
 <tr class="odd">
-<td><p>nodeName</p></td>
-<td><p>nvarchar (256)、null ではない</p></td>
+<td><p>ノード</p></td>
+<td><p>NULL でない nvarchar (256)</p></td>
 <td><p>ノード名。</p></td>
 </tr>
 <tr class="even">
 <td><p>nodeDesc</p></td>
-<td><p>nvarchar (256)、null ではない</p></td>
+<td><p>NULL でない nvarchar (256)</p></td>
 <td><p>ノードの説明。</p></td>
 </tr>
 <tr class="odd">
-<td><p>召集</p></td>
-<td><p>bit</p></td>
+<td><p>invite</p></td>
+<td><p>若干</p></td>
 <td><p>カテゴリの場合:</p>
 <ul>
-<li><p>招待がオンの場合は True です。</p></li>
-<li><p>招待がオフの場合は False です。</p></li>
+<li><p>招待がオンの場合は True。</p></li>
+<li><p>招待がオフの場合は False。</p></li>
 </ul>
-<p>会議室の場合:</p>
+<p>ルームの場合:</p>
 <ul>
-<li><p>[招待] がオフの場合は False です (親カテゴリを上書きします)。</p></li>
-<li><p>招待設定が親カテゴリから継承されている場合は Null です。</p></li>
+<li><p>招待がオフの場合は False (親カテゴリは上書きされます)。</p></li>
+<li><p>招待の設定が親カテゴリから継承されている場合は Null。</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>ログ</p></td>
-<td><p>bit</p></td>
+<td><p>ログオン</p></td>
+<td><p>若干</p></td>
 <td><p>カテゴリの場合:</p>
 <ul>
-<li><p>チャット履歴がオンの場合は True です。</p></li>
-<li><p>チャット履歴がオフの場合は False です。</p></li>
+<li><p>チャット履歴がオンの場合は True。</p></li>
+<li><p>チャット履歴がオフの場合は False。</p></li>
 </ul>
-<p>会議室の場合:</p>
+<p>ルームの場合:</p>
 <ul>
-<li><p>空.</p></li>
+<li><p>Null。</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><p>filePost</p></td>
-<td><p>bit</p></td>
+<td><p>若干</p></td>
 <td><p>カテゴリの場合:</p>
 <ul>
-<li><p>ファイルのアップロードが許可されている場合は True です。</p></li>
-<li><p>ファイルのアップロードが許可されていない場合は False です。</p></li>
+<li><p>ファイルのアップロードが許可されている場合は True。</p></li>
+<li><p>ファイルのアップロードが許可されていない場合は False。</p></li>
 </ul>
-<p>会議室の場合:</p>
+<p>ルームの場合:</p>
 <ul>
-<li><p>空.</p></li>
+<li><p>Null。</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>無効に</p></td>
-<td><p>ビット、null ではない</p></td>
-<td><p>チャットルームが無効になっている場合は True です。 チャットルームにのみ適用されます。 (カテゴリの場合は False)。</p></td>
+<td><p>党</p></td>
+<td><p>NULL でない bit</p></td>
+<td><p>チャットルームが無効になっている場合は True。 チャットルームにのみ適用されます。 (カテゴリの場合は False)。</p></td>
 </tr>
 <tr class="odd">
 <td></td>
@@ -137,62 +137,62 @@ tblNode には、Lync Server 2013 コントロールパネルと管理コマン�
 <td></td>
 </tr>
 <tr class="even">
-<td><p>状況</p></td>
-<td><p>smallint (null ではない)</p></td>
-<td><p>動作 (EnumValue テーブルでの検索):</p>
+<td><p>behavior</p></td>
+<td><p>NULL でない smallint</p></td>
+<td><p>動作 (EnumValue テーブルで検索):</p>
 <ul>
 <li><p>4: 標準 (通常のチャットルーム)。</p></li>
-<li><p>5: 聴衆 (聴衆チャットルーム、発表者のみが投稿できます)。</p></li>
+<li><p>5: 大会議室 (大会議室のチャットルーム、発表者のみが投稿可能)。</p></li>
 </ul>
 <p>チャットルームにのみ適用されます。</p></td>
 </tr>
 <tr class="odd">
-<td><p>明確化</p></td>
-<td><p>smallint (null ではない)</p></td>
-<td><p>Visibility (EnumValue テーブル上で検索される):</p>
+<td><p>visibility</p></td>
+<td><p>NULL でない smallint</p></td>
+<td><p>可視性 (EnumValue テーブルで検索):</p>
 <ul>
-<li><p>2: プライベート</p></li>
-<li><p>3: 範囲</p></li>
+<li><p>2: Private</p></li>
+<li><p>3: スコープ</p></li>
 <li><p>6: 開く</p></li>
 </ul>
 <p>チャットルームにのみ適用されます。</p></td>
 </tr>
 <tr class="even">
-<td><p>siopID</p></td>
+<td><p>Tblsiopwhitelist.siopid</p></td>
 <td><p>GUID</p></td>
-<td><p>アドインがこのチャットルームに関連付けられている場合は、アドインの GUID。 (カテゴリにはアドインがありません。)</p>
-<p>アドイン情報は、SiopWhiteList リスト表で検索されます。</p></td>
+<td><p>アドインがこのチャットルームに関連付けられている場合は、アドインの GUID。 (カテゴリにはアドインはありません。)</p>
+<p>アドイン情報は、SiopWhiteList リストテーブルで検索されます。</p></td>
 </tr>
 <tr class="odd">
 <td><p>nodeAddedBy</p></td>
-<td><p>int (null ではない)</p></td>
-<td><p>このノードを作成したプリンシパルの ID です。</p></td>
+<td><p>NULL でない int</p></td>
+<td><p>このノードを作成したプリンシパルの ID。</p></td>
 </tr>
 <tr class="even">
 <td><p>nodeAddedOn</p></td>
-<td><p>bigint (null ではない)</p></td>
-<td><p>ノードの作成のタイムスタンプ。</p></td>
+<td><p>NULL でない bigint</p></td>
+<td><p>ノード作成のタイムスタンプ。</p></td>
 </tr>
 <tr class="odd">
 <td><p>nodeUpdatedBy</p></td>
-<td><p>int (null ではない)</p></td>
-<td><p>このノードの最新の更新を実行したプリンシパルの ID です。</p></td>
+<td><p>NULL でない int</p></td>
+<td><p>このノードの最新の更新を行ったプリンシパルの ID。</p></td>
 </tr>
 <tr class="even">
 <td><p>nodeUpdatedOn</p></td>
-<td><p>bigint (null ではない)</p></td>
-<td><p>このノードの最新の更新プログラムのタイムスタンプです。</p></td>
+<td><p>NULL でない bigint</p></td>
+<td><p>このノードの最新の更新プログラムのタイムスタンプ。</p></td>
 </tr>
 <tr class="odd">
 <td><p>purgedOn</p></td>
-<td><p>datetime</p></td>
-<td><p>このノードに影響を与える最新の消去操作 (tblScopedPrincipal テーブルと tblPrincipalRole テーブルからのスコープの削除) の時間。 これは、チャットサービスの内部キャッシュ更新メカニズムによって使用されます。</p></td>
+<td><p>日付型</p></td>
+<td><p>このノードに影響を与える最新の消去操作 (tblScopedPrincipal table およびに tblprincipalrole からの範囲の削除) の時間。 これは、チャットサービスの内部キャッシュ更新メカニズムによって使用されます。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>機能
+### <a name="keys"></a>Keys
 
 <table>
 <colgroup>
@@ -211,20 +211,20 @@ tblNode には、Lync Server 2013 コントロールパネルと管理コマン�
 <td><p>主キー。</p></td>
 </tr>
 <tr class="even">
-<td><p>状況</p></td>
-<td><p>TblEnumValue Id テーブルで参照される外部キー。</p></td>
+<td><p>behavior</p></td>
+<td><p>TblEnumValue テーブルに参照がある外部キー。</p></td>
 </tr>
 <tr class="odd">
-<td><p>明確化</p></td>
-<td><p>TblEnumValue Id テーブルで参照される外部キー。</p></td>
+<td><p>visibility</p></td>
+<td><p>TblEnumValue テーブルに参照がある外部キー。</p></td>
 </tr>
 <tr class="even">
 <td><p>parentID</p></td>
-<td><p>TblNode テーブルで参照される外部キー。</p></td>
+<td><p>tblNode.nodeID テーブル内の参照による外部キー。</p></td>
 </tr>
 <tr class="odd">
-<td><p>siopID</p></td>
-<td><p>TblSiopWhiteList テーブルで参照する外部キー。</p></td>
+<td><p>Tblsiopwhitelist.siopid</p></td>
+<td><p>TblSiopWhiteList テーブルに参照がある外部キー。</p></td>
 </tr>
 </tbody>
 </table>

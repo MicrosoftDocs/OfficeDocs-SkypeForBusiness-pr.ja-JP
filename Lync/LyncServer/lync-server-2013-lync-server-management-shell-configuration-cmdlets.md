@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Lync Server 管理シェル構成コマンドレット'
+title: 'Lync Server 2013: Lync Server 管理シェルの構成のコマンドレット'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185978
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce76166c44f7b35781c6181ac37191bad784fa74
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5a6cd1ea107dee9a32d695bf51e7b6998542fc76
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742207"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030220"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-management-shell-configuration-cmdlets-in-lync-server-2013"></a>Lync server 2013 の lync Server 管理シェル構成コマンドレット
+# <a name="lync-server-management-shell-configuration-cmdlets-in-lync-server-2013"></a>Lync server 管理シェルの構成のコマンドレット (Lync Server 2013)
 
 </div>
 
@@ -35,32 +35,32 @@ ms.locfileid: "41742207"
 
 <span> </span>
 
-_**最終更新日:** 2012-03-21_
+_**トピックの最終更新日:** 2012-03-21_
 
-Lync Server 管理シェルは、Windows PowerShell コマンドウィンドウの実装であり、Microsoft Lync Server 2010 の管理に固有のコマンドレットを環境に事前に読み込まれています。 これらのコマンドレットを使用すると、その環境をカスタマイズできます。
+Lync Server 管理シェルは、Windows PowerShell コマンドウィンドウを実装しています。これは、環境に事前に読み込まれている Microsoft Lync Server 2010 の管理に固有のコマンドレットを備えています。 次のコマンドレットを使用して、このような環境をカスタマイズできます。
 
 <div>
 
-## <a name="lync-server-management-shell-configuration-cmdlets"></a>Lync Server 管理シェル構成コマンドレット
+## <a name="lync-server-management-shell-configuration-cmdlets"></a>Lync Server 管理シェルの構成のコマンドレット
 
 これらのコマンドレットを使用して、Lync Server 管理シェルの特定のカスタムプロパティを設定します。
 
   - <span></span>  
-    [Get-CsUICulture](https://technet.microsoft.com/en-us/library/Gg412900(v=OCS.15))
+    [Get-csuiculture](https://technet.microsoft.com/library/Gg412900(v=OCS.15))
 
   - <span></span>  
-    [Set-CsUICulture](https://technet.microsoft.com/en-us/library/Gg398354(v=OCS.15))
+    [Get-csuiculture](https://technet.microsoft.com/library/Gg398354(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [CsManagementConnection の入手](https://technet.microsoft.com/en-us/library/Gg412849(v=OCS.15))
+    [-CsManagementConnection の取得](https://technet.microsoft.com/library/Gg412849(v=OCS.15))
 
   - <span></span>  
-    [CsManagementConnection の削除](https://technet.microsoft.com/en-us/library/Gg425803(v=OCS.15))
+    [-CsManagementConnection を削除する](https://technet.microsoft.com/library/Gg425803(v=OCS.15))
 
   - <span></span>  
-    [Set-CsManagementConnection](https://technet.microsoft.com/en-us/library/Gg413045(v=OCS.15))
+    [-CsManagementConnection の設定](https://technet.microsoft.com/library/Gg413045(v=OCS.15))
 
 </div>
 

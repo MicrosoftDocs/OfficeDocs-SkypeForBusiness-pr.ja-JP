@@ -12,16 +12,16 @@ ms:contentKeyID: 48185233
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ffc102eccdbaa941e2691df88899c0cc01348838
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2324d166ab43153cf37b71500da438e6db6b4b4f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725977"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029518"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,48 +35,48 @@ ms.locfileid: "41725977"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-22_
+_**トピックの最終更新日:** 2012-10-22_
 
-System Center Operations Manager は、Windows オペレーティングシステムのわずかな部分のみを監視することができます。 ただし、system center operations Manager の機能を拡張するには、管理パックをインストールします。このソフトウェアは、System Center Operations Manager が監視できる項目を決定するソフトウェア、それらの項目を監視する方法、アラートの表示方法などを行うことができます。トリガーおよび報告されます。 Microsoft Lync Server 2013 には、次の機能を提供する System Center Operations Manager の2つの管理パックが含まれています。
+System Center Operations Manager は単独で、Windows オペレーティングシステムのごく一部のみを監視することができます。 ただし、system center operations manager の機能を拡張するには、System center Operations Manager が監視できるアイテムを指定するソフトウェアをインストールします。これにより、これらのアイテムを監視する方法や、アラートの方法を指定することもできます。トリガーおよびレポート。 Microsoft Lync Server 2013 には、次の機能を提供する2つの System Center Operations Manager 管理パックが含まれています。
 
-  - コンポーネントとユーザー管理パック (Microsoft.LS.2013.Monitoring.ComponentAndUser.mp) は、イベントログに記録された Lync Server の問題を追跡し、パフォーマンスカウンターで登録するか、または通話の詳細レコード (CDR) またはエクスペリエンスの品質 (QoE) に記録します。databases. 重大な問題については、System Center Operations Manager を構成して、メール、インスタントメッセージ、またはショートメッセージサービス (SMS) メッセージングを使って管理者にすぐに通知することができます。 SMS は、あるモバイルデバイスから別のモバイルデバイスにテキストメッセージを送信するために使用されるテクノロジです。
+  - コンポーネントおよびユーザー管理パック (Microsoft.LS.2013.Monitoring.ComponentAndUser.mp) は、イベントログに記録された Lync Server の問題を追跡し、パフォーマンスカウンターで登録するか、または通話詳細記録 (CDR) または QoE (Quality of Experience) に記録します。databases. 重大な問題については、System Center Operations Manager を構成して、電子メール、インスタントメッセージ、またはショートメッセージサービス (SMS) のメッセージングを介して管理者に即座に通知できます。 SMS とは、テキスト メッセージをモバイル デバイス間で送信するために使用されるテクノロジです。
     
     <div>
     
 
     > [!NOTE]  
-    > Operations Manager の通知の構成の詳細については、TechNet ライブラリの「 <A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=268785">http://go.microsoft.com/fwlink/p/?linkid=268785</A>通知を設定する」を参照してください。
+    > Operations Manager 通知の構成の詳細については、TechNet ライブラリの「通知<A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=268785">http://go.microsoft.com/fwlink/p/?linkid=268785</A>の構成」を参照してください。
 
     
     </div>
 
-  - アクティブな監視パック (Microsoft.LS.2013.Monitoring.ActiveMonitoring.mp) は、システムにログオンしたり、インスタントメッセージを交換したり、公衆交換電話に入っている電話への通話を発信したりするなど、Lync Server の主要なコンポーネントを事前にテストします。ネットワーク (PSTN)。 これらのテストは、Lync Server の代理トランザクションコマンドレットを使用して行われます。 たとえば、テスト用の**cgi**コマンドレットを使って、一連のテストユーザー間のインスタントメッセージの会話をシミュレートします。 このシミュレートされたメッセージの会話に失敗した場合は、警告が生成されます。
+  - アクティブな監視パック (Microsoft.LS.2013.Monitoring.ActiveMonitoring.mp) は、システムへのログオン、インスタントメッセージの交換、または公衆交換電話機にある電話機への通話の作成などの主要な Lync Server コンポーネントを事前にテストします。ネットワーク (PSTN)。 これらのテストは、Lync Server 代理トランザクションコマンドレットを使用して行われます。 たとえば、**Test-CsIM** コマンドレットは、1 組のテスト ユーザー間でインスタント メッセージングの会話をシミュレートするために使用されます。 シミュレートされたメッセージングの会話が失敗した場合、通知が生成されます。
 
-Lync Server 2013 に含まれている2つの管理パックには、Microsoft Lync Server 2010 で使用される管理パックに対する多数の拡張機能が含まれています。 たとえば、Lync Server 2013 コンポーネント管理パックは、Lync Server 自体の監視に限定されているわけではありません。 Lync Server のイベントログとパフォーマンスカウンターの監視に加えて、コンポーネント管理パックは、次のような重要な項目についてのパフォーマンスを追跡し、警告を発行することもできます。
+Lync Server 2013 に含まれている2つの管理パックには、Microsoft Lync Server 2010 で使用される管理パックに対して多くの拡張機能が含まれています。 たとえば、Lync server 2013 コンポーネント管理パックは、Lync Server 自体の監視に制限されていません。 Lync Server のイベントログとパフォーマンスカウンターの監視に加えて、コンポーネント管理パックは次のような重要なアイテムのパフォーマンスを追跡し、通知を発行することもできます。
 
-  - **インターネットインフォメーションサービス (IIS)**   の警告は、インターネットインフォメーションサービスがオフラインになった場合に発行されます。 Lync Server web サービスは IIS に依存しているため、これは重要です。
+  - **インターネットインフォメーションサービス (IIS)**   がオフラインになった場合は、インターネットインフォメーションサービス (IIS) の警告が発行されます。 これは、Lync Server web サービスが IIS に依存しているためです。
 
-  - **プロセスの使用状況**   の警告は、システムリソース (利用可能なメモリなど) を低解像度で開始した場合に発行されます。 これらの通知は、Lync Server が高いシステム使用を担当していない場合でも発行されます。
+  - **プロセス使用状況**   の警告は、システムリソース (利用可能なメモリなど) が不足し始めたときに発行されます。 これらのアラートは、Lync Server がシステムの高使用率を担当していない場合でも発行されます。
 
-  - **コンピューターの障害イベント**   アラートは、サーバーの実行可能性を早急に示すハードウェアまたはソフトウェアの問題が発生した場合に発行されます。 たとえば、ハードディスクの障害が発生している可能性があるサーバーが表示された場合は、Lync Server の管理者に通知されます。
+  - **コンピューターエラーイベント**   アラートは、ハードウェアまたはソフトウェアの問題によって、サーバーの使用可能性を阻むことがある場合に、発行されます。 たとえば、Lync Server 管理者は、ハードディスク障害が発生する危険性があると思われる場合に、そのサーバーに通知されます。
 
-新しい管理パックでも、レポート機能が強化されています。 Lync Server 2013 の新しいレポートには、次のようなものがあります。
+新しい管理パックは、拡張されたレポート機能も備えています。 Lync Server 2013 の新しいレポートは次のとおりです。
 
-  - **[終了-終了] シナリオの可用性レポート**   このレポートは、登録やプレゼンスなどの、主要な Lync Server サービスの可用性/稼働時間を詳細に説明します。
+  - **エンドツーエンドシナリオの可用性レポート**   このレポートでは、登録やプレゼンスなど、主要な Lync Server サービスの可用性/稼働時間を詳細に説明します。
 
-  - ****   [パフォーマンスカウンター情報を使用したキャパシティレポート] このレポートには、メモリの可用性やプロセッサ使用率などのシステムコンポーネントの傾向が表示されます。
+  - **処理能力レポート**   このレポートは、パフォーマンスカウンターの情報を使用して、メモリの可用性やプロセッサの使用率などのシステムコンポーネントの傾向を示します。
 
-  - **[コンポーネントレポート**   このレポートには、Lync Server コンポーネントによってグループ化された最上位の通知ジェネレーターが一覧表示されます。
+  - **コンポーネントレポート**   このレポートには、Lync Server コンポーネントによってグループ化された上位の通知ジェネレーターが一覧表示されます。
 
-これらのデザイン済みレポートに加えて、Lync Server 2013 用の管理パックは、通話の信頼性 (通話詳細の記録で測定された測度) と QoE の状態 (エクスペリエンスの品質で測定される測度) の両方について、自動的に通知を報告します。 通話の詳細記録を有効にしている場合は、System Center Operations Manager コンソールから次の手順を実行して、通話の信頼性の警告を確認できます。
+これらの設計済みレポートに加えて、Lync Server 2013 用の管理パックは、通話の信頼性 (通話詳細記録で測定された測定基準) と QoE の状態 (品質不足の測定基準) の両方に関する通知を自動的に報告します。 通話詳細記録を有効にしている場合は、System Center Operations Manager コンソールから次の手順を実行して、通話の信頼性に関する警告を確認できます。
 
-  - [**監視**]、[ **Microsoft Lync Server 2013 正常性**] の順に展開し、[**通話の信頼性とメディアの品質**] を展開して、[通話の**信頼性**] をクリックします。
+  - [**監視**]、[**Microsoft Lync Server 2013 Health**]、[**Call Reliability and Media Quality**] の順に展開し、[**Call Reliability**] をクリックします。
 
-エクスペリエンスの警告を表示するには、System Center Operations Manager コンソールから次の手順を実行します。
+Qoe (Quality of Experience) の警告を表示するには、System Center Operations Manager コンソールから次の手順を実行します。
 
-  - [**監視**]、[ **Microsoft Lync Server 2013 正常性**] の順に展開し、[**通話の信頼性とメディアの品質**] を展開して、[メディアの**品質**] を展開します。
+  - [**監視**]、[**Microsoft Lync Server 2013 Health**]、[**Call Reliability and Media Quality**]、[**Media Quality**] の順に展開します。
 
-Lync Server 2013 用の管理パックで、Microsoft Lync Server 2010 で使用されるセントラル検出メカニズムではなく、マシンレベルの検出が使用されるようになりました。 つまり、各 System Center agent は基本的に自分自身を検出し、その存在を中央管理サーバーに報告します。 マシンレベルの検出を使うと、System Center インフラストラクチャの管理が簡単になり、さまざまなバージョンの Lync Server 管理パック (たとえば、lync Server 2010 用の管理パックと Lync Server 2013 用の管理パック) を使用することができます。せ.
+Lync Server 2013 用の管理パックは、Microsoft Lync Server 2010 で使用される中央の検出メカニズムではなく、マシンレベルの検出を使用するようになりました。 つまり、各システムセンターエージェントは本質的に自分自身を検出し、その存在を中央管理サーバーに報告します。 コンピューターレベルの検出を使用すると、システムセンターインフラストラクチャの管理が簡単になり、Lync server 管理パックのさまざまなバージョン (lync server 2010 用の管理パック、Lync Server 2013 用の管理パックなど) も可能になります。混在.
 
 </div>
 

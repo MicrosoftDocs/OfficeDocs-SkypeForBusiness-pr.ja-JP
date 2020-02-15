@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 割り当てられていない番号コマンドレット'
+title: 'Lync Server 2013: 割り当てられていない番号のコマンドレット'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184065
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f928958c976d2849d3ea8d6afd899315fe25e8da
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e3dc86689bd79a8efd8831f3b7028fb1f8dcc34f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744847"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029158"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="unassigned-number-cmdlets-in-lync-server-2013"></a>Lync Server 2013 の割り当てられていない番号コマンドレット
+# <a name="unassigned-number-cmdlets-in-lync-server-2013"></a>Lync Server 2013 での未使用の番号のコマンドレット
 
 </div>
 
@@ -35,48 +35,48 @@ ms.locfileid: "41744847"
 
 <span> </span>
 
-_**最終更新日:** 2012-03-21_
+_**トピックの最終更新日:** 2012-03-21_
 
-未割り当ての番号は、組織に属しているが、ユーザーまたは電話に割り当てられていない電話番号です。 割り当てられていない番号は、その番号に通話を発信したときに、さまざまな種類のお知らせを再生するように構成できます。
+未使用の番号とは、組織に属しているがユーザーや電話に割り当てられていない電話番号です。未使用の番号を構成して、その番号への着信時にさまざまな種類のアナウンスを再生できます。
 
 <div>
 
-## <a name="unassigned-number-cmdlets"></a>割り当てられていない番号コマンドレット
+## <a name="unassigned-number-cmdlets"></a>未使用の番号のコマンドレット
 
-次のコマンドレットを使用して、割り当てられていない数値を管理できます。
+次のコマンドレットを使用して、未使用の番号を管理できます。
 
-**未割り当て番号**
-
-  - <span></span>  
-    [Get-CsUnassignedNumber](https://technet.microsoft.com/en-us/library/Gg412792(v=OCS.15))
+**割り当てられていない番号**
 
   - <span></span>  
-    [New-CsUnassignedNumber](https://technet.microsoft.com/en-us/library/Gg398651(v=OCS.15))
+    [Remove-csunassignednumber](https://technet.microsoft.com/library/Gg412792(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsUnassignedNumber](https://technet.microsoft.com/en-us/library/Gg398209(v=OCS.15))
+    [Remove-csunassignednumber](https://technet.microsoft.com/library/Gg398651(v=OCS.15))
 
   - <span></span>  
-    [Set-CsUnassignedNumber](https://technet.microsoft.com/en-us/library/Gg399033(v=OCS.15))
+    [Remove-csunassignednumber](https://technet.microsoft.com/library/Gg398209(v=OCS.15))
+
+  - <span></span>  
+    [Remove-csunassignednumber](https://technet.microsoft.com/library/Gg399033(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [CsAnnouncement](https://technet.microsoft.com/en-us/library/Gg398937(v=OCS.15))
+    [-CsAnnouncement を入手する](https://technet.microsoft.com/library/Gg398937(v=OCS.15))
 
   - <span></span>  
-    [新しい CsAnnouncement](https://technet.microsoft.com/en-us/library/Gg398522(v=OCS.15))
+    [新しい-CsAnnouncement](https://technet.microsoft.com/library/Gg398522(v=OCS.15))
 
   - <span></span>  
-    [CsAnnouncement の削除](https://technet.microsoft.com/en-us/library/Gg412766(v=OCS.15))
+    [削除-CsAnnouncement](https://technet.microsoft.com/library/Gg412766(v=OCS.15))
 
   - <span></span>  
-    [Set-CsAnnouncement](https://technet.microsoft.com/en-us/library/Gg425752(v=OCS.15))
+    [設定-CsAnnouncement](https://technet.microsoft.com/library/Gg425752(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Import-CsAnnouncementFile](https://technet.microsoft.com/en-us/library/Gg398472(v=OCS.15))
+    [インポート-Csアナウンス Ementfile](https://technet.microsoft.com/library/Gg398472(v=OCS.15))
 
 </div>
 

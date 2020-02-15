@@ -12,16 +12,16 @@ ms:contentKeyID: 48184730
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 650caa5244eaf796c066f1388f2fcbb5d3b0703a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 32b48f6a03c0663277404876f538ae2f15d1bc38
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736947"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008509"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41736947"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-18_
+_**トピックの最終更新日:** 2012-10-18_
 
-次のトピックでは、各通話詳細レコード (CDR) データベーススキーマテーブルの列について詳しく説明します。
+以下のトピックでは、通話詳細記録 (CDR) データベース スキーマの各テーブル内の列について詳しく説明します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 の Application テーブル](lync-server-2013-application-table.md)
+  - [Lync Server 2013 のアプリケーションテーブル](lync-server-2013-application-table.md)
 
   - [Lync Server 2013 の CallPriorities テーブル](lync-server-2013-callpriorities-table.md)
 
@@ -55,7 +55,7 @@ _**最終更新日:** 2012-10-18_
 
   - [Lync Server 2013 の ConferenceMessageCount テーブル](lync-server-2013-conferencemessagecount-table.md)
 
-  - [Lync Server 2013 の Conferences テーブル](lync-server-2013-conferences-table.md)
+  - [Lync Server 2013 の会議テーブル](lync-server-2013-conferences-table.md)
 
   - [Lync Server 2013 の ConferenceSessionDetails テーブル](lync-server-2013-conferencesessiondetails-table.md)
 
@@ -67,13 +67,13 @@ _**最終更新日:** 2012-10-18_
 
   - [Lync Server 2013 の Devices テーブル](lync-server-2013-devices-table.md)
 
-  - [Lync Server 2013 の Dialogs テーブル](lync-server-2013-dialogs-table.md)
+  - [Lync Server 2013 のダイアログテーブル](lync-server-2013-dialogs-table.md)
 
   - [Lync Server 2013 の EdgeServers テーブル](lync-server-2013-edgeservers-table.md)
 
   - [Lync Server 2013 の ErrorCategory テーブル](lync-server-2013-errorcategory-table.md)
 
-  - [Lync Server 2013 ErrorDef テーブル](lync-server-2013-errordef-table.md)
+  - [Lync Server 2013 の ErrorDef テーブル](lync-server-2013-errordef-table.md)
 
   - [Lync Server 2013 の ErrorReport テーブル](lync-server-2013-errorreport-table.md)
 
@@ -83,21 +83,21 @@ _**最終更新日:** 2012-10-18_
 
   - [Lync Server 2013 のフロントエンドテーブル](lync-server-2013-frontend-table.md)
 
-  - [Lync Server 2013 のゲートウェイ テーブル](lync-server-2013-gateways-table.md)
+  - [Lync Server 2013 のゲートウェイテーブル](lync-server-2013-gateways-table.md)
 
-  - [Lync Server 2013 の HardwareVersions テーブル](lync-server-2013-hardwareversions-table.md)
+  - [Lync Server 2013 の [ハードウェアバージョン表の一覧](lync-server-2013-hardwareversions-table.md)
 
   - [Lync Server 2013 の IMReportSummary テーブル](lync-server-2013-imreportsummary-table.md)
 
-  - [Lync Server 2013 の Locations テーブル](lync-server-2013-locations-table.md)
+  - [Lync Server 2013 の場所テーブル](lync-server-2013-locations-table.md)
 
-  - [Lync Server 2013 の Manufacturers テーブル](lync-server-2013-manufacturers-table.md)
+  - [Lync Server 2013 の [製造元の表」](lync-server-2013-manufacturers-table.md)
 
   - [Lync Server 2013 の McuJoinsAndLeaves テーブル](lync-server-2013-mcujoinsandleaves-table.md)
 
-  - [Lync Server 2013 の Mcus テーブル](lync-server-2013-mcus-table.md)
+  - [Lync Server 2013 の mcu テーブル](lync-server-2013-mcus-table.md)
 
-  - [Lync Server 2013 の Media テーブル](lync-server-2013-media-table.md)
+  - [Lync Server 2013 のメディアテーブル](lync-server-2013-media-table.md)
 
   - [Lync Server 2013 の MediaList テーブル](lync-server-2013-medialist-table.md)
 
@@ -105,19 +105,19 @@ _**最終更新日:** 2012-10-18_
 
   - [Lync Server 2013 の MSMQProcessing テーブル](lync-server-2013-msmqprocessing-table.md)
 
-  - [Lync Server 2013 の Phones テーブル](lync-server-2013-phones-table.md)
+  - [Lync Server 2013 の電話表](lync-server-2013-phones-table.md)
 
-  - [Lync Server 2013 の Pools テーブル](lync-server-2013-pools-table.md)
+  - [Lync Server 2013 のプールテーブル](lync-server-2013-pools-table.md)
 
-  - [Lync Server 2013 の ProgressReport テーブル](lync-server-2013-progressreport-table.md)
+  - [Lync Server 2013 の進捗レポートの表](lync-server-2013-progressreport-table.md)
 
   - [Lync Server 2013 の PurgeSettings テーブル](lync-server-2013-purgesettings-table.md)
 
-  - [Lync Server 2013 の Registration テーブル](lync-server-2013-registration-table.md)
+  - [Lync Server 2013 の登録テーブル](lync-server-2013-registration-table.md)
 
   - [Lync Server 2013 の Roles テーブル](lync-server-2013-roles-table.md)
 
-  - [Lync Server 2013 の Servers テーブル](lync-server-2013-servers-table.md)
+  - [Lync Server 2013 のサーバーテーブル](lync-server-2013-servers-table.md)
 
   - [Lync Server 2013 の SessionDetails テーブル](lync-server-2013-sessiondetails-table.md)
 
@@ -129,11 +129,11 @@ _**最終更新日:** 2012-10-18_
 
   - [Lync Server 2013 のタスクテーブル](lync-server-2013-task-table.md)
 
-  - [Lync Server 2013 の Tenants テーブル](lync-server-2013-tenants-table.md)
+  - [Lync Server 2013 のテナントテーブル](lync-server-2013-tenants-table.md)
 
   - [Lync Server 2013 の UriTypes テーブル](lync-server-2013-uritypes-table.md)
 
-  - [Lync Server 2013 のユーザー テーブル](lync-server-2013-users-table.md)
+  - [Lync Server 2013 のユーザーテーブル](lync-server-2013-users-table.md)
 
   - [Lync Server 2013 の UserAgentDef テーブル](lync-server-2013-useragentdef-table.md)
 

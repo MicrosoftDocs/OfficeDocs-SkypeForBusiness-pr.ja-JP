@@ -12,20 +12,20 @@ ms:contentKeyID: 51803985
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a61478fcfffd182517a1045b041c51abb5efe7e0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5e419b448145927dd712ba41fca562a021c49174
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757541"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030350"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="guidance-for-location-based-routing-in-lync-server-2013"></a>Lync Server 2013 の場所に基づくルーティングのガイダンス
+# <a name="guidance-for-location-based-routing-in-lync-server-2013"></a>Lync Server 2013 での場所に基づくルーティングのガイダンス
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41757541"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-21_
+_**トピックの最終更新日:** 2013-02-21_
 
-状況に応じて位置に基づくルーティングは、ユーザーのエンドポイントのネットワークサイトの場所または PSTN ゲートウェイのネットワークサイトの場所で適用できます。 このトピックでは、位置ベースのルーティングを適用する方法に関するガイダンスを示します。
+状況に応じた場所に基づくルーティングは、ユーザーのエンドポイントネットワークサイトの場所または PSTN ゲートウェイのネットワークサイトの場所で適用できます。 このトピックでは、場所に基づくルーティングの適用方法に関するガイダンスを示します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
   - [Lync Server 2013 のユーザーの場所](lync-server-2013-user-s-location.md)
 

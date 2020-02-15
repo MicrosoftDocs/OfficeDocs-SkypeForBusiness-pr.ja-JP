@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: テスト-CsAddressBookService for Address Book の管理'
+title: 'Lync Server 2013: アドレス帳管理用のテスト-CsAddressBookService'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185206
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5250eca6372f8cd5394dc9607e4e6330934368b8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 91df3f20d93ce6ee948f385bb46e8b2a0830ca31
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746327"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41985062"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41746327"
 
 <span> </span>
 
-_**最終更新日:** 2012-11-01_
+_**トピックの最終更新日:** 2012-11-01_
 
-このコマンドレットを実行できるユーザー: 既定では、次のグループのメンバーには、RTCUniversalServerAdmins のテストを実行する権限が与えられます。 このコマンドレットが割り当てられているすべての役割ベースのアクセス制御 (RBAC) ロールのリストを返すには (自分自身で作成したカスタム RBAC ロールを含む)、Windows PowerShell プロンプトから次のコマンドを実行します。
+このコマンドレットを実行できる人は次のとおりです。 既定では、次のグループのメンバーが Test-CsAddressBookService コマンドレットの実行を承認されています。 RTCUniversalServerAdmins。 このコマンドレットが割り当てられているすべての役割ベースのアクセス制御 (RBAC) の役割の一覧 (自身が作成したカスタムの RBAC の役割を含む) を戻すには、Windows PowerShell プロンプトから次のコマンドを実行します。
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Test-CsAddressBookService"}
 
-Lync Server 2013 には、特定の機能が正常に動作していることを確認するために、合成コマンドを開始する多数のコマンドレットが含まれています。 テスト-CsAddressBookService は、定義されたユーザーが、アドレス帳 Web サービスからローカルファイルに接続して要求できることを確認します。
+Lync Server 2013 には、固有の機能が正しく動作していることを確認するために、合成コマンドを開始する多数のコマンドレットが含まれています。 Test-CsAddressBookService は、定義済みのユーザーがアドレス帳 Web サービスからローカルファイルに接続して要求できることを確認します。
 
-次に例を示します。
+次にその例を示します。
 
     Test-CsAddressBookService -TargetFqdn atl-cs-001.contoso.com -UserCredential contoso\bob -UserSipAddress "sip:bob@contoso.com"
 

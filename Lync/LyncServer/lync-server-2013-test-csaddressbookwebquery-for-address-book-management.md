@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: テスト-CsAddressBookWebQuery アドレス帳の管理'
+title: 'Lync Server 2013: アドレス帳管理用のテスト-CsAddressBookWebQuery'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184865
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c50497979e8439a60799864376d1f93d36646cec
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0a2481ff48e1156bd0cbbb478db213dbb02d2912
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746257"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42021778"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="test-csaddressbookwebquery-for-address-book-management-in-lync-server-2013"></a>Lync Server 2013 でのアドレス帳の管理に関するテスト-CsAddressBookWebQuery
+# <a name="test-csaddressbookwebquery-for-address-book-management-in-lync-server-2013"></a>Lync Server 2013 でのアドレス帳管理用のテスト-CsAddressBookWebQuery
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41746257"
 
 <span> </span>
 
-_**最終更新日:** 2012-11-01_
+_**トピックの最終更新日:** 2012-11-01_
 
-このコマンドレットを実行できるユーザー: 既定では、次のグループのメンバーは、RTCUniversalServerAdmins を実行することを許可されています。 このコマンドレットが割り当てられているすべての役割ベースのアクセス制御 (RBAC) ロールのリストを返すには (自分自身で作成したカスタム RBAC ロールを含む)、Windows PowerShell プロンプトから次のコマンドを実行します。
+このコマンドレットを実行できるユーザー: 既定では、次のグループのメンバーが、RTCUniversalServerAdmins コマンドレットの実行を承認されています。 このコマンドレットが割り当てられているすべての役割ベースのアクセス制御 (RBAC) の役割の一覧 (自身が作成したカスタムの RBAC の役割を含む) を戻すには、Windows PowerShell プロンプトから次のコマンドを実行します。
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Test-CsAddressBookService"}
 
-テスト-CsAddressBookService の代理トランザクションと同様に、テスト-CsAddressBookWebQuery は、アドレス帳の Web クエリに対してクエリを実行して、適切に動作することを確認します。 このコマンドレットは、Web チケット認証に接続し、– UserCredential で指定された資格情報を提示します。 認証された場合、コマンドレットは、– TargetSipAddress 情報を表示します。 このコマンドレットは、連絡先に関する情報を取得できなかった場合に、成功を報告する必要があります。
+Test-CsAddressBookWebQuery と同様に、Test-CsAddressBookWebQuery は、アドレス帳 Web クエリに対してクエリを実行して、正常に動作していることを確認します。 コマンドレットは、Web チケット認証に接続し、-UserCredential で指定された資格情報を提示します。 認証された場合、コマンドレットは– TargetSipAddress 情報を表示します。 このコマンドレットは、連絡先に関する情報を取得できた場合に成功を報告します。
 
 次に例を示します。
 

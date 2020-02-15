@@ -12,20 +12,20 @@ ms:contentKeyID: 48183954
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9aa76d218564e04048a07db7592ffc5ea4046a71
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3b93b63ffbb551c7e5d9d6998a5f25f86eb6fb0b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728787"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42009390"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-response-group-workflows-in-lync-server-2013"></a>Lync Server 2013 での応答グループのワークフローの作成
+# <a name="create-response-group-workflows-in-lync-server-2013"></a>Lync Server 2013 で応答グループのワークフローを作成する
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41728787"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-12_
+_**トピックの最終更新日:** 2012-09-12_
 
 ワークフローは、電話への着信から、だれかが呼び出しに応答するまでの通話のビヘイビアーを定義します。ワークフローは、通話の保留に使用されるキューを指定し、ハント グループで使用するルーティング方法や対話型応答グループで使用する質問と回答を指定します。また、ワークフローは、開始メッセージ、保留音、営業時間、休日などの設定も定義します。
 
-応答グループ構成ツールを使ってワークフローを作成します。 Lync Server コントロールパネルの [返信グループ] ページから応答グループの構成ツールにアクセスできます。
+応答グループ構成ツールを使用して、ワークフローを作成します。 応答グループ構成ツールには、Lync Server コントロールパネルの [応答グループ] ページからアクセスできます。
 
 <div>
 
@@ -53,11 +53,11 @@ _**最終更新日:** 2012-09-12_
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
   - [Lync Server 2013 でハントグループワークフローを作成または変更する](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)
 
-  - [Lync Server 2013 での対話型音声応答通話フローの設計](lync-server-2013-design-interactive-voice-response-call-flows.md)
+  - [Lync Server 2013 での対話型音声応答呼び出しフローの設計](lync-server-2013-design-interactive-voice-response-call-flows.md)
 
   - [Lync Server 2013 での対話ワークフローの作成または変更](lync-server-2013-create-or-modify-an-interactive-workflow.md)
 
@@ -65,11 +65,11 @@ _**最終更新日:** 2012-09-12_
 
 <div>
 
-## <a name="related-sections"></a>関連項目
+## <a name="related-sections"></a>関連情報
 
-  - [Lync Server 2013 での応答グループのエージェント グループの作成](lync-server-2013-create-response-group-agent-groups.md)
+  - [応答グループエージェントグループの作成 Lync Server 2013](lync-server-2013-create-response-group-agent-groups.md)
 
-  - [Lync Server 2013 での応答グループのキューの作成](lync-server-2013-create-response-group-queues.md)
+  - [Lync Server 2013 で応答グループキューを作成する](lync-server-2013-create-response-group-queues.md)
 
 </div>
 

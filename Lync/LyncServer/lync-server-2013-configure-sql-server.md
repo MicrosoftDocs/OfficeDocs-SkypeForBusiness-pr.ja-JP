@@ -12,16 +12,16 @@ ms:contentKeyID: 48184699
 ms.date: 01/22/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a074da011f02b0a78d0886badc991651bb7d9c91
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 28ab80634e7aeb4c3385c1fb60f0290a9cfe14ac
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733877"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028928"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41733877"
 
 <span> </span>
 
-_**最終更新日:** 2015-01-22_
+_**トピックの最終更新日:** 2015-01-22_
 
-展開するデータベースごとに、Lync Server 2013 の展開用のすべてのデータベースに対して1つの SQL Server インスタンスを使用できます。これは、データベースサーバー上で併置できます。 データベースの配置の詳細については、サポート対象ドキュメントの「 [Lync server 2013 でサポートされているサーバーの検索場所](lync-server-2013-supported-server-collocation.md)」を参照してください。
+展開するデータベースごとに、データベースサーバーに併置できる Lync Server 2013 展開のすべてのデータベースに対して1つの SQL Server インスタンスを使用できます。 データベースの併置の詳細については、「サポート」のドキュメントの「supported [server 併置 in Lync server 2013](lync-server-2013-supported-server-collocation.md) 」を参照してください。
 
-また、データベースをセットアップするトポロジビルダーの手順を完了する前に、または Windows PowerShell コマンドレットを使用して手動でデータベースを作成する前に、各 SQL Server インスタンスをインストールして使用できるようにする必要があります。 SQL Server のサポートの詳細については、「 [Lync server 2013 用のハードウェアのセットアップ](lync-server-2013-hardware-setup.md)」を参照してください。
+また、データベースをセットアップするトポロジビルダーの手順を完了する前に、または Windows PowerShell コマンドレットを使用してデータベースを手動で作成する前に、各 SQL Server インスタンスをインストールして使用できるようにする必要があります。 SQL Server のサポートの詳細については、「 [Lync Server 2013 のハードウェアのセットアップ](lync-server-2013-hardware-setup.md)」を参照してください。
 
 <div>
 
 ## <a name="to-install-microsoft-sql-server-2012"></a>Microsoft SQL Server 2012 をインストールするには
 
-  - Microsoft SQL Server 2012 のドキュメントについて<https://technet.microsoft.com/en-us/library/bb500395(v=sql.110).aspx>は、次のページを参照してください。
+  - Microsoft SQL Server 2012 のドキュメント<https://technet.microsoft.com/library/bb500395(v=sql.110).aspx>を参照してください。
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 付録 B: 存続可能ブランチ アプライアンスの管理'
+title: 'Lync Server 2013: 付録 B: 存続可能ブランチアプライアンスの管理'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183773
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b16d4c55197785a6df12ad2031dbd2e624501ebd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b98dbf9fa99c5dcfdea3b9b1517c533340329f24
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737767"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029008"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="appendix-b-managing-a-survivable-branch-appliance-in-lync-server-2013"></a>付録 B: Lync Server 2013 での存続可能ブランチ アプライアンスの管理
+# <a name="appendix-b-managing-a-survivable-branch-appliance-in-lync-server-2013"></a>付録 B: Lync Server 2013 での存続可能ブランチアプライアンスの管理
 
 </div>
 
@@ -35,93 +35,93 @@ ms.locfileid: "41737767"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-18_
+_**トピックの最終更新日:** 2012-10-18_
 
-このトピックでは、Survivable Branch アプライアンスを管理する手順について説明します。 具体的には、Survivable Branch アプライアンスの置き換えと名前の変更方法と、Survivable Branch Appliance が関連付けられている Lync Server 2013 フロントエンドプールの変更方法について説明します。
+このトピックでは、存続可能ブランチアプライアンスを管理する手順について説明します。 具体的には、存続可能ブランチアプライアンスの置換と名前変更、および存続可能 Branch Appliance が関連付けられている Lync Server 2013 フロントエンドプールの変更方法について説明します。
 
 <div>
 
-## <a name="to-replace-a-survivable-branch-appliance"></a>Survivable Branch アプライアンスを交換するには
+## <a name="to-replace-a-survivable-branch-appliance"></a>存続可能ブランチ アプライアンスを置き換えるには
 
-1.  Survivable Branch アプライアンスで、すべての Lync Server 2013 サービスを停止します。 (Survivable Branch Appliance ベンダーのマニュアルをご覧ください。)
+1.  存続可能ブランチアプライアンス上のすべての Lync Server 2013 サービスを停止します。 (存続可能 Branch Appliance ベンダーのドキュメントを参照してください)。
 
-2.  勧めSurvivable Branch アプライアンスをドメインから削除します。
+2.  勧めドメインから存続可能 Branch アプライアンスを削除します。
 
-3.  次の手順に従って、Active Directory ドメインサービス内の Survivable Branch アプライアンスコンピューターオブジェクトを削除します。
+3.  Active Directory ドメインサービスの存続可能 Branch Appliance コンピューターオブジェクトを削除します。そのためには、次の手順を実行します。
     
-      - Enterprise Admins グループのメンバーとしてメンバーサーバーにログオンします。
+      - Enterprise Admins グループのメンバーとしてメンバー サーバーにログオンします。
     
-      - [**スタート**] をクリックし、[**管理ツール**] をクリックして、[ **Active Directory ユーザーとコンピューター**] をクリックします。
+      - [ **スタート**] ボタンをクリックし、[ **管理ツール**]、[ **Active Directory ユーザーとコンピューター**] の順にクリックします。
     
-      - Survivable Branch Appliance オブジェクトを右クリックし、[**削除**] をクリックします。
+      - 存続可能 Branch Appliance オブジェクトを右クリックし、[**削除**] をクリックします。
 
-4.  Survivable Branch Appliance コンピューターオブジェクトをもう一度追加します。 (「 [Lync Server 2013 の Active Directory に Survivable Branch Appliance を追加する」を](lync-server-2013-add-a-survivable-branch-appliance-to-active-directory.md)参照してください。)
+4.  存続可能 Branch Appliance コンピューターオブジェクトをもう一度追加します。 (「 [Lync Server 2013 で存続可能 Branch Appliance を Active Directory に追加する」を](lync-server-2013-add-a-survivable-branch-appliance-to-active-directory.md)参照してください)。
 
-5.  Active Directory の複製が行われるまで待ちます。
+5.  Active Directory のレプリケーションが行われるのを待ちます。
 
-6.  Lync Server 管理シェルを開き、「 **Enable-CSTopology**機能」と入力します。
+6.  [Lync Server 管理シェル] を開き、「 **Enable-CSTopology**方法」と入力します。
 
-7.  新しい Survivable Branch Appliance をネットワークに接続し、「 [Survivable Branch appliance またはサーバーを Lync server 2013 に展開](lync-server-2013-deploying-a-survivable-branch-appliance-or-server-central-site-tasks.md)する」の手順に従ってください。また、 [lync server 2013-branch site のタスクを使用して、Survivable branch Appliance または server を展開](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md)してください。
+7.  新しい存続可能 Branch Appliance をネットワークに接続し、「[存続可能 Branch appliance Or server With Lync server 2013-central site tasks](lync-server-2013-deploying-a-survivable-branch-appliance-or-server-central-site-tasks.md) 」および「 [Deploy The 存続可能 Branch appliance Or Server with lync server 2013-Branch site task](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md)」の手順を実行します。
 
 </div>
 
 <div>
 
-## <a name="to-rename-a-survivable-branch-appliance"></a>Survivable Branch アプライアンスの名前を変更するには
+## <a name="to-rename-a-survivable-branch-appliance"></a>存続可能ブランチ アプライアンスの名前を変更するには
 
-1.  ユーザーをセントラルサイトに移動します。 詳細については、「[ユーザーを Lync Server 2013 の別のプールに移動する](lync-server-2013-move-users-to-another-pool.md)」を参照してください。
+1.  ユーザーをセントラル サイトに移動します。 詳細については、「 [Move users to a Lync Server 2013」](lync-server-2013-move-users-to-another-pool.md)を参照してください。
 
-2.  Survivable Branch アプライアンスで、すべての Lync Server 2013 サービスを停止します。 (Survivable Branch Appliance ベンダーのマニュアルをご覧ください。)
+2.  存続可能ブランチアプライアンス上のすべての Lync Server 2013 サービスを停止します。 (存続可能 Branch Appliance ベンダーのドキュメントを参照してください)。
 
-3.  次の手順に従って、トポロジから Survivable Branch アプライアンスを削除します。
+3.  トポロジから存続可能 Branch アプライアンスを削除するには、次の手順を実行します。
     
-      - [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server**]、[ **lync server Topology Builder**] の順にクリックします。
+      - [**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server**]、[**Lync Server トポロジ ビルダー**] の順にクリックします。
     
-      - コンソールツリーで、[**ブランチサイト**] を展開し、Survivable ブランチアプライアンスをクリックして、操作ウィンドウで [**削除**] をクリックします。
+      - コンソールツリーで、[**ブランチサイト**] を展開し、存続可能ブランチアプライアンスをクリックして、操作ウィンドウで [**削除**] をクリックします。
 
-4.  Survivable Branch アプライアンスをドメインから削除します。
+4.  ドメインから存続可能 Branch アプライアンスを削除します。
 
-5.  次の手順に従って、Active Directory 内の Survivable Branch Appliance コンピューターオブジェクトを削除します。
+5.  Active Directory 内の存続可能 Branch Appliance コンピューターオブジェクトを削除するには、次の手順を実行します。
     
-      - Enterprise Admins グループのメンバーとしてドメインコントローラーにログオンします。
+      - Enterprise Admins グループのメンバーとしてドメイン コントローラーにログオンします。
     
-      - [**スタート**] をクリックし、[**管理ツール**] をクリックして、[ **Active Directory ユーザーとコンピューター**] をクリックします。
+      - [**スタート**]、[**管理ツール**]、[**Active Directory ユーザーとコンピューター**] の順にクリックします。
     
-      - Survivable Branch Appliance オブジェクトを右クリックし、[**削除**] をクリックします。
+      - 存続可能 Branch Appliance オブジェクトを右クリックし、[**削除**] をクリックします。
 
-6.  Survivable Branch アプライアンスを工場出荷時のデフォルトに復元します。 (Survivable Branch Appliance ベンダーのマニュアルをご覧ください。)
+6.  存続可能ブランチアプライアンスを出荷時の既定値に復元します。 (存続可能 Branch Appliance ベンダーのドキュメントを参照してください)。
 
-7.  「 [Lync server 2013-セントラルサイトタスクを使用して Survivable Branch appliance またはサーバーを展開](lync-server-2013-deploying-a-survivable-branch-appliance-or-server-central-site-tasks.md)する」の手順に従って、「 [lync server 2013 を使用して Survivable branch Appliance またはサーバーを展開する](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md)」を参照してください。
+7.  「 [Lync server 2013-中央サイトタスクを使用した存続可能ブランチアプライアンスまたはサーバーの展開](lync-server-2013-deploying-a-survivable-branch-appliance-or-server-central-site-tasks.md)」の手順に従って、「 [lync server 2013-branch site task」を使用して存続可能 branch Appliance または server を展開](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md)します。
 
-8.  名前を変更した Survivable Branch アプライアンスにユーザーを移動します。 詳細については、「[ユーザーを Lync Server 2013 の別のプールに移動する](lync-server-2013-move-users-to-another-pool.md)」を参照してください。
+8.  名前を変更した存続可能 Branch Appliance にユーザーを移動します。 詳細については、「 [Move users to a Lync Server 2013」](lync-server-2013-move-users-to-another-pool.md)を参照してください。
 
 </div>
 
 <div>
 
-## <a name="to-change-the-lync-server-front-end-pool-that-the-survivable-branch-appliance-is-associated-with"></a>Survivable Branch アプライアンスが関連付けられている Lync Server フロントエンドプールを変更するには
+## <a name="to-change-the-lync-server-front-end-pool-that-the-survivable-branch-appliance-is-associated-with"></a>存続可能ブランチ アプライアンスが関連付けられている Lync Server のフロントエンド プールを変更するには
 
-1.  Survivable Branch アプライアンスから中央サイトの Lync Server フロントエンドプールにユーザーを移動します。 詳細については、「[ユーザーを Lync Server 2013 の別のプールに移動する](lync-server-2013-move-users-to-another-pool.md)」を参照してください。
+1.  存続可能ブランチアプライアンスから中央サイトの Lync Server フロントエンドプールにユーザーを移動します。 詳細については、「 [Move users to a Lync Server 2013」](lync-server-2013-move-users-to-another-pool.md)を参照してください。
 
-2.  Survivable Branch アプライアンスで、すべての Lync Server サービスを停止します。 (Survivable Branch Appliance ベンダーのマニュアルをご覧ください)。
+2.  存続可能ブランチアプライアンス上のすべての Lync Server サービスを停止します。 (存続可能 Branch Appliance ベンダーのドキュメントを参照してください)。
 
-3.  次の手順に従って、Survivable Branch アプライアンスが関連付けられている Lync Server フロントエンドプールを更新します。
+3.  存続可能 Branch Appliance が関連付けられている Lync Server フロントエンドプールを更新するには、次の手順を実行します。
     
-      - [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server**]、[ **lync server Topology Builder**] の順にクリックします。
+      - [**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server**]、[**Lync Server トポロジ ビルダー**] の順にクリックします。
     
-      - [**ブランチサイト**の展開] を選びます。
+      - [**ブランチ サイト**] を展開します。
     
-      - 変更する Survivable Branch Appliance オブジェクトを右クリックして、[**プロパティの編集**] をクリックします。
+      - 変更する存続可能 Branch Appliance オブジェクトを右クリックし、[**プロパティの編集**] をクリックします。
     
-      - [復元性] で、Survivable Branch アプライアンスが関連付けられる新しいフロントエンドプールを選択し、[**次へ**] をクリックします。
+      - [復元] で、存続可能ブランチアプライアンスが関連付けられる新しいフロントエンドプールを選択し、[**次へ**] をクリックします。
     
-      - コンソールツリーで、新しい Survivable Branch アプライアンスを右クリックし、[ **Topology**] をクリックして、[**発行**] をクリックします。
+      - コンソールツリーで、新しい存続可能ブランチアプライアンスを右クリックし、[**トポロジ**] をクリックして、[**公開**] をクリックします。
 
-4.  Survivable Branch アプライアンスで、すべての Lync Server サービスを再起動します。
+4.  存続可能ブランチアプライアンス上のすべての Lync Server サービスを再起動します。
 
-5.  Survivable Branch アプライアンスをテストしてください。 詳細について[は、「Lync Server 2013 での Survivable Branch Appliance または Server のホームユーザー](lync-server-2013-home-users-on-a-survivable-branch-appliance-or-server.md)」を参照してください。
+5.  存続可能ブランチアプライアンスをテストします。 詳細については、「[存続可能ブランチアプライアンスまたはサーバー上の Lync server 2013 のホームユーザー](lync-server-2013-home-users-on-a-survivable-branch-appliance-or-server.md)」を参照してください。
 
-6.  セントラルサイトの Lync Server フロントエンドプールのユーザーを Survivable Branch Appliance に移動します。
+6.  中央サイトの Lync Server フロントエンドプールから存続可能ブランチアプライアンスにユーザーを移動します。
 
 </div>
 

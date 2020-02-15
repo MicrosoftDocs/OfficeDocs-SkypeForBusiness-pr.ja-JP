@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ブランチ サイト復元を実現するためのユーザーの構成'
+title: 'Lync Server 2013: ブランチサイトの復元のためのユーザーの構成'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183814
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46b0909b7bbcd8f1b80f0c3e2f5718fc6df4d730
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 487120d76e64229779e7f73725545eaad3da7e4a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734457"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029980"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-users-for-branch-site-resiliency-in-lync-server-2013"></a>Lync Server 2013 でブランチ サイト復元を実現するためのユーザーの構成
+# <a name="configuring-users-for-branch-site-resiliency-in-lync-server-2013"></a>Lync Server 2013 でブランチサイトの復元のユーザーを構成する
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41734457"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-11_
+_**トピックの最終更新日:** 2012-10-11_
 
-「 [Survivable Branch Appliance またはサーバーを Lync Server 2013 に展開](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md)する」の手順で正常に完了したら、次の手順を実行して、エンタープライズ voip のユーザーを有効にし、ボイスポリシーとボイスメールの設定を割り当てます。 次に、 [Survivable Branch appliance または Lync server 2013 でのホームユーザー](lync-server-2013-home-users-on-a-survivable-branch-appliance-or-server.md)は、これらのユーザーを Survivable ブランチアプライアンスまたはサーバーでホームにします。
+「 [Deploy a 存続可能 Branch Appliance Or Server With Lync server 2013-branch site task](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md)」のタスクを正常に完了した後、次の手順を実行してエンタープライズ voip でユーザーを有効にし、音声ポリシーとボイスメール設定を割り当てます。 その後、 [Lync Server 2013 の存続可能ブランチアプライアンスまたはサーバー上のホームユーザー](lync-server-2013-home-users-on-a-survivable-branch-appliance-or-server.md)は、これらのユーザーを存続可能ブランチアプライアンスまたはサーバー上でホームにします。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 でのエンタープライズ Voip のユーザーの有効化](lync-server-2013-enable-users-for-enterprise-voice.md)
+  - [Lync Server 2013 のエンタープライズ Voip でユーザーを有効にする](lync-server-2013-enable-users-for-enterprise-voice.md)
 
-  - [Lync Server 2013 でのブランチ ユーザー用の VoIP ルーティング ポリシーの作成](lync-server-2013-create-the-voip-routing-policy-for-branch-users.md)
+  - [Lync Server 2013 でのブランチユーザーの VoIP ルーティングポリシーの作成](lync-server-2013-create-the-voip-routing-policy-for-branch-users.md)
 
-  - [Lync Server 2013 でのボイス メール再ルーティング設定の構成](lync-server-2013-configure-voice-mail-rerouting-settings.md)
+  - [Lync Server 2013 でボイスメールの再ルーティング設定を構成する](lync-server-2013-configure-voice-mail-rerouting-settings.md)
 
 </div>
 

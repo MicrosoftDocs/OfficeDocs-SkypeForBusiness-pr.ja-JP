@@ -12,16 +12,16 @@ ms:contentKeyID: 63969624
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 628fd3aae4f66316627176c3af025eb63202bafb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d6052785bdb8e748ac657d800a630ecc76415af9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746227"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42021338"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41746227"
 
 <span> </span>
 
-_**最終更新日:** 2014-06-07_
+_**トピックの最終更新日:** 2014-06-07_
 
 
 <table>
@@ -45,7 +45,7 @@ _**最終更新日:** 2014-06-07_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>確認のスケジュール</p></td>
+<td><p>検証スケジュール</p></td>
 <td><p>毎月</p></td>
 </tr>
 <tr class="even">
@@ -54,8 +54,8 @@ _**最終更新日:** 2014-06-07_
 </tr>
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
-<td><p>Lync Server 管理シェルを使用してローカルで実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使って実行する場合は、テスト-CsMcxConference コマンドレットを実行する権限を持つ RBAC の役割をユーザーに割り当てる必要があります。 このコマンドレットを使うことができるすべての RBAC ロールの一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには、テスト-CsMcxConference コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsMcxConference&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,13 +66,13 @@ _**最終更新日:** 2014-06-07_
 
 ## <a name="description"></a>説明
 
-モバイルデバイスユーザーは、次のような操作を行うことができます。
+Mobility Service を使用すると、モバイルデバイスのユーザーは次のことを行うことができます。
 
-1.  インスタントメッセージとプレゼンス情報を交換します。
+1.  Exchange インスタントメッセージとプレゼンス情報。
 
-2.  ワイヤレスプロバイダーではなく、内部でボイスメールを保存して取得します。
+2.  ボイスメールをワイヤレスプロバイダーではなく内部に保存および取得します。
 
-3.  職場やダイヤルアウト会議などの Lync Server 機能を利用できます。 テスト用の CsMcxConference コマンドレットを使うと、ユーザーがモバイルデバイスを使って Lync Server 会議に参加して参加できることを簡単に確認できます。
+3.  勤務先およびダイヤルアウト会議経由の通話など、Lync Server の機能を活用します。 Test-CsMcxConference コマンドレットを使用すると、ユーザーがモバイルデバイスを使用して Lync Server 会議に参加して参加できることを確認するための簡単な方法が提供されます。
 
 </div>
 
@@ -80,7 +80,7 @@ _**最終更新日:** 2014-06-07_
 
 ## <a name="running-the-test"></a>テストの実行
 
-このチェックを実行するには、3つの Windows PowerShell credentials オブジェクト (アカウント名とパスワードを含むオブジェクト) を各アカウントに作成する必要があります。 次の例のように、テスト-CsMcxConference を呼び出すときに、2つのアカウントの資格情報オブジェクトと SIP アドレスを含める必要があります。
+このチェックを実行するには、3つの Windows PowerShell credentials オブジェクト (アカウント名とパスワードを含むオブジェクト) を各アカウントに作成する必要があります。 次の例に示されているように、テスト用の資格情報オブジェクトと2つのアカウントの SIP アドレスを指定する必要があります。
 
     $organizerCred = Get-Credential "litwareinc\kenmyer"
     $user1Cred = Get-Credential "litwareinc\packerman"
@@ -88,15 +88,15 @@ _**最終更新日:** 2014-06-07_
     
     Test-CsMcxConference -TargetFqdn "atl-cs-001.litwareinc.com" -Authentication Negotiate -OrganizerSipAddress "sip:kenmyer@litwareinc.com" -OrganizerCredential $organizerCred -UserSipAddress "sip:pilar@litwareinc.com" -UserCredential $user1Cred -User2SipAddress "sip:adelaney@litwareinc.com" -User2Credential $user2Cred
 
-詳細については、「[テスト-CsMcxConference](https://docs.microsoft.com/powershell/module/skype/Test-CsMcxConference)コマンドレット」のヘルプトピックを参照してください。
+詳細については、 [Test-CsMcxConference](https://docs.microsoft.com/powershell/module/skype/Test-CsMcxConference)コマンドレットのヘルプトピックを参照してください。
 
 </div>
 
 <div>
 
-## <a name="determining-success-or-failure"></a>成功または失敗を確認する
+## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
-チェックが成功した場合は、テスト-CsMcxConference で成功のテスト結果が報告されます。
+チェックに成功した場合、テスト-CsMcxConference は成功のテスト結果を報告します。
 
 ターゲット Fqdn: atl-cs-001.litwareinc.com
 
@@ -104,13 +104,13 @@ _**最終更新日:** 2014-06-07_
 
 結果: 成功
 
-待ち時間: 00:00:00
+待機時間: 00:00:00
 
 エラーメッセージ:
 
-診断
+分析
 
-テストが失敗した場合は、CsMcxConference で不合格のテスト結果が報告されます。 通常、このテスト結果には、詳細なエラーメッセージと診断が付随します。 次に例を示します。
+チェックが失敗した場合は、テストに失敗したことを示すテスト結果が報告されます。 通常、このテスト結果には、詳細なエラーメッセージと診断が伴います。 例:
 
 ターゲット Fqdn: atl-cs-001.litwareinc.com
 
@@ -118,65 +118,65 @@ _**最終更新日:** 2014-06-07_
 
 結果: エラー
 
-待ち時間: 00:00:00
+待機時間: 00:00:00
 
-エラーメッセージ: Web チケットサービスの応答がありませんでした。
+エラーメッセージ: Web チケットサービスの応答が受信されていません。
 
-内部例外: HHTP 要求はクライアントで許可されていません
+内部例外: HHTP 要求はクライアントによって承認されていません
 
-ネゴシエーションスキーム ' Ntlm '。 認証ヘッダーが受信されました
+ネゴシエーションスキーム ' Ntlm '。 受信した認証ヘッダー
 
-が、サーバーから ' Negotiate ' されました。
+サーバーから ' Negotiate ' が行われました。
 
-内部例外: リモートサーバーからエラーが返されました: (401)
+内部例外: リモートサーバーがエラーを返しました: (401)
 
-第三者.
+非.
 
-診断
+分析
 
-内部診断: atl-cs-001.litwareinc.com------------------------
+内部診断: atl-cs-001.litwareinc.com--サーバー-一方向の Db:
 
 キャッシュ制御: プライベート
 
-Content-type: text/html;charset = utf-8。
+コンテンツタイプ: text/html。charset = utf-8。
 
 サーバー: Microsoft-IIS/8.5
 
 WWW-認証: Negotiate、NTLM
 
-X-電力: ASP.NET
+X-Powered By: ASP.NET
 
 X-コンテンツタイプ-オプション: nosniff
 
-日付: 水曜日、28年5月 19:22:19 2014 日
+日付: 水曜日、28月 2014 19:22:19 GMT
 
-Content-length: 6305
+コンテンツの長さ: 6305
 
 </div>
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a>テストに失敗した可能性がある理由
+## <a name="reasons-why-the-test-might-have-failed"></a>テストが失敗した理由
 
-テスト用の CsMcxConference に失敗した場合は、まずモビリティサービスが実行されていてアクセスできることを確認する必要があります。 この操作を行うには、web ブラウザーを使用して、Lync Server プールのモビリティサービスの URL にアクセスできることを確認します。 たとえば、次のコマンドは、プール atl-cs-001.litwareinc.com の URL を確認します。
+テスト-CsMcxConference が失敗した場合は、mobility service が実行されていてアクセス可能であることを確認することから開始する必要があります。 これを行うには、web ブラウザーを使用して、Lync Server プールの mobility service URL にアクセスできることを確認します。 たとえば、次のコマンドを実行すると、プール atl-cs-001.litwareinc.com の URL が確認されます。
 
 `https://atl-cs-001.litwareinc.com/mcx/mcxservice.svc`
 
-モビリティサービスにアクセスできる場合は、テストユーザーが有効な Lync Server アカウントを持っていることを確認する必要があります。 次のようなコマンドを使用して、アカウント情報を取得できます。
+Mobility service にアクセスできる場合は、テストユーザーが有効な Lync Server アカウントを持っていることを確認する必要があります。 次のようなコマンドを使用して、アカウント情報を取得できます。
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object Enabled
 
-Enabled プロパティが True と等しくない場合、またはコマンドが失敗した場合は、ユーザーが有効な Lync Server アカウントを持っていないことを意味します。各ユーザーアカウントのモビリティが有効になっていることも確認する必要があります。 そのためには、まず、アカウントに割り当てられているモビリティポリシーを特定します。
+Enabled プロパティが True と一致しない場合、またはコマンドが失敗した場合は、ユーザーが有効な Lync Server アカウントを持っていないことを意味します。また、各ユーザーアカウントがモビリティに対して有効になっていることも確認する必要があります。 そのためには、まず、アカウントに割り当てられているモビリティポリシーを特定します。
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object MobilityPolicy
 
-ポリシー名がわかったら、Set-csmobilitypolicy コマンドレットを使用して、問題のポリシー (RedmondMobilityPolicy など) で EnableMobility プロパティが True に設定されていることを確認します。
+ポリシー名がわかったら、Get-csmobilitypolicy コマンドレットを使用して、対象のポリシー (RedmondMobilityPolicy など) に EnableMobility プロパティが True に設定されていることを確認します。
 
     Get-CsMobilityPolicy -Identity "RedmondMobilityPolicy"
 
-テスト用の CsMcxConference を実行するときに、"authentication header" というエラーメッセージが表示される場合は、ユーザー名とパスワードを確認して、もう一度テストしてみてください。 ユーザーアカウントが有効であると確信できる場合は、CsWebServiceConfiguration コマンドレットを使用して、UseWindowsAuth プロパティの値を確認します。 これにより、どの認証方法が組織で有効になっているかがわかります。
+テスト-CsMcxConference 会議の実行時に "authentication header" というエラーメッセージが表示される場合は、ユーザー名とパスワードを確認してから、もう一度テストを実行してください。 ユーザーアカウントが有効であることを確信する場合は、Set-cswebserviceconfiguration コマンドレットを使用して、UseWindowsAuth プロパティの値を確認します。 これにより、組織内で有効になっている認証方法がわかります。
 
-モバイルサービスのトラブルシューティングのヒントについては、「ブログの投稿の[トラブルシューティング外部の Lync モバイル接続の問題のトラブルシューティング](http://blogs.technet.com/b/nexthop/archive/2012/02/21/troubleshooting-external-lync-mobility-connectivity-issues-step-by-step.aspx)」を参照してください。
+Mobility service のトラブルシューティング方法に関するその他のヒントについては、ブログ投稿の「[外部 Lync モビリティ接続の問題のトラブルシューティング](http://blogs.technet.com/b/nexthop/archive/2012/02/21/troubleshooting-external-lync-mobility-connectivity-issues-step-by-step.aspx)」を参照してください。
 
 </div>
 

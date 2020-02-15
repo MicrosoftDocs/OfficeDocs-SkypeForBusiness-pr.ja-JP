@@ -12,20 +12,20 @@ ms:contentKeyID: 48185624
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc11c79c291f7db7ad9e9e3228644ee27d42e555
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0201a9e8870a1b7d8cc579eb270ca67c929cae5d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737387"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029608"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="dns-requirements-for-mobility-with-lync-server-2013"></a>Lync Server 2013 を使ったモビリティの DNS 要件
+# <a name="dns-requirements-for-mobility-with-lync-server-2013"></a>Lync Server 2013 を使用したモビリティの DNS 要件
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41737387"
 
 <span> </span>
 
-_**最終更新日:** 2012-11-13_
+_**トピックの最終更新日:** 2012-11-13_
 
-Lync Server 2013 モビリティ機能を展開するときに、Microsoft Lync Server 2013 自動検出サービスで利用できる新しい Url を使用したり、既存の Web サービスの Url を使用したりすることができます。 既存の Url を使用している場合、ユーザーは自分のモバイルデバイス設定に Url を手動で入力する必要があります。 通常、このオプションはトラブルシューティングに使用されます。 新しい Url を使用すると、モバイルクライアントは Lync Server 2013 のリソースを自動的に検出できます。 自動検出をサポートしている場合は、新しいドメインネームシステム (DNS) レコードを追加する必要があります。 このセクションでは、自動検出に必要な DNS レコードについて説明します。
+Lync Server 2013 モビリティ機能を展開する場合は、Microsoft Lync Server 2013 自動検出サービスで使用可能な新しい Url を使用するか、既存の Web サービスの Url を使用することができます。 既存の Url を使用する場合、ユーザーはモバイルデバイスの設定で Url を手動で入力する必要があります。 このオプションは、通常、トラブルシューティングに使用されます。 新しい Url を使用すると、モバイルクライアントは Lync Server 2013 のリソースを自動的に検出できるようになります。 自動検出をサポートする場合は、新しいドメインネームシステム (DNS) レコードを追加する必要があります。 このセクションでは、自動検出に必要な DNS レコードについて説明します。
 
 自動検出をサポートするには、SIP ドメインごとに次の DNS レコードを作成する必要があります。
 
-  - 組織のネットワーク内から接続するモバイルユーザーをサポートするための内部 DNS レコード
+  - 組織のネットワーク内から接続するモバイル ユーザーをサポートするための内部 DNS レコード
 
-  - インターネットから接続するモバイルユーザーをサポートするための、外部またはパブリックの DNS レコード
+  - インターネットから接続するモバイル ユーザーをサポートするための外部 (パブリック) DNS レコード
 
-内部の自動検出 URL は、ネットワークの外部からのアドレス指定を行うことはできません。 外部の自動検出 URL は、ネットワーク内からアドレス指定できません。 ただし、外部 URL に対してこの要件を満たしていない場合は、モバイルクライアントの機能が影響を受けないようにする必要があります。
+内部の自動検出 URL は、ネットワークの外部からアドレス指定できません。 外部自動検出 URL は、ネットワーク内からアドレス指定できません。 ただし、外部 URL に対してこの要件を満たしていない場合、モバイルクライアントの機能は影響を受けません。
 
-DNS レコードには、CNAME レコードまたは (ホスト) レコードのいずれかを使うことができます。
+DNS レコードは、CNAME レコードまたは A (ホスト) レコードとすることができます。
 
 **内部 DNS レコード**
 
-次の内部 DNS レコードのいずれかを作成する必要があります。
+次の内部 DNS レコードの1つを作成する必要があります。
 
 
 <table>
@@ -70,13 +70,13 @@ DNS レコードには、CNAME レコードまたは (ホスト) レコードの
 <tbody>
 <tr class="odd">
 <td><p>CNAME</p></td>
-<td><p>lyncdiscoverinternal.&lt;sipdomain&gt;</p></td>
-<td><p>ディレクタープールの場合は、内部 Web サービスの完全修飾ドメイン名 (FQDN)、ディレクターを持っていない場合は、フロントエンドプールの FQDN</p></td>
+<td><p>lyncdiscoverinternal.&lt;microsoft.rtc.management.xds.sipdomain&gt;</p></td>
+<td><p>ディレクタープールの内部 Web サービスの完全修飾ドメイン名 (FQDN) (ディレクターがない場合) またはフロントエンドプールの場合は、ディレクターが存在しない場合</p></td>
 </tr>
 <tr class="even">
 <td><p>A (ホスト)</p></td>
-<td><p>lyncdiscoverinternal.&lt;sipdomain&gt;</p></td>
-<td><p>ディレクターを持っていない場合は、ディレクタープールの内部 Web サービス IP アドレス (ロードバランサーを使用している場合は仮想 IP (VIP) アドレス) (ディレクターを持っていない場合は、フロントエンドプールを持っている場合)</p></td>
+<td><p>lyncdiscoverinternal.&lt;microsoft.rtc.management.xds.sipdomain&gt;</p></td>
+<td><p>ディレクタープールを使用する場合の内部 Web サービス IP アドレス (ロードバランサーを使用する場合は仮想 IP (VIP) アドレス、ディレクターを持っていない場合はフロントエンドプールのいずれか)</p></td>
 </tr>
 </tbody>
 </table>
@@ -84,7 +84,7 @@ DNS レコードには、CNAME レコードまたは (ホスト) レコードの
 
 **外部 DNS レコード**
 
-次のいずれかの外部 DNS レコードを作成する必要があります。
+次の外部 DNS レコードの 1 つを作成する必要があります。
 
 
 <table>
@@ -103,23 +103,23 @@ DNS レコードには、CNAME レコードまたは (ホスト) レコードの
 <tbody>
 <tr class="odd">
 <td><p>CNAME</p></td>
-<td><p>lyncdiscover. &lt;sipdomain&gt;</p></td>
-<td><p>ディレクタープールを所有している場合は、そのディレクタープールの外部 Web サービス FQDN (ディレクターを持っていない場合は、フロントエンドプール用)</p></td>
+<td><p>lyncdiscover. &lt;microsoft.rtc.management.xds.sipdomain&gt;</p></td>
+<td><p>ディレクターが存在しない場合は、ディレクタープールの外部 Web サービスの FQDN、またはディレクターを持っていない場合はフロントエンドプール。</p></td>
 </tr>
 <tr class="even">
 <td><p>A (ホスト)</p></td>
-<td><p>lyncdiscover. &lt;sipdomain&gt;</p></td>
-<td><p>リバースプロキシの外部またはパブリック IP アドレス (ロードバランサーを使用している場合は VIP アドレス)</p></td>
+<td><p>lyncdiscover. &lt;microsoft.rtc.management.xds.sipdomain&gt;</p></td>
+<td><p>リバースプロキシの外部またはパブリック IP アドレス (ロードバランサーを使用する場合は VIP アドレス)</p></td>
 </tr>
 <tr class="odd">
 <td><p>SRV</p></td>
-<td><p>_sipfederationtls._tcp. &lt;sipdomain&gt;</p>
-<p>アクセスエッジサービスの host (A または AAAA) レコードに解決されます。</p></td>
-<td><p>プッシュ通知サービスと Apple プッシュ通知サービスをサポートするには、Microsoft Lync モバイルクライアントを含む SIP ドメインごとに SRV レコードを1つ作成します。</p>
+<td><p>_sipfederationtls _tcp。 &lt;microsoft.rtc.management.xds.sipdomain&gt;</p>
+<p>アクセスエッジサービスのホスト (A または AAAA) レコードに解決されます。</p></td>
+<td><p>プッシュ通知サービスと Apple プッシュ通知サービスをサポートするには、Microsoft Lync Mobile クライアントが存在する各 SIP ドメインに対して1つの SRV レコードを作成します。</p>
 <div>
 
 > [!IMPORTANT]  
-> この要件は、Apple または Microsoft ベースのモバイルデバイス上の Microsoft Lync モバイルクライアントにのみ適用されます。 Andriod および Nokia Symbian デバイスでは、プッシュ通知は使用されません。
+> この要件は、Apple または Microsoft ベースのモバイルデバイス上の Microsoft Lync モバイルクライアントにのみ適用されます。 Andriod および Nokia Symbian デバイスは、プッシュ通知を使用しません。
 
 
 </div></td>
@@ -132,7 +132,7 @@ DNS レコードには、CNAME レコードまたは (ホスト) レコードの
 
 
 > [!NOTE]  
-> Lyncdiscover は、自動検出とも呼ばれます。トラフィックはリバースプロキシを通過します。 SRV レコードは、アクセスエッジサービスを通じて解決されるレコードを指します。
+> Lyncdiscover (自動検出とも呼ばれます) は、トラフィックはリバースプロキシを通過します。 SRV レコードは、アクセスエッジサービスを介して解決されるレコードを指します。
 
 
 

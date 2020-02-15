@@ -12,20 +12,20 @@ ms:contentKeyID: 51803952
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d6bf9f79725f1f4812ac1e1c1c3c0e3217b939b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 76105b9bee5ce35801196b5a4cd20b2a1feed3e7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728937"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030631"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-enterprise-voice-in-lync-server-2013"></a>Lync Server 2013 でのエンタープライズ Voip の設定
+# <a name="configuring-enterprise-voice-in-lync-server-2013"></a>Lync Server 2013 でのエンタープライズ Voip の構成
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41728937"
 
 <span> </span>
 
-_**最終更新日:** 2013-03-12_
+_**トピックの最終更新日:** 2013-03-12_
 
-エンタープライズ Voip を展開するには、次の設定を行う必要があります。
+エンタープライズ Voip を展開するには、次のものを構成する必要があります。
 
   - トランクを作成する
 
-  - ボイスポリシーを定義する
+  - 音声ポリシーを定義する
 
-  - ボイスルートの定義
+  - 音声ルートを定義する
 
-  - Enable Users for Enterprise Voice
+  - エンタープライズ VoIP に対するユーザーの有効化
 
 <div>
 
 ## <a name="create-a-trunk"></a>トランクを作成する
 
-エンタープライズ Voip 展開で trunks を定義する必要があります。 位置に基づくルーティングの場合、トランクごとにトランク構成を作成する必要があります。 Lync Server Topology Builder を使用して、trunks を定義し、Lync Server Windows PowerShell コマンド、新規 Set-cstrunkconfiguration、Lync Server コントロールパネルを使用して、対応するトランク構成を定義します。 トランク構成で位置情報に基づくルーティングを有効にする方法の詳細については、「 [Lync Server 2013 で位置](lync-server-2013-enabling-location-based-routing.md)情報に基づくルーティングを有効にする Trunks を参照してください。 この例では、次の表はこのシナリオで使用される trunks を示しています。
+エンタープライズ Voip 展開でトランクを定義する必要があります。 場所に基づくルーティングの場合は、トランクごとにトランク構成を作成する必要があります。 Lync Server トポロジビルダーを使用してトランクを定義し、Lync Server Windows PowerShell コマンド、Get-cstrunkconfiguration、または Lync Server コントロールパネルを使用して、対応するトランク構成を定義します。 トランク構成での場所に基づくルーティングを有効にする方法については、「トランクへの場所に基づくルーティングを有効にする」を参照してください。詳細については、トピック「 [Lync Server 2013 での場所に基づくルーティングの有効化](lync-server-2013-enabling-location-based-routing.md)」を参照してください。 この例では、次の表は、このシナリオで使用されているトランクを示しています。
 
-詳細については、「 [Lync Server 2013 のトポロジビルダーで追加の trunks を定義](lync-server-2013-define-additional-trunks-in-topology-builder.md)する」を参照してください。
+詳細については、「 [Define more トランク In Topology Builder In Lync Server 2013](lync-server-2013-define-additional-trunks-in-topology-builder.md)」を参照してください。
 
 
 <table>
@@ -75,16 +75,16 @@ _**最終更新日:** 2013-03-12_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>トランク1の DEL-GW</p></td>
+<td><p>トランク 1 DEL-GW</p></td>
 <td><p>PSTN ゲートウェイ</p></td>
 <td><p>DEL-GW</p></td>
-<td><p>Delhi</p></td>
+<td><p>デリー</p></td>
 <td><p>MS1</p></td>
 </tr>
 <tr class="even">
 <td><p>トランク 2 HYD</p></td>
 <td><p>PSTN ゲートウェイ</p></td>
-<td><p>HYD</p></td>
+<td><p>HYD-GW</p></td>
 <td><p>Hyderabad</p></td>
 <td><p>MS1</p></td>
 </tr>
@@ -92,7 +92,7 @@ _**最終更新日:** 2013-03-12_
 <td><p>トランク 3 DEL-PBX</p></td>
 <td><p>PBX</p></td>
 <td><p>DEL-PBX</p></td>
-<td><p>Delhi</p></td>
+<td><p>デリー</p></td>
 <td><p>MS1</p></td>
 </tr>
 <tr class="even">
@@ -115,11 +115,11 @@ _**最終更新日:** 2013-03-12_
 
 <div>
 
-## <a name="defines-voice-policies"></a>ボイスポリシーを定義します
+## <a name="defines-voice-policies"></a>音声ポリシーを定義します。
 
-エンタープライズ Voip の展開には、音声ポリシーを定義する必要があります。 場所に基づくルーティングを使用するために必要なものが一部だけの場合は、ユーザーのサブセットに対して位置情報に基づくルーティング制限を適用するためのボイスポリシーを定義します。 この例では、次の表はこのシナリオで使用される音声ポリシーを示しています。 この表には、場所に基づくルーティングに固有の設定のみが含まれています。
+エンタープライズ Voip 展開の音声ポリシーを定義する必要があります。 場所に基づくルーティングを使用するために必要なサブセットだけがある場合は、ユーザーのサブセットに対して場所ベースのルーティング制限を強制する音声ポリシーを定義します。 この例では、次の表に、このシナリオで使用されている音声ポリシーを示します。 説明のため、表には場所に基づいたルーティングに固有の設定のみが含まれています。
 
-詳細については、「[ボイスポリシーと PSTN 使用状況レコードを構成して、Lync Server 2013 での通話機能と特権を承認する](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md)」を参照してください。
+詳細については、「 [Lync Server 2013 で通話機能および権限を承認するための音声ポリシーと PSTN 使用法レコードの構成](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md)」を参照してください。
 
 
 <table>
@@ -131,19 +131,19 @@ _**最終更新日:** 2013-03-12_
 <thead>
 <tr class="header">
 <th></th>
-<th>ボイスポリシー1</th>
-<th>ボイスポリシー2</th>
+<th>音声ポリシー1</th>
+<th>音声ポリシー2</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>ボイスポリシー ID</p></td>
-<td><p>ニューデリーのボイスポリシー</p></td>
-<td><p>Hyderabad ボイスポリシー</p></td>
+<td><p>音声ポリシー ID</p></td>
+<td><p>ニューデリー音声ポリシー</p></td>
+<td><p>Hyderabad 音声ポリシー</p></td>
 </tr>
 <tr class="even">
-<td><p>PSTN の使用状況</p></td>
-<td><p>ニューデリー使用量, PBX Del usage, PBX Hyd usage</p></td>
+<td><p>PSTN 使用法</p></td>
+<td><p>ニューデリー使用法、PBX Del usage、PBX Hyd usage</p></td>
 <td><p>Hyderabad usage、PBX Hyd usage、PBX Del usage</p></td>
 </tr>
 <tr class="odd">
@@ -164,11 +164,11 @@ _**最終更新日:** 2013-03-12_
 
 <div>
 
-## <a name="define-voice-routes"></a>ボイスルートの定義
+## <a name="define-voice-routes"></a>音声ルートを定義する
 
-エンタープライズ Voip 展開には、ボイスルーティングを定義する必要があります。 この例では、次の表はこのシナリオで使用されるボイスルートを示しています。 この表には、場所に基づくルーティングに固有の設定のみが含まれています。
+エンタープライズ Voip 展開の音声ルートを定義する必要があります。 この例では、次の表に、このシナリオで使用されている音声ルートを示します。 説明のため、表には場所に基づいたルーティングに固有の設定のみが含まれています。
 
-詳細については、「 [Lync Server 2013 で送信通話の音声ルートを構成する](lync-server-2013-configuring-voice-routes-for-outbound-calls.md)」を参照してください。
+詳細については、「 [Lync Server 2013 で送信呼び出しの音声ルートを構成する](lync-server-2013-configuring-voice-routes-for-outbound-calls.md)」を参照してください。
 
 
 <table>
@@ -182,30 +182,30 @@ _**最終更新日:** 2013-03-12_
 <thead>
 <tr class="header">
 <th></th>
-<th>ボイスルート1</th>
-<th>ボイスルート2</th>
-<th>ボイスルート3</th>
-<th>ボイスルーティング4</th>
+<th>音声ルート1</th>
+<th>音声ルート2</th>
+<th>音声ルート3</th>
+<th>ボイスルート4</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>名前</p></td>
-<td><p>ニューデリールート</p></td>
+<td><p>ニューデリー</p></td>
 <td><p>Hyderabad ルート</p></td>
 <td><p>PBX の Del ルート</p></td>
 <td><p>PBX Hyd ルート</p></td>
 </tr>
 <tr class="even">
-<td><p>PSTN の使用状況</p></td>
-<td><p>ニューデリーの利用状況</p></td>
+<td><p>PSTN 使用法</p></td>
+<td><p>ニューデリーの使用法</p></td>
 <td><p>Hyderabad の使用状況</p></td>
-<td><p>PBX の Del の利用状況</p></td>
-<td><p>PBX Hyd の使用</p></td>
+<td><p>PBX の Del の使用</p></td>
+<td><p>PBX Hyd の使用状況</p></td>
 </tr>
 <tr class="odd">
-<td><p>トランク</p></td>
-<td><p>トランク1の DEL-GW</p></td>
+<td><p>樹幹</p></td>
+<td><p>トランク 1 DEL-GW</p></td>
 <td><p>トランク 2 HYD</p></td>
 <td><p>トランク 3 DEL-PBX</p></td>
 <td><p>トランク 4 HYD</p></td>
@@ -223,11 +223,11 @@ _**最終更新日:** 2013-03-12_
 
 <div>
 
-## <a name="enable-users-for-enterprise-voice"></a>Enable Users for Enterprise Voice
+## <a name="enable-users-for-enterprise-voice"></a>エンタープライズ VoIP に対するユーザーの有効化
 
-エンタープライズ Voip のユーザーを有効にし、以前に定義した音声ポリシーを割り当てます。 この例では、次の表はこのシナリオで使用される割り当てを示しています。 この表には、場所に基づくルーティングに固有の設定のみが含まれています。
+エンタープライズ Voip に対してユーザーを有効にし、以前に定義した音声ポリシーを割り当てます。 この例では、次の表は、このシナリオで使用されている割り当てを示しています。 説明のため、表には場所に基づいたルーティングに固有の設定のみが含まれています。
 
-詳細については、「 [Lync Server 2013 でエンタープライズ voip のユーザーを有効にする](lync-server-2013-enable-users-for-enterprise-voice.md)」を参照してください。
+詳細については、「 [Lync Server 2013 のエンタープライズ voip でユーザーを有効にする](lync-server-2013-enable-users-for-enterprise-voice.md)」を参照してください。
 
 
 <table>
@@ -239,20 +239,20 @@ _**最終更新日:** 2013-03-12_
 <thead>
 <tr class="header">
 <th></th>
-<th>ニューデリーにあるユーザ</th>
+<th>ニューデリーにあるユーザー</th>
 <th>Hyderabad にあるユーザー</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>関連付けられている音声ポリシー</p></td>
-<td><p>ニューデリーのボイスポリシー</p></td>
-<td><p>Hyderabad ボイスポリシー</p></td>
+<td><p>関連付けられた音声ポリシー</p></td>
+<td><p>ニューデリー音声ポリシー</p></td>
+<td><p>Hyderabad 音声ポリシー</p></td>
 </tr>
 <tr class="even">
 <td><p>サンプルユーザー</p></td>
-<td><p>DEL-LYNC-1、DEL-LYNC-2、DEL-LYNC-3</p></td>
-<td><p>HYD-1、HYD、LYNC-2、HYD、LYNC-3</p></td>
+<td><p>「DEL-LYNC-1, DEL-LYNC-2, DEL-3」</p></td>
+<td><p>HYD-1、HYD、HYD (LYNC-3)</p></td>
 </tr>
 </tbody>
 </table>
@@ -270,7 +270,7 @@ _**最終更新日:** 2013-03-12_
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 の場所に基づくルーティングの構成](lync-server-2013-configuring-location-based-routing.md)  
+[Lync Server 2013 での場所に基づくルーティングの構成](lync-server-2013-configuring-location-based-routing.md)  
   
 
 </div>

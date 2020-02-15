@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013 の新しい役割ベースのアクセス制御  (RBAC) 機能
+title: Lync Server 2013 に新しい役割ベースのアクセス制御機能がある
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183616
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3dbabc4ca6a471924c6ac76346ad7d59442690db
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0923cdeecd1109e7d900ce0e3d2b947b328ee5a9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727797"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030290"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-role-based-access-control-features-in-lync-server-2013"></a>Lync Server 2013 の新しい役割ベースのアクセス制御  (RBAC) 機能
+# <a name="new-role-based-access-control-features-in-lync-server-2013"></a>Lync Server 2013 の新しい役割ベースのアクセス制御機能
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41727797"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-20_
+_**トピックの最終更新日:** 2012-09-20_
 
-Lync Server 2013 では、役割ベースのアクセス制御 (RBAC) 機能が次の2つの主な方法で強化されています。 指定した一連のコマンドレットの権限を持つカスタムロールを作成できるようになりました。 これらのカスタムロールには、コマンドレットのスクリプトを実行する特権も与えることができます。
+Lync Server 2013 では、役割ベースのアクセス制御 (RBAC) 機能が主に次の2つの方法で強化されています。 指定した一連のコマンドレットに対してのみ特権を持つカスタムの役割を作成できるようになりました。 これらのカスタムの役割には、コマンドレットのスクリプトを実行する特権を割り当てることもできます。
 
 さらに、Lync Server 2013 には、2つの新しい事前定義済みの役割が含まれています。
 
-  - *応答グループマネージャー*の役割が割り当てられたユーザーは、組織内の特定の応答グループキューを管理することはできますが、他のキューまたは応答グループのアプリの管理権限は必ずしも1つのものではありません。
+  - 応答グループのマネージャー** の役割を割り当てられたユーザーは、組織の特定の応答グループ キューを管理できます。ただし、必ずしも他のキューや応答グループ アプリケーション全体に対する管理権限を持つわけではありません。
 
-  - *常設チャットマネージャー*の役割が割り当てられているユーザーは、組織内の特定の常設チャットルームを管理できますが、他のルームまたは常設チャット機能の管理権限を持っているとは限りません。
+  - *常設チャットマネージャー*の役割を割り当てられたユーザーは、組織内の特定の常設チャットルームを管理できますが、その他の会議室または常設チャット機能の管理権限を持っているとは限りません。
 
 <div>
 

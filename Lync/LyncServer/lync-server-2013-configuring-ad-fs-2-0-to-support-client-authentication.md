@@ -12,20 +12,20 @@ ms:contentKeyID: 54973687
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c7fe9587e85ad300a212e4a8199fa4a8a48d1877
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f7054bae609b5d1a1c6fe176c1092614f5d30fa6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741197"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029708"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-ad-fs-20-to-support-client-authentication-in-lync-server-2013"></a>Lync Server 2013 でのクライアント認証をサポートするように AD FS 2.0 を構成する
+# <a name="configuring-ad-fs-20-to-support-client-authentication-in-lync-server-2013"></a>Lync Server 2013 でクライアント認証をサポートするように AD FS 2.0 を構成する
 
 </div>
 
@@ -35,42 +35,42 @@ ms.locfileid: "41741197"
 
 <span> </span>
 
-_**最終更新日:** 2013-07-03_
+_**トピックの最終更新日:** 2013-07-03_
 
-AD FS 2.0 でスマート カードを使用した認証をサポートできるように構成可能な認証の種類が 2 つあります。
+AD FS 2.0 がスマートカードを使用した認証をサポートするように構成できる認証の種類には、次の2つがあります。
 
-  - フォーム ベース認証 (FBA)
+  - フォームベース認証 (FBA)
 
-  - トランスポート層セキュリティ クライアント認証
+  - トランスポート層セキュリティクライアント認証
 
-フォーム ベース認証を使用すると、ユーザー名/パスワードを使用した認証またはスマート カードと PIN を使用した認証をユーザーに許可できる Web ページを開発できます。 このトピックでは、AD FS 2.0 でトランスポート層セキュリティ クライアント認証を実装する方法を説明します。 AD FS 2.0 認証の種類の詳細については、「AD FS 2.0: で[http://go.microsoft.com/fwlink/p/?LinkId=313384](http://go.microsoft.com/fwlink/p/?linkid=313384)ローカル認証の種類を変更する方法」を参照してください。
+フォームベース認証を使用すると、ユーザーのユーザー名またはパスワードを使用するか、スマートカードと PIN を使用して認証を行う web ページを開発できます。 このトピックでは、AD FS 2.0 を使用してトランスポート層セキュリティクライアント認証を実装する方法に焦点を当てます。 AD FS 2.0 認証の種類の詳細については、「AD FS 2.0: で[http://go.microsoft.com/fwlink/p/?LinkId=313384](http://go.microsoft.com/fwlink/p/?linkid=313384)ローカル認証の種類を変更する方法」を参照してください。
 
 <div>
 
 
 **クライアント認証をサポートするように AD FS 2.0 を構成するには**
 
-1.  ドメイン管理者のアカウントを使用して AD FS 2.0 コンピューターにログインします。
+1.  ドメイン管理者アカウントを使用して、AD FS 2.0 コンピューターにログインします。
 
-2.  エクスプローラーを起動します。
+2.  Windows エクスプローラーを起動します。
 
-3.  C: inetpub\\\\adfs\\ls を参照してください
+3.  C: inetpub\\\\adfs\\ls を参照します。
 
-4.  既存の web.config ファイルのバックアップ コピーを作成します。
+4.  既存の web.config ファイルのバックアップコピーを作成します。
 
 5.  メモ帳を使用して既存の web.config ファイルを開きます。
 
-6.  メニュー バーの [**編集**] をクリックし、[**検索**] をクリックします。
+6.  メニューバーから [**編集**] を選択し、[**検索**] を選択します。
 
 7.  ** \<Localauthenticationtypes\>** を検索します。
     
-    4 つの認証の種類が 1 行に 1 つずつ表示されます。
+    一覧には、1行に1つずつ、4つの認証の種類があることに注意してください。
 
-8.  TLSClient 認証の種類を含む行をセクションの一覧の一番上に移動します。
+8.  TLSClient 認証の種類を含む行をセクションの一覧の先頭に移動します。
 
-9.  web.config ファイルを保存して閉じます。
+9.  Web.config ファイルを保存して閉じます。
 
-10. 管理者特権でコマンド プロンプトを起動します。
+10. 昇格された特権を使用してコマンドプロンプトを起動します。
 
 11. 次のコマンドを実行して IIS を再起動します。
     

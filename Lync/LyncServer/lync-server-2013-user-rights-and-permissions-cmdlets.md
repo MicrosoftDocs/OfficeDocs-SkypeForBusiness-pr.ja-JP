@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ユーザー権利と権限のコマンドレット'
+title: 'Lync Server 2013: ユーザー権限とアクセス許可のコマンドレット'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185178
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2412dc6af5153d431ff6d75177f405c00138fdaa
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 85f99cbaf6c2a3b61e6437ec573d7e5800b73b72
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744467"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029428"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="user-rights-and-permissions-cmdlets-in-lync-server-2013"></a>Lync Server 2013 のユーザー権利と権限のコマンドレット
+# <a name="user-rights-and-permissions-cmdlets-in-lync-server-2013"></a>Lync Server 2013 のユーザー権限とアクセス許可のコマンドレット
 
 </div>
 
@@ -37,57 +37,57 @@ ms.locfileid: "41744467"
 
 _**トピックの最終更新日:** 2012-06-26_
 
-ユーザー権限のコマンドレットは主に、Microsoft Lync Server 2013 の管理制御を委任するための新しいテクノロジである役割ベースのアクセス制御 (RBAC) を管理するために使用されます。
+ユーザーアクセス許可のコマンドレットは、Microsoft Lync Server 2013 の管理制御を委任するための新しいテクノロジである役割ベースのアクセス制御 (RBAC) を管理するために主に使用されています。
 
 <div>
 
-## <a name="user-permission-cmdlets"></a>ユーザー権限のコマンドレット
+## <a name="user-permission-cmdlets"></a>ユーザーのアクセス許可のコマンドレット
 
-ユーザー権限の管理に直接関連するコマンドレットの一覧を次に示します。
+以下は、ユーザーのアクセス許可の管理に直接関連するコマンドレットの一覧です。
 
-**ユーザーの権限**
-
-  - <span></span>  
-    [ご利用の場合は、CsAdminRole](https://technet.microsoft.com/en-us/library/Gg399050(v=OCS.15))
+**ユーザーのアクセス許可**
 
   - <span></span>  
-    [新しい-CsAdminRole](https://technet.microsoft.com/en-us/library/Gg398271(v=OCS.15))
+    [-CsAdminRole の取得](https://technet.microsoft.com/library/Gg399050(v=OCS.15))
 
   - <span></span>  
-    [削除-CsAdminRole](https://technet.microsoft.com/en-us/library/Gg413036(v=OCS.15))
+    [新しい-CsAdminRole](https://technet.microsoft.com/library/Gg398271(v=OCS.15))
 
   - <span></span>  
-    [設定-CsAdminRole](https://technet.microsoft.com/en-us/library/Gg399066(v=OCS.15))
+    [-CsAdminRole の削除](https://technet.microsoft.com/library/Gg413036(v=OCS.15))
 
   - <span></span>  
-    [更新-CsAdminRole](https://technet.microsoft.com/en-us/library/JJ204851(v=OCS.15))
+    [設定-CsAdminRole](https://technet.microsoft.com/library/Gg399066(v=OCS.15))
+
+  - <span></span>  
+    [-CsAdminRole の更新](https://technet.microsoft.com/library/JJ204851(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsAdminRoleAssignment](https://technet.microsoft.com/en-us/library/Gg398434(v=OCS.15))
+    [-CsAdminRoleAssignment の取得](https://technet.microsoft.com/library/Gg398434(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [権限の付与 (CsOUPermission](https://technet.microsoft.com/en-us/library/Gg425739(v=OCS.15))
+    [付与-CsOUPermission](https://technet.microsoft.com/library/Gg425739(v=OCS.15))
 
   - <span></span>  
-    [権限の取り消し-csou](https://technet.microsoft.com/en-us/library/Gg398977(v=OCS.15))
+    [Revoke-CsOUPermission](https://technet.microsoft.com/library/Gg398977(v=OCS.15))
 
   - <span></span>  
-    [テスト-CsOUPermission](https://technet.microsoft.com/en-us/library/Gg398787(v=OCS.15))
+    [テスト-CsOUPermission](https://technet.microsoft.com/library/Gg398787(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Grant-CsSetupPermission](https://technet.microsoft.com/en-us/library/Gg398569(v=OCS.15))
+    [Grant-CsSetupPermission](https://technet.microsoft.com/library/Gg398569(v=OCS.15))
 
   - <span></span>  
-    [失効-CsSetupPermission](https://technet.microsoft.com/en-us/library/Gg425834(v=OCS.15))
+    [失効-CsSetupPermission](https://technet.microsoft.com/library/Gg425834(v=OCS.15))
 
   - <span></span>  
-    [テスト-CsSetupPermission](https://technet.microsoft.com/en-us/library/Gg398428(v=OCS.15))
+    [テスト-CsSetupPermission](https://technet.microsoft.com/library/Gg398428(v=OCS.15))
 
 </div>
 

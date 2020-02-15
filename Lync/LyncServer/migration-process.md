@@ -12,16 +12,16 @@ ms:contentKeyID: 48183474
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 53021b37baca7a859c79a6c47bfbf3d587a3466d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5a955133dcadfc1966225b643467e5640c81d128
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764017"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030671"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41764017"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-17_
+_**トピックの最終更新日:** 2012-09-17_
 
-Lync Server 2013 の推奨およびサポートされる移行手順は、並行して移行されます。 このトピックでは、サイドバイサイド移行を使用する必要がある理由と、共存テストに関する情報も含まれている理由について説明します。
+Lync Server 2013 の推奨およびサポートされる移行手順は、並行して移行されます。 このトピックでは、サイド バイ サイド移行を使用する理由について説明し、共存のテストに関する情報も示します。
 
 <div>
 
-## <a name="side-by-side-migration"></a>サイドバイサイド移行
+## <a name="side-by-side-migration"></a>サイド バイ サイド移行
 
-ほぼすべての移行では、並列移行パスを使用する必要があります。 サイドバイサイドの移行では、lync server 2010 を実行している対応サーバーと共に、Lync Server 2013 と共に新しいサーバーを展開して、新しいサーバーに操作を転送します。 Lync Server 2010 にロールバックすることが必要になった場合は、元のサーバーに戻す操作のみを行うことができます。 この状況では、アップグレードされたクライアントによってスケジュールされた新しい会議が機能しなくなり、クライアントもダウングレードされる必要があることに注意してください。
+ほとんどすべての移行では、サイド バイ サイド移行パスの使用をお勧めします。 Side-by-side 移行では、Lync Server 2010 を実行している対応するサーバーと共に Lync Server 2013 を使用して新しいサーバーを展開し、次にその操作を新しいサーバーに転送します。 Lync Server 2010 にロールバックする必要が生じた場合は、元のサーバーに戻す操作のみを実行する必要があります。 ただし、この状況では、アップグレードされたクライアントによって新しい会議がスケジュールされていた場合、それらの会議がすべて機能しなくなるのでクライアントのダウングレードも必要になります。
 
 </div>
 
 <div>
 
-## <a name="coexistence-testing"></a>共存テスト
+## <a name="coexistence-testing"></a>共存のテスト
 
-Lync server 2010 と同時に Lync Server 2013 を展開した後、展開は Lync Server 2013 および Lync Server 2010 の共存テストの状態を表します。 この状態では、サービスが開始されていること、各サイトが管理可能であること、クライアントが現在のユーザーと従来のユーザーと通信できることをテストして確認することが重要です。 すべてのユーザーを移行する前に、展開の状態を理解し、各展開が正常に機能して動作していることを確認することが非常に重要です。 通常、[共存テスト] フェーズは、Lync Server 2013 のパイロットテストを通じて行われます。 従来のユーザーは、アプリケーションの互換性と機能が適切に動作するように、しばらくの間 Lync Server 2013 に移動されます。 パイロットテストの後、ユーザーとアプリケーションは Lync Server 2013 の運用バージョンに移動され、Lync Server 2010 の従来のプールとアプリケーションは廃止されます。
+Lync server 2013 2010 と共に Lync Server を展開した後、展開は Lync Server 2013 と Lync Server 2010 の共存テスト状態を表します。 この状態のときに、サービスが開始されていること、各サイトを管理できること、クライアントが現在および従来のユーザーと通信できることをテストして確認することが重要です。 すべてのユーザーを移行する前に、各展開の状態を把握し、各展開が適切に機能および動作することを確認する必要があります。 通常、Lync Server 2013 のパイロットテストにおいて、共存のテスト段階が存在します。 従来のユーザーは、アプリケーションの互換性と機能が適切に動作するように、長期間 Lync Server 2013 に移動されます。 パイロットテストの後、ユーザーとアプリケーションは Lync Server 2013 の運用バージョンに移行され、Lync Server 2010 の従来のプールとアプリケーションは廃止されました。
 
 </div>
 

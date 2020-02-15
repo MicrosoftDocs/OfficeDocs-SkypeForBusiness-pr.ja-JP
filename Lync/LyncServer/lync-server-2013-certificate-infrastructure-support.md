@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013 の証明書インフラストラクチャのサポート
+title: Lync Server 2013 証明書インフラストラクチャのサポート
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184047
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dc8cb5bdad02de4fcb407d7eb27960258a46dd3e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1009fbe40092d9b6e6692ad2bc4d5305d7fbf375
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736803"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031151"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,31 +35,31 @@ ms.locfileid: "41736803"
 
 <span> </span>
 
-_**最終更新日:** 2013-11-07_
+_**トピックの最終更新日:** 2013-11-07_
 
-Lync Server 2013 では、トランスポート層セキュリティ (TLS) と相互 TLS (MTLS) 接続をサポートするために公開キー基盤 (PKI) が必要です。 既定では、Lync Server 2013 は、クライアントとサーバー間の接続に TLS を使用するように構成されています。 MTLS は、サーバー間の接続に使用されます。
+Lync Server 2013 は、トランスポート層セキュリティ (TLS) と相互 TLS (MTLS) 接続をサポートするために公開キー基盤 (PKI) を必要とします。 既定では、Lync Server 2013 は、クライアントとサーバー間の接続に TLS を使用するように構成されています。 MTLS は、サーバー間の接続に使用されます。
 
-MTLS 証明書は、Lync Server 2013 の信頼された証明機関 (Ca) によって発行される必要があります。 Lync Server は、次の Ca から発行された証明書をサポートしています。
+MTLS 証明書は、Lync Server 2013 の信頼された証明機関 (CAs) によって発行される必要があります。 Lync Server は、次の Ca から発行された証明書をサポートしています。
 
-  - 内部 CA から発行された証明書:
+  - 内部 CA から発行される証明書:
     
-      - Windows Server 2003 オペレーティングシステム CA
+      - Windows Server 2003 オペレーティングシステムの CA
     
-      - Windows Server 2008 オペレーティングシステム CA
+      - Windows Server 2008 オペレーティングシステムの CA
     
-      - Windows Server 2008 R2 オペレーティングシステム CA
+      - Windows Server 2008 R2 オペレーティングシステムの CA
     
-      - Windows Server 2012 オペレーティングシステム CA
+      - Windows Server 2012 オペレーティングシステムの CA
     
-      - Windows Server 2012 R2 オペレーティングシステム CA
+      - Windows Server 2012 R2 オペレーティングシステムの CA
 
-  - パブリック CA から発行された証明書
+  - パブリック CA から発行される証明書
 
-他のアプリケーションやサーバー (Exchange 2013 など) との通信には、他のアプリケーションや製品でサポートされている証明書が必要です。 2013リリース、Lync Server 2013、および Exchange 2013 および SharePoint Server を含むその他の Microsoft サーバー製品については、サーバー間の認証と承認のための Open Authorization (OAuth) プロトコルをサポートしています。 詳細については、展開ドキュメントまたは運用マニュアルの「 [Lync server 2013 でサーバー間認証 (OAuth) とパートナーアプリケーションを管理する](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md)」を参照してください。
+Exchange 2013 などの他のアプリケーションやサーバーと通信するには、他のアプリケーションと製品でサポートされている証明書が必要です。 2013リリース、Lync Server 2013、および Exchange 2013 および SharePoint Server を含むその他の Microsoft サーバー製品については、サーバー間の認証と承認のための Open Authorization (OAuth) プロトコルをサポートしています。 詳細については、「展開」のドキュメントまたは「操作」のドキュメントの「 [Lync server 2013 でのサーバー間認証 (OAuth) およびパートナーアプリケーションの管理](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md)」を参照してください。
 
-Windows 7 オペレーティングシステム、Windows Server 2008 R2 オペレーティングシステム、および Microsoft Office Communicator 2007 Phone Edition を実行しているクライアントからの接続の場合、Lync Server 2013 は、SHA-256 を使用して署名された証明書をサポートしています (ただし必須ではありません)。暗号化ハッシュ関数。 SHA-256 を使って外部アクセスをサポートするために、外部証明書は SHA-256 を使ってパブリック CA によって発行されます。
+Windows 7 オペレーティングシステム、Windows Server 2008 R2 オペレーティングシステム、および Microsoft Office Communicator 2007 Phone Edition を実行しているクライアントからの接続については、Lync Server 2013 は、SHA-256 を使用して署名された証明書をサポートしていますが、必須ではありません。暗号化ハッシュ関数。 SHA-256 を使用する外部アクセスをサポートするには、SHA-256 を使用するパブリック CA が外部証明書を発行する必要があります。
 
-証明書の要件の詳細については、「計画ドキュメントの「 [Lync Server 2013 の証明書インフラストラクチャの要件](lync-server-2013-certificate-infrastructure-requirements.md)」を参照してください。 証明書でのワイルドカードの使用の詳細については、サポートドキュメントの「 [Lync Server 2013 でのワイルドカード証明書のサポート](lync-server-2013-wildcard-certificate-support.md)」を参照してください。
+証明書の要件の詳細については、「計画」のドキュメントの「 [Lync Server 2013 の証明書インフラストラクチャ要件](lync-server-2013-certificate-infrastructure-requirements.md)」を参照してください。 証明書でのワイルドカードの使用の詳細については、「サポート」のドキュメントの「 [Lync Server 2013 でのワイルドカード証明書のサポート](lync-server-2013-wildcard-certificate-support.md)」を参照してください。
 
 </div>
 

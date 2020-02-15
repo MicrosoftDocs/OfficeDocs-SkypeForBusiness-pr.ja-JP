@@ -12,16 +12,16 @@ ms:contentKeyID: 48184118
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de8a3e69c670c273bcdd91ac5895c0b1f0b15d80
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9aedca2ae840947aef4ccc6ec7bff4ba825090a0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743366"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028488"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41743366"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-28_
+_**トピックの最終更新日:** 2012-09-28_
 
-各レコードは、1つのファイル転送セッションを表します。
+各レコードは、1 つのファイル転送セッションを表します。
 
 
 <table>
@@ -57,52 +57,52 @@ _**最終更新日:** 2012-09-28_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>セッション Id</strong></p></td>
-<td><p>datetime</p></td>
-<td><p>プライマリ、外部</p></td>
-<td><p>セッション要求の時刻。 セッションを一意に識別するために<strong>Sessionidseq</strong>と組み合わせて使用されます。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a>」を参照してください。</p></td>
+<td><p><strong>SessionIdTime</strong></p></td>
+<td><p>日付型</p></td>
+<td><p>主/プライマリ、外部</p></td>
+<td><p>セッション要求の時刻。 セッションを一意に識別するために <strong>SessionIdSeq</strong> と併用されます。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a>」を参照してください。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>SessionIdSeq</strong></p></td>
+<td><p><strong>Sessionidseq と</strong></p></td>
 <td><p>int</p></td>
-<td><p>プライマリ、外部</p></td>
-<td><p>セッションを識別する ID 番号。 セッションを一意に識別するために<strong>Sessionidtime</strong>と組み合わせて使用されます。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a>」を参照してください。</p></td>
+<td><p>主/プライマリ、外部</p></td>
+<td><p>セッションを識別するための ID 番号。 セッションを一意に識別するために <strong>SessionIdTime</strong> と併用されます。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a>」を参照してください。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>ファイル名</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p><strong>File Name</strong></p></td>
+<td><p>nvarchar (256)</p></td>
 <td></td>
 <td><p>ファイルの名前。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>FileIdentity</strong></p></td>
-<td><p>長さ</p></td>
+<td><p>識別子</p></td>
 <td></td>
-<td><p>同じファイル名を含むファイル転送を区別する一意の識別子。</p></td>
+<td><p>同じファイル名を含むファイル転送を区別するための一意の識別子。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>クッキー</strong></p></td>
 <td><p>nvarchar(128</p></td>
 <td><p>Primary</p></td>
-<td><p>すべてのフォローアップメッセージをこのメールに関連付けられているものとして識別するために使用されます。</p></td>
+<td><p>すべてのフォローアップ メッセージをこれに関連付けられたものとして識別するために使用します。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>受諾</strong></p></td>
-<td><p>bit</p></td>
+<td><p><strong>Accept</strong></p></td>
+<td><p>若干</p></td>
 <td></td>
-<td><p>TRUE または NULL を指定できます。 TRUE の場合は、拒否とキャンセルは NULL になります。</p></td>
+<td><p>TRUE または NULL。TRUE の場合は、Reject と Cancel が NULL になります。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>拒否</strong></p></td>
-<td><p>bit</p></td>
+<td><p><strong>拒否する</strong></p></td>
+<td><p>若干</p></td>
 <td></td>
-<td><p>TRUE または NULL を指定できます。 TRUE の場合は、Accept と Cancel は NULL になります。</p></td>
+<td><p>TRUE または NULL。TRUE の場合は、Accept と Cancel が NULL になります。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>キャンセル</strong></p></td>
-<td><p>bit</p></td>
+<td><p><strong>Cancel</strong></p></td>
+<td><p>若干</p></td>
 <td></td>
-<td><p>TRUE または NULL を指定できます。 TRUE の場合は、Accept と Reject は NULL になります。</p></td>
+<td><p>TRUE または NULL。TRUE の場合は、Accept と Reject が NULL になります。</p></td>
 </tr>
 </tbody>
 </table>

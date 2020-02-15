@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Lync Web App でサポートされているプラットフォーム'
+title: 'Lync Server 2013: Lync Web App がサポートされているプラットフォーム'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183808
 ms.date: 06/12/2019
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 47a2912aae21e4bdedadabcffd7bbcba09560d64
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 713a49fc81ba388d01a790ab260adcebbd364c8b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730267"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030180"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="lync-web-app-supported-platforms-for-lync-server-2013"></a>Lync Web App が Lync Server 2013 用にサポートされているプラットフォーム
+# <a name="lync-web-app-supported-platforms-for-lync-server-2013"></a>Lync Server 2013 の lync Web App がサポートされているプラットフォーム
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41730267"
 
 <span> </span>
 
-_**最終更新日:** 2017-02-07_
+_**トピックの最終更新日:** 2017-02-07_
 
 Lync Web App を使用するには、次のサポートされているオペレーティングシステムとブラウザーの組み合わせのいずれかが必要です。
 
@@ -43,7 +43,7 @@ Lync Web App を使用するには、次のサポートされているオペレ�
 
 
 > [!NOTE]  
-> プラグインは、コンピューターベースの音声、ビデオ、共有、進行中の画面共有の表示など、Lync Web App の特定の機能に必要です。 共有プラグインは、会議に参加するとき、または次のいずれかの機能を開始したときにインストールできます。 1<BR>
+> コンピューターベースの音声、ビデオ、共有、進行中の画面共有の表示など、特定の Lync Web App 機能にプラグインが必要です。 会議に参加するとき、またはこれらの機能のいずれかを開始するときに、共有プラグインをインストールすることができます。 1 <BR>
 
 
 
@@ -73,14 +73,14 @@ Lync Web App を使用するには、次のサポートされているオペレ�
 <td><p>オペレーティング システム</p></td>
 <td><p>Edge</p></td>
 <td><p>Internet Explorer 11</p></td>
-<td><p>32ビット Internet Explorer 10</p></td>
-<td><p>64ビット Internet Explorer 10</p></td>
-<td><p>32ビット Internet Explorer 9</p></td>
-<td><p>64ビット Internet Explorer 9</p></td>
-<td><p>Firefox 32-bit<sup>4</sup></p></td>
-<td><p>Firefox 64-bit<sup>4</sup></p></td>
+<td><p>32ビット版の Internet Explorer 10</p></td>
+<td><p>64ビット版の Internet Explorer 10</p></td>
+<td><p>32ビット版の Internet Explorer 9</p></td>
+<td><p>64ビット版の Internet Explorer 9</p></td>
+<td><p>Firefox 32-ビット<sup>4</sup></p></td>
+<td><p>Firefox 64-ビット<sup>4</sup></p></td>
 <td><p>Safari</p></td>
-<td><p>Chrome<sup>4</sup></p></td>
+<td><p>クロム<sup>4</sup></p></td>
 </tr>
 <tr class="even">
 <td><p>Windows 10</p></td>
@@ -90,10 +90,10 @@ Lync Web App を使用するには、次のサポートされているオペレ�
 <td><p>該当なし</p></td>
 <td><p>該当なし</p></td>
 <td><p>該当なし</p></td>
-<td><p>なし</p></td>
+<td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 <td><p>該当なし</p></td>
-<td><p>いいえ</p></td>
+<td><p>X</p></td>
 </tr>
 <tr class="odd">
 <td><p>Windows 8.1<sup>1</sup></p></td>
@@ -103,10 +103,10 @@ Lync Web App を使用するには、次のサポートされているオペレ�
 <td><p>該当なし</p></td>
 <td><p>該当なし</p></td>
 <td><p>該当なし</p></td>
-<td><p>なし</p></td>
+<td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 <td><p>該当なし</p></td>
-<td><p>いいえ</p></td>
+<td><p>X</p></td>
 </tr>
 <tr class="even">
 <td><p>Windows 8 (Intel ベース)<sup>1</sup></p></td>
@@ -116,49 +116,49 @@ Lync Web App を使用するには、次のサポートされているオペレ�
 <td><p>はい</p></td>
 <td><p>該当なし</p></td>
 <td><p>該当なし</p></td>
-<td><p>なし</p></td>
+<td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 <td><p>該当なし</p></td>
-<td><p>いいえ</p></td>
+<td><p>X</p></td>
 </tr>
 <tr class="odd">
-<td><p>Windows 7 と SP1<sup>2</sup></p></td>
+<td><p>Windows 7 SP1<sup>2</sup></p></td>
 <td><p>該当なし</p></td>
 <td><p>はい</p></td>
-<td><p>Yes</p></td>
-<td><p>Yes</p></td>
-<td><p>Yes</p></td>
-<td><p>Yes</p></td>
-<td><p>なし</p></td>
+<td><p>はい</p></td>
+<td><p>はい</p></td>
+<td><p>はい</p></td>
+<td><p>はい</p></td>
+<td><p>不要</p></td>
 <td><p>いいえ</p></td>
 <td><p>該当なし</p></td>
-<td><p>いいえ</p></td>
+<td><p>X</p></td>
 </tr>
 <tr class="even">
 <td><p>Windows Server 2008 R2 SP1<sup>2</sup></p></td>
 <td><p>該当なし</p></td>
 <td><p>はい</p></td>
-<td><p>Yes</p></td>
-<td><p>Yes</p></td>
-<td><p>Yes</p></td>
-<td><p>Yes</p></td>
-<td><p>なし</p></td>
+<td><p>はい</p></td>
+<td><p>はい</p></td>
+<td><p>はい</p></td>
+<td><p>はい</p></td>
+<td><p>不要</p></td>
 <td><p>いいえ</p></td>
 <td><p>該当なし</p></td>
-<td><p>いいえ</p></td>
+<td><p>X</p></td>
 </tr>
 <tr class="odd">
-<td><p>Windows Server 2008 (SP2<sup>3</sup> )</p></td>
+<td><p>Windows Server 2008 SP2<sup>3</sup></p></td>
 <td><p>該当なし</p></td>
 <td><p>はい</p></td>
-<td><p>Yes</p></td>
-<td><p>不可</p></td>
-<td><p>○</p></td>
-<td><p>なし</p></td>
-<td><p>なし</p></td>
+<td><p>はい</p></td>
+<td><p>いいえ</p></td>
+<td><p>はい</p></td>
+<td><p>不要</p></td>
+<td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 <td><p>該当なし</p></td>
-<td><p>いいえ</p></td>
+<td><p>X</p></td>
 </tr>
 <tr class="even">
 <td><p>Mac OS X 10.7 以降 (Intel ベース)<sup>2</sup></p></td>
@@ -168,22 +168,22 @@ Lync Web App を使用するには、次のサポートされているオペレ�
 <td><p>該当なし</p></td>
 <td><p>該当なし</p></td>
 <td><p>該当なし</p></td>
-<td><p>なし</p></td>
-<td><p>不可</p></td>
-<td><p>○</p></td>
+<td><p>いいえ</p></td>
+<td><p>いいえ</p></td>
+<td><p>はい</p></td>
 <td><p>いいえ</p></td>
 </tr>
 </tbody>
 </table>
 
 
-<sup>1</sup> windows 8 および windows 8.1 の場合、コンピューターベースの音声、ビデオ、アプリケーションの表示、アプリケーション共有、デスクトップ表示、デスクトップ共有を使用するために必要なプラグインは、internet explorer 10 または internet explorer 11 を実行している場合にのみインストールできます。 これらの機能は、デスクトップ以外のバージョンの Internet Explorer 10 または Internet Explorer 11 では使用できません。
+<sup>1</sup> windows 8 および windows 8.1 で、コンピューターベースの音声、ビデオ、アプリケーション表示、アプリケーション共有、デスクトップ表示、およびデスクトップ共有を使用するために必要なプラグインは、internet explorer 10 または internet explorer 11 を実行しているデスクトップの場合にのみインストールできます。 これらの機能は、デスクトップ以外のバージョンの Internet Explorer 10 または Internet Explorer 11 では使用できません。
 
-<sup>2</sup>サポートされている windows 7、windows Server 2008 R2、および Macintosh オペレーティングシステムでは、コンピューターベースの音声、ビデオ、アプリケーションの表示、アプリケーション共有、デスクトップ表示、デスクトップ共有などのすべての機能を利用できます。 これらの機能を使用するには、画面の指示に従ってプラグインをインストールする必要があります。 Mac OS X バージョン10.6 はサポートされなくなったことに注意してください。
+<sup>2</sup>サポートされている windows 7、windows Server 2008 R2、および Macintosh オペレーティングシステムでは、コンピューターベースの音声、ビデオ、アプリケーション表示、アプリケーション共有、デスクトップ表示、デスクトップ共有など、すべての機能を利用できます。 これらの機能を使用するには、プロンプトが表示されたときにプラグインをインストールする必要があります。 Mac OS X バージョン10.6 は現在サポートされていないことに注意してください。
 
-<sup>3</sup>サポートされている Windows Server 2008 オペレーティングシステムでは、コンピュータベースの音声およびビデオは使用できません。 アプリケーションの表示、アプリケーション共有、デスクトップ表示、デスクトップ共有を使用できます。
+<sup>3</sup>サポートされている Windows Server 2008 オペレーティングシステムでは、コンピューターベースの音声とビデオは使用できません。 アプリケーション表示、アプリケーション共有、デスクトップ表示、およびデスクトップ共有を使用できます。
 
-<sup>4</sup>プラグインを使用するには、ブラウザーで npapi がサポートされている必要があります。 Firefox はバージョン52.0 の NPAPI のサポートを削除しました。また、バージョン45で Chrome がサポートされていないため、これらのブラウザーは現在のバージョンではサポートされなくなりました。
+<sup>4</sup>プラグインはブラウザーでの npapi のサポートを必要とします。 Firefox はバージョン52.0 の NPAPI のサポートを削除し、Chrome はバージョン45ではサポートされなくなりました。そのため、これらのブラウザーは現在のバージョンではサポートされなくなりました。
 
 </div>
 
@@ -191,7 +191,7 @@ Lync Web App を使用するには、次のサポートされているオペレ�
 
 ## <a name="hardware-requirements"></a>ハードウェア要件
 
-コンピューターのハードウェア要件はオペレーティング システムとブラウザーによって決まります。 音声機能とテレフォニー機能には、コンピューターと互換性のあるマイクおよびスピーカー、マイク付きヘッドセット、または同等のデバイスが必要です。 ビデオ機能には、コンピューターと互換性のあるビデオ デバイスが必要です。 ビデオハードウェアのサポートと予測されるビデオの品質の詳細については、「lync [Server 2013 の lync クライアントのビデオ要件](lync-server-2013-lync-client-video-requirements.md)」を参照してください。
+コンピューターのハードウェア要件は、オペレーティングシステムとブラウザーによって決定されます。 音声およびテレフォニー機能には、マイクとスピーカー、マイク付きヘッドセット、またはコンピューターと互換性のあるデバイスが必要です。 ビデオ機能には、コンピューターと互換性のあるビデオデバイスが必要です。 ビデオハードウェアサポートおよび想定されるビデオ品質の詳細については、「lync [Server 2013 の lync クライアントのビデオ要件](lync-server-2013-lync-client-video-requirements.md)」を参照してください。
 
 </div>
 

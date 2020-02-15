@@ -12,16 +12,16 @@ ms:contentKeyID: 48183839
 ms.date: 05/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 105caa9a892d8bd3c6facca5c768c7e748aec824
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9ae168c2afb115ac3883938124298713af9bb264
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742297"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030250"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41742297"
 
 <span> </span>
 
-_**最終更新日:** 2016-05-25_
+_**トピックの最終更新日:** 2016-05-25_
 
-Lync ハイブリッド展開を使用すると、lync ユーザーの一部をオンプレミスにしたり、Lync Online の他のユーザーが同じドメインを共有したりすることができます。 これにより、さまざまな地理的な場所やリモートに接続しているユーザーに、Lync サービスを簡単に提供できるようになります。 また、Office 365 への移行パスとして Lync ハイブリッド構成を利用することもできます。
+Lync ハイブリッド展開では、社内の一部の Lync ユーザーと Lync Online の他のユーザーに、同じドメインを共有することができます。 これにより、組織のユーザーに対して、異なる地理的な場所やリモートで接続するユーザーに Lync services を提供することが容易になります。 Office 365 への移行パスとして Lync ハイブリッド構成を利用することもできます。
 
 このセクションでは、Lync Server 2013 のハイブリッド構成について説明します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-[Lync Server 2013 のハイブリッド展開の概要](lync-server-2013-overview-of-hybrid-deployments.md)
+[Lync Server 2013 ハイブリッド展開の概要](lync-server-2013-overview-of-hybrid-deployments.md)
 
 [Lync Server 2013 ハイブリッド展開の計画](lync-server-2013-planning-for-hybrid-deployments.md)
 

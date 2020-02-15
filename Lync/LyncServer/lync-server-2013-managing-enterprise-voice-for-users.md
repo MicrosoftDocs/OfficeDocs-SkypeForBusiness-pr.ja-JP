@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: エンタープライズ Voip をユーザーに対して管理する'
+title: 'Lync Server 2013: ユーザーのエンタープライズ Voip の管理'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733690
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d24e8447cb900349e49e868b0511a232fa22d00a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 887e5cb34917d588f6dfb59ee47e5eda07bc2e83
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729297"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029488"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-enterprise-voice-for-users-in-lync-server-2013"></a>Lync Server 2013 でのユーザーのエンタープライズボイスの管理
+# <a name="managing-enterprise-voice-for-users-in-lync-server-2013"></a>Lync Server 2013 でのユーザーのエンタープライズ Voip の管理
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41729297"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-11_
+_**トピックの最終更新日:** 2012-10-11_
 
-エンタープライズ Voip は、ユーザーごとに有効にすることができます。 このセクションの手順を使用して、Lync Server 2013 コントロールパネルと Lync Server 2013 Management Shell を使用してエンタープライズボイスを管理します。
+エンタープライズ VoIP は、ユーザーごとに有効にすることができます。 このセクションの手順を使用して、Lync Server 2013 コントロールパネルおよび Lync Server 2013 管理シェルを使用してエンタープライズ Voip を管理します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 でのエンタープライズ Voip のユーザーの有効化](lync-server-2013-enable-users-for-enterprise-voice.md)
+  - [Lync Server 2013 のエンタープライズ Voip でユーザーを有効にする](lync-server-2013-enable-users-for-enterprise-voice.md)
 
-  - [Lync Server 2013 でエンタープライズ Voip のユーザーを無効にする](lync-server-2013-disable-a-user-for-enterprise-voice.md)
+  - [Lync Server 2013 でのエンタープライズ Voip のユーザーの無効化](lync-server-2013-disable-a-user-for-enterprise-voice.md)
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a>関連項目
+## <a name="related-sections"></a>関連情報
 
 [Lync Server 2013 での音声ルーティングの管理](lync-server-2013-managing-voice-routing.md)
 

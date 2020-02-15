@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ネットワーク領域のリンクを構成する'
+title: 'Lync Server 2013: ネットワーク地域リンクの構成'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184829
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5d069bb5215fc977a35481a916f49e86fa644284
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ccafd4302897a8768164f9f085f382e2ad806c2d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743477"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030521"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-network-region-links-in-lync-server-2013"></a>Lync Server 2013 でのネットワーク領域のリンクの構成
+# <a name="configuring-network-region-links-in-lync-server-2013"></a>Lync Server 2013 でのネットワーク地域リンクの構成
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41743477"
 
 <span> </span>
 
-_**最終更新日:** 2012-11-01_
+_**トピックの最終更新日:** 2012-11-01_
 
-通話受付制御 (CAC) の一部として、2つのネットワーク領域間のリンクを構成することができます。 ネットワーク内の領域は、物理ワイドエリアネットワーク (WAN) 接続によってリンクされています。 Lync Server コントロールパネルを使用して、2つのネットワーク領域間のリンクを定義し、これらの地域間の音声およびビデオ接続の帯域幅の制限を設定することができます。 既存のネットワーク領域へのリンクの削除の詳細については、「 [Lync Server 2013 でのネットワーク領域のリンクの削除](lync-server-2013-deleting-network-region-links.md)」を参照してください。
+通話受付管理 (CAC) の一環として、2 つのネットワーク地域間のリンクを公正できます。 ネットワーク内の地域は、物理的なワイド エリア ネットワーク (WAN) 接続を経由してリンクされます。 Lync Server コントロールパネルを使用して、2つのネットワーク地域間のリンクを定義し、これらの地域間の音声およびビデオ接続に対する帯域幅制限を設定することができます。 既存のネットワーク地域リンクの削除の詳細については、「 [Lync Server 2013 でのネットワーク地域リンクの削除](lync-server-2013-deleting-network-region-links.md)」を参照してください。
 
 <div>
 
-## <a name="to-create-a-network-region-link"></a>ネットワーク領域のリンクを作成するには
+## <a name="to-create-a-network-region-link"></a>ネットワーク地域リンクを作成するには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
-3.  左側のナビゲーションバーで [**ネットワーク構成**] をクリックし、[**地域] リンク**をクリックします。
+3.  左側のナビゲーション バーで [**ネットワーク構成**] をクリックし、[**地域リンク**] をクリックします。
 
-4.  [**地域] リンク**ページで、[**新規**] をクリックします。
+4.  [**地域リンク**] ページで、[**新規**] をクリックします。
 
 5.  [**新しい地域] リンク**で、[**名前**] フィールドに値を入力します。
     
@@ -57,38 +57,38 @@ _**最終更新日:** 2012-11-01_
     
 
     > [!NOTE]  
-    > この値は、Lync Server 2013 の展開内で一意である必要があります。
+    > この値は、Lync Server 2013 展開内で一意である必要があります。
 
     
     </div>
 
-6.  [ **Network region \#1** ] ボックスの一覧で、リンクする2つの領域のいずれかを選択します。
+6.  [**ネットワーク地域\#1** ] ドロップダウンリストから、リンクする2つの地域のいずれかを選択します。
 
-7.  [ **Network region \#2** ] ボックスの一覧で、リンクする他の地域を選択します。 この領域は、ネットワーク領域\#1 で選択した地域とは異なる必要があります。
+7.  [**ネットワーク地域\#2** ] ドロップダウンリストから、リンクする他の地域を選択します。 この地域は、[ネットワーク地域\#1 に選択した地域とは別のものにする必要があります。
 
-8.  省略これらの地域間の音声通話やビデオ通話に帯域幅の制限を設定する場合は、[**帯域幅ポリシー** ] ドロップダウンリストから帯域幅ポリシーのプロファイルを選択します。
+8.  オプションこれらの地域間の音声またはビデオ通話に帯域幅制限を設定する場合は、[**帯域幅ポリシー** ] ドロップダウンリストから帯域幅ポリシーのプロファイルを選択します。
 
-9.  [**コミット**] をクリックします。
+9.  [**確定**] をクリックします。
 
 </div>
 
 <div>
 
-## <a name="to-modify-a-network-region-link"></a>ネットワーク領域のリンクを変更するには
+## <a name="to-modify-a-network-region-link"></a>ネットワーク地域リンクを変更するには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
-3.  左側のナビゲーションバーで [**ネットワーク構成**] をクリックし、[**地域] リンク**をクリックします。
+3.  左側のナビゲーション バーで [**ネットワーク構成**] をクリックし、[**地域リンク**] をクリックします。
 
-4.  [**地域] リンク**ページで、変更する地域のリンクをクリックします。
+4.  [**地域リンク**] ページで、変更する地域リンクをクリックします。
 
 5.  [**編集**] メニューの [**詳細の表示**] をクリックします。
 
-6.  [**範囲の編集] リンク**では、リンクされている地域、またはこのリンクの帯域幅ポリシープロファイルを変更することができます。
+6.  [**地域の編集] リンク**では、リンクされている地域またはこのリンクの帯域幅ポリシープロファイルを変更できます。
 
-7.  [**コミット**] をクリックします。
+7.  [**確定**] をクリックします。
 
 </div>
 
@@ -97,12 +97,12 @@ _**最終更新日:** 2012-11-01_
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 でのネットワーク領域リンクの削除](lync-server-2013-deleting-network-region-links.md)  
+[Lync Server 2013 でのネットワーク地域リンクの削除](lync-server-2013-deleting-network-region-links.md)  
 
 
 [新しい-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegionLink)  
-[Set-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkRegionLink)  
-[CsNetworkRegionLink を削除する](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkRegionLink)  
+[設定-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkRegionLink)  
+[-CsNetworkRegionLink の削除](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkRegionLink)  
 [Get-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink)  
   
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 場所ポリシーのスコープを割り当てる'
+title: 'Lync Server 2013: 場所ポリシーのスコープの割り当て'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185734
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 395b8a4271338231b4c2c1927f7e40fb21a1cb14
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 69218c3f5399b62fc67fe0d538a98f1bdadd3cf4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734027"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030050"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="assigning-location-policy-scope-in-lync-server-2013"></a>Lync Server 2013 で位置情報ポリシーのスコープを割り当てる
+# <a name="assigning-location-policy-scope-in-lync-server-2013"></a>Lync Server 2013 での場所ポリシーのスコープの割り当て
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41734027"
 
 <span> </span>
 
-_**最終更新日:** 2012-06-06_
+_**トピックの最終更新日:** 2012-06-06_
 
-他の Lync Server ポリシーと同様に、場所ポリシーは、グローバル、サイト、ユーザーという複数のスコープレベルで割り当てることができます。 ただし、ユーザーレベルの位置情報ポリシーの範囲は、他の Lync Server ポリシーとは少し異なります。 ユーザーごとの場所ポリシーをエンドポイントオブジェクト (ユーザー、一般的なエリア電話の連絡先オブジェクトなど) に適用できるだけでなく、それらを Lync Server ネットワークサイトに適用することもできます。 ネットワーク サイトは、地理的場所に関連付けられたクライアント サブネットをグループ化したものです (ただし、必ずしも中央サイトまたはブランチ サイト全体の中のすべてのサブネットである必要はありません)。 ネットワーク サイト内のサブネットに接続されるクライアントはすべて、そのネットワーク サイトに割り当てられた場所ポリシーを自動的に取得します。 ユーザー レベルの場所ポリシーがユーザーとネットワーク サイトの両方に割り当てられる場合、ネットワーク サイト ベースの場所ポリシーがユーザーごとのポリシー設定より優先されます。
+他の Lync Server ポリシーと同様に、場所のポリシーは、グローバル、サイト、ユーザーという複数のスコープレベルで割り当てることができます。 ただし、ユーザーレベルの場所ポリシーの範囲は、他の Lync Server ポリシーとは少し異なる動作をします。 エンドポイントオブジェクト (ユーザーや共通領域電話の連絡先オブジェクトなど) には、ユーザーごとの場所のポリシーを適用するだけでなく、Lync Server ネットワークサイトに適用することもできます。 ネットワーク サイトは、地理的場所に関連付けられたクライアント サブネットをグループ化したものです (ただし、必ずしも中央サイトまたはブランチ サイト全体の中のすべてのサブネットである必要はありません)。 ネットワーク サイト内のサブネットに接続されるクライアントはすべて、そのネットワーク サイトに割り当てられた場所ポリシーを自動的に取得します。 ユーザー レベルの場所ポリシーがユーザーとネットワーク サイトの両方に割り当てられる場合、ネットワーク サイト ベースの場所ポリシーがユーザーごとのポリシー設定より優先されます。
 
 各ネットワーク サイトにはそれぞれに割り当てられた場所ポリシーがあり、各ポリシーには異なる PSTN 使用法、通知 URI、および電話会議 URI の値が割り当てられます。
 

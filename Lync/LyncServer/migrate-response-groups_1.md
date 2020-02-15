@@ -1,5 +1,5 @@
 ---
-title: 応答グループの移行
+title: 応答グループを移行する
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184250
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9c01ec246ba99d2a2f71a16179d839409e6b57b1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d537182c4d770d6bc7ffc98f71ea891de6552675
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762895"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030711"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="migrate-response-groups"></a>応答グループの移行
+# <a name="migrate-response-groups"></a>応答グループを移行する
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41762895"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-19_
+_**トピックの最終更新日:** 2012-10-19_
 
-ユーザーが Lync Server 2013 プールに移動された後、応答グループを移行できます。 応答グループの移行には、エージェントグループ、キュー、ワークフロー、オーディオファイルのコピー、および従来の展開から Lync Server 2013 プールへの応答グループの連絡先オブジェクトの移動が含まれます。 従来の応答グループを移行すると、応答グループへの通話は、Lync Server 2013 プールの応答グループアプリケーションによって処理されます。 応答グループへの通話は、従来のプールでは処理されなくなりました。
+ユーザーが Lync Server 2013 プールに移動された後、応答グループを移行することができます。 応答グループの移行には、エージェントグループ、キュー、ワークフロー、およびオーディオファイルをコピーし、応答グループの連絡先オブジェクトを従来の展開から Lync Server 2013 プールに移動することが含まれます。 従来の応答グループを移行した後、応答グループへの通話は Lync Server 2013 プールの応答グループアプリケーションによって処理されます。 応答グループへの通話は、従来のプールによって処理されなくなりました。
 
 <div>
 
 
 > [!NOTE]  
-> すべてのユーザーを Lync Server 2013 プールに移動する前に、応答グループを移行することもできますが、最初にすべてのユーザーを移動することをお勧めします。 特に、応答グループのエージェントであるユーザーは、Lync Server 2013 プールに移動するまで、新機能のすべての機能を利用できません。
+> すべてのユーザーを Lync Server 2013 プールに移動する前に、応答グループを移行することもできますが、すべてのユーザーを最初に移動することをお勧めします。 特に、応答グループのエージェントであるユーザーは、Lync Server 2013 プールに移動するまで、新機能のすべての機能を利用できません。
 
 
 
 </div>
 
-応答グループを移行する前に、応答グループアプリケーションを含む Lync Server 2013 プールを展開しておく必要があります。 応答グループアプリケーションは、エンタープライズボイスの展開時に既定でインストールされ、有効になります。 **ApplicationServer**コマンドレットを実行して、応答グループアプリケーションがインストールされていることを確認できます。
+応答グループを移行する前に、応答グループアプリケーションを含む Lync Server 2013 プールを展開しておく必要があります。 応答グループアプリケーションは、エンタープライズ Voip を展開するときに既定でインストールされ、アクティブ化されます。 **ApplicationServer**コマンドレットを実行して、応答グループアプリケーションがインストールされていることを確認できます。
 
 <div>
 
@@ -61,25 +61,25 @@ _**最終更新日:** 2012-10-19_
 
 </div>
 
-従来のプールから Lync Server 2013 に応答グループを移行するには、 **Move-CsRgsConfiguration**コマンドレットを実行します。 **移動-CsRgsConfiguration**を実行する前に、まず Windows Management INSTRUMENTATION (WMI) 下位互換性インターフェイスパッケージをインストールする必要があります。 OCSWMIBC を実行して、このアプリケーションをインストールします。 インストールメディアの OCSWMIBC は、セットアップフォルダーで見つけることができます。
+応答グループを従来のプールから Lync Server 2013 に移行するには、**移動-CsRgsConfiguration**コマンドレットを実行します。 **Move-CsRgsConfiguration** コマンドレットを実行する前に、まず Windows Management Instrumentation (WMI) 下位互換性インターフェイス パッケージをインストールする必要があります。 このアプリケーションは、OCSWMIBC.msi を実行してインストールします。 OCSWMIBC.msi は、インストール メディアの Setup フォルダーにあります。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 応答グループの移行コマンドレットは、プール全体の応答グループの構成を移動します。 移行する特定のグループ、キュー、またはワークフローを選ぶことはできません。
+> 応答グループ移行コマンドレットは、プール全体の応答グループの構成を移動します。 特定のグループ、キュー、またはワークフローを選択して移行することはできません。
 
 
 
 </div>
 
-応答グループを移行した後、正式なエージェントが応答グループにサインインまたはサインアウトするために使用する URL を更新して、Lync Server コントロールパネルまたは Lync Server Management Shell コマンドレットを使用して、すべてのエージェントグループ、キュー、ワークフローが移動されたことを確認する必要があります。できる.
+応答グループを移行した後、正式なエージェントが応答グループにサインインおよびサインアウトするために使用する URL を更新し、Lync Server コントロールパネルまたは Lync Server 管理シェルコマンドレットを使用して、すべてのエージェントグループ、キュー、およびワークフローが移動されたことを確認する必要があります。完了.
 
 <div>
 
 
 > [!WARNING]  
-> 応答グループを移行しても、Office Communications Server 2007 R2 応答グループは削除されません。 Office Communications Server 2007 R2 応答グループは削除しないでください。 Office Communications Server 2007 R2 応答グループを削除すると、Lync Server 2013 の返信グループが機能しなくなります。
+> 応答グループを移行する場合、Office Communications Server 2007 R2 応答グループは削除されません。 Office Communications Server 2007 R2 応答グループは削除しないでください。 Office Communications Server 2007 R2 応答グループを削除すると、Lync Server 2013 の応答グループは動作を停止します。
 
 
 
@@ -89,33 +89,33 @@ _**最終更新日:** 2012-10-19_
 
 
 > [!IMPORTANT]  
-> プールを廃止するまでは、前の展開からデータを削除しないことをお勧めします。 また、移行した後すぐに応答グループをエクスポートすることを強くお勧めします。 Office Communications Server 2007 R2 応答グループが削除された場合は、バックアップから応答グループを復元して、Lync Server 2013 応答グループをもう一度実行することができます。
+> プールの使用を停止するまで、以前の展開からデータを削除しないようにすることをお勧めします。 また、移行直後に応答グループをエクスポートすることを強くお勧めします。 Office Communications Server 2007 R2 応答グループが削除された場合は、バックアップから応答グループを復元して、Lync Server 2013 応答グループを再度実行することができます。
 
 
 
 </div>
 
-**移動-CsRgsConfiguration**コマンドレットを実行しても、ロールバックのために、エージェントグループ、キュー、ワークフロー、オーディオファイルは従来のプールに残ります。 ただし、従来のプールにロールバックする必要がある場合は、 **Move-CsApplicationEndpoint**コマンドレットを実行して、連絡先オブジェクトを従来のプールに戻す必要があります。
+**Move-CsRgsConfiguration** コマンドレットを実行した場合、エージェント グループ、キュー、ワークフロー、およびオーディオ ファイルは、ロールバックできるようにレガシ プールに残されたままとなります。 ただし、レガシ プールへのロールバックが必要な場合に連絡先オブジェクトを移動してレガシ プールに戻すには、**Move-CsApplicationEndpoint** コマンドレットを実行する必要があります。
 
 <div>
 
 
 > [!IMPORTANT]  
-> プールを廃止するまで、従来のプールから応答グループのデータを削除しないことをお勧めします。
+> プールの使用を停止するまで、従来のプールから応答グループのデータを削除しないようにすることをお勧めします。
 
 
 
 </div>
 
-応答グループの構成を移行するための手順では、従来のプールと Lync Server 2013 プールの間に1対1の関係があることを前提としています。 移行および展開中にプールを統合または分割する場合は、どのレガシプールが Lync Server 2013 プールにマッピングされるかを計画する必要があります。
+応答グループの構成を移行する手順では、従来のプールと Lync Server 2013 プール間の1対1の関係があることを前提としています。 移行と展開時にプールを統合または分割する予定の場合は、どの従来のプールを Lync Server 2013 プールにマッピングするかを計画する必要があります。
 
 <div>
 
 ## <a name="to-migrate-response-group-configurations"></a>応答グループの構成を移行するには
 
-1.  インストールメディアのセットアップフォルダーで OCSWMIBC を見つけてインストールします。
+1.  インストール メディアの Setup フォルダーで OCSWMIBC.msi を検索し、これをインストールします。
 
-2.  RTCUniversalServerAdmins グループのメンバーであるアカウントか、同等の管理者権限と権限を持つアカウントでコンピューターにログオンします。
+2.  RTCUniversalServerAdmins グループのメンバーであるアカウント、またはそれと同等の管理者権限およびアクセス許可を持つアカウントを使用して、コンピューターにログオンします。
 
 3.  Lync Server 管理シェルを開きます。
 
@@ -127,24 +127,24 @@ _**最終更新日:** 2012-10-19_
     
         Move-CsRgsConfiguration -Source pool01.contoso.net -Destination pool02.contoso.net
 
-5.  Office Communications Server 2007 R2 環境で Microsoft Office Communicator 2007 R2 の [返信グループ] タブを展開した場合は、Office Communicator 2007 R2 のタブからタブを削除します。
+5.  Office Communications Server 2007 R2 環境の Microsoft Office Communicator 2007 R2 用の [応答グループ] タブを展開した場合は、そのタブを Office Communicator 2007 R2 タブの .xml ファイルから削除します。
     
     <div>
     
 
     > [!NOTE]  
-    > 正式なエージェントは、応答グループタブを使用して、通話を受ける前に応答グループにサインインします。 [応答グループ] タブを展開した場合は、Office Communicator 2007 R2 のタブの場所を選択します。
+    > 正規のエージェントが通話を受信するには、[応答グループ] タブを使用して応答グループにサインインする必要がありました。 [応答グループ] タブを展開した場合は、展開時に Office Communicator 2007 R2 のタブの xml ファイルの場所を選択しています。
 
     
     </div>
 
-6.  エージェントが応答グループにサインインまたはサインアウトするために必要となる、更新された URL をユーザーに提供します。
+6.  各エージェントが各応答グループにサインインおよびサインアウトするために必要な更新後の URL をユーザーに付与します。
     
     <div>
     
 
     > [!NOTE]  
-    > URL は通常https://webpoolFQDN/RgsClients/Tab.aspx、webpoolFQDN が Lync Server 2013 に移行したプールに関連付けられている web プールの完全修飾ドメイン名 (FQDN) です。
+    > 通常https://webpoolFQDN/RgsClients/Tab.aspx、URL は、Lync Server 2013 に移行したばかりのプールに関連付けられている web プールの完全修飾ドメイン名 (fqdn) である webpoolFQDN です。
 
     
     </div>
@@ -153,7 +153,7 @@ _**最終更新日:** 2012-10-19_
     
 
     > [!NOTE]  
-    > ユーザーが Lync 2013 にアップグレードした後、この手順は必要ありません。 Lync の [<STRONG>ツール</STRONG>] メニューから URL を利用できます。
+    > Lync の [<STRONG>ツール</STRONG>] メニューから URL を利用できるため、ユーザーが lync 2013 にアップグレードした後は、この手順は必要ありません。
 
     
     </div>
@@ -164,15 +164,15 @@ _**最終更新日:** 2012-10-19_
 
 ## <a name="to-verify-response-group-migration-by-using-lync-server-control-panel"></a>Lync Server コントロールパネルを使用して応答グループの移行を確認するには
 
-1.  Lync Server コントロールパネルを開きます。
+1.  Lync Server コントロール パネルを開きます。
 
-2.  左側のナビゲーションウィンドウで、[**応答グループ**] をクリックします。
+2.  左側のナビゲーション ウィンドウで [**応答グループ**] をクリックします。
 
-3.  [**ワークフロー** ] タブで、Office Communications Server 2007 R2 環境内のすべてのワークフローが一覧に含まれていることを確認します。
+3.  [**ワークフロー** ] タブで、Office Communications Server 2007 R2 環境のすべてのワークフローがリストに含まれていることを確認します。
 
-4.  [**キュー** ] タブをクリックし、Office Communications Server 2007 R2 環境内のすべてのキューがリストに含まれていることを確認します。
+4.  [**キュー** ] タブをクリックして、Office Communications Server 2007 R2 環境のすべてのキューがリストに含まれていることを確認します。
 
-5.  [**グループ**] タブをクリックし、Office Communications Server 2007 R2 環境内のすべてのエージェントグループがリストに含まれていることを確認します。
+5.  [**グループ**] タブをクリックし、Office Communications Server 2007 R2 環境のすべてのエージェントグループがリストに含まれていることを確認します。
 
 </div>
 
@@ -182,27 +182,27 @@ _**最終更新日:** 2012-10-19_
 
 1.  Lync Server 管理シェルを開きます。
     
-    次のコマンドレットの詳細については、次を実行します。
+    各コマンドレットの詳細については、次のように実行してください。
     
         Get-Help <cmdlet name> -Detailed
 
-2.  コマンドラインで、次のように入力します。
+2.  コマンド ラインで、次のように入力します。
     
         Get-CsRgsAgentGroup
 
-3.  Office Communications Server 2007 R2 環境内のすべてのエージェントグループがリストに含まれていることを確認します。
+3.  Office Communications Server 2007 R2 環境のすべてのエージェントグループがリストに含まれていることを確認します。
 
 4.  コマンドラインで、次のように入力します。
     
         Get-CsRgsQueue
 
-5.  Office Communications Server 2007 R2 環境内のすべてのキューがリストに含まれていることを確認します。
+5.  Office Communications Server 2007 R2 環境のすべてのキューがリストに含まれていることを確認します。
 
 6.  コマンドラインで、次のように入力します。
     
         Get-CsRgsWorkflow
 
-7.  Office Communications Server 2007 R2 環境内のすべてのワークフローが一覧に含まれていることを確認します。
+7.  Office Communications Server 2007 R2 環境のすべてのワークフローがリストに含まれていることを確認します。
 
 </div>
 

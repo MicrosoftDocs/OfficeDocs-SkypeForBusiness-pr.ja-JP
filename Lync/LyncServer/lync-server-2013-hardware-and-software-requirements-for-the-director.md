@@ -12,16 +12,16 @@ ms:contentKeyID: 48184517
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 52d91a739935b2e42bb925d5645350c5875e5b43
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 32c4e241c7fd991fc217aaf2e1f2bd0ee9e37aab
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762195"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030330"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762195"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-20_
+_**トピックの最終更新日:** 2012-10-20_
 
-このセクションでは、監督のハードウェアとソフトウェアの要件、およびディレクターのサポートされる collocation シナリオについて説明します。
+このセクションでは、ディレクターのハードウェアおよびソフトウェア要件と、ディレクターがサポートする併置シナリオについて詳しく説明します。
 
 <div>
 
@@ -62,27 +62,27 @@ _**最終更新日:** 2012-10-20_
 <tr class="odd">
 <td><p>CPU</p></td>
 <td><ul>
-<li><p>64ビットプロセッサ、クアッドコア、2.0 GHz 以上</p></li>
-<li><p>64ビットデュアルプロセッサ、デュアルコア、2.0 GHz 以上</p></li>
+<li><p>2.0 GHz またはそれ以上の 64 ビット プロセッサ、クアッド コア</p></li>
+<li><p>2.0 GHz またはそれ以上の 64 ビット デュアル プロセッサ、デュアル コア</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>メモリ</p></td>
-<td><p>4ギガバイト (GB)</p></td>
+<td><p>4 ギガバイト (GB)</p></td>
 </tr>
 <tr class="odd">
 <td><p>ディスク</p></td>
 <td><ul>
-<li><p>10K RPM ハードディスクドライブ (HDD)</p></li>
-<li><p>高パフォーマンスのソリッドステートドライブ (SSD) と、10K RPM HDD と同等またはそれ以上のパフォーマンス。</p></li>
-<li><p>データベースデータファイル用の2倍の RAID 10 (ストライピングとミラーリング) 15K RPM ディスク</p></li>
+<li><p>10K RPM ハード ディスク ドライブ (HDD)</p></li>
+<li><p>10K RPM HDD 以上のパフォーマンスを持つハイパフォーマンス ソリッド ステート ドライブ (SSD)</p></li>
+<li><p>データベース データ ファイル用として 2 x RAID 10 (ストライプおよびミラー)、15K RPM ディスク</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>ネットワーク</p></td>
 <td><ul>
-<li><p>デュアル1ギガビット/秒 (Gbps) ネットワークアダプター (推奨)</p></li>
-<li><p>1つの 1 Gbps ネットワークアダプター (サポートされています)</p></li>
+<li><p>1 Gbps (ギガビット/秒) のデュアル ネットワーク アダプター (推奨)</p></li>
+<li><p>1 Gbps の単一ネットワーク アダプター (サポート)</p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -99,25 +99,25 @@ _**最終更新日:** 2012-10-20_
 
 ディレクターには、次のいずれかの64ビットオペレーティングシステムが必要です。
 
-  - Windows Server 2008 R2 Standard オペレーティングシステム (Service Pack 1)
+  - Windows Server 2008 R2 Standard オペレーティングシステム Service Pack 1
 
-  - Windows Server 2008 R2 Enterprise オペレーティングシステム (Service Pack 1)
+  - Windows Server 2008 R2 Enterprise オペレーティングシステム Service Pack 1
 
   - Windows Server 2008 R2 Datacenter オペレーティングシステムと Service Pack 1
 
-  - Windows Server 2012 標準オペレーティングシステム
+  - Windows Server 2012 Standard オペレーティングシステム
 
   - Windows Server 2012 Datacenter オペレーティングシステム
 
-また、lync Server 2013 には、「 [Lync server 2013 のその他のサーバーのサポートと要件](lync-server-2013-additional-server-support-and-requirements.md)」で説明されている、次のプログラムと更新プログラムのインストールが必要です。
+Lync Server 2013 では、「 [Lync server 2013 の追加サーバーのサポートと要件](lync-server-2013-additional-server-support-and-requirements.md)」で説明されている次のプログラムと更新プログラムのインストールも必要です。
 
 </div>
 
 <div>
 
-## <a name="supported-collocation"></a>サポートされている Collocation
+## <a name="supported-collocation"></a>サポートされる配置
 
-ディレクターサーバーの役割は、Lync Server 2013 の他のサーバーの役割とは関係ありません。 ただし、ディレクターを展開しない場合は、フロントエンドサーバーによって役割が想定されます。
+ディレクターサーバーの役割を、Lync Server 2013 の他のサーバーの役割と併置することはできません。 ただし、ディレクターを展開しない場合は、フロントエンドサーバーによって役割が引き受けられます。
 
 </div>
 

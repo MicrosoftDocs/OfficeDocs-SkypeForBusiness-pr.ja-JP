@@ -12,20 +12,20 @@ ms:contentKeyID: 48185584
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5b5df4fedc49e85d7fe26a918ea36de3a64b440a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 50835858c9c78851ec5fc7359f988790bb0d1c2f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757831"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028758"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-an-existing-central-management-server-in-lync-server-2013"></a>Lync Server 2013 での既存の中央管理サーバーの構成
+# <a name="configure-an-existing-central-management-server-in-lync-server-2013"></a>Lync Server 2013 で既存の中央管理サーバーを構成する
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41757831"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-21_
+_**トピックの最終更新日:** 2013-02-21_
 
-既存の Lync Server 2013 の展開から中央管理サーバーを再利用する場合は、次に説明する手順を実行して、Lync Server コントロールパネルと Windows PowerShell が正しく機能することを確認する必要があります。
+既存の Lync Server 2013 展開から中央管理サーバーを再利用する場合は、以下に示す手順を実行して、Lync Server コントロールパネルおよび Windows PowerShell が正しく機能していることを確認する必要があります。
 
 <div>
 
-## <a name="to-configure-an-existing-central-management-server"></a>既存のサーバーの全体管理サーバーを構成するには
+## <a name="to-configure-an-existing-central-management-server"></a>既存の中央管理サーバーを構成するには
 
-1.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+1.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
-2.  [**更新プログラム**]、[管理者] の役割コマンドレットを使用して、サーバーの全体管理サーバーに保存されている役割ベースのアクセス制御 (RBAC) ロールを更新します。
+2.  中央管理サーバーに格納されている役割ベースのアクセス制御 (RBAC) の役割を更新するには、**更新-CsAdminRole**コマンドレットを使用します。
     
     <div>
     
 
     > [!NOTE]  
-    > エラーがない限り、出力は予期されません。
+    > エラーがない限り、何も出力されません。
 
     
     </div>

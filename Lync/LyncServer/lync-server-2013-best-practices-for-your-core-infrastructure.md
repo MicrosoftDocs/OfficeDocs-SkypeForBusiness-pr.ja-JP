@@ -12,16 +12,16 @@ ms:contentKeyID: 61071242
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1c6a8663bfae2411926fe08a497a5004def051ae
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cd53ac85ec544af58c1f94f7397a030f6b10fdb2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737577"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029208"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41737577"
 
 <span> </span>
 
-_**最終更新日:** 2014-01-27_
+_**トピックの最終更新日:** 2014-01-27_
 
-システムのフォールト トレランスを構築する方法として、ハードウェアを冗長構成にする、給電が途切れないようにする、セキュリティ更新プログラムやウイルス対策を定期的にインストールする、サーバーの利用状況を監視するなどの手段をすでに講じていることでしょう。 この方法では、Microsoft Lync Server 2013 インフラストラクチャだけでなく、ネットワーク全体も利用できます。 これらのプラクティスを実装していない場合は、Lync Server 2013 を展開する前に、この手順を実行することをお勧めします。
+一般に、システムのフォールト トレランスを構築する方法として、ハードウェアを冗長構成にする、給電が途切れないようにする、セキュリティ更新プログラムやウイルス対策を定期的にインストールする、サーバーの利用状況を監視するなどの手段を既に講じていることでしょう。 これらの方法は、Microsoft Lync Server 2013 インフラストラクチャだけでなく、ネットワーク全体にとってもメリットがあります。 これらのプラクティスを実装していない場合は、Lync Server 2013 を展開する前に実行することをお勧めします。
 
-Lync Server 2013 の展開で、ダウンタイムが発生する可能性のある偶発的または明確の危害からサーバーを保護するために、次のことを行う必要があります。
+Lync Server 2013 の展開において、ダウンタイムが発生する可能性がある偶発的または意図的の悪影響からサーバーを保護するために、次の対策を講じる必要があります。
 
-  - 各サーバーに、常に最新のセキュリティ更新プログラムを適用します。 マイクロソフト テクニカル セキュリティ情報通知を購読すると、マイクロソフト製品に関するセキュリティ速報を受信できます。 登録するには、の Microsoft テクニカルセキュリティ通知 web サイト[http://go.microsoft.com/fwlink/p/?LinkId=145202](http://go.microsoft.com/fwlink/p/?linkid=145202)を参照してください。
+  - 各サーバーに、常に最新のセキュリティ更新プログラムを適用します。 マイクロソフト テクニカル セキュリティ情報通知サービスに登録すると、マイクロソフト製品に関するセキュリティ速報を受信できます。 サブスクライブするには、の Microsoft テクニカルセキュリティ通知 web サイト[http://go.microsoft.com/fwlink/p/?LinkId=145202](http://go.microsoft.com/fwlink/p/?linkid=145202)にアクセスしてください。
 
   - アクセス権が正しく設定されていることを確認します。
 
   - 物理環境のサーバーが不正アクセスされないようにします。すべてのサーバーに適切なウイルス対策ソフトウェアをインストールします。最新のウイルス シグネチャ ファイルを適用して、ウイルス対策ソフトウェアを常に最新状態に保ちます。ウイルス対策ソフトウェアの自動更新機能を使用して、ウイルス シグネチャ ファイルを常に最新状態に保ちます。
 
-  - Lync Server 2013 をインストールするコンピューターには必要ない Windows Server オペレーティングシステムサービスを無効にすることをお勧めします。
+  - Lync Server 2013 をインストールするコンピューターでは必要ない Windows Server オペレーティングシステムサービスを無効にすることをお勧めします。
 
   - サーバーの一貫した完全な制御、全体での物理的な分離、および交換するディスク ドライブまたは故障したディスク ドライブの適切かつ安全な使用停止を保証できない場合は、オペレーティング システムとデータが格納されるディスク ドライブをフルボリューム暗号化システムで暗号化します。
 

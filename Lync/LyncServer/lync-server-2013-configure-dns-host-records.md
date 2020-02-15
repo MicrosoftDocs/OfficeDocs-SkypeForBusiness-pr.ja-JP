@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: DNS ホスト レコードの構成'
+title: 'Lync Server 2013: DNS ホストレコードの構成'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184577
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b74da23cb0139a982a30207b61032f043f795b76
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 54ae1e2502ec1618f007ba76255ae6d01ebb66f5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755981"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028588"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-dns-host-records-for-lync-server-2013"></a>Lync Server 2013 での DNS ホスト レコードの構成
+# <a name="configure-dns-host-records-for-lync-server-2013"></a>Lync Server 2013 の DNS ホストレコードの構成
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41755981"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-01_
+_**トピックの最終更新日:** 2012-10-01_
 
-この手順を正常に完了するには、少なくとも Domain Admins グループのメンバーまたは DnsAdmins グループのメンバーとしてサーバーまたはドメインにログオンしている必要があります。
+この手順を適切に完了するには、少なくとも Domain Admins グループのメンバーまたは DnsAdmins グループのメンバーとしてサーバーまたはドメインにログオンする必要があります。
 
 <div>
 
 ## <a name="to-configure-dns-host-a-records"></a>DNS ホスト A レコードを構成するには
 
-1.  ドメインネームシステム (DNS) サーバーで、[**スタート**] をクリックし、[**管理ツール**]、[ **DNS**] の順にクリックします。
+1.  ドメイン ネーム システム (DNS) サーバーで、[**スタート**]、[**管理ツール**]、および [**DNS**] の順にクリックします。
 
-2.  ドメインのコンソールツリーで [**前方参照ゾーン**] を展開し、Lync Server 2013 がインストールされているドメインを右クリックします。
+2.  ドメインのコンソールツリーで、[**前方参照ゾーン**] を展開し、Lync Server 2013 がインストールされるドメインを右クリックします。
 
 3.  [**新しいホスト (A または AAAA)**] をクリックします。
 
-4.  [**名前**] をクリックし、プールのホスト名を入力します (ドメイン名は、レコードが定義されているゾーンから、A レコードの一部として入力する必要はありません)。
+4.  [**名前**] をクリックして、プールのホスト名を入力します (ドメイン名は、レコードが定義されるゾーンから取られるため、A レコードの一部として入力する必要はありません)。
 
 5.  [ **IP アドレス**] をクリックし、フロントエンドプールのロードバランサーの仮想 IP (VIP) を入力します。
     
@@ -57,7 +57,7 @@ _**最終更新日:** 2012-10-01_
     
 
     > [!IMPORTANT]  
-    > ディレクタープールを使用する展開では、シンプルな Url の host (A) レコードはディレクターロードバランサーの VIP を参照する必要があります。
+    > ディレクター プールを使用する展開では、簡易 URL のホスト (A) はディレクター ロード バランサーの VIP をポイントする必要があります。
 
     
     </div>
@@ -66,16 +66,16 @@ _**最終更新日:** 2012-10-01_
     
 
     > [!NOTE]  
-    > ロードバランサーを使用しないトポロジに接続されている Enterprise Edition サーバーまたはディレクターを1つだけ展開する場合、または Standard Edition サーバーを展開する場合は、Enterprise Edition server、Standard Edition server、またはディレクターの IP アドレスを入力します。 プールに複数の Enterprise Edition サーバーまたはディレクターを展開する場合は、ロードバランサーが必要です。 ロードバランサーは、Standard Edition サーバーでは使用されません。
+    > ロード バランサーなしでトポロジに接続する Enterprise Edition サーバーまたはディレクターを 1 つだけ展開する場合、または Standard Edition サーバーを展開する場合は、Enterprise Edition サーバー、Standard Edition サーバー、または Director の IP アドレスを入力します。 プールに複数の Enterprise Edition サーバーまたはディレクターを展開する場合は、ロード バランサーが必要です。 ロード バランサーは、Standard Edition サーバーでは使用されません。
 
     
     </div>
 
-6.  [**ホストの追加**] をクリックし、[ **OK**] をクリックします。
+6.  [**ホストの追加**] をクリックし、[**OK**] をクリックします。
 
-7.  追加のレコードを作成するには、手順4と5を繰り返します。
+7.  追加の A レコードを作成するには、ステップ 4. と 5. を繰り返します。
 
-8.  必要なすべてのレコードの作成が完了したら、[**完了**] をクリックします。
+8.  必要な A レコードをすべて作成したら、[**完了**] をクリックします。
 
 </div>
 

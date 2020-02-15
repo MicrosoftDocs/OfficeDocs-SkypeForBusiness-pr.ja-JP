@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: レジストラー構成の設定を作成する'
+title: 'Lync Server 2013: レジストラー構成設定の作成'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185758
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 81aec9ee6923dc125769ad16a26390b23155852c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 52826d78b4c528437940f0e44bfac4329bcc7b5b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763471"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42009430"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-registrar-configuration-settings-in-lync-server-2013"></a>Lync Server 2013 でレジストラー構成設定を作成する
+# <a name="create-registrar-configuration-settings-in-lync-server-2013"></a>Lync Server 2013 でレジストラーの構成設定を作成する
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41763471"
 
 <span> </span>
 
-_**最終更新日:** 2013-03-17_
+_**トピックの最終更新日:** 2013-03-17_
 
-レジストラーを使用してプロキシ サーバーの認証方式を構成できます。指定する認証プロトコルにより、プール内のサーバーがクライアントに発行するチャレンジの種類が決まります。使用可能なプロトコルは以下のとおりです。
+レジストラーを使用してプロキシ サーバーの認証方式を構成できます。 指定する認証プロトコルにより、プール内のサーバーがクライアントに発行するチャレンジの種類が決まります。 使用可能なプロトコルは以下のとおりです。
 
-  - **Kerberos**   パスワードベースの最強の認証スキームはクライアントで利用できますが、通常は、キー配布センター (Kerberos ドメインコントローラー) へのクライアント接続が必要なため、エンタープライズクライアントでのみ利用できます。 この設定は、サーバーでエンタープライズのクライアントのみを認証する場合に適しています。
+  - **Kerberos**   これはクライアントが使用できる最強のパスワードベースの認証スキームですが、通常は、キー配布センター (Kerberos ドメインコントローラー) へのクライアント接続を必要とするため、通常はエンタープライズクライアントのみで使用できます。 この設定は、サーバーでエンタープライズのクライアントのみを認証する場合に適しています。
 
-  - **NTLM**   このパスワードベースの認証は、パスワードに対するチャレンジ応答ハッシュスキームを使用するクライアントで利用できます。 これは、リモート ユーザーなど、キー配布センター (Kerberos ドメイン コントローラー) に接続できないクライアントの認証で使用できる唯一のクライアント認証方式です。 サーバーでリモート ユーザーのみの認証処理を行う場合は、NTLM を選択してください。
+  - **NTLM**   これは、パスワードでチャレンジ応答ハッシュスキームを使用するクライアントが使用できるパスワードベースの認証です。 これは、リモート ユーザーなど、キー配布センター (Kerberos ドメイン コントローラ) に接続できないクライアントの認証で使用できる唯一のクライアント認証方式です。 サーバーでリモート ユーザーのみの認証処理を行う場合は、NTLM を選択してください。
 
-  - **証明書の認証**   サーバーが lync Phone Edition クライアント、一般的なエリア電話、lync 2013、lync Windows ストアアプリから証明書を取得する必要がある場合の、新しい認証方法です。 Lync Phone Edition クライアントでは、ユーザーがサインインして、暗証番号 (PIN) を提供して認証された後、Lync Server 2013 は電話に対して SIP URI をプロビジョニングし、その電話に対して、Lync Server の署名された証明書または Joe (Ex: SN=joe@contoso.com) を識別するユーザー証明書をプロビジョニングします。 この証明書は、レジストラー サービスと Web サービスでの認証に使用されます。
+  - **証明書認証**   これは、サーバーが lync Phone Edition クライアント、共通領域電話、lync 2013、lync Windows ストアアプリから証明書を取得する必要がある場合の新しい認証方法です。 Lync Phone Edition クライアントでは、ユーザーがサインインして、暗証番号 (PIN) を提供することによって正常に認証されると、Lync Server 2013 は電話に対して SIP URI をプロビジョニングし、Lync Server 署名入りの証明書または Joe (Ex: SN=joe@contoso.com) を識別するユーザー証明書を電話にプロビジョニングします。 この証明書は、レジストラー サービスと Web サービスでの認証に使用されます。
 
 <div>
 
 
 > [!NOTE]  
-> サーバーがリモートとエンタープライズ両方のクライアント認証をサポートする場合は、Kerberos と NTLM の両方を有効にすることをお勧めします。エッジ サーバーと内部サーバーは通信して、NTLM 認証のみがリモート クライアントに提供されるようにします。これらのサーバーで Kerberos のみが有効な場合、リモート ユーザーを認証できません。エンタープライズ ユーザーはサーバーに対しても認証を行い、Kerberos が使用されます。<BR>Lync Windows ストアアプリクライアントを使用する場合は、証明書の認証を有効にする必要があります。
+> サーバーがリモートとエンタープライズ両方のクライアント認証をサポートする場合は、Kerberos と NTLM の両方を有効にすることをお勧めします。 エッジ サーバーと内部サーバーは通信して、NTLM 認証のみがリモート クライアントに提供されるようにします。 これらのサーバーで Kerberos のみが有効な場合、リモート ユーザーを認証できません。 エンタープライズ ユーザーはサーバーに対しても認証を行い、Kerberos が使用されます。<BR>Lync Windows ストアアプリクライアントを使用する場合は、証明書認証を有効にする必要があります。
 
 
 
@@ -59,11 +59,11 @@ _**最終更新日:** 2013-03-17_
 
 <div>
 
-## <a name="to-create-new-registrar-configuration-settings"></a>レジストラー構成設定を作成するには
+## <a name="to-create-new-registrar-configuration-settings"></a>新しいレジストラーの構成設定を作成するには
 
-1.  RTCUniversalServerAdmins グループのメンバーであるか (または同等のユーザー権限を持っている)、または CsServerAdministrator または CsAdministrator の役割に割り当てられているユーザーアカウントで、Lync Server 2013 を展開したネットワーク上のコンピューターにログオンします。
+1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ) ユーザー アカウント、または CsServerAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、Lync Server 2013 を展開したネットワーク内の任意のコンピューターにログオンします。
 
-2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
 3.  左側のナビゲーション バーで [**セキュリティ**] をクリックし、[**レジストラー**] をクリックします。
 

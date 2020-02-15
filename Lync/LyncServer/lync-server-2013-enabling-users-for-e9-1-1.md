@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ユーザーの E9-1-1 を有効にする'
+title: 'Lync Server 2013: E9-1-1 でのユーザーの有効化'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183884
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 86d5032defc7322e96662dcfe6357bd30c598e45
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1a5ba14f24694bf3b9485e60102007a0bfee788c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735607"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031091"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enabling-users-for-e9-1-1-in-lync-server-2013"></a>Lync Server 2013 でのユーザーの E9-1 の有効化
+# <a name="enabling-users-for-e9-1-1-in-lync-server-2013"></a>Lync Server 2013 での E9-1-1 のユーザーの有効化
 
 </div>
 
@@ -35,14 +35,14 @@ ms.locfileid: "41735607"
 
 <span> </span>
 
-_**最終更新日:** 2012-06-06_
+_**トピックの最終更新日:** 2012-06-06_
 
-顧客の登録中に、Lync Server は場所ポリシーを使って、エンタープライズボイス対応ユーザーの E9 プロパティを構成します。 このポリシーには、E9-1-1 の実装方法を定義する設定が含まれます。 たとえば、場所情報のポリシーには、緊急ダイヤルの文字列などの情報が含まれています。また、位置情報サービスで自動的に場所を指定しない場合は、その場所を手動で入力する必要があります。 位置情報ポリシーの完全な定義については、「 [Lync Server 2013 の位置情報ポリシーを定義](lync-server-2013-defining-the-location-policy.md)する」を参照してください。
+クライアントの登録時に、Lync Server は場所のポリシーを使用して、エンタープライズ Voip が有効なユーザーの E9-1-1 プロパティを構成します。 このポリシーには、E9-1-1 の実装方法を定義する設定が含まれます。 たとえば、場所のポリシーには緊急ダイヤル文字列などの情報が含まれており、場所情報サービスが自動的に所在地情報を提供しない場合は、ユーザーが場所を手動で入力する必要があるかどうか。 場所ポリシーの完全な定義については、「 [Lync Server 2013 の場所のポリシーの定義](lync-server-2013-defining-the-location-policy.md)」を参照してください。
 
-Lync Server は、サブネットに基づいてクライアントまたはグローバル、サイトごと、またはユーザーごとのポリシーに基づいてユーザーに位置情報ポリシーを割り当てることができます。 ユーザーを有効にする方法を決定するには、まず、次の情報を確認する必要があります。
+Lync Server は、サブネットに基づいて、またはグローバル、サイトごと、またはユーザーごとのポリシーに基づいて、場所ポリシーをクライアントに割り当てることができます。 ユーザーを有効にする方法を決定するには、まず、次の情報を確認する必要があります。
 
   - **すべてのユーザーを有効にするか、またはエンタープライズの特定の地理的領域にサポートを限定するか。**  
-    グローバルな場所ポリシーを使用することで、エンタープライズ内のすべてのユーザーに場所を割り当てることができます。 ただし、Lync Server ネットワークサイトに位置情報ポリシーを割り当て、サブネットをサイトに追加することによって、E9 のサポートをエンタープライズ内の選択した場所に制限し、サイトごとに E9 ルーティング動作を指定できます。
+    グローバルな場所ポリシーを使用することで、エンタープライズ内のすべてのユーザーに場所を割り当てることができます。 ただし、場所のポリシーを Lync Server ネットワークサイトに割り当ててからサブネットをサイトに追加することによって、E9-1-1 のサポートをエンタープライズ内の選択された場所に制限し、E9-1-1 のルーティング動作をサイトごとに指定することができます。
 
 <!-- end list -->
 
@@ -52,7 +52,7 @@ Lync Server は、サブネットに基づいてクライアントまたはグ�
 <!-- end list -->
 
   - **クライアントがネットワーク外を移動している場合、または定義されていないサブネットから接続されている場合、そのクライアントでも E9-1-1 を有効にするか。**  
-    ユーザーにグローバル、サイト、またはユーザーごとの場所のポリシーが割り当てられている場合、クライアントが定義されたサブネット内に存在しない場合、または場所情報サービスによって場所が見つからない場合は、クライアントに場所を手動で入力する必要があります。 詳細については、「 [Lync Server 2013 で場所を手動で取得するためのユーザーエクスペリエンスの定義](lync-server-2013-defining-the-user-experience-for-manually-acquiring-a-location.md)」を参照してください。
+    ユーザーがグローバル、サイト、またはユーザー単位の場所のポリシーを割り当てられている場合は、クライアントが定義されたサブネット内に存在しないか、場所情報サービスによって場所が見つからない場合は、クライアントに場所を手動で入力する必要があります。 詳細については、「 [Lync Server 2013 で手動で場所を取得するためのユーザーの作業を定義](lync-server-2013-defining-the-user-experience-for-manually-acquiring-a-location.md)する」を参照してください。
 
 </div>
 

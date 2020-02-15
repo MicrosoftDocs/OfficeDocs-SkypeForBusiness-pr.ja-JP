@@ -12,20 +12,20 @@ ms:contentKeyID: 48185552
 ms.date: 03/07/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 51fb0081188618b6a5ea2951968effb0d55c4af7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d1e5434ed445bf19d2aaeea146ba0edb7dcac04c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765455"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030190"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="lync-vdi-plug-in-prerequisites-in-lync-server-2013"></a>Lync Server 2013 の Lync VDI プラグインの前提条件
+# <a name="lync-vdi-plug-in-prerequisites-in-lync-server-2013"></a>Lync Server 2013 での lync VDI プラグインの前提条件
 
 </div>
 
@@ -35,48 +35,48 @@ ms.locfileid: "41765455"
 
 <span> </span>
 
-_**最終更新日:** 2017-03-07_
+_**トピックの最終更新日:** 2017-03-07_
 
-仮想デスクトップインフラストラクチャ (VDI) 環境では、仮想マシンとユーザーのローカルコンピューターがこのセクションで示されている要件を満たしている必要があります。
+仮想デスクトップインフラストラクチャ (VDI) 環境では、仮想マシンとユーザーのローカルコンピューターが、このセクションで説明する要件を満たしている必要があります。
 
 <div>
 
 
 > [!NOTE]  
-> 仮想化された環境をインストールして展開する方法の詳細については、仮想化ソリューションプロバイダーを参照してください。 Hyper-v とリモートデスクトップサービスに基づいて仮想環境を展開する方法については、Microsoft TechNet ライブラリの次の記事を参照してください。 
+> 仮想化環境のインストール方法および展開方法の詳細については、仮想化ソリューション プロバイダーに問い合わせてください。Hyper-V およびリモート デスクトップ サービスに基づいた仮想化環境の展開については、Microsoft TechNet ライブラリの次の記事を参照してください。 
 > <UL>
 > <LI>
 > <P>Hyper-v<A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=247514">https://go.microsoft.com/fwlink/p/?linkid=247514</A></P>
 > <LI>
-> <P>Windows Server&nbsp;2008&nbsp;R2 のリモートデスクトップサービス (at)<A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=247513">https://go.microsoft.com/fwlink/p/?linkid=247513</A></P></LI></UL>
+> <P>Windows Server&nbsp;2008&nbsp;R2 のリモートデスクトップサービス<A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=247513">https://go.microsoft.com/fwlink/p/?linkid=247513</A></P></LI></UL>
 
 
 
 </div>
 
-データセンターコンピューターで実行されている仮想マシンの要件を次に示します。
+データ センターのコンピューターで実行されている仮想マシンに対する要件は次のとおりです。
 
-  - 仮想マシンは、最新の service pack を使用して、Windows 10、Windows 8.1、Windows 8、windows 7、または Windows Server 2008 R2 で構成する必要があります。
+  - 仮想マシンは、最新のサービスパックを使用して Windows 10、windows 8.1、Windows 8、Windows 7、または Windows Server 2008 R2 で構成する必要があります。
 
-ユーザーとユーザーのローカルコンピューターの要件を次に示します。
+ユーザーとユーザーのローカルコンピューターの要件は次のとおりです。
 
-  - ユーザーは、Lync Server 2013 上に置かれている必要があります。
+  - ユーザーは、Lync Server 2013 に所属している必要があります。
 
-  - ローカルコンピューターでは、SP1、Windows 7 SP1、Windows 8、windows 8.1 Embedded、または Windows 8.1 (埋め込み以外) で Windows Embedded 標準7を実行している必要があります。
+  - ローカルコンピューターでは、Windows Embedded Standard 7 SP1、windows 7 SP1、windows 8、Windows 8.1 が埋め込まれているか、または Windows 8.1 (埋め込まれていない) を実行している必要があります。
 
-  - リモートデスクトップサービスを使用している場合は、Lync VDI プラグインビット (つまり、32ビットと64ビットのどちらであるか) がローカルコンピューターのオペレーティングシステムのビットと一致している必要があります。 ローカルコンピューター上のオペレーティングシステムと仮想マシン上のオペレーティングシステムのビットが一致している必要はありません。 別の仮想化ソリューションまたはプラットフォームを使用している場合は、「ビット要件について仮想化ソリューションプロバイダーからのガイダンス」を参照してください。
+  - リモートデスクトップサービスを使用している場合、Lync VDI プラグインのビット数 (つまり、アプリケーションが32ビットであるか、または64ビットであるか) は、ローカルコンピューターのオペレーティングシステムのビット数と一致している必要があります。 ローカル コンピューターと仮想マシンのオペレーティング システムのビット数が一致する必要はありません。 別の仮想化ソリューションまたは仮想化プラットフォームを使用している場合は、ビット数の要件については、仮想化ソリューション プロバイダーのガイダンスを参照してください。
 
-  - ローカルコンピューターで、最新バージョンのリモートデスクトップクライアントが実行されている必要があります。 Microsoft からリモート デスクトップ サービス クライアントの最新更新プログラムをインストールするか、仮想化ソリューション プロバイダーから最新のリモート デスクトップ クライアント ソフトウェアをインストールしてください。 最新のリモートデスクトップサービスの更新につい[https://go.microsoft.com/fwlink/p/?LinkId=268032](https://go.microsoft.com/fwlink/p/?linkid=268032)ては、を参照してください。
+  - ローカル コンピューターは、最新バージョンのリモート デスクトップ クライアントを実行している必要があります。 マイクロソフトからリモート デスクトップ サービス クライアントの最新更新プログラムをインストールするか、仮想化ソリューション プロバイダーから最新のリモート デスクトップ クライアント ソフトウェアをインストールしてください。 最新のリモートデスクトップサービスの更新につい[https://go.microsoft.com/fwlink/p/?LinkId=268032](https://go.microsoft.com/fwlink/p/?linkid=268032)ては、「」を参照してください。
 
-  - ローカル コンピューター上のリモート デスクトップ クライアントの設定は、オーディオがローカル コンピューターで再生され、リモート レコーディングが無効となるように構成する必要があります。 Windows でリモートデスクトップ接続のこれらの設定を構成するには、次のセクション「リモートデスクトップ接続設定を構成する」を参照してください。
+  - ローカル コンピューター上のリモート デスクトップ クライアントの設定は、オーディオがローカル コンピューターで再生され、リモート録音が無効となるように構成する必要があります。 Windows でこれらの設定をリモートデスクトップ接続用に構成するには、次のセクション「リモートデスクトップ接続の設定を構成するには」を参照してください。
 
 <div>
 
-## <a name="to-configure-remote-desktop-connection-settings"></a>リモートデスクトップ接続設定を構成するには
+## <a name="to-configure-remote-desktop-connection-settings"></a>リモート デスクトップ接続の設定を構成するには
 
 Windows で Lync VDI プラグインのリモートデスクトップ接続を準備するには、次の手順を実行します。
 
-1.  ローカルコンピューターで Windows 8 を実行している場合は、この手順をスキップしてください。 ローカルコンピューターで Windows 7 SP1 を実行している場合は、最新の Windows 8 バージョンのリモートデスクトップサービスクライアントをインストール[https://go.microsoft.com/fwlink/p/?LinkId=268032](https://go.microsoft.com/fwlink/p/?linkid=268032)します。
+1.  ローカルコンピューターで Windows 8 を実行している場合は、この手順をスキップします。 ローカルコンピューターで Windows 7 SP1 を実行している場合は、最新の Windows 8 バージョンのリモートデスクトップサービスクライアントをインストール[https://go.microsoft.com/fwlink/p/?LinkId=268032](https://go.microsoft.com/fwlink/p/?linkid=268032)します。
 
 2.  [**スタート**]、[**リモート デスクトップ接続**] の順にクリックして、リモート デスクトップ サービス クライアントを起動します。
 
@@ -84,15 +84,15 @@ Windows で Lync VDI プラグインのリモートデスクトップ接続を�
 
 4.  [**ローカル リソース**] タブをクリックします。[**リモート オーディオ**] の下にある [**設定**] をクリックし、次の手順を実行します。
     
-      - [**リモート オーディオ再生**] で [**このコンピューターで再生**] を選択します。
+      - [**リモート オーディオ再生**] の下の [**このコンピュータで再生**] を選択します。
     
-      - [**リモート オーディオ録音**] で [**録音しない**] を選択します。
+      - [**リモート オーディオ録音**] の下の [**録音しない**] を選択します。
     
       - [**OK**] をクリックします。
 
-5.  [**エクスペリエンス**] タブをクリックします。[**パフォーマンス**] で [**ビットマップのキャッシュを保持**] チェック ボックスをオフにします。
+5.  [**エクスペリエンス**] タブをクリックします。[**パフォーマンス**] の下にある [**ビットマップのキャッシュを保持**] チェック ボックスをオフにします。
 
-6.  [**全般**] タブをクリックします。[**コンピューター**] で、仮想マシンの名前を入力し、[**接続**] をクリックします。
+6.  [**全般**] タブをクリックします。[**コンピューター**] で仮想マシンの名前を入力し、[**接続**] をクリックします。
 
 </div>
 

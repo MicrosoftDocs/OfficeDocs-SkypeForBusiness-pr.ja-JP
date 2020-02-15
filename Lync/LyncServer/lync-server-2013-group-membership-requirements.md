@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: グループ メンバーシップの要件'
+title: 'Lync Server 2013: グループメンバーシップの要件'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183239
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 44ad8c7f6eab93f3bdcd7b73d4ae05bd3b2e25ad
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2944b6f3feea6bfc4cadd3566abbdfe4918d9688
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743347"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030390"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="group-membership-requirements-for-lync-server-2013"></a>Lync Server 2013 のグループ メンバーシップの要件
+# <a name="group-membership-requirements-for-lync-server-2013"></a>Lync Server 2013 のグループメンバーシップ要件
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41743347"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-05_
+_**トピックの最終更新日:** 2012-10-05_
 
-次の表は、Lync Server 2013 を正常にインストール、管理、トラブルシューティングするために、ユーザーが所属する必要があるグループをまとめたものです。
+次の表に、Lync Server 2013 のインストール、管理、およびトラブルシューティングを正常に行うために、個人が所属する必要があるグループをまとめています。
 
 
 <table>
@@ -48,48 +48,48 @@ _**最終更新日:** 2012-10-05_
 <thead>
 <tr class="header">
 <th>Lync Server 2013 実行可能ファイル</th>
-<th>グループメンバーシップが必要です</th>
+<th>必要なグループ メンバーシップ</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Setup.exe – Lync</strong> Server 2013 管理ツールのインストールを開始する実行可能ファイル。</p></td>
-<td><p>実行可能ファイルを実行しているコンピューターのローカル管理者グループのメンバー。 Active Directory ドメインサービスの情報を読み取るためのドメインユーザーグループのメンバー。 ローカルコンピューターで必須の MSI パッケージを自動的にインストールするには、Program Files ディレクトリなどの保護されたローカルコンピューターリソースの読み取りと書き込みを許可する特権が必要となるため、このレベルのアクセス許可が必要です。ローカルコンピューターハイブなどのレジストリ。</p>
+<td><p><strong>Setup.exe</strong> – Lync Server 2013 管理ツールのインストールを開始する実行可能ファイル。</p></td>
+<td><p>実行可能ファイルを実行するコンピューターでの Local Administrators グループのメンバー。 Active Directory ドメインサービスの情報を読み取るためのドメインユーザーグループのメンバ。 このレベルのアクセス許可が必要なのは、ローカル コンピューターへの必須 MSI パッケージの自動インストールでは、Program Files ディレクトリなどのローカル コンピューターの保護されたリソース、およびローカル コンピューター ハイブなどの保護されたレジストリとの間で読み書きできる特権が必要だからです。</p>
 <div>
 
 > [!TIP]  
-> また、ドメイン管理者グループのメンバーシップを付与しないユーザーまたはグループに、セットアップのアクセス許可を委任することもできます。 詳細については、展開ドキュメントの「 <A href="lync-server-2013-granting-setup-permissions.md">Lync Server 2013 でのセットアップ権限の付与</A>」を参照してください。
+> セットアップ アクセス許可は、メンバーシップを付与したくない、Domain Admins グループのユーザーやグループに委任することもできます。 詳細については、「展開」のドキュメントの「 <A href="lync-server-2013-granting-setup-permissions.md">Lync Server 2013 でのセットアップのアクセス許可の付与</A>」を参照してください。
 
 
 </div></td>
 </tr>
 <tr class="even">
-<td><p><strong>Update.exe</strong> – Setup.exe で呼び出される場合は、サーバーの役割のソフトウェアコンポーネントの展開について行います。</p></td>
-<td><p>実行可能ファイルを実行しているコンピューターのローカル管理者グループのメンバー。 ドメインユーザーグループのメンバーで、AD DS の情報を読み取ります。 ローカルコンピューターで必須の MSI パッケージを自動的にインストールするには、Program Files ディレクトリなどの保護されたローカルコンピューターリソースの読み取りと書き込みを許可する特権が必要となるため、このレベルのアクセス許可が必要です。ローカルコンピューターハイブなどのレジストリ。 中央管理ストアを読むには、RtcUniversalReadOnlyAdmins group のメンバーシップが必要です。</p>
+<td><p><strong>deploy.exe</strong> - setup.exe によって呼び出され、サーバーの役割のソフトウェア コンポーネントを展開する処理を実行します。</p></td>
+<td><p>実行可能ファイルを実行するコンピューターでの Local Administrators グループのメンバー。 AD DS の情報を読み取る Domain Users グループのメンバー。 このレベルのアクセス許可が必要なのは、ローカル コンピューターへの必須 MSI パッケージの自動インストールでは、Program Files ディレクトリなどのローカル コンピューターの保護されたリソース、およびローカル コンピューター ハイブなどの保護されたレジストリとの間で読み書きできる特権が必要だからです。 中央管理ストアを読み取るには、RtcUniversalReadOnlyAdmins グループのメンバーである必要があります。</p>
 <div>
 
 > [!NOTE]  
-> Windows Vista オペレーティングシステムまたは Windows 7 オペレーティングシステムを実行している場合は、ユーザーアカウント制御 (UAC) によってインストールを続行するかどうかを確認するメッセージが表示されます。 標準ユーザーアカウントでログオンしている場合は、ソフトウェアをインストールする権限を持つアカウントの入力を求められたときに、資格情報を提供するために、ローカル管理者グループのメンバーであるユーザーが必要になります。
+> Windows Vista オペレーティングシステムまたは Windows 7 オペレーティングシステムを実行している場合は、インストールを続行するためにユーザーアカウント制御 (UAC) によってメッセージが表示されます。 標準のユーザー アカウントでログオンしている場合に、ソフトウェアのインストール アクセス許可を持つアカウントを要求されたときは、Local Administrators グループのメンバーであるユーザーから資格情報の提供を受ける必要があります。
 
 
 </div></td>
 </tr>
 <tr class="odd">
-<td><p><strong>ブートストラップ</strong>– setup.exe によって呼び出され、サーバーの役割の展開と構成を担当します。</p></td>
-<td><p>実行可能ファイルを実行しているコンピューターのローカル管理者グループのメンバー。 RTCUniversalServerAdmins グループのメンバーであるブートストラップを実行します。 ドメインユーザーグループのメンバーで、AD DS の情報を読み取ります。 ローカルコンピューターで必須の MSI パッケージを自動的にインストールするには、Program Files ディレクトリなどの保護されたローカルコンピューターリソースの読み取りと書き込みを許可する特権が必要となるため、このレベルのアクセス許可が必要です。ローカルコンピューターハイブなどのレジストリ。</p></td>
+<td><p><strong>bootstrapper.exe</strong> - setup.exe によって呼び出され、サーバーの役割を展開および構成する処理を実行します。</p></td>
+<td><p>実行可能ファイルを実行するコンピューターでの Local Administrators グループのメンバー。Bootstrapper.exe を実行する RTCUniversalServerAdmins グループのメンバー。AD DS の情報を読み取る Domain Users グループのメンバー。このレベルのアクセス許可が必要なのは、ローカル コンピューターへの必須 MSI パッケージの自動インストールでは、Program Files ディレクトリなどのローカル コンピューターの保護されたリソース、およびローカル コンピューター ハイブなどの保護されたレジストリとの間で読み書きできる特権が必要だからです。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>TopologyBuilder</strong> – Lync Server 2013 トポロジの作成、表示、調整、検証を行うためのウィザードベースのユーザーインターフェイス。</p></td>
-<td><p>トポロジを表示するために、実行可能ファイルを実行しているコンピューターのローカル管理者グループのメンバー。 構成の設定を変更する RTCUniversalServerAdmins グループのメンバー。 トポロジを公開するには、RTCUniversalServerAdmins group と Domain Admins グループのメンバー、または RTCUniversalServerAdmins グループのメンバー (グループに委任の設定権限が付与されている場合のみ)。 RTCUniversalServerAdmins グループのメンバーが、ドメイン管理者グループのメンバーにならずにトポロジを公開できるようにするための委任セットアップのアクセス許可の詳細については、「展開ドキュメントの「 <a href="lync-server-2013-granting-setup-permissions.md">Lync Server 2013 でのセットアップアクセス許可の付与</a>」を参照してください。</p></td>
+<td><p><strong>TopologyBuilder</strong> – Lync Server 2013 のトポロジを作成、表示、調整、および検証するためのウィザードベースのユーザーインターフェイス。</p></td>
+<td><p>実行可能ファイルを実行してトポロジを表示するコンピューターでの Local Administrators グループのメンバー。 構成の設定を変更する RTCUniversalServerAdmins グループのメンバー。 RTCUniversalServerAdmins グループと Domain Admins グループのメンバー、またはトポロジを発行する RTCUniversalServerAdmins グループのメンバー (このグループに委任セットアップ アクセス許可が付与されている場合のみ)。 RTCUniversalServerAdmins グループのメンバーがドメイン管理者グループのメンバーではない状態でトポロジを公開できるようにするための、セットアップのアクセス許可の委任の詳細については、「展開」のドキュメントの「 <a href="lync-server-2013-granting-setup-permissions.md">Lync Server 2013 のセットアップのアクセス許可を付与</a>する」を参照してください。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>AdminUIHost</strong> – Lync Server 2013 を管理するための Web ベースのグラフィカルユーザーインターフェイスです。</p></td>
-<td><p>特定の管理タスクが割り当てられている、他の役割ベースのアクセス制御 (RBAC) 役割のメンバー。 CsAdministrator グループまたはメンバー。 Lync Server 2013 コントロールパネルでは、Lync Server 2013 Management Shell コマンドレットを実行することで、構成の変更を実装します。 定義済みの役割と、コマンドレットのメンバーの実行を許可する方法については、計画ドキュメントの「 <a href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013 でのロールベースのアクセス制御の計画</a>」を参照してください。</p></td>
+<td><p><strong>AdminUIHost</strong> – Lync Server 2013 を管理するための Web ベースのグラフィカルユーザーインターフェイス。</p></td>
+<td><p>CsAdministrator グループのメンバー、または特定の管理タスクが割り当てられる別の役割ベースのアクセス制御 (RBAC) の役割のメンバー。 Lync Server 2013 コントロールパネルは、Lync Server 2013 管理シェルコマンドレットを実行することによって、構成の変更を実装します。 定義済みの役割の一覧とコマンドレットのメンバーの実行を許可する方法については、「計画」のドキュメントの「 <a href="lync-server-2013-planning-for-role-based-access-control.md">planning for roles based access control In Lync Server 2013</a> 」を参照してください。</p></td>
 </tr>
 <tr class="even">
-<td><p>Lync server <strong>2013 モジュールが読み込まれた PowerShell .exe</strong> – lync server 2013 の管理に固有のコマンドレット付きのコマンドライン管理ツール。</p></td>
-<td><p>特定のコマンドレットが割り当てられている CsAdministrator グループまたは別の RBAC 役割のメンバー。 定義済みの役割と、コマンドレットのメンバーの実行を許可する方法については、計画ドキュメントの「 <a href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013 でのロールベースのアクセス制御の計画</a>」を参照してください。</p>
-<p>または、コマンドレットに応じて、次の1つまたは複数のグループのメンバーになります。</p>
+<td><p>PowerShell: lync server <strong>2013 モジュールが読み込ま</strong>れたコマンドライン管理ツールを使用して、lync server 2013 の管理に固有のコマンドレットを実行します。</p></td>
+<td><p>CsAdministrator グループのメンバー、または特定のコマンドレットが割り当てられている別の RBAC の役割のメンバー。 定義済みの役割の一覧とコマンドレットのメンバーの実行を許可する方法については、「計画」のドキュメントの「 <a href="lync-server-2013-planning-for-role-based-access-control.md">planning for roles based access control In Lync Server 2013</a> 」を参照してください。</p>
+<p>または、次に示すグループのうち 1 つ以上のメンバー (コマンドレットによる):</p>
 <ul>
 <li><p>RTCUniversalServerAdmins</p></li>
 <li><p>RTCUniversalUserAdmins</p></li>

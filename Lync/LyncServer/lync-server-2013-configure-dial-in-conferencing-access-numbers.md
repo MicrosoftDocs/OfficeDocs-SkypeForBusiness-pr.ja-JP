@@ -12,16 +12,16 @@ ms:contentKeyID: 48185623
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e19d594b8d1661a314b834e6c2e92d8668490ad7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4762971397192dc45fdcc402d40c2adec72414f5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757911"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028638"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41757911"
 
 <span> </span>
 
-_**最終更新日:** 2011-07-17_
+_**トピックの最終更新日:** 2011-07-17_
 
 ダイヤルイン会議を展開するときには、ユーザーが公衆交換電話網 (PSTN) からダイヤルして電話会議のオーディオ部分に参加するための電話番号を設定する必要があります。 それらのダイヤルイン アクセス番号は、ミーティングの招待状と [ダイヤルイン会議の設定] Web ページに表示されます。
 
-ダイヤルイン アクセス番号を作成する前に、まずダイヤルイン会議の域を計画し、その地域のダイヤル プランを構成する必要があります。 地域の詳細については、計画ドキュメントの「 [Lync Server 2013 でのダイヤルイン会議の要件](lync-server-2013-dial-in-conferencing-requirements.md)」を参照してください。 ダイヤルイン会議のダイヤルプランの設定の詳細については、「 [Lync Server 2013 でダイヤルイン会議のダイヤルプランを構成する](lync-server-2013-configure-dial-plans-for-dial-in-conferencing.md)」を参照してください。
+ダイヤルイン アクセス番号を作成する前に、まずダイヤルイン会議の域を計画し、その地域のダイヤル プランを構成する必要があります。 地域の詳細については、「計画」のドキュメントの「 [Lync Server 2013 のダイヤルイン会議の要件](lync-server-2013-dial-in-conferencing-requirements.md)」を参照してください。 ダイヤルイン会議のダイヤルプランの構成の詳細については、「 [Lync Server 2013 のダイヤルイン会議のダイヤルプランの構成](lync-server-2013-configure-dial-plans-for-dial-in-conferencing.md)」を参照してください。
 
 <div>
 
 
 > [!NOTE]  
-> このアクセス番号の Active Directory ドメインサービス (AD&nbsp;DS) のレプリケーションが完了するまで、新しいダイヤルインアクセス番号を使用することはできません。 レプリケーションが完了するまでに数時間かかることがあります。
+> そのアクセス番号の Active Directory ドメインサービス (AD&nbsp;DS) レプリケーションが完了するまで、新しいダイヤルインアクセス番号を使用することはできません。 レプリケーションが完了するまでに数時間かかることがあります。
 
 
 
@@ -55,7 +55,7 @@ _**最終更新日:** 2011-07-17_
 
 
 > [!NOTE]  
-> ダイヤルイン アクセス番号を作成した後は、Active Directory の連絡先オブジェクトの表示名を変更し、ユーザーが正しいアクセス番号を識別しやすくすることができます。 表示名を変更するには、 <STRONG>CsDialInConferencingAccessNumber</STRONG>コマンドレットを使用します。 Active Directory のオブジェクトは手動で変更しないでください。 アクセス番号の変更について詳しくは、「 <STRONG>CsDialInConferencingAccessNumber</STRONG>コマンドレットの Lync Server 管理シェルドキュメント」をご覧ください。
+> ダイヤルイン アクセス番号を作成した後は、Active Directory の連絡先オブジェクトの表示名を変更し、ユーザーが正しいアクセス番号を識別しやすくすることができます。 表示名を変更するには、<STRONG>Set-CsDialInConferencingAccessNumber</STRONG> コマンドレットを使用します。 Active Directory のオブジェクトは手動で変更しないでください。 アクセス番号の変更の詳細については、「Lync Server Management Shell documentation for <STRONG>get-csdialinconferencingaccessnumber</STRONG>コマンドレット」を参照してください。
 
 
 
@@ -63,9 +63,9 @@ _**最終更新日:** 2011-07-17_
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-[Lync Server 2013 でのダイヤルイン会議アクセス番号の作成または変更](lync-server-2013-create-or-modify-a-dial-in-conferencing-access-number.md)
+[Lync Server 2013 でダイヤルイン会議アクセス番号を作成または変更する](lync-server-2013-create-or-modify-a-dial-in-conferencing-access-number.md)
 
 </div>
 
@@ -77,7 +77,7 @@ _**最終更新日:** 2011-07-17_
 [Lync Server 2013 でのダイヤルイン会議の要件](lync-server-2013-dial-in-conferencing-requirements.md)  
 
 
-[Lync Server 2013 でのダイヤルイン会議のダイヤル プランの構成](lync-server-2013-configure-dial-plans-for-dial-in-conferencing.md)  
+[Lync Server 2013 でダイヤルイン会議のダイヤルプランを構成する](lync-server-2013-configure-dial-plans-for-dial-in-conferencing.md)  
   
 
 </div>

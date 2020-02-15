@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: デバイス向けの新機能'
+title: 'Lync Server 2013: デバイスの新機能'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185477
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 86a50f6e0fa1b2a4a3860ea51c2b2d67a8dcef11
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4365862f1c093622fa447bdceb3a326c9e18d11c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758477"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41983092"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="whats-new-for-devices-in-lync-server-2013"></a>Lync Server 2013 のデバイス向けの新機能
+# <a name="whats-new-for-devices-in-lync-server-2013"></a>Lync Server 2013 のデバイスの新機能
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41758477"
 
 <span> </span>
 
-_**最終更新日:** 2012-06-22_
+_**トピックの最終更新日:** 2012-06-22_
 
-Lync Server 2013 には、Lync Phone Edition、認定されたデバイスで実行されるソフトウェア、従来およびアドバンストのテレフォニー機能、統合されたセキュリティ、管理性などが用意されています。 Lync Phone Edition は、lync server 2010 と同じように、Lync Server 2013 と同じように動作します。 デバイスに関連する最新機能の詳細については、「Lync Server 2010 TechNet ライブラリの[デバイスの新](http://go.microsoft.com/fwlink/p/?linkid=256490)機能」を参照してください。
+Lync Server 2013 には、Lync Phone Edition、認定されたデバイスで動作するソフトウェア、従来および高度なテレフォニー機能、統合セキュリティ、管理性などがあります。 Lync Phone Edition は、lync Server 2010 の場合と同じように、Lync Server 2013 と同じように動作します。 デバイスに関連する最新の機能の詳細については、「Lync Server 2010 TechNet ライブラリの[デバイスの新](http://go.microsoft.com/fwlink/p/?linkid=256490)機能」を参照してください。
 
 <div>
 

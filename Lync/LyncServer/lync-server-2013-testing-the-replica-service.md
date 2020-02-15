@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: レプリカサービスをテストする'
+title: 'Lync Server 2013: レプリカサービスのテスト'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 63969600
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c955da727a4213098a5b6af4f6fbb348bb60dd21
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8ad585ab12d874b7689aab6442ac913a06c8792f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745437"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030170"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41745437"
 
 <span> </span>
 
-_**最終更新日:** 2014-11-03_
+_**トピックの最終更新日:** 2014-11-03_
 
 
 <table>
@@ -45,8 +45,8 @@ _**最終更新日:** 2014-11-03_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>確認のスケジュール</p></td>
-<td><p>[毎日]</p></td>
+<td><p>検証スケジュール</p></td>
+<td><p>毎日</p></td>
 </tr>
 <tr class="even">
 <td><p>テストツール</p></td>
@@ -54,8 +54,8 @@ _**最終更新日:** 2014-11-03_
 </tr>
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
-<td><p>Lync Server 管理シェルを使用してローカルで実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには、 <strong>CsReplica</strong>コマンドレットを実行するためのアクセス許可が与えられた RBAC の役割を割り当てる必要があります。 このコマンドレットを使うことができるすべての RBAC ロールの一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには、 <strong>Test-CsReplica</strong>コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsReplica&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,15 +66,15 @@ _**最終更新日:** 2014-11-03_
 
 ## <a name="description"></a>説明
 
-**Test CsReplica**コマンドレットは、Lync Server 2013 レプリカサービスがローカルコンピューターで実行されていることを確認します。 **Test CsReplica**コマンドレットは、次のようなタスクを実行します。
+**Test-csreplica**コマンドレットは、Lync Server 2013 replica service がローカルコンピューター上で実行されているかどうかを確認します。 **Test-CsReplica**コマンドレットは、次のようなタスクを実行します。
 
-  - レプリケーターエージェントと集中ログエージェントサービスの状態を確認する
+  - レプリケーターエージェントサービスと集中ログエージェントサービスの状態を確認する
 
-  - 必要なポートが Windows ファイアウォールで開かれていることを確認する
+  - Windows ファイアウォールで必要なポートが開かれていることを確認する
 
-  - 必要な Active Directory とローカルコンピューターのセキュリティグループが存在することを確認します。
+  - 必要な Active Directory およびローカルコンピューターのセキュリティグループが存在することを確認します。
 
-このコマンドレットはローカルで実行する必要があることに注意してください。 つまり、レプリカサービスが実行されているコンピューターで実行されている必要があります。 リモートサーバーに対してテスト用の**CsReplica**コマンドレットを実行するためのオプションはありません。
+このコマンドレットはローカルで実行する必要があることに注意してください。 つまり、これは、レプリカサービスが実行されているのと同じコンピューター上で実行する必要があります。 リモートサーバーに対して**Test-CsReplica**コマンドレットを実行するためのオプションはありません。
 
 </div>
 
@@ -82,13 +82,13 @@ _**最終更新日:** 2014-11-03_
 
 ## <a name="running-the-test"></a>テストの実行
 
-例1に示すコマンドは、ローカルコンピューターの Lync Server 2013 レプリカサービスをテストします。 この例では、Verbose パラメーターを使用して、テストの最終的なエラー、テストの成否、テストによって生成されたレポートの場所など、テストに関する情報が画面に表示されることを保証します。
+例1に示すコマンドは、ローカルコンピューター上の Lync Server 2013 レプリカサービスをテストします。 この例では、Verbose パラメーターを使用して、テストの最終的なエラーや成功を含むテストに関する情報、およびテストで生成されたレポートの場所が画面に表示されていることを保証します。
 
     Test-CsReplica -Verbose
 
-例2は、例1で示したコマンドの変形です。 この場合、レポートパラメーターは、テストによって生成されたレポートのフォルダーパスと名前を指定するために含まれています。 レポートパスを指定しない場合、次のような自動生成名がレポートに表示されます。
+例 2 は、例 1 に示したコマンドの変化形です。 この例では、Report パラメーターは、テストによって生成されるレポートのフォルダーパスと名前を指定するために含まれています。 レポートのパスを指定しない場合、レポートには次のような自動生成された名前が与えられます。
 
-C:\\\\\\Litwareinc\\AppData\\ローカル Temp\\1\\の3db40ee0-4b5d-4f58-8d3d-b1e61253129e を確認します。
+C:\\ユーザー\\管理者.\\Litwareinc\\AppData\\ローカル\\一時\\1 テスト-3db40ee0-4b5d-4f58-8d3d-b1e61253129e
 
     Test-CsReplica -Verbose -Report C:\Logs\ReplicaTest.html
 
@@ -96,41 +96,41 @@ C:\\\\\\Litwareinc\\AppData\\ローカル Temp\\1\\の3db40ee0-4b5d-4f58-8d3d-b1
 
 <div>
 
-## <a name="determining-success-or-failure"></a>成功または失敗を確認する
+## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
-セクションの本文をここに挿入します。
+ここにセクション本文を挿入します。
 
-VERBOSE: 新しいログファイルを作成して\\い\\ます\\。\\"\\C\\: ユーザーが AppData Local Temp Test-csreplica-3cb066b3-dd23-411a-8932-99f01c0f940c" をテストします。
+VERBOSE: 新しいログファイルを作成して\\い\\ます\\"\\C\\:\\ユーザーが AppData ローカル一時テスト-csreplica-3cb066b3-dd23-411a-8932-99f01c0f940c をテストしています。
 
-VERBOSE: 新しいログファイルを作成して\\い\\ます\\。\\"\\C\\: ユーザーが AppData Local Temp Test-csreplica-3cb066b3-dd23-411a-8932-99f01c0f940c" をテストします。
+VERBOSE: 新しいログファイルを作成して\\い\\ます\\"\\C\\:\\ユーザーが AppData ローカル一時テスト-csreplica-3cb066b3-dd23-411a-8932-99f01c0f940c をテストしています。
 
 VERBOSE: "Test-CsReplica" 処理は正常に完了しました。
 
-詳細: 詳細な結果は、「C:\\AppData\\\\\\ローカル\\一時\\テスト-csreplica-3cb066b3-dd23-411a-8932-99f01c0f940c をテストしているユーザー」を参照してください。
+VERBOSE: 詳細な結果は、「C\\: ユーザー\\が AppData\\\\ローカル\\一時\\テスト-csreplica-3cb066b3-dd23-411a-8932-99f01c0f940c をテストする」に記載されています。
 
 VERBOSE: 新しいログファイルを作成しています
 
-"C:\\\\\\AppData\\ローカル\\Temp\\2\\テスト-csreplica-29fddb35-f56e-4e3c-8f4c-e
+"C:\\ユーザー\\が\\AppData\\ローカル\\一時\\2\\テスト-csreplica-29fddb35-f56e-4e3c-8f4c-e をテストします。
 
 d3bd0e4a083 "。
 
 VERBOSE: 新しいログファイルを作成しています
 
-"C:\\\\\\AppData\\ローカル\\Temp\\2\\テスト-csreplica-29fddb35-f56e-4e3c-8f4c-e
+"C:\\ユーザー\\が\\AppData\\ローカル\\一時\\2\\テスト-csreplica-29fddb35-f56e-4e3c-8f4c-e をテストします。
 
 d3bd0e4a083 "。
 
-警告: CsReplica のテストに失敗しました。
+警告: Test-CsReplica が失敗しました。
 
-警告: 詳細な結果は次のページでご覧いただけます。
+警告: 詳細な結果は次の場所にあります。
 
-"C:\\\\\\AppData\\ローカル\\Temp\\2\\テスト-csreplica-29fddb35-f56e-4e3c-8f4c-e
+"C:\\ユーザー\\が\\AppData\\ローカル\\一時\\2\\テスト-csreplica-29fddb35-f56e-4e3c-8f4c-e をテストします。
 
 d3bd0e4a083 "。
 
 テスト-CsReplica: コマンドの実行に失敗しました。要求されたレジストリアクセスがありません
 
-禁止.
+れる.
 
 行: 1 char: 1
 
@@ -140,45 +140,45 @@ d3bd0e4a083 "。
 
 \+カテゴリ情報: InvalidOperation: (:)\[テスト-csreplica\]、セキュリティ
 
-エラー
+Exception
 
-\+FullyQualifiedErrorId: ProcessingFailed、Microsoft Rtc. .Deploy
+\+FullyQualifiedErrorId: ProcessingFailed、Microsoft. 管理
 
 予約.TestReplicaCmdlet
 
 PS C:\\ユーザー\\のテスト\>
 
-PS C:\\CsUcwaConference\\-\> targetfqdn "LyncTest" をテストします。
+PS C:\\Test-csucwaconference\\-\> targetfqdn "LyncTest" をテストします。
 
 icrosoft.com "
 
-警告: 指定した完全修飾のレジストラーポート番号の読み取りに失敗しました
+警告: 指定された完全修飾のレジストラーポート番号を読み取ることができませんでした
 
-ドメイン名 (FQDN)。 既定のレジストラーポート番号を使用します。 エラー
+ドメイン名 (FQDN)。 既定のレジストラーポート番号を使用します。 例外
 
-InvalidOperationException: トポロジで一致するクラスターが見つかりませんでした。
+System.invalidoperationexception: トポロジ内に一致するクラスターが見つかりませんでした。
 
-自宅
+下部
 
-SipSyntheticTransaction-TryRetri の同期を行います。
+TryRetri を SipSyntheticTransaction していることを示します。
 
 eveRegistrarPortFromTopology (Int32& registrarPortNumber)
 
-CsUcwaConference: のテストユーザーが割り当てられていません。
+Test-csucwaconference: に対してテストユーザーが割り当てられていません
 
-\[LyncTest.SelfHost.Corp.Microsoft.com\]。 テストユーザー構成を確認します。
+\[LyncTest.SelfHost.Corp.Microsoft.com\]。 テストユーザーの構成を確認します。
 
 行: 1 char: 1
 
-\+CsUcwaConference-TargetFqdn "LyncTest.SelfHost.Corp.Microsoft.com"
+\+Test-csucwaconference-TargetFqdn "LyncTest.SelfHost.Corp.Microsoft.com"
 
 \+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-\+カテゴリ情報: ResourceUnavailable 使用できません: (:)\[テスト-CsUcwaConference\]
+\+カテゴリ情報: ResourceUnavailable 不可: (:)\[Test-csucwaconference\]
 
-、InvalidOperationException
+、System.invalidoperationexception
 
-\+FullyQualifiedErrorId: Notん Testusers、Microsoft Rtc。
+\+FullyQualifiedErrorId: Notていない Testusers、Microsoft Rtc.
 
 TestUcwaConferenceCmdlet
 
@@ -186,15 +186,15 @@ TestUcwaConferenceCmdlet
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a>テストに失敗した可能性がある理由
+## <a name="reasons-why-the-test-might-have-failed"></a>テストが失敗した理由
 
-次に **、テスト用のレプリカ**が機能しない場合の一般的な理由を示します。
+以下に **、テスト用のレプリカ**が失敗する主な理由を示します。
 
-  - レプリケーターエージェントと集中ログエージェントサービスで、大きな問題が発生する場合があります。
+  - レプリケーターエージェントサービスと集中ログエージェントサービスでは、さらに問題が発生する可能性があります。
 
-  - 必要なポートが Windows ファイアウォールで開かれていない可能性がある
+  - Windows ファイアウォールで必要なポートが開かれていない可能性があります。
 
-  - 必要な Active Directory とローカルコンピューターのセキュリティグループが存在しない可能性があります
+  - 必要な Active Directory およびローカルコンピューターのセキュリティグループが存在しない可能性があります
 
 </div>
 

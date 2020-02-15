@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: エッジ コンポーネントのハードウェアおよびソフトウェア要件'
+title: 'Lync Server 2013: エッジコンポーネントのハードウェアおよびソフトウェア要件'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185273
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1951d682b42cd30477b25287525b7c457c910d6e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 296aed129b590d69103c89f50a1c2965d3181f7b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757881"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030340"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="hardware-and-software-requirements-for-edge-components-in-lync-server-2013"></a>Lync Server 2013 のエッジ コンポーネントのハードウェアおよびソフトウェア要件
+# <a name="hardware-and-software-requirements-for-edge-components-in-lync-server-2013"></a>Lync Server 2013 のエッジコンポーネントのハードウェア要件およびソフトウェア要件
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41757881"
 
 <span> </span>
 
-_**最終更新日:** 2013-03-14_
+_**トピックの最終更新日:** 2013-03-14_
 
-エッジコンポーネントのハードウェアとソフトウェアの要件には、エッジサーバーやオプションのディレクターなど、Lync Server 2013 通信ソフトウェアコンポーネント用のものが含まれます。 外部ユーザーアクセスとサポートされているトポロジをサポートするために必要なコンポーネントの詳細については、「 [Lync Server 2013 での外部ユーザーアクセスに必要なコンポーネント](lync-server-2013-components-required-for-external-user-access.md)」を参照してください。
+エッジコンポーネントのハードウェア要件とソフトウェア要件には、エッジサーバーやオプションのディレクターを含む、Lync Server 2013 通信ソフトウェアコンポーネントのハードウェア要件とソフトウェア要件があります。 外部ユーザーアクセスとサポートされているトポロジをサポートするために必要なコンポーネントの詳細については、「 [Lync Server 2013 での外部ユーザーアクセスに必要なコンポーネント](lync-server-2013-components-required-for-external-user-access.md)」を参照してください。
 
 <div>
 
-## <a name="hardware-for-edge-servers-and-directors"></a>エッジサーバーおよびディレクターのハードウェア
+## <a name="hardware-for-edge-servers-and-directors"></a>エッジサーバーとディレクターのハードウェア
 
-ハードウェアの推奨事項と要件は、サポートのセクションで定義されています。 エッジサーバーおよびオプションのディレクターの場合、推奨されるハードウェア構成は、次のトピックで詳しく説明します。 計画については、「 [Lync server 2013 用のサーバーハードウェアプラットフォーム](lync-server-2013-server-hardware-platforms.md)」を参照してください。
+ハードウェアに関する推奨事項と要件は、「サポート」のセクションで定義されています。 エッジサーバーおよびオプションのディレクターの場合は、次のトピックで推奨されるハードウェア構成について説明します。 計画については、「 [Lync server 2013 のサーバーハードウェアプラットフォーム](lync-server-2013-server-hardware-platforms.md)」を参照してください。
 
 </div>
 
@@ -51,9 +51,9 @@ _**最終更新日:** 2013-03-14_
 
 ## <a name="software-requirements-for-edge-servers-and-directors"></a>エッジサーバーとディレクターのソフトウェア要件
 
-エッジサーバーとオプションのディレクターのオペレーティングシステム要件は、他の Lync Server 2013 の役割と一致しています。 サポートされているオペレーティングシステムについては[、「サーバーとツールの Lync server 2013 でのオペレーティングシステムサポート](lync-server-2013-server-and-tools-operating-system-support.md)」をご覧ください。
+エッジサーバーおよびオプションのディレクターのオペレーティングシステム要件は、他の Lync Server 2013 の役割と一致しています。 サポートされているオペレーティングシステムは、 [Lync server 2013 でのサーバーおよびツールのオペレーティングシステムのサポート](lync-server-2013-server-and-tools-operating-system-support.md)に詳細が記載されています。
 
-エッジサーバーおよびオプションのディレクターのその他のコンポーネントとソフトウェア要件については、「 [Lync Server 2013 のその他のソフトウェア要件](lync-server-2013-additional-software-requirements.md)」を詳細に説明します。
+エッジサーバーおよびオプションのディレクターの追加のコンポーネントとソフトウェア要件については、「 [Lync Server 2013 の追加ソフトウェア要件](lync-server-2013-additional-software-requirements.md)」で説明されています。
 
 </div>
 
@@ -62,9 +62,9 @@ _**最終更新日:** 2013-03-14_
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 の外部ユーザー アクセスに必要なコンポーネント](lync-server-2013-components-required-for-external-user-access.md)  
-[Lync Server 2013 のサーバー ハードウェア プラットフォーム](lync-server-2013-server-hardware-platforms.md)  
-[Lync Server 2013 でのサーバーおよびツールのオペレーティング システムのサポート](lync-server-2013-server-and-tools-operating-system-support.md)  
+[Lync Server 2013 での外部ユーザーアクセスに必要なコンポーネント](lync-server-2013-components-required-for-external-user-access.md)  
+[Lync Server 2013 のサーバーハードウェアプラットフォーム](lync-server-2013-server-hardware-platforms.md)  
+[Lync Server 2013 でのサーバーおよびツールのオペレーティングシステムのサポート](lync-server-2013-server-and-tools-operating-system-support.md)  
 [Lync Server 2013 の追加ソフトウェア要件](lync-server-2013-additional-software-requirements.md)  
   
 

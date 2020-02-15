@@ -12,20 +12,20 @@ ms:contentKeyID: 49733717
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 443310b9037baa306827a98323c66939e695e0ee
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f6662e0de3ebc46cd008479277aa9a2f0ee80121
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746247"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42021488"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="test-devices-in-lync-server-2013"></a>Lync Server 2013 でのテストデバイス
+# <a name="test-devices-in-lync-server-2013"></a>Lync Server 2013 のテストデバイス
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41746247"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-15_
+_**トピックの最終更新日:** 2012-10-15_
 
-Lync Server 2013 コントロールパネルの [**クライアント**] セクションの [**テストデバイス**] ページからデバイスをテストすることができます。
+Lync Server 2013 コントロールパネルの [**クライアント**] セクションの [**テストデバイス**] ページで、デバイスをテストできます。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 で更新機能をテストするためのデバイスを作成する](lync-server-2013-create-a-device-to-test-update-functionality.md)
+  - [Lync Server 2013 で更新プログラムの機能をテストするためのデバイスを作成する](lync-server-2013-create-a-device-to-test-update-functionality.md)
 
 </div>
 

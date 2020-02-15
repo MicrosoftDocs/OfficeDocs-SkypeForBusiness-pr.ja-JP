@@ -12,16 +12,16 @@ ms:contentKeyID: 48184556
 ms.date: 12/09/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e247f83b00d226024f9fc671f2d744f1ee7fdf0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 89260bb2e854087ec1167ff0fd8039c58ac99300
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738427"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029318"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41738427"
 
 <span> </span>
 
-_**最終更新日:** 2015-12-08_
+_**トピックの最終更新日:** 2015-12-08_
 
-AppSharingMetricsThreshold の表には、アプリケーションの共有で使用されるエクスペリエンスメトリックの品質と受け入れ可能な値が含まれています。 これらのしきい値は、アプリケーション共有エクスペリエンスが低品質として分類される必要があるかどうかを判断するために使用されます。
+AppSharingMetricsThreshold テーブルには、アプリケーション共有で使用される QoE (Quality of Experience) 指標の最適な値と許容される値が含まれます。これらのしきい値は、アプリケーション共有のエクスペリエンスを不良として分類する必要があるかどうかを判断するために使用されます。
 
 この表は、Microsoft Lync Server 2013 で導入されました。
 
@@ -62,31 +62,31 @@ AppSharingMetricsThreshold の表には、アプリケーションの共有で�
 <td><p><strong>CallType</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>発信した通話の種類。</p></td>
+<td><p>行われた通話の種類です。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>AppliedBandwidthLimitOptimal</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>アプリケーション共有に最適な帯域幅の制限。 既定値は100万です。</p></td>
+<td><p>アプリケーション共有の最善の帯域幅制限です。既定値は 1000000 です。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>AppliedBandwidthLimitAcceptable</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>アプリケーション共有に対して許容可能な帯域幅制限。 既定値は50万です。</p></td>
+<td><p>アプリケーション共有の許容される帯域幅制限です。既定値は 500000 です。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SpoiledTilePercentTotalOptimal</strong></p></td>
-<td><p>10進数 (5, 2)</p></td>
+<td><p>10進数 (5、2)</p></td>
 <td></td>
-<td><p>アプリケーション共有の品質を分類するための "損失" タイルの最適な比率。 この値は、閲覧者に届かなかった、共有先のコンテンツのパーセンテージです。 グラフィックスソースまたは ASMCU タイルから共有されているタイルがそれぞれ、共有元のタイルを破棄した場合、コンテンツは破棄 (または損失) されることがあります。 既定値は11パーセントです。</p></td>
+<td><p>アプリケーション共有の品質の分類のために "スポイルされた" タイルの最善の割合です。この値は、ビューアーに到達しなかった共有者からのコンテンツのパーセンテージです。コンテンツは、共有者がグラフィックス ソースからタイルを破棄すると、または ASMCU タイルが共有者からタイルを破棄すると、破棄される (スポイルされる) 可能性があります。既定値は 11 パーセントです。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>SpoiledTilePercentTotalAcceptable</strong></p></td>
-<td><p>10進数 (5, 2)</p></td>
+<td><p>10進数 (5、2)</p></td>
 <td></td>
-<td><p>アプリの共有品質を分類するための "損失" タイルの cceptable のパーセンテージ率。 この値は、閲覧者に届かなかった、共有先のコンテンツのパーセンテージです。 グラフィックスソースまたは ASMCU タイルから共有されているタイルがそれぞれ、共有元のタイルを破棄した場合、コンテンツは破棄 (または損失) されることがあります。 既定値は36パーセントです。</p></td>
+<td><p>アプリケーション共有の品質の分類のために "スポイルされた" タイルの許容される割合です。この値は、ビューアーに到達しなかった共有者からのコンテンツのパーセンテージです。コンテンツは、共有者がグラフィックス ソースからタイルを破棄すると、または ASMCU タイルが共有者からタイルを破棄すると、破棄される (スポイルされる) 可能性があります。既定値は 36 パーセントです。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>JitterInterArrivalOptimal</strong></p></td>
@@ -102,57 +102,57 @@ AppSharingMetricsThreshold の表には、アプリケーションの共有で�
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayBurstDensityOptimal</strong></p></td>
-<td><p>float</p></td>
+<td><p>浮動小数点数</p></td>
 <td></td>
 <td><p>この列は、Microsoft Lync Server 2013 では使用されません。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayBurstDensityAcceptable</strong></p></td>
-<td><p>float</p></td>
+<td><p>浮動小数点数</p></td>
 <td></td>
 <td><p>この列は、Microsoft Lync Server 2013 では使用されません。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RDPTileProcessingLatencyBurstDensityOptimal</strong></p></td>
-<td><p>float</p></td>
+<td><p>浮動小数点数</p></td>
 <td></td>
 <td><p>この列は、Microsoft Lync Server 2013 では使用されません。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RDPTileProcessingLatencyBurstDensityAcceptable</strong></p></td>
-<td><p>float</p></td>
+<td><p>浮動小数点数</p></td>
 <td></td>
 <td><p>この列は、Microsoft Lync Server 2013 では使用されません。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayAverageOptimal</strong></p></td>
-<td><p>float</p></td>
+<td><p>浮動小数点数</p></td>
 <td></td>
-<td><p>アプリケーション共有に関連する2つのメディアエンドポイント間の相対的な一方向の遅延の最適値。 これは 1 ホップの遅延の測定です。 既定値は1.0 秒です。</p>
-<p>この列は、Microsoft Lync Server 2013 で導入されました。</p></td>
+<td><p>アプリケーション共有に関係する 2 つのメディア エンドポイント間の相対的な一方向遅延の最善の値です。これは単一ホップ遅延の測定値です。既定値は 1.0 秒です。</p>
+<p>このコラムは Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayAverageAcceptable</strong></p></td>
-<td><p>float</p></td>
+<td><p>浮動小数点数</p></td>
 <td></td>
-<td><p>アプリケーション共有に関連する2つのメディアエンドポイント間の相対的な一方向の遅延の最適値。 これは 1 ホップの遅延の測定です。 既定値は1.75 秒です。</p>
-<p>この列は、Microsoft Lync Server 2013 で導入されました。</p></td>
+<td><p>アプリケーション共有に関係する 2 つのメディア エンドポイント間の相対的な一方向遅延の許容される値です。これは単一ホップ遅延の測定値です。既定値は 1.75 秒です。</p>
+<p>このコラムは Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RDPTileProcessingLatencyAverageOptimal</strong></p></td>
-<td><p>float</p></td>
+<td><p>浮動小数点数</p></td>
 <td></td>
-<td><p>表示セッションの間の会議サーバーとしての平均 RDP タイル処理の待機時間の最適値。 [待ち時間] は、サーバー (シナリオによっては共有先または MCU) で開始フレームがエンコードされてから、同じ開始フレームが viewer でデコードされるタイミングの差です。</p>
-<p>平均値が高いと、表示の際の遅延が大きくなります。 過負荷の会議サーバーでは平均遅延が大きくなる場合があります。 既定値は200ms です。</p>
-<p>この列は、Microsoft Lync Server 2013 で導入されました。</p></td>
+<td><p>表示セッション中の AS 会議サーバーでの RDP タイル処理の最善の平均遅延です。 Latency は、サーバー (シナリオによっては、共有先または MCU) で開始フレームがエンコードされてから、同じ開始フレームが閲覧者にデコードされるまでの時間差です。</p>
+<p>高い平均値は、表示エクスペリエンスでの長い遅延を反映します。高い負荷がかかっている会議サーバーでは、平均遅延が高くなる場合があります。既定値は 200 ミリ秒です。</p>
+<p>このコラムは Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RDPTileProcessingLatencyAverageAcceptable</strong></p></td>
-<td><p>float</p></td>
+<td><p>浮動小数点数</p></td>
 <td></td>
-<td><p>表示セッション中の会議サーバーとしての平均 RDP タイル処理待ち時間の値。 [待ち時間] は、サーバー (シナリオによっては共有先または MCU) で開始フレームがエンコードされてから、同じ開始フレームが viewer でデコードされるタイミングの差です。</p>
-<p>平均値が高いと、表示の際の遅延が大きくなります。 過負荷の会議サーバーでは平均遅延が大きくなる場合があります。 既定値は200ms です。</p>
-<p>この列は、Microsoft Lync Server 2013 で導入されました。</p></td>
+<td><p>表示セッション中の AS 会議サーバーでの RDP タイル処理の平均遅延の許容される値です。 Latency は、サーバー (シナリオによっては、共有先または MCU) で開始フレームがエンコードされてから、同じ開始フレームが閲覧者にデコードされるまでの時間差です。</p>
+<p>高い平均値は、表示エクスペリエンスでの長い遅延を反映します。高い負荷がかかっている会議サーバーでは、平均遅延が高くなる場合があります。既定値は 200 ミリ秒です。</p>
+<p>このコラムは Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 </tbody>
 </table>

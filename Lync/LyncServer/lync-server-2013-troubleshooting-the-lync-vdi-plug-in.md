@@ -12,16 +12,16 @@ ms:contentKeyID: 48183525
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f1dfd8082ef0f0cdfc2a7931a675398507daaa51
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f1d75e0801ec16957083f2e9fef043080c771ea9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744987"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028868"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41744987"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-10_
+_**トピックの最終更新日:** 2012-10-10_
 
 <div>
 
-## <a name="troubleshooting-issues-with-installing-the-lync-vdi-plug-in-on-a-thin-client"></a>Thin クライアントに Lync VDI プラグインをインストールする際の問題のトラブルシューティング
+## <a name="troubleshooting-issues-with-installing-the-lync-vdi-plug-in-on-a-thin-client"></a>Lync VDI プラグインをシンクライアントにインストールする際の問題のトラブルシューティング
 
-シンクライアントに VDI プラグインをインストールするときに問題が発生した場合は、次の点を確認してください。
+シン クライアントへの VDI プラグインのインストールに関して問題がある場合は、次のことを確認してください。
 
   - TEMP および TMP システム変数で指定したフォルダーに十分な容量がある。
 
@@ -53,19 +53,19 @@ _**最終更新日:** 2012-10-10_
 
 ## <a name="troubleshooting-issues-with-pairing"></a>ペアリングに関する問題のトラブルシューティング
 
-VDI プラグインのペアリングに失敗した場合、右下のペアリングアイコンは、次のように赤い "X" として表示されます。
+VDI プラグインのペアリングに失敗すると、右下のペアリング アイコンが赤色の "X" で表示されます。
 
-![成功したペアリングを示す Lync VDI アイコン](images/JJ204948.303d618c-4bc8-41c4-8553-2475de0d395e(OCS.15).png "成功したペアリングを示す Lync VDI アイコン")
+![ペアリングが成功したことを示す Lync VDI アイコン](images/JJ204948.303d618c-4bc8-41c4-8553-2475de0d395e(OCS.15).png "ペアリングが成功したことを示す Lync VDI アイコン")
 
-次のような原因が考えられます。問題が発生した場合は、次のことを行ってください。
+失敗の原因の可能性と対策を、以下に示します。
 
   - **ユーザーがサインインの際に入力した資格情報が正しくない。**
     
-    ユーザーは、Lync からサインアウトし、正しい資格情報を使用してもう一度サインインする必要があります。 ペアリングのダイアログ ボックスが再表示され、ペアリングに成功したかどうかが表示されます。
+    ユーザーは、Lync からサインアウトし、正しい資格情報を使用して再度サインインする必要があります。 ペアリングのダイアログ ボックスが再表示され、ペアリングに成功したかどうかが表示されます。
 
   - **リモート デスクトップ クライアントの別のインスタンスが実行している。**
     
-    Windows でリモートデスクトップ接続を使用している場合、ユーザーは次の操作を行う必要があります。
+    Windows でリモートデスクトップ接続を使用している場合、ユーザーは次の操作を実行する必要があります。
     
     1.  タスク マネージャーを起動します。**Alt+Ctrl+Del** キーを押し、[**タスク マネージャーの起動**] をクリックします。
     
@@ -73,21 +73,21 @@ VDI プラグインのペアリングに失敗した場合、右下のペアリ�
     
     3.  各 **mstsc.exe** プロセスを強調表示し、[**プロセスの終了**] をクリックします。
     
-    4.  新しいリモート デスクトップ セッションを起動して、もう一度接続してみます。
+    4.  新しいリモート デスクトップ セッションを起動して、再び接続を試みます。
 
   - **必要なファイルが適切にインストールされていない。**
     
-    プラグインをローカルコンピューターにインストールした後、C:\\Program Files\\Microsoft Office\\Office15 (または適切なドライブ文字) の下に次のファイルが表示されます。
+    プラグインがローカルコンピューターにインストールされた後、C:\\Program Files\\Microsoft Office\\Office15 (または適切なドライブ文字) の下に次のファイルが表示されます。
     
-      - LyncVdiPlugin.dll
+      - LyncVdiPlugin
     
-      - UcVdi.dll
+      - UcVdi .dll
     
-    VDI ペアリングで問題が発生した場合は、これらのファイルがローカルコンピューターに存在することを確認してください。
+    VDI ペアリングに何か問題がある場合は、これらのファイルがローカル コンピューター上に存在することを確認してください。
 
-  - **Lync クライアントがローカルコンピューターで実行されている。**
+  - **Lync クライアントは、ローカルコンピューター上で実行されています。**
     
-    Lync VDI プラグインを使用するには、Lync クライアントがローカルコンピューターで実行されていない必要があります。そうでないと、ペアリングは失敗します。 ベストプラクティスとして、ユーザーはローカルコンピューターに Lync クライアントをインストールしないようにする必要があります。
+    Lync VDI プラグインを使用するには、Lync クライアントがローカルコンピューター上で実行されていてはなりません。そうでないと、ペアリングは失敗します。 ベストプラクティスとして、ユーザーは、Lync クライアントをローカルコンピューターにインストールしないようにしてください。
 
 </div>
 

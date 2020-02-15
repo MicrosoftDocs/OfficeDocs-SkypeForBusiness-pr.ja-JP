@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Lync Online とのフェデレーションを構成する'
+title: 'Lync Server 2013: Lync Online とのフェデレーションの構成'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184946
 ms.date: 08/15/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba9179f05918504df15a18b35b9c411f23919330
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fb679f8bf0fae046bea0177daab22203bbf9aef1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726577"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028538"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-federation-of-lync-server-2013-with-lync-online"></a>Lync Server 2013 と Lync Online のフェデレーションを構成する
+# <a name="configure-federation-of-lync-server-2013-with-lync-online"></a>Lync Online で Lync Server 2013 のフェデレーションを構成する
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41726577"
 
 <span> </span>
 
-_**最終更新日:** 2016-08-15_
+_**トピックの最終更新日:** 2016-08-15_
 
 このセクションの手順に従って、オンプレミス展開と Skype for Business Online の間の相互運用性を構成します。
 
@@ -45,7 +45,7 @@ _**最終更新日:** 2016-08-15_
 
 ## <a name="configure-your-on-premises-edge-service-for-federation-with-skype-for-business-online"></a>Skype for Business Online とのフェデレーション用にオンプレミスエッジサービスを構成する
 
-フェデレーションによって、オンプレミスの展開のユーザーは、組織内の Office 365 ユーザーと通信することができます。 フェデレーションを構成するには、次のコマンドレットを実行します。
+フェデレーションにより、オンプレミス展開のユーザーが組織の Office 365 ユーザーと通信できるようになります。 フェデレーションを構成するには、次のコマンドレットを実行します。
 
    ```powershell
     Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $True
@@ -61,19 +61,19 @@ _**最終更新日:** 2016-08-15_
 
 <div>
 
-## <a name="configure-your-skype-for-business-online-tenant-for-a-shared-sip-address-space"></a>共有 SIP アドレス空間用に Skype for Business Online テナントを構成する
+## <a name="configure-your-skype-for-business-online-tenant-for-a-shared-sip-address-space"></a>共有 SIP アドレススペース用に Skype for Business Online テナントを構成する
 
-セッション開始プロトコル (SIP) アドレスは、電話番号や電子メール アドレスに似た、ネットワーク上の各ユーザーの一意の識別子です。 Lync ユーザーをオンプレミスから Skype for Business Online に移行する前に、オンプレミスの展開を使用して共有セッション開始プロトコル (SIP) アドレススペースを共有するように Office 365 テナントを構成する必要があります。 これが構成されていないと、次のエラー メッセージが表示されることがあります。
+セッション開始プロトコル (SIP) アドレスは、電話番号や電子メールアドレスと同様に、ネットワーク上の各ユーザーの一意の識別子です。 オンプレミスから Skype for Business Online に Lync ユーザーを移動する前に、Office 365 テナントを構成して、共有セッション開始プロトコル (SIP) アドレススペースを社内展開と共有する必要があります。 この設定が構成されていない場合は、次のエラーメッセージが表示されることがあります。
 
-Move-CsUser : HostedMigration エラー: エラー=(510), 説明=(このユーザーのテナントは共有 SIP アドレス スペース用に有効化されていません。)
+Move-CsUser: HostedMigration fault: Error = (510), Description = (このユーザーのテナントは、共有 sip アドレススペースに対して有効になっていません。)
 
-共有 SIP アドレス空間を構成するには、Skype for Business Online とのリモート PowerShell セッションを確立して、次のコマンドレットを実行します。
+共有 SIP アドレススペースを構成するには、Skype for Business Online でリモート PowerShell セッションを確立し、次のコマンドレットを実行します。
 ```powershell
 Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
 ```
-Skype for Business Online とのリモート PowerShell セッションを確立するには、まず、Windows PowerShell 用 Skype for Business Online モジュールをインストールする必要があります。 [http://go.microsoft.com/fwlink/p/?LinkId=391911](http://go.microsoft.com/fwlink/p/?linkid=391911)これには、次のページを参照してください。
+Skype for Business Online とのリモート PowerShell セッションを確立するには、まず、Windows PowerShell 用の Skype for Business Online モジュールをインストールする必要があります[http://go.microsoft.com/fwlink/p/?LinkId=391911](http://go.microsoft.com/fwlink/p/?linkid=391911)。これには、次の情報を入手できます。
 
-そのモジュールをインストールしたら、次のコマンドレットによってリモート セッションを確立します。
+モジュールをインストールした後、次のコマンドレットを使用してリモートセッションを確立できます。
 
    ```powershell
     Import-Module LyncOnlineConnector
@@ -91,7 +91,7 @@ Skype for Business Online とのリモート PowerShell セッションを確立
     Import-PSSession $CSSession -AllowClobber
    ```
 
-Skype for Business Online とのリモート PowerShell セッションを確立する方法の詳細については、「 [Windows PowerShell を使用して skype For Business online に接続](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)する」を参照してください。
+Skype for business Online とのリモート PowerShell セッションを確立する方法の詳細については、「 [Windows PowerShell を使用した skype For Business online への接続](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)」を参照してください。
 
 Skype for Business Online PowerShell モジュールの使用方法の詳細については、「 [Windows PowerShell を使用して skype For Business online を管理する](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)」を参照してください。
 

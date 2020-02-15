@@ -12,16 +12,16 @@ ms:contentKeyID: 48184560
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 89e1509a1a84e0a9dd03527eedfb0b9e6da1590e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 26a8236145f86fa86039b4030fe82327d9fc4dfa
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764233"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031181"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764233"
 
 <span> </span>
 
-_**最終更新日:** 2012-06-25_
+_**トピックの最終更新日:** 2012-06-25_
 
-tblAdminLock には、一部の管理者コマンドの実行に必要な管理者ロックが含まれています。
+tblAdminLock には、一部の管理者コマンドの実行に必要な管理者ロックが格納されます。
 
-### <a name="columns"></a>行
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -50,25 +50,25 @@ tblAdminLock には、一部の管理者コマンドの実行に必要な管理�
 <thead>
 <tr class="header">
 <th>列</th>
-<th>型</th>
+<th>種類</th>
 <th>説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>lockExpiresTime</p></td>
-<td><p>datetime。 null ではありません</p></td>
-<td><p>有効期限の日付と時刻をロックします。 この値は、所有者が定期的に延長できます。</p></td>
+<td><p>NULL でない datetime</p></td>
+<td><p>ロックの有効期限の日時。所有者はこの値による期限を定期的に延長できます。</p></td>
 </tr>
 <tr class="even">
 <td><p>lockServerID</p></td>
-<td><p>int (null ではない)</p></td>
-<td><p>ロックを所有しているサーバーの ID です。</p></td>
+<td><p>NULL でない int</p></td>
+<td><p>ロックを所有するサーバーの ID。</p></td>
 </tr>
 <tr class="odd">
 <td><p>lockActorID</p></td>
-<td><p>int (null ではない)</p></td>
-<td><p>ロックを所有しているプリンシパルの ID です。</p></td>
+<td><p>NULL でない int</p></td>
+<td><p>ロックを所有するプリンシパルの ID。</p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ユーザープレゼンスの発行と購読のテスト'
+title: 'Lync Server 2013: ユーザープレゼンスの発行とサブスクライブのテスト'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969587
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d506ed0115fd5346048ff8870763a7ffc888a69
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: afcf12b50a1284a7218789c5964ce714a3a4bdd7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745297"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41983142"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="testing-user-presence-publishing-and-subscribing-in-lync-server-2013"></a>Lync Server 2013 でユーザーのプレゼンスの発行と購読をテストする
+# <a name="testing-user-presence-publishing-and-subscribing-in-lync-server-2013"></a>Lync Server 2013 でユーザープレゼンスの発行とサブスクライブをテストする
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41745297"
 
 <span> </span>
 
-_**最終更新日:** 2014-06-05_
+_**トピックの最終更新日:** 2014-06-05_
 
 
 <table>
@@ -45,8 +45,8 @@ _**最終更新日:** 2014-06-05_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>確認のスケジュール</p></td>
-<td><p>[毎日]</p></td>
+<td><p>検証スケジュール</p></td>
+<td><p>毎日</p></td>
 </tr>
 <tr class="even">
 <td><p>テストツール</p></td>
@@ -54,8 +54,8 @@ _**最終更新日:** 2014-06-05_
 </tr>
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
-<td><p>Lync Server 管理シェルを使用してローカルで実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使って実行する場合、ユーザーには、テストの CsPresence コマンドレットを実行する権限を持つ RBAC の役割を割り当てる必要があります。 このコマンドレットを使うことができるすべての RBAC ロールの一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには、テスト-CsPresence コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsPresence&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +66,7 @@ _**最終更新日:** 2014-06-05_
 
 ## <a name="description"></a>説明
 
-テスト-CsPresence は、テストユーザーのペアが Lync Server にログオンして、プレゼンス情報を交換できるかどうかを判断するために使用されます。 これを行うために、コマンドレットでは、最初に2人のユーザーがシステムに記録されます。 両方のログオンが成功した場合、最初のテストユーザーは、2番目のユーザーからプレゼンス情報を受け取るように要求します。 2番目のユーザーがこの情報を公開し、テストでは、情報が最初のユーザーに正常に送信されたことを確認します。 プレゼンス情報を交換した後、2つのテストユーザーが Lync Server からログオフします。
+テスト-CsPresence は、テストユーザーのペアが Lync Server にログオンし、プレゼンス情報を交換できるかどうかを判断するために使用されます。 これを行うために、コマンドレットを実行して、この 2 人のユーザーをシステムにログオンさせます。 両方のログオンが正常に行われたら、1 番目のテスト ユーザーが、2 番目のテスト ユーザーからプレゼンス情報を受信するよう依頼します。 2 番目のユーザーがこの情報を公開したら、Test-CsPresence を実行して、情報が 1 番目のユーザーに正常に転送されたことを確認します。 プレゼンス情報の交換後、2つのテストユーザーが Lync Server からログオフされます。
 
 </div>
 
@@ -74,99 +74,99 @@ _**最終更新日:** 2014-06-05_
 
 ## <a name="running-the-test"></a>テストの実行
 
-テスト-CsPresence コマンドレットを実行するには、定義済みのテストアカウントのペア (「Lync Server テストを実行するためのテストアカウントのセットアップ」を参照) を使用するか、Lync Server を有効にしている2人のユーザーのアカウントを使用します。 テストアカウントを使用してこの確認を実行するには、テストする Lync Server プールの FQDN を指定する必要があります。 次に例を示します。
+Test-CsPresence コマンドレットを実行するには、事前に構成されたテストアカウントのペア (「Lync Server テストを実行するためのテストアカウントをセットアップする」を参照) を使用するか、Lync Server が有効になっている2人のユーザーのアカウントを使用します。 このチェックをテストアカウントを使用して実行するには、テストする Lync Server プールの FQDN を指定するだけで済みます。 例:
 
     Test-CsPresence -TargetFqdn "atl-cs-001.litwareinc.com"
 
-実際のユーザーアカウントを使用してこのチェックを実行するには、2つの Windows PowerShell credentials オブジェクト (アカウント名とパスワードを含むオブジェクト) を各アカウントに作成する必要があります。 次に、テストに登録するときに、これらの資格情報オブジェクトと、2つのアカウントの SIP アドレスを含める必要があります。
+実際のユーザーアカウントを使用してこのチェックを実行するには、2つの Windows PowerShell credentials オブジェクト (アカウント名とパスワードを含むオブジェクト) を各アカウントに作成する必要があります。 次に、これらの資格情報オブジェクトと、テストを呼び出すときに2つのアカウントの SIP アドレスを含める必要があります。
 
     $credential1 = Get-Credential "litwareinc\kenmyer"
     $credential2 = Get-Credential "litwareinc\davidlongmire"
     Test-CsPresence -TargetFqdn "atl-cs-001.litwareinc.com" -PublisherSipAddress "sip:kenmyer@litwareinc.com" -PublisherCredential $credential1 -SubscriberSipAddress "sip:davidlongmire@litwareinc.com" -SubscriberCredential $credential2
 
-詳細については、「[テスト-CsPresence テスト](https://docs.microsoft.com/powershell/module/skype/Test-CsPresence)」コマンドレットのヘルプドキュメントを参照してください。
+詳細については、「 [Test-CsPresence](https://docs.microsoft.com/powershell/module/skype/Test-CsPresence)コマンドレット」のヘルプドキュメントを参照してください。
 
 </div>
 
 <div>
 
-## <a name="determining-success-or-failure"></a>成功または失敗を確認する
+## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
-指定したユーザーがプレゼンス情報を交換できる場合は、次のような出力が表示され、Result プロパティは Success とマークされ**ます。**
+指定したユーザーがプレゼンス情報を交換できる場合は、次のような出力が得られます。 Result プロパティは Success としてマークされてい**ます。**
 
 TargetFqdn: atl-cs-001.litwareinc.com
 
 結果: 成功
 
-待ち時間:00:00: 06.3280315
+待機時間:00:00: 06.3280315
 
-誤差
+エラー
 
-診断
+分析
 
-2人のユーザーがプレゼンス情報を交換できない場合、結果はエラーとして表示され、エラーと診断のプロパティに追加情報が記録されます。
+2人のユーザーがプレゼンス情報を交換できない場合、結果は失敗として表示され、エラーと診断のプロパティに追加情報が記録されます。
 
 TargetFqdn: atl-cs-001.litwareinc.com
 
 結果: エラー
 
-待ち時間: 00:00:00
+待機時間: 00:00:00
 
 エラー: 404、見つかりません
 
-診断: ErrorCode = 4005、Source = atl-cs-001.litwareinc.com、
+診断: ErrorCode = 4005, Source = 001.litwareinc.com,
 
-理由 = ターゲット URI が SIP で有効になっていないか、
+Reason = 宛先 URI が SIP に対して有効になっていないか、または使用されていません
 
-残っ.
+ない.
 
-DiagnosticHeader の場合
+DiagnosticHeader ()
 
-たとえば、前の出力では、2つのユーザーアカウントの少なくとも1つが無効であるためにテストが失敗したことが示されています。アカウントが存在しないか、Lync Server に対して有効になっていません。 次のようなコマンドを実行すると、アカウントが存在するかどうかを確認し、Lync Server で有効になっているかどうかを確認できます。
+たとえば、次の2つのユーザーアカウントのうち少なくとも1つが無効であるためにテストが失敗したことが、上記の出力に示されています。アカウントが存在しないか、Lync Server に対して有効になっていません。 アカウントが存在するかどうかを確認し、次のようなコマンドを実行することによって、そのアカウントが Lync Server に対して有効になっているかどうかを確認できます。
 
     "sip:kenmyer@litwareinc.com", "sip:davidlongmire@litwareinc.com" | Get-CsUser | Select-Object SipAddress, Enabled
 
-テストでの CsPresence 対象が失敗した場合は、Verbose パラメーターも含めて、テストを再実行することをお勧めします。
+テストのために失敗した場合は、次のように詳細なパラメーターを含めて、テストを再実行することをお勧めします。
 
     Test-CsPresence -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-Verbose パラメーターが含まれている場合、テストでは、指定したユーザーが Lync Server にログオンする機能を確認したときに実行される各操作のステップバイステップのアカウントが返されます。 次に例を示します。
+Verbose パラメーターが指定されている場合は、指定したユーザーが Lync Server にログオンできるかどうかを確認したときに実行された各操作のステップごとのアカウントが返されます。 例:
 
-不明に対する登録要求のヒット
+不明に対する登録要求ヒット
 
-"Register" アクティビティは "0.0345791" 秒で完了しました。
+' Register ' アクティビティは、' 0.0345791 ' 秒で完了しました。
 
 ' SelfSubscribeActivity ' アクティビティが開始されました。
 
-' SelfSubscribeActivity ' アクティビティは "0.0041174" 秒で完了しました。
+' SelfSubscribeActivity ' アクティビティは、' 0.0041174 ' 秒で完了しました。
 
 ' SubscribePresence ' アクティビティが開始されました。
 
-' SubscribePresence ' アクティビティは "0.0038764" 秒で完了しました。
+' SubscribePresence ' アクティビティは、' 0.0038764 ' 秒で完了しました。
 
-"PublishPresence" アクティビティが開始されました。
+' PublishPresence ' アクティビティが開始されました。
 
-例外の "プレゼンス通知は25秒以内に受信されません。" ワークフローの同期ワークフローの実行についてのワークフローを実行しました。
+例外 ' プレゼンス通知が25秒以内に受信されません。 ' ワークフローのワークフローの実行についてのワークフローが発生しました。
 
-25秒以内にプレゼンス通知が受信されなかったということは、ネットワークの問題によって情報の交換が妨げられていることを示している可能性があります。
+25秒以内にプレゼンス通知が受信されなかった場合、ネットワークの問題が原因で情報を交換できないことを示している可能性があります。
 
 </div>
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a>テストに失敗した可能性がある理由
+## <a name="reasons-why-the-test-might-have-failed"></a>テストが失敗した理由
 
-次に、テスト-CsPresence 問題が発生する可能性がある一般的な理由をいくつか示します。
+次に、テスト、CsPresence 失敗する主な理由を示します。
 
-  - 指定したユーザーアカウントが間違っています。 次のようなコマンドを実行すると、ユーザーアカウントが存在するかどうかを確認できます。
+  - 正しくないユーザーアカウントが指定されています。 ユーザーアカウントが存在することを確認するには、次のようなコマンドを実行します。
     
         Get-CsUser "sip:kenmyer@litwareinc.com"
 
-  - ユーザーアカウントは有効ですが、アカウントは現在 Lync Server に対して有効になっていません。 Lync Server でユーザーアカウントが有効になっていることを確認するには、次のようなコマンドを実行します。
+  - ユーザーアカウントは有効ですが、アカウントは現在 Lync Server に対して有効になっていません。 ユーザーアカウントが Lync Server に対して有効になっていることを確認するには、次のようなコマンドを実行します。
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled
     
-    Enabled プロパティが False に設定されている場合は、ユーザーが現在 Lync Server を有効にしていないことを意味します。
+    Enabled プロパティが False に設定されている場合は、ユーザーが Lync Server に対して有効になっていないことを意味します。
 
 </div>
 

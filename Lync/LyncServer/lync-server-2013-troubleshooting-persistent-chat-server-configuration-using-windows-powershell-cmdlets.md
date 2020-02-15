@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Windows PowerShell コマンドレットを使用した常設チャット サーバー構成のトラブルシューティング'
+title: 'Lync Server 2013: Windows PowerShell コマンドレットを使用した常設チャットサーバー構成のトラブルシューティング'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183921
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba5420fb06a0c69d94ec7cf5183cba61bb8e72b5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dff2cf4fb11c04a59baa54db88b5cb90c738fa31
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745007"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028888"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="troubleshooting-persistent-chat-server-configuration-using-windows-powershell-cmdlets-in-lync-server-2013"></a>Lync Server 2013 での Windows PowerShell コマンドレットを使用した常設チャット サーバー構成のトラブルシューティング
+# <a name="troubleshooting-persistent-chat-server-configuration-using-windows-powershell-cmdlets-in-lync-server-2013"></a>Lync Server 2013 での Windows PowerShell コマンドレットを使用した常設チャットサーバー構成のトラブルシューティング
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41745007"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-06_
+_**トピックの最終更新日:** 2012-10-06_
 
-次の回避策を使用して、Windows PowerShell コマンドラインインターフェイスコマンドレットを使用して、常設チャットサーバーの構成の問題を解決します。
+次の回避策を使用して、Windows PowerShell コマンドラインインターフェイスコマンドレットによる常設チャットサーバーの構成の問題を解決します。
 
-  - "プリンシパルがプロビジョニングされていません" エラーメッセージが表示された場合、追加しようとしたプリンシパルは使用できません。
+  - "principal not provisioned" というエラー メッセージが表示された場合、追加を試みたプリンシパルは使用できません。
     
     <div>
     
 
     > [!TIP]  
-    > 回避策: 回避策はありません。 このエラーメッセージは、プリンシパルが利用できないことを意味します。
+    > 回避策 - 回避策はありません。このエラー メッセージは、プリンシパルが使用できないことを意味しています。
 
     
     </div>

@@ -12,20 +12,20 @@ ms:contentKeyID: 48184714
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8440d2ae91d535c8c4747c923b1b17dda9bb0f46
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e6f56b2c406a14a6a1781705017d13d8b823472c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726357"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008709"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-and-verify-dns-srv-records-in-lync-server-2013"></a>Lync Server 2013 での DNS SRV レコードの作成と確認
+# <a name="create-and-verify-dns-srv-records-in-lync-server-2013"></a>Lync Server 2013 で DNS SRV レコードを作成および確認する
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "41726357"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-21_
+_**トピックの最終更新日:** 2013-02-21_
 
-この手順を完了するには、ドメイン管理者グループのメンバー、または DnsAdmins グループのメンバーとして、サーバーまたはドメインに最低でもログオンしている必要があります。
+この手順を正常に完了するには、最低限でも Domain Admins グループまたは DnsAdmins グループのメンバーとしてサーバーまたはドメインにログオンしている必要があります。
 
-このトピックでは、Lync Server 2013 の展開で作成する必要があるドメインネームシステム (DNS) レコードを構成する方法と、自動クライアントサインインに必要なものを構成する方法について説明します。 フロントエンドプールを作成すると、セットアップによってプールの Active Directory オブジェクトと設定が作成されます。これには、プールの完全修飾ドメイン名 (FQDN) が含まれます。 同様のオブジェクトと設定が、Standard Edition サーバー用に作成されます。 クライアントがプールまたは Standard Edition サーバーに接続できるようにするには、プールまたは Standard Edition サーバーの FQDN が DNS に登録されている必要があります。 SIP ドメインごとに、内部 DNS で DNS SRV レコードを作成する必要があります。 この手順では、内部 DNS に SIP ユーザードメイン用のゾーンが含まれていることを前提としています。
+このトピックでは、Lync Server 2013 の展開で作成する必要があるドメインネームシステム (DNS) レコード、および自動クライアントサインインに必要なドメインネームシステム (DNS) レコードを構成する方法について説明します。 フロントエンドプールを作成すると、プールの完全修飾ドメイン名 (FQDN) を含む、プールの Active Directory オブジェクトと設定がセットアップによって作成されます。 Standard Edition サーバー用に、同様のオブジェクトと設定が作成されます。 クライアントがプールまたは Standard Edition サーバーに接続できるようにするには、プールまたは Standard Edition サーバーの FQDN を DNS に登録する必要があります。 すべての SIP ドメインについて、内部 DNS に DNS SRV レコードを作成する必要があります。 この手順では、内部 DNS に SIP ユーザードメインのゾーンがあることを前提としています。
 
 <div>
 
 ## <a name="to-configure-a-dns-srv-record"></a>DNS SRV レコードを構成するには
 
-1.  DNS サーバーで [**スタート**] をクリックし、[**管理ツール**]、[ **dns**] の順にクリックします。
+1.  DNS サーバー上で、[**スタート**] をクリックし、[**管理ツール**] をクリックします。次に、[**DNS**] をクリックします。
 
-2.  SIP ドメインのコンソールツリーで [**前方参照ゾーン**] を展開し、Lync Server 2013 がインストールされる SIP ドメインを右クリックします。
+2.  SIP ドメインのコンソールツリーで、[**前方参照ゾーン**] を展開し、Lync Server 2013 をインストールする SIP ドメインを右クリックします。
 
 3.  [**その他の新しいレコード**] をクリックします。
 
 4.  [**リソース レコードの種類を選択**] の [**サービス ロケーション (SRV)**] をクリックし、[**レコードの作成**] をクリックします。
 
-5.  [**サービス**] をクリックして、「 ** \_sipinternaltls**」と入力します。
+5.  [**サービス**] をクリックし、「 ** \_sipinternaltls**」と入力します。
 
-6.  [**プロトコル**] をクリックして、「 ** \_tcp**」と入力します。
+6.  [**プロトコル**] をクリックし、「 ** \_tcp**」と入力します。
 
-7.  [**ポート番号**] をクリックし、「**5061**」と入力します。
+7.  "**ポート番号**" フィールドをクリックし、「**5061**」と入力します。
 
-8.  [**このサービスを提供しているホスト**] をクリックして、プールまたは Standard Edition サーバーの FQDN を入力します。
+8.  [**このサービスを提供**しているホスト] をクリックし、プールまたは Standard Edition サーバーの FQDN を入力します。
 
 9.  [**OK**] をクリックしてから、[**完了**] をクリックします。
 
@@ -73,49 +73,49 @@ _**最終更新日:** 2013-02-21_
 
 2.  [**スタート**] ボタンをクリックし、[**ファイル名を指定して実行**] をクリックします。
 
-3.  [**開く**] ボックスに**cmd**と入力し、[ **OK**] をクリックします。
+3.  [**名前**] ボックスに「**cmd**」と入力し、[**OK**] をクリックします。
 
-4.  コマンドプロンプトで「 **nslookup**」と入力し、enter キーを押します。
+4.  コマンド プロンプトに「**nslookup**」と入力し、Enter キーを押します。
 
-5.  「 **Set type = srv**」と入力して、enter キーを押します。
+5.  「**set type=srv**」と入力し、Enter キーを押します。
 
-6.  「 ** \_Sipinternaltls」\_と入力します。tcp.contoso.com**を選び、enter キーを押します。 トランスポート層セキュリティ (TLS) レコードに対して表示される出力は、次のようになります。
+6.  「 ** \_Sipinternaltls」\_と入力します。tcp.contoso.com**と入力し、enter キーを押します。 トランスポート層セキュリティ (TLS) レコードに対して表示される出力は次のとおりです。
     
-    サーバー: \<\>contoso.com
+    サーバー: \<dns サーバー\>. contoso.com
     
-    Address: \<DNS サーバーの IP アドレス\>
+    アドレス: \<DNS サーバーの IP アドレス\>
     
-    権限のない回答:
+    Non-authoritative answer:
     
     \_sipinternaltls.\_tcp.contoso.com SRV サービスの場所:
     
     priority = 0
     
-    weight = 0
+    ウエイト = 0
     
     ポート = 5061
     
-    svr hostname = poolname.contoso.com (または Standard Edition server A レコード)
+    svr hostname = poolname.contoso.com (または Standard Edition サーバー A レコード)
     
-    poolname.contoso.com internet address = \<1 つの enterprise edition サーバーの\>仮想\<IP アドレス、または Standard Edition サーバーの1つの enterprise edition サーバー\>または\<ip アドレスのみを持つプール。\>
+    poolname.contoso.com internet address = \<enterprise edition サーバー\> \>また\<は Standard Edition サーバー \<の ip アドレスが1つしかないプールの場合は、1つの enterprise edition サーバーの仮想 ip アドレス\>
 
-7.  完了したら、コマンドプロンプトで「 **exit**」と入力し、enter キーを押します。
+7.  終了したら、コマンド プロンプトに「**exit**」と入力し、Enter キーを押します。
 
 </div>
 
 <div>
 
-## <a name="to-verify-that-the-fqdn-of-the-front-end-pool-or-standard-edition-server-can-be-resolved"></a>フロントエンドプールまたは Standard Edition サーバーの FQDN が解決できることを確認するには
+## <a name="to-verify-that-the-fqdn-of-the-front-end-pool-or-standard-edition-server-can-be-resolved"></a>フロントエンド プールまたは Standard Edition サーバーの FQDN が解決できることを確認するには
 
-1.  ドメイン内のクライアントコンピューターにログオンします。
+1.  ドメイン内のクライアント コンピューターにログオンします。
 
 2.  [**スタート**] ボタンをクリックし、[**ファイル名を指定して実行**] をクリックします。
 
-3.  [**開く**] ボックスに**cmd**と入力し、[ **OK**] をクリックします。
+3.  [**名前**] ボックスに「**cmd**」と入力し、[**OK**] をクリックします。
 
-4.  コマンドプロンプトに、標準エディションサーバー \<\>のフロントエンドプール\>または fqdn の**nslookup** \<FQDN と入力して、enter キーを押します。
+4.  コマンドプロンプトで、Standard Edition サーバー \<\>のフロントエンドプール\>または fqdn の「 **nslookup** \<fqdn」と入力し、enter キーを押します。
 
-5.  FQDN の適切な IP アドレスに解決される返信を受信したことを確認します。
+5.  受け取る応答が、FQDN の適切な IP アドレスに解決しているのを確認します。
 
 </div>
 
