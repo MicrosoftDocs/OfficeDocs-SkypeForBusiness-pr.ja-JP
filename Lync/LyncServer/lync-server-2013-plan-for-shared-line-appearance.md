@@ -12,20 +12,20 @@ ms:contentKeyID: 72522136
 ms.date: 03/21/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 755bff84b8902e346135139d1c8c5b26c55605c1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fdb4f8ad407950f8d3180d030ede03a1e93cf0b3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755167"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050599"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="plan-for-shared-line-appearance-in-lync-server-2013"></a><span data-ttu-id="39f71-102">Lync Server 2013 での共有線の外観を計画する</span><span class="sxs-lookup"><span data-stu-id="39f71-102">Plan for Shared Line Appearance in Lync Server 2013</span></span>
+# <a name="plan-for-shared-line-appearance-in-lync-server-2013"></a><span data-ttu-id="55740-102">Lync Server 2013 での共有線の外観を計画する</span><span class="sxs-lookup"><span data-stu-id="55740-102">Plan for Shared Line Appearance in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,43 +35,43 @@ ms.locfileid: "41755167"
 
 <span> </span>
 
-<span data-ttu-id="39f71-103">_**最終更新日:** 2016-03-21_</span><span class="sxs-lookup"><span data-stu-id="39f71-103">_**Topic Last Modified:** 2016-03-21_</span></span>
+<span data-ttu-id="55740-103">_**トピックの最終更新日:** 2016-03-21_</span><span class="sxs-lookup"><span data-stu-id="55740-103">_**Topic Last Modified:** 2016-03-21_</span></span>
 
-<span data-ttu-id="39f71-104">このトピックでは、Lync Server 2013 での共有線の外観 (SLA) を計画する方法について説明します。累積更新プログラム (2016 年4月)</span><span class="sxs-lookup"><span data-stu-id="39f71-104">Read this topic to learn how to plan for Shared Line Appearance (SLA) in Lync Server 2013, Cumulative Update April 2016.</span></span>
+<span data-ttu-id="55740-104">このトピックでは、Lync Server 2013 (累積更新プログラム4月 2016) での共有回線の外観 (SLA) の計画方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="55740-104">Read this topic to learn how to plan for Shared Line Appearance (SLA) in Lync Server 2013, Cumulative Update April 2016.</span></span>
 
-<span data-ttu-id="39f71-105">共有された線の外観は、Lync Server 2013 の累積更新プログラムである、共有番号という特定の番号での複数の通話を処理するための、2016年4月の機能です。</span><span class="sxs-lookup"><span data-stu-id="39f71-105">Shared Line Appearance is a feature in Lync Server 2013, Cumulative Update April 2016 for handling multiple calls on a specific number called a shared number.</span></span> <span data-ttu-id="39f71-106">SLA では、エンタープライズボイス対応の Lync ユーザーを、複数の回線と複数の通話に応答する共有番号として構成できます。</span><span class="sxs-lookup"><span data-stu-id="39f71-106">SLA can configure any enterprise voice enabled Lync user as a shared number with multiple lines to respond to multiple calls.</span></span> <span data-ttu-id="39f71-107">実際には共有番号で通話を受信するのではなく、共有番号の代理人として機能するユーザーに通話が転送されます。</span><span class="sxs-lookup"><span data-stu-id="39f71-107">The calls are not actually received on the shared number, instead they are forwarded to users that act as delegates for the shared number.</span></span> <span data-ttu-id="39f71-108">いずれかの代理人が通話に応答すると、残りの代理人は誰が通話に応答したか、またその結果としてどの回線が通話中になったかを示す通知を自分の電話で受け取ります。</span><span class="sxs-lookup"><span data-stu-id="39f71-108">Any one of the delegates can pick up the call while the rest of the delegates get a notification on their phone about who picked up the call and which line has become busy as a result.</span></span> <span data-ttu-id="39f71-109">SLA では、回線の番号と代理人の両方を共有番号に対して構成できます。</span><span class="sxs-lookup"><span data-stu-id="39f71-109">Both the number of lines and the delegates are configurable for a shared number in SLA.</span></span> <span data-ttu-id="39f71-110">さらに、BusyOption (すべての回線が通話中のときに実行する処理) と MissedCallOption (通話に応答できる代理人がいない場合の処理) などの高度なオプションも共有番号に対して構成できます。</span><span class="sxs-lookup"><span data-stu-id="39f71-110">In addition, advanced options, such as BusyOption (what happens in a situation when all lines are busy) and MissedCallOption (the case in which none of the delegates pick up a call), can also be configured for a shared number.</span></span>
+<span data-ttu-id="55740-105">共有線の外観は、Lync Server 2013 の機能で、累積的な更新プログラム4月2016は、共有番号と呼ばれる特定の番号で複数の通話を処理します。</span><span class="sxs-lookup"><span data-stu-id="55740-105">Shared Line Appearance is a feature in Lync Server 2013, Cumulative Update April 2016 for handling multiple calls on a specific number called a shared number.</span></span> <span data-ttu-id="55740-106">SLA では、エンタープライズ voip が有効な Lync ユーザーが複数の通話に応答するために複数の回線を使用して共有番号として構成することができます。</span><span class="sxs-lookup"><span data-stu-id="55740-106">SLA can configure any enterprise voice enabled Lync user as a shared number with multiple lines to respond to multiple calls.</span></span> <span data-ttu-id="55740-107">呼び出しは、実際には共有番号で受信されません。代わりに、共有番号の代理人として機能するユーザーに転送されます。</span><span class="sxs-lookup"><span data-stu-id="55740-107">The calls are not actually received on the shared number, instead they are forwarded to users that act as delegates for the shared number.</span></span> <span data-ttu-id="55740-108">いずれかの代理人が通話を取得できますが、残りの代理人は通話をピックアップしたユーザーと、その結果としてどの回線がビジー状態になったかについての通知を電話で受け取ります。</span><span class="sxs-lookup"><span data-stu-id="55740-108">Any one of the delegates can pick up the call while the rest of the delegates get a notification on their phone about who picked up the call and which line has become busy as a result.</span></span> <span data-ttu-id="55740-109">行数と代理人の両方が、SLA の共有番号に対して構成できます。</span><span class="sxs-lookup"><span data-stu-id="55740-109">Both the number of lines and the delegates are configurable for a shared number in SLA.</span></span> <span data-ttu-id="55740-110">さらに、BusyOption などの高度なオプション (すべての回線がビジー状態で行われる状況) および MissedCallOption (代理人が通話を選択しない場合) は、共有番号に対しても構成できます。</span><span class="sxs-lookup"><span data-stu-id="55740-110">In addition, advanced options, such as BusyOption (what happens in a situation when all lines are busy) and MissedCallOption (the case in which none of the delegates pick up a call), can also be configured for a shared number.</span></span>
 
-<span data-ttu-id="39f71-111">SLA は、次の電話デバイスでのみサポートされます (コンピューター、携帯電話、その他のデバイス上の Lync クライアントではサポートされていません)。</span><span class="sxs-lookup"><span data-stu-id="39f71-111">SLA is supported only on the following phone devices (it is not supported for Lync clients on computers, mobile phones, or other devices):</span></span>
+<span data-ttu-id="55740-111">SLA は、次の電話デバイスでのみサポートされます (コンピューター、携帯電話、その他のデバイス上の Lync クライアントではサポートされていません)。</span><span class="sxs-lookup"><span data-stu-id="55740-111">SLA is supported only on the following phone devices (it is not supported for Lync clients on computers, mobile phones, or other devices):</span></span>
 
-  - <span data-ttu-id="39f71-112">Polycom VVX300 (ファームウェア更新プログラム 5.4.1 インストール済み)</span><span class="sxs-lookup"><span data-stu-id="39f71-112">Polycom VVX300 with firmware update 5.4.1</span></span>
+  - <span data-ttu-id="55740-112">Polycom VVX300 with ファームウェア更新5.4.1</span><span class="sxs-lookup"><span data-stu-id="55740-112">Polycom VVX300 with firmware update 5.4.1</span></span>
 
-  - <span data-ttu-id="39f71-113">Polycom VVX400 (ファームウェア更新プログラム 5.4.1 インストール済み)</span><span class="sxs-lookup"><span data-stu-id="39f71-113">Polycom VVX400 with firmware update 5.4.1</span></span>
+  - <span data-ttu-id="55740-113">Polycom VVX400 with ファームウェア更新5.4.1</span><span class="sxs-lookup"><span data-stu-id="55740-113">Polycom VVX400 with firmware update 5.4.1</span></span>
 
-  - <span data-ttu-id="39f71-114">Polycom VVX500 (ファームウェア更新プログラム 5.4.1 インストール済み)</span><span class="sxs-lookup"><span data-stu-id="39f71-114">Polycom VVX500 with firmware update 5.4.1</span></span>
+  - <span data-ttu-id="55740-114">Polycom VVX500 with ファームウェア更新5.4.1</span><span class="sxs-lookup"><span data-stu-id="55740-114">Polycom VVX500 with firmware update 5.4.1</span></span>
 
-  - <span data-ttu-id="39f71-115">Polycom VVX600 (ファームウェア更新プログラム 5.4.1 インストール済み)</span><span class="sxs-lookup"><span data-stu-id="39f71-115">Polycom VVX600 with firmware update 5.4.1</span></span>
+  - <span data-ttu-id="55740-115">Polycom VVX600 with ファームウェア更新5.4.1</span><span class="sxs-lookup"><span data-stu-id="55740-115">Polycom VVX600 with firmware update 5.4.1</span></span>
 
-<span data-ttu-id="39f71-116">SLA は、Lync Server 2013 の累積更新プログラム、2016年4月の新機能です。</span><span class="sxs-lookup"><span data-stu-id="39f71-116">SLA is a new feature in Lync Server 2013, Cumulative Update April 2016.</span></span>
+<span data-ttu-id="55740-116">SLA は、Lync Server 2013 の新しい機能で、累積更新プログラムは4月2016です。</span><span class="sxs-lookup"><span data-stu-id="55740-116">SLA is a new feature in Lync Server 2013, Cumulative Update April 2016.</span></span>
 
-<span data-ttu-id="39f71-117">SLA の展開については、「 [Lync Server 2013 で共有線の外観を展開](lync-server-2013-deploy-shared-line-appearance.md)する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="39f71-117">For information about deploying SLA, see [Deploy Shared Line Appearance in Lync Server 2013](lync-server-2013-deploy-shared-line-appearance.md).</span></span>
+<span data-ttu-id="55740-117">SLA の展開については、「 [Lync Server 2013 での共有線の外観の展開](lync-server-2013-deploy-shared-line-appearance.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="55740-117">For information about deploying SLA, see [Deploy Shared Line Appearance in Lync Server 2013](lync-server-2013-deploy-shared-line-appearance.md).</span></span>
 
 <div>
 
-## <a name="feature-list"></a><span data-ttu-id="39f71-118">機能リスト</span><span class="sxs-lookup"><span data-stu-id="39f71-118">Feature List</span></span>
+## <a name="feature-list"></a><span data-ttu-id="55740-118">機能リスト</span><span class="sxs-lookup"><span data-stu-id="55740-118">Feature List</span></span>
 
-<span data-ttu-id="39f71-119">SLA グループをセットアップすると次のことが可能になります。</span><span class="sxs-lookup"><span data-stu-id="39f71-119">Setting up an SLA group enables the following:</span></span>
+<span data-ttu-id="55740-119">SLA グループを設定すると、次のことが可能になります。</span><span class="sxs-lookup"><span data-stu-id="55740-119">Setting up an SLA group enables the following:</span></span>
 
-  - <span data-ttu-id="39f71-p102">グループ内のすべての代理人が同じ共有番号への着信通話に応答できます。PSTN ベースまたは SIP ベースの通話を利用できます。</span><span class="sxs-lookup"><span data-stu-id="39f71-p102">All delegates in the group can answer inbound calls to the same shared number. The calls can be PSTN-based or SIP-based.</span></span>
+  - <span data-ttu-id="55740-120">グループ内のすべての委任は、同じ共有番号への着信呼び出しに応答できます。</span><span class="sxs-lookup"><span data-stu-id="55740-120">All delegates in the group can answer inbound calls to the same shared number.</span></span> <span data-ttu-id="55740-121">通話は、PSTN ベースまたは SIP ベースの場合があります。</span><span class="sxs-lookup"><span data-stu-id="55740-121">The calls can be PSTN-based or SIP-based.</span></span>
 
-  - <span data-ttu-id="39f71-122">代理人は、通話に応答することも保留にすることもできます。</span><span class="sxs-lookup"><span data-stu-id="39f71-122">Delegates can hold and pick up calls.</span></span>
+  - <span data-ttu-id="55740-122">代理人は、通話を保留および取得できます。</span><span class="sxs-lookup"><span data-stu-id="55740-122">Delegates can hold and pick up calls.</span></span>
 
-  - <span data-ttu-id="39f71-123">代理人は、SLA グループの外部の番号に通話を転送できます。</span><span class="sxs-lookup"><span data-stu-id="39f71-123">Delegates can transfer calls to a number outside of the SLA group.</span></span>
+  - <span data-ttu-id="55740-123">代理人は、SLA グループの外部の番号に通話を転送できます。</span><span class="sxs-lookup"><span data-stu-id="55740-123">Delegates can transfer calls to a number outside of the SLA group.</span></span>
 
-  - <span data-ttu-id="39f71-124">代理人は、現在の共有番号上の通話数と、それらの各通話のステータスを表示できます。</span><span class="sxs-lookup"><span data-stu-id="39f71-124">Delegates can see how many calls are currently on the shared number, and view the status of each of those calls.</span></span>
+  - <span data-ttu-id="55740-124">代理人は、現在共有番号にある通話数を確認したり、それぞれの通話の状態を表示したりできます。</span><span class="sxs-lookup"><span data-stu-id="55740-124">Delegates can see how many calls are currently on the shared number, and view the status of each of those calls.</span></span>
 
-  - <span data-ttu-id="39f71-p103">共有番号で受信する通話の最大数を構成できます。この最大数に達した後にかかってきた通話の処理方法も設定できます。その後の通話に対しては、話中音を流すか、代替番号に転送するか、ボイス メールに転送できます。</span><span class="sxs-lookup"><span data-stu-id="39f71-p103">You can configure a maximum number of concurrent calls for the shared number. You can also set how you want additional calls to be handled after this maximum is reached. Excess calls can be rejected with a busy signal, forwarded to an alternate number, or forwarded to voice mail.</span></span>
+  - <span data-ttu-id="55740-125">共有番号に対して同時呼び出しの最大数を構成できます。</span><span class="sxs-lookup"><span data-stu-id="55740-125">You can configure a maximum number of concurrent calls for the shared number.</span></span> <span data-ttu-id="55740-126">また、この最大数に達した後に、追加の呼び出しを処理する方法を設定することもできます。</span><span class="sxs-lookup"><span data-stu-id="55740-126">You can also set how you want additional calls to be handled after this maximum is reached.</span></span> <span data-ttu-id="55740-127">余分な通話は、通話中の信号を使用して拒否したり、代替番号に転送したり、ボイスメールに転送したりすることができます。</span><span class="sxs-lookup"><span data-stu-id="55740-127">Excess calls can be rejected with a busy signal, forwarded to an alternate number, or forwarded to voice mail.</span></span>
 
-  - <span data-ttu-id="39f71-p104">不在着信 (一定の時間が経過しても応答されなかった通話) の処理方法を構成できます。グループ ID のボイス メールを有効にした場合、不在着信は自動的にボイス メールに転送されます。グループ ID (共有番号) のボイス メールを有効にしない場合、不在着信に対して話中音を流すか、代替番号に転送するか、切断するかを選ぶことができます。</span><span class="sxs-lookup"><span data-stu-id="39f71-p104">You can configure how you want missed calls (calls not picked up after a certain time) to be handled. If you enable voice mail for the group identity, missed calls automatically go to voice mail. If you do not have voice mail enabled for the group identity (shared number), you can choose for missed calls to be rejected with a busy signal, forwarded to an alternate number, or disconnected.</span></span>
+  - <span data-ttu-id="55740-128">不在着信 (一定の時間が経過した後に呼び出されなかった通話) を処理する方法を構成できます。</span><span class="sxs-lookup"><span data-stu-id="55740-128">You can configure how you want missed calls (calls not picked up after a certain time) to be handled.</span></span> <span data-ttu-id="55740-129">グループ id に対してボイスメールを有効にした場合、不在着信は自動的にボイスメールに移動します。</span><span class="sxs-lookup"><span data-stu-id="55740-129">If you enable voice mail for the group identity, missed calls automatically go to voice mail.</span></span> <span data-ttu-id="55740-130">グループ id (共有番号) に対してボイスメールが有効になっていない場合、不在着信を拒否する場合は、通話中の信号を使用して拒否するか、代替番号に転送するか、または切断するかを選択できます。</span><span class="sxs-lookup"><span data-stu-id="55740-130">If you do not have voice mail enabled for the group identity (shared number), you can choose for missed calls to be rejected with a busy signal, forwarded to an alternate number, or disconnected.</span></span>
 
 </div>
 

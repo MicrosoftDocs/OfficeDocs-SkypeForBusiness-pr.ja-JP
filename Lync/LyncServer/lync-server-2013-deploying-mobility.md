@@ -12,20 +12,20 @@ ms:contentKeyID: 48185805
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ea96278ad965538923b619e84ea059c0d6c7953
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f70b94d5a529a3fce46ac2b199e079f6be1e5bd0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740947"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048758"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-mobility-in-lync-server-2013"></a><span data-ttu-id="14cd8-102">Lync Server 2013 でのモビリティの展開</span><span class="sxs-lookup"><span data-stu-id="14cd8-102">Deploying mobility in Lync Server 2013</span></span>
+# <a name="deploying-mobility-in-lync-server-2013"></a><span data-ttu-id="d04c3-102">Lync Server 2013 でのモビリティの展開</span><span class="sxs-lookup"><span data-stu-id="d04c3-102">Deploying mobility in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "41740947"
 
 <span> </span>
 
-<span data-ttu-id="14cd8-103">_**最終更新日:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="14cd8-103">_**Topic Last Modified:** 2012-09-08_</span></span>
+<span data-ttu-id="d04c3-103">_**トピックの最終更新日:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="d04c3-103">_**Topic Last Modified:** 2012-09-08_</span></span>
 
-<span data-ttu-id="14cd8-104">Lync Server 2013 モビリティ機能を展開するときに、モバイルユーザーは、インスタントメッセージング (IM)、プレゼンス、連絡先などの Lync 機能に対応するモバイルデバイスを使用できます。</span><span class="sxs-lookup"><span data-stu-id="14cd8-104">When you deploy the Lync Server 2013 mobility feature, mobile users can use supported mobile devices for Lync functionality such as instant messaging (IM), presence, and contacts.</span></span>
+<span data-ttu-id="d04c3-104">Lync Server 2013 モビリティ機能を展開すると、モバイルユーザーは、インスタントメッセージング (IM)、プレゼンス、連絡先などの Lync 機能に対してサポートされているモバイルデバイスを使用できるようになります。</span><span class="sxs-lookup"><span data-stu-id="d04c3-104">When you deploy the Lync Server 2013 mobility feature, mobile users can use supported mobile devices for Lync functionality such as instant messaging (IM), presence, and contacts.</span></span>
 
-<span data-ttu-id="14cd8-105">モバイル機能を展開するための要件の詳細については、「 [Lync Server 2013 でのモビリティの計画](lync-server-2013-planning-for-mobility.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="14cd8-105">For details about requirements for deploying the mobility feature, see [Planning for mobility in Lync Server 2013](lync-server-2013-planning-for-mobility.md).</span></span>
+<span data-ttu-id="d04c3-105">モビリティ機能を展開するための要件の詳細については、「 [Lync Server 2013 でのモビリティの計画](lync-server-2013-planning-for-mobility.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="d04c3-105">For details about requirements for deploying the mobility feature, see [Planning for mobility in Lync Server 2013](lync-server-2013-planning-for-mobility.md).</span></span>
 
-<span data-ttu-id="14cd8-106">このセクションでは、モバイル機能と自動検出機能を展開して確認するための手順について説明します。</span><span class="sxs-lookup"><span data-stu-id="14cd8-106">This section guides you through the steps for deploying and verifying the mobility and automatic discovery features.</span></span>
+<span data-ttu-id="d04c3-106">このセクションでは、モビリティ機能と自動検出機能を展開および確認する方法を順を追って説明します。</span><span class="sxs-lookup"><span data-stu-id="d04c3-106">This section guides you through the steps for deploying and verifying the mobility and automatic discovery features.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="14cd8-107">このセクション中</span><span class="sxs-lookup"><span data-stu-id="14cd8-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="d04c3-107">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="d04c3-107">In This Section</span></span>
 
-  - [<span data-ttu-id="14cd8-108">Lync Server 2013 での自動検出サービスの DNS レコードの作成</span><span class="sxs-lookup"><span data-stu-id="14cd8-108">Creating DNS records for the Autodiscover Service in Lync Server 2013</span></span>](lync-server-2013-creating-dns-records-for-the-autodiscover-service.md)
+  - [<span data-ttu-id="d04c3-108">Lync Server 2013 での自動検出サービスの DNS レコードの作成</span><span class="sxs-lookup"><span data-stu-id="d04c3-108">Creating DNS records for the Autodiscover Service in Lync Server 2013</span></span>](lync-server-2013-creating-dns-records-for-the-autodiscover-service.md)
 
-  - [<span data-ttu-id="14cd8-109">Lync Server 2013 でのモビリティに合わせた証明書の変更</span><span class="sxs-lookup"><span data-stu-id="14cd8-109">Modifying certificates for mobility in Lync Server 2013</span></span>](lync-server-2013-modifying-certificates-for-mobility.md)
+  - [<span data-ttu-id="d04c3-109">Lync Server 2013 でのモビリティの証明書の変更</span><span class="sxs-lookup"><span data-stu-id="d04c3-109">Modifying certificates for mobility in Lync Server 2013</span></span>](lync-server-2013-modifying-certificates-for-mobility.md)
 
-  - [<span data-ttu-id="14cd8-110">Lync Server 2013 での、モビリティに合わせたリバース プロキシの構成</span><span class="sxs-lookup"><span data-stu-id="14cd8-110">Configuring the reverse proxy for mobility in Lync Server 2013</span></span>](lync-server-2013-configuring-the-reverse-proxy-for-mobility.md)
+  - [<span data-ttu-id="d04c3-110">Lync Server 2013 でのモビリティのリバースプロキシの構成</span><span class="sxs-lookup"><span data-stu-id="d04c3-110">Configuring the reverse proxy for mobility in Lync Server 2013</span></span>](lync-server-2013-configuring-the-reverse-proxy-for-mobility.md)
 
-  - [<span data-ttu-id="14cd8-111">Lync Server 2013 のハイブリッド展開での自動検出の構成によるモビリティ</span><span class="sxs-lookup"><span data-stu-id="14cd8-111">Configuring Autodiscover in Lync Server 2013 for mobility with hybrid deployments</span></span>](lync-server-2013-configuring-autodiscover-for-mobility-with-hybrid-deployments.md)
+  - [<span data-ttu-id="d04c3-111">Lync Server 2013 での自動検出の構成 (ハイブリッド展開を使用したモビリティ)</span><span class="sxs-lookup"><span data-stu-id="d04c3-111">Configuring Autodiscover in Lync Server 2013 for mobility with hybrid deployments</span></span>](lync-server-2013-configuring-autodiscover-for-mobility-with-hybrid-deployments.md)
 
-  - [<span data-ttu-id="14cd8-112">Lync Server 2013 でのモビリティ展開の確認</span><span class="sxs-lookup"><span data-stu-id="14cd8-112">Verifying your mobility deployment in Lync Server 2013</span></span>](lync-server-2013-verifying-your-mobility-deployment.md)
+  - [<span data-ttu-id="d04c3-112">Lync Server 2013 でのモビリティの展開の確認</span><span class="sxs-lookup"><span data-stu-id="d04c3-112">Verifying your mobility deployment in Lync Server 2013</span></span>](lync-server-2013-verifying-your-mobility-deployment.md)
 
-  - [<span data-ttu-id="14cd8-113">Lync Server 2013 でプッシュ通知を構成する</span><span class="sxs-lookup"><span data-stu-id="14cd8-113">Configuring for push notifications in Lync Server 2013</span></span>](lync-server-2013-configuring-for-push-notifications.md)
+  - [<span data-ttu-id="d04c3-113">Lync Server 2013 でのプッシュ通知の構成</span><span class="sxs-lookup"><span data-stu-id="d04c3-113">Configuring for push notifications in Lync Server 2013</span></span>](lync-server-2013-configuring-for-push-notifications.md)
 
-  - [<span data-ttu-id="14cd8-114">Lync Server 2013 でのモビリティ ポリシーの構成</span><span class="sxs-lookup"><span data-stu-id="14cd8-114">Configuring mobility policy in Lync Server 2013</span></span>](lync-server-2013-configuring-mobility-policy.md)
+  - [<span data-ttu-id="d04c3-114">Lync Server 2013 でのモビリティポリシーの構成</span><span class="sxs-lookup"><span data-stu-id="d04c3-114">Configuring mobility policy in Lync Server 2013</span></span>](lync-server-2013-configuring-mobility-policy.md)
 
 </div>
 

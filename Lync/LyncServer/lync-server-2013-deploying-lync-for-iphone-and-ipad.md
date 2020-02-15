@@ -12,20 +12,20 @@ ms:contentKeyID: 51541511
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d3cf86aa601d17301b261ae8144c0b911672a0bd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 888fdd0a34973d5b7c7b6063056c98d4426a2f1a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758031"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050469"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-lync-for-iphone-and-ipad-in-lync-server-2013"></a><span data-ttu-id="70bee-102">Lync for iPhone および iPad for iPad を Lync Server 2013 に展開する</span><span class="sxs-lookup"><span data-stu-id="70bee-102">Deploying Lync for iPhone and iPad in Lync Server 2013</span></span>
+# <a name="deploying-lync-for-iphone-and-ipad-in-lync-server-2013"></a><span data-ttu-id="2849c-102">Lync Server 2013 での Lync for iPhone および iPad の展開</span><span class="sxs-lookup"><span data-stu-id="2849c-102">Deploying Lync for iPhone and iPad in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41758031"
 
 <span> </span>
 
-<span data-ttu-id="70bee-103">_**最終更新日:** 2013-02-19_</span><span class="sxs-lookup"><span data-stu-id="70bee-103">_**Topic Last Modified:** 2013-02-19_</span></span>
+<span data-ttu-id="2849c-103">_**トピックの最終更新日:** 2013-02-19_</span><span class="sxs-lookup"><span data-stu-id="2849c-103">_**Topic Last Modified:** 2013-02-19_</span></span>
 
-<span data-ttu-id="70bee-104">このセクションでは、モバイルユーザー用に Lync 2013 for iPhone と Lync 2013 for iPad を展開する方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="70bee-104">This section describes how to deploy Lync 2013 for iPhone and Lync 2013 for iPad for your mobile users.</span></span>
+<span data-ttu-id="2849c-104">このセクションでは、モバイルユーザー用に Lync 2013 for iPhone および Lync 2013 for iPad を展開する方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="2849c-104">This section describes how to deploy Lync 2013 for iPhone and Lync 2013 for iPad for your mobile users.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="70bee-105">このセクション中</span><span class="sxs-lookup"><span data-stu-id="70bee-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="2849c-105">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="2849c-105">In This Section</span></span>
 
-  - [<span data-ttu-id="70bee-106">Lync for iPhone および iPad を Lync Server 2013 にインストールする</span><span class="sxs-lookup"><span data-stu-id="70bee-106">Installing Lync for iPhone and iPad in Lync Server 2013</span></span>](lync-server-2013-installing-lync-for-iphone-and-ipad.md)
+  - [<span data-ttu-id="2849c-106">Lync Server 2013 で Lync for iPhone および iPad をインストールする</span><span class="sxs-lookup"><span data-stu-id="2849c-106">Installing Lync for iPhone and iPad in Lync Server 2013</span></span>](lync-server-2013-installing-lync-for-iphone-and-ipad.md)
 
-  - [<span data-ttu-id="70bee-107">Lync for iPhone および iPad を Lync Server 2013 で削除する</span><span class="sxs-lookup"><span data-stu-id="70bee-107">Removing Lync for iPhone and iPad in Lync Server 2013</span></span>](lync-server-2013-removing-lync-for-iphone-and-ipad.md)
+  - [<span data-ttu-id="2849c-107">Lync Server 2013 で Lync for iPhone および iPad を削除する</span><span class="sxs-lookup"><span data-stu-id="2849c-107">Removing Lync for iPhone and iPad in Lync Server 2013</span></span>](lync-server-2013-removing-lync-for-iphone-and-ipad.md)
 
 </div>
 

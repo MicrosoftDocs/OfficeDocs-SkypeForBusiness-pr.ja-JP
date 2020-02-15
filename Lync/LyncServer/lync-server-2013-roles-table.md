@@ -12,20 +12,20 @@ ms:contentKeyID: 48185893
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 251b266d18be3b472f4a22a635d134f6fe3dc77e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d3c241f685e9acc24b82acab1c7f50e1e15754b1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732967"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050819"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="roles-table-in-lync-server-2013"></a><span data-ttu-id="69bf0-102">Lync Server 2013 の Roles テーブル</span><span class="sxs-lookup"><span data-stu-id="69bf0-102">Roles table in Lync Server 2013</span></span>
+# <a name="roles-table-in-lync-server-2013"></a><span data-ttu-id="46f4e-102">Lync Server 2013 の Roles テーブル</span><span class="sxs-lookup"><span data-stu-id="46f4e-102">Roles table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41732967"
 
 <span> </span>
 
-<span data-ttu-id="69bf0-103">_**最終更新日:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="69bf0-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="46f4e-103">_**トピックの最終更新日:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="46f4e-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="69bf0-104">Roles テーブルは、出席者や発表者など、可能な電話会議ロールのリストを保存する静的テーブルです。</span><span class="sxs-lookup"><span data-stu-id="69bf0-104">The Roles table is a static table that stores the list of possible conference roles, such as attendee and presenter.</span></span>
+<span data-ttu-id="46f4e-104">Roles テーブルは、会議で使用可能な役割 (参加者、発表者など) のリストを格納する静的なテーブルです。</span><span class="sxs-lookup"><span data-stu-id="46f4e-104">The Roles table is a static table that stores the list of possible conference roles, such as attendee and presenter.</span></span>
 
 
 <table>
@@ -49,28 +49,28 @@ ms.locfileid: "41732967"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="69bf0-105">列</span><span class="sxs-lookup"><span data-stu-id="69bf0-105">Column</span></span></th>
-<th><span data-ttu-id="69bf0-106">データ型</span><span class="sxs-lookup"><span data-stu-id="69bf0-106">Data Type</span></span></th>
-<th><span data-ttu-id="69bf0-107">キー/インデックス</span><span class="sxs-lookup"><span data-stu-id="69bf0-107">Key/Index</span></span></th>
-<th><span data-ttu-id="69bf0-108">詳細</span><span class="sxs-lookup"><span data-stu-id="69bf0-108">Details</span></span></th>
+<th><span data-ttu-id="46f4e-105">列</span><span class="sxs-lookup"><span data-stu-id="46f4e-105">Column</span></span></th>
+<th><span data-ttu-id="46f4e-106">データ型</span><span class="sxs-lookup"><span data-stu-id="46f4e-106">Data Type</span></span></th>
+<th><span data-ttu-id="46f4e-107">キー/インデックス</span><span class="sxs-lookup"><span data-stu-id="46f4e-107">Key/Index</span></span></th>
+<th><span data-ttu-id="46f4e-108">詳細</span><span class="sxs-lookup"><span data-stu-id="46f4e-108">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="69bf0-109"><strong>RoleId</strong></span><span class="sxs-lookup"><span data-stu-id="69bf0-109"><strong>RoleId</strong></span></span></p></td>
-<td><p><span data-ttu-id="69bf0-110">tinyint</span><span class="sxs-lookup"><span data-stu-id="69bf0-110">tinyint</span></span></p></td>
-<td><p><span data-ttu-id="69bf0-111">Primary</span><span class="sxs-lookup"><span data-stu-id="69bf0-111">Primary</span></span></p></td>
+<td><p><span data-ttu-id="46f4e-109"><strong>RoleId</strong></span><span class="sxs-lookup"><span data-stu-id="46f4e-109"><strong>RoleId</strong></span></span></p></td>
+<td><p><span data-ttu-id="46f4e-110">tinyint</span><span class="sxs-lookup"><span data-stu-id="46f4e-110">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="46f4e-111">Primary</span><span class="sxs-lookup"><span data-stu-id="46f4e-111">Primary</span></span></p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="69bf0-112"><strong>役割</strong></span><span class="sxs-lookup"><span data-stu-id="69bf0-112"><strong>Role</strong></span></span></p></td>
-<td><p><span data-ttu-id="69bf0-113">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="69bf0-113">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="46f4e-112"><strong>役割</strong></span><span class="sxs-lookup"><span data-stu-id="46f4e-112"><strong>Role</strong></span></span></p></td>
+<td><p><span data-ttu-id="46f4e-113">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="46f4e-113">nvarchar(256)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="69bf0-114">許可される値:</span><span class="sxs-lookup"><span data-stu-id="69bf0-114">Allowed values:</span></span></p>
+<td><p><span data-ttu-id="46f4e-114">有効な値は次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="46f4e-114">Allowed values:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="69bf0-115">0-不明</span><span class="sxs-lookup"><span data-stu-id="69bf0-115">0 - Unknown</span></span></p></li>
-<li><p><span data-ttu-id="69bf0-116">1-プレゼンター</span><span class="sxs-lookup"><span data-stu-id="69bf0-116">1 - Presenter</span></span></p></li>
-<li><p><span data-ttu-id="69bf0-117">2-出席者</span><span class="sxs-lookup"><span data-stu-id="69bf0-117">2 - Attendee</span></span></p></li>
+<li><p><span data-ttu-id="46f4e-115">0 - 不明</span><span class="sxs-lookup"><span data-stu-id="46f4e-115">0 - Unknown</span></span></p></li>
+<li><p><span data-ttu-id="46f4e-116">1 - 発表者</span><span class="sxs-lookup"><span data-stu-id="46f4e-116">1 - Presenter</span></span></p></li>
+<li><p><span data-ttu-id="46f4e-117">2 - 参加者</span><span class="sxs-lookup"><span data-stu-id="46f4e-117">2 - Attendee</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>

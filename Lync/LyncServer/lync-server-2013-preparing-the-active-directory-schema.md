@@ -12,20 +12,20 @@ ms:contentKeyID: 48183300
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 572f531b57c504bda210f8f21298076428342b62
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4d98f7ba4ac0f2efe8a78ebcaacdc966ac5fdf3a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747397"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050499"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="preparing-the-active-directory-schema-in-lync-server-2013"></a><span data-ttu-id="7eb77-102">Lync Server 2013 での Active Directory スキーマの準備</span><span class="sxs-lookup"><span data-stu-id="7eb77-102">Preparing the Active Directory schema in Lync Server 2013</span></span>
+# <a name="preparing-the-active-directory-schema-in-lync-server-2013"></a><span data-ttu-id="26f4b-102">Lync Server 2013 での Active Directory スキーマの準備</span><span class="sxs-lookup"><span data-stu-id="26f4b-102">Preparing the Active Directory schema in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41747397"
 
 <span> </span>
 
-<span data-ttu-id="7eb77-103">_**最終更新日:** 2012-08-27_</span><span class="sxs-lookup"><span data-stu-id="7eb77-103">_**Topic Last Modified:** 2012-08-27_</span></span>
+<span data-ttu-id="26f4b-103">_**トピックの最終更新日:** 2012-08-27_</span><span class="sxs-lookup"><span data-stu-id="26f4b-103">_**Topic Last Modified:** 2012-08-27_</span></span>
 
-<span data-ttu-id="7eb77-104">Active Directory ドメインサービスの準備を始める前に、Windows メモ帳などのテキストエディターを使用してスキーマファイルを開くか、lync server [2013 で使用さ](lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md)れている Active Directory ドメインサービスのスキーマ拡張機能を確認して、lync server 2013 で変更されるすべての Active Directory ドメインサービスのスキーマ拡張を確認することができます。</span><span class="sxs-lookup"><span data-stu-id="7eb77-104">Before you begin preparing Active Directory Domain Services, you can open the schema files by using a text editor, such as Windows Notepad, or see [Active Directory schema extensions, classes, and attributes used by Lync Server 2013](lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md) to review all the Active Directory Domain Services schema extensions that will be modified for Lync Server 2013.</span></span> <span data-ttu-id="7eb77-105">Lync Server では、次の4つのスキーマファイルが使用されます。</span><span class="sxs-lookup"><span data-stu-id="7eb77-105">Lync Server uses four schema files:</span></span>
+<span data-ttu-id="26f4b-104">Active Directory ドメインサービスの準備を開始する前に、Windows メモ帳などのテキストエディターを使用してスキーマファイルを開くか、または lync [server 2013 によって使用される Active directory スキーマ拡張、クラス、属性](lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md)を参照して、lync server 2013 に対して変更されるすべての Active Directory ドメインサービスのスキーマ拡張を確認できます。</span><span class="sxs-lookup"><span data-stu-id="26f4b-104">Before you begin preparing Active Directory Domain Services, you can open the schema files by using a text editor, such as Windows Notepad, or see [Active Directory schema extensions, classes, and attributes used by Lync Server 2013](lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md) to review all the Active Directory Domain Services schema extensions that will be modified for Lync Server 2013.</span></span> <span data-ttu-id="26f4b-105">Lync Server は、次の4つのスキーマファイルを使用します。</span><span class="sxs-lookup"><span data-stu-id="26f4b-105">Lync Server uses four schema files:</span></span>
 
-  - <span data-ttu-id="7eb77-106">Microsoft Exchange Server との相互運用性を実現するために使用される ExternalSchema. .ldf</span><span class="sxs-lookup"><span data-stu-id="7eb77-106">ExternalSchema.ldf, which is used for interoperability with Microsoft Exchange Server</span></span>
+  - <span data-ttu-id="26f4b-106">ExternalSchema は、Microsoft Exchange Server との相互運用性に使用されます。</span><span class="sxs-lookup"><span data-stu-id="26f4b-106">ExternalSchema.ldf, which is used for interoperability with Microsoft Exchange Server</span></span>
 
-  - <span data-ttu-id="7eb77-107">ServerSchema: プライマリ Lync Server 2013 スキーマファイル</span><span class="sxs-lookup"><span data-stu-id="7eb77-107">ServerSchema.ldf, which is the primary Lync Server 2013 schema file</span></span>
+  - <span data-ttu-id="26f4b-107">ServerSchema。これは、プライマリ Lync Server 2013 スキーマファイルです。</span><span class="sxs-lookup"><span data-stu-id="26f4b-107">ServerSchema.ldf, which is the primary Lync Server 2013 schema file</span></span>
 
-  - <span data-ttu-id="7eb77-108">BackCompatSchema。以前のリリースのコンポーネントとの相互運用性を実現するために使用されます。</span><span class="sxs-lookup"><span data-stu-id="7eb77-108">BackCompatSchema.ldf, which is used for interoperability with any components from prior releases</span></span>
+  - <span data-ttu-id="26f4b-108">BackCompatSchema.ldf (以前のリリースのコンポーネントとの相互運用性を確保するために使用されます)</span><span class="sxs-lookup"><span data-stu-id="26f4b-108">BackCompatSchema.ldf, which is used for interoperability with any components from prior releases</span></span>
 
-  - <span data-ttu-id="7eb77-109">既成のスキーマのバージョン情報として使用される VersionSchema。</span><span class="sxs-lookup"><span data-stu-id="7eb77-109">VersionSchema.ldf, which is used for version information of the prepared schema</span></span>
+  - <span data-ttu-id="26f4b-109">VersionSchema.ldf (準備したスキーマのバージョン情報を保持するために使用されます)</span><span class="sxs-lookup"><span data-stu-id="26f4b-109">VersionSchema.ldf, which is used for version information of the prepared schema</span></span>
 
-<span data-ttu-id="7eb77-110">以前のリリースから移行するか、クリーンインストールを実行するかに関係なく、スキーマの準備中にすべての .ldf ファイルがインストールされます。</span><span class="sxs-lookup"><span data-stu-id="7eb77-110">All .ldf files are installed during schema preparation, regardless of whether you are migrating from a previous release or performing a clean installation.</span></span> <span data-ttu-id="7eb77-111">これらのスキーマファイルは、上に示した順序でインストールされ、インストールメディア\\の\\[サポートスキーマ] フォルダーにあります。</span><span class="sxs-lookup"><span data-stu-id="7eb77-111">These schema files are installed in the sequence shown in the preceding list and are located in the \\Support\\schema folder on the installation media.</span></span>
+<span data-ttu-id="26f4b-110">以前のリリースから移行しているかどうかや、クリーン インストールを実行しているかどうかに関係なく、すべての .ldf ファイルがスキーマの準備時にインストールされます。</span><span class="sxs-lookup"><span data-stu-id="26f4b-110">All .ldf files are installed during schema preparation, regardless of whether you are migrating from a previous release or performing a clean installation.</span></span> <span data-ttu-id="26f4b-111">これらのスキーマファイルは、上記の一覧に示されている順序でインストールさ\\れ\\、インストールメディアの Support スキーマフォルダーにあります。</span><span class="sxs-lookup"><span data-stu-id="26f4b-111">These schema files are installed in the sequence shown in the preceding list and are located in the \\Support\\schema folder on the installation media.</span></span>
 
-<span data-ttu-id="7eb77-112">Lync Server スキーマの拡張機能は、ネットワークトラフィックに影響を与えるすべてのドメインにわたってレプリケートされます。</span><span class="sxs-lookup"><span data-stu-id="7eb77-112">The Lync Server schema extensions are replicated across all domains, which impacts network traffic.</span></span> <span data-ttu-id="7eb77-113">ネットワーク使用量が少なくなったら、一度にスキーマの準備を実行します。</span><span class="sxs-lookup"><span data-stu-id="7eb77-113">Run schema preparation at a time when network usage is low.</span></span>
+<span data-ttu-id="26f4b-112">Lync Server スキーマ拡張機能は、すべてのドメイン間でレプリケートされ、ネットワークトラフィックに影響します。</span><span class="sxs-lookup"><span data-stu-id="26f4b-112">The Lync Server schema extensions are replicated across all domains, which impacts network traffic.</span></span> <span data-ttu-id="26f4b-113">スキーマの準備は、ネットワークの使用率が低いときに実行してください。</span><span class="sxs-lookup"><span data-stu-id="26f4b-113">Run schema preparation at a time when network usage is low.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="7eb77-114">Microsoft® Office Communicator mobile 2007 R2 for Java および Microsoft® Office communicator mobile を使用して 2013 Lync 1.0 モバイルクライアント用のサポートを追加する必要がある場合は、Microsoft Office の Active Directory スキーマを準備する必要があります。Lync Server 2013 のインストール中の Communications Server 2007 R2。</span><span class="sxs-lookup"><span data-stu-id="7eb77-114">If you need to add support for Microsoft® Office Communicator Mobile 2007 R2 for Java and Microsoft® Office Communicator Mobile for Nokia 1.0 mobile clients to your Lync Server 2013 deployment, you need to prepare the Active Directory schema for Microsoft Office Communications Server 2007 R2 during installation of Lync Server 2013.</span></span> <span data-ttu-id="7eb77-115">必要なソフトウェアとドキュメントについて<A href="http://go.microsoft.com/fwlink/p/?linkid=207172">http://go.microsoft.com/fwlink/p/?linkId=207172</A>は、を参照してください。</span><span class="sxs-lookup"><span data-stu-id="7eb77-115">For the necessary software and documentation, see <A href="http://go.microsoft.com/fwlink/p/?linkid=207172">http://go.microsoft.com/fwlink/p/?linkId=207172</A>.</span></span>
+> <span data-ttu-id="26f4b-114">Lync 1.0 モバイルクライアント用の Microsoft® Office Communicator Mobile 2007 R2 および Microsoft® Office Communicator Mobile のサポートを Lync Server 2013 展開に追加する必要がある場合は、Microsoft Office の Active Directory スキーマを準備する必要があります。Lync Server 2013 のインストール中の Communications Server 2007 R2。</span><span class="sxs-lookup"><span data-stu-id="26f4b-114">If you need to add support for Microsoft® Office Communicator Mobile 2007 R2 for Java and Microsoft® Office Communicator Mobile for Nokia 1.0 mobile clients to your Lync Server 2013 deployment, you need to prepare the Active Directory schema for Microsoft Office Communications Server 2007 R2 during installation of Lync Server 2013.</span></span> <span data-ttu-id="26f4b-115">必要なソフトウェアおよびドキュメントについて<A href="http://go.microsoft.com/fwlink/p/?linkid=207172">http://go.microsoft.com/fwlink/p/?linkId=207172</A>は、「」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="26f4b-115">For the necessary software and documentation, see <A href="http://go.microsoft.com/fwlink/p/?linkid=207172">http://go.microsoft.com/fwlink/p/?linkId=207172</A>.</span></span>
 
 
 
@@ -63,33 +63,33 @@ ms.locfileid: "41747397"
 
 <div>
 
-## <a name="adsi-edit"></a><span data-ttu-id="7eb77-116">ADSI の編集</span><span class="sxs-lookup"><span data-stu-id="7eb77-116">ADSI Edit</span></span>
+## <a name="adsi-edit"></a><span data-ttu-id="26f4b-116">ADSI エディター</span><span class="sxs-lookup"><span data-stu-id="26f4b-116">ADSI Edit</span></span>
 
-<span data-ttu-id="7eb77-117">Active Directory サービスインターフェイスエディター (ADSI Edit) は、スキーマの準備とレプリケーションを確認するために使用できる AD DS 管理ツールです。</span><span class="sxs-lookup"><span data-stu-id="7eb77-117">Active Directory Service Interfaces Editor (ADSI Edit) is an AD DS administration tool that you can use to verify schema preparation and replication.</span></span>
+<span data-ttu-id="26f4b-117">Active Directory サービス インターフェイス エディター (ADSI エディター) は AD DS の管理ツールです。これを使用すると、スキーマの準備およびレプリケーションを確認できます。</span><span class="sxs-lookup"><span data-stu-id="26f4b-117">Active Directory Service Interfaces Editor (ADSI Edit) is an AD DS administration tool that you can use to verify schema preparation and replication.</span></span>
 
-<span data-ttu-id="7eb77-118">サーバーをドメインコントローラーにするには、AD DS の役割をインストールするときに、ADSI の編集が既定でインストールされます。</span><span class="sxs-lookup"><span data-stu-id="7eb77-118">ADSI Edit is installed by default when you install the AD DS role to make a server a domain controller.</span></span> <span data-ttu-id="7eb77-119">Windows Server 2008 および Windows Server 2008 R2 の場合、リモートサーバー管理ツール (RSAT) に ADSI Edit (adsiedit) が含まれています。</span><span class="sxs-lookup"><span data-stu-id="7eb77-119">For Windows Server 2008 and Windows Server 2008 R2, ADSI Edit (adsiedit.msc) is included with the Remote Server Administration Tools (RSAT).</span></span> <span data-ttu-id="7eb77-120">また、ドメインメンバーサーバーまたはスタンドアロンサーバーに RSAT をインストールすることもできます。</span><span class="sxs-lookup"><span data-stu-id="7eb77-120">You can also install RSAT on domain member servers or stand-alone servers.</span></span> <span data-ttu-id="7eb77-121">Windows をインストールすると、既定では、RSAT パッケージはこれらのサーバーにコピーされますが、既定ではインストールされません。</span><span class="sxs-lookup"><span data-stu-id="7eb77-121">The RSAT package is copied to these servers by default when you install Windows, but it is not installed by default.</span></span> <span data-ttu-id="7eb77-122">サーバーマネージャーを使用して個々のツールをインストールします。</span><span class="sxs-lookup"><span data-stu-id="7eb77-122">You install individual tools by using Server Manager.</span></span> <span data-ttu-id="7eb77-123">ADSI Edit は、[**役割管理ツール**]、[ **Active Directory ドメインサービスツール**]、[ **active directory ドメインコントローラーツール**] に含まれています。</span><span class="sxs-lookup"><span data-stu-id="7eb77-123">ADSI Edit is included under **Role Administration Tools**, **Active Directory Domain Services Tools**, **Active Directory Domain Controller Tools**.</span></span>
+<span data-ttu-id="26f4b-118">既定では、AD DS の役割をインストールしてサーバーをドメイン コントローラーにするときに ADSI エディターがインストールされます。</span><span class="sxs-lookup"><span data-stu-id="26f4b-118">ADSI Edit is installed by default when you install the AD DS role to make a server a domain controller.</span></span> <span data-ttu-id="26f4b-119">Windows Server 2008 および Windows Server 2008 R2 の場合、ADSI Edit (adsiedit) はリモートサーバー管理ツール (RSAT) に含まれています。</span><span class="sxs-lookup"><span data-stu-id="26f4b-119">For Windows Server 2008 and Windows Server 2008 R2, ADSI Edit (adsiedit.msc) is included with the Remote Server Administration Tools (RSAT).</span></span> <span data-ttu-id="26f4b-120">また、RSAT をドメイン メンバー サーバーまたはスタンドアロン サーバーにインストールすることもできます。</span><span class="sxs-lookup"><span data-stu-id="26f4b-120">You can also install RSAT on domain member servers or stand-alone servers.</span></span> <span data-ttu-id="26f4b-121">RSAT パッケージは、既定で、Windows のインストール時にこれらのサーバーにコピーされますが、インストールされません。</span><span class="sxs-lookup"><span data-stu-id="26f4b-121">The RSAT package is copied to these servers by default when you install Windows, but it is not installed by default.</span></span> <span data-ttu-id="26f4b-122">各ツールをインストールするには、サーバー マネージャを使用します。</span><span class="sxs-lookup"><span data-stu-id="26f4b-122">You install individual tools by using Server Manager.</span></span> <span data-ttu-id="26f4b-123">ADSI エディターは、**[役割管理ツール]**、**[Active Directory ドメイン サービス ツール]**、**[Active Directory ドメイン コントローラー ツール]** を順に展開すると見つかります。</span><span class="sxs-lookup"><span data-stu-id="26f4b-123">ADSI Edit is included under **Role Administration Tools**, **Active Directory Domain Services Tools**, **Active Directory Domain Controller Tools**.</span></span>
 
-<span data-ttu-id="7eb77-124">Windows Server 2003 の場合、ADSI Edit はサポートツールに含まれています。</span><span class="sxs-lookup"><span data-stu-id="7eb77-124">For Windows Server 2003, ADSI Edit is included with the Support Tools.</span></span> <span data-ttu-id="7eb77-125">サポートツールは、Windows Server 2003 CD の [ \\サポート\\ツール] フォルダーにあり[http://go.microsoft.com/fwlink/p/?linkId=125770](http://go.microsoft.com/fwlink/p/?linkid=125770)ます。または、"windows Server 2003 Service Pack 2 32 ビットサポートツール" からダウンロードすることもできます。</span><span class="sxs-lookup"><span data-stu-id="7eb77-125">The Support Tools are available from the Windows Server 2003 CD in the \\SUPPORT\\TOOLS folder, or you can download them from “Windows Server 2003 Service Pack 2 32-bit Support Tools” at [http://go.microsoft.com/fwlink/p/?linkId=125770](http://go.microsoft.com/fwlink/p/?linkid=125770).</span></span> <span data-ttu-id="7eb77-126">製品 CD のサポートツールをインストールする手順については、「Windows サポートツールをインストール[http://go.microsoft.com/fwlink/p/?linkId=125771](http://go.microsoft.com/fwlink/p/?linkid=125771)する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="7eb77-126">Instructions for installing the Support Tools from the product CD are available from “Install Windows Support Tools” at [http://go.microsoft.com/fwlink/p/?linkId=125771](http://go.microsoft.com/fwlink/p/?linkid=125771).</span></span> <span data-ttu-id="7eb77-127">サポートツールをインストールするときに、Adsiedit が自動的に登録されます。</span><span class="sxs-lookup"><span data-stu-id="7eb77-127">Adsiedit.dll is automatically registered when you install the support tools.</span></span> <span data-ttu-id="7eb77-128">ただし、ファイルをコンピューターにコピーした場合は、このツールを実行する前に、 **regsvr32**コマンドを実行して、adsiedit ファイルを登録する必要があります。</span><span class="sxs-lookup"><span data-stu-id="7eb77-128">If, however, you copied the files to your computer, you must run the **regsvr32** command to register the adsiedit.dll file before you can run the tool.</span></span>
-
-</div>
-
-<div>
-
-## <a name="in-this-section"></a><span data-ttu-id="7eb77-129">このセクション中</span><span class="sxs-lookup"><span data-stu-id="7eb77-129">In This Section</span></span>
-
-  - [<span data-ttu-id="7eb77-130">Lync Server 2013 での Active Directory スキーマの準備の実行</span><span class="sxs-lookup"><span data-stu-id="7eb77-130">Running Active Directory schema preparation in Lync Server 2013</span></span>](lync-server-2013-running-schema-preparation.md)
-
-  - [<span data-ttu-id="7eb77-131">Lync Server 2013 での Active Directory スキーマのレプリケーションの確認</span><span class="sxs-lookup"><span data-stu-id="7eb77-131">Verifying Active Directory schema replication in Lync Server 2013</span></span>](lync-server-2013-verifying-schema-replication.md)
+<span data-ttu-id="26f4b-124">Windows Server 2003 の場合、ADSI エディターはサポート ツールに付属しています。</span><span class="sxs-lookup"><span data-stu-id="26f4b-124">For Windows Server 2003, ADSI Edit is included with the Support Tools.</span></span> <span data-ttu-id="26f4b-125">サポートツールは、 \\サポート\\ツールフォルダーの windows server 2003 CD から入手するか、「Windows server 2003 Service Pack 2 32-bit Support tools」からダウンロードでき[http://go.microsoft.com/fwlink/p/?linkId=125770](http://go.microsoft.com/fwlink/p/?linkid=125770)ます。</span><span class="sxs-lookup"><span data-stu-id="26f4b-125">The Support Tools are available from the Windows Server 2003 CD in the \\SUPPORT\\TOOLS folder, or you can download them from “Windows Server 2003 Service Pack 2 32-bit Support Tools” at [http://go.microsoft.com/fwlink/p/?linkId=125770](http://go.microsoft.com/fwlink/p/?linkid=125770).</span></span> <span data-ttu-id="26f4b-126">製品 CD からサポートツールをインストールする手順については、「Windows サポートツールをインストール[http://go.microsoft.com/fwlink/p/?linkId=125771](http://go.microsoft.com/fwlink/p/?linkid=125771)する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="26f4b-126">Instructions for installing the Support Tools from the product CD are available from “Install Windows Support Tools” at [http://go.microsoft.com/fwlink/p/?linkId=125771](http://go.microsoft.com/fwlink/p/?linkid=125771).</span></span> <span data-ttu-id="26f4b-127">サポート ツールをインストールすると、adsiedit.dll が自動的に登録されます。</span><span class="sxs-lookup"><span data-stu-id="26f4b-127">Adsiedit.dll is automatically registered when you install the support tools.</span></span> <span data-ttu-id="26f4b-128">ただし、ファイルをコンピューターにコピーした場合は、ツールを実行する前に、**regsvr32** コマンドを実行して adsiedit.dll ファイルを登録する必要があります。</span><span class="sxs-lookup"><span data-stu-id="26f4b-128">If, however, you copied the files to your computer, you must run the **regsvr32** command to register the adsiedit.dll file before you can run the tool.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="7eb77-132">関連項目</span><span class="sxs-lookup"><span data-stu-id="7eb77-132">See Also</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="26f4b-129">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="26f4b-129">In This Section</span></span>
+
+  - [<span data-ttu-id="26f4b-130">Lync Server 2013 での Active Directory スキーマの準備の実行</span><span class="sxs-lookup"><span data-stu-id="26f4b-130">Running Active Directory schema preparation in Lync Server 2013</span></span>](lync-server-2013-running-schema-preparation.md)
+
+  - [<span data-ttu-id="26f4b-131">Lync Server 2013 での Active Directory スキーマのレプリケーションの確認</span><span class="sxs-lookup"><span data-stu-id="26f4b-131">Verifying Active Directory schema replication in Lync Server 2013</span></span>](lync-server-2013-verifying-schema-replication.md)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="26f4b-132">関連項目</span><span class="sxs-lookup"><span data-stu-id="26f4b-132">See Also</span></span>
 
 
-[<span data-ttu-id="7eb77-133">Lync Server 2013 でのフォレストの準備</span><span class="sxs-lookup"><span data-stu-id="7eb77-133">Preparing the forest for Lync Server 2013</span></span>](lync-server-2013-preparing-the-forest.md)  
-[<span data-ttu-id="7eb77-134">Lync Server 2013 のドメインの準備</span><span class="sxs-lookup"><span data-stu-id="7eb77-134">Preparing domains for Lync Server 2013</span></span>](lync-server-2013-preparing-domains.md)  
+[<span data-ttu-id="26f4b-133">Lync Server 2013 のフォレストの準備</span><span class="sxs-lookup"><span data-stu-id="26f4b-133">Preparing the forest for Lync Server 2013</span></span>](lync-server-2013-preparing-the-forest.md)  
+[<span data-ttu-id="26f4b-134">Lync Server 2013 のドメインの準備</span><span class="sxs-lookup"><span data-stu-id="26f4b-134">Preparing domains for Lync Server 2013</span></span>](lync-server-2013-preparing-domains.md)  
   
 
 </div>

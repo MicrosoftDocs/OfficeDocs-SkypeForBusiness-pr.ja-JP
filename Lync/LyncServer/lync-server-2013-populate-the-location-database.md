@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 場所データベースを設定する'
+title: 'Lync Server 2013: 場所データベースの設定'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185939
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a93cee85afec1e3943af692d598d0d02ab678d58
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d7b443e257ee45c15974ba96a50b8217113ac942
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747647"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048341"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="populate-the-location-database-in-lync-server-2013"></a><span data-ttu-id="8ea4d-102">Lync Server 2013 で位置情報データベースを設定する</span><span class="sxs-lookup"><span data-stu-id="8ea4d-102">Populate the location database in Lync Server 2013</span></span>
+# <a name="populate-the-location-database-in-lync-server-2013"></a><span data-ttu-id="efa29-102">Lync Server 2013 で場所データベースを設定する</span><span class="sxs-lookup"><span data-stu-id="efa29-102">Populate the location database in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41747647"
 
 <span> </span>
 
-<span data-ttu-id="8ea4d-103">_**最終更新日:** 2012-09-17_</span><span class="sxs-lookup"><span data-stu-id="8ea4d-103">_**Topic Last Modified:** 2012-09-17_</span></span>
+<span data-ttu-id="efa29-103">_**トピックの最終更新日:** 2012-09-17_</span><span class="sxs-lookup"><span data-stu-id="efa29-103">_**Topic Last Modified:** 2012-09-17_</span></span>
 
-<span data-ttu-id="8ea4d-p101">ネットワーク内のクライアントを自動で検出するために、まず、ネットワーク要素を正式な住所にマップする、ネットワークの*ワイヤマップ*を場所データベースに読み込む必要があります。ワイヤマップの定義には、サブネット、ワイヤレス アクセス ポイント、スイッチ、およびポートを使用できます。</span><span class="sxs-lookup"><span data-stu-id="8ea4d-p101">To automatically locate clients within a network, you first need to populate the location database with a network *wiremap*, which maps network elements to civic (that is, street) addresses. You can use subnets, wireless access points, switches, and ports to define the wiremap.</span></span>
+<span data-ttu-id="efa29-104">ネットワーク内のクライアントを自動的に検索するには、まず、場所データベースにネットワークのアドレスマップを設定します。これに*より、ネットワーク*要素は、(つまり、ストリートの) 住所にマッピングされます。</span><span class="sxs-lookup"><span data-stu-id="efa29-104">To automatically locate clients within a network, you first need to populate the location database with a network *wiremap*, which maps network elements to civic (that is, street) addresses.</span></span> <span data-ttu-id="efa29-105">サブネット、ワイヤレスアクセスポイント、スイッチ、およびポートを使用して、wiremap を定義できます。</span><span class="sxs-lookup"><span data-stu-id="efa29-105">You can use subnets, wireless access points, switches, and ports to define the wiremap.</span></span>
 
-<span data-ttu-id="8ea4d-106">住所は場所データベースに個別に追加することも、次の表に示す列形式を含む CSV ファイルを使用して一括で追加することもできます。</span><span class="sxs-lookup"><span data-stu-id="8ea4d-106">You can add addresses to the location database individually, or in bulk by using a CSV file that contains the column formats described in the following table.</span></span>
+<span data-ttu-id="efa29-106">住所は場所データベースに個別に追加することも、次の表に示す列形式を含む CSV ファイルを使用して一括で追加することもできます。</span><span class="sxs-lookup"><span data-stu-id="efa29-106">You can add addresses to the location database individually, or in bulk by using a CSV file that contains the column formats described in the following table.</span></span>
 
-<span data-ttu-id="8ea4d-p102">緊急位置識別番号 (ELIN) ゲートウェイを使用している場合、各場所の **[CompanyName]** フィールドに ELIN を含めます。各場所に複数の ELIN をセミコロンで区切って含めることができます。</span><span class="sxs-lookup"><span data-stu-id="8ea4d-p102">If you use an Emergency Location Identification Number (ELIN) gateway, include the ELIN in the **CompanyName** field for each location. You can include multiple ELINs for each location, each separated by a semicolon.</span></span>
+<span data-ttu-id="efa29-107">緊急位置識別番号 (ELIN) ゲートウェイを使用する場合は、各場所の [ **CompanyName** ] フィールドに ELIN を含めます。</span><span class="sxs-lookup"><span data-stu-id="efa29-107">If you use an Emergency Location Identification Number (ELIN) gateway, include the ELIN in the **CompanyName** field for each location.</span></span> <span data-ttu-id="efa29-108">各場所に複数の ELINs を含めることができます。それぞれはセミコロンで区切って指定します。</span><span class="sxs-lookup"><span data-stu-id="efa29-108">You can include multiple ELINs for each location, each separated by a semicolon.</span></span>
 
 
 <table>
@@ -51,105 +51,105 @@ ms.locfileid: "41747647"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="8ea4d-109">ネットワーク要素</span><span class="sxs-lookup"><span data-stu-id="8ea4d-109">Network Element</span></span></th>
-<th><span data-ttu-id="8ea4d-110">必要な列</span><span class="sxs-lookup"><span data-stu-id="8ea4d-110">Required Columns</span></span></th>
+<th><span data-ttu-id="efa29-109">Network 要素</span><span class="sxs-lookup"><span data-stu-id="efa29-109">Network Element</span></span></th>
+<th><span data-ttu-id="efa29-110">必要な列</span><span class="sxs-lookup"><span data-stu-id="efa29-110">Required Columns</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="8ea4d-111"><strong>ワイヤレス アクセス ポイント</strong></span><span class="sxs-lookup"><span data-stu-id="8ea4d-111"><strong>Wireless access point</strong></span></span></p></td>
-<td><p><span data-ttu-id="8ea4d-112">&lt;BSSID&gt;、&lt;説明&gt;、&lt;場所&gt;、&lt;CompanyName&gt;、&lt;HouseNumber&gt;、&lt;HouseNumberSuffix&gt;、&lt;predirectional&gt;,...</span><span class="sxs-lookup"><span data-stu-id="8ea4d-112">&lt;BSSID&gt;,&lt;Description&gt;,&lt;Location&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix&gt;,&lt;PreDirectional&gt;,…</span></span></p>
-<p><span data-ttu-id="8ea4d-113">...&lt;StreetName&gt;、&lt;StreetSuffix&gt;、&lt;postdirectional&gt;、&lt;市区&gt;町村&lt;、&gt;都道府県&lt;、&gt;郵便&lt;番号、国&gt;</span><span class="sxs-lookup"><span data-stu-id="8ea4d-113">…&lt;StreetName&gt;,&lt;StreetSuffix&gt;,&lt;PostDirectional&gt;,&lt;City&gt;,&lt;State&gt;,&lt;PostalCode&gt;,&lt;Country&gt;</span></span></p></td>
+<td><p><span data-ttu-id="efa29-111"><strong>ワイヤレスアクセスポイント</strong></span><span class="sxs-lookup"><span data-stu-id="efa29-111"><strong>Wireless access point</strong></span></span></p></td>
+<td><p><span data-ttu-id="efa29-112">&lt;BSSID&gt;、&lt;Description&gt;、&lt;Location&gt;、&lt;CompanyName&gt;、&lt;HouseNumber&gt;、&lt;HouseNumberSuffix&gt;、&lt;predirectional&gt;,...</span><span class="sxs-lookup"><span data-stu-id="efa29-112">&lt;BSSID&gt;,&lt;Description&gt;,&lt;Location&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix&gt;,&lt;PreDirectional&gt;,…</span></span></p>
+<p><span data-ttu-id="efa29-113">...&lt;StreetName&gt;、&lt;StreetSuffix&gt;、&lt;postdirectional&gt;、&lt;City&gt;、&lt;都道府県&gt;、&lt;郵便&gt;番号&lt;、国&gt;</span><span class="sxs-lookup"><span data-stu-id="efa29-113">…&lt;StreetName&gt;,&lt;StreetSuffix&gt;,&lt;PostDirectional&gt;,&lt;City&gt;,&lt;State&gt;,&lt;PostalCode&gt;,&lt;Country&gt;</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="8ea4d-114"><strong>Subnet</strong></span><span class="sxs-lookup"><span data-stu-id="8ea4d-114"><strong>Subnet</strong></span></span></p></td>
-<td><p><span data-ttu-id="8ea4d-115">&lt;サブ&gt;ネット&lt;、&gt;説明&lt;、&gt;場所&lt;、&gt;CompanyName&lt;、&gt;HouseNumber&lt;、&gt;HouseNumberSuffix&lt;、predirectional&gt;,...</span><span class="sxs-lookup"><span data-stu-id="8ea4d-115">&lt;Subnet&gt;,&lt;Description&gt;,&lt;Location&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix&gt;,&lt;PreDirectional&gt;,…</span></span></p>
-<p><span data-ttu-id="8ea4d-116">...&lt;StreetName&gt;、&lt;StreetSuffix&gt;、&lt;postdirectional&gt;、&lt;市区&gt;町村&lt;、&gt;都道府県&lt;、&gt;郵便&lt;番号、国&gt;</span><span class="sxs-lookup"><span data-stu-id="8ea4d-116">…&lt;StreetName&gt;,&lt;StreetSuffix&gt;,&lt;PostDirectional&gt;,&lt;City&gt;,&lt;State&gt;,&lt;PostalCode&gt;,&lt;Country&gt;</span></span></p></td>
+<td><p><span data-ttu-id="efa29-114"><strong>サブネット</strong></span><span class="sxs-lookup"><span data-stu-id="efa29-114"><strong>Subnet</strong></span></span></p></td>
+<td><p><span data-ttu-id="efa29-115">&lt;Subnet&gt;、&lt;Description&gt;、&lt;Location&gt;、&lt;CompanyName&gt;、&lt;HouseNumber&gt;、&lt;HouseNumberSuffix&gt;、&lt;predirectional&gt;,...</span><span class="sxs-lookup"><span data-stu-id="efa29-115">&lt;Subnet&gt;,&lt;Description&gt;,&lt;Location&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix&gt;,&lt;PreDirectional&gt;,…</span></span></p>
+<p><span data-ttu-id="efa29-116">...&lt;StreetName&gt;、&lt;StreetSuffix&gt;、&lt;postdirectional&gt;、&lt;City&gt;、&lt;都道府県&gt;、&lt;郵便&gt;番号&lt;、国&gt;</span><span class="sxs-lookup"><span data-stu-id="efa29-116">…&lt;StreetName&gt;,&lt;StreetSuffix&gt;,&lt;PostDirectional&gt;,&lt;City&gt;,&lt;State&gt;,&lt;PostalCode&gt;,&lt;Country&gt;</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="8ea4d-117"><strong>ポート</strong></span><span class="sxs-lookup"><span data-stu-id="8ea4d-117"><strong>Port</strong></span></span></p></td>
-<td><p><span data-ttu-id="8ea4d-118">&lt;ChPortIDSubType sid&gt;、&lt;&gt;、&lt;PortID&gt;、&lt;Description&gt;、&lt;Location&gt;、&lt;CompanyName&gt;、&lt;HouseNumber&gt;、&lt;HouseNumberSuffix&gt;,...</span><span class="sxs-lookup"><span data-stu-id="8ea4d-118">&lt;ChassisID&gt;,&lt;PortIDSubType&gt;,&lt;PortID&gt;,&lt;Description&gt;,&lt;Location&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix&gt;,…</span></span></p>
-<p><span data-ttu-id="8ea4d-119">...&lt;Predirectional&gt;、&lt;StreetName&gt;、&lt;StreetSuffix&gt;、&lt;&gt;postdirectional&lt;市区町村&gt;、&lt;都道府県&gt;、&lt;郵便&gt;番号&lt;、国&gt;</span><span class="sxs-lookup"><span data-stu-id="8ea4d-119">…&lt;PreDirectional&gt;,&lt;StreetName&gt;,&lt;StreetSuffix&gt;,&lt;PostDirectional&gt;,&lt;City&gt;,&lt;State&gt;,&lt;PostalCode&gt;,&lt;Country&gt;</span></span></p></td>
+<td><p><span data-ttu-id="efa29-117"><strong>Port</strong></span><span class="sxs-lookup"><span data-stu-id="efa29-117"><strong>Port</strong></span></span></p></td>
+<td><p><span data-ttu-id="efa29-118">&lt;ChPortIDSubType sid&gt;、&lt;&gt;、&lt;PortID&gt;、&lt;Description&gt;、&lt;Location&gt;、&lt;CompanyName&gt;、&lt;HouseNumber&gt;、&lt;HouseNumberSuffix&gt;,...</span><span class="sxs-lookup"><span data-stu-id="efa29-118">&lt;ChassisID&gt;,&lt;PortIDSubType&gt;,&lt;PortID&gt;,&lt;Description&gt;,&lt;Location&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix&gt;,…</span></span></p>
+<p><span data-ttu-id="efa29-119">...&lt;Predirectional&gt;、&lt;StreetName&gt;、&lt;StreetSuffix&gt;、&lt;postdirectional&gt;、&lt;City&gt;、&lt;都道府県&gt;、&lt;郵便&gt;番号&lt;、国&gt;</span><span class="sxs-lookup"><span data-stu-id="efa29-119">…&lt;PreDirectional&gt;,&lt;StreetName&gt;,&lt;StreetSuffix&gt;,&lt;PostDirectional&gt;,&lt;City&gt;,&lt;State&gt;,&lt;PostalCode&gt;,&lt;Country&gt;</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="8ea4d-120"><strong>スイッチ</strong></span><span class="sxs-lookup"><span data-stu-id="8ea4d-120"><strong>Switch</strong></span></span></p></td>
-<td><p><span data-ttu-id="8ea4d-121">&lt;ChHouseNumber sid&gt;、&lt;説明&gt;、&lt;場所&gt;、&lt;CompanyName&gt;、&lt;&gt;、&lt;HouseNumberSuffix&gt;、&lt;predirectional&gt;,...</span><span class="sxs-lookup"><span data-stu-id="8ea4d-121">&lt;ChassisID&gt;,&lt;Description&gt;,&lt;Location&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix&gt;,&lt;PreDirectional&gt;,…</span></span></p>
-<p><span data-ttu-id="8ea4d-122">...&lt;StreetName&gt;、&lt;StreetSuffix&gt;、&lt;postdirectional&gt;、&lt;市区&gt;町村&lt;、&gt;都道府県&lt;、&gt;郵便&lt;番号、国&gt;</span><span class="sxs-lookup"><span data-stu-id="8ea4d-122">…&lt;StreetName&gt;,&lt;StreetSuffix&gt;,&lt;PostDirectional&gt;,&lt;City&gt;,&lt;State&gt;,&lt;PostalCode&gt;,&lt;Country&gt;</span></span></p></td>
+<td><p><span data-ttu-id="efa29-120"><strong>スイッチ</strong></span><span class="sxs-lookup"><span data-stu-id="efa29-120"><strong>Switch</strong></span></span></p></td>
+<td><p><span data-ttu-id="efa29-121">&lt;ChHouseNumber sid&gt;、&lt;Description&gt;、&lt;Location&gt;、&lt;CompanyName&gt;、&lt;&gt;、&lt;HouseNumberSuffix&gt;、&lt;predirectional&gt;,...</span><span class="sxs-lookup"><span data-stu-id="efa29-121">&lt;ChassisID&gt;,&lt;Description&gt;,&lt;Location&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix&gt;,&lt;PreDirectional&gt;,…</span></span></p>
+<p><span data-ttu-id="efa29-122">...&lt;StreetName&gt;、&lt;StreetSuffix&gt;、&lt;postdirectional&gt;、&lt;City&gt;、&lt;都道府県&gt;、&lt;郵便&gt;番号&lt;、国&gt;</span><span class="sxs-lookup"><span data-stu-id="efa29-122">…&lt;StreetName&gt;,&lt;StreetSuffix&gt;,&lt;PostDirectional&gt;,&lt;City&gt;,&lt;State&gt;,&lt;PostalCode&gt;,&lt;Country&gt;</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="8ea4d-123">場所のデータベースに情報を読み込んでいない場合に、場所のポリシーの **[場所 (必須)]** を **[はい]** または **[免責事項]** に設定すると、クライアントから場所の情報を手動で入力するように指示されます。</span><span class="sxs-lookup"><span data-stu-id="8ea4d-123">If you do not populate the location database, and the **Location Required** in the Location Policy is set to **Yes** or **Disclaimer**, the client will prompt the user to enter a location manually.</span></span>
+<span data-ttu-id="efa29-123">場所データベースにデータを設定せず、場所ポリシーで**必要な場所**が **[はい]** または [**免責事項**] に設定されている場合、クライアントはユーザーに手動で場所を入力するように求めるメッセージを表示します。</span><span class="sxs-lookup"><span data-stu-id="efa29-123">If you do not populate the location database, and the **Location Required** in the Location Policy is set to **Yes** or **Disclaimer**, the client will prompt the user to enter a location manually.</span></span>
 
-<span data-ttu-id="8ea4d-124">場所データベースの設定の詳細については、次のコマンドレットの Lync Server 管理シェルに関するドキュメントを参照してください。</span><span class="sxs-lookup"><span data-stu-id="8ea4d-124">For details about populating the location database, see the Lync Server Management Shell documentation for the following cmdlets:</span></span>
+<span data-ttu-id="efa29-124">場所データベースの設定の詳細については、以下のコマンドレットの Lync Server Management Shell のドキュメントを参照してください。</span><span class="sxs-lookup"><span data-stu-id="efa29-124">For details about populating the location database, see the Lync Server Management Shell documentation for the following cmdlets:</span></span>
 
-  - <span data-ttu-id="8ea4d-125">**Get-CsLisSubnet**</span><span class="sxs-lookup"><span data-stu-id="8ea4d-125">**Get-CsLisSubnet**</span></span>
+  - <span data-ttu-id="efa29-125">**CsLisSubnet**</span><span class="sxs-lookup"><span data-stu-id="efa29-125">**Get-CsLisSubnet**</span></span>
 
-  - <span data-ttu-id="8ea4d-126">**Set-CsLisSubnet**</span><span class="sxs-lookup"><span data-stu-id="8ea4d-126">**Set-CsLisSubnet**</span></span>
+  - <span data-ttu-id="efa29-126">**CsLisSubnet**</span><span class="sxs-lookup"><span data-stu-id="efa29-126">**Set-CsLisSubnet**</span></span>
 
-  - <span data-ttu-id="8ea4d-127">Remove-CsLisSubnet</span><span class="sxs-lookup"><span data-stu-id="8ea4d-127">Remove-CsLisSubnet</span></span>
+  - <span data-ttu-id="efa29-127">CsLisSubnet</span><span class="sxs-lookup"><span data-stu-id="efa29-127">Remove-CsLisSubnet</span></span>
 
-  - <span data-ttu-id="8ea4d-128">**Get-CsLisWirelessAccessPoint**</span><span class="sxs-lookup"><span data-stu-id="8ea4d-128">**Get-CsLisWirelessAccessPoint**</span></span>
+  - <span data-ttu-id="efa29-128">**CsLisWirelessAccessPoint**</span><span class="sxs-lookup"><span data-stu-id="efa29-128">**Get-CsLisWirelessAccessPoint**</span></span>
 
-  - <span data-ttu-id="8ea4d-129">**Set-CsLisWirelessAccessPoint**</span><span class="sxs-lookup"><span data-stu-id="8ea4d-129">**Set-CsLisWirelessAccessPoint**</span></span>
+  - <span data-ttu-id="efa29-129">**CsLisWirelessAccessPoint**</span><span class="sxs-lookup"><span data-stu-id="efa29-129">**Set-CsLisWirelessAccessPoint**</span></span>
 
-  - <span data-ttu-id="8ea4d-130">**Remove-CsLisWirelessAccessPoint**</span><span class="sxs-lookup"><span data-stu-id="8ea4d-130">**Remove-CsLisWirelessAccessPoint**</span></span>
+  - <span data-ttu-id="efa29-130">**CsLisWirelessAccessPoint**</span><span class="sxs-lookup"><span data-stu-id="efa29-130">**Remove-CsLisWirelessAccessPoint**</span></span>
 
-  - <span data-ttu-id="8ea4d-131">**Get-CsLisSwitch**</span><span class="sxs-lookup"><span data-stu-id="8ea4d-131">**Get-CsLisSwitch**</span></span>
+  - <span data-ttu-id="efa29-131">**CsLisSwitch**</span><span class="sxs-lookup"><span data-stu-id="efa29-131">**Get-CsLisSwitch**</span></span>
 
-  - <span data-ttu-id="8ea4d-132">**Set-CsLisSwitch**</span><span class="sxs-lookup"><span data-stu-id="8ea4d-132">**Set-CsLisSwitch**</span></span>
+  - <span data-ttu-id="efa29-132">**CsLisSwitch**</span><span class="sxs-lookup"><span data-stu-id="efa29-132">**Set-CsLisSwitch**</span></span>
 
-  - <span data-ttu-id="8ea4d-133">**Remove-CsLisSwitch**</span><span class="sxs-lookup"><span data-stu-id="8ea4d-133">**Remove-CsLisSwitch**</span></span>
+  - <span data-ttu-id="efa29-133">**CsLisSwitch**</span><span class="sxs-lookup"><span data-stu-id="efa29-133">**Remove-CsLisSwitch**</span></span>
 
-  - <span data-ttu-id="8ea4d-134">**Get-CsLisPort**</span><span class="sxs-lookup"><span data-stu-id="8ea4d-134">**Get-CsLisPort**</span></span>
+  - <span data-ttu-id="efa29-134">**CsLisPort**</span><span class="sxs-lookup"><span data-stu-id="efa29-134">**Get-CsLisPort**</span></span>
 
-  - <span data-ttu-id="8ea4d-135">**Set-CsLisPort**</span><span class="sxs-lookup"><span data-stu-id="8ea4d-135">**Set-CsLisPort**</span></span>
+  - <span data-ttu-id="efa29-135">**CsLisPort**</span><span class="sxs-lookup"><span data-stu-id="efa29-135">**Set-CsLisPort**</span></span>
 
-  - <span data-ttu-id="8ea4d-136">**Remove-CsLisPort**</span><span class="sxs-lookup"><span data-stu-id="8ea4d-136">**Remove-CsLisPort**</span></span>
+  - <span data-ttu-id="efa29-136">**CsLisPort**</span><span class="sxs-lookup"><span data-stu-id="efa29-136">**Remove-CsLisPort**</span></span>
 
 <div>
 
-## <a name="to-add-network-elements-to-the-location-database"></a><span data-ttu-id="8ea4d-137">ネットワーク要素を場所のデータベースに追加するには</span><span class="sxs-lookup"><span data-stu-id="8ea4d-137">To add network elements to the location database</span></span>
+## <a name="to-add-network-elements-to-the-location-database"></a><span data-ttu-id="efa29-137">場所データベースにネットワーク要素を追加するには</span><span class="sxs-lookup"><span data-stu-id="efa29-137">To add network elements to the location database</span></span>
 
-1.  <span data-ttu-id="8ea4d-138">次のコマンドレットを実行して、サブネットの場所を場所データベースに追加します。</span><span class="sxs-lookup"><span data-stu-id="8ea4d-138">Run the following cmdlet to add a subnet location to the location database.</span></span>
+1.  <span data-ttu-id="efa29-138">次のコマンドレットを実行して、サブネットの場所を場所データベースに追加します。</span><span class="sxs-lookup"><span data-stu-id="efa29-138">Run the following cmdlet to add a subnet location to the location database.</span></span>
     
         Set-CsLisSubnet -Subnet 157.56.66.0 -Description "Subnet 1" -Location Location1 -CompanyName "Litware" -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
     
-    <span data-ttu-id="8ea4d-p103">ELIN ゲートウェイでは、ELIN を CompanyName フィールドに入れます。複数の ELIN を含めることもできます。次に例を示します。</span><span class="sxs-lookup"><span data-stu-id="8ea4d-p103">For ELIN gateways, put the ELIN in the CompanyName field. You can include more than one ELIN. For example:</span></span>
+    <span data-ttu-id="efa29-139">ELIN ゲートウェイの場合は、ELIN を CompanyName フィールドに配置します。</span><span class="sxs-lookup"><span data-stu-id="efa29-139">For ELIN gateways, put the ELIN in the CompanyName field.</span></span> <span data-ttu-id="efa29-140">複数の ELIN を含めることができます。</span><span class="sxs-lookup"><span data-stu-id="efa29-140">You can include more than one ELIN.</span></span> <span data-ttu-id="efa29-141">例:</span><span class="sxs-lookup"><span data-stu-id="efa29-141">For example:</span></span>
     
         Set-CsLisSubnet -Subnet 157.56.66.0 -Description "Subnet 1" -Location Location1 -CompanyName 425-555-0100; 425-555-0200; 425-555-0300 -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
     
-    <span data-ttu-id="8ea4d-142">また、"subnets.csv" という名前のファイルを使用して、次のコマンドレットでサブネットの場所を一括で更新することができます。</span><span class="sxs-lookup"><span data-stu-id="8ea4d-142">Alternately, you can run the following cmdlets and use a file named "subnets.csv" to bulk update subnet locations.</span></span>
+    <span data-ttu-id="efa29-142">または、次のコマンドレットを実行して、"subnet. csv" という名前のファイルを使用して、サブネットの場所を一括で更新することもできます。</span><span class="sxs-lookup"><span data-stu-id="efa29-142">Alternately, you can run the following cmdlets and use a file named "subnets.csv" to bulk update subnet locations.</span></span>
     
         $g = Import-Csv subnets.csv
         $g | Set-CsLisSubnet
 
-2.  <span data-ttu-id="8ea4d-143">次のコマンドレットを実行して、ワイヤレスの場所を場所データベースに追加します。</span><span class="sxs-lookup"><span data-stu-id="8ea4d-143">Run the following cmdlet to add wireless locations to the location database.</span></span>
+2.  <span data-ttu-id="efa29-143">次のコマンドレットを実行して、ワイヤレスの場所を場所データベースに追加します。</span><span class="sxs-lookup"><span data-stu-id="efa29-143">Run the following cmdlet to add wireless locations to the location database.</span></span>
     
         Set-CsLisWirelessAccessPoint -BSSID 0A-23-CD-16-AA-2E -Description "Wireless1" -Location Location2 -CompanyName "Litware" -HouseNumber 2345 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Bellevue -State WA -PostalCode 99234 -Country US
     
-    <span data-ttu-id="8ea4d-144">また、"waps.csv" という名前のファイルを使用して、次のコマンドレットでワイヤレスの場所を一括で更新することもできます。</span><span class="sxs-lookup"><span data-stu-id="8ea4d-144">Alternately, you can run the following cmdlets and use a file named "waps.csv" to bulk update wireless locations.</span></span>
+    <span data-ttu-id="efa29-144">または、次のコマンドレットを実行して、"wap" という名前のファイルを使用して、ワイヤレスの場所を一括で更新することもできます。</span><span class="sxs-lookup"><span data-stu-id="efa29-144">Alternately, you can run the following cmdlets and use a file named "waps.csv" to bulk update wireless locations.</span></span>
     
         $g = Import-Csv waps.csv
         $g | Set-CsLisWirelessAccessPoint
 
-3.  <span data-ttu-id="8ea4d-145">次のコマンドレットを実行して、スイッチの場所を場所データベースに追加します。</span><span class="sxs-lookup"><span data-stu-id="8ea4d-145">Run the following cmdlet to add switch locations to the location database.</span></span>
+3.  <span data-ttu-id="efa29-145">次のコマンドレットを実行して、スイッチの場所を場所データベースに追加します。</span><span class="sxs-lookup"><span data-stu-id="efa29-145">Run the following cmdlet to add switch locations to the location database.</span></span>
     
         Set-CsLisSwitch-ChassisID 0B-23-CD-16-AA-BB -Description "Switch1" -Location Location1 -CompanyName "Litware" -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
     
-    <span data-ttu-id="8ea4d-146">また、"switches.csv" という名前のファイルを使用して、次のコマンドレットでスイッチの場所を一括で更新することもできます。</span><span class="sxs-lookup"><span data-stu-id="8ea4d-146">Alternately, you can run the following cmdlets and use a file named "switches.csv" to bulk update switch locations.</span></span>
+    <span data-ttu-id="efa29-146">または、次のコマンドレットを実行して、スイッチの場所を一括で更新する "スイッチ" という名前のファイルを使用することもできます。</span><span class="sxs-lookup"><span data-stu-id="efa29-146">Alternately, you can run the following cmdlets and use a file named "switches.csv" to bulk update switch locations.</span></span>
     
         $g = Import-Csv switches.csv
         $g | Set-CsLisSwitch
 
-4.  <span data-ttu-id="8ea4d-147">次のコマンドレットを実行して、ポートの場所を場所データベースに追加します。</span><span class="sxs-lookup"><span data-stu-id="8ea4d-147">Run the following cmdlet to add port locations to the location database</span></span>
+4.  <span data-ttu-id="efa29-147">次のコマンドレットを実行して、ポートの場所を場所データベースに追加します。</span><span class="sxs-lookup"><span data-stu-id="efa29-147">Run the following cmdlet to add port locations to the location database</span></span>
     
         Set-CsLisPort -ChassisID 0C-23-CD-16-AA-CC -PortID 0A-abcd -Description "Port1" -Location Location2 -CompanyName "Litware" -HouseNumber 2345 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Bellevue -State WA -PostalCode 99234 -Country US
     
-    <span data-ttu-id="8ea4d-p104">PortIDSubType の既定値は、LocallyAssigned です。これを、InterfaceAlias または InterfaceName に設定することもできます。</span><span class="sxs-lookup"><span data-stu-id="8ea4d-p104">The default for PortIDSubType is LocallyAssigned. You can also set it to InterfaceAlias or InterfaceName</span></span>
+    <span data-ttu-id="efa29-148">PortIDSubType の既定値は、割り当てられています。</span><span class="sxs-lookup"><span data-stu-id="efa29-148">The default for PortIDSubType is LocallyAssigned.</span></span> <span data-ttu-id="efa29-149">InterfaceAlias または InterfaceName に設定することもできます。</span><span class="sxs-lookup"><span data-stu-id="efa29-149">You can also set it to InterfaceAlias or InterfaceName</span></span>
     
-    <span data-ttu-id="8ea4d-150">また、"ports.csv" という名前のファイルを使用して、次のコマンドレットでポートの場所を一括で更新することもできます。</span><span class="sxs-lookup"><span data-stu-id="8ea4d-150">Alternately, you can run the following cmdlets and use a file named "ports.csv" to bulk update port locations.</span></span>
+    <span data-ttu-id="efa29-150">または、次のコマンドレットを実行し、"ports. .csv" という名前のファイルを使用して、ポートの場所を一括で更新することもできます。</span><span class="sxs-lookup"><span data-stu-id="efa29-150">Alternately, you can run the following cmdlets and use a file named "ports.csv" to bulk update port locations.</span></span>
     
         $g = Import-Csv ports.csv
         $g | Set-CsLisPort

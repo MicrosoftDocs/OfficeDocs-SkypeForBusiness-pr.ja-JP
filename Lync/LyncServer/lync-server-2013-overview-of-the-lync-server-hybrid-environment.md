@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Lync Server のハイブリッド環境の概要'
+title: 'Lync Server 2013: Lync Server ハイブリッド環境の概要'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183399
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0594ddc0433bdcc227c693c4842c08bf7d05989f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e32132faee3b52140d20a7f01e6a0bad0e88c620
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755431"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049609"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-the-lync-server-2013-hybrid-environment"></a><span data-ttu-id="3c23b-102">Lync Server 2013 ハイブリッド環境の概要</span><span class="sxs-lookup"><span data-stu-id="3c23b-102">Overview of the Lync Server 2013 hybrid environment</span></span>
+# <a name="overview-of-the-lync-server-2013-hybrid-environment"></a><span data-ttu-id="43ecf-102">Lync Server 2013 ハイブリッド環境の概要</span><span class="sxs-lookup"><span data-stu-id="43ecf-102">Overview of the Lync Server 2013 hybrid environment</span></span>
 
 </div>
 
@@ -35,47 +35,47 @@ ms.locfileid: "41755431"
 
 <span> </span>
 
-<span data-ttu-id="3c23b-103">_**最終更新日:** 2014-05-28_</span><span class="sxs-lookup"><span data-stu-id="3c23b-103">_**Topic Last Modified:** 2014-05-28_</span></span>
+<span data-ttu-id="43ecf-103">_**トピックの最終更新日:** 2014-05-28_</span><span class="sxs-lookup"><span data-stu-id="43ecf-103">_**Topic Last Modified:** 2014-05-28_</span></span>
 
-<span data-ttu-id="3c23b-104">Lync Server 2013 ハイブリッド環境とは、オンプレミスの Lync Server 2013 およびその他のユーザーが Lync Online に接続しているが、ユーザーが user@contoso.com などの同じドメインを共有している展開を指します。</span><span class="sxs-lookup"><span data-stu-id="3c23b-104">Lync Server 2013 hybrid environment refers to a deployment in which there are some users homed to the on-premises Lync Server 2013 and other users homed to Lync Online, but users share the same domain, such as user@contoso.com.</span></span>
+<span data-ttu-id="43ecf-104">Lync Server 2013 ハイブリッド環境とは、オンプレミスの Lync Server 2013 に所属するユーザーや、Lync Online に所属している他のユーザーが、user@contoso.com などの同じドメインを共有する展開のことを指します。</span><span class="sxs-lookup"><span data-stu-id="43ecf-104">Lync Server 2013 hybrid environment refers to a deployment in which there are some users homed to the on-premises Lync Server 2013 and other users homed to Lync Online, but users share the same domain, such as user@contoso.com.</span></span>
 
 <div>
 
-## <a name="about-this-guide"></a><span data-ttu-id="3c23b-105">このガイドについて</span><span class="sxs-lookup"><span data-stu-id="3c23b-105">About this Guide</span></span>
+## <a name="about-this-guide"></a><span data-ttu-id="43ecf-105">このガイドについて</span><span class="sxs-lookup"><span data-stu-id="43ecf-105">About this Guide</span></span>
 
-<span data-ttu-id="3c23b-106">このガイドでは、lync Online との相互運用性を確保するために Lync Server 2013 環境を構成するために必要なタスクについて説明し、ユーザーをオンプレミスの展開から Lync Online を使用するように移動するために必要な作業について説明します</span><span class="sxs-lookup"><span data-stu-id="3c23b-106">This guide describes the tasks necessary to configure your Lync Server 2013 environment for interoperability with Lync Online, and then to move users from your on-premises deployment to use Lync Online.</span></span>
+<span data-ttu-id="43ecf-106">このガイドでは、lync Online との相互運用性を実現するために Lync Server 2013 環境を構成し、オンプレミス展開から Lync Online を使用するようにユーザーを移動するために必要なタスクについて説明します。</span><span class="sxs-lookup"><span data-stu-id="43ecf-106">This guide describes the tasks necessary to configure your Lync Server 2013 environment for interoperability with Lync Online, and then to move users from your on-premises deployment to use Lync Online.</span></span>
 
 </div>
 
 <div>
 
-## <a name="prerequisites"></a><span data-ttu-id="3c23b-107">前提条件</span><span class="sxs-lookup"><span data-stu-id="3c23b-107">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="43ecf-107">前提条件</span><span class="sxs-lookup"><span data-stu-id="43ecf-107">Prerequisites</span></span>
 
-<span data-ttu-id="3c23b-108">ハイブリッド展開を構成するためのタスクを実行するには、次のアプリケーションとユーティリティがインストールされている必要があります。</span><span class="sxs-lookup"><span data-stu-id="3c23b-108">You will need to have the following applications and utilities installed to complete the tasks for configuring a deployment for hybrid.</span></span> <span data-ttu-id="3c23b-109">これらのファイルのインストーラーは、展開用に提供されているインストールメディアと、次の一覧に記載されているリンクに含まれています。</span><span class="sxs-lookup"><span data-stu-id="3c23b-109">The installers for these files are included on the installation media provided for your deployment, as well as at the links included in the following list.</span></span>
+<span data-ttu-id="43ecf-108">ハイブリッド展開を構成するためのタスクを完了するには、次のアプリケーションとユーティリティがインストールされている必要があります。</span><span class="sxs-lookup"><span data-stu-id="43ecf-108">You will need to have the following applications and utilities installed to complete the tasks for configuring a deployment for hybrid.</span></span> <span data-ttu-id="43ecf-109">これらのファイルのインストーラーは、展開で提供されるインストールメディアと、次の一覧に含まれているリンクに含まれています。</span><span class="sxs-lookup"><span data-stu-id="43ecf-109">The installers for these files are included on the installation media provided for your deployment, as well as at the links included in the following list.</span></span>
 
-  - [<span data-ttu-id="3c23b-110">Active Directory フェデレーションサービス (AD FS) 2.0</span><span class="sxs-lookup"><span data-stu-id="3c23b-110">Active Directory Federation Services (AD FS) 2.0</span></span>](http://go.microsoft.com/fwlink/p/?linkid=257305)
+  - [<span data-ttu-id="43ecf-110">Active Directory フェデレーション サービス (AD FS) 2.0</span><span class="sxs-lookup"><span data-stu-id="43ecf-110">Active Directory Federation Services (AD FS) 2.0</span></span>](http://go.microsoft.com/fwlink/p/?linkid=257305)
 
-  - [<span data-ttu-id="3c23b-111">Microsoft ディレクトリ同期ツール9.1</span><span class="sxs-lookup"><span data-stu-id="3c23b-111">Microsoft Directory Synchronization Tool 9.1</span></span>](http://go.microsoft.com/fwlink/p/?linkid=257307)
+  - [<span data-ttu-id="43ecf-111">Microsoft ディレクトリ同期ツール9.1</span><span class="sxs-lookup"><span data-stu-id="43ecf-111">Microsoft Directory Synchronization Tool 9.1</span></span>](http://go.microsoft.com/fwlink/p/?linkid=257307)
 
-  - [<span data-ttu-id="3c23b-112">AD FS を使ってシングルサインオン用に Windows PowerShell をインストールする</span><span class="sxs-lookup"><span data-stu-id="3c23b-112">Install Windows PowerShell for single sign-on with AD FS</span></span>](http://go.microsoft.com/fwlink/p/?linkid=398710)
+  - [<span data-ttu-id="43ecf-112">AD FS を使用したシングルサインオン用の Windows PowerShell のインストール</span><span class="sxs-lookup"><span data-stu-id="43ecf-112">Install Windows PowerShell for single sign-on with AD FS</span></span>](http://go.microsoft.com/fwlink/p/?linkid=398710)
 
-  - <span data-ttu-id="3c23b-113">Microsoft Online Services サインインアシスタント (msoidcli-) は、office 365 のデスクトップセットアップに含まれています。 office 365 管理ポータルからリンクされたダウンロードページから入手できます。</span><span class="sxs-lookup"><span data-stu-id="3c23b-113">Microsoft Online Services Sign-in Assistant (msoidcli-7.0.msi) is included with the Desktop Setup for Office 365, which can be obtained from the Downloads page linked to from the Office 365 Admin portal.</span></span>
-
-</div>
-
-<div>
-
-## <a name="administrator-credentials"></a><span data-ttu-id="3c23b-114">管理者の資格情報</span><span class="sxs-lookup"><span data-stu-id="3c23b-114">Administrator Credentials</span></span>
-
-<span data-ttu-id="3c23b-115">管理者の資格情報を入力するように求められたら、Office 365 テナントの管理者アカウントのユーザー名とパスワードを使用します。</span><span class="sxs-lookup"><span data-stu-id="3c23b-115">When you are asked to provide your administrator credentials, use the username and password for the administrator account for your Office 365 tenant.</span></span> <span data-ttu-id="3c23b-116">Active Directory フェデレーションサービス (AD FS) の2.0、ディレクトリ同期、シングルサインオン、フェデレーション、ユーザーの Lync Online への移動を構成するときにも、これらの資格情報を使います。</span><span class="sxs-lookup"><span data-stu-id="3c23b-116">You will also use these credentials when you configure Active Directory Federation Services (AD FS) 2.0, Directory Synchronization, Single sign-on, federation, and moving users to Lync Online.</span></span>
+  - <span data-ttu-id="43ecf-113">Microsoft Online Services サインインアシスタント (msoidcli-7.0.msi) は、office 365 のデスクトップセットアップに含まれています。これは、Office 365 管理ポータルからリンクされているダウンロードページから入手できます。</span><span class="sxs-lookup"><span data-stu-id="43ecf-113">Microsoft Online Services Sign-in Assistant (msoidcli-7.0.msi) is included with the Desktop Setup for Office 365, which can be obtained from the Downloads page linked to from the Office 365 Admin portal.</span></span>
 
 </div>
 
 <div>
 
-## <a name="connecting-to-lync-online-powershell"></a><span data-ttu-id="3c23b-117">Lync Online PowerShell への接続</span><span class="sxs-lookup"><span data-stu-id="3c23b-117">Connecting to Lync Online PowerShell</span></span>
+## <a name="administrator-credentials"></a><span data-ttu-id="43ecf-114">管理者の資格情報</span><span class="sxs-lookup"><span data-stu-id="43ecf-114">Administrator Credentials</span></span>
 
-<span data-ttu-id="3c23b-118">管理者は、Windows PowerShell を使用して Lync Online と Lync Online のユーザーアカウントを管理することができるようになりました。</span><span class="sxs-lookup"><span data-stu-id="3c23b-118">Administrators now have the ability to use Windows PowerShell to manage Lync Online and their Lync Online user accounts.</span></span> <span data-ttu-id="3c23b-119">そのためには、まず Microsoft ダウンロードセンター (http://go.microsoft.com/fwlink/?LinkId=294688)) から Lync Online Connector モジュールをダウンロードしてインストールする必要があります。</span><span class="sxs-lookup"><span data-stu-id="3c23b-119">To do this, you must first download and install the Lync Online Connector Module from the Microsoft Download Center (http://go.microsoft.com/fwlink/?LinkId=294688).</span></span> <span data-ttu-id="3c23b-120">Lync Online Connector モジュールのダウンロード、インストール、および使用の詳細と Windows PowerShell を使用して Lync Online を管理する方法の詳細については、「 [Windows Powershell を使用して Lync online を管理する](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="3c23b-120">For more information on downloading, installing, and using the Lync Online Connector Module, and for detailed information on using Windows PowerShell to manage Lync Online, see [Using Windows PowerShell to manage Lync Online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).</span></span>
+<span data-ttu-id="43ecf-115">管理者の資格情報を入力するように求めるメッセージが表示されたら、Office 365 テナントの管理者アカウントのユーザー名とパスワードを使用します。</span><span class="sxs-lookup"><span data-stu-id="43ecf-115">When you are asked to provide your administrator credentials, use the username and password for the administrator account for your Office 365 tenant.</span></span> <span data-ttu-id="43ecf-116">Active Directory フェデレーションサービス (AD FS) 2.0、ディレクトリ同期、シングルサインオン、フェデレーション、および Lync Online へのユーザーの移動を構成するときに、これらの資格情報を使用することもできます。</span><span class="sxs-lookup"><span data-stu-id="43ecf-116">You will also use these credentials when you configure Active Directory Federation Services (AD FS) 2.0, Directory Synchronization, Single sign-on, federation, and moving users to Lync Online.</span></span>
+
+</div>
+
+<div>
+
+## <a name="connecting-to-lync-online-powershell"></a><span data-ttu-id="43ecf-117">Lync Online PowerShell への接続</span><span class="sxs-lookup"><span data-stu-id="43ecf-117">Connecting to Lync Online PowerShell</span></span>
+
+<span data-ttu-id="43ecf-118">管理者は、Windows PowerShell を使用して Lync Online と Lync Online ユーザーアカウントを管理できるようになりました。</span><span class="sxs-lookup"><span data-stu-id="43ecf-118">Administrators now have the ability to use Windows PowerShell to manage Lync Online and their Lync Online user accounts.</span></span> <span data-ttu-id="43ecf-119">これを行うには、まず、Microsoft ダウンロードセンター (http://go.microsoft.com/fwlink/?LinkId=294688)から Lync Online Connector モジュールをダウンロードしてインストールする必要があります。</span><span class="sxs-lookup"><span data-stu-id="43ecf-119">To do this, you must first download and install the Lync Online Connector Module from the Microsoft Download Center (http://go.microsoft.com/fwlink/?LinkId=294688).</span></span> <span data-ttu-id="43ecf-120">Lync Online コネクタモジュールをダウンロード、インストール、および使用する方法、および Windows PowerShell を使用して Lync Online を管理する方法の詳細については、「 [Windows powershell を使用して Lync online を管理する](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="43ecf-120">For more information on downloading, installing, and using the Lync Online Connector Module, and for detailed information on using Windows PowerShell to manage Lync Online, see [Using Windows PowerShell to manage Lync Online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).</span></span>
 
 </div>
 
