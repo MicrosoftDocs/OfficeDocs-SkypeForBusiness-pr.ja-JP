@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: アーカイブのためのインフラストラクチャのセットアップ'
+title: 'Lync Server 2013: アーカイブ用のインフラストラクチャのセットアップ'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185494
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ccd2dd65eca2229632c8811d1d57e52976778650
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: aee20ccc6ecee75bc5eb9291a50dc26f39cafaa0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732057"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42039780"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-the-infrastructure-for-archiving-in-lync-server-2013"></a><span data-ttu-id="5eb6c-102">Lync Server 2013 でアーカイブするためのインフラストラクチャをセットアップする</span><span class="sxs-lookup"><span data-stu-id="5eb6c-102">Setting up the infrastructure for Archiving in Lync Server 2013</span></span>
+# <a name="setting-up-the-infrastructure-for-archiving-in-lync-server-2013"></a><span data-ttu-id="61495-102">Lync Server 2013 でのアーカイブ用のインフラストラクチャのセットアップ</span><span class="sxs-lookup"><span data-stu-id="61495-102">Setting up the infrastructure for Archiving in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41732057"
 
 <span> </span>
 
-<span data-ttu-id="5eb6c-103">_**最終更新日:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="5eb6c-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="61495-103">_**トピックの最終更新日:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="61495-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="5eb6c-104">アーカイブのインフラストラクチャ要件は、ストレージを除き、Lync Server の展開の場合と同じです。</span><span class="sxs-lookup"><span data-stu-id="5eb6c-104">The infrastructure requirements for Archiving are the same as for your Lync Server deployment, except for storage.</span></span> <span data-ttu-id="5eb6c-105">Exchange 2013 ストレージ、データベースのアーカイブ、またはその両方を使用する記憶域のセットアップ以外は、追加のインフラストラクチャのセットアップは必要ありません。</span><span class="sxs-lookup"><span data-stu-id="5eb6c-105">No additional infrastructure setup is required, except for setting up storage using Exchange 2013 storage, Archiving databases, or both.</span></span> <span data-ttu-id="5eb6c-106">Lync Server 2013 のインフラストラクチャ要件の詳細については、「計画ドキュメントで[Lync server 2013 のインフラストラクチャ要件を決定](lync-server-2013-determining-your-infrastructure-requirements.md)する」および「展開ドキュメントで[lync server 2013 用のインフラストラクチャとシステムを準備](lync-server-2013-preparing-the-infrastructure-and-systems.md)する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="5eb6c-106">For details about infrastructure requirements for Lync Server 2013, see [Determining your infrastructure requirements for Lync Server 2013](lync-server-2013-determining-your-infrastructure-requirements.md) in the Planning documentation and [Preparing the infrastructure and systems for Lync Server 2013](lync-server-2013-preparing-the-infrastructure-and-systems.md) in the Deployment documentation.</span></span> <span data-ttu-id="5eb6c-107">アーカイブの記憶域の要件の詳細については、計画ドキュメントの「 [Lync server 2013 でのアーカイブの技術要件](lync-server-2013-technical-requirements-for-archiving.md)」、「展開ドキュメントの[lync server 2013 でのアーカイブ用のシステムプラットフォーム](lync-server-2013-setting-up-system-platforms-for-archiving.md)のセットアップ」、「展開ドキュメントの[Lync server 2013 でのアーカイブ用記憶域](lync-server-2013-setting-up-storage-for-archiving.md)のセットアップ」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="5eb6c-107">For details about storage requirements for Archiving, see [Technical requirements for Archiving in Lync Server 2013](lync-server-2013-technical-requirements-for-archiving.md) in the Planning documentation, [Setting up system platforms for Archiving in Lync Server 2013](lync-server-2013-setting-up-system-platforms-for-archiving.md) in the Deployment documentation, and [Setting up storage for Archiving in Lync Server 2013](lync-server-2013-setting-up-storage-for-archiving.md) in the Deployment documentation.</span></span>
+<span data-ttu-id="61495-104">アーカイブのインフラストラクチャ要件は、ストレージを除き、Lync Server の展開の場合と同じです。</span><span class="sxs-lookup"><span data-stu-id="61495-104">The infrastructure requirements for Archiving are the same as for your Lync Server deployment, except for storage.</span></span> <span data-ttu-id="61495-105">Exchange 2013 ストレージ、アーカイブデータベース、またはその両方を使用した記憶域の設定以外に、追加のインフラストラクチャのセットアップは必要ありません。</span><span class="sxs-lookup"><span data-stu-id="61495-105">No additional infrastructure setup is required, except for setting up storage using Exchange 2013 storage, Archiving databases, or both.</span></span> <span data-ttu-id="61495-106">Lync Server 2013 のインフラストラクチャ要件の詳細については、「計画」のドキュメントの「 [Lync server 2013 のインフラストラクチャ要件の決定](lync-server-2013-determining-your-infrastructure-requirements.md)」および「展開」のドキュメントの「 [lync server 2013 のインフラストラクチャとシステムの準備](lync-server-2013-preparing-the-infrastructure-and-systems.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="61495-106">For details about infrastructure requirements for Lync Server 2013, see [Determining your infrastructure requirements for Lync Server 2013](lync-server-2013-determining-your-infrastructure-requirements.md) in the Planning documentation and [Preparing the infrastructure and systems for Lync Server 2013](lync-server-2013-preparing-the-infrastructure-and-systems.md) in the Deployment documentation.</span></span> <span data-ttu-id="61495-107">アーカイブの記憶域の要件の詳細については、「計画」のドキュメントの「lync server 2013 でのアーカイブの[技術要件](lync-server-2013-technical-requirements-for-archiving.md)」、「展開」のドキュメントの「 [setting up system 2013 プラットフォーム](lync-server-2013-setting-up-system-platforms-for-archiving.md)」、および「展開」のドキュメントの「lync Server [2013 でのアーカイブ用のストレージの設定](lync-server-2013-setting-up-storage-for-archiving.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="61495-107">For details about storage requirements for Archiving, see [Technical requirements for Archiving in Lync Server 2013](lync-server-2013-technical-requirements-for-archiving.md) in the Planning documentation, [Setting up system platforms for Archiving in Lync Server 2013](lync-server-2013-setting-up-system-platforms-for-archiving.md) in the Deployment documentation, and [Setting up storage for Archiving in Lync Server 2013](lync-server-2013-setting-up-storage-for-archiving.md) in the Deployment documentation.</span></span>
 
 </div>
 
