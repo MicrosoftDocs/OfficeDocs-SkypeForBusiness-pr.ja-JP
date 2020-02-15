@@ -12,16 +12,16 @@ ms:contentKeyID: 48185915
 ms.date: 04/03/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 20a28df76c87df01ab39e3c3113c3c4beaa09347
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7e405ef520af5533f89475eeaf53d2fd35eaad87
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729447"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049359"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41729447"
 
 <span> </span>
 
-_**最終更新日:** 2015-04-03_
+_**トピックの最終更新日:** 2015-04-03_
 
-このセクションでは、Lync Server 2013 クライアントとデバイスを展開するための手順の概要を示します。
+ここでは、Lync Server 2013 のクライアントとデバイスを展開する手順の概要について説明します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
   - [Lync Server 2013 での Lync クライアントの展開](lync-server-2013-deploying-lync-clients.md)
 
-  - [Configure the client experience with Skype for Business](configure-the-skype-for-business-client-in-lync-server-2013.md)
+  - [Skype for Business でクライアント環境を構成する](configure-the-skype-for-business-client-in-lync-server-2013.md)
 
   - [Lync Server 2013 での Lync VDI プラグインの展開](lync-server-2013-deploying-the-lync-vdi-plug-in.md)
 
@@ -53,7 +53,7 @@ _**最終更新日:** 2015-04-03_
 
   - [Lync Server 2013 でのデバイスの展開](lync-server-2013-deploying-devices.md)
 
-  - [Lync Server 2013 でモバイルクライアントを展開する](lync-server-2013-deploying-mobile-clients.md)
+  - [Lync Server 2013 でのモバイルクライアントの展開](lync-server-2013-deploying-mobile-clients.md)
 
   - [Lync Server 2013 での Lync Windows ストアアプリの展開](lync-server-2013-deploying-lync-windows-store-app.md)
 

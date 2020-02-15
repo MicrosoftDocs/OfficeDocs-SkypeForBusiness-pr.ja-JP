@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: IP アドレス タイプをフロント エンド サーバーに展開する'
+title: 'Lync Server 2013: IP アドレスの種類をフロントエンドサーバーに展開する'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185193
 ms.date: 07/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f70ff3098f11cbb3d3b04602dca9c12a4998a367
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 84fae6ceef3bbc9d49bbc3afcb4236c4f8ba8bfb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763329"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049749"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploy-ip-address-types-on-a-front-end-server-for-lync-server-2013"></a>IP アドレス タイプを Lync Server 2013 のフロント エンド サーバーに展開する
+# <a name="deploy-ip-address-types-on-a-front-end-server-for-lync-server-2013"></a>Lync Server 2013 のフロントエンドサーバーに IP アドレスタイプを展開する
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41763329"
 
 <span> </span>
 
-_**最終更新日:** 2016-07-28_
+_**トピックの最終更新日:** 2016-07-28_
 
-トポロジビルダーを使用して、次の手順を実行して、フロントエンドサーバーに IP アドレスの種類を展開します。
+トポロジビルダーを使用して、次の手順を実行して、IP アドレスの種類をフロントエンドサーバーに展開します。
 
 <div>
 
-## <a name="to-deploy-ip-address-types-on-a-front-end-server"></a>IP アドレスの種類をフロントエンド サーバーに展開するには
+## <a name="to-deploy-ip-address-types-on-a-front-end-server"></a>IP アドレス タイプをフロントエンド サーバーに展開するには
 
 1.  [**Enterprise Edition フロントエンドのプール**] で、プール内のサーバーを右クリックし、[**プロパティの編集**] を選択します (または、サーバーを選択し、[**アクション**] メニューの [**プロパティの編集**] をクリックします)。
 
-2.  [**プロパティの編集**] ダイアログ ボックスで、構成する IP アドレスの種類を選択します。デュアル スタック構成の場合は、次の図のように、[**IPv4 を有効にする**] および [**IPv6 を有効にする**] を選択します。
+2.  [**プロパティの編集**] ダイアログ ボックスで、構成する IP アドレス タイプを選択します。デュアル スタック構成の場合は、次の図のように、[**IPv4 を有効にする**] および [**IPv6 を有効にする**] を選択します。
     
     **フロントエンド サーバー プールの [プロパティの編集] ダイアログ ボックス**
     
@@ -64,9 +64,9 @@ _**最終更新日:** 2016-07-28_
     
       - [**サービスの使用を選択した IP アドレスに限定する**]。新しいサーバーで使用するアドレスを指定するには、このオプションを選択します。このオプションを選択した場合は、[**プライマリ IP アドレス**] に値を入力する必要があります。
     
-      - [**プライマリ IP アドレス**]。公衆交換電話網 (PSTN) 以外のすべての通信でサーバーが使用する IP アドレスを入力します。入力する IP アドレスは、選択されているアドレスの種類の形式に一致している必要があります。
+      - [**プライマリ IP アドレス**]。公衆交換電話網 (PSTN) 以外のすべての通信でサーバーが使用する IP アドレスを入力します。入力する IP アドレスは、選択されているアドレス タイプの形式に一致している必要があります。
     
-      - [**PSTN IP アドレス**]。 Lync Server 2013 の PSTN IP アドレス構成をサポートするための追加のネットワークインターフェイスカード (NIC) のインストールは、併置された仲介サーバーの役割でサポートされていません。 Lync Server 2013 でサポートされる NIC 構成の詳細については、「 [Lync server 2013 のサーバーハードウェアプラットフォーム](lync-server-2013-server-hardware-platforms.md)」を参照してください。
+      - [**PSTN IP アドレス**]。 Lync Server 2013 の PSTN IP アドレス構成をサポートするための追加のネットワークインターフェイスカード (NIC) のインストールは、併置された仲介サーバーの役割ではサポートされていません。 Lync Server 2013 でサポートされている NIC 構成の詳細については、「 [Lync server 2013 のサーバーハードウェアプラットフォーム](lync-server-2013-server-hardware-platforms.md)」を参照してください。
 
 </div>
 

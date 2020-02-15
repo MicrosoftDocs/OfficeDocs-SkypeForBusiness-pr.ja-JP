@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server の各 SIP trunks に関する情報を表示する
+title: Skype for Business Server での個々の SIP トランクに関する情報の表示
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -10,33 +10,33 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Skype for Business Server では、単一の PSTN ゲートウェイに複数の trunks を割り当てることができます。つまり、ゲートウェイと trunks は1つではなく、管理者は、個々の SIP トランクに関する情報を表示するために、Get-CsTrunk コマンドレットを使用する必要があります。
-ms.openlocfilehash: d7db7eebfc409b0f79bd562606368d434ba47f0c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Skype for Business Server では、複数のトランクを1つの PSTN ゲートウェイに割り当てることができます。これは、ゲートウェイとトランクが1つだけではなく、管理者は、個々の SIP トランクに関する情報を表示するために、Get-help コマンドレットを使用する必要があることを意味します。
+ms.openlocfilehash: c5288e676f546e07504f4d8609fcea63913b6457
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816926"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048180"
 ---
-# <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server"></a>Skype for Business Server の各 SIP trunks に関する情報を表示する
+# <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server"></a>Skype for Business Server での個々の SIP トランクに関する情報の表示
 
-Skype for Business Server では、単一の PSTN ゲートウェイに複数の trunks を割り当てることができます。これは、ゲートウェイと trunks が1つではなく、管理者が、個々の SIP トランクに関する情報を表示するために、 [Get-CsTrunk](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTrunk)コマンドレットを使用する必要があることを意味します。
+Skype for Business Server では、複数のトランクを1つの PSTN ゲートウェイに割り当てることができます。これは、ゲートウェイとトランクが同一ではなく、管理者が個々の SIP トランクに関する情報を表示するには、[コマンドレット](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunk)を使用する必要があることを意味します。
 
-Get-CsTrunk コマンドレットは、Skype for Business Server 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。
+Get-help コマンドレットは、Skype for Business Server 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。
 
-**すべての SIP トランクに関する情報の表示**
+**すべての SIP トランクに関する情報を表示するには**
 
 次のコマンドは、組織で使用中のすべての SIP トランクに関する情報を返します。
 
 `Get-CsTrunk`
 
-**特定の SIP トランクに関する情報の表示**
+**特定の SIP トランクに関する情報を表示するには**
 
 このコマンドは、PstnGateway:192.168.0.240 という Identity を持つ SIP トランクに関する情報のみを返します。
 
 `Get-CsTrunk -Identity "PstnGateway:192.168.0.240"`
 
-**プールに割り当てられているすべての SIP Trunks の情報を表示する**
+**プールに割り当てられているすべての SIP トランクに関する情報の表示**
 
 この例では、プール atl-cs-001.litwareinc.com に割り当てられているすべての SIP トランクについて情報が返されます。
 

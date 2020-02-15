@@ -12,16 +12,16 @@ ms:contentKeyID: 48185446
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ccfdf804fc9052ac69b383d0f8cd3321222e79a8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 495b556254ab42270aa031861aea0c4390f17602
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763901"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048371"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41763901"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-15_
+_**トピックの最終更新日:** 2012-10-15_
 
-セットアップの場合、特定の Active Directory 組織単位 (OU) の RTCUniversalServerAdmins ユニバーサルグループにアクセス許可を付与し、その OU の RTCUniversalServerAdmins グループのメンバーが、指定したドメインに Lync Server 2013 をインストールできるようにすることができます。 OU にアクセス許可を付与すると、次のアクセス許可が付与されます。
+セットアップの場合は、特定の Active Directory 組織単位 (OU) の RTCUniversalServerAdmins ユニバーサルグループに対するアクセス許可を付与して、その OU の RTCUniversalServerAdmins グループのメンバーが、指定したドメインに Lync Server 2013 をインストールできるようにすることができます。 OU に対するアクセス許可を付与する場合は、次のアクセス許可が付与されます。
 
-  - モード
+  - 読み取り
 
   - 書き込み
 
@@ -47,13 +47,13 @@ _**最終更新日:** 2012-10-15_
 
   - WriteSPN
 
-管理者は、特定の Ou にアクセス許可を追加して、フォレストの準備によって作成された RTC ユニバーサルグループのメンバーが、Domain Admins グループのメンバーではなくても Ou にアクセスできるようにすることができます。 指定した OU に追加されたアクセス許可は、[ユーザーの**有効化**] と同じアクセス許可であり、[コンピューター] と [ユーザー] のコンテナーに追加します。
+管理のために、フォレストの準備によって作成された RTC ユニバーサルグループのメンバーが Domain Admins グループのメンバーでなくても Ou にアクセスできるように、指定された Ou にアクセス許可を追加できます。 指定した OU に追加されるアクセス許可は、[有効にする] **-CsAdDomain**コマンドレットがコンピューターとユーザーの ou コンテナーに追加するアクセス許可と同じです。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 でのセットアップ アクセス許可の付与](lync-server-2013-granting-setup-permissions.md)
+  - [Lync Server 2013 でのセットアップのアクセス許可の付与](lync-server-2013-granting-setup-permissions.md)
 
   - [Lync Server 2013 での組織単位アクセス許可の付与](lync-server-2013-granting-organizational-unit-permissions.md)
 

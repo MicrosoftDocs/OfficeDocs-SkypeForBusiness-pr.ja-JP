@@ -12,16 +12,16 @@ ms:contentKeyID: 51803996
 ms.date: 12/12/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42a2579360fbb4af8d6f3c491f5a56c380b593d0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1c456deb3b3cb72df0bd6e8ac2dd70e926bb0769
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724247"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047960"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,12 +37,12 @@ ms.locfileid: "41724247"
 
 _**トピックの最終更新日:** 2013-02-20_
 
-新しいデバイス更新プログラムがシステムにアップロードされるたびに、対応するデバイス更新ルールが作成されます。 既定では、これらの新しいデバイス更新ルールは保留状態に割り当てられます。 つまり、テストデバイスにはルールをダウンロードしてインストールすることができますが、ユーザーが更新プログラムを使用できるようになる前にテストをテストすることができます。 テストに基づいて、更新プログラムを承諾して展開するか、または元に戻して削除します。 更新プログラムを拒否すると、デバイス更新プログラムのデバイス更新ルールとの関連付けが解除されます。
+新しいデバイス更新プログラムがシステムにアップロードされるたびに、対応するデバイス更新ルールが作成されます。 既定では、これらの新しいデバイス更新ルールは保留状態に割り当てられます。 これは、これらのルールはテストデバイスでダウンロードおよびインストールできますが、運用デバイスではインストールできないため、更新プログラムをテストしてからユーザーが使用できるようにすることができます。 テストに基づいて、更新を承諾して、展開するか、または拒否して削除します。 更新を拒否すると、デバイスの更新はデバイス更新ルールから関連付けが解除されます。
 
 <div>
 
 
-デバイスに関連付けられていないデバイス更新ファイルは、Windows PowerShell と**空の Deviceupdatefile**コマンドレットを使用して削除できます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。
+デバイスに関連付けられていないデバイス更新ファイルは、Windows PowerShell と、 **CsDeviceUpdateFile**コマンドレットを使用して削除できます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。
 
 <div>
 
@@ -57,13 +57,13 @@ _**トピックの最終更新日:** 2013-02-20_
 <div>
 
 
-  - たとえば、次のコマンドを実行すると、デバイスに関連付けられていない Web サーバー atl-cs-001.litwareinc.com 上のデバイス更新ルールがすべて削除されます。
+  - たとえば、次のコマンドを実行すると、デバイスに関連付けられていない、Web サーバー atl-cs-001.litwareinc.com 上のデバイス更新ルールがすべて削除されます。
     
         Clear-CsDeviceUpdateFile -Identity "service:WebServer:atl-cs-001.litwareinc.com"
 
 </div>
 
-詳細については、「 [CsDeviceUpdateFile](https://docs.microsoft.com/powershell/module/skype/Clear-CsDeviceUpdateFile)コマンドレット」のヘルプトピックを参照してください。
+詳細につい[ては、このコマンドレット](https://docs.microsoft.com/powershell/module/skype/Clear-CsDeviceUpdateFile)のヘルプトピックを参照してください。
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 監視を有効にする'
+title: 'Lync Server 2013: 監視の有効化'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733584
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0f11aab3c58a43ac0746cb1f297bf4f3f85d28c0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 346d4bf6840c8ce5d13b5c7843f438723fa97118
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735827"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048210"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enabling-monitoring-in-lync-server-2013"></a>Lync Server 2013 で監視を有効にする
+# <a name="enabling-monitoring-in-lync-server-2013"></a>Lync Server 2013 での監視の有効化
 
 </div>
 
@@ -35,37 +35,37 @@ ms.locfileid: "41735827"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-17_
+_**トピックの最終更新日:** 2012-10-17_
 
-統合データ収集エージェントは、各フロントエンドサーバーに自動的にインストールされ、アクティブ化されますが、Microsoft Lync Server 2013 のインストールが完了した時点で自動的に監視データの収集が開始されるとは限りません。 代わりに、フロントエンドサーバー/フロントエンドプールを監視データベースに関連付ける必要があります。また、グローバルスコープまたはサイトの範囲で、通話の詳細記録 (CDR) および品質のエクスペリエンス (QoE) の監視を有効にする必要があります。
+統合データ収集エージェントは各フロントエンドサーバーに自動的にインストールされ、アクティブ化されますが、Microsoft Lync Server 2013 のインストールが完了すると、自動的に監視データの収集が開始されるということではありません。 その代わりに、フロントエンドサーバーとフロントエンドプールを監視データベースに関連付ける必要があります。また、通話詳細記録 (CDR) および Quality of Experience (QoE) の監視をグローバルスコープまたはサイトスコープで有効にする必要があります。
 
-フロントエンドサーバーまたはフロントエンドプールと監視データベースの関連付けの詳細な手順については、展開ガイドの「 [Lync Server 2013 でのフロントエンドプールへの監視ストアの関連付け](lync-server-2013-associating-a-monitoring-store-with-a-front-end-pool.md)」を参照してください。 この関連付けが行われた後、新しい Lync サーバートポロジが公開された後でも、監視データを収集することはできません。 これは、Lync Server 2013 をインストールしたときに、既定では CDR と QoE のデータ収集が無効になるためです。
+フロントエンドサーバーまたはフロントエンドプールを監視データベースに関連付ける詳細な手順については、「展開ガイド」の「 [Lync Server 2013 でのフロントエンドプールへの監視ストアの関連付け](lync-server-2013-associating-a-monitoring-store-with-a-front-end-pool.md)」を参照してください。 これらの関連付けが終わり、新しい Lync Server トポロジを公開しても、まだ監視データを収集することはできません。 これは、既定では、Lync Server 2013 をインストールすると、CDR と QoE のデータ収集の両方が無効になるためです。
 
-データの収集を開始するには、CDR または QoE の監視を有効にする必要があります。 (CDR と QoE の両方の監視を有効にする必要はありません。必要に応じて、他の種類を無効のままにして、1つの種類の監視を有効にすることができます)。グローバルスコープで CDR の監視を有効にするには、Lync Server 管理シェルで次のコマンドを実行します。
+データ収集を開始するには、CDR 監視と QoE 監視のどちらかまたは両方を有効にする必要があります (CDR 監視と QoE 監視を両方とも有効にする必要はありません。 (必要に応じて、1つの種類の監視を有効にして、もう一方の種類を無効のままにすることができます)。グローバルスコープで CDR 監視を有効にするには、Lync Server 管理シェルで次のコマンドを実行します。
 
     Set-CsCdrConfiguration -Identity "global" -EnableCDR $True
 
-または、Lync Server 2013 コントロールパネル内から CDR の監視を有効にすることもできます。 Lync Server コントロールパネル内で、次の手順を実行します。
+または、Lync Server 2013 コントロールパネル内から CDR の監視を有効にすることもできます。 Lync Server コントロールパネル内から、次の手順を実行します。
 
-1.  [**モニタリング**] をクリックします。
+1.  [**監視**] をクリックします。
 
-2.  [**通話の詳細記録**] タブで、[**グローバル**設定] をダブルクリックします。
+2.  [**通話詳細記録**] タブで、[**グローバル**] 設定をダブルクリックします。
 
-3.  [**通話の詳細記録 (CDR) の設定**] ウィンドウで、[ **CDRs の監視を有効にする**] を選び、[**コミット**] をクリックします。
+3.  [**編集 通話詳細記録 (CDR) 設定**] ウィンドウで、[**CDR の監視を有効にする**] を選択し、[**コミット**] をクリックします。
 
-グローバルスコープで QoE の監視を有効にするには、Lync Server 管理シェルで次のコマンドを実行します。
+グローバルスコープで QoE 監視を有効にするには、Lync Server 管理シェルで次のコマンドを実行します。
 
     Set-CsQoEConfiguration -Identity "global" -EnableQoE $True
 
-必要に応じて、Lync Server コントロールパネル内から QoE の監視を有効にすることもできます。 コントロールパネルで、次の手順を実行します。
+必要に応じて、Lync Server コントロールパネル内から QoE 監視を有効にすることもできます。 コントロール パネル内で、次の手順を実行します。
 
-1.  [**モニタリング**] をクリックします。
+1.  [**監視**] をクリックします。
 
-2.  [**エクスペリエンスの品質データ**] タブで、[**グローバル**設定] をダブルクリックします。
+2.  [**QoE データ**] タブで、[**グローバル**] 設定をダブルクリックします。
 
-3.  [ **Quality Of Experience (qoe) の設定**] ウィンドウで、[ **qoe データの監視を有効にする**] を選び、[**コミット**] をクリックします。
+3.  [**編集 Quality of Experience (QoE) 設定**] ウィンドウで、[**QoE データの監視を有効にする**] を選択し、[**コミット**] をクリックします。
 
-既に説明したように、上の例ではグローバルスコープで監視を有効にします。つまり、ユーザーは組織全体で CDR と QoE の監視を行うことができます。 または、サイトのスコープで個別の CDR と QoE の構成設定を作成して、各サイトの監視を個別に有効または無効にすることもできます。 たとえば、Redmond サイトで CDR の監視を有効にしていても、ダブリンサイトの CDR 監視を無効にすることができます。 監視構成の設定を管理する方法について詳しくは、「 [Lync Server 2013 での通話の詳細の記録と音質の設定](lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md)」を参照してください。
+前述したように、前述の例では、グローバルスコープで監視を有効にします。つまり、組織全体での CDR と QoE の監視を有効にします。 または、サイトスコープで個別の CDR と QoE の構成設定を作成してから、各サイトの監視を選択的に有効または無効にすることもできます。 たとえば、Redmond サイトで CDR 監視を有効にしても、ダブリンサイトの CDR 監視を無効にすることができます。 監視構成設定の管理の詳細については、「 [Lync Server 2013 の通話詳細記録と qoe (Quality Of Experience) の設定を構成する](lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md)」トピックを参照してください。
 
 </div>
 

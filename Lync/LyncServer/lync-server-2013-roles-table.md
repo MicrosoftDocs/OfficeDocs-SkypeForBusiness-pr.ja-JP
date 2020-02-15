@@ -12,16 +12,16 @@ ms:contentKeyID: 48185893
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 251b266d18be3b472f4a22a635d134f6fe3dc77e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d3c241f685e9acc24b82acab1c7f50e1e15754b1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732967"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050819"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41732967"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-28_
+_**トピックの最終更新日:** 2012-09-28_
 
-Roles テーブルは、出席者や発表者など、可能な電話会議ロールのリストを保存する静的テーブルです。
+Roles テーブルは、会議で使用可能な役割 (参加者、発表者など) のリストを格納する静的なテーブルです。
 
 
 <table>
@@ -64,13 +64,13 @@ Roles テーブルは、出席者や発表者など、可能な電話会議ロ�
 </tr>
 <tr class="even">
 <td><p><strong>役割</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td></td>
-<td><p>許可される値:</p>
+<td><p>有効な値は次のとおりです。</p>
 <ul>
-<li><p>0-不明</p></li>
-<li><p>1-プレゼンター</p></li>
-<li><p>2-出席者</p></li>
+<li><p>0 - 不明</p></li>
+<li><p>1 - 発表者</p></li>
+<li><p>2 - 参加者</p></li>
 </ul></td>
 </tr>
 </tbody>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: サイトのアーカイブオプションを構成する'
+title: 'Lync Server 2013: サイトのアーカイブオプションの構成'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184247
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cb2b70242388ca00a7bf43ec535ae1231fb77644
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d5f081cd802bc0427748244890816a7708c82e47
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734987"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049819"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-archiving-options-for-a-site-in-lync-server-2013"></a>Lync Server 2013 でサイトのアーカイブオプションを構成する
+# <a name="configuring-archiving-options-for-a-site-in-lync-server-2013"></a>Lync Server 2013 でのサイトのアーカイブオプションの構成
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41734987"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-09_
+_**トピックの最終更新日:** 2012-10-09_
 
-特定のサイトに適用されるアーカイブオプションを指定するには、各サイトのアーカイブ構成でオプションを作成して構成します。 サイト構成はグローバル構成より優先されますが、その対象はサイト構成に指定されているサイトに限定されます。 プール構成がサイト構成を上書きする
+個々のサイトに適用するアーカイブ オプションを指定できます。それには、それらのサイトの各々について、アーカイブ構成でオプションを作成して構成します。サイト構成は、そのサイト構成で指定されたサイトについてのみ、グローバル構成よりも優先されます。プール構成はサイト構成よりも優先されます。
 
-アーカイブ構成のしくみ (グローバル、サイト、プール構成の階層など) について詳しくは、「計画ドキュメント、展開ドキュメント、または運用ドキュメント」の「 [Lync Server 2013 でのアーカイブの動作](lync-server-2013-how-archiving-works.md)」をご覧ください。
+グローバル構成、サイト構成、およびプール構成の階層など、アーカイブ構成のしくみの詳細については、「計画」、「展開」、または「操作」のドキュメントの「 [Lync Server 2013 でのアーカイブの仕組み](lync-server-2013-how-archiving-works.md)」を参照してください。
 
 <div>
 
 
 > [!NOTE]  
-> アーカイブを有効にする前に、アーカイブ構成ですべての適切なオプションを指定する必要があります。
+> アーカイブを有効にするには、その前にアーカイブ構成で適切なオプションをすべて指定する必要があります。
 
 
 
@@ -55,7 +55,7 @@ _**最終更新日:** 2012-10-09_
 
 
 > [!IMPORTANT]  
-> アーカイブを有効にするには、内部または外部の通信のアーカイブを管理するためのアーカイブ ポリシーを、グローバル レベル (必要に応じて、サイト レベルおよびユーザー レベル) で指定する必要があります。 ユーザー レベルのポリシーを構成する場合は、ユーザー ポリシーをユーザーに割り当てる必要もあります。 アーカイブポリシーの作成と構成の詳細については、「運用ドキュメントの「 <A href="lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md">Lync Server 2013 での社内および社外の通信のアーカイブを管理する</A>」を参照してください。
+> アーカイブを有効にするには、内部または外部の通信のアーカイブを管理するためのアーカイブ ポリシーを、グローバル レベル (必要に応じて、サイト レベルおよびユーザー レベル) で指定する必要があります。 ユーザー レベルのポリシーを構成する場合は、ユーザー ポリシーをユーザーに割り当てる必要もあります。 アーカイブポリシーの作成および構成の詳細については、「操作」のドキュメントの「 <A href="lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md">Lync Server 2013 での内部および外部通信のアーカイブの管理</A>」を参照してください。
 
 
 
@@ -63,11 +63,11 @@ _**最終更新日:** 2012-10-09_
 
 <div>
 
-## <a name="to-configure-archiving-options-at-the-site-level"></a>サイトレベルでアーカイブオプションを構成するには
+## <a name="to-configure-archiving-options-at-the-site-level"></a>サイト レベルでアーカイブ オプションを構成するには
 
 1.  CsArchivingAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server 2013 コントロールパネルを開きます。 Lync Server 2013 コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server 2013 コントロールパネルを開きます。 Lync Server 2013 コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
 3.  左側のナビゲーション バーで、[**監視とアーカイブ**] をクリックし、[**アーカイブ構成**] をクリックします。
 
@@ -75,7 +75,7 @@ _**最終更新日:** 2012-10-09_
 
 5.  [**サイトの選択**] で、アーカイブ用に構成するサイトを選択します。
 
-6.  [**新しいアーカイブ設定**] の [**アーカイブ設定**] ボックスの一覧で、次のいずれかの操作を実行します。
+6.  [**新しいアーカイブ設定**] の [**アーカイブ設定**] ドロップダウン リスト ボックスで、次のいずれかの操作を実行します。
     
       - インスタント メッセージング (IM) セッションのアーカイブだけを有効にするには、[**IM セッションをアーカイブする**] をクリックします。
     
@@ -87,11 +87,11 @@ _**最終更新日:** 2012-10-09_
     
       - アーカイブを使用できない場合にアクティビティをブロックするには、[**アーカイブ失敗時はインスタント メッセージング (IM) または Web 会議セッションを禁止する**] チェック ボックスをオンにします。
     
-      - アーカイブデータの保存に Microsoft Exchange Server を使用するには、[ **Microsoft exchange 統合**] チェックボックスをオンにします。
+      - Microsoft Exchange Server を使用してアーカイブデータを保存するには、[ **Microsoft exchange 統合**] チェックボックスをオンにします。
     
       - データの削除を有効にするには、[**アーカイブ データの削除を有効にする**] チェック ボックスをオンにし、次のどちらかの操作を実行します。
         
-          - 一定の日数が経過した後に削除されるよう指定するには、[**最大日数が経過したエクスポートおよび保存済みアーカイブ データを削除する**] をクリックし、日数を指定します。
+          - 一定の日数が経過した後に削除されるよう指定するには、[**最大日数が経過したエクスポートおよび保存済みアーカイブ データを削除する**] をクリックして、日数を指定します。
         
           - エクスポートされたアーカイブ データに削除対象を限定するには、[**エクスポートされたアーカイブ データのみを削除する**] をクリックします。
 

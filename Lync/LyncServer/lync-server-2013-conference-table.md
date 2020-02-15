@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Conference テーブル'
+title: 'Lync Server 2013: 電話会議テーブル'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183700
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4941dc3ef59630cd77cfb0f8a51407d15ca628f7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 733b3fc6fa77f8f18de1a5c79be86a5aea340cec
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756981"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048588"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="conference-table-in-lync-server-2013"></a>Lync Server 2013 の Conference テーブル
+# <a name="conference-table-in-lync-server-2013"></a>Lync Server 2013 の会議テーブル
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41756981"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-02_
+_**トピックの最終更新日:** 2012-10-02_
 
-会議の表は、サポートされているテーブルです。 各レコードは、1つの会議またはピアツーピアセッションを表します。
+会議テーブルは、サポートテーブルです。 各レコードは、1つの会議またはピアツーピアセッションを表します。
 
 
 <table>
@@ -60,23 +60,23 @@ _**最終更新日:** 2012-10-02_
 <td><p><strong>ConferenceKey</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>この会議レコードを識別する一意の番号です。</p></td>
+<td><p>この会議レコードを示す一意の番号です。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ConfURI</strong></p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>一意</p></td>
-<td><p>会議の URI (会議の場合) または [この Id がピアツーピアセッションの場合] です。</p></td>
+<td><p>unique</p></td>
+<td><p>これが会議の場合は会議 URI、ピアツーピア セッションの場合は DialogID です。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>サム</strong></p></td>
+<td><p><strong>チェックサム</strong></p></td>
 <td><p>int</p></td>
-<td><p>位置</p></td>
-<td><p>会議 URI のチェックサム。 これは内部的に使用されます。</p></td>
+<td><p>index</p></td>
+<td><p>会議 URI のチェックサム。 これは内部で使用されます。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Nextupdatupdat</strong></p></td>
-<td><p>datetime</p></td>
+<td><p><strong>NextUpdateTS</strong></p></td>
+<td><p>日付型</p></td>
 <td></td>
 <td><p>内部使用のみ。</p></td>
 </tr>

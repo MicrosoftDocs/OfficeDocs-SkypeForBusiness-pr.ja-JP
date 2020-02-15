@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ネットワーク領域ルートの作成または変更'
+title: 'Lync Server 2013: ネットワーク地域ルートの作成または変更'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d877de116cc2cf3e0c3354bb6e53d69c211cb482
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5e10cfddaa0e99ee5e6dbab5d196803923bfef95
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740187"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048578"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="creating-or-modifying-network-region-routes-in-lync-server-2013"></a>Lync Server 2013 でのネットワーク領域ルートの作成または変更
+# <a name="creating-or-modifying-network-region-routes-in-lync-server-2013"></a>Lync Server 2013 でのネットワーク地域ルートの作成または変更
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41740187"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-08_
+_**トピックの最終更新日:** 2012-10-08_
 
-通話受付制御 (CAC) 構成内のすべての領域は、他のすべての領域にアクセスするための何らかの手段を持っている必要があります。 地域のリンクでは、地域間の接続について帯域幅の制限を設定していますが、物理的なリンクも示しています。ルートによって、ある領域から別の領域に接続するリンク先のパスが決定されます。 Lync Server コントロールパネルを使用して、ネットワーク領域ルートを構成することができます。 Lync Server コントロールパネルでは、ネットワーク領域ルートの作成、変更、または削除を行うことができます。 ネットワーク領域ルートを作成または変更するには、このトピックを使用します。 既存のネットワーク領域ルートの削除の詳細については、「 [Lync Server 2013 で既存のネットワーク領域ルートを削除](lync-server-2013-deleting-existing-network-region-routes.md)する」を参照してください。
+通話受付管理 (CAC) 構成内のすべての地域には、他のすべての地域へのアクセス方法がいくつかある必要があります。 地域のリンクが地域間の接続に対する帯域幅制限を設定し、物理リンクも表す一方、ルートはある地域から別の地域へ接続が通過するリンクされたパスを決定します。 Lync Server コントロールパネルを使用して、ネットワーク地域ルートを構成できます。 Lync Server コントロールパネルから、ネットワーク地域ルートを作成、変更、または削除することができます。 このトピックでは、ネットワーク地域ルートの作成または変更について説明します。 既存のネットワーク地域ルートの削除の詳細については、「 [Lync Server 2013 で既存のネットワーク地域ルートを削除](lync-server-2013-deleting-existing-network-region-routes.md)する」を参照してください。
 
 <div>
 
-## <a name="to-create-a-network-region-route"></a>ネットワーク領域ルートを作成するには
+## <a name="to-create-a-network-region-route"></a>ネットワーク地域ルートを作成するには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
-3.  左側のナビゲーションバーで [**ネットワーク構成**] をクリックし、[**地域ルート**] をクリックします。
+3.  左側のナビゲーション バーで [**ネットワーク構成**] をクリックし、[**地域ルート**] をクリックします。
 
 4.  [**地域ルート**] ページで、[**新規**] をクリックします。
 
@@ -57,47 +57,47 @@ _**最終更新日:** 2012-10-08_
     
 
     > [!NOTE]  
-    > この値は、Microsoft Lync Server 2013 の展開内で一意である必要があります。
+    > この値は、Microsoft Lync Server 2013 展開内で一意である必要があります。
 
     
     </div>
 
-6.  [ **Network region \#1** ] ドロップダウンリストから、このルートによって接続される2つの領域のいずれかを選択します。
+6.  [**ネットワーク地域\#1** ] ドロップダウンリストから、このルートによって接続する2つの地域のいずれかを選択します。
 
-7.  [ **Network region \#2** ] ドロップダウンリストから、このルートの他の地域を選択します。 この領域は、ネットワーク領域\#1 で選択した地域とは異なる必要があります。
+7.  [**ネットワーク地域\#2** ] ドロップダウンリストから、このルートの他の地域を選択します。 この地域は、[ネットワーク地域\#1 に選択した地域とは別のものにする必要があります。
 
-8.  [**ネットワークの領域のリンク**] リストボックスを使って、そのルートに地域のリンクを追加します。 [**追加**] ボタンをクリックして、[**地域] リンク**ページを表示します。 このルートに追加する地域のリンクをクリックして、[ **OK]** をクリックします。
+8.  [**ネットワーク地域リンク**] リスト ボックスを使用して、地域リンクをルートに追加します。 [**追加**] ボタンをクリックし、[**地域リンク**] ページを表示します。 このルートに追加する地域リンクをクリックして、[**OK**] をクリックします。
     
     <div>
     
 
     > [!NOTE]  
-    > [<STRONG>追加</STRONG>] ボタンをクリックして、さらにリンクを追加するか、リンクを選択して [<STRONG>削除</STRONG>] をクリックし、リンクを削除します。
+    > [<STRONG>追加</STRONG>] ボタンのクリックを続けて、さらにリンクを追加できます。また、リンクを選択して [<STRONG>削除</STRONG>] をクリックすると、リンクを削除できます。
 
     
     </div>
 
-9.  [**コミット**] をクリックします。
+9.  [**確定**] をクリックします。
 
 </div>
 
 <div>
 
-## <a name="to-modify-a-network-region-route"></a>ネットワークの領域ルートを変更するには
+## <a name="to-modify-a-network-region-route"></a>ネットワーク地域ルートを変更するには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
-3.  左側のナビゲーションバーで [**ネットワーク構成**] をクリックし、[**地域ルート**] をクリックします。
+3.  左側のナビゲーション バーで [**ネットワーク構成**] をクリックし、[**地域ルート**] をクリックします。
 
 4.  [**地域ルート**] ページで、変更する地域ルートをクリックします。
 
 5.  [**編集**] メニューの [**詳細の表示**] をクリックします。
 
-6.  [**範囲ルートの編集**] で、このルートによって参加している地域と、ルートに関連付けられている地域リンクを変更することができます。
+6.  [**地域ルートの編集**] で、このルートが接続する地域やこのルートに関連付ける地域リンクを変更できます。
 
-7.  [**コミット**] をクリックします。
+7.  [**確定**] をクリックします。
 
 </div>
 
@@ -106,7 +106,7 @@ _**最終更新日:** 2012-10-08_
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 での既存のネットワーク領域ルートの削除](lync-server-2013-deleting-existing-network-region-routes.md)  
+[Lync Server 2013 での既存のネットワーク地域ルートの削除](lync-server-2013-deleting-existing-network-region-routes.md)  
   
 
 </div>

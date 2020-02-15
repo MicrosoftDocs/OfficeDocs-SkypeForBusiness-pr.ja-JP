@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 新しい信頼できるアプリケーションサーバーを構成する'
+title: 'Lync Server 2013: 新しい信頼されたアプリケーションサーバーの構成'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185085
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dae7e02d7642fed5fea60235283eaa0d7d7e1e35
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e370c229442d90d6e962f0d73efbf4b94038926a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756361"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048160"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-a-new-trusted-application-server-in-lync-server-2013"></a>Lync Server 2013 で新しい信頼できるアプリケーションサーバーを構成する
+# <a name="configure-a-new-trusted-application-server-in-lync-server-2013"></a>Lync Server 2013 で新しい信頼されたアプリケーションサーバーを構成する
 
 </div>
 
@@ -35,37 +35,37 @@ ms.locfileid: "41756361"
 
 <span> </span>
 
-_**最終更新日:** 2012-11-01_
+_**トピックの最終更新日:** 2012-11-01_
 
-信頼されたアプリケーションは、microsoft Lync Server 2013 によって信頼されている Microsoft ユニファイドコミュニケーションマネージ API (UCMA) 3.0 コア SDK に基づくアプリケーションです。 UCMA アプリケーションの詳細については、の「ユニファイドコミュニケーションマネージ API 3.0 Core [http://go.microsoft.com/fwlink/p/?linkId=210320](http://go.microsoft.com/fwlink/p/?linkid=210320)SDK ドキュメント」を参照してください。
+信頼されたアプリケーションは、microsoft Lync Server 2013 によって信頼されている Microsoft 統合コミュニケーション Managed API (UCMA) 3.0 コア SDK に基づくアプリケーションです。 UCMA アプリケーションの詳細については、「ユニファイドコミュニケーション Managed API 3.0 Core SDK [http://go.microsoft.com/fwlink/p/?linkId=210320](http://go.microsoft.com/fwlink/p/?linkid=210320)Documentation」を参照してください。
 
-Microsoft Outlook Web Access (OWA) および Lync Server 2013 の構成の詳細については、Microsoft Exchange Server 2013 ドキュメントの「Outlook Web App および Lync Server 2010 の統合を構成する」を参照してください。
+Microsoft Outlook Web Access (OWA) および Lync Server 2013 の構成の詳細については、Microsoft Exchange Server 2013 のドキュメントの「Outlook Web App および Lync Server 2010 の統合を構成する」を参照してください。
 
-トポロジの公開、有効化、または無効化を成功させるには、サーバーの役割を追加または削除するときに、RTCUniversalServerAdmins および Domain Admins グループのメンバーであるユーザーとしてログオンする必要があります。 また、サーバーの役割を追加するための適切な管理者権限と権限を委任することもできます。 詳細については、展開ドキュメントの「 [Lync Server 2013 でのセットアップ権限の委任](lync-server-2013-delegate-setup-permissions.md)」を参照してください。 その他の構成変更については、RTCUniversalServerAdmins グループのメンバーシップのみが必要です。
+サーバーの役割を追加または削除するときにトポロジを正常に公開、有効化、または無効化するには、RTCUniversalServerAdmins および Domain Admins グループのメンバーであるユーザーとしてログオンする必要があります。 サーバーの役割を追加するための、適切な管理者アクセス許可および権限を委任することもできます。 詳細については、「展開」のドキュメントの「 [Delegate setup permissions In Lync Server 2013](lync-server-2013-delegate-setup-permissions.md) 」を参照してください。 他の構成変更の場合は、RTCUniversalServerAdmins グループのメンバーシップのみが必要です。
 
 <div>
 
-## <a name="to-configure-a-trusted-application-server"></a>信頼できるアプリケーションサーバーを構成するには
+## <a name="to-configure-a-trusted-application-server"></a>信頼されたアプリケーションサーバーを構成するには
 
 1.  トポロジ ビルダーがインストールされているコンピューターに、Domain Admins グループおよび RTCUniversalServerAdmins グループのメンバーとしてログオンします。
 
-2.  トポロジビルダーを開始します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server Topology Builder**] の順にクリックします。
+2.  トポロジ ビルダーを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server トポロジ ビルダー**] の順にクリックします。
 
-3.  [**既存の展開からトポロジをダウンロード**] を選び、[ **OK**] をクリックします。
+3.  [**既存の展開からトポロジをダウンロードする**] を選択し、[**OK**] をクリックします。
 
-4.  [名前を付け**てトポロジを保存**] ダイアログボックスで、使用するトポロジビルダーファイルをクリックし、[**保存**] をクリックします。
+4.  [**トポロジを名前を付けて保存**] ダイアログボックスで、使用するトポロジビルダーファイルをクリックし、[**保存**] をクリックします。
 
-5.  左側のウィンドウで、[**信頼されたアプリケーションサーバー**] を右クリックし、[**新しい信頼できるアプリケーションプール**] をクリックします。
+5.  左側のウィンドウで、[**信頼されたアプリケーションサーバー**] を右クリックし、[**新しい信頼済みアプリケーションプール**] をクリックします。
 
-6.  信頼されているアプリケーションプールの**プール FQDN**を入力し、それが単一サーバーか複数サーバーかを選択して、[**次へ**] をクリックします。
+6.  信頼済みアプリケーション プールの [**プールの FQDN**] を入力してから、単一サーバーにするか複数サーバーにするかを選択し、[**次へ**] をクリックします。
 
-7.  **[次ホップの選択**] ページで、一覧から Lync Server 2013 フロントエンドプールを選びます。
+7.  [**次ホップの選択**] ページで、リストから Lync Server 2013 フロントエンドプールを選択します。
 
 8.  [**完了**] をクリックします。
 
-9.  トップノードの**Lync Server 2013**を選択し、[**操作**] メニューの [**トポロジの公開**] をクリックします。
+9.  トップノードの [ **Lync Server 2013**] を選択し、[**操作**] メニューの [**トポロジの公開**] をクリックします。
     
-    **信頼できるアプリケーションプール**が正常に作成され、正しいフロントエンドプールに関連付けられている必要があります。
+    信頼された**アプリケーションプール**が正常に作成され、適切なフロントエンドプールに関連付けられている必要があります。
 
 </div>
 

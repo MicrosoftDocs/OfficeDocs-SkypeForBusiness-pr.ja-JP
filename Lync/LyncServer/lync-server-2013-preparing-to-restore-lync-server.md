@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Lync Server を復元するための準備'
+title: 'Lync Server 2013: Lync Server の復元の準備'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541490
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c2e6516ee1162c02f2bebc8c385c2f41e87d7781
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 70a011109c985f126c591698f3ea572242498771
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724897"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050459"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="preparing-to-restore-lync-server-2013"></a>Lync Server 2013 を復元するための準備
+# <a name="preparing-to-restore-lync-server-2013"></a>Lync Server 2013 の復元の準備
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41724897"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-21_
+_**トピックの最終更新日:** 2013-02-21_
 
-障害の後にサーバーとデータベースの復元を開始する前に、次のことを決定する必要があります。
+障害発生後にサーバーとデータベースの復元を開始する前に、次の点を決定する必要があります。
 
-  - 何を復元する必要がありますか。
+  - 何を復元する必要があるか。
 
   - 復元に必要なハードウェア、ソフトウェア、データ、およびツール。
 
 <div>
 
-## <a name="determining-what-to-restore"></a>復元するものを決定する
+## <a name="determining-what-to-restore"></a>復元対象の決定
 
-このトピックでは、サーバー、プール、または全体管理ストアのレベルで発生した Lync Server の停止を復元する方法について説明します。 サーバーの全体管理ストアで障害が発生した場合、Lync Server の展開は機能し続けますが、構成を変更することはできません。 バックエンドサーバーまたは Standard Edition サーバーに障害が発生した場合、ユーザープールは機能しなくなります。 他のサーバーで障害が発生した場合、このエラーの大きさは、サーバーが実行しているサーバーの役割と、サーバーが1つ以上のデータベースをホストしているかどうかによって異なります。
+このトピックでは、サーバー、プール、または中央管理ストアのレベルで発生する Lync Server の停止を復元する方法について説明します。 中央管理ストアに障害が発生しても、Lync Server の展開は機能したままですが、構成を変更することはできません。 バックエンド サーバーまたは Standard Edition サーバーに障害が発生した場合は、ユーザー プールが機能を停止します。 それ以外のサーバーに障害が発生した場合、障害の程度は、そのサーバーが実行しているサーバーの役割と、サーバーが 1 つ以上のデータベースをホストしているかどうかに依存します。
 
-### <a name="what-to-restore"></a>復元方法
+### <a name="what-to-restore"></a>復元の対象
 
 <table>
 <colgroup>
@@ -58,8 +58,8 @@ _**最終更新日:** 2013-02-21_
 </colgroup>
 <thead>
 <tr class="header">
-<th>失敗した場合</th>
-<th>以下のセクションを参照してください。</th>
+<th>障害の発生箇所</th>
+<th>参照先セクション</th>
 </tr>
 </thead>
 <tbody>
@@ -69,23 +69,23 @@ _**最終更新日:** 2013-02-21_
 </tr>
 <tr class="even">
 <td><p>中央管理ストア</p></td>
-<td><p><a href="lync-server-2013-restoring-the-server-hosting-the-central-management-store.md">Lync Server 2013 での中央管理ストアをホストしているサーバーの復元</a></p></td>
+<td><p><a href="lync-server-2013-restoring-the-server-hosting-the-central-management-store.md">Lync Server 2013 で中央管理ストアをホストしているサーバーを復元する</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Enterprise Edition のバックエンド</p></td>
 <td><p><a href="lync-server-2013-restoring-an-enterprise-edition-back-end-server.md">Lync Server 2013 で Enterprise Edition バックエンドサーバーを復元する</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Enterprise Edition のミラーバックエンドプライマリサーバー</p></td>
-<td><p><a href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-primary.md">Lync Server 2013 でのミラー化された Enterprise Edition バックエンドサーバーの復元-プライマリ</a></p></td>
+<td><p>Enterprise Edition ミラーリングされたバックエンドプライマリサーバー</p></td>
+<td><p><a href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-primary.md">Lync Server 2013 のミラー化された Enterprise Edition バックエンドサーバーの復元-プライマリ</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Enterprise Edition のミラーリングされたバックエンドセカンダリサーバー</p></td>
-<td><p><a href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md">Lync Server 2013-mirror でのミラー化された Enterprise Edition バックエンドサーバーの復元</a></p></td>
+<td><p>Enterprise Edition ミラーリングされたバックエンドセカンダリサーバー</p></td>
+<td><p><a href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md">Lync Server 2013 のミラー化された Enterprise Edition バックエンドサーバーを復元する</a></p></td>
 </tr>
 <tr class="even">
-<td><p>フロントエンドサーバー、エッジサーバー、監督、仲介サーバー、常設チャットサーバーなど、サーバーの役割を実行している Enterprise Edition サーバー。</p></td>
-<td><p><a href="lync-server-2013-restoring-an-enterprise-edition-member-server.md">Lync Server 2013 で Enterprise Edition メンバーサーバーを復元する</a></p></td>
+<td><p>フロントエンドサーバー、エッジサーバー、ディレクター、仲介サーバー、または常設チャットサーバーなどのサーバーの役割を実行している Enterprise Edition サーバー。</p></td>
+<td><p><a href="lync-server-2013-restoring-an-enterprise-edition-member-server.md">Lync Server 2013 での Enterprise Edition メンバーサーバーの復元</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync Server プール全体</p></td>
@@ -111,50 +111,50 @@ _**最終更新日:** 2013-02-21_
 
 <div>
 
-## <a name="gathering-hardware-software-and-tools"></a>ハードウェア、ソフトウェア、ツールの収集
+## <a name="gathering-hardware-software-and-tools"></a>ハードウェア、ソフトウェア、およびツールの収集
 
-サーバーを復元する場合は、新しいコンピューターまたはクリーンコンピューターから起動する必要があります。 さらに、次のハードウェアとソフトウェアを使用できるようにする必要があります。
+サーバーを復元する際には、新しいコンピューターまたはクリーン コンピューターを使用して作業を開始する必要があります。 さらに、次のハードウェアとソフトウェアを使用できる必要があります。
 
-  - 障害が発生したサーバーと同じ完全修飾ドメイン名 (FQDN) を含むクリーンなサーバーまたは新規サーバー。
+  - 障害が発生したサーバーと同じ完全修飾ドメイン名 (FQDN) を持つクリーン サーバーまたは新しいサーバー。
     
     <div>
     
 
     > [!IMPORTANT]  
-    > オペレーティングシステムをインストールするときには、Active Directory ドメインサービスでコンピューターアカウントを削除していないことを確認して、アカウントのグループアクセス許可が保持されていることを確認します。
+    > オペレーティングシステムをインストールするときは、Active Directory ドメインサービスのコンピューターアカウントを削除しないようにし、アカウントのグループのアクセス許可が保持されていることを確認してください。
 
     
     </div>
 
-  - オペレーティングシステムのインストールソフトウェア。 オペレーティングシステムをインストールするには、組織によって確立されたサーバーの展開手順と構成を使用します。 サービスを復元する場合は、以下の手順と構成要件を利用できる必要があります。
+  - オペレーティング システムのインストール ソフトウェア。 オペレーティング システムをインストールするには、組織で制定された、サーバーの展開手順と構成を使用します。 サービスを復元するときには、これらの手順と構成要件を利用できます。
 
-  - SQL Server 2012 または SQL Server 2008 R2 のインストールソフトウェア。 データベースサーバーをインストールするには、適切なバージョンの SQL Server と、組織によって確立されたデータベースサーバーの展開手順と構成を使用します。 サービスを復元する場合は、以下の手順と構成要件を利用できる必要があります。
+  - SQL Server 2012 または SQL Server 2008 R2 のインストールソフトウェア。 データベース サーバーをインストールするには、組織で制定された、適切なバージョンの SQL Server およびデータベース サーバーの展開手順と構成を使用します。 サービスを復元するときには、これらの手順と構成要件を利用できます。
     
     <div>
     
 
     > [!NOTE]  
-    > SQL server 2012 または SQL Server 2008 R2 をインストールしていない場合、Lync Server Deployment Wizard によって、各標準エディションサーバーおよび他の Lync Server サーバー上に SQL Server 2012 Express が自動的にインストールされます。サーバー。
+    > SQL server 2012 または SQL Server 2008 R2 がインストールされていない場合、Lync Server Deployment ウィザードは、各 Standard Edition サーバーおよびその他の Lync Server サーバーに SQL Server 2012 Express を自動的にインストールします。サーバー。
 
     
     </div>
 
-  - システムイメージを取得するためのソフトウェア。
+  - システム イメージを作成するためのソフトウェア。
     
     <div>
     
 
     > [!TIP]  
-    > オペレーティングシステムと SQL Server をインストールしてから復元を開始する前に、システムのイメージコピーを取得することをお勧めします。復元中に問題が発生した場合に、この画像をロールバックポイントとして使うことができます。
+    > オペレーティングシステムと SQL Server をインストールした後、復元を開始する前に、システムのイメージコピーを取得することをお勧めします。これにより、復元中に問題が発生した場合にこのイメージをロールバックポイントとして使用できるようになります。
 
     
     </div>
 
-  - Lync Server 2013 インストールソフトウェア。 Lync Server 展開ウィザードは、Lync Server のインストールフォルダーまたは\\\\amd64\\セットアップでのメディアにあります。
+  - Lync Server 2013 インストールソフトウェア。 Lync Server 展開ウィザードは、Lync Server のインストールフォルダーまたは\\セットアップ\\の amd64\\セットアップのメディアにあります。
 
-復元中には、次のツールを使用します。
+復元時には、次のツールを使用します。
 
-  - Lync Server 管理シェルコマンドレット
+  - Lync Server 管理シェルのコマンドレット
 
   - インポート-CsUserData
 
@@ -162,37 +162,37 @@ _**最終更新日:** 2013-02-21_
 
   - トポロジ ビルダー
 
-  - Sql server Management Studio などの SQL Server データベースユーティリティ
+  - SQL Server データベース ユーティリティ (SQL Server Management Studio など)
 
 </div>
 
 <div>
 
-## <a name="preparing-to-restore-a-server"></a>サーバーを復元するための準備
+## <a name="preparing-to-restore-a-server"></a>サーバーを復元する準備
 
 サーバーを復元する前に、次の手順を実行する必要があります。
 
-1.  オペレーティングシステムをインストールします。
+1.  オペレーティング システムをインストールします。
 
 2.  サーバーがバックエンドサーバーの場合は、SQL Server 2012 または SQL Server 2008 R2 をインストールします。
 
-3.  証明書を復元または reenroll します。 証明書の詳細については、「 [Lync Server 2013 のバックアップと復元の要件](lync-server-2013-backup-and-restoration-requirements-data.md)」の「その他のバックアップ要件」を参照してください。
+3.  証明書を復元または reenroll します。 証明書の詳細については、「 [Lync Server 2013: data」の「バックアップと復元の要件](lync-server-2013-backup-and-restoration-requirements-data.md)」の「追加のバックアップ要件」を参照してください。
 
-4.  復元中に問題が発生した場合に備えて、復元を開始する前に、システムのイメージを取得してロールバックポイントとして使用します。
+4.  復元中に問題が発生した場合に備えて、復元を開始する前にシステムのイメージを取得して、ロールバックポイントとして使用します。
 
 <div>
 
 
 > [!NOTE]  
-> このトピックの手順および関連トピックで説明されている Lync Server 展開ウィザードとコマンドレットでは、必要なすべてのアクセス制御リスト (Acl) を設定します。
+> このトピックの手順で説明されている Lync Server 展開ウィザードとコマンドレット、および関連するトピックで、必要なアクセス制御リスト (Acl) をすべて設定します。
 
 
 
 </div>
 
-復元を開始する前に、復元する予定のコンポーネントに必要なハードウェアとソフトウェアが使用可能であることを確認します。 オペレーティングシステムと SQL Server をインストールした後、次の復元手順のほとんどはリモートで実行できます。 例外については、手順に記載されています。
+復元を開始する前に、復元するコンポーネントに必要なハードウェアとソフトウェアが利用可能であることを確認してください。 オペレーティング システムと SQL Server のインストール後は、以降の復元手順のほとんどのステップをリモートで実行できます。 その例外については、手順内で説明します。
 
-また、組織のバックアップと復元計画、およびこのドキュメントのワークシートの情報 (詳細については、「 [Lync Server 2013 のバックアップと復元用のワークシート](lync-server-2013-backup-and-restoration-worksheets.md)を参照してください)、復元を開始する前に確認しておく必要があります。
+また、復元を開始する前に、組織のバックアップと復元の計画と、最新のバックアップからの情報 (詳細については「 [Lync Server 2013 のバックアップと復元のワークシート](lync-server-2013-backup-and-restoration-worksheets.md)」を参照してください) を入手する必要があります。
 
 </div>
 

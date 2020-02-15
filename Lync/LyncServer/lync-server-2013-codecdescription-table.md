@@ -12,16 +12,16 @@ ms:contentKeyID: 48183802
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5a407d8eeb1ad9e318ff2f960f8cb7d62b1e3a9f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4be7b878d3d9b6457fbda7a081db9b6b6cb80314
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757121"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045839"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41757121"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-17_
+_**トピックの最終更新日:** 2012-10-17_
 
-CodecDescription テーブルでは、一意のコーデック識別子が対応するコーデックにマップされます。 コーデックは、伝送とブロードキャスト用のデジタルシグナルをエンコードし、再生のためにそれらのシグナルをデコードするために使われます。 この表は Microsoft Lync Server 2013 で導入されました
+CodecDescription テーブルは、対応するコーデックに一意コーデック識別子をマップします。 コーデックは、送受信とブロードキャスト用にデジタル信号をコード化し、再生時にそれらの信号を読み取る目的で使用されます。 この表は、Microsoft Lync Server 2013 で導入されました。
 
 
 <table>
@@ -60,13 +60,13 @@ CodecDescription テーブルでは、一意のコーデック識別子が対応
 <td><p><strong>CodecDescriptionKey</strong></p></td>
 <td><p>smallint</p></td>
 <td><p>Primary</p></td>
-<td><p>コーデックに割り当てられている一意の識別子。</p></td>
+<td><p>新しいコーデックに割り当てる一意識別子です。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CodecDescription</strong></p></td>
 <td><p>varchar (256)</p></td>
 <td><p>一意</p></td>
-<td><p>CodecDescriptionKey に対応するコーデックの固有の説明です。</p></td>
+<td><p>CodecDescriptionKey に対応しているコーデックの一意詳細。</p></td>
 </tr>
 </tbody>
 </table>

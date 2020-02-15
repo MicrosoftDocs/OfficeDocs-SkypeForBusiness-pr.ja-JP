@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: パッシブ認証を構成する'
+title: 'Lync Server 2013: パッシブ認証の構成'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 54973690
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0a2e52f957a8aba7e69e97b0ec2100ffbc5a190c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1a50cb75bdf833468d6974b9ddce1b282c1872d3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756331"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046340"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-lync-server-2013-passive-authentication"></a>Lync Server 2013 のパッシブ認証を構成する
+# <a name="configuring-lync-server-2013-passive-authentication"></a>Lync Server 2013 のパッシブ認証の構成
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41756331"
 
 <span> </span>
 
-_**最終更新日:** 2013-07-11_
+_**トピックの最終更新日:** 2013-07-11_
 
-以下のセクションでは、累積更新プログラムを使って Lync Server 2013 を構成する方法について説明します。2013年7月パッシブ認証をサポートします。 有効にした後、2要素認証が有効になっている Lync ユーザーは、物理または仮想スマートカードと有効な PIN を使用して、Lync 2013 で累積更新プログラムを使ってサインインする必要があります。これは、2013年7月のクライアントです。
+次のセクションでは、累積的な更新プログラムで Lync Server 2013 を構成する方法について説明します。7月2013はパッシブ認証をサポートします。 有効にした場合、2要素認証が有効になっている Lync ユーザーは、累積的な更新プログラム (7 月2013クライアント) で Lync 2013 を使用してサインインするために、物理または仮想スマートカードと有効な PIN を使用する必要があります。
 
 <div class="">
 
 
 > [!NOTE]  
-> レジストラーと Web サービスのパッシブ認証はサービス レベルで有効にすることを強くお勧めします。 グローバルレベルでレジストラーと Web サービスのパッシブ認証が有効になっている場合、累積更新プログラムを使って Lync 2013 でサインインしていないユーザーに対して、組織全体の認証エラーが発生する可能性があります。これは、2013年7月のクライアントデスクトップクライアントです。
+> ユーザーがサービスレベルでレジストラーと Web サービスのパッシブ認証を有効にすることを強くお勧めします。 グローバルレベルでレジストラーと Web サービスのパッシブ認証が有効になっている場合は、累積更新プログラム (7 月2013クライアントデスクトップクライアント) で Lync 2013 を使用してサインインしていないユーザーに対して、組織全体の認証エラーが発生する可能性があります。
 
 
 
@@ -51,17 +51,17 @@ _**最終更新日:** 2013-07-11_
 
 <div>
 
-## <a name="web-service-configuration"></a>Web サービス構成設定
+## <a name="web-service-configuration"></a>Web サービスの構成
 
-次の手順では、パッシブ認証を有効にするディレクター、エンタープライズ プール、Standard Edition サーバーにカスタムの Web サービス構成設定を作成する方法について説明します。
+次の手順では、パッシブ認証を有効にするディレクター、エンタープライズプール、Standard Edition サーバー用のカスタム web サービス構成を作成する方法について説明します。
 
-**カスタムの Web サービス構成設定を作成するには**
+**カスタム web サービス構成を作成するには**
 
-1.  累積更新プログラムで Lync Server 2013 にログインします。 Lync 管理者アカウントを使用して、2013年7月のフロントエンドサーバーにログインします。
+1.  累積的な更新プログラム (Lync 管理者アカウントを使用した7月2013のフロントエンドサーバー) で Lync Server 2013 にログインします。
 
-2.  Lync Server 2013 Management Shell を起動します。
+2.  Lync Server 2013 管理シェルを起動します。
 
-3.  Lync Server 管理シェルコマンドラインで、次のコマンドを実行して、各ディレクター、エンタープライズプール、および標準エディションサーバー用の新しい Web サービス構成を作成します。これにより、パッシブ認証が有効になります。
+3.  Lync Server 管理シェルコマンドラインから、次のコマンドを実行することによって、パッシブ認証が有効になるディレクター、エンタープライズプール、Standard Edition サーバーごとに新しい Web サービス構成を作成します。
     ```powershell
     New-CsWebServiceConfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
     ```
@@ -70,16 +70,16 @@ _**最終更新日:** 2013-07-11_
     
 
     > [!WARNING]  
-    > WsFedPassiveMetadataUri の FQDN の値は、AD FS 2.0 サーバーのフェデレーション サービス名です。フェデレーション サービス名の値は、AD FS 2.0 管理コンソールでナビゲーション ウィンドウの [<STRONG>サービス</STRONG>] を右クリックし、[<STRONG>Edit Federation Service Properties</STRONG>] を選択すると確認できます。
+    > WsFedPassiveMetadataUri FQDN の値は、AD FS 2.0 サーバーのフェデレーションサービス名です。 フェデレーションサービス名の値は、AD FS 2.0 管理コンソールで、ナビゲーションウィンドウの [<STRONG>サービス</STRONG>] を右クリックし、[<STRONG>フェデレーションサービスのプロパティの編集</STRONG>] を選択すると表示されます。
 
     
     </div>
 
-4.  次のコマンドを実行して、UseWsFedPassiveAuth と WsFedPassiveMetadataUri の値が正しく設定されたことを確認します。
+4.  UseWsFedPassiveAuth および WsFedPassiveMetadataUri の値が正しく設定されていることを確認するには、次のコマンドを実行します。
      ```powershell
      Get-CsWebServiceConfiguration -identity "Service:WebServer:LyncPool01.contoso.com" | format-list UseWsFedPassiveAuth, WsFedPassiveMetadataUri
      ```
-5.  クライアントでは、パッシブ認証は WebTicket 認証の最も望ましくない方法です。 パッシブ認証を有効にするすべてのディレクター、エンタープライズプール、および標準エディションのサーバーについては、次のコマンドを実行して、Lync Web サービスで他のすべての認証の種類を無効にする必要があります。
+5.  クライアントの場合、パッシブ認証は、webticket 認証で最も推奨される認証方法です。 パッシブ認証を有効にするすべてのディレクター、エンタープライズプール、Standard Edition サーバーでは、次のコマンドを実行することによって、Lync Web サービスで他のすべての認証の種類を無効にする必要があります。
     ```powershell
     Set-CsWebServiceConfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" -UseCertificateAuth $false -UsePinAuth $false -UseWindowsAuth NONE
      ```
@@ -91,15 +91,15 @@ _**最終更新日:** 2013-07-11_
 
 <div>
 
-## <a name="proxy-configuration"></a>プロキシ構成設定
+## <a name="proxy-configuration"></a>プロキシの構成
 
-Lync Web サービスの証明書認証が無効になっている場合、Lync クライアントは、より優先度の低い認証の種類 (Kerberos、NTLM など) を使用してレジストラーサービスを認証します。 ただし、証明書の認証は、Lync クライアントが webticket を取得できるようにするために必要ですが、レジストラーサービスについては、Kerberos と NTLM を無効にする必要があります。
+Lync Web サービスで証明書認証が無効になっている場合、Lync クライアントは、レジストラーサービスへの認証に、Kerberos や NTLM などの優先度の低い認証の種類を使用します。 ただし、Lync クライアントが webticket を取得できるようにするには、証明書認証が必要ですが、レジストラーサービスについては Kerberos と NTLM を無効にする必要があります。
 
-次の手順では、パッシブ認証を有効にするエッジ プール、エンタープライズ プール、Standard Edition サーバーにカスタムのプロキシ構成設定を作成する方法について説明します。
+次の手順では、パッシブ認証を有効にするエッジプール、エンタープライズプール、Standard Edition サーバーのカスタムプロキシ構成を作成する方法について説明します。
 
-**カスタムのプロキシ構成設定を作成するには**
+**カスタムプロキシ構成を作成するには**
 
-1.  Lync Server 管理シェルコマンドラインから、累積更新プログラムを使用して、各 Lync Server 2013 に対して新しいプロキシ構成を作成します。 2013 Edge プール、エンタープライズプール、Standard Edition Server は、以下のコマンドを実行します。
+1.  Lync Server 管理シェルコマンドラインから、累積的な更新プログラムを使用して、各 Lync Server 2013 に対して新しいプロキシ構成を作成します。7月2013エッジプール、エンタープライズプール、Standard Edition サーバーを実行することでパッシブ認証が有効になります。次のコマンド:
     
        ```powershell
         New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" 
@@ -111,7 +111,7 @@ Lync Web サービスの証明書認証が無効になっている場合、Lync 
         -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
        ```
 
-2.  次のコマンドを実行して、他のすべてのプロキシ認証の種類が無効になっていることを確認します。
+2.  次のコマンドを実行して、他のすべてのプロキシ認証の種類が正常に無効になっていることを確認します。
     ```powershell
     Get-CsProxyConfiguration -Identity "Service:Registrar:LyncPool01.contoso.com"
          | format-list UseKerberosForClientToProxyAuth, UseNtlmForClientToProxyAuth, UseCertifcateForClientToProxyAuth

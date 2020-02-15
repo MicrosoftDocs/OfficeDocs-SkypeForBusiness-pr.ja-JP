@@ -12,16 +12,16 @@ ms:contentKeyID: 48185247
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 77bad1729c67c363dc56eaf8788e57caabd51876
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e1db2211f174c18c160262c1f62c55a178b2cda4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722427"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045920"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -54,7 +54,7 @@ _**トピックの最終更新日:** 2013-02-23_
     
     </div>
 
-2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
 3.  左側のナビゲーション バーで [**応答グループ**] をクリックし、[**キュー**] をクリックします。
 
@@ -70,7 +70,7 @@ _**トピックの最終更新日:** 2013-02-23_
 
 7.  [**グループ**] で、キューに割り当てるグループを指定します。次のいずれかの操作を行います。
     
-      - キューにグループを追加するには、[**選択**] をクリックします。[**グループの選択**] の検索フィールドに、キューに割り当てるエージェント グループの名前または名前の一部を入力し、一覧で目的のエージェント グループをクリックして、[**OK**] をクリックします。
+      - キューにグループを追加するには、[**選択**] をクリックします。 **[グループの選択**] 検索フィールドに、キューに割り当てるエージェントグループの名前または名前の一部を入力し、目的のエージェントグループをクリックして、[ **OK]** をクリックします。
     
       - キューからグループを削除するには、エージェント グループの一覧で、削除するグループをクリックし、[**削除**] をクリックします。
     
@@ -93,13 +93,13 @@ _**トピックの最終更新日:** 2013-02-23_
     
     <!-- end list -->
     
-      - タイムアウト後通話を終了するには、[**切断**] をクリックします。
+      - タイムアウト後通話を終了するには、**[切断]** をクリックします。
     
-      - 通話をボイスメールに転送するには、[**ボイスメールに転送**] をクリックし、[ **sip アドレス**\<] フィールドに、「sip: username\>@\<domainname\> (sip:bob@contoso.com)」という形式でボイスメールアドレスを入力します。
+      - 通話をボイスメールに転送するには、[**ボイスメールに転送**] をクリックし、[ **sip アドレス**] フィールド\<に「sip: username\>@\<domainname\> (たとえば、sip:bob@contoso.com)」の形式でボイスメールアドレスを入力します。
     
-      - 別の電話番号に通話を転送するには、[**電話番号に転送**] をクリックし、[ **sip アドレス**] フィールドに電話番号を「\<sip\>@\<:\>番号のドメイン名」という形式で入力します (たとえば、sip:+14255550121@contoso.com)。
+      - 別の電話番号に通話を転送するには、[**電話番号に転送**] をクリックし、[ **sip アドレス**] フィールドに電話番号を「\<sip\>@\<:\>番号 domainname (たとえば、sip:+14255550121@contoso.com)」という形式で入力します。
     
-      - 通話を別のユーザーに転送するには、[ **sip アドレスに転送**] をクリックし、[ **sip アドレス**] フィールドにユーザーの URI を「sip\<:\>@\<username\>domainname」という形式で入力します。
+      - 別のユーザーに通話を転送するには、[ **sip アドレスに転送**] をクリックし、[ **sip アドレス**] フィールドにユーザーの URI を「sip\<:\>@\<username\>domainname」の形式で入力します。
     
       - 別のキューに通話を転送する場合は [**別のキューに転送**] をクリックし、使用するキューを参照します。
 
@@ -115,11 +115,11 @@ _**トピックの最終更新日:** 2013-02-23_
     
       - タイムアウト後通話を終了するには、[**切断**] をクリックします。
     
-      - 通話をボイスメールに転送するには、[**ボイスメールに転送**] をクリックし、[ **sip アドレス**\<] フィールドに、「sip: username\>@\<domainname\> (sip:bob@contoso.com)」という形式でボイスメールアドレスを入力します。
+      - 通話をボイスメールに転送するには、[**ボイスメールに転送**] をクリックし、[ **sip アドレス**] フィールド\<に「sip: username\>@\<domainname\> (たとえば、sip:bob@contoso.com)」の形式でボイスメールアドレスを入力します。
     
-      - 別の電話番号に通話を転送するには、[**電話番号に転送**] をクリックし、[ **sip アドレス**] フィールドに電話番号を「\<sip\>@\<:\>番号のドメイン名」という形式で入力します (たとえば、sip:+14255550121@contoso.com)。
+      - 別の電話番号に通話を転送するには、[**電話番号に転送**] をクリックし、[ **sip アドレス**] フィールドに電話番号を「\<sip\>@\<:\>番号 domainname (たとえば、sip:+14255550121@contoso.com)」という形式で入力します。
     
-      - 通話を別のユーザーに転送するには、[ **sip アドレスに転送**] をクリックし、[ **sip アドレス**] フィールドにユーザーの URI を「sip\<:\>@\<username\>domainname」という形式で入力します。
+      - 別のユーザーに通話を転送するには、[ **sip アドレスに転送**] をクリックし、[ **sip アドレス**] フィールドにユーザーの URI を「sip\<:\>@\<username\>domainname」の形式で入力します。
     
       - 別のキューに通話を転送する場合は [**別のキューに転送**] をクリックし、使用するキューを参照します。
 
@@ -142,13 +142,13 @@ _**トピックの最終更新日:** 2013-02-23_
     
     </div>
 
-2.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+2.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
 3.  キューのタイムアウトしきい値に達したときに再生されるプロンプトを作成し、変数に格納します。コマンド ラインで、次のコマンドを実行します。
     
         $promptTO = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
     
-    次に例を示します。
+    例:
     
         "All agents are currently busy. Please call back later."
     
@@ -156,7 +156,7 @@ _**トピックの最終更新日:** 2013-02-23_
     
 
     > [!NOTE]  
-    > プロンプトにオーディオ ファイルを使用するには、 <STRONG>Import-CsRgsAudioFile</STRONG> コマンドレットを使用します。 詳細については、「<A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">インポート-CsRgsAudioFile</A>」を参照してください。
+    > プロンプトにオーディオ ファイルを使用するには、<STRONG>Import-CsRgsAudioFile</STRONG> コマンドレットを使用します。 詳細については、「 <A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">import-csrgsaudiofile</A>」を参照してください。
 
     
     </div>
@@ -169,12 +169,12 @@ _**トピックの最終更新日:** 2013-02-23_
     
 
     > [!NOTE]  
-    > 可能なアクションとその構文の詳細については、「<A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction">新しい-CsRgsCallAction</A>」を参照してください。
+    > 使用可能なアクションとその構文の詳細については、「 <A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction">New-CsRgsCallAction</A>」を参照してください。
 
     
     </div>
     
-    次に例を示します。
+    例:
     
         $action = New-CsRgsCallAction -Prompt $promptTO -Action Terminate
 
@@ -182,7 +182,7 @@ _**トピックの最終更新日:** 2013-02-23_
     
         $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
     
-    次に例を示します。
+    例:
     
         $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "Too many calls are waiting. Please call back later."
     
@@ -190,7 +190,7 @@ _**トピックの最終更新日:** 2013-02-23_
     
 
     > [!NOTE]  
-    > プロンプトにオーディオ ファイルを使用するには、 <STRONG>Import-CsRgsAudioFile</STRONG> コマンドレットを使用します。 詳細については、「<A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">インポート-CsRgsAudioFile</A>」を参照してください。
+    > プロンプトにオーディオ ファイルを使用するには、<STRONG>Import-CsRgsAudioFile</STRONG> コマンドレットを使用します。 詳細については、「 <A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">import-csrgsaudiofile</A>」を参照してください。
 
     
     </div>
@@ -203,7 +203,7 @@ _**トピックの最終更新日:** 2013-02-23_
     
 
     > [!NOTE]  
-    > 可能なアクションとその構文の詳細については、「<A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction">新しい-CsRgsCallAction</A>」を参照してください。
+    > 使用可能なアクションとその構文の詳細については、「 <A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction">New-CsRgsCallAction</A>」を参照してください。
 
     
     </div>
@@ -212,11 +212,11 @@ _**トピックの最終更新日:** 2013-02-23_
     
         $action = New-CsRgsCallAction -Prompt $promptOV -Action Terminate
 
-7.  応答グループ サービスのサービス名を取得し、変数に割り当てます。コマンド ラインで、次のコマンドを実行します。
+7.  応答グループ サービスのサービス名を取得して変数に割り当てます。 コマンド ラインで、次のコマンドを実行します。
     
         $serviceId="service:"+(Get-CSService | ?{$_.Applications -Like "*RGS*"}).ServiceId;
 
-8.  キューに割り当てるエージェント グループの Identity を取得します。コマンド ラインで、次のコマンドを実行します。
+8.  キューに割り当てるエージェント グループの Identity を取得します。 コマンド ラインで、次のコマンドを実行します。
     
         $agid = (Get-CsRgsAgentGroup -Name "Help Desk").Identity;
     
@@ -224,7 +224,7 @@ _**トピックの最終更新日:** 2013-02-23_
     
 
     > [!NOTE]  
-    > エージェントグループの作成の詳細については、「<A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsAgentGroup">新しい-CsRgsAgentGroup</A> 」を参照してください。
+    > エージェントグループの作成の詳細については、「 <A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsAgentGroup">New-CsRgsAgentGroup</A> 」を参照してください。
 
     
     </div>
@@ -233,7 +233,7 @@ _**トピックの最終更新日:** 2013-02-23_
     
         $q = New-CsRgsQueue -Parent <saved service ID from previous step> -Name "<name of queue>" [-Description "<description for queue>"] [-TimeoutThreshold <# seconds before call times out>] [-TimeoutAction <saved timeout action>] [-OverflowThreshold <# calls queue can hold>] [-OverflowCandidate <call to be acted on when overflow threshold met>] [-OverflowAction <saved overflow action>] [-AgentGroupIDList(<agent group identity>)];
     
-    例:
+    次に例を示します。
     
         $q = New-CsRgsQueue -Parent $serviceId -Name "Help Desk" -Description "Contoso Help Desk" -TimeoutThreshold 300 -TimeoutAction $actionTO -OverflowThreshold 10 -OverflowCandidate NewestCall -OverflowAction $actionOV -AgentGroupIDList($agid.Identity;
 

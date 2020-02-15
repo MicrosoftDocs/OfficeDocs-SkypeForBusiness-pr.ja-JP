@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: VDI の使用環境の準備'
+title: 'Lync Server 2013: VDI のための環境の準備'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185052
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 57a3fb2563e287f24d49c23a468b4a44528707b3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1d1da845950ddd70502a1e59db980c423aedba7d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747277"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049879"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="preparing-your-lync-server-2013-environment-for-vdi"></a>VDI の Lync Server 2013 使用環境の準備
+# <a name="preparing-your-lync-server-2013-environment-for-vdi"></a>VDI の Lync Server 2013 環境の準備
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41747277"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-22_
+_**トピックの最終更新日:** 2013-02-22_
 
-Lync VDI プラグインの環境を準備するには、管理者が次の手順を実行する必要があります。
+Lync VDI プラグインの環境を準備するには、管理者は次の手順を実行する必要があります。
 
-1.  Lync Server 2013 で、すべての VDI ユーザーに対して EnableMediaRedirection が TRUE に設定されていることを確認します。 詳細については、「[新しい-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsClientPolicy)コマンドレット」および「 [csclientpolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy)コマンドレット」のヘルプトピックを参照してください。
+1.  Lync Server 2013 では、すべての VDI ユーザーに対して対して enablemediaredirection が TRUE に設定されていることを確認します。 詳細については、「[新しい-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsClientPolicy)コマンドレット」および「 [Set-csclientpolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy)コマンドレット」のヘルプトピックを参照してください。
 
-2.  データセンターコンピューターで、すべての仮想マシンに Lync 2013 クライアントをインストールします。
+2.  データセンターコンピューターで、Lync 2013 クライアントをすべての仮想マシンにインストールします。
 
 3.  ローカルコンピューターで、Lync VDI プラグインをインストールします。
 

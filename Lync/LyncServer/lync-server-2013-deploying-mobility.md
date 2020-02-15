@@ -12,16 +12,16 @@ ms:contentKeyID: 48185805
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ea96278ad965538923b619e84ea059c0d6c7953
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f70b94d5a529a3fce46ac2b199e079f6be1e5bd0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740947"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048758"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,31 +35,31 @@ ms.locfileid: "41740947"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-08_
+_**トピックの最終更新日:** 2012-09-08_
 
-Lync Server 2013 モビリティ機能を展開するときに、モバイルユーザーは、インスタントメッセージング (IM)、プレゼンス、連絡先などの Lync 機能に対応するモバイルデバイスを使用できます。
+Lync Server 2013 モビリティ機能を展開すると、モバイルユーザーは、インスタントメッセージング (IM)、プレゼンス、連絡先などの Lync 機能に対してサポートされているモバイルデバイスを使用できるようになります。
 
-モバイル機能を展開するための要件の詳細については、「 [Lync Server 2013 でのモビリティの計画](lync-server-2013-planning-for-mobility.md)」を参照してください。
+モビリティ機能を展開するための要件の詳細については、「 [Lync Server 2013 でのモビリティの計画](lync-server-2013-planning-for-mobility.md)」を参照してください。
 
-このセクションでは、モバイル機能と自動検出機能を展開して確認するための手順について説明します。
+このセクションでは、モビリティ機能と自動検出機能を展開および確認する方法を順を追って説明します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
   - [Lync Server 2013 での自動検出サービスの DNS レコードの作成](lync-server-2013-creating-dns-records-for-the-autodiscover-service.md)
 
-  - [Lync Server 2013 でのモビリティに合わせた証明書の変更](lync-server-2013-modifying-certificates-for-mobility.md)
+  - [Lync Server 2013 でのモビリティの証明書の変更](lync-server-2013-modifying-certificates-for-mobility.md)
 
-  - [Lync Server 2013 での、モビリティに合わせたリバース プロキシの構成](lync-server-2013-configuring-the-reverse-proxy-for-mobility.md)
+  - [Lync Server 2013 でのモビリティのリバースプロキシの構成](lync-server-2013-configuring-the-reverse-proxy-for-mobility.md)
 
-  - [Lync Server 2013 のハイブリッド展開での自動検出の構成によるモビリティ](lync-server-2013-configuring-autodiscover-for-mobility-with-hybrid-deployments.md)
+  - [Lync Server 2013 での自動検出の構成 (ハイブリッド展開を使用したモビリティ)](lync-server-2013-configuring-autodiscover-for-mobility-with-hybrid-deployments.md)
 
-  - [Lync Server 2013 でのモビリティ展開の確認](lync-server-2013-verifying-your-mobility-deployment.md)
+  - [Lync Server 2013 でのモビリティの展開の確認](lync-server-2013-verifying-your-mobility-deployment.md)
 
-  - [Lync Server 2013 でプッシュ通知を構成する](lync-server-2013-configuring-for-push-notifications.md)
+  - [Lync Server 2013 でのプッシュ通知の構成](lync-server-2013-configuring-for-push-notifications.md)
 
-  - [Lync Server 2013 でのモビリティ ポリシーの構成](lync-server-2013-configuring-mobility-policy.md)
+  - [Lync Server 2013 でのモビリティポリシーの構成](lync-server-2013-configuring-mobility-policy.md)
 
 </div>
 

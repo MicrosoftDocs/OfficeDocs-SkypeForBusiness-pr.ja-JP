@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 位置情報ポリシー情報の表示'
+title: 'Lync Server 2013: 場所ポリシー情報の表示'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183489
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0f68ad38ffbc8bb1b4abdfbf8119add7d9f965e6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 33de3d4646424067af96644eca47cf5e16354530
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757321"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046210"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="viewing-location-policy-information-in-lync-server-2013"></a>Lync Server 2013 で位置情報ポリシー情報を表示する
+# <a name="viewing-location-policy-information-in-lync-server-2013"></a>Lync Server 2013 での場所ポリシー情報の表示
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41757321"
 
 <span> </span>
 
-_**最終更新日:** 2012-11-01_
+_**トピックの最終更新日:** 2012-11-01_
 
-Lync Server 2013 では、位置情報ポリシーを使用して、強化された 9-1-1 (E9) 機能と、ユーザーまたは連絡先の位置設定に関連する設定を適用することができます。 位置情報ポリシーは、ユーザーが E9 に対して有効になっているかどうかを決定し、場合によっては緊急通話の動作を確認します。 たとえば、位置情報ポリシーを使用して、緊急通話 (米国の911など)、企業のセキュリティに自動的に通知するかどうか、および通話のルーティング方法を定義できます。
+Lync Server 2013 では、場所のポリシーを使用して、強化された 9-1-1 (E9-1-1) の機能に関連する設定と、ユーザーまたは連絡先の場所の設定を適用できます。 場所のポリシーには、ユーザーを E9-1-1 に対して有効にするかどうか、および有効にする場合、緊急電話の動作を指定します。 たとえば、場所ポリシーを使用して、緊急電話の番号 (米国の場合は 911)、社内セキュリティに自動的に通知するかどうか、および通話をルーティングする方法を定義できます。
 
-Lync Server 2013 コントロールパネルの [**ネットワーク構成**] グループから、場所のポリシーを構成できます。 Lync Server コントロールパネルから、場所のポリシーの表示、作成、変更、または削除を行うことができます。 場所のポリシーに関する情報を表示するには、次の手順を使用します。 場所のポリシーの作成または変更の詳細については、「 [Lync Server 2013 で位置情報ポリシーを作成または変更](lync-server-2013-creating-or-modifying-a-location-policy.md)する」を参照してください。
+Lync Server 2013 コントロールパネルの [**ネットワーク構成**] グループから、場所のポリシーを構成できます。 Lync Server コントロールパネルから、場所のポリシーを表示、作成、変更、または削除することができます。 場所ポリシーに関する情報を表示するには次の手順を使用します。 場所ポリシーの作成または変更の詳細については、「 [Lync Server 2013 での場所のポリシーの作成または変更](lync-server-2013-creating-or-modifying-a-location-policy.md)」を参照してください。
 
 <div>
 
-## <a name="to-view-information-about-a-location-policy"></a>場所のポリシーに関する情報を表示するには
+## <a name="to-view-information-about-a-location-policy"></a>場所ポリシーに関する情報を表示するには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
-3.  左側のナビゲーションバーで [**ネットワーク構成**] をクリックし、[**場所のポリシー**] をクリックします。
+3.  左側のナビゲーション バーで [**ネットワーク構成**] をクリックし、[**場所のポリシー**] をクリックします。
 
-4.  [**場所のポリシー** ] ページで、変更する場所のポリシーを選びます。
+4.  [**場所のポリシー**] ページで、変更する場所のポリシーを選択します。
 
 5.  [**編集**] メニューの [**詳細の表示**] をクリックします。
     
@@ -59,12 +59,12 @@ Lync Server 2013 コントロールパネルの [**ネットワーク構成**] �
     
 
     > [!NOTE]  
-    > 表示できるのは、一度に1つの場所ポリシーに関する情報だけです。
+    > 同時に表示できるのは 1 つの場所ポリシーのみです。
 
     
     </div>
 
-グローバルと呼ばれる単一のポリシーは既定で存在するため、削除したり名前を変更したりすることはできません。 ただし、グローバルポリシーは変更できます。 このポリシーは、サイトポリシーまたはユーザーごとのポリシーを作成しない限り、すべてのユーザーと連絡先に適用されます。 ユーザーごとのポリシーは、特定のユーザーに適用する必要があります。
+「グローバル」という名前の単一ポリシーが、既定で存在します。このポリシーは、削除することも名前を変更することもできません。 ただし、グローバル ポリシーの内容を変更することはできます。 このポリシーは、サイト ポリシーまたはユーザー単位のポリシーが作成されていない場合に限り、すべてのユーザーおよび連絡先に適用されます。 ユーザー単位のポリシーは、特定のユーザーに適用する必要があります。
 
 </div>
 
@@ -73,15 +73,15 @@ Lync Server 2013 コントロールパネルの [**ネットワーク構成**] �
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 で位置情報ポリシーを作成または変更する](lync-server-2013-creating-or-modifying-a-location-policy.md)  
-[Lync Server 2013 で位置情報のポリシーを作成する](lync-server-2013-create-location-policies.md)  
-[Lync Server 2013 でのネットワーク サイトの作成または変更](lync-server-2013-create-or-modify-a-network-site.md)  
+[Lync Server 2013 での場所のポリシーの作成または変更](lync-server-2013-creating-or-modifying-a-location-policy.md)  
+[Lync Server 2013 での場所のポリシーの作成](lync-server-2013-create-location-policies.md)  
+[Lync Server 2013 でのネットワークサイトの作成または変更](lync-server-2013-create-or-modify-a-network-site.md)  
 
 
-[New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsLocationPolicy)  
-[Set-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsLocationPolicy)  
-[Remove-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsLocationPolicy)  
-[Get-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsLocationPolicy)  
+[新しい-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsLocationPolicy)  
+[設定-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsLocationPolicy)  
+[削除-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsLocationPolicy)  
+[-CsLocationPolicy の取得](https://docs.microsoft.com/powershell/module/skype/Get-CsLocationPolicy)  
   
 
 </div>

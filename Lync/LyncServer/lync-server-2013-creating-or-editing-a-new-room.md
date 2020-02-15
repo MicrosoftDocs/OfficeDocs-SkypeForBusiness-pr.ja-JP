@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 新しいチャット ルームの作成または編集'
+title: 'Lync Server 2013: 新しいルームの作成または編集'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48706008
 ms.date: 03/19/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7bd0fdbce300f417764e093fec3acb8705b2d17b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c445513cf112b335ce900ab8e39660210f0b5ef4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741107"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048638"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="creating-or-editing-a-new-room-in-lync-server-2013"></a>Lync Server 2013 での新しいチャット ルームの作成または編集
+# <a name="creating-or-editing-a-new-room-in-lync-server-2013"></a>Lync Server 2013 での新しい会議室の作成または編集
 
 </div>
 
@@ -35,35 +35,35 @@ ms.locfileid: "41741107"
 
 <span> </span>
 
-_**最終更新日:** 2015-03-19_
+_**トピックの最終更新日:** 2015-03-19_
 
-常設チャットルームの構成は、通常、ユーザーによって処理されます。通常、常設チャット管理者は、チャットルームの構成や管理は行いません。 会議室を管理するための Windows PowerShell コマンドレットは、 **CsPersistentChatAdministrator**管理者のみが利用できます。
+常設チャットルームの構成は、通常、ユーザーによって処理されます。通常、常設チャット管理者はチャットルームの構成や管理は行いません。 ルームを管理するための Windows PowerShell コマンドレットは、 **CsPersistentChatAdministrator**管理者のみが利用できます。
 
-特定のカテゴリの作成**者である**ユーザーは、Lync クライアントを使用して、会議室の作成と管理を行うことができます。 特定のチャットルームの管理者として指定されているユーザーは、会議室のプロパティやメンバーシップの編集など、会議室の継続的な管理を実行することもできます。
+特定のカテゴリの作成**者である**ユーザーは、Lync クライアントを使用して会議室を作成および管理できます。 特定のチャット ルームのマネージャーとして指定されているユーザーは、ルームのプロパティまたはメンバーシップの編集など、チャット ルームの継続的な管理を実行することもできます。
 
 <div>
 
 
 > [!TIP]  
-> 常設チャット管理者も作成者になることができます。また、作成者に課される制限の対象にはなりません。
+> 常設チャット管理者は、作成者にすることもできます。また、クリエーターに課される制限の対象にすることもありません。
 
 
 
 </div>
 
-必要に応じて、常設チャットの管理者である場合は、Windows PowerShell コマンドレットを使う代わりに、ユーザーインターフェイスを使ってチャットルームを作成し、管理することができます。 これを行うには、常設チャットサーバーの管理者を SIP に有効にしてから、Lync クライアントを使ってチャットルームを作成し、管理します。
+必要に応じて、常設チャット管理者は、Windows PowerShell コマンドレットを使用する代わりに、ユーザーインターフェイスを使用してチャットルームを作成および管理できます。 これを行うには、常設チャットサーバーの管理者を SIP で有効にしてから、Lync クライアントを使用してチャットルームを作成して管理します。
 
-ユーザー用のカスタムの会議室管理ワークフローを作成する場合は、常設チャットサーバー構成の**RoomManagementUrl**プロパティを設定して、Lync クライアントからユーザー設定のソリューションにユーザーをリダイレクトすることができます。
+ユーザーに対してカスタムの会議室管理ワークフローを作成する場合は、常設チャットサーバー構成の**RoomManagementUrl**プロパティを設定して、ユーザーを Lync クライアントからカスタムソリューションにリダイレクトすることができます。
 
-Windows PowerShell コマンドラインインターフェイスを使用してチャットルームを構成する方法について詳しくは、「 [Windows powershell コマンドレットを使用して常設チャットサーバーを構成](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md)する」の「会議室の管理」をご覧ください。
+Windows PowerShell コマンドラインインターフェイスを使用したチャットルームの構成の詳細については、「 [Windows powershell コマンドレットを使用して常設チャットサーバーを構成](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md)する」の「Room Management」を参照してください。
 
-チャットルームの設定の詳細については、展開ドキュメントの「 [Lync Server 2013 で会議室を構成](lync-server-2013-configure-rooms.md)する」を参照してください。
+チャットルームの構成の詳細については、「展開」のドキュメントの「 [Configure 室 In Lync Server 2013](lync-server-2013-configure-rooms.md) 」を参照してください。
 
 <div>
 
 
 > [!NOTE]  
-> 常設チャットサーバーを使用すると、ユーザーは特定のサイトのチャットルームを作成して管理することができます。 ただし、ユーザーは同じトポロジ内の他のサイトのチャットルームを作成または管理することはできません。 組織内のすべてのサイトについて、必ずチャットルームの作成者と管理者を指定してください。
+> 常設チャットサーバーを使用すると、ユーザーは特定のサイトのチャットルームを作成して管理できます。 ただし、ユーザーは同じトポロジ内の他のサイトでチャットルームを作成または管理することはできません。 組織内のすべてのサイトについて、チャットルームの作成者とマネージャーを必ず指定してください。
 
 
 
@@ -73,7 +73,7 @@ Windows PowerShell コマンドラインインターフェイスを使用して�
 
 
 > [!NOTE]  
-> Lync Server Survivable Branch Appliance をホームとして使用しているユーザーは、新しいチャットルームを作成したり、既存のルームの会議室カードを表示したりすることはできません。
+> Lync Server 存続可能 Branch アプライアンスに所属しているユーザーは、新しいチャットルームを作成したり、既存のルームのルームカードを表示したりすることはできません。
 
 
 

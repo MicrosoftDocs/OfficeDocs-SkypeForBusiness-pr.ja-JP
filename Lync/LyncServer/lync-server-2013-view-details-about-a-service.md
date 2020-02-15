@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: サービスについての詳細を表示する'
+title: 'Lync Server 2013: サービスに関する詳細の表示'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185253
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9bc8f0f9f6e0296f279cb09495a92fd9950625e6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f8268720754f0f34fa24a5a5c7beef9ac21b5d3e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731107"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048261"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-details-about-a-service-in-lync-server-2013"></a>Lync Server 2013 でサービスに関する詳細を表示する
+# <a name="view-details-about-a-service-in-lync-server-2013"></a>Lync Server 2013 のサービスに関する詳細を表示する
 
 </div>
 
@@ -35,33 +35,33 @@ ms.locfileid: "41731107"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-21_
+_**トピックの最終更新日:** 2012-09-21_
 
-Lync Server コントロールパネルを使うと、トポロジ内の特定のコンピューターで実行されている各サービスの詳細を表示できます。 各サービスの状態と、関連するデータベース、ポート、依存サービスなどの詳細を表示できます。
+Lync Server コントロールパネルを使用して、トポロジ内の特定のコンピューターで実行されている各サービスの詳細を表示できます。 各サービスの状態と、関連付けられたデータベース、ポート、依存サービスなどの詳細を表示できます。
 
 <div>
 
 ## <a name="to-view-details-for-a-service"></a>サービスの詳細を表示するには
 
-1.  Lync Server 2013 の定義済みの管理者ロールに割り当てられているユーザーアカウントから、社内展開の任意のコンピューターにログオンします。 Lync Server 2013 で利用できる定義済みの管理者ロールの詳細については、「 [Lync server 2013 でのロールベースのアクセス制御の計画](lync-server-2013-planning-for-role-based-access-control.md)」を参照してください。
+1.  Lync Server 2013 の定義済みの管理者の役割のいずれかに割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。 Lync Server 2013 で使用できる定義済みの管理者の役割の詳細については、「 [Lync server 2013 で役割ベースのアクセス制御を計画する](lync-server-2013-planning-for-role-based-access-control.md)」を参照してください。
 
-2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
-3.  左側のナビゲーションバーで、[**トポロジ**] をクリックし、[**状態**] をクリックします。
+3.  左側のナビゲーション バーで [**トポロジ**] をクリックし、[**状態**] をクリックします。
 
-4.  [**状態**] ページで、リストを並べ替えるか検索して、表示するコンピューターをクリックします。
+4.  [**状態**] ページで、一覧を並べ替えるか検索して、表示するコンピューターをクリックします。
 
 5.  [**プロパティ**] をクリックします。
 
-6.  [**コンピューターの詳細の表示**] ウィンドウで、必要に応じてサービスの一覧を並べ替えて、表示するサービスをクリックします。
+6.  [**コンピューター詳細の表示**] ウィンドウで、必要な場合はサービスの一覧を並べ替えてから、表示するサービスをクリックします。
 
-7.  必要に応じて、次のいずれかの操作を行います。
+7.  必要に応じて、次の操作を実行します。
     
-      - 特定のサービスの最新の状態を表示するには、[**サービスの状態を取得**する] をクリックします。
+      - 指定したサービスの最新の状態を表示するには、[**サービスの状態の取得**] をクリックします。
     
-      - 特定のサービスの詳細を表示するには、[**プロパティ**] をクリックし、[**閉じる**] をクリックします。
+      - 指定したサービスの詳細を表示するには、[**プロパティ**] をクリックしてから、[**閉じる**] をクリックします。
     
-      - トポロジに含まれるすべてのコンピューターの一覧に戻るには、[**閉じる**] をクリックします。
+      - トポロジ内のすべてのコンピューターの一覧を返すには、[**閉じる**] をクリックします。
 
 </div>
 

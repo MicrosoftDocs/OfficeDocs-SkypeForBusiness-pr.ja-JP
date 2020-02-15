@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ユーザーを Lync Online に移動する'
+title: 'Lync Server 2013: Lync Online へのユーザーの移動'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184392
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da56c7230f35d2f900f51b53beef98c64d1e750a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f39f28a2a642a30621e7fd3fd9d8a1beea9a4e14
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756731"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050349"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,25 +35,25 @@ ms.locfileid: "41756731"
 
 <span> </span>
 
-_**最終更新日:** 2014-05-29_
+_**トピックの最終更新日:** 2014-05-29_
 
-Lync Online へのユーザーの移行を開始する前に、移動するアカウントに関連付けられたユーザーデータをバックアップする必要があります。 ユーザー アカウントと共にすべてのユーザー データが移動されるわけではありません。 詳細については、「 [Lync Server 2013: データのバックアップと復元の要件](lync-server-2013-backup-and-restoration-requirements-data.md)」を参照してください。
+ユーザーの Lync Online への移行を開始する前に、移動するアカウントに関連付けられているユーザーデータをバックアップする必要があります。 ユーザーアカウントを使用して、一部のユーザーデータが移動されるわけではありません。 詳細については、「 [Lync Server 2013: data」の「バックアップと復元の要件](lync-server-2013-backup-and-restoration-requirements-data.md)」を参照してください。
 
 <div>
 
 ## <a name="migrate-user-settings-to-lync-online"></a>ユーザー設定を Lync Online に移行する
 
-ユーザー設定は、ユーザー アカウントと共に移動されます。 いくつかのオンプレミス設定は、ユーザー アカウントと共に移動されることはありません。
+ユーザー設定は、ユーザー アカウントと共に移動されます。 オンプレミスの設定の中には、ユーザーアカウントを使用して移動しないものがあります。
 
 </div>
 
 <div>
 
-## <a name="moving-pilot-users-to-lync-online"></a>パイロットユーザーを Lync Online に移動する
+## <a name="moving-pilot-users-to-lync-online"></a>パイロットユーザーを Lync Online に移行する
 
-ユーザーを Lync Online に移行する前に、いくつかのパイロットユーザーを移動して、環境が正しく構成されていることを確認することをお勧めします。 追加のユーザーを移行する前に、Lync 機能とサービスが期待どおりに機能することを確認することができます。
+Lync Online へのユーザーの移動を開始する前に、いくつかのパイロットユーザーを移動して、環境が正しく構成されていることを確認することをお勧めします。 その後、追加のユーザーの移動を試みる前に、Lync の機能とサービスが期待どおりに機能することを確認できます。
 
-オンプレミスのユーザーを Lync Online テナントに移動するには、Microsoft Office 365 テナントの管理者資格情報を使用して、Lync Server 管理シェルで次のコマンドレットを実行します。 "username@contoso.com" を、移動するユーザーの情報で置換します。
+オンプレミスのユーザーを Lync Online テナントに移動するには、Microsoft Office 365 テナントの管理者の資格情報を使用して、Lync Server 管理シェルで次のコマンドレットを実行します。 "Username@contoso.com" を、移動するユーザーの情報に置き換えます。
 
    ```PowerShell
     $creds=Get-Credential
@@ -63,27 +63,27 @@ Lync Online へのユーザーの移行を開始する前に、移動するア�
     Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
    ```
 
-**HostedMigrationOverrideUrl**パラメーターに指定する url の形式は、次の形式で、ホステッド移行サービスが実行されているプールへの url である必要\<があり\>ます。 Https://pool FQDN/HostedMigration/hostedmigrationService.svc.
+**HostedMigrationOverrideUrl**パラメーターに指定する url の形式は、次の形式で、Hosted Migration service が実行されているプールへの url である必要\<があり\>ます。 Https://pool FQDN/hostedmigration/hostedmigrationservice.svc
 
-ホスティング型移行サービスへの URL は、ご使用の Office 365 テナント アカウント用の Lync Online コントロール パネルの URL を表示することで確認できます。
+Office 365 テナントアカウントの Lync Online コントロールパネルの URL を表示することによって、ホストされた移行サービスへの URL を確認できます。
 
-**Office 365 テナントのホスティング型移行サービスの URL を確認するには**
+**Office 365 テナントのホスト型移行サービスの URL を確認するには**
 
-1.  管理者として Office 365 テナントにログインします。
+1.  Office 365 テナントに管理者としてログインします。
 
 2.  **Lync 管理センター**を開きます。
 
-3.  **Lync 管理センター**が表示されたら、アドレスバーの URL を選択して**lync.com**にコピーします。 URL は、次のような書式です。
+3.  **Lync 管理センター**が表示されたら、アドレスバーの URL を選択して、 **lync.com**までコピーします。 URL の例は、次のようになります。
     
     `https://webdir0a.online.lync.com/lscp/?language=en-US&tenantID=`
 
-4.  URL の **webdir** を **admin** に置き換えると、次のようになります。
+4.  URL 内の**webdir**を**管理者**に置き換えます。結果は次のようになります。
     
     `https://admin0a.online.lync.com`
 
-5.  URL に以下の文字列を付加します。**/HostedMigration/hostedmigrationservice.svc**
+5.  次の文字列を URL: **/HostedMigration/hostedmigrationservice.svc**に追加します。
     
-    以上の手順によって、**HostedMigrationOverrideUrl** の値を持った URL は次のようになります。
+    生成される URL は**HostedMigrationOverrideUrl**の値で、次のようになります。
     
     `https://admin0a.online.lync.com/HostedMigration/hostedmigrationservice.svc`
 
@@ -91,13 +91,13 @@ Lync Online へのユーザーの移行を開始する前に、移動するア�
 
 <div>
 
-## <a name="moving-users-to-lync-online"></a>ユーザーを Lync Online に移動する
+## <a name="moving-users-to-lync-online"></a>Lync Online へのユーザーの移動
 
-複数のユーザーを移動するには[、–](https://docs.microsoft.com/powershell/module/skype/Get-CsUser) Filter パラメーターを指定して RegistrarPool のユーザーアカウントに割り当てられている特定のプロパティを持つユーザーを選択します。 次の例に示すように、返されたユーザーを[移動-csuser](https://docs.microsoft.com/powershell/module/skype/Move-CsUser)コマンドレットにパイプします。
+-Filter パラメーターを指定して RegistrarPool[コマンドレット](https://docs.microsoft.com/powershell/module/skype/Get-CsUser)を使用して、ユーザーアカウントに割り当てられた特定のプロパティを持つユーザーを選択することで、複数のユーザーを移動することができます。 その後、次の例に示すように、返されたユーザーを[Move-CsUser](https://docs.microsoft.com/powershell/module/skype/Move-CsUser)コマンドレットにパイプ処理できます。
 
     Get-CsUser -Filter {UserProperty -eq "UserPropertyValue"} | Move-CsUser -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
 
-また、以下のサンプルに示すように、-OU パラメーターを使用して、指定した OU 内のすべてのユーザーを取得できます。
+また、次の例に示すように、-OU パラメーターを使用して、指定した OU 内のすべてのユーザーを取得することもできます。
 
     Get-CsUser -OU "cn=hybridusers,cn=contoso.." | Move-CsUser -Target sipfed.online.lync.com -Credentials $creds -HostedMigrationOverrideUrl <URL>
 
@@ -109,7 +109,7 @@ Lync Online へのユーザーの移行を開始する前に、移動するア�
 
 ユーザーの移動が正常に完了したことは、次の方法で確認できます。
 
-  - Lync Online のコントロールパネルでユーザーの状態を表示します。 オンプレミス ユーザーとオンライン ユーザーでは視覚的なインジケーターが異なります。
+  - Lync Online コントロール パネルでユーザーの状態を表示します。社内ユーザーとオンライン ユーザーでは視覚的なインジケーターが異なります。
 
   - 次のコマンドレットを実行します。
     

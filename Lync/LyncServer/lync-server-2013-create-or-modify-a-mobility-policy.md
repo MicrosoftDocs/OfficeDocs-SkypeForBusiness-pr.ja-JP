@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: モバイル機能ポリシーを作成または変更する'
+title: 'Lync Server 2013: モビリティポリシーを作成または変更する'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733884
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3f64e74b389b268027e06b2f4103b0c828c5be6f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 469b7789de98cee3d399e09c9cec4396fdb365e9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758051"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048688"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-mobility-policy-in-lync-server-2013"></a>Lync Server 2013 でモバイル機能ポリシーを作成または変更する
+# <a name="create-or-modify-a-mobility-policy-in-lync-server-2013"></a>Lync Server 2013 でのモビリティポリシーの作成または変更
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41758051"
 
 _**トピックの最終更新日:** 2013-02-23_
 
-モバイルユーザーがインスタントメッセージング (IM)、プレゼンス、連絡先などの Lync 機能に対してサポートされているモバイルデバイスを使用できるようにするには、モビリティーポリシーを作成または変更します。 Lync Server 2013 コントロールパネルまたは Lync Server 2013 Management Shell からモバイルポリシーを作成または変更することができます。
+モバイル ユーザーがインスタント メッセージング (IM)、プレゼンス、連絡先などの Lync 機能をサポートしているモバイル デバイスを使用できるよう、モビリティ ポリシーを作成または変更できます。 Lync Server 2013 コントロールパネルまたは Lync Server 2013 管理シェルからモビリティポリシーを作成または変更することができます。
 
 <div>
 
@@ -45,17 +45,17 @@ _**トピックの最終更新日:** 2013-02-23_
 
 1.  CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
-3.  左側のナビゲーションバーで、[**クライアント**] をクリックし、[**モビリティポリシー** ] ナビゲーションボタンをクリックします。
+3.  左側のナビゲーション バーで [**クライアント**] をクリックし、[**モビリティ ポリシー**] ナビゲーション ボタンをクリックします。
 
 4.  [**モビリティポリシー** ] ページで、[**新規**] をクリックし、次のいずれかの操作を行います。
     
-    1.  サイトモビリティポリシーを作成するには、[**サイトポリシー**] をクリックし、サイトをクリックし、[ **OK**] をクリックして既定の設定を確認し、必要に応じて変更を行います。
+    1.  サイト モビリティ ポリシーを作成するには、[**サイト ポリシー**] をクリックし、サイトをクリックし、[**OK**] をクリックし、既定の設定を確認してから必要に応じて変更を加えます。
     
-    2.  ユーザーモビリティポリシーを作成するには、[**ユーザーポリシー**] をクリックし、名前を入力して、既定の設定を確認し、必要に応じて変更を加えます。
+    2.  ユーザー モビリティ ポリシーを作成するには、[**ユーザー ポリシー**] をクリックし、名前を入力し、既定の設定を確認してから必要に応じて変更を加えます。
 
-5.  [**コミット**] をクリックします。
+5.  [**確定**] をクリックします。
 
 </div>
 
@@ -65,43 +65,43 @@ _**トピックの最終更新日:** 2013-02-23_
 
 1.  CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
-3.  左側のナビゲーションバーで、[**クライアント**] をクリックし、[**モビリティポリシー** ] ナビゲーションボタンをクリックします。
+3.  左側のナビゲーション バーで [**クライアント**] をクリックし、[**モビリティ ポリシー**] ナビゲーション ボタンをクリックします。
 
-4.  [**モビリティポリシー** ] ページで、既存のモバイルポリシーのいずれかをクリックします。
+4.  [**モビリティポリシー** ] ページで、既存のモビリティポリシーのいずれかをクリックします。
 
 5.  [**編集**] メニューの [**詳細の表示**] をクリックします。
 
-6.  いずれかの設定を編集します。
+6.  設定を変更します。
 
-7.  [**コミット**] をクリックします。
+7.  [**確定**] をクリックします。
 
 </div>
 
 <div>
 
-## <a name="creating-external-access-policies-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用した外部アクセスポリシーの作成
+## <a name="creating-external-access-policies-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して外部アクセスポリシーを作成する
 
-Windows PowerShell と**set-csmobilitypolicy**コマンドレットを使用して、モバイルポリシー (サイトのスコープまたはユーザーごとのスコープ) を作成できます。 さらに、 **Set-set-csmobilitypolicy**コマンドレットを使用して、グローバルポリシーを含む既存のポリシーを変更することもできます。 これらのコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
+Windows PowerShell と**get-csmobilitypolicy**コマンドレットを使用して、モビリティポリシー (サイトスコープまたはユーザーごとのスコープで) を作成できます。 加えて、**Set-CsMobilityPolicy** コマンドレットを使って、グローバル ポリシーを含む任意の既存のポリシーを変更できます。 これらのコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 <div>
 
-## <a name="to-create-a-mobility-policy-at-the-site-scope"></a>サイトのスコープでモビリティポリシーを作成するには
+## <a name="to-create-a-mobility-policy-at-the-site-scope"></a>サイトスコープでモビリティポリシーを作成するには
 
-  - このコマンドを実行すると、Redmond サイトの新しいモビリティポリシーが作成されます。
+  - このコマンドは、Redmond サイトのために新しいモビリティ ポリシーを作成します。
     
         New-CsMobilityPolicy -Identity "site:Redmond"
     
-    パラメーター (必須の Identity パラメーター以外) は前のコマンドで指定されているため、ポリシーではすべてのプロパティに既定値が使用されます。
+    前のコマンドでパラメーターが指定されていない (必須の Identity パラメーターを除く) ので、ポリシーはすべてのプロパティで既定値を使用します。
 
 </div>
 
 <div>
 
-## <a name="to-create-a-mobility-policy-at-the-per-user-scope"></a>ユーザーごとのスコープでモバイルポリシーを作成するには
+## <a name="to-create-a-mobility-policy-at-the-per-user-scope"></a>ユーザーごとのスコープでモビリティポリシーを作成するには
 
-  - ユーザーごとのスコープでモバイルポリシーを作成するには、ポリシーの一意の Id を指定します。
+  - ユーザーごとのスコープでモビリティ ポリシーを作成するには、ポリシーに固有の Identity を指定します。
     
         New-CsMobilityPolicy -Identity "RedmondMobilityPolicy"
 
@@ -109,9 +109,9 @@ Windows PowerShell と**set-csmobilitypolicy**コマンドレットを使用し�
 
 <div>
 
-## <a name="to-change-a-single-property-value-when-creating-a-mobility-policy"></a>モバイル機能ポリシーを作成するときに1つのプロパティの値を変更するには
+## <a name="to-change-a-single-property-value-when-creating-a-mobility-policy"></a>モビリティポリシーの作成時に単一のプロパティ値を変更するには
 
-  - 異なるプロパティ値を使うポリシーを作成するには、適切なパラメーターとパラメーター値を含めます。 たとえば、次のコマンドは、勤務先からの通話を無効にするモビリティーポリシーを作成します。
+  - 異なるプロパティ値を使用するポリシーを作成するには、適切なパラメーターおよびパラメーター値を含めます。たとえば、このコマンドは [勤務先から通話] を無効にするモビリティ ポリシーを作成します。
     
         New-CsMobilityPolicy -Identity "site:Redmond" -EnableOutsideVoice $False
 
@@ -119,15 +119,15 @@ Windows PowerShell と**set-csmobilitypolicy**コマンドレットを使用し�
 
 <div>
 
-## <a name="to-change-multiple-property-values-when-creating-a-mobility-policy"></a>モバイル機能ポリシーを作成するときに複数のプロパティ値を変更するには
+## <a name="to-change-multiple-property-values-when-creating-a-mobility-policy"></a>モビリティポリシーの作成時に複数のプロパティ値を変更するには
 
-  - 複数のプロパティ値は、複数のパラメーターを含めることによって変更できます。 たとえば、次のコマンドは、機動性と通話の両方を無効にするポリシーを作成します。
+  - 複数のプロパティ値は、複数のパラメーターを含めることによって変更できます。たとえば、このコマンドはモビリティと [勤務先から通話] の両方を無効にするポリシーを作成します。
     
         New-CsMobilityPolicy "site:Redmond" -EnableMobility $False -EnableOutsideVoice $False
 
 </div>
 
-詳細については、 [set-csmobilitypolicy](https://docs.microsoft.com/powershell/module/skype/New-CsMobilityPolicy)および[set-csmobilitypolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsMobilityPolicy)コマンドレットのヘルプトピックを参照してください。
+詳細については、[New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsMobilityPolicy) および [Set-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsMobilityPolicy) コマンドレットのヘルプ トピックを参照してください。
 
 </div>
 
@@ -136,7 +136,7 @@ Windows PowerShell と**set-csmobilitypolicy**コマンドレットを使用し�
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 でのモビリティ ポリシーの構成](lync-server-2013-configuring-mobility-policy.md)  
+[Lync Server 2013 でのモビリティポリシーの構成](lync-server-2013-configuring-mobility-policy.md)  
   
 
 </div>

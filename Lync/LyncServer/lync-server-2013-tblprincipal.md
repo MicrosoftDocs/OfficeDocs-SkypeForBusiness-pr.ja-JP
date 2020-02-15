@@ -12,16 +12,16 @@ ms:contentKeyID: 48184571
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 25de9273fb6e153bb154bf0062edd96cb67bbac2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b9d5122b375b4906320f254179ce101652ad6db2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731537"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048000"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41731537"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-12_
+_**トピックの最終更新日:** 2012-09-12_
 
-tblPrincipal には、ユーザー、フォルダー、グループを含むすべてのプリンシパルが含まれています。
+tblPrincipal テーブルには、ユーザー、フォルダー、グループなど、すべてのプリンシパルが格納されます。
 
-### <a name="columns"></a>行
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -50,69 +50,69 @@ tblPrincipal には、ユーザー、フォルダー、グループを含むす�
 <thead>
 <tr class="header">
 <th>列</th>
-<th>型</th>
+<th>種類</th>
 <th>説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>prinID</p></td>
-<td><p>int (null ではない)</p></td>
+<td><p>Tblprincipal.prinid</p></td>
+<td><p>NULL でない int</p></td>
 <td><p>プリンシパル ID。</p></td>
 </tr>
 <tr class="even">
-<td><p>prinGuid</p></td>
-<td><p>GUID、null ではない</p></td>
-<td><p>プリンシパル GUID。 これは、プライマリキーとして広く使用されており、その意味は Active Directory ドメインサービスの領域にあります。 (キャッシュされるプリンシパルの GUID は、対応する Active Directory オブジェクト GUID と同じです)。</p></td>
+<td><p>Principal.pringuid</p></td>
+<td><p>NULL でない GUID</p></td>
+<td><p>プリンシパル GUID。 これは、代替主キーとして広く使用されています。これは、Active Directory ドメインサービスの領域にわたる意味があるためです。 (キャッシュされたプリンシパルの GUID は、対応する Active Directory オブジェクトの GUID と同じです。)</p></td>
 </tr>
 <tr class="odd">
 <td><p>prinUri</p></td>
-<td><p>nvarchar (256)、null ではない</p></td>
-<td><p>プリンシパル URI。 SIP スキームはユーザのために使用され、ma はその他ほとんどすべてに使用されます。</p></td>
+<td><p>NULL でない nvarchar (256)</p></td>
+<td><p>プリンシパル URI。SIP スキームはユーザーで使用され、ma-grp はユーザーを除くほぼすべてで使用されます。</p></td>
 </tr>
 <tr class="even">
 <td><p>prinName</p></td>
 <td><p>nvarchar (256)</p></td>
-<td><p>共通名。 ユーザーの種類によってのみ使用されます。</p></td>
+<td><p>共通名。ユーザーの種類でのみ使用されます。</p></td>
 </tr>
 <tr class="odd">
 <td><p>prinDisplayName</p></td>
 <td><p>Nvarchar (256)</p></td>
-<td><p>表示名。 ユーザーの種類によってのみ使用されます。</p></td>
+<td><p>表示名。ユーザーの種類でのみ使用されます。</p></td>
 </tr>
 <tr class="even">
 <td><p>prinCompanyName</p></td>
 <td><p>nvarchar (256)</p></td>
-<td><p>会社名。 ユーザーの種類によってのみ使用されます。</p></td>
+<td><p>会社名。ユーザーの種類でのみ使用されます。</p></td>
 </tr>
 <tr class="odd">
-<td><p>メールをプリントする</p></td>
+<td><p>prinEmail</p></td>
 <td><p>nvarchar (256)</p></td>
-<td><p>電子メール。 ユーザーの種類によってのみ使用されます。</p></td>
+<td><p>電子メール。ユーザーの種類でのみ使用されます。</p></td>
 </tr>
 <tr class="even">
 <td><p>prinADPath</p></td>
 <td><p>nvarchar (384)</p></td>
-<td><p>プリンシパルがキャッシュされたバージョンである Active Directory オブジェクトのドメイン名。 Active Directory オブジェクト (システムユーザーなど) ではない型の場合は Null にすることができます。</p></td>
+<td><p>プリンシパルがキャッシュされたバージョンである Active Directory オブジェクトのドメイン名。Active Directory オブジェクトでない種類 (システム ユーザーなど) では NULL になります。</p></td>
 </tr>
 <tr class="odd">
-<td><p>プリント</p></td>
+<td><p>prinADUserPrincipalName</p></td>
 <td><p>nvarchar (256)</p></td>
-<td><p>ユーザーのユーザープリンシパル名 (UPN)。 通常のユーザーの種類でのみ使用されます。</p></td>
+<td><p>ユーザーのユーザー プリンシパル名 (UPN)。通常のユーザーの種類でのみ使用されます。</p></td>
 </tr>
 <tr class="even">
 <td><p>prinDisabled</p></td>
-<td><p>smallint (null ではない)</p></td>
+<td><p>NULL でない smallint</p></td>
 <td><ul>
-<li><p>0: プリンシパルは有効です。</p></li>
-<li><p>1: ユーザーの SIP 機能が無効になっているため、プリンシパルが無効になっています。</p></li>
-<li><p>2: 関連付けられている広告オブジェクトが削除されたため、プリンシパルが削除されました。</p></li>
+<li><p>0: プリンシパルはアクティブです。</p></li>
+<li><p>1: ユーザーの SIP 機能が無効であるため、プリンシパルは無効です。</p></li>
+<li><p>2: 関連付けられている AD オブジェクトが削除されたため、プリンシパルは削除されます。</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><p>prinTypeID</p></td>
-<td><p>smallint (null ではない)</p></td>
-<td><p>プリンシパルの種類 (tblPrincipalType テーブルから)。</p></td>
+<td><p>NULL でない smallint</p></td>
+<td><p>プリンシパルの種類 (tblPrincipalType テーブルに基づいています)。</p></td>
 </tr>
 <tr class="even">
 <td><p>prinPoolID</p></td>
@@ -122,38 +122,38 @@ tblPrincipal には、ユーザー、フォルダー、グループを含むす�
 <tr class="odd">
 <td><p>prinPolicyID</p></td>
 <td><p>Int</p></td>
-<td><p>タグの種類のポリシーが存在する場合は、ユーザーの常設チャットサーバーポリシーの値。</p></td>
+<td><p>タグの種類のポリシーが存在する場合、ユーザーの常設チャットサーバーポリシーの値。</p></td>
 </tr>
 <tr class="even">
-<td><p>プリント</p></td>
+<td><p>prinAddedBy</p></td>
 <td><p>int</p></td>
 <td><p>作成者のプリンシパル ID。</p></td>
 </tr>
 <tr class="odd">
 <td><p>prinAddedOn</p></td>
-<td><p>bigint (null ではない)</p></td>
-<td><p>作成時刻のタイムスタンプ。</p></td>
+<td><p>NULL でない bigint</p></td>
+<td><p>作成時刻のタイム スタンプ。</p></td>
 </tr>
 <tr class="even">
 <td><p>プリント</p></td>
 <td><p>int</p></td>
-<td><p>最後に更新したプリンシパルの ID です。</p></td>
+<td><p>このテーブルを最後に更新したプリンシパルの ID。</p></td>
 </tr>
 <tr class="odd">
 <td><p>prinUpdatedOn</p></td>
-<td><p>bigint (null ではない)</p></td>
-<td><p>最終更新のタイムスタンプ。</p></td>
+<td><p>NULL でない bigint</p></td>
+<td><p>最後の更新のタイム スタンプ。</p></td>
 </tr>
 <tr class="even">
 <td><p>prinVerifiedOn</p></td>
-<td><p>datetime。 null ではありません</p></td>
-<td><p>プリンシパルの前回の Active Directory 同期更新の日付と時刻。</p></td>
+<td><p>NULL でない datetime</p></td>
+<td><p>プリンシパルに対する Active Directory の同期による最終更新の日付と時刻。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>機能
+### <a name="keys"></a>Keys
 
 <table>
 <colgroup>
@@ -168,12 +168,12 @@ tblPrincipal には、ユーザー、フォルダー、グループを含むす�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>prinID</p></td>
+<td><p>Tblprincipal.prinid</p></td>
 <td><p>主キー。</p></td>
 </tr>
 <tr class="even">
 <td><p>prinTypeID</p></td>
-<td><p>TblPrincipalType テーブルで参照する外部キー。</p></td>
+<td><p>tblPrincipalType.ptypeID テーブルを参照する外部キー。</p></td>
 </tr>
 </tbody>
 </table>

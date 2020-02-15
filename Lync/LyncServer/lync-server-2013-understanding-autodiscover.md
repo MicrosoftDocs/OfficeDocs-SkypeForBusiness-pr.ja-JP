@@ -12,20 +12,20 @@ ms:contentKeyID: 51541522
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d9d885654f9222ce3d3e9fb7b03e9b388f0ca0a8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f57dd0158f4a9b6c798d1b968353e5f84b55d46e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744827"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046110"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="understanding-autodiscover-in-lync-server-2013"></a>Lync Server 2013 での自動検出について
+# <a name="understanding-autodiscover-in-lync-server-2013"></a>Lync Server 2013 の自動検出について
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41744827"
 
 <span> </span>
 
-_**最終更新日:** 2013-06-03_
+_**トピックの最終更新日:** 2013-06-03_
 
-Lync Server 2013 自動検出サービスは、最初に Microsoft Lync server 2010 で導入された機能です。 Lync Server 2010: 2011 の累積的な更新プログラムの一部として使用されています。 この累積的な更新プログラムでは、修正に加えて、Lync Mobile および Lync 2013 クライアントのサポートが提供されています。
+Lync Server 2013 自動検出サービスは、Lync Server 2010:11 月 11 2011 日の累積的な更新プログラムの一部として、Microsoft Lync Server 2010 で最初に導入された機能です。 修正に加えて、この累積的な更新プログラムは Lync Mobile および Lync 2013 クライアントのサポートを提供していました。
 
-Lync Server 2013 では、自動検出サービスは、外部および内部のモバイルクライアントの操作の重要な部分であり、自動検出も Windows 8 向けの最近導入された Lync Windows ストアアプリなどの新しいクライアントにも拡張されています。 自動検出は、Lync 2013 デスクトップクライアントでも使用されます。 自動検出は、Lync Server では、必要なドメインネームシステム (DNS) レコード lyncdiscover によって認識され**ます。\<domain\> **と**lyncdiscoverinternal。\<ドメイン\>**。 さらに、新しいバージョンの Lync 2010 および Lync 2013 デスクトップクライアントでは、lyncdiscover の場合にのみ DNS SRV レコードを使用して、ドメインネームシステム (DNS) SRV レコードを自動検出します。\<domain\>または lyncdiscoverinternal\<ドメイン\>が応答しないか、解決されません。 Windows 8 および Lync Mobile 用の Lync Windows ストアアプリでは、自動検出のみが使用され、従来の DNS SRV レコードは参照されません。
+Lync Server 2013 では、自動検出サービスは、外部および内部のモバイルクライアントの操作の重要な部分であり、自動検出も、Windows 8 用の最近導入された Lync Windows ストアアプリなどの新しいクライアントにまで拡張されます。 自動検出は、Lync 2013 デスクトップクライアントでも使用されます。 自動検出は、必要なドメインネームシステム (DNS) レコード lyncdiscover によって Lync Server で認識され**ます。\<ドメイン\> **および**lyncdiscoverinternal。\<ドメイン\>**。 さらに、Lync 2010 および Lync 2013 デスクトップクライアントの新しいバージョンでは、lyncdiscover の場合にのみ DNS SRV レコードを使用して、ドメインネームシステム (DNS) SRV レコードよりも自動検出を優先します。\<domain\>または lyncdiscoverinternal。\<ドメイン\>が応答しないか、解決されません。 Windows 8 および Lync Mobile 用の Lync Windows ストアアプリは、自動検出のみを使用し、従来の DNS SRV レコードを参照することはありません。
 
-Lync Server 2013 では、自動検出が拡張され、クライアントに対して、どの要素、機能、通信方法がクライアントから利用可能であるかが表示されます。 情報は、クライアントから送信された要求によって伝達され、Lync Server web サービスは、クライアントが利用できるものと同じように、明確に定義された応答で応答し、自動検出の形式でそれらの機能に連絡する方法を示します。応答ドキュメント。
+Lync Server 2013 では、自動検出が拡張され、クライアントが使用できる要素、機能、および通信方法をクライアントに通知します。 情報はクライアントから送信された要求を通じて伝達され、Lync Server web サービスは、クライアントが利用できるものという名前の明示的に定義された応答で応答します。また、これらの機能には自動検出の形式で応答します。応答ドキュメント。
 
-このドキュメントを通じて web サービスがクライアントに機能をどのようにやり取りするかなど、自動検出応答ドキュメントを理解する最良の方法は、Lync web サービス自動検出応答ドキュメントからの一般的な応答で各行を dissect して定義することです。
+Web サービスがこのドキュメントを使用してクライアントに機能を伝達する方法など、自動検出応答ドキュメントを理解するための最善の方法は、dissect して、Lync web サービス自動検出応答ドキュメントからの一般的な応答で各行を定義することです。
 
 <div class="">
 
 
 > [!NOTE]  
-> この後の詳細では、ユーザーは認証要求に応答して、既にホームサーバーに対して認証されています。
+> この後の詳細では、ユーザーは認証要求に応答して既にホームサーバーに認証されています。
 
 
 
@@ -59,7 +59,7 @@ Lync Server 2013 では、自動検出が拡張され、クライアントに対
 
 
 > [!NOTE]  
-> Lync 自動検出 Web サービスは、microsoft <STRONG>Developer Network</STRONG> (MSDN) ライブラリの [<STRONG>定義を開く</STRONG>] セクションの<STRONG>microsoft Office プロトコル</STRONG>で定義されます。 詳細については、「Lync の自動検出 Web サービスプロトコル」を参照して<A href="http://go.microsoft.com/fwlink/?linkid=273839">http://go.microsoft.com/fwlink/?LinkId=273839</A>ください。 認証の詳細については、「」の「OC Authentication <A href="http://go.microsoft.com/fwlink/?linkid=279015">http://go.microsoft.com/fwlink/?LinkId=279015</A>Web Service Protocol」を参照してください。
+> Lync 自動検出 Web サービスは、microsoft <STRONG>Developer Network</STRONG> (MSDN) ライブラリの [<STRONG>オープン仕様</STRONG>] セクションにある<STRONG>microsoft Office プロトコル</STRONG>で定義されています。 詳細については、「」の「完全な仕様書」、「Lync 自動<A href="http://go.microsoft.com/fwlink/?linkid=273839">http://go.microsoft.com/fwlink/?LinkId=273839</A>検出 Web サービスプロトコル」、および「」を参照してください。 認証の詳細については、「」の「OC Authentication <A href="http://go.microsoft.com/fwlink/?linkid=279015">http://go.microsoft.com/fwlink/?LinkId=279015</A>Web Service Protocol」を参照してください。
 
 
 
@@ -67,9 +67,9 @@ Lync Server 2013 では、自動検出が拡張され、クライアントに対
 
 <div>
 
-## <a name="the-lync-server-web-service-autodiscover-response"></a>Lync Server Web サービスの自動検出の応答
+## <a name="the-lync-server-web-service-autodiscover-response"></a>Lync Server Web サービスの自動検出応答
 
-自動検出要求が送信されたときに返される応答は、内部または外部クライアントに対して同じです。 場所によっては、一部のパラメーターが変わることがあります。 クライアント要求を受信したが、実際のプールが、連絡されたもの以外の場合は、ユーザーのホームプールがそのユーザーに設定されます。 ユーザーアカウントが別のプールにあるが、同じ office からログインしている同僚は、若干異なる応答を得ることができます。 応答には、そのユーザーの正しいフロントエンドサーバーまたはフロントエンドプールが示されます。
+自動検出要求が送信されたときに返される応答は、内部または外部クライアントに対して同じです。 場所に対応する一部のパラメーターは変更される場合があります。 クライアント要求を受信したが、実際のプールが、接続されているもの以外の場合は、そのユーザーに対してユーザーのホームプールが設定されます。 ユーザーアカウントが異なるプールにあり、同じ office からログインしている同僚は、多少異なる応答をします。 応答は、そのユーザーの適切なフロントエンドサーバーまたはフロントエンドプールを示します。
 
 自動検出応答ドキュメントの例:
 
@@ -101,11 +101,11 @@ Lync Server 2013 では、自動検出が拡張され、クライアントに対
 
 ## <a name="autodiscover-response-document-details"></a>自動検出応答ドキュメントの詳細
 
-自動検出応答ドキュメントは、次の2つの形式のいずれかで指定できます。 既定の形式は、JavaScript オブジェクト表記 (JSON) です。 その他の形式としては、拡張マークアップ言語 (XML) ドキュメントがあります。 この例では XML が使用されます。 ドキュメントには、書式を決定する定義済みのスキーマが含まれているため、要求と応答は予測可能です。 使用しているスキーマを説明する文書内の行は、要求または応答の最初の行です。
+自動検出応答ドキュメントは、次の2つの形式のいずれかにすることができます。 既定の形式は、JavaScript Object Notation (JSON) です。 もう1つの形式は、拡張マークアップ言語 (XML) ドキュメントです。 この例では、XML を使用します。 ドキュメントには、形式を決定する定義済みスキーマがあるため、要求と応答は予測できます。 使用されるスキーマを記述するドキュメント内の行は、要求または応答の最初の行です。
 
     <AutodiscoverResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" AccessLocation="External">
 
-**Accesslocation = "external"** の定義では、要求が外部ユーザーから行われたことを示します。
+**Accesslocation = "external"** の定義は、要求が外部ユーザーから行われたことを示します。
 
     <SipServerInternalAccess fqdn="pool01.contoso.com" port="5061"/>
 
@@ -113,7 +113,7 @@ Lync Server 2013 では、自動検出が拡張され、クライアントに対
 
     <SipServerExternalAccess fqdn="sip.contoso.com" port="5061"/>
 
-SipServerInternalAccess と SipServerExternalAccess は現在使用されていません。 これらのエントリは将来使用するために予約されています。
+SipServerInternalAccess と SipServerExternalAccess は現在使用されていません。 これらのエントリは、今後の使用のために予約されています。
 
     <SipClientInternalAccess fqdn=" pool01.contoso.com" port="443"/>
 
@@ -121,7 +121,7 @@ SipServerInternalAccess と SipServerExternalAccess は現在使用されてい�
 
     <SipClientExternalAccess fqdn="sip.contoso.com " port="443"/>
 
-SipClientInternalAccess と SipClientExternalAccess は、内部または外部のクライアントが定義された SIP サーバーへのアクセスに使用する完全修飾ドメイン名とポートについて説明します。 Lync デスクトップクライアントと Lync Windows ストアアプリでは、これらのエントリを場所 (内部または外部) に基づいて、ディレクターまたはフロントエンドサーバーを見つけるために使用します。
+SipClientInternalAccess and SipClientExternalAccess は、内部または外部のクライアントが定義された SIP サーバーへのアクセスに使用する完全修飾ドメイン名とポートを説明します。 Lync デスクトップクライアントおよび Lync Windows ストアアプリは、これらのエントリを、その場所 (内部または外部) に基づいて、ディレクターまたはフロントエンドサーバーを検索するために使用します。
 
     <Link token="Internal/Autodiscover" href="https://webinternal.contoso.net/Autodiscover/AutodiscoverService.svc/root"/>
 
@@ -129,7 +129,7 @@ SipClientInternalAccess と SipClientExternalAccess は、内部または外部�
 
     <Link token ="External/Autodiscover" href="https://webexternal.contoso.com/Autodiscover/AutodiscoverService.svc/root"/>
 
-参照`Autodiscover`には、自動検出サービスのサービスエントリポイントが含まれています。 Token 属性にはサービス名が含まれ、href は、サービスが検出されるクライアントに対して定義する URL です。 外部ネットワーク上のクライアントは、 `External/Autodiscover`を使用します。 自動検出サービスは展開プロセスの一部としてインストールされます。 `Internal/Autodiscover`は現在使用されておらず、将来使用するために予約されています。
+参照`Autodiscover`には、自動検出サービスのサービスエントリポイントが含まれています。 Token 属性には、サービスの名前が含まれ、href はサービスが存在するクライアントに対して定義される URL です。 外部ネットワーク上のクライアントは、 `External/Autodiscover`を使用します。 自動検出サービスは、展開プロセスの一部としてインストールされます。 `Internal/Autodiscover`は現在使用されておらず、将来の使用のために予約されています。
 
     <Link token="Internal/AuthBroker" href="https://webinternal.contoso.net/Reach/sip.svc"/>
 
@@ -137,7 +137,7 @@ SipClientInternalAccess と SipClientExternalAccess は、内部または外部�
 
     <Link token="External/AuthBroker" href="https://webexternal.contoso.com/Reach/sip.svc"/>
 
-参照`AuthBroker`には、内部および外部認証ブローカーサービスのサービスエントリポイント (この場合は、sip-pstn) が含まれています。 Token 属性にはサービス名が含まれ、href は、サービスが検出されるクライアントに対して定義する URL です。 使用`Internal/AuthBroker`している内部ネットワーク上のクライアント。 外部ネットワーク上のクライアントは、 `External/AuthBroker`を使用します。 AuthBroker サービスは、内部の Lync Server 2013 展開 web サービスの展開プロセスの一部としてインストールされます。
+参照`AuthBroker`には、内部および外部認証ブローカーサービス (この場合は sip-pstn) のサービスエントリポイントが含まれています。 Token 属性には、サービスの名前が含まれ、href はサービスが存在するクライアントに対して定義される URL です。 使用`Internal/AuthBroker`している内部ネットワーク上のクライアント。 外部ネットワーク上のクライアントは、 `External/AuthBroker`を使用します。 AuthBroker サービスは、内部の Lync Server 2013 展開 web サービスの展開プロセスの一部としてインストールされます。
 
     <Link token="Internal/WebScheduler" href="https://webinternal.contoso.net/Scheduler"/>
 
@@ -145,7 +145,7 @@ SipClientInternalAccess と SipClientExternalAccess は、内部または外部�
 
     <Link token="External/WebScheduler" href="https://webexternal.contoso.com/Scheduler"/>
 
-トークン`WebScheduler`は、Lync Server 会議の web ベースのスケジュールに対するクライアントアクセスの url を参照します。 現時点では、 `External/WebScheduler`が使用されています。 WebScheduler は、内部の Lync Server 2013 展開 web サービスの展開プロセスの一部としてインストールされます。
+この`WebScheduler`トークンは、Lync Server 会議の web ベースのスケジュールに対するクライアントアクセスの url を参照します。 現時点では、 `External/WebScheduler`がのみ使用されます。 WebScheduler は、内部の Lync Server 2013 展開 web サービスの展開プロセスの一部としてインストールされます。
 
     <Link token="Internal/Mcx" href="https://webexternal.contoso.net/Mcx/McxService.svc"/>
 
@@ -153,7 +153,7 @@ SipClientInternalAccess と SipClientExternalAccess は、内部または外部�
 
     <Link token="External/Mcx" href="https://webexternal.contoso.com/Mcx/McxService.svc"/>
 
-`Internal/Mcx`および`External/Mcx`は、Lync Server 2010 用の累積更新プログラム (2011 年11月) で導入されたモビリティサービスの場所です。 これらの参照は、サポートされているすべてのデバイスで Lync 2010 Mobile によって引き続き使用されます。 Mcx サービスは、内部の Lync Server 2013 展開 web サービスの展開プロセスの一部としてインストールされています。
+`Internal/Mcx`および`External/Mcx`は、Mobility service の場所です。 Lync Server 2010 用の累積的な更新プログラム (11 月 2011) で導入されました。 これらの参照は、サポートされているすべてのデバイスで Lync 2010 Mobile によって引き続き使用されます。 Mcx サービスは、内部の Lync Server 2013 展開 web サービスの展開プロセスの一部としてインストールされます。
 
     <Link token="Internal/Ucwa" href="https://webinternal.contoso.net/ucwa/v1/applications"/>
 
@@ -165,7 +165,7 @@ SipClientInternalAccess と SipClientExternalAccess は、内部または外部�
 
     <Link token="Ucwa" href="https://webexternal.contoso.com/ucwa/v1/applications"/>
 
-**Internal/** ucwa、 **External/Ucwa** 、 **Ucwa**は、クライアントがユニファイドコミュニケーションの WEB アプリケーションプログラミングインターフェイス (ucwa API、または単に ucwa) にアクセスするための手段を提供します。 `Internal/Ucwa``External/Ucwa`仮想ディレクトリは、将来の機能拡張のために予約されているアクセスポイントであり、使用されません。 仮想`Ucwa`ディレクトリは、サポートされているすべてのデバイスで Microsoft lync Mobile (lync Server 2013 で導入) に使用されます。 UCWA サービスは、内部の Lync Server 2013 展開 web サービスの展開プロセスの一部としてインストールされます。
+**Internal/ucwa**、 **External/Ucwa**および**Ucwa**は、クライアントが統合コミュニケーション Web アプリケーションプログラミングインターフェイス (ucwa API、または単に ucwa) にアクセスする手段を提供します。 `Internal/Ucwa``External/Ucwa`仮想ディレクトリは、将来の機能拡張のために予約されたアクセスポイントであり、使用されません。 サポート`Ucwa`されているすべてのデバイスで、仮想ディレクトリが Microsoft lync Mobile (lync Server 2013 で導入されました) に使用されます。 UCWA サービスは、内部の Lync Server 2013 展開 web サービスの展開プロセスの一部としてインストールされます。
 
     <Link token="Internal/XFrame" href="https://webinternal.contoso.net/Autodiscover/XFrame/XFrame.html"/>
 
@@ -177,11 +177,11 @@ SipClientInternalAccess と SipClientExternalAccess は、内部または外部�
 
     <Link token="XFrame" href="https://webexternal.contoso.com/Autodiscover/XFrame/XFrame.html"/>
 
-`Internal/XFrame`、 **External/xframe**と**xframe**は、ucwa ベースのサーバーアプリケーションへのアクセスを提供します。 XFrame は、内部の Lync Server 2013 展開 web サービスの展開プロセスの一部としてインストールされます。
+`Internal/XFrame`**外部/xframe**および**xframe**は、ucwa ベースのサーバーアプリケーションへのアクセスを提供します。 XFrame は、内部の Lync Server 2013 展開 web サービスの展開プロセスの一部としてインストールされます。
 
     <Link token="Self" href="https://webexternal.contoso.net/Autodiscover/AutodiscoverService.svc/root/user"/>
 
-トークン`Self`は、要求を行うクライアント (ユーザー応答の型) に固有の情報を参照します。 この要求を行ったクライアントは外部であり、この自動検出参照は自動検出サービスのユーザー部分に対するものです。
+トークン`Self`は、要求を行っているクライアント (ユーザー応答の種類) に固有の情報を参照します。 この要求を行ったクライアントは外部であり、この自動検出の参照は自動検出サービスのユーザー部分に対するものです。
 
 </div>
 
@@ -192,7 +192,7 @@ SipClientInternalAccess と SipClientExternalAccess は、内部または外部�
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 の外部ユーザー アクセス コンポーネントのシステム要件](lync-server-2013-system-requirements-for-external-user-access-components.md)  
+[Lync Server 2013 の外部ユーザーアクセスコンポーネントのシステム要件](lync-server-2013-system-requirements-for-external-user-access-components.md)  
 [Lync Server 2013 での自動検出の計画](lync-server-2013-planning-for-autodiscover.md)  
   
 

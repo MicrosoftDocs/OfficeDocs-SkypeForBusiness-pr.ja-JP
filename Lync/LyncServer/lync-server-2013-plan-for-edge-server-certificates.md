@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: エッジ サーバー証明書を計画する'
+title: 'Lync Server 2013: エッジサーバーの証明書の計画'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185798
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: faad6dba610df8033b75b0c87c52fbb065dc5dcb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b70d9635b253c793170ff11373f6d063f0f46c81
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755177"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050039"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="plan-for-edge-server-certificates-in-lync-server-2013"></a>Lync Server 2013 でエッジ サーバー証明書を計画する
+# <a name="plan-for-edge-server-certificates-in-lync-server-2013"></a>Lync Server 2013 でエッジサーバー証明書を計画する
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41755177"
 
 <span> </span>
 
-_**最終更新日:** 2012-11-05_
+_**トピックの最終更新日:** 2012-11-05_
 
-Lync Server 2013 で、Edge 用の証明書の作成が簡略化されています。
+Lync Server 2013 では、エッジの証明書の作成が簡略化されています。
 
-**エッジ サーバー用の証明書のフロー チャート**
+**エッジ サーバーの証明書のフロー チャート**
 
-![4364 a5fc20db-b577-6a709a8367cd](images/Gg413010.a5fc20db-7ced-4364-b577-6a709a8367cd(OCS.15).jpg "4364 a5fc20db-b577-6a709a8367cd")
+![a5fc20db-7ced-4364-b577-6a709a8367cd](images/Gg413010.a5fc20db-7ced-4364-b577-6a709a8367cd(OCS.15).jpg "a5fc20db-7ced-4364-b577-6a709a8367cd")
 
-1つの公開証明書を作成して、証明書に対して定義されたエクスポート可能な秘密キーがあることを確認し、証明書ウィザードを使用して、次のエッジサーバーの外部インターフェイスに割り当てます。
+単一のパブリック証明書を作成し、その証明書用に定義されたエクスポート可能な秘密キーがあることを確認した後、証明書ウィザードを使用して次のエッジ サーバー外部インターフェイスに割り当てます。
 
 <div>
 
 
 > [!IMPORTANT]  
-> Lync Server では、ワイルドカード証明書はサポートされていません。リバースプロキシを介して単純な Url を要約するために使用された場所を除きます。 各 SIP ドメイン名、Web 会議エッジサービス、A/V Edge サービス、および展開によって提供される XMPP ドメインに対して、個別のサブジェクト代替名 (San) を定義する必要があります。
+> ワイルドカード証明書は Lync Server ではサポートされていませんが、リバースプロキシを介して簡易 Url を要約するために使用される場合を除きます。 展開で提供される SIP ドメイン名、Web 会議エッジサービス、音声ビデオエッジサービス、および XMPP ドメインごとに、個別のサブジェクト代替名 (San) を定義する必要があります。
 
 
 
@@ -59,7 +59,7 @@ Lync Server 2013 で、Edge 用の証明書の作成が簡略化されていま�
 
 
 > [!NOTE]  
-> Lync Server 2013 で導入されました。現在の証明書の有効期限が切れる前に、オーディオ/ビデオ認証の証明書をステージングするには、追加の計画が必要です。 外部 Edge インターフェイスの複数の目的を持つ1つの証明書の代わりに、アクセスエッジサービスと Web 会議エッジサービスに割り当てられている証明書と、A/V Edge サービス用の証明書の2つが必要です。 詳細については、「 <A href="lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate">Lync Server 2013 での、AV および OAuth 証明書の使用</A>」を参照してください。
+> Lync Server 2013 で導入された、現在の証明書の有効期限が切れる前に、オーディオ/ビデオ認証証明書をステージングするには、追加の計画が必要になります。 外部エッジインターフェイスに複数の目的を持つ1つの証明書を使用するのではなく、アクセスエッジサービスと Web 会議エッジサービスに1つずつ、音声ビデオエッジサービスに1つの証明書を割り当てる必要があります。 詳細については、「 <A href="lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate">Lync Server 2013 のステージングの AV および OAuth 証明書」を</A>参照してください。
 
 
 
@@ -69,29 +69,29 @@ Lync Server 2013 で、Edge 用の証明書の作成が簡略化されていま�
 
 
 > [!IMPORTANT]  
-> エッジサーバーのプールがある場合は、各エッジサーバーに秘密キーを持つ証明書をエクスポートし、各エッジサーバーサービスに証明書を割り当てます。 内部エッジサーバー証明書についても同じ操作を行い、秘密キーを使って証明書をエクスポートし、各内部エッジインターフェイスに割り当てます。
+> エッジサーバーのプールの場合は、各エッジサーバーに秘密キーを持つ証明書をエクスポートし、各エッジサーバーサービスに証明書を割り当てます。 内部エッジサーバー証明書に対して同じ手順を実行し、証明書を秘密キーと共にエクスポートして、各内部エッジインターフェイスに割り当てます。
 
 
 
 </div>
 
-  - 証明書に対して、エクスポート可能な秘密キーが割り当てられていることを確認する
+  - 証明書用に割り当てられたエクスポート可能な秘密キーがあることの確認
 
-  - Access Edge サービス (証明書ウィザードの [**外部 SIP アクセスエッジ**] とも呼ばれます)
+  - アクセスエッジサービス (証明書ウィザードでは、 **SIP アクセスエッジ**と呼ばれる)
 
-  - Web 会議エッジサービス (証明書ウィザードの [**外部] Web 会議エッジ**とも呼ばれます)
+  - Web 会議エッジサービス (証明書ウィザードの [ **Web 会議エッジ**] と呼ばれます)
 
-  - A/V 認証サービス (証明書ウィザードの「**外部**」とも呼ばれます)
+  - 音声ビデオ認証サービス (証明書ウィザードでは、[**音声エッジ外部**] と呼ばれます)
 
-エクスポート可能な秘密キーを使用して、1つの内部証明書を作成し、エッジサーバーの内部インターフェイスごとにコピーして割り当てます。
+エクスポート可能な秘密キーを持つ単一の内部証明書を作成し、各エッジ サーバー内部インターフェイスに割り当てます。
 
-  - エッジサーバー (証明書ウィザードでは、" **edge** " と呼ばれます)
+  - エッジ サーバー (証明書ウィザードでは、[**エッジ内部**] と呼ばれます)
 
 <div>
 
 
 > [!IMPORTANT]  
-> エッジサーバーサービスごとに個別の証明書を使用することができます。 個別の証明書を選択することをお勧めするのは、A/V Edge サービス証明書の新しいローリング証明書機能を使用する場合です。 この機能を使用する場合は、アクセスエッジサービスおよび Web 会議エッジサービスから A/V Edge サービス証明書を分離することをお勧めします。 各サービスに対して個別の証明書を取得して割り当てる場合は、秘密キーが A/v Edge サービス用にエクスポート可能であることを要求する必要があります (これは、A/v 認証サービスの場合もあります)。また、同じ証明書を各エッジサーバーの A/V Edge 外部インターフェイスに割り当てます。
+> エッジサーバーサービスごとに異なる証明書を使用することができます。 別の証明書を選択することをお勧めする理由は、音声ビデオエッジサービスの証明書に新しいローリング証明書機能を使用する場合です。 この機能の場合は、音声ビデオエッジサービス証明書をアクセスエッジサービスと Web 会議エッジサービスから分離することをお勧めします。 各サービスに対して個別の証明書を取得して割り当てることを選択した場合は、音声ビデオエッジサービスに対してエクスポート可能な秘密キーを要求する必要があります (これが実際には音声ビデオ認証サービスであることを示します)。また、各エッジサーバーの音声ビデオエッジの外部インターフェイスに同じ証明書を割り当てます。
 
 
 
@@ -102,10 +102,10 @@ Lync Server 2013 で、Edge 用の証明書の作成が簡略化されていま�
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 での、AV および OAuth 証明書の使用-セットアップ-CsCertificate](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate)  
+[Lync Server 2013 での AV および OAuth 証明書のステージング (セットを使用)-CsCertificate](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate)  
 
 
-[エッジ サーバーの計画に影響する Lync Server 2013 での変更点](lync-server-2013-changes-in-lync-server-that-affect-edge-server-planning.md)  
+[エッジサーバーの計画に影響する Lync Server 2013 の変更点](lync-server-2013-changes-in-lync-server-that-affect-edge-server-planning.md)  
   
 
 </div>

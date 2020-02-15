@@ -12,16 +12,16 @@ ms:contentKeyID: 63969651
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 78e756de75dda7d7b0a96d9a49233818a5c86576
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ee9869d5e7a5e3a48451478de334ee656543f6f5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745622"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050269"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41745622"
 
 <span> </span>
 
-_**最終更新日:** 2014-11-03_
+_**トピックの最終更新日:** 2014-11-03_
 
 
 <table>
@@ -45,8 +45,8 @@ _**最終更新日:** 2014-11-03_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>確認のスケジュール</p></td>
-<td><p>[毎日]</p></td>
+<td><p>検証スケジュール</p></td>
+<td><p>毎日</p></td>
 </tr>
 <tr class="even">
 <td><p>テストツール</p></td>
@@ -54,8 +54,8 @@ _**最終更新日:** 2014-11-03_
 </tr>
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
-<td><p>Lync Server 管理シェルを使用してローカルで実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使って実行する場合は、 <strong>CsPersistentChatMessage</strong>コマンドレットを実行するためのアクセス許可が与えられている RBAC の役割をユーザーに割り当てる必要があります。 このコマンドレットを使うことができるすべての RBAC ロールの一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合は、 <strong>test-cspersistentchatmessage</strong>コマンドレットを実行するためのアクセス許可を持つ RBAC の役割がユーザーに割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsPersistentChatMessage&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +66,7 @@ _**最終更新日:** 2014-11-03_
 
 ## <a name="description"></a>説明
 
-**CsPersistentChatMessage**コマンドレットは、1組のテストユーザーが常設チャットサービスを使ってメッセージを交換できることを確認します。 これを行うには、コマンドレットは2人のユーザーを Lync Server 2013 に記録し、ユーザーを永続的なチャットルームに接続して、1組のメッセージを交換し、チャットルームを終了して2人のユーザーをログオフします。 チャットルームを作成していない場合、または2つのテストユーザーアカウントに常設チャットサービスへのアクセスを提供する常設チャットポリシーが割り当てられていない場合は、このコマンドレットの呼び出しは失敗します。
+**Test-cspersistentchatmessage**コマンドレットでは、テストユーザーのペアが常設チャットサービスを使用してメッセージを交換できることを確認します。 これを行うために、コマンドレットは、Lync Server 2013 に2人のユーザーを記録し、ユーザーを常設チャットルームに接続し、メッセージのペアを交換して、チャットルームを終了し、2人のユーザーをログオフします。 ただし、チャットルームを作成していない場合や、2つのテストユーザーアカウントに常設チャットサービスへのアクセスを許可する常設チャットポリシーが割り当てられていない場合は、このコマンドレットの呼び出しは失敗します。
 
 </div>
 
@@ -74,9 +74,9 @@ _**最終更新日:** 2014-11-03_
 
 ## <a name="running-the-test"></a>テストの実行
 
-次の例に示すコマンドは、一対のユーザー (litwareinc\\pilar と litwareinc\\Kenmyer) が Lync Server 2013 にログオンして、常設チャットサービスを使ってメッセージを交換する機能をテストします。 これを行うには、この例の最初のコマンドでは、 **Credential**コマンドレットを使用して、User Pilar Ackerman の名前とパスワードを含む Windows PowerShell コマンドラインインターフェイス資格情報オブジェクトを作成します。 (Logon name、litwareinc\\pilar はパラメーターとして指定されているため、Windows PowerShell 資格情報の要求ダイアログボックスでは、管理者は Pilar Ackerman アカウントのパスワードを入力する必要があります)。結果として得られた資格情報オブジェクトは、$cred 1 という名前の変数に格納されます。 2番目のコマンドでも同じことが実行されますが、今回は Ken Myer アカウントの credential オブジェクトを返します。
+次の例に示すコマンドは、ユーザーのペア (litwareinc\\pilar と litwareinc\\Kenmyer) が Lync Server 2013 にログオンし、常設チャットサービスを使用してメッセージを交換できるかどうかをテストします。 これを行うには、例の最初のコマンドは、**資格情報**コマンドレットを使用して、User Pilar Ackerman の名前とパスワードを含む Windows PowerShell コマンドラインインターフェイス資格情報オブジェクトを作成します。 (ログオン名 litwareinc\\pilar がパラメーターとして含まれているため、[Windows PowerShell 資格情報の要求] ダイアログボックスでは、管理者のみが Pilar Ackerman アカウントのパスワードを入力する必要があります)。その後、結果の資格情報オブジェクトは $cred 1 という名前の変数に格納されます。 2番目のコマンドは同じことを行いますが、今度は Ken Myer アカウントの credential オブジェクトを返します。
 
-資格情報オブジェクトが手元にある場合、3番目のコマンドは、これら2人のユーザーが Lync Server 2013 にログオンして、常設チャットを使ってメッセージを交換できるかどうかを決定します。 この処理を実行するには、 **CsPersistentChatMessage**コマンドレットは、次のパラメーターを使用して呼び出されます。 Targetfqdn (レジストラープールの FQDN)SenderSipAddress (最初のテストユーザーの SIP アドレス)SenderCredential (同じユーザーの資格情報を格納する Windows PowerShell オブジェクト)ReceiverSipAddress (他のテストユーザーの SIP アドレス)と ReceiverCredential (他のテストユーザーの資格情報を格納する Windows PowerShell オブジェクト)。
+資格情報オブジェクトが手元にある場合、3番目のコマンドは、これら2人のユーザーが Lync Server 2013 にログオンして、常設チャットを使用して exchange メッセージにログオンできるかどうかを判断します。 このタスクを実行するには、次のパラメーターを使用して**test-cspersistentchatmessage**コマンドレットを呼び出します。 targetfqdn (レジストラープールの FQDN)。SenderSipAddress (最初のテストユーザーの SIP アドレス)。SenderCredential (同じユーザーの資格情報を含む Windows PowerShell オブジェクト)。ReceiverSipAddress (他のテストユーザーの SIP アドレス)。と ReceiverCredential (他のテストユーザーの資格情報を含む Windows PowerShell オブジェクト)。
 
     $cred1 = Get-Credential "litwareinc\pilar"
     $cred2 = Get-Credential "litwareinc\kenmyer"
@@ -87,31 +87,31 @@ _**最終更新日:** 2014-11-03_
 
 <div>
 
-## <a name="determining-success-or-failure"></a>成功または失敗を確認する
+## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
-指定したユーザーが有効な場所のポリシーを持っている場合は、次のような結果が返され、Result プロパティは**Success**とマークされます。
+指定したユーザーに有効な場所ポリシーがある場合は、次のような出力が得られ、Result プロパティは**Success**としてマークされます。
 
 ターゲット Fqdn: atl-cs-001.litwareinc.com
 
 結果: 成功
 
-待ち時間: 00:00:00
+待機時間: 00:00:00
 
 エラーメッセージ:
 
-診断
+分析
 
-指定したユーザーが常設チャットサービスを使用してメッセージを交換できない場合、結果はエラーとして表示さ**れ、その**他の情報はエラーと診断のプロパティに記録されます。
+指定したユーザーが常設チャットサービスを使用してメッセージを交換できない場合は、結果**がエラーとして**表示され、追加情報が Error および診断プロパティに記録されます。
 
-警告: 指定した完全修飾のレジストラーポート番号の読み取りに失敗しました
+警告: 指定された完全修飾のレジストラーポート番号を読み取ることができませんでした
 
-ドメイン名 (FQDN)。 既定のレジストラーポート番号を使用します。 エラー
+ドメイン名 (FQDN)。 既定のレジストラーポート番号を使用します。 例外
 
-InvalidOperationException: トポロジで一致するクラスターが見つかりませんでした。
+System.invalidoperationexception: トポロジ内に一致するクラスターが見つかりませんでした。
 
-自宅
+下部
 
-SipSyntheticTransaction-TryRetri の同期を行います。
+TryRetri を SipSyntheticTransaction していることを示します。
 
 eveRegistrarPortFromTopology (Int32& registrarPortNumber)
 
@@ -119,39 +119,39 @@ eveRegistrarPortFromTopology (Int32& registrarPortNumber)
 
 結果: エラー
 
-待ち時間: 00:00:00
+待機時間: 00:00:00
 
-エラーメッセージ: 10060、接続されているパーティのため、接続に失敗しました
+エラーメッセージ: 10060。接続しているパーティが原因で接続に失敗しました。
 
-一定の期間が経過した後に正しく応答しなかった場合、または
+一定期間後に正しく応答しなかったか、または
 
-接続されているホストに、接続に失敗しました
+接続されたホストの接続に失敗しました。
 
-2001: 4898 \[: f39e: 5c9a: ad83: 81b3: 9944\]: 5061 を応答できませんでした。
+2001年に\[応答できませんでした: 4898: e8: f39e: 5c9a: ad83:\]81b3: 9944: 5061
 
-内部例外: 接続の試行が失敗したため、接続できませんでした。
+内部例外: 接続の試行が失敗しました。
 
-しばらくしても、接続されているパーティが正しく応答しませんでした
+接続されたパーティは、一定期間の後に正しく応答しませんでした
 
-接続されているホストが原因で、時刻、または接続に失敗しました
+接続されているホストが原因で、接続に失敗しました。
 
-が応答しませんでした
+応答に失敗した
 
-\[2001: 4898: f39e: 5c9a: ad83: 81b3: 9944\]: 5061
+\[2001年: 4898: e8: f39e: 5c9a: ad83: 81b3:\]9944: 5061
 
-診断
+分析
 
 </div>
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a>テストに失敗した可能性がある理由
+## <a name="reasons-why-the-test-might-have-failed"></a>テストが失敗した理由
 
-次に **、テスト-CsPersistentChatMessage**が失敗する可能性がある一般的な理由を示します。
+**Test-cspersistentchatmessage**が失敗する可能性のある一般的な原因を次に示します。
 
-  - 指定されたパラメーター値が正しくありません。 必須のテストアカウントが存在しないか、正しく作成されている可能性があります。
+  - 指定されたパラメーター値が正しくありません。 必要なテストアカウントが存在しないか、正しく作成されている可能性があります。
 
-  - ネットワークの問題が原因で、予期しないテストの遅延が発生している可能性があります。
+  - ネットワークの問題が原因で、テストのタイムアウトによる予期しない遅延が発生している可能性があります。
 
 </div>
 
@@ -160,9 +160,9 @@ eveRegistrarPortFromTopology (Int32& registrarPortNumber)
 ## <a name="see-also"></a>関連項目
 
 
-[Grant-CsPersistentChatPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsPersistentChatPolicy)  
-[New-CsPersistentChatPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsPersistentChatPolicy)  
-[Set-CsPersistentChatPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsPersistentChatPolicy)  
+[Get-cspersistentchatpolicy 戻し](https://docs.microsoft.com/powershell/module/skype/Grant-CsPersistentChatPolicy)  
+[Get-cspersistentchatpolicy 戻し](https://docs.microsoft.com/powershell/module/skype/New-CsPersistentChatPolicy)  
+[Get-cspersistentchatpolicy 戻し](https://docs.microsoft.com/powershell/module/skype/Set-CsPersistentChatPolicy)  
   
 
 </div>

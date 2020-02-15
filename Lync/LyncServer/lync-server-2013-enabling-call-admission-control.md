@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 通話受付制御を有効にする'
+title: 'Lync Server 2013: 通話受付管理の有効化'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183228
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b89c9b888dc610d60b2abbcefd4c9c67e9b0572e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1482ce09ff4501deb4c3acbb5df77d014b314ffb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735837"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046310"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enabling-call-admission-control-in-lync-server-2013"></a>Lync Server 2013 での通話受付制御の有効化
+# <a name="enabling-call-admission-control-in-lync-server-2013"></a>Lync Server 2013 での通話受付管理の有効化
 
 </div>
 
@@ -35,38 +35,38 @@ ms.locfileid: "41735837"
 
 <span> </span>
 
-_**最終更新日:** 2012-11-01_
+_**トピックの最終更新日:** 2012-11-01_
 
-通話受付管理 (CAC) は、地域、サイト、およびサブネットで構成されるネットワークで、使用可能な帯域幅に基づいてオーディオおよびビデオ伝送に制限を課すことができます。 CAC ネットワークを構成したら、CAC を有効にして帯域幅の制限を適用する必要があります。 Lync Server コントロールパネルを使うと、この操作を行うことができます。
+通話受付管理 (CAC) は、使用可能な帯域幅に基づいてオーディオおよびビデオ伝送に制限を課すことができる地域、サイト、およびサブネットで構成されるネットワークです。 CAC ネットワークの構成後、CAC を有効にして、帯域幅制限を強制的に適用する必要があります。 これを行うには、Lync Server コントロールパネルを使用します。
 
 <div>
 
-## <a name="to-enable-cac-from-lync-server-control-panel"></a>Lync Server コントロールパネルで CAC を有効にするには
+## <a name="to-enable-cac-from-lync-server-control-panel"></a>Lync Server コントロールパネルから CAC を有効にするには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
-3.  左側のナビゲーションバーで [**ネットワーク構成**] をクリックし、[**グローバル**] をクリックします。
+3.  左側のナビゲーション バーで [**ネットワーク構成**] をクリックし、[**グローバル**] をクリックします。
 
-4.  [**グローバル**] ページで、[**グローバル**構成] をクリックします。
+4.  [**グローバル**] ページで [**グローバル**] 構成をクリックします。
     
     <div>
     
 
     > [!NOTE]  
-    > Microsoft Lync Server 2013 の展開用に1つのネットワークのみを構成できます。そのため、リストには複数のネットワーク構成を設定することはできません。 グローバル構成の名前を変更することはできません。
+    > Microsoft Lync Server 2013 の展開に対して構成できるネットワークは1つだけなので、リストに複数のネットワーク構成が存在することはありません。 グローバル構成の名前は変更できません。
 
     
     </div>
 
 5.  [**編集**] メニューの [**詳細の表示**] をクリックします。
 
-6.  [**グローバル設定の編集**] ページで、[**通話受付制御を有効にする**] チェックボックスをオンにし、[**コミット**] をクリックします。
+6.  [**グローバル設定の編集**] ページの [**通話受付管理の有効化**] チェック ボックスをオンにして、[**確定**] をクリックします。
 
-[**コミット**] をクリックすると、構成のテストが実行されます。 [**グローバル設定の編集**] ダイアログボックスが閉じ、**グローバル**ページに戻ります。 ネットワーク構成でエラーや不整合が検出された場合、そのエラーや不整合が正常に動作しなくなる場合 (たとえば、すべての地域が相互に接続されているルートを介してすべての地域に接続されていない場合) は、警告が表示されます。
+[**確定**] をクリックすると、構成のテストが実行されます。 [**グローバル設定の編集**] ダイアログ ボックスが閉じ、再び、[**グローバル**] ページが表示されます。 ネットワーク構成で、ネットワークの正しい動作を妨げるエラーまたは不整合 (たとえば、すべての地域が他のすべての地域に地域間ルート経由でそれぞれ接続される必要があるがそうなっていない場合) が検出されると、警告が表示されます。
 
-ネットワーク構成を変更した場合は、[グローバル構成] を開き、[**コミット**] をクリックして、検証チェックをもう一度実行できます。 まず、CAC を無効にする必要はありません。チェックボックスをオンのままにして、[**コミット**] をクリックします。 この操作は、構成を変更することなくいつでも行うことができます。
+ネットワーク構成に変更を加えた場合は、グローバル構成を開き [**確定**] をクリックすることで、検証チェックを再度実行できます。 最初に、CAC を無効にする必要はありません。 チェック ボックスをオンのままにして、[**確定**] をクリックしてください。 これは、構成に変更を加えていない場合も含め、いつでも実行できます。
 
 </div>
 
@@ -75,14 +75,14 @@ _**最終更新日:** 2012-11-01_
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 の通話受付制御の概要](lync-server-2013-overview-of-call-admission-control.md)  
+[Lync Server 2013 での通話受付管理の概要](lync-server-2013-overview-of-call-admission-control.md)  
 
 
 [Lync Server 2013 での通話受付管理の計画](lync-server-2013-planning-for-call-admission-control.md)  
-[Lync Server 2013 での通話受付制御の構成](lync-server-2013-configure-call-admission-control.md)  
-[Get-Set-csnetworkconfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkConfiguration)  
-[Set-Set-csnetworkconfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkConfiguration)  
-[Remove-Set-csnetworkconfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkConfiguration)  
+[Lync Server 2013 で通話受付管理を構成する](lync-server-2013-configure-call-admission-control.md)  
+[Get-csnetworkconfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkConfiguration)  
+[Get-csnetworkconfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkConfiguration)  
+[Get-csnetworkconfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkConfiguration)  
   
 
 </div>

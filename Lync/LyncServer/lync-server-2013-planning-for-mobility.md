@@ -12,16 +12,16 @@ ms:contentKeyID: 48183453
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a0ff59b46cf9c3df8206a3c5a0ebc8fb65568b4f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5fe598476123b2ebc0375c96d4c7f90e91ccac52
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41750517"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050049"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41750517"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-14_
+_**トピックの最終更新日:** 2013-02-14_
 
-Lync Server 2013 を使用すると、モバイルデバイスで Lync 2013 機能を提供するためのモバイル機能を展開できます。 このセクションでは、モビリティ機能と展開を計画する方法について詳しく説明します。
+Lync Server 2013 を使用すると、モバイルデバイスで Lync 2013 機能を提供するモビリティ機能を展開できます。 このセクションでは、モビリティ機能の詳細と、展開を計画する方法について説明します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 のモビリティの機能](lync-server-2013-mobility-features-and-capabilities.md)
+  - [Lync Server 2013 のモビリティ機能](lync-server-2013-mobility-features-and-capabilities.md)
 
-  - [Lync Server 2013 のモビリティのトポロジとコンポーネント](lync-server-2013-topologies-and-components-for-mobility.md)
+  - [Lync Server 2013 でのモビリティのトポロジとコンポーネント](lync-server-2013-topologies-and-components-for-mobility.md)
 
   - [Lync Server 2013 でのモビリティの技術要件](lync-server-2013-technical-requirements-for-mobility.md)
 
-  - [Lync Server 2013 でのモビリティの要件の定義](lync-server-2013-defining-your-mobility-requirements.md)
+  - [Lync Server 2013 のモビリティ要件の定義](lync-server-2013-defining-your-mobility-requirements.md)
 
-  - [Lync Server 2013 のモビリティの展開プロセス](lync-server-2013-deployment-process-for-mobility.md)
+  - [Lync Server 2013 でのモビリティの展開プロセス](lync-server-2013-deployment-process-for-mobility.md)
 
 </div>
 

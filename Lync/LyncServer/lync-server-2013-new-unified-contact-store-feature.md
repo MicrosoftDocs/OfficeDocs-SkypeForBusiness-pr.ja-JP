@@ -12,20 +12,20 @@ ms:contentKeyID: 48184308
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1f6ab6688a7a2d9b743843c226f2c869f18d3643
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: df0fefe912557e533daedf528d308edf5cea1e89
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755881"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048291"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-unified-contact-store-feature-in-lync-server-2013"></a>Lync Server 2013 の新しい統合連絡先ストアの機能
+# <a name="new-unified-contact-store-feature-in-lync-server-2013"></a>Lync Server 2013 の新しい統合連絡先ストア機能
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41755881"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-13_
+_**トピックの最終更新日:** 2012-09-13_
 
-Lync Server 2013 では、統合連絡先ストアが導入されています。 統合連絡先ストアでは、ユーザーが Microsoft Exchange Server 2013 ですべての連絡先情報を保持することができます。 ユーザーの Lync 連絡先を Exchange 2013 に移行した後は、ユーザーは Lync 2013、Outlook、または Outlook Web App から連絡先にアクセスして管理することができ、そのお気に入りは同期されたままになります。 たとえば、ユーザーが Outlook のお気に入りに連絡先を追加すると、その連絡先は Lync 2013 の [お気に入り] グループに表示されます。 ユーザーは、Outlook または Outlook Web App から連絡先を管理するために Lync にログインする必要はありません。
+Lync Server 2013 には、統合連絡先ストアが導入されています。 統合連絡先ストアを使用すると、ユーザーは Microsoft Exchange Server 2013 ですべての連絡先情報を保持できます。 ユーザーの Lync の連絡先が Exchange 2013 に移行されると、ユーザーは Lync 2013、Outlook、または Outlook Web App から連絡先にアクセスして管理できるようになり、そのお気に入りが同期したままになります。 たとえば、ユーザーが Outlook のお気に入りに連絡先を追加すると、その連絡先は Lync 2013 の [お気に入り] グループに表示されます。 ユーザーは、Outlook または Outlook Web App から連絡先を管理するために Lync にログインする必要はありません。
 
-統合連絡先ストアは既定で有効になっています。 統合連絡先ストアのユーザーをグローバル、サイト、テナント、または個人またはグループごとに有効または無効にすることができます。
+統合連絡先ストアは、既定で有効になっています。統合連絡先ストアの対象となるユーザーは、複数の方法で有効または無効にできます (グローバルに、サイト別に、テナント別に、個別に、またはグループ別に)。
 
 <div>
 

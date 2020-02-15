@@ -1,5 +1,5 @@
 ---
-title: アドレス帳の移行
+title: アドレス帳を移行する
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185218
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e2c904a122f781da08c92c6b1123cfeb1944dd2e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 66b18a747de8461e54b58f07f680b2558359a359
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765275"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050389"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="migrate-address-book"></a>アドレス帳の移行
+# <a name="migrate-address-book"></a>アドレス帳を移行する
 
 </div>
 
@@ -35,30 +35,30 @@ ms.locfileid: "41765275"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-02_
+_**トピックの最終更新日:** 2012-10-02_
 
-**アドレス帳のカスタマイズされた正規化ルールを移行するには**
+**アドレス帳のカスタマイズした正規化ルールを移行するには**
 
-1.  アドレス帳の\_共有\_フォルダー\_の\_ルートにある [会社電話番号の正規化ルール] .txt ファイルを見つけて、Lync Server 2013 パイロットプールのアドレス帳の共有フォルダーのルートにコピーします。
+1.  アドレス帳の\_共有\_フォルダー\_の\_ルートにある会社の電話番号の正規化ルールを見つけ、それを Lync Server 2013 パイロットプールのアドレス帳の共有フォルダーのルートにコピーします。
     
     <div>
     
 
     > [!NOTE]  
-    > サンプルのアドレス帳の正規化ルールは、ABS Web コンポーネントファイルディレクトリにインストールされています。 パスは<STRONG>$installedDriveLetter: Components\Address/Lync Server 2013 \ Web Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules .txt、</STRONG>。 このファイルは、アドレス帳の共有&nbsp;フォルダーのルートディレクトリに<STRONG>Company_Phone_Number_Normalization_Rules .txt</STRONG> &nbsp;としてコピーし、名前を変更することができます。 たとえば、 <STRONG>$serverX</STRONG>&nbsp;で共有されているアドレス帳は、 <STRONG> \\$serverX \LyncFileShare\2-WebServices-1\ABFiles</STRONG>のようなパスになります。
+    > アドレス帳の正規化ルールの例は、ABS Web コンポーネントのファイルディレクトリにインストールされています。 パスは<STRONG>次のとおりです。 $installedDriveLetter: Files\Files\ の Lync Server 2013 \ Web Components\Address Book Sample_Company_Phone_Number_Normalization_Rules</STRONG>。 このファイルは、 &nbsp; <STRONG>Company_Phone_Number_Normalization_Rules .txt</STRONG> &nbsp;としてアドレス帳の共有フォルダーのルートディレクトリにコピーしたり名前を変更したりできます。 たとえば、アドレス帳が<STRONG>$serverX</STRONG>&nbsp;で共有されている場合、このパスは<STRONG> \\$serverX \LyncFileShare\2-WebServices-1\ABFiles</STRONG>のようになります。
 
     
     </div>
 
-2.  メモ帳などのテキストエディターを使用して、\_会社電話\_番号\_の正規化\_ルールの .txt ファイルを開きます。
+2.  メモ帳\_などのテキストエディターを使用して、会社の電話\_番号\_の\_正規化ルール .txt ファイルを開きます。
 
-3.  Lync Server 2013 では、特定の種類のエントリが正しく動作しないことがあります。 この手順で説明したエントリの種類をファイルで確認し、必要に応じて編集して、変更内容をパイロットプールのアドレス帳の共有フォルダーに保存します。
+3.  特定の種類のエントリは、Lync Server 2013 では正しく動作しません。 このファイルに目を通して、このステップで説明しているような種類のエントリがあれば、必要に応じてそれを編修し、パイロット プール内のアドレス帳共有フォルダーに変更後のファイルを保存します。
     
-    必要な空白または句読点を含む文字列は、正規化ルールに入力された文字列から削除されるため、正規化ルールが失敗します。 文字列に必要な空白または句読点が含まれている場合は、文字列を変更する必要があります。 たとえば、次の文字列では正規化ルールが失敗します。
+    必要な空白文字や区切り文字が文字列に含まれていると、正規化ルールが正常に機能しなくなります。これらの文字は、正規化ルールに入力される文字列から取り除かれるためです。必要な空白文字や区切り文字が含まれる文字列を使用する場合は、文字列を編集する必要があります。たとえば、次の文字列を使用すると、正規化ルールが正常に機能しません。
     
         \s*\(\s*\d\d\d\s*\)\s*\-\s*\d\d\d\s*\-\s*\d\d\d\d
     
-    次の文字列では、正規化ルールが失敗することはありません。
+    次の文字列では正規化ルールに問題は生じません。
     
         \s*\(?\s*\d\d\d\s*\)?\s*\-?\s*\d\d\d\s*\-?\s*\d\d\d\d
 

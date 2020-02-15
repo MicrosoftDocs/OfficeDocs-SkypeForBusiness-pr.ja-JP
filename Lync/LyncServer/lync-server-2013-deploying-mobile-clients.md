@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: モバイルクライアントを展開する'
+title: 'Lync Server 2013: モバイルクライアントの展開'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185854
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8b4b3d0e47172af35464cbd95e56a762f3d590fa
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4cd27963546b45425d6ddd134ce716b475f3dd1b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757631"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050609"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-mobile-clients-in-lync-server-2013"></a>Lync Server 2013 でモバイルクライアントを展開する
+# <a name="deploying-mobile-clients-in-lync-server-2013"></a>Lync Server 2013 でのモバイルクライアントの展開
 
 </div>
 
@@ -35,20 +35,20 @@ ms.locfileid: "41757631"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-19_
+_**トピックの最終更新日:** 2013-02-19_
 
-モバイルクライアント用の Lync 2013 アプリは、スマートフォンまたは Windows Mobile の Professional エディションを実行している電話から接続している組織内のユーザーに対して、インスタントメッセージング (IM)、拡張プレゼンス、テレフォニーを提供します。 ユーザーに携帯電話のアプリ marketplace を指示することによって、Lync 2013 をインストールするように指示することができます。
+Lync 2013 app for mobile クライアントは、スマートフォンまたは Windows Mobile の Professional edition を実行している電話から接続している組織内のユーザーに対して、インスタントメッセージング (IM)、拡張プレゼンス、およびテレフォニーを提供します。 ユーザーに対して Lync 2013 をインストールするように指示するには、携帯電話のアプリマーケットプレースにユーザーを指示します。
 
 <div>
 
 
 > [!NOTE]  
-> Lync Server 2013 は、モバイルクライアント用の Lync 2010 もサポートしています。 詳細については、Lync Server 2010 TechNet ライブラリの次の記事を参照してください。 
+> Lync Server 2013 は、モバイルクライアントで Lync 2010 もサポートしています。 詳細については、Lync Server 2010 TechNet ライブラリの次の記事を参照してください。 
 > <UL>
 > <LI>
-> <P>「モバイルクライアントの計画」を<A href="http://go.microsoft.com/fwlink/p/?linkid=235955">http://go.microsoft.com/fwlink/p/?LinkID=235955</A>ご覧ください。</P>
+> <P>「モバイルクライアントの計画」 <A href="http://go.microsoft.com/fwlink/p/?linkid=235955">http://go.microsoft.com/fwlink/p/?LinkID=235955</A></P>
 > <LI>
-> <P>「モバイルクライアントの展開」 <A href="http://go.microsoft.com/fwlink/p/?linkid=236068">http://go.microsoft.com/fwlink/p/?LinkID=236068</A>をご覧ください。</P></LI></UL>
+> <P>「モバイルクライアント<A href="http://go.microsoft.com/fwlink/p/?linkid=236068">http://go.microsoft.com/fwlink/p/?LinkID=236068</A>を展開する」</P></LI></UL>
 
 
 
@@ -56,11 +56,11 @@ _**最終更新日:** 2013-02-19_
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
   - [Lync Server 2013 での Lync for Windows Phone の展開](lync-server-2013-deploying-lync-for-windows-phone.md)
 
-  - [Lync for iPhone および iPad for iPad を Lync Server 2013 に展開する](lync-server-2013-deploying-lync-for-iphone-and-ipad.md)
+  - [Lync Server 2013 での Lync for iPhone および iPad の展開](lync-server-2013-deploying-lync-for-iphone-and-ipad.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ベストプラクティスアナライザーの更新を確認する'
+title: 'Lync Server 2013: ベストプラクティスアナライザーの更新プログラムの確認'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183307
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ffd05761a1c107ac72c7b9c3242fb18a5a3c7a27
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f7916fa550831cb86a5b8c77273b87f55365a1a1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733857"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046030"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="checking-for-updates-to-best-practices-analyzer-in-lync-server-2013"></a>Lync Server 2013 でのベストプラクティスアナライザーの更新プログラムを確認する
+# <a name="checking-for-updates-to-best-practices-analyzer-in-lync-server-2013"></a>Lync Server 2013 でのベストプラクティスアナライザーの更新プログラムの確認
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41733857"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-02_
+_**トピックの最終更新日:** 2012-10-02_
 
-ベストプラクティスアナライザーを開始すると、ツールの最新の更新プログラムを検索するオプションが表示されます。 更新プログラムが入手可能な場合は、更新プログラムをダウンロードできます。 更新プログラムをダウンロードしないようにした場合、またはベストプラクティスアナライザーがインターネットにアクセスできない場合は、コンピューターに既に存在するバージョンを引き続き使用できます。
+ベストプラクティスアナライザーを開始すると、ツールに対する最新の更新プログラムを検索するオプションが提供されます。 更新プログラムが入手可能な場合は、更新プログラムをダウンロードできます。 更新プログラムをダウンロードしない場合、またはベストプラクティスアナライザーがインターネットにアクセスできない場合は、コンピューターに既に存在するバージョンを引き続き使用できます。
 
 <div>
 
 
 > [!NOTE]  
-> インターネットにアクセスするためにプロキシ認証が必要な場合は、ベストプラクティスアナライザーでダウンロードできる新しい更新プログラムにアクセスすることはできません。 ただし、Microsoft ダウンロードセンターから最新バージョンの RtcBPA .msi を手動でダウンロードすることができ<A href="http://go.microsoft.com/fwlink/p/?linkid=266539">http://go.microsoft.com/fwlink/p/?linkId=266539</A>ます。 ファイルをダウンロードした後、ベストプラクティスアナライザーを更新するコンピューターにファイルをコピーし、.msi ファイルを使用してそのコンピューターに新しいバージョンのツールをインストールすることができます。
+> インターネットにアクセスするためにプロキシ認証が必要な場合、ベストプラクティスアナライザーは新しい更新プログラムにアクセスしてダウンロードすることはできません。 ただし、Microsoft ダウンロードセンターから、最新バージョンの RtcBPA を手動でダウンロードすることができ<A href="http://go.microsoft.com/fwlink/p/?linkid=266539">http://go.microsoft.com/fwlink/p/?linkId=266539</A>ます。 ファイルをダウンロードした後、ベストプラクティスアナライザーを更新するコンピューターにファイルをコピーし、.msi ファイルを使用してそのコンピューターに新しいバージョンのツールをインストールすることができます。
 
 
 
 </div>
 
-ベストプラクティスアナライザーの規則を更新するには、ローカルコンピューターの管理者としてツールを実行する必要があります。 管理者グループのメンバーであるアカウントを使用してログオンしておらず、更新が検出された場合は、ベストプラクティスアナライザーを終了して、次の手順に従ってプログラムを起動します。
+ベストプラクティスアナライザールールを更新するには、ローカルコンピューター上でこのツールを管理者として実行する必要があります。 Administrators グループのメンバーであるアカウントを使用してログオンしておらず、更新が検出された場合は、ベストプラクティスアナライザーを終了してから、次の手順を使用してプログラムを開始します。
 
 <div>
 
-## <a name="to-open-best-practices-analyzer-as-administrator-to-check-for-updates"></a>更新プログラムを確認するために、管理者としてベストプラクティスアナライザーを開くには
+## <a name="to-open-best-practices-analyzer-as-administrator-to-check-for-updates"></a>更新プログラムを確認するためにベストプラクティスアナライザーを管理者として開くには
 
-1.  ベストプラクティスアナライザーがインストールされているコンピューターで、[**スタート**] ボタンをクリックし、[ **Microsoft Lync Server 2013**] をポイントして、[**ベストプラクティスアナライザー**] を右クリックし、[**管理者として実行**] をクリックします。
+1.  ベストプラクティスアナライザーがインストールされているコンピューターで、[**スタート**] ボタンをクリックし、[ **Microsoft Lync Server 2013**] をポイントします。次に、[**ベストプラクティスアナライザー**] を右クリックし、[**管理者として実行**] をクリックします。
 
-2.  管理者グループのメンバーであるアカウントの資格情報を指定します。
+2.  Administrators グループのメンバーであるアカウントの資格情報を指定します。
 
 </div>
 

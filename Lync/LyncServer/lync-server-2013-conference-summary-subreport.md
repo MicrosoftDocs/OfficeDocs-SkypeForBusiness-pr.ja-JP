@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 会議の概要サブレポート'
+title: 'Lync Server 2013: 電話会議の概要サブレポート'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183742
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2537cbe959639baee6f0f986b3faea1ebd79b5a8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d2c31c614298112b91874882df1e4945845b74bd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756991"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046320"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="conference-summary-subreport-in-lync-server-2013"></a>Lync Server 2013 の会議の概要サブレポート
+# <a name="conference-summary-subreport-in-lync-server-2013"></a>Lync Server 2013 の電話会議の概要サブレポート
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41756991"
 
 <span> </span>
 
-_**最終更新日:** 2012-06-06_
+_**トピックの最終更新日:** 2012-06-06_
 
 電話会議の概要サブレポートには、エラーが発生した電話会議セッションの概要が表示されます。これらのエラーが発生したセッションは、フォーカス セッションと MCU セッションというセッションの種類によって分類されます。
 
@@ -43,7 +43,7 @@ _**最終更新日:** 2012-06-06_
 
 ## <a name="filters"></a>フィルター
 
-フィルターは、細かく絞り込んだデータ セットを返したり、返されたデータをさまざまな方法で表示したりする方法として利用できます。次の表に、電話会議の概要サブレポートで使用できるフィルターを示します。
+フィルターは、細かく絞り込んだデータ セットを返したり、返されたデータをさまざま方法で表示したりする方法として利用できます。次の表に、電話会議の概要サブレポートで使用できるフィルターを示します。
 
 ### <a name="conference-summary-subreport-filters"></a>電話会議の概要サブレポートのフィルター
 
@@ -60,27 +60,27 @@ _**最終更新日:** 2012-06-06_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>開始</strong></p></td>
+<td><p><strong>From</strong></p></td>
 <td><p>時間範囲の開始日と開始時刻。データを時間単位で表示するには、次のように開始日と開始時刻の両方を入力します。</p>
 <p>7/7/2012 1:00 PM</p>
 <p>開始時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に開始します。データを日単位で表示するには、次のように日付のみを入力します。</p>
 <p>7/7/2012</p>
 <p>週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。</p>
 <p>7/3/2012</p>
-<p>一週間は、日曜日から始まり、土曜日で終わるものとします。</p></td>
+<p>週は、常に日曜日から土曜日までです。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>終了</strong></p></td>
+<td><p><strong>To</strong></p></td>
 <td><p>時間範囲の終了日と終了時刻。データを時間単位で表示するには、次のように終了日と終了時刻の両方を入力します。</p>
-<p>7/7/2012 1:00 PM</p>
+<p>7/7/2012 13:00</p>
 <p>終了時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に終了します。データを日単位で表示するには、次のように日付のみを入力します。</p>
 <p>7/7/2012</p>
 <p>週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。</p>
 <p>7/3/2012</p>
-<p>一週間は、日曜日から始まり、土曜日で終わるものとします。</p></td>
+<p>週は、常に日曜日から土曜日までです。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>プール</strong></p></td>
+<td><p><strong>Pool</strong></p></td>
 <td><p>レジストラー プールまたはエッジ サーバーの完全修飾ドメイン名 (FQDN)。個別のプールを選択するか、[<strong>すべて</strong>] をクリックしてすべてのプールのデータを表示できます。このドロップダウン リストは、データベース内のレコードに基づいて自動的に設定されます。</p></td>
 </tr>
 </tbody>
@@ -112,27 +112,27 @@ _**最終更新日:** 2012-06-06_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>[電話会議の合計数]</strong></p></td>
+<td><p>[<strong>電話会議の合計数</strong>]</p></td>
 <td><p>いいえ</p></td>
 <td><p>開催された電話会議の合計数です。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>[電話会議セッションの合計数]</strong></p></td>
+<td><p>[<strong>電話会議セッションの合計数</strong>]</p></td>
 <td><p>いいえ</p></td>
 <td><p>電話会議セッションの合計数です。1 つの電話会議に複数のセッションが存在する場合があります。たとえば、1 つの電話会議にフォーカス セッションと MCU セッションの両方が含まれる場合があります。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>[全体的なセッション エラー率]</strong></p></td>
+<td><p>[<strong>全体的なセッション エラー率</strong>]</p></td>
 <td><p>いいえ</p></td>
 <td><p>エラーが発生したすべての電話会議の割合です。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>[フォーカス セッション]</strong></p></td>
+<td><p>[<strong>フォーカス セッション</strong>]</p></td>
 <td><p>いいえ</p></td>
 <td><p>フォーカス セッションの合計数です。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>[フォーカス エラー率]</strong></p></td>
+<td><p>[<strong>フォーカス エラー率</strong>]</p></td>
 <td><p>いいえ</p></td>
 <td><p>エラーが発生したフォーカス セッションの割合です。</p></td>
 </tr>
@@ -142,18 +142,18 @@ _**最終更新日:** 2012-06-06_
 <td><p>MCU セッションの合計数です。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>[MCU エラー率]</strong></p></td>
+<td><p>[<strong>MCU エラー率</strong>]</p></td>
 <td><p>いいえ</p></td>
 <td><p>エラーが発生した MCU セッションの割合です。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>[MCU セッション (モダリティ別)]</strong></p></td>
+<td><p>[<strong>MCU セッション (モダリティ別)</strong>]</p></td>
 <td><p>いいえ</p></td>
 <td><p>モダリティ (IM 電話会議など) ごとにグループ化した、MCU セッションの合計数です。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>[モダリティ別エラー率]</strong></p></td>
-<td><p>不可</p></td>
+<td><p>[<strong>エラー率 (モダリティ別)</strong>]</p></td>
+<td><p>いいえ</p></td>
 <td><p>モダリティ (IM 電話会議など) ごとにグループ化した、エラーが発生した MCU セッションの割合です。</p></td>
 </tr>
 </tbody>

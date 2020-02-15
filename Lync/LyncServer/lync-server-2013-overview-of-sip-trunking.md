@@ -12,16 +12,16 @@ ms:contentKeyID: 48183601
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 340c27b3e874ea3d9f55aac2b415bd1a440aab9d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fbf29b02af831f82050e9a032a35f0fa57c1eb1e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755471"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046250"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41755471"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-05_
+_**トピックの最終更新日:** 2012-10-05_
 
-SIP トランキングを展開することは、組織の通信方式を簡素化し、リアルタイム通信への最新の機能強化に備えるための大きなステップとなります。SIP トランキングの主な利点の 1 つは、一般に各ブランチ サイトからの個別のトランクを必要とする従来の時分割多重 (TDM) トランキングと異なり、組織の接続を中央サイトの公衆交換電話網 (PSTN) に集約できることです。
+SIP トランキングを展開することは、組織の通信方式を簡素化し、リアルタイム通信への最新の機能強化に備えるための大きなステップとなります。SIP トランキングの主な利点の 1 つは、一般に各ブランチ サイトからの個別のトランクを必要とする従来の時分割多重 (TDM) トランキングと異なり、組織の接続をセントラル サイトの公衆交換電話網 (PSTN) に集約できることです。
 
 <div>
 
-## <a name="sip-trunking-in-lync-server"></a>Lync Server での SIP トランク
+## <a name="sip-trunking-in-lync-server"></a>Lync Server の SIP トランキング
 
-Lync Server 2013 SIP トランキング機能を使用すると、次のことができます。
+Lync Server 2013 SIP トランキング機能により、次のことが可能になります。
 
-  - 企業のファイアウォールの内側または外側にいる場合でも、対応するサービスプロバイダのサービスとして PSTN 上で終了された、ローカルの通話や長距離通話を行うことができます。
+  - エンタープライズ ユーザーは企業のファイアウォールの内側と外側のどちらにいても、E.164 準拠の番号で指定される市内通話や長距離通話を発信できます。この通話は、対応するサービス プロバイダーのサービスとして PSTN 上で終端されます。
 
-  - すべての PSTN 加入者は、そのエンタープライズユーザーに関連付けられている電話番号 (DID) をダイヤルすることによって、企業のファイアウォールの内側または外側にあるエンタープライズユーザーに連絡することができます。
+  - PSTN サブスクライバーはだれでも、エンタープライズ ユーザーに関連付けられた Direct Inward Dialing (DID) 番号をダイヤルして、企業のファイアウォールの内側または外側にいるエンタープライズ ユーザーに連絡することができます。
 
 </div>
 
@@ -77,9 +77,9 @@ SIP トランクは直接サービス プロバイダーに接続されるため
 
 ## <a name="expanded-voip-services"></a>VoIP サービスの拡張
 
-多くの場合、音声機能が SIP トランキングを展開する主な動機ではありますが、音声サポートは最初のステップにすぎません。 SIP トランキングを利用すると、VoIP 機能を拡張し、Lync Server 2013 がより充実したサービスのセットを提供できるようになります。 次に例を示します。
+多くの場合、音声機能が SIP トランキングを展開する主な動機ではありますが、音声サポートは最初のステップにすぎません。 SIP トランキングを使用すると、VoIP 機能を拡張し、Lync Server 2013 を有効にして、より豊富なサービスセットを提供できます。 例:
 
-  - Lync Server 2013 を実行していないデバイスのプレゼンス検出機能が強化されたため、携帯電話との統合性が向上し、ユーザーが携帯電話に通話を発信しているかどうかを確認できます。
+  - Lync Server 2013 を実行していないデバイスの拡張プレゼンス検出を使用すると、携帯電話との統合が向上し、ユーザーが携帯電話で通話しているときに表示されるようになります。
 
   - E9-1-1 緊急通話の場合、911 番の電話に出た当局者が、かかってきた電話番号から、その電話をかけた人物の場所を特定することが可能です。
 

@@ -1,5 +1,5 @@
 ---
-title: 構成の設定の確認
+title: 構成の設定を確認する
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184111
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8fcb7f577719ad14a04c89250bfab66e6cc9de3d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 80b84d2c11fee62b0912cc43317ed6716dd33f27
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738557"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048251"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="verify-configuration-settings"></a>構成の設定の確認
+# <a name="verify-configuration-settings"></a>構成の設定を確認する
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41738557"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-06_
+_**トピックの最終更新日:** 2012-09-06_
 
-中央管理ストアが配置されている内部コンピューターで、または Lync Server 2013 コアコンポーネント (OcsCore) がインストールされているドメインに参加しているコンピューターで、Lync Server 2013 **CsManagementStoreReplicationStatus**コマンドレットを実行して、構成情報の複製を検証できます。
+中央管理ストアが配置されている内部コンピューター、または Lync Server 2013 コアコンポーネント (OcsCore) がインストールされている任意のドメインに参加しているコンピューターで、 **get-csmanagementstorereplicationstatus**コマンドレットを2013実行することで、構成情報のエッジサーバーへのレプリケーションを検証できます。
 
-初期結果では、レプリケーションに "True" ではなく "False" と表示されることがあります。 その場合は、 **CsManagementStoreReplication**コマンドレットを実行して、 **CsManagementStoreReplicationStatus**をもう一度実行する前に複製処理が完了するまで待ちます。
+最初の結果では、レプリケーションに関する状態が "True" ではなく "False" と示される場合があります。 その場合、**Invoke-CsManagementStoreReplication** コマンドレットを実行し、時間をおいて、レプリケーションが完了してから再び **Get-CsManagementStoreReplicationStatus** コマンドレットを実行してください。
 
 </div>
 

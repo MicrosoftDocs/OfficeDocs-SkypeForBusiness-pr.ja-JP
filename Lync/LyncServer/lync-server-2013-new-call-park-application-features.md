@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: コール パーク アプリケーションの新機能'
+title: 'Lync Server 2013: コールパークアプリケーションの新機能'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185277
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed681497eee3033ea18cdac0487257f02052491c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 38053645858c2fcec52f94259485184801236240
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765808"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049989"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-call-park-application-features-in-lync-server-2013"></a>Lync Server 2013 のコール パーク アプリケーションの新機能
+# <a name="new-call-park-application-features-in-lync-server-2013"></a>Lync Server 2013 のコールパークアプリケーションの新機能
 
 </div>
 
@@ -35,18 +35,18 @@ ms.locfileid: "41765808"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-17_
+_**トピックの最終更新日:** 2012-10-17_
 
-コールパークアプリケーションを使用すると、エンタープライズボイスユーザーは通話を保留にしてから、どの電話からでも通話を受信することができます。 通話を保留にしたユーザーは、コールパークによって提供された軌道番号をダイヤルして、保留中の通話を取得したり、インスタントメッセージング (IM) やページングシステムなどの外部メカニズムを使って、他の人に通話を取得するように指示することができます。
+コールパークアプリケーションを使用すると、エンタープライズ Voip ユーザーは通話を保留にしてから、後で電話で取得することができます。 呼び出しを保留したユーザーは、コールパークによって提供されたオービット番号にダイヤルして、保留中の通話を取得するか、インスタントメッセージング (IM) やページングシステムなどの外部メカニズムを使用して、他のユーザーに呼び出しを取得するように要求できます。
 
-Lync Server 2013 には、フェールオーバーとフェールバックのプロセスの形式での新しい障害回復メカニズムが用意されています。 これらのフェイルオーバーおよびフェイルバック処理は、プライマリプールをホームにしているユーザーが、プライマリプールで停止したときにバックアッププールのコールパークアプリケーションを利用できるようにすることによって、コールパーク機能の回復をサポートします。 コールパークアプリケーションのディザスタリカバリのサポートは、ペアリングされたフロントエンドプールの構成と展開の一環として有効になります。
+Lync Server 2013 は、フェールオーバーおよびフェールバックプロセスの形式で、新しい障害回復メカニズムを提供します。 プライマリプールで停止が発生したときに、プライマリプールに所属しているユーザーがバックアッププールのコールパークアプリケーションを利用できるようにするには、これらのフェールオーバーおよびフェールバックプロセスでコールパーク機能の回復がサポートされています。 コールパークアプリケーションの障害復旧のサポートは、ペアになったフロントエンドプールの構成と展開の一環として有効になっています。
 
 <div>
 
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 でのコール パークの計画](lync-server-2013-planning-for-call-park.md)  
+[Lync Server 2013 でのコールパークの計画](lync-server-2013-planning-for-call-park.md)  
   
 
 </div>

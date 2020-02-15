@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 既定のファイル転送フィルターを変更する'
+title: 'Lync Server 2013: 既定のファイル送信フィルターの変更'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184584
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e8a0d9ade3fd750f5dc89526969bad7e39ad0f35
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ba3e0da5402ea93ce33e844a2f8b32d545d4811a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756891"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050029"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="modify-the-default-file-transfer-filter-in-lync-server-2013"></a>Lync Server 2013 で既定のファイル転送フィルターを変更する
+# <a name="modify-the-default-file-transfer-filter-in-lync-server-2013"></a>Lync Server 2013 での既定のファイル送信フィルターの変更
 
 </div>
 
@@ -35,47 +35,47 @@ ms.locfileid: "41756891"
 
 <span> </span>
 
-_**最終更新日:** 2012-11-01_
+_**トピックの最終更新日:** 2012-11-01_
 
-Lync Server 2013 では、Lync Server 2013 の展開における次のファイル関連のアクティビティ中に、特定の種類のファイルをブロックするグローバルファイル転送フィルターが提供されています。
+Lync Server 2013 には、Lync Server 2013 展開内の次のファイル関連アクティビティで特定の種類のファイルをブロックするグローバルファイル転送フィルターが用意されています。
 
-  - インスタントメッセージング (IM) 会話中のファイル送信要求
+  - インスタント メッセージング (IM) 会話中のファイル転送要求
 
-  - Office Live Meeting 2007 クライアントで配布資料機能を使用しているときにファイルのアップロードとダウンロードを行う
+  - Office Live Meeting 2007 クライアントの配布資料機能使用中のファイル アップロードおよびダウンロード
 
   - 会議中のマルチメディア再生
 
-ブロックまたは許可するファイルの種類に応じて、Lync Server コントロールパネルを使用してグローバルフィルターを変更できます。 ファイル転送フィルターの詳細については、「 [Lync Server 2013 でインスタントメッセージング (IM) のためのファイル送信と URL フィルタリングを構成する](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)」を参照してください。
+禁止または許可するファイルの種類に応じて、Lync Server コントロールパネルを使用してグローバルフィルターを変更できます。 ファイル転送フィルターの詳細については、「 [Lync Server 2013 でインスタントメッセージング (IM) のファイル転送と URL フィルターを構成する](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)」を参照してください。
 
 <div>
 
-## <a name="to-modify-the-default-file-transfer-filter"></a>既定のファイル転送フィルターを変更するには
+## <a name="to-modify-the-default-file-transfer-filter"></a>既定のファイル送信フィルターを変更するには
 
 1.  CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
-3.  左側のナビゲーションバーで、[ **IM とプレゼンス**] をクリックし、[**ファイルフィルター**] をクリックします。
+3.  左側のナビゲーション バーで [**IM とプレゼンス**] をクリックし、[**ファイル フィルター**] をクリックします。
 
-4.  [**ファイルフィルター** ] ページで、**グローバル**フィルターをダブルクリックします。
+4.  [**ファイル フィルター**] ページで、[**グローバル**] フィルターをダブルクリックします。
 
-5.  [**ファイルフィルターの編集**] で、[**ファイルフィルターを有効にする**] チェックボックスをオンにします。
+5.  [**ファイル フィルターの編集**] で、[**ファイル フィルターを有効にする**] チェック ボックスをオンにします。
 
-6.  [**ファイル転送**] ドロップダウンリストボックスで、[**ブロック**する] または [**特定の種類のファイルをブロック**する] をクリックします。
+6.  [**ファイル転送**] ドロップダウン リストで、[**すべて禁止**] または [**特定の種類のファイルを禁止する**] をクリックします。
 
-7.  [**すべてブロック**] をクリックした場合は、手順9に進みます。
+7.  [**すべて禁止**] をクリックした場合は、ステップ 9 へ進みます。
 
-8.  [特定の**種類のファイルをブロック**する] をクリックした場合は、次の操作を行います。
+8.  [**特定の種類のファイルを禁止する**] をクリックした場合は、次の操作を実行します。
     
-    1.  [**選択**] をクリックして、ブロックするファイルの種類の拡張子の既定のリストを変更します。
+    1.  [**選択**] をクリックして、禁止する種類のファイル拡張子の既定の一覧を変更します。
     
-    2.  [ファイルの**種類の選択**] で、ブロックまたは削除するファイルの種類を [ファイルの**種類の拡張子**] の下にあるカテゴリから選びます。
+    2.  [**ファイルの種類を選択**] の [**ファイルの種類の拡張子**] で、カテゴリの拡張子を追加または削除して、禁止または許可するファイルの種類を選択します。
     
-    3.  ブロックするファイルの種類の拡張子が表示されない場合は、[**ファイルの種類の拡張子を追加する**] の下のテキストボックスに拡張子を入力し、[**追加**] をクリックします。
+    3.  禁止する種類のファイルの拡張子が見当たらない場合は、[**ファイルの拡張子を一覧に追加**] のテキスト ボックスに拡張子を入力して、[**追加**] をクリックします。
     
-    4.  **[OK]** をクリックします。
+    4.  [**OK**] をクリックします。
 
-9.  [**コミット**] をクリックします。
+9.  [**確定**] をクリックします。
 
 </div>
 
@@ -84,9 +84,9 @@ Lync Server 2013 では、Lync Server 2013 の展開における次のファイ�
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 でのインスタントメッセージング (IM) のファイル転送と URL フィルタリングの構成](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)  
-[Lync Server 2013 で特定のサイト用の新しいファイル転送フィルターを作成する](lync-server-2013-create-a-new-file-transfer-filter-for-a-specific-site.md)  
-[Lync Server 2013 で新しい URL フィルターを作成して、IM 会話のハイパーリンクを処理する](lync-server-2013-create-a-new-url-filter-to-handle-hyperlinks-in-im-conversations.md)  
+[Lync Server 2013 でインスタントメッセージング (IM) 用のファイル転送および URL フィルターを構成する](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)  
+[Lync Server 2013 で特定のサイトに対して新しいファイル転送フィルターを作成する](lync-server-2013-create-a-new-file-transfer-filter-for-a-specific-site.md)  
+[IM 会話でのハイパーリンクを処理するために Lync Server 2013 で新しい URL フィルターを作成する](lync-server-2013-create-a-new-url-filter-to-handle-hyperlinks-in-im-conversations.md)  
 
 
 [Lync Server 2013 で既定の URL フィルターを変更する](lync-server-2013-modify-the-default-url-filter.md)  

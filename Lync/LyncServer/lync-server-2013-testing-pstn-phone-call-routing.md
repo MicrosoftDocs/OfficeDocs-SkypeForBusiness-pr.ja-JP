@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: PSTN 電話の通話ルーティングのテスト'
+title: 'Lync Server 2013: PSTN 通話のルーティングのテスト'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969598
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2dabe54fb2ba4df864d172015efb62ef161c77cb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 750efc8ced1dbb4c048d10c879f0bfa2dd4a4f32
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745597"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050229"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="testing-pstn-phone-call-routing-in-lync-server-2013"></a>Lync Server 2013 での PSTN 電話による通話ルーティングのテスト
+# <a name="testing-pstn-phone-call-routing-in-lync-server-2013"></a>Lync Server 2013 での PSTN 通話のルーティングのテスト
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41745597"
 
 <span> </span>
 
-_**最終更新日:** 2014-11-01_
+_**トピックの最終更新日:** 2014-11-01_
 
 
 <table>
@@ -45,8 +45,8 @@ _**最終更新日:** 2014-11-01_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>確認のスケジュール</p></td>
-<td><p>[毎日]</p></td>
+<td><p>検証スケジュール</p></td>
+<td><p>毎日</p></td>
 </tr>
 <tr class="even">
 <td><p>テストツール</p></td>
@@ -54,8 +54,8 @@ _**最終更新日:** 2014-11-01_
 </tr>
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
-<td><p>Lync Server 管理シェルを使用してローカルで実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使って実行する場合は、 <strong>CsInterTrunkRouting</strong>コマンドレットを実行するためのアクセス許可が与えられている RBAC の役割をユーザーに割り当てる必要があります。 このコマンドレットを使うことができるすべての RBAC ロールの一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合は、 <strong>test-csintertrunkrouting</strong>コマンドレットを実行するためのアクセス許可を持つ RBAC の役割がユーザーに割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsInterTrunkRouting&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +66,7 @@ _**最終更新日:** 2014-11-01_
 
 ## <a name="description"></a>説明
 
-**CsInterTrunkRouting**コマンドレットは、通話がある SIP から別の SIP にルーティングできることを確認します。 これを行うには、コマンドレットに電話番号とトランク構成を指定します。 **CsInterTrunkRouting**は、指定された番号について、一致するルートと一致する PSTN の使用状況を報告します。 Trunks には、指定した電話番号と一致する番号パターンがあり、trunks が少なくとも1つの PSTN 使用を共有している場合のみ、trunks 間で通話をルーティングできます。
+**Test-csintertrunkrouting**コマンドレットは、呼び出しがある SIP から別の SIP にルーティングできることを検証します。 これを行うために、コマンドレットには電話番号とトランク構成が与えられます。 **Test-csintertrunkrouting**は、指定された番号について、一致するルートと一致する PSTN 使用法を報告します。 トランクには、指定された電話番号に一致する番号パターンがあり、トランクが少なくとも1つの PSTN 使用法を共有している場合にのみ、トランク間で通話をルーティングできることに注意してください。
 
 </div>
 
@@ -74,7 +74,7 @@ _**最終更新日:** 2014-11-01_
 
 ## <a name="running-the-test"></a>テストの実行
 
-次に示すコマンドは、ユーザーが Redmond サイトのトランク構成設定を使用して電話番号1-206-555-1219 に発信できるように、一致するルートと一致する電話の使用状況を返します。
+次に示すコマンドは、ユーザーが Redmond サイトのトランク構成設定を使用して電話番号1-206-555-1219 を呼び出せるようにする、一致するルートと一致する電話使用法を返します。
 
     $trunk = Get-CsTrunkConfiguration -Identity "site:Redmond"
     
@@ -84,9 +84,9 @@ _**最終更新日:** 2014-11-01_
 
 <div>
 
-## <a name="determining-success-or-failure"></a>成功または失敗を確認する
+## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
-通話を別の SIP にルーティングできる場合は、次のような出力が表示されます。
+通話がある SIP から別の SIP にルーティングできる場合は、次のような出力が得られます。
 
 FirstMatchingRoute MatchingUsage MatchingRoutes
 
@@ -94,41 +94,41 @@ FirstMatchingRoute MatchingUsage MatchingRoutes
 
 RedmondRoute LocalUsage {RedmondRoute}
 
-テストが成功しなかった場合は、次のような出力が表示されます。
+テストが成功しなかった場合は、次のような出力が得られます。
 
-CsInterTrunkRouting: パラメーターでの引数変換を処理できません
+Test-csintertrunkrouting: パラメーターの引数変換を処理できません
 
-'TrunkConfiguration'. TrunkConfigurationsetting (パラメーター) が無効です。 を指定する
+' Microsoft.rtc.management.writableconfig.settings.trunkconfiguration.trunkconfiguration 型 '。 TrunkConfigurationsetting (パラメーター) が正しくありません。 を指定する
 
-有効な設定 (パラメーター) を入力してからやり直してください。
+有効な設定 (パラメーター) を指定してから、もう一度実行してください。
 
-行: 1 char:79
+行: 1 文字:79
 
-\+CsInterTrunkRouting-TargetNumber "tel: + 12065551219"
+\+Test-csintertrunkrouting-TargetNumber "tel: + 12065551219 など"
 
-\-TrunkConfiguration $t...
+\-Microsoft.rtc.management.writableconfig.settings.trunkconfiguration.trunkconfiguration 型 $t
 
 \+
 
 ~~
 
-\+カテゴリ情報: InvalidData: (:)\[CsInterTrunkRouting\]、Par
+\+カテゴリ情報: InvalidData: (:)\[Test-csintertrunkrouting\]、Par
 
 Ameterbindingargumentの例外
 
 \+FullyQualifiedErrorId: Parameterargumentトランスエラー、Microsoft R
 
-tc.TestOcsInterTrunkRoutingCmdlet を管理します。
+c.TestOcsInterTrunkRoutingCmdlet の管理
 
 </div>
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a>テストに失敗した可能性がある理由
+## <a name="reasons-why-the-test-might-have-failed"></a>テストが失敗した理由
 
-次に **、テスト-CsInterTrunkRouting**が失敗する可能性がある一般的な理由を示します。
+**Test-csintertrunkrouting**が失敗する可能性のある一般的な原因を次に示します。
 
-  - 無効なパラメーターが指定されました。 トランクがまだ正しく構成されておらず、指定されたターゲット番号が間違っているか、無効である可能性があります。
+  - 無効なパラメーターを指定しました。 トランクが正しく構成されていない可能性があり、指定されたターゲット番号が正しくないか、無効である可能性があります。
 
 </div>
 
@@ -137,8 +137,8 @@ tc.TestOcsInterTrunkRoutingCmdlet を管理します。
 ## <a name="see-also"></a>関連項目
 
 
-[Get-CsTrunk](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunk)  
-[Get-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunkConfiguration)  
+[取得-CsTrunk](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunk)  
+[Get-cstrunkconfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunkConfiguration)  
   
 
 </div>

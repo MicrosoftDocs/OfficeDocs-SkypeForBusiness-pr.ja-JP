@@ -1,5 +1,5 @@
 ---
-title: Microsoft Lync Phone Edition デバイスでのサービス品質の設定
+title: Microsoft Lync Phone Edition デバイスでのサービスの品質の構成
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185004
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aa8068b69afa3e02a5634041c61be6f7711e8f30
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4b1dd5fd119022807fbc64218c80e24a33557aa1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734817"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046200"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-quality-of-service-on-microsoft-lync-phone-edition-devices-in-lync-server-2013"></a>Lync Server 2013 での Microsoft Lync Phone Edition デバイスでのサービス品質の設定
+# <a name="configuring-quality-of-service-on-microsoft-lync-phone-edition-devices-in-lync-server-2013"></a>Lync Server 2013 での Microsoft Lync Phone Edition デバイスでのサービスの品質の構成
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41734817"
 
 <span> </span>
 
-_**最終更新日:** 2012-11-01_
+_**トピックの最終更新日:** 2012-11-01_
 
-IPhones などのデバイスでは、サービスの品質 (QoS) は既定で有効になっていませんが、Lync Phone Edition を実行しているデバイスでは既定で QoS が有効になっています。 (これらのデバイスは、一般的に UC またはユニファイドコミュニケーション電話と呼ばれます)。これを確認するには、Lync Server 管理シェルで次の Windows PowerShell コマンドを実行します。
+IPhones などのデバイスでは、サービスの品質 (QoS) は既定で有効になっていませんが、Lync Phone Edition を実行しているデバイスでは既定で QoS が有効になっています。 (これらのデバイスは一般に UC またはユニファイドコミュニケーション電話と呼ばれます)。これを確認するには、Lync Server 管理シェルで次の Windows PowerShell コマンドを実行します。
 
     Get-CsUCPhoneConfiguration
 
-UC 電話構成設定を変更していない場合は、次のような情報が表示されます。
+UC 電話の構成設定を変更していなければ、次のような情報が返されます。
 
     Identity             : Global
     CalendarPollInterval : 00:03:00
@@ -53,43 +53,43 @@ UC 電話構成設定を変更していない場合は、次のような情報�
     Voice8021p           : 0
     LoggingLevel         : Off
 
-サービスの品質を向上させるには、これらのプロパティのいずれか1つだけを VoiceDiffServTag します。 VoiceDiffServTag は、Lync Phone Edition デバイスから emanating ボイストラフィックに割り当てられた DSCP 値を表します。
+これらのプロパティのうち、サービスの品質に関連するのは VoiceDiffServTag だけです。 VoiceDiffServTag は、Lync Phone Edition デバイスからの音声トラフィック emanating に割り当てられた DSCP 値を表します。
 
 <div>
 
 
 > [!NOTE]
-> Voice8021p パラメーターは、Lync Server 2013 ではサポートされなくなりました。 このパラメーターは、Microsoft Lync Server 2010 との下位互換性を維持するために有効です。ただし、Lync Server 2013 で使用されているデバイスには影響はありません。
+> Voice8021p パラメーターは、Lync Server 2013 ではサポートされなくなりました。 このパラメーターは、Microsoft Lync Server 2010 との下位互換性を維持するために有効になっています。ただし、Lync Server 2013 で使用されているデバイスには影響を与えません。
 
 
 
 </div>
 
-ほとんどのネットワークでは、Lync Phone Edition のパケットに40の VoiceDiffServTag をマークすると、問題が発生しないようにする必要があります。 ただし、40は、通常はオーディオトラフィックに使用される値ではありません。代わりに、ほとんどの場合、音声トラフィックは DSCP コード46でマークされます。 ネットワーク全体の一貫性を維持するために、UC 携帯電話の VoiceDiffServTag プロパティを46に変更したい場合があります。
+ほとんどのネットワークでは、Lync Phone Edition のパケットに40の VoiceDiffServTag をマークすると、問題が発生しないようにする必要があります。 音声トラフィックは、ほとんど常に DSCP コード 46 でマーキングされます。 ネットワーク全体の一貫性を確保するために、UC 電話の VoiceDiffServTag プロパティを 46 に変更することをお勧めします。
 
-そのためには、Windows PowerShell または Lync Server コントロールパネルのいずれかを使うことができます。 Windows PowerShell を使用して VoiceDiffServTag の値を変更するには、Lync Server 管理シェルで次のコマンドを実行します。
+これを行うには、Windows PowerShell または Lync Server コントロールパネルのどちらかを使用できます。 Windows PowerShell を使用して VoiceDiffServTag の値を変更するには、Lync Server 管理シェルで次のコマンドを実行します。
 
     Set-CsUCPhoneConfiguration -VoiceDiffServTag 46
 
-上記のコマンドは、UC 電話構成設定のグローバルコレクションを変更します。 ただし、そのような UC の携帯電話の設定をサイトの範囲に割り当てることもできます。 UC 電話構成の設定をサイトの範囲で変更するには、サイト Id を指定する必要があります。 次に例を示します。
+上のコマンドは、UC 電話構成設定のグローバル コレクションを変更します。UC 電話設定は、サイト スコープに割り当てることもできます。UC 電話構成設定をサイト スコープで変更するには、サイト ID を指定する必要があります。次に例を示します。
 
     Set-CsUCPhoneConfiguration -Identity "site:Redmond" -VoiceDiffServTag 46
 
-以下のコマンドを使用して、すべての UC 電話構成設定を同時に変更することもできます。
+次のコマンドを使用して、すべての UC 電話構成設定を同時に変更することもできます。
 
     Get-CsUCPhoneConfiguration | Set-CsUCPhoneConfiguration -VoiceDiffServTag 46
 
-Lync Server コントロールパネルを使用してこの変更を行う場合は、[コントロールパネル] を起動し、次の手順を実行します。
+この変更を Lync Server コントロールパネルを使用して行う場合は、[コントロールパネル] を起動し、次の手順を実行します。
 
-1.  [**クライアント**] をクリックし、[**デバイスの構成**] をクリックします。
+1.  [**クライアント**] をクリックして、[**デバイス構成**] をクリックします。
 
-2.  [**デバイスの構成**] タブで、変更する設定のコレクション ([**グローバル**] など) をダブルクリックします。
+2.  [**デバイス構成**] タブで、変更する設定のコレクションをダブルクリックします ([**グローバル**] など)。
 
-3.  [**デバイス構成の編集**] ダイアログボックスで、[**ボイスの品質 (QoS)** ] ボックスの値を**46**に設定し、[**コミット**] をクリックします。
+3.  [**デバイス構成の編集**] ダイアログ ボックスで、[**音声のサービス品質 (QoS)**] ボックスの値を **46** に設定し、[**確定**] をクリックします。
 
-複数のコレクションがある場合は、UC の電話設定のコレクションごとにこの手順を繰り返す必要があります。 Lync Server コントロールパネルでは、複数の設定コレクションを同時に変更することはできません。
+複数のコレクションがある場合は、UC 電話設定の各コレクションに対してこのプロセスを繰り返す必要があります。 Lync Server コントロールパネルでは、複数の設定コレクションを同時に変更することはできません。
 
-組織内の Windows オペレーティングシステム (iPhones など) に基づいていないデバイスを使用している場合、これらのデバイスは、VoiceDiffServTag 設定の変更によって影響を受けません。 これらのデバイスで DSCP 値を変更する場合は、各デバイスの種類について、管理者マニュアルを参照する必要があります。
+Windows オペレーティング システム ベースではないデバイス (iPhone など) がある場合、VoiceDiffServTag の設定を変更しても、それらのデバイスには影響しません。それらのデバイスの DSCP 値を変更するには、そのデバイスの管理マニュアルを参照する必要があります。
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 51803979
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 34a2dc25aa80e45d7e24f3a91a18b2dd83a4d554
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 307b4d696fdf4348649eb9363d252c7f1d0f8d12
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41751907"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047980"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,31 +35,31 @@ ms.locfileid: "41751907"
 
 <span> </span>
 
-_**最終更新日:** 2013-07-31_
+_**トピックの最終更新日:** 2013-07-31_
 
-このトピックの情報は Lync Server 2013 の累積的な更新プログラム: 2013 年 2 月に関係します。
+このトピックの情報は、Lync Server 2013 の累積的な更新プログラム (2013 年2月) に関連します。
 
-位置情報に基づくルーティングを使用すると、通話中の当事者の位置に基づいて、VoIP エンドポイントと PSTN エンドポイント間での通話のルーティングを制限することができます。 場所に基づくルーティングは、Lync Server 2013 エンタープライズ Voip インフラストラクチャの一部です。 位置情報に基づくルーティングは、Lync Server 2013 CU1 による通話のルーティング方法を制御する通話管理機能です。 通話が、Lync の発信者の地理的な場所に基づいて PBX または PSTN エンドポイントにルーティングされるかどうかについて、通話承認規則が適用されます。
+場所に基づくルーティングを使用すると、通話の当事者の場所に基づいて、VoIP エンドポイントと PSTN エンドポイント間での通話のルーティングを制限することができます。 場所に基づくルーティングは、Lync Server 2013 エンタープライズ Voip インフラストラクチャの一部です。 場所に基づくルーティングは、通話が Lync Server 2013 CU1 によってルーティングされる方法を制御する通話管理機能です。 この方法では、Lync の発信者の地理的な場所に基づいて通話を PBX または PSTN エンドポイントにルーティングできるかどうかについて、通話承認規則が適用されます。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 での位置情報に基づくルーティングの概要](lync-server-2013-overview-of-location-based-routing.md)
+  - [Lync Server 2013 での場所に基づくルーティングの概要](lync-server-2013-overview-of-location-based-routing.md)
 
-  - [Lync Server 2013 の場所に基づくルーティングのガイダンス](lync-server-2013-guidance-for-location-based-routing.md)
+  - [Lync Server 2013 での場所に基づくルーティングのガイダンス](lync-server-2013-guidance-for-location-based-routing.md)
 
-  - [Lync Server 2013 の場所に基づくルーティングのシナリオ](lync-server-2013-scenarios-for-location-based-routing.md)
+  - [Lync Server 2013 での場所に基づくルーティングのシナリオ](lync-server-2013-scenarios-for-location-based-routing.md)
 
-  - [場所に基づくルーティングに関する Lync Server 2013 の技術的考慮事項](lync-server-2013-technical-considerations-for-location-based-routing.md)
+  - [Lync Server 2013 での場所に基づくルーティングに関する技術的考慮事項](lync-server-2013-technical-considerations-for-location-based-routing.md)
 
   - [Lync Server 2013 での場所に基づくルーティングに対するクライアントとサーバーのサポート](lync-server-2013-client-and-server-support-for-location-based-routing.md)
 
-  - [Lync Server 2013 の場所に基づくルーティングでサポートされていない機能](lync-server-2013-capabilities-not-supported-by-location-based-routing.md)
+  - [Lync Server 2013 での場所に基づくルーティングでサポートされていない機能](lync-server-2013-capabilities-not-supported-by-location-based-routing.md)
 
-  - [Lync Server 2013 の場所に基づくルーティングの展開プロセス](lync-server-2013-deployment-process-for-location-based-routing.md)
+  - [Lync Server 2013 での場所に基づくルーティングの展開プロセス](lync-server-2013-deployment-process-for-location-based-routing.md)
 
-  - [Lync Server 2013 での会議の位置情報に基づくルーティング](lync-server-2013-location-based-routing-for-conferencing.md)
+  - [Lync Server 2013 での会議の場所に基づくルーティング](lync-server-2013-location-based-routing-for-conferencing.md)
 
 </div>
 

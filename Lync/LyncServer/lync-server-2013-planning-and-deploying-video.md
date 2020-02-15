@@ -12,16 +12,16 @@ ms:contentKeyID: 48185558
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2662a6397bc096969ca73baab096bc886de65ce3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3938ca54278f71d8f51ecacfe3fdc3278ec59679
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755157"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050259"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41755157"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-02_
+_**トピックの最終更新日:** 2012-10-02_
 
 Lync Server 2013 には、次の新しいビデオ機能が導入されています。
 
-  - **Hd ビデオ**   ユーザーは、2パーティの通話と複数の会議において、完全な高解像度 (HD) (1920 x 1080) までの解像度を体験できます。
+  - **Hd ビデオ**   ユーザーは、2者間の通話とマルチパーティの会議で、最大でフルの高品位 (HD) (1920 x 1080) の解像度を使用できます。
 
-  - **[ギャラリービュー**   ] 2 人以上のユーザーがいるビデオ会議では、ユーザーは会議の参加者のビデオを見ることができます。 会議に5人以上の参加者がいる場合は、最もアクティブな参加者のみのビデオが一番上の行に表示され、他の参加者の写真が表示されます。
+  - **ギャラリービュー**   ビデオ会議に3人以上のユーザーがいる場合、ユーザーは会議の参加者のビデオを見ることができます。 会議に5人以上の参加者がいる場合、一番上の参加者のみのビデオが上の行に表示され、他の参加者に対して写真が表示されます。
 
-  - ****   これで、Lync 2013 クライアント上のビデオをエンコードするための既定値として、264のビデオコーデックが設定されます。 .H ビデオでは、さまざまな解像度とフレームレートをサポートしており、ビデオのスケーラビリティが向上しています。
+  - **(264**   ビデオ) Lync 2013 クライアントのビデオをエンコードするための既定値として、264ビデオコーデックが使用されるようになりました。 H.264 ビデオは、より広範な解像度とフレーム レートをサポートし、ビデオののスケーラビリティを向上させます。
     
     <div>
     
 
     > [!NOTE]  
-    > Lync Server 2013 は、以前のバージョンの Lync との相互運用性を実現するために、引き続き VC1 コーデックをサポートしています。 新しいビデオコーデックの詳細および背景情報については、「Jeff の概要」のブログ記事「Lync 2013 でのビデオの相互<A class=uri href="http://blog.schertz.name/2012/07/video-interoperability-in-lync-2013/">http://blog.schertz.name/2012/07/video-interoperability-in-lync-2013/</A>運用性」を参照してください。
+    > Lync Server 2013 でも、以前のバージョンの Lync との相互運用性のために VC1 コーデックがサポートされています。 新しいビデオコーデックの詳細と背景情報については、「Jeff 氏 Ertz のブログ記事、「Lync 2013 でのビデオ相互<A class=uri href="http://blog.schertz.name/2012/07/video-interoperability-in-lync-2013/">http://blog.schertz.name/2012/07/video-interoperability-in-lync-2013/</A>運用性」、「」を参照してください。
 
     
     </div>
@@ -58,13 +58,13 @@ Lync Server 2013 には、次の新しいビデオ機能が導入されていま
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
   - [Lync Server 2013 でのビデオ帯域幅の構成](lync-server-2013-configuring-video-bandwidth.md)
 
-  - [Lync Server 2013 でギャラリービューを構成する](lync-server-2013-configuring-gallery-view.md)
+  - [Lync Server 2013 でのギャラリービューの構成](lync-server-2013-configuring-gallery-view.md)
 
-  - [ビデオの構成 Lync Server 2013 のシナリオの例](lync-server-2013-configuring-video-example-scenarios.md)
+  - [Lync Server 2013 のビデオサンプルシナリオの構成](lync-server-2013-configuring-video-example-scenarios.md)
 
   - [Lync Server 2013 でのビデオ会議の相互運用性に関する考慮事項](lync-server-2013-interoperability-considerations-for-video-conferencing.md)
 

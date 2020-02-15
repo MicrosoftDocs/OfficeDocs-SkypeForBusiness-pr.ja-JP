@@ -12,20 +12,20 @@ ms:contentKeyID: 48183543
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3bac2433702a90624e3ee4fb865bfb70b6d07d16
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 97b161ab9dce464bdab96432ed909ed48b7df19d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757171"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048301"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="manage-categories"></a>Manage categories
+# <a name="manage-categories"></a>カテゴリを管理する
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41757171"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-06_
+_**トピックの最終更新日:** 2012-10-06_
 
 新しい常設チャットサーバーカテゴリを作成するには
 
@@ -45,22 +45,22 @@ _**最終更新日:** 2012-10-06_
 
 
 > [!IMPORTANT]  
-> PersistentChatPoolFqdn は、常設チャットサーバープールが複数ある場合にのみ必要です。
+> PersistentChatPoolFqdn は、複数の常設チャットサーバープールがある場合にのみ必要になります。
 
 
 
 </div>
 
-既存の常設チャットサーバーカテゴリを変更するには
+既存の常設チャットサーバーカテゴリに変更を加えるには
 
     Set-CsPersistentChatCategory -Identity testCat -AllowedMembers @{Add="sip:user1@contoso.com", "CN=container,DC=contoso,DC=com"}  -DeniedMembers @{Add="sip:user2@contoso.com"}
     Set-CsPersistentChatCategory -Identity testCat -Creators @{Add="sip:user1@contoso.com"}
 
-Windows PowerShell: AllowedMembers、DeniedMembers、およびクリエーターは、同時に設定できます。 作成者は、AllowedMembers-DeniedMembers のサブセットにする必要があります。 カテゴリのプロパティは、メンバーとクリエーターと同時に設定することもできます。
+Windows PowerShell: AllowedMembers、DeniedMembers、およびクリエーターを同時に設定できます。 Creators は、AllowedMembers から DeniedMembers を引いたもののサブセットである必要があります。 メンバーおよび作成者と同時にカテゴリのプロパティも設定できます。
 
 <div>
 
-## <a name="create-get-set-or-remove-a-category"></a>分類を作成、取得、設定、または削除する
+## <a name="create-get-set-or-remove-a-category"></a>カテゴリの作成、取得、設定、または削除
 
 新しいカテゴリを作成するには
 
@@ -74,7 +74,7 @@ Windows PowerShell: AllowedMembers、DeniedMembers、およびクリエーター
 
     Get-CsPersistentChatCategory -PersistentChatPoolFqdn <String>
 
-分類項目を設定するには
+カテゴリを設定するには
 
     Set-CsPersistentChatCategory -Instance <CategoryObject> [-WhatIf] [-Confirm] [<CommonParameters>]
 
@@ -82,7 +82,7 @@ Windows PowerShell: AllowedMembers、DeniedMembers、およびクリエーター
 
     Set-CsPersistentChatCategory [-Identity] <string> [-Name <string>] [-Description <string>] [-Invitations <bool>] [-FileUpload <bool>] [-ChatHistory <bool>] [-AllowedMembers <PSListModifier[string]>] [-DeniedMembers <PSListModifier[string]>] [-Creators <PSListModifier[string]>] [-WhatIf] [-Confirm]  [<CommonParameters>]
 
-分類項目を削除するには
+カテゴリを削除するには
 
     Remove-CsPersistentChatCategory -Instance <CategoryObject> [-Force <Switch Parameter>] [-Confirm <Switch Parameter>]
 

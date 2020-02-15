@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: サーバー ハードウェア プラットフォーム'
+title: Lync Server 2013 サーバーハードウェアプラットフォーム
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185395
 ms.date: 07/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 95c8b0e9b1e13d845672cff07d30b7f2ac1a5b22
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7e352153e4cc2386a159ac11f27f8ba4f5beb09f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764875"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048668"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="server-hardware-platforms-for-lync-server-2013"></a>Lync Server 2013 のサーバー ハードウェア プラットフォーム
+# <a name="server-hardware-platforms-for-lync-server-2013"></a>Lync Server 2013 のサーバーハードウェアプラットフォーム
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41764875"
 
 <span> </span>
 
-_**最終更新日:** 2016-07-28_
+_**トピックの最終更新日:** 2016-07-28_
 
-Lync Server 2013 サーバーの役割と Lync Server 管理ツールを実行しているコンピューターには、64ビットのハードウェアが必要です。
+Lync Server 2013 のサーバーの役割と Lync Server 管理ツールを実行しているコンピューターには、64ビットのハードウェアが必要です。
 
-Lync Server 2013 の展開に使用される特定のハードウェアは、サイズと使用状況の要件によって異なります。 ここでは、推奨ハードウェアについて説明します。 これらは推奨値であり、要件ではありませんが、推奨値を満たさないハードウェアを使用すると、重大なパフォーマンスの問題やその他の問題が発生する可能性があります。
+Lync Server 2013 の展開に使用される特定のハードウェアは、サイズと使用要件に応じて異なる場合があります。 ここでは、推奨ハードウェアについて説明します。 これらは推奨値であり、要件ではありませんが、推奨値を満たさないハードウェアを使用すると、重大なパフォーマンスの問題やその他の問題が発生する可能性があります。
 
 <div>
 
 ## <a name="recommended-hardware-platform"></a>推奨されるハードウェア プラットフォーム
 
-最高のパフォーマンスを得るには、次の表の要件を満たすハードウェアを備えたサーバーで Lync Server を実行することをお勧めします。 性能の低いハードウェアを使用している場合は、機能の問題が発生するか、パフォーマンスが低下することがあります。 これらのハードウェア要件は、以前のバージョンの Lync Server よりも高いことに注意してください。主に、Lync Server 2013 では、すべてのフロントエンドサーバーが SQL Server を実行するためです。
+最適なパフォーマンスを得るために、次の表の要件を満たすハードウェアを備えたサーバーで Lync Server を実行することをお勧めします。 より強力なハードウェアを使用すると、機能に問題が発生したり、パフォーマンスが低下したりする可能性があります。 これらのハードウェア要件は、以前のバージョンの Lync Server よりも高いものであることに注意してください。主に Lync server 2013 では、すべてのフロントエンドサーバーが SQL Server を実行するからです。
 
 <div>
 
 
 > [!NOTE]  
-> NIC チーミングはサポートされているため、Lync Server には透過的である必要があります。 詳細について<A href="http://go.microsoft.com/fwlink/p/?linkid=389910">は、「通信サーバーまたは Lync server とネットワークアダプターチーミング</A>」を参照してください。
+> NIC チーミングはサポートされており、Lync Server に対して透過的である必要があります。 詳細については、「 <A href="http://go.microsoft.com/fwlink/p/?linkid=389910">Communications server または Lync Server とネットワークアダプターチーミング</A>」を参照してください。
 
 
 
 </div>
 
-### <a name="recommended-hardware-for-front-end-servers-back-end-servers-standard-edition-servers-persistent-chat-servers-and-persistent-chat-store-and-persistent-chat-compliance-store-back-end-server-roles-for-persistent-chat-server"></a>フロント エンド サーバー、バック エンド サーバー、Standard Edition サーバー、常設チャット サーバー、常設チャット ストアと常設チャット コンプライアンス ストア (常設チャット サーバーのバック エンド サーバーの役割) の推奨ハードウェア
+### <a name="recommended-hardware-for-front-end-servers-back-end-servers-standard-edition-servers-persistent-chat-servers-and-persistent-chat-store-and-persistent-chat-compliance-store-back-end-server-roles-for-persistent-chat-server"></a>フロントエンドサーバー、バックエンドサーバー、Standard Edition サーバー、常設チャットサーバー、および常設チャットストアと常設チャットコンプライアンスストア (常設チャットサーバーのバックエンドサーバーの役割) に推奨されるハードウェア
 
 <table>
 <colgroup>
@@ -73,30 +73,30 @@ Lync Server 2013 の展開に使用される特定のハードウェアは、サ
 <tbody>
 <tr class="odd">
 <td><p>CPU</p></td>
-<td><p>64 ビット デュアル プロセッサ、6 コア、2.26 GHz 以上。</p>
-<p>Lync Server server の役割では、Intel Itanium プロセッサはサポートされていません。</p></td>
+<td><p>64ビットデュアルプロセッサ、16ビットコア、2.26 ghz 以上。</p>
+<p>Lync Server のサーバーの役割では、Intel Itanium プロセッサはサポートされていません。</p></td>
 </tr>
 <tr class="even">
 <td><p>メモリ</p></td>
-<td><p>32 ギガバイト (GB)</p></td>
+<td><p>32 gb</p></td>
 </tr>
 <tr class="odd">
 <td><p>ディスク</p></td>
 <td><ul>
-<li><p>10,000 RPM のハード ディスク ドライブで 72 GB 以上の空きディスク領域があるものを 8 台以上。</p>
+<li><p>10,000 RPM のハード ディスク ドライブで 72 GB 以上の空きディスク領域があるものを 8 台以上</p>
 <p>ディスクのうち 2 台で RAID 1 を使用し、6 台で RAID 10 を使用する必要があります。</p>
-<p>-/</p></li>
+<p>-や</p></li>
 <li><p>10,000 RPM の機械的ディスク ドライブ 8 台と同等のパフォーマンスを持つソリッド ステート ドライブ (SSD)</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>ネットワーク</p></td>
 <td><ul>
-<li><p>1 Gbps 以上のデュアルポート ネットワーク アダプター 1 つ (2 つを推奨。その場合は 1 つの MAC アドレスと 1 つの IP アドレスのチーミングが必要)</p>
+<li><p>1 Gbps 以上のデュアルポートネットワークアダプター1つ (2 つを推奨、1つの MAC アドレスと単一の IP アドレスのチーミングが必要)。</p>
 <div>
 
 > [!NOTE]  
-> フロントエンドサーバー、バックエンドサーバー、標準エディションサーバー、常設チャットサーバーでは、デュアルホーム構成またはマルチホーム構成はサポートされません。<BR>ILO/DRAC/その他: オペレーティングシステムに公開されず、サーバーハードウェアを監視および管理するために使用される接続は、マルチホームサーバーではなく、サポートされます。
+> デュアルまたはマルチホーム構成は、フロントエンドサーバー、バックエンドサーバー、Standard Edition サーバー、および常設チャットサーバーではサポートされていません。<BR>オペレーティングシステムに公開されておらず、サーバーハードウェアの監視および管理に使用されていない ILO/DRAC/接続は、複数のホームサーバーを構成するものではないため、サポートされています。
 
 
 </div></li>
@@ -123,11 +123,11 @@ Lync Server 2013 の展開に使用される特定のハードウェアは、サ
 <tr class="odd">
 <td><p>CPU</p></td>
 <td><ul>
-<li><p>64ビットデュアルプロセッサ、クアッドコア、2.0 ghz (GHz) 以上。</p>
-<p>-/</p></li>
-<li><p>64ビット4方向プロセッサ、デュアルコア、2.0 GHz 以上。</p></li>
+<li><p>64ビットデュアルプロセッサ、クアッドコア、2.0 ghz またはそれ以上。</p>
+<p>-や</p></li>
+<li><p>64ビット4ウェイプロセッサ、デュアルコア、2.0 GHz またはそれ以上。</p></li>
 </ul>
-<p>Lync Server server の役割では、Intel Itanium プロセッサはサポートされていません。</p></td>
+<p>Lync Server のサーバーの役割では、Intel Itanium プロセッサはサポートされていません。</p></td>
 </tr>
 <tr class="even">
 <td><p>メモリ</p></td>
@@ -136,26 +136,26 @@ Lync Server 2013 の展開に使用される特定のハードウェアは、サ
 <tr class="odd">
 <td><p>ディスク</p></td>
 <td><ul>
-<li><p>1万 RPM 以上のハードディスクドライブ (少なくとも 72 GB の空きディスク領域があります。</p>
-<p>ディスクは 2 x RAID 1 構成である必要があります。</p>
-<p>-/</p></li>
-<li><p>10,000 RPM の機械的ディスク ドライブ 4 台と同等のパフォーマンスを持つソリッド ステート ドライブ (SSD)。</p></li>
+<li><p>1万 RPM のハードディスクドライブのうち、少なくとも 72 GB の空きディスク領域があるものを4台以上。</p>
+<p>ディスクは、RAID 1 の2倍の構成にする必要があります。</p>
+<p>-や</p></li>
+<li><p>10,000 RPM の機械的ディスク ドライブ 4 台と同等のパフォーマンスを持つソリッド ステート ドライブ (SSD)</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>ネットワーク</p></td>
 <td><ul>
-<li><p>1 Gbps 以上のデュアルポート ネットワーク アダプター 1 つ (2 つを推奨。その場合は 1 つの MAC アドレスと 1 つの IP アドレスのチーミングが必要) 2ネットワークインターフェイスはエッジサーバーに必要であり、スタンドアロンの仲介サーバーでサポートされています。</p></li>
+<li><p>1 Gbps 以上のデュアルポートネットワークアダプター1つ (2 つを推奨、1つの MAC アドレスと単一の IP アドレスのチーミングが必要)。 エッジサーバーでは2つのネットワークインターフェイスが必要であり、スタンドアロンの仲介サーバーでサポートされています。</p></li>
 </ul>
 <div>
 
 > [!NOTE]  
-> 2つまたは複数のホーム構成はディレクターに対してサポートされていません。<BR>ILO/DRAC/その他: オペレーティングシステムに公開されず、サーバーハードウェアを監視および管理するために使用される接続は、マルチホームサーバーではなく、サポートされます。
+> ディレクターでは、デュアルまたはマルチホーム構成はサポートされていません。<BR>オペレーティングシステムに公開されておらず、サーバーハードウェアの監視および管理に使用されていない ILO/DRAC/接続は、複数のホームサーバーを構成するものではないため、サポートされています。
 
 
 </div>
-<p>エッジサーバーには、2つのネットワークインターフェイス、1 Gbps 以上 (または2つのペアリングされたネットワークアダプター、1つの MAC アドレスと1つの IP アドレスを持つ各ペア) が必要であり、合計で2組の場合があります。</p>
-<p>特定の PSTN IP アドレスの構成を可能にするための追加のネットワークインターフェイスカード (Nic) のインストールは、スタンドアロンの仲介サーバーでサポートされています。</p></td>
+<p>エッジサーバーでは、2つのネットワークインターフェイス (または、1 Gbps 以上のデュアルポートネットワークアダプター、つまり合計4つのネットワークアダプターが1つの MAC アドレスと1つの IP アドレスでチーミングされ、合計2つのペア) が必要です。</p>
+<p>その他のネットワークインターフェイスカード (Nic) をインストールすると、特定の PSTN IP アドレスの構成がスタンドアロンの仲介サーバーでサポートされます。</p></td>
 </tr>
 </tbody>
 </table>

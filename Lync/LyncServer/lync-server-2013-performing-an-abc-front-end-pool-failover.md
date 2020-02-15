@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ABC フロントエンドプールフェールオーバーの実行'
+title: 'Lync Server 2013: ABC フロントエンドプールのフェールオーバーの実行'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541489
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 155d8224b80e614ac8609c007a16072e9d3a5c60
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9fd0be7bbde714a380473dc8b470437a9fee4cdc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755277"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050319"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="performing-an-abc-front-end-pool-failover-in-lync-server-2013"></a>Lync Server 2013 で ABC フロントエンドプールのフェールオーバーを実行する
+# <a name="performing-an-abc-front-end-pool-failover-in-lync-server-2013"></a>Lync Server 2013 での ABC フロントエンドプールのフェールオーバーの実行
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41755277"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-21_
+_**トピックの最終更新日:** 2013-02-21_
 
-このセクションの2つのトピックでは、lync server 2013 で ABC プールのフェールオーバーを実行する手順について説明します。ここでは、Lync Server のフロントエンドプール A と B がペアリングされていて、pool A が復元できない状態になっています。 この手順を使用して、新しい完全修飾ドメイン名 (FQDN) を使用して、新しいフロントエンドプール C を作成します。 プール C は、失敗したプール A からの情報によって構築されます。この手順には、プール B と C のペアリングも含まれています。
+このセクションの2つのトピックでは、lync server のフロントエンドプール A および B がペアになっていて、プール A が回復不能になった Lync Server 2013 で、ABC プールのフェールオーバーを実行する手順について説明します。 この手順を使用して、新しい完全修飾ドメイン名 (FQDN) を持つ新しいフロントエンドプール C を作成します。 プール C は、障害が発生したプール A からの情報から構築されています。この手順には、プール B と C のペアの組み合わせも含まれます。
 
-  - [Lync Server 2013 での ABC プールフェールオーバーのバックアップの前提条件](lync-server-2013-backup-prerequisites-for-abc-pool-failover.md)
+  - [Lync Server 2013 での ABC プールフェールオーバーのバックアップ前提条件](lync-server-2013-backup-prerequisites-for-abc-pool-failover.md)
 
-  - [Lync Server 2013 フロントエンド プール ABC フェールオーバーの手順](lync-server-2013-front-end-pool-abc-failover-procedure.md)
+  - [Lync Server 2013 のフロントエンドプール ABC フェールオーバーの手順](lync-server-2013-front-end-pool-abc-failover-procedure.md)
 
 </div>
 

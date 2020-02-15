@@ -12,16 +12,16 @@ ms:contentKeyID: 48185227
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cb4b5b73fb74c2337eeaa6b065396253a2cb0be4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e75c8079b4093290846321340b21248b9f8882ab
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731517"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048528"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41731517"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-12_
+_**トピックの最終更新日:** 2012-09-12_
 
 tblADUpdates には、以降の Active Directory 同期手順でまだ処理されていない Active Directory ドメインサービスの変更が含まれています。
 
-### <a name="columns"></a>行
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -50,45 +50,45 @@ tblADUpdates には、以降の Active Directory 同期手順でまだ処理さ�
 <thead>
 <tr class="header">
 <th>列</th>
-<th>型</th>
+<th>種類</th>
 <th>説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>prinGuid</p></td>
-<td><p>GUID、null ではない</p></td>
-<td><p>変更されたオブジェクトのプリンシパル GUID。</p></td>
+<td><p>Principal.pringuid</p></td>
+<td><p>NULL でない GUID</p></td>
+<td><p>変更したオブジェクトのプリンシパル GUID。</p></td>
 </tr>
 <tr class="even">
 <td><p>prinADPath</p></td>
-<td><p>nvarchar (384)、null ではない</p></td>
+<td><p>NULL でない nvarchar (384)</p></td>
 <td><p>オブジェクトの識別名。</p></td>
 </tr>
 <tr class="odd">
-<td><p>Prin属性が変更されました</p></td>
-<td><p>ビット、null ではない</p></td>
-<td><p>オブジェクトの少なくとも1つの属性が変更された場合は True です。</p></td>
+<td><p>Prinattributes 変更</p></td>
+<td><p>NULL でない bit</p></td>
+<td><p>オブジェクトの属性が 1 つ以上変更された場合は True。</p></td>
 </tr>
 <tr class="even">
 <td><p>prinMembersChanged</p></td>
-<td><p>ビット、null ではない</p></td>
-<td><p>メンバーシップが変更された場合は True です。</p></td>
+<td><p>NULL でない bit</p></td>
+<td><p>メンバーシップが変更された場合は True。</p></td>
 </tr>
 <tr class="odd">
 <td><p>prinAffiliationsChanged</p></td>
-<td><p>ビット、null ではない</p></td>
-<td><p>使用されません。</p></td>
+<td><p>NULL でない bit</p></td>
+<td><p>不使用。</p></td>
 </tr>
 <tr class="even">
-<td><p>プリントが削除されました</p></td>
-<td><p>ビット、null ではない</p></td>
+<td><p>prinDeleted</p></td>
+<td><p>NULL でない bit</p></td>
 <td><p>オブジェクトが削除された場合は True。</p></td>
 </tr>
 <tr class="odd">
-<td><p>最終更新日</p></td>
-<td><p>datetime。 null ではありません</p></td>
-<td><p>行が挿入された時刻のタイムスタンプ。</p></td>
+<td><p>lastUpdated</p></td>
+<td><p>NULL でない datetime</p></td>
+<td><p>行が挿入された時点のタイムスタンプ。</p></td>
 </tr>
 </tbody>
 </table>

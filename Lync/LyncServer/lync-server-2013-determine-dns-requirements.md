@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: DNS の要件を確認する'
+title: 'Lync Server 2013: DNS の要件を決定する'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184839
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fd8c1c95c3b8ba3671735447f098eca9173111ba
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 79f1c27f48beddd0c1fd3260193a71bb79b034bd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762485"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049349"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="determine-dns-requirements-for-lync-server-2013"></a>Lync Server 2013 の DNS の要件を確認する
+# <a name="determine-dns-requirements-for-lync-server-2013"></a>Lync Server 2013 の DNS 要件を決定する
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41762485"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-22_
+_**トピックの最終更新日:** 2013-02-22_
 
-次のフローチャートを使用して、ドメインネームシステム (DNS) の要件を確認します。 Lync Server 2013 の累積更新プログラムの変更点については、2013年2月に、それらが適用される場所を示しています。
-
-<div>
-
-
-> [!IMPORTANT]  
-> Microsoft Lync Server 2013 では、IPv6 アドレスの使用がサポートされています。 IPv6 アドレスを使用するには、IPv6 DNS のサポートも提供し、DNS host AAAA ("クアッドコア" と呼ばれます) レコードを構成する必要があります。 IPv4 と IPv6 の両方が使用されている展開では、IPv4 のホスト A レコードと IPv6 用の host AAAA の両方を構成および管理することをお勧めします。 展開が IPv6 に完全に移行されている場合でも、外部ユーザーが IPv4 を使用している場合は IPv4 DNS ホストレコードが必要になることがあります。
-
-
-
-</div>
-
-**DNS 要件フローチャートを決定する**
-
-![175782ace363e4-08 a8-912f2-8991bf152970](images/Gg398758.175782ac-363e-408a-912f-8991bf152970(OCS.15).jpg "175782ace363e4-08 a8-912f2-8991bf152970")
+次のフローチャートを使用して、ドメインネームシステム (DNS) の要件を決定します。 Lync Server 2013 2013 の累積的な更新プログラムの変更点については、該当する場所について説明します。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 既定では、ドメインに参加していないコンピューターのコンピューター名は、完全修飾ドメイン名 (FQDN) ではなく、ホスト名です。 トポロジビルダーでは、ホスト名ではなく Fqdn を使用します。 そのため、エッジ サーバーとして展開する、ドメインに参加していないコンピューターの名前で DNS サフィックスを構成する必要があります。 Lync Server、エッジ サーバー、およびプールの FQDN を割り当てる場合に使用できる文字は、<STRONG>標準文字のみ</STRONG> (A ～ Z、a ～ z、0 ～ 9、およびハイフン) です。 Unicode 文字およびアンダースコアは使用しないでください。 一般に、外部 DNS および公的 CA では、FQDN に非標準文字はサポートされていません (証明書で FQDN を SN に割り当てることが必要になります)。 詳細については、「 <A href="lync-server-2013-configure-dns-host-records.md">Lync Server 2013 の DNS ホストレコードを構成する</A>」を参照してください。
+> Microsoft Lync Server 2013 は、IPv6 アドレスの使用をサポートしています。 IPv6 アドレスを使用するには、IPv6 DNS のサポートを提供し、DNS ホスト AAAA ("クワッド-A") レコードを構成する必要もあります。 IPv4 と IPv6 の両方が使用されている展開では、IPv4 用のホスト A レコードと IPv6 用のホスト AAAA の両方を構成して管理することをお勧めします。 展開が完全に IPv6 に移行している場合でも、外部ユーザーが依然として IPv4 を使用している場合は、IPv4 DNS ホストレコードが必要になることがあります。
+
+
+
+</div>
+
+**DNS 要件の判断フローチャート**
+
+![175782ace363e4-08、912f2-8991bf152970](images/Gg398758.175782ac-363e-408a-912f-8991bf152970(OCS.15).jpg "175782ace363e4-08、912f2-8991bf152970")
+
+<div>
+
+
+> [!IMPORTANT]  
+> 既定では、ドメインに参加していないコンピューターのコンピューター名は、完全修飾ドメイン名 (FQDN) ではなく、ホスト名です。 トポロジビルダーでは、ホスト名ではなく Fqdn を使用します。 そのため、エッジ サーバーとして展開する、ドメインに参加していないコンピューターの名前には、DNS サフィックスを構成する必要があります。 Lync Server、エッジ サーバー、およびプールの FQDN を割り当てる場合に使用できる文字は、<STRONG>標準文字のみ</STRONG> (A ～ Z、a ～ z、0 ～ 9、およびハイフン) です。 Unicode 文字およびアンダースコアは使用しないでください。 一般に、外部 DNS および公的 CA では、FQDN に非標準文字はサポートされていません (証明書で FQDN を SN に割り当てることが必要になります)。 詳細については、「 <A href="lync-server-2013-configure-dns-host-records.md">CONFIGURE DNS Host records For Lync Server 2013</A> 」を参照してください。
 
 
 
@@ -65,11 +65,11 @@ _**最終更新日:** 2013-02-22_
 
 <div>
 
-## <a name="how-lync-clients-locate-services"></a>Lync クライアントがサービスを見つける方法
+## <a name="how-lync-clients-locate-services"></a>Lync クライアントがサービスを検索する方法
 
-Microsoft Lync 2010、Lync 2013、Lync Mobile は、クライアントが Lync Server 2013 でサービスを検索してアクセスする方法に似ています。 重要な例外として、別のサービスの場所のプロセスを使用する Lync Windows ストアアプリがあります。 このセクションでは、自動検出サービスレコードのみを使用して、クライアントがサービスを見つける方法、一連の SRV とホストレコードを使用する従来の方法について、2つのシナリオについて説明します。 デスクトップクライアントの累積更新プログラムによって、DNS の位置情報のプロセスが Lync Server 2010 から変更されるすべてのクライアントについて、DNS クエリのプロセスは、成功したクエリが返されるか、または可能な DNS レコードの一覧がなくなって、最終的なエラーが返されるまで、クライアント。
+Microsoft Lync 2010、Lync 2013、Lync Mobile は、クライアントが Lync Server 2013 でサービスを検索してアクセスする方法に似ています。 注目すべき例外として、異なるサービスの場所のプロセスを使用する Lync Windows ストアアプリがあります。 このセクションでは、クライアントがサービスを検索する方法、最初に一連の SRV およびホストレコードを使用する従来の方法、さらには自動検出サービスレコードのみを使用して、2つのシナリオについて説明します。 デスクトップクライアントへの累積的な更新プログラムを適用すると、すべてのクライアントに対して Lync Server 2010 から DNS の場所のプロセスが変更されます。クエリが正常に返されるか、または使用可能な DNS レコードの一覧が表示されなくなるまで、DNS クエリプロセスは続行され、最後のエラーが返されます。クライアント。
 
-DNS 参照時に Lync Windows ストアアプリを**除く**すべてのクライアントで、SRV レコードが照会され、次の順序でクライアントに返されます。
+DNS 参照中に Lync Windows ストアアプリを**除く**すべてのクライアントについて、SRV レコードが照会され、次の順序でクライアントに返されます。
 
 1.  lyncdiscoverinternal.\<内部\> Web サービスの自動検出サービスのドメイン A (ホスト) レコード
 
@@ -77,35 +77,35 @@ DNS 参照時に Lync Windows ストアアプリを**除く**すべてのクラ�
 
 3.  \_sipinternaltls.\_tcp。\<内部\> TLS 接続のドメイン SRV (サービスロケーター) レコード
 
-4.  \_sipinternal.\_tcp。\<内部\> tcp 接続のドメイン SRV (サービスロケーター) レコード (TCP が許可されている場合にのみ実行)
+4.  \_sipinternal.\_tcp。\<内部\> tcp 接続のドメイン SRV (サービスロケーター) レコード (tcp が許可されている場合にのみ実行)
 
-5.  \_フェデレーション.\_tls。\<外部\> TLS 接続のドメイン SRV (サービスロケーター) レコード
+5.  \_sip.\_tls。\<外部\> TLS 接続のドメイン SRV (サービスロケーター) レコード
 
-6.  sipinternal.\<フロント\>エンドプールまたはディレクターのドメイン A (ホスト) レコード。内部ネットワークでのみ解決可能
+6.  sipinternal.\<フロント\>エンドプールまたはディレクターのドメイン A (ホスト) レコード (内部ネットワーク上でのみ解決可能)
 
-7.  フェデレーション.\<内部\>ネットワーク上のフロントエンドプールまたはディレクターのドメイン A (ホスト) レコード、またはクライアントが外部の場合はアクセスエッジサービス
+7.  sip.\<内部\>ネットワーク上のフロントエンドプールまたはディレクターのドメイン A (ホスト) レコード、またはクライアントが外部にある場合はアクセスエッジサービス
 
-8.  sipexternal.\<クライアント\>が外部の場合のアクセスエッジサービスのドメイン A (ホスト) レコード
+8.  sipexternal.\<クライアント\>が外部にいる場合のアクセスエッジサービスのドメイン A (ホスト) レコード
 
-Lync Windows ストアアプリでは、次の2つのレコードが使用されるため、そのプロセスが完全に変更されます。
+Lync Windows ストアアプリは、2つのレコードを使用するので、プロセスが完全に変更されます。
 
 1.  lyncdiscoverinternal.\<内部\> Web サービスの自動検出サービスのドメイン A (ホスト) レコード
 
 2.  lyncdiscover.\<外部\> Web サービスの自動検出サービスのドメイン A (ホスト) レコード
 
-他のレコードの種類にフォールバックすることはできません。
+他のレコードの種類へのフォールバックはありません。
 
-古いクライアントと比較した場合の新しいクライアントで使用されるメソッドの違いは、自動検出サービスがすべてのサービスを見つけるために推奨される方法です。
+以前のクライアントと比較した新しいクライアントで使用される方法の違いは、自動検出サービスがすべてのサービスを特定するために推奨される方法です。
 
-接続に成功すると、自動検出サービスは、ユーザーのホームプールのすべての Web サービスの Url (IIS のサービス用に作成された仮想ディレクトリによる Mcx と呼ばれます)、Microsoft Lync Web App、Web scheduler Url などを返します。 ただし、内部のモビリティーサービス URL と外部モビリティーサービスの URL は両方とも、外部 Web サービスの FQDN と関連付けられています。 そのため、モバイルデバイスがネットワークの内部と外部のどちらであるかに関係なく、デバイスは常にリバースプロキシ経由で外部のモビリティサービスに接続します。
+接続が成功すると、自動検出サービスはユーザーのホームプールのすべての Web サービス Url を返します。これには、Mobility Service (IIS のサービスに対して作成された仮想ディレクトリによる Mcx を使用)、Microsoft Lync Web App、Web スケジューラの Url が含まれます。 ただし、内部 Mobility Service URL と外部 Mobility Service URL の両方が外部 Web サービスの FQDN に関連付けられています。 そのため、モバイルデバイスがネットワークの内部と外部のどちらにあるかに関係なく、デバイスは常にリバースプロキシ経由でモビリティサービスに接続します。
 
-Lync Server 2013 の累積更新プログラム (2013 年2月) がインストールされている場合、自動検出サービスは、内部/UCWA、外部/UCWA、UCWA への参照も返します。 これらのエントリは、ユニファイドコミュニケーション Web API (UCWA) web コンポーネントを参照します。 現時点では、エントリ "UCWA" のみが使われ、web コンポーネントの URL への参照が提供されています。 UCWA は、Lync 2010 モバイルクライアントで使用される Mcx Mobility サービスではなく、Lync 2013 モバイルクライアントによって使用されます。
+Lync Server 2013 の累積的な更新プログラム (2 月 11 2013 日) がインストールされている場合、自動検出サービスは、Internal/UCWA、External/UCWA、UCWA への参照も返します。 これらのエントリは、統合コミュニケーション Web API (UCWA) web コンポーネントを参照します。 現時点では、エントリ UCWA のみが使用されており、web コンポーネントの URL への参照を提供しています。 UCWA は、lync 2010 モバイルクライアントで使用される Mcx Mobility Service ではなく、Lync 2013 モバイルクライアントによって使用されます。
 
 <div>
 
 
 > [!NOTE]  
-> SRV レコードを作成する場合は、dns SRV レコードが作成された同じドメインで DNS A と AAAA (IPv6 アドレス指定を使用している場合) を参照している必要があることに注意することが重要です。 たとえば、SRV レコードが contoso.com にある場合、A と AAAA (IPv6 アドレス指定を使用している場合) レコードは、fabrikam.com ではできません。
+> SRV レコードを作成する場合、DNS SRV レコードが作成されるのと同じドメインで DNS A および AAAA (IPv6 アドレスを使用している場合) レコードを参照する必要があることを覚えておくことが重要です。 たとえば、SRV レコードが contoso.com にある場合、A および AAAA (IPv6 アドレス指定を使用している場合) レコードは、fabrikam.com ではできません。
 
 
 
@@ -115,7 +115,7 @@ Lync Server 2013 の累積更新プログラム (2013 年2月) がインスト�
 
 
 > [!TIP]  
-> 既定の構成では、すべてのモバイルクライアントトラフィックが外部サイト経由で転送されます。 必要に応じて、内部 URL のみを返すように設定を変更できます。 この構成では、ユーザーは、企業ネットワーク内にいる場合にのみ、モバイルデバイスで Lync モバイルアプリケーションを使うことができます。 この構成を定義するには、 <STRONG>Set-CsMcxConfiguration</STRONG>コマンドレットを使います。
+> 既定の構成では、すべてのモバイルクライアントトラフィックを外部サイト経由で転送します。 要件に適している場合は、設定を変更して内部 URL のみを返すようにできます。 この構成では、ユーザーは企業ネットワークの内部にいる場合にのみ、モバイルデバイスで Lync mobile アプリケーションを使用できます。 この構成を定義するには、 <STRONG>Set-CsMcxConfiguration</STRONG>コマンドレットを使用します。
 
 
 
@@ -125,19 +125,19 @@ Lync Server 2013 の累積更新プログラム (2013 年2月) がインスト�
 
 
 > [!NOTE]  
-> モバイルアプリケーションは、アドレス帳サービスなどの他の Lync Server 2013 サービスに接続することもできますが、内部のモバイルアプリケーション web 要求は、Mobility Service の場合にのみ外部 web FQDN に送信されます。 アドレス帳要求などの他のサービス要求では、この構成は必要ありません。
+> モバイルアプリケーションは、アドレス帳サービスなどの他の Lync Server 2013 サービスに接続することもできますが、内部モバイルアプリケーション web 要求は、Mobility Service に対してのみ外部 web FQDN に送られます。 その他のサービス要求 (アドレス帳要求など) では、この構成は必要ありません。
 
 
 
 </div>
 
-モバイルデバイスでは、サービスの手動での検出がサポートしています。 この場合、各ユーザーは、次のように、完全な内部および外部の自動検出サービスの Uri を使用して、モバイルデバイスの設定を構成する必要があります。
+モバイルデバイスは、サービスの手動検出をサポートしています。 この場合、各ユーザーは、次のように、完全な内部および外部の自動検出サービス Uri (プロトコルとパスを含む) でモバイルデバイスの設定を構成する必要があります。
 
-  - 外部\<アクセス用の\>Https://extpoolfqdn/Autodiscover/autodiscoverservice.svc/Root
+  - 外部\<アクセス用の\>Https://extpoolfqdn/autodiscover/autodiscoverservice.svc/root (
 
   - 内部\<アクセス用の\>Https://intpoolfqdn/AutoDiscover/AutoDiscover.svc/Root
 
-手動検出ではなく、自動検出を使用することをお勧めします。 ただし、手動の設定は、モバイルデバイスの接続問題のトラブルシューティングに役立ちます。
+手動検出ではなく、自動検出を使用することをお勧めします。 ただし、手動の設定は、モバイルデバイスの接続の問題のトラブルシューティングに役立ちます。
 
 </div>
 
@@ -145,55 +145,55 @@ Lync Server 2013 の累積更新プログラム (2013 年2月) がインスト�
 
 ## <a name="configuring-split-brain-dns-with-lync-server"></a>Lync Server でのスプリットブレイン DNS の構成
 
-スプリットブレイン dns は、複数の名前によって認識されます。たとえば、分割 DNS や分割ホライズン DNS などです。 単に、同じ名前空間を持ち、1つの DNS ゾーンサービスの内部専用要求と、他の DNS ゾーンサービスの外部専用要求を持つ2つの DNS ゾーンがある DNS 構成について説明します。 ただし、内部 DNS に含まれる DNS SRV と A レコードの多くは、外部 DNS には含まれておらず、逆も同様です。 内部と外部の両方の DNS (たとえば、www.contoso.com) に同じ DNS レコードが存在する場合、返される IP アドレスは、クエリが開始された場所 (内部または外部) によって異なります。
+スプリットブレイン DNS は、分割 DNS またはスプリットホライズン DNS など、さまざまな名前で認識されます。 単純に、同じ名前空間を持つ2つの DNS ゾーンがあり、DNS ゾーンサービスの内部のみの要求、およびその他の DNS ゾーンサービスの外部専用要求がある DNS 構成について説明します。 ただし、内部 DNS に含まれる DNS SRV および A レコードの多くは、外部 DNS には含まれず、逆の場合も同様です。 内部および外部 DNS の両方に同じ DNS レコードが存在する場合 (たとえば、www.contoso.com)、返される IP アドレスは、クエリが開始された場所 (内部または外部) によって異なります。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 現時点では、モビリティ、特に LyncDiscover と LyncDiscoverInternal の DNS レコードについては、スプリットブレイン DNS はサポートされていません。 LyncDiscover は外部 DNS サーバーで定義され、LyncDiscoverInternal は内部 DNS サーバーで定義されている必要があります。
+> 現時点では、LyncDiscover および LyncDiscoverInternal DNS レコードに対して、スプリットブレイン DNS はサポートされていません。 LyncDiscover は、外部 DNS サーバーで定義されている必要があり、LyncDiscoverInternal は内部 DNS サーバーで定義されている必要があります。
 
 
 
 </div>
 
-これらのトピックでは、「split ブレインという用語を使用します。
+これらのトピックでは、スプリットブレイン DNS という用語が使用されます。
 
-分割ブレイン DNS を構成している場合、次の内部と外部のゾーンには、各ゾーンで必要な DNS レコードの種類の概要が含まれています。 詳細については、「 [Lync Server 2013 での外部ユーザーアクセスのシナリオ](lync-server-2013-scenarios-for-external-user-access.md)」を参照してください。
+スプリットブレイン DNS を構成している場合は、次の内部および外部ゾーンに、各ゾーンで必要な DNS レコードの種類の概要が含まれています。 詳細については、「 [Lync Server 2013 の外部ユーザーアクセスのシナリオ](lync-server-2013-scenarios-for-external-user-access.md)」を参照してください。
 
 **内部 DNS:**
 
-  - 権限のある contoso.com という名前の DNS ゾーンが含まれています。
+  - 権限がある contoso.com という名前の DNS ゾーンが含まれています。
 
-  - 内部 contoso.com ゾーンには、次の内容が含まれます。
+  - 内部 contoso.com ゾーンには、次のものが含まれます。
     
-      - DNS A と AAAA (IPv6 アドレスを使用している場合)、および内部の Lync Server 2013 クライアント用の SRV レコード (オプション)
+      - 内部 Lync Server 2013 クライアントの自動構成用の DNS A および AAAA (IPv6 アドレスを使用している場合) および SRV レコード (オプション)
     
-      - Lync Server 2013 Web サービスを自動検出するための DNS A と AAAA (IPv6 アドレスを使用している場合) または CNAME レコード (オプション)
+      - Lync Server 2013 Web サービスの自動検出用の DNS A および AAAA (IPv6 アドレスを使用している場合) または CNAME レコード (オプション)
     
-      - フロントエンドプール名、監督またはディレクターのプール名、および企業ネットワーク内の Lync Server 2013 を実行しているすべての内部サーバーについて、DNS A および AAAA (IPv6 アドレス指定を使用している場合)
+      - フロントエンドプール名、ディレクターまたはディレクターのプール名、および企業ネットワークで Lync Server 2013 を実行しているすべての内部サーバーの DNS A および AAAA (IPv6 アドレス指定を使用している場合) レコード
     
-      - DNS A and AAAA (IPv6 アドレス指定を使用している場合) 境界ネットワークの各 Lync Server 2013 のエッジサーバーの Edge 内部インターフェイスのレコード
+      - 境界ネットワーク内の各 Lync Server 2013 のエッジ内部インターフェイスの DNS A および AAAA (IPv6 アドレスを使用している場合) レコード
     
-      - DNS A and AAAA (IPv6 アドレス指定を使用している場合) 境界ネットワーク内の各リバースプロキシサーバーの内部インターフェイスのレコード (リバースプロキシの場合はオプション)
+      - 境界ネットワーク内の各リバースプロキシサーバーの内部インターフェイスの DNS A および AAAA (IPv6 アドレスを使用している場合) レコード (リバースプロキシの管理の場合はオプション)
     
-      - すべての Lync Server 2013 Edge Server 境界ネットワーク内の内部境界インターフェイスは、contoso.com へのクエリを解決するために内部 DNS ゾーンを使用します。
+      - 境界ネットワーク内のすべての Lync Server 2013 エッジサーバー内部エッジインターフェイスは、contoso.com へのクエリを解決するために内部 DNS ゾーンを使用します。
     
-      - 企業ネットワークの lync 2013 を実行しているすべての2013サーバーは、contoso.com に対してクエリを解決するための内部 DNS サーバー、または各エッジサーバー上の HOSTS ファイルの使用をポイントします (IPv6 アドレス指定を使用している場合)次ホップサーバー、具体的にはディレクターまたはディレクター VIP、フロントエンドプール VIP、または Standard Edition サーバー
+      - 企業ネットワーク内の Lync Server 2013 を実行2013しているすべてのサーバーは、内部 DNS サーバーを参照して contoso.com へのクエリを解決するか、各エッジサーバーで HOSTS ファイルを使用し、リスト A と AAAA (IPv6 アドレス指定を使用している場合) レコードを参照します。次ホップサーバー、特にディレクターまたはディレクター VIP、フロントエンドプール VIP、または Standard Edition サーバー
 
 **外部 DNS:**
 
-  - 権限のある contoso.com という名前の DNS ゾーンが含まれています。
+  - 権限がある contoso.com という名前の DNS ゾーンが含まれています。
 
-  - 外部 contoso.com ゾーンには、次の内容が含まれます。
+  - 外部 contoso.com ゾーンには、次のものが含まれます。
     
-      - DNS A と AAAA (IPv6 アドレス指定を使用している場合)、および Lync Server 2013 クライアントの自動構成の SRV レコード (オプション)
+      - Lync Server 2013 クライアントの自動構成用の DNS A および AAAA (IPv6 アドレスを使用している場合) および SRV レコード (オプション)
     
-      - DNS A および AAAA (IPv6 アドレスを使用している場合) または CNAME レコードを使って、モビリティで使用するために Lync Server 2013 Web サービスを自動的に検出する
+      - モビリティで使用する Lync Server 2013 Web サービスの自動検出用の DNS A および AAAA (IPv6 アドレスを使用している場合) または CNAME レコード
     
-      - 境界ネットワークの各 Lync Server 2013、エッジサーバー、またはハードウェアロードバランサー仮想 IP (VIP) のエッジ外部インターフェイス用の DNS A および AAAA (IPv6 アドレス指定を使用している場合) および SRV レコード
+      - 境界ネットワーク内の各 Lync Server 2013、エッジサーバーまたはハードウェアロードバランサー仮想 IP (VIP) のエッジ外部インターフェイスの DNS A および AAAA (IPv6 アドレスを使用している場合) および SRV レコード
     
-      - DNS A and AAAA (IPv6 アドレス指定を使用している場合)、境界ネットワーク内のリバースプロキシサーバーのプールに対するリバースプロキシサーバーまたは VIP の外部インターフェイスのレコード
+      - 境界ネットワーク内のリバースプロキシサーバーの外部インターフェイスの DNS A および AAAA (IPv6 アドレス指定を使用している場合)、または VIP の外部インターフェイスのレコード
 
 </div>
 
@@ -201,38 +201,38 @@ Lync Server 2013 の累積更新プログラム (2013 年2月) がインスト�
 
 ## <a name="automatic-configuration-without-split-brain-dns"></a>スプリットブレイン DNS なしの自動構成
 
-内部の DNS ゾーンに\_sipinternaltls が含まれている場合は、スプリットブレイン DNS を使用して、内部でサインインしている Lync Server 2013 ユーザーは自動構成を利用できます。\_使用中の各 SIP ドメインの tcp SRV レコード。 ただし、スプリットブレイン DNS を使っていない場合は、このセクションの後半で説明する回避策のいずれかが実装されていない限り、Lync を実行しているクライアントの内部自動構成は機能しません。 これは、Lync Server 2013 では、自動構成用に指定されたフロントエンドプールのドメインと一致するようにユーザーの SIP URI が必要であるためです。 これは、以前のバージョンの Communicator の場合にも当てはまります。
+内部 DNS ゾーンに\_sipinternaltls が含まれている場合は、スプリットブレイン DNS を使用して内部にサインインする Lync Server 2013 ユーザーが自動構成を利用できます。\_使用中の各 SIP ドメインの tcp SRV レコード。 ただし、スプリットブレイン DNS を使用しない場合は、このセクションで後述する回避策のいずれかが実装されていなければ、Lync を実行しているクライアントの内部自動構成は機能しません。 これは、Lync Server 2013 では、ユーザーの SIP URI が自動構成用に指定されたフロントエンドプールのドメインと一致する必要があるためです。 これは、以前のバージョンの Communicator の場合と同じです。
 
 たとえば、2つの SIP ドメインが使用されている場合、次の DNS サービス (SRV) レコードが必要になります。
 
-  - ユーザーが bob@contoso.com としてサインインした場合、ユーザーの SIP ドメイン (contoso.com) が自動構成のフロントエンドプールのドメインと一致するため、次の SRV レコードが自動構成で動作します。
+  - ユーザーが bob@contoso.com としてサインインすると、ユーザーの SIP ドメイン (contoso.com) が自動構成フロントエンドプールのドメインと一致するため、次の SRV レコードが自動構成に対して機能します。
     
-     \_sipinternaltls.\_tcp.contoso.com。 86400 IN SRV 0 0 5061 pool01.contoso.com
+     \_sipinternaltls.\_tcp.contoso.com。 SRV 0 0 5061 pool01.contoso.com の86400
 
-  - ユーザーが alice@fabrikam.com としてサインインした場合、次の DNS SRV レコードは、2つ目の SIP ドメインの自動構成に使用できます。
+  - ユーザーが alice@fabrikam.com としてサインインしている場合、次の DNS SRV レコードは、2番目の SIP ドメインの自動構成に使用できます。
     
-     \_sipinternaltls.\_tcp.fabrikam.com。 86400 IN SRV 0 0 5061 pool01.fabrikam.com
+     \_sipinternaltls.\_tcp.fabrikam.com。 SRV 0 0 5061 pool01.fabrikam.com の86400
 
-比較のために、ユーザーが tim@litwareinc.com としてサインインした場合、次の DNS SRV レコードは、プールが存在するドメイン (fabrikam.com) と一致しないため、自動構成では動作しません。
+比較のために、ユーザーが tim@litwareinc.com としてサインインする場合、次の DNS SRV レコードは自動構成では機能しません。クライアントの SIP ドメイン (litwareinc.com) は、プールが存在するドメイン (fabrikam.com) と一致しないためです。
 
- \_sipinternaltls.\_tcp.litwareinc.com。 86400 IN SRV 0 0 5061 pool01.fabrikam.com
+ \_sipinternaltls.\_tcp.litwareinc.com。 SRV 0 0 5061 pool01.fabrikam.com の86400
 
-Lync を実行しているクライアントで自動構成が必要な場合は、次のいずれかのオプションを選択します。
+Lync を実行しているクライアントに対して自動構成が必要な場合は、次のいずれかのオプションを選択します。
 
-  - **グループポリシー**   オブジェクトでは、グループポリシーオブジェクト (gpo) を使って正しいサーバー値を入力します。
+  - **グループポリシーオブジェクト**   はグループポリシーオブジェクト (gpo) を使用して、適切なサーバーの値を設定します。
     
     <div>
     
 
     > [!NOTE]  
-    > このオプションでは、自動構成は有効ではありませんが、手動構成のプロセスを自動化するため、この方法を使う場合、自動構成に関連付けられている SRV レコードは必要ありません。
+    > このオプションは自動構成を有効にしませんが、手動構成のプロセスを自動化するので、この方法を使用した場合、自動構成に関連付けられている SRV レコードは必要ありません。
 
     
     </div>
 
-  - **一致する内部ゾーン**   外部 dns ゾーンと一致する内部 dns (contoso.com など) に、自動構成で使用される Lync Server 2013 プールに対応する dns a および AAAA を作成します (IPv6 アドレス指定を使用している場合)。 たとえば、ユーザーが pool01.contoso.net をホームにしていて、bob@contoso.com として Lync にサインインしている場合は、pool01.contoso.com の DNS A と AAAA (IPv6 アドレスが使用される場合) レコードを作成します。
+  - **[内部ゾーン**   の一致] 外部 dns ゾーンに一致する内部 dns (contoso.com など) にゾーンを作成し、自動構成に使用される Lync Server 2013 プールに対応する DNS a および AAAA (IPv6 アドレスを使用している場合) のレコードを作成します。 たとえば、ユーザーが pool01.contoso.net に所属しているが、bob@contoso.com として Lync にサインインしている場合は、pool01.contoso.com の DNS A および AAAA (IPv6 アドレスを使用する場合) レコードを作成します。
 
-  - **ピンポイント内部ゾーン**   内部 DNS でゾーン全体を作成する場合は、自動構成に必要な SRV レコードに対応するピンポイント (専用) ゾーンを作成して、それらのゾーンについては、「nuget.exe」を使用して設定できます。 DNS ユーザーインターフェイスでは、ピンポイントゾーンの作成がサポートされていないため、Dnscmd が必要です。 たとえば、SIP ドメインが contoso.com で、2つのフロントエンドサーバーを含む pool01 というフロントエンドプールがある場合、次のピンポイントゾーンと内部 DNS 内のレコードが必要です。
+  - **ピンポイント内部ゾーン**   内部 DNS でゾーン全体を作成するのではない場合、自動構成に必要な SRV レコードに対応する pin ポイント (つまり専用) のゾーンを作成し、それらのゾーンに dnscmd を使用して設定することができます。 DNS ユーザーインターフェイスはピンポイントゾーンの作成をサポートしていないため、Dnscmd は必要です。 たとえば、SIP ドメインが contoso.com、2台のフロントエンドサーバーを含む pool01 というフロントエンドプールがある場合は、次のピンポイントゾーンと内部 DNS 内のレコードが必要です。
     
         dnscmd . /zoneadd _sipinternaltls._tcp.contoso.com. /dsprimary
         dnscmd . /recordadd _sipinternaltls._tcp.contoso.com. @ SRV 0 0 5061 pool01.contoso.com.
@@ -242,7 +242,7 @@ Lync を実行しているクライアントで自動構成が必要な場合は
         dnscmd . /recordadd pool01.contoso.com. @ A 192.168.10.91 
         dnscmd . /recordadd pool01.contoso.com. @ AAAA <IPv6 address>
     
-    環境に2つ目の SIP ドメイン (たとえば、fabrikam.com) が含まれている場合は、次のピンポイントゾーンと内部 DNS 内のレコードが必要です。
+    環境に2番目の SIP ドメイン (たとえば、fabrikam.com) が含まれている場合は、次のピンポイントゾーンと内部 DNS 内のレコードが必要です。
     
         dnscmd . /zoneadd _sipinternaltls._tcp.fabrikam.com. /dsprimary
         dnscmd . /recordadd _sipinternaltls._tcp.fabrikam.com. @ SRV 0 0 5061 pool01.fabrikam.com.
@@ -256,19 +256,19 @@ Lync を実行しているクライアントで自動構成が必要な場合は
 
 
 > [!NOTE]  
-> フロントエンドプールの FQDN は2回表示されますが、2つの異なる IP アドレスがあります。 これは、DNS の負荷分散が使用されるためですが、ハードウェアの負荷分散が使用されている場合は、1つのフロントエンドプールエントリしかありません。 また、contoso.com の例と fabrikam.com の例では、フロントエンドプールの FQDN 値が変更されますが、IP アドレスは変わりません。 これは、ユーザーがいずれかの SIP ドメインからサインインしているため、自動構成で同じフロントエンドプールを使用しているためです。
+> フロントエンドプールの FQDN は2回表示されますが、2つの異なる IP アドレスがあります。 これは、DNS 負荷分散が使用されているためですが、ハードウェア負荷分散が使用されている場合は、フロントエンドプールのエントリが1つだけになります。 また、フロントエンドプールの FQDN 値は contoso.com の例と fabrikam.com の例で異なりますが、IP アドレスは同じままです。 これは、ユーザーがどちらかの SIP ドメインからサインインし、自動構成に同じフロントエンドプールを使用するためです。
 
 
 
 </div>
 
-詳細については、DMTF のブログ記事「Communicator の自動構成とスプリットブレイン DNS (英語[http://go.microsoft.com/fwlink/p/?linkId=200707](http://go.microsoft.com/fwlink/p/?linkid=200707))」を参照してください。
+詳細については、「DMTF のブログ記事、「Communicator 自動構成」、および「スプリット[http://go.microsoft.com/fwlink/p/?linkId=200707](http://go.microsoft.com/fwlink/p/?linkid=200707)ブレイン DNS」 () を参照してください。
 
 <div>
 
 
 > [!NOTE]  
-> 各ブログの内容と URL は、将来予告なしに変更されることがあります。
+> 各ブログのコンテンツおよびその URL は予告なしに変更されることがあります。
 
 
 
@@ -278,11 +278,11 @@ Lync を実行しているクライアントで自動構成が必要な場合は
 
 <div>
 
-## <a name="configuring-the-domain-name-system-dns-for-disaster-recovery"></a>障害回復のためにドメインネームシステム (DNS) を構成する
+## <a name="configuring-the-domain-name-system-dns-for-disaster-recovery"></a>障害復旧のためのドメインネームシステム (DNS) の構成
 
-Lync Server 2013 Web トラフィックを災害回復とフェールオーバーサイトにリダイレクトするように DNS を構成するには、GeoDNS をサポートする DNS プロバイダーを使用している必要があります。 Web 用の DNS レコードを設定して、フロントエンドプール全体が停止している場合でも、Web サービスを使う機能が継続されるようにすることができます。 この障害回復機能は、自動検出 (Lyncdiscover URL)、会議、ダイヤルインの単純な Url をサポートしています。
+Lync Server 2013 Web トラフィックを障害回復およびフェールオーバーサイトにリダイレクトするように DNS を構成するには、GeoDNS をサポートする DNS プロバイダーを使用している必要があります。 障害復旧をサポートするために Web 用の DNS レコードをセットアップすることができます。これにより、フロントエンドプール全体がダウンした場合でも、Web サービスを使用する機能が続行されます。 この障害復旧機能は、自動検出 (Lyncdiscover URL)、会議、およびダイヤルインの簡易 Url をサポートします。
 
-GeoDNS プロバイダーの Web サービスの内部および外部の解決に、追加の DNS ホスト (IPv6 を使用する場合は A と AAAA) レコードを定義して構成します。 次の情報は、ラウンドロビン DNS を使用してプロバイダーがサポートしているペアリングプール、地理的に分散した GeoDNS、または Pool1 をプライマリとして使用するように構成されている場合、または通信の損失またはハードウェアの障害が発生した場合に、Pool2 にフェールオーバーすることを前提とします。
+GeoDNS プロバイダーの Web サービスの内部および外部の解決に、追加の DNS ホスト (A および AAAA を使用している場合は AAAA) レコードを定義して構成します。 次の詳細は、ラウンドロビン DNS を使用してプロバイダーがサポートしているペアプール、地理的に分散されている、および GeoDNS を想定しているか、または Pool1 をプライマリとして使用するように構成するか、または通信の損失やハードウェアの障害が発生した場合に Pool2 にフェールオーバーします。
 
 
 <table>
@@ -297,7 +297,7 @@ GeoDNS プロバイダーの Web サービスの内部および外部の解決�
 <th>GeoDNS レコード (例)</th>
 <th>プールレコード (例)</th>
 <th>CNAME レコード (例)</th>
-<th>DNS 設定 (オプションを 1 つ選択する)</th>
+<th>DNS 設定 (1 つのオプションを選択)</th>
 </tr>
 </thead>
 <tbody>
@@ -305,72 +305,72 @@ GeoDNS プロバイダーの Web サービスの内部および外部の解決�
 <td><p>Meet-int.geolb.contoso.com</p></td>
 <td><p>Pool1InternalWebFQDN.contoso.com</p>
 <p>Pool2InternalWebFQDN.contoso.com</p></td>
-<td><p>エイリアス Meet.contoso.com を Pool1InternalWebFQDN.contoso.com に指定</p>
-<p>エイリアス Meet.contoso.com を Pool2InternalWebFQDN.contoso.com に指定</p></td>
-<td><p>プール間のラウンド ロビン</p>
+<td><p>Meet.contoso.com alias から Pool1InternalWebFQDN.contoso.com</p>
+<p>Meet.contoso.com alias から Pool2InternalWebFQDN.contoso.com</p></td>
+<td><p>プール間のラウンドロビン</p>
 <p>プライマリを使用し、障害が発生した場合はセカンダリに接続する</p></td>
 </tr>
 <tr class="even">
 <td><p>Meet-ext.geolb.contoso.com</p></td>
 <td><p>Pool1ExternalWebFQDN.contoso.com</p>
 <p>Pool2ExternalWebFQDN.contoso.com</p></td>
-<td><p>エイリアス Meet.contoso.com を Pool1ExternalWebFQDN.contoso.com に指定</p>
-<p>エイリアス Meet.contoso.com を Pool2ExternalWebFQDN.contoso.com に指定</p></td>
-<td><p>プール間のラウンド ロビン</p>
+<td><p>Meet.contoso.com alias から Pool1ExternalWebFQDN.contoso.com</p>
+<p>Meet.contoso.com alias から Pool2ExternalWebFQDN.contoso.com</p></td>
+<td><p>プール間のラウンドロビン</p>
 <p>プライマリを使用し、障害が発生した場合はセカンダリに接続する</p></td>
 </tr>
 <tr class="odd">
 <td><p>Dialin-int.geolb.contoso.com</p></td>
 <td><p>Pool1InternalWebFQDN.contoso.com</p>
 <p>Pool2InternalWebFQDN.contoso.com</p></td>
-<td><p>エイリアス Dialin.contoso.com を Pool1InternalWebFQDN.contoso.com に指定</p>
-<p>エイリアス Dialin.contoso.com を Pool2InternalWebFQDN.contoso.com に指定</p></td>
-<td><p>プール間のラウンド ロビン</p>
+<td><p>Dialin.contoso.com alias から Pool1InternalWebFQDN.contoso.com</p>
+<p>Dialin.contoso.com alias から Pool2InternalWebFQDN.contoso.com</p></td>
+<td><p>プール間のラウンドロビン</p>
 <p>プライマリを使用し、障害が発生した場合はセカンダリに接続する</p></td>
 </tr>
 <tr class="even">
 <td><p>Dialin-ext.geolb.contoso.com</p></td>
 <td><p>Pool1ExternalWebFQDN.contoso.com</p>
 <p>Pool2ExternalWebFQDN.contoso.com</p></td>
-<td><p>エイリアス Dialin.contoso.com を Pool1ExternalWebFQDN.contoso.com に指定</p>
-<p>エイリアス Dialin.contoso.com を Pool2ExternalWebFQDN.contoso.com に指定</p></td>
-<td><p>プール間のラウンド ロビン</p>
+<td><p>Dialin.contoso.com alias から Pool1ExternalWebFQDN.contoso.com</p>
+<p>Dialin.contoso.com alias から Pool2ExternalWebFQDN.contoso.com</p></td>
+<td><p>プール間のラウンドロビン</p>
 <p>プライマリを使用し、障害が発生した場合はセカンダリに接続する</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lyncdiscoverint-int.geolb.contoso.com</p></td>
 <td><p>Pool1InternalWebFQDN.contoso.com</p>
 <p>Pool2InternalWebFQDN.contoso.com</p></td>
-<td><p>エイリアス Lyncdiscoverinternal.contoso.com を Pool1InternalWebFQDN.contoso.com に指定</p>
-<p>エイリアス Lyncdiscoverinternal.contoso.com を Pool2InternalWebFQDN.contoso.com に指定</p></td>
-<td><p>プール間のラウンド ロビン</p>
+<td><p>Lyncdiscoverinternal.contoso.com alias から Pool1InternalWebFQDN.contoso.com</p>
+<p>Lyncdiscoverinternal.contoso.com alias から Pool2InternalWebFQDN.contoso.com</p></td>
+<td><p>プール間のラウンドロビン</p>
 <p>プライマリを使用し、障害が発生した場合はセカンダリに接続する</p></td>
 </tr>
 <tr class="even">
 <td><p>Lyncdiscover-ext.geolb.contoso.com</p></td>
 <td><p>Pool1ExternalWebFQDN.contoso.com</p>
 <p>Pool2ExternalWebFQDN.contoso.com</p></td>
-<td><p>エイリアス Lyncdiscover.contoso.com を Pool1ExternalWebFQDN.contoso.com に指定</p>
-<p>エイリアス Lyncdiscover.contoso.com を Pool2ExternalWebFQDN.contoso.com に指定</p></td>
-<td><p>プール間のラウンド ロビン</p>
+<td><p>Lyncdiscover.contoso.com alias から Pool1ExternalWebFQDN.contoso.com</p>
+<p>Lyncdiscover.contoso.com alias から Pool2ExternalWebFQDN.contoso.com</p></td>
+<td><p>プール間のラウンドロビン</p>
 <p>プライマリを使用し、障害が発生した場合はセカンダリに接続する</p></td>
 </tr>
 <tr class="odd">
 <td><p>Scheduler-int.geolb.contoso.com</p></td>
 <td><p>Pool1InternalWebFQDN.contoso.com</p>
 <p>Pool2InternalWebFQDN.contoso.com</p></td>
-<td><p>エイリアス Scheduler.contoso.com を Pool1InternalWebFQDN.contoso.com に指定</p>
-<p>エイリアス Scheduler.contoso.com を Pool2InternalWebFQDN.contoso.com に指定</p></td>
-<td><p>プール間のラウンド ロビン</p>
+<td><p>Scheduler.contoso.com alias から Pool1InternalWebFQDN.contoso.com</p>
+<p>Scheduler.contoso.com alias から Pool2InternalWebFQDN.contoso.com</p></td>
+<td><p>プール間のラウンドロビン</p>
 <p>プライマリを使用し、障害が発生した場合はセカンダリに接続する</p></td>
 </tr>
 <tr class="even">
 <td><p>Scheduler-ext.geolb.contoso.com</p></td>
 <td><p>Pool1ExternalWebFQDN.contoso.com</p>
 <p>Pool2ExternalWebFQDN.contoso.com</p></td>
-<td><p>エイリアス Scheduler.contoso.com を Pool1ExternalWebFQDN.contoso.com に指定</p>
-<p>エイリアス Scheduler.contoso.com を Pool2ExternalWebFQDN.contoso.com に指定</p></td>
-<td><p>プール間のラウンド ロビン</p>
+<td><p>Scheduler.contoso.com alias から Pool1ExternalWebFQDN.contoso.com</p>
+<p>Scheduler.contoso.com alias から Pool2ExternalWebFQDN.contoso.com</p></td>
+<td><p>プール間のラウンドロビン</p>
 <p>プライマリを使用し、障害が発生した場合はセカンダリに接続する</p></td>
 </tr>
 </tbody>
@@ -381,13 +381,13 @@ GeoDNS プロバイダーの Web サービスの内部および外部の解決�
 
 <div>
 
-## <a name="dns-load-balancing"></a>DNS Load Balancing
+## <a name="dns-load-balancing"></a>DNS 負荷分散
 
-DNS の負荷分散は、通常、アプリケーションレベルで実装されます。 アプリケーション (たとえば、Lync を実行しているクライアント) は、プールの完全修飾ドメイン名 (FQDN) に対する DNS A と AAAA (IPv6 アドレスが使用されている場合) から返される IP アドレスのいずれかに接続して、プール内のサーバーに接続しようとします。
+DNS 負荷分散は、通常、アプリケーションレベルで実装されます。 アプリケーション (たとえば、Lync を実行しているクライアント) は、プールの完全修飾ドメイン名 (FQDN) の DNS A および AAAA (IPv6 アドレスが使用されている場合) レコードクエリから返された IP アドレスの1つに接続して、プール内のサーバーへの接続を試行します。
 
-たとえば、pool01.contoso.com という名前のプールに3台のフロントエンドサーバーがある場合は、次のような処理が行われます。
+たとえば、pool01.contoso.com という名前のプールに3つのフロントエンドサーバーがある場合、次の処理が行われます。
 
-  - Lync を実行しているクライアントは、pool01.contoso.com に対して DNS を照会します。 このクエリでは、3つの IP アドレスが返され、次のようにキャッシュされます (この順序で行う必要はありません)。
+  - Pool01.contoso.com の Lync クエリ DNS を実行しているクライアント。 このクエリは3つの IP アドレスを返し、次のようにキャッシュします (この順序では必ずしも同じではありません)。
     
     pool01.contoso.com 192.168.10.90
     
@@ -395,45 +395,45 @@ DNS の負荷分散は、通常、アプリケーションレベルで実装さ�
     
     pool01.contoso.com 192.168.10.92
 
-  - クライアントは、いずれかの IP アドレスへの伝送制御プロトコル (TCP) 接続を確立しようとします。 この問題が発生した場合、クライアントはキャッシュ内の次の IP アドレスを試します。
+  - クライアントは、IP アドレスの1つに対して伝送制御プロトコル (TCP) 接続を確立しようとします。 失敗した場合、クライアントはキャッシュ内の次の IP アドレスを試行します。
 
-  - TCP 接続が成功した場合、クライアントは TLS のネゴシエーションを行い、pool01.contoso.com のプライマリ レジストラーに接続します。
+  - TCP 接続が成功した場合、クライアントは TLS のネゴシエーションを行い、pool01.contoso.com 上のプライマリレジストラーに接続します。
 
-  - クライアントがすべてのキャッシュエントリを正常に接続していない場合、ユーザーには Lync Server 2013 を実行しているサーバーが現時点で利用できないことが通知されます。
+  - 接続が正常に行われなかったすべてのエントリをクライアントが試行すると、その時点で Lync Server 2013 を実行しているサーバーが利用できないことがユーザーに通知されます。
 
 <div>
 
 
 > [!NOTE]  
-> DNS ベースの負荷分散は、通常は dns に依存して、プール内のサーバーに対応する異なる順序の IP アドレスを提供することによって、負荷分散を意味します。 通常、DNS RR では、読み込みの配布のみが可能ですが、フェールオーバーは有効になりません。 たとえば、DNS A と AAAA によって返される1つの IP アドレスへの接続 (IPv6 アドレスを使っている場合) クエリが失敗すると、接続は失敗します。 したがって、DNS によるラウンドロビンは、DNS ベースの負荷分散よりも信頼性が低くなります。 Dns ラウンドロビンと DNS の負荷分散を併用できます。
+> Dns ベースの負荷分散は、通常、dns に依存して、プール内のサーバーに対応する異なる順序で IP アドレスを提供することによって負荷分散を参照する dns ラウンドロビン (DNS RR) とは異なります。 通常、DNS RR は負荷分散のみを有効にしますが、フェールオーバーを有効にしません。 たとえば、DNS A および AAAA (IPv6 アドレス指定を使用している場合) によって返された1つの IP アドレスへの接続が失敗すると、接続は失敗します。 そのため、DNS ラウンドロビン自体は、DNS ベースの負荷分散よりも信頼性が低くなります。 Dns ラウンドロビンを DNS 負荷分散と組み合わせて使用することができます。
 
 
 
 </div>
 
-DNS の負荷分散は、次の場合に使用されます。
+DNS 負荷分散は次のように使用されます。
 
   - エッジサーバーへのサーバー間 SIP の負荷分散
 
-  - 会議の自動応答、返信グループ、コールパークなどの統合コミュニケーションアプリケーションサービス (UCAS) アプリケーションのロードバランシング
+  - 会議の自動応答、応答グループ、コールパークなどの統合コミュニケーションアプリケーションサービス (UCAS) アプリケーションの負荷分散
 
-  - アプリケーション ("ドレイン" とも呼ばれます) としての新しい接続の無効化
+  - アプリケーション ("ドレイン" とも呼ばれる) として UCAS の新しい接続を禁止する
 
-  - クライアントとエッジサーバー間のすべてのクライアント間トラフィックの負荷分散
+  - クライアントとエッジサーバー間のクライアントとサーバー間のすべてのトラフィックの負荷分散
 
-DNS の負荷分散は、次の用途では使用できません。
+DNS 負荷分散は、次のような場合には使用できません。
 
-  - ディレクターまたはフロントエンドサーバーへのクライアント対サーバー web トラフィック
+  - ディレクターまたはフロントエンドサーバーへのクライアントからサーバーへの web トラフィック
 
-DNS の負荷分散とフェデレーショントラフィック:
+DNS 負荷分散とフェデレーショントラフィック:
 
-DNS SRV クエリによって複数の DNS レコードが返される場合、アクセスエッジサービスは常に、最も低い数値の優先度と最大の数値の重みで DNS SRV レコードを選びます。 インターネットエンジニアリングタスクは、"サービスの場所を指定するための DNS RR" を強制します<http://www.ietf.org/rfc/rfc2782.txt> 。複数の DNS SRV レコードが定義されている場合は、priority が最初に使用され、次に重みが使われることを指定します。 たとえば、DNS SRV レコード A の配点は20で、優先度は40で、DNS SRV レコード B の重みは10で、もう1つは50の優先順位です。 優先順位40の DNS SRV レコード A が選択されます。 DNS SRV レコードの選択には、次のルールが適用されます。
+DNS SRV クエリによって複数の DNS レコードが返される場合、アクセスエッジサービスは常に、最も低い数値の優先度と最大の数値を持つ DNS SRV レコードを選択します。 「サービスの場所を指定するための DNS RR」というインターネット技術標準化のタスク強制ドキュメント<http://www.ietf.org/rfc/rfc2782.txt> 。複数の dns srv レコードが定義されている場合、優先度が最初に使用され、次に重みが設定されることを指定します。 たとえば、DNS SRV レコード A の重みは20で、優先度は40、DNS SRV レコード B の重みは10、優先度は50です。 優先度40の DNS SRV レコード A が選択されます。 DNS SRV レコードの選択には、次のルールが適用されます。
 
-  - 優先度は最初に考慮されます。 クライアントは、DNS SRV レコードによって定義されたターゲットホストに連絡して、到達可能な最も低い優先順位を持つ必要があります。 同じ優先順位のターゲットは、[加重] フィールドで定義された順序で試す必要があります。
+  - 優先度が最初に考慮されます。 クライアントは、DNS SRV レコードによって定義されているターゲットホストに、到達可能な最小番号の優先度を持つ接続を試みる必要があります。 同じ優先度を持つターゲットは、weight フィールドで定義された順序で試行する必要があります。
 
-  - [加重] フィールドでは、同じ優先度のエントリの相対的な重みを指定します。 重みを大きくすると、より高い確率で選択されます。 サーバーが選択されていない場合、DNS 管理者はウエイト0を使用する必要があります。 加重値が0より大きいレコードが存在する場合、重み付けが0のレコードは、非常に少ない確率で選択される可能性があります。
+  - [重み] フィールドには、同じ優先度を持つエントリの相対的な重みを指定します。 重みが大きいほど、選択される可能性が高くなります。 DNS 管理者は、サーバーが選択されていない場合はウエイト0を使用する必要があります。 0より大きい加重値を持つレコードが存在する場合、重み付けが0のレコードは、選択される可能性が非常に低くなります。
 
-優先度が同じ複数の DNS SRV レコードが返される場合、アクセスエッジサービスによって、DNS サーバーから最初に受信された SRV レコードが選択されます。
+優先度と重みが同じ複数の DNS SRV レコードが返された場合、アクセスエッジサービスは最初に DNS サーバーから受信した SRV レコードを選択します。
 
 </div>
 

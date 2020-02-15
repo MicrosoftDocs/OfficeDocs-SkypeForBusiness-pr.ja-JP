@@ -12,16 +12,16 @@ ms:contentKeyID: 48185538
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 96740d8937f1548952d41d5674ef3e66cd29e2b6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 41d739ae79998fe3dbf3acadba2b2f480a960a30
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756711"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046280"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41756711"
 
 <span> </span>
 
-_**最終更新日:** 2012-11-01_
+_**トピックの最終更新日:** 2012-11-01_
 
-Lync Server 2013 では、完全修飾ドメイン名 (FQDN) が異なる場合でも、1つのプールから別のプールに応答グループを移動するための新しいコマンドレットのサポートが導入されています。
+Lync Server 2013 は、完全修飾ドメイン名 (FQDN) が異なる場合でも、あるプールから別のプールに応答グループを移動するための新しいコマンドレットのサポートを導入しました。
 
-次の手順を使用して、1つのフロントエンドプールから別の FQDN で応答グループを別のフロントエンドプールに移動します。
+次の手順を使用して、応答グループを1つのフロントエンドプールから別の FQDN の別のフロントエンドプールに移動します。
 
 <div>
 
@@ -53,11 +53,11 @@ Lync Server 2013 では、完全修飾ドメイン名 (FQDN) が異なる場合�
 
 <div>
 
-## <a name="to-move-response-groups-to-a-pool-with-a-different-fqdn"></a>応答グループを別の FQDN のプールに移動するには
+## <a name="to-move-response-groups-to-a-pool-with-a-different-fqdn"></a>応答グループを異なる FQDN を持つプールに移動するには
 
-1.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+1.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
-2.  ソースプールの応答グループをエクスポートします。 コマンドラインで、次のように入力します。
+2.  移動元のプール内の応答グループをエクスポートします。コマンドラインで、次のように入力します。
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:<source FQDN>" -FileName "<export file name>"
     
@@ -65,17 +65,17 @@ Lync Server 2013 では、完全修飾ドメイン名 (FQDN) が異なる場合�
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:source.contoso.com" -FileName "C:\RgsExportSource.zip"
     
-    エクスポート中にソースプールから応答グループを削除するには、– RemoveExportedConfiguration パラメーターを含めます。 次に例を示します。
+    エクスポート中に移動元のプールから応答グループを削除するには、–RemoveExportedConfiguration パラメーターを含めます。たとえば、次のように入力します。
     
         Export-CsRgsConfiguration -Source ApplicationServer:source.contoso.com -FileName "C:\RgsExportSource.zip" -RemoveExportedConfiguration
 
-3.  宛先プールに応答グループをインポートして、新しい所有者として宛先プールを割り当てます。 コマンド ラインで次を入力します。
+3.  応答グループを移動先のプールにインポートし、移動先のプールを新しい所有者として割り当てます。コマンドラインで、次のように入力します。
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:<destination pool>" -FileName "<export file name>" -OverwriteOwner
     
-    応答グループのアプリケーションレベルの設定をソースプールから移行先のプールにコピーする必要がある場合は、– ReplaceExistingRgsSettings パラメーターを含めます。 プールごとに1つのアプリケーションレベルの設定のみを定義できます。 ソースプールからターゲットプールにアプリケーションレベルの設定をコピーすると、ソースプールの設定が移行先のプールの設定と置き換わります。 ソースプールからアプリケーションレベルの設定をコピーしない場合、移行先プールの既存の設定はインポートされた応答グループに適用されます。
+    応答グループのアプリケーションレベルの設定をソースプールから移行先のプールにコピーする場合は、-ReplaceExistingRgsSettings パラメーターを含めます。 プールごとにアプリケーションレベルの設定のセットを 1 つだけ定義できます。 アプリケーションレベルの設定をソース プールから転送先プールにコピーする場合は、転送先プールの設定がソース プールの設定に置き換えられます。 アプリケーションレベルの設定をソース プールからコピーしない場合は、転送先プールの既存の設定が、インポートされた応答グループに適用されます。
     
-    次に例を示します。
+    例:
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:destination.contoso.com" -FileName "C:\RgsExportSource.zip" -OverwriteOwner -ReplaceExistingRgsSettings
     
@@ -83,42 +83,42 @@ Lync Server 2013 では、完全修飾ドメイン名 (FQDN) が異なる場合�
     
 
     > [!NOTE]  
-    > アプリケーションレベルの設定には、既定の音楽保留の構成、既定の音楽の保留中のオーディオファイル、エージェントの ringback の猶予期間、通話コンテキストの構成が含まれます。 これらの構成設定を表示するには、 <STRONG>Get-CsRgsConfiguration</STRONG>コマンドレットを実行します。 このコマンドレットの詳細については、「 <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration">Get-CsRgsConfiguration</A>」を参照してください。
+    > アプリケーションレベルの設定には、既定の保留音の構成、既定の保留音の音声ファイル、エージェント リングバックの猶予期間、および通話コンテキストの構成が含まれます。 これらの構成を表示するには、<STRONG>Get-CsRgsConfiguration</STRONG> コマンドレットを実行します。 このコマンドレットの詳細については、「 <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration">get-help</A>」を参照してください。
 
     
     </div>
 
-4.  インポートされた応答グループの構成を表示してインポートが正常に完了したことを確認するには、次の操作を行います。
+4.  次の操作を実行してインポートされた応答グループの構成を表示することにより、インポートが成功したことを確認します。
     
-      - すべてのワークフローがインポートされたことを確認します。 コマンドラインで、次のように入力します。
+      - すべてのワークフローがインポートされたことを確認します。コマンドラインで、次のように入力します。
         
             Get-CsRgsWorkflow -Identity "service:ApplicationServer:<destination pool FQDN>"
     
-      - すべてのキューがインポートされたことを確認します。 コマンドラインで、次のように入力します。
+      - すべてのキューがインポートされたことを確認します。コマンドラインで、次のように入力します。
         
             Get-CsRgsQueue -Identity "service:ApplicationServer:<destination pool FQDN>"
     
-      - すべてのエージェントグループがインポートされたことを確認します。 コマンドラインで、次のように入力します。
+      - すべてのエージェント グループがインポートされたことを確認します。コマンドラインで、次のように入力します。
         
             Get-CsRgsAgentGroup -Identity "service:ApplicationServer:<destination pool FQDN>"
     
-      - すべての勤務時間がインポートされたことを確認します。 コマンドラインで、次のように入力します。
+      - すべての営業時間がインポートされたことを確認します。コマンドラインで、次のように入力します。
         
             Get-CsRgsHoursOfBusiness -Identity "service:ApplicationServer:<destination pool FQDN>" 
     
-      - すべての休日セットがインポートされたことを確認します。 コマンドラインで、次のように入力します。
+      - すべての休日セットがインポートされたことを確認します。コマンドラインで、次のように入力します。
         
             Get-CsRgsHolidaySet -Identity "service:ApplicationServer:<destination pool FQDN>" 
 
-5.  応答グループの1つに通話を発信し、通話が正しく処理されていることを確認して、インポートが成功したことを確認します。
+5.  応答グループの 1 つに電話をかけ、通話が正しく処理されることを確認して、インポートが正常に完了したことを確認します。
 
-6.  送信先のプールのエージェントグループにサインインするために、正式なエージェントグループのメンバーであるエージェントを要求します。
+6.  公式エージェント グループのメンバーであるエージェントに、移動先のプール内のエージェント グループにサインインするように要求します。
 
-7.  ソースプールから応答グループを削除していない場合は、ソースプールから応答グループを削除します。 コマンドラインで、次のように入力します。
+7.  前の手順で移動元のプールから応答グループを削除しなかった場合は、移動元のプールから応答グループを削除します。コマンドラインで、次のように入力します。
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:<source pool FQDN> -RemoveExportedConfiguration -FileName "<temporary export file name>"
     
-    例:
+    次に例を示します。
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:source.contoso.com" -RemoveExportedConfiguration -FileName "C:\TempRGsConfiguration.zip"
 

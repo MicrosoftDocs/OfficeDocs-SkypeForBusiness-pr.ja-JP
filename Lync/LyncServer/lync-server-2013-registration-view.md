@@ -12,20 +12,20 @@ ms:contentKeyID: 49733718
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 120f0cb40bb3401a327e495a460db400a9359891
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a7418c5aa80e35d783517a86626dd2b77a393e1d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746847"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050709"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="registration-view-in-lync-server-2013"></a>Lync Server 2013 に表示される登録情報
+# <a name="registration-view-in-lync-server-2013"></a>Lync Server 2013 の登録ビュー
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41746847"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-01_
+_**トピックの最終更新日:** 2012-10-01_
 
-登録ビューには、ユーザー登録に関する情報が格納されます。 このビューは、Lync Server 2013 で導入されました。
+登録ビューでは、ユーザー登録に関する情報を格納します。 このビューは、Lync Server 2013 で導入されました。
 
 
 <table>
@@ -55,135 +55,135 @@ _**最終更新日:** 2012-10-01_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>セッション Id</strong></p></td>
-<td><p>datetime</p></td>
-<td><p>セッション要求の時刻。 セッションを一意に識別するために SessionIdSeq と組み合わせて使用されます。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a>」を参照してください。</p></td>
+<td><p><strong>SessionIdTime</strong></p></td>
+<td><p>日付型</p></td>
+<td><p>セッション要求の時間。 セッションを一意に識別するために SessionIdSeq と組み合わせて使用されます。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a>」を参照してください。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>SessionIdSeq</strong></p></td>
+<td><p><strong>Sessionidseq と</strong></p></td>
 <td><p>int</p></td>
-<td><p>セッションを識別する ID 番号。 セッションを一意に識別するために SessionIdTime と組み合わせて使用されます。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a>」を参照してください。</p></td>
+<td><p>セッションを識別するための ID 番号。 セッションを一意に識別するために SessionIdTime と組み合わせて使用されます。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a>」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RegisterTime</strong></p></td>
-<td><p>datetime</p></td>
-<td><p>登録が発生した時刻。</p></td>
+<td><p>日付型</p></td>
+<td><p>登録が発生した時間。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserUri</strong></p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>登録されたユーザーの URI。</p></td>
+<td><p>登録したユーザーの URI</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>UserUriType</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p><strong>Useruritoff</strong></p></td>
+<td><p>nvarchar (256)</p></td>
 <td><p>登録したユーザーの URI の種類。 詳細については、「 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 の UriTypes テーブル</a>」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserTenant</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>登録したユーザーのテナント。 詳細については、「 <a href="lync-server-2013-tenants-table.md">Lync Server 2013 のテナントの一覧</a>」を参照してください。</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>登録したユーザーのテナント ID。 詳細については、「 <a href="lync-server-2013-tenants-table.md">Lync Server 2013 のテナントの表</a>」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>EndpointId</strong></p></td>
-<td><p>長さ</p></td>
-<td><p>登録されているユーザーのエンドポイントの一意の識別子。</p></td>
+<td><p>識別子</p></td>
+<td><p>ユーザーの登録に使用するエンドポイントの一意の識別子。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Endポインタ a</strong></p></td>
-<td><p>長さ</p></td>
-<td><p>同じユーザーと同じエンドポイントを含む登録を区別するために使用される一意の識別子。</p></td>
+<td><p><strong>Endポインター a</strong></p></td>
+<td><p>識別子</p></td>
+<td><p>同じユーザーおよび同じエンドポイントが含まれる登録を区別するための一意の識別子。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DeRegisterType</strong></p></td>
-<td><p>datetime</p></td>
-<td><p>登録解除が行われた時刻。</p></td>
+<td><p>日付型</p></td>
+<td><p>登録解除が発生した時間。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DeRegisterReason</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td><p>登録解除の理由。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ClientVersion</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>登録したユーザーによって使用されたクライアントのバージョン。</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>登録したユーザーが使用しているクライアントのバージョン。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ClientType</strong></p></td>
 <td><p>int</p></td>
-<td><p>登録したユーザーによって使用されたクライアント。 詳細については、「 <a href="lync-server-2013-useragentdef-table.md">Lync Server 2013 の Useragentdef テーブル</a>」を参照してください。</p></td>
+<td><p>登録したユーザーが使用しているクライアント。 詳細については、「 <a href="lync-server-2013-useragentdef-table.md">Lync Server 2013 の Useragentdef テーブル</a>」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ClientCategory</strong></p></td>
 <td><p>nvarchar (64)</p></td>
-<td><p>登録されたユーザーによって使用されたクライアントのカテゴリです。</p></td>
+<td><p>登録したユーザーが使用しているクライアントのカテゴリ。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Ip</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>ユーザーが登録した IP アドレス。 これは IPv4 または IPv6 アドレスである可能性があります。</p></td>
+<td><p><strong>IpAddress</strong></p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>ユーザーが登録した IP アドレス。 これは、IPv4 または IPv6 のアドレスである場合があります。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>この Id</strong></p></td>
+<td><p><strong>DialogId</strong></p></td>
 <td><p>varstring (775)</p></td>
-<td><p>SIP ダイアログ ID。 の形式は次のとおりです。</p>
-<p>ダイアログ; 開始タグからタグへ</p></td>
+<td><p>SIP ダイアログ ID。形式は次のとおりです。</p>
+<p>dialog、from タグ、およびタグ</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>返信</strong></p></td>
+<td><p><strong>ResponseCode</strong></p></td>
 <td><p>int</p></td>
-<td><p>セッション招待状への SIP 応答コード。 通常、このフィールドは、セッションの最初の INVITE メッセージから生成されたデータによって設定されます。 招待メッセージがない場合は、最初に関連する SIP メッセージ (BYE、キャンセル、メッセージ、または情報) の日付と時刻がフィールドに設定されています。</p></td>
+<td><p>セッションへの招待に対する SIP 応答コード。このフィールドには通常、セッションの最初の INVITE メッセージから生成されるデータが設定されます。INVITE メッセージがない場合は、フィールドには、最初の関連する SIP メッセージ (BYE、CANCEL、MESSAGE、または INFO) の日時が設定されます。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DiagnosticId</strong></p></td>
 <td><p>int</p></td>
-<td><p>SIP ヘッダーからキャプチャされた診断 ID。</p></td>
+<td><p>SIP ヘッダーから取得された診断 ID。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>レジストラー</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td><p>レジストラーの FQDN。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Pool</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td><p>セッションのデータをキャプチャしたプールの FQDN。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>EdgeServer</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>登録されたユーザーによって使用されたエッジサーバーの FQDN。</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>登録したユーザーが使用しているエッジ サーバーの FQDN。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>IsInternal</strong></p></td>
-<td><p>bit</p></td>
+<td><p>若干</p></td>
 <td><p>ユーザーが内部ネットワークからログオンしているかどうかを示します。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IsUserServiceAvailable</strong></p></td>
-<td><p>bit</p></td>
-<td><p>登録時に UserService が利用可能であったかどうかを示します。</p></td>
+<td><p>若干</p></td>
+<td><p>登録時に UserService が使用可能であったかどうかを示します。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>IsPrimaryRegistrar</strong></p></td>
-<td><p>bit</p></td>
-<td><p>登録がプライマリレジストラーであったかどうかを示します。</p></td>
+<td><p>若干</p></td>
+<td><p>登録がプライマリ レジストラーを使用して行われたかどうかを示します。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DeviceMacAddress</strong></p></td>
 <td><p>bigint</p></td>
-<td><p>登録されているデバイスの MAC アドレス。</p></td>
+<td><p>登録されたデバイスの MAC アドレス。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DeviceManufacturer</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>登録されているデバイスの製造元。 詳細については、「 <a href="lync-server-2013-manufacturers-table.md">Lync Server 2013 の製造元の表</a>」を参照してください。</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>登録されたデバイスの製造元。 詳細については、「 <a href="lync-server-2013-manufacturers-table.md">Lync Server 2013 の製造元</a>」の表を参照してください。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>DeviceHardwareVersion</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>登録されているデバイスのハードウェアバージョン。 詳細については、「 <a href="lync-server-2013-hardwareversions-table.md">Lync Server 2013 のハードウェアバージョンの表</a>」を参照してください。</p></td>
+<td><p><strong>Deviceハードウェアバージョン</strong></p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>登録されたデバイスのハードウェア バージョン。 詳細については、「 <a href="lync-server-2013-hardwareversions-table.md">Lync Server 2013 のハードウェアバージョン表</a>」を参照してください。</p></td>
 </tr>
 </tbody>
 </table>

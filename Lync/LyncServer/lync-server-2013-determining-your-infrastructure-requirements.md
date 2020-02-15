@@ -12,20 +12,20 @@ ms:contentKeyID: 48185780
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d9a90b1e2b79532273b9035bc6614aa5bdd2ff96
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d5446972b10bd761cb5958dbfc2a3762698e4311
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762465"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049319"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="determining-your-infrastructure-requirements-for-lync-server-2013"></a>Lync Server 2013 に関するインフラストラクチャ要件の決定
+# <a name="determining-your-infrastructure-requirements-for-lync-server-2013"></a>Lync Server 2013 のインフラストラクチャ要件の決定
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41762465"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-10_
+_**トピックの最終更新日:** 2012-09-10_
 
-展開に必要なインフラストラクチャの要件を特定して理解しておく必要があるため、これらの要件を満たす方法を計画してから、Lync Server を展開する必要があります。
+Lync Server を展開する前に、これらの要件を満たす方法を計画できるように、展開のインフラストラクチャ要件を特定し、理解する必要があります。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 システム要件の決定](lync-server-2013-determining-your-system-requirements.md)
+  - [Lync Server 2013 のシステム要件を決定する](lync-server-2013-determining-your-system-requirements.md)
 
-  - [Lync Server 2013 に関する Active Directory インフラストラクチャの要件](lync-server-2013-active-directory-infrastructure-requirements.md)
+  - [Lync Server 2013 の Active Directory インフラストラクチャの要件](lync-server-2013-active-directory-infrastructure-requirements.md)
 
-  - [Lync Server 2013 の証明書インフラストラクチャの要件](lync-server-2013-certificate-infrastructure-requirements.md)
+  - [Lync Server 2013 の証明書インフラストラクチャ要件](lync-server-2013-certificate-infrastructure-requirements.md)
 
-  - [Lync Server 2013 のインターネット インフォメーション サービス (IIS) の要件](lync-server-2013-internet-information-services-iis-requirements.md)
+  - [Lync Server 2013 のインターネットインフォメーションサービス (IIS) の要件](lync-server-2013-internet-information-services-iis-requirements.md)
 
 </div>
 

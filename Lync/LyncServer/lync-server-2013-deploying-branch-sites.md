@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ブランチ サイトの展開'
+title: 'Lync Server 2013: ブランチサイトの展開'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183483
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: facfda5d1d7ce67ea08f71cbfb943792eeced7a1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: edacf70cf4a8b899857864c400fa92f78bb0d94b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729507"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049519"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-branch-sites-in-lync-server-2013"></a>Lync Server 2013 でのブランチ サイトの展開
+# <a name="deploying-branch-sites-in-lync-server-2013"></a>Lync Server 2013 でのブランチサイトの展開
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "41729507"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-21_
+_**トピックの最終更新日:** 2012-09-21_
 
-ブランチサイトユーザーは、ブランチサイトが関連付けられているセントラルサイトのサーバーから、Lync Server 2013 のほとんどの機能を利用できます。 各ブランチサイトは、1つのセントラルサイトと関連付けられます。 公衆交換電話網 (PSTN) との間で通話を発信するには、ブランチサイトに次のいずれかを含めることができます。
+ブランチサイトユーザーは、ブランチサイトが関連付けられている中央サイトのサーバーから Lync Server 2013 の機能の大部分を取得します。 各ブランチ サイトは、1 つだけのセントラル サイトに関連付けられています。 公衆交換電話網 (PSTN) へ、または公衆交換電話網 (PSTN) からの通話を提供するため、ブランチ サイトは次のいずれかを含みます。
 
-  - PSTN ゲートウェイと、おそらく Meditation Server
+  - PSTN ゲートウェイおよび場合によっては仲介サーバー
 
   - SIP トランク
 
-  - 構内交換 (PBX) を使用する既存の音声インフラストラクチャ
+  - 構内交換機 (PBX) と既存の音声インフラストラクチャ
 
-  - Survivable Branch アプライアンス
+  - 存続可能ブランチアプライアンス
 
-  - Survivable ブランチサーバー
+  - 存続可能ブランチサーバー
 
-Survivable Branch Appliance または Survivable ブランチサーバーを使用しているブランチサイトでは、このようなソリューションを使用することなく、広域ネットワークまたはセントラルサイトの障害が発生した場合よりも高い弾力性があります。 たとえば、Survivable Branch Appliance または Survivable Branch Server が展開されているサイトでは、ブランチサイトをセントラルサイトに接続しているネットワークがダウンしている場合でも、ユーザーは PSTN 通話の発信と受信を行うことができます。 ブランチサイトの回復性を実現するもう1つの方法として、PSTN ゲートウェイまたは SIP トランクを使用して、ブランチサイトでのフルスケールの Lync Server 展開を利用することができます。
+存続可能 Branch Appliance または存続可能ブランチサーバーを使用するブランチサイトでは、これらのソリューションのいずれも含まれていないブランチサイトと比べて、広域ネットワークまたは中央サイトの障害が発生する時間での復元が向上します。 たとえば、存続可能 Branch Appliance または存続可能 Branch Server が展開されているサイトでは、ブランチサイトを中央サイトに接続しているネットワークがダウンしている場合でも、ユーザーは PSTN 通話を発信および受信できます。 ブランチサイトの復元を実現するもう1つの方法は、ブランチサイトでのフルスケールの Lync Server 展開を使用した PSTN ゲートウェイまたは SIP トランクの使用です。
 
-前提条件などの計画に関する考慮事項を含む、組織に適したブランチサイトの展開の詳細については、「 [Lync server 2013 での PSTN 接続の計画](lync-server-2013-planning-for-pstn-connectivity.md)」および「計画ドキュメントの[lync server 2013 でのブランチサイトのボイスの回復性の計画](lync-server-2013-planning-for-branch-site-voice-resiliency.md)」を参照してください。
+前提条件やその他の計画に関する考慮事項など、組織に適したブランチサイト展開の詳細については、「計画」のドキュメントの「lync server [2013 での PSTN 接続の計画](lync-server-2013-planning-for-pstn-connectivity.md)」および「 [lync server 2013 でのブランチサイト音声の復元の計画](lync-server-2013-planning-for-branch-site-voice-resiliency.md)」を参照してください。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 におけるブランチ サイトでの PSTN 接続の提供](lync-server-2013-providing-pstn-connectivity-at-a-branch-site.md)
+  - [Lync Server 2013 のブランチサイトでの PSTN 接続の提供](lync-server-2013-providing-pstn-connectivity-at-a-branch-site.md)
 
-  - [Lync Server 2013 を使用した存続可能ブランチ アプライアンスまたはサーバーの展開](lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md)
+  - [Lync Server 2013 を使用した存続可能ブランチアプライアンスまたはサーバーの展開](lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md)
 
 </div>
 

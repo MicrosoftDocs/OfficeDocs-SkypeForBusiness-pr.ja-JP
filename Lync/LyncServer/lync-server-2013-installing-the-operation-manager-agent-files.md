@@ -12,16 +12,16 @@ ms:contentKeyID: 48185692
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0f75e9b6f8c3f7eb7151cf0d67a62f5e2a03a65f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 48624e3f93ebb133743680a01399444137385a0f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725957"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048241"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,39 +35,39 @@ ms.locfileid: "41725957"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-20_
+_**トピックの最終更新日:** 2012-10-20_
 
 Operations Manager エージェントファイルをコンピューターにインストールするには、次の手順を実行します。
 
-1.  System Center セットアップメディアで、 **SetupOM**をダブルクリックします。
+1.  System Center セットアップメディアで、 **setupom.exe**をダブルクリックします。
 
-2.  System Center Operation Manager のセットアップで、[ **Operations Manager エージェントのインストール**] をクリックします。
+2.  System Center Operation Manager セットアップで、[ **Operations Manager エージェントのインストール**] をクリックします。
 
-3.  System Center セットアップウィザードの [ **System Center Operations Manager セットアップウィザードへようこそ**] ページで、[**次へ**] をクリックします。
+3.  System Center Setup ウィザードの [ **System Center Operations Manager セットアップウィザードへようこそ**] ページで、[**次へ**] をクリックします。
 
-4.  [**インポート先のフォルダー** ] ページで、Operations Manager エージェントファイルをインストールするフォルダーを選び、[**次へ**] をクリックします。
+4.  [インストール**先フォルダー** ] ページで、Operations Manager エージェントファイルをインストールするフォルダーを選択し、[**次へ**] をクリックします。
 
-5.  [**管理グループの構成**] ページで、[**管理グループ情報の指定**] を選び、[**次へ**] をクリックします。
+5.  [**管理グループの構成**] ページで、[**管理グループ情報の指定**] を選択し、[**次へ**] をクリックします。
 
-6.  [**管理グループの構成**] ページで、[**管理グループ名**] ボックスに operations manager 管理グループの名前を入力し、[ **Management Server** ] ボックスに operations manager サーバーのホスト名 (例: atl-scom) を入力します。 Operations Manager で使用されているポート番号を変更した場合は、[管理サーバーのポート] ボックスに新しいポート番号を入力します。 それ以外の場合は、ポートを既定値の5723のままにして、[**次へ**] をクリックします。
+6.  [管理**グループの構成**] ページで、[管理**グループ名**] ボックスに operations manager 管理グループの名前を入力し、[**管理サーバー** ] ボックスに、operations manager サーバーのホスト名 (たとえば、「atl-scom-001」) を入力します。 Operations Manager で使用されるポート番号を変更した場合は、[管理サーバーのポート] ボックスに新しいポート番号を入力します。 それ以外の場合は、ポートを既定値の5723のままにして、[**次へ**] をクリックします。
 
 7.  [**エージェントアクションアカウント**] ページで、[**ローカルシステム**] を選択し、[**次へ**] をクリックします。
 
-8.  [ **Microsoft update** ] ページで、[ **microsoft update を使用しない**] を選び、[**次へ**] をクリックします。
+8.  [ **Microsoft update** ] ページで、[ **microsoft update を使用しない**] を選択し、[**次へ**] をクリックします。
 
-9.  [**インストールの準備ができ**ました] ページで、[**インストール**] をクリックします。
+9.  [**インストールの準備完了**] ページで、[**インストール**] をクリックします。
 
-10. **System Center Operations Manager のセットアップウィザードの完了**ページで、[**完了**] をクリックします。
+10. [ **System Center Operations Manager セットアップウィザードを完了**しています] ページで、[**完了**] をクリックします。
 
-11. [**終了**] をクリックします。
+11. **[終了]** をクリックします。
 
-System Center 2007 R2 を使用している場合は、[**スタート**]、[**すべてのプログラム**]、[ **System center Operations manager 2007 R2**]、[ **operations manager Shell**] の順にクリックして、エージェントが作成されていることを確認できます。 In the Operations Manager Shell, type the following Windows PowerShell command, and then press ENTER:
+System Center 2007 R2 を使用している場合は、[**スタート**]、[**すべてのプログラム**]、[ **System Center Operations manager 2007 R2**]、[ **operations manager シェル**] の順にクリックして、エージェントが作成されたことを確認できます。 Operations Manager シェルで、次の Windows PowerShell コマンドを入力し、enter キーを押します。
 
     Get-Agent 
 
 すべての Operations Manager エージェントの一覧が画面に表示されます。
 
-System Center 2012 を使っている場合は、次のコマンドを Operations 2012 Manager シェルから実行します。
+System Center 2012 を使用している場合は、Operations 2012 Manager シェルから次のコマンドを実行します。
 
     Get-SCOMAgent
 

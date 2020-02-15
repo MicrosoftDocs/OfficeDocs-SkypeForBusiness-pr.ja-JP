@@ -12,16 +12,16 @@ ms:contentKeyID: 48185492
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9685902f44793ba2cd446827ef13e88266b548af
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2fe98de82378b84c75f538e34bd2ce768a4ceb9b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725617"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050789"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41725617"
 
 <span> </span>
 
-_**最終更新日:** 2012-06-14_
+_**トピックの最終更新日:** 2012-06-14_
 
-統合連絡先ストアは、Microsoft Office 製品全体で一貫した連絡感を提供する機能です。 この機能により、ユーザーは Exchange 2013 ですべての連絡先情報を保存できるため、Lync、Exchange、Outlook、Outlook Web Access で情報をグローバルに利用できます。
+統合連絡先ストアは、Microsoft Office 製品間で統一された連絡先エクスペリエンスを提供する機能です。 この機能により、ユーザーはすべての連絡先情報を Exchange 2013 に保存できるようになります。これにより、Lync、Exchange、Outlook、および Outlook Web Access でグローバルに情報を利用できるようになります。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
   - [Lync Server 2013 の統合連絡先ストアの要件](lync-server-2013-requirements-for-unified-contact-store.md)
 
-  - [Lync Server 2013 統合連絡先ストアの展開](lync-server-2013-deploying-unified-contact-store.md)
+  - [Lync Server 2013 での統合連絡先ストアの展開](lync-server-2013-deploying-unified-contact-store.md)
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 49733604
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cba32f8aa95b870190280aebd94d51bdbeec0f2b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c7abaa29d2383f80a6f822eaa5d524197996500b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762955"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047825"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41762955"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-29_
+_**トピックの最終更新日:** 2012-09-29_
 
-一般的なエリア携帯電話は、共通のワークスペースや一般的な領域 (ロビー、台所、工場など) に存在する IP 電話です。 Lync Server UC 機能を提供するには、一般的なエリア携帯電話がコンピューターに接続されている必要はありません。 Lync Server 2010 の展開を Lync Server 2013 に移行した後、従来の一般的な市外局番に関連付けられた連絡先オブジェクトも移行する必要があります。 Lync Server 管理シェルを使用して、まず Lync Server 2010 共通エリア電話に関連付けられているすべての連絡先オブジェクトを取得してから、それらのオブジェクトを Lync Server 2013 プールに移動します。
+共通領域電話は、ロビー、調理場、または工場の作業場のような、共有ワークスペースまたは共用エリアによく設置されている IP 電話です。 一般的なエリア電話は、Lync Server の UC 機能を提供するためにコンピューターに接続する必要はありません。 Lync server 2010 の展開を Lync Server 2013 に移行した後、従来の共通領域電話に関連付けられている連絡先オブジェクトも移行する必要があります。 Lync Server 管理シェルを使用して、まず、Lync Server 2010 共通領域電話に関連付けられているすべての連絡先オブジェクトを取得し、そのオブジェクトを Lync Server 2013 プールに移動します。
 
 **共通領域電話の移行**
 
 1.  Lync Server 2013 フロントエンドサーバーから、Lync Server 管理シェルを開きます。
 
-2.  コマンドラインで、次のように入力します。
+2.  コマンド ラインで、次のように入力します。
     
         Get-CsCommonAreaPhone -Filter {RegistrarPool -eq "pool01.contoso.net"} | Move-CsCommonAreaPhone -Target pool02.contoso.net
 
-3.  すべての連絡先オブジェクトが Lync Server 2013 プールに移動されたことを確認するには、Lync Server 管理シェルで次のように入力します。
+3.  すべての連絡先オブジェクトが Lync Server 2013 プールに移動されたことを確認するには、Lync Server 管理シェルから次のように入力します。
     
         Get-CsCommonAreaPhone -Filter {RegistrarPool -eq "pool02.contoso.net"}
     
-    すべての連絡先オブジェクトが Lync Server 2013 プールと関連付けられていることを確認します。
+    すべての連絡先オブジェクトが Lync Server 2013 プールに関連付けられていることを確認します。
 
 </div>
 

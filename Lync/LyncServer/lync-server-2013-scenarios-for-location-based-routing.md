@@ -12,20 +12,20 @@ ms:contentKeyID: 51803975
 ms.date: 08/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf44e24df2333a8af114b3508ea8a224028b6b6d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5b8be3355828b0d0b572b8fdd596ef3e5a2ae637
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732627"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049539"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="scenarios-for-location-based-routing-in-lync-server-2013"></a>Lync Server 2013 の場所に基づくルーティングのシナリオ
+# <a name="scenarios-for-location-based-routing-in-lync-server-2013"></a>Lync Server 2013 での場所に基づくルーティングのシナリオ
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41732627"
 
 <span> </span>
 
-_**最終更新日:** 2014-08-11_
+_**トピックの最終更新日:** 2014-08-11_
 
-場所に基づくルーティングでは、次のシナリオで通話をルーティングする場合に次の一般的なルールが適用されます。
+場所に基づくルーティングでは、次のシナリオで呼び出しをルーティングするときに、次の一般的なルールが適用されます。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 の発信通話](lync-server-2013-outgoing-calls.md)
+  - [Lync Server 2013 の送信呼び出し](lync-server-2013-outgoing-calls.md)
 
-  - [Lync Server 2013 着信通話](lync-server-2013-incoming-calls.md)
+  - [Lync Server 2013 の着信呼び出し](lync-server-2013-incoming-calls.md)
 
-  - [Lync Server 2013 の通話転送と着信転送](lync-server-2013-call-transfers-and-call-forwarding.md)
+  - [Lync Server 2013 での通話転送と着信の転送](lync-server-2013-call-transfers-and-call-forwarding.md)
 
   - [Lync Server 2013 での同時呼び出し](lync-server-2013-simultaneous-ringing.md)
 
-  - [Lync Server 2013 の委任](lync-server-2013-delegation.md)
+  - [Lync Server 2013 での委任](lync-server-2013-delegation.md)
 
-  - [Lync Server 2013 での場所に基づくルーティングによるチーム通話](lync-server-2013-team-calling-with-location-based-routing.md)
+  - [Lync Server 2013 での場所に基づくルーティングを使用したチーム通話](lync-server-2013-team-calling-with-location-based-routing.md)
 
 </div>
 

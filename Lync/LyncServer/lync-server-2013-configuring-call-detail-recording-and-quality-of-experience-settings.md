@@ -1,5 +1,5 @@
 ---
-title: 通話詳細記録と QoE (Quality of Experience) 設定の構成
+title: 通話詳細記録と qoe (Quality of Experience) 設定の構成
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183223
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 504c2221e9f8a3ef32e2cebbb792f5e03aef15c5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8382d95ebc1c90a46ab1edee8248b7892e297ea2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756341"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046240"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-call-detail-recording-and-quality-of-experience-settings-in-lync-server-2013"></a>Lync Server 2013 での通話の記録と画質設定の設定
+# <a name="configuring-call-detail-recording-and-quality-of-experience-settings-in-lync-server-2013"></a>Lync Server 2013 での通話詳細記録と qoe (Quality of Experience) 設定の構成
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41756341"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-17_
+_**トピックの最終更新日:** 2012-10-17_
 
-フロントエンドプールで監視ストアを関連付け、監視ストアをセットアップして、SQL Server Reporting Services と監視レポートをインストールして構成した後、通話の詳細記録 (CDR) と品質のエクスペリエンス (QoE) を管理できます。Lync Server 管理シェルを使用した監視。 Lync Server 管理シェルコマンドレットを使用すると、特定のサイトまたは Lync Server の展開全体について、CDR または QoE の監視を有効または無効にすることができます。これは、次のような単純なコマンドで実行できます。
+フロントエンドプールに監視ストアを関連付けた後、監視ストアを設定してから、SQL Server Reporting Services と監視レポートをインストールして構成すると、通話詳細記録 (CDR) と品質向上 (QoE) を管理できます。Lync Server 管理シェルを使用した監視。 Lync Server 管理シェルコマンドレットを使用すると、特定のサイトまたは Lync Server の展開全体に対して、CDR または QoE 監視を有効または無効にすることができます。これは、次のように簡単にコマンドで実行できます。
 
     Set-CsQoEConfiguration -Identity "global" -EnableQoE $False
 
-Microsoft Lync Server 2013 をインストールすると、CDR と QoE の両方のグローバル構成設定の定義済みコレクションもインストールされます。 以下の表に、通話詳細記録で比較的よく使用される一部の設定の既定値を示します。
+Microsoft Lync Server 2013 をインストールすると、CDR と QoE の両方に対してグローバル構成設定の定義済みコレクションもインストールされます。 以下の表に、通話詳細記録で比較的よく使用される一部の設定の既定値を示します。
 
 
 <table>
@@ -61,22 +61,22 @@ Microsoft Lync Server 2013 をインストールすると、CDR と QoE の両�
 <tr class="odd">
 <td><p>EnableCDR</p></td>
 <td><p>CDR が有効かどうかを示します。True の場合、すべての CDR レコードが収集され、監視データベースに書き込まれます。</p></td>
-<td><p>True</p></td>
+<td><p>はい</p></td>
 </tr>
 <tr class="even">
 <td><p>EnablePurging</p></td>
 <td><p>CDR レコードをデータベースから定期的に削除するかどうかを示します。True の場合、KeepCallDetailForDays プロパティ (CDR レコードの場合) および KeepErrorReportForDays プロパティ (CDR エラーの場合) で指定されている期間を過ぎると、レコードが削除されます。False の場合、CDR レコードは無期限に保持されます。</p></td>
-<td><p>True</p></td>
+<td><p>はい</p></td>
 </tr>
 <tr class="odd">
 <td><p>KeepCallDetailForDays</p></td>
 <td><p>CDR レコードをデータベース内に保持する日数を指定します。指定した日数を超えて存在する古いレコードはすべて自動的に削除されます。ただし、この処理は削除が有効になっている場合にのみ実行されます。</p>
-<p>KeepCallDetailForDays には、1 ～ 2,562 日 (約 7 年間) の間の整数値を設定できます。</p></td>
+<p>KeepCallDetailForDays には、1 ～ 2,562 (約 7 年間の日数に相当) の範囲の任意の整数値を設定できます。</p></td>
 <td><p>60 日</p></td>
 </tr>
 <tr class="even">
 <td><p>KeepErrorReportForDays</p></td>
-<td><p>CDR エラーレポートが保持される日数を示します。指定した日数よりも古いレポートは、自動的に削除されます。 CDR エラーレポートは、Microsoft Lync 2013 などのクライアントアプリケーションによってアップロードされた診断レポートです。</p>
+<td><p>CDR エラー報告を保持する日数を示します。指定した日数より古いレポートは自動的に削除されます。 CDR エラーレポートは、Microsoft Lync 2013 などのクライアントアプリケーションによってアップロードされた診断レポートです。</p>
 <p>このプロパティには、1 ～ 2,562 (日) の範囲の任意の整数値に指定できます。</p></td>
 <td><p>60 (日)</p></td>
 </tr>
@@ -104,28 +104,28 @@ Microsoft Lync Server 2013 をインストールすると、CDR と QoE の両�
 <tr class="odd">
 <td><p>EnableQoE</p></td>
 <td><p>QoE 監視が有効かどうかを示します。True の場合、すべての QoE レコードが収集され、監視データベースに書き込まれます。</p></td>
-<td><p>True</p></td>
+<td><p>はい</p></td>
 </tr>
 <tr class="even">
 <td><p>EnablePurging</p></td>
 <td><p>QoE レコードをデータベースから定期的に削除するかどうかを示します。True の場合、KeepQoEDataForDays プロパティで指定されている期間を過ぎると、レコードが削除されます。False の場合、QoE レコードは無期限に保持されます。</p></td>
-<td><p>True</p></td>
+<td><p>はい</p></td>
 </tr>
 <tr class="odd">
 <td><p>KeepQoEDataForDays</p></td>
 <td><p>QoE レコードをデータベース内に保持する日数を指定します。指定した日数を超えて存在する古いレコードはすべて自動的に削除されます。ただし、この処理は削除が有効になっている場合にのみ実行されます。</p>
-<p>KeepCallDetailForDays は、1 ～ 2,562 (日) の範囲の任意の整数値に設定できます。</p></td>
+<p>KeepCallDetailForDays は、1 ～ 2562 (日) の範囲の任意の整数値に設定できます。</p></td>
 <td><p>60 日</p></td>
 </tr>
 </tbody>
 </table>
 
 
-これらのグローバル設定を変更する必要がある場合は、CsCdrConfiguration と Set-CsQoEConfiguration コマンドレットを使用します。 たとえば、次のコマンド (Lync Server 管理シェル内から実行) は、グローバルスコープで CDR の監視を無効にします。これを行うには、EnableCDR プロパティを False ($False) に設定します。
+これらのグローバル設定を変更する必要がある場合は、Set-CsCdrConfiguration コマンドレットや Set-CsQoEConfiguration コマンドレットを使用して、そうした変更を行うことができます。たとえば、(Lync Server 管理シェルから実行される) 次のコマンドは、CDR 監視をグローバル スコープで無効にします。この処理は、EnableCDR プロパティを False ($False) に設定することで行われます。
 
     Set-CsCdrConfiguration -Identity "global" -EnableCDR $False
 
-監視を無効にしても、監視ストアとフロントエンド プールとの関連付けは解除されず、バックエンド監視データベースがアンインストールされたり、その他の影響がこのデータベースに及んだりすることもありません。 Lync Server 管理シェルを使用して CDR または QoE の監視を無効にしている場合、実際には、Lync Server で監視データの収集とアーカイブが行われなくなります。 この場合、次のように EnableCDR プロパティの設定を True ($True) に戻すだけで、CDR データの収集とアーカイブを再開できます。
+監視を無効にしても、監視ストアとフロントエンド プールとの関連付けは解除されず、バックエンド監視データベースがアンインストールされたり、その他の影響がこのデータベースに及んだりすることもありません。 Lync Server 管理シェルを使用して CDR または QoE 監視を無効にすると、実際には、Lync Server が監視データの収集とアーカイブを停止することはありません。 この場合、次のように EnableCDR プロパティの設定を True ($True) に戻すだけで、CDR データの収集とアーカイブを再開できます。
 
     Set-CsCdrConfiguration -Identity "global" -EnableCDR $True
 
@@ -133,7 +133,7 @@ Microsoft Lync Server 2013 をインストールすると、CDR と QoE の両�
 
     Set-CsQoEConfiguration -Identity "global" -EnablePurging $False
 
-CDR と QoE の構成設定は、グローバル設定だけでなく、サイト スコープに割り当てることもできます。この操作を行うと、監視についての管理の柔軟性が向上します。たとえば、管理者は Redmond サイトで CDR 監視を有効にする一方で Dublin サイトでは CDR 監視を無効にできます。新しい CDR 構成設定をサイト スコープで作成するには、次のようなコマンドを使用します。
+CDR と QoE の構成設定は、グローバル設定だけでなく、サイト スコープに割り当てることもできます。これにより、監視についての管理の柔軟性が向上します。たとえば、管理者は Redmond サイトで CDR 監視を有効にする一方で Dublin サイトでは CDR 監視を無効にできます。新しい CDR 構成設定をサイト スコープで作成するには、次のようなコマンドを使用します。
 
     New-CsCdrConfiguration -Identity "site:Redmond" -EnableCDR $False
 

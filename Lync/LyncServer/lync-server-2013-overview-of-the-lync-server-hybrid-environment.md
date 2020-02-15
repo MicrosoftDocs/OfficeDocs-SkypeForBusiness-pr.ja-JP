@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Lync Server のハイブリッド環境の概要'
+title: 'Lync Server 2013: Lync Server ハイブリッド環境の概要'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183399
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0594ddc0433bdcc227c693c4842c08bf7d05989f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e32132faee3b52140d20a7f01e6a0bad0e88c620
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755431"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049609"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41755431"
 
 <span> </span>
 
-_**最終更新日:** 2014-05-28_
+_**トピックの最終更新日:** 2014-05-28_
 
-Lync Server 2013 ハイブリッド環境とは、オンプレミスの Lync Server 2013 およびその他のユーザーが Lync Online に接続しているが、ユーザーが user@contoso.com などの同じドメインを共有している展開を指します。
+Lync Server 2013 ハイブリッド環境とは、オンプレミスの Lync Server 2013 に所属するユーザーや、Lync Online に所属している他のユーザーが、user@contoso.com などの同じドメインを共有する展開のことを指します。
 
 <div>
 
 ## <a name="about-this-guide"></a>このガイドについて
 
-このガイドでは、lync Online との相互運用性を確保するために Lync Server 2013 環境を構成するために必要なタスクについて説明し、ユーザーをオンプレミスの展開から Lync Online を使用するように移動するために必要な作業について説明します
+このガイドでは、lync Online との相互運用性を実現するために Lync Server 2013 環境を構成し、オンプレミス展開から Lync Online を使用するようにユーザーを移動するために必要なタスクについて説明します。
 
 </div>
 
@@ -51,15 +51,15 @@ Lync Server 2013 ハイブリッド環境とは、オンプレミスの Lync Ser
 
 ## <a name="prerequisites"></a>前提条件
 
-ハイブリッド展開を構成するためのタスクを実行するには、次のアプリケーションとユーティリティがインストールされている必要があります。 これらのファイルのインストーラーは、展開用に提供されているインストールメディアと、次の一覧に記載されているリンクに含まれています。
+ハイブリッド展開を構成するためのタスクを完了するには、次のアプリケーションとユーティリティがインストールされている必要があります。 これらのファイルのインストーラーは、展開で提供されるインストールメディアと、次の一覧に含まれているリンクに含まれています。
 
-  - [Active Directory フェデレーションサービス (AD FS) 2.0](http://go.microsoft.com/fwlink/p/?linkid=257305)
+  - [Active Directory フェデレーション サービス (AD FS) 2.0](http://go.microsoft.com/fwlink/p/?linkid=257305)
 
   - [Microsoft ディレクトリ同期ツール9.1](http://go.microsoft.com/fwlink/p/?linkid=257307)
 
-  - [AD FS を使ってシングルサインオン用に Windows PowerShell をインストールする](http://go.microsoft.com/fwlink/p/?linkid=398710)
+  - [AD FS を使用したシングルサインオン用の Windows PowerShell のインストール](http://go.microsoft.com/fwlink/p/?linkid=398710)
 
-  - Microsoft Online Services サインインアシスタント (msoidcli-) は、office 365 のデスクトップセットアップに含まれています。 office 365 管理ポータルからリンクされたダウンロードページから入手できます。
+  - Microsoft Online Services サインインアシスタント (msoidcli-7.0.msi) は、office 365 のデスクトップセットアップに含まれています。これは、Office 365 管理ポータルからリンクされているダウンロードページから入手できます。
 
 </div>
 
@@ -67,7 +67,7 @@ Lync Server 2013 ハイブリッド環境とは、オンプレミスの Lync Ser
 
 ## <a name="administrator-credentials"></a>管理者の資格情報
 
-管理者の資格情報を入力するように求められたら、Office 365 テナントの管理者アカウントのユーザー名とパスワードを使用します。 Active Directory フェデレーションサービス (AD FS) の2.0、ディレクトリ同期、シングルサインオン、フェデレーション、ユーザーの Lync Online への移動を構成するときにも、これらの資格情報を使います。
+管理者の資格情報を入力するように求めるメッセージが表示されたら、Office 365 テナントの管理者アカウントのユーザー名とパスワードを使用します。 Active Directory フェデレーションサービス (AD FS) 2.0、ディレクトリ同期、シングルサインオン、フェデレーション、および Lync Online へのユーザーの移動を構成するときに、これらの資格情報を使用することもできます。
 
 </div>
 
@@ -75,7 +75,7 @@ Lync Server 2013 ハイブリッド環境とは、オンプレミスの Lync Ser
 
 ## <a name="connecting-to-lync-online-powershell"></a>Lync Online PowerShell への接続
 
-管理者は、Windows PowerShell を使用して Lync Online と Lync Online のユーザーアカウントを管理することができるようになりました。 そのためには、まず Microsoft ダウンロードセンター (http://go.microsoft.com/fwlink/?LinkId=294688)) から Lync Online Connector モジュールをダウンロードしてインストールする必要があります。 Lync Online Connector モジュールのダウンロード、インストール、および使用の詳細と Windows PowerShell を使用して Lync Online を管理する方法の詳細については、「 [Windows Powershell を使用して Lync online を管理する](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)」を参照してください。
+管理者は、Windows PowerShell を使用して Lync Online と Lync Online ユーザーアカウントを管理できるようになりました。 これを行うには、まず、Microsoft ダウンロードセンター (http://go.microsoft.com/fwlink/?LinkId=294688)から Lync Online Connector モジュールをダウンロードしてインストールする必要があります。 Lync Online コネクタモジュールをダウンロード、インストール、および使用する方法、および Windows PowerShell を使用して Lync Online を管理する方法の詳細については、「 [Windows powershell を使用して Lync online を管理する](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)」を参照してください。
 
 </div>
 

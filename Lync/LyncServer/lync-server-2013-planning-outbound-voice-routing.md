@@ -12,16 +12,16 @@ ms:contentKeyID: 48183835
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d33fbe8d15b78bed9dd651cd7facf35a8249f64
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1fbcb976ed4f3d1464b6b956ef60dc1d00bd6907
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747667"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050579"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41747667"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-21_
+_**トピックの最終更新日:** 2012-09-21_
 
-発信通話ルーティングは、公衆交換電話網 (PSTN) ゲートウェイ、トランク、またはプライベート支店交換 (PBX) に向けての通話に適用されます。 ユーザーが通話を発信すると、サーバーでは、必要に応じて、電話番号が E.i 形式に正規化され、SIP URI と照合されるようになります。 一致する SIP URI が見つからない場合は、指定されたダイヤル文字列に基づいて発信通話ルーティング ロジックが適用されます。 ユーザーは、次の表で説明するサーバー設定を構成することで、そのロジックを定義します。
+発信通話ルーティングは、公衆交換電話網 (PSTN) ゲートウェイ、トランク、または構内交換機 (PBX) に対して発信される通話に適用されます。ユーザーが電話をかけると、サーバーは、電話番号を E.164 形式に正規化し、必要に応じて、一致する SIP URI があるかどうかを調べます。一致する SIP URI が見つからない場合は、指定されたダイヤル文字列に基づいて発信通話ルーティング ロジックが適用されます。ユーザーは、次の表で説明するサーバー設定を構成することで、そのロジックを定義します。
 
-### <a name="lync-server-outbound-call-routing-settings"></a>Lync Server の送信通話ルーティング設定
+### <a name="lync-server-outbound-call-routing-settings"></a>Lync Server 発信通話ルーティング設定
 
 <table>
 <colgroup>
@@ -63,7 +63,7 @@ _**最終更新日:** 2012-09-21_
 </tr>
 <tr class="odd">
 <td><p>音声ポリシー</p></td>
-<td><p>音声ポリシーでは、1 つ以上の PSTN 使用法レコードを 1 人のユーザーまたはユーザーのグループに関連付けます。音声ポリシーも、ユーザーが有効と無効を切り替えられる通話機能のリストを提供します。</p></td>
+<td><p>音声ポリシーでは、1 つ以上の PSTN 使用法レコードを 1 人のユーザーまたはユーザーのグループに関連付けます。 音声ポリシーも、ユーザーが有効と無効を切り替えできる通話機能のリストを提供します。</p></td>
 </tr>
 <tr class="even">
 <td><p>PSTN 使用法レコード</p></td>
@@ -71,7 +71,7 @@ _**最終更新日:** 2012-09-21_
 </tr>
 <tr class="odd">
 <td><p>通話ルート</p></td>
-<td><p>通話ルートでは、通話先の電話番号を特定のトランクおよび PSTN 使用法レコードに関連付けます。PSTN ゲートウェイはトランクとみなされます。</p></td>
+<td><p>通話ルートでは、通話先の電話番号を特定のトランクおよび PSTN 使用法レコードに関連付けます。 PSTN ゲートウェイはトランクとみなされます。</p></td>
 </tr>
 </tbody>
 </table>
@@ -79,12 +79,12 @@ _**最終更新日:** 2012-09-21_
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-このセクションでは、次の発信通話ルーティングサーバー設定を構成するためのガイドラインについて説明します。
+ここでは、次の発信通話ルーティング サーバー設定の構成ガイドラインを提供します。
 
   - <span></span>  
-    [Lync Server 2013 でのダイヤルプランと正規化ルール](lync-server-2013-dial-plans-and-normalization-rules.md)
+    [Lync Server 2013 のダイヤルプランと正規化ルール](lync-server-2013-dial-plans-and-normalization-rules.md)
 
   - <span></span>  
     [Lync Server 2013 の音声ポリシー](lync-server-2013-voice-policies.md)
@@ -102,8 +102,8 @@ _**最終更新日:** 2012-09-21_
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 での SIP トランク](lync-server-2013-sip-trunking.md)  
-[Lync Server 2013 での直接 SIP 接続](lync-server-2013-direct-sip-connections.md)  
+[Lync Server 2013 での SIP トランキング](lync-server-2013-sip-trunking.md)  
+[Lync Server 2013 の直接 SIP 接続](lync-server-2013-direct-sip-connections.md)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Lync Server コントロールパネルで認証を構成する'
+title: 'Lync Server 2013: Lync Server コントロールパネルでの認証の構成'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185497
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6588058527fb438af393f6eb1132e19895c0f564
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 998b3e0f2429ca32238a49f5df72973ac0f49687
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734846"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049769"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-authentication-in-the-lync-server-2013-control-panel"></a>Lync Server 2013 コントロールパネルで認証を構成する
+# <a name="configuring-authentication-in-the-lync-server-2013-control-panel"></a>Lync Server 2013 コントロールパネルでの認証の構成
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41734846"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-21_
+_**トピックの最終更新日:** 2013-02-21_
 
-このセクションのトピックでは、Lync Server 2013 コントロールパネルの**セキュリティ**グループを使用して実行できるタスクのステップバイステップの手順について説明します。
+このセクションのトピックでは、Lync Server 2013 コントロールパネルの**セキュリティ**グループを使用して実行できるタスクの詳細な手順について説明します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 でレジストラー構成設定を作成する](lync-server-2013-create-registrar-configuration-settings.md)
+  - [Lync Server 2013 でレジストラーの構成設定を作成する](lync-server-2013-create-registrar-configuration-settings.md)
 
-  - [Lync Server 2013 で既存のレジストラーの構成設定を変更する](lync-server-2013-modify-existing-registrar-configuration-settings.md)
+  - [Lync Server 2013 で既存のレジストラー構成設定を変更する](lync-server-2013-modify-existing-registrar-configuration-settings.md)
 
-  - [Lync Server 2013 で既存のレジストラー構成設定を削除する](lync-server-2013-delete-existing-registrar-configuration-settings.md)
+  - [Lync Server 2013 での既存のレジストラー構成設定の削除](lync-server-2013-delete-existing-registrar-configuration-settings.md)
 
   - [Lync Server 2013 で新しい Web サービス構成設定を作成する](lync-server-2013-create-new-web-service-configuration-settings.md)
 
-  - [Lync Server 2013 で既存の Web サービス構成の設定を変更する](lync-server-2013-modify-existing-web-service-configuration-settings.md)
+  - [Lync Server 2013 で既存の Web サービス構成設定を変更する](lync-server-2013-modify-existing-web-service-configuration-settings.md)
 
-  - [Lync Server 2013 で既存の Web サービスの構成設定を削除する](lync-server-2013-delete-existing-web-service-configuration-settings.md)
+  - [Lync Server 2013 で既存の Web サービス構成設定を削除する](lync-server-2013-delete-existing-web-service-configuration-settings.md)
 
 </div>
 
@@ -62,7 +62,7 @@ _**最終更新日:** 2013-02-21_
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 での会議および電話会議の管理](lync-server-2013-managing-meetings-and-conferences.md)  
+[Lync Server 2013 での会議と会議の管理](lync-server-2013-managing-meetings-and-conferences.md)  
   
 
 </div>

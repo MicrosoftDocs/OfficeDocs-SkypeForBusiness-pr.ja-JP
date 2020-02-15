@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: デバイス更新ログファイルを削除する'
+title: 'Lync Server 2013: デバイス更新ログファイルの削除'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803949
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c684978445f727dc155fade59654ff6e2866f084
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4f5b8ed6d087bb7b80ba93aead7c3ab530c82000
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734207"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048488"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="delete-device-update-log-files-in-lync-server-2013"></a>Lync Server 2013 でデバイス更新ログファイルを削除する
+# <a name="delete-device-update-log-files-in-lync-server-2013"></a>Lync Server 2013 でのデバイス更新ログファイルの削除
 
 </div>
 
@@ -37,29 +37,29 @@ ms.locfileid: "41734207"
 
 _**トピックの最終更新日:** 2013-02-23_
 
-デバイス更新 Web サービスは、ログファイルの広範なコレクションを保持します。 このコレクションには、サービス自体によって実行された監査ログとクライアントデバイスからアップロードされたログファイルの両方が含まれます。 サーバーがデバイス更新 Web サービスログでいっぱいにならないようにするには、一定の期間、使用されていたログファイルを消去する必要があります。 この日数は、更新アクティビティと組織内のクライアントデバイスの数に基づいて、および Lync Server コントロールパネルまたは Lync Server 管理シェルを使用して設定します。
+デバイス更新 Web サービスは、ログファイルの広範なコレクションを保持します。 このコレクションには、サービス自体によって実行された監査ログと、クライアントデバイスからアップロードされたログファイルが含まれます。 サーバーがデバイス更新 Web サービスのログにいっぱいにならないようにするには、特定の日数になっていたログファイルを消去することをお勧めします。 この日数は、更新アクティビティと、組織内のクライアントデバイス数、および Lync Server コントロールパネルまたは Lync Server 管理シェルを使用して設定します。
 
 <div>
 
-## <a name="to-clear-the-device-update-log-by-using-lync-server-control-panel"></a>Lync Server コントロールパネルを使用してデバイス更新ログを消去するには
+## <a name="to-clear-the-device-update-log-by-using-lync-server-control-panel"></a>Lync Server コントロールパネルを使用してデバイス更新ログをクリアするには
 
-1.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+1.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
-2.  左側のナビゲーションバーで、[**クライアント**] をクリックし、[**デバイスログの構成**] をクリックします。
+2.  左側のナビゲーション バーで **[クライアント]** をクリックし、**[デバイス ログ構成]** をクリックします。
 
-3.  [**デバイスログの構成**] ページで、変更する構成をダブルクリックします。
+3.  **[デバイス ログ構成]** ページで、変更する構成をダブルクリックします。
 
-4.  [**ログ設定の編集**] ダイアログボックスで、[**ログファイルを保持する日数 (1-365)**] に日数を指定します。
+4.  [**ログ設定の編集**] ダイアログボックスの [**ログファイルを保持する日数 (1-365)**] で、日数を指定します。
 
-5.  [**コミット**] をクリックします。 指定した日数を超えてサーバー上に存在するすべてのファイルが削除されます。 この設定は、変更するまでこの構成に適用されます。
+5.  [**確定**] をクリックします。 指定した日数を超えるまでサーバー上に存在していたすべてのファイルが削除されます。 この設定は、変更するまでこの構成に適用されます。
 
 </div>
 
 <div>
 
-## <a name="clearing-the-device-update-log-by-using-the-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用してデバイスの更新ログを消去する
+## <a name="clearing-the-device-update-log-by-using-the-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用してデバイス更新ログをクリアする
 
-デバイス更新ログは、Windows PowerShell と、ユーザーの**クリアな Deviceupdatelog**コマンドレットを使用してクリアできます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。
+Windows PowerShell を使用してデバイス更新ログをクリアすることができます。また、 **CsDeviceUpdateLog**コマンドレットを使用することもできます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。
 
 <div>
 
@@ -73,9 +73,9 @@ _**トピックの最終更新日:** 2013-02-23_
 
 <div>
 
-## <a name="to-clear-device-update-logs-on-one-server"></a>1台のサーバーでデバイス更新ログを消去するには
+## <a name="to-clear-device-update-logs-on-one-server"></a>1台のサーバー上のデバイス更新ログをクリアするには
 
-  - 次のコマンドは、Web サーバー atl-cs-001.litwareinc.com のデバイス更新ログをクリアします。 10日以上経過しているすべてのログエントリ (DaysBack パラメーターで指定された値) はログから削除されます。
+  - 次のコマンドを実行すると、Web サーバー atl-cs-001.litwareinc.com のデバイス更新ログがクリアされます。 10日以上経過したすべてのログエントリ (DaysBack パラメーターで指定された値) はログから削除されます。
     
         Clear-CsDeviceUpdateLog -Identity "service:WebServer:atl-cs-001.litwareinc.com" -DaysBack 10
 
@@ -83,15 +83,15 @@ _**トピックの最終更新日:** 2013-02-23_
 
 <div>
 
-## <a name="to-clear-all-device-update-logs"></a>すべてのデバイス更新ログを消去するには
+## <a name="to-clear-all-device-update-logs"></a>すべてのデバイス更新ログをクリアするには
 
-  - このコマンドを実行すると、組織で現在使用されているすべてのデバイス更新ログから古いエントリ (この例では、10日以上経過したエントリ) が削除されます。
+  - このコマンドは、組織で現在使用されているすべてのデバイス更新ログから古いエントリ (この例では、10日以上経過したエントリ) を削除します。
     
         Get-CsService -WebServer | Foreach-Object {Clear-CsDeviceUpdateLog -Identity $_.Identity -DaysBack 10}
 
 </div>
 
-詳細については、「 [CsDeviceUpdateLog](https://docs.microsoft.com/powershell/module/skype/Clear-CsDeviceUpdateLog)コマンドレット」のヘルプトピックを参照してください。
+詳細につい[ては、](https://docs.microsoft.com/powershell/module/skype/Clear-CsDeviceUpdateLog) 「」のヘルプトピックを参照してください。
 
 </div>
 

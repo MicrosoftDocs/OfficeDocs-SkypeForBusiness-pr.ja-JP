@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: デバイス更新ログファイルの設定を変更する'
+title: 'Lync Server 2013: デバイス更新ログファイルの設定の変更'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184975
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 88d75086f0532205c2897f7e86d49f50072aaa89
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 770682cfed17d9b029688275469351c1cfdf9f4d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756931"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050549"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="modify-settings-for-device-update-log-files-in-lync-server-2013"></a>Lync Server 2013 でデバイス更新ログファイルの設定を変更する
+# <a name="modify-settings-for-device-update-log-files-in-lync-server-2013"></a>Lync Server 2013 のデバイス更新ログファイルの設定を変更する
 
 </div>
 
@@ -37,9 +37,9 @@ ms.locfileid: "41756931"
 
 _**トピックの最終更新日:** 2013-02-23_
 
-Lync Server コントロールパネルまたは Lync Server 管理シェルを使用して、デバイスの更新情報が組織でどのように記録されるかに関する設定を変更することができます。 次の表では、どの設定が変更可能で、どのツールを使用して設定を変更するかを示しています。
+Lync Server コントロールパネルまたは Lync Server 管理シェルを使用して、組織内でのデバイス更新情報のログ記録方法の設定を変更できます。 次の表に、変更可能な設定と、設定の変更に使用するツールを示します。
 
-ログ設定は、グローバルに、またはサイトごとに変更したり、適用したりすることができます。
+ログ設定は、グローバルに、またはサイトごとに変更することができます。
 
 
 <table>
@@ -49,37 +49,37 @@ Lync Server コントロールパネルまたは Lync Server 管理シェルを�
 </colgroup>
 <thead>
 <tr class="header">
-<th>変更方法</th>
-<th>使用</th>
+<th>を変更する</th>
+<th>使用法</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>ログファイルの最大サイズ (バイト単位)</p></td>
 <td><p>Lync Server コントロール パネル</p>
-<p>/</p>
+<p>または</p>
 <p>Lync Server 管理シェル</p></td>
 </tr>
 <tr class="even">
-<td><p>キャッシュ内に保持できる情報の最大量 (バイト単位)</p></td>
+<td><p>キャッシュに保持できる情報の最大量 (バイト単位)</p></td>
 <td><p>Lync Server コントロール パネル</p>
-<p>/</p>
+<p>または</p>
 <p>Lync Server 管理シェル</p></td>
 </tr>
 <tr class="odd">
-<td><p>キャッシュされた情報をログファイルに書き込む頻度 (分)</p></td>
+<td><p>キャッシュされた情報をログファイルに書き込む頻度 (分単位)</p></td>
 <td><p>Lync Server コントロール パネル</p>
-<p>/</p>
+<p>または</p>
 <p>Lync Server 管理シェル</p></td>
 </tr>
 <tr class="even">
-<td><p>ログファイルを保持する期間 (日数)</p></td>
+<td><p>ログファイルを保持する時間 (日数)</p></td>
 <td><p>Lync Server コントロール パネル</p>
-<p>/</p>
+<p>または</p>
 <p>Lync Server 管理シェル</p></td>
 </tr>
 <tr class="odd">
-<td><p>削除する必要がある有効期限が切れたファイルをチェックするタイミング (時刻)</p></td>
+<td><p>削除する必要のある期限切れファイルがあるかどうかをチェックする時間 (日)</p></td>
 <td><p>Lync Server 管理シェル</p></td>
 </tr>
 <tr class="even">
@@ -98,31 +98,31 @@ Lync Server コントロールパネルまたは Lync Server 管理シェルを�
 
 ## <a name="to-change-logging-settings-by-using-lync-server-control-panel"></a>Lync Server コントロールパネルを使用してログ設定を変更するには
 
-1.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+1.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
-2.  左側のナビゲーションバーで、[**クライアント**] をクリックし、[**デバイスログの構成**] をクリックします。
+2.  左側のナビゲーション バーで **[クライアント]** をクリックし、**[デバイス ログ構成]** をクリックします。
 
-3.  [**デバイスログの構成**] ページで、変更する構成をダブルクリックします。
+3.  **[デバイス ログ構成]** ページで、変更する構成をダブルクリックします。
 
 4.  [**ログ設定の編集**] ダイアログボックスで、次のいずれかの設定を変更します。
     
-      - **[ファイルの最大サイズ (バイト)**   ] は、ログファイルが削除されるまでの最大サイズを指定します。 既定値は1024000バイト (1 MB) です。
+      - **[最大ファイルサイズ (バイト)**   ] ログファイルが削除されるまでの最大サイズを指定します。 既定値は1024000バイト (1 MB) です。
     
-      - **[最大キャッシュサイズ (バイト)**   ] は、キャッシュを消去する前にログファイルキャッシュに保持できる情報の最大量 (バイト単位) を指定します。データはログファイルに書き込まれます。 既定値は512000バイト (0.5 MB) です。
+      - **[最大キャッシュサイズ (バイト)**   ] は、キャッシュがクリアされてデータがログファイルに書き込まれる前に、ログファイルキャッシュに保持できる最大情報量 (バイト単位) を指定します。 既定値は512000バイト (0.5 MB) です。
     
-      - **キャッシュをフラッシュする分数 (1-60)**   ログファイルキャッシュに保存されている情報が実際のログファイルに書き込まれる頻度を示します。 データをログに記録すると、キャッシュが消去されます。 既定値は5分です。
+      - **キャッシュをフラッシュする時間 (分) (1-60)**   は、ログファイルキャッシュに格納されている情報が実際のログファイルに書き込まれる頻度を示します。 データがログに記録されると、キャッシュはクリアされます。 既定値は5分です。
     
-      - **ログファイルを保持する日数 (1-365)**   ログファイルが削除されるまで保持される日数を指定します。 既定値は10日です。
+      - **ログファイルを保持する日数 (1-365)**   削除されるまでにログファイルを保持する日数を指定します。 既定値は10日です。
 
-5.  [**コミット**] をクリックします。
+5.  **[確定]** をクリックします。
 
 </div>
 
 <div>
 
-## <a name="changing-logging-settings-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用したログ設定の変更
+## <a name="changing-logging-settings-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用してログ設定を変更する
 
-デバイス更新ログファイル設定は、Windows PowerShell と**Set-CsDeviceUpdateConfiguration**コマンドレットを使用して変更できます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。
+デバイス更新のログファイルの設定を変更するには、Windows PowerShell と、 **-CsDeviceUpdateConfiguration 設定**コマンドレットを使用します。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。
 
 <div>
 
@@ -134,13 +134,13 @@ Lync Server コントロールパネルまたは Lync Server 管理シェルを�
 
 </div>
 
-次の例は、 **Set-CsDeviceUpdateConfiguration**を使って設定を変更するいくつかの方法を示しています。
+次の例は、設定を変更するために、 **Set-CsDeviceUpdateConfiguration**を使用するいくつかの方法を示しています。
 
 <div>
 
 ## <a name="to-modify-the-maximum-log-file-size-and-the-log-cleanup-interval"></a>ログファイルの最大サイズとログのクリーンアップ間隔を変更するには
 
-  - 次のコマンドは、Redmond サイトに適用されるデバイス更新ログの設定を変更します。 この例では、ログファイルの最大サイズは204800バイトに、ログのクリーンアップ間隔は14日間に設定されています。
+  - 次のコマンドは、Redmond サイトに適用されているデバイス更新ログ設定を変更します。 この例では、ログファイルの最大サイズを204800バイトに設定し、ログのクリーンアップ間隔を14日に設定します。
     
         Set-CsDeviceUpdateConfiguration -Identity "site:Redmond" -MaxLogFileSize 204800 -LogCleanUpInterval 14.00:00:00
 
@@ -148,15 +148,15 @@ Lync Server コントロールパネルまたは Lync Server 管理シェルを�
 
 <div>
 
-## <a name="to-modify-the-log-cleanup-time-of-day"></a>ログのクリーンアップ時間を変更するには
+## <a name="to-modify-the-log-cleanup-time-of-day"></a>ログのクリーンアップ時間 (日) を変更するには
 
-  - このコマンドは、Redmond サイトのログクリーンアップ時間を 3:00 AM に設定します。
+  - このコマンドは、Redmond サイトのログのクリーンアップ時間を 3:00 AM に設定します。
     
         Set-CsDeviceUpdateConfiguration -Identity "site:Redmond" -LogCleanupTimeOfDay 03:00
 
 </div>
 
-詳細については、「 [Set-CsDeviceUpdateConfiguration 設定](https://docs.microsoft.com/powershell/module/skype/Set-CsDeviceUpdateConfiguration)」コマンドレットのヘルプトピックを参照してください。
+詳細につい[ては、このコマンドレット](https://docs.microsoft.com/powershell/module/skype/Set-CsDeviceUpdateConfiguration)のヘルプトピックを参照してください。
 
 </div>
 

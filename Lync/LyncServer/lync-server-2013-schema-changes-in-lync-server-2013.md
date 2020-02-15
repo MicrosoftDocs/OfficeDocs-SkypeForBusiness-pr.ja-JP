@@ -12,16 +12,16 @@ ms:contentKeyID: 48185575
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 54a3fd5f18785a649803cc6f9a0a56d7b98a2ee6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 789a6a67b1794eee5f01e8672f9aeb1076646ecf
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732597"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049409"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,41 +35,41 @@ ms.locfileid: "41732597"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-18_
+_**トピックの最終更新日:** 2012-10-18_
 
-Lync Server 2013 を展開して運用する前に、スキーマを拡張して Active Directory ドメインサービスを準備する必要があります。 スキーマ拡張は、Lync Server 2013 に必要なクラスと属性を追加します。
+Lync Server 2013 を展開して運用する前に、スキーマを拡張して Active Directory ドメインサービスを準備する必要があります。 スキーマ拡張機能は、Lync Server 2013 で必要なクラスと属性を追加します。
 
-Lync Server 2013 には、いくつかの新しいクラスと属性が必要です。また、既存のクラスと属性もいくつか変更する必要があります。 さらに、Lync Server 2013 の多くの構成情報は、以前のバージョンと同じように、AD DS ではなく中央管理ストアに保存されています。 次の情報は、引き続き Lync Server 2013 の AD DS に保存されています。
+Lync Server 2013 には、いくつかの新しいクラスと属性が必要であり、一部の既存のクラスおよび属性が変更されています。 さらに、Lync Server 2013 の構成情報の多くは、以前のバージョンとは異なる方法で AD DS ではなく中央管理ストアに格納されます。 次の情報は、引き続き Lync Server 2013 の AD DS に保存されています。
 
-  - **スキーマの拡張機能**:
+  - **スキーマ拡張**:
     
       - ユーザー オブジェクトの拡張
     
-      - サポートされている以前のバージョンとの下位互換性を維持するための Office Communications Server 2007 と Office Communications Server 2007 R2 のクラスの拡張機能
+      - サポートされている以前のバージョンとの下位互換性を維持するための Office Communications Server 2007 および Office Communications Server 2007 R2 クラスの拡張機能
 
 <!-- end list -->
 
-  - **データ**(Lync Server 拡張スキーマと既存のスキーマクラスに保存されます):
+  - **データ**(Lync Server 拡張スキーマおよび既存のスキーマクラスに格納されている):
     
-      - ユーザー SIP の Uniform Resource Identifier (URI) とその他のユーザー設定
+      - ユーザーの SIP URI (Uniform Resource Identifier) と他のユーザー設定
     
-      - 返信グループ、会議アテンダントなどのアプリケーションの連絡先オブジェクト
+      - リソース グループ、会議アテンダントなどのアプリケーションの連絡先オブジェクト
     
       - 中央管理ストアへのポインター
     
-      - Kerberos 認証アカウント (オプションのコンピューターオブジェクト)
+      - Kerberos 認証のアカウント (オプションのコンピューター オブジェクト)
 
-このトピックでは、Lync Server 2013 で必要な Active Directory スキーマの変更について説明します。 以前のバージョンの Office Communications Server によって導入されたスキーマの変更については説明しません。 クラスとその説明の一覧については、「 [Lync Server 2013 のスキーマクラスと説明](lync-server-2013-schema-classes-and-descriptions.md)」を参照してください。 属性とその説明の一覧については、「 [Lync Server 2013 のスキーマ属性と説明](lync-server-2013-schema-attributes-and-descriptions.md)」を参照してください。 属性が含まれている可能性のあるクラスのリストについては、「 [Lync Server 2013 でのスキーマの属性](lync-server-2013-schema-attributes-by-class.md)」を参照してください。
+このトピックでは、Lync Server 2013 で必要な Active Directory スキーマの変更について説明します。 以前のバージョンの Office Communications Server で導入されたスキーマの変更については説明しません。 クラスとその説明の一覧については、「 [Lync Server 2013 のスキーマクラスと説明](lync-server-2013-schema-classes-and-descriptions.md)」を参照してください。 属性とその説明の一覧については、「 [Lync Server 2013 のスキーマの属性と説明](lync-server-2013-schema-attributes-and-descriptions.md)」を参照してください。 含まれる可能性のある属性を持つクラスの一覧については、「 [Lync Server 2013 のクラス別スキーマの属性](lync-server-2013-schema-attributes-by-class.md)」を参照してください。
 
-Msrtcsip-userenabled true プレフィックスは、Lync Server に固有のクラスと属性を指定します。
+MsRTCSIP プレフィックスは、Lync Server に固有のクラスと属性を識別します。
 
 <div>
 
-## <a name="new-active-directory-attributes"></a>新しい Active Directory の属性
+## <a name="new-active-directory-attributes"></a>新規 Active Directory 属性
 
-次の表では、Lync Server 2013 によって追加される Active Directory の属性について説明します。
+次の表に、Lync Server 2013 によって追加される Active Directory 属性を示します。
 
-### <a name="attributes-added-by-lync-server-2013"></a>Lync Server 2013 によって追加された属性
+### <a name="attributes-added-by-lync-server-2013"></a>Lync Server 2013 によって追加される属性
 
 <table>
 <colgroup>
@@ -85,15 +85,15 @@ Msrtcsip-userenabled true プレフィックスは、Lync Server に固有のク
 <tbody>
 <tr class="odd">
 <td><p>msExchUserHoldPolicies</p></td>
-<td><p>このマルチバリュー属性は、ユーザーに適用される保留ポリシーの識別子を保持します。 保留ポリシーは、保留中のユーザーのメールボックスアイテムを保持します。 この属性は Exchange 2013 と共有されます。</p></td>
+<td><p>この複数値の属性には、ユーザーに適用される保持ポリシーの識別子が保持されます。 この保持の間は、ユーザーのメールボックス アイテムが保持ポリシーに保存されます。 この属性は、Exchange 2013 と共有されます。</p></td>
 </tr>
 <tr class="even">
-<td><p>Msrtcsip-userenabled true-UserRoutingGroupId</p></td>
-<td><p>これは、SIP ルーティンググループの ID です。 同じグループ内のユーザーは、同じフロントエンドサーバーに登録されます。</p></td>
+<td><p>msRTCSIP-UserRoutingGroupId</p></td>
+<td><p>SIP ルーティング グループ ID。同じグループのユーザーは、同じフロントエンド サーバーに登録します。</p></td>
 </tr>
 <tr class="odd">
-<td><p>Msrtcsip-userenabled true-MirrorBackEndServer</p></td>
-<td><p>この属性は、フロントエンドプールによって使用されるミラー化された SQL Server バックエンドを格納するために使用されます。</p></td>
+<td><p>msRTCSIP-MirrorBackEndServer</p></td>
+<td><p>この属性は、フロントエンドプールで使用されるミラーリングされた SQL Server バックエンドを格納するために使用されます。</p></td>
 </tr>
 </tbody>
 </table>
@@ -105,9 +105,9 @@ Msrtcsip-userenabled true プレフィックスは、Lync Server に固有のク
 
 ## <a name="modified-active-directory-classes"></a>変更された Active Directory クラス
 
-次の表では、Lync Server 2013 によって変更される Active Directory クラスについて説明します。
+次の表では、Lync Server 2013 によって変更された Active Directory クラスについて説明します。
 
-### <a name="classes-modified-by-lync-server-2013"></a>Lync Server 2013 によって変更されたクラス
+### <a name="classes-modified-by-lync-server-2013"></a>Lync Server 2013 によって変更されるクラス
 
 <table>
 <colgroup>
@@ -119,33 +119,33 @@ Msrtcsip-userenabled true プレフィックスは、Lync Server に固有のク
 <tr class="header">
 <th>クラス</th>
 <th>変更</th>
-<th>Class または Attribute</th>
+<th>クラスまたは属性</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>ユーザー</p></td>
-<td><p>追加: 指定した値を含む</p>
-<p>追加: 指定した値を含む</p></td>
+<td><p>add:mayContain</p>
+<p>add:mayContain</p></td>
 <td><p>ProxyAddresses</p>
-<p>Msrtcsip-userenabled true-UserRoutingGroupId</p></td>
+<p>msRTCSIP-UserRoutingGroupId</p></td>
 </tr>
 <tr class="even">
-<td><p>問い合わせ</p></td>
-<td><p>追加: 指定した値を含む</p>
-<p>追加: 指定した値を含む</p></td>
+<td><p>連絡先</p></td>
+<td><p>add:mayContain</p>
+<p>add:mayContain</p></td>
 <td><p>ProxyAddresses</p>
-<p>Msrtcsip-userenabled true-UserRoutingGroupId</p></td>
+<p>msRTCSIP-UserRoutingGroupId</p></td>
 </tr>
 <tr class="odd">
-<td><p>メール受信者</p></td>
-<td><p>追加: 指定した値を含む</p></td>
+<td><p>Mail-Recipient</p></td>
+<td><p>add:mayContain</p></td>
 <td><p>msExchUserHoldPolicies</p></td>
 </tr>
 <tr class="even">
-<td><p>Msrtcsip-userenabled true-GlobalTopologySetting</p></td>
-<td><p>追加: 指定した値を含む</p></td>
-<td><p>Msrtcsip-userenabled true-MirrorBackEndServer</p></td>
+<td><p>msRTCSIP-GlobalTopologySetting</p></td>
+<td><p>add: mayContain</p></td>
+<td><p>msRTCSIP-MirrorBackEndServer</p></td>
 </tr>
 </tbody>
 </table>

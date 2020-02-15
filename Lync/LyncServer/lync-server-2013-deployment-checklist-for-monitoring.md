@@ -12,20 +12,20 @@ ms:contentKeyID: 48184080
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 71b7d69054df266139f3f13ca0ca53e1803f44b4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 26fd0c34d51445902e7f00439dd210ddfd64f392
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762715"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049469"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-monitoring-in-lync-server-2013"></a>Lync Server 2013 の監視の展開チェックリスト
+# <a name="deployment-checklist-for-monitoring-in-lync-server-2013"></a>Lync Server 2013 での監視の展開チェックリスト
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762715"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-05_
+_**トピックの最終更新日:** 2012-09-05_
 
-監視は既に各フロントエンドサーバーにインストールされてライセンス認証されていますが、Microsoft Lync Server 2013 の監視データを実際に収集する前に、いくつかの手順を実行する必要があります。 これらの手順については、次のチェックリストで説明します。
+監視は既に各フロントエンドサーバーにインストールされ、アクティブ化されていますが、実際に Microsoft Lync Server 2013 の監視データを収集するには、いくつかの手順を実行する必要があります。 これらの手順を以下のチェックリストで簡単に説明します。
 
 
 <table>
@@ -49,30 +49,30 @@ _**最終更新日:** 2012-09-05_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>段階</p></td>
+<td><p>フェーズ</p></td>
 <td><p>手順</p></td>
-<td><p>役割とグループのメンバーシップ</p></td>
+<td><p>役割とグループ メンバーシップ</p></td>
 <td><p>ドキュメント</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>必要なハードウェアとソフトウェアのインストール</strong></p></td>
-<td><p>監視用のバックエンドデータストアとして機能する、サポートされているバージョンの Microsoft SQL Server をコンピューターにインストールします。</p></td>
-<td><p>ローカル管理者グループのメンバーでもあるドメインユーザー。</p></td>
-<td><p><a href="lync-server-2013-supported-hardware.md">サポートガイドの Lync Server 2013 でサポートされているハードウェア</a></p>
-<p>サポートガイドの<a href="lync-server-2013-server-software-and-infrastructure-support.md">Lync server 2013 でのサーバーソフトウェアとインフラストラクチャのサポート</a></p></td>
+<td><p>監視用のバックエンド データ ストアとして機能するコンピューターに、サポートされているバージョンの Microsoft SQL Server をインストールします。</p></td>
+<td><p>ローカルの Administrators グループのメンバーでもあるドメイン ユーザー。</p></td>
+<td><p>「サポート」のガイドの「 <a href="lync-server-2013-supported-hardware.md">Lync Server 2013 でサポートされるハードウェア</a>」</p>
+<p>「サポート」のガイドの「 <a href="lync-server-2013-server-software-and-infrastructure-support.md">Lync server 2013 でのサーバーソフトウェアとインフラストラクチャのサポート</a>」</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>監視をサポートする適切な内部トポロジを作成する</strong></p></td>
-<td><p>Lync Server 2013 トポロジビルダーを使用して、監視データベースをトポロジに追加した後、更新されたトポロジを公開します。</p></td>
-<td><p>トポロジ (ローカルユーザーグループのメンバーであるユーザー) を定義するには、[] を選びます。</p>
-<p>トポロジを公開するには、ドメイン管理者グループと RTCUniversalServerAdmins グループのメンバーであるユーザー。</p></td>
+<td><p><strong>適切な内部トポロジを作成して監視をサポートする</strong></p></td>
+<td><p>Lync Server 2013 トポロジビルダーを使用して、監視データベースをトポロジに追加し、更新されたトポロジを公開します。</p></td>
+<td><p>トポロジを定義する場合は、ローカル ユーザー グループのメンバーであるユーザー。</p>
+<p>トポロジを公開する場合は、ドメイン管理者グループと RTCUniversalServerAdmins グループのメンバーであるユーザー。</p></td>
 <td><p>展開ガイドの<a href="lync-server-2013-associating-a-monitoring-store-with-a-front-end-pool.md">Lync Server 2013 でのフロントエンドプールへの監視ストアの関連付け</a></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>適切な監視設定を有効にする</strong></p></td>
-<td><p>グローバルまたはサイトのスコープで、通話の詳細記録 (CDR) と Quality of Experience (QoE) 監視を有効にします。</p></td>
-<td><p>RTCUniversalServerAdmins グループのメンバーであるか、CsCdrConfiguration と CsQoEConfiguration コマンドレットへのアクセスを提供する RBAC の役割が割り当てられているユーザー。</p></td>
-<td><p>運用ガイドの<a href="lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md">Lync Server 2013 での通話の記録と音質の設定を構成する</a></p></td>
+<td><p>通話詳細記録 (CDR) と QoE (Quality of Experience) 監視を、グローバル スコープ/サイト スコープで有効にします。</p></td>
+<td><p>RTCUniversalServerAdmins グループのメンバーであるユーザー、または CsCdrConfiguration および CsQoEConfiguration コマンドレットにアクセスできる RBAC の役割が割り当てられたユーザー。</p></td>
+<td><p>運用ガイドの<a href="lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md">Lync Server 2013 での通話詳細記録と qoe (Quality Of Experience) 設定の構成</a></p></td>
 </tr>
 </tbody>
 </table>

@@ -12,16 +12,16 @@ ms:contentKeyID: 48184289
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 91e1dca7ffc210e9b44913f21846726f7a776912
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c5929ed5fc3d29c0a42c223403a78f83154c5bef
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756181"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048030"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41756181"
 
 <span> </span>
 
-_**最終更新日:** 2012-11-01_
+_**トピックの最終更新日:** 2012-11-01_
 
-障害が発生したプールがオンラインに戻る (この例では Pool1 である) 場合は、次の手順を実行して、展開を通常の作業状態に戻します。
+障害が起きたプール (この例では Pool1) がオンラインに戻ったら、次の手順を実行して、展開を通常の状態に稼働状態に戻します。
 
-フェイルバックプロセスが完了するまでに数分かかることに注意してください。参照の場合、2万ユーザーのプールには最大60分かかることが予想されます。
+フェールバック プロセスは完了するまで数分かかることに注意してください。参考として、20,000 名のユーザーのプールでは、最大 60 分かかることが予想されます。
 
-1.  最初に Pool1 をホームにし、次のコマンドレットを入力して、Pool2 にフェイルオーバーしているユーザーをフェールバックします。
+1.  次のコマンドレットを入力して、もともと Pool1 に属していて Pool2 にフェールオーバーされたユーザーをフェールバックします。
     
         Invoke-CsPoolFailback -PoolFQDN <Pool1 FQDN> -Verbose
 
-その他の手順は必要ありません。 中央管理サーバーで障害が発生した場合は、Pool2 にそのままにしておくことができます。
+それ以外の操作は必要ありません。 中央管理サーバーで障害が発生した場合は、Pool2 のままにしておくことができます。
 
 </div>
 

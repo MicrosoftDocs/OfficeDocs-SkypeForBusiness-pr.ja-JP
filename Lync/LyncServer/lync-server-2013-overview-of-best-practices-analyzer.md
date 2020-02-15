@@ -12,16 +12,16 @@ ms:contentKeyID: 48185364
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 53e63bf6063803364a679a3cc0724ec1cbeae1a2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 85bee37f748f0356458770c742f26e704132ad6e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755601"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049959"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,41 +35,41 @@ ms.locfileid: "41755601"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-19_
+_**トピックの最終更新日:** 2012-09-19_
 
-Lync Server 2013 のベストプラクティスアナライザーを使用して、Lync Server 2013 の展開に関する問題を特定して解決することができます。 Lync Server 2013 のベストプラクティスアナライザーは、Lync Server 2013 コンポーネントから構成情報を収集します。
+Lync Server 2013、ベストプラクティスアナライザーを使用して、Lync Server 2013 の展開に関する問題を特定し、解決することができます。 Lync Server 2013、ベストプラクティスアナライザーは、Lync Server 2013 コンポーネントから構成情報を収集します。
 
-ベストプラクティスアナライザーは、適切なネットワークアクセスで、Active Directory ドメインサービス、Exchange Server ユニファイドメッセージング (UM)、および Lync Server 2013 を実行しているサーバーを調査できます。 ベストプラクティスアナライザーを使用して、次の操作を行うことができます。
+適切なネットワークアクセスにより、ベストプラクティスアナライザーは、Active Directory ドメインサービス、Exchange Server ユニファイドメッセージング (UM)、および Lync Server 2013 を実行しているサーバーを調査できます。 ベスト プラクティス アナライザーを使用して実行できるのは、以下の作業です。
 
-  - 事前にチェックを行い、推奨されるベストプラクティスに従って構成が設定されていることを確認します。
+  - 事前にチェックを実行して、推奨されるベスト プラクティスに従って構成が設定されていることを確認します。
 
-  - Lync Server 2013 に必要な更新プログラムを自動的に検出します。
+  - Lync Server 2013 に対する必要な更新プログラムを自動的に検出します。
 
-  - 最適の構成設定、サポートされていないオプション、不足している更新、または推奨されないプラクティスなどの問題の一覧を生成します。
+  - 最適化されていない構成設定、サポートされていないオプション、適用されていない更新プログラム、推奨されないプラクティスなど、問題の一覧を生成します。
 
-  - 特定の問題のトラブルシューティングと解決に役立ちます。
+  - 特定の問題のトラブルシューティングと修正を支援します。
 
-ベストプラクティスアナライザーには、次の機能が用意されています。
+ベスト プラクティス アナライザーは、以下の特徴を備えています。
 
-  - インストールの最小要件。
+  - 最小限のインストールの前提条件。
 
-  - トラブルシューティングのヒントを含む、報告された問題に関するオンラインドキュメント。
+  - トラブルシューティングのヒントなど、レポートされた問題に関するオンライン ドキュメント。
 
-  - 後で確認するために保存できる構成情報。
+  - 保存しておいて後で確認できる構成情報。
 
-  - 最新のシステムの分析。
+  - 最先端のシステム分析。
 
-ベストプラクティスアナライザーは、一連の XML 構成ファイルを使用して、Lync Server 2013 環境から収集する情報を決定します。 Active Directory ドメインサービスの確認に加えて、windows Server オペレーティングシステムのレジストリと、Windows Management Instrumentation (WMI) の設定などのソースを確認します。
+ベストプラクティスアナライザーは、一連の XML 構成ファイルを使用して、Lync Server 2013 環境から収集する情報を決定します。 Active Directory ドメイン サービスのチェックに加えて、Windows Management Instrumentation (WMI) での Windows Server オペレーティング システムのレジストリや設定などのソースをチェックします。
 
-ベストプラクティスアナライザーは、収集したデータを、Lync Server 2013 展開の設定と構成に関する事前定義されたルールのセットと比較します。
+ベストプラクティスアナライザーは、Lync Server 2013 の展開の設定と構成について、定義済みのルールのセットで収集したデータを比較します。
 
-収集したデータと事前定義されたルールを比較した後、ツールによって問題が報告されます。 レポートされるすべての問題について、ベストプラクティスアナライザーは、スキャンされた Lync Server 2013 環境と推奨される構成についての情報を提供します。 ベストプラクティスアナライザーには、特定の問題に関する詳細情報へのリンクも含まれています。
+収集したデータと事前定義されたルールを比較した後で、このツールは問題をレポートします。 レポートに含まれるすべての問題について、ベストプラクティスアナライザーは、スキャンされた Lync Server 2013 環境および推奨される構成についての情報を提供します。 また、特定の問題に関するさらに詳細な情報へのリンクも提供します。
 
 <div>
 
 
 > [!NOTE]  
-> Lync Server 2013 のベストプラクティスアナライザーは、Lync Server 2013 コンポーネントからのみ構成情報を収集します。 以前のバージョンのツールを使用して、以前の環境をスキャンすることができます。 詳細については、「 <A href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">Lync Server 2013 でベストプラクティスアナライザーを実行するための要件</A>」を参照してください。
+> Lync Server 2013、ベストプラクティスアナライザーは、Lync Server 2013 コンポーネントからの構成情報のみを収集します。 以前の環境のスキャンには、このツールの以前のバージョンを使用することができます。 詳細については、「 <A href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">Lync Server 2013 でベストプラクティスアナライザーを実行するための要件</A>」を参照してください。
 
 
 

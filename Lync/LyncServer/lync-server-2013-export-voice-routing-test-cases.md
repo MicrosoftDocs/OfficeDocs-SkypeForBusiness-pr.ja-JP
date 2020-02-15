@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 音声ルーティング テスト ケースのエクスポート'
+title: 'Lync Server 2013: 音声ルーティングテストケースのエクスポート'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184050
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 781c9e312044193cb6195ee849a880bea6e08485
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 47d014d9c2748a5e6479c0f86ebd32255f3361ea
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756221"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046010"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="export-voice-routing-test-cases-in-lync-server-2013"></a>Lync Server 2013 での音声ルーティング テスト ケースのエクスポート
+# <a name="export-voice-routing-test-cases-in-lync-server-2013"></a>Lync Server 2013 での音声ルーティングテストケースのエクスポート
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41756221"
 
 <span> </span>
 
-_**最終更新日:** 2012-11-01_
+_**トピックの最終更新日:** 2012-11-01_
 
-テストケースは、組織内のボイスルートをテストするための手段を提供します。ダイヤルする番号や、使用するダイヤルプランや音声ポリシーなどを定義し、そのような条件が満たされた場合に、指定された電話番号が表示されるようにします。PSTN ネットワークに正常にルーティングされました。
+テストケースでは、組織内のボイスルートをテストする方法が提供されます。ダイヤルする番号、使用するダイヤルプラン、音声ポリシーなどを定義することができます。また、これらの条件が満たされた場合に、指定された番号を使用して、PSTN ネットワークに正常にルーティングされます。
 
-Lync Server コントロールパネルを使用して作成できるテストケースは、通常、ケースが最初に作成されて実行されたサーバーにのみ保存されます。 ただし、これらのテストケースは XML ファイルとしてエクスポートし、他のサーバーにインポートすることができます。 これにより、トポロジ内のさまざまな場所にあるさまざまなコンピューターで同じテストを実行できます。
+Lync Server コントロールパネルを使用して作成できるテストケースは、通常、ケースが最初に作成されて実行されたサーバーにのみ保存されます。 ただし、これらのテスト ケースは XML ファイル (拡張子 .vtest) としてエクスポートし、他のサーバーにインポートできます。 これにより、トポロジ内のさまざまな地点にあるさまざまなコンピューターで同じテストを実行できるようになります。
 
 <div>
 
-## <a name="to-export-a-voice-routing-test-case"></a>ボイスルーティングテストケースをエクスポートするには
+## <a name="to-export-a-voice-routing-test-case"></a>音声ルーティングのテスト ケースをエクスポートするには
 
 1.  Lync Server コントロールパネルで、[**音声ルーティング**] をクリックし、[**音声ルーティングのテスト**] をクリックします。
 
-2.  [**テスト用のボイスルーティング**] タブで、エクスポートするテストケース (またはテストケース) を選択します。 複数のテストケースを選択するには、エクスポートする最初のケースをクリックして、Ctrl キーを押しながら、エクスポートする追加のケースを選択します。
+2.  [**音声ルーティングのテスト**] タブで、エクスポート対象のテスト ケースを選択します。複数のテスト ケースを選択するには、エクスポートする 1 番目のケースをクリックし、Ctrl キーを押し下げたまま、エクスポートするその他のケースを選択します。
 
-3.  [**アクション**] をクリックし、[**テストケースのエクスポート**] をクリックします。
+3.  [**操作**] メニューの [**テスト ケースのエクスポート**] をクリックします。
 
-4.  [名前**を付けて保存**] ダイアログボックスで、エクスポートされたテストケースを保存するフォルダーを選択し、結果の XML ファイルの名前を [**ファイル名**] ボックスに入力します。 複数のテストケースをエクスポートする場合、これらのすべてのテストケースは1つの XML ファイルに保存されることに注意してください。
+4.  [**名前を付けて保存**] ダイアログ ボックスで、エクスポートされたテスト ケースを保存するフォルダーを選択し、[**ファイル名**] ボックスに作成される XML ファイルの名前を入力します。複数のテスト ケースをエクスポートする場合は、テスト ケースのすべてが 1 つの XML ファイルに保存されます。
 
-5.  テストケースを保存するには、[**保存**] をクリックします。
+5.  テスト ケースを保存するには、[**保存**] をクリックします。
 
 </div>
 
@@ -62,7 +62,7 @@ Lync Server コントロールパネルを使用して作成できるテスト�
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 音声ルーティング テスト ケースのインポート](lync-server-2013-import-voice-routing-test-cases.md)  
+[Lync Server 2013 での音声ルーティングテストケースのインポート](lync-server-2013-import-voice-routing-test-cases.md)  
   
 
 </div>

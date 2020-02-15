@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ドメイン準備手続き'
+title: 'Lync Server 2013: ドメインの準備の実行'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184847
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 408dea780b4136f86ffed30d199d1d0ee63d6821
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 960a3664bb7b629a9d66b375d072f826ed9e2738
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765065"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050769"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="running-domain-preparation-for-lync-server-2013"></a>Lync Server 2013 のドメイン準備手続き
+# <a name="running-domain-preparation-for-lync-server-2013"></a>Lync Server 2013 のドメインの準備を実行する
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "41765065"
 
 <span> </span>
 
-_**最終更新日:** 2013-04-16_
+_**トピックの最終更新日:** 2013-04-16_
 
-セットアップまたは Lync Server 管理シェルコマンドレットを使用して、ドメインを準備することができます。 ドメインを準備するコマンドレットでは、 **CsAdDomain を有効に**することができます。
+セットアップまたは Lync Server 管理シェルコマンドレットを使用して、ドメインを準備することができます。 ドメインを準備するコマンドレットは、 **-CsAdDomain を有効に**します。
 
-ドメインの準備は、Lync Server 2013 用の Active Directory ドメインサービスの準備での最終的な手順です。
+「ドメインの準備」は、Lync Server 2013 用の Active Directory ドメインサービスを準備するための最後の手順です。
 
 <div>
 
 ## <a name="to-use-setup-to-prepare-domains"></a>セットアップを使用してドメインを準備するには
 
-1.  Domain Admins グループのメンバーとして、ドメイン内の任意のサーバーにログオンします。
+1.  Domain Admins グループのメンバーとしてドメイン内の任意のサーバーにログオンします。
 
-2.  Lync Server 2013 のインストールフォルダーまたはメディアから setup.exe を実行して、Lync Server 展開ウィザードを開始します。
+2.  Lync Server 2013 のインストールフォルダーまたはメディアから、setup.exe を実行して Lync Server 展開ウィザードを起動します。
 
-3.  [**Active Directory の準備**] をクリックして、展開状態が判別されるまで待ちます。
+3.  [**Active Directory の準備**] をクリックし、展開状態が判別されるまで待ちます。
 
 4.  [**手順 5: 現在のドメインの準備**] で、[**実行**] をクリックします。
 
 5.  [**ドメインの準備**] ページで、[**次へ**] をクリックします。
 
-6.  [**コマンドの実行**] ページで [**タスク状態: 完了**] を見つけて、[**ログの表示**] をクリックします。
+6.  [**コマンドを実行しています**] ページで [**タスク状態: 完了**] を見つけて、[**ログの表示**] をクリックします。
 
-7.  [**アクション**] 列で、[**ドメインの準備**] を展開し、各タスクの最後に** \<成功\> **の実行結果を探して、ドメインの準備が正常に完了したことを確認します。次に、[**完了**] をクリックします。
+7.  [**アクション**] 列の下にある [**ドメインの準備**] を展開し、各タスクの最後に** \<成功\> **した実行結果を検索して、ドメインの準備が正常に完了したことを確認し、ログを閉じて、[**完了**] をクリックします。
 
-8.  Active Directory のレプリケーションが完了するのを待ちます。または、フォレストルートドメインコントローラーの [Active Directory サイトとサービス] スナップインで一覧表示されているすべてのドメインコントローラーへの複製が強制されます。
+8.  Active Directory のレプリケーションが完了するまで待機するか、フォレストのルートドメインコントローラーの [Active Directory サイトとサービス] スナップインに一覧表示されているすべてのドメインコントローラーへのレプリケーションを強制的に実行します。
 
 </div>
 
@@ -67,31 +67,31 @@ _**最終更新日:** 2013-04-16_
 
 ## <a name="to-use-cmdlets-to-prepare-the-domain"></a>コマンドレットを使用してドメインを準備するには
 
-1.  Domain Admins グループのメンバーとして、ドメイン内の任意のサーバーにログオンします。
+1.  Domain Admins グループのメンバーとしてドメイン内の任意のサーバーにログオンします。
 
-2.  Lync Server のコアコンポーネントは、次のようにインストールします。
+2.  Lync Server コアコンポーネントを次のようにインストールします。
     
-    1.  Lync Server 2013 のインストールフォルダーまたはメディアから setup.exe を実行して、Lync Server 展開ウィザードを開始します。
+    1.  Lync Server 2013 のインストールフォルダーまたはメディアから、setup.exe を実行して Lync Server 展開ウィザードを起動します。
     
-    2.  Microsoft Visual C++ 再頒布可能パッケージをインストールするかどうかを確認するメッセージが表示されたら、[**はい**] をクリックします。
+    2.  Microsoft Visual C++ (再頒布可能) のインストールを要求するメッセージが表示されたら、**[はい]** をクリックします。
     
-    3.  [Lync Server 2013 セットアップ] ダイアログボックスで、Lync Server ファイルをインストールする場所を入力するように求められます。 既定の場所を選ぶか、目的の場所を**参照**し、[**インストール**] をクリックします。
+    3.  [Lync Server 2013 セットアップ] ダイアログボックスで、Lync Server ファイルをインストールする場所を指定するように求められます。 既定の場所を選択するか、または好みの場所を **[参照]** で選択し、**[インストール]** をクリックします。
     
-    4.  [使用許諾契約] ページで、[**使用許諾契約書に同意**します] をオンにし、[ **OK]** をクリックします。 インストーラーは、Lync Server 2013 コアコンポーネントをインストールします。
+    4.  [使用許諾契約書] ページで **[使用許諾契約書に同意します]** チェック ボックスをオンにし、**[OK]** をクリックします。 インストーラーによって Lync Server 2013 のコアコンポーネントがインストールされます。
 
-3.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+3.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
-4.  次のコマンドレットを実行します。
+4.  実行
     
         Enable-CsAdDomain [-Domain <DomainFQDN>] 
     
-    次に例を示します。
+    次にその例を示します。
     
         Enable-CsAdDomain -Domain domain1.contoso.net 
     
-    Domain パラメーターを指定しない場合、既定値はローカルドメインです。
+    ドメイン パラメーターを指定しない場合、既定はローカル ドメインです。
 
-5.  ドメインの準備が正常に完了したことを確認します。 次のコマンドレットを実行します。
+5.  ドメインの準備が成功したことを確認します。 実行
     
         Get-CsAdDomain [-Domain <Domain FQDN>] [-DomainController <Domain controller FQDN>] [-GlobalCatalog <Global catalog server FQDN>] [-GlobalSettingsDomainController <Domain controller FQDN where global settings are stored>] 
     
@@ -103,12 +103,12 @@ _**最終更新日:** 2013-04-16_
     
 
     > [!NOTE]  
-    > Parameter GlobalSettingsDomainController を使うと、グローバル設定が保存されている場所を指定できます。 設定がシステムコンテナーに保存されている場合 (つまり、グローバル設定が構成コンテナーに移行されていないアップグレード展開で一般的)、Active Directory フォレストのルートでドメインコントローラーを定義します。 グローバル設定を構成コンテナーに保存する (新しい展開または構成コンテナーに設定を移行しているアップグレードの展開で一般的) 場合、フォレストに任意のドメイン コントローラーを定義します。 このパラメーターを指定しない場合、設定は構成コンテナーに保存され、AD&nbsp;DS の任意のドメインコントローラーを参照することがコマンドレットによって想定されます。
+    > パラメーター GlobalSettingsDomainController を使用して、グローバル設定を保存する場所を指定できます。 設定がシステムコンテナーに格納されている場合 (これは、構成コンテナーにグローバル設定が移行されていないアップグレード展開で一般的に使用されます)、Active Directory フォレストのルートにドメインコントローラーを定義します。 グローバル設定を構成コンテナーに保存する (新しい展開または構成コンテナーに設定を移行しているアップグレードの展開で一般的) 場合、フォレストに任意のドメイン コントローラーを定義します。 このパラメーターを指定しない場合、コマンドレットは、設定が構成コンテナーに格納されていると見なし、AD&nbsp;DS の任意のドメインコントローラーを参照します。
 
     
     </div>
     
-    **Domain**パラメーターを指定しない場合、既定値はローカルドメインです。
+    **Domain**パラメーターを指定しない場合、既定値はローカルドメインになります。
     
     このコマンドレットは、ドメインの準備が正常に完了した場合に、 **LC\_domainsettings\_状態\_** の値を返します。
 
@@ -119,7 +119,7 @@ _**最終更新日:** 2013-04-16_
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 のコマンドレットの使用によるドメインの準備の無効化](lync-server-2013-using-cmdlets-to-reverse-domain-preparation.md)  
+[Lync Server 2013 のコマンドレットを使用してドメインの準備を元に戻す](lync-server-2013-using-cmdlets-to-reverse-domain-preparation.md)  
 
 
 [Lync Server 2013 のドメインの準備](lync-server-2013-preparing-domains.md)  

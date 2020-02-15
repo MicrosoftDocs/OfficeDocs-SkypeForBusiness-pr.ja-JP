@@ -12,16 +12,16 @@ ms:contentKeyID: 49733854
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dad938bf47292b74b451cefb32b0c5345d03e284
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 47482eade227c55091fd5d3ca0f7b5d58123fa91
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765828"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049999"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,18 +35,18 @@ ms.locfileid: "41765828"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-10_
+_**トピックの最終更新日:** 2012-10-10_
 
-Lync Server 2013 は、さまざまな方法で、着信の転送と同時呼び出しの構成オプションを提供します。 たとえば、着信通話を公衆交換電話網 (PSTN) に外部で転送する必要がない組織では、管理者は特殊な音声ポリシーを適用してこの制限を展開できます。
+Lync Server 2013 は、着信の転送と同時呼び出しについて、非常に広範な構成オプションを提供します。 たとえば、組織が着信を公衆交換電話網 (PSTN) に外部転送したくない場合、管理者は特殊な音声ポリシーを適用して、この制限を展開することができます。
 
-さらに、代理人が自分の管理者への着信通話に対して、同時呼び出しをモバイルデバイスに設定できるようになりました。 これにより、より柔軟に代理人に連絡できるようになり、卓上電話に結び付けられずに、マネージャーに代わって通話に応答することができます。
+また、マネージャーへの着信に対して、代理人が自分のモバイル デバイスへの同時呼び出しを設定できるようになりました。代理人はさらなる柔軟性が得られ、マネージャーの代わりに通話に応答できるようになるため、常に机の電話の近くにいる必要がなくなります。
 
 <div>
 
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 の新しいエンタープライズ VoIP 機能](lync-server-2013-new-enterprise-voice-features.md)  
+[Lync Server 2013 の新しいエンタープライズ Voip 機能](lync-server-2013-new-enterprise-voice-features.md)  
   
 
 </div>

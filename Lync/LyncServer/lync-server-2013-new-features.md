@@ -12,16 +12,16 @@ ms:contentKeyID: 48183722
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed5fa866c178a6e859cfba5eff92e2f6ba13b23a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2cbcb6a3945fbe367f9f4ef706287399631c95c9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743237"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048478"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41743237"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-04_
+_**トピックの最終更新日:** 2012-10-04_
 
-Lync Server 2013 には、既存の機能の大幅な強化に加えて、多くの新機能が導入されています。 このセクションでは、これらの新機能と拡張機能の概要について説明します。
+Lync Server 2013 には、既存の機能の大幅な機能強化に加えて、多くの新機能が導入されています。 このセクションでは、これらの新機能と機能強化の概要を説明します。
 
-Lync Server 2013 の新機能のディスカッションは、このセクションのトピック間にまとめられています。
+Lync Server 2013 の新機能の説明は、このセクションのトピックにまとめられています。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 の新しい管理機能](lync-server-2013-new-management-and-administration-features.md)
+  - [Lync Server 2013 の新しい管理および管理機能](lync-server-2013-new-management-and-administration-features.md)
 
   - [Lync Server 2013 のトポロジの変更](lync-server-2013-topology-changes.md)
 
@@ -53,27 +53,27 @@ Lync Server 2013 の新機能のディスカッションは、このセクショ
 
   - [Lync Server 2013 の新しい仮想化機能](lync-server-2013-new-virtualization-features.md)
 
-  - [Lync Server 2013 の新しい IM およびプレゼンスの機能](lync-server-2013-new-im-and-presence-features.md)
+  - [Lync Server 2013 の新しい IM およびプレゼンス機能](lync-server-2013-new-im-and-presence-features.md)
 
   - [Lync Server 2013 の新しい会議機能](lync-server-2013-new-conferencing-features.md)
 
-  - [Lync Server 2013 の外部ユーザー アクセスの新機能](lync-server-2013-new-features-for-external-user-access.md)
+  - [Lync Server 2013 の外部ユーザーアクセスの新機能](lync-server-2013-new-features-for-external-user-access.md)
 
-  - [Lync Server 2013 の新しいエンタープライズ VoIP 機能](lync-server-2013-new-enterprise-voice-features.md)
+  - [Lync Server 2013 の新しいエンタープライズ Voip 機能](lync-server-2013-new-enterprise-voice-features.md)
 
   - [Lync Server 2013 の新しい監視機能](lync-server-2013-new-monitoring-features.md)
 
-  - [Lync Server 2013 のアーカイブの新機能](lync-server-2013-new-archiving-features.md)
+  - [Lync Server 2013 の新しいアーカイブ機能](lync-server-2013-new-archiving-features.md)
 
-  - [Lync Server 2013 の新しい Exchange Server の統合機能](lync-server-2013-new-exchange-server-integration-features.md)
+  - [Lync Server 2013 の新しい Exchange Server 統合機能](lync-server-2013-new-exchange-server-integration-features.md)
 
-  - [Lync Server 2013 の常設チャット サーバーの新機能](lync-server-2013-new-persistent-chat-server-features.md)
+  - [Lync Server 2013 の新しい常設チャットサーバーの機能](lync-server-2013-new-persistent-chat-server-features.md)
 
   - [Lync Server 2013 の新しい IPv6 機能](lync-server-2013-new-ipv6-features.md)
 
-  - [Lync Server 2013 の新しい統合連絡先ストアの機能](lync-server-2013-new-unified-contact-store-feature.md)
+  - [Lync Server 2013 の新しい統合連絡先ストア機能](lync-server-2013-new-unified-contact-store-feature.md)
 
-  - [Lync Server 2013 の新しいビデオの機能](lync-server-2013-new-video-features.md)
+  - [Lync Server 2013 の新しいビデオ機能](lync-server-2013-new-video-features.md)
 
 </div>
 

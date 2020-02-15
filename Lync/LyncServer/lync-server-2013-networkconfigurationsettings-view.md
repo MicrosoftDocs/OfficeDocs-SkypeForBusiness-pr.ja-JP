@@ -12,20 +12,20 @@ ms:contentKeyID: 49733591
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2cd85ae37b317368a1d79ed46fd3752b6a475bd5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 28ca71086b888a522869e2b273299a73df5e9cc8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765868"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050539"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="networkconfigurationsettings-view-in-lync-server-2013"></a>Lync Server 2013 の NetworkConfigurationSettings view
+# <a name="networkconfigurationsettings-view-in-lync-server-2013"></a>Lync Server 2013 の NetworkConfigurationSettings ビュー
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41765868"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-03_
+_**トピックの最終更新日:** 2012-10-03_
 
-NetworkConfigurationSettings ビューには、ネットワーク構成に関する情報が格納されます。 このビューは、Microsoft Lync Server 2013 で導入されました。
+NetworkConfigurationSettings ビューには、ネットワーク構成についての情報が格納されます。 このビューは Microsoft Lync Server 2013 で導入されました。
 
 
 <table>
@@ -57,17 +57,17 @@ NetworkConfigurationSettings ビューには、ネットワーク構成に関す
 <tr class="odd">
 <td><p>SubnetIP</p></td>
 <td><p>int</p></td>
-<td><p>サブネットの IP アドレス (IPv4 アドレスのみがサポートされています)。</p></td>
+<td><p>サブネット IP アドレス (IPv4 アドレスのみサポート)</p></td>
 </tr>
 <tr class="even">
 <td><p>UserSiteName</p></td>
 <td><p>nvarchar(128</p></td>
-<td><p>ユーザーのサイト名。</p></td>
+<td><p>ユーザーのサイト名</p></td>
 </tr>
 <tr class="odd">
 <td><p>RegionName</p></td>
 <td><p>nvarchar(128</p></td>
-<td><p>ユーザーの国/地域の名前です。</p></td>
+<td><p>ユーザーの国/地域の名前</p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 長い会議の予定表を分ける'
+title: 'Lync Server 2013: 大規模会議予定表の分離'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184095
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d6ed3e1e50ab140aea6481e92519660f91bf7e8e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 16fc5bab09e4485378657a299853d5323e3789ef
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764895"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048818"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="separate-large-meeting-calendar-in-lync-server-2013"></a>Lync Server 2013 での、個別の大きな会議の予定表
+# <a name="separate-large-meeting-calendar-in-lync-server-2013"></a>Lync Server 2013 の大規模会議予定表の分離
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41764895"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-01_
+_**トピックの最終更新日:** 2012-10-01_
 
-大会議の各プールについては、そのプールでスケジュールされている大規模な会議の予定表を個別に管理する必要があります。 たとえば、大規模な会議プールで1人のユーザーアカウントを作成し、Lync 2013 用の Exchange および Online 会議アドインを使用して、別の予定表を管理することができます。 複数のユーザー アカウントを使用して、サポート スタッフが大規模な会議を作成できるようにした場合は、サポート スタッフのメンバーが作成した大規模な会議をすべて集約した別の予定表を設定できます。
+大規模会議プールごとに、そのプールでスケジュールされている大規模な会議の個別の予定表を保持します。 たとえば、大規模な会議プールで1つのユーザーアカウントを作成し、Lync 2013 用の Exchange およびオンライン会議アドインを使用して、別の予定表を管理することができます。 複数のユーザー アカウントを使用して、サポート スタッフが大規模な会議を作成できるようにした場合は、サポート スタッフのメンバーが作成した大規模な会議をすべて集約した別の予定表を設定できます。
 
 大規模な会議の個別の予定表を保持すると、スケジュールの重複を防ぐことができ、アクティブになっている大規模な会議は常に 1 つだけであることが保証されます。
 

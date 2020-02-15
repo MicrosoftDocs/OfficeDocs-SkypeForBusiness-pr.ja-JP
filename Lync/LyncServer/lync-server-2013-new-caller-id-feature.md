@@ -12,16 +12,16 @@ ms:contentKeyID: 49733562
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e62a74342e7501810edda4d0f46ff36aa80d76f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f168f0779da1ba1d2b3bd6549135234f2cec563e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765798"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050109"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,18 +35,18 @@ ms.locfileid: "41765798"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-05_
+_**トピックの最終更新日:** 2012-10-05_
 
-Lync Server 2013 を使用すると、管理者は、通話相手の電話番号の形式を柔軟に変更することができます。 この発信者番号認識のプレゼンテーション機能により、管理者は、必要に応じて、トランクピアによって認識されるダイヤル形式に、発信者の電話番号を変更することができます。 たとえば、ダイヤル文字列の冒頭から +44 を取り除いて 0114 に置き換える変換ルールを記述できます。
+Lync Server 2013 を使用すると、管理者は通話パーティの電話番号の形式を柔軟に変更できます。 この発信者番号表現機能によって、管理者は必要に応じて、発信者電話番号をトランク ピアで認識されるダイヤル形式へ変更できます。 たとえば、ダイヤル文字列の冒頭から +44 を取り除いて 0114 に置き換える変換ルールを記述できます。
 
-Lync Server 2013 では、発信者の電話番号と呼び出し先の電話番号の両方を、必要に応じてさまざまな形式に変換することができます。 この柔軟性により、Lync Server 2013 は、さまざまなテレフォニーシステム間でのトランクの翻訳として機能することができます。
+これで、Lync Server 2013 を使用して、発信者の電話番号と呼び出し先の電話番号の両方を、必要に応じて異なる形式に変換することができます。 この柔軟性により、Lync Server 2013 はさまざまなテレフォニーシステム間のトランクトランスレーターとして機能することが可能になります。
 
 <div>
 
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 の新しいエンタープライズ VoIP 機能](lync-server-2013-new-enterprise-voice-features.md)  
+[Lync Server 2013 の新しいエンタープライズ Voip 機能](lync-server-2013-new-enterprise-voice-features.md)  
   
 
 </div>

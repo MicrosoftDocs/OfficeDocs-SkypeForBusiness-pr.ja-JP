@@ -12,16 +12,16 @@ ms:contentKeyID: 48184608
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 087c6fa4518f90fdfca6b752386e0eed3b5162bb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a627da511dcaf82512e2fd41f9cb434ab4d476c5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725197"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050629"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41725197"
 
 <span> </span>
 
-_**最終更新日:** 2012-06-19_
+_**トピックの最終更新日:** 2012-06-19_
 
-顧客サービス、社内ヘルプデスク、または部門の一般的な電話のサポートなど、特定の種類の通話に応答して管理するユーザーのグループが所属している場合は、Lync Server 応答グループアプリケーションを展開して、これらの種類を管理することができます。通話の数。 応答グループアプリケーションは、エージェントと呼ばれる指定された人への着信通話をルーティングし、キューに登録します。 応答グループを使用すると、電話サポート サービスの利用を拡大できるだけでなく、これらのサービスを実行する際のオーバーヘッドを軽減できます。 このセクションでは、応答グループの計画に関する考慮事項について説明します。
+顧客サービス、内部ヘルプデスク、または部署の一般的な電話サポートなど、特定の種類の通話に応答して管理するユーザーのグループが組織にある場合は、これらの種類を管理するために Lync Server Response Group アプリケーションを展開できます。通話の数。 応答グループアプリケーションは、エージェントと呼ばれる指定されたユーザーに着信呼び出しをルーティングし、キューに入れます。 応答グループを使用すると、電話サポート サービスの利用を拡大できるだけでなく、これらのサービスを実行する際のオーバーヘッドを軽減できます。 このセクションでは、応答グループの計画に関する考慮事項について説明します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
   - [Lync Server 2013 の応答グループアプリケーションの概要](lync-server-2013-overview-of-the-response-group-application.md)
 
-  - [Lync Server 2013 の応答グループで使用されるコンポーネント](lync-server-2013-components-used-by-response-group.md)
+  - [Lync Server 2013 の応答グループによって使用されるコンポーネント](lync-server-2013-components-used-by-response-group.md)
 
   - [Lync Server 2013 の応答グループの技術要件](lync-server-2013-technical-requirements-for-response-group.md)
 
-  - [Lync Server 2013 の応答グループに対してサポートされるクライアント](lync-server-2013-clients-supported-for-response-group.md)
+  - [Lync Server 2013 の応答グループに対してサポートされているクライアント](lync-server-2013-clients-supported-for-response-group.md)
 
   - [Lync Server 2013 の応答グループの処理能力の計画](lync-server-2013-capacity-planning-for-response-group.md)
 

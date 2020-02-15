@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: アーカイブオプションをグローバルレベルで構成する'
+title: 'Lync Server 2013: グローバルレベルでのアーカイブオプションの構成'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185303
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 59ab58cbee3479bff424e7d69d475e1d83fdd3bf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4d2bcd5265d9e8af53cb2dab608bbe08f2902330
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726517"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049799"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-archiving-options-at-the-global-level-in-lync-server-2013"></a>Lync Server 2013 のグローバルレベルでアーカイブオプションを構成する
+# <a name="configuring-archiving-options-at-the-global-level-in-lync-server-2013"></a>Lync Server 2013 のグローバルレベルでのアーカイブオプションの構成
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41726517"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-10_
+_**トピックの最終更新日:** 2012-10-10_
 
-トポロジにアーカイブを追加してトポロジを公開すると、Lync Server によってアーカイブ用のグローバル構成が作成されます。 既定では、グローバル構成ではアーカイブオプションが有効になっていません。 グローバル構成より優先されるサイト構成またはプール構成を設定しない限り、グローバル構成は、展開全体に対して有効化されるオプションを制御します。
+トポロジにアーカイブを追加してトポロジを公開すると、Lync Server はアーカイブ用のグローバル構成を作成します。 既定では、グローバル構成で有効になっているアーカイブ オプションはありません。 グローバル構成より優先されるサイト構成またはプール構成を設定しない限り、グローバル構成は、展開全体に対して有効化されるオプションを制御します。
 
-アーカイブ構成のしくみ (グローバル、サイト、プール構成の階層など) について詳しくは、「計画ドキュメント、展開ドキュメント、または運用ドキュメント」の「 [Lync Server 2013 でのアーカイブの動作](lync-server-2013-how-archiving-works.md)」をご覧ください。
+グローバル構成、サイト構成、およびプール構成の階層など、アーカイブ構成のしくみの詳細については、「計画」、「展開」、または「操作」のドキュメントの「 [Lync Server 2013 でのアーカイブの仕組み](lync-server-2013-how-archiving-works.md)」を参照してください。
 
 <div>
 
 
 > [!NOTE]  
-> アーカイブを有効にする前に、アーカイブ構成ですべての適切なオプションを指定する必要があります。
+> アーカイブを有効にするには、その前にアーカイブ構成で適切なオプションをすべて指定する必要があります。
 
 
 
@@ -53,33 +53,33 @@ _**最終更新日:** 2012-10-10_
 
 <div>
 
-## <a name="to-configure-archiving-options-at-the-global-level"></a>グローバルレベルでアーカイブオプションを構成するには
+## <a name="to-configure-archiving-options-at-the-global-level"></a>グローバル レベルでアーカイブ オプションを構成するには
 
 1.  CsArchivingAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server 2013 コントロールパネルを開きます。 Lync Server 2013 コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server 2013 コントロールパネルを開きます。 Lync Server 2013 コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
 3.  左側のナビゲーション バーで、[**監視とアーカイブ**] をクリックし、[**アーカイブ構成**] をクリックします。
 
 4.  [**アーカイブ構成**] ページで、[**グローバル**]、[**編集**]、[**詳細の表示**] の順にクリックします。
 
-5.  [**編集アーカイブ設定 - Global**] の [**アーカイブ設定**] ボックスの一覧で、次のいずれかのアーカイブ オプションを選択します。
+5.  [**編集 アーカイブ設定 - Global**] の [**アーカイブ設定**] ドロップダウン リストで、次のいずれかのアーカイブ オプションを選択します。
     
-      - **[アーカイブを無効にする]**
+      - [**アーカイブを無効にする**]
     
-      - **[IM セッションをアーカイブする]**
+      - [**IM セッションをアーカイブする**]
     
-      - **[IM および Web 会議セッションをアーカイブする]**
+      - [**IM および Web 会議セッションをアーカイブする**]
 
 6.  また、[**アーカイブ設定 - グローバル**] ページで、次の操作を実行します。
     
       - アーカイブを使用できない場合にアクティビティをブロックするには、[**アーカイブ失敗時はインスタント メッセージング (IM) または Web 会議セッションを禁止する**] チェック ボックスをオンにします。
     
-      - アーカイブデータの保存に Microsoft Exchange Server を使用するには、[ **Microsoft exchange 統合**] チェックボックスをオンにします。
+      - Microsoft Exchange Server を使用してアーカイブデータを保存するには、[ **Microsoft exchange 統合**] チェックボックスをオンにします。
     
       - データの削除を有効にするには、[**アーカイブ データの削除を有効にする**] チェック ボックスをオンにし、次のどちらかの操作を実行します。
         
-          - 一定の日数が経過した後に削除されるよう指定するには、[**最大日数が経過したエクスポートおよび保存済みアーカイブ データを削除する**] をクリックし、日数を指定します。
+          - 一定の日数が経過した後に削除されるよう指定するには、[**最大日数が経過したエクスポートおよび保存済みアーカイブ データを削除する**] をクリックして、日数を指定します。
         
           - エクスポートされたアーカイブ データに削除対象を限定するには、[**エクスポートされたアーカイブ データのみを削除する**] をクリックします。
 

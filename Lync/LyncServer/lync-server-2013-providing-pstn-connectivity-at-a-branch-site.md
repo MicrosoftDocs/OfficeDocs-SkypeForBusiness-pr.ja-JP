@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ブランチ サイトでの PSTN 接続の提供'
+title: 'Lync Server 2013: ブランチサイトでの PSTN 接続の提供'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185633
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5dfc039b0b1cd2995d0a658f1c1c78e0941d405d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a9fe25fc10da3ffc27b882b7d41aac0ad97677f1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724777"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049549"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="providing-pstn-connectivity-at-a-branch-site-in-lync-server-2013"></a>Lync Server 2013 におけるブランチ サイトでの PSTN 接続の提供
+# <a name="providing-pstn-connectivity-at-a-branch-site-in-lync-server-2013"></a>Lync Server 2013 のブランチサイトでの PSTN 接続の提供
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41724777"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-05_
+_**トピックの最終更新日:** 2012-10-05_
 
-Microsoft Lync Server 2013、計画ツールを使用してトポロジにブランチサイトを追加し、ブランチサイトで音声インフラストラクチャを設定することをお勧めします。
+トポロジにブランチサイトを追加したり、ブランチサイトで音声インフラストラクチャをセットアップしたりするには、Microsoft Lync Server 2013、計画ツールを使用することをお勧めします。
 
-計画ツールを使用していない場合は、まずこのセクションのトピックに記載されている手順を実行します。最初に、ブランチサイトを追加するには、IP/公衆交換電話網 (PSTN) ゲートウェイを定義するか、SIP トランク (メディアのバイパスありまたはなし) を構成して、音声インフラストラクチャをセットアップします。 プライベートブランチ exchange (PBX) からブランチサイトへの接続は、別のオプションです。
+計画ツールを使用していない場合は、このセクションのトピックの手順を使用します。最初にブランチサイトを追加するには、IP/公衆交換電話網 (PSTN) ゲートウェイを定義するか、または SIP トランクを構成することによって (メディアバイパスを含むかどうかにかかわらず)、音声インフラストラクチャを設定します。 構内交換 (PBX) をブランチサイトに接続する方法は、別のオプションです。
 
 <div>
 
 
 > [!NOTE]  
-> ブランチサイトの回復性を提供する場合は、ブランチサイトに Survivable Branch Appliance、Survivable Branch Server、Standard Edition サーバーを展開する必要があります。 詳細については、展開ドキュメントに「 <A href="lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md">Lync server 2013 を使って Survivable Branch Appliance または server を展開する</A>」または「 <A href="lync-server-2013-deploying-lync-server.md">lync server 2013</A>を展開する」を参照してください。
+> ブランチサイトの復元を提供する場合は、ブランチサイトに存続可能ブランチアプライアンス、存続可能ブランチサーバー、または Standard Edition サーバーを展開する必要があります。 詳細については、「展開」のドキュメントの「<A href="lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md">存続可能ブランチアプライアンスまたはサーバーを Lync server 2013 で展開する</A>」または「 <A href="lync-server-2013-deploying-lync-server.md">lync server 2013</A>を展開する」を参照してください。
 
 
 
@@ -53,15 +53,15 @@ Microsoft Lync Server 2013、計画ツールを使用してトポロジにブラ
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 でのトポロジへのブランチ サイトの追加](lync-server-2013-add-branch-sites-to-your-topology.md)
+  - [Lync Server 2013 でのトポロジへのブランチサイトの追加](lync-server-2013-add-branch-sites-to-your-topology.md)
 
-  - [Lync Server 2013 でのブランチ サイト用の PSTN ゲートウェイの定義](lync-server-2013-define-a-pstn-gateway-for-a-branch-site.md)
+  - [Lync Server 2013 でのブランチサイト用の PSTN ゲートウェイの定義](lync-server-2013-define-a-pstn-gateway-for-a-branch-site.md)
 
-  - [Configure a trunk with media bypass in Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md)
+  - [Lync Server 2013 でメディアバイパスを使用してトランクを構成する](lync-server-2013-configure-a-trunk-with-media-bypass.md)
 
-  - [Lync Server 2013 でメディアをバイパスせずにトランクを構成する](lync-server-2013-configure-a-trunk-without-media-bypass.md)
+  - [Lync Server 2013 でメディアバイパスを使用せずにトランクを構成する](lync-server-2013-configure-a-trunk-without-media-bypass.md)
 
 </div>
 
@@ -70,7 +70,7 @@ Microsoft Lync Server 2013、計画ツールを使用してトポロジにブラ
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 でのメディア バイパスの計画](lync-server-2013-planning-for-media-bypass.md)  
+[Lync Server 2013 でのメディアバイパスの計画](lync-server-2013-planning-for-media-bypass.md)  
 [Lync Server 2013 での PSTN 接続の計画](lync-server-2013-planning-for-pstn-connectivity.md)  
   
 

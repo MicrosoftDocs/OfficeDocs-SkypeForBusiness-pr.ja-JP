@@ -12,16 +12,16 @@ ms:contentKeyID: 48183283
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a720a9bc1245146d816fe3c42bbf8e24020a134
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e0795e29fb52171af32ecbde62a6ecddcfa00931
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747257"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050329"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41747257"
 
 <span> </span>
 
-_**最終更新日:** 2012-06-25_
+_**トピックの最終更新日:** 2012-06-25_
 
-ベストプラクティスアナライザーを使用して、Lync Server 2013 環境で問題をスキャンしたり、レポートを作成したり、現在のスキャンまたは前のスキャンの結果を表示したりすることができます。 ベストプラクティスアナライザーを実行して環境をスキャンする前に、スキャンの実行に使用する予定のアカウントに必要な権利と権限があることと、インストールの前提条件が満たされていることを確認する必要があります。
+ベストプラクティスアナライザーを使用して、Lync Server 2013 環境での問題の調査とレポートの作成、および現在または以前のスキャンの結果の表示を行うことができます。 Best Practices Analyzer を実行して環境をスキャンする前に、スキャンを実行する予定のあるアカウントに必要な権限とアクセス許可があること、またインストールに関するすべての前提条件が満たされていることを確認する必要があります。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 でのベストプラクティスアナライザーのグループメンバーシップとユーザー権限の要件](lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md)
+  - [Lync Server 2013 のベストプラクティスアナライザーのグループメンバーシップとユーザー権限の要件](lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md)
 
-  - [Lync Server 2013 のベストプラクティスアナライザーを実行するための要件](lync-server-2013-requirements-for-running-best-practices-analyzer.md)
+  - [Lync Server 2013 でベストプラクティスアナライザーを実行するための要件](lync-server-2013-requirements-for-running-best-practices-analyzer.md)
 
 </div>
 

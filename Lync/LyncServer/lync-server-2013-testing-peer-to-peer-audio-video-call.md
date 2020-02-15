@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ピアツーピア音声/ビデオ通話のテスト'
+title: 'Lync Server 2013: ピアツーピア音声ビデオ通話のテスト'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969627
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e319ace4ee4cc6613ac5ed29659ac14c5853d7b5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 462442b7afea193866dc96aaf57085d780f43a39
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745637"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050279"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="testing-peer-to-peer-audiovideo-call-in-lync-server-2013"></a>Lync Server 2013 でピアツーピア音声/ビデオ通話をテストする
+# <a name="testing-peer-to-peer-audiovideo-call-in-lync-server-2013"></a>Lync Server 2013 でのピアからピアへの音声/ビデオ通話のテスト
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41745637"
 
 <span> </span>
 
-_**最終更新日:** 2014-06-05_
+_**トピックの最終更新日:** 2014-06-05_
 
 
 <table>
@@ -45,8 +45,8 @@ _**最終更新日:** 2014-06-05_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>確認のスケジュール</p></td>
-<td><p>[毎日]</p></td>
+<td><p>検証スケジュール</p></td>
+<td><p>毎日</p></td>
 </tr>
 <tr class="even">
 <td><p>テストツール</p></td>
@@ -54,8 +54,8 @@ _**最終更新日:** 2014-06-05_
 </tr>
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
-<td><p>Lync Server 管理シェルを使用してローカルで実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使って実行する場合は、CsP2PAV コマンドレットを実行するためのアクセス許可が与えられている RBAC の役割をユーザーに割り当てる必要があります。 このコマンドレットを使うことができるすべての RBAC ロールの一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合は、Test-csp2pav コマンドレットを実行するためのアクセス許可を持つ RBAC の役割がユーザーに割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsP2PAV&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,11 +66,11 @@ _**最終更新日:** 2014-06-05_
 
 ## <a name="description"></a>説明
 
-CsP2PAV は、テストユーザーのペアがピアツーピアの A/V の会話に参加できるかどうかを判断するために使用されます。 このシナリオをテストするために、このコマンドレットは、2人のユーザーを Lync Server にログオンして開始します。 2つのログオンが成功すると、最初のユーザーは、A/V 呼び出しに参加するように2番目のユーザーを招待します。 2人目のユーザーが通話を受け入れ、2人のユーザー間の接続がテストされた後、通話が終了し、テストユーザーがシステムからログオフされます。
+Test-csp2pav は、テストユーザーのペアがピアツーピアの音声ビデオ会話に参加できるかどうかを判断するために使用されます。 このシナリオをテストするために、このコマンドレットは、Lync Server に2人のユーザーをログオンすることで開始します。 2 つのログオンが正常に行われたら、最初のユーザーが 2 人目のユーザーを A/V 通話に参加するように招待します。 2 人目のユーザーが通話を受諾すると、2 人のユーザー間の接続がテストされ、通話が終了した後、テスト ユーザーはシステムからログオフされます。
 
-CsP2PAV は、実際に A/V 通話を行いません。 マルチメディア情報は、テストユーザー間では交換されません。 代わりに、コマンドレットは、適切な接続を行うことができ、2人のユーザーがそのような呼び出しを実行できることを確認するだけです。
+Test-csp2pav では、実際には音声ビデオ通話を行いません。 マルチメディア情報は、テストユーザー間で交換されません。 代わりに、このコマンドレットは単に適切な接続が確立されていることを確認し、2人のユーザーがそのような呼び出しを行えるようにします。
 
-詳細については、「 [CsP2PAV](https://docs.microsoft.com/powershell/module/skype/Test-CsP2PAV)コマンドレットのヘルプドキュメント」を参照してください。
+詳細については、 [test-csp2pav](https://docs.microsoft.com/powershell/module/skype/Test-CsP2PAV)コマンドレットのヘルプドキュメントを参照してください。
 
 </div>
 
@@ -78,11 +78,11 @@ CsP2PAV は、実際に A/V 通話を行いません。 マルチメディア情
 
 ## <a name="running-the-test"></a>テストの実行
 
-CsP2PAV コマンドレットを実行するには、定義済みのテストアカウントのペア (「Lync Server テストを実行するためのテストアカウントをセットアップする」を参照) を使用するか、Lync Server を有効にしている2人のユーザーのアカウントを使用します。 テストアカウントを使用してこの確認を実行するには、テストする Lync Server プールの FQDN を指定する必要があります。 次に例を示します。
+Test-csp2pav コマンドレットを実行するには、事前に構成されたテストアカウントのペア (「Lync Server テストを実行するためのテストアカウントの設定」を参照してください)、または Lync Server が有効になっている2人のユーザーのアカウントのいずれかを使用します。 このチェックをテストアカウントを使用して実行するには、テストする Lync Server プールの FQDN を指定するだけで済みます。 例:
 
     Test-CsP2PAV -TargetFqdn "atl-cs-001.litwareinc.com"
 
-実際のユーザーアカウントを使用してこのチェックを実行するには、Lync Server credentials オブジェクト (アカウント名とパスワードを含むオブジェクト) をそれぞれのアカウントに作成する必要があります。 次に、CsP2PAV を呼び出したときに、これらの資格情報オブジェクトと、2つのアカウントの SIP アドレスを含める必要があります。
+実際のユーザーアカウントを使用してこのチェックを実行するには、2つの Lync Server credentials オブジェクト (アカウント名とパスワードを含むオブジェクト) を各アカウントに作成する必要があります。 次に、Test-csp2pav を呼び出すときに、これらの資格情報オブジェクトと2つのアカウントの SIP アドレスを含める必要があります。
 
     $credential1 = Get-Credential "litwareinc\kenmyer"
     $credential2 = Get-Credential "litwareinc\davidlongmire"
@@ -92,51 +92,51 @@ CsP2PAV コマンドレットを実行するには、定義済みのテストア
 
 <div>
 
-## <a name="determining-success-or-failure"></a>成功または失敗を確認する
+## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
-2つのテストユーザーがピアツーピアの A/V の呼び出しを完了できる場合は、次のような結果として、Success とマークされた Result プロパティの出力が表示され**ます。**
+2つのテストユーザーがピアツーピアの音声ビデオ呼び出しを完了できる場合は、次のような出力が得られ、Result プロパティは Success としてマークされ**ます。**
 
 TargetFqdn: atl-cs-001.litwareinc.com
 
 結果: 成功
 
-待ち時間:00:00: 06.8630376
+待機時間:00:00: 06.8630376
 
-誤差
+エラー
 
-診断
+分析
 
-テストユーザーが通話を完了できなかった場合、結果は失敗として表示され、エラーと診断のプロパティに追加情報が記録されます。
+テストユーザーが通話を完了できない場合、結果は失敗として表示され、エラーと診断のプロパティに追加情報が記録されます。
 
 TargetFqdn: atl-cs-001.litwareinc.com
 
 結果: エラー
 
-待ち時間: 00:00:00
+待機時間: 00:00:00
 
 エラー: 480、一時的に使用できません
 
-診断: ErrorCode = 15030、Source = atl-litwareinc、Reason = Failed。
+診断: ErrorCode = 15030, Source = litwareinc, Reason = Failed (エラー)
 
 Exchange Server にルーティングするには
 
-DiagnosticHeader の場合
+DiagnosticHeader ()
 
-たとえば、前回の出力では、Microsoft Exchange Server に接続できなかったため、テストが失敗したことが示されます。 このエラーメッセージは、通常、Exchange ユニファイドメッセージングの構成に問題があることを示します。
+たとえば、Microsoft Exchange Server に接続できなかったため、テストが失敗したことが前の出力に示されています。 このエラーメッセージは、通常、Exchange ユニファイドメッセージングの構成に問題があることを示します。
 
-テスト-CsP2PAV が失敗した場合は、Verbose パラメーターも含めて、テストを再実行することをお勧めします。
+Test-csp2pav に障害が発生した場合は、次のように詳細パラメーターを含めて、テストを再実行することをお勧めします。
 
-CsP2PAV-TargetFqdn "atl-cs-001.litwareinc.com"-Verbose
+Test-csp2pav-TargetFqdn "atl-cs-001.litwareinc.com"-Verbose
 
-Verbose パラメーターが含まれている場合、CsP2PAV は、指定されたユーザーが Lync Server にログオンする機能をチェックしたときに実行される各操作のステップバイステップのアカウントを返します。 たとえば、次のような診断でテストが失敗したとします。
+Verbose パラメーターが含まれている場合、Test-csp2pav は、指定されたユーザーが Lync Server にログオンできるかどうかを確認したときに試行された各アクションのステップバイステップのアカウントを返します。 たとえば、次の診断によってテストが失敗したとします。
 
-ErrorCode = 6003、Source = atl-litwareinc、Reason = サポートされていないダイアログの要求
+ErrorCode = 6003, Source = litwareinc, Reason = サポートされていないダイアログの要求
 
-CsP2PAV を再実行し、Verbose パラメーターを含めると、次のような出力が表示されます。
+Test-csp2pav を再実行し、Verbose パラメーターを含めると、次のような出力が得られます。
 
 VERBOSE: ' Register ' アクティビティが開始されました。
 
-登録リクエストの送信:
+登録要求の送信:
 
 ターゲット Fqdn = atl-cs-011.litwareinc.com
 
@@ -146,27 +146,27 @@ VERBOSE: ' Register ' アクティビティが開始されました。
 
 認証の種類 ' IWA ' が選択されています。
 
-"エンドポイントを登録できませんでした。" という例外が発生します。 具体的な理由については、「エラーコード」をご覧ください。 STP2PAVWorkflow の実行中に発生したワークフローのことです。
+例外 ' エンドポイントを登録できませんでした。 具体的な理由については、「エラーコード」を参照してください。 ' STP2PAVWorkflow のワークフローの実行中に発生しました。
 
-あまり明確でない場合もありますが、出力を慎重に確認すると、誤ったレジストラーポート (port 5062) が指定されていることがわかります。 これにより、テストが失敗する原因となります。
+すぐにわかるかもしれませんが、出力を注意深く調べると、誤ったレジストラーポート (ポート 5062) が指定されていることがわかります。 その結果、テストが失敗したことが発生しました。
 
 </div>
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a>テストに失敗した可能性がある理由
+## <a name="reasons-why-the-test-might-have-failed"></a>テストが失敗した理由
 
-次に、テスト-CsP2PAV が失敗する可能性がある一般的な理由を示します。
+Test-csp2pav が失敗する可能性のある一般的な原因を次に示します。
 
-  - 無効なユーザーアカウントが指定されました。 次のようなコマンドを実行すると、ユーザーアカウントが存在するかどうかを確認できます。
+  - 無効なユーザーアカウントが指定されました。 ユーザーアカウントが存在することを確認するには、次のようなコマンドを実行します。
     
-    ユーザー "sip:kenmyer@litwareinc.com" を取得する
+    取得-CsUser "sip:kenmyer@litwareinc.com"
 
-  - ユーザーアカウントは有効ですが、アカウントは現在 Lync Server に対して有効になっていません。 Lync Server でユーザーアカウントが有効になっていることを確認するには、次のようなコマンドを実行します。
+  - ユーザーアカウントは有効ですが、アカウントは現在 Lync Server に対して有効になっていません。 ユーザーアカウントが Lync Server に対して有効になっていることを確認するには、次のようなコマンドを実行します。
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled
     
-    Enabled プロパティが False に設定されている場合は、ユーザーが現在 Lync Server を有効にしていないことを意味します。
+    Enabled プロパティが False に設定されている場合は、ユーザーが現在 Lync Server に対して有効になっていないことを意味します。
 
 </div>
 

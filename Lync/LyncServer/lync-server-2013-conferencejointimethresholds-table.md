@@ -12,16 +12,16 @@ ms:contentKeyID: 48183855
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: baf29af4b9d1f2b026271b84cb54436e8f4b233f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 280202a83828757c3caca20c21795453ad4f133f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740057"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049169"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41740057"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-28_
+_**トピックの最終更新日:** 2012-09-28_
 
-ConferenceJoinTimeThresholds テーブルには、電話会議の参加時間のサマリーレポートで使用される分類境界が含まれています。 [会議参加時間のサマリー] レポートは、ユーザーが会議に参加するのに必要な時間の概要を示します。これらの時間値は、平均として、または次のいずれかのカテゴリに報告されます。
+ConferenceJoinTimeThresholds テーブルには、電話会議参加時間要約レポートによって使用される分類境界が含まれます。電話会議参加時間要約レポートは、ユーザーが問題なく電話会議に参加する目的で必要な時間を集計します。これらの時間値は、平均と、以下のカテゴリの 1 つの両方で報告されます。
 
-  - 2秒未満。
+  - 2 秒未満。
 
-  - 2秒と5秒の間。
+  - 2 ～ 5 秒の間。
 
-  - 5 ~ 10 秒の間。
+  - 5 ～ 10 秒の間。
 
-  - 10秒以上
+  - 10 秒以上。
 
-ConferenceJoinTimeThresholds テーブルには、2秒、5秒、10秒の分類値が含まれています。
+ConferenceJoinTimeThresholds テーブルには、2 秒、5 秒、および 10 秒の分類値が含まれます。
 
 この表は、Microsoft Lync Server 2013 で導入されました。
 
@@ -72,17 +72,17 @@ ConferenceJoinTimeThresholds テーブルには、2秒、5秒、10秒の分類�
 <td><p><strong>ThresholdId</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>分類の一意の識別子。</p></td>
+<td><p>分類の一意識別子。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ThresholdValue</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>分類の上限。 有効な値は次のとおりです。</p>
+<td><p>分類の上限。有効な値は次のとおりです。</p>
 <ol>
-<li><p>両面</p></li>
-<li><p>5</p></li>
-<li><p>常用</p></li>
+<li><p>2 </p></li>
+<li><p>5 </p></li>
+<li><p>10 </p></li>
 </ol></td>
 </tr>
 </tbody>

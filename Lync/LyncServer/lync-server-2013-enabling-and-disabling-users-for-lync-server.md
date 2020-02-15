@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Lync Server のユーザーを有効または無効にする'
+title: 'Lync Server 2013: Lync Server のユーザーの有効化および無効化'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733698
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da4624a682899befa4ff8d780c0d9a6d6646279c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 02a66ead4e88b6a8460ab728fecbd3f21be03141
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735857"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046330"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enabling-and-disabling-users-for-lync-server-2013"></a>Lync Server 2013 のユーザーを有効または無効にする
+# <a name="enabling-and-disabling-users-for-lync-server-2013"></a>Lync Server 2013 のユーザーの有効化および無効化
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41735857"
 
 <span> </span>
 
-_**最終更新日:** 2012-11-01_
+_**トピックの最終更新日:** 2012-11-01_
 
-Lync Server 2013 から Active Directory ユーザーを有効にしたり、一時的に無効にしたり、削除したりすることができます。
+Lync Server 2013 の Active Directory ユーザーを有効または無効にしたり、一時的に無効にしたり、削除したりすることができます。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
   - [Lync Server 2013 のユーザーアカウントを追加して有効にする](lync-server-2013-add-and-enable-user-account-for-lync-server.md)
 
-  - [Lync Server 2013 のユーザーアカウントを無効にするか、再び有効にする](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)
+  - [Lync Server 2013 のユーザーアカウントを無効または再度有効にする](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)
 
   - [Lync Server 2013 からユーザーアカウントを削除する](lync-server-2013-remove-a-user-account-from-lync-server.md)
 
@@ -56,8 +56,8 @@ Lync Server 2013 から Active Directory ユーザーを有効にしたり、一
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 のユーザー管理](lync-server-2013-managing-users-in-lync-server.md)  
-[(CsUser) を有効にする](https://docs.microsoft.com/powershell/module/skype/Enable-CsUser)  
+[Lync Server 2013 でのユーザーの管理](lync-server-2013-managing-users-in-lync-server.md)  
+[を有効にする-CsUser](https://docs.microsoft.com/powershell/module/skype/Enable-CsUser)  
 [無効-CsUser](https://docs.microsoft.com/powershell/module/skype/Disable-CsUser)  
   
 

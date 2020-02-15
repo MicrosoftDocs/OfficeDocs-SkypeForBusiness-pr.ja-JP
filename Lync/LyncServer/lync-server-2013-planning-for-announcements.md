@@ -12,16 +12,16 @@ ms:contentKeyID: 48185706
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3cd5a537b31b36c7a55f19ac476bb5d4c0fde93c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d9adaeba6e26cb01a7c7aa8c2a1fb3f7ce955b6a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725627"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050759"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41725627"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-13_
+_**トピックの最終更新日:** 2012-09-13_
 
-Lync Server アナウンスメントアプリケーションを使用すると、ダイヤルされた番号が組織で有効であるが、ユーザーまたは電話に割り当てられていない場合に、着信通話の処理を構成することができます。 これらの通話を事前に設定しておいた転送先 (電話番号、SIP URI、またはボイス メール) に転送するか、音声アナウンスを再生するか、またはその両方を行うことができます。 アナウンス アプリケーションを使用することで、発信者が誤ってダイヤルしたり、話し中の音が流されたり、または SIP クライアントがエラー メッセージを受け取ったりするような状況を避けることができます。 このセクションでは、アナウンスメントアプリケーションに固有の計画情報について説明します。
+Lync Server アナウンスアプリケーションを使用すると、ダイヤル番号が組織に対して有効であっても、ユーザーまたは電話に割り当てられていない場合に、着信通話の処理を構成できます。 これらの通話を事前に設定しておいた転送先 (電話番号、SIP URI、またはボイス メール) に転送するか、音声アナウンスを再生するか、またはその両方を行うことができます。 アナウンス アプリケーションを使用することで、発信者が誤ってダイヤルしたり、話し中の音が流されたり、または SIP クライアントがエラー メッセージを受け取ったりするような状況を避けることができます。 このセクションには、アナウンスメントアプリケーションに固有の計画に関する情報が含まれています。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 のお知らせアプリケーションの概要](lync-server-2013-overview-of-the-announcement-application.md)
+  - [Lync Server 2013 のアナウンスアプリケーションの概要](lync-server-2013-overview-of-the-announcement-application.md)
 
-  - [Lync Server 2013 のアナウンス アプリケーションで使用されるコンポーネント](lync-server-2013-components-used-by-the-announcement-application.md)
+  - [Lync Server 2013 のアナウンスアプリケーションで使用されるコンポーネント](lync-server-2013-components-used-by-the-announcement-application.md)
 
-  - [Lync Server 2013 のアナウンス アプリケーションの技術要件](lync-server-2013-technical-requirements-for-the-announcement-application.md)
+  - [Lync Server 2013 のアナウンスアプリケーションの技術要件](lync-server-2013-technical-requirements-for-the-announcement-application.md)
 
-  - [Lync Server 2013 のアナウンスメントアプリケーションの展開プロセス](lync-server-2013-deployment-process-for-the-announcement-application.md)
+  - [Lync Server 2013 のアナウンスアプリケーションの展開プロセス](lync-server-2013-deployment-process-for-the-announcement-application.md)
 
 </div>
 

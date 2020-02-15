@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 画質設定を変更する'
+title: 'Lync Server 2013: qoe (Quality of Experience) 設定の変更'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184996
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a2cf4745f76fa4667d14c9da5ca2b4e5309767b3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1e24d3d0d3b17e5e7b58a6cd58806c3b5ba22e9e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727537"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050679"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="modify-quality-of-experience-settings-in-lync-server-2013"></a>Lync Server 2013 でのエクスペリエンス設定の変更
+# <a name="modify-quality-of-experience-settings-in-lync-server-2013"></a>Lync Server 2013 で qoe (Quality of Experience) 設定を変更する
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41727537"
 
 _**トピックの最終更新日:** 2013-02-23_
 
-既定では、QoE (Quality of Experience) データは 60 日後に削除されます。[**QoE データ**] ページの設定を使用して、データの保持期間を延長または短縮できます。QoE を無効にすると、QoE が有効化される前に取得されたデータも削除の対象になります。
+既定では、QoE (Quality of Experience) データは 60 日後に削除されます。 [**QoE データ**] ページの設定を使用して、データの保持期間を延長または短縮できます。 QoE を無効にすると、QoE が有効化される前に取得されたデータも削除の対象になります。
 
 <div>
 
@@ -55,9 +55,9 @@ _**トピックの最終更新日:** 2013-02-23_
 
 ## <a name="to-specify-retention-of-qoe-data-by-using-lync-server-control-panel"></a>Lync Server コントロールパネルを使用して QoE データの保持を指定するには
 
-1.  RTCUniversalServerAdmins グループのメンバーとして、あるいは CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator の役割のメンバーとしてコンピューターにログオンします。 詳細については、「 [Lync Server 2013 でセットアップのアクセス許可を委任](lync-server-2013-delegate-setup-permissions.md)する」を参照してください。
+1.  RTCUniversalServerAdmins グループのメンバーとして、または CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator の役割のメンバーとしてコンピューターにログオンします。 詳細については、「 [Lync Server 2013 でのセットアップのアクセス許可の委任](lync-server-2013-delegate-setup-permissions.md)」を参照してください。
 
-2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
 3.  左側のナビゲーション バーで [**監視とアーカイブ**] をクリックし、[**QoE データ**] をクリックします。
 
@@ -67,19 +67,19 @@ _**トピックの最終更新日:** 2013-02-23_
 
 6.  [**QoE データを保持する最大期間 (日数)**] で、QoE データを保持する必要のある最大日数を選択します。
 
-7.  [**コミット**] をクリックします。
+7.  [**確定**] をクリックします。
 
 </div>
 
 <div>
 
-## <a name="specifying-qoe-retention-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用した QoE 保持の指定
+## <a name="specifying-qoe-retention-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用した QoE の保持期間の指定
 
-QoE 保持設定を作成するには、Windows PowerShell と**Set-CsQoEConfiguration**コマンドレットを使用します。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
+QoE の保持設定を作成するには、Windows PowerShell と、 **-CsQoEConfiguration の設定**コマンドレットを使用します。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 <div>
 
-## <a name="to-specify-qoe-retention-for-a-specific-location"></a>特定の場所で QoE の保持を指定するには
+## <a name="to-specify-qoe-retention-for-a-specific-location"></a>特定のロケーションに対して QoE の保持を指定するには
 
   - このコマンドを実行すると、レドモンド サイトでの QoE データの削除が有効になり、QoE データを 20 日間保持するようにサイトが構成されます。
     
@@ -89,7 +89,7 @@ QoE 保持設定を作成するには、Windows PowerShell と**Set-CsQoEConfigu
 
 <div>
 
-## <a name="to-specify-qoe-retention-for-multiple-locations"></a>複数の場所で QoE の保持を指定するには
+## <a name="to-specify-qoe-retention-for-multiple-locations"></a>複数のロケーションに対して QoE の保持を指定するには
 
   - このコマンドを実行すると、組織で使用されているすべての QoE 構成設定で QoE の保持が構成されます。
     
@@ -97,7 +97,7 @@ QoE 保持設定を作成するには、Windows PowerShell と**Set-CsQoEConfigu
 
 </div>
 
-詳細については、「 [Set-CsQoEConfiguration 設定](https://docs.microsoft.com/powershell/module/skype/Set-CsQoEConfiguration)」コマンドレットのヘルプトピックを参照してください。
+詳細につい[ては、このコマンドレット](https://docs.microsoft.com/powershell/module/skype/Set-CsQoEConfiguration)のヘルプトピックを参照してください。
 
 </div>
 

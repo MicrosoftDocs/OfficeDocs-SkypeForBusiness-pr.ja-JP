@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: モビリティに合わせた証明書の変更'
+title: 'Lync Server 2013: モビリティの証明書の変更'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184120
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 150dc8c7b4021e1e2c7ccab6ccc71823c01c388e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 54b42ba288c89f8735d3f7d13dee9a1944efe82b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756871"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048748"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="modifying-certificates-for-mobility-in-lync-server-2013"></a>Lync Server 2013 でのモビリティに合わせた証明書の変更
+# <a name="modifying-certificates-for-mobility-in-lync-server-2013"></a>Lync Server 2013 でのモビリティの証明書の変更
 
 </div>
 
@@ -35,79 +35,79 @@ ms.locfileid: "41756871"
 
 <span> </span>
 
-_**最終更新日:** 2014-06-20_
+_**トピックの最終更新日:** 2014-06-20_
 
-Lync 環境とモバイルクライアント間のセキュリティで保護された接続をサポートするために、ディレクタープール、フロントエンドプール、リバースプロキシ用の Secure Socket Layer (SSL) 証明書を、追加のサブジェクト代替名で更新する必要があります (SAN) エントリ。 モビリティの証明書の要件の詳細について確認する必要がある場合は、「 [Lync Server 2013 でのモビリティの技術要件](lync-server-2013-technical-requirements-for-mobility.md)」の「証明書の要件」セクションを参照してください。基本的に、追加の SAN エントリが含まれる証明機関から新しい証明書を取得し、この記事の手順を使ってそれらの証明書を追加する必要が
+Lync 環境とモバイルクライアント間のセキュリティ保護された接続をサポートするために、ディレクタープール、フロントエンドプール、リバースプロキシの Secure Socket Layer (SSL) 証明書を、追加のサブジェクトの別名で更新する必要があります (SAN) エントリ。 モビリティの証明書の要件の詳細を確認する必要がある場合は、「 [Lync Server 2013 のモビリティの技術要件](lync-server-2013-technical-requirements-for-mobility.md)」の「証明書の要件」セクションを参照してください。ただし、基本的には、追加の SAN エントリが含まれる証明機関から新しい証明書を取得してから、この記事の手順を使用してそれらの証明書を追加
 
-もちろん、作業を開始する前に、証明書に既に登録されているサブジェクトの代替名を知っておくことをお勧めします。 まだ設定されているものがわからない場合は、さまざまな方法で確認できます。このオプションでは、ユーザーがこの情報を表示するために、[ **Get-CsCertificate** ] とその他の PowerShell コマンドを実行することができます。これは、既定ではデータが切り捨てられるため、必要なすべてのプロパティを表示することができない場合があります。 証明書とそのすべてのプロパティについて詳しく理解するには、Microsoft 管理コンソール (MMC) に移動して、証明書スナップインを読み込むか (以下を参照)、Lync Server 展開ウィザードを確認してください。
+開始する前に、証明書に既に存在するサブジェクトの別名を知っておくことをお勧めします。 既に構成されている内容がわからない場合は、さまざまな方法で見つけることができます。このオプションを使用して、この情報を表示することができます (以下を参照)。既定**では、** データは切り捨てられるため、必要なすべてのプロパティを表示することはできません。 証明書とそのすべてのプロパティを適切に表示するには、Microsoft 管理コンソール (MMC) に移動して、証明書スナップイン (以下を参照) を読み込むか、Lync Server 展開ウィザードを確認するだけです。
 
-上で説明したように、次の手順では、Lync Server 管理シェルと MMC を使用して証明書を更新する方法について説明します。 代わりに Lync Server Deployment ウィザードで証明書ウィザードを使用する場合は、ディレクターまたはディレクタープールを構成している場合は、 [Lync server 2013 でディレクターの証明書を構成](lync-server-2013-configure-certificates-for-the-director.md)することができます (存在しない可能性があります)。 フロントエンドサーバーまたはフロントエンドプールについては、「 [Lync Server 2013 でサーバーの証明書を構成](lync-server-2013-configure-certificates-for-servers.md)する」を参照してください。
+前述したように、次の手順に従って、Lync Server 管理シェルと MMC を使用して証明書を更新します。 このために Lync Server 展開ウィザードで証明書ウィザードを使用することに関心がある場合は、ディレクターまたはディレクタープールに対して、 [2013 ディレクターの証明書を構成](lync-server-2013-configure-certificates-for-the-director.md)してください (必要でない場合があります)。 フロントエンドサーバーまたはフロントエンドプールについては、「 [Lync Server 2013 のサーバーの証明書の構成](lync-server-2013-configure-certificates-for-servers.md)」を参照してください。
 
-最後に、Lync Server 2013 環境に1つの既定の証明書がある場合、または既定の証明書 (web サービス以外はすべて) が存在する場合があることを覚えておいてください。 どのような構成にしても、これらの手順は役立ちます。
+最後に、Lync Server 2013 環境に既定の証明書が1つしかない場合や、既定の証明書 (web サービス以外のすべてのもの)、WebServicesExternal、Webservices の内部が存在する場合があることを念頭に置いておくとよいでしょう。 どのような構成であっても、これらの手順はお役になるはずです。
 
 <div>
 
-## <a name="to-update-certificates-with-new-subject-alternative-names-using-the-lync-server-management-shell"></a>Lync Server 管理シェルを使用して新しいサブジェクト別の名前を使用して証明書を更新するには
+## <a name="to-update-certificates-with-new-subject-alternative-names-using-the-lync-server-management-shell"></a>Lync Server 管理シェルを使用して新しいサブジェクトの別名を使用して証明書を更新するには
 
-1.  ローカルの管理者権限と権限を持つアカウントを使用して、Lync Server 2013 サーバーにログオンする必要があります。 さらに、手順12以降で PowerShell**要求-CsCertificate**を実行している場合、アカウントは指定された証明機関 (CA) に対する権利を持っている必要があります。
+1.  ローカル管理者の権限とアクセス許可を持つアカウントを使用して、Lync Server 2013 サーバーにログオンする必要があります。 また、手順12以降で PowerShell**要求-CsCertificate**を実行している場合は、指定された証明機関 (CA) に対する権限をアカウントに付与する必要があります。
 
-2.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+2.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
-3.  更新された証明書を割り当てる前に、サーバーに割り当てられている証明書と使用の種類を確認する必要があります。 コマンド ラインで次を入力します。
+3.  更新された証明書を割り当てる前に、サーバーに割り当てられている証明書と使用の種類を確認する必要があります。 コマンドラインで、次のように入力します。
     
         Get-CsCertificate
 
-4.  前の手順からの出力を確認して、複数の使用に対して1つの証明書が割り当てられているかどうか、または使用ごとに異なる証明書が割り当てられているかどうかを確認します。 証明書がどのように使われているかを確認するには、Use パラメーターを参照してください。 表示された証明書の Thumbprint パラメーターと比較して、同じ証明書に複数の使用が含まれているかどうかを確認します。 拇印のパラメーターを常に把握しておきます。
+4.  前の手順の出力を確認して、複数の使用に対して1つの証明書が割り当てられているかどうか、またはそれぞれの使用に異なる証明書が割り当てられているかどうかを確認します。 証明書の使用方法については、Use パラメーターを参照してください。 表示された証明書の Thumbprint パラメーターを比較して、同じ証明書に複数の用途が含まれているかどうかを確認します。 拇印パラメーターに注意してください。
 
-5.  証明書を更新します。 コマンド ラインで次を入力します。
+5.  証明書を更新します。 コマンド ラインで、次のように入力します。
     
         Set-CsCertificate -Type <type of certificate as displayed in the Use parameter> -Thumbprint <unique identifier>
     
-    たとえば、 **CsCertificate**コマンドレットで、既定値を使用する証明書が表示され、もう1つは Webservices internal を使用していて、もう1つは WebServicesExternal を使用していて、それらのすべてに同じ拇印値が含まれている場合、コマンドラインで次のように入力します。
+    たとえば、WebServicesExternal**コマンドレットで**、既定値を使用した証明書が表示されていて、もう1つは Webservices internal を使用していて、もう1つはコマンドラインで同じ拇印値を持っていた場合は、次のように入力します。
     
         Set-CsCertificate -Type Default,WebServicesInternal,WebServicesExternal -Thumbprint <Certificate Thumbprint>
     
     **重要:**
     
-    各使用に個別の証明書が割り当てられている場合 (上記でチェックした拇印の値が各証明書に対して異なる場合) は、上の例のように、複数の種類の**Set-cscertificate**コマンドレットを実行し**ない**ことが重要です。 この場合は、使用するたびに、 **Set-CsCertificate**コマンドレットを個別に実行します。 次に例を示します。
+    各使用に個別の証明書が割り当てられている場合 (上記でチェックした Thumbprint の値が各証明書で異なる) は、上記の例のように、複数の種類を使用して、 **cscertificate**コマンドレットを実行し**ない**ことが重要です。 この場合、用途ごとに **Set-CsCertificate** コマンドレットを実行します。 例:
     
         Set-CsCertificate -Type Default -Thumbprint <Certificate Thumbprint>
         Set-CsCertificate -Type WebServicesInternal -Thumbprint <Certificate Thumbprint>
         Set-CsCertificate -Type WebServicesExternal -Thumbprint <Certificate Thumbprint>
 
-6.  証明書 (または証明書) を表示するには、[**スタート**] をクリックし、[**実行**] をクリックします。 「MMC」と入力して Microsoft 管理コンソールを開きます。
+6.  証明書 (または証明書) を表示するには、[**スタート**] をクリックし、[**実行**] をクリックします。 「MMC」と入力して、Microsoft 管理コンソールを開きます。
 
-7.  MMC のメニューで、[**ファイル**]、[**スナップインの追加と削除**] の順番に選択し、[証明書] を選択します。 [**追加**] をクリックします。 メッセージが表示されたら、[**コンピューターアカウント**] を選択し、[**次へ**] をクリックします。
+7.  MMC メニューで、[**ファイル**]、[**スナップインの追加と削除**] を順に選択して、証明書を選択します。 [**追加**] をクリックします。 メッセージが表示されたら、[**コンピューター アカウント**] を選択し [**次へ**] をクリックします。
 
-8.  証明書が配置されているサーバーの場合は、[**ローカルコンピューター**] を選択します。 証明書が別のコンピューターにある場合は、**別のコンピューター**を選んでから、コンピューターの完全修飾ドメイン名を入力するか、[**参照**] をクリックして**選択するオブジェクト名**を入力し、コンピューターの名前を入力します。 [**名前の確認**] をクリックします。 コンピューターの名前が解決されると、下線が引かれます。 [ **OK**] をクリックし、[**完了**] をクリックします。 [ **OK** ] をクリックして選択内容を確定し、[スナップインの**追加と削除**] ダイアログボックスを閉じます。
+8.  証明書が配置されているサーバーの場合は、[**ローカルコンピューター**] を選択します。 証明書が別のコンピューターにある場合は、**別のコンピューター**を選択し、コンピューターの完全修飾ドメイン名を入力するか、または [**参照**] をクリックして [**選択するオブジェクト名**を入力してください] をクリックし、コンピューターの名前を入力します。 [**名前の確認**] をクリックします。 コンピューターの名前が解決されると、その名前に下線が付きます。 [ **OK**] をクリックし、[**完了**] をクリックします。 [ **OK** ] をクリックして選択を確定し、[スナップインの**追加と削除**] ダイアログを閉じます。
 
-9.  証明書のプロパティを表示するには、[**証明書**]、[**個人用**] の順に展開し、[**証明書**] を選択します。 表示する証明書を選択し、証明書を右クリックして、[**開く**] を選択します。
+9.  証明書のプロパティを表示するには、[**証明書**]、[**個人**] を順に展開し、[**証明書**] を選択します。表示する証明書を右クリックし、[**開く**] を選択します。
 
-10. **証明書**ビューで、[**詳細**] を選択します。 ここでは、[**件名**] を選択して証明書のサブジェクト名を選択し、割り当てられたサブジェクト名と関連付けられたプロパティが表示されます。
+10. [**証明書**] ビューで [**詳細**] を選択します。ここから、[**サブジェクト**] を選択して、証明書のサブジェクト名を選択できます。割り当てられているサブジェクト名と関連するプロパティが表示されます。
 
-11. 割り当てられたサブジェクト別の名前を表示するには、[**件名の代替名**] を選択します。 すべての割り当てられた件名の代替名がここに表示されます。 ここで見つかった件名の代替名は、既定で**DNS 名**の種類になっています。 次のメンバーが表示されている必要があります (すべてのメンバーが DNS host (A または IPv6 AAAA の場合は、完全修飾ドメイン名になります)。
+11. 割り当てられたサブジェクトの別名を表示するには、[**サブジェクトの別名**] を選択します。 割り当てられているすべてのサブジェクトの別名がここに表示されます。 既定では、ここに記載されているサブジェクトの別名が**DNS 名**の種類になっています。 次のメンバーが表示されます (すべてのメンバーが、DNS ホスト (A または if IPv6 AAAA) レコードで表される完全修飾ドメイン名である必要があります。
     
-      - このプールのプール名、または1つのサーバー名 (プールではない場合)
+      - このプールのプール名、またはこれがプールでない場合は単一のサーバー名
     
-      - 証明書が割り当てられているサーバー名
+      - 証明書が割り当てられるサーバーの名前
     
-      - 単純な URL レコード、通常は会議とダイヤルイン
+      - 簡単な URL レコード。通常、会議 (meet) とダイヤルイン (dialin)
     
-      - Web サービスの内部および Web サービス外部名 (webpool01.contoso.net、webpool01.contoso.com など) は、トポロジビルダーでの選択肢と、[web サービスの変更] オプションに基づいています。
+      - Web サービス内部および Web サービスの外部名 (たとえば、webpool01.contoso.net、webpool01.contoso.com) は、トポロジビルダーおよび優先度のある web サービスの選択肢に基づいて作成されます。
     
-      - 既に割り当てられている場合は、lyncdiscover です。\<sipdomain\>と lyncdiscoverinternal。\<sipdomain\>レコード。
+      - 既に割り当てられている場合は、lyncdiscover。\<microsoft.rtc.management.xds.sipdomain\>および lyncdiscoverinternal。\<microsoft.rtc.management.xds.sipdomain\>レコード
     
-    最後の項目は、lyncdiscover と lyncdiscoverinternal の SAN エントリがある場合に最も興味を持っている項目です。
+    Lyncdiscover および lyncdiscoverinternal の SAN エントリがある場合は、最後の項目が最も関心を持っています。
     
-    複数の証明書を確認する場合は、この手順を繰り返します。 この情報を取得したら、証明書ビューと MMC を閉じることができます。
+    複数の証明書をチェックする場合は、この手順を繰り返します。 この情報を取得したら、証明書ビューと MMC を閉じることができます。
 
-12. 自動検出サービスのサブジェクトの別名が表示されておらず、既定の Webservices 内部と WebServiceExternal 外部タイプに対して単一の既定の証明書を使用している場合は、次の操作を行います。
+12. 自動検出サービスのサブジェクトの別名が欠落している場合、および Default、WebServicesInternal、および WebServiceExternal タイプで単一の Default 証明書を使用している場合は、次の操作を行います。
     
-      - Lync Server 管理シェルのコマンドラインプロンプトで、次のように入力します。
+      - Lync Server 管理シェルコマンドラインプロンプトで、次のように入力します。
         
             Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -Ca dc\myca -AllSipDomain -verbose
         
-        SIP ドメインが複数ある場合は、新しい AllSipDomain パラメーターを使うことはできません。 代わりに、DomainName パラメーターを使用する必要があります。 DomainName パラメーターを使用する場合は、lyncdiscoverinternal レコードと lyncdiscover レコードの FQDN を定義する必要があります。 次に例を示します。
+        SIP ドメインが多数ある場合は、新しい AllSipDomain パラメーターを使用することはできません。 代わりに、DomainName パラメーターを使用する必要があります。 DomainName パラメーターを使用する場合は、lyncdiscoverinternal および lyncdiscover レコードの FQDN を定義する必要があります。 たとえば、次のようになります。
         
             Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -Ca dc\myca -DomainName "LyncdiscoverInternal.contoso.com, LyncdiscoverInternal.contoso.net" -verbose
     
@@ -115,39 +115,39 @@ Lync 環境とモバイルクライアント間のセキュリティで保護さ
         
             Set-CsCertificate -Type Default,WebServicesInternal,WebServicesExternal -Thumbprint <Certificate Thumbprint>
         
-        "拇印" は、新しく発行された証明書に対して表示される拇印です。
+        「Thumbprint」は、新しく発行された証明書用に表示される拇印です。
 
-13. 既定の証明書を使用する場合、内部の自動検出 SAN が見つからない場合は、次の手順を実行します。 WebServicesExternal
+13. Default、Webservices Internal、および WebServicesExternal に別々の証明書を使用する場合、内部自動検出 SAN が存在しない場合は、次の手順を実行します。
     
-      - Lync Server 管理シェルのコマンドラインプロンプトで、次のように入力します。
+      - Lync Server 管理シェルコマンドラインプロンプトで、次のように入力します。
         
             Request-CsCertificate -New -Type WebServicesInternal -Ca dc\myca -AllSipDomain -verbose
         
-        SIP ドメインが複数ある場合は、新しい AllSipDomain パラメーターを使うことはできません。 代わりに、DomainName パラメーターを使用する必要があります。 DomainName パラメーターを使用する場合は、SIP ドメイン FQDN に適切なプレフィックスを使用する必要があります。 次に例を示します。
+        SIP ドメインが多数ある場合は、新しい AllSipDomain パラメーターを使用することはできません。 代わりに、DomainName パラメーターを使用する必要があります。 DomainName パラメーターを使用する場合は、SIP ドメインの FQDN に適切なプレフィックスを使用する必要があります。 例:
         
             Request-CsCertificate -New -Type WebServicesInternal -Ca dc\myca -DomainName "LyncdiscoverInternal.contoso.com, LyncdiscoverInternal.contoso.net" -verbose
     
-      - 外部の自動検出サブジェクトの代替名が見つからない場合は、コマンドラインで次のように入力します。
+      - 外部自動検出のサブジェクトの別名が欠落している場合、コマンド ラインで、次のように入力します
         
             Request-CsCertificate -New -Type WebServicesExternal -Ca dc\myca -AllSipDomain -verbose
         
-        SIP ドメインが複数ある場合は、新しい AllSipDomain パラメーターを使うことはできません。 代わりに、DomainName パラメーターを使用する必要があります。 DomainName パラメーターを使用する場合は、SIP ドメイン FQDN に適切なプレフィックスを使用する必要があります。 次に例を示します。
+        SIP ドメインが多数ある場合は、新しい AllSipDomain パラメーターを使用することはできません。 代わりに、DomainName パラメーターを使用する必要があります。 DomainName パラメーターを使用する場合は、SIP ドメインの FQDN に適切なプレフィックスを使用する必要があります。 例:
         
             Request-CsCertificate -New -Type WebServicesExternal -Ca dc\myca -DomainName "Lyncdiscover.contoso.com, Lyncdiscover.contoso.net" -verbose
     
-      - 個々の証明書の種類を割り当てるには、次のように入力します。
+      - 個々の証明書タイプを割り当てるには、次のように入力します。
         
             Set-CsCertificate -Type Default -Thumbprint <Certificate Thumbprint>
             Set-CsCertificate -Type WebServicesInternal -Thumbprint <Certificate Thumbprint>
             Set-CsCertificate -Type WebServicesExternal -Thumbprint <Certificate Thumbprint>
         
-        "拇印" は、新しく発行された個々の証明書に対して表示される拇印です。
+        「Thumbprint」は、新しく発行された個々の証明書用に表示される拇印です。
     
     <div>
     
 
     > [!NOTE]  
-    > 手順12と13は、実行しているアカウントが適切な権限で証明機関にアクセスしている場合にのみ実行されることに注意してください。 これらのアクセス許可が付与されているアカウントでログインできない場合、または証明書にパブリックまたはリモートの証明機関を使用している場合は、「Lync Server 展開ウィザード」で操作する必要があります。これは、「.
+    > 注として、手順12および13は、それらを実行しているアカウントが適切なアクセス許可を持つ証明機関にアクセスできる場合にのみ実行する必要があります。 これらのアクセス許可が付与されているアカウントでログインできない場合、または証明書にパブリックまたはリモートの証明機関を使用している場合は、Lync Server 展開ウィザードを使用して要求する必要があります。これは、アーティクル.
 
     
     </div>

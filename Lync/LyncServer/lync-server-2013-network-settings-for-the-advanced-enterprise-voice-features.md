@@ -12,20 +12,20 @@ ms:contentKeyID: 48184632
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b1ce4983f7744158c9c9ff56cdfdde818fdc8e14
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f1d6b01009aac5fdaf3d69e24b4137897e70051b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765878"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049329"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="network-settings-for-the-advanced-enterprise-voice-features-in-lync-server-2013"></a>Network settings for the advanced Enterprise Voice features in Lync Server 2013
+# <a name="network-settings-for-the-advanced-enterprise-voice-features-in-lync-server-2013"></a>Lync Server 2013 の高度なエンタープライズ Voip 機能のネットワーク設定
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41765878"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-10_
+_**トピックの最終更新日:** 2012-10-10_
 
-Lync Server には、通話受付制御 (CAC)、緊急サービス (E9)、メディアバイパスという3つの高度なエンタープライズ Voip 機能があります。 これらの機能は、ネットワークサイトを使用して、Lync Server トポロジのネットワーク領域、ネットワークサイト、および各サブネットの特定の構成要件を共有します。 これらの機能の展開の計画について詳しくは、以下をご覧ください。
+Lync Server には、通話受付管理 (CAC)、緊急サービス (E9-1-1)、メディアバイパスという3つの高度なエンタープライズ Voip 機能があります。 これらの機能は、ネットワーク地域、ネットワークサイト、および Lync Server トポロジ内の各サブネットとネットワークサイトとの関連付けについて、特定の構成要件を共有します。 これらの機能の展開の計画の詳細については、以下を参照してください。
 
   - [Lync Server 2013 での通話受付管理の計画](lync-server-2013-planning-for-call-admission-control.md)
 
   - [Lync Server 2013 での緊急サービス (E9-1-1) の計画](lync-server-2013-planning-for-emergency-services-e9-1-1.md)
 
-  - [Lync Server 2013 でのメディア バイパスの計画](lync-server-2013-planning-for-media-bypass.md)
+  - [Lync Server 2013 でのメディアバイパスの計画](lync-server-2013-planning-for-media-bypass.md)
 
-これらの各機能の展開の詳細については、展開ドキュメントの「 [Lync Server 2013 での高度なエンタープライズ voip 機能の展開](lync-server-2013-deploying-advanced-enterprise-voice-features.md)」を参照してください。
+これらの各機能の展開の詳細については、「展開」のドキュメントの「 [Advanced Enterprise Voice features In Lync Server 2013](lync-server-2013-deploying-advanced-enterprise-voice-features.md) 」を参照してください。
 
-このトピックでは、3つの高度なエンタープライズボイス機能すべてに共通する構成要件の概要について説明します。
+このトピックでは、3つの高度なエンタープライズ Voip 機能すべてに共通する構成要件の概要について説明します。
 
 <div>
 
@@ -59,19 +59,19 @@ Lync Server には、通話受付制御 (CAC)、緊急サービス (E9)、メデ
 
 
 > [!NOTE]  
-> ネットワーク領域は、Lync Server のダイヤルイン会議領域と同じではありません。これは、ダイヤルイン会議アクセス番号を1つまたは複数の Lync Server ダイヤルプランに関連付けるために必要となります。 ダイヤルイン会議の地域の詳細については、計画ドキュメントの「 <A href="lync-server-2013-dial-in-conferencing-requirements.md">Lync Server 2013 でのダイヤルイン会議の要件</A>」を参照してください。
+> ネットワーク地域は、Lync server のダイヤルイン会議の地域と同じではありません。これは、ダイヤルイン会議アクセス番号を1つまたは複数の Lync Server ダイヤルプランに関連付けるために必要です。 ダイヤルイン会議の地域の詳細については、「計画」のドキュメントの「 <A href="lync-server-2013-dial-in-conferencing-requirements.md">Lync Server 2013 のダイヤルイン会議の要件</A>」を参照してください。
 
 
 
 </div>
 
-CAC では、すべてのネットワーク領域に、その地域内のメディアトラフィックを管理する関連付けられた Lync Server セントラルサイトが必要です (つまり、構成したポリシーに基づいて、リアルタイムの音声またはビデオセッションが可能かどうかに関する決定が行われます)。確立されます)。 Lync Server のセントラルサイトは、地理的な場所を示すのではなく、プールまたは一連のプールとして構成されているサーバーの論理グループを表します。 セントラルサイトの詳細については、計画ドキュメントの「 [Lync Server 2013 のリファレンストポロジ](lync-server-2013-reference-topologies.md)」を参照してください。 [サポートされているトポロジ](lync-server-2013-supported-topologies.md)については、サポートドキュメントの「Lync Server 2013」を参照してください。
+CAC では、すべてのネットワーク地域に Lync Server 中央サイトが関連付けられていることが必要です。これは、地域内のメディアトラフィックを管理します (つまり、構成したポリシーに基づいて、リアルタイムの音声またはビデオセッションであるかどうかに関する決定を行います)。確立されます)。 Lync Server 中央サイトは、地理的な場所ではなく、プールまたはプールのセットとして構成されたサーバーの論理グループを表します。 中央サイトの詳細については、「計画」のドキュメントの「 [Reference トポロジ In Lync Server 2013](lync-server-2013-reference-topologies.md) 」を参照してください。 また、「サポート」のドキュメントの「 [Lync Server 2013 でサポートされるトポロジ](lync-server-2013-supported-topologies.md)」を参照してください。
 
-ネットワークの領域を構成するには、Lync Server コントロールパネルの [**ネットワーク構成**] セクションの [**地域**] タブを使用するか、または、**新しい (Csnetworkregion** ) lync Server Management Shell コマンドレットを実行します。 **** 手順については、展開ドキュメントの「 [Lync server 2013 でネットワーク領域を作成または変更](lync-server-2013-create-or-modify-a-network-region.md)する」を参照するか、「Lync Server 管理シェルのドキュメント」を参照してください。
+ネットワーク地域を構成するには、Lync Server コントロールパネルの [**ネットワーク構成**] セクションの [**地域**] タブを使用するか、または**新しい-Csnetworkregion**または**Set-csnetworkregion** Lync Server 管理シェルコマンドレットを実行します。 手順については、「展開」のドキュメントの「 [Lync server 2013 でネットワーク地域を作成または変更](lync-server-2013-create-or-modify-a-network-region.md)する」または「Lync Server Management Shell」のドキュメントを参照してください。
 
-同じネットワーク領域の定義は、3つの高度なエンタープライズ音声機能によって共有されます。 いずれかの機能にネットワーク地域を既に作成している場合、他の機能に新しいネットワーク地域を作成する必要はありません。 ただし、機能固有の設定を適用するために、既存のネットワーク地域定義を変更することが必要になる場合があります。 たとえば、E9-1-1 (関連付けられた中央サイトは不要) にネットワーク地域を作成しており、通話受付管理を後で展開する場合、中央サイトを指定するには、各ネットワーク地域定義を変更する必要があります。
+同じネットワーク地域定義は、3つの高度なエンタープライズ Voip 機能によって共有されます。 いずれかの機能にネットワーク地域を既に作成している場合、他の機能に新しいネットワーク地域を作成する必要はありません。 ただし、機能固有の設定を適用するために、既存のネットワーク地域定義を変更することが必要になる場合があります。 たとえば、E9-1-1 (関連付けられた中央サイトは不要) にネットワーク地域を作成しており、通話受付管理を後で展開する場合、中央サイトを指定するには、各ネットワーク地域定義を変更する必要があります。
 
-Lync Server のセントラルサイトをネットワーク領域と関連付けるには、Lync Server コントロールパネルの [**ネットワーク構成**] セクションを使用するか、または**新しい csnetworkregion**を実行するか、または、新しい- **Csnetworkregion** Lync Server Management Shell コマンドレットを実行して、セントラルサイト名を指定します。 手順については、展開ドキュメントの「 [Lync server 2013 でネットワーク領域を作成または変更](lync-server-2013-create-or-modify-a-network-region.md)する」を参照するか、「Lync Server 管理シェルのドキュメント」を参照してください。
+Lync Server 中央サイトをネットワーク地域に関連付けるには、[Lync Server コントロールパネル] の [**ネットワーク構成**] セクションを使用するか、または**新しい-Csnetworkregion**または**Set-Csnetworkregion** Lync Server 管理シェルコマンドレットを実行して、中央サイト名を指定します。 手順については、「展開」のドキュメントの「 [Lync server 2013 でネットワーク地域を作成または変更](lync-server-2013-create-or-modify-a-network-region.md)する」または「Lync Server Management Shell」のドキュメントを参照してください。
 
 </div>
 
@@ -85,13 +85,13 @@ Lync Server のセントラルサイトをネットワーク領域と関連付�
 
 
 > [!NOTE]  
-> ネットワークサイトは、高度なエンタープライズ Voip 機能によってのみ使用されます。 Lync Server トポロジで構成したブランチサイトとは異なります。 ブランチサイトの詳細については、計画ドキュメントの「 <A href="lync-server-2013-reference-topologies.md">Lync Server 2013 のリファレンストポロジ</A>」を参照してください。 <A href="lync-server-2013-supported-topologies.md">サポートされているトポロジ</A>については、サポートドキュメントの「Lync Server 2013」を参照してください。
+> ネットワークサイトは、高度なエンタープライズ Voip 機能によってのみ使用されます。 これらは、Lync Server トポロジで構成したブランチサイトとは異なります。 ブランチサイトの詳細については、「計画」のドキュメントの「 <A href="lync-server-2013-reference-topologies.md">Reference トポロジ In Lync Server 2013</A> 」を参照してください。 また、「サポート」のドキュメントの「 <A href="lync-server-2013-supported-topologies.md">Lync Server 2013 でサポートされるトポロジ</A>」を参照してください。
 
 
 
 </div>
 
-ネットワークサイトを構成し、ネットワークの領域に関連付けるには、Lync Server コントロールパネルの [**ネットワーク構成**] セクションを使用するか、または Lync Server 管理シェルの**新規作成-csnetworksite** **コマンドレットを**実行します。 詳細については、展開ドキュメントの「 [Lync server 2013 でネットワークサイトを作成または変更](lync-server-2013-create-or-modify-a-network-site.md)する」を参照するか、「Lync Server 管理シェルのドキュメント」を参照してください。
+ネットワークサイトを構成してネットワーク地域に関連付けるには、Lync Server コントロールパネルの [**ネットワーク構成**] セクションを使用するか、Lync Server 管理シェルの**新しい-Csnetworksite**または**Set-csnetworksite**コマンドレットを実行します。 詳細については、「展開」のドキュメントの「 [Create or modify a network site 2013](lync-server-2013-create-or-modify-a-network-site.md) 」または「Lync Server Management Shell」のドキュメントを参照してください。
 
 </div>
 
@@ -107,7 +107,7 @@ Lync Server のセントラルサイトをネットワーク領域と関連付�
 
 
 > [!WARNING]  
-> サーバー上のネットワーク構成中に指定された IP サブネットは、メディアのバイパスに適切に使用するために、クライアントコンピューターによって提供される形式と一致する必要があります。 Lync クライアントはローカルの IP アドレスを受け取り、関連付けられたサブネットマスクで IP アドレスをマスクします。 各クライアントに関連付けられているバイパス ID を判断するとき、レジストラーは、各ネットワークサイトに関連付けられた IP サブネットの一覧と、完全一致のためにクライアントによって提供されるサブネットとを比較します。 このため、サーバー上のネットワーク構成中に入力されたサブネットは、仮想サブネットではなく実際のサブネットであることが重要です。 (通話受付制御を展開して、メディアをバイパスしない場合は、仮想サブネットを構成しても、通話受付制御が適切に機能します)。<BR>たとえば、ip アドレスが255.255.255.0 の IP アドレスが172.29.81.57 のコンピューターで Lync クライアントがサインインすると、サブネット172.29.81.0 に関連付けられているバイパス ID が要求されます。 クライアントが仮想サブネットに属していても、サブネットが 172.29.0.0/16 として定義される場合、レジストラーは 172.29.81.0 のサブネットのみを検索するため、これを一致とは見なしません。 そのため、管理者は、Lync クライアント (静的または動的ホスト構成プロトコル (DHCP) によって、ネットワーク構成中にサブネットでプロビジョニングされる) とまったく同じサブネットを入力することが重要です。
+> サーバー上のネットワーク構成中に指定された IP サブネットは、メディアバイパスに適切に使用するために、クライアントコンピューターから提供される形式と一致している必要があります。 Lync クライアントは、ローカルの IP アドレスを取得し、関連付けられたサブネットマスクを使用して IP アドレスをマスクします。 各クライアントに関連付けられているバイパス ID を決定するとき、レジストラーは、各ネットワークサイトに関連付けられた IP サブネットと、完全一致のためにクライアントによって提供されたサブネットとを比較します。 このため、サーバー上のネットワーク構成中に入力されたサブネットは、仮想サブネットではなく実際のサブネットであることが重要です。 (通話受付管理を展開し、メディアバイパスを展開しない場合、仮想サブネットを構成していても、通話受付管理が適切に機能します。)<BR>たとえば、IP サブネットマスクが255.255.255.0 の172.29.81.57 の IP アドレスを持つコンピューター上で Lync クライアントがサインインすると、サブネット172.29.81.0 に関連付けられているバイパス ID が要求されます。 クライアントが仮想サブネットに属していても、サブネットが 172.29.0.0/16 として定義される場合、レジストラーは 172.29.81.0 のサブネットのみを検索するため、これを一致とは見なしません。 そのため、管理者は、(静的または動的ホスト構成プロトコル (DHCP) によってネットワーク構成中にサブネットでプロビジョニングされた) Lync クライアントによって提供されるとおりにサブネットを入力することが重要です。
 
 
 
@@ -119,9 +119,9 @@ Lync Server のセントラルサイトをネットワーク領域と関連付�
 
 ## <a name="associating-subnets-with-network-sites"></a>サブネットとネットワーク サイトの関連付け
 
-エンタープライズ ネットワーク内のすべてのサブネットは、ネットワーク サイトに関連付ける必要があります (つまり、すべてのサブネットを地理的場所に関連付ける必要があります)。 サブネットの関連付けを使用すると、高度なエンタープライズボイス機能で、エンドポイントを地理的に見つけることができます。 たとえば、エンドポイントを見つけることにより、CAC では、ネットワーク サイトとの間で送受信されるリアルタイムの音声およびビデオのデータ フローを調整できます。
+エンタープライズ ネットワーク内のすべてのサブネットは、ネットワーク サイトに関連付ける必要があります (つまり、すべてのサブネットを地理的場所に関連付ける必要があります)。 このサブネットの関連付けにより、高度なエンタープライズ Voip 機能がエンドポイントを地理的に特定できるようになります。 たとえば、エンドポイントを見つけることにより、CAC では、ネットワーク サイトとの間で送受信されるリアルタイムの音声およびビデオのデータ フローを調整できます。
 
-サブネットとネットワークサイトを関連付けるには、Lync Server コントロールパネルの [**ネットワーク構成**] セクションを使用するか、または Lync Server 管理シェルを使用することができます。 手順については、「展開ドキュメントの[Lync server 2013 でのサブネットのネットワークサイト](lync-server-2013-associate-a-subnet-with-a-network-site.md)への関連付け」を参照するか、「Lync Server 管理シェルのドキュメント」を参照してください。
+サブネットをネットワークサイトに関連付けるには、Lync Server コントロールパネルの [**ネットワーク構成**] セクションを使用するか、または Lync Server 管理シェルを使用できます。 手順については、「展開」のドキュメントの「 [Lync server 2013 でのネットワークサイトへのサブネットの関連付け](lync-server-2013-associate-a-subnet-with-a-network-site.md)」または「Lync Server Management Shell」のドキュメントを参照してください。
 
 </div>
 
@@ -132,7 +132,7 @@ Lync Server のセントラルサイトをネットワーク領域と関連付�
 
 [Lync Server 2013 での通話受付管理の計画](lync-server-2013-planning-for-call-admission-control.md)  
 [Lync Server 2013 での緊急サービス (E9-1-1) の計画](lync-server-2013-planning-for-emergency-services-e9-1-1.md)  
-[Lync Server 2013 でのメディア バイパスの計画](lync-server-2013-planning-for-media-bypass.md)  
+[Lync Server 2013 でのメディアバイパスの計画](lync-server-2013-planning-for-media-bypass.md)  
   
 
 </div>

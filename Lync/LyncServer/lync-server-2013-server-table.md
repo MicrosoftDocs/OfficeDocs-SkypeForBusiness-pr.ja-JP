@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: サーバー テーブル'
+title: 'Lync Server 2013: サーバーテーブル'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184890
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c1d0cdb5733e6fc6e21d1dcda1fff6214332de6b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b1a400387d88637fc45bcd3342ebbadb2bec6edf
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732417"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049119"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="server-table-in-lync-server-2013"></a>Lync Server 2013 のサーバー テーブル
+# <a name="server-table-in-lync-server-2013"></a>Lync Server 2013 のサーバーテーブル
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41732417"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-02_
+_**トピックの最終更新日:** 2012-10-02_
 
-サーバーテーブルは、サポートされているテーブルです。 各レコードは1つのサーバーを表します。
+サーバー テーブルは補助的なテーブルです。個々のレコードが 1 つのサーバーを表します。
 
 
 <table>
@@ -63,9 +63,9 @@ _**最終更新日:** 2012-10-02_
 <td><p>サーバーを識別する一意の番号。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>同一の Dnorip</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>位置</p></td>
+<td><p><strong>一の Dnorip</strong></p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>index</p></td>
 <td><p>MAC アドレス文字列。</p></td>
 </tr>
 <tr class="odd">
@@ -73,17 +73,17 @@ _**最終更新日:** 2012-10-02_
 <td><p>int</p></td>
 <td><p>外部</p></td>
 <td><p>1: 仲介サーバー</p>
-<p>2: a/v 会議 Server16394: A/V Edge service32769: ゲートウェイ</p></td>
+<p>2: 音声ビデオ会議サーバー16394: 音声ビデオ エッジ サービス 32769: ゲートウェイ</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>PoolName</strong></p></td>
 <td><p>nvarchar (512)</p></td>
 <td></td>
-<td><p>サーバーが所属するプール。 A/V 会議サーバーにのみ適用されます。</p></td>
+<td><p>サーバーが所属するプール。音声ビデオ会議サーバーにのみ適用されます。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Nextupdatupdat</strong></p></td>
-<td><p>datetime</p></td>
+<td><p><strong>NextUpdateTS</strong></p></td>
+<td><p>日付型</p></td>
 <td></td>
 <td><p>内部使用のみ。</p></td>
 </tr>

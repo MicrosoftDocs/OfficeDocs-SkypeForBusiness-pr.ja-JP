@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: メディア バイパスの計画'
+title: 'Lync Server 2013: メディアバイパスの計画'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184768
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 97b28559ea58439d370042d54ab7ef58943bc594
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0bb4d495637cd78e430e975e9831421906bfbf6e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41751157"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050089"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-media-bypass-in-lync-server-2013"></a>Lync Server 2013 でのメディア バイパスの計画
+# <a name="planning-for-media-bypass-in-lync-server-2013"></a>Lync Server 2013 でのメディアバイパスの計画
 
 </div>
 
@@ -35,41 +35,41 @@ ms.locfileid: "41751157"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-21_
+_**トピックの最終更新日:** 2012-09-21_
 
-メディアバイパスは、可能な限りメディアパスから仲介サーバーを削除します。これは、シグナルが仲介サーバーを通過する呼び出しに対して可能です。
+メディア バイパスとは、信号が仲介サーバーを通過する通話について、可能な限りメディア パスから仲介サーバーを排除することです。
 
-メディア バイパスにより、遅延、不要な変換、パケット損失の可能性、および潜在的な障害点の数を低減して、音声品質を向上できます。 回避された通話のメディア処理を排除することで、仲介サーバーにかかる負荷が減るため、スケーラビリティが向上します。 この負荷の削減は、複数のゲートウェイを制御する仲介サーバーの機能を補完します。
+メディア バイパスにより、遅延、不要な変換、パケット損失の可能性、および潜在的な障害点の数を低減して、音声品質を向上できます。 バイパスされた通話のメディア処理がなくなり、仲介サーバーの負荷が軽減されるため、拡張性を向上できます。 負荷の削減により、仲介サーバーが複数のゲートウェイを制御する機能が補完されます。
 
-仲介サーバーのないブランチサイトが1つまたは複数の WAN リンクによって中央サイトに接続されていて、帯域幅が制限されている場合、メディアのバイパスによって、ブランチサイトのクライアントからのメディアをローカルゲートウェイに直接流し込むことができます。まず、WAN リンクを中央サイトの仲介サーバーに移動して、戻る必要があります。
+仲介サーバーのないブランチサイトが、帯域幅が制限された1つまたは複数の WAN リンクによって中央サイトに接続されている場合、メディアバイパスにより、ブランチサイトのクライアントからのメディアをローカルゲートウェイに直接流すことができるため、帯域幅の要件が減少します。最初に、WAN リンクを中央サイトの仲介サーバーに転送し、バックアップする必要があります。
 
-メディアの処理から仲介サーバーを削減することで、エンタープライズ Voip インフラストラクチャで必要な仲介サーバーの数を減らすこともできます。
+メディア処理から仲介サーバーを減らすことで、メディアバイパスがエンタープライズ Voip インフラストラクチャに必要な仲介サーバーの数を減らすこともあります。
 
 次の図は、メディア バイパスを使用した場合と使用しない場合の、トポロジ内のメディアと信号の基本経路を示しています。
 
 **メディア バイパスを使用した場合と使用しない場合の、メディアと信号の経路**
 
-![音声 CAC メディア バイパス接続の適用](images/Gg398703.4d66d529-0912-4de1-abec-266f54272eb3(OCS.15).jpg "音声 CAC メディア バイパス接続の適用")
+![音声 CAC メディアバイパス接続の強制](images/Gg398703.4d66d529-0912-4de1-abec-266f54272eb3(OCS.15).jpg "音声 CAC メディアバイパス接続の強制")
 
 原則として、メディア バイパスを可能な限り有効にします。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 でのメディアのバイパスの概要](lync-server-2013-overview-of-media-bypass.md)
+  - [Lync Server 2013 でのメディアバイパスの概要](lync-server-2013-overview-of-media-bypass.md)
 
-  - [Lync Server 2013 のメディア バイパス モード](lync-server-2013-media-bypass-modes.md)
+  - [Lync Server 2013 のメディアバイパスモード](lync-server-2013-media-bypass-modes.md)
 
-  - [Lync Server 2013 でのメディア バイパスと通話受付管理](lync-server-2013-media-bypass-and-call-admission-control.md)
+  - [Lync Server 2013 でのメディアバイパスと通話受付管理](lync-server-2013-media-bypass-and-call-admission-control.md)
 
-  - [Lync Server 2013 メディア バイパスの技術要件](lync-server-2013-technical-requirements-for-media-bypass.md)
+  - [Lync Server 2013 でのメディアバイパスの技術要件](lync-server-2013-technical-requirements-for-media-bypass.md)
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a>関連項目
+## <a name="related-sections"></a>関連情報
 
 [Lync Server 2013 での高度なエンタープライズ Voip 機能の展開](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
 
@@ -80,7 +80,7 @@ _**最終更新日:** 2012-09-21_
 ## <a name="see-also"></a>関連項目
 
 
-[Configure a trunk with media bypass in Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md)  
+[Lync Server 2013 でメディアバイパスを使用してトランクを構成する](lync-server-2013-configure-a-trunk-with-media-bypass.md)  
 
 
 [Lync Server 2013 のグローバルメディアバイパスオプション](lync-server-2013-global-media-bypass-options.md)  

@@ -12,16 +12,16 @@ ms:contentKeyID: 48183782
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b8cdfa88cf6d6f58478ff3c6b44210545e24a765
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 885768cc461b7b59c37cf83b0b422bfca6c950a2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725787"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046220"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,41 +35,41 @@ ms.locfileid: "41725787"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-02_
+_**トピックの最終更新日:** 2012-10-02_
 
-このセクションでは、従来のクライアントと Lync Server 2013 プールの間、または Lync Server 2013 クライアントと従来のプールの間で相互運用性がある場合に、移行の共存フェーズでのユーザーエクスペリエンスについて説明します。
+このセクションでは、レガシクライアントと Lync Server 2013 プールまたは Lync Server 2013 クライアントと従来のプールとの間に相互運用性がある場合に、移行の共存フェーズのユーザー環境を説明します。
 
 <div>
 
 ## <a name="lync-server-2013-pools"></a>Lync Server 2013 プール
 
-Lync Server 2013 プールでレガシクライアントが使用されている場合、ユーザーには次の動作が発生します。
+従来のクライアントが Lync Server 2013 プールで使用されている場合、ユーザーには次のような動作が生じます。
 
-  - 2パーティーの通話では、ビデオ解像度は従来のプールと同じです。
+  - 2 者間通話では、ビデオ解像度はレガシ プールと同じです。
 
-  - マルチパーティ会議の場合、ビデオの解像度とビデオ会議の機能は、従来のプールと同じです。 ギャラリービューと高解像度は使用できません。
+  - マルチパーティの電話会議、ビデオ解像度、およびビデオ会議の機能は、レガシ プールと同じです。ギャラリー ビューと高解像度は使用できません。
 
 </div>
 
 <div>
 
-## <a name="legacy-pools"></a>従来のプール
+## <a name="legacy-pools"></a>レガシ プール
 
-従来のプールで Lync Server 2013 クライアントが使用されている場合、ユーザーには次の動作が発生します。
+従来のプールで Lync Server 2013 クライアントが使用されている場合、ユーザーには次のような動作が生じます。
 
-  - 2パーティの通話の場合、Lync Server 2013 クライアントでは次のような新機能を使用できます。
+  - 2者間通話では、Lync Server 2013 クライアントは次のように新しい機能を使用できます。
     
-      - 両方の参加者が Lync Server 2013 クライアントを使用している場合は、"264. 264" を使うことができます。
+      - .H は、両方の参加者が Lync Server 2013 クライアントを使用している場合に使用できます。
     
-      - 従来のサーバーは、インバンドプロビジョニングでこの情報を送信しないため、Lync Server 2013 クライアントは TotalReceiveVideoBitRateKb の既定値を使います。
+      - 従来のサーバーはインバンドプロビジョニングでこの情報を送信しないため、Lync Server 2013 クライアントは TotalReceiveVideoBitRateKb の既定値を使用します。
 
-  - マルチパーティ会議の場合、ビデオの解像度とビデオ会議の機能は、従来のプールのレガシクライアントでの経験と同じです。
+  - マルチパーティの電話会議、ビデオ解像度、およびビデオ会議の機能は、レガシ プール内のレガシ クライアントでのユーザー エクスペリエンスと同じです。
 
 <div>
 
 
 > [!NOTE]  
-> 従来のサーバーが Lync Server 2013 クライアントをホストしている場合は、プールのすべてのユーザーが低解像度のビデオを受信できるだけで、高解像度のビデオを送信できるように、ビデオ会議の帯域幅を構成することができます。 この例としては、メディア構成の MaxVideoRateAllowed が250K に設定されていて、VideoBitRateKb が会議ポリシーで 2000 kbps に設定されている場合です。 この状況では、プールのユーザーに対して高解像度を実現することはできません。<BR>MaxVideoRateAllowed は Lync Server 2013 クライアントでは使われなくなったため、Lync Server 2013 クライアントから高解像度ビデオを要求することはできません。 代わりに、プールのすべてのユーザーに対して、プールのすべてのユーザーに対して、VideoBitRateKb を MaxVideoRateAllowed (つまり、250 kbps に設定されているか、VGA が 600 kbps に設定されているか、HD が 1500 kbps に設定されている) と同じ値に設定します。
+> 従来のサーバーが Lync Server 2013 クライアントをホストしている場合は、ビデオ会議の帯域幅を構成して、プール上のすべてのユーザーが低解像度のビデオを受信し、高解像度のビデオを送信できるようにすることができます。 この例は、メディア構成で MaxVideoRateAllowed が CIF-250K に設定され、会議ポリシーで VideoBitRateKb が 2000 kbps に設定された場合です。 この設定では、プール上のユーザーは高解像度を送信できないことになります。<BR>MaxVideoRateAllowed は Lync Server 2013 クライアントでは使用されなくなったため、Lync Server 2013 クライアントが高解像度のビデオを要求することを防ぐことはできません。 その代わりに、すべてのプール上のユーザーの会議ポリシーで VideoBitRateKb を MaxVideoRateAllowed と同じ値に設定します (つまり、CIF が 250 kbps、VGA が 600 kbps、HD が 1500 kbps に設定されます)。
 
 
 

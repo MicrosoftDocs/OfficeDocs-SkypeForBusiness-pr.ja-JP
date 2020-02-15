@@ -12,20 +12,20 @@ ms:contentKeyID: 48183561
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aad97b0f2009b8f90fa64abc66791d5954c637a1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f7fa21b154b34dbc576291c34ac5239da6fb2d63
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732477"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048858"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="select-the-central-management-server-in-lync-server-2013"></a>Lync Server 2013 での中央管理サーバーの選択
+# <a name="select-the-central-management-server-in-lync-server-2013"></a>Lync Server 2013 で中央管理サーバーを選択します。
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41732477"
 
 <span> </span>
 
-_**最終更新日:** 2012-01-02_
+_**トピックの最終更新日:** 2012-01-02_
 
-トポロジを定義して構成する前に、まず、中央管理サーバーをインストールする場所を定義する必要があります。
+トポロジを定義および構成する前に、中央管理サーバーをインストールする場所を定義する必要があります。
 
 <div>
 
 
 > [!NOTE]  
-> これは、トポロジビルダーでトポロジを公開するまで有効になりません。 トポロジを作成して発行する前に、サーバーの全体管理サーバーを設定するには、 <STRONG>set-CSConfigurationStoreLocation</STRONG>を実行します。
+> トポロジビルダーでトポロジを公開するまで、これは有効になりません。 トポロジを作成して発行する前に中央管理サーバーを設定するには、 <STRONG>remove-csconfigurationstorelocation</STRONG>を実行します。
 
 
 
@@ -51,13 +51,13 @@ _**最終更新日:** 2012-01-02_
 
 <div>
 
-## <a name="to-select-the-central-management-server"></a>サーバーの全体管理サーバーを選ぶには
+## <a name="to-select-the-central-management-server"></a>中央管理サーバーを選択するには
 
-1.  トポロジビルダーを開始します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server Topology Builder**] の順にクリックします。
+1.  トポロジ ビルダーを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server トポロジ ビルダー**] の順にクリックします。
 
 2.  [Lync Server 2013] ノードを右クリックし、[**プロパティの編集**] をクリックします。
 
-3.  [Central Management Server] ウィンドウで、中央管理サーバーをインストールするフロントエンドサーバーを選び、[ **OK]** をクリックします。
+3.  中央管理サーバーウィンドウで、中央管理サーバーをインストールするフロントエンドサーバーを選択し、[ **OK]** をクリックします。
 
 </div>
 

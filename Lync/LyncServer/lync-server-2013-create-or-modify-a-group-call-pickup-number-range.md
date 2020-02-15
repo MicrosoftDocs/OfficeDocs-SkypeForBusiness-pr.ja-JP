@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: グループ通話の集配番号の範囲を作成または変更する'
+title: 'Lync Server 2013: グループ通話ピックアップ番号の範囲の作成または変更'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541472
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d5a644cb6008976894c88de570aa9cb6530e10c3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dd323e609a811a9735c966645c5176fb8784bb4c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758071"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048918"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-group-call-pickup-number-range-in-lync-server-2013"></a>Create or modify a Group Call Pickup number range in Lync Server 2013
+# <a name="create-or-modify-a-group-call-pickup-number-range-in-lync-server-2013"></a>Lync Server 2013 でグループ通話ピックアップ番号の範囲を作成または変更する
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41758071"
 
 <span> </span>
 
-_**最終更新日:** 2013-01-30_
+_**トピックの最終更新日:** 2013-01-30_
 
-次の手順を使用して、コール パーク オービット テーブルで通話ピックアップ グループ番号の範囲を作成または変更します。
+次の手順を使用して、コールパークオービットテーブルで通話ピックアップグループの番号範囲を作成または変更します。
 
 <div>
 
 
 > [!NOTE]  
-> 通話パークの軌道の番号範囲を作成、変更、削除、および表示するには、Lync Server 管理シェルを使用する必要があります。 グループ通話の集配番号の範囲は Lync Server コントロールパネルでは利用できません。
+> 通話パークオービットテーブルでグループ通話ピックアップ番号の範囲を作成、変更、削除、表示するには、Lync Server 管理シェルを使用する必要があります。 グループ通話ピックアップ番号の範囲は、Lync Server コントロールパネルでは使用できません。
 
 
 
@@ -53,13 +53,13 @@ _**最終更新日:** 2013-01-30_
 
 
 > [!IMPORTANT]  
-> 通話集配グループの番号範囲には、GroupPickup の種類を割り当てる必要があります。 ユーザーが割り当てられているグループ番号が GroupPickup 型である場合にのみ、グループ通話のピックアップが有効になります。
+> 通話ピックアップグループ番号の範囲には、GroupPickup の種類を割り当てる必要があります。 ユーザーが割り当てられているグループ番号が GroupPickup の場合にのみ、グループ通話ピックアップが有効になります。
 
 
 
 </div>
 
-通話ピックアップ グループ番号の範囲は、次のルールに従っている必要があります。
+通話ピックアップグループ番号の範囲は、次のルールに準拠している必要があります。
 
   - 範囲の開始番号が終了番号より大きくならないようにしてください。
 
@@ -67,29 +67,29 @@ _**最終更新日:** 2013-01-30_
 
   - 番号範囲は一意である必要があります。この範囲が他のどの範囲とも重ならないようにしてください。
 
-  - 数値の範囲が文字\*で始まる場合、 \#または範囲が100よりも大きい場合。
+  - 番号範囲が文字\*または\#で始まる場合、範囲は100より大きくなければなりません。
 
-  - 有効な値: 正規表現文字列と一致する\[\\\*|\#\]必要\[があります (?1-9\]\\d{0,7}) |(\[1-9\]\\d{0,8})。 つまり、値は、文字\*また\#は 1 ~ 9 のいずれかの文字列である必要があります (最初の文字をゼロにすることはできません)。 最初の文字が\*または\#である場合、次の文字は 1 ~ 9 の数字である必要があります (ゼロにすることはできません)。 後続の文字には、0 ~ 9 までの追加文字を使用できます (たとえば\#、"6000"\*、"92000"\*、"95551212"、"915551212")。 最初の文字が指定さ\*れ\#ていない場合、または最初の文字が 1 ~ 9 の数字 (0 以外) で、先頭が8文字である必要があります (たとえば、"915551212"、"41212"、"300")。
+  - 有効な値: 正規表現文字列である必要\[\\\*|\#\]が\[あります (?1-9\]\\d{0,7}) |(\[1-9\]\\d{0,8})。 つまり、値は、文字\*また\#は 1 ~ 9 の数字で始まる文字列である必要があります (最初の文字を0にすることはできません)。 最初の文字が\*または\#の場合、次の文字は 1 ~ 9 の数字である必要があります (ゼロにすることはできません)。 後続の文字には、0から9までの任意の文字を追加できます (\#たとえば、"6000\*"、"92000\*"、"95551212"、"915551212" など)。 最初の文字がまたは\*で\#はない場合、最初の文字は 1 ~ 9 の数字 (0 にはできません)、数字 0 ~ 9 (例: "915551212"、"41212"、"300") のいずれかである必要があります。
 
 <div>
 
-## <a name="to-create-or-modify-a-call-pickup-group-range"></a>通話ピックアップ グループの範囲を作成するには
+## <a name="to-create-or-modify-a-call-pickup-group-range"></a>通話ピックアップグループの範囲を作成または変更するには
 
-1.  Lync Server 管理シェルが RTCUniversalServerAdmins グループのメンバーとして、または「 [Lync server 2013 の委任セットアップの権限](lync-server-2013-delegate-setup-permissions.md)」で説明されているように、必要なユーザー権限を持つコンピューターにログオンします。
+1.  Lync Server 管理シェルがインストールされているコンピューターに、RTCUniversalServerAdmins グループのメンバーとして、または「 [Lync server 2013 のセットアップのアクセス許可の委任](lync-server-2013-delegate-setup-permissions.md)」に説明されている必要なユーザー権限を使用してログオンします。
 
-2.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+2.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
-3.  通話ピックアップ グループ番号の新しい範囲を作成するには、**New-CsCallParkOrbit** を使用します。 通話ピックアップ番号の既存の範囲を変更するには、**Set-CsCallParkOrbit** を使用します。
+3.  新しい通話ピックアップグループ番号の範囲を作成するには、 **get-cscallparkorbit**を使用します。 通話ピックアップ番号の既存の範囲を変更するには、 **get-cscallparkorbit**を使用します。
     
     コマンド ラインで、次のコマンドを実行します。
     
         New-CsCallParkOrbit -Identity <name of call pickup group range> -NumberRangeStart <first number in range> -NumberRangeEnd <last number in range> -CallParkService <FQDN or service ID of the Application service that hosts the Call Park application> -Type GroupPickup
     
-    例:
+    次に例を示します。
     
         New-CsCallParkOrbit -Identity "Redmond call pickup" -NumberRangeStart 100 -NumberRangeEnd 199 -CallParkService redmond-applicationserver-1 -Type GroupPickup
     
-    次の例は、番号の範囲をコール パーク オービットから通話ピックアップ グループに変更する方法を示しています。
+    次の例は、電話パークオービットからピックアップグループを呼び出すために番号の範囲を変更する方法を示しています。
     
         Set-CsCallParkOrbit -Identity "Redmond call pickup" -Type GroupPickup
     
@@ -97,7 +97,7 @@ _**最終更新日:** 2013-01-30_
     
 
     > [!IMPORTANT]  
-    > 最初に間違ったタイプを指定して、グループの範囲がまだ使用されていない場合にのみ、このコマンドレットを使用して、番号の範囲に割り当てられているタイプを変更します。 番号の範囲を CallPark から GroupPickup、または GroupPickup から CallPark に変更した場合、番号の範囲が既に使用されていると、コール パークまたはグループ通話ピックアップのどちらかが、その番号の範囲に対して無効になります。 たとえば、番号の範囲を [CallPark] から [GroupPick] に変更すると、その範囲の orbits を使用して通話をパークすることができなくなります。
+    > 番号範囲に割り当てられる種類を変更するには、最初に間違った種類を指定し、グループ範囲がまだ使用されていない場合にのみ、このコマンドレットを使用します。 番号範囲を CallPark から GroupPickup に変更した場合や、番号範囲が既に使用されている場合は、コールパークまたはグループ通話ピックアップのいずれかがその番号範囲に対して機能しなくなります。 たとえば、番号の範囲を CallPark から GroupPick に変更した場合、コールパークアプリケーションはその範囲のオービットを使用して通話をパークすることができなくなります。
 
     
     </div>
@@ -109,11 +109,11 @@ _**最終更新日:** 2013-01-30_
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 でのコールパークの範囲の削除](lync-server-2013-delete-a-call-park-orbit-range.md)  
+[Lync Server 2013 でのコールパークオービット範囲の削除](lync-server-2013-delete-a-call-park-orbit-range.md)  
 
 
-[新規-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/New-CsCallParkOrbit)  
-[Set-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkOrbit)  
+[Get-cscallparkorbit](https://docs.microsoft.com/powershell/module/skype/New-CsCallParkOrbit)  
+[Get-cscallparkorbit](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkOrbit)  
   
 
 </div>

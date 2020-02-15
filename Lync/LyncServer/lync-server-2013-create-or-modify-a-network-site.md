@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ネットワーク サイトの作成または変更'
+title: 'Lync Server 2013: ネットワークサイトを作成または変更する'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183488
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed721a48b12a497b25d58e7ebb65ff3a91980904
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ce676c4e86d6bceae81d60897846e3005780eb58
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722575"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046020"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-network-site-in-lync-server-2013"></a>Lync Server 2013 でのネットワーク サイトの作成または変更
+# <a name="create-or-modify-a-network-site-in-lync-server-2013"></a>Lync Server 2013 でのネットワークサイトの作成または変更
 
 </div>
 
@@ -35,52 +35,52 @@ ms.locfileid: "41722575"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-24_
+_**トピックの最終更新日:** 2013-02-24_
 
-通話受付制御 (CAC)、E9、および media バイパスの展開は、ネットワークの領域に定義され、常に関連付けられている*ネットワークサイト*の構成に依存します。 ネットワークサイトは、支社の場所、建物のセット、またはキャンパスを表します。 ネットワークサイトは、同様の帯域幅のサブネットのコレクションを表します。
+通話受付管理 (CAC)、E9-1-1、およびメディアバイパスの展開は、で定義され、常にネットワーク地域に関連付けられている*ネットワークサイト*の構成に依存します。 ネットワークサイトは、ブランチオフィスの場所、建物のセット、またはキャンパスを表します。 ネットワークサイトは、帯域幅が類似しているサブネットの集合を表します。
 
-ネットワークサイトを作成または変更するには、次の手順を使用します。 たとえば、1つの音声機能のネットワークサイトを既に作成している場合、新しいネットワークサイトを作成する必要はありません。その他の音声機能でも同じサイトが使用されます。 ただし、機能固有の設定を適用するには、既存のネットワークサイト定義を変更する必要がある場合があります。 たとえば、E9 のネットワークサイトを作成した場合、通話受付制御の展開中にネットワークサイトを変更して、帯域幅ポリシープロファイルを適用する必要があります。
+ネットワーク サイトを作成または変更するには、以下の手順を使用します。 たとえば、1 つの音声機能について既にネットワーク サイトを作成している場合は、新しいネットワーク サイトを作成する必要はありません。他の音声機能も既存の同じサイトを使用します。 ただし、既存のネットワーク サイトの定義を変更して機能固有の設定を適用しなければならない場合があります。 たとえば、E9-1-1 用のネットワーク サイトを作成している場合、通話受付管理の展開時にネットワーク サイトを変更して、帯域幅ポリシー プロファイルを適用する必要があります。
 
 <div>
 
 
 > [!NOTE]  
-> これらが存在する場合は、各機能の展開ドキュメントの高度な音声機能に関連するネットワークサイトの具体的な例と要件を見つけることができます。 
+> 機能固有の設定が存在する場合、機能ごとに「展開」のドキュメントに記載されている高度な音声機能に関連するネットワーク サイトの具体的な例と要件については、次を参照してください。 
 > <UL>
 > <LI>
-> <P><A href="lync-server-2013-configure-network-sites-for-cac.md">Lync Server 2013 での CAC 用のネットワークサイトの構成</A></P></LI></UL>
+> <P><A href="lync-server-2013-configure-network-sites-for-cac.md">Lync Server 2013 で CAC のネットワークサイトを構成する</A></P></LI></UL>
 
 
 
 </div>
 
-ネットワークサイトの操作の詳細については、次のコマンドレットの Lync Server 管理シェルに関するドキュメントを参照してください。
+ネットワークサイトの使用の詳細については、以下のコマンドレットの Lync Server Management Shell のドキュメントを参照してください。
 
   - [新しい-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSite)
 
-  - [Get-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSite)
+  - [-CsNetworkSite の取得](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSite)
 
-  - [Set-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkSite)
+  - [設定-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkSite)
 
-  - [CsNetworkSite の削除](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkSite)
-
-<div>
-
-## <a name="create-a-network-site"></a>ネットワークサイトを作成する
-
-通話受付制御、E9、またはメディアバイパスで使用できるネットワーク領域を作成します。
+  - [-CsNetworkSite の削除](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkSite)
 
 <div>
 
-## <a name="to-create-a-network-site-by-using-management-shell"></a>管理シェルを使用してネットワークサイトを作成するには
+## <a name="create-a-network-site"></a>ネットワーク サイトの作成
 
-1.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+通話受付管理、E9-1-1、またはメディア バイパスで使用できるネットワーク地域を作成します。
+
+<div>
+
+## <a name="to-create-a-network-site-by-using-management-shell"></a>管理シェルを使用して、ネットワーク サイトを作成するには
+
+1.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
 2.  New-CsNetworkSite コマンドレットを実行して、ネットワーク サイトを作成します。
     
         New-CsNetworkSite -NetworkSiteID <string>
     
-    次に例を示します。
+    例:
     
         New-CsNetworkSite -NetworkSiteID Chicago -Description "Corporate headquarters"-NetworkRegionID NorthAmerica
     
@@ -95,15 +95,15 @@ _**最終更新日:** 2013-02-24_
     
     </div>
 
-3.  トポロジのネットワーク サイトを作成するには、他のサイトの設定値を使用してステップ 2 を繰り返します。
+3.  トポロジのネットワーク サイトを作成するには、他のサイトの設定に関してステップ 2 を繰り返します。
 
 </div>
 
 <div>
 
-## <a name="to-create-a-network-site-by-using-lync-server-control-panel"></a>Lync Server コントロールパネルを使用してネットワークサイトを作成するには
+## <a name="to-create-a-network-site-by-using-lync-server-control-panel"></a>Lync Server コントロール パネルを使用して、ネットワーク サイトを作成するには
 
-1.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+1.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
 2.  左側のナビゲーション バーで [**ネットワーク構成**] をクリックします。
 
@@ -139,9 +139,9 @@ _**最終更新日:** 2013-02-24_
 
 9.  オプションで、[**説明**] をクリックして、このネットワーク サイトを説明する追加情報を入力します。
 
-10. [**コミット**] をクリックします。
+10. [**確定**] をクリックします。
 
-11. 使用しているトポロジのネットワーク サイトの作成を完了するには、他のサイトの設定値を使用してステップ 4 ～ 10 を繰り返します。
+11. 他のサイトについての設定に関してステップ 4 ～ 10 を繰り返し、ご使用のトポロジのネットワーク サイトの作成を完了します。
 
 </div>
 
@@ -149,44 +149,44 @@ _**最終更新日:** 2013-02-24_
 
 <div>
 
-## <a name="modify-a-network-site"></a>ネットワークサイトを変更する
+## <a name="modify-a-network-site"></a>ネットワーク サイトの変更
 
-通話受付制御、E9、またはメディアバイパスで使用できるネットワークの領域を変更します。
+通話受付管理、E9-1-1、またはメディア バイパスで使用できるネットワーク地域を変更します。
 
 <div>
 
-## <a name="to-modify-a-network-site"></a>ネットワークサイトを変更するには
+## <a name="to-modify-a-network-site"></a>ネットワーク サイトを変更するには
 
-1.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+1.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
 2.  Set-CsNetworkSite コマンドレットを実行して、ネットワーク サイトを変更します。
     
         Set-CsNetworkSite -Identity <string>
     
-    例:
+    次にその例を示します。
     
         Set-CsNetworkSite -Identity Albuquerque -NetworkRegionID NorthAmerica
     
-    この例では、"Albuquerque" という名前のサイトが "NorthAmerica" ネットワーク地域に移動されます。ネットワーク サイトの構成を変更して、通話受付管理、E9-1-1、またはメディア バイパスを展開するには、Set-CsNetworkSite コマンドレットをそれぞれ BWPolicyProfileID または LocationPolicy パラメーターと組み合わせて実行し、ネットワーク サイトの設定を変更します。
+    この例では、"Albuquerque" という名前のサイトが "NorthAmerica" ネットワーク地域に移動されます。 ネットワーク サイトの構成を変更して、通話受付管理、E9-1-1、またはメディア バイパスを展開するには、Set-CsNetworkSite コマンドレットをそれぞれ BWPolicyProfileID または LocationPolicy パラメーターと組み合わせて実行し、ネットワーク サイトの設定を変更します。
     
     <div>
     
 
     > [!NOTE]  
-    > メディア バイパス用に BypassID パラメーターが用意されていますが、自動生成されるバイパス ID を上書きしないことを強くお勧めします。 メディア バイパス用にネットワーク サイトを構成するために、追加パラメーターを指定する必要はありません。
+    > メディア バイパス用に BypassID パラメーターが用意されていますが、自動生成されるバイパス ID を無効にしないことを強くお勧めします。 メディア バイパス用にネットワーク サイトを構成するために、追加パラメーターを指定する必要はありません。
 
     
     </div>
 
-3.  使用しているトポロジのネットワーク サイトの変更を完了するには、他のサイトの設定値を使用してステップ 2 を繰り返します。
+3.  他のサイトについての設定に関してステップ 2 を繰り返し、ご使用のトポロジのネットワーク サイトの変更を完了します。
 
 </div>
 
 <div>
 
-## <a name="to-modify-a-network-site-by-using-lync-server-control-panel"></a>Lync Server コントロールパネルを使用してネットワークサイトを変更するには
+## <a name="to-modify-a-network-site-by-using-lync-server-control-panel"></a>Lync Server コントロール パネルを使用して、ネットワーク サイトを変更するには
 
-1.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+1.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
 2.  左側のナビゲーション バーで [**ネットワーク構成**] をクリックします。
 
@@ -200,7 +200,7 @@ _**最終更新日:** 2013-02-24_
 
 7.  [**確定**] をクリックします。
 
-8.  ネットワーク サイトの変更を完了するには、他のサイトの設定値を使用してステップ 4 ～ 7 を繰り返します。
+8.  他のサイトについての設定に関してステップ 4 ～ 7 を繰り返し、ネットワーク サイトの変更を完了します。
 
 </div>
 

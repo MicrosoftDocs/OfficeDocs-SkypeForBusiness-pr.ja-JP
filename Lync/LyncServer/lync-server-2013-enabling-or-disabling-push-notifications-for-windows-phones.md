@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Windows Phone のプッシュ通知を有効または無効にする'
+title: 'Lync Server 2013: Windows Phone のプッシュ通知の有効化または無効化'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733767
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d1b4c8f1f86fa1456230ad4695de0f5b8c56d406
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 01a30a7e0effbcd9d80f30bccf68edb9804641f4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735634"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048120"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enabling-or-disabling-push-notifications-for-windows-phones-in-lync-server-2013"></a>Lync Server 2013 での Windows Phone のプッシュ通知を有効または無効にする
+# <a name="enabling-or-disabling-push-notifications-for-windows-phones-in-lync-server-2013"></a>Lync Server 2013 での Windows Phone のプッシュ通知の有効化または無効化
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41735634"
 
 _**トピックの最終更新日:** 2013-02-23_
 
-プッシュ通知は、モバイルアプリケーションが非アクティブになっている場合でも、バッジ、アイコン、または警告の形式で Windows Phone に送信できます。 プッシュ通知は、新規または不在着信した IM の招待状やボイスメールなどのイベントをユーザーに通知します。 Windows Phone デバイスのプッシュ通知を有効または無効にするには、Lync Server 2013 コントロールパネルまたは Lync Server 2013 Management Shell を使用します。
+プッシュ通知は、バッジ、アイコン、または警告の形式で、モバイルアプリケーションが非アクティブな場合でも Windows Phone に送信できます。 プッシュ通知は、ユーザーに、新規または不在着信の IM 招待状、ボイス メールなどのイベントを通知します。 Windows Phone デバイスのプッシュ通知を有効または無効にするには、Lync Server 2013 コントロールパネルまたは Lync Server 2013 管理シェルを使用します。
 
 <div>
 
@@ -45,15 +45,15 @@ _**トピックの最終更新日:** 2013-02-23_
 
 1.  CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
-3.  左側のナビゲーションバーで、[**クライアント**] をクリックし、[**プッシュ通知の構成**] ナビゲーションボタンをクリックします。
+3.  左側のナビゲーション バーで [**クライアント**] をクリックし、[**プッシュ通知構成**] ナビゲーション ボタンをクリックします。
 
 4.  [**プッシュ通知の構成**] ページで、編集するサイトをクリックし、[**編集**] メニューをクリックして、[**詳細の表示**] をクリックします。
 
-5.  [ **Microsoft プッシュ通知を有効にする**] チェックボックスをオンにします。
+5.  [**Microsoft プッシュ通知を有効にする**] チェック ボックスをオンにします。
 
-6.  [**コミット**] をクリックします。
+6.  [**確定**] をクリックします。
 
 </div>
 
@@ -63,29 +63,29 @@ _**トピックの最終更新日:** 2013-02-23_
 
 1.  CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
-3.  左側のナビゲーションバーで、[**クライアント**] をクリックし、[**プッシュ通知の構成**] ナビゲーションボタンをクリックします。
+3.  左側のナビゲーション バーで [**クライアント**] をクリックし、[**プッシュ通知構成**] ナビゲーション ボタンをクリックします。
 
 4.  [**プッシュ通知の構成**] ページで、編集するサイトをクリックし、[**編集**] メニューをクリックして、[**詳細の表示**] をクリックします。
 
-5.  [ **Microsoft プッシュ通知を有効にする**] チェックボックスをオフにします。
+5.  [**Microsoft プッシュ通知を有効にする**] チェック ボックスをオフにします。
 
-6.  [**コミット**] をクリックします。
+6.  [**確定**] をクリックします。
 
 </div>
 
 <div>
 
-## <a name="enabling-or-disabling-push-notifications-for-windows-phone-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して、Windows Phone のプッシュ通知を有効または無効にする
+## <a name="enabling-or-disabling-push-notifications-for-windows-phone-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用した Windows Phone のプッシュ通知の有効化または無効化
 
-Windows Phone のプッシュ通知を有効または無効にするには、 **Set-csp・の設定**コマンドレットを使用します。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
+Windows Phone のプッシュ通知を有効または無効にするには、 **Set-Cspの設定**コマンドレットを使用します。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 <div>
 
 ## <a name="to-enable-push-notifications-for-windows-phone"></a>Windows Phone のプッシュ通知を有効にするには
 
-  - Windows Phone のプッシュ通知を有効にするには、EnableMicrosoftPushNotificationService プロパティの値を True ($True) に設定します。 次に例を示します。
+  - Windows Phone のプッシュ通知を有効にするには、EnableMicrosoftPushNotificationService プロパティの値を True ($True) に設定します。 例:
     
         Set-CsPushNotificationConfiguration -Identity "site:Redmond" -EnableMicrosoftPushNotificationService $True
 
@@ -95,13 +95,13 @@ Windows Phone のプッシュ通知を有効または無効にするには、 **
 
 ## <a name="to-disable-push-notifications-for-windows-phone"></a>Windows Phone のプッシュ通知を無効にするには
 
-  - Windows Phone のプッシュ通知を無効にするには、EnableMicrosoftPushNotificationService プロパティの値を False ($False) に設定します。 次に例を示します。
+  - Windows Phone のプッシュ通知を無効にするには、EnableMicrosoftPushNotificationService プロパティの値を False ($False) に設定します。 例:
     
         Set-CsPushNotificationConfiguration -Identity "site:Redmond" -EnableMicrosoftPushNotificationService $False
 
 </div>
 
-詳細については、「 [Set-cspの設定](https://docs.microsoft.com/powershell/module/skype/Set-CsPushNotificationConfiguration)」の「ヘルプ」を参照してください。
+詳細については、[Set-CsPushNotificationConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsPushNotificationConfiguration) コマンドレットのヘルプ トピックを参照してください。
 
 </div>
 
@@ -110,7 +110,7 @@ Windows Phone のプッシュ通知を有効または無効にするには、 **
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 でプッシュ通知を構成する](lync-server-2013-configuring-for-push-notifications.md)  
+[Lync Server 2013 でのプッシュ通知の構成](lync-server-2013-configuring-for-push-notifications.md)  
   
 
 </div>

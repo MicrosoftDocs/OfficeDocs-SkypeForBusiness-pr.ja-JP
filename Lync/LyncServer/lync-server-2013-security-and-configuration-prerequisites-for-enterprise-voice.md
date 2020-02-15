@@ -1,5 +1,5 @@
 ---
-title: エンタープライズ VoIP のセキュリティおよび構成の前提条件
+title: エンタープライズ Voip のセキュリティおよび構成の前提条件
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183495
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6530e00a942e2e839eaf4bc2d069212b746e2504
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e4fb37047ec57d281e47d1c03c2f52ed455dcdf7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732577"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048968"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-lync-server-2013"></a>Lync Server 2013 でのエンタープライズ Voip のセキュリティと構成の前提条件
+# <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-lync-server-2013"></a>Lync Server 2013 でのエンタープライズ Voip のセキュリティおよび構成の前提条件
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "41732577"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-18_
+_**トピックの最終更新日:** 2012-10-18_
 
-インフラストラクチャが以下のセキュリティ、ユーザー構成、およびシナリオ固有のハードウェアの前提条件を満たしていることを確認します。
+インフラストラクチャが次のセキュリティ、ユーザー構成、およびシナリオ固有のハードウェアの前提条件を満たしていることを確認します。
 
 <div>
 
 ## <a name="administrative-rights-and-certificate-infrastructure"></a>管理者権限と証明書インフラストラクチャ
 
-環境が、エンタープライズ Voip 展開プロセスで使用するために、次の管理者ユーザーグループと証明書インフラストラクチャを使って構成されていることを確認してください。
+エンタープライズ VoIP の展開プロセス時に使用する次の管理者ユーザー グループと証明書インフラストラクチャで環境が構成されていることを確認します。
 
-  - エンタープライズボイスを展開する管理者は、RTCUniversalServerAdmins グループのメンバーである必要があります。
+  - エンタープライズ VoIP を展開する管理者が RTCUniversalServerAdmins グループのメンバーであること。
 
   - 構成タスクを実行する管理者に十分な権限があること。
     
-      - **CsVoiceAdministrator:** この管理者の役割では、音声構成タスクの実行、音声アプリケーションの管理、エンド ユーザーへの音声ポリシーの割り当てができます。
+      - **CsVoiceAdministrator: **この管理者の役割では、音声構成タスクの実行、音声アプリケーションの管理、エンド ユーザーへの音声ポリシーの割り当てができます。
     
-      - **CsUserAdministrator:** この管理者の役割では、ユーザーのエンタープライズ VoIP を有効にするなど、ユーザーのプロパティを管理できます。 また、この管理者の役割では、ユーザー単位のポリシーの割り当て (アーカイブ ポリシー以外)、ユーザーの移動、共通領域電話やアナログ デバイスの管理を行うこともできます。
+      - **CsUserAdministrator: **この管理者の役割では、ユーザーのエンタープライズ VoIP を有効にするなど、ユーザーのプロパティを管理できます。 また、この管理者の役割では、ユーザー単位のポリシーの割り当て (アーカイブ ポリシー以外)、ユーザーの移動、共通領域電話やアナログ デバイスの管理を行うこともできます。
     
-      - **CsAdministrator:** この管理者の役割では、CsVoiceAdministrator と CsUserAdministrator のすべてのタスクを実行できます。
+      - **CsAdministrator: **この管理者の役割では、CsVoiceAdministrator と CsUserAdministrator のすべてのタスクを実行できます。
     
     <div>
     
 
     > [!NOTE]
-    > 委任により、リソースへの不要なアクセスを開かずに、Lync Server の展開により多くの管理者が参加できるようになります。
+    > 委任を使用すると、リソースへの不必要なアクセスを開かなくても、Lync Server の展開により多くの管理者が参加できます。
 
     
     </div>
@@ -70,7 +70,7 @@ _**最終更新日:** 2012-10-18_
     
 
     > [!NOTE]
-    > Lync Server の証明書の要件の詳細については、「計画ドキュメントの「 <A href="lync-server-2013-certificate-infrastructure-requirements.md">Lync server 2013 の証明書インフラストラクチャの要件</A>」を参照してください。
+    > Lync Server での証明書の要件の詳細については、「計画」のドキュメントの「 <A href="lync-server-2013-certificate-infrastructure-requirements.md">Lync server 2013 の証明書インフラストラクチャ要件</A>」を参照してください。
 
     
     </div>
@@ -81,15 +81,15 @@ _**最終更新日:** 2012-10-18_
 
 ## <a name="user-configuration"></a>ユーザー構成
 
-フロントエンドの展開時に、各フロントエンドプールまたは Standard Edition サーバーに仲介サーバーを併置した場合、エンタープライズボイスに必要なユーザー設定は、それらのサーバーロールのファイルのインストール中に自動的に構成されました。
+フロントエンドの展開時に、各フロントエンドプールまたは Standard Edition サーバーに仲介サーバーを併置した場合、エンタープライズ Voip に必要なユーザー設定は、それらのサーバーの役割のファイルのインストール時に自動的に構成されました。
 
-現時点でエンタープライズ音声のワークロードを新しく展開している場合は、展開プロセスを開始する前に、エンタープライズ Voip を有効にする予定の各ユーザーのプライマリ電話番号を指定します。 管理者は、この番号が一意であることを確認する責任があります。 実装前に、すべての主要な電話番号を正規化し (適切に書式設定)、Lync Server コントロールパネルを使用して、各ユーザーの**行 URI**プロパティにコピーする必要があります。
+この時点でエンタープライズ VoIP のワークロードを新たに展開する場合、展開プロセスを開始する前に、エンタープライズ VoIP を有効にする各ユーザーの主要電話番号を指定します。 管理者は、この番号が一意であることを確認する責任があります。 実装の前に、Lync Server コントロールパネルを使用して、すべてのプライマリ電話番号を正規化 (整形) し、各ユーザーの**回線 URI**プロパティにコピーする必要があります。
 
 <div>
 
 
 > [!NOTE]
-> エンタープライズ Voip の展開に必要な主要な電話番号の例については、計画ドキュメントの「lync server <A href="lync-server-2013-dial-plans-and-normalization-rules.md">2013 のダイヤルプランと正規化ルール</A>」セクションの「<A href="lync-server-2013-dial-plans-and-normalization-rules.md">ダイヤルプランと2013正規化</A>ルール」を参照してください。
+> エンタープライズ Voip の展開に必要な主要電話番号の例については、「計画」のドキュメントの「 <A href="lync-server-2013-dial-plans-and-normalization-rules.md">Lync server 2013</A>でのダイヤルプランと正規化ルール」セクション<A href="lync-server-2013-dial-plans-and-normalization-rules.md">と「lync server 2013 の正規化ルール</A>」を参照してください。
 
 
 
@@ -99,13 +99,13 @@ _**最終更新日:** 2012-10-18_
 
 <div>
 
-## <a name="next-steps-install-files-or-configure-pstn-connectivity"></a>次の手順: ファイルをインストールする、または PSTN 接続を構成する
+## <a name="next-steps-install-files-or-configure-pstn-connectivity"></a>次のステップ:  ファイルのインストールや PSTN 接続の構成
 
-エンタープライズ Voip のソフトウェアと環境の前提条件を確認した後、次のようなコンテンツを使うことができます。
+エンタープライズ VoIP のソフトウェアおよび環境の前提条件を確認したら、以下の情報を参照して次のいずれかの操作を実行できます。
 
-  - 「 [Lync server 2013 に「仲介サーバー用のファイルをインストール](lync-server-2013-install-the-files-for-mediation-server.md)する」の説明に従って、仲介サーバーをインストールします。ただし、仲介された場合は、仲介サーバーがフロントエンドプールまたは Standard Edition サーバー展開プロセスの一環としてインストールされているためです。
+  - 「 [Lync server 2013 の仲介サーバーのファイル](lync-server-2013-install-the-files-for-mediation-server.md)をインストールする」の説明に従って、仲介サーバーをインストールします。これは、仲介サーバーがフロントエンドプールまたは Standard Edition サーバー展開プロセスの一部としてインストールされているためで、スタンドアロンの仲介サーバーまたはプールを展開する場合に限られます。
 
-  - または、「 [Lync Server 2013 での trunks の構成](lync-server-2013-configuring-trunks.md)」で説明されているように、エンタープライズ voip ユーザーの呼び出しをルーティングするための設定の構成を開始します。
+  - または、「[構成トランク In Lync Server 2013](lync-server-2013-configuring-trunks.md)」の説明に従って、エンタープライズ voip ユーザーの通話をルーティングするための設定の構成を開始します。
 
 </div>
 
