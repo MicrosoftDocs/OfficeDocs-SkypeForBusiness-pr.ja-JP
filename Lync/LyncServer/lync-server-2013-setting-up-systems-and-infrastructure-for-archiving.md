@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: アーカイブのためにシステムとインフラストラクチャをセットアップする'
+title: 'Lync Server 2013: アーカイブ用のシステムおよびインフラストラクチャのセットアップ'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183797
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 980b64dacbe623241aedfb3312156f5599c43bab
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c3f5dde3c3fa54bd920bfd17055cdc759f50bc0a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764553"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040323"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-systems-and-infrastructure-for-archiving-in-lync-server-2013"></a>Lync Server 2013 でアーカイブするためのシステムとインフラストラクチャを設定する
+# <a name="setting-up-systems-and-infrastructure-for-archiving-in-lync-server-2013"></a>Lync Server 2013 でのアーカイブ用のシステムおよびインフラストラクチャのセットアップ
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41764553"
 
 <span> </span>
 
-_**最終更新日:** 2012-06-23_
+_**トピックの最終更新日:** 2012-06-23_
 
-アーカイブを展開する前に、適切なハードウェアとソフトウェアを展開してアーカイブをサポートし、インフラストラクチャがアーカイブの展開をサポートしていることを確認する必要があります。
+アーカイブを展開する前に、アーカイブをサポートする適切なハードウェアとソフトウェアを展開し、インフラストラクチャがアーカイブ展開をサポートすることを確認する必要があります。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 でアーカイブするためのシステムプラットフォームを設定する](lync-server-2013-setting-up-system-platforms-for-archiving.md)
+  - [Lync Server 2013 でのアーカイブ用のシステムプラットフォームのセットアップ](lync-server-2013-setting-up-system-platforms-for-archiving.md)
 
-  - [Lync Server 2013 でアーカイブするためのインフラストラクチャをセットアップする](lync-server-2013-setting-up-the-infrastructure-for-archiving.md)
+  - [Lync Server 2013 でのアーカイブ用のインフラストラクチャのセットアップ](lync-server-2013-setting-up-the-infrastructure-for-archiving.md)
 
-  - [Lync Server 2013 でアーカイブ用に記憶域を設定する](lync-server-2013-setting-up-storage-for-archiving.md)
+  - [Lync Server 2013 でのアーカイブ用の記憶域のセットアップ](lync-server-2013-setting-up-storage-for-archiving.md)
 
-  - [Lync Server 2013 でアーカイブするためのアクセス許可を設定する](lync-server-2013-setting-up-permissions-for-archiving.md)
+  - [Lync Server 2013 でのアーカイブのアクセス許可の設定](lync-server-2013-setting-up-permissions-for-archiving.md)
 
 </div>
 

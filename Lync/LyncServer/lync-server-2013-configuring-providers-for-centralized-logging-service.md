@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 集中化されたログサービスのプロバイダーの構成'
+title: 'Lync Server 2013: 集中ログサービス用のプロバイダーの構成'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733678
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2428bd11e656d0f1b6295e63ca6106fa7edcbb15
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 51dbb8c1a2e24290e4ab2805bed191e5f2dc86bd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734857"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041086"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-providers-for-centralized-logging-service-in-lync-server-2013"></a>Lync Server 2013 での中央集中ログサービスのプロバイダーの構成
+# <a name="configuring-providers-for-centralized-logging-service-in-lync-server-2013"></a>Lync Server 2013 での集中ログサービスのプロバイダーの構成
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41734857"
 
 <span> </span>
 
-_**最終更新日:** 2014-03-19_
+_**トピックの最終更新日:** 2014-03-19_
 
-一元管理サービスの*プロバイダー*の概念と構成は、理解するうえで最も重要なものの1つです。 *プロバイダー*は、lync server のトレースモデルの lync server server ロールコンポーネントに直接マッピングされます。 プロバイダーは、トレース対象の Lync Server 2013 のコンポーネント、収集するメッセージの種類 (fatal、エラー、警告など)、フラグ (TF\_CONNECTION、tf\_Diag など) を定義します。これは、 プロバイダーは、各 Lync Server サーバーの役割で追跡可能なコンポーネントです。 プロバイダーを使用して、コンポーネントに対するトレースのレベルと種類 (S4、SIPStack、IM、プレゼンスなど) を定義します。 定義済みのプロバイダーは、シナリオの中で特定の問題状況に対応する特定の論理コレクション用のすべてのプロバイダーをグループ化するために使用されます。
+集中ログサービスの*プロバイダー*の概念と構成は、把握しておくべき最も重要なものの1つです。 *プロバイダー*は、lync server トレースモデルの lync server サーバーロールコンポーネントに直接マップされます。 プロバイダーは、追跡される Lync Server 2013 のコンポーネント、収集するメッセージの種類 (致命的、エラー、警告など)、およびフラグ (たとえば、TF\_Connection または tf\_Diag) を定義します。 プロバイダーは、各 Lync Server サーバーの役割で追跡可能なコンポーネントです。 プロバイダーを使用して、コンポーネントに対するトレースのレベルと種類 (S4、SIPStack、IM、プレゼンスなど) を定義します。 定義済みのプロバイダーは、シナリオの中で特定の問題状況に対応する特定の論理コレクション用のすべてのプロバイダーをグループ化するために使用されます。
 
-Lync Server 管理シェルを使用して一元的なログサービス機能を実行するには、CsAdministrator または CsServerAdministrator の役割ベースのアクセス制御 (RBAC) セキュリティグループのメンバーであるか、またはのいずれかのメンバーである必要があります。これら2つのグループ。 このコマンドレットが割り当てられているすべての役割ベースのアクセス制御 (RBAC) ロールのリストを返すには (自分自身で作成したカスタム RBAC ロールを含む)、Lync Server 管理シェルまたは Windows PowerShell プロンプトから次のコマンドを実行します。
+Lync Server 管理シェルを使用して集中ログサービスの機能を実行するには、CsAdministrator または CsServerAdministrator の役割ベースのアクセス制御 (RBAC) セキュリティグループのメンバーであるか、またはのいずれかを含むカスタム RBAC の役割を持っている必要があります。これら2つのグループ。 このコマンドレットが割り当てられているすべての役割ベースのアクセス制御 (RBAC) の役割の一覧 (自分で作成したカスタムの RBAC の役割を含む) を戻すには、Lync Server 管理シェルまたは Windows PowerShell プロンプトから次のコマンドを実行します。
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Lync Server 2013 cmdlet"}
 
@@ -47,55 +47,55 @@ Lync Server 管理シェルを使用して一元的なログサービス機能�
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
-このトピックの残りの部分では、トラブルシューティングを最適化するために、プロバイダーの定義方法、プロバイダーの変更方法、プロバイダー定義に含まれる内容について説明します。 一元化されたログサービスのコマンドを発行するには、2つの方法があります。 既定で\\は、ディレクトリ C: Program Files\\の共通ファイル\\Microsoft Lync Server 2013\\clscontroller である clscontroller を使うことができます。 または、Lync Server 管理シェルを使用して、Windows PowerShell コマンドを発行することもできます。 重要な違いは、コマンドラインで CLSController を使う場合に、プロバイダーが既に定義されていて変更できないシナリオがいくつかありますが、ログレベルを定義できます。 Windows PowerShell を使用すると、ログセッションで使用するために新しいプロバイダーを定義することができます。また、それらの作成、収集内容、データ収集のレベルなども完全に制御できます。
+このトピックの以下の部分では、プロバイダーの定義方法、プロバイダーの変更方法、およびトラブルシューティングを最適化するためにプロバイダー定義に含まれるものに注目します。 集中ログサービスのコマンドを発行するには、2つの方法があります。 既定で\\は、フォルダー C: Program Files\\Common Files\\Microsoft Lync Server 2013\\clscontroller にある clscontroller を使用できます。 または、Lync Server 管理シェルを使用して、Windows PowerShell コマンドを発行することもできます。 この 2 つの方法の重要な相違点は、CLSController.exe をコマンド ラインで使用する場合は、使用できるシナリオに限りがあり (プロバイダーが既に定義されたシナリオから選択)、プロバイダーを変更することはできませんが、ログ レベルは定義できます。 Windows PowerShell を使用すると、ログセッションで使用するために新しいプロバイダーを定義し、作成、収集内容、データを収集するレベルなどを詳細に制御できます。
 
 <div class="">
 
 
 > [!IMPORTANT]  
-> 前述したように、プロバイダーは非常に強力です。ただし、シナリオは、プロバイダーが表すコンポーネントに対するトレースの設定と実行を行うために必要な具体的な情報をすべて含んでいるため、プロバイダーよりも強力です。シナリオとプロバイダーのコレクションは、大まかに言うと、大量の情報を収集する多数のコマンドを含むバッチ ファイルを実行することと、多数のコマンドをコマンド ラインから一度に 1 つずつ発行することに相当します。<BR>プロバイダーの詳細を深く把握する必要はありませんが、一元管理サービスには、既に定義されている多数のシナリオが用意されています。 用意されているシナリオを使用して、遭遇する可能性がある問題の大部分に対応できます。 まれに、プロバイダーを作成して定義し、シナリオに割り当てなければならない場合があります。 新しいプロバイダーとシナリオを作成する必要があるかどうかを考慮する前に、用意されている各シナリオを十分に調べることを強くお勧めします。 ここでは、シナリオでのプロバイダー要素の使用によるトレース情報の収集方法を理解するために、プロバイダーの作成に関する情報が提示されていますが、プロバイダーそのものの詳細については説明しません。
+> 前述したように、プロバイダーは非常に強力です。ただし、シナリオは、プロバイダーが表すコンポーネントに対するトレースの設定と実行を行うために必要な具体的な情報をすべて含んでいるため、プロバイダーよりも強力です。シナリオとプロバイダーのコレクションは、大まかに言うと、大量の情報を収集する多数のコマンドを含むバッチ ファイルを実行することと、多数のコマンドをコマンド ラインから一度に 1 つずつ発行することに相当します。<BR>プロバイダーの詳細を深く掘り下げて把握する必要はありませんが、集中ログサービスでは、既に定義されているいくつかのシナリオが用意されています。 用意されているシナリオを使用して、遭遇する可能性がある問題の大部分に対応できます。 まれに、プロバイダーを定義してシナリオに割り当てなければならない場合があります。 新しいプロバイダーとシナリオを作成する必要があるかどうかを考慮する前に、用意されているシナリオを十分に調べることを強くお勧めします。 ここでは、シナリオでのプロバイダー要素の使用によるトレース情報の収集方法を理解するために、プロバイダーの作成に関する情報が提示されていますが、プロバイダーそのものの詳細については説明しません。
 
 
 
 </div>
 
-[Lync Server 2013 の中央集中ログサービスの概要](lync-server-2013-overview-of-the-centralized-logging-service.md)については、次のようなシナリオで使用するためにプロバイダーを定義する主な要素を紹介します。
+[Lync Server 2013 の集中ログサービスの概要](lync-server-2013-overview-of-the-centralized-logging-service.md)では、シナリオで使用するプロバイダーを定義する主な要素として、次の要素を紹介しています。
 
-  - **プロバイダー**   ocslogger に精通している場合、プロバイダーは、トレースエンジンがログを収集する必要があることを ocslogger に伝えるために選ぶコンポーネントです。 プロバイダーは同じコンポーネントであり、多くの場合、OCSLogger のコンポーネントと同じ名前が付いています。 OCSLogger に精通していない場合は、一元管理サービスでログを収集できるのは、サーバーの役割固有のコンポーネントです。 一元管理サービスの場合、CLSAgent は、プロバイダー構成で定義したコンポーネントのトレースを実行している一元ログサービスのアーキテクチャ部分です。
+  - **プロバイダー**   ocslogger を熟知している場合、プロバイダーは、トレースエンジンがログを収集する内容を ocslogger に通知するために選択するコンポーネントです。 プロバイダーは同じコンポーネントで、多くの場合、OCSLogger のコンポーネントと同じ名前になります。 OCSLogger を使い慣れていない場合、プロバイダーは、集中ログサービスがログを収集できる、サーバーロール固有のコンポーネントです。 集中ログサービスの場合、CLSAgent は、プロバイダ構成で定義したコンポーネントのトレースを実行している、集中ログサービスのアーキテクチャ部分です。
 
-  - **ログレベル**   ocslogger では、収集されたデータの詳細レベルを選択するオプションが提供されました。 この機能は、一元ログサービスとシナリオの一部であり、 **Type**パラメーターによって定義されます。 次のいずれかを選ぶことができます。
+  - **Logging levels**   ocslogger では、収集されるデータの詳細レベルの数を選択するオプションが提供されています。 この機能は、集中ログサービスとシナリオの重要な部分であり、 **Type**パラメーターで定義されています。 次のいずれかを選択できます。
     
-      - **[すべて**   ] は、定義されたプロバイダーのログに対して、致命的、エラー、警告、および情報の種類のトレースメッセージを収集します。
+      - **All**   は、指定されたプロバイダーのログに、致命的、エラー、警告、および情報の種類のトレースメッセージを収集します。
     
-      - **Fatal**   は、定義されたプロバイダーのエラーを示すトレースメッセージのみを収集します。
+      - **Fatal**   定義されたプロバイダーの障害を示すトレースメッセージのみを収集します。
     
-      - **エラー**   は、定義されたプロバイダーに関するエラーと致命的なメッセージを示すトレースメッセージだけを収集します。
+      - **エラー**   は、定義されたプロバイダーのエラーと致命的なメッセージを示すトレースメッセージのみを収集します。
     
-      - **警告**   は、定義されたプロバイダーに対して警告を示すトレースメッセージだけであり、fatal とエラーメッセージだけを収集します。
+      - **Warning**   定義済みのプロバイダーについての警告に加えて、致命的なメッセージとエラーメッセージを示すトレースメッセージのみを収集します。
     
-      - **[情報**   ] は、定義されたプロバイダーの情報メッセージを示すトレースメッセージと、致命的、エラー、および警告メッセージのみを収集します。
+      - **Info**   : 定義済みのプロバイダーの情報メッセージに加え、致命的、エラー、および警告メッセージを示すトレースメッセージのみを収集します。
     
-      - **[冗長**   ] は、定義されたプロバイダーの致命的、エラー、警告、情報の種類のすべてのトレースメッセージを収集します。
+      - **Verbose**   : 定義済みのプロバイダーについて、種類が fatal、error、warning、info のすべてのトレースメッセージを収集します。
 
-  - **フラグ**   ocslogger では、トレースファイルから取得できる情報の種類を定義したプロバイダーごとにフラグを選択するオプションが提供されました。 プロバイダーに基づいて、次のフラグを選ぶことができます。
+  - **Flags**   ocslogger では、トレースファイルから取得できる情報の種類を定義した各プロバイダーのフラグを選択するオプションが提供されていました。 プロバイダーに基づいて、次のフラグを選択できます。
     
-      - **TF\_connection**   は、接続に関連するログエントリを提供します。 これらのログには、特定のコンポーネントとの間で確立された接続に関する情報が含まれます。 これには、重要なネットワークレベルの情報が含まれることもあります (つまり、接続の概念なし)。
+      - **TF\_connection**   は、接続に関連するログエントリを提供します。 これらのログには、特定のコンポーネントとの間で確立された接続に関する情報が含まれます。 これには、ネットワークレベルの重要な情報 (接続の概念を持たないコンポーネント) が含まれることもあります。
     
-      - **TF\_security**   には、セキュリティに関連するすべてのイベントとログエントリが用意されています。 たとえば、SipStack の場合、これは、ドメイン検証エラー、クライアント認証、承認エラーなどのセキュリティイベントです。
+      - **TF\_security**   には、セキュリティに関連するすべてのイベント/ログエントリが用意されています。 たとえば、SipStack の場合、これらはドメイン検証エラーなどのセキュリティイベント、およびクライアント認証/承認エラーです。
     
-      - **TF\_Diag**   には、コンポーネントの診断またはトラブルシューティングに使用できる診断イベントが用意されています。 たとえば、SipStack の場合は、証明書のエラー、DNS の警告/エラーがあります。
+      - **TF\_Diag**   には、コンポーネントの診断またはトラブルシューティングに使用できる診断イベントが用意されています。 たとえば、SipStack の場合は、証明書が失敗したか、DNS の警告/エラーが発生します。
     
-      - **TF\_protocol**   は、SIP や結合されたコミュニティコーデックパックメッセージなどのプロトコルメッセージを提供します。
+      - **TF\_プロトコル**   は、SIP、組み合わせたコミュニティコーデックパックメッセージなどのプロトコルメッセージを提供します。
     
-      - **TF\_Component**   は、プロバイダーの一部として指定されたコンポーネントのログを有効にします。
+      - **TF\_コンポーネント**   は、プロバイダーの一部として指定されたコンポーネントのログ記録を有効にします。
     
-      - **すべて**   のプロバイダーで利用可能なすべてのフラグを設定します。
+      - **すべて**   の使用可能なフラグをプロバイダーが使用できるように設定します。
 
 <div>
 
 ## <a name="to-review-information-about-existing-centralized-logging-service-scenario-providers"></a>既存の集中ログサービスシナリオプロバイダーに関する情報を確認するには
 
-1.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+1.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
 2.  既存のプロバイダーの構成をレビューするには、次を入力します。
     
@@ -105,7 +105,7 @@ Lync Server 管理シェルを使用して一元的なログサービス機能�
     
         Get-CsClsScenario -Identity "global/CAA"
     
-    このコマンドは、関連するフラグ、設定、およびコンポーネントと共にプロバイダーの一覧を表示します。 表示された情報が不足している場合、または既定の Windows PowerShell リスト形式でリストが長すぎる場合は、別の出力メソッドを定義して追加の情報を表示できます。 これを行うには、次のように入力します。
+    このコマンドは、関連するフラグ、設定、およびコンポーネントと共にプロバイダーの一覧を表示します。 表示されている情報が不足している場合や、既定の Windows PowerShell リスト形式でリストが長すぎる場合は、別の出力メソッドを定義することで追加情報を表示できます。 これを行うには、次のように入力します。
     
         Get-CsClsScenario -Identity "global/CAA" | Select-Object -ExpandProperty Provider
     
@@ -117,9 +117,9 @@ Lync Server 管理シェルを使用して一元的なログサービス機能�
 
 ## <a name="to-define-a-new-centralized-logging-service-scenario-provider"></a>新しい集中ログサービスシナリオプロバイダーを定義するには
 
-1.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+1.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
-2.  シナリオ プロバイダーは、トレースするコンポーネント、使用するフラグ、および収集する詳細レベルで構成されます。これを実行するには次のように入力します。
+2.  シナリオ プロバイダーは、トレースするコンポーネント、使用するフラグ、および収集する詳細レベルで構成されます。これは実行するには次のように入力します。
     
         $<variableName> = New-CsClsProvider -Name <provider component> -Type <log type> -Level <log level detail type> -Flags <provider trace log flags>
     
@@ -127,7 +127,7 @@ Lync Server 管理シェルを使用して一元的なログサービス機能�
     
         $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Info" -Flags "All"
 
--Level では、重大、エラー、警告、および情報メッセージが収集されます。 使用されるフラグは、明示 Ss プロバイダーに対して定義されている\_すべてのフラグ\_であり、\_TF Connection、tf Diag、tf プロトコルを含みます。
+–Level は、重大、エラー、警告、および情報メッセージを収集します。 使用されるフラグは、一からの Ss プロバイダーに対して定義され\_ているもの\_で、tf\_Connection、tf Diag、tf プロトコルが含まれています。
 
 変数 $LyssProvider を定義した後、**New-CsClsScenario** コマンドレットでその変数を使用して Lyss プロバイダーからトレースを収集できます。 このプロバイダーの作成と新しいシナリオへの割り当てを完了するには、次のように入力します。
 
@@ -141,7 +141,7 @@ $LyssProvider は、**New-CsClsProvider** で作成された定義済みのシ�
 
 ## <a name="to-change-an-existing-centralized-logging-service-scenario-provider"></a>既存の集中ログサービスシナリオプロバイダーを変更するには
 
-1.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+1.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
 2.  既存のプロバイダーの構成を更新または変更するには、次のように入力します。
     
@@ -151,13 +151,13 @@ $LyssProvider は、**New-CsClsProvider** で作成された定義済みのシ�
     
         Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider $LyssProvider
 
-コマンドを実行すると、最終的にシナリオ site:Redmond/RedmondLyssInfo のフラグと割り当てられるプロバイダーのレベルが更新されます。Get-CsClsScenario を使用して、新しいシナリオを表示できます。詳細については、「[Get-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/Get-CsClsScenario)」を参照してください。
+コマンドを実行すると、最終的にシナリオ site:Redmond/RedmondLyssInfo のフラグと割り当てられるプロバイダーのレベルが更新されます。 Get-CsClsScenario を使用して、新しいシナリオを表示できます。 詳細については、「[Get-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/Get-CsClsScenario)」を参照してください。
 
 <div class="">
 
 
 > [!WARNING]  
-> <STRONG>New-ClsCsProvider</STRONG> は、フラグが有効かどうかを確認しません。 フラグのスペル (TF_DIAG、TF_CONNECTION など) が正しいことを確認してください。 フラグのスペルが正しくない場合、プロバイダーは期待されるログ情報を返すことができません。
+> <STRONG>New-ClsCsProvider</STRONG> は、フラグが有効かどうかを確認しません。 フラグのスペル (TF_DIAG や TF_CONNECTION など) が正しいことを確認してください。 フラグのスペルが正しくない場合、プロバイダーは期待されるログ情報を返すことができません。
 
 
 
@@ -175,9 +175,9 @@ Add ディレクティブで定義される各プロバイダーは、**New-CsCl
 
 ## <a name="to-remove-a-scenario-provider"></a>シナリオ プロバイダーを削除するには
 
-1.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+1.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
-2.  用意されているコマンドレットを使用して、既存のプロバイダーの更新と新しいプロバイダーの作成を実行できます。 プロバイダーを削除するには、**Set-CsClsScenario** に対して Provider パラメーター用の Replace ディレクティブを使用する必要があります。 プロバイダーを完全に削除する唯一の方法は、Update ディレクティブを使用して、削除するプロバイダーを、再定義した同じ名前のプロバイダーに置き換えることです。 たとえば、プロバイダー LyssProvider は、ログの種類、Debug に設定されたレベル、フラグセットは TF\_CONNECTION と TF\_DIAG として、WPP で定義されます。 このフラグを "All" に変更する必要があるとします。 このプロバイダーを変更するには、次のように入力します。
+2.  用意されているコマンドレットを使用して、既存のプロバイダーの更新と新しいプロバイダーの作成を実行できます。 プロバイダーを削除するには、**Set-CsClsScenario** に対して Provider パラメーター用の Replace ディレクティブを使用する必要があります。 プロバイダーを完全に削除する唯一の方法は、Update ディレクティブを使用して、削除するプロバイダーを、再定義した同じ名前のプロバイダーに置き換えることです。 たとえば、プロバイダー LyssProvider は、ログの種類、デバッグのレベルセット、flags セットが TF\_CONNECTION および tf\_DIAG として、WPP で定義されています。 このフラグを "All" に変更する必要があるとします。 このプロバイダーを変更するには、次のように入力します。
     
         $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "All"
 
@@ -211,11 +211,11 @@ Add ディレクティブで定義される各プロバイダーは、**New-CsCl
 ## <a name="see-also"></a>関連項目
 
 
-[Get-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/Get-CsClsScenario)  
-[新しい CsClsScenario シナリオ](https://docs.microsoft.com/powershell/module/skype/New-CsClsScenario)  
+[取得-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/Get-CsClsScenario)  
+[新しい-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/New-CsClsScenario)  
 [削除-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/Remove-CsClsScenario)  
 [Set-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/Set-CsClsScenario)  
-[新規の CsClsProvider](https://docs.microsoft.com/powershell/module/skype/New-CsClsProvider)  
+[新しい-CsClsProvider](https://docs.microsoft.com/powershell/module/skype/New-CsClsProvider)  
   
 
 </div>

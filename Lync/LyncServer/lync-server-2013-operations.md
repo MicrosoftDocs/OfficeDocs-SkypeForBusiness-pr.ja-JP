@@ -12,20 +12,20 @@ ms:contentKeyID: 48184155
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27e99c56ae8c7699b3e19f18ef057b194539b75e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c0726a1c7893a2411ed1fc1ad8981349b8cc9add
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755781"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051339"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="operations-in-lync-server-2013"></a>Lync Server 2013 での操作
+# <a name="operations-in-lync-server-2013"></a>Lync Server 2013 の操作
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41755781"
 
 <span> </span>
 
-_**最終更新日:** 2015-01-26_
+_**トピックの最終更新日:** 2015-01-26_
 
 このセクションのトピックでは、管理ツールを使用して Lync Server 2013 の展開を構成および管理する方法について説明します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション内
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Operations Guide for Lync Server 2013](lync-server-2013-operations-guide.md)
+  - [Lync Server 2013 の運用ガイド](lync-server-2013-operations-guide.md)
 
   - [Lync Server 2013 管理ツール](lync-server-2013-lync-server-administrative-tools.md)
 
-  - [Lync Server 2013 のユーザー管理](lync-server-2013-managing-users-in-lync-server.md)
+  - [Lync Server 2013 でのユーザーの管理](lync-server-2013-managing-users-in-lync-server.md)
 
   - [Lync Server 2013 トポロジの管理](lync-server-2013-managing-the-lync-server-topology.md)
 
-  - [Lync Server 2013 の管理機能の委任](lync-server-2013-delegating-administrative-control-of-lync-server.md)
+  - [Lync Server 2013 の管理制御の委任](lync-server-2013-delegating-administrative-control-of-lync-server.md)
 
-  - [Lync Server 2013 での IM とプレゼンス設定の管理](lync-server-2013-managing-im-and-presence-settings.md)
+  - [Lync Server 2013 での IM およびプレゼンス設定の管理](lync-server-2013-managing-im-and-presence-settings.md)
 
   - [Lync Server 2013、常設チャット サーバーの管理](managing-lync-server-2013-persistent-chat-server.md)
 
@@ -61,9 +61,9 @@ _**最終更新日:** 2015-01-26_
 
   - [Lync Server 2013 での通話管理機能の管理](lync-server-2013-managing-call-management-features.md)
 
-  - [Lync Server 2013 での会議および電話会議の管理](lync-server-2013-managing-meetings-and-conferences.md)
+  - [Lync Server 2013 での会議と会議の管理](lync-server-2013-managing-meetings-and-conferences.md)
 
-  - [Lync Server 2013 でのデバイス、電話、クライアント アプリケーションの管理](lync-server-2013-managing-devices-phones-and-client-applications.md)
+  - [Lync Server 2013 でのデバイス、電話、クライアントアプリケーションの管理](lync-server-2013-managing-devices-phones-and-client-applications.md)
 
   - [Lync Server 2013 へのフェデレーションおよび外部アクセスの管理](lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md)
 
@@ -71,19 +71,19 @@ _**最終更新日:** 2015-01-26_
 
   - [Lync Server 2013 認証の管理](lync-server-2013-managing-lync-server-authentication.md)
 
-  - [Lync Server 2013 ネットワーク インフラストラクチャの管理](lync-server-2013-managing-the-lync-server-2013-network-infrastructure.md)
+  - [Lync Server 2013 ネットワークインフラストラクチャの管理](lync-server-2013-managing-the-lync-server-2013-network-infrastructure.md)
 
-  - [Lync Server 2013 での拡張  9-1-1 および場所サービスの管理](lync-server-2013-managing-enhanced-9-1-1-and-the-location-service.md)
+  - [Lync Server 2013 での拡張9-1-1 と場所サービスの管理](lync-server-2013-managing-enhanced-9-1-1-and-the-location-service.md)
 
-  - [Lync Server 2013 サービスとサーバーの役割を管理する](lync-server-2013-managing-lync-server-services-and-server-roles.md)
+  - [Lync Server 2013 サービスとサーバーの役割の管理](lync-server-2013-managing-lync-server-services-and-server-roles.md)
 
   - [Lync Server 2013 でのアプリケーションの管理](lync-server-2013-managing-applications.md)
 
-  - [Lync Server 2013 の障害復旧、高可用性およびバックアップ サービスの管理](lync-server-2013-managing-lync-server-disaster-recovery-high-availability-and-backup-service.md)
+  - [Lync Server 2013 の障害復旧、高可用性、およびバックアップサービスの管理](lync-server-2013-managing-lync-server-disaster-recovery-high-availability-and-backup-service.md)
 
   - [Lync Server 2013 のバックアップと復元](lync-server-2013-backing-up-and-restoring-lync-server.md)
 
-  - [Lync Server 2013 での監視と正常性の構成](lync-server-2013-monitoring-and-health-configuration.md)
+  - [Lync Server 2013 の監視および正常性構成](lync-server-2013-monitoring-and-health-configuration.md)
 
   - [Lync Server 2013 管理シェル](lync-server-2013-lync-server-management-shell.md)
 

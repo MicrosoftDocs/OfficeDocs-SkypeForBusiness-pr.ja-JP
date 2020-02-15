@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: サーバーのソフトウェアおよびインフラストラクチャ サポート'
+title: 'Lync Server 2013: サーバーソフトウェアとインフラストラクチャのサポート'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184127
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9f9b7ef52da78219f66df79d9e02bc67786b76d8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ad3368748f7cbfa1c8ca41e1c563283ef5a390bb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764845"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051309"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="server-software-and-infrastructure-support-in-lync-server-2013"></a>Lync Server 2013 でのサーバーのソフトウェアおよびインフラストラクチャ サポート
+# <a name="server-software-and-infrastructure-support-in-lync-server-2013"></a>Lync Server 2013 でのサーバーソフトウェアとインフラストラクチャのサポート
 
 </div>
 
@@ -35,33 +35,33 @@ ms.locfileid: "41764845"
 
 <span> </span>
 
-_**最終更新日:** 2012-06-29_
+_**トピックの最終更新日:** 2012-06-29_
 
-サポートされているオペレーティングシステム、データベースソフトウェア、インフラストラクチャソフトウェア、および特定の機能をサポートするために必要なその他のソフトウェアなど、サーバー2013コンポーネントのソフトウェアサポートについて説明します。 また、サーバーコンポーネントの仮想化も含まれます。
+サポートされているオペレーティングシステム、データベースソフトウェア、インフラストラクチャソフトウェア、および特定の機能をサポートするために必要なその他のソフトウェアが、すべての Lync Server 2013 サーバーの役割やストレージを含む、サーバーコンポーネントのソフトウェアサポート。 また、サーバー コンポーネントの仮想化も含まれます。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 でのサーバーおよびツールのオペレーティング システムのサポート](lync-server-2013-server-and-tools-operating-system-support.md)
+  - [Lync Server 2013 でのサーバーおよびツールのオペレーティングシステムのサポート](lync-server-2013-server-and-tools-operating-system-support.md)
 
-  - [Lync Server 2013 でのデータベース ソフトウェアのサポート](lync-server-2013-database-software-support.md)
+  - [Lync Server 2013 でのデータベースソフトウェアのサポート](lync-server-2013-database-software-support.md)
 
-  - [Lync Server 2013 の Exchange Server および SharePoint の統合のサポート](lync-server-2013-exchange-and-sharepoint-integration-support.md)
+  - [Lync Server 2013 での Exchange Server および SharePoint の統合のサポート](lync-server-2013-exchange-and-sharepoint-integration-support.md)
 
   - [Lync Server 2013 での証明書インフラストラクチャのサポート](lync-server-2013-certificate-infrastructure-support.md)
 
-  - [Lync Server 2013 のワイルドカード証明書のサポート](lync-server-2013-wildcard-certificate-support.md)
+  - [Lync Server 2013 でのワイルドカード証明書のサポート](lync-server-2013-wildcard-certificate-support.md)
 
   - [Lync Server 2013 での DNS インフラストラクチャのサポート](lync-server-2013-dns-infrastructure-support.md)
 
   - [Lync Server 2013 での IIS のサポート](lync-server-2013-iis-support.md)
 
-  - [Lync Server 2013 での IP とネットワーク プロトコルのサポート](lync-server-2013-ip-and-networking-protocol-support.md)
+  - [Lync Server 2013 での IP およびネットワークプロトコルのサポート](lync-server-2013-ip-and-networking-protocol-support.md)
 
-  - [Lync Server 2013 でのパブリック インスタント メッセージングのサポート](lync-server-2013-public-instant-messaging-support.md)
+  - [Lync Server 2013 でのパブリックインスタントメッセージングのサポート](lync-server-2013-public-instant-messaging-support.md)
 
-  - [Lync Server 2013 コントロール パネルのブラウザー サポート](lync-server-2013-browser-support-for-lync-server-control-panel.md)
+  - [Lync Server 2013 コントロールパネルのブラウザーサポート](lync-server-2013-browser-support-for-lync-server-control-panel.md)
 
   - [Lync Server 2013 での音声のサポート](lync-server-2013-voice-support.md)
 

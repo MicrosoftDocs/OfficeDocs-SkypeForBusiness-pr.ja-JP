@@ -1,5 +1,5 @@
 ---
-title: MonitoredUserSiteLink テーブル
+title: MonitoredUserSiteLink リンクテーブル
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183508
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 17c7996b4c06496a39bc7db5f4cd5b4adbb83c2d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 03423d1754a87d32adc2d00ddd0697f8a8389d95
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762865"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050949"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="monitoredusersitelink-table"></a>MonitoredUserSiteLink テーブル
+# <a name="monitoredusersitelink-table"></a>MonitoredUserSiteLink リンクテーブル
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762865"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-02_
+_**トピックの最終更新日:** 2012-10-02_
 
-MonitoredUserSiteLink リンクテーブルは、サポートテーブルです。 各レコードは、2つのユーザーサイト間のリンク1つを表します。
+MonitoredUserSiteLink テーブルはサポート テーブルです。各レコードは、2 つのユーザー サイト間の 1 つのリンクを表します。
 
 
 <table>
@@ -59,14 +59,14 @@ MonitoredUserSiteLink リンクテーブルは、サポートテーブルです�
 <tr class="odd">
 <td><p><strong>UserSite1Key</strong></p></td>
 <td><p>int</p></td>
-<td><p>プライマリ、外部</p></td>
+<td><p>主/プライマリ、外部</p></td>
 <td><p><a href="lync-server-2013-usersite-table.md">Lync Server 2013 の Usersite テーブル</a>から参照されます。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserSite2Key</strong></p></td>
 <td><p>int</p></td>
-<td><p>プライマリ、外部</p></td>
-<td><p><a href="lync-server-2013-usersite-table.md">Lync Server 2013 で Usersite テーブル</a>から参照します。</p></td>
+<td><p>主/プライマリ、外部</p></td>
+<td><p><a href="lync-server-2013-usersite-table.md">Lync Server 2013 の Usersite テーブル</a>からの参照。</p></td>
 </tr>
 </tbody>
 </table>

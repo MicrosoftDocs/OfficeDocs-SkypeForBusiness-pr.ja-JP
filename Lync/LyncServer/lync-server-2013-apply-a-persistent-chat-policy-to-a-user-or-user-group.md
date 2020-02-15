@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 常設チャット ポリシーをユーザーまたはユーザー グループに適用する'
+title: 'Lync Server 2013: 常設チャットポリシーをユーザーまたはユーザーグループに適用する'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184652
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 726fe9a5fa20a52f770cd5bab475de5731562989
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7c32fea58eafc8728144885826c822c7485441a7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737627"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036999"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="apply-a-persistent-chat-policy-to-a-user-or-user-group-in-lync-server-2013"></a>Lync Server 2013 で常設チャット ポリシーをユーザーまたはユーザー グループに適用する
+# <a name="apply-a-persistent-chat-policy-to-a-user-or-user-group-in-lync-server-2013"></a>Lync Server 2013 で常設チャットポリシーをユーザーまたはユーザーグループに適用する
 
 </div>
 
@@ -35,46 +35,46 @@ ms.locfileid: "41737627"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-06_
+_**トピックの最終更新日:** 2012-10-06_
 
-ユーザーが Lync Server 2013 用に有効になっている場合は、常設チャットサーバーで有効または無効にするために、特定のユーザーに適切なポリシーを適用することができます。
+ユーザーが Lync Server 2013 に対して有効になっている場合は、特定のユーザーに適切なポリシーを適用して、常設チャットサーバーに対して有効または無効にすることができます。
 
 <div>
 
 
 > [!NOTE]  
-> 常設チャットサーバーを構成して使用するには、最初にトポロジビルダーを使用して、トポロジに常設チャットサーバーサポートを追加してから、トポロジを発行する必要があります。 詳細については、展開ドキュメントの「 <A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Lync server 2013 での展開への常設チャットサーバーの追加</A>」を参照してください。<BR>常設チャットサーバーの構成設定を構成するには、展開ドキュメントの「 <A href="lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool.md">Lync server 2013 で常設チャットサーバーのオプションをグローバルまたは常設チャットサーバープールに構成</A>する」を参照してください。
+> 常設チャットサーバーを構成して使用するには、まず、トポロジビルダーを使用して、常設チャットサーバーのサポートをトポロジに追加してから、トポロジを公開する必要があります。 詳細については、「展開」のドキュメントの「 <A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Lync server 2013 での展開への常設チャットサーバーの追加</A>」を参照してください。<BR>常設チャットサーバーの構成設定を構成するには、「展開」のドキュメントの「 <A href="lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool.md">Configure 常設 Chat server options For Lync server 2013</A>の常設チャットサーバーのオプション」を参照してください。
 
 
 
 </div>
 
-このトピックの手順を使用して、以前に作成した常設チャットのユーザーポリシーを1つ以上のユーザーアカウントまたはユーザーグループに適用します。
+このトピックの手順を使用して、以前に作成した常設チャットのユーザーポリシーを1つまたは複数のユーザーアカウントまたはユーザーグループに適用します。
 
 <div>
 
 ## <a name="to-apply-a-persistent-chat-user-policy-to-a-user-account"></a>常設チャットのユーザーポリシーをユーザーアカウントに適用するには
 
-1.  CsPersistentChatAdministrator、CsAdministrator、または CsUserAdministrator の役割に割り当てられているユーザーから、内部展開の任意のコンピューターにログオンします。
+1.  CsPersistentChatAdministrator、CsAdministrator、または CsUserAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  [**スタート**] メニューから [Lync Server コントロールパネル] を選択するか、ブラウザーウィンドウを開き、管理 URL を入力します。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+2.  [**スタート**] メニューから [Lync Server コントロールパネル] を選択するか、ブラウザーウィンドウを開いて管理 URL を入力します。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
 3.  左側のナビゲーション バーで [**ユーザー**] をクリックし、構成するユーザー アカウントを検索します。
 
 4.  検索結果一覧の表でユーザー アカウントをクリックし、[**編集**] をクリックして、[**詳細の表示**] をクリックします。
 
-5.  [**常設チャットポリシー**] の [ **Lync Server ユーザーの編集**] で、適用する常設チャットのユーザーポリシーを選択します。
+5.  [ **Lync Server ユーザーの編集**] の [**常設チャットポリシー**] で、適用する常設チャットユーザーポリシーを選択します。
     
     <div>
     
 
     > [!NOTE]  
-    > <STRONG> &lt;自動&gt; </STRONG>設定では、既定の有効なポリシーが適用されます。 これらの設定はサーバーにより自動的に適用されます。
+    > [ <STRONG> &lt;自動&gt; </STRONG> ] 設定では、既定の有効なポリシーが適用されます。 これらの設定はサーバーによって自動的に適用されます。
 
     
     </div>
 
-6.  [**コミット**] をクリックします。
+6.  [**確定**] をクリックします。
 
 </div>
 

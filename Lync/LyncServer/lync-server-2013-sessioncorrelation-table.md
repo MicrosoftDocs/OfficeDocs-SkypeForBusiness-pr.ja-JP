@@ -12,16 +12,16 @@ ms:contentKeyID: 48183267
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6fe8deda7486d699073bf271953e382ac7b7c508
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9551cf5824d5f13f6167f2aaeb301ab619f6209b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764805"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051269"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41764805"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-02_
+_**トピックの最終更新日:** 2012-10-02_
 
-セッション相関関係テーブルは、サポートテーブルです。 各レコードは、複数のセッションを関連付けるために使用される1つの CorrelationID を表します。
+SessionCorrelation テーブルは、サポートテーブルです。 各レコードは、複数のセッションを相互に関連付けるために使用される1つの CorrelationID を表します。
 
 
 <table>
@@ -57,7 +57,7 @@ _**最終更新日:** 2012-10-02_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>サム</strong></p></td>
+<td><p><strong>チェックサム</strong></p></td>
 <td><p>int</p></td>
 <td></td>
 <td></td>
@@ -66,17 +66,17 @@ _**最終更新日:** 2012-10-02_
 <td><p><strong>CorrelationKey</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>この A/V 会議サーバーを識別する一意の番号です。</p></td>
+<td><p>この音声ビデオ会議サーバーを識別する一意の番号。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CorrelationID</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td><p>一意</p></td>
-<td><p>関連付けられているセッションは、関連付け ID が同じになります。</p></td>
+<td><p>関連付けられているセッションは、同じ関連付け ID を持ちます。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Nextupdatupdat</strong></p></td>
-<td><p>datetime</p></td>
+<td><p><strong>NextUpdateTS</strong></p></td>
+<td><p>日付型</p></td>
 <td><p> </p></td>
 <td><p>内部使用のみ。</p></td>
 </tr>

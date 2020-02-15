@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Lync for Windows Phone をインストールする'
+title: 'Lync Server 2013: Lync for Windows Phone のインストール'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 51541513
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 75e42f9fd2b954e943050fc9877706ae53a1143c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 349a4b2609f3b810d0aa64c9e71786f309f21918
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726138"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045289"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,37 +35,37 @@ ms.locfileid: "41726138"
 
 <span> </span>
 
-_**最終更新日:** 2014-02-03_
+_**トピックの最終更新日:** 2014-02-03_
 
-Windows Phone 用の Lync 2013 は、Windows Phone Marketplace で利用できる、ユーザーがインストールできるアプリケーションです。
+Windows phone 用 Lync 2013 は、ユーザーがインストールできるアプリケーションで、Windows Phone Marketplace で利用できます。
 
 <div>
 
-## <a name="installing-lync-for-windows-mobile"></a>Lync for Windows Mobile をインストールする
+## <a name="installing-lync-for-windows-mobile"></a>Lync for Windows Mobile のインストール
 
-ユーザーに windows phone 用の Lync 2013 をインストールするように指示するには、Windows Phone Marketplace を使用<http://go.microsoft.com/fwlink/p/?linkid=231901>します。
+ユーザーに対して、Lync 2013 for Windows Phone をデバイスにインストールするように指示するには、を使用<http://go.microsoft.com/fwlink/p/?linkid=231901>します。
 
 </div>
 
 <div>
 
-## <a name="if-you-use-a-dns-srv-record-to-publish-exchange-web-services"></a>DNS SRV レコードを使用して Exchange Web サービスを公開している場合
+## <a name="if-you-use-a-dns-srv-record-to-publish-exchange-web-services"></a>DNS SRV レコードを使用して Exchange Web サービスを公開する場合
 
-Lync クライアントで Exchange の統合を有効にするには、一部の組織では DNS SRV レコードを使用して Exchange Web サービスの URL を公開します。 Microsoft ダウンロードセンターで利用可能な、「Exchange の統合について理解し[http://go.microsoft.com/fwlink/?LinkID=391095](http://go.microsoft.com/fwlink/?linkid=391095)、トラブルシューティングする」のドキュメントでは、これが必要になる可能性のあるシナリオについて説明します。 ただし、windows phone プラットフォームでは、SRV 参照がサポートされていないため、Windows Phone ユーザー向けの Exchange との統合は動作しません。 電話で自動的にサーバーを検出する代わりに、Windows Phone ユーザーに Exchange Web サービスの URL を指定するように指示する必要があります。
+Lync クライアントに対して Exchange 統合を有効にするために、一部の組織では、DNS SRV レコードを使用して Exchange Web サービスの URL を公開しています。 「Microsoft ダウンロードセンター」に記載されている「Exchange 統合について[http://go.microsoft.com/fwlink/?LinkID=391095](http://go.microsoft.com/fwlink/?linkid=391095)理解し、トラブルシューティングを行う」では、これが必要になるシナリオについて説明しています。 ただし、windows phone プラットフォームでは SRV 参照がサポートされていないため、Windows Phone ユーザーの Exchange 統合はこのシナリオでは機能しません。 電話でサーバーを自動的に検出するのではなく、Windows Phone のユーザーに Exchange Web サービスの URL を指定するように指示する必要があります。
 
-次のようにして、Windows Phone で Lync の設定を構成するようにユーザーに指示します。
+ユーザーに、Windows Phone で Lync の設定を次のように構成するように指示します。
 
-1.  Windows Phone の Lync の [設定] で、[ **Exchange** ] 画面を選択します。
+1.  Windows Phone の [Lync の設定] で、[ **Exchange** ] 画面を選択します。
 
-2.  **自動検出サーバー**を**オフ**にします。
+2.  **自動検出サーバー**を**オフ**に移動します。
 
-3.  空のフィールドをタップして、Exchange Web Services の完全修飾ドメイン名 (FQDN) または URL を入力します。
+3.  空のフィールドをタップして、Exchange Web サービスの完全修飾ドメイン名 (FQDN) または URL を入力します。
     
     <div>
     
 
     > [!NOTE]  
-    > 完全修飾ドメイン名 (FQDN) または Exchange Web サービスサーバーの完全な URL のいずれかを指定できます。 FQDN を指定すると、プロトコル (https://) と Exchange Web サービスのパス (/ews/exchange.asmx) が自動的に追加されます。 Exchange Web Services のパスが異なる場合は、完全な URL を指定できます。
+    > 完全修飾ドメイン名 (FQDN) または Exchange Web サービスサーバーの完全な URL のいずれかを指定できます。 FQDN を指定すると、プロトコル (https://) と Exchange Web サービスパス (/ews/exchange.asmx) が自動的に追加されます。 Exchange Web サービスのパスが異なる場合は、完全な URL を指定できます。
 
     
     </div>
@@ -76,43 +76,43 @@ Lync クライアントで Exchange の統合を有効にするには、一部�
 
 <div>
 
-## <a name="verifying-mobile-client-installation"></a>モバイルクライアントのインストールを確認する
+## <a name="verifying-mobile-client-installation"></a>モバイル クライアント インストールの検証
 
-クライアントを構成して正常にサインインしたら、次のテストを行って、お使いのモバイルデバイスで Lync 2013 が正常に動作していることを確認します。
+クライアントを構成して正常にサインインしたら、次のテストを使用して、Lync 2013 のインストールがモバイルデバイスで正しく動作することを確認します。
 
 **会社のディレクトリにある連絡先の検索**
 
-1.  連絡先リストで、下部にある [**検索**] をタップします。
+1.  連絡先一覧で、下部にある [**検索**] をタップします。
 
-2.  グローバル アドレス一覧にだけ含まれる連絡先を検索します。
+2.  グローバルアドレス一覧にのみ存在する連絡先を検索します。
 
 3.  連絡先名が検索結果に表示されることを確認します。
 
-**インスタント メッセージングおよびプレゼンスのテスト**
+**インスタントメッセージングとプレゼンスのテスト**
 
-1.  連絡先リストで、連絡先をタップします。
+1.  連絡先一覧で、連絡先をタップします。
 
-2.  連絡先カードで、[ **IM** ] をタップします。
+2.  連絡先カードで、[**IM**] アイコンをタップします。
 
-3.  インスタント メッセージング (IM) ウィンドウが表示され、IM の入力と送信が可能であることを確認します。
+3.  インスタントメッセージング (IM) ウィンドウが表示され、IM の入力と送信が可能であることを確認します。
 
 **ダイヤルアウト会議のテスト**
 
-1.  Outlook で Lync 会議をスケジュールします。
+1.  Outlook で、Lync 会議をスケジューリングします。
 
 2.  モバイル デバイスで、会議の招待状を開きます。
 
 3.  参加する会議のリンクをクリックします。
 
-4.  会議サービスからの通話に応答し、会議のオーディオに接続していることを確認します。
+4.  電話会議サービスからの呼び出しに応答し、会議のオーディオに接続していることを確認します。
 
 **プッシュ通知のテスト**
 
-1.  ユーザー A のモバイルデバイスで、ユーザー A のアカウントで Lync にサインインします。
+1.  ユーザー A のモバイル デバイスで、ユーザー A のアカウントを使用して Lync にサインインします。
 
 2.  モバイル デバイスで別のアプリケーションを開きます。
 
-3.  別のクライアントでは、ユーザー B のアカウントで Lync にサインインします。
+3.  異なるクライアントで、ユーザー B のアカウントを使用して Lync にサインインします。
 
 4.  IM をユーザー B からユーザー A に送信します。
 

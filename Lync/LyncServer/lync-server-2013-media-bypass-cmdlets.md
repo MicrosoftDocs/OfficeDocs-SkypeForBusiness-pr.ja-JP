@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: メディアのバイパスコマンドレット'
+title: 'Lync Server 2013: メディアバイパスのコマンドレット'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185334
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 84906a5d68893e89c3ad48d739754f89bf38cbf3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8f694b2c6065e4800dadf2fb5389429748ab4078
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41761963"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045189"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,31 +35,31 @@ ms.locfileid: "41761963"
 
 <span> </span>
 
-_**最終更新日:** 2012-03-21_
+_**トピックの最終更新日:** 2012-03-21_
 
-メディアバイパスは、可能な限りメディアパスから仲介サーバーを削除します。これは、シグナルが仲介サーバーを通過する呼び出しに対して可能です。
+メディア バイパスとは、信号が仲介サーバーを通過する通話で、可能な場合にメディア パスから仲介サーバーを削除することです。
 
 <div>
 
-## <a name="media-bypass-cmdlets"></a>メディアバイパスのコマンドレット
+## <a name="media-bypass-cmdlets"></a>メディア バイパスのコマンドレット
 
-メディアのバイパスを構成するには、次のコマンドレットを使用します。
+メディア バイパスを構成するには、以下のコマンドレットを使用します。
 
 **メディア バイパス**
 
   - <span></span>  
-    [新しい-CsNetworkMediaBypassConfiguration](https://technet.microsoft.com/en-us/library/Gg425718(v=OCS.15))
+    [新しい-CsNetworkMediaBypassConfiguration](https://technet.microsoft.com/library/Gg425718(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-Set-csnetworkconfiguration](https://technet.microsoft.com/en-us/library/Gg398140(v=OCS.15))
+    [Get-csnetworkconfiguration](https://technet.microsoft.com/library/Gg398140(v=OCS.15))
 
   - <span></span>  
-    [Remove-Set-csnetworkconfiguration](https://technet.microsoft.com/en-us/library/Gg398938(v=OCS.15))
+    [Get-csnetworkconfiguration](https://technet.microsoft.com/library/Gg398938(v=OCS.15))
 
   - <span></span>  
-    [Set-Set-csnetworkconfiguration](https://technet.microsoft.com/en-us/library/Gg398927(v=OCS.15))
+    [Get-csnetworkconfiguration](https://technet.microsoft.com/library/Gg398927(v=OCS.15))
 
 </div>
 
@@ -68,7 +68,7 @@ _**最終更新日:** 2012-03-21_
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 でのメディア バイパスの計画](lync-server-2013-planning-for-media-bypass.md)  
+[Lync Server 2013 でのメディアバイパスの計画](lync-server-2013-planning-for-media-bypass.md)  
 [Lync Server PowerShell ブログ](http://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 

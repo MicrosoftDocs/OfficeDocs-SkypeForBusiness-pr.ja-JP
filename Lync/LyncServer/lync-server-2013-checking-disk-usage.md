@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ディスク使用量のチェック'
+title: 'Lync Server 2013: ディスク使用状況のチェック'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969578
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 554b493ba7ca837a8ea5c80f6751ddb91061c374
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8532b15ac45033d966c772e6ab23403d709ed790
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726697"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045679"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="checking-disk-usage-in-lync-server-2013"></a>Lync Server 2013 でディスク使用量を確認する
+# <a name="checking-disk-usage-in-lync-server-2013"></a>Lync Server 2013 でのディスク使用率のチェック
 
 </div>
 
@@ -35,43 +35,43 @@ ms.locfileid: "41726697"
 
 <span> </span>
 
-_**最終更新日:** 2014-04-30_
+_**トピックの最終更新日:** 2014-04-30_
 
-ハードディスクドライブは、Lync Server 2013 展開の重要なコンポーネントです。 十分な空きディスク容量がなくても、オペレーティングシステムと Lync Server 2013 データベースは正しく機能しません。 サーバーのディスク領域が不足しないことを確認し、必要に応じてストレージリソースを追加するための準備として、Lync Server 2013 バックエンドデータベースの統計情報を毎日監視する必要があります。
+ハードディスクドライブは、Lync Server 2013 展開の重要なコンポーネントです。 十分な空きディスクボリュームがない場合は、オペレーティングシステムと Lync Server 2013 データベースのどちらも正常に機能しません。 サーバーのディスク領域が不足しないようにするため、および必要に応じてストレージリソースを追加する準備を行うには、Lync Server 2013 バックエンドデータベース統計を毎日監視する必要があります。
 
-オペレーティングシステム、プログラムファイル、データベース、トランザクションログ (Lync Server 2013 Back End) をホストしているディスクの空き領域を確認する以外に、次の重要なファイル共有のディスク領域を含むファイルシステムの使用状況を監視する必要があります。データ
+オペレーティングシステム、プログラムファイル、データベース、およびトランザクションログ (Lync Server 2013 のバックエンド) をホストしているディスクの領域をチェックする以外に、次の重要なファイル共有のディスク領域を含むファイルシステムの使用状況を監視する必要があります。情報
 
-  - 会議コンテンツ
+  - ミーティング コンテンツ
 
   - 会議コンテンツのメタデータ
 
   - 会議のコンプライアンスログ
 
-  - アプリケーションデータファイル (アプリケーションサーバーコンポーネントによって内部的に使用されます)
+  - アプリケーションデータファイル (アプリケーションサーバーコンポーネントによって内部で使用される)
 
-  - グループチャットサーバー web サービスとコンプライアンスフォルダ (グループチャット web サービスにアップロードされたファイルを保存する)
+  - グループチャットサーバーの web サービスおよびコンプライアンスフォルダー (グループチャット web サービスにアップロードされたファイルを格納する)
 
-  - グループチャットのコンプライアンス XML ファイル (グループチャットのコンプライアンスレコードが含まれています)
+  - グループチャットコンプライアンス XML ファイル (グループチャットコンプライアンスレコードを含む)
 
   - ファイルを更新する (デバイス更新サービスの場合)
 
   - アドレス帳ファイル
 
-Lync Server 2013 には、以前に一覧表示されているファイル共有のファイルに加えて、データベースとトランザクションログを保存するためのハードディスク領域が必要です。
+Lync Server 2013 には、以前に一覧表示されているファイル共有上のファイルに加えて、そのデータベースとトランザクションログを格納するためのハードディスクの空き領域が必要です。
 
-記憶域リソースが不足しているため、Lync Server 2013 の展開に悪影響がないことを確認するために、ディスク領域を定期的に監視する必要があります。
+ディスク領域を定期的に監視して、ストレージリソースが不足しているために Lync Server 2013 の展開が悪影響を受けないようにする必要があります。
 
-Lync Server 2013 の各ボリュームで利用可能なディスク領域に関する統計情報を比較して維持し、データベースおよびトランザクションログファイルの増加量を求めます。 これは、記憶域リソースが必要なときに容量の計画や記憶域の追加を行うのに役立ちます。
+各 Lync Server 2013 ボリューム、およびデータベースとトランザクションログファイルの予想される容量の増加に関する統計情報を比較して管理します。 これにより、ストレージリソースが必要になったときの容量計画とストレージの追加に役立てることができます。
 
-トラブルシューティングと障害回復の状況に対応するために、使用可能な空きボリューム領域は、データベースのサイズの110% 以上にすることをお勧めします。
+トラブルシューティングと障害復旧の状況に対応するために、使用可能な空きボリューム容量は、データベースのサイズの110% 以上にすることをお勧めします。
 
 次の方法を使用して、空きディスク領域を確認できます。
 
-1.  **System center operations manager**   system center operations manager を使用すると、ボリューム領域が制約されている場合に管理者に警告を表示することができます。
+1.  **System center operations manager**   system center operations manager を使用して、ボリューム容量が制限されている場合に管理者に警告を発することができます。
 
-2.  **スクリプトを実行**   すると、利用可能なハードディスク領域が20% を下回った場合にメッセージが送信されるスクリプトが実行され、ディスク領域が監視されます。 TechNet の Microsoft Script Center でサンプルスクリプトを参照してください。次の点を確認してください。[http://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard%20disk%20alert\&f%5B0%5D.Value=hard%20disk%20alert\&f%5B0%5D.Type=SearchText\&ac=5](http://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard+disk+alert%26f%5b0%5d.value=hard+disk+alert%26f%5b0%5d.type=searchtext%26ac=5)
+2.  **スクリプトを実行**   して、使用可能なハードディスクの空き容量が20% を下回った場合にメッセージを送信するスクリプトを実行することによって、ディスク領域を監視します。 TechNet の Microsoft Script Center でサンプルスクリプトを確認するには、次の点を確認してください。[http://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard%20disk%20alert\&f%5B0%5D.Value=hard%20disk%20alert\&f%5B0%5D.Type=SearchText\&ac=5](http://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard+disk+alert%26f%5b0%5d.value=hard+disk+alert%26f%5b0%5d.type=searchtext%26ac=5)
 
-3.  **Windows エクスプローラー**   では、windows エクスプローラーを使用して、Lync Server 2013 のログとデータベースを格納するボリュームのディスク領域を確認します。
+3.  **エクスプローラーで**   は、windows エクスプローラーを使用して、Lync Server 2013 のログおよびデータベースを格納するボリューム上のディスク領域をチェックします。
 
 </div>
 

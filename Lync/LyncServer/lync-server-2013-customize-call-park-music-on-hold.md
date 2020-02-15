@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: コールパークの保留中の音楽をカスタマイズする'
+title: 'Lync Server 2013: コールパーク保留音のカスタマイズ'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733621
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 301625a36d23c69d02dfdcde8c4985def53630af
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: feebc353b48b3a6b8f9adb17c08ab9af778bb1ac
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728757"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047534"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="customize-call-park-music-on-hold-in-lync-server-2013"></a>通話パークをカスタマイズする Lync Server 2013 の保留中の音楽
+# <a name="customize-call-park-music-on-hold-in-lync-server-2013"></a>Lync Server 2013 でコールパーク保留音をカスタマイズする
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41728757"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-10_
+_**トピックの最終更新日:** 2012-09-10_
 
-Lync Server 2013 に付属の既定の音楽ファイルの代わりに、自分の音楽ファイルを保留にして、音楽に使用することができます。 保留音をカスタマイズするには、**Set-CsCallParkServiceMusicOnHoldFile** コマンドレットを使用します。
+Lync Server 2013 に同梱されている既定の音楽ファイルではなく、保留音に使用する音楽ファイルを指定することができます。 保留音をカスタマイズするには、**Set-CsCallParkServiceMusicOnHoldFile** コマンドレットを使用します。
 
 <div>
 
 
 > [!NOTE]  
-> 保留中の音楽をカスタマイズして、複数のサイトで同じ音楽を使う場合は、通話パークアプリケーションを実行する各サイトの音楽ファイルを構成する必要があります。
+> 保留音をカスタマイズして、複数のサイトで同じ音楽を使用する場合は、コールパークアプリケーションが実行されている各サイトに対して音楽ファイルを構成する必要があります。
 
 
 
@@ -53,11 +53,11 @@ Lync Server 2013 に付属の既定の音楽ファイルの代わりに、自分
 
 ## <a name="to-customize-the-music-file"></a>音楽ファイルをカスタマイズするには
 
-1.  Lync Server 管理シェルが RTCUniversalServerAdmins グループのメンバーとして、または「 [Lync server 2013 の委任セットアップの権限](lync-server-2013-delegate-setup-permissions.md)」で説明されているように、必要なユーザー権限を持つコンピューターにログオンします。
+1.  Lync Server 管理シェルがインストールされているコンピューターに、RTCUniversalServerAdmins グループのメンバーとして、または「 [Lync server 2013 のセットアップのアクセス許可の委任](lync-server-2013-delegate-setup-permissions.md)」に説明されている必要なユーザー権限を使用してログオンします。
 
-2.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+2.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
-3.  次のコマンドレットを実行します。
+3.  実行
     
         Set-CsCallParkServiceMusicOnHoldFile -Service <ServiceID where the Call Park application resides> -Content <Byte[]>
     
@@ -65,12 +65,12 @@ Lync Server 2013 に付属の既定の音楽ファイルの代わりに、自分
     
 
     > [!TIP]  
-    > サービスを識別するには、<STRONG>Get-CsService</STRONG> コマンドレットを使用します。 詳細については、「 <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsService">CsService</A>」を参照してください。
+    > サービスを識別するには、<STRONG>Get-CsService</STRONG> コマンドレットを使用します。 詳細については、「<A href="https://docs.microsoft.com/powershell/module/skype/Get-CsService">取得-CsService</A>」を参照してください。
 
     
     </div>
     
-    次の例は、soothingmusic.wma というファイルのコンテンツをバイト配列として取得し、変数に割り当てる方法を示しています。 次に音声ファイルをコール パークの保留音ファイルとして割り当てます。 詳細については、「 [Set-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkServiceMusicOnHoldFile)」を参照してください。
+    次の例は、soothingmusic.wma というファイルのコンテンツをバイト配列として取得し、変数に割り当てる方法を示しています。 次に音声ファイルをコール パークの保留音ファイルとして割り当てます。 詳細については、「 [set-cscallparkservicemusiconholdfile](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkServiceMusicOnHoldFile)」を参照してください。
     
         $a = Get-Content -ReadCount 0 -Encoding byte "C:\MoHFiles\soothingmusic.wma"
         Set-CsCallParkServiceMusicOnHoldFile -Service Redmond1-applicationserver-1 -Content $a
@@ -82,8 +82,8 @@ Lync Server 2013 に付属の既定の音楽ファイルの代わりに、自分
 ## <a name="see-also"></a>関連項目
 
 
-[Set-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkServiceMusicOnHoldFile)  
-[Get-CsService](https://docs.microsoft.com/powershell/module/skype/Get-CsService)  
+[Set-cscallparkservicemusiconholdfile](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkServiceMusicOnHoldFile)  
+[取得-CsService](https://docs.microsoft.com/powershell/module/skype/Get-CsService)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: CsWebServiceConfiguration でのアドレス帳の管理'
+title: 'Lync Server 2013: Set-cswebserviceconfiguration のアドレス帳管理のための取得'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183372
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c04cc523e27d655aa69b05f522efccf8153a37ba
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5f795f0e8f503a055388150e201e8d4f3a19bf39
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730577"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037939"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="get-cswebserviceconfiguration-for-address-book-management-in-lync-server-2013"></a>Lync Server 2013 でのアドレス帳管理の CsWebServiceConfiguration
+# <a name="get-cswebserviceconfiguration-for-address-book-management-in-lync-server-2013"></a>Set-cswebserviceconfiguration Lync Server 2013 でのアドレス帳管理のための取得
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41730577"
 
 <span> </span>
 
-_**最終更新日:** 2012-11-01_
+_**トピックの最終更新日:** 2012-11-01_
 
-このコマンドレットを実行できるユーザー: 既定では、次のグループのメンバーは、CsWebServiceConfiguration コマンドレットをローカルで実行することを許可されています。 RTCUniversalUserAdmins、RTCUniversalServerAdmins。 このコマンドレットが割り当てられているすべての役割ベースのアクセス制御 (RBAC) ロールのリストを返すには (自分自身で作成したカスタム RBAC ロールを含む)、Windows PowerShell プロンプトから次のコマンドを実行します。
+このコマンドレットを実行できる人は次のとおりです。 既定では、次のグループのメンバーが、Get-CsWebServiceConfiguration コマンドレットのローカル実行を承認されています。 RTCUniversalUserAdmins、RTCUniversalServerAdmins。 このコマンドレットが割り当てられているすべての役割ベースのアクセス制御 (RBAC) の役割の一覧 (自身が作成したカスタムの RBAC の役割を含む) を戻すには、Windows PowerShell プロンプトから次のコマンドを実行します。
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Get-CsWebServiceConfiguration"}
 
-Get-CsWebServiceConfiguration は、組織で現在使用されている Web サービス構成の情報を返します。 アドレス帳サービスの対象となるのは、配布リスト展開関数の状態です。 属性 EnableGroupExpansion が True の場合は、現在、組織でグループの展開が許可されています。
+Get-CsWebServiceConfiguration は、現在組織で使用されている Web サービス構成の情報を戻します。 アドレス帳サービスにとって、配布リスト拡張機能のステータスは重要です。 EnableGroupExpansion 属性が True の場合、現在、ユーザーの組織はグループ拡張を許可しています。
 
-次に例を示します。
+次にその例を示します。
 
     Get-CsWebServiceConfiguration -Identity site:Redmond
 
@@ -52,7 +52,7 @@ Get-CsWebServiceConfiguration は、組織で現在使用されている Web サ
 ## <a name="see-also"></a>関連項目
 
 
-[Get-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsWebServiceConfiguration)  
+[Set-cswebserviceconfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsWebServiceConfiguration)  
   
 
 </div>

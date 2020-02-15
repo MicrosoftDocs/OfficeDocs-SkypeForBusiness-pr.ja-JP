@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: バックアップの場所を設定する'
+title: 'Lync Server 2013: バックアップの場所の設定'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541440
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 723bcbc2aeaae5264645d824a9b10a939b6770ab
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e5b47a866b4ce1a731d282c78e09c1afb3c91af7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764633"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046600"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-a-backup-location-for-lync-server-2013"></a>Lync Server 2013 のバックアップ場所の設定
+# <a name="setting-up-a-backup-location-for-lync-server-2013"></a>Lync Server 2013 のバックアップ場所のセットアップ
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764633"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-17_
+_**トピックの最終更新日:** 2013-02-17_
 
-Lync Server の最初のバックアップを取る前に、バックアップを保存して維持するために必要なハードウェアとソフトウェアをセットアップします。 必要に応じてメディアとコンテンツへのアクセスを取得し、バックアップする各サーバーとバックアップメディアの間にネットワーク接続を提供する必要があります。 使用するメディアと場所は、バックアップと復元の戦略で定義する必要があります。 定期的なバックアップに使用する場所はローカルまたはリモートのどちらでもかまいませんが、セキュリティで保護されている必要があります。また、バックアップと復元の両方でアクセス可能である必要があります。 実際の場所を使用して、プライマリサイトの致命的なイベントから保護することをお勧めします。
+Lync Server の最初のバックアップを開始する前に、バックアップを保存および管理するために必要なハードウェアとソフトウェアをセットアップします。 必要に応じて、メディアおよびコンテンツにアクセスできるようにし、バックアップ対象の各サーバーとバックアップ メディアの間のネットワーク接続を提供します。 バックアップと復元の戦略では、使用するメディアと場所を定義する必要があります。 通常のバックアップに使用する場所はローカルまたはリモートの場合がありますが、安全である必要があり、バックアップと復元の両方でアクセスできる必要があります。 プライマリサイトで致命的なイベントから保護するには、リモートの場所を使用することをお勧めします。
 
-個々のコンポーネントをセットアップしてテストしたら、各サーバーからバックアップのアクセシビリティを確認します。
+個別のコンポーネントを設定してテストした後、各サーバーからバックアップにアクセスできることを確認します。
 
 </div>
 

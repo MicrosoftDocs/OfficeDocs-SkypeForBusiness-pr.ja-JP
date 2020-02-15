@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Lync Server でアーカイブ用のユーザーポリシーを設定する'
+title: 'Lync Server 2013: Lync Server でのアーカイブ用のユーザーポリシーのセットアップ'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183626
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fa8f377c2a78275419c7d4906a51a9550864b8ba
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4e6a04f976022ea4f3026c7be5caa3ce186efa77
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764533"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42039620"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-user-policies-for-archiving-in-lync-server-2013"></a>Lync Server 2013 でアーカイブ用のユーザーポリシーを設定する
+# <a name="setting-up-user-policies-for-archiving-in-lync-server-2013"></a>Lync Server 2013 でのアーカイブ用のユーザーポリシーのセットアップ
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41764533"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-10_
+_**トピックの最終更新日:** 2012-10-10_
 
-Lync Server 2013 上にある特定のユーザーに対してアーカイブを有効または無効にするには、1つ以上のユーザーポリシーを作成して構成し、適切なポリシーを特定のユーザーまたはユーザーグループに適用する必要があります。 ユーザーポリシーは、サイトとグローバルポリシーを上書きします。ただし、Lync Server 2013 に所属しているユーザーのみです。
+Lync Server 2013 に所属する特定のユーザーに対してアーカイブを有効または無効にするには、1つ以上のユーザーポリシーを作成して構成し、特定のユーザーまたはユーザーグループに適切なポリシーを適用する必要があります。 ユーザーポリシーは、サイトポリシーとグローバルポリシーより優先されますが、Lync Server 2013 に所属するユーザーのみが対象となります。
 
-ユーザーは常に Lync Server に置かれています。 Microsoft Exchange の統合が有効になっている場合、メールボックスが Microsoft Exchange Server 2013 にあるユーザーは、Lync Server で管理されているアーカイブポリシーを持っている必要はありません。 アーカイブを使用するユーザーは、インプレースホールドで管理されます。
+ユーザーは常に Lync Server に所属しています。 Microsoft Exchange 統合が有効になっている場合は、メールボックスが Microsoft Exchange Server 2013 にあるユーザーは、Lync Server でのアーカイブポリシーを管理する必要はありません。 アーカイブを使用するこれらのユーザーは、Exchange のインプレース保持によって管理されます。
 
-グローバル、サイト、ユーザーのポリシーの階層など、アーカイブポリシーの動作について詳しくは、「計画ドキュメント、展開ドキュメント、または操作のドキュメント」の「 [Lync Server 2013 でのアーカイブの動作](lync-server-2013-how-archiving-works.md)」をご覧ください。
+グローバルポリシー、サイトポリシー、およびユーザーポリシーの階層を含むアーカイブポリシーのしくみの詳細については、「計画」、「展開」、または「操作」のドキュメントの「 [Lync Server 2013 でのアーカイブの仕組み](lync-server-2013-how-archiving-works.md)」を参照してください。
 
 <div>
 
 
 > [!NOTE]  
-> 展開で Microsoft Exchange の統合を有効にしている場合、exchange 2013 を使っているユーザーに対してアーカイブが有効になっているかどうかは、インプレースホールドポリシーによって制御されます。 これらのユーザーのアーカイブでは、メールボックスがインプレース保持されるようにする必要があります。 詳細については、展開ドキュメントで<A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Exchange Server との統合を使用する場合の「Lync server 2013 でアーカイブするためのポリシーを設定する</A>」を参照してください。<BR>アーカイブを有効にする前に、アーカイブ構成ですべての適切なオプションを指定する必要があります。 詳細については、展開ドキュメントの「 <A href="lync-server-2013-configuring-archiving-options.md">Lync Server 2013 でアーカイブオプションを構成する</A>」を参照してください。
+> 展開に対して Microsoft Exchange 統合を有効にした場合、exchange 2013 に所属しているユーザーに対してアーカイブを有効にするかどうかは、Exchange のインプレース保持ポリシーによって制御されます。 これらのユーザーのアーカイブでは、ユーザーのメールボックスがインプレース保持の状態になっている必要があります。 詳細については、「展開」のドキュメントの「 <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Setting up policies For Exchange server integration using The Lync server 2013</A> 」を参照してください。<BR>アーカイブを有効にするには、その前にアーカイブ構成で適切なオプションをすべて指定する必要があります。 詳細については、「展開」のドキュメントの「 <A href="lync-server-2013-configuring-archiving-options.md">Lync Server 2013 のアーカイブオプションの構成</A>」を参照してください。
 
 
 
@@ -55,11 +55,11 @@ Lync Server 2013 上にある特定のユーザーに対してアーカイブを
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 でアーカイブ用のユーザーポリシーを作成および構成する](lync-server-2013-creating-and-configuring-user-policies-for-archiving-in-lync-server.md)
+  - [Lync Server 2013 でのアーカイブ用のユーザーポリシーの作成と構成](lync-server-2013-creating-and-configuring-user-policies-for-archiving-in-lync-server.md)
 
-  - [Lync server 2013 でユーザーに Lync Server のアーカイブポリシーを適用する](lync-server-2013-applying-a-lync-server-archiving-policy-to-a-user.md)
+  - [Lync server 2013 のユーザーへの Lync Server アーカイブポリシーの適用](lync-server-2013-applying-a-lync-server-archiving-policy-to-a-user.md)
 
 </div>
 

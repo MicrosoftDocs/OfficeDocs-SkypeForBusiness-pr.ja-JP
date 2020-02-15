@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: エクスペリエンスの品質を有効にする'
+title: 'Lync Server 2013: qoe (Quality of Experience) の有効化'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185385
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4dbccfd145ad8143edab10f92a10901e626075e2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1b75a1ebc7c3014c676467112aa6871560cbe3ef
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736003"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045659"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enable-quality-of-experience-in-lync-server-2013"></a>Lync Server 2013 で品質を向上させる
+# <a name="enable-quality-of-experience-in-lync-server-2013"></a>Lync Server 2013 の [qoe (Quality of Experience)] を有効にする
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41736003"
 
 _**トピックの最終更新日:** 2013-02-23_
 
-QoE (Quality of Experience) は、メディアの品質と、通話およびセッションに関係する参加者、デバイス名、ドライバー、IP アドレス、およびエンドポイントの種類についての情報を示す数値データを記録します。 詳細については、計画ドキュメントの「 [Lync Server 2013 での監視の計画](lync-server-2013-planning-for-monitoring.md)」を参照してください。
+QoE (Quality of Experience) は、メディアの品質と、通話およびセッションに関係する参加者、デバイス名、ドライバー、IP アドレス、およびエンドポイントの種類についての情報を示す数値データを記録します。 詳細については、「計画」のドキュメントの「 [planning for monitoring In Lync Server 2013](lync-server-2013-planning-for-monitoring.md) 」を参照してください。
 
 組織全体または組織内の各サイトで QoE を有効にするには、次の手順を実行します。
 
@@ -55,13 +55,13 @@ QoE (Quality of Experience) は、メディアの品質と、通話およびセ�
 
 ## <a name="to-enable-qoe-by-using-lync-server-control-panel"></a>Lync Server コントロールパネルを使用して QoE を有効にするには
 
-1.  RTCUniversalServerAdmins グループのメンバーであるか (または同等のユーザー権限を持っている)、または CsServerAdministrator または CsAdministrator の役割に割り当てられているユーザーアカウントで、Lync Server 2013 を展開したネットワーク上のコンピューターにログオンします。
+1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ) ユーザー アカウント、または CsServerAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、Lync Server 2013 を展開したネットワーク内の任意のコンピューターにログオンします。
 
-2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
 3.  左側のナビゲーション バーで [**監視およびアーカイブ**] をクリックし、[**QoE データ**] をクリックします。
 
-4.  [**QoE データ**] ページで、表から該当するコレクションをクリックして、[**アクション**]、[**QoE を有効にする**] の順にクリックします。
+4.  [**QoE データ**] ページで、表から該当するコレクションをクリックして、[**操作**]、[**QoE を有効にする**] の順にクリックします。
 
 </div>
 
@@ -69,7 +69,7 @@ QoE (Quality of Experience) は、メディアの品質と、通話およびセ�
 
 ## <a name="enabling-qoe-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して QoE を有効にする
 
-QoE を有効にするには、Windows PowerShell と**Set-CsQoEConfiguration**指定コマンドレットを使用します。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
+QoE を有効にするには、Windows PowerShell と、 **-CsQoEConfiguration の設定**コマンドレットを使用します。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 <div>
 
@@ -101,7 +101,7 @@ QoE を有効にするには、Windows PowerShell と**Set-CsQoEConfiguration**�
 
 </div>
 
-詳細については、「 [Set-CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsQoEConfiguration)」を参照してください。
+詳細については、「 [-CsQoEConfiguration 設定](https://docs.microsoft.com/powershell/module/skype/Set-CsQoEConfiguration)」を参照してください。
 
 </div>
 

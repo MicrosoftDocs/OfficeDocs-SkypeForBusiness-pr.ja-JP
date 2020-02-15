@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: バックアップと復元の戦略と計画を策定する'
+title: 'Lync Server 2013: バックアップと復元の戦略および計画の作成'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541447
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 87f4809b6a86312fc9dcc9527375db85dbcbb043
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6d3c95873ad8b4e0852a4b5ae03f5857ba8e83fa
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762445"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045009"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="developing-a-backup-and-restoration-strategy-and-plan-for-lync-server-2013"></a>バックアップと復元の戦略と Lync Server 2013 の計画を作成する
+# <a name="developing-a-backup-and-restoration-strategy-and-plan-for-lync-server-2013"></a>Lync Server 2013 のバックアップと復元の戦略および計画の作成
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41762445"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-17_
+_**トピックの最終更新日:** 2013-02-17_
 
-Lync Server のバックアップと復元の操作の有効性は、バックアップと復元の戦略と計画によって異なります。 組織の全体的な戦略に適合する Lync Server のバックアップと復元の戦略、データと設定のバックアップを行うための包括的な計画、およびサービスの復元の計画を確立する必要があります。
+Lync Server のバックアップおよび復元操作の効果は、バックアップと復元の戦略および計画によって異なります。 組織の全体的な戦略に適合する Lync Server のバックアップと復元の戦略、およびデータと設定をバックアップするための包括的な計画、および停止時のサービスの復元計画を確立する必要があります。
 
-フロントエンドプールの最も強力な障害回復を行うには、Lync Server 2013 で導入された、ペアリングされたプールの障害回復トポロジを使用します。 詳細については、「 [Lync Server 2013 での高可用性と障害回復の計画](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)」を参照してください。
+フロントエンドプールの最も堅牢な障害復旧については、「Lync Server 2013 で導入されたペアプールの障害復旧トポロジ」を使用してください。 詳細については、「 [Lync Server 2013 での高可用性と障害復旧の計画](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)」を参照してください。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 のバックアップと復元の戦略を確立する](lync-server-2013-establishing-a-backup-and-restoration-strategy.md)
+  - [Lync Server 2013 のバックアップと復元の戦略の確立](lync-server-2013-establishing-a-backup-and-restoration-strategy.md)
 
   - [Lync Server 2013 のバックアップと復元の計画を立てる](lync-server-2013-establishing-a-backup-and-restoration-plan.md)
 
-  - [Lync Server 2013 のバックアップ場所の設定](lync-server-2013-setting-up-a-backup-location.md)
+  - [Lync Server 2013 のバックアップ場所のセットアップ](lync-server-2013-setting-up-a-backup-location.md)
 
 </div>
 

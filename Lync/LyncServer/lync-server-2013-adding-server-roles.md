@@ -12,16 +12,16 @@ ms:contentKeyID: 48185033
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3cb56bb77cdd190894f905f0ff0848b9f86dd9a7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f80ce308640b249dc4b73af98a0c2206923abf84
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738027"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038519"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41738027"
 
 <span> </span>
 
-_**最終更新日:** 2012-06-19_
+_**トピックの最終更新日:** 2012-06-19_
 
-最初の展開を開始して実行した後で、ディレクターやスタンドアロンの仲介サーバーなど、Lync Server 2013 用のサーバーの役割を追加できます。
+最初の展開が完了して実行されたら、ディレクターやスタンドアロンの仲介サーバーなどの、Lync Server 2013 のサーバーの役割を追加できます。
 
 <div>
 
 
 > [!NOTE]  
-> 追加のサーバーロールのインストールタスクを実行する前に、各ロールに関連する計画トピックを参照してください。
+> サーバーの役割を追加インストールするタスクを実行する前に、各役割に関連する計画トピックを参照してください。
 
 
 
@@ -51,11 +51,11 @@ _**最終更新日:** 2012-06-19_
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
   - [Lync Server 2013 でのダイヤルイン会議の構成](lync-server-2013-configuring-dial-in-conferencing.md)
 
-さらに、Lync Server 2013 で使用できるクライアントソフトウェアとデバイスの展開について詳しくは、「 [Lync server 2013 でのクライアントとデバイスの展開](lync-server-2013-deploying-clients-and-devices.md)」をご覧ください。
+さらに、Lync Server 2013 で使用できるクライアントソフトウェアとデバイスの展開の詳細については、「 [Lync server 2013 でのクライアントとデバイスの展開](lync-server-2013-deploying-clients-and-devices.md)」を参照してください。
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013 クライアントとデバイスのハードウェア サポート
+title: Lync Server 2013 のクライアントとデバイスのハードウェアのサポート
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185851
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 08c87692e169bac11c29bc1beeb61df8c6c964b7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e9041f63f012f7251c51bb60d912417a2ed0494e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729837"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037717"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="client-and-device-hardware-support-in-lync-server-2013"></a>Lync Server 2013 のクライアントとデバイスのハードウェア サポート
+# <a name="client-and-device-hardware-support-in-lync-server-2013"></a>Lync Server 2013 でのクライアントとデバイスのハードウェアのサポート
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41729837"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-01_
+_**トピックの最終更新日:** 2012-10-01_
 
-クライアントコンピューターは、Lync Server 2013 展開のクライアントをサポートするために、特定のハードウェア要件を満たしている必要があります。 IP 電話とアナログデバイスを展開する前に、追加のハードウェア構成を行う必要があります。
+クライアントコンピューターは、Lync Server 2013 展開でクライアントをサポートするために特定のハードウェア要件を満たす必要があります。 また、追加のハードウェア構成は、IP 電話とアナログ デバイスを展開する前に完了する必要があります。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 での Lync クライアントのハードウェアのサポート](lync-server-2013-lync-client-hardware-support.md)
+  - [Lync Server 2013 での lync クライアントハードウェアのサポート](lync-server-2013-lync-client-hardware-support.md)
 
-  - [Lync Server 2013 でのデバイス ハードウェアのサポート](lync-server-2013-device-hardware-support.md)
+  - [Lync Server 2013 でのデバイスハードウェアのサポート](lync-server-2013-device-hardware-support.md)
 
   - [Lync Server 2013 でのモビリティのサポート](lync-server-2013-mobility-support.md)
 

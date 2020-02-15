@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Microsoft SIP 処理言語 (MSPL) アプリケーションを critical または critical としてマークする'
+title: 'Lync Server 2013: Microsoft SIP 処理言語 (MSPL) アプリケーションを重要または重要ではないとしてマークする'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185622
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 54d8b0858145930e0a2144ade55934b39394dcaf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a50dea89feb7e72c5076e58a38136d24b1b34499
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757951"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045419"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="mark-a-microsoft-sip-processing-language-mspl-application-as-critical-or-not-critical-in-lync-server-2013"></a>Lync Server 2013 で Microsoft SIP 処理言語 (MSPL) アプリケーションを critical または critical としてマークする
+# <a name="mark-a-microsoft-sip-processing-language-mspl-application-as-critical-or-not-critical-in-lync-server-2013"></a>Lync Server 2013 で、Microsoft SIP 処理言語 (MSPL) アプリケーションを重要または重要ではないとしてマークする
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41757951"
 
 <span> </span>
 
-_**最終更新日:** 2012-11-01_
+_**トピックの最終更新日:** 2012-11-01_
 
-Microsoft SIP 処理言語 (MSPL) サーバーアプリケーションは、Microsoft Lync 2010 API ではなく、MSPL スクリプト言語を使用するスクリプトのみのアプリケーションです。 一部の MSPL server アプリケーションは critical として指定されています。 スクリプトが重要な場合は、Lync Server 2013 を起動するために、スクリプトがシステムの起動中に開始される必要があります。 Lync Server の実行中にスクリプトが失敗した場合、サーバーはシャットダウンせず、スクリプトへのトラフィック送信が停止し、イベントログにエラーを書き込みます。
+Microsoft SIP 処理言語 (MSPL) サーバーアプリケーションは、Microsoft Lync 2010 API の代わりに MSPL スクリプト言語を使用するスクリプトのみのアプリケーションです。 一部の MSPL サーバーアプリケーションは、重要として指定されています。 スクリプトが重要である場合、Lync Server 2013 を開始するために、スクリプトはシステム起動時に開始する必要があります。 Lync Server の実行中にスクリプトが失敗した場合、サーバーはシャットダウンされませんが、スクリプトへのトラフィックの送信が停止し、エラーがイベントログに記録されます。
 
-Lync Server コントロールパネルを使用して、Microsoft SIP 処理言語 (MSPL) サーバーアプリケーションをクリティカルとしてマークしたり、マークを解除したりすることができます。
+Lync Server コントロールパネルを使用して、Microsoft SIP 処理言語 (MSPL) サーバーアプリケーションを重要としてマークしたり、アンマークしたりすることができます。
 
-すべてのスクリプトでこのオプションがサポートされるわけではありません。 たとえば、DefaultRouting スクリプトは critical とマークされているため、DefaultRouting に対してこのオプションを変更することはできません。
+すべてのスクリプトがこのオプションをサポートするわけではありません。 たとえば、DefaultRouting スクリプトは critical としてマークされており、このオプションを DefaultRouting に対して変更することはできません。
 
 <div>
 
-## <a name="to-mark-or-unmark-an-mspl-server-application-as-critical"></a>MSPL server アプリケーションを重要としてマークまたはマーク解除するには
+## <a name="to-mark-or-unmark-an-mspl-server-application-as-critical"></a>MSPL サーバーアプリケーションを重要としてマークまたはマークを解除するには
 
-1.  RTCUniversalServerAdmins グループのメンバーであるか (または同等のユーザー権限を持っている)、または CsServerAdministrator または CsAdministrator の役割に割り当てられているユーザーアカウントで、Lync Server 2013 を展開したネットワーク上のコンピューターにログオンします。
+1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ) ユーザー アカウント、または CsServerAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、Lync Server 2013 を展開したネットワーク内の任意のコンピューターにログオンします。
 
-2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
-3.  左側のナビゲーションバーで、[**トポロジ**] をクリックし、[**サーバーアプリケーション**] をクリックします。
+3.  左側のナビゲーション バーで [**トポロジ**] をクリックし、[**サーバー アプリケーション**] をクリックします。
 
-4.  [**サーバーアプリケーション**] ページで、必要に応じて、アプリケーションを並べ替える列見出しをクリックし、変更するサーバーアプリケーションをクリックします。
+4.  [**サーバー アプリケーション**] ページで、必要があれば列見出しをクリックしてアプリケーションを並べ替えてから、変更するサーバー アプリケーションをクリックします。
 
 5.  [**アクション**] をクリックします。
 
-6.  [**重要としてマーク**] または [重大] (スクリプトがこのオプションをサポートしている場合) を**選択**します。
+6.  [重要とし**てマーク**] をクリックするか、[重大] (スクリプトがこのオプションをサポートしている場合) を**選択**します。
 
 </div>
 
@@ -69,7 +69,7 @@ Lync Server コントロールパネルを使用して、Microsoft SIP 処理言
 [Lync Server 2013 で Microsoft SIP 処理言語 (MSPL) サーバーアプリケーションを有効または無効にする](lync-server-2013-enable-or-disable-a-microsoft-sip-processing-language-mspl-server-application.md)  
 
 
-[Lync Server 2013 での Microsoft SIP 処理言語  (MSPL) サーバー アプリケーションの表示](lync-server-2013-view-microsoft-sip-processing-language-mspl-server-applications.md)  
+[Lync Server 2013 での Microsoft SIP 処理言語 (MSPL) サーバーアプリケーションの表示](lync-server-2013-view-microsoft-sip-processing-language-mspl-server-applications.md)  
 
 
 [Lync Server 2013 トポロジの管理](lync-server-2013-managing-the-lync-server-topology.md)  

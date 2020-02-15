@@ -1,5 +1,5 @@
 ---
-title: 存続可能ブランチ アプライアンスまたはサーバーの展開 - 中央サイトのタスク
+title: 存続可能ブランチアプライアンスまたはサーバー-中央サイトのタスクの展開
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183422
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a9aa6d38ec873652feae6ef6a374ee5b771520b1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4756da7db87504e8b8c700cea1abb171b594543e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729627"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047551"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-a-survivable-branch-appliance-or-server-with-lync-server-2013---central-site-tasks"></a>Lync Server 2013 による存続可能ブランチ アプライアンスまたはサーバーの展開 - 中央サイトのタスク
+# <a name="deploying-a-survivable-branch-appliance-or-server-with-lync-server-2013---central-site-tasks"></a>Lync Server 2013 を使用した存続可能ブランチアプライアンスまたはサーバーの展開-中央サイトのタスク
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41729627"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-18_
+_**トピックの最終更新日:** 2012-10-18_
 
-セントラルサイトでこのセクションのタスクを実行します。 Survivable Branch Server を展開している場合は、最初のタスクをスキップします。
+このセクションに示すタスクをセントラル サイトで完了します。 存続可能ブランチサーバーを展開している場合は、最初のタスクをスキップします。
 
 <div>
 
 
 > [!IMPORTANT]
-> このセクションのタスクを実行する前に、次の条件を満たしている必要があります。 
+> このセクションのタスクを実行する前に、次の条件が満たされている必要があります。 
 > <UL>
 > <LI>
-> <P>Lync Server はセントラルサイトで設定する必要があります。</P>
+> <P>中央サイトで Lync Server がセットアップされている必要があります。</P>
 > <LI>
-> <P>ブランチサイトのインストール技術者は、RTCUniversalSBATechnicians グループに追加されている必要があります。</P></LI></UL>さらに、次の操作を行うことをお勧めします。
+> <P>RTCUniversalSBATechnicians グループにブランチ サイトのインストール技術者が追加されている必要があります。</P></LI></UL>また、次の内容の実行をお勧めします。
 > <UL>
 > <LI>
-> <P>各ブランチサイトに DHCP サーバーを展開して、クライアントが IP アドレスを取得できるようにします。</P>
+> <P>各ブランチ サイトで DHCP サーバーを展開し、クライアントが IP アドレスを取得できるようにします。</P>
 > <LI>
-> <P>各ブランチサイトに DHCP サーバーを展開する代わりに、Lync Server Management Shell コマンドレットの<STRONG>CsRegistrarConfiguration – EnableDHCPServer $true</STRONG>を使って、Survivable branch Appliance または Survivable branch Server で LYNC server DHCP を有効にします。 詳細については、計画ドキュメントの「 <A href="lync-server-2013-branch-site-resiliency-requirements.md">Lync Server 2013 のブランチサイトの回復要件</A>」の「ハードウェアとソフトウェアの要件」セクションを参照してください。</P></LI></UL>
+> <P>各ブランチサイトに DHCP サーバーを展開する代わりに、Lync Server 管理シェルコマンドレット<STRONG>get-csregistrarconfiguration – EnableDHCPServer $true</STRONG>を使用して、存続可能 branch Appliance または存続可能ブランチサーバーで LYNC server DHCP を有効にします。 詳細については、「計画」のドキュメントの「 <A href="lync-server-2013-branch-site-resiliency-requirements.md">Lync Server 2013 のブランチサイトの復元要件</A>」の「ハードウェアとソフトウェアの要件」セクションを参照してください。</P></LI></UL>
 
 
 
@@ -61,13 +61,13 @@ _**最終更新日:** 2012-10-18_
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 での、Active Directory への存続可能ブランチ アプライアンスの追加](lync-server-2013-add-a-survivable-branch-appliance-to-active-directory.md)
+  - [Lync Server 2013 で存続可能 Branch Appliance を Active Directory に追加する](lync-server-2013-add-a-survivable-branch-appliance-to-active-directory.md)
 
-  - [Lync Server 2013 でのトポロジへのブランチ サイトの追加](lync-server-2013-add-branch-sites-to-your-topology.md)
+  - [Lync Server 2013 でのトポロジへのブランチサイトの追加](lync-server-2013-add-branch-sites-to-your-topology.md)
 
-  - [Lync Server 2013 での存続可能ブランチ アプライアンスまたは存続可能ブランチ サーバーの定義](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)
+  - [Lync Server 2013 での存続可能ブランチアプライアンスまたはサーバーの定義](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)
 
 </div>
 

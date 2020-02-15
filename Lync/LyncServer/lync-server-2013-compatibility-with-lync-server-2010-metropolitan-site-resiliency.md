@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013 と Lync Server 2010 大都市サイト復元の互換性
+title: Lync Server 2013 と Lync Server 2010 の大都市サイト復元の互換性
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183526
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 395ec568ebafea5c7a06e19340ff5ad10158ffb3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2f432941773b72d18c22adc87779341996771399
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742747"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045609"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41742747"
 
 <span> </span>
 
-_**最終更新日:** 2014-03-19_
+_**トピックの最終更新日:** 2014-03-19_
 
-Lync Server 2010 でサポートされているメトロポリタンサイトの復元ソリューションは、Lync Server 2013 ではサポートされていません。 このソリューションは、同じメトロポリタンエリア内の2つのデータセンターにわたる単一のフロントエンドプールに関連しています。
+Lync server 2010 でサポートされている大都市サイト復元ソリューションは、Lync Server 2013 ではサポートされていません。 このソリューションでは、1 つのフロントエンド プールを同じ大都市圏内の 2 か所のデータ センターにまたがって展開する必要がありました。
 
-メトロポリタンサイトの復元ソリューションは、データセンターの損失から回復するように設計されています。 2つのデータセンターでプールをスパンしている場合、通常は、1つのデータセンターと2番目のデータセンターの残りの半分にフロントエンドの半分を配置します。 データセンター全体が失われた場合は、フロントエンドサーバーの半分が失われます。 これにより、Lync Server 2013 のフロントエンドプールの新しい分散システムモデルで問題が発生する可能性があります。 詳細については、「 [Lync Server 2013 のフロントエンドサーバー、インスタントメッセージング、およびプレゼンスのトポロジとコンポーネント」を](lync-server-2013-topologies-and-components-for-front-end-servers-instant-messaging-and-presence.md)参照してください。
+大都市サイト復元ソリューションは、データセンター全体の損失から復旧するように設計されています。 プールを2つのデータセンターにまたがっている場合、通常はフロントエンドの半分を1つのデータセンターに配置し、2番目のデータセンターの残りの半分にします。 データセンター全体を失った場合は、フロントエンドサーバーの半分が失われます。 これにより、Lync Server 2013 のフロントエンドプールの新しい分散システムモデルで問題が発生する可能性があります。 詳細については、「 [Lync Server 2013 でのフロントエンドサーバー、インスタントメッセージング、およびプレゼンスのトポロジとコンポーネント](lync-server-2013-topologies-and-components-for-front-end-servers-instant-messaging-and-presence.md)」を参照してください。
 
 </div>
 

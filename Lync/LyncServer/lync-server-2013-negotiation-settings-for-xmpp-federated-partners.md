@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: XMPP フェデレーション パートナーのネゴシエーション設定'
+title: 'Lync Server 2013: XMPP フェデレーションパートナーのネゴシエーション設定'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48679567
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 995ee34d0a2dcf28ca6aa4f8158d0e08d1533191
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c190e4a45a70bd527aa8fc6323a671d481f04872
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765938"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42039099"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="negotiation-settings-for-xmpp-federated-partners-in-lync-server-2013"></a>Lync Server 2013 の XMPP フェデレーション パートナーのネゴシエーション設定
+# <a name="negotiation-settings-for-xmpp-federated-partners-in-lync-server-2013"></a>Lync Server 2013 での XMPP フェデレーションパートナーのネゴシエーション設定
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41765938"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-21_
+_**トピックの最終更新日:** 2012-10-21_
 
-XMPP パートナーの構成でのネゴシエーションの種類の設定には、さまざまな組み合わせが用意されています。 これらの組み合わせの一部は有効ではありません。 このトピックで詳しく説明する表では、有効な設定と無効な設定を定義しています。 一般的な構成は、最初の表の2番目の表で、可能なすべての組み合わせの詳細を示しています。 *トランスポート層セキュリティ*(TLS) も使用できる**場合を除き**、*単純な認証とセキュリティレイヤー* (SASL) を持つことはできないことに注意してください。 SASL は、暗号化されていない (読み取り可能な) 形式で送信され、TLS などの別の手段で保護されている場合を除き、送信しないでください。
+XMPP パートナーの構成におけるネゴシエーションの種類の設定には、さまざまな組み合わせがあります。 これらの組み合わせのすべてが有効なわけではありません。 このトピックで詳細に記載されている表では、有効で有効な設定を定義しています。 一般的な構成については、第1の表で、考えられるすべての組み合わせの詳細な2番目の表で説明します。 *トランスポート層セキュリティ*(TLS) も使用できる**場合を除き**、*単純な認証およびセキュリティ層*(SASL) を使用することはできないことに注意してください。 SASL は暗号化されていない (読み取り可能な) 形式で送信されるため、TLS などの別の手段で保護されていない限り、送信しないでください。
 
-### <a name="common-xmpp-federation-negotiation-methods"></a>一般的な XMPP のフェデレーションネゴシエーションの方法
+### <a name="common-xmpp-federation-negotiation-methods"></a>よく使用される XMPP フェデレーションのネゴシエーション方式
 
 <table>
 <colgroup>
@@ -52,9 +52,9 @@ XMPP パートナーの構成でのネゴシエーションの種類の設定に
 <thead>
 <tr class="header">
 <th>トランスポート層セキュリティ (TLS)</th>
-<th>簡易認証とセキュリティレイヤー (SASL)</th>
-<th>ダイヤルバックの認証</th>
-<th>予期される認証方法</th>
+<th>簡易認証およびセキュリティ層 (SASL)</th>
+<th>ダイヤルバック認証</th>
+<th>期待される認証方式</th>
 <th>メモ</th>
 </tr>
 </thead>
@@ -63,35 +63,35 @@ XMPP パートナーの構成でのネゴシエーションの種類の設定に
 <td><p>必須</p></td>
 <td><p>必須</p></td>
 <td><p>False</p></td>
-<td><p>TLS 経由の SASL</p></td>
-<td><p>TLS と SASL は、SASL メッセージストリームがセキュリティで保護されていることを確認するのに役立ちます。 コールバックは使用できません。 XMPP フェデレーションパートナーが TLS を必須またはオプションに設定していない場合は、フォールバックメソッドに使用できません。</p></td>
+<td><p>SASL over TLS</p></td>
+<td><p>SASL メッセージ ストリームをセキュアにするために TLS と SASL が必要です。ダイヤルバックは利用できません。XMPP フェデレーション パートナーが TLS を必須またはオプションに設定していない場合の代替手段には使用できません。</p></td>
 </tr>
 <tr class="even">
 <td><p>必須</p></td>
 <td><p>省略可能</p></td>
-<td><p>True</p></td>
-<td><p>TLS 経由の SASL、TLS コールバック、TCP コールバック</p></td>
-<td><p>XMPP フェデレーションパートナーが、オプションまたは必須の SASL に SASL を設定している場合は、TLS を要求することによって使用されます。 SASL が利用できない場合は、TLS 経由のダイヤルバックが使用されます。</p></td>
+<td><p>はい</p></td>
+<td><p>SASL over TLS、TLS ダイヤルバック、TCP ダイヤルバック</p></td>
+<td><p>TLS を必須にすると、XMPP フェデレーション パートナーが SASL をオプションまたは必須に設定していた場合は SASL が使用されます。SASL が利用できない場合は、ダイヤルバック over TLS が使用されます。</p></td>
 </tr>
 <tr class="odd">
 <td><p>省略可能</p></td>
-<td><p>省略可能</p></td>
-<td><p>True</p></td>
-<td><p>TLS 経由の SASL、TLS コールバック、TCP コールバック</p></td>
-<td><p>提供されているネゴシエーションの方法は非常に柔軟ですが、これらの設定は XMPP フェデレーションパートナーの設定に依存します。 パートナーに TLS がオプションまたは必須であるが、SASL はサポートされていない場合は、TLS のコールバックが利用可能になります。 パートナーの TLS と SASL がオプションまたは必須に設定されている場合は、SASL を介した TLS の最適な選択が使用されます。</p></td>
+<td><p>オプション</p></td>
+<td><p>はい</p></td>
+<td><p>SASL over TLS、TLS ダイヤルバック、TCP ダイヤルバック</p></td>
+<td><p>きわめて柔軟なネゴシエーション方式が用意されているものの、これらの設定は XMPP フェデレーション パートナーの設定に依存します。パートナーが TLS をオプションまたは必須にしているのに SASL がサポートされていない場合は、TLS ダイヤルバックが利用できます。パートナーが TLS と SASL をオプションまたは必須に設定している場合は、最適な選択肢である TLS over SASL が使用されます。</p></td>
 </tr>
 <tr class="even">
 <td><p>サポート対象外</p></td>
 <td><p>サポート対象外</p></td>
-<td><p>True</p></td>
-<td><p>TCP コールバック</p></td>
-<td><p>多くの場合、TCP コールバックは唯一の解決策です。 他のオプションよりも望ましいのは、何らかの信頼レベルを提供することです。</p></td>
+<td><p>はい</p></td>
+<td><p>TCP ダイヤルバック</p></td>
+<td><p>多くの場合、使用できるソリューションは TCP ダイヤルバックのみです。ほかのオプションに比べると好ましくありませんが、ある程度の信頼は提供されます。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="xmpp-federation-negotiation-methods-matrix---complete"></a>XMPP フェデレーションネゴシエーションメソッドマトリックス-完了
+### <a name="xmpp-federation-negotiation-methods-matrix---complete"></a>XMPP フェデレーション ネゴシエーション方式のマトリックス - すべて
 
 <table>
 <colgroup>
@@ -104,22 +104,22 @@ XMPP パートナーの構成でのネゴシエーションの種類の設定に
 <thead>
 <tr class="header">
 <th>トランスポート層セキュリティ (TLS)</th>
-<th>簡易認証とセキュリティレイヤー (SASL)</th>
-<th>ダイヤルバックの認証</th>
-<th>予期される認証方法</th>
-<th>無効な構成のメモ、警告、またはエラー</th>
+<th>簡易認証およびセキュリティ層 (SASL)</th>
+<th>ダイヤルバック認証</th>
+<th>期待される認証方式</th>
+<th>無効な構成に関するメモ、警告、またはエラー</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>必須</p></td>
 <td><p>必須</p></td>
-<td><p>True</p></td>
-<td><p>TLS 経由の SASL</p></td>
+<td><p>はい</p></td>
+<td><p>SASL over TLS</p></td>
 <td><div>
 
 > [!WARNING]  
-> SASL と TLS の両方が必要な場合、コールバックは動作しません。
+> SASL と TLS の両方が必須の場合、ダイヤルバックは機能しません。
 
 
 </div></td>
@@ -128,135 +128,135 @@ XMPP パートナーの構成でのネゴシエーションの種類の設定に
 <td><p>必須</p></td>
 <td><p>必須</p></td>
 <td><p>False</p></td>
-<td><p>TLS 経由の SASL</p></td>
+<td><p>SASL over TLS</p></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><p>オプション</p></td>
+<td><p>必須</p></td>
+<td><p>はい</p></td>
+<td><p>SASL over TLS、TLS ダイヤルバック、TCP ダイヤルバック</p></td>
+<td><div>
+
+> [!WARNING]  
+> SASL には TLS が必須です。 TLS をオプションとして許可すると、セッションのネゴシエーションが失敗する場合があります。
+
+
+</div></td>
+</tr>
+<tr class="even">
+<td><p>オプション</p></td>
+<td><p>必須</p></td>
+<td><p>False</p></td>
+<td><p>SASL over TLS</p></td>
+<td><div>
+
+> [!WARNING]  
+> SASL には TLS が必須です。 TLS をオプションとして許可すると、セッションのネゴシエーションが失敗する場合があります。
+
+
+</div></td>
+</tr>
+<tr class="odd">
+<td><p>サポート対象外</p></td>
+<td><p>必須</p></td>
+<td><p>はい</p></td>
+<td><p>TCP ダイヤルバック</p></td>
+<td><div>
+
+> [!WARNING]  
+> SASL には TLS が必須です。 TLS をオプションとして許可すると、セッションのネゴシエーションが失敗する場合があります。
+
+
+</div></td>
+</tr>
+<tr class="even">
+<td><p>サポート対象外</p></td>
+<td><p>必須</p></td>
+<td><p>False</p></td>
+<td><div>
+
+> [!WARNING]  
+> 無効な構成
+
+
+</div></td>
+<td><div>
+
+> [!WARNING]  
+> SASL には TLS が必須ですが　TLS は利用できないため、SASL/TLS は成功しません。TCP ダイヤルバックは False に設定され、使用されません。
+
+
+</div></td>
+</tr>
+<tr class="odd">
+<td><p>必須</p></td>
+<td><p>省略可能</p></td>
+<td><p>はい</p></td>
+<td><p>SASL over TLS、TLS ダイヤルバック</p></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><p>必須</p></td>
+<td><p>省略可能</p></td>
+<td><p>False</p></td>
+<td><p>SASL over TLS</p></td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><p>省略可能</p></td>
-<td><p>必須</p></td>
-<td><p>True</p></td>
-<td><p>TLS 経由の SASL、TLS コールバック、TCP コールバック</p></td>
+<td><p>オプション</p></td>
+<td><p>はい</p></td>
+<td><p>SASL over TLS、TLS ダイヤルバック、TCP ダイヤルバック</p></td>
 <td><div>
 
 > [!WARNING]  
-> SASL には TLS が必要です。 TLS をオプションとして許可すると、セッションのネゴシエーションが失敗する可能性があります。
+> SASL には TLS が必須です。 TLS をオプションとして許可すると、セッションのネゴシエーションが失敗する場合があります。
 
 
 </div></td>
 </tr>
 <tr class="even">
 <td><p>省略可能</p></td>
-<td><p>必須</p></td>
+<td><p>オプション</p></td>
 <td><p>False</p></td>
-<td><p>TLS 経由の SASL</p></td>
+<td><p>SASL over TLS</p></td>
 <td><div>
 
 > [!WARNING]  
-> SASL には TLS が必要です。 TLS をオプションとして許可すると、セッションのネゴシエーションが失敗する可能性があります。
+> SASL には TLS が必須です。 TLS をオプションとして許可すると、セッションのネゴシエーションが失敗する場合があります。
 
 
 </div></td>
 </tr>
 <tr class="odd">
 <td><p>サポート対象外</p></td>
-<td><p>必須</p></td>
-<td><p>True</p></td>
-<td><p>TCP コールバック</p></td>
+<td><p>オプション</p></td>
+<td><p>はい</p></td>
+<td><p>TCP ダイヤルバック</p></td>
 <td><div>
 
 > [!WARNING]  
-> SASL には TLS が必要です。 TLS をオプションとして許可すると、セッションのネゴシエーションが失敗する可能性があります。
+> SASL には TLS が必須です。 TLS をオプションとして許可すると、セッションのネゴシエーションが失敗する場合があります。
 
 
 </div></td>
 </tr>
 <tr class="even">
 <td><p>サポート対象外</p></td>
-<td><p>必須</p></td>
+<td><p>オプション</p></td>
 <td><p>False</p></td>
 <td><div>
 
 > [!WARNING]  
-> 有効な構成ではありません
+> 無効な構成
 
 
 </div></td>
 <td><div>
 
 > [!WARNING]  
-> SASL には TLS が必要であるため、TLS は利用できません。 SASL/TLS は成功しません。 TCP コールバックは false に設定されているため、使用できません。
-
-
-</div></td>
-</tr>
-<tr class="odd">
-<td><p>必須</p></td>
-<td><p>省略可能</p></td>
-<td><p>True</p></td>
-<td><p>Tls による SASL、TLS のコールバック</p></td>
-<td></td>
-</tr>
-<tr class="even">
-<td><p>必須</p></td>
-<td><p>省略可能</p></td>
-<td><p>False</p></td>
-<td><p>TLS 経由の SASL</p></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><p>省略可能</p></td>
-<td><p>省略可能</p></td>
-<td><p>True</p></td>
-<td><p>TLS 経由の SASL、TLS コールバック、TCP コールバック</p></td>
-<td><div>
-
-> [!WARNING]  
-> SASL には TLS が必要です。 TLS をオプションとして許可すると、セッションのネゴシエーションが失敗する可能性があります。
-
-
-</div></td>
-</tr>
-<tr class="even">
-<td><p>省略可能</p></td>
-<td><p>省略可能</p></td>
-<td><p>False</p></td>
-<td><p>TLS 経由の SASL</p></td>
-<td><div>
-
-> [!WARNING]  
-> SASL には TLS が必要です。 TLS をオプションとして許可すると、セッションのネゴシエーションが失敗する可能性があります。
-
-
-</div></td>
-</tr>
-<tr class="odd">
-<td><p>サポート対象外</p></td>
-<td><p>省略可能</p></td>
-<td><p>True</p></td>
-<td><p>TCP コールバック</p></td>
-<td><div>
-
-> [!WARNING]  
-> SASL には TLS が必要です。 TLS をオプションとして許可すると、セッションのネゴシエーションが失敗する可能性があります。
-
-
-</div></td>
-</tr>
-<tr class="even">
-<td><p>サポート対象外</p></td>
-<td><p>省略可能</p></td>
-<td><p>False</p></td>
-<td><div>
-
-> [!WARNING]  
-> 有効な構成ではありません
-
-
-</div></td>
-<td><div>
-
-> [!WARNING]  
-> SASL には TLS が必要です。 TLS をオプションとして許可すると、セッションのネゴシエーションが失敗する可能性があります。
+> SASL には TLS が必須です。TLS をオプションとして許可すると、セッションのネゴシエーションが失敗する場合があります。
 
 
 </div></td>
@@ -264,39 +264,39 @@ XMPP パートナーの構成でのネゴシエーションの種類の設定に
 <tr class="odd">
 <td><p>必須</p></td>
 <td><p>サポート対象外</p></td>
-<td><p>True</p></td>
-<td><p>TLS のコールバック</p></td>
-<td><p>構成により、TLS のコールバックが可能になります。</p></td>
+<td><p>はい</p></td>
+<td><p>TLS ダイヤルバック</p></td>
+<td><p>TLS ダイヤルバックを許可する構成です。</p></td>
 </tr>
 <tr class="even">
 <td><p>必須</p></td>
 <td><p>サポート対象外</p></td>
 <td><p>False</p></td>
-<td><p>有効な構成ではありません</p></td>
+<td><p>無効な構成</p></td>
 <td><div>
 
 > [!WARNING]  
-> SASL またはダイヤルバックを有効にする必要があります。
+> SASL またはダイヤルバックを有効化する必要があります。
 
 
 </div></td>
 </tr>
 <tr class="odd">
-<td><p>省略可能</p></td>
+<td><p>オプション</p></td>
 <td><p>サポート対象外</p></td>
-<td><p>True</p></td>
-<td><p>TLS のダイヤルバック, TCP コールバック</p></td>
-<td><p>他のエンドポイントのネゴシエーションの選択肢に基づいて、TCP または TLS のコールバックが受け入れられます。</p></td>
+<td><p>はい</p></td>
+<td><p>TLS ダイヤルバック、TCP ダイヤルバック</p></td>
+<td><p>もう一方のエンドポイントが選択したネゴシエーションに基づいて、TCP または TLS ダイヤルバックを受け入れます。</p></td>
 </tr>
 <tr class="even">
-<td><p>省略可能</p></td>
+<td><p>オプション</p></td>
 <td><p>サポート対象外</p></td>
 <td><p>False</p></td>
-<td><p>有効な構成ではありません</p></td>
+<td><p>無効な構成</p></td>
 <td><div>
 
 > [!WARNING]  
-> SASL またはダイヤルバックを有効にする必要があります。
+> SASL またはダイヤルバックを有効化する必要があります。
 
 
 </div></td>
@@ -304,19 +304,19 @@ XMPP パートナーの構成でのネゴシエーションの種類の設定に
 <tr class="odd">
 <td><p>サポート対象外</p></td>
 <td><p>サポート対象外</p></td>
-<td><p>True</p></td>
-<td><p>TCP コールバック</p></td>
-<td><p>TCP コールバックは、唯一利用可能なネゴシエーションの方法です。</p></td>
+<td><p>はい</p></td>
+<td><p>TCP ダイヤルバック</p></td>
+<td><p>利用できるネゴシエーション方式は TCP ダイヤルバック のみです。</p></td>
 </tr>
 <tr class="even">
 <td><p>サポート対象外</p></td>
 <td><p>サポート対象外</p></td>
 <td><p>False</p></td>
-<td><p>有効な構成ではありません</p></td>
+<td><p>無効な構成</p></td>
 <td><div>
 
 > [!WARNING]  
-> SASL またはダイヤルバックを有効にする必要があります。
+> SASL またはダイヤルバックを有効化する必要があります。
 
 
 </div></td>

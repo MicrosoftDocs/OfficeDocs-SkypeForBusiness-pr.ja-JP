@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: アドレス帳管理のための Windows PowerShell コマンドレット'
+title: 'Lync Server 2013: アドレス帳管理用の Windows PowerShell コマンドレット'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184512
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ec10f3e3d3d58a790ddc60fd1af1d1b09765685
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5b294d2d27c9c092854e2556d863a76a77569932
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727467"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041186"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,49 +35,49 @@ ms.locfileid: "41727467"
 
 <span> </span>
 
-_**最終更新日:** 2012-11-01_
+_**トピックの最終更新日:** 2012-11-01_
 
-Lync Server には、アドレス帳サービスを管理して構成するための Windows PowerShell コマンドラインインターフェイスコマンドレットが数多く用意されています。 これらのコマンドレットの一部は、以前のバージョンの Office Communications Server で使用されていた ABServer .exe コマンドの代わりになります。 次のトピックでは、アドレス帳サービスに関する情報の設定、作成、取得に使用するコマンドレット、およびクライアントがアドレス帳サービスを取得するときにアドレス帳サービスで使用する Web サービスに関する情報を取得するために使用するコマンドレットについて説明します。ファイルと設定。
+Lync Server には、アドレス帳サービスを管理および構成するための Windows PowerShell コマンドラインインターフェイスコマンドレットが多数用意されています。 これらのコマンドレットの一部は、以前のバージョンの Office Communications Server で使用されていた ABServer .exe コマンドの置換です。 以下のトピックには、アドレス帳サービスとその構成に関する情報や、クライアントでアドレス帳サービスのファイルや設定を取得する際にアドレス帳サービスが使用する Web サービスの情報について、設定、作成、および取得を行うために使用するコマンドレットが記載されています。
 
-これらのすべてのコマンドレットは、管理ツールがインストールされているサーバーまたはワークステーションの Lync Server ツールの lync server 管理シェルを通じて発行されます。
+これらのすべてのコマンドレットは、管理ツールがインストールされているサーバーまたはワークステーションの Lync server ツールにある Lync Server 管理シェルを介して発行されます。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 でのアドレス帳管理用の新しい CsAddressBookConfiguration](lync-server-2013-New-CsAddressBookConfiguration-for-address-book-management.md)
+  - [Lync Server 2013 でのアドレス帳管理用の新しい-CsAddressBookConfiguration](lync-server-2013-New-CsAddressBookConfiguration-for-address-book-management.md)
 
   - [Lync Server 2013 でのアドレス帳管理用の設定-CsAddressBookConfiguration](lync-server-2013-set-csaddressbookconfiguration-for-address-book-management.md)
 
-  - [Lync Server 2013 でのアドレス帳管理のための設定を取得する](lync-server-2013-get-csaddressbookconfiguration-for-address-book-management.md)
+  - [Lync Server 2013 でのアドレス帳管理用の-CsAddressBookConfiguration の取得](lync-server-2013-get-csaddressbookconfiguration-for-address-book-management.md)
 
-  - [Lync Server 2013 でのアドレス帳管理用の削除-CsAddressBookConfiguration](lync-server-2013-remove-csaddressbookconfiguration-for-address-book-management.md)
+  - [Lync Server 2013 でのアドレス帳管理用の-CsAddressBookConfiguration の削除](lync-server-2013-remove-csaddressbookconfiguration-for-address-book-management.md)
 
   - [Lync Server 2013 でのアドレス帳管理用のテスト-CsAddressBookService](lync-server-2013-test-csaddressbookservice-for-address-book-management.md)
 
-  - [Lync Server 2013 でのアドレス帳の管理に関するテスト-CsAddressBookWebQuery](lync-server-2013-test-csaddressbookwebquery-for-address-book-management.md)
+  - [Lync Server 2013 でのアドレス帳管理用のテスト-CsAddressBookWebQuery](lync-server-2013-test-csaddressbookwebquery-for-address-book-management.md)
 
-  - [Lync Server 2013 でのアドレス帳管理の更新プログラム-CsAddressBook](lync-server-2013-update-csaddressbook-for-address-book-management.md)
+  - [Update-csaddressbook Lync Server 2013 でのアドレス帳管理のための更新プログラム](lync-server-2013-update-csaddressbook-for-address-book-management.md)
 
-  - [Lync Server 2013 でのアドレス帳管理用の新しい CsClientPolicy](lync-server-2013-new-csclientpolicy-for-address-book-management.md)
+  - [Lync Server 2013 でのアドレス帳管理用の新しい-CsClientPolicy](lync-server-2013-new-csclientpolicy-for-address-book-management.md)
 
-  - [Lync Server 2013 でのアドレス帳管理のための CsClientPolicy の設定](lync-server-2013-set-csclientpolicy-for-address-book-management.md)
+  - [Lync Server 2013 でのアドレス帳管理用の設定-CsClientPolicy](lync-server-2013-set-csclientpolicy-for-address-book-management.md)
 
   - [Lync Server 2013 でのアドレス帳管理のための CsService](lync-server-2013-get-csservice-for-address-book-management.md)
 
-  - [Lync Server 2013 でのアドレス帳管理のための CsWebServiceConfiguration](lync-server-2013-New-CsWebServiceConfiguration-for-address-book-management.md)
+  - [Set-cswebserviceconfiguration Lync Server 2013 でのアドレス帳管理のための新しい手順](lync-server-2013-New-CsWebServiceConfiguration-for-address-book-management.md)
 
-  - [Lync Server 2013 でのアドレス帳管理の CsWebServiceConfiguration](lync-server-2013-get-cswebserviceconfiguration-for-address-book-management.md)
+  - [Set-cswebserviceconfiguration Lync Server 2013 でのアドレス帳管理のための取得](lync-server-2013-get-cswebserviceconfiguration-for-address-book-management.md)
 
-  - [Lync Server 2013 でのアドレス帳管理用に CsWebServiceConfiguration を設定する](lync-server-2013-set-cswebserviceconfiguration-for-address-book-management.md)
+  - [Set-cswebserviceconfiguration Lync Server 2013 でのアドレス帳管理用の設定](lync-server-2013-set-cswebserviceconfiguration-for-address-book-management.md)
 
-  - [Lync Server 2013 でのアドレス帳管理用の CsWebServiceConfiguration の削除](lync-server-2013-remove-cswebserviceconfiguration-for-address-book-management.md)
+  - [Set-cswebserviceconfiguration Lync Server 2013 でのアドレス帳管理のための削除](lync-server-2013-remove-cswebserviceconfiguration-for-address-book-management.md)
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a>関連項目
+## <a name="related-sections"></a>関連するセクション
 
 </div>
 

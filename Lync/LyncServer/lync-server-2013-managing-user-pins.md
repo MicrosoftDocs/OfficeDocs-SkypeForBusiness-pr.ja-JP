@@ -12,16 +12,16 @@ ms:contentKeyID: 49733706
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 34c3603d7fa0dc3c5b2c1d40319bbf30c1d09b63
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c66cfd395f3fd48da401d4e6d72b37aae386e0d8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742177"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045559"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41742177"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-15_
+_**トピックの最終更新日:** 2012-10-15_
 
-Lync Server 2013 コントロールパネルの [**ユーザー** ] セクションからユーザーのダイヤルイン会議の pin を管理するには、次の手順を使用します。
+Lync Server 2013 コントロールパネルの [**ユーザー** ] セクションからユーザーのダイヤルイン会議の pin を管理するには、以下の手順を使用します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
   - [Lync Server 2013 でユーザーのダイヤルイン会議の PIN を設定する](lync-server-2013-set-a-user-s-dial-in-conferencing-pin.md)
 
-  - [Lync Server 2013 でユーザーの PIN 情報を表示する](lync-server-2013-view-user-pin-information.md)
+  - [Lync Server 2013 でユーザー PIN 情報を表示する](lync-server-2013-view-user-pin-information.md)
 
-  - [Lync Server 2013 でユーザー PIN をロックまたはロック解除する](lync-server-2013-lock-or-unlock-a-user-pin.md)
+  - [Lync Server 2013 でのユーザー PIN のロックまたはロック解除](lync-server-2013-lock-or-unlock-a-user-pin.md)
 
 </div>
 
@@ -56,7 +56,7 @@ Lync Server 2013 コントロールパネルの [**ユーザー** ] セクショ
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 でユーザーごとの PIN ポリシーを割り当てる](lync-server-2013-assign-a-per-user-pin-policy.md)  
+[Lync Server 2013 でユーザー単位の PIN ポリシーを割り当てる](lync-server-2013-assign-a-per-user-pin-policy.md)  
   
 
 </div>

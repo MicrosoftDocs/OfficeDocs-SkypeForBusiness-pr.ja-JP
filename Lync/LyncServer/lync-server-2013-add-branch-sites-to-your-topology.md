@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: トポロジへのブランチ サイトの追加'
+title: 'Lync Server 2013: トポロジへのブランチサイトの追加'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185216
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2df1871956b33b3781128e2b62af13bdd875d10b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9b03a612ba94733d52600af1db775e1bb0ef9b26
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735047"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037829"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="add-branch-sites-to-your-topology-in-lync-server-2013"></a>Lync Server 2013 でのトポロジへのブランチ サイトの追加
+# <a name="add-branch-sites-to-your-topology-in-lync-server-2013"></a>Lync Server 2013 でのトポロジへのブランチサイトの追加
 
 </div>
 
@@ -35,45 +35,45 @@ ms.locfileid: "41735047"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-05_
+_**トピックの最終更新日:** 2012-10-05_
 
-ブランチサイトは、WAN リンク経由でメインオフィスに接続されている物理的な支店を表します。 Lync トポロジにブランチサイトを追加するには、セントラルサイトで次の手順を実行します。
+ブランチ サイトとは、WAN リンクを経由して本社に接続されている物理的なブランチ オフィスのことを表します。ブランチ サイトを Lync トポロジに追加するには、中央サイトで次の手順を実行します。
 
 <div>
 
-## <a name="to-add-branch-sites-to-your-topology"></a>トポロジにブランチサイトを追加するには
+## <a name="to-add-branch-sites-to-your-topology"></a>トポロジにブランチ サイトを追加するには
 
-1.  [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server**]、[ **lync server Topology Builder**] の順にクリックします。
+1.  [**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server**]、[**Lync Server トポロジ ビルダー**] の順にクリックします。
 
-2.  コンソールツリーで、セントラルサイトを展開し、[**ブランチサイト**] を右クリックして、[**新しいブランチサイト**] をクリックします。
+2.  コンソール ツリーで中央サイトを展開し、[**ブランチ サイト**] を右クリックして、[**新しいブランチ サイト**] をクリックします。
 
-3.  [**新しい分岐サイトの定義**] ダイアログボックスで、[**名前**] をクリックし、ブランチサイトの名前を入力します。
+3.  [**新しいブランチ サイトの定義**] ダイアログ ボックスで、[**名前**] をクリックし、ブランチ サイトの名前を入力します。
 
-4.  省略[**説明**] をクリックし、ブランチサイトにわかりやすい説明を入力します。
+4.  (オプション) **[説明]** をクリックし、ブランチ サイトの分かりやすい説明を入力します。
 
-5.  [ **次へ**] をクリックします。
+5.  **[次へ]** をクリックします。
 
-6.  省略[次の**新しいブランチサイトの定義**] ダイアログボックスで、次のいずれかの操作を行います。
+6.  (オプション) 次の **[新しいブランチ サイトの定義]** ダイアログ ボックスで、以下のいずれかの操作を行います。
     
-      - [**市区町村**] をクリックし、ブランチサイトが配置されている都市の名前を入力します。
+      - **[市区町村]** をクリックし、ブランチ サイトが所在する市区町村の名前を入力します。
     
-      - [**状態/地域**] をクリックして、ブランチサイトが配置されている状態または地域の名前を入力します。
+      - **[都道府県/地域]** をクリックし、ブランチ サイトが所在する都道府県または地域の名前を入力します。
     
-      - [**国コード**] をクリックし、ブランチサイトが配置されている国/地域の2桁の通話コードを入力します。
+      - **[国番号]** をクリックし、ブランチ サイトが所在する国または地域の 2 桁番号を入力します。
 
-7.  [**次へ**] をクリックし、次のいずれかの操作を行います。
+7.  **[次へ]** をクリックし、次のいずれかを実行します。
     
-      - このサイトで Survivable Branch アプライアンスまたはサーバーを使用している場合は、[**このウィザードを閉じるときに新しい Survivable ウィザードを開く**] チェックボックスがオンになっていることを確認し、[**完了**] をクリックして、表示されたウィザードの指示に従います。 ウィザード項目の詳細について[は、「Lync Server 2013 で Survivable Branch Appliance または Server を定義する](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)」を参照してください。
+      - このサイトで存続可能ブランチアプライアンスまたはサーバーを使用している場合は、[**このウィザードを閉じるときに新しい存続可能ウィザードを開く**] チェックボックスがオンになっていることを確認し、[**完了**] をクリックして、表示されるウィザードの指示に従います。 ウィザード項目の詳細については、「 [Define a 存続可能 Branch Appliance Or Server In Lync server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)」を参照してください。
     
-      - このサイトで Survivable Branch アプライアンスまたはサーバーを使っていない場合は、[**このウィザードを終了するときに、新しい Survivable ウィザードを開く**] チェックボックスをオフにして、[**完了**] をクリックします。
+      - このサイトで存続可能ブランチ アプライアンスまたは存続可能ブランチ サーバーを使用していない場合は、**[このウィザードが閉じたら新しい存続可能ウィザードを開く]** チェック ボックスをオフにして、**[完了]** をクリックします。
 
-8.  トポロジに追加する各ブランチサイトについて、前の手順を繰り返します。
+8.  トポロジに追加する各ブランチ サイトに対して、前のステップを繰り返します。
 
-**次のステップ:**
+**次のステップ: **
 
-Survivable ブランチのアプライアンスまたはサーバーの場合: [Lync Server 2013 で Survivable Branch Appliance または Server を定義する](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)
+存続可能ブランチアプライアンスまたはサーバーの場合: [Lync Server 2013 での存続可能ブランチアプライアンスまたはサーバーの定義](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)
 
-回復不能な PSTN 接続の場合: [Lync server 2013 でブランチサイトの pstn ゲートウェイを定義](lync-server-2013-define-a-pstn-gateway-for-a-branch-site.md)する、lync server [2013 でメディアバイパスを使用してトランクを構成](lync-server-2013-configure-a-trunk-with-media-bypass.md)する、または[lync server 2013 でメディアをバイパスして構成](lync-server-2013-configure-a-trunk-without-media-bypass.md)する
+回復不能な PSTN 接続の場合: lync server [2013 のブランチサイト用の pstn ゲートウェイを定義](lync-server-2013-define-a-pstn-gateway-for-a-branch-site.md)するか、 [lync server 2013 でメディアバイパスを使用してトランクを構成](lync-server-2013-configure-a-trunk-with-media-bypass.md)するか、 [lync server 2013 でメディアバイパスを構成せずにトランクを構成](lync-server-2013-configure-a-trunk-without-media-bypass.md)する
 
 </div>
 

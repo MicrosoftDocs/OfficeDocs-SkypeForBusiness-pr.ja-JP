@@ -12,20 +12,20 @@ ms:contentKeyID: 60918604
 ms.date: 08/01/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1ca8675fea59c34ba5bf40269387e328f357fe88
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4f6c221b55cd8af2b4217b5aa1f287ae79b19d01
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737987"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038439"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="addressing-threats-to-your-core-infrastructure-for-lync-server-2013"></a>Lync Server 2013 向けのコアインフラストラクチャへの脅威への対応
+# <a name="addressing-threats-to-your-core-infrastructure-for-lync-server-2013"></a>Lync Server 2013 のコアインフラストラクチャに対する脅威への対応
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41737987"
 
 <span> </span>
 
-_**最終更新日:** 2016-08-01_
+_**トピックの最終更新日:** 2016-08-01_
 
-Microsoft Lync Server 2013 の展開に関するベストプラクティスに加えて、展開の特定の領域でのあらゆるニーズについてレビュー、理解、および対処することにより、セキュリティを確保することができます。
+Microsoft Lync Server 2013 の展開に関するベストプラクティスに従うことに加えて、展開の特定の領域におけるあらゆるニーズを見直し、理解し、それに対処することによって、セキュリティを確保することができます。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
   - [Lync Server 2013 のコアインフラストラクチャのベストプラクティス](lync-server-2013-best-practices-for-your-core-infrastructure.md)
 
   - [Lync Server 2013 のサーバーおよびアプリケーションの強化と保護](lync-server-2013-hardening-and-protecting-servers-and-applications.md)
 
-  - [Lync Server 2013 用のウイルス スキャン除外範囲](lync-server-2013-antivirus-scanning-exclusions.md)
+  - [Lync Server 2013 のウイルススキャン除外](lync-server-2013-antivirus-scanning-exclusions.md)
 
-  - [Lync Server 2013 での転送中のデータの保護 (アーカイブ データベース、監視データベース、グループ チャット コンプライアンス サーバー データベース)](lync-server-2013-protecting-data-in-transit-–-archiving-monitoring-group-chat-compliance-server-databases.md)
+  - [Lync Server 2013 で転送中のデータの保護 (アーカイブ、監視、グループチャットコンプライアンスサーバーデータベース)](lync-server-2013-protecting-data-in-transit-–-archiving-monitoring-group-chat-compliance-server-databases.md)
 
-  - [Lync Server 2013 での未承諾 IM の削減](lync-server-2013-reducing-unsolicited-im.md)
+  - [Lync Server 2013 の未承諾 IM の削減](lync-server-2013-reducing-unsolicited-im.md)
 
   - [Lync Server 2013 での IIS の保護](lync-server-2013-protecting-iis.md)
 
-  - [Lync Server 2013 の Windows 更新プログラム](lync-server-2013-windows-update-for-lync-server.md)
+  - [Lync Server 2013 の Windows Update](lync-server-2013-windows-update-for-lync-server.md)
 
 </div>
 

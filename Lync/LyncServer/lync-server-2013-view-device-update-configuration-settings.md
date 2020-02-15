@@ -12,20 +12,20 @@ ms:contentKeyID: 51803970
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 01edeb2d40fae7b82ac35fb5561a1332f67c9e11
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7cf34d5f8241735263547fe64dc0f3e3b124bb10
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731097"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051059"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-device-update-configuration-settings-in-lync-server-2013"></a>Lync Server 2013 でのデバイス更新構成設定の表示
+# <a name="view-device-update-configuration-settings-in-lync-server-2013"></a>Lync Server 2013 でのデバイス更新の構成設定の表示
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41731097"
 
 _**トピックの最終更新日:** 2013-02-20_
 
-Lync Server 管理シェルと、Windows PowerShell のリモートセッションから2013実行できる、 **CsDeviceUpdateConfiguration**コマンドレットを使用して、デバイス更新サービスの構成設定を表示できます (複数可)。
+Lync server 管理シェルと、Windows PowerShell のリモートセッションから2013実行できる Lync Server 管理シェルおよび**get-help**コマンドレットを使用して、デバイス更新サービスの構成設定を表示することができます。
 
 <div>
 
@@ -55,7 +55,7 @@ Lync Server 管理シェルと、Windows PowerShell のリモートセッショ�
 <div>
 
 
-  - すべての音声ルートに関する情報を表示するには、Lync Server 管理シェルで次のコマンドを入力し、enter キーを押します。
+  - すべての音声ルートに関する情報を表示するには、Lync Server 管理シェルで次のコマンドを入力し、Enter キーを押します。
     
         Get-CsDeviceUpdateConfiguration
     
@@ -72,7 +72,7 @@ Lync Server 管理シェルと、Windows PowerShell のリモートセッショ�
 
 </div>
 
-このコマンドレットの詳細については、「 [CsDeviceUpdateConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsDeviceUpdateConfiguration)概要」のヘルプトピックを参照してください。
+このコマンドレットの詳細については、「 [get-help](https://docs.microsoft.com/powershell/module/skype/Get-CsDeviceUpdateConfiguration)」のヘルプトピックを参照してください。
 
 </div>
 

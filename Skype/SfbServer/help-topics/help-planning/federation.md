@@ -1,5 +1,5 @@
 ---
-title: Federation (Planning Tool)
+title: フェデレーション (計画ツール)
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -15,24 +15,24 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
-description: エッジサーバーを構成して、内部と外部のユーザーがパートナーの組織またはサービスの連絡先にアクセスできるようにすることができます。
-ms.openlocfilehash: d3f2157fd418938c5df888d4fdc1ddb743ac163e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: エッジサーバーは、内部および外部ユーザーがパートナー組織またはサービスの連絡先にアクセスできるように構成できます。
+ms.openlocfilehash: a5af6c614e06539bc363982cbd329a40e641fd97
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821459"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038159"
 ---
-# <a name="federation-planning-tool"></a>Federation (Planning Tool)
+# <a name="federation-planning-tool"></a>フェデレーション (計画ツール)
  
-エッジサーバーを構成して、内部と外部のユーザーがパートナーの組織またはサービスの連絡先にアクセスできるようにすることができます。
+エッジサーバーは、内部および外部ユーザーがパートナー組織またはサービスの連絡先にアクセスできるように構成できます。
   
- フェデレーションは、Microsoft Lync 2013 の場合と同様に動作します。 フェデレーション用の環境を準備する方法については、以下のトピックを参照してください。
+ フェデレーションは Microsoft Lync 2013 の場合と同じように動作します。 フェデレーションのための環境の準備の詳細については、以下のトピックを参照してください。
   
-- [Lync Server 2013 と Office Communications Server フェデレーションの計画](https://technet.microsoft.com/en-us/library/jj205335%28v=ocs.15%29.aspx)
+- [Lync Server 2013 および Office Communications Server のフェデレーションの計画](https://technet.microsoft.com/library/jj205335%28v=ocs.15%29.aspx)
     
-- [Lync Server 2013 でのパブリックインスタントメッセージング接続の計画](https://technet.microsoft.com/en-us/library/jj205349%28v=ocs.15%29.aspx)
+- [Lync Server 2013 でのパブリックインスタントメッセージング接続の計画](https://technet.microsoft.com/library/jj205349%28v=ocs.15%29.aspx)
     
-- [Lync Server 2013 での拡張メッセージングとプレゼンスプロトコル (XMPP) フェデレーションの計画](https://technet.microsoft.com/en-us/library/jj205107%28v=ocs.15%29.aspx)
+- [Lync Server 2013 での拡張メッセージングおよびプレゼンスプロトコル (XMPP) フェデレーションの計画](https://technet.microsoft.com/library/jj205107%28v=ocs.15%29.aspx)
     
 

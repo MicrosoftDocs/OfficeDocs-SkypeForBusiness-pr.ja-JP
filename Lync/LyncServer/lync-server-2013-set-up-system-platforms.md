@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: システム プラットフォームを設定する'
+title: 'Lync Server 2013: システムプラットフォームのセットアップ'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183756
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6bb714cf9da27e968a4e02e8d822ab8e597f654d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: eda0cebf15cb1d575978eb0984dc7d9b5a53a30f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732225"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045709"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="set-up-system-platforms-in-lync-server-2013"></a>Lync Server 2013 でシステム プラットフォームを設定する
+# <a name="set-up-system-platforms-in-lync-server-2013"></a>Lync Server 2013 でのシステムプラットフォームのセットアップ
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41732225"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-21_
+_**トピックの最終更新日:** 2013-02-21_
 
-常設チャットサーバーの展開を開始する前に、サーバー上のシステム要件を満たすハードウェアに必要なオペレーティングシステムをインストールする必要があります。
+常設チャットサーバーの展開を開始する前に、サーバーのシステム要件を満たすハードウェアに、必要なオペレーティングシステムをインストールする必要があります。
 
-Lync Server 2013、データベースサーバー、およびファイルサーバーを実行しているサーバーでサポートされているハードウェアの詳細については、サポートされているドキュメントで「 [Lync server 2013 でサポートされているハードウェア](lync-server-2013-supported-hardware.md)」を参照してください。 サポートされているオペレーティングシステムとデータベースソフトウェアの詳細については、サポートドキュメントの「 [Lync server 2013 でのサーバーソフトウェアとインフラストラクチャのサポート](lync-server-2013-server-software-and-infrastructure-support.md)」を参照してください。 Windows の更新の要件の詳細については、サポートドキュメントの「 [Lync server 2013 のその他のサーバーのサポートと要件](lync-server-2013-additional-server-support-and-requirements.md)」を参照してください。
+Lync Server 2013、データベースサーバー、およびファイルサーバーを実行しているサーバーでサポートされているハードウェアの詳細については、「サポート」のドキュメントの「supported [hardware For Lync Server 2013](lync-server-2013-supported-hardware.md) 」を参照してください。 サポートされているオペレーティングシステムとデータベースソフトウェアの詳細については、「サポート」のドキュメントの「 [server software and infrastructure support In Lync Server 2013](lync-server-2013-server-software-and-infrastructure-support.md) 」を参照してください。 Windows 更新の要件の詳細については、「サポート」のドキュメントの「 [Lync server 2013 の追加サーバーサポートと要件](lync-server-2013-additional-server-support-and-requirements.md)」を参照してください。
 
-常設チャットサーバーのフロントエンドサーバーである**PersistentChatService**は、Lync Server 2013 Enterprise Edition プールの1つ以上のスタンドアロンコンピューターに展開することができます。 Lync Server Enterprise Edition のフロントエンドサーバーには、それらを併置することはできません。 常設チャットサーバーは、他の Lync Server の役割と同じように、ブートストラップによって展開できます。 **ファイルのアップロード/ダウンロード用の常設チャット Web サービス**と**チャットルーム管理用の常設チャット web サービス**は、Lync Server 2013 フロントエンドサーバーに展開されている web コンポーネントです。
+常設チャットサーバーのフロントエンドサーバー **PersistentChatService**は、Lync Server 2013 Enterprise Edition プール内の1台以上のスタンドアロンコンピューターに展開できます。 Lync Server Enterprise Edition フロントエンドサーバーに併置することはできません。 常設チャットサーバーは、他の Lync Server の役割と同様に、ブートストラップによって展開できます。 **ファイルのアップロード/ダウンロード用の常設チャット Web サービス**、および**チャットルーム管理用の常設チャット web**サービスは、Lync Server 2013 フロントエンドサーバーに展開される web コンポーネントです。
 
-1つの常設チャットサーバーフロントエンドサーバーは、2万アクティブユーザーをサポートできます。 最大4つのアクティブなフロントエンドの常設チャットサーバープールで、合計8万人の同時ユーザーをサポートすることができます。 常設チャットバックエンドサーバー **PersistentChatStore**は、チャットルームとカテゴリを保存します。 **PersistentChatStore**は、Enterprise Edition プールの専用 SQL Server バックエンドサーバーにインストールすることをお勧めします。ただし、同じ SQL Server インスタンス上での Lync Server 2013 バックエンドサーバーと**PersistentChatStore**の検索はサポートされています。
+1台の常設チャットサーバーフロントエンドサーバーでは、2万アクティブユーザーをサポートできます。 最大4つのアクティブなフロントエンドを持つ常設チャットサーバープールを使用して、合計8万の同時ユーザーをサポートすることができます。 常設チャットのバックエンドサーバー **PersistentChatStore**は、チャットルームとカテゴリを格納します。 **PersistentChatStore**は、Enterprise Edition プールの専用の SQL Server バックエンドサーバーにインストールすることをお勧めします。Lync Server 2013 バックエンドサーバーと**PersistentChatStore**を同じ SQL Server インスタンスに併置するのは、併置をサポートするものです。
 
-組織でコンプライアンスのサポートが必要な場合は、トポロジビルダーを使用してインストールできます。 常設チャット Server コンプライアンスサービスは、常設チャットサーバーフロントエンドサーバーと同じコンピューターにインストールされています。 コンプライアンスには、別のデータベースが必要です。 常設チャットサーバーのコンプライアンス要件の詳細については、計画ドキュメントの「 [Lync server 2013 での常設チャットサーバーの計画](lync-server-2013-planning-for-persistent-chat-server.md)」を参照してください。
+組織でコンプライアンスのサポートが必要な場合は、トポロジビルダーを使用してインストールできます。 常設チャットサーバーのコンプライアンスサービスは、常設チャットサーバーのフロントエンドサーバーと同じコンピューターにインストールされます。 コンプライアンスには別のデータベースが必要です。 常設チャットサーバーのコンプライアンス要件の詳細については、「計画」のドキュメントの「 [Lync server 2013 での常設チャットサーバーの計画](lync-server-2013-planning-for-persistent-chat-server.md)」を参照してください。
 
-少なくとも、各トポロジには、Lync Server 2013 がインストールされているサーバーと SQL Server データベースソフトウェアがインストールされたサーバーが必要です。 Topology Builder は、複数の常設チャットサーバープールをサポートしています。 展開ドキュメントに[Lync Server 2013 を展開](lync-server-2013-deploying-lync-server.md)する場合と同様に、複数の常設チャットサーバープールを展開する場合と同じ展開手順に従います。
+少なくとも、各トポロジには、Lync Server 2013 がインストールされたサーバーと SQL Server データベースソフトウェアがインストールされたサーバーが必要です。 トポロジビルダーは、複数の常設チャットサーバープールをサポートしています。 展開のドキュメントで[Lync Server 2013](lync-server-2013-deploying-lync-server.md)を展開する場合と同じように、複数の常設チャットサーバープールを展開する場合と同じ展開手順に従います。
 
-また、Lync Server 2013 Standard Edition で常設チャットサーバーを展開することもできます。 この場合、 **PersistentChatService**フロントエンドサーバーは Standard Edition サーバー上に配置されているため、 **PersistentChatStore**バックエンドサーバーをローカルの SQL Server Express インスタンスに展開することができます。
+また、Lync Server 2013 Standard Edition を使用して常設チャットサーバーを展開することもできます。 この場合、 **PersistentChatService**フロントエンドサーバーは Standard Edition サーバーに併置されており、ローカルの SQL Server Express インスタンスに**PersistentChatStore**バックエンドサーバーを展開することができます。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 高可用性を実現する常設 Chat&nbsp;Server 標準エディションはサポートされていません。 パフォーマンスとスケールは制限されます。 さらに、新しい常設チャット Server&nbsp;Standard Edition server の展開のみをサポートしています。 Lync server 2010、グループチャットサーバーを Lync Server 2013&nbsp;常設 Chat Server&nbsp;Standard Edition にアップグレードすることはサポートされていません。
+> 高可用性のために常設チャット&nbsp;サーバー Standard Edition はサポートしていません。 パフォーマンスとスケーラビリティ には制限があります。 さらに、新しい常設チャットサーバー&nbsp;Standard Edition サーバーの展開のみをサポートしています。 Lync server 2013&nbsp;常設チャットサーバー&nbsp;Standard Edition への lync server 2010 のアップグレードはサポートされていません。
 
 
 
@@ -66,13 +66,13 @@ Lync Server 2013、データベースサーバー、およびファイルサー�
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 の追加サーバー サポートおよび要件](lync-server-2013-additional-server-support-and-requirements.md)  
+[Lync Server 2013 におけるその他のサーバーのサポートおよび要件](lync-server-2013-additional-server-support-and-requirements.md)  
 
 
-[Lync Server 2013 でサポートされるハードウェア](lync-server-2013-supported-hardware.md)  
-[Lync Server 2013 でのサーバーのソフトウェアおよびインフラストラクチャ サポート](lync-server-2013-server-software-and-infrastructure-support.md)  
-[Lync Server 2013 での常設チャット サーバーの計画](lync-server-2013-planning-for-persistent-chat-server.md)  
-[Lync Server 2013 の展開](lync-server-2013-deploying-lync-server.md)  
+[Lync Server 2013 でサポートされているハードウェア](lync-server-2013-supported-hardware.md)  
+[Lync Server 2013 でのサーバーソフトウェアとインフラストラクチャのサポート](lync-server-2013-server-software-and-infrastructure-support.md)  
+[Lync Server 2013 での常設チャットサーバーの計画](lync-server-2013-planning-for-persistent-chat-server.md)  
+[Lync Server 2013 の展開 ](lync-server-2013-deploying-lync-server.md)  
   
 
 </div>

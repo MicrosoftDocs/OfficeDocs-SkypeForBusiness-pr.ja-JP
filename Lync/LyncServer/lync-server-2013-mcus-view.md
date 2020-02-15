@@ -12,16 +12,16 @@ ms:contentKeyID: 49733725
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de9fa28ca10e1b9971875980cc0f3c96b6359ccb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8fe983f12dd01c9cb46b27fdb5dffc3cd41c6671
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765678"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045299"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41765678"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-01_
+_**トピックの最終更新日:** 2012-10-01_
 
-Mcu ビューには、会議セッションに参加した Mcu に関する情報が格納されます。 このビューは、Microsoft Lync Server 2013 で導入されました。
+Mcus ビューには、電話会議セッションに参加した MCU に関する情報が格納されます。 このビューは Microsoft Lync Server 2013 で導入されました。
 
 
 <table>
@@ -65,8 +65,8 @@ Mcu ビューには、会議セッションに参加した Mcu に関する情�
 <td><p>MCU の URI。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>McuUriType</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p><strong>Mcuuritoff</strong></p></td>
+<td><p>nvarchar (256)</p></td>
 <td><p>MCU URI の種類。 詳細については、「 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 の UriTypes テーブル</a>」を参照してください。</p></td>
 </tr>
 </tbody>

@@ -12,20 +12,20 @@ ms:contentKeyID: 48183382
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8a3e64dcfd16212e618a8ebe152bd2516a25b26d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 18b1313432cac09f03cd414b90d9a068f271edef
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727497"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041206"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="wildcard-certificate-support-in-lync-server-2013"></a>Lync Server 2013 のワイルドカード証明書のサポート
+# <a name="wildcard-certificate-support-in-lync-server-2013"></a>Lync Server 2013 でのワイルドカード証明書のサポート
 
 </div>
 
@@ -35,48 +35,48 @@ ms.locfileid: "41727497"
 
 <span> </span>
 
-_**最終更新日:** 2013-03-21_
+_**トピックの最終更新日:** 2013-03-21_
 
-Lync Server 2013 は、証明書を使って通信の暗号化とサーバー id 認証を提供します。 リバースプロキシ経由の web 公開など、サービスを提供するサーバーの完全修飾ドメイン名 (FQDN) に一致する厳密なサブジェクト代替名 (SAN) エントリは必須ではありません。 このような場合は、ワイルドカード SAN エントリ (一般的には "ワイルドカード証明書" と呼ばれます) の証明書を使用して、公共の証明機関から要求された証明書のコストを削減し、証明書の計画プロセスの複雑さを軽減することができます。.
+Lync Server 2013 は、証明書を使用して通信の暗号化とサーバー id 認証を提供します。 リーバース プロキシ経由の Web 公開など、状況によっては、サービスを提供するサーバーの完全修飾ドメイン名 (FQDN) と一致する厳密なサブジェクトの別名 (SAN) エントリが不要な場合もあります。 そのような場合には、ワイルドカード SAN エントリが含まれる証明書 (一般に "ワイルドカード証明書" といいます) を使用でき、それによって、公的証明機関から請求される証明書コストを削減し、証明書の計画プロセスの複雑さを緩和できます。
 
 <div>
 
 
 > [!WARNING]  
-> 統合通信 (UC) デバイス (卓上電話など) の機能を維持するには、展開された証明書を慎重にテストして、ワイルドカード証明書の実装後にデバイスが正常に機能することを確認します。
+> 統合コミュニケーション (UC) デバイス (電話など) の機能を保持するには、展開された証明書を十分にテストして、ワイルカード証明書を実装した後もデバイスが正しく動作することを確認してください。
 
 
 
 </div>
 
-ワイルドカードエントリは、どのロールのサブジェクト名 (共通名または CN とも呼ばれます) としてはサポートされません。 SAN でワイルドカードエントリを使用する場合、次のサーバーの役割がサポートされます。
+サブジェクト名 (共通名 (CN) ともいいます) としてのワイルドカード エントリは、どの役割でもサポートされません。SAN のワイルドカード エントリ使用は、次のサーバーの役割でサポートされます。
 
   - <span></span>  
-    **リバースプロキシ。**   簡単な URL (会議とダイヤルイン) の発行証明書については、ワイルドカード SAN エントリがサポートされています。
+    **リバースプロキシ。**   簡単な URL (会議とダイヤルイン) 発行証明書では、ワイルドカード SAN エントリがサポートされています。
 
   - <span></span>  
-    **リバースプロキシ。**   発行証明書の LYNCDISCOVER の san エントリで、ワイルドカード san エントリがサポートされています。
+    **リバースプロキシ。**   発行証明書の LYNCDISCOVER の san エントリでは、ワイルドカード san エントリがサポートされています。
 
   - <span></span>  
-    **監督。**   簡単な url (会議とダイヤルイン) でのワイルドカードによる san エントリ、およびディレクター web コンポーネントの LyncDiscover と LYNCDISCOVERINTERNAL の san エントリがサポートされています。
+    **ディレクター。**   シンプルな url (会議とダイヤルイン)、およびディレクター web コンポーネントの LyncDiscover および LYNCDISCOVERINTERNAL の san エントリに対して、ワイルドカード SAN エントリがサポートされています。
 
   - <span></span>  
-    **フロントエンドサーバー (Standard Edition) とフロントエンドプール (Enterprise Edition)。** ワイルドカード SAN エントリは、単純な Url (会議とダイヤルイン) でサポートされています。また、フロントエンド web コンポーネントの LyncDiscover と LyncDiscoverInternal の SAN エントリに対応しています。
+    **フロントエンドサーバー (Standard Edition) およびフロントエンドプール (Enterprise Edition)。** 簡単な Url (会議とダイヤルイン)、およびフロントエンド web コンポーネントの LyncDiscover および LyncDiscoverInternal の SAN エントリに対して、ワイルドカード SAN エントリがサポートされています。
 
   - <span></span>  
-    **Exchange ユニファイドメッセージング (UM)。**   サーバーでは、スタンドアロンサーバーとして展開する場合、SAN エントリは使用されません。
+    **Exchange ユニファイドメッセージング (UM)。**   スタンドアロンサーバーとして展開されている場合、サーバーは SAN エントリを使用しません。
 
   - <span></span>  
-    **Microsoft Exchange Server クライアントアクセスサーバー。**   SAN のワイルドカードエントリは、内部と外部のクライアントでサポートされています。
+    **Microsoft Exchange Server クライアントアクセスサーバー。**   SAN のワイルドカードエントリは、内部クライアントと外部クライアントでサポートされています。
 
   - <span></span>  
     **同じサーバー上の exchange ユニファイドメッセージング (UM) と Microsoft Exchange Server クライアントアクセスサーバー。**   ワイルドカード SAN エントリがサポートされています。
 
-このトピックでは対処できないサーバーの役割:
+次のサーバーの役割は、このトピックの対象外です。
 
-  - 内部サーバーの役割 (仲介サーバー、アーカイブおよび監視サーバー、Survivable Branch Appliance、または Survivable ブランチサーバーなどに限定されない)
+  - 内部サーバーの役割 (仲介サーバー、アーカイブおよび監視サーバー、存続可能ブランチアプライアンス、または存続可能ブランチサーバーに制限はありません)
 
-  - 外部エッジサーバーインターフェイス
+  - 外部エッジサーバーのインターフェイス
 
   - 内部エッジサーバー
     
@@ -84,28 +84,28 @@ Lync Server 2013 は、証明書を使って通信の暗号化とサーバー id
     
 
     > [!NOTE]  
-    > 内部エッジサーバーインターフェイスの場合、ワイルドカードエントリは SAN に割り当てることができ、サポートされています。 内部エッジサーバー上の SAN は照会されず、ワイルドカード SAN エントリの値が制限されます。
+    > 内部エッジサーバーインターフェイスでは、ワイルドカードエントリを SAN に割り当てることができ、サポートされています。 内部エッジサーバー上の SAN はクエリされず、ワイルドカード SAN エントリの値が制限されます。
 
     
     </div>
 
-証明書でのワイルドカードの使用など、証明書の構成の詳細については、次のトピックを参照してください。
+証明書にワイルドカードを使用するなど、証明書の構成の詳細については、以下のトピックを参照してください。
 
-  - [Lync Server 2013 の内部サーバーに対する証明書要件](lync-server-2013-certificate-requirements-for-internal-servers.md)
+  - [Lync Server 2013 の内部サーバーの証明書要件](lync-server-2013-certificate-requirements-for-internal-servers.md)
 
-  - [Lync Server 2013 における外部ユーザー アクセスに対する証明書要件](lync-server-2013-certificate-requirements-for-external-user-access.md)
+  - [Lync Server 2013 での外部ユーザーアクセスの証明書要件](lync-server-2013-certificate-requirements-for-external-user-access.md)
 
-  - [証明書の概要 - Lync Server 2013 の DNS および HLB による負荷分散](lync-server-2013-certificate-summary-dns-and-hlb-load-balanced.md)
+  - [証明書の概要-Lync Server 2013 での DNS および HLB の負荷分散](lync-server-2013-certificate-summary-dns-and-hlb-load-balanced.md)
 
-  - [証明書の概要 - Lync Server 2013 の単一ディレクター](lync-server-2013-certificate-summary-single-director.md)
+  - [証明書の概要-Lync Server 2013 の単一ディレクター](lync-server-2013-certificate-summary-single-director.md)
 
-  - [証明書の概要 - Lync Server 2013 の拡張ディレクター プール、ハードウェア ロード バランサー](lync-server-2013-certificate-summary-scaled-director-pool-hardware-load-balancer.md)
+  - [証明書の概要-Lync Server 2013 の拡張ディレクタープール、ハードウェアロードバランサー](lync-server-2013-certificate-summary-scaled-director-pool-hardware-load-balancer.md)
 
-  - [証明書の概要 - Lync Server 2013 リバース プロキシ](lync-server-2013-certificate-summary-reverse-proxy.md)
+  - [証明書の概要-Lync Server 2013 のリバースプロキシ](lync-server-2013-certificate-summary-reverse-proxy.md)
 
-  - [内部設置型ユニファイド メッセージングおよび Lync Server 2013 を統合するためのガイドライン](lync-server-2013-guidelines-for-integrating-on-premises-unified-messaging.md)
+  - [オンプレミスのユニファイドメッセージングと Lync Server 2013 を統合するためのガイドライン](lync-server-2013-guidelines-for-integrating-on-premises-unified-messaging.md)
 
-ワイルドカードの使用など、Exchange 用の証明書の構成の詳細については、「Exchange 2013 の製品ドキュメント」を参照してください。
+ワイルドカードの使用を含む、Exchange 用の証明書の構成の詳細については、「Exchange 2013 製品のドキュメント」を参照してください。
 
 </div>
 

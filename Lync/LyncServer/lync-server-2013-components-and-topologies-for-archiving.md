@@ -12,20 +12,20 @@ ms:contentKeyID: 48184213
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b3ccb77d8d2d0b7bd7d4d564087a69b7605863fe
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a762219ef6cbecab47dcaeda313ff49dba51ed0b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742727"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045599"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="components-and-topologies-for-archiving-in-lync-server-2013"></a>Lync Server 2013 のアーカイブ用のコンポーネントとトポロジ
+# <a name="components-and-topologies-for-archiving-in-lync-server-2013"></a>Lync Server 2013 でのアーカイブ用のコンポーネントとトポロジ
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41742727"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-09_
+_**トピックの最終更新日:** 2012-10-09_
 
-Lync Server 2013 IM と会議のコンテンツをアーカイブする場合は、Lync Server でアーカイブを実装できます。
+Lync Server 2013 IM および会議コンテンツをアーカイブする場合は、Lync Server でのアーカイブを実装できます。
 
 <div>
 
-## <a name="archiving-components"></a>アーカイブコンポーネント
+## <a name="archiving-components"></a>アーカイブ コンポーネント
 
-アーカイブ機能には、次のコンポーネントが含まれています。
+アーカイブ機能には次のコンポーネントが含まれています。
 
-  - **アーカイブ エージェント**。 アーカイブエージェント (統合データ収集エージェントとも呼ばれます) は、すべてのフロントエンドプールおよび標準エディションのサーバーに自動的にインストールされ、ライセンス認証されます。 アーカイブエージェントは自動的に有効になりますが、アーカイブが有効になって適切に構成されるまで、実際にはメッセージはキャプチャされません。
+  - **アーカイブ エージェント:** 統合データ収集エージェントとも呼ばれます。すべてのフロントエンド プールと Standard Edition サーバーに自動的にインストールされ、アクティブ化されます。アーカイブ エージェントは自動的にアクティブ化されますが、アーカイブを有効にし、適切に構成するまで、実際にはメッセージは取得されません。
 
-  - **データストレージのアーカイブ**。 Lync Server 2013 用のデータストレージは、次のいずれかにすることができます。
+  - **アーカイブデータストレージ**。 Lync Server 2013 のデータ記憶域には、次のいずれかを指定できます。
     
-      - Exchange 2013 ストレージ。 Microsoft Exchange 統合オプションを有効にした場合、Exchange 2013 サーバー上にあるユーザーのメールボックスでは、アーカイブデータに Exchange 2013 ストレージが使用されます。ただし、メールボックスがインプレースホールドに配置されている場合のみです。
+      - Exchange 2013 ストレージ。 Microsoft Exchange 統合オプションを有効にした場合、Exchange 2013 サーバーに所属するユーザーメールボックスは、アーカイブされたデータに Exchange 2013 ストレージを使用します。ただし、メールボックスがインプレース保持の対象になっている場合に限ります。
     
-      - SQL Server ストレージ。 組織内のユーザーが Lync Server 2013 を使っている場合は、サポートされているバージョンの SQL Server を実行するアーカイブデータベースをセットアップして、それらのユーザーのアーカイブを有効にすることができます。
+      - SQL Server ストレージ。 Lync Server 2013 に所属している展開にユーザーがいる場合、サポートされているバージョンの SQL Server を実行するアーカイブデータベースをセットアップして、それらのユーザーのアーカイブを有効にすることができます。
 
-アーカイブにもファイルストレージが必要ですが、アーカイブでは、フロントエンドサーバーまたは Standard Edition サーバーと同じファイルストレージが使用されます。
+アーカイブにはファイル記憶域 ストレージも必要ですが、アーカイブはフロントエンド サーバーまたは Standard Edition サーバーと同じファイル ストレージを使用します。
 
-アーカイブのためのハードウェアとソフトウェアの要件の一覧については、[サポートされているハードウェア (Lync server 2013](lync-server-2013-supported-hardware.md)および[サーバーソフトウェアおよびサーバーソフトウェアと](lync-server-2013-server-software-and-infrastructure-support.md)、サポートされているドキュメントの「サーバーソフトウェアとインフラストラクチャの2013サポート)」を参照してください。
+アーカイブのハードウェアとソフトウェアの要件の一覧については、「サポート」のドキュメントの「lync server [2013 の場合はサポートされるハードウェア](lync-server-2013-supported-hardware.md)」および「 [lync Server 2013 のサーバーソフトウェアとインフラストラクチャのサポート](lync-server-2013-server-software-and-infrastructure-support.md)」を参照してください。
 
 </div>
 
@@ -63,25 +63,25 @@ Lync Server 2013 IM と会議のコンテンツをアーカイブする場合は
 
 ## <a name="supported-topologies"></a>サポートされるトポロジ
 
-アーカイブサポートが必要なユーザーがいる各プールにアーカイブを展開します。 アーカイブは、Enterprise Edition プールのフロントエンドサーバーと Standard Edition サーバー上で実行されます。 データ記憶域のアーカイブは、次のようになります。
+アーカイブのサポートを必要とするユーザーを持つ各プールでアーカイブを展開します。 アーカイブは、Enterprise Edition プールおよび Standard Edition サーバーのフロントエンドサーバー上で実行されます。 アーカイブ データ ストレージでは以下が可能です。
 
   - Exchange 2013 ストレージとの統合
 
-  - 個別の SQL Server データベースを使用して展開する
+  - 個別の SQL Server データベースを使用して展開されている
 
-使用している Exchange 2013 の展開に Lync Server の展開におけるすべてのユーザーが含まれていない場合は、Exchange 2013 サーバー上のメールボックスを使用しているユーザーには Microsoft Exchange 統合を使用する必要があります。また、その他の場合は、別の SQL Server データベースを展開する必要があります。アーカイブに使用する Lync ユーザー。
+Exchange 2013 の展開に Lync Server 展開のすべてのユーザーが含まれていない場合は、Exchange 2013 サーバー上のメールボックスがホームになっているユーザーに対して Microsoft Exchange 統合を使用する必要があります。また、他のすべてのデータベースに対して個別の SQL Server データベースを展開する必要があります。アーカイブに使用する Lync ユーザー。
 
 </div>
 
 <div>
 
-## <a name="supported-collocation"></a>サポートされている Collocation
+## <a name="supported-collocation"></a>サポートされる配置
 
-Lync Server 2013 は、さまざまな collocation シナリオをサポートしており、1台のサーバーに複数のコンポーネントを実行して (小規模組織の場合)、または異なるサーバーで個別のコンポーネントを実行することにより、ハードウェアコストを節約することができます (サイズが多い場合)。スケーラビリティとパフォーマンスが必要な組織。 コンポーネントを検索するかどうかを決定する前に、スケーラビリティの要因を考慮する必要があります。
+Lync Server 2013 はさまざまな併置シナリオをサポートしており、1台のサーバーで複数のコンポーネントを実行することによって (小規模な組織の場合)、または別々のサーバーで個別のコンポーネントを実行することによって、ハードウェアコストを節約できます (より大きなスケーラビリティとパフォーマンスを必要とする組織。 コンポーネントを併置するかどうかを決定する前に、スケーラビリティの要因を必ず検討する必要があります。
 
-アーカイブは、プールまたは Standard Edition サーバーのフロントエンドサーバーに展開されます。 併置できるコンポーネントの詳細については、サポート対象ドキュメントの「 [Lync server 2013 でサポートされているサーバーの場所](lync-server-2013-supported-server-collocation.md)」を参照してください。
+アーカイブは、プールまたは Standard Edition サーバーのフロントエンドサーバーに展開されます。 そこに併置できるコンポーネントの詳細については、「サポート」のドキュメントの「supported [server 併置 in Lync server 2013](lync-server-2013-supported-server-collocation.md) 」を参照してください。
 
-アーカイブ用に別の SQL Server データベースを使用している場合、またはストレージを Exchange 2013 ストレージと統合するのではなく、次のいずれかでアーカイブデータベースを検索することができます。
+ストレージを Exchange 2013 ストレージと統合するのではなく、アーカイブに個別の SQL Server データベースを使用する場合は、アーカイブデータベースを次のいずれかの場所で併置できます。
 
   - 監視データベース
 
@@ -97,11 +97,11 @@ Lync Server 2013 は、さまざまな collocation シナリオをサポート�
 
 </div>
 
-監視データベース、バックエンドデータベース、またはこれら両方のデータベースの両方でアーカイブデータベースを検索する場合は、データベースのいずれかまたはすべてに1つの SQL インスタンスを使用するか、データベースごとに個別の SQL インスタンスを使用することができます。次のような方法があります。限度
+アーカイブ データベースを、監視データベースとバックエンド データベースのどちらか一方または両方と併置する場合は、一部のデータベースまたはすべてのデータベースに対して 1 つの SQL インスタンスを使用することも、各データベースに個別の SQL インスタンスを使用することもできます。ただし、次のような制限があります。
 
-  - 各 SQL インスタンスには、1つのバックエンドデータベース、単一の監視データベース、単一のアーカイブデータベースのみを含めることができます。
+  - 各 SQL インスタンスは、単一のバックエンド データベース、単一の監視データベース、および単一のアーカイブ データベースのみを含むことができます。
 
-すべてのサーバーの役割とデータベースの collocation の詳細については、サポートドキュメントの「 [Lync server 2013 でサポートされているサーバーの場所](lync-server-2013-supported-server-collocation.md)」を参照してください。
+すべてのサーバーの役割およびデータベースの併置の詳細については、「サポート」のドキュメントの「supported [server 併置 in Lync server 2013](lync-server-2013-supported-server-collocation.md) 」を参照してください。
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: (オプション) 応答グループの休日セットを定義する'
+title: 'Lync Server 2013: (オプション) 応答グループの休日セットの定義'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733657
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e6751a5f5915e73d181efba40976640c65e0909
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 615b76657b8a7045c99d17f523aa73b0ee79a807
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755761"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051169"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="optional-define-response-group-holiday-sets-in-lync-server-2013"></a>省略Lync Server 2013 で回答グループの休日セットを定義する
+# <a name="optional-define-response-group-holiday-sets-in-lync-server-2013"></a>オプションLync Server 2013 で応答グループの休日セットを定義する
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41755761"
 
 <span> </span>
 
-_**最終更新日:** 2014-02-07_
+_**トピックの最終更新日:** 2014-02-07_
 
 休日設定では、応答グループが営業しない日を定義し、その日に実行するアクションを指定します。休日セットは、応答グループに適用する休日のコレクションです。
 
@@ -55,13 +55,13 @@ _**最終更新日:** 2014-02-07_
 
 1.  RTCUniversalServerAdmins グループのメンバーまたは応答グループをサポートする定義済みの管理者の役割のいずれかのメンバーとしてログオンします。
 
-2.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+2.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
-3.  定義する休日ごとに、次のコマンドを実行します。
+3.  定義する休日ごとに、以下を実行します。
     
         $x = New-CsRgsHoliday [-Name <holiday name>] -StartDate <starting date of holiday> -EndDate <ending date of holiday>
     
-    定義した休日を含める休日セットを作成するには、次のコマンドを実行します。
+    定義した休日を含める休日セットを作成するには、以下を実行します。
     
         New-CsRgsHolidaySet -Parent <service where the workflow is hosted> -Name <unique name for holiday set> -HolidayList <one or more holidays to be included in the holiday set>
     

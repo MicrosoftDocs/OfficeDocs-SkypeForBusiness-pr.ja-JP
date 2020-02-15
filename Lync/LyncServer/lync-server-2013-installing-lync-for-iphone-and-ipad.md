@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Lync for iPhone および iPad をインストールする'
+title: 'Lync Server 2013: Lync for iPhone および iPad のインストール'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541496
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c0383fd4aa389912a9942d7cafd7ac22fdc4f477
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0d762fb6f8d7fbd9202db78806e8ddbd9082d777
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726157"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045429"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="installing-lync-for-iphone-and-ipad-in-lync-server-2013"></a>Lync for iPhone および iPad を Lync Server 2013 にインストールする
+# <a name="installing-lync-for-iphone-and-ipad-in-lync-server-2013"></a>Lync Server 2013 で Lync for iPhone および iPad をインストールする
 
 </div>
 
@@ -35,30 +35,30 @@ ms.locfileid: "41726157"
 
 <span> </span>
 
-_**最終更新日:** 2014-03-10_
+_**トピックの最終更新日:** 2014-03-10_
 
-Lync 2013 for iPhone および Lync 2013 for iPad は、Apple App Store で利用できるユーザーがインストールできるアプリケーションです。
+Lync 2013 for iPhone および Lync 2013 for iPad は、ユーザーがインストール可能なアプリケーションであり、Apple App Store で利用できます。
 
 <div>
 
-## <a name="installing-lync-for-iphone-and-lync-for-ipad"></a>Lync for iPhone および Lync for iPad をインストールする
+## <a name="installing-lync-for-iphone-and-lync-for-ipad"></a>Lync for iPhone および Lync for iPad のインストール
 
-ユーザーに対して Lync 2013 for iPhone と Lync 2013 for iPad をインストールするように指示するには、そのユーザーをデバイスから App Store に指示します。 各デバイスの App Store は、オンラインでも利用できます。
+ユーザーに対して、Lync 2013 for iPhone および Lync 2013 for iPad をデバイスからアプリストアに送信するように指示することができます。 各デバイスの App Store もオンラインで利用できます。
 
-  - Lync for iPhone は、 \< h<span></span>ttp://www.apple.com/iphone/from-the-app-store/の App Store で参照できます >
+  - Lync for iPhone は、 \< h<span></span>ttp://www.apple.com/iphone/from-the-app-store/のアプリストアで利用でき >
 
-  - Lync for iPad は、ht \< <span></span>tp://www.apple.com/ipad/from-the-app-store/で App Store で利用できます >
+  - Lync for iPad は、 \< ht<span></span>tp://www.apple.com/ipad/from-the-app-store/のアプリストアで利用でき >
 
 <div>
 
 
 > [!IMPORTANT]  
-> Lync 2013 アプリをインストールしておらず、会議出席依頼から Lync 会議に参加しようとしている iPhone ユーザーは、[参加] 起動ツールページにリダイレクトされます。 このページには、Lync 2013 アプリをインストールするためのリンクが含まれています。 ただし、アプリストアにユーザーを誘導する代わりに、このリンクを使うと、空白の Safari ブラウザーページが開きます。 この問題を回避するには、次の2つの操作を実行します。 
+> Lync 2013 アプリをインストールしていない場合や、会議出席依頼から Lync 会議に参加しようとしている場合、iPhone のユーザーは [参加ツール] ページにリダイレクトされます。 このページには、Lync 2013 アプリをインストールするためのリンクが含まれています。 ただし、このリンクを指定すると、ユーザーはアプリストアに誘導されるのではなく、空の Safari ブラウザーページが開きます。 ユーザーは、この問題を回避するために、次の2つのことを行うことができます。 
 > <UL>
 > <LI>
-> <P>[<STRONG>ホーム</STRONG>] ボタンを使用して safari ページをバックグラウンドに送信し、次に safari をもう一度開きます。 [このページを App Store で開く] という通知が表示されたら、[<STRONG>開く</STRONG>] をタップして、app Store の Lync 2013 ダウンロードに移動します。</P>
+> <P>[<STRONG>ホーム</STRONG>] ボタンを使用して safari ページをバックグラウンドに送信し、再び safari を開きます。 通知 "このページをアプリストアで開く" というメッセージが表示されたら、[<STRONG>開く</STRONG>] をタップして、アプリストアで Lync 2013 download に転送されるようにします。</P>
 > <LI>
-> <P>App Store を手動で開いて、"Lync 2013" を検索し、アプリをダウンロードします。</P></LI></UL>
+> <P>アプリストアを手動で開き、「Lync 2013」を検索して、アプリをダウンロードします。</P></LI></UL>
 
 
 
@@ -68,9 +68,9 @@ Lync 2013 for iPhone および Lync 2013 for iPad は、Apple App Store で利�
 
 <div>
 
-## <a name="verifying-mobile-client-installation"></a>モバイルクライアントのインストールを確認する
+## <a name="verifying-mobile-client-installation"></a>モバイル クライアント インストールの検証
 
-クライアントを構成して正常にサインインしたら、次のテストを行って、お使いのモバイルデバイスで Lync インストールが正常に動作していることを確認します。
+クライアントを構成し、サインインに成功した後、次のテストを行って、Lync のインストールがモバイル デバイスで正しく動作することを確認します。
 
 **会社のディレクトリにある連絡先の検索**
 
@@ -78,31 +78,31 @@ Lync 2013 for iPhone および Lync 2013 for iPad は、Apple App Store で利�
 
 2.  連絡先名が検索結果に表示されることを確認します。
 
-**インスタント メッセージングおよびプレゼンスのテスト**
+**インスタントメッセージングとプレゼンスのテスト**
 
-1.  連絡先リストで、連絡先をタップします。
+1.  連絡先一覧で、連絡先をタップします。
 
-2.  連絡先カードで、[ **IM** ] をタップします。
+2.  連絡先カードで、[**IM**] アイコンをタップします。
 
-3.  インスタント メッセージング (IM) ウィンドウが表示され、IM の入力と送信が可能であることを確認します。
+3.  インスタントメッセージング (IM) ウィンドウが表示され、IM の入力と送信が可能であることを確認します。
 
 **ダイヤルアウト会議のテスト**
 
-1.  Outlook で Lync 会議をスケジュールします。
+1.  Outlook で、Lync 会議をスケジューリングします。
 
 2.  モバイル デバイスで、会議の招待状を開きます。
 
 3.  参加する会議のリンクをクリックします。
 
-4.  会議サービスからの呼び出しに応答し、会議の音声部分に接続されていることを確認します。
+4.  会議サービスからの呼び出しに応答し、会議のオーディオに接続されていることを確認します。
 
 **プッシュ通知のテスト**
 
-1.  ユーザー A のモバイルデバイスで、ユーザー A のアカウントで Lync にサインインします。
+1.  ユーザー A のモバイル デバイスで、ユーザー A のアカウントを使用して Lync にサインインします。
 
 2.  モバイル デバイスで別のアプリケーションを開きます。
 
-3.  別のクライアントでは、ユーザー B のアカウントで Lync にサインインします。
+3.  異なるクライアントで、ユーザー B のアカウントを使用して Lync にサインインします。
 
 4.  IM をユーザー B からユーザー A に送信します。
 

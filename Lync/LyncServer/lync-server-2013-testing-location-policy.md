@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 場所のポリシーをテストする'
+title: 'Lync Server 2013: 場所のポリシーのテスト'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 63969591
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2a954405cb8dbba842250e0545ac8661d4f3795c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2a46eecb63ed35075cb44ff840e733f781357ea6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745777"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046570"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41745777"
 
 <span> </span>
 
-_**最終更新日:** 2014-06-05_
+_**トピックの最終更新日:** 2014-06-05_
 
 
 <table>
@@ -45,8 +45,8 @@ _**最終更新日:** 2014-06-05_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>確認のスケジュール</p></td>
-<td><p>[毎日]</p></td>
+<td><p>検証スケジュール</p></td>
+<td><p>毎日</p></td>
 </tr>
 <tr class="even">
 <td><p>テストツール</p></td>
@@ -54,8 +54,8 @@ _**最終更新日:** 2014-06-05_
 </tr>
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
-<td><p>Lync Server 管理シェルを使用してローカルで実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには、CsLocationPolicy コマンドレットを実行するためのアクセス許可が与えられた RBAC の役割を割り当てる必要があります。 このコマンドレットを使うことができるすべての RBAC ロールの一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには、Test-CsLocationPolicy コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsLocationPolicy&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,9 +66,9 @@ _**最終更新日:** 2014-06-05_
 
 ## <a name="description"></a>説明
 
-テスト用の Locationpolicy コマンドレットは、位置情報ポリシーがユーザーに割り当てられていることを確認します。 場所ポリシーは、E9 の機能とクライアントの場所に関連する設定を適用するために使用されます。 位置情報ポリシーは、ユーザーが E9 に対して有効になっているかどうかを決定します。回答が "yes" の場合は、緊急通話の動作は何ですか。 たとえば、位置情報ポリシーを使って、緊急通話 (米国内の 911) を構成する番号、企業のセキュリティを自動的に通知するかどうか、通話のルーティング方法を定義できます。
+Test-CsLocationPolicy コマンドレットは、場所のポリシーがユーザーに割り当てられていることを確認します。 場所のポリシーを使用して、E9-1-1 の機能およびクライアントの場所に関連する設定を適用します。 場所のポリシーによって、ユーザーが E9-1-1 に対して有効になっているかどうかが判断されます。また、応答が "yes" の場合は、緊急電話の動作がどのようなものですか。 たとえば、場所のポリシーを使用して、会社のセキュリティを自動的に通知するかどうか、および通話をルーティングする方法を定義することができます (米国では 911)。
 
-ユーザーまたはネットワークサブネット上の位置情報ポリシーをテストすることができます。 サブネットに対してテストを実行する場合 (サブネットパラメーターの値を指定)、コマンドレットはそのサブネットの位置情報ポリシーを解決しようとします。 場所のポリシーがサブネットに割り当てられていない場合、構成されたユーザーの位置情報ポリシーが取得されます。 サブネットポリシーが正常に取得された場合、出力には subnet-tagid で始まる LocationPolicyTagID 値が含まれます。 サブネットの場所ポリシーが見つからなかった場合は、LocationPolicyTagID は tagid を使用して開始されます。
+ユーザーまたはネットワーク サブネットに対して場所のポリシーをテストできます。 サブネットに対してテストを実行する場合 (Subnet パラメーターに値を指定します)、コマンドレットはそのサブネット用の場所のポリシーの解決を試みます。 サブネットに場所のポリシーが割り当てられていない場合、構成されているユーザーの場所のポリシーが取得されます。 サブネットポリシーが正常に取得された場合、出力には、サブネット-tagid で始まる LocationPolicyTagID 値が含まれます。 サブネットの場所のポリシーが見つからなかった場合は、LocationPolicyTagID は user-tagid で始まります。
 
 </div>
 
@@ -76,68 +76,68 @@ _**最終更新日:** 2014-06-05_
 
 ## <a name="running-the-test"></a>テストの実行
 
-テスト用の Locationpolicy コマンドレットを実行するには、事前に定義されたテストアカウント (「Lync Server テストを実行するためのテストアカウントをセットアップする」を参照) または Lync Server を有効にしているユーザーのアカウントのいずれかを使用します。 テストアカウントを使用してこのチェックを実行するには、テスト対象の Lync Server プールの FQDN を指定する必要があります。 次に例を示します。
+Test-CsLocationPolicy コマンドレットは、事前構成されたテストアカウント (「Lync Server テストを実行するためのテストアカウントの設定」を参照)、または Lync Server が有効になっているユーザーのアカウントのいずれかを使用して実行できます。 テストアカウントを使用してこのチェックを実行するには、テストする Lync Server プールの FQDN を指定するだけで済みます。 例:
 
     Test-CsLocationPolicy -TargetFqdn "atl-cs-001.litwareinc.com"
 
-実際のユーザーアカウントを使用してこのチェックを実行するには、最初に、アカウント名とパスワードを含む Windows PowerShell 資格情報オブジェクトを作成する必要があります。 次に、資格情報オブジェクトと、テスト用の (CsLocationPolicy) を呼び出すとアカウントに割り当てられた SIP アドレスを含める必要があります。
+実際のユーザーアカウントを使用してこのチェックを実行するには、まず、アカウント名とパスワードを含む Windows PowerShell credentials オブジェクトを作成する必要があります。 次に、その資格情報オブジェクトと、Test-CsLocationPolicy を呼び出すときにアカウントに割り当てられた SIP アドレスを含める必要があります。
 
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsLocationPolicy -TargetFqdn "atl-cs-001.litwareinc.com"-UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-詳細については、「[テスト-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Test-CsLocationPolicy) 」コマンドレットのヘルプドキュメントを参照してください。
+詳細については、 [Test-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Test-CsLocationPolicy)コマンドレットのヘルプドキュメントを参照してください。
 
 </div>
 
 <div>
 
-## <a name="determining-success-or-failure"></a>成功または失敗を確認する
+## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
-指定したユーザーが有効な場所のポリシーを持っている場合は、次のような結果が返され、Result プロパティは Success とマークされ**ます。**
+指定したユーザーに有効な場所ポリシーがある場合は、次のような出力が得られ、Result プロパティは Success としてマークされ**ます。**
 
 EnhancedEmergencyServicesEnabled: true
 
-LocationPolicyTagID: tagid
+LocationPolicyTagID: user-tagid
 
 TargetFqdn: atl-cs-001.litwareinc.com
 
 結果: 成功
 
-待ち時間:00:00: 06.8630376
+待機時間:00:00: 06.8630376
 
-誤差
+エラー
 
-診断
+分析
 
-指定したユーザーに対して有効な場所のポリシーが見つからない場合は、結果がエラーとして表示され、エラーと診断のプロパティに追加情報が記録されます。
+指定したユーザーの有効な場所のポリシーが見つからない場合は、結果がエラーとして表示され、次の情報が Error および診断プロパティに記録されます。
 
 TargetFqdn: atl-cs-001.litwareinc.com
 
 結果: エラー
 
-待ち時間: 00:00:00
+待機時間: 00:00:00
 
 エラー: 404、見つかりません
 
-診断: ErrorCode = 4005、Source = atl-cs-001.litwareinc.com、
+診断: ErrorCode = 4005, Source = 001.litwareinc.com,
 
-理由 = ターゲット URI が SIP で有効になっていないか、
+Reason = 宛先 URI が SIP に対して有効になっていないか、または使用されていません
 
-残っ.
+ない.
 
-DiagnosticHeader の場合
+DiagnosticHeader ()
 
-指定したユーザーが有効でないため、テストが失敗したことを示します。アカウントが存在しないか、ユーザーが Lync Server を有効にしていないことが原因です。 アカウントの有効性を確認し、次のようなコマンドを実行することにより、そのアカウントが nm-14-14-3 番目に有効になっているかどうかを確認できます。
+指定されたユーザーが有効でないため、テストが失敗したことが示されます。アカウントが存在しないか、ユーザーが Lync Server に対して有効になっていません。 アカウントの有効性を確認し、次のようなコマンドを実行することによって、アカウントが、そのアカウントが有効になっているかどうかを確認できます。
 
     Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object SipAddress, Enabled
 
-テスト用の場所のポリシーが失敗した場合は、Verbose パラメーターなどのテストを再実行することをお勧めします。
+Test-CsLocationPolicy が失敗した場合は、次のように詳細なパラメーターを含めて、テストを再実行することもできます。
 
     Test-CsLocationPolicy -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-Verbose パラメーターが含まれている場合、テスト-CsLocationPolicy は、位置情報ポリシーを確認したときに試行された各操作のステップバイステップのアカウントを返します。 たとえば、次の出力は、無効なパスワードが提供されたため、Lync Server がテストユーザーにログオンできなかったことを示します。
+Verbose パラメーターが指定されている場合、テスト-CsLocationPolicy は、場所ポリシーの確認時に試行された各操作のステップバイステップのアカウントを返します。 たとえば、次の出力は、無効なパスワードが指定されたために、Lync Server がテストユーザーにログオンできなかったことを示しています。
 
-登録リクエストの送信:
+登録要求の送信:
 
 ターゲット Fqdn = atl-cs-011.litwareinc.com
 
@@ -147,29 +147,29 @@ Verbose パラメーターが含まれている場合、テスト-CsLocationPoli
 
 認証の種類 ' IWA ' が選択されています。
 
-Sip/atl に対する登録ヒット-.cs-litwareinc
+Sip/atl-ws-01 に対する登録ヒット。 litwareinc
 
-"Register" アクティビティは "0.0601795" 秒で完了しました。
+' Register ' アクティビティは、' 0.0601795 ' 秒で完了しました。
 
-例外 ' ログオンは拒否されました。 正しい資格情報が使用されていて、アカウントがアクティブであることを確認します。 ワークフロー中に発生しました。
+例外 ' ログオンが拒否されました。 正しい資格情報が使用されており、アカウントがアクティブであることを確認してください。 ワークフローの実行中に発生した。
 
 </div>
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a>テストに失敗した可能性がある理由
+## <a name="reasons-why-the-test-might-have-failed"></a>テストが失敗した理由
 
-次に、テスト用の場所のポリシーが失敗する可能性がある一般的な理由をいくつか示します。
+次に、Test-CsLocationPolicy が失敗する主な理由を示します。
 
-  - 無効なユーザーアカウントが指定されました。 次のようなコマンドを実行すると、ユーザーアカウントが存在するかどうかを確認できます。
+  - 無効なユーザーアカウントが指定されました。 ユーザーアカウントが存在することを確認するには、次のようなコマンドを実行します。
     
         Get-CsUser "sip:kenmyer@litwareinc.com"
 
-  - ユーザーアカウントは有効ですが、アカウントは現在 Lync Server に対して有効になっていません。 Lync Server でユーザーアカウントが有効になっていることを確認するには、次のようなコマンドを実行します。
+  - ユーザーアカウントは有効ですが、アカウントは現在 Lync Server に対して有効になっていません。 ユーザーアカウントが Lync Server に対して有効になっていることを確認するには、次のようなコマンドを実行します。
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled
     
-    Enabled プロパティが False に設定されている場合は、ユーザーが現在 Lync Server を有効にしていないことを意味します。
+    Enabled プロパティが False に設定されている場合は、ユーザーが現在 Lync Server に対して有効になっていないことを意味します。
 
 </div>
 

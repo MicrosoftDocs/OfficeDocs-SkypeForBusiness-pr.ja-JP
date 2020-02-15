@@ -12,20 +12,20 @@ ms:contentKeyID: 48185359
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b94bc731ac00a4ff774930f506282b6aef16cbaa
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: eda955072f42989e6323ea6422d8b25736cf8c32
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739267"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041066"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-response-group-in-lync-server-2013"></a>Lync Server 2013 での応答グループの構成
+# <a name="configuring-response-group-in-lync-server-2013"></a>Lync Server 2013 で応答グループを構成する
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41739267"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-30_
+_**トピックの最終更新日:** 2012-10-30_
 
-[応答グループ] は、ヘルプデスクや顧客サービスデスクなどの*エージェント*と呼ばれる、着信通話をルーティングしてキューに登録するエンタープライズ voip 機能です。
+応答グループは、ヘルプデスクやカスタマーサービスデスクなどの、*エージェント*と呼ばれるユーザーのグループへの着信呼び出しをルーティングし、キューに記録するエンタープライズ voip 機能です。
 
-エンタープライズボイスの展開時に、応答グループに必要なコンポーネントが、フロントエンドサーバーまたは Standard Edition サーバーにインストールされ、自動的に有効になります。 ユーザーが応答グループを利用できるようにするには、エージェントグループ、[キュー]、[ワークフロー] を構成する必要があります。 さらに、応答グループ管理者は、既存のワークフローの構成を応答グループマネージャーに委任することができます。これにより、ワークフローと関連するエージェントグループおよびキューを変更して再構成することができます。
+応答グループで必要なコンポーネントは、エンタープライズ VoIP を展開するときに、フロント エンド サーバーまたは Standard Edition サーバーに自動的にインストールされ、有効にされます。 応答グループをユーザーが利用できるようにするには、エージェント グループ、キュー、およびワークフローを順に構成する必要があります。 さらに、応答グループ管理者は、既存のワークフローの構成を応答グループマネージャーに委任できます。これにより、ワークフローとそれに関連するエージェントグループおよびキューを変更および再構成できます。
 
-このセクションでは、Lync Server 2013 応答グループの構成について説明します。 応答グループに関連する計画セクションを既に読んでいて、enterprise Edition サーバーまたはエンタープライズ Voip サーバーを展開していることを前提としています。
+このセクションでは、Lync Server 2013 応答グループの構成について説明します。 これは、応答グループに関連する計画セクションを既に読んでおり、enterprise Edition サーバーまたは Standard Edition サーバーがエンタープライズ Voip を使用して展開されていることを前提としています。
 
 <div>
 
 
 > [!TIP]  
-> Lync Server 管理シェルを使用した応答グループの作成について詳しくは、「at で<A href="http://go.microsoft.com/fwlink/p/?linkid=204108">http://go.microsoft.com/fwlink/p/?linkId=204108</A>の Lync Server 管理シェルを使用した最初の応答グループの作成」をご覧ください。
+> Lync Server 管理シェルを使用して応答グループを作成する方法の詳細については、「」の「Lync Server 管理シェルを使用して<A href="http://go.microsoft.com/fwlink/p/?linkid=204108">http://go.microsoft.com/fwlink/p/?linkId=204108</A>最初の応答グループを作成する」を参照してください。
 
 
 
@@ -55,25 +55,25 @@ _**最終更新日:** 2012-10-30_
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 の応答グループ構成のアクセス許可と前提条件](lync-server-2013-response-group-configuration-permissions-and-prerequisites.md)
+  - [Lync Server 2013 での応答グループ構成のアクセス許可と前提条件](lync-server-2013-response-group-configuration-permissions-and-prerequisites.md)
 
   - [Lync Server 2013 の応答グループの展開プロセス](lync-server-2013-deployment-process-for-response-group.md)
 
-  - [Lync Server 2013 でのワークフロー作成のシナリオの概要](lync-server-2013-overview-of-workflow-creation-scenarios.md)
+  - [Lync Server 2013 でのワークフロー作成シナリオの概要](lync-server-2013-overview-of-workflow-creation-scenarios.md)
 
-  - [Lync Server 2013 での応答グループのエージェント グループの作成](lync-server-2013-create-response-group-agent-groups.md)
+  - [応答グループエージェントグループの作成 Lync Server 2013](lync-server-2013-create-response-group-agent-groups.md)
 
-  - [Lync Server 2013 での応答グループのキューの作成](lync-server-2013-create-response-group-queues.md)
+  - [Lync Server 2013 で応答グループキューを作成する](lync-server-2013-create-response-group-queues.md)
 
-  - [省略Lync Server 2013 での応答グループの営業時間の定義](lync-server-2013-optional-define-response-group-business-hours.md)
+  - [オプションLync Server 2013 で応答グループの営業時間を定義する](lync-server-2013-optional-define-response-group-business-hours.md)
 
-  - [省略Lync Server 2013 で回答グループの休日セットを定義する](lync-server-2013-optional-define-response-group-holiday-sets.md)
+  - [オプションLync Server 2013 で応答グループの休日セットを定義する](lync-server-2013-optional-define-response-group-holiday-sets.md)
 
-  - [Lync Server 2013 での応答グループのワークフローの作成](lync-server-2013-create-response-group-workflows.md)
+  - [Lync Server 2013 で応答グループのワークフローを作成する](lync-server-2013-create-response-group-workflows.md)
 
-  - [省略Lync Server 2013 での応答グループの展開を確認する](lync-server-2013-optional-verify-response-group-deployment.md)
+  - [オプションLync Server 2013 での応答グループの展開の確認](lync-server-2013-optional-verify-response-group-deployment.md)
 
 </div>
 
@@ -82,7 +82,7 @@ _**最終更新日:** 2012-10-30_
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 の通話管理機能の計画](lync-server-2013-planning-for-call-management-features.md)  
+[Lync Server 2013 での通話管理機能の計画](lync-server-2013-planning-for-call-management-features.md)  
   
 
 </div>

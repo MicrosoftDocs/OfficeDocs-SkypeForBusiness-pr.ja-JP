@@ -12,16 +12,16 @@ ms:contentKeyID: 48184919
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c7a41e89193f4871197ab9b429eb6ab9a9078a7e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 71d354449c02a0b57b737f01841a0f5841aa80c9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738037"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038539"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41738037"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-12_
+_**トピックの最終更新日:** 2012-09-12_
 
-Lync Server 2013 の常設チャットサーバーの展開を計画している各サーバーに、必須のソフトウェアをインストールした後、トポロジビルダーを使用して、トポロジに常設チャットサーバーのサポートを追加してから、トポロジを公開する必要があります。
+Lync Server 2013 の常設チャットサーバーの展開を計画している各サーバーに前提条件のソフトウェアをインストールした後、トポロジビルダーを使用して、常設チャットサーバーのサポートをトポロジに追加し、トポロジを公開する必要があります。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 で常設チャット サーバーをトポロジに追加する](lync-server-2013-add-persistent-chat-server-to-the-topology.md)
+  - [Lync Server 2013 で常設チャットサーバーをトポロジに追加する](lync-server-2013-add-persistent-chat-server-to-the-topology.md)
 
-  - [Lync Server 2013 での更新したトポロジの公開](lync-server-2013-publish-the-updated-topology.md)
+  - [Lync Server 2013 で更新されたトポロジを公開する](lync-server-2013-publish-the-updated-topology.md)
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48185510
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1fcd6cb462bd64f6fdcdbae93cfb733de0639898
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 164c6e1541869a2976f283443f2fae9246f28007
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731917"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038859"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41731917"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-28_
+_**トピックの最終更新日:** 2012-09-28_
 
-SIPResponseMetaDataTable には、SIP 応答コードの一覧と、各コードの分類と定義が含まれています。 これらのコードは、SIP デバイスと SIP コミュニケーションセッションに影響を与えるイベントに対応して生成されます。たとえば、応答コード403は、SIP デバイスが要求を行ったときに、サーバーがその要求を受け入れることを拒否したときに生成されます。
+SIPResponseMetaDataTable には、SIP 応答コードと、各コードの分類と定義の一覧が含まれます。これらのコードは SIP デバイスおよび SIP 通信セッションに影響を与えるイベントへの応答して生成されます。たとえば、応答コード 403 は、SIP デバイスが要求を行い、サーバーがその要求の実行を拒否したときに生成されます。
 
 この表は、Microsoft Lync Server 2013 で導入されました。
 
@@ -59,7 +59,7 @@ SIPResponseMetaDataTable には、SIP 応答コードの一覧と、各コード
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>返信</strong></p></td>
+<td><p><strong>ResponseCode</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primary</p></td>
 <td><p>SIP 応答コードを表す数値。</p></td>
@@ -68,22 +68,22 @@ SIPResponseMetaDataTable には、SIP 応答コードの一覧と、各コード
 <td><p><strong>クラス</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>応答コードの一般的な分類。 分類には以下が含まれます。</p>
+<td><p>応答コードの一般的な分類。以下の分類があります。</p>
 <ul>
-<li><p>1–情報の返信</p></li>
-<li><p>2–成功応答</p></li>
-<li><p>3–リダイレクション応答</p></li>
-<li><p>4–クライアントエラー応答</p></li>
-<li><p>5--サーバー障害への応答</p></li>
-<li><p>6–グローバルエラー応答</p></li>
+<li><p>1 – 情報応答</p></li>
+<li><p>2 – 正常応答</p></li>
+<li><p>3 – リダイレクト応答</p></li>
+<li><p>4 – クライアント エラー応答</p></li>
+<li><p>5--サーバーエラー応答</p></li>
+<li><p>6 – グローバル エラー応答</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><p><strong>説明</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td></td>
-<td><p>SIP 応答コードの説明。 たとえば、応答コード181には次の説明があります。</p>
-<p>通話が転送されています</p></td>
+<td><p>SIP 応答コードの説明。たとえば、コード 181 には以下の説明があります。</p>
+<p>Call Is Being Forwarded (呼び出しを転送中)</p></td>
 </tr>
 </tbody>
 </table>

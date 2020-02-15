@@ -12,20 +12,20 @@ ms:contentKeyID: 48183880
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac02b2f6c6f47a59663a414635eebe1d2e4ec851
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1c265e73f94ddfe08b7f72a1d0b4e94958208ff8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723807"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045489"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="requirements-for-running-best-practices-analyzer-in-lync-server-2013"></a>Lync Server 2013 のベストプラクティスアナライザーを実行するための要件
+# <a name="requirements-for-running-best-practices-analyzer-in-lync-server-2013"></a>Lync Server 2013 でベストプラクティスアナライザーを実行するための要件
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41723807"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-19_
+_**トピックの最終更新日:** 2012-09-19_
 
-Lync Server 2013 のベストプラクティスアナライザーを使用して、Lync Server 2013 環境をスキャンできます。 以前の環境をスキャンするために使用することはできませんが、以前のバージョンのツールを使って、これらの環境をスキャンすることはできます。 Lync Server 2010 および Office Communications Server 2007 R2 バージョンのベストプラクティスアナライザーをダウンロードして使用する方法の詳細については、「Lync Server 2010、 [http://go.microsoft.com/fwlink/p/?linkId=210536](http://go.microsoft.com/fwlink/p/?linkid=256358)ベストプラクティスアナライザー」、および「Office communications server 2007 および Office communications Server 2007 R2」 [http://go.microsoft.com/fwlink/p/?linkId=256358](http://go.microsoft.com/fwlink/p/?linkid=210651)を参照してください。
+Lync server 2013、ベストプラクティスアナライザーを使用して Lync Server 2013 環境をスキャンできます。 これを使用して以前の環境をスキャンすることはできませんが、以前のバージョンのツールを使用してこれらの環境をスキャンすることはできます。 Lync Server 2010 および Office Communications Server 2007 R2 バージョンのベストプラクティスアナライザーのダウンロードと使用の詳細については、「」 [http://go.microsoft.com/fwlink/p/?linkId=210536](http://go.microsoft.com/fwlink/p/?linkid=256358)および「Office communications server のベストプラクティスアナライザー For Office communications server 2007 および Office communications Server 2007 R2」を参照し[http://go.microsoft.com/fwlink/p/?linkId=256358](http://go.microsoft.com/fwlink/p/?linkid=210651)て2010ください。
 
-スキャンを開始する前に、Lync Server 2013 環境内のすべてのコンポーネントが実行されていて、オンラインであることを確認する必要があります。
+スキャンを開始する前に、Lync Server 2013 環境内のすべてのコンポーネントが実行されていて、オンラインになっていることを確認する必要があります。
 
 <div>
 
 
 > [!NOTE]  
-> ベストプラクティスアナライザーは、エッジサーバーの構成と、ファイアウォールの設定やアクセス許可を含む、関連する境界ネットワーク設定に応じて、エッジサーバーにアクセスしてスキャンできない場合があります。 スキャンにエッジサーバーが含まれていて、エッジサーバーへのアクセスに問題があるという報告があった場合は、スキャンオプションからエッジサーバーを削除し、スキャンをもう一度実行して、問題がレポートに表示されないようにすることができます。
+> ファイアウォールの設定、アクセス許可など、エッジ サーバーの構成や関連する境界ネットワーク設定によっては、ベスト プラクティス アナライザーがエッジ サーバーにアクセスできず、スキャンを実行できない可能性があります。スキャン対象にエッジ サーバーが含まれ、エッジ サーバーへのアクセスに問題が発生していることがレポートで報告された場合、その問題がレポートに表示されないようにするには、エッジ サーバーをスキャン オプションから削除し、再度スキャンを実行します。
 
 
 

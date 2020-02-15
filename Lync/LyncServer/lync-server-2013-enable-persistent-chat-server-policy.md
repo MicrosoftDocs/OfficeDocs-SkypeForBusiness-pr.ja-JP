@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 常設チャット サーバー ポリシーを有効にする'
+title: 'Lync Server 2013: 常設チャットサーバーポリシーの有効化'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184718
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27d87277c813c24ae36de14430bc711d991d7181
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f1f98275ee911d1abecbc60907653ad8de0a4222
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735987"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046700"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enable-persistent-chat-server-policy-in-lync-server-2013"></a>Lync Server 2013 で常設チャット サーバー ポリシーを有効にする
+# <a name="enable-persistent-chat-server-policy-in-lync-server-2013"></a>Lync Server 2013 で常設チャットサーバーポリシーを有効にする
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41735987"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-06_
+_**トピックの最終更新日:** 2012-10-06_
 
-Lync Server 2013 コントロールパネルでは、**常設チャット**グループの**常設チャットのポリシー**ページを使用して、既定のグローバルポリシーを構成し、展開用に1つ以上の追加のユーザーとサイトポリシーを作成するなど、グローバル、プール、サイト、またはユーザーレベルでポリシーを管理できます。 ユーザーが、ポリシーによって常設チャットサーバーを有効にしている場合は、常設チャットサーバー環境が Lync 2013 クライアントに表示されます。
-
-<div>
-
-
-> [!NOTE]  
-> トポロジでは、常設チャットサーバーのサイトポリシーは、ユーザーのプールごと、またはユーザーごとのサイトに適用されます。
-
-
-
-</div>
-
-グローバルポリシーは、常設チャットサーバーの展開時に自動的に作成され、構成はできますが、削除はできません。 グローバル ポリシーはすべてのユーザーに適用されるため、ユーザーごとに設定する必要はありません。
-
-グローバルポリシーと共に、常設チャットサーバーのユーザーを有効にする、複数のサイトとユーザーのポリシーを作成して構成することができます。 プールとサイトの常設チャットサーバーポリシーは、そのサイトのユーザーに対してのみ、グローバル常設チャットサーバーポリシーを上書きします。 ユーザーポリシーは、ユーザーポリシーが割り当てられているユーザーのグローバル、プール、サイトの各ポリシーを上書きします。
+Lync Server 2013 コントロールパネルでは、**常設チャット**グループの [**常設チャットポリシー** ] ページを使用して、グローバル、プール、サイト、またはユーザーレベルでポリシーを管理できます。これには、既定のグローバルポリシーの構成や、展開用の1つまたは複数の追加のユーザーおよびサイトポリシーの作成が含まれます。 ユーザーがポリシーによって常設チャットサーバーに対して有効になっている場合、常設チャットサーバー環境が Lync 2013 クライアントに表示されます。
 
 <div>
 
 
 > [!NOTE]  
-> 常設チャットサーバーを構成して使用するには、最初にトポロジビルダーを使用して、トポロジに常設チャットサーバーサポートを追加してから、トポロジを発行する必要があります。 詳細については、展開ドキュメントの「 <A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Lync server 2013 での展開への常設チャットサーバーの追加</A>」を参照してください。
+> トポロジでは、常設チャットサーバーのサイトポリシーは、グローバルに、ユーザーのプールごと、またはユーザーのサイトごと、またはユーザーごとに適用されます。
+
+
+
+</div>
+
+グローバルポリシーは、常設チャットサーバーを展開するときに自動的に作成されますが、構成することはできますが、削除することはできません。 グローバル ポリシーはすべてのユーザーに適用されるため、ユーザーごとに設定する必要はありません。
+
+グローバルポリシーと共に、常設チャットサーバーに対してユーザーを有効にする複数のサイトおよびユーザーポリシーを作成し、構成することができます。 プールおよびサイト常設チャットサーバーポリシーは、そのサイトのユーザーに対してのみ、グローバル常設チャットサーバーポリシーを上書きします。 ユーザーポリシーは、ユーザーポリシーが割り当てられているユーザーのグローバル、プール、およびサイトポリシーの両方を上書きします。
+
+<div>
+
+
+> [!NOTE]  
+> 常設チャットサーバーを構成して使用するには、まず、トポロジビルダーを使用して、常設チャットサーバーのサポートをトポロジに追加してから、トポロジを公開する必要があります。 詳細については、「展開」のドキュメントの「 <A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Lync server 2013 での展開への常設チャットサーバーの追加</A>」を参照してください。
 
 
 
@@ -65,15 +65,15 @@ Lync Server 2013 コントロールパネルでは、**常設チャット**グ�
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 で常設チャットのグローバル ポリシーを構成する](lync-server-2013-configure-the-global-policy-for-persistent-chat.md)
+  - [Lync Server 2013 で常設チャットのグローバルポリシーを構成する](lync-server-2013-configure-the-global-policy-for-persistent-chat.md)
 
-  - [Lync Server 2013 で常設チャットのサイト ポリシーを作成する](lync-server-2013-create-a-site-policy-for-persistent-chat.md)
+  - [Lync Server 2013 で常設チャットのサイトポリシーを作成する](lync-server-2013-create-a-site-policy-for-persistent-chat.md)
 
-  - [Lync Server 2013 で常設チャット用のユーザー ポリシーを作成する](lync-server-2013-create-a-user-policy-for-persistent-chat.md)
+  - [Lync Server 2013 で常設チャット用のユーザーポリシーを作成する](lync-server-2013-create-a-user-policy-for-persistent-chat.md)
 
-  - [Lync Server 2013 で常設チャット ポリシーをユーザーまたはユーザー グループに適用する](lync-server-2013-apply-a-persistent-chat-policy-to-a-user-or-user-group.md)
+  - [Lync Server 2013 で常設チャットポリシーをユーザーまたはユーザーグループに適用する](lync-server-2013-apply-a-persistent-chat-policy-to-a-user-or-user-group.md)
 
 </div>
 

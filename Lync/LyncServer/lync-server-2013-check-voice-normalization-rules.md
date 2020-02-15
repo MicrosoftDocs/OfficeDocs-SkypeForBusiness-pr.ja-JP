@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 音声正規化ルールを確認する'
+title: 'Lync Server 2013: 音声正規化ルールの確認'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969649
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 04e383f38d5af6f106354a766c857635bcd87eb3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 52820473a632598779aae9023967598b8ae27f89
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733867"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045699"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="check-voice-normalization-rules-in-lync-server-2013"></a>Lync Server 2013 で音声正規化ルールを確認する
+# <a name="check-voice-normalization-rules-in-lync-server-2013"></a>Lync Server 2013 で音声正規化ルールをチェックする
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41733867"
 
 <span> </span>
 
-_**最終更新日:** 2014-05-20_
+_**トピックの最終更新日:** 2014-05-20_
 
 
 <table>
@@ -45,7 +45,7 @@ _**最終更新日:** 2014-05-20_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>確認のスケジュール</p></td>
+<td><p>検証スケジュール</p></td>
 <td><p>毎月</p></td>
 </tr>
 <tr class="even">
@@ -54,8 +54,8 @@ _**最終更新日:** 2014-05-20_
 </tr>
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
-<td><p>Lync Server 管理シェルを使用してローカルで実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使って実行する場合は、CsVoiceNormalizationRule コマンドレットを実行するためのアクセス許可が与えられている RBAC の役割をユーザーに割り当てる必要があります。 このコマンドレットを使うことができるすべての RBAC ロールの一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合は、Get-csvoicenormalizationrule コマンドレットを実行するためのアクセス許可を持つ RBAC の役割がユーザーに割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <p><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsVoiceNormalizationRule&quot;}</code></p></td>
 </tr>
 </tbody>
@@ -66,9 +66,9 @@ _**最終更新日:** 2014-05-20_
 
 ## <a name="description"></a>説明
 
-音声正規化規則は、ユーザーがダイヤルした電話番号 (2065551219 など) を、Lync Server (+ 12065551219) で使用される E.i 形式に変換するために使用されます。 たとえば、国コードや市外局番を含めずに電話番号をダイヤルする習慣 (5551219 など) の場合、その番号を E.i 形式に変換するには、音声の正規化ルールを使用する必要があります (例: + 12065551219)。 このようなルールがないと、ユーザーは555-1219 に通話を発信できません。
+音声正規化ルールは、ユーザーがダイヤルした電話番号 (たとえば、2065551219) を Lync Server で使用される e.164 形式 (+ 12065551219) に変換するために使用されます。 たとえば、ユーザーが国コードや市外局番を含めずに電話番号をダイヤルする習慣になっている場合 (5551219 など)、その番号を e.164 形式に変換するための音声正規化ルールが必要です (例: + 12065551219)。 このようなルールがない場合、ユーザーは555-1219 を呼び出すことができません。
 
-CsVoiceNormalizationRule コマンドレットは、指定された音声正規化ルールが、指定された電話番号を正しく変換できることを確認します。 たとえば、このコマンドは、グローバル正規化ルール NoAreaCode が、ダイヤル文字列5551219を正規化して変換できるかどうかを確認します。
+Get-csvoicenormalizationrule コマンドレットは、指定した音声正規化ルールが指定した電話番号を正常に変換できることを確認します。 たとえば、次のコマンドは、グローバル正規化ルール NoAreaCode が、ダイヤル文字列5551219を正規化して変換できるかどうかを確認します。
 
 `Get-CsVoiceNormalizationRule -Identity "global/NoAreaCode" | Test-CsVoiceNormalizationRule -DialedNumber "5551219"`
 
@@ -78,19 +78,19 @@ CsVoiceNormalizationRule コマンドレットは、指定された音声正規�
 
 ## <a name="running-the-test"></a>テストの実行
 
-CsVoiceNormalizationRule コマンドレットを実行するには、最初に Get-CsVoiceNormalizationRule コマンドレットを使って、テスト対象のルールのインスタンスを取得し、そのインスタンスをテスト-CsVoiceNormalizationRule にパイプします。 このような構文は、次のように動作しません。
+Get-csvoicenormalizationrule コマンドレットを実行するには、最初に Get-csvoicenormalizationrule コマンドレットを使用して、テスト対象のルールのインスタンスを取得してから、そのインスタンスを Get-csvoicenormalizationrule にパイプ処理します。 このような構文は使用できません。
 
-CsVoiceNormalizationRule-Ednumber "12065551219" – NormalizationRule "global/Prefix All"
+Get-csvoicenormalizationrule-tcp/ip Ednumber "12065551219" – NormalizationRule "global/Prefix All"
 
-代わりに、CsVoiceNormalizationRule と CsVoiceNormalizationRule コマンドレットの両方を組み合わせた次のような構文を使用します。
+代わりに、次のような構文を使用して、Get-csvoicenormalizationrule と Get-csvoicenormalizationrule コマンドレットの両方を組み合わせます。
 
-Get-CsVoiceNormalizationRule-Identity "global/Prefix All" |CsVoiceNormalizationRule-の番号 "12065551219" のテスト
+Get-csvoicenormalizationrule-Identity "global/Prefix" |Get-csvoicenormalizationrule-電話番号 "12065551219"
 
 <div>
 
 
 > [!NOTE]  
-> . または、この方法を使用して、ルールのインスタンスを取得し、指定した電話番号に対してそのルールをテストすることもできます。
+> . または、この方法を使用してルールのインスタンスを取得し、指定した電話番号に対してそのルールをテストすることもできます。
 
 
 
@@ -100,21 +100,21 @@ Get-CsVoiceNormalizationRule-Identity "global/Prefix All" |CsVoiceNormalizationR
 
 `Test-CsVoiceNormalizationRule -DialedNumber "12065551219" -NormalizationRule $x`
 
-番号をダイヤルする場合と同じように、指定された番号パラメーターの値を入力します。 たとえば、指定された音声正規化ルールが国コード (値12065551219の最初の 1) を自動的に追加する場合は、国コードをオフにする必要があります。
+番号をダイヤルすることが予想されるとおりに、ダイヤル Ednumber パラメーターの値を正確に入力します。 たとえば、指定された音声正規化ルールが国コードを自動的に追加する (値12065551219の最初の 1) 場合は、国コードを省略する必要があります。
 
 `-DialedNumber "2065551219"`
 
-ルールが正しく構成されている場合は、電話番号を Lync Server で使用される E.i 形式に変換するときに、国コードが自動的に追加されます。
+ルールが正しく構成されている場合は、Lync Server で使用されている e.164 形式に番号を変換するときに、国コードが自動的に追加されます。
 
-詳細については、「CsVoiceNormalizationRule コマンドレットのヘルプドキュメント」を参照してください。
+詳細については、Get-csvoicenormalizationrule コマンドレットのヘルプドキュメントを参照してください。
 
 </div>
 
 <div>
 
-## <a name="determining-success-or-failure"></a>成功または失敗を確認する
+## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
-指定した音声正規化ルールで指定した番号が翻訳された場合は、翻訳後の番号が画面に表示されます。
+指定した音声正規化ルールが指定した番号を翻訳できる場合は、変換後の番号が画面に表示されます。
 
 TranslatedNumber
 
@@ -122,7 +122,7 @@ TranslatedNumber
 
 \+12065551219
 
-テストが失敗すると、空白の翻訳された数値が返されます。
+テストが失敗した場合は、空の変換された数値が返されます。
 
 TranslatedNumber
 
@@ -132,13 +132,13 @@ TranslatedNumber
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a>テストに失敗した可能性がある理由
+## <a name="reasons-why-the-test-might-have-failed"></a>テストが失敗した理由
 
-CsVoiceNormalizationRule によって、指定された電話番号を、Lync Server で使用されている E.i 形式に変換できなかったことを示す、翻訳された数値が返される場合。 これを確認するには、まず電話番号を正しく入力したことを確認します。 たとえば、次のような数値の変換については、音声の正規化ルールで問題が発生していることが考えられます。
+Get-csvoicenormalizationrule が変換された番号を返す場合は、指定した音声正規化ルールが、指定された電話番号を Lync Server で使用されている e.164 形式に変換できなかったことを意味します。 これを確認するには、まず電話番号を正しく入力したことを確認してください。 たとえば、次のような数値を変換すると、音声正規化ルールで問題が発生することが予想されます。
 
 `-DialedNumber "1"`
 
-番号が正しく入力されていることを前提として、次の手順は、指定された正規化ルールがその電話番号を処理するように設計されていることを確認する必要があります。 たとえば、1つの正規化ルールは12065551219の形式を処理するように設計されていますが、2つ目のルールは数値2065551219を処理するように設計されている可能性があります。 (これは同じ電話番号で、最初の国コード1を差し引いています)。音声正規化ルールに関する詳細情報を取得するには、次のようなコマンドを実行します。
+番号が正しく入力されていることを前提として、次の手順では、指定した正規化ルールがその電話番号を処理するように設計されていることを確認する必要があります。 たとえば、1つの正規化ルールは12065551219の形式を処理するように設計されていますが、2番目のルールは2065551219の番号を処理するように設計されている場合があります。 (これは同じ電話番号で、先頭に国コード1を引いたものです。)音声正規化ルールに関する詳細情報を取得するには、次のようなコマンドを実行します。
 
 `Get-CsVoiceNormalizationRule -Identity "global/Prefix All" | Format-List`
 
@@ -153,7 +153,7 @@ CsVoiceNormalizationRule によって、指定された電話番号を、Lync Se
 ## <a name="see-also"></a>関連項目
 
 
-[テスト-CsVoiceNormalizationRule](https://docs.microsoft.com/powershell/module/skype/Test-CsVoiceNormalizationRule)  
+[Get-csvoicenormalizationrule](https://docs.microsoft.com/powershell/module/skype/Test-CsVoiceNormalizationRule)  
   
 
 </div>

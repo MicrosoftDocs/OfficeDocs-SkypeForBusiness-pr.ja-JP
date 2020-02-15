@@ -12,16 +12,16 @@ ms:contentKeyID: 48184292
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a28fc1e77a98e2a6123537ec5c062dca5d0c6ffb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c7168c1e32bd4ceb1466678d08a3d7ca9e6dc69e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724937"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045499"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,35 +35,35 @@ ms.locfileid: "41724937"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-08_
+_**トピックの最終更新日:** 2012-09-08_
 
-エッジサーバーコンポーネントを設定する前に、セットアップしているコンピューターがシステム要件を満たしていることを確認し、エッジサーバーコンポーネントの展開に必要なその他の前提条件を満たしていることを確認する必要があります。
+エッジ サーバー コンポーネントを設定する前に、設定しているコンピューターがシステム要件を満たしていることを確認し、エッジ サーバー コンポーネントの展開に必要な他の手順を完了する必要があります。
 
-作業を開始する前に、展開する参照アーキテクチャの計画ドキュメントで、次のトピックの詳細を確認してください。
+開始する前に、「計画」のドキュメントの以下のトピックで、展開する関連アーキテクチャの詳細を確認します。
 
-  - [Lync Server 2013 におけるプライベート IP アドレスと NAT を用いた単一統合エッジ](lync-server-2013-single-consolidated-edge-with-private-ip-addresses-and-nat.md)
+  - [Lync Server 2013 でのプライベート IP アドレスと NAT を使用する単一統合エッジ](lync-server-2013-single-consolidated-edge-with-private-ip-addresses-and-nat.md)
 
-  - [Lync Server 2013 のパブリック IP アドレスを使用する単一統合エッジ](lync-server-2013-single-consolidated-edge-with-public-ip-addresses.md)
+  - [Lync Server 2013 でのパブリック IP アドレスを使用する単一統合エッジ](lync-server-2013-single-consolidated-edge-with-public-ip-addresses.md)
 
-  - [Lync Server 2013 における拡張統合エッジ、NAT によるプライベート IP アドレスを使用した DNS 負荷分散](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
+  - [Lync Server 2013 での拡張統合エッジ、NAT を使用したプライベート IP アドレスを使用した DNS 負荷分散](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
 
-  - [Lync Server 2013 での拡張統合エッジ、パブリック IP アドレスによる DNS 負荷分散](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
+  - [Lync Server 2013 の拡張統合エッジ、パブリック IP アドレスによる DNS 負荷分散](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
 
-  - [Lync Server 2013 のハードウェア ロード バランサーによる拡張統合エッジ](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)
+  - [Lync Server 2013 での拡張統合エッジとロードバランサー機器](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 でのエッジ サポートの DNS の構成](lync-server-2013-configure-dns-for-edge-support.md)
+  - [Lync Server 2013 でエッジサポートの DNS を構成する](lync-server-2013-configure-dns-for-edge-support.md)
 
-  - [Lync Server 2013 で拡張エッジ トポロジ用のロード バランサー機器を設定する](lync-server-2013-set-up-hardware-load-balancers-for-scaled-edge-topologies.md)
+  - [Lync Server 2013 で拡張エッジトポロジ用のロードバランサー機器を設定する](lync-server-2013-set-up-hardware-load-balancers-for-scaled-edge-topologies.md)
 
-  - [Lync Server 2013 での外部ユーザー アクセス用のファイアウォールとポートの構成](lync-server-2013-configure-firewalls-and-ports-for-external-user-access.md)
+  - [Lync Server 2013 で外部ユーザーアクセス用のファイアウォールとポートを構成する](lync-server-2013-configure-firewalls-and-ports-for-external-user-access.md)
 
-  - [Lync Server 2013 の外部の音声ビデオ ファイアウォールおよびポートの要件を決定する](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)
+  - [Lync Server 2013 の外部の音声ビデオファイアウォールおよびポートの要件を決定する](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)
 
-  - [Lync Server 2013 でエッジ コンポーネントの証明書を要求する](lync-server-2013-request-certificates-for-edge-components.md)
+  - [Lync Server 2013 のエッジコンポーネントの証明書を要求する](lync-server-2013-request-certificates-for-edge-components.md)
 
 </div>
 

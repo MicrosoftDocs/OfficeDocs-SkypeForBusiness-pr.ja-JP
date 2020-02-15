@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 静的ルーティングコマンドレット'
+title: 'Lync Server 2013: 静的ルーティングのコマンドレット'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184496
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a5a5c5dcefa5c4650c6bbfabf940840f22fc5df2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d9e5b67153d353c0b08ba33853c76d16cd8ba3f8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731797"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038749"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="static-routing-cmdlets-in-lync-server-2013"></a>Lync Server 2013 の静的ルーティングコマンドレット
+# <a name="static-routing-cmdlets-in-lync-server-2013"></a>Lync Server 2013 の静的ルーティングのコマンドレット
 
 </div>
 
@@ -35,88 +35,88 @@ ms.locfileid: "41731797"
 
 <span> </span>
 
-_**最終更新日:** 2012-06-20_
+_**トピックの最終更新日:** 2012-06-20_
 
-静的ルートの場合、管理者は SIP メッセージによって取得されたネットワークルートを事前に決めることができます。 サーバーによってメッセージが受信されると、サーバーはメッセージアドレスを確認し、管理者によって構成されている次ホップサーバーにメッセージを転送します。 適切に構成されていれば、静的なルートは、迅速かつ正確にメッセージを配信し、サーバーに最小限の overheard を配置することに役立ちます。
+管理者は静的ルートを使用して、SIP メッセージが経由するネットワーク ルートをあらかじめ設定できます。サーバーはメッセージを受信すると、そのメッセージのアドレスを確認し、管理者があらかじめ設定した次ホップ サーバーに転送します。正しく構成されている場合、静的ルートによって、メッセージを適切なタイミングで正確に配信でき、サーバーにかかるオーバーヘッドが最小限になります。
 
 <div>
 
-## <a name="static-routing-cmdlets"></a>静的なルーティングコマンドレット
+## <a name="static-routing-cmdlets"></a>静的ルーティングのコマンドレット
 
-Microsoft サポート担当者から指示があった場合を除き、Microsoft Lync Server 2013 に対して構成されている静的ルートは、[新しい-CsStaticRoute](https://technet.microsoft.com/en-us/library/Gg398265(v=OCS.15))コマンドレットを使って作成する必要があります。 ルートを作成した後は、CsStaticRoutingConfiguration コマンドレットを使って、そのルートを静的ルーティングコレクションに追加することができます。
+Microsoft サポート担当者から特に指示がない限り、Microsoft Lync Server 2013 用に構成された静的ルートは、[新しい-CsStaticRoute](https://technet.microsoft.com/library/Gg398265(v=OCS.15))コマンドレットを使用して作成する必要があります。 ルートの作成後に、CsStaticRoutingConfiguration コマンドレットを使用して、ルートを静的ルーティング コレクションに追加できます。
 
-**静的なルーティング**
-
-  - <span></span>  
-    [Get-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/en-us/library/Gg398130(v=OCS.15))
+**静的ルーティング**
 
   - <span></span>  
-    [New-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/en-us/library/Gg413041(v=OCS.15))
+    [Get-cssipresponsecodetranslationrule](https://technet.microsoft.com/library/Gg398130(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/en-us/library/Gg412932(v=OCS.15))
+    [Get-cssipresponsecodetranslationrule](https://technet.microsoft.com/library/Gg413041(v=OCS.15))
 
   - <span></span>  
-    [Set-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/en-us/library/Gg425895(v=OCS.15))
+    [Get-cssipresponsecodetranslationrule](https://technet.microsoft.com/library/Gg412932(v=OCS.15))
+
+  - <span></span>  
+    [Get-cssipresponsecodetranslationrule](https://technet.microsoft.com/library/Gg425895(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [新しい-CsStaticRoute](https://technet.microsoft.com/en-us/library/Gg398265(v=OCS.15))
+    [新しい-CsStaticRoute](https://technet.microsoft.com/library/Gg398265(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [CsStaticRoutingConfiguration の取得](https://technet.microsoft.com/en-us/library/Gg398754(v=OCS.15))
+    [-CsStaticRoutingConfiguration の取得](https://technet.microsoft.com/library/Gg398754(v=OCS.15))
 
   - <span></span>  
-    [新しい-CsStaticRoutingConfiguration](https://technet.microsoft.com/en-us/library/Gg425811(v=OCS.15))
+    [新しい-CsStaticRoutingConfiguration](https://technet.microsoft.com/library/Gg425811(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsStaticRoutingConfiguration](https://technet.microsoft.com/en-us/library/Gg398668(v=OCS.15))
+    [-CsStaticRoutingConfiguration の削除](https://technet.microsoft.com/library/Gg398668(v=OCS.15))
 
   - <span></span>  
-    [設定-CsStaticRoutingConfiguration](https://technet.microsoft.com/en-us/library/Gg398724(v=OCS.15))
+    [-CsStaticRoutingConfiguration の設定](https://technet.microsoft.com/library/Gg398724(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [New-CsSipProxyCustom](https://technet.microsoft.com/en-us/library/Gg425904(v=OCS.15))
+    [New-cssipproxycustom](https://technet.microsoft.com/library/Gg425904(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [新規-CsSipProxyRealm](https://technet.microsoft.com/en-us/library/Gg413084(v=OCS.15))
+    [New-cssipproxyrealm](https://technet.microsoft.com/library/Gg413084(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [新規-CsSipProxyTCP](https://technet.microsoft.com/en-us/library/Gg425745(v=OCS.15))
+    [New-cssipproxytcp](https://technet.microsoft.com/library/Gg425745(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [新規-CsSipProxyTLS](https://technet.microsoft.com/en-us/library/Gg398629(v=OCS.15))
+    [New-cssipproxytls](https://technet.microsoft.com/library/Gg398629(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [New-CsSipProxyTransport](https://technet.microsoft.com/en-us/library/Gg398489(v=OCS.15))
+    [New-cssipproxytransport](https://technet.microsoft.com/library/Gg398489(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [新規-CsSipProxyUseDefault](https://technet.microsoft.com/en-us/library/Gg398274(v=OCS.15))
+    [New-cssipproxyusedefault](https://technet.microsoft.com/library/Gg398274(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [新規-CsSipProxyUseDefaultCert](https://technet.microsoft.com/en-us/library/Gg425858(v=OCS.15))
+    [New-cssipproxyusedefaultcert は](https://technet.microsoft.com/library/Gg425858(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [新規-CsIssuedCertId](https://technet.microsoft.com/en-us/library/Gg425814(v=OCS.15))
+    [New-csissuedcertid](https://technet.microsoft.com/library/Gg425814(v=OCS.15))
 
 </div>
 

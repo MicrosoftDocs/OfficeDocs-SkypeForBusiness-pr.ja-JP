@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: デバイス ハードウェアのサポート'
+title: Lync Server 2013 デバイスのハードウェアサポート
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185222
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ea720eda982ab20333e56de268085a706ab2cdc7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e0b4b0f24523044169ae3274ae4d0ff16ae9ff67
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762435"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044989"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="device-hardware-support-in-lync-server-2013"></a>Lync Server 2013 でのデバイス ハードウェアのサポート
+# <a name="device-hardware-support-in-lync-server-2013"></a>Lync Server 2013 でのデバイスハードウェアのサポート
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "41762435"
 
 <span> </span>
 
-_**最終更新日:** 2012-12-14_
+_**トピックの最終更新日:** 2012-12-14_
 
-IP 電話とアナログデバイスを展開する前に、特定のハードウェア構成を行う必要があります。
+IP 電話およびアナログ デバイスを展開する前に、特定のハードウェア構成を設定する必要があります。
 
-Lync Phone Edition を実行している IP 電話は、Link Layer Discovery Protocol-メディア Endpoint Discovery (LLDP-MED) と Power over Ethernet (PoE) をサポートしています。LLDP を利用するには、スイッチは IEEE 802.1 AB と ANSI/TIA-1057 をサポートしている必要があります。 PoE を活用するには、スイッチは PoE 802.3 AF または 802.3 at に対応している必要があります。
+Lync Phone Edition を実行している IP 電話サポート Link Layer Discovery Protocol-Media Endpoint Discovery (LLDP-MED) および Power over Ethernet (PoE)。LLDP-MED を利用するには、スイッチが IEEE802.1AB および ANSI/TIA-1057 をサポートする必要があります。 PoE を利用するには、スイッチが PoE802.3AF または 802.3at をサポートする必要があります。
 
-LLDP を有効にするには、管理者は、[コンソールの切り替え] ウィンドウを使って LLDP を有効にし、適切なボイス VLAN ID を使用して LLDP ネットワークポリシーを設定する必要があります。
+LLDP-MED を有効にするには、管理者がスイッチ コンソール ウィンドウを使用して LLDP を有効にし、LLDP-MED ネットワーク ポリシーに適切な音声 VLAN ID を設定する必要があります。
 
-また、展開にアナログデバイスが含まれている場合は、Lync Server を使用するようにアナログゲートウェイを設定する必要があります。また、ゲートウェイは以下のいずれかである必要があります。
+また、展開にアナログデバイスが含まれている場合は、Lync Server を使用するようにアナログゲートウェイを構成する必要があり、ゲートウェイは次のいずれかである必要があります。
 
   - アナログ電話アダプター (ATA)
 
-  - PSTN アナログゲートウェイ
+  - PSTN アナログ ゲートウェイ
 
-  - PSTN アナログゲートウェイを含む Survivable Branch アプライアンス
+  - PSTN アナログ ゲートウェイを含む存続可能ブランチ アプライアンス
 
-  - ATA と通信する PSTN ゲートウェイが含まれている Survivable Branch アプライアンス
+  - ATA と通信する PSTN ゲートウェイを含む存続可能ブランチ アプライアンス
 
-アナログゲートウェイを構成する方法については、Lync Server 2010 TechNet ライブラリの「 [http://go.microsoft.com/fwlink/p/?LinkId=268537](http://go.microsoft.com/fwlink/p/?linkid=268537)アナログデバイスの展開を計画する」を参照してください。 (アナログデバイス2010は、lync server 2013 での動作と同じように機能します)。
+アナログゲートウェイを構成する方法については、Lync Server 2010 TechNet ライブラリの「 [http://go.microsoft.com/fwlink/p/?LinkId=268537](http://go.microsoft.com/fwlink/p/?linkid=268537)アナログデバイスの展開を計画する」を参照してください。 (Lync server 2010 の場合と同じように、アナログデバイスは Lync Server 2013 でも同様に動作します)。
 
 <div>
 
 
 > [!IMPORTANT]  
-> スイッチでサポートされている場合は、強化された 9-1-1 (E9) のスイッチを構成できます。
+> スイッチがこれをサポートする場合、Enhanced 9-1-1 (E9-1-1) のスイッチを構成できます。
 
 
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48185419
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac7c5a262f5323f28ff089766cab1f4d65e30757
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 23b05a44e139c59dcb0656c2339d67a0e529e59a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732618"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038189"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41732618"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-22_
+_**トピックの最終更新日:** 2012-10-22_
 
-ディレクターは、Microsoft Lync Server 2013 通信ソフトウェアを実行していて、ユーザー要求を認証することはできますが、ユーザーアカウントのホームにはなりません。 このディレクターは、フロントエンドサーバーと同様の web サービスもホストし、web チケット要求を認証し、その他のサービスを提供します。
+ディレクターは、Microsoft Lync Server 2013 の通信ソフトウェアを実行しているサーバーで、ユーザーの要求を認証できますが、ユーザーアカウントは含まれません。 ディレクターは、フロントエンドサーバーに似た web サービスもホストし、web チケット要求を認証し、その他のサービスを提供します。
 
 <div>
 
 
 > [!IMPORTANT]  
-> ディレクターを展開する場合、ディレクター web サービスをリバースプロキシ経由で外部に公開するか、フロントエンドサーバーの web サービスとして公開する必要があります。 以下のトピックでは、可能なディレクタートポロジの計画プロセスについて説明します。
+> ディレクターを展開する場合は、フロントエンドサーバーの web サービスに加えて、リバースプロキシを介してディレクター web サービスを外部に公開する必要があります。 以下のトピックでは、可能なディレクタートポロジの計画プロセスについて説明します。
 
 
 
@@ -51,7 +51,7 @@ _**最終更新日:** 2012-10-22_
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
   - [Lync Server 2013 のディレクターの概要](lync-server-2013-overview-of-the-director.md)
 
@@ -61,7 +61,7 @@ _**最終更新日:** 2012-10-22_
 
   - [Lync Server 2013 の単一ディレクター](lync-server-2013-single-director.md)
 
-  - [Lync Server 2013 の拡張ディレクター プール](lync-server-2013-scaled-director-pool.md)
+  - [Lync Server 2013 の拡張ディレクタープール](lync-server-2013-scaled-director-pool.md)
 
 </div>
 
@@ -70,8 +70,8 @@ _**最終更新日:** 2012-10-22_
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 でサポートされるトポロジ](lync-server-2013-supported-topologies.md)  
-[Lync Server 2013 のサーバー ハードウェア プラットフォーム](lync-server-2013-server-hardware-platforms.md)  
+[Lync Server 2013 でサポートされているトポロジ](lync-server-2013-supported-topologies.md)  
+[Lync Server 2013 のサーバーハードウェアプラットフォーム](lync-server-2013-server-hardware-platforms.md)  
   
 
 </div>

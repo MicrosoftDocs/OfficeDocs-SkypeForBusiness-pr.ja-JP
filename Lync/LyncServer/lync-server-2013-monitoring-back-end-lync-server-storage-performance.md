@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: バックエンドの Lync Server 記憶域のパフォーマンスを監視する'
+title: 'Lync Server 2013: バックエンド Lync Server ストレージのパフォーマンスの監視'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969619
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7c4d3741564cd0228213400d7ee1fbb7271c4ddd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 760e66403fd1da2b5a45cf0db065dc201e1fd02a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756861"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051159"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-back-end-lync-server-2013-storage-performance"></a>バックエンドの Lync Server 2013 ストレージパフォーマンスの監視
+# <a name="monitoring-back-end-lync-server-2013-storage-performance"></a>バックエンド Lync Server 2013 ストレージのパフォーマンスの監視
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41756861"
 
 <span> </span>
 
-_**最終更新日:** 2014-05-02_
+_**トピックの最終更新日:** 2014-05-02_
 
-Lync Server 2013 バックエンドデータベースは、Lync Server 2013 の展開において非常に重要な部分です。 Lync Server 2013 のバックエンドが最適に動作していることを確認するために、データベースとそれぞれのトランザクションログを定期的に監視することをお勧めします。
+Lync Server 2013 のバックエンドデータベースは、Lync Server 2013 の展開において非常に重要な部分です。 Lync Server 2013 のバックエンドが最適に実行されていることを確認するために、データベースとそれぞれのトランザクションログを絶えず監視することをお勧めします。
 
-次の表は、記憶域のパフォーマンスに関する情報を確認するために監視する必要があるパフォーマンスカウンターを示しています。 これらのカウンターのベースライン値は、システムの負荷が高すぎるときにパフォーマンスの変化を理解するために、最初に決定する必要があります (システムが通常、予想される負荷の場合)。
+次の表に、ストレージのパフォーマンスに関する情報を取得するために監視する必要があるパフォーマンスカウンターを示します。 これらのカウンターのベースライン値は、最初に決定する必要があります (システムの負荷が分散されているときに、システムが通常、予想される負荷)。
 
-### <a name="performance-counters-to-be-monitored"></a>監視対象のパフォーマンスカウンター
+### <a name="performance-counters-to-be-monitored"></a>監視するパフォーマンスカウンター
 
 <table>
 <colgroup>
@@ -68,15 +68,15 @@ Lync Server 2013 バックエンドデータベースは、Lync Server 2013 の�
 <td></td>
 </tr>
 <tr class="even">
-<td><p>ログのフラッシュ回数/秒 (RTC)</p></td>
+<td><p>ログのフラッシュ/秒 (RTC)</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>ログのフラッシュ回数/秒 (rtcdyn)</p></td>
+<td><p>ログのフラッシュ/秒 (rtcdyn)</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>ログのフラッシュ回数/秒 (tempdb)</p></td>
+<td><p>ログのフラッシュ/秒 (tempdb)</p></td>
 <td></td>
 </tr>
 <tr class="odd">
@@ -88,11 +88,11 @@ Lync Server 2013 バックエンドデータベースは、Lync Server 2013 の�
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Disk 伝送/sec-rtcdyn db</p></td>
+<td><p>ディスク転送/秒-rtcdyn db</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Disk 伝送/sec-rtcdyn ログ</p></td>
+<td><p>ディスク転送/sec-rtcdyn ログ</p></td>
 <td></td>
 </tr>
 </tbody>

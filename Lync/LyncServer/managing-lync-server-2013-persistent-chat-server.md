@@ -12,16 +12,16 @@ ms:contentKeyID: 48184672
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 067e24a7e1534e355e39f80b6a3fda90e059be14
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bdbf0c6e28cfefa46eb55a66446bf5e3adec3e36
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757151"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051249"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,43 +35,43 @@ ms.locfileid: "41757151"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-11_
+_**トピックの最終更新日:** 2012-10-11_
 
-Lync Server 2013 の常設チャットサーバーを使用して、複数のユーザーが、テキスト、リンク、ファイルなどの特定のトピックに関するコンテンツを投稿してアクセスできるようにすることができます。 ユーザーはセッション中にリアルタイムで通信することができますが、各セッションのコンテンツは永続的であり、セッションが終了した後も引き続き利用可能であることを意味します。
+Lync Server 2013 の常設チャットサーバーを使用すると、複数のユーザーが、特定のトピック (テキスト、リンク、ファイルなど) に関するコンテンツを投稿してアクセスできるようにする会話に参加することができます。 ユーザーはセッション中にリアルタイムで通信することができますが、各セッションの内容は永続的です。つまり、セッションが終了した後も引き続き利用可能であることを意味します。
 
-常設チャットルームの内容は、主に短いテキストメッセージで構成されていますが、*ストーリー*と呼ばれる長いメッセージと、ハイパーリンク、絵文字、アップロードされたドキュメントにも含めることができます。
+常設チャットルームの内容は、主に短いテキストメッセージで構成されていますが、長いメッセージ (*ストーリー*と呼ばれる) と、ハイパーリンク、絵文字、アップロードされたドキュメントも含めることができます。
 
 <div>
 
 
 > [!NOTE]  
-> ファイルのアップロードとダウンロードは Lync 2013 クライアントでサポートされていません。ただし、引き続き Lync Server 2013 の常設チャットサーバーでサポートされています。 従来のグループチャットクライアントでは、ファイルの投稿と表示はできますが、Lync 2013 クライアント経由で同じチャットルームにアクセスした場合、ファイルにアクセスすることはできません。
+> ファイルのアップロードとダウンロードは、Lync 2013 クライアントではサポートされていません。ただし、Lync Server 2013 の常設チャットサーバーでは引き続きサポートされています。 従来のグループチャットクライアントはファイルを投稿および表示できますが、Lync 2013 クライアント経由で同じチャットルームにアクセスすると、ファイルにアクセスできなくなります。
 
 
 
 </div>
 
-チャットルームへのアクセスは、メンバーシップリストによって制御されます。 チャットルームの履歴全体は、時系列レビューまたはフルテキスト検索のいずれかのメンバーが利用できます。 常設チャットクライアントの使用について詳しくは、「計画ドキュメントの[Lync server 2013 でのクライアントの計画](lync-server-2013-planning-for-clients.md)」をご覧ください。展開ドキュメントの[lync server 2013 でクライアントとデバイスを展開](lync-server-2013-deploying-clients-and-devices.md)してください。
+チャット ルームへのアクセスは、メンバーシップ一覧によって管理されます。 どのメンバーも、チャット ルームの全履歴を時系列で確認したり、全文検索に使用したりできます。 常設チャットクライアントの使用の詳細については、「展開」のドキュメントの「計画」のドキュメントの「 [Lync server 2013 でのクライアント](lync-server-2013-planning-for-clients.md)とデバイスの展開」および「 [lync server 2013 でのクライアントとデバイスの展開](lync-server-2013-deploying-clients-and-devices.md)」を参照してください。
 
-組織に常設チャットサーバーを設定する場合は、展開時に初期構成を指定します。 ただし、常設チャットサーバーサポートの実装方法を変更する必要がある場合もあります。 たとえば、組織内の特定のチームまたはグループに対して、常設チャットサーバーのサポートとコントロールを設定する必要がある場合があります。 このセクションには、常設チャットサーバーの展開をカスタマイズするための情報と手順が記載されています。 常設チャットサーバー用に構成できる機能の詳細については、計画ドキュメントの「 [Lync server 2013 での常設チャットサーバーに関する組織の要件の定義](lync-server-2013-defining-your-requirements-for-persistent-chat-server.md)」と「計画ドキュメント、展開ドキュメント、または運用ドキュメント」の「 [lync server 2013 での常設チャットサーバーの動作](lync-server-2013-how-persistent-chat-server-works.md)」を参照してください。 Lync Server 2013 用の常設チャットサーバーの展開について詳しくは、展開ドキュメントの「 [Lync server 2013 での常設チャットサーバーの展開](lync-server-2013-deploying-persistent-chat-server.md)」をご覧ください。
+組織に常設チャットサーバーを設定するときは、展開時に初期構成を指定します。 ただし、常設チャットサーバーのサポートの実装方法を変更する必要がある場合があります。 たとえば、組織内の特定のチームまたはグループに対して、常設チャットサーバーのサポートとコントロールを設定する必要がある場合があります。 このセクションでは、常設チャットサーバーの展開をカスタマイズするのに役立つ情報と手順について説明します。 常設チャットサーバー用に構成できる機能の詳細については、「計画」のドキュメントの「 [Lync server 2013 での組織の要件の定義](lync-server-2013-defining-your-requirements-for-persistent-chat-server.md)」および「計画」、「展開」、または「操作」のドキュメントの「 [lync server 2013 で](lync-server-2013-how-persistent-chat-server-works.md)の常設チャットサーバーの動作」を参照してください。 Lync Server 2013 用の常設チャットサーバーの展開の詳細については、「展開」のドキュメントの「展開,[常設チャットサーバーを Lync server 2013 に展開](lync-server-2013-deploying-persistent-chat-server.md)する」を参照してください。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 での常設チャットサーバーの動作方法](lync-server-2013-how-persistent-chat-server-works.md)
+  - [Lync Server 2013 での常設チャットサーバーの動作](lync-server-2013-how-persistent-chat-server-works.md)
 
-  - [カテゴリを使用して常設チャット サーバーを管理する](using-categories-to-administer-persistent-chat-server.md)
+  - [カテゴリを使用して常設チャットサーバーを管理する](using-categories-to-administer-persistent-chat-server.md)
 
   - [常設チャットのメンバーシップについて](understanding-persistent-chat-membership.md)
 
-  - [常設チャット サーバーのベスト プラクティス](persistent-chat-server-best-practices.md)
+  - [常設チャットサーバーのベストプラクティス](persistent-chat-server-best-practices.md)
 
   - [Lync Server 2013 でのカテゴリ、ルーム、およびアドインの管理](lync-server-2013-managing-categories-rooms-and-add-ins.md)
 
-  - [Lync Server 2013 での常設チャットのユーザー アクセスの管理](lync-server-2013-managing-persistent-chat-user-access.md)
+  - [Lync Server 2013 での常設チャットのユーザーアクセスの管理](lync-server-2013-managing-persistent-chat-user-access.md)
 
-  - [Lync Server 2013 での常設チャット システムの運用および保守](lync-server-2013-operating-and-maintaining-the-persistent-chat-system.md)
+  - [Lync Server 2013 での常設チャットシステムの運用と保守](lync-server-2013-operating-and-maintaining-the-persistent-chat-system.md)
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 51803934
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 69afbc1dbb33f43f8ed6a1f056f7d4a610b110c4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ebeb81c97e92cc305c3f1bec78f6c59aeb62d978
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756751"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047361"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41756751"
 
 _**トピックの最終更新日:** 2013-02-20_
 
-「 **Csmove room** 」コマンドレットを使用して、1つのレジストラープールから別の場所に会議デバイスを移動します。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。
+会議デバイスを1つのレジストラープールから別のレジストラープールに移動するには、「 **move-Csroom room**コマンドレット」を使用します。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。
 
 <div>
 
@@ -56,13 +56,13 @@ _**トピックの最終更新日:** 2013-02-20_
 
 ## <a name="moving-a-conferencing-device-to-a-new-registrar-pool"></a>会議デバイスを新しいレジストラープールに移動する
 
-  - 会議デバイスを移動するには、移動するチャットルームの id を指定する必要があります。その後、ターゲットパラメーターに、デバイスの移動先のレジストラープールの完全修飾ドメイン名 (FQDN) を設定する必要があります。 次に例を示します。
+  - 会議デバイスを移動するには、移動する会議室の id を指定し、ターゲットパラメーターを、デバイスの移動先となるレジストラープールの完全修飾ドメイン名 (FQDN) に設定する必要があります。 例:
     
         Move-CsMeetingRoom -Target "atl-cs-001.litwareinc.com" -Identity "Room 14"
 
 </div>
 
-詳細については、「 [Csroom 会議室の移動](https://docs.microsoft.com/powershell/module/skype/Move-CsMeetingRoom)」コマンドレットのヘルプトピックを参照してください。
+詳細については、「 [Move-Csroom room](https://docs.microsoft.com/powershell/module/skype/Move-CsMeetingRoom) 」コマンドレットのヘルプトピックを参照してください。
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48183662
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e05a56d30167f2e20a383cde9fcfaaa70418e650
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 69761715846cd65a44fe34c9c8465101e9ceb681
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745207"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045449"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="topologies-for-ip-phones-in-lync-server-2013"></a>Lync Server 2013 の IP 電話のトポロジ
+# <a name="topologies-for-ip-phones-in-lync-server-2013"></a>Lync Server 2013 での IP 電話のトポロジ
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41745207"
 
 <span> </span>
 
-_**最終更新日:** 2012-06-21_
+_**トピックの最終更新日:** 2012-06-21_
 
-このセクションでは、接続プロセスの概要について説明し、IP 電話が内部と外部のネットワークで接続する方法の違いについて説明します。
+ここでは、接続プロセスの概要を示し、内部ネットワークと外部ネットワークでの IP 電話の接続方法の違いを説明します。
 
 <div>
 
 
 > [!NOTE]  
-> Lync Server では、次の IP 電話のサポートが提供されます: Aastra 6721ip 共通エリアフォン、Aastra 6721ip 卓上電話、HP 4110 IP 電話 (共通エリア電話)、HP 4120 IP 電話 (卓上電話)、Polycom CX600 ip 卓上電話、Polycom CX700 ip 卓上電話、Polycom CX500 IP一般的なエリア電話と Polycom CX3000 IP 会議電話。 これらの携帯電話では、Polycom CX700 以外はすべて Lync Phone Edition を実行できます。
+> Lync Server は、次の IP 電話のサポートを提供します。 Aastra 6721ip 共通領域電話、Aastra 6721ip 卓上電話、HP 4110 IP 電話 (共通領域電話)、HP 4120 IP 電話 (デスク電話)、Polycom CX600 IP デスク電話、Polycom CX700 IP 卓上電話、Polycom CX500 IP共通領域電話、Polycom CX3000 IP 電話会議 これらの電話の場合、Polycom CX700 以外はすべて Lync Phone Edition を実行できます。
 
 
 
 </div>
 
-次の図は、企業環境内のデバイス接続に関連するすべてのコンポーネントについて説明しています。
+次の図では、企業環境内でのデバイス接続に関係するすべてのコンポーネントを説明します。
 
 **内部トポロジ**
 
@@ -59,13 +59,13 @@ _**最終更新日:** 2012-06-21_
 
 
 > [!NOTE]  
-> 上の図は論理的な表現であり、物理的な概要ではありません。 たとえば、Active Directory ドメインサービス (AD DS) は、Lync Server コンポーネントと同じコンピューター上に存在することはほとんどありません。 ユーザーストアはバックエンドサーバーまたはアーカイブおよび監視サーバー上に配置できます。 Lync Server 管理シェル、web サーバー、更新サービスはすべて、フロントエンドサーバーの役割の一部です。
+> 前の図は論理的な表現であり、物理的な概要ではありません。 たとえば、Active Directory ドメインサービス (AD DS) は、ほとんどの場合、すべての Lync Server コンポーネントと同じコンピューターに配置されます。 ユーザー ストアは、バックエンド サーバー上、またはアーカイブ サーバーおよび監視サーバー上に配置できます。 Lync Server 管理シェル、web サーバー、更新サービスは、すべてフロントエンドサーバーの役割の一部です。
 
 
 
 </div>
 
-次の図は、デバイスが企業ネットワークの外部にある場合に関連するコンポーネントの概要を示しています。
+次の図では、デバイスが企業ネットワークの外部に配置される場合に関係するコンポーネントの概要を示します。
 
 **外部トポロジ**
 
@@ -75,7 +75,7 @@ _**最終更新日:** 2012-06-21_
 
 
 > [!NOTE]  
-> デバイス更新 Web サービスでは、外部と内部の web サイトが提供されますが、外部の web サイトのみがここに表示されます。<BR>外部アクセスを有効にするには、レジストラーの場所と、組織のデバイス更新 Web サービスの URL が DNS に公開されている必要があります。 さらに、エッジサーバーを展開し、デバイスから企業環境への外部通信を許可するように適切に構成する必要があります。 Edge の展開はデバイス接続に固有ではないため、前の図では省略します。
+> デバイス更新 Web サービスは、外部および内部の Web サイトを提供しますが、ここでは外部の Web サイトだけを示しています。<BR>外部アクセスを有効にする場合は、レジストラーの場所、および組織に対するデバイス更新 Web サービスの URL を DNS で公開する必要があります。さらに、エッジ サーバーを展開し、デバイスと企業環境の間の双方向の外部通信を許可するように適切に構成する必要があります。エッジの展開がデバイスの接続に固有ではないので、前の図ではこれは省略されています。
 
 
 

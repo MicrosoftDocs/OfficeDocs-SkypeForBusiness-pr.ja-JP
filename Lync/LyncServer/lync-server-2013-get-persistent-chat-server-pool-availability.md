@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 常設チャット サーバー プールの状態を取得する'
+title: 'Lync Server 2013: 常設チャットサーバープールの可用性の取得'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184322
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 065a677400775c33f89521f8dce213cde67007ae
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: efc7758e46a0d05d0e543def60486e2ef48d3dcb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765115"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037919"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="get-persistent-chat-server-pool-availability-in-lync-server-2013"></a>Lync Server 2013 で常設チャット サーバー プールの状態を取得する
+# <a name="get-persistent-chat-server-pool-availability-in-lync-server-2013"></a>Lync Server 2013 で常設チャットサーバープールの可用性を取得する
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41765115"
 
 <span> </span>
 
-_**最終更新日:** 2012-03-23_
+_**トピックの最終更新日:** 2012-03-23_
 
 常設チャットサーバープールの可用性を取得するには
 

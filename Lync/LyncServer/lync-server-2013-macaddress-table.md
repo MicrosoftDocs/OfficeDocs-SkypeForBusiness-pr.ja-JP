@@ -12,16 +12,16 @@ ms:contentKeyID: 48184963
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b9bf888e7e04f60fc8c1e06e4ef4ab4e9d9e0f3d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f855b09e0174c9688aa122f97736e86ed7f2fdf9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765315"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037587"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41765315"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-02_
+_**トピックの最終更新日:** 2012-10-02_
 
-MacAddress テーブルは、サポートテーブルです。 各レコードは1つのソースを表します。
+MacAddress テーブルは補助的なテーブルです。個々のレコードが 1 つのソースを表します。
 
 
 <table>
@@ -60,13 +60,13 @@ MacAddress テーブルは、サポートテーブルです。 各レコード�
 <td><p><strong>MacAddressKey</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>Mac アドレスを識別する一意の番号。</p></td>
+<td><p>MAC アドレスを識別する一意の番号。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>MacAddress</strong></p></td>
 <td><p>varchar (256)</p></td>
 <td><p>一意</p></td>
-<td><p>Mac アドレス文字列。</p></td>
+<td><p>MAC アドレス文字列。</p></td>
 </tr>
 </tbody>
 </table>

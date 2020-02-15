@@ -12,16 +12,16 @@ ms:contentKeyID: 51541452
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4185c02bc85077b0f68ca76d83fd48203e0e5fd9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0a6614a06ea4e5370dd944940d35a690853c171b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727917"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045079"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,37 +35,37 @@ ms.locfileid: "41727917"
 
 <span> </span>
 
-_**最終更新日:** 2014-04-23_
+_**トピックの最終更新日:** 2014-04-23_
 
-次の手順では、Lync Server Management Shell コマンドレットを使用して、コアサービスの設定とデータのバックアップファイルを作成します。 このセクションで使用されるツールの詳細については、「 [Lync Server 2013 のバックアップと復元の要件](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md)」を参照してください。ツールと権限。 アーカイブと監視データのバックアップの詳細については、「 [Lync Server 2013 でのアーカイブと監視データベースのバックアップ](lync-server-2013-backing-up-archiving-and-monitoring-databases.md)」を参照してください。
+次の手順では、Lync Server 管理シェルコマンドレットを使用して、コアサービスの設定とデータのバックアップファイルを作成します。 このセクションで使用されているツールの詳細については、「 [Lync Server 2013 のバックアップと復元の要件](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md)」を参照してください。ツールとアクセス許可。 アーカイブおよび監視データのバックアップの詳細については、「 [Lync Server 2013 でのアーカイブおよび監視データベースのバックアップ](lync-server-2013-backing-up-archiving-and-monitoring-databases.md)」を参照してください。
 
 <div>
 
 
 > [!NOTE]  
-> このセクションの中央管理ストアをバックアップする手順には、アーカイブと監視の設定と構成が含まれます。
+> 中央管理ストアをバックアップするためのこのセクションの手順には、アーカイブと監視の設定と構成が含まれます。
 
 
 
 </div>
 
-このセクションで説明されているコマンドレットは、ローカルまたはリモートで実行できます。
+ここで説明するコマンドレットは、ローカルでもリモートでも実行できます。
 
 <div>
 
-## <a name="to-back-up-core-data-and-settings"></a>コアデータと設定をバックアップするには
+## <a name="to-back-up-core-data-and-settings"></a>コア データおよび設定をバックアップするには
 
-1.  RTCUniversalServerAdmins グループのメンバーであるユーザーアカウントから、社内展開の任意のコンピューターにログオンします。
+1.  RTCUniversalServerAdmins グループのメンバーであるユーザー アカウントから、内部展開内の任意のコンピューターにログオンします。
 
-2.  次の手順で作成したバックアップを保存するには、新しい共有フォルダーを作成し、 **$Backup**によって参照されるパスを新しい共有フォルダーに更新します。
+2.  以下の手順で作成するバックアップを格納するため、新しい共有フォルダーを作成し、**$Backup** によって参照されているパスを新しい共有フォルダーに更新します。
 
-3.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+3.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
-4.  一元管理ストア構成ファイルをバックアップします。 コマンドラインで、次のように入力します。
+4.  中央管理ストア構成ファイルをバックアップします。 コマンドラインで、次のように入力します。
     
         Export-CsConfiguration -FileName <path and file name for backup>
     
-    次に例を示します。
+    例:
     
         Export-CsConfiguration -FileName "C:\Config.zip"
     
@@ -73,14 +73,14 @@ _**最終更新日:** 2014-04-23_
     
 
     > [!NOTE]  
-    > この手順では、Lync サーバーのトポロジ、ポリシー、構成の設定をファイルにエクスポートします。 トポロジデータをバックアップするために、他の手順は必要ありません。
+    > この手順では、Lync Server のトポロジ、ポリシー、および構成設定をファイルにエクスポートします。 トポロジ データをバックアップするために他の手順は必要ありません。
 
     
     </div>
 
-5.  バックアップされた全体管理ストア構成ファイルを $Backup\\にコピーします。
+5.  バックアップした中央管理ストア構成ファイルを $Backup\\にコピーします。
 
-6.  位置情報サービスのデータをバックアップします。 コマンドラインで、次のように入力します。
+6.  場所情報サービスのデータをバックアップします。コマンド ラインで、次のように入力します。
     
         Export-CsLisConfiguration -FileName <path and file name for backup>
     
@@ -88,19 +88,19 @@ _**最終更新日:** 2014-04-23_
     
         Export-CsLisConfiguration -FileName "C:\E911Config.zip"
 
-7.  バックアップされた場所情報サービス構成ファイルを $Backup\\にコピーします。
+7.  バックアップした場所情報サービス構成ファイルを $Backup\\にコピーします。
 
-8.  フロントエンドプールおよびすべての Standard Edition サーバーの各バックエンドデータベースで、ユーザーデータをバックアップします。 コマンドラインで、次のように入力します。
+8.  フロントエンドプールおよびすべての Standard Edition サーバーのすべてのバックエンドデータベースについて、ユーザーデータをバックアップします。 コマンドラインで、次のように入力します。
     
         Export-CsUserData -PoolFQDN <Fqdn> -FileName <String>
     
-    次に例を示します。
+    例:
     
         Export-CsUserData -PoolFQDN "atl-cs-001.litwareinc.com" -FileName "C:\Logs\ExportedUserData.zip"
 
-9.  バックアップされたユーザーファイルを $Backup\\にコピーします。
+9.  バックアップしたユーザーファイルを $Backup\\にコピーします。
 
-10. 応答グループアプリケーションを実行するすべてのプールで、応答グループの構成をバックアップします。 次の手順を実行します。
+10. 応答グループアプリケーションが実行されているすべてのプールで、応答グループ構成をバックアップします。 次の操作を実行してください。
     
     1.  コマンドラインで、次のように入力します。
         

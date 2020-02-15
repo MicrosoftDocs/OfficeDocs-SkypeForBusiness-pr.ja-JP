@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 応答グループの障害復旧手順'
+title: Lync Server 2013 応答グループの障害復旧手順
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185171
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5325f84ff5bf5a0f8d9d1a856110e0ac18b37d93
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 73b5dba010da09fb20c96ca6b14de2f881e32b60
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723627"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051701"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41723627"
 
 <span> </span>
 
-_**最終更新日:** 2012-11-01_
+_**トピックの最終更新日:** 2012-11-01_
 
-障害回復のフェールオーバーフェーズでは、応答グループは、プライマリプール (使用できない) とバックアッププールの複数のプールに存在します。 両方のプールの応答グループの名前が同じであり、所有者が同じ所有者 (プライマリプール) であるが、それぞれの親が異なっている。 このとき、応答グループコマンドレットの動作は少し異なります。 次の手順で示されているように、必ずパラメーターを使用してください。 フェールオーバーフェーズでのコマンドレットの動作の詳細については、「NextHop ブログ」「Lync Server 2013: ディザスターリカバリー中[http://go.microsoft.com/fwlink/p/?LinkId=263957](http://go.microsoft.com/fwlink/p/?linkid=263957)の応答グループの回復」を参照してください。 このブログ記事は、リリース版の Lync Server 2013 にも適用されます。
+障害復旧のフェールオーバー フェーズ中、応答グループは (使用できない) プライマリ プールとバックアップ プールという複数のプールに存在します。 どちらのプールでも応答グループの名前と所有者 (プライマリ プール) は同じですが、その親は異なります。 この間、応答グループコマンドレットの動作は少し異なります。 次の手順で指定されているように、必ずパラメーターを使用してください。 フェールオーバーフェーズ中のコマンドレットの動作の詳細については、「NextHop blog 記事 "Lync Server 2013: Disaster Recovery の[http://go.microsoft.com/fwlink/p/?LinkId=263957](http://go.microsoft.com/fwlink/p/?linkid=263957)間の応答グループの回復」を参照してください。 このブログ記事は、リリース版の Lync Server 2013 にも適用されます。
 
-Lync Server 応答グループサービスの障害回復を準備して実行するには、次の手順に従います。
+Lync Server Response Group service の障害復旧を準備および実行するには、以下の手順を使用します。
 
 <div>
 
-## <a name="to-fail-over-and-fail-back-response-group"></a>フェールオーバーと応答の返信グループをフェイルバックするには
+## <a name="to-fail-over-and-fail-back-response-group"></a>応答グループをフェールオーバーおよびフェールバックするには
 
-1.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+1.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
-2.  定期的にバックアップを実行します。 コマンドラインで、次のように入力します。
+2.  定期的にバックアップを実行します。コマンドラインで、次のように入力します。
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:<primary pool FQDN>" -FileName "<backup path and file name>"
     
@@ -55,11 +55,11 @@ Lync Server 応答グループサービスの障害回復を準備して実行�
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:primary.contoso.com" -FileName "C:\RgsExportPrimary.zip"
 
-3.  停止中は、バックアッププールにフェールオーバーした後、バックアッププールに応答グループをインポートします。 コマンド ラインで次を入力します。
+3.  停止中、バックアップ プールにフェールオーバーした後で、応答グループをバックアップ プールにインポートします。コマンドラインで、次のように入力します。
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:<backup pool FQDN>" -FileName "<backup path and file name>"
     
-    バックアッププール内のアプリケーションレベルの設定をプライマリプールの設定で置き換える場合は、– ReplaceExistingSettings パラメーターを指定します。 次に例を示します。
+    バックアップ プールのアプリケーションレベルの設定をプライマリ プールの設定に置き換える場合は、–ReplaceExistingSettings パラメーターを含めます。次に例を示します。
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:backup.contoso.com" -FileName "C:\RgsExportPrimary.zip" -ReplaceExistingSettings
     
@@ -67,14 +67,14 @@ Lync Server 応答グループサービスの障害回復を準備して実行�
     
 
     > [!WARNING]  
-    > バックアッププールの設定を変更せずに、プライマリプールを復元できない場合、プライマリプールの設定は失われます。 詳細については、「 <A href="lync-server-2013-planning-for-response-group-disaster-recovery.md">Lync Server 2013 での応答グループの障害回復の計画</A>」を参照してください。
+    > バックアップ プールの設定を置き換えず、プライマリ プールを復元できない場合、プライマリ プールの設定は失われます。 詳細については、「 <A href="lync-server-2013-planning-for-response-group-disaster-recovery.md">Lync Server 2013 で応答グループの障害復旧を計画する</A>」を参照してください。
 
     
     </div>
 
-4.  インポートされた応答グループを表示して、インポートが正常に完了したことを確認します。 インポートされた応答グループは、依然としてプライマリプールによって所有されます。 次の手順を実行します。
+4.  インポートされた応答グループを表示して、インポートが成功したことを確認します。インポートされた応答グループはプライマリ プールに所有されたままです。次の手順を実行してください。
     
-      - プライマリプールによって所有されているバックアッププール内のすべてのワークフローを表示し、プライマリプールワークフローがすべて含まれていることを確認します。 コマンドラインで、次のように入力します。
+      - プライマリ プールに所有されているバックアップ プールのすべてのワークフローを表示し、プライマリ プールのワークフローがすべて含まれていることを確認します。コマンドラインで、次のように入力します。
         
             Get-CsRgsWorkflow -Identity "service:ApplicationServer:<backup pool FQDN>" -Owner "service:ApplicationServer"<primary pool FQDN>
         
@@ -82,7 +82,7 @@ Lync Server 応答グループサービスの障害回復を準備して実行�
         
             Get-CsRgsWorkflow -Identity "service:ApplicationServer:backup.contoso.com" -Owner "service:ApplicationServer:primary.contoso.com"
     
-      - プライマリプールによって所有されているバックアッププール内のすべてのキューを表示し、すべてのプライマリプールキューが含まれていることを確認します。 コマンドラインで、次のように入力します。
+      - プライマリ プールに所有されているバックアップ プールのすべてのキューを表示し、プライマリ プールのキューがすべて含まれていることを確認します。コマンドラインで、次のように入力します。
         
             Get-CsRgsQueue -Identity "service:ApplicationServer:<backup pool FQDN>" -Owner "service:ApplicationServer"<primary pool FQDN>
         
@@ -90,7 +90,7 @@ Lync Server 応答グループサービスの障害回復を準備して実行�
         
             Get-CsRgsQueue -Identity "service:ApplicationServer:backup.contoso.com" -Owner "service:ApplicationServer"primary.contoso.com"
     
-      - プライマリプールによって所有されているバックアッププール内のすべてのエージェントグループを表示し、プライマリプールエージェントグループがすべて含まれていることを確認します。 コマンドラインで、次のように入力します。
+      - プライマリ プールに所有されているバックアップ プールのすべてのエージェント グループを表示し、プライマリ プールのエージェント グループがすべて含まれていることを確認します。コマンドラインで、次のように入力します。
         
             Get-CsRgsAgentGroup -Identity "service:ApplicationServer:<backup pool FQDN>" -Owner "service:ApplicationServer"<primary pool FQDN>
         
@@ -98,7 +98,7 @@ Lync Server 応答グループサービスの障害回復を準備して実行�
         
             Get-CsRgsAgentGroup -Identity "service:ApplicationServer:backup.contoso.com" -Owner "service:ApplicationServer"primary.contoso.com"
     
-      - プライマリプールによって所有されているバックアッププール内のビジネス時間をすべて表示し、プライマリプールのすべての業務時間が含まれていることを確認します。 コマンドラインで、次のように入力します。
+      - プライマリ プールに所有されているバックアップ プールのすべての営業時間を表示し、プライマリ プールの営業時間がすべて含まれていることを確認します。コマンドラインで、次のように入力します。
         
             Get-CsRgsHoursOfBusiness -Identity "service:ApplicationServer:<backup pool FQDN>" -Owner "service:ApplicationServer"<primary pool FQDN>
         
@@ -106,7 +106,7 @@ Lync Server 応答グループサービスの障害回復を準備して実行�
         
             Get-CsRgsHoursOfBusiness -Identity "service:ApplicationServer:backup.contoso.com" -Owner "service:ApplicationServer"primary.contoso.com"
     
-      - プライマリプールによって所有されているバックアッププール内のすべての休日セットを表示し、すべてのプライマリプールの休日セットが含まれていることを確認します。 コマンドラインで、次のように入力します。
+      - プライマリ プールに所有されているバックアップ プールのすべての休日セットを表示し、プライマリ プールの休日セットがすべて含まれていることを確認します。コマンドラインで、次のように入力します。
         
             Get-CsRgsHolidaySet -Identity "service:ApplicationServer:<backup pool FQDN>" -Owner "service:ApplicationServer"<primary pool FQDN>
         
@@ -114,7 +114,7 @@ Lync Server 応答グループサービスの障害回復を準備して実行�
         
             Get-CsRgsHolidaySet -Identity "service:ApplicationServer:backup.contoso.com" -Owner "service:ApplicationServer"primary.contoso.com"
     
-    または、[-Owner] パラメーターの代わりに– ShowAll パラメーターを使用して、プライマリプールに所有されているものとバックアッププールに所有されているものを含め、すべての応答グループをバックアッププールに表示することができます。 次に例を示します。
+    また、–Owner パラメーターの代わりに –ShowAll パラメーターを使用して、バックアップ プールのすべての応答グループを表示することもできます。これには、プライマリ プールに所有されているものと、バックアップ プールに所有されているものが含まれます。次に例を示します。
     
         Get-CsRgsWorkflow -Identity "service:ApplicationServer:<backup pool FQDN>" -ShowAll
     
@@ -122,14 +122,14 @@ Lync Server 応答グループサービスの障害回復を準備して実行�
     
 
     > [!IMPORTANT]  
-    > – ShowAll パラメーターまたは– Owner パラメーターのいずれかを使用する必要があります。 これらのパラメーターのどちらも使用しない場合、バックアッププールにインポートした応答グループは、コマンドレットによって返される結果に一覧表示されません。
+    > –ShowAll パラメーターと –Owner パラメーターはどちらかを使用する必要があります。これらのパラメーターのいずれも使用しない場合、バックアップ プールにインポートした応答グループはコマンドレットによって返される結果に表示されません。
 
     
     </div>
 
-5.  インポートされた応答グループに通話を発信し、通話が正しく処理されていることを確認して、インポートが成功したことを確認します。
+5.  インポートが正常に完了したことを確認します。そのためには、インポートされた応答グループに電話をかけて通話が正常に処理されることを確認します。
 
-6.  バックアッププールのエージェントグループにサインインするために、正式なエージェントグループのメンバーであるエージェントを要求します。
+6.  公式エージェント グループのメンバーであるエージェントに、バックアップ プールのエージェント グループにサインインするよう要求します。
 
 7.  インポートした応答グループを通常どおりに管理および変更します。
     
@@ -137,16 +137,16 @@ Lync Server 応答グループサービスの障害回復を準備して実行�
     
 
     > [!IMPORTANT]  
-    > 応答グループはバックアッププールに含まれていますが、Lync Server 管理シェルを使用してそれらを管理する必要があります。 Lync Server コントロールパネルを使用して、バックアッププールにインポートした応答グループを管理することはできません。
+    > 応答グループがバックアッププールにある間は、Lync Server 管理シェルを使用してそれらを管理する必要があります。 Lync Server コントロールパネルを使用して、バックアッププールにインポートした応答グループを管理することはできません。
 
     
     </div>
 
-8.  プライマリプールが復元され、フェールバックが完了したら、バックアッププールにインポートされたプライマリプール応答グループをエクスポートします。 コマンド ラインで次を入力します。
+8.  プライマリ プールが復元されてフェールバックが完了したら、バックアップ プールにインポートされたプライマリ プールの応答グループをエクスポートします。コマンドラインで、次のように入力します。
     
         Export-CsRgsConfiguration -Source ApplicationServer:<backup pool FQDN> -Owner ApplicationServer:<primary pool FQDN> -FileName "<backup path and file name>"
 
-9.  応答グループをプライマリプールにインポートします。 コマンドラインで、次のように入力します。
+9.  応答グループをプライマリ プールに再びインポートします。コマンドラインで、次のように入力します。
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:<primary pool FQDN>" -OverwriteOwner -FileName "<exported path and file name>"
     
@@ -158,12 +158,12 @@ Lync Server 応答グループサービスの障害回復を準備して実行�
     
 
     > [!NOTE]  
-    > 回復中にプールを再構築する場合、同一または別の完全修飾ドメイン名 (FQDN) を使用している場合は、– OverwriteOwner パラメーターを使う必要があります。 原則として、応答グループをプライマリプールにインポートするときに、常に– OverwriteOwner パラメーターを使うことができます。
+    > 復旧中にプールを構築し直す場合は、完全修飾ドメイン名 (FQDN) を同じにするか別にするかにかかわらず、–OverwriteOwner パラメーターを使用する必要があります。大まかには、プライマリ プールに応答グループを再びインポートするときは常に –OverwriteOwner パラメーターを使用することができます。
 
     
     </div>
     
-    新しいプール (同じまたは別の FQDN を含む) を展開して、プライマリプールの代わりにバックアッププールのアプリケーションレベルの設定を使用する場合は、– ReplaceExistingSettings パラメーターを含めます。 コマンドラインで、次のように入力します。
+    (同じまたは異なる完全修飾ドメイン名 (FQDN) の) 新しいプールを展開してプライマリ プールを置き換え、新しいプールにバックアップ プールからのアプリケーションレベルの設定を使用する場合は、–ReplaceExistingSettings パラメータを含めます。コマンドラインで、次のように入力します。
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:<new primary pool FQDN>" -OverwriteOwner -FileName "<exported path and file name>" -ReplaceExistingSettings
     
@@ -175,14 +175,14 @@ Lync Server 応答グループサービスの障害回復を準備して実行�
     
 
     > [!IMPORTANT]  
-    > 新しいプールのアプリケーションレベルの設定と既定の音楽の保留オーディオファイルをバックアッププールの設定で置き換える必要がない場合は、新しいプールで既定のアプリケーションレベルの設定が使用されます。
+    > 新しいプールのアプリケーションレベルの設定と既定の保留音のオーディオ ファイルをバックアップ プールからの設定に置き換えない場合、新しいプールは既定のアプリケーションレベルの設定を使用します。
 
     
     </div>
 
-10. インポートされた応答グループの構成を表示して、プライマリプールへのインポートが正常に完了したことを確認します。 次の手順を実行します。
+10. 再びインポートされた応答グループ構成を表示して、プライマリ プールへのインポートが成功したことを確認します。次の手順を実行してください。
     
-      - プライマリプール内のすべてのワークフローを表示し、インポートされたすべてのワークフローが含まれていることを確認します。 コマンドラインで、次のように入力します。
+      - プライマリ プールのすべてのワークフローを表示して、インポートされたワークフローがすべて含まれていることを確認します。コマンドラインで、次のように入力します。
         
             Get-CsRgsWorkflow -Identity "service:ApplicationServer:<primary pool FQDN>" -ShowAll
         
@@ -190,7 +190,7 @@ Lync Server 応答グループサービスの障害回復を準備して実行�
         
             Get-CsRgsWorkflow -Identity "service:ApplicationServer: primary.contoso.com" -ShowAll
     
-      - プライマリプール内のすべてのキューを表示し、インポートされたすべてのキューが含まれていることを確認します。 コマンドラインで、次のように入力します。
+      - プライマリ プールのすべてのキューを表示して、インポートされたキューがすべて含まれていることを確認します。コマンドラインで、次のように入力します。
         
             Get-CsRgsQueue -Identity "service:ApplicationServer:<primary pool FQDN>" -ShowAll
         
@@ -198,7 +198,7 @@ Lync Server 応答グループサービスの障害回復を準備して実行�
         
             Get-CsRgsQueue -Identity "service:ApplicationServer:primary.contoso.com" -ShowAll
     
-      - プライマリプール内のすべてのエージェントグループを表示し、インポートされたすべてのエージェントグループが含まれていることを確認します。 コマンドラインで、次のように入力します。
+      - プライマリ プールのすべてのエージェント グループを表示して、インポートされたエージェント グループがすべて含まれていることを確認します。コマンドラインで、次のように入力します。
         
             Get-CsRgsAgentGroup -Identity "service:ApplicationServer: <primary pool FQDN>" -ShowAll
         
@@ -206,7 +206,7 @@ Lync Server 応答グループサービスの障害回復を準備して実行�
         
             Get-CsRgsAgentGroup -Identity "service:ApplicationServer:primary.contoso.com" -ShowAll
     
-      - プライマリプールのビジネス時間をすべて表示し、インポートされたすべての勤務時間が含まれていることを確認します。 コマンドラインで、次のように入力します。
+      - プライマリ プールのすべての営業時間を表示して、インポートされた営業時間がすべて含まれていることを確認します。コマンドラインで、次のように入力します。
         
             Get-CsRgsHoursOfBusiness -Identity "service:ApplicationServer:<primary pool FQDN>" -ShowAll
         
@@ -214,7 +214,7 @@ Lync Server 応答グループサービスの障害回復を準備して実行�
         
             Get-CsRgsHoursOfBusiness -Identity "service:ApplicationServer:primary.contoso.com" -ShowAll
     
-      - プライマリプールのすべての休日セットを表示し、インポートされたすべての祝日セットが含まれていることを確認します。 コマンドラインで、次のように入力します。
+      - プライマリ プールのすべての休日セットを表示して、インポートされた休日セットがすべて含まれていることを確認します。コマンドラインで、次のように入力します。
         
             Get-CsRgsHolidaySet -Identity "service:ApplicationServer:<primary pool FQDN>" -ShowAll
         
@@ -222,9 +222,9 @@ Lync Server 応答グループサービスの障害回復を準備して実行�
         
             Get-CsRgsHolidaySet -Identity "service:ApplicationServer:primary.contoso.com" -ShowAll
 
-11. インポートされた応答グループに通話を発信し、通話が正しく処理されていることを確認して、インポートが成功したことを確認します。
+11. インポートが正常に完了したことを確認します。そのためには、インポートされた応答グループに電話をかけて通話が正常に処理されることを確認します。
 
-12. 必要に応じて、プライマリプールによって所有されている応答グループをバックアッププールから削除します。 コマンドラインで、次のように入力します。
+12. オプションで、プライマリ プールが所有する応答グループをバックアップ プールから削除します。コマンドラインで、次のように入力します。
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:<backup pool FQDN>" -Owner "service:ApplicationServer:<primary pool FQDN>" -FileName "<backup path and file name>" -RemoveExportedConfiguration
     
@@ -236,7 +236,7 @@ Lync Server 応答グループサービスの障害回復を準備して実行�
     
 
     > [!NOTE]  
-    > この手順では、エクスポートされた構成で新しいファイルを作成し、それをバックアッププールから削除します。
+    > このステップでは、エクスポートされた構成で新しいファイルを作成し、そのファイルをバックアップ プールから削除します。
 
     
     </div>

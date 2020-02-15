@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 統合連絡先ストアへのユーザーの移行'
+title: 'Lync Server 2013: ユーザーを統合連絡先ストアに移行する'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183600
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5a57ea93af90176009fff43ed4dcca9f1880a658
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6d170fa183e045203398725a7b7ec4bdd4c38203
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41766048"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42039324"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="migrate-users-to-unified-contact-store-in-lync-server-2013"></a>Lync Server 2013 での統合連絡先ストアへのユーザーの移行
+# <a name="migrate-users-to-unified-contact-store-in-lync-server-2013"></a>Lync Server 2013 でユーザーを統合連絡先ストアに移行する
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41766048"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-15_
+_**トピックの最終更新日:** 2012-10-15_
 
-ユーザーの連絡先は、ユーザーが次のように Exchange 2013 サーバーに自動的に移行されます。
+次の場合、ユーザーの連絡先は Exchange 2013 サーバーに自動的に移行されます。
 
   - UcsAllowed が True に設定されたユーザー サービス ポリシーがユーザーに割り当てられている場合。
 
-  - は Exchange 2013 メールボックスでプロビジョニングされ、少なくとも1回はメールボックスにサインインしています。
+  - Exchange 2013 メールボックスでプロビジョニングされ、少なくとも1回はメールボックスにサインインしています。
 
   - Lync 2013 リッチクライアントを使用してログインします。
 
-ユーザーが Lync 2010 以前のクライアントでログインしている場合、またはユーザーが Exchange 2013 サーバーに接続されていない場合、ユーザーサービスポリシーは無視され、ユーザーの連絡先は Lync Server に残ります。
+ユーザーが Lync 2010 またはそれ以前のクライアントを使用してログインしている場合、またはユーザーが Exchange 2013 サーバーに接続されていない場合、ユーザーサービスポリシーは無視され、ユーザーの連絡先は Lync Server に残ります。
 
-ユーザーの連絡先が移行されているかどうかは、次のいずれかの方法で確認できます。
+ユーザーの連絡先が移行されているかどうかは、次のどちらかの方法で確認できます。
 
   - クライアント コンピューターで次のレジストリ キーを調べます。
     
-    HKEY\_現在\_の\\ユーザー\\ソフトウェア\\Microsoft\\Office\\15.0\\\<Lync SIP\>\\URL UCS
+    HKEY\_CURRENT\_USER\\Software\\Microsoft\\Office\\15.0\\Lync\\\<SIP URL\>\\UCS
     
-    ユーザーの連絡先が Exchange 2013 に保存されている場合、このキーには2165の値を持つ InUCSMode の値が格納されます。
+    ユーザーの連絡先が Exchange 2013 に格納されている場合、このキーには2165という値を持つ InUCSMode の値が含まれます。
 
   - **Test-CsUnifiedContactStore** コマンドレットを実行します。 Lync Server 管理シェルコマンドラインで、次のように入力します。
     

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 通話受付制御レポート'
+title: 'Lync Server 2013: 通話受付管理レポート'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185933
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ff036a27149db4360a938fe2ce9d63c2718f4d94
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ba5b643adf6a8208285aeba66304ddd1657afdfa
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730287"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045409"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="call-admission-control-report-in-lync-server-2013"></a>Lync Server 2013 での通話受付制御レポート
+# <a name="call-admission-control-report-in-lync-server-2013"></a>Lync Server 2013 での通話受付管理レポート
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41730287"
 
 <span> </span>
 
-_**最終更新日:** 2012-06-29_
+_**トピックの最終更新日:** 2012-06-29_
 
-通話受付管理レポートは、通話受付管理によって設けられた制限のもとで行われたピアツーピアおよび電話会議セッションに関する情報を提供します。 Microsoft Lync Server 2010 で導入された通話受付制御により、管理者は、帯域幅の制約に基づいて通信セッションを許可 (または許可しない) することができます。 たとえば、管理者は音声通話やビデオ通話に使用可能な帯域幅を制限するポリシーを作成できます。 帯域幅の制限に達すると、現在の通話のいずれかが終了して必要なネットワーク リソースが解放されるまで、新しい音声通話やビデオ通話を行うことはできません。
+通話受付管理レポートは、通話受付管理によって設けられた制限のもとで行われたピアツーピアおよび電話会議セッションに関する情報を提供します。 Microsoft Lync Server 2010 で導入された通話受付管理では、管理者は、帯域幅の制約に基づいて通信セッションを許可するか (許可しない) ことができます。 たとえば、管理者は音声通話やビデオ通話に使用可能な帯域幅を制限するポリシーを作成できます。 帯域幅の制限に達すると、現在の通話のいずれかが終了して必要なネットワーク リソースが解放されるまで、新しい音声通話やビデオ通話は行えません。
 
 <div>
 
@@ -45,9 +45,9 @@ _**最終更新日:** 2012-06-29_
 
 通話受付管理レポートは、[監視レポート] ホーム ページからアクセスします。通話受付管理レポートから次のいずれかのレポートへドリルダウンできます。
 
-  - 会議詳細レポート - このレポートにアクセスするには、電話会議セッションの [詳細] 指標をクリックします。
+  - 会議詳細レポート – このレポートにアクセスするには、電話会議セッションの [Details] (詳細) 指標をクリックします。
 
-  - ピアツーピア セッション詳細レポート - このレポートにアクセスするには、ピアツーピア セッションの [詳細] 指標をクリックします。
+  - ピアツーピア セッション詳細レポート – このレポートにアクセスするには、ピアツーピア セッションの [Details] (詳細) 指標をクリックします。
 
 </div>
 
@@ -55,7 +55,7 @@ _**最終更新日:** 2012-06-29_
 
 ## <a name="making-the-best-use-of-the-call-admission-control-report"></a>通話受付管理レポートの活用
 
-帯域幅が十分になかったために失敗した通話の一覧を表示するには、[通話のカテゴリ] ドロップダウン リストから [通話受付管理のため、拒否された通話] を選択します。ほとんどの返信通話は診断 ID が 5 になります。
+帯域幅が十分になかったために失敗した通話の一覧を表示するには、[通話のカテゴリ] ドロップダウン リストから [通話受付管理により通話が拒否された] を選択します。ほとんどの返信通話は診断 ID が 5 になります。
 
 セッションを確立するために十分な帯域幅がありません。PSTN 再ルートを試してください。
 
@@ -67,7 +67,7 @@ _**最終更新日:** 2012-06-29_
 
 ## <a name="filters"></a>フィルター
 
-フィルターは、細かく絞り込んだデータ セットを返したり、返されたデータをさまざまな方法で表示したりする方法として利用できます。たとえば、通話受付管理レポートでは、通話を開始したユーザーや呼び出し先のユーザーに基づいて通話をフィルターできます。また、データをグループ化する方法を選択することもできます。この場合は、時間、日、週、または月を基準に通話がグループ化されます。
+フィルターは、細かく絞り込んだデータ セットを返したり、返されたデータをさまざま方法で表示したりする方法として利用できます。たとえば、通話受付管理レポートでは、通話を開始したユーザーや呼び出し先のユーザーに基づいて通話をフィルターできます。また、データをグループ化する方法を選択することもできます。この場合は、時間、日、週、または月を基準に通話がグループ化されます。
 
 次の表に、通話受付管理レポートで使用できるフィルターを示します。
 
@@ -86,45 +86,45 @@ _**最終更新日:** 2012-06-29_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>開始</strong></p></td>
+<td><p><strong>From</strong></p></td>
 <td><p>時間範囲の開始日と開始時刻。データを時間単位で表示するには、次のように開始日と開始時刻の両方を入力します。</p>
-<p>7/17/12012 1:00 PM</p>
+<p>7/17/2012 1:00 PM</p>
 <p>開始時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に開始します。データを日単位で表示するには、次のように日付のみを入力します。</p>
 <p>7/17/12012</p>
 <p>週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。</p>
 <p>7/13/2012</p>
-<p>一週間は、日曜日から始まり、土曜日で終わるものとします。</p></td>
+<p>週は、常に日曜日から土曜日までです。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>終了</strong></p></td>
+<td><p><strong>To</strong></p></td>
 <td><p>時間範囲の終了日と終了時刻。データを時間単位で表示するには、次のように終了日と終了時刻の両方を入力します。</p>
-<p>7/17/12012 1:00 PM</p>
+<p>7/17/2012 1:00 PM</p>
 <p>終了時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に終了します。データを日単位で表示するには、次のように日付のみを入力します。</p>
 <p>7/17/12012</p>
 <p>週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。</p>
 <p>7/13/2012</p>
-<p>一週間は、日曜日から始まり、土曜日で終わるものとします。</p></td>
+<p>週は、常に日曜日から土曜日までです。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Pool</strong></p></td>
 <td><p>レジストラー プールまたはエッジ サーバーの完全修飾ドメイン名 (FQDN)。個別のプールを選択するか、[<strong>すべて</strong>] をクリックしてすべてのプールのデータを表示できます。このドロップダウン リストは、データベース内のレコードに基づいて自動的に設定されます。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>動作状況の種類</strong></p></td>
+<td><p>[<strong>動作状況の種類</strong>]</p></td>
 <td><p>活動の種類。次のいずれかを選択します。</p>
 <ul>
-<li><p>[すべて]</p></li>
+<li><p>いずれ</p></li>
 <li><p>ピアツーピア</p></li>
-<li><p>電話会議</p></li>
+<li><p>室</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><strong>通話のカテゴリ</strong></p></td>
+<td><p>[<strong>通話のカテゴリ</strong>]</p></td>
 <td><p>通話に CAC が使用された理由を示します。次のいずれかを選択します。</p>
 <ul>
-<li><p>[すべて]</p></li>
-<li><p>通話受付管理のため、拒否された通話</p></li>
-<li><p>通話受付管理のため、PSTN を通じて経路変更された通話</p></li>
+<li><p>いずれ</p></li>
+<li><p>通話受付管理により通話が拒否された</p></li>
+<li><p>通話受付管理により通話が PSTN 経由で再ルーティングされた</p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -156,17 +156,17 @@ _**最終更新日:** 2012-06-29_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>[詳細]</strong></p></td>
+<td><p><strong>詳細</strong></p></td>
 <td><p>いいえ</p></td>
 <td><p>この項目をクリックすると、指定したセッションのピアツーピア セッション詳細レポートが表示されます。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>移動元ユーザー</strong></p></td>
+<td><p>[<strong>移動元ユーザー</strong>]</p></td>
 <td><p>はい</p></td>
 <td><p>セッションを開始したユーザーの SIP アドレス。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>対象ユーザー</strong></p></td>
+<td><p>[<strong>対象ユーザー</strong>]</p></td>
 <td><p>はい</p></td>
 <td><p>セッションへの参加を招待されたユーザーの SIP アドレス。</p></td>
 </tr>
@@ -176,22 +176,22 @@ _**最終更新日:** 2012-06-29_
 <td><p>セッションで使用された通信モダリティ (音声、ビデオなど)。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>招待時間</strong></p></td>
+<td><p>[<strong>招待時間</strong>]</p></td>
 <td><p>はい</p></td>
 <td><p>セッションへの最初の招待が発信元ユーザーから送信された日時。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>応答時間</strong></p></td>
+<td><p>[<strong>応答時間</strong>]</p></td>
 <td><p>はい</p></td>
 <td><p>招待の承諾を受信した日時。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>[終了時刻]</strong></p></td>
+<td><p>[<strong>終了時刻</strong>]</p></td>
 <td><p>はい</p></td>
 <td><p>セッションが終了した日時。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>診断 ID</strong></p></td>
+<td><p>[<strong>診断 ID</strong>]</p></td>
 <td><p>はい</p></td>
 <td><p>SIP メッセージに添付される一意の識別子 (ms-diagnostics ヘッダー形式)。その情報は、多くの場合、エラーのトラブルシューティングに役立ちます。診断ヘッダーはオプションで (このヘッダーを含まない SIP セッションがある可能性もあります)、診断 ID は、何らかの問題が生じたセッションについてのみ報告されます。</p></td>
 </tr>
@@ -224,28 +224,28 @@ _**最終更新日:** 2012-06-29_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>[会議 URI]</strong></p></td>
+<td><p>[<strong>会議 URI</strong>]</p></td>
 <td><p>はい</p></td>
 <td><p>電話会議の一意の識別子。この項目をクリックすると、個別の電話会議参加者が表示されます。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>開催者</strong></p></td>
+<td><p><strong>Organizer</strong></p></td>
 <td><p>はい</p></td>
 <td><p>会議を開催したユーザーの SIP アドレス。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>プール</strong></p></td>
-<td><p>可</p></td>
+<td><p><strong>Pool</strong></p></td>
+<td><p>はい</p></td>
 <td><p>電話会議で使用されたエッジ サーバー。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>開始時刻</strong></p></td>
+<td><p>[<strong>開始時刻</strong>]</p></td>
 <td><p>はい</p></td>
 <td><p>会議が開始した日時。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>終了時刻</strong></p></td>
-<td><p>可</p></td>
+<td><p>[<strong>終了時刻</strong>]</p></td>
+<td><p>はい</p></td>
 <td><p>会議が終了した日時。</p></td>
 </tr>
 </tbody>
@@ -283,7 +283,7 @@ _**最終更新日:** 2012-06-29_
 </tr>
 <tr class="even">
 <td><p><strong>参加者</strong></p></td>
-<td><p>不可</p></td>
+<td><p>いいえ</p></td>
 <td><p>電話会議の参加者の SIP アドレス。</p></td>
 </tr>
 <tr class="odd">
@@ -292,23 +292,23 @@ _**最終更新日:** 2012-06-29_
 <td><p>参加者のネットワーク接続 (一般には内部送信元または外部送信元)。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>モダリティ</strong></p></td>
+<td><p><strong>モーダル</strong></p></td>
 <td><p>いいえ</p></td>
 <td><p>電話会議の種類 (音声ビデオ会議など)。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>参加時間</strong></p></td>
+<td><p>[<strong>参加時間</strong>]</p></td>
 <td><p>いいえ</p></td>
 <td><p>参加者が電話会議に参加した日時。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>[退場時間]</strong></p></td>
-<td><p>不可</p></td>
+<td><p>[<strong>退場時間</strong>]</p></td>
+<td><p>いいえ</p></td>
 <td><p>参加者が電話会議から退出した日時。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>診断 ID</strong></p></td>
-<td><p>不可</p></td>
+<td><p>[<strong>診断 ID</strong>]</p></td>
+<td><p>いいえ</p></td>
 <td><p>SIP メッセージに添付される一意の識別子 (ms-diagnostics ヘッダー形式)。その情報は、多くの場合、エラーのトラブルシューティングに役立ちます。診断ヘッダーはオプションで (このヘッダーを含まない SIP セッションがある可能性もあります)、診断 ID は、何らかの問題が生じたセッションについてのみ報告されます。</p></td>
 </tr>
 </tbody>

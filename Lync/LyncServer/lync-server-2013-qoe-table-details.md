@@ -12,20 +12,20 @@ ms:contentKeyID: 48185775
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 157335ce68713c4c54b7cd69daf1c9ae0676a0b0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 31a1b776aec52f74712b458050e36142b3dc633e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747007"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045779"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="qoe-table-details-in-lync-server-2013"></a>Lync Server 2013 QoE テーブルの詳細
+# <a name="qoe-table-details-in-lync-server-2013"></a>Lync Server 2013 の QoE テーブルの詳細
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41747007"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-02_
+_**トピックの最終更新日:** 2012-10-02_
 
-以下のセクションでは、各 Quality of Experience (QoE) データベーススキーマテーブルの列について詳しく説明します。
+これらのセクションでは、QoE (Quality of Experience) データベーススキーマテーブルの各列について詳しく説明します。
 
   - [Lync Server 2013 の AppliedBandwidthSource テーブル](lync-server-2013-appliedbandwidthsource-table.md)
 
@@ -53,15 +53,15 @@ _**最終更新日:** 2012-10-02_
 
   - [Lync Server 2013 の CodecDescription テーブル](lync-server-2013-codecdescription-table.md)
 
-  - [Lync Server 2013 の Conference テーブル](lync-server-2013-conference-table.md)
+  - [Lync Server 2013 の会議テーブル](lync-server-2013-conference-table.md)
 
-  - [Lync Server 2013 の Device テーブル](lync-server-2013-device-table.md)
+  - [Lync Server 2013 のデバイステーブル](lync-server-2013-device-table.md)
 
   - [Lync Server 2013 の DeviceDriver テーブル](lync-server-2013-devicedriver-table.md)
 
-  - [Lync Server 2013 の Dialog テーブル](lync-server-2013-dialog-table.md)
+  - [Lync Server 2013 のダイアログテーブル](lync-server-2013-dialog-table.md)
 
-  - [Lync Server 2013 の Endpoint テーブル](lync-server-2013-endpoint-table.md)
+  - [Lync Server 2013 のエンドポイントテーブル](lync-server-2013-endpoint-table.md)
 
   - [Lync Server 2013 の EndpointSubnet テーブル](lync-server-2013-endpointsubnet-table.md)
 
@@ -73,29 +73,29 @@ _**最終更新日:** 2012-10-02_
 
   - [Lync Server 2013 の MonitoredRegionLink テーブル](lync-server-2013-monitoredregionlink-table.md)
 
-  - [MonitoredUserSiteLink テーブル](monitoredusersitelink-table.md)
+  - [MonitoredUserSiteLink リンクテーブル](monitoredusersitelink-table.md)
 
   - [Lync Server 2013 の NetworkConnectionDetail テーブル](lync-server-2013-networkconnectiondetail-table.md)
 
   - [Lync Server 2013 の PayloadDescription テーブル](lync-server-2013-payloaddescription-table.md)
 
-  - [Lync Server 2013 の Pool テーブル](lync-server-2013-pool-table.md)
+  - [Lync Server 2013 のプールテーブル](lync-server-2013-pool-table.md)
 
   - [Lync Server 2013 の PurgeSettings テーブル (QoE)](lync-server-2013-purgesettings-table-qoe.md)
 
   - [Lync Server 2013 の Region テーブル](lync-server-2013-region-table.md)
 
-  - [Lync Server 2013 のサーバー テーブル](lync-server-2013-server-table.md)
+  - [Lync Server 2013 のサーバーテーブル](lync-server-2013-server-table.md)
 
   - [Lync Server 2013 の Session テーブル](lync-server-2013-session-table.md)
 
   - [Lync Server 2013 の SessionCorrelation テーブル](lync-server-2013-sessioncorrelation-table.md)
 
-  - [Lync Server 2013 の Subnet テーブル](lync-server-2013-subnet-table.md)
+  - [Lync Server 2013 のサブネットテーブル](lync-server-2013-subnet-table.md)
 
   - [Lync Server 2013 の TraceRoute テーブル](lync-server-2013-traceroute-table.md)
 
-  - [Lync Server 2013 の User テーブル](lync-server-2013-user-table.md)
+  - [Lync Server 2013 のユーザーテーブル](lync-server-2013-user-table.md)
 
   - [Lync Server 2013 の UserAgent テーブル](lync-server-2013-useragent-table.md)
 

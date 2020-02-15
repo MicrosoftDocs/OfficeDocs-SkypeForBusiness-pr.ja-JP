@@ -12,16 +12,16 @@ ms:contentKeyID: 49733561
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: db65da0af7c34d1121e97436af47750186706b68
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4222ad7251c17501b1d9edec8cbdd8bafc015773
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758549"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038529"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41758549"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-18_
+_**トピックの最終更新日:** 2012-10-18_
 
-VoIPDetails ビューには、ピアツーピアセッションに関する情報が格納されます。これは、少なくとも1人のユーザーが VoIP ユーザーである場合です。 このビューは、Microsoft Lync Server 2013 で導入されました。
+VoIPDetails ビューには、少なくとも 1 人のユーザーが VoIP ユーザーであるピアツーピア セッションに関する情報が格納されます。 このビューは Microsoft Lync Server 2013 で導入されました。
 
 <div>
 
 
 > [!NOTE]  
-> VoIPDetails ビューには、 <A href="lync-server-2013-sessiondetails-view.md">Lync Server 2013 の Sessiondetails ビュー</A>のすべての列に加えて、以下の列も含まれています。
+> VoIPDetails ビューには、以下の列に加えて、 <A href="lync-server-2013-sessiondetails-view.md">Lync Server 2013 の Sessiondetails ビュー</A>のすべての列が含まれています。
 
 
 
@@ -67,12 +67,12 @@ VoIPDetails ビューには、ピアツーピアセッションに関する情�
 <tr class="odd">
 <td><p><strong>FromPhone</strong></p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>セッションを開始したユーザーの電話の URI。</p></td>
+<td><p>セッションを開始したユーザーの 電話 URI。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>電話番号</strong></p></td>
+<td><p><strong>ToPhone</strong></p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>セッションに参加したユーザーの電話の URI。</p></td>
+<td><p>セッションに参加したユーザーの 電話 URI。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DisconnectedByUri</strong></p></td>
@@ -80,39 +80,39 @@ VoIPDetails ビューには、ピアツーピアセッションに関する情�
 <td><p>セッションを切断したユーザーの URI。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Uritん</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p><strong>DisconnectedByUriType</strong></p></td>
+<td><p>nvarchar (256)</p></td>
 <td><p>セッションを切断したユーザーの URI の種類。 詳細については、「 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 の UriTypes テーブル</a>」を参照してください。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>テナント</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p><strong>DisconnectedByTenant</strong></p></td>
+<td><p>nvarchar (256)</p></td>
 <td><p>セッションを切断したユーザーのテナント。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DisconnectedByPhone</strong></p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>セッションを切断したユーザーの電話の URI。</p></td>
+<td><p>セッションを切断したユーザーの 電話 URI。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>FromMediationServer</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>セッションを開始したユーザーによって使用された仲介サーバー。</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>セッションを開始したユーザーの仲介サーバー。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ToMediationServer</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>セッションに参加したユーザーが使用した仲介サーバー。</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>セッションに参加したユーザーの仲介サーバー。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>FromGateway</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>セッションを開始したユーザーによって使用されたゲートウェイ。</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>セッションを開始したユーザーが使用するゲートウェイ。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ToGateway</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>セッションに参加したユーザーが使用したゲートウェイ。</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>セッションに参加したユーザーが使用するゲートウェイ。</p></td>
 </tr>
 </tbody>
 </table>

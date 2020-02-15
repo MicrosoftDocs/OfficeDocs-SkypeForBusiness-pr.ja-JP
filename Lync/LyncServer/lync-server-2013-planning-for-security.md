@@ -12,20 +12,20 @@ ms:contentKeyID: 56107267
 ms.date: 06/22/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 02028b3ed63fe8f5cd40fd118bd36c73af9d15cd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3bcc5c5cb36717084f9ec5715feb30b11ced5a3e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725207"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045229"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-security-in-lync-server-2013"></a>Lync Server 2013 のセキュリティの計画
+# <a name="planning-for-security-in-lync-server-2013"></a>Lync Server 2013 でのセキュリティの計画
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41725207"
 
 <span> </span>
 
-_**最終更新日:** 2016-06-22_
+_**トピックの最終更新日:** 2016-06-22_
 
-このセキュリティセクションを使用して、Lync Server 2013 の展開に関するセキュリティリスクを評価して管理します。
+このセキュリティセクションを使用して、Lync Server 2013 の展開に対するセキュリティリスクを評価および管理します。
 
-Lync Server 2013 の展開が妥当である場合でも、ネットワークには、独自のセキュリティドキュメントが含まれているコンポーネントが含まれている可能性があります。 そのため、このセクションでは、展開に関連するすべてのコンポーネントと領域のセキュリティに関するすべての側面について説明しているわけではありません。
+Lync Server 2013 の展開が適度な場合でも、ネットワークには独自のセキュリティドキュメントを持つコンポーネントが含まれている可能性があります。 そのため、このセクションでは、展開に関連するすべてのコンポーネントと領域のセキュリティのすべての側面について説明することはほとんどありません。
 
-このセクションは、Lync Server 2013 の展開のセキュリティに対応するための出発点として使用してください。 一般的なガイドラインと、最も一般的なセキュリティリスクを評価および管理するためのベストプラクティスを紹介します。 各トピックの最後には、追加の製品とセキュリティのリソースが記載されています。
+このセクションは、Lync Server 2013 の展開のセキュリティに対応するための出発点として使用します。 最も一般的なセキュリティリスクを評価および管理するための一般的なガイドラインとベストプラクティスについて説明します。 各トピックの最後に、追加の製品とセキュリティのリソースが記載されています。
 
 <div>
 
 
 > [!IMPORTANT]  
-> セキュリティは、絶えず進化するトピックです。 新しい脅威や解決策が発生したため、古いドキュメント、ソリューション、方法、および手順は最新の資料に置き換える必要があります。
+> セキュリティは常に進化しているトピックです。 新しい脅威とソリューションが発生した場合、古くなったドキュメント、ソリューション、方法、および手順は、最新の資料に置き換える必要があります。
 
 
 
@@ -55,19 +55,19 @@ Lync Server 2013 の展開が妥当である場合でも、ネットワークに
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 の主要なセキュリティ機能](lync-server-2013-key-security-features.md)
+  - [Lync Server 2013 の主なセキュリティ機能](lync-server-2013-key-security-features.md)
 
-  - [モダンなコンピューティングでの一般的なセキュリティの脅威](lync-server-2013-common-security-threats-in-modern-day-computing.md)
+  - [最近のコンピューティングでの一般的なセキュリティの脅威](lync-server-2013-common-security-threats-in-modern-day-computing.md)
 
-  - [Lync Server 2013 用のウイルス スキャン除外範囲](lync-server-2013-antivirus-scanning-exclusions.md)
+  - [Lync Server 2013 のウイルススキャン除外](lync-server-2013-antivirus-scanning-exclusions.md)
 
   - [Lync Server 2013 のセキュリティフレームワーク](lync-server-2013-security-framework-for-lync-server.md)
 
-  - [Lync Server 2013 向けのコアインフラストラクチャへの脅威への対応](lync-server-2013-addressing-threats-to-your-core-infrastructure.md)
+  - [Lync Server 2013 のコアインフラストラクチャに対する脅威への対応](lync-server-2013-addressing-threats-to-your-core-infrastructure.md)
 
-  - [Lync Server 2013 で SQL Server の非標準ポートおよびエイリアスを展開する](deploying-a-sql-server-nonstandard-port-and-alias-in-lync-server-2013.md)
+  - [Lync Server 2013 での SQL Server の標準以外のポートとエイリアスの展開](deploying-a-sql-server-nonstandard-port-and-alias-in-lync-server-2013.md)
 
 </div>
 

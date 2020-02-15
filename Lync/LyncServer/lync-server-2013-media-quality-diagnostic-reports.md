@@ -12,16 +12,16 @@ ms:contentKeyID: 48185935
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1f7db75e8f4e6e7d8b8a36d0e5ba614ac89c22e5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 257346792c7f1e3d815942c7eecacd16cba9194e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723967"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045139"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,33 +35,33 @@ ms.locfileid: "41723967"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-22_
+_**トピックの最終更新日:** 2013-02-22_
 
 メディア品質診断レポートは、通話の品質についての情報、および失敗した通話についての診断とトラブルシューティングの情報を提供します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013](lync-server-2013-media-quality-summary-report.md)   のメディア品質の概要レポートでは、さまざまなエンドポイントの種類に対応した全体的な品質データが提供されます。エンタープライズボイスピアツーピア通話、エンタープライズボイス会議通話、通話交換電話網 (PSTN) では、少なくとも一部に依存しています。
+  - [Lync Server 2013](lync-server-2013-media-quality-summary-report.md)   のメディア品質概要レポートエンタープライズ voip ピアツーピア通話、エンタープライズ voip 電話会議、公衆交換電話網 (PSTN) で少なくとも部分的に依存する通話など、さまざまな種類のエンドポイントの全体的な品質データを提供します。
 
-  - [Lync Server 2013](lync-server-2013-media-quality-comparison-report.md)   のメディア品質比較レポートでは、さまざまな種類の音声通話 (たとえば、ワイヤレスネットワーク経由で発信された通話、有線接続を経由した通話など) の通話品質を比較できます。
+  - [Lync Server 2013](lync-server-2013-media-quality-comparison-report.md)   のメディア品質比較レポートでは、さまざまな種類の音声通話 (たとえば、ワイヤレスネットワークで行われた通話、および有線接続経由の通話) の通話品質の値の比較を示します。
 
-  - [Lync server 2013](lync-server-2013-server-performance-report.md)   のサーバーパフォーマンスレポートには、パフォーマンスの低下、パケット損失、ジッタなどの主要品質指標の測定値に基づいて、最も問題が発生したサーバーが一覧表示されます。
+  - [Lync server 2013](lync-server-2013-server-performance-report.md)   のサーバーパフォーマンスレポート。低下、パケット損失、ジッターなどの主要な品質指標の測定値に基づいて、最も問題が発生したサーバーの一覧が表示されます。
 
-  - [Lync Server 2013](lync-server-2013-location-report.md)   の場所レポートには、ネットワーク上の場所の一覧と、各場所で発生した通話のメディア品質の概要が表示されます。 このレポートの目的として、場所は IP サブネットに基づいています。
+  - [Lync Server 2013](lync-server-2013-location-report.md)   の場所レポートネットワークの場所の一覧と、各場所で発生する呼び出しのメディア品質の概要を示します。 このレポートの目的として、場所は IP サブネットに基づいています。
 
-  - [Lync Server 2013](lync-server-2013-device-report.md)   のデバイスレポートには、企業の音声通話に使用されるデバイスの概要と、デバイス別の通話の平均メディア品質が含まれています。
+  - [Lync Server 2013](lync-server-2013-device-report.md)   のデバイスレポートは、エンタープライズ voip 通話で使用されるデバイスの概要と、デバイスごとの通話の平均的なメディア品質を含みます。
 
-  - [Lync Server 2013](lync-server-2013-call-list-report.md)   の通話リストレポートは、組織内で発信または受信した電話の詳細情報を提供します。
+  - [「Lync Server 2013](lync-server-2013-call-list-report.md)   の通話リストレポート」では、組織内で発信または受信した通話に関する詳細情報を提供します。
 
-  - [Lync Server 2013](lync-server-2013-call-detail-report.md)   の通話詳細レポートには、組織内で発信または受信した電話の詳細情報が記載されています。
+  - [「Lync Server 2013](lync-server-2013-call-detail-report.md)   の通話の詳細レポート」では、組織内で発信または受信した通話に関する詳細情報を提供します。
 
-  - [Lync server 2013 のサーバーのメディア品質トレンドレポートで](lync-server-2013-server-media-quality-trend-report.md)   は、通話音量、低品質の通話率、パケット損失、ジッタなどのさまざまなエクスペリエンスメトリックについて、最大5台のサーバーを視覚的に比較することができます。
+  - [Lync server 2013](lync-server-2013-server-media-quality-trend-report.md)   のサーバーメディア品質傾向レポート通話ボリューム、低品質通話のパーセンテージ、パケット損失、ジッターなどの、qoe (quality of Experience) 指標で最大5台のサーバーをグラフィカルに比較する方法を提供します。
 
-  - [Lync Server 2013](lync-server-2013-media-quality-metrics-distribution-report.md)   のメディア品質指標配布レポートには、ジッタやパケット損失などの品質のエクスペリエンスメトリックの分布値を示すグラフが用意されています。
+  - [Lync Server 2013](lync-server-2013-media-quality-metrics-distribution-report.md)   のメディア品質メトリック分布レポートには、ジッターやパケット損失などの qoe (quality of Experience) 指標の分布値を示すグラフが用意されています。
 
-  - [Lync Server 2013](lync-server-2013-location-trend-report.md)   の位置情報の傾向レポートでは、ネットワーク上の場所の通話品質の傾向情報が提供されます。
+  - [Lync Server 2013](lync-server-2013-location-trend-report.md)   の場所の傾向レポートは、ネットワークの場所の通話品質の傾向情報を提供します。
 
 </div>
 
