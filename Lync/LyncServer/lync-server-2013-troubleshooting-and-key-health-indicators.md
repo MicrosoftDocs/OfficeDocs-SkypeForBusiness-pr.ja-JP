@@ -12,16 +12,16 @@ ms:contentKeyID: 63969585
 ms.date: 05/18/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5a20e47f21b918976291371bd56e529196bae8a7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d6f052aceb6678d87c99fc287b69752d0ed761a5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745047"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036457"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,27 +35,27 @@ ms.locfileid: "41745047"
 
 <span> </span>
 
-_**最終更新日:** 2015-05-18_
+_**トピックの最終更新日:** 2015-05-18_
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-リファレンスアーキテクチャの Sla を満たし、サポートチームへの円滑な移行を確実に行うには、「Lync Server[ネットワークガイド](http://go.microsoft.com/fwlink/p/?linkid=390677)」で定義されているように、必要なトラブルシューティングツールとアプローチのセットと共に、一般的なトラブルシューティングアプローチを定義する必要があります。
+参照アーキテクチャの Sla を満たし、サポートチームへのスムーズな移行を保証するには、「Lync Server[ネットワークガイド](http://go.microsoft.com/fwlink/p/?linkid=390677)」で定義されているように、必要なトラブルシューティングのツールと方法を使用して、一般的なトラブルシューティング方法を定義する必要があります。
 
-Lync Server 2013 システムの正常性を監視するには、System Center Operations Manager を使用することを強くお勧めします。 また、「Lync Server 2013[ネットワークガイド](http://go.microsoft.com/fwlink/p/?linkid=390677)」および「Excel スプレッドシートを使って lync 2013 で使用する」の説明を参照してください。
+Lync Server 2013 システムの正常性を監視するには、System Center Operations Manager を使用することを強くお勧めします。 また、lync 2013 で使用する場合は、「Lync Server 2013[ネットワークガイド](http://go.microsoft.com/fwlink/p/?linkid=390677)」および「Excel スプレッドシート」の「khis」の説明を参照してください。
 
 </div>
 
 <div>
 
-## <a name="reference"></a>Reference
+## <a name="reference"></a>リファレンス
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a>関連項目
+## <a name="related-sections"></a>関連情報
 
 </div>
 

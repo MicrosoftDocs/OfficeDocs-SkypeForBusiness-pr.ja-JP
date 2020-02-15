@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: グループ通話のピックアップをユーザーに対して無効にする'
+title: 'Lync Server 2013: ユーザーのグループ通話ピックアップを無効にする'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541492
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7e47b5c3b12997bd05f3721555a5dfdfe692bbc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c03242cf0b3521dada944ccaba30946306c1ff24
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762205"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036597"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="disable-group-call-pickup-for-users-in-lync-server-2013"></a>Lync Server 2013 のユーザーに対してグループ通話のピックアップを無効にする
+# <a name="disable-group-call-pickup-for-users-in-lync-server-2013"></a>Lync Server 2013 でユーザーのグループ通話ピックアップを無効にする
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41762205"
 
 <span> </span>
 
-_**最終更新日:** 2013-01-30_
+_**トピックの最終更新日:** 2013-01-30_
 
-次の手順を使用して、ユーザーのグループ通話のピックアップを無効にします。
+ユーザーのグループ通話ピックアップを無効にするには、次の手順を使用します。
 
 <div>
 
 
 > [!NOTE]  
-> グループ通話のピックアップをユーザーに対して無効にしても、そのユーザーに割り当てられていた通話ピックアップグループ番号は保持されません。 そのユーザに対してグループ通話のピックアップを再び有効にする必要がある場合は、/enablegrouppickup パラメーターを使用して、もう一度通話ピックアップグループ番号を割り当てる必要があります。
+> ユーザーのグループ通話ピックアップを無効にしても、ユーザーに割り当てられていた通話ピックアップグループ番号は保持されません。 その後、そのユーザーのグループ通話ピックアップを再度有効にする場合は、もう一度、/enablegrouppickup パラメーターを使用して、通話ピックアップグループ番号を割り当てる必要があります。
 
 
 
@@ -51,7 +51,7 @@ _**最終更新日:** 2013-01-30_
 
 <div>
 
-## <a name="to-disable-group-call-pickup-for-a-user"></a>グループ通話のピックアップをユーザーに対して無効にするには
+## <a name="to-disable-group-call-pickup-for-a-user"></a>ユーザーのグループ通話ピックアップを無効にするには
 
 1.  SEFAUtil ツールをインストールしたコンピューターに管理者権限でログオンします。
 
@@ -59,7 +59,7 @@ _**最終更新日:** 2013-01-30_
     
         SEFAUtil.exe sip:<sip address of user> /server:<pool FQDN> /disablegrouppickup
     
-    例:
+    次に例を示します。
     
         SEFAUtil.exe katarina@contoso.com /server:pool01.contoso.com /disablegrouppickup
 
@@ -70,8 +70,8 @@ _**最終更新日:** 2013-01-30_
 ## <a name="see-also"></a>関連項目
 
 
-[グループ通話の集配番号を Lync Server 2013 のユーザーに割り当てる](lync-server-2013-assign-group-call-pickup-numbers-to-users.md)  
-[Lync Server 2013 のユーザーに対してグループ通話のピックアップを有効にする](lync-server-2013-enable-group-call-pickup-for-users.md)  
+[Lync Server 2013 でグループ通話ピックアップ番号をユーザーに割り当てる](lync-server-2013-assign-group-call-pickup-numbers-to-users.md)  
+[Lync Server 2013 でユーザーのグループ通話ピックアップを有効にする](lync-server-2013-enable-group-call-pickup-for-users.md)  
   
 
 </div>

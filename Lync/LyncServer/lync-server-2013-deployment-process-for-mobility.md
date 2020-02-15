@@ -12,20 +12,20 @@ ms:contentKeyID: 48184220
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c6f9f7994981a860aaa02d4674d6a3248c3593d6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 337e85520cb2a285f4e4743837aafa4136c89f27
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762595"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035319"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-for-mobility-in-lync-server-2013"></a>Lync Server 2013 のモビリティの展開プロセス
+# <a name="deployment-process-for-mobility-in-lync-server-2013"></a>Lync Server 2013 でのモビリティの展開プロセス
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41762595"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-19_
+_**トピックの最終更新日:** 2013-02-19_
 
     Some information in this topic pertains to Cumulative Updates for Lync Server 2013: February 2013. It is noted accordingly.
 
-このセクションでは、Lync Server 2013 モビリティ機能の展開に必要な一連の手順について説明します。
+このセクションでは、Lync Server 2013 モビリティ機能を展開するために必要な一連の手順について説明します。
 
-### <a name="mobility-deployment-process"></a>モバイル展開プロセス
+### <a name="mobility-deployment-process"></a>モビリティの展開プロセス
 
 <table>
 <colgroup>
@@ -52,18 +52,18 @@ _**最終更新日:** 2013-02-19_
 </colgroup>
 <thead>
 <tr class="header">
-<th>段階</th>
-<th>ステップ</th>
+<th>フェーズ</th>
+<th>手順</th>
 <th>アクセス許可</th>
-<th>「展開」のドキュメント</th>
+<th>展開のドキュメント</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>ドメインネームシステム (DNS) レコードを作成する</p></td>
+<td><p>ドメイン ネーム システム (DNS) レコードを作成する</p></td>
 <td><ul>
-<li><p>内部の自動検出サービス URL を解決する内部 DNS CNAME または A (IPv6、AAAA) レコードを作成します。</p></li>
-<li><p>外部の自動検出サービス URL を解決するには、外部 DNS CNAME または A (IPv6、AAAA) レコードを作成します。</p></li>
+<li><p>内部の自動検出サービス URL を解決するための内部 DNS CNAME または A (host、if IPv6、AAAA) レコードを作成します。</p></li>
+<li><p>外部の自動検出サービス URL を解決する外部 DNS CNAME または A (host、if IPv6、AAAA) レコードを作成します。</p></li>
 </ul></td>
 <td><p>Domain Admins</p>
 <p>DnsAdmins</p></td>
@@ -71,73 +71,73 @@ _**最終更新日:** 2013-02-19_
 </tr>
 <tr class="even">
 <td><p>証明書を変更する</p></td>
-<td><p>モバイルユーザーへのセキュリティで保護された接続をサポートするために、次の証明書にサブジェクト代替名のエントリを追加します。</p>
+<td><p>サブジェクトの別名エントリを以下の証明書に追加し、モバイル ユーザーのセキュリティで保護された接続をサポートします。</p>
 <ul>
 <li><p>ディレクター証明書</p></li>
 <li><p>フロントエンドプールの証明書</p></li>
-<li><p>リバースプロキシ証明書</p></li>
+<li><p>リバース プロキシの証明書</p></li>
 </ul></td>
 <td><p>ローカル管理者</p></td>
-<td><p><a href="lync-server-2013-modifying-certificates-for-mobility.md">Lync Server 2013 でのモビリティに合わせた証明書の変更</a></p></td>
+<td><p><a href="lync-server-2013-modifying-certificates-for-mobility.md">Lync Server 2013 でのモビリティの証明書の変更</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>リバース プロキシを構成する</p></td>
 <td><ul>
-<li><p>サブジェクトの代替名を使用して、セキュリティで保護されたソケットレイヤー (SSL) リスナーに証明書を割り当てます。</p></li>
+<li><p>サブジェクトの別名で更新された証明書を SSL (Secure Sockets Layer) リスナーに割り当てます。</p></li>
 <li><p>外部自動検出サービス URL の web 公開ルールを再構成します。</p></li>
-<li><p>フロントエンドプールの外部の Lync Server 2013 Web サービスの URL に web 発行ルールが存在することを確認します。</p></li>
+<li><p>フロントエンドプールに外部 Lync Server 2013 Web サービス URL 用の web 公開ルールが存在することを確認してください。</p></li>
 </ul>
 <p>または</p>
 <ul>
-<li><p>最初の自動検出要求に HTTP を使用し、証明書のサブジェクト代替名の一覧を更新しない場合は、新しい web 公開ルールを構成するか、ポート 80 HTTP の既存の公開ルールを再設定します。</p></li>
+<li><p>最初の自動検出要求に HTTP を使用し、証明書のサブジェクトの別名リストを更新しない場合は、新しい web 公開ルールを構成するか、ポート 80 HTTP の既存の公開ルールを再構成します。</p></li>
 </ul></td>
 <td><p>ローカル管理者</p></td>
-<td><p><a href="lync-server-2013-configuring-the-reverse-proxy-for-mobility.md">Lync Server 2013 での、モビリティに合わせたリバース プロキシの構成</a></p></td>
+<td><p><a href="lync-server-2013-configuring-the-reverse-proxy-for-mobility.md">Lync Server 2013 でのモビリティのリバースプロキシの構成</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Mcx Mobility Service を使用して Lync 2010 Mobile のモバイル展開をテストする</p></td>
-<td><p><strong>CsMcxP2PIM</strong>を実行して、1人のユーザーから別のユーザーへのインスタントメッセージの送信をテストします。</p>
-<p>オプションの完全な一覧については、「 <a href="https://docs.microsoft.com/powershell/module/skype/Test-CsMcxP2PIM">CsMcxP2PIM</a>の Lync Server 管理シェルコマンドレット」を参照してください。</p></td>
+<td><p>Mcx Mobility Service を使用して Lync 2010 Mobile のモビリティ展開をテストする</p></td>
+<td><p><strong>Test-CsMcxP2PIM</strong> を実行し、ユーザー間のインスタント メッセージの送信をテストします。</p>
+<p>オプションの完全な一覧については、「 <a href="https://docs.microsoft.com/powershell/module/skype/Test-CsMcxP2PIM">test-csmcxp2pim</a> 」の Lync Server Management Shell コマンドレットのドキュメントを参照してください。</p></td>
 <td><p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-verifying-your-mobility-deployment.md">Lync Server 2013 でのモビリティ展開の確認</a></p></td>
+<td><p><a href="lync-server-2013-verifying-your-mobility-deployment.md">Lync Server 2013 でのモビリティの展開の確認</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>UCWA Web コンポーネントを使用して Lync 2013 モバイルクライアント用のモバイル展開をテストする</p></td>
-<td><p><strong>CsUcwaConference</strong>コマンドレットを使用して、事前に定義されたテストユーザーまたは実際のユーザーが ucwa を使用して会議を作成し、参加できることを確認します。</p>
-<p>オプションの完全な一覧については、「 <a href="https://docs.microsoft.com/powershell/module/skype/Test-CsUcwaConference">CsUcwaConference</a>の Lync Server 管理シェルコマンドレット」を参照してください。</p></td>
+<td><p>UCWA Web コンポーネントを使用して Lync 2013 Mobile クライアントのモビリティ展開をテストする</p></td>
+<td><p><strong>Test-csucwaconference</strong>コマンドレットを使用して、定義済みのテストユーザーまたは実際のユーザーのペアが、ucwa を使用して会議を作成して参加できることを確認します。</p>
+<p>オプションの完全な一覧については、「 <a href="https://docs.microsoft.com/powershell/module/skype/Test-CsUcwaConference">test-csucwaconference</a> 」の Lync Server Management Shell コマンドレットのドキュメントを参照してください。</p></td>
 <td><p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-verifying-your-mobility-deployment.md">Lync Server 2013 でのモビリティ展開の確認</a></p></td>
+<td><p><a href="lync-server-2013-verifying-your-mobility-deployment.md">Lync Server 2013 でのモビリティの展開の確認</a></p></td>
 </tr>
 <tr class="even">
 <td><p>プッシュ通知を構成する</p></td>
 <td><ul>
-<li><p>Lync Server 2013 Edge サーバーの場合は、Lync Server online ホスティングプロバイダーを追加して、ホスティングプロバイダーフェデレーションを構成します。</p></li>
-<li><p>Lync Server 2010 Edge サーバーの場合は、Lync Server online ホスティングプロバイダーを追加して、ホスティングプロバイダーフェデレーションを構成します。</p></li>
-<li><p>Office Communications Server 2007 R2 Edge サーバーの場合は、フェデレーションパートナーを追加します。</p></li>
-<li><p>Wi-fi ネットワーク経由でのプッシュ通知をサポートする場合は、TCP ポート5223用のファイアウォール規則を構成します。</p></li>
-<li><p><strong>Set-cspの設定</strong>コマンドレットを使用して、Apple Push notification SERVICE (APNS) と Microsoft プッシュ通知サービス (MPNS) へのプッシュ通知を有効にします。 この機能は既定では無効になっています。</p></li>
-<li><p><strong>CsFederatedPartner</strong>コマンドレットを使用して、フェデレーション構成とテスト用<strong>CsMCXPushNotification</strong>コマンドレットをテストして、プッシュ通知をテストします。</p>
+<li><p>Lync Server 2013 エッジサーバーの場合は、Lync Server online ホスティングプロバイダーを追加し、ホスティングプロバイダーフェデレーションを構成します。</p></li>
+<li><p>Lync Server 2010 エッジサーバーの場合は、Lync Server online ホスティングプロバイダーを追加し、ホスティングプロバイダーフェデレーションを構成します。</p></li>
+<li><p>Office Communications Server 2007 R2 エッジサーバーの場合は、フェデレーションパートナーを追加します。</p></li>
+<li><p>Wi-fi ネットワーク経由のプッシュ通知をサポートする場合は、TCP ポート5223に対する送信ファイアウォールルールを構成します。</p></li>
+<li><p>Apple Push Notification Service (APNS) および Microsoft プッシュ通知サービス (MPNS) へのプッシュ通知を有効にするには、 <strong>Set-Cspの Notificationconfiguration</strong>コマンドレットを使用します。 既定では、この機能は無効になっています。</p></li>
+<li><p>プッシュ通知をテストするには、 <strong>test-csfederatedpartner</strong>コマンドレットを使用してフェデレーション構成をテストし、 <strong>CsMCXPushNotification</strong>コマンドレットをテストします。</p>
 <div>
 
 > [!NOTE]  
-> Apple デバイスと Windows Phone での Lync 2010 モバイルクライアントでは、プッシュ通知が使われます。<BR>Windows Phone のみの Lync 2013 モバイルクライアントでプッシュ通知が必要
+> プッシュ通知は、Apple デバイスおよび Windows Phone の Lync 2010 モバイルクライアントで使用されます。<BR>Windows Phone のみの Lync 2013 モバイルクライアントでプッシュ通知が必要
 
 
 </div></li>
 </ul></td>
 <td><p>RtcUniversalServerAdmins</p></td>
-<td><p><a href="lync-server-2013-configuring-for-push-notifications.md">Lync Server 2013 でプッシュ通知を構成する</a></p></td>
+<td><p><a href="lync-server-2013-configuring-for-push-notifications.md">Lync Server 2013 でのプッシュ通知の構成</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>モビリティポリシーを構成する</p></td>
-<td><p><strong>Set-csmobilitypolicy</strong>コマンドレットを使用して、次の操作を許可または禁止します。</p>
+<td><p><strong>Get-csmobilitypolicy</strong>コマンドレットを使用して、次のことを許可または禁止します。</p>
 <ul>
 <li><p>勤務先から通話</p></li>
 <li><p>IP オーディオと IP ビデオを有効にする</p></li>
-<li><p>[IP オーディオまたは IP ビデオに WiFi を使用する]</p></li>
+<li><p>IP オーディオまたは IP ビデオに WiFi が必要</p></li>
 </ul></td>
 <td><p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-configuring-mobility-policy.md">Lync Server 2013 でのモビリティ ポリシーの構成</a></p></td>
+<td><p><a href="lync-server-2013-configuring-mobility-policy.md">Lync Server 2013 でのモビリティポリシーの構成</a></p></td>
 </tr>
 </tbody>
 </table>

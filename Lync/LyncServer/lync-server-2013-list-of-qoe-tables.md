@@ -12,16 +12,16 @@ ms:contentKeyID: 48183512
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c3161415b65c8e85ace7968ab29d86c0d0c5387a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3b15cab5a39e74cbbc1813fb9d4f5ce56d777408
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765395"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033756"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41765395"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-02_
+_**トピックの最終更新日:** 2012-10-02_
 
-データベーススキーマは、次の表で構成されています。
+データベース スキーマは、次のテーブルで構成されます。
 
-**サポートテーブル**
+**サポート テーブル**
 
 
 <table>
@@ -49,101 +49,101 @@ _**最終更新日:** 2012-10-02_
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>テーブル</strong></th>
+<th><strong>Table</strong></th>
 <th><strong>説明</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><a href="lync-server-2013-appsharingmetricsthreshold-table.md">Lync Server 2013 の AppSharingMetricsThreshold テーブル</a></p></td>
-<td><p>アプリケーションの共有で使用されるエクスペリエンスメトリックの品質と受け入れ可能な値を保存します。</p></td>
+<td><p>アプリケーション共有で使用される QoE 指標の最適値および許容値を格納します。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-codecdescription-table.md">Lync Server 2013 の CodecDescription テーブル</a></p></td>
-<td><p>一意のコーデック識別子を対応するコーデックにマップします。</p></td>
+<td><p>一意のコーデック識別子を対応するコーデックにマッピングします。</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 の IPAddress テーブル</a></p></td>
-<td><p>環境の品質データベースの別の場所で使用されている一意の IP アドレス識別子に IP アドレスをマッピングします。</p></td>
+<td><p>IP アドレスを、QoE データベース内の他の場所で使用される一意の IP アドレス識別子にマッピングします。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-networkconnectiondetail-table.md">Lync Server 2013 の NetworkConnectionDetail テーブル</a></p></td>
-<td><p>ネットワーク接続の種類を、エクスペリエンスデータベースの他の場所で使用されていたネットワーク接続識別子にマップします。</p></td>
+<td><p>ネットワーク接続の種類を、QoE データベース内の他の場所で使用されるネットワーク接続識別子にマッピングします。</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-purgesettings-table-qoe.md">Lync Server 2013 の PurgeSettings テーブル (QoE)</a></p></td>
-<td><p>古い品質エクスペリエンスレコードが QoE データベースから自動的に削除されるかどうかを指定する情報を格納します。</p></td>
+<td><p>古くなった QoE レコードが QoE データベースから自動的に削除されるかどうか (およびそのタイミング) を指定する情報を格納します。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-traceroute-table.md">Lync Server 2013 の TraceRoute テーブル</a></p></td>
-<td><p>通話のルーティング情報を保存します。</p></td>
+<td><p>通話のルーティング情報を格納します。</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-useragentdef-table-qoe.md">Lync Server 2013 の UserAgentDef テーブル (QoE)</a></p></td>
-<td><p>ユーザーエージェント識別子をエージェントのわかりやすい名前にマップします。</p></td>
+<td><p>ユーザー エージェント識別子をエージェントを表す名前にマッピングします。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-videometricsthreshold-table.md">Lync Server 2013 の VideoMetricsThreshold テーブル</a></p></td>
-<td><p>ビデオ通話で使用されるエクスペリエンスメトリックの品質を実現するのに最適な値を保存します。</p></td>
+<td><p>ビデオ通話で使用される QoE 指標の最適値および許容値を格納します。</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-useragent-table.md">Lync Server 2013 の UserAgent テーブル</a></p></td>
-<td><p>オーディオとビデオのセッションで使用されるセッション開始プロトコル (SIP) ユーザーエージェント (UA) 文字列と UA の種類が保存されます。</p></td>
+<td><p>音声およびビデオ セッションで使用されるセッション開始プロトコル (SIP) ユーザー エージェント (UA) 文字列および UA の種類を格納します。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-user-table.md">Lync Server 2013 の User テーブル</a></p></td>
-<td><p>オーディオとビデオのセッションで使用されるユーザー、会議、および電話の Uri を格納します。</p></td>
+<td><p><a href="lync-server-2013-user-table.md">Lync Server 2013 のユーザーテーブル</a></p></td>
+<td><p>音声およびビデオ セッションで使用されるユーザー、会議、電話の URI を格納します。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-endpoint-table.md">Lync Server 2013 の Endpoint テーブル</a></p></td>
-<td><p>オーディオとビデオのセッションに参加しているエンドポイントの FQDN コンピューター名を格納します。</p></td>
+<td><p><a href="lync-server-2013-endpoint-table.md">Lync Server 2013 のエンドポイントテーブル</a></p></td>
+<td><p>音声およびビデオ セッションに参加しているエンドポイントの FQDN コンピューター名を格納します。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-pool-table.md">Lync Server 2013 の Pool テーブル</a></p></td>
-<td><p>メトリックデータが属するプールの名前が格納されます。</p></td>
+<td><p><a href="lync-server-2013-pool-table.md">Lync Server 2013 のプールテーブル</a></p></td>
+<td><p>指標データが属するプールの名前を格納します。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-device-table.md">Lync Server 2013 の Device テーブル</a></p></td>
-<td><p>オーディオ/ビデオ通話で使用されるキャプチャデバイスとレンダリングデバイスを保存します。</p></td>
+<td><p><a href="lync-server-2013-device-table.md">Lync Server 2013 のデバイステーブル</a></p></td>
+<td><p>音声ビデオ通話で使用されるキャプチャ デバイスおよびレンダー デバイスを格納します。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-devicedriver-table.md">Lync Server 2013 の DeviceDriver テーブル</a></p></td>
-<td><p>オーディオ/ビデオ通話で使用されるキャプチャデバイスとレンダリングデバイスのドライバーを保存します。</p></td>
+<td><p>音声ビデオ通話で使用されるキャプチャ デバイスおよびレンダー デバイスのドライバーを格納します。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-conference-table.md">Lync Server 2013 の Conference テーブル</a></p></td>
-<td><p>会議のシナリオの会議の Uri、または他のシナリオのために、電話会議の Uri を格納します。</p></td>
+<td><p><a href="lync-server-2013-conference-table.md">Lync Server 2013 の会議テーブル</a></p></td>
+<td><p>会議シナリオの会議 URI または他のシナリオの DialogID を格納します。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-sessioncorrelation-table.md">Lync Server 2013 の SessionCorrelation テーブル</a></p></td>
-<td><p>PSTN 通話の CorrelationID を保存します。</p></td>
+<td><p>PSTN 通話の CorrelationID を格納します。</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-payloaddescription-table.md">Lync Server 2013 の PayloadDescription テーブル</a></p></td>
-<td><p>音声/ビデオ通話で使用されるコーデックを保存します。</p></td>
+<td><p>音声ビデオ通話で使用されるコーデックを格納します。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-appliedbandwidthsource-table.md">Lync Server 2013 の AppliedBandwidthSource テーブル</a></p></td>
-<td><p>音声/ビデオ通話で使用される帯域幅のソースを保存します。</p></td>
+<td><p>音声ビデオ通話で使用される帯域幅ソースを格納します。</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-macaddress-table.md">Lync Server 2013 の MacAddress テーブル</a></p></td>
-<td><p>オーディオとビデオのセッションに参加しているエンドポイントの MAC アドレスが格納されます。</p></td>
+<td><p>音声およびビデオ セッションに参加しているエンドポイントの MAC アドレスを格納します。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-dialog-table.md">Lync Server 2013 の Dialog テーブル</a></p></td>
-<td><p>オーディオセッションとビデオセッションのダイアログ ID を保存します。</p></td>
+<td><p><a href="lync-server-2013-dialog-table.md">Lync Server 2013 のダイアログテーブル</a></p></td>
+<td><p>音声およびビデオ セッションのダイアログ ID を格納します。</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-region-table.md">Lync Server 2013 の Region テーブル</a></p></td>
-<td><p>NCS 設定で定義されたネットワーク領域を格納します。</p></td>
+<td><p>NCS 設定で定義されているネットワーク地域を格納します。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-usersite-table.md">Lync Server 2013 の UserSite テーブル</a></p></td>
-<td><p>NCS 設定で定義されたネットワークサイトを保存します。</p></td>
+<td><p>NCS 設定で定義されているネットワーク サイトを格納します。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-subnet-table.md">Lync Server 2013 の Subnet テーブル</a></p></td>
+<td><p><a href="lync-server-2013-subnet-table.md">Lync Server 2013 のサブネットテーブル</a></p></td>
 <td><p>NCS 設定で定義されているサブネットを格納します。</p></td>
 </tr>
 <tr class="even">
@@ -151,22 +151,22 @@ _**最終更新日:** 2012-10-02_
 <td><p>NCS 設定で定義されている地域リンクを格納します。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="monitoredusersitelink-table.md">MonitoredUserSiteLink テーブル</a></p></td>
-<td><p>NCS 設定で定義されたネットワークサイトリンクを格納します。</p></td>
+<td><p><a href="monitoredusersitelink-table.md">MonitoredUserSiteLink リンクテーブル</a></p></td>
+<td><p>NCS 設定で定義されているネットワーク サイト リンクを格納します。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-endpointsubnet-table.md">Lync Server 2013 の EndpointSubnet テーブル</a></p></td>
-<td><p>オーディオおよびビデオセッションに参加しているエンドポイントのサブネットを格納します。</p></td>
+<td><p>音声およびビデオ セッションに参加しているエンドポイントのサブネットを格納します。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-server-table.md">Lync Server 2013 のサーバー テーブル</a></p></td>
-<td><p>メディアが移動するサーバーの FQDN または IP アドレスが格納されます。</p></td>
+<td><p><a href="lync-server-2013-server-table.md">Lync Server 2013 のサーバーテーブル</a></p></td>
+<td><p>メディアが通過するサーバーの FQDN または IP アドレスを格納します。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-**指標データのテーブル**
+**指標データ用テーブル**
 
 
 <table>
@@ -176,52 +176,52 @@ _**最終更新日:** 2012-10-02_
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>テーブル</strong></th>
+<th><strong>Table</strong></th>
 <th><strong>説明</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><a href="lync-server-2013-appsharingstream-table.md">Lync Server 2013 の AppSharingStream テーブル</a></p></td>
-<td><p>アプリケーション共有に使用されるネットワークストリームのエクスペリエンスメトリックの品質を保存します。 アプリケーション共有に使用されるネットワークストリームのエクスペリエンスのメトリックの評価。</p></td>
+<td><p>アプリケーション共有で使用されるネットワーク ストリームの QoE 指標を格納します。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-session-table.md">Lync Server 2013 の Session テーブル</a></p></td>
-<td><p>オーディオまたはオーディオ/ビデオセッションに関する全体的な情報を保存します。 セッションは、2つのエンドポイント間のオーディオまたはビデオ SIP ダイアログとして定義されます。</p></td>
+<td><p>音声セッションまたは音声ビデオ セッションに関する全体的な情報を格納します。 セッションとは、2 つのエンドポイント間の音声またはビデオでの SIP ダイアログと定義されます。</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-medialine-table.md">Lync Server 2013 の MediaLine テーブル</a></p></td>
-<td><p>セッション内の各メディアラインに関する情報を格納します。 メディアラインは、1つ以上のオーディオストリームとビデオストリームのコレクションです。 通常、1つのメディアラインには、オーディオまたはビデオの2つのストリームがあります。</p></td>
+<td><p>セッションでの各メディア ラインについての情報を格納します。メディア ラインとは、1 つ以上の音声およびビデオ ストリームのコレクションです。通常、1 つのメディア ラインには音声またはビデオの 2 つのストリームが含まれます。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-audiostream-table.md">Lync Server 2013 の AudioStream テーブル</a></p></td>
-<td><p>メディアラインの各オーディオストリームのオーディオメディア品質指標を保存します。</p></td>
+<td><p>メディア ラインに含まれる各音声ストリームの音声メディア品質指標を格納します。</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-audiosignal-table.md">Lync Server 2013 の AudioSignal テーブル</a></p></td>
-<td><p>メディアラインにオーディオメディアの品質指標を保存します。 これには、アコースティックエコーキャンセル (AEC) と自動ゲイン制御 (AGC) メトリックが含まれます。</p></td>
+<td><p>メディア ラインの音声メディア品質指標を格納します。 これには、アコーステック エコー キャンセレーション (AEC) 指標および自動ゲイン制御 (AGC) 指標が含まれます。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-videostream-table.md">Lync Server 2013 の VideoStream テーブル</a></p></td>
-<td><p>メディアラインの各オーディオストリームについて、ビデオメディアの品質指標を保存します。</p></td>
+<td><p>メディア ラインに含まれる各音声ストリームのビデオ メディア品質指標を格納します。</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-audioclientevent-table.md">Lync Server 2013 の AudioClientEvent テーブル</a></p></td>
-<td><p>クライアントイベントから収集されたオーディオメディア品質指標を格納します。</p></td>
+<td><p>クライアント イベントから収集された音声メディア品質指標を格納します。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-videoclientevent-table.md">Lync Server 2013 の VideoClientEvent テーブル</a></p></td>
-<td><p>クライアントイベントから収集されたビデオメディア品質指標を格納します。</p></td>
+<td><p>クライアント イベントから収集されたビデオ メディア品質指標を格納します。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DiagnosticData テーブル</strong></p></td>
-<td><p>内部でのみ使用する診断データを格納します。</p></td>
+<td><p>内部使用専用の診断データを格納します。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-**集計データのテーブル**
+**概要データ用テーブル**
 
 
 <table>
@@ -231,28 +231,28 @@ _**最終更新日:** 2012-10-02_
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>テーブル</strong></th>
+<th><strong>Table</strong></th>
 <th><strong>説明</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>ServerSummary テーブル</strong></p></td>
-<td><p>サーバーの概要データを保存します。これらのデータは、Quality of Experience (QoE) レポートのみに使用されます。</p></td>
+<td><p>サーバーの概要データを格納します。このデータは、QoE (Quality of Experience) レポートのみに使用されます。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserSummary テーブル</strong></p></td>
-<td><p>ユーザーの概要データが保存されます。これらのデータは QoE レポート専用に使用されます。</p></td>
+<td><p>ユーザーの概要データを格納します。このデータは、QoE レポートのみに使用されます。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CallTypeSummary テーブル</strong></p></td>
-<td><p>このデータは、通話の種類の概要データを保存するために、QoE レポート専用に使用されます。</p></td>
+<td><p>通話種類の概要データを格納します。このデータは、QoE レポートのみに使用されます。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-**監視サーバーによる内部使用のテーブル**
+**監視サーバーの内部用テーブル**
 
 
 <table>
@@ -262,7 +262,7 @@ _**最終更新日:** 2012-10-02_
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>テーブル</strong></th>
+<th><strong>Table</strong></th>
 <th><strong>説明</strong></th>
 </tr>
 </thead>
@@ -276,15 +276,15 @@ _**最終更新日:** 2012-10-02_
 <td><p>内部使用のみ。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>フロントエンドテーブル</strong></p></td>
+<td><p><strong>FrontEnd テーブル</strong></p></td>
 <td><p>内部使用のみ。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>タスクテーブル</strong></p></td>
+<td><p><strong>Task テーブル</strong></p></td>
 <td><p>内部使用のみ。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>概要 tabltabl</strong></p></td>
+<td><p><strong>概要 (Tabl)</strong></p></td>
 <td><p>内部使用のみ。</p></td>
 </tr>
 <tr class="even">
@@ -304,19 +304,19 @@ _**最終更新日:** 2012-10-02_
 <td><p>内部使用のみ。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>タイム</strong></p></td>
+<td><p><strong>TimeZones</strong></p></td>
 <td><p>内部使用のみ。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>CallSummary の表</strong></p></td>
+<td><p><strong>CallSummary テーブル</strong></p></td>
 <td><p>内部使用のみ。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>DeviceCallSumary のテーブル</strong></p></td>
+<td><p><strong>DeviceCallSumary テーブル</strong></p></td>
 <td><p>内部使用のみ。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>テナントテーブル</strong></p></td>
+<td><p><strong>Tenant テーブル</strong></p></td>
 <td><p>内部使用のみ。</p></td>
 </tr>
 <tr class="even">

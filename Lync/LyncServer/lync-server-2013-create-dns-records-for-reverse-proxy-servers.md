@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: リバース プロキシ サーバーの DNS レコードの作成'
+title: 'Lync Server 2013: リバースプロキシサーバーの DNS レコードの作成'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185181
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0f85b222688dcefd45030f2c05f7b59ce45ec0ae
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 60cd3033ae06f3fd9f0fc4a7a1e881f08f2ee90f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726327"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035793"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-dns-records-for-reverse-proxy-servers-in-lync-server-2013"></a>Lync Server 2013 でのリバース プロキシ サーバーの DNS レコードの作成
+# <a name="create-dns-records-for-reverse-proxy-servers-in-lync-server-2013"></a>Lync Server 2013 でリバースプロキシサーバーの DNS レコードを作成する
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41726327"
 
 <span> </span>
 
-_**最終更新日:** 2013-03-29_
+_**トピックの最終更新日:** 2013-03-29_
 
-外部 DNS の作成 Microsoft インターネットセキュリティとアクセラレータ (ISA) サーバー 2006 SP1、Forefront Threat Management Gateway 2010 Server、または Internet Information Server アプリケーション要求ルーティングのパブリック外部インターフェイスを指すレコード。詳細については、「 [Lync Server 2013 での Microsoft edge サポートの DNS の構成](lync-server-2013-configure-dns-for-edge-support.md)」を参照してください。 各プール、ディレクター (またはディレクタープール)、および各シンプル URL について、外部 Web サービス Fqdn 用の DNS レコードが必要です。
+「 [Lync server 2013 での DNS の構成](lync-server-2013-configure-dns-for-edge-support.md)」で説明されているように、Microsoft インターネットセキュリティとアクセラレータ (ISA) サーバー 2006 SP1、Forefront Threat Management Gateway 2010 server、または Internet Information Server アプリケーション要求ルーティングのパブリック外部インターフェイスをポイントする外部 DNS A レコードを作成します。 各プール、ディレクター (またはディレクタープール)、および各簡易 URL に対して、外部 Web サービス Fqdn の DNS レコードが必要です。
 
-リバースプロキシに対するクライアントの解決に関する最小の DNS レコードは、次のレコードを作成する必要があります。
+リバースプロキシへのクライアント解決用の最小 DNS レコードは、次のレコードを作成する必要があります。
 
-  - ディレクターおよびディレクタープールに対して公開された外部 web サービスを定義する Host (A) レコード ( **webdirext.contoso.com**など)
+  - ディレクターおよびディレクタープール用に公開された外部 web サービスを定義するホスト (A) レコード (たとえば、 **webdirext.contoso.com**)
 
-  - 任意のフロントエンドプールおよび Standard Edition サーバーの役割 (たとえば、 **webext.contoso.com**) でホストされている外部 web サービスに対して公開されている外部 web サービスを定義する Host (A) レコード
+  - 任意のフロントエンドプールおよび Standard Edition サーバーの役割でホストされている外部 web サービスに対して発行された外部 web サービスを定義するホスト (A) レコード (たとえば、 **webext.contoso.com**)
 
-  - 単純な Url (たとえば、 **dialin.contoso.com**や**meet.contoso.com**) のホスト (A) レコード
+  - 簡易 Url のホスト (A) レコード (たとえば、 **dialin.contoso.com**および**meet.contoso.com**)
 
-  - Lync Discover 外部レコードのホスト (A) レコード。また、Lync Web App、scheduler、モビリティなどのすべての Web アプリ (たとえば、 **lyncdiscover.contoso.com**) の自動検出へのポインターが表示されます。
+  - Lync discovery External record のホスト (A) レコード。また、Lync Web App、scheduler、モビリティ (たとえば、 **lyncdiscover.contoso.com**) を含むすべての web アプリの自動検出へのポインターも提供します。
 
-  - Office Web Apps サーバーの URL のホスト (A) レコード (たとえば、 **officewebapp01.contoso.com**)
+  - Office Web Apps サーバーの URL のホスト (A) レコード (たとえば**officewebapp01.contoso.com**)
 
 詳細については、「 [DNS の概要-Lync Server 2013 のリバースプロキシ](lync-server-2013-dns-summary-reverse-proxy.md)」を参照してください。
 

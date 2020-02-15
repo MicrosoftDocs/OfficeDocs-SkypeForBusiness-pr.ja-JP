@@ -12,20 +12,20 @@ ms:contentKeyID: 63969593
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b77593ea062f83352592ebe32dbb81b99c1a9613
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 448e96c03b554970b1ee92166908965ee2a6629c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732797"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41987242"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="running-synthetic-transactions-in-lync-server-2013"></a>Lync Server 2013 での代理トランザクションの実行
+# <a name="running-synthetic-transactions-in-lync-server-2013"></a>Lync Server 2013 で代理トランザクションを実行する
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41732797"
 
 <span> </span>
 
-_**最終更新日:** 2014-08-18_
+_**トピックの最終更新日:** 2014-08-18_
 
-通常、代理トランザクションは、次の2つの方法で行われます。 CsHealthMonitoringConfiguration コマンドレットを使用して、各レジストラープールのテストユーザーを設定することができます。 これらのテストユーザーは、代理トランザクションとして使用するように事前に構成されたユーザーのペアです。 (通常、テストアカウントであり、実際のユーザーに属するアカウントではありません)。プールに対して構成されたテストユーザーがいる場合、テストに関係しているユーザーアカウントの id を指定したり、資格情報を指定したりすることなく、そのプールに対して代理トランザクションを実行できます。
+代理トランザクションは、通常、2つの方法で実施されます。 Get-cshealthmonitoringconfiguration コマンドレットを使用して、各レジストラープールのテストユーザーをセットアップできます。 これらのテストユーザーは、代理トランザクションで使用するために事前に構成されたユーザーのペアです。 (通常、これらはテストアカウントであり、実際のユーザーに属するアカウントではありません)。テストユーザーがプールに対して構成されている場合は、テストに関与するユーザーアカウントの id を指定せずに (および資格情報を指定して)、そのプールに対して代理トランザクションを実行することができます。
 
-または、実際のユーザーアカウントを使用して、代理トランザクションを実行することもできます。 たとえば、2人のユーザーがインスタントメッセージを交換できない場合は、(1 組のテストアカウントではなく) 2 つのユーザーアカウントを使用して代理トランザクションを実行し、問題を診断して解決することができます。 実際のユーザーアカウントを使用して代理トランザクションを実行する場合は、各ユーザーのログオン名とパスワードを指定する必要があります。
+または、実際のユーザーアカウントを使用して代理トランザクションを実行することもできます。 たとえば、2人のユーザーがインスタントメッセージを交換できない場合は、2つのユーザーアカウントを使用して代理トランザクションを実行して (テストアカウントのペアではなく)、問題の診断と解決を試みることができます。 実際のユーザーアカウントを使用して代理トランザクションを実行する場合は、各ユーザーのログオン名とパスワードを指定する必要があります。
 
 <div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48183993
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3976b98fddc96ad08f3de4413bf8f38ec3525496
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ee16c492a42cb98ff3b5f326bd6f43a57c4d3f56
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764153"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034277"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764153"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-12_
+_**トピックの最終更新日:** 2012-09-12_
 
-tblPrincipalAffiliations には、active Directory ドメインサービスセキュリティグループなどの場所のメンバーシップを、ドメインの Active Directory コンテナーで説明するプリンシパルの所属が含まれています。
+tblPrincipalAffiliations には、active directory ドメインサービスセキュリティグループ、Active Directory コンテナー、ドメインなどの場所でのメンバーシップを記述するプリンシパルの所属が含まれています。
 
-### <a name="columns"></a>行
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -50,36 +50,36 @@ tblPrincipalAffiliations には、active Directory ドメインサービスセ�
 <thead>
 <tr class="header">
 <th>列</th>
-<th>型</th>
+<th>種類</th>
 <th>説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>principalID</p></td>
-<td><p>int (null ではない)</p></td>
-<td><p>関連主体の ID です。</p></td>
+<td><p>NULL でない int</p></td>
+<td><p>所属プリンシパルの ID。</p></td>
 </tr>
 <tr class="even">
 <td><p>affiliationID</p></td>
-<td><p>int (null ではない)</p></td>
-<td><p>所属を表すプリンシパルの ID です。 各プリンシパル (システムユーザーの種類を除く) には、自己所属も含まれています。</p></td>
+<td><p>NULL でない int</p></td>
+<td><p>所属を表すプリンシパルの ID。各プリンシパル (system-user-types 除く) には自己所属も含まれます。</p></td>
 </tr>
 <tr class="odd">
-<td><p>位置</p></td>
-<td><p>int (null ではない)</p></td>
-<td><p>位置. 自己所属の値は-1 であり、その他の所属については、principalID の各&lt;&gt;バケット内の1から順に1が増加します。</p></td>
+<td><p>index</p></td>
+<td><p>NULL でない int</p></td>
+<td><p>順. 自己所属の値は-1 で、その他の所属については、各&lt;PrincipalID、affiliationId&gt;バケット内で1から順に増加します。</p></td>
 </tr>
 <tr class="even">
 <td><p>updatedBy</p></td>
-<td><p>int (null ではない)</p></td>
-<td><p>最新の更新プログラムを実行したプリンシパル。 これは通常1で、Active Directory の同期を意味します。</p></td>
+<td><p>NULL でない int</p></td>
+<td><p>最新の更新を実行したプリンシパル。通常は、Active Directory の同期を意味する 1 です。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>機能
+### <a name="keys"></a>Keys
 
 <table>
 <colgroup>
@@ -88,7 +88,7 @@ tblPrincipalAffiliations には、active Directory ドメインサービスセ�
 </colgroup>
 <thead>
 <tr class="header">
-<th>行</th>
+<th>Columns</th>
 <th>説明</th>
 </tr>
 </thead>
@@ -99,11 +99,11 @@ tblPrincipalAffiliations には、active Directory ドメインサービスセ�
 </tr>
 <tr class="even">
 <td><p>principalID</p></td>
-<td><p>TblPrincipal Id テーブルで参照される外部キー。</p></td>
+<td><p>tblPrincipal.prinID テーブル内の参照による外部キー。</p></td>
 </tr>
 <tr class="odd">
 <td><p>affiliationID</p></td>
-<td><p>TblPrincipal Id テーブルで参照される外部キー。</p></td>
+<td><p>tblPrincipal.prinID テーブル内の参照による外部キー。</p></td>
 </tr>
 </tbody>
 </table>

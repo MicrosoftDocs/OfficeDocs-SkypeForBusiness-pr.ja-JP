@@ -1,5 +1,5 @@
 ---
-title: 'フェーズ 8: レガシ プールの使用停止'
+title: 'フェーズ 8: 従来のプールを使用停止にする'
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183557
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a9c21aa29f2e98aacd3ec68076a21ba2b4d2a76e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6450e129d68aadcb0e79f38def3e89176ef93373
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729077"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034147"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-8-decommission-legacy-pools"></a>フェーズ 8: レガシ プールの使用停止
+# <a name="phase-8-decommission-legacy-pools"></a>フェーズ 8: 従来のプールを使用停止にする
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41729077"
 
 <span> </span>
 
-_**最終更新日:** 2016-12-08_
+_**トピックの最終更新日:** 2016-12-08_
 
-次のトピックでは、Lync Server 2010 の従来の展開で、DNS エントリの更新、コンテンツ管理サーバーの移動、プールの廃止、サーバーとプールの無効化と削除に関するガイダンスを示します。 このセクションに記載されているすべての手順を行う必要はありません。 ドキュメントを読み、使用する使用停止手順を確認します。
+次のトピックでは、Lync Server 2010 の従来の展開での DNS エントリの更新、コンテンツ管理サーバーの移動、プールの使用停止、およびサーバーとプールの非アクティブ化と削除に関するガイダンスを提供します。 このセクションに記載された手順をすべて実行する必要はありません。 ドキュメントを読んで、どの使用停止の手順を実行すればよいかを判断してください。
 
-Lync Server 2010 サーバーとサーバーの役割、および Lync Server 2010 の展開を廃止するためのステップバイステップのガイドについては、「Microsoft Lync Server 2010 をアンインストールしてサーバーの役割を削除する」を[https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227)ご覧ください。
+Lync server 2010 サーバーとサーバーの役割を削除する方法、および Lync Server 2010 の展開を使用停止にするためのステップバイステップガイドについては、「」を参照してください[https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227)。「Microsoft lync server 2010 をアンインストールし、サーバーの役割を削除する」を参照してください。
 
 <div>
 
 
 > [!IMPORTANT]  
-> Microsoft ユニファイドコミュニケーションマネージ API (UCMA) アプリケーションの移行とアップグレードに関する情報については、「従来の環境を廃止する前に」を参照してください。<A href="https://go.microsoft.com/fwlink/p/?linkid=269555">https://go.microsoft.com/fwlink/p/?LinkId=269555</A>
+> 従来の環境を使用停止にする前に、Microsoft ユニファイドコミュニケーションマネージ API (UCMA) アプリケーションの移行およびアップグレードの詳細については、「」を参照してください。<A href="https://go.microsoft.com/fwlink/p/?linkid=269555">https://go.microsoft.com/fwlink/p/?LinkId=269555</A>
 
 
 
@@ -53,28 +53,28 @@ Lync Server 2010 サーバーとサーバーの役割、および Lync Server 20
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
   - <span></span>  
-    [DNS SRV レコードの更新](update-dns-srv-records.md)
+    [DNS SRV レコードを更新する](update-dns-srv-records.md)
 
   - <span></span>  
-    [Lync Server 2010 Central Management Server を Lync Server 2013 に移動する](move-the-lync-server-2010-central-management-server-to-lync-server-2013.md)
+    [Lync Server 2010 Central Management サーバーを Lync Server 2013 に移動する](move-the-lync-server-2010-central-management-server-to-lync-server-2013.md)
 
   - <span></span>  
-    [会議ディレクトリの移動](move-lync-server-2010-conference-directories-to-lync-server-2013.md)
+    [電話会議ディレクトリを移動する](move-lync-server-2010-conference-directories-to-lync-server-2013.md)
 
   - <span></span>  
-    [アーカイブ サーバーの関連付けの削除](remove-the-archiving-server-association.md)
+    [アーカイブサーバーの関連付けを削除する](remove-the-archiving-server-association.md)
 
   - <span></span>  
-    [監視サーバーの関連付けの削除](remove-the-monitoring-server-association.md)
+    [監視サーバーの関連付けを削除する](remove-the-monitoring-server-association.md)
 
   - <span></span>  
     [Enterprise Edition フロントエンドサーバーまたは Standard Edition フロントエンドサーバーを削除する](remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server.md)
 
   - <span></span>  
-    [バックエンド サーバー上の SQL Server インスタンスとデータベースの削除](remove-sql-server-instances-and-databases-on-the-back-end-server.md)
+    [バックエンドサーバー上の SQL Server インスタンスとデータベースを削除する](remove-sql-server-instances-and-databases-on-the-back-end-server.md)
 
 </div>
 

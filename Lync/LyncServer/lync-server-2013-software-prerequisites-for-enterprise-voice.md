@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: エンタープライズ VoIP のソフトウェア前提条件'
+title: 'Lync Server 2013: エンタープライズ Voip のソフトウェア前提条件'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183960
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cb85a8da9fe0d009f46ef23b919aeb9fd006fab4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dc6c5e5f3f9fc92f56ee1f044419f67f5ded32ce
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731897"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41987022"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="software-prerequisites-for-enterprise-voice-in-lync-server-2013"></a>Lync Server 2013 のエンタープライズ VoIP のソフトウェア前提条件
+# <a name="software-prerequisites-for-enterprise-voice-in-lync-server-2013"></a>Lync Server 2013 のエンタープライズ Voip のソフトウェア前提条件
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41731897"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-03_
+_**トピックの最終更新日:** 2012-10-03_
 
-エンタープライズボイスを展開するインフラストラクチャが、次のソフトウェアの前提条件を満たしていることを確認します。
+エンタープライズ VoIP を展開するインフラストラクチャで、次のソフトウェア前提条件が満たされることを確認します。
 
-  - Lync Server 2013 Standard Edition または Enterprise Edition がネットワークにインストールされ、動作する。
+  - Lync Server 2013 Standard Edition または Enterprise Edition がインストールされており、ネットワーク上で運用できます。
 
-  - すべてのエッジサーバーは、アクセスエッジサービスを実行するエッジサーバー、A/V Edge サービス、Web 会議エッジサービス、リバースプロキシなど、境界ネットワークで展開され、動作します。
+  - エッジサーバーはすべて、アクセスエッジサービスを実行しているエッジサーバー、音声ビデオエッジサービス、Web 会議エッジサービス、リバースプロキシなど、境界ネットワークに展開され、動作しています。
 
-  - Microsoft Exchange Server 2007 Service Pack 3 (SP3)、Microsoft Exchange Server 2010、または Microsoft Exchange Server 2013 は、Exchange ユニファイドメッセージングと Lync Server の統合、および詳細な通知の提供と、Lync のエンドポイント。
+  - Microsoft Exchange Server 2007 Service Pack 3 (SP3)、Microsoft Exchange Server 2010、または Microsoft Exchange Server 2013 は、Exchange ユニファイドメッセージングと Lync Server を統合し、豊富な通知を提供して、ログ情報を呼び出してLync エンドポイント。
 
-  - Lync Server の1人以上のユーザーが作成され、有効になっている。
+  - 1人以上のユーザーが作成され、Lync Server に対して有効になっています。
 
   - Lync クライアントとデバイスが正常に展開されました。
 
@@ -53,15 +53,15 @@ _**最終更新日:** 2012-10-03_
 
 <div>
 
-## <a name="next-steps-verify-security-and-configuration-prerequisites"></a>次の手順: セキュリティと構成の前提条件を確認する
+## <a name="next-steps-verify-security-and-configuration-prerequisites"></a>次のステップ: セキュリティおよび構成の前提条件の確認
 
-エンタープライズ Voip のソフトウェア前提条件を確認した後、ドキュメントを使用して、エンタープライズ Voip の展開の準備を続けます。
+エンタープライズ VoIP のソフトウェア前提条件を確認したら、ドキュメントを使用してエンタープライズ VoIP 展開の準備を続行できます。
 
-1.  「 [Lync Server 2013 でのエンタープライズ voip のセキュリティと構成の前提条件](lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md)」の説明に従って、セキュリティ、ユーザーの構成、ハードウェアの条件を確認します。
+1.  「 [Lync Server 2013 のエンタープライズ voip のセキュリティおよび構成の前提条件](lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md)」で説明されているように、セキュリティ、ユーザー構成、およびハードウェアの前提条件を確認します。
 
-2.  「 [Lync server 2013 に「仲介サーバー用のファイルをインストール](lync-server-2013-install-the-files-for-mediation-server.md)する」の説明に従って、仲介サーバーをインストールします。ただし、仲介された場合は、仲介サーバーがフロントエンドプールまたは Standard Edition サーバー展開プロセスの一環としてインストールされている*ためです。*
+2.  「 [Lync server 2013 の仲介サーバーのファイル](lync-server-2013-install-the-files-for-mediation-server.md)をインストールする」の説明に従って、仲介サーバーをインストールします。これは、仲介サーバーがフロントエンドプールまたは Standard Edition サーバー展開プロセスの一部としてインストールされているためで、スタンドアロンの仲介サーバーまたはプールを展開する場合に*限ら*れます。
 
-3.  「 [Lync Server 2013 での trunks の構成](lync-server-2013-configuring-trunks.md)」で説明されているように、トランク接続を構成してユーザーに PSTN 接続を提供します。
+3.  「Configure[トランク In Lync Server 2013](lync-server-2013-configuring-trunks.md)」で説明されているように、トランク接続を構成してユーザーに PSTN 接続を提供します。
 
 </div>
 

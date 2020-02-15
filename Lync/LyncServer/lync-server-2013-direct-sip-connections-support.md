@@ -12,16 +12,16 @@ ms:contentKeyID: 48183611
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9b987069b4b242ab91cf1b4e6a6cadf4113ed387
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: be5a7fc7fba086130775a3f394af435c0d823f04
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762265"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036707"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41762265"
 
 <span> </span>
 
-_**最終更新日:** 2012-06-29_
+_**トピックの最終更新日:** 2012-06-29_
 
-Lync Server 2013 は、直接 SIP 接続を使用して、Lync Server 2013 を次のいずれかに接続します。
+Lync Server 2013 は、次のいずれかに Lync Server 2013 を接続するための直接 SIP 接続の使用をサポートしています。
 
   - IP-PBX
 
   - PSTN ゲートウェイ
 
-Lync Server 2013 プールの仲介サーバーでは、複数のゲートウェイ、テレフォニーサービスプロバイダーによって提供されるセッション境界コントローラー (SBCs)、またはその組み合わせを制御できます。 さらに、プール内の複数の仲介サーバーが単一のゲートウェイとやり取りできます。
+Lync Server 2013 プールの仲介サーバーは、テレフォニーサービスプロバイダーが提供する複数のゲートウェイ、セッションボーダーコントローラー (sbc)、またはそれらの組み合わせを制御できます。 また、プール内の複数の仲介サーバーは、単一のゲートウェイと対話できます。
 
-エンタープライズテレフォニーインフラストラクチャの Microsoft ユニファイドコミュニケーションプログラムを使って、認定された PSTN ゲートウェイ、IP Pbx、SIP トランキングサービスを検索することができます。 詳細については、「Microsoft ユニファイド通信のオープン[http://go.microsoft.com/fwlink/p/?linkId=203309](http://go.microsoft.com/fwlink/p/?linkid=203309)な相互運用性プログラム web サイト」を参照してください。
+エンタープライズ テレフォニー インフラストラクチャを対象にした Microsoft Unified Communications Open Interoperability Program を使用して、動作が確認されている PSTN ゲートウェイ、IP-PBX、および SIP トランキング サービスを検索できます。 詳細については、「Microsoft 統合コミュニケーションオープン相互運用性[http://go.microsoft.com/fwlink/p/?linkId=203309](http://go.microsoft.com/fwlink/p/?linkid=203309)プログラム web サイト」を参照してください。
 
-直接 SIP 接続のトポロジと展開オプションの詳細については、計画ドキュメントの「 [Lync Server 2013 での直接 sip 接続](lync-server-2013-direct-sip-connections.md)」を参照してください。
+直接 SIP 接続のトポロジと展開オプションの詳細については、「計画」のドキュメントの「 [DIRECT sip connections In Lync Server 2013](lync-server-2013-direct-sip-connections.md) 」を参照してください。
 
 </div>
 

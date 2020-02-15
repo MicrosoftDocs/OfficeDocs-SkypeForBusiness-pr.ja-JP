@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 管理者トポロジの権限をテストする'
+title: 'Lync Server 2013: 管理者トポロジのテスト権限'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969575
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3681a3328f0e1e659377947919bbfc782f1fea7c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f351708871df03a04eeb04318e2ea881b3306484
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746467"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006082"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="test-admin-topology-rights-in-lync-server-2013"></a>Lync Server 2013 で管理者トポロジのテスト権限をテストする
+# <a name="test-admin-topology-rights-in-lync-server-2013"></a>Lync Server 2013 での管理者トポロジのテスト権限
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41746467"
 
 <span> </span>
 
-_**最終更新日:** 2016-12-08_
+_**トピックの最終更新日:** 2016-12-08_
 
 
 <table>
@@ -45,7 +45,7 @@ _**最終更新日:** 2016-12-08_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>確認のスケジュール</p></td>
+<td><p>検証スケジュール</p></td>
 <td><p>最初の Lync Server の展開後。 必要に応じて、アクセス許可に関連する問題が発生します。</p></td>
 </tr>
 <tr class="even">
@@ -54,8 +54,8 @@ _**最終更新日:** 2016-12-08_
 </tr>
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
-<td><p>Lync Server 管理シェルを使用してローカルで実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには、CsSetupPermission コマンドレットを実行するためのアクセス許可が与えられた RBAC の役割を割り当てる必要があります。 このコマンドレットを使うことができるすべての RBAC ロールの一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには、テスト用の CsSetupPermission コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsSetupPermission&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,15 +66,15 @@ _**最終更新日:** 2016-12-08_
 
 ## <a name="description"></a>説明
 
-既定では、ドメイン管理者のみが Lync Server トポロジを有効にして、Lync Server インフラストラクチャに大きな変更を加えることができます。 この問題は、ドメイン管理者と Lync Server の管理者が同じものである限り、問題になりません。多くの組織では、Lync Server の管理者は、ドメイン全体の管理権限を保持していません。 既定では、これらの管理者 (RTCUniversalServerAdmins グループのメンバーとして定義されます) は、Lync Server のトポロジを変更できません。 トポロジを変更する権利を RTCUniversalServerAdmins グループのメンバーに付与するには、[グラント Setuppermission](https://docs.microsoft.com/powershell/module/skype/Grant-CsSetupPermission)コマンドレットを使用して、必要な Active Directory アクセス許可を割り当てる必要があります。
+既定では、ドメイン管理者のみが Lync Server トポロジを有効にし、Lync Server インフラストラクチャに大きな変更を加えることができます。 ドメイン管理者と Lync Server 管理者が同一である限り、これは問題になりません。多くの組織では、Lync Server 管理者はドメイン全体に対する管理権限を保持していません。 既定では、これらの管理者 (RTCUniversalServerAdmins グループのメンバーとして定義されている) が Lync Server トポロジを変更することはできません。 RTCUniversalServerAdmins グループのメンバーがトポロジを変更できるようにするには、必要な Active Directory アクセス許可を付与するために、 [Grant-CsSetupPermission](https://docs.microsoft.com/powershell/module/skype/Grant-CsSetupPermission)コマンドレットを使用する必要があります。
 
-"CsSetupPermission テスト" コマンドレットは、Lync Server またはそのいずれかのコンポーネントのインストールに必要なアクセス許可が、指定された Active Directory コンテナーで構成されていることを確認します。 アクセス許可が割り当てられていない場合は、グラント Setuppermissions コマンドレットを実行して、Lync Server をインストールして有効にする権利を RTCUniversalServerAdmins グループのメンバーに付与することができます。
+Test-CsSetupPermission コマンドレットは、Lync Server またはそのコンポーネントのいずれかをインストールするために必要なアクセス許可が、指定した Active Directory コンテナーに対して構成されているかどうかを確認します。 アクセス許可が割り当てられていない場合は、Grant-CsSetupPermission コマンドレットを実行して、RTCUniversalServerAdmins グループのメンバーに Lync Server をインストールして有効にする権限を与えることができます。
 
 <div>
 
 
 > [!NOTE]  
-> Grant (CsSetupPermission アクセス許可によって割り当てられたアクセス許可の詳細な一覧については、「ブログ投稿のアクセス許可」を<A href="https://blogs.technet.com/b/jenstr/archive/2011/02/07/grant-cssetuppermission-and-grant-csoupermission.aspx">参照してください。</A>
+> Grant-CsSetupPermission によって割り当てられるアクセス許可の詳細な一覧については、ブログ投稿<A href="https://blogs.technet.com/b/jenstr/archive/2011/02/07/grant-cssetuppermission-and-grant-csoupermission.aspx">付与-cssetuppermission および grant-Cssetuppermission</A>を参照してください。
 
 
 
@@ -86,45 +86,45 @@ _**最終更新日:** 2016-12-08_
 
 ## <a name="running-the-test"></a>テストの実行
 
-Active Directory コンテナーにセットアップのアクセス許可が割り当てられているかどうかを判断するには、CsSetupPermission コマンドレットを呼び出します。 確認するコンテナーの識別名を指定します。 たとえば、次のコマンドは、コンテナー ou = CsServers、dc = litwareinc、dc = com のセットアップアクセス許可を確認します。
+Active Directory コンテナーにセットアップのアクセス許可が割り当てられているかどうかを判断するには、Test-CsSetupPermission コマンドレットを呼び出します。 確認するコンテナーの識別名を指定します。 たとえば、次のコマンドは、コンテナー ou = CsServers, dc = litwareinc, dc = com: に対するセットアップのアクセス許可を確認します。
 
     Test-CsSetupPermission -ComputerOU "ou=CsServers,dc=litwareinc,dc=com"
 
-詳細については、「 [CsSetupPermission のテスト](https://docs.microsoft.com/powershell/module/skype/Test-CsSetupPermission)」コマンドレットのヘルプトピックを参照してください。
+詳細については、 [Test-CsSetupPermission](https://docs.microsoft.com/powershell/module/skype/Test-CsSetupPermission)コマンドレットのヘルプトピックを参照してください。
 
 </div>
 
 <div>
 
-## <a name="determining-success-or-failure"></a>成功または失敗を確認する
+## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
-Active Directory コンテナーで必要なアクセス許可が既に設定されていることを確認した場合、コマンドレットは値 True を返します。
+必要なアクセス許可が Active Directory コンテナーに既に設定されている場合、このコマンドレットは True という値を返します。
 
-True
+はい
 
-権限が設定されていない場合は、CsSetupPermission は値 False を返します。 通常、この値は多くの警告メッセージで囲まれることに注意してください。 次に例を示します。
+権限が設定されていない場合、Test-CsSetupPermission は値 False を返します。 この値は通常、多くの警告メッセージで囲まれていることに注意してください。 例:
 
-警告: アクセス制御エントリ (ACE) atl-cs-001\\RTCUniversalServerAdmins;許可ExtendedRight;--1131f6aa-9c07-11d1-f79f-00c04fc2dcd2
+警告: アクセス制御エントリ (ACE) atl-fs-01\\RTCUniversalServerAdmins;使うExtendedRight;該当該当1131f6aa-9c07-11d1-f79f-00c04fc2dcd2
 
 警告: オブジェクト "CN = Computers, DC = litwareinc, DC = com" のアクセス制御エントリ (Ace) の準備ができていません。
 
 False
 
-警告: "Test-CsSetupPermission" 処理は、警告と共に完了します。 この実行中に警告が記録されました。
+警告: "Test-CsSetupPermission" 処理は完了しましたが、警告があります。 この実行中に警告が記録されました。
 
-警告: 詳細な結果は、"C\\: Users\\管理者\\向け\\AppData\\ローカル\\一時テスト-cssetuppermission-1da99ba6-abe2-45e4-8b16-dfd244763118" にあります。
+警告: 詳細な結果は、「C\\: Users\\Admin\\AppData\\Local\\Temp\\Test-cssetuppermission-1da99ba6-abe2-45e4-8b16-dfd244763118」に記載されています。
 
 </div>
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a>テストに失敗した可能性がある理由
+## <a name="reasons-why-the-test-might-have-failed"></a>テストが失敗した理由
 
-例外はまれにありますが、通常は、指定した Active Directory コンテナーに対するセットアップアクセス許可が割り当てられていないことを意味します。 これらのアクセス許可を割り当てるには、グラント Setuppermission コマンドレットを使用します。 たとえば、次のコマンドを実行すると、domain litwareinc.com の Computers コンテナーのセットアップ権限が付与されます。
+例外はまれですが、通常は、指定された Active Directory コンテナーにセットアップのアクセス許可が割り当てられていないことを意味します。 これらのアクセス許可は、Grant-CsSetupPermission コマンドレットを使用して割り当てることができます。 たとえば、次のコマンドは、ドメイン litwareinc.com の Computers コンテナーに対するセットアップのアクセス許可を付与します。
 
     Grant-CsSetupPermission -ComputerOU "cn=Computers,dc=litwareinc,dc=com"
 
-詳細については、「 [CsSetupPermission のテスト](https://docs.microsoft.com/powershell/module/skype/Test-CsSetupPermission)」コマンドレットのヘルプトピックを参照してください。
+詳細については、 [Test-CsSetupPermission](https://docs.microsoft.com/powershell/module/skype/Test-CsSetupPermission)コマンドレットのヘルプトピックを参照してください。
 
 </div>
 

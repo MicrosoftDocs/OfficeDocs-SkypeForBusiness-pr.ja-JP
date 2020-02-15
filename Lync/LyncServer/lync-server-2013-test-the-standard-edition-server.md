@@ -12,16 +12,16 @@ ms:contentKeyID: 48185220
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 00918643fcc59efc33d12dc3f8f77c7d3ac69815
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4145740f09557c8f39830dce689fa122456a28f8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746057"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42018978"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41746057"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-01_
+_**トピックの最終更新日:** 2012-10-01_
 
 次の手順では、Standard Edition サーバーの展開をテストする方法について説明します。
 
@@ -43,30 +43,30 @@ _**最終更新日:** 2012-10-01_
 
 ## <a name="to-test-the-deployment-of-a-standard-edition-server"></a>Standard Edition サーバーの展開をテストするには
 
-1.  Active Directory コンピューターとユーザーを使用して、Lync Server 2013 展開用の管理者ロールの Active Directory ユーザーオブジェクト (Lync Server コントロールパネルがインストールされている場合) を**csadministrator**グループに追加します。
+1.  [Active Directory コンピューターとユーザー] を使用して、Lync Server 2013 展開 (Lync Server コントロールパネルがインストールされている) の管理者ロールの Active Directory ユーザーオブジェクトを**Csadministrator**グループに追加します。
 
-2.  ユーザーオブジェクトが現在ログオンしている場合は、ログオフしてから再びログオンして、新しいグループの割り当てを登録します。
+2.  ユーザー オブジェクトが現在ログオンしている場合は、ログオフしてから再度ログオンし、新しいグループ割り当てを登録します。
     
     <div>
     
 
     > [!NOTE]  
-    > ユーザーアカウントを、Lync Server 2013、Standard Edition を実行しているサーバーのローカル管理者にすることはできません。 適切なユーザーとグループを CsAdministors グループに追加していない場合、Lync Server 2013 コントロールパネルを開くときにエラーが発生します。これは、"承認されていません。ロールベースのアクセス制御 (RBAC) 認証エラーによりアクセスが拒否されました" というメッセージが表示されます。
+    > ユーザーアカウントは、Lync Server 2013 Standard Edition を実行しているサーバーのローカル管理者になることはできません。 CsAdministors グループに適切なユーザーとグループを追加しないと、Lync Server 2013 コントロールパネルを開くときに、"権限のない: 役割ベースのアクセス制御 (RBAC) の承認エラーによりアクセスが拒否されました" というエラーが表示されます。
 
     
     </div>
 
 3.  管理者アカウントを使用して、Lync Server コントロールパネルがインストールされているコンピューターにログオンします。
 
-4.  Lync Server コントロールパネルを起動し、メッセージが表示されたら、資格情報を入力します。 Lync Server 2013 コントロールパネルに展開情報が表示されます。
+4.  メッセージが表示されたら、Lync Server コントロールパネルを起動し、資格情報を入力します。 Lync Server 2013 コントロールパネルに展開情報が表示されます。
 
-5.  左側のナビゲーションバーで、[**トポロジ**] をクリックし、サービスの状態が緑色の矢印が付いたコンピューターのアイコンであり、展開されてオンラインになった Lync server の各役割の横に緑色のチェックマークが付いていることを確認します。
+5.  左側のナビゲーションバーで [**トポロジ**] をクリックし、サービスの状態が緑色の矢印が表示されているコンピューターのアイコンになっており、展開済みでオンラインになっている各 Lync server サーバーの役割の横に緑のチェックマークが表示されていることを確認します。
 
 6.  左側のナビゲーションバーで [**ユーザー**] をクリックし、Lync Server 2013 の2人のユーザーを有効にします。
 
-7.  1人のユーザーをドメインに参加しているコンピューターに、もう一方のユーザーがドメイン内の別のコンピューターにログオンします。
+7.  1 人のユーザーがドメインに参加しているコンピューターにログオンし、もう 1 人のユーザーがドメイン内の別のコンピューターにログオンします。
 
-8.  2台の各クライアントコンピューターに Lync Server 2013 をインストールして、両方のユーザーが Lync Server 2013 にサインインして、互いにインスタントメッセージを送信できることを確認します。
+8.  2台の各クライアントコンピューターに Lync Server 2013 をインストールしてから、両方のユーザーが Lync Server 2013 にサインインして、互いにインスタントメッセージを送信できることを確認します。
 
 </div>
 

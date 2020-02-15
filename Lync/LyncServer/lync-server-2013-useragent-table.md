@@ -12,16 +12,16 @@ ms:contentKeyID: 48185582
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 25d1cd6b48b09ad3083499ec3f173772d242ba6b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0ba13a18436c7a55ca68931ff2794fd584be84f9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744397"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007626"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41744397"
 
 <span> </span>
 
-_**最終更新日:** 2012-05-25_
+_**トピックの最終更新日:** 2012-05-25_
 
-UserAgent テーブルは、データベースに記録されているセッションに参加しているさまざまなユーザーエージェントのリストを格納するサポートテーブルです。 テーブル内の各レコードは、1つのユーザーエージェントを表します。
+UserAgent テーブルは、データベースに記録されたセッションに参加しているさまざまなユーザーエージェントのリストを格納するサポートテーブルです。 テーブル内の各レコードは、1つのユーザーエージェントを表します。
 
 
 <table>
@@ -60,11 +60,11 @@ UserAgent テーブルは、データベースに記録されているセッシ�
 <td><p><strong>UserAgentKey</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>このユーザーエージェントを識別する一意の番号です。</p></td>
+<td><p>このユーザーエージェントを識別する一意の番号。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserAgent</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td><p>一意</p></td>
 <td><p>ユーザーエージェント文字列。</p></td>
 </tr>
@@ -73,17 +73,17 @@ UserAgent テーブルは、データベースに記録されているセッシ�
 <td><p>smallint</p></td>
 <td><p> </p></td>
 <td><p>1は仲介サーバーです。</p>
-<p>2は、A/V 会議サーバーです。</p>
+<p>2は音声ビデオ会議サーバーです。</p>
 <p>4は Lync です。</p>
 <p>8は IP 電話です。</p>
-<p>16は Live Meeting 本体です。</p>
+<p>16は Live Meeting コンソールです。</p>
 <p>32は展開検証ツール (DVT) です。</p>
-<p>64は、Macintosh コンピューター上の Lync です。</p>
+<p>64は、Macintosh コンピューターの Lync です。</p>
 <p>128は、Office Communications Server 2007 R2 アテンダントです。</p>
-<p>256は会議のアナウンスメントサービスです。</p>
-<p>512は、会議の自動応答です。</p>
+<p>256は会議アナウンスサービスです。</p>
+<p>512は、会議自動応答です。</p>
 <p>1024は応答グループアプリケーションです。</p>
-<p>2048は外部の音声制御。</p></td>
+<p>2048は外部音声コントロールです。</p></td>
 </tr>
 </tbody>
 </table>

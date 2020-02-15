@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 更新したトポロジの公開'
+title: 'Lync Server 2013: 更新されたトポロジの公開'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184203
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4500d12c7b0a054ccce910f27c80f9aaa83eccaf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5a0a690d38d6f7d348cdaf12503b08027bc4c0f4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747067"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41987322"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="publish-the-updated-topology-in-lync-server-2013"></a>Lync Server 2013 での更新したトポロジの公開
+# <a name="publish-the-updated-topology-in-lync-server-2013"></a>Lync Server 2013 で更新されたトポロジを公開する
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41747067"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-01_
+_**トピックの最終更新日:** 2012-10-01_
 
-トポロジビルダーでトポロジを更新した後は、常設チャットサーバーを構成して使用する前に、トポロジを中央管理ストアに発行する必要があります。 このデータの読み取り専用コピーはトポロジ内のすべてのサーバーにレプリケートされ、すべてのサーバーは、トポロジおよび他の構成の変更と同期された状態で維持されます。
+トポロジビルダーでトポロジを更新した後は、常設チャットサーバーを構成して使用する前に、トポロジを中央管理ストアに公開する必要があります。 このデータの読み取り専用コピーはトポロジ内のすべてのサーバーにレプリケートされ、すべてのサーバーは、トポロジおよび他の構成の変更と同期された状態で維持されます。
 
 <div>
 
 ## <a name="to-publish-an-updated-topology"></a>更新されたトポロジを公開するには
 
-トポロジを公開する前に、常設チャットサーバー用のデータベースをインストールします。 [**アクション**]、[**データベースのインストール**] の順に選択して、トポロジビルダーを使用してデータベースをインストールします。
+トポロジを公開する前に、常設チャットサーバーのデータベースをインストールします。 トポロジビルダーを使用してデータベースをインストールするには、[**アクション**] を選択して**データベースをインストール**します。
 
-1.  Lync Server 2013 を実行しているか、Lync Server 管理ツールがインストールされているコンピューターで、**ドメイン管理者**グループと**RTCUniversalServerAdmins**グループの両方のメンバーで、かつ永続的なチャットサーバーファイルストアに使用するフルコントロールのアクセス許可 (つまり、読み取り、書き込み、変更) を使用する (Topology Builder では、必要な随意アクセス制御リスト (dacl))、または同等のユーザー権限を持つアカウントを使用してログオンします。
+1.  Lync Server 2013 を実行しているコンピューター、または Lync Server 管理ツールがインストールされているコンピューターで、 **Domain Admins**グループと**RTCUniversalServerAdmins**グループの両方のメンバーであり、常設チャットサーバーのファイルストアに使用されるファイルストアに対するフルコントロールのアクセス許可 (つまり、読み取り、書き込み、および変更) を持つアカウントを使用してログオンします (これにより、トポロジビルダーが必要な随意アクセス制御リスト (dacl) を構成できるようになります)。
 
-2.  トポロジビルダーを起動します。 [**既存の展開からトポロジをダウンロード**] を選択するか、**ローカルファイル**をローカルで保存した場合は、[トポロジを開く] をクリックします。
+2.  トポロジ ビルダーを開始します。 [**既存の展開からトポロジをダウンロードする**] を選択するか、トポロジがローカルに保存されている場合は [**ローカル ファイルからトポロジを開く**] を選択します。
 
 3.  コンソールツリーで、[ **Lync Server 2013**] を右クリックし、[**トポロジの公開**] をクリックします。
 
@@ -59,7 +59,7 @@ _**最終更新日:** 2012-10-01_
     
 
     > [!IMPORTANT]  
-    > トポロジを公開した後は、コンテンツをアーカイブする前に、常設チャットサーバーのサポートを構成する必要があります。
+    > トポロジを公開した後、コンテンツをアーカイブする前に、常設チャットサーバーのサポートを構成する必要があります。
 
     
     </div>

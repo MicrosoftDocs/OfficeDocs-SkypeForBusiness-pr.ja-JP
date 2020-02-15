@@ -12,20 +12,20 @@ ms:contentKeyID: 48184031
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8258063645267fb12801548ddfdeae1b4ef7c795
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3827bf913c4108c1105376a6f178598a2fb45a06
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758325"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41996652"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-client-bootstrapping-policies-in-lync-server-2013"></a>Lync Server 2013 でクライアントブートストラップポリシーを構成する
+# <a name="configuring-client-bootstrapping-policies-in-lync-server-2013"></a>Lync Server 2013 でのクライアントブートストラップポリシーの構成
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41758325"
 
 <span> </span>
 
-_**最終更新日:** 2013-02-21_
+_**トピックの最終更新日:** 2013-02-21_
 
-グループ ポリシー管理コンソール (GPMC) とグループ ポリシー オブジェクト エディターは、グループ ポリシーを管理するために使用するツールです。 Office グループポリシー管理用テンプレートに含まれている Lync 2013 の管理用テンプレートには、ドメインのグループポリシーオブジェクト用に構成したレジストリベースのポリシー設定が含まれています。これには、adml (ADML) 管理用テンプレートが含まれています。 ADML ファイルは、ADMX ファイルに対する言語固有の補完ファイルです。 それぞれの ADMX および ADML ファイルには、単一の Office アプリケーションに関するポリシー設定が含まれています。 詳細については、Office 2013 ドキュメントの「Office 2013 管理用テンプレートファイル (ADMX、ADML)」 <http://go.microsoft.com/fwlink/p/?linkid=267516>を参照してください。
+グループポリシー管理コンソール (GPMC) とグループポリシーオブジェクトエディタは、グループポリシーの管理に使用するツールです。 Office グループポリシー管理用テンプレートに含まれるのは、ドメイン内のグループポリシーオブジェクトに対して構成するレジストリベースのポリシー設定が含まれている Lync 2013 admx (ADMX) および adml (ADML) 管理用テンプレートです。 ADML ファイルは、ADMX ファイルに対して言語固有の補完を備えています。 各 ADMX および ADML ファイルには、1つの Office アプリケーションのポリシー設定が含まれています。 詳細については、Office 2013 のドキュメントの「Office 2013 管理用テンプレートファイル (ADMX, ADML) <http://go.microsoft.com/fwlink/p/?linkid=267516>」を参照してください。
 
-Lync 2013 には、ユーザーが初めてサーバーにサインインする前に構成することを検討する必要がある、いくつかのクライアントブートストラップポリシーがあります。 たとえば、サインインが完了するまでクライアントで使用する既定のサーバーとセキュリティモードなどです。 グループポリシーを使って、ユーザーのコンピューターのレジストリでこれらの設定を行ってから、サインインして、サーバーからインバンドのプロビジョニング設定を受信することができます。 次の表に、Lync 2013 で利用できるグループポリシー設定を示します。
+Lync 2013 では、ユーザーが初めてサーバーにサインインする前に構成を考慮する必要があるクライアントブートストラップポリシーがいくつかあります。 たとえば、サインインが完了するまでクライアントが使用する既定のサーバーおよびセキュリティモード。 グループポリシーを使用して、ユーザーのコンピューターのレジストリでこれらの設定を行い、サインインしてから、サーバーからインバンドプロビジョニング設定を受信することができます。 次の表に、Lync 2013 で使用できるグループポリシー設定を示します。
 
-### <a name="group-policy-settings-for-lync-2013"></a>Lync 2013 のグループポリシー設定
+### <a name="group-policy-settings-for-lync-2013"></a>Lync 2013 のグループ ポリシー設定
 
 <table>
 <colgroup>
@@ -58,61 +58,61 @@ Lync 2013 には、ユーザーが初めてサーバーにサインインする�
 <tr class="odd">
 <td><p>サーバーを指定する<br />
 ConfigurationMode</p></td>
-<td><p>サインイン時に使用するトランスポートとサーバーの識別2013方法を指定します。 この設定では、次の値を指定します。</p>
+<td><p>Lync 2013 がサインイン時に使用するトランスポートおよびサーバーを識別する方法を指定します。 この設定では、以下のことを指定します。</p>
 <ul>
-<li><p>ServerAddressExternal: 外部ファイアウォールの外側からの接続時に、フェデレーションからの連絡先とクライアントで使用されるサーバー名または IP アドレスを指定します。</p></li>
-<li><p>ServerAddressInternal: 組織ファイアウォールの内側にあるクライアントからの接続に使用されるサーバー名または IP アドレスを指定します。</p></li>
-<li><p>Transport: 伝送制御プロトコル (TCP) またはトランスポート層セキュリティ (TLS) のいずれかを指定します。</p></li>
+<li><p>ServerAddressExternal: 外部ファイアウォールの外側から接続する場合に、クライアントとフェデレーション連絡先が使用するサーバー名または IP アドレスを指定します。</p></li>
+<li><p>ServerAddressInternal: クライアントが組織のファイアウォールの内側から接続するときに使用されるサーバー名または IP アドレスを指定します。</p></li>
+<li><p>Transport: 伝送制御プロトコル (TCP) またはトランスポート層セキュリティ (TLS) のどちらかを指定します。</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>サポートされているその他のサーバーバージョン<br />
 (ConfiguredServerCheckValues)</p></td>
-<td><p>既定でサポートされているサーバーのバージョンに加えて、Lync Server 2013 がログオンするサーバーのバージョン名の一覧をセミコロンで区切って指定します。</p></td>
+<td><p>既定でサポートされているサーバーのバージョンに加えて、Lync Server 2013 がログオン先とするサーバーバージョンの名前の一覧をセミコロンで区切って指定します。</p></td>
 </tr>
 <tr class="odd">
-<td><p>サインイン失敗ログの自動アップロードを無効にする (DisableAutomaticSendTracing)</p></td>
-<td><p>サインインの失敗ログを、分析のために Lync Server に自動的にアップロードします。 サインインが成功した場合は、ログは自動的にアップロードされません。 このポリシーが構成されていない場合は、次のように動作します。</p>
+<td><p>サインイン失敗ログの自動アップロードを無効にする (Disableautomatic Sendtracing)</p></td>
+<td><p>サインインエラーログを分析のために Lync Server に自動的にアップロードします。 サインインに成功した場合、ログは自動的にアップロードされません。 このポリシーが構成されていない場合、次の処理が行われます。</p>
 <dl>
 <dt><span></span></dt>
-<dd><p>Lync Online ユーザーの場合: サインインエラーログは、自動的にアップロードされます。</p>
+<dd><p>Lync Online ユーザーの場合: サインイン失敗ログは自動的にアップロードされます。</p>
 </dd>
 <dt><span></span></dt>
 <dd><p>Lync オンプレミスユーザーの場合: アップロードする前に、ユーザーに確認のダイアログボックスが表示されます。</p>
 </dd>
 </dl>
-<p>この設定が無効になっている場合、サインインログは lync オンプレミスと Lync Online の両方のユーザーの Lync サーバーに自動的にアップロードされます。 この設定を有効にすると、サインインログが自動的にアップロードされることはありません。</p></td>
+<p>この設定を無効にすると、lync オンプレミスと Lync Online の両方のユーザーのサインインログが Lync Server に自動的にアップロードされます。 この設定を有効にした場合、サインインログは自動的にアップロードされることはありません。</p></td>
 </tr>
 <tr class="even">
 <td><p>SIP 接続の HTTP フォールバックを無効にする<br />
 (DisableHttpConnect)</p></td>
-<td><p>TLS または TCP が利用できない場合に、Lync Server が HTTP を使用してサーバーに接続するのを防ぎます。 既定では、Lync は最初に TLS または TCP を使用してサーバーに接続しようとし、次のいずれのトランスポート方法も成功しなかった場合、Lync は HTTP を使って接続を試みます。 このポリシーを使用して、フォールバック HTTP 接続の試行を無効にします。</p></td>
+<td><p>TLS または TCP が使用できない場合、Lync Server が HTTP を使用してサーバーに接続できないようにします。 既定では、Lync は最初に TLS または TCP を使用してサーバーに接続しようとし、次のどちらのトランスポート方法も成功しないと、Lync は HTTP を使用して接続しようとします。 このポリシーは、フォールバックの HTTP 接続試行を無効にするために使用します。</p></td>
 </tr>
 <tr class="odd">
-<td><p>ログオン資格情報を要求する<br />
-(DisableNTCredentials)</p></td>
-<td><p>SIP サーバーへのサインイン時に、ユーザーが Lync のログオン資格情報を使って、自動的に Windows 資格情報を使用しないようにする必要があります。</p></td>
+<td><p>ログオン資格情報が必要<br />
+DisableNTCredentials</p></td>
+<td><p>ユーザーは、SIP サーバーへのサインイン時に Windows 資格情報を自動的に使用するのではなく、Lync のログオン資格情報を提供する必要があります。</p></td>
 </tr>
 <tr class="even">
-<td><p>サーバーのバージョンチェックを無効にする<br />
+<td><p>サーバーバージョンチェックを無効にする<br />
 (DisableServerCheck)</p></td>
-<td><p>このポリシーを1に設定すると、Lync がサインイン前にサーバー名とバージョンを確認できなくなります。 既定では、サインイン前に Lync によってこれらのチェックが行われます。</p></td>
+<td><p>このポリシーを1に設定すると、Lync がサインインする前にサーバー名とバージョンを確認できなくなります。 既定では、Lync はサインインする前にこれらのチェックを行います。</p></td>
 </tr>
 <tr class="odd">
-<td><p>BITS を使用してアドレス帳サービスファイルをダウンロードできるようにする<br />
+<td><p>アドレス帳サービスファイルをダウンロードするために BITS を使用できるようにする<br />
 (EnableBitsForGalDownload)</p></td>
-<td><p>Lync がバックグラウンドインテリジェント転送サービス (BITS) を使用して、アドレス帳サービスファイルをダウンロードできるようにします。</p></td>
+<td><p>Lync でバックグラウンドインテリジェント転送サービス (BITS) を使用して、アドレス帳サービスのファイルをダウンロードできるようにします。</p></td>
 </tr>
 <tr class="even">
 <td><p>SIP セキュリティモードを構成する<br />
 (EnableSIPHighSecurityMode)</p></td>
-<td><p>Lync がインスタントメッセージの送受信をより安全に行えるようにします。 このポリシーは、Windows .NET または Microsoft Exchange Server サービスに対して無効です。</p>
-<p>このポリシー設定を構成しないと、Lync で任意のトランスポートを使用できます。 ただし、TLS を使っておらず、サーバーがユーザーを認証する場合は、NTLM 認証または Kerberos 認証のいずれかを使用する必要があります。</p></td>
+<td><p>Lync は、より安全にインスタントメッセージを送受信することができます。 このポリシーは、Windows .NET または Microsoft Exchange Server サービスに対して無効です。</p>
+<p>このポリシー設定を構成しない場合、Lync は任意のトランスポートを使用できます。 ただし、TLS を使用せず、サーバーがユーザーを認証する場合は、Lync で NTLM 認証または Kerberos 認証のいずれかを使用する必要があります。</p></td>
 </tr>
 <tr class="odd">
-<td><p>グローバルアドレス帳のダウンロードの最初の遅延<br />
+<td><p>グローバルアドレス帳のダウンロードの初期遅延<br />
 (GalDownloadInitialDelay)</p></td>
-<td><p>グローバル アドレス一覧 (GAL) のダウンロードが始まるまでの時間を指定します。既定値は 60 分です。つまり、サーバーでは GAL ファイルのダウンロードがランダムに 0 ～ 60 分間延期されます。</p></td>
+<td><p>グローバルアドレス一覧 (GAL) がダウンロードされるまでの期間を指定します。 既定値は60分です。これは、サーバーが0から60分の間のランダムな期間、GAL ファイルのダウンロードを遅延させることを意味します。</p></td>
 </tr>
 <tr class="even">
 <td><p>ユーザーが Microsoft Lync を実行できないようにする<br />
@@ -121,18 +121,18 @@ ConfigurationMode</p></td>
 </tr>
 <tr class="odd">
 <td><p>ユーザーパスワードの保存を許可する<br />
-(SavePassword)</p></td>
-<td><p>Lync でパスワードを保存できるようにします。</p></td>
+SavePassword</p></td>
+<td><p>Lync がパスワードを保存できるようにします。</p></td>
 </tr>
 <tr class="even">
 <td><p>SIP 圧縮モードを構成する<br />
 (SipCompression)</p></td>
-<td><p>SIP 圧縮をオンにするときを定義します。既定では、アダプターのスピードに基づいて SIP 圧縮が有効化されます。このポリシーを設定すると、サインインの時間が長くなる可能性があることに注意してください。</p></td>
+<td><p>SIP 圧縮を有効にするタイミングを指定します。 既定では、SIP 圧縮はアダプターの速度に基づいて有効になっています。 このポリシーを設定すると、サインインの時間が長くなる可能性があることに注意してください。</p></td>
 </tr>
 <tr class="odd">
-<td><p>信頼済みドメインリスト<br />
+<td><p>信頼されたドメインの一覧<br />
 TrustModelData</p></td>
-<td><p>ユーザーの SIP ドメインのプレフィックスに一致しない信頼されたドメインをリストします。</p></td>
+<td><p>顧客 SIP ドメインのプレフィックスに一致しない信頼されたドメインを一覧表示します。</p></td>
 </tr>
 </tbody>
 </table>
@@ -149,25 +149,25 @@ TrustModelData</p></td>
 </colgroup>
 <thead>
 <tr class="header">
-<th>優先順位</th>
+<th>Precedence</th>
 <th>設定の場所と方法</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Lync Server 2013 インバンドプロビジョニング</p></td>
 </tr>
 <tr class="even">
-<td><p>両面</p></td>
+<td><p>2 </p></td>
 <td><p>HKEY_LOCAL_MACHINE \SOFTWARE\Policies\Microsoft\Office\15.0\Lync</p></td>
 </tr>
 <tr class="odd">
-<td><p>3</p></td>
+<td><p>3 </p></td>
 <td><p>HKEY_CURRENT_USER \SOFTWARE\Policies\Microsoft\Office\15.0\Lync</p></td>
 </tr>
 <tr class="even">
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>Lync 2013 の [Lync-オプション] ダイアログボックス</p></td>
 </tr>
 </tbody>
@@ -178,7 +178,7 @@ TrustModelData</p></td>
 
 ## <a name="to-define-group-policy-settings-by-using-the-lync-2013-administrative-template-files"></a>Lync 2013 管理用テンプレートファイルを使用してグループポリシー設定を定義するには
 
-1.  言語に依存しないすべての ADMX ファイルを含めるルートレベル フォルダーを作成します。たとえば、ドメイン コントローラーの次の場所で、中央ストア用のルート フォルダーを作成します。
+1.  すべての言語に依存しない ADMX ファイルを含むルートレベルのフォルダーを作成します。 たとえば、次の場所で、ドメインコントローラーの中央ストアのルートフォルダーを作成します。
     
     `%systemroot%\sysvol\domain\policies\PolicyDefinitions`
     
@@ -186,12 +186,12 @@ TrustModelData</p></td>
     
 
     > [!NOTE]  
-    > この手順では、ドメインで複数のコンピューターを管理することを想定しています。この場合、テンプレートをプライマリ ドメイン コントローラーの Sysvol フォルダーにある中央ストアに保存します。これにより、ドメインの管理用テンプレート用のレプリケートされた中央の保存場所が提供されます。
+    > この手順では、ドメイン内の複数のコンピューターを管理することを前提としています。 この場合は、プライマリドメインコントローラーの Sysvol フォルダーにある中央ストアにテンプレートを格納します。 これはドメインの管理用テンプレートのためのレプリケートされた集中格納場所となります。
 
     
     </div>
 
-2.  使用する言語ごとのサブフォルダーを作成します。これらのサブフォルダーには、言語固有の ADML リソース ファイルが含められます。たとえば、米国英語 (EN-US) 用のサブフォルダーを次の場所で作成します。
+2.  使用する言語ごとにサブフォルダーを作成します。 これらのサブフォルダーには、言語固有の ADML リソースファイルが含まれています。 たとえば、次の場所に米国英語 (EN-US) のサブフォルダーを作成します。
     
     `%systemroot%\sysvol\domain\policies\PolicyDefinitions\EN-US`
 

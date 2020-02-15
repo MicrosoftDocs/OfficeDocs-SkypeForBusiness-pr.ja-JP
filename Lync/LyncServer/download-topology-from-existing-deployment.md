@@ -12,16 +12,16 @@ ms:contentKeyID: 49733847
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 29a8bd95af99b6b79b91f84231120c6981eeedb7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 66b68459a1923fcb4a066cafe02c5226b24f9321
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723027"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006413"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,27 +35,27 @@ ms.locfileid: "41723027"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-29_
+_**トピックの最終更新日:** 2012-09-29_
 
-Lync Server 2013 プールを作成する場合は、Lync Server 2010 に関連付けられている中央管理ストアを使用します。 最初の使用時と後続の編集セッションでトポロジビルダーを起動すると、トポロジビルダーで現在の構成ドキュメントを読み込む場所を確認するメッセージが表示されます。 既に Lync Server 2010 トポロジを定義しており、全体管理ストアを確立しているため、既存の展開からトポロジをダウンロードすることを選択する必要があります。 トポロジビルダーはデータベースを読み取り、現在の定義を取得します。
+Lync Server 2013 プールを作成する場合は、Lync Server 2010 に関連付けられている中央管理ストアを使用します。 初めてトポロジ ビルダーを起動して、その後、編集セッションを行う場合、トポロジ ビルダーに現在の構成ドキュメントを読み込ませる場所を指定するようメッセージが表示されます。 既に Lync Server 2010 トポロジが定義されており、中央管理ストアが確立されているため、既存の展開からトポロジをダウンロードすることを選択する必要があります。 トポロジ ビルダーは、データベースを読み取り、現在の定義を取得します。
 
-**既存の展開からトポロジをダウンロードするには**
+**既存の展開環境からトポロジをダウンロードするには**
 
-1.  **Lync Server 展開ウィザード**を開きます。
+1.  [**Lync Server 展開ウィザード**] を開きます。
 
-2.  [ **Lync Server 2013-展開ウィザード**] ページで、[**管理ツールのインストール**] をクリックします。
+2.  [**Lync Server 2013 – 展開ウィザード**] ページで、[**管理ツールのインストール**] をクリックします。
 
-3.  トポロジビルダーを開始します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013** ]、[ **lync server Topology Builder**] の順にクリックします。
+3.  トポロジビルダーを起動します。 [**スタート**]、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013** ]、[ **lync server トポロジビルダー**] の順にクリックします。
 
-4.  [**既存の展開からトポロジをダウンロード**] を選択します。
+4.  [**既存の展開からトポロジをダウンロードする**] をクリックします。
     
     ![展開ウィザードのトポロジビルダーの設定](images/JJ721913.d5b39fd9-3c13-422e-a06c-25d2568fe781(OCS.15).jpg "展開ウィザードのトポロジビルダーの設定")
 
-5.  ファイル名を選択し、tbxml ファイルの種類が設定されたトポロジを保存します。
+5.  ファイル名を選択して、既定のファイルの種類である .tbxml でトポロジを保存します。
 
-6.  表示されている [Lync Server] ノードを展開して、展開内のさまざまなサーバーの役割を表示します。
+6.  示されているように、Lync Server ノードを展開して、展開に含まれるさまざまなサーバーの役割を表示させます。
     
-    ![トポロジビルダーサーバーの役割の全般プロパティ](images/JJ721913.af99ead3-676b-47fd-8369-5a5f9717383f(OCS.15).jpg "トポロジビルダーサーバーの役割の全般プロパティ")
+    ![トポロジビルダーサーバーの役割全般プロパティ](images/JJ721913.af99ead3-676b-47fd-8369-5a5f9717383f(OCS.15).jpg "トポロジビルダーサーバーの役割全般プロパティ")
 
 </div>
 

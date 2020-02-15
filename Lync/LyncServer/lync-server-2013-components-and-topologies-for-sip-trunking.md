@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: SIP トランキングのコンポーネントおよびトポロジ'
+title: 'Lync Server 2013: SIP トランキングのコンポーネントとトポロジ'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184775
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d30c589ff02717ad49ce89d0d4e3324f6fe993e9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a9e31b7cc0ea6e5acec0382ecd468a868152570d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742567"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007977"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="components-and-topologies-for-sip-trunking-in-lync-server-2013"></a>Lync Server 2013 の SIP トランキングのコンポーネントおよびトポロジ
+# <a name="components-and-topologies-for-sip-trunking-in-lync-server-2013"></a>Lync Server 2013 での SIP トランキングのコンポーネントとトポロジ
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41742567"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-21_
+_**トピックの最終更新日:** 2012-09-21_
 
 次の図は、Lync Server の SIP トランキングトポロジを示しています。
 
-**SIP トランキングトポロジ**
+**SIP トランキングのトポロジ**
 
-![SIP トランキングのトポロジ](images/Gg398720.669fb55d-7c81-4e21-9421-fabc43d6e064(OCS.15).jpg "SIP トランキングのトポロジ")
+![SIP トランキングトポロジ](images/Gg398720.669fb55d-7c81-4e21-9421-fabc43d6e064(OCS.15).jpg "SIP トランキングトポロジ")
 
 図に示すように、エンタープライズ ネットワークと公衆交換電話網 (PSTN) サービス プロバイダーの間の接続には、IP 仮想プライベート ネットワーク (VPN) が使用されます。このプライベート ネットワークの目的は、IP 接続を提供し、セキュリティを強化し、(必要に応じて) サービス品質 (QoS) 保証を得ることです。VPN の性質により、SIP 信号トラフィックにトランスポート層セキュリティ (TLS) を使用したり、メディア トラフィックにセキュア リアルタイム転送プロトコル (SRTP) を使用したりする必要はありません。このため、企業とサービス プロバイダーの間の接続は、IP VPN を通じてトンネリングされる可能性のある SIP 用の普通の TCP 接続と、メディア用の普通のリアルタイム転送プロトコル (RTP) (over UDP) で構成されます。VPM ルーター間のすべてのファイアウォールのポートが開いていて VPN ルーターが通信できること、および VPN ルーターの外部エッジの IP アドレスがパブリック ルーティング可能であることを確認してください。
 
@@ -49,7 +49,7 @@ _**最終更新日:** 2012-09-21_
 
 
 > [!IMPORTANT]  
-> フェールオーバーを含め、高可用性のサポートを提供しているかどうかを確認するには、サービス プロバイダーに問い合わせてください。 サポートしている場合、高可用性を設定する手順を確認する必要があります。 たとえば、各仲介サーバーに1つの IP アドレスと1つの SIP トランクのみを構成する必要がある場合、または各仲介サーバーに複数の SIP trunks を構成する必要がある場合は、次の手順を実行します。<BR>複数のセントラルサイトがある場合は、他のセントラルサイトとの接続を有効にする機能がサービスプロバイダーにあるかどうかも確認します。
+> フェールオーバーを含め、高可用性のサポートを提供しているかどうかを確認するには、サービス プロバイダーに問い合わせてください。 サポートしている場合、高可用性を設定する手順を確認する必要があります。 たとえば、各仲介サーバーで1つの IP アドレスと1つの SIP トランクのみを構成する必要がありますか。または、各仲介サーバーで複数の SIP トランクを構成する必要がありますか。<BR>中央サイトが複数ある場合は、サービスプロバイダーが別の中央サイトとの接続を有効にできるかどうかも確認します。
 
 
 
@@ -59,7 +59,7 @@ _**最終更新日:** 2012-09-21_
 
 
 > [!NOTE]  
-> SIP トランクの場合は、スタンドアロンの仲介サーバーを展開することを強くお勧めします。 詳細については、展開ドキュメントの「 <A href="lync-server-2013-deploying-mediation-servers-and-defining-peers.md">Lync Server 2013 での仲介サーバーの展開とピアの定義</A>」を参照してください。
+> SIP トランキングの場合は、スタンドアロンの仲介サーバーを展開することを強くお勧めします。 詳細については、「展開」のドキュメントの「 <A href="lync-server-2013-deploying-mediation-servers-and-defining-peers.md">Lync Server 2013 での仲介サーバーの展開とピアの定義</A>」を参照してください。
 
 
 
@@ -69,23 +69,23 @@ _**最終更新日:** 2012-09-21_
 
 ## <a name="securing-the-mediation-server-for-sip-trunking"></a>SIP トランキングを行うための仲介サーバーのセキュリティ保護
 
-セキュリティ上の理由から、2 つの VPN ルーター間の各接続に仮想 LAN (VLAN) を設定する必要があります。VLAN の実際の設定プロセスは、ルーターの製造元によって異なります。詳細については、ルーター ベンダーに問い合わせてください。
+セキュリティ上の理由から、2 つの VPN ルーター間の各接続に仮想 LAN (VLAN) を設定する必要があります。 VLAN の実際の設定プロセスは、ルーターの製造元によって異なります。詳細については、ルーター ベンダーに問い合わせてください。
 
 次のガイドラインに従うことをお勧めします。
 
-  - 仲介サーバーと境界ネットワーク内の VPN ルーターの間に仮想 LAN (VLAN) を設定します (DMZ、非武装地帯、スクリーンサブネットとも呼ばれます)。
+  - 境界ネットワーク (DMZ、非武装地帯、スクリーンサブネットとも呼ばれます) の仲介サーバーと VPN ルーターの間に仮想 LAN (VLAN) を設定します。
 
   - ルーターから VLAN へのブロードキャストまたはマルチキャスト パケットの転送は許可しません。
 
-  - ルーターからのトラフィックを仲介サーバー以外の場所にルーティングするルーティングルールはブロックします。
+  - 仲介サーバー以外の場所にルーターからのトラフィックをルーティングするすべてのルーティングルールを禁止します。
 
 VPN サーバーを使用する場合、次のガイドラインに従うことをお勧めします。
 
-  - VPN サーバーと仲介サーバーの間に VLAN をセットアップします。
+  - VPN サーバーと仲介サーバーの間に VLAN を設定します。
 
   - VPN サーバーから VLAN へのブロードキャストまたはマルチキャスト パケットの転送は許可しません。
 
-  - VPN サーバートラフィックを仲介サーバー以外の場所にルーティングするルーティングルールをブロックします。
+  - 仲介サーバー以外の場所に VPN サーバートラフィックをルーティングするすべてのルーティングルールを禁止します。
 
   - Generic Routing Encapsulation (GRE) を使用して VPN 上のデータを暗号化します。
 

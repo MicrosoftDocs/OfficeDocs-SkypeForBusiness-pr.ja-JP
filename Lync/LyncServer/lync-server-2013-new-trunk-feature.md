@@ -12,16 +12,16 @@ ms:contentKeyID: 49733755
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 962da42567ffcc1c0d541b74266ac5bb1b4653c3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 250b240ed0e1b42051e92e9393f10c01ebb753f5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755891"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006143"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,16 +35,16 @@ ms.locfileid: "41755891"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-21_
+_**トピックの最終更新日:** 2012-09-21_
 
-Microsoft Lync Server 2013 では、仲介サーバーとゲートウェイ間の複数の trunks を定義できます。 Microsoft Lync Server 2010 は、仲介サーバーと PSTN ゲートウェイ間の1つのトランクでのみ許可されています。 この機能を使うと、追加の trunks を柔軟に定義できます。 トランクは、仲介サーバーの FQDN とリッスンポート、および PSTN ゲートウェイの FQDN とリッスンポートの間の論理的な関連付けです。 この新機能により、(複数の仲介サーバーを使用して同一の PSTN ゲートウェイへの通話をルーティングすることができます)、PBX の相互運用性を実現するために、より簡単にトランクの定義を行うことができます。これには、異なる関連ポリシーを持つ複数の trunks を andIP PBX と仲介サーバー、および異なるサイトの仲介サーバーが、同じキャリア FQDN によって参照されているキャリアに SIP trunks を持っている SIP トランク構成の場合。
+Microsoft Lync Server 2013 では、仲介サーバーとゲートウェイ間の複数のトランクを定義できます。 Microsoft Lync Server 2010 は、仲介サーバーと PSTN ゲートウェイ間で1つのトランクに対してのみ許可されています。 これにより、必要に応じて追加のトランクを定義できるようになりました。 トランクとは、仲介サーバーの FQDN とリスニングポート、および PSTN ゲートウェイの FQDN とリッスンポートとの間の論理的な関連付けのことです。 この新しい機能により、(複数の仲介サーバーを使用して、同じ PSTN ゲートウェイへの通話をルーティングするために複数の仲介サーバーを使用できる) 復元に関するトランク定義が容易になります。また、PBX 相互運用性を確保するために、異なる関連ポリシーを持つ複数のトランクをとの間で使用できます。Ip-pbx と仲介サーバー、および異なるサイトの仲介サーバーが同じキャリア FQDN によって参照される carrier に対して SIP トランクを持つ SIP トランク構成用。
 
 <div>
 
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 の新しいエンタープライズ VoIP 機能](lync-server-2013-new-enterprise-voice-features.md)  
+[Lync Server 2013 の新しいエンタープライズ Voip 機能](lync-server-2013-new-enterprise-voice-features.md)  
   
 
 </div>

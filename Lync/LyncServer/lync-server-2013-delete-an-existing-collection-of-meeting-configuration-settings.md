@@ -1,5 +1,5 @@
 ---
-title: 会議の構成設定の既存のコレクションを削除する
+title: 会議構成設定の既存のコレクションを削除する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733736
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 96fe774830a8efc6f0cc88a2dd929b3126335b51
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dee4aeac6c7fad8b82d2b34fd9d4a51b8984e716
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737417"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007035"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="delete-an-existing-collection-of-meeting-configuration-settings-in-lync-server-2013"></a>Lync Server 2013 で既存の会議構成設定のコレクションを削除する
+# <a name="delete-an-existing-collection-of-meeting-configuration-settings-in-lync-server-2013"></a>Lync Server 2013 で会議の構成設定の既存のコレクションを削除する
 
 </div>
 
@@ -37,19 +37,19 @@ ms.locfileid: "41737417"
 
 _**トピックの最終更新日:** 2013-02-23_
 
-サイトまたはユーザーの構成を削除できます。 グローバル構成を削除することはできません。 グローバル構成を削除すると、グローバル構成は自動的に既定値にリセットされます。
+サイトやユーザーの構成は削除できます。グローバル構成は削除できません。グローバル構成を削除すると、グローバル構成は自動的に既定値にリセットされます。
 
 <div>
 
-## <a name="to-delete-a-site-or-user-meeting-configuration"></a>サイトまたはユーザーの会議の設定を削除するには
+## <a name="to-delete-a-site-or-user-meeting-configuration"></a>サイトまたはユーザーの会議構成を削除するには
 
 1.  CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
-3.  左側のナビゲーションバーで、[**会議**] をクリックし、[**会議の設定**] をクリックします。
+3.  左側のナビゲーション バーで、[**会議**] をクリックし、[**会議の構成**] をクリックします。
 
-4.  会議構成の一覧で、削除するサイトまたはプールの構成をクリックし、[**編集**] をクリックして、[**削除**] をクリックします。
+4.  会議の構成の一覧で、削除するサイトまたはプールの構成をクリックし、[**編集**] をクリックして、[**削除**] をクリックします。
 
 </div>
 
@@ -57,13 +57,13 @@ _**トピックの最終更新日:** 2013-02-23_
 
 ## <a name="removing-meeting-configuration-settings-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して会議の構成設定を削除する
 
-会議の設定を削除するには、Windows PowerShell を使用するか、または、Csmeeting 構成コマンドレットを使用します。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
+会議の設定は、Windows PowerShell を使用して削除するか、またはコマンドレットを削除することができます。 このコマンドレットは、Lync Server 2013 管理シェルから実行するか、Windows PowerShell のリモートセッションから実行できます。 リモート Windows PowerShell を使用して Lync Server に接続する方法の詳細については、Lync Server Windows PowerShell のブログ記事「Quick Start: Microsoft Lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)を使用したリモート PowerShell の管理」を参照してください。
 
 <div>
 
-## <a name="to-remove-a-specified-collection-of-meeting-configuration-settings"></a>会議の構成設定の指定したコレクションを削除するには
+## <a name="to-remove-a-specified-collection-of-meeting-configuration-settings"></a>指定した会議構成設定のコレクションを削除するには
 
-  - このコマンドを実行すると、Redmond サイトに適用された会議の構成設定が削除されます。
+  - このコマンドは、Redmond サイトに適用された会議構成設定を削除します。
     
         Remove-CsMeetingConfiguration -Identity "site:Redmond"
 
@@ -71,9 +71,9 @@ _**トピックの最終更新日:** 2013-02-23_
 
 <div>
 
-## <a name="to-remove-all-the-meeting-configuration-settings-applied-to-the-site-scope"></a>サイトの範囲に適用されているすべての会議の設定を削除するには
+## <a name="to-remove-all-the-meeting-configuration-settings-applied-to-the-site-scope"></a>サイトスコープに適用されているすべての会議構成設定を削除するには
 
-  - このコマンドを実行すると、サイトのスコープに適用されているすべての会議の構成設定が削除されます。
+  - このコマンドは、サイト スコープに適用された会議構成設定をすべて削除します。
     
         Get-CsMeetingConfiguration -Filter "site:*" | Remove-CsMeetingConfiguration
 
@@ -81,15 +81,15 @@ _**トピックの最終更新日:** 2013-02-23_
 
 <div>
 
-## <a name="to-remove-all-the-meeting-configuration-settings-that-admit-anonymous-users-by-default"></a>既定で匿名ユーザーを許可する会議の構成設定をすべて削除するには
+## <a name="to-remove-all-the-meeting-configuration-settings-that-admit-anonymous-users-by-default"></a>匿名ユーザーに既定で許可されているすべての会議構成設定を削除するには
 
-  - また、匿名ユーザーが既定で許可される設定をすべて削除します。
+  - このコマンドは、匿名ユーザーの参加を既定で許可する設定をすべて削除します。
     
         Get-CsMeetingConfiguration | Where-Object {$_.AdmitAnonymousUsersByDefault -eq $True} | Remove-CsMeetingConfiguration
 
 </div>
 
-詳細については、「 [Cs会議構成の削除](https://technet.microsoft.com/en-us/library/Gg412775(v=OCS.15))」コマンドレットのヘルプトピックを参照してください。
+詳細については、「[削除](https://technet.microsoft.com/library/Gg412775(v=OCS.15))」を参照してください。
 
 </div>
 

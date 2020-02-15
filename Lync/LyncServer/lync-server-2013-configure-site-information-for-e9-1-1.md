@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: E9 のサイト情報を構成する-1-1'
+title: 'Lync Server 2013: E9-1-1 のサイト情報の構成'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183824
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 157054343b299e7be1be75d3ee615c27cf74fb83
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4f39760dde02ab573111642d5ec888a321184b41
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730007"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035219"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-site-information-for-e9-1-1-in-lync-server-2013"></a>Lync Server 2013 で E9-1 のサイト情報を構成する
+# <a name="configure-site-information-for-e9-1-1-in-lync-server-2013"></a>Lync Server 2013 での E9-1-1 のサイト情報の構成
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41730007"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-03_
+_**トピックの最終更新日:** 2012-10-03_
 
-サブネットの位置情報ポリシーを定義するには、次の手順を任意の順序で行う必要があります。
+サブネットの場所のポリシーを定義するには、順番を問わず、以下の作業をします。
 
-  - ネットワークサイトに位置情報ポリシーを適用します。
+  - 場所のポリシーをネットワーク サイトに適用します。
 
-  - ネットワークサイトにサブネットを追加します。
+  - サブネットをネットワーク サイトに追加します。
 
-ネットワークサイトの詳細については、「lync server[の lync server 2013](lync-server-2013-sites.md)」を参照してください。
+ネットワークサイトの詳細については、「lync server[サイトの](lync-server-2013-sites.md)lync server 2013」を参照してください。
 
 <div>
 
 
 > [!NOTE]  
-> 他の音声機能用のネットワークサイトを作成して、同じサイトを使って E9-1 を構成する場合は、E9-1-1 に使用するサイトを変更することができます。
+> 別の VoIP 機能用にネットワーク サイトを作成し、同じサイトを使用して E9-1-1 を構成する場合、E9-1-1 に使用するサイトを変更することができます。
 
 
 
@@ -57,11 +57,11 @@ _**最終更新日:** 2012-10-03_
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 でネットワークサイトに位置情報ポリシーを追加する](lync-server-2013-add-a-location-policy-to-a-network-site.md)
+  - [Lync Server 2013 でのネットワークサイトへの場所ポリシーの追加](lync-server-2013-add-a-location-policy-to-a-network-site.md)
 
-  - [Lync Server 2013 でのネットワーク サイトとサブネットの関連付け](lync-server-2013-associate-a-subnet-with-a-network-site.md)
+  - [Lync Server 2013 でのサブネットとネットワークサイトの関連付け](lync-server-2013-associate-a-subnet-with-a-network-site.md)
 
 </div>
 

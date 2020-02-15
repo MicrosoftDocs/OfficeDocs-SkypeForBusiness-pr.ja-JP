@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: スキーマのレプリケーションの確認'
+title: 'Lync Server 2013: スキーマレプリケーションの確認'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185124
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e7ea90012c116bb66caf16313d930c6f05db4413
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 41cb48da1711cfa6eb29a90f19a9b6e42b110c52
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742097"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007296"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,34 +35,34 @@ ms.locfileid: "41742097"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-29_
+_**トピックの最終更新日:** 2012-10-29_
 
-フォレストの準備を実行する前に、スキーマパーティションがレプリケートされていることを手動で確認します。
+フォレストの準備を実行する前に、スキーマパーティションがレプリケートされたことを手動で確認してください。
 
 <div>
 
-## <a name="to-manually-verify-schema-replication"></a>スキーマレプリケーションを手動で確認するには
+## <a name="to-manually-verify-schema-replication"></a>スキーマのレプリケーションを手動で確認するには
 
-1.  Enterprise Admins グループのメンバーとしてドメインコントローラーにログオンします。
+1.  Enterprise Admins グループのメンバーとしてドメイン コントローラーにログオンします。
 
-2.  [**スタート**] をクリックし、[**管理ツール**] をクリックして、[ **adsi の編集**] をクリックして、adsi の編集を開きます。
+2.  **[スタート]** をクリックして **[管理ツール]** をクリックし、**[ADSI エディター]** をクリックして ADSI エディターを開きます。
     
     <div>
     
 
     > [!TIP]  
-    > または、コマンドラインから<STRONG>adsiedit</STRONG>を実行することもできます。
+    > または、コマンド ラインから <STRONG>adsiedit.msc</STRONG> を実行することもできます。
 
     
     </div>
 
-3.  Microsoft 管理コンソール (MMC) ツリーでまだ選択されていない場合は、[ **ADSI edit**] をクリックします。
+3.  Microsoft 管理コンソール (MMC) ツリーで、まだ選択されていない場合には **[ADSI エディター]** をクリックします。
 
-4.  [**アクション**] メニューで、[**接続**] をクリックします。
+4.  **[アクション]** メニューで、**[接続]** をクリックします。
 
-5.  [**接続の設定**] ダイアログ ボックスの [**既知の名前付けコンテキストを選択する**] で、[**スキーマ**] を選択して [**OK**] をクリックします。
+5.  **[接続の設定]** ダイアログ ボックスの **[既知の名前付けコンテキストを選択する]** で、**[スキーマ]** を選択して **[OK]** をクリックします。
 
-6.  スキーマ コンテナーで、CN=ms-RTC-SIP-SchemaVersion を検索します。 このオブジェクトが存在し、 **Rangeupper**属性の値が1150であり、 **rangeupper**属性の値が3の場合は、スキーマが正常に更新され、複製されています。 このオブジェクトが存在しない場合、または**Rangeupper**属性と**rangeupper**属性の値が指定されていない場合は、スキーマが変更されなかったか、レプリケートされませんでした。
+6.  スキーマ コンテナーで、CN=ms-RTC-SIP-SchemaVersion を検索します。 このオブジェクトが存在し、**rangeUpper** 属性の値が 1150 で、**rangeLower** 属性の値が 3 の場合、スキーマは正しく更新され、レプリケートされています。 このオブジェクトが存在しないか、**rangeUpper** および **rangeLower** 属性の値が指定された値と異なる場合、スキーマは変更されていないか、レプリケートされていません。
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: Exchange 2013 Outlook Web App と IM の統合を有効にする
+title: Exchange 2013 の Outlook Web App および IM 統合を有効にする
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184027
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0bd9fb94dd0f068547819aa884b608ac6ddf7e39
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a67dd3c18525d7a39678b5871d087ea79c502fce
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723037"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006403"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enable-exchange-2013-outlook-web-app-and-im-integration"></a>Exchange 2013 Outlook Web App と IM の統合を有効にする
+# <a name="enable-exchange-2013-outlook-web-app-and-im-integration"></a>Exchange 2013 の Outlook Web App および IM 統合を有効にする
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41723037"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-19_
+_**トピックの最終更新日:** 2012-10-19_
 
-Exchange 2013 Outlook Web Access (OWA) およびインスタントメッセージング (IM) と Lync Server 2013 との統合を有効にするには、信頼されたアプリケーションサーバーとして、Exchange 2013 クライアントアクセスサーバー (CAS) サーバーを Lync Server 2013 トポロジに追加する必要があります。
+Exchange 2013 Outlook Web Access (OWA) および Lync Server 2013 とのインスタントメッセージング (IM) の統合を有効にするには、Exchange 2013 クライアントアクセスサーバー (CAS) サーバーを、信頼されたアプリケーションサーバーとして Lync Server 2013 トポロジに追加する必要があります。
 
 <div>
 
-## <a name="to-create-a-trusted-application-pool"></a>信頼されたアプリケーションプールを作成するには
+## <a name="to-create-a-trusted-application-pool"></a>信頼済みアプリケーション プールを作成するには
 
-1.  Lync Server 2013 Management Shell を起動します。
+1.  Lync Server 2013 管理シェルを起動します。
 
 2.  次のコマンドレットを実行します。
     
         Get-CsSite
     
-    これにより、プールを作成している siteName の siteID が返されます。 詳細については、「Lync Server 2013 管理シェルのドキュメントの[入手-CsSite](https://docs.microsoft.com/powershell/module/skype/Get-CsSite) 」を参照してください。
+    これで、プールを作成する siteName に対応する siteID が取得されます。 詳細については、「Lync Server 2013 Management Shell」のドキュメントの「[取得-CsSite](https://docs.microsoft.com/powershell/module/skype/Get-CsSite) 」を参照してください。
 
 3.  次のコマンドレットを実行します。
     
         New-CsTrustedApplicationPool -Identity <E14 CAS FQDN> -ThrottleAsServer $true -TreatAsAuthenticated $true -ComputerFQDN <E14 CAS FQDN> -Site <Site> -Registrar <Pool FQDN in the site> -RequiresReplication $false
     
-    詳細については、「Lync Server 2013 管理シェルドキュメントの「[新規-CsTrustedApplicationPool](https://docs.microsoft.com/powershell/module/skype/New-CsTrustedApplicationPool) 」を参照してください。
+    詳細については、「Lync Server 2013 Management Shell」のドキュメントの「 [「new-cstrustedapplicationpool](https://docs.microsoft.com/powershell/module/skype/New-CsTrustedApplicationPool) 」を参照してください。
     
-    Exchange Server の FQDN は、Exchange OWA 証明書のサブジェクト名 (SN)、またはサブジェクトの代替名 (SAN) として構成する必要があります。
+    Exchange Server の FQDN を Exchange OWA 証明書のサブジェクト名 (SN) またはサブジェクトの別名 (SAN) として構成する必要があります。
     
     Exchange OWA で、プールの FQDN も信頼されていることを確認します。
     
@@ -65,42 +65,42 @@ Exchange 2013 Outlook Web Access (OWA) およびインスタントメッセー�
     
 
     > [!IMPORTANT]  
-    > 使用している CAS サーバーが、Exchange 2013 ユニファイドメッセージング (UM) を実行しているサーバーと同じサーバーに併置されて<EM>いない</EM>場合は、この手順の残りの手順をスキップして、このトピックで後述する「EXCHANGE 2013 CAS サーバー用の信頼済みアプリケーションを作成する」の手順を実行します。 使用している CAS サーバーが、Exchange 2013 ユニファイドメッセージング (UM) を実行しているサーバー上にある場合は、この手順を実行して、このトピックで後述する「Exchange 2013 CAS サーバー用に信頼されたアプリケーションを作成する」の手順を実行しないでください。
+    > CAS サーバーが、Exchange 2013 ユニファイドメッセージング (UM) を実行しているのと同じサーバー上に併置されて<EM>いない</EM>場合は、この手順の残りの手順をスキップして、このトピックで後述する「EXCHANGE 2013 CAS サーバーの信頼されたアプリケーションを作成する」の手順を実行します。 CAS サーバーが、Exchange 2013 ユニファイドメッセージング (UM) を実行しているのと同じサーバー上に併置されている場合は、この手順の手順を実行します。このトピックで後述する「Exchange 2013 CAS サーバーの信頼されたアプリケーションを作成する」の手順を実行しないでください。
 
     
     </div>
 
-4.  **Enable-CsTopology を**実行します。
+4.  **Enable-CsTopology** を実行します。
 
-5.  トポロジビルダーを開き、既存のトポロジをダウンロードします。
+5.  トポロジ ビルダーを開き、既存のトポロジをダウンロードします。
 
-6.  左側のウィンドウで、**信頼できるアプリケーションサーバー**に到達するまでツリーを展開します。
+6.  左側のウィンドウで、[**信頼済みアプリケーション サーバー**] が表示されるまでツリーを展開します。
 
-7.  [信頼されている**アプリケーションサーバー** ] ノードを展開します。
+7.  [**信頼されたアプリケーション サーバー**] ノードを展開します。
 
-8.  これで、信頼できるアプリケーションサーバーとして表示された Exchange 2013 CAS サーバーが表示されます。
+8.  これで、Exchange 2013 CAS サーバーが信頼済みアプリケーションサーバーとして表示されるようになります。
 
 </div>
 
 <div>
 
-## <a name="to-create-a-trusted-application-for-the-exchange-2013-cas-server"></a>Exchange 2013 CAS サーバー用の信頼できるアプリケーションを作成するには
+## <a name="to-create-a-trusted-application-for-the-exchange-2013-cas-server"></a>Exchange 2013 CAS サーバーの信頼されたアプリケーションを作成するには
 
-1.  Lync Server 2013 Management Shell を起動します。
+1.  Lync Server 2013 管理シェルを起動します。
 
-2.  CAS サーバーが Exchange 2013 ユニファイドメッセージング (UM) を実行しているサーバー上に*ない*場合は、次のコマンドレットを実行します。
+2.  CAS サーバーが、Exchange 2013 ユニファイドメッセージング (UM) を実行しているのと同じサーバーに併置されて*いない*場合は、次のコマンドレットを実行します。
     
         New-CsTrustedApplication -ApplicationId <AppID String> -TrustedApplicationPoolFqdn <E14 CAS FQDN> -Port <available port number>
     
-    詳細については、「Lync Server 2013 管理シェルドキュメントの「 [New-CsTrustedApplication](https://docs.microsoft.com/powershell/module/skype/New-CsTrustedApplication) 」を参照してください。
+    詳細については、「Lync Server 2013 Management Shell」のドキュメントの「 [「new-cstrustedapplication](https://docs.microsoft.com/powershell/module/skype/New-CsTrustedApplication) 」を参照してください。
 
-3.  **Enable-CsTopology を**実行します。
+3.  **Enable-CsTopology** を実行します。
 
-4.  [Topology Builder] の左側のウィンドウで、**信頼できるアプリケーションサーバー**に到達するまでツリーを展開します。
+4.  トポロジ ビルダーの左側のウィンドウで、[**信頼済みアプリケーション サーバー**] が表示されるまでツリーを展開します。
 
-5.  [信頼されている**アプリケーションサーバー** ] ノードを展開します。
+5.  [**信頼済みアプリケーション サーバー**] ノードを展開します。
 
-6.  これで、信頼できるアプリケーションサーバーとして表示された Exchange 2013 CAS サーバーが表示されます。
+6.  これで、Exchange 2013 CAS サーバーが信頼済みアプリケーションサーバーとして表示されるようになります。
 
 </div>
 

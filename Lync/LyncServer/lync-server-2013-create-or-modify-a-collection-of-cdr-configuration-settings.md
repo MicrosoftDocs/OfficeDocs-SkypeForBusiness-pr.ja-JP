@@ -12,20 +12,20 @@ ms:contentKeyID: 49733812
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 37ed8be52827f56b14c52f1bddd950ab39883cdf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 234225364c8701432271c2cf5a48c9bb6d403103
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763359"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035633"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-lync-server-2013"></a>Lync Server 2013 で CDR 構成設定のコレクションを作成または変更する
+# <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-lync-server-2013"></a>Lync Server 2013 での CDR 構成設定のコレクションの作成または変更
 
 </div>
 
@@ -39,9 +39,9 @@ _**トピックの最終更新日:** 2013-02-23_
 
 通話詳細記録 (CDR) では、ピアツーピアのインスタント メッセージング セッション、ボイス オーバー IP (VoIP) 電話の通話、電話会議などの使用状況を追跡できます。この使用状況データの中には、通話の発信者と受信者、通話時刻、通話時間の情報が含まれます。
 
-Microsoft Lync Server 2013 をインストールすると、1つのグローバルな CDR 構成設定のグローバルコレクションが作成されます。 管理者は、サイト スコープでカスタム設定を作成することもできます。 これらのサイト スコープの設定が使用されるときは常に、グローバル設定よりも優先されます。 たとえば、Redmond サイトにサイト スコープの設定を作成する場合、Redmond での CDR の管理には (グローバル設定ではなく) それらの設定が使用されます。
+Microsoft Lync Server 2013 をインストールすると、1つのグローバルな CDR 構成設定のグローバルコレクションが作成されます。 管理者は、サイト スコープでカスタム設定を作成することもできます。 これらのサイト スコープの設定が使用されるときは常に、グローバル設定よりも優先されます。 たとえば、レドモンド サイトにサイト スコープの設定を作成する場合、レドモンドでの CDR の管理には (グローバル設定ではなく) それらの設定が使用されます。
 
-CDR 構成設定を作成するには、Lync Server コントロールパネルまたは[CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsCdrConfiguration)コマンドレットを使用します。 Lync Server コントロールパネルまたは[CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsCdrConfiguration)コマンドレットを使用して、既存の設定を変更することができます。 Lync Server コントロールパネルを使用して設定を作成または変更する場合は、次のオプションを使用できます。
+CDR 構成設定は、Lync Server コントロールパネルまたは[set-cscdrconfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsCdrConfiguration)コマンドレットのいずれかを使用して作成できます。 Lync Server コントロールパネルまたは[set-cscdrconfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsCdrConfiguration)コマンドレットを使用して、既存の設定を変更できます。 Lync Server コントロールパネルを使用して設定を作成または変更する場合は、次のオプションを使用できます。
 
 
 <table>
@@ -66,7 +66,7 @@ CDR 構成設定を作成するには、Lync Server コントロールパネル�
 <tr class="even">
 <td><p>CDR の監視を有効にする</p></td>
 <td><p>EnableCDR</p></td>
-<td><p>CDR が有効かどうかを示します。</p></td>
+<td><p>CDR を有効にするかどうかを示します。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CDR の削除を有効にする</p></td>
@@ -74,9 +74,9 @@ CDR 構成設定を作成するには、Lync Server コントロールパネル�
 <td><p>CDR の記録を CDR データベースから定期的に削除するかどうかを示します。</p></td>
 </tr>
 <tr class="even">
-<td><p>CDR を保持する最大期間 (日数)</p></td>
+<td><p>Keep CDRs for maximum duration (days) (CDR の最大保持期間 (日))</p></td>
 <td><p>KeepCallDetailForDays</p></td>
-<td><p>CDR データベースに CDR レコードを保持する日数を示します。指定された日数より前のレコードは、自動的に削除されます (削除が実行されるのは、削除が有効になっている場合のみです)。</p></td>
+<td><p>CDR データベースに CDR レコードを保持する日数を示します。指定された日数より古いレコードは、自動的に削除されます (削除が実行されるのは、削除が有効になっている場合のみです)。</p></td>
 </tr>
 <tr class="odd">
 <td><p>エラー報告データを保持する最大期間 (日数)</p></td>
@@ -91,7 +91,7 @@ CDR 構成設定を作成するには、Lync Server コントロールパネル�
 
 
 > [!NOTE]  
-> CsCdrConfiguration と CsCdrConfiguration コマンドレットには、Lync Server コントロールパネルで利用できないその他のオプションが含まれています。 詳細については、 <A href="https://docs.microsoft.com/powershell/module/skype/New-CsCdrConfiguration">CsCdrConfiguration</A>と<A href="https://docs.microsoft.com/powershell/module/skype/Set-CsCdrConfiguration">CsCdrConfiguration</A>のヘルプトピックを参照してください。
+> Set-cscdrconfiguration および Set-cscdrconfiguration コマンドレットには、Lync Server コントロールパネルでは使用できない追加オプションが含まれています。 詳細については、 <A href="https://docs.microsoft.com/powershell/module/skype/New-CsCdrConfiguration">set-cscdrconfiguration</A>および<A href="https://docs.microsoft.com/powershell/module/skype/Set-CsCdrConfiguration">set-cscdrconfiguration</A>ヘルプトピックを参照してください。
 
 
 
@@ -103,7 +103,7 @@ CDR 構成設定を作成するには、Lync Server コントロールパネル�
 
 1.  Lync Server コントロールパネルで **、[監視とアーカイブ**] をクリックします。
 
-2.  [**通話の詳細記録**] タブで、[**新規**] をクリックします。
+2.  [**通話詳細記録**] タブで、[**新規**] をクリックします。
 
 3.  [**サイトの選択**] ダイアログ ボックスで、新しい構成設定を作成するサイトを選択します。ダイアログ ボックスに何も表示されない場合は、すべてのサイトが CDR 構成設定のコレクションに割り当て済みであることを意味します。各サイトに対してこのようなコレクション 1 つに制限されています。その場合、設定を削除してから再作成するか、単純に既存の設定を変更することができます。
 
@@ -117,23 +117,23 @@ CDR 構成設定を作成するには、Lync Server コントロールパネル�
 
 1.  Lync Server コントロールパネルで **、[監視とアーカイブ**] をクリックします。
 
-2.  変更する設定のコレクションをダブルクリックするか、コレクションを選択して [**編集**] をクリックし、さらに [**詳細の表示**] をクリックします。 一度に変更できるのは 1 つのコレクションだけであることに注意してください。 複数のコレクションに同じ変更を加えるには、代わりに Lync Server Management Shell を使用します。
+2.  変更する設定のコレクションをダブルクリックするか、コレクションを選択して [**編集**] をクリックし、さらに [**詳細の表示**] をクリックします。 一度に変更できるのは 1 つのコレクションだけであることに注意してください。 複数のコレクションに同じ変更を加えるには、代わりに Lync Server 管理シェルを使用します。
 
-3.  [**通話詳細記録 (CDR) 設定の編集**] ダイアログで、任意の選択を行ってから [**コミット**] をクリックします。
+3.  [**編集 通話詳細記録 (CDR) 設定**] ダイアログで、任意の選択を行ってから [**コミット**] をクリックします。
 
 </div>
 
 <div>
 
-## <a name="creating-cdr-configuration-settings-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用した CDR 構成設定の作成
+## <a name="creating-cdr-configuration-settings-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して CDR 構成設定を作成する
 
-CDR 構成設定は、Windows PowerShell と**CsCdrConfiguration**コマンドレットを使用して作成することもできます。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
+CDR 構成設定は、Windows PowerShell および**set-cscdrconfiguration**コマンドレットを使用して作成することもできます。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモート Windows PowerShell を使用して Lync Server に接続する方法の詳細については、Lync Server Windows PowerShell のブログ記事「Quick Start: Microsoft Lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)を使用したリモート PowerShell の管理」を参照してください。
 
 <div>
 
 ## <a name="to-create-a-new-collection-of-cdr-configuration-settings"></a>新しい CDR 構成設定のコレクションを作成するには
 
-  - このコマンドを実行すると、Redmond サイトに適用される新しい CDR 構成設定のコレクションが作成されます。
+  - このコマンドを実行すると、レドモンド サイトに適用される新しい CDR 構成設定のコレクションが作成されます。
     
         New-CsCdrConfiguration -Identity "site:Redmond"
 
@@ -159,7 +159,7 @@ CDR 構成設定は、Windows PowerShell と**CsCdrConfiguration**コマンド�
 
 </div>
 
-詳細については、 [CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsCdrConfiguration)コマンドレットのヘルプトピックを参照してください。
+詳細については、 [set-cscdrconfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsCdrConfiguration)コマンドレットのヘルプトピックを参照してください。
 
 </div>
 

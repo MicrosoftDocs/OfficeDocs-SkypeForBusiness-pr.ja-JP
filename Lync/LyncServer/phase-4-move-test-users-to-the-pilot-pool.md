@@ -12,16 +12,16 @@ ms:contentKeyID: 48184208
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1c6f69a46b7f2f0b4cdcc1d6e20b0bdc68bfd82b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 34f047338c2699febb21f9c3b0992035fba9e841
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765728"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034267"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41765728"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-26_
+_**トピックの最終更新日:** 2012-09-26_
 
-Lync Server コントロールパネルと Lync Server 管理シェルの2つの方法を使用して、1人のユーザーまたはユーザーのグループを新しい Microsoft Lync Server 2013 展開に移動することができます。 このセクションのトピックでは、パイロット展開時に実行する必要があるタスクと、パイロット展開から製造レベルの展開への Lync Server 2013 の展開を移行する前に説明します。
+単一のユーザーまたはユーザーのグループを、次の2つの方法 (Lync server コントロールパネルおよび Lync Server 管理シェル) を使用して、新しい Microsoft Lync Server 2013 展開に移動することができます。 このセクションのトピックでは、パイロット展開で Lync Server 2013 の展開を運用レベル展開に移行する前に、パイロット展開時に完了させる必要があるタスクについて説明します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
   - [Lync Server 2010 プールの現在のユーザーを表示する](view-current-users-in-lync-server-2010-pool.md)
 
-  - [ユーザー レプリケーションの完了の確認](verify-user-replication-has-completed.md)
+  - [ユーザーのレプリケーションが完了したことを確認する](verify-user-replication-has-completed.md)
 
   - [1人のユーザーをパイロットプールに移動する](move-a-single-user-to-the-pilot-pool.md)
 

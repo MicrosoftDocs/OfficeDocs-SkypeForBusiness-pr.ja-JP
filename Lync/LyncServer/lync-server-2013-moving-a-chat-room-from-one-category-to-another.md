@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 1 つのカテゴリから他のカテゴリへのチャット ルームの移動'
+title: 'Lync Server 2013: 1 つのカテゴリから別のカテゴリへのチャットルームの移動'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48706004
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 72f9774e53321ff6fe667b3b8c8dcfe0e78bcdaf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 40077d8092f8b0b78b6e9ce78cd16c6f1e0812f0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756721"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008239"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="moving-a-chat-room-from-one-category-to-another-in-lync-server-2013"></a>Lync Server 2013 での 1 つのカテゴリから他のカテゴリへのチャット ルームの移動
+# <a name="moving-a-chat-room-from-one-category-to-another-in-lync-server-2013"></a>Lync Server 2013 での1つのカテゴリから別のカテゴリへのチャットルームの移動
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41756721"
 
 <span> </span>
 
-_**最終更新日:** 2012-11-01_
+_**トピックの最終更新日:** 2012-11-01_
 
-チャットルームの作成後は、常設チャットルームのカテゴリを変更しないことをお勧めします。 ただし、チャットルームマネージャーが別のカテゴリで**Creator**権限を持っている場合は、そのカテゴリから別のカテゴリにルームを移動することができます。 会議室は削除されず、再び作成されることはありません。 データベース内の関連付けの変更です。
+チャットルームの作成後は、常設チャットルームのカテゴリを変更しないことをお勧めします。 ただし、チャット ルーム マネージャーが別のカテゴリの**作成者**特権を持っている場合、ルームを別のカテゴリに移動できます。 ルームは削除されるのではなく、再作成されます。 データベース内での関連付けの変更です。
 
-チャットルームのカテゴリを変更することはめったにありません。 カテゴリはチャット ルームの許可されるメンバーシップを決定するので、チャット ルームを別のカテゴリに移動すると、新しいカテゴリでサポートされなくなったシステム アクセス制御リスト (SACL) は削除されます。 たとえば、ユーザーが会議室のメンバーであり、新しいカテゴリの**Allowedmember**ではなくなった場合、会議室のメンバーシップが変更され、ユーザーはルームから削除されます。
+チャット ルームのカテゴリの変更は、できるだけ行わないようにする必要があります。カテゴリはチャット ルームの許可されるメンバーシップを決定するので、チャット ルームを別のカテゴリに移動すると、新しいカテゴリでサポートされなくなったシステム アクセス制御リスト (SACL) は削除されます。たとえば、移動前のルームのメンバーが、新しいカテゴリに移動することにより **AllowedMember** ではなくなると、ルームのメンバーシップが変更されて、そのユーザーはルームから削除されます。
 
-Windows PowerShell コマンドラインインターフェイスを使用してチャットルームを移動する方法について詳しくは、「 [Windows powershell コマンドレットを使用して常設チャットサーバーを構成](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md)する」の「会議室の管理」をご覧ください。
+Windows PowerShell コマンドラインインターフェイスを使用してチャットルームを移動する方法の詳細については、「 [Windows powershell コマンドレットを使用して常設チャットサーバーを構成する](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md)」の「room Management」を参照してください。
 
-チャットルームの設定の詳細については、展開ドキュメントの「 [Lync Server 2013 で会議室を構成](lync-server-2013-configure-rooms.md)する」を参照してください。
+チャットルームの構成の詳細については、「展開」のドキュメントの「 [Configure 室 In Lync Server 2013](lync-server-2013-configure-rooms.md) 」を参照してください。
 
 </div>
 

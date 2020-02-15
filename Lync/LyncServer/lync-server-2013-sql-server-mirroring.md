@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: SQL Server のミラーリング'
+title: 'Lync Server 2013: SQL Server ミラーリング'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185270
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 25d5de1c645d9cc0d4ed1e5c1026ad4a3b8f854f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5df155ed00bb6d6f5ad4ab1867bcf3bb533a9e4e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731857"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006112"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41731857"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-29_
+_**トピックの最終更新日:** 2012-09-29_
 
-プライマリの常設チャットデータベースとそのミラーの間の SQL Server ミラーリングセッションを確立します。 SQL Server のミラーリングを展開する方法については、「[バックエンドサーバーでの sql ミラーリングの展開 (Lync Server 2013 での高可用性](lync-server-2013-deploying-sql-mirroring-for-back-end-server-high-availability.md))」を参照してください。
+プライマリ常設チャットデータベースとそのミラー間の SQL Server ミラーリングセッションを確立します。 SQL Server ミラーリングを展開する方法については、「 [Lync Server 2013 でのバックエンドサーバーの高可用性の sql ミラーリングの展開](lync-server-2013-deploying-sql-mirroring-for-back-end-server-high-availability.md)」を参照してください。
 
 </div>
 

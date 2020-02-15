@@ -12,16 +12,16 @@ ms:contentKeyID: 48185891
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ff9e19288aaaa09b8c72f857f3cfcf4e5331dd7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 63a0bf66a7b09801bea94e8995757543511e298e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742007"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007266"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41742007"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-02_
+_**トピックの最終更新日:** 2012-10-02_
 
-各レコードには、ビデオ通話での1つのエンドポイントのクライアントイベントが含まれています。 通常、1つの通話には2つのレコードがあります。1つは呼び出し元用、もう1つは呼び出し先用です。
+各レコードには、ビデオ通話の1つのエンドポイントのクライアントイベントが含まれています。 通常、1つの呼び出しには2つのレコードがあり、1つは呼び出し元用、もう1つは呼び出し先用です。
 
 
 <table>
@@ -58,25 +58,25 @@ _**最終更新日:** 2012-10-02_
 <tbody>
 <tr class="odd">
 <td><p><strong>ConferenceDateTime</strong></p></td>
-<td><p>datetime</p></td>
+<td><p>日付型</p></td>
 <td><p>Primary</p></td>
-<td><p><a href="lync-server-2013-medialine-table.md">Lync Server 2013 の MediaLine テーブル</a>から参照されている。</p></td>
+<td><p><a href="lync-server-2013-medialine-table.md">Lync Server 2013 の MediaLine テーブル</a>から参照されます。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionSeq</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p><a href="lync-server-2013-medialine-table.md">Lync Server 2013 の MediaLine テーブル</a>から参照されている。</p></td>
+<td><p><a href="lync-server-2013-medialine-table.md">Lync Server 2013 の MediaLine テーブル</a>から参照されます。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MediaLineLabel</strong></p></td>
 <td><p>tinyint</p></td>
 <td><p>Primary</p></td>
-<td><p><a href="lync-server-2013-medialine-table.md">Lync Server 2013 の MediaLine テーブル</a>から参照されている。</p></td>
+<td><p><a href="lync-server-2013-medialine-table.md">Lync Server 2013 の MediaLine テーブル</a>から参照されます。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>FromCaller</strong></p></td>
-<td><p>bit</p></td>
+<td><p>若干</p></td>
 <td><p>Primary</p></td>
 <td><p>0: 呼び出し先のデータ</p>
 <p>1: 発信者のデータ</p></td>
@@ -85,14 +85,14 @@ _**最終更新日:** 2012-10-02_
 <td><p><strong>NetworkBandwidthLowEventRatio</strong></p></td>
 <td></td>
 <td><p> </p></td>
-<td><p>セッションのパーセンテージ低帯域幅イベントが ' Bad ' 状態に対して発生しました。 利用可能な音声エクスペリエンスを実現するには、利用可能な帯域幅が不足しています。</p></td>
+<td><p>[セッションの割合] LowBandwidth 幅イベントは、' Bad ' 状態に対して起動されました。 使用可能な音声環境に十分な帯域幅がありません。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>NetworkReceiveQualityEventRatio</strong></p></td>
 <td></td>
 <td><p> </p></td>
-<td><p>セッションのパーセンテージ ReceiveSendQuality イベントが ' Bad ' 状態で発生しました。</p>
-<p>ネットワーク品質は、ジッタまたはパケット損失の観点では深刻であり、受信中のオーディオの品質に影響します。</p></td>
+<td><p>対して receivesendquality イベントが ' Bad ' 状態に対して起動されたセッションの割合。</p>
+<p>ジッターまたはパケット損失の面でネットワーク品質が厳しく、受信する音声の品質に影響します。</p></td>
 </tr>
 </tbody>
 </table>

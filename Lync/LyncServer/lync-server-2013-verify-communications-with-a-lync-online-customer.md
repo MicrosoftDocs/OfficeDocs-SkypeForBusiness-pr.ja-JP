@@ -12,20 +12,20 @@ ms:contentKeyID: 48185378
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f9b20be32ecbc7c3c684009c9c2f928c9dc897cd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1dffbb5d8a0e49e19c0fa5487a4af05b7e7f0155
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763541"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007366"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="verify-communications-with-a-lync-online-customer-in-lync-server-2013"></a>Lync Online の顧客との通信を Lync Server 2013 で確認する
+# <a name="verify-communications-with-a-lync-online-customer-in-lync-server-2013"></a>Lync Server 2013 で Lync Online の顧客との通信を確認する
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41763541"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-08_
+_**トピックの最終更新日:** 2012-10-08_
 
-組織内の Lync ユーザーが Microsoft Lync Online 2010 顧客のユーザーと通信できるようにするには、次の手順を完了する必要があります。
+組織内の Lync ユーザーが Microsoft Lync Online 2010 顧客のユーザーと通信できるようにするには、次の手順を完了している必要があります。
 
-  - すべての前提条件を満たしていること。 これには、内部サーバーとエッジサーバーの展開、組織に対するフェデレーションサポートの有効化、ユーザーアカウントのセットアップなどが含まれます。 詳細については、「 [Lync Online のお客様とのフェデレーションの前提条件 Lync Server 2013](lync-server-2013-prerequisites-for-federating-with-a-lync-online-customer.md)」を参照してください。
+  - すべての前提条件を満たします。 このための作業には、内部サーバーとエッジ サーバーを展開する、組織に対してフェデレーションのサポートを有効にする、ユーザー アカウントを設定するなどがあります。 詳細については、「lync [Server 2013 での Lync Online の顧客とのフェデレーションの前提条件](lync-server-2013-prerequisites-for-federating-with-a-lync-online-customer.md)」を参照してください。
 
-  - 内部展開でドメインアクセスのサポートが構成されている。 これには、ホストプロバイダーエントリの作成、および Lync Online の顧客のドメインからのアクセスを許可するように展開を構成することが含まれます。 詳細については、「 [Lync Server 2013 で Lync Online ドメインのフェデレーションサポートを構成する](lync-server-2013-configure-federation-support-for-a-lync-online-domain.md)」を参照してください。
+  - 内部展開にドメイン アクセスのサポートを構成します。 これには、Lync Online の顧客のドメインからのアクセスを許可するように、ホストプロバイダエントリを作成し、展開を構成することが含まれます。 詳細については、「 [Lync Server 2013 で Lync Online ドメインのフェデレーションサポートを構成する](lync-server-2013-configure-federation-support-for-a-lync-online-domain.md)」を参照してください。
 
-  - フェデレーションをサポートするようにユーザーアカウントを構成しました。 詳細については、「 [Lync Online のユーザーとのフェデレーションのためのユーザーアクセスを Lync Server 2013 で構成する](lync-server-2013-configure-user-access-for-federation-with-a-lync-online-customer.md)」を参照してください。
+  - フェデレーションをサポートするようにユーザー アカウントを構成します。 詳細については、「lync [Server 2013 で Lync Online の顧客とのフェデレーションのユーザーアクセスを構成する](lync-server-2013-configure-user-access-for-federation-with-a-lync-online-customer.md)」を参照してください。
 
-すべての手順を完了して、Lync Online 2010 顧客の管理者が、組織とのフェデレーションをサポートするためにオンラインサービスのすべての構成を完了したら、社内の間の通信をテストして通信を確認します。組織内のユーザー、および Lync Online 顧客のユーザー。 通信が失敗した場合は、エッジサーバーのログツールを使用して、ログファイルとトレースファイルをキャプチャし、問題のトラブルシューティングを行います。 ログツールの使用について詳しくは、「 [Lync Server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)を使用する」をご覧ください。 ログツールの詳細については、TechNet ライブラリの Lync Server 2010 Logging Tool のマニュアルを[http://go.microsoft.com/fwlink/p/?linkId=199265](http://go.microsoft.com/fwlink/p/?linkid=199265)参照してください。
+これらの手順をすべて完了し、Lync Online 2010 お客様の管理者が組織とのフェデレーションをサポートするようにオンラインサービスのすべての構成を完了したら、内部の通信をテストして通信を確認します。組織内のユーザーと Lync Online 顧客のユーザー。 通信が成功しなかった場合は、エッジサーバーのログツールを使用して、問題のトラブルシューティングのためにログとトレースファイルをキャプチャします。 ログツールの使用の詳細については、「操作」のドキュメントの「 [Lync Server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。 ログツールの詳細については、TechNet ライブラリの Lync Server 2010 ログツールに関するドキュメント[http://go.microsoft.com/fwlink/p/?linkId=199265](http://go.microsoft.com/fwlink/p/?linkid=199265)を参照してください。
 
 </div>
 

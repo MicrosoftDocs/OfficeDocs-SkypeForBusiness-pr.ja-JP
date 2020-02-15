@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 高解像度の写真を使用するように構成する'
+title: 'Lync Server 2013: 高解像度写真の使用の構成'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733753
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5cb82c047491a43f2a8682d3a6688f67e76af730
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d7d73970bd30aa72294369eac1d8206d19664230
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734607"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41996452"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-the-use-of-high-resolution-photos-in-microsoft-lync-server-2013"></a>Microsoft Lync Server 2013 で高解像度の写真を使用するように構成する
+# <a name="configuring-the-use-of-high-resolution-photos-in-microsoft-lync-server-2013"></a>Microsoft Lync Server 2013 で高解像度写真の使用を構成する
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41734607"
 
 <span> </span>
 
-_**最終更新日:** 2014-02-05_
+_**トピックの最終更新日:** 2014-02-05_
 
-Microsoft Lync Server 2010 では、ユーザーが連絡先の写真を表示できるようになりました (および自分の写真を他のユーザーに公開する) ことができます。 通常、これらの写真は、ユーザーの thumbnailPhoto 属性の一部として Active Directory に保存されています。 写真のサイズと解像度には深刻な制限があります。 thumbnailPhoto 属性は、最大サイズが48ピクセル、48ピクセルの写真のみを保持できます。
+Microsoft Lync Server 2010 は、ユーザーが連絡先の写真を表示する機能を提供しました (また、他のユーザーが自分の写真を使用できるようにするため)。 通常、これらの写真は、Active Directory のユーザーの thumbnailPhoto 属性の一部として保存されていました。 写真のサイズと解像度に関して深刻な制限が適用されました。 thumbnailPhoto 属性には、最大サイズが48ピクセル、48ピクセルの写真のみを保持できます。
 
-ただし、Microsoft Lync Server 2013 では、ユーザーの Microsoft Exchange Server 2013 メールボックスに写真を保存できます。これにより、写真のサイズが最大648ピクセル、648ピクセルになります。 また、Exchange 2013 は、必要に応じて異なる製品で使用するために、これらの写真のサイズを自動的に変更することができます。 通常、3つの異なる写真のサイズと解像度を意味します。
+ただし、Microsoft Lync Server 2013 では、ユーザーの Microsoft Exchange Server 2013 メールボックスに写真を格納することができます。これにより、写真のサイズを最大648ピクセル、648ピクセルにすることができます。 これに加えて、Exchange 2013 は、必要に応じて異なる製品で使用するためにこれらの写真のサイズを自動的に変更することができます。 通常、3つの異なる写真のサイズと解像度を意味します。
 
-  - 48ピクセル x 48 ピクセル、Active Directory thumbnailPhoto 属性に使用されているサイズ。 Exchange 2013 の Exchange に写真をアップロードすると、その写真の48ピクセルと48ピクセルのバージョンが自動的に作成され、ユーザーの thumbnailPhoto 属性が更新されます。 ただし、この逆のことはできないことに注意してください。 Active Directory の thumbnailPhoto 属性を手動で更新した場合、ユーザーの Exchange 2013 メールボックスの写真は自動的に更新されません。
+  - 48ピクセル x 48 ピクセル、Active Directory thumbnailPhoto 属性で使用されるサイズ。 Exchange 2013 に写真をアップロードすると、Exchange はその写真の 48 48 ピクセルバージョンを自動的に作成し、ユーザーの thumbnailPhoto 属性を更新します。 ただし、その逆は true ではないことに注意してください。 Active Directory で thumbnailPhoto 属性を手動で更新した場合、ユーザーの Exchange 2013 メールボックス内の写真は自動的に更新されません。
 
-  - 96ピクセル x 96 ピクセル、Microsoft Outlook 2013 Web App、Microsoft Outlook 2013、Microsoft Lync Web App、Lync 2013 を使用できます。
+  - 96ピクセル、96ピクセル、Microsoft Outlook 2013 Web App、microsoft Outlook 2013、microsoft Lync Web App、および Lync 2013 で使用します。
 
-  - 648ピクセル、648ピクセル、Lync 2013 および Microsoft Lync Web App で使用できます。
+  - 648ピクセル x 648 ピクセル、Lync 2013 および Microsoft Lync Web App で使用します。
 
 <div>
 
@@ -57,19 +57,19 @@ Microsoft Lync Server 2010 では、ユーザーが連絡先の写真を表示�
 
 </div>
 
-Exchange Web Services を使用してアクセスできる高解像度写真は、Outlook 2013 Web App を実行しているユーザーがアップロードできます。ユーザーは自分の写真を更新することのみ許可されています。 ただし、管理者は、Exchange 管理シェルと、次のような一連の Windows PowerShell コマンドを使用して、任意のユーザーの写真を更新することができます。
+Exchange Web サービスを使用してアクセスされる高解像度写真は、Outlook 2013 Web App を実行しているユーザーがアップロードできます。ユーザーは自分の写真を更新することしか許可されていません。 ただし、管理者は、Exchange 管理シェルと、次のような一連の Windows PowerShell コマンドを使用して、任意のユーザーの写真を更新できます。
 
     $photo = ([Byte[]] $(Get-Content -Path "C:\Photos\Kenmyer.jpg" -Encoding Byte -ReadCount 0))
     Set-UserPhoto -Identity "Ken Myer" -PictureData $photo -Confirm:$False
     Set-UserPhoto -Identity "Ken Myer" -Save -Confirm:$False
 
-上の例の最初のコマンドでは、コンテンツの取得コマンドレットを使用してファイル C:\\Photos\\の内容を読み取り、そのデータを $photo という名前の変数に格納しています。 2番目のコマンドでは、Exchange コマンドレットが設定された UserPhoto を使って写真をアップロードし、その写真を Ken Myer のユーザーアカウントに添付します。
+前の例の最初のコマンドでは、取得したコマンドレットを使用してファイル C:\\Photos\\の内容を読み取り、そのデータを $photo という名前の変数に格納します。 2番目のコマンドでは、Exchange コマンドレットの設定-UserPhoto を使用して写真をアップロードし、その写真を Ken Myer のユーザーアカウントに添付します。
 
 <div>
 
 
 > [!NOTE]  
-> この例では、Ken Myer の Active Directory 表示名がユーザー アカウントの ID として使用されています。 また、その他の識別子 (ユーザーの SMTP アドレスやユーザー プリンシパル名など) を使用してユーザー アカウントを参照することもできます。 詳細<A href="http://go.microsoft.com/fwlink/p/?linkid=268536">http://go.microsoft.com/fwlink/p/?LinkId=268536</A>については、「Set-userphoto コマンドレットのドキュメント」を参照してください。
+> この例では、Ken Myer の Active Directory 表示名がユーザー アカウントの ID として使用されています。 また、その他の識別子 (ユーザーの SMTP アドレスやユーザー プリンシパル名など) を使用してユーザー アカウントを参照することもできます。 詳細<A href="http://go.microsoft.com/fwlink/p/?linkid=268536">http://go.microsoft.com/fwlink/p/?LinkId=268536</A>については、このコマンドレットのドキュメントを参照してください。
 
 
 
@@ -79,13 +79,13 @@ Exchange Web Services を使用してアクセスできる高解像度写真は�
 
     Set-UserPhoto -Identity "Ken Myer" -Save -Confirm:$False
 
-新しい写真がユーザーアカウントに割り当てられていることを確認するために、Ken Myer は Lync 2013 にログオンして、[**オプション**] を選び、[**マイピクチャ**] を選ぶことができます。 新しくアップロードされた写真が Ken の個人用の写真として表示されるはずです。 また、管理者が Internet Explorer を起動し、次のような URL にアクセスしてユーザーの写真を確認することもできます。
+新しい写真がユーザーアカウントに割り当てられていることを確認するには、Ken Myer が Lync 2013 にログオンし、[**オプション**] を選択して、[**マイピクチャ**] を選択します。 新しくアップロードされた写真が Ken の個人用の写真として表示されるはずです。 また、管理者が Internet Explorer を起動し、次のような URL にアクセスしてユーザーの写真を確認することもできます。
 
     https://atl-mail-001.litwareinc.com/ews/Exchange.asmx/s/GetUserPhoto?email=kenmyer@litwareinc.com&size=HR648x648
 
-管理者が Internet Explorer を使って写真を表示できるが、ユーザーが Lync 2013 で自分の写真を表示できない場合、通常は Exchange Web Services または Exchange 自動検出サービスとの接続に問題があることを示します。
+管理者が Internet Explorer を使用して写真を表示でき、ユーザーが Lync 2013 で写真を表示できない場合は、通常、Exchange Web サービスまたは Exchange 自動検出サービスとの接続の問題が発生しています。
 
-この写真を Lync 2013 で利用できるようにするために、追加の構成は必要ないことに注意してください。 写真がアップロードされて Set-UserPhoto コマンドレットを実行すると、即時に利用できるようになります。
+また、Lync 2013 でこの写真を利用できるようにするために、追加の構成は不要です。 その代わりに、アップロードされた写真がすぐに使用可能になり、ユーザーの設定-UserPhoto コマンドレットが実行されます。
 
 </div>
 

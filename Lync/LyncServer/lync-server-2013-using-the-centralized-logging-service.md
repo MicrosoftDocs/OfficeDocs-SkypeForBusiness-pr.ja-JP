@@ -12,20 +12,20 @@ ms:contentKeyID: 49733700
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2fb3687d036f7d72160c8af0e168a40d09c84e4b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 565c71a2a4e52b50b4807d7a5c5673e24c0a1a71
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743977"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007516"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="using-the-centralized-logging-service-in-lync-server-2013"></a>Lync Server 2013 での一元管理ログサービスの使用
+# <a name="using-the-centralized-logging-service-in-lync-server-2013"></a>Lync Server 2013 での集中ログサービスの使用
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41743977"
 
 <span> </span>
 
-_**最終更新日:** 2012-11-01_
+_**トピックの最終更新日:** 2012-11-01_
 
-一元管理のログサービスは、Lync Server 2013 の新機能です。 これは、以前のリリースで提供された**Ocslogger**と**ocslogger**のツールの拡張機能です。 一元ログサービスを使用して、次のタスクを実行することができます。
+集中ログサービスは、Lync Server 2013 の新機能です。 以前のリリースで提供されていた **OCSLogger** および **OCSTracer** ツールを拡張したものです。 集中ログサービスを使用して、次のタスクを実行できます。
 
-  - 1つまたは複数のコンピューターとプールで、1つの場所とコマンドからのログの記録を開始します。
+  - 1 つの場所とコマンドから、1 つ以上のコンピューターおよびプールでログを開始します。
 
-  - 1つまたは複数のコンピューターとプールのログの記録を1つの場所とコマンドから停止します。
+  - 1 つの場所とコマンドから、1 つ以上のコンピューターおよびプールのログを停止します。
 
-  - 1つまたは複数のコンピューターとプールでログを検索し、1つの場所とコマンドを特定します。 [検索] コマンドをカスタマイズして、すべてのコンピューターに保存されているログの総計を返すことも、特定のデータをキャプチャするトリムダウン結果を返すこともできます。
+  - 1 つ以上のコンピューターおよびプールで、1 つの場所とコマンドを検索します。検索コマンドを変更して、すべてのコンピューターで取得および格納されたログの集約全体を取得することも、特定のデータに絞り込んだ結果を取得することもできます。
 
   - ログ セッションの構成は次のとおりです。
     
-      - **シナリオ**を定義するか、既定のシナリオを使用します。 一元管理サービスの*シナリオ*は、スコープ (グローバルまたはサイト) で構成されています。シナリオ名は、そのシナリオの目的と1つ以上のプロバイダーを識別するために用意されています。 コンピューターでは、いつでも2つのシナリオを実行できます。
+      - **シナリオ**を定義するか、既定のシナリオを使用します。 集中ログサービスの*シナリオ*は、範囲 (グローバルまたはサイト)、シナリオ名、および1つ以上のプロバイダーで構成されます。 1 台のコンピューターで同時に 2 つのシナリオを実行できます。
     
       - 既存のプロバイダー** を使用するか、新しいプロバイダーを作成します。プロバイダー** では、ログ セッションが収集するもの、詳細さのレベル、追跡するコンポーネント、適用されるフラグを定義します。
         
@@ -55,36 +55,36 @@ _**最終更新日:** 2012-11-01_
         
 
         > [!TIP]  
-        > OCSLogger を使用したことがあれば、プロバイダー<EM></EM>は、<STRONG>コンポーネント</STRONG>のコレクション (S4、SIPStack など)、<STRONG>ログ タイプ</STRONG> (WPP、EventLog、IIS ログファイルなど)、<STRONG>トレース レベル</STRONG> (すべて、詳細、デバッグなど)、<STRONG>フラグ</STRONG> (TF_COMPONENT、TF_DIAG など) に相当します。 これらの項目は、プロバイダー (Windows PowerShell 変数) で定義され、中央の [ログサービス] コマンドに渡されます。
+        > OCSLogger を使用したことがあれば、プロバイダー<EM></EM>は、<STRONG>コンポーネント</STRONG>のコレクション (S4、SIPStack など)、<STRONG>ログ タイプ</STRONG> (WPP、EventLog、IIS ログファイルなど)、<STRONG>トレース レベル</STRONG> (すべて、詳細、デバッグなど)、<STRONG>フラグ</STRONG> (TF_COMPONENT、TF_DIAG など) に相当します。 これらのアイテムは、プロバイダー (Windows PowerShell 変数) で定義され、集中ログサービスコマンドに渡されます。
 
         
         </div>
     
-      - ログを収集するコンピューターとプールを構成します。
+      - ログを収集するコンピューターおよびプールを構成します。
     
-      - [オプション]**サイト**(そのサイト内のコンピューター上のログキャプチャの実行) または [**グローバル**] (展開のすべてのコンピューターでログのキャプチャを実行する) のログセッションのスコープを定義します。
+      - ログ セッションの対象範囲を、**サイト** (そのサイトのコンピューターだけでログ キャプチャを実行します) または**グローバル** (展開のすべてのコンピューターでログ キャプチャを実行します) から定義します。
 
-一元的なログサービスは非常に強力であり、問題のトラブルシューティングを行うために、大規模または小規模のニーズをすべて満たすことができます。 根本原因の分析からパフォーマンスの問題を解決するために、一元管理サービスは、どの管理者にとっても重要なツールである場合があります。 すべての例は、Lync Server 管理シェルを使用して表示されます。 一元管理されたログサービスのコマンドラインコンポーネントが、" **Clscontroller .exe**" と呼ばれています。 ツール自体を通じてコマンドラインツールのヘルプが提供されます。 ただし、コマンドラインから実行できる関数のセットは限られています。 Lync Server 管理シェルを使用すると、より広範で構成可能な機能セットにアクセスできます。 一元管理サービスを使用する場合は、常に Lync Server 管理シェルを最初に考慮する方法として検討する必要があります。
+集中ログサービスは非常に強力であり、問題のトラブルシューティングに関するほぼすべてのニーズを満たすことができます (大規模または小規模)。 根本原因の分析からパフォーマンスの問題まで、集中ログサービスは任意の管理者にとって重要なツールとなります。 すべての例は、Lync Server 管理シェルを使用して表示されます。 **Clscontroller**という名前の集中ログサービス用のコマンドラインコンポーネントがあります。 ヘルプはコマンドライン ツール自体で提供されています。 ただし、コマンド ラインから実行できる限られた機能のセットがあります。 Lync Server 管理シェルを使用すると、はるかに多くの構成可能な機能セットにアクセスできます。 集中ログサービスを使用する場合は、常に Lync Server 管理シェルを最初に検討する方法として考慮する必要があります。
 
-このセクションのトピックでは、一元管理サービスの使用方法と、さまざまな機能の使い方の例について説明します。
+このセクションのトピックでは、集中ログサービスを使用する方法と、さまざまな機能の使用方法の例について説明します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 の一元管理されたログサービスの概要](lync-server-2013-overview-of-the-centralized-logging-service.md)
+  - [Lync Server 2013 の集中ログサービスの概要](lync-server-2013-overview-of-the-centralized-logging-service.md)
 
-  - [Lync Server 2013 で中央集中ログサービスの構成設定を管理する](lync-server-2013-managing-the-centralized-logging-service-configuration-settings.md)
+  - [Lync Server 2013 での集中ログサービスの構成設定の管理](lync-server-2013-managing-the-centralized-logging-service-configuration-settings.md)
 
-  - [Lync Server 2013 の一元ログサービスの構成設定について](lync-server-2013-understanding-centralized-logging-service-configuration-settings.md)
+  - [Lync Server 2013 での集中ログサービスの構成設定について](lync-server-2013-understanding-centralized-logging-service-configuration-settings.md)
 
-  - [Lync Server 2013 でログをキャプチャするために、一元ログサービスの開始を使用する](lync-server-2013-using-start-for-the-centralized-logging-service-to-capture-logs.md)
+  - [Lync Server 2013 でログをキャプチャするための集中ログサービスの Start の使用](lync-server-2013-using-start-for-the-centralized-logging-service-to-capture-logs.md)
 
-  - [Lync Server 2013 の中央集中ログサービスに対して Stop を使用する](lync-server-2013-using-stop-for-the-centralized-logging-service.md)
+  - [Lync Server 2013 での集中ログサービスの Stop の使用](lync-server-2013-using-stop-for-the-centralized-logging-service.md)
 
-  - [Lync Server 2013 の中央集中ログサービスで作成されたキャプチャログでの検索の使用](lync-server-2013-using-search-on-capture-logs-created-by-the-centralized-logging-service.md)
+  - [Lync Server 2013 での集中ログサービスによって作成されたキャプチャログでの検索の使用](lync-server-2013-using-search-on-capture-logs-created-by-the-centralized-logging-service.md)
 
-  - [Lync Server 2013 の一元ログサービスからのキャプチャログの読み取り](lync-server-2013-reading-capture-logs-from-the-centralized-logging-service.md)
+  - [Lync Server 2013 の集中ログサービスからキャプチャログを読み取る](lync-server-2013-reading-capture-logs-from-the-centralized-logging-service.md)
 
 </div>
 

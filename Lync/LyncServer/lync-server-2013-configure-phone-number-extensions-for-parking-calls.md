@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: パーキング通話用に電話番号の内線番号を構成する'
+title: 'Lync Server 2013: パーキング呼び出しの電話番号内線を構成する'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185980
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba64f4f622a6f9ae9e134b2447abe21bc99ec62c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6546488deb6ee1f00539944271f6f80cfc7a06b7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762825"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035349"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-phone-number-extensions-for-parking-calls-in-lync-server-2013"></a>Lync Server 2013 でのパーキング通話用の電話番号の内線番号を構成する
+# <a name="configure-phone-number-extensions-for-parking-calls-in-lync-server-2013"></a>Lync Server 2013 でのパーキング呼び出しの内線電話番号の構成
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41762825"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-10_
+_**トピックの最終更新日:** 2012-09-10_
 
-コールパークアプリケーションでは、通話のパークをパークするために、コールパーク軌道の内線番号が使用されます。 保留中の通話については、組織で予約されている内線番号の範囲を設定する必要があります。 これらの内線番号は、仮想の内線番号 (つまり、ユーザーや電話が割り当てられていない内線番号) にする必要があります。 コールパークアプリケーションが展開され構成されている各 Lync サーバープールは、1つ以上の軌道範囲を持つことができます。 オービット範囲は、Lync Server 展開でグローバルに一意である必要があります。
+コールパークアプリケーションは、コールパークオービットテーブルの内線番号を使用して通話をパークします。 保留呼び出しに対して組織で予約されている内線番号の範囲を使用して、コールパークオービットテーブルを構成する必要があります。 これらの内線番号は仮想の内線番号 (つまり、ユーザーや電話が割り当てられていない内線番号) にする必要あがります。 コールパークアプリケーションが展開および構成されている各 Lync Server プールは、1つ以上のオービット範囲を持つことができます。 オービット範囲は、Lync Server の展開間でグローバルに一意である必要があります。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 通話パークを使用する前に、音声ポリシーの [<STRONG>通話パークを有効</STRONG>にする] チェックボックスをオンにする必要があります。 既定では、このオプションは選択されていません。
+> コールパークを使用する前に、音声ポリシーの [<STRONG>コールパークを有効</STRONG>にする] チェックボックスをオンにする必要があります。 既定では、このオプションはオフになっています。
 
 
 
@@ -51,11 +51,11 @@ _**最終更新日:** 2012-09-10_
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [通話パークの作成または変更 Lync Server 2013 の範囲の軌道](lync-server-2013-create-or-modify-a-call-park-orbit-range.md)
+  - [Lync Server 2013 でのコールパークオービット範囲の作成または変更](lync-server-2013-create-or-modify-a-call-park-orbit-range.md)
 
-  - [Lync Server 2013 でのコールパークの範囲の削除](lync-server-2013-delete-a-call-park-orbit-range.md)
+  - [Lync Server 2013 でのコールパークオービット範囲の削除](lync-server-2013-delete-a-call-park-orbit-range.md)
 
 </div>
 

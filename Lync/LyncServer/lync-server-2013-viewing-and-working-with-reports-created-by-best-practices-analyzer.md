@@ -12,20 +12,20 @@ ms:contentKeyID: 48184215
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0447a2d252cc3a8634275cb1f89d36c2f979a468
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 69a00a0f1777c48ba09798de9323e30dd8959b8d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757351"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036355"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="viewing-and-working-with-reports-created-by-best-practices-analyzer-in-lync-server-2013"></a>Lync Server 2013 でベストプラクティスアナライザーによって作成されたレポートを表示して操作する
+# <a name="viewing-and-working-with-reports-created-by-best-practices-analyzer-in-lync-server-2013"></a>Lync Server 2013 でのベストプラクティスアナライザーによって作成されたレポートの表示と操作
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41757351"
 
 <span> </span>
 
-_**最終更新日:** 2012-06-14_
+_**トピックの最終更新日:** 2012-06-14_
 
-ベストプラクティスアナライザーを使用して環境をスキャンすると、ベストプラクティスアナライザーによって、問題や展開に関するその他の情報を特定するレポートが作成されます。 ベストプラクティスアナライザーを使用して、スキャン結果が含まれているレポートを表示し、レポートで特定された問題について理解することができます。
+ベスト プラクティス アナライザーを使用して環境をスキャンすると、展開の問題点や他の情報を示すレポートが作成されます。ベスト プラクティス アナライザーを使用することにより、スキャン結果が含まれたレポートを表示し、レポートで特定された問題を把握できます。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
   - [Lync Server 2013 のベストプラクティスアナライザーからレポートを表示する](lync-server-2013-viewing-reports-from-best-practices-analyzer.md)
 
-  - [Lync Server 2013 のベストプラクティスアナライザーによって作成されたレポートについて](lync-server-2013-understanding-reports-created-by-best-practices-analyzer.md)
+  - [Lync Server 2013 でのベストプラクティスアナライザーによって作成されたレポートについて](lync-server-2013-understanding-reports-created-by-best-practices-analyzer.md)
 
 </div>
 

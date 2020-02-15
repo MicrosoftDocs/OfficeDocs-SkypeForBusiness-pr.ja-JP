@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: トポロジテストの問題'
+title: 'Lync Server 2013: トポロジテストに関する問題'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184670
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a0492f53692230bf02b3b66d91ba7fdf14b01c23
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 254fb591acca4f58bf27b300d5ead3e615e026ce
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765445"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035029"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="issues-with-the-topology-test-in-lync-server-2013"></a>Lync Server 2013 でのトポロジテストの問題
+# <a name="issues-with-the-topology-test-in-lync-server-2013"></a>Lync Server 2013 のトポロジテストに関する問題
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41765445"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-21_
+_**トピックの最終更新日:** 2012-09-21_
 
-ベストプラクティスアナライザーは、**テスト-CsTopology**コマンドレットと同様に、Lync Server 2013 がグローバルレベルで正常に機能しているかどうかを確認するための手段を提供します。 既定では、コマンドレットなどのベストプラクティスアナライザーは、Lync Server 2013 インフラストラクチャ全体をチェックし、必要なサービスが実行されていること、およびこれらのサービスとユニバーサル用に適切なユーザー権限と権限が設定されていることを確認します。Lync Server 2013 をインストールしたときに作成されるセキュリティグループ。
+**Test-CsTopology**コマンドレットと同様に、ベストプラクティスアナライザーは Lync Server 2013 がグローバルレベルで正常に機能していることを確認する方法を提供します。 既定では、コマンドレットなどのベストプラクティスアナライザーは、Lync Server 2013 インフラストラクチャ全体をチェックし、必要なサービスが実行されていること、およびこれらのサービスおよびユニバーサルに対して適切なユーザー権限とアクセス許可が設定されていることを確認します。Lync Server 2013 のインストール時に作成されるセキュリティグループ。
 
-Lync Server 全体としての有効性を確認するだけでなく、**テスト用**に、特定のサービスの有効性も確認します。 コマンドレットを使用して特定のサービスをテストする方法について詳しくは、「Lync Server 管理シェルドキュメント」の「[テスト-CsTopology](https://docs.microsoft.com/powershell/module/skype/Test-CsTopology)使い方」をご覧ください。 以下の情報を参考にして、トポロジの問題を解決してください。
+Lync Server 全体としての有効性を検証するだけでなく、特定のサービスの**有効性も確認**します。 コマンドレットを使用して特定のサービスをテストする方法の詳細については、「Lync Server Management Shell」のドキュメントの「[テスト-CsTopology](https://docs.microsoft.com/powershell/module/skype/Test-CsTopology)方法」を参照してください。 トポロジの問題の解決については、以下の情報を参考にしてください。
 
 <div>
 
 
 > [!NOTE]  
-> ベストプラクティスアナライザーは、エッジサーバーの構成と、ファイアウォールの設定やアクセス許可を含む、関連する境界ネットワーク設定に応じて、エッジサーバーにアクセスしてスキャンできない場合があります。 スキャンにエッジサーバーが含まれていて、エッジサーバーへのアクセスに問題があるという報告があった場合は、[<STRONG>エッジサーバー</STRONG> ] チェックボックスをオフにし、もう一度スキャンを実行して、問題がレポートに表示されないようにします。
+> エッジ サーバーの構成および関連する境界ネットワークの設定 (ファイアウォールの設定とアクセス許可など) によっては、ベスト プラクティス アナライザーがエッジ サーバーにアクセスしてスキャンできない場合があります。エッジ サーバーがスキャンに含まれていて、エッジ サーバーへのアクセスに問題があることが報告される場合は、[<STRONG>エッジ サーバー</STRONG>] チェック ボックスをオフにしてスキャンを再び実行し、問題がレポートに表示されないようにしてください。
 
 
 
@@ -53,15 +53,15 @@ Lync Server 全体としての有効性を確認するだけでなく、**テス
 
 <div>
 
-## <a name="resolving-issues-with-your-topology"></a>トポロジの問題を解決する
+## <a name="resolving-issues-with-your-topology"></a>トポロジの問題の解決
 
-トポロジテストでトポロジの問題が検出された場合、この問題は、トポロジを公開または有効にしたときに発生した問題が原因である可能性があります。
+トポロジ テストでトポロジに問題が見つかった場合、トポロジを公開または有効化するときに発生した問題が原因である可能性があります。
 
-トポロジに変更を加えた場合、変更は、公開されていて有効になっている場合にのみ有効になります。 トポロジを変更するには、トポロジビルダーを使用する必要があります。 変更を加えた後は、トポロジビルダーを使用して、変更を発行して有効にすることができます。
+トポロジを変更すると、公開して有効にするまで、その変更は反映されません。 トポロジの変更を行うには、トポロジビルダーを使用する必要があります。 変更した後は、トポロジビルダーを使用して、これらの変更を公開して有効にすることができます。
 
-変更を公開すると、新しい情報 (たとえば、新しいサイトまたは新しいサーバーの役割) が中央管理ストアに書き込まれます。 ただし、これらの新規 (または新しく更新された) オブジェクトは、すぐにトポロジに参加することはできません。 更新されたトポロジを有効にした場合にのみ、オブジェクトはトポロジに参加します。 トポロジビルダーで [発行] オプションを選択した場合、次の手順のいずれかが行われます。変更は公開されます (つまり、中央管理ストアに作成されます)。次に、新しいトポロジが有効になります。
+変更を公開すると、新しい情報 (たとえば、新しいサイトまたは新しいサーバーの役割) が中央管理ストアに書き込まれます。 ただし、これらの新しい (または新しく変更された) オブジェクトは、すぐにはトポロジに参加しません。 オブジェクトは、更新されたトポロジを有効にした場合にのみ、トポロジに参加します。 トポロジビルダーで [発行] オプションを選択した場合、次の両方の手順が実行されます。変更が発行されます (つまり、中央管理ストアに書き込まれます)。その後、新しいトポロジが有効になります。
 
-既定では、RTCUniversalServerAdmins グループのメンバーは、 **Publish/cstopology**コマンドレットと**Enable-cstopology**コマンドレットを実行することを許可されています。 ただし、セットアップのアクセス許可が委任されていない場合は、ドメイン管理者としてログオンして**発行-CsTopology**方法で実行する必要があります。 RTCUniversalServerAdmins を実際に使用する権利を与えられるようにする**には、** Lync Server サービスを実行しているコンピューターが含まれているすべての Active Directory コンテナーに対して、**グラント setuppermission**コマンドレットを実行する必要があります。 RTCUniversalServerAdmins を有効にするには、 **Enable-CsTopology**コマンドレットを使用する権利を付与するために、Lync Server サービスを実行しているコンピューターが含まれているすべての Active Directory ドメインサービスコンテナーに対して、 **Set-cssetuppermission**コマンドレットを実行する必要があります。 これは、トポロジビルダーを使用してトポロジを有効化および公開するために適用されることに注意してください。 **Set-CsSetupPermission**を使用してアクセス許可を委任していない場合は、トポロジビルダーを介してトポロジを有効にして発行できるのは、ドメイン管理者のみです。
+既定では、RTCUniversalServerAdmins グループのメンバーは、**Publish-CsTopology** コマンドレットおよび **Enable-CsTopology** コマンドレットの実行を許可されてます。 ただし、セットアップ アクセス許可が委任されていない場合は、ドメイン管理者としてログオンし、**Publish-CsTopology** を実行する必要があります。 RTCUniversalServerAdmins コマンドレットを実際に使用する権限を付与する**には、** Lync Server サービスを実行しているコンピューターが含まれるすべての Active Directory コンテナーで、 **Grant-cssetuppermission**コマンドレットを実行する必要があります。 RTCUniversalServerAdmins**コマンドレットを**使用する権限を付与するには、Lync Server サービスを実行しているコンピューターが含まれるすべての Active Directory ドメインサービスコンテナーに対し**て、コマンドレットを**実行する必要があります。 このことは、トポロジビルダーを使用したトポロジの有効化と公開に適用されることに注意してください。 **Set-CsSetupPermission**を使用してアクセス許可を委任していない場合は、トポロジビルダーを使用してトポロジを有効にして公開できるのはドメイン管理者のみになります。
 
 </div>
 

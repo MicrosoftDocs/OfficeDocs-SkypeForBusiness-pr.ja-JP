@@ -1,5 +1,5 @@
 ---
-title: 'フェーズ 7: 移行後のタスクの実行'
+title: 'フェーズ 7: 移行後のタスクを完了する'
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184485
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b6eb1761688070e13e22057d1cbec339c87db0f4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c791bd363bce3a0bd553017bc16dd719fc7514ef
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757131"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034157"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-7-complete-post-migration-tasks"></a>フェーズ 7: 移行後のタスクの実行
+# <a name="phase-7-complete-post-migration-tasks"></a>フェーズ 7: 移行後のタスクを完了する
 
 </div>
 
@@ -35,39 +35,39 @@ ms.locfileid: "41757131"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-19_
+_**トピックの最終更新日:** 2012-10-19_
 
 このセクションのトピックでは、Lync Server 2013 への移行を完了した後に実行する必要があるタスクについて説明します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [既存の会議および会議コンテンツの移行](migrate-existing-meetings-and-meeting-content.md)
+  - [既存の会議と会議コンテンツを移行する](migrate-existing-meetings-and-meeting-content.md)
 
-  - [ダイヤルイン アクセス番号の移行](migrate-dial-in-access-numbers.md)
+  - [ダイヤルインアクセス番号の移行](migrate-dial-in-access-numbers.md)
 
-  - [コール パーク アプリケーション設定の移行](migrate-call-park-application-settings.md)
+  - [コールパークアプリケーション設定の移行](migrate-call-park-application-settings.md)
 
-  - [応答グループの移行](migrate-response-groups.md)
+  - [応答グループを移行する](migrate-response-groups.md)
 
-  - [アドレス帳の移行](migrate-address-book.md)
+  - [アドレス帳を移行する](migrate-address-book.md)
 
-  - [会議参加ページの構成](configure-the-meeting-join-page.md)
+  - [ミーティング参加ページを構成する](configure-the-meeting-join-page.md)
 
-  - [従来のアーカイブ サーバーおよび監視サーバーの削除](remove-legacy-archiving-and-monitoring-servers.md)
+  - [従来のアーカイブサーバーおよび監視サーバーを削除する](remove-legacy-archiving-and-monitoring-servers.md)
 
-  - [信頼済みアプリケーション サーバーの構成](configure-trusted-application-servers.md)
+  - [信頼されたアプリケーション サーバーを構成する](configure-trusted-application-servers.md)
 
   - [Lync Server 2013 クライアントを展開する](deploy-lync-server-2013-clients.md)
 
-  - [存続可能ブランチ アプライアンスの接続](connect-a-survivable-branch-appliance.md)
+  - [存続可能ブランチアプライアンスの接続](connect-a-survivable-branch-appliance.md)
 
-  - [SCOM 監視の構成](configure-scom-monitoring.md)
+  - [SCOM 監視を構成する](configure-scom-monitoring.md)
 
   - [共通領域電話の移行](migrate-common-area-phones.md)
 
-  - [アナログ デバイスの移行](migrate-analog-devices.md)
+  - [アナログデバイスを移行する](migrate-analog-devices.md)
 
 </div>
 

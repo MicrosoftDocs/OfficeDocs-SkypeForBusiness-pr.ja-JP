@@ -12,16 +12,16 @@ ms:contentKeyID: 48185883
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ce8fa7b78aa00008cd5aaf748ba66a78ecefbe7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 53144bfd9a05d1fc20671b1d7b6aeb22b0f84f6f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725604"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007766"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41725604"
 
 <span> </span>
 
-_**最終更新日:** 2012-11-08_
+_**トピックの最終更新日:** 2012-11-08_
 
-Lync Server 2013 には、個別の監視サーバーの役割がありません。 監視は、Enterprise Edition 展開のすべてのフロントエンドサーバーおよび標準エディションサーバーで利用可能なオプションの機能です。この機能は、プールまたはサイトに実装して構成することができます。 Lync Server 2013 の新機能として、監視データベースの SQL Server データベースのミラーリングを有効にすることができます。
+Lync Server 2013 には、別の監視サーバーの役割がありません。 監視は、Enterprise Edition 展開のすべてのフロントエンド サーバーおよび Standard Edition サーバーで使用できるオプションの機能であり、プールまたはサイトに対して実装および構成できます。 Lync Server 2013 の新機能により、監視データベースに対して SQL Server データベースのミラーリングを有効にすることができます。
 
 </div>
 

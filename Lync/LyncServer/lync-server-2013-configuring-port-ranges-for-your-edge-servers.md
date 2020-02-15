@@ -12,20 +12,20 @@ ms:contentKeyID: 48184469
 ms.date: 07/24/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b6eddf59f6fe4b2575e0e7d70adddb2e94c90e05
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b526611e2e29f1b8d11e731381898a7db5e71aa8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742347"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008399"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-port-ranges-for-your-edge-servers-in-lync-server-2013"></a>Lync Server 2013 でエッジサーバーのポート範囲を構成する
+# <a name="configuring-port-ranges-for-your-edge-servers-in-lync-server-2013"></a>Lync Server 2013 でのエッジサーバーのポート範囲の構成
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41742347"
 
 <span> </span>
 
-_**最終更新日:** 2015-07-24_
+_**トピックの最終更新日:** 2015-07-24_
 
-エッジサーバーでは、音声、ビデオ、アプリケーション共有のために個別のポート範囲を構成する必要はありません。同様に、エッジサーバーに使われるポート範囲も、会議、アプリケーション、および仲介サーバーで使用されるポート範囲と一致する必要はありません。 例を始める前に、このオプションが存在している間、ポート範囲を変更しないことをお勧めします。これは、5万のポート範囲から移動した場合に、一部のシナリオに悪影響を与える可能性があるため、これを強調することが重要です。
+エッジサーバーでは、オーディオ、ビデオ、およびアプリケーション共有に対して個別のポート範囲を構成する必要はありません。同様に、エッジサーバーで使用されるポート範囲は、会議、アプリケーション、および仲介サーバーで使用されるポート範囲と一致している必要はありません。 この例を進める前に、このオプションが存在している間は、ポート範囲を変更しないことをお勧めします。これは、5万のポート範囲から移動すると、一部のシナリオに悪影響を及ぼす可能性があるためです。
 
-たとえば、次のようなポート範囲を使用するように会議、アプリケーション、および仲介業者を構成したとします。
+たとえば、次のポート範囲を使用するように会議、アプリケーション、および仲介サーバーを構成したとします。
 
 
 <table>
@@ -52,7 +52,7 @@ _**最終更新日:** 2015-07-24_
 <tr class="header">
 <th>パケットの種類</th>
 <th>開始ポート</th>
-<th>予約されているポートの数</th>
+<th>予約されたポートの数</th>
 </tr>
 </thead>
 <tbody>
@@ -80,19 +80,19 @@ _**最終更新日:** 2015-07-24_
 </table>
 
 
-ご覧のとおり、オーディオ、ビデオ、およびアプリケーション共有のポート範囲は、ポート40803から始まり、24732ポートの合計をカバーしています。 必要に応じて、次のようなポート値を使用するように特定のエッジサーバーを構成するには、Lync Server 管理シェルで、次のようなコマンドを実行します。
+ご覧のとおり、オーディオ、ビデオ、およびアプリケーション共有のポート範囲は、ポート40803で開始し、合計24732ポートを含んでいます。 必要に応じて、Lync Server 管理シェルから次のようなコマンドを実行すると、指定したエッジ サーバーがこれらのポート範囲全体を使用するように構成できます。
 
     Set-CsEdgeServer -Identity EdgeServer:atl-edge-001.litwareinc.com -MediaCommunicationPortStart 40803 -MediaCommunicationPortCount 24730
 
-または、次のコマンドを使用して、組織内のすべてのエッジサーバーを同時に構成します。
+または、次のコマンドを使用して、組織内のすべてのエッジ サーバーを同時に構成することもできます。
 
     Get-CsService -EdgeServer | ForEach-Object {Set-CsEdgeServer -Identity $_.Identity -MediaCommunicationPortStart 40803 -MediaCommunicationPortCount 24730}
 
-次の Lync Server 管理シェルコマンドを使用して、エッジサーバーの現在のポート設定を確認できます。
+この Lync Server 管理シェルコマンドを使用して、エッジサーバーの現在のポート設定を確認できます。
 
     Get-CsService -EdgeServer | Select-Object Identity, MediaCommunicationPortStart, MediaCommunicationPortCount
 
-ここでも、これらのオプションを用意していますが、ポート構成のためにそのままにしておくことを強くお勧めします。
+これらのオプションを提供していますが、ポート構成用のものを残しておくことを強くお勧めします。
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48184886
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 584d1c8391f0393711b2caf6de46a0df6c437c51
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cb1e0668ffc482b0c2987326aa2f09e1888e48bc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747657"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034739"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,33 +35,33 @@ ms.locfileid: "41747657"
 
 <span> </span>
 
-_**最終更新日:** 2013-03-27_
+_**トピックの最終更新日:** 2013-03-27_
 
-Lync Server では、ファイアウォールの特定のポートを開く必要があります。 さらに、組織でインターネット プロトコル セキュリティ (IPsec) が展開されている場合は、音声、ビデオ、およびパノラマ ビデオの配信に使用するポートの範囲に対して IPsec を無効にする必要があります。
+Lync Server では、ファイアウォール上の特定のポートを開く必要があります。 さらに、組織でインターネット プロトコル セキュリティ (IPsec) が展開されている場合は、音声、ビデオ、およびパノラマ ビデオの配信に使用するポートの範囲に対して IPsec を無効にする必要があります。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-このセクションには、次のトピックが含まれます。
+このセクションでは、以下のトピックについて説明します。
 
   - [Lync Server 2013 の内部サーバーのポートとプロトコル](lync-server-2013-ports-and-protocols-for-internal-servers.md)
 
-  - [Lync Server 2013 での IPsec の例外](lync-server-2013-ipsec-exceptions.md)
+  - [Lync Server 2013 の IPsec 例外](lync-server-2013-ipsec-exceptions.md)
 
-  - [ポートの概要 - Lync Server 2013 の NAT を使用したプライベート IP アドレスを含む単一統合エッジ](lync-server-2013-port-summary-single-consolidated-edge-with-private-ip-addresses-using-nat.md)
+  - [ポートの概要-Lync Server 2013 で NAT を使用するプライベート IP アドレスを持つ単一統合エッジ](lync-server-2013-port-summary-single-consolidated-edge-with-private-ip-addresses-using-nat.md)
 
-  - [ポートの概要 - Lync Server 2013 でパブリック IP アドレスを使用する単一の統合エッジ](lync-server-2013-port-summary-single-consolidated-edge-with-public-ip-addresses.md)
+  - [ポートの概要-Lync Server 2013 でのパブリック IP アドレスを使用する単一統合エッジ](lync-server-2013-port-summary-single-consolidated-edge-with-public-ip-addresses.md)
 
-  - [ポートの概要 - Lync Server 2013 における拡張統合エッジ、NAT によるプライベート IP アドレスを使用した DNS 負荷分散](lync-server-2013-port-summary-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
+  - [ポートの概要-Lync Server 2013 での NAT を使用したプライベート IP アドレスを使用した拡張統合エッジ、DNS 負荷分散](lync-server-2013-port-summary-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
 
-  - [ポートの概要 - Lync Server 2013 拡張統合エッジ、パブリック IP アドレスによる DNS 負荷分散](lync-server-2013-port-summary-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
+  - [ポートの概要-Lync Server 2013 での拡張統合エッジ、パブリック IP アドレスを使用した DNS 負荷分散](lync-server-2013-port-summary-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
 
-  - [ポートの概要 - Lync Server 2013 の拡張統合エッジ (ロード バランサー機器を使用)](lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md)
+  - [ポートの概要-Lync Server 2013 の拡張統合エッジ (ロードバランサー機器を含む)](lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md)
 
-  - [ポートの概要 - Lync Server 2013 のリバース プロキシ](lync-server-2013-port-summary-reverse-proxy.md)
+  - [ポートの概要-Lync Server 2013 のリバースプロキシ](lync-server-2013-port-summary-reverse-proxy.md)
 
-  - [[ポートの概要]-Lync Server 2013 での SIP、XMPP フェデレーション、およびパブリックインスタントメッセージング](lync-server-2013-port-summary-sip-xmpp-federation-and-public-instant-messaging.md)
+  - [ポートの概要-Lync Server 2013 の SIP、XMPP フェデレーション、およびパブリックインスタントメッセージング](lync-server-2013-port-summary-sip-xmpp-federation-and-public-instant-messaging.md)
 
 </div>
 

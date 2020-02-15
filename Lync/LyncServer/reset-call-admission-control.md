@@ -12,16 +12,16 @@ ms:contentKeyID: 49733658
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6956b1a871a4a0a5c7e758d2890a58989f5ac8a2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1c51eed6e5164316c2785ff5d560291afe58015c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726997"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035733"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41726997"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-11_
+_**トピックの最終更新日:** 2012-10-11_
 
-Lync Server 2010 フロントエンドプールが通話受付制御 (CAC) をホストしている場合は、lync server 2010 フロントエンドプールを削除する前に、CAC ホスティングを Lync Server 2013 プールに移動する必要があります。
+Lync server 2010 フロントエンドプールが通話受付管理 (CAC) をホストしている場合は、lync server 2010 フロントエンドプールを削除する前に、CAC ホスティングを Lync Server 2013 プールに移動する必要があります。
 
 <div>
 
 ## <a name="to-reset-cac"></a>CAC をリセットするには
 
-1.  トポロジビルダーを開きます。
+1.  トポロジ ビルダーを開きます。
 
-2.  サイトノードを右クリックし、[プロパティの**編集**] をクリックします。
+2.  サイト ノードを右クリックし、[**プロパティの編集**] をクリックします。
 
-3.  「**通話受付制御の設定**」で、「**通話受付制御を有効にする**」が選択されていることを確認します。
+3.  [**通話受付管理の設定**] で、[**通話受付管理の有効化**] が選択されていることを確認します。
 
-4.  [**フロントエンドプール] で、通話受付制御 (cac) を実行する**には、cac をホストする Lync Server 2013 プールを選び、[ **OK]** をクリックします。
+4.  [**フロントエンドプール] で通話受付管理 (cac) を実行する**には、cac をホストする Lync Server 2013 プールを選択し、[ **OK]** をクリックします。
 
 5.  トポロジを公開します。
 

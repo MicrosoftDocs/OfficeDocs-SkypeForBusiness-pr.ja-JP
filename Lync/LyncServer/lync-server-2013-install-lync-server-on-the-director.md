@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ディレクターでの Lync Server のインストール'
+title: 'Lync Server 2013: Lync Server をディレクターにインストールする'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183410
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1d86acfe3ebd1a306a1810a492146849224cbfeb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b34aabd71a3501a305e76e9f9edcfd3fc6ca4201
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763731"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008309"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41763731"
 
 <span> </span>
 
-_**最終更新日:** 2014-05-05_
+_**トピックの最終更新日:** 2014-05-05_
 
-Lync Server 2013 コンポーネントをディレクターにインストールするには、次の手順を実行します。
+以下の手順を使用して、Lync Server 2013 コンポーネントをディレクターにインストールします。
 
 <div>
 
-## <a name="to-install-lync-server-components-on-a-director"></a>Lync Server コンポーネントをディレクターにインストールするには
+## <a name="to-install-lync-server-components-on-a-director"></a>ディレクターに Lync Server コンポーネントをインストールするには
 
-1.  Lync Server の展開ウィザードの [Lync Server 2013] ページで、[**手順 2: Lync サーバーコンポーネントのセットアップまたは削除**] の横にある [**実行**] をクリックします。
+1.  Lync server 展開ウィザードの [Lync Server 2013] ページで、[**ステップ 2: Lync Server コンポーネントのセットアップまたは削除**] の横にある [**実行**] をクリックします。
 
-2.  [ **Lync Server コンポーネントのセットアップ**] ページで、[**次**へ] をクリックして、公開したトポロジで定義されたコンポーネントをセットアップします。
+2.  [ **Lync Server コンポーネントのセットアップ**] ページで、[**次へ**] をクリックして、公開したトポロジで定義されているようにコンポーネントを設定します。
 
 3.  Lync Server コンポーネントのセットアップが完了したら、[**完了**] をクリックします。
 

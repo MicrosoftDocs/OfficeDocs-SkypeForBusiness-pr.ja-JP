@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 音声/ビデオ会議を検証する'
+title: 'Lync Server 2013: 音声ビデオ会議の検証'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969615
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 89bb8f38ea650bf64179b917b227d7ccaaf10791
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 82abbf918f4b375c10fdf201591e099f5cd4262e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763651"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007406"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="validating-audiovideo-conferences-in-lync-server-2013"></a>Lync Server 2013 での音声/ビデオ会議の検証
+# <a name="validating-audiovideo-conferences-in-lync-server-2013"></a>Lync Server 2013 での音声ビデオ会議の検証
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41763651"
 
 <span> </span>
 
-_**最終更新日:** 2014-06-05_
+_**トピックの最終更新日:** 2014-06-05_
 
 
 <table>
@@ -49,8 +49,8 @@ _**最終更新日:** 2014-06-05_
 <td></td>
 </tr>
 <tr class="even">
-<td><p>確認のスケジュール</p></td>
-<td><p>[毎日]</p></td>
+<td><p>検証スケジュール</p></td>
+<td><p>毎日</p></td>
 </tr>
 <tr class="odd">
 <td><p>テストツール</p></td>
@@ -58,8 +58,8 @@ _**最終更新日:** 2014-06-05_
 </tr>
 <tr class="even">
 <td><p>必要なアクセス許可</p></td>
-<td><p>Lync Server 管理シェルを使用してローカルで実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使って実行する場合、ユーザーには、テスト-CsAVConference コマンドレットを実行するためのアクセス許可が与えられた RBAC の役割を割り当てる必要があります。 このコマンドレットを使うことができるすべての RBAC ロールの一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには、テスト-CsAVConference コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsAVConference&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -70,11 +70,11 @@ _**最終更新日:** 2014-06-05_
 
 ## <a name="description"></a>説明
 
-テスト-CsAVConference コマンドレットは、2つのテストユーザーが音声/ビデオ (A/V) 会議に参加できるかどうかを確認します。 コマンドレットが実行されると、2人のユーザーがシステムにログオンします。 ログオンが正常に完了したら、最初のユーザーは A/V 会議を作成し、2人目のユーザーがその会議に参加するのを待ちます。 データを簡単に交換した後、会議が削除され、2つのテストユーザーがログオフします。
+テスト CsAVConference コマンドレットは、2つのテストユーザーが音声ビデオ (A/V) 会議に参加できるかどうかをチェックします。 コマンドレットを実行すると、2人のユーザーがシステムにログオンします。 正常にログオンした後、最初のユーザーが音声ビデオ会議を作成し、2番目のユーザーがその会議に参加するのを待ちます。 データを簡単に交換した後、会議が削除され、2つのテストユーザーがログオフします。
 
-ただし、テスト-CsAVConference では、2つのテストユーザー間で実際の A/V 会議が行われることに注意してください。 代わりに、このコマンドレットは、2人のユーザーが会議の開催に必要なすべての接続を確立できることを確認します。
+テスト-CsAVConference 会議では、2つのテストユーザー間で実際の音声ビデオ会議が行われないことに注意してください。 代わりに、このコマンドレットは、2人のユーザーがそのような会議を行うために必要なすべての接続を確立できることを確認します。
 
-このコマンドのその他の例については、「テスト用の[CsAVConference 会議](https://docs.microsoft.com/powershell/module/skype/Test-CsAVConference)」を参照してください。
+このコマンドのその他の例については[、「テスト-CsAVConference 会議](https://docs.microsoft.com/powershell/module/skype/Test-CsAVConference)」を参照してください。
 
 </div>
 
@@ -82,71 +82,71 @@ _**最終更新日:** 2014-06-05_
 
 ## <a name="running-the-test"></a>テストの実行
 
-テスト用の CsAVConference コマンドレットを実行するには、定義済みのテストアカウントのペア (「Lync Server テストを実行するためのテストアカウントをセットアップする」を参照) を使用するか、Lync Server を有効にしている2人のユーザーのアカウントを使用します。 テストアカウントを使用してこの確認を実行するには、テストする Lync Server プールの FQDN を指定する必要があります。 次に例を示します。
+テスト CsAVConference コマンドレットは、事前に構成されたテストアカウントのペア (「Lync Server テストを実行するためのテストアカウントの設定」を参照)、または Lync Server が有効になっている任意の2人のアカウントのいずれかを使用して実行できます。 このチェックをテストアカウントを使用して実行するには、テストする Lync Server プールの FQDN を指定するだけで済みます。 例:
 
     Test-CsAVConference -TargetFqdn "atl-cs-001.litwareinc.com"
 
-実際のユーザーアカウントを使用してこのチェックを実行するには、2つの Windows PowerShell credentials オブジェクト (アカウント名とパスワードを含むオブジェクト) を各アカウントに作成する必要があります。 次に、これらの資格情報オブジェクトと、テスト用 Cgi 会議を呼び出すときに2つのアカウントの SIP アドレスを含める必要があります。
+実際のユーザーアカウントを使用してこのチェックを実行するには、2つの Windows PowerShell credentials オブジェクト (アカウント名とパスワードを含むオブジェクト) を各アカウントに作成する必要があります。 次に、これらの資格情報オブジェクトと、2つのアカウントの SIP アドレスを指定する必要があります。
 
     $credential1 = Get-Credential "litwareinc\kenmyer"
     $credential2 = Get-Credential "litwareinc\davidlongmire"
     Test-CsAVConference -TargetFqdn "atl-cs-001.litwareinc.com" -SenderSipAddress "sip:kenmyer@litwareinc.com" -SenderCredential $credential1 -ReceiverSipAddress "sip:davidlongmire@litwareinc.com" -ReceiverCredential $credential2
 
-詳細については、「[テスト-CsAVConference](https://docs.microsoft.com/powershell/module/skype/Test-CsAVConference)コマンドレットのヘルプドキュメント」を参照してください。
+詳細については、「 [Test-CsAVConference](https://docs.microsoft.com/powershell/module/skype/Test-CsAVConference)コマンドレットのヘルプドキュメント」を参照してください。
 
 </div>
 
 <div>
 
-## <a name="determining-success-or-failure"></a>成功または失敗を確認する
+## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
-指定したユーザーが A/V 会議を正常に完了できた場合は、次のような結果が返され、Result プロパティは Success とマークされ**ます。**
+指定したユーザーが音声ビデオ会議を正常に完了できた場合は、次のような出力が得られます。 Result プロパティは Success としてマークされてい**ます。**
 
 TargetFqdn: atl-cs-001.litwareinc.com
 
 結果: 成功
 
-待ち時間:00:00: 02.6841765
+待機時間:00:00: 02.6841765
 
-誤差
+エラー
 
-診断
+分析
 
-ユーザーが会議を完了できなかった場合は、結果がエラーとして表示され、エラーと診断のプロパティに追加情報が記録されます。
+ユーザーが会議を完了できない場合、結果は失敗として表示され、エラーと診断のプロパティに追加情報が記録されます。
 
 TargetFqdn: atl-cs-001.litwareinc.com
 
 結果: エラー
 
-待ち時間: 00:00:00
+待機時間: 00:00:00
 
 エラー: 404、見つかりません
 
-診断: ErrorCode = 4005、Source = atl-cs-001.litwareinc.com、
+診断: ErrorCode = 4005, Source = 001.litwareinc.com,
 
-理由 = ターゲット URI が SIP で有効になっていないか、
+Reason = 宛先 URI が SIP に対して有効になっていないか、または使用されていません
 
-残っ.
+ない.
 
-DiagnosticHeader の場合
+DiagnosticHeader ()
 
-たとえば、前回の出力には、アカウントが存在しないか、アカウントが Lync Server に対して有効になっていないために、2つ以上のユーザーアカウントが無効であったためにテストが失敗したことが示されます。 次のようなコマンドを実行することにより、2つのテストアカウントが存在するかどうか、および Lync Server 用に有効になっているかどうかを確認できます。
+たとえば、1つ以上のユーザーアカウントが存在しないため、またはアカウントが Lync Server に対して有効になっていないために、このテストが失敗したことが示されています。 次のようなコマンドを実行することによって、2つのテストアカウントが存在するかどうか、および Lync Server が有効になっているかどうかを確認できます。
 
     "sip:kenmyer@litwareinc.com","sip:davidlongmire@litwareinc.com" | Get-CsUser | Select-Object SipAddress, enabled
 
-テスト用の CsAVConference に失敗した場合は、Verbose パラメーターも含めて、テストを再実行することをお勧めします。
+テスト-CsAVConference が失敗した場合は、次のように詳細なパラメーターを含めて、テストを再実行することをお勧めします。
 
     Test-CsAVConference -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-Verbose パラメーターが含まれている場合は、指定したユーザーが AV 会議に参加できるかどうかを確認したときに実行される各操作のステップバイステップのアカウントが返されます。 たとえば、テストが失敗し、次のような診断が表示されたとします。
+Verbose パラメーターが Test に含まれている場合、指定されたユーザーが AV 電話会議に参加できるかどうかを確認したときに試行された各アクションのステップバイステップのアカウントが返されます。 たとえば、テストが失敗し、次の診断が表示されるとします。
 
-ErrorCode = 1008、Source = accessproxy、Reason = DNS SRV レコードを解決できませんでした
+ErrorCode = 1008, Source = accessproxy, Reason = DNS SRV レコードを解決できません
 
-Verbose パラメーターを使用してテストを再実行する場合、返される手順ごとの情報には、次のような出力が含まれます。
+Verbose パラメーターを使用してテストを再実行すると、次のような出力が返されます。
 
 VERBOSE: ' Register ' アクティビティが開始されました。
 
-登録リクエストの送信:
+登録要求の送信:
 
 ターゲット Fqdn = atl-cs-001.litwareinc.com
 
@@ -154,11 +154,11 @@ VERBOSE: ' Register ' アクティビティが開始されました。
 
 レジストラーポート = 5061。
 
-[Authentication Type ' Trusted '] が選択されています。
+認証の種類 ' Trusted ' が選択されています。
 
 ' Register ' アクティビティが開始されました。
 
-登録リクエストの送信:
+登録要求の送信:
 
 ターゲット Fqdn = atl-cs-001.litwareinc.com
 
@@ -166,29 +166,29 @@ VERBOSE: ' Register ' アクティビティが開始されました。
 
 レジストラーポート = 5061。
 
-[Authentication Type ' Trusted '] が選択されています。
+認証の種類 ' Trusted ' が選択されています。
 
-"エンドポイントを登録できませんでした。" という例外が発生します。 具体的な理由については、「エラーコード」をご覧ください。 ワークフローの実行中に発生
+例外 ' エンドポイントを登録できませんでした。 具体的な理由については、「エラーコード」を参照してください。 ' ワークフロー中に発生した
 
-この出力の最後の行は、ユーザー sip:kenmyer@litwareinc.com が Lync Server に登録できなかったことを示します。 つまり、SIP アドレス sip:kenmyer@litwareinc.com が有効であること、および関連付けられたユーザーが Lync Server に対して有効になっていることを確認する必要があります。
+その出力の最後の行は、ユーザー sip:kenmyer@litwareinc.com が Lync Server に登録できなかったことを示しています。 これは、SIP アドレス sip:kenmyer@litwareinc.com が有効であることと、関連付けられたユーザーが Lync Server に対して有効になっていることを確認する必要があることを意味します。
 
 </div>
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a>テストに失敗した可能性がある理由
+## <a name="reasons-why-the-test-might-have-failed"></a>テストが失敗した理由
 
-次に、テスト用の CsAVConference が正常に機能しない場合の一般的な理由を示します。
+次に、テスト-CsAVConference が失敗する主な理由を示します。
 
-  - 無効なユーザーアカウントが指定されました。 次のようなコマンドを実行すると、ユーザーアカウントが存在するかどうかを確認できます。
+  - 無効なユーザーアカウントが指定されました。 ユーザーアカウントが存在することを確認するには、次のようなコマンドを実行します。
     
         Get-CsUser "sip:kenmyer@litwareinc.com"
 
-  - ユーザーアカウントは有効ですが、アカウントは現在 Lync Server に対して有効になっていません。 Lync Server でユーザーアカウントが有効になっていることを確認するには、次のようなコマンドを実行します。
+  - ユーザーアカウントは有効ですが、アカウントは現在 Lync Server に対して有効になっていません。 ユーザーアカウントが Lync Server に対して有効になっていることを確認するには、次のようなコマンドを実行します。
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled
     
-    Enabled プロパティが False に設定されている場合は、ユーザーが現在 Lync Server を有効にしていないことを意味します。
+    Enabled プロパティが False に設定されている場合は、ユーザーが Lync Server に対して有効になっていないことを意味します。
 
 </div>
 

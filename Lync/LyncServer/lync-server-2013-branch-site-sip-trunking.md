@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ブランチサイト SIP トランク'
+title: 'Lync Server 2013: ブランチサイトの SIP トランキング'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185350
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9c31f0f42a10905f784536b08f10370be9694800
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 161964bc7a183672323ac277eae4f3a7ce0d2b82
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741817"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008079"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="branch-site-sip-trunking-in-lync-server-2013"></a>Branch site SIP trunking in Lync Server 2013
+# <a name="branch-site-sip-trunking-in-lync-server-2013"></a>Lync Server 2013 でのブランチサイト SIP トランキング
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41741817"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-21_
+_**トピックの最終更新日:** 2012-09-21_
 
-場合によっては、選択したブランチサイトに配布 SIP トランキングを実装する必要があります。 ブランチサイトに SIP トランクが必要かどうかを判断するには、「 [Lync Server 2013 で sip トランクを実装する方法](lync-server-2013-how-do-i-implement-sip-trunking.md)」の情報を確認します。
+場合によっては、選択したブランチサイトでの分散 SIP トランキングの実装が必要になることがあります。 ブランチサイトに SIP トランクが必要かどうかを判断するには、「 [Lync Server 2013 での sip トランキングの実装方法](lync-server-2013-how-do-i-implement-sip-trunking.md)」の情報を参照してください。
 
-ブランチサイトでの SIP trunks の展開についてサポートされているトポロジーオプションの詳細については、「 [Lync Server 2013 でのブランチサイトの回復性ソリューション](lync-server-2013-branch-site-resiliency-solutions.md)」を参照してください。
+ブランチサイトでの SIP トランクの展開でサポートされるトポロジオプションの詳細については、「 [Lync Server 2013 の「ブランチサイトの復元ソリューション](lync-server-2013-branch-site-resiliency-solutions.md)」を参照してください。
 
 <div>
 
 ## <a name="example-branch-site-sip-trunk-requirements-analysis"></a>ブランチ サイト SIP トランク要件例の分析
 
-ブランチサイト SIP トランクの展開を決定する際には、サイト固有のコスト分析を実行する必要があります。 たとえば、ニューヨークのレドモンド、ワシントン、支店にセントラルサイトがある企業では、ニューヨークサイトの SIP トランクをローカルサービスプロバイダに実装するかどうかを判断する分析を行う必要があります。
+ブランチサイトの SIP トランクを展開することを決定した場合は、サイト固有のコスト分析を実行する必要があります。 たとえば、Redmond、ワシントン、ニューヨークのブランチサイトに中央サイトがあるエンタープライズは、ニューヨークサイトからローカルサービスプロバイダへの SIP トランクを実装するかどうかを判断する分析を行う必要があります。
 
-ニューヨークでの分散型 SIP トランクの費用対効果が高いかどうかを判断するには、SIP トランクを使用する Direct Inward Dialing (DID) 番号を識別し、レドモンド (425) 以外の地域にニューヨークからかける電話の回数を分析します。 セントラルサイトでブランチサイトの終了ができました。 たとえば、Redmond のセントラルサイトでは、ニューヨーク支社のサイトの番号をホストできます。 分散 SIP トランクの実装のコストがこれらの通話のコストよりも少ない場合は、ニューヨーク支店のサイトで SIP トランクを実装することを検討してください。
+ニューヨークでの分散型 SIP トランクの費用対効果が高いかどうかを判断するには、SIP トランクを使用する Direct Inward Dialing (DID) 番号を識別し、レドモンド (425) 以外の地域にニューヨークからかける電話の回数を分析します。 中央サイトでブランチサイトの終了を完了しました。 たとえば、Redmond の中央サイトは、ニューヨークのブランチサイト用の電話番号をホストできます。 分散 SIP トランクを実装するコストがこれらの呼び出しのコストを下回っている場合は、ニューヨークブランチサイトで SIP トランクを実装することを検討してください。
 
 </div>
 
@@ -55,7 +55,7 @@ _**最終更新日:** 2012-09-21_
 
 ## <a name="other-branch-site-sip-trunk-requirements"></a>その他のブランチ サイト SIP トランク要件
 
-ゲートウェイの代わりに SIP トランクを展開するには、各オプションの PSTN (公衆交換電話網) の長距離電話料金の差に基づいて選択することができます。 ブランチサイト SIP トランクを展開する場合は、回復性と帯域幅の要件を特定する必要もあります。 ブランチサイトとセントラルサイト間のリンクが回復可能であり、十分な帯域幅がある場合は、SIP トランクまたはゲートウェイを展開できます。 ブランチサイトに Survivable Branch Appliance を展開する必要はありません。 ブランチサイトとセントラルサイト間のリンクが復元できない場合は、Survivable Branch Appliance を展開するか、ゲートウェイまたは SIP トランクのいずれかでブランチサイトに Survivable ブランチサーバーを展開してください。
+ゲートウェイの代わりに SIP トランクを展開する方法の選択は、各オプションの公衆交換電話網 (PSTN) 長距離通話料金の違いに基づいています。 ブランチサイトの SIP トランクを展開する場合は、復元および帯域幅の要件も決定する必要があります。 ブランチサイトと中央サイトの間のリンクが復元性があり、十分な帯域幅がある場合は、SIP トランクまたはゲートウェイを展開できます。 ブランチサイトで存続可能ブランチアプライアンスを展開する必要はありません。 ブランチサイトと中央サイトの間のリンクが復元できない場合は、存続可能 Branch Appliance を展開するか、ゲートウェイまたは SIP トランクを使用してブランチサイトに存続可能ブランチサーバーを展開します。
 
 </div>
 

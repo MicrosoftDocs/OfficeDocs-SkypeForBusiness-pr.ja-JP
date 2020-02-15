@@ -1,5 +1,5 @@
 ---
-title: 拡張メッセージングとプレゼンスプロトコル (XMPP) フェデレーションの計画
+title: 拡張可能なメッセージングおよびプレゼンスプロトコル (XMPP) フェデレーションの計画
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184892
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ee0543d36cb43a05042ca4341a837ae10b52051
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5f95a8e53de2c11473d8424eb2bc794e41aa7d1f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725379"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036827"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a>Lync Server 2013 での拡張メッセージングとプレゼンスプロトコル (XMPP) フェデレーションの計画
+# <a name="planning-for-extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a>Lync Server 2013 での拡張メッセージングおよびプレゼンスプロトコル (XMPP) フェデレーションの計画
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41725379"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-22_
+_**トピックの最終更新日:** 2012-10-22_
 
-以前のバージョンの Lync Server と Office Communications Server では、拡張されたメッセージング機能とプレゼンスプロトコル (XMPP) ゲートウェイが提供されており、これを個別のサーバーの役割として展開して、XMPP の展開とのフェデレーションを可能にすることができました。 Microsoft Lync Server 2013 では、XMPP 機能を機能として展開できます。 XMPP 機能は、Edge サーバー上で実行される XMPP プロキシと、フロントエンドサーバー上で実行される XMPP ゲートウェイの2つの部分でインストールされます。
+以前のバージョンの Lync Server および Office Communications Server では、XMPP 展開とのフェデレーションを可能にするために、個別のサーバーの役割として展開できる拡張メッセージングおよびプレゼンスプロトコル (XMPP) ゲートウェイが提供されていました。 Microsoft Lync Server 2013 では、XMPP 機能を機能として展開できます。 XMPP 機能は、2つの部分で構成されています。これは、エッジサーバーと、フロントエンドサーバー上で実行される XMPP ゲートウェイ上で実行される xmpp プロキシです。
 
-XMPP の展開と構成については、「 [Lync Server 2013 での外部ユーザーアクセスの展開](lync-server-2013-deploying-external-user-access.md)」で説明しています。ファイアウォールでポートおよびプロトコルルールを定義し、証明書を構成し、DNS レコードを追加することによって、組織での xmpp のサポートを計画します。 このセクションの次のトピックでは、展開用の XMPP フェデレーションを正常に計画するために必要な情報についてまとめます。
+XMPP の展開と構成については、「 [Lync Server 2013 での外部ユーザーアクセスの展開](lync-server-2013-deploying-external-user-access.md)」に記載されています。ファイアウォールでポートとプロトコルルールを定義し、証明書を構成し、DNS レコードを追加することによって、組織での xmpp のサポートを計画します。 このセクションの以下のトピックでは、展開に対して XMPP フェデレーションを正常に計画するために必要な情報をまとめています。
 
 <div>
 
@@ -53,13 +53,13 @@ XMPP の展開と構成については、「 [Lync Server 2013 での外部ユ�
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [証明書の概要-Lync Server 2013 での拡張可能なメッセージングとプレゼンスプロトコル (XMPP) フェデレーション](lync-server-2013-certificate-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md)
+  - [証明書の概要-Lync Server 2013 での拡張可能なメッセージングおよびプレゼンスプロトコル (XMPP) フェデレーション](lync-server-2013-certificate-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md)
 
-  - [ポート概要-Lync Server 2013 での拡張可能なメッセージングとプレゼンスプロトコル (XMPP) フェデレーション](lync-server-2013-port-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md)
+  - [Lync Server 2013 でのポートの概要-拡張可能なメッセージングおよびプレゼンスプロトコル (XMPP) フェデレーション](lync-server-2013-port-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md)
 
-  - [DNS の概要-Lync Server 2013 での拡張可能なメッセージングとプレゼンスプロトコル (XMPP) フェデレーション](lync-server-2013-dns-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md)
+  - [Lync Server 2013 での DNS の概要-拡張可能なメッセージングおよびプレゼンスプロトコル (XMPP) フェデレーション](lync-server-2013-dns-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md)
 
 </div>
 
@@ -68,14 +68,14 @@ XMPP の展開と構成については、「 [Lync Server 2013 での外部ユ�
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 XMPP フェデレーションのセットアップ](lync-server-2013-setting-up-xmpp-federation.md)  
-[Lync Server 2013 での XMPP フェデレーション ユーザー アクセスを制御するポリシーの構成](lync-server-2013-configure-policies-to-control-xmpp-federated-user-access.md)  
+[Lync Server 2013 での XMPP フェデレーションのセットアップ](lync-server-2013-setting-up-xmpp-federation.md)  
+[Lync Server 2013 での XMPP フェデレーションユーザーアクセスを制御するポリシーの構成](lync-server-2013-configure-policies-to-control-xmpp-federated-user-access.md)  
 
 
-[Lync Server 2013 での組織の XMPP フェデレーション パートナーの管理](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)  
-[Get-CsExternalAccessPolicy](https://technet.microsoft.com/en-us/library/Gg425805(v=OCS.15))  
-[Get-CsXmppAllowedPartner](https://technet.microsoft.com/en-us/library/JJ204981(v=OCS.15))  
-[Get-CsXmppGatewayConfiguration](https://technet.microsoft.com/en-us/library/JJ204869(v=OCS.15))  
+[Lync Server 2013 での XMPP フェデレーションパートナーの管理](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)  
+[Get-CsExternalAccessPolicy](https://technet.microsoft.com/library/Gg425805(v=OCS.15))  
+[Get-CsXmppAllowedPartner](https://technet.microsoft.com/library/JJ204981(v=OCS.15))  
+[-CsXmppGatewayConfiguration の取得](https://technet.microsoft.com/library/JJ204869(v=OCS.15))  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ワークフローを削除する'
+title: 'Lync Server 2013: ワークフローの削除'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183274
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4ed32780e23cce82027271e74a89fb87e194cc4a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 91326023357df0903ab506217c6abb53babcdf66
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742527"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036125"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41742527"
 
 <span> </span>
 
-_**最終更新日:** 2012-11-01_
+_**トピックの最終更新日:** 2012-11-01_
 
-ワークフローを削除するには、次のいずれかの手順を使用します。
+ワークフローを削除するには、以下に示す手順の 1 つを実行します。
 
 <div>
 
@@ -45,28 +45,28 @@ _**最終更新日:** 2012-11-01_
 
 1.  RTCUniversalServerAdmins グループのメンバーまたは応答グループをサポートする定義済みの管理者の役割のいずれかのメンバーとしてログオンします。
 
-2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
 3.  左側のナビゲーション バーで、[**応答グループ**] をクリックし、[**ワークフロー**] をクリックします。
 
 4.  [**ワークフロー**] ページで、[**ワークフローの作成または編集**] をクリックします。
 
-5.  **[サービスの選択**] の検索フィールドに、削除するワークフローをホストしている**ApplicationServer**サービスの名前の一部またはすべてを入力します。
+5.  [**サービスの選択**] 検索フィールドに、削除するワークフローをホストする **ApplicationServer** サービスの名前、または名前の一部を入力します。
 
-6.  サービスの一覧で、目的のサービスをクリックし、[ **OK]** をクリックします。
+6.  サービスの一覧で、対象のサービスをクリックして、**[OK]** をクリックします。
     
     <div>
     
 
     > [!NOTE]  
-    > 応答グループ構成ツールの web ページが開きます。 <STRONG>Https://&lt;webpoolfqdn&gt;/RgsConfig</STRONG>に接続して、Web ブラウザーから直接応答グループ構成ツールの web ページを開くこともできます。
+    > 応答グループ構成ツールの web ページが開きます。 <STRONG>Https://&lt;webpoolfqdn&gt;/RgsConfig</STRONG>に接続することによって、Web ブラウザーから応答グループ構成ツールの web ページを直接開くこともできます。
 
     
     </div>
 
-7.  [**既存のワークフローの管理**] で、削除するワークフローを見つけ、[**アクション**] の [**削除**] をクリックします。
+7.  [**既存ワークフローの管理**] で、削除するワークフローを見つけて、[**アクション**] の [**削除**] をクリックします。
 
-8.  [**はい]** をクリックします。
+8.  [**はい**] をクリックします。
 
 </div>
 
@@ -76,13 +76,13 @@ _**最終更新日:** 2012-11-01_
 
 1.  RTCUniversalServerAdmins グループのメンバーまたは応答グループをサポートする定義済みの管理者の役割のいずれかのメンバーとしてログオンします。
 
-2.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+2.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
 3.  コマンド ラインで、次のコマンドを実行します。
     
         Get-CsRgsWorkflow -Identity <Application Server service> -Name "<name of workflow>" | Remove-CsRgsWorkflow
     
-    例:
+    次に例を示します。
     
         Get-CsRgsWorkflow -Identity service:ApplicationServer:redmond.contoso.com -Name "Help Desk" | Remove-CsRgsWorkflow
 

@@ -1,5 +1,5 @@
 ---
-title: 'フェーズ 2: 移行の準備'
+title: 'フェーズ 2: 移行の準備をする'
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184944
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9303c1a1b394216dfaed4adf826edf665fbd0c2b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dc1007da4b793c837c937d572366ea64230050e8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757691"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034317"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-2-prepare-for-migration"></a>フェーズ 2: 移行の準備
+# <a name="phase-2-prepare-for-migration"></a>フェーズ 2: 移行の準備をする
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41757691"
 
 <span> </span>
 
-_**最終更新日:** 2012-08-24_
+_**トピックの最終更新日:** 2012-08-24_
 
 Office Communications Server 2007 R2 から Lync Server 2013 への移行を開始する前に、このセクションで説明する手順に従ってください。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
   - [Office Communications Server 2007 R2 の更新プログラムを適用する](apply-office-communications-server-2007-r2-updates.md)
 
-  - [パイロット プール展開の DNS レコードの構成](configure-dns-records-for-pilot-pool-deployment_1.md)
+  - [パイロットプール展開の DNS レコードを構成する](configure-dns-records-for-pilot-pool-deployment_1.md)
 
-  - [ベストプラクティスアナライザーを実行する](run-best-practices-analyzer_1.md)
+  - [ベスト プラクティス アナライザーの実行](run-best-practices-analyzer_1.md)
 
-  - [システムとデータのバックアップ](back-up-systems-and-data_1.md)
+  - [システムとデータをバックアップする](back-up-systems-and-data_1.md)
 
-  - [移行のためのクライアントの構成](configure-clients-for-migration_1.md)
+  - [移行用にクライアントを構成する](configure-clients-for-migration_1.md)
 
   - [Office Communications Server 2007 R2 環境の確認](verify-office-communications-server-2007-r2-environment.md)
 

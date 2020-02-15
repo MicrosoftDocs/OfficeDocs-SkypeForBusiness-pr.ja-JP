@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: E9 の展開チェックリスト-1-1'
+title: 'Lync Server 2013: E9-1-1 の展開チェックリスト'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185655
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5efe5c55386eb431c91e798ad960cc510ce33ce1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 330f1a31f9a91d69c9e2514d0744abc72806bf4f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763451"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007005"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-e9-1-1-in-lync-server-2013"></a>Lync Server 2013 の E9-1 の展開チェックリスト
+# <a name="deployment-checklist-for-e9-1-1-in-lync-server-2013"></a>Lync Server 2013 の E9-1-1 の展開チェックリスト
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41763451"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-03_
+_**トピックの最終更新日:** 2012-10-03_
 
-強化された 9-1-1 (E9) を効率的に計画するには、次の展開要件を必ず含めてください。
+Enhanced 9-1-1 (E9-1-1) について効果的な計画を行うには、以下の展開要件を含めるようにしてください。
 
-  - E9 を展開するための前提条件-1-1。
+  - E9-1-1 を展開する場合の前提条件。
 
-  - E9 の展開に必要な手順。-1-1。
+  - E9-1-1 を展開するために必要なステップ。
 
 <div>
 
 ## <a name="deployment-prerequisites-for-e9-1-1"></a>E9-1-1 の展開前提条件
 
-E9-1 を展開する前に、一元管理ストア、フロントエンドプール、Standard Edition サーバー、1つ以上の仲介サーバーまたは仲介サーバー、Lync Server クライアントなど、Lync Server の内部サーバーを既に展開している必要があります。 さらに、E9-1-1 の展開では、認定された E9-1-1 サービス プロバイダーへの SIP トランク、または公衆交換電話網 (PSTN) への緊急位置識別番号 (ELIN) ゲートウェイも必要とします。 Lync Server は、米国内でのみ E9 サービスプロバイダーを使用することをサポートしています。
+E9-1-1 を展開する前に、中央管理ストア、フロントエンドプールまたは Standard Edition サーバー、1つ以上の仲介サーバーまたは仲介サーバープール、および Lync Server クライアントを含む、Lync Server の内部サーバーを展開しておく必要があります。 E9-1-1 の展開はさらに、認定された緊急サービス サービス プロバイダーへの SIP トランク、または公衆交換電話網 (PSTN) への緊急位置識別番号 (ELIN) ゲートウェイも必要とします。 Lync Server は、E9-1-1 サービスプロバイダーを米国内でのみ使用することをサポートしています。
 
 </div>
 
@@ -55,7 +55,7 @@ E9-1 を展開する前に、一元管理ストア、フロントエンドプー
 
 ## <a name="deployment-process"></a>展開プロセス
 
-次の表に、E9-1-1 展開プロセスの概要を示します。 展開手順の詳細については、展開ドキュメントの「 [Lync Server 2013 で強化](lync-server-2013-configure-enhanced-9-1-1.md)された9-1-1 を構成する」を参照してください。
+次の表に、E9-1-1 展開プロセスの概要を示します。 展開手順の詳細については、「展開」のドキュメントの「 [Configure Enhanced 9-1-1 In Lync Server 2013](lync-server-2013-configure-enhanced-9-1-1.md) 」を参照してください。
 
 
 <table>
@@ -67,10 +67,10 @@ E9-1 を展開する前に、一元管理ストア、フロントエンドプー
 </colgroup>
 <thead>
 <tr class="header">
-<th>段階</th>
+<th>フェーズ</th>
 <th>手順</th>
-<th>役割</th>
-<th>「展開」のドキュメント</th>
+<th>ロール</th>
+<th>展開のドキュメント</th>
 </tr>
 </thead>
 <tbody>
@@ -78,12 +78,12 @@ E9-1 を展開する前に、一元管理ストア、フロントエンドプー
 <td><p>音声使用、ルート、およびトランクを構成する</p></td>
 <td><ol>
 <li><p>新しい PSTN 使用法レコードを作成します。これは、場所のポリシーの [<strong>PSTN の使用法</strong>] 設定で使用する名前と同じです。</p></li>
-<li><p>前のステップで作成した PSTN 使用法レコードに対するボイス ルートを作成するか割り当て、ゲートウェイ属性が E9-1-1 SIP トランクまたは ELIN ゲートウェイを指すようにします。 </p></li>
+<li><p>前のステップで作成した PSTN 使用法レコードに対するボイス ルートを作成するか割り当て、ゲートウェイ属性が E9-1-1 SIP トランクまたは ELIN ゲートウェイを指すようにします。</p></li>
 <li><p>SIP トランク E9-1-1 サービス プロバイダーの場合は、<strong>Set-CsTrunkConfiguration –EnablePIDFLOSupport</strong> コマンドレットを使用して、SIP 経由の E9-1-1 呼び出しを処理するトランクが PIDF-LO データを渡すように設定します。</p></li>
 <li><p>必要に応じて、SIP トランク E9-1-1 サービス プロバイダーの場合は、E9-1-1 サービス プロバイダーの SIP トランクによって処理されない呼び出しに対するローカル PSTN ルートを作成するか、割り当てます。このルートは、E9-1-1 サービス プロバイダーへの接続が利用できない場合に使用されます。E9-1-1 サービス プロバイダーがサポートしている場合は、911 ダイヤル文字列を国または地域の Emergency Call Response Center (ECRC) の Direct Inward Dialing (DID) 番号に変換するトランク構成ルールをゲートウェイに割り当てます。</p></li>
 </ol></td>
 <td><p>CSVoiceAdmin</p></td>
-<td><p><a href="lync-server-2013-configure-an-e9-1-1-voice-route.md">Lync Server 2013 での E9 音声ルートの構成</a></p></td>
+<td><p><a href="lync-server-2013-configure-an-e9-1-1-voice-route.md">Lync Server 2013 での E9-1-1 ボイスルートの構成</a></p></td>
 </tr>
 <tr class="even">
 <td><p>場所のポリシーを作成し、ユーザーおよびサブネットに割り当てる</p></td>
@@ -96,9 +96,9 @@ E9-1 を展開する前に、一元管理ストア、フロントエンドプー
 </ol></td>
 <td><p>CSVoiceAdmin</p>
 <p>CSLocationAdmin (場所のポリシーの作成を除く)</p></td>
-<td><p><a href="lync-server-2013-create-location-policies.md">Lync Server 2013 で位置情報のポリシーを作成する</a></p>
-<p><a href="lync-server-2013-add-a-location-policy-to-a-network-site.md">Lync Server 2013 でネットワークサイトに位置情報ポリシーを追加する</a></p>
-<p><a href="lync-server-2013-associate-subnets-with-network-sites-for-e9-1-1.md">Lync Server 2013 での E9-1 のネットワークサイトへのサブネットの関連付け</a></p></td>
+<td><p><a href="lync-server-2013-create-location-policies.md">Lync Server 2013 での場所のポリシーの作成</a></p>
+<p><a href="lync-server-2013-add-a-location-policy-to-a-network-site.md">Lync Server 2013 でのネットワークサイトへの場所ポリシーの追加</a></p>
+<p><a href="lync-server-2013-associate-subnets-with-network-sites-for-e9-1-1.md">Lync Server 2013 での E9-1-1 のネットワークサイトへのサブネットの関連付け</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>場所データベースを構成する</p></td>
@@ -106,23 +106,23 @@ E9-1 を展開する前に、一元管理ストア、フロントエンドプー
 <li><p>ネットワーク要素と場所のマッピングをデータベースに設定します。</p></li>
 <li><p>ELIN ゲートウェイの場合は、[ &lt;CompanyName&gt; ] 列に elins を追加します。</p></li>
 <li><p>アドレスを確認するために、E9-1-1 サービス プロバイダーへの接続を構成します。</p></li>
-<li><p>E9-1-1 サービス プロバイダーでアドレスを確認します。</p></li>
+<li><p>E9-1-1  サービス プロバイダーでアドレスを確認します。</p></li>
 <li><p>更新したデータベースを公開します。</p></li>
 <li><p>ELIN ゲートウェイの場合は、ELIN を PSTN 通信業者の自動ロケーション識別 (ALI) データベースにアップロードします。</p></li>
 </ol></td>
 <td><p>CSVoiceAdmin</p>
 <p>CSLocationAdmin</p></td>
-<td><p><a href="lync-server-2013-configure-the-location-database.md">Configure the location database in Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-configure-the-location-database.md">Lync Server 2013 で場所データベースを構成する</a></p></td>
 </tr>
 <tr class="even">
 <td><p>高度な機能を構成する (オプション)</p></td>
 <td><ol>
 <li><p>SNMP アプリケーションの URL を構成します。</p></li>
-<li><p>セカンダリの場所情報サービスの場所の URL を構成します。</p></li>
+<li><p>セカンダリ場所情報サービスの場所の URL を構成します。</p></li>
 </ol></td>
 <td><p>CSVoiceAdmin</p></td>
-<td><p><a href="lync-server-2013-configure-an-snmp-application.md">Lync Server 2013 での SNMP アプリケーションの構成</a></p>
-<p><a href="lync-server-2013-configure-a-secondary-location-information-service.md">Lync Server 2013 でセカンダリ場所情報サービスを構成する</a></p></td>
+<td><p><a href="lync-server-2013-configure-an-snmp-application.md">Lync Server 2013 で SNMP アプリケーションを構成する</a></p>
+<p><a href="lync-server-2013-configure-a-secondary-location-information-service.md">Lync Server 2013 のセカンダリ場所情報サービスを構成する</a></p></td>
 </tr>
 </tbody>
 </table>

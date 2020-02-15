@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 既存のクライアントバージョンポリシーを削除する'
+title: 'Lync Server 2013: 既存のクライアントバージョンポリシーの削除'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 50675349
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 99936b495075034e6eae3f90e6dd95325bf6e2be
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8e18cf2aa76ada1d3ab42d16f68d902ad3a41eae
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736407"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007085"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,33 +37,33 @@ ms.locfileid: "41736407"
 
 _**トピックの最終更新日:** 2013-02-23_
 
-以前に構成されたクライアントのバージョンポリシーを削除する場合は、Lync Server 2013 コントロールパネルまたは Lync Server 2013 Management Shell から削除できます。
+以前に構成されたクライアントバージョンポリシーを削除する場合は、Lync Server 2013 コントロールパネルまたは Lync Server 2013 管理シェルから削除することができます。
 
 <div>
 
-## <a name="to-delete-client-version-policies-by-using-lync-server-control-panel"></a>Lync Server コントロールパネルを使用してクライアントのバージョンポリシーを削除するには
+## <a name="to-delete-client-version-policies-by-using-lync-server-control-panel"></a>Lync Server コントロールパネルを使用してクライアントバージョンポリシーを削除するには
 
 1.  CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザーウィンドウを開き、管理 URL を入力して Lync Server コントロールパネルを開きます。 Lync Server コントロールパネルを起動するために使用できるさまざまな方法について詳しくは、「 [Lync server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」をご覧ください。
+2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
-3.  左側のナビゲーションバーで、[**クライアント**] をクリックし、[**クライアントバージョンポリシー** ] ナビゲーションボタンをクリックします。
+3.  左側のナビゲーションバーで [**クライアント**] をクリックし、[**クライアントバージョンポリシー** ] ナビゲーションボタンをクリックします。
 
-4.  [**クライアントのバージョンポリシー** ] ページで、削除するクライアントのバージョンポリシーまたはポリシーを選択し、[**編集**] をクリックして、[**削除**] をクリックします。
+4.  [**クライアントバージョンポリシー** ] ページで、削除するクライアントバージョンポリシーまたはポリシーを選択し、[**編集**] をクリックして、[**削除**] をクリックします。
 
 </div>
 
 <div>
 
-## <a name="deleting-client-version-policies-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用してクライアントのバージョンポリシーを削除する
+## <a name="deleting-client-version-policies-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用してクライアントバージョンポリシーを削除する
 
-クライアントのバージョンポリシーは、ユーザーの**削除**と削除を行うことができます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
+クライアントバージョンポリシーを削除するには、 **-CsClientVersionPolicy**コマンドレットを使用します。 このコマンドレットは、Lync Server 2013 管理シェルから実行するか、Windows PowerShell のリモートセッションから実行できます。 リモート Windows PowerShell を使用して Lync Server に接続する方法の詳細については、Lync Server Windows PowerShell のブログ記事「Quick Start: Microsoft Lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)を使用したリモート PowerShell の管理」を参照してください。
 
 <div>
 
 ## <a name="to-remove-a-specific-client-version-policy"></a>特定のクライアントバージョンポリシーを削除するには
 
-  - このコマンドは、Redmond サイトに適用されているクライアントのバージョンポリシーを削除します。
+  - このコマンドは、Redmond サイトに適用されているクライアントバージョンポリシーを削除します。
     
         Remove-CsClientVersionPolicy -Identity site:Redmond
 
@@ -71,9 +71,9 @@ _**トピックの最終更新日:** 2013-02-23_
 
 <div>
 
-## <a name="to-remove-all-the-client-version-policies-applied-to-the-site-scope"></a>サイトのスコープに適用されているすべてのクライアントバージョンポリシーを削除するには
+## <a name="to-remove-all-the-client-version-policies-applied-to-the-site-scope"></a>サイトスコープに適用されているすべてのクライアントバージョンポリシーを削除するには
 
-  - このコマンドは、サイト範囲で構成されているすべてのクライアントバージョンポリシーを削除します。
+  - このコマンドは、サイトスコープで構成されているすべてのクライアントバージョンポリシーを削除します。
     
         Get-CsClientVersionPolicy -Fiter "site:*" | Remove-CsClientVersionPolicy
 
@@ -81,15 +81,15 @@ _**トピックの最終更新日:** 2013-02-23_
 
 <div>
 
-## <a name="to-remove-client-version-policies-that-do-not-include-a-specific-user-agent"></a>特定のユーザーエージェントが含まれていないクライアントのバージョンポリシーを削除するには
+## <a name="to-remove-client-version-policies-that-do-not-include-a-specific-user-agent"></a>特定のユーザーエージェントを含まないクライアントバージョンポリシーを削除するには
 
-  - このコマンドを実行すると、Windows Phone Lync (WPLync) ユーザーエージェントのルールが含まれていないクライアントのバージョンポリシーがすべて削除されます。
+  - このコマンドは、Windows Phone Lync (WPLync) ユーザーエージェントのルールが含まれていないクライアントバージョンポリシーを削除します。
     
         Get-CsClientVersionPolicy | Where-Object {$_.Rules -notmatch "UserAgent=WPLync" | Remove-CsClientVersionPolicy
 
 </div>
 
-詳細については、「 [CsClientVersionPolicy の削除](https://docs.microsoft.com/powershell/module/skype/Remove-CsClientVersionPolicy)」コマンドレットのヘルプトピックを参照してください。
+詳細については、「 [Remove-CsClientVersionPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsClientVersionPolicy) 」コマンドレットのヘルプトピックを参照してください。
 
 </div>
 

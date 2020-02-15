@@ -12,16 +12,16 @@ ms:contentKeyID: 49733664
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0e49aa2fdef3731a34de05e04b8195cb8aa32cd7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 79183039cedc058d479d52fa80ce09a70ffd73b3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730847"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036305"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41730847"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-26_
+_**トピックの最終更新日:** 2012-09-26_
 
-**Ocsumutil**ツールまたは**Get-csexumcontact**コマンドレットを使用して、Exchange UM 連絡先オブジェクトが従来の Office Communications Server 2007 R2 プールから削除されていることを確認します。 **Ocsumutil**は、次のフォルダーにあります。
+**Ocsumutil**ツールまたは**Get-csexumcontact**コマンドレットを使用して、Exchange UM 連絡先オブジェクトが従来の Office Communications Server 2007 R2 プールから削除されていることを確認します。 **OCSUmUtil** は次のフォルダーにあります。
 
-% Program Files%\\Common Files\\Lync Server 2013\\は\\ocsumutil をサポートしています
+% Program Files%\\Common Files\\Lync Server 2013\\サポート\\ocsumutil
 
-**Ocsumutil**は、次のユーザーアカウントから実行されている必要があります。
+**OCSUmUtil** は、次の条件を満たすユーザー アカウントから実行する必要があります。
 
-  - RTCUniversalServerAdmins と RTCUniversalUserAdmins グループのメンバーシップ (Exchange Server ユニファイドメッセージングの設定を読むための権限が含まれています)
+  - RTCUniversalServerAdmins および RTCUniversalUserAdmins グループ (Exchange Server ユニファイド メッセージングの設定を読み取る権利が割り当てられている) に属している
 
-  - 指定された組織単位 (OU) コンテナーで連絡先オブジェクトを作成するためのドメイン権限
+  - 指定された組織単位 (OU) コンテナーに連絡先オブジェクトを作成するドメイン権限
 
-**Csexumcontact**コマンドレットの使い方の詳細については、「Lync Server 管理シェルのドキュメントの[入手](https://docs.microsoft.com/powershell/module/skype/Get-CsExUmContact)」を参照してください。
+**Get-help**コマンドレットの使用の詳細については、「Lync Server Management Shell」のドキュメントの「[取得-csexumcontact](https://docs.microsoft.com/powershell/module/skype/Get-CsExUmContact) 」を参照してください。
 
 </div>
 

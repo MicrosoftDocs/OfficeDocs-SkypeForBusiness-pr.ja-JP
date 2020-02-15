@@ -12,16 +12,16 @@ ms:contentKeyID: 48184463
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1ae7633d638571410c93cfefe87d9e333731a4bb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f2f4897df817c4392779169c535199579ac04d9e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727587"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034653"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41727587"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-04_
+_**トピックの最終更新日:** 2012-10-04_
 
-プールを解除する前に、Office Communications Server 2007 R2 プールの各会議ディレクトリに対して、次の手順を実行する必要があります。
+プールを使用停止にする前に、Office Communications Server 2007 R2 プール内の会議ディレクトリごとに次の手順を実行する必要があります。
 
 <div>
 
@@ -45,21 +45,21 @@ _**最終更新日:** 2012-10-04_
 
 1.  Lync Server 管理シェルを開きます。
 
-2.  組織内の会議ディレクトリの id を取得するには、次のコマンドを実行します。
+2.  組織の会議ディレクトリの ID を取得するには、次のコマンドを実行します。
     
         Get-CsConferenceDirectory
     
-    このコマンドレットでは、組織内のすべての会議ディレクトリが返されるため、使用停止するプールのみに結果を制限することができます。 たとえば、完全修飾ドメイン名 (FQDN) pool01.contoso.net を使ってプールを撤去する場合は、次のようにします。
+    このコマンドレットでは、組織のすべての会議ディレクトリが返されるので、使用停止にするプールのみに結果を絞り込んだ方がよい場合があります。たとえば、pool01.contoso.net という完全修飾ドメイン名 (FQDN) のプールを使用停止にする場合は、次のコマンドを実行します。
     
         Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"}
     
-    このコマンドレットは、サービス ID に FQDN pool01.contoso.net が含まれているすべての会議ディレクトリを返します。
+    このコマンドレットでは、サービス ID に pool01.contoso.net という FQDN が含まれるすべての会議ディレクトリが返されます。
 
-3.  会議ディレクトリを移動するには、プール内の各会議ディレクトリに対して次の操作を実行します。
+3.  会議ディレクトリを移動するには、プール内の会議ディレクトリごとに次のコマンドを実行します。
     
         Move-CsConferenceDirectory -Identity <Numeric identity of conference directory> -TargetPool <FQDN of pool where ownership is to be transitioned>
     
-    次に例を示します。
+    例:
     
         Move-CsConferenceDirectory -Identity 3 -TargetPool pool02.contoso.net
 
@@ -67,13 +67,13 @@ _**最終更新日:** 2012-10-04_
 
 
 > [!NOTE]  
-> 次のようなエラーが表示されることがあります。これは、Lync Server 管理シェルで、Active Directory に対するアクセス許可の更新されたセットが必要であることが原因で発生する可能性があります。 エラーを解決するには、現在のウィンドウを閉じて、新しい Lync Server 管理シェルを開き、コマンドをもう一度実行します。
+> 以下に示すようなエラーが発生することがあります。これは、Lync Server 管理シェルによって、Active Directory からの更新されたアクセス許可のセットが必要になることによって発生します。 エラーを解決するには、現在のウィンドウを閉じて、新しい Lync Server 管理シェルを開き、コマンドを再度実行します。
 
 
 
 </div>
 
-![CsConferenceDirectory の移動エラーの出力](images/JJ204994.4748b9e8-9651-4527-afe1-cbdc6d5ce4a8(OCS.15).jpg "CsConferenceDirectory の移動エラーの出力")
+![Get-csconferencedirectory のエラー出力](images/JJ204994.4748b9e8-9651-4527-afe1-cbdc6d5ce4a8(OCS.15).jpg "Get-csconferencedirectory のエラー出力")
 
 </div>
 

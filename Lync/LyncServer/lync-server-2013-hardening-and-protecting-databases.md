@@ -12,20 +12,20 @@ ms:contentKeyID: 62625490
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 77e02a5fd0f90367f23e7b0fb314f037f7b31e45
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6e1ef045253f6733ea3356baa6254a6c90926762
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739587"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006213"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="hardening-and-protecting-the-databases-of-lync-server-2013"></a>Lync Server 2013 のデータベースのセキュリティ強化および保護
+# <a name="hardening-and-protecting-the-databases-of-lync-server-2013"></a>Lync Server 2013 のデータベースの強化と保護
 
 </div>
 
@@ -35,58 +35,58 @@ ms.locfileid: "41739587"
 
 <span> </span>
 
-_**最終更新日:** 2013-12-05_
+_**トピックの最終更新日:** 2013-12-05_
 
-Microsoft Lync Server 2013 は、ユーザー情報、会議の状態、アーカイブデータ、および通話詳細レコード (CDRs) を保存するための SQL Server データベースにも依存しています。 Lync server 2013 データを Lync Server のバックエンドデータベースで最大限に活用するには、フォールトトレランスを向上させてトラブルシューティングを簡素化する方法でアプリケーションデータを区分することができます。 これらの目標を達成するには、次の方法でアプリケーションデータをパーティションに分割します。
+また、Microsoft Lync Server 2013 は、ユーザー情報、会議の状態、アーカイブデータ、および通話詳細レコード (Cdr) を格納するための SQL Server データベースに依存しています。 Lync Server のバックエンドデータベースで Lync Server 2013 データを最大限に利用できるようにするには、フォールトトレランスを向上させてトラブルシューティングを簡略化する方法でアプリケーションデータをパーティション分割します。 アプリケーション データを分割する方法は、次のとおりです。
 
-  - **サーバーのパーティション分割のベストプラクティス**   は、オペレーティングシステムファイル、アプリケーションファイル、プログラムファイルをデータファイルから分離することです。
+  - **サーバーのパーティション分割のベストプラクティス**   は、オペレーティングシステム、アプリケーション、およびプログラムファイルをデータファイルと分離します。
 
-  - **トランザクションログファイルとデータベースファイル**   を保存する場合は、これらのファイルを別々に保存して、フォールトトレランスを強化し、回復を最適化して、暗号化されたディスクまたはボリュームに保存します。
+  - **トランザクションログファイルとデータベースファイル**   は、これらのファイルを別々に格納して、フォールトトレランスの向上と回復の最適化を行い、暗号化されたディスクまたはボリュームに保存します。
 
-  - **サーバークラスタリング**   の使用バックエンドサーバーを使用して、Lync server 2013 システムの可用性を最適化します。
+  - **サーバークラスタリングを使用して**   、バックエンドサーバーをクラスター化し、Lync server 2013 のシステム可用性を最適化します。
 
-  - **すべてのデータバックアップを暗号化して適切に処理**   されないようにして、紛失、廃棄、または紛失したバックアップメディアを使用して、Lync Server 2013 の展開のデータセキュリティに大きな脅威が生じる可能性があることを確認します。
+  - **すべてのデータバックアップが暗号化され、適切に処理**   されていることを確認するバックアップメディアが紛失、破棄、または紛失した場合、Lync Server 2013 の展開のデータセキュリティに重大な脅威をもたらす可能性がある
 
-Standard Edition server 以外の Lync Server 2013 サーバーでは、SQL Server Express インスタンス (RTCLOCAL インスタンス) にリモートからアクセスすることはできません。また、Standard Edition サーバー上の SQL Server Express を除き、ローカルのファイアウォール例外は作成されません。 Standard Edition サーバーでは、バックエンドデータベースと中央管理ストア (CMS) の両方が、リモートでアクセスできるように設定されています。 SQL Server データベースを強化するには、次の操作を行います。
+Standard Edition サーバー以外の Lync Server 2013 サーバーでは、SQL Server Express インスタンス (RTCLOCAL インスタンス) はリモートでアクセスできず、ローカルファイアウォールの例外は作成されません。ただし、Standard Edition サーバー上の SQL Server Express を除きます。 Standard Edition サーバーでは、バックエンドデータベースと中央管理ストア (CMS) の両方がリモートでアクセスできるように設定されています。 SQL Server データベースを強化するには、次の操作を行います。
 
-  - Standard Edition サーバーの SQL Server Express ファイアウォールをカスタマイズして、データベースにリモートアクセスできるサーバーの範囲を制限します。 既定では、すべての IP アドレスでデータベースにリモートアクセスできます。
+  - Standard Edition サーバー上の SQL Server Express ファイアウォールをカスタマイズして、データベースにリモートからアクセスできるサーバーのスコープを制限します。既定では、すべての IP アドレスがデータベースにリモートからアクセスできます。
 
-  - Sql server 構成マネージャーを使用して、SQL Server リモートアクセスのプロトコル、IP アドレス、ポートを指定します。
+  - SQL Server 構成マネージャーを使用して、SQL Server リモート アクセス用のプロトコル、IP アドレス、およびポートを指定します。
     
-      - Lync Server 2013 は、TCP/IP プロトコルを使います。 IP バージョン 4 (IPv4) をサポートしますが、IP バージョン 6 (IPv6) ではサポートされません。
+      - Lync Server 2013 は TCP/IP プロトコルを使用します。 IP version 4 (IPv4) をサポートし、IP version 6 (IPv6) はサポートしません。
         
         <div>
         
 
         > [!NOTE]  
-        > Lync Server 2013 は、デュアル IP スタックが有効になっているネットワークで機能することができます。
+        > Lync Server 2013 は、デュアル IP スタックが有効になっているネットワークで機能します。
 
         
         </div>
     
-      - Lync Server 2013 は複数の IP アドレス (マルチホームネットワークのアドレスカード) をサポートしています。 SQL Server が特定の IP アドレス (個別のアドレスまたはサブネット) のみをリッスンするように指定し、特定のプロトコルのみを使用するように指定することができます。
+      - Lync Server 2013 では、複数の IP アドレス (マルチホームネットワークアドレスカード) をサポートしています。 SQL Server が特定の IP アドレス (個別のアドレスまたはサブネット単位) のみをリッスンすることや、特定のプロトコルのみを使用することを指定できます。
     
-      - Lync Server 2013 は、静的および動的な SQL Server のポートをサポートしています。
+      - Lync Server 2013 は、静的および動的な SQL Server ポートをサポートしています。
 
-  - 静的な (既定以外の) ポートで SQL Server を実行します。 SQL Server Browser は実行しないでください (クライアントにリスニングポートを報告することはできません)。 これには、フロントエンドサーバー、監視サーバー、アーカイブサーバー、管理コンソール (Lync Server 管理シェル、Lync Server コントロールパネル、またはトポロジビルダーを実行する)、およびその他の各 SQL Server クライアントでカスタム構成が必要です。Lync Server データベースを実行しているサーバー)。
+  - 既定でない静的ポートで SQL Server を実行し、SQL Server ブラウザーを実行しません (この結果、クライアントにリッスン ポートをレポートできません)。 これには、フロントエンドサーバー、監視サーバー、アーカイブサーバー、および管理コンソール (Lync Server 管理シェル、Lync Server コントロールパネル、またはトポロジビルダーを実行している) を含む、各 SQL Server クライアントのカスタム構成が必要です。Lync Server データベースを実行しているサーバー)。
 
 <div>
 
 
 > [!NOTE]  
-> データベースへのアクセスは、信頼できるデータベース管理者に制限されている必要があります。 データベース管理者が直接アクセス許可を付与されていない場合でも、悪意のあるデータベース管理者はデータベースにデータを挿入または変更して、Lync Server 2013 サーバー経由で権限を取得するか、またはサービスから機密情報を取得することができます。Lync Server 2013 サーバーの制御。
+> データベースへのアクセスは、信頼できるデータベース管理者に制限する必要があります。 悪意のあるデータベース管理者は、データベース管理者が直接アクセス権を与えられていない場合でも、データベースにデータを挿入または変更したり、サービスから機密情報を取得2013したりすることができます。Lync Server 2013 サーバーの制御。
 
 
 
 </div>
 
-カスタム構成と SQL Server データベースの強化の詳細については、「NextHop ブログの記事「カスタム SQL Server ネットワーク構成での Lync Server 2010 の[http://go.microsoft.com/fwlink/p/?LinkId=214008](http://go.microsoft.com/fwlink/p/?linkid=214008)使用」を参照してください。
+カスタム構成の詳細と SQL Server データベースのセキュリティ強化については、NextHop の記事「カスタム SQL Server ネットワーク構成での Lync Server 2010 の使用[http://go.microsoft.com/fwlink/p/?LinkId=214008](http://go.microsoft.com/fwlink/p/?linkid=214008)」、「」を参照してください。
 
 <div>
 
 
 > [!NOTE]  
-> オペレーティングシステムやアプリケーションサーバーを強化することもできます。また、グループポリシーを使用して、Lync Server の展開にセキュリティ lockdowns を実装することもできます。 詳細については、「 <A href="lync-server-2013-hardening-and-protecting-servers-and-applications.md">Lync Server 2013 用のサーバーとアプリケーションの強化と保護</A>」を参照してください。
+> また、オペレーティングシステムとアプリケーションサーバーを強化することもできます。また、グループポリシーを使用して、Lync Server 展開のセキュリティロックダウンを実装することもできます。 詳細については、「 <A href="lync-server-2013-hardening-and-protecting-servers-and-applications.md">Lync Server 2013 のサーバーとアプリケーションのセキュリティ強化と保護</A>」を参照してください。
 
 
 

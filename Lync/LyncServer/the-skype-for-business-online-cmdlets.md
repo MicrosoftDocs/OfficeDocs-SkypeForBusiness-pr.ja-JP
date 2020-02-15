@@ -1,5 +1,5 @@
 ---
-title: Lync Online のコマンドレット
+title: Skype for Business Online のコマンドレット
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 56558831
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5c0d56a85fda6cb4f46991700b6fa428acb1c823
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e1ddc16cf293401ae8b6dffb199f950bebcbb8fa
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738744"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035593"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="the-skype-for-business-online-cmdlets"></a>Lync Online のコマンドレット
+# <a name="the-skype-for-business-online-cmdlets"></a>Skype for Business Online のコマンドレット
 
 </div>
 
@@ -35,32 +35,32 @@ ms.locfileid: "41738744"
 
 <span> </span>
 
-_**最終更新日:** 2013-07-05_
+_**トピックの最終更新日:** 2013-07-05_
 
-Windows PowerShell を使用して Skype for Business Online に接続すると、Skype for Business Online のコマンドレットのコレクションが、メモリ内でコンピューターにコピーされます。 これらのコマンドレットは、ローカルコンピューターで既に使用している他のコマンドレット (Windows PowerShell をインストールしたときにインストールされているコアコマンドレットを含む) に加えて、Skype for Business Online の展開と Skype for business Online を管理するために使用できます。Business Online のユーザーアカウント。 Skype for Business Online のコマンドレットは、次のトピックで導入されています。
+Windows PowerShell を使用して Skype for business Online に接続すると、Skype for Business Online コマンドレットのコレクションがメモリ内のコンピューターにコピーされます。 これらのコマンドレットは、ローカルコンピューターに既にあるその他のコマンドレット (Windows PowerShell のインストール時にインストールされたコアコマンドレットを含む) に加えて、Skype for Business Online の展開と Skype for business Online の展開を管理するために利用できます。Business Online のユーザーアカウント。 Skype for Business Online のコマンドレットについては、以下のトピックで説明します。
 
-  - [Lync Online テナントの管理](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/manage-skype-for-business-online-organizations)
+  - [Skype for Business Online テナントの管理](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/manage-skype-for-business-online-organizations)
 
-  - [Skype for Business Online のユーザーとユーザーアカウントのプロパティを管理する](https://docs.microsoft.com/skypeforbusiness/manage/user-accounts/user-accounts)
+  - [Skype for Business Online でユーザーとユーザーアカウントのプロパティを管理する](https://docs.microsoft.com/skypeforbusiness/manage/user-accounts/user-accounts)
 
   - [Skype for Business Online のポリシーを管理する](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-policies-with-office-365-powershell)
 
-  - [Skype for business クライアントを Skype for Business Online から管理する](https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/deploy-the-skype-for-business-client-in-office-365)
+  - [Skype for business クライアントを Skype for business Online から管理する](https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/deploy-the-skype-for-business-client-in-office-365)
 
   - [Skype for Business Online での Exchange ユニファイドメッセージングとホスト型ボイスメールの管理](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/manage-exchange-unified-messaging-and-hosted-voicemail)
 
-  - [Skype for Business Online で外部ユーザーと組織との通信を管理する](https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users)
+  - [外部ユーザーおよび組織との Skype for Business Online での通信の管理](https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users)
 
-  - [Lync Online のミーティングと会議の管理](https://docs.microsoft.com/skypeforbusiness/manage/conferencing/conferencing-policies)
+  - [Skype for Business Online の会議と会議の管理](https://docs.microsoft.com/skypeforbusiness/manage/conferencing/conferencing-policies)
 
-  - [Skype for Business Online の携帯電話とモバイルデバイスの管理](https://docs.microsoft.com/skypeforbusiness/set-up-policies-in-your-organization/set-up-mobile-policies-for-your-organization)
+  - [Skype for Business Online での携帯電話とモバイルデバイスの管理](https://docs.microsoft.com/skypeforbusiness/set-up-policies-in-your-organization/set-up-mobile-policies-for-your-organization)
 
 <div>
 
 ## <a name="see-also"></a>関連項目
 
 
-[クイック リファレンス: Windows PowerShell を使用した一般的な Lync Online の管理タスクの実行](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)  
+[クイックリファレンス: Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)  
   
 
 </div>

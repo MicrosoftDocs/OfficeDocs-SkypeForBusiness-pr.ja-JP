@@ -12,16 +12,16 @@ ms:contentKeyID: 48184912
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6af1d9bd6fdb02b31f81d70199cb71c960296013
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2487ba6bdc587bddc0d8dd2a4d877e00d671ac19
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731617"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034107"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41731617"
 
 <span> </span>
 
-_**最終更新日:** 2012-06-20_
+_**トピックの最終更新日:** 2012-06-20_
 
-このセクションでは、Lync Server 2013 および関連するすべてのコンポーネントを展開するためのシステム要件について説明します。
+ここでは、Lync Server 2013 と関連するすべてのコンポーネントを展開するためのシステム要件について説明します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
   - [Lync Server 2013 のセットアップと管理に必要な管理者権限およびアクセス許可](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md)
 
-  - [Lync Server 2013 を実行するサーバーのシステム要件](lync-server-2013-system-requirements-for-servers-running-lync-server-2013.md)
+  - [Lync Server 2013 を実行しているサーバーのシステム要件](lync-server-2013-system-requirements-for-servers-running-lync-server-2013.md)
 
   - [Lync Server 2013 の SQL Server のシステム要件](lync-server-2013-system-requirements-for-sql-server.md)
 

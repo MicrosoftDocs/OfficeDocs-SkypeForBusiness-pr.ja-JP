@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: サポートされる仮想化テクノロジと既知の制限'
+title: 'Lync Server 2013: サポートされている仮想化テクノロジと既知の制限'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184428
 ms.date: 02/07/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cf513e9dee4e6a27708c8882519099c825f903f2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 387290f8fb7ab88dcb7bc987c38c4a2e3e71ec5e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731647"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006799"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="supported-virtualization-technologies-and-known-limitations-in-lync-server-2013"></a>Lync Server 2013 でサポートされる仮想化テクノロジと既知の制限
+# <a name="supported-virtualization-technologies-and-known-limitations-in-lync-server-2013"></a>Lync Server 2013 でサポートされている仮想化テクノロジと既知の制限
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41731647"
 
 <span> </span>
 
-_**最終更新日:** 2017-02-06_
+_**トピックの最終更新日:** 2017-02-06_
 
-Lync VDI プラグインを使うと、サポートされている仮想化テクノロジで音声とビデオ通話を行うことができます。 これにより、microsoft Lync 2010 ホワイトペーパーの[クライアント仮想化](https://go.microsoft.com/fwlink/?linkid=330447)での Microsoft lync Server 2010 について説明されている機能が拡張されます。 標準的な電話の規制に準拠するため、E911 のサポートも含まれています。 以下のセクションでは、Lync VDI プラグインでサポートされている仮想化テクノロジと既知の機能の制限について説明します。
+Lync VDI プラグインは、サポートされている仮想化テクノロジに対して音声およびビデオ通話を許可します。 これにより、microsoft Lync 2010 ホワイトペーパーの「Microsoft Lync Server 2010」に記載されている[クライアント仮想化](https://go.microsoft.com/fwlink/?linkid=330447)の機能が拡張されます。 標準電話の規制に準拠するには、E911 のサポートも含まれています。 次のセクションでは、Lync VDI プラグインによってサポートされる仮想化テクノロジと既知の機能制限について説明します。
 
 <div>
 
-## <a name="support-for-virtualization-technologies"></a>サポートされている仮想化テクノロジ
+## <a name="support-for-virtualization-technologies"></a>仮想化テクノロジのサポート
 
-Lync VDI プラグインは、個人用仮想デスクトップシナリオでは完全なデスクトップリモート処理をサポートしていますが、リモートデスクトップセッションのシナリオではサポートしていません。 これらのシナリオは、次のように記述できます。
+Lync VDI プラグインは、個人用仮想デスクトップシナリオでは完全なデスクトップリモート処理をサポートしますが、リモートデスクトップセッションシナリオではサポートしていません。 これらのシナリオは、次のように記述できます。
 
-  - **サポート: カスタマイズされた仮想デスクトップまたは仮想デスクトップインフラストラクチャ (VDI)。**   このシナリオでは、各ユーザーがカスタマイズ可能な仮想デスクトップにログオンし、セッション間で保持されるファイルをデスクトップに保存することができます。 Microsoft リモートデスクトップサービス、VMware ホライズンビュー、Citrix XenDesktop は、Lync での使用がテストされている実装です。 Microsoft によってテストされたベンダー固有の VDI 環境とクライアントハードウェアの詳細については、「 [Microsoft Lync のインフラストラクチャ認定](https://go.microsoft.com/fwlink/?linkid=313435)」を参照してください。
+  - **サポート: カスタマイズされた仮想デスクトップまたは仮想デスクトップインフラストラクチャ (VDI)。**   このシナリオでは、ユーザーごとにカスタマイズ可能な仮想デスクトップにログオンし、セッション間で保持されるファイルをデスクトップに保存することができます。 Microsoft リモートデスクトップサービス、VMware ホライズン表示、および Citrix XenDesktop は、Lync での使用がテストされている実装です。 Microsoft によってテストされたベンダー固有の VDI 環境およびクライアントハードウェアの詳細については、「 [Microsoft Lync 用のインフラストラクチャ認定](https://go.microsoft.com/fwlink/?linkid=313435)」を参照してください。
 
-  - **サポートされていません: リモートデスクトップセッション。**   このシナリオでは、各ユーザーが、カスタマイズできない汎用の仮想デスクトップセッションにログオンします。 このような実装の例には、マイクロソフト リモート デスクトップ セッション (RDSH) や Citrix XenApp と Citrix Receiver の組み合わせがあります。
+  - **サポート対象外: リモートデスクトップセッション。**   このシナリオでは、ユーザーごとに、カスタマイズできない汎用の仮想デスクトップセッションにログオンします。 実装の例には、Microsoft リモートデスクトップセッション (RDSH) と citrix XenApp を Citrix レシーバーと組み合わせたものが含まれています。
 
-Lync VDI プラグインは、アプリケーションの仮想化などの他の仮想化テクノロジをサポートしていません。これにより、完全なアプリケーションをローカルでインストールする必要なく、アプリケーションを使用できるようになります。 実装の例には、Citrix XenApp と Microsoft Application Virtualization (App-v) が含まれます。 アプリケーションのストリーミング、アプリケーションのリモート処理、および混合型の仮想化モード (たとえば、完全なデスクトップリモート処理におけるアプリケーションのリモート処理) はサポートされていません。
+Lync VDI プラグインは、アプリケーションの仮想化などの他の仮想化テクノロジをサポートしていません。これにより、完全なアプリケーションをローカルにインストールすることなく、アプリケーションを使用できるようになります。 実装の例としては、Citrix XenApp と Microsoft Application Virtualization (App-v) があります。 アプリケーションのストリーミング、アプリケーションのリモート処理、および混合仮想化モード (たとえば、完全なデスクトップリモート処理でのアプリケーションのリモート処理) はサポートされていません。
 
-拡張性を許可するために、Lync VDI プラグインは動的仮想チャネル (DVCs) と呼ばれるプラットフォームに依存しない Api を使うように設計されています。 Lync で明示的にサポートされていないシナリオについては、「VDI ソリューションプロバイダーのサポートステートメント」を参照してください。
+拡張機能を有効にするために、Lync VDI プラグインは、動的仮想チャネル (DVCs) と呼ばれるプラットフォームに依存しない Api を使用するように設計されています。 Lync で明示的にサポートされていないシナリオについては、「VDI ソリューションプロバイダーからのサポートステートメント」を参照してください。
 
 </div>
 
@@ -59,27 +59,27 @@ Lync VDI プラグインは、アプリケーションの仮想化などの他�
 
 ## <a name="known-feature-limitations"></a>既知の機能制限
 
-VDI 環境で Lync 2013 を使用する場合は、次のような制限があります。
+VDI 環境で Lync 2013 を使用する場合の既知の制限は次のとおりです。
 
-  - 通話の委任と応答グループのエージェント匿名化) 機能は、制限されています。
+  - 通話委任および応答グループエージェント匿名化機能のサポートには制限があります。
 
   - 以下の機能はサポートされません。
     
       - 統合オーディオ デバイスとビデオ デバイスのチューニング ページ
     
-      - マルチビュー ビデオ
+      - マルチビュービデオ。
     
       - 会話の録音
     
       - リモートデスクトップサービス (RDS)。
     
-      - 会議への匿名参加 (つまり、組織とフェデレーションされていない組織によってホストされている Lync 会議への参加)。
+      - 匿名での会議への参加 (つまり、組織とフェデレーションされない組織によってホストされている Lync 会議への参加)。
     
-      - Lync VDI プラグインと Lync Phone Edition デバイスの併用。
+      - Lync VDI プラグインを Lync Phone Edition デバイスと共に使用します。
     
       - ネットワーク停止時の通話の継続
     
-      - 保留機能の着信音と音楽のカスタマイズ
+      - カスタマイズされた着信音と音楽の保持機能。
 
   - Lync VDI プラグインは、Office 365 環境ではサポートされていません。
 

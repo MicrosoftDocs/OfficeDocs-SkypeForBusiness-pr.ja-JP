@@ -12,20 +12,20 @@ ms:contentKeyID: 48184348
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 797e9216aed5d523e39dc4827d630e0cb1b857fd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e59703328fad7c8763bc1a6cc018c2cbc585c3ed
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740427"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035089"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-a-kerberos-authentication-account-in-lync-server-2013"></a>Lync Server 2013 での Kerberos 認証アカウントの作成
+# <a name="create-a-kerberos-authentication-account-in-lync-server-2013"></a>Lync Server 2013 で Kerberos 認証アカウントを作成する
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41740427"
 
 <span> </span>
 
-_**最終更新日:** 2012-01-02_
+_**トピックの最終更新日:** 2012-01-02_
 
-この手順を正常に完了するには、ドメイン管理者グループのメンバーとしてサーバーまたはドメインに最小でログオンしている必要があります。
+この手順を適切に完了するには、少なくとも Domain Admins グループのメンバーとしてサーバーまたはドメインにログオンする必要があります。
 
-各サイトに対して Kerberos 認証アカウントを作成することも、単一の Kerberos 認証アカウントを作成してすべてのサイトで使用することもできます。 各サイトに割り当てられているアカウントの識別など、アカウントの作成と管理には、Windows PowerShell コマンドレットを使用します。 トポロジビルダーと Lync Server 2013 コントロールパネルには、Kerberos 認証アカウントが表示されません。 Kerberos 認証に使用する1つ以上のユーザーアカウントを作成するには、次の手順を使用します。
+各サイトに Kerberos 認証アカウントを作成したり、単一の Kerberos 認証アカウントを作成してすべてのサイトで使用したりすることができます。 Windows PowerShell コマンドレットを使用して、各サイトに割り当てられたアカウントの識別を含む、アカウントの作成と管理を行います。 トポロジビルダーおよび Lync Server 2013 コントロールパネルに Kerberos 認証アカウントが表示されません。 1 つ以上のユーザー アカウントを作成して Kerberos 認証用に使用するには、次の手順を使用します。
 
 <div>
 
-## <a name="to-create-a-kerberos-account"></a>Kerberos アカウントを作成するには
+## <a name="to-create-a-kerberos-account"></a>Kerberos アカウントを作成するには、次の手順を実行します。
 
-1.  Domain Admins グループのメンバーとして、Lync Server 2013 を実行しているドメインのコンピューターにログオンするか、管理ツールがインストールされているコンピューターにログオンします。
+1.  Domain Admins グループのメンバーとして、Lync Server 2013 を実行しているドメイン内のコンピューター、または管理ツールがインストールされているコンピューターにログオンします。
 
-2.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+2.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
-3.  コマンドラインで、次のコマンドを実行します。
+3.  コマンド ラインで、次のコマンドを実行します。
     
         New-CsKerberosAccount -UserAccount "Domain\UserAccount" -ContainerDN "CN=Users,DC=DomainName,DC=DomainExtension"
     
-    次に例を示します。
+    次にその例を示します。
     
         New-CsKerberosAccount -UserAccount "Contoso\KerbAuth" -ContainerDN "CN=Users,DC=contoso,DC=com"
 
-4.  Active Directory ユーザーとコンピューターを開き、[**ユーザー** ] コンテナーを展開し、ユーザーアカウントのコンピューターオブジェクトがコンテナー内にあることを確認して、コンピューターオブジェクトが作成されたことを確認します。
+4.  コンピューター オブジェクトが作成されていることを確認します。それには、[Active Directory ユーザーとコンピューター] を開いて、[**ユーザー**] コンテナーを展開し、ユーザー アカウントのコンピューター オブジェクトがコンテナー内にあることを確認します。
 
 </div>
 

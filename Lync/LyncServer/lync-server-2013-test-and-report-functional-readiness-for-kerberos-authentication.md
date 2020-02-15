@@ -12,20 +12,20 @@ ms:contentKeyID: 48185519
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8763203827afd3d14638b68474c4f9bd9d6d0cfc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 870c0e19e2134c1a827485a5cacf2c055f99b0d4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746509"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006072"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="test-and-report-functional-readiness-for-kerberos-authentication-in-lync-server-2013"></a>Lync Server 2013 における Kerberos 認証のテストおよびレポート機能の準備
+# <a name="test-and-report-functional-readiness-for-kerberos-authentication-in-lync-server-2013"></a>Lync Server 2013 での Kerberos 認証のテストおよびレポート機能の準備
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41746509"
 
 <span> </span>
 
-_**最終更新日:** 2012-01-16_
+_**トピックの最終更新日:** 2012-01-16_
 
-この手順を正常に完了するには、RTCUniversalServerAdmins グループのメンバーであるユーザーとしてログオンする必要があります。
+この手順を正常に完了させるには、RTCUniversalServerAdmins グループのメンバーであるユーザーとしてログオンする必要があります。
 
-**CsKerberosAccountAssignment** Windows PowerShell コマンドレットを使用して、Kerberos 認証のサイト割り当ての機能の準備をテストして報告することができます。 このコマンドは、必須の Identity パラメーターで指定されたサイトを照会します。 省略可能なレポートパラメーターを指定すると、コマンドレットは、コマンド\\が実行されているコンピューター上の C: ログに HTML レポートを書き込みます。 オプションの Verbose パラメーターは、画面にアクティビティ情報をレポートします。
+**Get-cskerberosaccountassignment** Windows PowerShell コマンドレットを使用して、Kerberos 認証のサイト割り当ての機能の準備状況をテストおよび報告できます。 このコマンドは、必須の Identity パラメーターで指定されているサイトを照会します。 オプションの Report パラメーターを指定すると、コマンドレットは、コマンドが\\実行されているコンピューター上の C: ログに HTML レポートを書き込みます。 オプションの Verbose パラメーターを指定すると、アクティビティ情報が画面に表示されます。
 
 <div>
 
-## <a name="to-test-and-report-functional-readiness-for-kerberos-authentication-for-a-site"></a>サイトの Kerberos 認証の機能の準備をテストして報告するには
+## <a name="to-test-and-report-functional-readiness-for-kerberos-authentication-for-a-site"></a>サイトで Kerberos 認証を使用する機能的な準備ができていることをテストおよび報告するには
 
 1.  RTCUniversalServerAdmins グループのメンバーとして、Lync Server 2013 を実行しているドメイン内のコンピューター、または管理ツールがインストールされているコンピューターにログオンします。
 
-2.  Lync Server 管理シェルを起動します。 [**スタート**] をクリックし、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+2.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
-3.  コマンドラインで、次のコマンドを実行します。
+3.  コマンド ラインで、次のコマンドを実行します。
     
         Test-CsKerberosAccountAssignment -Identity "site:SiteName" -Report "c:\logs\FileName.htm" -Verbose
     
-    例:
+    次に例を示します。
     
         Test-CsKerberosAccountAssignment -Identity "site:Redmond" -Report "c:\logs\KerberosReport.htm" -Verbose
 

@@ -1,5 +1,5 @@
 ---
-title: Lync Server で有効になっているユーザーアカウントに関する情報の表示
+title: Lync Server に対して有効になっているユーザーアカウントに関する情報の表示
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733568
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba84f9ef504dcf9e8798a7d25a0ea79b3cb367cf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0662bb954e3ac914d29d7dce7b22cb4ad2659c19
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757331"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007136"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="viewing-information-about-user-accounts-enabled-for-lync-server-2013"></a>Lync Server 2013 で有効になっているユーザーアカウントに関する情報の表示
+# <a name="viewing-information-about-user-accounts-enabled-for-lync-server-2013"></a>Lync Server 2013 に対して有効になっているユーザーアカウントに関する情報の表示
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41757331"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-18_
+_**トピックの最終更新日:** 2012-10-18_
 
-このセクションの手順に従って、Lync Server 2013 ユーザーアカウントの設定とポリシー情報を表示します。
+Lync Server 2013 ユーザーアカウントの設定とポリシー情報を表示するには、このセクションの手順を実行します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync server 2013 で Lync Server ユーザーを検索する](lync-server-2013-search-for-lync-server-users.md)
+  - [Lync server 2013 での Lync Server ユーザーの検索](lync-server-2013-search-for-lync-server-users.md)
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a>関連項目
+## <a name="related-sections"></a>関連情報
 
-[Lync Server 2013 でのユーザーごとのポリシーの割り当て](lync-server-2013-assigning-per-user-policies.md)
+[Lync Server 2013 でのユーザー単位のポリシーの割り当て](lync-server-2013-assigning-per-user-policies.md)
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48185959
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 83b0ec944ad857ffccb419cf9ed36fbca92306c8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e629946d0db408e83ea12313507787df233bcbc0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41753257"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036869"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,49 +35,49 @@ ms.locfileid: "41753257"
 
 <span> </span>
 
-_**最終更新日:** 2013-11-01_
+_**トピックの最終更新日:** 2013-11-01_
 
-エンタープライズボイスの展開プロセスは、既存のトポロジ、インフラストラクチャ、およびサポートするエンタープライズ Voip 機能によって異なります。 必要な手順は選択する機能によって異なりますが、計画に関して高レベルで考慮が必要なその他の事項があります。
+エンタープライズ Voip の展開プロセスは、既存のトポロジ、インフラストラクチャ、およびサポートするエンタープライズ Voip 機能によって異なります。 必要な手順は選択する機能によって異なりますが、計画に関して高レベルで考慮が必要なその他の事項があります。
 
-通常は、展開するサイトの種類と数および地理的な場所、各サイトの通話ボリューム、サイト間を接続するネットワーク リンクの種類、各サイトの音声機能に冗長性とフェールオーバーを持たせるかどうか、および既存の PBX 機器を使用するかどうかを考慮してください。 Lync Server の通信ソフトウェアを全体として計画するときに考慮する必要がある、高可用性などの特定の考慮事項があります。 これらの考慮事項については、このセクションのトピックで必要に応じて説明します。
+通常は、展開するサイトの種類と数および地理的な場所、各サイトの通話ボリューム、サイト間を接続するネットワーク リンクの種類、各サイトの音声機能に冗長性とフェールオーバーを持たせるかどうか、および既存の PBX 機器を使用するかどうかを考慮してください。 Lync Server communications software を全体として計画する際に考慮する必要がある、高可用性などの特定の考慮事項があります。 これらの考慮事項については、このセクションのトピックで必要に応じて説明します。
 
 <div>
 
-## <a name="planning-considerations"></a>計画の考慮事項
+## <a name="planning-considerations"></a>計画に関する考慮事項
 
-特定のエンタープライズボイス機能または展開シナリオまたはコンポーネントの展開に関連する計画を決定するには、このセクションのトピックを参照してください。
+特定のエンタープライズ Voip 機能または展開シナリオまたはコンポーネントの展開に関連する計画の決定については、このセクションのトピックを参照してください。
 
-  - [Lync Server 2013 での組織のエンタープライズ VoIP 要件の定義](lync-server-2013-defining-your-requirements-for-enterprise-voice.md)
+  - [Lync Server 2013 でのエンタープライズ Voip の要件の定義](lync-server-2013-defining-your-requirements-for-enterprise-voice.md)
 
-  - [Lync Server 2013 の音声の利用状況とトラフィックの予測](lync-server-2013-estimating-voice-usage-and-traffic.md)
+  - [Lync Server 2013 の音声の使用状況とトラフィックの予測](lync-server-2013-estimating-voice-usage-and-traffic.md)
 
-  - [Network settings for the advanced Enterprise Voice features in Lync Server 2013](lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md)
+  - [Lync Server 2013 の高度なエンタープライズ Voip 機能のネットワーク設定](lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md)
 
-  - [Components required for Enterprise Voice in Lync Server 2013](lync-server-2013-components-required-for-enterprise-voice.md)
+  - [Lync Server 2013 のエンタープライズ Voip に必要なコンポーネント](lync-server-2013-components-required-for-enterprise-voice.md)
 
-  - [Lync Server 2013 でのエンタープライズ VoIP の復旧の計画](lync-server-2013-planning-for-enterprise-voice-resiliency.md)
+  - [Lync Server 2013 でのエンタープライズ Voip の復元の計画](lync-server-2013-planning-for-enterprise-voice-resiliency.md)
 
-  - [Lync Server 2013 での Exchange ユニファイド メッセージング統合の計画](lync-server-2013-planning-for-exchange-unified-messaging-integration.md)
+  - [Lync Server 2013 での Exchange ユニファイドメッセージング統合の計画](lync-server-2013-planning-for-exchange-unified-messaging-integration.md)
 
   - [Lync Server 2013 での通話受付管理の計画](lync-server-2013-planning-for-call-admission-control.md)
 
   - [Lync Server 2013 での緊急サービス (E9-1-1) の計画](lync-server-2013-planning-for-emergency-services-e9-1-1.md)
 
-  - [Lync Server 2013 でのメディア バイパスの計画](lync-server-2013-planning-for-media-bypass.md)
+  - [Lync Server 2013 でのメディアバイパスの計画](lync-server-2013-planning-for-media-bypass.md)
 
-  - [Lync Server 2013 でのプライベート電話回線の計画](lync-server-2013-planning-for-private-telephone-lines.md)
+  - [Lync Server 2013 を使用したプライベート電話回線の計画](lync-server-2013-planning-for-private-telephone-lines.md)
 
   - [Lync Server 2013 での場所に基づくルーティングの計画](lync-server-2013-planning-for-location-based-routing.md)
 
-  - [Lync Server 2013 でのエンタープライズ VoIP の復旧の計画](lync-server-2013-planning-for-enterprise-voice-resiliency.md)
+  - [Lync Server 2013 でのエンタープライズ Voip の復元の計画](lync-server-2013-planning-for-enterprise-voice-resiliency.md)
 
-  - [Lync Server 2013 のエンタープライズ VoIP の展開ガイドライン](lync-server-2013-deployment-guidelines-for-enterprise-voice.md)
+  - [Lync Server 2013 でのエンタープライズ Voip の展開ガイドライン](lync-server-2013-deployment-guidelines-for-enterprise-voice.md)
 
-  - [Lync Server 2013 のエンタープライズ VoIP の展開プロセスの概要](lync-server-2013-deployment-process-overview-for-enterprise-voice.md)
+  - [Lync Server 2013 でのエンタープライズ Voip の展開プロセスの概要](lync-server-2013-deployment-process-overview-for-enterprise-voice.md)
 
-  - [Lync Server 2013 でのエンタープライズ VoIP へのユーザーの移行](lync-server-2013-moving-users-to-enterprise-voice.md)
+  - [Lync Server 2013 でのエンタープライズ Voip へのユーザーの移動](lync-server-2013-moving-users-to-enterprise-voice.md)
 
-  - [Lync の PreCall のすべての診断ツール (Lync Server 2013)](lync-server-2013-lync-precall-diagnostics-tool.md)
+  - [Lync PreCall Diagnostics Tool in Lync Server 2013](lync-server-2013-lync-precall-diagnostics-tool.md)
 
 </div>
 

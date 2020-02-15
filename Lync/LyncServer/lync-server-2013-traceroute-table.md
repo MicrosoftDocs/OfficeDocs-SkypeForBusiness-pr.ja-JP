@@ -12,16 +12,16 @@ ms:contentKeyID: 48185242
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 691b7576d59511428400d14a3ff21109525dc5a1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: afb8cfb65fdf8fdbb4c281127caafd394cb878af
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745067"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036497"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41745067"
 
 <span> </span>
 
-_**最終更新日:** 2014-02-21_
+_**トピックの最終更新日:** 2014-02-21_
 
-TraceRoute テーブルには、通話のルーティング情報が含まれています。 この表は、Microsoft Lync Server 2013 で導入されました。
+TraceRoute テーブルには、通話からのルーティング情報が含まれています。 この表は、Microsoft Lync Server 2013 で導入されました。
 
 
 <table>
@@ -58,31 +58,31 @@ TraceRoute テーブルには、通話のルーティング情報が含まれて
 <tbody>
 <tr class="odd">
 <td><p><strong>ConferenceDateTime</strong></p></td>
-<td><p>datetime</p></td>
-<td><p>プライマリ、外部</p></td>
-<td><p>通話が開始された日付と時刻。</p></td>
+<td><p>日付型</p></td>
+<td><p>主/プライマリ、外部</p></td>
+<td><p>通話が開始された日時。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>プライマリ、外部</p></td>
-<td><p>同じ日付と同時に開始された可能性がある複数の通話を区別するために使用される一意の識別子。</p></td>
+<td><p>主/プライマリ、外部</p></td>
+<td><p>同じ日付の同じ時刻に開始された可能性がある複数の通話を区別するために使用される一意の識別子。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MediaLineLabel</strong></p></td>
 <td><p>tinyint</p></td>
-<td><p>プライマリ、外部</p></td>
-<td><p>通話で使用されるビデオラインの種類を表します。 有効な値は次のとおりです。</p>
+<td><p>主/プライマリ、外部</p></td>
+<td><p>通話で使用されたビデオ回線の種類を表します。有効な値は次のとおりです。</p>
 <ul>
 <li><p>0–音声</p></li>
-<li><p>1-ビデオ</p></li>
-<li><p>2-パノラマビデオ</p></li>
-<li><p>3-アプリケーション/デスクトップ共有</p></li>
+<li><p>1–ビデオ</p></li>
+<li><p>2 -- パノラマ ビデオ</p></li>
+<li><p>3–アプリケーション/デスクトップ共有</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p><strong>FromCaller</strong></p></td>
-<td><p>bit</p></td>
+<td><p>若干</p></td>
 <td><p>Primary</p></td>
 <td><p>通話を発信したエンドポイント。</p></td>
 </tr>
@@ -90,7 +90,7 @@ TraceRoute テーブルには、通話のルーティング情報が含まれて
 <td><p><strong>ホップ</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>ネットワークホップ/</p></td>
+<td><p>ネットワーク ホップ/</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IPAddressKey</strong></p></td>
@@ -102,7 +102,7 @@ TraceRoute テーブルには、通話のルーティング情報が含まれて
 <td><p><strong>RTT</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>往復時間。 往復時間は、ボイスパケットがその宛先に到達し、受信した通知を返信するのにかかる時間を測定します。</p></td>
+<td><p>ラウンド トリップ時間。ラウンド トリップ時間は、音声パケットが宛先に到達してから受信通知を送り返すまでにかかる時間を測定します。</p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: 会議参加ページの構成
+title: ミーティング参加ページを構成する
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -13,20 +13,20 @@ ms:contentKeyID: 48185030
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 104f5a06395de236c280d083e6211decaaa62b35
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9b0829037377c15f8690c36f29f8775f9e5a56c6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728157"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006623"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-the-meeting-join-page"></a>会議参加ページの構成
+# <a name="configure-the-meeting-join-page"></a>ミーティング参加ページを構成する
 
 </div>
 
@@ -36,13 +36,13 @@ ms.locfileid: "41728157"
 
 <span> </span>
 
-_**最終更新日:** 2012-12-14_
+_**トピックの最終更新日:** 2012-12-14_
 
-ユーザーが会議出席依頼の会議リンクをクリックすると、[会議の参加] ページによって、ユーザーのコンピューターに Lync 2013 クライアントが既にインストールされているかどうかが検出されます。 クライアントが既にインストールされている場合は、そのクライアントが開き、会議に参加します。 クライアントがインストールされていない場合、既定では、2013バージョンの Microsoft Lync Web App が開きます。
+ユーザーが会議出席依頼の会議リンクをクリックすると、会議参加ページによって、ユーザーのコンピューターに Lync 2013 クライアントが既にインストールされているかどうかが検出されます。 クライアントがすでにインストールされている場合、そのクライアントが会議を開き、参加します。 クライアントがインストールされていない場合、既定では Microsoft Lync Web App の2013バージョンが開きます。
 
-ユーザーが Office Communicator 2007 R2 または Lync 2010 アテンダントを使って会議に参加できるようにする場合は、[会議参加] ページの動作を変更することができます。 これらの構成オプションは、Lync Server 2013 コントロールパネルから削除されていますが、CsWebServiceConfiguration コマンドレットを使用して設定します。
+ユーザーが Office Communicator 2007 R2 または Lync 2010 アテンダントを使用して会議に参加できるようにする場合は、会議参加ページの動作を変更することができます。 これらの構成オプションは Lync Server 2013 コントロールパネルから削除されましたが、Set-cswebserviceconfiguration コマンドレットを使用して構成します。
 
-### <a name="meeting-join-page-cswebserviceconfiguration-parameters"></a>会議の参加ページの CsWebServiceConfiguration パラメーター
+### <a name="meeting-join-page-cswebserviceconfiguration-parameters"></a>会議参加ページの CsWebServiceConfiguration のパラメーター
 
 <table>
 <colgroup>
@@ -51,18 +51,18 @@ _**最終更新日:** 2012-12-14_
 </colgroup>
 <thead>
 <tr class="header">
-<th>CsWebServiceConfiguration パラメーター</th>
+<th>CsWebServiceConfiguration のパラメーター</th>
 <th>説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>ShowJoinUsingLegacyClientLink</p></td>
-<td><p>True に設定すると、Lync 以外のクライアントアプリケーションを使用して会議に参加するユーザーには、Office Communicator 2007 R2 を使用して会議に参加する機会が与えられます。 既定値は False です。</p></td>
+<td><p>True に設定すると、Lync 以外のクライアントアプリケーションを使用して会議に参加しているユーザーには、Office Communicator 2007 R2 を使用して会議に参加する機会が与えられます。 既定値は False です。</p></td>
 </tr>
 <tr class="even">
-<td><p>Showalternatejoinoptionている</p></td>
-<td><p>True に設定すると、オンライン会議に参加するための代替オプション (Office Communicator 2007 R2 など) が自動的に展開され、ユーザーに表示されます。 False (既定値) に設定した場合、これらのオプションは使用できますが、ユーザーは自分のオプションの一覧を表示する必要があります。</p></td>
+<td><p>Showalternatejoinoptionsexpan</p></td>
+<td><p>True に設定した場合、オンライン会議に参加するための別のオプション (Office Communicator 2007 R2 など) が自動的に展開され、ユーザーに表示されます。False (既定値) に設定されている場合、これらのオプションは使用可能ですが、ユーザーが自分でオプションの一覧を表示する必要があります。</p></td>
 </tr>
 </tbody>
 </table>
@@ -70,7 +70,7 @@ _**最終更新日:** 2012-12-14_
 
 <div>
 
-## <a name="to-configure-the-meeting-join-page-by-using-lync-server-2013-management-shell"></a>Lync Server 2013 管理シェルを使用して会議の参加ページを構成するには
+## <a name="to-configure-the-meeting-join-page-by-using-lync-server-2013-management-shell"></a>Lync Server 2013 管理シェルを使用して会議参加ページを構成するには
 
 1.  Lync Server 2013 管理シェルを起動します。 [**スタート**]、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
 
@@ -78,9 +78,9 @@ _**最終更新日:** 2012-12-14_
     
         Get-CsWebServiceConfiguration
     
-    このコマンドレットは、web サービスの構成設定を返します。
+    このコマンドレットは、Web サービス構成設定を返します。
 
-3.  次のコマンドを実行します。設定に応じてパラメーターが True または False に設定されています (このコマンドレットのパラメーターの詳細については、「Lync Server 2013 管理シェルドキュメント」を参照してください)。
+3.  ユーザーの設定に応じて、パラメーターを True または False に設定して、次のコマンドを実行します (このコマンドレットのパラメーターの詳細については、「Lync Server 2013 Management Shell」のドキュメントを参照してください)。
     
         Set-CsWebServiceConfiguration -Identity global -ShowJoinUsingLegacyClientLink $True
 

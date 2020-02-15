@@ -13,16 +13,16 @@ ms:contentKeyID: 48184582
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 067dadbb1578aa89f2d7199c0c356ddf86884eac
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: af2a420b12b10f0b96609fbcfbd31907294a1a08
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724197"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42005922"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -36,15 +36,15 @@ ms.locfileid: "41724197"
 
 <span> </span>
 
-_**最終更新日:** 2012-09-29_
+_**トピックの最終更新日:** 2012-09-29_
 
-通常、管理するサーバーのバージョンに対応する管理ツールを使用する必要があります。 Lync Server 2010 と Lync Server 2013 の管理ツールを同じコンピューターにインストールすることはできません。 また、Lync Server 2013 コントロールパネルは、各サーバーに自動的にインストールされることはありません。 Lync Server 2013 コントロールパネルをインストールするには、展開ドキュメントの「 [Lync server 2013 管理ツールをインストール](lync-server-2013-install-lync-server-administrative-tools.md)する」のトピック内の手順に従います。
+通常は、管理するサーバー バージョンに対応した管理ツールを使用する必要があります。 Lync Server 2010 と Lync Server 2013 の管理ツールを同じコンピューターにインストールすることはできません。 また、Lync Server 2013 コントロールパネルは、各サーバーに自動的にはインストールされません。 Lync Server 2013 コントロールパネルをインストールするには、「展開」のドキュメントの「 [Install Lync server 2013 管理ツール](lync-server-2013-install-lync-server-administrative-tools.md)」のトピック内の手順に従います。
 
 <div>
 
 
 > [!IMPORTANT]  
-> Lync server 2013 パイロットプールを展開した後は、lync server 2010 Topology Builder または Lync Server 2010 コントロールパネルを使用して、Lync Server 2013 リソースを管理することはできません。 Lync server 2013 および lync server 2010 リソースを管理するには、Lync Server 2013 ツールを使用する必要があります。
+> Lync server 2013 パイロットプールを展開した後は、lync server 2010 トポロジビルダーまたは Lync Server 2010 コントロールパネルを使用して、Lync Server の2013リソースを管理することはできません。 Lync server 2013 および Lync Server 2010 のリソースを管理するには、Lync Server 2013 ツールを使用する必要があります。
 
 
 

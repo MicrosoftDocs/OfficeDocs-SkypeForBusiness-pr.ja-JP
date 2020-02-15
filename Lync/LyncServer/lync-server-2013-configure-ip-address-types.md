@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: IP アドレスの種類を構成する'
+title: 'Lync Server 2013: IP アドレスの種類の構成'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183515
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e1b03e7c64c15d147e09883b9d7580bacbca7be
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4cb04adb830e4b7207391675aeabd5f3be315724
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729767"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036225"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-ip-address-types-in-lync-server-2013"></a>Lync Server 2013 で IP アドレスの種類を構成する
+# <a name="configure-ip-address-types-in-lync-server-2013"></a>Lync Server 2013 での IP アドレスの種類の構成
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41729767"
 
 <span> </span>
 
-_**最終更新日:** 2012-06-13_
+_**トピックの最終更新日:** 2012-06-13_
 
-IP アドレスの種類を展開するには、トポロジビルダーで構成したトポロジ設定を使用します。 このセクションでは、フロントエンドサーバー、仲介サーバー、およびエッジサーバーに IP アドレスの種類を展開する方法について説明します。
+トポロジビルダーで構成したトポロジ設定を使用して、IP アドレスの種類を展開します。 このセクションでは、フロントエンドサーバー、仲介サーバー、エッジサーバーに IP アドレスの種類を展開する方法について説明します。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [IP アドレス タイプを Lync Server 2013 のフロント エンド サーバーに展開する](lync-server-2013-deploy-ip-address-types-on-a-front-end-server.md)
+  - [Lync Server 2013 のフロントエンドサーバーに IP アドレスタイプを展開する](lync-server-2013-deploy-ip-address-types-on-a-front-end-server.md)
 
-  - [Lync Server 2013 の仲介サーバーに IP アドレス タイプを展開する](lync-server-2013-deploy-ip-address-types-on-a-mediation-server.md)
+  - [Lync Server 2013 の仲介サーバーに IP アドレスタイプを展開する](lync-server-2013-deploy-ip-address-types-on-a-mediation-server.md)
 
-  - [IP アドレスの種類を Lync Server 2013 のエッジ サーバーに展開する](lync-server-2013-deploy-ip-address-types-on-an-edge-server.md)
+  - [Lync Server 2013 のエッジサーバーに IP アドレスタイプを展開する](lync-server-2013-deploy-ip-address-types-on-an-edge-server.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: アドレス帳へのアクセスを検証する'
+title: 'Lync Server 2013: アドレス帳のアクセスの検証'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969611
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 96fe45f1491ca518a6985b0c15f8bcc229bd7f8c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0f18651cd75df62cf1d5f8c543d0e5c11361c7db
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763671"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007426"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="validating-address-book-access-in-lync-server-2013"></a>Lync Server 2013 でのアドレス帳へのアクセスを検証する
+# <a name="validating-address-book-access-in-lync-server-2013"></a>Lync Server 2013 でのアドレス帳へのアクセスの検証
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41763671"
 
 <span> </span>
 
-_**最終更新日:** 2014-06-05_
+_**トピックの最終更新日:** 2014-06-05_
 
 
 <table>
@@ -45,8 +45,8 @@ _**最終更新日:** 2014-06-05_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>確認のスケジュール</p></td>
-<td><p>[毎日]</p></td>
+<td><p>検証スケジュール</p></td>
+<td><p>毎日</p></td>
 </tr>
 <tr class="even">
 <td><p>テストツール</p></td>
@@ -54,8 +54,8 @@ _**最終更新日:** 2014-06-05_
 </tr>
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
-<td><p>Lync Server 管理シェルを使用してローカルで実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使って実行する場合、ユーザーには、テスト/CsAddressBookService コマンドレットを実行するアクセス許可が与えられた RBAC の役割を割り当てる必要があります。 このコマンドレットを使うことができるすべての RBAC ロールの一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには、Test-CsAddressBookService コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsAddressBookService&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +66,7 @@ _**最終更新日:** 2014-06-05_
 
 ## <a name="description"></a>説明
 
-テスト-CsAddressBookService コマンドレットを使うと、ユーザーがアドレス帳のダウンロード Web サービスに接続できることを確認することができます。 コマンドレットを実行すると、指定されたプールのアドレス帳ダウンロード Web サービスに接続し、アドレス帳ファイルの場所を要求します。 アドレス帳のダウンロード Web サービスがこの場所を提供した場合、テストは成功したと見なされます。 要求が拒否された場合、テストは失敗したと見なされます。
+Test-CsAddressBookService コマンドレットを使用すると、ユーザーがアドレス帳のダウンロード Web サービスに接続できることを確認することができます。 コマンドレットを実行すると、指定されたプールのアドレス帳のダウンロード Web サービスに接続し、アドレス帳ファイルの場所を要求します。 アドレス帳のダウンロード Web サービスによってその場所が提供された場合、テストは成功したと見なされます。 要求が拒否された場合は、テストが失敗とみなされます。
 
 </div>
 
@@ -74,64 +74,64 @@ _**最終更新日:** 2014-06-05_
 
 ## <a name="running-the-test"></a>テストの実行
 
-テスト-CsAddressBookService コマンドレットは、事前に定義されたテストアカウント (「Lync Server テストを実行するためにテストアカウントをセットアップする」を参照)、または Lync Server が有効になっているユーザーのアカウントを使用して実行できます。 テストアカウントを使用してこのチェックを実行するには、テスト対象の Lync サーバープールの完全修飾ドメイン名 (FQDN) を指定する必要があります。 次に例を示します。
+Test-CsAddressBookService コマンドレットは、事前構成されたテストアカウント (「Lync Server テストを実行するためのテストアカウントの設定」を参照)、または Lync Server に対して有効になっているユーザーのアカウントのいずれかを使用して実行できます。 このチェックをテストアカウントを使用して実行するには、テストする Lync Server プールの完全修飾ドメイン名 (FQDN) を指定するだけです。 例:
 
     Test-CsAddressBookService -TargetFqdn "atl-cs-001.litwareinc.com"
 
-実際のユーザーアカウントを使用してこのチェックを実行するには、最初に、アカウント名とパスワードを含む Windows PowerShell 資格情報オブジェクトを作成する必要があります。 次に、ユーザーの資格情報オブジェクトと、CsAddressBookService を呼び出すときにアカウントに割り当てられた SIP アドレスを含める必要があります。
+実際のユーザーアカウントを使用してこのチェックを実行するには、まず、アカウント名とパスワードを含む Windows PowerShell credentials オブジェクトを作成する必要があります。 次に、その資格情報オブジェクトと、Test-CsAddressBookService を呼び出すときにアカウントに割り当てられた SIP アドレスを含める必要があります。
 
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsAddressBookService -TargetFqdn "atl-cs-001.litwareinc.com"-UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-詳細については、「[テスト-CsAddressBookService](https://docs.microsoft.com/powershell/module/skype/Test-CsAddressBookService)コマンドレットのヘルプドキュメント」を参照してください。
+詳細については、「 [Test-CsAddressBookService](https://docs.microsoft.com/powershell/module/skype/Test-CsAddressBookService)コマンドレットのヘルプドキュメント」を参照してください。
 
 </div>
 
 <div>
 
-## <a name="determining-success-or-failure"></a>成功または失敗を確認する
+## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
-指定したユーザーがアドレス帳サービスに接続できる場合は、次のような結果が返されます。これには、Result プロパティが**Success**とマークされています。
+指定したユーザーがアドレス帳サービスに接続できる場合は、次のような出力が返されます。 Result プロパティは**Success**としてマークされています。
 
-TargetUri :https://lync-se.fabrikam.com:443/abs/handler
+TargetUrihttps://lync-se.fabrikam.com:443/abs/handler
 
 TargetFqdn: atl-cs-001.litwareinc.com
 
 結果: 成功
 
-待ち時間:00:00: 06.2260399
+待機時間:00:00: 06.2260399
 
-誤差
+エラー
 
-診断
+分析
 
 指定したユーザーがこの接続を確立できない場合、結果は失敗として表示され、エラーと診断のプロパティに追加情報が記録されます。
 
-TargetUri :
+TargetUri
 
 TargetFqdn: atl-cs-001.litwareinc.com
 
 結果: エラー
 
-待ち時間: 00:00:00
+待機時間: 00:00:00
 
-診断: ErrorCode = 4005、Source = atl-cs-001.litwareinc.com、
+診断: ErrorCode = 4005, Source = 001.litwareinc.com,
 
-理由 = ターゲット URI が SIP で有効になっていないか、
+Reason = 宛先 URI が SIP に対して有効になっていないか、または使用されていません
 
-残っ.
+ない.
 
-DiagnosticHeader の場合
+DiagnosticHeader ()
 
-たとえば、上記の出力では、指定されたユーザー ("送信先 URI") が存在しないか、Lync Server が有効になっていないため、テストが失敗したことが示されます。 次のようなコマンドを実行して、ユーザーアカウントが有効であるかどうかを確認し、正しい SIP アドレスを入力したことを確認できます。
+たとえば、指定されたユーザー ("Destination URI") が存在しないか、Lync Server が有効になっていないため、テストが失敗したことが上記の出力に示されます。 ユーザーアカウントが有効かどうかを確認し、次のようなコマンドを実行することによって、正しい SIP アドレスを指定したことを確認できます。
 
-"Sip:kenmyer@litwareinc.com" というユーザー Id を取得するSelect-Object SipAddress、Enabled
+取得-CsUser-Identity "sip:kenmyer@litwareinc.com" |Select-Object SipAddress、Enabled
 
-テスト用の Addressaddressbookservice が失敗した場合は、Verbose パラメーターなどのテストを再実行することをお勧めします。
+Test-CsAddressBookService が失敗した場合は、次のように詳細なパラメーターを含めて、テストを再実行することをお勧めします。
 
-テスト-CsAddressBookService-TargetFqdn "atl-cs-001.litwareinc.com"-Verbose
+Test-CsAddressBookService-TargetFqdn "atl-cs-001.litwareinc.com"-Verbose
 
-Verbose パラメーターが含まれている場合は、指定したユーザーが Lync Server にログオンする機能を確認したときに実行される各操作のステップバイステップのアカウントが返されます。 たとえば、次の例の出力では、少なくともこの例で使用されている [テスト-CsAddressBookService] がアドレス帳ファイルをダウンロードできることを示しています。
+Verbose パラメーターが指定されている場合、指定されたユーザーが Lync Server にログオンできるかどうかを確認するときに、実行しようとした各アクションのステップバイステップのアカウントが返されます。 たとえば、このサンプル出力は、少なくともこの例の Test-CsAddressBookService がアドレス帳ファイルをダウンロードできることを示しています。
 
 Http GET 要求を送信しています。
 
@@ -147,19 +147,19 @@ ABS ファイルが正常にダウンロードされましたhttps://atl-cs-001.
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a>テストに失敗した可能性がある理由
+## <a name="reasons-why-the-test-might-have-failed"></a>テストが失敗した理由
 
-次に、テスト-CsAddressBookService が失敗する可能性がある一般的な理由を示します。
+次に、Test-CsAddressBookService が失敗する可能性のある一般的な理由を示します。
 
-  - 無効なユーザアカウントを指定しました。 次のようなコマンドを実行すると、ユーザーアカウントが存在するかどうかを確認できます。
+  - 無効なユーザーアカウントが指定されています。 ユーザーアカウントが存在することを確認するには、次のようなコマンドを実行します。
     
         Get-CsUser "sip:kenmyer@litwareinc.com"
 
-  - ユーザーアカウントは有効ですが、アカウントは現在 Lync Server では有効になっていません。 Lync Server のユーザーアカウントが有効になっていることを確認するには、次のようなコマンドを実行します。
+  - ユーザーアカウントは有効ですが、アカウントは現在 Lync Server で有効になっていません。 ユーザーアカウントが Lync Server に対して有効になっていることを確認するには、次のようなコマンドを実行します。
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled
     
-    Enabled プロパティが False に設定されている場合は、ユーザーが現在 Lync Server に対して有効になっていないことを意味します。
+    Enabled プロパティが False に設定されている場合は、ユーザーが Lync Server で現在有効になっていないことを意味します。
 
 </div>
 

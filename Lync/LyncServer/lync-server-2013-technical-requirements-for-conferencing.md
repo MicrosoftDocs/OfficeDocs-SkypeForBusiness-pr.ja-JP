@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013 の会議の技術要件
+title: Lync Server 2013 会議の技術要件
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183923
 ms.date: 06/26/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3a275836b940cfe2c56b184d238bc12c432132e6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bc548446120ae4088d90acb45c258f3f736063d0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746597"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006733"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-conferencing-in-lync-server-2013"></a>Lync Server 2013 の会議の技術要件
+# <a name="technical-requirements-for-conferencing-in-lync-server-2013"></a>Lync Server 2013 での会議の技術要件
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41746597"
 
 <span> </span>
 
-_**最終更新日:** 2014-06-25_
+_**トピックの最終更新日:** 2014-06-25_
 
-Lync Server 2013、ダイヤルイン会議、A/V 会議、インスタントメッセージング (IM) 会議、および web 会議機能は、常にフロントエンドサーバーで実行されます。
+Lync Server 2013 の場合、ダイヤルイン会議、音声ビデオ会議、インスタントメッセージング (IM) 会議、および web 会議機能は、常にフロントエンドサーバー上で実行されます。
 
-このセクションでは、サポートされている collocation と共に、これらのサーバーのハードウェアとソフトウェアの要件について詳しく説明します。
+ここでは、これらのサーバーのハードウェアおよびソフトウェア要件と、サポートされている併置について詳細に説明します。
 
-ダイヤルイン会議は、さまざまなコンポーネントが含まれている機能です。 一部のコンポーネントは、ダイヤルイン会議に固有であり、一部はエンタープライズボイスコンポーネントです。 このセクションでは、ダイヤルイン会議に固有のコンポーネントの要件について説明します。 仲介サーバーと公衆交換電話網 (PSTN) ゲートウェイの要件の詳細については、「 [Lync server 2013 の仲介サーバーコンポーネント](lync-server-2013-mediation-server-component.md)」および「計画ドキュメントの[lync Server 2013 の仲介サーバー用のコンポーネントとトポロジ](lync-server-2013-components-and-topologies-for-mediation-server.md)」を参照してください。
+ダイヤルイン会議は、さまざまなコンポーネントを含む機能です。 コンポーネントの中には、ダイヤルイン会議固有のものも、エンタープライズ VoIP コンポーネントもあります。 ここでは、ダイヤルイン会議に固有のコンポーネントの要件について説明します。 仲介サーバーと公衆交換電話網 (PSTN) ゲートウェイの要件の詳細については、「計画」のドキュメントの「 [lync server 2013 の仲介サーバーコンポーネント](lync-server-2013-mediation-server-component.md)」および「 [lync Server 2013 の仲介サーバーのコンポーネントとトポロジ](lync-server-2013-components-and-topologies-for-mediation-server.md)」を参照してください。
 
 <div>
 
 ## <a name="hardware-requirements"></a>ハードウェア要件
 
-Web 会議と A/V の会議はフロントエンドサーバーと連携しているため、サーバーハードウェア要件は、フロントエンドサーバーの場合と同じです。 ハードウェア要件の詳細については、サポートドキュメントの「[サーバーハードウェアプラットフォーム (Lync server 2013 の場合](lync-server-2013-server-hardware-platforms.md))」を参照してください。 ダイヤルイン会議に必要な次のコンポーネントについても、フロントエンドサーバーと同じハードウェア要件があります。
+Web 会議と音声ビデオ会議はフロントエンドサーバーと併置されているため、サーバーハードウェア要件はフロントエンドサーバーの場合と同じです。 ハードウェア要件の詳細については、「サポート」のドキュメントの「 [Lync server 2013 のサーバーハードウェアプラットフォーム](lync-server-2013-server-hardware-platforms.md)」を参照してください。 ダイヤルイン会議に必要な次のコンポーネントにも、フロントエンドサーバーと同じハードウェア要件があります。
 
   - アプリケーション サービス
 
@@ -55,7 +55,7 @@ Web 会議と A/V の会議はフロントエンドサーバーと連携して�
 
   - 会議アナウンス アプリケーション
 
-フロントエンドサーバーのハードウェア要件は、Lync Server 2013 のその他の多くのサーバーの役割と同じで、次の表で説明します。
+フロントエンドサーバーのハードウェア要件は、Lync Server 2013 の他の多くのサーバーの役割と同じですが、次の表ではその概要について説明します。
 
 </div>
 
@@ -63,13 +63,13 @@ Web 会議と A/V の会議はフロントエンドサーバーと連携して�
 
 ## <a name="software-requirements"></a>ソフトウェア要件
 
-Web 会議と A/V の会議はフロントエンドサーバーと連携しているため、サーバーソフトウェアの要件は、フロントエンドサーバーの場合と同じです。 ソフトウェア要件の詳細については、サポートドキュメントの「 [Lync server 2013 でのサーバーとツールのオペレーティングシステムのサポート](lync-server-2013-server-and-tools-operating-system-support.md)」を参照してください。
+Web 会議と音声ビデオ会議はフロントエンドサーバーに併置されているため、サーバーソフトウェア要件はフロントエンドサーバーと同じです。 ソフトウェア要件の詳細については、「サポート」のドキュメントの「 [Lync server 2013 のサーバーおよびツールのオペレーティングシステムのサポート](lync-server-2013-server-and-tools-operating-system-support.md)」を参照してください。
 
-Web 会議の場合は、Lync Server 2013 では、Office Web Apps と Office Web apps サーバー (旧 WAC Server) で PowerPoint プレゼンテーションを処理する必要があります。 詳細については、「 [Office Web Apps サーバーおよび Lync server 2013 との統合を構成する](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md)」を参照してください。
+Web 会議の場合、Lync Server 2013 には、PowerPoint プレゼンテーションを処理するために、Office Web Apps および Office Web Apps サーバー (旧称 WAC Server) が必要です。 詳細については、「 [Office Web Apps Server および Lync Server 2013 との統合の構成](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md)」を参照してください。
 
-ダイヤルイン会議、アプリケーションサービス、会議アテンダントアプリケーション、会議アナウンスメントアプリケーションには、フロントエンドサーバーと同じオペレーティングシステム要件があります。 ソフトウェア要件の詳細については、サポートドキュメントの「 [Lync server 2013 でのサーバーとツールのオペレーティングシステムのサポート](lync-server-2013-server-and-tools-operating-system-support.md)」を参照してください。
+ダイヤルイン会議、アプリケーションサービス、会議アテンダントアプリケーション、および会議アナウンスアプリケーションでは、フロントエンドサーバーと同じオペレーティングシステム要件を使用します。 ソフトウェア要件の詳細については、「サポート」のドキュメントの「 [Lync server 2013 のサーバーおよびツールのオペレーティングシステムのサポート](lync-server-2013-server-and-tools-operating-system-support.md)」を参照してください。
 
-会議アテンダントアプリケーションと会議アナウンスメントアプリケーションでは、Windows Media Format Runtime がフロントエンドサーバーにインストールされている必要があります。 Windows Media 形式ランタイムは、音楽の保留、記録された名前、およびプロンプトに使用される Windows Media audio (WMA) ファイルを再生するために必要です。 Windows Server 2012 と Windows Server 2012 R2 を除き、windows Media 形式ランタイムは、セットアップの実行時に Windows デスクトップエクスペリエンスの一部として自動的にインストールされますが、コンピューターの再起動が必要になる場合もあります。 そのため、windows デスクトップエクスペリエンスの一部としてインストールすることをお勧めします。これには、セットアップを実行する前に Windows Media 形式ランタイムが含まれています。 Windows Server 2012 および Windows Server 2012 R2 には Microsoft メディアファンデーションが必要です。
+会議アテンダントアプリケーションおよび会議アナウンスアプリケーションでは、フロントエンドサーバーに Windows Media フォーマットランタイムがインストールされている必要があります。 Windows Media フォーマット ランタイムは、保留音、録音済みの名前、および案内で使用される Windows Media オーディオ (WMA) ファイルの再生に必要です。 Windows Server 2012 および Windows Server 2012 R2 を除き、windows Media フォーマットランタイムは、セットアップを実行するときに Windows デスクトップの機能の一部として自動的にインストールされますが、コンピューターを再起動する必要がある場合があります。 したがって、セットアップの実行前に、Windows Media フォーマット ランタイムが含まれる Windows デスクトップ エクスペリエンスの一部としてインストールすることをお勧めします。 Windows Server 2012 および Windows Server 2012 R2 には Microsoft Media Foundation が必要です。
 
 </div>
 
@@ -77,15 +77,15 @@ Web 会議の場合は、Lync Server 2013 では、Office Web Apps と Office We
 
 ## <a name="port-requirements-for-dial-in-conferencing"></a>ダイヤルイン会議のポート要件
 
-次の表では、ダイヤルイン会議で使用されるポートについて説明します。 ロードバランサーを使用している場合は、プールで実行されるすべてのアプリケーションで使用されているポート用にロードバランサーが構成されていることを確認します。
+次の表に、ダイヤルイン会議で使用されるポートを示します。 ロード バランサーを使用する場合は、プールで実行するアプリケーションが使用するポートに合わせてロード バランサーを構成する必要があります。
 
-これらのポートは既定の設定であり、**Set-CsApplicationServer** コマンドレットを使用して変更することができます。 このコマンドレットの詳細については、「Lync Server 管理シェルのドキュメント」を参照してください。
+これらのポートは既定の設定であり、**Set-CsApplicationServer** コマンドレットを使用して変更することができます。 このコマンドレットの詳細については、「Lync Server Management Shell」のドキュメントを参照してください。
 
 <div>
 
 
 > [!NOTE]  
-> プール内の同じアプリケーションのすべてのインスタンスは、同じ SIP リスニングポートを使用します。
+> 1 つのプール内にある同じアプリケーションのすべてのインスタンスは、同じ SIP リッスン ポートを使用します。
 
 
 
@@ -107,11 +107,11 @@ Web 会議の場合は、Lync Server 2013 では、Office Web Apps と Office We
 <tbody>
 <tr class="odd">
 <td><p>5072</p></td>
-<td><p>SIP リスニング要求用の会議アテンダントアプリケーションで使用</p></td>
+<td><p>電話会議アテンダントアプリケーションによる SIP リスニング要求の使用</p></td>
 </tr>
 <tr class="even">
 <td><p>5073</p></td>
-<td><p>SIP リスニング要求の会議アナウンスメントアプリケーションで使用</p></td>
+<td><p>電話会議アナウンスアプリケーションが SIP リスニング要求のために使用</p></td>
 </tr>
 </tbody>
 </table>
@@ -121,11 +121,11 @@ Web 会議の場合は、Lync Server 2013 では、Office Web Apps と Office We
 
 <div>
 
-## <a name="supported-clients-for-dial-in-conferencing"></a>ダイヤルイン会議でサポートされているクライアント
+## <a name="supported-clients-for-dial-in-conferencing"></a>ダイヤルイン会議でサポートされるクライアント
 
-次のクライアントを使用して、ダイヤルインアクセスをサポートするオンプレミスの会議をスケジュールすることができます。
+次のクライアントを使用して、ダイヤルイン アクセスをサポートする社内会議をスケジュールできます。
 
-  - Lync 2013 用のオンライン会議アドイン (Lync 2013 または出席者をインストールしたときに自動的にインストールされます)
+  - Lync 2013 用オンラインミーティングアドイン (Lync 2013 または出席者をインストールすると自動的にインストールされます)
 
 </div>
 
@@ -133,13 +133,13 @@ Web 会議の場合は、Lync Server 2013 では、Office Web Apps と Office We
 
 ## <a name="dial-in-conferencing-settings-page-requirements"></a>ダイヤルイン会議の設定ページの要件
 
-[ダイヤルイン会議の設定] ページでは、次の表に示すオペレーティングシステムと web ブラウザーの組み合わせがサポートされています。
+[ダイヤルイン会議の設定] ページでは、次の表に記載されているオペレーティングシステムと web ブラウザーの組み合わせをサポートしています。
 
 <div>
 
 
 > [!NOTE]  
-> 32ビット版と64ビット版のオペレーティングシステムがサポートされています。
+> 32 ビットおよび 64 ビット版のオペレーティング システムがサポートされています。
 
 
 
@@ -192,13 +192,13 @@ Web 会議の場合は、Lync Server 2013 では、Office Web Apps と Office We
 
 <div>
 
-## <a name="audio-file-requirements-for-dial-in-conferencing"></a>ダイヤルイン会議のオーディオファイルの要件
+## <a name="audio-file-requirements-for-dial-in-conferencing"></a>ダイヤルイン会議の音声ファイル要件
 
-Lync Server 2013 は、ダイヤルイン会議の音声メッセージや音楽のカスタマイズをサポートしていません。 ただし、既定のオーディオファイルを変更する必要がある強力な業務上のニーズがある場合は、microsoft サポート技術情報の記事961177、「 [Microsoft Office Communications Server 2007 R2 のダイヤルイン電話会議の音声メッセージまたは音楽ファイルをカスタマイズする方法](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=961177)」を参照してください。
+Lync Server 2013 では、ダイヤルイン会議の音声プロンプトおよび音楽のカスタマイズはサポートされていません。 ただし、既定のオーディオファイルの変更を必要とする強力なビジネスニーズがある場合は、microsoft サポート技術情報の記事961177、「 [Microsoft Office Communications Server 2007 R2 でダイヤルイン電話会議の音声プロンプトまたは音楽ファイルをカスタマイズする方法](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=961177)」を参照してください。
 
-また、 [Microsoft Lync Server 会議アテンダントのカスタム音声指示](http://go.microsoft.com/fwlink/p/?linkid=396880)管理ユーティリティを使用して、電話の発信者が、ユーザー設定のメッセージを使って Lync 会議に参加するときに使用される既定の音声プロンプトを置き換えて、別の会議エントリの操作を行うこともできます。 カスタム音声プロンプトは、Lync Server 2010 または Lync Server 2013 (Enterprise または Standard Edition) を実行しているサーバーにインストールできます。
+[Microsoft Lync Server 会議アテンダントのカスタム音声ガイダンス](http://go.microsoft.com/fwlink/p/?linkid=396880)管理ユーティリティを使用することもできます。これにより、電話の発信者が Lync 会議にカスタムの音声ガイダンスを参加させるときに使用する既定の音声ガイダンスを置き換えることができます。 カスタム音声プロンプトは、Lync Server 2010 または Lync Server 2013 (Enterprise または Standard Edition) を実行しているサーバーにインストールできます。
 
-会議アテンダントアプリケーションと会議アナウンスメントアプリケーションには、音楽の保留、記録された名前、およびオーディオプロンプトファイルの次の要件があります。
+会議アテンダントアプリケーションおよび会議アナウンスアプリケーションには、保留音、録音済みの名前、および音声ガイダンスファイルに関する次の要件があります。
 
   - Windows Media Audio (WMA) ファイル形式
 
@@ -214,7 +214,7 @@ Lync Server 2013 は、ダイヤルイン会議の音声メッセージや音楽
 
 ## <a name="user-requirements-for-dial-in-conferencing"></a>ダイヤルイン会議のユーザー要件
 
-ダイヤルイン会議ユーザーは、そのアカウントに固有の電話番号または内線番号を割り当てておく必要があります。 この要件によりダイヤルイン会議中の認証が可能になります。 エンタープライズユーザー (つまり、組織内で Active Directory ドメインサービスの資格情報と Lync Server アカウントを持っているユーザー) は、電話番号 (または内線番号) と暗証番号 (PIN) を入力すると、会議には、認証されたユーザー。
+ダイヤルイン会議ユーザーは、そのアカウントに固有の電話番号または内線番号を割り当てておく必要があります。 この要件によりダイヤルイン会議中の認証が可能になります。 エンタープライズユーザー (つまり、組織内の Active Directory ドメインサービス資格情報と Lync Server アカウントを持つユーザー) は、電話番号 (または内線番号) と個人識別番号 (PIN) を入力して、会議にダイヤルインします。認証されたユーザー。
 
 </div>
 

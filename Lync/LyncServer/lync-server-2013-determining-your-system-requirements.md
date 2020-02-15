@@ -12,20 +12,20 @@ ms:contentKeyID: 48184286
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4798c763732f529de029db217eccd241902459ce
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 52edce26ca2bfd82113f576344bf89912f69ed1b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762455"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007846"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="determining-your-system-requirements-for-lync-server-2013"></a>Lync Server 2013 システム要件の決定
+# <a name="determining-your-system-requirements-for-lync-server-2013"></a>Lync Server 2013 のシステム要件を決定する
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41762455"
 
 <span> </span>
 
-_**最終更新日:** 2014-01-02_
+_**トピックの最終更新日:** 2014-01-02_
 
-Lync Server を実行しているすべてのサーバーは、特定の最小システム要件を満たしている必要があります。 Lync Server のシステム要件には、サーバーハードウェア、各サーバーにインストールされるオペレーティングシステム、および関連するソフトウェア要件 (Windows の更新プログラムや、サーバーにインストールする必要があるその他のソフトウェアなど) が含まれます。
+Lync Server を実行しているすべてのサーバーは、特定の最小システム要件を満たしている必要があります。 Lync Server のシステム要件には、サーバーハードウェア、各サーバーにインストールするオペレーティングシステム、およびサーバーにインストールする必要がある Windows 更新プログラムやその他のソフトウェアなど、関連するソフトウェア要件があります。
 
 <div>
 
 
 > [!IMPORTANT]  
-> Lync Server は64ビット版でのみ利用できます。これには、64ビットのハードウェアと64ビット版の Windows Server が必要です。 この例外は、32ビット版で利用できる Microsoft Lync Server 2013、計画ツールです。
+> Lync Server は64ビット版でのみ使用できます。これには、64ビットのハードウェアと64ビット版の Windows Server が必要です。 例外は Microsoft Lync Server 2013 の計画ツールであり、32ビット版で利用できます。
 
 
 
@@ -53,7 +53,7 @@ Lync Server を実行しているすべてのサーバーは、特定の最小�
 
 
 > [!NOTE]  
-> Active Directory のサポート、サポートされているトポロジ、サーバーの配置、その他のサポートの問題について詳しくは、「 <A href="lync-server-2013-supportability.md">Lync server 2013 のサポート性</A>」をご覧ください。
+> Active Directory のサポート、サポートされているトポロジ、サーバーの併置、およびその他のサポートの問題の詳細については、「 <A href="lync-server-2013-supportability.md">Lync server 2013 のサポートの</A>概要」を参照してください。
 
 
 
@@ -61,13 +61,13 @@ Lync Server を実行しているすべてのサーバーは、特定の最小�
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 のサーバー ハードウェア プラットフォーム](lync-server-2013-server-hardware-platforms.md)
+  - [Lync Server 2013 のサーバーハードウェアプラットフォーム](lync-server-2013-server-hardware-platforms.md)
 
-  - [Lync Server 2013 でのサーバーおよびツールのオペレーティング システムのサポート](lync-server-2013-server-and-tools-operating-system-support.md)
+  - [Lync Server 2013 でのサーバーおよびツールのオペレーティングシステムのサポート](lync-server-2013-server-and-tools-operating-system-support.md)
 
-  - [Lync Server 2013 でのデータベース ソフトウェアのサポート](lync-server-2013-database-software-support.md)
+  - [Lync Server 2013 でのデータベースソフトウェアのサポート](lync-server-2013-database-software-support.md)
 
   - [Lync Server 2013 の追加ソフトウェア要件](lync-server-2013-additional-software-requirements.md)
 
@@ -78,8 +78,8 @@ Lync Server を実行しているすべてのサーバーは、特定の最小�
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 のクライアントとデバイスのハードウェア サポート](lync-server-2013-client-and-device-hardware-support.md)  
-[Lync Server 2013 のサポート状況](lync-server-2013-supportability.md)  
+[Lync Server 2013 でのクライアントとデバイスのハードウェアのサポート](lync-server-2013-client-and-device-hardware-support.md)  
+[Lync Server 2013 のサポート](lync-server-2013-supportability.md)  
   
 
 </div>
