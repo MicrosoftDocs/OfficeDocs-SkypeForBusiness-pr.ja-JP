@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 既定の写真オプションを構成する'
+title: 'Lync Server 2013: 既定のピクチャオプションの構成'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 56280893
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e551d069da9a3afb7a884c28096dd97ab3702539
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 912bf3c2c30474755fbefd7399f110ae898fc104
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758151"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046430"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-default-picture-options-in-lync-server-2013"></a><span data-ttu-id="624ea-102">Lync Server 2013 で既定のピクチャオプションを構成する</span><span class="sxs-lookup"><span data-stu-id="624ea-102">Configuring default picture options in Lync Server 2013</span></span>
+# <a name="configuring-default-picture-options-in-lync-server-2013"></a><span data-ttu-id="76f01-102">Lync Server 2013 での既定の画像のオプションの構成</span><span class="sxs-lookup"><span data-stu-id="76f01-102">Configuring default picture options in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41758151"
 
 <span> </span>
 
-<span data-ttu-id="624ea-103">_**最終更新日:** 2013-03-22_</span><span class="sxs-lookup"><span data-stu-id="624ea-103">_**Topic Last Modified:** 2013-03-22_</span></span>
+<span data-ttu-id="76f01-103">_**トピックの最終更新日:** 2013-03-22_</span><span class="sxs-lookup"><span data-stu-id="76f01-103">_**Topic Last Modified:** 2013-03-22_</span></span>
 
-<span data-ttu-id="624ea-104">既定では、ユーザーの写真が自動的に表示されます。</span><span class="sxs-lookup"><span data-stu-id="624ea-104">By default, users’ pictures are automatically displayed.</span></span> <span data-ttu-id="624ea-105">ユーザーが画像を非表示にする場合は、Lync クライアントで [**自分の写真を表示**しない] オプションを選択できます。</span><span class="sxs-lookup"><span data-stu-id="624ea-105">If users want to hide their pictures, they can select the **Hide my picture** option in the Lync client.</span></span> <span data-ttu-id="624ea-106">ただし、この設定は、他の一部の Office アプリケーションでは無視されます。</span><span class="sxs-lookup"><span data-stu-id="624ea-106">However, this setting is ignored by some other Office applications.</span></span>
+<span data-ttu-id="76f01-104">既定では、ユーザーの画像が自動的に表示されます。</span><span class="sxs-lookup"><span data-stu-id="76f01-104">By default, users’ pictures are automatically displayed.</span></span> <span data-ttu-id="76f01-105">ユーザーが画像を非表示にする場合は、Lync クライアントで [**自分の画像を表示**しない] オプションを選択できます。</span><span class="sxs-lookup"><span data-stu-id="76f01-105">If users want to hide their pictures, they can select the **Hide my picture** option in the Lync client.</span></span> <span data-ttu-id="76f01-106">ただし、この設定は他の Office アプリケーションでは無視されます。</span><span class="sxs-lookup"><span data-stu-id="76f01-106">However, this setting is ignored by some other Office applications.</span></span>
 
-<span data-ttu-id="624ea-107">ユーザーによって無効にされている場合でも画像を表示する可能性がある場合は、ユーザーの写真が既定で表示されないように、世界中の Lync 画像の表示設定をグローバルに変更したり、サイトまたはサービス用に変更したりすることができます。</span><span class="sxs-lookup"><span data-stu-id="624ea-107">If the possibility of displaying pictures even when turned off by the user is a concern, you can change Lync picture display settings globally or for a site or service so that users’ pictures are not shown by default.</span></span> <span data-ttu-id="624ea-108">以下の Lync Server Management Shell コマンドレットを使用して、クライアントで [**自分の写真を表示**する] オプションを明示的に選択しない限り、ユーザーの写真が表示されないようにします。</span><span class="sxs-lookup"><span data-stu-id="624ea-108">Use the following Lync Server Management Shell cmdlet so that user’s pictures will not be shown unless they explicitly select the **Show my picture** option in the client:</span></span>
+<span data-ttu-id="76f01-107">ユーザーによって無効にされていても画像が表示される可能性がある場合は、Lync 画像の表示設定をグローバルに、またはサイトまたはサービス用に変更して、ユーザーの画像が既定で表示されないようにすることができます。</span><span class="sxs-lookup"><span data-stu-id="76f01-107">If the possibility of displaying pictures even when turned off by the user is a concern, you can change Lync picture display settings globally or for a site or service so that users’ pictures are not shown by default.</span></span> <span data-ttu-id="76f01-108">次の Lync Server 管理シェルコマンドレットを使用して、クライアントで [**自分の画像を表示**する] オプションを明示的に選択しない限り、ユーザーの画像が表示されないようにします。</span><span class="sxs-lookup"><span data-stu-id="76f01-108">Use the following Lync Server Management Shell cmdlet so that user’s pictures will not be shown unless they explicitly select the **Show my picture** option in the client:</span></span>
 
     Set-CsPrivacyConfiguration -DisplayPublishedPhotoDefault $False
 
-<span data-ttu-id="624ea-109">このコマンドレットの詳細については、「Lync Server Management Shell ドキュメントの[CsPrivacyConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsPrivacyConfiguration) 」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="624ea-109">For more information about this cmdlet, see the [Set-CsPrivacyConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsPrivacyConfiguration) in the Lync Server Management Shell documentation.</span></span>
+<span data-ttu-id="76f01-109">このコマンドレットの詳細については、「Lync Server Management Shell」のドキュメントの「 [get-csprivacyconfiguration 戻し](https://docs.microsoft.com/powershell/module/skype/Set-CsPrivacyConfiguration)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="76f01-109">For more information about this cmdlet, see the [Set-CsPrivacyConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsPrivacyConfiguration) in the Lync Server Management Shell documentation.</span></span>
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 日次タスク'
+title: 'Lync Server 2013: 毎日のタスク'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969666
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d63aff308b23e52284988a184e5e9d72beaca26
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fc14c72f614e6e062afc089236182def0d86e634
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728677"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041056"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="daily-tasks-in-lync-server-2013"></a><span data-ttu-id="fc102-102">Lync Server 2013 での日次タスク</span><span class="sxs-lookup"><span data-stu-id="fc102-102">Daily tasks in Lync Server 2013</span></span>
+# <a name="daily-tasks-in-lync-server-2013"></a><span data-ttu-id="3792f-102">Lync Server 2013 の毎日のタスク</span><span class="sxs-lookup"><span data-stu-id="3792f-102">Daily tasks in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,30 +35,30 @@ ms.locfileid: "41728677"
 
 <span> </span>
 
-<span data-ttu-id="fc102-103">_**最終更新日:** 2015-01-26_</span><span class="sxs-lookup"><span data-stu-id="fc102-103">_**Topic Last Modified:** 2015-01-26_</span></span>
+<span data-ttu-id="3792f-103">_**トピックの最終更新日:** 2015-01-26_</span><span class="sxs-lookup"><span data-stu-id="3792f-103">_**Topic Last Modified:** 2015-01-26_</span></span>
 
-<span data-ttu-id="fc102-104">Lync Server 2013 の展開の可用性と信頼性を確保するために、システムの機能 (物理プラットフォーム、オペレーティングシステム、オペレーティングシステムなど) に非常に重要な日常的な日常的な監視とテスト要素の一部としてお勧めします。すべての重要な Lync Server 2013 サービス。</span><span class="sxs-lookup"><span data-stu-id="fc102-104">To help ensure the availability and reliability of the Lync Server 2013 deployment, you should as part of daily routine monitor and test elements that are very important to the functioning of the system, which includes the physical platform, the operating system, and all important Lync Server 2013 services.</span></span> <span data-ttu-id="fc102-105">予防的なメンテナンスと事前監視は、Lync Server 2013 の展開に悪影響を与える可能性のあるエラーや問題を特定するのに役立ちます。</span><span class="sxs-lookup"><span data-stu-id="fc102-105">Preventive maintenance and proactive monitoring will help you identify potential errors and issues that may adversely affect the Lync Server 2013 deployment.</span></span>
+<span data-ttu-id="3792f-104">Lync Server 2013 の展開の可用性と信頼性を確保するために、日常的な日常モニターの一部として、またはシステムの機能にとって非常に重要なテスト要素を使用する必要があります。これには、物理プラットフォーム、オペレーティングシステム、およびすべての重要な Lync Server 2013 サービス。</span><span class="sxs-lookup"><span data-stu-id="3792f-104">To help ensure the availability and reliability of the Lync Server 2013 deployment, you should as part of daily routine monitor and test elements that are very important to the functioning of the system, which includes the physical platform, the operating system, and all important Lync Server 2013 services.</span></span> <span data-ttu-id="3792f-105">予防的なメンテナンスと予防的な監視は、Lync Server 2013 の展開に悪影響を及ぼす可能性のある潜在的なエラーや問題を特定するのに役立ちます。</span><span class="sxs-lookup"><span data-stu-id="3792f-105">Preventive maintenance and proactive monitoring will help you identify potential errors and issues that may adversely affect the Lync Server 2013 deployment.</span></span>
 
-<span data-ttu-id="fc102-106">Lync Server 2013 の展開を監視する場合は、接続、サービス、サーバーリソース、システムリソースの問題をチェックする必要があります。</span><span class="sxs-lookup"><span data-stu-id="fc102-106">Monitoring the Lync Server 2013 deployment involves checking for issues with connections, services, server resources, and system resources.</span></span> <span data-ttu-id="fc102-107">Windows Server オペレーティングシステムと System Center Operations Manager、Lync Server を使用すると、Lync Server 組織が円滑に動作していることを確認するための多くの監視ツールとサービスを利用できます。</span><span class="sxs-lookup"><span data-stu-id="fc102-107">Windows Server operating systems, together with System Center Operations Manager, and Lync Server give you many monitoring tools and services to help ensure that the Lync Server organization is running smoothly.</span></span> <span data-ttu-id="fc102-108">これらのテクノロジが一緒に実装されている場合、管理者は問題発生以前にアラートを受け取ることができます。</span><span class="sxs-lookup"><span data-stu-id="fc102-108">When these technologies are implemented together, administrators will be able to receive alerts when or before issues occur.</span></span>
+<span data-ttu-id="3792f-106">Lync Server 2013 の展開の監視では、接続、サービス、サーバーリソース、およびシステムリソースの問題をチェックする必要があります。</span><span class="sxs-lookup"><span data-stu-id="3792f-106">Monitoring the Lync Server 2013 deployment involves checking for issues with connections, services, server resources, and system resources.</span></span> <span data-ttu-id="3792f-107">Windows Server オペレーティングシステムと System Center Operations Manager、および Lync Server は、Lync Server 組織が円滑に稼働していることを確認するために、多くの監視ツールとサービスを提供します。</span><span class="sxs-lookup"><span data-stu-id="3792f-107">Windows Server operating systems, together with System Center Operations Manager, and Lync Server give you many monitoring tools and services to help ensure that the Lync Server organization is running smoothly.</span></span> <span data-ttu-id="3792f-108">これらのテクノロジが一緒に実装されている場合、管理者は問題が発生する前に通知を受け取ることができます。</span><span class="sxs-lookup"><span data-stu-id="3792f-108">When these technologies are implemented together, administrators will be able to receive alerts when or before issues occur.</span></span>
 
-<span data-ttu-id="fc102-109">日常的な監視を行うことの主な利点は以下のとおりです。</span><span class="sxs-lookup"><span data-stu-id="fc102-109">The key advantages to daily monitoring are as follows:</span></span>
+<span data-ttu-id="3792f-109">日常の監視の主な利点は次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="3792f-109">The key advantages to daily monitoring are as follows:</span></span>
 
-  - <span data-ttu-id="fc102-110">定義されている SLA のパフォーマンスと可用性の要件を満たす。</span><span class="sxs-lookup"><span data-stu-id="fc102-110">Meeting the performance and availability requirements of defined SLAs.</span></span>
+  - <span data-ttu-id="3792f-110">定義されている Sla のパフォーマンスと可用性の要件を満たしていること。</span><span class="sxs-lookup"><span data-stu-id="3792f-110">Meeting the performance and availability requirements of defined SLAs.</span></span>
 
-  - <span data-ttu-id="fc102-111">日々のバックアップ処理、サーバーの状態のチェックといった特定の管理タスクを正常に完了する。</span><span class="sxs-lookup"><span data-stu-id="fc102-111">Successfully completing specific administrative tasks, such as daily backup operations, and checking server health.</span></span>
+  - <span data-ttu-id="3792f-111">毎日のバックアップ操作などの特定の管理タスクを正常に完了し、サーバーの正常性をチェックします。</span><span class="sxs-lookup"><span data-stu-id="3792f-111">Successfully completing specific administrative tasks, such as daily backup operations, and checking server health.</span></span>
 
-  - <span data-ttu-id="fc102-112">サーバーのパフォーマンスにおけるボトルネックなどの問題を検知し、対処する。またはこれらの問題が生産性に影響を及ぼす前に追加リソースの必要性を検知し、対処する。</span><span class="sxs-lookup"><span data-stu-id="fc102-112">Detecting and addressing issues, such as bottlenecks in the server performance, or need for additional resources before they affect productivity.</span></span>
+  - <span data-ttu-id="3792f-112">サーバーパフォーマンスのボトルネックなどの問題を検出し、対処するか、生産性に影響する前に追加のリソースを必要とします。</span><span class="sxs-lookup"><span data-stu-id="3792f-112">Detecting and addressing issues, such as bottlenecks in the server performance, or need for additional resources before they affect productivity.</span></span>
 
-<span data-ttu-id="fc102-113">毎日のメンテナンスによって、管理チームは、組織内の標準的なシステム動作の基準やベースラインを定義または確立したり、通常とは異なる動作を検知したりすることができます。</span><span class="sxs-lookup"><span data-stu-id="fc102-113">Daily maintenance tasks help the administrative team to define or establish a criteria or baseline for normal systems operations within the organization, and to detect any abnormal activity.</span></span> <span data-ttu-id="fc102-114">この日常的なメンテナンスタスクを実装して、管理チームが Lync Server 2013 インフラストラクチャに関するデータ (使用レベル、考えられるパフォーマンスのボトルネック、管理上の変更など) に関するデータを取得して管理できるようにすることが重要です。</span><span class="sxs-lookup"><span data-stu-id="fc102-114">It is important to implement these daily maintenance tasks so that the administrative team can capture and maintain data about the Lync Server 2013 infrastructure, such as usage levels, possible performance bottlenecks, and administrative changes.</span></span>
+<span data-ttu-id="3792f-113">毎日のメンテナンスタスクは、管理チームが組織内の通常のシステム操作の基準または基準を定義または確立したり、異常な動作を検出したりするのを支援します。</span><span class="sxs-lookup"><span data-stu-id="3792f-113">Daily maintenance tasks help the administrative team to define or establish a criteria or baseline for normal systems operations within the organization, and to detect any abnormal activity.</span></span> <span data-ttu-id="3792f-114">管理チームが Lync Server 2013 のインフラストラクチャに関するデータを取得して管理できるようにするには、これらの毎日のメンテナンスタスクを実装することが重要です。</span><span class="sxs-lookup"><span data-stu-id="3792f-114">It is important to implement these daily maintenance tasks so that the administrative team can capture and maintain data about the Lync Server 2013 infrastructure, such as usage levels, possible performance bottlenecks, and administrative changes.</span></span>
 
-<span data-ttu-id="fc102-115">日次タスクのパフォーマンスを簡単に体系化するには、[日次タスク チェックリスト](lync-server-2013-operations-checklists.md)を使用します。</span><span class="sxs-lookup"><span data-stu-id="fc102-115">To help organize the performance of daily tasks, use the [Daily task checklist](lync-server-2013-operations-checklists.md).</span></span>
+<span data-ttu-id="3792f-115">毎日のタスクのパフォーマンスを整理するには、[日単位のタスクチェックリスト](lync-server-2013-operations-checklists.md)を使用します。</span><span class="sxs-lookup"><span data-stu-id="3792f-115">To help organize the performance of daily tasks, use the [Daily task checklist](lync-server-2013-operations-checklists.md).</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="fc102-116">関連項目</span><span class="sxs-lookup"><span data-stu-id="fc102-116">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3792f-116">関連項目</span><span class="sxs-lookup"><span data-stu-id="3792f-116">See Also</span></span>
 
 
-[<span data-ttu-id="fc102-117">日次タスク チェックリスト</span><span class="sxs-lookup"><span data-stu-id="fc102-117">Daily task checklist</span></span>](lync-server-2013-operations-checklists.md)  
+[<span data-ttu-id="3792f-117">日毎のタスクチェックリスト</span><span class="sxs-lookup"><span data-stu-id="3792f-117">Daily task checklist</span></span>](lync-server-2013-operations-checklists.md)  
   
 
 </div>

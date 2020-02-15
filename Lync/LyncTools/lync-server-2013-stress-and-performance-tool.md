@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013 ストレスおよびパフォーマンス ツール
+title: Lync Server 2013 ストレスおよびパフォーマンスツール
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541435
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b1dd1aff9eda1d40ba231a5c23e47e77c1c19858
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6b98c2d8b45db16880f22ed3a26fc61774db2213
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723417"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038349"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-stress-and-performance-tool"></a><span data-ttu-id="17e3c-102">Lync Server 2013 ストレスおよびパフォーマンス ツール</span><span class="sxs-lookup"><span data-stu-id="17e3c-102">Lync Server 2013 Stress and Performance Tool</span></span>
+# <a name="lync-server-2013-stress-and-performance-tool"></a><span data-ttu-id="4bd43-102">Lync Server 2013 ストレスおよびパフォーマンスツール</span><span class="sxs-lookup"><span data-stu-id="4bd43-102">Lync Server 2013 Stress and Performance Tool</span></span>
 
 </div>
 
@@ -35,37 +35,37 @@ ms.locfileid: "41723417"
 
 <span> </span>
 
-<span data-ttu-id="17e3c-103">_**最終更新日:** 2013-01-25_</span><span class="sxs-lookup"><span data-stu-id="17e3c-103">_**Topic Last Modified:** 2013-01-25_</span></span>
+<span data-ttu-id="4bd43-103">_**トピックの最終更新日:** 2013-01-25_</span><span class="sxs-lookup"><span data-stu-id="4bd43-103">_**Topic Last Modified:** 2013-01-25_</span></span>
 
-<span data-ttu-id="17e3c-104">Lync Server 2013 のストレスとパフォーマンスツールには、Lync Server 2013 のキャパシティ計画を簡素化するためのツールが含まれています。</span><span class="sxs-lookup"><span data-stu-id="17e3c-104">The Lync Server 2013 Stress and Performance Tool includes tools that simplify capacity planning for Lync Server 2013.</span></span> <span data-ttu-id="17e3c-105">Lync Server 2013 のストレスとパフォーマンスツールは、次のことを行うのに役立ちます。</span><span class="sxs-lookup"><span data-stu-id="17e3c-105">The Lync Server 2013 Stress and Performance Tool will help you to:</span></span>
+<span data-ttu-id="4bd43-104">Lync Server 2013 のストレスおよびパフォーマンスツールには、Lync Server 2013 の容量計画を簡素化するツールが含まれています。</span><span class="sxs-lookup"><span data-stu-id="4bd43-104">The Lync Server 2013 Stress and Performance Tool includes tools that simplify capacity planning for Lync Server 2013.</span></span> <span data-ttu-id="4bd43-105">Lync Server 2013 ストレスおよびパフォーマンスツールは、次のように役立ちます。</span><span class="sxs-lookup"><span data-stu-id="4bd43-105">The Lync Server 2013 Stress and Performance Tool will help you to:</span></span>
 
-  - <span data-ttu-id="17e3c-106">Lync Server 2013 のハードウェア計画を簡素化します。</span><span class="sxs-lookup"><span data-stu-id="17e3c-106">Simplify your hardware planning for Lync Server 2013 .</span></span>
+  - <span data-ttu-id="4bd43-106">Lync Server 2013 のハードウェア計画を簡素化します。</span><span class="sxs-lookup"><span data-stu-id="4bd43-106">Simplify your hardware planning for Lync Server 2013 .</span></span>
 
-  - <span data-ttu-id="17e3c-107">パフォーマンスの調整に関する知識とベストプラクティスを強化します。</span><span class="sxs-lookup"><span data-stu-id="17e3c-107">Provide you with increased knowledge and best practices for performance tuning.</span></span>
+  - <span data-ttu-id="4bd43-107">パフォーマンスをチューニングするための、強化された知識とベストプラクティスを提供します。</span><span class="sxs-lookup"><span data-stu-id="4bd43-107">Provide you with increased knowledge and best practices for performance tuning.</span></span>
 
-  - <span data-ttu-id="17e3c-108">目的の Lync Server 2013 展開のパフォーマンスを測定します。</span><span class="sxs-lookup"><span data-stu-id="17e3c-108">Measure the performance of your intended Lync Server 2013 deployments.</span></span>
+  - <span data-ttu-id="4bd43-108">想定される Lync Server 2013 展開のパフォーマンスを測定します。</span><span class="sxs-lookup"><span data-stu-id="4bd43-108">Measure the performance of your intended Lync Server 2013 deployments.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="17e3c-109">このセクション中</span><span class="sxs-lookup"><span data-stu-id="17e3c-109">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="4bd43-109">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="4bd43-109">In This Section</span></span>
 
-1.  [<span data-ttu-id="17e3c-110">概要</span><span class="sxs-lookup"><span data-stu-id="17e3c-110">Introduction</span></span>](introduction.md)
+1.  [<span data-ttu-id="4bd43-110">はじめに</span><span class="sxs-lookup"><span data-stu-id="4bd43-110">Introduction</span></span>](introduction.md)
 
-2.  [<span data-ttu-id="17e3c-111">前提条件</span><span class="sxs-lookup"><span data-stu-id="17e3c-111">Prerequisites</span></span>](prerequisites.md)
+2.  [<span data-ttu-id="4bd43-111">前提条件</span><span class="sxs-lookup"><span data-stu-id="4bd43-111">Prerequisites</span></span>](prerequisites.md)
 
-3.  [<span data-ttu-id="17e3c-112">セットアップ</span><span class="sxs-lookup"><span data-stu-id="17e3c-112">Setup</span></span>](setup.md)
+3.  [<span data-ttu-id="4bd43-112">セットアップ</span><span class="sxs-lookup"><span data-stu-id="4bd43-112">Setup</span></span>](setup.md)
 
-4.  [<span data-ttu-id="17e3c-113">Lync Server 2013 のシナリオを構成する</span><span class="sxs-lookup"><span data-stu-id="17e3c-113">Configure Lync Server 2013 Scenarios</span></span>](configure-lync-server-2013-scenarios.md)
+4.  [<span data-ttu-id="4bd43-113">Lync Server 2013 のシナリオを構成する</span><span class="sxs-lookup"><span data-stu-id="4bd43-113">Configure Lync Server 2013 Scenarios</span></span>](configure-lync-server-2013-scenarios.md)
 
-5.  [<span data-ttu-id="17e3c-114">ユーザーと連絡先の作成</span><span class="sxs-lookup"><span data-stu-id="17e3c-114">Create Users and Contacts</span></span>](create-users-and-contacts.md)
+5.  [<span data-ttu-id="4bd43-114">ユーザーと連絡先を作成する</span><span class="sxs-lookup"><span data-stu-id="4bd43-114">Create Users and Contacts</span></span>](create-users-and-contacts.md)
 
-6.  [<span data-ttu-id="17e3c-115">ユーザー プロファイルの構成</span><span class="sxs-lookup"><span data-stu-id="17e3c-115">Configure User Profile</span></span>](configure-user-profile.md)
+6.  [<span data-ttu-id="4bd43-115">ユーザープロファイルを構成する</span><span class="sxs-lookup"><span data-stu-id="4bd43-115">Configure User Profile</span></span>](configure-user-profile.md)
 
-7.  [<span data-ttu-id="17e3c-116">LyncPerfTool の実行</span><span class="sxs-lookup"><span data-stu-id="17e3c-116">Run LyncPerfTool</span></span>](run-lyncperftool.md)
+7.  [<span data-ttu-id="4bd43-116">LyncPerfTool を実行する</span><span class="sxs-lookup"><span data-stu-id="4bd43-116">Run LyncPerfTool</span></span>](run-lyncperftool.md)
 
-8.  [<span data-ttu-id="17e3c-117">結果の解釈</span><span class="sxs-lookup"><span data-stu-id="17e3c-117">Interpreting the Results</span></span>](interpreting-the-results.md)
+8.  [<span data-ttu-id="4bd43-117">結果の解釈</span><span class="sxs-lookup"><span data-stu-id="4bd43-117">Interpreting the Results</span></span>](interpreting-the-results.md)
 
-9.  [<span data-ttu-id="17e3c-118">Lync Server 2013 のストレスとパフォーマンスに関するツールについてよく寄せられる質問</span><span class="sxs-lookup"><span data-stu-id="17e3c-118">Lync Server 2013 Stress and Performance Tool FAQ</span></span>](lync-server-2013-stress-and-performance-tool-faq.md)
+9.  [<span data-ttu-id="4bd43-118">Lync Server 2013 ストレスおよびパフォーマンスツールの FAQ</span><span class="sxs-lookup"><span data-stu-id="4bd43-118">Lync Server 2013 Stress and Performance Tool FAQ</span></span>](lync-server-2013-stress-and-performance-tool-faq.md)
 
 </div>
 

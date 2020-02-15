@@ -12,20 +12,20 @@ ms:contentKeyID: 49733740
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1188f80c5dc8555b53f54e7a13c60f97817eaba2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f5d0a9b1141688ad5c524090999d6277eb8a733b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738803"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037527"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-call-park-in-lync-server-2013"></a><span data-ttu-id="92fdd-102">Lync Server 2013 でのコールパークの管理</span><span class="sxs-lookup"><span data-stu-id="92fdd-102">Managing Call Park in Lync Server 2013</span></span>
+# <a name="managing-call-park-in-lync-server-2013"></a><span data-ttu-id="66d2a-102">Lync Server 2013 でのコールパークの管理</span><span class="sxs-lookup"><span data-stu-id="66d2a-102">Managing Call Park in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41738803"
 
 <span> </span>
 
-<span data-ttu-id="92fdd-103">_**最終更新日:** 2012-09-10_</span><span class="sxs-lookup"><span data-stu-id="92fdd-103">_**Topic Last Modified:** 2012-09-10_</span></span>
+<span data-ttu-id="66d2a-103">_**トピックの最終更新日:** 2012-09-10_</span><span class="sxs-lookup"><span data-stu-id="66d2a-103">_**Topic Last Modified:** 2012-09-10_</span></span>
 
-<span data-ttu-id="92fdd-104">コールパークアプリケーションを使うと、エンタープライズボイスユーザーは1つの電話から通話を保留にすることができ、その後で任意の電話から通話を受信することができます。</span><span class="sxs-lookup"><span data-stu-id="92fdd-104">The Call Park application enables an Enterprise Voice user to put a call on hold from one telephone and then retrieve the call later from any telephone.</span></span> <span data-ttu-id="92fdd-105">ユーザーが通話をパークすると、Lync Server は、着信が転送されるまでの一時的な電話番号に通話を*転送します*。この番号は、だれかが通話を発信するか、またはタイムアウトします。</span><span class="sxs-lookup"><span data-stu-id="92fdd-105">When the user parks a call, Lync Server transfers the call to a temporary number, called an *orbit*, where the call is held until someone retrieves it or it times out.</span></span>
+<span data-ttu-id="66d2a-104">コールパークアプリケーションを使用すると、エンタープライズ Voip ユーザーは1つの電話から通話を保留した後、電話をかけて後で通話を取得することができます。</span><span class="sxs-lookup"><span data-stu-id="66d2a-104">The Call Park application enables an Enterprise Voice user to put a call on hold from one telephone and then retrieve the call later from any telephone.</span></span> <span data-ttu-id="66d2a-105">ユーザーが電話をパークすると、Lync Server が通話を*オービット*と呼ばれる一時的な番号に転送します。この番号は、だれかが取得するか、タイムアウトになるまで通話を保持します。</span><span class="sxs-lookup"><span data-stu-id="66d2a-105">When the user parks a call, Lync Server transfers the call to a temporary number, called an *orbit*, where the call is held until someone retrieves it or it times out.</span></span>
 
-<span data-ttu-id="92fdd-106">このセクションのトピックでは、展開でコールパークアプリケーションをカスタマイズして維持するために実行できるタスクのステップバイステップの手順について説明します。</span><span class="sxs-lookup"><span data-stu-id="92fdd-106">Topics in this section provide step-by-step procedures for tasks that you can perform to customize and maintain the Call Park application in your deployment.</span></span>
+<span data-ttu-id="66d2a-106">このセクションのトピックでは、展開でコールパークアプリケーションをカスタマイズして管理するために実行できるタスクの手順について順を追って説明します。</span><span class="sxs-lookup"><span data-stu-id="66d2a-106">Topics in this section provide step-by-step procedures for tasks that you can perform to customize and maintain the Call Park application in your deployment.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="92fdd-107">このセクション中</span><span class="sxs-lookup"><span data-stu-id="92fdd-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="66d2a-107">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="66d2a-107">In This Section</span></span>
 
-  - [<span data-ttu-id="92fdd-108">Lync Server 2013 でのパーキング通話用の電話番号の内線番号を構成する</span><span class="sxs-lookup"><span data-stu-id="92fdd-108">Configure phone number extensions for parking calls in Lync Server 2013</span></span>](lync-server-2013-configure-phone-number-extensions-for-parking-calls.md)
+  - [<span data-ttu-id="66d2a-108">Lync Server 2013 でのパーキング呼び出しの内線電話番号の構成</span><span class="sxs-lookup"><span data-stu-id="66d2a-108">Configure phone number extensions for parking calls in Lync Server 2013</span></span>](lync-server-2013-configure-phone-number-extensions-for-parking-calls.md)
 
-  - [<span data-ttu-id="92fdd-109">Lync Server 2013 でのコールパーク設定の構成</span><span class="sxs-lookup"><span data-stu-id="92fdd-109">Configure Call Park settings in Lync Server 2013</span></span>](lync-server-2013-configure-call-park-settings.md)
+  - [<span data-ttu-id="66d2a-109">Lync Server 2013 でコールパーク設定を構成する</span><span class="sxs-lookup"><span data-stu-id="66d2a-109">Configure Call Park settings in Lync Server 2013</span></span>](lync-server-2013-configure-call-park-settings.md)
 
-  - [<span data-ttu-id="92fdd-110">通話パークをカスタマイズする Lync Server 2013 の保留中の音楽</span><span class="sxs-lookup"><span data-stu-id="92fdd-110">Customize Call Park music on hold in Lync Server 2013</span></span>](lync-server-2013-customize-call-park-music-on-hold.md)
+  - [<span data-ttu-id="66d2a-110">Lync Server 2013 でコールパーク保留音をカスタマイズする</span><span class="sxs-lookup"><span data-stu-id="66d2a-110">Customize Call Park music on hold in Lync Server 2013</span></span>](lync-server-2013-customize-call-park-music-on-hold.md)
 
-  - [<span data-ttu-id="92fdd-111">Lync Server 2013 での障害復旧時のコール パークの管理</span><span class="sxs-lookup"><span data-stu-id="92fdd-111">Manage Call Park during disaster recovery in Lync Server 2013</span></span>](lync-server-2013-manage-call-park-during-disaster-recovery.md)
+  - [<span data-ttu-id="66d2a-111">Lync Server 2013 での障害復旧時のコールパークの管理</span><span class="sxs-lookup"><span data-stu-id="66d2a-111">Manage Call Park during disaster recovery in Lync Server 2013</span></span>](lync-server-2013-manage-call-park-during-disaster-recovery.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 存続可能ブランチ アプライアンスの接続
+title: 存続可能ブランチアプライアンスの接続
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -10,65 +10,65 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: すべての Survivable Branch Appliance (SBA) は、SBA のバックアップレジストラーとして機能するフロントエンドプールと関連付けられています。 フロントエンドプールが Skype for Business Server 2019 に移行された場合、プールがアップグレードされている間、SBA はフロントエンドプールとの関連付けを解除する必要があります。プールが Skype for Business Server 2019 に移行されると、SBA はアップグレードされたフロント E に再関連付けることができます。nd プール。 これには、トポロジビルダーで従来のトポロジから SBA を削除してから、SBA を Skype for Business Server 2019 トポロジに追加する作業が含まれます。 以前の SBA をホームにしているユーザーは、トポロジから SBA を削除する前に、別のフロントエンドプールに移動する必要があります。 SBA が Skype for Business Server 2019 トポロジに追加されると、それらのユーザーを SBA に戻すことができます。 以下に、これらの手順の概要を示します。
-ms.openlocfilehash: daeb061936ece02767e3299d2358d8e16ba09218
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: すべての存続可能 Branch Appliance (SBA) は、SBA のバックアップレジストラーとして機能するフロントエンドプールに関連付けられています。 フロントエンドプールが Skype for Business Server 2019 に移行される場合、プールがアップグレードされている間はフロントエンドプールとの SBA の関連付けを解除する必要があります。プールが Skype for Business Server 2019 に移行されると、SBA をアップグレードしたフロント E に再関連付けすることができます。nd プール。 これには、トポロジビルダーの従来のトポロジから SBA を削除してから、SBA を Skype for Business Server 2019 トポロジに追加する必要があります。 SBA をトポロジから削除する前に、従来の SBA に所属するユーザーを別のフロントエンドプールに移動する必要があります。 SBA が Skype for Business Server 2019 トポロジに追加されると、それらのユーザーは SBA に戻ることができます。 これらの手順の概要を次に示します。
+ms.openlocfilehash: 7f51b9c29d6008ea3606184eb22741a489d056df
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813735"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42027788"
 ---
-# <a name="connect-a-survivable-branch-appliance"></a><span data-ttu-id="4f7ef-108">存続可能ブランチ アプライアンスの接続</span><span class="sxs-lookup"><span data-stu-id="4f7ef-108">Connect a Survivable Branch Appliance</span></span>
+# <a name="connect-a-survivable-branch-appliance"></a><span data-ttu-id="2668f-108">存続可能ブランチアプライアンスの接続</span><span class="sxs-lookup"><span data-stu-id="2668f-108">Connect a Survivable Branch Appliance</span></span>
 
-<span data-ttu-id="4f7ef-109">すべての Survivable Branch Appliance (SBA) は、SBA のバックアップレジストラーとして機能するフロントエンドプールと関連付けられています。</span><span class="sxs-lookup"><span data-stu-id="4f7ef-109">Every Survivable Branch Appliance (SBA) is associated with a Front End pool that serves as a backup registrar for the SBA.</span></span> <span data-ttu-id="4f7ef-110">フロントエンドプールが Skype for Business Server 2019 に移行されるとき、プールがアップグレードされている間、SBA はフロントエンドプールとの関連付けを解除する必要があります。</span><span class="sxs-lookup"><span data-stu-id="4f7ef-110">When the Front End pool is migrated to Skype for Business Server 2019, the SBA must be disassociated from the Front End pool while the pool is upgraded.</span></span> <span data-ttu-id="4f7ef-111">プールが Skype for Business Server 2019 に移行された後、SBA は、アップグレードされたフロントエンドプールに再関連付けることができます。</span><span class="sxs-lookup"><span data-stu-id="4f7ef-111">After the pool has been migrated to Skype for Business Server 2019, the SBA can be re-associated with the upgraded Front End pool.</span></span> <span data-ttu-id="4f7ef-112">これには、トポロジビルダーで従来のトポロジから SBA を削除してから、SBA を Skype for Business Server 2019 トポロジに追加する作業が含まれます。</span><span class="sxs-lookup"><span data-stu-id="4f7ef-112">This involves deleting the SBA from the legacy topology in Topology Builder and then adding the SBA to the Skype for Business Server 2019 topology.</span></span> <span data-ttu-id="4f7ef-113">以前の SBA をホームにしているユーザーは、トポロジから SBA を削除する前に、別のフロントエンドプールに移動する必要があります。</span><span class="sxs-lookup"><span data-stu-id="4f7ef-113">Users homed on the legacy SBA must first be moved to another Front End pool before removing the SBA from the topology.</span></span> <span data-ttu-id="4f7ef-114">SBA が Skype for Business Server 2019 トポロジに追加された後は、それらのユーザーを SBA に戻すことができます。</span><span class="sxs-lookup"><span data-stu-id="4f7ef-114">After the SBA is added to the Skype for Business Server 2019 topology, those users can be moved back to the SBA.</span></span> <span data-ttu-id="4f7ef-115">以下に、これらの手順の概要を示します。</span><span class="sxs-lookup"><span data-stu-id="4f7ef-115">These steps are summarized below:</span></span>
+<span data-ttu-id="2668f-109">すべての存続可能 Branch Appliance (SBA) は、SBA のバックアップレジストラーとして機能するフロントエンドプールに関連付けられています。</span><span class="sxs-lookup"><span data-stu-id="2668f-109">Every Survivable Branch Appliance (SBA) is associated with a Front End pool that serves as a backup registrar for the SBA.</span></span> <span data-ttu-id="2668f-110">フロントエンドプールが Skype for Business Server 2019 に移行される場合、プールがアップグレードされている間は、フロントエンドプールとの関連付けを解除する必要があります SBA。</span><span class="sxs-lookup"><span data-stu-id="2668f-110">When the Front End pool is migrated to Skype for Business Server 2019, the SBA must be disassociated from the Front End pool while the pool is upgraded.</span></span> <span data-ttu-id="2668f-111">プールが Skype for Business Server 2019 に移行された後、SBA をアップグレードしたフロントエンドプールに再関連付けすることができます。</span><span class="sxs-lookup"><span data-stu-id="2668f-111">After the pool has been migrated to Skype for Business Server 2019, the SBA can be re-associated with the upgraded Front End pool.</span></span> <span data-ttu-id="2668f-112">これには、トポロジビルダーの従来のトポロジから SBA を削除してから、SBA を Skype for Business Server 2019 トポロジに追加する必要があります。</span><span class="sxs-lookup"><span data-stu-id="2668f-112">This involves deleting the SBA from the legacy topology in Topology Builder and then adding the SBA to the Skype for Business Server 2019 topology.</span></span> <span data-ttu-id="2668f-113">SBA をトポロジから削除する前に、従来の SBA に所属するユーザーを別のフロントエンドプールに移動する必要があります。</span><span class="sxs-lookup"><span data-stu-id="2668f-113">Users homed on the legacy SBA must first be moved to another Front End pool before removing the SBA from the topology.</span></span> <span data-ttu-id="2668f-114">SBA が Skype for Business Server 2019 トポロジに追加された後、それらのユーザーを SBA に戻すことができます。</span><span class="sxs-lookup"><span data-stu-id="2668f-114">After the SBA is added to the Skype for Business Server 2019 topology, those users can be moved back to the SBA.</span></span> <span data-ttu-id="2668f-115">これらの手順の概要を次に示します。</span><span class="sxs-lookup"><span data-stu-id="2668f-115">These steps are summarized below:</span></span>
   
-1. <span data-ttu-id="4f7ef-116">従来の SBA に所属しているブランチユーザーを別のフロントエンドプールに移動します。</span><span class="sxs-lookup"><span data-stu-id="4f7ef-116">Move branch users homed on the legacy SBA to another Front End pool.</span></span>
+1. <span data-ttu-id="2668f-116">従来の SBA に所属するブランチユーザーを別のフロントエンドプールに移動します。</span><span class="sxs-lookup"><span data-stu-id="2668f-116">Move branch users homed on the legacy SBA to another Front End pool.</span></span>
     
-2. <span data-ttu-id="4f7ef-117">既存のフロントエンドプールをバックアップレジストラーとして切断するには、従来のトポロジから SBA を削除します。</span><span class="sxs-lookup"><span data-stu-id="4f7ef-117">Remove SBA from the legacy topology to disconnect the existing Front End pool as a backup registrar.</span></span>
+2. <span data-ttu-id="2668f-117">既存のフロントエンドプールをバックアップレジストラーとして切断するには、SBA を従来のトポロジから削除します。</span><span class="sxs-lookup"><span data-stu-id="2668f-117">Remove SBA from the legacy topology to disconnect the existing Front End pool as a backup registrar.</span></span>
     
-3. <span data-ttu-id="4f7ef-118">SBA を Skype for Business Server 2019 トポロジに追加し、この新しいフロントエンドプールをバックアップレジストラーとして構成します。</span><span class="sxs-lookup"><span data-stu-id="4f7ef-118">Add SBA to the Skype for Business Server 2019 topology and configure this new Front End pool as the backup registrar.</span></span> 
+3. <span data-ttu-id="2668f-118">SBA を Skype for Business Server 2019 トポロジに追加し、この新しいフロントエンドプールをバックアップレジストラーとして構成します。</span><span class="sxs-lookup"><span data-stu-id="2668f-118">Add SBA to the Skype for Business Server 2019 topology and configure this new Front End pool as the backup registrar.</span></span> 
     
-4. <span data-ttu-id="4f7ef-119">ブランチユーザーを新しい Skype for Business Server 2019 SBA に移動します。</span><span class="sxs-lookup"><span data-stu-id="4f7ef-119">Move the branch users to the new Skype for Business Server 2019 SBA.</span></span>
+4. <span data-ttu-id="2668f-119">ブランチユーザーを新しい Skype for Business Server 2019 SBA に移動します。</span><span class="sxs-lookup"><span data-stu-id="2668f-119">Move the branch users to the new Skype for Business Server 2019 SBA.</span></span>
     
-### <a name="add-legacy-sba-branch-site-to-your-topology"></a><span data-ttu-id="4f7ef-120">従来の SBA ブランチサイトをトポロジに追加する</span><span class="sxs-lookup"><span data-stu-id="4f7ef-120">Add legacy SBA branch site to your topology</span></span>
+### <a name="add-legacy-sba-branch-site-to-your-topology"></a><span data-ttu-id="2668f-120">従来の SBA ブランチサイトをトポロジに追加する</span><span class="sxs-lookup"><span data-stu-id="2668f-120">Add legacy SBA branch site to your topology</span></span>
 
-1. <span data-ttu-id="4f7ef-121">**トポロジビルダー**を開きます。</span><span class="sxs-lookup"><span data-stu-id="4f7ef-121">Open **Topology Builder**.</span></span>
+1. <span data-ttu-id="2668f-121">**トポロジ ビルダー**を開きます。</span><span class="sxs-lookup"><span data-stu-id="2668f-121">Open **Topology Builder**.</span></span>
     
-2. <span data-ttu-id="4f7ef-122">左側のウィンドウで、[**ブランチサイト**] を右クリックし、[**新しいブランチサイト**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="4f7ef-122">In the left pane, right-click **Branch sites**, and then click **New Branch Site**.</span></span>
+2. <span data-ttu-id="2668f-122">左側のウィンドウで、[**ブランチサイト**] を右クリックし、[**新しいブランチサイト**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="2668f-122">In the left pane, right-click **Branch sites**, and then click **New Branch Site**.</span></span>
     
-3. <span data-ttu-id="4f7ef-123">[**新しい分岐サイトの定義**] ダイアログボックスで、[**名前**] をクリックし、ブランチサイトの名前を入力します。</span><span class="sxs-lookup"><span data-stu-id="4f7ef-123">In the **Define New Branch Site** dialog box, click **Name**, and then type the name of the branch site.</span></span>
+3. <span data-ttu-id="2668f-123">**[新しいブランチ サイトの定義]** ダイアログ ボックスで、**[名前]** をクリックし、ブランチ サイトの名前を入力します。</span><span class="sxs-lookup"><span data-stu-id="2668f-123">In the **Define New Branch Site** dialog box, click **Name**, and then type the name of the branch site.</span></span>
     
-4. <span data-ttu-id="4f7ef-124">省略[**説明**] をクリックし、ブランチサイトにわかりやすい説明を入力します。</span><span class="sxs-lookup"><span data-stu-id="4f7ef-124">(Optional) Click **Description**, and then type a meaningful description for the branch site.</span></span>
+4. <span data-ttu-id="2668f-124">(オプション) **[説明]** をクリックし、ブランチ サイトの分かりやすい説明を入力します。</span><span class="sxs-lookup"><span data-stu-id="2668f-124">(Optional) Click **Description**, and then type a meaningful description for the branch site.</span></span>
     
-5. <span data-ttu-id="4f7ef-125">[ **次へ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="4f7ef-125">Click **Next**.</span></span>
+5. <span data-ttu-id="2668f-125">**[次へ]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="2668f-125">Click **Next**.</span></span>
     
-6. <span data-ttu-id="4f7ef-126">省略[次の**新しいブランチサイトの定義**] ダイアログボックスで、次のいずれかの操作を行います。</span><span class="sxs-lookup"><span data-stu-id="4f7ef-126">(Optional) In the next **Define New Branch Site** dialog box, do any of the following:</span></span> 
+6. <span data-ttu-id="2668f-126">(オプション) 次の **[新しいブランチ サイトの定義]** ダイアログ ボックスで、以下のいずれかの操作を行います。</span><span class="sxs-lookup"><span data-stu-id="2668f-126">(Optional) In the next **Define New Branch Site** dialog box, do any of the following:</span></span> 
     
-    1. <span data-ttu-id="4f7ef-127">[**市区町村**] をクリックし、ブランチサイトが配置されている都市の名前を入力します。</span><span class="sxs-lookup"><span data-stu-id="4f7ef-127">Click **City**, and then type the name of the city in which the branch site is located.</span></span>
+    1. <span data-ttu-id="2668f-127">**[市区町村]** をクリックし、ブランチ サイトが所在する市区町村の名前を入力します。</span><span class="sxs-lookup"><span data-stu-id="2668f-127">Click **City**, and then type the name of the city in which the branch site is located.</span></span>
     
-    2. <span data-ttu-id="4f7ef-128">[**状態/地域**] をクリックして、ブランチサイトが配置されている状態または地域の名前を入力します。</span><span class="sxs-lookup"><span data-stu-id="4f7ef-128">Click **State/Region**, and then type the name of the state or region in which the branch site is located.</span></span>
+    2. <span data-ttu-id="2668f-128">**[都道府県/地域]** をクリックし、ブランチ サイトが所在する都道府県または地域の名前を入力します。</span><span class="sxs-lookup"><span data-stu-id="2668f-128">Click **State/Region**, and then type the name of the state or region in which the branch site is located.</span></span>
     
-    3. <span data-ttu-id="4f7ef-129">[**国コード**] をクリックし、ブランチサイトが配置されている国/地域の2桁の通話コードを入力します。</span><span class="sxs-lookup"><span data-stu-id="4f7ef-129">Click **Country Code**, and then type the two-digit calling code for the country/region in which the branch site is located.</span></span>
+    3. <span data-ttu-id="2668f-129">**[国番号]** をクリックし、ブランチ サイトが所在する国または地域の 2 桁番号を入力します。</span><span class="sxs-lookup"><span data-stu-id="2668f-129">Click **Country Code**, and then type the two-digit calling code for the country/region in which the branch site is located.</span></span>
     
-7. <span data-ttu-id="4f7ef-130">[**次へ**] をクリックし、このサイトで Survivable Branch アプライアンスまたはサーバーを使用している場合は、[**このウィザードを閉じるときに、新しい Survivable ウィザードを開く**] チェックボックスを必ずオフにしてください。</span><span class="sxs-lookup"><span data-stu-id="4f7ef-130">Click **Next**, and then, if you are using a Survivable Branch Appliance or Server at this site, be sure to clear the **Open the New Survivable Wizard when this wizard closes** check box.</span></span> <span data-ttu-id="4f7ef-131">[**完了**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="4f7ef-131">Click **Finish**.</span></span>
+7. <span data-ttu-id="2668f-130">[**次へ**] をクリックし、このサイトで存続可能ブランチアプライアンスまたはサーバーを使用している場合は、必ず [**このウィザードを閉じるときに新しい存続可能ウィザードを開く**] チェックボックスをオフにします。</span><span class="sxs-lookup"><span data-stu-id="2668f-130">Click **Next**, and then, if you are using a Survivable Branch Appliance or Server at this site, be sure to clear the **Open the New Survivable Wizard when this wizard closes** check box.</span></span> <span data-ttu-id="2668f-131">[**完了**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="2668f-131">Click **Finish**.</span></span>
     
-8. <span data-ttu-id="4f7ef-132">従来の SBA を Skype for Business Server 2019 フロントエンドプールに関連付けるには、次の操作を行います。</span><span class="sxs-lookup"><span data-stu-id="4f7ef-132">To associate the legacy SBA to the Skype for Business Server 2019 Front End pool:</span></span>
+8. <span data-ttu-id="2668f-132">従来の SBA を Skype for Business Server 2019 のフロントエンドプールに関連付けるには、次のようにします。</span><span class="sxs-lookup"><span data-stu-id="2668f-132">To associate the legacy SBA to the Skype for Business Server 2019 Front End pool:</span></span>
     
-    1. <span data-ttu-id="4f7ef-133">作成されたブランチサイトを展開します。</span><span class="sxs-lookup"><span data-stu-id="4f7ef-133">Expand the branch site that has been created.</span></span> 
+    1. <span data-ttu-id="2668f-133">作成したブランチ サイトを展開します。</span><span class="sxs-lookup"><span data-stu-id="2668f-133">Expand the branch site that has been created.</span></span> 
     
-    2. <span data-ttu-id="4f7ef-134">[以前のバージョン] を右クリックし、[**新規**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="4f7ef-134">Right-click on legacy version, and then click **New**.</span></span>
+    2. <span data-ttu-id="2668f-134">[レガシバージョン] を右クリックし、[**新規作成**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="2668f-134">Right-click on legacy version, and then click **New**.</span></span>
     
-    3. <span data-ttu-id="4f7ef-135">[ **Survivable Branch Appliance**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="4f7ef-135">Click **Survivable Branch Appliance**.</span></span>
+    3. <span data-ttu-id="2668f-135">[**存続可能 Branch Appliance**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="2668f-135">Click **Survivable Branch Appliance**.</span></span>
     
-9. <span data-ttu-id="4f7ef-136">表示されるウィザードの指示に従います。</span><span class="sxs-lookup"><span data-stu-id="4f7ef-136">Follow the directions in the wizard that opens.</span></span> <span data-ttu-id="4f7ef-137">ウィザード項目の詳細については、</span><span class="sxs-lookup"><span data-stu-id="4f7ef-137">For information about wizard items, see</span></span>    
-   <!-- [Define a Survivable Branch Appliance or Server in Lync 2013](https://technet.microsoft.com/en-us/library/gg398280(v=ocs.15).aspx). -->
+9. <span data-ttu-id="2668f-136">ウィザードが開くのでその指示に従います。</span><span class="sxs-lookup"><span data-stu-id="2668f-136">Follow the directions in the wizard that opens.</span></span> <span data-ttu-id="2668f-137">ウィザードアイテムの詳細については、</span><span class="sxs-lookup"><span data-stu-id="2668f-137">For information about wizard items, see</span></span>    
+   <!-- [Define a Survivable Branch Appliance or Server in Lync 2013](https://technet.microsoft.com/library/gg398280(v=ocs.15).aspx). -->
    <!-- The above link points to un-rebranded 2013 content we will need to discuss rebrand or bring forward -->
     
     > [!NOTE]
-    > <span data-ttu-id="4f7ef-138">Survivable Branch Appliance は、モニタリングストアにのみ関連付けることができます。</span><span class="sxs-lookup"><span data-stu-id="4f7ef-138">A Survivable Branch Appliance can only be associated with a Monitoring Store.</span></span> 
+    > <span data-ttu-id="2668f-138">存続可能ブランチアプライアンスは、監視ストアにのみ関連付けることができます。</span><span class="sxs-lookup"><span data-stu-id="2668f-138">A Survivable Branch Appliance can only be associated with a Monitoring Store.</span></span> 
   
-10. <span data-ttu-id="4f7ef-139">このサイトで Survivable Branch アプライアンスまたはサーバーを使っていない場合は、[**このウィザードを終了するときに、新しい Survivable ウィザードを開く**] チェックボックスをオフにして、[**完了**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="4f7ef-139">If you are not using a Survivable Branch Appliance or Server at this site, clear the **Open the New Survivable Wizard when this wizard closes** check box, and then click **Finish**.</span></span>
+10. <span data-ttu-id="2668f-139">このサイトで存続可能ブランチ アプライアンスまたは存続可能ブランチ サーバーを使用していない場合は、**[このウィザードが閉じたら新しい存続可能ウィザードを開く]** チェック ボックスをオフにして、**[完了]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="2668f-139">If you are not using a Survivable Branch Appliance or Server at this site, clear the **Open the New Survivable Wizard when this wizard closes** check box, and then click **Finish**.</span></span>
     
-11. <span data-ttu-id="4f7ef-140">トポロジに追加する各ブランチサイトについて、前の手順を繰り返します。</span><span class="sxs-lookup"><span data-stu-id="4f7ef-140">Repeat the previous steps for each branch site you want to add to the topology.</span></span>
+11. <span data-ttu-id="2668f-140">トポロジに追加する各ブランチ サイトに対して、前のステップを繰り返します。</span><span class="sxs-lookup"><span data-stu-id="2668f-140">Repeat the previous steps for each branch site you want to add to the topology.</span></span>
     
 
