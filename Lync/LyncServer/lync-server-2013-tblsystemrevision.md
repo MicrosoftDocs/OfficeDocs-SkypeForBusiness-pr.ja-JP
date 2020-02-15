@@ -12,20 +12,20 @@ ms:contentKeyID: 48184901
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 834ee6650e6bedfe76b1e46943f05e0aa713095d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4cf06b283221202943399f71ecf7b19224d29a3e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764057"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42024688"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tblsystemrevision-in-lync-server-2013"></a><span data-ttu-id="e354c-102">Lync Server 2013 の tblSystemRevision</span><span class="sxs-lookup"><span data-stu-id="e354c-102">tblSystemRevision in Lync Server 2013</span></span>
+# <a name="tblsystemrevision-in-lync-server-2013"></a><span data-ttu-id="cb51d-102">Lync Server 2013 の tblSystemRevision</span><span class="sxs-lookup"><span data-stu-id="cb51d-102">tblSystemRevision in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764057"
 
 <span> </span>
 
-<span data-ttu-id="e354c-103">_**最終更新日:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="e354c-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+<span data-ttu-id="cb51d-103">_**トピックの最終更新日:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="cb51d-103">_**Topic Last Modified:** 2012-09-12_</span></span>
 
-<span data-ttu-id="e354c-104">tblSystemRevision には、複数の管理者クライアント間で一貫性を確保するために、tblAdminLock テーブルと共に使用されるリビジョン番号が含まれています。</span><span class="sxs-lookup"><span data-stu-id="e354c-104">tblSystemRevision contains the revision number that is used with the tblAdminLock table to achieve consistency across multiple administrator clients.</span></span>
+<span data-ttu-id="cb51d-104">tblSystemRevision には、複数の管理者クライアント間で一貫性を保つために tblAdminLock テーブルで使用されるリビジョン番号が含まれています。</span><span class="sxs-lookup"><span data-stu-id="cb51d-104">tblSystemRevision contains the revision number that is used with the tblAdminLock table to achieve consistency across multiple administrator clients.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="e354c-105">行</span><span class="sxs-lookup"><span data-stu-id="e354c-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="cb51d-105">Columns</span><span class="sxs-lookup"><span data-stu-id="cb51d-105">Columns</span></span>
 
 <table>
 <colgroup>
@@ -49,16 +49,16 @@ ms.locfileid: "41764057"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="e354c-106">列</span><span class="sxs-lookup"><span data-stu-id="e354c-106">Column</span></span></th>
-<th><span data-ttu-id="e354c-107">型</span><span class="sxs-lookup"><span data-stu-id="e354c-107">Type</span></span></th>
-<th><span data-ttu-id="e354c-108">説明</span><span class="sxs-lookup"><span data-stu-id="e354c-108">Description</span></span></th>
+<th><span data-ttu-id="cb51d-106">列</span><span class="sxs-lookup"><span data-stu-id="cb51d-106">Column</span></span></th>
+<th><span data-ttu-id="cb51d-107">種類</span><span class="sxs-lookup"><span data-stu-id="cb51d-107">Type</span></span></th>
+<th><span data-ttu-id="cb51d-108">説明</span><span class="sxs-lookup"><span data-stu-id="cb51d-108">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e354c-109">sysRevision</span><span class="sxs-lookup"><span data-stu-id="e354c-109">sysRevision</span></span></p></td>
-<td><p><span data-ttu-id="e354c-110">bigint (null ではない)</span><span class="sxs-lookup"><span data-stu-id="e354c-110">bigint, not null</span></span></p></td>
-<td><p><span data-ttu-id="e354c-111">リビジョン番号。</span><span class="sxs-lookup"><span data-stu-id="e354c-111">Revision number.</span></span></p></td>
+<td><p><span data-ttu-id="cb51d-109">sysRevision</span><span class="sxs-lookup"><span data-stu-id="cb51d-109">sysRevision</span></span></p></td>
+<td><p><span data-ttu-id="cb51d-110">NULL でない bigint</span><span class="sxs-lookup"><span data-stu-id="cb51d-110">bigint, not null</span></span></p></td>
+<td><p><span data-ttu-id="cb51d-111">改訂番号</span><span class="sxs-lookup"><span data-stu-id="cb51d-111">Revision number.</span></span></p></td>
 </tr>
 </tbody>
 </table>
