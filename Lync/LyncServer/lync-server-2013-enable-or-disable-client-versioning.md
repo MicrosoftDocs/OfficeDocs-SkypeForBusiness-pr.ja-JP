@@ -25,7 +25,7 @@ ms.locfileid: "42042544"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enable-or-disable-client-versioning-in-lync-server-2013"></a><span data-ttu-id="143d3-102">Lync Server 2013 でクライアントのバージョン管理を有効または無効にする</span><span class="sxs-lookup"><span data-stu-id="143d3-102">Enable or disable client versioning in Lync Server 2013</span></span>
+# <a name="enable-or-disable-client-versioning-in-lync-server-2013"></a><span data-ttu-id="0c506-102">Lync Server 2013 でクライアントのバージョン管理を有効または無効にする</span><span class="sxs-lookup"><span data-stu-id="0c506-102">Enable or disable client versioning in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42042544"
 
 <span> </span>
 
-<span data-ttu-id="143d3-103">_**トピックの最終更新日:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="143d3-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+<span data-ttu-id="0c506-103">_**トピックの最終更新日:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="0c506-103">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-<span data-ttu-id="143d3-104">クライアントバージョンの構成設定を使用して、クライアントバージョンの制御をグローバルに、または特定のサイトに対して有効または無効にします。</span><span class="sxs-lookup"><span data-stu-id="143d3-104">Client version configuration settings are used to turn client version control on or off, either globally or for particular sites.</span></span> <span data-ttu-id="143d3-105">グローバルクライアントバージョン構成は、Lync Server 2013 と共にインストールされ、サーバー展開全体でクライアントバージョン管理を有効または無効にするために使用されます。</span><span class="sxs-lookup"><span data-stu-id="143d3-105">The global client version configuration installs with Lync Server 2013 and is used to enable or disable client version control for the entire server deployment.</span></span> <span data-ttu-id="143d3-106">グローバル構成が有効になっている場合、ユーザーがログオンを試行すると、設定したすべてのクライアントバージョンポリシーが有効になります。</span><span class="sxs-lookup"><span data-stu-id="143d3-106">When the global configuration is enabled, any client version policies you have in place will take effect when users attempt to log on.</span></span> <span data-ttu-id="143d3-107">クライアントバージョン管理を行わない場合は、グローバルクライアントバージョン構成を無効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="143d3-107">You can disable the global client version configuration if you do not want any client version control to occur.</span></span> <span data-ttu-id="143d3-108">Lync Server 2013 コントロールパネルまたは Lync Server 2013 管理シェルから、クライアントのバージョン管理を有効または無効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="143d3-108">You can enable or disable client versioning from Lync Server 2013 Control Panel or Lync Server 2013 Management Shell.</span></span>
+<span data-ttu-id="0c506-104">クライアントバージョンの構成設定を使用して、クライアントバージョンの制御をグローバルに、または特定のサイトに対して有効または無効にします。</span><span class="sxs-lookup"><span data-stu-id="0c506-104">Client version configuration settings are used to turn client version control on or off, either globally or for particular sites.</span></span> <span data-ttu-id="0c506-105">グローバルクライアントバージョン構成は、Lync Server 2013 と共にインストールされ、サーバー展開全体でクライアントバージョン管理を有効または無効にするために使用されます。</span><span class="sxs-lookup"><span data-stu-id="0c506-105">The global client version configuration installs with Lync Server 2013 and is used to enable or disable client version control for the entire server deployment.</span></span> <span data-ttu-id="0c506-106">グローバル構成が有効になっている場合、ユーザーがログオンを試行すると、設定したすべてのクライアントバージョンポリシーが有効になります。</span><span class="sxs-lookup"><span data-stu-id="0c506-106">When the global configuration is enabled, any client version policies you have in place will take effect when users attempt to log on.</span></span> <span data-ttu-id="0c506-107">クライアントバージョン管理を行わない場合は、グローバルクライアントバージョン構成を無効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="0c506-107">You can disable the global client version configuration if you do not want any client version control to occur.</span></span> <span data-ttu-id="0c506-108">Lync Server 2013 コントロールパネルまたは Lync Server 2013 管理シェルから、クライアントのバージョン管理を有効または無効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="0c506-108">You can enable or disable client versioning from Lync Server 2013 Control Panel or Lync Server 2013 Management Shell.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="143d3-109">匿名ユーザーをユーザー、サイト、またはサービスに関連付けることはできないため、匿名ユーザーが影響を受けるのはグローバル レベルのポリシーだけです。</span><span class="sxs-lookup"><span data-stu-id="143d3-109">Because anonymous users are not associated with a user, site, or service, anonymous users are affected by global-level policies only.</span></span>
+> <span data-ttu-id="0c506-109">匿名ユーザーをユーザー、サイト、またはサービスに関連付けることはできないため、匿名ユーザーが影響を受けるのはグローバル レベルのポリシーだけです。</span><span class="sxs-lookup"><span data-stu-id="0c506-109">Because anonymous users are not associated with a user, site, or service, anonymous users are affected by global-level policies only.</span></span>
 
 
 
@@ -51,49 +51,49 @@ ms.locfileid: "42042544"
 
 <div>
 
-## <a name="to-enable-or-disable-client-versioning-by-using-lync-server-control-panel"></a><span data-ttu-id="143d3-110">Lync Server コントロールパネルを使用してクライアントのバージョン管理を有効または無効にするには</span><span class="sxs-lookup"><span data-stu-id="143d3-110">To enable or disable client versioning by using Lync Server Control Panel</span></span>
+## <a name="to-enable-or-disable-client-versioning-by-using-lync-server-control-panel"></a><span data-ttu-id="0c506-110">Lync Server コントロールパネルを使用してクライアントのバージョン管理を有効または無効にするには</span><span class="sxs-lookup"><span data-stu-id="0c506-110">To enable or disable client versioning by using Lync Server Control Panel</span></span>
 
-1.  <span data-ttu-id="143d3-111">CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="143d3-111">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="0c506-111">CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="0c506-111">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="143d3-112">ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="143d3-112">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="143d3-113">Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="143d3-113">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="0c506-112">ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="0c506-112">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="0c506-113">Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="0c506-113">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="143d3-114">左側のナビゲーションバーで [**クライアント**] をクリックし、[**クライアントバージョンの構成**] ナビゲーションボタンをクリックします。</span><span class="sxs-lookup"><span data-stu-id="143d3-114">In the left navigation bar, click **Clients**, and then click the **Client Version Configuration** navigation button.</span></span>
+3.  <span data-ttu-id="0c506-114">左側のナビゲーションバーで [**クライアント**] をクリックし、[**クライアントバージョンの構成**] ナビゲーションボタンをクリックします。</span><span class="sxs-lookup"><span data-stu-id="0c506-114">In the left navigation bar, click **Clients**, and then click the **Client Version Configuration** navigation button.</span></span>
 
-4.  <span data-ttu-id="143d3-115">次の操作を実行してください。</span><span class="sxs-lookup"><span data-stu-id="143d3-115">Do the following:</span></span>
+4.  <span data-ttu-id="0c506-115">次の操作を実行してください。</span><span class="sxs-lookup"><span data-stu-id="0c506-115">Do the following:</span></span>
     
-      - <span data-ttu-id="143d3-116">クライアントのバージョン管理をグローバルに有効または無効にするには、**グローバル**構成をダブルクリックし、設定を変更します。</span><span class="sxs-lookup"><span data-stu-id="143d3-116">To globally enable or disable client versioning, double-click the **Global** configuration, and then modify the settings.</span></span>
+      - <span data-ttu-id="0c506-116">クライアントのバージョン管理をグローバルに有効または無効にするには、**グローバル**構成をダブルクリックし、設定を変更します。</span><span class="sxs-lookup"><span data-stu-id="0c506-116">To globally enable or disable client versioning, double-click the **Global** configuration, and then modify the settings.</span></span>
     
-      - <span data-ttu-id="143d3-117">特定のサイトのクライアントバージョン管理を有効または無効にするには、[**新規**] をクリックし、サイトを選択して [ **OK**] をクリックし、サイトの設定を変更します。</span><span class="sxs-lookup"><span data-stu-id="143d3-117">To enable or disable client versioning for a particular site, click **New**, select the site, click **OK**, and then modify the settings for the site.</span></span>
+      - <span data-ttu-id="0c506-117">特定のサイトのクライアントバージョン管理を有効または無効にするには、[**新規**] をクリックし、サイトを選択して [ **OK**] をクリックし、サイトの設定を変更します。</span><span class="sxs-lookup"><span data-stu-id="0c506-117">To enable or disable client versioning for a particular site, click **New**, select the site, click **OK**, and then modify the settings for the site.</span></span>
 
 </div>
 
 <div>
 
-## <a name="enabling-or-disabling-client-versioning-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="143d3-118">Windows PowerShell コマンドレットを使用してクライアントのバージョン管理を有効または無効にする</span><span class="sxs-lookup"><span data-stu-id="143d3-118">Enabling or Disabling Client Versioning by Using Windows PowerShell Cmdlets</span></span>
+## <a name="enabling-or-disabling-client-versioning-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="0c506-118">Windows PowerShell コマンドレットを使用してクライアントのバージョン管理を有効または無効にする</span><span class="sxs-lookup"><span data-stu-id="0c506-118">Enabling or Disabling Client Versioning by Using Windows PowerShell Cmdlets</span></span>
 
-<span data-ttu-id="143d3-119">クライアントのバージョン管理を有効または無効にするには、 **Set-CsClientVersionConfiguration**コマンドレットを使用します。</span><span class="sxs-lookup"><span data-stu-id="143d3-119">You can enable or disable client versioning by using the **Set-CsClientVersionConfiguration** cmdlet.</span></span> <span data-ttu-id="143d3-120">このコマンドレットは、Lync Server 2013 管理シェルから実行するか、Windows PowerShell のリモートセッションから実行できます。</span><span class="sxs-lookup"><span data-stu-id="143d3-120">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="143d3-121">リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。</span><span class="sxs-lookup"><span data-stu-id="143d3-121">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
-
-<div>
-
-## <a name="to-enable-client-versioning"></a><span data-ttu-id="143d3-122">クライアントのバージョン管理を有効にするには</span><span class="sxs-lookup"><span data-stu-id="143d3-122">To enable client versioning</span></span>
-
-  - <span data-ttu-id="143d3-123">クライアントのバージョン管理を有効にするには、 **Enabled**プロパティを True ($True) に設定します。</span><span class="sxs-lookup"><span data-stu-id="143d3-123">You can enable client versioning by setting the **Enabled** property to True ($True).</span></span>
-    
-        Set-CsClientVersionConfiguration -Identity "site:Redmond" -Enabled $True
-
-</div>
+<span data-ttu-id="0c506-119">クライアントのバージョン管理を有効または無効にするには、 **Set-CsClientVersionConfiguration**コマンドレットを使用します。</span><span class="sxs-lookup"><span data-stu-id="0c506-119">You can enable or disable client versioning by using the **Set-CsClientVersionConfiguration** cmdlet.</span></span> <span data-ttu-id="0c506-120">このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。</span><span class="sxs-lookup"><span data-stu-id="0c506-120">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="0c506-121">リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。</span><span class="sxs-lookup"><span data-stu-id="0c506-121">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
 <div>
 
-## <a name="to-disable-client-versioning"></a><span data-ttu-id="143d3-124">クライアントのバージョン管理を無効にするには</span><span class="sxs-lookup"><span data-stu-id="143d3-124">To disable client versioning</span></span>
+## <a name="to-enable-client-versioning"></a><span data-ttu-id="0c506-122">クライアントのバージョン管理を有効にするには</span><span class="sxs-lookup"><span data-stu-id="0c506-122">To enable client versioning</span></span>
 
-  - <span data-ttu-id="143d3-125">**Enabled**プロパティを False ($False) に設定すると、クライアントのバージョン管理を無効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="143d3-125">You can disable client versioning by setting the **Enabled** property to False ($False).</span></span>
+  - <span data-ttu-id="0c506-123">クライアントのバージョン管理を有効にするには、 **Enabled**プロパティを True ($True) に設定します。</span><span class="sxs-lookup"><span data-stu-id="0c506-123">You can enable client versioning by setting the **Enabled** property to True ($True).</span></span>
     
         Set-CsClientVersionConfiguration -Identity "site:Redmond" -Enabled $True
 
 </div>
 
-<span data-ttu-id="143d3-126">詳細については、「 [Set-CsClientVersionConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsClientVersionConfiguration)コマンドレット」のヘルプトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="143d3-126">For details, see the Help topic for the [Set-CsClientVersionConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsClientVersionConfiguration) cmdlet.</span></span>
+<div>
+
+## <a name="to-disable-client-versioning"></a><span data-ttu-id="0c506-124">クライアントのバージョン管理を無効にするには</span><span class="sxs-lookup"><span data-stu-id="0c506-124">To disable client versioning</span></span>
+
+  - <span data-ttu-id="0c506-125">**Enabled**プロパティを False ($False) に設定すると、クライアントのバージョン管理を無効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="0c506-125">You can disable client versioning by setting the **Enabled** property to False ($False).</span></span>
+    
+        Set-CsClientVersionConfiguration -Identity "site:Redmond" -Enabled $True
+
+</div>
+
+<span data-ttu-id="0c506-126">詳細については、「 [Set-CsClientVersionConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsClientVersionConfiguration)コマンドレット」のヘルプトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="0c506-126">For details, see the Help topic for the [Set-CsClientVersionConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsClientVersionConfiguration) cmdlet.</span></span>
 
 </div>
 
