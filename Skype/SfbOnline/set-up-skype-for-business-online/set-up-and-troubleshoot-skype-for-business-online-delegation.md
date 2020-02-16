@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: この記事では、Skype for Business Online の委任のセットアップとトラブルシューティングの方法について説明します。 この記事では、セットアップの推奨事項、ベストプラクティス、およびトラブルシューティングの手順に関するガイダンスを示します。
-ms.openlocfilehash: fac2b68deec94825d57fd06b436d00feaa924a5c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 6774fe36760e6a9c53808f33f7a842d5460e0f4c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706482"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010800"
 ---
 # <a name="set-up-and-troubleshoot-skype-for-business-online-delegation"></a>Skype for Business Online の代理のセットアップとトラブルシューティング
 
@@ -140,7 +140,7 @@ Skype for Business Online の委任を設定するには、次の手順を実行
   
 - セキュリティグループの作成とそのセキュリティグループの委任権限の追加はサポートされていません。
     
-- MAPI は使用できません。 [Skype For business 2016 クライアントでの "MAPI は利用できません" エラーを](https://support.microsoft.com/en-us/help/3147130)参照してください。
+- MAPI は使用できません。 [Skype For business 2016 クライアントでの "MAPI は利用できません" エラーを](https://support.microsoft.com/help/3147130)参照してください。
     
 - Skype for Business クライアントから Exchange Online メールボックスにアクセスすることはできません。 この問題が発生した場合は、 [Outlook 接続テスト](https://testconnectivity.microsoft.com/)を実行して、合格していることを確認してください。
     

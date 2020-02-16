@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: ダイヤルイン会議番号がある国と地域、およびそれらの番号の自動割り当て方法について説明します。
-ms.openlocfilehash: 32eeebf54fbb9e6ab75ca0e43734f64b1d811c10
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 19f2cb6f0c03ecdbc6890c7c1c24daceb508377a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707162"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41986512"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>Skype for Business Online の電話会議の電話番号
 
@@ -41,7 +41,7 @@ Skype for Business の電話**会議**をセットアップすると、ダイヤ
   
 ## <a name="audio-conferencing-coverage-and-pricing"></a>電話会議のサービス対象範囲と価格情報
 
-電話会議を使用できるすべての国や地域、都市の完全なリストについては、 「[電話会議および通話プランが利用可能な国と地域](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)」を参照してください。 価格情報については、「[電話会議の価格](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)を確認する」を参照してください。
+電話会議を使用できるすべての国や地域、都市の完全なリストについては、 「[電話会議および通話プランが利用可能な国と地域](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)」を参照してください。 価格情報については、「[電話会議の価格](https://products.office.com/skype-for-business/audio-conferencing#Requirements)を確認する」を参照してください。
   
 ## <a name="dial-in-phone-numbers-in-a-meeting-invite"></a>会議の出席依頼に表示されるダイヤルイン電話番号
 

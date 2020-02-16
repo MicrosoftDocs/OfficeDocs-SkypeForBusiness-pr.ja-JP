@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Skype for Business Server 2019 でのクラウド自動応答の使用の概要
-ms.openlocfilehash: d34e298db9cdd8f1bbd0378e37c6d9aae2b02726
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f7a3799df083d1404a2d635ee38403cc2653b9ea
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724227"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037819"
 ---
 # <a name="plan-cloud-auto-attendants"></a>クラウド自動応答を計画する
 
@@ -98,7 +98,7 @@ Microsoft では、次の移行パスをお勧めします。
 お客様のニーズを満たす堅固な構造を持っていて、顧客に効率的に対応するスクリプトを実行している場合は、「[リソースアカウントを構成](configure-onprem-ra.md)する」に進みます。
 
 > [!CAUTION]
-> [KB4480742](https://support.microsoft.com/en-us/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019)で説明したように、サーバー2015で作成された Exchange UM 自動応答をサーバー2019を実行しているサーバーに移動しないことをお勧めします。 そのため、その時間は共存モードで実行されている Skype for business Server 2015 プールに保持する必要があります。
+> [KB4480742](https://support.microsoft.com/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019)で説明したように、サーバー2015で作成された Exchange UM 自動応答をサーバー2019を実行しているサーバーに移動しないことをお勧めします。 そのため、その時間は共存モードで実行されている Skype for business Server 2015 プールに保持する必要があります。
 
 ## <a name="see-also"></a>関連項目
 

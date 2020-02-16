@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: この記事では、Skype for Business (または Lync) をオンプレミスに展開している組織が、UC ワークロードを Teams や Skype for Business on the web に移行することを検討している場合、そのような統合をどのように実現するかを説明しています。
-ms.openlocfilehash: 7f3ad27404ec80e0592baa7174b01363f1aa0ed1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f09359f126a051f72397b10724c6ab51d6ca0c1a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726957"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033666"
 ---
 # <a name="cloud-consolidation-for-teams-and-skype-for-business"></a>Teams と Skype for Business のクラウド統合
 
@@ -42,7 +42,7 @@ ms.locfileid: "41726957"
 オンプレミスのすべてのユーザーを単一の Office 365 テナント内のクラウドに統合する操作は、以下の主要な要件を満たしている限り、複数の Skype for Business 展開があるあらゆる組織で行うことができます。
 
 - 関係する Office 365 テナントは 1 つでなければなりません。 複数の Office 365 テナントが関係するシナリオでの統合はサポートされていません。
-- いつでも、ハイブリッド モードにできるオンプレミスの Skype for Business フォレストは 1 つのみです (共有 SIP アドレス スペース)。 他のすべてのオンプレミス Skype for Business フォレストはオンプレミスになければなりません (多くの場合、相互にフェデレーションされます)。 これらの他のオンプレミス組織は、必要な場合には 2018 年 12 月以降使用可能になっている[オンライン SIP ドメインを無効にする新しい機能](https://docs.microsoft.com/en-us/powershell/module/skype/disable-csonlinesipdomain?view=skype-ps)を使用して、AAD と同期*できます*。
+- いつでも、ハイブリッド モードにできるオンプレミスの Skype for Business フォレストは 1 つのみです (共有 SIP アドレス スペース)。 他のすべてのオンプレミス Skype for Business フォレストはオンプレミスになければなりません (多くの場合、相互にフェデレーションされます)。 これらの他のオンプレミス組織は、必要な場合には 2018 年 12 月以降使用可能になっている[オンライン SIP ドメインを無効にする新しい機能](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain?view=skype-ps)を使用して、AAD と同期*できます*。
 
 複数のフォレストに Skype for Business 展開が複数ある顧客は、共有 SIP アドレス スペース機能を使用してそれぞれの単一のハイブリッド Skype for Business フォレスト内のすべてのユーザーを Office 365 テナントに完全に移行し、次のオンプレミス Skype for Business 展開の移行を開始する前に、対象オンプレミス展開でのハイブリッドを無効にする必要があります。 クラウドへの移行を開始するまでは、オンプレミス ユーザーは、そのユーザーのオンプレミス ディレクトリ内にいないユーザーとフェデレーションした状態のままになります。  
 
@@ -63,9 +63,9 @@ Skype for Business の 2 つの独立したフェデレーション オンプレ
 2.  両方のオンプレミス展開で関連するすべての SIP ドメインが検証済みの Office 365 ドメインであることを確認します。
 3.  Office 365 とのハイブリッドを設定する Skype for Business を 1 つ選択します。 この例では、OriginalCompany.<span>com を使用します。
 4.  最初にハイブリッドに設定される[フォレストの AAD Connect を有効にします](configure-azure-ad-connect.md) (OriginalCompany.<span>com)。 
-5.  Teams を組織に導入する場合は、[TeamsUpgradePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/grant-csteamsupgradepolicy) のテナント全体のポリシーを SfBWithTeamsCollab または他のいずれかの SfB モード (SfBOnly または SfBWithTeamsCollabAndMeetings) に設定します。 これは、[Teams のみ] に移行するユーザーからオンプレミスを引き続き使用するユーザーに通話とチャットを確実にルーティングするために不可欠です。
+5.  Teams を組織に導入する場合は、[TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy) のテナント全体のポリシーを SfBWithTeamsCollab または他のいずれかの SfB モード (SfBOnly または SfBWithTeamsCollabAndMeetings) に設定します。 これは、[Teams のみ] に移行するユーザーからオンプレミスを引き続き使用するユーザーに通話とチャットを確実にルーティングするために不可欠です。
 6.  現時点では (ただし、手順 11 までは必須ではありません)、[その他のフォレストの AAD Connect を有効にする](cloud-consolidation-aad-connect.md)ことをお勧めします (AcquiredCompany.<span>com)。 両方のフォレストで AAD Connect が有効になっていると仮定すると、組織は**[図 A](#figure-a)** のようになります。組織によっては、これが一般的な開始点です。 
-7.  その他のオンプレミス展開でホストされている SIP ドメイン (この場合は、AcquiredCompany.<span>com) の場合は、PowerShell で `Disable-CsOnlineSipDomain` を使用して、[Skype for Business on the web でこれらの SIP ドメインを無効にします](https://docs.microsoft.com/en-us/powershell/module/skype/disable-csonlinesipdomain) (これは 2018 年 12 月時点の新機能です)。
+7.  その他のオンプレミス展開でホストされている SIP ドメイン (この場合は、AcquiredCompany.<span>com) の場合は、PowerShell で `Disable-CsOnlineSipDomain` を使用して、[Skype for Business on the web でこれらの SIP ドメインを無効にします](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain) (これは 2018 年 12 月時点の新機能です)。
 8.  OriginalCompany.<span>com の [Skype for Business Hybrid を構成します](configure-federation-with-skype-for-business-online.md) (1 つの展開でオンライン SIP ドメインを有効にしたままです)。
 9.  ハイブリッド展開 (OriginalCompany.<span>com) で、[オンプレミスの Skype for Business からクラウドへのユーザーの移行](move-users-between-on-premises-and-cloud.md) ([Teams のみ] かどうかに関係なく) を開始し、アカウントが Skype for Business on the web に所属するようにします。 これで、組織は**[図 B](#figure-b)** のようになります。図 A からの主な変更点は次のとおりです。
     - オンプレミスの両方のディレクトリのユーザーが、AAD に存在している。
@@ -76,11 +76,11 @@ Skype for Business の 2 つの独立したフェデレーション オンプレ
     - オンプレミスの OriginalCompany.<span>com で Office 365 と通信する機能を無効にする。
     - OriginalCompany.<span>com の DNS レコードを更新して、Office 365 を指すようにする。
 11. まだ行っていない場合は、ハイブリッドに設定される[次のフォレストの AAD Connect を有効にします](cloud-consolidation-aad-connect.md) (AcquiredCompany.<span>com)。 この時点で、組織は**[図 C](#figure-c)** のようになります。組織によっては、これが別の一般的な開始点になります。 
-12. PowerShell で、ハイブリッドに設定される[次のオンプレミス展開の SIP ドメインを有効にします](https://docs.microsoft.com/en-us/powershell/module/skype/enable-csonlinesipdomain?view=skype-ps) (AcquiredCompany.<span>com)。 これは、2018 年 12 月時点で利用可能な新機能である `Enable-CsOnlineSipDomain` を使用して行われます。
+12. PowerShell で、ハイブリッドに設定される[次のオンプレミス展開の SIP ドメインを有効にします](https://docs.microsoft.com/powershell/module/skype/enable-csonlinesipdomain?view=skype-ps) (AcquiredCompany.<span>com)。 これは、2018 年 12 月時点で利用可能な新機能である `Enable-CsOnlineSipDomain` を使用して行われます。
 13. クローズド フェデレーションを使用している場合、純粋なオンライン テナントの SIP ドメイン (*.microsoftonline.com を除く) を**同じ** Office 365 の許可ドメインとして追加する必要があります。 変更が有効になるまでに時間がかかることがあります。これを早い段階で行っても問題はないため、手順 14 に進む前にこれを行っておくことをお勧めします。
 14. オンプレミス環境を更新して、すべての SIP ドメインをオンライン テナントから受け入れ、ドメインが一致するようにします。
     - 以前と同じ値になるように、[すべてのエッジ証明書の SAN を更新して](cloud-consolidation-edge-certificates.md)、さらに既存のオンライン SIP ドメイン (*.microsoftonline.com を除く) を加えます。この場合は、Sip.OriginalCompany.<span>com になります。
-    - OriginalCompany.<span>com がオンプレミス展開である AcquiredCompany の[許可ドメイン](https://docs.microsoft.com/en-us/powershell/module/skype/new-csalloweddomain)であることを確認してください。 許可ドメインを追加します。
+    - OriginalCompany.<span>com がオンプレミス展開である AcquiredCompany の[許可ドメイン](https://docs.microsoft.com/powershell/module/skype/new-csalloweddomain)であることを確認してください。 許可ドメインを追加します。
 15. オンプレミスの AcquiredCompany.<span>com とクラウドの間で [Skype for Business Hybrid を有効にします](configure-federation-with-skype-for-business-online.md)。
 16. 必要に応じて、[オンプレミスからクラウドにユーザーを移行します](move-users-between-on-premises-and-cloud.md)。 ユーザーの移行は、直接 [[Teams のみ]](/microsoftteams/teams-and-skypeforbusiness-coexistence-and-interoperability) モードに移行するか、最初に Skype for Business on the web に移行するかのいずれかで実行できます。 この段階では、組織は**[図 D](#figure-d)** のようになります。
 17. すべてのユーザーを移行した後、[オンプレミス環境とのハイブリッドを無効にして](cloud-consolidation-disabling-hybrid.md)、*組織を純粋なクラウドにします*。
@@ -97,7 +97,7 @@ Skype for Business の 2 つの独立したフェデレーション オンプレ
 
 ##### <a name="figure-b"></a>図 B:
 
-- AcquiredCompany.<span>com は、[無効な](https://docs.microsoft.com/en-us/powershell/module/skype/disable-csonlinesipdomain)オンライン SIP ドメインです。 すべてのユーザーがオンプレミスに存在しています。 ユーザーが Teams を使用する場合、フェデレーションまたは相互運用性はありません。 この段階では、Microsoft はチャネルでのみ Teams を使用することをお勧めします。
+- AcquiredCompany.<span>com は、[無効な](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain)オンライン SIP ドメインです。 すべてのユーザーがオンプレミスに存在しています。 ユーザーが Teams を使用する場合、フェデレーションまたは相互運用性はありません。 この段階では、Microsoft はチャネルでのみ Teams を使用することをお勧めします。
 - Skype for Business Hybrid は、オンプレミス組織のいずれかで有効になっています。
 - ハイブリッド組織内の一部のユーザーがクラウドに移行されました (紫色の網掛けで示されているユーザー A)。 これらのユーザーは、Skype for Business on the web のユーザーまたは [Teams のみ] のユーザーのいずれかであり、相互運用とフェデレーションに関して完全なサポートを受けることができます。<br><br>
     ![図 B の図面](../media/cloudconsolidationfigb.png)

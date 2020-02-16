@@ -15,12 +15,12 @@ f1.keywords:
 description: PowerShell コントロールを使用して Microsoft Teams を管理する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b211493bb5b0bfa3dea1abfc0c9b59eadcb4206
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c5eaf04a0244e35e7d9f7deb7d8afb135b3acb2c
+ms.sourcegitcommit: c8d16d5e61d66d7b5e7391a800978b920612ea4d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035359"
+ms.locfileid: "42052524"
 ---
 # <a name="teams-powershell-overview"></a>Teams での PowerShell の概要
 
@@ -79,7 +79,7 @@ PowerShell コントロールのリファレンス ドキュメントには、�
 
 ## <a name="managing-policies-via-powershell"></a>PowerShell によるポリシーの管理
 
-ポリシー管理用のコマンドレットは、[Skype for Business コマンドレット モジュール](https://www.microsoft.com/download/details.aspx?id=39366)内にあります。
+[Skype For business コマンドレットモジュール](https://www.microsoft.com/download/details.aspx?id=39366)のコマンドレットを使用して、個々のユーザーのポリシーを管理します。
 
 > [!NOTE]
 > Skype for Business Online に接続すると、PowerShell セッションでコマンドレットを使用できるようになります。 詳細については、「[Office 365 PowerShell を使用して Skype for Business Online を管理する](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)」を参照してください。 

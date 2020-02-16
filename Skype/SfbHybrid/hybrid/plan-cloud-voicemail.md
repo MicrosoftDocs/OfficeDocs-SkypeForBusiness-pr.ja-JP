@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: この記事では、Microsoft クラウドボイスメールサービスを実装するための利点、計画に関する考慮事項、および要件について説明します。 クラウドボイスメールの構成の詳細については、「Cloud 留守番電話を構成する」を参照してください。
-ms.openlocfilehash: 11b6704a532a3e522792c2234d199e891799c2ac
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 82d9473e35b5c10fd2c50b783a89df64aed62cbe
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765698"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006022"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>オンプレミスユーザー用にクラウドボイスメールサービスを計画する
 
@@ -46,7 +46,7 @@ Skype for Business Server 2019 は、メールボックスが以前のバージ�
 - Exchange UM の役割を構成する必要はありません。
 - クラウドボイスメールのセットアップタスクの方が簡単です。
 - ボイスメール機能への更新はクラウドに直接配信されるため、ユーザーは常に最新の機能と更新プログラムにアクセスでき、累積的な更新プログラム (Cu) への依存度は低くなります。
-- オンプレミスとオンラインの両方の Exchange メールボックスに対して同じコントロールセットがあります。 これらのコントロールの詳細については、「[電話システムボイスメールをセットアップ](https://support.office.com/en-us/article/Set-up-Phone-System-voicemail-Admin-help-9c590873-b014-4df3-9e27-1bb97322a79d?ui=en-US&rs=en-US&ad=US)する」を参照してください。
+- オンプレミスとオンラインの両方の Exchange メールボックスに対して同じコントロールセットがあります。 これらのコントロールの詳細については、「[電話システムボイスメールをセットアップ](https://support.office.com/article/Set-up-Phone-System-voicemail-Admin-help-9c590873-b014-4df3-9e27-1bb97322a79d?ui=en-US&rs=en-US&ad=US)する」を参照してください。
 
 次の図は、ハイブリッド展開でのクラウドボイスメールを示しています。
 

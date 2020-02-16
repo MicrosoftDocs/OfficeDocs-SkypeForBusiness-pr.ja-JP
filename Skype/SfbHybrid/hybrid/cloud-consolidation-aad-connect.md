@@ -21,16 +21,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: この付録には、Teams 接続を更新して、Teams と Skype for Business のクラウド統合の一部として複数のフォレストを含めるための詳細な手順が含まれています。
-ms.openlocfilehash: 3d3d72c14957f0ed8932d95fcd2dbe9ec9c1e37e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a61a45c8a492afd761f8cc6b1020b591851645b8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41696062"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049099"
 ---
 # <a name="update-aad-connect-to-include-more-than-one-forest"></a>AAD Connect を更新して複数のフォレストを含める
 
-Azure AD Connect は、[複数のフォレストからの同期を](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-topologies)サポートしています。 ただし、AAD に対して Azure AD Connect 同期のインスタンスを1つだけサポートしています。 そのため、Azure AD が1つのフォレストに既にインストールされている場合は、AAD Connect の既存のインスタンスを追加のフォレストから同期するように更新する必要があります。
+Azure AD Connect は、[複数のフォレストからの同期を](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-topologies)サポートしています。 ただし、AAD に対して Azure AD Connect 同期のインスタンスを1つだけサポートしています。 そのため、Azure AD が1つのフォレストに既にインストールされている場合は、AAD Connect の既存のインスタンスを追加のフォレストから同期するように更新する必要があります。
 
  - 両方のフォレストですべての id が1回のみ表示されている場合 (つまり、メールが有効な連絡先がない場合)、AAD Connect ウィザードを再実行し、[同期オプションのカスタマイズ] を選択してから、[**ディレクトリの接続**] ページで追加のフォレストおよび資格情報の名前を入力するだけです。<br><br>
  ![[ディレクトリの接続] ページ](../media/cloud-consolidation-connect-your-directories.png)

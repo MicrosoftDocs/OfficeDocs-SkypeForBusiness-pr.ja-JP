@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: ハイブリッド環境で Azure AD Connect を構成する方法について説明します。
-ms.openlocfilehash: 3060ef443fd2ee57157c2590441c5fe04b1d8739
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7ae6fb7d3df6d955437a51224637264033bfa662
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726937"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41982992"
 ---
 # <a name="configure-azure-ad-connect-for-teams-and-skype-for-business"></a>Teams と Skype for Business の Azure AD Connect を構成する
  
@@ -34,12 +34,12 @@ ms.locfileid: "41726937"
 
 ## <a name="background-information"></a>参考資料
 
-Azure Active Directory Connect は、オンプレミスの Active Directory を常に Office 365 と同期させます。  オンプレミスのディレクトリには、権限のある ID のソースが保持され、オンプレミス環境からの変更は Azure AD に同期されます。 詳細については、「 [AZURE AD Connect Sync](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sync-whatis)」を参照してください。 オンプレミスのすべてのユーザーをクラウドに移行していない場合でも、チーム、Skype for Business オンプレミス、または Skype for Business Online を使用するすべてのユーザーをオンプレミスから Azure AD に同期して、オンプレミスとオンラインのユーザーとの通信を確保する必要があります。 *オンプレミスとオンラインのディレクトリの両方に、組織内のユーザーが表示されます。*
+Azure Active Directory Connect は、オンプレミスの Active Directory を常に Office 365 と同期させます。  オンプレミスのディレクトリには、権限のある ID のソースが保持され、オンプレミス環境からの変更は Azure AD に同期されます。 詳細については、「 [AZURE AD Connect Sync](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-whatis)」を参照してください。 オンプレミスのすべてのユーザーをクラウドに移行していない場合でも、チーム、Skype for Business オンプレミス、または Skype for Business Online を使用するすべてのユーザーをオンプレミスから Azure AD に同期して、オンプレミスとオンラインのユーザーとの通信を確保する必要があります。 *オンプレミスとオンラインのディレクトリの両方に、組織内のユーザーが表示されます。*
 
 
 ## <a name="configuring-azure-ad-when-you-have-skype-for-business-server"></a>Skype for Business Server を使用している場合の Azure AD の構成 
 
-オンプレミスの Active Directory フォレストが1つでも複数のフォレストであっても、azure ad connect[のトポロジ](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/plan-connect-topologies)で説明するように、Azure ad connect をさまざまなサポートされているトポロジで使用できます。  Skype for Business Server の観点では、主に次の 3 つのバリエーションがあります。 
+オンプレミスの Active Directory フォレストが1つでも複数のフォレストであっても、azure ad connect[のトポロジ](https://docs.microsoft.com/azure/active-directory/hybrid/plan-connect-topologies)で説明するように、Azure ad connect をさまざまなサポートされているトポロジで使用できます。  Skype for Business Server の観点では、主に次の 3 つのバリエーションがあります。 
 
 1. 単一のフォレストで、権限のあるユーザー ID を含み、Skype for Business Server をホストしている。 
 
@@ -66,7 +66,7 @@ Azure Active Directory Connect は、オンプレミスの Active Directory を�
 
 ### <a name="multiple-skype-for-business-server-deployments-in-multiple-forests"></a>複数のフォレストでの Skype for Business Server の複数配置 
 
-これは、複数のフォレストで、それぞれのフォレストが Skype for Business Server を含み、1 つの Office 365 テナントがある場合のシナリオです。  Skype for Business Server を含む各フォレストは、AAD Connect を使用して、そのテナントの Azure AD に同期させることができます。 指定した時間に Skype for Business ハイブリッド用に構成できるフォレストは最大でも 1 つだけです。 フォレストでハイブリッドを有効にする前に、他のすべてのフォレストのすべての SIP ドメイン[を無効に](https://docs.microsoft.com/en-us/powershell/module/skype/disable-csonlinesipdomain)する必要があります。 このような環境を Office 365 に統合する方法の詳細については、「 [Teams と Skype for business のクラウド統合](cloud-consolidation.md)」を参照してください。
+これは、複数のフォレストで、それぞれのフォレストが Skype for Business Server を含み、1 つの Office 365 テナントがある場合のシナリオです。  Skype for Business Server を含む各フォレストは、AAD Connect を使用して、そのテナントの Azure AD に同期させることができます。 指定した時間に Skype for Business ハイブリッド用に構成できるフォレストは最大でも 1 つだけです。 フォレストでハイブリッドを有効にする前に、他のすべてのフォレストのすべての SIP ドメイン[を無効に](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain)する必要があります。 このような環境を Office 365 に統合する方法の詳細については、「 [Teams と Skype for business のクラウド統合](cloud-consolidation.md)」を参照してください。
 
 ## <a name="general-requirements"></a>一般的な要件 
 
@@ -74,7 +74,7 @@ Teams と Skype for Business Online の両方のサービスでは、正しい A
 
  複数のフォレストにユーザーの ID が存在する場合は、Azure AD Connect で結合を行います。 このガイダンスを実行すると、azure ad connect によって適切な属性が自動的に同期されます。この場合、コネクタまたは同期ルールのいずれかを Azure AD Connect で変更しないことを前提としています。 
   
-ユーザー id と Skype for Business Server の展開を含むすべてのフォレストから同期しない場合でも、Teams または Skype を使用しているユーザーに対して、関連性のある id と Skype for business の属性が Azure AD に正しく入力されていることを確認する必要があります。for Business (オンプレミスまたはオンラインの場合)--これを行うには、オンプレミスのディレクトリ同期を追加する必要があります。 詳細については、「 [AZURE AD Connect sync: Attributes が Azure Active Directory に同期](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)されています。」を参照してください。
+ユーザー id と Skype for Business Server の展開を含むすべてのフォレストから同期しない場合でも、Teams または Skype を使用しているユーザーに対して、関連性のある id と Skype for business の属性が Azure AD に正しく入力されていることを確認する必要があります。for Business (オンプレミスまたはオンラインの場合)--これを行うには、オンプレミスのディレクトリ同期を追加する必要があります。 詳細については、「 [AZURE AD Connect sync: Attributes が Azure Active Directory に同期](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)されています。」を参照してください。
 
 このようなシナリオでは、Azure AD に属性を設定するための適切な構成を確実に行うことがお客様の責任です。 以下の点にご注意ください。 
 
@@ -84,10 +84,10 @@ Teams と Skype for Business Online の両方のサービスでは、正しい A
 
 ## <a name="related-information"></a>関連情報
 
-- [ハイブリッド id とは](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/whatis-hybrid-identity?toc=%2Fen-us%2Fazure%2Factive-directory%2Fhybrid%2FTOC.json&bc=%2Fen-us%2Fazure%2Fbread%2Ftoc.json)
+- [ハイブリッド id とは](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-hybrid-identity?toc=%2Fen-us%2Fazure%2Factive-directory%2Fhybrid%2FTOC.json&bc=%2Fen-us%2Fazure%2Fbread%2Ftoc.json)
 
-- [Azure AD Connect 同期: 同期を理解してカスタマイズする](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sync-whatis)
+- [Azure AD Connect 同期: 同期を理解してカスタマイズする](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-whatis)
 
-- [Azure AD Connect のトポロジ](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/plan-connect-topologies)
+- [Azure AD Connect のトポロジ](https://docs.microsoft.com/azure/active-directory/hybrid/plan-connect-topologies)
 
-- [Azure AD Connect sync: Azure Active Directory との属性の同期](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)
+- [Azure AD Connect sync: Azure Active Directory との属性の同期](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)

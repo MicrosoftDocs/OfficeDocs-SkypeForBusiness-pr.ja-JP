@@ -20,12 +20,12 @@ ms.custom:
 - PowerShell
 - LIL_Placement
 description: Windows PowerShell 5.1 をダウンロード、インストール、および使用して、Skype for Business Online に接続するリモート PowerShell セッションを作成します。
-ms.openlocfilehash: 227023d5c86b99a66ecdbdabd3b2973d0383a534
-ms.sourcegitcommit: ac922addbc1422b5c41273a2e03196efb2ed7770
+ms.openlocfilehash: 64d1ed1b3e3031f5186a09289ab6e1d9088840cf
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41831155"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029098"
 ---
 # <a name="download-and-install-windows-powershell-51"></a>Windows PowerShell 5.1 をダウンロードしてインストールする
 
@@ -49,7 +49,7 @@ Windows 10 記念の更新プログラムまたは Windows Server 2016 を使用
     4.0
     </pre>
 
-    返されるバージョン番号が5.1 の場合は、Windows PowerShell 5.1 を実行しています。 返されるバージョン番号が5.1 ではない場合は、Windows PowerShell 5.1 をインストールする必要があります。 Windows PowerShell 5.1 を含む Windows Management Framework 5.1 は、 [Microsoft ダウンロードセンター](https://www.microsoft.com/en-us/download/details.aspx?id=54616)からダウンロードできます。
+    返されるバージョン番号が5.1 の場合は、Windows PowerShell 5.1 を実行しています。 返されるバージョン番号が5.1 ではない場合は、Windows PowerShell 5.1 をインストールする必要があります。 Windows PowerShell 5.1 を含む Windows Management Framework 5.1 は、 [Microsoft ダウンロードセンター](https://www.microsoft.com/download/details.aspx?id=54616)からダウンロードできます。
   
 Windows PowerShell 5.1 がインストールされていることを確認したら、リモートスクリプトを実行するように PowerShell が構成されていることを確認する必要があります。 これを実行するには、PowerShell を管理者として開始する必要があります。 Windows 7、Windows Server 2008 R2、Windows Server 2012、または Windows Server 2012 R2 で次を実行します。
   

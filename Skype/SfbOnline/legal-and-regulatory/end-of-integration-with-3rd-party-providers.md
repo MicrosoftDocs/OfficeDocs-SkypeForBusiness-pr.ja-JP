@@ -20,12 +20,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 2021年7月31日に、サードパーティの電話会議プロバイダー (サードパーティ ACP) との Skype for Business の統合が終了すると、生涯プログラムが終了します。
-ms.openlocfilehash: b9bd1640d615babab29a073aeeee2b1beb92fc02
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7ea6068d8715bd0df9e80041d70b8baf37abaf1b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706692"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41985032"
 ---
 # <a name="end-of-life-program-for-the-integration-of-skype-for-business-with-third-party-audio-conferencing-providers"></a>Skype for Business とサードパーティの電話会議プロバイダーとの統合の終了プログラム 
 
@@ -47,7 +47,7 @@ Microsoft は、Skype for Business とサードパーティの電話会議プロ
 
 この変更を準備するために、影響を受ける組織に、2021年7月31日より前にこの計画された更新のユーザーに通知するようお勧めします。 
 
-2021年7月31日以降、ユーザーはオンライン会議を中断することなく、引き続き Skype for Business を使用することができます。ただし、組織では、Skype for Business または Microsoft Teams とのダイヤルイン音声会議が必要な場合は、Microsoft から提供された電話会議のユーザーを有効にする必要があります。 Microsoft 電話会議の詳細については、「[電話会議](https://products.office.com/en-us/skype-for-business/audio-conferencing)」を参照してください。 
+2021年7月31日以降、ユーザーはオンライン会議を中断することなく、引き続き Skype for Business を使用することができます。ただし、組織では、Skype for Business または Microsoft Teams とのダイヤルイン音声会議が必要な場合は、Microsoft から提供された電話会議のユーザーを有効にする必要があります。 Microsoft 電話会議の詳細については、「[電話会議](https://products.office.com/skype-for-business/audio-conferencing)」を参照してください。 
 
 組織の目的の終了状態に応じて、次の3つのパスに従うことができます。
 

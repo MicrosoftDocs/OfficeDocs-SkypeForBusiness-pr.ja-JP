@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: '概要: ハイブリッドに対応した Skype for Business Server のオンプレミス展開では、オンプレミス環境とクラウド (Microsoft Teams または Skype for Business Online) の間でユーザーを移動することができます。'
-ms.openlocfilehash: 0f0a29ab88f17c80227e6dc6968be85457dc799e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 721352e1aa13cce8a9c03aa71c73f11e8c0d2452
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726767"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008609"
 ---
 # <a name="move-users-between-on-premises-and-cloud"></a>オンプレミスとクラウドの間でユーザーを移動する
 
@@ -100,4 +100,4 @@ ms.locfileid: "41726767"
 
 [ダイレクト ルーティングを計画する](/microsoftteams/direct-routing-plan)
 
-[Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/move-csuser)
+[Move-CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser)

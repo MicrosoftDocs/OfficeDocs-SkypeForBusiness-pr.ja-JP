@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.DashboardOrganizationInformation
 - ms.lync.lac.DashboardUserStatistics
 description: 有効になっているユーザー数、電話会議に対応しているユーザー数、Office 365 を利用できるユーザー数などの、Skype for Business のユーザーの統計情報で利用できるものについて説明します。
-ms.openlocfilehash: 8771171f9b6e2bf0d2590e9a8a66242d4379e716
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: f4d98b8c8a57551dc71d1b38436c204aff67ec27
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769530"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010750"
 ---
 # <a name="user-statistics-and-organization-information"></a>ユーザーの統計および組織の情報
 
@@ -41,7 +41,7 @@ Skype for Business ダッシュボードでは、自社向けにサービスを�
 |Skype for Business Online のユーザー  <br/> |Skype for Business アプリを使用するユーザーを追加したり、ユーザーに使用されないようにしたりするには、「[一般法人向け Office 365 ライセンスを割り当てる](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)」または「[一般法人向け Office 365 のユーザーからライセンスを削除する](https://support.office.com/article/9b497c85-d0a4-4735-80fa-d3565bc05bd1)」をご覧ください。  <br/> 従業員の退職時に行うすべての手続きのリストについては、「[Office 365 から元従業員を削除する](https://support.office.com/article/44d96212-4d90-4027-9aa9-a95eddb367d1)」をご覧ください。  <br/> |
 |電話会議に対応しているユーザー  <br/> |電話会議のユーザーを有効にするには、「 [Office 365 で電話会議を試す、または購入](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)する」を参照してください。  <br/> |
 |クラウドのユーザー  <br/> |これは、Office 365 アカウントを持つ Skype for Business Online ユーザーの数です。  <br/> ご利用の Office 365 サブスクリプションにユーザーを追加する (それらのユーザーの Office 365 アカウントを作成する) には、「[Office 365 にユーザーを個別に、またはまとめて追加する - 管理者向けヘルプ](https://support.office.com/article/1970f7d6-03b5-442f-b385-5880b9c256ec)」をご覧ください。  <br/> |
-|同期済みでオンラインに所属のユーザー  <br/> |これは Skype for Business Server オンプレミス展開で作成され、Office 365 に同期しているハイブリッド ユーザーの数です。  <br/> Skype for Business のハイブリッド接続をセットアップするには、「[Skype for Business Server と Skype for Business Online 間のハイブリッド接続を展開する](https://technet.microsoft.com/en-us/library/jj204669.aspx)」をご覧ください。  <br/> |
+|同期済みでオンラインに所属のユーザー  <br/> |これは Skype for Business Server オンプレミス展開で作成され、Office 365 に同期しているハイブリッド ユーザーの数です。  <br/> Skype for Business のハイブリッド接続をセットアップするには、「[Skype for Business Server と Skype for Business Online 間のハイブリッド接続を展開する](https://technet.microsoft.com/library/jj204669.aspx)」をご覧ください。  <br/> |
    
 > [!NOTE]
 > 利用不可とリストに表示されている場合は、情報がないか、エラーが発生したことになります。 

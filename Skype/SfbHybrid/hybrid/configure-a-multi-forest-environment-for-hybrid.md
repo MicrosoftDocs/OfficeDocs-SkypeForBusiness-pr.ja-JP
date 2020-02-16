@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 次のセクションでは、ハイブリッドシナリオで Skype for Business 機能を提供するために、リソース/ユーザーフォレストモデルに複数のフォレストがある環境を構成する方法について説明します。
-ms.openlocfilehash: f018699040fc202cbe827a2b8b05bd1f4371e190
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 33945b245009a221d709e13d587f435aa4c054d8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726947"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41983042"
 ---
 # <a name="deploy-a-resource-forest-topology"></a>リソースフォレストトポロジを展開する
  
@@ -48,7 +48,7 @@ ms.locfileid: "41726947"
   
 ## <a name="configure-forest-trusts"></a>フォレストの信頼を構成する
 
-リソースフォレストのトポロジでは、Skype for Business Server をホストするリソースフォレストは、それにアクセスするユーザーアカウントを含む各アカウントフォレストを信頼する必要があります。 複数のユーザーフォレストが存在する場合、フォレスト間認証を有効にするには、これらのフォレストの信頼のそれぞれで名前サフィックスルーティングが有効になっていることが重要です。 手順については、「[フォレストの信頼を管理する](https://technet.microsoft.com/en-us/library/cc772440.aspx)」を参照してください。 別のフォレストに展開されている Exchange サーバーを使用している場合、Skype for Business ユーザー向けの機能を提供するには、Exchange をホストするフォレストが Skype for Business Server をホストしているフォレストを信頼している必要があります。 たとえば、Exchange がアカウントフォレストに展開されている場合、この構成では、アカウントと Skype for Business の両方のフォレストの間に双ウェイの信頼が必要になります。
+リソースフォレストのトポロジでは、Skype for Business Server をホストするリソースフォレストは、それにアクセスするユーザーアカウントを含む各アカウントフォレストを信頼する必要があります。 複数のユーザーフォレストが存在する場合、フォレスト間認証を有効にするには、これらのフォレストの信頼のそれぞれで名前サフィックスルーティングが有効になっていることが重要です。 手順については、「[フォレストの信頼を管理する](https://technet.microsoft.com/library/cc772440.aspx)」を参照してください。 別のフォレストに展開されている Exchange サーバーを使用している場合、Skype for Business ユーザー向けの機能を提供するには、Exchange をホストするフォレストが Skype for Business Server をホストしているフォレストを信頼している必要があります。 たとえば、Exchange がアカウントフォレストに展開されている場合、この構成では、アカウントと Skype for Business の両方のフォレストの間に双ウェイの信頼が必要になります。
   
 ## <a name="synchronize-accounts-into-the-forest-hosting-skype-for-business"></a>Skype for Business をホストするフォレストにアカウントを同期する
 
@@ -140,6 +140,6 @@ Skype for Business ハイブリッドを構成するためのベストプラク�
   
 ## <a name="configure-hybrid-connectivity-for-exchange-server"></a>Exchange Server のハイブリッド接続を構成する
 
-必要に応じて、Exchange ハイブリッドを構成するためのベストプラクティスに従います。 詳細については、「 [Exchange Server のハイブリッド展開](https://docs.microsoft.com/en-us/exchange/exchange-hybrid)」を参照してください。 
+必要に応じて、Exchange ハイブリッドを構成するためのベストプラクティスに従います。 詳細については、「 [Exchange Server のハイブリッド展開](https://docs.microsoft.com/exchange/exchange-hybrid)」を参照してください。 
   
 

@@ -21,16 +21,16 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'アドオン ライセンス、機能、そして Office 365 Enterprise、E1、E3、E4 プランを購入する方法について説明します。 '
-ms.openlocfilehash: fa51f8ff6e785009be5392aef8b137a6ff57430b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 79a803061acfd4550c75871c08f40b16ee2f8e2b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692472"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010590"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 Enterprise E1、E3、および E4
 
-すでに[Office 365 Enterprise E1](https://products.office.com/en-us/business/office-365-enterprise-e1-business-software)、 [E3](https://products.office.com/en-us/business/office-365-enterprise-e3-business-software)、または E4 プランを購入済みの場合は、Skype for business のその他の機能を入手するために購入する必要があるアドオンライセンスを次に示します。
+すでに[Office 365 Enterprise E1](https://products.office.com/business/office-365-enterprise-e1-business-software)、 [E3](https://products.office.com/business/office-365-enterprise-e3-business-software)、または E4 プランを購入済みの場合は、Skype for business のその他の機能を入手するために購入する必要があるアドオンライセンスを次に示します。
 
 |||
 |:-----|:-----|

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Skype of business オンライン のユーザーに会議 ID を割り当てる方法と、会議ID パラメーターのあるべき姿について学びます。 '
-ms.openlocfilehash: 10acf425db0230dd90f8c125b0d871e07dd69728
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 8bec76e25df092beb18725467c3041de3c1d7745
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888066"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010990"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>Skype of businessオンラインのユーザーに割り当てられている会議 ID を表示させリセットしてください。
 
@@ -97,7 +97,7 @@ ms.locfileid: "41888066"
 ## <a name="what-else-should-you-know"></a>その他の情報
 
    > [!IMPORTANT]
-   >  新しい会議 ID を作成するか、またはリセットした後は、古い会議 ID を発信者が使用することはできません。 既存の会議の出席依頼のスケジュールを変更して、新しい会議 ID を出席依頼に追加するように、ユーザーに通知してください。 ユーザーは Skype for Business 会議移行ツールを使用して、既存の会議を更新することができます。 このツールのダウンロード、インストール、実行の方法については、「 [skype For business および Lync の会議更新ツール](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)」、「 [Skype for Business Online、会議移行ツール (64 ビット)](https://go.microsoft.com/fwlink/?LinkID=626047)」、「 [Skype For Business online、会議移行ツール (32 ビット)](https://www.microsoft.com/en-us/download/details.aspx?id=54079)」を参照してください。
+   >  新しい会議 ID を作成するか、またはリセットした後は、古い会議 ID を発信者が使用することはできません。 既存の会議の出席依頼のスケジュールを変更して、新しい会議 ID を出席依頼に追加するように、ユーザーに通知してください。 ユーザーは Skype for Business 会議移行ツールを使用して、既存の会議を更新することができます。 このツールのダウンロード、インストール、実行の方法については、「 [skype For business および Lync の会議更新ツール](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)」、「 [Skype for Business Online、会議移行ツール (64 ビット)](https://go.microsoft.com/fwlink/?LinkID=626047)」、「 [Skype For Business online、会議移行ツール (32 ビット)](https://www.microsoft.com/download/details.aspx?id=54079)」を参照してください。
 
 - コマンドレットの詳細については、「 [Set-get-csonlinedialinconferencinguser](https://go.microsoft.com/fwlink/?LinkId=617688 ) 」を参照してください。
 

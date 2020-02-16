@@ -20,18 +20,18 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'Skype for Business を使用しているユーザーが組織外の Skype for Business ユーザーに連絡し、連絡先リストに追加できるようにする方法について説明します。 '
-ms.openlocfilehash: d6251e8e86527172e6818d11b1e07da892b4b0ef
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ffefa664845f5dbe06b064e0a197a28d8df2c3da
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692882"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010810"
 ---
 # <a name="let-skype-for-business-users-add-skype-contacts"></a>Skype for Business ユーザーが Skype の連絡先を追加できるようにする
 
 Skype for Business では、無料アプリの Skype を使用しているすべてのユーザーが、お客さまとの間で IM を検索して IM を行うことができます。 この記事では、Skype の連絡先を追加できるようにするために必要な操作について説明します。 
   
-この操作を行うには、Office 365 の[管理者権限](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US)が必要です。
+この操作を行うには、Office 365 の[管理者権限](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US)が必要です。
 
 ![Skype for Business のロゴを表示したアイコン](../images/sfb-logo-30x30.png) **Skype for Business 管理センターの使用**
   
@@ -55,11 +55,11 @@ Skype for Business では、無料アプリの Skype を使用しているすべ
     
 6.  Windows ファイアウォールを使用している場合、Skype for Business は必要なポートを自動的に開きます。
     
-    組織で別のソリューションを使用して、ネットワーク上のコンピューターがインターネットに接続されないように制限する場合は、クライアントコンピューターが Skype 接続と Skype ディレクトリ検索のすべての[IP アドレスと url](https://support.office.com/en-us/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)にアクセスできることを確認します。 これには、ファイアウォールまたはプロキシインフラストラクチャ構成の送信許可リストへの追加が必要な場合があります。
+    組織で別のソリューションを使用して、ネットワーク上のコンピューターがインターネットに接続されないように制限する場合は、クライアントコンピューターが Skype 接続と Skype ディレクトリ検索のすべての[IP アドレスと url](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)にアクセスできることを確認します。 これには、ファイアウォールまたはプロキシインフラストラクチャ構成の送信許可リストへの追加が必要な場合があります。
     
 7. **テストに最大24時間待機**します。 外部通信設定を変更すると、すべてのデータセンターに変更が反映されるまでに最大24時間かかることがあります。
     
-8. Skype for Business の連絡先リストに Skype の連絡先を検索して追加する方法をユーザーに示します。 [Skype For business で連絡先を検索](https://support.office.com/en-us/article/b12500ef-e37f-4d22-aade-c11277e53f19)するようにユーザーに伝えます。
+8. Skype for Business の連絡先リストに Skype の連絡先を検索して追加する方法をユーザーに示します。 [Skype For business で連絡先を検索](https://support.office.com/article/b12500ef-e37f-4d22-aade-c11277e53f19)するようにユーザーに伝えます。
     
 ## <a name="test-and-troubleshoot"></a>テストとトラブルシューティング
 
@@ -73,7 +73,7 @@ Skype for Business では、無料アプリの Skype を使用しているすべ
   
 3. Skype for Business で、Skype で連絡先を検索し、チャットのリクエストを送信します。 
     
-    会社のポリシーのために送信できないというメッセージが表示された場合は、[ファイアウォールの設定](https://support.office.com/en-us/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)を再確認する必要があります。 
+    会社のポリシーのために送信できないというメッセージが表示された場合は、[ファイアウォールの設定](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)を再確認する必要があります。 
     
 4. ファイアウォールで問題があるかどうかをテストするもう1つの方法は、喫茶店などのファイアウォールの背後にない wifi 上の場所に接続することです。 Skype for Business を使って、Skype の連絡先に要求を送信してチャットすることもできます。 
     

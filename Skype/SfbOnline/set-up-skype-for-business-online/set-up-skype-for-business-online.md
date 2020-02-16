@@ -24,12 +24,12 @@ ms.custom:
 - O365M_SkypeforBusinessON
 - O365P_SkypeforBusinessON
 description: 'Skype for Business をインストールするために、ドメイン、ユーザー、IM、プレゼンスを組織用にセットアップする方法について説明します。 「電話会議、電話システム、通話プラン、Skype 会議ブロードキャストを設定する」もご覧ください。 '
-ms.openlocfilehash: dda75716014c81b2c1fcf333bfd7e9e05ea606e0
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 7ac027549f45c55f62c6fc83d7ebc03d0afef5d2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769600"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010790"
 ---
 # <a name="set-up-skype-for-business-online"></a>Skype for Business Online をセットアップする
 
@@ -41,7 +41,7 @@ Office 365 サブスクリプションでの Skype のセットアップに関�
 
 ## <a name="1-plan-for-skype-for-business"></a>1. Skype for Business を計画する
 
-**[Office 365 Business Premium](https://products.office.com/en-us/business/office-365-business-premium)** または**business Essentials**を使用している場合は、Skype for business を使用して、サブスクリプションに参加している組織内の他のユーザーとオンラインで通話を行うことができます。 たとえば、ユーザーが10人いる組織では、以下の手順2-6 を実行した後に skype for business[を使用し](https://support.office.com/article/2eed8424-581a-4497-b505-c08c152e5851)て skype for business を使用して通話を[開始](https://support.office.com/article/cc05afa6-1894-4a82-9dd9-6222061f50fd)することができます。 また、 [Outlook で Skype For business 会議を設定](https://support.office.com/article/b8305620-d16e-4667-989d-4a977aad6556#bkmk_OWA)することもできます。
+**[Office 365 Business Premium](https://products.office.com/business/office-365-business-premium)** または**business Essentials**を使用している場合は、Skype for business を使用して、サブスクリプションに参加している組織内の他のユーザーとオンラインで通話を行うことができます。 たとえば、ユーザーが10人いる組織では、以下の手順2-6 を実行した後に skype for business[を使用し](https://support.office.com/article/2eed8424-581a-4497-b505-c08c152e5851)て skype for business を使用して通話を[開始](https://support.office.com/article/cc05afa6-1894-4a82-9dd9-6222061f50fd)することができます。 また、 [Outlook で Skype For business 会議を設定](https://support.office.com/article/b8305620-d16e-4667-989d-4a977aad6556#bkmk_OWA)することもできます。
 
 Skype for Business を使用して*社外*のユーザーとの**通話を発信**および受信するには、次の操作を行います。
 

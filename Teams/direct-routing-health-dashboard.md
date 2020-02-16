@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 正常性ダッシュボードを使って、セッションの境界コントローラーとダイレクトルーティングの間の接続を監視する方法について説明します。
-ms.openlocfilehash: a1644eb94cc18bf149a5e866aae0faf4b41d1d67
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: a89377c798295267b1e75f3ffa6efc19b8c4c37d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836077"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051803"
 ---
 # <a name="health-dashboard-for-direct-routing"></a>直接ルーティングの正常性ダッシュボード
 
@@ -102,7 +102,7 @@ ms.locfileid: "41836077"
 
 - **同時通話**-SBC が処理した同時呼び出しの数を示します。 この情報は、必要な同時チャネルの数を予測し、トレンドを確認するのに役立ちます。 データは、日数と通話方向 (受信/送信/すべてのストリーム) でスライドできます。
 
-- **ネットワークパラメーター** -すべてのネットワークパラメーターは、ダイレクトルーティングインターフェイスからセッション境界コントローラーに測定されます。 推奨値の詳細については、「 [Microsoft Teams 用に組織のネットワークを準備](https://docs.microsoft.com/en-us/microsoftteams/prepare-network)する」を参照してください。顧客の Edge を microsoft Edge で推奨される値について確認します。
+- **ネットワークパラメーター** -すべてのネットワークパラメーターは、ダイレクトルーティングインターフェイスからセッション境界コントローラーに測定されます。 推奨値の詳細については、「 [Microsoft Teams 用に組織のネットワークを準備](https://docs.microsoft.com/microsoftteams/prepare-network)する」を参照してください。顧客の Edge を microsoft Edge で推奨される値について確認します。
 
    - ジッター– RTCP (RTP 制御プロトコル) を使って2つのエンドポイントの間で計算されたネットワーク伝達遅延時間の単位 (ミリ秒) です。
 

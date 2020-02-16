@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: Skype for Business Online プラン1は廃止されました。 ただし、Skype for Business Online Plan 1 の現在のサブスクリプションを使用している場合は、この変更による影響はすぐにはありません。 新しいプランに移行する準備ができたら (今すぐまたは更新時)、3つのオプションが用意されています。
-ms.openlocfilehash: d0d553946ddbde84ede48b715332e66aea75dac4
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 1b6642ccea185136c21e6064a8af9f271491c1f4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692662"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029088"
 ---
 # <a name="skype-for-business-online-plan-1-retirement"></a>Skype for Business Online プラン 1 のサポート終了 
 
@@ -38,7 +38,7 @@ Skype for Business Online Plan 1 と同じ機能を維持しながら、Office 3
 
 ## <a name="switching-to-office-365-f1"></a>Office 365 F1 に切り替える
 
-このオプションは、Office 365 F1 が提供するその他の機能を利用する場合に適しています。 さらに詳細を確認し、価格情報を取得するには、「 [Office 365 F1](https://products.office.com/en-us/business/office-365-f1)」を参照してください。
+このオプションは、Office 365 F1 が提供するその他の機能を利用する場合に適しています。 さらに詳細を確認し、価格情報を取得するには、「 [Office 365 F1](https://products.office.com/business/office-365-f1)」を参照してください。
 
 
 ### <a name="how-to-switch"></a>切り替え方法 

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Skype for Business Onlineでダイヤルイン会議の番号を検索する方法。 '
-ms.openlocfilehash: 6cfbc79ff4e282c1b7f8f3f6b19483aa9347f646
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 6c9c9633f99edf42c3016b90f3b52c6c4c54b0d6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680514"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42011020"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-skype-for-business-online"></a>Skype for Business Onlineの電話会議の番号の一覧を見る
 
@@ -35,7 +35,7 @@ ms.locfileid: "41680514"
 
 Skype for Businessユーザー向けの電話会議を設定すると、電話会議に参加できる電話番号を観覧することができます。　 あなたの組織に連絡可能な電話会議のすべての電話番号がリストに追加されます。
   
- **価格を見る** 「[電話会議の価格を確認する」を](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)参照してください。
+ **価格を見る** 「[電話会議の価格を確認する」を](https://products.office.com/skype-for-business/audio-conferencing#Requirements)参照してください。
   
 > [!IMPORTANT]
 > **電話会議のすべてのダイヤルイン番号のリストを含んでいるリソースはありません。** お住まいの地域または国/地域で利用可能なダイヤルイン電話番号があるかどうかを確認する場合は、 **Skype for business 管理センター** > **音声** > **電話番号**に移動し、[**追加**] をクリックして、[**新しいサービス番号**] をクリックします。 [**国/地域**]、[**都道府県/地域**]、[**市区町村**] のリストを使用して、検索をフィルタします。 また、有料サービスの電話番号をお探しの場合は、「**都道府県/地域**」リストから**無料通話**を選択してください。

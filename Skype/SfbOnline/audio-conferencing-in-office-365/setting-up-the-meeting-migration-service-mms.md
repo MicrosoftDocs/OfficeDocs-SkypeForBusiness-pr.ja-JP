@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 会議移行サービス (MMS) は、バックグラウンドで実行されるサービスで、Skype for Business および Microsoft Teams の会議を自動的に更新します。 MMS はユーザーが会議移行ツールを実行して Skype for Business および Microsoft Teams 会議を更新しなくても済むように設計されています。
-ms.openlocfilehash: 805bc7703024d4c6143ee909e715fa36deaa8e3c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 5ce6f2ab5954ba0c076e9a4db432da3e93a75db1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680354"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010980"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>会議移行サービス (MMS) を使用する
 
@@ -47,7 +47,7 @@ ms.locfileid: "41680354"
 - ユーザーのメールボックスは、オンプレミスの Exchange でホストされています。
 - ユーザーはクラウドから Skype for Business Server のオンプレミスに移行されています。
 
-このような場合、エンドユーザーは[会議移行ツール](https://www.microsoft.com/en-us/download/details.aspx?id=51659)を使用して、代わりに自分の会議を移行することができます。
+このような場合、エンドユーザーは[会議移行ツール](https://www.microsoft.com/download/details.aspx?id=51659)を使用して、代わりに自分の会議を移行することができます。
 
 ## <a name="how-mms-works"></a>MMS のしくみ
 

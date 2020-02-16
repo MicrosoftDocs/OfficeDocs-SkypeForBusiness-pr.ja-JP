@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - SMB
 description: 組織内のユーザーが Skype 会議ブロードキャストを使用できるようにするには、それを有効にする必要があります。 これを行うには、Windows PowerShell の使い方を知っている必要があります。 Windows PowerShell がわからない場合は、Microsoft パートナーを採用してこの手順を実行することを検討してください。
-ms.openlocfilehash: 6ad681972bb62fa1790290a90d4281fe4ccd8571
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 1b06f327fa59ec8e90c9b014db8a252ca7b40579
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692632"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010610"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Skype 会議ブロードキャストを有効にする
 
@@ -86,7 +86,7 @@ ms.locfileid: "41692632"
     > [!TIP]
     > 変更を加えた後は、Skype 会議ブロードキャストのポータルに変更が反映されるまでに最長で1時間かかることがあります。 
   
-10. ユーザーは、社内の他のユーザーとブロードキャスト会議を開催できるようになりました。 開始するには、「 [Skype 会議ブロードキャストとは](https://support.office.com/en-us/article/c472c76b-21f1-4e4b-ab58-329a6c33757d)」を参照してください。
+10. ユーザーは、社内の他のユーザーとブロードキャスト会議を開催できるようになりました。 開始するには、「 [Skype 会議ブロードキャストとは](https://support.office.com/article/c472c76b-21f1-4e4b-ab58-329a6c33757d)」を参照してください。
     
 ## <a name="configure-your-network-to-broadcast-meetings-with-external-attendees"></a>外部の出席者との会議をブロードキャストするようにネットワークを設定する
 

@@ -20,12 +20,12 @@ ms.custom:
 - Setup
 - O365P_RecordingDesc
 description: '電話会議およびビデオ会議の記録を有効にし、対処方法を説明する方法は、レコーディングには含まれていません。 '
-ms.openlocfilehash: 7e06d2bddc95b8ab57a2a4a5c47fb4b86837d161
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 956d1eb4e3ad57e2d801a8f08842d646be742a97
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769610"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010820"
 ---
 # <a name="let-people-record-their-audio-and-video-conferences"></a>音声やビデオ会議をレコーディングする
 
@@ -45,7 +45,7 @@ ms.locfileid: "41769610"
 |:-----|:-----|
 |オーディオと HD ビデオ  <br/> PowerPoint およびホワイト ボードのプレゼンテーション  <br/> デスクトップまたはプログラムの共有セッション  <br/> |OneNote の共有ページ  <br/> PowerPoint のコメント  <br/> 共有ファイル (添付ファイル)  <br/> |
    
-詳細については、 [[Lync の記録を保存して公開](https://support.office.com/en-US/Article/83cf1507-0f05-40f5-a520-5a6c133bc33e) ]および[ [Lync の記録マネージャー](https://support.office.com/en-US/Article/fa915c55-ff55-45c0-b372-1ef5596da10b)]を参照してください。 
+詳細については、 [[Lync の記録を保存して公開](https://support.office.com/article/83cf1507-0f05-40f5-a520-5a6c133bc33e) ]および[ [Lync の記録マネージャー](https://support.office.com/article/fa915c55-ff55-45c0-b372-1ef5596da10b)]を参照してください。 
   
 ## <a name="related-topics"></a>関連トピック
 [Skype for Business Online をセットアップする](set-up-skype-for-business-online.md)

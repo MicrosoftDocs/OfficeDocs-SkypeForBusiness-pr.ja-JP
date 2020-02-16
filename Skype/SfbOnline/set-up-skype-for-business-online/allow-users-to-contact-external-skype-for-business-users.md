@@ -28,12 +28,12 @@ ms.custom:
 - O365P_ShareLync
 - LIL_Placement
 description: 'ユーザーが別の組織のユーザーと会話したり、外部からの連絡をしたりできるように Skype for Business を構成する方法について説明します。 '
-ms.openlocfilehash: bc0a59487d3cfd3e5721d60213d367c750349604
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 394613e3137c65e814cc08dd898ec797d560d1c6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692942"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010940"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>ユーザーが外部の Skype for Business ユーザーに連絡できるようにする
 
@@ -51,7 +51,7 @@ ms.locfileid: "41692942"
 ## <a name="enable-business-to-business-communications-for-your-users"></a>ユーザーに対する企業間の通信を有効にする
 <a name="bk_preview"> </a>
 
-この操作を行うには、両方の組織の Office 365 で[管理者権限](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)を持っている必要があります。
+この操作を行うには、両方の組織の Office 365 で[管理者権限](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)を持っている必要があります。
 
 ![](../images/teams-logo-30x30.png) **Teams 管理センターを使用し**た Microsoft Teams ロゴを示すアイコン
   
@@ -112,9 +112,9 @@ ms.locfileid: "41692942"
 ## <a name="tips-on-setting-up-communications-with-federated-businesses"></a>フェデレーションされたビジネスとの通信をセットアップするためのヒント
 <a name="bk_preview"> </a>
 
-- Skype for Business 2015 と Skype for Business Online の間のフェデレーションを構成するには、「 [skype For Business online とのフェデレーションを構成](https://technet.microsoft.com/en-us/library/jj205126.aspx)する」の記事を参照してください。
+- Skype for Business 2015 と Skype for Business Online の間のフェデレーションを構成するには、「 [skype For Business online とのフェデレーションを構成](https://technet.microsoft.com/library/jj205126.aspx)する」の記事を参照してください。
     
-- Lync と Skype for Business Online の間のフェデレーションを構成するには、次の記事を参照してください。 [Lync online の顧客のためのフェデレーションサポートの構成](https://technet.microsoft.com/en-us/library/hh202193.aspx)
+- Lync と Skype for Business Online の間のフェデレーションを構成するには、次の記事を参照してください。 [Lync online の顧客のためのフェデレーションサポートの構成](https://technet.microsoft.com/library/hh202193.aspx)
     
 - Office 365 の2つの Skype for Business ユーザーが別々のドメインで相互に通信している場合は、両方の組織でオンになっている Skype for Business の機能 (たとえば、ビデオの会話やデスクトップ共有など) のみを使用できます。
     

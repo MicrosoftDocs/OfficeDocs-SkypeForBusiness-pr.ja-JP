@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.UsersGeneralOptions
 - ms.lync.lac.UsersLyncToPhoneMoreInfo
 description: 'Skype for Business の設定を変更する方法について説明します。たとえば、音声会議やビデオ会議、通話と会議の記録などがあります。 '
-ms.openlocfilehash: d6054db4bfdd8b161dca427237a10d70ba558fcb
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 756de9829194139f39c7618e0c8bbd74f3418264
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769690"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010890"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>管理者: 個別のユーザーの Skype for Business の設定を構成する
 
@@ -43,7 +43,7 @@ ms.locfileid: "41769690"
 ## <a name="configure-general-settings-for-one-user"></a>1人のユーザーの全般設定を構成する
 <a name="__toc325019204"> </a>
 
-これらの手順を実行するには、[管理者権限](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)が必要です。
+これらの手順を実行するには、[管理者権限](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)が必要です。
 
 ![Skype for Business のロゴを表示したアイコン](../images/sfb-logo-30x30.png) **Skype for Business 管理センターの使用**
   
@@ -67,7 +67,7 @@ ms.locfileid: "41769690"
 |:-----|:-----|
 |オーディオと HD ビデオ  <br/> |このユーザーが音声会議、音声会議、ビデオ会議を記録したり、会議のスケジュールを設定したりできないようにします (なし)。  <br/> |
 |会話と会議を記録する  <br/> |このユーザーが記録できる内容を選びます。  <br/> このオプションは、Skype for Business Basic では使用できません。  <br/> |
-|コンプライアンスのため、アーカイブされていない機能をオフにする  <br/> | 電子的に保存された情報を維持する必要がある場合は、このオプションを選択します。 <br/>  このオプションを選択すると、Exchange 管理センターで[インプレースホールド](https://technet.microsoft.com/en-us/library/ff637980%28v=exchg.150%29.aspx)が設定されているときにキャプチャされていない機能は無効になります。 次の機能がオフになります。 <br/>  インスタント メッセージングを使用したファイルの転送 <br/>  OneNote の共有ページ <br/>  PowerPoint のコメント <br/> |
+|コンプライアンスのため、アーカイブされていない機能をオフにする  <br/> | 電子的に保存された情報を維持する必要がある場合は、このオプションを選択します。 <br/>  このオプションを選択すると、Exchange 管理センターで[インプレースホールド](https://technet.microsoft.com/library/ff637980%28v=exchg.150%29.aspx)が設定されているときにキャプチャされていない機能は無効になります。 次の機能がオフになります。 <br/>  インスタント メッセージングを使用したファイルの転送 <br/>  OneNote の共有ページ <br/>  PowerPoint のコメント <br/> |
    
 これらの設定をまとめて構成するには、PowerShell を使用します。 「 [Windows PowerShell 用にコンピューターをセットアップする」を](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)参照してください。
   

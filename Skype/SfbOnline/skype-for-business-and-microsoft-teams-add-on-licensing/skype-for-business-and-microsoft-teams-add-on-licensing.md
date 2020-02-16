@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'アドオンライセンス、入手できる機能、製品の購入方法、および既存の通信事業者との使用方法について説明します。 Office 365、通信クレジット、および通話プランの価格と計画の詳細については、こちらを参照してください。 '
-ms.openlocfilehash: c48136176673676df83833833b4424d8d0a593f3
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 94a5adc1e9f9abf5529aaf5b149d9cfc906efbe8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706082"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010570"
 ---
 # <a name="skype-for-business-add-on-licensing"></a>Skype for Business アドオンのライセンス
 
@@ -44,11 +44,11 @@ Skype for Business のライセンスは、最大限の柔軟性を提供する�
 
 コストの詳細については、 [価格を表示し、アドオンのライセンスを購入する方法](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_how) や、次のいずれかを参照してください。
 
-- [電話会議の料金](https://products.office.com/en-us/skype-for-business/audio-conferencing)
+- [電話会議の料金](https://products.office.com/skype-for-business/audio-conferencing)
 
-- [電話システムの料金](https://products.office.com/en-us/skype-for-business/phone-system)
+- [電話システムの料金](https://products.office.com/skype-for-business/phone-system)
 
-- [通話プランの価格](https://products.office.com/en-us/skype-for-business/calling-plans)
+- [通話プランの価格](https://products.office.com/skype-for-business/calling-plans)
 
 ## <a name="what-features-can-i-get-with-add-on-licenses"></a>アドオン ライセンスで入手できる機能は何ですか。
 
@@ -57,10 +57,10 @@ Skype for Business のライセンスは、最大限の柔軟性を提供する�
 |||
 |:-----|:-----|
 |**機能** <br/> |**説明** <br/> |
-|**電話会議** <br/> |組織内のユーザーは、自分のコンピューターを使う代わりに、Skype for Business 会議に電話をかけて電話をかける必要があります。 この状況では、電話会議機能を使用します。  <br/> 国または地域でオーディオ会議が利用可能かどうかを調べるには、 [オーディオ会議や呼び出しプランが利用可能な国および地域](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)を参照してください。 <br/> コストを検索する場合は、 [オーディオ会議のための要件](https://products.office.com/en-us/skype-for-business/audio-conferencing#requirements)を参照してください。  <br/> |
+|**電話会議** <br/> |組織内のユーザーは、自分のコンピューターを使う代わりに、Skype for Business 会議に電話をかけて電話をかける必要があります。 この状況では、電話会議機能を使用します。  <br/> 国または地域でオーディオ会議が利用可能かどうかを調べるには、 [オーディオ会議や呼び出しプランが利用可能な国および地域](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)を参照してください。 <br/> コストを検索する場合は、 [オーディオ会議のための要件](https://products.office.com/skype-for-business/audio-conferencing#requirements)を参照してください。  <br/> |
 |**会議へのダイヤルイン アクセスのための無料電話番号や、世界中の電話番号に発信して誰かを追加するために会議からダイヤルアウトする機能** <br/> |オーディオ会議を追加する場合は、 [コミュニケーション クレジットを設定](/microsoftteams/set-up-communications-credits-for-your-organization)することをおすすめします。 <br/> |
-|**電話システム** <br/> |PBX は、ビジネスにおける電話システムです。 Office 365 の電話システムは、ホストされた電話サービスです。 従来型と革新的な PBX 機能の両方が提供されますが、複雑で高価な機器は必要ありません。 [Office 365 の電話システムで利用できる機能は次のとおり](/MicrosoftTeams/here-s-what-you-get-with-phone-system)です。  <br/> コストを検索する場合は、 [電話システムの要件](https://products.office.com/en-us/skype-for-business/cloud-pbx#requirements)を参照してください。  <br/> |
-|**通話プラン** <br/> |他の Skype for Business ユーザへの通話は無料ですが、ユーザが社外の電話番号に通話を発信できるようにするには、[通話プラン](/MicrosoftTeams/calling-plans-for-office-365)を利用してください。 Office 365 には国内通話プランと、国内および国際通話プランがあります。  <br/> コストを検索する場合は、 [通話プランの要件](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements)を参照してください。  <br/> |
+|**電話システム** <br/> |PBX は、ビジネスにおける電話システムです。 Office 365 の電話システムは、ホストされた電話サービスです。 従来型と革新的な PBX 機能の両方が提供されますが、複雑で高価な機器は必要ありません。 [Office 365 の電話システムで利用できる機能は次のとおり](/MicrosoftTeams/here-s-what-you-get-with-phone-system)です。  <br/> コストを検索する場合は、 [電話システムの要件](https://products.office.com/skype-for-business/cloud-pbx#requirements)を参照してください。  <br/> |
+|**通話プラン** <br/> |他の Skype for Business ユーザへの通話は無料ですが、ユーザが社外の電話番号に通話を発信できるようにするには、[通話プラン](/MicrosoftTeams/calling-plans-for-office-365)を利用してください。 Office 365 には国内通話プランと、国内および国際通話プランがあります。  <br/> コストを検索する場合は、 [通話プランの要件](https://products.office.com/skype-for-business/pstn-calling-plans#requirements)を参照してください。  <br/> |
 |**Microsoft Teams ミーティング** <br/> |これはアドオンではありませんが、会議室にビデオ、音声、コンテンツの共有をもたらす機能です。 「 [Microsoft Teams のルーム](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)」を参照してください。  <br/> |
 
 すべてのアドオンオプションについて誰かに相談する必要がある場合 [ビジネス製品のサポートについては、「管理者向けヘルプ」を参照してください](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
@@ -91,11 +91,11 @@ Skype for Business のライセンスは、最大限の柔軟性を提供する�
 ## <a name="how-do-i-use-my-existing-calling-plans-with-skype-for-business"></a>既存の通信プランと Skype for Business を組み合わせて使用する方法
 <a name="bkmk_existing"></a>
 
-既存の通話プランを使用する場合は、 **電話システム**のアドオンを購入して、 **[無料のクラウド コネクタ](https://technet.microsoft.com/en-us/library/mt605227.aspx)** と組み合わせてご使用ください。
+既存の通話プランを使用する場合は、 **電話システム**のアドオンを購入して、 **[無料のクラウド コネクタ](https://technet.microsoft.com/library/mt605227.aspx)** と組み合わせてご使用ください。
 
 ハイブリッド ユーザー向けにオンプレミス PSTN 接続を使用している場合は、 *電話システム*  のライセンス **のみ**をユーザーに割り当てる必要があります。同時に PSTN 通話プランも割り当て **ないでください** 。
 
-オンプレミスの PSTN 接続を使用した電話システムなど、展開の計画について詳しくは、「 [Office 365 (クラウド PBX) ソリューションで電話システムを計画する](https://technet.microsoft.com/en-us/library/mt612869.aspx)」をご覧ください。
+オンプレミスの PSTN 接続を使用した電話システムなど、展開の計画について詳しくは、「 [Office 365 (クラウド PBX) ソリューションで電話システムを計画する](https://technet.microsoft.com/library/mt612869.aspx)」をご覧ください。
 
 
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
@@ -110,4 +110,4 @@ Skype for Business のライセンスは、最大限の柔軟性を提供する�
     
 - [資金を追加してコミュニケーション クレジットを管理する](/microsoftteams/add-funds-and-manage-communications-credits)
     
-- [クラウドコネクタを構成](https://technet.microsoft.com/en-us/library/mt605228.aspx)し、[クラウドコネクタをダウンロード](https://aka.ms/CloudConnectorInstaller)する
+- [クラウドコネクタを構成](https://technet.microsoft.com/library/mt605228.aspx)し、[クラウドコネクタをダウンロード](https://aka.ms/CloudConnectorInstaller)する

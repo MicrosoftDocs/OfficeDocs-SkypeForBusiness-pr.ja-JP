@@ -20,12 +20,12 @@ ms.custom:
 - Setup
 - O365P_OnlinePresenceDesc
 description: 'Learn how to set up Skype for Business so you can see the availability of your co-workers. '
-ms.openlocfilehash: 75294b62e516ef5e39a498f91ff6284c0a26cac5
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 80d0edfc5ba192f86d64d45d34116b55d43a5a25
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769730"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010900"
 ---
 # <a name="configure-presence-in-skype-for-business-online"></a>Skype for Business Online でプレゼンスを設定する
 
@@ -50,9 +50,9 @@ ms.locfileid: "41769730"
 
 Skype for Business でユーザーが変更できる操作については、次の記事を参照してください。
 
-- [Skype for Business のプレゼンス情報へのアクセスを制御する](https://support.office.com/en-us/article/fea86e34-60cf-4dd0-bfb2-169a42afd92c)
+- [Skype for Business のプレゼンス情報へのアクセスを制御する](https://support.office.com/article/fea86e34-60cf-4dd0-bfb2-169a42afd92c)
 
-- [Skype for Business のステータスオプションを設定する](https://support.office.com/en-us/article/efd25395-c8ef-4510-b9cb-6f70e2fff8a0)
+- [Skype for Business のステータスオプションを設定する](https://support.office.com/article/efd25395-c8ef-4510-b9cb-6f70e2fff8a0)
 
 ## <a name="related-topics"></a>関連トピック
 
