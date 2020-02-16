@@ -128,13 +128,13 @@ VoIP アプリケーションはフロント エンド サーバーのアプリ�
   - <span></span>  
     [Set-CsHostedVoicemailPolicy](https://technet.microsoft.com/library/Gg412722(v=OCS.15))
 
-**[Lync Server 2013 の応答グループアプリケーションのコマンドレット](lync-server-2013-response-group-application-cmdlets.md)**
+**[Lync Server 2013 の応答グループ アプリケーションのコマンドレット](lync-server-2013-response-group-application-cmdlets.md)**
 
   - <span></span>  
     [Get-CsRgsAgentGroup](https://technet.microsoft.com/library/Gg425793(v=OCS.15))
 
   - <span></span>  
-    [新しい-CsRgsAgentGroup](https://technet.microsoft.com/library/Gg413065(v=OCS.15))
+    [New-CsRgsAgentGroup](https://technet.microsoft.com/library/Gg413065(v=OCS.15))
 
   - <span></span>  
     [Remove-CsRgsAgentGroup](https://technet.microsoft.com/library/Gg398969(v=OCS.15))
@@ -145,17 +145,17 @@ VoIP アプリケーションはフロント エンド サーバーのアプリ�
 <!-- end list -->
 
   - <span></span>  
-    [新しい-CsRgsAnswer](https://technet.microsoft.com/library/Gg412812(v=OCS.15))
+    [New-CsRgsAnswer](https://technet.microsoft.com/library/Gg412812(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Import-csrgsaudiofile](https://technet.microsoft.com/library/Gg412830(v=OCS.15))
+    [Import-CsRgsAudioFile](https://technet.microsoft.com/library/Gg412830(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [新しい-CsRgsCallAction](https://technet.microsoft.com/library/Gg398136(v=OCS.15))
+    [New-CsRgsCallAction](https://technet.microsoft.com/library/Gg398136(v=OCS.15))
 
 <!-- end list -->
 
@@ -169,7 +169,7 @@ VoIP アプリケーションはフロント エンド サーバーのアプリ�
     [Import-CsRgsConfiguration](https://technet.microsoft.com/library/JJ205245(v=OCS.15))
 
   - <span></span>  
-    [移動-CsRgsConfiguration](https://technet.microsoft.com/library/Gg398782(v=OCS.15))
+    [Move-CsRgsConfiguration](https://technet.microsoft.com/library/Gg398782(v=OCS.15))
 
   - <span></span>  
     [Set-CsRgsConfiguration](https://technet.microsoft.com/library/Gg425728(v=OCS.15))
@@ -177,7 +177,7 @@ VoIP アプリケーションはフロント エンド サーバーのアプリ�
 <!-- end list -->
 
   - <span></span>  
-    [新規-CsRgsHoliday](https://technet.microsoft.com/library/Gg398075(v=OCS.15))
+    [New-CsRgsHoliday](https://technet.microsoft.com/library/Gg398075(v=OCS.15))
 
 <!-- end list -->
 
@@ -185,7 +185,7 @@ VoIP アプリケーションはフロント エンド サーバーのアプリ�
     [Get-CsRgsHolidaySet](https://technet.microsoft.com/library/Gg412983(v=OCS.15))
 
   - <span></span>  
-    [新規-CsRgsHolidaySet](https://technet.microsoft.com/library/Gg398403(v=OCS.15))
+    [New-CsRgsHolidaySet](https://technet.microsoft.com/library/Gg398403(v=OCS.15))
 
   - <span></span>  
     [Remove-CsRgsHolidaySet](https://technet.microsoft.com/library/Gg398521(v=OCS.15))
@@ -196,26 +196,26 @@ VoIP アプリケーションはフロント エンド サーバーのアプリ�
 <!-- end list -->
 
   - <span></span>  
-    [Get-csrgshoursofbusiness](https://technet.microsoft.com/library/Gg398284(v=OCS.15))
+    [Get-CsRgsHoursOfBusiness](https://technet.microsoft.com/library/Gg398284(v=OCS.15))
 
   - <span></span>  
-    [Get-csrgshoursofbusiness](https://technet.microsoft.com/library/Gg398291(v=OCS.15))
+    [New-CsRgsHoursOfBusiness](https://technet.microsoft.com/library/Gg398291(v=OCS.15))
 
   - <span></span>  
-    [Get-csrgshoursofbusiness](https://technet.microsoft.com/library/Gg398568(v=OCS.15))
+    [Remove-CsRgsHoursOfBusiness](https://technet.microsoft.com/library/Gg398568(v=OCS.15))
 
   - <span></span>  
-    [Get-csrgshoursofbusiness](https://technet.microsoft.com/library/Gg412929(v=OCS.15))
+    [Set-CsRgsHoursOfBusiness](https://technet.microsoft.com/library/Gg412929(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [新規-CsRgsPrompt](https://technet.microsoft.com/library/Gg398486(v=OCS.15))
+    [New-CsRgsPrompt](https://technet.microsoft.com/library/Gg398486(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [新規-CsRgsQuestion](https://technet.microsoft.com/library/Gg398186(v=OCS.15))
+    [New-CsRgsQuestion](https://technet.microsoft.com/library/Gg398186(v=OCS.15))
 
 <!-- end list -->
 
@@ -223,7 +223,7 @@ VoIP アプリケーションはフロント エンド サーバーのアプリ�
     [Get-CsRgsQueue](https://technet.microsoft.com/library/Gg412759(v=OCS.15))
 
   - <span></span>  
-    [新しい-CsRgsQueue](https://technet.microsoft.com/library/Gg398989(v=OCS.15))
+    [New-CsRgsQueue](https://technet.microsoft.com/library/Gg398989(v=OCS.15))
 
   - <span></span>  
     [Remove-CsRgsQueue](https://technet.microsoft.com/library/Gg398576(v=OCS.15))
@@ -234,7 +234,7 @@ VoIP アプリケーションはフロント エンド サーバーのアプリ�
 <!-- end list -->
 
   - <span></span>  
-    [New-csrgstimerange](https://technet.microsoft.com/library/Gg399040(v=OCS.15))
+    [New-CsRgsTimeRange](https://technet.microsoft.com/library/Gg399040(v=OCS.15))
 
 <!-- end list -->
 
@@ -242,7 +242,7 @@ VoIP アプリケーションはフロント エンド サーバーのアプリ�
     [Get-CsRgsWorkflow](https://technet.microsoft.com/library/Gg425766(v=OCS.15))
 
   - <span></span>  
-    [新規-CsRgsWorkflow](https://technet.microsoft.com/library/Gg398246(v=OCS.15))
+    [New-CsRgsWorkflow](https://technet.microsoft.com/library/Gg398246(v=OCS.15))
 
   - <span></span>  
     [Remove-CsRgsWorkflow](https://technet.microsoft.com/library/Gg398765(v=OCS.15))

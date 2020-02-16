@@ -94,7 +94,7 @@ ms.locfileid: "42043319"
 
 ## <a name="assigning-a-per-user-conferencing-policy-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用したユーザー単位の会議ポリシーの割り当て
 
-ユーザー単位の会議ポリシーは、Windows PowerShell と Get-csconferencingpolicy コマンドレットを使用して割り当てることができます。 このコマンドレットは、Lync Server 2013 管理シェルから実行するか、Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
+ユーザー単位の会議ポリシーは、Windows PowerShell と Get-csconferencingpolicy コマンドレットを使用して割り当てることができます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 ## <a name="to-assign-a-per-user-conferencing-policy-to-a-single-user"></a>ユーザー単位の会議ポリシーを1人のユーザーに割り当てるには
 
