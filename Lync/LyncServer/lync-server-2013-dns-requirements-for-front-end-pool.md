@@ -89,7 +89,7 @@ _**トピックの最終更新日:** 2012-11-07_
 <thead>
 <tr class="header">
 <th>場所</th>
-<th>種類</th>
+<th>型</th>
 <th>FQDN</th>
 <th>マッピング先/コメント</th>
 </tr>
@@ -201,7 +201,7 @@ _**トピックの最終更新日:** 2012-11-07_
 <thead>
 <tr class="header">
 <th>場所</th>
-<th>種類</th>
+<th>型</th>
 <th>FQDN</th>
 <th>対象 FQDN</th>
 <th>ポート</th>
