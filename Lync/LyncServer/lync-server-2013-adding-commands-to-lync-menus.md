@@ -84,7 +84,7 @@ _**トピックの最終更新日:** 2016-04-11_
 <thead>
 <tr class="header">
 <th>名前</th>
-<th>種類</th>
+<th>型</th>
 <th>データ</th>
 </tr>
 </thead>
