@@ -63,7 +63,7 @@ _**トピックの最終更新日:** 2013-02-21_
 
 <div>
 
-## <a name="reference"></a>リファレンス
+## <a name="reference"></a>Reference
 
 [Lync Server 2013 での高度なエンタープライズ Voip 機能の展開](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
 

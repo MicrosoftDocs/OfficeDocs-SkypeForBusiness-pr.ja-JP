@@ -80,7 +80,7 @@ ConferenceJoinTimeThresholds テーブルには、2 秒、5 秒、および 10 �
 <td></td>
 <td><p>分類の上限。有効な値は次のとおりです。</p>
 <ol>
-<li><p>2 </p></li>
+<li><p>pbm-2</p></li>
 <li><p>5 </p></li>
 <li><p>10 </p></li>
 </ol></td>

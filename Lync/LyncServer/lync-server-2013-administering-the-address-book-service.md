@@ -85,17 +85,17 @@ Lync Server には、標準化された RFC 3966/e.164 電話番号が必要で�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1 </p></td>
+<td><p>1-d</p></td>
 <td><p>givenName</p></td>
 <td><p>0x01400000</p></td>
 </tr>
 <tr class="even">
-<td><p>2 </p></td>
+<td><p>pbm-2</p></td>
 <td><p>Sn</p></td>
 <td><p>0x02400000</p></td>
 </tr>
 <tr class="odd">
-<td><p>3 </p></td>
+<td><p>1/3</p></td>
 <td><p>displayName</p></td>
 <td><p>0x03420000</p></td>
 </tr>
@@ -135,7 +135,7 @@ Lync Server には、標準化された RFC 3966/e.164 電話番号が必要で�
 <td><p>0x0A302800</p></td>
 </tr>
 <tr class="odd">
-<td><p>#</p></td>
+<td><p>11 </p></td>
 <td><p>Mobile</p></td>
 <td><p>0x0B622800</p></td>
 </tr>

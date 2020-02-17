@@ -241,7 +241,7 @@ Microsoft のサポート サービスには、サービス利用時の料金、
 
 <div>
 
-## <a name="for-more-information"></a>詳細情報
+## <a name="for-more-information"></a>関連情報
 
 障碍のある方がコンピューターの機能を向上させる方法については、「Microsoft Accessibility」 [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)を参照してください。
 

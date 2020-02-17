@@ -80,7 +80,7 @@ _**トピックの最終更新日:** 2012-10-29_
 <tr class="odd">
 <td><p>1秒あたりの着信</p></td>
 <td><p>16 </p></td>
-<td><p>2 </p></td>
+<td><p>pbm-2</p></td>
 </tr>
 <tr class="even">
 <td><p>IVR または MoH に接続された同時通話</p></td>

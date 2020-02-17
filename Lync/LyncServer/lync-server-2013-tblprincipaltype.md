@@ -120,19 +120,19 @@ tblPrincipal テーブルには、tblPrincipal テーブルの内容を分類す
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1 </p></td>
+<td><p>1-d</p></td>
 <td><p>任意</p></td>
 <td><p>既知の型を持たない汎用的なプリンシパル。tblPrincipal テーブルでは使用されません。</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>2 </p></td>
+<td><p>pbm-2</p></td>
 <td><p>AnyUser</p></td>
 <td><p>ユーザー型の汎用的なプリンシパル。tblPrincipal テーブルでは使用されません。</p></td>
 <td><p>はい</p></td>
 </tr>
 <tr class="odd">
-<td><p>3 </p></td>
+<td><p>1/3</p></td>
 <td><p>AnyGroup</p></td>
 <td><p>グループ セマンティックを持つ汎用的なプリンシパル。tblPrincipal テーブルでは使用されません。</p></td>
 <td></td>
