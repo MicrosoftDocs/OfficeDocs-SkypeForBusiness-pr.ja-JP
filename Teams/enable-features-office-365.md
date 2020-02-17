@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5eb6fa4a4b8aabcc84f70d6ce33c89fe0d84df98
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 87c78839c0c6998464ed362dc8a3c2e4798a2321
+ms.sourcegitcommit: 561b9bab7d6f5a621436bc85ea28ea14657e7868
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834957"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035239"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>組織の Microsoft Teams の設定を管理する
 
@@ -60,6 +60,10 @@ Microsoft Teams での**ゲスト アクセス**により、組織内のチー�
 #### <a name="notifications-and-feeds"></a>通知とフィード
 
 ここで、サジェストされたフィードを Teams のユーザーのアクティビティ フィードに表示するかどうかを制御できます。 アクティビティ フィードの詳細については、「[Teams でアクティビティ フィードを詳しく見る](https://support.office.com/article/explore-the-activity-feed-in-teams-91c635a1-644a-4c60-9c98-233db3e13a56)」をご覧ください。
+
+#### <a name="tagging"></a>タグ付け
+
+タグを使用すると、ユーザーはチーム内の一部のユーザーとコミュニケーションをとることができます。 タグは、1 つまたは複数のチーム メンバーに追加できます。 タグを追加した後、そのタグを割り当てられた人のみとコミュニケーションするために、チャネル投稿のチームの誰でもタグを @メンションで使用できます。 これらの設定を使用して、組織全体でタグを追加できるユーザーおよびタグの使用方法を制御します。 詳細については、「[Teams でタグを管理する](manage-tags.md)」を参照してください。
 
 #### <a name="email-integration"></a>電子メールの統合
 
@@ -109,7 +113,7 @@ Microsoft Teams の範囲指定ディレクトリ検索では、アドレス帳�
 
 #### <a name="app-preferences"></a>アプリの基本設定
 
-ユーザーが Skype for Business の会議に参加するために使用するアプリを選ぶことができます (Skype for Business または [Skype 会議アプリ](https://support.office.com/ja-JP/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5))。この設定は、共存モードの設定に依存しません。
+ユーザーが Skype for Business の会議に参加するために使用するアプリを選ぶことができます (Skype for Business または [Skype 会議アプリ](https://support.office.com/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5))。この設定は、共存モードの設定に依存しません。
 
 
 #### <a name="network-planner"></a>ネットワーク プランナー
@@ -121,7 +125,7 @@ Microsoft Teams の範囲指定ディレクトリ検索では、アドレス帳�
 
 ## <a name="how-can-i-tell-which-features-are-available"></a>利用可能な機能を知る方法を教えてください。
 
-新しい Teams の機能の詳細については、「[Microsoft 365 ロードマップ](https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams)」を参照してください。新機能および今後導入される機能については、Teams の「[新機能](https://support.office.com/en-us/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US)」ページと、Teams に関する[技術コミュニティの Microsoft Teams ブログ](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531)を参照してください。 
+新しい Teams の機能の詳細については、「[Microsoft 365 ロードマップ](https://www.microsoft.com/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams)」を参照してください。新機能および今後導入される機能については、Teams の「[新機能](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US)」ページと、Teams に関する[技術コミュニティの Microsoft Teams ブログ](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531)を参照してください。 
 
 ## <a name="more-information"></a>詳細情報
 
