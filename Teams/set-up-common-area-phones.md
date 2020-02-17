@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'ロビー、受付領域、会議室の一般的なエリア電話を設定する方法について説明します。 '
-ms.openlocfilehash: dff06d43e196b999d06c9fa78e7d66ad7a162998
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5997137420a9cac0517f67a81c7dedc7b779b715
+ms.sourcegitcommit: f3d4f4aabe31c5516507dfacbbd61cf0ae362d46
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838037"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42089730"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Microsoft Teams での共通領域電話のライセンスをセットアップする
 > [!NOTE]
@@ -50,7 +50,10 @@ ms.locfileid: "41838037"
 4. **アドオンサブスクリプション**を展開し、をクリックして通話プランを購入します。 **国内通話プラン**または**国内および国際通話プラン**のいずれかを選択します。
 
 > [!NOTE]
-> 電話システムのライセンスは必要ありません。  共用エリア電話機  のライセンスに含まれています。
+> Microsoft Phone システムのダイレクトルーティングを使用している場合は、通話プランのライセンスは必要ありません。
+
+> [!NOTE]
+> 電話システムのライセンスを追加する必要はありません。  共用エリア電話機  のライセンスに含まれています。
 
 ライセンスの詳細については、「 [Microsoft Teams のアドオンライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。
 
@@ -89,6 +92,9 @@ ms.locfileid: "41838037"
 6. ライセンスをユーザーに割り当てます。 同じページで、**[製品ライセンス]** をクリックして拡大してください。 共通の市外局番をオンにして、**国内通話プラン**または**国内および国際通話プラン**を選択します。 
 
     ![ライセンスの割り当てを示すスクリーンショット](media/set-up-common-area-phone-image2.png)
+
+> [!NOTE]
+> Microsoft Phone システムのダイレクトルーティングを使用している場合は、通話プランライセンスを割り当てる必要はありません。
 
 詳細については、「[ユーザーを追加する](https://docs.microsoft.com/office365/admin/add-users/add-users?redirectSourcePath=%252farticle%252f1970f7d6-03b5-442f-b385-5880b9c256ec&view=o365-worldwide)」を参照してください。
 

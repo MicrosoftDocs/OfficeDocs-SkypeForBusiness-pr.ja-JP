@@ -17,14 +17,16 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: ''
-ms.openlocfilehash: 53c17cdd3a1b6726e0219147e4dadd1cba7b25ff
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 0f846029002529d221b079140cf7de8ae618f26c
+ms.sourcegitcommit: f3d4f4aabe31c5516507dfacbbd61cf0ae362d46
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827935"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42089740"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>Microsoft Teams に電話番号を転送する
+
+[!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
 Microsoft Teams 管理センターの [移植] ウィザードを使用して、現在のサービスプロバイダーからチームに電話番号を移行します。 お客さまの電話番号を Teams に移植すると、Microsoft はサービスプロバイダになり、これらの電話番号について請求されます。
 
@@ -36,7 +38,7 @@ Microsoft Teams 管理センターの [移植] ウィザードを使用して、
 ## <a name="create-a-port-order-and-transfer-your-phone-numbers-to-teams"></a>ポート注文を作成して、電話番号を Teams に転送する
 
 > [!NOTE]
-> Microsoft Teams 管理センターの [移植] ウィザードに、お住まいの国または地域が表示されていない場合は、[手動でポート注文を送信](manually-submit-port-order.md)できます。
+> **現時点では、このウィザードを使って英国とカナダの電話番号を取得でき**ます。 他の国や地域の電話番号を取得するには、[手動でポート注文を送信](manually-submit-port-order.md)することができます。 フォームを取得するには、手動でポート注文を送信する必要があります。 [[組織の電話番号の管理](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)] のドロップダウンリストで、お住まいの国または地域を選択します。
 
 1. Microsoft Teams 管理センターの左のナビゲーションで、[ > **電話番号** **] に移動**します。 [**番号**] をクリックし、[**ポート**] をクリックして、移植ウィザードを開始します。
 2. [**はじめ**に] ページで情報を確認し、準備ができたら、[**次へ**] をクリックします。
@@ -87,7 +89,7 @@ Microsoft Teams 管理センターの [移植] ウィザードを使用して、
 
 ポート注文が届くと、お客様のリクエストを確認するメールが届きます。 リクエストが毎日チェックされて更新され、メールの進捗状況と状態が通知されます。 要求が拒否された場合は、サポートチケットを開くように求められます。
 
-ポート注文の状態を表示するには、Microsoft Teams 管理センターの左のナビゲーションで > [**音声** > **ポートの注文**] に移動し、[**注文履歴**] をクリックします。 各ポート注文の状態は、[**状態**」列に表示されます。 詳細については、「[ポート注文の状態は何ですか?](port-order-status.md)」を参照してください。
+ポート注文の状態を表示するには、Microsoft Teams 管理センターの左のナビゲーションで > [**音声** > **ポートの注文**] に移動し、[**注文履歴**] をクリックします。 各ポート注文の状態は、[**状態**」列に表示されます。 詳細については、「[ポート注文の状態は何ですか?](port-order-status.md) 」を参照してください。
 
 ## <a name="related-topics"></a>関連トピック
 
