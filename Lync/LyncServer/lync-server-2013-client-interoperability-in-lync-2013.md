@@ -267,7 +267,7 @@ Lync Server 2013 リリースでは、さまざまなクライアントバージ
 <td><p>はい</p></td>
 <td><p>はい</p></td>
 <td><p>はい</p></td>
-<td><p>Yes1</p></td>
+<td><p>はい1</p></td>
 <td><p>はい</p></td>
 </tr>
 <tr class="even">
@@ -412,7 +412,7 @@ Lync Server 2013 の会議では、さまざまなバージョンのサーバー
 <td><p>はい</p></td>
 <td><p>はい</p></td>
 <td><p>はい</p></td>
-<td><p>Yes3</p></td>
+<td><p>はい3</p></td>
 <td><p>はい</p></td>
 <td><p>はい</p></td>
 <td><p>はい</p></td>
