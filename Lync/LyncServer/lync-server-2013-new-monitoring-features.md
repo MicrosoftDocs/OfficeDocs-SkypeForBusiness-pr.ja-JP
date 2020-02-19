@@ -12,20 +12,20 @@ ms:contentKeyID: 48185883
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 53144bfd9a05d1fc20671b1d7b6aeb22b0f84f6f
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: a9b5dda81e29b762ed0683509544057934436ffb
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42007766"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42121780"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-monitoring-features-in-lync-server-2013"></a><span data-ttu-id="85cca-102">Lync Server 2013 の新しい監視機能</span><span class="sxs-lookup"><span data-stu-id="85cca-102">New Monitoring features in Lync Server 2013</span></span>
+# <a name="new-monitoring-features-in-lync-server-2013"></a><span data-ttu-id="59090-102">Lync Server 2013 の新しい監視機能</span><span class="sxs-lookup"><span data-stu-id="59090-102">New Monitoring features in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42007766"
 
 <span> </span>
 
-<span data-ttu-id="85cca-103">_**トピックの最終更新日:** 2012-11-08_</span><span class="sxs-lookup"><span data-stu-id="85cca-103">_**Topic Last Modified:** 2012-11-08_</span></span>
+<span data-ttu-id="59090-103">_**トピックの最終更新日:** 2012-11-08_</span><span class="sxs-lookup"><span data-stu-id="59090-103">_**Topic Last Modified:** 2012-11-08_</span></span>
 
-<span data-ttu-id="85cca-104">Lync Server 2013 には、別の監視サーバーの役割がありません。</span><span class="sxs-lookup"><span data-stu-id="85cca-104">Lync Server 2013 does not have a separate Monitoring Server role.</span></span> <span data-ttu-id="85cca-105">監視は、Enterprise Edition 展開のすべてのフロントエンド サーバーおよび Standard Edition サーバーで使用できるオプションの機能であり、プールまたはサイトに対して実装および構成できます。</span><span class="sxs-lookup"><span data-stu-id="85cca-105">Monitoring is an optional feature available on all Front End Servers in an Enterprise Edition deployment, and on Standard Edition servers, that can be implemented and configured for a pool or a site.</span></span> <span data-ttu-id="85cca-106">Lync Server 2013 の新機能により、監視データベースに対して SQL Server データベースのミラーリングを有効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="85cca-106">New to Lync Server 2013, you can enable SQL Server database mirroring for your Monitoring database.</span></span>
+<span data-ttu-id="59090-104">Lync Server 2013 には、別の監視サーバーの役割がありません。</span><span class="sxs-lookup"><span data-stu-id="59090-104">Lync Server 2013 does not have a separate Monitoring Server role.</span></span> <span data-ttu-id="59090-105">監視は、Enterprise Edition 展開のすべてのフロントエンド サーバーおよび Standard Edition サーバーで使用できるオプションの機能であり、プールまたはサイトに対して実装および構成できます。</span><span class="sxs-lookup"><span data-stu-id="59090-105">Monitoring is an optional feature available on all Front End Servers in an Enterprise Edition deployment, and on Standard Edition servers, that can be implemented and configured for a pool or a site.</span></span> <span data-ttu-id="59090-106">Lync Server 2013 の新機能により、監視データベースに対して SQL Server データベースのミラーリングを有効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="59090-106">New to Lync Server 2013, you can enable SQL Server database mirroring for your Monitoring database.</span></span>
 
 </div>
 
