@@ -12,18 +12,18 @@ ms:contentKeyID: 63969659
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: efc07ff877d5692c2871a8b0481233d3bd8c58b6
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 1c1b1e1a5b13ace725d0fa38a5c2f4b5227cf0ae
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045579"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141403"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="testing-lync-client-authentication-in-lync-server-2013"></a>Lync Server 2013 での Lync クライアント認証のテスト
 
@@ -79,7 +79,7 @@ Lync Server が有効になっているすべてのユーザーのアカウン�
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsClientAuth -TargetFqdn "atl-cs-001.litwareinc.com"-UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-詳細については、「 [Test-CsClientAuth](http://technet.microsoft.com/library/gg398712\(v=ocs.14\).aspx)コマンドレットのヘルプドキュメント」を参照してください。
+詳細については、「 [Test-CsClientAuth](https://technet.microsoft.com/library/gg398712\(v=ocs.14\).aspx)コマンドレットのヘルプドキュメント」を参照してください。
 
 </div>
 
@@ -122,7 +122,7 @@ Test-CsClientAuth に障害が発生した場合は、次のように詳細パ�
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsClientAuth -TargetFqdn "atl-cs-001.litwareinc.com"-UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential -Verbose
 
-Verbose パラメーターが指定されている場合、テスト-CsClientAuth は、指定されたユーザーが Lync Server にログオンできるかどうかを確認したときに試行された各アクションのステップバイステップのアカウントを返します。 例:
+Verbose パラメーターが指定されている場合、テスト-CsClientAuth は、指定されたユーザーが Lync Server にログオンできるかどうかを確認したときに試行された各アクションのステップバイステップのアカウントを返します。 次に例を示します。
 
 ユーザーの CS 証明書をダウンロードしようとしています: kenmyer@litwareinc.com endpoint: STEpid
 

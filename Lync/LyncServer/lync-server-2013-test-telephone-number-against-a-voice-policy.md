@@ -12,18 +12,18 @@ ms:contentKeyID: 63969596
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a234419dc6f06ae9bdc8d7c198873bdc3c706701
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7670e99fc7ac7688eff360a28be6f7280d6191b1
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41985092"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141623"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="test-telephone-number-against-a-voice-policy-in-lync-server-2013"></a>Lync Server 2013 で音声ポリシーに対して電話番号をテストする
 
@@ -84,7 +84,7 @@ Set-csvoicepolicy コマンドレットは、指定された音声ポリシー�
 
 ## <a name="running-the-test"></a>テストの実行
 
-Set-csvoicepolicy コマンドレットを実行するには、最初に Set-csvoicepolicy コマンドレットを使用して、テストする音声ポリシーのインスタンスを取得する必要があります。そのインスタンスを Set-csvoicepolicy にパイプ処理する必要があります。 例:
+Set-csvoicepolicy コマンドレットを実行するには、最初に Set-csvoicepolicy コマンドレットを使用して、テストする音声ポリシーのインスタンスを取得する必要があります。そのインスタンスを Set-csvoicepolicy にパイプ処理する必要があります。 次に例を示します。
 
 `Get-CsVoicePolicy -Identity "Global" | Test-CsVoicePolicy -TargetNumber "+12065551219"`
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 63969635
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d08627842b5a58a72801a018e8e8da49fcdeb249
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0573e668915737ea09cfb660ac7c7b72f237ed83
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42015370"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141503"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="testing-ability-to-im-between-two-users-in-lync-server-2013"></a>Lync Server 2013 で2人のユーザー間の IM のテスト機能
 
@@ -76,7 +76,7 @@ Test-CsIM コマンドレットは、テストユーザーのペアがインス�
 
 ## <a name="running-the-test"></a>テストの実行
 
-Test-CsIM コマンドレットを実行するには、事前に構成されたテストアカウントのペア (「Lync Server テストを実行するためのテストアカウントをセットアップする」を参照してください)、または Lync Server が有効になっている任意の2人のアカウントのいずれかを使用します。 このチェックをテストアカウントを使用して実行するには、テストする Lync Server プールの FQDN を指定するだけで済みます。 例:
+Test-CsIM コマンドレットを実行するには、事前に構成されたテストアカウントのペア (「Lync Server テストを実行するためのテストアカウントをセットアップする」を参照してください)、または Lync Server が有効になっている任意の2人のアカウントのいずれかを使用します。 このチェックをテストアカウントを使用して実行するには、テストする Lync Server プールの FQDN を指定するだけで済みます。 次に例を示します。
 
     Test-CsIM -TargetFqdn "atl-cs-001.litwareinc.com"
 
