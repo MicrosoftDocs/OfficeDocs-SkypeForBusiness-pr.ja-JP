@@ -12,18 +12,18 @@ ms:contentKeyID: 48184625
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46d1efb960e6f60118364193dffdbedcefea94a3
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0d08c56e8b88f13a965f7ab24c8f497e01f10400
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42034820"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135103"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="dns-load-balancing-in-lync-server-2013"></a>Lync Server 2013 での DNS 負荷分散
 
@@ -41,7 +41,7 @@ Lync Server は、DNS 負荷分散を有効にします。これにより、ネ�
 
 DNS 負荷分散を展開すると、ハードウェアロードバランサーの管理オーバーヘッドが最小限に抑えられます。 さらに、SIP トラフィックの負荷分散装置の構成ミスに関する問題に対応するために、複雑なトラブルシューティングを行う必要がなくなります。 サーバーをオフラインにできるようにサーバー接続を禁止することもできます。 また、DNS 負荷分散を使用して、ハードウェア ロード バランサーの問題が基本的な通話のルーティングなどの SIP トラフィックの要素に影響しないようにすることもできます。
 
-また、DNS 負荷分散を使用すると、すべての種類のトラフィックに対応するハードウェア ロード バランサーを使用していた場合よりもハードウェア ロード バランサーを低価格で購入できます。 Lync Server との相互運用性認定テストに合格したロードバランサーを使用する必要があります。 ロードバランサー相互運用性テストの詳細については、「」の「Lync Server [http://go.microsoft.com/fwlink/p/?linkId=202452](http://go.microsoft.com/fwlink/p/?linkid=202452)2010 ロードバランサーパートナー」を参照してください。
+また、DNS 負荷分散を使用すると、すべての種類のトラフィックに対応するハードウェア ロード バランサーを使用していた場合よりもハードウェア ロード バランサーを低価格で購入できます。 Lync Server との相互運用性認定テストに合格したロードバランサーを使用する必要があります。 ロードバランサー相互運用性テストの詳細については、「」の「Lync Server [https://go.microsoft.com/fwlink/p/?linkId=202452](https://go.microsoft.com/fwlink/p/?linkid=202452)2010 ロードバランサーパートナー」を参照してください。
 
 DNS 負荷分散は、フロント エンド プール、エッジ サーバー プール、ディレクター プール、およびスタンドアロンの仲介サーバー プールでサポートされます。
 

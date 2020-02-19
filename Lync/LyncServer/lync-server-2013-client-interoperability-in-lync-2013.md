@@ -12,18 +12,18 @@ ms:contentKeyID: 48183417
 ms.date: 03/04/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dc807d65c76a1307ccd8532e644f9f9d23ffc69e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 69a4616cbe9519a8196ce78e35f21c673a0d2c95
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046740"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134073"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="client-interoperability-in-lync-2013"></a>Lync 2013 でのクライアントの相互運用性
 
@@ -64,14 +64,14 @@ _**トピックの最終更新日:** 2016-03-04_
 <tbody>
 <tr class="odd">
 <td><p>Lync 2013</p></td>
-<td><p>サポートされている</p></td>
+<td><p>サポート済み</p></td>
 <td><p>Supported5</p></td>
 <td><p>サポート対象外</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync 2013 Basic</p></td>
-<td><p>サポート</p></td>
-<td><p>サポートされている</p></td>
+<td><p>サポート済み</p></td>
+<td><p>サポート済み</p></td>
 <td><p>サポート対象外</p></td>
 </tr>
 <tr class="odd">
@@ -82,14 +82,14 @@ _**トピックの最終更新日:** 2016-03-04_
 </tr>
 <tr class="even">
 <td><p>Lync 2010</p></td>
-<td><p>サポート</p></td>
-<td><p>サポートされている</p></td>
+<td><p>サポート済み</p></td>
+<td><p>サポート済み</p></td>
 <td><p>サポート対象外</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync 2010 Attendant</p></td>
-<td><p>サポート</p></td>
-<td><p>サポートされている</p></td>
+<td><p>サポート済み</p></td>
+<td><p>サポート済み</p></td>
 <td><p>サポート対象外</p></td>
 </tr>
 <tr class="even">
@@ -113,31 +113,31 @@ _**トピックの最終更新日:** 2016-03-04_
 <tr class="odd">
 <td><p>Office Communicator 2007 R2</p></td>
 <td><p>Interoperable4</p></td>
-<td><p>サポート</p></td>
-<td><p>サポート</p></td>
+<td><p>サポート済み</p></td>
+<td><p>サポート済み</p></td>
 </tr>
 <tr class="even">
 <td><p>Microsoft Office Communications Server 2007 R2 Attendant</p></td>
 <td><p>サポート対象外</p></td>
-<td><p>サポートされている</p></td>
-<td><p>サポート</p></td>
+<td><p>サポート済み</p></td>
+<td><p>サポート済み</p></td>
 </tr>
 <tr class="odd">
 <td><p>Office Communicator 2007</p></td>
 <td><p>サポート対象外</p></td>
-<td><p>サポートされている</p></td>
-<td><p>サポート</p></td>
+<td><p>サポート済み</p></td>
+<td><p>サポート済み</p></td>
 </tr>
 <tr class="even">
 <td><p>Office Live Meeting 2007</p></td>
 <td><p>サポート対象外</p></td>
-<td><p>サポートされている</p></td>
-<td><p>サポート</p></td>
+<td><p>サポート済み</p></td>
+<td><p>サポート済み</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync Windows ストアアプリ</p></td>
-<td><p>サポート</p></td>
-<td><p>サポートされている</p></td>
+<td><p>サポート済み</p></td>
+<td><p>サポート済み</p></td>
 <td><p>サポート対象外</p></td>
 </tr>
 </tbody>
@@ -485,7 +485,7 @@ Lync Server 2013 の会議では、さまざまなバージョンのサーバー
 <tbody>
 <tr class="odd">
 <td><p>Lync 2013 用オンラインミーティングアドイン (Office 2013、Outlook 2010、および Outlook 2007 で使用できます)</p></td>
-<td><p>サポートされている</p></td>
+<td><p>サポート済み</p></td>
 <td><p>サポート対象 (新しいアドイン機能は使用不可)</p></td>
 <td><p>サポート対象外</p></td>
 </tr>
@@ -497,15 +497,15 @@ Lync Server 2013 の会議では、さまざまなバージョンのサーバー
 </tr>
 <tr class="odd">
 <td><p>Online Meeting Add-in for Lync 2010</p></td>
-<td><p>サポート</p></td>
-<td><p>サポートされている</p></td>
+<td><p>サポート済み</p></td>
+<td><p>サポート済み</p></td>
 <td><p>サポート対象外</p></td>
 </tr>
 <tr class="even">
 <td><p>Office Communicator 2007 R2 会議アドイン</p></td>
 <td><p>サポート対象外</p></td>
-<td><p>サポートされている</p></td>
-<td><p>サポート</p></td>
+<td><p>サポート済み</p></td>
+<td><p>サポート済み</p></td>
 </tr>
 </tbody>
 </table>

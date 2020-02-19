@@ -12,18 +12,18 @@ ms:contentKeyID: 49733566
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8debab39073bf31f509ec504f944c8e4c7a9dfc3
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 04e9599e0790c3d3468273ba27ea26f28ed3d766
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008419"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134763"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-microsoft-sharepoint-server-2013-to-search-for-archived-microsoft-lync-server-2013-data"></a>Microsoft SharePoint Server 2013 を構成して、アーカイブされた Microsoft Lync Server 2013 データを検索する
 
@@ -39,7 +39,7 @@ _**トピックの最終更新日:** 2014-02-04_
 
 Microsoft Lync Server 2013 ではなく、Microsoft Exchange Server 2013 でインスタントメッセージングと Web 会議のトランスクリプトを格納する主な利点の1つは、管理者が1つのツールを使用して、アーカイブされた Exchange データやアーカイブされた Lync Server データを検索できることです。 すべてのデータが同じ場所 (Exchange) に保存されるため、アーカイブされた Exchange データを検索できるツールも、アーカイブされた Lync Server データを検索できます。
 
-アーカイブされたデータを簡単に検索できるようにするツールの1つは、Microsoft SharePoint Server 2013 です。 SharePoint を使用して Lync Server データを検索する場合は、まず、「Lync Server での Exchange アーカイブの構成に必要な手順」に記載されているすべての手順を完了する必要があります。 Exchange 2013 と Lync Server 2013 が正常に統合された後で、Exchange Web Services Managed API Version 2.0 を SharePoint サーバーにインストールする必要があります。その API のセットアッププログラムは、Microsoft ダウンロードセンター ([http://go.microsoft.com/fwlink/p/?LinkId=258305](http://go.microsoft.com/fwlink/p/?linkid=258305)) からダウンロードできます。 ダウンロードしたファイル (EWSManagedAPI .msi) は、SharePoint サーバー上の任意のフォルダーに保存できます。
+アーカイブされたデータを簡単に検索できるようにするツールの1つは、Microsoft SharePoint Server 2013 です。 SharePoint を使用して Lync Server データを検索する場合は、まず、「Lync Server での Exchange アーカイブの構成に必要な手順」に記載されているすべての手順を完了する必要があります。 Exchange 2013 と Lync Server 2013 が正常に統合された後で、Exchange Web Services Managed API Version 2.0 を SharePoint サーバーにインストールする必要があります。その API のセットアッププログラムは、Microsoft ダウンロードセンター ([https://go.microsoft.com/fwlink/p/?LinkId=258305](https://go.microsoft.com/fwlink/p/?linkid=258305)) からダウンロードできます。 ダウンロードしたファイル (EWSManagedAPI .msi) は、SharePoint サーバー上の任意のフォルダーに保存できます。
 
 ファイルをダウンロードした後、SharePoint サーバー上で次の手順を実行します。
 

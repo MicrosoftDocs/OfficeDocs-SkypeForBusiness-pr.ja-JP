@@ -12,12 +12,12 @@ ms:contentKeyID: 49733836
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1014bce74e0e7dcd789c9b2948c029f4b40ecb9a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7b9a5a1bf5132fb78086fdd424714e03af2caab5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030140"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134423"
 ---
 # <a name="assign-a-per-user-mobility-policy-in-lync-server-2013"></a>Lync Server 2013 でユーザー単位のモビリティポリシーを割り当てる
 
@@ -86,7 +86,7 @@ ms.locfileid: "42030140"
 
 ## <a name="assigning-a-per-user-mobility-policy-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用したユーザー単位のモビリティポリシーの割り当て
 
-Windows PowerShell と**get-csmobilitypolicy**コマンドレットを使用して、ユーザー単位のモビリティポリシーを割り当てることができます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
+Windows PowerShell と**get-csmobilitypolicy**コマンドレットを使用して、ユーザー単位のモビリティポリシーを割り当てることができます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 ## <a name="to-assign-a-per-user-mobility-policy-to-a-single-user"></a>ユーザー単位のモビリティ ポリシーを単一のユーザーに割り当てるには
 
