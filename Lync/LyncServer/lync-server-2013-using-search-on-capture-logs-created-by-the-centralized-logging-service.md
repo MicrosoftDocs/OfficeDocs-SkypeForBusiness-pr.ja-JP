@@ -12,18 +12,18 @@ ms:contentKeyID: 49733571
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9f9571f2efe08eb13091c3d3660e7760a8e805c8
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 63ca895f455d8da3f6e8edd2e80aacc8a082d147
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42007556"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138668"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="using-search-on-capture-logs-created-by-the-centralized-logging-service-in-lync-server-2013"></a>Lync Server 2013 での集中ログサービスによって作成されたキャプチャログでの検索の使用
 
@@ -55,7 +55,7 @@ Lync Server 管理シェルを使用して集中ログサービスの検索機�
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Lync Server 2013 cmdlet"}
 
-例:
+次に例を示します。
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
@@ -80,7 +80,7 @@ Lync Server 管理シェルを使用して集中ログサービスの検索機�
     
     </div>
     
-    例:
+    次に例を示します。
     
         Search-CsClsLogging -OutputFilePath "C:\LogFiles\logfile.txt"
 
@@ -94,7 +94,7 @@ Lync Server 管理シェルを使用して集中ログサービスの検索機�
     
         Search-CsClsLogging -Computers <string value of computer names> -OutputFilePath <string value of path and file to write the output file>
     
-    例:
+    次に例を示します。
     
         Search-CsClsLogging -Computers "fe01.contoso.net" -OutputFilePath "C:\LogFiles\logfile.txt"
 
@@ -104,13 +104,13 @@ Lync Server 管理シェルを使用して集中ログサービスの検索機�
 
 3.  1 台のコンピューターではなくプール全体を検索する必要がある場合は、–Computers パラメーターを –Pools に変更し、コンピューター名を削除して、1 つまたは複数のプールに置き換えます。各プールは引用符で囲み、コンマで区切ります。
     
-    例:
+    次に例を示します。
     
         Search-CsClsLogging -Pools "pool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"
 
 4.  検索コマンドを使用する場合、プールには、フロントエンドプール、エッジプール、常設チャットサーバープール、または展開でプールとして定義されている他の任意のプールを指定できます。
     
-    例:
+    次に例を示します。
     
         Search-CsClsLogging -Pools "pool01.contoso.net", "pchatpool01.contoso.net", "intedgepool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"
 
@@ -139,7 +139,7 @@ Lync Server 管理シェルを使用して集中ログサービスの検索機�
 
 3.  11/20/2012 11:00:00 AM から始まるログを取得するには、–StartTime を定義します。既定の検索時間は、特定の –EndTime を定義しない限り、30 分です。検索の結果、定義したコンピューターまたはプールから、11:00:00 AM ～ 11:30:00 AM の範囲のログが返されます。
     
-    例:
+    次に例を示します。
     
         Search-CsClsLogging -Pools "pool01.contoso.net" -StartTime "11/20/2012 11:00:00 AM" -OutputFilePath "C:\Logfiles\logfile.txt"
 

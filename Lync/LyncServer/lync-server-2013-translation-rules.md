@@ -12,18 +12,18 @@ ms:contentKeyID: 48184460
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 16623d863e9ca4a252ad7249ba1933cfa6934b08
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 088657d530224288a9ffabbfa1644d0fea6796e7
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036467"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141083"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="translation-rules-in-lync-server-2013"></a>Lync Server 2013 の変換ルール
 
@@ -79,7 +79,7 @@ Lync Server 2013 エンタープライズ Voip では、逆引き番号検索 (R
 <th>削除する数字</th>
 <th>追加する数字</th>
 <th>一致パターン</th>
-<th>Translation</th>
+<th>翻訳</th>
 <th>例</th>
 </tr>
 </thead>
@@ -89,7 +89,7 @@ Lync Server 2013 エンタープライズ Voip では、逆引き番号検索 (R
 <p>("+" を削除)</p></td>
 <td><p>+ 1</p></td>
 <td><p>ちょうど 12</p></td>
-<td><p>1 </p></td>
+<td><p>1-d</p></td>
 <td><p>.0</p></td>
 <td><p>^\+(1/d{10}) $</p></td>
 <td><p>$1</p></td>
@@ -100,7 +100,7 @@ Lync Server 2013 エンタープライズ Voip では、逆引き番号検索 (R
 <p>("+" を削除し、011 を追加)</p></td>
 <td><p>+</p></td>
 <td><p>11 以上</p></td>
-<td><p>1 </p></td>
+<td><p>1-d</p></td>
 <td><p>011</p></td>
 <td><p>^\+(\d{9}\d +) $</p></td>
 <td><p>011 $ 1</p></td>

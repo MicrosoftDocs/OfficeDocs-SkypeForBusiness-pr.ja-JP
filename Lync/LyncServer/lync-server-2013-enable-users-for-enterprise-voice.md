@@ -12,18 +12,18 @@ ms:contentKeyID: 48185800
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c48f701f9396c43337e2723f0dc83a8eda8d96ee
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 31b9cffef7dbb9338c1019b965fb398a0f72ed34
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046690"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138048"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="enable-users-for-enterprise-voice-in-lync-server-2013"></a>Lync Server 2013 のエンタープライズ Voip でユーザーを有効にする
 
@@ -101,7 +101,7 @@ _**トピックの最終更新日:** 2012-11-01_
     
         Grant-CsVoicePolicy -Identity <UserIdParameter> -PolicyName <String>
     
-    例:
+    次に例を示します。
     
         Grant-CsVoicePolicy -Identity "Bob Kelly" -PolicyName VoicePolicyJapan
     

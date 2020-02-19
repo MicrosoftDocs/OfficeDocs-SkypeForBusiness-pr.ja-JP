@@ -12,18 +12,18 @@ ms:contentKeyID: 48184621
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d68f13c636b24729db989f25da7055333968cbbd
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 22eb8185c88340269856b2244c130a05d1fd0325
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043279"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135934"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="deployment-checklist-for-call-admission-control-in-lync-server-2013"></a>Lync Server 2013 での通話受付管理の展開チェックリスト
 
@@ -108,7 +108,7 @@ _**トピックの最終更新日:** 2012-10-08_
 <td><p>ネットワーク インターフェイス要件</p></td>
 <td><ul>
 <li><p>内部インターフェイスと外部インターフェイスの情報</p></li>
-<li><p>ルーティング情報 (NextHop ブログの情報<a href="http://go.microsoft.com/fwlink/p/?linkid=203149">http://go.microsoft.com/fwlink/p/?LinkId=203149</a>を含む、Microsoft Lync Server チームの顧客対応チャネル)</p></li>
+<li><p>ルーティング情報 (NextHop ブログの情報<a href="https://go.microsoft.com/fwlink/p/?linkid=203149">https://go.microsoft.com/fwlink/p/?LinkId=203149</a>を含む、Microsoft Lync Server チームの顧客対応チャネル)</p></li>
 </ul></td>
 <td><p><a href="lync-server-2013-deploying-external-user-access.md">Lync Server 2013 での外部ユーザーアクセスの展開</a></p></td>
 </tr>

@@ -12,18 +12,18 @@ ms:contentKeyID: 48185530
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9920f00b70b0a5591787d740c2395078a3872760
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: a212ad1e4250b1c3823230a550c9e39f37eb67d6
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046730"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138548"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="clients-for-lync-server-2013"></a>Lync Server 2013 のクライアント
 
@@ -109,7 +109,7 @@ Lync Server 2013 は、以前のサーバーリリースから次のクライア
 
   - **Lync 2010**   lync 2010 には、IM、拡張プレゼンス、音声、ビデオ、共有、テレフォニーなどの完全なデスクトップ環境が用意されています。 ただし、Lync Server 2013 で導入された新機能は、ユーザーのクライアントが Lync 2013 にアップグレードされるまで使用できません。
 
-  - **Lync 2010 mobile**   lync Server 2013 は、Microsoft Lync 2010 モバイルモバイルアプリをすべてサポートしています。 Microsoft Lync 2010 Mobile は、スマートフォンまたは Windows Mobile のプロフェッショナルエディションを実行している電話から接続している組織内のユーザーに対して IM、拡張プレゼンス、およびテレフォニーを提供します。 ユーザーに対して、Microsoft Lync 2010 Mobile をインストールするようにユーザーに指示するには、携帯電話のアプリマーケットプレースに連絡します。 詳細については、「Lync Server 2010 のドキュメント」の「モバイルクライアント[http://go.microsoft.com/fwlink/p/?LinkID=235955](http://go.microsoft.com/fwlink/p/?linkid=235955)の計画」を参照してください。
+  - **Lync 2010 mobile**   lync Server 2013 は、Microsoft Lync 2010 モバイルモバイルアプリをすべてサポートしています。 Microsoft Lync 2010 Mobile は、スマートフォンまたは Windows Mobile のプロフェッショナルエディションを実行している電話から接続している組織内のユーザーに対して IM、拡張プレゼンス、およびテレフォニーを提供します。 ユーザーに対して、Microsoft Lync 2010 Mobile をインストールするようにユーザーに指示するには、携帯電話のアプリマーケットプレースに連絡します。 詳細については、「Lync Server 2010 のドキュメント」の「モバイルクライアント[https://go.microsoft.com/fwlink/p/?LinkID=235955](https://go.microsoft.com/fwlink/p/?linkid=235955)の計画」を参照してください。
 
   - ****   Lync Server 2013 の lync phone edition の lync phone edition software for インテリジェント IP 電話 (たとえば、USB 接続電話) は更新されていません。 Lync Phone Edition は、電話会議用の通話、拡張プレゼンス、およびクライアントオーディオ機能の配置と受信のために引き続きサポートされています。
 

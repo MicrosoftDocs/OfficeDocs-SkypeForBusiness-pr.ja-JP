@@ -12,18 +12,18 @@ ms:contentKeyID: 48184145
 ms.date: 07/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 87ad05798dab0f324a44a4c41807e8acb6105927
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 07e670dc0871490e513023d3276ad80126be173b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038079"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141050"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="troubleshooting-lync-server-2013-control-panel"></a>Lync Server 2013 コントロール パネルのトラブルシューティング
 
@@ -55,7 +55,7 @@ Lync Server コントロールパネルでは、Microsoft Silverlight ブラウ�
 
 </div>
 
-セキュリティ上の理由から、インターネットブラウザーが Silverlight のインストールをブロックする場合は、Lync Server コントロールパネルを開く URL (Uniform Resource Locator) を信頼済みサイトの一覧に追加します。 Internet Explorer のセキュリティ設定で、[**ActiveX コントロールとプラグインの実行**] が [**有効にする**] に設定されていることを確認します。 詳細について[http://go.microsoft.com/fwlink/p/?linkId=214060](http://go.microsoft.com/fwlink/p/?linkid=214060)は、「」を参照してください。 また、ブラウザーが SSL 3.0 を使用するように構成されていることも確認してください。
+セキュリティ上の理由から、インターネットブラウザーが Silverlight のインストールをブロックする場合は、Lync Server コントロールパネルを開く URL (Uniform Resource Locator) を信頼済みサイトの一覧に追加します。 Internet Explorer のセキュリティ設定で、[**ActiveX コントロールとプラグインの実行**] が [**有効にする**] に設定されていることを確認します。 詳細について[https://go.microsoft.com/fwlink/p/?linkId=214060](https://go.microsoft.com/fwlink/p/?linkid=214060)は、「」を参照してください。 また、ブラウザーが SSL 3.0 を使用するように構成されていることも確認してください。
 
 インターネット ブラウザーがプロキシ サーバーを使用するように構成されている場合、内部サイトとして自動検出されたサイトにはプロキシ サーバーを使用しない構成になっていることを確認します。または、プロキシ サーバーの構成設定で、アドレスをブラウザーの例外リストに追加します。
 

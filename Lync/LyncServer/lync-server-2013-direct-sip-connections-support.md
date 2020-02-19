@@ -12,18 +12,18 @@ ms:contentKeyID: 48183611
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: be5a7fc7fba086130775a3f394af435c0d823f04
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 099ca6da5a23c8c2bf936c7067cfc40cf323ebfb
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036707"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136384"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="direct-sip-connections-support-in-lync-server-2013"></a>Lync Server 2013 での直接 SIP 接続のサポート
 
@@ -45,7 +45,7 @@ Lync Server 2013 は、次のいずれかに Lync Server 2013 を接続するた
 
 Lync Server 2013 プールの仲介サーバーは、テレフォニーサービスプロバイダーが提供する複数のゲートウェイ、セッションボーダーコントローラー (sbc)、またはそれらの組み合わせを制御できます。 また、プール内の複数の仲介サーバーは、単一のゲートウェイと対話できます。
 
-エンタープライズ テレフォニー インフラストラクチャを対象にした Microsoft Unified Communications Open Interoperability Program を使用して、動作が確認されている PSTN ゲートウェイ、IP-PBX、および SIP トランキング サービスを検索できます。 詳細については、「Microsoft 統合コミュニケーションオープン相互運用性[http://go.microsoft.com/fwlink/p/?linkId=203309](http://go.microsoft.com/fwlink/p/?linkid=203309)プログラム web サイト」を参照してください。
+エンタープライズ テレフォニー インフラストラクチャを対象にした Microsoft Unified Communications Open Interoperability Program を使用して、動作が確認されている PSTN ゲートウェイ、IP-PBX、および SIP トランキング サービスを検索できます。 詳細については、「Microsoft 統合コミュニケーションオープン相互運用性[https://go.microsoft.com/fwlink/p/?linkId=203309](https://go.microsoft.com/fwlink/p/?linkid=203309)プログラム web サイト」を参照してください。
 
 直接 SIP 接続のトポロジと展開オプションの詳細については、「計画」のドキュメントの「 [DIRECT sip connections In Lync Server 2013](lync-server-2013-direct-sip-connections.md) 」を参照してください。
 

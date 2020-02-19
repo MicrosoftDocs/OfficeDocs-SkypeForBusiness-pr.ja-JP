@@ -12,18 +12,18 @@ ms:contentKeyID: 48183862
 ms.date: 02/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1ad0297451c98851d156f088497db81345520b88
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 38df7f9f8c457ac68ee441a6806b87f37b10539b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42033976"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140860"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="user-activity-report-in-lync-server-2013"></a>Lync Server 2013 のユーザーアクティビティレポート
 
@@ -51,7 +51,7 @@ _**トピックの最終更新日:** 2015-02-27_
 
   - **Ken**nedy@litwareinc.com
 
-Ken Myer の情報のみが返されるようにするには、検索ボックスに完全な URI (Ken.Myer@litwareinc.com) を入力するか、組織内の他のユーザーと個人を区別するために、少なくとも Ken の適切な種類の Ken の URI を入力します。 例:
+Ken Myer の情報のみが返されるようにするには、検索ボックスに完全な URI (Ken.Myer@litwareinc.com) を入力するか、組織内の他のユーザーと個人を区別するために、少なくとも Ken の適切な種類の Ken の URI を入力します。 次に例を示します。
 
 Ken.my
 
@@ -347,7 +347,7 @@ Ken.my
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>役割</strong></p></td>
+<td><p><strong>ロール</strong></p></td>
 <td><p>いいえ</p></td>
 <td><p>電話会議におけるユーザーの役割 (発表者など)。</p></td>
 </tr>

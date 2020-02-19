@@ -12,18 +12,18 @@ ms:contentKeyID: 63969655
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b40479bc11fc1f46062423d63876b33d9c179aa
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 71629cb844b8f65ab6f54c0d604fad0d152705d6
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048608"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141293"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="testing-the-ability-of-a-user-to-log-on-to-lync-server-2013"></a>Lync Server 2013 にユーザーがログオンできるかどうかをテストする
 
@@ -74,7 +74,7 @@ Test-CsRegistration コマンドレットを使用すると、組織内のユー
 
 ## <a name="running-the-test"></a>テストの実行
 
-Test-CsRegistration コマンドレットを実行するには、事前に構成されたテストアカウント (Lync Server テストを実行するためのテストアカウントの設定を参照)、または Lync Server が有効になっているユーザーのアカウントのいずれかを使用します。 テストアカウントを使用してこのチェックを実行するには、テストする Lync Server レジストラープールの FQDN を指定するだけで済みます。 例:
+Test-CsRegistration コマンドレットを実行するには、事前に構成されたテストアカウント (Lync Server テストを実行するためのテストアカウントの設定を参照)、または Lync Server が有効になっているユーザーのアカウントのいずれかを使用します。 テストアカウントを使用してこのチェックを実行するには、テストする Lync Server レジストラープールの FQDN を指定するだけで済みます。 次に例を示します。
 
     Test-CsRegistration -TargetFqdn "atl-cs-001.litwareinc.com"
 
@@ -127,7 +127,7 @@ DiagnosticHeader ()
 
     Test-CsRegistration -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-Verbose パラメーターが含まれている場合、指定されたユーザーが Lync Server にログオンできるかどうかを確認したときに、試行された各操作のステップバイステップのアカウントが返されます。 例:
+Verbose パラメーターが含まれている場合、指定されたユーザーが Lync Server にログオンできるかどうかを確認したときに、試行された各操作のステップバイステップのアカウントが返されます。 次に例を示します。
 
 VERBOSE: ' Register ' アクティビティが開始されました。
 

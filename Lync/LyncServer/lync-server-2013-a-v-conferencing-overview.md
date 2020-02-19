@@ -12,18 +12,18 @@ ms:contentKeyID: 49733747
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dd73e1356e42aca8dc4159143287371dd66f0688
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4d77d39cfa1483db9251d038f876f8e91428ae23
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037969"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135674"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="overview-of-av-conferencing-in-lync-server-2013"></a>Lync Server 2013 での音声ビデオ会議の概要
 
@@ -43,7 +43,7 @@ _**トピックの最終更新日:** 2012-10-13_
 
 音声ビデオ会議のユーザーを有効にする前に、ネットワークが結果の負荷を処理できることを確認してください。 十分なネットワーク帯域幅がないと、ユーザーの利便性が著しく低下する可能性があります。 通話受付管理 (CAC) を使用して、音声ビデオ会議で使用されるネットワーク帯域幅を管理できます。 これは、中央サイトとブランチサイト間の帯域幅の制限リンクなど、制限されたネットワークにとって重要です。 詳細については、「 [Lync Server 2013 での通話受付管理の概要](lync-server-2013-overview-of-call-admission-control.md)」を参照してください。 メディア帯域幅の要件の詳細については、「 [Lync Server 2013 のメディアトラフィックのネットワーク帯域幅要件](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)」を参照してください。
 
-電話会議をネットワークに展開する場合、ユーザーは電話会議に参加するためにヘッドセットなどのオーディオデバイスを必要とします。 ビデオ会議を展開する場合は、ビデオデバイス (webcam など) をユーザー用に展開する必要があります。 すべてのデバイスの種類に Microsoft によって認定された統合コミュニケーション (UC) デバイスを使用して、ユーザーに最適な環境を確保することをお勧めします。 UC 認定デバイスの詳細については、「Lync 用の電話とデバイス[http://go.microsoft.com/fwlink/p/?LinkId=263861](http://go.microsoft.com/fwlink/p/?linkid=263861)」を参照してください。 オーディオデバイスまたはビデオデバイスのいずれか、デバイスの展開、およびユーザートレーニングは、検討と計画のために重要な手順です。
+電話会議をネットワークに展開する場合、ユーザーは電話会議に参加するためにヘッドセットなどのオーディオデバイスを必要とします。 ビデオ会議を展開する場合は、ビデオデバイス (webcam など) をユーザー用に展開する必要があります。 すべてのデバイスの種類に Microsoft によって認定された統合コミュニケーション (UC) デバイスを使用して、ユーザーに最適な環境を確保することをお勧めします。 UC 認定デバイスの詳細については、「Lync 用の電話とデバイス[https://go.microsoft.com/fwlink/p/?LinkId=263861](https://go.microsoft.com/fwlink/p/?linkid=263861)」を参照してください。 オーディオデバイスまたはビデオデバイスのいずれか、デバイスの展開、およびユーザートレーニングは、検討と計画のために重要な手順です。
 
 次のセクションでは、帯域幅の管理と適切なクライアントの選択に関する情報を含む、音声およびビデオ会議の機能について説明します。
 

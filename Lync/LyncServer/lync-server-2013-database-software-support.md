@@ -12,18 +12,18 @@ ms:contentKeyID: 48185517
 ms.date: 12/02/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da1ffd79ccfb652c0f853cb027577d477a14d33e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f8134c9ab0fe6cd481116c8a3d17636b04c980e5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044129"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138308"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="database-software-support-in-lync-server-2013"></a>Lync Server 2013 でのデータベースソフトウェアのサポート
 
@@ -120,7 +120,7 @@ SQL クラスタリングは、アクティブ/パッシブ構成でサポート
 
 SQL ミラーリングの詳細については、「 [Lync server 2013 のバックエンドサーバーの高可用性](lync-server-2013-back-end-server-high-availability.md)」を参照してください。 SQL クラスタリングを展開する方法の詳細については、「 [CONFIGURE Sql Server クラスタリング For Lync Server 2013](lync-server-2013-configure-sql-server-clustering.md)」を参照してください。
 
-SQL Server 2012 のフェールオーバークラスタリングの詳細とベストプラクティスについて<http://technet.microsoft.com/library/hh231721.aspx>は、「」を参照してください。 SQL Server 2008 のフェールオーバークラスタリングについ<http://technet.microsoft.com/library/ms189134(v=sql.105).aspx>ては、「」を参照してください。
+SQL Server 2012 のフェールオーバークラスタリングの詳細とベストプラクティスについて<https://technet.microsoft.com/library/hh231721.aspx>は、「」を参照してください。 SQL Server 2008 のフェールオーバークラスタリングについ<https://technet.microsoft.com/library/ms189134(v=sql.105).aspx>ては、「」を参照してください。
 
 </div>
 

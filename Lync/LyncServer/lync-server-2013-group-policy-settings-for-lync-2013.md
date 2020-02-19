@@ -12,18 +12,18 @@ ms:contentKeyID: 48184235
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba88fdce88280597e9e621c13267de2b9b76d0fb
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8cae5fdb813f7f58889dd1305b117f0e07ff294e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030360"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140280"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="group-policy-settings-for-lync-2013"></a>Lync 2013 のグループポリシー設定
 
@@ -37,7 +37,7 @@ ms.locfileid: "42030360"
 
 _**トピックの最終更新日:** 2012-10-03_
 
-以前のバージョンの Lync および Office Communicator では、スタンドアロンの Communicator 管理用テンプレートを使用してクライアントグループポリシー設定を構成できました。 Lync 2013 では、新しい管理用テンプレートファイル (admx および adml ファイル) が Office グループポリシー管理用テンプレートと共に含まれています。 Lync 2013 ファイルと adml ファイルを使用すると、テンプレートをダウンロードして、すべての Office プログラムおよび言語パックのグループポリシー設定を一元管理できます。 詳細については、Office 2013 のドキュメントの「Office 2013 管理用テンプレートファイル (ADMX, ADML <http://go.microsoft.com/fwlink/p/?linkid=267516>)」を参照してください。
+以前のバージョンの Lync および Office Communicator では、スタンドアロンの Communicator 管理用テンプレートを使用してクライアントグループポリシー設定を構成できました。 Lync 2013 では、新しい管理用テンプレートファイル (admx および adml ファイル) が Office グループポリシー管理用テンプレートと共に含まれています。 Lync 2013 ファイルと adml ファイルを使用すると、テンプレートをダウンロードして、すべての Office プログラムおよび言語パックのグループポリシー設定を一元管理できます。 詳細については、Office 2013 のドキュメントの「Office 2013 管理用テンプレートファイル (ADMX, ADML <https://go.microsoft.com/fwlink/p/?linkid=267516>)」を参照してください。
 
 <div>
 

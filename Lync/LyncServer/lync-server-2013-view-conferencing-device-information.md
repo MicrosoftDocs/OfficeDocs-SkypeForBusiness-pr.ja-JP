@@ -12,18 +12,18 @@ ms:contentKeyID: 51803954
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aeac19510f69eed8798c92c2d45b727cf5882978
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4fd7b840e03410069c59c30e46ec22902f96ce3a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42007156"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136805"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="view-conferencing-device-information-in-lync-server-2013"></a>Lync Server 2013 での会議デバイス情報の表示
 
@@ -43,7 +43,7 @@ _**トピックの最終更新日:** 2013-02-20_
 
 
 > [!NOTE]  
-> リモート Windows PowerShell を使用して Lync Server に接続する方法の詳細については、Lync Server Windows PowerShell のブログ記事「Quick Start: Microsoft Lync Server 2010 <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>を使用したリモート PowerShell の管理」を参照してください。
+> リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を<A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A>で参照してください。
 
 
 
@@ -88,7 +88,7 @@ _**トピックの最終更新日:** 2013-02-20_
 
 ## <a name="viewing-information-about-a-specific-conferencing-device"></a>特定の会議デバイスに関する情報の表示
 
-  - 特定の会議デバイスの情報を表示するには、Identity パラメーターに続けて、会議デバイス id (通常は Active Directory 表示名) を含めます。 例:
+  - 特定の会議デバイスの情報を表示するには、Identity パラメーターに続けて、会議デバイス id (通常は Active Directory 表示名) を含めます。 次に例を示します。
     
         Get-CsMeetingRoom -Identity "Room 1219"
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 57793362
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 690eb5631b57a88d207816a01c887c1f94c0eeb2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 718dda9966b79ca75f64df115dc9a6ba30d15619
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044049"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136995"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="frequently-asked-questions-provisioning-lync-server-2013-for-skype-connectivity"></a>よく寄せられる質問: Lync Server 2013 を Skype 接続用にプロビジョニングする
 
@@ -138,7 +138,7 @@ _**トピックの最終更新日:** 2019-03-22_
 
 **Q: Windows Live でサポートされているドメイン以外のドメインを含む ID を持つ Windows Live Messenger の連絡先を追加するにはどうすればよいですか?**
 
-**A:** Windows live 以外のドメインを持つアカウントまたは ID を使用して windows live Messenger ユーザーを追加する場合は、アドレスを次の形式\<で入力\>し\<ます。\>ユーザー名 (ドメイン名) \<@msn .com\> 。ドメイン名は、ユーザーの電子メールアドレスのドメイン名です。 たとえば、ted@contoso.com を追加する必要がある場合は、次の形式を使用します。 ted () @msn .com。 Windows Live によって管理されるドメインの一覧については、「Live Communications Server Service Pack 1 をインストールした後のパブリックインスタントメッセージングに関する既知の問題」 http://support.microsoft.com/?kbid=897567の「サポートされるドメイン」セクションを参照してください。
+**A:** Windows live 以外のドメインを持つアカウントまたは ID を使用して windows live Messenger ユーザーを追加する場合は、アドレスを次の形式\<で入力\>し\<ます。\>ユーザー名 (ドメイン名) \<@msn .com\> 。ドメイン名は、ユーザーの電子メールアドレスのドメイン名です。 たとえば、ted@contoso.com を追加する必要がある場合は、次の形式を使用します。 ted () @msn .com。 Windows Live によって管理されるドメインの一覧については、「Live Communications Server Service Pack 1 をインストールした後のパブリックインスタントメッセージングに関する既知の問題」 https://support.microsoft.com/?kbid=897567の「サポートされるドメイン」セクションを参照してください。
 
 **Q: プロビジョニングプロセスにはどのくらいの時間がかかりますか?**
 

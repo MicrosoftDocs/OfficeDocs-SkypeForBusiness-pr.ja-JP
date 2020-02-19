@@ -12,18 +12,18 @@ ms:contentKeyID: 48184934
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed3a616fb9bcf7d33819c3bee68dbe375954d02b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: bf3d85b7e3eae8839e3e65e02dde5955c8145c64
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038829"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140090"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="overview-of-external-user-access-in-lync-server-2013"></a>Lync Server 2013 の外部ユーザーアクセスの概要
 
@@ -54,7 +54,7 @@ _**トピックの最終更新日:** 2013-11-07_
 
   - ****   パブリックインスタントメッセージング接続ユーザーがパブリックインスタントメッセージング接続サービス (Windows Live、Yahoo) を介して確立した連絡先。\! および AOL)。
 
-  - **モバイルユーザー**   組織のメンバーであり、スマートフォンまたは Lync Mobile クライアントを実行しているタブレットを使用するユーザーは、内部展開にサインインして、他のユーザークラスと通信することができます。 モバイルユーザーは、リバースプロキシを介して公開された mobility services を使用して内部展開にアクセスします。 Lync Mobile で利用できる機能の詳細については、「」のモバイルクライアント[http://go.microsoft.com/fwlink/p/?LinkID=234777](http://go.microsoft.com/fwlink/p/?linkid=234777)の比較表を参照してください。
+  - **モバイルユーザー**   組織のメンバーであり、スマートフォンまたは Lync Mobile クライアントを実行しているタブレットを使用するユーザーは、内部展開にサインインして、他のユーザークラスと通信することができます。 モバイルユーザーは、リバースプロキシを介して公開された mobility services を使用して内部展開にアクセスします。 Lync Mobile で利用できる機能の詳細については、「」のモバイルクライアント[https://go.microsoft.com/fwlink/p/?LinkID=234777](https://go.microsoft.com/fwlink/p/?linkid=234777)の比較表を参照してください。
 
   - **匿名ユーザー**   組織の Active Directory ドメインサービスまたはサポートされているフェデレーションドメインでユーザーアカウントを持っていないが、オンプレミスの会議にリモートで参加する招待を受け取っているユーザー。
 

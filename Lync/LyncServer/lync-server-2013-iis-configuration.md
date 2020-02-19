@@ -12,18 +12,18 @@ ms:contentKeyID: 48185169
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65d9d4f61fabdca7a3f9cb4808efe952ec7ce3b2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 6d284fa2082c886a583baf116893f792535a096b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037879"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136194"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="iis-configuration-in-lync-server-2013"></a>Lync Server 2013 の IIS 構成
 
@@ -45,7 +45,7 @@ _**トピックの最終更新日:** 2014-02-17_
 
 
 > [!IMPORTANT]  
-> IIS およびすべての Web サービスをシステムドライブ以外のドライブに配置する必要がある組織では、最初に Lync Server 2013 をインストールするときに、[セットアップ] ダイアログボックスで Lync Server 2013 ファイルのインストール場所のパスを変更することができます。管理ツール IIS をインストールする前に、管理ツールをインストールします。 このパス (OCSCore を含む) にセットアップファイルをインストールすると、残りの Lync Server 2013 ファイルもこのドライブに展開されます。 Dtails については、「 <A href="lync-server-2013-install-lync-server-administrative-tools.md">Install Lync Server 2013 管理ツール</A>」を参照してください。 IIS のインストール時に Windows Server Manager によって展開された INETPUB の再<A href="http://go.microsoft.com/fwlink/p/?linkid=216888">http://go.microsoft.com/fwlink/p/?linkId=216888</A>配置方法の詳細については、「」を参照してください。
+> IIS およびすべての Web サービスをシステムドライブ以外のドライブに配置する必要がある組織では、最初に Lync Server 2013 をインストールするときに、[セットアップ] ダイアログボックスで Lync Server 2013 ファイルのインストール場所のパスを変更することができます。管理ツール IIS をインストールする前に、管理ツールをインストールします。 このパス (OCSCore を含む) にセットアップファイルをインストールすると、残りの Lync Server 2013 ファイルもこのドライブに展開されます。 Dtails については、「 <A href="lync-server-2013-install-lync-server-administrative-tools.md">Install Lync Server 2013 管理ツール</A>」を参照してください。 IIS のインストール時に Windows Server Manager によって展開された INETPUB の再<A href="https://go.microsoft.com/fwlink/p/?linkid=216888">https://go.microsoft.com/fwlink/p/?linkId=216888</A>配置方法の詳細については、「」を参照してください。
 
 
 
@@ -155,7 +155,7 @@ Windows Server 2008 R2 SP1 x64 オペレーティングシステムでは、Wind
 
 
 > [!NOTE]  
-> 匿名認証は、IIS サーバーの役割と共に既定でインストールされます。 IIS をインストールした後で、匿名認証を管理することができます。 詳細については、「」の「匿名認証 (IIS <A href="http://go.microsoft.com/fwlink/p/?linkid=203935">http://go.microsoft.com/fwlink/p/?linkId=203935</A>7) を有効にする」を参照してください。
+> 匿名認証は、IIS サーバーの役割と共に既定でインストールされます。 IIS をインストールした後で、匿名認証を管理することができます。 詳細については、「」の「匿名認証 (IIS <A href="https://go.microsoft.com/fwlink/p/?linkid=203935">https://go.microsoft.com/fwlink/p/?linkId=203935</A>7) を有効にする」を参照してください。
 
 
 
@@ -167,7 +167,7 @@ Windows Server 2008 R2 SP1 x64 オペレーティングシステムでは、Wind
 
 
 > [!NOTE]  
-> Windows Server 2012 および Windows Server 2012 R2 では、Add-windowsfeature コマンドレットが Install-Add-windowsfeature コマンドレットに置き換えられています。 詳細については、「 <A href="http://go.microsoft.com/fwlink/p/?linkid=392274">Install</A>」を参照してください。
+> Windows Server 2012 および Windows Server 2012 R2 では、Add-windowsfeature コマンドレットが Install-Add-windowsfeature コマンドレットに置き換えられています。 詳細については、「 <A href="https://go.microsoft.com/fwlink/p/?linkid=392274">Install</A>」を参照してください。
 
 
 

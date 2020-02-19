@@ -12,18 +12,18 @@ ms:contentKeyID: 48183300
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d98f7ba4ac0f2efe8a78ebcaacdc966ac5fdf3a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d92527ce109e68c932a9875020aab647bb6a723b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050499"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42139118"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="preparing-the-active-directory-schema-in-lync-server-2013"></a>Lync Server 2013 での Active Directory スキーマの準備
 
@@ -55,7 +55,7 @@ Lync Server スキーマ拡張機能は、すべてのドメイン間でレプ�
 
 
 > [!NOTE]  
-> Lync 1.0 モバイルクライアント用の Microsoft® Office Communicator Mobile 2007 R2 および Microsoft® Office Communicator Mobile のサポートを Lync Server 2013 展開に追加する必要がある場合は、Microsoft Office の Active Directory スキーマを準備する必要があります。Lync Server 2013 のインストール中の Communications Server 2007 R2。 必要なソフトウェアおよびドキュメントについて<A href="http://go.microsoft.com/fwlink/p/?linkid=207172">http://go.microsoft.com/fwlink/p/?linkId=207172</A>は、「」を参照してください。
+> Lync 1.0 モバイルクライアント用の Microsoft® Office Communicator Mobile 2007 R2 および Microsoft® Office Communicator Mobile のサポートを Lync Server 2013 展開に追加する必要がある場合は、Microsoft Office の Active Directory スキーマを準備する必要があります。Lync Server 2013 のインストール中の Communications Server 2007 R2。 必要なソフトウェアおよびドキュメントについて<A href="https://go.microsoft.com/fwlink/p/?linkid=207172">https://go.microsoft.com/fwlink/p/?linkId=207172</A>は、「」を参照してください。
 
 
 
@@ -69,7 +69,7 @@ Active Directory サービス インターフェイス エディター (ADSI エ
 
 既定では、AD DS の役割をインストールしてサーバーをドメイン コントローラーにするときに ADSI エディターがインストールされます。 Windows Server 2008 および Windows Server 2008 R2 の場合、ADSI Edit (adsiedit) はリモートサーバー管理ツール (RSAT) に含まれています。 また、RSAT をドメイン メンバー サーバーまたはスタンドアロン サーバーにインストールすることもできます。 RSAT パッケージは、既定で、Windows のインストール時にこれらのサーバーにコピーされますが、インストールされません。 各ツールをインストールするには、サーバー マネージャを使用します。 ADSI エディターは、**[役割管理ツール]**、**[Active Directory ドメイン サービス ツール]**、**[Active Directory ドメイン コントローラー ツール]** を順に展開すると見つかります。
 
-Windows Server 2003 の場合、ADSI エディターはサポート ツールに付属しています。 サポートツールは、 \\サポート\\ツールフォルダーの windows server 2003 CD から入手するか、「Windows server 2003 Service Pack 2 32-bit Support tools」からダウンロードでき[http://go.microsoft.com/fwlink/p/?linkId=125770](http://go.microsoft.com/fwlink/p/?linkid=125770)ます。 製品 CD からサポートツールをインストールする手順については、「Windows サポートツールをインストール[http://go.microsoft.com/fwlink/p/?linkId=125771](http://go.microsoft.com/fwlink/p/?linkid=125771)する」を参照してください。 サポート ツールをインストールすると、adsiedit.dll が自動的に登録されます。 ただし、ファイルをコンピューターにコピーした場合は、ツールを実行する前に、**regsvr32** コマンドを実行して adsiedit.dll ファイルを登録する必要があります。
+Windows Server 2003 の場合、ADSI エディターはサポート ツールに付属しています。 サポートツールは、 \\サポート\\ツールフォルダーの windows server 2003 CD から入手するか、「Windows server 2003 Service Pack 2 32-bit Support tools」からダウンロードでき[https://go.microsoft.com/fwlink/p/?linkId=125770](https://go.microsoft.com/fwlink/p/?linkid=125770)ます。 製品 CD からサポートツールをインストールする手順については、「Windows サポートツールをインストール[https://go.microsoft.com/fwlink/p/?linkId=125771](https://go.microsoft.com/fwlink/p/?linkid=125771)する」を参照してください。 サポート ツールをインストールすると、adsiedit.dll が自動的に登録されます。 ただし、ファイルをコンピューターにコピーした場合は、ツールを実行する前に、**regsvr32** コマンドを実行して adsiedit.dll ファイルを登録する必要があります。
 
 </div>
 

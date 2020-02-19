@@ -12,18 +12,18 @@ ms:contentKeyID: 61084874
 ms.date: 06/24/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 849e74fb4857dd7b3ab98b8a8efd9c3ce3781e35
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e35627633839f294cebced6df47a90919e7fc5ef
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043039"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42139158"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="lync-call-quality-methodology-in-lync-server-2013"></a>Lync Server 2013 の lync 通話品質の方法論
 
@@ -37,7 +37,7 @@ ms.locfileid: "42043039"
 
 _**トピックの最終更新日:** 2016-06-24_
 
-この記事は、 [Lync 通話品質の方法](http://go.microsoft.com/fwlink/?linkid=391841)のポスターに関連しており、ダウンロードセンターからダウンロードできます。
+この記事は、 [Lync 通話品質の方法](https://go.microsoft.com/fwlink/?linkid=391841)のポスターに関連しており、ダウンロードセンターからダウンロードできます。
 
 ![CQM プロセスを説明するポスター](images/Dn594589.d239e04a-1c3b-4f0e-93af-88b85198615a(OCS.15).jpg "CQM プロセスを説明するポスター")
 
@@ -71,7 +71,7 @@ CQM の使用方法について質問がある場合は、cqmfeedback@microsoft.
 
 ## <a name="what-is-lync-cqm"></a>Lync CQM とは
 
-通話品質の方法論は新しいトラブルシューティングおよびサービス管理フレームワークであり、Lync でエンタープライズ voip サービスを向上させるための効果的な取り組みを可能にします。 CQM を使用する場合は、エンタープライズ voip サービスの通話品質とユーザー満足度を保証するために必要な労力が少なくなります。 CQM の詳細については、[通話品質の方法論](http://go.microsoft.com/fwlink/p/?linkid=615208)を参照してください。 この記事とポスターには、そのコンテンツの概要が記載されています。
+通話品質の方法論は新しいトラブルシューティングおよびサービス管理フレームワークであり、Lync でエンタープライズ voip サービスを向上させるための効果的な取り組みを可能にします。 CQM を使用する場合は、エンタープライズ voip サービスの通話品質とユーザー満足度を保証するために必要な労力が少なくなります。 CQM の詳細については、[通話品質の方法論](https://go.microsoft.com/fwlink/p/?linkid=615208)を参照してください。 この記事とポスターには、そのコンテンツの概要が記載されています。
 
 CQM は、システムのトラブルシューティングを3つのパスまたは「道路」に分割します。 これらの機能は、サーバーとそれらの間のリンク、および通話に使用されるユーザーデバイスとメディアを示すエンドポイントの道路、および従来のスイッチ電話網呼び出しの統合に対応する最後のマイルの道を見ることができます。
 
@@ -204,9 +204,9 @@ IP パケットは、伝送制御プロトコル (TCP) またはユーザーデ�
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server ネットワークガイド](http://go.microsoft.com/fwlink/p/?linkid=390677)  
-[主要な正常性インジケーター: 正常な Lync Server を維持するための基礎](http://go.microsoft.com/fwlink/?linkid=391838)  
-[Lync 通話品質の方法論](http://go.microsoft.com/fwlink/?linkid=391841)  
+[Lync Server ネットワークガイド](https://go.microsoft.com/fwlink/p/?linkid=390677)  
+[主要な正常性インジケーター: 正常な Lync Server を維持するための基礎](https://go.microsoft.com/fwlink/?linkid=391838)  
+[Lync 通話品質の方法論](https://go.microsoft.com/fwlink/?linkid=391841)  
   
 
 </div>

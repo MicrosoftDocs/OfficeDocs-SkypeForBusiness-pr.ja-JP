@@ -12,18 +12,18 @@ ms:contentKeyID: 48185418
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b1b1b4da0847dcc8242b6b514069d62a718c653f
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7926c9c10ba30ed4683b1e05d6e22c4b817f502c
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035149"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136655"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="view-software-updates-for-devices-in-lync-server-2013"></a>Lync Server 2013 のデバイスのソフトウェア更新プログラムを表示する
 
@@ -37,7 +37,7 @@ ms.locfileid: "42035149"
 
 _**トピックの最終更新日:** 2012-11-01_
 
-Lync Server 2013 では、デバイス更新 Web サービスを使用して、組織のデバイスのソフトウェア更新プログラムを表示および管理します。 これらの更新プログラムは、から入手できます。 .cab (キャビネット) ファイルは[http://go.microsoft.com/fwlink/p/?linkId=204091](http://go.microsoft.com/fwlink/p/?linkid=204091)、Microsoft サポート web サイトから入手できます。 .Cab ファイルをダウンロードした後、**インポート-CSDeviceUpdate**コマンドレットを実行して、.cab ファイルからデバイス更新ルールをインポートします。 **インポート-csdeviceupdate**コマンドレットの詳細については、「Lync Server Management Shell」のドキュメントの「[インポート-csdeviceupdate](https://docs.microsoft.com/powershell/module/skype/Import-CsDeviceUpdate) 」を参照してください。
+Lync Server 2013 では、デバイス更新 Web サービスを使用して、組織のデバイスのソフトウェア更新プログラムを表示および管理します。 これらの更新プログラムは、から入手できます。 .cab (キャビネット) ファイルは[https://go.microsoft.com/fwlink/p/?linkId=204091](https://go.microsoft.com/fwlink/p/?linkid=204091)、Microsoft サポート web サイトから入手できます。 .Cab ファイルをダウンロードした後、**インポート-CSDeviceUpdate**コマンドレットを実行して、.cab ファイルからデバイス更新ルールをインポートします。 **インポート-csdeviceupdate**コマンドレットの詳細については、「Lync Server Management Shell」のドキュメントの「[インポート-csdeviceupdate](https://docs.microsoft.com/powershell/module/skype/Import-CsDeviceUpdate) 」を参照してください。
 
 <div>
 
@@ -55,7 +55,7 @@ Lync Server 2013 では、デバイス更新 Web サービスを使用して、�
 
 1.  CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  の Microsoft サポート web サイトから[http://go.microsoft.com/fwlink/p/?linkId=204091](http://go.microsoft.com/fwlink/p/?linkid=204091)、.cab ファイルを Lync Server 2013 コンピューター上の場所 (たとえば、C:\\updates\\ucupdates .cab) にダウンロードします。
+2.  の Microsoft サポート web サイトから[https://go.microsoft.com/fwlink/p/?linkId=204091](https://go.microsoft.com/fwlink/p/?linkid=204091)、.cab ファイルを Lync Server 2013 コンピューター上の場所 (たとえば、C:\\updates\\ucupdates .cab) にダウンロードします。
 
 3.  次のいずれかのコマンドレットを実行\\し\\て、C: update ucupdates .cab ファイルからデバイス更新ルールをインポートします。
     

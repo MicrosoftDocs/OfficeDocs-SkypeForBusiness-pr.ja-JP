@@ -13,18 +13,18 @@ ms:contentKeyID: 65227958
 ms.date: 09/18/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5bd70d0f37dbed8a38994af6dc806556380484b5
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4a78e229b54ec165897d920d8f04db49451eac9b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006613"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136044"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-the-client-experience-with-skype-for-business"></a>Skype for Business でクライアント環境を構成する
 
@@ -38,9 +38,9 @@ ms.locfileid: "42006613"
 
 _**トピックの最終更新日:** 2015-09-17_
 
-**概要:** このトピックでは、Lync Server 2013 環境で Skype for Business クライアントユーザーのクライアント環境を構成する方法について説明します。 クライアント環境を構成するには、2013年 12 2014 月の累積的な更新プログラム (5.0.8308.857) 以降がインストールされている Lync Server を実行している必要があります。 Lync Server 2013 の更新については、「 [Lync server 2013 の更新プログラム](http://go.microsoft.com/fwlink/p/?linkid=532651)」を参照してください。
+**概要:** このトピックでは、Lync Server 2013 環境で Skype for Business クライアントユーザーのクライアント環境を構成する方法について説明します。 クライアント環境を構成するには、2013年 12 2014 月の累積的な更新プログラム (5.0.8308.857) 以降がインストールされている Lync Server を実行している必要があります。 Lync Server 2013 の更新については、「 [Lync server 2013 の更新プログラム](https://go.microsoft.com/fwlink/p/?linkid=532651)」を参照してください。
 
-Skype for Business では、Skype コンシューマー製品の使用状況に基づいて新しいユーザー環境が提供されます。 Lync のすべての機能に加えて、Skype for Business には、シンプルなコントロールと使い慣れたアイコンを備えた新しい機能が用意されています。 新しいクライアント環境の詳細については、「 [Lync が Skype For business で提供されるようになりました--新機能」を参照](http://go.microsoft.com/fwlink/?linkid=529022)してください。
+Skype for Business では、Skype コンシューマー製品の使用状況に基づいて新しいユーザー環境が提供されます。 Lync のすべての機能に加えて、Skype for Business には、シンプルなコントロールと使い慣れたアイコンを備えた新しい機能が用意されています。 新しいクライアント環境の詳細については、「 [Lync が Skype For business で提供されるようになりました--新機能」を参照](https://go.microsoft.com/fwlink/?linkid=529022)してください。
 
 Lync Server 2013 では、新しい Skype for Business クライアントの利便性と Lync クライアントの機能がサポートされています。 管理者は、ユーザーに対して推奨されるクライアント環境を選択できます。 たとえば、組織内のユーザーが新しい Skype for Business の経験で完全にトレーニングされるまで、Lync クライアント環境を展開することができます。 または、すべてのユーザーが Skype for Business Server 2015 にまだアップグレードされていない場合は、すべてのユーザーが新しいサーバーにアップグレードされるまで、すべてのユーザーが同じクライアントの機能を使用できるようにする必要があります。
 
@@ -263,9 +263,9 @@ EnableSkypeUI パラメーターを指定したコマンドレットを使用す
 
 Skype for Business クライアントの構成を管理するために必要なパッチのバージョンは次のとおりです。
 
-  - Lync Server 2010-Lync Server 2010 の累積的な更新プログラム (4.0.7577.710) (2 月 2015) 詳細については、「 [Lync Server 2010 の更新プログラム](http://go.microsoft.com/fwlink/p/?linkid=532771)」を参照してください。
+  - Lync Server 2010-Lync Server 2010 の累積的な更新プログラム (4.0.7577.710) (2 月 2015) 詳細については、「 [Lync Server 2010 の更新プログラム](https://go.microsoft.com/fwlink/p/?linkid=532771)」を参照してください。
 
-  - Lync Server 2013-Lync Server 2013 の累積的な更新プログラム (5.0.8308.857) (12 月 2014) 詳細については、「 [Lync Server 2013 の更新プログラム](http://go.microsoft.com/fwlink/p/?linkid=532772)」を参照してください。
+  - Lync Server 2013-Lync Server 2013 の累積的な更新プログラム (5.0.8308.857) (12 月 2014) 詳細については、「 [Lync Server 2013 の更新プログラム](https://go.microsoft.com/fwlink/p/?linkid=532772)」を参照してください。
 
 </div>
 
@@ -281,7 +281,7 @@ Skype for Business クライアントの構成を管理するために必要な�
 
 1.  **グループポリシー管理コンソール**を起動します。
     
-    グループポリシー管理コンソールの使用方法については、「[グループポリシー管理コンソール](http://go.microsoft.com/fwlink/?linkid=532759)」を参照してください。
+    グループポリシー管理コンソールの使用方法については、「[グループポリシー管理コンソール](https://go.microsoft.com/fwlink/?linkid=532759)」を参照してください。
 
 2.  [**グループポリシーオブジェクト**] ノードを右クリックし、メニューの [**新規**] を選択します。
 

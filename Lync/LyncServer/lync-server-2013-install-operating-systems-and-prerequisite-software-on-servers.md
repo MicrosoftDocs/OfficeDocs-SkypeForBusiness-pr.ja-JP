@@ -12,18 +12,18 @@ ms:contentKeyID: 48183288
 ms.date: 07/24/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 24441af263d9ebd73f61d350f898e26fa89e6f48
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 69ad97d578073e2b0f9ed08d929007c33e59b8fd
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008279"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135714"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="install-operating-systems-and-prerequisite-software-on-servers-for-lync-server-2013"></a>Lync Server 2013 のサーバーにオペレーティングシステムと必要なソフトウェアをインストールする
 
@@ -57,13 +57,13 @@ _**トピックの最終更新日:** 2014-07-24_
 
   - **Lync server 2013**   を実行しているサーバー lync server 2013 を実行しているサーバーのオペレーティングシステム要件の詳細については、「サポート」のドキュメントの「 [lync server 2013 でのサーバーとツールのオペレーティングシステムのサポート](lync-server-2013-server-and-tools-operating-system-support.md)」を参照してください。
 
-  - **データベース**サーバーバックエンドデータベース、アーカイブデータベース、監視データベースなど、データベースサーバーのオペレーティングシステム要件の詳細については、SQL Server のドキュメントを参照してください。    SQL Server 2012 については、SQL Server 2012 オンラインブック[http://go.microsoft.com/fwlink/p/?linkId=218015](http://go.microsoft.com/fwlink/p/?linkid=218015)() を参照してください。
+  - **データベース**サーバーバックエンドデータベース、アーカイブデータベース、監視データベースなど、データベースサーバーのオペレーティングシステム要件の詳細については、SQL Server のドキュメントを参照してください。    SQL Server 2012 については、SQL Server 2012 オンラインブック[https://go.microsoft.com/fwlink/p/?linkId=218015](https://go.microsoft.com/fwlink/p/?linkid=218015)() を参照してください。
 
 <div>
 
 
 > [!NOTE]
-> Windows Server&nbsp;2008&nbsp;R2 SP1 に Lync Server 2013 をインストールしている場合は、まず、マイクロソフトサポート技術情報の記事2646886「修正: モジュールが IIS 7.5 で insertentitybody メソッドを呼び出すときにヒープの破損が発生する」 ( <A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2646886"> http://go.microsoft.com/fwlink/p/?linkid=3052&ampkbid = 2646886</A>) に記載されている更新プログラムをインストールする必要があります。<BR>また、KB 記事「<A href="http://go.microsoft.com/fwlink/p/?linkid=506893">イベント id 32402, 61045 は、Windows Server 2012 にインストールされている Lync Server 2013 フロントエンドサーバーに記録さ</A>れています」の説明に従って、レジストリを変更する必要があります。
+> Windows Server&nbsp;2008&nbsp;R2 SP1 に Lync Server 2013 をインストールしている場合は、まず、マイクロソフトサポート技術情報の記事2646886「修正: モジュールが IIS 7.5 で insertentitybody メソッドを呼び出すときにヒープの破損が発生する」 ( <A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2646886"> https://go.microsoft.com/fwlink/p/?linkid=3052&ampkbid = 2646886</A>) に記載されている更新プログラムをインストールする必要があります。<BR>また、KB 記事「<A href="https://go.microsoft.com/fwlink/p/?linkid=506893">イベント id 32402, 61045 は、Windows Server 2012 にインストールされている Lync Server 2013 フロントエンドサーバーに記録さ</A>れています」の説明に従って、レジストリを変更する必要があります。
 
 
 
@@ -79,7 +79,7 @@ _**トピックの最終更新日:** 2014-07-24_
 
   - **Lync server 2013**   を実行しているサーバーの windows update lync server 2013 を実行しているサーバーに必要な更新プログラムの詳細については、「計画」のドキュメントの「 [Lync server 2013 の追加ソフトウェア要件](lync-server-2013-additional-software-requirements.md)」を参照してください。
 
-  - **データベース**   サーバーバックエンドデータベース、アーカイブデータベース、監視データベースなど、データベースサーバーに必要な更新プログラムの詳細については、SQL Server 2012 のドキュメントを参照してください。 SQL Server 2012 については、SQL Server 2012 オンラインブック[http://go.microsoft.com/fwlink/p/?linkId=218015](http://go.microsoft.com/fwlink/p/?linkid=218015)() を参照してください。
+  - **データベース**   サーバーバックエンドデータベース、アーカイブデータベース、監視データベースなど、データベースサーバーに必要な更新プログラムの詳細については、SQL Server 2012 のドキュメントを参照してください。 SQL Server 2012 については、SQL Server 2012 オンラインブック[https://go.microsoft.com/fwlink/p/?linkId=218015](https://go.microsoft.com/fwlink/p/?linkid=218015)() を参照してください。
 
 </div>
 
@@ -91,11 +91,11 @@ Lync Server 2013 には、サーバーに次の追加ソフトウェアがイン
 
   - **Lync server 2013**   を実行しているサーバーの前提条件となるソフトウェア lync server 2013 を実行しているサーバーに対するその他のソフトウェアの前提条件は、展開されているサーバーの役割によって異なります。 各サーバーの特定のソフトウェア要件の詳細については、「計画」のドキュメントの「 [Lync server 2013 の追加ソフトウェア要件](lync-server-2013-additional-software-requirements.md)」を参照してください。
 
-  - **Windows identity foundation**   Lync server 2013 では、サーバー間認証のシナリオをサポートするために windows identity foundation をインストールする必要があります。 コンピューターに既にインストールされていることを確認するには、[コントロールパネル] の [**プログラムと機能**] をクリックし、**インストールされた更新プログラムを表示**して、[ **Microsoft Windows**] の下に表示します。 Windows Identity Foundation のインストールの詳細につい[http://go.microsoft.com/fwlink/p/?linkId=204657](http://go.microsoft.com/fwlink/p/?linkid=204657)ては、「」を参照してください。
+  - **Windows identity foundation**   Lync server 2013 では、サーバー間認証のシナリオをサポートするために windows identity foundation をインストールする必要があります。 コンピューターに既にインストールされていることを確認するには、[コントロールパネル] の [**プログラムと機能**] をクリックし、**インストールされた更新プログラムを表示**して、[ **Microsoft Windows**] の下に表示します。 Windows Identity Foundation のインストールの詳細につい[https://go.microsoft.com/fwlink/p/?linkId=204657](https://go.microsoft.com/fwlink/p/?linkid=204657)ては、「」を参照してください。
 
   - **Microsoft .net framework 4.5**   Lync Server 2013 には、microsoft .net framework 4.5 の64ビットエディションが必要です。
 
-  - **データベースサーバー**   の前提条件となるソフトウェアデータベースサーバーに必要な Windows Update (バックエンドデータベース、アーカイブデータベース、監視データベースなど) の詳細については、SQL Server 2012 [http://go.microsoft.com/fwlink/p/?linkId=218015](http://go.microsoft.com/fwlink/p/?linkid=218015)のドキュメントを参照してください。
+  - **データベースサーバー**   の前提条件となるソフトウェアデータベースサーバーに必要な Windows Update (バックエンドデータベース、アーカイブデータベース、監視データベースなど) の詳細については、SQL Server 2012 [https://go.microsoft.com/fwlink/p/?linkId=218015](https://go.microsoft.com/fwlink/p/?linkid=218015)のドキュメントを参照してください。
     
     <div>
     

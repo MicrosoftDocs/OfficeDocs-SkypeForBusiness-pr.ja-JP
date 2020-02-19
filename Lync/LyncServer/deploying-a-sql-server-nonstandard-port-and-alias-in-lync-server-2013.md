@@ -12,18 +12,18 @@ ms:contentKeyID: 62634609
 ms.date: 09/17/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ef6082c4d2df6936557cf6f6c82a1d495888f55
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f1134422c8c55a60858a9fd8c28be2e6ff159d48
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006423"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137958"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="deploying-a-sql-server-nonstandard-port-and-alias-in-lync-server-2013"></a>Lync Server 2013 での SQL Server の標準以外のポートとエイリアスの展開
 
@@ -77,7 +77,7 @@ Lync Server 2013 で使用するために SQL Server の非標準ポートとエ
 
 ## <a name="confirm-that-lync-server-2013-has-the-latest-updates-applied"></a>Lync Server 2013 に最新の更新プログラムが適用されていることを確認する
 
-Lync Server 2013 を最新の状態に保つことが重要です。 最新の更新プログラムとその適用方法に関する情報を確認するには、「 [Lync Server 2013 の更新プログラム](http://support.microsoft.com/kb/2809243)」を参照してください。
+Lync Server 2013 を最新の状態に保つことが重要です。 最新の更新プログラムとその適用方法に関する情報を確認するには、「 [Lync Server 2013 の更新プログラム](https://support.microsoft.com/kb/2809243)」を参照してください。
 
 </div>
 

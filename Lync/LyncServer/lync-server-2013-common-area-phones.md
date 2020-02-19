@@ -12,18 +12,18 @@ ms:contentKeyID: 51803987
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 736aa12c9de027aa485cfc89a6f5cd820a460833
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 523238887e8ed5ac7dc45fb05177ae0c5fa9f291
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045819"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138498"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="common-area-phones-in-lync-server-2013"></a>Lync Server 2013 の共通領域電話
 
@@ -47,7 +47,7 @@ _**トピックの最終更新日:** 2013-02-20_
 
 
 > [!NOTE]  
-> 共通領域電話には、Aastra 6721ip 共通領域電話、HP 4110 IP 電話、および Polycom CX500 IP 共通領域電話の3つのオプションがあります。 Polycom CX3000 IP 会議電話は、別のバリエーション共通領域電話です。 ただし、会議室での使用を目的としています。 共通領域電話の詳細については、「 <A href="http://technet.microsoft.com/library/gg398958(v=ocs.14).aspx">New Devices</A>」を選択するの「共通領域電話機」セクションを参照してください。
+> 共通領域電話には、Aastra 6721ip 共通領域電話、HP 4110 IP 電話、および Polycom CX500 IP 共通領域電話の3つのオプションがあります。 Polycom CX3000 IP 会議電話は、別のバリエーション共通領域電話です。 ただし、会議室での使用を目的としています。 共通領域電話の詳細については、「 <A href="https://technet.microsoft.com/library/gg398958(v=ocs.14).aspx">New Devices</A>」を選択するの「共通領域電話機」セクションを参照してください。
 
 
 

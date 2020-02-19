@@ -12,18 +12,18 @@ ms:contentKeyID: 48185795
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4baa6f18e92eb284cce8610ba576b30dd6d2f320
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e7e165efe4e9b679c5464a35aac1c4130840b801
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42042614"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136244"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="enable-lync-users-for-remote-call-control-in-lync-server-2013"></a>Lync Server 2013 で Lync ユーザーのリモート通話コントロールを有効にする
 
@@ -39,7 +39,7 @@ _**トピックの最終更新日:** 2012-09-21_
 
 サーバーベースのインバンドプロビジョニングポリシーを使用して、リモート通話コントロールの Lync ユーザーを構成することができます。 インバンドプロビジョニングの設定は、Lync Server コントロールパネルまたは Lync Server 管理シェルコマンドラインインターフェイスを使用して管理できます。 これらのツールは、以前のリリースでグループポリシー設定を管理するために使用された Windows Management Instrumentation (WMI) スナップインに代わるものです。
 
-ユーザーが Lync で独自のリモート通話コントロールの設定を構成できるようにする場合は、 **Line SERVER uri**と**line uri**値を指定せずに、サーバー上のユーザーのリモート通話コントロール設定を構成できます。 適切な**回線サーバーの uri**と**回線 uri**の値をユーザーに伝えるようにして、これらの設定を構成するための指示をユーザーに提供してください。 Lync Server でリモート通話コントロールを手動で構成する手順については、Microsoft Office web サイトの<http://go.microsoft.com/fwlink/p/?linkid=210132> 「Lync クライアントドキュメント」の「電話のオプションと番号を設定する」を参照してください。
+ユーザーが Lync で独自のリモート通話コントロールの設定を構成できるようにする場合は、 **Line SERVER uri**と**line uri**値を指定せずに、サーバー上のユーザーのリモート通話コントロール設定を構成できます。 適切な**回線サーバーの uri**と**回線 uri**の値をユーザーに伝えるようにして、これらの設定を構成するための指示をユーザーに提供してください。 Lync Server でリモート通話コントロールを手動で構成する手順については、Microsoft Office web サイトの<https://go.microsoft.com/fwlink/p/?linkid=210132> 「Lync クライアントドキュメント」の「電話のオプションと番号を設定する」を参照してください。
 
 既存の Communications Server 2007 R2 または Communications Server 2007 の展開を使用している場合、Communicator 2007 R2 および Communicator 2007 クライアントは、side-by-side 移行時にグループポリシーを引き続き使用します。 ただし、ポリシー設定が Lync クライアントに引き継がれるようにするには、対応する Lync Server のインバンドプロビジョニング設定を構成する必要があります。
 

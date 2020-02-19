@@ -12,18 +12,18 @@ ms:contentKeyID: 54973691
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a1d60a29eff876ef362d15c90e2615fd70bc8774
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 635565936712fe542c807ea4d4c65f584e836bdc
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41993812"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137426"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="enrolling-users-for-smart-card-authentication-in-lync-server-2013"></a>Lync Server 2013 でのスマートカード認証のユーザーの登録
 
@@ -39,7 +39,7 @@ _**トピックの最終更新日:** 2013-07-03_
 
 通常、スマートカード認証のためにユーザーを登録する方法は2つあります。 簡単な方法では、ユーザーが web 登録を使用してスマートカード認証を直接登録する必要がありますが、より複雑な方法では登録エージェントを使用する必要があります。 このトピックでは、スマートカード証明書のセルフ登録に重点を置いて説明します。
 
-登録エージェントとしてのユーザーの代理での登録の詳細については、「他のユーザーの[http://go.microsoft.com/fwlink/p/?LinkID=313367](http://go.microsoft.com/fwlink/p/?linkid=313367)代理として証明書を登録する」を参照してください。
+登録エージェントとしてのユーザーの代理での登録の詳細については、「他のユーザーの[https://go.microsoft.com/fwlink/p/?LinkID=313367](https://go.microsoft.com/fwlink/p/?linkid=313367)代理として証明書を登録する」を参照してください。
 
 <div>
 

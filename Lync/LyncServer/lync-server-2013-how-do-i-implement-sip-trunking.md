@@ -12,18 +12,18 @@ ms:contentKeyID: 48183666
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 062eb44fb79d6ecfa33f449e62341003bbed571b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 5e5265f580e3894d0fc8214b974ad03c9559323c
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050449"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137988"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="how-do-i-implement-sip-trunking-in-lync-server-2013"></a>Lync Server 2013 で SIP トランキングを実装するにはどうすればよいですか?
 
@@ -153,7 +153,7 @@ Lync Server 2013 でサポートされているコーデックは次のとおり
 
 ## <a name="internet-telephony-service-provider"></a>インターネット テレフォニー サービス プロバイダー
 
-SIP トランク接続のサービス プロバイダー側の実装方法は、ITSP 間で異なります。 展開の情報については、サービス プロバイダーにお問い合わせください。 認定済み SIP トランキングサービスプロバイダーの一覧については、「 [Microsoft 統合コミュニケーションオープン相互運用性プログラム web サイト](http://go.microsoft.com/fwlink/?linkid=287029)」を参照してください。
+SIP トランク接続のサービス プロバイダー側の実装方法は、ITSP 間で異なります。 展開の情報については、サービス プロバイダーにお問い合わせください。 認定済み SIP トランキングサービスプロバイダーの一覧については、「 [Microsoft 統合コミュニケーションオープン相互運用性プログラム web サイト](https://go.microsoft.com/fwlink/?linkid=287029)」を参照してください。
 
 Microsoft 認定 SIP トランキング プロバイダーの詳細については、Microsoft 担当者に問い合わせてください。
 

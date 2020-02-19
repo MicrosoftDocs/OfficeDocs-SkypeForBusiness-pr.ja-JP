@@ -12,18 +12,18 @@ ms:contentKeyID: 63969647
 ms.date: 04/27/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8524499737ae1e52a36a80fbc636f005b687a6a0
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: aafea72c7e30644f8a882f1cf556c665e1e285ad
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42047970"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140180"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="monitoring-network-performance-in-lync-server-2013"></a>Lync Server 2013 でのネットワークパフォーマンスの監視
 
@@ -73,7 +73,7 @@ System Center Operations Manager は、IT 環境全体のサービスレベル�
 
 詳細については、以下を参照してください。
 
-[Microsoft System Center Operations Manager](http://go.microsoft.com/fwlink/p/?linkid=243651)
+[Microsoft System Center Operations Manager](https://go.microsoft.com/fwlink/p/?linkid=243651)
 
 [Microsoft System Center Operations Manager のソリューション](http://www.emc.com/collateral/software/data-sheet/h6135-server-manager-ds.pdf)
 
@@ -85,7 +85,7 @@ System Center Operations Manager は、IT 環境全体のサービスレベル�
 
 Hp ネットワーク管理**センター (旧称 Hp OpenView)**   [Hp ネットワーク管理センター](http://www8.hp.com/us/en/software-solutions/network-management/index.html?%26zn=bto%26cp=1-11-15-119_4000_100__)では、ネットワークの可用性とパフォーマンスを向上するために、統合された障害およびパフォーマンス管理を提供しています。 ネットワーク管理センターは、障害、パフォーマンス、構成、および変更管理を統合する HP 自動ネットワーク管理ソリューションの一部です。
 
-**Cisco 社の cisco ネットワーク管理と自動化製品**   には、ciscoworks LAN 管理ソリューションと cisco ネットワーク分析モジュールを含むいくつかの管理製品があります。これにより、運用効率を向上させ、ネットワークのダウンタイムを削減できます。 これらの製品の追加データについては、Cisco web [http://www.cisco.com/en/US/products/sw/netmgtsw/index.html](http://www.cisco.com/en/us/products/sw/netmgtsw/index.html)サイト () を参照してください。
+**Cisco 社の cisco ネットワーク管理と自動化製品**   には、ciscoworks LAN 管理ソリューションと cisco ネットワーク分析モジュールを含むいくつかの管理製品があります。これにより、運用効率を向上させ、ネットワークのダウンタイムを削減できます。 これらの製品の追加データについては、Cisco web [https://www.cisco.com/en/US/products/sw/netmgtsw/index.html](https://www.cisco.com/en/us/products/sw/netmgtsw/index.html)サイト () を参照してください。
 
 簡易ネットワーク管理プロトコル (SNMP) 簡易ネットワーク管理プロトコル (SNMP) は、TCP/IP ネットワークを管理する戦略を定義するネットワーク管理の標準です。 SNMP を使用すると、ネットワークに関する構成および状態に関する情報を取得し、指定されたコンピューターにイベント監視用に情報を送信することができます。 この標準ベースのネットワーク管理プロトコルは、次のものを含む分散アーキテクチャを使用します。
 
@@ -127,7 +127,7 @@ System Center Operations Manager 2012 では、管理者が Windows Server 2012 
 
 サーバー上のリソース使用量を収集、表示、分析し、ネットワークトラフィックを測定します。 ネットワークモニターは、ネットワークアクティビティを排他的に監視します。 ネットワークデータを収集して分析し、このデータをパフォーマンスログで使用することで、ネットワークの使用状況を判断し、ネットワークの問題を特定し、今後のネットワークのニーズを予測することができます。
 
-ネットワークモニター3.4 の詳細と、ネットワークモニターのインストールおよび構成方法と、データのキャプチャおよび分析方法については、このセッションを参照してください。ネットワークモニター3.3 の概要。 また、[ネットワークモニターのブログ](http://blogs.technet.com/b/netmon/)を参照してください。
+ネットワークモニター3.4 の詳細と、ネットワークモニターのインストールおよび構成方法と、データのキャプチャおよび分析方法については、このセッションを参照してください。ネットワークモニター3.3 の概要。 また、[ネットワークモニターのブログ](https://blogs.technet.com/b/netmon/)を参照してください。
 
 </div>
 

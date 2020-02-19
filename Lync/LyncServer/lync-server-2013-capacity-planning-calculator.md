@@ -12,18 +12,18 @@ ms:contentKeyID: 56280894
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce5ece90e8db4240eaef00f39a827e6779663dcc
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0caac7e07d83658fd1b39192a6d9792ae6b17c0e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006363"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137226"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="using-the-capacity-planning-calculator-for-lync-server-2013"></a>Lync Server 2013 の容量計画の計算機の使用
 
@@ -37,13 +37,13 @@ ms.locfileid: "42006363"
 
 _**トピックの最終更新日:** 2013-11-21_
 
-Microsoft® Lync™ Server 2013 の容量計画の計算機は、で<http://www.microsoft.com/download/details.aspx?id=36828>ダウンロードできます。 これは、組織で有効になっているユーザーと通信モダリティの数に基づいてサーバーの要件を決定するのに役立ちます。 組織のプロファイルを入力すると、電卓にはトポロジの計画に役立つ推奨事項が表示されます。
+Microsoft® Lync™ Server 2013 の容量計画の計算機は、で<https://www.microsoft.com/download/details.aspx?id=36828>ダウンロードできます。 これは、組織で有効になっているユーザーと通信モダリティの数に基づいてサーバーの要件を決定するのに役立ちます。 組織のプロファイルを入力すると、電卓にはトポロジの計画に役立つ推奨事項が表示されます。
 
-計算機によって作成された推奨事項は、計画のためにのみ使用できます。 実際の負荷シミュレーションは、Lync Server 2013 が適切にプロビジョニングされていることを確認するために必要です。 シミュレートされた負荷の下でストレステストを実行するには、 [Lync Server 2013 ストレスおよびパフォーマンスツール](http://go.microsoft.com/fwlink/?linkid=282724)を使用します。
+計算機によって作成された推奨事項は、計画のためにのみ使用できます。 実際の負荷シミュレーションは、Lync Server 2013 が適切にプロビジョニングされていることを確認するために必要です。 シミュレートされた負荷の下でストレステストを実行するには、 [Lync Server 2013 ストレスおよびパフォーマンスツール](https://go.microsoft.com/fwlink/?linkid=282724)を使用します。
 
 ユーザーに対して有効にするユーザープロファイルとモダリティを決定したら、計算機を使用して、必要なサーバー、メモリ、および帯域幅を計画します。 この電卓のバージョンでは、ディスク i/o の要件についてのガイダンスは提供されていません。
 
-この電卓は、 [Microsoft Lync server](http://go.microsoft.com/fwlink/?linkid=282725)と[microsoft lync server](lync-server-2013-planning.md)を補完します。 ガイドを確認し、計画ツールを使用して推奨されるトポロジを作成したら、電卓を使用します。
+この電卓は、 [Microsoft Lync server](https://go.microsoft.com/fwlink/?linkid=282725)と[microsoft lync server](lync-server-2013-planning.md)を補完します。 ガイドを確認し、計画ツールを使用して推奨されるトポロジを作成したら、電卓を使用します。
 
 特定のユーザープロファイルに関する詳細情報を正確に把握している場合は、計算機を使用すると便利です。 たとえば、音声が有効なユーザーの割合、1時間あたりの平均通話、通話時間、会議での同時ユーザー数の割合は、サーバーの要件に大きな違いを持たせることができます。 計算機によって作成された推奨事項の精度は、提供する情報の正確性によって決まります。
 

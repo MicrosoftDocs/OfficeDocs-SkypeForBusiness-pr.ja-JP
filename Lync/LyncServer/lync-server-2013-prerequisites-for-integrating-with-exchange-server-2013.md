@@ -12,18 +12,18 @@ ms:contentKeyID: 49733853
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c92f88d35e573f0914698db28ddcf1fa54967f97
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 686d7d5d65af28127ad95b2911962d707887029a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42049859"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42139088"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="prerequisites-for-integrating-microsoft-lync-server-2013-and-microsoft-exchange-server-2013"></a>Microsoft Lync Server 2013 と Microsoft Exchange Server 2013 を統合するための前提条件
 
@@ -37,9 +37,9 @@ ms.locfileid: "42049859"
 
 _**トピックの最終更新日:** 2014-04-22_
 
-Microsoft Lync Server 2013 と Microsoft Exchange Server 2013 を統合するには、事前にすべての前提条件の手順が完了していることを確認する必要があります。 ご想像のとおり、Exchange 2013 と Lync Server 2013 の両方が完全にインストールされ、稼働しているまで、統合を行うことができません。 Exchange のインストールの詳細については、「Exchange 2013 の計画[http://go.microsoft.com/fwlink/p/?LinkId=268539](http://go.microsoft.com/fwlink/p/?linkid=268539)と展開に関するドキュメント」を参照してください。 Lync Server 2013 のインストールの詳細については、「計画と[http://go.microsoft.com/fwlink/p/?LinkId=254806](http://go.microsoft.com/fwlink/p/?linkid=254806)展開に関するドキュメント」を参照してください。
+Microsoft Lync Server 2013 と Microsoft Exchange Server 2013 を統合するには、事前にすべての前提条件の手順が完了していることを確認する必要があります。 ご想像のとおり、Exchange 2013 と Lync Server 2013 の両方が完全にインストールされ、稼働しているまで、統合を行うことができません。 Exchange のインストールの詳細については、「Exchange 2013 の計画[https://go.microsoft.com/fwlink/p/?LinkId=268539](https://go.microsoft.com/fwlink/p/?linkid=268539)と展開に関するドキュメント」を参照してください。 Lync Server 2013 のインストールの詳細については、「計画と[https://go.microsoft.com/fwlink/p/?LinkId=254806](https://go.microsoft.com/fwlink/p/?linkid=254806)展開に関するドキュメント」を参照してください。
 
-サーバーが稼働していて、サーバー間認証証明書を Lync Server 2013 と Exchange 2013 の両方に割り当てる必要があります。これらの証明書を使用すると、Lync Server と Exchange が情報を交換したり、互いに通信したりすることができます。 Exchange 2013 をインストールすると、Microsoft Exchange Server Auth 証明書という名前の自己署名証明書が自動的に作成されます。 この証明書は、ローカルコンピューターの証明書ストアにあり、Exchange 2013 上のサーバー間認証に使用する必要があります。 Exchange 2013 での証明書の割り当ての詳細については、「」の「 [http://go.microsoft.com/fwlink/p/?LinkId=268540](http://go.microsoft.com/fwlink/p/?linkid=268540)メールフローおよびクライアントアクセスを構成する」を参照してください。
+サーバーが稼働していて、サーバー間認証証明書を Lync Server 2013 と Exchange 2013 の両方に割り当てる必要があります。これらの証明書を使用すると、Lync Server と Exchange が情報を交換したり、互いに通信したりすることができます。 Exchange 2013 をインストールすると、Microsoft Exchange Server Auth 証明書という名前の自己署名証明書が自動的に作成されます。 この証明書は、ローカルコンピューターの証明書ストアにあり、Exchange 2013 上のサーバー間認証に使用する必要があります。 Exchange 2013 での証明書の割り当ての詳細については、「」の「 [https://go.microsoft.com/fwlink/p/?LinkId=268540](https://go.microsoft.com/fwlink/p/?linkid=268540)メールフローおよびクライアントアクセスを構成する」を参照してください。
 
 Lync Server 2013 では、既存の Lync Server 証明書をサーバー間認証証明書として使用できます。たとえば、既定の証明書を OAuthTokenIssuer 証明書として使用することもできます。 Lync Server 2013 では、次のような場合に、任意の Web サーバー証明書をサーバー間認証の証明書として使用できます。
 
@@ -73,7 +73,7 @@ autodiscover の URI は、次のようなコマンドを実行することに�
 
     Get-ClientAccessServer | Set-ClientAccessServer -AutoDiscoverServiceInternalUri "https://autodiscover.litwareinc.com/autodiscover/autodiscover.xml"
 
-自動検出サービスの詳細については、「」の「自動[http://go.microsoft.com/fwlink/p/?LinkId=268542](http://go.microsoft.com/fwlink/p/?linkid=268542)検出サービスについて」を参照してください。
+自動検出サービスの詳細については、「」の「自動[https://go.microsoft.com/fwlink/p/?LinkId=268542](https://go.microsoft.com/fwlink/p/?linkid=268542)検出サービスについて」を参照してください。
 
 自動検出サービスを構成した後、Lync Server OAuth 構成設定を変更する必要があります。これにより、Lync Server は自動検出サービスを検出する場所を認識できます。 Lync Server 2013 で OAuth 構成設定を変更するには、Lync Server 管理シェルで次のコマンドを実行します。 このコマンドを実行する場合は、Exchange サーバー上で実行されている自動検出サービス**への URI**を指定してください。また、このサービスで使用される xml ファイルを指す、自動検出サービスの場所を指定**するには**、次のようにします。
 

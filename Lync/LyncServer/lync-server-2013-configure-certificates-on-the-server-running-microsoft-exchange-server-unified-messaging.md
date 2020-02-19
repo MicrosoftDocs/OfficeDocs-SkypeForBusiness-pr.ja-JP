@@ -12,18 +12,18 @@ ms:contentKeyID: 48184521
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f2885b3610c1edce441c6abbd93a2515fa6cb904
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4bf3e665e0031596bc2db2273882aef379a96f2e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42028668"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140460"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-certificates-on-the-server-running-microsoft-exchange-server-unified-messaging"></a>Microsoft Exchange Server ユニファイドメッセージングを実行しているサーバーで証明書を構成する
 
@@ -130,7 +130,7 @@ Lync Server 2013 に接続するためには、サーバー証明書を使用し
 
 ## <a name="to-configure-exchange-server-2013-um-with-lync-server"></a>Lync Server を使用して Exchange Server 2013 UM を構成するには
 
-1.  詳細については、Exchange Server のドキュメントの「」の「Exchange 2013 UM と[http://go.microsoft.com/fwlink/p/?LinkId=265372](http://go.microsoft.com/fwlink/p/?linkid=265372)Lync Server の統合」を参照してください。
+1.  詳細については、Exchange Server のドキュメントの「」の「Exchange 2013 UM と[https://go.microsoft.com/fwlink/p/?LinkId=265372](https://go.microsoft.com/fwlink/p/?linkid=265372)Lync Server の統合」を参照してください。
 
 </div>
 
@@ -177,13 +177,13 @@ Lync Server 2013 に接続するためには、サーバー証明書を使用し
 
 ## <a name="to-create-a-certificate-on-exchange-server-2010"></a>Exchange Server 2010 で証明書を作成するには
 
-1.  Exchange UM を実行しているサーバーに適切なユーザー権限を使用してログオンします。 詳細については、「」の「 [http://go.microsoft.com/fwlink/p/?linkId=195499](http://go.microsoft.com/fwlink/p/?linkid=195499)クライアントアクセス許可」を参照してください。
+1.  Exchange UM を実行しているサーバーに適切なユーザー権限を使用してログオンします。 詳細については、「」の「 [https://go.microsoft.com/fwlink/p/?linkId=195499](https://go.microsoft.com/fwlink/p/?linkid=195499)クライアントアクセス許可」を参照してください。
 
 2.  証明書を作成するには、以下の手順を参照してください。
     
-    1.  「新しい Exchange 証明書を作成する」[http://go.microsoft.com/fwlink/p/?linkId=195494](http://go.microsoft.com/fwlink/p/?linkid=195494)
+    1.  「新しい Exchange 証明書を作成する」[https://go.microsoft.com/fwlink/p/?linkId=195494](https://go.microsoft.com/fwlink/p/?linkid=195494)
     
-    2.  「Exchange 証明書をインポートする」[http://go.microsoft.com/fwlink/p/?linkId=195496](http://go.microsoft.com/fwlink/p/?linkid=195496)
+    2.  「Exchange 証明書をインポートする」[https://go.microsoft.com/fwlink/p/?linkId=195496](https://go.microsoft.com/fwlink/p/?linkid=195496)
     
     <div>
     
@@ -236,9 +236,9 @@ Lync Server 2013 に接続するためには、サーバー証明書を使用し
 
 ## <a name="to-assign-the-certificate-on-exchange-server-2010"></a>Exchange Server 2010 に証明書を割り当てるには
 
-1.  Exchange UM を実行しているサーバーに適切なユーザー権限を使用してログオンします。 詳細については、「」の「 [http://go.microsoft.com/fwlink/p/?linkId=195499](http://go.microsoft.com/fwlink/p/?linkid=195499)クライアントアクセス許可」を参照してください。
+1.  Exchange UM を実行しているサーバーに適切なユーザー権限を使用してログオンします。 詳細については、「」の「 [https://go.microsoft.com/fwlink/p/?linkId=195499](https://go.microsoft.com/fwlink/p/?linkid=195499)クライアントアクセス許可」を参照してください。
 
-2.  証明書を割り当てる手順については、「サービスを証明書に割り当てる[http://go.microsoft.com/fwlink/p/?linkId=195497](http://go.microsoft.com/fwlink/p/?linkid=195497)」を参照してください。
+2.  証明書を割り当てる手順については、「サービスを証明書に割り当てる[https://go.microsoft.com/fwlink/p/?linkId=195497](https://go.microsoft.com/fwlink/p/?linkid=195497)」を参照してください。
 
 </div>
 

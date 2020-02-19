@@ -12,18 +12,18 @@ ms:contentKeyID: 48184640
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ae783c9a9298a5eba876c448a21f1a6b55b3f0d7
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 5399b2ee928cddf12575e99965729b373288d647
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42040816"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140520"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="conferencing-cmdlets-in-lync-server-2013"></a>Lync Server 2013 での会議のコマンドレット
 
@@ -211,7 +211,7 @@ Microsoft Lync Server 2013 を使用すると、ユーザーは、Lync 2013 な�
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server PowerShell ブログ](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[Lync Server PowerShell ブログ](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

@@ -12,18 +12,18 @@ ms:contentKeyID: 48185880
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fa5eb18418ad860452a51667fdf1550e948a1155
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 1e5e9c4e4e4a1e77f3ca7badc0a4549cb04cee94
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036849"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42139850"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="planning-for-exchange-unified-messaging-integration-in-lync-server-2013"></a>Lync Server 2013 での Exchange ユニファイドメッセージング統合の計画
 
@@ -41,7 +41,7 @@ Lync Server 2013 は、ボイスメッセージングと電子メールメッセ
 
 Microsoft Exchange Server 2013 では、exchange UM は Exchange メールボックスサーバー上のサービスとして実行されます。 Lync Server 2013 エンタープライズ Voip 展開の場合、ユニファイドメッセージングは、ボイスメッセージングと電子メールメッセージングを、電話 (Outlook Voice Access) またはコンピューターから利用できる1つのストアに結合します。 ユニファイドメッセージングおよび Lync Server 2013 は、エンタープライズ Voip のユーザーに通話応答、Outlook Voice Access、および自動応答サービスを提供するために連携しています。
 
-Microsoft Exchange Server 2013 のアーキテクチャの変更の詳細については、Microsoft Exchange Server 2013 ドキュメントの「Voice Architecture の変更点[http://go.microsoft.com/fwlink/p/?LinkId=266730](http://go.microsoft.com/fwlink/p/?linkid=266730)」を参照してください。
+Microsoft Exchange Server 2013 のアーキテクチャの変更の詳細については、Microsoft Exchange Server 2013 ドキュメントの「Voice Architecture の変更点[https://go.microsoft.com/fwlink/p/?LinkId=266730](https://go.microsoft.com/fwlink/p/?linkid=266730)」を参照してください。
 
 これらの機能がオンプレミスの Exchange UM 展開でサポートされるようにするには、次のいずれかを実行している必要があります。
 

@@ -13,18 +13,18 @@ ms:contentKeyID: 49733729
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 24c5c530b51b24b23f266786cd763994c4798d1b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 542ee4d581d4df26a528a14fda5de792c2a2ad09
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41999192"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136123"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-clients-for-migration"></a>移行用にクライアントを構成する
 
@@ -48,13 +48,13 @@ _**トピックの最終更新日:** 2013-11-21_
     
       - [Office Communications Server 2007 R2 の更新プログラムを適用する](apply-office-communications-server-2007-r2-updates.md)
     
-      - [Communicator 2007 R2 の累積的な更新プログラムパッケージの説明](http://go.microsoft.com/fwlink/p/?linkid=335808)
+      - [Communicator 2007 R2 の累積的な更新プログラムパッケージの説明](https://go.microsoft.com/fwlink/p/?linkid=335808)
     
-      - [デバイスのソフトウェア更新プログラムの取得](http://go.microsoft.com/fwlink/?linkid=335809)
+      - [デバイスのソフトウェア更新プログラムの取得](https://go.microsoft.com/fwlink/?linkid=335809)
 
 2.  Office Communications Server 2007 R2 では、クライアントバージョンフィルターを使用して、Office Communications Server 2007 R2 クライアントのみに最新の更新プログラムをインストールしてサインインできるようにします。
 
-3.  Office Communications Server 2007 R2 では、クライアントバージョンフィルタリングを使用して Lync Server 2013 クライアントのサインインをブロックします。 次の表に記載されているバージョン[http://go.microsoft.com/fwlink/p/?linkId=202488](http://go.microsoft.com/fwlink/p/?linkid=202488)フィルターを追加するには、「**クライアントバージョンフィルター**をで構成する」で説明されている手順に従います。 各バージョン フィルターで、[**ブロック**] のアクションを割り当てます。
+3.  Office Communications Server 2007 R2 では、クライアントバージョンフィルタリングを使用して Lync Server 2013 クライアントのサインインをブロックします。 次の表に記載されているバージョン[https://go.microsoft.com/fwlink/p/?linkId=202488](https://go.microsoft.com/fwlink/p/?linkid=202488)フィルターを追加するには、「**クライアントバージョンフィルター**をで構成する」で説明されている手順に従います。 各バージョン フィルターで、[**ブロック**] のアクションを割り当てます。
     
     
     <table>

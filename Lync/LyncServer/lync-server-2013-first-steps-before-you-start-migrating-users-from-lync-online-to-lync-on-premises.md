@@ -12,18 +12,18 @@ ms:contentKeyID: 62258123
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1bf61b4e2f3e3a14d5e2434ff80bd5d6f612f267
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ef6504337ad4f061201e5d4aa86e34bd532d8aee
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42028458"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137025"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="first-steps-before-you-start-migrating-users-from-lync-online-to-lync-on-premises-in-lync-server-2013"></a>Lync Online から lync Server 2013 の Lync オンプレミスへのユーザーの移行を開始する前の最初の手順
 
@@ -43,7 +43,7 @@ Lync Online ユーザーのオンプレミス環境への移行を開始する�
 
   - Lync Online テナントは、リモート PowerShell へのアクセス用に構成する必要があります。
     
-    これを行うには、まず、Windows PowerShell 用 Lync Online モジュールをインストールします。これ[http://go.microsoft.com/fwlink/p/?LinkId=391911](http://go.microsoft.com/fwlink/p/?linkid=391911)は、次の場所から入手できます。
+    これを行うには、まず、Windows PowerShell 用 Lync Online モジュールをインストールします。これ[https://go.microsoft.com/fwlink/p/?LinkId=391911](https://go.microsoft.com/fwlink/p/?linkid=391911)は、次の場所から入手できます。
     
     モジュールをインストールした後、Lync Server 管理シェルで次のコマンドレットを入力することによって、リモートセッションを確立できます。
     

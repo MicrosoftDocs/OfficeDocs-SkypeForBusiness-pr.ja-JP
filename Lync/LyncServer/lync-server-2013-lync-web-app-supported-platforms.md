@@ -12,18 +12,18 @@ ms:contentKeyID: 48183808
 ms.date: 06/12/2019
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 713a49fc81ba388d01a790ab260adcebbd364c8b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7070dbf25357d886b2e82e4da0140a724cbec853
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030180"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137696"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="lync-web-app-supported-platforms-for-lync-server-2013"></a>Lync Server 2013 の lync Web App がサポートされているプラットフォーム
 
@@ -43,7 +43,7 @@ Lync Web App を使用するには、次のサポートされているオペレ�
 
 
 > [!NOTE]  
-> コンピューターベースの音声、ビデオ、共有、進行中の画面共有の表示など、特定の Lync Web App 機能にプラグインが必要です。 会議に参加するとき、またはこれらの機能のいずれかを開始するときに、共有プラグインをインストールすることができます。 1 <BR>
+> コンピューターベースの音声、ビデオ、共有、進行中の画面共有の表示など、特定の Lync Web App 機能にプラグインが必要です。 会議に参加するとき、またはこれらの機能のいずれかを開始するときに、共有プラグインをインストールすることができます。 1-d<BR>
 
 
 
@@ -93,7 +93,7 @@ Lync Web App を使用するには、次のサポートされているオペレ�
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 <td><p>該当なし</p></td>
-<td><p>X</p></td>
+<td><p>いいえ</p></td>
 </tr>
 <tr class="odd">
 <td><p>Windows 8.1<sup>1</sup></p></td>
@@ -106,7 +106,7 @@ Lync Web App を使用するには、次のサポートされているオペレ�
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 <td><p>該当なし</p></td>
-<td><p>X</p></td>
+<td><p>いいえ</p></td>
 </tr>
 <tr class="even">
 <td><p>Windows 8 (Intel ベース)<sup>1</sup></p></td>
@@ -119,7 +119,7 @@ Lync Web App を使用するには、次のサポートされているオペレ�
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 <td><p>該当なし</p></td>
-<td><p>X</p></td>
+<td><p>いいえ</p></td>
 </tr>
 <tr class="odd">
 <td><p>Windows 7 SP1<sup>2</sup></p></td>
@@ -132,7 +132,7 @@ Lync Web App を使用するには、次のサポートされているオペレ�
 <td><p>不要</p></td>
 <td><p>いいえ</p></td>
 <td><p>該当なし</p></td>
-<td><p>X</p></td>
+<td><p>いいえ</p></td>
 </tr>
 <tr class="even">
 <td><p>Windows Server 2008 R2 SP1<sup>2</sup></p></td>
@@ -145,7 +145,7 @@ Lync Web App を使用するには、次のサポートされているオペレ�
 <td><p>不要</p></td>
 <td><p>いいえ</p></td>
 <td><p>該当なし</p></td>
-<td><p>X</p></td>
+<td><p>いいえ</p></td>
 </tr>
 <tr class="odd">
 <td><p>Windows Server 2008 SP2<sup>3</sup></p></td>
@@ -158,7 +158,7 @@ Lync Web App を使用するには、次のサポートされているオペレ�
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 <td><p>該当なし</p></td>
-<td><p>X</p></td>
+<td><p>いいえ</p></td>
 </tr>
 <tr class="even">
 <td><p>Mac OS X 10.7 以降 (Intel ベース)<sup>2</sup></p></td>
