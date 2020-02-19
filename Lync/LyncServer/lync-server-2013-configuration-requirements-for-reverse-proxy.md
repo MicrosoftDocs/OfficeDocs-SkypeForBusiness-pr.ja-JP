@@ -12,20 +12,20 @@ ms:contentKeyID: 51541518
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: efa0124bb66974755a7cae0ab799dc66cc48fd1e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b19684913f147eed353ff9f69400e9993de40c12
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42040535"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42133982"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuration-requirements-for-reverse-proxy-in-lync-server-2013"></a><span data-ttu-id="3664d-102">Lync Server 2013 でのリバースプロキシの構成要件</span><span class="sxs-lookup"><span data-stu-id="3664d-102">Configuration requirements for reverse proxy in Lync Server 2013</span></span>
+# <a name="configuration-requirements-for-reverse-proxy-in-lync-server-2013"></a><span data-ttu-id="6e756-102">Lync Server 2013 でのリバースプロキシの構成要件</span><span class="sxs-lookup"><span data-stu-id="6e756-102">Configuration requirements for reverse proxy in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42040535"
 
 <span> </span>
 
-<span data-ttu-id="3664d-103">_**トピックの最終更新日:** 2013-03-05_</span><span class="sxs-lookup"><span data-stu-id="3664d-103">_**Topic Last Modified:** 2013-03-05_</span></span>
+<span data-ttu-id="6e756-103">_**トピックの最終更新日:** 2013-03-05_</span><span class="sxs-lookup"><span data-stu-id="6e756-103">_**Topic Last Modified:** 2013-03-05_</span></span>
 
-<span data-ttu-id="3664d-104">Lync Server 2013 は、ディレクター、ディレクタープール、フロントエンドサーバー、またはフロントエンドプールでホストされている外部 Web サービスに渡される、外部クライアントからの通信に関していくつかの要件を課しています。</span><span class="sxs-lookup"><span data-stu-id="3664d-104">Lync Server 2013 imposes a few requirements on communications from the external client that are then passed on to the external Web services hosted on the Director, Director pool, Front End Server or Front End pool.</span></span> <span data-ttu-id="3664d-105">また、リバースプロキシは、ユーザーに電話会議を提供している場合は、Office Web Apps サーバーを公開する役割も担います。</span><span class="sxs-lookup"><span data-stu-id="3664d-105">The reverse proxy is also responsible for publishing the Office Web Apps Server, if you are offering conferencing to your users.</span></span>
+<span data-ttu-id="6e756-104">Lync Server 2013 は、ディレクター、ディレクタープール、フロントエンドサーバー、またはフロントエンドプールでホストされている外部 Web サービスに渡される、外部クライアントからの通信に関していくつかの要件を課しています。</span><span class="sxs-lookup"><span data-stu-id="6e756-104">Lync Server 2013 imposes a few requirements on communications from the external client that are then passed on to the external Web services hosted on the Director, Director pool, Front End Server or Front End pool.</span></span> <span data-ttu-id="6e756-105">また、リバースプロキシは、ユーザーに電話会議を提供している場合は、Office Web Apps サーバーを公開する役割も担います。</span><span class="sxs-lookup"><span data-stu-id="6e756-105">The reverse proxy is also responsible for publishing the Office Web Apps Server, if you are offering conferencing to your users.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="3664d-106">Lync Server 2013 では、使用する必要がある特定のリバースプロキシが指定されていません。</span><span class="sxs-lookup"><span data-stu-id="3664d-106">Lync Server 2013 does not specify a particular reverse proxy that you must use.</span></span> <span data-ttu-id="3664d-107">Lync Server 2013 では、リバースプロキシが実行できる運用要件のみが定義されています。</span><span class="sxs-lookup"><span data-stu-id="3664d-107">Lync Server 2013 only defines operational requirements that the reverse proxy must be able to do.</span></span> <span data-ttu-id="3664d-108">通常、インフラストラクチャに既に展開されているリバースプロキシが要件を満たすことができる場合があります。</span><span class="sxs-lookup"><span data-stu-id="3664d-108">Typically, the reverse proxy that you already have deployed in your infrastructure may be able to meet the requirements.</span></span>
+> <span data-ttu-id="6e756-106">Lync Server 2013 では、使用する必要がある特定のリバースプロキシが指定されていません。</span><span class="sxs-lookup"><span data-stu-id="6e756-106">Lync Server 2013 does not specify a particular reverse proxy that you must use.</span></span> <span data-ttu-id="6e756-107">Lync Server 2013 では、リバースプロキシが実行できる運用要件のみが定義されています。</span><span class="sxs-lookup"><span data-stu-id="6e756-107">Lync Server 2013 only defines operational requirements that the reverse proxy must be able to do.</span></span> <span data-ttu-id="6e756-108">通常、インフラストラクチャに既に展開されているリバースプロキシが要件を満たすことができる場合があります。</span><span class="sxs-lookup"><span data-stu-id="6e756-108">Typically, the reverse proxy that you already have deployed in your infrastructure may be able to meet the requirements.</span></span>
 
 
 
@@ -51,31 +51,31 @@ ms.locfileid: "42040535"
 
 <div>
 
-## <a name="reverse-proxy-requirements"></a><span data-ttu-id="3664d-109">リバース プロキシの要件</span><span class="sxs-lookup"><span data-stu-id="3664d-109">Reverse Proxy Requirements</span></span>
+## <a name="reverse-proxy-requirements"></a><span data-ttu-id="6e756-109">リバース プロキシの要件</span><span class="sxs-lookup"><span data-stu-id="6e756-109">Reverse Proxy Requirements</span></span>
 
-<span data-ttu-id="3664d-110">Lync Server 2013 によって実行されるリバースプロキシが必要とする機能の操作は次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="3664d-110">The functional operations that Lync Server 2013 expect a reverse proxy to perform are:</span></span>
+<span data-ttu-id="6e756-110">Lync Server 2013 によって実行されるリバースプロキシが必要とする機能の操作は次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="6e756-110">The functional operations that Lync Server 2013 expect a reverse proxy to perform are:</span></span>
 
-  - <span data-ttu-id="3664d-111">Secure socket layer (SSL) とトランスポート層セキュリティ (TLS) を使用します。これは、パブリック証明機関から取得した証明書を使用して、ディレクター、ディレクタープール、フロントエンドサーバー、またはフロントエンドプールの公開された外部 Web サービスに接続することによって実装されます。</span><span class="sxs-lookup"><span data-stu-id="3664d-111">Use secure socket layer (SSL) and transport layer security (TLS) implemented by using certificates acquired from a public certification authority to connect to the published external Web services of the Director, Director pool, Front End Server or Front End pool.</span></span> <span data-ttu-id="3664d-112">ディレクターおよびフロントエンドサーバーは、ハードウェアロードバランサーを使用して負荷分散されたプールに配置できます。</span><span class="sxs-lookup"><span data-stu-id="3664d-112">The Director and the Front End Server can be in a load-balanced pool by using hardware load balancers.</span></span>
+  - <span data-ttu-id="6e756-111">Secure socket layer (SSL) とトランスポート層セキュリティ (TLS) を使用します。これは、パブリック証明機関から取得した証明書を使用して、ディレクター、ディレクタープール、フロントエンドサーバー、またはフロントエンドプールの公開された外部 Web サービスに接続することによって実装されます。</span><span class="sxs-lookup"><span data-stu-id="6e756-111">Use secure socket layer (SSL) and transport layer security (TLS) implemented by using certificates acquired from a public certification authority to connect to the published external Web services of the Director, Director pool, Front End Server or Front End pool.</span></span> <span data-ttu-id="6e756-112">ディレクターおよびフロントエンドサーバーは、ハードウェアロードバランサーを使用して負荷分散されたプールに配置できます。</span><span class="sxs-lookup"><span data-stu-id="6e756-112">The Director and the Front End Server can be in a load-balanced pool by using hardware load balancers.</span></span>
 
-  - <span data-ttu-id="3664d-113">暗号化用の証明書を使用して内部 Web サイトを公開するか、必要に応じて暗号化されていない方法で公開することができます。</span><span class="sxs-lookup"><span data-stu-id="3664d-113">Able to publish internal Web sites using certificates for encryption, or publish them over an unencrypted means, if needed.</span></span>
+  - <span data-ttu-id="6e756-113">暗号化用の証明書を使用して内部 Web サイトを公開するか、必要に応じて暗号化されていない方法で公開することができます。</span><span class="sxs-lookup"><span data-stu-id="6e756-113">Able to publish internal Web sites using certificates for encryption, or publish them over an unencrypted means, if needed.</span></span>
 
-  - <span data-ttu-id="3664d-114">完全修飾ドメイン名 (FQDN) を使用して、内部でホストされている web サイトを外部に公開できます。</span><span class="sxs-lookup"><span data-stu-id="3664d-114">Able to publish an internally hosted web site externally by using a fully qualified domain name (FQDN).</span></span>
+  - <span data-ttu-id="6e756-114">完全修飾ドメイン名 (FQDN) を使用して、内部でホストされている web サイトを外部に公開できます。</span><span class="sxs-lookup"><span data-stu-id="6e756-114">Able to publish an internally hosted web site externally by using a fully qualified domain name (FQDN).</span></span>
 
-  - <span data-ttu-id="3664d-115">ホストされている web サイトのすべてのコンテンツを公開できます。</span><span class="sxs-lookup"><span data-stu-id="3664d-115">Able to publish all contents of the hosted web site.</span></span> <span data-ttu-id="3664d-116">既定では、ほとんどの web \*\* / \*\*サーバーで認識されるディレクティブを使用して、"web サーバー上のすべてのコンテンツを公開" という意味を持つことができます。</span><span class="sxs-lookup"><span data-stu-id="3664d-116">By default, you can use the **/\*** directive, which is recognized by most web servers to mean "Publish all content on the web server."</span></span> <span data-ttu-id="3664d-117">また、ディレクティブ ( **/Uwca/\*** など) を変更することもできます。これは、「仮想ディレクトリの下にあるすべてのコンテンツを公開する」という意味です。</span><span class="sxs-lookup"><span data-stu-id="3664d-117">You can also modify the directive—for example, **/Uwca/\***, which means "Publish all content under the virtual directory Ucwa."</span></span>
+  - <span data-ttu-id="6e756-115">ホストされている web サイトのすべてのコンテンツを公開できます。</span><span class="sxs-lookup"><span data-stu-id="6e756-115">Able to publish all contents of the hosted web site.</span></span> <span data-ttu-id="6e756-116">既定では、ほとんどの web \*\* / \*\*サーバーで認識されるディレクティブを使用して、"web サーバー上のすべてのコンテンツを公開" という意味を持つことができます。</span><span class="sxs-lookup"><span data-stu-id="6e756-116">By default, you can use the **/\*** directive, which is recognized by most web servers to mean "Publish all content on the web server."</span></span> <span data-ttu-id="6e756-117">また、ディレクティブ ( **/Uwca/\*** など) を変更することもできます。これは、「仮想ディレクトリの下にあるすべてのコンテンツを公開する」という意味です。</span><span class="sxs-lookup"><span data-stu-id="6e756-117">You can also modify the directive—for example, **/Uwca/\***, which means "Publish all content under the virtual directory Ucwa."</span></span>
 
-  - <span data-ttu-id="3664d-118">公開された web サイトのコンテンツを要求するクライアントとの Secure Sockets Layer (SSL) またはトランスポート層セキュリティ (TLS) 接続が必要な場合は、構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="3664d-118">Must be configurable to require Secure Sockets Layer (SSL) and/or Transport Layer Security (TLS) connections with clients that request content from a published website.</span></span>
+  - <span data-ttu-id="6e756-118">公開された web サイトのコンテンツを要求するクライアントとの Secure Sockets Layer (SSL) またはトランスポート層セキュリティ (TLS) 接続が必要な場合は、構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="6e756-118">Must be configurable to require Secure Sockets Layer (SSL) and/or Transport Layer Security (TLS) connections with clients that request content from a published website.</span></span>
 
-  - <span data-ttu-id="3664d-119">サブジェクトの別名 (SAN) エントリで証明書を受け取る必要があります。</span><span class="sxs-lookup"><span data-stu-id="3664d-119">Must accept certificates with subject alternative name (SAN) entries.</span></span>
+  - <span data-ttu-id="6e756-119">サブジェクトの別名 (SAN) エントリで証明書を受け取る必要があります。</span><span class="sxs-lookup"><span data-stu-id="6e756-119">Must accept certificates with subject alternative name (SAN) entries.</span></span>
 
-  - <span data-ttu-id="3664d-120">外部 web サービスの FQDN が解決されるリスナーまたはインターフェイスに証明書のバインドを許可できる必要があります。</span><span class="sxs-lookup"><span data-stu-id="3664d-120">Must be able to allow binding of a certificate to a listener or interface through which the external web services FQDN will resolve.</span></span> <span data-ttu-id="3664d-121">リスナー構成は、インターフェイスに推奨されます。</span><span class="sxs-lookup"><span data-stu-id="3664d-121">Listener configurations are preferable to interfaces.</span></span> <span data-ttu-id="3664d-122">多くのリスナーは、1つのインターフェイスで構成できます。</span><span class="sxs-lookup"><span data-stu-id="3664d-122">Many listeners can be configured on a single interface.</span></span>
+  - <span data-ttu-id="6e756-120">外部 web サービスの FQDN が解決されるリスナーまたはインターフェイスに証明書のバインドを許可できる必要があります。</span><span class="sxs-lookup"><span data-stu-id="6e756-120">Must be able to allow binding of a certificate to a listener or interface through which the external web services FQDN will resolve.</span></span> <span data-ttu-id="6e756-121">リスナー構成は、インターフェイスに推奨されます。</span><span class="sxs-lookup"><span data-stu-id="6e756-121">Listener configurations are preferable to interfaces.</span></span> <span data-ttu-id="6e756-122">多くのリスナーは、1つのインターフェイスで構成できます。</span><span class="sxs-lookup"><span data-stu-id="6e756-122">Many listeners can be configured on a single interface.</span></span>
 
-  - <span data-ttu-id="3664d-123">ホストヘッダー処理の構成を許可する必要があります。</span><span class="sxs-lookup"><span data-stu-id="3664d-123">Must allow for the configuration of host header handling.</span></span> <span data-ttu-id="3664d-124">多くの場合、要求元のクライアントによって送信される元のホストヘッダーは、リバースプロキシによって変更されるのではなく、透過的に渡される必要があります。</span><span class="sxs-lookup"><span data-stu-id="3664d-124">Often, the original host header sent by the requesting client must be passed transparently, instead of being modified by the reverse proxy.</span></span>
+  - <span data-ttu-id="6e756-123">ホストヘッダー処理の構成を許可する必要があります。</span><span class="sxs-lookup"><span data-stu-id="6e756-123">Must allow for the configuration of host header handling.</span></span> <span data-ttu-id="6e756-124">多くの場合、要求元のクライアントによって送信される元のホストヘッダーは、リバースプロキシによって変更されるのではなく、透過的に渡される必要があります。</span><span class="sxs-lookup"><span data-stu-id="6e756-124">Often, the original host header sent by the requesting client must be passed transparently, instead of being modified by the reverse proxy.</span></span>
 
-  - <span data-ttu-id="3664d-125">外部で定義された1つのポート (たとえば、tcp 443) から別の定義済みポート (たとえば、TCP 4443) への SSL および TLS トラフィックのブリッジ。</span><span class="sxs-lookup"><span data-stu-id="3664d-125">Bridging of SSL and TLS traffic from one externally defined port (for example, TCP 443) to another defined port (for example, TCP 4443).</span></span> <span data-ttu-id="3664d-126">リバースプロキシは、受信時にパケットの暗号化を解除し、送信時にパケットを再度暗号化することができます。</span><span class="sxs-lookup"><span data-stu-id="3664d-126">The reverse proxy may decrypt the packet on receipt and then reencrypt the packet on sending.</span></span>
+  - <span data-ttu-id="6e756-125">外部で定義された1つのポート (たとえば、tcp 443) から別の定義済みポート (たとえば、TCP 4443) への SSL および TLS トラフィックのブリッジ。</span><span class="sxs-lookup"><span data-stu-id="6e756-125">Bridging of SSL and TLS traffic from one externally defined port (for example, TCP 443) to another defined port (for example, TCP 4443).</span></span> <span data-ttu-id="6e756-126">リバースプロキシは、受信時にパケットの暗号化を解除し、送信時にパケットを再度暗号化することができます。</span><span class="sxs-lookup"><span data-stu-id="6e756-126">The reverse proxy may decrypt the packet on receipt and then reencrypt the packet on sending.</span></span>
 
-  - <span data-ttu-id="3664d-127">1つのポート (たとえば、tcp 80) から別のポート (たとえば、TCP 8080) への暗号化されていない TCP トラフィックのブリッジ。</span><span class="sxs-lookup"><span data-stu-id="3664d-127">Bridging of unencrypted TCP traffic from one port (for example, TCP 80) to another (for example, TCP 8080).</span></span>
+  - <span data-ttu-id="6e756-127">1つのポート (たとえば、tcp 80) から別のポート (たとえば、TCP 8080) への暗号化されていない TCP トラフィックのブリッジ。</span><span class="sxs-lookup"><span data-stu-id="6e756-127">Bridging of unencrypted TCP traffic from one port (for example, TCP 80) to another (for example, TCP 8080).</span></span>
 
-  - <span data-ttu-id="3664d-128">NTLM 認証の構成を許可するか、認証を行わずに認証を行い、パススルー認証を許可します。</span><span class="sxs-lookup"><span data-stu-id="3664d-128">Allow configuration of, or accept, NTLM authentication, No authentication and Pass-through authentication.</span></span>
+  - <span data-ttu-id="6e756-128">NTLM 認証の構成を許可するか、認証を行わずに認証を行い、パススルー認証を許可します。</span><span class="sxs-lookup"><span data-stu-id="6e756-128">Allow configuration of, or accept, NTLM authentication, No authentication and Pass-through authentication.</span></span>
 
 </div>
 

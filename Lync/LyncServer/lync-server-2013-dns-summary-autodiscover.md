@@ -12,20 +12,20 @@ ms:contentKeyID: 51541504
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 236a3625b755697580e57c926dd5714a44c0347f
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: a758249205a8b73ddfafb2605191b5786b3f2790
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029578"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135083"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---autodiscover-in-lync-server-2013"></a><span data-ttu-id="5b20a-102">DNS の概要-Lync Server 2013 での自動検出</span><span class="sxs-lookup"><span data-stu-id="5b20a-102">DNS summary - Autodiscover in Lync Server 2013</span></span>
+# <a name="dns-summary---autodiscover-in-lync-server-2013"></a><span data-ttu-id="40417-102">DNS の概要-Lync Server 2013 での自動検出</span><span class="sxs-lookup"><span data-stu-id="40417-102">DNS summary - Autodiscover in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "42029578"
 
 <span> </span>
 
-<span data-ttu-id="5b20a-103">_**トピックの最終更新日:** 2013-02-13_</span><span class="sxs-lookup"><span data-stu-id="5b20a-103">_**Topic Last Modified:** 2013-02-13_</span></span>
+<span data-ttu-id="40417-103">_**トピックの最終更新日:** 2013-02-13_</span><span class="sxs-lookup"><span data-stu-id="40417-103">_**Topic Last Modified:** 2013-02-13_</span></span>
 
-<span data-ttu-id="5b20a-104">自動検出は、HTTP または HTTPS を経由した通信を受け付ける、柔軟なサービスです。</span><span class="sxs-lookup"><span data-stu-id="5b20a-104">Autodiscover is a flexible service in that it will accept communication over HTTP or HTTPS.</span></span> <span data-ttu-id="5b20a-105">これを実現するには、ドメインネームシステム (DNS) と自動検出サービスをホストするサーバーで使用される証明書が正しく構成されている必要があります。</span><span class="sxs-lookup"><span data-stu-id="5b20a-105">To accomplish this, the domain name system (DNS) and the certificates used by servers that host the Autodiscover service must be configured correctly.</span></span> <span data-ttu-id="5b20a-106">証明書の要件は[、「証明書の概要-Lync Server 2013 での自動検出](lync-server-2013-certificate-summary-autodiscover.md)」で説明されています。</span><span class="sxs-lookup"><span data-stu-id="5b20a-106">Certificate requirements are covered in [Certificate summary - Autodiscover in Lync Server 2013](lync-server-2013-certificate-summary-autodiscover.md).</span></span>
+<span data-ttu-id="40417-104">自動検出は、HTTP または HTTPS を経由した通信を受け付ける、柔軟なサービスです。</span><span class="sxs-lookup"><span data-stu-id="40417-104">Autodiscover is a flexible service in that it will accept communication over HTTP or HTTPS.</span></span> <span data-ttu-id="40417-105">これを実現するには、ドメインネームシステム (DNS) と自動検出サービスをホストするサーバーで使用される証明書が正しく構成されている必要があります。</span><span class="sxs-lookup"><span data-stu-id="40417-105">To accomplish this, the domain name system (DNS) and the certificates used by servers that host the Autodiscover service must be configured correctly.</span></span> <span data-ttu-id="40417-106">証明書の要件は[、「証明書の概要-Lync Server 2013 での自動検出](lync-server-2013-certificate-summary-autodiscover.md)」で説明されています。</span><span class="sxs-lookup"><span data-stu-id="40417-106">Certificate requirements are covered in [Certificate summary - Autodiscover in Lync Server 2013](lync-server-2013-certificate-summary-autodiscover.md).</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="5b20a-107">Lync Server クライアントの DNS 参照ロジックでは、特定の順序で解決されます。</span><span class="sxs-lookup"><span data-stu-id="5b20a-107">DNS lookup logic for the Lync Server clients uses a specific order of resolution.</span></span> <span data-ttu-id="5b20a-108">常に lyncdiscoverinternal を含める必要があります。&lt;ドメイン&gt;および lyncdiscover。&lt;DNS&gt;のドメイン。</span><span class="sxs-lookup"><span data-stu-id="5b20a-108">You should always include both the lyncdiscoverinternal.&lt;domain&gt; and the lyncdiscover.&lt;domain&gt; in your DNS.</span></span> <span data-ttu-id="5b20a-109">Lyncdiscoverinternal を除外します。&lt;ドメイン&gt;レコードを使用すると、内部クライアントは、目的のサービスへの接続を失敗させたり、誤った自動検出応答を受信したりします。</span><span class="sxs-lookup"><span data-stu-id="5b20a-109">Excluding the lyncdiscoverinternal.&lt;domain&gt; record will cause internal clients to fail to connect to the intended services or receive the incorrect Autodiscover response.</span></span>
+> <span data-ttu-id="40417-107">Lync Server クライアントの DNS 参照ロジックでは、特定の順序で解決されます。</span><span class="sxs-lookup"><span data-stu-id="40417-107">DNS lookup logic for the Lync Server clients uses a specific order of resolution.</span></span> <span data-ttu-id="40417-108">常に lyncdiscoverinternal を含める必要があります。&lt;ドメイン&gt;および lyncdiscover。&lt;DNS&gt;のドメイン。</span><span class="sxs-lookup"><span data-stu-id="40417-108">You should always include both the lyncdiscoverinternal.&lt;domain&gt; and the lyncdiscover.&lt;domain&gt; in your DNS.</span></span> <span data-ttu-id="40417-109">Lyncdiscoverinternal を除外します。&lt;ドメイン&gt;レコードを使用すると、内部クライアントは、目的のサービスへの接続を失敗させたり、誤った自動検出応答を受信したりします。</span><span class="sxs-lookup"><span data-stu-id="40417-109">Excluding the lyncdiscoverinternal.&lt;domain&gt; record will cause internal clients to fail to connect to the intended services or receive the incorrect Autodiscover response.</span></span>
 
 
 
 </div>
 
-### <a name="internal-dns-records"></a><span data-ttu-id="5b20a-110">内部 DNS レコード</span><span class="sxs-lookup"><span data-stu-id="5b20a-110">Internal DNS Records</span></span>
+### <a name="internal-dns-records"></a><span data-ttu-id="40417-110">内部 DNS レコード</span><span class="sxs-lookup"><span data-stu-id="40417-110">Internal DNS Records</span></span>
 
 <table>
 <colgroup>
@@ -59,29 +59,29 @@ ms.locfileid: "42029578"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="5b20a-111">レコードの種類</span><span class="sxs-lookup"><span data-stu-id="5b20a-111">Record type</span></span></th>
-<th><span data-ttu-id="5b20a-112">ホスト名</span><span class="sxs-lookup"><span data-stu-id="5b20a-112">Host name</span></span></th>
-<th><span data-ttu-id="5b20a-113">解決先</span><span class="sxs-lookup"><span data-stu-id="5b20a-113">Resolves to</span></span></th>
+<th><span data-ttu-id="40417-111">レコードの種類</span><span class="sxs-lookup"><span data-stu-id="40417-111">Record type</span></span></th>
+<th><span data-ttu-id="40417-112">ホスト名</span><span class="sxs-lookup"><span data-stu-id="40417-112">Host name</span></span></th>
+<th><span data-ttu-id="40417-113">解決先</span><span class="sxs-lookup"><span data-stu-id="40417-113">Resolves to</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="5b20a-114">CNAME</span><span class="sxs-lookup"><span data-stu-id="5b20a-114">CNAME</span></span></p></td>
-<td><p><span data-ttu-id="5b20a-115">Lyncdiscoverinternal.&lt;内部ドメイン名&gt;</span><span class="sxs-lookup"><span data-stu-id="5b20a-115">Lyncdiscoverinternal.&lt;internal domain name&gt;</span></span></p></td>
-<td><p><span data-ttu-id="5b20a-116">ディレクターを所有していない場合は、ディレクタープールの内部 Web サービスの FQDN、またはディレクターを持っていない場合はフロントエンドプール用。</span><span class="sxs-lookup"><span data-stu-id="5b20a-116">Internal Web Services FQDN for your Director pool, if you have one, or for your Front End pool if you do not have a Director.</span></span></p></td>
+<td><p><span data-ttu-id="40417-114">CNAME</span><span class="sxs-lookup"><span data-stu-id="40417-114">CNAME</span></span></p></td>
+<td><p><span data-ttu-id="40417-115">Lyncdiscoverinternal.&lt;内部ドメイン名&gt;</span><span class="sxs-lookup"><span data-stu-id="40417-115">Lyncdiscoverinternal.&lt;internal domain name&gt;</span></span></p></td>
+<td><p><span data-ttu-id="40417-116">ディレクターを所有していない場合は、ディレクタープールの内部 Web サービスの FQDN、またはディレクターを持っていない場合はフロントエンドプール用。</span><span class="sxs-lookup"><span data-stu-id="40417-116">Internal Web Services FQDN for your Director pool, if you have one, or for your Front End pool if you do not have a Director.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5b20a-117">A (IPv6 の場合は host、AAAA の場合)</span><span class="sxs-lookup"><span data-stu-id="5b20a-117">A (host, if IPv6, AAAA)</span></span></p></td>
-<td><p><span data-ttu-id="5b20a-118">lyncdiscoverinternal.&lt;内部ドメイン名&gt;</span><span class="sxs-lookup"><span data-stu-id="5b20a-118">lyncdiscoverinternal.&lt;internal domain name&gt;</span></span></p></td>
-<td><p><span data-ttu-id="5b20a-119">ディレクタープールがある場合、ディレクタープールの内部 Web サービス IP アドレス (ロードバランサーを使用する場合は仮想 IP (VIP) アドレス) (ディレクターを持っていない場合は、フロントエンドプールがある場合)。</span><span class="sxs-lookup"><span data-stu-id="5b20a-119">Internal Web Services IP address (virtual IP (VIP) address if you use a load balancer) of your Director pool, if you have one, or of your Front End pool if you do not have a Director.</span></span></p></td>
+<td><p><span data-ttu-id="40417-117">A (IPv6 の場合は host、AAAA の場合)</span><span class="sxs-lookup"><span data-stu-id="40417-117">A (host, if IPv6, AAAA)</span></span></p></td>
+<td><p><span data-ttu-id="40417-118">lyncdiscoverinternal.&lt;内部ドメイン名&gt;</span><span class="sxs-lookup"><span data-stu-id="40417-118">lyncdiscoverinternal.&lt;internal domain name&gt;</span></span></p></td>
+<td><p><span data-ttu-id="40417-119">ディレクタープールがある場合、ディレクタープールの内部 Web サービス IP アドレス (ロードバランサーを使用する場合は仮想 IP (VIP) アドレス) (ディレクターを持っていない場合は、フロントエンドプールがある場合)。</span><span class="sxs-lookup"><span data-stu-id="40417-119">Internal Web Services IP address (virtual IP (VIP) address if you use a load balancer) of your Director pool, if you have one, or of your Front End pool if you do not have a Director.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="5b20a-120">次の外部 DNS レコードの 1 つを作成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="5b20a-120">You need to create one of the following external DNS records:</span></span>
+<span data-ttu-id="40417-120">次の外部 DNS レコードの 1 つを作成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="40417-120">You need to create one of the following external DNS records:</span></span>
 
-### <a name="external-dns-records"></a><span data-ttu-id="5b20a-121">外部 DNS レコード</span><span class="sxs-lookup"><span data-stu-id="5b20a-121">External DNS Records</span></span>
+### <a name="external-dns-records"></a><span data-ttu-id="40417-121">外部 DNS レコード</span><span class="sxs-lookup"><span data-stu-id="40417-121">External DNS Records</span></span>
 
 <table>
 <colgroup>
@@ -91,21 +91,21 @@ ms.locfileid: "42029578"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="5b20a-122">レコードの種類</span><span class="sxs-lookup"><span data-stu-id="5b20a-122">Record type</span></span></th>
-<th><span data-ttu-id="5b20a-123">ホスト名</span><span class="sxs-lookup"><span data-stu-id="5b20a-123">Host name</span></span></th>
-<th><span data-ttu-id="5b20a-124">解決先</span><span class="sxs-lookup"><span data-stu-id="5b20a-124">Resolves to</span></span></th>
+<th><span data-ttu-id="40417-122">レコードの種類</span><span class="sxs-lookup"><span data-stu-id="40417-122">Record type</span></span></th>
+<th><span data-ttu-id="40417-123">ホスト名</span><span class="sxs-lookup"><span data-stu-id="40417-123">Host name</span></span></th>
+<th><span data-ttu-id="40417-124">解決先</span><span class="sxs-lookup"><span data-stu-id="40417-124">Resolves to</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="5b20a-125">CNAME</span><span class="sxs-lookup"><span data-stu-id="5b20a-125">CNAME</span></span></p></td>
-<td><p><span data-ttu-id="5b20a-126">lyncdiscover.&lt;microsoft.rtc.management.xds.sipdomain&gt;</span><span class="sxs-lookup"><span data-stu-id="5b20a-126">lyncdiscover.&lt;sipdomain&gt;</span></span></p></td>
-<td><p><span data-ttu-id="5b20a-127">ディレクターが存在しない場合は、ディレクタープールの外部 Web サービスの FQDN、またはディレクターを持っていない場合はフロントエンドプール。</span><span class="sxs-lookup"><span data-stu-id="5b20a-127">External Web Services FQDN for your Director pool, if you have one, or for your Front End pool if you do not have a Director.</span></span></p></td>
+<td><p><span data-ttu-id="40417-125">CNAME</span><span class="sxs-lookup"><span data-stu-id="40417-125">CNAME</span></span></p></td>
+<td><p><span data-ttu-id="40417-126">lyncdiscover.&lt;microsoft.rtc.management.xds.sipdomain&gt;</span><span class="sxs-lookup"><span data-stu-id="40417-126">lyncdiscover.&lt;sipdomain&gt;</span></span></p></td>
+<td><p><span data-ttu-id="40417-127">ディレクターが存在しない場合は、ディレクタープールの外部 Web サービスの FQDN、またはディレクターを持っていない場合はフロントエンドプール。</span><span class="sxs-lookup"><span data-stu-id="40417-127">External Web Services FQDN for your Director pool, if you have one, or for your Front End pool if you do not have a Director.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5b20a-128">A (IPv6 の場合は host、AAAA の場合)</span><span class="sxs-lookup"><span data-stu-id="5b20a-128">A (host, if IPv6, AAAA)</span></span></p></td>
-<td><p><span data-ttu-id="5b20a-129">lyncdiscover.&lt;microsoft.rtc.management.xds.sipdomain&gt;</span><span class="sxs-lookup"><span data-stu-id="5b20a-129">lyncdiscover.&lt;sipdomain&gt;</span></span></p></td>
-<td><p><span data-ttu-id="5b20a-130">リバースプロキシの外部またはパブリック IP アドレス。</span><span class="sxs-lookup"><span data-stu-id="5b20a-130">External or public IP address of the reverse proxy.</span></span></p></td>
+<td><p><span data-ttu-id="40417-128">A (IPv6 の場合は host、AAAA の場合)</span><span class="sxs-lookup"><span data-stu-id="40417-128">A (host, if IPv6, AAAA)</span></span></p></td>
+<td><p><span data-ttu-id="40417-129">lyncdiscover.&lt;microsoft.rtc.management.xds.sipdomain&gt;</span><span class="sxs-lookup"><span data-stu-id="40417-129">lyncdiscover.&lt;sipdomain&gt;</span></span></p></td>
+<td><p><span data-ttu-id="40417-130">リバースプロキシの外部またはパブリック IP アドレス。</span><span class="sxs-lookup"><span data-stu-id="40417-130">External or public IP address of the reverse proxy.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -115,7 +115,7 @@ ms.locfileid: "42029578"
 
 
 > [!NOTE]  
-> <span data-ttu-id="5b20a-131">外部トラフィックはリバース プロキシを経由します。</span><span class="sxs-lookup"><span data-stu-id="5b20a-131">External traffic goes through the reverse proxy.</span></span>
+> <span data-ttu-id="40417-131">外部トラフィックはリバース プロキシを経由します。</span><span class="sxs-lookup"><span data-stu-id="40417-131">External traffic goes through the reverse proxy.</span></span>
 
 
 
@@ -125,7 +125,7 @@ ms.locfileid: "42029578"
 
 
 > [!NOTE]  
-> <span data-ttu-id="5b20a-132">モバイル デバイスのクライアントでは、異なるドメインからの複数の SSL (Secure Sockets Layer) 証明書がサポートされません。</span><span class="sxs-lookup"><span data-stu-id="5b20a-132">Mobile device clients do not support multiple Secure Sockets Layer (SSL) certificates from different domains.</span></span> <span data-ttu-id="5b20a-133">つまり、HTTPS では、異なるドメインへの CNAME のリダイレクトがサポートされません。</span><span class="sxs-lookup"><span data-stu-id="5b20a-133">Therefore, CNAME redirection to different domains is not supported over HTTPS.</span></span> <span data-ttu-id="5b20a-134">たとえば、director.contoso.net のアドレスにリダイレクトされる lyncdiscover.contoso.com の DNS CNAME レコードは、HTTPS ではサポートされません。</span><span class="sxs-lookup"><span data-stu-id="5b20a-134">For example, a DNS CNAME record for lyncdiscover.contoso.com that redirects to an address of director.contoso.net is not supported over HTTPS.</span></span> <span data-ttu-id="5b20a-135">このようなトポロジでは、CNAME のリダイレクトが HTTP で解決されるように、モバイル デバイスのクライアントは、最初の要求に対して HTTP を使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="5b20a-135">In such a topology, a mobile device client needs to use HTTP for the first request, so that the CNAME redirection is resolved over HTTP.</span></span> <span data-ttu-id="5b20a-136">その後、以降の要求については HTTPS を使用します。</span><span class="sxs-lookup"><span data-stu-id="5b20a-136">Subsequent requests then use HTTPS.</span></span> <span data-ttu-id="5b20a-137">このシナリオをサポートするには、ポート 80 (HTTP) の Web 公開ルールを使用して、リバース プロキシを構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="5b20a-137">To support this scenario, you need to configure your reverse proxy with a web publishing rule for port 80 (HTTP).</span></span> <span data-ttu-id="5b20a-138">詳細については、「 <A href="lync-server-2013-configuring-the-reverse-proxy-for-mobility.md">Lync Server 2013 でモビリティのリバースプロキシを構成</A>する」の「ポート80の web 公開ルールを作成するには」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="5b20a-138">For details, see "To create a web publishing rule for port 80" in <A href="lync-server-2013-configuring-the-reverse-proxy-for-mobility.md">Configuring the reverse proxy for mobility in Lync Server 2013</A>.</span></span> <span data-ttu-id="5b20a-139">HTTPS では、同じドメインへの CNAME のリダイレクトはサポートされます。</span><span class="sxs-lookup"><span data-stu-id="5b20a-139">CNAME redirection to the same domain is supported over HTTPS.</span></span> <span data-ttu-id="5b20a-140">この例では、宛先ドメインの証明書が元のドメインを対象としています。</span><span class="sxs-lookup"><span data-stu-id="5b20a-140">In this case, the destination domain's certificate covers the originating domain.</span></span>
+> <span data-ttu-id="40417-132">モバイル デバイスのクライアントでは、異なるドメインからの複数の SSL (Secure Sockets Layer) 証明書がサポートされません。</span><span class="sxs-lookup"><span data-stu-id="40417-132">Mobile device clients do not support multiple Secure Sockets Layer (SSL) certificates from different domains.</span></span> <span data-ttu-id="40417-133">つまり、HTTPS では、異なるドメインへの CNAME のリダイレクトがサポートされません。</span><span class="sxs-lookup"><span data-stu-id="40417-133">Therefore, CNAME redirection to different domains is not supported over HTTPS.</span></span> <span data-ttu-id="40417-134">たとえば、director.contoso.net のアドレスにリダイレクトされる lyncdiscover.contoso.com の DNS CNAME レコードは、HTTPS ではサポートされません。</span><span class="sxs-lookup"><span data-stu-id="40417-134">For example, a DNS CNAME record for lyncdiscover.contoso.com that redirects to an address of director.contoso.net is not supported over HTTPS.</span></span> <span data-ttu-id="40417-135">このようなトポロジでは、CNAME のリダイレクトが HTTP で解決されるように、モバイル デバイスのクライアントは、最初の要求に対して HTTP を使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="40417-135">In such a topology, a mobile device client needs to use HTTP for the first request, so that the CNAME redirection is resolved over HTTP.</span></span> <span data-ttu-id="40417-136">その後、以降の要求については HTTPS を使用します。</span><span class="sxs-lookup"><span data-stu-id="40417-136">Subsequent requests then use HTTPS.</span></span> <span data-ttu-id="40417-137">このシナリオをサポートするには、ポート 80 (HTTP) の Web 公開ルールを使用して、リバース プロキシを構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="40417-137">To support this scenario, you need to configure your reverse proxy with a web publishing rule for port 80 (HTTP).</span></span> <span data-ttu-id="40417-138">詳細については、「 <A href="lync-server-2013-configuring-the-reverse-proxy-for-mobility.md">Lync Server 2013 でモビリティのリバースプロキシを構成</A>する」の「ポート80の web 公開ルールを作成するには」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="40417-138">For details, see "To create a web publishing rule for port 80" in <A href="lync-server-2013-configuring-the-reverse-proxy-for-mobility.md">Configuring the reverse proxy for mobility in Lync Server 2013</A>.</span></span> <span data-ttu-id="40417-139">HTTPS では、同じドメインへの CNAME のリダイレクトはサポートされます。</span><span class="sxs-lookup"><span data-stu-id="40417-139">CNAME redirection to the same domain is supported over HTTPS.</span></span> <span data-ttu-id="40417-140">この例では、宛先ドメインの証明書が元のドメインを対象としています。</span><span class="sxs-lookup"><span data-stu-id="40417-140">In this case, the destination domain's certificate covers the originating domain.</span></span>
 
 
 
@@ -133,13 +133,13 @@ ms.locfileid: "42029578"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="5b20a-141">関連項目</span><span class="sxs-lookup"><span data-stu-id="5b20a-141">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="40417-141">関連項目</span><span class="sxs-lookup"><span data-stu-id="40417-141">See Also</span></span>
 
 
-[<span data-ttu-id="5b20a-142">Lync Server 2013 でのモビリティのリバースプロキシの構成</span><span class="sxs-lookup"><span data-stu-id="5b20a-142">Configuring the reverse proxy for mobility in Lync Server 2013</span></span>](lync-server-2013-configuring-the-reverse-proxy-for-mobility.md)  
+[<span data-ttu-id="40417-142">Lync Server 2013 でのモビリティのリバースプロキシの構成</span><span class="sxs-lookup"><span data-stu-id="40417-142">Configuring the reverse proxy for mobility in Lync Server 2013</span></span>](lync-server-2013-configuring-the-reverse-proxy-for-mobility.md)  
 
 
-[<span data-ttu-id="5b20a-143">証明書の概要-Lync Server 2013 での自動検出</span><span class="sxs-lookup"><span data-stu-id="5b20a-143">Certificate summary - Autodiscover in Lync Server 2013</span></span>](lync-server-2013-certificate-summary-autodiscover.md)  
+[<span data-ttu-id="40417-143">証明書の概要-Lync Server 2013 での自動検出</span><span class="sxs-lookup"><span data-stu-id="40417-143">Certificate summary - Autodiscover in Lync Server 2013</span></span>](lync-server-2013-certificate-summary-autodiscover.md)  
   
 
 </div>

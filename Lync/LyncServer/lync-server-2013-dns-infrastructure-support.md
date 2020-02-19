@@ -12,20 +12,20 @@ ms:contentKeyID: 48183878
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 190e0160532ca0ac26ce4f818f260848ea68f0a1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e5ede9d6af8c9f912a207c602c225c19c3dd1f38
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42034809"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135113"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-infrastructure-support-in-lync-server-2013"></a><span data-ttu-id="9252f-102">Lync Server 2013 での DNS インフラストラクチャのサポート</span><span class="sxs-lookup"><span data-stu-id="9252f-102">DNS infrastructure support in Lync Server 2013</span></span>
+# <a name="dns-infrastructure-support-in-lync-server-2013"></a><span data-ttu-id="2300b-102">Lync Server 2013 での DNS インフラストラクチャのサポート</span><span class="sxs-lookup"><span data-stu-id="2300b-102">DNS infrastructure support in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "42034809"
 
 <span> </span>
 
-<span data-ttu-id="9252f-103">_**トピックの最終更新日:** 2013-03-08_</span><span class="sxs-lookup"><span data-stu-id="9252f-103">_**Topic Last Modified:** 2013-03-08_</span></span>
+<span data-ttu-id="2300b-103">_**トピックの最終更新日:** 2013-03-08_</span><span class="sxs-lookup"><span data-stu-id="2300b-103">_**Topic Last Modified:** 2013-03-08_</span></span>
 
-<span data-ttu-id="9252f-104">Lync Server 2013 にはドメインネームシステム (DNS) が必要であり、次の方法で使用されます。</span><span class="sxs-lookup"><span data-stu-id="9252f-104">Lync Server 2013 requires Domain Name System (DNS) and uses it in the following ways:</span></span>
+<span data-ttu-id="2300b-104">Lync Server 2013 にはドメインネームシステム (DNS) が必要であり、次の方法で使用されます。</span><span class="sxs-lookup"><span data-stu-id="2300b-104">Lync Server 2013 requires Domain Name System (DNS) and uses it in the following ways:</span></span>
 
-  - <span data-ttu-id="9252f-105">サーバー間通信用の内部のサーバーまたはプールを検出する。</span><span class="sxs-lookup"><span data-stu-id="9252f-105">To discover internal servers or pools for server-to-server communications.</span></span>
+  - <span data-ttu-id="2300b-105">サーバー間通信用の内部のサーバーまたはプールを検出する。</span><span class="sxs-lookup"><span data-stu-id="2300b-105">To discover internal servers or pools for server-to-server communications.</span></span>
 
-  - <span data-ttu-id="9252f-106">クライアントによる、さまざまな SIP トランザクションに使用されるフロントエンド プールまたは Standard Edition サーバーの検出を有効にする。</span><span class="sxs-lookup"><span data-stu-id="9252f-106">To enable clients to discover the Front End pool or Standard Edition server used for various SIP transactions.</span></span>
+  - <span data-ttu-id="2300b-106">クライアントによる、さまざまな SIP トランザクションに使用されるフロントエンド プールまたは Standard Edition サーバーの検出を有効にする。</span><span class="sxs-lookup"><span data-stu-id="2300b-106">To enable clients to discover the Front End pool or Standard Edition server used for various SIP transactions.</span></span>
 
-  - <span data-ttu-id="9252f-107">会議用の簡易 URL をこれらの会議をホストするサーバーに関連付ける。</span><span class="sxs-lookup"><span data-stu-id="9252f-107">To associate the simple URLs for conferences with the servers hosting those conferences.</span></span>
+  - <span data-ttu-id="2300b-107">会議用の簡易 URL をこれらの会議をホストするサーバーに関連付ける。</span><span class="sxs-lookup"><span data-stu-id="2300b-107">To associate the simple URLs for conferences with the servers hosting those conferences.</span></span>
 
-  - <span data-ttu-id="9252f-108">外部のサーバーおよびクライアントによる、インスタント メッセージング (IM) または会議用のエッジ サーバーまたは HTTP リバース プロキシへの接続を有効にする。</span><span class="sxs-lookup"><span data-stu-id="9252f-108">To enable external servers and clients to connect to Edge Servers or the HTTP reverse proxy for instant messaging (IM) or conferencing.</span></span>
+  - <span data-ttu-id="2300b-108">外部のサーバーおよびクライアントによる、インスタント メッセージング (IM) または会議用のエッジ サーバーまたは HTTP リバース プロキシへの接続を有効にする。</span><span class="sxs-lookup"><span data-stu-id="2300b-108">To enable external servers and clients to connect to Edge Servers or the HTTP reverse proxy for instant messaging (IM) or conferencing.</span></span>
 
-  - <span data-ttu-id="9252f-109">ログインされていない統合コミュニケーション (UC) デバイスによる、デバイス更新 Web サービスを実行しているフロントエンド プールまたは Standard Edition サーバーの検出、更新プログラムの取得、およびログの送信を有効にする。</span><span class="sxs-lookup"><span data-stu-id="9252f-109">To enable unified communications (UC) devices that are not logged in to discover the Front End pool or Standard Edition server running Device Update Web service, obtain updates, and send logs.</span></span>
+  - <span data-ttu-id="2300b-109">ログインされていない統合コミュニケーション (UC) デバイスによる、デバイス更新 Web サービスを実行しているフロントエンド プールまたは Standard Edition サーバーの検出、更新プログラムの取得、およびログの送信を有効にする。</span><span class="sxs-lookup"><span data-stu-id="2300b-109">To enable unified communications (UC) devices that are not logged in to discover the Front End pool or Standard Edition server running Device Update Web service, obtain updates, and send logs.</span></span>
 
-  - <span data-ttu-id="9252f-110">モバイル クライアントによる、ユーザーがデバイスの設定で URL を手動で入力する必要がない、Web サービス リソースの自動検出を有効にする。</span><span class="sxs-lookup"><span data-stu-id="9252f-110">To enable mobile clients to automatically discover Web Services resources without requiring users to manually enter URLs in device settings.</span></span>
+  - <span data-ttu-id="2300b-110">モバイル クライアントによる、ユーザーがデバイスの設定で URL を手動で入力する必要がない、Web サービス リソースの自動検出を有効にする。</span><span class="sxs-lookup"><span data-stu-id="2300b-110">To enable mobile clients to automatically discover Web Services resources without requiring users to manually enter URLs in device settings.</span></span>
 
-  - <span data-ttu-id="9252f-111">DNS 負荷分散のため。</span><span class="sxs-lookup"><span data-stu-id="9252f-111">For DNS load balancing.</span></span>
+  - <span data-ttu-id="2300b-111">DNS 負荷分散のため。</span><span class="sxs-lookup"><span data-stu-id="2300b-111">For DNS load balancing.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="9252f-112">Lync Server 2013 は、国際化ドメイン名 (Idn) をサポートしていません。</span><span class="sxs-lookup"><span data-stu-id="9252f-112">Lync Server 2013 does not support internationalized domain names (IDNs).</span></span>
+> <span data-ttu-id="2300b-112">Lync Server 2013 は、国際化ドメイン名 (Idn) をサポートしていません。</span><span class="sxs-lookup"><span data-stu-id="2300b-112">Lync Server 2013 does not support internationalized domain names (IDNs).</span></span>
 
 
 
@@ -67,7 +67,7 @@ ms.locfileid: "42034809"
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="9252f-113">指定する名前が、サーバーに構成されているコンピューター名と同じである必要があります。</span><span class="sxs-lookup"><span data-stu-id="9252f-113">The name you specify must be identical to the computer name configured on the server.</span></span> <span data-ttu-id="9252f-114">既定では、ドメインに参加していないコンピューターのコンピューター名は、完全修飾ドメイン名 (FQDN) ではなく短い名前です。</span><span class="sxs-lookup"><span data-stu-id="9252f-114">By default, the computer name of a computer that is not joined to a domain is a short name, not a fully qualified domain name (FQDN).</span></span> <span data-ttu-id="9252f-115">トポロジ ビルダーでは、短い名前ではなく FQDN を使用します。</span><span class="sxs-lookup"><span data-stu-id="9252f-115">Topology Builder uses FQDNs, not short names.</span></span> <span data-ttu-id="9252f-116">そのため、エッジ サーバーとして展開する、ドメインに参加していないコンピューターの名前には、DNS サフィックスを構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="9252f-116">So, you must configure a DNS suffix on the name of the computer to be deployed as an Edge Server that is not joined to a domain.</span></span> <span data-ttu-id="9252f-117">Lync Server、エッジ サーバー、およびプールの FQDN を割り当てる場合に使用できる文字は、<STRONG>標準文字のみ</STRONG> (A ～ Z、a ～ z、0 ～ 9、およびハイフン) です。</span><span class="sxs-lookup"><span data-stu-id="9252f-117"><STRONG>Use only standard characters</STRONG> (including A–Z, a–z, 0–9, and hyphens) when assigning FQDNs of your Lync Servers, Edge Servers, and pools.</span></span> <span data-ttu-id="9252f-118">Unicode 文字およびアンダースコアは使用しないでください。</span><span class="sxs-lookup"><span data-stu-id="9252f-118">Do not use Unicode characters or underscores.</span></span> <span data-ttu-id="9252f-119">一般に、外部 DNS および公的 CA では、FQDN に非標準文字はサポートされていません (証明書で FQDN を SN に割り当てることが必要になります)。</span><span class="sxs-lookup"><span data-stu-id="9252f-119">Nonstandard characters in an FQDN are often not supported by external DNS and public CAs (that is, when the FQDN must be assigned to the SN in the certificate).</span></span>
+> <span data-ttu-id="2300b-113">指定する名前が、サーバーに構成されているコンピューター名と同じである必要があります。</span><span class="sxs-lookup"><span data-stu-id="2300b-113">The name you specify must be identical to the computer name configured on the server.</span></span> <span data-ttu-id="2300b-114">既定では、ドメインに参加していないコンピューターのコンピューター名は、完全修飾ドメイン名 (FQDN) ではなく短い名前です。</span><span class="sxs-lookup"><span data-stu-id="2300b-114">By default, the computer name of a computer that is not joined to a domain is a short name, not a fully qualified domain name (FQDN).</span></span> <span data-ttu-id="2300b-115">トポロジ ビルダーでは、短い名前ではなく FQDN を使用します。</span><span class="sxs-lookup"><span data-stu-id="2300b-115">Topology Builder uses FQDNs, not short names.</span></span> <span data-ttu-id="2300b-116">そのため、エッジ サーバーとして展開する、ドメインに参加していないコンピューターの名前には、DNS サフィックスを構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="2300b-116">So, you must configure a DNS suffix on the name of the computer to be deployed as an Edge Server that is not joined to a domain.</span></span> <span data-ttu-id="2300b-117">Lync Server、エッジ サーバー、およびプールの FQDN を割り当てる場合に使用できる文字は、<STRONG>標準文字のみ</STRONG> (A ～ Z、a ～ z、0 ～ 9、およびハイフン) です。</span><span class="sxs-lookup"><span data-stu-id="2300b-117"><STRONG>Use only standard characters</STRONG> (including A–Z, a–z, 0–9, and hyphens) when assigning FQDNs of your Lync Servers, Edge Servers, and pools.</span></span> <span data-ttu-id="2300b-118">Unicode 文字およびアンダースコアは使用しないでください。</span><span class="sxs-lookup"><span data-stu-id="2300b-118">Do not use Unicode characters or underscores.</span></span> <span data-ttu-id="2300b-119">一般に、外部 DNS および公的 CA では、FQDN に非標準文字はサポートされていません (証明書で FQDN を SN に割り当てることが必要になります)。</span><span class="sxs-lookup"><span data-stu-id="2300b-119">Nonstandard characters in an FQDN are often not supported by external DNS and public CAs (that is, when the FQDN must be assigned to the SN in the certificate).</span></span>
 
 
 

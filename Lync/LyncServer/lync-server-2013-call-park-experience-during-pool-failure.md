@@ -12,20 +12,20 @@ ms:contentKeyID: 48185831
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a89acc193f70ba5047a2f1c6362b957d182afdb5
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 61913ba4ccee86047bbed4d6454988d37081f5a3
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044319"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134853"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="call-park-experience-in-lync-server-2013-during-pool-failure"></a><span data-ttu-id="87027-102">プール障害発生時の Lync Server 2013 でのコールパークの動作</span><span class="sxs-lookup"><span data-stu-id="87027-102">Call Park experience in Lync Server 2013 during pool failure</span></span>
+# <a name="call-park-experience-in-lync-server-2013-during-pool-failure"></a><span data-ttu-id="118b5-102">プール障害発生時の Lync Server 2013 でのコールパークの動作</span><span class="sxs-lookup"><span data-stu-id="118b5-102">Call Park experience in Lync Server 2013 during pool failure</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42044319"
 
 <span> </span>
 
-<span data-ttu-id="87027-103">_**トピックの最終更新日:** 2012-09-10_</span><span class="sxs-lookup"><span data-stu-id="87027-103">_**Topic Last Modified:** 2012-09-10_</span></span>
+<span data-ttu-id="118b5-103">_**トピックの最終更新日:** 2012-09-10_</span><span class="sxs-lookup"><span data-stu-id="118b5-103">_**Topic Last Modified:** 2012-09-10_</span></span>
 
-<span data-ttu-id="87027-104">予期しないインシデントが発生したためにフロントエンドプールが使用できなくなった場合、保留されたがまだ取得されていない呼び出しは切断されます。</span><span class="sxs-lookup"><span data-stu-id="87027-104">When a Front End pool becomes unavailable due an unplanned incident, calls that have been parked but not yet retrieved are disconnected.</span></span> <span data-ttu-id="87027-105">バックアッププールへのフェールオーバー中、ユーザーはバックアッププールにリダイレクトされ、復元モードになります。</span><span class="sxs-lookup"><span data-stu-id="87027-105">During failover to a backup pool, users are redirected to the backup pool and are in resiliency mode.</span></span> <span data-ttu-id="87027-106">復元モードでは、ユーザーは通話をパークできませんが、通話を保留にして転送することができます。</span><span class="sxs-lookup"><span data-stu-id="87027-106">While in resiliency mode, users cannot park calls, but they can place calls on hold and transfer them.</span></span> <span data-ttu-id="87027-107">フェールオーバーが完了すると、通常どおりに通話を保留して取得することができます。</span><span class="sxs-lookup"><span data-stu-id="87027-107">When failover is complete, calls can again be parked and retrieved as usual.</span></span> <span data-ttu-id="87027-108">フェールバック時に、ユーザーは復元モードが解除されるまで通話をパークできません。</span><span class="sxs-lookup"><span data-stu-id="87027-108">During failback, users cannot park calls until they are out of resiliency mode.</span></span>
+<span data-ttu-id="118b5-104">予期しないインシデントが発生したためにフロントエンドプールが使用できなくなった場合、保留されたがまだ取得されていない呼び出しは切断されます。</span><span class="sxs-lookup"><span data-stu-id="118b5-104">When a Front End pool becomes unavailable due an unplanned incident, calls that have been parked but not yet retrieved are disconnected.</span></span> <span data-ttu-id="118b5-105">バックアッププールへのフェールオーバー中、ユーザーはバックアッププールにリダイレクトされ、復元モードになります。</span><span class="sxs-lookup"><span data-stu-id="118b5-105">During failover to a backup pool, users are redirected to the backup pool and are in resiliency mode.</span></span> <span data-ttu-id="118b5-106">復元モードでは、ユーザーは通話をパークできませんが、通話を保留にして転送することができます。</span><span class="sxs-lookup"><span data-stu-id="118b5-106">While in resiliency mode, users cannot park calls, but they can place calls on hold and transfer them.</span></span> <span data-ttu-id="118b5-107">フェールオーバーが完了すると、通常どおりに通話を保留して取得することができます。</span><span class="sxs-lookup"><span data-stu-id="118b5-107">When failover is complete, calls can again be parked and retrieved as usual.</span></span> <span data-ttu-id="118b5-108">フェールバック時に、ユーザーは復元モードが解除されるまで通話をパークできません。</span><span class="sxs-lookup"><span data-stu-id="118b5-108">During failback, users cannot park calls until they are out of resiliency mode.</span></span>
 
-<span data-ttu-id="87027-109">障害復旧時に、フェールオーバープロセスの一環としてバックアッププールにリダイレクトされたユーザーは、バックアッププールに展開されているコールパークアプリケーションを使用します。</span><span class="sxs-lookup"><span data-stu-id="87027-109">During disaster recovery, users who have been redirected to the backup pool as part of the failover process use the Call Park application that is deployed in the backup pool.</span></span> <span data-ttu-id="87027-110">そのため、バックアッププールにリダイレクトされたユーザーは、バックアッププールのコールパークアプリケーションに対して構成されているコールパーク設定を使用します。</span><span class="sxs-lookup"><span data-stu-id="87027-110">Therefore, users who are redirected to the backup pool use the call park settings that are configured for the Call Park application in the backup pool.</span></span>
+<span data-ttu-id="118b5-109">障害復旧時に、フェールオーバープロセスの一環としてバックアッププールにリダイレクトされたユーザーは、バックアッププールに展開されているコールパークアプリケーションを使用します。</span><span class="sxs-lookup"><span data-stu-id="118b5-109">During disaster recovery, users who have been redirected to the backup pool as part of the failover process use the Call Park application that is deployed in the backup pool.</span></span> <span data-ttu-id="118b5-110">そのため、バックアッププールにリダイレクトされたユーザーは、バックアッププールのコールパークアプリケーションに対して構成されているコールパーク設定を使用します。</span><span class="sxs-lookup"><span data-stu-id="118b5-110">Therefore, users who are redirected to the backup pool use the call park settings that are configured for the Call Park application in the backup pool.</span></span>
 
-<span data-ttu-id="87027-111">次の表では、障害復旧のフェーズを通じてコールパークの使用状況を要約しています。</span><span class="sxs-lookup"><span data-stu-id="87027-111">The following table summarizes the Call Park experience through the phases of disaster recovery.</span></span>
+<span data-ttu-id="118b5-111">次の表では、障害復旧のフェーズを通じてコールパークの使用状況を要約しています。</span><span class="sxs-lookup"><span data-stu-id="118b5-111">The following table summarizes the Call Park experience through the phases of disaster recovery.</span></span>
 
-### <a name="user-experience-during-disaster-recovery"></a><span data-ttu-id="87027-112">障害復旧時のユーザーの利便性</span><span class="sxs-lookup"><span data-stu-id="87027-112">User Experience During Disaster Recovery</span></span>
+### <a name="user-experience-during-disaster-recovery"></a><span data-ttu-id="118b5-112">障害復旧時のユーザーの利便性</span><span class="sxs-lookup"><span data-stu-id="118b5-112">User Experience During Disaster Recovery</span></span>
 
 <table>
 <colgroup>
@@ -54,36 +54,36 @@ ms.locfileid: "42044319"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="87027-113">呼び出しの状態</span><span class="sxs-lookup"><span data-stu-id="87027-113">Call state</span></span></th>
-<th><span data-ttu-id="87027-114">停止が発生した場合</span><span class="sxs-lookup"><span data-stu-id="87027-114">When outage occurs</span></span></th>
-<th><span data-ttu-id="87027-115">フェールオーバー中</span><span class="sxs-lookup"><span data-stu-id="87027-115">During failover</span></span></th>
-<th><span data-ttu-id="87027-116">フェールバック中</span><span class="sxs-lookup"><span data-stu-id="87027-116">During failback</span></span></th>
+<th><span data-ttu-id="118b5-113">呼び出しの状態</span><span class="sxs-lookup"><span data-stu-id="118b5-113">Call state</span></span></th>
+<th><span data-ttu-id="118b5-114">停止が発生した場合</span><span class="sxs-lookup"><span data-stu-id="118b5-114">When outage occurs</span></span></th>
+<th><span data-ttu-id="118b5-115">フェールオーバー中</span><span class="sxs-lookup"><span data-stu-id="118b5-115">During failover</span></span></th>
+<th><span data-ttu-id="118b5-116">フェールバック中</span><span class="sxs-lookup"><span data-stu-id="118b5-116">During failback</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="87027-117">通話はまだパークされていません</span><span class="sxs-lookup"><span data-stu-id="87027-117">Call not yet parked</span></span></p></td>
-<td><p><span data-ttu-id="87027-118">通話は接続されたままですが、パークすることはできません。</span><span class="sxs-lookup"><span data-stu-id="87027-118">Call remains connected, but cannot be parked.</span></span></p></td>
+<td><p><span data-ttu-id="118b5-117">通話はまだパークされていません</span><span class="sxs-lookup"><span data-stu-id="118b5-117">Call not yet parked</span></span></p></td>
+<td><p><span data-ttu-id="118b5-118">通話は接続されたままですが、パークすることはできません。</span><span class="sxs-lookup"><span data-stu-id="118b5-118">Call remains connected, but cannot be parked.</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="87027-119">フェールオーバー中は、ユーザーが復元モードの間は通話をパークすることはできませんが、通話を保留および転送することはできます。</span><span class="sxs-lookup"><span data-stu-id="87027-119">During failover, call cannot be parked while users are in resiliency mode, but can be put on hold and transferred.</span></span></p></li>
-<li><p><span data-ttu-id="87027-120">フェールオーバーが完了すると、通話をパークおよび取得できます。</span><span class="sxs-lookup"><span data-stu-id="87027-120">When failover completes, call can be parked and retrieved.</span></span></p></li>
+<li><p><span data-ttu-id="118b5-119">フェールオーバー中は、ユーザーが復元モードの間は通話をパークすることはできませんが、通話を保留および転送することはできます。</span><span class="sxs-lookup"><span data-stu-id="118b5-119">During failover, call cannot be parked while users are in resiliency mode, but can be put on hold and transferred.</span></span></p></li>
+<li><p><span data-ttu-id="118b5-120">フェールオーバーが完了すると、通話をパークおよび取得できます。</span><span class="sxs-lookup"><span data-stu-id="118b5-120">When failover completes, call can be parked and retrieved.</span></span></p></li>
 </ul></td>
 <td><ul>
-<li><p><span data-ttu-id="87027-121">フェールバック時に、ユーザーが復元モードの間は通話を保留することはできませんが、保留にして転送することはできます。</span><span class="sxs-lookup"><span data-stu-id="87027-121">During failback, call cannot be parked while users are in resiliency mode, but can be put on hold and transferred.</span></span></p></li>
-<li><p><span data-ttu-id="87027-122">フェールバックが完了すると、通話をパークおよび取得できます。</span><span class="sxs-lookup"><span data-stu-id="87027-122">When failback completes, call can be parked and retrieved.</span></span></p></li>
+<li><p><span data-ttu-id="118b5-121">フェールバック時に、ユーザーが復元モードの間は通話を保留することはできませんが、保留にして転送することはできます。</span><span class="sxs-lookup"><span data-stu-id="118b5-121">During failback, call cannot be parked while users are in resiliency mode, but can be put on hold and transferred.</span></span></p></li>
+<li><p><span data-ttu-id="118b5-122">フェールバックが完了すると、通話をパークおよび取得できます。</span><span class="sxs-lookup"><span data-stu-id="118b5-122">When failback completes, call can be parked and retrieved.</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="87027-123">コールパーク (まだ取得されていない)</span><span class="sxs-lookup"><span data-stu-id="87027-123">Call parked, but not yet retrieved</span></span></p></td>
-<td><p><span data-ttu-id="87027-124">通話は切断されます。</span><span class="sxs-lookup"><span data-stu-id="87027-124">Call is disconnected.</span></span></p></td>
-<td><p><span data-ttu-id="87027-125">この状態の通話はありません。</span><span class="sxs-lookup"><span data-stu-id="87027-125">No calls in this state.</span></span></p></td>
-<td><p><span data-ttu-id="87027-126">通話は保留中のままになります。</span><span class="sxs-lookup"><span data-stu-id="87027-126">Call remains parked.</span></span></p></td>
+<td><p><span data-ttu-id="118b5-123">コールパーク (まだ取得されていない)</span><span class="sxs-lookup"><span data-stu-id="118b5-123">Call parked, but not yet retrieved</span></span></p></td>
+<td><p><span data-ttu-id="118b5-124">通話は切断されます。</span><span class="sxs-lookup"><span data-stu-id="118b5-124">Call is disconnected.</span></span></p></td>
+<td><p><span data-ttu-id="118b5-125">この状態の通話はありません。</span><span class="sxs-lookup"><span data-stu-id="118b5-125">No calls in this state.</span></span></p></td>
+<td><p><span data-ttu-id="118b5-126">通話は保留中のままになります。</span><span class="sxs-lookup"><span data-stu-id="118b5-126">Call remains parked.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="87027-127">既に取得された保留中の通話</span><span class="sxs-lookup"><span data-stu-id="87027-127">Parked call already retrieved</span></span></p></td>
-<td><p><span data-ttu-id="87027-128">通話は接続されたままです。</span><span class="sxs-lookup"><span data-stu-id="87027-128">Call remains connected.</span></span></p></td>
-<td><p><span data-ttu-id="87027-129">通話は接続されたままです。</span><span class="sxs-lookup"><span data-stu-id="87027-129">Call remains connected.</span></span></p></td>
-<td><p><span data-ttu-id="87027-130">通話は接続されたままです。</span><span class="sxs-lookup"><span data-stu-id="87027-130">Call remains connected.</span></span></p></td>
+<td><p><span data-ttu-id="118b5-127">既に取得された保留中の通話</span><span class="sxs-lookup"><span data-stu-id="118b5-127">Parked call already retrieved</span></span></p></td>
+<td><p><span data-ttu-id="118b5-128">通話は接続されたままです。</span><span class="sxs-lookup"><span data-stu-id="118b5-128">Call remains connected.</span></span></p></td>
+<td><p><span data-ttu-id="118b5-129">通話は接続されたままです。</span><span class="sxs-lookup"><span data-stu-id="118b5-129">Call remains connected.</span></span></p></td>
+<td><p><span data-ttu-id="118b5-130">通話は接続されたままです。</span><span class="sxs-lookup"><span data-stu-id="118b5-130">Call remains connected.</span></span></p></td>
 </tr>
 </tbody>
 </table>
