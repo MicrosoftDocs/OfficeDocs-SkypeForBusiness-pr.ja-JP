@@ -12,18 +12,18 @@ ms:contentKeyID: 48183681
 ms.date: 01/15/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ddaf4d5c8d85adfd7d69955df20ab6018966845b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e86fbe2c8ac007f81743bd5a5be105421767089e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037889"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135644"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="accessibility-in-lync-server-2013"></a>Lync Server 2013 でのアクセシビリティ
 
@@ -49,7 +49,7 @@ Lync Server 2013 の次の機能を使用すると、障碍のある方がアク
 
   - 図の代替テキスト
 
-また、Windows のユーザー補助機能とツールの中には、Lync Server ユーザーに障害が発生する利点があります。 Windows PowerShell のサイズと色の変更によって、Lync Server 管理シェルを使用する場合のユーザー補助オプションが提供されます。 Windows PowerShell のユーザー補助オプションの詳細については、TechNet ライブラリの「Windows PowerShell 2.0 で[http://go.microsoft.com/fwlink/p/?linkId=98964](http://go.microsoft.com/fwlink/p/?linkid=98964)のアクセシビリティ」を参照してください。
+また、Windows のユーザー補助機能とツールの中には、Lync Server ユーザーに障害が発生する利点があります。 Windows PowerShell のサイズと色の変更によって、Lync Server 管理シェルを使用する場合のユーザー補助オプションが提供されます。 Windows PowerShell のユーザー補助オプションの詳細については、TechNet ライブラリの「Windows PowerShell 2.0 で[https://go.microsoft.com/fwlink/p/?linkId=98964](https://go.microsoft.com/fwlink/p/?linkid=98964)のアクセシビリティ」を参照してください。
 
 </div>
 
@@ -156,7 +156,7 @@ Lync Server 2013 のヘルプのすべての図には、スクリーンショッ
 
 
 > [!NOTE]  
-> ここに記載されている情報は、米国内で Microsoft 製品のライセンスを取得しているユーザーのみが対象となります。 この製品を米国外で購入した場合は、ソフトウェアパッケージに付属の子会社情報カードを使用するか、microsoft アクセシビリティ web サイト<A href="http://go.microsoft.com/fwlink/p/?linkid=18139">http://go.microsoft.com/fwlink/p/?linkId=18139</A>にアクセスして、microsoft サポートサービスの電話番号と住所の一覧を参照できます。 ここで説明する種類の製品やサービスがお住まいの地域で利用できるかどうかについては、お近くの子会社に問い合わせてください。 マイクロソフト製品に含まれているユーザー補助機能の詳細については、Web サイト「Accessibility in Microsoft Products」を参照してください。
+> ここに記載されている情報は、米国内で Microsoft 製品のライセンスを取得しているユーザーのみが対象となります。 この製品を米国外で購入した場合は、ソフトウェアパッケージに付属の子会社情報カードを使用するか、microsoft アクセシビリティ web サイト<A href="https://go.microsoft.com/fwlink/p/?linkid=18139">https://go.microsoft.com/fwlink/p/?linkId=18139</A>にアクセスして、microsoft サポートサービスの電話番号と住所の一覧を参照できます。 ここで説明する種類の製品やサービスがお住まいの地域で利用できるかどうかについては、お近くの子会社に問い合わせてください。 マイクロソフト製品に含まれているユーザー補助機能の詳細については、Web サイト「Accessibility in Microsoft Products」を参照してください。
 
 
 
@@ -166,13 +166,13 @@ Lync Server 2013 のヘルプのすべての図には、スクリーンショッ
 
 ## <a name="accessibility-features-of-windows"></a>Windows のユーザー補助機能
 
-Windows オペレーティング システムには、キーボード入力やマウスの使用が困難な方や、視覚や聴覚に障碍がある方に役立つ、ユーザー補助機能が多数組み込まれています。 これらの機能は、セットアップ中にインストールされます。 これらの機能の詳細については、「Windows ヘルプ[http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)または Microsoft アクセシビリティ」を参照してください。
+Windows オペレーティング システムには、キーボード入力やマウスの使用が困難な方や、視覚や聴覚に障碍がある方に役立つ、ユーザー補助機能が多数組み込まれています。 これらの機能は、セットアップ中にインストールされます。 これらの機能の詳細については、「Windows ヘルプ[https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139)または Microsoft アクセシビリティ」を参照してください。
 
   - **無料のステップバイステップチュートリアル**   Microsoft は、コンピューター上のユーザー補助のオプションと設定を調整するための詳細な手順を説明する一連のステップごとのチュートリアルを提供しています。 この情報は隣り合わせに表示されるため、マウス、キーボード、またはその組み合わせの使用方法がひとめでわかります。
     
-    Microsoft 製品のステップバイステップのチュートリアルについては、「Microsoft Accessibility [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)」を参照してください。
+    Microsoft 製品のステップバイステップのチュートリアルについては、「Microsoft Accessibility [https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139)」を参照してください。
 
-  - **Windows 用の支援技術製品**   には、障碍のある方のためにコンピューターを使いやすくするためのさまざまな支援技術製品が用意されています。 Microsoft アクセシビリティ web サイト上の Windows 上で実行されている支援技術製品のカタログ[http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)は、で検索できます。
+  - **Windows 用の支援技術製品**   には、障碍のある方のためにコンピューターを使いやすくするためのさまざまな支援技術製品が用意されています。 Microsoft アクセシビリティ web サイト上の Windows 上で実行されている支援技術製品のカタログ[https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139)は、で検索できます。
     
     補助テクノロジを使用する場合は、ソフトウェアまたはハードウェアをアップグレードする前に、互換性の問題がないかどうかを補助テクノロジ ベンダーにお問い合わせください。
 
@@ -182,7 +182,7 @@ Windows オペレーティング システムには、キーボード入力や�
 
 ## <a name="documentation-in-alternative-formats"></a>代替形式のドキュメント
 
-Microsoft 製品のドキュメントの多くは、印刷されたドキュメントが読みにくい、または扱いにくい方でも快適にご利用いただけるよう、さまざまな形態で入手できます。 アクセス可能な製品ドキュメントのインデックスは、Microsoft アクセシビリティ web サイトのから[http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)入手できます。
+Microsoft 製品のドキュメントの多くは、印刷されたドキュメントが読みにくい、または扱いにくい方でも快適にご利用いただけるよう、さまざまな形態で入手できます。 アクセス可能な製品ドキュメントのインデックスは、Microsoft アクセシビリティ web サイトのから[https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139)入手できます。
 
 さらに、ブラインド & Dyslexic (http://www.rfbd.org/http://www.rfbd.org/, Inc (RFB\&D) の記録から、その他の Microsoft の文書を入手することもできます。 RFB\&D は、これらのドキュメントを、配布サービスの登録済みの対象となるメンバーに配布します。 Microsoft プレスからの Microsoft 製品ドキュメントおよび書籍の入手については、RFB\&D を参照してください。
 
@@ -211,7 +211,7 @@ Microsoft 製品のドキュメントの多くは、印刷されたドキュメ�
 
 Microsoft は、障碍のある方を含むすべてのお客様に最適な経験を提供したいと考えています。 サポートが必要な場合は、ユーザー補助サポートチームに連絡してください。電話または電子メールで障碍のある方のためのトレーニングを受けることができます。
 
-[障碍応答デスクに連絡する](http://support.microsoft.com/gp/contact-microsoft-accessibility)
+[障碍応答デスクに連絡する](https://support.microsoft.com/gp/contact-microsoft-accessibility)
 
 直通電話回線: 1-800-936-5900
 
@@ -233,7 +233,7 @@ TTY: 1-800-892-5234
 
   - 米国内における技術サポートについては、祝日を除く月曜から金曜の午前 6 時から午後 6 時 (太平洋標準時) の間に Microsoft Product Support Services (電話: (800) 892-5234) までお問い合わせください。カナダの場合は、祝日を除く月曜から金曜の午前 8 時から午後 8 時の間に (905) 568-9641 までお問い合わせください。
 
-Microsoft のサポート サービスには、サービス利用時の料金、条項、および条件が適用されます。 詳細については、「 [http://go.microsoft.com/fwlink/p/?linkId=18142](http://go.microsoft.com/fwlink/p/?linkid=18142)Microsoft サポート」を参照してください。
+Microsoft のサポート サービスには、サービス利用時の料金、条項、および条件が適用されます。 詳細については、「 [https://go.microsoft.com/fwlink/p/?linkId=18142](https://go.microsoft.com/fwlink/p/?linkid=18142)Microsoft サポート」を参照してください。
 
 </div>
 
@@ -243,7 +243,7 @@ Microsoft のサポート サービスには、サービス利用時の料金、
 
 ## <a name="for-more-information"></a>関連情報
 
-障碍のある方がコンピューターの機能を向上させる方法については、「Microsoft Accessibility」 [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)を参照してください。
+障碍のある方がコンピューターの機能を向上させる方法については、「Microsoft Accessibility」 [https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139)を参照してください。
 
 </div>
 

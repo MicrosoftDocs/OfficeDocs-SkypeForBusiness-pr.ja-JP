@@ -12,18 +12,18 @@ ms:contentKeyID: 63969611
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0f18651cd75df62cf1d5f8c543d0e5c11361c7db
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 02747101523351823b8abfb85a58691323262ece
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42007426"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42115170"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="validating-address-book-access-in-lync-server-2013"></a>Lync Server 2013 でのアドレス帳へのアクセスの検証
 
@@ -74,7 +74,7 @@ Test-CsAddressBookService コマンドレットを使用すると、ユーザー
 
 ## <a name="running-the-test"></a>テストの実行
 
-Test-CsAddressBookService コマンドレットは、事前構成されたテストアカウント (「Lync Server テストを実行するためのテストアカウントの設定」を参照)、または Lync Server に対して有効になっているユーザーのアカウントのいずれかを使用して実行できます。 このチェックをテストアカウントを使用して実行するには、テストする Lync Server プールの完全修飾ドメイン名 (FQDN) を指定するだけです。 例:
+Test-CsAddressBookService コマンドレットは、事前構成されたテストアカウント (「Lync Server テストを実行するためのテストアカウントの設定」を参照)、または Lync Server に対して有効になっているユーザーのアカウントのいずれかを使用して実行できます。 このチェックをテストアカウントを使用して実行するには、テストする Lync Server プールの完全修飾ドメイン名 (FQDN) を指定するだけです。 次に例を示します。
 
     Test-CsAddressBookService -TargetFqdn "atl-cs-001.litwareinc.com"
 

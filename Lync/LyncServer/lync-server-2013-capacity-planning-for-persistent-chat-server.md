@@ -12,18 +12,18 @@ ms:contentKeyID: 48184580
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f20d297e1d127d167aa8acc059f5b6f89cc96d13
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d0cd27f961d3b4857cf13d5786897bd29a657851
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036507"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135564"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="capacity-planning-for-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013 の常設チャットサーバーの容量計画
 
@@ -41,7 +41,7 @@ _**トピックの最終更新日:** 2012-10-05_
 
 容量計画は、常設チャットサーバーを展開するための準備の重要な部分です。 このトピックでは、サポートされている常設チャットサーバートポロジと、展開に最適な構成を決定するために使用できる容量計画の表について詳しく説明します。 また、ピーク時により多くの容量を必要とする常設チャットサーバーの展開を最適に管理する方法についても説明します。
 
-常設チャットサーバーをダウンロードするには、「」の「Microsoft Lync Server 13 [http://go.microsoft.com/fwlink/p/?linkId=209539](http://go.microsoft.com/fwlink/p/?linkid=209539)常設チャットサーバー」を参照してください。
+常設チャットサーバーをダウンロードするには、「」の「Microsoft Lync Server 13 [https://go.microsoft.com/fwlink/p/?linkId=209539](https://go.microsoft.com/fwlink/p/?linkid=209539)常設チャットサーバー」を参照してください。
 
 常設チャットサーバーのインストールの詳細については、「展開」のドキュメントの「lync server [2013 での常設チャットサーバーのインストール](lync-server-2013-installing-persistent-chat-server.md)」および「 [lync server 2013 での常設チャットサーバーの構成](lync-server-2013-configuring-persistent-chat-server.md)」を参照してください。
 
@@ -212,21 +212,21 @@ Lync Server 計画ツールなどのサポート ツールは、容量計画の�
 <td><p>オープン ルーム数 (明示的なメンバーシップなし)</p></td>
 <td><p>960</p></td>
 <td><p>32</p></td>
-<td><p>5 </p></td>
+<td><p>5</p></td>
 <td><p>997</p></td>
 </tr>
 <tr class="even">
 <td><p>非オープン ルーム数 (明示的なメンバーシップがある通常のルーム)</p></td>
 <td><p>31040</p></td>
 <td><p>1.035</p></td>
-<td><p>5 </p></td>
+<td><p>5</p></td>
 <td><p>32080</p></td>
 </tr>
 <tr class="odd">
 <td><p>大会議室数 (追加の発表者エントリ)</p></td>
 <td><p>.0</p></td>
 <td><p>32</p></td>
-<td><p>5 </p></td>
+<td><p>5</p></td>
 <td></td>
 </tr>
 <tr class="even">
@@ -259,8 +259,8 @@ Lync Server 計画ツールなどのサポート ツールは、容量計画の�
 </tr>
 <tr class="even">
 <td><p>各チャット ルームのメンバーシップ一覧におけるユーザー グループ数 (非オープン ルーム)</p></td>
-<td><p>3 </p></td>
-<td><p>5 </p></td>
+<td><p>1/3</p></td>
+<td><p>5</p></td>
 <td><p>10 </p></td>
 <td></td>
 </tr>
@@ -515,7 +515,7 @@ Lync Server 計画ツールなどのサポート ツールは、容量計画の�
 <tr class="odd">
 <td><p>ユーザーあたりのチャット レート (1 日あたり)</p></td>
 <td><p>15 </p></td>
-<td><p>5 </p></td>
+<td><p>5</p></td>
 <td><p>0.1</p></td>
 <td><p>1280</p></td>
 </tr>
@@ -559,7 +559,7 @@ Lync Server 計画ツールなどのサポート ツールは、容量計画の�
 </tr>
 <tr class="even">
 <td><p>常設チャットサーバーサービスインスタンスの数</p></td>
-<td><p>4 </p></td>
+<td><p>2/4</p></td>
 </tr>
 <tr class="odd">
 <td><p>小規模チャット ルームのサイズ</p></td>
@@ -599,11 +599,11 @@ Lync Server 計画ツールなどのサポート ツールは、容量計画の�
 </tr>
 <tr class="even">
 <td><p>ユーザーあたりの中規模チャット ルームの数</p></td>
-<td><p>2 </p></td>
+<td><p>pbm-2</p></td>
 </tr>
 <tr class="odd">
 <td><p>ユーザーあたりの大規模チャット ルームの数</p></td>
-<td><p>2 </p></td>
+<td><p>pbm-2</p></td>
 </tr>
 <tr class="even">
 <td><p>ユーザーあたりの参加ルーム数</p></td>

@@ -12,18 +12,18 @@ ms:contentKeyID: 48184031
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3827bf913c4108c1105376a6f178598a2fb45a06
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 457702a4b237493beb8ca5dfe1e2d7ce9b3d2654
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41996652"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135534"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-client-bootstrapping-policies-in-lync-server-2013"></a>Lync Server 2013 でのクライアントブートストラップポリシーの構成
 
@@ -37,7 +37,7 @@ ms.locfileid: "41996652"
 
 _**トピックの最終更新日:** 2013-02-21_
 
-グループポリシー管理コンソール (GPMC) とグループポリシーオブジェクトエディタは、グループポリシーの管理に使用するツールです。 Office グループポリシー管理用テンプレートに含まれるのは、ドメイン内のグループポリシーオブジェクトに対して構成するレジストリベースのポリシー設定が含まれている Lync 2013 admx (ADMX) および adml (ADML) 管理用テンプレートです。 ADML ファイルは、ADMX ファイルに対して言語固有の補完を備えています。 各 ADMX および ADML ファイルには、1つの Office アプリケーションのポリシー設定が含まれています。 詳細については、Office 2013 のドキュメントの「Office 2013 管理用テンプレートファイル (ADMX, ADML) <http://go.microsoft.com/fwlink/p/?linkid=267516>」を参照してください。
+グループポリシー管理コンソール (GPMC) とグループポリシーオブジェクトエディタは、グループポリシーの管理に使用するツールです。 Office グループポリシー管理用テンプレートに含まれるのは、ドメイン内のグループポリシーオブジェクトに対して構成するレジストリベースのポリシー設定が含まれている Lync 2013 admx (ADMX) および adml (ADML) 管理用テンプレートです。 ADML ファイルは、ADMX ファイルに対して言語固有の補完を備えています。 各 ADMX および ADML ファイルには、1つの Office アプリケーションのポリシー設定が含まれています。 詳細については、Office 2013 のドキュメントの「Office 2013 管理用テンプレートファイル (ADMX, ADML) <https://go.microsoft.com/fwlink/p/?linkid=267516>」を参照してください。
 
 Lync 2013 では、ユーザーが初めてサーバーにサインインする前に構成を考慮する必要があるクライアントブートストラップポリシーがいくつかあります。 たとえば、サインインが完了するまでクライアントが使用する既定のサーバーおよびセキュリティモード。 グループポリシーを使用して、ユーザーのコンピューターのレジストリでこれらの設定を行い、サインインしてから、サーバーからインバンドプロビジョニング設定を受信することができます。 次の表に、Lync 2013 で使用できるグループポリシー設定を示します。
 
@@ -155,19 +155,19 @@ TrustModelData</p></td>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1 </p></td>
+<td><p>1-d</p></td>
 <td><p>Lync Server 2013 インバンドプロビジョニング</p></td>
 </tr>
 <tr class="even">
-<td><p>2 </p></td>
+<td><p>pbm-2</p></td>
 <td><p>HKEY_LOCAL_MACHINE \SOFTWARE\Policies\Microsoft\Office\15.0\Lync</p></td>
 </tr>
 <tr class="odd">
-<td><p>3 </p></td>
+<td><p>1/3</p></td>
 <td><p>HKEY_CURRENT_USER \SOFTWARE\Policies\Microsoft\Office\15.0\Lync</p></td>
 </tr>
 <tr class="even">
-<td><p>4 </p></td>
+<td><p>2/4</p></td>
 <td><p>Lync 2013 の [Lync-オプション] ダイアログボックス</p></td>
 </tr>
 </tbody>

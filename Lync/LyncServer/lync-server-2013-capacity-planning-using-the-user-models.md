@@ -12,18 +12,18 @@ ms:contentKeyID: 49733733
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab2b7026ca49f8e12a5f8b67aa0780996feaebe1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 664091baee67d0ddf953d8a114370fdb875eef29
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036487"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135544"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="capacity-planning-for-lync-server-2013-using-the-user-models"></a>ユーザーモデルを使用した Lync Server 2013 の容量計画
 
@@ -220,7 +220,7 @@ _**トピックの最終更新日:** 2014-01-14_
 
 
 > [!NOTE]  
-> フロントエンドサーバーで併置された音声ビデオ会議と仲介サーバーの機能のメディアパフォーマンスを向上させるには、フロントエンドサーバーのネットワークアダプターで受信側の拡大/縮小 (RSS) を有効にする必要があります。 RSS は、着信パケットがサーバーの複数のプロセッサによって平行して処理されるのを可能にします。 詳細については、「」の「Windows Server 2008 の受信側<A href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?linkId=268731</A>スケーリングの拡張機能」を参照してください。 RSS を有効にする方法の詳細については、ネットワークアダプターのドキュメントを参照してください。
+> フロントエンドサーバーで併置された音声ビデオ会議と仲介サーバーの機能のメディアパフォーマンスを向上させるには、フロントエンドサーバーのネットワークアダプターで受信側の拡大/縮小 (RSS) を有効にする必要があります。 RSS は、着信パケットがサーバーの複数のプロセッサによって平行して処理されるのを可能にします。 詳細については、「」の「Windows Server 2008 の受信側<A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A>スケーリングの拡張機能」を参照してください。 RSS を有効にする方法の詳細については、ネットワークアダプターのドキュメントを参照してください。
 
 
 
@@ -266,7 +266,7 @@ Lync Server は、フロントエンドプールまたは Standard Edition サ�
 
 
 > [!NOTE]  
-> エッジ サーバーの音声ビデオ会議エッジ サービスのパフォーマンスを改善するには、エッジ サーバーのネットワーク アダプターの Receive-side Scaling (RSS) を有効にする必要があります。 RSS は、着信パケットがサーバーの複数のプロセッサによって平行して処理されるのを可能にします。 詳細については、「」の「Windows Server 2008 の受信側<A href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?linkId=268731</A>スケーリングの拡張機能」を参照してください。 RSS を有効にする方法の詳細については、ネットワークアダプターのドキュメントを参照してください。
+> エッジ サーバーの音声ビデオ会議エッジ サービスのパフォーマンスを改善するには、エッジ サーバーのネットワーク アダプターの Receive-side Scaling (RSS) を有効にする必要があります。 RSS は、着信パケットがサーバーの複数のプロセッサによって平行して処理されるのを可能にします。 詳細については、「」の「Windows Server 2008 の受信側<A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A>スケーリングの拡張機能」を参照してください。 RSS を有効にする方法の詳細については、ネットワークアダプターのドキュメントを参照してください。
 
 
 
@@ -396,7 +396,7 @@ Lync Server は、フロントエンドプールまたは Standard Edition サ�
 
 
 > [!NOTE]  
-> 仲介サーバーのパフォーマンスを向上させるには、仲介サーバーのネットワークアダプターで受信側の拡大/縮小 (RSS) を有効にする必要があります。 RSS は、着信パケットがサーバーの複数のプロセッサによって平行して処理されるのを可能にします。 詳細については、「」の「Windows Server 2008 の受信側<A href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?linkId=268731</A>スケーリングの拡張機能」を参照してください。 RSS を有効にする方法の詳細については、ネットワークアダプターのドキュメントを参照してください。
+> 仲介サーバーのパフォーマンスを向上させるには、仲介サーバーのネットワークアダプターで受信側の拡大/縮小 (RSS) を有効にする必要があります。 RSS は、着信パケットがサーバーの複数のプロセッサによって平行して処理されるのを可能にします。 詳細については、「」の「Windows Server 2008 の受信側<A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A>スケーリングの拡張機能」を参照してください。 RSS を有効にする方法の詳細については、ネットワークアダプターのドキュメントを参照してください。
 
 
 
@@ -495,18 +495,18 @@ Microsoft では、データベースサーバーのパフォーマンステス�
 </tr>
 <tr class="odd">
 <td><p>CDR データベースのログ ファイル</p></td>
-<td><p>1 </p></td>
-<td><p>2 </p></td>
+<td><p>1-d</p></td>
+<td><p>pbm-2</p></td>
 </tr>
 <tr class="even">
 <td><p>QoE データベースのログ ファイル</p></td>
-<td><p>1 </p></td>
-<td><p>2 </p></td>
+<td><p>1-d</p></td>
+<td><p>pbm-2</p></td>
 </tr>
 <tr class="odd">
 <td><p>アーカイブデータベースのログファイル</p></td>
-<td><p>1 </p></td>
-<td><p>2 </p></td>
+<td><p>1-d</p></td>
+<td><p>pbm-2</p></td>
 </tr>
 </tbody>
 </table>

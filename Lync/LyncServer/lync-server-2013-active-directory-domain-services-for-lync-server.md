@@ -12,18 +12,18 @@ ms:contentKeyID: 59893871
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1b53b878d7f41a5eb83eb67d98fc69d68709a603
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f05832a3390101aad7acb1c9d25f532288ca020a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008579"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135594"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="active-directory-domain-services-for-lync-server-2013"></a>Lync Server 2013 の Active Directory ドメインサービス
 
@@ -71,7 +71,7 @@ Active Directory のインフラストラクチャ要件には、次のような
 
 
 > [!NOTE]  
-> グローバル設定はシステム コンテナーではなく構成コンテナーに展開することをお勧めします。 これによってセキュリティが向上するわけではありませんが、一部の Active Directory ドメイン サービスのトポロジではスケーラビリティが向上することがあります。 Microsoft Office Communications Server 2007 から移行していて、システムコンテナーを使用していて、構成コンテナーの使用を計画している場合は、アップグレードの準備を行う前に、システムコンテナーで設定を移動する必要があります。 システムコンテナー設定を構成コンテナーに移行するには、「Office Communications Server 2007 グローバル設定移行ツール<A href="http://go.microsoft.com/fwlink/p/?linkid=145236">http://go.microsoft.com/fwlink/p/?LinkId=145236</A>」を参照してください。
+> グローバル設定はシステム コンテナーではなく構成コンテナーに展開することをお勧めします。 これによってセキュリティが向上するわけではありませんが、一部の Active Directory ドメイン サービスのトポロジではスケーラビリティが向上することがあります。 Microsoft Office Communications Server 2007 から移行していて、システムコンテナーを使用していて、構成コンテナーの使用を計画している場合は、アップグレードの準備を行う前に、システムコンテナーで設定を移動する必要があります。 システムコンテナー設定を構成コンテナーに移行するには、「Office Communications Server 2007 グローバル設定移行ツール<A href="https://go.microsoft.com/fwlink/p/?linkid=145236">https://go.microsoft.com/fwlink/p/?LinkId=145236</A>」を参照してください。
 
 
 
@@ -219,7 +219,7 @@ Lync Server 2013 では、[信頼されたサーバー] は、トポロジビル
 </table>
 
 
-以前のリリースの信頼済みサーバーをサポートするには、ベストプラクティスアナライザーツールを実行する必要があります。 ベストプラクティスアナライザーの実行の詳細について[http://go.microsoft.com/fwlink/p/?LinkId=330633](http://go.microsoft.com/fwlink/p/?linkid=330633)は、「」を参照してください。
+以前のリリースの信頼済みサーバーをサポートするには、ベストプラクティスアナライザーツールを実行する必要があります。 ベストプラクティスアナライザーの実行の詳細について[https://go.microsoft.com/fwlink/p/?LinkId=330633](https://go.microsoft.com/fwlink/p/?linkid=330633)は、「」を参照してください。
 
 </div>
 
