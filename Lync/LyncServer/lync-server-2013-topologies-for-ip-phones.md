@@ -12,20 +12,20 @@ ms:contentKeyID: 48183662
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 69761715846cd65a44fe34c9c8465101e9ceb681
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: a1b01e4d98ced806b40cd5f092c0b8051ce86f47
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045449"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141143"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="topologies-for-ip-phones-in-lync-server-2013"></a><span data-ttu-id="2f21c-102">Lync Server 2013 での IP 電話のトポロジ</span><span class="sxs-lookup"><span data-stu-id="2f21c-102">Topologies for IP phones in Lync Server 2013</span></span>
+# <a name="topologies-for-ip-phones-in-lync-server-2013"></a><span data-ttu-id="c373b-102">Lync Server 2013 での IP 電話のトポロジ</span><span class="sxs-lookup"><span data-stu-id="c373b-102">Topologies for IP phones in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,47 +35,47 @@ ms.locfileid: "42045449"
 
 <span> </span>
 
-<span data-ttu-id="2f21c-103">_**トピックの最終更新日:** 2012-06-21_</span><span class="sxs-lookup"><span data-stu-id="2f21c-103">_**Topic Last Modified:** 2012-06-21_</span></span>
+<span data-ttu-id="c373b-103">_**トピックの最終更新日:** 2012-06-21_</span><span class="sxs-lookup"><span data-stu-id="c373b-103">_**Topic Last Modified:** 2012-06-21_</span></span>
 
-<span data-ttu-id="2f21c-104">ここでは、接続プロセスの概要を示し、内部ネットワークと外部ネットワークでの IP 電話の接続方法の違いを説明します。</span><span class="sxs-lookup"><span data-stu-id="2f21c-104">This section provides an overview of the connectivity process and explains the differences between how an IP phone connects in an internal and external network.</span></span>
+<span data-ttu-id="c373b-104">ここでは、接続プロセスの概要を示し、内部ネットワークと外部ネットワークでの IP 電話の接続方法の違いを説明します。</span><span class="sxs-lookup"><span data-stu-id="c373b-104">This section provides an overview of the connectivity process and explains the differences between how an IP phone connects in an internal and external network.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="2f21c-105">Lync Server は、次の IP 電話のサポートを提供します。 Aastra 6721ip 共通領域電話、Aastra 6721ip 卓上電話、HP 4110 IP 電話 (共通領域電話)、HP 4120 IP 電話 (デスク電話)、Polycom CX600 IP デスク電話、Polycom CX700 IP 卓上電話、Polycom CX500 IP共通領域電話、Polycom CX3000 IP 電話会議</span><span class="sxs-lookup"><span data-stu-id="2f21c-105">Lync Server provides support for the following IP phones: the Aastra 6721ip common area phone, Aastra 6725ip desk phone, HP 4110 IP Phone (common area phone), HP 4120 IP Phone (desk phone), Polycom CX600 IP desk phone, Polycom CX700 IP desk phone, Polycom CX500 IP common area phone, and Polycom CX3000 IP conference phone.</span></span> <span data-ttu-id="2f21c-106">これらの電話の場合、Polycom CX700 以外はすべて Lync Phone Edition を実行できます。</span><span class="sxs-lookup"><span data-stu-id="2f21c-106">Of those phones, all but the Polycom CX700 can run Lync Phone Edition.</span></span>
+> <span data-ttu-id="c373b-105">Lync Server は、次の IP 電話のサポートを提供します。 Aastra 6721ip 共通領域電話、Aastra 6721ip 卓上電話、HP 4110 IP 電話 (共通領域電話)、HP 4120 IP 電話 (デスク電話)、Polycom CX600 IP デスク電話、Polycom CX700 IP 卓上電話、Polycom CX500 IP共通領域電話、Polycom CX3000 IP 電話会議</span><span class="sxs-lookup"><span data-stu-id="c373b-105">Lync Server provides support for the following IP phones: the Aastra 6721ip common area phone, Aastra 6725ip desk phone, HP 4110 IP Phone (common area phone), HP 4120 IP Phone (desk phone), Polycom CX600 IP desk phone, Polycom CX700 IP desk phone, Polycom CX500 IP common area phone, and Polycom CX3000 IP conference phone.</span></span> <span data-ttu-id="c373b-106">これらの電話の場合、Polycom CX700 以外はすべて Lync Phone Edition を実行できます。</span><span class="sxs-lookup"><span data-stu-id="c373b-106">Of those phones, all but the Polycom CX700 can run Lync Phone Edition.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="2f21c-107">次の図では、企業環境内でのデバイス接続に関係するすべてのコンポーネントを説明します。</span><span class="sxs-lookup"><span data-stu-id="2f21c-107">The following diagram describes all the components involved in device connectivity within the corporate environment.</span></span>
+<span data-ttu-id="c373b-107">次の図では、企業環境内でのデバイス接続に関係するすべてのコンポーネントを説明します。</span><span class="sxs-lookup"><span data-stu-id="c373b-107">The following diagram describes all the components involved in device connectivity within the corporate environment.</span></span>
 
-<span data-ttu-id="2f21c-108">**内部トポロジ**</span><span class="sxs-lookup"><span data-stu-id="2f21c-108">**Internal Topology**</span></span>
+<span data-ttu-id="c373b-108">**内部トポロジ**</span><span class="sxs-lookup"><span data-stu-id="c373b-108">**Internal Topology**</span></span>
 
-<span data-ttu-id="2f21c-109">![3d88893e-df57-46e3-855a-a1d24589030a](images/Gg425740.3d88893e-df57-46e3-855a-a1d24589030a(OCS.15).jpg "3d88893e-df57-46e3-855a-a1d24589030a")</span><span class="sxs-lookup"><span data-stu-id="2f21c-109">![3d88893e-df57-46e3-855a-a1d24589030a](images/Gg425740.3d88893e-df57-46e3-855a-a1d24589030a(OCS.15).jpg "3d88893e-df57-46e3-855a-a1d24589030a")</span></span>
+<span data-ttu-id="c373b-109">![3d88893e-df57-46e3-855a-a1d24589030a](images/Gg425740.3d88893e-df57-46e3-855a-a1d24589030a(OCS.15).jpg "3d88893e-df57-46e3-855a-a1d24589030a")</span><span class="sxs-lookup"><span data-stu-id="c373b-109">![3d88893e-df57-46e3-855a-a1d24589030a](images/Gg425740.3d88893e-df57-46e3-855a-a1d24589030a(OCS.15).jpg "3d88893e-df57-46e3-855a-a1d24589030a")</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="2f21c-110">前の図は論理的な表現であり、物理的な概要ではありません。</span><span class="sxs-lookup"><span data-stu-id="2f21c-110">The previous figure is a logical representation, not a physical overview.</span></span> <span data-ttu-id="2f21c-111">たとえば、Active Directory ドメインサービス (AD DS) は、ほとんどの場合、すべての Lync Server コンポーネントと同じコンピューターに配置されます。</span><span class="sxs-lookup"><span data-stu-id="2f21c-111">For example, Active Directory Domain Services (AD DS) is rarely located on the same machine as any Lync Server components.</span></span> <span data-ttu-id="2f21c-112">ユーザー ストアは、バックエンド サーバー上、またはアーカイブ サーバーおよび監視サーバー上に配置できます。</span><span class="sxs-lookup"><span data-stu-id="2f21c-112">The user store can be located on the Back End Server or on the Archiving and Monitoring Servers.</span></span> <span data-ttu-id="2f21c-113">Lync Server 管理シェル、web サーバー、更新サービスは、すべてフロントエンドサーバーの役割の一部です。</span><span class="sxs-lookup"><span data-stu-id="2f21c-113">The Lync Server Management Shell, web server, and update services are all part of the Front End Server role.</span></span>
+> <span data-ttu-id="c373b-110">前の図は論理的な表現であり、物理的な概要ではありません。</span><span class="sxs-lookup"><span data-stu-id="c373b-110">The previous figure is a logical representation, not a physical overview.</span></span> <span data-ttu-id="c373b-111">たとえば、Active Directory ドメインサービス (AD DS) は、ほとんどの場合、すべての Lync Server コンポーネントと同じコンピューターに配置されます。</span><span class="sxs-lookup"><span data-stu-id="c373b-111">For example, Active Directory Domain Services (AD DS) is rarely located on the same machine as any Lync Server components.</span></span> <span data-ttu-id="c373b-112">ユーザー ストアは、バックエンド サーバー上、またはアーカイブ サーバーおよび監視サーバー上に配置できます。</span><span class="sxs-lookup"><span data-stu-id="c373b-112">The user store can be located on the Back End Server or on the Archiving and Monitoring Servers.</span></span> <span data-ttu-id="c373b-113">Lync Server 管理シェル、web サーバー、更新サービスは、すべてフロントエンドサーバーの役割の一部です。</span><span class="sxs-lookup"><span data-stu-id="c373b-113">The Lync Server Management Shell, web server, and update services are all part of the Front End Server role.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="2f21c-114">次の図では、デバイスが企業ネットワークの外部に配置される場合に関係するコンポーネントの概要を示します。</span><span class="sxs-lookup"><span data-stu-id="2f21c-114">The following diagram provides an overview of the components involved when the device is located outside the corporate network.</span></span>
+<span data-ttu-id="c373b-114">次の図では、デバイスが企業ネットワークの外部に配置される場合に関係するコンポーネントの概要を示します。</span><span class="sxs-lookup"><span data-stu-id="c373b-114">The following diagram provides an overview of the components involved when the device is located outside the corporate network.</span></span>
 
-<span data-ttu-id="2f21c-115">**外部トポロジ**</span><span class="sxs-lookup"><span data-stu-id="2f21c-115">**External Topology**</span></span>
+<span data-ttu-id="c373b-115">**外部トポロジ**</span><span class="sxs-lookup"><span data-stu-id="c373b-115">**External Topology**</span></span>
 
-<span data-ttu-id="2f21c-116">![8ce6bb8e-b89c-4c4e-ac6d-41ac6c68f6f3](images/Gg425740.8ce6bb8e-b89c-4c4e-ac6d-41ac6c68f6f3(OCS.15).jpg "8ce6bb8e-b89c-4c4e-ac6d-41ac6c68f6f3")</span><span class="sxs-lookup"><span data-stu-id="2f21c-116">![8ce6bb8e-b89c-4c4e-ac6d-41ac6c68f6f3](images/Gg425740.8ce6bb8e-b89c-4c4e-ac6d-41ac6c68f6f3(OCS.15).jpg "8ce6bb8e-b89c-4c4e-ac6d-41ac6c68f6f3")</span></span>
+<span data-ttu-id="c373b-116">![8ce6bb8e-b89c-4c4e-ac6d-41ac6c68f6f3](images/Gg425740.8ce6bb8e-b89c-4c4e-ac6d-41ac6c68f6f3(OCS.15).jpg "8ce6bb8e-b89c-4c4e-ac6d-41ac6c68f6f3")</span><span class="sxs-lookup"><span data-stu-id="c373b-116">![8ce6bb8e-b89c-4c4e-ac6d-41ac6c68f6f3](images/Gg425740.8ce6bb8e-b89c-4c4e-ac6d-41ac6c68f6f3(OCS.15).jpg "8ce6bb8e-b89c-4c4e-ac6d-41ac6c68f6f3")</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="2f21c-117">デバイス更新 Web サービスは、外部および内部の Web サイトを提供しますが、ここでは外部の Web サイトだけを示しています。</span><span class="sxs-lookup"><span data-stu-id="2f21c-117">The Device Update Web service provides an external and internal website, but only the external one is shown here.</span></span><BR><span data-ttu-id="2f21c-p103">外部アクセスを有効にする場合は、レジストラーの場所、および組織に対するデバイス更新 Web サービスの URL を DNS で公開する必要があります。さらに、エッジ サーバーを展開し、デバイスと企業環境の間の双方向の外部通信を許可するように適切に構成する必要があります。エッジの展開がデバイスの接続に固有ではないので、前の図ではこれは省略されています。</span><span class="sxs-lookup"><span data-stu-id="2f21c-p103">The location of the Registrar and the URL of the Device Update Web service for the organization must be published in DNS if external access is to be enabled. Additionally, the Edge Server must be deployed and correctly configured to allow external communications from the device to the corporate environment and back. This is omitted from the previous diagram because Edge deployment is not specific to device connectivity.</span></span>
+> <span data-ttu-id="c373b-117">デバイス更新 Web サービスは、外部および内部の Web サイトを提供しますが、ここでは外部の Web サイトだけを示しています。</span><span class="sxs-lookup"><span data-stu-id="c373b-117">The Device Update Web service provides an external and internal website, but only the external one is shown here.</span></span><BR><span data-ttu-id="c373b-p103">外部アクセスを有効にする場合は、レジストラーの場所、および組織に対するデバイス更新 Web サービスの URL を DNS で公開する必要があります。さらに、エッジ サーバーを展開し、デバイスと企業環境の間の双方向の外部通信を許可するように適切に構成する必要があります。エッジの展開がデバイスの接続に固有ではないので、前の図ではこれは省略されています。</span><span class="sxs-lookup"><span data-stu-id="c373b-p103">The location of the Registrar and the URL of the Device Update Web service for the organization must be published in DNS if external access is to be enabled. Additionally, the Edge Server must be deployed and correctly configured to allow external communications from the device to the corporate environment and back. This is omitted from the previous diagram because Edge deployment is not specific to device connectivity.</span></span>
 
 
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48184065
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e3dc86689bd79a8efd8831f3b7028fb1f8dcc34f
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 00748ce0f53175e3136f56d799360861a29f857f
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029158"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140970"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="unassigned-number-cmdlets-in-lync-server-2013"></a><span data-ttu-id="e4301-102">Lync Server 2013 での未使用の番号のコマンドレット</span><span class="sxs-lookup"><span data-stu-id="e4301-102">Unassigned number cmdlets in Lync Server 2013</span></span>
+# <a name="unassigned-number-cmdlets-in-lync-server-2013"></a><span data-ttu-id="c3a8b-102">Lync Server 2013 での未使用の番号のコマンドレット</span><span class="sxs-lookup"><span data-stu-id="c3a8b-102">Unassigned number cmdlets in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,57 +35,57 @@ ms.locfileid: "42029158"
 
 <span> </span>
 
-<span data-ttu-id="e4301-103">_**トピックの最終更新日:** 2012-03-21_</span><span class="sxs-lookup"><span data-stu-id="e4301-103">_**Topic Last Modified:** 2012-03-21_</span></span>
+<span data-ttu-id="c3a8b-103">_**トピックの最終更新日:** 2012-03-21_</span><span class="sxs-lookup"><span data-stu-id="c3a8b-103">_**Topic Last Modified:** 2012-03-21_</span></span>
 
-<span data-ttu-id="e4301-p101">未使用の番号とは、組織に属しているがユーザーや電話に割り当てられていない電話番号です。未使用の番号を構成して、その番号への着信時にさまざまな種類のアナウンスを再生できます。</span><span class="sxs-lookup"><span data-stu-id="e4301-p101">Unassigned numbers are phone numbers that belong to an organization but have not been assigned to a user or phone. Unassigned numbers can be configured to play various types of announcements when a call is made to those numbers.</span></span>
+<span data-ttu-id="c3a8b-p101">未使用の番号とは、組織に属しているがユーザーや電話に割り当てられていない電話番号です。未使用の番号を構成して、その番号への着信時にさまざまな種類のアナウンスを再生できます。</span><span class="sxs-lookup"><span data-stu-id="c3a8b-p101">Unassigned numbers are phone numbers that belong to an organization but have not been assigned to a user or phone. Unassigned numbers can be configured to play various types of announcements when a call is made to those numbers.</span></span>
 
 <div>
 
-## <a name="unassigned-number-cmdlets"></a><span data-ttu-id="e4301-106">未使用の番号のコマンドレット</span><span class="sxs-lookup"><span data-stu-id="e4301-106">Unassigned Number Cmdlets</span></span>
+## <a name="unassigned-number-cmdlets"></a><span data-ttu-id="c3a8b-106">未使用の番号のコマンドレット</span><span class="sxs-lookup"><span data-stu-id="c3a8b-106">Unassigned Number Cmdlets</span></span>
 
-<span data-ttu-id="e4301-107">次のコマンドレットを使用して、未使用の番号を管理できます。</span><span class="sxs-lookup"><span data-stu-id="e4301-107">The following cmdlets can be used to manage unassigned numbers.</span></span>
+<span data-ttu-id="c3a8b-107">次のコマンドレットを使用して、未使用の番号を管理できます。</span><span class="sxs-lookup"><span data-stu-id="c3a8b-107">The following cmdlets can be used to manage unassigned numbers.</span></span>
 
-<span data-ttu-id="e4301-108">**割り当てられていない番号**</span><span class="sxs-lookup"><span data-stu-id="e4301-108">**Unassigned Number**</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="e4301-109">[Remove-csunassignednumber](https://technet.microsoft.com/library/Gg412792(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e4301-109">[Get-CsUnassignedNumber](https://technet.microsoft.com/library/Gg412792(v=OCS.15))</span></span>
+<span data-ttu-id="c3a8b-108">**割り当てられていない番号**</span><span class="sxs-lookup"><span data-stu-id="c3a8b-108">**Unassigned Number**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="e4301-110">[Remove-csunassignednumber](https://technet.microsoft.com/library/Gg398651(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e4301-110">[New-CsUnassignedNumber](https://technet.microsoft.com/library/Gg398651(v=OCS.15))</span></span>
+    <span data-ttu-id="c3a8b-109">[Remove-csunassignednumber](https://technet.microsoft.com/library/Gg412792(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="c3a8b-109">[Get-CsUnassignedNumber](https://technet.microsoft.com/library/Gg412792(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="e4301-111">[Remove-csunassignednumber](https://technet.microsoft.com/library/Gg398209(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e4301-111">[Remove-CsUnassignedNumber](https://technet.microsoft.com/library/Gg398209(v=OCS.15))</span></span>
+    <span data-ttu-id="c3a8b-110">[Remove-csunassignednumber](https://technet.microsoft.com/library/Gg398651(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="c3a8b-110">[New-CsUnassignedNumber](https://technet.microsoft.com/library/Gg398651(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="e4301-112">[Remove-csunassignednumber](https://technet.microsoft.com/library/Gg399033(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e4301-112">[Set-CsUnassignedNumber](https://technet.microsoft.com/library/Gg399033(v=OCS.15))</span></span>
+    <span data-ttu-id="c3a8b-111">[Remove-csunassignednumber](https://technet.microsoft.com/library/Gg398209(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="c3a8b-111">[Remove-CsUnassignedNumber](https://technet.microsoft.com/library/Gg398209(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="c3a8b-112">[Remove-csunassignednumber](https://technet.microsoft.com/library/Gg399033(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="c3a8b-112">[Set-CsUnassignedNumber](https://technet.microsoft.com/library/Gg399033(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="e4301-113">[-CsAnnouncement を入手する](https://technet.microsoft.com/library/Gg398937(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e4301-113">[Get-CsAnnouncement](https://technet.microsoft.com/library/Gg398937(v=OCS.15))</span></span>
+    <span data-ttu-id="c3a8b-113">[-CsAnnouncement を入手する](https://technet.microsoft.com/library/Gg398937(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="c3a8b-113">[Get-CsAnnouncement](https://technet.microsoft.com/library/Gg398937(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="e4301-114">[新しい-CsAnnouncement](https://technet.microsoft.com/library/Gg398522(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e4301-114">[New-CsAnnouncement](https://technet.microsoft.com/library/Gg398522(v=OCS.15))</span></span>
+    <span data-ttu-id="c3a8b-114">[新しい-CsAnnouncement](https://technet.microsoft.com/library/Gg398522(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="c3a8b-114">[New-CsAnnouncement](https://technet.microsoft.com/library/Gg398522(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="e4301-115">[削除-CsAnnouncement](https://technet.microsoft.com/library/Gg412766(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e4301-115">[Remove-CsAnnouncement](https://technet.microsoft.com/library/Gg412766(v=OCS.15))</span></span>
+    <span data-ttu-id="c3a8b-115">[削除-CsAnnouncement](https://technet.microsoft.com/library/Gg412766(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="c3a8b-115">[Remove-CsAnnouncement](https://technet.microsoft.com/library/Gg412766(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="e4301-116">[設定-CsAnnouncement](https://technet.microsoft.com/library/Gg425752(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e4301-116">[Set-CsAnnouncement](https://technet.microsoft.com/library/Gg425752(v=OCS.15))</span></span>
+    <span data-ttu-id="c3a8b-116">[設定-CsAnnouncement](https://technet.microsoft.com/library/Gg425752(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="c3a8b-116">[Set-CsAnnouncement](https://technet.microsoft.com/library/Gg425752(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="e4301-117">[インポート-Csアナウンス Ementfile](https://technet.microsoft.com/library/Gg398472(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e4301-117">[Import-CsAnnouncementFile](https://technet.microsoft.com/library/Gg398472(v=OCS.15))</span></span>
+    <span data-ttu-id="c3a8b-117">[インポート-Csアナウンス Ementfile](https://technet.microsoft.com/library/Gg398472(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="c3a8b-117">[Import-CsAnnouncementFile](https://technet.microsoft.com/library/Gg398472(v=OCS.15))</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="e4301-118">関連項目</span><span class="sxs-lookup"><span data-stu-id="e4301-118">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c3a8b-118">関連項目</span><span class="sxs-lookup"><span data-stu-id="c3a8b-118">See Also</span></span>
 
 
-[<span data-ttu-id="e4301-119">Lync Server PowerShell ブログ</span><span class="sxs-lookup"><span data-stu-id="e4301-119">Lync Server PowerShell Blog</span></span>](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="c3a8b-119">Lync Server PowerShell ブログ</span><span class="sxs-lookup"><span data-stu-id="c3a8b-119">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

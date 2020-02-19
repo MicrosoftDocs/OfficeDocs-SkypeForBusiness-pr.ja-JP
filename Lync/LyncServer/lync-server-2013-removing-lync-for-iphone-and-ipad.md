@@ -12,20 +12,20 @@ ms:contentKeyID: 51541476
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 06fe80342f5772568458bc7dda26f7f15c9334d1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2dfe37ca388cc73dab6da02bcfc8e2f2cc0be176
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050509"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138778"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="removing-lync-for-iphone-and-ipad-in-lync-server-2013"></a><span data-ttu-id="6d3f0-102">Lync Server 2013 で Lync for iPhone および iPad を削除する</span><span class="sxs-lookup"><span data-stu-id="6d3f0-102">Removing Lync for iPhone and iPad in Lync Server 2013</span></span>
+# <a name="removing-lync-for-iphone-and-ipad-in-lync-server-2013"></a><span data-ttu-id="e3b19-102">Lync Server 2013 で Lync for iPhone および iPad を削除する</span><span class="sxs-lookup"><span data-stu-id="e3b19-102">Removing Lync for iPhone and iPad in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "42050509"
 
 <span> </span>
 
-<span data-ttu-id="6d3f0-103">_**トピックの最終更新日:** 2013-02-19_</span><span class="sxs-lookup"><span data-stu-id="6d3f0-103">_**Topic Last Modified:** 2013-02-19_</span></span>
+<span data-ttu-id="e3b19-103">_**トピックの最終更新日:** 2013-02-19_</span><span class="sxs-lookup"><span data-stu-id="e3b19-103">_**Topic Last Modified:** 2013-02-19_</span></span>
 
-<span data-ttu-id="6d3f0-104">Lync 2013 for iPhone または Microsoft Lync 2010 for iPad をデバイスから削除するには、次の手順を実行します。</span><span class="sxs-lookup"><span data-stu-id="6d3f0-104">To remove Lync 2013 for iPhone or Microsoft Lync 2010 for iPad from the device, perform the following steps:</span></span>
+<span data-ttu-id="e3b19-104">Lync 2013 for iPhone または Microsoft Lync 2010 for iPad をデバイスから削除するには、次の手順を実行します。</span><span class="sxs-lookup"><span data-stu-id="e3b19-104">To remove Lync 2013 for iPhone or Microsoft Lync 2010 for iPad from the device, perform the following steps:</span></span>
 
-1.  <span data-ttu-id="6d3f0-105">モバイルデバイスのホーム画面で、Lync アイコンをタップしたまま押さえます。</span><span class="sxs-lookup"><span data-stu-id="6d3f0-105">On the mobile device home screen, tap and hold the Lync icon.</span></span>
+1.  <span data-ttu-id="e3b19-105">モバイルデバイスのホーム画面で、Lync アイコンをタップしたまま押さえます。</span><span class="sxs-lookup"><span data-stu-id="e3b19-105">On the mobile device home screen, tap and hold the Lync icon.</span></span>
 
-2.  <span data-ttu-id="6d3f0-106">タイルがシェイクを開始し、 **x**が表示されたら、 **x**をタップしてアプリケーションを削除します。</span><span class="sxs-lookup"><span data-stu-id="6d3f0-106">When the tiles begin to shake and the **X** appears, tap the **X** to delete the application.</span></span>
+2.  <span data-ttu-id="e3b19-106">タイルがシェイクを開始し、 **x**が表示されたら、 **x**をタップしてアプリケーションを削除します。</span><span class="sxs-lookup"><span data-stu-id="e3b19-106">When the tiles begin to shake and the **X** appears, tap the **X** to delete the application.</span></span>
 
 </div>
 

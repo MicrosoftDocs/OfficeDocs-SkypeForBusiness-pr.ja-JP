@@ -12,20 +12,20 @@ ms:contentKeyID: 48183504
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 33d3c659e90f2e6603cc114f27b7d800f20a0be4
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7b368c8c1461a4b9f69da4d0cebe5d3aa9bdf469
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038239"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140110"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-call-management-features-in-lync-server-2013"></a><span data-ttu-id="1abcd-102">Lync Server 2013 での通話管理機能の展開</span><span class="sxs-lookup"><span data-stu-id="1abcd-102">Deploying call management features in Lync Server 2013</span></span>
+# <a name="deploying-call-management-features-in-lync-server-2013"></a><span data-ttu-id="ab85b-102">Lync Server 2013 での通話管理機能の展開</span><span class="sxs-lookup"><span data-stu-id="ab85b-102">Deploying call management features in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "42038239"
 
 <span> </span>
 
-<span data-ttu-id="1abcd-103">_**トピックの最終更新日:** 2012-12-18_</span><span class="sxs-lookup"><span data-stu-id="1abcd-103">_**Topic Last Modified:** 2012-12-18_</span></span>
+<span data-ttu-id="ab85b-103">_**トピックの最終更新日:** 2012-12-18_</span><span class="sxs-lookup"><span data-stu-id="ab85b-103">_**Topic Last Modified:** 2012-12-18_</span></span>
 
-<span data-ttu-id="1abcd-104">エンタープライズ VoIP 通話管理機能は、着信通話のルーティング方法と応答方法を制御します。</span><span class="sxs-lookup"><span data-stu-id="1abcd-104">Enterprise Voice call management features control how incoming calls are routed and answered.</span></span> <span data-ttu-id="1abcd-105">Lync Server 2013 には、次の通話管理機能があります。</span><span class="sxs-lookup"><span data-stu-id="1abcd-105">Lync Server 2013 provides the following call management features:</span></span>
+<span data-ttu-id="ab85b-104">エンタープライズ VoIP 通話管理機能は、着信通話のルーティング方法と応答方法を制御します。</span><span class="sxs-lookup"><span data-stu-id="ab85b-104">Enterprise Voice call management features control how incoming calls are routed and answered.</span></span> <span data-ttu-id="ab85b-105">Lync Server 2013 には、次の通話管理機能があります。</span><span class="sxs-lookup"><span data-stu-id="ab85b-105">Lync Server 2013 provides the following call management features:</span></span>
 
-  - <span data-ttu-id="1abcd-106">**コールパーク:** 音声ユーザーが通話を一時的にパークし、同じ電話または別の電話からそれを選択できるようにします。</span><span class="sxs-lookup"><span data-stu-id="1abcd-106">**Call Park:** Enables voice users to temporarily park a call and then pick it up from the same phone or another phone.</span></span>
+  - <span data-ttu-id="ab85b-106">**コールパーク:** 音声ユーザーが通話を一時的にパークし、同じ電話または別の電話からそれを選択できるようにします。</span><span class="sxs-lookup"><span data-stu-id="ab85b-106">**Call Park:** Enables voice users to temporarily park a call and then pick it up from the same phone or another phone.</span></span>
 
-  - <span data-ttu-id="1abcd-107">**グループピックアップ:** ユーザーが、通話ピックアップグループ番号をダイヤルすることによって、ピックアップグループに割り当てられた別のユーザーに対して行われた通話に応答できるようにします。</span><span class="sxs-lookup"><span data-stu-id="1abcd-107">**Group Pickup:** Enables users to answer calls made to another user who is assigned to a pickup group by dialing the call pickup group number.</span></span>
+  - <span data-ttu-id="ab85b-107">**グループピックアップ:** ユーザーが、通話ピックアップグループ番号をダイヤルすることによって、ピックアップグループに割り当てられた別のユーザーに対して行われた通話に応答できるようにします。</span><span class="sxs-lookup"><span data-stu-id="ab85b-107">**Group Pickup:** Enables users to answer calls made to another user who is assigned to a pickup group by dialing the call pickup group number.</span></span>
 
-  - <span data-ttu-id="1abcd-108">**応答グループ:** ハントグループまたは対話型音声応答 (IVR) の質問と回答を使用して、着信通話をエージェントのグループにルーティングします。</span><span class="sxs-lookup"><span data-stu-id="1abcd-108">**Response Group:** Routes incoming calls to groups of agents by using hunt groups or interactive voice response (IVR) questions and answers.</span></span>
+  - <span data-ttu-id="ab85b-108">**応答グループ:** ハントグループまたは対話型音声応答 (IVR) の質問と回答を使用して、着信通話をエージェントのグループにルーティングします。</span><span class="sxs-lookup"><span data-stu-id="ab85b-108">**Response Group:** Routes incoming calls to groups of agents by using hunt groups or interactive voice response (IVR) questions and answers.</span></span>
 
-  - <span data-ttu-id="1abcd-109">**アナウンス:** 割り当てられていない番号への通話に対してメッセージを再生するか、通話を別の場所またはその両方にルーティングします。</span><span class="sxs-lookup"><span data-stu-id="1abcd-109">**Announcement:** Plays a message for calls made to an unassigned number, or routes the call elsewhere, or both.</span></span>
+  - <span data-ttu-id="ab85b-109">**アナウンス:** 割り当てられていない番号への通話に対してメッセージを再生するか、通話を別の場所またはその両方にルーティングします。</span><span class="sxs-lookup"><span data-stu-id="ab85b-109">**Announcement:** Plays a message for calls made to an unassigned number, or routes the call elsewhere, or both.</span></span>
 
-<span data-ttu-id="1abcd-110">このセクションでは、エンタープライズ Voip の展開時にこれらの通話管理機能を構成する方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="1abcd-110">This section describes how to configure these call management features during an Enterprise Voice deployment.</span></span>
+<span data-ttu-id="ab85b-110">このセクションでは、エンタープライズ Voip の展開時にこれらの通話管理機能を構成する方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="ab85b-110">This section describes how to configure these call management features during an Enterprise Voice deployment.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="1abcd-111">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="1abcd-111">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="ab85b-111">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="ab85b-111">In This Section</span></span>
 
-  - [<span data-ttu-id="1abcd-112">Lync Server 2013 でのコールパークの構成</span><span class="sxs-lookup"><span data-stu-id="1abcd-112">Configuring Call Park in Lync Server 2013</span></span>](lync-server-2013-configuring-call-park.md)
+  - [<span data-ttu-id="ab85b-112">Lync Server 2013 でのコールパークの構成</span><span class="sxs-lookup"><span data-stu-id="ab85b-112">Configuring Call Park in Lync Server 2013</span></span>](lync-server-2013-configuring-call-park.md)
 
-  - [<span data-ttu-id="1abcd-113">Lync Server 2013 でグループ通話ピックアップを構成する</span><span class="sxs-lookup"><span data-stu-id="1abcd-113">Configuring Group Call Pickup in Lync Server 2013</span></span>](lync-server-2013-configuring-group-call-pickup.md)
+  - [<span data-ttu-id="ab85b-113">Lync Server 2013 でグループ通話ピックアップを構成する</span><span class="sxs-lookup"><span data-stu-id="ab85b-113">Configuring Group Call Pickup in Lync Server 2013</span></span>](lync-server-2013-configuring-group-call-pickup.md)
 
-  - [<span data-ttu-id="1abcd-114">Lync Server 2013 で応答グループを構成する</span><span class="sxs-lookup"><span data-stu-id="1abcd-114">Configuring Response Group in Lync Server 2013</span></span>](lync-server-2013-configuring-response-group.md)
+  - [<span data-ttu-id="ab85b-114">Lync Server 2013 で応答グループを構成する</span><span class="sxs-lookup"><span data-stu-id="ab85b-114">Configuring Response Group in Lync Server 2013</span></span>](lync-server-2013-configuring-response-group.md)
 
-  - [<span data-ttu-id="1abcd-115">Lync Server 2013 で割り当てられていない番号のアナウンスを構成する</span><span class="sxs-lookup"><span data-stu-id="1abcd-115">Configuring announcements for unassigned numbers in Lync Server 2013</span></span>](lync-server-2013-configuring-announcements-for-unassigned-numbers.md)
+  - [<span data-ttu-id="ab85b-115">Lync Server 2013 で割り当てられていない番号のアナウンスを構成する</span><span class="sxs-lookup"><span data-stu-id="ab85b-115">Configuring announcements for unassigned numbers in Lync Server 2013</span></span>](lync-server-2013-configuring-announcements-for-unassigned-numbers.md)
 
 </div>
 

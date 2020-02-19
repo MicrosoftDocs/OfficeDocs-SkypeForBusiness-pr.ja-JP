@@ -12,20 +12,20 @@ ms:contentKeyID: 51803970
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7cf34d5f8241735263547fe64dc0f3e3b124bb10
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 1a2032723d005fab794cc5b1d14c1df691fcba92
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051059"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136775"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-device-update-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="cb0ef-102">Lync Server 2013 でのデバイス更新の構成設定の表示</span><span class="sxs-lookup"><span data-stu-id="cb0ef-102">View Device Update configuration settings in Lync Server 2013</span></span>
+# <a name="view-device-update-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="6ef32-102">Lync Server 2013 でのデバイス更新の構成設定の表示</span><span class="sxs-lookup"><span data-stu-id="6ef32-102">View Device Update configuration settings in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42051059"
 
 <span> </span>
 
-<span data-ttu-id="cb0ef-103">_**トピックの最終更新日:** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="cb0ef-103">_**Topic Last Modified:** 2013-02-20_</span></span>
+<span data-ttu-id="6ef32-103">_**トピックの最終更新日:** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="6ef32-103">_**Topic Last Modified:** 2013-02-20_</span></span>
 
-<span data-ttu-id="cb0ef-104">Lync server 管理シェルと、Windows PowerShell のリモートセッションから2013実行できる Lync Server 管理シェルおよび**get-help**コマンドレットを使用して、デバイス更新サービスの構成設定を表示することができます。</span><span class="sxs-lookup"><span data-stu-id="cb0ef-104">You can view the Device Update Service configuration settings by using Lync Server Management Shell and the **Get-CsDeviceUpdateConfiguration** cmdlet, which you can run from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell</span></span>
+<span data-ttu-id="6ef32-104">Lync server 管理シェルと、Windows PowerShell のリモートセッションから2013実行できる Lync Server 管理シェルおよび**get-help**コマンドレットを使用して、デバイス更新サービスの構成設定を表示することができます。</span><span class="sxs-lookup"><span data-stu-id="6ef32-104">You can view the Device Update Service configuration settings by using Lync Server Management Shell and the **Get-CsDeviceUpdateConfiguration** cmdlet, which you can run from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="cb0ef-105">リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を<A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>で参照してください。</span><span class="sxs-lookup"><span data-stu-id="cb0ef-105">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>.</span></span>
+> <span data-ttu-id="6ef32-105">リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を<A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A>で参照してください。</span><span class="sxs-lookup"><span data-stu-id="6ef32-105">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A>.</span></span>
 
 
 
@@ -55,11 +55,11 @@ ms.locfileid: "42051059"
 <div>
 
 
-  - <span data-ttu-id="cb0ef-106">すべての音声ルートに関する情報を表示するには、Lync Server 管理シェルで次のコマンドを入力し、Enter キーを押します。</span><span class="sxs-lookup"><span data-stu-id="cb0ef-106">To view information about all your voice routes, type the following command in the Lync Server Management Shell and press Enter:</span></span>
+  - <span data-ttu-id="6ef32-106">すべての音声ルートに関する情報を表示するには、Lync Server 管理シェルで次のコマンドを入力し、Enter キーを押します。</span><span class="sxs-lookup"><span data-stu-id="6ef32-106">To view information about all your voice routes, type the following command in the Lync Server Management Shell and press Enter:</span></span>
     
         Get-CsDeviceUpdateConfiguration
     
-    <span data-ttu-id="cb0ef-107">このコマンドは、次のような情報を返します。</span><span class="sxs-lookup"><span data-stu-id="cb0ef-107">This command returns information similar to the following:</span></span>
+    <span data-ttu-id="6ef32-107">このコマンドは、次のような情報を返します。</span><span class="sxs-lookup"><span data-stu-id="6ef32-107">This command returns information similar to the following:</span></span>
     
         Identity               : Global
         ValidLogFileTypes      : {Watson, Config, Diaglog, CELog}
@@ -72,7 +72,7 @@ ms.locfileid: "42051059"
 
 </div>
 
-<span data-ttu-id="cb0ef-108">このコマンドレットの詳細については、「 [get-help](https://docs.microsoft.com/powershell/module/skype/Get-CsDeviceUpdateConfiguration)」のヘルプトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="cb0ef-108">For details about this cmdlet, see Help topic at [Get-CsDeviceUpdateConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsDeviceUpdateConfiguration).</span></span>
+<span data-ttu-id="6ef32-108">このコマンドレットの詳細については、「 [get-help](https://docs.microsoft.com/powershell/module/skype/Get-CsDeviceUpdateConfiguration)」のヘルプトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="6ef32-108">For details about this cmdlet, see Help topic at [Get-CsDeviceUpdateConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsDeviceUpdateConfiguration).</span></span>
 
 </div>
 

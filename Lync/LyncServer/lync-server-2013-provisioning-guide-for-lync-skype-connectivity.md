@@ -12,20 +12,20 @@ ms:contentKeyID: 57793363
 ms.date: 11/26/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e8f6e1b9262e0e7ed0f9060f3e509924aee9ba62
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8684fb619c73145baa627c07bab64be9478232ef
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050299"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42139028"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="provisioning-guide-for-lync-skype-connectivity-in-lync-server-2013"></a><span data-ttu-id="ab4e0-102">Lync Server 2013 での Lync と Skype の接続のプロビジョニングガイド</span><span class="sxs-lookup"><span data-stu-id="ab4e0-102">Provisioning guide for Lync-Skype connectivity in Lync Server 2013</span></span>
+# <a name="provisioning-guide-for-lync-skype-connectivity-in-lync-server-2013"></a><span data-ttu-id="150d0-102">Lync Server 2013 での Lync と Skype の接続のプロビジョニングガイド</span><span class="sxs-lookup"><span data-stu-id="150d0-102">Provisioning guide for Lync-Skype connectivity in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,30 +35,30 @@ ms.locfileid: "42050299"
 
 <span> </span>
 
-<span data-ttu-id="ab4e0-103">_**トピックの最終更新日:** 2014-11-26_</span><span class="sxs-lookup"><span data-stu-id="ab4e0-103">_**Topic Last Modified:** 2014-11-26_</span></span>
+<span data-ttu-id="150d0-103">_**トピックの最終更新日:** 2014-11-26_</span><span class="sxs-lookup"><span data-stu-id="150d0-103">_**Topic Last Modified:** 2014-11-26_</span></span>
 
-<span data-ttu-id="ab4e0-104">Lync Server 2013 は、Skype との接続をサポートしています。</span><span class="sxs-lookup"><span data-stu-id="ab4e0-104">Lync Server 2013 supports connectivity with Skype.</span></span> <span data-ttu-id="ab4e0-105">この接続により、Lync 2013 ユーザーは Skype ユーザーの Microsoft アカウント (MSA) を使用して Skype 連絡先を追加できます。</span><span class="sxs-lookup"><span data-stu-id="ab4e0-105">This connectivity enables your Lync 2013 users to add Skype contacts by using the Skype user’s Microsoft Account (MSA).</span></span> <span data-ttu-id="ab4e0-106">Skype クライアントは、Lync ユーザーを連絡先リストに追加することもできます。</span><span class="sxs-lookup"><span data-stu-id="ab4e0-106">Skype clients can also add Lync users to their contact list.</span></span> <span data-ttu-id="ab4e0-107">Lync Server で管理上設定されたポリシーに基づいて、Lync および Skype ユーザーはインスタントメッセージングを使用して通信したり、お互いのプレゼンスを確認したり、音声およびビデオ通話を開始したりすることができます。</span><span class="sxs-lookup"><span data-stu-id="ab4e0-107">Based on policies administratively set in Lync Server, Lync and Skype users will be able to communicate using instant messaging, see each other’s presence, and initiate audio and video calls.</span></span> <span data-ttu-id="ab4e0-108">Lync と Skype の接続は、Lync Online の機能でもあり、Office 365 ポータル内の Lync 管理センターから Lync Online の顧客に対して有効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="ab4e0-108">Lync-Skype connectivity is also a feature of Lync Online, and can be enabled for Lync Online customers from the Lync Administration Center within the Office 365 portal.</span></span>
+<span data-ttu-id="150d0-104">Lync Server 2013 は、Skype との接続をサポートしています。</span><span class="sxs-lookup"><span data-stu-id="150d0-104">Lync Server 2013 supports connectivity with Skype.</span></span> <span data-ttu-id="150d0-105">この接続により、Lync 2013 ユーザーは Skype ユーザーの Microsoft アカウント (MSA) を使用して Skype 連絡先を追加できます。</span><span class="sxs-lookup"><span data-stu-id="150d0-105">This connectivity enables your Lync 2013 users to add Skype contacts by using the Skype user’s Microsoft Account (MSA).</span></span> <span data-ttu-id="150d0-106">Skype クライアントは、Lync ユーザーを連絡先リストに追加することもできます。</span><span class="sxs-lookup"><span data-stu-id="150d0-106">Skype clients can also add Lync users to their contact list.</span></span> <span data-ttu-id="150d0-107">Lync Server で管理上設定されたポリシーに基づいて、Lync および Skype ユーザーはインスタントメッセージングを使用して通信したり、お互いのプレゼンスを確認したり、音声およびビデオ通話を開始したりすることができます。</span><span class="sxs-lookup"><span data-stu-id="150d0-107">Based on policies administratively set in Lync Server, Lync and Skype users will be able to communicate using instant messaging, see each other’s presence, and initiate audio and video calls.</span></span> <span data-ttu-id="150d0-108">Lync と Skype の接続は、Lync Online の機能でもあり、Office 365 ポータル内の Lync 管理センターから Lync Online の顧客に対して有効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="150d0-108">Lync-Skype connectivity is also a feature of Lync Online, and can be enabled for Lync Online customers from the Lync Administration Center within the Office 365 portal.</span></span>
 
 <div>
 
 > [!IMPORTANT]  
-> <span data-ttu-id="ab4e0-109">Lync Server がパブリックインスタントメッセージング接続 (PIC) を使用して Windows Messenger と接続するように既に構成されている場合、展開は既に Lync-Skype 接続用に構成されています。</span><span class="sxs-lookup"><span data-stu-id="ab4e0-109">If Lync Server is already configured to connect with Windows Messenger by using Public Instant Messaging Connectivity (PIC), your deployment is already configured for Lync-Skype connectivity.</span></span> <span data-ttu-id="ab4e0-110">検討する必要があるのは、既存の Messenger PIC エントリの名前を Skype に変更することだけです。</span><span class="sxs-lookup"><span data-stu-id="ab4e0-110">The only change you may want to consider is to rename your existing Messenger PIC entry as Skype.</span></span> <span data-ttu-id="ab4e0-111">詳細については、このガイドの「Lync の Skype PIC プロバイダー設定を構成する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="ab4e0-111">For details, see Configure the Skype PIC provider setting for Lync later in this guide.</span></span>
+> <span data-ttu-id="150d0-109">Lync Server がパブリックインスタントメッセージング接続 (PIC) を使用して Windows Messenger と接続するように既に構成されている場合、展開は既に Lync-Skype 接続用に構成されています。</span><span class="sxs-lookup"><span data-stu-id="150d0-109">If Lync Server is already configured to connect with Windows Messenger by using Public Instant Messaging Connectivity (PIC), your deployment is already configured for Lync-Skype connectivity.</span></span> <span data-ttu-id="150d0-110">検討する必要があるのは、既存の Messenger PIC エントリの名前を Skype に変更することだけです。</span><span class="sxs-lookup"><span data-stu-id="150d0-110">The only change you may want to consider is to rename your existing Messenger PIC entry as Skype.</span></span> <span data-ttu-id="150d0-111">詳細については、このガイドの「Lync の Skype PIC プロバイダー設定を構成する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="150d0-111">For details, see Configure the Skype PIC provider setting for Lync later in this guide.</span></span>
 
 </div>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="ab4e0-112">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="ab4e0-112">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="150d0-112">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="150d0-112">In This Section</span></span>
 
-  - [<span data-ttu-id="ab4e0-113">Lync Online のお客様向け lync Server 2013 での Lync と Skype の接続に関する注意事項</span><span class="sxs-lookup"><span data-stu-id="ab4e0-113">Note about Lync-Skype connectivity in Lync Server 2013 for Lync Online customers</span></span>](lync-server-2013-note-about-lync-skype-connectivity-for-lync-on.md)
+  - [<span data-ttu-id="150d0-113">Lync Online のお客様向け lync Server 2013 での Lync と Skype の接続に関する注意事項</span><span class="sxs-lookup"><span data-stu-id="150d0-113">Note about Lync-Skype connectivity in Lync Server 2013 for Lync Online customers</span></span>](lync-server-2013-note-about-lync-skype-connectivity-for-lync-on.md)
 
-  - [<span data-ttu-id="ab4e0-114">Lync server 2013 からの Lync Server パブリック IM 接続プロビジョニングサイトへのアクセス</span><span class="sxs-lookup"><span data-stu-id="ab4e0-114">Accessing the Lync Server public IM connectivity provisioning site from Lync Server 2013</span></span>](lync-server-2013-accessing-the-lync-server-public-im-connectivity-provisioning-site.md)
+  - [<span data-ttu-id="150d0-114">Lync server 2013 からの Lync Server パブリック IM 接続プロビジョニングサイトへのアクセス</span><span class="sxs-lookup"><span data-stu-id="150d0-114">Accessing the Lync Server public IM connectivity provisioning site from Lync Server 2013</span></span>](lync-server-2013-accessing-the-lync-server-public-im-connectivity-provisioning-site.md)
 
-  - [<span data-ttu-id="ab4e0-115">Lync Server 2013 での Lync と Skype の接続の有効化</span><span class="sxs-lookup"><span data-stu-id="ab4e0-115">Enabling Lync-Skype connectivity in Lync Server 2013</span></span>](lync-server-2013-enabling-lync-skype-connectivity.md)
+  - [<span data-ttu-id="150d0-115">Lync Server 2013 での Lync と Skype の接続の有効化</span><span class="sxs-lookup"><span data-stu-id="150d0-115">Enabling Lync-Skype connectivity in Lync Server 2013</span></span>](lync-server-2013-enabling-lync-skype-connectivity.md)
 
-  - [<span data-ttu-id="ab4e0-116">エンドユーザーとしての lync Server 2013 での Lync と Skype の接続の使用</span><span class="sxs-lookup"><span data-stu-id="ab4e0-116">Using Lync-Skype connectivity in Lync Server 2013 as an end user</span></span>](lync-server-2013-using-lync-skype-connectivity-as-an-end-user.md)
+  - [<span data-ttu-id="150d0-116">エンドユーザーとしての lync Server 2013 での Lync と Skype の接続の使用</span><span class="sxs-lookup"><span data-stu-id="150d0-116">Using Lync-Skype connectivity in Lync Server 2013 as an end user</span></span>](lync-server-2013-using-lync-skype-connectivity-as-an-end-user.md)
 
-  - [<span data-ttu-id="ab4e0-117">よく寄せられる質問: Lync Server 2013 を Skype 接続用にプロビジョニングする</span><span class="sxs-lookup"><span data-stu-id="ab4e0-117">Frequently Asked Questions: Provisioning Lync Server 2013 for Skype connectivity</span></span>](lync-server-2013-frequently-asked-questions-provisioning-lync-server-for-skype-connectivity.md)
+  - [<span data-ttu-id="150d0-117">よく寄せられる質問: Lync Server 2013 を Skype 接続用にプロビジョニングする</span><span class="sxs-lookup"><span data-stu-id="150d0-117">Frequently Asked Questions: Provisioning Lync Server 2013 for Skype connectivity</span></span>](lync-server-2013-frequently-asked-questions-provisioning-lync-server-for-skype-connectivity.md)
 
 </div>
 

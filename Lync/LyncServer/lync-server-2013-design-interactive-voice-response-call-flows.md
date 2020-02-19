@@ -12,20 +12,20 @@ ms:contentKeyID: 48185826
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ff6587c2dc70a638d1db670205fb5bfde452e499
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 428d1d40b32c8dfaec3b897549409016f2cb6984
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42042154"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137075"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="design-interactive-voice-response-call-flows-in-lync-server-2013"></a><span data-ttu-id="2a6d6-102">Lync Server 2013 での対話型音声応答呼び出しフローの設計</span><span class="sxs-lookup"><span data-stu-id="2a6d6-102">Design interactive voice response call flows in Lync Server 2013</span></span>
+# <a name="design-interactive-voice-response-call-flows-in-lync-server-2013"></a><span data-ttu-id="1bf3a-102">Lync Server 2013 での対話型音声応答呼び出しフローの設計</span><span class="sxs-lookup"><span data-stu-id="1bf3a-102">Design interactive voice response call flows in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,107 +35,107 @@ ms.locfileid: "42042154"
 
 <span> </span>
 
-<span data-ttu-id="2a6d6-103">_**トピックの最終更新日:** 2013-02-25_</span><span class="sxs-lookup"><span data-stu-id="2a6d6-103">_**Topic Last Modified:** 2013-02-25_</span></span>
+<span data-ttu-id="1bf3a-103">_**トピックの最終更新日:** 2013-02-25_</span><span class="sxs-lookup"><span data-stu-id="1bf3a-103">_**Topic Last Modified:** 2013-02-25_</span></span>
 
-<span data-ttu-id="2a6d6-p101">対話型音声応答 (IVR) を使用すると、発信者から情報を取得し、通話を適切なキューに転送できます。使用するキューは質問と回答のペアによって決定されます。発信者の応答に応じて、発信者は、追加の質問を受けるか、適切なキューにルーティングされます。IVR の質問と発信者の応答は、通話を承諾した応答エージェントに提供され、これによりそのエージェントは有益な情報を得られます。</span><span class="sxs-lookup"><span data-stu-id="2a6d6-p101">You can use interactive voice response (IVR) to obtain information from callers and direct the call to the appropriate queue. Question-and-answer pairs determine which queue to use. Depending on the caller’s response, the caller either hears a follow-up question, or is routed to the appropriate queue. The IVR questions and the caller’s responses are provided to the responding agent who accepts the call, providing valuable information to the agent.</span></span>
+<span data-ttu-id="1bf3a-p101">対話型音声応答 (IVR) を使用すると、発信者から情報を取得し、通話を適切なキューに転送できます。使用するキューは質問と回答のペアによって決定されます。発信者の応答に応じて、発信者は、追加の質問を受けるか、適切なキューにルーティングされます。IVR の質問と発信者の応答は、通話を承諾した応答エージェントに提供され、これによりそのエージェントは有益な情報を得られます。</span><span class="sxs-lookup"><span data-stu-id="1bf3a-p101">You can use interactive voice response (IVR) to obtain information from callers and direct the call to the appropriate queue. Question-and-answer pairs determine which queue to use. Depending on the caller’s response, the caller either hears a follow-up question, or is routed to the appropriate queue. The IVR questions and the caller’s responses are provided to the responding agent who accepts the call, providing valuable information to the agent.</span></span>
 
 <div>
 
-## <a name="overview-of-ivr-features"></a><span data-ttu-id="2a6d6-108">IVR 機能の概要</span><span class="sxs-lookup"><span data-stu-id="2a6d6-108">Overview of IVR Features</span></span>
+## <a name="overview-of-ivr-features"></a><span data-ttu-id="1bf3a-108">IVR 機能の概要</span><span class="sxs-lookup"><span data-stu-id="1bf3a-108">Overview of IVR Features</span></span>
 
-<span data-ttu-id="2a6d6-109">応答グループアプリケーションは、音声認識と音声合成機能を26の言語で提供します。</span><span class="sxs-lookup"><span data-stu-id="2a6d6-109">The Response Group application offers speech recognition and text-to-speech capabilities in 26 languages.</span></span> <span data-ttu-id="2a6d6-110">IVR の質問は、音声合成や wave (.wav) または Windows Media オーディオ (.wma) ファイルを使用して入力できます。</span><span class="sxs-lookup"><span data-stu-id="2a6d6-110">You can enter IVR questions using text-to-speech or a wave (.wav) or Windows Media audio (.wma) file.</span></span> <span data-ttu-id="2a6d6-111">発信者は、音声またはデュアルトーン多重周波数 (DTMF) 応答を使用して応答できます。</span><span class="sxs-lookup"><span data-stu-id="2a6d6-111">Callers can respond by using voice or dual-tone multifrequency (DTMF) responses.</span></span>
+<span data-ttu-id="1bf3a-109">応答グループアプリケーションは、音声認識と音声合成機能を26の言語で提供します。</span><span class="sxs-lookup"><span data-stu-id="1bf3a-109">The Response Group application offers speech recognition and text-to-speech capabilities in 26 languages.</span></span> <span data-ttu-id="1bf3a-110">IVR の質問は、音声合成や wave (.wav) または Windows Media オーディオ (.wma) ファイルを使用して入力できます。</span><span class="sxs-lookup"><span data-stu-id="1bf3a-110">You can enter IVR questions using text-to-speech or a wave (.wav) or Windows Media audio (.wma) file.</span></span> <span data-ttu-id="1bf3a-111">発信者は、音声またはデュアルトーン多重周波数 (DTMF) 応答を使用して応答できます。</span><span class="sxs-lookup"><span data-stu-id="1bf3a-111">Callers can respond by using voice or dual-tone multifrequency (DTMF) responses.</span></span>
 
-<span data-ttu-id="2a6d6-p103">対話ワークフローでは最高 2 問の質問がサポートされ、各質問には回答の選択肢を 4 つまで設定できます。IVR は、発信者に質問をして、発信者の応答に応じて、発信者をキューにルーティングするか、2 番目の質問をします。2 番目の質問にも、4 つの回答を設定できます。2 番目のレベルの質問に対する回答に応じて、発信者は適切なキューにルーティングされます。</span><span class="sxs-lookup"><span data-stu-id="2a6d6-p103">Interactive workflows support up to two levels of questions, with each question having up to four possible answers. The IVR asks the caller a question, and depending on the caller’s response, routes the caller to a queue or asks a second question. The second question can also have four possible answers. Depending on the answer to the second-level question, the caller is routed to the appropriate queue.</span></span>
+<span data-ttu-id="1bf3a-p103">対話ワークフローでは最高 2 問の質問がサポートされ、各質問には回答の選択肢を 4 つまで設定できます。IVR は、発信者に質問をして、発信者の応答に応じて、発信者をキューにルーティングするか、2 番目の質問をします。2 番目の質問にも、4 つの回答を設定できます。2 番目のレベルの質問に対する回答に応じて、発信者は適切なキューにルーティングされます。</span><span class="sxs-lookup"><span data-stu-id="1bf3a-p103">Interactive workflows support up to two levels of questions, with each question having up to four possible answers. The IVR asks the caller a question, and depending on the caller’s response, routes the caller to a queue or asks a second question. The second question can also have four possible answers. Depending on the answer to the second-level question, the caller is routed to the appropriate queue.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="2a6d6-116">Lync Server 管理シェルを使用してコールフローを設計する場合は、IVR の質問と任意の数の回答を任意の数レベルで定義できます。</span><span class="sxs-lookup"><span data-stu-id="2a6d6-116">When you design call flows by using Lync Server Management Shell, you can define any number levels of IVR questions and any number of answers.</span></span> <span data-ttu-id="2a6d6-117">ただし、発信者の利便性を考え、3 問より多くの質問は使用せず、それぞれの回答の選択肢を 5 つ以下にするようお勧めします。</span><span class="sxs-lookup"><span data-stu-id="2a6d6-117">However, for caller usability, we recommend that you not use more than three levels of questions, with not more than five answers each.</span></span> <span data-ttu-id="2a6d6-118">さらに、3つ以上の質問のレベル数が4個を超える通話フローを設計している場合は、Lync Server 2013 コントロールパネルを使用して通話フローを編集することはできません。</span><span class="sxs-lookup"><span data-stu-id="2a6d6-118">In addition, if you design a call flow that has more than two levels of questions with more than four answers each, you cannot edit the call flow by using Lync Server 2013 Control Panel.</span></span>
+> <span data-ttu-id="1bf3a-116">Lync Server 管理シェルを使用してコールフローを設計する場合は、IVR の質問と任意の数の回答を任意の数レベルで定義できます。</span><span class="sxs-lookup"><span data-stu-id="1bf3a-116">When you design call flows by using Lync Server Management Shell, you can define any number levels of IVR questions and any number of answers.</span></span> <span data-ttu-id="1bf3a-117">ただし、発信者の利便性を考え、3 問より多くの質問は使用せず、それぞれの回答の選択肢を 5 つ以下にするようお勧めします。</span><span class="sxs-lookup"><span data-stu-id="1bf3a-117">However, for caller usability, we recommend that you not use more than three levels of questions, with not more than five answers each.</span></span> <span data-ttu-id="1bf3a-118">さらに、3つ以上の質問のレベル数が4個を超える通話フローを設計している場合は、Lync Server 2013 コントロールパネルを使用して通話フローを編集することはできません。</span><span class="sxs-lookup"><span data-stu-id="1bf3a-118">In addition, if you design a call flow that has more than two levels of questions with more than four answers each, you cannot edit the call flow by using Lync Server 2013 Control Panel.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="2a6d6-119">IVR の質問と発信者の応答は、通話を承諾した応答エージェントに提供されます。</span><span class="sxs-lookup"><span data-stu-id="2a6d6-119">The IVR questions and the caller’s responses are provided to the responding agent who accepts the call.</span></span>
-
-</div>
-
-<div>
-
-## <a name="working-with-speech-technologies"></a><span data-ttu-id="2a6d6-120">音声テクノロジの操作</span><span class="sxs-lookup"><span data-stu-id="2a6d6-120">Working with Speech Technologies</span></span>
-
-<span data-ttu-id="2a6d6-121">音声認識や音声合成などの音声テクノロジにより、顧客のエクスペリエンスが強化され、情報へのより自然で効率的なアクセスが可能となります。</span><span class="sxs-lookup"><span data-stu-id="2a6d6-121">Speech technologies, such as speech recognition and text-to-speech, can enhance customer experience and let people access information more naturally and effectively.</span></span> <span data-ttu-id="2a6d6-122">ただし、指定したテキストやユーザーの音声応答が、音声エンジンによって正しく認識されない場合もあります。</span><span class="sxs-lookup"><span data-stu-id="2a6d6-122">However, there can be cases where the specified text or the user voice response is not recognized correctly by the speech engine.</span></span> <span data-ttu-id="2a6d6-123">たとえば、"\#" 記号は、音声合成エンジンによって "番号" という単語として変換されます。</span><span class="sxs-lookup"><span data-stu-id="2a6d6-123">For example, the "\#" symbol is translated by the text-to-speech engine as the word "number."</span></span> <span data-ttu-id="2a6d6-124">この問題は、次の方法によって軽減されます。</span><span class="sxs-lookup"><span data-stu-id="2a6d6-124">This issue can be mitigated by the following:</span></span>
-
-  - <span data-ttu-id="2a6d6-p106">音声エンジンにより、発信者は 5 回まで質問に回答することができます。発信者の質問に対する回答が不適切な場合 (回答が指定された応答のいずれでもない)、またはまったく回答がない場合には、発信者にもう一度その質問に回答する機会が与えられます。発信者は、通話が切断されるまでに 5 回質問に回答することができます。IVR は、発信者の回答に誤りがあるたびにカスタマイズしたメッセージを再生するように構成できます。質問は毎回繰り返されます。</span><span class="sxs-lookup"><span data-stu-id="2a6d6-p106">The speech engine gives the caller five attempts to answer the question. If the caller answers the question incorrectly (that is, the answer is not one of the specified responses) or does not provide an answer at all, the caller gets another chance to answer the question. The caller has five attempts to answer the question before being disconnected. You can configure the IVR to play a customized message after each caller error. The question is repeated each time.</span></span>
-
-  - <span data-ttu-id="2a6d6-p107">音声エンジンによって周囲の雑音が応答として解釈される可能性を最小限に抑えるため、長めの応答を使用してください。 たとえば、応答には複数の音節を含め、発音が相互に明確に異なるようにしてください。</span><span class="sxs-lookup"><span data-stu-id="2a6d6-p107">To minimize the potential for ambient noise to be interpreted by the speech engine as a response, use longer responses. For example, responses should have more than one syllable and should sound significantly different from each other.</span></span>
-
-  - <span data-ttu-id="2a6d6-p108">質問に音声応答と DTMF 応答の両方が含まれる場合は、DTMF 応答ではなく概念を表す語句で音声応答を構成してください。 たとえば、「1 を押すか 1 とお答えください」を使用する代わりに、「1 を押すか請求とお答えください」を使用します。</span><span class="sxs-lookup"><span data-stu-id="2a6d6-p108">If your questions have both speech and DTMF responses, configure the speech responses with words that represent the concept rather than the DTMF response. For example, instead of using "Press or say one" use "Press 1 or say billing."</span></span>
-
-  - <span data-ttu-id="2a6d6-134">IVR を設計したら、ワークフローを呼び出して質問を聞き、音声で各質問に応答して、IVR が正常に再生および動作することを確認します。</span><span class="sxs-lookup"><span data-stu-id="2a6d6-134">After you design your IVR, call the workflow, listen to the prompts, respond to each of the prompts using voice, and verify that the IVR sounds and behaves as expected.</span></span> <span data-ttu-id="2a6d6-135">その後、IVR を変更して、解釈の問題を修正できます。</span><span class="sxs-lookup"><span data-stu-id="2a6d6-135">You can then modify the IVR to fix any interpretation issues.</span></span> <span data-ttu-id="2a6d6-136">前の例に従って、 \#キーを参照する必要がある場合は、 \#記号ではなく、キー名を使用するように IVR プロンプトを書き換えることができます。</span><span class="sxs-lookup"><span data-stu-id="2a6d6-136">Following the previous example, if you need to refer to the \# key, you can rewrite your IVR prompt to use the key name, rather than the \# symbol.</span></span> <span data-ttu-id="2a6d6-137">たとえば、「営業部門をご希望の場合は、シャープを押してください」とします。</span><span class="sxs-lookup"><span data-stu-id="2a6d6-137">For example, "To talk to sales, press the pound key."</span></span>
+<span data-ttu-id="1bf3a-119">IVR の質問と発信者の応答は、通話を承諾した応答エージェントに提供されます。</span><span class="sxs-lookup"><span data-stu-id="1bf3a-119">The IVR questions and the caller’s responses are provided to the responding agent who accepts the call.</span></span>
 
 </div>
 
 <div>
 
-## <a name="ivr-design-examples"></a><span data-ttu-id="2a6d6-138">IVR 設計の例</span><span class="sxs-lookup"><span data-stu-id="2a6d6-138">IVR Design Examples</span></span>
+## <a name="working-with-speech-technologies"></a><span data-ttu-id="1bf3a-120">音声テクノロジの操作</span><span class="sxs-lookup"><span data-stu-id="1bf3a-120">Working with Speech Technologies</span></span>
 
-<span data-ttu-id="2a6d6-139">以下のセクションでは、さまざまな IVR シナリオおよび質問と回答のペアの例を示します。</span><span class="sxs-lookup"><span data-stu-id="2a6d6-139">The following sections contain examples of different IVR scenarios and question-and-answer pairs.</span></span>
+<span data-ttu-id="1bf3a-121">音声認識や音声合成などの音声テクノロジにより、顧客のエクスペリエンスが強化され、情報へのより自然で効率的なアクセスが可能となります。</span><span class="sxs-lookup"><span data-stu-id="1bf3a-121">Speech technologies, such as speech recognition and text-to-speech, can enhance customer experience and let people access information more naturally and effectively.</span></span> <span data-ttu-id="1bf3a-122">ただし、指定したテキストやユーザーの音声応答が、音声エンジンによって正しく認識されない場合もあります。</span><span class="sxs-lookup"><span data-stu-id="1bf3a-122">However, there can be cases where the specified text or the user voice response is not recognized correctly by the speech engine.</span></span> <span data-ttu-id="1bf3a-123">たとえば、"\#" 記号は、音声合成エンジンによって "番号" という単語として変換されます。</span><span class="sxs-lookup"><span data-stu-id="1bf3a-123">For example, the "\#" symbol is translated by the text-to-speech engine as the word "number."</span></span> <span data-ttu-id="1bf3a-124">この問題は、次の方法によって軽減されます。</span><span class="sxs-lookup"><span data-stu-id="1bf3a-124">This issue can be mitigated by the following:</span></span>
 
-<div>
+  - <span data-ttu-id="1bf3a-p106">音声エンジンにより、発信者は 5 回まで質問に回答することができます。発信者の質問に対する回答が不適切な場合 (回答が指定された応答のいずれでもない)、またはまったく回答がない場合には、発信者にもう一度その質問に回答する機会が与えられます。発信者は、通話が切断されるまでに 5 回質問に回答することができます。IVR は、発信者の回答に誤りがあるたびにカスタマイズしたメッセージを再生するように構成できます。質問は毎回繰り返されます。</span><span class="sxs-lookup"><span data-stu-id="1bf3a-p106">The speech engine gives the caller five attempts to answer the question. If the caller answers the question incorrectly (that is, the answer is not one of the specified responses) or does not provide an answer at all, the caller gets another chance to answer the question. The caller has five attempts to answer the question before being disconnected. You can configure the IVR to play a customized message after each caller error. The question is repeated each time.</span></span>
 
-## <a name="ivr-with-one-level-of-questions"></a><span data-ttu-id="2a6d6-140">1 問の質問が設定された IVR</span><span class="sxs-lookup"><span data-stu-id="2a6d6-140">IVR with One Level of Questions</span></span>
+  - <span data-ttu-id="1bf3a-p107">音声エンジンによって周囲の雑音が応答として解釈される可能性を最小限に抑えるため、長めの応答を使用してください。 たとえば、応答には複数の音節を含め、発音が相互に明確に異なるようにしてください。</span><span class="sxs-lookup"><span data-stu-id="1bf3a-p107">To minimize the potential for ambient noise to be interpreted by the speech engine as a response, use longer responses. For example, responses should have more than one syllable and should sound significantly different from each other.</span></span>
 
-<span data-ttu-id="2a6d6-p110">次の例は、1 問の質問を使用する IVR を示しています。 この例では、音声認識を使用して発信者の応答を検出します。</span><span class="sxs-lookup"><span data-stu-id="2a6d6-p110">The following example shows an IVR that uses one level of questions. It uses speech recognition to detect the caller’s response.</span></span>
+  - <span data-ttu-id="1bf3a-p108">質問に音声応答と DTMF 応答の両方が含まれる場合は、DTMF 応答ではなく概念を表す語句で音声応答を構成してください。 たとえば、「1 を押すか 1 とお答えください」を使用する代わりに、「1 を押すか請求とお答えください」を使用します。</span><span class="sxs-lookup"><span data-stu-id="1bf3a-p108">If your questions have both speech and DTMF responses, configure the speech responses with words that represent the concept rather than the DTMF response. For example, instead of using "Press or say one" use "Press 1 or say billing."</span></span>
 
-<span data-ttu-id="2a6d6-p111">\*\*質問:  \*\*「人事部にお問い合わせいただき、ありがとうございます。 給与課をご希望の場合は、給与課とお答えください。 それ以外の場合は、人事部とお答えください。」</span><span class="sxs-lookup"><span data-stu-id="2a6d6-p111">**Question:** "Thank you for calling Human Resources. If you would like to speak to payroll, say payroll. Otherwise, say HR."</span></span>
-
-  - <span data-ttu-id="2a6d6-146">\*\*1 つ目のオプションが選択された場合:  \*\*発信者は給与課にルーティングされます。</span><span class="sxs-lookup"><span data-stu-id="2a6d6-146">**Option 1 is selected:** The caller is routed to the payroll team.</span></span>
-
-  - <span data-ttu-id="2a6d6-147">\*\*2 つ目のオプションが選択された場合:  \*\*発信者は人事部にルーティングされます。</span><span class="sxs-lookup"><span data-stu-id="2a6d6-147">**Option 2 is selected:** The caller is routed to the human resources team.</span></span>
-
-<span data-ttu-id="2a6d6-148">次の図は、通話の流れを示します。</span><span class="sxs-lookup"><span data-stu-id="2a6d6-148">The following figure shows the call flow.</span></span>
-
-<span data-ttu-id="2a6d6-149">**1 問対話の通話の流れ**</span><span class="sxs-lookup"><span data-stu-id="2a6d6-149">**One-level interactive call flow**</span></span>
-
-<span data-ttu-id="2a6d6-150">![対話式音声入出力を使用して呼び出しフローを設計する](images/Gg413020.4820a9f7-b5b0-4831-b972-baae0c015ec1(OCS.15).jpg "対話式音声入出力を使用して呼び出しフローを設計する")</span><span class="sxs-lookup"><span data-stu-id="2a6d6-150">![Design Call Flows by Using Interactive Voice Respo](images/Gg413020.4820a9f7-b5b0-4831-b972-baae0c015ec1(OCS.15).jpg "Design Call Flows by Using Interactive Voice Respo")</span></span>
+  - <span data-ttu-id="1bf3a-134">IVR を設計したら、ワークフローを呼び出して質問を聞き、音声で各質問に応答して、IVR が正常に再生および動作することを確認します。</span><span class="sxs-lookup"><span data-stu-id="1bf3a-134">After you design your IVR, call the workflow, listen to the prompts, respond to each of the prompts using voice, and verify that the IVR sounds and behaves as expected.</span></span> <span data-ttu-id="1bf3a-135">その後、IVR を変更して、解釈の問題を修正できます。</span><span class="sxs-lookup"><span data-stu-id="1bf3a-135">You can then modify the IVR to fix any interpretation issues.</span></span> <span data-ttu-id="1bf3a-136">前の例に従って、 \#キーを参照する必要がある場合は、 \#記号ではなく、キー名を使用するように IVR プロンプトを書き換えることができます。</span><span class="sxs-lookup"><span data-stu-id="1bf3a-136">Following the previous example, if you need to refer to the \# key, you can rewrite your IVR prompt to use the key name, rather than the \# symbol.</span></span> <span data-ttu-id="1bf3a-137">たとえば、「営業部門をご希望の場合は、シャープを押してください」とします。</span><span class="sxs-lookup"><span data-stu-id="1bf3a-137">For example, "To talk to sales, press the pound key."</span></span>
 
 </div>
 
 <div>
 
-## <a name="ivr-with-two-levels-of-questions"></a><span data-ttu-id="2a6d6-151">2 問の質問が設定された IVR</span><span class="sxs-lookup"><span data-stu-id="2a6d6-151">IVR with Two Levels of Questions</span></span>
+## <a name="ivr-design-examples"></a><span data-ttu-id="1bf3a-138">IVR 設計の例</span><span class="sxs-lookup"><span data-stu-id="1bf3a-138">IVR Design Examples</span></span>
 
-<span data-ttu-id="2a6d6-p112">次の例は、2 問の質問を使用する IVR を示しています。 この例で発信者は、音声または DTMF キーパッド入力を使用して応答できます。</span><span class="sxs-lookup"><span data-stu-id="2a6d6-p112">The following example shows an IVR that uses two levels of questions. It allows callers to respond using either speech or DTMF keypad input.</span></span>
+<span data-ttu-id="1bf3a-139">以下のセクションでは、さまざまな IVR シナリオおよび質問と回答のペアの例を示します。</span><span class="sxs-lookup"><span data-stu-id="1bf3a-139">The following sections contain examples of different IVR scenarios and question-and-answer pairs.</span></span>
 
-<span data-ttu-id="2a6d6-p113">\*\*質問:  \*\*「IT ヘルプ デスクにお問い合わせいただき、ありがとうございます。ネットワーク アクセスに問題がある場合は、1 を押すか、ネットワークとお答えください。ソフトウェアに問題がある場合は、2 を押すか、ソフトウェアとお答えください。ハードウェアに問題がある場合は、3 を押すか、ハードウェアとお答えください。」</span><span class="sxs-lookup"><span data-stu-id="2a6d6-p113">**Question:** "Thank you for calling the IT Help Desk. If you have a network access problem, press 1 or say network. If you have a software problem, press 2 or say software. If you have a hardware problem, press 3 or say hardware."</span></span>
+<div>
 
-  - <span data-ttu-id="2a6d6-158">\*\*1 つ目のオプションが選択された場合:  \*\*発信者はネットワーク サポート チームにルーティングされます。</span><span class="sxs-lookup"><span data-stu-id="2a6d6-158">**Option 1 is selected:** The caller is routed to the network support team.</span></span>
+## <a name="ivr-with-one-level-of-questions"></a><span data-ttu-id="1bf3a-140">1 問の質問が設定された IVR</span><span class="sxs-lookup"><span data-stu-id="1bf3a-140">IVR with One Level of Questions</span></span>
 
-  - <span data-ttu-id="2a6d6-159">\*\*2 つ目のオプションが選択された場合:  \*\*発信者には、追加の質問が行われます。</span><span class="sxs-lookup"><span data-stu-id="2a6d6-159">**Option 2 is selected:** The caller is asked a follow-up question:</span></span>
+<span data-ttu-id="1bf3a-p110">次の例は、1 問の質問を使用する IVR を示しています。 この例では、音声認識を使用して発信者の応答を検出します。</span><span class="sxs-lookup"><span data-stu-id="1bf3a-p110">The following example shows an IVR that uses one level of questions. It uses speech recognition to detect the caller’s response.</span></span>
+
+<span data-ttu-id="1bf3a-p111">\*\*質問:  \*\*「人事部にお問い合わせいただき、ありがとうございます。 給与課をご希望の場合は、給与課とお答えください。 それ以外の場合は、人事部とお答えください。」</span><span class="sxs-lookup"><span data-stu-id="1bf3a-p111">**Question:** "Thank you for calling Human Resources. If you would like to speak to payroll, say payroll. Otherwise, say HR."</span></span>
+
+  - <span data-ttu-id="1bf3a-146">\*\*1 つ目のオプションが選択された場合:  \*\*発信者は給与課にルーティングされます。</span><span class="sxs-lookup"><span data-stu-id="1bf3a-146">**Option 1 is selected:** The caller is routed to the payroll team.</span></span>
+
+  - <span data-ttu-id="1bf3a-147">\*\*2 つ目のオプションが選択された場合:  \*\*発信者は人事部にルーティングされます。</span><span class="sxs-lookup"><span data-stu-id="1bf3a-147">**Option 2 is selected:** The caller is routed to the human resources team.</span></span>
+
+<span data-ttu-id="1bf3a-148">次の図は、通話の流れを示します。</span><span class="sxs-lookup"><span data-stu-id="1bf3a-148">The following figure shows the call flow.</span></span>
+
+<span data-ttu-id="1bf3a-149">**1 問対話の通話の流れ**</span><span class="sxs-lookup"><span data-stu-id="1bf3a-149">**One-level interactive call flow**</span></span>
+
+<span data-ttu-id="1bf3a-150">![対話式音声入出力を使用して呼び出しフローを設計する](images/Gg413020.4820a9f7-b5b0-4831-b972-baae0c015ec1(OCS.15).jpg "対話式音声入出力を使用して呼び出しフローを設計する")</span><span class="sxs-lookup"><span data-stu-id="1bf3a-150">![Design Call Flows by Using Interactive Voice Respo](images/Gg413020.4820a9f7-b5b0-4831-b972-baae0c015ec1(OCS.15).jpg "Design Call Flows by Using Interactive Voice Respo")</span></span>
+
+</div>
+
+<div>
+
+## <a name="ivr-with-two-levels-of-questions"></a><span data-ttu-id="1bf3a-151">2 問の質問が設定された IVR</span><span class="sxs-lookup"><span data-stu-id="1bf3a-151">IVR with Two Levels of Questions</span></span>
+
+<span data-ttu-id="1bf3a-p112">次の例は、2 問の質問を使用する IVR を示しています。 この例で発信者は、音声または DTMF キーパッド入力を使用して応答できます。</span><span class="sxs-lookup"><span data-stu-id="1bf3a-p112">The following example shows an IVR that uses two levels of questions. It allows callers to respond using either speech or DTMF keypad input.</span></span>
+
+<span data-ttu-id="1bf3a-p113">\*\*質問:  \*\*「IT ヘルプ デスクにお問い合わせいただき、ありがとうございます。ネットワーク アクセスに問題がある場合は、1 を押すか、ネットワークとお答えください。ソフトウェアに問題がある場合は、2 を押すか、ソフトウェアとお答えください。ハードウェアに問題がある場合は、3 を押すか、ハードウェアとお答えください。」</span><span class="sxs-lookup"><span data-stu-id="1bf3a-p113">**Question:** "Thank you for calling the IT Help Desk. If you have a network access problem, press 1 or say network. If you have a software problem, press 2 or say software. If you have a hardware problem, press 3 or say hardware."</span></span>
+
+  - <span data-ttu-id="1bf3a-158">\*\*1 つ目のオプションが選択された場合:  \*\*発信者はネットワーク サポート チームにルーティングされます。</span><span class="sxs-lookup"><span data-stu-id="1bf3a-158">**Option 1 is selected:** The caller is routed to the network support team.</span></span>
+
+  - <span data-ttu-id="1bf3a-159">\*\*2 つ目のオプションが選択された場合:  \*\*発信者には、追加の質問が行われます。</span><span class="sxs-lookup"><span data-stu-id="1bf3a-159">**Option 2 is selected:** The caller is asked a follow-up question:</span></span>
     
-    <span data-ttu-id="2a6d6-p114">\*\*質問:  \*\*「オペレーティング システムに問題がある場合は、1 を押すか、オペレーティング システムとお答えください。内部アプリケーションに問題がある場合は、2 を押すか、内部アプリケーションとお答えください。それ以外の場合は、3 を押すか、それ以外とお答えください。」</span><span class="sxs-lookup"><span data-stu-id="2a6d6-p114">**Question:** "If this is an operating system problem, press 1 or say operating system. If this is a problem with an internal application, press 2 or say internal application. Otherwise, press 3 or say other."</span></span>
+    <span data-ttu-id="1bf3a-p114">\*\*質問:  \*\*「オペレーティング システムに問題がある場合は、1 を押すか、オペレーティング システムとお答えください。内部アプリケーションに問題がある場合は、2 を押すか、内部アプリケーションとお答えください。それ以外の場合は、3 を押すか、それ以外とお答えください。」</span><span class="sxs-lookup"><span data-stu-id="1bf3a-p114">**Question:** "If this is an operating system problem, press 1 or say operating system. If this is a problem with an internal application, press 2 or say internal application. Otherwise, press 3 or say other."</span></span>
     
-      - <span data-ttu-id="2a6d6-163">\*\*1 つ目のオプションが選択された場合:  \*\*発信者はオペレーティング システムのサポート チームにルーティングされます。</span><span class="sxs-lookup"><span data-stu-id="2a6d6-163">**Option 1 is selected:** The caller is routed to the operating systems support team.</span></span>
+      - <span data-ttu-id="1bf3a-163">\*\*1 つ目のオプションが選択された場合:  \*\*発信者はオペレーティング システムのサポート チームにルーティングされます。</span><span class="sxs-lookup"><span data-stu-id="1bf3a-163">**Option 1 is selected:** The caller is routed to the operating systems support team.</span></span>
     
-      - <span data-ttu-id="2a6d6-164">\*\*2 つ目のオプションが選択された場合:  \*\*発信者は内部アプリケーションのサポート チームにルーティングされます。</span><span class="sxs-lookup"><span data-stu-id="2a6d6-164">**Option 2 is selected:** The caller is routed to the internal applications support team.</span></span>
+      - <span data-ttu-id="1bf3a-164">\*\*2 つ目のオプションが選択された場合:  \*\*発信者は内部アプリケーションのサポート チームにルーティングされます。</span><span class="sxs-lookup"><span data-stu-id="1bf3a-164">**Option 2 is selected:** The caller is routed to the internal applications support team.</span></span>
     
-      - <span data-ttu-id="2a6d6-165">\*\*3 つ目のオプションが選択された場合:  \*\*発信者はソフトウェア サポート チームにルーティングされます。</span><span class="sxs-lookup"><span data-stu-id="2a6d6-165">**Option 3 is selected:** The caller is routed to the software support team.</span></span>
+      - <span data-ttu-id="1bf3a-165">\*\*3 つ目のオプションが選択された場合:  \*\*発信者はソフトウェア サポート チームにルーティングされます。</span><span class="sxs-lookup"><span data-stu-id="1bf3a-165">**Option 3 is selected:** The caller is routed to the software support team.</span></span>
 
-  - <span data-ttu-id="2a6d6-166">\*\*3 つ目のオプションが選択された場合: \*\*発信者には、追加の質問が行われます。</span><span class="sxs-lookup"><span data-stu-id="2a6d6-166">**Option 3 is selected:** The caller is asked a follow-up question:</span></span>
+  - <span data-ttu-id="1bf3a-166">\*\*3 つ目のオプションが選択された場合: \*\*発信者には、追加の質問が行われます。</span><span class="sxs-lookup"><span data-stu-id="1bf3a-166">**Option 3 is selected:** The caller is asked a follow-up question:</span></span>
     
-    <span data-ttu-id="2a6d6-p115">\*\*質問:  \*\*「プリンタに問題がある場合は 1 を、それ以外の場合は 2 を押してください。」</span><span class="sxs-lookup"><span data-stu-id="2a6d6-p115">**Question:** "If this is a printer problem press 1. Otherwise, press 2."</span></span>
+    <span data-ttu-id="1bf3a-p115">\*\*質問:  \*\*「プリンタに問題がある場合は 1 を、それ以外の場合は 2 を押してください。」</span><span class="sxs-lookup"><span data-stu-id="1bf3a-p115">**Question:** "If this is a printer problem press 1. Otherwise, press 2."</span></span>
     
-      - <span data-ttu-id="2a6d6-169">\*\*1 つ目のオプションが選択された場合:  \*\*発信者はプリンタのサポート チームにルーティングされます。</span><span class="sxs-lookup"><span data-stu-id="2a6d6-169">**Option 1 is selected:** The caller is routed to the printer support team.</span></span>
+      - <span data-ttu-id="1bf3a-169">\*\*1 つ目のオプションが選択された場合:  \*\*発信者はプリンタのサポート チームにルーティングされます。</span><span class="sxs-lookup"><span data-stu-id="1bf3a-169">**Option 1 is selected:** The caller is routed to the printer support team.</span></span>
     
-      - <span data-ttu-id="2a6d6-170">\*\*2 つ目のオプションが選択された場合:  \*\*発信者はハードウェア サポート チームにルーティングされます。</span><span class="sxs-lookup"><span data-stu-id="2a6d6-170">**Option 2 is selected:** The caller is routed to the hardware support team.</span></span>
+      - <span data-ttu-id="1bf3a-170">\*\*2 つ目のオプションが選択された場合:  \*\*発信者はハードウェア サポート チームにルーティングされます。</span><span class="sxs-lookup"><span data-stu-id="1bf3a-170">**Option 2 is selected:** The caller is routed to the hardware support team.</span></span>
 
-<span data-ttu-id="2a6d6-171">次の図は、通話の流れを示します。</span><span class="sxs-lookup"><span data-stu-id="2a6d6-171">The following figure shows the call flow.</span></span>
+<span data-ttu-id="1bf3a-171">次の図は、通話の流れを示します。</span><span class="sxs-lookup"><span data-stu-id="1bf3a-171">The following figure shows the call flow.</span></span>
 
-<span data-ttu-id="2a6d6-172">**2 問対話の通話の流れ**</span><span class="sxs-lookup"><span data-stu-id="2a6d6-172">**Two-level interactive call flow**</span></span>
+<span data-ttu-id="1bf3a-172">**2 問対話の通話の流れ**</span><span class="sxs-lookup"><span data-stu-id="1bf3a-172">**Two-level interactive call flow**</span></span>
 
-<span data-ttu-id="2a6d6-173">![対話式音声入出力を使用して呼び出しフローを設計する](images/Gg413020.a5b62083-312d-4419-898b-d1a225a5379f(OCS.15).jpg "対話式音声入出力を使用して呼び出しフローを設計する")</span><span class="sxs-lookup"><span data-stu-id="2a6d6-173">![Design Call Flows by Using Interactive Voice Respo](images/Gg413020.a5b62083-312d-4419-898b-d1a225a5379f(OCS.15).jpg "Design Call Flows by Using Interactive Voice Respo")</span></span>
+<span data-ttu-id="1bf3a-173">![対話式音声入出力を使用して呼び出しフローを設計する](images/Gg413020.a5b62083-312d-4419-898b-d1a225a5379f(OCS.15).jpg "対話式音声入出力を使用して呼び出しフローを設計する")</span><span class="sxs-lookup"><span data-stu-id="1bf3a-173">![Design Call Flows by Using Interactive Voice Respo](images/Gg413020.a5b62083-312d-4419-898b-d1a225a5379f(OCS.15).jpg "Design Call Flows by Using Interactive Voice Respo")</span></span>
 
 </div>
 
@@ -143,21 +143,21 @@ ms.locfileid: "42042154"
 
 <div>
 
-## <a name="best-practices"></a><span data-ttu-id="2a6d6-174">ベスト プラクティス</span><span class="sxs-lookup"><span data-stu-id="2a6d6-174">Best Practices</span></span>
+## <a name="best-practices"></a><span data-ttu-id="1bf3a-174">ベスト プラクティス</span><span class="sxs-lookup"><span data-stu-id="1bf3a-174">Best Practices</span></span>
 
-<span data-ttu-id="2a6d6-175">以下に、IVR を設計する場合のベスト プラクティスをいくつか示します。</span><span class="sxs-lookup"><span data-stu-id="2a6d6-175">The following list describes some best practices for designing your IVR:</span></span>
+<span data-ttu-id="1bf3a-175">以下に、IVR を設計する場合のベスト プラクティスをいくつか示します。</span><span class="sxs-lookup"><span data-stu-id="1bf3a-175">The following list describes some best practices for designing your IVR:</span></span>
 
-  - <span data-ttu-id="2a6d6-p116">発信者がすばやくタスクに取りかかることができるようにする。 過剰な情報や長いマーケティング メッセージを IVR に含めないようにする。</span><span class="sxs-lookup"><span data-stu-id="2a6d6-p116">Let the caller get to the task quickly. Avoid providing too much information or lengthy marketing messages in your IVR.</span></span>
+  - <span data-ttu-id="1bf3a-p116">発信者がすばやくタスクに取りかかることができるようにする。 過剰な情報や長いマーケティング メッセージを IVR に含めないようにする。</span><span class="sxs-lookup"><span data-stu-id="1bf3a-p116">Let the caller get to the task quickly. Avoid providing too much information or lengthy marketing messages in your IVR.</span></span>
 
-  - <span data-ttu-id="2a6d6-p117">長いメッセージを含める場合は、開始メッセージの代わりに、最初の質問に追加することを考慮する。 発信者は、そのメッセージが最初の質問の一部であれば、質問に回答することによって省略できるが、開始メッセージを省略することはできない。</span><span class="sxs-lookup"><span data-stu-id="2a6d6-p117">If you want to include a lengthy message, consider appending it to the first question instead of to the welcome message. Callers can bypass the message if it is part of the first question by answering the question, but they cannot bypass the welcome message.</span></span>
+  - <span data-ttu-id="1bf3a-p117">長いメッセージを含める場合は、開始メッセージの代わりに、最初の質問に追加することを考慮する。 発信者は、そのメッセージが最初の質問の一部であれば、質問に回答することによって省略できるが、開始メッセージを省略することはできない。</span><span class="sxs-lookup"><span data-stu-id="1bf3a-p117">If you want to include a lengthy message, consider appending it to the first question instead of to the welcome message. Callers can bypass the message if it is part of the first question by answering the question, but they cannot bypass the welcome message.</span></span>
 
-  - <span data-ttu-id="2a6d6-p118">発信者の言語で話す。 堅苦しい言い回しを避ける。 自然に話す。</span><span class="sxs-lookup"><span data-stu-id="2a6d6-p118">Speak in the caller’s language. Avoid stilted language. Speak naturally.</span></span>
+  - <span data-ttu-id="1bf3a-p118">発信者の言語で話す。 堅苦しい言い回しを避ける。 自然に話す。</span><span class="sxs-lookup"><span data-stu-id="1bf3a-p118">Speak in the caller’s language. Avoid stilted language. Speak naturally.</span></span>
 
-  - <span data-ttu-id="2a6d6-p119">効率的かつ効果的な案内を記述する。 不要なオプションを削除する。 情報を構造化し、発信者が予期している応答が文の最後になるようにする。 たとえば、「営業部をご希望の場合は、1 を押してください」とする。</span><span class="sxs-lookup"><span data-stu-id="2a6d6-p119">Write efficient and effective prompts. Remove any unnecessary options. Structure the information so that the caller’s expected response is at the end of the sentence. For example, “To speak to the sales team, press 1."</span></span>
+  - <span data-ttu-id="1bf3a-p119">効率的かつ効果的な案内を記述する。 不要なオプションを削除する。 情報を構造化し、発信者が予期している応答が文の最後になるようにする。 たとえば、「営業部をご希望の場合は、1 を押してください」とする。</span><span class="sxs-lookup"><span data-stu-id="1bf3a-p119">Write efficient and effective prompts. Remove any unnecessary options. Structure the information so that the caller’s expected response is at the end of the sentence. For example, “To speak to the sales team, press 1."</span></span>
 
-  - <span data-ttu-id="2a6d6-p120">音声応答をわかりやすいものにする。 たとえば、DTMF 応答と音声応答の両方を指定する場合は、次のようにする。 「営業部をご希望の場合は、1 を押すか、営業と答えてください。」</span><span class="sxs-lookup"><span data-stu-id="2a6d6-p120">Make voice responses user friendly. For example, if you specify both DTMF and voice responses, use something like: "To speak to the sales team, press 1 or say sales."</span></span>
+  - <span data-ttu-id="1bf3a-p120">音声応答をわかりやすいものにする。 たとえば、DTMF 応答と音声応答の両方を指定する場合は、次のようにする。 「営業部をご希望の場合は、1 を押すか、営業と答えてください。」</span><span class="sxs-lookup"><span data-stu-id="1bf3a-p120">Make voice responses user friendly. For example, if you specify both DTMF and voice responses, use something like: "To speak to the sales team, press 1 or say sales."</span></span>
 
-  - <span data-ttu-id="2a6d6-189">組織全体で展開する前に、ユーザーのグループで IVR をテストする。</span><span class="sxs-lookup"><span data-stu-id="2a6d6-189">Test the IVR on a group of users before you deploy it across your organization.</span></span>
+  - <span data-ttu-id="1bf3a-189">組織全体で展開する前に、ユーザーのグループで IVR をテストする。</span><span class="sxs-lookup"><span data-stu-id="1bf3a-189">Test the IVR on a group of users before you deploy it across your organization.</span></span>
 
 </div>
 

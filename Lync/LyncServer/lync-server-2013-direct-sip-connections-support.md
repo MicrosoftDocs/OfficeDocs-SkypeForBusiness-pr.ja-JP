@@ -12,20 +12,20 @@ ms:contentKeyID: 48183611
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: be5a7fc7fba086130775a3f394af435c0d823f04
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 099ca6da5a23c8c2bf936c7067cfc40cf323ebfb
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036707"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136384"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="direct-sip-connections-support-in-lync-server-2013"></a><span data-ttu-id="f8aac-102">Lync Server 2013 での直接 SIP 接続のサポート</span><span class="sxs-lookup"><span data-stu-id="f8aac-102">Direct SIP connections support in Lync Server 2013</span></span>
+# <a name="direct-sip-connections-support-in-lync-server-2013"></a><span data-ttu-id="63e8e-102">Lync Server 2013 での直接 SIP 接続のサポート</span><span class="sxs-lookup"><span data-stu-id="63e8e-102">Direct SIP connections support in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "42036707"
 
 <span> </span>
 
-<span data-ttu-id="f8aac-103">_**トピックの最終更新日:** 2012-06-29_</span><span class="sxs-lookup"><span data-stu-id="f8aac-103">_**Topic Last Modified:** 2012-06-29_</span></span>
+<span data-ttu-id="63e8e-103">_**トピックの最終更新日:** 2012-06-29_</span><span class="sxs-lookup"><span data-stu-id="63e8e-103">_**Topic Last Modified:** 2012-06-29_</span></span>
 
-<span data-ttu-id="f8aac-104">Lync Server 2013 は、次のいずれかに Lync Server 2013 を接続するための直接 SIP 接続の使用をサポートしています。</span><span class="sxs-lookup"><span data-stu-id="f8aac-104">Lync Server 2013 supports the use of direct SIP connections to connect Lync Server 2013 to either of the following:</span></span>
+<span data-ttu-id="63e8e-104">Lync Server 2013 は、次のいずれかに Lync Server 2013 を接続するための直接 SIP 接続の使用をサポートしています。</span><span class="sxs-lookup"><span data-stu-id="63e8e-104">Lync Server 2013 supports the use of direct SIP connections to connect Lync Server 2013 to either of the following:</span></span>
 
-  - <span data-ttu-id="f8aac-105">IP-PBX</span><span class="sxs-lookup"><span data-stu-id="f8aac-105">An IP-PBX</span></span>
+  - <span data-ttu-id="63e8e-105">IP-PBX</span><span class="sxs-lookup"><span data-stu-id="63e8e-105">An IP-PBX</span></span>
 
-  - <span data-ttu-id="f8aac-106">PSTN ゲートウェイ</span><span class="sxs-lookup"><span data-stu-id="f8aac-106">A PSTN gateway</span></span>
+  - <span data-ttu-id="63e8e-106">PSTN ゲートウェイ</span><span class="sxs-lookup"><span data-stu-id="63e8e-106">A PSTN gateway</span></span>
 
-<span data-ttu-id="f8aac-107">Lync Server 2013 プールの仲介サーバーは、テレフォニーサービスプロバイダーが提供する複数のゲートウェイ、セッションボーダーコントローラー (sbc)、またはそれらの組み合わせを制御できます。</span><span class="sxs-lookup"><span data-stu-id="f8aac-107">The Mediation Servers in a Lync Server 2013 pool can control multiple gateways, Session Border Controllers (SBCs) provided by telephony service providers, or some combination thereof.</span></span> <span data-ttu-id="f8aac-108">また、プール内の複数の仲介サーバーは、単一のゲートウェイと対話できます。</span><span class="sxs-lookup"><span data-stu-id="f8aac-108">Additionally, multiple Mediation Servers in the pool can interact with a single gateway.</span></span>
+<span data-ttu-id="63e8e-107">Lync Server 2013 プールの仲介サーバーは、テレフォニーサービスプロバイダーが提供する複数のゲートウェイ、セッションボーダーコントローラー (sbc)、またはそれらの組み合わせを制御できます。</span><span class="sxs-lookup"><span data-stu-id="63e8e-107">The Mediation Servers in a Lync Server 2013 pool can control multiple gateways, Session Border Controllers (SBCs) provided by telephony service providers, or some combination thereof.</span></span> <span data-ttu-id="63e8e-108">また、プール内の複数の仲介サーバーは、単一のゲートウェイと対話できます。</span><span class="sxs-lookup"><span data-stu-id="63e8e-108">Additionally, multiple Mediation Servers in the pool can interact with a single gateway.</span></span>
 
-<span data-ttu-id="f8aac-109">エンタープライズ テレフォニー インフラストラクチャを対象にした Microsoft Unified Communications Open Interoperability Program を使用して、動作が確認されている PSTN ゲートウェイ、IP-PBX、および SIP トランキング サービスを検索できます。</span><span class="sxs-lookup"><span data-stu-id="f8aac-109">You can use the Microsoft Unified Communications Open Interoperability Program for enterprise telephony infrastructure to find qualified PSTN gateways, IP-PBXs, and SIP trunking services.</span></span> <span data-ttu-id="f8aac-110">詳細については、「Microsoft 統合コミュニケーションオープン相互運用性[http://go.microsoft.com/fwlink/p/?linkId=203309](http://go.microsoft.com/fwlink/p/?linkid=203309)プログラム web サイト」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="f8aac-110">For details, see the Microsoft Unified Communications Open Interoperability Program website at [http://go.microsoft.com/fwlink/p/?linkId=203309](http://go.microsoft.com/fwlink/p/?linkid=203309).</span></span>
+<span data-ttu-id="63e8e-109">エンタープライズ テレフォニー インフラストラクチャを対象にした Microsoft Unified Communications Open Interoperability Program を使用して、動作が確認されている PSTN ゲートウェイ、IP-PBX、および SIP トランキング サービスを検索できます。</span><span class="sxs-lookup"><span data-stu-id="63e8e-109">You can use the Microsoft Unified Communications Open Interoperability Program for enterprise telephony infrastructure to find qualified PSTN gateways, IP-PBXs, and SIP trunking services.</span></span> <span data-ttu-id="63e8e-110">詳細については、「Microsoft 統合コミュニケーションオープン相互運用性[https://go.microsoft.com/fwlink/p/?linkId=203309](https://go.microsoft.com/fwlink/p/?linkid=203309)プログラム web サイト」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="63e8e-110">For details, see the Microsoft Unified Communications Open Interoperability Program website at [https://go.microsoft.com/fwlink/p/?linkId=203309](https://go.microsoft.com/fwlink/p/?linkid=203309).</span></span>
 
-<span data-ttu-id="f8aac-111">直接 SIP 接続のトポロジと展開オプションの詳細については、「計画」のドキュメントの「 [DIRECT sip connections In Lync Server 2013](lync-server-2013-direct-sip-connections.md) 」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="f8aac-111">For details about the topology and deployment options for direct SIP connections, see [Direct SIP connections in Lync Server 2013](lync-server-2013-direct-sip-connections.md) in the Planning documentation.</span></span>
+<span data-ttu-id="63e8e-111">直接 SIP 接続のトポロジと展開オプションの詳細については、「計画」のドキュメントの「 [DIRECT sip connections In Lync Server 2013](lync-server-2013-direct-sip-connections.md) 」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="63e8e-111">For details about the topology and deployment options for direct SIP connections, see [Direct SIP connections in Lync Server 2013](lync-server-2013-direct-sip-connections.md) in the Planning documentation.</span></span>
 
 </div>
 

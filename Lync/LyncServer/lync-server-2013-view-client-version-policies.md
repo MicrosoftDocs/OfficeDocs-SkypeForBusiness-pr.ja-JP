@@ -12,20 +12,20 @@ ms:contentKeyID: 50873759
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0599fb84cedc2ff64cb053e0bc319c364962de3c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 517ef41ed2553db1c05ad98dad08c2087bec6faa
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42007186"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136835"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-client-version-policies-in-lync-server-2013"></a><span data-ttu-id="8aae3-102">Lync Server 2013 でクライアントバージョンポリシーを表示する</span><span class="sxs-lookup"><span data-stu-id="8aae3-102">View client version policies in Lync Server 2013</span></span>
+# <a name="view-client-version-policies-in-lync-server-2013"></a><span data-ttu-id="7dcd5-102">Lync Server 2013 でクライアントバージョンポリシーを表示する</span><span class="sxs-lookup"><span data-stu-id="7dcd5-102">View client version policies in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,39 +35,39 @@ ms.locfileid: "42007186"
 
 <span> </span>
 
-<span data-ttu-id="8aae3-103">_**トピックの最終更新日:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="8aae3-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+<span data-ttu-id="7dcd5-103">_**トピックの最終更新日:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="7dcd5-103">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-<span data-ttu-id="8aae3-104">クライアントバージョンポリシーは、グローバルに、または特定のサイト、プール、またはユーザーのグループに一連のクライアントバージョン管理ルールを適用するために使用されます。</span><span class="sxs-lookup"><span data-stu-id="8aae3-104">Client version policies are used to apply a set of client versioning rules globally or to a particular site, pool, or group of users.</span></span> <span data-ttu-id="8aae3-105">Lync server 2013 コントロールパネルまたは Lync Server 2013 管理シェルから Lync Server 2013 環境で構成されているクライアントバージョンポリシーを表示できます。</span><span class="sxs-lookup"><span data-stu-id="8aae3-105">You can view the client version policies that have been configured in your Lync Server 2013 environment from Lync Server 2013 Control Panel or Lync Server 2013 Management Shell.</span></span>
+<span data-ttu-id="7dcd5-104">クライアントバージョンポリシーは、グローバルに、または特定のサイト、プール、またはユーザーのグループに一連のクライアントバージョン管理ルールを適用するために使用されます。</span><span class="sxs-lookup"><span data-stu-id="7dcd5-104">Client version policies are used to apply a set of client versioning rules globally or to a particular site, pool, or group of users.</span></span> <span data-ttu-id="7dcd5-105">Lync server 2013 コントロールパネルまたは Lync Server 2013 管理シェルから Lync Server 2013 環境で構成されているクライアントバージョンポリシーを表示できます。</span><span class="sxs-lookup"><span data-stu-id="7dcd5-105">You can view the client version policies that have been configured in your Lync Server 2013 environment from Lync Server 2013 Control Panel or Lync Server 2013 Management Shell.</span></span>
 
 <div>
 
-## <a name="to-view-client-version-policies-by-using-lync-server-control-panel"></a><span data-ttu-id="8aae3-106">Lync Server コントロールパネルを使用してクライアントバージョンポリシーを表示するには</span><span class="sxs-lookup"><span data-stu-id="8aae3-106">To view client version policies by using Lync Server Control Panel</span></span>
+## <a name="to-view-client-version-policies-by-using-lync-server-control-panel"></a><span data-ttu-id="7dcd5-106">Lync Server コントロールパネルを使用してクライアントバージョンポリシーを表示するには</span><span class="sxs-lookup"><span data-stu-id="7dcd5-106">To view client version policies by using Lync Server Control Panel</span></span>
 
-1.  <span data-ttu-id="8aae3-107">CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="8aae3-107">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="7dcd5-107">CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="7dcd5-107">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="8aae3-108">ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="8aae3-108">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="8aae3-109">Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="8aae3-109">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="7dcd5-108">ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="7dcd5-108">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="7dcd5-109">Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="7dcd5-109">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="8aae3-110">左側のナビゲーションバーで [**クライアント**] をクリックし、[**クライアントバージョンポリシー** ] ナビゲーションボタンをクリックします。</span><span class="sxs-lookup"><span data-stu-id="8aae3-110">In the left navigation bar, click **Clients**, and then click the **Client Version Policy** navigation button.</span></span>
+3.  <span data-ttu-id="7dcd5-110">左側のナビゲーションバーで [**クライアント**] をクリックし、[**クライアントバージョンポリシー** ] ナビゲーションボタンをクリックします。</span><span class="sxs-lookup"><span data-stu-id="7dcd5-110">In the left navigation bar, click **Clients**, and then click the **Client Version Policy** navigation button.</span></span>
 
-4.  <span data-ttu-id="8aae3-111">クライアントバージョンポリシーのルールを表示する場合は、[**クライアントバージョンポリシー** ] ページで、表示するポリシーをダブルクリックします。</span><span class="sxs-lookup"><span data-stu-id="8aae3-111">If you want to view the rules for a client version policy, on the **Client Version Policy** page, double-click the policy you want to view.</span></span>
+4.  <span data-ttu-id="7dcd5-111">クライアントバージョンポリシーのルールを表示する場合は、[**クライアントバージョンポリシー** ] ページで、表示するポリシーをダブルクリックします。</span><span class="sxs-lookup"><span data-stu-id="7dcd5-111">If you want to view the rules for a client version policy, on the **Client Version Policy** page, double-click the policy you want to view.</span></span>
 
 </div>
 
 <div>
 
-## <a name="viewing-client-version-policies-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="8aae3-112">Windows PowerShell コマンドレットを使用してクライアントバージョンポリシーを表示する</span><span class="sxs-lookup"><span data-stu-id="8aae3-112">Viewing Client Version Policies by Using Windows PowerShell Cmdlets</span></span>
+## <a name="viewing-client-version-policies-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="7dcd5-112">Windows PowerShell コマンドレットを使用してクライアントバージョンポリシーを表示する</span><span class="sxs-lookup"><span data-stu-id="7dcd5-112">Viewing Client Version Policies by Using Windows PowerShell Cmdlets</span></span>
 
-<span data-ttu-id="8aae3-113">クライアントバージョンポリシーを表示するには、「Get-help the the **CsClientVersionPolicy** 」コマンドレットを使用します。</span><span class="sxs-lookup"><span data-stu-id="8aae3-113">You can view client version policies by using the **Get-CsClientVersionPolicy** cmdlet.</span></span> <span data-ttu-id="8aae3-114">このコマンドレットは、Lync Server 2013 管理シェルから実行するか、Windows PowerShell のリモートセッションから実行できます。</span><span class="sxs-lookup"><span data-stu-id="8aae3-114">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="8aae3-115">リモート Windows PowerShell を使用して Lync Server に接続する方法の詳細については、Lync Server Windows PowerShell のブログ記事「Quick Start: Microsoft Lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)を使用したリモート PowerShell の管理」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="8aae3-115">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+<span data-ttu-id="7dcd5-113">クライアントバージョンポリシーを表示するには、「Get-help the the **CsClientVersionPolicy** 」コマンドレットを使用します。</span><span class="sxs-lookup"><span data-stu-id="7dcd5-113">You can view client version policies by using the **Get-CsClientVersionPolicy** cmdlet.</span></span> <span data-ttu-id="7dcd5-114">このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。</span><span class="sxs-lookup"><span data-stu-id="7dcd5-114">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="7dcd5-115">リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。</span><span class="sxs-lookup"><span data-stu-id="7dcd5-115">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
 <div>
 
-## <a name="to-view-client-version-policies"></a><span data-ttu-id="8aae3-116">クライアントバージョンポリシーを表示するには</span><span class="sxs-lookup"><span data-stu-id="8aae3-116">To view client version policies</span></span>
+## <a name="to-view-client-version-policies"></a><span data-ttu-id="7dcd5-116">クライアントバージョンポリシーを表示するには</span><span class="sxs-lookup"><span data-stu-id="7dcd5-116">To view client version policies</span></span>
 
-  - <span data-ttu-id="8aae3-117">すべてのクライアントバージョンポリシーに関する情報を表示するには、Lync Server 管理シェルで次のコマンドを入力し、enter キーを押します。</span><span class="sxs-lookup"><span data-stu-id="8aae3-117">To view information about all your client version policies, type the following command in the Lync Server Management Shell and then press ENTER:</span></span>
+  - <span data-ttu-id="7dcd5-117">すべてのクライアントバージョンポリシーに関する情報を表示するには、Lync Server 管理シェルで次のコマンドを入力し、enter キーを押します。</span><span class="sxs-lookup"><span data-stu-id="7dcd5-117">To view information about all your client version policies, type the following command in the Lync Server Management Shell and then press ENTER:</span></span>
     
         Get-CsClientVersionPolicy
     
-    <span data-ttu-id="8aae3-118">次のような情報が表示されます。</span><span class="sxs-lookup"><span data-stu-id="8aae3-118">That will return information similar to this:</span></span>
+    <span data-ttu-id="7dcd5-118">次のような情報が表示されます。</span><span class="sxs-lookup"><span data-stu-id="7dcd5-118">That will return information similar to this:</span></span>
     
         Identity    : Global
         Rules       : {RuleId=2336c611-a243-4c5d-994b-eea8a524d0e4;
@@ -91,7 +91,7 @@ ms.locfileid: "42007186"
 
 </div>
 
-<span data-ttu-id="8aae3-119">詳細については、「Get-help for [CsClientVersionPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsClientVersionPolicy) 」のヘルプトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="8aae3-119">For details, see the Help topic for the [Get-CsClientVersionPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsClientVersionPolicy) cmdlet.</span></span>
+<span data-ttu-id="7dcd5-119">詳細については、「Get-help for [CsClientVersionPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsClientVersionPolicy) 」のヘルプトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="7dcd5-119">For details, see the Help topic for the [Get-CsClientVersionPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsClientVersionPolicy) cmdlet.</span></span>
 
 </div>
 

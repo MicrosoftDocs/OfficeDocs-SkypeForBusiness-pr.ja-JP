@@ -12,20 +12,20 @@ ms:contentKeyID: 49557733
 ms.date: 09/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7652e2bd31f27c711724e67f67aac29d33038606
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 6f023a762e6d9bdb8c33950bcfc2cc8d4944bb4f
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42041076"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138358"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="customizing-the-xslt-definition-file-in-lync-server-2013"></a><span data-ttu-id="a6973-102">Lync Server 2013 での XSLT 定義ファイルのカスタマイズ</span><span class="sxs-lookup"><span data-stu-id="a6973-102">Customizing the XSLT definition file in Lync Server 2013</span></span>
+# <a name="customizing-the-xslt-definition-file-in-lync-server-2013"></a><span data-ttu-id="30496-102">Lync Server 2013 での XSLT 定義ファイルのカスタマイズ</span><span class="sxs-lookup"><span data-stu-id="30496-102">Customizing the XSLT definition file in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "42041076"
 
 <span> </span>
 
-<span data-ttu-id="a6973-103">_**トピックの最終更新日:** 2014-09-11_</span><span class="sxs-lookup"><span data-stu-id="a6973-103">_**Topic Last Modified:** 2014-09-11_</span></span>
+<span data-ttu-id="30496-103">_**トピックの最終更新日:** 2014-09-11_</span><span class="sxs-lookup"><span data-stu-id="30496-103">_**Topic Last Modified:** 2014-09-11_</span></span>
 
-<span data-ttu-id="a6973-104">コンプライアンスサービスは、参加者がいる場合を含め、各 Lync Server 2013、常設チャットサーバーの会話に関連するデータを記録およびアーカイブします。</span><span class="sxs-lookup"><span data-stu-id="a6973-104">The Compliance service records and archives data related to each Lync Server 2013, Persistent Chat Server conversation, including when a participant:</span></span>
+<span data-ttu-id="30496-104">コンプライアンスサービスは、参加者がいる場合を含め、各 Lync Server 2013、常設チャットサーバーの会話に関連するデータを記録およびアーカイブします。</span><span class="sxs-lookup"><span data-stu-id="30496-104">The Compliance service records and archives data related to each Lync Server 2013, Persistent Chat Server conversation, including when a participant:</span></span>
 
-  - <span data-ttu-id="a6973-105">常設チャットルームへの参加</span><span class="sxs-lookup"><span data-stu-id="a6973-105">Joins a Persistent Chat room</span></span>
+  - <span data-ttu-id="30496-105">常設チャットルームへの参加</span><span class="sxs-lookup"><span data-stu-id="30496-105">Joins a Persistent Chat room</span></span>
 
-  - <span data-ttu-id="a6973-106">チャット ルームから退出する</span><span class="sxs-lookup"><span data-stu-id="a6973-106">Leaves a chat room</span></span>
+  - <span data-ttu-id="30496-106">チャット ルームから退出する</span><span class="sxs-lookup"><span data-stu-id="30496-106">Leaves a chat room</span></span>
 
-  - <span data-ttu-id="a6973-107">メッセージを投稿する</span><span class="sxs-lookup"><span data-stu-id="a6973-107">Posts a message</span></span>
+  - <span data-ttu-id="30496-107">メッセージを投稿する</span><span class="sxs-lookup"><span data-stu-id="30496-107">Posts a message</span></span>
 
-  - <span data-ttu-id="a6973-108">チャット履歴を表示する</span><span class="sxs-lookup"><span data-stu-id="a6973-108">Views chat history</span></span>
+  - <span data-ttu-id="30496-108">チャット履歴を表示する</span><span class="sxs-lookup"><span data-stu-id="30496-108">Views chat history</span></span>
 
-  - <span data-ttu-id="a6973-109">ファイルをアップロードする</span><span class="sxs-lookup"><span data-stu-id="a6973-109">Uploads a file</span></span>
+  - <span data-ttu-id="30496-109">ファイルをアップロードする</span><span class="sxs-lookup"><span data-stu-id="30496-109">Uploads a file</span></span>
 
-  - <span data-ttu-id="a6973-110">ファイルをダウンロードする</span><span class="sxs-lookup"><span data-stu-id="a6973-110">Downloads a file</span></span>
+  - <span data-ttu-id="30496-110">ファイルをダウンロードする</span><span class="sxs-lookup"><span data-stu-id="30496-110">Downloads a file</span></span>
 
-<span data-ttu-id="a6973-p101">データは XML として送信されるため、XSLT 定義ファイルを使用して組織に最適な書式に変換できます。このトピックでは、コンプライアンス サービスが作成する XML ファイルについて説明します。また、XSLT の定義および出力ファイルを提供します。</span><span class="sxs-lookup"><span data-stu-id="a6973-p101">The data is delivered as XML, which you can transform into the format that best fits your organization, by using an XSLT definition file. This topic describes the XML file that the Compliance service creates. It also provides samples of XSLT definition and output files.</span></span>
+<span data-ttu-id="30496-p101">データは XML として送信されるため、XSLT 定義ファイルを使用して組織に最適な書式に変換できます。このトピックでは、コンプライアンス サービスが作成する XML ファイルについて説明します。また、XSLT の定義および出力ファイルを提供します。</span><span class="sxs-lookup"><span data-stu-id="30496-p101">The data is delivered as XML, which you can transform into the format that best fits your organization, by using an XSLT definition file. This topic describes the XML file that the Compliance service creates. It also provides samples of XSLT definition and output files.</span></span>
 
 <div>
 
-## <a name="output-format"></a><span data-ttu-id="a6973-114">出力書式</span><span class="sxs-lookup"><span data-stu-id="a6973-114">Output Format</span></span>
+## <a name="output-format"></a><span data-ttu-id="30496-114">出力書式</span><span class="sxs-lookup"><span data-stu-id="30496-114">Output Format</span></span>
 
-<span data-ttu-id="a6973-115">コンプライアンス サービスの出力は、会話 (Conversation 要素) とメッセージ (Messages 要素) によって分類されます。次のコード サンプルに例を示します。</span><span class="sxs-lookup"><span data-stu-id="a6973-115">The Compliance service output is categorized by conversation (the Conversation element) and then by message (the Messages element), as shown in the following code sample.</span></span>
+<span data-ttu-id="30496-115">コンプライアンス サービスの出力は、会話 (Conversation 要素) とメッセージ (Messages 要素) によって分類されます。次のコード サンプルに例を示します。</span><span class="sxs-lookup"><span data-stu-id="30496-115">The Compliance service output is categorized by conversation (the Conversation element) and then by message (the Messages element), as shown in the following code sample.</span></span>
 
     <?xml version="1.0" encoding="utf-8" ?> 
     <Conversations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
@@ -72,23 +72,23 @@ ms.locfileid: "42041076"
       </Conversation>
     </Conversations>
 
-<span data-ttu-id="a6973-p102">Conversation 要素には、4 つの要素 (Channel、FirstMessage、StartTimeUTC、および EndTimeUTC) が含まれます。Channel 要素には、チャット ルームの Uniform Resource Identifier (URI) が含まれます。FirstMessage 要素は、Messages 要素の最初のメッセージを記述します。StartTimeUTC および EndTimeUTC 要素は、会話の開始および終了時刻を示します。次のコード サンプルに例を示します。</span><span class="sxs-lookup"><span data-stu-id="a6973-p102">A Conversation element contains four elements (Channel, FirstMessage, StartTimeUTC, and EndTimeUTC). The Channel element contains the Uniform Resource Identifier (URI) of the chat room, and the FirstMessage element describes the first message in the Messages element. The StartTimeUTC and EndTimeUTC elements provide the start and end times for the conversation, as shown in the following code sample.</span></span>
+<span data-ttu-id="30496-p102">Conversation 要素には、4 つの要素 (Channel、FirstMessage、StartTimeUTC、および EndTimeUTC) が含まれます。Channel 要素には、チャット ルームの Uniform Resource Identifier (URI) が含まれます。FirstMessage 要素は、Messages 要素の最初のメッセージを記述します。StartTimeUTC および EndTimeUTC 要素は、会話の開始および終了時刻を示します。次のコード サンプルに例を示します。</span><span class="sxs-lookup"><span data-stu-id="30496-p102">A Conversation element contains four elements (Channel, FirstMessage, StartTimeUTC, and EndTimeUTC). The Channel element contains the Uniform Resource Identifier (URI) of the chat room, and the FirstMessage element describes the first message in the Messages element. The StartTimeUTC and EndTimeUTC elements provide the start and end times for the conversation, as shown in the following code sample.</span></span>
 
     <<FirstMessage type="JOIN" content="" id="0">
           <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
           <DateTimeUTC since1970="1212610540953" string="2008-06-04T20:15:40.9535482Z" long="633482073409535482" /> 
     </FirstMessage>
 
-<span data-ttu-id="a6973-p103">Message 要素には、2 つの要素 (Sender および DateTimeUTC) と 3 つの属性 (type、content、および id) が含まれます。Sender 要素は、メッセージを送信したユーザーを表し、DateTimeUTC 要素は、イベントの発生時刻を表します。次のコード サンプルに例を示します。</span><span class="sxs-lookup"><span data-stu-id="a6973-p103">A Message element contains two elements (Sender and DateTimeUTC) and three attributes (Type, Content, and ID). The Sender element represents the user who sends the message, and the DateTimeUTC element represents when an event occurs, as shown in the following code sample.</span></span>
+<span data-ttu-id="30496-p103">Message 要素には、2 つの要素 (Sender および DateTimeUTC) と 3 つの属性 (type、content、および id) が含まれます。Sender 要素は、メッセージを送信したユーザーを表し、DateTimeUTC 要素は、イベントの発生時刻を表します。次のコード サンプルに例を示します。</span><span class="sxs-lookup"><span data-stu-id="30496-p103">A Message element contains two elements (Sender and DateTimeUTC) and three attributes (Type, Content, and ID). The Sender element represents the user who sends the message, and the DateTimeUTC element represents when an event occurs, as shown in the following code sample.</span></span>
 
     <Message type="JOIN" content="" id="0">
       <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
       <DateTimeUTC since1970="1206211842612" string="2008-03-22T18:50:42.6127374Z" long="633418086426127374" /> 
     </Message>
 
-<span data-ttu-id="a6973-121">次の表では、メッセージ属性 Type、Content、および ID について説明します。</span><span class="sxs-lookup"><span data-stu-id="a6973-121">The following table describes the message attributes Type, Content, and ID.</span></span>
+<span data-ttu-id="30496-121">次の表では、メッセージ属性 Type、Content、および ID について説明します。</span><span class="sxs-lookup"><span data-stu-id="30496-121">The following table describes the message attributes Type, Content, and ID.</span></span>
 
-### <a name="messages-element-attributes"></a><span data-ttu-id="a6973-122">Messages 要素の属性</span><span class="sxs-lookup"><span data-stu-id="a6973-122">Messages Element Attributes</span></span>
+### <a name="messages-element-attributes"></a><span data-ttu-id="30496-122">Messages 要素の属性</span><span class="sxs-lookup"><span data-stu-id="30496-122">Messages Element Attributes</span></span>
 
 <table>
 <colgroup>
@@ -98,34 +98,34 @@ ms.locfileid: "42041076"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="a6973-123">属性</span><span class="sxs-lookup"><span data-stu-id="a6973-123">Attribute</span></span></th>
-<th><span data-ttu-id="a6973-124">説明</span><span class="sxs-lookup"><span data-stu-id="a6973-124">Description</span></span></th>
-<th><span data-ttu-id="a6973-125">省略可能/必須</span><span class="sxs-lookup"><span data-stu-id="a6973-125">Optional/Required</span></span></th>
+<th><span data-ttu-id="30496-123">属性</span><span class="sxs-lookup"><span data-stu-id="30496-123">Attribute</span></span></th>
+<th><span data-ttu-id="30496-124">説明</span><span class="sxs-lookup"><span data-stu-id="30496-124">Description</span></span></th>
+<th><span data-ttu-id="30496-125">省略可能/必須</span><span class="sxs-lookup"><span data-stu-id="30496-125">Optional/Required</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="a6973-126">型</span><span class="sxs-lookup"><span data-stu-id="a6973-126">Type</span></span></p></td>
-<td><p><span data-ttu-id="a6973-p104">メッセージの型を指定します。メッセージの型については、「Messages 要素のメッセージ型」の表で説明されています。</span><span class="sxs-lookup"><span data-stu-id="a6973-p104">Specifies the message type. The message types are described in the Message Elements Message Types table.</span></span></p></td>
-<td><p><span data-ttu-id="a6973-129">必須</span><span class="sxs-lookup"><span data-stu-id="a6973-129">Required</span></span></p></td>
+<td><p><span data-ttu-id="30496-126">型</span><span class="sxs-lookup"><span data-stu-id="30496-126">Type</span></span></p></td>
+<td><p><span data-ttu-id="30496-p104">メッセージの型を指定します。メッセージの型については、「Messages 要素のメッセージ型」の表で説明されています。</span><span class="sxs-lookup"><span data-stu-id="30496-p104">Specifies the message type. The message types are described in the Message Elements Message Types table.</span></span></p></td>
+<td><p><span data-ttu-id="30496-129">必須</span><span class="sxs-lookup"><span data-stu-id="30496-129">Required</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a6973-130">コンテンツ</span><span class="sxs-lookup"><span data-stu-id="a6973-130">Content</span></span></p></td>
-<td><p><span data-ttu-id="a6973-p105">メッセージの内容が含まれます。Type が Join または Part であるメッセージはこの属性を使用しません。</span><span class="sxs-lookup"><span data-stu-id="a6973-p105">Contains the content of the message. Messages with a Type of Join or Part do not use this attribute.</span></span></p></td>
-<td><p><span data-ttu-id="a6973-133">オプション</span><span class="sxs-lookup"><span data-stu-id="a6973-133">Optional</span></span></p></td>
+<td><p><span data-ttu-id="30496-130">コンテンツ</span><span class="sxs-lookup"><span data-stu-id="30496-130">Content</span></span></p></td>
+<td><p><span data-ttu-id="30496-p105">メッセージの内容が含まれます。Type が Join または Part であるメッセージはこの属性を使用しません。</span><span class="sxs-lookup"><span data-stu-id="30496-p105">Contains the content of the message. Messages with a Type of Join or Part do not use this attribute.</span></span></p></td>
+<td><p><span data-ttu-id="30496-133">オプション</span><span class="sxs-lookup"><span data-stu-id="30496-133">Optional</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a6973-134">ID</span><span class="sxs-lookup"><span data-stu-id="a6973-134">ID</span></span></p></td>
-<td><p><span data-ttu-id="a6973-p106">コンテンツの一意の ID を指定します。この属性は、Type が Chat であるメッセージでのみ使用されます。</span><span class="sxs-lookup"><span data-stu-id="a6973-p106">Specifies the unique ID of the content. This attribute is used only with messages with a Type of Chat.</span></span></p></td>
-<td><p><span data-ttu-id="a6973-137">オプション</span><span class="sxs-lookup"><span data-stu-id="a6973-137">Optional</span></span></p></td>
+<td><p><span data-ttu-id="30496-134">ID</span><span class="sxs-lookup"><span data-stu-id="30496-134">ID</span></span></p></td>
+<td><p><span data-ttu-id="30496-p106">コンテンツの一意の ID を指定します。この属性は、Type が Chat であるメッセージでのみ使用されます。</span><span class="sxs-lookup"><span data-stu-id="30496-p106">Specifies the unique ID of the content. This attribute is used only with messages with a Type of Chat.</span></span></p></td>
+<td><p><span data-ttu-id="30496-137">オプション</span><span class="sxs-lookup"><span data-stu-id="30496-137">Optional</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="a6973-p107">各 Sender 要素には、5 つの属性 (Username、ID、Email、Internal、および Uri) が含まれます。これらの属性については、次の表で説明されています。</span><span class="sxs-lookup"><span data-stu-id="a6973-p107">Each Sender element contains five attributes: the user name, ID, email, internal, and URI. These attributes are described in the following table.</span></span>
+<span data-ttu-id="30496-p107">各 Sender 要素には、5 つの属性 (Username、ID、Email、Internal、および Uri) が含まれます。これらの属性については、次の表で説明されています。</span><span class="sxs-lookup"><span data-stu-id="30496-p107">Each Sender element contains five attributes: the user name, ID, email, internal, and URI. These attributes are described in the following table.</span></span>
 
-### <a name="sender-element-attributes"></a><span data-ttu-id="a6973-140">Sender 要素の属性</span><span class="sxs-lookup"><span data-stu-id="a6973-140">Sender Element Attributes</span></span>
+### <a name="sender-element-attributes"></a><span data-ttu-id="30496-140">Sender 要素の属性</span><span class="sxs-lookup"><span data-stu-id="30496-140">Sender Element Attributes</span></span>
 
 <table>
 <colgroup>
@@ -135,44 +135,44 @@ ms.locfileid: "42041076"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="a6973-141">属性</span><span class="sxs-lookup"><span data-stu-id="a6973-141">Attribute</span></span></th>
-<th><span data-ttu-id="a6973-142">説明</span><span class="sxs-lookup"><span data-stu-id="a6973-142">Description</span></span></th>
-<th><span data-ttu-id="a6973-143">省略可能/必須</span><span class="sxs-lookup"><span data-stu-id="a6973-143">Optional/Required</span></span></th>
+<th><span data-ttu-id="30496-141">属性</span><span class="sxs-lookup"><span data-stu-id="30496-141">Attribute</span></span></th>
+<th><span data-ttu-id="30496-142">説明</span><span class="sxs-lookup"><span data-stu-id="30496-142">Description</span></span></th>
+<th><span data-ttu-id="30496-143">省略可能/必須</span><span class="sxs-lookup"><span data-stu-id="30496-143">Optional/Required</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="a6973-144">ユーザー名</span><span class="sxs-lookup"><span data-stu-id="a6973-144">Username</span></span></p></td>
-<td><p><span data-ttu-id="a6973-145">送信者の名前。</span><span class="sxs-lookup"><span data-stu-id="a6973-145">The name of the sender.</span></span></p></td>
-<td><p><span data-ttu-id="a6973-146">オプション</span><span class="sxs-lookup"><span data-stu-id="a6973-146">Optional</span></span></p></td>
+<td><p><span data-ttu-id="30496-144">ユーザー名</span><span class="sxs-lookup"><span data-stu-id="30496-144">Username</span></span></p></td>
+<td><p><span data-ttu-id="30496-145">送信者の名前。</span><span class="sxs-lookup"><span data-stu-id="30496-145">The name of the sender.</span></span></p></td>
+<td><p><span data-ttu-id="30496-146">オプション</span><span class="sxs-lookup"><span data-stu-id="30496-146">Optional</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a6973-147">ID</span><span class="sxs-lookup"><span data-stu-id="a6973-147">ID</span></span></p></td>
-<td><p><span data-ttu-id="a6973-148">送信者の一意の ID。</span><span class="sxs-lookup"><span data-stu-id="a6973-148">The sender’s unique ID.</span></span></p></td>
-<td><p><span data-ttu-id="a6973-149">必須</span><span class="sxs-lookup"><span data-stu-id="a6973-149">Required</span></span></p></td>
+<td><p><span data-ttu-id="30496-147">ID</span><span class="sxs-lookup"><span data-stu-id="30496-147">ID</span></span></p></td>
+<td><p><span data-ttu-id="30496-148">送信者の一意の ID。</span><span class="sxs-lookup"><span data-stu-id="30496-148">The sender’s unique ID.</span></span></p></td>
+<td><p><span data-ttu-id="30496-149">必須</span><span class="sxs-lookup"><span data-stu-id="30496-149">Required</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a6973-150">メール</span><span class="sxs-lookup"><span data-stu-id="a6973-150">Email</span></span></p></td>
-<td><p><span data-ttu-id="a6973-151">送信者の電子メール アドレス。</span><span class="sxs-lookup"><span data-stu-id="a6973-151">The sender’s email address.</span></span></p></td>
-<td><p><span data-ttu-id="a6973-152">オプション</span><span class="sxs-lookup"><span data-stu-id="a6973-152">Optional</span></span></p></td>
+<td><p><span data-ttu-id="30496-150">メール</span><span class="sxs-lookup"><span data-stu-id="30496-150">Email</span></span></p></td>
+<td><p><span data-ttu-id="30496-151">送信者の電子メール アドレス。</span><span class="sxs-lookup"><span data-stu-id="30496-151">The sender’s email address.</span></span></p></td>
+<td><p><span data-ttu-id="30496-152">オプション</span><span class="sxs-lookup"><span data-stu-id="30496-152">Optional</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a6973-153">内部</span><span class="sxs-lookup"><span data-stu-id="a6973-153">Internal</span></span></p></td>
-<td><p><span data-ttu-id="a6973-p108">ユーザーが内部ユーザーとフェデレーション ユーザーのどちらであるかを決定します。この値が True に設定されている場合、ユーザーは内部ユーザーです。</span><span class="sxs-lookup"><span data-stu-id="a6973-p108">Determines whether the user is an internal user or a federated user. If the value is set to true, the user is internal.</span></span></p></td>
-<td><p><span data-ttu-id="a6973-156">オプション</span><span class="sxs-lookup"><span data-stu-id="a6973-156">Optional</span></span></p></td>
+<td><p><span data-ttu-id="30496-153">内部</span><span class="sxs-lookup"><span data-stu-id="30496-153">Internal</span></span></p></td>
+<td><p><span data-ttu-id="30496-p108">ユーザーが内部ユーザーとフェデレーション ユーザーのどちらであるかを決定します。この値が True に設定されている場合、ユーザーは内部ユーザーです。</span><span class="sxs-lookup"><span data-stu-id="30496-p108">Determines whether the user is an internal user or a federated user. If the value is set to true, the user is internal.</span></span></p></td>
+<td><p><span data-ttu-id="30496-156">オプション</span><span class="sxs-lookup"><span data-stu-id="30496-156">Optional</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a6973-157">Uri</span><span class="sxs-lookup"><span data-stu-id="a6973-157">Uri</span></span></p></td>
-<td><p><span data-ttu-id="a6973-158">ユーザーの SIP URI。</span><span class="sxs-lookup"><span data-stu-id="a6973-158">The user’s SIP URI.</span></span></p></td>
-<td><p><span data-ttu-id="a6973-159">必須</span><span class="sxs-lookup"><span data-stu-id="a6973-159">Required</span></span></p></td>
+<td><p><span data-ttu-id="30496-157">Uri</span><span class="sxs-lookup"><span data-stu-id="30496-157">Uri</span></span></p></td>
+<td><p><span data-ttu-id="30496-158">ユーザーの SIP URI。</span><span class="sxs-lookup"><span data-stu-id="30496-158">The user’s SIP URI.</span></span></p></td>
+<td><p><span data-ttu-id="30496-159">必須</span><span class="sxs-lookup"><span data-stu-id="30496-159">Required</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="a6973-p109">次の表では、Messages 要素に含めることのできるメッセージ型について説明します。また、各要素の使用方法の例を提供します。</span><span class="sxs-lookup"><span data-stu-id="a6973-p109">The following table describes the message types that the Messages element can contain. It also provides examples of how each element is used.</span></span>
+<span data-ttu-id="30496-p109">次の表では、Messages 要素に含めることのできるメッセージ型について説明します。また、各要素の使用方法の例を提供します。</span><span class="sxs-lookup"><span data-stu-id="30496-p109">The following table describes the message types that the Messages element can contain. It also provides examples of how each element is used.</span></span>
 
-### <a name="message-element-message-types"></a><span data-ttu-id="a6973-162">Messages 要素のメッセージ型</span><span class="sxs-lookup"><span data-stu-id="a6973-162">Message Element Message Types</span></span>
+### <a name="message-element-message-types"></a><span data-ttu-id="30496-162">Messages 要素のメッセージ型</span><span class="sxs-lookup"><span data-stu-id="30496-162">Message Element Message Types</span></span>
 
 <table>
 <colgroup>
@@ -182,55 +182,55 @@ ms.locfileid: "42041076"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="a6973-163">メッセージ型</span><span class="sxs-lookup"><span data-stu-id="a6973-163">Message Type</span></span></th>
-<th><span data-ttu-id="a6973-164">説明</span><span class="sxs-lookup"><span data-stu-id="a6973-164">Description</span></span></th>
-<th><span data-ttu-id="a6973-165">コード例</span><span class="sxs-lookup"><span data-stu-id="a6973-165">Code example</span></span></th>
+<th><span data-ttu-id="30496-163">メッセージ型</span><span class="sxs-lookup"><span data-stu-id="30496-163">Message Type</span></span></th>
+<th><span data-ttu-id="30496-164">説明</span><span class="sxs-lookup"><span data-stu-id="30496-164">Description</span></span></th>
+<th><span data-ttu-id="30496-165">コード例</span><span class="sxs-lookup"><span data-stu-id="30496-165">Code example</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="a6973-166">参加</span><span class="sxs-lookup"><span data-stu-id="a6973-166">Join</span></span></p></td>
-<td><p><span data-ttu-id="a6973-167">ユーザーがチャット ルームに参加しました。</span><span class="sxs-lookup"><span data-stu-id="a6973-167">A user joins a chat room.</span></span></p></td>
+<td><p><span data-ttu-id="30496-166">参加</span><span class="sxs-lookup"><span data-stu-id="30496-166">Join</span></span></p></td>
+<td><p><span data-ttu-id="30496-167">ユーザーがチャット ルームに参加しました。</span><span class="sxs-lookup"><span data-stu-id="30496-167">A user joins a chat room.</span></span></p></td>
 <td><pre><code>&lt;Message type=&quot;JOIN&quot; content=&quot;&quot; id=&quot;0&quot;&gt;
   &lt;Sender UserName=&quot;TestUser kazuto&quot; id=&quot;10&quot; email=&quot;kazuto@litwareinc.com&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 
   &lt;DateTimeUTC since1970=&quot;1206211842612&quot; string=&quot;2008-03-22T18:50:42.6127374Z&quot; long=&quot;633418086426127374&quot; /&gt; 
 &lt;/Message</code></pre></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a6973-168">指定項目</span><span class="sxs-lookup"><span data-stu-id="a6973-168">Part</span></span></p></td>
-<td><p><span data-ttu-id="a6973-169">ユーザーがチャット ルームから退出しました。</span><span class="sxs-lookup"><span data-stu-id="a6973-169">A user leaves a chat room.</span></span></p></td>
+<td><p><span data-ttu-id="30496-168">指定項目</span><span class="sxs-lookup"><span data-stu-id="30496-168">Part</span></span></p></td>
+<td><p><span data-ttu-id="30496-169">ユーザーがチャット ルームから退出しました。</span><span class="sxs-lookup"><span data-stu-id="30496-169">A user leaves a chat room.</span></span></p></td>
 <td><pre><code>&lt;Message type=&quot;PART&quot; content=&quot;&quot; id=&quot;0&quot;&gt;
   &lt; Sender UserName=&quot;TestUser kazuto&quot; id=&quot;10&quot; email=&quot;kazuto@litwareinc.com&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 
   &lt;DateTimeUTC since1970=&quot;1212610602532&quot; string=&quot;2008-06-04T20:16:42.5324614Z&quot; long=&quot;633482074025324614&quot; /&gt; 
 &lt;/Message&gt;</code></pre></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a6973-170">チャット</span><span class="sxs-lookup"><span data-stu-id="a6973-170">Chat</span></span></p></td>
-<td><p><span data-ttu-id="a6973-171">送信者の電子メール アドレス。</span><span class="sxs-lookup"><span data-stu-id="a6973-171">The sender’s email address.</span></span></p></td>
+<td><p><span data-ttu-id="30496-170">チャット</span><span class="sxs-lookup"><span data-stu-id="30496-170">Chat</span></span></p></td>
+<td><p><span data-ttu-id="30496-171">送信者の電子メール アドレス。</span><span class="sxs-lookup"><span data-stu-id="30496-171">The sender’s email address.</span></span></p></td>
 <td><pre><code>&lt;Message type=&quot;CHAT&quot; content=&quot;hello&quot; id=&quot;1&quot;&gt;
   &lt;Sender UserName=&quot;TestUser kazuto&quot; id=&quot;10&quot; email=&quot;kazuto@litwareinc.com&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 
   &lt;DateTimeUTC since1970=&quot;1205351800522&quot; string=&quot;2008-03-12T19:56:40.522264Z&quot; long=&quot;633409486005222640&quot; /&gt; 
 &lt;/Message&gt;</code></pre></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a6973-172">バックチャット</span><span class="sxs-lookup"><span data-stu-id="a6973-172">Backchat</span></span></p></td>
-<td><p><span data-ttu-id="a6973-173">ユーザーがチャット履歴の内容を要求しました。</span><span class="sxs-lookup"><span data-stu-id="a6973-173">A user requests content from chat history.</span></span></p></td>
+<td><p><span data-ttu-id="30496-172">バックチャット</span><span class="sxs-lookup"><span data-stu-id="30496-172">Backchat</span></span></p></td>
+<td><p><span data-ttu-id="30496-173">ユーザーがチャット履歴の内容を要求しました。</span><span class="sxs-lookup"><span data-stu-id="30496-173">A user requests content from chat history.</span></span></p></td>
 <td><pre><code>&lt;Message type=&quot;BACKCHAT&quot; content=&quot;backchatcontent&quot; id=&quot;0&quot;&gt;
   &lt;Sender UserName=&quot;TestUser kazuto&quot; id=&quot;10&quot; email=&quot;kazuto@litwareinc.com&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 
   &lt;DateTimeUTC since1970=&quot;1206034385284&quot; string=&quot;2008-03-20T17:33:05.2841594Z&quot; long=&quot;633416311852841594&quot; /&gt; 
 &lt;/Message&gt;</code></pre></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a6973-174">File upload</span><span class="sxs-lookup"><span data-stu-id="a6973-174">File upload</span></span></p></td>
-<td><p><span data-ttu-id="a6973-175">ユーザーがファイルをアップロードしました。</span><span class="sxs-lookup"><span data-stu-id="a6973-175">A user uploads a file.</span></span></p></td>
+<td><p><span data-ttu-id="30496-174">File upload</span><span class="sxs-lookup"><span data-stu-id="30496-174">File upload</span></span></p></td>
+<td><p><span data-ttu-id="30496-175">ユーザーがファイルをアップロードしました。</span><span class="sxs-lookup"><span data-stu-id="30496-175">A user uploads a file.</span></span></p></td>
 <td><pre><code>&lt;Message type=&quot;FILEUPLOAD&quot; content=&quot;0988239a-bb66-4616-90a4-b07771a2097c.txt&quot; id=&quot;0&quot;&gt;
   &lt;Sender UserName=&quot;TestUser kazuto&quot; id=&quot;10&quot; email=&quot;kazuto@litwareinc.com&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 
   &lt;DateTimeUTC since1970=&quot;1205351828975&quot; string=&quot;2008-03-12T19:57:08.9755711Z&quot; long=&quot;633409486289755711&quot; /&gt; 
 &lt;/Message&gt;</code></pre></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a6973-176">File download</span><span class="sxs-lookup"><span data-stu-id="a6973-176">File download</span></span></p></td>
-<td><p><span data-ttu-id="a6973-177">ユーザーがファイルをダウンロードしました。</span><span class="sxs-lookup"><span data-stu-id="a6973-177">A user downloads a file.</span></span></p></td>
+<td><p><span data-ttu-id="30496-176">File download</span><span class="sxs-lookup"><span data-stu-id="30496-176">File download</span></span></p></td>
+<td><p><span data-ttu-id="30496-177">ユーザーがファイルをダウンロードしました。</span><span class="sxs-lookup"><span data-stu-id="30496-177">A user downloads a file.</span></span></p></td>
 <td><pre><code>&lt;Message type=&quot;FILEDOWNLOAD&quot; content=&quot;006074ca-24f0-4b35-8bd8-98006a2d1aa8.txt&quot; id=&quot;0&quot;&gt;
   &lt;Sender UserName=&quot;kazuto@litwareinc.com&quot; id=&quot;10&quot; email=&quot;&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 
   &lt;DateTimeUTC since1970=&quot;1212611141851&quot; string=&quot;2008-06-04T20:25:41.8518646Z&quot; long=&quot;633482079418518646&quot; /&gt; 
@@ -242,9 +242,9 @@ ms.locfileid: "42041076"
 
 <div>
 
-## <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a><span data-ttu-id="a6973-178">既定の常設チャット出力 XSD とサンプルの XSL 変換</span><span class="sxs-lookup"><span data-stu-id="a6973-178">Default Persistent Chat Output XSD and Example XSL Transform</span></span>
+## <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a><span data-ttu-id="30496-178">既定の常設チャット出力 XSD とサンプルの XSL 変換</span><span class="sxs-lookup"><span data-stu-id="30496-178">Default Persistent Chat Output XSD and Example XSL Transform</span></span>
 
-<span data-ttu-id="a6973-179">次のコード サンプルには、コンプライアンス サーバーからの既定の出力が含まれています。</span><span class="sxs-lookup"><span data-stu-id="a6973-179">The following code sample contains the default output from the Compliance Server.</span></span>
+<span data-ttu-id="30496-179">次のコード サンプルには、コンプライアンス サーバーからの既定の出力が含まれています。</span><span class="sxs-lookup"><span data-stu-id="30496-179">The following code sample contains the default output from the Compliance Server.</span></span>
 
     <?xml version="1.0" encoding="utf-8"?>
     <xs:schema id="Conversations"  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
@@ -341,7 +341,7 @@ ms.locfileid: "42041076"
       </xs:element>
     </xs:schema>
 
-<span data-ttu-id="a6973-180">次のコード サンプルには、サンプル XSL 変換が含まれています。</span><span class="sxs-lookup"><span data-stu-id="a6973-180">The following code sample contains a sample XSL transform.</span></span>
+<span data-ttu-id="30496-180">次のコード サンプルには、サンプル XSL 変換が含まれています。</span><span class="sxs-lookup"><span data-stu-id="30496-180">The following code sample contains a sample XSL transform.</span></span>
 
     <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs">
        <xsl:output method="xml" encoding="UTF-8" indent="yes" />
