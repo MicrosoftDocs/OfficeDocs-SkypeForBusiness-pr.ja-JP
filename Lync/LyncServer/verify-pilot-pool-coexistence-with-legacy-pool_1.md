@@ -12,20 +12,20 @@ ms:contentKeyID: 48184209
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f3bdc71c1c45add045527a57efa0311ce37f79ca
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 51709bba3f96f8761b9687387b78954c8840ff41
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036315"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147850"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a><span data-ttu-id="3423e-102">パイロットプールとレガシプールの共存を確認する</span><span class="sxs-lookup"><span data-stu-id="3423e-102">Verify pilot pool coexistence with legacy pool</span></span>
+# <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a><span data-ttu-id="184ca-102">パイロットプールとレガシプールの共存を確認する</span><span class="sxs-lookup"><span data-stu-id="184ca-102">Verify pilot pool coexistence with legacy pool</span></span>
 
 </div>
 
@@ -35,47 +35,47 @@ ms.locfileid: "42036315"
 
 <span> </span>
 
-<span data-ttu-id="3423e-103">_**トピックの最終更新日:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="3423e-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="184ca-103">_**トピックの最終更新日:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="184ca-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
 <div>
 
-## <a name="verify-the-pool-in-office-communications-server-2007-r2-administrative-tool"></a><span data-ttu-id="3423e-104">Office Communications Server 2007 R2 管理ツールでプールを確認する</span><span class="sxs-lookup"><span data-stu-id="3423e-104">Verify the Pool in Office Communications Server 2007 R2 Administrative Tool</span></span>
+## <a name="verify-the-pool-in-office-communications-server-2007-r2-administrative-tool"></a><span data-ttu-id="184ca-104">Office Communications Server 2007 R2 管理ツールでプールを確認する</span><span class="sxs-lookup"><span data-stu-id="184ca-104">Verify the Pool in Office Communications Server 2007 R2 Administrative Tool</span></span>
 
-1.  <span data-ttu-id="3423e-105">Office Communications Server 2007 R2 管理ツールを開きます。</span><span class="sxs-lookup"><span data-stu-id="3423e-105">Open the Office Communications Server 2007 R2 administrative tool.</span></span>
+1.  <span data-ttu-id="184ca-105">Office Communications Server 2007 R2 管理ツールを開きます。</span><span class="sxs-lookup"><span data-stu-id="184ca-105">Open the Office Communications Server 2007 R2 administrative tool.</span></span>
 
-2.  <span data-ttu-id="3423e-106">[**フォレスト**] ノード、[**Standard Edition サーバー**] ノードまたは [**エンタープライズ プール**] ノード、プールまたはサーバー名の順に展開します。</span><span class="sxs-lookup"><span data-stu-id="3423e-106">Expand the **Forest** node, expand the **Standard Edition Servers** or **Enterprise pools** node, and then expand the pool or server name.</span></span>
+2.  <span data-ttu-id="184ca-106">[**フォレスト**] ノード、[**Standard Edition サーバー**] ノードまたは [**エンタープライズ プール**] ノード、プールまたはサーバー名の順に展開します。</span><span class="sxs-lookup"><span data-stu-id="184ca-106">Expand the **Forest** node, expand the **Standard Edition Servers** or **Enterprise pools** node, and then expand the pool or server name.</span></span>
 
-3.  <span data-ttu-id="3423e-107">Office Communications Server 2007 R2 サービスがプール上で実行されていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="3423e-107">Ensure that the Office Communications Server 2007 R2 services are running on the pool.</span></span>
+3.  <span data-ttu-id="184ca-107">Office Communications Server 2007 R2 サービスがプール上で実行されていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="184ca-107">Ensure that the Office Communications Server 2007 R2 services are running on the pool.</span></span>
     
-    <span data-ttu-id="3423e-108">![Office Communications Server 2007 R2 管理コンソール](images/JJ721906.76897b6d-f433-47d2-930d-0816fc30a3c2(OCS.15).jpg "Office Communications Server 2007 R2 管理コンソール")</span><span class="sxs-lookup"><span data-stu-id="3423e-108">![Office Communications Server 2007 R2 Admin Console](images/JJ721906.76897b6d-f433-47d2-930d-0816fc30a3c2(OCS.15).jpg "Office Communications Server 2007 R2 Admin Console")</span></span>  
+    <span data-ttu-id="184ca-108">![Office Communications Server 2007 R2 管理コンソール](images/JJ721906.76897b6d-f433-47d2-930d-0816fc30a3c2(OCS.15).jpg "Office Communications Server 2007 R2 管理コンソール")</span><span class="sxs-lookup"><span data-stu-id="184ca-108">![Office Communications Server 2007 R2 Admin Console](images/JJ721906.76897b6d-f433-47d2-930d-0816fc30a3c2(OCS.15).jpg "Office Communications Server 2007 R2 Admin Console")</span></span>  
 
 </div>
 
 <div>
 
-## <a name="verify-the-pilot-pool-in-lync-server-2013-control-panel"></a><span data-ttu-id="3423e-109">Lync Server 2013 コントロールパネルでパイロットプールを確認する</span><span class="sxs-lookup"><span data-stu-id="3423e-109">Verify the Pilot Pool in Lync Server 2013 Control Panel</span></span>
+## <a name="verify-the-pilot-pool-in-lync-server-2013-control-panel"></a><span data-ttu-id="184ca-109">Lync Server 2013 コントロールパネルでパイロットプールを確認する</span><span class="sxs-lookup"><span data-stu-id="184ca-109">Verify the Pilot Pool in Lync Server 2013 Control Panel</span></span>
 
-1.  <span data-ttu-id="3423e-110">CsAdministrator の役割のメンバーであるユーザーアカウントから、Lync Server 2013 フロントエンドサーバーにログオンします。</span><span class="sxs-lookup"><span data-stu-id="3423e-110">From a user account that is a member of the CsAdministrator role, log on to the Lync Server 2013 Front End server.</span></span>
+1.  <span data-ttu-id="184ca-110">CsAdministrator の役割のメンバーであるユーザーアカウントから、Lync Server 2013 フロントエンドサーバーにログオンします。</span><span class="sxs-lookup"><span data-stu-id="184ca-110">From a user account that is a member of the CsAdministrator role, log on to the Lync Server 2013 Front End server.</span></span>
 
-2.  <span data-ttu-id="3423e-111">ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="3423e-111">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="3423e-112">Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="3423e-112">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="184ca-111">ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="184ca-111">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="184ca-112">Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="184ca-112">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="3423e-113">[**トポロジ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="3423e-113">Click **Topology**.</span></span>
+3.  <span data-ttu-id="184ca-113">[**トポロジ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="184ca-113">Click **Topology**.</span></span>
 
-4.  <span data-ttu-id="3423e-114">展開したサーバーがパイロット プール内に存在することを確認します。</span><span class="sxs-lookup"><span data-stu-id="3423e-114">Verify that the servers you deployed are present in your pilot pool.</span></span>
+4.  <span data-ttu-id="184ca-114">展開したサーバーがパイロット プール内に存在することを確認します。</span><span class="sxs-lookup"><span data-stu-id="184ca-114">Verify that the servers you deployed are present in your pilot pool.</span></span>
     
-    <span data-ttu-id="3423e-115">![Lync Server コントロールパネルのトポロジページ](images/JJ204914.a3d1ba5f-c1a7-45e8-b9a5-7cb07b01af8c(OCS.15).jpg "Lync Server コントロールパネルのトポロジページ")</span><span class="sxs-lookup"><span data-stu-id="3423e-115">![Lync Server Control Panel Topology page](images/JJ204914.a3d1ba5f-c1a7-45e8-b9a5-7cb07b01af8c(OCS.15).jpg "Lync Server Control Panel Topology page")</span></span>  
+    <span data-ttu-id="184ca-115">![Lync Server コントロールパネルのトポロジページ](images/JJ204914.a3d1ba5f-c1a7-45e8-b9a5-7cb07b01af8c(OCS.15).jpg "Lync Server コントロールパネルのトポロジページ")</span><span class="sxs-lookup"><span data-stu-id="184ca-115">![Lync Server Control Panel Topology page](images/JJ204914.a3d1ba5f-c1a7-45e8-b9a5-7cb07b01af8c(OCS.15).jpg "Lync Server Control Panel Topology page")</span></span>  
 
 </div>
 
 <div>
 
-## <a name="verify-lync-server-2013-services-have-started"></a><span data-ttu-id="3423e-116">Lync Server 2013 サービスが開始していることを確認する</span><span class="sxs-lookup"><span data-stu-id="3423e-116">Verify Lync Server 2013 services have started</span></span>
+## <a name="verify-lync-server-2013-services-have-started"></a><span data-ttu-id="184ca-116">Lync Server 2013 サービスが開始していることを確認する</span><span class="sxs-lookup"><span data-stu-id="184ca-116">Verify Lync Server 2013 services have started</span></span>
 
-1.  <span data-ttu-id="3423e-117">Lync Server 2013 のフロントエンドサーバーで、[**管理ツール**] グループから [**サービス**] アプレットを開きます。</span><span class="sxs-lookup"><span data-stu-id="3423e-117">On the Lync Server 2013 Front End Server, open the **Services** applet from the **Administrative Tools** group.</span></span>
+1.  <span data-ttu-id="184ca-117">Lync Server 2013 のフロントエンドサーバーで、[**管理ツール**] グループから [**サービス**] アプレットを開きます。</span><span class="sxs-lookup"><span data-stu-id="184ca-117">On the Lync Server 2013 Front End Server, open the **Services** applet from the **Administrative Tools** group.</span></span>
 
-2.  <span data-ttu-id="3423e-118">一覧表示されるサービスが次の図の一覧と一致することを確認します。</span><span class="sxs-lookup"><span data-stu-id="3423e-118">Verify that the services listed match the list in the following figure.</span></span>
+2.  <span data-ttu-id="184ca-118">一覧表示されるサービスが次の図の一覧と一致することを確認します。</span><span class="sxs-lookup"><span data-stu-id="184ca-118">Verify that the services listed match the list in the following figure.</span></span>
     
-    <span data-ttu-id="3423e-119">![Lync services が開始されたサービスページ](images/JJ204914.fd35d54a-2ab6-4c09-b5e9-fd5bf10f6f51(OCS.15).jpg "Lync services が開始されたサービスページ")</span><span class="sxs-lookup"><span data-stu-id="3423e-119">![Services page showing Lync services started](images/JJ204914.fd35d54a-2ab6-4c09-b5e9-fd5bf10f6f51(OCS.15).jpg "Services page showing Lync services started")</span></span>  
+    <span data-ttu-id="184ca-119">![Lync services が開始されたサービスページ](images/JJ204914.fd35d54a-2ab6-4c09-b5e9-fd5bf10f6f51(OCS.15).jpg "Lync services が開始されたサービスページ")</span><span class="sxs-lookup"><span data-stu-id="184ca-119">![Services page showing Lync services started](images/JJ204914.fd35d54a-2ab6-4c09-b5e9-fd5bf10f6f51(OCS.15).jpg "Services page showing Lync services started")</span></span>  
 
 </div>
 

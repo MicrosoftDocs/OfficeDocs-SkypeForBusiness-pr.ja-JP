@@ -12,20 +12,20 @@ ms:contentKeyID: 48183255
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d38a06c7ea40bd30f962484c8ce0d882c9633bf0
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 473aba5f76d2c48d51b80ec413e003b3fe241d0e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035139"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147100"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-a-watcher-node-to-use-credential-authentication-in-lync-server-2013"></a><span data-ttu-id="cbdc0-102">Lync Server 2013 で資格情報認証を使用するように監視ノードを構成する</span><span class="sxs-lookup"><span data-stu-id="cbdc0-102">Configuring a watcher node to use credential authentication in Lync Server 2013</span></span>
+# <a name="configuring-a-watcher-node-to-use-credential-authentication-in-lync-server-2013"></a><span data-ttu-id="96895-102">Lync Server 2013 で資格情報認証を使用するように監視ノードを構成する</span><span class="sxs-lookup"><span data-stu-id="96895-102">Configuring a watcher node to use credential authentication in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,45 +35,45 @@ ms.locfileid: "42035139"
 
 <span> </span>
 
-<span data-ttu-id="cbdc0-103">_**トピックの最終更新日:** 2012-10-20_</span><span class="sxs-lookup"><span data-stu-id="cbdc0-103">_**Topic Last Modified:** 2012-10-20_</span></span>
+<span data-ttu-id="96895-103">_**トピックの最終更新日:** 2012-10-20_</span><span class="sxs-lookup"><span data-stu-id="96895-103">_**Topic Last Modified:** 2012-10-20_</span></span>
 
-<span data-ttu-id="cbdc0-p101">ウォッチャー ノードのコンピューターが境界ネットワークの外側にある場合は、代理トランザクションを実行するようにウォッチャー ノードを構成するために、少し異なる手順に従う必要があります。具体的には、信頼されたアプリケーション プールや信頼されたアプリケーションを作成せずに、境界ネットワークの内側にあるコンピューターにウォッチャー ノードが通知を送信できるようにする証明書をインストールする必要があります。つまり、次に示す個別の 2 つのタスクを完了する必要があります。</span><span class="sxs-lookup"><span data-stu-id="cbdc0-p101">If your watcher node computer lies outside the perimeter network, then you must follow a slightly different procedure in order to configure that watcher node to run synthetic transactions. Specifically, you should not create a trusted application pool and a trusted application, and you must install a certificate that enables the watcher node to send alerts to a computer inside the perimeter network. This means that you will need to complete two separate tasks:</span></span>
+<span data-ttu-id="96895-p101">ウォッチャー ノードのコンピューターが境界ネットワークの外側にある場合は、代理トランザクションを実行するようにウォッチャー ノードを構成するために、少し異なる手順に従う必要があります。具体的には、信頼されたアプリケーション プールや信頼されたアプリケーションを作成せずに、境界ネットワークの内側にあるコンピューターにウォッチャー ノードが通知を送信できるようにする証明書をインストールする必要があります。つまり、次に示す個別の 2 つのタスクを完了する必要があります。</span><span class="sxs-lookup"><span data-stu-id="96895-p101">If your watcher node computer lies outside the perimeter network, then you must follow a slightly different procedure in order to configure that watcher node to run synthetic transactions. Specifically, you should not create a trusted application pool and a trusted application, and you must install a certificate that enables the watcher node to send alerts to a computer inside the perimeter network. This means that you will need to complete two separate tasks:</span></span>
 
-  - <span data-ttu-id="cbdc0-107">コンピューターの RTC Local Read-only Administrators グループのメンバーシップを更新する</span><span class="sxs-lookup"><span data-stu-id="cbdc0-107">Update the membership in the computer's RTC Local Read-only Administrators Group</span></span>
+  - <span data-ttu-id="96895-107">コンピューターの RTC Local Read-only Administrators グループのメンバーシップを更新する</span><span class="sxs-lookup"><span data-stu-id="96895-107">Update the membership in the computer's RTC Local Read-only Administrators Group</span></span>
 
-  - <span data-ttu-id="cbdc0-108">ウォッチャー ノード構成ファイルをインストールする</span><span class="sxs-lookup"><span data-stu-id="cbdc0-108">Install the watcher node configuration files</span></span>
+  - <span data-ttu-id="96895-108">ウォッチャー ノード構成ファイルをインストールする</span><span class="sxs-lookup"><span data-stu-id="96895-108">Install the watcher node configuration files</span></span>
 
 <div>
 
-## <a name="updating-membership-in-the-rtc-local-read-only-administrators-group"></a><span data-ttu-id="cbdc0-109">RTC Local Read-Only Administrators グループのメンバーシップの更新</span><span class="sxs-lookup"><span data-stu-id="cbdc0-109">Updating Membership in the RTC Local Read-Only Administrators Group</span></span>
+## <a name="updating-membership-in-the-rtc-local-read-only-administrators-group"></a><span data-ttu-id="96895-109">RTC Local Read-Only Administrators グループのメンバーシップの更新</span><span class="sxs-lookup"><span data-stu-id="96895-109">Updating Membership in the RTC Local Read-Only Administrators Group</span></span>
 
-<span data-ttu-id="cbdc0-p102">ウォッチャー ノードが境界ネットワークの外側にある場合は、Network Service アカウントをウォッチャー ノード コンピューターの RTC Local Read-only Administrators グループに追加する必要があります。そのためには、ウォッチャー ノードで以下の手順を完了します。</span><span class="sxs-lookup"><span data-stu-id="cbdc0-p102">If your watcher node lies outside the perimeter network, you must add the Network Service account to the RTC Local Read-only Administrators group on the watcher node computer. To do this, complete the following procedure on the watcher node:</span></span>
+<span data-ttu-id="96895-p102">ウォッチャー ノードが境界ネットワークの外側にある場合は、Network Service アカウントをウォッチャー ノード コンピューターの RTC Local Read-only Administrators グループに追加する必要があります。そのためには、ウォッチャー ノードで以下の手順を完了します。</span><span class="sxs-lookup"><span data-stu-id="96895-p102">If your watcher node lies outside the perimeter network, you must add the Network Service account to the RTC Local Read-only Administrators group on the watcher node computer. To do this, complete the following procedure on the watcher node:</span></span>
 
-1.  <span data-ttu-id="cbdc0-112">[**スタート**] メニューの [**コンピューター**] を右クリックし、[**管理**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="cbdc0-112">Click **Start**, right-click **Computer**, and then click **Manage**.</span></span>
+1.  <span data-ttu-id="96895-112">[**スタート**] メニューの [**コンピューター**] を右クリックし、[**管理**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="96895-112">Click **Start**, right-click **Computer**, and then click **Manage**.</span></span>
 
-2.  <span data-ttu-id="cbdc0-113">サーバー マネージャーで、[**構成**]、[**ローカル ユーザーとグループ**] の順に展開し、[**グループ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="cbdc0-113">In Server Manager, expand **Configuration**, expand **Local Users and Groups**, and then click **Groups**.</span></span>
+2.  <span data-ttu-id="96895-113">サーバー マネージャーで、[**構成**]、[**ローカル ユーザーとグループ**] の順に展開し、[**グループ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="96895-113">In Server Manager, expand **Configuration**, expand **Local Users and Groups**, and then click **Groups**.</span></span>
 
-3.  <span data-ttu-id="cbdc0-114">[グループ] ウィンドウで、[**RTC Local Read-only Administrators**] をダブルクリックします。</span><span class="sxs-lookup"><span data-stu-id="cbdc0-114">In the Groups pane, double-click **RTC Local Read-only Administrators**.</span></span>
+3.  <span data-ttu-id="96895-114">[グループ] ウィンドウで、[**RTC Local Read-only Administrators**] をダブルクリックします。</span><span class="sxs-lookup"><span data-stu-id="96895-114">In the Groups pane, double-click **RTC Local Read-only Administrators**.</span></span>
 
-4.  <span data-ttu-id="cbdc0-115">[**RTC Local Read-only Administrators のプロパティ**] ダイアログ ボックスで、[**追加**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="cbdc0-115">In the **RTC Local Read-only Administrators Properties** dialog box, click **Add**.</span></span>
+4.  <span data-ttu-id="96895-115">[**RTC Local Read-only Administrators のプロパティ**] ダイアログ ボックスで、[**追加**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="96895-115">In the **RTC Local Read-only Administrators Properties** dialog box, click **Add**.</span></span>
 
-5.  <span data-ttu-id="cbdc0-116">[**ユーザー、コンピューター、サービス アカウント、またはグループの選択**] ダイアログで、[**場所**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="cbdc0-116">In the **Select Users, Computers, Service Accounts, or Groups** dialog box, click **Locations**.</span></span>
+5.  <span data-ttu-id="96895-116">[**ユーザー、コンピューター、サービス アカウント、またはグループの選択**] ダイアログで、[**場所**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="96895-116">In the **Select Users, Computers, Service Accounts, or Groups** dialog box, click **Locations**.</span></span>
 
-6.  <span data-ttu-id="cbdc0-117">[**場所**] ダイアログ ボックスで、ウォッチャー ノード コンピューターの名前を選択し、[**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="cbdc0-117">In the **Locations** dialog box, select the name of the watcher node computer, and then click **OK**.</span></span>
+6.  <span data-ttu-id="96895-117">[**場所**] ダイアログ ボックスで、ウォッチャー ノード コンピューターの名前を選択し、[**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="96895-117">In the **Locations** dialog box, select the name of the watcher node computer, and then click **OK**.</span></span>
 
-7.  <span data-ttu-id="cbdc0-118">[**選択するオブジェクト名を入力してください**] ボックスに、「**Network Service**」と入力し、[**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="cbdc0-118">In the **Enter object names to select** box, type **Network Service**, and then click **OK**.</span></span>
+7.  <span data-ttu-id="96895-118">[**選択するオブジェクト名を入力してください**] ボックスに、「**Network Service**」と入力し、[**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="96895-118">In the **Enter object names to select** box, type **Network Service**, and then click **OK**.</span></span>
 
-8.  <span data-ttu-id="cbdc0-119">[**RTC Local Read-only Administrators のプロパティ**] ダイアログ ボックスで、[**OK**] をクリックし、[**サーバー マネージャー**] を閉じます。</span><span class="sxs-lookup"><span data-stu-id="cbdc0-119">In the **RTC Local Read-only Administrators Properties** dialog box, click **OK**, and then close **Server Manager**.</span></span>
+8.  <span data-ttu-id="96895-119">[**RTC Local Read-only Administrators のプロパティ**] ダイアログ ボックスで、[**OK**] をクリックし、[**サーバー マネージャー**] を閉じます。</span><span class="sxs-lookup"><span data-stu-id="96895-119">In the **RTC Local Read-only Administrators Properties** dialog box, click **OK**, and then close **Server Manager**.</span></span>
 
-<span data-ttu-id="cbdc0-120">ウォッチャー ノード コンピューターを再起動します。</span><span class="sxs-lookup"><span data-stu-id="cbdc0-120">Restart the watcher node computer.</span></span>
+<span data-ttu-id="96895-120">ウォッチャー ノード コンピューターを再起動します。</span><span class="sxs-lookup"><span data-stu-id="96895-120">Restart the watcher node computer.</span></span>
 
 </div>
 
 <div>
 
-## <a name="installing-the-watcher-node-configuration-files"></a><span data-ttu-id="cbdc0-121">ウォッチャー ノード構成ファイルのインストール</span><span class="sxs-lookup"><span data-stu-id="cbdc0-121">Installing the Watcher Node Configuration Files</span></span>
+## <a name="installing-the-watcher-node-configuration-files"></a><span data-ttu-id="96895-121">ウォッチャー ノード構成ファイルのインストール</span><span class="sxs-lookup"><span data-stu-id="96895-121">Installing the Watcher Node Configuration Files</span></span>
 
-<span data-ttu-id="cbdc0-122">ウォッチャー ノード コンピューターの再起動後、次の手順は Watchernode.msi ファイルの実行です。</span><span class="sxs-lookup"><span data-stu-id="cbdc0-122">After the watcher node computer has restarted, your next step is to run the file Watchernode.msi.</span></span> <span data-ttu-id="cbdc0-123">このファイルを実行するには、[**スタート**]、[**すべてのプログラム**]、[ **lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックして、Lync server 2013 管理シェルを開きます。</span><span class="sxs-lookup"><span data-stu-id="cbdc0-123">To run this file, open the Lync Server 2013 Management Shell by clicking **Start**, clicking **All Programs**, clicking **Lync Server 2013**, and then clicking **Lync Server Management Shell**.</span></span> <span data-ttu-id="cbdc0-124">Lync Server 管理シェルで次のコマンドを入力し、enter キーを押します (Watchernode.msi のコピーへの実際のパスを確認してください)。</span><span class="sxs-lookup"><span data-stu-id="cbdc0-124">In the Lync Server Management Shell, type the following command and then press ENTER (be sure and specify the actual path to your copy of Watchernode.msi):</span></span>
+<span data-ttu-id="96895-122">ウォッチャー ノード コンピューターの再起動後、次の手順は Watchernode.msi ファイルの実行です。</span><span class="sxs-lookup"><span data-stu-id="96895-122">After the watcher node computer has restarted, your next step is to run the file Watchernode.msi.</span></span> <span data-ttu-id="96895-123">このファイルを実行するには、[**スタート**]、[**すべてのプログラム**]、[ **lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックして、Lync server 2013 管理シェルを開きます。</span><span class="sxs-lookup"><span data-stu-id="96895-123">To run this file, open the Lync Server 2013 Management Shell by clicking **Start**, clicking **All Programs**, clicking **Lync Server 2013**, and then clicking **Lync Server Management Shell**.</span></span> <span data-ttu-id="96895-124">Lync Server 管理シェルで次のコマンドを入力し、enter キーを押します (Watchernode.msi のコピーへの実際のパスを確認してください)。</span><span class="sxs-lookup"><span data-stu-id="96895-124">In the Lync Server Management Shell, type the following command and then press ENTER (be sure and specify the actual path to your copy of Watchernode.msi):</span></span>
 
     C:\Tools\Watchernode.msi Authentication=Negotiate
 
@@ -81,13 +81,13 @@ ms.locfileid: "42035139"
 
 
 > [!NOTE]  
-> <span data-ttu-id="cbdc0-p104">前述のように、Watchernode.msi はコマンド ウィンドウから実行することもできます。コマンド ウィンドウを開くには、[<STRONG>スタート</STRONG>] メニューをクリックし、[<STRONG>コマンド プロンプト</STRONG>] を右クリックして、[<STRONG>管理者として実行</STRONG>] をクリックします。コマンド ウィンドウが開いたら、先ほどと同じコマンドを入力します。</span><span class="sxs-lookup"><span data-stu-id="cbdc0-p104">As noted previously, Watchernode.msi can also be run from a command window. To open a command window, click <STRONG>Start</STRONG>, right-click <STRONG>Command Prompt</STRONG>, and then click <STRONG>Run as administrator</STRONG>. When the command window opens, type the same command as shown earlier.</span></span>
+> <span data-ttu-id="96895-p104">前述のように、Watchernode.msi はコマンド ウィンドウから実行することもできます。コマンド ウィンドウを開くには、[<STRONG>スタート</STRONG>] メニューをクリックし、[<STRONG>コマンド プロンプト</STRONG>] を右クリックして、[<STRONG>管理者として実行</STRONG>] をクリックします。コマンド ウィンドウが開いたら、先ほどと同じコマンドを入力します。</span><span class="sxs-lookup"><span data-stu-id="96895-p104">As noted previously, Watchernode.msi can also be run from a command window. To open a command window, click <STRONG>Start</STRONG>, right-click <STRONG>Command Prompt</STRONG>, and then click <STRONG>Run as administrator</STRONG>. When the command window opens, type the same command as shown earlier.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="cbdc0-128">ウォッチャー ノードを信頼されたアプリケーション プールとしてセットアップできない場合はいつでも、ネゴシエート モードが使用されます。</span><span class="sxs-lookup"><span data-stu-id="cbdc0-128">The Negotiate mode is used any time the watcher node cannot be set up as a trusted application pool.</span></span> <span data-ttu-id="cbdc0-129">このモードでは、管理者がウォッチャー ノードのテスト ユーザー パスワードを管理する必要があります。</span><span class="sxs-lookup"><span data-stu-id="cbdc0-129">In this mode, administrators will need to manage test user passwords on the watcher node.</span></span>
+<span data-ttu-id="96895-128">ウォッチャー ノードを信頼されたアプリケーション プールとしてセットアップできない場合はいつでも、ネゴシエート モードが使用されます。</span><span class="sxs-lookup"><span data-stu-id="96895-128">The Negotiate mode is used any time the watcher node cannot be set up as a trusted application pool.</span></span> <span data-ttu-id="96895-129">このモードでは、管理者がウォッチャー ノードのテスト ユーザー パスワードを管理する必要があります。</span><span class="sxs-lookup"><span data-stu-id="96895-129">In this mode, administrators will need to manage test user passwords on the watcher node.</span></span>
 
 </div>
 
