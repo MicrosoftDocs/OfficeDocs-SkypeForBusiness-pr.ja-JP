@@ -1,8 +1,8 @@
 ---
 title: 監視ノードのテストユーザーと設定を構成する
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: LanaChin
 manager: serdars
 ms.date: 2/13/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: '概要: Skype for Business Server 代理トランザクションのテストユーザーアカウントと監視ノード設定を構成します。'
-ms.openlocfilehash: f13680d16a248be339ee7cd4a085d7d0894146dc
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: bfbad6fbeb68100adaaee781c135531d226f43bb
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42033676"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150498"
 ---
 # <a name="configure-watcher-node-test-users-and-settings"></a>監視ノードのテストユーザーと設定を構成する
  
@@ -152,7 +152,7 @@ Skype for Business Server のコアファイルおよび RTCLocal データベ�
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Add="PersistentChatMessage"}
 ```
 
-テスト名をコンマで区切ることで、複数のテストを追加できます。 例:
+テスト名をコンマで区切ることで、複数のテストを追加できます。 次に例を示します。
   
 ```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Add="PersistentChatMessage","DataConference","UnifiedContactStore"}
@@ -354,7 +354,7 @@ Test-CsUnifiedContactStore -TargetFqdn pool0.contoso.com -UserSipAddress sip:tes
 
 拡張メッセージングおよびプレゼンスプロトコル (XMPP) IM 代理トランザクションでは、XMPP 機能を1つ以上のフェデレーションドメインで構成する必要があります。
   
-XMPP 代理トランザクションを有効にするには、XmppTestReceiverMailAddress パラメーターに、ルーティング可能な XMPP ドメインのユーザーアカウントを指定する必要があります。 例:
+XMPP 代理トランザクションを有効にするには、XmppTestReceiverMailAddress パラメーターに、ルーティング可能な XMPP ドメインのユーザーアカウントを指定する必要があります。 次に例を示します。
   
 ```PowerShell
 Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"} -XmppTestReceiverMailAddress user1@litwareinc.com

@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Skype for Business Server の正規化ルールは、.NET Framework 正規表現を使用して、ダイヤルされた電話番号を e.164 形式に変換します。言い換えると、正規化ルールは、ユーザーがダイヤルした電話番号を取得し、その番号を Skype for Business Server で内部的に使用される形式に変換します。 各ダイヤル プランには、正規化ルールを 1 つ以上割り当てる必要があります。
-ms.openlocfilehash: 42ec43a08d1c155f61869bdfebf07e94ac040e56
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2fd7f59bcebcfe676a03ce5a6a897336551ddbad
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42028848"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151217"
 ---
 # <a name="defining-normalization-rules-in-skype-for-business-server"></a>Skype for Business Server で正規化ルールを定義する
 
@@ -24,7 +24,7 @@ Skype for Business Server の正規化ルールは、.NET Framework 正規表現
 
 正規化ルールの詳細については、「[ダイヤルプランと正規化ルール](https://technet.microsoft.com/library/gg413082(v=ocs.15).aspx)」を参照してください。
 
-正規表現を記述する方法の詳細については、「 [.Net Framework 正規表現](http://go.microsoft.com/fwlink/p/?linkId=140927)」を参照してください。
+正規表現を記述する方法の詳細については、「 [.Net Framework 正規表現](https://go.microsoft.com/fwlink/p/?linkId=140927)」を参照してください。
 
 正規化ルールを定義または編集するには、次のいずれかの方法を使用できます。
 - [**正規化ルールの構築**ツールを使用](#create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule)して、先頭の数字、長さ、削除する数字、追加する数字の値を指定し、[Skype For Business Server] コントロールパネルで対応する一致パターンと変換ルールを生成できるようにします。

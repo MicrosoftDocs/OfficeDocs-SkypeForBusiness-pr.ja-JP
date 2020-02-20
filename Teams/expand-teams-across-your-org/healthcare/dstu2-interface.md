@@ -1,7 +1,7 @@
 ---
 title: 患者のアプリと EHR の統合 DSTU2 インターフェイス
-author: jambirk
-ms.author: jambirk
+author: dstrome
+ms.author: dstrome
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Microsoft Teams の患者向けアプリ EHR の統合
-ms.openlocfilehash: d7acea1002d80a397469d242cfbbb1adfba07a24
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 10a6b21e583b5fdd3e70857c4cfc5e7e21a7e988
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827805"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153819"
 ---
 # <a name="dstu2-interface-specification"></a>DSTU2 インターフェイスの仕様
 
@@ -54,7 +54,7 @@ Microsoft Teams の患者アプリから複数のリソースに対するクエ�
    1. モード
    2. 通信
    3. リソース: 種類
-   4. セキュリティ: [OAuth uri 用の拡張子](http://hl7.org/fhir/extension-oauth-uris.html)
+   4. セキュリティ: [OAuth uri 用の拡張子](https://hl7.org/fhir/extension-oauth-uris.html)
 2. FhirVersion (Microsoft のコードでは、複数のバージョンをサポートするために、どのバージョンをピボットする必要があるかを理解する必要があります)。
 
 この[https://www.hl7.org/fhir/dstu2/conformance.html](https://www.hl7.org/fhir/dstu2/conformance.html)フィールドセットのその他の詳細については、を参照してください。
@@ -82,7 +82,7 @@ Microsoft Teams の患者アプリから複数のリソースに対するクエ�
     応答: {"resourceType": "患者"、"id": "<>"、"
       .
       .
-      "name": [{"use": "オフィシャル", "prefix": ["Mr"], "family": ["Chau"], "指定された": ["Hugh"]}], "識別子": [{"use": "", "と入力します。 {" コード ": [{"http://hl7.org/fhir/v2/0203system ":" "、" code ":" "、" code ":" Mr "}]}、" 性別 ":" careProvider ":" 1957-06-05 "、" ": [{" display ":" 鈴木 Doe "}],} 1234567
+      "name": [{"use": "オフィシャル", "prefix": ["Mr"], "family": ["Chau"], "指定された": ["Hugh"]}], "識別子": [{"use": "", "と入力します。 {" コード ": [{"https://hl7.org/fhir/v2/0203system ":" "、" code ":" "、" code ":" Mr "}]}、" 性別 ":" careProvider ":" 1957-06-05 "、" ": [{" display ":" 鈴木 Doe "}],} 1234567
 
 * * *
 

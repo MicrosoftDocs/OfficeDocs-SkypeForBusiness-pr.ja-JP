@@ -1,7 +1,7 @@
 ---
 title: Skype for Business Server 2019 でリソースアカウントを構成する
-ms.author: jambirk
-author: jambirk
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: wasseemh
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Skype for Business Server 2019 のリソースアカウントをセットアップします。
-ms.openlocfilehash: e16f75063cfbe794ff0257cb9cccdf44065a5448
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9acd9df1d9c5372915ea51ff1b3b94e1f89c3311
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726777"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42113260"
 ---
 # <a name="configure-resource-accounts"></a>リソースアカウントを構成する
 
@@ -113,7 +113,7 @@ Skype for Business Server 2019 で電話システムの自動応答または通�
 7. 電話システムの自動応答または通話キューを作成します。 次のいずれかをご覧ください。
 
    - [クラウドの自動応答をセットアップする](/MicrosoftTeams/create-a-phone-system-auto-attendant)
-   - [クラウド通話キューを作成する](/MicrosoftTeams/create-a-phone-system-call-queue)  
+   - [クラウドの通話キューを作成する](/MicrosoftTeams/create-a-phone-system-call-queue)  
 
 8. 以前に選択した電話システム自動応答または通話キューに、リソースアカウントを関連付けます。
 
@@ -145,7 +145,7 @@ Skype for Business フロントエンドサーバーにログインし、次の 
 
 3. 電話システムの自動応答または通話キューを作成します。 次のいずれかをご覧ください。
    - [クラウドの自動応答をセットアップする](/MicrosoftTeams/create-a-phone-system-auto-attendant)
-   - [クラウド通話キューを作成する](/MicrosoftTeams/create-a-phone-system-call-queue)  
+   - [クラウドの通話キューを作成する](/MicrosoftTeams/create-a-phone-system-call-queue)  
 4. 以前に選択した [リソースアカウント] および [電話システム] 自動応答または呼び出しキューを関連付けます。
 
 小規模ビジネスの実装の例については、Small business の例を参照してください。[自動応答](/microsoftteams/tutorial-org-aa)および小規模ビジネスの例-設定するには、[通話キューを](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq)設定します。
@@ -193,7 +193,7 @@ Exchange UM から電話システムへの移行では、通話キューと自�
 
 ## <a name="see-also"></a>関連項目
 
-[クラウド通話キューを作成する](/MicrosoftTeams/create-a-phone-system-call-queue)
+[クラウドの通話キューを作成する](/MicrosoftTeams/create-a-phone-system-call-queue)
 
 [クラウド自動応答とは](/MicrosoftTeams/what-are-phone-system-auto-attendants)
 

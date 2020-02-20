@@ -1,8 +1,8 @@
 ---
 title: SCOM 管理パックを使用して Skype for Business Server 2019 を管理する
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: LanaChin
 manager: serdars
 ms.date: 10/26/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: '概要: Skype for Business Server 2019 インフラストラクチャを System Center Operations Manager と連携するように構成する方法について説明します。'
-ms.openlocfilehash: ac8b9a99794ee12be5d6ac31b0361f46730a8e21
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 54c9f3dadb73df45ddc21cfc40ff83711032a4c2
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006042"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150544"
 ---
 # <a name="manage-skype-for-business-server-2019-using-scom-management-pack"></a>SCOM 管理パックを使用して Skype for Business Server 2019 を管理する
  
@@ -126,11 +126,11 @@ Skype for Business Server 2019 の管理パックを使用すると、代理ト�
 
 ||||
 |:-----|:-----|:-----|
-|1   <br/> |登録 (ユーザーログイン)  <br/> |利用可能な Lync Server 2010 以降  <br/> |
-|2   <br/> |アドレス帳サービス (ファイルのダウンロード)  <br/> |利用可能な Lync Server 2010 以降  <br/> |
-|3   <br/> |アドレス帳 Web クエリ  <br/> |利用可能な Lync Server 2010 以降  <br/> |
-|4   <br/> |プレゼンス  <br/> |利用可能な Lync Server 2010 以降  <br/> |
-|5   <br/> |統合連絡先ストア  <br/> |利用可能な Lync Server 2013 以降  <br/> |
+|1-d  <br/> |登録 (ユーザーログイン)  <br/> |利用可能な Lync Server 2010 以降  <br/> |
+|pbm-2  <br/> |アドレス帳サービス (ファイルのダウンロード)  <br/> |利用可能な Lync Server 2010 以降  <br/> |
+|1/3  <br/> |アドレス帳 Web クエリ  <br/> |利用可能な Lync Server 2010 以降  <br/> |
+|2/4  <br/> |プレゼンス  <br/> |利用可能な Lync Server 2010 以降  <br/> |
+|5  <br/> |統合連絡先ストア  <br/> |利用可能な Lync Server 2013 以降  <br/> |
    
 **ピアツーピアサービスに対してサポートされている代理トランザクション**
 
@@ -149,7 +149,7 @@ Skype for Business Server 2019 の管理パックを使用すると、代理ト�
 |:-----|:-----|:-----|
 |9   <br/> |音声ビデオ会議  <br/> |Lync Server 2010 以降で利用可能  <br/> |
 |10   <br/> |データ会議  <br/> |Lync Server 2013 以降で利用可能  <br/> |
-|#  <br/> |インスタントメッセージ会議  <br/> |Lync Server 2010 以降で利用可能  <br/> |
+|11   <br/> |インスタントメッセージ会議  <br/> |Lync Server 2010 以降で利用可能  <br/> |
 |12  <br/> | 常設チャット <br/> |Lync Server 2013 以降で利用可能  <br/> |
 |スリー  <br/> |参加起動ツール (スケジュールされた会議)  <br/> |Lync Server 2013 以降で利用可能  <br/> |
 |14   <br/> |ダイヤルイン会議  <br/> |Skype for Business Server 2015 以降で利用可能 <br/> |

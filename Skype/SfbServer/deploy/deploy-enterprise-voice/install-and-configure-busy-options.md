@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server の通話中オプションのインストールおよび構成
+title: Skype for Business Server の通話中オプションのインストールと構成
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -14,122 +14,122 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
-description: Skype for Business Server で取り込み中のオプションをインストールして構成する方法について説明します。
-ms.openlocfilehash: dd22d07bcabc86b0d16f3ad1029087b659a3e4a5
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Skype for Business Server で通話中オプションをインストールおよび構成する方法について確認します。
+ms.openlocfilehash: 5078041401c710a249470ed6d3871f38a98a7420
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767220"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42113120"
 ---
-# <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>Skype for Business Server の通話中オプションのインストールおよび構成
+# <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>Skype for Business Server の通話中オプションのインストールと構成
 
-Skype for Business Server で取り込み中のオプションをインストールして構成する方法について説明します。
+Skype for Business Server で通話中オプションをインストールおよび構成する方法について確認します。
 
-通話中オプションは、2016 年 7 月の累積更新プログラムで導入された新たなボイス ポリシーで、ユーザーが通話中や会議中の場合、または通話を保留にしている場合の着信処理方法を構成することができます。 着信があった場合に、話中音を流すかボイスメールに転送できます。
+通話中オプションは、2016年7月の累積的な更新プログラムで導入された新しい音声ポリシーです。これにより、ユーザーが既に通話または会議に参加している場合や、通話が保留になっている場合に着信呼び出しを処理する方法を構成できます。 通話中、またはボイスメールに転送された新規または着信通話を拒否することができます。
 
-通話中オプションが組織で有効になっていれば、エンタープライズ VoIP を使用するユーザーも使用しないユーザーも、エンタープライズ中の全ユーザーが次の構成オプションを使用できます。
+[通話中] オプションが組織で有効になっている場合は、エンタープライズ voip ユーザーとエンタープライズ Voip ユーザーの両方で、エンタープライズのすべてのユーザーが次の構成オプションを使用できます。
 
-- 通話中に話中音 - 通話中に別の着信があると、話中音を流して着信を拒否します。
+- ビジー状態で、ユーザーが通話中の場合は、通話中に新しい着信が拒否されます。
 
-- 通話中にボイスメール - 通話中に別の着信があると、ボイスメールに転送します。
+- ビジー状態のボイスメール。ユーザーが通話中の場合は、新しい着信通話がボイスメールに転送されます。
 
-通話中オプションがどう構成されていても、通話中や会議中または通話を保留にしているユーザーが、新たな発信や会議を開始できなくなるわけではありません。  
+通話中オプションの構成方法に関係なく、電話または電話会議のユーザー、または通話を保留にしているユーザーは、新しい通話または会議を開始できません。
 
-通話中オプション機能の詳細については、「 [Plan for Busy Options for Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/busy-options.md)」を参照してください。
+通話中オプション機能の詳細については、「 [Plan For Busy options For Skype For Business Server](../../plan-your-deployment/enterprise-voice-solution/busy-options.md)」を参照してください。
 
-## <a name="install"></a>インストール 
+## <a name="install"></a>Install
 
-最新バージョンの Skype for Business Server がインストールされていて、最新の更新プログラムがインストールされていることを確認してください。 これを行うには、まずすべてのサービスを停止してから、次のようにして Skype for Business Server 更新プログラムのインストーラーを実行します。
+最新バージョンの Skype for Business Server がインストールされており、最新のパッチがインストールされていることを確認してください。 これを行うには、まずすべてのサービスを停止してから、次のように Skype for Business Server 更新プログラムのインストーラーを実行します。
 
-1. Stop-CsWindowsService コマンドを実行する。
+1. Stop-CsWindowsService コマンドを実行します。
 
-2. プール内のフロントエンド サーバーごとに SkypeServerUpdateInstaller.exe インストーラを実行する。
+2. プール内の各フロントエンドサーバーで SkypeServerUpdateInstaller .exe を実行します。
 
-3. 存続可能ブランチ サーバー (SBS) でのフェールオーバーをサポートしたい場合は、SBS ごとに SkypeServerUpdateInstaller.exe インストーラを実行する。
+3. SBS でのフェールオーバーのサポートを確認するには、各存続可能ブランチサーバー (SBS) で SkypeServerUpdateInstaller のインストーラーを実行します。
 
-インストーラーによって通話中オプション アプリケーションの最新バージョンが展開されますが、アプリケーションは既定で有効ではありません。次の手順で有効にします。
+インストーラーは、通話中オプションアプリケーションの最新バージョンを展開します。 ただし、アプリケーションは既定では有効になっていません。 アプリケーションを有効にするには、次の手順を実行します。
 
-1. 次の例に示すように、 [CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/set-csvoicepolicy?view=skype-ps)コマンドレットを実行して、ビジーオプションをグローバルに有効にします。
+1. 次の例に示すように、 [set-csvoicepolicy](https://docs.microsoft.com/powershell/module/skype/set-csvoicepolicy?view=skype-ps)コマンドレットを実行して、通話中オプションをグローバルに有効にします。
 
    ```powershell
    Set-CsVoicePolicy -EnableBusyOptions $true
    ```
 
-2. 次に、サイトにボイス ポリシーがある場合は、次のようにボイス ポリシー用の通話中オプションを有効にします。
+2. 次に、サイトで音声ポリシーが設定されている場合は、音声ポリシーの通話中オプションを次のように有効にする必要があります。
 
-    最初に、[[次へ] を実行](https://docs.microsoft.com/powershell/module/skype/get-cssite?view=skype-ps)して、サイトの名前を取得します。
+    最初に、 [Get-cssite](https://docs.microsoft.com/powershell/module/skype/get-cssite?view=skype-ps)を実行してサイトの名前を取得します。
 
    ```powershell
    Get-CsSite
    ```
 
-    Redmond1 サイトから取得した Id 値 (例: Site:) を使用して、次のようにサイトの音声ポリシーを取得します。
+    Redmond1 というサイトから取得した Id 値 (例: Site:) を使用して、サイトの音声ポリシーを次のように取得します。
 
    ```powershell
    Get-CsVoicePolicy -Identity Site:Redmond1
    ```
 
-    サイトのボイス ポリシーが存在していれば、次のコマンドを実行します。
+    サイトの音声ポリシーが存在する場合は、次のコマンドを実行します。
 
    ```powershell
    Set-CsVoicePolicy -Identity Site:Redmond1 -EnableBusyOptions $true
    ```
 
-3. 次に、[新しい-CsServerApplication](https://docs.microsoft.com/powershell/module/skype/new-csserverapplication?view=skype-ps)コマンドレットを実行して、次の例に示すように、サーバーアプリケーションの一覧に取り込み中のオプションを追加します。
+3. 次に、次の例に示すように、[新しい-CsServerApplication](https://docs.microsoft.com/powershell/module/skype/new-csserverapplication?view=skype-ps)コマンドレットを実行して、サーバーアプリケーションの一覧に通話中オプションを追加します。
 
    ```powershell
-   New-CsServerApplication -Identity 'Service:Registrar:%FQDN%/BusyOptions' -Uri http://www.microsoft.com/LCS/BusyOptions -Critical $False -Enabled $True -Priority (Get-CsServerApplication -Identity 'Service:Registrar:%FQDN%/UserServices').Priority
+   New-CsServerApplication -Identity 'Service:Registrar:%FQDN%/BusyOptions' -Uri https://www.microsoft.com/LCS/BusyOptions -Critical $False -Enabled $True -Priority (Get-CsServerApplication -Identity 'Service:Registrar:%FQDN%/UserServices').Priority
    ```
 
     > [!NOTE]
-    > % FQDN% は、特定のプールの完全修飾ドメイン名に置き換える必要があります。
+    > % FQDN% は特定のプールの完全修飾ドメイン名に置き換える必要があります。
 
-4. 次に、次の例に示すように、[更新プログラム] と [ [CsAdminRole](https://docs.microsoft.com/powershell/module/skype/update-csadminrole?view=skype-ps) ] のコマンドレットを実行して、Busy オプションのコマンドレットの役割ベースのアクセス制御 (RBAC) の役割を更新します。
+4. 次に、次の例に示すように、「[更新-CsAdminRole](https://docs.microsoft.com/powershell/module/skype/update-csadminrole?view=skype-ps)コマンドレット」を実行して、Busy オプションコマンドレットの役割ベースのアクセス制御 (RBAC) の役割を更新します。
 
    ```powershell
    Update-CsAdminRole
    ```
 
-5. 最後に、Busy オプションがインストールされて有効になっているすべてのプール内のすべてのフロントエンドサーバーで、Skype for Business Server の Windows サービスを開始します。[次の操作](https://docs.microsoft.com/powershell/module/skype/start-cswindowsservice?view=skype-ps)を実行します。
+5. 最後に、[次へ] を[実行して](https://docs.microsoft.com/powershell/module/skype/start-cswindowsservice?view=skype-ps)、通話中オプションがインストールされて有効になっているすべてのプール内のすべてのフロントエンドサーバーで、Skype For Business Server Windows サービスを開始します。
 
    ```powershell
    Start-CsWindowsService
    ```
 
-## <a name="configure"></a>構成
+## <a name="configure"></a>Configure
 
-通話中オプションを構成するには、[Set-CsBusyOptions](https://technet.microsoft.com/library/8ffbb832-3e55-4d6c-9a7c-5ce2df22de2e.aspx) cmdlet を使用します。  
+通話中オプションを構成するには、 [set-csbusyoptions cmdlet](https://technet.microsoft.com/library/8ffbb832-3e55-4d6c-9a7c-5ce2df22de2e.aspx)コマンドレットを使用します。
 
-たとえば、次のコマンドは「Ken Myer」というユーザーの通話中オプションを構成します。この構成では、通話中に「Ken Myer」への着信があると話中音を返します。
+たとえば、次のコマンドを実行すると、ユーザー "Ken Myer" の通話中オプションが構成されます。 この構成では、"Ken Myer" へのすべての呼び出しは、既に通話中の場合にビジー信号を返します。
 
 ```powershell
 Set-CsBusyOptions -Identity "Ken Myer"  -ActionType BusyOnBusy
 ```
 
-その次の例では、コマンドが「Chrystal Velasquez」というユーザーの通話中オプションを構成します。 この構成では、通話中に着信があるとボイスメールに転送されます。
+次の例では、コマンドによって、"Chrystal と" というユーザーの通話中オプションが構成されます。 この構成では、既に通話中の場合、"Chrystal と" への新しい着信呼び出しがボイスメールに転送されます。
 
 ```powershell
 Set-CsBusyOptions -Identity "Chrystal Velasquez" -ActionType VoicemailOnBusy
 ```
 
-[Get-CsBusyOptions](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx) cmdlet を使用して、通話中オプションに関する構成情報を取得できます。 次の例では、"KenMyer@Contoso.com" の [取り込み中] オプションの設定を返します。
+[Set-csbusyoptions cmdlet](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx)コマンドレットを使用して、通話中オプションに関する構成情報を取得できます。 次の例では、"KenMyer@Contoso.com" の通話中オプションの設定を取得します。
 
 ```powershell
 Get-CsBusyOptions -Identity sip:KenMyer@Contoso.com
 ```
 
-[Remove-CsBusyOptions](https://technet.microsoft.com/library/159e5931-10f1-4226-bcc4-38548f88f0d4.aspx) cmdlet を使用して、通話中オプションを削除できます。 次のコマンドは「Ken Myer」の通話中オプションを削除します。
+[Set-csbusyoptions cmdlet](https://technet.microsoft.com/library/159e5931-10f1-4226-bcc4-38548f88f0d4.aspx)コマンドレットを使用して、通話中オプションを削除できます。 次のコマンドは、"Ken Myer" の通話中オプションを削除します。
 
 ```powershell
 Remove-CsBusyOptions -Identity "Ken Myer"
 ```
 
-Busy のオプションを構成するために使用するコマンドレットの詳細については、「 [Set-CsBusyOptions](https://technet.microsoft.com/library/8ffbb832-3e55-4d6c-9a7c-5ce2df22de2e.aspx)、 [CsBusyOptions](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx)、および[Remove](https://technet.microsoft.com/library/159e5931-10f1-4226-bcc4-38548f88f0d4.aspx)のテクニカルリファレンスコンテンツ」を参照してください。
+通話中オプションの構成に使用するコマンドレットの詳細については、「 [set-csbusyoptions cmdlet](https://technet.microsoft.com/library/8ffbb832-3e55-4d6c-9a7c-5ce2df22de2e.aspx)」、「 [set-csbusyoptions cmdlet](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx)」、および「 [Remove-set-csbusyoptions cmdlet](https://technet.microsoft.com/library/159e5931-10f1-4226-bcc4-38548f88f0d4.aspx)」のテクニカルリファレンスコンテンツを参照してください。
 
-## <a name="enable-logging"></a>ログの有効化
+## <a name="enable-logging"></a>ログを有効にする
 
-集中ログ サービスを使用して通話中オプションのログを有効にするには、次のように指定します。
+集中ログサービスを使用して通話中オプションのログ記録を有効にするには、次のように指定します。
 
 ```powershell
 $p1 = New-CsClsProvider -Name S4 -Type WPP -Level Info -Flags All
@@ -139,14 +139,14 @@ $p3 = New-CsClsProvider -Name BusyOptions -Type WPP -Level Verbose -Flags All
 New-CsClsScenario -Parent Global -Name BusyOptions -Provider @{Add=$p1,$p2,$p3}
 ```
 
-## <a name="verify-and-troubleshoot"></a>確認とトラブルシューティング
+## <a name="verify-and-troubleshoot"></a>確認およびトラブルシューティング
 
-[取り込み中] オプションをインストールした後、ユーザーが正常にインストールされたことを確認するには、 [CsServerApplication](https://docs.microsoft.com/powershell/module/skype/get-csserverapplication?view=skype-ps)コマンドレットを使用してサーバーアプリケーションの一覧を取得します。 通話中オプションが正しくインストールされていれば、通話中オプション構成が次のように表示されます。
+通話中オプションをインストールした後、サーバーアプリケーションの一覧を取得するために、 [Get-help Serverapplication](https://docs.microsoft.com/powershell/module/skype/get-csserverapplication?view=skype-ps)コマンドレットを使用して、インストールが正常に完了したことを確認できます。 通話中オプションが適切にインストールされている場合は、コマンドレットの出力で、次のように通話中オプションの構成を表示する必要があります。
 
 <pre>
 Identity   : Service:Registrar:pool0.vdomain.com/BusyOptions
 Priority   : 5
-Uri        : http://www.microsoft.com/LCS/BusyOptions
+Uri        : https://www.microsoft.com/LCS/BusyOptions
 Name       : BusyOptions
 Enabled    : True
 Critical   : False
@@ -154,4 +154,4 @@ ScriptName :
 Script     :
 </pre>
 
-また、Windows イベントビューアーを使用して、取り込み中のオプションが正常にインストールされたこと、および Skype for Business Server で [取り込み中] オプションが正常に読み込まれたことを確認することもできます。 取り込み中のオプションを確認するには、イベントビューアーを開きます。 **\>アプリケーションとサービスログ\> -Skype (または Lync) サーバー**で、イベント ID = 30253 を検索します。
+Windows イベントビューアーを使用して、通話中オプションが正常にインストールされたことと、Skype for Business Server が正常にビジーオプションを正常に読み込みしたことを確認することもできます。 通話中オプションを確認するには、**イベントビューア-\>アプリケーションと\>サービスログ-Skype (または Lync) サーバー**を開き、イベント ID = 30253 を検索します。

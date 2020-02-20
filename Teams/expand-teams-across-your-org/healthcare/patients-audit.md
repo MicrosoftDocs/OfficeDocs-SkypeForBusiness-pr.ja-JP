@@ -1,7 +1,7 @@
 ---
 title: 'Teams IT とコンプライアンス管理者のための患者アプリの監査 '
-author: jambirk
-ms.author: jambirk
+author: dstrome
+ms.author: dstrome
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_Healthcare
 ms.reviewer: anach
 description: Teams 管理者用の患者アプリ
-ms.openlocfilehash: fd2aa97e9eb8fefdcaa4e9a4ccc432f42dbee5ce
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 03aa421a72ab1402e0574a65117fa1eb182f1a47
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827615"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147710"
 ---
 # <a name="audit-logs-for-patients-app"></a>患者アプリの監査ログ
 

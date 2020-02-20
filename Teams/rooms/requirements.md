@@ -14,12 +14,12 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: この記事では、Microsoft Teams のルームをサポートするための要件について説明します。
-ms.openlocfilehash: 8a62a883d9e839d58f6e627d30422d867221e7e1
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 4fcdaa8441bab7a3a49fbd764c6734d0e58800fb
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825955"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42155099"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams の会議室の要件
 
@@ -80,8 +80,8 @@ Microsoft Teams の会議室のサイズと用途に基づいて、さまざま�
 - 会議室テーブルにタブレットをセキュリティで保護するための、次のドッキングステーションオプションのいずれか。
 
   - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
-  - [クリエイティブ](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
-  - [Polycom MSR シリーズ](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
+  - [クリエイティブ](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
+  - [Polycom MSR シリーズ](https://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
 
 ### <a name="certified-firmware-versions-for-usb-audio-and-video-peripherals"></a>USB オーディオおよびビデオの周辺機器についての認定済みファームウェア バージョン
 
@@ -91,16 +91,16 @@ Microsoft Teams の会議室のサイズと用途に基づいて、さまざま�
 |:--- |:--- | :--- |
 |[Crestron Huddly IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  | &#x2714; |
 |[Logitech Brio](https://www.logitech.com/product/brio)   |V 2.2.50| &#x2714; |
-|[Logitech 930e](http://www.logitech.com/product/c930e-webcam)   | 8.0.914   | &#x2714; |
+|[Logitech 930e](https://www.logitech.com/product/c930e-webcam)   | 8.0.914   | &#x2714; |
 |[Logitech 集結](https://www.logitech.com/product/rally-ultra-hd-conferencecam)   |1.2.4 |
-|[Logitech MeetUp](http://www.logitech.com/product/meetup-conferencecam)   |オーディオ—1.0.172 <br/> ビデオ: 1.0.156  |
-|[Logitech ConferenceCam Connect](http://www.logitech.com/product/conferencecam-connect)   |1.1.248.0 <br/> 1.1.684   |
-|[Logitech グループ](http://www.logitech.com/product/conferencecam-group)   |8.5.778   |
-|[Logitech PTZ Pro](http://www.logitech.com/product/conferencecam-ptz-pro)   | 1.1.219   |
-|[Logitech PTZ Pro 2](http://www.logitech.com/product/conferencecam-ptz-pro2)   |
+|[Logitech MeetUp](https://www.logitech.com/product/meetup-conferencecam)   |オーディオ—1.0.172 <br/> ビデオ: 1.0.156  |
+|[Logitech ConferenceCam Connect](https://www.logitech.com/product/conferencecam-connect)   |1.1.248.0 <br/> 1.1.684   |
+|[Logitech グループ](https://www.logitech.com/product/conferencecam-group)   |8.5.778   |
+|[Logitech PTZ Pro](https://www.logitech.com/product/conferencecam-ptz-pro)   | 1.1.219   |
+|[Logitech PTZ Pro 2](https://www.logitech.com/product/conferencecam-ptz-pro2)   |
 |[Poly Eagle アイ Cube カメラ](https://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.html)  |1.2.0 |
-|[Polycom EagleEye IV](http://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.mdl)   |1.0.0   |
-|[Polycom CX5100](http://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx5100-unified-conference-station.mdl)   | 1.2.0.70232   |
+|[Polycom EagleEye IV](https://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.mdl)   |1.0.0   |
+|[Polycom CX5100](https://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx5100-unified-conference-station.mdl)   | 1.2.0.70232   |
 |[Polycom Eagle アイディレクター II](https://www.polycom.com/hd-video-conferencing/peripherals/eagleeye-director-ii.html)|2.1.0.10|
 |[Polycom Studio のサウンドバー](https://www.polycom.com/hd-video-conferencing/room-video-systems/polycom-studio.html)|1.1.2.000570|
 |[Polycom 3 つ 8500/8800](https://www.polycom.com/voice-conferencing-solutions/conference-phones/trio.html)   |5.7.2.3205|

@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Skype for Business Server Enterprise Voice は、e.164 形式に正規化された電話番号に基づいて通話をルーティングします。 つまり、逆引き番号検索 (RNL) を実行して、一致する SIP URI に変換できるようにするには、すべてのダイヤル文字列を e.164 形式に正規化する必要があります。 Skype for Business Server には、呼び出し元 ID と発信者番号のプレゼンテーションを操作する機能が用意されています。
-ms.openlocfilehash: dddeee5ef7784d9c2c433763da4c8b6145611e49
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 49598c2ef6b1a145c206bece3e06068067b0a0e0
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045069"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151207"
 ---
 # <a name="defining-translation-rules-in-skype-for-business-server"></a>Skype for Business Server で変換ルールを定義する
 
@@ -55,7 +55,7 @@ Skype for Business Server では、発信者の電話番号 (発信者の発信�
 - [正規表現を手動で記述](#create-or-modify-a-translation-rule-manually)して、照合パターンと変換ルールを定義します。
 
 > [!Note]
-> 正規表現を記述する方法については、「 [.Net Framework 正規表現](http://go.microsoft.com/fwlink/p/?linkId=140927)」を参照してください。 
+> 正規表現を記述する方法については、「 [.Net Framework 正規表現](https://go.microsoft.com/fwlink/p/?linkId=140927)」を参照してください。 
 
 ### <a name="create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool"></a>変換ルールの構築ツールを使用して変換ルールを作成または変更する
 

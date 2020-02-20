@@ -1,7 +1,7 @@
 ---
 title: 患者のアプリと EHR の統合 STU3 インターフェイス
-author: jambirk
-ms.author: jambirk
+author: dstrome
+ms.author: dstrome
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Microsoft Teams の患者向けアプリ EHR の統合
-ms.openlocfilehash: 6c7638436f35a1e460c176964dfc63624985b12e
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: d718f3d3772a08ecfa57e418a4f4fc2e22fe7172
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827635"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147700"
 ---
 # <a name="stu3-interface-specification"></a>STU3 インターフェイスの仕様
 
@@ -52,7 +52,7 @@ Microsoft Teams の患者と連携するように FHIR サーバーを設定ま�
    1. モード
    2. 通信
    3. リソース: 種類
-   4. セキュリティ: [OAuth uri 用の拡張子](http://hl7.org/fhir/extension-oauth-uris.html)
+   4. セキュリティ: [OAuth uri 用の拡張子](https://hl7.org/fhir/extension-oauth-uris.html)
 2. FhirVersion (コードは、どのバージョンをピボットするかを理解するために必要です。)
 
 この[https://www.hl7.org/fhir/stu3/capabilitystatement.html](https://www.hl7.org/fhir/stu3/capabilitystatement.html)フィールドセットのその他の詳細については、を参照してください。
@@ -96,18 +96,18 @@ Microsoft Teams の患者と連携するように FHIR サーバーを設定ま�
 
     要求: <fhir-server>/Patient/_search 要求本文: 指定 = ruth&ファミリ = 黒
     
-    応答: {"resourceType": "バンドル"、"id": "<バンドル id>"、"メタ": {"lastUpdated": "2019-01-14T23: 45.052 + 00:00"}, "種類": "searchset", "total": [{"relation": [{"relation": "/patient/_search"} "," entry ":):" @ "" {":" self ":> <[{" fullUrl ": <fhir-server>/Patient/<患者 id>", "リソース": {"resourceType": "<"、"id": ">" という、"" という "、" meta ": {" versionId ":" 1 "、" 最終更新 ":" 2017-10-18T18:32: 37.000 + 00:00 "}," テキスト ": {" 状態 ":" 生成された "," div ":"<div>i        <p>Ruth ブラック</p>i      </div>"}," 識別子 ": [{" use ":" 通常 "と入力します。 {" コード ": [{" システム ":"http://hl7.org/fhir/v2/0203"," code ":" "," code ":" "," Display "userselected": false} "," text ":" 医療記録番号 "}," system ":"http://hospital.smarthealthit.org"" "値": "1234567"}], "Ruth": "{" use ":" "{" use ":" "{" use ":" "{" use ":" '
+    応答: {"resourceType": "バンドル"、"id": "<バンドル id>"、"メタ": {"lastUpdated": "2019-01-14T23: 45.052 + 00:00"}, "種類": "searchset", "total": [{"relation": [{"relation": "/patient/_search"} "," entry ":):" @ "" {":" self ":> <[{" fullUrl ": <fhir-server>/Patient/<患者 id>", "リソース": {"resourceType": "<"、"id": ">" という、"" という "、" meta ": {" versionId ":" 1 "、" 最終更新 ":" 2017-10-18T18:32: 37.000 + 00:00 "}," テキスト ": {" 状態 ":" 生成された "," div ":"<div>i        <p>Ruth ブラック</p>i      </div>"}," 識別子 ": [{" use ":" 通常 "と入力します。 {" コード ": [{" システム ":"https://hl7.org/fhir/v2/0203"," code ":" "," code ":" "," Display "userselected": false} "," text ":" 医療記録番号 "}," system ":"http://hospital.smarthealthit.org"" "値": "1234567"}], "Ruth": "{" use ":" "{" use ":" "{" use ":" "{" use ":" '
     ]}]、"電気通信": [{"システム": "電話"、"値": "800-599-2739"、"use": "home"}、"ruth.black@example.com": "800-808-7785"、"値": ""、"使用": ""、"次の値:" "、" 次の値 ":" "、" "、" 女性 "," 生年月日 ":" 1951-08-23 "、" 住所 ": [{" use ":" home "," line ": [" ""、"市": ""、"市区町村" "," 都道府県 ":" OK "," 郵便番号 ":" 74066 "," 国名 ":" USA "}]}," 検索 ": {" mode ":" match "}}}}}
 
 * * *
 
     要求: <fhir-server>/Patient/<患者 id> を取得する
     
-    応答: {"resourceType": "患者"、"id": "<患者の>", "識別子": [{"use": "{" use ":" 通常 "、" type ": {" コード ": [{http://hl7.org/fhir/v2/0203" system ":" "、" code ":" MR "、}"、"text": "医学レコード番号"}, "値": "1234567"}], "Adams" "{" use ":" "{" use ":" "{" use "" "": "' ]}], "性別": "男性", "生年月日": "1925-12-23",}
+    応答: {"resourceType": "患者"、"id": "<患者の>", "識別子": [{"use": "{" use ":" 通常 "、" type ": {" コード ": [{https://hl7.org/fhir/v2/0203" system ":" "、" code ":" MR "、}"、"text": "医学レコード番号"}, "値": "1234567"}], "Adams" "{" use ":" "{" use ":" "{" use "" "": "' ]}], "性別": "男性", "生年月日": "1925-12-23",}
 
 * * *
 
-この[http://hl7.org/fhir/stu3/patient.html](http://hl7.org/fhir/stu3/patient.html)フィールドセットのその他の詳細については、を参照してください。
+この[https://hl7.org/fhir/stu3/patient.html](https://hl7.org/fhir/stu3/patient.html)フィールドセットのその他の詳細については、を参照してください。
 
 ## <a name="observation"></a>観察
 
@@ -134,7 +134,7 @@ Microsoft Teams の患者と連携するように FHIR サーバーを設定ま�
 
     要求: fhir-server>/監視? 患者 =<患者-id>&カテゴリ = バイバイ <
     
-    応答: {"resourceType": "バンドル"、"id": "<バンドル id>"、"type" と入力します。検索セット "," 集計 ":" {"リソース": {"resourceType": "観測"、"id": "<リソース id>", "分類": [{"システム": [{"]" という値: [{"http://hl7.org/fhir/observation-categoryシステム": "{" "コード": "" {")" コード ": {" コード ": [{" system ":"http://loinc.org"," code ":" 8867-4 "、" 表示 ":" heart_rate "}]}、" effectiveDateTime ":" 2009-04-08t00:00:00-06:00 "," valuvaluアンチ ty ": {" value ": 72.0," unit ":" {拍}/最小 "," システム ":"http://unitsofmeasure.org",}}},
+    応答: {"resourceType": "バンドル"、"id": "<バンドル id>"、"type" と入力します。検索セット "," 集計 ":" {"リソース": {"resourceType": "観測"、"id": "<リソース id>", "分類": [{"システム": [{"]" という値: [{"https://hl7.org/fhir/observation-categoryシステム": "{" "コード": "" {")" コード ": {" コード ": [{" system ":"http://loinc.org"," code ":" 8867-4 "、" 表示 ":" heart_rate "}]}、" effectiveDateTime ":" 2009-04-08t00:00:00-06:00 "," valuvaluアンチ ty ": {" value ": 72.0," unit ":" {拍}/最小 "," システム ":"http://unitsofmeasure.org",}}},
         .
         .
       ] }
@@ -171,11 +171,11 @@ Microsoft Teams の患者と連携するように FHIR サーバーを設定ま�
       ] }
 
 * * *
-この[http://hl7.org/fhir/stu3/condition.html](http://hl7.org/fhir/stu3/condition.html)フィールドセットのその他の詳細については、を参照してください。
+この[https://hl7.org/fhir/stu3/condition.html](https://hl7.org/fhir/stu3/condition.html)フィールドセットのその他の詳細については、を参照してください。
 
 ## <a name="encounter"></a>状況
 
-" [US Core](http://hl7.org/fhir/us/core/2018Jan/StructureDefinition-us-core-encounter.html) " というプロファイルのサブセットである最小必須フィールドは、"フィールドが含まれている必要があります" である必要があります。
+" [US Core](https://hl7.org/fhir/us/core/2018Jan/StructureDefinition-us-core-encounter.html) " というプロファイルのサブセットである最小必須フィールドは、"フィールドが含まれている必要があります" である必要があります。
 
 1. 状態
 2. [0] と入力します。コーディング [0]。表示
@@ -193,7 +193,7 @@ Microsoft Teams の患者と連携するように FHIR サーバーを設定ま�
 
 目標は、患者の最後の既知の場所を取得できるようにすることです。 各検出は、位置情報リソースを参照します。 参照には、場所の表示フィールドも含まれます。
 
-この[http://hl7.org/fhir/stu3/encounter.html](http://hl7.org/fhir/stu3/encounter.html)フィールドセットのその他の詳細については、を参照してください。
+この[https://hl7.org/fhir/stu3/encounter.html](https://hl7.org/fhir/stu3/encounter.html)フィールドセットのその他の詳細については、を参照してください。
 
 ## <a name="allergyintolerance"></a>AllergyIntolerance
 
@@ -225,7 +225,7 @@ Microsoft Teams の患者と連携するように FHIR サーバーを設定ま�
 
 * * *
 
-この[http://hl7.org/fhir/stu3/allergyintolerance.html](http://hl7.org/fhir/stu3/allergyintolerance.html)フィールドセットのその他の詳細については、を参照してください。
+この[https://hl7.org/fhir/stu3/allergyintolerance.html](https://hl7.org/fhir/stu3/allergyintolerance.html)フィールドセットのその他の詳細については、を参照してください。
 
 ## <a name="medication-request"></a>投薬要求
 
@@ -262,4 +262,4 @@ Microsoft Teams の患者と連携するように FHIR サーバーを設定ま�
 
 1. 患者 = \<患者 id の>
 
-この[http://hl7.org/fhir/stu3/coverage.html](https://www.hl7.org/fhir/medicationrequest.html)フィールドセットのその他の詳細については、を参照してください。
+この[https://hl7.org/fhir/stu3/coverage.html](https://www.hl7.org/fhir/medicationrequest.html)フィールドセットのその他の詳細については、を参照してください。

@@ -1,7 +1,7 @@
 ---
 title: 'Teams 管理者用の患者アプリ '
-author: jambirk
-ms.author: jambirk
+author: dstrome
+ms.author: dstrome
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Teams 管理者用の患者アプリ
-ms.openlocfilehash: dd27fc5deb0b352467a0857448cf925228780579
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 4c4eaced1b7e3c328d589906ac50cfb8ac805ea3
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827671"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153789"
 ---
 # <a name="patients-app-overview"></a>患者アプリの概要
 

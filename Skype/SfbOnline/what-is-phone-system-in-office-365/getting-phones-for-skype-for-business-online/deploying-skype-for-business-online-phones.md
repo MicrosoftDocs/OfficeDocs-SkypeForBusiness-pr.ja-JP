@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 適切なファームウェアを取得し、必要に応じて更新し、ライセンスを割り当て、Skype for Business online 電話機の設定を構成するための展開手順について説明します。
-ms.openlocfilehash: efcea04a454d846c0140e9d1dba561da228df1de
-ms.sourcegitcommit: a61d33fe15982bd8a34f1759b6b89be5aa699fe3
+ms.openlocfilehash: f4f1a36e5a2e98c4566a81b41bc6e6c281ac9a3b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "41784754"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42113150"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Skype for Business Online 電話機の展開レポート
 
@@ -208,7 +208,7 @@ BToE の動作は [ *自動*  ] (既定) および [ *手動*  ] の 2 つのモ
   
 2. 次に示すリンクを使ってメーカーの Web サイトから最新の BToE ソフトウェアをダウンロードし、インストールします。 優れたユーザーエクスペリエンスを実現するには、Microsoft Endpoint Configuration Manager などの管理者配布ソリューションを使用して、BToE ソフトウェアの配布とインストールを行うことができます。 構成マネージャーの使い方については、「[構成マネージャーでのパッケージとプログラム](https://docs.microsoft.com/configmgr/apps/deploy-use/packages-and-programs)」を参照してください。
     
-   - [Polycom BToE ソフトウェア ダウンロード サイト](http://www.polycom.com/voice-conferencing-solutions/microsoft-phones.html)
+   - [Polycom BToE ソフトウェア ダウンロード サイト](https://www.polycom.com/voice-conferencing-solutions/microsoft-phones.html)
     
    - [Yealink BToE ソフトウェア ダウンロード](http://www.yealink.com/products_list_10.html)
     

@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server 2019
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: LanaChin
 manager: serdars
 layout: LandingPage
 ms.date: 2/11/2019
@@ -13,13 +13,13 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: ''
-description: '概要: Skype for Business Server 2019 の実装方法については、以下のリンクを参照してください。'
-ms.openlocfilehash: cd436fb851d5b94db1762dc0c8e6e0e1cf99a1c0
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: '概要: Skype for Business Server 2019 を実装する方法については、次のリンクを参照してください。'
+ms.openlocfilehash: a8d5d0b5b600a6e585a3ca6d7d24e566cbff24dc
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41812535"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42129440"
 ---
 # <a name="skype-for-business-server-2019"></a>Skype for Business Server 2019
 
@@ -53,7 +53,7 @@ ms.locfileid: "41812535"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>ハイブリッドソリューション</h3>
+                        <h3>ハイブリッド ソリューション</h3>
                     </div>
                 </div>
             </div>
@@ -91,7 +91,7 @@ ms.locfileid: "41812535"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Upgrade</h3>
+                        <h3>アップグレード</h3>
                     </div>
                 </div>
             </div>
@@ -127,7 +127,7 @@ ms.locfileid: "41812535"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>今すぐダウンロードしてください。</h3>
+                        <h3>今すぐダウンロードする</h3>
                     </div>
                 </div>
             </div>
@@ -207,8 +207,8 @@ ms.locfileid: "41812535"
 
 |                                                                                                                                                                                        |                                                                                                                                                                                                                             |                                                                                                                                                                                                     |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **始める前に** <br>[システム要件](plan/system-requirements.md) <br>[ネットワーク要件](../SfbServer/plan-your-deployment/network-requirements/network-requirements.md) | **インストール** <br>[Skype for Business Server のインストール](../SfbServer/deploy/install/install.md) <br> [Skype for Business 2019 に移行する](migration/migration-to-skype-for-business-server-2019.md)                             | **エンタープライズ VoIP**<br>[計画](../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)<br>[展開](../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) |
-| **新機能**<br>[新機能](whats-new.md)                                                                                                                                         | **ハイブリッドソリューション**<br>[ハイブリッド接続のプラン](../sfbhybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)|  **以前のリリース**<br/>  [Skype for Business Server 2015 ドキュメント](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-server-2015) <br/>   [Lync Server 2013 ドキュメント](/lyncserver/microsoft-lync-server-2013)                                                                                                                                                                                             |
+| **はじめに** <br>[システム要件](plan/system-requirements.md) <br>[ネットワーク要件](../SfbServer/plan-your-deployment/network-requirements/network-requirements.md) | **インストール** <br>[Skype for Business Server のインストール](../SfbServer/deploy/install/install.md) <br> [Skype for Business 2019 への移行](migration/migration-to-skype-for-business-server-2019.md)                             | **エンタープライズ VoIP**<br>[計画](../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)<br>[展開](../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) |
+| **新機能**<br>[新機能](whats-new.md)                                                                                                                                         | **ハイブリッド ソリューション**<br>[ハイブリッド接続のプラン](../sfbhybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)|  **以前のリリース**<br/>  [Skype for Business Server 2015 ドキュメント](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-server-2015) <br/>   [Lync Server 2013 ドキュメント](/lyncserver/microsoft-lync-server-2013)                                                                                                                                                                                             |
 |                                                                                                                                                                                        |                                                                                                                                                                                                                             |                                                                                                                                                                                                     |
 
 * * *

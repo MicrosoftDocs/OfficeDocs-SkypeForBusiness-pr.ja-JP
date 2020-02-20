@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: この記事では、Microsoft Teams のルームでの累積的な改善点について説明します。
-ms.openlocfilehash: ace96ae0cc8094c1daa7d74f76790e6316ee9411
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: fc83efc2b3b72be532d29b2698370c655a1da9ac
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825805"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42155089"
 ---
 # <a name="release-notes"></a>リリース ノート
 
@@ -248,7 +248,7 @@ Introduced in this update:
 
 この更新プログラムで導入されたもの:
 
-- [POLYCOM MSR Series](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) dock ハードウェアのサポート
+- [POLYCOM MSR Series](https://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) dock ハードウェアのサポート
 - [Logitech Brio](https://www.logitech.com/product/brio)のサポート
 - ルームにアクティビティがない場合にディスプレイ (本体と背面) がスリープモードに切り替わらないという問題を解決します
 
@@ -258,7 +258,7 @@ Introduced in this update:
 
 - Surface Pro (2017) タブレットで実行する 
 - Windows 10 Enterprise Creator の更新プログラム (英語、ビルド 1703)
-- [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system) dock ハードウェアのサポート
+- [Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system) dock ハードウェアのサポート
 - 環境コントロール向けの OEM サポート (Crestron)
 
 64ビット版の Windows 10 Enterprise 記念日 (英語、バージョン 1607) は、Microsoft Teams のルームリリース 3.0.12.0 (更新プログラム 3) でサポートされなくなりました。
