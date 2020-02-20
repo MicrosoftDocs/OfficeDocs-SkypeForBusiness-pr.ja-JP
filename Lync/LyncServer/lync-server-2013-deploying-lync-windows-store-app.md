@@ -12,18 +12,18 @@ ms:contentKeyID: 50117635
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4e2abe30cd464b223523df9d5fa878607404f7a3
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d27f7a2402fabbc28080ca5efc2532497c93c653
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050669"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147540"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="deploying-lync-windows-store-app-in-lync-server-2013"></a>Lync Server 2013 での Lync Windows ストアアプリの展開
 
@@ -37,7 +37,7 @@ ms.locfileid: "42050669"
 
 _**トピックの最終更新日:** 2013-12-03_
 
-Lync Windows ストアアプリをユーザーが使用できるようにする前に、展開が[Lync Server 2013 の Lync Windows ストアのアプリ要件](lync-server-2013-lync-windows-store-app-requirements.md)を満たしていることを確認してください。 Lync Windows ストアアプリをサポートするように Lync Server 2013 を構成する方法の詳細については、「NextHop ブログの記事、「Lync Server の[http://go.microsoft.com/fwlink/?LinkId=271966](http://go.microsoft.com/fwlink/?linkid=271966)自動検出と Lync Windows ストアアプリ」 () を参照してください。 サーバー環境が正しく構成された後、ユーザーは「Lync」を検索して Windows ストアから Lync アプリをダウンロードすることができます。
+Lync Windows ストアアプリをユーザーが使用できるようにする前に、展開が[Lync Server 2013 の Lync Windows ストアのアプリ要件](lync-server-2013-lync-windows-store-app-requirements.md)を満たしていることを確認してください。 Lync Windows ストアアプリをサポートするように Lync Server 2013 を構成する方法の詳細については、「NextHop ブログの記事、「Lync Server の[https://go.microsoft.com/fwlink/?LinkId=271966](https://go.microsoft.com/fwlink/?linkid=271966)自動検出と Lync Windows ストアアプリ」 () を参照してください。 サーバー環境が正しく構成された後、ユーザーは「Lync」を検索して Windows ストアから Lync アプリをダウンロードすることができます。
 
 <div>
 
@@ -66,9 +66,9 @@ Lync Server 2013 の累積的な更新プログラム: 2013 年6月、Lync Windo
 
 **多要素認証を構成するには**
 
-1.  AD FS フェデレーション サーバーの役割をインストールします。 詳細については、「Active Directory フェデレーションサービス2.0 展開<http://go.microsoft.com/fwlink/p/?linkid=267511>ガイド」を参照してください。
+1.  AD FS フェデレーション サーバーの役割をインストールします。 詳細については、「Active Directory フェデレーションサービス2.0 展開<https://go.microsoft.com/fwlink/p/?linkid=267511>ガイド」を参照してください。
 
-2.  AD FS の証明書を作成します。 詳細については、「計画と展開」の「AD FS を展開するには」の「フェデレーションサーバー証明書」セクション[http://go.microsoft.com/fwlink/p/?LinkId=285376](http://go.microsoft.com/fwlink/p/?linkid=285376)を参照してください。シングルサインオンについては、「」を参照してください。
+2.  AD FS の証明書を作成します。 詳細については、「計画と展開」の「AD FS を展開するには」の「フェデレーションサーバー証明書」セクション[https://go.microsoft.com/fwlink/p/?LinkId=285376](https://go.microsoft.com/fwlink/p/?linkid=285376)を参照してください。シングルサインオンについては、「」を参照してください。
 
 3.  Windows PowerShell コマンドラインインターフェイスで、次のコマンドを実行します。
     ```powershell

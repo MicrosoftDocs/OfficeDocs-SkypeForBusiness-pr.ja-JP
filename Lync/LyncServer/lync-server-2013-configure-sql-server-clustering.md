@@ -12,18 +12,18 @@ ms:contentKeyID: 56472032
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 984e7d7e287e9177fff5798c9cb20ab476591f46
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0cb7db93813bdc7ed06398ce73d00f51ce5a60fe
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035199"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147650"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-sql-server-clustering-for-lync-server-2013"></a>Lync Server 2013 の SQL Server クラスタリングを構成する
 
@@ -39,7 +39,7 @@ _**トピックの最終更新日:** 2014-01-10_
 
 Microsoft Lync Server 2013 は、SQL Server 2012 および SQL Server 2008 R2 のクラスタリングをサポートしています。 サポートされている機能の詳細については、「 [Lync Server 2013 のデータベースソフトウェアサポート](lync-server-2013-database-software-support.md)」を参照してください。
 
-Enterprise Edition フロントエンドサーバーとバックエンドデータベースをインストールして展開する前に、SQL Server クラスターをセットアップして構成する必要があります。 SQL Server 2012 のフェールオーバークラスタリングのベストプラクティスとセットアップ手順につい<http://technet.microsoft.com/library/hh231721.aspx>ては、「」を参照してください。 SQL Server 2008 のフェールオーバークラスタリングについ<http://technet.microsoft.com/library/ms189134(v=sql.105).aspx>ては、「」を参照してください。
+Enterprise Edition フロントエンドサーバーとバックエンドデータベースをインストールして展開する前に、SQL Server クラスターをセットアップして構成する必要があります。 SQL Server 2012 のフェールオーバークラスタリングのベストプラクティスとセットアップ手順につい<https://technet.microsoft.com/library/hh231721.aspx>ては、「」を参照してください。 SQL Server 2008 のフェールオーバークラスタリングについ<https://technet.microsoft.com/library/ms189134(v=sql.105).aspx>ては、「」を参照してください。
 
 SQL Server をインストールする際には、データベースの場所とログ ファイルの場所を管理するための SQL Server Management Studio をインストールする必要があります。 SQL Server Management Studio は、SQL Server のインストール時にオプションのコンポーネントとしてインストールされます。
 

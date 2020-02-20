@@ -12,18 +12,18 @@ ms:contentKeyID: 48185189
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d4508c9c499b0219f754bf9815063f4b1210b811
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 16a7a78c67b94084c59ebad63baa12c3a7aa3df2
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029618"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147550"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="deploying-lync-web-app-in-lync-server-2013"></a>Lync Server 2013 での Lync Web App の展開
 
@@ -78,9 +78,9 @@ Lync Web App の Lync Server 2013 バージョンは、多要素認証をサポ�
 
 **多要素認証を構成するには**
 
-1.  AD FS フェデレーション サーバーの役割をインストールします。 詳細については、「Active Directory フェデレーションサービス2.0 展開ガイド」を参照してください。<http://go.microsoft.com/fwlink/p/?linkid=267511>
+1.  AD FS フェデレーション サーバーの役割をインストールします。 詳細については、「Active Directory フェデレーションサービス2.0 展開ガイド」を参照してください。<https://go.microsoft.com/fwlink/p/?linkid=267511>
 
-2.  AD FS の証明書を作成します。 詳細については、「計画と展開」の「AD FS を展開するには」の「フェデレーションサーバー証明書」セクション[http://go.microsoft.com/fwlink/p/?LinkId=285376](http://go.microsoft.com/fwlink/p/?linkid=285376)を参照してください。シングルサインオンについては、「」を参照してください。
+2.  AD FS の証明書を作成します。 詳細については、「計画と展開」の「AD FS を展開するには」の「フェデレーションサーバー証明書」セクション[https://go.microsoft.com/fwlink/p/?LinkId=285376](https://go.microsoft.com/fwlink/p/?linkid=285376)を参照してください。シングルサインオンについては、「」を参照してください。
 
 3.  Windows PowerShell コマンドラインインターフェイスで、次のコマンドを実行します。
     ```powershell
@@ -113,7 +113,7 @@ Lync Web App の Lync Server 2013 バージョンは、多要素認証をサポ�
 
 Windows 7 および Windows Server 2008 R2 の BranchCache 機能は、Lync Web App web コンポーネントと競合する可能性があります。 Lync Web App ユーザーの問題が発生しないようにするには、BranchCache が有効になっていないことを確認してください。
 
-BranchCache を無効にする方法の詳細については、「BranchCache 展開ガイド」を参照してください[http://go.microsoft.com/fwlink/p/?LinkId=268788](http://go.microsoft.com/fwlink/p/?linkid=268788) [http://go.microsoft.com/fwlink/p/?LinkId=268789](http://go.microsoft.com/fwlink/p/?linkid=268789)。このガイドは、MICROSOFT ダウンロードセンターおよび HTML 形式の Windows Server 2008 R2 Technical Library () にある word 形式で利用できます。
+BranchCache を無効にする方法の詳細については、「BranchCache 展開ガイド」を参照してください[https://go.microsoft.com/fwlink/p/?LinkId=268788](https://go.microsoft.com/fwlink/p/?linkid=268788) [https://go.microsoft.com/fwlink/p/?LinkId=268789](https://go.microsoft.com/fwlink/p/?linkid=268789)。このガイドは、MICROSOFT ダウンロードセンターおよび HTML 形式の Windows Server 2008 R2 Technical Library () にある word 形式で利用できます。
 
 </div>
 
