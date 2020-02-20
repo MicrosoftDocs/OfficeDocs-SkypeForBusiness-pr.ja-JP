@@ -12,18 +12,18 @@ ms:contentKeyID: 48184221
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: befa9ad077780eb57d4690790673fc0a5452af60
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 93e2e3bf94175f2f0ec3f4f7528cc969fe19529c
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037317"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144533"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="routing-e9-1-1-calls-by-using-an-elin-gateway-in-lync-server-2013"></a>Lync Server 2013 の ELIN ゲートウェイを使用した E9-1-1 通話のルーティング
 
@@ -37,7 +37,7 @@ ms.locfileid: "42037317"
 
 _**トピックの最終更新日:** 2013-02-05_
 
-統合コミュニケーション相互運用プログラムの一部のパートナーは、正規の E9-1-1 サービス プロバイダーへの SIP トランク接続の代替としての機能を果たすことができる、緊急位置識別番号 (ELIN) 対応の正規のゲートウェイを提供しています。 ELIN ゲートウェイは、公衆交換電話網 (PSTN) ベースの E9-1-1 サービスへの ISDN 接続 または Centralized Automatic Message Accounting (CAMA) 接続をサポートします。 ELIN ゲートウェイとそのドキュメントへのリンクを提供するパートナーの詳細に[http://go.microsoft.com/fwlink/p/?LinkId=248425](http://go.microsoft.com/fwlink/p/?linkid=248425)ついては、「」を参照してください。
+統合コミュニケーション相互運用プログラムの一部のパートナーは、正規の E9-1-1 サービス プロバイダーへの SIP トランク接続の代替としての機能を果たすことができる、緊急位置識別番号 (ELIN) 対応の正規のゲートウェイを提供しています。 ELIN ゲートウェイは、公衆交換電話網 (PSTN) ベースの E9-1-1 サービスへの ISDN 接続 または Centralized Automatic Message Accounting (CAMA) 接続をサポートします。 ELIN ゲートウェイとそのドキュメントへのリンクを提供するパートナーの詳細に[https://go.microsoft.com/fwlink/p/?LinkId=248425](https://go.microsoft.com/fwlink/p/?linkid=248425)ついては、「」を参照してください。
 
 E9-1-1 サービスプロバイダーへの SIP トランク接続と同様に、ELIN ゲートウェイも、発信者が最も適切な公共の安全応答ポイント (PSAP) に緊急通話をルーティングする手段を提供します。ただし、これらのゲートウェイは、場所の識別子として ELIN を使用します。 組織内の各緊急対応の場所 (ERL) に ELINs を定義します (詳細については、「 [Lync Server 2013 で ELIN ゲートウェイの場所を管理](lync-server-2013-managing-locations-for-elin-gateways.md)する」を参照してください)。
 

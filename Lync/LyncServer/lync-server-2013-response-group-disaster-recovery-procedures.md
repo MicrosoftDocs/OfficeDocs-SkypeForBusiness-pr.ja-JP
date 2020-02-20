@@ -12,18 +12,18 @@ ms:contentKeyID: 48185171
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73b5dba010da09fb20c96ca6b14de2f881e32b60
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2ecd074254243629bbb3a6dc732b11a93cfebbe7
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051701"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144804"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="response-group-disaster-recovery-procedures-in-lync-server-2013"></a>Lync Server 2013 の応答グループの障害復旧手順
 
@@ -37,7 +37,7 @@ ms.locfileid: "42051701"
 
 _**トピックの最終更新日:** 2012-11-01_
 
-障害復旧のフェールオーバー フェーズ中、応答グループは (使用できない) プライマリ プールとバックアップ プールという複数のプールに存在します。 どちらのプールでも応答グループの名前と所有者 (プライマリ プール) は同じですが、その親は異なります。 この間、応答グループコマンドレットの動作は少し異なります。 次の手順で指定されているように、必ずパラメーターを使用してください。 フェールオーバーフェーズ中のコマンドレットの動作の詳細については、「NextHop blog 記事 "Lync Server 2013: Disaster Recovery の[http://go.microsoft.com/fwlink/p/?LinkId=263957](http://go.microsoft.com/fwlink/p/?linkid=263957)間の応答グループの回復」を参照してください。 このブログ記事は、リリース版の Lync Server 2013 にも適用されます。
+障害復旧のフェールオーバー フェーズ中、応答グループは (使用できない) プライマリ プールとバックアップ プールという複数のプールに存在します。 どちらのプールでも応答グループの名前と所有者 (プライマリ プール) は同じですが、その親は異なります。 この間、応答グループコマンドレットの動作は少し異なります。 次の手順で指定されているように、必ずパラメーターを使用してください。 フェールオーバーフェーズ中のコマンドレットの動作の詳細については、「NextHop blog 記事 "Lync Server 2013: Disaster Recovery の[https://go.microsoft.com/fwlink/p/?LinkId=263957](https://go.microsoft.com/fwlink/p/?linkid=263957)間の応答グループの回復」を参照してください。 このブログ記事は、リリース版の Lync Server 2013 にも適用されます。
 
 Lync Server Response Group service の障害復旧を準備および実行するには、以下の手順を使用します。
 
@@ -51,7 +51,7 @@ Lync Server Response Group service の障害復旧を準備および実行する
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:<primary pool FQDN>" -FileName "<backup path and file name>"
     
-    例:
+    次に例を示します。
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:primary.contoso.com" -FileName "C:\RgsExportPrimary.zip"
 
@@ -78,7 +78,7 @@ Lync Server Response Group service の障害復旧を準備および実行する
         
             Get-CsRgsWorkflow -Identity "service:ApplicationServer:<backup pool FQDN>" -Owner "service:ApplicationServer"<primary pool FQDN>
         
-        例:
+        次に例を示します。
         
             Get-CsRgsWorkflow -Identity "service:ApplicationServer:backup.contoso.com" -Owner "service:ApplicationServer:primary.contoso.com"
     
@@ -86,7 +86,7 @@ Lync Server Response Group service の障害復旧を準備および実行する
         
             Get-CsRgsQueue -Identity "service:ApplicationServer:<backup pool FQDN>" -Owner "service:ApplicationServer"<primary pool FQDN>
         
-        例:
+        次に例を示します。
         
             Get-CsRgsQueue -Identity "service:ApplicationServer:backup.contoso.com" -Owner "service:ApplicationServer"primary.contoso.com"
     
@@ -94,7 +94,7 @@ Lync Server Response Group service の障害復旧を準備および実行する
         
             Get-CsRgsAgentGroup -Identity "service:ApplicationServer:<backup pool FQDN>" -Owner "service:ApplicationServer"<primary pool FQDN>
         
-        例:
+        次に例を示します。
         
             Get-CsRgsAgentGroup -Identity "service:ApplicationServer:backup.contoso.com" -Owner "service:ApplicationServer"primary.contoso.com"
     
@@ -102,7 +102,7 @@ Lync Server Response Group service の障害復旧を準備および実行する
         
             Get-CsRgsHoursOfBusiness -Identity "service:ApplicationServer:<backup pool FQDN>" -Owner "service:ApplicationServer"<primary pool FQDN>
         
-        例:
+        次に例を示します。
         
             Get-CsRgsHoursOfBusiness -Identity "service:ApplicationServer:backup.contoso.com" -Owner "service:ApplicationServer"primary.contoso.com"
     
@@ -110,7 +110,7 @@ Lync Server Response Group service の障害復旧を準備および実行する
         
             Get-CsRgsHolidaySet -Identity "service:ApplicationServer:<backup pool FQDN>" -Owner "service:ApplicationServer"<primary pool FQDN>
         
-        例:
+        次に例を示します。
         
             Get-CsRgsHolidaySet -Identity "service:ApplicationServer:backup.contoso.com" -Owner "service:ApplicationServer"primary.contoso.com"
     
@@ -150,7 +150,7 @@ Lync Server Response Group service の障害復旧を準備および実行する
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:<primary pool FQDN>" -OverwriteOwner -FileName "<exported path and file name>"
     
-    例:
+    次に例を示します。
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:primary.contoso.com" -OverwriteOwner -FileName "C:\RgsExportPrimaryUpdated.zip"
     
@@ -167,7 +167,7 @@ Lync Server Response Group service の障害復旧を準備および実行する
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:<new primary pool FQDN>" -OverwriteOwner -FileName "<exported path and file name>" -ReplaceExistingSettings
     
-    例:
+    次に例を示します。
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:newprimary.contoso.com" -OverwriteOwner -FileName "C:\RgsExportPrimaryUpdated.zip" -ReplaceExistingSettings
     
@@ -186,7 +186,7 @@ Lync Server Response Group service の障害復旧を準備および実行する
         
             Get-CsRgsWorkflow -Identity "service:ApplicationServer:<primary pool FQDN>" -ShowAll
         
-        例:
+        次に例を示します。
         
             Get-CsRgsWorkflow -Identity "service:ApplicationServer: primary.contoso.com" -ShowAll
     
@@ -194,7 +194,7 @@ Lync Server Response Group service の障害復旧を準備および実行する
         
             Get-CsRgsQueue -Identity "service:ApplicationServer:<primary pool FQDN>" -ShowAll
         
-        例:
+        次に例を示します。
         
             Get-CsRgsQueue -Identity "service:ApplicationServer:primary.contoso.com" -ShowAll
     
@@ -202,7 +202,7 @@ Lync Server Response Group service の障害復旧を準備および実行する
         
             Get-CsRgsAgentGroup -Identity "service:ApplicationServer: <primary pool FQDN>" -ShowAll
         
-        例:
+        次に例を示します。
         
             Get-CsRgsAgentGroup -Identity "service:ApplicationServer:primary.contoso.com" -ShowAll
     
@@ -210,7 +210,7 @@ Lync Server Response Group service の障害復旧を準備および実行する
         
             Get-CsRgsHoursOfBusiness -Identity "service:ApplicationServer:<primary pool FQDN>" -ShowAll
         
-        例:
+        次に例を示します。
         
             Get-CsRgsHoursOfBusiness -Identity "service:ApplicationServer:primary.contoso.com" -ShowAll
     
@@ -218,7 +218,7 @@ Lync Server Response Group service の障害復旧を準備および実行する
         
             Get-CsRgsHolidaySet -Identity "service:ApplicationServer:<primary pool FQDN>" -ShowAll
         
-        例:
+        次に例を示します。
         
             Get-CsRgsHolidaySet -Identity "service:ApplicationServer:primary.contoso.com" -ShowAll
 

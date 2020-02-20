@@ -12,18 +12,18 @@ ms:contentKeyID: 48183740
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 44395f820d8837bddbf03ac903a7baa811cab842
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c8756545969f90cbece7bbac628577a51015e371
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41998652"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145095"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="administrative-tools-software-requirements-in-lync-server-2013"></a>Lync Server 2013 の管理ツールソフトウェア要件
 
@@ -61,7 +61,7 @@ Microsoft Lync Server 2013 のコンポーネントを実行するには、Windo
 
 Lync Server 2013 は、Windows インストーラーテクノロジを使用して、さまざまなサーバーの役割をインストール、アンインストール、および保守します。 Windows Installer Version 4.5 は、Windows Server オペレーティング システムの再頒布可能なコンポーネントとして入手可能です。 Windows インストーラー4.5 は、Windows Server 2012 R2、Windows Server 2012、および Windows Server 2008 R2 と共に出荷されます。これは、Lync 2013 Server を実行しているコンピューターに対してユーティリティをダウンロードする必要がないことを意味します。 (Lync Server 2013 は、Windows Server 2012 R2、Windows Server 2012、または Windows Server 2008 R2 を実行しているコンピューターにのみインストールできます。)
 
-ただし、管理者ワークステーションに Lync Server 管理シェルまたは Lync Server トポロジビルダーをインストールする場合は、Windows インストーラー4.5 をダウンロードする必要がある場合があります。 このユーティリティには、windows 7 および windows 2008 R2 が付属していますが、Windows オペレーティングシステムの以前のバージョンには同梱されていません。 Windows インストーラー4.5 は、「Microsoft ダウンロードセンター」からダウンロード<http://go.microsoft.com/fwlink/p/?linkid=197395>できます。
+ただし、管理者ワークステーションに Lync Server 管理シェルまたは Lync Server トポロジビルダーをインストールする場合は、Windows インストーラー4.5 をダウンロードする必要がある場合があります。 このユーティリティには、windows 7 および windows 2008 R2 が付属していますが、Windows オペレーティングシステムの以前のバージョンには同梱されていません。 Windows インストーラー4.5 は、「Microsoft ダウンロードセンター」からダウンロード<https://go.microsoft.com/fwlink/p/?linkid=197395>できます。
 
 </div>
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 63969577
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 61285a73ba7fd3689842f15967286c4393b8e927
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 5e910da744bf88b485fc693c02544ad8a7093ead
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030791"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142283"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="system-administration-in-lync-server-2013"></a>Lync Server 2013 のシステム管理
 
@@ -75,7 +75,7 @@ Lync 環境での一般的なシステム管理タスクには、プールのバ
 
 サービスデスクツールを使用すると、スタッフは新しい問題の記録、分類、および優先順位付けを行うことができます。 その後、ツールは、調査と診断を通じて問題のサービス要求を管理するためのワークフロープロセスを提供します。多くの場合、複数のサポートチームがこれを使用します。 ツールは、解決時間と過去の傾向に関するレポートを提供します。サポート技術情報データベースも含まれていることがあります。これは、過去の問題を検索するために使用できます。
 
-Microsoft サポート技術情報は、Microsoft によって発生したサポート問題の有用な記録です。 詳細については、Microsoft サポート web サイト<http://go.microsoft.com/fwlink/?linkid=14898>() を参照してください。
+Microsoft サポート技術情報は、Microsoft によって発生したサポート問題の有用な記録です。 詳細については、Microsoft サポート web サイト<https://go.microsoft.com/fwlink/?linkid=14898>() を参照してください。
 
 通常、サードパーティソフトウェアでは、組織のニーズに合わせてカスタマイズする必要があります (teams の編成、レポート要件、SLA に必要な対策など)。
 

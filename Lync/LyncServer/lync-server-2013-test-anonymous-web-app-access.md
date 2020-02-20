@@ -12,18 +12,18 @@ ms:contentKeyID: 63969630
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a5001b7c318c9d165d9e20bbcde83e7f34b3b7cc
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 9df6a040e71b0dfe82a52cf519357d058b78a1d7
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41985042"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141713"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="test-anonymous-web-app-access-in-lync-server-2013"></a>Lync Server 2013 で匿名 Web アプリのアクセスをテストする
 
@@ -76,7 +76,7 @@ Test-cswebappanonymous は、これらの会議を作成するために使用さ
 
 ## <a name="running-the-test"></a>テストの実行
 
-Test-cswebappanonymous コマンドレットは、構成済みのテストアカウントのペア、または Lync Server が有効になっている2人のユーザーのアカウントのいずれかを使用して実行できます。 このチェックをテストアカウントを使用して実行するには、テストする Lync Server プールの完全修飾ドメイン名を指定するだけで済みます。 例:
+Test-cswebappanonymous コマンドレットは、構成済みのテストアカウントのペア、または Lync Server が有効になっている2人のユーザーのアカウントのいずれかを使用して実行できます。 このチェックをテストアカウントを使用して実行するには、テストする Lync Server プールの完全修飾ドメイン名を指定するだけで済みます。 次に例を示します。
 
     Test-CsWebAppAnonymous -TargetFqdn atl-cs-001.litwareinc.com
 

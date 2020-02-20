@@ -12,18 +12,18 @@ ms:contentKeyID: 48183225
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6cd5b57c29a622b7c0f051b00bb0ef30e265743e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f0d00b30100b9203c82df0a2fc8ed8c4c593dfb0
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42040836"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42143001"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="setting-up-reverse-proxy-servers-for-lync-server-2013"></a>Lync Server 2013 用のリバースプロキシサーバーのセットアップ
 
@@ -65,7 +65,7 @@ HTTP リバース プロキシは、すべてのプールのすべての Web サ
 
 
 > [!IMPORTANT]  
-> インターネットインフォメーションサービスアプリケーション要求ルーティング (IIS ARR) は、Lync Server 2010 および Lync Server 2013 のリバースプロキシを実装するための完全にテストおよびサポートされたオプションです。 2012年11月日、Microsoft ceased ライセンス販売の ForeFront Threat Management Gateway 2010、または TMG。 TMG は、完全にサポートされている製品で、サードパーティが販売しているアプライアンスでも引き続き販売できます。 また、サードパーティのハードウェアロードバランサーとファイアウォールの多くはリバースプロキシサポートを提供しています。 リバースプロキシ機能を提供するハードウェアロードバランサーとファイアウォールについては、各製品を構成して、Lync Server のリバースプロキシサポートを提供する方法について、ベンダーに確認してください。 また、製品のドキュメントを Microsoft に送信した第三者を表示することもできます。 サポートは、サードパーティのソリューションによって提供されます。 ソリューションを提供するためにアクティブなサードパーティを確認するには、「 <A href="http://go.microsoft.com/fwlink/?linkid=268730">Microsoft Lync 用のインフラストラクチャ認定</A>」を参照してください。
+> インターネットインフォメーションサービスアプリケーション要求ルーティング (IIS ARR) は、Lync Server 2010 および Lync Server 2013 のリバースプロキシを実装するための完全にテストおよびサポートされたオプションです。 2012年11月日、Microsoft ceased ライセンス販売の ForeFront Threat Management Gateway 2010、または TMG。 TMG は、完全にサポートされている製品で、サードパーティが販売しているアプライアンスでも引き続き販売できます。 また、サードパーティのハードウェアロードバランサーとファイアウォールの多くはリバースプロキシサポートを提供しています。 リバースプロキシ機能を提供するハードウェアロードバランサーとファイアウォールについては、各製品を構成して、Lync Server のリバースプロキシサポートを提供する方法について、ベンダーに確認してください。 また、製品のドキュメントを Microsoft に送信した第三者を表示することもできます。 サポートは、サードパーティのソリューションによって提供されます。 ソリューションを提供するためにアクティブなサードパーティを確認するには、「 <A href="https://go.microsoft.com/fwlink/?linkid=268730">Microsoft Lync 用のインフラストラクチャ認定</A>」を参照してください。
 
 
 
@@ -94,27 +94,27 @@ HTTP リバース プロキシは、すべてのプールのすべての Web サ
 Forefront Threat Management Gateway 2010 をリバース プロキシとして正しく展開するには、Forefront Threat Management Gateway 2010 のドキュメントに定義されている前提条件およびハードウェア要件を使用してサーバーを設定および構成する必要があります。 続行する前に、「ハードウェアを適切に構成し、Forefront Threat Management Gateway 2010 をサーバーにインストールするには、次のトピックを参照してください。
 
   - <span></span>  
-    [Forefront Threat Management Gateway (TMG) 2010](http://go.microsoft.com/fwlink/?linkid=291292)
+    [Forefront Threat Management Gateway (TMG) 2010](https://go.microsoft.com/fwlink/?linkid=291292)
 
   - <span></span>  
-    [Forefront TMG 2010 ハードウェアに関する推奨事項](http://go.microsoft.com/fwlink/?linkid=291293)
+    [Forefront TMG 2010 ハードウェアに関する推奨事項](https://go.microsoft.com/fwlink/?linkid=291293)
 
 IIS ARR をリバースプロキシとして正常に展開するには、次のトピックを参照してハードウェアおよび前提条件のソフトウェアを構成します。
 
   - <span></span>  
-    IIS を Windows Server 2008 または Windows Server 2008 R2 にインストールするには、「 [Windows server 2008 または Windows server 2008 r2 に iis 7](http://go.microsoft.com/fwlink/?linkid=291296)をインストールする」を参照してください。
+    IIS を Windows Server 2008 または Windows Server 2008 R2 にインストールするには、「 [Windows server 2008 または Windows server 2008 r2 に iis 7](https://go.microsoft.com/fwlink/?linkid=291296)をインストールする」を参照してください。
 
   - <span></span>  
-    Windows Server 2012 に IIS をインストールするには、「 [Windows server 2012 で iis 8 をインストール](http://go.microsoft.com/fwlink/?linkid=291297)する」を参照してください。
+    Windows Server 2012 に IIS をインストールするには、「 [Windows server 2012 で iis 8 をインストール](https://go.microsoft.com/fwlink/?linkid=291297)する」を参照してください。
 
   - <span></span>  
-    Windows Server 2012 R2 に IIS をインストールするには、「 [Windows server 2012 r2 に iis 8.5 を](http://go.microsoft.com/fwlink/?linkid=330687)インストールする」を参照してください。
+    Windows Server 2012 R2 に IIS をインストールするには、「 [Windows server 2012 r2 に iis 8.5 を](https://go.microsoft.com/fwlink/?linkid=330687)インストールする」を参照してください。
 
   - <span></span>  
-    IIS のアプリケーション要求ルーティング拡張機能をダウンロードするには、「[アプリケーション要求ルーティング](http://go.microsoft.com/fwlink/?linkid=291298)V2.0 のダウンロード」に記載されている手順に従ってください。
+    IIS のアプリケーション要求ルーティング拡張機能をダウンロードするには、「[アプリケーション要求ルーティング](https://go.microsoft.com/fwlink/?linkid=291298)V2.0 のダウンロード」に記載されている手順に従ってください。
 
   - <span></span>  
-    ARR をインストールするには、「[アプリケーション要求ルーティングバージョン2のインストール](http://go.microsoft.com/fwlink/?linkid=291299)」の手順に従ってください。
+    ARR をインストールするには、「[アプリケーション要求ルーティングバージョン2のインストール](https://go.microsoft.com/fwlink/?linkid=291299)」の手順に従ってください。
     
     <div>
     

@@ -12,18 +12,18 @@ ms:contentKeyID: 48183391
 ms.date: 10/02/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 199191b8e87ba7f46956ff92fcda7239ff27dc5c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c6eb9a3db2f9b3a14726fb7ffbec05b96b15ec81
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029848"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142443"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="supported-active-directory-topologies-in-lync-server-2013"></a>Lync Server 2013 でサポートされている Active Directory トポロジ
 
@@ -159,7 +159,7 @@ Lync Server は、中央フォレストトポロジで構成されている複�
 
 このトポロジでは、1つ以上のフォレストが社内に配置されており、Active Directory のユーザーアカウントをホストするために専用になっています。 リソースフォレストはオフプレミスにあり、サードパーティのホスティングプロバイダーによって管理されます。 リソースフォレストには、Lync Server の展開と、オンプレミスのユーザーアカウントフォレストからのユーザーアカウントの同期レプリケーションのみが含まれています。 ログオンが有効なユーザーアカウントは含まれていません。 Exchange は、exchange Online (ハイブリッド) と共に統合されたオンプレミスのユーザーアカウントフォレストに展開されるか、または社内ユーザーアカウントの電子メールサービスが Exchange Online によってのみ提供されます。
 
-リソースフォレストは、ユーザーオブジェクトが存在するオンプレミスの Active Directory フォレストの共有サービス環境として機能します。 ユーザーアカウントのフォレストには、1つの方法でリソースフォレストとのフォレストレベルの信頼関係があります。 この種類のトポロジで Lync Server を展開する場合は、ユーザーフォレスト内のすべてのユーザーアカウントについて、リソースフォレスト内に無効なユーザーオブジェクトを1つ作成します。 MIIS、Microsoft Forefront Identity Manager (FIM) 2010、または Microsoft Identity Lifecycle Manager (ILM) 2007 Feature Pack 1 (FP1) などのディレクトリ同期製品は、ユーザー アカウントのライフ サイクルを管理します。 いずれかのユーザー フォレストで新しいユーザー アカウントが作成されるか、フォレストからユーザー アカウントが削除されると、ディレクトリ同期製品がリソース フォレスト内の対応するユーザー表現を同期します。 複数フォレスト展開の構成の詳細については、「[複数フォレストアーキテクチャでの lync の展開 (Exchange ハイブリッドを使用したパートナーホスト](http://go.microsoft.com/fwlink/p/?linkid=513216)された lync)」を参照してください。
+リソースフォレストは、ユーザーオブジェクトが存在するオンプレミスの Active Directory フォレストの共有サービス環境として機能します。 ユーザーアカウントのフォレストには、1つの方法でリソースフォレストとのフォレストレベルの信頼関係があります。 この種類のトポロジで Lync Server を展開する場合は、ユーザーフォレスト内のすべてのユーザーアカウントについて、リソースフォレスト内に無効なユーザーオブジェクトを1つ作成します。 MIIS、Microsoft Forefront Identity Manager (FIM) 2010、または Microsoft Identity Lifecycle Manager (ILM) 2007 Feature Pack 1 (FP1) などのディレクトリ同期製品は、ユーザー アカウントのライフ サイクルを管理します。 いずれかのユーザー フォレストで新しいユーザー アカウントが作成されるか、フォレストからユーザー アカウントが削除されると、ディレクトリ同期製品がリソース フォレスト内の対応するユーザー表現を同期します。 複数フォレスト展開の構成の詳細については、「[複数フォレストアーキテクチャでの lync の展開 (Exchange ハイブリッドを使用したパートナーホスト](https://go.microsoft.com/fwlink/p/?linkid=513216)された lync)」を参照してください。
 
 </div>
 

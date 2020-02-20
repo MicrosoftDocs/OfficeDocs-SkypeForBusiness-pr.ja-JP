@@ -12,18 +12,18 @@ ms:contentKeyID: 63969575
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f351708871df03a04eeb04318e2ea881b3306484
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 5aaeef1799ee2e35746f659ce451160854a25d89
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006082"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141743"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="test-admin-topology-rights-in-lync-server-2013"></a>Lync Server 2013 での管理者トポロジのテスト権限
 
@@ -102,7 +102,7 @@ Active Directory コンテナーにセットアップのアクセス許可が割
 
 はい
 
-権限が設定されていない場合、Test-CsSetupPermission は値 False を返します。 この値は通常、多くの警告メッセージで囲まれていることに注意してください。 例:
+権限が設定されていない場合、Test-CsSetupPermission は値 False を返します。 この値は通常、多くの警告メッセージで囲まれていることに注意してください。 次に例を示します。
 
 警告: アクセス制御エントリ (ACE) atl-fs-01\\RTCUniversalServerAdmins;使うExtendedRight;該当該当1131f6aa-9c07-11d1-f79f-00c04fc2dcd2
 

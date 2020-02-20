@@ -12,18 +12,18 @@ ms:contentKeyID: 48184879
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e60757721a9244a55e7ce341be6834934108858a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 05c1e366c797eb0c626d00744ef6f0088d28e465
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050699"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42143985"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="server-performance-report-in-lync-server-2013"></a>Lync Server 2013 のサーバーパフォーマンスレポート
 
@@ -136,7 +136,7 @@ _**トピックの最終更新日:** 2012-10-01_
 <td><p>各カテゴリに表示されるサーバーの数 (低品質通話のパーセンテージに基づく) を示します。 たとえば、[ <strong>5</strong> ] を選択すると、5つの個サーバーが表示されます。 次のいずれかを選択します。</p>
 <ol>
 <li><p>いずれ</p></li>
-<li><p>5 </p></li>
+<li><p>5</p></li>
 <li><p>10 </p></li>
 </ol></td>
 </tr>

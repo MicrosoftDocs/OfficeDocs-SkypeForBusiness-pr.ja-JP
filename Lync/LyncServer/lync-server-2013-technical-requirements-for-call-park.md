@@ -12,18 +12,18 @@ ms:contentKeyID: 48183897
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ff91e6b458d4c86f2246cff19e72e5221728e774
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e63d75bda22228ae14077a51f78150b3884e875f
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006779"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141863"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="technical-requirements-for-call-park-in-lync-server-2013"></a>Lync Server 2013 のコールパークの技術要件
 
@@ -89,7 +89,7 @@ _**トピックの最終更新日:** 2013-11-07_
 
 ## <a name="audio-file-requirements"></a>オーディオ ファイルの要件
 
-コールパークアプリケーションは、保留音に対して Windows Media オーディオ (.wma) ファイルのみをサポートします。 保留音のファイルをカスタマイズするには、Microsoft Expression Encoder 4 を使用できます。 Expression Encoder 4 をダウンロードするには、「Expression Encoder 4 [http://go.microsoft.com/fwlink/p/?linkId=202843](http://go.microsoft.com/fwlink/p/?linkid=202843)」を参照してください。 このツールを使用すると、ファイルを WMA 形式に変換できます。 コール パークの保留音ファイルとしての推奨形式は Media Audio 9、44 kHz、16 ビット、モノラル、CBR、32 kbps です。
+コールパークアプリケーションは、保留音に対して Windows Media オーディオ (.wma) ファイルのみをサポートします。 保留音のファイルをカスタマイズするには、Microsoft Expression Encoder 4 を使用できます。 Expression Encoder 4 をダウンロードするには、「Expression Encoder 4 [https://go.microsoft.com/fwlink/p/?linkId=202843](https://go.microsoft.com/fwlink/p/?linkid=202843)」を参照してください。 このツールを使用すると、ファイルを WMA 形式に変換できます。 コール パークの保留音ファイルとしての推奨形式は Media Audio 9、44 kHz、16 ビット、モノラル、CBR、32 kbps です。
 
 <div>
 

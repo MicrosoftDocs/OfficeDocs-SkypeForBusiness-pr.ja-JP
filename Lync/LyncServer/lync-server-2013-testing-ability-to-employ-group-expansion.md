@@ -12,18 +12,18 @@ ms:contentKeyID: 63969634
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca5964a31682172bafb0c7d5604aab7f70ad8fbd
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 3178b96d156b64fc55f05403d50b3f7fcaa246bc
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42016158"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141633"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="testing-ability-to-employ-group-expansion-in-lync-server-2013"></a>Lync Server 2013 でグループ拡張を採用するためのテスト能力
 
@@ -78,7 +78,7 @@ Test-CsGroupExpansion コマンドレットを使用して、グループの電�
 
 ## <a name="running-the-test"></a>テストの実行
 
-Test-CsGroupExpansion コマンドレットは、事前構成されたテストアカウント (「Lync Server テストを実行するためのテストアカウントの設定」を参照)、または Lync Server が有効になっているユーザーのアカウントのいずれかを使用して実行できます。 このチェックをテストアカウントを使用して実行するには、テスト対象の Lync Server プールの FQDN と、有効な配布グループの電子メールアドレスを指定する必要があります。 例:
+Test-CsGroupExpansion コマンドレットは、事前構成されたテストアカウント (「Lync Server テストを実行するためのテストアカウントの設定」を参照)、または Lync Server が有効になっているユーザーのアカウントのいずれかを使用して実行できます。 このチェックをテストアカウントを使用して実行するには、テスト対象の Lync Server プールの FQDN と、有効な配布グループの電子メールアドレスを指定する必要があります。 次に例を示します。
 
     Test-CsGroupExpansion -TargetFqdn "atl-cs-001.litwareinc.com" -GroupEmailAddress "Sales@litwareinc.com"
 

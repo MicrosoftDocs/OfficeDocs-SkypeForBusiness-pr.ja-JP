@@ -12,18 +12,18 @@ ms:contentKeyID: 48184085
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 830d9d48e68142cf32f14d428fb48e3ab20afaca
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 9c380cb67e1e156bef616f81ce0c42f699b472d8
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42047282"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144944"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="request-and-configure-a-certificate-for-your-reverse-http-proxy-in-lync-server-2013"></a>Lync Server 2013 でのリバース HTTP プロキシの証明書の要求と構成
 
@@ -156,7 +156,7 @@ Microsoft Lync を実行している内部サーバーにサーバー証明書�
 
 **証明書署名要求の作成**
 
-1.  Microsoft 管理コンソール (MMC) を開き、証明書スナップインを追加して、[**コンピューター**]、[**個人**] の順に展開します。 Microsoft 管理コンソール (MMC) で証明書コンソールを作成する方法の詳細について[http://go.microsoft.com/fwlink/?LinkId=282616](http://go.microsoft.com/fwlink/?linkid=282616)は、「」を参照してください。
+1.  Microsoft 管理コンソール (MMC) を開き、証明書スナップインを追加して、[**コンピューター**]、[**個人**] の順に展開します。 Microsoft 管理コンソール (MMC) で証明書コンソールを作成する方法の詳細について[https://go.microsoft.com/fwlink/?LinkId=282616](https://go.microsoft.com/fwlink/?linkid=282616)は、「」を参照してください。
 
 2.  [**証明書**] を右クリックし、[**すべてのタスク**]、[**詳細な操作**]、[**カスタム要求の作成**] の順にクリックします。
 
@@ -217,7 +217,7 @@ Microsoft Lync を実行している内部サーバーにサーバー証明書�
     
 
     > [!IMPORTANT]
-    > Microsoft は、ユニファイドコミュニケーションの目的の要件を満たすパブリック Ca を識別しています。 リストは、次のサポート技術情報の記事で管理されています。 <A href="http://go.microsoft.com/fwlink/?linkid=282625">http://go.microsoft.com/fwlink/?LinkId=282625</A>
+    > Microsoft は、ユニファイドコミュニケーションの目的の要件を満たすパブリック Ca を識別しています。 リストは、次のサポート技術情報の記事で管理されています。 <A href="https://go.microsoft.com/fwlink/?linkid=282625">https://go.microsoft.com/fwlink/?LinkId=282625</A>
 
     
     </div>

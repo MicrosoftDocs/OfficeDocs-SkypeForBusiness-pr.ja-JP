@@ -12,18 +12,18 @@ ms:contentKeyID: 48185040
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d182a3689ae38d4117b45d6590bb2ccd08c0a8b7
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 984dd5f161b31c40de914f363c0722657d3194ed
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42027058"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142103"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="tblenumvalue-in-lync-server-2013"></a>Lync Server 2013 の tblEnumValue
 
@@ -117,28 +117,28 @@ tblEnumValue は、ノード テーブルで使われる属性の Visibility (�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>2 </p></td>
-<td><p>1 </p></td>
+<td><p>pbm-2</p></td>
+<td><p>1-d</p></td>
 <td><p>機密性</p></td>
 </tr>
 <tr class="even">
-<td><p>3 </p></td>
-<td><p>1 </p></td>
+<td><p>1/3</p></td>
+<td><p>1-d</p></td>
 <td><p>scope</p></td>
 </tr>
 <tr class="odd">
-<td><p>4 </p></td>
-<td><p>2 </p></td>
+<td><p>2/4</p></td>
+<td><p>pbm-2</p></td>
 <td><p>ノーマル</p></td>
 </tr>
 <tr class="even">
-<td><p>5 </p></td>
-<td><p>2 </p></td>
+<td><p>5</p></td>
+<td><p>pbm-2</p></td>
 <td><p>大会議室</p></td>
 </tr>
 <tr class="odd">
 <td><p>6 </p></td>
-<td><p>1 </p></td>
+<td><p>1-d</p></td>
 <td><p>開か</p></td>
 </tr>
 </tbody>

@@ -12,18 +12,18 @@ ms:contentKeyID: 48183923
 ms.date: 06/26/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc548446120ae4088d90acb45c258f3f736063d0
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f3b397e242a6188f9054810a2ce08521a9940717
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006733"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141853"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="technical-requirements-for-conferencing-in-lync-server-2013"></a>Lync Server 2013 での会議の技術要件
 
@@ -194,9 +194,9 @@ Web 会議の場合、Lync Server 2013 には、PowerPoint プレゼンテーシ
 
 ## <a name="audio-file-requirements-for-dial-in-conferencing"></a>ダイヤルイン会議の音声ファイル要件
 
-Lync Server 2013 では、ダイヤルイン会議の音声プロンプトおよび音楽のカスタマイズはサポートされていません。 ただし、既定のオーディオファイルの変更を必要とする強力なビジネスニーズがある場合は、microsoft サポート技術情報の記事961177、「 [Microsoft Office Communications Server 2007 R2 でダイヤルイン電話会議の音声プロンプトまたは音楽ファイルをカスタマイズする方法](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=961177)」を参照してください。
+Lync Server 2013 では、ダイヤルイン会議の音声プロンプトおよび音楽のカスタマイズはサポートされていません。 ただし、既定のオーディオファイルの変更を必要とする強力なビジネスニーズがある場合は、microsoft サポート技術情報の記事961177、「 [Microsoft Office Communications Server 2007 R2 でダイヤルイン電話会議の音声プロンプトまたは音楽ファイルをカスタマイズする方法](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=961177)」を参照してください。
 
-[Microsoft Lync Server 会議アテンダントのカスタム音声ガイダンス](http://go.microsoft.com/fwlink/p/?linkid=396880)管理ユーティリティを使用することもできます。これにより、電話の発信者が Lync 会議にカスタムの音声ガイダンスを参加させるときに使用する既定の音声ガイダンスを置き換えることができます。 カスタム音声プロンプトは、Lync Server 2010 または Lync Server 2013 (Enterprise または Standard Edition) を実行しているサーバーにインストールできます。
+[Microsoft Lync Server 会議アテンダントのカスタム音声ガイダンス](https://go.microsoft.com/fwlink/p/?linkid=396880)管理ユーティリティを使用することもできます。これにより、電話の発信者が Lync 会議にカスタムの音声ガイダンスを参加させるときに使用する既定の音声ガイダンスを置き換えることができます。 カスタム音声プロンプトは、Lync Server 2010 または Lync Server 2013 (Enterprise または Standard Edition) を実行しているサーバーにインストールできます。
 
 会議アテンダントアプリケーションおよび会議アナウンスアプリケーションには、保留音、録音済みの名前、および音声ガイダンスファイルに関する次の要件があります。
 

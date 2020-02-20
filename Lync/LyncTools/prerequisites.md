@@ -12,18 +12,18 @@ ms:contentKeyID: 51541417
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a856a44a82af84f4881e487c5f853deeede72e07
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 3c5ffc74e80547df1dd451cd86d681e85befe334
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038309"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146300"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="prerequisites"></a>前提条件
 
@@ -65,11 +65,11 @@ Lync server 2013 のストレスおよびパフォーマンスツールを Lync 
 
 クライアントコンピューターは、次のソフトウェア要件を満たしている必要があります。
 
-  - [Microsoft .Net Framework 4.5](http://go.microsoft.com/fwlink/?linkid=143212)ランタイムがインストールされている必要があります。
+  - [Microsoft .Net Framework 4.5](https://go.microsoft.com/fwlink/?linkid=143212)ランタイムがインストールされている必要があります。
 
   - Windows Server 2008/Windows Server 2012 では、デスクトップ環境機能を有効にする必要があります。
 
-  - [Microsoft Visual C++ 2012 再頒布可能パッケージ](http://go.microsoft.com/fwlink/?linkid=143216)(x64) がインストールされている必要があります。
+  - [Microsoft Visual C++ 2012 再頒布可能パッケージ](https://go.microsoft.com/fwlink/?linkid=143216)(x64) がインストールされている必要があります。
 
   - 完全に構成された Lync Server 2013 の展開。
 

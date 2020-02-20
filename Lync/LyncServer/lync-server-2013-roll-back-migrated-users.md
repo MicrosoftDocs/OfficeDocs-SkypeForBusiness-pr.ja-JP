@@ -12,18 +12,18 @@ ms:contentKeyID: 48185286
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7398e69e5a02924025d63fc48096244d67c49aeb
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: dbc2c46b462ec50c1f5796a9a6a03cd39f7b44dc
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051471"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144553"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="roll-back-migrated-users-in-lync-server-2013"></a>Lync Server 2013 で移行されたユーザーのロールバック
 
@@ -91,7 +91,7 @@ _**トピックの最終更新日:** 2012-10-07_
     
         Set-CsUserServicesPolicy -Identity "<policy name>" -UcsAllowed $False
     
-    例:
+    次に例を示します。
     
         Set-CsUserServicesPolicy -Identity "UCS Enabled Users" -UcsAllowed $False
 
@@ -110,7 +110,7 @@ _**トピックの最終更新日:** 2012-10-07_
     
         Invoke-CsUcsRollback -Identity "<user display name>"
     
-    例:
+    次に例を示します。
     
         Invoke-CsUcsRollback -Identity "Ken Myer"
     
@@ -143,7 +143,7 @@ _**トピックの最終更新日:** 2012-10-07_
     
         Invoke-CsUcsRollback -Identity "<user display name>"
     
-    例:
+    次に例を示します。
     
         Invoke-CsUcsRollback -Identity "Ken Myer"
     

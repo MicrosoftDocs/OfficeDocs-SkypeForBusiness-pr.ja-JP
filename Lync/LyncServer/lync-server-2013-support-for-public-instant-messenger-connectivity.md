@@ -12,18 +12,18 @@ ms:contentKeyID: 59170234
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8a6941fb5f087d667e65c178474531aa573a61b9
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 3c6f21e6a58b9130ab93f827f14aad4bd09cbb33
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038619"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142463"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="support-for-public-instant-messenger-connectivity-in-lync-server-2013"></a>Lync Server 2013 でのパブリックインスタントメッセンジャー接続のサポート
 
@@ -43,7 +43,7 @@ _**トピックの最終更新日:** 2013-10-07_
 
 この記事では、パブリック IM 接続 (PIC) のサポートに関する情報を提供します。 PIC は Microsoft Lync の機能です。これにより、組織は lync ユーザーが特定のパブリックインスタントメッセージング (IM) サービスのユーザーと Lync クライアントおよび id を介して接続できるようになります。
 
-エンドユーザーにとっては、顧客、パートナー、およびベンダーとの間で顧客、パートナー、およびベンダーと接続できるという利点があります。 Lync の制御、コンプライアンス、およびアーカイブ機能を維持しながら、1つのリアルタイム通信クライアントをサポートすることでメリットを得られます。 Lync と Skype の接続は、2013年 5[月に公開](http://blogs.technet.com/b/lync/archive/2013/05/23/lync-skype-connectivity-available-today.aspx)されていますが、Lync/Office Communications SERVER (OCS)/Live communications SERVER (LCS) を最初に、MSN/Windows LIVE、AOL、および Yahoo に接続する PIC で確立したものに依存しています。Lync と Skype の接続の詳細については、「 [lync-skype の接続](http://office.microsoft.com/lync/lync-skype-connectivity-fx103789635.aspx)」を参照してください。 Windows Live、AOL、および Yahoo とのフェデレーションは、それぞれ有効期限までの経路上にあります。このページには、各サービスの状態が記載されています。
+エンドユーザーにとっては、顧客、パートナー、およびベンダーとの間で顧客、パートナー、およびベンダーと接続できるという利点があります。 Lync の制御、コンプライアンス、およびアーカイブ機能を維持しながら、1つのリアルタイム通信クライアントをサポートすることでメリットを得られます。 Lync と Skype の接続は、2013年 5[月に公開](https://blogs.technet.com/b/lync/archive/2013/05/23/lync-skype-connectivity-available-today.aspx)されていますが、Lync/Office Communications SERVER (OCS)/Live communications SERVER (LCS) を最初に、MSN/Windows LIVE、AOL、および Yahoo に接続する PIC で確立したものに依存しています。Lync と Skype の接続の詳細については、「 [lync-skype の接続](http://office.microsoft.com/lync/lync-skype-connectivity-fx103789635.aspx)」を参照してください。 Windows Live、AOL、および Yahoo とのフェデレーションは、それぞれ有効期限までの経路上にあります。このページには、各サービスの状態が記載されています。
 
 PIC を使用するには、お客様がパブリック IM サービスプロバイダーごとにサービスをアクティブにする必要があります。 これを行う方法の要件と詳細については、「IM サービスプロバイダー」および「お客様の基になるライセンスプログラム」を参照してください。
 
@@ -65,7 +65,7 @@ Lync-Skype 接続-Lync および Skype ユーザー間の連絡先追加、プ�
 
 Yahoo とのフェデレーション\! および AOL は、Lync (および Office Communications Server) のお客様のために、エンドツーライフのパスにあります。 これらの各サービスを提供する Microsoft の機能は、Yahoo からのサポートに応じて異なります。\! および AOL は、これらの基礎となる契約が下になります。 両方の Yahoo\! AOL の場合、サービスは2014年6月に継続されます。
 
-  - **Yahoo** Service は2014年6月に継続され、お客様は引き続き Microsoft LYNC パブリック IM 接続ユーザーサブスクリプションライセンス ("PIC USL") を使用してライセンスを供与する必要があります。2012年9月1日時点で、PIC USL は、新規または契約の更新の購入に使用できなくなりました。この日以前に購入したライセンスを持つお客様は、Yahoo とのフェデレーションを続行できます。\! サービスの以前の終了日まで、またはそのライセンスの有効期限が切れるまで。「Lync チームブログ」の[アナウンス](http://blogs.technet.com/b/lync/archive/2012/11/26/lync-and-yahoo-federation-end-of-life.aspx)を参照してください。2014年6月30日よりも後の契約で PIC ライセンスを持っているお客様は、2014年6月30日以降の期間における支払い額に比例してクレジットを受け取ります。
+  - **Yahoo** Service は2014年6月に継続され、お客様は引き続き Microsoft LYNC パブリック IM 接続ユーザーサブスクリプションライセンス ("PIC USL") を使用してライセンスを供与する必要があります。2012年9月1日時点で、PIC USL は、新規または契約の更新の購入に使用できなくなりました。この日以前に購入したライセンスを持つお客様は、Yahoo とのフェデレーションを続行できます。\! サービスの以前の終了日まで、またはそのライセンスの有効期限が切れるまで。「Lync チームブログ」の[アナウンス](https://blogs.technet.com/b/lync/archive/2012/11/26/lync-and-yahoo-federation-end-of-life.aspx)を参照してください。2014年6月30日よりも後の契約で PIC ライセンスを持っているお客様は、2014年6月30日以降の期間における支払い額に比例してクレジットを受け取ります。
 
   - **AOL** -2014 年6月30日に、LYNC の IM 接続 ("PIC") サービスは使用できなくなります。サービスの終了時に顧客の中断を制限するために、お客様の追加のドメインのプロビジョニングは廃止されました。 2014年6月30日まで、お客様は、ターゲットとのフェデレーション通信を引き続きサポートするために何もする必要はありません。 この日以降 (または、その間に追加のドメインをプロビジョニングしたいと考えているお客様の場合)、AOL から直接代替サービスを利用できます。 AOL の新しいサービスの詳細については、「   [AIM を使用して直接フェデレーションを確立](http://aimenterprise.aol.com/pic.php)する (AOL.com で新しいページを開く)」を参照してください。  
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 48183698
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 55568c76b9565402a09eb69bf0401a7bb4fd35cc
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 07d8e46ce5f4e8a6295b3b2ee09451646ed77847
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42049849"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144373"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses-in-lync-server-2013"></a>Lync Server 2013 の拡張統合エッジ、パブリック IP アドレスによる DNS 負荷分散
 
@@ -98,9 +98,9 @@ IPv6 から IPv4 に変換 (一般に NAT64 と呼ばれます) したり、IPv6
 ## <a name="see-also"></a>関連項目
 
 
-[IP バージョン6アドレス指定アーキテクチャ](http://tools.ietf.org/html/rfc4291)  
-[IPv6 グローバルユニキャストアドレス形式](http://tools.ietf.org/html/rfc3587)  
-[一意のローカル IPv6 ユニキャストアドレス](http://tools.ietf.org/html/rfc4193)  
+[IP バージョン6アドレス指定アーキテクチャ](https://tools.ietf.org/html/rfc4291)  
+[IPv6 グローバルユニキャストアドレス形式](https://tools.ietf.org/html/rfc3587)  
+[一意のローカル IPv6 ユニキャストアドレス](https://tools.ietf.org/html/rfc4193)  
   
 
 </div>

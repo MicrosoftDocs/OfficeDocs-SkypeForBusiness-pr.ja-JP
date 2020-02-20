@@ -12,18 +12,18 @@ ms:contentKeyID: 51541482
 ms.date: 05/10/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f268d76c33e3a76c909d164eb63d6ad3c1eb29c8
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c757fc19bd82fbf1ae3096bb4a8ac8982f9035b6
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029808"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142403"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="supported-lync-server-2013-hybrid-configurations"></a>サポートされている Lync Server 2013 ハイブリッド構成
 
@@ -37,7 +37,7 @@ ms.locfileid: "42029808"
 
 _**トピックの最終更新日:** 2016-05-10_
 
-Lync Server 2013 の展開は、Microsoft Exchange Server 2010 と Microsoft Exchange Server 2013 および SharePoint Server (オンプレミスとオンラインの両方) との統合のために構成できます。 次の表に示す機能は、特に指定のない限り、すべてのクライアントでサポートされています。 クライアントサポートの詳細については、「 [client comparison tables For Lync Server 2013](lync-server-2013-desktop-client-comparison-tables.md) 」および「skype For business online クライアントでの skype for business online[の](http://go.microsoft.com/fwlink/p/?linkid=281902)クライアントの比較表」を参照してください。
+Lync Server 2013 の展開は、Microsoft Exchange Server 2010 と Microsoft Exchange Server 2013 および SharePoint Server (オンプレミスとオンラインの両方) との統合のために構成できます。 次の表に示す機能は、特に指定のない限り、すべてのクライアントでサポートされています。 クライアントサポートの詳細については、「 [client comparison tables For Lync Server 2013](lync-server-2013-desktop-client-comparison-tables.md) 」および「skype For business online クライアントでの skype for business online[の](https://go.microsoft.com/fwlink/p/?linkid=281902)クライアントの比較表」を参照してください。
 
 <div>
 
@@ -141,7 +141,7 @@ Lync Server 2013 の展開は、Microsoft Exchange Server 2010 と Microsoft Exc
 <li><p>不在着信した会話の履歴と通話ログはユーザーの exchange メールボックスに書き込まれる</p></li>
 <li><p>Exchange のアーカイブコンテンツ (IM および会議)。</p>
 <p>詳細については、「 <a href="lync-server-2013-deployment-checklist-for-archiving.md">Lync Server 2013 のアーカイブの展開チェックリスト</a>」を参照してください。</p></li>
-<li><p>アーカイブされたコンテンツを検索します。 詳細については、「 <a href="http://go.microsoft.com/fwlink/p/?linkid=285448">Configure Exchange For SharePoint EDiscovery Center</a> 」を参照してください。</p></li>
+<li><p>アーカイブされたコンテンツを検索します。 詳細については、「 <a href="https://go.microsoft.com/fwlink/p/?linkid=285448">Configure Exchange For SharePoint EDiscovery Center</a> 」を参照してください。</p></li>
 <li><p>ボイスメール 詳細については、「 <a href="lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um.md">Lync Server 2013 ユーザーのボイスメールをホストされている EXCHANGE UM で提供</a>する」を参照してください。</p></li>
 </ul></td>
 </tr>

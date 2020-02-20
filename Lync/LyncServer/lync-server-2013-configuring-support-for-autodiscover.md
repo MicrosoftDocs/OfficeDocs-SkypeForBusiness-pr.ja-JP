@@ -12,18 +12,18 @@ ms:contentKeyID: 51541463
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 79511202ddc9e413e313d12f881e7079f088c473
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ee85d984f0d60d4275972982e4ff65b380f0f9b2
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046070"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145916"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-support-for-autodiscover-in-lync-server-2013"></a>Lync Server 2013 での自動検出のサポートの構成
 
@@ -51,7 +51,7 @@ Lync Server web services**自動検出サービス**は、lync server 2010 の�
 
 </div>
 
-次の情報と表は、シナリオごとに、自動検出サービスを完全かつ効果的に使用するために実装する必要がある構成 (存在する場合) を定義しています。 以下のトピックの情報は、Microsoft Lync Server 2013 に固有のものです。 Lync Server 2010 のモビリティを計画する方法のガイダンスについては、「 [http://go.microsoft.com/fwlink/?LinkId=275113](http://go.microsoft.com/fwlink/?linkid=275113)」を参照してください。 Lync Server 2010 のモビリティを展開するには、「」を参照してください。[http://go.microsoft.com/fwlink/?LinkId=275114](http://go.microsoft.com/fwlink/?linkid=275114)
+次の情報と表は、シナリオごとに、自動検出サービスを完全かつ効果的に使用するために実装する必要がある構成 (存在する場合) を定義しています。 以下のトピックの情報は、Microsoft Lync Server 2013 に固有のものです。 Lync Server 2010 のモビリティを計画する方法のガイダンスについては、「 [https://go.microsoft.com/fwlink/?LinkId=275113](https://go.microsoft.com/fwlink/?linkid=275113)」を参照してください。 Lync Server 2010 のモビリティを展開するには、「」を参照してください。[https://go.microsoft.com/fwlink/?LinkId=275114](https://go.microsoft.com/fwlink/?linkid=275114)
 
 <div>
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 49733649
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 44de5139d3ad8f38c5177a18260045fda7abdeea
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0aa52a844a0ed1bff9ca2c9d2f7e5fc70a6a2e95
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035309"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145406"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="integrating-microsoft-lync-server-2013-and-microsoft-outlook-web-app-2013"></a>Microsoft Lync Server 2013 と Microsoft Outlook Web App 2013 の統合
 
@@ -41,11 +41,11 @@ Microsoft Outlook 2013 との統合に加えて、microsoft Lync Server 2013 は
 
 HKEY\_LOCAL\_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\MSExchange OWA\\InstantMessaging\\ImplementationDLLPath
 
-ImplementationDLLPath は、ファイルのフォルダーの場所をポイントする必要があります。 そうでない場合、またはレジストリ値が存在しない場合は、Microsoft ダウンロードセンターから、UCMA ランタイムセットアッププログラムをダウンロードしてインストールする<http://www.microsoft.com/download/details.aspx?id=34992>必要があります。 UCMA ランタイムをインストールする方法については、同じ web ページを参照してください。
+ImplementationDLLPath は、ファイルのフォルダーの場所をポイントする必要があります。 そうでない場合、またはレジストリ値が存在しない場合は、Microsoft ダウンロードセンターから、UCMA ランタイムセットアッププログラムをダウンロードしてインストールする<https://www.microsoft.com/download/details.aspx?id=34992>必要があります。 UCMA ランタイムをインストールする方法については、同じ web ページを参照してください。
 
 **下位互換性**
 
-Lync Server 2013 は、Microsoft Exchange Server 2010 バージョンのユニファイドメッセージングと Outlook Web App の両方に統合できます。 詳細については、「オンプレミスの Exchange UM を展開して Lync Server 2010 ボイス[http://technet.microsoft.com/library/gg398768.aspx](lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail.md)メールを提供する」の記事を参照してください。 Exchange 2010 と統合する場合は、統合連絡先ストアや Lync から Exchange へのアーカイブなどの Lync Server 固有の機能はありません。
+Lync Server 2013 は、Microsoft Exchange Server 2010 バージョンのユニファイドメッセージングと Outlook Web App の両方に統合できます。 詳細については、「オンプレミスの Exchange UM を展開して Lync Server 2010 ボイス[https://technet.microsoft.com/library/gg398768.aspx](lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail.md)メールを提供する」の記事を参照してください。 Exchange 2010 と統合する場合は、統合連絡先ストアや Lync から Exchange へのアーカイブなどの Lync Server 固有の機能はありません。
 
 Microsoft Lync 2013 は、Exchange 2010 および Outlook 2010 と組み合わせて使用することもできます。 ただし、今後も、統合連絡先ストアや高解像度写真などの新機能を Lync 2013 ユーザーが使用することはできません。 これらの新機能には、Lync Server 2013 と Exchange 2013 の両方が必要です。
 

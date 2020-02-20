@@ -12,18 +12,18 @@ ms:contentKeyID: 48184649
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4ea7a68d77acd7bbaf3de43fce38c0e85c02dad4
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 45dbc2c71cf34515f8f6176e4f579e6683ad319e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037277"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146260"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="administering-the-address-book-service-in-lync-server-2013"></a>Lync Server 2013 でのアドレス帳サービスの管理
 
@@ -43,7 +43,7 @@ Lync Server Enterprise Edition または Standard Edition サーバーの展開�
 
 
 > [!NOTE]  
-> <STRONG>Adsi edit</STRONG>を使用して Active Directory ドメインサービスオブジェクトの属性を編集する方法については、「 <A href="http://go.microsoft.com/fwlink/?linkid=330427">adsi edit</A>」を参照してください。 特にアドレス帳サービス用のリソースキットのツールの詳細については、「 <A href="http://go.microsoft.com/fwlink/?linkid=330429">Microsoft Lync Server 2013 リソースキットツール</A>」を参照してください。
+> <STRONG>Adsi edit</STRONG>を使用して Active Directory ドメインサービスオブジェクトの属性を編集する方法については、「 <A href="https://go.microsoft.com/fwlink/?linkid=330427">adsi edit</A>」を参照してください。 特にアドレス帳サービス用のリソースキットのツールの詳細については、「 <A href="https://go.microsoft.com/fwlink/?linkid=330429">Microsoft Lync Server 2013 リソースキットツール</A>」を参照してください。
 
 
 
@@ -100,12 +100,12 @@ Lync Server には、標準化された RFC 3966/e.164 電話番号が必要で�
 <td><p>0x03420000</p></td>
 </tr>
 <tr class="even">
-<td><p>4 </p></td>
+<td><p>2/4</p></td>
 <td><p>タイトル</p></td>
 <td><p>0x04000000</p></td>
 </tr>
 <tr class="odd">
-<td><p>5 </p></td>
+<td><p>5</p></td>
 <td><p>mailNickname</p></td>
 <td><p>0x05400000</p></td>
 </tr>
@@ -298,7 +298,7 @@ Lync Server には、標準化された RFC 3966/e.164 電話番号が必要で�
 
 
 > [!WARNING]  
-> アドレス帳のフィルター処理の詳細については、「 <A href="https://technet.microsoft.com/library/gg415643(v=ocs.15)">Lync server 2013 のアドレス帳サーバーのコマンドレット</A>」および「 <A href="http://go.microsoft.com/fwlink/?linkid=330430">lync 2013 アドレス帳のフィルター処理</A>」を参照してください。
+> アドレス帳のフィルター処理の詳細については、「 <A href="https://technet.microsoft.com/library/gg415643(v=ocs.15)">Lync server 2013 のアドレス帳サーバーのコマンドレット</A>」および「 <A href="https://go.microsoft.com/fwlink/?linkid=330430">lync 2013 アドレス帳のフィルター処理</A>」を参照してください。
 
 
 

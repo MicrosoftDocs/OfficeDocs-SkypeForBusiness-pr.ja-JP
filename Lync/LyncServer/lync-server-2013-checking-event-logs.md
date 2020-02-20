@@ -12,18 +12,18 @@ ms:contentKeyID: 63969602
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a15fb690dc213dbe22377b988f82dd59d6eb8a03
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 41c49839b01b531c1cd4c9a5eb4cff5fb6a155f4
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045669"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145966"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="checking-event-logs-in-lync-server-2013"></a>Lync Server 2013 でのイベントログの確認
 
@@ -37,7 +37,7 @@ ms.locfileid: "42045669"
 
 _**トピックの最終更新日:** 2014-08-06_
 
-[Windows イベントビューアー](http://go.microsoft.com/fwlink/p/?linkid=314067)を使用して、イベントログを表示したり、サービスの障害、AD DS のレプリケーションエラー、および仮想メモリやディスク容量などのシステムリソースに関する警告を取得したりできます。 イベントビューアーは、Windows Server 2008 および2012に含まれています。
+[Windows イベントビューアー](https://go.microsoft.com/fwlink/p/?linkid=314067)を使用して、イベントログを表示したり、サービスの障害、AD DS のレプリケーションエラー、および仮想メモリやディスク容量などのシステムリソースに関する警告を取得したりできます。 イベントビューアーは、Windows Server 2008 および2012に含まれています。
 
 Lync Server 2013 ログツールで、デバッグセッションを終了するときに、Snooper ツールを使用してログファイルを表示するには、[**ログファイルの分析**] をクリックします。
 
@@ -93,16 +93,16 @@ Windows Server オペレーティングシステムで Lync Server を実行し�
 
 Lync Server 2013 管理パックの詳細については、「 [System Center Operations Manager で Lync server 2013 を監視](lync-server-2013-monitoring-lync-server-with-system-center-operations-manager.md)する」を参照してください。
 
-****   イベントのくし形イベントマス目ツールは、複数のコンピューターのイベントログから特定のイベントを1か所にまとめて収集します。 指定したイベント Id またはイベントソースのみを報告することができます。 イベントの詳細については、「[アカウントのロックアウトおよび管理ツール](http://go.microsoft.com/fwlink/?linkid=35607)の web サイト」を参照してください。
+****   イベントのくし形イベントマス目ツールは、複数のコンピューターのイベントログから特定のイベントを1か所にまとめて収集します。 指定したイベント Id またはイベントソースのみを報告することができます。 イベントの詳細については、「[アカウントのロックアウトおよび管理ツール](https://go.microsoft.com/fwlink/?linkid=35607)の web サイト」を参照してください。
 
-****   Windows Server 2012 のイベントトリガー windows イベントビューアーでは、管理者がプログラムを実行したり、電子メールメッセージを送信したり、画面上のメッセージを表示したりすることができます。 この機能の詳細については、「Windows Server 2008 R2 のトピック」を参照してください。特定のイベントへの応答として[タスクを実行](http://technet.microsoft.com/library/cc748900.aspx)します。 また、' Eventtrigger ' などのコマンドラインツールを使用して、イベントログを作成および照会したり、特定のログイベントにプログラムを関連付けしたりすることもできます。 Eventtriggers を使用すると、特定のイベントが発生したときにプログラムを実行するイベントトリガーを作成できます。
+****   Windows Server 2012 のイベントトリガー windows イベントビューアーでは、管理者がプログラムを実行したり、電子メールメッセージを送信したり、画面上のメッセージを表示したりすることができます。 この機能の詳細については、「Windows Server 2008 R2 のトピック」を参照してください。特定のイベントへの応答として[タスクを実行](https://technet.microsoft.com/library/cc748900.aspx)します。 また、' Eventtrigger ' などのコマンドラインツールを使用して、イベントログを作成および照会したり、特定のログイベントにプログラムを関連付けしたりすることもできます。 Eventtriggers を使用すると、特定のイベントが発生したときにプログラムを実行するイベントトリガーを作成できます。
 
 <div>
 
 ## <a name="see-also"></a>関連項目
 
 
-[Windows イベントビューアー](http://go.microsoft.com/fwlink/p/?linkid=314067)  
+[Windows イベントビューアー](https://go.microsoft.com/fwlink/p/?linkid=314067)  
   
 
 </div>

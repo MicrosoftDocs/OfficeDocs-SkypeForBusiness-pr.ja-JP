@@ -12,18 +12,18 @@ ms:contentKeyID: 48183326
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2f65acbee339a868f7656b853a9bc611f567c381
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0f9a5fccbf3cf420f5fefa35b0efa30e55fe517f
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42041266"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145766"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="web-server-and-services-cmdlets-in-lync-server-2013"></a>Lync Server 2013 の Web サーバーおよびサービスのコマンドレット
 
@@ -138,7 +138,7 @@ Microsoft Lync Server 2013 の多くのコンポーネントは web ベースで
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server PowerShell ブログ](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[Lync Server PowerShell ブログ](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

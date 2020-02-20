@@ -12,18 +12,18 @@ ms:contentKeyID: 48184994
 ms.date: 02/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 913a484262d9e1b3a899aeda42c5f23049d8c73c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2bdc3ee4b25e6e60dfb22ae7a1abe3c6bf7b2cb0
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030921"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145786"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="lync-client-software-support-in-lync-server-2013"></a>Lync Server 2013 での lync クライアントソフトウェアのサポート
 
@@ -124,9 +124,9 @@ _**トピックの最終更新日:** 2016-02-25_
 
 Lync 2013 は、Windows に対してのみ使用できます。 ただし、Lync Server 2013 では、Mac OS 10.5.8 以降または最新のサービスパックまたはリリース (Intel ベース) オペレーティングシステムを実行しているコンピューターで次のクライアントをサポートしています (現時点では、Mac OS 10.9 オペレーティングシステムはサポートされていません)。 サポートされる機能の詳細については、「 [Lync Server 2013 のクライアントの比較表](lync-server-2013-desktop-client-comparison-tables.md)」を参照してください。
 
-  - Microsoft Lync for Mac 2011 (「Lync for Mac 2011 展開ガイド」を参照[http://go.microsoft.com/fwlink/p/?LinkId=268786](http://go.microsoft.com/fwlink/p/?linkid=268786))
+  - Microsoft Lync for Mac 2011 (「Lync for Mac 2011 展開ガイド」を参照[https://go.microsoft.com/fwlink/p/?LinkId=268786](https://go.microsoft.com/fwlink/p/?linkid=268786))
 
-  - Microsoft Communicator for Mac 2011 (「Communicator for Mac 2011 展開ガイド」を参照[http://go.microsoft.com/fwlink/p/?LinkId=268787](http://go.microsoft.com/fwlink/p/?linkid=268787)してください)
+  - Microsoft Communicator for Mac 2011 (「Communicator for Mac 2011 展開ガイド」を参照[https://go.microsoft.com/fwlink/p/?LinkId=268787](https://go.microsoft.com/fwlink/p/?linkid=268787)してください)
 
 </div>
 
@@ -156,7 +156,7 @@ Lync Server 2013 クライアントは、このセクションで要約されて
 
 ## <a name="using-mandatory-profiles"></a>固定プロファイルの使用
 
-ユーザーが Lync 2013 会議機能の使用を計画している場合は、Active Directory ドメインサービスの必須プロファイルを使用して Lync 2013 クライアントにサインインすることはできません。 固定プロファイルは読み取り専用のユーザープロファイルであるため、Lync 2013 会議に必要な公開キー基盤 (PKI) キーをプロファイルに保存することはできません。 詳細については、「Microsoft サポート技術情報の記事2552221、「ユーザーが固定ユーザープロファイルを使用してサインイン[http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2552221](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2552221)している場合に、Lync 2010 の会議機能が失敗する」、「」を参照してください。
+ユーザーが Lync 2013 会議機能の使用を計画している場合は、Active Directory ドメインサービスの必須プロファイルを使用して Lync 2013 クライアントにサインインすることはできません。 固定プロファイルは読み取り専用のユーザープロファイルであるため、Lync 2013 会議に必要な公開キー基盤 (PKI) キーをプロファイルに保存することはできません。 詳細については、「Microsoft サポート技術情報の記事2552221、「ユーザーが固定ユーザープロファイルを使用してサインイン[https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2552221](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2552221)している場合に、Lync 2010 の会議機能が失敗する」、「」を参照してください。
 
 </div>
 

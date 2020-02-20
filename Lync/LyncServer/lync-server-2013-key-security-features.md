@@ -12,18 +12,18 @@ ms:contentKeyID: 56107266
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4a2662225ac8aa00383b38deec3825a6f26b9dd9
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: a03a5c312123d714eebe8d49674a19ce712e37bc
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42034989"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145245"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="key-security-features-in-lync-server-2013"></a>Lync Server 2013 の主なセキュリティ機能
 
@@ -127,7 +127,7 @@ Lync Server 2013 は、エッジサーバーの内部インターフェイスで
 
 ## <a name="trustworthy-computing-security-development-lifecycle-sdl"></a>信頼できるコンピューティングのセキュリティ開発ライフサイクル (SDL)
 
-Lync Server 2013 は、「」に<http://go.microsoft.com/fwlink/?linkid=68761>記載されている「Microsoft の信頼できるコンピューティングのセキュリティ開発ライフサイクル (SDL)」に準拠して設計および開発されています。
+Lync Server 2013 は、「」に<https://go.microsoft.com/fwlink/?linkid=68761>記載されている「Microsoft の信頼できるコンピューティングのセキュリティ開発ライフサイクル (SDL)」に準拠して設計および開発されています。
 
   - **信頼できる設計**   による信頼性の高い統合コミュニケーションシステムを作成するための最初の手順は、脅威モデルを設計し、設計された各機能をテストすることでした。 さらに、Microsoft は、予期しない製品の動作から生じるセキュリティの脆弱性を検出するために、設計された動作の外部でのテストを行います。 複数のセキュリティ関連の改善点がコーディング プロセスとコーディング手法に組み込まれました。 コードが最終的な製品にチェックインされる前に、ビルド時ツールにより、バッファー オーバーランおよびその他のセキュリティ脅威の可能性を検出します。 もちろん、すべての未知のセキュリティ脅威を防ぐように設計することは不可能です。 完全なセキュリティを保証できるシステムはありません。 ただし、製品の開発は開始時にセキュリティ保護された設計原則を採用しているため、Lync Server 2013 には、そのアーキテクチャの基本的な部分として業界標準のセキュリティテクノロジが組み込まれています。
 
