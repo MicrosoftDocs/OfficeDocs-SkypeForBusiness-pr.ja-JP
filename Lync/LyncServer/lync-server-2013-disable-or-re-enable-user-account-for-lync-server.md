@@ -12,18 +12,18 @@ ms:contentKeyID: 48183455
 ms.date: 04/05/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cc7ed0572d36a87532c4845df887dc87ccb34eec
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 502b4cc9c6ed70d0a418dbed7e844064939809d9
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035129"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153849"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="disable-or-re-enable-user-account-for-lync-server-2013"></a>Lync Server 2013 のユーザーアカウントを無効または再度有効にする
 
@@ -75,13 +75,13 @@ _**トピックの最終更新日:** 2016-04-04_
 
 ## <a name="using-windows-powershell-to-disable-or-re-enable-user-accounts"></a>Windows PowerShell を使用してユーザーアカウントを無効にするか、再度有効にする
 
-ユーザーアカウントを一時的に無効にして**から、ユーザーコマンドレット**を使用して再び有効にすることができます。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモート Windows PowerShell を使用して Lync Server に接続する方法の詳細については、Lync Server Windows PowerShell のブログ記事「Quick Start: Microsoft Lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)を使用したリモート PowerShell の管理」を参照してください。
+ユーザーアカウントを一時的に無効にして**から、ユーザーコマンドレット**を使用して再び有効にすることができます。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 <div>
 
 ## <a name="to-disable-a-user-account"></a>ユーザーアカウントを無効にするには
 
-  - ユーザー アカウントを一時的に無効にするには、Enabled プロパティの値を False ($False) に設定します。 例:
+  - ユーザー アカウントを一時的に無効にするには、Enabled プロパティの値を False ($False) に設定します。 次に例を示します。
     
         Set-CsUser -Identity "Ken Myer" -Enabled $False
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 48183249
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 078b8dc63e630487e13f1d187896bcf0617c0d15
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 882ffb0597b0dbd4f4be5b25a86facdda4367734
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051099"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154329"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="dns-requirements-for-front-end-pool-in-lync-server-2013"></a>Lync Server 2013 のフロントエンドプールの DNS 要件
 
@@ -45,7 +45,7 @@ _**トピックの最終更新日:** 2012-11-07_
 
 
 > [!WARNING]  
-> Lync Server 2013 は、単一ラベルのドメインをサポートしていません。 たとえば、ルート ドメイン名が <STRONG>contoso.local</STRONG> であるフォレストはサポートされますが、<STRONG>local</STRONG> という名前のルート ドメインはサポートされません。 詳細については、「Microsoft サポート技術情報の記事300684」を参照してください。「単一ラベル DNS 名を使用してドメインに Windows を構成する」の「at <A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=300684"> http://go.microsoft.com/fwlink/p/?linkid=3052&amp; kbid = 300684</A>」を参照してください。
+> Lync Server 2013 は、単一ラベルのドメインをサポートしていません。 たとえば、ルート ドメイン名が <STRONG>contoso.local</STRONG> であるフォレストはサポートされますが、<STRONG>local</STRONG> という名前のルート ドメインはサポートされません。 詳細については、「Microsoft サポート技術情報の記事300684」を参照してください。「単一ラベル DNS 名を使用してドメインに Windows を構成する」の「at <A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=300684"> https://go.microsoft.com/fwlink/p/?linkid=3052&amp; kbid = 300684</A>」を参照してください。
 
 
 

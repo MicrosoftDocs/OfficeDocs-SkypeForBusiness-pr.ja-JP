@@ -12,18 +12,18 @@ ms:contentKeyID: 48185960
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4adcd2cd6bebfb0797427d15819399c9b2b9f86d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 3e9f42d2467a77e35eb9f5a158967357534e86da
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036757"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153859"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="dial-plans-and-normalization-rules-in-lync-server-2013"></a>Lync Server 2013 のダイヤルプランと正規化ルール
 
@@ -175,7 +175,7 @@ _**トピックの最終更新日:** 2012-09-21_
 
 正規化ルールは、.NET Framework 正規表現を使用して、逆引き番号検索を実行するために、サーバーがダイヤル文字列を e.164 形式に変換するために使用する数値一致パターンを指定します。 Lync Server コントロールパネルで正規化ルールを作成するには、式を手動で入力するか、一致するダイヤル文字列の先頭の数字と長さを入力して、Lync Server コントロールパネルで対応する正規表現。 完了したら、テスト番号を入力して、正規化ルールが期待どおりに動作するかどうかを確認できます。
 
-.NET Framework の正規表現の使用の詳細については、「」の[http://go.microsoft.com/fwlink/p/?linkId=140927](http://go.microsoft.com/fwlink/p/?linkid=140927)「.Net Framework 正規表現」を参照してください。
+.NET Framework の正規表現の使用の詳細については、「」の[https://go.microsoft.com/fwlink/p/?linkId=140927](https://go.microsoft.com/fwlink/p/?linkid=140927)「.Net Framework 正規表現」を参照してください。
 
 </div>
 
@@ -202,7 +202,7 @@ _**トピックの最終更新日:** 2012-09-21_
 <th>ルール名</th>
 <th>説明</th>
 <th>番号のパターン</th>
-<th>Translation</th>
+<th>翻訳</th>
 <th>例</th>
 </tr>
 </thead>

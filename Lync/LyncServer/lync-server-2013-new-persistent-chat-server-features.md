@@ -12,18 +12,18 @@ ms:contentKeyID: 48185341
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5257490dc63e1626c0cdb6dcf7e6ce1f17e75cd1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 6c5ad73d11ae629ec0848539b2f4bac2bc81a43e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048321"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153579"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="new-persistent-chat-server-features-in-lync-server-2013"></a>Lync Server 2013 の新しい常設チャットサーバーの機能
 
@@ -53,7 +53,7 @@ Lync Server 2013、常設チャットサーバーを使用すると、時間の�
 
 Lync Server 2013、常設チャットサーバーは、Microsoft Office 365 では使用できません。 現時点では、オンプレミスの Lync 2013 ユーザーのみが利用できます。
 
-Lync 2013 では、常設チャット機能は Lync 2013 クライアントに統合されています。 その結果、ユーザーは Lync 2013 クライアントでインスタントメッセージング/プレゼンス、音声ビデオ、会議、および常設チャットへのアクセスが可能になります。 Lync 2013 クライアントの詳細については、 <http://go.microsoft.com/fwlink/p/?linkid=270877>「」を参照してください。
+Lync 2013 では、常設チャット機能は Lync 2013 クライアントに統合されています。 その結果、ユーザーは Lync 2013 クライアントでインスタントメッセージング/プレゼンス、音声ビデオ、会議、および常設チャットへのアクセスが可能になります。 Lync 2013 クライアントの詳細については、 <https://go.microsoft.com/fwlink/p/?linkid=270877>「」を参照してください。
 
 このトピックでは、新しいバージョンの Lync Server 2013、常設チャットサーバーと以前のバージョン (Microsoft Lync Server 2010、グループチャット) の機能の変更点について説明します。
 
@@ -67,7 +67,7 @@ Lync 2013 では、常設チャット機能は Lync 2013 クライアントに�
 
 常設チャットサーバーの最新バージョンの詳細については、以下を参照してください。
 
-  - 常設チャットのヘルプ<http://go.microsoft.com/fwlink/p/?linkid=270945>には、常設チャットの機能の詳細な一覧、機能、および常設チャットサーバーの実行中に使用する方法が記載されています。
+  - 常設チャットのヘルプ<https://go.microsoft.com/fwlink/p/?linkid=270945>には、常設チャットの機能の詳細な一覧、機能、および常設チャットサーバーの実行中に使用する方法が記載されています。
 
   - 「計画」のドキュメントの「 [Lync server 2013 での常設チャットサーバーの計画](lync-server-2013-planning-for-persistent-chat-server.md)」を参照してください。「展開」のドキュメントの「 [lync server 2013 での常設チャットサーバーの展開](lync-server-2013-deploying-persistent-chat-server.md)」、「 [Lync server 2010、グループチャットまたは Office Communications Server 2007 R2 グループチャットから Lync server 2013 への移行](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md)」、および「操作」のドキュメントの「 [Lync server 2013」、「常設チャット](managing-lync-server-2013-persistent-chat-server.md)サーバーの管理」の「セットアップ手順」常設チャットサーバー。
 

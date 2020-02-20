@@ -12,18 +12,18 @@ ms:contentKeyID: 51803934
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ebeb81c97e92cc305c3f1bec78f6c59aeb62d978
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 6e1fee1ce312812185b81089323469b8259574bb
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42047361"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153639"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="move-a-conferencing-device-to-a-new-registrar-pool-in-lync-server-2013"></a>Lync Server 2013 で会議デバイスを新しいレジストラープールに移動する
 
@@ -43,7 +43,7 @@ _**トピックの最終更新日:** 2013-02-20_
 
 
 > [!NOTE]  
-> リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を<A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>で参照してください。
+> リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を<A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A>で参照してください。
 
 
 
@@ -56,7 +56,7 @@ _**トピックの最終更新日:** 2013-02-20_
 
 ## <a name="moving-a-conferencing-device-to-a-new-registrar-pool"></a>会議デバイスを新しいレジストラープールに移動する
 
-  - 会議デバイスを移動するには、移動する会議室の id を指定し、ターゲットパラメーターを、デバイスの移動先となるレジストラープールの完全修飾ドメイン名 (FQDN) に設定する必要があります。 例:
+  - 会議デバイスを移動するには、移動する会議室の id を指定し、ターゲットパラメーターを、デバイスの移動先となるレジストラープールの完全修飾ドメイン名 (FQDN) に設定する必要があります。 次に例を示します。
     
         Move-CsMeetingRoom -Target "atl-cs-001.litwareinc.com" -Identity "Room 14"
 

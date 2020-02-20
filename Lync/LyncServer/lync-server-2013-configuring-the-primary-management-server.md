@@ -12,18 +12,18 @@ ms:contentKeyID: 48183986
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6640e13209700d50aac04c43728175a4fcb4e6b4
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 68fc10ba0457b0ad29f6f3850c1d7056d27fd24d
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030000"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154219"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-the-primary-management-server-in-lync-server-2013"></a>Lync Server 2013 でのプライマリ管理サーバーの構成
 
@@ -61,9 +61,9 @@ System Center Operations Manager 2012 または System Center Operations manager
 
   - データ ウェアハウス
 
-これらのコンポーネントとそのインストールの詳細については、このドキュメントでは説明しません。 System Center Operations Manager 2007 R2 の詳細については、Operations Manager 2007 R2 の<http://go.microsoft.com/fwlink/p/?linkid=257526>ドキュメントと、System Center operations manager 2012 の<http://go.microsoft.com/fwlink/p/?linkid=257527>マニュアルを参照してください。 SQL Server 2005 または SQL Server 2008 Service Pack 1 をバックエンドデータベースとして使用する場合は、これらの手順に従う必要があります。
+これらのコンポーネントとそのインストールの詳細については、このドキュメントでは説明しません。 System Center Operations Manager 2007 R2 の詳細については、Operations Manager 2007 R2 の<https://go.microsoft.com/fwlink/p/?linkid=257526>ドキュメントと、System Center operations manager 2012 の<https://go.microsoft.com/fwlink/p/?linkid=257527>マニュアルを参照してください。 SQL Server 2005 または SQL Server 2008 Service Pack 1 をバックエンドデータベースとして使用する場合は、これらの手順に従う必要があります。
 
-System Center Operations Manager 2012 を使用している場合は、SQL Server 2012 をバックエンドデータベースとして使用できます。 SQL Server 2012 の詳細については、「Books Online for SQL [http://go.microsoft.com/fwlink/p/?LinkId=257528](http://go.microsoft.com/fwlink/p/?linkid=257528)server 2012」を参照してください。
+System Center Operations Manager 2012 を使用している場合は、SQL Server 2012 をバックエンドデータベースとして使用できます。 SQL Server 2012 の詳細については、「Books Online for SQL [https://go.microsoft.com/fwlink/p/?LinkId=257528](https://go.microsoft.com/fwlink/p/?linkid=257528)server 2012」を参照してください。
 
 Lync Server の展開ごとに1つのプライマリ管理サーバーしか使用できないことに注意してください。 また、System Center Operations Manager 2012 または System Center Operations Manager 2007 R2 のどちらかを使用できますが、2つのアプリケーションを同時に実行することはできません。どちらか一方を選択する必要があります。 たとえば、System Center Operations Manager 2012 を実行している場合は、すべてのシステムセンターエージェントも System Center Operations Manager 2012 を実行している必要があります。 System Center Operations Manager 2012 と、System Center Operations Manager 2007 R2 を実行している他のエージェントを実行しているエージェントはありません。
 

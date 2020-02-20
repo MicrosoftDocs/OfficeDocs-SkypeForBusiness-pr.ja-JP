@@ -12,18 +12,18 @@ ms:contentKeyID: 56737623
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5c42b5541fb28646e4c01d9d070b67f6fe103234
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 739e440765feb07d70b7f5a8d1490a85a938701d
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42034999"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154069"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-your-lync-server-2013-environment-for-the-lync-room-system-administrative-web-portal"></a>Lync Room System 管理 Web ポータル用に Lync Server 2013 環境を構成する
 
@@ -51,7 +51,7 @@ Lync Room System (LRS) 管理 Web ポータルを使用するには、次の前�
 
 1.  Lync server 2013 の累積的な更新プログラム (Lync Server トポロジでは2013年7月) をインストールします。
     
-    更新プログラムを取得するか、またはその内容に含まれているものを確認するには、「 [Lync Server 2013 の更新プログラム](http://go.microsoft.com/fwlink/p/?linkid=323959)」を参照してください。
+    更新プログラムを取得するか、またはその内容に含まれているものを確認するには、「 [Lync Server 2013 の更新プログラム](https://go.microsoft.com/fwlink/p/?linkid=323959)」を参照してください。
 
 2.  SIP 対応の Active Directory ユーザーを作成します。
     
@@ -83,7 +83,7 @@ Lync Room System (LRS) 管理 Web ポータルを使用するには、次の前�
     
      
 
-7.  ASP.NET MVC 4 for Visual Studio 2010 SP1 および Visual Web Developer 2010 SP1 は、Microsoft ダウンロードセンター () から入手[http://go.microsoft.com/fwlink/p/?LinkId=323967](http://go.microsoft.com/fwlink/p/?linkid=323967)できます。
+7.  ASP.NET MVC 4 for Visual Studio 2010 SP1 および Visual Web Developer 2010 SP1 は、Microsoft ダウンロードセンター () から入手[https://go.microsoft.com/fwlink/p/?LinkId=323967](https://go.microsoft.com/fwlink/p/?linkid=323967)できます。
 
 </div>
 

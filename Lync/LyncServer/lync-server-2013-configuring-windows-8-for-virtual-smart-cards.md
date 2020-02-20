@@ -12,18 +12,18 @@ ms:contentKeyID: 54973684
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bb8fe9fb9bcca80e7e84f19bdc484dc693b1ee68
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 29fa0be32f5a2c2a0af0b63dadddda3038675adf
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045749"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154079"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-windows-8-for-using-virtual-smart-cards-with-lync-server-2013"></a>Lync Server 2013 で仮想スマートカードを使用するための Windows 8 の構成
 
@@ -39,7 +39,7 @@ _**トピックの最終更新日:** 2013-07-03_
 
 2要素認証とスマートカードテクノロジを展開する際に考慮する要因の1つは、実装コストです。 Windows 8 には新しいセキュリティ機能がいくつか用意されており、最も興味深い新機能の1つは仮想スマートカードのサポートです。
 
-仕様バージョン1.2 を満たすトラステッドプラットフォームモジュール (TPM) チップを備えたコンピューターの場合、組織は、ハードウェアに追加の投資を行わずにスマートカードログオンの利点を得ることができます。 詳細については、「Windows 8 での仮想スマート[http://go.microsoft.com/fwlink/p/?LinkId=313365](http://go.microsoft.com/fwlink/p/?linkid=313365)カードの使用」を参照してください。
+仕様バージョン1.2 を満たすトラステッドプラットフォームモジュール (TPM) チップを備えたコンピューターの場合、組織は、ハードウェアに追加の投資を行わずにスマートカードログオンの利点を得ることができます。 詳細については、「Windows 8 での仮想スマート[https://go.microsoft.com/fwlink/p/?LinkId=313365](https://go.microsoft.com/fwlink/p/?linkid=313365)カードの使用」を参照してください。
 
 <div>
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 48183353
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c70df997e0ed42f77451287cccbae23ae93d14e6
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 676335110ae5313958bc779b41cfe15065112930
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42042791"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153719"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="features-of-integrated-unified-messaging-and-lync-server-2013"></a>統合ユニファイドメッセージングと Lync Server 2013 の機能
 
@@ -69,7 +69,7 @@ Outlook Voice Access を使用すると、エンタープライズ VoIP ユー�
 
 ## <a name="fax-services"></a>FAX サービス
 
-Exchange UM には fax 機能が含まれています。これにより、ユーザーは Exchange メールボックスで着信 fax を受信できます。 詳細については、Microsoft Exchange Server のドキュメントの「ユニファイド[http://go.microsoft.com/fwlink/p/?linkId=135652](http://go.microsoft.com/fwlink/p/?linkid=135652)メッセージング」を参照してください。
+Exchange UM には fax 機能が含まれています。これにより、ユーザーは Exchange メールボックスで着信 fax を受信できます。 詳細については、Microsoft Exchange Server のドキュメントの「ユニファイド[https://go.microsoft.com/fwlink/p/?linkId=135652](https://go.microsoft.com/fwlink/p/?linkid=135652)メッセージング」を参照してください。
 
 <div>
 

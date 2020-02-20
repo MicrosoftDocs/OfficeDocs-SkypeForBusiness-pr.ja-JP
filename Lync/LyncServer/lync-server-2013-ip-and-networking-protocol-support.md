@@ -12,18 +12,18 @@ ms:contentKeyID: 48185128
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8a9792ea8365dcd8941b831c43ab0406f9e33b90
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ea7312cff97b6c339d960c14902e912f6e2e7bae
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046140"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154729"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="ip-and-networking-protocol-support-in-lync-server-2013"></a>Lync Server 2013 での IP およびネットワークプロトコルのサポート
 
@@ -50,7 +50,7 @@ Lync Server 2013 では、次の IP およびネットワークプロトコル�
     
     </div>
 
-  - **SIP トランスポートプロトコル。**   一般的に、SIP は少なくとも3つのトランスポートの種類 (ユーザーデータグラムプロトコル (UDP)、伝送制御プロトコル (TCP)、およびトランスポート層セキュリティ (TLS) を使用できます。 既定の SIP 転送構成では、TLS は TCP 上で動作します。 TLS は、Lync Server 2013 ネットワーク内で使用されます。 ネットワークのエッジでは、Lync Server 2013 は TCP 経由で相互運用できます。 Lync Server 2013 は、エンタープライズ通信のセキュリティ、信頼性、およびスケーラビリティに関する最低限の標準を満たしていないため、SIP トランスポートの UDP をサポートしていません。 詳細については、「」を参照してください[http://go.microsoft.com/fwlink/p/?linkId=185369](http://go.microsoft.com/fwlink/p/?linkid=185369)。「NextHop」のブログ記事「udp または udp では使用できません。
+  - **SIP トランスポートプロトコル。**   一般的に、SIP は少なくとも3つのトランスポートの種類 (ユーザーデータグラムプロトコル (UDP)、伝送制御プロトコル (TCP)、およびトランスポート層セキュリティ (TLS) を使用できます。 既定の SIP 転送構成では、TLS は TCP 上で動作します。 TLS は、Lync Server 2013 ネットワーク内で使用されます。 ネットワークのエッジでは、Lync Server 2013 は TCP 経由で相互運用できます。 Lync Server 2013 は、エンタープライズ通信のセキュリティ、信頼性、およびスケーラビリティに関する最低限の標準を満たしていないため、SIP トランスポートの UDP をサポートしていません。 詳細については、「」を参照してください[https://go.microsoft.com/fwlink/p/?linkId=185369](https://go.microsoft.com/fwlink/p/?linkid=185369)。「NextHop」のブログ記事「udp または udp では使用できません。
     
     <div>
     

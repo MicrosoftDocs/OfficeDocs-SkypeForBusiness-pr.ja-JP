@@ -12,18 +12,18 @@ ms:contentKeyID: 56737621
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 945532f4f0514263ed0d72e00ac5224aa6d7120b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b0c352e9e890611d95a7d562a88ae8f6cebc7243
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043369"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153959"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="deploying-the-lync-room-system-administrative-web-portal-in-lync-server-2013"></a>Lync Server 2013 での Lync Room System 管理 Web ポータルの展開
 
@@ -47,7 +47,7 @@ LRS 管理 Web ポータルがサーバーに展開されると、管理者は�
 
 
 > [!IMPORTANT]  
-> LRS 管理 Web ポータルを Microsoft Lync Server 2013 の展開にインストールする場合は、 <A href="http://go.microsoft.com/fwlink/p/?linkid=544806">Lync server 2013 の Microsoft Lync Room System 管理 Web ポータル</A>を使用する必要があります。<BR>LRS 管理 Web ポータルの新しいバージョンが Skype for Business Server 2015 で利用可能ですが、Skype for business Server 2015 を展開していない限り、このバージョンはインストールしないでください。 Skype for <A href="http://go.microsoft.com/fwlink/?linkid=544807">Business Server 2015 用の Microsoft Lync Room System 管理 Web ポータルを</A>ダウンロードします。
+> LRS 管理 Web ポータルを Microsoft Lync Server 2013 の展開にインストールする場合は、 <A href="https://go.microsoft.com/fwlink/p/?linkid=544806">Lync server 2013 の Microsoft Lync Room System 管理 Web ポータル</A>を使用する必要があります。<BR>LRS 管理 Web ポータルの新しいバージョンが Skype for Business Server 2015 で利用可能ですが、Skype for business Server 2015 を展開していない限り、このバージョンはインストールしないでください。 Skype for <A href="https://go.microsoft.com/fwlink/?linkid=544807">Business Server 2015 用の Microsoft Lync Room System 管理 Web ポータルを</A>ダウンロードします。
 
 
 
