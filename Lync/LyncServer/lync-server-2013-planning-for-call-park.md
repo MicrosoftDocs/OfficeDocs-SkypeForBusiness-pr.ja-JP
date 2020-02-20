@@ -12,20 +12,20 @@ ms:contentKeyID: 48185727
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0f42d4b61302b17d8d6247d7a9a1dcc5dbe6b218
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 9407fa492c5b0e8445510b63e823258c771c00f1
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037039"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42152957"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-call-park-in-lync-server-2013"></a><span data-ttu-id="968d0-102">Lync Server 2013 でのコールパークの計画</span><span class="sxs-lookup"><span data-stu-id="968d0-102">Planning for Call Park in Lync Server 2013</span></span>
+# <a name="planning-for-call-park-in-lync-server-2013"></a><span data-ttu-id="16465-102">Lync Server 2013 でのコールパークの計画</span><span class="sxs-lookup"><span data-stu-id="16465-102">Planning for Call Park in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "42037039"
 
 <span> </span>
 
-<span data-ttu-id="968d0-103">_**トピックの最終更新日:** 2012-09-07_</span><span class="sxs-lookup"><span data-stu-id="968d0-103">_**Topic Last Modified:** 2012-09-07_</span></span>
+<span data-ttu-id="16465-103">_**トピックの最終更新日:** 2012-09-07_</span><span class="sxs-lookup"><span data-stu-id="16465-103">_**Topic Last Modified:** 2012-09-07_</span></span>
 
-<span data-ttu-id="968d0-104">Lync Server コールパークアプリケーションを使用すると、エンタープライズ Voip ユーザーは通話を保留にしてから、後で電話で取得することができます。</span><span class="sxs-lookup"><span data-stu-id="968d0-104">The Lync Server Call Park application makes it possible for Enterprise Voice users to put a call on hold and then retrieve it later from any phone.</span></span> <span data-ttu-id="968d0-105">通話を保留したユーザーは、コール パークが提供するオービット番号をダイヤルして保留した通話を取得するか、インスタント メッセージングやポケットベルなどの外部の機能を使用して、他のユーザーに番号を知らせて取得させることができます。</span><span class="sxs-lookup"><span data-stu-id="968d0-105">The user who parked the call can either dial the orbit number provided by Call Park to retrieve the parked call or use an external mechanism, such as instant messaging or a paging system, to ask someone else to retrieve the call.</span></span> <span data-ttu-id="968d0-106">このセクションには、コールパークに固有の計画に関する情報が含まれています。</span><span class="sxs-lookup"><span data-stu-id="968d0-106">This section includes planning information that is specific to Call Park.</span></span>
+<span data-ttu-id="16465-104">Lync Server コールパークアプリケーションを使用すると、エンタープライズ Voip ユーザーは通話を保留にしてから、後で電話で取得することができます。</span><span class="sxs-lookup"><span data-stu-id="16465-104">The Lync Server Call Park application makes it possible for Enterprise Voice users to put a call on hold and then retrieve it later from any phone.</span></span> <span data-ttu-id="16465-105">通話を保留したユーザーは、コール パークが提供するオービット番号をダイヤルして保留した通話を取得するか、インスタント メッセージングやポケットベルなどの外部の機能を使用して、他のユーザーに番号を知らせて取得させることができます。</span><span class="sxs-lookup"><span data-stu-id="16465-105">The user who parked the call can either dial the orbit number provided by Call Park to retrieve the parked call or use an external mechanism, such as instant messaging or a paging system, to ask someone else to retrieve the call.</span></span> <span data-ttu-id="16465-106">このセクションには、コールパークに固有の計画に関する情報が含まれています。</span><span class="sxs-lookup"><span data-stu-id="16465-106">This section includes planning information that is specific to Call Park.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="968d0-107">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="968d0-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="16465-107">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="16465-107">In This Section</span></span>
 
-  - [<span data-ttu-id="968d0-108">Lync Server 2013 のコールパークの概要</span><span class="sxs-lookup"><span data-stu-id="968d0-108">Overview of Call Park in Lync Server 2013</span></span>](lync-server-2013-overview-of-call-park.md)
+  - [<span data-ttu-id="16465-108">Lync Server 2013 のコールパークの概要</span><span class="sxs-lookup"><span data-stu-id="16465-108">Overview of Call Park in Lync Server 2013</span></span>](lync-server-2013-overview-of-call-park.md)
 
-  - [<span data-ttu-id="968d0-109">Lync Server 2013 のコールパークで使用されるコンポーネント</span><span class="sxs-lookup"><span data-stu-id="968d0-109">Components used by Call Park in Lync Server 2013</span></span>](lync-server-2013-components-used-by-call-park.md)
+  - [<span data-ttu-id="16465-109">Lync Server 2013 のコールパークで使用されるコンポーネント</span><span class="sxs-lookup"><span data-stu-id="16465-109">Components used by Call Park in Lync Server 2013</span></span>](lync-server-2013-components-used-by-call-park.md)
 
-  - [<span data-ttu-id="968d0-110">Lync Server 2013 のコールパークの技術要件</span><span class="sxs-lookup"><span data-stu-id="968d0-110">Technical requirements for Call Park in Lync Server 2013</span></span>](lync-server-2013-technical-requirements-for-call-park.md)
+  - [<span data-ttu-id="16465-110">Lync Server 2013 のコールパークの技術要件</span><span class="sxs-lookup"><span data-stu-id="16465-110">Technical requirements for Call Park in Lync Server 2013</span></span>](lync-server-2013-technical-requirements-for-call-park.md)
 
-  - [<span data-ttu-id="968d0-111">Lync Server 2013 のコールパークに対してサポートされているクライアント</span><span class="sxs-lookup"><span data-stu-id="968d0-111">Clients supported for Call Park in Lync Server 2013</span></span>](lync-server-2013-clients-supported-for-call-park.md)
+  - [<span data-ttu-id="16465-111">Lync Server 2013 のコールパークに対してサポートされているクライアント</span><span class="sxs-lookup"><span data-stu-id="16465-111">Clients supported for Call Park in Lync Server 2013</span></span>](lync-server-2013-clients-supported-for-call-park.md)
 
-  - [<span data-ttu-id="968d0-112">Lync Server 2013 でのコールパークの処理能力計画</span><span class="sxs-lookup"><span data-stu-id="968d0-112">Capacity planning for Call Park in Lync Server 2013</span></span>](lync-server-2013-capacity-planning-for-call-park.md)
+  - [<span data-ttu-id="16465-112">Lync Server 2013 でのコールパークの処理能力計画</span><span class="sxs-lookup"><span data-stu-id="16465-112">Capacity planning for Call Park in Lync Server 2013</span></span>](lync-server-2013-capacity-planning-for-call-park.md)
 
-  - [<span data-ttu-id="968d0-113">Lync Server 2013 でのコールパークの展開プロセス</span><span class="sxs-lookup"><span data-stu-id="968d0-113">Deployment process for Call Park in Lync Server 2013</span></span>](lync-server-2013-deployment-process-for-call-park.md)
+  - [<span data-ttu-id="16465-113">Lync Server 2013 でのコールパークの展開プロセス</span><span class="sxs-lookup"><span data-stu-id="16465-113">Deployment process for Call Park in Lync Server 2013</span></span>](lync-server-2013-deployment-process-for-call-park.md)
 
 </div>
 

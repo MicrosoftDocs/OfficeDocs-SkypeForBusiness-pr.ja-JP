@@ -12,20 +12,20 @@ ms:contentKeyID: 48184512
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5b294d2d27c9c092854e2556d863a76a77569932
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 3190e6b3727d1d226a217dc059a1f0b69f890a16
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42041186"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149066"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="windows-powershell-cmdlets-for-address-book-services-in-lync-server-2013"></a><span data-ttu-id="9ca36-102">Lync Server 2013 のアドレス帳サービス用の Windows PowerShell コマンドレット</span><span class="sxs-lookup"><span data-stu-id="9ca36-102">Windows PowerShell cmdlets for Address Book Services in Lync Server 2013</span></span>
+# <a name="windows-powershell-cmdlets-for-address-book-services-in-lync-server-2013"></a><span data-ttu-id="9c537-102">Lync Server 2013 のアドレス帳サービス用の Windows PowerShell コマンドレット</span><span class="sxs-lookup"><span data-stu-id="9c537-102">Windows PowerShell cmdlets for Address Book Services in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,58 +35,58 @@ ms.locfileid: "42041186"
 
 <span> </span>
 
-<span data-ttu-id="9ca36-103">_**トピックの最終更新日:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="9ca36-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="9c537-103">_**トピックの最終更新日:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="9c537-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="9ca36-104">Lync Server には、アドレス帳サービスを管理および構成するための Windows PowerShell コマンドラインインターフェイスコマンドレットが多数用意されています。</span><span class="sxs-lookup"><span data-stu-id="9ca36-104">Lync Server provides a number of Windows PowerShell command-line interface cmdlets to manage and configure the Address Book service.</span></span> <span data-ttu-id="9ca36-105">これらのコマンドレットの一部は、以前のバージョンの Office Communications Server で使用されていた ABServer .exe コマンドの置換です。</span><span class="sxs-lookup"><span data-stu-id="9ca36-105">Some of these cmdlets are replacements for the ABServer.exe commands used in previous versions of Office Communications Server.</span></span> <span data-ttu-id="9ca36-106">以下のトピックには、アドレス帳サービスとその構成に関する情報や、クライアントでアドレス帳サービスのファイルや設定を取得する際にアドレス帳サービスが使用する Web サービスの情報について、設定、作成、および取得を行うために使用するコマンドレットが記載されています。</span><span class="sxs-lookup"><span data-stu-id="9ca36-106">In the following topics are the cmdlets that are used to set, create, and retrieve information about the Address Book service, its configuration and information about the Web services that the Address Book service uses when clients retrieve Address Book service files and settings.</span></span>
+<span data-ttu-id="9c537-104">Lync Server には、アドレス帳サービスを管理および構成するための Windows PowerShell コマンドラインインターフェイスコマンドレットが多数用意されています。</span><span class="sxs-lookup"><span data-stu-id="9c537-104">Lync Server provides a number of Windows PowerShell command-line interface cmdlets to manage and configure the Address Book service.</span></span> <span data-ttu-id="9c537-105">これらのコマンドレットの一部は、以前のバージョンの Office Communications Server で使用されていた ABServer .exe コマンドの置換です。</span><span class="sxs-lookup"><span data-stu-id="9c537-105">Some of these cmdlets are replacements for the ABServer.exe commands used in previous versions of Office Communications Server.</span></span> <span data-ttu-id="9c537-106">以下のトピックには、アドレス帳サービスとその構成に関する情報や、クライアントでアドレス帳サービスのファイルや設定を取得する際にアドレス帳サービスが使用する Web サービスの情報について、設定、作成、および取得を行うために使用するコマンドレットが記載されています。</span><span class="sxs-lookup"><span data-stu-id="9c537-106">In the following topics are the cmdlets that are used to set, create, and retrieve information about the Address Book service, its configuration and information about the Web services that the Address Book service uses when clients retrieve Address Book service files and settings.</span></span>
 
-<span data-ttu-id="9ca36-107">これらのすべてのコマンドレットは、管理ツールがインストールされているサーバーまたはワークステーションの Lync server ツールにある Lync Server 管理シェルを介して発行されます。</span><span class="sxs-lookup"><span data-stu-id="9ca36-107">All of these cmdlets are issued through the Lync Server Management Shell found in the Lync Server tools on a server or workstation where the administration tools have been installed.</span></span>
+<span data-ttu-id="9c537-107">これらのすべてのコマンドレットは、管理ツールがインストールされているサーバーまたはワークステーションの Lync server ツールにある Lync Server 管理シェルを介して発行されます。</span><span class="sxs-lookup"><span data-stu-id="9c537-107">All of these cmdlets are issued through the Lync Server Management Shell found in the Lync Server tools on a server or workstation where the administration tools have been installed.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="9ca36-108">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="9ca36-108">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="9c537-108">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="9c537-108">In This Section</span></span>
 
-  - [<span data-ttu-id="9ca36-109">Lync Server 2013 でのアドレス帳管理用の新しい-CsAddressBookConfiguration</span><span class="sxs-lookup"><span data-stu-id="9ca36-109">New-CsAddressBookConfiguration for Address Book management in Lync Server 2013</span></span>](lync-server-2013-New-CsAddressBookConfiguration-for-address-book-management.md)
+  - [<span data-ttu-id="9c537-109">Lync Server 2013 でのアドレス帳管理用の新しい-CsAddressBookConfiguration</span><span class="sxs-lookup"><span data-stu-id="9c537-109">New-CsAddressBookConfiguration for Address Book management in Lync Server 2013</span></span>](lync-server-2013-New-CsAddressBookConfiguration-for-address-book-management.md)
 
-  - [<span data-ttu-id="9ca36-110">Lync Server 2013 でのアドレス帳管理用の設定-CsAddressBookConfiguration</span><span class="sxs-lookup"><span data-stu-id="9ca36-110">Set-CsAddressBookConfiguration for Address Book management in Lync Server 2013</span></span>](lync-server-2013-set-csaddressbookconfiguration-for-address-book-management.md)
+  - [<span data-ttu-id="9c537-110">Lync Server 2013 でのアドレス帳管理用の設定-CsAddressBookConfiguration</span><span class="sxs-lookup"><span data-stu-id="9c537-110">Set-CsAddressBookConfiguration for Address Book management in Lync Server 2013</span></span>](lync-server-2013-set-csaddressbookconfiguration-for-address-book-management.md)
 
-  - [<span data-ttu-id="9ca36-111">Lync Server 2013 でのアドレス帳管理用の-CsAddressBookConfiguration の取得</span><span class="sxs-lookup"><span data-stu-id="9ca36-111">Get-CsAddressBookConfiguration for Address Book management in Lync Server 2013</span></span>](lync-server-2013-get-csaddressbookconfiguration-for-address-book-management.md)
+  - [<span data-ttu-id="9c537-111">Lync Server 2013 でのアドレス帳管理用の-CsAddressBookConfiguration の取得</span><span class="sxs-lookup"><span data-stu-id="9c537-111">Get-CsAddressBookConfiguration for Address Book management in Lync Server 2013</span></span>](lync-server-2013-get-csaddressbookconfiguration-for-address-book-management.md)
 
-  - [<span data-ttu-id="9ca36-112">Lync Server 2013 でのアドレス帳管理用の-CsAddressBookConfiguration の削除</span><span class="sxs-lookup"><span data-stu-id="9ca36-112">Remove-CsAddressBookConfiguration for Address Book management in Lync Server 2013</span></span>](lync-server-2013-remove-csaddressbookconfiguration-for-address-book-management.md)
+  - [<span data-ttu-id="9c537-112">Lync Server 2013 でのアドレス帳管理用の-CsAddressBookConfiguration の削除</span><span class="sxs-lookup"><span data-stu-id="9c537-112">Remove-CsAddressBookConfiguration for Address Book management in Lync Server 2013</span></span>](lync-server-2013-remove-csaddressbookconfiguration-for-address-book-management.md)
 
-  - [<span data-ttu-id="9ca36-113">Lync Server 2013 でのアドレス帳管理用のテスト-CsAddressBookService</span><span class="sxs-lookup"><span data-stu-id="9ca36-113">Test-CsAddressBookService for Address Book management in Lync Server 2013</span></span>](lync-server-2013-test-csaddressbookservice-for-address-book-management.md)
+  - [<span data-ttu-id="9c537-113">Lync Server 2013 でのアドレス帳管理用のテスト-CsAddressBookService</span><span class="sxs-lookup"><span data-stu-id="9c537-113">Test-CsAddressBookService for Address Book management in Lync Server 2013</span></span>](lync-server-2013-test-csaddressbookservice-for-address-book-management.md)
 
-  - [<span data-ttu-id="9ca36-114">Lync Server 2013 でのアドレス帳管理用のテスト-CsAddressBookWebQuery</span><span class="sxs-lookup"><span data-stu-id="9ca36-114">Test-CsAddressBookWebQuery for Address Book management in Lync Server 2013</span></span>](lync-server-2013-test-csaddressbookwebquery-for-address-book-management.md)
+  - [<span data-ttu-id="9c537-114">Lync Server 2013 でのアドレス帳管理用のテスト-CsAddressBookWebQuery</span><span class="sxs-lookup"><span data-stu-id="9c537-114">Test-CsAddressBookWebQuery for Address Book management in Lync Server 2013</span></span>](lync-server-2013-test-csaddressbookwebquery-for-address-book-management.md)
 
-  - [<span data-ttu-id="9ca36-115">Update-csaddressbook Lync Server 2013 でのアドレス帳管理のための更新プログラム</span><span class="sxs-lookup"><span data-stu-id="9ca36-115">Update-CsAddressBook for Address Book management in Lync Server 2013</span></span>](lync-server-2013-update-csaddressbook-for-address-book-management.md)
+  - [<span data-ttu-id="9c537-115">Update-csaddressbook Lync Server 2013 でのアドレス帳管理のための更新プログラム</span><span class="sxs-lookup"><span data-stu-id="9c537-115">Update-CsAddressBook for Address Book management in Lync Server 2013</span></span>](lync-server-2013-update-csaddressbook-for-address-book-management.md)
 
-  - [<span data-ttu-id="9ca36-116">Lync Server 2013 でのアドレス帳管理用の新しい-CsClientPolicy</span><span class="sxs-lookup"><span data-stu-id="9ca36-116">New-CsClientPolicy for Address Book management in Lync Server 2013</span></span>](lync-server-2013-new-csclientpolicy-for-address-book-management.md)
+  - [<span data-ttu-id="9c537-116">Lync Server 2013 でのアドレス帳管理用の新しい-CsClientPolicy</span><span class="sxs-lookup"><span data-stu-id="9c537-116">New-CsClientPolicy for Address Book management in Lync Server 2013</span></span>](lync-server-2013-new-csclientpolicy-for-address-book-management.md)
 
-  - [<span data-ttu-id="9ca36-117">Lync Server 2013 でのアドレス帳管理用の設定-CsClientPolicy</span><span class="sxs-lookup"><span data-stu-id="9ca36-117">Set-CsClientPolicy for Address Book management in Lync Server 2013</span></span>](lync-server-2013-set-csclientpolicy-for-address-book-management.md)
+  - [<span data-ttu-id="9c537-117">Lync Server 2013 でのアドレス帳管理用の設定-CsClientPolicy</span><span class="sxs-lookup"><span data-stu-id="9c537-117">Set-CsClientPolicy for Address Book management in Lync Server 2013</span></span>](lync-server-2013-set-csclientpolicy-for-address-book-management.md)
 
-  - [<span data-ttu-id="9ca36-118">Lync Server 2013 でのアドレス帳管理のための CsService</span><span class="sxs-lookup"><span data-stu-id="9ca36-118">Get-CsService for Address Book management in Lync Server 2013</span></span>](lync-server-2013-get-csservice-for-address-book-management.md)
+  - [<span data-ttu-id="9c537-118">Lync Server 2013 でのアドレス帳管理のための CsService</span><span class="sxs-lookup"><span data-stu-id="9c537-118">Get-CsService for Address Book management in Lync Server 2013</span></span>](lync-server-2013-get-csservice-for-address-book-management.md)
 
-  - [<span data-ttu-id="9ca36-119">Set-cswebserviceconfiguration Lync Server 2013 でのアドレス帳管理のための新しい手順</span><span class="sxs-lookup"><span data-stu-id="9ca36-119">New-CsWebServiceConfiguration for Address Book management in Lync Server 2013</span></span>](lync-server-2013-New-CsWebServiceConfiguration-for-address-book-management.md)
+  - [<span data-ttu-id="9c537-119">Set-cswebserviceconfiguration Lync Server 2013 でのアドレス帳管理のための新しい手順</span><span class="sxs-lookup"><span data-stu-id="9c537-119">New-CsWebServiceConfiguration for Address Book management in Lync Server 2013</span></span>](lync-server-2013-New-CsWebServiceConfiguration-for-address-book-management.md)
 
-  - [<span data-ttu-id="9ca36-120">Set-cswebserviceconfiguration Lync Server 2013 でのアドレス帳管理のための取得</span><span class="sxs-lookup"><span data-stu-id="9ca36-120">Get-CsWebServiceConfiguration for Address Book management in Lync Server 2013</span></span>](lync-server-2013-get-cswebserviceconfiguration-for-address-book-management.md)
+  - [<span data-ttu-id="9c537-120">Set-cswebserviceconfiguration Lync Server 2013 でのアドレス帳管理のための取得</span><span class="sxs-lookup"><span data-stu-id="9c537-120">Get-CsWebServiceConfiguration for Address Book management in Lync Server 2013</span></span>](lync-server-2013-get-cswebserviceconfiguration-for-address-book-management.md)
 
-  - [<span data-ttu-id="9ca36-121">Set-cswebserviceconfiguration Lync Server 2013 でのアドレス帳管理用の設定</span><span class="sxs-lookup"><span data-stu-id="9ca36-121">Set-CsWebServiceConfiguration for Address Book management in Lync Server 2013</span></span>](lync-server-2013-set-cswebserviceconfiguration-for-address-book-management.md)
+  - [<span data-ttu-id="9c537-121">Set-cswebserviceconfiguration Lync Server 2013 でのアドレス帳管理用の設定</span><span class="sxs-lookup"><span data-stu-id="9c537-121">Set-CsWebServiceConfiguration for Address Book management in Lync Server 2013</span></span>](lync-server-2013-set-cswebserviceconfiguration-for-address-book-management.md)
 
-  - [<span data-ttu-id="9ca36-122">Set-cswebserviceconfiguration Lync Server 2013 でのアドレス帳管理のための削除</span><span class="sxs-lookup"><span data-stu-id="9ca36-122">Remove-CsWebServiceConfiguration for Address Book management in Lync Server 2013</span></span>](lync-server-2013-remove-cswebserviceconfiguration-for-address-book-management.md)
+  - [<span data-ttu-id="9c537-122">Set-cswebserviceconfiguration Lync Server 2013 でのアドレス帳管理のための削除</span><span class="sxs-lookup"><span data-stu-id="9c537-122">Remove-CsWebServiceConfiguration for Address Book management in Lync Server 2013</span></span>](lync-server-2013-remove-cswebserviceconfiguration-for-address-book-management.md)
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a><span data-ttu-id="9ca36-123">関連するセクション</span><span class="sxs-lookup"><span data-stu-id="9ca36-123">Related Sections</span></span>
+## <a name="related-sections"></a><span data-ttu-id="9c537-123">関連するセクション</span><span class="sxs-lookup"><span data-stu-id="9c537-123">Related Sections</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="9ca36-124">関連項目</span><span class="sxs-lookup"><span data-stu-id="9ca36-124">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9c537-124">関連項目</span><span class="sxs-lookup"><span data-stu-id="9c537-124">See Also</span></span>
 
 
-[http://go.microsoft.com/fwlink/p/?linkId=205826](http://go.microsoft.com/fwlink/p/?linkid=205826)  
+[https://go.microsoft.com/fwlink/p/?linkId=205826](https://go.microsoft.com/fwlink/p/?linkid=205826)  
   
 
 </div>

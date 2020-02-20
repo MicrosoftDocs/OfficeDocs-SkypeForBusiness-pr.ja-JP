@@ -12,20 +12,20 @@ ms:contentKeyID: 49733552
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 869ee1cf5e37225e662cd8a2f9f4656dce169697
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 457c6657b424c5042d166c2c917c4a3d47f6328d
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045569"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149987"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-trusted-applications-in-lync-server-2013"></a><span data-ttu-id="93159-102">Lync Server 2013 で信頼されたアプリケーションを管理する</span><span class="sxs-lookup"><span data-stu-id="93159-102">Managing trusted applications in Lync Server 2013</span></span>
+# <a name="managing-trusted-applications-in-lync-server-2013"></a><span data-ttu-id="5dfe6-102">Lync Server 2013 で信頼されたアプリケーションを管理する</span><span class="sxs-lookup"><span data-stu-id="5dfe6-102">Managing trusted applications in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42045569"
 
 <span> </span>
 
-<span data-ttu-id="93159-103">_**トピックの最終更新日:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="93159-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="5dfe6-103">_**トピックの最終更新日:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="5dfe6-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="93159-104">このセクションの手順を使用して、信頼されたアプリケーションの一覧を表示するか、Lync Server 2013 の信頼済みアプリケーションに関する情報を表示します。</span><span class="sxs-lookup"><span data-stu-id="93159-104">Use the procedures in this section to view either a list of trusted applications or view information about a trusted application in Lync Server 2013.</span></span> <span data-ttu-id="93159-105">これらの手順は、Lync Server 2013 コントロールパネルまたは Lync Server 管理シェルで行うことができます。</span><span class="sxs-lookup"><span data-stu-id="93159-105">You can do these procedures in Lync Server 2013 Control Panel or Lync Server Management Shell.</span></span>
+<span data-ttu-id="5dfe6-104">このセクションの手順を使用して、信頼されたアプリケーションの一覧を表示するか、Lync Server 2013 の信頼済みアプリケーションに関する情報を表示します。</span><span class="sxs-lookup"><span data-stu-id="5dfe6-104">Use the procedures in this section to view either a list of trusted applications or view information about a trusted application in Lync Server 2013.</span></span> <span data-ttu-id="5dfe6-105">これらの手順は、Lync Server 2013 コントロールパネルまたは Lync Server 管理シェルで行うことができます。</span><span class="sxs-lookup"><span data-stu-id="5dfe6-105">You can do these procedures in Lync Server 2013 Control Panel or Lync Server Management Shell.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="93159-106">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="93159-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="5dfe6-106">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="5dfe6-106">In This Section</span></span>
 
-  - [<span data-ttu-id="93159-107">Lync Server 2013 で信頼されたアプリケーションの一覧を表示する</span><span class="sxs-lookup"><span data-stu-id="93159-107">View a list of trusted applications in Lync Server 2013</span></span>](lync-server-2013-view-a-list-of-trusted-applications.md)
+  - [<span data-ttu-id="5dfe6-107">Lync Server 2013 で信頼されたアプリケーションの一覧を表示する</span><span class="sxs-lookup"><span data-stu-id="5dfe6-107">View a list of trusted applications in Lync Server 2013</span></span>](lync-server-2013-view-a-list-of-trusted-applications.md)
 
-  - [<span data-ttu-id="93159-108">Lync Server 2013 での信頼されたアプリケーション情報の表示</span><span class="sxs-lookup"><span data-stu-id="93159-108">View trusted application information in Lync Server 2013</span></span>](lync-server-2013-view-trusted-application-information.md)
+  - [<span data-ttu-id="5dfe6-108">Lync Server 2013 での信頼されたアプリケーション情報の表示</span><span class="sxs-lookup"><span data-stu-id="5dfe6-108">View trusted application information in Lync Server 2013</span></span>](lync-server-2013-view-trusted-application-information.md)
 
 </div>
 

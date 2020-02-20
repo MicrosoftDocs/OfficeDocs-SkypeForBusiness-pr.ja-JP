@@ -12,20 +12,20 @@ ms:contentKeyID: 54973686
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 50238b10bf5667b51d4b3998ee995283ebdb4fc3
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b891f20b07f1d60be3d392ef6576e03e89ef1158
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045459"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42152997"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="two-factor-authentication-in-lync-server-2013"></a><span data-ttu-id="b1bf1-102">Lync Server 2013 での2要素認証</span><span class="sxs-lookup"><span data-stu-id="b1bf1-102">Two-factor authentication in Lync Server 2013</span></span>
+# <a name="two-factor-authentication-in-lync-server-2013"></a><span data-ttu-id="5e788-102">Lync Server 2013 での2要素認証</span><span class="sxs-lookup"><span data-stu-id="5e788-102">Two-factor authentication in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "42045459"
 
 <span> </span>
 
-<span data-ttu-id="b1bf1-103">_**トピックの最終更新日:** 2013-07-11_</span><span class="sxs-lookup"><span data-stu-id="b1bf1-103">_**Topic Last Modified:** 2013-07-11_</span></span>
+<span data-ttu-id="5e788-103">_**トピックの最終更新日:** 2013-07-11_</span><span class="sxs-lookup"><span data-stu-id="5e788-103">_**Topic Last Modified:** 2013-07-11_</span></span>
 
-<span data-ttu-id="b1bf1-104">2要素認証では、ユーザー名とパスワードの組み合わせとトークンまたは証明書の2つの認証条件を満たすようにユーザーに要求することで、セキュリティが向上します。</span><span class="sxs-lookup"><span data-stu-id="b1bf1-104">Two-factor authentication provides improved security by requiring users to meet two authentication criteria: a user name/password combination and a token or certificate.</span></span> <span data-ttu-id="b1bf1-105">これは、"ユーザーが知っているかどうか" と呼ばれることもあります。</span><span class="sxs-lookup"><span data-stu-id="b1bf1-105">This is also known as “something you have, something you know.”</span></span> <span data-ttu-id="b1bf1-106">証明書を使用した2要素認証の一般的な例として、スマートカードの使用が挙げられます。</span><span class="sxs-lookup"><span data-stu-id="b1bf1-106">A typical example of two-factor authentication with a certificate is the use of smart cards.</span></span> <span data-ttu-id="b1bf1-107">スマートカードには、ユーザーアカウントに関連付けられた証明書が含まれており、サーバーに格納されているユーザーと証明書情報に対して検証できます。</span><span class="sxs-lookup"><span data-stu-id="b1bf1-107">A smart card contains a certificate associated with the user account, and can be validated against user and certificate information stored on a server.</span></span> <span data-ttu-id="b1bf1-108">ユーザー情報 (ユーザー名とパスワード) を指定された証明書と比較することによって、サーバーは資格情報を検証し、ユーザーを認証します。</span><span class="sxs-lookup"><span data-stu-id="b1bf1-108">By comparing the user information (user name and password) to the certificate provided, the server validates the credentials and authenticates the user.</span></span>
+<span data-ttu-id="5e788-104">2要素認証では、ユーザー名とパスワードの組み合わせとトークンまたは証明書の2つの認証条件を満たすようにユーザーに要求することで、セキュリティが向上します。</span><span class="sxs-lookup"><span data-stu-id="5e788-104">Two-factor authentication provides improved security by requiring users to meet two authentication criteria: a user name/password combination and a token or certificate.</span></span> <span data-ttu-id="5e788-105">これは、"ユーザーが知っているかどうか" と呼ばれることもあります。</span><span class="sxs-lookup"><span data-stu-id="5e788-105">This is also known as “something you have, something you know.”</span></span> <span data-ttu-id="5e788-106">証明書を使用した2要素認証の一般的な例として、スマートカードの使用が挙げられます。</span><span class="sxs-lookup"><span data-stu-id="5e788-106">A typical example of two-factor authentication with a certificate is the use of smart cards.</span></span> <span data-ttu-id="5e788-107">スマートカードには、ユーザーアカウントに関連付けられた証明書が含まれており、サーバーに格納されているユーザーと証明書情報に対して検証できます。</span><span class="sxs-lookup"><span data-stu-id="5e788-107">A smart card contains a certificate associated with the user account, and can be validated against user and certificate information stored on a server.</span></span> <span data-ttu-id="5e788-108">ユーザー情報 (ユーザー名とパスワード) を指定された証明書と比較することによって、サーバーは資格情報を検証し、ユーザーを認証します。</span><span class="sxs-lookup"><span data-stu-id="5e788-108">By comparing the user information (user name and password) to the certificate provided, the server validates the credentials and authenticates the user.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="b1bf1-109">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="b1bf1-109">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="5e788-109">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="5e788-109">In This Section</span></span>
 
-[<span data-ttu-id="b1bf1-110">Lync Server 2013 での2要素認証の計画</span><span class="sxs-lookup"><span data-stu-id="b1bf1-110">Planning for two-factor authentication in Lync Server 2013</span></span>](lync-server-2013-planning-for-two-factor-authentication.md)
+[<span data-ttu-id="5e788-110">Lync Server 2013 での2要素認証の計画</span><span class="sxs-lookup"><span data-stu-id="5e788-110">Planning for two-factor authentication in Lync Server 2013</span></span>](lync-server-2013-planning-for-two-factor-authentication.md)
 
-[<span data-ttu-id="b1bf1-111">Lync Server 2013 での2要素認証の構成</span><span class="sxs-lookup"><span data-stu-id="b1bf1-111">Configuring two-factor authentication in Lync Server 2013</span></span>](lync-server-2013-configuring-two-factor-authentication.md)
+[<span data-ttu-id="5e788-111">Lync Server 2013 での2要素認証の構成</span><span class="sxs-lookup"><span data-stu-id="5e788-111">Configuring two-factor authentication in Lync Server 2013</span></span>](lync-server-2013-configuring-two-factor-authentication.md)
 
-[<span data-ttu-id="b1bf1-112">Lync クライアントおよび Lync Server 2013 で2要素認証を使用する</span><span class="sxs-lookup"><span data-stu-id="b1bf1-112">Using two-factor authentication with Lync client and Lync Server 2013</span></span>](lync-server-2013-using-two-factor-authentication-with-lync-client.md)
+[<span data-ttu-id="5e788-112">Lync クライアントおよび Lync Server 2013 で2要素認証を使用する</span><span class="sxs-lookup"><span data-stu-id="5e788-112">Using two-factor authentication with Lync client and Lync Server 2013</span></span>](lync-server-2013-using-two-factor-authentication-with-lync-client.md)
 
 </div>
 

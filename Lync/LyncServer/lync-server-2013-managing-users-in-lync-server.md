@@ -12,20 +12,20 @@ ms:contentKeyID: 49344809
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cb42a8504964ebbce18cc7ebad23059781f570d4
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 105a078f9b0693ec983ee76488e1c6c2ee5cba60
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045519"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149967"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-users-in-lync-server-2013"></a><span data-ttu-id="e40f8-102">Lync Server 2013 でのユーザーの管理</span><span class="sxs-lookup"><span data-stu-id="e40f8-102">Managing users in Lync Server 2013</span></span>
+# <a name="managing-users-in-lync-server-2013"></a><span data-ttu-id="60efe-102">Lync Server 2013 でのユーザーの管理</span><span class="sxs-lookup"><span data-stu-id="60efe-102">Managing users in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,24 +35,24 @@ ms.locfileid: "42045519"
 
 <span> </span>
 
-<span data-ttu-id="e40f8-103">_**トピックの最終更新日:** 2012-10-17_</span><span class="sxs-lookup"><span data-stu-id="e40f8-103">_**Topic Last Modified:** 2012-10-17_</span></span>
+<span data-ttu-id="60efe-103">_**トピックの最終更新日:** 2012-10-17_</span><span class="sxs-lookup"><span data-stu-id="60efe-103">_**Topic Last Modified:** 2012-10-17_</span></span>
 
-<span data-ttu-id="e40f8-104">Lync server 2013 コントロールパネルおよび Lync Server 2013 管理シェルを使用して、Lync Server 2013 でユーザーアカウントを管理することができます。</span><span class="sxs-lookup"><span data-stu-id="e40f8-104">You can use the Lync Server 2013 Control Panel and Lync Server 2013 Management Shell to manage user accounts in Lync Server 2013.</span></span> <span data-ttu-id="e40f8-105">このセクションでは、ユーザー アカウントのアカウント情報を表示する方法と設定を構成する方法を、順を追って説明します。</span><span class="sxs-lookup"><span data-stu-id="e40f8-105">The procedures in this section guide you through how to view account information and configure setting for user accounts.</span></span>
+<span data-ttu-id="60efe-104">Lync server 2013 コントロールパネルおよび Lync Server 2013 管理シェルを使用して、Lync Server 2013 でユーザーアカウントを管理することができます。</span><span class="sxs-lookup"><span data-stu-id="60efe-104">You can use the Lync Server 2013 Control Panel and Lync Server 2013 Management Shell to manage user accounts in Lync Server 2013.</span></span> <span data-ttu-id="60efe-105">このセクションでは、ユーザー アカウントのアカウント情報を表示する方法と設定を構成する方法を、順を追って説明します。</span><span class="sxs-lookup"><span data-stu-id="60efe-105">The procedures in this section guide you through how to view account information and configure setting for user accounts.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="e40f8-106">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="e40f8-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="60efe-106">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="60efe-106">In This Section</span></span>
 
-  - [<span data-ttu-id="e40f8-107">Lync Server 2013 に対して有効になっているユーザーアカウント</span><span class="sxs-lookup"><span data-stu-id="e40f8-107">User accounts enabled for Lync Server 2013</span></span>](lync-server-2013-user-accounts-enabled-for-lync-server.md)
+  - [<span data-ttu-id="60efe-107">Lync Server 2013 に対して有効になっているユーザーアカウント</span><span class="sxs-lookup"><span data-stu-id="60efe-107">User accounts enabled for Lync Server 2013</span></span>](lync-server-2013-user-accounts-enabled-for-lync-server.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="e40f8-108">関連項目</span><span class="sxs-lookup"><span data-stu-id="e40f8-108">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="60efe-108">関連項目</span><span class="sxs-lookup"><span data-stu-id="60efe-108">See Also</span></span>
 
 
-[<span data-ttu-id="e40f8-109">Lync Server 2013 の操作</span><span class="sxs-lookup"><span data-stu-id="e40f8-109">Operations in Lync Server 2013</span></span>](lync-server-2013-operations.md)  
+[<span data-ttu-id="60efe-109">Lync Server 2013 の操作</span><span class="sxs-lookup"><span data-stu-id="60efe-109">Operations in Lync Server 2013</span></span>](lync-server-2013-operations.md)  
   
 
 </div>

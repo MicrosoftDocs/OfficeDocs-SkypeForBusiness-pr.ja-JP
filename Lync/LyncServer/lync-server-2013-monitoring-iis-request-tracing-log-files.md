@@ -12,20 +12,20 @@ ms:contentKeyID: 48185215
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1eb64fe83eb6f80c6470ba4173bcc968d44fb54a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b1377eabd4ffc199fe7a9014d28f153aba10afa4
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048090"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149326"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-iis-request-tracing-log-files-in-lync-server-2013"></a><span data-ttu-id="8e4a2-102">Lync Server 2013 での IIS 要求トレースログファイルの監視</span><span class="sxs-lookup"><span data-stu-id="8e4a2-102">Monitoring IIS request tracing log files in Lync Server 2013</span></span>
+# <a name="monitoring-iis-request-tracing-log-files-in-lync-server-2013"></a><span data-ttu-id="519f3-102">Lync Server 2013 での IIS 要求トレースログファイルの監視</span><span class="sxs-lookup"><span data-stu-id="519f3-102">Monitoring IIS request tracing log files in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "42048090"
 
 <span> </span>
 
-<span data-ttu-id="8e4a2-103">_**トピックの最終更新日:** 2013-02-14_</span><span class="sxs-lookup"><span data-stu-id="8e4a2-103">_**Topic Last Modified:** 2013-02-14_</span></span>
+<span data-ttu-id="519f3-103">_**トピックの最終更新日:** 2013-02-14_</span><span class="sxs-lookup"><span data-stu-id="519f3-103">_**Topic Last Modified:** 2013-02-14_</span></span>
 
     This topic applies to deployments supporting Lync 2010 Lync Mobile clients only, and is intended for the Mobility Service (Mcx).
 
-<span data-ttu-id="8e4a2-104">Lync Server Mobility Service (Mcx) のインターネットインフォメーションサービス (IIS) 要求トレースを有効にすると、生成されるログファイルが1日あたり最大 3 gb のディスク領域を消費する可能性があります。</span><span class="sxs-lookup"><span data-stu-id="8e4a2-104">When you enable Internet Information Services (IIS) request tracing for the Lync Server Mobility Service (Mcx), the log files that are generated can consume up to three gigabytes of disk space per day.</span></span> <span data-ttu-id="8e4a2-105">IIS トレースログは既定で有効になっています。</span><span class="sxs-lookup"><span data-stu-id="8e4a2-105">IIS trace logging is enabled by default.</span></span> <span data-ttu-id="8e4a2-106">フロントエンドサーバーを監視して、ディスクの空き領域が不足しないようにする必要があります。</span><span class="sxs-lookup"><span data-stu-id="8e4a2-106">You should monitor the Front End Servers to make sure that they do not run out of disk space.</span></span>
+<span data-ttu-id="519f3-104">Lync Server Mobility Service (Mcx) のインターネットインフォメーションサービス (IIS) 要求トレースを有効にすると、生成されるログファイルが1日あたり最大 3 gb のディスク領域を消費する可能性があります。</span><span class="sxs-lookup"><span data-stu-id="519f3-104">When you enable Internet Information Services (IIS) request tracing for the Lync Server Mobility Service (Mcx), the log files that are generated can consume up to three gigabytes of disk space per day.</span></span> <span data-ttu-id="519f3-105">IIS トレースログは既定で有効になっています。</span><span class="sxs-lookup"><span data-stu-id="519f3-105">IIS trace logging is enabled by default.</span></span> <span data-ttu-id="519f3-106">フロントエンドサーバーを監視して、ディスクの空き領域が不足しないようにする必要があります。</span><span class="sxs-lookup"><span data-stu-id="519f3-106">You should monitor the Front End Servers to make sure that they do not run out of disk space.</span></span>
 
-<span data-ttu-id="8e4a2-107">既定では、IIS は% SystemDrive%\\inetpub\\logs\\ログログにログファイルを格納します。</span><span class="sxs-lookup"><span data-stu-id="8e4a2-107">By default, IIS stores the log files at %SystemDrive%\\inetpub\\logs\\LogFiles.</span></span>
+<span data-ttu-id="519f3-107">既定では、IIS は% SystemDrive%\\inetpub\\logs\\ログログにログファイルを格納します。</span><span class="sxs-lookup"><span data-stu-id="519f3-107">By default, IIS stores the log files at %SystemDrive%\\inetpub\\logs\\LogFiles.</span></span>
 
-<span data-ttu-id="8e4a2-108">サーバー全体で IIS 要求トレースをオフにするには、コマンドラインで、次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="8e4a2-108">To turn off IIS request tracing for an entire server, at the command line, type the following:</span></span>
+<span data-ttu-id="519f3-108">サーバー全体で IIS 要求トレースをオフにするには、コマンドラインで、次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="519f3-108">To turn off IIS request tracing for an entire server, at the command line, type the following:</span></span>
 
     %SystemDrive%\Windows\System32\inetsrv\appcmd set config /section:httpLogging /dontLog:True
 
-<span data-ttu-id="8e4a2-109">**HttpLogging**コマンドの詳細については[http://go.microsoft.com/fwlink/p/?linkId=234927](http://go.microsoft.com/fwlink/p/?linkid=234927)、「」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="8e4a2-109">For details about the **httpLogging** command, see [http://go.microsoft.com/fwlink/p/?linkId=234927](http://go.microsoft.com/fwlink/p/?linkid=234927).</span></span>
+<span data-ttu-id="519f3-109">**HttpLogging**コマンドの詳細については[https://go.microsoft.com/fwlink/p/?linkId=234927](https://go.microsoft.com/fwlink/p/?linkid=234927)、「」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="519f3-109">For details about the **httpLogging** command, see [https://go.microsoft.com/fwlink/p/?linkId=234927](https://go.microsoft.com/fwlink/p/?linkid=234927).</span></span>
 
 </div>
 

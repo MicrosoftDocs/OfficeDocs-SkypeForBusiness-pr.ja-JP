@@ -12,20 +12,20 @@ ms:contentKeyID: 48184434
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 18c0957d66d9b877a67819b8fd8d46d4e614cdad
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 72d059cc32015409377ab0b12bbe8c3ebc7da7d3
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42034057"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42152625"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---scaled-director-pool-hardware-load-balancer-in-lync-server-2013"></a><span data-ttu-id="23194-102">ポートの概要-Lync Server 2013 の拡張ディレクタープール、ハードウェアロードバランサー</span><span class="sxs-lookup"><span data-stu-id="23194-102">Port summary - Scaled Director pool, hardware load balancer in Lync Server 2013</span></span>
+# <a name="port-summary---scaled-director-pool-hardware-load-balancer-in-lync-server-2013"></a><span data-ttu-id="0d57b-102">ポートの概要-Lync Server 2013 の拡張ディレクタープール、ハードウェアロードバランサー</span><span class="sxs-lookup"><span data-stu-id="0d57b-102">Port summary - Scaled Director pool, hardware load balancer in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "42034057"
 
 <span> </span>
 
-<span data-ttu-id="23194-103">_**トピックの最終更新日:** 2012-10-21_</span><span class="sxs-lookup"><span data-stu-id="23194-103">_**Topic Last Modified:** 2012-10-21_</span></span>
+<span data-ttu-id="0d57b-103">_**トピックの最終更新日:** 2012-10-21_</span><span class="sxs-lookup"><span data-stu-id="0d57b-103">_**Topic Last Modified:** 2012-10-21_</span></span>
 
-<span data-ttu-id="23194-104">ディレクタープールのファイアウォールポート要件は、エッジサーバーの内部インターフェイスまたはリバースプロキシの内部インターフェイスからディレクターとの通信を確立するために使用されるポートで構成されています。</span><span class="sxs-lookup"><span data-stu-id="23194-104">Firewall port requirements for a Director pool consist of the ports that are used to establish communication with the Director from the internal interface of the Edge Server or internal-facing interface of the reverse proxy.</span></span> <span data-ttu-id="23194-105">Microsoft Lync Server 2013 既定では、ポート HTTP/TCP 8080 および HTTPS/TCP 4443 を、フロントエンドプールおよびフロントエンドサーバーに加えて、ディレクターへのリバースプロキシから開くことが想定されています。</span><span class="sxs-lookup"><span data-stu-id="23194-105">Microsoft Lync Server 2013 by default expects ports HTTP/TCP 8080 and HTTPS/TCP 4443 to be open from the reverse proxy to the Director, as well as the Front End pool and Front End Server.</span></span> <span data-ttu-id="23194-106">さらに、エッジサーバーの内部インターフェイスから、ディレクターおよびフロントエンドプールおよびフロントエンドサーバーへのセッション開始プロトコル (SIP) 通信が必要です。</span><span class="sxs-lookup"><span data-stu-id="23194-106">Additionally, there must be session initiation protocol (SIP) communication from the Edge Server internal interface to the Director and to the Front End pool and Front End Server.</span></span> <span data-ttu-id="23194-107">SIP プロトコルは、エッジサーバーの SIP/MTLS/TCP 5061 を使用して、フロントエンドプールおよびフロントエンドサーバーに対して使用します。</span><span class="sxs-lookup"><span data-stu-id="23194-107">The SIP protocol uses SIP/MTLS/TCP 5061 from the Edge Server to the Front End pool and Front End Server.</span></span> <span data-ttu-id="23194-108">ディレクター、フロントエンドプールおよびフロントエンドサーバーからエッジサーバーの内部インターフェイスへの SIP/MTLS/TCP 5061 通信を許可するルールも作成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="23194-108">A rule that allows SIP/MTLS/TCP 5061 communication from the Director, Front End pool and Front End Server to the Edge Server internal interface must be created as well.</span></span>
+<span data-ttu-id="0d57b-104">ディレクタープールのファイアウォールポート要件は、エッジサーバーの内部インターフェイスまたはリバースプロキシの内部インターフェイスからディレクターとの通信を確立するために使用されるポートで構成されています。</span><span class="sxs-lookup"><span data-stu-id="0d57b-104">Firewall port requirements for a Director pool consist of the ports that are used to establish communication with the Director from the internal interface of the Edge Server or internal-facing interface of the reverse proxy.</span></span> <span data-ttu-id="0d57b-105">Microsoft Lync Server 2013 既定では、ポート HTTP/TCP 8080 および HTTPS/TCP 4443 を、フロントエンドプールおよびフロントエンドサーバーに加えて、ディレクターへのリバースプロキシから開くことが想定されています。</span><span class="sxs-lookup"><span data-stu-id="0d57b-105">Microsoft Lync Server 2013 by default expects ports HTTP/TCP 8080 and HTTPS/TCP 4443 to be open from the reverse proxy to the Director, as well as the Front End pool and Front End Server.</span></span> <span data-ttu-id="0d57b-106">さらに、エッジサーバーの内部インターフェイスから、ディレクターおよびフロントエンドプールおよびフロントエンドサーバーへのセッション開始プロトコル (SIP) 通信が必要です。</span><span class="sxs-lookup"><span data-stu-id="0d57b-106">Additionally, there must be session initiation protocol (SIP) communication from the Edge Server internal interface to the Director and to the Front End pool and Front End Server.</span></span> <span data-ttu-id="0d57b-107">SIP プロトコルは、エッジサーバーの SIP/MTLS/TCP 5061 を使用して、フロントエンドプールおよびフロントエンドサーバーに対して使用します。</span><span class="sxs-lookup"><span data-stu-id="0d57b-107">The SIP protocol uses SIP/MTLS/TCP 5061 from the Edge Server to the Front End pool and Front End Server.</span></span> <span data-ttu-id="0d57b-108">ディレクター、フロントエンドプールおよびフロントエンドサーバーからエッジサーバーの内部インターフェイスへの SIP/MTLS/TCP 5061 通信を許可するルールも作成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="0d57b-108">A rule that allows SIP/MTLS/TCP 5061 communication from the Director, Front End pool and Front End Server to the Edge Server internal interface must be created as well.</span></span>
 
-### <a name="director-ports-and-protocols-for-firewall-definitions"></a><span data-ttu-id="23194-109">ファイアウォール定義用のディレクター ポートとプロトコル</span><span class="sxs-lookup"><span data-stu-id="23194-109">Director Ports and Protocols for Firewall Definitions</span></span>
+### <a name="director-ports-and-protocols-for-firewall-definitions"></a><span data-ttu-id="0d57b-109">ファイアウォール定義用のディレクター ポートとプロトコル</span><span class="sxs-lookup"><span data-stu-id="0d57b-109">Director Ports and Protocols for Firewall Definitions</span></span>
 
 <table>
 <colgroup>
@@ -50,66 +50,66 @@ ms.locfileid: "42034057"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="23194-110">役割/プロトコル/TCP または UDP/ポート</span><span class="sxs-lookup"><span data-stu-id="23194-110">Role/Protocol/TCP or UDP/Port</span></span></th>
-<th><span data-ttu-id="23194-111">送信元 IP アドレス</span><span class="sxs-lookup"><span data-stu-id="23194-111">Source IP address</span></span></th>
-<th><span data-ttu-id="23194-112">宛先 IP アドレス</span><span class="sxs-lookup"><span data-stu-id="23194-112">Destination IP address</span></span></th>
-<th><span data-ttu-id="23194-113">メモ</span><span class="sxs-lookup"><span data-stu-id="23194-113">Notes</span></span></th>
+<th><span data-ttu-id="0d57b-110">役割/プロトコル/TCP または UDP/ポート</span><span class="sxs-lookup"><span data-stu-id="0d57b-110">Role/Protocol/TCP or UDP/Port</span></span></th>
+<th><span data-ttu-id="0d57b-111">送信元 IP アドレス</span><span class="sxs-lookup"><span data-stu-id="0d57b-111">Source IP address</span></span></th>
+<th><span data-ttu-id="0d57b-112">宛先 IP アドレス</span><span class="sxs-lookup"><span data-stu-id="0d57b-112">Destination IP address</span></span></th>
+<th><span data-ttu-id="0d57b-113">メモ</span><span class="sxs-lookup"><span data-stu-id="0d57b-113">Notes</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="23194-114">HTTP/TCP 8080</span><span class="sxs-lookup"><span data-stu-id="23194-114">HTTP/TCP 8080</span></span></p></td>
-<td><p><span data-ttu-id="23194-115">リバース プロキシの内部インターフェイス</span><span class="sxs-lookup"><span data-stu-id="23194-115">Reverse proxy internal interface</span></span></p></td>
-<td><p><span data-ttu-id="23194-116">ディレクターハードウェアロードバランサーの VIP</span><span class="sxs-lookup"><span data-stu-id="23194-116">Director Hardware Load Balancer VIP</span></span></p></td>
-<td><p><span data-ttu-id="23194-117">リバースプロキシの外部側で最初に受信された通信は、ディレクター HLB VIP およびフロントエンドサーバー web サービスに送信されます。</span><span class="sxs-lookup"><span data-stu-id="23194-117">Initially received by the external side of the reverse proxy, the communication is sent on to the Director HLB VIP and Front End Servers web services</span></span></p></td>
+<td><p><span data-ttu-id="0d57b-114">HTTP/TCP 8080</span><span class="sxs-lookup"><span data-stu-id="0d57b-114">HTTP/TCP 8080</span></span></p></td>
+<td><p><span data-ttu-id="0d57b-115">リバース プロキシの内部インターフェイス</span><span class="sxs-lookup"><span data-stu-id="0d57b-115">Reverse proxy internal interface</span></span></p></td>
+<td><p><span data-ttu-id="0d57b-116">ディレクターハードウェアロードバランサーの VIP</span><span class="sxs-lookup"><span data-stu-id="0d57b-116">Director Hardware Load Balancer VIP</span></span></p></td>
+<td><p><span data-ttu-id="0d57b-117">リバースプロキシの外部側で最初に受信された通信は、ディレクター HLB VIP およびフロントエンドサーバー web サービスに送信されます。</span><span class="sxs-lookup"><span data-stu-id="0d57b-117">Initially received by the external side of the reverse proxy, the communication is sent on to the Director HLB VIP and Front End Servers web services</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="23194-118">HTTPS/TCP 4443</span><span class="sxs-lookup"><span data-stu-id="23194-118">HTTPS/TCP 4443</span></span></p></td>
-<td><p><span data-ttu-id="23194-119">リバース プロキシの内部インターフェイス</span><span class="sxs-lookup"><span data-stu-id="23194-119">Reverse proxy internal interface</span></span></p></td>
-<td><p><span data-ttu-id="23194-120">ディレクターハードウェアロードバランサーの VIP</span><span class="sxs-lookup"><span data-stu-id="23194-120">Director Hardware Load Balancer VIP</span></span></p></td>
-<td><p><span data-ttu-id="23194-121">リバースプロキシの外部側で最初に受信された通信は、ディレクター HLB VIP およびフロントエンドサーバー web サービスに送信されます。</span><span class="sxs-lookup"><span data-stu-id="23194-121">Initially received by the external side of the reverse proxy, the communication is sent on to the Director HLB VIP and Front End Servers web services</span></span></p></td>
+<td><p><span data-ttu-id="0d57b-118">HTTPS/TCP 4443</span><span class="sxs-lookup"><span data-stu-id="0d57b-118">HTTPS/TCP 4443</span></span></p></td>
+<td><p><span data-ttu-id="0d57b-119">リバース プロキシの内部インターフェイス</span><span class="sxs-lookup"><span data-stu-id="0d57b-119">Reverse proxy internal interface</span></span></p></td>
+<td><p><span data-ttu-id="0d57b-120">ディレクターハードウェアロードバランサーの VIP</span><span class="sxs-lookup"><span data-stu-id="0d57b-120">Director Hardware Load Balancer VIP</span></span></p></td>
+<td><p><span data-ttu-id="0d57b-121">リバースプロキシの外部側で最初に受信された通信は、ディレクター HLB VIP およびフロントエンドサーバー web サービスに送信されます。</span><span class="sxs-lookup"><span data-stu-id="0d57b-121">Initially received by the external side of the reverse proxy, the communication is sent on to the Director HLB VIP and Front End Servers web services</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="23194-122">HTTPS/TCP 444</span><span class="sxs-lookup"><span data-stu-id="23194-122">HTTPS/TCP 444</span></span></p></td>
-<td><p><span data-ttu-id="23194-123">ディレクター</span><span class="sxs-lookup"><span data-stu-id="23194-123">Director</span></span></p></td>
-<td><p><span data-ttu-id="23194-124">フロントエンドサーバーまたはフロントエンドプール</span><span class="sxs-lookup"><span data-stu-id="23194-124">Front End Server or Front End pool</span></span></p></td>
-<td><p><span data-ttu-id="23194-125">ディレクター HLB VIP とフロントエンドサーバー間のサーバー間通信</span><span class="sxs-lookup"><span data-stu-id="23194-125">Inter-server communication between the Director HLB VIP and the Front End Servers</span></span></p></td>
+<td><p><span data-ttu-id="0d57b-122">HTTPS/TCP 444</span><span class="sxs-lookup"><span data-stu-id="0d57b-122">HTTPS/TCP 444</span></span></p></td>
+<td><p><span data-ttu-id="0d57b-123">ディレクター</span><span class="sxs-lookup"><span data-stu-id="0d57b-123">Director</span></span></p></td>
+<td><p><span data-ttu-id="0d57b-124">フロントエンドサーバーまたはフロントエンドプール</span><span class="sxs-lookup"><span data-stu-id="0d57b-124">Front End Server or Front End pool</span></span></p></td>
+<td><p><span data-ttu-id="0d57b-125">ディレクター HLB VIP とフロントエンドサーバー間のサーバー間通信</span><span class="sxs-lookup"><span data-stu-id="0d57b-125">Inter-server communication between the Director HLB VIP and the Front End Servers</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="23194-126">HTTP/TCP 80</span><span class="sxs-lookup"><span data-stu-id="23194-126">HTTP/TCP 80</span></span></p></td>
-<td><p><span data-ttu-id="23194-127">内部クライアント</span><span class="sxs-lookup"><span data-stu-id="23194-127">Internal Clients</span></span></p></td>
-<td><p><span data-ttu-id="23194-128">ディレクターハードウェアロードバランサーの VIP</span><span class="sxs-lookup"><span data-stu-id="23194-128">Director Hardware Load Balancer VIP</span></span></p></td>
-<td><p><span data-ttu-id="23194-129">ディレクターは、内部および外部クライアントに web サービスを提供します。</span><span class="sxs-lookup"><span data-stu-id="23194-129">The Director provides web services to internal as well as external clients.</span></span></p></td>
+<td><p><span data-ttu-id="0d57b-126">HTTP/TCP 80</span><span class="sxs-lookup"><span data-stu-id="0d57b-126">HTTP/TCP 80</span></span></p></td>
+<td><p><span data-ttu-id="0d57b-127">内部クライアント</span><span class="sxs-lookup"><span data-stu-id="0d57b-127">Internal Clients</span></span></p></td>
+<td><p><span data-ttu-id="0d57b-128">ディレクターハードウェアロードバランサーの VIP</span><span class="sxs-lookup"><span data-stu-id="0d57b-128">Director Hardware Load Balancer VIP</span></span></p></td>
+<td><p><span data-ttu-id="0d57b-129">ディレクターは、内部および外部クライアントに web サービスを提供します。</span><span class="sxs-lookup"><span data-stu-id="0d57b-129">The Director provides web services to internal as well as external clients.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="23194-130">HTTPS/TCP 443</span><span class="sxs-lookup"><span data-stu-id="23194-130">HTTPS/TCP 443</span></span></p></td>
-<td><p><span data-ttu-id="23194-131">内部クライアント</span><span class="sxs-lookup"><span data-stu-id="23194-131">Internal Clients</span></span></p></td>
-<td><p><span data-ttu-id="23194-132">ディレクターハードウェアロードバランサーの VIP</span><span class="sxs-lookup"><span data-stu-id="23194-132">Director Hardware Load Balancer VIP</span></span></p></td>
-<td><p><span data-ttu-id="23194-133">ディレクターは、内部および外部クライアントに web サービスを提供します。</span><span class="sxs-lookup"><span data-stu-id="23194-133">The Director provides web services to internal as well as external clients.</span></span></p></td>
+<td><p><span data-ttu-id="0d57b-130">HTTPS/TCP 443</span><span class="sxs-lookup"><span data-stu-id="0d57b-130">HTTPS/TCP 443</span></span></p></td>
+<td><p><span data-ttu-id="0d57b-131">内部クライアント</span><span class="sxs-lookup"><span data-stu-id="0d57b-131">Internal Clients</span></span></p></td>
+<td><p><span data-ttu-id="0d57b-132">ディレクターハードウェアロードバランサーの VIP</span><span class="sxs-lookup"><span data-stu-id="0d57b-132">Director Hardware Load Balancer VIP</span></span></p></td>
+<td><p><span data-ttu-id="0d57b-133">ディレクターは、内部および外部クライアントに web サービスを提供します。</span><span class="sxs-lookup"><span data-stu-id="0d57b-133">The Director provides web services to internal as well as external clients.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="23194-134">SIP/MTLS/TCP 5061</span><span class="sxs-lookup"><span data-stu-id="23194-134">SIP/MTLS/TCP 5061</span></span></p></td>
-<td><p><span data-ttu-id="23194-135">エッジサーバーの内部インターフェイス</span><span class="sxs-lookup"><span data-stu-id="23194-135">Edge Server internal interface</span></span></p></td>
-<td><p><span data-ttu-id="23194-136">ディレクターハードウェアロードバランサーの VIP</span><span class="sxs-lookup"><span data-stu-id="23194-136">Director Hardware Load Balancer VIP</span></span></p></td>
-<td><p><span data-ttu-id="23194-137">エッジサーバーからディレクター、フロントエンドサーバーへの SIP 通信。</span><span class="sxs-lookup"><span data-stu-id="23194-137">SIP communication from the Edge Server to the Director, and Front End Servers.</span></span></p></td>
+<td><p><span data-ttu-id="0d57b-134">SIP/MTLS/TCP 5061</span><span class="sxs-lookup"><span data-stu-id="0d57b-134">SIP/MTLS/TCP 5061</span></span></p></td>
+<td><p><span data-ttu-id="0d57b-135">エッジサーバーの内部インターフェイス</span><span class="sxs-lookup"><span data-stu-id="0d57b-135">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="0d57b-136">ディレクターハードウェアロードバランサーの VIP</span><span class="sxs-lookup"><span data-stu-id="0d57b-136">Director Hardware Load Balancer VIP</span></span></p></td>
+<td><p><span data-ttu-id="0d57b-137">エッジサーバーからディレクター、フロントエンドサーバーへの SIP 通信。</span><span class="sxs-lookup"><span data-stu-id="0d57b-137">SIP communication from the Edge Server to the Director, and Front End Servers.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="23194-138">MTLS/TCP/50001</span><span class="sxs-lookup"><span data-stu-id="23194-138">MTLS/TCP/50001</span></span></p></td>
-<td><p><span data-ttu-id="23194-139">任意</span><span class="sxs-lookup"><span data-stu-id="23194-139">Any</span></span></p></td>
-<td><p><span data-ttu-id="23194-140">ディレクター</span><span class="sxs-lookup"><span data-stu-id="23194-140">Director</span></span></p></td>
-<td><p><span data-ttu-id="23194-141">集中ログサービスコントローラー (ClsController) またはエージェント (Clscontroller. .exe) コマンドとログ収集</span><span class="sxs-lookup"><span data-stu-id="23194-141">Centralized Logging Service controller (ClsController.exe) or agent (ClsAgent.exe)commands and log collection</span></span></p></td>
+<td><p><span data-ttu-id="0d57b-138">MTLS/TCP/50001</span><span class="sxs-lookup"><span data-stu-id="0d57b-138">MTLS/TCP/50001</span></span></p></td>
+<td><p><span data-ttu-id="0d57b-139">任意</span><span class="sxs-lookup"><span data-stu-id="0d57b-139">Any</span></span></p></td>
+<td><p><span data-ttu-id="0d57b-140">ディレクター</span><span class="sxs-lookup"><span data-stu-id="0d57b-140">Director</span></span></p></td>
+<td><p><span data-ttu-id="0d57b-141">集中ログサービスコントローラー (ClsController) またはエージェント (Clscontroller. .exe) コマンドとログ収集</span><span class="sxs-lookup"><span data-stu-id="0d57b-141">Centralized Logging Service controller (ClsController.exe) or agent (ClsAgent.exe)commands and log collection</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="23194-142">MTLS/TCP/50002</span><span class="sxs-lookup"><span data-stu-id="23194-142">MTLS/TCP/50002</span></span></p></td>
-<td><p><span data-ttu-id="23194-143">任意</span><span class="sxs-lookup"><span data-stu-id="23194-143">Any</span></span></p></td>
-<td><p><span data-ttu-id="23194-144">ディレクター</span><span class="sxs-lookup"><span data-stu-id="23194-144">Director</span></span></p></td>
-<td><p><span data-ttu-id="23194-145">集中ログサービスコントローラー (ClsController) またはエージェント (Clscontroller. .exe) コマンドとログ収集</span><span class="sxs-lookup"><span data-stu-id="23194-145">Centralized Logging Service controller (ClsController.exe) or agent (ClsAgent.exe)commands and log collection</span></span></p></td>
+<td><p><span data-ttu-id="0d57b-142">MTLS/TCP/50002</span><span class="sxs-lookup"><span data-stu-id="0d57b-142">MTLS/TCP/50002</span></span></p></td>
+<td><p><span data-ttu-id="0d57b-143">任意</span><span class="sxs-lookup"><span data-stu-id="0d57b-143">Any</span></span></p></td>
+<td><p><span data-ttu-id="0d57b-144">ディレクター</span><span class="sxs-lookup"><span data-stu-id="0d57b-144">Director</span></span></p></td>
+<td><p><span data-ttu-id="0d57b-145">集中ログサービスコントローラー (ClsController) またはエージェント (Clscontroller. .exe) コマンドとログ収集</span><span class="sxs-lookup"><span data-stu-id="0d57b-145">Centralized Logging Service controller (ClsController.exe) or agent (ClsAgent.exe)commands and log collection</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="23194-146">MTLS/TCP/50003</span><span class="sxs-lookup"><span data-stu-id="23194-146">MTLS/TCP/50003</span></span></p></td>
-<td><p><span data-ttu-id="23194-147">任意</span><span class="sxs-lookup"><span data-stu-id="23194-147">Any</span></span></p></td>
-<td><p><span data-ttu-id="23194-148">ディレクター</span><span class="sxs-lookup"><span data-stu-id="23194-148">Director</span></span></p></td>
-<td><p><span data-ttu-id="23194-149">集中ログサービスコントローラー (ClsController) またはエージェント (Clscontroller. .exe) コマンドとログ収集</span><span class="sxs-lookup"><span data-stu-id="23194-149">Centralized Logging Service controller (ClsController.exe) or agent (ClsAgent.exe)commands and log collection</span></span></p></td>
+<td><p><span data-ttu-id="0d57b-146">MTLS/TCP/50003</span><span class="sxs-lookup"><span data-stu-id="0d57b-146">MTLS/TCP/50003</span></span></p></td>
+<td><p><span data-ttu-id="0d57b-147">任意</span><span class="sxs-lookup"><span data-stu-id="0d57b-147">Any</span></span></p></td>
+<td><p><span data-ttu-id="0d57b-148">ディレクター</span><span class="sxs-lookup"><span data-stu-id="0d57b-148">Director</span></span></p></td>
+<td><p><span data-ttu-id="0d57b-149">集中ログサービスコントローラー (ClsController) またはエージェント (Clscontroller. .exe) コマンドとログ収集</span><span class="sxs-lookup"><span data-stu-id="0d57b-149">Centralized Logging Service controller (ClsController.exe) or agent (ClsAgent.exe)commands and log collection</span></span></p></td>
 </tr>
 </tbody>
 </table>

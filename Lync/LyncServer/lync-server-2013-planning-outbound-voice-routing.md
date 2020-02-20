@@ -12,20 +12,20 @@ ms:contentKeyID: 48183835
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1fbcb976ed4f3d1464b6b956ef60dc1d00bd6907
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4e912a3934ae7262c85cfb7b47c62abf6bc70b5f
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050579"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42152695"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-outbound-voice-routing-in-lync-server-2013"></a><span data-ttu-id="62f8a-102">Lync Server 2013 での発信音声ルーティングの計画</span><span class="sxs-lookup"><span data-stu-id="62f8a-102">Planning outbound voice routing in Lync Server 2013</span></span>
+# <a name="planning-outbound-voice-routing-in-lync-server-2013"></a><span data-ttu-id="375f2-102">Lync Server 2013 での発信音声ルーティングの計画</span><span class="sxs-lookup"><span data-stu-id="375f2-102">Planning outbound voice routing in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "42050579"
 
 <span> </span>
 
-<span data-ttu-id="62f8a-103">_**トピックの最終更新日:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="62f8a-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+<span data-ttu-id="375f2-103">_**トピックの最終更新日:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="375f2-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-<span data-ttu-id="62f8a-p101">発信通話ルーティングは、公衆交換電話網 (PSTN) ゲートウェイ、トランク、または構内交換機 (PBX) に対して発信される通話に適用されます。ユーザーが電話をかけると、サーバーは、電話番号を E.164 形式に正規化し、必要に応じて、一致する SIP URI があるかどうかを調べます。一致する SIP URI が見つからない場合は、指定されたダイヤル文字列に基づいて発信通話ルーティング ロジックが適用されます。ユーザーは、次の表で説明するサーバー設定を構成することで、そのロジックを定義します。</span><span class="sxs-lookup"><span data-stu-id="62f8a-p101">Outbound call routing applies to calls that are destined for a public switched telephone network (PSTN) gateway, trunk, or private branch exchange (PBX). When a user places a call, the server normalizes the phone number to E.164 format, if necessary, and attempts to match it to a SIP URI. If the server cannot make the match, it applies outbound call routing logic based on the supplied dial string. You define that logic by configuring the server settings that are described in the following table.</span></span>
+<span data-ttu-id="375f2-p101">発信通話ルーティングは、公衆交換電話網 (PSTN) ゲートウェイ、トランク、または構内交換機 (PBX) に対して発信される通話に適用されます。ユーザーが電話をかけると、サーバーは、電話番号を E.164 形式に正規化し、必要に応じて、一致する SIP URI があるかどうかを調べます。一致する SIP URI が見つからない場合は、指定されたダイヤル文字列に基づいて発信通話ルーティング ロジックが適用されます。ユーザーは、次の表で説明するサーバー設定を構成することで、そのロジックを定義します。</span><span class="sxs-lookup"><span data-stu-id="375f2-p101">Outbound call routing applies to calls that are destined for a public switched telephone network (PSTN) gateway, trunk, or private branch exchange (PBX). When a user places a call, the server normalizes the phone number to E.164 format, if necessary, and attempts to match it to a SIP URI. If the server cannot make the match, it applies outbound call routing logic based on the supplied dial string. You define that logic by configuring the server settings that are described in the following table.</span></span>
 
-### <a name="lync-server-outbound-call-routing-settings"></a><span data-ttu-id="62f8a-108">Lync Server 発信通話ルーティング設定</span><span class="sxs-lookup"><span data-stu-id="62f8a-108">Lync Server Outbound Call Routing Settings</span></span>
+### <a name="lync-server-outbound-call-routing-settings"></a><span data-ttu-id="375f2-108">Lync Server 発信通話ルーティング設定</span><span class="sxs-lookup"><span data-stu-id="375f2-108">Lync Server Outbound Call Routing Settings</span></span>
 
 <table>
 <colgroup>
@@ -48,30 +48,30 @@ ms.locfileid: "42050579"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="62f8a-109">オブジェクト</span><span class="sxs-lookup"><span data-stu-id="62f8a-109">Object</span></span></th>
-<th><span data-ttu-id="62f8a-110">説明</span><span class="sxs-lookup"><span data-stu-id="62f8a-110">Description</span></span></th>
+<th><span data-ttu-id="375f2-109">オブジェクト</span><span class="sxs-lookup"><span data-stu-id="375f2-109">Object</span></span></th>
+<th><span data-ttu-id="375f2-110">説明</span><span class="sxs-lookup"><span data-stu-id="375f2-110">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="62f8a-111">ダイヤル プラン</span><span class="sxs-lookup"><span data-stu-id="62f8a-111">Dial Plan</span></span></p></td>
-<td><p><span data-ttu-id="62f8a-112">ダイヤル プランとは、電話番号の承認と通話のルーティングを目的として、特定の場所、個々のユーザー、または連絡先オブジェクトの電話番号を 1 つの標準形式 (E.164) に変換する正規化ルールのセットに名前を付けたものです。</span><span class="sxs-lookup"><span data-stu-id="62f8a-112">A dial plan is a named set of normalization rules that translates phone numbers for a named location, individual user, or contact object into a single standard (E.164) format for purposes of phone authorization and call routing.</span></span></p></td>
+<td><p><span data-ttu-id="375f2-111">ダイヤル プラン</span><span class="sxs-lookup"><span data-stu-id="375f2-111">Dial Plan</span></span></p></td>
+<td><p><span data-ttu-id="375f2-112">ダイヤル プランとは、電話番号の承認と通話のルーティングを目的として、特定の場所、個々のユーザー、または連絡先オブジェクトの電話番号を 1 つの標準形式 (E.164) に変換する正規化ルールのセットに名前を付けたものです。</span><span class="sxs-lookup"><span data-stu-id="375f2-112">A dial plan is a named set of normalization rules that translates phone numbers for a named location, individual user, or contact object into a single standard (E.164) format for purposes of phone authorization and call routing.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="62f8a-113">正規化ルール</span><span class="sxs-lookup"><span data-stu-id="62f8a-113">Normalization rule</span></span></p></td>
-<td><p><span data-ttu-id="62f8a-p102">正規化ルールは、さまざまな形式で表現された電話番号を指定された各場所、ユーザー、または連絡先オブジェクトにルーティングする方法を定義します。ダイヤル元の場所および電話をかける人や連絡先オブジェクトによって、同じダイヤル文字列が異なる方法で解釈および変換される場合があります。特定の位置に関連付けられた正規化ルールをまとめたものが、ダイヤル プランです。</span><span class="sxs-lookup"><span data-stu-id="62f8a-p102">Normalization rules define how phone numbers expressed in various formats are to be routed for each specified location, user, or contact object. The same dial string may be interpreted and translated differently, depending on the location from which it is dialed and the person or contact object that makes the call. A set of normalization rules associated with a particular location constitutes a dial plan.</span></span></p></td>
+<td><p><span data-ttu-id="375f2-113">正規化ルール</span><span class="sxs-lookup"><span data-stu-id="375f2-113">Normalization rule</span></span></p></td>
+<td><p><span data-ttu-id="375f2-p102">正規化ルールは、さまざまな形式で表現された電話番号を指定された各場所、ユーザー、または連絡先オブジェクトにルーティングする方法を定義します。ダイヤル元の場所および電話をかける人や連絡先オブジェクトによって、同じダイヤル文字列が異なる方法で解釈および変換される場合があります。特定の位置に関連付けられた正規化ルールをまとめたものが、ダイヤル プランです。</span><span class="sxs-lookup"><span data-stu-id="375f2-p102">Normalization rules define how phone numbers expressed in various formats are to be routed for each specified location, user, or contact object. The same dial string may be interpreted and translated differently, depending on the location from which it is dialed and the person or contact object that makes the call. A set of normalization rules associated with a particular location constitutes a dial plan.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="62f8a-117">音声ポリシー</span><span class="sxs-lookup"><span data-stu-id="62f8a-117">Voice policy</span></span></p></td>
-<td><p><span data-ttu-id="62f8a-p103">音声ポリシーでは、1 つ以上の PSTN 使用法レコードを 1 人のユーザーまたはユーザーのグループに関連付けます。 音声ポリシーも、ユーザーが有効と無効を切り替えできる通話機能のリストを提供します。</span><span class="sxs-lookup"><span data-stu-id="62f8a-p103">A voice policy associates one or more PSTN usage records with one user or a group of users. A voice policy also provides a list of calling features that you can enable or disable.</span></span></p></td>
+<td><p><span data-ttu-id="375f2-117">音声ポリシー</span><span class="sxs-lookup"><span data-stu-id="375f2-117">Voice policy</span></span></p></td>
+<td><p><span data-ttu-id="375f2-p103">音声ポリシーでは、1 つ以上の PSTN 使用法レコードを 1 人のユーザーまたはユーザーのグループに関連付けます。 音声ポリシーも、ユーザーが有効と無効を切り替えできる通話機能のリストを提供します。</span><span class="sxs-lookup"><span data-stu-id="375f2-p103">A voice policy associates one or more PSTN usage records with one user or a group of users. A voice policy also provides a list of calling features that you can enable or disable.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="62f8a-120">PSTN 使用法レコード</span><span class="sxs-lookup"><span data-stu-id="62f8a-120">PSTN usage record</span></span></p></td>
-<td><p><span data-ttu-id="62f8a-121">PSTN 使用法レコードは、組織内のさまざまなユーザーまたはグループが利用できる通話のクラス (内部、市内、長距離など) を指定します。</span><span class="sxs-lookup"><span data-stu-id="62f8a-121">A PSTN usage record specifies a class of call (such as internal, local, or long distance) that can be made by various users, or groups of users, in an organization.</span></span></p></td>
+<td><p><span data-ttu-id="375f2-120">PSTN 使用法レコード</span><span class="sxs-lookup"><span data-stu-id="375f2-120">PSTN usage record</span></span></p></td>
+<td><p><span data-ttu-id="375f2-121">PSTN 使用法レコードは、組織内のさまざまなユーザーまたはグループが利用できる通話のクラス (内部、市内、長距離など) を指定します。</span><span class="sxs-lookup"><span data-stu-id="375f2-121">A PSTN usage record specifies a class of call (such as internal, local, or long distance) that can be made by various users, or groups of users, in an organization.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="62f8a-122">通話ルート</span><span class="sxs-lookup"><span data-stu-id="62f8a-122">Call Route</span></span></p></td>
-<td><p><span data-ttu-id="62f8a-p104">通話ルートでは、通話先の電話番号を特定のトランクおよび PSTN 使用法レコードに関連付けます。 PSTN ゲートウェイはトランクとみなされます。</span><span class="sxs-lookup"><span data-stu-id="62f8a-p104">A call route associates destination phone numbers with particular trunks and PSTN usage records. A PSTN gateway is considered a trunk.</span></span></p></td>
+<td><p><span data-ttu-id="375f2-122">通話ルート</span><span class="sxs-lookup"><span data-stu-id="375f2-122">Call Route</span></span></p></td>
+<td><p><span data-ttu-id="375f2-p104">通話ルートでは、通話先の電話番号を特定のトランクおよび PSTN 使用法レコードに関連付けます。 PSTN ゲートウェイはトランクとみなされます。</span><span class="sxs-lookup"><span data-stu-id="375f2-p104">A call route associates destination phone numbers with particular trunks and PSTN usage records. A PSTN gateway is considered a trunk.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -79,31 +79,31 @@ ms.locfileid: "42050579"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="62f8a-125">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="62f8a-125">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="375f2-125">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="375f2-125">In This Section</span></span>
 
-<span data-ttu-id="62f8a-126">ここでは、次の発信通話ルーティング サーバー設定の構成ガイドラインを提供します。</span><span class="sxs-lookup"><span data-stu-id="62f8a-126">This section provides guidelines for configuring the following outbound call routing server settings:</span></span>
-
-  - <span></span>  
-    [<span data-ttu-id="62f8a-127">Lync Server 2013 のダイヤルプランと正規化ルール</span><span class="sxs-lookup"><span data-stu-id="62f8a-127">Dial plans and normalization rules in Lync Server 2013</span></span>](lync-server-2013-dial-plans-and-normalization-rules.md)
+<span data-ttu-id="375f2-126">ここでは、次の発信通話ルーティング サーバー設定の構成ガイドラインを提供します。</span><span class="sxs-lookup"><span data-stu-id="375f2-126">This section provides guidelines for configuring the following outbound call routing server settings:</span></span>
 
   - <span></span>  
-    [<span data-ttu-id="62f8a-128">Lync Server 2013 の音声ポリシー</span><span class="sxs-lookup"><span data-stu-id="62f8a-128">Voice policies in Lync Server 2013</span></span>](lync-server-2013-voice-policies.md)
+    [<span data-ttu-id="375f2-127">Lync Server 2013 のダイヤルプランと正規化ルール</span><span class="sxs-lookup"><span data-stu-id="375f2-127">Dial plans and normalization rules in Lync Server 2013</span></span>](lync-server-2013-dial-plans-and-normalization-rules.md)
 
   - <span></span>  
-    [<span data-ttu-id="62f8a-129">Lync Server 2013 の PSTN 使用法レコード</span><span class="sxs-lookup"><span data-stu-id="62f8a-129">PSTN usage records in Lync Server 2013</span></span>](lync-server-2013-pstn-usage-records.md)
+    [<span data-ttu-id="375f2-128">Lync Server 2013 の音声ポリシー</span><span class="sxs-lookup"><span data-stu-id="375f2-128">Voice policies in Lync Server 2013</span></span>](lync-server-2013-voice-policies.md)
 
   - <span></span>  
-    [<span data-ttu-id="62f8a-130">Lync Server 2013 の音声ルート</span><span class="sxs-lookup"><span data-stu-id="62f8a-130">Voice routes in Lync Server 2013</span></span>](lync-server-2013-voice-routes.md)
+    [<span data-ttu-id="375f2-129">Lync Server 2013 の PSTN 使用法レコード</span><span class="sxs-lookup"><span data-stu-id="375f2-129">PSTN usage records in Lync Server 2013</span></span>](lync-server-2013-pstn-usage-records.md)
+
+  - <span></span>  
+    [<span data-ttu-id="375f2-130">Lync Server 2013 の音声ルート</span><span class="sxs-lookup"><span data-stu-id="375f2-130">Voice routes in Lync Server 2013</span></span>](lync-server-2013-voice-routes.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="62f8a-131">関連項目</span><span class="sxs-lookup"><span data-stu-id="62f8a-131">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="375f2-131">関連項目</span><span class="sxs-lookup"><span data-stu-id="375f2-131">See Also</span></span>
 
 
-[<span data-ttu-id="62f8a-132">Lync Server 2013 での SIP トランキング</span><span class="sxs-lookup"><span data-stu-id="62f8a-132">SIP trunking in Lync Server 2013</span></span>](lync-server-2013-sip-trunking.md)  
-[<span data-ttu-id="62f8a-133">Lync Server 2013 の直接 SIP 接続</span><span class="sxs-lookup"><span data-stu-id="62f8a-133">Direct SIP connections in Lync Server 2013</span></span>](lync-server-2013-direct-sip-connections.md)  
+[<span data-ttu-id="375f2-132">Lync Server 2013 での SIP トランキング</span><span class="sxs-lookup"><span data-stu-id="375f2-132">SIP trunking in Lync Server 2013</span></span>](lync-server-2013-sip-trunking.md)  
+[<span data-ttu-id="375f2-133">Lync Server 2013 の直接 SIP 接続</span><span class="sxs-lookup"><span data-stu-id="375f2-133">Direct SIP connections in Lync Server 2013</span></span>](lync-server-2013-direct-sip-connections.md)  
   
 
 </div>

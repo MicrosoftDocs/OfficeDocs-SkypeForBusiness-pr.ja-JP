@@ -12,20 +12,20 @@ ms:contentKeyID: 48185204
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 11b30c4edba62873eddf89ce1967e9d158fee1bd
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4bf3d487cfaadd1b73fcd6ad11713c5c50c6386b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048498"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149026"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="manage-add-ins"></a><span data-ttu-id="a2490-102">アドインの管理</span><span class="sxs-lookup"><span data-stu-id="a2490-102">Manage add-ins</span></span>
+# <a name="manage-add-ins"></a><span data-ttu-id="941f0-102">アドインの管理</span><span class="sxs-lookup"><span data-stu-id="941f0-102">Manage add-ins</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42048498"
 
 <span> </span>
 
-<span data-ttu-id="a2490-103">_**トピックの最終更新日:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="a2490-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+<span data-ttu-id="941f0-103">_**トピックの最終更新日:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="941f0-103">_**Topic Last Modified:** 2012-10-06_</span></span>
 
-<span data-ttu-id="a2490-104">新しい常設チャットサーバーアドインを作成するには</span><span class="sxs-lookup"><span data-stu-id="a2490-104">To create a new Persistent Chat Server Add-in</span></span>
+<span data-ttu-id="941f0-104">新しい常設チャットサーバーアドインを作成するには</span><span class="sxs-lookup"><span data-stu-id="941f0-104">To create a new Persistent Chat Server Add-in</span></span>
 
     New-CsPersistentChatAddin -Name Contoso -PersistentChatPoolFqdn client.contoso.com -Url http://contoso.com 
 
 <div>
 
-## <a name="create-get-set-or-remove-an-add-in"></a><span data-ttu-id="a2490-105">アドインの作成、取得、設定、削除</span><span class="sxs-lookup"><span data-stu-id="a2490-105">Create, Get, Set, or Remove an Add-in</span></span>
+## <a name="create-get-set-or-remove-an-add-in"></a><span data-ttu-id="941f0-105">アドインの作成、取得、設定、削除</span><span class="sxs-lookup"><span data-stu-id="941f0-105">Create, Get, Set, or Remove an Add-in</span></span>
 
-<span data-ttu-id="a2490-106">新しいアドインを作成するには</span><span class="sxs-lookup"><span data-stu-id="a2490-106">To create a new Add-in</span></span>
+<span data-ttu-id="941f0-106">新しいアドインを作成するには</span><span class="sxs-lookup"><span data-stu-id="941f0-106">To create a new Add-in</span></span>
 
     New-CsPersistentChatAddin -PersistentChatPoolFqdn <String> -Name <String> -Url<String>
 
@@ -53,33 +53,33 @@ ms.locfileid: "42048498"
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="a2490-107">PersistentChatPoolFqdn &lt;文字列&gt;は、複数の常設チャットサーバープールが存在する場合にのみ必要です。</span><span class="sxs-lookup"><span data-stu-id="a2490-107">PersistentChatPoolFqdn &lt;String&gt; is required only if there is more than one Persistent Chat Server pool.</span></span>
+> <span data-ttu-id="941f0-107">PersistentChatPoolFqdn &lt;文字列&gt;は、複数の常設チャットサーバープールが存在する場合にのみ必要です。</span><span class="sxs-lookup"><span data-stu-id="941f0-107">PersistentChatPoolFqdn &lt;String&gt; is required only if there is more than one Persistent Chat Server pool.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="a2490-108">アドインを取得するには</span><span class="sxs-lookup"><span data-stu-id="a2490-108">To get an Add-in</span></span>
+<span data-ttu-id="941f0-108">アドインを取得するには</span><span class="sxs-lookup"><span data-stu-id="941f0-108">To get an Add-in</span></span>
 
     Get-CsPersistentChatAddin -Identity <String>]
 
-<span data-ttu-id="a2490-109">または</span><span class="sxs-lookup"><span data-stu-id="a2490-109">or</span></span>
+<span data-ttu-id="941f0-109">または</span><span class="sxs-lookup"><span data-stu-id="941f0-109">or</span></span>
 
     Get-CsPersistentChatAddin -PersistentChatPoolFqdn <String>
 
-<span data-ttu-id="a2490-110">アドインを設定するには</span><span class="sxs-lookup"><span data-stu-id="a2490-110">To set an Add-in</span></span>
+<span data-ttu-id="941f0-110">アドインを設定するには</span><span class="sxs-lookup"><span data-stu-id="941f0-110">To set an Add-in</span></span>
 
     Set-CsPersistentChatAddIn -Instance <AddinObject> [-Force <Switch Parameter>] [-Confirm <Switch Parameter>]
 
-<span data-ttu-id="a2490-111">または</span><span class="sxs-lookup"><span data-stu-id="a2490-111">or</span></span>
+<span data-ttu-id="941f0-111">または</span><span class="sxs-lookup"><span data-stu-id="941f0-111">or</span></span>
 
     Set-CsPersistentChatAddIn -Identity <String> [-Name <String>] [-Url<String>] [-Force <Switch Parameter>] [-Confirm <Switch Parameter>]
 
-<span data-ttu-id="a2490-112">アドインを削除するには</span><span class="sxs-lookup"><span data-stu-id="a2490-112">To remove an Add-in</span></span>
+<span data-ttu-id="941f0-112">アドインを削除するには</span><span class="sxs-lookup"><span data-stu-id="941f0-112">To remove an Add-in</span></span>
 
     Remove-CsPersistentChatAddIn -Instance <AddinObject> [-Force <Switch Parameter>] [-Confirm <Switch Parameter>]
 
-<span data-ttu-id="a2490-113">または</span><span class="sxs-lookup"><span data-stu-id="a2490-113">or</span></span>
+<span data-ttu-id="941f0-113">または</span><span class="sxs-lookup"><span data-stu-id="941f0-113">or</span></span>
 
     Remove-CsPersistentChatAddIn -Identity <String> [-Force <Switch Parameter>] [-Confirm <Switch Parameter>]
 

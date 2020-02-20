@@ -12,20 +12,20 @@ ms:contentKeyID: 49733615
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 97bd53e884d4b66b8197ef2672d6ffdca39d4cea
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: cf8de79830dab0b85bd5346da24cf3c4222ed696
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036013"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42148816"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrating-multiple-sites-and-pools"></a><span data-ttu-id="3b683-102">複数のサイトとプールの移行</span><span class="sxs-lookup"><span data-stu-id="3b683-102">Migrating multiple sites and pools</span></span>
+# <a name="migrating-multiple-sites-and-pools"></a><span data-ttu-id="0f5f7-102">複数のサイトとプールの移行</span><span class="sxs-lookup"><span data-stu-id="0f5f7-102">Migrating multiple sites and pools</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "42036013"
 
 <span> </span>
 
-<span data-ttu-id="3b683-103">_**トピックの最終更新日:** 2012-08-26_</span><span class="sxs-lookup"><span data-stu-id="3b683-103">_**Topic Last Modified:** 2012-08-26_</span></span>
+<span data-ttu-id="0f5f7-103">_**トピックの最終更新日:** 2012-08-26_</span><span class="sxs-lookup"><span data-stu-id="0f5f7-103">_**Topic Last Modified:** 2012-08-26_</span></span>
 
-<span data-ttu-id="3b683-104">Lync Server 2013 では、複数サイトと複数プールの展開がサポートされています。</span><span class="sxs-lookup"><span data-stu-id="3b683-104">Lync Server 2013 supports multi-site and multi-pool deployments.</span></span> <span data-ttu-id="3b683-105">複数のプールを Office Communications Server 2007 R2 から Lync Server 2013 に移行する際には、以下の点を考慮する必要があります。</span><span class="sxs-lookup"><span data-stu-id="3b683-105">The process of migrating multiple pools from Office Communications Server 2007 R2 to Lync Server 2013 requires the following considerations:</span></span>
+<span data-ttu-id="0f5f7-104">Lync Server 2013 では、複数サイトと複数プールの展開がサポートされています。</span><span class="sxs-lookup"><span data-stu-id="0f5f7-104">Lync Server 2013 supports multi-site and multi-pool deployments.</span></span> <span data-ttu-id="0f5f7-105">複数のプールを Office Communications Server 2007 R2 から Lync Server 2013 に移行する際には、以下の点を考慮する必要があります。</span><span class="sxs-lookup"><span data-stu-id="0f5f7-105">The process of migrating multiple pools from Office Communications Server 2007 R2 to Lync Server 2013 requires the following considerations:</span></span>
 
-1.  <span data-ttu-id="3b683-106">Lync Server 2013 パイロットプールを展開した後は、Lync Server 2013 プールに移動するパイロットユーザーのサブセットと、ユーザーの機能を検証するための方法を定義する必要があります。</span><span class="sxs-lookup"><span data-stu-id="3b683-106">After deploying a Lync Server 2013 pilot pool, you need to define a subset of pilot users that will be moved to the Lync Server 2013 pool, and a methodology for validating the functionality of the users.</span></span>
+1.  <span data-ttu-id="0f5f7-106">Lync Server 2013 パイロットプールを展開した後は、Lync Server 2013 プールに移動するパイロットユーザーのサブセットと、ユーザーの機能を検証するための方法を定義する必要があります。</span><span class="sxs-lookup"><span data-stu-id="0f5f7-106">After deploying a Lync Server 2013 pilot pool, you need to define a subset of pilot users that will be moved to the Lync Server 2013 pool, and a methodology for validating the functionality of the users.</span></span>
 
-2.  <span data-ttu-id="3b683-107">パイロットプールにエッジサーバーを展開した後、外部ユーザーが Lync Server 2013 プールと通信できることを検証する必要があります。</span><span class="sxs-lookup"><span data-stu-id="3b683-107">After deploying an Edge Server in the pilot pool, you need to validate that external users can communicate with the Lync Server 2013 pool.</span></span>
+2.  <span data-ttu-id="0f5f7-107">パイロットプールにエッジサーバーを展開した後、外部ユーザーが Lync Server 2013 プールと通信できることを検証する必要があります。</span><span class="sxs-lookup"><span data-stu-id="0f5f7-107">After deploying an Edge Server in the pilot pool, you need to validate that external users can communicate with the Lync Server 2013 pool.</span></span>
 
-3.  <span data-ttu-id="3b683-108">Office Communications Server 2007 R2 エッジサーバーからのフェデレーションルートを、パイロット Lync Server 2013 エッジサーバーに移行した後、フェデレーションユーザーが Lync Server 2013 プールと通信できることを検証する必要があります。</span><span class="sxs-lookup"><span data-stu-id="3b683-108">After transitioning the federated routes from Office Communications Server 2007 R2 Edge Servers to the pilot Lync Server 2013 Edge Servers, you need to validate that federated users can communicate with the Lync Server 2013 pool.</span></span>
+3.  <span data-ttu-id="0f5f7-108">Office Communications Server 2007 R2 エッジサーバーからのフェデレーションルートを、パイロット Lync Server 2013 エッジサーバーに移行した後、フェデレーションユーザーが Lync Server 2013 プールと通信できることを検証する必要があります。</span><span class="sxs-lookup"><span data-stu-id="0f5f7-108">After transitioning the federated routes from Office Communications Server 2007 R2 Edge Servers to the pilot Lync Server 2013 Edge Servers, you need to validate that federated users can communicate with the Lync Server 2013 pool.</span></span>
 
-4.  <span data-ttu-id="3b683-109">ユーザーおよびユーザー以外のすべての連絡先オブジェクトを移動した後、Office Communications Server 2007 R2 プールが空であることを確認する必要があります。</span><span class="sxs-lookup"><span data-stu-id="3b683-109">After moving all the users and non-user contact objects, you need to validate that the Office Communications Server 2007 R2 pool is empty.</span></span>
+4.  <span data-ttu-id="0f5f7-109">ユーザーおよびユーザー以外のすべての連絡先オブジェクトを移動した後、Office Communications Server 2007 R2 プールが空であることを確認する必要があります。</span><span class="sxs-lookup"><span data-stu-id="0f5f7-109">After moving all the users and non-user contact objects, you need to validate that the Office Communications Server 2007 R2 pool is empty.</span></span>
 
-5.  <span data-ttu-id="3b683-110">Office Communications Server 2007 R2 プールが空であることを確認した後、プールを非アクティブ化することができます。</span><span class="sxs-lookup"><span data-stu-id="3b683-110">After verifying that the Office Communications Server 2007 R2 pool is empty, you can then deactivate the pool.</span></span>
+5.  <span data-ttu-id="0f5f7-110">Office Communications Server 2007 R2 プールが空であることを確認した後、プールを非アクティブ化することができます。</span><span class="sxs-lookup"><span data-stu-id="0f5f7-110">After verifying that the Office Communications Server 2007 R2 pool is empty, you can then deactivate the pool.</span></span>
     
-    <span data-ttu-id="3b683-111">従来の Office Communications Server 2007 R2 プールおよびサーバーを非アクティブ化する方法の詳細については、「[フェーズ 10: 従来のサイト](phase-10-decommission-legacy-site.md)を使用停止にする」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="3b683-111">For details about how to deactivate the legacy Office Communications Server 2007 R2 pool and servers, see [Phase 10: Decommission legacy site](phase-10-decommission-legacy-site.md).</span></span>
+    <span data-ttu-id="0f5f7-111">従来の Office Communications Server 2007 R2 プールおよびサーバーを非アクティブ化する方法の詳細については、「[フェーズ 10: 従来のサイト](phase-10-decommission-legacy-site.md)を使用停止にする」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="0f5f7-111">For details about how to deactivate the legacy Office Communications Server 2007 R2 pool and servers, see [Phase 10: Decommission legacy site](phase-10-decommission-legacy-site.md).</span></span>
 
 </div>
 

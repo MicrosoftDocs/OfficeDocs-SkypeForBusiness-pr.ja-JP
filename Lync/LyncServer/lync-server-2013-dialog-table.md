@@ -12,20 +12,20 @@ ms:contentKeyID: 48184068
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 578b27a61e6af7114da19eb0d6d21dea38dba551
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 65fb3fd81eb9128dea5479868617bb429b271719
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036737"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151659"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dialog-table-in-lync-server-2013"></a><span data-ttu-id="886d5-102">Lync Server 2013 のダイアログテーブル</span><span class="sxs-lookup"><span data-stu-id="886d5-102">Dialog table in Lync Server 2013</span></span>
+# <a name="dialog-table-in-lync-server-2013"></a><span data-ttu-id="e8d3a-102">Lync Server 2013 のダイアログテーブル</span><span class="sxs-lookup"><span data-stu-id="e8d3a-102">Dialog table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42036737"
 
 <span> </span>
 
-<span data-ttu-id="886d5-103">_**トピックの最終更新日:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="886d5-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="e8d3a-103">_**トピックの最終更新日:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="e8d3a-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="886d5-104">Dialog テーブルは、サポートテーブルです。各レコードは、1つのセッション開始プロトコル (SIP) ダイアログを表します。</span><span class="sxs-lookup"><span data-stu-id="886d5-104">The Dialog table is a supporting table; each record represents one Session Initiation Protocol (SIP) dialog.</span></span>
+<span data-ttu-id="e8d3a-104">Dialog テーブルは、サポートテーブルです。各レコードは、1つのセッション開始プロトコル (SIP) ダイアログを表します。</span><span class="sxs-lookup"><span data-stu-id="e8d3a-104">The Dialog table is a supporting table; each record represents one Session Initiation Protocol (SIP) dialog.</span></span>
 
 
 <table>
@@ -49,36 +49,36 @@ ms.locfileid: "42036737"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="886d5-105"><strong>列</strong></span><span class="sxs-lookup"><span data-stu-id="886d5-105"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="886d5-106"><strong>データ型</strong></span><span class="sxs-lookup"><span data-stu-id="886d5-106"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="886d5-107"><strong>キー/インデックス</strong></span><span class="sxs-lookup"><span data-stu-id="886d5-107"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="886d5-108"><strong>詳細</strong></span><span class="sxs-lookup"><span data-stu-id="886d5-108"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="e8d3a-105"><strong>列</strong></span><span class="sxs-lookup"><span data-stu-id="e8d3a-105"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="e8d3a-106"><strong>データ型</strong></span><span class="sxs-lookup"><span data-stu-id="e8d3a-106"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="e8d3a-107"><strong>キー/インデックス</strong></span><span class="sxs-lookup"><span data-stu-id="e8d3a-107"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="e8d3a-108"><strong>詳細</strong></span><span class="sxs-lookup"><span data-stu-id="e8d3a-108"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="886d5-109"><strong>ConferenceDateTime</strong></span><span class="sxs-lookup"><span data-stu-id="886d5-109"><strong>ConferenceDateTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="886d5-110">日付型</span><span class="sxs-lookup"><span data-stu-id="886d5-110">datetime</span></span></p></td>
-<td><p><span data-ttu-id="886d5-111">Primary</span><span class="sxs-lookup"><span data-stu-id="886d5-111">Primary</span></span></p></td>
-<td><p><span data-ttu-id="886d5-112">[最高水準 (QoE)] エージェントが、呼び出し元または呼び出し先から最初のレポートを受信する時間。</span><span class="sxs-lookup"><span data-stu-id="886d5-112">Time when the Quality of Excellence (QoE) agent receives the first report from either caller or callee.</span></span> <span data-ttu-id="886d5-113">セッションを一意に識別するために SessionSeq と組み合わせて使用されます。</span><span class="sxs-lookup"><span data-stu-id="886d5-113">Used in conjunction with SessionSeq to uniquely identify a session.</span></span></p></td>
+<td><p><span data-ttu-id="e8d3a-109"><strong>ConferenceDateTime</strong></span><span class="sxs-lookup"><span data-stu-id="e8d3a-109"><strong>ConferenceDateTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="e8d3a-110">日付型</span><span class="sxs-lookup"><span data-stu-id="e8d3a-110">datetime</span></span></p></td>
+<td><p><span data-ttu-id="e8d3a-111">Primary</span><span class="sxs-lookup"><span data-stu-id="e8d3a-111">Primary</span></span></p></td>
+<td><p><span data-ttu-id="e8d3a-112">[最高水準 (QoE)] エージェントが、呼び出し元または呼び出し先から最初のレポートを受信する時間。</span><span class="sxs-lookup"><span data-stu-id="e8d3a-112">Time when the Quality of Excellence (QoE) agent receives the first report from either caller or callee.</span></span> <span data-ttu-id="e8d3a-113">セッションを一意に識別するために SessionSeq と組み合わせて使用されます。</span><span class="sxs-lookup"><span data-stu-id="e8d3a-113">Used in conjunction with SessionSeq to uniquely identify a session.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="886d5-114"><strong>SessionSeq</strong></span><span class="sxs-lookup"><span data-stu-id="886d5-114"><strong>SessionSeq</strong></span></span></p></td>
-<td><p><span data-ttu-id="886d5-115">int</span><span class="sxs-lookup"><span data-stu-id="886d5-115">int</span></span></p></td>
-<td><p><span data-ttu-id="886d5-116">Primary</span><span class="sxs-lookup"><span data-stu-id="886d5-116">Primary</span></span></p></td>
-<td><p><span data-ttu-id="886d5-117">同じ ConferenceDateTime を持つセッションを区別するためのシーケンス番号。</span><span class="sxs-lookup"><span data-stu-id="886d5-117">Sequence number to differentiate sessions when they have the same ConferenceDateTime.</span></span></p></td>
+<td><p><span data-ttu-id="e8d3a-114"><strong>SessionSeq</strong></span><span class="sxs-lookup"><span data-stu-id="e8d3a-114"><strong>SessionSeq</strong></span></span></p></td>
+<td><p><span data-ttu-id="e8d3a-115">int</span><span class="sxs-lookup"><span data-stu-id="e8d3a-115">int</span></span></p></td>
+<td><p><span data-ttu-id="e8d3a-116">Primary</span><span class="sxs-lookup"><span data-stu-id="e8d3a-116">Primary</span></span></p></td>
+<td><p><span data-ttu-id="e8d3a-117">同じ ConferenceDateTime を持つセッションを区別するためのシーケンス番号。</span><span class="sxs-lookup"><span data-stu-id="e8d3a-117">Sequence number to differentiate sessions when they have the same ConferenceDateTime.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="886d5-118"><strong>DialogID</strong></span><span class="sxs-lookup"><span data-stu-id="886d5-118"><strong>DialogID</strong></span></span></p></td>
-<td><p><span data-ttu-id="886d5-119">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="886d5-119">varchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="e8d3a-118"><strong>DialogID</strong></span><span class="sxs-lookup"><span data-stu-id="e8d3a-118"><strong>DialogID</strong></span></span></p></td>
+<td><p><span data-ttu-id="e8d3a-119">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="e8d3a-119">varchar(256)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="886d5-120">グローバルに一意のダイアログ ID です。</span><span class="sxs-lookup"><span data-stu-id="886d5-120">Dialog ID which is globally unique.</span></span></p></td>
+<td><p><span data-ttu-id="e8d3a-120">グローバルに一意のダイアログ ID です。</span><span class="sxs-lookup"><span data-stu-id="e8d3a-120">Dialog ID which is globally unique.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="886d5-121"><strong>DialogIDChecksum</strong></span><span class="sxs-lookup"><span data-stu-id="886d5-121"><strong>DialogIDChecksum</strong></span></span></p></td>
-<td><p><span data-ttu-id="886d5-122">int</span><span class="sxs-lookup"><span data-stu-id="886d5-122">int</span></span></p></td>
-<td><p><span data-ttu-id="886d5-123">index</span><span class="sxs-lookup"><span data-stu-id="886d5-123">index</span></span></p></td>
-<td><p><span data-ttu-id="886d5-124">ダイアログ ID のチェックサム。</span><span class="sxs-lookup"><span data-stu-id="886d5-124">Checksum of the Dialog ID.</span></span></p></td>
+<td><p><span data-ttu-id="e8d3a-121"><strong>DialogIDChecksum</strong></span><span class="sxs-lookup"><span data-stu-id="e8d3a-121"><strong>DialogIDChecksum</strong></span></span></p></td>
+<td><p><span data-ttu-id="e8d3a-122">int</span><span class="sxs-lookup"><span data-stu-id="e8d3a-122">int</span></span></p></td>
+<td><p><span data-ttu-id="e8d3a-123">index</span><span class="sxs-lookup"><span data-stu-id="e8d3a-123">index</span></span></p></td>
+<td><p><span data-ttu-id="e8d3a-124">ダイアログ ID のチェックサム。</span><span class="sxs-lookup"><span data-stu-id="e8d3a-124">Checksum of the Dialog ID.</span></span></p></td>
 </tr>
 </tbody>
 </table>

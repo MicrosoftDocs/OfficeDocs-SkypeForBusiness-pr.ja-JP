@@ -12,20 +12,20 @@ ms:contentKeyID: 51541530
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed95696dc0acad9030615f8a031672f8abf3a136
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c6e679b909fbc6b539e173e98f033a771929893c
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046760"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151689"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-the-initial-topology-design-for-lync-server-2013"></a><span data-ttu-id="80740-102">Lync Server 2013 の初期トポロジ設計を作成する</span><span class="sxs-lookup"><span data-stu-id="80740-102">Create the initial topology design for Lync Server 2013</span></span>
+# <a name="create-the-initial-topology-design-for-lync-server-2013"></a><span data-ttu-id="f4cad-102">Lync Server 2013 の初期トポロジ設計を作成する</span><span class="sxs-lookup"><span data-stu-id="f4cad-102">Create the initial topology design for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42046760"
 
 <span> </span>
 
-<span data-ttu-id="80740-103">_**トピックの最終更新日:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="80740-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="f4cad-103">_**トピックの最終更新日:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="f4cad-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="80740-104">Lync Server 2013 の計画ツールのインストールが終了したら、計画ツールを開始して、提案されている Lync Server 2013 インフラストラクチャの設計を開始する準備ができました。</span><span class="sxs-lookup"><span data-stu-id="80740-104">After you have finished installing the Lync Server 2013, Planning Tool, you are ready to start the Planning Tool and begin designing the proposed Lync Server 2013 infrastructure.</span></span>
+<span data-ttu-id="f4cad-104">Lync Server 2013 の計画ツールのインストールが終了したら、計画ツールを開始して、提案されている Lync Server 2013 インフラストラクチャの設計を開始する準備ができました。</span><span class="sxs-lookup"><span data-stu-id="f4cad-104">After you have finished installing the Lync Server 2013, Planning Tool, you are ready to start the Planning Tool and begin designing the proposed Lync Server 2013 infrastructure.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="80740-105">計画ツールは、詳細なガイドを備えたウィザードベースのツールであり、サイトとトポロジの設計における意思決定プロセスについての情報を提供します。</span><span class="sxs-lookup"><span data-stu-id="80740-105">The Planning Tool is a wizard-driven tool with detailed guides to inform your decision-making process in designing your sites and topology.</span></span> <span data-ttu-id="80740-106">このトピックは完全なガイドではありませんが、設計セッションで計画ツールの使用を開始するのに役立ちます。</span><span class="sxs-lookup"><span data-stu-id="80740-106">This topic is intended not as an exhaustive guide, but simply to help get you started using the Planning Tool in your design sessions.</span></span>
+> <span data-ttu-id="f4cad-105">計画ツールは、詳細なガイドを備えたウィザードベースのツールであり、サイトとトポロジの設計における意思決定プロセスについての情報を提供します。</span><span class="sxs-lookup"><span data-stu-id="f4cad-105">The Planning Tool is a wizard-driven tool with detailed guides to inform your decision-making process in designing your sites and topology.</span></span> <span data-ttu-id="f4cad-106">このトピックは完全なガイドではありませんが、設計セッションで計画ツールの使用を開始するのに役立ちます。</span><span class="sxs-lookup"><span data-stu-id="f4cad-106">This topic is intended not as an exhaustive guide, but simply to help get you started using the Planning Tool in your design sessions.</span></span>
 
 
 
@@ -51,81 +51,81 @@ ms.locfileid: "42046760"
 
 <div>
 
-## <a name="to-get-started-using-the-planning-tool-and-create-the-initial-design"></a><span data-ttu-id="80740-107">計画ツールを使用して作業を開始し、最初の設計を作成するには</span><span class="sxs-lookup"><span data-stu-id="80740-107">To get started using the Planning Tool and create the initial design</span></span>
+## <a name="to-get-started-using-the-planning-tool-and-create-the-initial-design"></a><span data-ttu-id="f4cad-107">計画ツールを使用して作業を開始し、最初の設計を作成するには</span><span class="sxs-lookup"><span data-stu-id="f4cad-107">To get started using the Planning Tool and create the initial design</span></span>
 
-1.  <span data-ttu-id="80740-108">Lync Server 2013 計画ツールを以下の手順で起動します。[**スタート**] ボタンをクリックし、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**計画ツール**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="80740-108">Start the Lync Server 2013, Planning Tool: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Planning Tool**.</span></span>
+1.  <span data-ttu-id="f4cad-108">Lync Server 2013 計画ツールを以下の手順で起動します。[**スタート**] ボタンをクリックし、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**計画ツール**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="f4cad-108">Start the Lync Server 2013, Planning Tool: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Planning Tool**.</span></span>
 
-2.  <span data-ttu-id="80740-109">計画ツールが開始されると、「 **Planning tool For Microsoft Lync Server 2013 へようこそ**」ページが表示されます。</span><span class="sxs-lookup"><span data-stu-id="80740-109">After the Planning Tool has started, the **Welcome to the Planning Tool for Microsoft Lync Server 2013** page appears.</span></span> <span data-ttu-id="80740-110">次のいずれかのオプションを選択して、設計を開始します。</span><span class="sxs-lookup"><span data-stu-id="80740-110">Choose one of the following options to begin your design:</span></span>
+2.  <span data-ttu-id="f4cad-109">計画ツールが開始されると、「 **Planning tool For Microsoft Lync Server 2013 へようこそ**」ページが表示されます。</span><span class="sxs-lookup"><span data-stu-id="f4cad-109">After the Planning Tool has started, the **Welcome to the Planning Tool for Microsoft Lync Server 2013** page appears.</span></span> <span data-ttu-id="f4cad-110">次のいずれかのオプションを選択して、設計を開始します。</span><span class="sxs-lookup"><span data-stu-id="f4cad-110">Choose one of the following options to begin your design:</span></span>
     
-      - <span data-ttu-id="80740-111">**オプション 1:**   [開始] をクリックすると、特定の一連のインタビューの質問が**表示**され、条件を定義できます。</span><span class="sxs-lookup"><span data-stu-id="80740-111">**Option 1: Get Started**   Clicking **Get Started** provides a specific series of interview questions with relevant selections to define the criteria.</span></span> <span data-ttu-id="80740-112">最初の **[開始]** の質問セクションが終わったら、**[サイトの設計]** に進んでサイトのアーキテクチャを定義します。</span><span class="sxs-lookup"><span data-stu-id="80740-112">After you have finished the initial **Get Started** interview section, you proceed into **Design Sites** to define your site architecture.</span></span> <span data-ttu-id="80740-113">このオプションを完了するには、ステップ 3 に進みます。</span><span class="sxs-lookup"><span data-stu-id="80740-113">To complete this option, proceed to step 3.</span></span>
+      - <span data-ttu-id="f4cad-111">**オプション 1:**   [開始] をクリックすると、特定の一連のインタビューの質問が**表示**され、条件を定義できます。</span><span class="sxs-lookup"><span data-stu-id="f4cad-111">**Option 1: Get Started**   Clicking **Get Started** provides a specific series of interview questions with relevant selections to define the criteria.</span></span> <span data-ttu-id="f4cad-112">最初の **[開始]** の質問セクションが終わったら、**[サイトの設計]** に進んでサイトのアーキテクチャを定義します。</span><span class="sxs-lookup"><span data-stu-id="f4cad-112">After you have finished the initial **Get Started** interview section, you proceed into **Design Sites** to define your site architecture.</span></span> <span data-ttu-id="f4cad-113">このオプションを完了するには、ステップ 3 に進みます。</span><span class="sxs-lookup"><span data-stu-id="f4cad-113">To complete this option, proceed to step 3.</span></span>
     
-      - <span data-ttu-id="80740-114">**オプション 2: [サイト**   の設計] ウェルカムページで [**デザインサイト**] をクリックすると、[**はじめ**に] セクションに表示されるインタビューの質問は無視されます。</span><span class="sxs-lookup"><span data-stu-id="80740-114">**Option 2: Design Sites**   Clicking **Design Sites** at the Welcome page bypasses the interview questions presented in the **Get Started** section.</span></span> <span data-ttu-id="80740-115">「**はじめ**に」セクションの「インタビューの質問」に返答することによって収集された情報は、このオプションを使用して既定値に設定されています。</span><span class="sxs-lookup"><span data-stu-id="80740-115">The information that would have been gathered by responding to the interview questions in **Get Started** section is set to default values with this option.</span></span> <span data-ttu-id="80740-116">[**デザインサイト**] をクリックすると、経験豊富な設計者が最初のインタビューを省略し、必要に応じて既定値を変更することができます (**中央サイト**の開始ページ)。</span><span class="sxs-lookup"><span data-stu-id="80740-116">By clicking **Design Sites**, the experienced designer can bypass the initial interview and change the default values, as needed, on the **Central Sites** start page.</span></span> <span data-ttu-id="80740-117">このオプションを完了するには、ステップ 3 ～ 5 をスキップしてステップ 6 から開始してください。</span><span class="sxs-lookup"><span data-stu-id="80740-117">To complete this option, skip over steps 3-5 and start at step 6.</span></span>
+      - <span data-ttu-id="f4cad-114">**オプション 2: [サイト**   の設計] ウェルカムページで [**デザインサイト**] をクリックすると、[**はじめ**に] セクションに表示されるインタビューの質問は無視されます。</span><span class="sxs-lookup"><span data-stu-id="f4cad-114">**Option 2: Design Sites**   Clicking **Design Sites** at the Welcome page bypasses the interview questions presented in the **Get Started** section.</span></span> <span data-ttu-id="f4cad-115">「**はじめ**に」セクションの「インタビューの質問」に返答することによって収集された情報は、このオプションを使用して既定値に設定されています。</span><span class="sxs-lookup"><span data-stu-id="f4cad-115">The information that would have been gathered by responding to the interview questions in **Get Started** section is set to default values with this option.</span></span> <span data-ttu-id="f4cad-116">[**デザインサイト**] をクリックすると、経験豊富な設計者が最初のインタビューを省略し、必要に応じて既定値を変更することができます (**中央サイト**の開始ページ)。</span><span class="sxs-lookup"><span data-stu-id="f4cad-116">By clicking **Design Sites**, the experienced designer can bypass the initial interview and change the default values, as needed, on the **Central Sites** start page.</span></span> <span data-ttu-id="f4cad-117">このオプションを完了するには、ステップ 3 ～ 5 をスキップしてステップ 6 から開始してください。</span><span class="sxs-lookup"><span data-stu-id="f4cad-117">To complete this option, skip over steps 3-5 and start at step 6.</span></span>
     
-      - <span data-ttu-id="80740-118">**オプション 3: 保存されたトポロジ**   を表示する計画ツールを以前使用した状態でトポロジを既に完了し、保存している場合は、これらの手順をスキップし、トポロジを開いて表示することで開始できます。</span><span class="sxs-lookup"><span data-stu-id="80740-118">**Option 3: Display Your Saved Topology**   If you have already completed and saved a topology through previous use of the Planning Tool, you can skip over most of these steps and start by opening and displaying the topology.</span></span> <span data-ttu-id="80740-119">また、トポロジの変更や更新を行った後、再保存して、Microsoft Excel または Microsoft Visio にエクスポートすることもできます。</span><span class="sxs-lookup"><span data-stu-id="80740-119">You can also make changes and updates to the topology, resave it, and then export it to Microsoft Excel or Microsoft Visio.</span></span> <span data-ttu-id="80740-120">このオプションを完了するには、ステップ 3 ～ 12 をスキップしてステップ 13 から開始してください。</span><span class="sxs-lookup"><span data-stu-id="80740-120">To complete this option, skip over steps 3-12 and start at step 13.</span></span>
+      - <span data-ttu-id="f4cad-118">**オプション 3: 保存されたトポロジ**   を表示する計画ツールを以前使用した状態でトポロジを既に完了し、保存している場合は、これらの手順をスキップし、トポロジを開いて表示することで開始できます。</span><span class="sxs-lookup"><span data-stu-id="f4cad-118">**Option 3: Display Your Saved Topology**   If you have already completed and saved a topology through previous use of the Planning Tool, you can skip over most of these steps and start by opening and displaying the topology.</span></span> <span data-ttu-id="f4cad-119">また、トポロジの変更や更新を行った後、再保存して、Microsoft Excel または Microsoft Visio にエクスポートすることもできます。</span><span class="sxs-lookup"><span data-stu-id="f4cad-119">You can also make changes and updates to the topology, resave it, and then export it to Microsoft Excel or Microsoft Visio.</span></span> <span data-ttu-id="f4cad-120">このオプションを完了するには、ステップ 3 ～ 12 をスキップしてステップ 13 から開始してください。</span><span class="sxs-lookup"><span data-stu-id="f4cad-120">To complete this option, skip over steps 3-12 and start at step 13.</span></span>
 
-3.  <span data-ttu-id="80740-121">[**今すぐ開始**] をクリックして、Lync Server 2013 トポロジの設計を開始します。</span><span class="sxs-lookup"><span data-stu-id="80740-121">Click **Get Started** to begin designing your Lync Server 2013 topology.</span></span>
+3.  <span data-ttu-id="f4cad-121">[**今すぐ開始**] をクリックして、Lync Server 2013 トポロジの設計を開始します。</span><span class="sxs-lookup"><span data-stu-id="f4cad-121">Click **Get Started** to begin designing your Lync Server 2013 topology.</span></span>
 
-4.  <span data-ttu-id="80740-122">設計に対して該当する条件を選択して各セクションに回答し、**[次へ]** をクリックして、ウィザードの次のページに進みます。</span><span class="sxs-lookup"><span data-stu-id="80740-122">Answer each section by selecting the appropriate criteria for your design, and then click **Next** to proceed to the next Wizard page.</span></span> <span data-ttu-id="80740-123">前のページに変更を加えるには、[**戻る**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="80740-123">Click **Back** to make changes on previous pages.</span></span>
+4.  <span data-ttu-id="f4cad-122">設計に対して該当する条件を選択して各セクションに回答し、**[次へ]** をクリックして、ウィザードの次のページに進みます。</span><span class="sxs-lookup"><span data-stu-id="f4cad-122">Answer each section by selecting the appropriate criteria for your design, and then click **Next** to proceed to the next Wizard page.</span></span> <span data-ttu-id="f4cad-123">前のページに変更を加えるには、[**戻る**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="f4cad-123">Click **Back** to make changes on previous pages.</span></span>
     
     <div>
     
 
     > [!TIP]  
-    > <span data-ttu-id="80740-124">各ページには、選択条件の説明および望ましい方法や処理能力計画に基づいた推奨事項が表示されます。</span><span class="sxs-lookup"><span data-stu-id="80740-124">Each page has a description of the selection criteria, and recommendations based on preferred practices and capacity planning.</span></span> <span data-ttu-id="80740-125">詳細については、「詳細情報<STRONG>」を参照して</STRONG>ください。詳細については、Microsoft TechNet web サイトの Lync Server 2013 の計画に関するドキュメントを参照してください。</span><span class="sxs-lookup"><span data-stu-id="80740-125">If you require additional details, click <STRONG>Learn more</STRONG> to read detailed information from the Lync Server 2013 Planning documentation on the Microsoft TechNet website.</span></span> <span data-ttu-id="80740-126">Microsoft TechNet Web サイトにアクセスするには、インターネットに接続する必要があります。</span><span class="sxs-lookup"><span data-stu-id="80740-126">You must have Internet connectivity to access the Microsoft TechNet website.</span></span>
+    > <span data-ttu-id="f4cad-124">各ページには、選択条件の説明および望ましい方法や処理能力計画に基づいた推奨事項が表示されます。</span><span class="sxs-lookup"><span data-stu-id="f4cad-124">Each page has a description of the selection criteria, and recommendations based on preferred practices and capacity planning.</span></span> <span data-ttu-id="f4cad-125">詳細については、「詳細情報<STRONG>」を参照して</STRONG>ください。詳細については、Microsoft TechNet web サイトの Lync Server 2013 の計画に関するドキュメントを参照してください。</span><span class="sxs-lookup"><span data-stu-id="f4cad-125">If you require additional details, click <STRONG>Learn more</STRONG> to read detailed information from the Lync Server 2013 Planning documentation on the Microsoft TechNet website.</span></span> <span data-ttu-id="f4cad-126">Microsoft TechNet Web サイトにアクセスするには、インターネットに接続する必要があります。</span><span class="sxs-lookup"><span data-stu-id="f4cad-126">You must have Internet connectivity to access the Microsoft TechNet website.</span></span>
 
     
     </div>
 
-5.  <span data-ttu-id="80740-127">設計に適合するオプションを選択します。</span><span class="sxs-lookup"><span data-stu-id="80740-127">Select the appropriate options for your design.</span></span> <span data-ttu-id="80740-128">初期条件を定義すると、新しいページが表示され [機能の概要] が完成しているかどうかが確認されます。</span><span class="sxs-lookup"><span data-stu-id="80740-128">After the initial criteria are defined, a page will confirm that your Features Overview is complete.</span></span>
+5.  <span data-ttu-id="f4cad-127">設計に適合するオプションを選択します。</span><span class="sxs-lookup"><span data-stu-id="f4cad-127">Select the appropriate options for your design.</span></span> <span data-ttu-id="f4cad-128">初期条件を定義すると、新しいページが表示され [機能の概要] が完成しているかどうかが確認されます。</span><span class="sxs-lookup"><span data-stu-id="f4cad-128">After the initial criteria are defined, a page will confirm that your Features Overview is complete.</span></span>
 
-6.  <span data-ttu-id="80740-129">[**サイトの設計**] をクリックして、セントラルサイトを定義します。</span><span class="sxs-lookup"><span data-stu-id="80740-129">Click **Design Sites** to define your central site.</span></span>
+6.  <span data-ttu-id="f4cad-129">[**サイトの設計**] をクリックして、セントラルサイトを定義します。</span><span class="sxs-lookup"><span data-stu-id="f4cad-129">Click **Design Sites** to define your central site.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="80740-130">各 Lync Server 2013 トポロジには、少なくとも1つの中央サイトがあります。</span><span class="sxs-lookup"><span data-stu-id="80740-130">Each Lync Server 2013 topology will have at least one central site.</span></span> <span data-ttu-id="80740-131">設計には、1つの中央サイト、複数のブランチサイトを含む中央サイト、中央サイトの数、各中央サイトに関連付けられたブランチサイトを備えた多数のセントラルサイトがあります。</span><span class="sxs-lookup"><span data-stu-id="80740-131">Your design may have a single central site, a central site with a number of branch sites, a number of central sites, or a number of central sites with branch sites associated with each central site.</span></span>
+    > <span data-ttu-id="f4cad-130">各 Lync Server 2013 トポロジには、少なくとも1つの中央サイトがあります。</span><span class="sxs-lookup"><span data-stu-id="f4cad-130">Each Lync Server 2013 topology will have at least one central site.</span></span> <span data-ttu-id="f4cad-131">設計には、1つの中央サイト、複数のブランチサイトを含む中央サイト、中央サイトの数、各中央サイトに関連付けられたブランチサイトを備えた多数のセントラルサイトがあります。</span><span class="sxs-lookup"><span data-stu-id="f4cad-131">Your design may have a single central site, a central site with a number of branch sites, a number of central sites, or a number of central sites with branch sites associated with each central site.</span></span>
 
     
     </div>
 
-7.  <span data-ttu-id="80740-132">[**サイト名**] に、この中央サイトを識別する名前を入力します。</span><span class="sxs-lookup"><span data-stu-id="80740-132">In **Site Name**, type the name that will identify this central site.</span></span>
+7.  <span data-ttu-id="f4cad-132">[**サイト名**] に、この中央サイトを識別する名前を入力します。</span><span class="sxs-lookup"><span data-stu-id="f4cad-132">In **Site Name**, type the name that will identify this central site.</span></span>
 
-8.  <span data-ttu-id="80740-133">[**サイトの所属先ユーザー**] で、この中央サイトに所属する、予想される社内同時ユーザーの数を入力します。</span><span class="sxs-lookup"><span data-stu-id="80740-133">In **Site Homed Users**, type the expected number of on-premises concurrent users who will be homed in this central site.</span></span>
+8.  <span data-ttu-id="f4cad-133">[**サイトの所属先ユーザー**] で、この中央サイトに所属する、予想される社内同時ユーザーの数を入力します。</span><span class="sxs-lookup"><span data-stu-id="f4cad-133">In **Site Homed Users**, type the expected number of on-premises concurrent users who will be homed in this central site.</span></span>
 
-9.  <span data-ttu-id="80740-134">[**クラウドに所属するユーザー**] に、この中央サイトに所属する、予想されるオンライン同時ユーザーの数を入力します。</span><span class="sxs-lookup"><span data-stu-id="80740-134">In **Cloud Homed Users**, type the expected number of online concurrent users who will be homed in this central site.</span></span>
+9.  <span data-ttu-id="f4cad-134">[**クラウドに所属するユーザー**] に、この中央サイトに所属する、予想されるオンライン同時ユーザーの数を入力します。</span><span class="sxs-lookup"><span data-stu-id="f4cad-134">In **Cloud Homed Users**, type the expected number of online concurrent users who will be homed in this central site.</span></span>
 
-10. <span data-ttu-id="80740-135">必要に応じて、オンライングループ作業、ユーザー、音声、その他の展開オプション、またはサーバーアプリケーションの選択を変更します。</span><span class="sxs-lookup"><span data-stu-id="80740-135">Modify the selections for Online Collaboration, Users, Voice, Additional Deployment Options, or Server Applications, as needed.</span></span>
+10. <span data-ttu-id="f4cad-135">必要に応じて、オンライングループ作業、ユーザー、音声、その他の展開オプション、またはサーバーアプリケーションの選択を変更します。</span><span class="sxs-lookup"><span data-stu-id="f4cad-135">Modify the selections for Online Collaboration, Users, Voice, Additional Deployment Options, or Server Applications, as needed.</span></span>
     
     <div>
     
 
     > [!IMPORTANT]  
-    > <span data-ttu-id="80740-136">設計のこの時点では、展開のオプションのみを選択または選択解除できます。</span><span class="sxs-lookup"><span data-stu-id="80740-136">At this point in the design, you can only select or clear options for your deployment.</span></span> <span data-ttu-id="80740-137">ただし、計画ツールの後の段階では、より多くのオプションを構成できます。</span><span class="sxs-lookup"><span data-stu-id="80740-137">However, you can configure more options in a later phase of the Planning Tool.</span></span> <span data-ttu-id="80740-138">また、使用できなくなってクリアすることができないオプションもあります。</span><span class="sxs-lookup"><span data-stu-id="80740-138">There are also options that are unavailable and cannot be cleared.</span></span> <span data-ttu-id="80740-139">また、別のオプションをオフにするには、1つのオプションをオフにする必要がある場合があります。</span><span class="sxs-lookup"><span data-stu-id="80740-139">In addition, you may have to clear one option in order to clear another.</span></span> <span data-ttu-id="80740-140">たとえば、[音声] の下の [<STRONG>エンタープライズ voip</STRONG> ] オプションをオフにすると、[サーバーアプリケーション (すべてはエンタープライズ voip の機能)] の下にある<STRONG>応答グループ</STRONG>、<STRONG>アナウンス</STRONG>、および<STRONG>コールパーク</STRONG>オプションもオフになります。</span><span class="sxs-lookup"><span data-stu-id="80740-140">For example, if you clear the <STRONG>Enterprise Voice</STRONG> option under Voice, then the <STRONG>Response Group</STRONG>, <STRONG>Announcement</STRONG>, and <STRONG>Call Park</STRONG> options under Server Applications (all of which are features of Enterprise Voice) are also cleared.</span></span>
+    > <span data-ttu-id="f4cad-136">設計のこの時点では、展開のオプションのみを選択または選択解除できます。</span><span class="sxs-lookup"><span data-stu-id="f4cad-136">At this point in the design, you can only select or clear options for your deployment.</span></span> <span data-ttu-id="f4cad-137">ただし、計画ツールの後の段階では、より多くのオプションを構成できます。</span><span class="sxs-lookup"><span data-stu-id="f4cad-137">However, you can configure more options in a later phase of the Planning Tool.</span></span> <span data-ttu-id="f4cad-138">また、使用できなくなってクリアすることができないオプションもあります。</span><span class="sxs-lookup"><span data-stu-id="f4cad-138">There are also options that are unavailable and cannot be cleared.</span></span> <span data-ttu-id="f4cad-139">また、別のオプションをオフにするには、1つのオプションをオフにする必要がある場合があります。</span><span class="sxs-lookup"><span data-stu-id="f4cad-139">In addition, you may have to clear one option in order to clear another.</span></span> <span data-ttu-id="f4cad-140">たとえば、[音声] の下の [<STRONG>エンタープライズ voip</STRONG> ] オプションをオフにすると、[サーバーアプリケーション (すべてはエンタープライズ voip の機能)] の下にある<STRONG>応答グループ</STRONG>、<STRONG>アナウンス</STRONG>、および<STRONG>コールパーク</STRONG>オプションもオフになります。</span><span class="sxs-lookup"><span data-stu-id="f4cad-140">For example, if you clear the <STRONG>Enterprise Voice</STRONG> option under Voice, then the <STRONG>Response Group</STRONG>, <STRONG>Announcement</STRONG>, and <STRONG>Call Park</STRONG> options under Server Applications (all of which are features of Enterprise Voice) are also cleared.</span></span>
 
     
     </div>
 
-11. <span data-ttu-id="80740-141">サイト名とユーザー数を定義したら、**[次へ]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="80740-141">After defining a site name and number of users, click **Next**.</span></span>
+11. <span data-ttu-id="f4cad-141">サイト名とユーザー数を定義したら、**[次へ]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="f4cad-141">After defining a site name and number of users, click **Next**.</span></span>
 
-12. <span data-ttu-id="80740-142">次のページでは、SIP ドメイン、会議の設定、音声の設定とインフラストラクチャ、Exchange UM、外部ユーザーアクセス、常設チャットの設定、クライアント設定、併置オプション、ブランチサイトについての情報を求められます。</span><span class="sxs-lookup"><span data-stu-id="80740-142">The following pages ask for information about SIP domains, conference settings, voice settings and infrastructure, Exchange UM, external user access, Persistent Chat settings, client settings, collocation options, and branch sites.</span></span> <span data-ttu-id="80740-143">これらの質問に適切に回答します。</span><span class="sxs-lookup"><span data-stu-id="80740-143">Answer these questions as appropriate.</span></span>
+12. <span data-ttu-id="f4cad-142">次のページでは、SIP ドメイン、会議の設定、音声の設定とインフラストラクチャ、Exchange UM、外部ユーザーアクセス、常設チャットの設定、クライアント設定、併置オプション、ブランチサイトについての情報を求められます。</span><span class="sxs-lookup"><span data-stu-id="f4cad-142">The following pages ask for information about SIP domains, conference settings, voice settings and infrastructure, Exchange UM, external user access, Persistent Chat settings, client settings, collocation options, and branch sites.</span></span> <span data-ttu-id="f4cad-143">これらの質問に適切に回答します。</span><span class="sxs-lookup"><span data-stu-id="f4cad-143">Answer these questions as appropriate.</span></span>
 
-13. <span data-ttu-id="80740-144">最後の質問は、別のセントラルサイトを作成するかどうかを確認します。</span><span class="sxs-lookup"><span data-stu-id="80740-144">The final question asks if you want to create another central site.</span></span> <span data-ttu-id="80740-145">[**はい**] を選択すると、計画ツールは [中央サイト] ページに戻ります。</span><span class="sxs-lookup"><span data-stu-id="80740-145">If you select **Yes**, then the Planning Tool returns to the Central Sites page.</span></span> <span data-ttu-id="80740-146">[**いいえ**] を選択した場合は、[**次へ**] をクリックし、[**描画**] をクリックして、高レベルのグローバルトポロジビューを表示します。</span><span class="sxs-lookup"><span data-stu-id="80740-146">If you select **No**, click **Next**, and then click **Draw** to display the high-level Global Topology view.</span></span>
+13. <span data-ttu-id="f4cad-144">最後の質問は、別のセントラルサイトを作成するかどうかを確認します。</span><span class="sxs-lookup"><span data-stu-id="f4cad-144">The final question asks if you want to create another central site.</span></span> <span data-ttu-id="f4cad-145">[**はい**] を選択すると、計画ツールは [中央サイト] ページに戻ります。</span><span class="sxs-lookup"><span data-stu-id="f4cad-145">If you select **Yes**, then the Planning Tool returns to the Central Sites page.</span></span> <span data-ttu-id="f4cad-146">[**いいえ**] を選択した場合は、[**次へ**] をクリックし、[**描画**] をクリックして、高レベルのグローバルトポロジビューを表示します。</span><span class="sxs-lookup"><span data-stu-id="f4cad-146">If you select **No**, click **Next**, and then click **Draw** to display the high-level Global Topology view.</span></span>
 
-14. <span data-ttu-id="80740-147">既存のトポロジを表示するには、[**表示**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="80740-147">To view an existing topology, click **Display**.</span></span>
+14. <span data-ttu-id="f4cad-147">既存のトポロジを表示するには、[**表示**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="f4cad-147">To view an existing topology, click **Display**.</span></span>
 
-15. <span data-ttu-id="80740-148">前に保存したトポロジを表す .xml ファイルをクリックして、**[開く]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="80740-148">Click the .xml file that represents the previously saved topology, and then click **Open**.</span></span>
+15. <span data-ttu-id="f4cad-148">前に保存したトポロジを表す .xml ファイルをクリックして、**[開く]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="f4cad-148">Click the .xml file that represents the previously saved topology, and then click **Open**.</span></span>
 
-16. <span data-ttu-id="80740-149">計画ツールでは、[グローバルトポロジ] ページが表示されます。</span><span class="sxs-lookup"><span data-stu-id="80740-149">The Planning Tool displays the Global Topology page.</span></span> <span data-ttu-id="80740-150">計画ツールで利用可能なツールを使用して、トポロジの編集、更新、または変更を開始できるようになりました。</span><span class="sxs-lookup"><span data-stu-id="80740-150">You can now begin editing, updating, or changing the topology by using the tools available in the Planning Tool.</span></span>
+16. <span data-ttu-id="f4cad-149">計画ツールでは、[グローバルトポロジ] ページが表示されます。</span><span class="sxs-lookup"><span data-stu-id="f4cad-149">The Planning Tool displays the Global Topology page.</span></span> <span data-ttu-id="f4cad-150">計画ツールで利用可能なツールを使用して、トポロジの編集、更新、または変更を開始できるようになりました。</span><span class="sxs-lookup"><span data-stu-id="f4cad-150">You can now begin editing, updating, or changing the topology by using the tools available in the Planning Tool.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="80740-151">関連項目</span><span class="sxs-lookup"><span data-stu-id="80740-151">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f4cad-151">関連項目</span><span class="sxs-lookup"><span data-stu-id="f4cad-151">See Also</span></span>
 
 
-[<span data-ttu-id="80740-152">Lync Server 2013 での設計の編集</span><span class="sxs-lookup"><span data-stu-id="80740-152">Editing the design in Lync Server 2013</span></span>](lync-server-2013-editing-the-design.md)  
+[<span data-ttu-id="f4cad-152">Lync Server 2013 での設計の編集</span><span class="sxs-lookup"><span data-stu-id="f4cad-152">Editing the design in Lync Server 2013</span></span>](lync-server-2013-editing-the-design.md)  
   
 
 </div>

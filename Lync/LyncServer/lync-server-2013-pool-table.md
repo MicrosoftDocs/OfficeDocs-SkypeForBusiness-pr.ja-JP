@@ -12,20 +12,20 @@ ms:contentKeyID: 48184803
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 30d849fad5f607d29395fb93355c50e16a9cbb4c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 9e10e3e6a3e27d66510b4cde0ef72a1a11288e8e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42049509"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42152675"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="pool-table-in-lync-server-2013"></a><span data-ttu-id="1bc2c-102">Lync Server 2013 のプールテーブル</span><span class="sxs-lookup"><span data-stu-id="1bc2c-102">Pool table in Lync Server 2013</span></span>
+# <a name="pool-table-in-lync-server-2013"></a><span data-ttu-id="0f404-102">Lync Server 2013 のプールテーブル</span><span class="sxs-lookup"><span data-stu-id="0f404-102">Pool table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42049509"
 
 <span> </span>
 
-<span data-ttu-id="1bc2c-103">_**トピックの最終更新日:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="1bc2c-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="0f404-103">_**トピックの最終更新日:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="0f404-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="1bc2c-p101">Pool テーブルは、さまざまなフロントエンド プールに関する情報を格納するサポート テーブルです。このテーブル内の各レコードは、1 つのプールを表しています。</span><span class="sxs-lookup"><span data-stu-id="1bc2c-p101">The Pool table is a supporting table that stores information about the various Front End pools. Each record in the table represents one pool.</span></span>
+<span data-ttu-id="0f404-p101">Pool テーブルは、さまざまなフロントエンド プールに関する情報を格納するサポート テーブルです。このテーブル内の各レコードは、1 つのプールを表しています。</span><span class="sxs-lookup"><span data-stu-id="0f404-p101">The Pool table is a supporting table that stores information about the various Front End pools. Each record in the table represents one pool.</span></span>
 
 
 <table>
@@ -49,24 +49,24 @@ ms.locfileid: "42049509"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="1bc2c-106"><strong>列</strong></span><span class="sxs-lookup"><span data-stu-id="1bc2c-106"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="1bc2c-107"><strong>データ型</strong></span><span class="sxs-lookup"><span data-stu-id="1bc2c-107"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="1bc2c-108"><strong>キー/インデックス</strong></span><span class="sxs-lookup"><span data-stu-id="1bc2c-108"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="1bc2c-109"><strong>詳細</strong></span><span class="sxs-lookup"><span data-stu-id="1bc2c-109"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="0f404-106"><strong>列</strong></span><span class="sxs-lookup"><span data-stu-id="0f404-106"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="0f404-107"><strong>データ型</strong></span><span class="sxs-lookup"><span data-stu-id="0f404-107"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="0f404-108"><strong>キー/インデックス</strong></span><span class="sxs-lookup"><span data-stu-id="0f404-108"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="0f404-109"><strong>詳細</strong></span><span class="sxs-lookup"><span data-stu-id="0f404-109"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1bc2c-110"><strong>PoolKey</strong></span><span class="sxs-lookup"><span data-stu-id="1bc2c-110"><strong>PoolKey</strong></span></span></p></td>
-<td><p><span data-ttu-id="1bc2c-111">int</span><span class="sxs-lookup"><span data-stu-id="1bc2c-111">int</span></span></p></td>
-<td><p><span data-ttu-id="1bc2c-112">Primary</span><span class="sxs-lookup"><span data-stu-id="1bc2c-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="1bc2c-113">このプールを示す一意の番号です。</span><span class="sxs-lookup"><span data-stu-id="1bc2c-113">Unique number identifying this pool.</span></span></p></td>
+<td><p><span data-ttu-id="0f404-110"><strong>PoolKey</strong></span><span class="sxs-lookup"><span data-stu-id="0f404-110"><strong>PoolKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="0f404-111">int</span><span class="sxs-lookup"><span data-stu-id="0f404-111">int</span></span></p></td>
+<td><p><span data-ttu-id="0f404-112">Primary</span><span class="sxs-lookup"><span data-stu-id="0f404-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="0f404-113">このプールを示す一意の番号です。</span><span class="sxs-lookup"><span data-stu-id="0f404-113">Unique number identifying this pool.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1bc2c-114"><strong>PoolName</strong></span><span class="sxs-lookup"><span data-stu-id="1bc2c-114"><strong>PoolName</strong></span></span></p></td>
-<td><p><span data-ttu-id="1bc2c-115">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="1bc2c-115">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="1bc2c-116">専用 </span><span class="sxs-lookup"><span data-stu-id="1bc2c-116">Unique </span></span></p></td>
-<td><p><span data-ttu-id="1bc2c-117">プールの FQDN です。</span><span class="sxs-lookup"><span data-stu-id="1bc2c-117">Pool FQDN.</span></span></p></td>
+<td><p><span data-ttu-id="0f404-114"><strong>PoolName</strong></span><span class="sxs-lookup"><span data-stu-id="0f404-114"><strong>PoolName</strong></span></span></p></td>
+<td><p><span data-ttu-id="0f404-115">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="0f404-115">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="0f404-116">専用 </span><span class="sxs-lookup"><span data-stu-id="0f404-116">Unique </span></span></p></td>
+<td><p><span data-ttu-id="0f404-117">プールの FQDN です。</span><span class="sxs-lookup"><span data-stu-id="0f404-117">Pool FQDN.</span></span></p></td>
 </tr>
 </tbody>
 </table>

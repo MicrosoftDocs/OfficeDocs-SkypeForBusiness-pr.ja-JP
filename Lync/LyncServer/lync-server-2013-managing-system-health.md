@@ -12,20 +12,20 @@ ms:contentKeyID: 48185201
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d5048a6ebaeef3dfe865630a65bb864ab1c6b651
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 73b16e88b7985f737bb4b2980bf95aee3ec032ed
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42042464"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150027"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-system-health-in-lync-server-2013"></a><span data-ttu-id="f4b5d-102">Lync Server 2013 でのシステム正常性の管理</span><span class="sxs-lookup"><span data-stu-id="f4b5d-102">Managing system health in Lync Server 2013</span></span>
+# <a name="managing-system-health-in-lync-server-2013"></a><span data-ttu-id="daa68-102">Lync Server 2013 でのシステム正常性の管理</span><span class="sxs-lookup"><span data-stu-id="daa68-102">Managing system health in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42042464"
 
 <span> </span>
 
-<span data-ttu-id="f4b5d-103">_**トピックの最終更新日:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="f4b5d-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="daa68-103">_**トピックの最終更新日:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="daa68-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="f4b5d-104">システム正常性の管理と監視は、全体的な Lync Server 2013 の正常性の管理と監視に統合されています。</span><span class="sxs-lookup"><span data-stu-id="f4b5d-104">System health management and monitoring is integrated into the overall Lync Server 2013 health management and monitoring.</span></span> <span data-ttu-id="f4b5d-105">詳細については、「 [Lync Server 2013 の正常性の構成](lync-server-2013-health-configuration-in-lync-server.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="f4b5d-105">For details, see [Health configuration in Lync Server 2013](lync-server-2013-health-configuration-in-lync-server.md).</span></span>
+<span data-ttu-id="daa68-104">システム正常性の管理と監視は、全体的な Lync Server 2013 の正常性の管理と監視に統合されています。</span><span class="sxs-lookup"><span data-stu-id="daa68-104">System health management and monitoring is integrated into the overall Lync Server 2013 health management and monitoring.</span></span> <span data-ttu-id="daa68-105">詳細については、「 [Lync Server 2013 の正常性の構成](lync-server-2013-health-configuration-in-lync-server.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="daa68-105">For details, see [Health configuration in Lync Server 2013](lync-server-2013-health-configuration-in-lync-server.md).</span></span>
 
 </div>
 

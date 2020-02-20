@@ -12,20 +12,20 @@ ms:contentKeyID: 49733748
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e72e562c2563a4e90613e2a75c424587bfb7b33d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8ec06c9c0fb03b8f501026358242e6cb32e5e582
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42042474"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150037"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-simple-urls-in-lync-server-2013"></a><span data-ttu-id="431ca-102">Lync Server 2013 での簡易 Url の管理</span><span class="sxs-lookup"><span data-stu-id="431ca-102">Managing simple URLs in Lync Server 2013</span></span>
+# <a name="managing-simple-urls-in-lync-server-2013"></a><span data-ttu-id="2eaa5-102">Lync Server 2013 での簡易 Url の管理</span><span class="sxs-lookup"><span data-stu-id="2eaa5-102">Managing simple URLs in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,24 +35,24 @@ ms.locfileid: "42042474"
 
 <span> </span>
 
-<span data-ttu-id="431ca-103">_**トピックの最終更新日:** 2012-10-11_</span><span class="sxs-lookup"><span data-stu-id="431ca-103">_**Topic Last Modified:** 2012-10-11_</span></span>
+<span data-ttu-id="2eaa5-103">_**トピックの最終更新日:** 2012-10-11_</span><span class="sxs-lookup"><span data-stu-id="2eaa5-103">_**Topic Last Modified:** 2012-10-11_</span></span>
 
-<span data-ttu-id="431ca-104">このセクションの手順を使用して、Lync Server 2013 コントロールパネルの [**トポロジ**] ページから簡単な url を管理します。</span><span class="sxs-lookup"><span data-stu-id="431ca-104">Use the procedures in this section to manage simple URLs from the **Topology** page in Lync Server 2013 Control Panel.</span></span>
+<span data-ttu-id="2eaa5-104">このセクションの手順を使用して、Lync Server 2013 コントロールパネルの [**トポロジ**] ページから簡単な url を管理します。</span><span class="sxs-lookup"><span data-stu-id="2eaa5-104">Use the procedures in this section to manage simple URLs from the **Topology** page in Lync Server 2013 Control Panel.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="431ca-105">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="431ca-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="2eaa5-105">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="2eaa5-105">In This Section</span></span>
 
-[<span data-ttu-id="431ca-106">Lync Server 2013 での簡単な URL の詳細の表示</span><span class="sxs-lookup"><span data-stu-id="431ca-106">View simple URL details in Lync Server 2013</span></span>](lync-server-2013-view-simple-url-details.md)
+[<span data-ttu-id="2eaa5-106">Lync Server 2013 での簡単な URL の詳細の表示</span><span class="sxs-lookup"><span data-stu-id="2eaa5-106">View simple URL details in Lync Server 2013</span></span>](lync-server-2013-view-simple-url-details.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="431ca-107">関連項目</span><span class="sxs-lookup"><span data-stu-id="431ca-107">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2eaa5-107">関連項目</span><span class="sxs-lookup"><span data-stu-id="2eaa5-107">See Also</span></span>
 
 
-[<span data-ttu-id="431ca-108">Lync Server 2013 での簡単な Url の計画</span><span class="sxs-lookup"><span data-stu-id="431ca-108">Planning for simple URLs in Lync Server 2013</span></span>](lync-server-2013-planning-for-simple-urls.md)  
+[<span data-ttu-id="2eaa5-108">Lync Server 2013 での簡単な Url の計画</span><span class="sxs-lookup"><span data-stu-id="2eaa5-108">Planning for simple URLs in Lync Server 2013</span></span>](lync-server-2013-planning-for-simple-urls.md)  
   
 
 </div>

@@ -12,20 +12,20 @@ ms:contentKeyID: 51803995
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 418001642f387caf67277f408d4eb19109c98936
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 699fd4413e071a9377369a383c9fd379a3451c6a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035415"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151859"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-common-area-phone-contact-object-in-lync-server-2013"></a><span data-ttu-id="d02f2-102">Lync Server 2013 で共通領域電話の連絡先オブジェクトを作成または変更する</span><span class="sxs-lookup"><span data-stu-id="d02f2-102">Create or modify a common area phone Contact object in Lync Server 2013</span></span>
+# <a name="create-or-modify-a-common-area-phone-contact-object-in-lync-server-2013"></a><span data-ttu-id="6bcef-102">Lync Server 2013 で共通領域電話の連絡先オブジェクトを作成または変更する</span><span class="sxs-lookup"><span data-stu-id="6bcef-102">Create or modify a common area phone Contact object in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,28 +35,28 @@ ms.locfileid: "42035415"
 
 <span> </span>
 
-<span data-ttu-id="d02f2-103">_**トピックの最終更新日:** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="d02f2-103">_**Topic Last Modified:** 2013-02-20_</span></span>
+<span data-ttu-id="6bcef-103">_**トピックの最終更新日:** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="6bcef-103">_**Topic Last Modified:** 2013-02-20_</span></span>
 
-<span data-ttu-id="d02f2-104">すべての共通領域電話に対して Active Directory ドメインサービスの連絡先オブジェクトを作成するには、 **move-cscommonareaphone**コマンドレットを使用します。</span><span class="sxs-lookup"><span data-stu-id="d02f2-104">To create Active Directory Domain Services contact objects for all your common area phones, use the **New-CsCommonAreaPhone** cmdlet.</span></span> <span data-ttu-id="d02f2-105">このコマンドレットでは、共通領域電話で使用する新しい連絡先オブジェクトを作成するか、既存の連絡先オブジェクトを新しい共通領域電話に関連付けることができます。</span><span class="sxs-lookup"><span data-stu-id="d02f2-105">This cmdlet can either create new contact objects for use with common area phones, or it can associate existing contact objects with a new common area phone.</span></span> <span data-ttu-id="d02f2-106">共通領域電話に関連付けられている連絡先オブジェクトのプロパティを変更するには、 **move-cscommonareaphone**コマンドレットを使用します。</span><span class="sxs-lookup"><span data-stu-id="d02f2-106">To modify the properties of the contact objects associated with common area phones, use the **Set-CsCommonAreaPhone** cmdlet.</span></span> <span data-ttu-id="d02f2-107">**Move-cscommonareaphone**のオプションのパラメーターを使用すると、連絡先の Active Directory 表示名や電話に関連付けられている回線 Uri (Uniform resource Identifier) などのアイテムを変更し、Lync Server で使用するアカウントを有効または無効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="d02f2-107">Optional parameters for **Set-CsCommonAreaPhone** enable you to change items, such as the contact’s Active Directory display name or the line Uniform Resource Identifier (URI) associated with the phone, and enable and disable the account for use with Lync Server.</span></span> <span data-ttu-id="d02f2-108">使用可能なすべての変更の詳細については、「 [move-cscommonareaphone](https://docs.microsoft.com/powershell/module/skype/Set-CsCommonAreaPhone)」のパラメータセクションを参照してください。</span><span class="sxs-lookup"><span data-stu-id="d02f2-108">For details about all the available modifications, see the Parameters section at [Set-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Set-CsCommonAreaPhone).</span></span> <span data-ttu-id="d02f2-109">**Move-cscommonareaphone**パラメーターの詳細については、「 [move-cscommonareaphone](https://docs.microsoft.com/powershell/module/skype/New-CsCommonAreaPhone)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="d02f2-109">For details about **New-CsCommonAreaPhone** parameters, see [New-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/New-CsCommonAreaPhone).</span></span>
+<span data-ttu-id="6bcef-104">すべての共通領域電話に対して Active Directory ドメインサービスの連絡先オブジェクトを作成するには、 **move-cscommonareaphone**コマンドレットを使用します。</span><span class="sxs-lookup"><span data-stu-id="6bcef-104">To create Active Directory Domain Services contact objects for all your common area phones, use the **New-CsCommonAreaPhone** cmdlet.</span></span> <span data-ttu-id="6bcef-105">このコマンドレットでは、共通領域電話で使用する新しい連絡先オブジェクトを作成するか、既存の連絡先オブジェクトを新しい共通領域電話に関連付けることができます。</span><span class="sxs-lookup"><span data-stu-id="6bcef-105">This cmdlet can either create new contact objects for use with common area phones, or it can associate existing contact objects with a new common area phone.</span></span> <span data-ttu-id="6bcef-106">共通領域電話に関連付けられている連絡先オブジェクトのプロパティを変更するには、 **move-cscommonareaphone**コマンドレットを使用します。</span><span class="sxs-lookup"><span data-stu-id="6bcef-106">To modify the properties of the contact objects associated with common area phones, use the **Set-CsCommonAreaPhone** cmdlet.</span></span> <span data-ttu-id="6bcef-107">**Move-cscommonareaphone**のオプションのパラメーターを使用すると、連絡先の Active Directory 表示名や電話に関連付けられている回線 Uri (Uniform resource Identifier) などのアイテムを変更し、Lync Server で使用するアカウントを有効または無効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="6bcef-107">Optional parameters for **Set-CsCommonAreaPhone** enable you to change items, such as the contact’s Active Directory display name or the line Uniform Resource Identifier (URI) associated with the phone, and enable and disable the account for use with Lync Server.</span></span> <span data-ttu-id="6bcef-108">使用可能なすべての変更の詳細については、「 [move-cscommonareaphone](https://docs.microsoft.com/powershell/module/skype/Set-CsCommonAreaPhone)」のパラメータセクションを参照してください。</span><span class="sxs-lookup"><span data-stu-id="6bcef-108">For details about all the available modifications, see the Parameters section at [Set-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Set-CsCommonAreaPhone).</span></span> <span data-ttu-id="6bcef-109">**Move-cscommonareaphone**パラメーターの詳細については、「 [move-cscommonareaphone](https://docs.microsoft.com/powershell/module/skype/New-CsCommonAreaPhone)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="6bcef-109">For details about **New-CsCommonAreaPhone** parameters, see [New-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/New-CsCommonAreaPhone).</span></span>
 
-<span data-ttu-id="d02f2-110">これら2つのコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモートセッションから実行できます。</span><span class="sxs-lookup"><span data-stu-id="d02f2-110">You can run these two cmdlets from either the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="d02f2-111">リモート Windows PowerShell を使用して Lync Server に接続する方法の詳細については、Lync Server Windows PowerShell のブログ記事「Quick Start: Microsoft Lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)を使用したリモート PowerShell の管理」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="d02f2-111">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
-
-<div>
-
+<span data-ttu-id="6bcef-110">これら2つのコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモートセッションから実行できます。</span><span class="sxs-lookup"><span data-stu-id="6bcef-110">You can run these two cmdlets from either the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="6bcef-111">リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。</span><span class="sxs-lookup"><span data-stu-id="6bcef-111">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
 <div>
 
-## <a name="creating-a-common-area-phone-contact-object"></a><span data-ttu-id="d02f2-112">共通領域電話の連絡先オブジェクトの作成</span><span class="sxs-lookup"><span data-stu-id="d02f2-112">Creating a common area phone contact object</span></span>
 
-  - <span data-ttu-id="d02f2-113">新しい共通領域電話の連絡先オブジェクトを作成するには、 **move-cscommonareaphone**コマンドレットを使用します。</span><span class="sxs-lookup"><span data-stu-id="d02f2-113">To create a new common area phone contact object, use the **New-CsCommonAreaPhone** cmdlet.</span></span> <span data-ttu-id="d02f2-114">連絡先オブジェクトを作成するときには、少なくとも次の情報を指定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="d02f2-114">At a minimum, you must supply the following information when creating a contact object:</span></span>
+<div>
+
+## <a name="creating-a-common-area-phone-contact-object"></a><span data-ttu-id="6bcef-112">共通領域電話の連絡先オブジェクトの作成</span><span class="sxs-lookup"><span data-stu-id="6bcef-112">Creating a common area phone contact object</span></span>
+
+  - <span data-ttu-id="6bcef-113">新しい共通領域電話の連絡先オブジェクトを作成するには、 **move-cscommonareaphone**コマンドレットを使用します。</span><span class="sxs-lookup"><span data-stu-id="6bcef-113">To create a new common area phone contact object, use the **New-CsCommonAreaPhone** cmdlet.</span></span> <span data-ttu-id="6bcef-114">連絡先オブジェクトを作成するときには、少なくとも次の情報を指定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="6bcef-114">At a minimum, you must supply the following information when creating a contact object:</span></span>
     
-      - <span data-ttu-id="d02f2-115">**Lineuri**: 共通領域電話に割り当てられた電話番号です。</span><span class="sxs-lookup"><span data-stu-id="d02f2-115">**LineUri**: The telephone number assigned to the common area phone.</span></span> <span data-ttu-id="d02f2-116">電話番号を指定するときは、e.164 形式を使用する必要があることに注意してください。</span><span class="sxs-lookup"><span data-stu-id="d02f2-116">Note that you must use the E.164 format when specifying the phone number.</span></span>
+      - <span data-ttu-id="6bcef-115">**Lineuri**: 共通領域電話に割り当てられた電話番号です。</span><span class="sxs-lookup"><span data-stu-id="6bcef-115">**LineUri**: The telephone number assigned to the common area phone.</span></span> <span data-ttu-id="6bcef-116">電話番号を指定するときは、e.164 形式を使用する必要があることに注意してください。</span><span class="sxs-lookup"><span data-stu-id="6bcef-116">Note that you must use the E.164 format when specifying the phone number.</span></span>
     
-      - <span data-ttu-id="d02f2-117">**RegistrarPool**: 連絡先オブジェクトをホストするレジストラープールの完全修飾ドメイン名 (FQDN)。</span><span class="sxs-lookup"><span data-stu-id="d02f2-117">**RegistrarPool**: The fully qualified domain name (FQDN) of the Registrar pool that will host the contact object.</span></span>
+      - <span data-ttu-id="6bcef-117">**RegistrarPool**: 連絡先オブジェクトをホストするレジストラープールの完全修飾ドメイン名 (FQDN)。</span><span class="sxs-lookup"><span data-stu-id="6bcef-117">**RegistrarPool**: The fully qualified domain name (FQDN) of the Registrar pool that will host the contact object.</span></span>
     
-      - <span data-ttu-id="d02f2-118">**OU**: 連絡先オブジェクトを作成する Active Directory コンテナーの識別名。</span><span class="sxs-lookup"><span data-stu-id="d02f2-118">**OU**: Distinguished name of the Active Directory container where the contact object will be created.</span></span>
+      - <span data-ttu-id="6bcef-118">**OU**: 連絡先オブジェクトを作成する Active Directory コンテナーの識別名。</span><span class="sxs-lookup"><span data-stu-id="6bcef-118">**OU**: Distinguished name of the Active Directory container where the contact object will be created.</span></span>
     
-    <span data-ttu-id="d02f2-119">また、Active Directory ドメインサービスの表示名を指定することもお勧めします。</span><span class="sxs-lookup"><span data-stu-id="d02f2-119">We also recommend that you provide an Active Directory Domain Services display name.</span></span> <span data-ttu-id="d02f2-120">それ以外の場合は、電話 Id を指定するために GUID を使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="d02f2-120">Otherwise, you will need to use a GUID to specify the phone Identity.</span></span> <span data-ttu-id="d02f2-121">例:</span><span class="sxs-lookup"><span data-stu-id="d02f2-121">For example:</span></span>
+    <span data-ttu-id="6bcef-119">また、Active Directory ドメインサービスの表示名を指定することもお勧めします。</span><span class="sxs-lookup"><span data-stu-id="6bcef-119">We also recommend that you provide an Active Directory Domain Services display name.</span></span> <span data-ttu-id="6bcef-120">それ以外の場合は、電話 Id を指定するために GUID を使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="6bcef-120">Otherwise, you will need to use a GUID to specify the phone Identity.</span></span> <span data-ttu-id="6bcef-121">次に例を示します。</span><span class="sxs-lookup"><span data-stu-id="6bcef-121">For example:</span></span>
     
         New-CsCommonAreaPhone -LineUri "tel:+12065551219" -RegistrarPool "atl-cs-001.litwareinc.com" -OU "OU=Phones,dc=litwareinc,dc=com" -DisplayName "Lobby"
 
@@ -64,15 +64,15 @@ ms.locfileid: "42035415"
 
 <div>
 
-## <a name="modifying-a-common-area-phone-contact-object"></a><span data-ttu-id="d02f2-122">共通領域電話の連絡先オブジェクトを変更する</span><span class="sxs-lookup"><span data-stu-id="d02f2-122">Modifying a common area phone contact object</span></span>
+## <a name="modifying-a-common-area-phone-contact-object"></a><span data-ttu-id="6bcef-122">共通領域電話の連絡先オブジェクトを変更する</span><span class="sxs-lookup"><span data-stu-id="6bcef-122">Modifying a common area phone contact object</span></span>
 
-  - <span data-ttu-id="d02f2-123">既存の共通領域電話のプロパティを変更するには、連絡先オブジェクトで**move-cscommonareaphone**コマンドレットを使用します。</span><span class="sxs-lookup"><span data-stu-id="d02f2-123">To modify the properties of an existing common area phone, contact object use the **Set-CsCommonAreaPhone** cmdlet.</span></span> <span data-ttu-id="d02f2-124">たとえば、次のコマンドは、共通領域電話の SIP アドレスを DisplayName ロビーで構成します。</span><span class="sxs-lookup"><span data-stu-id="d02f2-124">For example, this command configures the SIP address for the common area phone with the DisplayName Lobby:</span></span>
+  - <span data-ttu-id="6bcef-123">既存の共通領域電話のプロパティを変更するには、連絡先オブジェクトで**move-cscommonareaphone**コマンドレットを使用します。</span><span class="sxs-lookup"><span data-stu-id="6bcef-123">To modify the properties of an existing common area phone, contact object use the **Set-CsCommonAreaPhone** cmdlet.</span></span> <span data-ttu-id="6bcef-124">たとえば、次のコマンドは、共通領域電話の SIP アドレスを DisplayName ロビーで構成します。</span><span class="sxs-lookup"><span data-stu-id="6bcef-124">For example, this command configures the SIP address for the common area phone with the DisplayName Lobby:</span></span>
     
         Set-CsCommonAreaPhone -Identity "Lobby" -SipAddress "sip:lobby@litwareinc.com"
 
 </div>
 
-<span data-ttu-id="d02f2-125">詳細については、 [move-cscommonareaphone](https://docs.microsoft.com/powershell/module/skype/New-CsCommonAreaPhone)コマンドレットおよび[move-cscommonareaphone](https://docs.microsoft.com/powershell/module/skype/Set-CsCommonAreaPhone)コマンドレットのヘルプトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="d02f2-125">For details, see the Help topics for the [New-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/New-CsCommonAreaPhone) cmdlet and the [Set-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Set-CsCommonAreaPhone) cmdlet.</span></span>
+<span data-ttu-id="6bcef-125">詳細については、 [move-cscommonareaphone](https://docs.microsoft.com/powershell/module/skype/New-CsCommonAreaPhone)コマンドレットおよび[move-cscommonareaphone](https://docs.microsoft.com/powershell/module/skype/Set-CsCommonAreaPhone)コマンドレットのヘルプトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="6bcef-125">For details, see the Help topics for the [New-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/New-CsCommonAreaPhone) cmdlet and the [Set-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Set-CsCommonAreaPhone) cmdlet.</span></span>
 
 </div>
 
