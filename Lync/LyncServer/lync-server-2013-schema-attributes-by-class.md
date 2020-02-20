@@ -12,20 +12,20 @@ ms:contentKeyID: 48184468
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8394a1333cff66b076612ed197fa2a6a7af12ec6
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 86c2c4a494408f619fc7162c70cba0570b62bd09
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42049439"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144145"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="schema-attributes-by-class-in-lync-server-2013"></a><span data-ttu-id="ee6ef-102">Lync Server 2013 のクラスごとのスキーマの属性</span><span class="sxs-lookup"><span data-stu-id="ee6ef-102">Schema attributes by class in Lync Server 2013</span></span>
+# <a name="schema-attributes-by-class-in-lync-server-2013"></a><span data-ttu-id="2f66a-102">Lync Server 2013 のクラスごとのスキーマの属性</span><span class="sxs-lookup"><span data-stu-id="2f66a-102">Schema attributes by class in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "42049439"
 
 <span> </span>
 
-<span data-ttu-id="ee6ef-103">_**トピックの最終更新日:** 2012-08-29_</span><span class="sxs-lookup"><span data-stu-id="ee6ef-103">_**Topic Last Modified:** 2012-08-29_</span></span>
+<span data-ttu-id="2f66a-103">_**トピックの最終更新日:** 2012-08-29_</span><span class="sxs-lookup"><span data-stu-id="2f66a-103">_**Topic Last Modified:** 2012-08-29_</span></span>
 
-<span data-ttu-id="ee6ef-104">このセクションでは、各 Lync Server 2013 クラスに含めることができるスキーマ属性と、他のクラスに含めることができるクラスについて説明します。</span><span class="sxs-lookup"><span data-stu-id="ee6ef-104">This section lists the schema attributes that can be contained in each Lync Server 2013 class and the classes that can be contained in other classes.</span></span> <span data-ttu-id="ee6ef-105">すべてのクラスとその説明の一覧については、「 [Lync Server 2013 のスキーマクラスと説明](lync-server-2013-schema-classes-and-descriptions.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="ee6ef-105">For a list of all the classes and their descriptions, see [Schema classes and descriptions in Lync Server 2013](lync-server-2013-schema-classes-and-descriptions.md).</span></span> <span data-ttu-id="ee6ef-106">すべての属性とその説明の一覧については、「 [Lync Server 2013 のスキーマの属性と説明](lync-server-2013-schema-attributes-and-descriptions.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="ee6ef-106">For a list of all the attributes and their descriptions, see [Schema attributes and descriptions in Lync Server 2013](lync-server-2013-schema-attributes-and-descriptions.md).</span></span>
+<span data-ttu-id="2f66a-104">このセクションでは、各 Lync Server 2013 クラスに含めることができるスキーマ属性と、他のクラスに含めることができるクラスについて説明します。</span><span class="sxs-lookup"><span data-stu-id="2f66a-104">This section lists the schema attributes that can be contained in each Lync Server 2013 class and the classes that can be contained in other classes.</span></span> <span data-ttu-id="2f66a-105">すべてのクラスとその説明の一覧については、「 [Lync Server 2013 のスキーマクラスと説明](lync-server-2013-schema-classes-and-descriptions.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="2f66a-105">For a list of all the classes and their descriptions, see [Schema classes and descriptions in Lync Server 2013](lync-server-2013-schema-classes-and-descriptions.md).</span></span> <span data-ttu-id="2f66a-106">すべての属性とその説明の一覧については、「 [Lync Server 2013 のスキーマの属性と説明](lync-server-2013-schema-attributes-and-descriptions.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="2f66a-106">For a list of all the attributes and their descriptions, see [Schema attributes and descriptions in Lync Server 2013](lync-server-2013-schema-attributes-and-descriptions.md).</span></span>
 
 <div>
 
-## <a name="attributes-by-class"></a><span data-ttu-id="ee6ef-107">クラスごとの属性</span><span class="sxs-lookup"><span data-stu-id="ee6ef-107">Attributes by Class</span></span>
+## <a name="attributes-by-class"></a><span data-ttu-id="2f66a-107">クラスごとの属性</span><span class="sxs-lookup"><span data-stu-id="2f66a-107">Attributes by Class</span></span>
 
 
 <table>
@@ -51,248 +51,248 @@ ms.locfileid: "42049439"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="ee6ef-108">クラス</span><span class="sxs-lookup"><span data-stu-id="ee6ef-108">Class</span></span></th>
-<th><span data-ttu-id="ee6ef-109">含まれる属性</span><span class="sxs-lookup"><span data-stu-id="ee6ef-109">May contain these attributes</span></span></th>
+<th><span data-ttu-id="2f66a-108">クラス</span><span class="sxs-lookup"><span data-stu-id="2f66a-108">Class</span></span></th>
+<th><span data-ttu-id="2f66a-109">含まれる属性</span><span class="sxs-lookup"><span data-stu-id="2f66a-109">May contain these attributes</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="ee6ef-110">連絡先</span><span class="sxs-lookup"><span data-stu-id="ee6ef-110">Contact</span></span></p></td>
-<td><p><span data-ttu-id="ee6ef-111">Msds-sourceobjectdn</span><span class="sxs-lookup"><span data-stu-id="ee6ef-111">msDS-SourceObjectDN</span></span></p>
-<p><span data-ttu-id="ee6ef-112">msRTCSIP-AcpInfo</span><span class="sxs-lookup"><span data-stu-id="ee6ef-112">msRTCSIP-AcpInfo</span></span></p>
-<p><span data-ttu-id="ee6ef-113">msRTCSIP-ApplicationDestination</span><span class="sxs-lookup"><span data-stu-id="ee6ef-113">msRTCSIP-ApplicationDestination</span></span></p>
-<p><span data-ttu-id="ee6ef-114">msRTCSIP-ApplicationOptions</span><span class="sxs-lookup"><span data-stu-id="ee6ef-114">msRTCSIP-ApplicationOptions</span></span></p>
-<p><span data-ttu-id="ee6ef-115">msRTCSIP-ApplicationPrimaryLanguage</span><span class="sxs-lookup"><span data-stu-id="ee6ef-115">msRTCSIP-ApplicationPrimaryLanguage</span></span></p>
-<p><span data-ttu-id="ee6ef-116">msRTCSIP-ApplicationSecondaryLanguages</span><span class="sxs-lookup"><span data-stu-id="ee6ef-116">msRTCSIP-ApplicationSecondaryLanguages</span></span></p>
-<p><span data-ttu-id="ee6ef-117">msRTCSIP-ArchivingEnabled</span><span class="sxs-lookup"><span data-stu-id="ee6ef-117">msRTCSIP-ArchivingEnabled</span></span></p>
-<p><span data-ttu-id="ee6ef-118">msRTCSIP-DeploymentLocator</span><span class="sxs-lookup"><span data-stu-id="ee6ef-118">msRTCSIP-DeploymentLocator</span></span></p>
-<p><span data-ttu-id="ee6ef-119">msRTCSIP-FederationEnabled</span><span class="sxs-lookup"><span data-stu-id="ee6ef-119">msRTCSIP-FederationEnabled</span></span></p>
-<p><span data-ttu-id="ee6ef-120">msRTCSIP-GroupingID</span><span class="sxs-lookup"><span data-stu-id="ee6ef-120">msRTCSIP-GroupingID</span></span></p>
-<p><span data-ttu-id="ee6ef-121">msRTCSIP-InternetAccessEnabled</span><span class="sxs-lookup"><span data-stu-id="ee6ef-121">msRTCSIP-InternetAccessEnabled</span></span></p>
-<p><span data-ttu-id="ee6ef-122">msRTCSIP</span><span class="sxs-lookup"><span data-stu-id="ee6ef-122">msRTCSIP-Line</span></span></p>
-<p><span data-ttu-id="ee6ef-123">msRTCSIP</span><span class="sxs-lookup"><span data-stu-id="ee6ef-123">msRTCSIP-LineServer</span></span></p>
-<p><span data-ttu-id="ee6ef-124">msRTCSIP-OptionFlags</span><span class="sxs-lookup"><span data-stu-id="ee6ef-124">msRTCSIP-OptionFlags</span></span></p>
-<p><span data-ttu-id="ee6ef-125">msRTCSIP-の場合は、Sid</span><span class="sxs-lookup"><span data-stu-id="ee6ef-125">msRTCSIP-OriginatorSid</span></span></p>
-<p><span data-ttu-id="ee6ef-126">msRTCSIP-OwnerUrn</span><span class="sxs-lookup"><span data-stu-id="ee6ef-126">msRTCSIP-OwnerUrn</span></span></p>
-<p><span data-ttu-id="ee6ef-127">msRTCSIP-Msrtcsip-primaryhomeserver</span><span class="sxs-lookup"><span data-stu-id="ee6ef-127">msRTCSIP-PrimaryHomeServer</span></span></p>
-<p><span data-ttu-id="ee6ef-128">msRTCSIP-PrimaryUserAddress</span><span class="sxs-lookup"><span data-stu-id="ee6ef-128">msRTCSIP-PrimaryUserAddress</span></span></p>
-<p><span data-ttu-id="ee6ef-129">msRTCSIP-PrivateLine</span><span class="sxs-lookup"><span data-stu-id="ee6ef-129">msRTCSIP-PrivateLine</span></span></p>
-<p><span data-ttu-id="ee6ef-130">msRTCSIP-ProxyAddresses</span><span class="sxs-lookup"><span data-stu-id="ee6ef-130">msRTCSIP-ProxyAddresses</span></span></p>
-<p><span data-ttu-id="ee6ef-131">msRTCSIP-SourceObjectType</span><span class="sxs-lookup"><span data-stu-id="ee6ef-131">msRTCSIP-SourceObjectType</span></span></p>
-<p><span data-ttu-id="ee6ef-132">msRTCSIP-Targethoの場合</span><span class="sxs-lookup"><span data-stu-id="ee6ef-132">msRTCSIP-TargetHomeServer</span></span></p>
-<p><span data-ttu-id="ee6ef-133">msRTCSIP-TargetUserPolicies</span><span class="sxs-lookup"><span data-stu-id="ee6ef-133">msRTCSIP-TargetUserPolicies</span></span></p>
-<p><span data-ttu-id="ee6ef-134">msRTCSIP-TenantId</span><span class="sxs-lookup"><span data-stu-id="ee6ef-134">msRTCSIP-TenantId</span></span></p>
-<p><span data-ttu-id="ee6ef-135">msRTCSIP-UserEnabled</span><span class="sxs-lookup"><span data-stu-id="ee6ef-135">msRTCSIP-UserEnabled</span></span></p>
-<p><span data-ttu-id="ee6ef-136">msRTCSIP-UserExtension</span><span class="sxs-lookup"><span data-stu-id="ee6ef-136">msRTCSIP-UserExtension</span></span></p>
-<p><span data-ttu-id="ee6ef-137">msRTCSIP-UserLocationProfile</span><span class="sxs-lookup"><span data-stu-id="ee6ef-137">msRTCSIP-UserLocationProfile</span></span></p>
-<p><span data-ttu-id="ee6ef-138">msRTCSIP-UserPolicies</span><span class="sxs-lookup"><span data-stu-id="ee6ef-138">msRTCSIP-UserPolicies</span></span></p>
-<p><span data-ttu-id="ee6ef-139">msRTCSIP-UserPolicy</span><span class="sxs-lookup"><span data-stu-id="ee6ef-139">msRTCSIP-UserPolicy</span></span></p>
-<p><span data-ttu-id="ee6ef-140">msRTCSIP-UserRoutingGroupId</span><span class="sxs-lookup"><span data-stu-id="ee6ef-140">msRTCSIP-UserRoutingGroupId</span></span></p>
-<p><span data-ttu-id="ee6ef-141">ProxyAddresses</span><span class="sxs-lookup"><span data-stu-id="ee6ef-141">ProxyAddresses</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-110">連絡先</span><span class="sxs-lookup"><span data-stu-id="2f66a-110">Contact</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-111">Msds-sourceobjectdn</span><span class="sxs-lookup"><span data-stu-id="2f66a-111">msDS-SourceObjectDN</span></span></p>
+<p><span data-ttu-id="2f66a-112">msRTCSIP-AcpInfo</span><span class="sxs-lookup"><span data-stu-id="2f66a-112">msRTCSIP-AcpInfo</span></span></p>
+<p><span data-ttu-id="2f66a-113">msRTCSIP-ApplicationDestination</span><span class="sxs-lookup"><span data-stu-id="2f66a-113">msRTCSIP-ApplicationDestination</span></span></p>
+<p><span data-ttu-id="2f66a-114">msRTCSIP-ApplicationOptions</span><span class="sxs-lookup"><span data-stu-id="2f66a-114">msRTCSIP-ApplicationOptions</span></span></p>
+<p><span data-ttu-id="2f66a-115">msRTCSIP-ApplicationPrimaryLanguage</span><span class="sxs-lookup"><span data-stu-id="2f66a-115">msRTCSIP-ApplicationPrimaryLanguage</span></span></p>
+<p><span data-ttu-id="2f66a-116">msRTCSIP-ApplicationSecondaryLanguages</span><span class="sxs-lookup"><span data-stu-id="2f66a-116">msRTCSIP-ApplicationSecondaryLanguages</span></span></p>
+<p><span data-ttu-id="2f66a-117">msRTCSIP-ArchivingEnabled</span><span class="sxs-lookup"><span data-stu-id="2f66a-117">msRTCSIP-ArchivingEnabled</span></span></p>
+<p><span data-ttu-id="2f66a-118">msRTCSIP-DeploymentLocator</span><span class="sxs-lookup"><span data-stu-id="2f66a-118">msRTCSIP-DeploymentLocator</span></span></p>
+<p><span data-ttu-id="2f66a-119">msRTCSIP-FederationEnabled</span><span class="sxs-lookup"><span data-stu-id="2f66a-119">msRTCSIP-FederationEnabled</span></span></p>
+<p><span data-ttu-id="2f66a-120">msRTCSIP-GroupingID</span><span class="sxs-lookup"><span data-stu-id="2f66a-120">msRTCSIP-GroupingID</span></span></p>
+<p><span data-ttu-id="2f66a-121">msRTCSIP-InternetAccessEnabled</span><span class="sxs-lookup"><span data-stu-id="2f66a-121">msRTCSIP-InternetAccessEnabled</span></span></p>
+<p><span data-ttu-id="2f66a-122">msRTCSIP</span><span class="sxs-lookup"><span data-stu-id="2f66a-122">msRTCSIP-Line</span></span></p>
+<p><span data-ttu-id="2f66a-123">msRTCSIP</span><span class="sxs-lookup"><span data-stu-id="2f66a-123">msRTCSIP-LineServer</span></span></p>
+<p><span data-ttu-id="2f66a-124">msRTCSIP-OptionFlags</span><span class="sxs-lookup"><span data-stu-id="2f66a-124">msRTCSIP-OptionFlags</span></span></p>
+<p><span data-ttu-id="2f66a-125">msRTCSIP-の場合は、Sid</span><span class="sxs-lookup"><span data-stu-id="2f66a-125">msRTCSIP-OriginatorSid</span></span></p>
+<p><span data-ttu-id="2f66a-126">msRTCSIP-OwnerUrn</span><span class="sxs-lookup"><span data-stu-id="2f66a-126">msRTCSIP-OwnerUrn</span></span></p>
+<p><span data-ttu-id="2f66a-127">msRTCSIP-Msrtcsip-primaryhomeserver</span><span class="sxs-lookup"><span data-stu-id="2f66a-127">msRTCSIP-PrimaryHomeServer</span></span></p>
+<p><span data-ttu-id="2f66a-128">msRTCSIP-PrimaryUserAddress</span><span class="sxs-lookup"><span data-stu-id="2f66a-128">msRTCSIP-PrimaryUserAddress</span></span></p>
+<p><span data-ttu-id="2f66a-129">msRTCSIP-PrivateLine</span><span class="sxs-lookup"><span data-stu-id="2f66a-129">msRTCSIP-PrivateLine</span></span></p>
+<p><span data-ttu-id="2f66a-130">msRTCSIP-ProxyAddresses</span><span class="sxs-lookup"><span data-stu-id="2f66a-130">msRTCSIP-ProxyAddresses</span></span></p>
+<p><span data-ttu-id="2f66a-131">msRTCSIP-SourceObjectType</span><span class="sxs-lookup"><span data-stu-id="2f66a-131">msRTCSIP-SourceObjectType</span></span></p>
+<p><span data-ttu-id="2f66a-132">msRTCSIP-Targethoの場合</span><span class="sxs-lookup"><span data-stu-id="2f66a-132">msRTCSIP-TargetHomeServer</span></span></p>
+<p><span data-ttu-id="2f66a-133">msRTCSIP-TargetUserPolicies</span><span class="sxs-lookup"><span data-stu-id="2f66a-133">msRTCSIP-TargetUserPolicies</span></span></p>
+<p><span data-ttu-id="2f66a-134">msRTCSIP-TenantId</span><span class="sxs-lookup"><span data-stu-id="2f66a-134">msRTCSIP-TenantId</span></span></p>
+<p><span data-ttu-id="2f66a-135">msRTCSIP-UserEnabled</span><span class="sxs-lookup"><span data-stu-id="2f66a-135">msRTCSIP-UserEnabled</span></span></p>
+<p><span data-ttu-id="2f66a-136">msRTCSIP-UserExtension</span><span class="sxs-lookup"><span data-stu-id="2f66a-136">msRTCSIP-UserExtension</span></span></p>
+<p><span data-ttu-id="2f66a-137">msRTCSIP-UserLocationProfile</span><span class="sxs-lookup"><span data-stu-id="2f66a-137">msRTCSIP-UserLocationProfile</span></span></p>
+<p><span data-ttu-id="2f66a-138">msRTCSIP-UserPolicies</span><span class="sxs-lookup"><span data-stu-id="2f66a-138">msRTCSIP-UserPolicies</span></span></p>
+<p><span data-ttu-id="2f66a-139">msRTCSIP-UserPolicy</span><span class="sxs-lookup"><span data-stu-id="2f66a-139">msRTCSIP-UserPolicy</span></span></p>
+<p><span data-ttu-id="2f66a-140">msRTCSIP-UserRoutingGroupId</span><span class="sxs-lookup"><span data-stu-id="2f66a-140">msRTCSIP-UserRoutingGroupId</span></span></p>
+<p><span data-ttu-id="2f66a-141">ProxyAddresses</span><span class="sxs-lookup"><span data-stu-id="2f66a-141">ProxyAddresses</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ee6ef-142">Mail-Recipient</span><span class="sxs-lookup"><span data-stu-id="ee6ef-142">Mail-Recipient</span></span></p></td>
-<td><p><span data-ttu-id="ee6ef-143">msExchUCVoiceMailSettings</span><span class="sxs-lookup"><span data-stu-id="ee6ef-143">msExchUCVoiceMailSettings</span></span></p>
-<p><span data-ttu-id="ee6ef-144">msExchUserHoldPolicies</span><span class="sxs-lookup"><span data-stu-id="ee6ef-144">msExchUserHoldPolicies</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-142">Mail-Recipient</span><span class="sxs-lookup"><span data-stu-id="2f66a-142">Mail-Recipient</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-143">msExchUCVoiceMailSettings</span><span class="sxs-lookup"><span data-stu-id="2f66a-143">msExchUCVoiceMailSettings</span></span></p>
+<p><span data-ttu-id="2f66a-144">msExchUserHoldPolicies</span><span class="sxs-lookup"><span data-stu-id="2f66a-144">msExchUserHoldPolicies</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="ee6ef-145">msRTCSIP-ApplicationServerService</span><span class="sxs-lookup"><span data-stu-id="ee6ef-145">msRTCSIP-ApplicationServerService</span></span></p></td>
-<td><p><span data-ttu-id="ee6ef-146">msRTCSIP-ApplicationServerBL</span><span class="sxs-lookup"><span data-stu-id="ee6ef-146">msRTCSIP-ApplicationServerBL</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-145">msRTCSIP-ApplicationServerService</span><span class="sxs-lookup"><span data-stu-id="2f66a-145">msRTCSIP-ApplicationServerService</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-146">msRTCSIP-ApplicationServerBL</span><span class="sxs-lookup"><span data-stu-id="2f66a-146">msRTCSIP-ApplicationServerBL</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ee6ef-147">msRTCSIP-ApplicationServerSettings</span><span class="sxs-lookup"><span data-stu-id="ee6ef-147">msRTCSIP-ApplicationServerSettings</span></span></p></td>
-<td><p><span data-ttu-id="ee6ef-148">msRTCSIP-ApplicationList</span><span class="sxs-lookup"><span data-stu-id="ee6ef-148">msRTCSIP-ApplicationList</span></span></p>
-<p><span data-ttu-id="ee6ef-149">msRTCSIP-ApplicationServerPoolLink</span><span class="sxs-lookup"><span data-stu-id="ee6ef-149">msRTCSIP-ApplicationServerPoolLink</span></span></p>
-<p><span data-ttu-id="ee6ef-150">msRTCSIP-ExtensionData</span><span class="sxs-lookup"><span data-stu-id="ee6ef-150">msRTCSIP-ExtensionData</span></span></p>
-<p><span data-ttu-id="ee6ef-151">msRTCSIP-ServerVersion</span><span class="sxs-lookup"><span data-stu-id="ee6ef-151">msRTCSIP-ServerVersion</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-147">msRTCSIP-ApplicationServerSettings</span><span class="sxs-lookup"><span data-stu-id="2f66a-147">msRTCSIP-ApplicationServerSettings</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-148">msRTCSIP-ApplicationList</span><span class="sxs-lookup"><span data-stu-id="2f66a-148">msRTCSIP-ApplicationList</span></span></p>
+<p><span data-ttu-id="2f66a-149">msRTCSIP-ApplicationServerPoolLink</span><span class="sxs-lookup"><span data-stu-id="2f66a-149">msRTCSIP-ApplicationServerPoolLink</span></span></p>
+<p><span data-ttu-id="2f66a-150">msRTCSIP-ExtensionData</span><span class="sxs-lookup"><span data-stu-id="2f66a-150">msRTCSIP-ExtensionData</span></span></p>
+<p><span data-ttu-id="2f66a-151">msRTCSIP-ServerVersion</span><span class="sxs-lookup"><span data-stu-id="2f66a-151">msRTCSIP-ServerVersion</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="ee6ef-152">msRTCSIP-ConferenceDirectory</span><span class="sxs-lookup"><span data-stu-id="ee6ef-152">msRTCSIP-ConferenceDirectory</span></span></p></td>
-<td><p><span data-ttu-id="ee6ef-153">msRTCSIP-ConferenceDirectoryHomePool</span><span class="sxs-lookup"><span data-stu-id="ee6ef-153">msRTCSIP-ConferenceDirectoryHomePool</span></span></p>
-<p><span data-ttu-id="ee6ef-154">msRTCSIP-ConferenceDirectoryId</span><span class="sxs-lookup"><span data-stu-id="ee6ef-154">msRTCSIP-ConferenceDirectoryId</span></span></p>
-<p><span data-ttu-id="ee6ef-155">msRTCSIP-ConferenceDirectoryTargetPool</span><span class="sxs-lookup"><span data-stu-id="ee6ef-155">msRTCSIP-ConferenceDirectoryTargetPool</span></span></p>
-<p><span data-ttu-id="ee6ef-156">msRTCSIP-ExtensionData</span><span class="sxs-lookup"><span data-stu-id="ee6ef-156">msRTCSIP-ExtensionData</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-152">msRTCSIP-ConferenceDirectory</span><span class="sxs-lookup"><span data-stu-id="2f66a-152">msRTCSIP-ConferenceDirectory</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-153">msRTCSIP-ConferenceDirectoryHomePool</span><span class="sxs-lookup"><span data-stu-id="2f66a-153">msRTCSIP-ConferenceDirectoryHomePool</span></span></p>
+<p><span data-ttu-id="2f66a-154">msRTCSIP-ConferenceDirectoryId</span><span class="sxs-lookup"><span data-stu-id="2f66a-154">msRTCSIP-ConferenceDirectoryId</span></span></p>
+<p><span data-ttu-id="2f66a-155">msRTCSIP-ConferenceDirectoryTargetPool</span><span class="sxs-lookup"><span data-stu-id="2f66a-155">msRTCSIP-ConferenceDirectoryTargetPool</span></span></p>
+<p><span data-ttu-id="2f66a-156">msRTCSIP-ExtensionData</span><span class="sxs-lookup"><span data-stu-id="2f66a-156">msRTCSIP-ExtensionData</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ee6ef-157">msRTCSIP-DefaultCWABank</span><span class="sxs-lookup"><span data-stu-id="ee6ef-157">msRTCSIP-DefaultCWABank</span></span></p></td>
-<td><p><span data-ttu-id="ee6ef-158">msRTCSIP-DefaultCWAExternalURL</span><span class="sxs-lookup"><span data-stu-id="ee6ef-158">msRTCSIP-DefaultCWAExternalURL</span></span></p>
-<p><span data-ttu-id="ee6ef-159">msRTCSIP-DefaultCWAInternalURL</span><span class="sxs-lookup"><span data-stu-id="ee6ef-159">msRTCSIP-DefaultCWAInternalURL</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-157">msRTCSIP-DefaultCWABank</span><span class="sxs-lookup"><span data-stu-id="2f66a-157">msRTCSIP-DefaultCWABank</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-158">msRTCSIP-DefaultCWAExternalURL</span><span class="sxs-lookup"><span data-stu-id="2f66a-158">msRTCSIP-DefaultCWAExternalURL</span></span></p>
+<p><span data-ttu-id="2f66a-159">msRTCSIP-DefaultCWAInternalURL</span><span class="sxs-lookup"><span data-stu-id="2f66a-159">msRTCSIP-DefaultCWAInternalURL</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="ee6ef-160">msRTCSIP-ドメイン</span><span class="sxs-lookup"><span data-stu-id="ee6ef-160">msRTCSIP-Domain</span></span></p></td>
-<td><p><span data-ttu-id="ee6ef-161">msRTCSIP-既定値</span><span class="sxs-lookup"><span data-stu-id="ee6ef-161">msRTCSIP-Default</span></span></p>
-<p><span data-ttu-id="ee6ef-162">msRTCSIP-DomainData</span><span class="sxs-lookup"><span data-stu-id="ee6ef-162">msRTCSIP-DomainData</span></span></p>
-<p><span data-ttu-id="ee6ef-163">msRTCSIP-DomainName</span><span class="sxs-lookup"><span data-stu-id="ee6ef-163">msRTCSIP-DomainName</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-160">msRTCSIP-ドメイン</span><span class="sxs-lookup"><span data-stu-id="2f66a-160">msRTCSIP-Domain</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-161">msRTCSIP-既定値</span><span class="sxs-lookup"><span data-stu-id="2f66a-161">msRTCSIP-Default</span></span></p>
+<p><span data-ttu-id="2f66a-162">msRTCSIP-DomainData</span><span class="sxs-lookup"><span data-stu-id="2f66a-162">msRTCSIP-DomainData</span></span></p>
+<p><span data-ttu-id="2f66a-163">msRTCSIP-DomainName</span><span class="sxs-lookup"><span data-stu-id="2f66a-163">msRTCSIP-DomainName</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ee6ef-164">msRTCSIP-EdgeProxy</span><span class="sxs-lookup"><span data-stu-id="ee6ef-164">msRTCSIP-EdgeProxy</span></span></p></td>
-<td><p><span data-ttu-id="ee6ef-165">msRTCSIP-EdgeProxyData</span><span class="sxs-lookup"><span data-stu-id="ee6ef-165">msRTCSIP-EdgeProxyData</span></span></p>
-<p><span data-ttu-id="ee6ef-166">msRTCSIP-EdgeProxyFQDN</span><span class="sxs-lookup"><span data-stu-id="ee6ef-166">msRTCSIP-EdgeProxyFQDN</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-164">msRTCSIP-EdgeProxy</span><span class="sxs-lookup"><span data-stu-id="2f66a-164">msRTCSIP-EdgeProxy</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-165">msRTCSIP-EdgeProxyData</span><span class="sxs-lookup"><span data-stu-id="2f66a-165">msRTCSIP-EdgeProxyData</span></span></p>
+<p><span data-ttu-id="2f66a-166">msRTCSIP-EdgeProxyFQDN</span><span class="sxs-lookup"><span data-stu-id="2f66a-166">msRTCSIP-EdgeProxyFQDN</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="ee6ef-167">msRTCSIP-EnterpriseMCUSettings</span><span class="sxs-lookup"><span data-stu-id="ee6ef-167">msRTCSIP-EnterpriseMCUSettings</span></span></p></td>
-<td><p><span data-ttu-id="ee6ef-168">msRTCSIP-MCUData</span><span class="sxs-lookup"><span data-stu-id="ee6ef-168">msRTCSIP-MCUData</span></span></p>
-<p><span data-ttu-id="ee6ef-169">msRTCSIP-Msrtcsip-mcufactoryaddress です</span><span class="sxs-lookup"><span data-stu-id="ee6ef-169">msRTCSIP-MCUFactoryAddress</span></span></p>
-<p><span data-ttu-id="ee6ef-170">msRTCSIP-ServerVersion</span><span class="sxs-lookup"><span data-stu-id="ee6ef-170">msRTCSIP-ServerVersion</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-167">msRTCSIP-EnterpriseMCUSettings</span><span class="sxs-lookup"><span data-stu-id="2f66a-167">msRTCSIP-EnterpriseMCUSettings</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-168">msRTCSIP-MCUData</span><span class="sxs-lookup"><span data-stu-id="2f66a-168">msRTCSIP-MCUData</span></span></p>
+<p><span data-ttu-id="2f66a-169">msRTCSIP-Msrtcsip-mcufactoryaddress です</span><span class="sxs-lookup"><span data-stu-id="2f66a-169">msRTCSIP-MCUFactoryAddress</span></span></p>
+<p><span data-ttu-id="2f66a-170">msRTCSIP-ServerVersion</span><span class="sxs-lookup"><span data-stu-id="2f66a-170">msRTCSIP-ServerVersion</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ee6ef-171">msRTCSIP-EnterpriseMediationServerSettings</span><span class="sxs-lookup"><span data-stu-id="ee6ef-171">msRTCSIP-EnterpriseMediationServerSettings</span></span></p></td>
-<td><p><span data-ttu-id="ee6ef-172">msRTCSIP-ExtensionData</span><span class="sxs-lookup"><span data-stu-id="ee6ef-172">msRTCSIP-ExtensionData</span></span></p>
-<p><span data-ttu-id="ee6ef-173">msRTCSIP-ServerVersion</span><span class="sxs-lookup"><span data-stu-id="ee6ef-173">msRTCSIP-ServerVersion</span></span></p>
-<p><span data-ttu-id="ee6ef-174">msRTCSIP-Msrtcsip-trustedservicelinks です</span><span class="sxs-lookup"><span data-stu-id="ee6ef-174">msRTCSIP-TrustedServiceLinks</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-171">msRTCSIP-EnterpriseMediationServerSettings</span><span class="sxs-lookup"><span data-stu-id="2f66a-171">msRTCSIP-EnterpriseMediationServerSettings</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-172">msRTCSIP-ExtensionData</span><span class="sxs-lookup"><span data-stu-id="2f66a-172">msRTCSIP-ExtensionData</span></span></p>
+<p><span data-ttu-id="2f66a-173">msRTCSIP-ServerVersion</span><span class="sxs-lookup"><span data-stu-id="2f66a-173">msRTCSIP-ServerVersion</span></span></p>
+<p><span data-ttu-id="2f66a-174">msRTCSIP-Msrtcsip-trustedservicelinks です</span><span class="sxs-lookup"><span data-stu-id="2f66a-174">msRTCSIP-TrustedServiceLinks</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="ee6ef-175">msRTCSIP-EnterpriseServerSettings</span><span class="sxs-lookup"><span data-stu-id="ee6ef-175">msRTCSIP-EnterpriseServerSettings</span></span></p></td>
-<td><p><span data-ttu-id="ee6ef-176">msRTCSIP-EnterpriseServices</span><span class="sxs-lookup"><span data-stu-id="ee6ef-176">msRTCSIP-EnterpriseServices</span></span></p>
-<p><span data-ttu-id="ee6ef-177">msRTCSIP-PoolAddress</span><span class="sxs-lookup"><span data-stu-id="ee6ef-177">msRTCSIP-PoolAddress</span></span></p>
-<p><span data-ttu-id="ee6ef-178">msRTCSIP-ServerData</span><span class="sxs-lookup"><span data-stu-id="ee6ef-178">msRTCSIP-ServerData</span></span></p>
-<p><span data-ttu-id="ee6ef-179">msRTCSIP-ServerVersion</span><span class="sxs-lookup"><span data-stu-id="ee6ef-179">msRTCSIP-ServerVersion</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-175">msRTCSIP-EnterpriseServerSettings</span><span class="sxs-lookup"><span data-stu-id="2f66a-175">msRTCSIP-EnterpriseServerSettings</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-176">msRTCSIP-EnterpriseServices</span><span class="sxs-lookup"><span data-stu-id="2f66a-176">msRTCSIP-EnterpriseServices</span></span></p>
+<p><span data-ttu-id="2f66a-177">msRTCSIP-PoolAddress</span><span class="sxs-lookup"><span data-stu-id="2f66a-177">msRTCSIP-PoolAddress</span></span></p>
+<p><span data-ttu-id="2f66a-178">msRTCSIP-ServerData</span><span class="sxs-lookup"><span data-stu-id="2f66a-178">msRTCSIP-ServerData</span></span></p>
+<p><span data-ttu-id="2f66a-179">msRTCSIP-ServerVersion</span><span class="sxs-lookup"><span data-stu-id="2f66a-179">msRTCSIP-ServerVersion</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ee6ef-180">msRTCSIP-GlobalTopologySetting</span><span class="sxs-lookup"><span data-stu-id="ee6ef-180">msRTCSIP-GlobalTopologySetting</span></span></p></td>
-<td><p><span data-ttu-id="ee6ef-181">msRTCSIP-BackEndServer</span><span class="sxs-lookup"><span data-stu-id="ee6ef-181">msRTCSIP-BackEndServer</span></span></p>
-<p><span data-ttu-id="ee6ef-182">msRTCSIP-ExtensionData</span><span class="sxs-lookup"><span data-stu-id="ee6ef-182">msRTCSIP-ExtensionData</span></span></p>
-<p><span data-ttu-id="ee6ef-183">msRTCSIP-MirrorBackEndServer</span><span class="sxs-lookup"><span data-stu-id="ee6ef-183">msRTCSIP-MirrorBackEndServer</span></span></p>
-<p><span data-ttu-id="ee6ef-184">msRTCSIP-ServerVersion</span><span class="sxs-lookup"><span data-stu-id="ee6ef-184">msRTCSIP-ServerVersion</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-180">msRTCSIP-GlobalTopologySetting</span><span class="sxs-lookup"><span data-stu-id="2f66a-180">msRTCSIP-GlobalTopologySetting</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-181">msRTCSIP-BackEndServer</span><span class="sxs-lookup"><span data-stu-id="2f66a-181">msRTCSIP-BackEndServer</span></span></p>
+<p><span data-ttu-id="2f66a-182">msRTCSIP-ExtensionData</span><span class="sxs-lookup"><span data-stu-id="2f66a-182">msRTCSIP-ExtensionData</span></span></p>
+<p><span data-ttu-id="2f66a-183">msRTCSIP-MirrorBackEndServer</span><span class="sxs-lookup"><span data-stu-id="2f66a-183">msRTCSIP-MirrorBackEndServer</span></span></p>
+<p><span data-ttu-id="2f66a-184">msRTCSIP-ServerVersion</span><span class="sxs-lookup"><span data-stu-id="2f66a-184">msRTCSIP-ServerVersion</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="ee6ef-185">msRTCSIP-LocalNormalization</span><span class="sxs-lookup"><span data-stu-id="ee6ef-185">msRTCSIP-LocalNormalization</span></span></p></td>
-<td><p><span data-ttu-id="ee6ef-186">msRTCSIP-LocalNormalizationOptions</span><span class="sxs-lookup"><span data-stu-id="ee6ef-186">msRTCSIP-LocalNormalizationOptions</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-185">msRTCSIP-LocalNormalization</span><span class="sxs-lookup"><span data-stu-id="2f66a-185">msRTCSIP-LocalNormalization</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-186">msRTCSIP-LocalNormalizationOptions</span><span class="sxs-lookup"><span data-stu-id="2f66a-186">msRTCSIP-LocalNormalizationOptions</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ee6ef-187">msRTCSIP-LocationContactMapping</span><span class="sxs-lookup"><span data-stu-id="ee6ef-187">msRTCSIP-LocationContactMapping</span></span></p></td>
-<td><p><span data-ttu-id="ee6ef-188">msRTCSIP-ExtensionData</span><span class="sxs-lookup"><span data-stu-id="ee6ef-188">msRTCSIP-ExtensionData</span></span></p>
-<p><span data-ttu-id="ee6ef-189">msRTCSIP-MappingContact</span><span class="sxs-lookup"><span data-stu-id="ee6ef-189">msRTCSIP-MappingContact</span></span></p>
-<p><span data-ttu-id="ee6ef-190">msRTCSIP-MappingLocation</span><span class="sxs-lookup"><span data-stu-id="ee6ef-190">msRTCSIP-MappingLocation</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-187">msRTCSIP-LocationContactMapping</span><span class="sxs-lookup"><span data-stu-id="2f66a-187">msRTCSIP-LocationContactMapping</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-188">msRTCSIP-ExtensionData</span><span class="sxs-lookup"><span data-stu-id="2f66a-188">msRTCSIP-ExtensionData</span></span></p>
+<p><span data-ttu-id="2f66a-189">msRTCSIP-MappingContact</span><span class="sxs-lookup"><span data-stu-id="2f66a-189">msRTCSIP-MappingContact</span></span></p>
+<p><span data-ttu-id="2f66a-190">msRTCSIP-MappingLocation</span><span class="sxs-lookup"><span data-stu-id="2f66a-190">msRTCSIP-MappingLocation</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="ee6ef-191">msRTCSIP-LocationProfile</span><span class="sxs-lookup"><span data-stu-id="ee6ef-191">msRTCSIP-LocationProfile</span></span></p></td>
-<td><p><span data-ttu-id="ee6ef-192">msRTCSIP-ExternalAccessCode</span><span class="sxs-lookup"><span data-stu-id="ee6ef-192">msRTCSIP-ExternalAccessCode</span></span></p>
-<p><span data-ttu-id="ee6ef-193">msRTCSIP-LocationProfileOptions</span><span class="sxs-lookup"><span data-stu-id="ee6ef-193">msRTCSIP-LocationProfileOptions</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-191">msRTCSIP-LocationProfile</span><span class="sxs-lookup"><span data-stu-id="2f66a-191">msRTCSIP-LocationProfile</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-192">msRTCSIP-ExternalAccessCode</span><span class="sxs-lookup"><span data-stu-id="2f66a-192">msRTCSIP-ExternalAccessCode</span></span></p>
+<p><span data-ttu-id="2f66a-193">msRTCSIP-LocationProfileOptions</span><span class="sxs-lookup"><span data-stu-id="2f66a-193">msRTCSIP-LocationProfileOptions</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ee6ef-194">msRTCSIP-MCUFactory</span><span class="sxs-lookup"><span data-stu-id="ee6ef-194">msRTCSIP-MCUFactory</span></span></p></td>
-<td><p><span data-ttu-id="ee6ef-195">msRTCSIP-MCUFactoryData</span><span class="sxs-lookup"><span data-stu-id="ee6ef-195">msRTCSIP-MCUFactoryData</span></span></p>
-<p><span data-ttu-id="ee6ef-196">msRTCSIP-MCUFactoryProviderID</span><span class="sxs-lookup"><span data-stu-id="ee6ef-196">msRTCSIP-MCUFactoryProviderID</span></span></p>
-<p><span data-ttu-id="ee6ef-197">msRTCSIP-MCUServers ユーザー</span><span class="sxs-lookup"><span data-stu-id="ee6ef-197">msRTCSIP-MCUServers</span></span></p>
-<p><span data-ttu-id="ee6ef-198">msRTCSIP-MCUType</span><span class="sxs-lookup"><span data-stu-id="ee6ef-198">msRTCSIP-MCUType</span></span></p>
-<p><span data-ttu-id="ee6ef-199">msRTCSIP-MCUVendor</span><span class="sxs-lookup"><span data-stu-id="ee6ef-199">msRTCSIP-MCUVendor</span></span></p>
-<p><span data-ttu-id="ee6ef-200">msRTCSIP-PoolAddresses</span><span class="sxs-lookup"><span data-stu-id="ee6ef-200">msRTCSIP-PoolAddresses</span></span></p>
-<p><span data-ttu-id="ee6ef-201">msRTCSIP-ServerVersion</span><span class="sxs-lookup"><span data-stu-id="ee6ef-201">msRTCSIP-ServerVersion</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-194">msRTCSIP-MCUFactory</span><span class="sxs-lookup"><span data-stu-id="2f66a-194">msRTCSIP-MCUFactory</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-195">msRTCSIP-MCUFactoryData</span><span class="sxs-lookup"><span data-stu-id="2f66a-195">msRTCSIP-MCUFactoryData</span></span></p>
+<p><span data-ttu-id="2f66a-196">msRTCSIP-MCUFactoryProviderID</span><span class="sxs-lookup"><span data-stu-id="2f66a-196">msRTCSIP-MCUFactoryProviderID</span></span></p>
+<p><span data-ttu-id="2f66a-197">msRTCSIP-MCUServers ユーザー</span><span class="sxs-lookup"><span data-stu-id="2f66a-197">msRTCSIP-MCUServers</span></span></p>
+<p><span data-ttu-id="2f66a-198">msRTCSIP-MCUType</span><span class="sxs-lookup"><span data-stu-id="2f66a-198">msRTCSIP-MCUType</span></span></p>
+<p><span data-ttu-id="2f66a-199">msRTCSIP-MCUVendor</span><span class="sxs-lookup"><span data-stu-id="2f66a-199">msRTCSIP-MCUVendor</span></span></p>
+<p><span data-ttu-id="2f66a-200">msRTCSIP-PoolAddresses</span><span class="sxs-lookup"><span data-stu-id="2f66a-200">msRTCSIP-PoolAddresses</span></span></p>
+<p><span data-ttu-id="2f66a-201">msRTCSIP-ServerVersion</span><span class="sxs-lookup"><span data-stu-id="2f66a-201">msRTCSIP-ServerVersion</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="ee6ef-202">msRTCSIP-MCUFactoryService</span><span class="sxs-lookup"><span data-stu-id="ee6ef-202">msRTCSIP-MCUFactoryService</span></span></p></td>
-<td><p><span data-ttu-id="ee6ef-203">msRTCSIP-Msrtcsip-mcufactorypath</span><span class="sxs-lookup"><span data-stu-id="ee6ef-203">msRTCSIP-MCUFactoryPath</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-202">msRTCSIP-MCUFactoryService</span><span class="sxs-lookup"><span data-stu-id="2f66a-202">msRTCSIP-MCUFactoryService</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-203">msRTCSIP-Msrtcsip-mcufactorypath</span><span class="sxs-lookup"><span data-stu-id="2f66a-203">msRTCSIP-MCUFactoryPath</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ee6ef-204">msRTCSIP</span><span class="sxs-lookup"><span data-stu-id="ee6ef-204">msRTCSIP-Mobility</span></span></p></td>
-<td><p><span data-ttu-id="ee6ef-205">msRTCSIP-MobilityFlags</span><span class="sxs-lookup"><span data-stu-id="ee6ef-205">msRTCSIP-MobilityFlags</span></span></p>
-<p><span data-ttu-id="ee6ef-206">msRTCSIP-MobilityPolicy</span><span class="sxs-lookup"><span data-stu-id="ee6ef-206">msRTCSIP-MobilityPolicy</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-204">msRTCSIP</span><span class="sxs-lookup"><span data-stu-id="2f66a-204">msRTCSIP-Mobility</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-205">msRTCSIP-MobilityFlags</span><span class="sxs-lookup"><span data-stu-id="2f66a-205">msRTCSIP-MobilityFlags</span></span></p>
+<p><span data-ttu-id="2f66a-206">msRTCSIP-MobilityPolicy</span><span class="sxs-lookup"><span data-stu-id="2f66a-206">msRTCSIP-MobilityPolicy</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="ee6ef-207">msRTCSIP-MonitoringServer</span><span class="sxs-lookup"><span data-stu-id="ee6ef-207">msRTCSIP-MonitoringServer</span></span></p></td>
-<td><p><span data-ttu-id="ee6ef-208">dnsHostName</span><span class="sxs-lookup"><span data-stu-id="ee6ef-208">dnsHostName</span></span></p>
-<p><span data-ttu-id="ee6ef-209">msRTCSIP-ExtensionData</span><span class="sxs-lookup"><span data-stu-id="ee6ef-209">msRTCSIP-ExtensionData</span></span></p>
-<p><span data-ttu-id="ee6ef-210">msRTCSIP-ServerVersion</span><span class="sxs-lookup"><span data-stu-id="ee6ef-210">msRTCSIP-ServerVersion</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-207">msRTCSIP-MonitoringServer</span><span class="sxs-lookup"><span data-stu-id="2f66a-207">msRTCSIP-MonitoringServer</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-208">dnsHostName</span><span class="sxs-lookup"><span data-stu-id="2f66a-208">dnsHostName</span></span></p>
+<p><span data-ttu-id="2f66a-209">msRTCSIP-ExtensionData</span><span class="sxs-lookup"><span data-stu-id="2f66a-209">msRTCSIP-ExtensionData</span></span></p>
+<p><span data-ttu-id="2f66a-210">msRTCSIP-ServerVersion</span><span class="sxs-lookup"><span data-stu-id="2f66a-210">msRTCSIP-ServerVersion</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ee6ef-211">msRTCSIP</span><span class="sxs-lookup"><span data-stu-id="ee6ef-211">msRTCSIP-Pool</span></span></p></td>
-<td><p><span data-ttu-id="ee6ef-212">msRTCSIP-ApplicationList</span><span class="sxs-lookup"><span data-stu-id="ee6ef-212">msRTCSIP-ApplicationList</span></span></p>
-<p><span data-ttu-id="ee6ef-213">msRTCSIP-BackEndServer</span><span class="sxs-lookup"><span data-stu-id="ee6ef-213">msRTCSIP-BackEndServer</span></span></p>
-<p><span data-ttu-id="ee6ef-214">msRTCSIP-dnsHostName</span><span class="sxs-lookup"><span data-stu-id="ee6ef-214">msRTCSIP-dnsHostName</span></span></p>
-<p><span data-ttu-id="ee6ef-215">msRTCSIP-PoolData</span><span class="sxs-lookup"><span data-stu-id="ee6ef-215">msRTCSIP-PoolData</span></span></p>
-<p><span data-ttu-id="ee6ef-216">msRTCSIP-PoolDisplayName</span><span class="sxs-lookup"><span data-stu-id="ee6ef-216">msRTCSIP-PoolDisplayName</span></span></p>
-<p><span data-ttu-id="ee6ef-217">msRTCSIP-PoolDomainFQDN</span><span class="sxs-lookup"><span data-stu-id="ee6ef-217">msRTCSIP-PoolDomainFQDN</span></span></p>
-<p><span data-ttu-id="ee6ef-218">msRTCSIP-PoolFunctionality</span><span class="sxs-lookup"><span data-stu-id="ee6ef-218">msRTCSIP-PoolFunctionality</span></span></p>
-<p><span data-ttu-id="ee6ef-219">msRTCSIP-PoolType</span><span class="sxs-lookup"><span data-stu-id="ee6ef-219">msRTCSIP-PoolType</span></span></p>
-<p><span data-ttu-id="ee6ef-220">msRTCSIP-PoolVersion</span><span class="sxs-lookup"><span data-stu-id="ee6ef-220">msRTCSIP-PoolVersion</span></span></p>
-<p><span data-ttu-id="ee6ef-221">msRTCSIP-Msrtcsip-trustedservicelinks です</span><span class="sxs-lookup"><span data-stu-id="ee6ef-221">msRTCSIP-TrustedServiceLinks</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-211">msRTCSIP</span><span class="sxs-lookup"><span data-stu-id="2f66a-211">msRTCSIP-Pool</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-212">msRTCSIP-ApplicationList</span><span class="sxs-lookup"><span data-stu-id="2f66a-212">msRTCSIP-ApplicationList</span></span></p>
+<p><span data-ttu-id="2f66a-213">msRTCSIP-BackEndServer</span><span class="sxs-lookup"><span data-stu-id="2f66a-213">msRTCSIP-BackEndServer</span></span></p>
+<p><span data-ttu-id="2f66a-214">msRTCSIP-dnsHostName</span><span class="sxs-lookup"><span data-stu-id="2f66a-214">msRTCSIP-dnsHostName</span></span></p>
+<p><span data-ttu-id="2f66a-215">msRTCSIP-PoolData</span><span class="sxs-lookup"><span data-stu-id="2f66a-215">msRTCSIP-PoolData</span></span></p>
+<p><span data-ttu-id="2f66a-216">msRTCSIP-PoolDisplayName</span><span class="sxs-lookup"><span data-stu-id="2f66a-216">msRTCSIP-PoolDisplayName</span></span></p>
+<p><span data-ttu-id="2f66a-217">msRTCSIP-PoolDomainFQDN</span><span class="sxs-lookup"><span data-stu-id="2f66a-217">msRTCSIP-PoolDomainFQDN</span></span></p>
+<p><span data-ttu-id="2f66a-218">msRTCSIP-PoolFunctionality</span><span class="sxs-lookup"><span data-stu-id="2f66a-218">msRTCSIP-PoolFunctionality</span></span></p>
+<p><span data-ttu-id="2f66a-219">msRTCSIP-PoolType</span><span class="sxs-lookup"><span data-stu-id="2f66a-219">msRTCSIP-PoolType</span></span></p>
+<p><span data-ttu-id="2f66a-220">msRTCSIP-PoolVersion</span><span class="sxs-lookup"><span data-stu-id="2f66a-220">msRTCSIP-PoolVersion</span></span></p>
+<p><span data-ttu-id="2f66a-221">msRTCSIP-Msrtcsip-trustedservicelinks です</span><span class="sxs-lookup"><span data-stu-id="2f66a-221">msRTCSIP-TrustedServiceLinks</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="ee6ef-222">msRTCSIP-PoolService</span><span class="sxs-lookup"><span data-stu-id="ee6ef-222">msRTCSIP-PoolService</span></span></p></td>
-<td><p><span data-ttu-id="ee6ef-223">msRTCSIP-FrontEndServers</span><span class="sxs-lookup"><span data-stu-id="ee6ef-223">msRTCSIP-FrontEndServers</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-222">msRTCSIP-PoolService</span><span class="sxs-lookup"><span data-stu-id="2f66a-222">msRTCSIP-PoolService</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-223">msRTCSIP-FrontEndServers</span><span class="sxs-lookup"><span data-stu-id="2f66a-223">msRTCSIP-FrontEndServers</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ee6ef-224">msRTCSIP-プレゼンス</span><span class="sxs-lookup"><span data-stu-id="ee6ef-224">msRTCSIP-Presence</span></span></p></td>
-<td><p><span data-ttu-id="ee6ef-225">msRTCSIP-PresenceFlags</span><span class="sxs-lookup"><span data-stu-id="ee6ef-225">msRTCSIP-PresenceFlags</span></span></p>
-<p><span data-ttu-id="ee6ef-226">msRTCSIP-PresencePolicy</span><span class="sxs-lookup"><span data-stu-id="ee6ef-226">msRTCSIP-PresencePolicy</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-224">msRTCSIP-プレゼンス</span><span class="sxs-lookup"><span data-stu-id="2f66a-224">msRTCSIP-Presence</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-225">msRTCSIP-PresenceFlags</span><span class="sxs-lookup"><span data-stu-id="2f66a-225">msRTCSIP-PresenceFlags</span></span></p>
+<p><span data-ttu-id="2f66a-226">msRTCSIP-PresencePolicy</span><span class="sxs-lookup"><span data-stu-id="2f66a-226">msRTCSIP-PresencePolicy</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="ee6ef-227">msRTCSIP-TrustedMCU</span><span class="sxs-lookup"><span data-stu-id="ee6ef-227">msRTCSIP-TrustedMCU</span></span></p></td>
-<td><p><span data-ttu-id="ee6ef-228">msRTCSIP-MCUType</span><span class="sxs-lookup"><span data-stu-id="ee6ef-228">msRTCSIP-MCUType</span></span></p>
-<p><span data-ttu-id="ee6ef-229">msRTCSIP-MCUVendor</span><span class="sxs-lookup"><span data-stu-id="ee6ef-229">msRTCSIP-MCUVendor</span></span></p>
-<p><span data-ttu-id="ee6ef-230">msRTCSIP-RoutingPoolDN</span><span class="sxs-lookup"><span data-stu-id="ee6ef-230">msRTCSIP-RoutingPoolDN</span></span></p>
-<p><span data-ttu-id="ee6ef-231">msRTCSIP-TrustedMCUData</span><span class="sxs-lookup"><span data-stu-id="ee6ef-231">msRTCSIP-TrustedMCUData</span></span></p>
-<p><span data-ttu-id="ee6ef-232">msRTCSIP-TrustedMCUFQDN</span><span class="sxs-lookup"><span data-stu-id="ee6ef-232">msRTCSIP-TrustedMCUFQDN</span></span></p>
-<p><span data-ttu-id="ee6ef-233">msRTCSIP-TrustedServerVersion</span><span class="sxs-lookup"><span data-stu-id="ee6ef-233">msRTCSIP-TrustedServerVersion</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-227">msRTCSIP-TrustedMCU</span><span class="sxs-lookup"><span data-stu-id="2f66a-227">msRTCSIP-TrustedMCU</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-228">msRTCSIP-MCUType</span><span class="sxs-lookup"><span data-stu-id="2f66a-228">msRTCSIP-MCUType</span></span></p>
+<p><span data-ttu-id="2f66a-229">msRTCSIP-MCUVendor</span><span class="sxs-lookup"><span data-stu-id="2f66a-229">msRTCSIP-MCUVendor</span></span></p>
+<p><span data-ttu-id="2f66a-230">msRTCSIP-RoutingPoolDN</span><span class="sxs-lookup"><span data-stu-id="2f66a-230">msRTCSIP-RoutingPoolDN</span></span></p>
+<p><span data-ttu-id="2f66a-231">msRTCSIP-TrustedMCUData</span><span class="sxs-lookup"><span data-stu-id="2f66a-231">msRTCSIP-TrustedMCUData</span></span></p>
+<p><span data-ttu-id="2f66a-232">msRTCSIP-TrustedMCUFQDN</span><span class="sxs-lookup"><span data-stu-id="2f66a-232">msRTCSIP-TrustedMCUFQDN</span></span></p>
+<p><span data-ttu-id="2f66a-233">msRTCSIP-TrustedServerVersion</span><span class="sxs-lookup"><span data-stu-id="2f66a-233">msRTCSIP-TrustedServerVersion</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ee6ef-234">msRTCSIP-TrustedProxy</span><span class="sxs-lookup"><span data-stu-id="ee6ef-234">msRTCSIP-TrustedProxy</span></span></p></td>
-<td><p><span data-ttu-id="ee6ef-235">msRTCSIP-TrustedProxyData</span><span class="sxs-lookup"><span data-stu-id="ee6ef-235">msRTCSIP-TrustedProxyData</span></span></p>
-<p><span data-ttu-id="ee6ef-236">msRTCSIP-TrustedProxyFQDN</span><span class="sxs-lookup"><span data-stu-id="ee6ef-236">msRTCSIP-TrustedProxyFQDN</span></span></p>
-<p><span data-ttu-id="ee6ef-237">msRTCSIP-TrustedServerVersion</span><span class="sxs-lookup"><span data-stu-id="ee6ef-237">msRTCSIP-TrustedServerVersion</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-234">msRTCSIP-TrustedProxy</span><span class="sxs-lookup"><span data-stu-id="2f66a-234">msRTCSIP-TrustedProxy</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-235">msRTCSIP-TrustedProxyData</span><span class="sxs-lookup"><span data-stu-id="2f66a-235">msRTCSIP-TrustedProxyData</span></span></p>
+<p><span data-ttu-id="2f66a-236">msRTCSIP-TrustedProxyFQDN</span><span class="sxs-lookup"><span data-stu-id="2f66a-236">msRTCSIP-TrustedProxyFQDN</span></span></p>
+<p><span data-ttu-id="2f66a-237">msRTCSIP-TrustedServerVersion</span><span class="sxs-lookup"><span data-stu-id="2f66a-237">msRTCSIP-TrustedServerVersion</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="ee6ef-238">msRTCSIP-TrustedServer</span><span class="sxs-lookup"><span data-stu-id="ee6ef-238">msRTCSIP-TrustedServer</span></span></p></td>
-<td><p><span data-ttu-id="ee6ef-239">msRTCSIP-TrustedServerData</span><span class="sxs-lookup"><span data-stu-id="ee6ef-239">msRTCSIP-TrustedServerData</span></span></p>
-<p><span data-ttu-id="ee6ef-240">msRTCSIP-TrustedServerFQDN</span><span class="sxs-lookup"><span data-stu-id="ee6ef-240">msRTCSIP-TrustedServerFQDN</span></span></p>
-<p><span data-ttu-id="ee6ef-241">msRTCSIP-TrustedServerVersion</span><span class="sxs-lookup"><span data-stu-id="ee6ef-241">msRTCSIP-TrustedServerVersion</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-238">msRTCSIP-TrustedServer</span><span class="sxs-lookup"><span data-stu-id="2f66a-238">msRTCSIP-TrustedServer</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-239">msRTCSIP-TrustedServerData</span><span class="sxs-lookup"><span data-stu-id="2f66a-239">msRTCSIP-TrustedServerData</span></span></p>
+<p><span data-ttu-id="2f66a-240">msRTCSIP-TrustedServerFQDN</span><span class="sxs-lookup"><span data-stu-id="2f66a-240">msRTCSIP-TrustedServerFQDN</span></span></p>
+<p><span data-ttu-id="2f66a-241">msRTCSIP-TrustedServerVersion</span><span class="sxs-lookup"><span data-stu-id="2f66a-241">msRTCSIP-TrustedServerVersion</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ee6ef-242">msRTCSIP-TrustedService</span><span class="sxs-lookup"><span data-stu-id="ee6ef-242">msRTCSIP-TrustedService</span></span></p></td>
-<td><p><span data-ttu-id="ee6ef-243">msRTCSIP-ExtensionData</span><span class="sxs-lookup"><span data-stu-id="ee6ef-243">msRTCSIP-ExtensionData</span></span></p>
-<p><span data-ttu-id="ee6ef-244">msRTCSIP ルーティング可能</span><span class="sxs-lookup"><span data-stu-id="ee6ef-244">msRTCSIP-Routable</span></span></p>
-<p><span data-ttu-id="ee6ef-245">msRTCSIP-RoutingPoolDN</span><span class="sxs-lookup"><span data-stu-id="ee6ef-245">msRTCSIP-RoutingPoolDN</span></span></p>
-<p><span data-ttu-id="ee6ef-246">msRTCSIP-ServerBL</span><span class="sxs-lookup"><span data-stu-id="ee6ef-246">msRTCSIP-ServerBL</span></span></p>
-<p><span data-ttu-id="ee6ef-247">msRTCSIP-TrustedServerFQDN</span><span class="sxs-lookup"><span data-stu-id="ee6ef-247">msRTCSIP-TrustedServerFQDN</span></span></p>
-<p><span data-ttu-id="ee6ef-248">msRTCSIP-TrustedServerVersion</span><span class="sxs-lookup"><span data-stu-id="ee6ef-248">msRTCSIP-TrustedServerVersion</span></span></p>
-<p><span data-ttu-id="ee6ef-249">msRTCSIP-TrustedServiceFlags</span><span class="sxs-lookup"><span data-stu-id="ee6ef-249">msRTCSIP-TrustedServiceFlags</span></span></p>
-<p><span data-ttu-id="ee6ef-250">msRTCSIP-TrustedServicePort</span><span class="sxs-lookup"><span data-stu-id="ee6ef-250">msRTCSIP-TrustedServicePort</span></span></p>
-<p><span data-ttu-id="ee6ef-251">msRTCSIP-TrustedServiceType</span><span class="sxs-lookup"><span data-stu-id="ee6ef-251">msRTCSIP-TrustedServiceType</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-242">msRTCSIP-TrustedService</span><span class="sxs-lookup"><span data-stu-id="2f66a-242">msRTCSIP-TrustedService</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-243">msRTCSIP-ExtensionData</span><span class="sxs-lookup"><span data-stu-id="2f66a-243">msRTCSIP-ExtensionData</span></span></p>
+<p><span data-ttu-id="2f66a-244">msRTCSIP ルーティング可能</span><span class="sxs-lookup"><span data-stu-id="2f66a-244">msRTCSIP-Routable</span></span></p>
+<p><span data-ttu-id="2f66a-245">msRTCSIP-RoutingPoolDN</span><span class="sxs-lookup"><span data-stu-id="2f66a-245">msRTCSIP-RoutingPoolDN</span></span></p>
+<p><span data-ttu-id="2f66a-246">msRTCSIP-ServerBL</span><span class="sxs-lookup"><span data-stu-id="2f66a-246">msRTCSIP-ServerBL</span></span></p>
+<p><span data-ttu-id="2f66a-247">msRTCSIP-TrustedServerFQDN</span><span class="sxs-lookup"><span data-stu-id="2f66a-247">msRTCSIP-TrustedServerFQDN</span></span></p>
+<p><span data-ttu-id="2f66a-248">msRTCSIP-TrustedServerVersion</span><span class="sxs-lookup"><span data-stu-id="2f66a-248">msRTCSIP-TrustedServerVersion</span></span></p>
+<p><span data-ttu-id="2f66a-249">msRTCSIP-TrustedServiceFlags</span><span class="sxs-lookup"><span data-stu-id="2f66a-249">msRTCSIP-TrustedServiceFlags</span></span></p>
+<p><span data-ttu-id="2f66a-250">msRTCSIP-TrustedServicePort</span><span class="sxs-lookup"><span data-stu-id="2f66a-250">msRTCSIP-TrustedServicePort</span></span></p>
+<p><span data-ttu-id="2f66a-251">msRTCSIP-TrustedServiceType</span><span class="sxs-lookup"><span data-stu-id="2f66a-251">msRTCSIP-TrustedServiceType</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="ee6ef-252">msRTCSIP-Trustedwebコンポーネントサーバー</span><span class="sxs-lookup"><span data-stu-id="ee6ef-252">msRTCSIP-TrustedWebComponentsServer</span></span></p></td>
-<td><p><span data-ttu-id="ee6ef-253">msRTCSIP-Trustedwebコンポーネント Serverdata</span><span class="sxs-lookup"><span data-stu-id="ee6ef-253">msRTCSIP-TrustedWebComponentsServerData</span></span></p>
-<p><span data-ttu-id="ee6ef-254">msRTCSIP-Trustedwebコンポーネント Serverfqdn</span><span class="sxs-lookup"><span data-stu-id="ee6ef-254">msRTCSIP-TrustedWebComponentsServerFQDN</span></span></p>
-<p><span data-ttu-id="ee6ef-255">msRTCSIP-TrustedServerVersion</span><span class="sxs-lookup"><span data-stu-id="ee6ef-255">msRTCSIP-TrustedServerVersion</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-252">msRTCSIP-Trustedwebコンポーネントサーバー</span><span class="sxs-lookup"><span data-stu-id="2f66a-252">msRTCSIP-TrustedWebComponentsServer</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-253">msRTCSIP-Trustedwebコンポーネント Serverdata</span><span class="sxs-lookup"><span data-stu-id="2f66a-253">msRTCSIP-TrustedWebComponentsServerData</span></span></p>
+<p><span data-ttu-id="2f66a-254">msRTCSIP-Trustedwebコンポーネント Serverfqdn</span><span class="sxs-lookup"><span data-stu-id="2f66a-254">msRTCSIP-TrustedWebComponentsServerFQDN</span></span></p>
+<p><span data-ttu-id="2f66a-255">msRTCSIP-TrustedServerVersion</span><span class="sxs-lookup"><span data-stu-id="2f66a-255">msRTCSIP-TrustedServerVersion</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ee6ef-256">msRTCSIP-Webコンポーネントサービス</span><span class="sxs-lookup"><span data-stu-id="ee6ef-256">msRTCSIP-WebComponentsService</span></span></p></td>
-<td><p><span data-ttu-id="ee6ef-257">msRTCSIP-Webコンポーネントサーバー</span><span class="sxs-lookup"><span data-stu-id="ee6ef-257">msRTCSIP-WebComponentsServers</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-256">msRTCSIP-Webコンポーネントサービス</span><span class="sxs-lookup"><span data-stu-id="2f66a-256">msRTCSIP-WebComponentsService</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-257">msRTCSIP-Webコンポーネントサーバー</span><span class="sxs-lookup"><span data-stu-id="2f66a-257">msRTCSIP-WebComponentsServers</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="ee6ef-258">msRTCSIP-WebComponentSettings</span><span class="sxs-lookup"><span data-stu-id="ee6ef-258">msRTCSIP-WebComponentSettings</span></span></p></td>
-<td><p><span data-ttu-id="ee6ef-259">msRTCSIP-Webコンポーネントデータ</span><span class="sxs-lookup"><span data-stu-id="ee6ef-259">msRTCSIP-WebComponentsData</span></span></p>
-<p><span data-ttu-id="ee6ef-260">msRTCSIP-Msrtcsip-webcomponentspooladdress</span><span class="sxs-lookup"><span data-stu-id="ee6ef-260">msRTCSIP-WebComponentsPoolAddress</span></span></p>
-<p><span data-ttu-id="ee6ef-261">msRTCSIP-ServerVersion</span><span class="sxs-lookup"><span data-stu-id="ee6ef-261">msRTCSIP-ServerVersion</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-258">msRTCSIP-WebComponentSettings</span><span class="sxs-lookup"><span data-stu-id="2f66a-258">msRTCSIP-WebComponentSettings</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-259">msRTCSIP-Webコンポーネントデータ</span><span class="sxs-lookup"><span data-stu-id="2f66a-259">msRTCSIP-WebComponentsData</span></span></p>
+<p><span data-ttu-id="2f66a-260">msRTCSIP-Msrtcsip-webcomponentspooladdress</span><span class="sxs-lookup"><span data-stu-id="2f66a-260">msRTCSIP-WebComponentsPoolAddress</span></span></p>
+<p><span data-ttu-id="2f66a-261">msRTCSIP-ServerVersion</span><span class="sxs-lookup"><span data-stu-id="2f66a-261">msRTCSIP-ServerVersion</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ee6ef-262">ユーザー</span><span class="sxs-lookup"><span data-stu-id="ee6ef-262">User</span></span></p></td>
-<td><p><span data-ttu-id="ee6ef-263">msRTCSIP-AcpInfo</span><span class="sxs-lookup"><span data-stu-id="ee6ef-263">msRTCSIP-AcpInfo</span></span></p>
-<p><span data-ttu-id="ee6ef-264">msRTCSIP-ApplicationOptions</span><span class="sxs-lookup"><span data-stu-id="ee6ef-264">msRTCSIP-ApplicationOptions</span></span></p>
-<p><span data-ttu-id="ee6ef-265">msRTCSIP-ArchivingEnabled</span><span class="sxs-lookup"><span data-stu-id="ee6ef-265">msRTCSIP-ArchivingEnabled</span></span></p>
-<p><span data-ttu-id="ee6ef-266">msRTCSIP-DeploymentLocator</span><span class="sxs-lookup"><span data-stu-id="ee6ef-266">msRTCSIP-DeploymentLocator</span></span></p>
-<p><span data-ttu-id="ee6ef-267">msRTCSIP-FederationEnabled</span><span class="sxs-lookup"><span data-stu-id="ee6ef-267">msRTCSIP-FederationEnabled</span></span></p>
-<p><span data-ttu-id="ee6ef-268">msRTCSIP-GroupingID</span><span class="sxs-lookup"><span data-stu-id="ee6ef-268">msRTCSIP-GroupingID</span></span></p>
-<p><span data-ttu-id="ee6ef-269">msRTCSIP-InternetAccessEnabled</span><span class="sxs-lookup"><span data-stu-id="ee6ef-269">msRTCSIP-InternetAccessEnabled</span></span></p>
-<p><span data-ttu-id="ee6ef-270">msRTCSIP</span><span class="sxs-lookup"><span data-stu-id="ee6ef-270">msRTCSIP-Line</span></span></p>
-<p><span data-ttu-id="ee6ef-271">msRTCSIP</span><span class="sxs-lookup"><span data-stu-id="ee6ef-271">msRTCSIP-LineServer</span></span></p>
-<p><span data-ttu-id="ee6ef-272">msRTCSIP-OptionFlags</span><span class="sxs-lookup"><span data-stu-id="ee6ef-272">msRTCSIP-OptionFlags</span></span></p>
-<p><span data-ttu-id="ee6ef-273">msRTCSIP-の場合は、Sid</span><span class="sxs-lookup"><span data-stu-id="ee6ef-273">msRTCSIP-OriginatorSid</span></span></p>
-<p><span data-ttu-id="ee6ef-274">msRTCSIP-OwnerUrn</span><span class="sxs-lookup"><span data-stu-id="ee6ef-274">msRTCSIP-OwnerUrn</span></span></p>
-<p><span data-ttu-id="ee6ef-275">msRTCSIP-Msrtcsip-primaryhomeserver</span><span class="sxs-lookup"><span data-stu-id="ee6ef-275">msRTCSIP-PrimaryHomeServer</span></span></p>
-<p><span data-ttu-id="ee6ef-276">msRTCSIP-PrimaryUserAddress</span><span class="sxs-lookup"><span data-stu-id="ee6ef-276">msRTCSIP-PrimaryUserAddress</span></span></p>
-<p><span data-ttu-id="ee6ef-277">msRTCSIP-PrivateLine</span><span class="sxs-lookup"><span data-stu-id="ee6ef-277">msRTCSIP-PrivateLine</span></span></p>
-<p><span data-ttu-id="ee6ef-278">msRTCSIP-Targethoの場合</span><span class="sxs-lookup"><span data-stu-id="ee6ef-278">msRTCSIP-TargetHomeServer</span></span></p>
-<p><span data-ttu-id="ee6ef-279">msRTCSIP-TargetUserPolicies</span><span class="sxs-lookup"><span data-stu-id="ee6ef-279">msRTCSIP-TargetUserPolicies</span></span></p>
-<p><span data-ttu-id="ee6ef-280">msRTCSIP-TenantId</span><span class="sxs-lookup"><span data-stu-id="ee6ef-280">msRTCSIP-TenantId</span></span></p>
-<p><span data-ttu-id="ee6ef-281">msRTCSIP-UserEnabled</span><span class="sxs-lookup"><span data-stu-id="ee6ef-281">msRTCSIP-UserEnabled</span></span></p>
-<p><span data-ttu-id="ee6ef-282">msRTCSIP-UserExtension</span><span class="sxs-lookup"><span data-stu-id="ee6ef-282">msRTCSIP-UserExtension</span></span></p>
-<p><span data-ttu-id="ee6ef-283">msRTCSIP-UserLocationProfile</span><span class="sxs-lookup"><span data-stu-id="ee6ef-283">msRTCSIP-UserLocationProfile</span></span></p>
-<p><span data-ttu-id="ee6ef-284">msRTCSIP-UserPolicies</span><span class="sxs-lookup"><span data-stu-id="ee6ef-284">msRTCSIP-UserPolicies</span></span></p>
-<p><span data-ttu-id="ee6ef-285">msRTCSIP-UserPolicy</span><span class="sxs-lookup"><span data-stu-id="ee6ef-285">msRTCSIP-UserPolicy</span></span></p>
-<p><span data-ttu-id="ee6ef-286">msRTCSIP-UserRoutingGroupId</span><span class="sxs-lookup"><span data-stu-id="ee6ef-286">msRTCSIP-UserRoutingGroupId</span></span></p>
-<p><span data-ttu-id="ee6ef-287">ProxyAddresses</span><span class="sxs-lookup"><span data-stu-id="ee6ef-287">ProxyAddresses</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-262">ユーザー</span><span class="sxs-lookup"><span data-stu-id="2f66a-262">User</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-263">msRTCSIP-AcpInfo</span><span class="sxs-lookup"><span data-stu-id="2f66a-263">msRTCSIP-AcpInfo</span></span></p>
+<p><span data-ttu-id="2f66a-264">msRTCSIP-ApplicationOptions</span><span class="sxs-lookup"><span data-stu-id="2f66a-264">msRTCSIP-ApplicationOptions</span></span></p>
+<p><span data-ttu-id="2f66a-265">msRTCSIP-ArchivingEnabled</span><span class="sxs-lookup"><span data-stu-id="2f66a-265">msRTCSIP-ArchivingEnabled</span></span></p>
+<p><span data-ttu-id="2f66a-266">msRTCSIP-DeploymentLocator</span><span class="sxs-lookup"><span data-stu-id="2f66a-266">msRTCSIP-DeploymentLocator</span></span></p>
+<p><span data-ttu-id="2f66a-267">msRTCSIP-FederationEnabled</span><span class="sxs-lookup"><span data-stu-id="2f66a-267">msRTCSIP-FederationEnabled</span></span></p>
+<p><span data-ttu-id="2f66a-268">msRTCSIP-GroupingID</span><span class="sxs-lookup"><span data-stu-id="2f66a-268">msRTCSIP-GroupingID</span></span></p>
+<p><span data-ttu-id="2f66a-269">msRTCSIP-InternetAccessEnabled</span><span class="sxs-lookup"><span data-stu-id="2f66a-269">msRTCSIP-InternetAccessEnabled</span></span></p>
+<p><span data-ttu-id="2f66a-270">msRTCSIP</span><span class="sxs-lookup"><span data-stu-id="2f66a-270">msRTCSIP-Line</span></span></p>
+<p><span data-ttu-id="2f66a-271">msRTCSIP</span><span class="sxs-lookup"><span data-stu-id="2f66a-271">msRTCSIP-LineServer</span></span></p>
+<p><span data-ttu-id="2f66a-272">msRTCSIP-OptionFlags</span><span class="sxs-lookup"><span data-stu-id="2f66a-272">msRTCSIP-OptionFlags</span></span></p>
+<p><span data-ttu-id="2f66a-273">msRTCSIP-の場合は、Sid</span><span class="sxs-lookup"><span data-stu-id="2f66a-273">msRTCSIP-OriginatorSid</span></span></p>
+<p><span data-ttu-id="2f66a-274">msRTCSIP-OwnerUrn</span><span class="sxs-lookup"><span data-stu-id="2f66a-274">msRTCSIP-OwnerUrn</span></span></p>
+<p><span data-ttu-id="2f66a-275">msRTCSIP-Msrtcsip-primaryhomeserver</span><span class="sxs-lookup"><span data-stu-id="2f66a-275">msRTCSIP-PrimaryHomeServer</span></span></p>
+<p><span data-ttu-id="2f66a-276">msRTCSIP-PrimaryUserAddress</span><span class="sxs-lookup"><span data-stu-id="2f66a-276">msRTCSIP-PrimaryUserAddress</span></span></p>
+<p><span data-ttu-id="2f66a-277">msRTCSIP-PrivateLine</span><span class="sxs-lookup"><span data-stu-id="2f66a-277">msRTCSIP-PrivateLine</span></span></p>
+<p><span data-ttu-id="2f66a-278">msRTCSIP-Targethoの場合</span><span class="sxs-lookup"><span data-stu-id="2f66a-278">msRTCSIP-TargetHomeServer</span></span></p>
+<p><span data-ttu-id="2f66a-279">msRTCSIP-TargetUserPolicies</span><span class="sxs-lookup"><span data-stu-id="2f66a-279">msRTCSIP-TargetUserPolicies</span></span></p>
+<p><span data-ttu-id="2f66a-280">msRTCSIP-TenantId</span><span class="sxs-lookup"><span data-stu-id="2f66a-280">msRTCSIP-TenantId</span></span></p>
+<p><span data-ttu-id="2f66a-281">msRTCSIP-UserEnabled</span><span class="sxs-lookup"><span data-stu-id="2f66a-281">msRTCSIP-UserEnabled</span></span></p>
+<p><span data-ttu-id="2f66a-282">msRTCSIP-UserExtension</span><span class="sxs-lookup"><span data-stu-id="2f66a-282">msRTCSIP-UserExtension</span></span></p>
+<p><span data-ttu-id="2f66a-283">msRTCSIP-UserLocationProfile</span><span class="sxs-lookup"><span data-stu-id="2f66a-283">msRTCSIP-UserLocationProfile</span></span></p>
+<p><span data-ttu-id="2f66a-284">msRTCSIP-UserPolicies</span><span class="sxs-lookup"><span data-stu-id="2f66a-284">msRTCSIP-UserPolicies</span></span></p>
+<p><span data-ttu-id="2f66a-285">msRTCSIP-UserPolicy</span><span class="sxs-lookup"><span data-stu-id="2f66a-285">msRTCSIP-UserPolicy</span></span></p>
+<p><span data-ttu-id="2f66a-286">msRTCSIP-UserRoutingGroupId</span><span class="sxs-lookup"><span data-stu-id="2f66a-286">msRTCSIP-UserRoutingGroupId</span></span></p>
+<p><span data-ttu-id="2f66a-287">ProxyAddresses</span><span class="sxs-lookup"><span data-stu-id="2f66a-287">ProxyAddresses</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -300,7 +300,7 @@ ms.locfileid: "42049439"
 
 <div>
 
-## <a name="classes-contained-in-other-classes"></a><span data-ttu-id="ee6ef-288">他のクラスに含まれるクラス</span><span class="sxs-lookup"><span data-stu-id="ee6ef-288">Classes Contained in Other Classes</span></span>
+## <a name="classes-contained-in-other-classes"></a><span data-ttu-id="2f66a-288">他のクラスに含まれるクラス</span><span class="sxs-lookup"><span data-stu-id="2f66a-288">Classes Contained in Other Classes</span></span>
 
 
 <table>
@@ -310,81 +310,81 @@ ms.locfileid: "42049439"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="ee6ef-289">クラス</span><span class="sxs-lookup"><span data-stu-id="ee6ef-289">Class</span></span></th>
-<th><span data-ttu-id="ee6ef-290">含まれるクラス</span><span class="sxs-lookup"><span data-stu-id="ee6ef-290">May contain this class</span></span></th>
+<th><span data-ttu-id="2f66a-289">クラス</span><span class="sxs-lookup"><span data-stu-id="2f66a-289">Class</span></span></th>
+<th><span data-ttu-id="2f66a-290">含まれるクラス</span><span class="sxs-lookup"><span data-stu-id="2f66a-290">May contain this class</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="ee6ef-291">serviceConnectionPoint</span><span class="sxs-lookup"><span data-stu-id="ee6ef-291">serviceConnectionPoint</span></span></p></td>
-<td><p><span data-ttu-id="ee6ef-292">msRTCSIP-サーバー</span><span class="sxs-lookup"><span data-stu-id="ee6ef-292">msRTCSIP-Server</span></span></p>
-<p><span data-ttu-id="ee6ef-293">msRTCSIP-PoolService</span><span class="sxs-lookup"><span data-stu-id="ee6ef-293">msRTCSIP-PoolService</span></span></p>
-<p><span data-ttu-id="ee6ef-294">msRTCSIP-MCU</span><span class="sxs-lookup"><span data-stu-id="ee6ef-294">msRTCSIP-MCU</span></span></p>
-<p><span data-ttu-id="ee6ef-295">msRTCSIP-MCUFactoryService</span><span class="sxs-lookup"><span data-stu-id="ee6ef-295">msRTCSIP-MCUFactoryService</span></span></p>
-<p><span data-ttu-id="ee6ef-296">msRTCSIP-WebComponents</span><span class="sxs-lookup"><span data-stu-id="ee6ef-296">msRTCSIP-WebComponents</span></span></p>
-<p><span data-ttu-id="ee6ef-297">msRTCSIP-Webコンポーネントサービス</span><span class="sxs-lookup"><span data-stu-id="ee6ef-297">msRTCSIP-WebComponentsService</span></span></p>
-<p><span data-ttu-id="ee6ef-298">msRTCSIP-ApplicationServerService</span><span class="sxs-lookup"><span data-stu-id="ee6ef-298">msRTCSIP-ApplicationServerService</span></span></p>
-<p><span data-ttu-id="ee6ef-299">msRTCSIP</span><span class="sxs-lookup"><span data-stu-id="ee6ef-299">msRTCSIP-Service</span></span></p>
-<p><span data-ttu-id="ee6ef-300">msRTCSIP-Msrtcsip-connectionpoint</span><span class="sxs-lookup"><span data-stu-id="ee6ef-300">msRTCSIP-ConnectionPoint</span></span></p>
-<p><span data-ttu-id="ee6ef-301">msRTCSIP-MediationServer</span><span class="sxs-lookup"><span data-stu-id="ee6ef-301">msRTCSIP-MediationServer</span></span></p>
-<p><span data-ttu-id="ee6ef-302">msRTCSIP-ApplicationServer</span><span class="sxs-lookup"><span data-stu-id="ee6ef-302">msRTCSIP-ApplicationServer</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-291">serviceConnectionPoint</span><span class="sxs-lookup"><span data-stu-id="2f66a-291">serviceConnectionPoint</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-292">msRTCSIP-サーバー</span><span class="sxs-lookup"><span data-stu-id="2f66a-292">msRTCSIP-Server</span></span></p>
+<p><span data-ttu-id="2f66a-293">msRTCSIP-PoolService</span><span class="sxs-lookup"><span data-stu-id="2f66a-293">msRTCSIP-PoolService</span></span></p>
+<p><span data-ttu-id="2f66a-294">msRTCSIP-MCU</span><span class="sxs-lookup"><span data-stu-id="2f66a-294">msRTCSIP-MCU</span></span></p>
+<p><span data-ttu-id="2f66a-295">msRTCSIP-MCUFactoryService</span><span class="sxs-lookup"><span data-stu-id="2f66a-295">msRTCSIP-MCUFactoryService</span></span></p>
+<p><span data-ttu-id="2f66a-296">msRTCSIP-WebComponents</span><span class="sxs-lookup"><span data-stu-id="2f66a-296">msRTCSIP-WebComponents</span></span></p>
+<p><span data-ttu-id="2f66a-297">msRTCSIP-Webコンポーネントサービス</span><span class="sxs-lookup"><span data-stu-id="2f66a-297">msRTCSIP-WebComponentsService</span></span></p>
+<p><span data-ttu-id="2f66a-298">msRTCSIP-ApplicationServerService</span><span class="sxs-lookup"><span data-stu-id="2f66a-298">msRTCSIP-ApplicationServerService</span></span></p>
+<p><span data-ttu-id="2f66a-299">msRTCSIP</span><span class="sxs-lookup"><span data-stu-id="2f66a-299">msRTCSIP-Service</span></span></p>
+<p><span data-ttu-id="2f66a-300">msRTCSIP-Msrtcsip-connectionpoint</span><span class="sxs-lookup"><span data-stu-id="2f66a-300">msRTCSIP-ConnectionPoint</span></span></p>
+<p><span data-ttu-id="2f66a-301">msRTCSIP-MediationServer</span><span class="sxs-lookup"><span data-stu-id="2f66a-301">msRTCSIP-MediationServer</span></span></p>
+<p><span data-ttu-id="2f66a-302">msRTCSIP-ApplicationServer</span><span class="sxs-lookup"><span data-stu-id="2f66a-302">msRTCSIP-ApplicationServer</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ee6ef-303">msRTCSIP</span><span class="sxs-lookup"><span data-stu-id="ee6ef-303">msRTCSIP-Service</span></span></p></td>
-<td><p><span data-ttu-id="ee6ef-304">msRTCSIP-GlobalContainer</span><span class="sxs-lookup"><span data-stu-id="ee6ef-304">msRTCSIP-GlobalContainer</span></span></p>
-<p><span data-ttu-id="ee6ef-305">msRTCSIP</span><span class="sxs-lookup"><span data-stu-id="ee6ef-305">msRTCSIP-Pools</span></span></p>
-<p><span data-ttu-id="ee6ef-306">msRTCSIP-MCUFactories</span><span class="sxs-lookup"><span data-stu-id="ee6ef-306">msRTCSIP-MCUFactories</span></span></p>
-<p><span data-ttu-id="ee6ef-307">msRTCSIP-TrustedMCUs</span><span class="sxs-lookup"><span data-stu-id="ee6ef-307">msRTCSIP-TrustedMCUs</span></span></p>
-<p><span data-ttu-id="ee6ef-308">msRTCSIP-Trustedwebコンポーネントサーバー</span><span class="sxs-lookup"><span data-stu-id="ee6ef-308">msRTCSIP-TrustedWebComponentsServers</span></span></p>
-<p><span data-ttu-id="ee6ef-309">msRTCSIP-TrustedProxies</span><span class="sxs-lookup"><span data-stu-id="ee6ef-309">msRTCSIP-TrustedProxies</span></span></p>
-<p><span data-ttu-id="ee6ef-310">msRTCSIP-TrustedServices</span><span class="sxs-lookup"><span data-stu-id="ee6ef-310">msRTCSIP-TrustedServices</span></span></p>
-<p><span data-ttu-id="ee6ef-311">msRTCSIP-ApplicationContacts</span><span class="sxs-lookup"><span data-stu-id="ee6ef-311">msRTCSIP-ApplicationContacts</span></span></p>
-<p><span data-ttu-id="ee6ef-312">msRTCSIP-LocationContactMappings</span><span class="sxs-lookup"><span data-stu-id="ee6ef-312">msRTCSIP-LocationContactMappings</span></span></p>
-<p><span data-ttu-id="ee6ef-313">msRTCSIP-Microsoft.rtc.management.writableconfig.settings.pstnconf.conferencedirectories</span><span class="sxs-lookup"><span data-stu-id="ee6ef-313">msRTCSIP-ConferenceDirectories</span></span></p>
-<p><span data-ttu-id="ee6ef-314">msRTCSIP-GlobalTopologySettings</span><span class="sxs-lookup"><span data-stu-id="ee6ef-314">msRTCSIP-GlobalTopologySettings</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-303">msRTCSIP</span><span class="sxs-lookup"><span data-stu-id="2f66a-303">msRTCSIP-Service</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-304">msRTCSIP-GlobalContainer</span><span class="sxs-lookup"><span data-stu-id="2f66a-304">msRTCSIP-GlobalContainer</span></span></p>
+<p><span data-ttu-id="2f66a-305">msRTCSIP</span><span class="sxs-lookup"><span data-stu-id="2f66a-305">msRTCSIP-Pools</span></span></p>
+<p><span data-ttu-id="2f66a-306">msRTCSIP-MCUFactories</span><span class="sxs-lookup"><span data-stu-id="2f66a-306">msRTCSIP-MCUFactories</span></span></p>
+<p><span data-ttu-id="2f66a-307">msRTCSIP-TrustedMCUs</span><span class="sxs-lookup"><span data-stu-id="2f66a-307">msRTCSIP-TrustedMCUs</span></span></p>
+<p><span data-ttu-id="2f66a-308">msRTCSIP-Trustedwebコンポーネントサーバー</span><span class="sxs-lookup"><span data-stu-id="2f66a-308">msRTCSIP-TrustedWebComponentsServers</span></span></p>
+<p><span data-ttu-id="2f66a-309">msRTCSIP-TrustedProxies</span><span class="sxs-lookup"><span data-stu-id="2f66a-309">msRTCSIP-TrustedProxies</span></span></p>
+<p><span data-ttu-id="2f66a-310">msRTCSIP-TrustedServices</span><span class="sxs-lookup"><span data-stu-id="2f66a-310">msRTCSIP-TrustedServices</span></span></p>
+<p><span data-ttu-id="2f66a-311">msRTCSIP-ApplicationContacts</span><span class="sxs-lookup"><span data-stu-id="2f66a-311">msRTCSIP-ApplicationContacts</span></span></p>
+<p><span data-ttu-id="2f66a-312">msRTCSIP-LocationContactMappings</span><span class="sxs-lookup"><span data-stu-id="2f66a-312">msRTCSIP-LocationContactMappings</span></span></p>
+<p><span data-ttu-id="2f66a-313">msRTCSIP-Microsoft.rtc.management.writableconfig.settings.pstnconf.conferencedirectories</span><span class="sxs-lookup"><span data-stu-id="2f66a-313">msRTCSIP-ConferenceDirectories</span></span></p>
+<p><span data-ttu-id="2f66a-314">msRTCSIP-GlobalTopologySettings</span><span class="sxs-lookup"><span data-stu-id="2f66a-314">msRTCSIP-GlobalTopologySettings</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="ee6ef-315">msRTCSIP-GlobalContainer</span><span class="sxs-lookup"><span data-stu-id="ee6ef-315">msRTCSIP-GlobalContainer</span></span></p></td>
-<td><p><span data-ttu-id="ee6ef-316">msRTCSIP-ドメイン</span><span class="sxs-lookup"><span data-stu-id="ee6ef-316">msRTCSIP-Domain</span></span></p>
-<p><span data-ttu-id="ee6ef-317">msRTCSIP-TrustedServer</span><span class="sxs-lookup"><span data-stu-id="ee6ef-317">msRTCSIP-TrustedServer</span></span></p>
-<p><span data-ttu-id="ee6ef-318">msRTCSIP-EdgeProxy</span><span class="sxs-lookup"><span data-stu-id="ee6ef-318">msRTCSIP-EdgeProxy</span></span></p>
-<p><span data-ttu-id="ee6ef-319">msRTCSIP-MonitoringServer</span><span class="sxs-lookup"><span data-stu-id="ee6ef-319">msRTCSIP-MonitoringServer</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-315">msRTCSIP-GlobalContainer</span><span class="sxs-lookup"><span data-stu-id="2f66a-315">msRTCSIP-GlobalContainer</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-316">msRTCSIP-ドメイン</span><span class="sxs-lookup"><span data-stu-id="2f66a-316">msRTCSIP-Domain</span></span></p>
+<p><span data-ttu-id="2f66a-317">msRTCSIP-TrustedServer</span><span class="sxs-lookup"><span data-stu-id="2f66a-317">msRTCSIP-TrustedServer</span></span></p>
+<p><span data-ttu-id="2f66a-318">msRTCSIP-EdgeProxy</span><span class="sxs-lookup"><span data-stu-id="2f66a-318">msRTCSIP-EdgeProxy</span></span></p>
+<p><span data-ttu-id="2f66a-319">msRTCSIP-MonitoringServer</span><span class="sxs-lookup"><span data-stu-id="2f66a-319">msRTCSIP-MonitoringServer</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ee6ef-320">msRTCSIP</span><span class="sxs-lookup"><span data-stu-id="ee6ef-320">msRTCSIP-Pools</span></span></p></td>
-<td><p><span data-ttu-id="ee6ef-321">msRTCSIP</span><span class="sxs-lookup"><span data-stu-id="ee6ef-321">msRTCSIP-Pool</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-320">msRTCSIP</span><span class="sxs-lookup"><span data-stu-id="2f66a-320">msRTCSIP-Pools</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-321">msRTCSIP</span><span class="sxs-lookup"><span data-stu-id="2f66a-321">msRTCSIP-Pool</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="ee6ef-322">msRTCSIP-MCUFactories</span><span class="sxs-lookup"><span data-stu-id="ee6ef-322">msRTCSIP-MCUFactories</span></span></p></td>
-<td><p><span data-ttu-id="ee6ef-323">msRTCSIP-MCUFactory</span><span class="sxs-lookup"><span data-stu-id="ee6ef-323">msRTCSIP-MCUFactory</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-322">msRTCSIP-MCUFactories</span><span class="sxs-lookup"><span data-stu-id="2f66a-322">msRTCSIP-MCUFactories</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-323">msRTCSIP-MCUFactory</span><span class="sxs-lookup"><span data-stu-id="2f66a-323">msRTCSIP-MCUFactory</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ee6ef-324">msRTCSIP-TrustedMCUs</span><span class="sxs-lookup"><span data-stu-id="ee6ef-324">msRTCSIP-TrustedMCUs</span></span></p></td>
-<td><p><span data-ttu-id="ee6ef-325">msRTCSIP-TrustedMCU</span><span class="sxs-lookup"><span data-stu-id="ee6ef-325">msRTCSIP-TrustedMCU</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-324">msRTCSIP-TrustedMCUs</span><span class="sxs-lookup"><span data-stu-id="2f66a-324">msRTCSIP-TrustedMCUs</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-325">msRTCSIP-TrustedMCU</span><span class="sxs-lookup"><span data-stu-id="2f66a-325">msRTCSIP-TrustedMCU</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="ee6ef-326">msRTCSIP-Trustedwebコンポーネントサーバー</span><span class="sxs-lookup"><span data-stu-id="ee6ef-326">msRTCSIP-TrustedWebComponentsServers</span></span></p></td>
-<td><p><span data-ttu-id="ee6ef-327">msRTCSIP-Trustedwebコンポーネントサーバー</span><span class="sxs-lookup"><span data-stu-id="ee6ef-327">msRTCSIP-TrustedWebComponentsServer</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-326">msRTCSIP-Trustedwebコンポーネントサーバー</span><span class="sxs-lookup"><span data-stu-id="2f66a-326">msRTCSIP-TrustedWebComponentsServers</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-327">msRTCSIP-Trustedwebコンポーネントサーバー</span><span class="sxs-lookup"><span data-stu-id="2f66a-327">msRTCSIP-TrustedWebComponentsServer</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ee6ef-328">msRTCSIP-TrustedProxies</span><span class="sxs-lookup"><span data-stu-id="ee6ef-328">msRTCSIP-TrustedProxies</span></span></p></td>
-<td><p><span data-ttu-id="ee6ef-329">msRTCSIP-TrustedProxy</span><span class="sxs-lookup"><span data-stu-id="ee6ef-329">msRTCSIP-TrustedProxy</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-328">msRTCSIP-TrustedProxies</span><span class="sxs-lookup"><span data-stu-id="2f66a-328">msRTCSIP-TrustedProxies</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-329">msRTCSIP-TrustedProxy</span><span class="sxs-lookup"><span data-stu-id="2f66a-329">msRTCSIP-TrustedProxy</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="ee6ef-330">msRTCSIP-TrustedServices</span><span class="sxs-lookup"><span data-stu-id="ee6ef-330">msRTCSIP-TrustedServices</span></span></p></td>
-<td><p><span data-ttu-id="ee6ef-331">msRTCSIP-TrustedService</span><span class="sxs-lookup"><span data-stu-id="ee6ef-331">msRTCSIP-TrustedService</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-330">msRTCSIP-TrustedServices</span><span class="sxs-lookup"><span data-stu-id="2f66a-330">msRTCSIP-TrustedServices</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-331">msRTCSIP-TrustedService</span><span class="sxs-lookup"><span data-stu-id="2f66a-331">msRTCSIP-TrustedService</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ee6ef-332">msRTCSIP-LocationContactMappings</span><span class="sxs-lookup"><span data-stu-id="ee6ef-332">msRTCSIP-LocationContactMappings</span></span></p></td>
-<td><p><span data-ttu-id="ee6ef-333">msRTCSIP-LocationContactMapping</span><span class="sxs-lookup"><span data-stu-id="ee6ef-333">msRTCSIP-LocationContactMapping</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-332">msRTCSIP-LocationContactMappings</span><span class="sxs-lookup"><span data-stu-id="2f66a-332">msRTCSIP-LocationContactMappings</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-333">msRTCSIP-LocationContactMapping</span><span class="sxs-lookup"><span data-stu-id="2f66a-333">msRTCSIP-LocationContactMapping</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="ee6ef-334">msRTCSIP-Microsoft.rtc.management.writableconfig.settings.pstnconf.conferencedirectories</span><span class="sxs-lookup"><span data-stu-id="ee6ef-334">msRTCSIP-ConferenceDirectories</span></span></p></td>
-<td><p><span data-ttu-id="ee6ef-335">msRTCSIP-ConferenceDirectory</span><span class="sxs-lookup"><span data-stu-id="ee6ef-335">msRTCSIP-ConferenceDirectory</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-334">msRTCSIP-Microsoft.rtc.management.writableconfig.settings.pstnconf.conferencedirectories</span><span class="sxs-lookup"><span data-stu-id="2f66a-334">msRTCSIP-ConferenceDirectories</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-335">msRTCSIP-ConferenceDirectory</span><span class="sxs-lookup"><span data-stu-id="2f66a-335">msRTCSIP-ConferenceDirectory</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ee6ef-336">msRTCSIP-GlobalTopologySettings</span><span class="sxs-lookup"><span data-stu-id="ee6ef-336">msRTCSIP-GlobalTopologySettings</span></span></p></td>
-<td><p><span data-ttu-id="ee6ef-337">msRTCSIP-GlobalTopologySetting</span><span class="sxs-lookup"><span data-stu-id="ee6ef-337">msRTCSIP-GlobalTopologySetting</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-336">msRTCSIP-GlobalTopologySettings</span><span class="sxs-lookup"><span data-stu-id="2f66a-336">msRTCSIP-GlobalTopologySettings</span></span></p></td>
+<td><p><span data-ttu-id="2f66a-337">msRTCSIP-GlobalTopologySetting</span><span class="sxs-lookup"><span data-stu-id="2f66a-337">msRTCSIP-GlobalTopologySetting</span></span></p></td>
 </tr>
 </tbody>
 </table>

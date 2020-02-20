@@ -12,20 +12,20 @@ ms:contentKeyID: 48184919
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 71d354449c02a0b57b737f01841a0f5841aa80c9
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 43152ead11b0f03e280b72e7350b8bef101156b6
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038539"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146070"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="adding-persistent-chat-server-to-your-deployment-in-lync-server-2013"></a><span data-ttu-id="1fea2-102">Lync Server 2013 での展開への常設チャットサーバーの追加</span><span class="sxs-lookup"><span data-stu-id="1fea2-102">Adding Persistent Chat Server to your deployment in Lync Server 2013</span></span>
+# <a name="adding-persistent-chat-server-to-your-deployment-in-lync-server-2013"></a><span data-ttu-id="5ce03-102">Lync Server 2013 での展開への常設チャットサーバーの追加</span><span class="sxs-lookup"><span data-stu-id="5ce03-102">Adding Persistent Chat Server to your deployment in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42038539"
 
 <span> </span>
 
-<span data-ttu-id="1fea2-103">_**トピックの最終更新日:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="1fea2-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+<span data-ttu-id="5ce03-103">_**トピックの最終更新日:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="5ce03-103">_**Topic Last Modified:** 2012-09-12_</span></span>
 
-<span data-ttu-id="1fea2-104">Lync Server 2013 の常設チャットサーバーの展開を計画している各サーバーに前提条件のソフトウェアをインストールした後、トポロジビルダーを使用して、常設チャットサーバーのサポートをトポロジに追加し、トポロジを公開する必要があります。</span><span class="sxs-lookup"><span data-stu-id="1fea2-104">After you install the prerequisite software on each server on which you plan to deploy Lync Server 2013, Persistent Chat Server, you must use Topology Builder to add Persistent Chat Server support to your topology, and then publish the topology.</span></span>
+<span data-ttu-id="5ce03-104">Lync Server 2013 の常設チャットサーバーの展開を計画している各サーバーに前提条件のソフトウェアをインストールした後、トポロジビルダーを使用して、常設チャットサーバーのサポートをトポロジに追加し、トポロジを公開する必要があります。</span><span class="sxs-lookup"><span data-stu-id="5ce03-104">After you install the prerequisite software on each server on which you plan to deploy Lync Server 2013, Persistent Chat Server, you must use Topology Builder to add Persistent Chat Server support to your topology, and then publish the topology.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="1fea2-105">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="1fea2-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="5ce03-105">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="5ce03-105">In This Section</span></span>
 
-  - [<span data-ttu-id="1fea2-106">Lync Server 2013 で常設チャットサーバーをトポロジに追加する</span><span class="sxs-lookup"><span data-stu-id="1fea2-106">Add Persistent Chat Server to the topology in Lync Server 2013</span></span>](lync-server-2013-add-persistent-chat-server-to-the-topology.md)
+  - [<span data-ttu-id="5ce03-106">Lync Server 2013 で常設チャットサーバーをトポロジに追加する</span><span class="sxs-lookup"><span data-stu-id="5ce03-106">Add Persistent Chat Server to the topology in Lync Server 2013</span></span>](lync-server-2013-add-persistent-chat-server-to-the-topology.md)
 
-  - [<span data-ttu-id="1fea2-107">Lync Server 2013 で更新されたトポロジを公開する</span><span class="sxs-lookup"><span data-stu-id="1fea2-107">Publish the updated topology in Lync Server 2013</span></span>](lync-server-2013-publish-the-updated-topology.md)
+  - [<span data-ttu-id="5ce03-107">Lync Server 2013 で更新されたトポロジを公開する</span><span class="sxs-lookup"><span data-stu-id="5ce03-107">Publish the updated topology in Lync Server 2013</span></span>](lync-server-2013-publish-the-updated-topology.md)
 
 </div>
 

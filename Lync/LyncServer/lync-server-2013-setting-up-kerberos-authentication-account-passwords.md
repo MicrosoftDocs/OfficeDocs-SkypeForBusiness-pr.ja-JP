@@ -12,20 +12,20 @@ ms:contentKeyID: 48185167
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0342c83090dee6cbe021a400acd87e557860518b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: bef30a82479c876dbb4b4e6e6e9b55b3c2b37dc3
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037577"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42143189"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-kerberos-authentication-account-passwords-in-lync-server-2013"></a><span data-ttu-id="dadd3-102">Lync Server 2013 での Kerberos 認証アカウントパスワードの設定</span><span class="sxs-lookup"><span data-stu-id="dadd3-102">Setting up Kerberos authentication account passwords in Lync Server 2013</span></span>
+# <a name="setting-up-kerberos-authentication-account-passwords-in-lync-server-2013"></a><span data-ttu-id="0481a-102">Lync Server 2013 での Kerberos 認証アカウントパスワードの設定</span><span class="sxs-lookup"><span data-stu-id="0481a-102">Setting up Kerberos authentication account passwords in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42037577"
 
 <span> </span>
 
-<span data-ttu-id="dadd3-103">_**トピックの最終更新日:** 2010-11-03_</span><span class="sxs-lookup"><span data-stu-id="dadd3-103">_**Topic Last Modified:** 2010-11-03_</span></span>
+<span data-ttu-id="0481a-103">_**トピックの最終更新日:** 2010-11-03_</span><span class="sxs-lookup"><span data-stu-id="0481a-103">_**Topic Last Modified:** 2010-11-03_</span></span>
 
-<span data-ttu-id="dadd3-104">Kerberos 認証アカウントのコンピューター オブジェクトを作成したら、そのアカウント用のパスワードを設定できます。</span><span class="sxs-lookup"><span data-stu-id="dadd3-104">After you create the computer object for the Kerberos authentication account, you can set up the password for the account.</span></span> <span data-ttu-id="dadd3-105">Windows PowerShell コマンドレットを実行して、1台のサーバーで Kerberos アカウントのパスワードを設定します。</span><span class="sxs-lookup"><span data-stu-id="dadd3-105">You run the Windows PowerShell cmdlet for setting the Kerberos account password on one server.</span></span> <span data-ttu-id="dadd3-106">Kerberos 認証のために作成したオブジェクトにパスワードを設定できます。</span><span class="sxs-lookup"><span data-stu-id="dadd3-106">You can set the password on the object that you created for the Kerberos authentication.</span></span> <span data-ttu-id="dadd3-107">このパスワードは既知の値に設定することができますが、既定値はランダムなパスワードです。</span><span class="sxs-lookup"><span data-stu-id="dadd3-107">The password can be set to a known value, but by default is a random password.</span></span> <span data-ttu-id="dadd3-108">このパスワードは、このアカウントを使用するすべての Kerberos 認証ソースを利用できます。</span><span class="sxs-lookup"><span data-stu-id="dadd3-108">The password is available to all Kerberos authentication sources that use the account.</span></span> <span data-ttu-id="dadd3-109">Kerberos アカウントのパスワードを設定して管理するには、Windows PowerShell コマンドレットを使用します。</span><span class="sxs-lookup"><span data-stu-id="dadd3-109">You use Windows PowerShell cmdlets to set up and manage Kerberos account passwords.</span></span>
+<span data-ttu-id="0481a-104">Kerberos 認証アカウントのコンピューター オブジェクトを作成したら、そのアカウント用のパスワードを設定できます。</span><span class="sxs-lookup"><span data-stu-id="0481a-104">After you create the computer object for the Kerberos authentication account, you can set up the password for the account.</span></span> <span data-ttu-id="0481a-105">Windows PowerShell コマンドレットを実行して、1台のサーバーで Kerberos アカウントのパスワードを設定します。</span><span class="sxs-lookup"><span data-stu-id="0481a-105">You run the Windows PowerShell cmdlet for setting the Kerberos account password on one server.</span></span> <span data-ttu-id="0481a-106">Kerberos 認証のために作成したオブジェクトにパスワードを設定できます。</span><span class="sxs-lookup"><span data-stu-id="0481a-106">You can set the password on the object that you created for the Kerberos authentication.</span></span> <span data-ttu-id="0481a-107">このパスワードは既知の値に設定することができますが、既定値はランダムなパスワードです。</span><span class="sxs-lookup"><span data-stu-id="0481a-107">The password can be set to a known value, but by default is a random password.</span></span> <span data-ttu-id="0481a-108">このパスワードは、このアカウントを使用するすべての Kerberos 認証ソースを利用できます。</span><span class="sxs-lookup"><span data-stu-id="0481a-108">The password is available to all Kerberos authentication sources that use the account.</span></span> <span data-ttu-id="0481a-109">Kerberos アカウントのパスワードを設定して管理するには、Windows PowerShell コマンドレットを使用します。</span><span class="sxs-lookup"><span data-stu-id="0481a-109">You use Windows PowerShell cmdlets to set up and manage Kerberos account passwords.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="dadd3-110">Kerberos アカウントオブジェクトはコンピューターオブジェクトですが、参照されている Windows PowerShell コマンドレットの操作には UserAccount パラメーターを使用します。</span><span class="sxs-lookup"><span data-stu-id="dadd3-110">The Kerberos account object is a computer object, but uses the UserAccount parameter for operations in the Windows PowerShell cmdlets that are referenced.</span></span> <span data-ttu-id="dadd3-111">これは間違いではなく、このコマンドレットを Kerberos のアカウントの作成および管理に使用するときの、意図的な動作です。</span><span class="sxs-lookup"><span data-stu-id="dadd3-111">Note that this is not a mistake, but the intended behavior of the cmdlet when used with the Kerberos account creation and maintenance.</span></span>
+> <span data-ttu-id="0481a-110">Kerberos アカウントオブジェクトはコンピューターオブジェクトですが、参照されている Windows PowerShell コマンドレットの操作には UserAccount パラメーターを使用します。</span><span class="sxs-lookup"><span data-stu-id="0481a-110">The Kerberos account object is a computer object, but uses the UserAccount parameter for operations in the Windows PowerShell cmdlets that are referenced.</span></span> <span data-ttu-id="0481a-111">これは間違いではなく、このコマンドレットを Kerberos のアカウントの作成および管理に使用するときの、意図的な動作です。</span><span class="sxs-lookup"><span data-stu-id="0481a-111">Note that this is not a mistake, but the intended behavior of the cmdlet when used with the Kerberos account creation and maintenance.</span></span>
 
 
 
@@ -51,11 +51,11 @@ ms.locfileid: "42037577"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="dadd3-112">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="dadd3-112">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="0481a-112">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="0481a-112">In This Section</span></span>
 
-  - [<span data-ttu-id="dadd3-113">Lync Server 2013 のサーバーで Kerberos 認証アカウントのパスワードを設定する</span><span class="sxs-lookup"><span data-stu-id="dadd3-113">Set a Kerberos authentication account password on a server in Lync Server 2013</span></span>](lync-server-2013-set-a-kerberos-authentication-account-password-on-a-server.md)
+  - [<span data-ttu-id="0481a-113">Lync Server 2013 のサーバーで Kerberos 認証アカウントのパスワードを設定する</span><span class="sxs-lookup"><span data-stu-id="0481a-113">Set a Kerberos authentication account password on a server in Lync Server 2013</span></span>](lync-server-2013-set-a-kerberos-authentication-account-password-on-a-server.md)
 
-  - [<span data-ttu-id="dadd3-114">Lync Server 2013 で Kerberos 認証アカウントのパスワードを IIS に同期させる</span><span class="sxs-lookup"><span data-stu-id="dadd3-114">Synchronize a Kerberos authentication account password to IIS in Lync Server 2013</span></span>](lync-server-2013-synchronize-a-kerberos-authentication-account-password-to-iis.md)
+  - [<span data-ttu-id="0481a-114">Lync Server 2013 で Kerberos 認証アカウントのパスワードを IIS に同期させる</span><span class="sxs-lookup"><span data-stu-id="0481a-114">Synchronize a Kerberos authentication account password to IIS in Lync Server 2013</span></span>](lync-server-2013-synchronize-a-kerberos-authentication-account-password-to-iis.md)
 
 </div>
 

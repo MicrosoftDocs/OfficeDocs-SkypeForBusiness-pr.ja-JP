@@ -12,20 +12,20 @@ ms:contentKeyID: 48183373
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c61c2744c6a2cdf8b857161d3476885992c4d74e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d21dbda8b649588e691d285c62ff865e9f001308
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42024718"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141923"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblskippedaffiliations-in-lync-server-2013"></a><span data-ttu-id="f543a-102">Lync Server 2013 の tblSkippedAffiliations</span><span class="sxs-lookup"><span data-stu-id="f543a-102">tblSkippedAffiliations in Lync Server 2013</span></span>
+# <a name="tblskippedaffiliations-in-lync-server-2013"></a><span data-ttu-id="89d99-102">Lync Server 2013 の tblSkippedAffiliations</span><span class="sxs-lookup"><span data-stu-id="89d99-102">tblSkippedAffiliations in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "42024718"
 
 <span> </span>
 
-<span data-ttu-id="f543a-103">_**トピックの最終更新日:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="f543a-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+<span data-ttu-id="89d99-103">_**トピックの最終更新日:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="89d99-103">_**Topic Last Modified:** 2012-09-12_</span></span>
 
-<span data-ttu-id="f543a-104">tblSkippedAffiliations には、読み取ることができなかった所属が含まれています (通常は、Active Directory ドメインサービスのアクセスエラーが原因です)。</span><span class="sxs-lookup"><span data-stu-id="f543a-104">tblSkippedAffiliations contains the affiliations that could not be read (usually due to Active Directory Domain Services access errors).</span></span>
+<span data-ttu-id="89d99-104">tblSkippedAffiliations には、読み取ることができなかった所属が含まれています (通常は、Active Directory ドメインサービスのアクセスエラーが原因です)。</span><span class="sxs-lookup"><span data-stu-id="89d99-104">tblSkippedAffiliations contains the affiliations that could not be read (usually due to Active Directory Domain Services access errors).</span></span>
 
-### <a name="columns"></a><span data-ttu-id="f543a-105">Columns</span><span class="sxs-lookup"><span data-stu-id="f543a-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="89d99-105">Columns</span><span class="sxs-lookup"><span data-stu-id="89d99-105">Columns</span></span>
 
 <table>
 <colgroup>
@@ -49,33 +49,33 @@ ms.locfileid: "42024718"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="f543a-106">列</span><span class="sxs-lookup"><span data-stu-id="f543a-106">Column</span></span></th>
-<th><span data-ttu-id="f543a-107">種類</span><span class="sxs-lookup"><span data-stu-id="f543a-107">Type</span></span></th>
-<th><span data-ttu-id="f543a-108">説明</span><span class="sxs-lookup"><span data-stu-id="f543a-108">Description</span></span></th>
+<th><span data-ttu-id="89d99-106">列</span><span class="sxs-lookup"><span data-stu-id="89d99-106">Column</span></span></th>
+<th><span data-ttu-id="89d99-107">種類</span><span class="sxs-lookup"><span data-stu-id="89d99-107">Type</span></span></th>
+<th><span data-ttu-id="89d99-108">説明</span><span class="sxs-lookup"><span data-stu-id="89d99-108">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f543a-109">Tblprincipal.prinid</span><span class="sxs-lookup"><span data-stu-id="f543a-109">prinID</span></span></p></td>
-<td><p><span data-ttu-id="f543a-110">NULL でない int</span><span class="sxs-lookup"><span data-stu-id="f543a-110">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="f543a-111">プリンシパル ID。</span><span class="sxs-lookup"><span data-stu-id="f543a-111">Principal ID.</span></span></p></td>
+<td><p><span data-ttu-id="89d99-109">Tblprincipal.prinid</span><span class="sxs-lookup"><span data-stu-id="89d99-109">prinID</span></span></p></td>
+<td><p><span data-ttu-id="89d99-110">NULL でない int</span><span class="sxs-lookup"><span data-stu-id="89d99-110">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="89d99-111">プリンシパル ID。</span><span class="sxs-lookup"><span data-stu-id="89d99-111">Principal ID.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f543a-112">影響の説明</span><span class="sxs-lookup"><span data-stu-id="f543a-112">affDescription</span></span></p></td>
-<td><p><span data-ttu-id="f543a-113">NULL でない nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="f543a-113">nvarchar (256), not null</span></span></p></td>
-<td><p><span data-ttu-id="f543a-114">所属を示す文字列。</span><span class="sxs-lookup"><span data-stu-id="f543a-114">A string identifying the affiliation.</span></span></p>
-<p><span data-ttu-id="f543a-115">形式: guid: {0} uri: {1} &gt; id:{2}</span><span class="sxs-lookup"><span data-stu-id="f543a-115">The format is: guid: {0} uri: {1}&gt; id: {2}</span></span></p></td>
+<td><p><span data-ttu-id="89d99-112">影響の説明</span><span class="sxs-lookup"><span data-stu-id="89d99-112">affDescription</span></span></p></td>
+<td><p><span data-ttu-id="89d99-113">NULL でない nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="89d99-113">nvarchar (256), not null</span></span></p></td>
+<td><p><span data-ttu-id="89d99-114">所属を示す文字列。</span><span class="sxs-lookup"><span data-stu-id="89d99-114">A string identifying the affiliation.</span></span></p>
+<p><span data-ttu-id="89d99-115">形式: guid: {0} uri: {1} &gt; id:{2}</span><span class="sxs-lookup"><span data-stu-id="89d99-115">The format is: guid: {0} uri: {1}&gt; id: {2}</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f543a-116">updatedBy</span><span class="sxs-lookup"><span data-stu-id="f543a-116">updatedBy</span></span></p></td>
-<td><p><span data-ttu-id="f543a-117">NULL でない int</span><span class="sxs-lookup"><span data-stu-id="f543a-117">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="f543a-p101">この行を更新したプリンシパルの ID。これらのエントリのソースは Active Directory の同期だけなので、常に 1 (システム ユーザー) です。</span><span class="sxs-lookup"><span data-stu-id="f543a-p101">ID of the principal that updated this row. It is always 1 (system user) because Active Directory Sync is the only source for these entries.</span></span></p></td>
+<td><p><span data-ttu-id="89d99-116">updatedBy</span><span class="sxs-lookup"><span data-stu-id="89d99-116">updatedBy</span></span></p></td>
+<td><p><span data-ttu-id="89d99-117">NULL でない int</span><span class="sxs-lookup"><span data-stu-id="89d99-117">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="89d99-p101">この行を更新したプリンシパルの ID。これらのエントリのソースは Active Directory の同期だけなので、常に 1 (システム ユーザー) です。</span><span class="sxs-lookup"><span data-stu-id="89d99-p101">ID of the principal that updated this row. It is always 1 (system user) because Active Directory Sync is the only source for these entries.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a><span data-ttu-id="f543a-120">Keys</span><span class="sxs-lookup"><span data-stu-id="f543a-120">Keys</span></span>
+### <a name="keys"></a><span data-ttu-id="89d99-120">Keys</span><span class="sxs-lookup"><span data-stu-id="89d99-120">Keys</span></span>
 
 <table>
 <colgroup>
@@ -84,18 +84,18 @@ ms.locfileid: "42024718"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="f543a-121">列 (複数可)</span><span class="sxs-lookup"><span data-stu-id="f543a-121">Column(s)</span></span></th>
-<th><span data-ttu-id="f543a-122">説明</span><span class="sxs-lookup"><span data-stu-id="f543a-122">Description</span></span></th>
+<th><span data-ttu-id="89d99-121">列 (複数可)</span><span class="sxs-lookup"><span data-stu-id="89d99-121">Column(s)</span></span></th>
+<th><span data-ttu-id="89d99-122">説明</span><span class="sxs-lookup"><span data-stu-id="89d99-122">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f543a-123">&lt;prinID、影響の説明&gt;</span><span class="sxs-lookup"><span data-stu-id="f543a-123">&lt;prinID, affDescription&gt;</span></span></p></td>
-<td><p><span data-ttu-id="f543a-124">主キー。</span><span class="sxs-lookup"><span data-stu-id="f543a-124">Primary key.</span></span></p></td>
+<td><p><span data-ttu-id="89d99-123">&lt;prinID、影響の説明&gt;</span><span class="sxs-lookup"><span data-stu-id="89d99-123">&lt;prinID, affDescription&gt;</span></span></p></td>
+<td><p><span data-ttu-id="89d99-124">主キー。</span><span class="sxs-lookup"><span data-stu-id="89d99-124">Primary key.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f543a-125">Tblprincipal.prinid</span><span class="sxs-lookup"><span data-stu-id="f543a-125">prinID</span></span></p></td>
-<td><p><span data-ttu-id="f543a-126">tblPrincipal.prinID テーブル内の参照による外部キー。</span><span class="sxs-lookup"><span data-stu-id="f543a-126">Foreign key with lookup in tblPrincipal.prinID table.</span></span></p></td>
+<td><p><span data-ttu-id="89d99-125">Tblprincipal.prinid</span><span class="sxs-lookup"><span data-stu-id="89d99-125">prinID</span></span></p></td>
+<td><p><span data-ttu-id="89d99-126">tblPrincipal.prinID テーブル内の参照による外部キー。</span><span class="sxs-lookup"><span data-stu-id="89d99-126">Foreign key with lookup in tblPrincipal.prinID table.</span></span></p></td>
 </tr>
 </tbody>
 </table>
