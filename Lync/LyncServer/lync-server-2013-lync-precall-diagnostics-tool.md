@@ -12,18 +12,18 @@ ms:contentKeyID: 56708404
 ms.date: 11/04/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a63743c634c9e87c743928d7641609ce12c464cb
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 79009ce890e37e7238e3fef18f719fb3da411889
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030370"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146700"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="lync-precall-diagnostics-tool-in-lync-server-2013"></a>Lync PreCall Diagnostics Tool in Lync Server 2013
 
@@ -75,7 +75,7 @@ PCD は、ネットワークの最後のホップが脆弱になる可能性が�
 
 このトピックでは、無料でダウンロードできる、次のバージョンのツールについて説明します。
 
-  - Windows デスクトップアプリ ([http://go.microsoft.com/fwlink/?LinkId=327914](http://go.microsoft.com/fwlink/p/?linkid=327914))
+  - Windows デスクトップアプリ ([https://go.microsoft.com/fwlink/?LinkId=327914](https://go.microsoft.com/fwlink/p/?linkid=327914))
 
 </div>
 
@@ -101,7 +101,7 @@ PCD は、ネットワークの最後のホップが脆弱になる可能性が�
 
   - Windows 7 または Windows 8 オペレーティングシステムのすべてのエディション
 
-  - Microsoft .NET Framework 4.5 で利用可能[http://go.microsoft.com/fwlink/?LinkId=327790](http://go.microsoft.com/fwlink/p/?linkid=327790)
+  - Microsoft .NET Framework 4.5 で利用可能[https://go.microsoft.com/fwlink/?LinkId=327790](https://go.microsoft.com/fwlink/p/?linkid=327790)
 
 </div>
 

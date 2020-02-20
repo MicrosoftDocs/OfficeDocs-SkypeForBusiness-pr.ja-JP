@@ -12,18 +12,18 @@ ms:contentKeyID: 51541453
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d78aff761f1df9140bfc491e94ba98e1a0814f25
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 1e2f39db761462f2f92ebde377fc9c9ecc5c27b6
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043879"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146980"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-certificates-for-autodiscover-in-lync-server-2013"></a>Lync Server 2013 での自動検出用の証明書の構成
 
@@ -73,7 +73,7 @@ _**トピックの最終更新日:** 2012-12-12_
     
     **重要:**
     
-    用途ごとに個別の証明書が割り当てられている (証明書ごとに Thumbprint 値が異なる) 場合、複数の種類を使用して **Set-CsCertificate** コマンドレットを実行しないでください。 この場合、用途ごとに **Set-CsCertificate** コマンドレットを実行します。 例:
+    用途ごとに個別の証明書が割り当てられている (証明書ごとに Thumbprint 値が異なる) 場合、複数の種類を使用して **Set-CsCertificate** コマンドレットを実行しないでください。 この場合、用途ごとに **Set-CsCertificate** コマンドレットを実行します。 次に例を示します。
     
         Set-CsCertificate -Type Default -Thumbprint <Certificate Thumbprint>
         Set-CsCertificate -Type WebServicesInternal -Thumbprint <Certificate Thumbprint>

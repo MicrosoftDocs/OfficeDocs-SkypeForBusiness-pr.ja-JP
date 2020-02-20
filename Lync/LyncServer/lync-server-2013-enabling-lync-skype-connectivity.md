@@ -12,18 +12,18 @@ ms:contentKeyID: 57793361
 ms.date: 12/16/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d2b950b8ff778ee48014dc951d89baafab59510c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4bb14153739c5f29e88044eae89a1322b046a0a1
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048220"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146440"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="enabling-lync-skype-connectivity-in-lync-server-2013"></a>Lync Server 2013 での Lync と Skype の接続の有効化
 
@@ -87,9 +87,9 @@ Lync Server 管理シェルを使用して、管理者は Lync クライアン�
 
 </div>
 
-1.  フェデレーションと PIC を構成するには、「」の「フェデレーションとパブリック IM 接続[http://go.microsoft.com/fwlink/p/?LinkId=306063](http://go.microsoft.com/fwlink/p/?linkid=306063)を有効または無効にする」を参照してください。
+1.  フェデレーションと PIC を構成するには、「」の「フェデレーションとパブリック IM 接続[https://go.microsoft.com/fwlink/p/?LinkId=306063](https://go.microsoft.com/fwlink/p/?linkid=306063)を有効または無効にする」を参照してください。
 
-2.  フェデレーションユーザーアクセスをサポートするように少なくとも1つのポリシーを構成するには、「」 [http://go.microsoft.com/fwlink/p/?LinkId=306064](http://go.microsoft.com/fwlink/p/?linkid=306064)の「パブリックユーザーアクセスを制御するようにポリシーを構成する」を参照してください。
+2.  フェデレーションユーザーアクセスをサポートするように少なくとも1つのポリシーを構成するには、「」 [https://go.microsoft.com/fwlink/p/?LinkId=306064](https://go.microsoft.com/fwlink/p/?linkid=306064)の「パブリックユーザーアクセスを制御するようにポリシーを構成する」を参照してください。
 
 **既存の Messenger または Skype PIC プロバイダーを編集して Skype 用に構成するには**
 
@@ -123,7 +123,7 @@ Lync Server 管理シェルを使用して、管理者は Lync クライアン�
     
     ![Skype 連絡先を追加する](images/Dn440170.df0e6ed9-2374-4dfa-a815-87281989487c(OCS.15).jpg "Skype 連絡先を追加する")
 
-4.  ホストされるプロバイダーの変更の詳細については、「」の「ホストさ[http://go.microsoft.com/fwlink/p/?LinkId=306065](http://go.microsoft.com/fwlink/p/?linkid=306065)れた SIP フェデレーションプロバイダーを作成または編集する」を参照してください。
+4.  ホストされるプロバイダーの変更の詳細については、「」の「ホストさ[https://go.microsoft.com/fwlink/p/?LinkId=306065](https://go.microsoft.com/fwlink/p/?linkid=306065)れた SIP フェデレーションプロバイダーを作成または編集する」を参照してください。
 
 これで、サーバー上で実行する必要のある管理タスクが完了します。 これで、Lync と Skype の接続が設定されました。
 

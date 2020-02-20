@@ -12,18 +12,18 @@ ms:contentKeyID: 48185534
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 75e2e47af4951e98f21ea6b26572d39b5eebcb8d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 304bd14e62f6ee9c629dfcf43e37cb8ee7880cb6
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046480"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146960"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-custom-presence-states-in-lync-server-2013"></a>Lync Server 2013 でのカスタムプレゼンス状態の構成
 
@@ -70,7 +70,7 @@ Lync 2013 でカスタムプレゼンス状態を定義するには、XML カス
 
 </div>
 
-XML 構成ファイルで1つまたは複数のロケール ID (LCID) スキーマを指定して、カスタムプレゼンス状態をローカライズします。 このトピックの後半の例では、英語-米国 (1033)、ノルウェー語 (1044)、フランス語-フランス (1036)、トルコ語 (1055) にローカライズされています。 Lcid の一覧については、「Microsoft が割り当てた<http://go.microsoft.com/fwlink/p/?linkid=157331>ロケール id」を参照してください。
+XML 構成ファイルで1つまたは複数のロケール ID (LCID) スキーマを指定して、カスタムプレゼンス状態をローカライズします。 このトピックの後半の例では、英語-米国 (1033)、ノルウェー語 (1044)、フランス語-フランス (1036)、トルコ語 (1055) にローカライズされています。 Lcid の一覧については、「Microsoft が割り当てた<https://go.microsoft.com/fwlink/p/?linkid=157331>ロケール id」を参照してください。
 
 <div>
 

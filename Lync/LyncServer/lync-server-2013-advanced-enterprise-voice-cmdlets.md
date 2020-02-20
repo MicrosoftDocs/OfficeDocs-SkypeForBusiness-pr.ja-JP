@@ -12,18 +12,18 @@ ms:contentKeyID: 48183637
 ms.date: 04/12/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f54ed09fbb2a96231d635f5c1abcd8475cf35118
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ec794a0aceb4e0eade260a99337f1eb62e41470f
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41998402"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146670"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="advanced-enterprise-voice-cmdlets-in-lync-server-2013"></a>Lync Server 2013 の高度なエンタープライズ Voip のコマンドレット
 
@@ -376,7 +376,7 @@ _**トピックの最終更新日:** 2016-04-12_
 [Lync Server 2013 のエンタープライズ Voip のコマンドレット](lync-server-2013-enterprise-voice-cmdlets.md)  
 
 
-[Lync Server PowerShell ブログ](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[Lync Server PowerShell ブログ](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

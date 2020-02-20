@@ -12,18 +12,18 @@ ms:contentKeyID: 49733682
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6a39bcd23516970edf1c4694a8eff1ecb682eda1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: aa94715cd3360e032f2d791c0e02cc791c437185
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42041026"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146930"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-scenarios-for-the-centralized-logging-service-in-lync-server-2013"></a>Lync Server 2013 での集中ログサービスのシナリオの構成
 
@@ -37,7 +37,7 @@ ms.locfileid: "42041026"
 
 _**トピックの最終更新日:** 2014-02-05_
 
-シナリオでは、集中ログサービスで使用するスコープ (グローバル、サイト、プール、またはコンピューター) とプロバイダーを定義します。 シナリオを使用して、プロバイダー (S4、SIPStack、IM、プレゼンスなど) のトレースを有効または無効にします。 シナリオを構成することで、特定の問題の条件に対応する特定の論理コレクションのすべてのプロバイダーをグループ化できます。 トラブルシューティングとログのニーズに合わせてシナリオを変更する必要があることが判明した場合は、Lync Server 2013 デバッグツールによって、 *clscontroller.psm1*という名前の Windows PowerShell モジュールが提供されます。このモジュールには、「 *Edit-csclsscenario*」という名前の関数が含まれています。 このモジュールの目的は、指定したシナリオのプロパティを編集することです。 このトピックでは、このモジュールの使用方法の例を示します。 Lync Server 2013 デバッグツールは、次のリンクからダウンロードされます。[http://go.microsoft.com/fwlink/?LinkId=285257](http://go.microsoft.com/fwlink/?linkid=285257)
+シナリオでは、集中ログサービスで使用するスコープ (グローバル、サイト、プール、またはコンピューター) とプロバイダーを定義します。 シナリオを使用して、プロバイダー (S4、SIPStack、IM、プレゼンスなど) のトレースを有効または無効にします。 シナリオを構成することで、特定の問題の条件に対応する特定の論理コレクションのすべてのプロバイダーをグループ化できます。 トラブルシューティングとログのニーズに合わせてシナリオを変更する必要があることが判明した場合は、Lync Server 2013 デバッグツールによって、 *clscontroller.psm1*という名前の Windows PowerShell モジュールが提供されます。このモジュールには、「 *Edit-csclsscenario*」という名前の関数が含まれています。 このモジュールの目的は、指定したシナリオのプロパティを編集することです。 このトピックでは、このモジュールの使用方法の例を示します。 Lync Server 2013 デバッグツールは、次のリンクからダウンロードされます。[https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?linkid=285257)
 
 <div>
 
@@ -90,7 +90,7 @@ Lync Server 管理シェルを使用して集中ログサービスの機能を�
     
         New-CsClsScenario -Identity <scope>/<unique scenario name> -Provider <provider variable>
     
-    例:
+    次に例を示します。
     
         New-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider $LyssProvider
     
@@ -114,7 +114,7 @@ Lync Server 管理シェルを使用して集中ログサービスの機能を�
     
 
     > [!NOTE]  
-    > Windows PowerShell で認識されているように、を使用して<CODE>@{&lt;variable&gt;=&lt;value1&gt;, &lt;value2&gt;, &lt;value&gt;...}</CODE>ハッシュテーブルを作成する規則は、<EM>スプラッティング</EM>と呼ばれます。 Windows PowerShell のスプラッティングの詳細について<A href="http://go.microsoft.com/fwlink/p/?linkid=267760">http://go.microsoft.com/fwlink/p/?LinkId=267760</A>は、「」を参照してください。
+    > Windows PowerShell で認識されているように、を使用して<CODE>@{&lt;variable&gt;=&lt;value1&gt;, &lt;value2&gt;, &lt;value&gt;...}</CODE>ハッシュテーブルを作成する規則は、<EM>スプラッティング</EM>と呼ばれます。 Windows PowerShell のスプラッティングの詳細について<A href="https://go.microsoft.com/fwlink/p/?linkid=267760">https://go.microsoft.com/fwlink/p/?LinkId=267760</A>は、「」を参照してください。
 
     
     </div>
