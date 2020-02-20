@@ -12,18 +12,18 @@ ms:contentKeyID: 48185496
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 35c470b704e7467f573cd5e1fec03d63cf1f4b4e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 17fa27b82260a05ded5ca025d56005c864247844
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043089"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150318"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="managing-locations-for-elin-gateways-in-lync-server-2013"></a>Lync Server 2013 での ELIN ゲートウェイの場所の管理
 
@@ -103,17 +103,17 @@ ELIN ゲートウェイを使用する場合は、場所情報サービスデー
 <tbody>
 <tr class="odd">
 <td><p>1 階</p></td>
-<td><p>1 </p></td>
+<td><p>1-d</p></td>
 <td><p>425-555-0100</p></td>
 </tr>
 <tr class="even">
 <td><p>2 階</p></td>
-<td><p>2 </p></td>
+<td><p>pbm-2</p></td>
 <td><p>425-555-0111</p></td>
 </tr>
 <tr class="odd">
 <td><p>3 階</p></td>
-<td><p>3 </p></td>
+<td><p>1/3</p></td>
 <td><p>425-555-0123</p></td>
 </tr>
 </tbody>
@@ -144,7 +144,7 @@ ELIN ゲートウェイを使用する場合は、場所情報サービスデー
   - **場所のマッピング情報がすでに格納されているサードパーティのデータベースを定義するのか。**  
     Lync Server のセカンダリの場所情報サービスオプションを使用してサードパーティのデータベースに接続することにより、オフラインプラットフォームを使用して場所をグループ化および管理できます。 この方法の利点は、場所をネットワーク ID に関連付けることに加えて、場所をユーザーに関連付けられることです。 これは、場所情報サービスが、セカンダリ場所情報サービスから Lync Server クライアントに送信された複数のアドレスを返すことができることを意味します。 その後、ユーザーは最適な場所を選択できます。
     
-    場所情報サービスと統合するには、サードパーティのデータベースが Lync Server の場所の要求/応答スキーマに従う必要があります。 詳細について<http://go.microsoft.com/fwlink/p/?linkid=213819>は、「」を参照してください。 セカンダリ場所情報サービスの展開の詳細については、「展開」のドキュメントの「 [Configure a Secondary Location information service In Lync Server 2013](lync-server-2013-configure-a-secondary-location-information-service.md) 」を参照してください。
+    場所情報サービスと統合するには、サードパーティのデータベースが Lync Server の場所の要求/応答スキーマに従う必要があります。 詳細について<https://go.microsoft.com/fwlink/p/?linkid=213819>は、「」を参照してください。 セカンダリ場所情報サービスの展開の詳細については、「展開」のドキュメントの「 [Configure a Secondary Location information service In Lync Server 2013](lync-server-2013-configure-a-secondary-location-information-service.md) 」を参照してください。
 
 場所データベースの設定の詳細については、「展開」のドキュメントの「 [Configure the location database In Lync Server 2013](lync-server-2013-configure-the-location-database.md) 」を参照してください。
 

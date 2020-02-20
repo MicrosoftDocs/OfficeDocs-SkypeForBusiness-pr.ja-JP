@@ -12,18 +12,18 @@ ms:contentKeyID: 62258120
 ms.date: 11/13/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 15dae97f0c6c507c8e6645ea96e538dba42c29c2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 07a333eeb794a27ca78b1f6d8c9bf71c386c8a92
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42033336"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149667"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="migrating-lync-online-users-to-lync-on-premises-in-lync-server-2013"></a>Lync Online ユーザーを lync Server 2013 の Lync オンプレミスに移行する
 
@@ -53,9 +53,9 @@ _**トピックの最終更新日:** 2015-11-13_
 
 1.  最初に、組織がハイブリッド用に構成されていることを確認します。
     
-      - Azure Active Directory 同期ツールをインストールします。 詳細については、「<http://social.technet.microsoft.com/wiki/contents/articles/19098.howto-install-the-windows-azure-active-directory-sync-tool.aspx>」を参照してください。
+      - Azure Active Directory 同期ツールをインストールします。 詳細については、「<https://social.technet.microsoft.com/wiki/contents/articles/19098.howto-install-the-windows-azure-active-directory-sync-tool.aspx>」を参照してください。
     
-      - ユーザーが Lync Online のシングルサインオンを使用できるようにするには、Active Directory <http://social.technet.microsoft.com/wiki/contents/articles/1011.active-directory-federation-services-ad-fs-overview.aspx>フェデレーションサービスをインストールします。
+      - ユーザーが Lync Online のシングルサインオンを使用できるようにするには、Active Directory <https://social.technet.microsoft.com/wiki/contents/articles/1011.active-directory-federation-services-ad-fs-overview.aspx>フェデレーションサービスをインストールします。
     
       - オンプレミス展開で、Lync Server 管理シェルの次のコマンドレットを入力して、Lync Online のホスティングプロバイダーを作成します。
         
@@ -173,7 +173,7 @@ _**トピックの最終更新日:** 2015-11-13_
     
 
     > [!NOTE]  
-    > Rtcxds データベースのトランザクションログファイルの既定の最大サイズは 16 GB です。 多数のユーザーを同時に移動する場合は、特にミラーリングを有効にしている場合は、この値が十分ではない可能性があります。 これを回避するには、ファイルサイズを増やすか、またはログファイルを定期的にバックアップします。 詳細については<A class=uri href="http://support.microsoft.com/kb/2756725">http://support.microsoft.com/kb/2756725</A>、「」を参照してください。
+    > Rtcxds データベースのトランザクションログファイルの既定の最大サイズは 16 GB です。 多数のユーザーを同時に移動する場合は、特にミラーリングを有効にしている場合は、この値が十分ではない可能性があります。 これを回避するには、ファイルサイズを増やすか、またはログファイルを定期的にバックアップします。 詳細については<A class=uri href="https://support.microsoft.com/kb/2756725">https://support.microsoft.com/kb/2756725</A>、「」を参照してください。
 
     
     </div>

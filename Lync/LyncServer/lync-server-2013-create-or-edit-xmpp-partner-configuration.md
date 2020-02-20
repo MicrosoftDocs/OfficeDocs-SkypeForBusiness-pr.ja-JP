@@ -12,18 +12,18 @@ ms:contentKeyID: 48679558
 ms.date: 09/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4410444d1565e61fa80ef8b8db29aad63b4401de
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 609729c65240a17b70f7ef7115bd4901f37c687a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42032493"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151939"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="create-or-edit-xmpp-partner-configuration-in-lync-server-2013"></a>Lync Server 2013 での XMPP パートナー構成の作成または編集
 
@@ -75,7 +75,7 @@ Microsoft Lync Server 2013 では、フロントエンドサーバーまたは�
     
     XMPP 要件についての詳細は、XSF ドキュメント XEP-0178 を参照してください。 詳細は、「XEP-0178: Best Practices for Use of SASL EXTERNAL with Certificates」を参照してください。 <http://xmpp.org/extensions/xep-0178.html>
     
-    IETF ドキュメント「拡張可能なメッセージングおよびプレゼンスプロトコル (XMPP): Core」、Section 5.0、STARTTLS ネゴシエーション<http://tools.ietf.org/html/rfc6120>」を参照してください。
+    IETF ドキュメント「拡張可能なメッセージングおよびプレゼンスプロトコル (XMPP): Core」、Section 5.0、STARTTLS ネゴシエーション<https://tools.ietf.org/html/rfc6120>」を参照してください。
     
       - **TLS ネゴシエーション**。 XMPP サービスでは、TLS を必須にすることも任意にすることもできます。 また、TLS がサポートされないように定義することもできます。 [任意] を選択すると、ネゴシエーションが必須であるかどうかの決定は XMPP サービスに委ねられます。 使用可能なすべての設定と詳細を表示するには、有効でなく既知のエラーの構成を含む、SASL、TLS、およびダイヤルバックのネゴシエーションに関するすべての情報を表示します。「 [Lync Server 2013 の XMPP フェデレーションパートナーのネゴシエーション設定](lync-server-2013-negotiation-settings-for-xmpp-federated-partners.md)」を参照してください。
         

@@ -12,18 +12,18 @@ ms:contentKeyID: 48185939
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d7b443e257ee45c15974ba96a50b8217113ac942
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 161a418728362da4817610dfa8e13be3046e3df6
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048341"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42152685"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="populate-the-location-database-in-lync-server-2013"></a>Lync Server 2013 で場所データベースを設定する
 
@@ -116,7 +116,7 @@ _**トピックの最終更新日:** 2012-09-17_
     
         Set-CsLisSubnet -Subnet 157.56.66.0 -Description "Subnet 1" -Location Location1 -CompanyName "Litware" -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
     
-    ELIN ゲートウェイの場合は、ELIN を CompanyName フィールドに配置します。 複数の ELIN を含めることができます。 例:
+    ELIN ゲートウェイの場合は、ELIN を CompanyName フィールドに配置します。 複数の ELIN を含めることができます。 次に例を示します。
     
         Set-CsLisSubnet -Subnet 157.56.66.0 -Description "Subnet 1" -Location Location1 -CompanyName 425-555-0100; 425-555-0200; 425-555-0300 -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
     

@@ -12,18 +12,18 @@ ms:contentKeyID: 48185910
 ms.date: 05/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4b0efc4a6a9e9f195705801969b8459c17855388
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c70002eb7be67c221997465b6cdd5d252df284db
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036687"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42152785"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="planning-for-lync-server-2013-hybrid-deployments"></a>Lync Server 2013 ハイブリッド展開の計画
 
@@ -55,9 +55,9 @@ _**トピックの最終更新日:** 2016-05-25_
 
   - Office 365 でシングルサインオンをサポートし、ユーザーがオンプレミスの場合と同じログイン資格情報を使用して Office にサインインできるようにするには、Azure Active Directory (AAD) Connect のパスワード同期機能を使用できます。 Active Directory フェデレーションサービス (AD FS) を使用して、Office 365 でシングルサインオンを行うこともできます。
     
-    詳しくは「[オンプレミスの ID を Azure Active Directory と統合する](http://go.microsoft.com/fwlink/p/?linkid=619754)」をご覧ください。
+    詳しくは「[オンプレミスの ID を Azure Active Directory と統合する](https://go.microsoft.com/fwlink/p/?linkid=619754)」をご覧ください。
 
-  - 1つのディレクトリ同期ソリューションを使用して、オンプレミスとオンラインの Active Directory オブジェクトを同期させます。 ディレクトリ同期の詳細については、「[ディレクトリ統合ツール](http://go.microsoft.com/fwlink/p/?linkid=530320)」を参照してください。
+  - 1つのディレクトリ同期ソリューションを使用して、オンプレミスとオンラインの Active Directory オブジェクトを同期させます。 ディレクトリ同期の詳細については、「[ディレクトリ統合ツール](https://go.microsoft.com/fwlink/p/?linkid=530320)」を参照してください。
 
 </div>
 
@@ -85,7 +85,7 @@ Lync クライアントでサポートされている機能と、オンプレミ
 
 クライアントサポートの詳細については、以下のトピックを参照してください。
 
-  - [Lync Online のクライアント](http://go.microsoft.com/fwlink/?linkid=281902)
+  - [Lync Online のクライアント](https://go.microsoft.com/fwlink/?linkid=281902)
 
   - [Lync Server 2013 のクライアントの比較表](lync-server-2013-desktop-client-comparison-tables.md)
 
@@ -145,9 +145,9 @@ Skype for Business Online でハイブリッド展開を構成するには、次
 
 </div>
 
-サポートされるトポロジの詳細については、「 [Lync server 2013 のサポートされるトポロジ](lync-server-2013-supported-topologies.md)」および「[エンタープライズハイブリッド展開用の Lync Server 2013 Reference トポロジ](http://go.microsoft.com/fwlink/p/?linkid=398709)」を参照してください。
+サポートされるトポロジの詳細については、「 [Lync server 2013 のサポートされるトポロジ](lync-server-2013-supported-topologies.md)」および「[エンタープライズハイブリッド展開用の Lync Server 2013 Reference トポロジ](https://go.microsoft.com/fwlink/p/?linkid=398709)」を参照してください。
 
-ハイブリッド展開のトラブルシューティングと、PowerShell を Lync Online に接続する方法については、「 [Lync online: Lync PowerShell」および「ハイブリッドトラブルシューティング](http://go.microsoft.com/fwlink/p/?linkid=306718)」を参照してください。
+ハイブリッド展開のトラブルシューティングと、PowerShell を Lync Online に接続する方法については、「 [Lync online: Lync PowerShell」および「ハイブリッドトラブルシューティング](https://go.microsoft.com/fwlink/p/?linkid=306718)」を参照してください。
 
 </div>
 
@@ -216,7 +216,7 @@ Skype for Business Online でハイブリッド展開を構成するには、次
 
 Microsoft Online Services データセンターの場所によっては、ネットワークファイアウォールデバイスが、ワイルドカードドメイン名 (たとえば、outlook.com から\*のすべてのトラフィック) に基づいて接続を受け入れるように構成する必要もあります。 組織のファイアウォールがワイルドカードを使用した名前の構成方法をサポートしない場合は、許可する IP アドレスの範囲や特定のポートを手動で決める必要があります。
 
-ヘルプトピック「 [Office 365 の url と IP アドレスの範囲](http://go.microsoft.com/fwlink/p/?linkid=252942)」を参照してください。
+ヘルプトピック「 [Office 365 の url と IP アドレスの範囲](https://go.microsoft.com/fwlink/p/?linkid=252942)」を参照してください。
 
 </div>
 
@@ -246,7 +246,7 @@ Microsoft Online Services データセンターの場所によっては、ネッ
 <td><p>受信を開く</p>
 <ul>
 <li><p>Active Directory フェデレーション サービス (フェデレーション サーバーの役割)</p>
-<p>詳細については、「 <a href="http://go.microsoft.com/fwlink/p/?linkid=281899">AD FS の役割サービスについ</a>て」を参照してください。</p></li>
+<p>詳細については、「 <a href="https://go.microsoft.com/fwlink/p/?linkid=281899">AD FS の役割サービスについ</a>て」を参照してください。</p></li>
 <li><p>Active Directory フェデレーション サービス (プロキシ サーバーの役割)</p></li>
 <li><p>Microsoft Online Services ポータル</p></li>
 <li><p>ポータル サイト</p></li>
@@ -323,7 +323,7 @@ Lync オンプレミスと Lync Online の展開との間で AD FS および Dir
 
   - **Lync クライアント**   ユーザーによっては、lync Online に移行する際に新しいクライアントバージョンが必要になる場合があります。 Office Communications Server 2007 R2 の場合、Lync Online に移行する前に、ユーザーを Lync Server 2013 プールに移動する必要があります。
     
-    クライアントサポートの詳細については、「 [Lync Online のクライアント](http://go.microsoft.com/fwlink/p/?linkid=281902)」および「[サポートされている lync クライアントとネットワークポートの構成](http://go.microsoft.com/fwlink/p/?linkid=281901)」を参照してください。
+    クライアントサポートの詳細については、「 [Lync Online のクライアント](https://go.microsoft.com/fwlink/p/?linkid=281902)」および「[サポートされている lync クライアントとネットワークポートの構成](https://go.microsoft.com/fwlink/p/?linkid=281901)」を参照してください。
 
   - **オンプレミスのポリシーと構成 (非ユーザー)**   のオンラインおよびオンプレミスのポリシーには、個別の構成が必要です。 両方に適用されるグローバル ポリシーを設定することはできません。
 

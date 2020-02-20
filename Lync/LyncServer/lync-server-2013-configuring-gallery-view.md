@@ -12,18 +12,18 @@ ms:contentKeyID: 48184069
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 096272a2347c400a81e6d4684873c5f5828136a5
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 02c13f2b1fa312394edfaba01ecd05179f86a0c9
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030591"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151427"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-gallery-view-in-lync-server-2013"></a>Lync Server 2013 でのギャラリービューの構成
 
@@ -39,7 +39,7 @@ _**トピックの最終更新日:** 2012-10-30_
 
 Lync Server 2013 では、[会議ポリシー] でギャラリービューのビデオ会議を構成します。 ギャラリー ビューは既定で有効になっています。 ギャラリー ビューを許可しない場合、または一部のユーザーにのみ許可する場合は、会議ポリシーを使用して機能を無効にする必要があります。
 
-会議参加者のビデオが利用できない場合、Lync Server 2013 の新機能である高解像度の写真を展開すると、ユーザーのギャラリービューの機能が強化されます。 高解像度の写真は、Active Directory ドメインサービスに保存されている、小さくて制限のある解像度の写真に代わる手段として使用できます。 高解像度写真はユーザーの Exchange 2013 メールボックスに格納されるため、Lync Server 2013 と Exchange 2013 を統合する必要があります。 詳細については、NextHop のブログ記事「Exchange 2013 と Lync Server 2013 の統合」 [http://go.microsoft.com/fwlink/p/?LinkId=260987](http://go.microsoft.com/fwlink/p/?linkid=260987)を参照してください。
+会議参加者のビデオが利用できない場合、Lync Server 2013 の新機能である高解像度の写真を展開すると、ユーザーのギャラリービューの機能が強化されます。 高解像度の写真は、Active Directory ドメインサービスに保存されている、小さくて制限のある解像度の写真に代わる手段として使用できます。 高解像度写真はユーザーの Exchange 2013 メールボックスに格納されるため、Lync Server 2013 と Exchange 2013 を統合する必要があります。 詳細については、NextHop のブログ記事「Exchange 2013 と Lync Server 2013 の統合」 [https://go.microsoft.com/fwlink/p/?LinkId=260987](https://go.microsoft.com/fwlink/p/?linkid=260987)を参照してください。
 
 <div>
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 63969574
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b67831b6dbcd7dae12f9b19dd71f2512a8807189
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2832af2c038383e0cca9f8cb931ce4b675b44f2b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043489"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150966"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="check-trunk-configuration-against-a-phone-number-in-lync-server-2013"></a>Lync Server 2013 で電話番号に対するトランク構成を確認する
 
@@ -136,7 +136,7 @@ Get-cstrunkconfiguration が一致を返さない場合、通常は、テスト�
 
 名前: NoAreaCode
 
-その時点で、Pattern プロパティ ([正規表現](http://go.microsoft.com/fwlink/?linkid=400464)文字列) の値をチェックして、いずれかの変換ルールがダイヤル番号を処理するように構成されているかどうかを確認します。 それ以外の場合は、既存のルールの1つを変更するか (New-csoutboundtranslationrule)、New-csoutboundtranslationrule コマンドレットを使用して新しいルールをコレクションに追加します。
+その時点で、Pattern プロパティ ([正規表現](https://go.microsoft.com/fwlink/?linkid=400464)文字列) の値をチェックして、いずれかの変換ルールがダイヤル番号を処理するように構成されているかどうかを確認します。 それ以外の場合は、既存のルールの1つを変更するか (New-csoutboundtranslationrule)、New-csoutboundtranslationrule コマンドレットを使用して新しいルールをコレクションに追加します。
 
 </div>
 

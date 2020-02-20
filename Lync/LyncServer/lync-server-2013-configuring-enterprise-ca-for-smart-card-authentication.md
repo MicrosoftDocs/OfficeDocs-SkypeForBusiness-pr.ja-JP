@@ -12,18 +12,18 @@ ms:contentKeyID: 54973692
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a49fb76019fbb3bc3356fed5de7a67b0e3a10350
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 315d98e26b471e2d9dd84dcb70cd7302e924e9b3
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046380"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151559"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-enterprise-ca-for-smart-card-authentication-in-lync-server-2013"></a>Lync Server 2013 でのスマートカード認証のエンタープライズ CA の構成
 
@@ -37,7 +37,7 @@ ms.locfileid: "42046380"
 
 _**トピックの最終更新日:** 2013-07-03_
 
-次のセクションでは、スマートカード認証をサポートするようにエンタープライズのルート証明機関 (CA) を構成する方法について説明します。 エンタープライズルート CA のインストール方法については、「エンタープライズのルート証明機関をインストール[http://go.microsoft.com/fwlink/p/?LinkID=313364](http://go.microsoft.com/fwlink/p/?linkid=313364)する」を参照してください。
+次のセクションでは、スマートカード認証をサポートするようにエンタープライズのルート証明機関 (CA) を構成する方法について説明します。 エンタープライズルート CA のインストール方法については、「エンタープライズのルート証明機関をインストール[https://go.microsoft.com/fwlink/p/?LinkID=313364](https://go.microsoft.com/fwlink/p/?linkid=313364)する」を参照してください。
 
 <div>
 

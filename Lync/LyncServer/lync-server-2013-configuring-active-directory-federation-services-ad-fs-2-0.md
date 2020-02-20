@@ -12,18 +12,18 @@ ms:contentKeyID: 54973682
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba3a74f59bc996defcd9baee9162d034ab2178eb
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c82c1ad2072f5f8611660efc44a502249f26d21b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029718"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150876"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-active-directory-federation-services-ad-fs-20-for-lync-server-2013"></a>Lync Server 2013 用の Active Directory フェデレーションサービス (AD FS 2.0) の構成
 
@@ -37,13 +37,13 @@ ms.locfileid: "42029718"
 
 _**トピックの最終更新日:** 2013-07-03_
 
-次のセクションでは、多要素認証をサポートするように Active Directory フェデレーションサービス (AD FS 2.0) を構成する方法について説明します。 AD FS 2.0 をインストールする方法の詳細については、「AD FS 2.0 のステップバイステップ」および[http://go.microsoft.com/fwlink/p/?LinkId=313374](http://go.microsoft.com/fwlink/p/?linkid=313374)「ガイドについて」を参照してください。
+次のセクションでは、多要素認証をサポートするように Active Directory フェデレーションサービス (AD FS 2.0) を構成する方法について説明します。 AD FS 2.0 をインストールする方法の詳細については、「AD FS 2.0 のステップバイステップ」および[https://go.microsoft.com/fwlink/p/?LinkId=313374](https://go.microsoft.com/fwlink/p/?linkid=313374)「ガイドについて」を参照してください。
 
 <div class="">
 
 
 > [!NOTE]  
-> AD FS 2.0 をインストールするときは、Windows Server マネージャーを使用して Active Directory フェデレーションサービスの役割を追加しないでください。 代わりに、Active Directory フェデレーションサービス 2.0 RTW パッケージをダウンロードしてインストール<A href="http://go.microsoft.com/fwlink/p/?linkid=313375">http://go.microsoft.com/fwlink/p/?LinkId=313375</A>します。
+> AD FS 2.0 をインストールするときは、Windows Server マネージャーを使用して Active Directory フェデレーションサービスの役割を追加しないでください。 代わりに、Active Directory フェデレーションサービス 2.0 RTW パッケージをダウンロードしてインストール<A href="https://go.microsoft.com/fwlink/p/?linkid=313375">https://go.microsoft.com/fwlink/p/?LinkId=313375</A>します。
 
 
 

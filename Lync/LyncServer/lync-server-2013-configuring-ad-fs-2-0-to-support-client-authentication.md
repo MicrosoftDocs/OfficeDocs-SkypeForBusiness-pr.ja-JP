@@ -12,18 +12,18 @@ ms:contentKeyID: 54973687
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7054bae609b5d1a1c6fe176c1092614f5d30fa6
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8729ca803f3e3897aa9383f28a486229bf5ce33f
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029708"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150866"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-ad-fs-20-to-support-client-authentication-in-lync-server-2013"></a>Lync Server 2013 でクライアント認証をサポートするように AD FS 2.0 を構成する
 
@@ -43,7 +43,7 @@ AD FS 2.0 がスマートカードを使用した認証をサポートするよ�
 
   - トランスポート層セキュリティクライアント認証
 
-フォームベース認証を使用すると、ユーザーのユーザー名またはパスワードを使用するか、スマートカードと PIN を使用して認証を行う web ページを開発できます。 このトピックでは、AD FS 2.0 を使用してトランスポート層セキュリティクライアント認証を実装する方法に焦点を当てます。 AD FS 2.0 認証の種類の詳細については、「AD FS 2.0: で[http://go.microsoft.com/fwlink/p/?LinkId=313384](http://go.microsoft.com/fwlink/p/?linkid=313384)ローカル認証の種類を変更する方法」を参照してください。
+フォームベース認証を使用すると、ユーザーのユーザー名またはパスワードを使用するか、スマートカードと PIN を使用して認証を行う web ページを開発できます。 このトピックでは、AD FS 2.0 を使用してトランスポート層セキュリティクライアント認証を実装する方法に焦点を当てます。 AD FS 2.0 認証の種類の詳細については、「AD FS 2.0: で[https://go.microsoft.com/fwlink/p/?LinkId=313384](https://go.microsoft.com/fwlink/p/?linkid=313384)ローカル認証の種類を変更する方法」を参照してください。
 
 <div>
 

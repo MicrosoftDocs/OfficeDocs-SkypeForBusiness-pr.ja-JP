@@ -12,18 +12,18 @@ ms:contentKeyID: 48184996
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1e24d3d0d3b17e5e7b58a6cd58806c3b5ba22e9e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7eea129439e216c3fb2542a68fc021d1e64fe14c
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050679"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149476"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="modify-quality-of-experience-settings-in-lync-server-2013"></a>Lync Server 2013 で qoe (Quality of Experience) 設定を変更する
 
@@ -75,7 +75,7 @@ _**トピックの最終更新日:** 2013-02-23_
 
 ## <a name="specifying-qoe-retention-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用した QoE の保持期間の指定
 
-QoE の保持設定を作成するには、Windows PowerShell と、 **-CsQoEConfiguration の設定**コマンドレットを使用します。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
+QoE の保持設定を作成するには、Windows PowerShell と、 **-CsQoEConfiguration の設定**コマンドレットを使用します。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 <div>
 

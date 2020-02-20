@@ -12,18 +12,18 @@ ms:contentKeyID: 48184512
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5b294d2d27c9c092854e2556d863a76a77569932
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 3190e6b3727d1d226a217dc059a1f0b69f890a16
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42041186"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149066"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="windows-powershell-cmdlets-for-address-book-services-in-lync-server-2013"></a>Lync Server 2013 のアドレス帳サービス用の Windows PowerShell コマンドレット
 
@@ -86,7 +86,7 @@ Lync Server には、アドレス帳サービスを管理および構成する�
 ## <a name="see-also"></a>関連項目
 
 
-[http://go.microsoft.com/fwlink/p/?linkId=205826](http://go.microsoft.com/fwlink/p/?linkid=205826)  
+[https://go.microsoft.com/fwlink/p/?linkId=205826](https://go.microsoft.com/fwlink/p/?linkid=205826)  
   
 
 </div>

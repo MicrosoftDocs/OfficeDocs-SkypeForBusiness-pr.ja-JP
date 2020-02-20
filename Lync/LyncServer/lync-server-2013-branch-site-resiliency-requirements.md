@@ -12,18 +12,18 @@ ms:contentKeyID: 48184984
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 563179eb5933a6f2c1ab996fb1e20c7b047a2ae3
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 61ca1db13f99b13dd2a6ed148f13ab6a132ad77b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42031031"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150448"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="branch-site-resiliency-requirements-for-lync-server-2013"></a>Lync Server 2013 のブランチサイトの復元の要件
 
@@ -115,7 +115,7 @@ _**トピックの最終更新日:** 2014-02-25_
 <th>ルール名</th>
 <th>説明</th>
 <th>番号のパターン</th>
-<th>Translation</th>
+<th>翻訳</th>
 <th>例</th>
 </tr>
 </thead>
@@ -145,7 +145,7 @@ _**トピックの最終更新日:** 2014-02-25_
 <tr class="header">
 <th>説明</th>
 <th>一致パターン</th>
-<th>Translation</th>
+<th>翻訳</th>
 <th>例</th>
 </tr>
 </thead>
@@ -180,7 +180,7 @@ _**トピックの最終更新日:** 2014-02-25_
 <tr class="header">
 <th>説明</th>
 <th>一致パターン</th>
-<th>Translation</th>
+<th>翻訳</th>
 <th>例</th>
 </tr>
 </thead>

@@ -12,18 +12,18 @@ ms:contentKeyID: 48183859
 ms.date: 07/07/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f14485465e44b089e5002a04d3ed5e5a392ad4d8
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f46bd37cefd164c989363d91a1a5629ba1a82934
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41991862"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149937"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="manually-purging-the-call-detail-recording-and-quality-of-experience-databases-in-lync-server-2013"></a>Lync Server 2013 で通話詳細記録と qoe (Quality of Experience) データベースを手動で削除する
 
@@ -45,7 +45,7 @@ _**トピックの最終更新日:** 2014-07-07_
 
 上記のコマンドでは、通話詳細レコードと10日以上経過した診断データレコードの両方が、atl-sql-001.litwareinc.com 上の監視データベースから削除されます。 (通話詳細レコードは、ユーザーまたはセッションレポートです。 診断データレコードは、Lync 2013 などのクライアントアプリケーションによってアップロードされる診断ログです。)
 
-上に示すように、Invoke-CsCdrDatabasePurge コマンドレットを実行するときは、PurgeCallDetaiDataOlderThanDays および PurgeDiagnosticDataOlderThanDays パラメーターの両方が含まれる必要があります。 しかし、これらのパラメーターを同じ値に設定する必要はありません。 たとえば、10 日より古い詳細通話記録を削除する一方で、すべての診断データ レコードをデータベースに残すことはできます。 そのためには、Purgecalldetaildataolderthandays はを10に、PurgeDiagnosticDataOlderThanDays を0に設定します。 例:
+上に示すように、Invoke-CsCdrDatabasePurge コマンドレットを実行するときは、PurgeCallDetaiDataOlderThanDays および PurgeDiagnosticDataOlderThanDays パラメーターの両方が含まれる必要があります。 しかし、これらのパラメーターを同じ値に設定する必要はありません。 たとえば、10 日より古い詳細通話記録を削除する一方で、すべての診断データ レコードをデータベースに残すことはできます。 そのためには、Purgecalldetaildataolderthandays はを10に、PurgeDiagnosticDataOlderThanDays を0に設定します。 次に例を示します。
 
     Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 0
 

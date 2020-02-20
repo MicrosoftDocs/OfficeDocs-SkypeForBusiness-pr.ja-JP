@@ -12,18 +12,18 @@ ms:contentKeyID: 48184583
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 03436a59fa9fbab99608e4fa3b979e4802115ed1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 6b6e0e44367af86ea42099241ef3d9bbfa750133
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42042959"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42152565"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="preparing-active-directory-domain-services-in-lync-server-2013"></a>Lync Server 2013 での Active Directory ドメインサービスの準備
 
@@ -78,7 +78,7 @@ Active Directory の準備作業を実行するには、以下のコンポーネ
     
 
     > [!NOTE]  
-    > Windows Server 2012 および Windows Server 2012 R2 では、サーバーマネージャーを使用して .NET Framework 4.5 をインストールしてアクティブ化します。 詳細については、「 <A href="lync-server-2013-additional-software-requirements.md">Lync Server 2013 の追加ソフトウェア要件</A>」の「Microsoft .net Framework 4.5」を参照してください。 Windows Server&nbsp;2008&nbsp;R2 の場合は、Microsoft Web サイトから<A href="http://www.microsoft.com/download/details.aspx?id=30653">.net Framework 4.5</A>をダウンロードしてインストールします。
+    > Windows Server 2012 および Windows Server 2012 R2 では、サーバーマネージャーを使用して .NET Framework 4.5 をインストールしてアクティブ化します。 詳細については、「 <A href="lync-server-2013-additional-software-requirements.md">Lync Server 2013 の追加ソフトウェア要件</A>」の「Microsoft .net Framework 4.5」を参照してください。 Windows Server&nbsp;2008&nbsp;R2 の場合は、Microsoft Web サイトから<A href="https://www.microsoft.com/download/details.aspx?id=30653">.net Framework 4.5</A>をダウンロードしてインストールします。
 
     
     </div>
@@ -271,7 +271,7 @@ Ldifde.exe を使用してスキーマ マスターでないドメイン コン�
 
     ldifde -i -v -k -s <SchemaMasterFQDN> -f <Schema filename> -c DC=X <rootDomainNamingContext> -j logFilePath -b <administrator account> <domain> <password>
 
-Ldifde の使用の詳細については、Microsoft サポート技術情報の記事237677「LDIFDE を使用してディレクトリオブジェクトを Active Directory [http://go.microsoft.com/fwlink/p/?linkId=132204](http://go.microsoft.com/fwlink/p/?linkid=132204)にインポートおよびエクスポートする」 () を参照してください。
+Ldifde の使用の詳細については、Microsoft サポート技術情報の記事237677「LDIFDE を使用してディレクトリオブジェクトを Active Directory [https://go.microsoft.com/fwlink/p/?linkId=132204](https://go.microsoft.com/fwlink/p/?linkid=132204)にインポートおよびエクスポートする」 () を参照してください。
 
 </div>
 

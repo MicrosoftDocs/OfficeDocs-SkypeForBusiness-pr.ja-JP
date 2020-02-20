@@ -12,18 +12,18 @@ ms:contentKeyID: 61084873
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b6b67c4843cc0c1039bee48aa6b7c4620b77ce08
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2710e85eced76241f4946ef2746e544d07be941f
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006995"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42152595"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="key-health-indicators-in-lync-server-2013"></a>Lync Server 2013 の主要な正常性インジケーター
 
@@ -37,7 +37,7 @@ ms.locfileid: "42006995"
 
 _**トピックの最終更新日:** 2014-02-10_
 
-この記事では、正常な[Lync Servers ポスターを維持するための基礎となる主要な正常性インジケーターについ](http://go.microsoft.com/fwlink/?linkid=391838)て説明します。これは、ダウンロードセンターからダウンロードできます。
+この記事では、正常な[Lync Servers ポスターを維持するための基礎となる主要な正常性インジケーターについ](https://go.microsoft.com/fwlink/?linkid=391838)て説明します。これは、ダウンロードセンターからダウンロードできます。
 
 ![KHI データを使用したトラブルシューティングについて説明するポスター](images/Dn594589.b6fe82bd-d70f-4c1f-a812-b615ac5fa7d7(OCS.15).jpg "KHI データを使用したトラブルシューティングについて説明するポスター")
 
@@ -75,7 +75,7 @@ KHIs は、標準的な Lync 監視ソリューション (System Center Operatio
 
 KHI パフォーマンスカウンターを収集し、ネットワークガイドに付属する KHI スプレッドシートに、Lync 展開のサーバーの状態を判断するのに役立つスコアカードを作成します。 情報を入力すると、環境を修復して、他の関係者に対してさらに洞察を提供することができます。 KHIs を月単位で評価し、展開の継続的な運用プロセスに組み込みます。
 
-[Lync Server ネットワークガイド](http://go.microsoft.com/fwlink/p/?linkid=390677)をダウンロードして、khis の完全なリストを確認し、関連するスプレッドシートを取得します。
+[Lync Server ネットワークガイド](https://go.microsoft.com/fwlink/p/?linkid=390677)をダウンロードして、khis の完全なリストを確認し、関連するスプレッドシートを取得します。
 
 </div>
 
@@ -333,9 +333,9 @@ SIP スタック = Lync のコア SIP 実装が含まれています。
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server ネットワークガイド](http://go.microsoft.com/fwlink/p/?linkid=390677)  
-[主要な正常性インジケーター: 正常な Lync Server を維持するための基礎](http://go.microsoft.com/fwlink/?linkid=391838)  
-[Lync 通話品質の方法論](http://go.microsoft.com/fwlink/?linkid=391841)  
+[Lync Server ネットワークガイド](https://go.microsoft.com/fwlink/p/?linkid=390677)  
+[主要な正常性インジケーター: 正常な Lync Server を維持するための基礎](https://go.microsoft.com/fwlink/?linkid=391838)  
+[Lync 通話品質の方法論](https://go.microsoft.com/fwlink/?linkid=391841)  
   
 
 </div>

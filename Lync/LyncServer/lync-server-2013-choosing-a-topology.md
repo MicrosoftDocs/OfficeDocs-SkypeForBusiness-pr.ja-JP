@@ -12,18 +12,18 @@ ms:contentKeyID: 48183634
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c3a77a37cb9f9c4f92f344988082086834ab3489
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b91fc332c5eff86cd23393492bcd760bbda18db3
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046530"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151397"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="choosing-a-topology-in-lync-server-2013"></a>Lync Server 2013 でのトポロジの選択
 
@@ -172,22 +172,22 @@ Lync Server 2013 では、単一および拡張統合エッジサーバートポ
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>2 </p></td>
+<td><p>pbm-2</p></td>
 <td><p>6 </p></td>
 <td><p>3 (VIP ごとに 1 つ) + 6</p></td>
 </tr>
 <tr class="even">
-<td><p>3 </p></td>
+<td><p>1/3</p></td>
 <td><p>9 </p></td>
 <td><p>3 (VIP ごとに 1 つ) + 9</p></td>
 </tr>
 <tr class="odd">
-<td><p>4 </p></td>
+<td><p>2/4</p></td>
 <td><p>12</p></td>
 <td><p>3 (VIP ごとに 1 つ) + 12</p></td>
 </tr>
 <tr class="even">
-<td><p>5 </p></td>
+<td><p>5</p></td>
 <td><p>15 </p></td>
 <td><p>3 (VIP ごとに 1 つ) + 15</p></td>
 </tr>
@@ -212,22 +212,22 @@ Lync Server 2013 では、単一および拡張統合エッジサーバートポ
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>2 </p></td>
-<td><p>2 </p></td>
+<td><p>pbm-2</p></td>
+<td><p>pbm-2</p></td>
 <td><p>1 (VIP ごとに 1 つ) + 2</p></td>
 </tr>
 <tr class="even">
-<td><p>3 </p></td>
-<td><p>3 </p></td>
+<td><p>1/3</p></td>
+<td><p>1/3</p></td>
 <td><p>1 ( VIP ごとに 1 つ) + 3</p></td>
 </tr>
 <tr class="odd">
-<td><p>4 </p></td>
-<td><p>4 </p></td>
+<td><p>2/4</p></td>
+<td><p>2/4</p></td>
 <td><p>1 (VIP ごとに 1 つ) + 4</p></td>
 </tr>
 <tr class="even">
-<td><p>5 </p></td>
+<td><p>5</p></td>
 <td><p>5</p></td>
 <td><p>1 (VIP ごとに 1 つ) + 5</p></td>
 </tr>

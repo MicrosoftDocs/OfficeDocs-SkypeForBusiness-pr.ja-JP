@@ -12,18 +12,18 @@ ms:contentKeyID: 48184412
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f61d1e5ef7edc8414ee16eaa90ee31a69744af18
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 9a460b887e161cd1dd89e3953dcfb0c2fce76813
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029688"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150846"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-an-on-premises-partner-application-for-microsoft-lync-server-2013"></a>Microsoft Lync Server 2013 用のオンプレミスパートナーアプリケーションの構成
 
@@ -95,7 +95,7 @@ Set-CsOAuthConfiguration を呼び出すときに Realm パラメーターが使
 
     Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000 -Realm "contoso.com"
 
-これらの変更を行った後、スクリプトを実行して、Exchange 2013 と SharePoint の両方をパートナーアプリケーションとして構成できるようにするには、Lync Server 2013 管理シェル内からスクリプトファイルを実行します。 例:
+これらの変更を行った後、スクリプトを実行して、Exchange 2013 と SharePoint の両方をパートナーアプリケーションとして構成できるようにするには、Lync Server 2013 管理シェル内からスクリプトファイルを実行します。 次に例を示します。
 
     C:\Scripts\ServerToServerAuth.ps1
 

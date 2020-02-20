@@ -12,18 +12,18 @@ ms:contentKeyID: 48184120
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 54b42ba288c89f8735d3f7d13dee9a1944efe82b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 138e4c442f482550160b3a836a2d3258b5273853
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048748"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149396"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="modifying-certificates-for-mobility-in-lync-server-2013"></a>Lync Server 2013 でのモビリティの証明書の変更
 
@@ -69,7 +69,7 @@ Lync 環境とモバイルクライアント間のセキュリティ保護され
     
     **重要:**
     
-    各使用に個別の証明書が割り当てられている場合 (上記でチェックした Thumbprint の値が各証明書で異なる) は、上記の例のように、複数の種類を使用して、 **cscertificate**コマンドレットを実行し**ない**ことが重要です。 この場合、用途ごとに **Set-CsCertificate** コマンドレットを実行します。 例:
+    各使用に個別の証明書が割り当てられている場合 (上記でチェックした Thumbprint の値が各証明書で異なる) は、上記の例のように、複数の種類を使用して、 **cscertificate**コマンドレットを実行し**ない**ことが重要です。 この場合、用途ごとに **Set-CsCertificate** コマンドレットを実行します。 次に例を示します。
     
         Set-CsCertificate -Type Default -Thumbprint <Certificate Thumbprint>
         Set-CsCertificate -Type WebServicesInternal -Thumbprint <Certificate Thumbprint>
@@ -123,7 +123,7 @@ Lync 環境とモバイルクライアント間のセキュリティ保護され
         
             Request-CsCertificate -New -Type WebServicesInternal -Ca dc\myca -AllSipDomain -verbose
         
-        SIP ドメインが多数ある場合は、新しい AllSipDomain パラメーターを使用することはできません。 代わりに、DomainName パラメーターを使用する必要があります。 DomainName パラメーターを使用する場合は、SIP ドメインの FQDN に適切なプレフィックスを使用する必要があります。 例:
+        SIP ドメインが多数ある場合は、新しい AllSipDomain パラメーターを使用することはできません。 代わりに、DomainName パラメーターを使用する必要があります。 DomainName パラメーターを使用する場合は、SIP ドメインの FQDN に適切なプレフィックスを使用する必要があります。 次に例を示します。
         
             Request-CsCertificate -New -Type WebServicesInternal -Ca dc\myca -DomainName "LyncdiscoverInternal.contoso.com, LyncdiscoverInternal.contoso.net" -verbose
     
@@ -131,7 +131,7 @@ Lync 環境とモバイルクライアント間のセキュリティ保護され
         
             Request-CsCertificate -New -Type WebServicesExternal -Ca dc\myca -AllSipDomain -verbose
         
-        SIP ドメインが多数ある場合は、新しい AllSipDomain パラメーターを使用することはできません。 代わりに、DomainName パラメーターを使用する必要があります。 DomainName パラメーターを使用する場合は、SIP ドメインの FQDN に適切なプレフィックスを使用する必要があります。 例:
+        SIP ドメインが多数ある場合は、新しい AllSipDomain パラメーターを使用することはできません。 代わりに、DomainName パラメーターを使用する必要があります。 DomainName パラメーターを使用する場合は、SIP ドメインの FQDN に適切なプレフィックスを使用する必要があります。 次に例を示します。
         
             Request-CsCertificate -New -Type WebServicesExternal -Ca dc\myca -DomainName "Lyncdiscover.contoso.com, Lyncdiscover.contoso.net" -verbose
     

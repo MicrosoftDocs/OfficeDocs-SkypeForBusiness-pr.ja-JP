@@ -12,18 +12,18 @@ ms:contentKeyID: 48185664
 ms.date: 12/09/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c16e33197ed28744df126d672385359f5eb8781b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 91326778777e6ddd1db2f8938cfb78e96ed8c7f5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42042989"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151569"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-enhanced-presence-privacy-mode-in-lync-server-2013"></a>Lync Server 2013 での拡張プレゼンスプライバシーモードの構成
 
@@ -64,7 +64,7 @@ _**トピックの最終更新日:** 2014-12-08_
     
         Get-CsPrivacyConfiguration | Set-CsPrivacyConfiguration -EnablePrivacyMode $True
     
-    このコマンドによって、組織で現在使用されているすべてのプライバシー構成設定のプライバシー モードが有効になります。 Lync Server 拡張プレゼンスプライバシーモードのポリシー構成が Lync 2013 クライアントの連絡先プレゼンスを管理する方法の詳細については、Microsoft サポート技術情報の記事「 [Lync server enhanced プレゼンスプライバシーモードを有効にする」を参照してください。一部の lync 連絡先のプレゼンス状態が "利用不可" に更新](http://support.microsoft.com/kb/3020057)されます。
+    このコマンドによって、組織で現在使用されているすべてのプライバシー構成設定のプライバシー モードが有効になります。 Lync Server 拡張プレゼンスプライバシーモードのポリシー構成が Lync 2013 クライアントの連絡先プレゼンスを管理する方法の詳細については、Microsoft サポート技術情報の記事「 [Lync server enhanced プレゼンスプライバシーモードを有効にする」を参照してください。一部の lync 連絡先のプレゼンス状態が "利用不可" に更新](https://support.microsoft.com/kb/3020057)されます。
 
 </div>
 

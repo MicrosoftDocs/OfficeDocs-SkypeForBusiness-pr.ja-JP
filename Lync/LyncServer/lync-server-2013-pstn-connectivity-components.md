@@ -12,18 +12,18 @@ ms:contentKeyID: 48184408
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b307e88bbf85b43a6997d46c5a822684e0421752
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 08764f432eb90f1b16a0c91ed810d394e94c6193
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043449"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42152321"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="pstn-connectivity-components-in-lync-server-2013"></a>Lync Server 2013 の PSTN 接続コンポーネント
 
@@ -59,7 +59,7 @@ PSTN ゲートウェイを使用する代わりに、SIP トランキングを�
 
 ## <a name="pstn-gateways"></a>PSTN ゲートウェイ
 
-PSTN ゲートウェイは、エンタープライズ VoIP インフラストラクチャと PSTN または PBX の間の信号とメディアを変換する、サードパーティのデバイスです。 PSTN ゲートウェイは、仲介サーバーと連携して、エンタープライズ VoIP クライアントへの PSTN または PBX の通話を処理します。 また、仲介サーバーは、PSTN または PBX にルーティングするために、エンタープライズ VoIP クライアントから PSTN ゲートウェイへの通話も処理します。 Microsoft と連携して Lync Server と連携するデバイスを提供するパートナーの一覧については、Microsoft ユニファイドコミュニケーション[http://go.microsoft.com/fwlink/p/?linkId=202836](http://go.microsoft.com/fwlink/p/?linkid=202836)パートナーの web サイト () を参照してください。
+PSTN ゲートウェイは、エンタープライズ VoIP インフラストラクチャと PSTN または PBX の間の信号とメディアを変換する、サードパーティのデバイスです。 PSTN ゲートウェイは、仲介サーバーと連携して、エンタープライズ VoIP クライアントへの PSTN または PBX の通話を処理します。 また、仲介サーバーは、PSTN または PBX にルーティングするために、エンタープライズ VoIP クライアントから PSTN ゲートウェイへの通話も処理します。 Microsoft と連携して Lync Server と連携するデバイスを提供するパートナーの一覧については、Microsoft ユニファイドコミュニケーション[https://go.microsoft.com/fwlink/p/?linkId=202836](https://go.microsoft.com/fwlink/p/?linkid=202836)パートナーの web サイト () を参照してください。
 
 </div>
 
@@ -81,15 +81,15 @@ PSTN ゲートウェイは、エンタープライズ VoIP インフラストラ
 
 
 > [!NOTE]  
-> メディア バイパスは、すべての PSTN ゲートウェイ、IP-PBX、および SBC と相互運用できるとは限りません。 Microsoft は、認定パートナーで PSTN ゲートウェイと sbc のセットをテストしており、Cisco IP-PBX でいくつかのテストを行いました。 メディアバイパスがサポートされるのは、統合コミュニケーションのオープン相互運用性プログラム– Lync Server at <A href="http://go.microsoft.com/fwlink/p/?linkid=214406">http://go.microsoft.com/fwlink/p/?linkId=214406</A>の製品およびバージョンのみです。
+> メディア バイパスは、すべての PSTN ゲートウェイ、IP-PBX、および SBC と相互運用できるとは限りません。 Microsoft は、認定パートナーで PSTN ゲートウェイと sbc のセットをテストしており、Cisco IP-PBX でいくつかのテストを行いました。 メディアバイパスがサポートされるのは、統合コミュニケーションのオープン相互運用性プログラム– Lync Server at <A href="https://go.microsoft.com/fwlink/p/?linkid=214406">https://go.microsoft.com/fwlink/p/?linkId=214406</A>の製品およびバージョンのみです。
 
 
 
 </div>
 
-エンタープライズ Voip ソリューションを提供しているパートナーの詳細については、Microsoft ユニファイ[http://go.microsoft.com/fwlink/p/?linkId=202836](http://go.microsoft.com/fwlink/p/?linkid=202836)ドコミュニケーションパートナーの web サイト () を参照してください。
+エンタープライズ Voip ソリューションを提供しているパートナーの詳細については、Microsoft ユニファイ[https://go.microsoft.com/fwlink/p/?linkId=202836](https://go.microsoft.com/fwlink/p/?linkid=202836)ドコミュニケーションパートナーの web サイト () を参照してください。
 
-PSTN ゲートウェイを含むエンタープライズ Voip ハードウェアソリューションを提供しているパートナーの詳細については、「 [http://go.microsoft.com/fwlink/p/?linkId=202836](http://go.microsoft.com/fwlink/p/?linkid=202836)Microsoft 統合コミュニケーションパートナーの web サイト」を参照してください。
+PSTN ゲートウェイを含むエンタープライズ Voip ハードウェアソリューションを提供しているパートナーの詳細については、「 [https://go.microsoft.com/fwlink/p/?linkId=202836](https://go.microsoft.com/fwlink/p/?linkid=202836)Microsoft 統合コミュニケーションパートナーの web サイト」を参照してください。
 
 </div>
 

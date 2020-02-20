@@ -12,18 +12,18 @@ ms:contentKeyID: 48185261
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 331a6f24cd2cc176679f628bc54460a6c3c7a718
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 36fb605741abfd65a43b0da39e372f31d112ae0d
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008903"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42148224"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="remove-legacy-archiving-and-monitoring-servers"></a>従来のアーカイブサーバーおよび監視サーバーを削除する
 
@@ -41,7 +41,7 @@ Office Communications Server 2007 R2 の展開にアーカイブサーバーま�
 
 [「フェーズ 6: ユーザーをパイロットプールに移動](phase-6-move-users-to-the-pilot-pool.md)する」で説明されている手順に従って、Office Communications Server 2007 R2 から Lync Server 2013 にユーザーを移動することができます。
 
-すべてのユーザーが残りのプールから削除されたことを確認した後、「サーバーとサーバーの役割を削除[http://go.microsoft.com/fwlink/p/?linkId=205887](http://go.microsoft.com/fwlink/p/?linkid=205887)する」の手順に従います。
+すべてのユーザーが残りのプールから削除されたことを確認した後、「サーバーとサーバーの役割を削除[https://go.microsoft.com/fwlink/p/?linkId=205887](https://go.microsoft.com/fwlink/p/?linkid=205887)する」の手順に従います。
 
 </div>
 

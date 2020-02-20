@@ -12,18 +12,18 @@ ms:contentKeyID: 48185143
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 86c64b9cc595c108676a519bc98cba3ecad04a62
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 61b77ff507b180999a8cc9a1188dc2244098b429
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035903"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149516"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="modify-a-voice-route-in-lync-server-2013"></a>Lync Server 2013 での音声ルートの変更
 
@@ -67,7 +67,7 @@ _**トピックの最終更新日:** 2012-11-01_
         
           - **例外:** プレフィックス値に対して1つ以上の例外を指定する場合は、プレフィックスを強調表示して [**例外**] をクリックします。 このルートが対応*しない*一致パターンの値を 1 つまたは複数入力します。 たとえば、ルートから + 425237 で始まる番号を除外するには、[**例外**] フィールドに **+ 425237**の値を入力し、[ **OK**] をクリックします。
     
-      - 一致パターンを手動で定義するには、**一致パターン構築**ツールの **[編集]** をクリックし、.NET Framework 正規表現を入力して、ルートが適用される相手電話番号の一致パターンを指定します。 正規表現を記述する方法については、「」の「.NET Framework [http://go.microsoft.com/fwlink/p/?linkId=140927](http://go.microsoft.com/fwlink/p/?linkid=140927)正規表現」を参照してください。
+      - 一致パターンを手動で定義するには、**一致パターン構築**ツールの **[編集]** をクリックし、.NET Framework 正規表現を入力して、ルートが適用される相手電話番号の一致パターンを指定します。 正規表現を記述する方法については、「」の「.NET Framework [https://go.microsoft.com/fwlink/p/?linkId=140927](https://go.microsoft.com/fwlink/p/?linkid=140927)正規表現」を参照してください。
 
 8.  発信通話を発信する電話の ID を呼び出し先に表示しない場合は、[**発信者 id の非**表示] を選択します。 このオプションを選択した場合、呼び出し先の発信者 ID 表示に表示される、**[代替発信者 ID]** を指定する必要があります。
 

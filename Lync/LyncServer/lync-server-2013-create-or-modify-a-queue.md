@@ -12,18 +12,18 @@ ms:contentKeyID: 48185247
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e1db2211f174c18c160262c1f62c55a178b2cda4
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 672752856d7f36e374646782cc36a031c81a9af0
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045920"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151829"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="create-or-modify-a-queue-in-lync-server-2013"></a>Lync Server 2013 でキューを作成または変更する
 
@@ -148,7 +148,7 @@ _**トピックの最終更新日:** 2013-02-23_
     
         $promptTO = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
     
-    例:
+    次に例を示します。
     
         "All agents are currently busy. Please call back later."
     
@@ -174,7 +174,7 @@ _**トピックの最終更新日:** 2013-02-23_
     
     </div>
     
-    例:
+    次に例を示します。
     
         $action = New-CsRgsCallAction -Prompt $promptTO -Action Terminate
 
@@ -182,7 +182,7 @@ _**トピックの最終更新日:** 2013-02-23_
     
         $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
     
-    例:
+    次に例を示します。
     
         $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "Too many calls are waiting. Please call back later."
     

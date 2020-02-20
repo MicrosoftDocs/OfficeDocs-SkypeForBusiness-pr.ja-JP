@@ -12,18 +12,18 @@ ms:contentKeyID: 48185894
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 080a0587347dfd7d0b5b4cd32e5fa074413091b4
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 352a5b675de94cfb32bc65fe4c78d91d55ef9f87
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030851"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151157"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="certificate-summary---scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses-in-lync-server-2013"></a>証明書の概要-Lync Server 2013 での拡張統合エッジ、パブリック IP アドレスによる DNS 負荷分散
 
@@ -39,7 +39,7 @@ _**トピックの最終更新日:** 2012-09-08_
 
 Microsoft Lync Server 2013 は、証明書を使用して、他のサーバーを相互に認証し、サーバーからサーバーおよびサーバーからクライアントへデータを暗号化します。 証明書では、サーバーに関連付けられているドメイン ネーム システム (DNS) レコードの名前と、証明書のサブジェクト名 (SN) およびサブジェクトの別名 (SAN) の名前が一致している必要があります。 サーバー、DNS レコード、および証明書のエントリを正常にマッピングするには、DNS に登録される目的のサーバーの完全修飾ドメイン名、および証明書の SN エントリと SAN エントリを慎重に計画する必要があります。
 
-エッジサーバーの外部インターフェイスに割り当てられた証明書は、パブリック証明機関 (CA) から要求されます。 ユニファイドコミュニケーションの目的で証明書の提供に成功したことを示すパブリック Ca について[http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395)は、次の記事に記載されています。証明書を要求する場合、Lync Server 展開ウィザードによって生成された証明書要求を使用するか、要求を手動で作成するか、またはパブリック CA によって提供されるプロセス 証明書を割り当てるとき、証明書はアクセスエッジサービスインターフェイス、Web 会議エッジサービスインターフェイス、および音声ビデオ認証サービスに割り当てられます。 音声ビデオ認証サービスを音声ビデオエッジサービスと混同しないようにしてください。これは、オーディオおよびビデオストリームを暗号化するために証明書を使用しません。 内部エッジサーバーインターフェイスは、内部 (組織の場合) CA またはパブリック CA からの証明書からの証明書を使用できます。 内部インターフェイス証明書は SN のみを使用し、SAN エントリを必要としたり使用したりすることはありません。
+エッジサーバーの外部インターフェイスに割り当てられた証明書は、パブリック証明機関 (CA) から要求されます。 ユニファイドコミュニケーションの目的で証明書の提供に成功したことを示すパブリック Ca について[https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395)は、次の記事に記載されています。証明書を要求する場合、Lync Server 展開ウィザードによって生成された証明書要求を使用するか、要求を手動で作成するか、またはパブリック CA によって提供されるプロセス 証明書を割り当てるとき、証明書はアクセスエッジサービスインターフェイス、Web 会議エッジサービスインターフェイス、および音声ビデオ認証サービスに割り当てられます。 音声ビデオ認証サービスを音声ビデオエッジサービスと混同しないようにしてください。これは、オーディオおよびビデオストリームを暗号化するために証明書を使用しません。 内部エッジサーバーインターフェイスは、内部 (組織の場合) CA またはパブリック CA からの証明書からの証明書を使用できます。 内部インターフェイス証明書は SN のみを使用し、SAN エントリを必要としたり使用したりすることはありません。
 
 <div>
 
