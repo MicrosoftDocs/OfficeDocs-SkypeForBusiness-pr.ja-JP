@@ -12,20 +12,20 @@ ms:contentKeyID: 48185104
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c3c86d2ad4a6f45d622451c9b3bfd9cb67eea54
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e97c88214d5480c36bbff88890e6960e930dd937
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42049199"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146410"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enabling-or-disabling-archiving-of-im-or-conferencing-sessions-in-lync-server-2013"></a><span data-ttu-id="f567e-102">Lync Server 2013 での IM または電話会議セッションのアーカイブを有効または無効にする</span><span class="sxs-lookup"><span data-stu-id="f567e-102">Enabling or disabling Archiving of IM or conferencing sessions in Lync Server 2013</span></span>
+# <a name="enabling-or-disabling-archiving-of-im-or-conferencing-sessions-in-lync-server-2013"></a><span data-ttu-id="94409-102">Lync Server 2013 での IM または電話会議セッションのアーカイブを有効または無効にする</span><span class="sxs-lookup"><span data-stu-id="94409-102">Enabling or disabling Archiving of IM or conferencing sessions in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "42049199"
 
 <span> </span>
 
-<span data-ttu-id="f567e-103">_**トピックの最終更新日:** 2012-10-10_</span><span class="sxs-lookup"><span data-stu-id="f567e-103">_**Topic Last Modified:** 2012-10-10_</span></span>
+<span data-ttu-id="94409-103">_**トピックの最終更新日:** 2012-10-10_</span><span class="sxs-lookup"><span data-stu-id="94409-103">_**Topic Last Modified:** 2012-10-10_</span></span>
 
-<span data-ttu-id="f567e-104">Lync Server 2013 コントロールパネルでは、アーカイブ構成を使用して、IM、会議セッション、またはその両方のアーカイブを有効または無効にします。</span><span class="sxs-lookup"><span data-stu-id="f567e-104">In Lync Server 2013 Control Panel, you use Archiving configurations to enable and disable archiving of IM, conferencing sessions, or both.</span></span> <span data-ttu-id="f567e-105">これには、次のアーカイブ構成が含まれます。</span><span class="sxs-lookup"><span data-stu-id="f567e-105">This includes the following Archiving configurations:</span></span>
+<span data-ttu-id="94409-104">Lync Server 2013 コントロールパネルでは、アーカイブ構成を使用して、IM、会議セッション、またはその両方のアーカイブを有効または無効にします。</span><span class="sxs-lookup"><span data-stu-id="94409-104">In Lync Server 2013 Control Panel, you use Archiving configurations to enable and disable archiving of IM, conferencing sessions, or both.</span></span> <span data-ttu-id="94409-105">これには、次のアーカイブ構成が含まれます。</span><span class="sxs-lookup"><span data-stu-id="94409-105">This includes the following Archiving configurations:</span></span>
 
-  - <span data-ttu-id="f567e-106">Lync Server 2013 を展開するときに既定で作成されるグローバル構成。</span><span class="sxs-lookup"><span data-stu-id="f567e-106">A global configuration that is created by default when you deploy Lync Server 2013.</span></span>
+  - <span data-ttu-id="94409-106">Lync Server 2013 を展開するときに既定で作成されるグローバル構成。</span><span class="sxs-lookup"><span data-stu-id="94409-106">A global configuration that is created by default when you deploy Lync Server 2013.</span></span>
 
-  - <span data-ttu-id="f567e-107">特定のサイトまたはプールに対するアーカイブの実装方法を指定するために作成して使用できる、オプションのサイトレベルおよびプールレベルのポリシー。</span><span class="sxs-lookup"><span data-stu-id="f567e-107">Optional site-level and pool-level configurations that you can create and use to specify how archiving is implemented for specific sites or pools.</span></span>
+  - <span data-ttu-id="94409-107">特定のサイトまたはプールに対するアーカイブの実装方法を指定するために作成して使用できる、オプションのサイトレベルおよびプールレベルのポリシー。</span><span class="sxs-lookup"><span data-stu-id="94409-107">Optional site-level and pool-level configurations that you can create and use to specify how archiving is implemented for specific sites or pools.</span></span>
 
-<span data-ttu-id="f567e-108">アーカイブ構成は、最初はアーカイブの展開時に設定しますが、展開後に変更、追加、および削除できます。</span><span class="sxs-lookup"><span data-stu-id="f567e-108">You initially set up Archiving configurations when you deploy Archiving, but you can change, add, and delete configurations after deployment.</span></span> <span data-ttu-id="f567e-109">指定できるオプションやアーカイブ構成の階層など、アーカイブ構成の実装方法の詳細については、「計画」のドキュメント、「展開」、または「操作」のドキュメントの「 [Lync Server 2013 でのアーカイブの仕組み](lync-server-2013-how-archiving-works.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="f567e-109">For details about how Archiving configurations are implemented, including which options you can specify and the hierarchy of Archiving configurations, see [How Archiving works in Lync Server 2013](lync-server-2013-how-archiving-works.md) in the Planning documentation, Deployment documentation, or Operations documentation.</span></span>
+<span data-ttu-id="94409-108">アーカイブ構成は、最初はアーカイブの展開時に設定しますが、展開後に変更、追加、および削除できます。</span><span class="sxs-lookup"><span data-stu-id="94409-108">You initially set up Archiving configurations when you deploy Archiving, but you can change, add, and delete configurations after deployment.</span></span> <span data-ttu-id="94409-109">指定できるオプションやアーカイブ構成の階層など、アーカイブ構成の実装方法の詳細については、「計画」のドキュメント、「展開」、または「操作」のドキュメントの「 [Lync Server 2013 でのアーカイブの仕組み](lync-server-2013-how-archiving-works.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="94409-109">For details about how Archiving configurations are implemented, including which options you can specify and the hierarchy of Archiving configurations, see [How Archiving works in Lync Server 2013](lync-server-2013-how-archiving-works.md) in the Planning documentation, Deployment documentation, or Operations documentation.</span></span>
 
 <div>
 
 
 > [!NOTE]
-> <span data-ttu-id="f567e-110">アーカイブを使用するには、アーカイブポリシーを構成して、内部通信、外部通信、または Lync Server 2013 に所属するユーザーの両方に対してアーカイブを有効にするかどうかを指定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="f567e-110">To use archiving, you must configure Archiving policies to specify whether to enable archiving for internal communications, for external communications, or for both for users homed on Lync Server 2013.</span></span> <span data-ttu-id="f567e-111">既定では、アーカイブは内部通信および外部通信のどちらに対しても有効になっていません。</span><span class="sxs-lookup"><span data-stu-id="f567e-111">By default, archiving is not enabled for either internal or external communications.</span></span> <span data-ttu-id="f567e-112">ポリシーでアーカイブを有効にする前に、このセクションの説明に従って、展開に対して、また必要に応じて特定のサイトやプールに対して、適切なアーカイブ構成を指定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="f567e-112">Before enabling Archiving in any policies, you should specify the appropriate Archiving configurations for your deployment and, optionally, for specific sites and pools, as described in this section.</span></span> <span data-ttu-id="f567e-113">アーカイブを有効にする方法の詳細については、「展開」のドキュメントの「 <A href="lync-server-2013-configuring-and-assigning-archiving-policies.md">Lync Server 2013 でのアーカイブポリシーの構成と割り当て</A>」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="f567e-113">For details about enabling Archiving, see <A href="lync-server-2013-configuring-and-assigning-archiving-policies.md">Configuring and assigning Archiving policies in Lync Server 2013</A> in the Deployment documentation.</span></span><BR><span data-ttu-id="f567e-114">Microsoft Exchange 統合を使用してアーカイブデータおよびファイルを Exchange 2013 サーバーに保存し、すべてのユーザーが Exchange 2013 サーバーに所属している場合は、アーカイブを展開した後に、SQL Server データベース構成を削除する必要があります。トポロジから。</span><span class="sxs-lookup"><span data-stu-id="f567e-114">If you decide after you deploy Archiving that you want to use Microsoft Exchange integration to store archiving data and files on Exchange 2013 servers and all your users are homed on your Exchange 2013 servers, you should remove the SQL Server database configuration from your topology.</span></span> <span data-ttu-id="f567e-115">これを行うには、トポロジビルダーを使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="f567e-115">You must use Topology Builder to do this.</span></span> <span data-ttu-id="f567e-116">詳細については、「操作」のドキュメントの「 <A href="lync-server-2013-changing-archiving-database-options.md">Lync Server 2013 でのアーカイブデータベースオプションの変更</A>」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="f567e-116">For details, see <A href="lync-server-2013-changing-archiving-database-options.md">Changing Archiving database options in Lync Server 2013</A> in the Operations documentation.</span></span>
+> <span data-ttu-id="94409-110">アーカイブを使用するには、アーカイブポリシーを構成して、内部通信、外部通信、または Lync Server 2013 に所属するユーザーの両方に対してアーカイブを有効にするかどうかを指定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="94409-110">To use archiving, you must configure Archiving policies to specify whether to enable archiving for internal communications, for external communications, or for both for users homed on Lync Server 2013.</span></span> <span data-ttu-id="94409-111">既定では、アーカイブは内部通信および外部通信のどちらに対しても有効になっていません。</span><span class="sxs-lookup"><span data-stu-id="94409-111">By default, archiving is not enabled for either internal or external communications.</span></span> <span data-ttu-id="94409-112">ポリシーでアーカイブを有効にする前に、このセクションの説明に従って、展開に対して、また必要に応じて特定のサイトやプールに対して、適切なアーカイブ構成を指定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="94409-112">Before enabling Archiving in any policies, you should specify the appropriate Archiving configurations for your deployment and, optionally, for specific sites and pools, as described in this section.</span></span> <span data-ttu-id="94409-113">アーカイブを有効にする方法の詳細については、「展開」のドキュメントの「 <A href="lync-server-2013-configuring-and-assigning-archiving-policies.md">Lync Server 2013 でのアーカイブポリシーの構成と割り当て</A>」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="94409-113">For details about enabling Archiving, see <A href="lync-server-2013-configuring-and-assigning-archiving-policies.md">Configuring and assigning Archiving policies in Lync Server 2013</A> in the Deployment documentation.</span></span><BR><span data-ttu-id="94409-114">Microsoft Exchange 統合を使用してアーカイブデータおよびファイルを Exchange 2013 サーバーに保存し、すべてのユーザーが Exchange 2013 サーバーに所属している場合は、アーカイブを展開した後に、SQL Server データベース構成を削除する必要があります。トポロジから。</span><span class="sxs-lookup"><span data-stu-id="94409-114">If you decide after you deploy Archiving that you want to use Microsoft Exchange integration to store archiving data and files on Exchange 2013 servers and all your users are homed on your Exchange 2013 servers, you should remove the SQL Server database configuration from your topology.</span></span> <span data-ttu-id="94409-115">これを行うには、トポロジビルダーを使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="94409-115">You must use Topology Builder to do this.</span></span> <span data-ttu-id="94409-116">詳細については、「操作」のドキュメントの「 <A href="lync-server-2013-changing-archiving-database-options.md">Lync Server 2013 でのアーカイブデータベースオプションの変更</A>」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="94409-116">For details, see <A href="lync-server-2013-changing-archiving-database-options.md">Changing Archiving database options in Lync Server 2013</A> in the Operations documentation.</span></span>
 
 
 
@@ -57,33 +57,33 @@ ms.locfileid: "42049199"
 
 <div>
 
-## <a name="to-enable-or-disable-archiving-of-im-or-conferencing-sessions"></a><span data-ttu-id="f567e-117">IM または電話会議セッションのアーカイブを有効または無効にするには</span><span class="sxs-lookup"><span data-stu-id="f567e-117">To enable or disable archiving of IM or conferencing sessions</span></span>
+## <a name="to-enable-or-disable-archiving-of-im-or-conferencing-sessions"></a><span data-ttu-id="94409-117">IM または電話会議セッションのアーカイブを有効または無効にするには</span><span class="sxs-lookup"><span data-stu-id="94409-117">To enable or disable archiving of IM or conferencing sessions</span></span>
 
-1.  <span data-ttu-id="f567e-118">CsArchivingAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="f567e-118">From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="94409-118">CsArchivingAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="94409-118">From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="f567e-119">ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="f567e-119">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="f567e-120">Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="f567e-120">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="94409-119">ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="94409-119">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="94409-120">Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="94409-120">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="f567e-121">左側のナビゲーション バーで、[**監視とアーカイブ**] をクリックし、[**アーカイブ構成**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="f567e-121">In the left navigation bar, click **Monitoring and Archiving**, and then click **Archiving Configuration**.</span></span>
+3.  <span data-ttu-id="94409-121">左側のナビゲーション バーで、[**監視とアーカイブ**] をクリックし、[**アーカイブ構成**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="94409-121">In the left navigation bar, click **Monitoring and Archiving**, and then click **Archiving Configuration**.</span></span>
 
-4.  <span data-ttu-id="f567e-122">アーカイブ構成の一覧から適切なグローバル、サイト、またはプール構成を選択し、[**編集**]、[**詳細の表示**] の順にクリックして、次の操作を行います。</span><span class="sxs-lookup"><span data-stu-id="f567e-122">Select the appropriate global, site, or pool configuration from the list of archiving configurations, click **Edit**, click **Show details**, and then do the following:</span></span>
+4.  <span data-ttu-id="94409-122">アーカイブ構成の一覧から適切なグローバル、サイト、またはプール構成を選択し、[**編集**]、[**詳細の表示**] の順にクリックして、次の操作を行います。</span><span class="sxs-lookup"><span data-stu-id="94409-122">Select the appropriate global, site, or pool configuration from the list of archiving configurations, click **Edit**, click **Show details**, and then do the following:</span></span>
     
-      - <span data-ttu-id="f567e-123">インスタント メッセージング (IM) セッションのアーカイブだけを有効にするには、**[IM セッションのアーカイブ]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="f567e-123">To enable archiving only for instant messaging (IM) sessions, click **Archive IM sessions**.</span></span>
+      - <span data-ttu-id="94409-123">インスタント メッセージング (IM) セッションのアーカイブだけを有効にするには、**[IM セッションのアーカイブ]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="94409-123">To enable archiving only for instant messaging (IM) sessions, click **Archive IM sessions**.</span></span>
     
-      - <span data-ttu-id="f567e-124">IM セッションと会議の両方のアーカイブを有効にするには、[**IM および Web 会議セッションをアーカイブする**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="f567e-124">To enable archiving for both IM sessions and conferences, click **Archive IM and conferencing sessions**.</span></span>
+      - <span data-ttu-id="94409-124">IM セッションと会議の両方のアーカイブを有効にするには、[**IM および Web 会議セッションをアーカイブする**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="94409-124">To enable archiving for both IM sessions and conferences, click **Archive IM and conferencing sessions**.</span></span>
     
-      - <span data-ttu-id="f567e-125">ポリシーのアーカイブを無効にするには、[**アーカイブを無効にする**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="f567e-125">To disable archiving for the policy, click **Disable archiving**.</span></span>
+      - <span data-ttu-id="94409-125">ポリシーのアーカイブを無効にするには、[**アーカイブを無効にする**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="94409-125">To disable archiving for the policy, click **Disable archiving**.</span></span>
 
-5.  <span data-ttu-id="f567e-126">**[確定]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="f567e-126">Click **Commit**.</span></span>
+5.  <span data-ttu-id="94409-126">**[確定]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="94409-126">Click **Commit**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="f567e-127">関連項目</span><span class="sxs-lookup"><span data-stu-id="f567e-127">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="94409-127">関連項目</span><span class="sxs-lookup"><span data-stu-id="94409-127">See Also</span></span>
 
 
-[<span data-ttu-id="f567e-128">組織、サイト、およびプールの Lync Server 2013 でのアーカイブ構成オプションの管理</span><span class="sxs-lookup"><span data-stu-id="f567e-128">Managing Archiving configuration options in Lync Server 2013 for your organization, sites, and pools</span></span>](lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md)  
-[<span data-ttu-id="f567e-129">Lync Server 2013 でのアーカイブポリシーの構成と割り当て</span><span class="sxs-lookup"><span data-stu-id="f567e-129">Configuring and assigning Archiving policies in Lync Server 2013</span></span>](lync-server-2013-configuring-and-assigning-archiving-policies.md)  
+[<span data-ttu-id="94409-128">組織、サイト、およびプールの Lync Server 2013 でのアーカイブ構成オプションの管理</span><span class="sxs-lookup"><span data-stu-id="94409-128">Managing Archiving configuration options in Lync Server 2013 for your organization, sites, and pools</span></span>](lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md)  
+[<span data-ttu-id="94409-129">Lync Server 2013 でのアーカイブポリシーの構成と割り当て</span><span class="sxs-lookup"><span data-stu-id="94409-129">Configuring and assigning Archiving policies in Lync Server 2013</span></span>](lync-server-2013-configuring-and-assigning-archiving-policies.md)  
   
 
 </div>
