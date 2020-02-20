@@ -12,20 +12,20 @@ ms:contentKeyID: 49733688
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 511f6e9c3b0b4e3caf614fdd00d71fc0ac84e524
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: bcdbb4ec3c7ea59b17fed97990190881997e6602
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030961"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154469"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delete-an-existing-conferencing-policy-in-lync-server-2013"></a><span data-ttu-id="d08eb-102">Lync Server 2013 で既存の会議ポリシーを削除する</span><span class="sxs-lookup"><span data-stu-id="d08eb-102">Delete an existing conferencing policy in Lync Server 2013</span></span>
+# <a name="delete-an-existing-conferencing-policy-in-lync-server-2013"></a><span data-ttu-id="307b7-102">Lync Server 2013 で既存の会議ポリシーを削除する</span><span class="sxs-lookup"><span data-stu-id="307b7-102">Delete an existing conferencing policy in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42030961"
 
 <span> </span>
 
-<span data-ttu-id="d08eb-103">_**トピックの最終更新日:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="d08eb-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+<span data-ttu-id="307b7-103">_**トピックの最終更新日:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="307b7-103">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-<span data-ttu-id="d08eb-104">ユーザーレベルまたはサイトレベルの会議ポリシーを削除するには、次の手順を実行します。</span><span class="sxs-lookup"><span data-stu-id="d08eb-104">Follow these steps to delete a user-level or a site-level conferencing policy.</span></span>
+<span data-ttu-id="307b7-104">ユーザーレベルまたはサイトレベルの会議ポリシーを削除するには、次の手順を実行します。</span><span class="sxs-lookup"><span data-stu-id="307b7-104">Follow these steps to delete a user-level or a site-level conferencing policy.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="d08eb-105">グローバル電話会議ポリシーを削除することはできません。</span><span class="sxs-lookup"><span data-stu-id="d08eb-105">You cannot delete the global conferencing policy.</span></span>
+> <span data-ttu-id="307b7-105">グローバル電話会議ポリシーを削除することはできません。</span><span class="sxs-lookup"><span data-stu-id="307b7-105">You cannot delete the global conferencing policy.</span></span>
 
 
 
@@ -51,29 +51,29 @@ ms.locfileid: "42030961"
 
 <div>
 
-## <a name="to-delete-a-site-or-user-conferencing-policy"></a><span data-ttu-id="d08eb-106">サイトまたはユーザーの電話会議ポリシーを削除するには</span><span class="sxs-lookup"><span data-stu-id="d08eb-106">To delete a site or user conferencing policy</span></span>
+## <a name="to-delete-a-site-or-user-conferencing-policy"></a><span data-ttu-id="307b7-106">サイトまたはユーザーの電話会議ポリシーを削除するには</span><span class="sxs-lookup"><span data-stu-id="307b7-106">To delete a site or user conferencing policy</span></span>
 
-1.  <span data-ttu-id="d08eb-107">CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="d08eb-107">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="307b7-107">CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="307b7-107">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="d08eb-108">ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="d08eb-108">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="d08eb-109">Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="d08eb-109">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="307b7-108">ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="307b7-108">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="307b7-109">Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="307b7-109">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="d08eb-110">左側のナビゲーション バーで [**会議**] をクリックし、[**電話会議ポリシー**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="d08eb-110">In the left navigation bar, click **Conferencing** and then click **Conferencing Policy**.</span></span>
+3.  <span data-ttu-id="307b7-110">左側のナビゲーション バーで [**会議**] をクリックし、[**電話会議ポリシー**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="307b7-110">In the left navigation bar, click **Conferencing** and then click **Conferencing Policy**.</span></span>
 
-4.  <span data-ttu-id="d08eb-111">電話会議ポリシーの一覧で、削除するサイトポリシーまたはユーザーポリシーをクリックし、[**編集**] をクリックして、[**削除**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="d08eb-111">In the list of conferencing policies, click the site or user policy that you want to delete, click **Edit**, and then click **Delete**.</span></span>
+4.  <span data-ttu-id="307b7-111">電話会議ポリシーの一覧で、削除するサイトポリシーまたはユーザーポリシーをクリックし、[**編集**] をクリックして、[**削除**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="307b7-111">In the list of conferencing policies, click the site or user policy that you want to delete, click **Edit**, and then click **Delete**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="removing-conferencing-policies-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="d08eb-112">Windows PowerShell コマンドレットを使用して電話会議ポリシーを削除する</span><span class="sxs-lookup"><span data-stu-id="d08eb-112">Removing Conferencing Policies by Using Windows PowerShell Cmdlets</span></span>
+## <a name="removing-conferencing-policies-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="307b7-112">Windows PowerShell コマンドレットを使用して電話会議ポリシーを削除する</span><span class="sxs-lookup"><span data-stu-id="307b7-112">Removing Conferencing Policies by Using Windows PowerShell Cmdlets</span></span>
 
-<span data-ttu-id="d08eb-113">Lync Server 管理シェルと**get-csconferencingpolicy**コマンドレットを使用して、会議ポリシーを削除することができます。</span><span class="sxs-lookup"><span data-stu-id="d08eb-113">You can delete conferencing policies by using Lync Server Management Shell and the **Remove-CsConferencingPolicy** cmdlet.</span></span> <span data-ttu-id="d08eb-114">このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモートセッションから実行できます。</span><span class="sxs-lookup"><span data-stu-id="d08eb-114">You can run this cmdlet from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="d08eb-115">リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。</span><span class="sxs-lookup"><span data-stu-id="d08eb-115">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+<span data-ttu-id="307b7-113">Lync Server 管理シェルと**get-csconferencingpolicy**コマンドレットを使用して、会議ポリシーを削除することができます。</span><span class="sxs-lookup"><span data-stu-id="307b7-113">You can delete conferencing policies by using Lync Server Management Shell and the **Remove-CsConferencingPolicy** cmdlet.</span></span> <span data-ttu-id="307b7-114">このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモートセッションから実行できます。</span><span class="sxs-lookup"><span data-stu-id="307b7-114">You can run this cmdlet from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="307b7-115">リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。</span><span class="sxs-lookup"><span data-stu-id="307b7-115">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
 <div>
 
-## <a name="to-remove-a-specified-conferencing-policy"></a><span data-ttu-id="d08eb-116">指定した電話会議ポリシーを削除するには</span><span class="sxs-lookup"><span data-stu-id="d08eb-116">To remove a specified conferencing policy</span></span>
+## <a name="to-remove-a-specified-conferencing-policy"></a><span data-ttu-id="307b7-116">指定した電話会議ポリシーを削除するには</span><span class="sxs-lookup"><span data-stu-id="307b7-116">To remove a specified conferencing policy</span></span>
 
-  - <span data-ttu-id="d08eb-117">次のコマンドは、ID RedmondConferencingPolicy を持つ電話会議ポリシーを削除します。</span><span class="sxs-lookup"><span data-stu-id="d08eb-117">The following command removes the conferencing policy with the Identity RedmondConferencingPolicy:</span></span>
+  - <span data-ttu-id="307b7-117">次のコマンドは、ID RedmondConferencingPolicy を持つ電話会議ポリシーを削除します。</span><span class="sxs-lookup"><span data-stu-id="307b7-117">The following command removes the conferencing policy with the Identity RedmondConferencingPolicy:</span></span>
     
         Remove-CsConferencingPolicy -Identity "RedmondConferencingPolicy"
 
@@ -81,9 +81,9 @@ ms.locfileid: "42030961"
 
 <div>
 
-## <a name="to-remove-all-of-the-conferencing-policies-applied-to-the-per-user-scope"></a><span data-ttu-id="d08eb-118">ユーザーごとのスコープに適用されているすべての電話会議ポリシーを削除するには</span><span class="sxs-lookup"><span data-stu-id="d08eb-118">To remove all of the conferencing policies applied to the per-user scope</span></span>
+## <a name="to-remove-all-of-the-conferencing-policies-applied-to-the-per-user-scope"></a><span data-ttu-id="307b7-118">ユーザーごとのスコープに適用されているすべての電話会議ポリシーを削除するには</span><span class="sxs-lookup"><span data-stu-id="307b7-118">To remove all of the conferencing policies applied to the per-user scope</span></span>
 
-  - <span data-ttu-id="d08eb-119">次のコマンドは、ユーザーごとのスコープで構成されているすべての電話会議ポリシーを削除します。</span><span class="sxs-lookup"><span data-stu-id="d08eb-119">The following command removes all the conferencing policies configured at the per-user scope:</span></span>
+  - <span data-ttu-id="307b7-119">次のコマンドは、ユーザーごとのスコープで構成されているすべての電話会議ポリシーを削除します。</span><span class="sxs-lookup"><span data-stu-id="307b7-119">The following command removes all the conferencing policies configured at the per-user scope:</span></span>
     
         Get-CsConferencingPolicy -Filter "tag:*" | Remove-CsConferencingPolicy
 
@@ -91,15 +91,15 @@ ms.locfileid: "42030961"
 
 <div>
 
-## <a name="to-remove-all-of-the-conferencing-polices-that-allow-recording-by-external-users"></a><span data-ttu-id="d08eb-120">外部ユーザーによる記録を許可するすべての電話会議ポリシーを削除するには</span><span class="sxs-lookup"><span data-stu-id="d08eb-120">To remove all of the conferencing polices that allow recording by external users</span></span>
+## <a name="to-remove-all-of-the-conferencing-polices-that-allow-recording-by-external-users"></a><span data-ttu-id="307b7-120">外部ユーザーによる記録を許可するすべての電話会議ポリシーを削除するには</span><span class="sxs-lookup"><span data-stu-id="307b7-120">To remove all of the conferencing polices that allow recording by external users</span></span>
 
-  - <span data-ttu-id="d08eb-121">次のコマンドは、外部ユーザーに会議の記録を許可するすべての電話会議ポリシーを削除します。</span><span class="sxs-lookup"><span data-stu-id="d08eb-121">The following command deletes any conferencing policies that allow external users to record the conference:</span></span>
+  - <span data-ttu-id="307b7-121">次のコマンドは、外部ユーザーに会議の記録を許可するすべての電話会議ポリシーを削除します。</span><span class="sxs-lookup"><span data-stu-id="307b7-121">The following command deletes any conferencing policies that allow external users to record the conference:</span></span>
     
         Get-CsConferencingPolicy | Where-Object {$_.AllowExternalUsersToRecordMeetings -eq $True} | Remove-CsConferencingPolicy
 
 </div>
 
-<span data-ttu-id="d08eb-122">詳細については、「 [get-csconferencingpolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsConferencingPolicy)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="d08eb-122">For details, see [Remove-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsConferencingPolicy).</span></span>
+<span data-ttu-id="307b7-122">詳細については、「 [get-csconferencingpolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsConferencingPolicy)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="307b7-122">For details, see [Remove-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsConferencingPolicy).</span></span>
 
 </div>
 

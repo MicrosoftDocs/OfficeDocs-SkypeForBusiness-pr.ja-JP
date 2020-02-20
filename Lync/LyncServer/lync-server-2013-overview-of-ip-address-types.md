@@ -12,20 +12,20 @@ ms:contentKeyID: 48185759
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: feb900c6f3d2ac426c184048986a7a751a205874
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 975aa4a81b4e44cc20fdbfda946f901610a1b484
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051049"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153197"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-ip-address-types-for-lync-server-2013"></a><span data-ttu-id="f17fb-102">Lync Server 2013 の IP アドレスの種類の概要</span><span class="sxs-lookup"><span data-stu-id="f17fb-102">Overview of IP address types for Lync Server 2013</span></span>
+# <a name="overview-of-ip-address-types-for-lync-server-2013"></a><span data-ttu-id="7abfc-102">Lync Server 2013 の IP アドレスの種類の概要</span><span class="sxs-lookup"><span data-stu-id="7abfc-102">Overview of IP address types for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "42051049"
 
 <span> </span>
 
-<span data-ttu-id="f17fb-103">_**トピックの最終更新日:** 2013-01-29_</span><span class="sxs-lookup"><span data-stu-id="f17fb-103">_**Topic Last Modified:** 2013-01-29_</span></span>
+<span data-ttu-id="7abfc-103">_**トピックの最終更新日:** 2013-01-29_</span><span class="sxs-lookup"><span data-stu-id="7abfc-103">_**Topic Last Modified:** 2013-01-29_</span></span>
 
-<span data-ttu-id="f17fb-104">Lync Server 2013 で IP アドレスを構成する場合、3つのオプションがあります。</span><span class="sxs-lookup"><span data-stu-id="f17fb-104">You have three options when configuring IP addresses in Lync Server 2013.</span></span> <span data-ttu-id="f17fb-105">Lync Server 2013 は、IP バージョン 4 (IPv4)、IP バージョン 6 (IPv6) のみ、または両方の組み合わせ (*デュアルスタック*とも呼ばれます) をサポートするように構成できます。</span><span class="sxs-lookup"><span data-stu-id="f17fb-105">You can configure Lync Server 2013 to support only IP version 4 (IPv4), only IP version 6 (IPv6), or a combination of both (known as a *dual stack*).</span></span> <span data-ttu-id="f17fb-106">各構成には、いくつか考慮すべき問題があります。</span><span class="sxs-lookup"><span data-stu-id="f17fb-106">There are several issues to consider with each type of configuration:</span></span>
+<span data-ttu-id="7abfc-104">Lync Server 2013 で IP アドレスを構成する場合、3つのオプションがあります。</span><span class="sxs-lookup"><span data-stu-id="7abfc-104">You have three options when configuring IP addresses in Lync Server 2013.</span></span> <span data-ttu-id="7abfc-105">Lync Server 2013 は、IP バージョン 4 (IPv4)、IP バージョン 6 (IPv6) のみ、または両方の組み合わせ (*デュアルスタック*とも呼ばれます) をサポートするように構成できます。</span><span class="sxs-lookup"><span data-stu-id="7abfc-105">You can configure Lync Server 2013 to support only IP version 4 (IPv4), only IP version 6 (IPv6), or a combination of both (known as a *dual stack*).</span></span> <span data-ttu-id="7abfc-106">各構成には、いくつか考慮すべき問題があります。</span><span class="sxs-lookup"><span data-stu-id="7abfc-106">There are several issues to consider with each type of configuration:</span></span>
 
-  - <span data-ttu-id="f17fb-107">**Ipv4 のみ**   IPv6 が作成されています。世界では ipv4 アドレスが不足しています。</span><span class="sxs-lookup"><span data-stu-id="f17fb-107">**IPv4 only**   IPv6 was created because the world is running out of IPv4 addresses.</span></span> <span data-ttu-id="f17fb-108">最終的には、IPv6 は完全にサポートされていますが、現時点では、企業が通信する必要がある多くの企業やデバイスが IPv6 をサポートしていない場合があります。</span><span class="sxs-lookup"><span data-stu-id="f17fb-108">Ultimately, IPv6 will be fully supported worldwide, but at this time, many companies and devices that your enterprise might need to communicate with do not yet support IPv6, and may not for some time.</span></span> <span data-ttu-id="f17fb-109">IPv4 のみの構成は、Lync Server の実装が、ほとんどの既存のデバイスと通信できるようにするのに役立ちます。</span><span class="sxs-lookup"><span data-stu-id="f17fb-109">An IPv4-only configuration will help to ensure that your Lync Server implementation can communicate with most existing devices.</span></span>
+  - <span data-ttu-id="7abfc-107">**Ipv4 のみ**   IPv6 が作成されています。世界では ipv4 アドレスが不足しています。</span><span class="sxs-lookup"><span data-stu-id="7abfc-107">**IPv4 only**   IPv6 was created because the world is running out of IPv4 addresses.</span></span> <span data-ttu-id="7abfc-108">最終的には、IPv6 は完全にサポートされていますが、現時点では、企業が通信する必要がある多くの企業やデバイスが IPv6 をサポートしていない場合があります。</span><span class="sxs-lookup"><span data-stu-id="7abfc-108">Ultimately, IPv6 will be fully supported worldwide, but at this time, many companies and devices that your enterprise might need to communicate with do not yet support IPv6, and may not for some time.</span></span> <span data-ttu-id="7abfc-109">IPv4 のみの構成は、Lync Server の実装が、ほとんどの既存のデバイスと通信できるようにするのに役立ちます。</span><span class="sxs-lookup"><span data-stu-id="7abfc-109">An IPv4-only configuration will help to ensure that your Lync Server implementation can communicate with most existing devices.</span></span>
 
-  - <span data-ttu-id="f17fb-110">**Ipv6 のみ**   反対に、現時点で完全な ipv6 実装では、多くの既存デバイスとの通信が除外されます。</span><span class="sxs-lookup"><span data-stu-id="f17fb-110">**IPv6 only**   Conversely, a full IPv6 implementation, at this time, will exclude communication with many existing devices.</span></span>
+  - <span data-ttu-id="7abfc-110">**Ipv6 のみ**   反対に、現時点で完全な ipv6 実装では、多くの既存デバイスとの通信が除外されます。</span><span class="sxs-lookup"><span data-stu-id="7abfc-110">**IPv6 only**   Conversely, a full IPv6 implementation, at this time, will exclude communication with many existing devices.</span></span>
 
-  - <span data-ttu-id="f17fb-111">**デュアルスタック**   デュアルスタックは、IPv4 と IPv6 の両方のアドレスが有効になっているネットワークです。</span><span class="sxs-lookup"><span data-stu-id="f17fb-111">**Dual Stack**   Dual stack is a network where both IPv4 and IPv6 addresses are enabled.</span></span> <span data-ttu-id="f17fb-112">この構成は、Lync Server 2013 でサポートされています。ほとんどの場合、フル-IPv4 からフル-IPv6 への移行は数年かかります。</span><span class="sxs-lookup"><span data-stu-id="f17fb-112">This configuration is supported in Lync Server 2013 because in most cases the transition from full-IPv4 to full-IPv6 will take several years.</span></span>
+  - <span data-ttu-id="7abfc-111">**デュアルスタック**   デュアルスタックは、IPv4 と IPv6 の両方のアドレスが有効になっているネットワークです。</span><span class="sxs-lookup"><span data-stu-id="7abfc-111">**Dual Stack**   Dual stack is a network where both IPv4 and IPv6 addresses are enabled.</span></span> <span data-ttu-id="7abfc-112">この構成は、Lync Server 2013 でサポートされています。ほとんどの場合、フル-IPv4 からフル-IPv6 への移行は数年かかります。</span><span class="sxs-lookup"><span data-stu-id="7abfc-112">This configuration is supported in Lync Server 2013 because in most cases the transition from full-IPv4 to full-IPv6 will take several years.</span></span>
 
-<span data-ttu-id="f17fb-113">次のセクションでは、Lync Server のさまざまな機能について、これらの3つの構成の互換性について概説します。</span><span class="sxs-lookup"><span data-stu-id="f17fb-113">The following sections outline the compatibility among these three configurations for various Lync Server features.</span></span>
+<span data-ttu-id="7abfc-113">次のセクションでは、Lync Server のさまざまな機能について、これらの3つの構成の互換性について概説します。</span><span class="sxs-lookup"><span data-stu-id="7abfc-113">The following sections outline the compatibility among these three configurations for various Lync Server features.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="f17fb-p104">クライアントまたはサーバーを IPv6 のみの構成にすることは、試験や検証の目的でのみサポートされています。IPv6 のみの構成は運用展開ではサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="f17fb-p104">Client or server configuration with IPv6 only is supported only for lab or validation purposes. IPv6 only configuration is not supported in the production deployment.</span></span>
+> <span data-ttu-id="7abfc-p104">クライアントまたはサーバーを IPv6 のみの構成にすることは、試験や検証の目的でのみサポートされています。IPv6 のみの構成は運用展開ではサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="7abfc-p104">Client or server configuration with IPv6 only is supported only for lab or validation purposes. IPv6 only configuration is not supported in the production deployment.</span></span>
 
 
 
@@ -59,7 +59,7 @@ ms.locfileid: "42051049"
 
 <div>
 
-## <a name="client-registration"></a><span data-ttu-id="f17fb-116">クライアントの登録</span><span class="sxs-lookup"><span data-stu-id="f17fb-116">Client Registration</span></span>
+## <a name="client-registration"></a><span data-ttu-id="7abfc-116">クライアントの登録</span><span class="sxs-lookup"><span data-stu-id="7abfc-116">Client Registration</span></span>
 
 
 <table>
@@ -69,38 +69,38 @@ ms.locfileid: "42051049"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="f17fb-117">クライアント エンドポイント ネットワーク</span><span class="sxs-lookup"><span data-stu-id="f17fb-117">Client endpoint network</span></span></th>
-<th><span data-ttu-id="f17fb-118">サーバー ネットワーク</span><span class="sxs-lookup"><span data-stu-id="f17fb-118">Server network</span></span></th>
+<th><span data-ttu-id="7abfc-117">クライアント エンドポイント ネットワーク</span><span class="sxs-lookup"><span data-stu-id="7abfc-117">Client endpoint network</span></span></th>
+<th><span data-ttu-id="7abfc-118">サーバー ネットワーク</span><span class="sxs-lookup"><span data-stu-id="7abfc-118">Server network</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f17fb-119">IPv4</span><span class="sxs-lookup"><span data-stu-id="f17fb-119">IPv4</span></span></p></td>
-<td><p><span data-ttu-id="f17fb-120">IPv4</span><span class="sxs-lookup"><span data-stu-id="f17fb-120">IPv4</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-119">IPv4</span><span class="sxs-lookup"><span data-stu-id="7abfc-119">IPv4</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-120">IPv4</span><span class="sxs-lookup"><span data-stu-id="7abfc-120">IPv4</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f17fb-121">IPv4</span><span class="sxs-lookup"><span data-stu-id="f17fb-121">IPv4</span></span></p></td>
-<td><p><span data-ttu-id="f17fb-122">デュアル スタック</span><span class="sxs-lookup"><span data-stu-id="f17fb-122">Dual stack</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-121">IPv4</span><span class="sxs-lookup"><span data-stu-id="7abfc-121">IPv4</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-122">デュアル スタック</span><span class="sxs-lookup"><span data-stu-id="7abfc-122">Dual stack</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f17fb-123">デュアル スタック</span><span class="sxs-lookup"><span data-stu-id="f17fb-123">Dual stack</span></span></p></td>
-<td><p><span data-ttu-id="f17fb-124">IPv4</span><span class="sxs-lookup"><span data-stu-id="f17fb-124">IPv4</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-123">デュアル スタック</span><span class="sxs-lookup"><span data-stu-id="7abfc-123">Dual stack</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-124">IPv4</span><span class="sxs-lookup"><span data-stu-id="7abfc-124">IPv4</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f17fb-125">デュアル スタック</span><span class="sxs-lookup"><span data-stu-id="f17fb-125">Dual stack</span></span></p></td>
-<td><p><span data-ttu-id="f17fb-126">デュアル スタック</span><span class="sxs-lookup"><span data-stu-id="f17fb-126">Dual stack</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-125">デュアル スタック</span><span class="sxs-lookup"><span data-stu-id="7abfc-125">Dual stack</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-126">デュアル スタック</span><span class="sxs-lookup"><span data-stu-id="7abfc-126">Dual stack</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f17fb-127">デュアル スタック</span><span class="sxs-lookup"><span data-stu-id="f17fb-127">Dual stack</span></span></p></td>
-<td><p><span data-ttu-id="f17fb-128">IPv6</span><span class="sxs-lookup"><span data-stu-id="f17fb-128">IPv6</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-127">デュアル スタック</span><span class="sxs-lookup"><span data-stu-id="7abfc-127">Dual stack</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-128">IPv6</span><span class="sxs-lookup"><span data-stu-id="7abfc-128">IPv6</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f17fb-129">IPv6</span><span class="sxs-lookup"><span data-stu-id="f17fb-129">IPv6</span></span></p></td>
-<td><p><span data-ttu-id="f17fb-130">デュアル スタック</span><span class="sxs-lookup"><span data-stu-id="f17fb-130">Dual stack</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-129">IPv6</span><span class="sxs-lookup"><span data-stu-id="7abfc-129">IPv6</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-130">デュアル スタック</span><span class="sxs-lookup"><span data-stu-id="7abfc-130">Dual stack</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f17fb-131">IPv6</span><span class="sxs-lookup"><span data-stu-id="f17fb-131">IPv6</span></span></p></td>
-<td><p><span data-ttu-id="f17fb-132">IPv6</span><span class="sxs-lookup"><span data-stu-id="f17fb-132">IPv6</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-131">IPv6</span><span class="sxs-lookup"><span data-stu-id="7abfc-131">IPv6</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-132">IPv6</span><span class="sxs-lookup"><span data-stu-id="7abfc-132">IPv6</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -110,9 +110,9 @@ ms.locfileid: "42051049"
 
 <div>
 
-## <a name="peer-to-peer-client"></a><span data-ttu-id="f17fb-133">ピアツーピア クライアント</span><span class="sxs-lookup"><span data-stu-id="f17fb-133">Peer-to-Peer Client</span></span>
+## <a name="peer-to-peer-client"></a><span data-ttu-id="7abfc-133">ピアツーピア クライアント</span><span class="sxs-lookup"><span data-stu-id="7abfc-133">Peer-to-Peer Client</span></span>
 
-<span data-ttu-id="f17fb-p105">ピアツーピア通信には、オーディオ、音声ビデオ、アプリケーション共有、ファイル転送などがあります。両方のクライアントが正常に登録された後、次の組み合わせがサポートされます。</span><span class="sxs-lookup"><span data-stu-id="f17fb-p105">Peer-to-peer communications include audio, audio/video, application sharing, and file transfer. After both clients have successfully registered, the following combinations are supported.</span></span>
+<span data-ttu-id="7abfc-p105">ピアツーピア通信には、オーディオ、音声ビデオ、アプリケーション共有、ファイル転送などがあります。両方のクライアントが正常に登録された後、次の組み合わせがサポートされます。</span><span class="sxs-lookup"><span data-stu-id="7abfc-p105">Peer-to-peer communications include audio, audio/video, application sharing, and file transfer. After both clients have successfully registered, the following combinations are supported.</span></span>
 
 
 <table>
@@ -122,30 +122,30 @@ ms.locfileid: "42051049"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="f17fb-136">クライアント エンドポイント 1</span><span class="sxs-lookup"><span data-stu-id="f17fb-136">Client endpoint 1</span></span></th>
-<th><span data-ttu-id="f17fb-137">クライアント エンドポイント 2</span><span class="sxs-lookup"><span data-stu-id="f17fb-137">Client endpoint 2</span></span></th>
+<th><span data-ttu-id="7abfc-136">クライアント エンドポイント 1</span><span class="sxs-lookup"><span data-stu-id="7abfc-136">Client endpoint 1</span></span></th>
+<th><span data-ttu-id="7abfc-137">クライアント エンドポイント 2</span><span class="sxs-lookup"><span data-stu-id="7abfc-137">Client endpoint 2</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f17fb-138">IPv4</span><span class="sxs-lookup"><span data-stu-id="f17fb-138">IPv4</span></span></p></td>
-<td><p><span data-ttu-id="f17fb-139">IPv4</span><span class="sxs-lookup"><span data-stu-id="f17fb-139">IPv4</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-138">IPv4</span><span class="sxs-lookup"><span data-stu-id="7abfc-138">IPv4</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-139">IPv4</span><span class="sxs-lookup"><span data-stu-id="7abfc-139">IPv4</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f17fb-140">IPv4</span><span class="sxs-lookup"><span data-stu-id="f17fb-140">IPv4</span></span></p></td>
-<td><p><span data-ttu-id="f17fb-141">デュアル スタック</span><span class="sxs-lookup"><span data-stu-id="f17fb-141">Dual stack</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-140">IPv4</span><span class="sxs-lookup"><span data-stu-id="7abfc-140">IPv4</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-141">デュアル スタック</span><span class="sxs-lookup"><span data-stu-id="7abfc-141">Dual stack</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f17fb-142">デュアル スタック</span><span class="sxs-lookup"><span data-stu-id="f17fb-142">Dual stack</span></span></p></td>
-<td><p><span data-ttu-id="f17fb-143">デュアル スタック</span><span class="sxs-lookup"><span data-stu-id="f17fb-143">Dual stack</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-142">デュアル スタック</span><span class="sxs-lookup"><span data-stu-id="7abfc-142">Dual stack</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-143">デュアル スタック</span><span class="sxs-lookup"><span data-stu-id="7abfc-143">Dual stack</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f17fb-144">IPv6</span><span class="sxs-lookup"><span data-stu-id="f17fb-144">IPv6</span></span></p></td>
-<td><p><span data-ttu-id="f17fb-145">デュアル スタック</span><span class="sxs-lookup"><span data-stu-id="f17fb-145">Dual stack</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-144">IPv6</span><span class="sxs-lookup"><span data-stu-id="7abfc-144">IPv6</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-145">デュアル スタック</span><span class="sxs-lookup"><span data-stu-id="7abfc-145">Dual stack</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f17fb-146">IPv6</span><span class="sxs-lookup"><span data-stu-id="f17fb-146">IPv6</span></span></p></td>
-<td><p><span data-ttu-id="f17fb-147">IPv6</span><span class="sxs-lookup"><span data-stu-id="f17fb-147">IPv6</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-146">IPv6</span><span class="sxs-lookup"><span data-stu-id="7abfc-146">IPv6</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-147">IPv6</span><span class="sxs-lookup"><span data-stu-id="7abfc-147">IPv6</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -155,9 +155,9 @@ ms.locfileid: "42051049"
 
 <div>
 
-## <a name="conferencing"></a><span data-ttu-id="f17fb-148">会議</span><span class="sxs-lookup"><span data-stu-id="f17fb-148">Conferencing</span></span>
+## <a name="conferencing"></a><span data-ttu-id="7abfc-148">会議</span><span class="sxs-lookup"><span data-stu-id="7abfc-148">Conferencing</span></span>
 
-<span data-ttu-id="f17fb-149">会議には、音声ビデオ、アプリケーション共有、およびデータ コラボレーション (ホワイト ボードとファイル共有) が含まれます。</span><span class="sxs-lookup"><span data-stu-id="f17fb-149">Conferencing includes audio/video, application sharing, and data collaboration (whiteboarding and file sharing).</span></span>
+<span data-ttu-id="7abfc-149">会議には、音声ビデオ、アプリケーション共有、およびデータ コラボレーション (ホワイト ボードとファイル共有) が含まれます。</span><span class="sxs-lookup"><span data-stu-id="7abfc-149">Conferencing includes audio/video, application sharing, and data collaboration (whiteboarding and file sharing).</span></span>
 
 
 <table>
@@ -167,38 +167,38 @@ ms.locfileid: "42051049"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="f17fb-150">クライアント エンドポイント ネットワーク</span><span class="sxs-lookup"><span data-stu-id="f17fb-150">Client endpoint network</span></span></th>
-<th><span data-ttu-id="f17fb-151">サーバー ネットワーク</span><span class="sxs-lookup"><span data-stu-id="f17fb-151">Server network</span></span></th>
+<th><span data-ttu-id="7abfc-150">クライアント エンドポイント ネットワーク</span><span class="sxs-lookup"><span data-stu-id="7abfc-150">Client endpoint network</span></span></th>
+<th><span data-ttu-id="7abfc-151">サーバー ネットワーク</span><span class="sxs-lookup"><span data-stu-id="7abfc-151">Server network</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f17fb-152">IPv4</span><span class="sxs-lookup"><span data-stu-id="f17fb-152">IPv4</span></span></p></td>
-<td><p><span data-ttu-id="f17fb-153">IPv4</span><span class="sxs-lookup"><span data-stu-id="f17fb-153">IPv4</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-152">IPv4</span><span class="sxs-lookup"><span data-stu-id="7abfc-152">IPv4</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-153">IPv4</span><span class="sxs-lookup"><span data-stu-id="7abfc-153">IPv4</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f17fb-154">IPv4</span><span class="sxs-lookup"><span data-stu-id="f17fb-154">IPv4</span></span></p></td>
-<td><p><span data-ttu-id="f17fb-155">デュアル スタック</span><span class="sxs-lookup"><span data-stu-id="f17fb-155">Dual stack</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-154">IPv4</span><span class="sxs-lookup"><span data-stu-id="7abfc-154">IPv4</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-155">デュアル スタック</span><span class="sxs-lookup"><span data-stu-id="7abfc-155">Dual stack</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f17fb-156">デュアル スタック</span><span class="sxs-lookup"><span data-stu-id="f17fb-156">Dual stack</span></span></p></td>
-<td><p><span data-ttu-id="f17fb-157">IPv4</span><span class="sxs-lookup"><span data-stu-id="f17fb-157">IPv4</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-156">デュアル スタック</span><span class="sxs-lookup"><span data-stu-id="7abfc-156">Dual stack</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-157">IPv4</span><span class="sxs-lookup"><span data-stu-id="7abfc-157">IPv4</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f17fb-158">デュアル スタック</span><span class="sxs-lookup"><span data-stu-id="f17fb-158">Dual stack</span></span></p></td>
-<td><p><span data-ttu-id="f17fb-159">デュアル スタック</span><span class="sxs-lookup"><span data-stu-id="f17fb-159">Dual stack</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-158">デュアル スタック</span><span class="sxs-lookup"><span data-stu-id="7abfc-158">Dual stack</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-159">デュアル スタック</span><span class="sxs-lookup"><span data-stu-id="7abfc-159">Dual stack</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f17fb-160">デュアル スタック</span><span class="sxs-lookup"><span data-stu-id="f17fb-160">Dual stack</span></span></p></td>
-<td><p><span data-ttu-id="f17fb-161">IPv6</span><span class="sxs-lookup"><span data-stu-id="f17fb-161">IPv6</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-160">デュアル スタック</span><span class="sxs-lookup"><span data-stu-id="7abfc-160">Dual stack</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-161">IPv6</span><span class="sxs-lookup"><span data-stu-id="7abfc-161">IPv6</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f17fb-162">IPv6</span><span class="sxs-lookup"><span data-stu-id="f17fb-162">IPv6</span></span></p></td>
-<td><p><span data-ttu-id="f17fb-163">デュアル スタック</span><span class="sxs-lookup"><span data-stu-id="f17fb-163">Dual stack</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-162">IPv6</span><span class="sxs-lookup"><span data-stu-id="7abfc-162">IPv6</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-163">デュアル スタック</span><span class="sxs-lookup"><span data-stu-id="7abfc-163">Dual stack</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f17fb-164">IPv6</span><span class="sxs-lookup"><span data-stu-id="f17fb-164">IPv6</span></span></p></td>
-<td><p><span data-ttu-id="f17fb-165">IPv6</span><span class="sxs-lookup"><span data-stu-id="f17fb-165">IPv6</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-164">IPv6</span><span class="sxs-lookup"><span data-stu-id="7abfc-164">IPv6</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-165">IPv6</span><span class="sxs-lookup"><span data-stu-id="7abfc-165">IPv6</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -208,9 +208,9 @@ ms.locfileid: "42051049"
 
 <div>
 
-## <a name="mediation-serverpstn"></a><span data-ttu-id="f17fb-166">仲介サーバー/PSTN</span><span class="sxs-lookup"><span data-stu-id="f17fb-166">Mediation Server/PSTN</span></span>
+## <a name="mediation-serverpstn"></a><span data-ttu-id="7abfc-166">仲介サーバー/PSTN</span><span class="sxs-lookup"><span data-stu-id="7abfc-166">Mediation Server/PSTN</span></span>
 
-<span data-ttu-id="f17fb-167">Lync Server 2013 は、トラフィックが IPv6 インターフェイスを経由している場合は、公衆交換電話網 (PSTN) 通話のメディアバイパスをサポートしていません。</span><span class="sxs-lookup"><span data-stu-id="f17fb-167">Lync Server 2013 does not support media bypass for public switched telephone network (PSTN) calls if the traffic is through an IPv6 interface.</span></span> <span data-ttu-id="f17fb-168">メディア バイパスが必要な場合は、PSTN ゲートウェイを IPv4 に構成することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="f17fb-168">If media bypass is required, we recommend that the PSTN gateway is configured to IPv4.</span></span>
+<span data-ttu-id="7abfc-167">Lync Server 2013 は、トラフィックが IPv6 インターフェイスを経由している場合は、公衆交換電話網 (PSTN) 通話のメディアバイパスをサポートしていません。</span><span class="sxs-lookup"><span data-stu-id="7abfc-167">Lync Server 2013 does not support media bypass for public switched telephone network (PSTN) calls if the traffic is through an IPv6 interface.</span></span> <span data-ttu-id="7abfc-168">メディア バイパスが必要な場合は、PSTN ゲートウェイを IPv4 に構成することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="7abfc-168">If media bypass is required, we recommend that the PSTN gateway is configured to IPv4.</span></span>
 
 
 <table>
@@ -221,40 +221,40 @@ ms.locfileid: "42051049"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="f17fb-169">プライマリ インターフェイス\*</span><span class="sxs-lookup"><span data-stu-id="f17fb-169">Primary interface\*</span></span></th>
-<th><span data-ttu-id="f17fb-170">PSTN インターフェイス (仲介サーバー上)</span><span class="sxs-lookup"><span data-stu-id="f17fb-170">PSTN interface (on Mediation Server)</span></span></th>
-<th><span data-ttu-id="f17fb-171">PSTN ゲートウェイの設定</span><span class="sxs-lookup"><span data-stu-id="f17fb-171">PSTN gateway setting</span></span></th>
+<th><span data-ttu-id="7abfc-169">プライマリ インターフェイス\*</span><span class="sxs-lookup"><span data-stu-id="7abfc-169">Primary interface\*</span></span></th>
+<th><span data-ttu-id="7abfc-170">PSTN インターフェイス (仲介サーバー上)</span><span class="sxs-lookup"><span data-stu-id="7abfc-170">PSTN interface (on Mediation Server)</span></span></th>
+<th><span data-ttu-id="7abfc-171">PSTN ゲートウェイの設定</span><span class="sxs-lookup"><span data-stu-id="7abfc-171">PSTN gateway setting</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f17fb-172">IPv4</span><span class="sxs-lookup"><span data-stu-id="f17fb-172">IPv4</span></span></p></td>
-<td><p><span data-ttu-id="f17fb-173">デュアル スタック</span><span class="sxs-lookup"><span data-stu-id="f17fb-173">Dual stack</span></span></p></td>
-<td><p><span data-ttu-id="f17fb-174">IPv4</span><span class="sxs-lookup"><span data-stu-id="f17fb-174">IPv4</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-172">IPv4</span><span class="sxs-lookup"><span data-stu-id="7abfc-172">IPv4</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-173">デュアル スタック</span><span class="sxs-lookup"><span data-stu-id="7abfc-173">Dual stack</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-174">IPv4</span><span class="sxs-lookup"><span data-stu-id="7abfc-174">IPv4</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f17fb-175">デュアル スタック</span><span class="sxs-lookup"><span data-stu-id="f17fb-175">Dual stack</span></span></p></td>
-<td><p><span data-ttu-id="f17fb-176">デュアル スタック</span><span class="sxs-lookup"><span data-stu-id="f17fb-176">Dual stack</span></span></p></td>
-<td><p><span data-ttu-id="f17fb-177">IPv4</span><span class="sxs-lookup"><span data-stu-id="f17fb-177">IPv4</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-175">デュアル スタック</span><span class="sxs-lookup"><span data-stu-id="7abfc-175">Dual stack</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-176">デュアル スタック</span><span class="sxs-lookup"><span data-stu-id="7abfc-176">Dual stack</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-177">IPv4</span><span class="sxs-lookup"><span data-stu-id="7abfc-177">IPv4</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f17fb-178">デュアル スタック</span><span class="sxs-lookup"><span data-stu-id="f17fb-178">Dual stack</span></span></p></td>
-<td><p><span data-ttu-id="f17fb-179">デュアル スタック</span><span class="sxs-lookup"><span data-stu-id="f17fb-179">Dual stack</span></span></p></td>
-<td><p><span data-ttu-id="f17fb-180">IPv6</span><span class="sxs-lookup"><span data-stu-id="f17fb-180">IPv6</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-178">デュアル スタック</span><span class="sxs-lookup"><span data-stu-id="7abfc-178">Dual stack</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-179">デュアル スタック</span><span class="sxs-lookup"><span data-stu-id="7abfc-179">Dual stack</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-180">IPv6</span><span class="sxs-lookup"><span data-stu-id="7abfc-180">IPv6</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="f17fb-181">\*プライマリインターフェイスは、Lync Server コンポーネントと通信するインターフェイスです。</span><span class="sxs-lookup"><span data-stu-id="f17fb-181">\* The primary interface is the interface that communicates with the Lync Server components.</span></span>
+<span data-ttu-id="7abfc-181">\*プライマリインターフェイスは、Lync Server コンポーネントと通信するインターフェイスです。</span><span class="sxs-lookup"><span data-stu-id="7abfc-181">\* The primary interface is the interface that communicates with the Lync Server components.</span></span>
 
 </div>
 
 <div>
 
-## <a name="remote-user-peer-to-peer-communications"></a><span data-ttu-id="f17fb-182">リモート ユーザーのピアツーピア通信</span><span class="sxs-lookup"><span data-stu-id="f17fb-182">Remote User Peer-to-Peer Communications</span></span>
+## <a name="remote-user-peer-to-peer-communications"></a><span data-ttu-id="7abfc-182">リモート ユーザーのピアツーピア通信</span><span class="sxs-lookup"><span data-stu-id="7abfc-182">Remote User Peer-to-Peer Communications</span></span>
 
-<span data-ttu-id="f17fb-183">リモート ユーザーとのピアツーピア通信には、インスタント メッセージング、音声ビデオ、アプリケーション共有、およびファイル転送が含まれます。</span><span class="sxs-lookup"><span data-stu-id="f17fb-183">Peer-to-peer communications with remote users include instant messaging, audio/video, application sharing, and file transfer.</span></span>
+<span data-ttu-id="7abfc-183">リモート ユーザーとのピアツーピア通信には、インスタント メッセージング、音声ビデオ、アプリケーション共有、およびファイル転送が含まれます。</span><span class="sxs-lookup"><span data-stu-id="7abfc-183">Peer-to-peer communications with remote users include instant messaging, audio/video, application sharing, and file transfer.</span></span>
 
 
 <table>
@@ -264,30 +264,30 @@ ms.locfileid: "42051049"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="f17fb-184">リモート ユーザー ネットワーク</span><span class="sxs-lookup"><span data-stu-id="f17fb-184">Remote user network</span></span></th>
-<th><span data-ttu-id="f17fb-185">エッジ サーバー (外部エッジ)</span><span class="sxs-lookup"><span data-stu-id="f17fb-185">Edge server (External edge)</span></span></th>
+<th><span data-ttu-id="7abfc-184">リモート ユーザー ネットワーク</span><span class="sxs-lookup"><span data-stu-id="7abfc-184">Remote user network</span></span></th>
+<th><span data-ttu-id="7abfc-185">エッジ サーバー (外部エッジ)</span><span class="sxs-lookup"><span data-stu-id="7abfc-185">Edge server (External edge)</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f17fb-186">IPv4</span><span class="sxs-lookup"><span data-stu-id="f17fb-186">IPv4</span></span></p></td>
-<td><p><span data-ttu-id="f17fb-187">IPv4</span><span class="sxs-lookup"><span data-stu-id="f17fb-187">IPv4</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-186">IPv4</span><span class="sxs-lookup"><span data-stu-id="7abfc-186">IPv4</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-187">IPv4</span><span class="sxs-lookup"><span data-stu-id="7abfc-187">IPv4</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f17fb-188">デュアル スタック</span><span class="sxs-lookup"><span data-stu-id="f17fb-188">Dual stack</span></span></p></td>
-<td><p><span data-ttu-id="f17fb-189">IPv4</span><span class="sxs-lookup"><span data-stu-id="f17fb-189">IPv4</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-188">デュアル スタック</span><span class="sxs-lookup"><span data-stu-id="7abfc-188">Dual stack</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-189">IPv4</span><span class="sxs-lookup"><span data-stu-id="7abfc-189">IPv4</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f17fb-190">デュアル スタック</span><span class="sxs-lookup"><span data-stu-id="f17fb-190">Dual stack</span></span></p></td>
-<td><p><span data-ttu-id="f17fb-191">デュアル スタック</span><span class="sxs-lookup"><span data-stu-id="f17fb-191">Dual stack</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-190">デュアル スタック</span><span class="sxs-lookup"><span data-stu-id="7abfc-190">Dual stack</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-191">デュアル スタック</span><span class="sxs-lookup"><span data-stu-id="7abfc-191">Dual stack</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f17fb-192">IPv6</span><span class="sxs-lookup"><span data-stu-id="f17fb-192">IPv6</span></span></p></td>
-<td><p><span data-ttu-id="f17fb-193">デュアル スタック</span><span class="sxs-lookup"><span data-stu-id="f17fb-193">Dual stack</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-192">IPv6</span><span class="sxs-lookup"><span data-stu-id="7abfc-192">IPv6</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-193">デュアル スタック</span><span class="sxs-lookup"><span data-stu-id="7abfc-193">Dual stack</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f17fb-194">IPv6</span><span class="sxs-lookup"><span data-stu-id="f17fb-194">IPv6</span></span></p></td>
-<td><p><span data-ttu-id="f17fb-195">IPv6</span><span class="sxs-lookup"><span data-stu-id="f17fb-195">IPv6</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-194">IPv6</span><span class="sxs-lookup"><span data-stu-id="7abfc-194">IPv6</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-195">IPv6</span><span class="sxs-lookup"><span data-stu-id="7abfc-195">IPv6</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -297,11 +297,11 @@ ms.locfileid: "42051049"
 
 <div>
 
-## <a name="front-end-pool-and-edge-pool-configuration"></a><span data-ttu-id="f17fb-196">フロントエンド プールとエッジ プールの構成</span><span class="sxs-lookup"><span data-stu-id="f17fb-196">Front End Pool and Edge Pool Configuration</span></span>
+## <a name="front-end-pool-and-edge-pool-configuration"></a><span data-ttu-id="7abfc-196">フロントエンド プールとエッジ プールの構成</span><span class="sxs-lookup"><span data-stu-id="7abfc-196">Front End Pool and Edge Pool Configuration</span></span>
 
-<span data-ttu-id="f17fb-197">次の表は、フロントエンドサーバープールと内部エッジサーバープールの間のサポートマトリックスを示しています。</span><span class="sxs-lookup"><span data-stu-id="f17fb-197">The following table shows the support matrix between the Front End Server pool and the internal Edge Server pool.</span></span>
+<span data-ttu-id="7abfc-197">次の表は、フロントエンドサーバープールと内部エッジサーバープールの間のサポートマトリックスを示しています。</span><span class="sxs-lookup"><span data-stu-id="7abfc-197">The following table shows the support matrix between the Front End Server pool and the internal Edge Server pool.</span></span>
 
-### <a name="front-end-pool-and-edge-pool-internal-edge-matrix"></a><span data-ttu-id="f17fb-198">フロントエンド プールとエッジ プール (内部エッジ) のマトリックス</span><span class="sxs-lookup"><span data-stu-id="f17fb-198">Front End Pool and Edge Pool (Internal Edge) Matrix</span></span>
+### <a name="front-end-pool-and-edge-pool-internal-edge-matrix"></a><span data-ttu-id="7abfc-198">フロントエンド プールとエッジ プール (内部エッジ) のマトリックス</span><span class="sxs-lookup"><span data-stu-id="7abfc-198">Front End Pool and Edge Pool (Internal Edge) Matrix</span></span>
 
 <table>
 <colgroup>
@@ -313,37 +313,37 @@ ms.locfileid: "42051049"
 <tbody>
 <tr class="odd">
 <td></td>
-<td><p><span data-ttu-id="f17fb-199"><strong>エッジ プール: IPv4</strong></span><span class="sxs-lookup"><span data-stu-id="f17fb-199"><strong>Edge Pool: IPv4</strong></span></span></p></td>
-<td><p><span data-ttu-id="f17fb-200"><strong>エッジ プール: デュアル スタック</strong></span><span class="sxs-lookup"><span data-stu-id="f17fb-200"><strong>Edge Pool: Dual Stack</strong></span></span></p></td>
-<td><p><span data-ttu-id="f17fb-201"><strong>エッジ プール: IPv6</strong></span><span class="sxs-lookup"><span data-stu-id="f17fb-201"><strong>Edge Pool: IPv6</strong></span></span></p></td>
+<td><p><span data-ttu-id="7abfc-199"><strong>エッジ プール: IPv4</strong></span><span class="sxs-lookup"><span data-stu-id="7abfc-199"><strong>Edge Pool: IPv4</strong></span></span></p></td>
+<td><p><span data-ttu-id="7abfc-200"><strong>エッジ プール: デュアル スタック</strong></span><span class="sxs-lookup"><span data-stu-id="7abfc-200"><strong>Edge Pool: Dual Stack</strong></span></span></p></td>
+<td><p><span data-ttu-id="7abfc-201"><strong>エッジ プール: IPv6</strong></span><span class="sxs-lookup"><span data-stu-id="7abfc-201"><strong>Edge Pool: IPv6</strong></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f17fb-202"><strong>フロントエンド プール: IPv4</strong></span><span class="sxs-lookup"><span data-stu-id="f17fb-202"><strong>Front End Pool: IPv4</strong></span></span></p></td>
-<td><p><span data-ttu-id="f17fb-203">はい</span><span class="sxs-lookup"><span data-stu-id="f17fb-203">Yes</span></span></p></td>
-<td><p><span data-ttu-id="f17fb-204">はい</span><span class="sxs-lookup"><span data-stu-id="f17fb-204">Yes</span></span></p></td>
-<td><p><span data-ttu-id="f17fb-205">いいえ</span><span class="sxs-lookup"><span data-stu-id="f17fb-205">No</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-202"><strong>フロントエンド プール: IPv4</strong></span><span class="sxs-lookup"><span data-stu-id="7abfc-202"><strong>Front End Pool: IPv4</strong></span></span></p></td>
+<td><p><span data-ttu-id="7abfc-203">はい</span><span class="sxs-lookup"><span data-stu-id="7abfc-203">Yes</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-204">はい</span><span class="sxs-lookup"><span data-stu-id="7abfc-204">Yes</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-205">いいえ</span><span class="sxs-lookup"><span data-stu-id="7abfc-205">No</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f17fb-206"><strong>フロントエンド プール: デュアル スタック</strong></span><span class="sxs-lookup"><span data-stu-id="f17fb-206"><strong>Front End Pool: Dual Stack</strong></span></span></p></td>
-<td><p><span data-ttu-id="f17fb-207">はい</span><span class="sxs-lookup"><span data-stu-id="f17fb-207">Yes</span></span></p></td>
-<td><p><span data-ttu-id="f17fb-208">はい</span><span class="sxs-lookup"><span data-stu-id="f17fb-208">Yes</span></span></p></td>
-<td><p><span data-ttu-id="f17fb-209">いいえ</span><span class="sxs-lookup"><span data-stu-id="f17fb-209">No</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-206"><strong>フロントエンド プール: デュアル スタック</strong></span><span class="sxs-lookup"><span data-stu-id="7abfc-206"><strong>Front End Pool: Dual Stack</strong></span></span></p></td>
+<td><p><span data-ttu-id="7abfc-207">はい</span><span class="sxs-lookup"><span data-stu-id="7abfc-207">Yes</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-208">はい</span><span class="sxs-lookup"><span data-stu-id="7abfc-208">Yes</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-209">いいえ</span><span class="sxs-lookup"><span data-stu-id="7abfc-209">No</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f17fb-210"><strong>フロントエンド プール: IPv6</strong></span><span class="sxs-lookup"><span data-stu-id="f17fb-210"><strong>Front End Pool: IPv6</strong></span></span></p></td>
-<td><p><span data-ttu-id="f17fb-211">いいえ</span><span class="sxs-lookup"><span data-stu-id="f17fb-211">No</span></span></p></td>
-<td><p><span data-ttu-id="f17fb-212">いいえ</span><span class="sxs-lookup"><span data-stu-id="f17fb-212">No</span></span></p></td>
-<td><p><span data-ttu-id="f17fb-213">はい\*</span><span class="sxs-lookup"><span data-stu-id="f17fb-213">Yes\*</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-210"><strong>フロントエンド プール: IPv6</strong></span><span class="sxs-lookup"><span data-stu-id="7abfc-210"><strong>Front End Pool: IPv6</strong></span></span></p></td>
+<td><p><span data-ttu-id="7abfc-211">いいえ</span><span class="sxs-lookup"><span data-stu-id="7abfc-211">No</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-212">いいえ</span><span class="sxs-lookup"><span data-stu-id="7abfc-212">No</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-213">はい\*</span><span class="sxs-lookup"><span data-stu-id="7abfc-213">Yes\*</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="f17fb-214">\*この組み合わせは、ラボ環境でのみ使用します。</span><span class="sxs-lookup"><span data-stu-id="f17fb-214">\* Use this combination only in a lab environment.</span></span>
+<span data-ttu-id="7abfc-214">\*この組み合わせは、ラボ環境でのみ使用します。</span><span class="sxs-lookup"><span data-stu-id="7abfc-214">\* Use this combination only in a lab environment.</span></span>
 
-<span data-ttu-id="f17fb-215">次のテーブルは、内部エッジ インターフェイスと外部エッジ インターフェイスの組み合わせのサポート マトリックスです。</span><span class="sxs-lookup"><span data-stu-id="f17fb-215">The following table is a matrix of the supported combinations of internal and external edge interfaces.</span></span>
+<span data-ttu-id="7abfc-215">次のテーブルは、内部エッジ インターフェイスと外部エッジ インターフェイスの組み合わせのサポート マトリックスです。</span><span class="sxs-lookup"><span data-stu-id="7abfc-215">The following table is a matrix of the supported combinations of internal and external edge interfaces.</span></span>
 
-### <a name="edge-pool-internal-edge-and-edge-pool-external-edge-matrix"></a><span data-ttu-id="f17fb-216">エッジ プール (内部エッジ) とエッジ プール (外部エッジ) のマトリックス</span><span class="sxs-lookup"><span data-stu-id="f17fb-216">Edge Pool (Internal Edge) and Edge pool (External Edge) Matrix</span></span>
+### <a name="edge-pool-internal-edge-and-edge-pool-external-edge-matrix"></a><span data-ttu-id="7abfc-216">エッジ プール (内部エッジ) とエッジ プール (外部エッジ) のマトリックス</span><span class="sxs-lookup"><span data-stu-id="7abfc-216">Edge Pool (Internal Edge) and Edge pool (External Edge) Matrix</span></span>
 
 <table>
 <colgroup>
@@ -355,71 +355,71 @@ ms.locfileid: "42051049"
 <tbody>
 <tr class="odd">
 <td></td>
-<td><p><span data-ttu-id="f17fb-217"><strong>エッジ プール (外部エッジ): IPv4</strong></span><span class="sxs-lookup"><span data-stu-id="f17fb-217"><strong>Edge Pool (External Edge) : IPv4</strong></span></span></p></td>
-<td><p><span data-ttu-id="f17fb-218"><strong>エッジ プール (外部エッジ): デュアル スタック</strong></span><span class="sxs-lookup"><span data-stu-id="f17fb-218"><strong>Edge Pool (External Edge): Dual Stack</strong></span></span></p></td>
-<td><p><span data-ttu-id="f17fb-219"><strong>エッジ プール (外部エッジ): IPv6</strong></span><span class="sxs-lookup"><span data-stu-id="f17fb-219"><strong>Edge Pool (External Edge): IPv6</strong></span></span></p></td>
+<td><p><span data-ttu-id="7abfc-217"><strong>エッジ プール (外部エッジ): IPv4</strong></span><span class="sxs-lookup"><span data-stu-id="7abfc-217"><strong>Edge Pool (External Edge) : IPv4</strong></span></span></p></td>
+<td><p><span data-ttu-id="7abfc-218"><strong>エッジ プール (外部エッジ): デュアル スタック</strong></span><span class="sxs-lookup"><span data-stu-id="7abfc-218"><strong>Edge Pool (External Edge): Dual Stack</strong></span></span></p></td>
+<td><p><span data-ttu-id="7abfc-219"><strong>エッジ プール (外部エッジ): IPv6</strong></span><span class="sxs-lookup"><span data-stu-id="7abfc-219"><strong>Edge Pool (External Edge): IPv6</strong></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f17fb-220"><strong>エッジ プール (内部エッジ): IPv4</strong></span><span class="sxs-lookup"><span data-stu-id="f17fb-220"><strong>Edge Pool (Internal Edge): IPv4</strong></span></span></p></td>
-<td><p><span data-ttu-id="f17fb-221">はい</span><span class="sxs-lookup"><span data-stu-id="f17fb-221">Yes</span></span></p></td>
-<td><p><span data-ttu-id="f17fb-222">はい</span><span class="sxs-lookup"><span data-stu-id="f17fb-222">Yes</span></span></p></td>
-<td><p><span data-ttu-id="f17fb-223">いいえ</span><span class="sxs-lookup"><span data-stu-id="f17fb-223">No</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-220"><strong>エッジ プール (内部エッジ): IPv4</strong></span><span class="sxs-lookup"><span data-stu-id="7abfc-220"><strong>Edge Pool (Internal Edge): IPv4</strong></span></span></p></td>
+<td><p><span data-ttu-id="7abfc-221">はい</span><span class="sxs-lookup"><span data-stu-id="7abfc-221">Yes</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-222">はい</span><span class="sxs-lookup"><span data-stu-id="7abfc-222">Yes</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-223">いいえ</span><span class="sxs-lookup"><span data-stu-id="7abfc-223">No</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f17fb-224"><strong>エッジ プール (内部エッジ): デュアル スタック</strong></span><span class="sxs-lookup"><span data-stu-id="f17fb-224"><strong>Edge Pool (Internal Edge): Dual Stack</strong></span></span></p></td>
-<td><p><span data-ttu-id="f17fb-225">いいえ</span><span class="sxs-lookup"><span data-stu-id="f17fb-225">No</span></span></p></td>
-<td><p><span data-ttu-id="f17fb-226">はい</span><span class="sxs-lookup"><span data-stu-id="f17fb-226">Yes</span></span></p></td>
-<td><p><span data-ttu-id="f17fb-227">いいえ</span><span class="sxs-lookup"><span data-stu-id="f17fb-227">No</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-224"><strong>エッジ プール (内部エッジ): デュアル スタック</strong></span><span class="sxs-lookup"><span data-stu-id="7abfc-224"><strong>Edge Pool (Internal Edge): Dual Stack</strong></span></span></p></td>
+<td><p><span data-ttu-id="7abfc-225">いいえ</span><span class="sxs-lookup"><span data-stu-id="7abfc-225">No</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-226">はい</span><span class="sxs-lookup"><span data-stu-id="7abfc-226">Yes</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-227">いいえ</span><span class="sxs-lookup"><span data-stu-id="7abfc-227">No</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f17fb-228"><strong>エッジ プール (内部エッジ): IPv6</strong></span><span class="sxs-lookup"><span data-stu-id="f17fb-228"><strong>Edge Pool (Internal Edge): IPv6</strong></span></span></p></td>
-<td><p><span data-ttu-id="f17fb-229">いいえ</span><span class="sxs-lookup"><span data-stu-id="f17fb-229">No</span></span></p></td>
-<td><p><span data-ttu-id="f17fb-230">いいえ</span><span class="sxs-lookup"><span data-stu-id="f17fb-230">No</span></span></p></td>
-<td><p><span data-ttu-id="f17fb-231">はい\*</span><span class="sxs-lookup"><span data-stu-id="f17fb-231">Yes\*</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-228"><strong>エッジ プール (内部エッジ): IPv6</strong></span><span class="sxs-lookup"><span data-stu-id="7abfc-228"><strong>Edge Pool (Internal Edge): IPv6</strong></span></span></p></td>
+<td><p><span data-ttu-id="7abfc-229">いいえ</span><span class="sxs-lookup"><span data-stu-id="7abfc-229">No</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-230">いいえ</span><span class="sxs-lookup"><span data-stu-id="7abfc-230">No</span></span></p></td>
+<td><p><span data-ttu-id="7abfc-231">はい\*</span><span class="sxs-lookup"><span data-stu-id="7abfc-231">Yes\*</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="f17fb-232">\*この組み合わせは、ラボ環境でのみ使用します。</span><span class="sxs-lookup"><span data-stu-id="f17fb-232">\* Use this combination only in a lab environment.</span></span>
+<span data-ttu-id="7abfc-232">\*この組み合わせは、ラボ環境でのみ使用します。</span><span class="sxs-lookup"><span data-stu-id="7abfc-232">\* Use this combination only in a lab environment.</span></span>
 
 </div>
 
 <div>
 
-## <a name="advanced-enterprise-voice-support-for-ipv6"></a><span data-ttu-id="f17fb-233">IPv6 の高度なエンタープライズ VoIP のサポート</span><span class="sxs-lookup"><span data-stu-id="f17fb-233">Advanced Enterprise Voice Support for IPv6</span></span>
+## <a name="advanced-enterprise-voice-support-for-ipv6"></a><span data-ttu-id="7abfc-233">IPv6 の高度なエンタープライズ VoIP のサポート</span><span class="sxs-lookup"><span data-stu-id="7abfc-233">Advanced Enterprise Voice Support for IPv6</span></span>
 
-<span data-ttu-id="f17fb-234">通話受付管理 (CAC)、拡張 9-1-1 (E9-1-1)、メディア バイパスなどの展開は、IPv4 のみ、またはデュアル スタック実装として構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="f17fb-234">Deployments that include call admission control (CAC), Enhanced 9-1-1 (E9-1-1), or media bypass must be configured as IPv4 only or as a dual-stacked implementation.</span></span>
+<span data-ttu-id="7abfc-234">通話受付管理 (CAC)、拡張 9-1-1 (E9-1-1)、メディア バイパスなどの展開は、IPv4 のみ、またはデュアル スタック実装として構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="7abfc-234">Deployments that include call admission control (CAC), Enhanced 9-1-1 (E9-1-1), or media bypass must be configured as IPv4 only or as a dual-stacked implementation.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="f17fb-235">デュアルスタック展開では、lync クライアントが IPv6 を使用して Lync サーバーに接続している場合でも、Lync は E9-1-1 をサポートするために適切な IPv4 アドレスをマップするための最善の努力を行います。</span><span class="sxs-lookup"><span data-stu-id="f17fb-235">In a dual-stacked deployment, even if a Lync client connects to a Lync Server by using IPv6, Lync will make a best effort to map an appropriate IPv4 address to support E9-1-1.</span></span>
+> <span data-ttu-id="7abfc-235">デュアルスタック展開では、lync クライアントが IPv6 を使用して Lync サーバーに接続している場合でも、Lync は E9-1-1 をサポートするために適切な IPv4 アドレスをマップするための最善の努力を行います。</span><span class="sxs-lookup"><span data-stu-id="7abfc-235">In a dual-stacked deployment, even if a Lync client connects to a Lync Server by using IPv6, Lync will make a best effort to map an appropriate IPv4 address to support E9-1-1.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="f17fb-236">IPv6 アドレスを使用した場所情報サービスはサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="f17fb-236">Location Information service with IPv6 addresses is not supported.</span></span>
+<span data-ttu-id="7abfc-236">IPv6 アドレスを使用した場所情報サービスはサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="7abfc-236">Location Information service with IPv6 addresses is not supported.</span></span>
 
-<span data-ttu-id="f17fb-p107">Exchange ユニファイド メッセージング (UM) では IPv6 をサポートしていません。Exchange UM の場合は、DNS 解決が IPv6 アドレスを返さないことを確認します。IPv6 を使用すると、通話がボイス メールに送信されたときに障害が発生する可能性があります。</span><span class="sxs-lookup"><span data-stu-id="f17fb-p107">Exchange Unified Messaging (UM) does not support IPv6. For Exchange UM, be sure that DNS resolution does not return an IPv6 address. Using IPv6 may cause failure when calls are sent to voice mail.</span></span>
+<span data-ttu-id="7abfc-p107">Exchange ユニファイド メッセージング (UM) では IPv6 をサポートしていません。Exchange UM の場合は、DNS 解決が IPv6 アドレスを返さないことを確認します。IPv6 を使用すると、通話がボイス メールに送信されたときに障害が発生する可能性があります。</span><span class="sxs-lookup"><span data-stu-id="7abfc-p107">Exchange Unified Messaging (UM) does not support IPv6. For Exchange UM, be sure that DNS resolution does not return an IPv6 address. Using IPv6 may cause failure when calls are sent to voice mail.</span></span>
 
 </div>
 
 <div>
 
-## <a name="other-lync-server-2013-feature-support-for-ipv6"></a><span data-ttu-id="f17fb-240">その他の Lync Server 2013 機能の IPv6 のサポート</span><span class="sxs-lookup"><span data-stu-id="f17fb-240">Other Lync Server 2013 Feature Support for IPv6</span></span>
+## <a name="other-lync-server-2013-feature-support-for-ipv6"></a><span data-ttu-id="7abfc-240">その他の Lync Server 2013 機能の IPv6 のサポート</span><span class="sxs-lookup"><span data-stu-id="7abfc-240">Other Lync Server 2013 Feature Support for IPv6</span></span>
 
-<span data-ttu-id="f17fb-241">以前に説明した機能とコンポーネントに加えて、Lync Server 2013 は次の機能に対して IPv6 をサポートしています。</span><span class="sxs-lookup"><span data-stu-id="f17fb-241">In addition to the features and components mentioned previously, Lync Server 2013 supports IPv6 for the following features:</span></span>
+<span data-ttu-id="7abfc-241">以前に説明した機能とコンポーネントに加えて、Lync Server 2013 は次の機能に対して IPv6 をサポートしています。</span><span class="sxs-lookup"><span data-stu-id="7abfc-241">In addition to the features and components mentioned previously, Lync Server 2013 supports IPv6 for the following features:</span></span>
 
-  - <span data-ttu-id="f17fb-242">**常設チャット**</span><span class="sxs-lookup"><span data-stu-id="f17fb-242">**Persistent Chat**</span></span>
+  - <span data-ttu-id="7abfc-242">**常設チャット**</span><span class="sxs-lookup"><span data-stu-id="7abfc-242">**Persistent Chat**</span></span>
     
-    <span data-ttu-id="f17fb-243">常設チャットには、トポロジビルダーを使用して IPv6 を構成します。</span><span class="sxs-lookup"><span data-stu-id="f17fb-243">You configure IPv6 for Persistent Chat by using Topology Builder.</span></span> <span data-ttu-id="f17fb-244">常設チャットの構成の詳細については、「常設チャットサーバーのドキュメントを展開する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="f17fb-244">For details about configuring Persistent Chat, see the Deploying Persistent Chat Server documentation.</span></span>
+    <span data-ttu-id="7abfc-243">常設チャットには、トポロジビルダーを使用して IPv6 を構成します。</span><span class="sxs-lookup"><span data-stu-id="7abfc-243">You configure IPv6 for Persistent Chat by using Topology Builder.</span></span> <span data-ttu-id="7abfc-244">常設チャットの構成の詳細については、「常設チャットサーバーのドキュメントを展開する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="7abfc-244">For details about configuring Persistent Chat, see the Deploying Persistent Chat Server documentation.</span></span>
 
-  - <span data-ttu-id="f17fb-245">**Quality of Experience (QoE) と通話詳細記録 (CDR) のレポート**</span><span class="sxs-lookup"><span data-stu-id="f17fb-245">**Quality of Experience (QoE) and call detail recording (CDR) reports**</span></span>
+  - <span data-ttu-id="7abfc-245">**Quality of Experience (QoE) と通話詳細記録 (CDR) のレポート**</span><span class="sxs-lookup"><span data-stu-id="7abfc-245">**Quality of Experience (QoE) and call detail recording (CDR) reports**</span></span>
     
-    <span data-ttu-id="f17fb-246">IPv4 か IPv6 かにかかわらず、監視レポートには監視サーバー データベースに格納されている IP アドレスがそのまま含まれます。</span><span class="sxs-lookup"><span data-stu-id="f17fb-246">Monitoring reports include the IP address as it is stored in the Monitoring Server database, whether of type IPv4 or IPv6.</span></span>
+    <span data-ttu-id="7abfc-246">IPv4 か IPv6 かにかかわらず、監視レポートには監視サーバー データベースに格納されている IP アドレスがそのまま含まれます。</span><span class="sxs-lookup"><span data-stu-id="7abfc-246">Monitoring reports include the IP address as it is stored in the Monitoring Server database, whether of type IPv4 or IPv6.</span></span>
 
 </div>
 

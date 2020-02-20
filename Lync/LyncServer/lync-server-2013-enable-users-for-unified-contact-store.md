@@ -12,20 +12,20 @@ ms:contentKeyID: 48184599
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b99fd96b16d19305ea5bb63ea9f84096ef6117c7
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: fc769241059a2536ff644e6ea7b711aaa8cd342d
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046650"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154889"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enable-users-for-unified-contact-store-in-lync-server-2013"></a><span data-ttu-id="c59c3-102">Lync Server 2013 で統合連絡先ストアに対してユーザーを有効にする</span><span class="sxs-lookup"><span data-stu-id="c59c3-102">Enable users for unified contact store in Lync Server 2013</span></span>
+# <a name="enable-users-for-unified-contact-store-in-lync-server-2013"></a><span data-ttu-id="d517d-102">Lync Server 2013 で統合連絡先ストアに対してユーザーを有効にする</span><span class="sxs-lookup"><span data-stu-id="d517d-102">Enable users for unified contact store in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,39 +35,39 @@ ms.locfileid: "42046650"
 
 <span> </span>
 
-<span data-ttu-id="c59c3-103">_**トピックの最終更新日:** 2012-10-07_</span><span class="sxs-lookup"><span data-stu-id="c59c3-103">_**Topic Last Modified:** 2012-10-07_</span></span>
+<span data-ttu-id="d517d-103">_**トピックの最終更新日:** 2012-10-07_</span><span class="sxs-lookup"><span data-stu-id="d517d-103">_**Topic Last Modified:** 2012-10-07_</span></span>
 
-<span data-ttu-id="c59c3-104">Lync Server 2013 を展開してトポロジを公開すると、既定では、すべてのユーザーに対して統合連絡先ストアが有効になります。</span><span class="sxs-lookup"><span data-stu-id="c59c3-104">When you deploy Lync Server 2013 and publish the topology, unified contact store is enabled for all users by default.</span></span> <span data-ttu-id="c59c3-105">Lync Server 2013 を展開した後に、統合連絡先ストアを有効にするために追加のアクションを実行する必要はありません。</span><span class="sxs-lookup"><span data-stu-id="c59c3-105">You do not need to take any additional action to enable unified contact store after you deploy Lync Server 2013.</span></span> <span data-ttu-id="c59c3-106">ただし、**Set-CsUserServicesPolicy** コマンドレットを使用すると、どのユーザーが統合連絡先ストアを使用できるのかをカスタマイズできます。</span><span class="sxs-lookup"><span data-stu-id="c59c3-106">However, you can use the **Set-CsUserServicesPolicy** cmdlet to customize which users have unified contact store available.</span></span> <span data-ttu-id="c59c3-107">この機能の有効化は、グローバルに行うことも、サイトごと、テナントごと、または個人やそのグループごとに行うこともできます。</span><span class="sxs-lookup"><span data-stu-id="c59c3-107">You can enable this feature globally, by site, by tenant, or by individuals or groups of individuals.</span></span>
+<span data-ttu-id="d517d-104">Lync Server 2013 を展開してトポロジを公開すると、既定では、すべてのユーザーに対して統合連絡先ストアが有効になります。</span><span class="sxs-lookup"><span data-stu-id="d517d-104">When you deploy Lync Server 2013 and publish the topology, unified contact store is enabled for all users by default.</span></span> <span data-ttu-id="d517d-105">Lync Server 2013 を展開した後に、統合連絡先ストアを有効にするために追加のアクションを実行する必要はありません。</span><span class="sxs-lookup"><span data-stu-id="d517d-105">You do not need to take any additional action to enable unified contact store after you deploy Lync Server 2013.</span></span> <span data-ttu-id="d517d-106">ただし、**Set-CsUserServicesPolicy** コマンドレットを使用すると、どのユーザーが統合連絡先ストアを使用できるのかをカスタマイズできます。</span><span class="sxs-lookup"><span data-stu-id="d517d-106">However, you can use the **Set-CsUserServicesPolicy** cmdlet to customize which users have unified contact store available.</span></span> <span data-ttu-id="d517d-107">この機能の有効化は、グローバルに行うことも、サイトごと、テナントごと、または個人やそのグループごとに行うこともできます。</span><span class="sxs-lookup"><span data-stu-id="d517d-107">You can enable this feature globally, by site, by tenant, or by individuals or groups of individuals.</span></span>
 
 <div>
 
-## <a name="to-enable-users-for-unified-contact-store"></a><span data-ttu-id="c59c3-108">統合連絡先ストアでユーザーを有効にするには</span><span class="sxs-lookup"><span data-stu-id="c59c3-108">To enable users for unified contact store</span></span>
+## <a name="to-enable-users-for-unified-contact-store"></a><span data-ttu-id="d517d-108">統合連絡先ストアでユーザーを有効にするには</span><span class="sxs-lookup"><span data-stu-id="d517d-108">To enable users for unified contact store</span></span>
 
-1.  <span data-ttu-id="c59c3-109">Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="c59c3-109">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="d517d-109">Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="d517d-109">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="c59c3-110">次のどちらかの操作を行います。</span><span class="sxs-lookup"><span data-stu-id="c59c3-110">Do any of the following:</span></span>
+2.  <span data-ttu-id="d517d-110">次のどちらかの操作を行います。</span><span class="sxs-lookup"><span data-stu-id="d517d-110">Do any of the following:</span></span>
     
-      - <span data-ttu-id="c59c3-111">すべての Lync Server ユーザーに対して統合連絡先ストアをグローバルに有効にするには、コマンドラインで次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="c59c3-111">To enable unified contact store globally for all Lync Server users, at the command line, type:</span></span>
+      - <span data-ttu-id="d517d-111">すべての Lync Server ユーザーに対して統合連絡先ストアをグローバルに有効にするには、コマンドラインで次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="d517d-111">To enable unified contact store globally for all Lync Server users, at the command line, type:</span></span>
         
             Set-CsUserServicesPolicy -Identity global -UcsAllowed $True
     
-      - <span data-ttu-id="c59c3-112">統合連絡先ストアを特定のサイトのユーザーに対して有効にするには、コマンドラインで次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="c59c3-112">To enable unified contact store for the users at a specific site, at the command line, type:</span></span>
+      - <span data-ttu-id="d517d-112">統合連絡先ストアを特定のサイトのユーザーに対して有効にするには、コマンドラインで次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="d517d-112">To enable unified contact store for the users at a specific site, at the command line, type:</span></span>
         
             New-CsUserServicesPolicy -Identity site:<site name> -UcsAllowed $True
         
-        <span data-ttu-id="c59c3-113">例:</span><span class="sxs-lookup"><span data-stu-id="c59c3-113">For example:</span></span>
+        <span data-ttu-id="d517d-113">次に例を示します。</span><span class="sxs-lookup"><span data-stu-id="d517d-113">For example:</span></span>
         
             New-CsUserServicesPolicy -Identity site:Redmond -UcsAllowed $True
     
-      - <span data-ttu-id="c59c3-114">統合連絡先ストアをテナントごとに有効にするには、コマンドラインで次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="c59c3-114">To enable unified contact store by tenant, at the command line, type:</span></span>
+      - <span data-ttu-id="d517d-114">統合連絡先ストアをテナントごとに有効にするには、コマンドラインで次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="d517d-114">To enable unified contact store by tenant, at the command line, type:</span></span>
         
             Set-CsUserServicesPolicy -Tenant <tenantId> -UcsAllowed $True
         
-        <span data-ttu-id="c59c3-115">例:</span><span class="sxs-lookup"><span data-stu-id="c59c3-115">For example:</span></span>
+        <span data-ttu-id="d517d-115">次に例を示します。</span><span class="sxs-lookup"><span data-stu-id="d517d-115">For example:</span></span>
         
             Set-CsUserServicesPolicy -Tenant "38aad667-af54-4397-aaa7-e94c79ec2308" -UcsAllowed $True
     
-      - <span data-ttu-id="c59c3-116">統合連絡先ストアを特定のユーザーに対して有効にするには、コマンドラインで次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="c59c3-116">To enable unified contact store for specific users, at the command line, type:</span></span>
+      - <span data-ttu-id="d517d-116">統合連絡先ストアを特定のユーザーに対して有効にするには、コマンドラインで次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="d517d-116">To enable unified contact store for specific users, at the command line, type:</span></span>
         
             New-CsUserServicesPolicy -Identity "<policy name>" -UcsAllowed $True
             Grant-CsUserServicesPolicy -Identity "<user display name>" -PolicyName <"policy name">
@@ -76,12 +76,12 @@ ms.locfileid: "42046650"
         
 
         > [!NOTE]  
-        > <span data-ttu-id="c59c3-117">ユーザーの表示名の代わりに、ユーザー エイリアスや SIP URI を使用することもできます。</span><span class="sxs-lookup"><span data-stu-id="c59c3-117">You can also use user alias or SIP URI instead of the user display name.</span></span>
+        > <span data-ttu-id="d517d-117">ユーザーの表示名の代わりに、ユーザー エイリアスや SIP URI を使用することもできます。</span><span class="sxs-lookup"><span data-stu-id="d517d-117">You can also use user alias or SIP URI instead of the user display name.</span></span>
 
         
         </div>
         
-        <span data-ttu-id="c59c3-118">例:</span><span class="sxs-lookup"><span data-stu-id="c59c3-118">For example:</span></span>
+        <span data-ttu-id="d517d-118">例:</span><span class="sxs-lookup"><span data-stu-id="d517d-118">For example:</span></span>
         
             New-CsUserServicesPolicy -Identity "UCS Enabled Users" -UcsAllowed $True
             Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName "UCS Enabled Users"
@@ -90,7 +90,7 @@ ms.locfileid: "42046650"
         
 
         > [!NOTE]  
-        > <span data-ttu-id="c59c3-p102">前記の例の最初のコマンドでは、UcsAllowed フラグを True に設定することで、新しいユーザーごとのポリシーを UCS Enabled Users<EM></EM> という名前で作成しています。2 番目のコマンドでは、Ken Myer という表示名のユーザーにこのポリシーを割り当てています。これは、Ken Myer が統合連絡先ストアで有効になったことを意味します。</span><span class="sxs-lookup"><span data-stu-id="c59c3-p102">In the preceding example, the first command creates a new per-user policy named <EM>UCS Enabled Users</EM> with the UcsAllowed flag set to True. The second command assigns the policy to the user with the display name Ken Myer, which means that Ken Myer is now enabled for unified contact store.</span></span>
+        > <span data-ttu-id="d517d-p102">前記の例の最初のコマンドでは、UcsAllowed フラグを True に設定することで、新しいユーザーごとのポリシーを UCS Enabled Users<EM></EM> という名前で作成しています。2 番目のコマンドでは、Ken Myer という表示名のユーザーにこのポリシーを割り当てています。これは、Ken Myer が統合連絡先ストアで有効になったことを意味します。</span><span class="sxs-lookup"><span data-stu-id="d517d-p102">In the preceding example, the first command creates a new per-user policy named <EM>UCS Enabled Users</EM> with the UcsAllowed flag set to True. The second command assigns the policy to the user with the display name Ken Myer, which means that Ken Myer is now enabled for unified contact store.</span></span>
 
         
         </div>

@@ -12,20 +12,20 @@ ms:contentKeyID: 49733657
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 615b76657b8a7045c99d17f523aa73b0ee79a807
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 1f5ae5c10bda4383917a4f3a27ef8dffec2abbef
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051169"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153437"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="optional-define-response-group-holiday-sets-in-lync-server-2013"></a><span data-ttu-id="723cc-102">オプションLync Server 2013 で応答グループの休日セットを定義する</span><span class="sxs-lookup"><span data-stu-id="723cc-102">(Optional) Define Response Group holiday sets in Lync Server 2013</span></span>
+# <a name="optional-define-response-group-holiday-sets-in-lync-server-2013"></a><span data-ttu-id="53d10-102">オプションLync Server 2013 で応答グループの休日セットを定義する</span><span class="sxs-lookup"><span data-stu-id="53d10-102">(Optional) Define Response Group holiday sets in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42051169"
 
 <span> </span>
 
-<span data-ttu-id="723cc-103">_**トピックの最終更新日:** 2014-02-07_</span><span class="sxs-lookup"><span data-stu-id="723cc-103">_**Topic Last Modified:** 2014-02-07_</span></span>
+<span data-ttu-id="53d10-103">_**トピックの最終更新日:** 2014-02-07_</span><span class="sxs-lookup"><span data-stu-id="53d10-103">_**Topic Last Modified:** 2014-02-07_</span></span>
 
-<span data-ttu-id="723cc-p101">休日設定では、応答グループが営業しない日を定義し、その日に実行するアクションを指定します。休日セットは、応答グループに適用する休日のコレクションです。</span><span class="sxs-lookup"><span data-stu-id="723cc-p101">Holiday settings define the days that a response group is closed for business and specify the action to take on those days. A holiday set is the collection of holidays that apply to a response group.</span></span>
+<span data-ttu-id="53d10-p101">休日設定では、応答グループが営業しない日を定義し、その日に実行するアクションを指定します。休日セットは、応答グループに適用する休日のコレクションです。</span><span class="sxs-lookup"><span data-stu-id="53d10-p101">Holiday settings define the days that a response group is closed for business and specify the action to take on those days. A holiday set is the collection of holidays that apply to a response group.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="723cc-106">ワークフローが管理ワークフローとして定義されている場合、CsResponseGroupManager の役割に割り当てられたユーザーは、管理するワークフローの休日を設定および変更できます。</span><span class="sxs-lookup"><span data-stu-id="723cc-106">If a workflow is defined as a Managed workflow, then any user is assigned the CsResponseGroupManager role can set and modify holidays for workflows that they manage.</span></span>
+> <span data-ttu-id="53d10-106">ワークフローが管理ワークフローとして定義されている場合、CsResponseGroupManager の役割に割り当てられたユーザーは、管理するワークフローの休日を設定および変更できます。</span><span class="sxs-lookup"><span data-stu-id="53d10-106">If a workflow is defined as a Managed workflow, then any user is assigned the CsResponseGroupManager role can set and modify holidays for workflows that they manage.</span></span>
 
 
 
@@ -51,21 +51,21 @@ ms.locfileid: "42051169"
 
 <div>
 
-## <a name="to-create-a-holiday-set"></a><span data-ttu-id="723cc-107">休日セットを作成するには</span><span class="sxs-lookup"><span data-stu-id="723cc-107">To create a holiday set</span></span>
+## <a name="to-create-a-holiday-set"></a><span data-ttu-id="53d10-107">休日セットを作成するには</span><span class="sxs-lookup"><span data-stu-id="53d10-107">To create a holiday set</span></span>
 
-1.  <span data-ttu-id="723cc-108">RTCUniversalServerAdmins グループのメンバーまたは応答グループをサポートする定義済みの管理者の役割のいずれかのメンバーとしてログオンします。</span><span class="sxs-lookup"><span data-stu-id="723cc-108">Log on as a member of the RTCUniversalServerAdmins group, or as a member of one of the predefined administrative roles that support Response Group.</span></span>
+1.  <span data-ttu-id="53d10-108">RTCUniversalServerAdmins グループのメンバーまたは応答グループをサポートする定義済みの管理者の役割のいずれかのメンバーとしてログオンします。</span><span class="sxs-lookup"><span data-stu-id="53d10-108">Log on as a member of the RTCUniversalServerAdmins group, or as a member of one of the predefined administrative roles that support Response Group.</span></span>
 
-2.  <span data-ttu-id="723cc-109">Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="723cc-109">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="53d10-109">Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="53d10-109">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="723cc-110">定義する休日ごとに、以下を実行します。</span><span class="sxs-lookup"><span data-stu-id="723cc-110">For each holiday you want to define, run:</span></span>
+3.  <span data-ttu-id="53d10-110">定義する休日ごとに、以下を実行します。</span><span class="sxs-lookup"><span data-stu-id="53d10-110">For each holiday you want to define, run:</span></span>
     
         $x = New-CsRgsHoliday [-Name <holiday name>] -StartDate <starting date of holiday> -EndDate <ending date of holiday>
     
-    <span data-ttu-id="723cc-111">定義した休日を含める休日セットを作成するには、以下を実行します。</span><span class="sxs-lookup"><span data-stu-id="723cc-111">To create the holiday set that contains the holidays you defined, run:</span></span>
+    <span data-ttu-id="53d10-111">定義した休日を含める休日セットを作成するには、以下を実行します。</span><span class="sxs-lookup"><span data-stu-id="53d10-111">To create the holiday set that contains the holidays you defined, run:</span></span>
     
         New-CsRgsHolidaySet -Parent <service where the workflow is hosted> -Name <unique name for holiday set> -HolidayList <one or more holidays to be included in the holiday set>
     
-    <span data-ttu-id="723cc-112">次の例では、2 つの休日を含む休日セットを示します。</span><span class="sxs-lookup"><span data-stu-id="723cc-112">The following example shows a holiday set that includes two holidays:</span></span>
+    <span data-ttu-id="53d10-112">次の例では、2 つの休日を含む休日セットを示します。</span><span class="sxs-lookup"><span data-stu-id="53d10-112">The following example shows a holiday set that includes two holidays:</span></span>
     
         $a = New-CsRgsHoliday -Name "New Year's Day" -StartDate "1/1/2013 12:00 AM" -EndDate "1/1/2013 12:00 AM" 
         $b = New-CsRgsHoliday -Name "Independence Day" -StartDate "7/4/2013 12:00 AM" -EndDate "7/5/2013 12:00 AM" 
@@ -75,15 +75,15 @@ ms.locfileid: "42051169"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="723cc-113">関連項目</span><span class="sxs-lookup"><span data-stu-id="723cc-113">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="53d10-113">関連項目</span><span class="sxs-lookup"><span data-stu-id="53d10-113">See Also</span></span>
 
 
-[<span data-ttu-id="723cc-114">Lync Server 2013 でハントグループワークフローを作成または変更する</span><span class="sxs-lookup"><span data-stu-id="723cc-114">Create or modify a hunt group workflow in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)  
-[<span data-ttu-id="723cc-115">Lync Server 2013 での対話ワークフローの作成または変更</span><span class="sxs-lookup"><span data-stu-id="723cc-115">Create or modify an interactive workflow in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-an-interactive-workflow.md)  
+[<span data-ttu-id="53d10-114">Lync Server 2013 でハントグループワークフローを作成または変更する</span><span class="sxs-lookup"><span data-stu-id="53d10-114">Create or modify a hunt group workflow in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)  
+[<span data-ttu-id="53d10-115">Lync Server 2013 での対話ワークフローの作成または変更</span><span class="sxs-lookup"><span data-stu-id="53d10-115">Create or modify an interactive workflow in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-an-interactive-workflow.md)  
 
 
-[<span data-ttu-id="723cc-116">New-CsRgsHoliday</span><span class="sxs-lookup"><span data-stu-id="723cc-116">New-CsRgsHoliday</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsRgsHoliday)  
-[<span data-ttu-id="723cc-117">New-CsRgsHolidaySet</span><span class="sxs-lookup"><span data-stu-id="723cc-117">New-CsRgsHolidaySet</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsRgsHolidaySet)  
+[<span data-ttu-id="53d10-116">New-CsRgsHoliday</span><span class="sxs-lookup"><span data-stu-id="53d10-116">New-CsRgsHoliday</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsRgsHoliday)  
+[<span data-ttu-id="53d10-117">New-CsRgsHolidaySet</span><span class="sxs-lookup"><span data-stu-id="53d10-117">New-CsRgsHolidaySet</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsRgsHolidaySet)  
   
 
 </div>

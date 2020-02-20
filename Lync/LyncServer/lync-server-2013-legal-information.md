@@ -12,20 +12,20 @@ ms:contentKeyID: 48183258
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 84def7e711a18762f4473bbda5946a14eff3b1e8
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d6b42f172932687e1e654afba64a3b32fa222b83
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42034929"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153829"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="legal-information-for-lync-server-2013"></a><span data-ttu-id="9bc05-102">Lync Server 2013 の法的情報</span><span class="sxs-lookup"><span data-stu-id="9bc05-102">Legal information for Lync Server 2013</span></span>
+# <a name="legal-information-for-lync-server-2013"></a><span data-ttu-id="4dcbf-102">Lync Server 2013 の法的情報</span><span class="sxs-lookup"><span data-stu-id="4dcbf-102">Legal information for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42034929"
 
 <span> </span>
 
-<span data-ttu-id="9bc05-103">_**トピックの最終更新日:** 2011-02-22_</span><span class="sxs-lookup"><span data-stu-id="9bc05-103">_**Topic Last Modified:** 2011-02-22_</span></span>
+<span data-ttu-id="4dcbf-103">_**トピックの最終更新日:** 2011-02-22_</span><span class="sxs-lookup"><span data-stu-id="4dcbf-103">_**Topic Last Modified:** 2011-02-22_</span></span>
 
-<span data-ttu-id="9bc05-p101">このドキュメントは "現状のまま" 提供されます。このドキュメントに記載されている情報およびビュー (URL 等のインターネット Web サイトに関する情報を含む) は、将来予告なしに変更されることがあります。</span><span class="sxs-lookup"><span data-stu-id="9bc05-p101">This document is provided “as-is”. Information and views expressed in this document, including URL and other Internet Web site references, may change without notice.</span></span>
+<span data-ttu-id="4dcbf-p101">このドキュメントは "現状のまま" 提供されます。このドキュメントに記載されている情報およびビュー (URL 等のインターネット Web サイトに関する情報を含む) は、将来予告なしに変更されることがあります。</span><span class="sxs-lookup"><span data-stu-id="4dcbf-p101">This document is provided “as-is”. Information and views expressed in this document, including URL and other Internet Web site references, may change without notice.</span></span>
 
-<span data-ttu-id="9bc05-p102">このドキュメントで使用しているサンプルは例示のみを目的として提供されており、名称などは架空のものです。実在する商品名、団体名、個人名などとは一切関係ありません。</span><span class="sxs-lookup"><span data-stu-id="9bc05-p102">Some examples depicted herein are provided for illustration only and are fictitious. No real association or connection is intended or should be inferred.</span></span>
+<span data-ttu-id="4dcbf-p102">このドキュメントで使用しているサンプルは例示のみを目的として提供されており、名称などは架空のものです。実在する商品名、団体名、個人名などとは一切関係ありません。</span><span class="sxs-lookup"><span data-stu-id="4dcbf-p102">Some examples depicted herein are provided for illustration only and are fictitious. No real association or connection is intended or should be inferred.</span></span>
 
-<span data-ttu-id="9bc05-p103">このドキュメントは、読者にマイクロソフト製品の知的財産に対する法的権利を付与するものではありません。お客様による内部的な参照目的での、このドキュメントのコピーおよび使用は許可されます。</span><span class="sxs-lookup"><span data-stu-id="9bc05-p103">This document does not provide you with any legal rights to any intellectual property in any Microsoft product. You may copy and use this document for your internal, reference purposes.</span></span>
+<span data-ttu-id="4dcbf-p103">このドキュメントは、読者にマイクロソフト製品の知的財産に対する法的権利を付与するものではありません。お客様による内部的な参照目的での、このドキュメントのコピーおよび使用は許可されます。</span><span class="sxs-lookup"><span data-stu-id="4dcbf-p103">This document does not provide you with any legal rights to any intellectual property in any Microsoft product. You may copy and use this document for your internal, reference purposes.</span></span>
 
-<span data-ttu-id="9bc05-110">Copyright © 2013 Microsoft Corporation。</span><span class="sxs-lookup"><span data-stu-id="9bc05-110">Copyright © 2013 Microsoft Corporation.</span></span> <span data-ttu-id="9bc05-111">All rights reserved.</span><span class="sxs-lookup"><span data-stu-id="9bc05-111">All rights reserved.</span></span>
+<span data-ttu-id="4dcbf-110">Copyright © 2013 Microsoft Corporation。</span><span class="sxs-lookup"><span data-stu-id="4dcbf-110">Copyright © 2013 Microsoft Corporation.</span></span> <span data-ttu-id="4dcbf-111">All rights reserved.</span><span class="sxs-lookup"><span data-stu-id="4dcbf-111">All rights reserved.</span></span>
 
 </div>
 
