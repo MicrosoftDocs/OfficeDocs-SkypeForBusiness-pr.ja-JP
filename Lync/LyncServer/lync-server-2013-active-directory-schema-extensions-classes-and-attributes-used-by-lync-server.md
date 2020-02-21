@@ -12,20 +12,20 @@ ms:contentKeyID: 48184188
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e393c5c65e77f22763380563e61c30bcdb69b23a
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 7ed67522a2f47466bbf01efdd3a548c3e3637321
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42145055"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42191640"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="active-directory-schema-extensions-classes-and-attributes-used-by-lync-server-2013"></a><span data-ttu-id="c1181-102">Lync Server 2013 で使用される Active Directory スキーマの拡張、クラス、属性</span><span class="sxs-lookup"><span data-stu-id="c1181-102">Active Directory schema extensions, classes, and attributes used by Lync Server 2013</span></span>
+# <a name="active-directory-schema-extensions-classes-and-attributes-used-by-lync-server-2013"></a><span data-ttu-id="355c9-102">Lync Server 2013 で使用される Active Directory スキーマの拡張、クラス、属性</span><span class="sxs-lookup"><span data-stu-id="355c9-102">Active Directory schema extensions, classes, and attributes used by Lync Server 2013</span></span>
 
 </div>
 
@@ -35,47 +35,47 @@ ms.locfileid: "42145055"
 
 <span> </span>
 
-<span data-ttu-id="c1181-103">_**トピックの最終更新日:** 2012-06-19_</span><span class="sxs-lookup"><span data-stu-id="c1181-103">_**Topic Last Modified:** 2012-06-19_</span></span>
+<span data-ttu-id="355c9-103">_**トピックの最終更新日:** 2012-06-19_</span><span class="sxs-lookup"><span data-stu-id="355c9-103">_**Topic Last Modified:** 2012-06-19_</span></span>
 
-<span data-ttu-id="c1181-104">このリファレンス セクションの内容は、次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="c1181-104">This reference section includes the following information:</span></span>
+<span data-ttu-id="355c9-104">このリファレンス セクションの内容は、次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="355c9-104">This reference section includes the following information:</span></span>
 
-  - <span data-ttu-id="c1181-105">Lync Server 2013 の新しいまたは変更された Active Directory スキーマ拡張機能</span><span class="sxs-lookup"><span data-stu-id="c1181-105">Active Directory schema extensions that are new or changed for Lync Server 2013</span></span>
+  - <span data-ttu-id="355c9-105">Lync Server 2013 の新しいまたは変更された Active Directory スキーマ拡張機能</span><span class="sxs-lookup"><span data-stu-id="355c9-105">Active Directory schema extensions that are new or changed for Lync Server 2013</span></span>
     
-    <span data-ttu-id="c1181-106">Active directory のスキーマには、Active Directory フォレストで作成できるすべてのオブジェクトクラスの正式な定義が含まれています。</span><span class="sxs-lookup"><span data-stu-id="c1181-106">The Active Directory schema contains formal definitions of every object class that can be created in an Active Directory forest.</span></span> <span data-ttu-id="c1181-107">このスキーマには、Active Directory オブジェクトに存在するすべての属性の正式な定義も含まれています。</span><span class="sxs-lookup"><span data-stu-id="c1181-107">The schema also contains formal definitions of every attribute that can exist on an Active Directory object.</span></span> <span data-ttu-id="c1181-108">Active Directory のグローバルカタログには、フォレストのすべてのオブジェクトのレプリカと、各オブジェクトの属性のサブセットが含まれています。</span><span class="sxs-lookup"><span data-stu-id="c1181-108">The Active Directory global catalog contains replicas of all the objects for the forest, along with a subset of the attributes for each object.</span></span> <span data-ttu-id="c1181-109">このセクションでは、Lync Server 2013 で新規または変更されたクラスと属性について説明します。</span><span class="sxs-lookup"><span data-stu-id="c1181-109">This section describes the classes and attributes that are new or changed in Lync Server 2013.</span></span>
+    <span data-ttu-id="355c9-106">Active directory のスキーマには、Active Directory フォレストで作成できるすべてのオブジェクトクラスの正式な定義が含まれています。</span><span class="sxs-lookup"><span data-stu-id="355c9-106">The Active Directory schema contains formal definitions of every object class that can be created in an Active Directory forest.</span></span> <span data-ttu-id="355c9-107">このスキーマには、Active Directory オブジェクトに存在するすべての属性の正式な定義も含まれています。</span><span class="sxs-lookup"><span data-stu-id="355c9-107">The schema also contains formal definitions of every attribute that can exist on an Active Directory object.</span></span> <span data-ttu-id="355c9-108">Active Directory のグローバルカタログには、フォレストのすべてのオブジェクトのレプリカと、各オブジェクトの属性のサブセットが含まれています。</span><span class="sxs-lookup"><span data-stu-id="355c9-108">The Active Directory global catalog contains replicas of all the objects for the forest, along with a subset of the attributes for each object.</span></span> <span data-ttu-id="355c9-109">このセクションでは、Lync Server 2013 で新規または変更されたクラスと属性について説明します。</span><span class="sxs-lookup"><span data-stu-id="355c9-109">This section describes the classes and attributes that are new or changed in Lync Server 2013.</span></span>
 
-  - <span data-ttu-id="c1181-110">Lync Server で使用されるすべてのクラスと、それぞれについて説明します。</span><span class="sxs-lookup"><span data-stu-id="c1181-110">All the classes used by Lync Server, with a description of each</span></span>
+  - <span data-ttu-id="355c9-110">Lync Server で使用されるすべてのクラスと、それぞれについて説明します。</span><span class="sxs-lookup"><span data-stu-id="355c9-110">All the classes used by Lync Server, with a description of each</span></span>
 
-  - <span data-ttu-id="c1181-111">Lync Server で使用されるすべての属性と、それぞれの説明</span><span class="sxs-lookup"><span data-stu-id="c1181-111">All the attributes used by Lync Server, with a description of each</span></span>
+  - <span data-ttu-id="355c9-111">Lync Server で使用されるすべての属性と、それぞれの説明</span><span class="sxs-lookup"><span data-stu-id="355c9-111">All the attributes used by Lync Server, with a description of each</span></span>
 
-  - <span data-ttu-id="c1181-112">Lync Server で使用されるクラスの一覧。それぞれに含まれる可能性のある属性</span><span class="sxs-lookup"><span data-stu-id="c1181-112">A list of the classes used by Lync Server, with the attributes each may contain</span></span>
+  - <span data-ttu-id="355c9-112">Lync Server で使用されるクラスの一覧。それぞれに含まれる可能性のある属性</span><span class="sxs-lookup"><span data-stu-id="355c9-112">A list of the classes used by Lync Server, with the attributes each may contain</span></span>
 
-  - <span data-ttu-id="c1181-113">グローバル設定とオブジェクト、およびフォレストの準備中に作成されたユニバーサル サービス グループとユニバーサル管理グループ</span><span class="sxs-lookup"><span data-stu-id="c1181-113">Global settings and objects, in addition to the universal service and administration groups that are created during forest preparation</span></span>
+  - <span data-ttu-id="355c9-113">グローバル設定とオブジェクト、およびフォレストの準備中に作成されたユニバーサル サービス グループとユニバーサル管理グループ</span><span class="sxs-lookup"><span data-stu-id="355c9-113">Global settings and objects, in addition to the universal service and administration groups that are created during forest preparation</span></span>
 
-  - <span data-ttu-id="c1181-114">ドメインの準備中にドメイン ルートおよび組み込みコンテナーに作成されたアクセス制御エントリ (ACE)</span><span class="sxs-lookup"><span data-stu-id="c1181-114">Access control entries (ACEs) that are created on the domain root and built-in containers during domain preparation</span></span>
+  - <span data-ttu-id="355c9-114">ドメインの準備中にドメイン ルートおよび組み込みコンテナーに作成されたアクセス制御エントリ (ACE)</span><span class="sxs-lookup"><span data-stu-id="355c9-114">Access control entries (ACEs) that are created on the domain root and built-in containers during domain preparation</span></span>
 
-  - <span data-ttu-id="c1181-115">Active Directory の組織単位 (OU) に対して、cssetuppermission コマンド\_レットの付与によって加えられた変更。</span><span class="sxs-lookup"><span data-stu-id="c1181-115">Changes that are made on an Active Directory organizational unit (OU) by the Grant\_CsSetupPermission cmdlet.</span></span>
+  - <span data-ttu-id="355c9-115">Active Directory の組織単位 (OU) に対して、cssetuppermission コマンド\_レットの付与によって加えられた変更。</span><span class="sxs-lookup"><span data-stu-id="355c9-115">Changes that are made on an Active Directory organizational unit (OU) by the Grant\_CsSetupPermission cmdlet.</span></span>
 
-  - <span data-ttu-id="c1181-116">Active Directory OU に対して、csoupermission コマンドレット\_の付与によって加えられた変更。</span><span class="sxs-lookup"><span data-stu-id="c1181-116">Changes that are made on an Active Directory OU by the Grant\_CsOUPermission cmdlet.</span></span>
+  - <span data-ttu-id="355c9-116">Active Directory OU に対して、csoupermission コマンドレット\_の付与によって加えられた変更。</span><span class="sxs-lookup"><span data-stu-id="355c9-116">Changes that are made on an Active Directory OU by the Grant\_CsOUPermission cmdlet.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="c1181-117">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="c1181-117">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="355c9-117">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="355c9-117">In This Section</span></span>
 
-  - [<span data-ttu-id="c1181-118">Lync Server 2013 でのスキーマの変更</span><span class="sxs-lookup"><span data-stu-id="c1181-118">Schema changes in Lync Server 2013</span></span>](lync-server-2013-schema-changes-in-lync-server-2013.md)
+  - [<span data-ttu-id="355c9-118">Lync Server 2013 でのスキーマの変更</span><span class="sxs-lookup"><span data-stu-id="355c9-118">Schema changes in Lync Server 2013</span></span>](lync-server-2013-schema-changes-in-lync-server-2013.md)
 
-  - [<span data-ttu-id="c1181-119">Lync Server 2013 のスキーマクラスと説明</span><span class="sxs-lookup"><span data-stu-id="c1181-119">Schema classes and descriptions in Lync Server 2013</span></span>](lync-server-2013-schema-classes-and-descriptions.md)
+  - [<span data-ttu-id="355c9-119">Lync Server 2013 のスキーマクラスと説明</span><span class="sxs-lookup"><span data-stu-id="355c9-119">Schema classes and descriptions in Lync Server 2013</span></span>](lync-server-2013-schema-classes-and-descriptions.md)
 
-  - [<span data-ttu-id="c1181-120">Lync Server 2013 のスキーマの属性と説明</span><span class="sxs-lookup"><span data-stu-id="c1181-120">Schema attributes and descriptions in Lync Server 2013</span></span>](lync-server-2013-schema-attributes-and-descriptions.md)
+  - [<span data-ttu-id="355c9-120">Lync Server 2013 のスキーマの属性と説明</span><span class="sxs-lookup"><span data-stu-id="355c9-120">Schema attributes and descriptions in Lync Server 2013</span></span>](lync-server-2013-schema-attributes-and-descriptions.md)
 
-  - [<span data-ttu-id="c1181-121">Lync Server 2013 のクラスごとのスキーマの属性</span><span class="sxs-lookup"><span data-stu-id="c1181-121">Schema attributes by class in Lync Server 2013</span></span>](lync-server-2013-schema-attributes-by-class.md)
+  - [<span data-ttu-id="355c9-121">Lync Server 2013 のクラスごとのスキーマの属性</span><span class="sxs-lookup"><span data-stu-id="355c9-121">Schema attributes by class in Lync Server 2013</span></span>](lync-server-2013-schema-attributes-by-class.md)
 
-  - [<span data-ttu-id="c1181-122">Lync Server 2013 でのフォレストの準備によって加えられた変更</span><span class="sxs-lookup"><span data-stu-id="c1181-122">Changes made by forest preparation in Lync Server 2013</span></span>](lync-server-2013-changes-made-by-forest-preparation.md)
+  - [<span data-ttu-id="355c9-122">Lync Server 2013 でのフォレストの準備によって加えられた変更</span><span class="sxs-lookup"><span data-stu-id="355c9-122">Changes made by forest preparation in Lync Server 2013</span></span>](lync-server-2013-changes-made-by-forest-preparation.md)
 
-  - [<span data-ttu-id="c1181-123">Lync Server 2013 のドメインの準備によって加えられた変更</span><span class="sxs-lookup"><span data-stu-id="c1181-123">Changes made by domain preparation in Lync Server 2013</span></span>](lync-server-2013-changes-made-by-domain-preparation.md)
+  - [<span data-ttu-id="355c9-123">Lync Server 2013 のドメインの準備によって加えられた変更</span><span class="sxs-lookup"><span data-stu-id="355c9-123">Changes made by domain preparation in Lync Server 2013</span></span>](lync-server-2013-changes-made-by-domain-preparation.md)
 
-  - [<span data-ttu-id="c1181-124">Lync Server 2013 で付与-CsSetupPermission によって加えられた変更</span><span class="sxs-lookup"><span data-stu-id="c1181-124">Changes made by Grant-CsSetupPermission in Lync Server 2013</span></span>](lync-server-2013-changes-made-by-https://docs.microsoft.com/powershell/module/skype/Grant-CsSetupPermission)
+  - [<span data-ttu-id="355c9-124">Lync Server 2013 で付与-CsSetupPermission によって加えられた変更</span><span class="sxs-lookup"><span data-stu-id="355c9-124">Changes made by Grant-CsSetupPermission in Lync Server 2013</span></span>](lync-server-2013-changes-made-by-https://docs.microsoft.com/powershell/module/skype/Grant-CsSetupPermission)
 
-  - [<span data-ttu-id="c1181-125">Lync Server 2013 での付与-CsOUPermission による変更</span><span class="sxs-lookup"><span data-stu-id="c1181-125">Changes made by Grant-CsOUPermission in Lync Server 2013</span></span>](lync-server-2013-changes-made-by-https://docs.microsoft.com/powershell/module/skype/Grant-CsOUPermission)
+  - [<span data-ttu-id="355c9-125">Lync Server 2013 での付与-CsOUPermission による変更</span><span class="sxs-lookup"><span data-stu-id="355c9-125">Changes made by Grant-CsOUPermission in Lync Server 2013</span></span>](lync-server-2013-changes-made-by-https://docs.microsoft.com/powershell/module/skype/Grant-CsOUPermission)
 
 </div>
 

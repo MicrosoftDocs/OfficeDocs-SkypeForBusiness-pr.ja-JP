@@ -12,20 +12,20 @@ ms:contentKeyID: 48184067
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 96fa02c95a3b6bf149c5b3eb5e893ad62dc45dbb
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 8d30f40ac449f4643219fd64abc1da4f20914495
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42124800"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42192390"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-cswebserviceconfiguration-for-address-book-management-in-lync-server-2013"></a><span data-ttu-id="690d0-102">Set-cswebserviceconfiguration Lync Server 2013 でのアドレス帳管理のための新しい手順</span><span class="sxs-lookup"><span data-stu-id="690d0-102">New-CsWebServiceConfiguration for Address Book management in Lync Server 2013</span></span>
+# <a name="new-cswebserviceconfiguration-for-address-book-management-in-lync-server-2013"></a><span data-ttu-id="32d92-102">Set-cswebserviceconfiguration Lync Server 2013 でのアドレス帳管理のための新しい手順</span><span class="sxs-lookup"><span data-stu-id="32d92-102">New-CsWebServiceConfiguration for Address Book management in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,24 +35,24 @@ ms.locfileid: "42124800"
 
 <span> </span>
 
-<span data-ttu-id="690d0-103">_**トピックの最終更新日:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="690d0-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="32d92-103">_**トピックの最終更新日:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="32d92-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="690d0-p101">このコマンドレットを実行できる人は次のとおりです。 既定では、次のグループのメンバーが New-CsWebServiceConfiguration コマンドレットをローカルで実行することを承認されています。 RTCUniversalServerAdmins。 このコマンドレットが割り当てられているすべての役割ベースのアクセス制御 (RBAC) の役割の一覧 (自身が作成したカスタムの RBAC の役割を含む) を戻すには、Windows PowerShell プロンプトから次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="690d0-p101">Who can run this cmdlet: By default, members of the following groups are authorized to run the New-CsWebServiceConfiguration cmdlet locally: RTCUniversalServerAdmins. To return a list of all the role-based access control (RBAC) roles this cmdlet has been assigned to (including any custom RBAC roles you have created yourself), run the following command from the Windows PowerShell prompt:</span></span>
+<span data-ttu-id="32d92-p101">このコマンドレットを実行できる人は次のとおりです。 既定では、次のグループのメンバーが New-CsWebServiceConfiguration コマンドレットをローカルで実行することを承認されています。 RTCUniversalServerAdmins。 このコマンドレットが割り当てられているすべての役割ベースのアクセス制御 (RBAC) の役割の一覧 (自身が作成したカスタムの RBAC の役割を含む) を戻すには、Windows PowerShell プロンプトから次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="32d92-p101">Who can run this cmdlet: By default, members of the following groups are authorized to run the New-CsWebServiceConfiguration cmdlet locally: RTCUniversalServerAdmins. To return a list of all the role-based access control (RBAC) roles this cmdlet has been assigned to (including any custom RBAC roles you have created yourself), run the following command from the Windows PowerShell prompt:</span></span>
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "New-CsWebServiceConfiguration"}
 
-<span data-ttu-id="690d0-p102">コマンドレット New-CsWebServiceConfiguration は、組織内の Web サービスの新しい構成を定義します。 Web サービス構成のスコープは、サイトまたはサービスのレベルのみです。 グローバル レベルで新しい Web サービス構成を作成することはできません。 アドレス帳で特に注目すべきなのは EnableGroupExansion 属性です。 これが True に設定されていると、Web サービスがグループ拡張の要求に応答できます。</span><span class="sxs-lookup"><span data-stu-id="690d0-p102">The cmdlet New-CsWebServiceConfiguration defines a new configuration for Web Services in your organization. The scope for the Web Services configuration can only be at the site or service level. It cannot create a new Web Services configuration at the global level. Specifically of interest to the Address Book is the EnableGroupExansion attribute. If set to True, the Web Services can respond to requests for group expansion.</span></span>
+<span data-ttu-id="32d92-p102">コマンドレット New-CsWebServiceConfiguration は、組織内の Web サービスの新しい構成を定義します。 Web サービス構成のスコープは、サイトまたはサービスのレベルのみです。 グローバル レベルで新しい Web サービス構成を作成することはできません。 アドレス帳で特に注目すべきなのは EnableGroupExansion 属性です。 これが True に設定されていると、Web サービスがグループ拡張の要求に応答できます。</span><span class="sxs-lookup"><span data-stu-id="32d92-p102">The cmdlet New-CsWebServiceConfiguration defines a new configuration for Web Services in your organization. The scope for the Web Services configuration can only be at the site or service level. It cannot create a new Web Services configuration at the global level. Specifically of interest to the Address Book is the EnableGroupExansion attribute. If set to True, the Web Services can respond to requests for group expansion.</span></span>
 
-<span data-ttu-id="690d0-111">次にその例を示します。</span><span class="sxs-lookup"><span data-stu-id="690d0-111">For example:</span></span>
+<span data-ttu-id="32d92-111">次にその例を示します。</span><span class="sxs-lookup"><span data-stu-id="32d92-111">For example:</span></span>
 
     New-CsWebServiceConfiguration -Identity site:Redmond -EnableGroupExpansion $False -UseCertificateAuth $True
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="690d0-112">関連項目</span><span class="sxs-lookup"><span data-stu-id="690d0-112">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="32d92-112">関連項目</span><span class="sxs-lookup"><span data-stu-id="32d92-112">See Also</span></span>
 
 
-[<span data-ttu-id="690d0-113">Set-cswebserviceconfiguration</span><span class="sxs-lookup"><span data-stu-id="690d0-113">New-CsWebServiceConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsWebServiceConfiguration)  
+[<span data-ttu-id="32d92-113">Set-cswebserviceconfiguration</span><span class="sxs-lookup"><span data-stu-id="32d92-113">New-CsWebServiceConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsWebServiceConfiguration)  
   
 
 </div>

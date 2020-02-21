@@ -12,20 +12,20 @@ ms:contentKeyID: 48184985
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cb0e7a605d7859cf9eb53e72ad0bdf7273b0d8c7
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: fb84f12b96d87ef82125f762af4ef52719b0417c
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42125430"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42192440"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-csaddressbookconfiguration-for-address-book-management-in-lync-server-2013"></a><span data-ttu-id="5a7c4-102">Lync Server 2013 でのアドレス帳管理用の新しい-CsAddressBookConfiguration</span><span class="sxs-lookup"><span data-stu-id="5a7c4-102">New-CsAddressBookConfiguration for Address Book management in Lync Server 2013</span></span>
+# <a name="new-csaddressbookconfiguration-for-address-book-management-in-lync-server-2013"></a><span data-ttu-id="3d1ec-102">Lync Server 2013 でのアドレス帳管理用の新しい-CsAddressBookConfiguration</span><span class="sxs-lookup"><span data-stu-id="3d1ec-102">New-CsAddressBookConfiguration for Address Book management in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,24 +35,24 @@ ms.locfileid: "42125430"
 
 <span> </span>
 
-<span data-ttu-id="5a7c4-103">_**トピックの最終更新日:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="5a7c4-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="3d1ec-103">_**トピックの最終更新日:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="3d1ec-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="5a7c4-p101">このコマンドレットを実行できる人は次のとおりです。 既定では、次のグループのメンバーが New-CsAddressBookConfiguration コマンドレットをローカルで実行することを承認されています。 RTCUniversalServerAdmins。 このコマンドレットが割り当てられているすべての役割ベースのアクセス制御 (RBAC) の役割の一覧 (自身が作成したカスタムの RBAC の役割を含む) を戻すには、Windows PowerShell プロンプトから次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="5a7c4-p101">Who can run this cmdlet: By default, members of the following groups are authorized to run the New-CsAddressBookConfiguration cmdlet locally: RTCUniversalServerAdmins. To return a list of all the role-based access control (RBAC) roles this cmdlet has been assigned to (including any custom RBAC roles you have created yourself), run the following command from the Windows PowerShell prompt:</span></span>
+<span data-ttu-id="3d1ec-p101">このコマンドレットを実行できる人は次のとおりです。 既定では、次のグループのメンバーが New-CsAddressBookConfiguration コマンドレットをローカルで実行することを承認されています。 RTCUniversalServerAdmins。 このコマンドレットが割り当てられているすべての役割ベースのアクセス制御 (RBAC) の役割の一覧 (自身が作成したカスタムの RBAC の役割を含む) を戻すには、Windows PowerShell プロンプトから次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="3d1ec-p101">Who can run this cmdlet: By default, members of the following groups are authorized to run the New-CsAddressBookConfiguration cmdlet locally: RTCUniversalServerAdmins. To return a list of all the role-based access control (RBAC) roles this cmdlet has been assigned to (including any custom RBAC roles you have created yourself), run the following command from the Windows PowerShell prompt:</span></span>
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "New-CsAddressBookConfiguration"}
 
-<span data-ttu-id="5a7c4-p102">New-CsAddressBookConfiguration コマンドレットは、アドレス帳の動作を管理する新しい構成を作成します。 アドレス帳サービスによるクライアント ダウンロード ファイルの作成の有無、正規化ルールの使用方法と使用の有無、差分ファイルと圧縮差分ファイルの保持期間、新しい完全なファイルを作成する前の圧縮ファイル サイズ、完全なファイルのアドレス帳の作成時刻、ユーザー データベース情報の同期間隔は、このコマンドレットでのみ定義できます。</span><span class="sxs-lookup"><span data-stu-id="5a7c4-p102">The New-CsAddressBookConfiguration cmdlet creates a new configuration to manage the behavior of the Address book. Specific to this cmdlet is the ability to define if the Address Book Service creates the client download files, how and if normalization rules are used, how long to retain delta and compact delta files, delta file size before incorporating a new full file creation, what time of day the full file Address Book is created, and what the internal should be for synchronization of information in the User database.</span></span>
+<span data-ttu-id="3d1ec-p102">New-CsAddressBookConfiguration コマンドレットは、アドレス帳の動作を管理する新しい構成を作成します。 アドレス帳サービスによるクライアント ダウンロード ファイルの作成の有無、正規化ルールの使用方法と使用の有無、差分ファイルと圧縮差分ファイルの保持期間、新しい完全なファイルを作成する前の圧縮ファイル サイズ、完全なファイルのアドレス帳の作成時刻、ユーザー データベース情報の同期間隔は、このコマンドレットでのみ定義できます。</span><span class="sxs-lookup"><span data-stu-id="3d1ec-p102">The New-CsAddressBookConfiguration cmdlet creates a new configuration to manage the behavior of the Address book. Specific to this cmdlet is the ability to define if the Address Book Service creates the client download files, how and if normalization rules are used, how long to retain delta and compact delta files, delta file size before incorporating a new full file creation, what time of day the full file Address Book is created, and what the internal should be for synchronization of information in the User database.</span></span>
 
-<span data-ttu-id="5a7c4-108">次にその例を示します。</span><span class="sxs-lookup"><span data-stu-id="5a7c4-108">For example:</span></span>
+<span data-ttu-id="3d1ec-108">次にその例を示します。</span><span class="sxs-lookup"><span data-stu-id="3d1ec-108">For example:</span></span>
 
     New-CsAddressBookConfiguration -Identity site:Redmond -KeepDuration 15 -SynchronizePollingInterval 00:10:00
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="5a7c4-109">関連項目</span><span class="sxs-lookup"><span data-stu-id="5a7c4-109">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3d1ec-109">関連項目</span><span class="sxs-lookup"><span data-stu-id="3d1ec-109">See Also</span></span>
 
 
-[<span data-ttu-id="5a7c4-110">新しい-CsAddressBookConfiguration</span><span class="sxs-lookup"><span data-stu-id="5a7c4-110">New-CsAddressBookConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsAddressBookConfiguration)  
+[<span data-ttu-id="3d1ec-110">新しい-CsAddressBookConfiguration</span><span class="sxs-lookup"><span data-stu-id="3d1ec-110">New-CsAddressBookConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsAddressBookConfiguration)  
   
 
 </div>

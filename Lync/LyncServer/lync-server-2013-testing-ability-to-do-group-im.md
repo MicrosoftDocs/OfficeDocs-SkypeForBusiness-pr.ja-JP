@@ -12,20 +12,20 @@ ms:contentKeyID: 63969652
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ecb197f7ce8acbd4639be9ee20b93e6008922f3c
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: eef76c8728a7b5a569efee9305505f4e19f6bceb
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42141523"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42194320"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-ability-to-do-group-im-in-lync-server-2013"></a><span data-ttu-id="2985a-102">Lync Server 2013 でグループ IM を実行するためのテスト機能</span><span class="sxs-lookup"><span data-stu-id="2985a-102">Testing ability to do group IM in Lync Server 2013</span></span>
+# <a name="testing-ability-to-do-group-im-in-lync-server-2013"></a><span data-ttu-id="df23f-102">Lync Server 2013 でグループ IM を実行するためのテスト機能</span><span class="sxs-lookup"><span data-stu-id="df23f-102">Testing ability to do group IM in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "42141523"
 
 <span> </span>
 
-<span data-ttu-id="2985a-103">_**トピックの最終更新日:** 2014-06-05_</span><span class="sxs-lookup"><span data-stu-id="2985a-103">_**Topic Last Modified:** 2014-06-05_</span></span>
+<span data-ttu-id="df23f-103">_**トピックの最終更新日:** 2014-06-05_</span><span class="sxs-lookup"><span data-stu-id="df23f-103">_**Topic Last Modified:** 2014-06-05_</span></span>
 
 
 <table>
@@ -45,17 +45,17 @@ ms.locfileid: "42141523"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="2985a-104">検証スケジュール</span><span class="sxs-lookup"><span data-stu-id="2985a-104">Verification schedule</span></span></p></td>
-<td><p><span data-ttu-id="2985a-105">毎日</span><span class="sxs-lookup"><span data-stu-id="2985a-105">Daily</span></span></p></td>
+<td><p><span data-ttu-id="df23f-104">検証スケジュール</span><span class="sxs-lookup"><span data-stu-id="df23f-104">Verification schedule</span></span></p></td>
+<td><p><span data-ttu-id="df23f-105">毎日</span><span class="sxs-lookup"><span data-stu-id="df23f-105">Daily</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2985a-106">テストツール</span><span class="sxs-lookup"><span data-stu-id="2985a-106">Testing tool</span></span></p></td>
-<td><p><span data-ttu-id="2985a-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="2985a-107">Windows PowerShell</span></span></p></td>
+<td><p><span data-ttu-id="df23f-106">テストツール</span><span class="sxs-lookup"><span data-stu-id="df23f-106">Testing tool</span></span></p></td>
+<td><p><span data-ttu-id="df23f-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="df23f-107">Windows PowerShell</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2985a-108">必要なアクセス許可</span><span class="sxs-lookup"><span data-stu-id="2985a-108">Permissions required</span></span></p></td>
-<td><p><span data-ttu-id="2985a-109">Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</span><span class="sxs-lookup"><span data-stu-id="2985a-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
-<p><span data-ttu-id="2985a-110">Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには、Test-CsGroupIM コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。</span><span class="sxs-lookup"><span data-stu-id="2985a-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsGroupIM cmdlet.</span></span> <span data-ttu-id="2985a-111">このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="2985a-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
+<td><p><span data-ttu-id="df23f-108">必要なアクセス許可</span><span class="sxs-lookup"><span data-stu-id="df23f-108">Permissions required</span></span></p></td>
+<td><p><span data-ttu-id="df23f-109">Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</span><span class="sxs-lookup"><span data-stu-id="df23f-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
+<p><span data-ttu-id="df23f-110">Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには、Test-CsGroupIM コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。</span><span class="sxs-lookup"><span data-stu-id="df23f-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsGroupIM cmdlet.</span></span> <span data-ttu-id="df23f-111">このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="df23f-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsGroupIM&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -64,121 +64,121 @@ ms.locfileid: "42141523"
 
 <div>
 
-## <a name="description"></a><span data-ttu-id="2985a-112">説明</span><span class="sxs-lookup"><span data-stu-id="2985a-112">Description</span></span>
+## <a name="description"></a><span data-ttu-id="df23f-112">説明</span><span class="sxs-lookup"><span data-stu-id="df23f-112">Description</span></span>
 
-<span data-ttu-id="2985a-113">Test-CsGroupIM コマンドレットは、組織内のユーザーがグループのインスタントメッセージングセッションを実行できるかどうかを確認します。</span><span class="sxs-lookup"><span data-stu-id="2985a-113">The Test-CsGroupIM cmdlet verifies that users in your organization can conduct group instant messaging sessions.</span></span> <span data-ttu-id="2985a-114">Test-CsGroupIM を実行すると、コマンドレットはテストユーザーのペアを Lync Server にサインインしようとします。</span><span class="sxs-lookup"><span data-stu-id="2985a-114">When you run Test-CsGroupIM, the cmdlet attempts to sign in a pair of test users to Lync Server.</span></span> <span data-ttu-id="2985a-115">成功すると、Test-CsGroupIM は、最初のテスト ユーザーを使用して新しい会議を作成し、2 番目のユーザーを会議に招待します。</span><span class="sxs-lookup"><span data-stu-id="2985a-115">If successful, Test-CsGroupIM creates a new conference using the first test user, then invites the second user to join the conference.</span></span> <span data-ttu-id="2985a-116">メッセージの交換後、両方のユーザーはシステムから切断されます。</span><span class="sxs-lookup"><span data-stu-id="2985a-116">After an exchange of messages, both users are then disconnected from the system.</span></span> <span data-ttu-id="2985a-117">すべてのユーザーが操作を行わなくても、実際のユーザーに影響を与えることなく、すべてが行われることに注意してください。</span><span class="sxs-lookup"><span data-stu-id="2985a-117">Note that all of this happens without any user interaction, and without affecting any actual users.</span></span> <span data-ttu-id="2985a-118">たとえば、テストアカウント sip:kenmyer@litwareinc.com が実際の Lync Server アカウントを持つ実際のユーザーに対応しているとします。</span><span class="sxs-lookup"><span data-stu-id="2985a-118">For example, suppose that the test account sip:kenmyer@litwareinc.com corresponds to a real user who has a real Lync Server account.</span></span> <span data-ttu-id="2985a-119">この場合、テストは、実際の Ken Myer の業務を中断することなく実行されます。</span><span class="sxs-lookup"><span data-stu-id="2985a-119">In that case, the test will be conducted without any disruption to the real Ken Myer.</span></span> <span data-ttu-id="2985a-120">たとえば、Ken Myer のテスト アカウントがシステムからログオフした場合でも、Ken Myer 本人はログオン状態が保持されます。</span><span class="sxs-lookup"><span data-stu-id="2985a-120">For example, even when the Ken Myer test account logs off from the system, Ken Myer the person will remain logged on.</span></span> <span data-ttu-id="2985a-121">同様に、実際の Ken Myer は会議に参加するための招待を受信しません。</span><span class="sxs-lookup"><span data-stu-id="2985a-121">Likewise, the real Ken Myer won't receive an invitation to join the conference.</span></span> <span data-ttu-id="2985a-122">その招待は、テスト アカウントに対して送信されて、テスト アカウントによって承諾されます。</span><span class="sxs-lookup"><span data-stu-id="2985a-122">That invitation will be sent to, and accepted by, the test account.</span></span>
+<span data-ttu-id="df23f-113">Test-CsGroupIM コマンドレットは、組織内のユーザーがグループのインスタントメッセージングセッションを実行できるかどうかを確認します。</span><span class="sxs-lookup"><span data-stu-id="df23f-113">The Test-CsGroupIM cmdlet verifies that users in your organization can conduct group instant messaging sessions.</span></span> <span data-ttu-id="df23f-114">Test-CsGroupIM を実行すると、コマンドレットはテストユーザーのペアを Lync Server にサインインしようとします。</span><span class="sxs-lookup"><span data-stu-id="df23f-114">When you run Test-CsGroupIM, the cmdlet attempts to sign in a pair of test users to Lync Server.</span></span> <span data-ttu-id="df23f-115">成功すると、Test-CsGroupIM は、最初のテスト ユーザーを使用して新しい会議を作成し、2 番目のユーザーを会議に招待します。</span><span class="sxs-lookup"><span data-stu-id="df23f-115">If successful, Test-CsGroupIM creates a new conference using the first test user, then invites the second user to join the conference.</span></span> <span data-ttu-id="df23f-116">メッセージの交換後、両方のユーザーはシステムから切断されます。</span><span class="sxs-lookup"><span data-stu-id="df23f-116">After an exchange of messages, both users are then disconnected from the system.</span></span> <span data-ttu-id="df23f-117">すべてのユーザーが操作を行わなくても、実際のユーザーに影響を与えることなく、すべてが行われることに注意してください。</span><span class="sxs-lookup"><span data-stu-id="df23f-117">Note that all of this happens without any user interaction, and without affecting any actual users.</span></span> <span data-ttu-id="df23f-118">たとえば、テストアカウント sip:kenmyer@litwareinc.com が実際の Lync Server アカウントを持つ実際のユーザーに対応しているとします。</span><span class="sxs-lookup"><span data-stu-id="df23f-118">For example, suppose that the test account sip:kenmyer@litwareinc.com corresponds to a real user who has a real Lync Server account.</span></span> <span data-ttu-id="df23f-119">この場合、テストは、実際の Ken Myer の業務を中断することなく実行されます。</span><span class="sxs-lookup"><span data-stu-id="df23f-119">In that case, the test will be conducted without any disruption to the real Ken Myer.</span></span> <span data-ttu-id="df23f-120">たとえば、Ken Myer のテスト アカウントがシステムからログオフした場合でも、Ken Myer 本人はログオン状態が保持されます。</span><span class="sxs-lookup"><span data-stu-id="df23f-120">For example, even when the Ken Myer test account logs off from the system, Ken Myer the person will remain logged on.</span></span> <span data-ttu-id="df23f-121">同様に、実際の Ken Myer は会議に参加するための招待を受信しません。</span><span class="sxs-lookup"><span data-stu-id="df23f-121">Likewise, the real Ken Myer won't receive an invitation to join the conference.</span></span> <span data-ttu-id="df23f-122">その招待は、テスト アカウントに対して送信されて、テスト アカウントによって承諾されます。</span><span class="sxs-lookup"><span data-stu-id="df23f-122">That invitation will be sent to, and accepted by, the test account.</span></span>
 
-<span data-ttu-id="2985a-123">詳細については、「 [Test-CsGroupIM](https://docs.microsoft.com/powershell/module/skype/Test-CsGroupIM)コマンドレットのヘルプドキュメント」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="2985a-123">For more information, see the Help documentation for the [Test-CsGroupIM](https://docs.microsoft.com/powershell/module/skype/Test-CsGroupIM) cmdlet.</span></span>
+<span data-ttu-id="df23f-123">詳細については、「 [Test-CsGroupIM](https://docs.microsoft.com/powershell/module/skype/Test-CsGroupIM)コマンドレットのヘルプドキュメント」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="df23f-123">For more information, see the Help documentation for the [Test-CsGroupIM](https://docs.microsoft.com/powershell/module/skype/Test-CsGroupIM) cmdlet.</span></span>
 
 </div>
 
 <div>
 
-## <a name="running-the-test"></a><span data-ttu-id="2985a-124">テストの実行</span><span class="sxs-lookup"><span data-stu-id="2985a-124">Running the test</span></span>
+## <a name="running-the-test"></a><span data-ttu-id="df23f-124">テストの実行</span><span class="sxs-lookup"><span data-stu-id="df23f-124">Running the test</span></span>
 
-<span data-ttu-id="2985a-125">Test-CsGroupIM コマンドレットは、事前に構成されたテストアカウントのペア (「Lync Server テストを実行するためのテストアカウントの設定」を参照)、または Lync Server が有効になっている2人のユーザーのアカウントのいずれかを使用して実行できます。</span><span class="sxs-lookup"><span data-stu-id="2985a-125">The Test-CsGroupIM cmdlet can be run using either a pair of preconfigured test accounts (see Setting Up Test Accounts for Running Lync Server Tests) or the accounts of any two users who are enabled for Lync Server.</span></span> <span data-ttu-id="2985a-126">このチェックをテストアカウントを使用して実行するには、テストする Lync Server プールの FQDN を指定するだけで済みます。</span><span class="sxs-lookup"><span data-stu-id="2985a-126">To run this check using test accounts, you just have to specify the FQDN of the Lync Server pool being tested.</span></span> <span data-ttu-id="2985a-127">次に例を示します。</span><span class="sxs-lookup"><span data-stu-id="2985a-127">For example:</span></span>
+<span data-ttu-id="df23f-125">Test-CsGroupIM コマンドレットは、事前に構成されたテストアカウントのペア (「Lync Server テストを実行するためのテストアカウントの設定」を参照)、または Lync Server が有効になっている2人のユーザーのアカウントのいずれかを使用して実行できます。</span><span class="sxs-lookup"><span data-stu-id="df23f-125">The Test-CsGroupIM cmdlet can be run using either a pair of preconfigured test accounts (see Setting Up Test Accounts for Running Lync Server Tests) or the accounts of any two users who are enabled for Lync Server.</span></span> <span data-ttu-id="df23f-126">このチェックをテストアカウントを使用して実行するには、テストする Lync Server プールの FQDN を指定するだけで済みます。</span><span class="sxs-lookup"><span data-stu-id="df23f-126">To run this check using test accounts, you just have to specify the FQDN of the Lync Server pool being tested.</span></span> <span data-ttu-id="df23f-127">次に例を示します。</span><span class="sxs-lookup"><span data-stu-id="df23f-127">For example:</span></span>
 
     Test-CsGroupIM -TargetFqdn "atl-cs-001.litwareinc.com"
 
-<span data-ttu-id="2985a-128">実際のユーザーアカウントを使用してこのチェックを実行するには、Lync Server 管理シェルの資格情報オブジェクト (アカウント名とパスワードを含むオブジェクト) を、各アカウントに2つ作成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="2985a-128">To run this check using actual user accounts, you must create two Lync Server Management Shell credentials objects (objects that contain the account name and password) for each account.</span></span> <span data-ttu-id="2985a-129">その後、Test-CsGroupIM を呼び出すときに、これらの資格情報オブジェクトと2つのアカウントの SIP アドレスを含める必要があります。</span><span class="sxs-lookup"><span data-stu-id="2985a-129">You must then include those credentials objects and the SIP addresses of the two accounts when you call Test-CsGroupIM:</span></span>
+<span data-ttu-id="df23f-128">実際のユーザーアカウントを使用してこのチェックを実行するには、Lync Server 管理シェルの資格情報オブジェクト (アカウント名とパスワードを含むオブジェクト) を、各アカウントに2つ作成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="df23f-128">To run this check using actual user accounts, you must create two Lync Server Management Shell credentials objects (objects that contain the account name and password) for each account.</span></span> <span data-ttu-id="df23f-129">その後、Test-CsGroupIM を呼び出すときに、これらの資格情報オブジェクトと2つのアカウントの SIP アドレスを含める必要があります。</span><span class="sxs-lookup"><span data-stu-id="df23f-129">You must then include those credentials objects and the SIP addresses of the two accounts when you call Test-CsGroupIM:</span></span>
 
     $credential1 = Get-Credential "litwareinc\kenmyer"
     $credential2 = Get-Credential "litwareinc\davidlongmire"
     Test-CsGroupIm -TargetFqdn "atl-cs-001.litwareinc.com" -SenderSipAddress "sip:kenmyer@litwareinc.com" -SenderCredential $credential1 -ReceiverSipAddress "sip:davidlongmire@litwareinc.com" -ReceiverCredential $credential2
 
-<span data-ttu-id="2985a-130">詳細については、「 [Test-CsGroupIM](https://docs.microsoft.com/powershell/module/skype/Test-CsGroupIM)コマンドレットのヘルプドキュメント」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="2985a-130">For more information, see the Help documentation for the [Test-CsGroupIM](https://docs.microsoft.com/powershell/module/skype/Test-CsGroupIM) cmdlet.</span></span>
+<span data-ttu-id="df23f-130">詳細については、「 [Test-CsGroupIM](https://docs.microsoft.com/powershell/module/skype/Test-CsGroupIM)コマンドレットのヘルプドキュメント」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="df23f-130">For more information, see the Help documentation for the [Test-CsGroupIM](https://docs.microsoft.com/powershell/module/skype/Test-CsGroupIM) cmdlet.</span></span>
 
 </div>
 
 <div>
 
-## <a name="determining-success-or-failure"></a><span data-ttu-id="2985a-131">成功または失敗を判断する</span><span class="sxs-lookup"><span data-stu-id="2985a-131">Determining Success or Failure</span></span>
+## <a name="determining-success-or-failure"></a><span data-ttu-id="df23f-131">成功または失敗を判断する</span><span class="sxs-lookup"><span data-stu-id="df23f-131">Determining Success or Failure</span></span>
 
-<span data-ttu-id="2985a-132">2人のユーザーがグループのインスタントメッセージングセッションを完了できた場合は、次のような出力が得られ、Result プロパティは Success としてマークされ**ます。**</span><span class="sxs-lookup"><span data-stu-id="2985a-132">If the two users can complete a group instant messaging session, you'll receive output similar to this with the Result property marked as **Success:**</span></span>
+<span data-ttu-id="df23f-132">2人のユーザーがグループのインスタントメッセージングセッションを完了できた場合は、次のような出力が得られ、Result プロパティは Success としてマークされ**ます。**</span><span class="sxs-lookup"><span data-stu-id="df23f-132">If the two users can complete a group instant messaging session, you'll receive output similar to this with the Result property marked as **Success:**</span></span>
 
-<span data-ttu-id="2985a-133">TargetFqdn: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="2985a-133">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
+<span data-ttu-id="df23f-133">TargetFqdn: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="df23f-133">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
 
-<span data-ttu-id="2985a-134">結果: 成功</span><span class="sxs-lookup"><span data-stu-id="2985a-134">Result : Success</span></span>
+<span data-ttu-id="df23f-134">結果: 成功</span><span class="sxs-lookup"><span data-stu-id="df23f-134">Result : Success</span></span>
 
-<span data-ttu-id="2985a-135">待機時間:00:00: 06.3812203</span><span class="sxs-lookup"><span data-stu-id="2985a-135">Latency : 00:00:06.3812203</span></span>
+<span data-ttu-id="df23f-135">待機時間:00:00: 06.3812203</span><span class="sxs-lookup"><span data-stu-id="df23f-135">Latency : 00:00:06.3812203</span></span>
 
-<span data-ttu-id="2985a-136">エラー</span><span class="sxs-lookup"><span data-stu-id="2985a-136">Error :</span></span>
+<span data-ttu-id="df23f-136">エラー</span><span class="sxs-lookup"><span data-stu-id="df23f-136">Error :</span></span>
 
-<span data-ttu-id="2985a-137">分析</span><span class="sxs-lookup"><span data-stu-id="2985a-137">Diagnosis :</span></span>
+<span data-ttu-id="df23f-137">分析</span><span class="sxs-lookup"><span data-stu-id="df23f-137">Diagnosis :</span></span>
 
-<span data-ttu-id="2985a-138">2人のユーザーがインスタントメッセージングセッションを完了できない場合、結果は失敗として表示され、エラーと診断のプロパティに追加情報が記録されます。</span><span class="sxs-lookup"><span data-stu-id="2985a-138">If the two users can't able to complete the instant messaging session, then the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:</span></span>
+<span data-ttu-id="df23f-138">2人のユーザーがインスタントメッセージングセッションを完了できない場合、結果は失敗として表示され、エラーと診断のプロパティに追加情報が記録されます。</span><span class="sxs-lookup"><span data-stu-id="df23f-138">If the two users can't able to complete the instant messaging session, then the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:</span></span>
 
-<span data-ttu-id="2985a-139">TargetFqdn: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="2985a-139">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
+<span data-ttu-id="df23f-139">TargetFqdn: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="df23f-139">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
 
-<span data-ttu-id="2985a-140">結果: エラー</span><span class="sxs-lookup"><span data-stu-id="2985a-140">Result : Failure</span></span>
+<span data-ttu-id="df23f-140">結果: エラー</span><span class="sxs-lookup"><span data-stu-id="df23f-140">Result : Failure</span></span>
 
-<span data-ttu-id="2985a-141">待機時間: 00:00:00</span><span class="sxs-lookup"><span data-stu-id="2985a-141">Latency : 00:00:00</span></span>
+<span data-ttu-id="df23f-141">待機時間: 00:00:00</span><span class="sxs-lookup"><span data-stu-id="df23f-141">Latency : 00:00:00</span></span>
 
-<span data-ttu-id="2985a-142">エラー: 404、見つかりません</span><span class="sxs-lookup"><span data-stu-id="2985a-142">Error : 404, Not Found</span></span>
+<span data-ttu-id="df23f-142">エラー: 404、見つかりません</span><span class="sxs-lookup"><span data-stu-id="df23f-142">Error : 404, Not Found</span></span>
 
-<span data-ttu-id="2985a-143">診断: ErrorCode = 4005, Source = 001.litwareinc.com,</span><span class="sxs-lookup"><span data-stu-id="2985a-143">Diagnosis : ErrorCode=4005,Source=atl-cs-001.litwareinc.com,</span></span>
+<span data-ttu-id="df23f-143">診断: ErrorCode = 4005, Source = 001.litwareinc.com,</span><span class="sxs-lookup"><span data-stu-id="df23f-143">Diagnosis : ErrorCode=4005,Source=atl-cs-001.litwareinc.com,</span></span>
 
-<span data-ttu-id="2985a-144">Reason = 宛先 URI が SIP に対して有効になっていないか、または使用されていません</span><span class="sxs-lookup"><span data-stu-id="2985a-144">Reason=Destination URI either not enabled for SIP or does not</span></span>
+<span data-ttu-id="df23f-144">Reason = 宛先 URI が SIP に対して有効になっていないか、または使用されていません</span><span class="sxs-lookup"><span data-stu-id="df23f-144">Reason=Destination URI either not enabled for SIP or does not</span></span>
 
-<span data-ttu-id="2985a-145">ない.</span><span class="sxs-lookup"><span data-stu-id="2985a-145">exist.</span></span>
+<span data-ttu-id="df23f-145">ない.</span><span class="sxs-lookup"><span data-stu-id="df23f-145">exist.</span></span>
 
-<span data-ttu-id="2985a-146">DiagnosticHeader ()</span><span class="sxs-lookup"><span data-stu-id="2985a-146">Microsoft.Rtc.Signaling.DiagnosticHeader</span></span>
+<span data-ttu-id="df23f-146">DiagnosticHeader ()</span><span class="sxs-lookup"><span data-stu-id="df23f-146">Microsoft.Rtc.Signaling.DiagnosticHeader</span></span>
 
-<span data-ttu-id="2985a-147">以前の出力には、少なくとも1つのテストアカウントが有効でないためにテストが失敗したことが示されます。これは、アカウントが存在しないか、ユーザーが Lync Server に対して有効になっていないためです。</span><span class="sxs-lookup"><span data-stu-id="2985a-147">The previous output states that the test failed because at least one of the test accounts was not valid, either because the account does not exist or because the user has not been enabled for Lync Server.</span></span> <span data-ttu-id="2985a-148">アカウントが存在することと、次のようなコマンドを実行することによって、アカウントが次のように有効になっているかどうかを確認できます。</span><span class="sxs-lookup"><span data-stu-id="2985a-148">You can verify the account exists, and whether or not the account has been enabled for nm-ocs-14-3rd by running a command similar to this:</span></span>
+<span data-ttu-id="df23f-147">以前の出力には、少なくとも1つのテストアカウントが有効でないためにテストが失敗したことが示されます。これは、アカウントが存在しないか、ユーザーが Lync Server に対して有効になっていないためです。</span><span class="sxs-lookup"><span data-stu-id="df23f-147">The previous output states that the test failed because at least one of the test accounts was not valid, either because the account does not exist or because the user has not been enabled for Lync Server.</span></span> <span data-ttu-id="df23f-148">アカウントが存在することと、次のようなコマンドを実行することによって、アカウントが次のように有効になっているかどうかを確認できます。</span><span class="sxs-lookup"><span data-stu-id="df23f-148">You can verify the account exists, and whether or not the account has been enabled for nm-ocs-14-3rd by running a command similar to this:</span></span>
 
     "Ken Myer", "David Longmire" | Get-CsUser | Select-Object SipAddress, Enabled
 
-<span data-ttu-id="2985a-149">Test-CsGroupIM に障害が発生した場合は、次のように詳細パラメーターを含めて、テストを再実行することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="2985a-149">If Test-CsGroupIM fails, then you might want to rerun the test, this time including the Verbose parameter:</span></span>
+<span data-ttu-id="df23f-149">Test-CsGroupIM に障害が発生した場合は、次のように詳細パラメーターを含めて、テストを再実行することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="df23f-149">If Test-CsGroupIM fails, then you might want to rerun the test, this time including the Verbose parameter:</span></span>
 
     Test-CsGroupIM -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-<span data-ttu-id="2985a-150">Verbose パラメーターが指定されている場合、テスト-CsGroupIM は、指定されたユーザーがグループのインスタントメッセージングセッションに参加できるかどうかを確認したときに実行された各操作のステップバイステップのアカウントを返します。</span><span class="sxs-lookup"><span data-stu-id="2985a-150">When the Verbose parameter is included, Test-CsGroupIM will return a step-by-step account of each action it tried when it checked the ability of the specified users to participate in a group instant messaging sessions.</span></span> <span data-ttu-id="2985a-151">たとえば、テストが失敗し、1つ以上のユーザーアカウントが有効でないと通知された場合は、Verbose パラメーターを使用してテストを再実行し、無効なユーザーアカウントを特定します。</span><span class="sxs-lookup"><span data-stu-id="2985a-151">For example, if your test fails and you are told that one or more of the user accounts is not valid, you can rerun the test using the Verbose parameter and determine which user account is not valid:</span></span>
+<span data-ttu-id="df23f-150">Verbose パラメーターが指定されている場合、テスト-CsGroupIM は、指定されたユーザーがグループのインスタントメッセージングセッションに参加できるかどうかを確認したときに実行された各操作のステップバイステップのアカウントを返します。</span><span class="sxs-lookup"><span data-stu-id="df23f-150">When the Verbose parameter is included, Test-CsGroupIM will return a step-by-step account of each action it tried when it checked the ability of the specified users to participate in a group instant messaging sessions.</span></span> <span data-ttu-id="df23f-151">たとえば、テストが失敗し、1つ以上のユーザーアカウントが有効でないと通知された場合は、Verbose パラメーターを使用してテストを再実行し、無効なユーザーアカウントを特定します。</span><span class="sxs-lookup"><span data-stu-id="df23f-151">For example, if your test fails and you are told that one or more of the user accounts is not valid, you can rerun the test using the Verbose parameter and determine which user account is not valid:</span></span>
 
-<span data-ttu-id="2985a-152">登録要求の送信:</span><span class="sxs-lookup"><span data-stu-id="2985a-152">Sending Registration request:</span></span>
+<span data-ttu-id="df23f-152">登録要求の送信:</span><span class="sxs-lookup"><span data-stu-id="df23f-152">Sending Registration request:</span></span>
 
- <span data-ttu-id="2985a-153">ターゲット Fqdn = atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="2985a-153">Target Fqdn      = atl-cs-001.litwareinc.com</span></span>
+ <span data-ttu-id="df23f-153">ターゲット Fqdn = atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="df23f-153">Target Fqdn      = atl-cs-001.litwareinc.com</span></span>
 
- <span data-ttu-id="2985a-154">ユーザー SIP アドレス = sip:kenmyer@litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="2985a-154">User SIP Address = sip:kenmyer@litwareinc.com</span></span>
+ <span data-ttu-id="df23f-154">ユーザー SIP アドレス = sip:kenmyer@litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="df23f-154">User SIP Address = sip:kenmyer@litwareinc.com</span></span>
 
- <span data-ttu-id="2985a-155">Register Port = 5061</span><span class="sxs-lookup"><span data-stu-id="2985a-155">Register Port    = 5061</span></span>
+ <span data-ttu-id="df23f-155">Register Port = 5061</span><span class="sxs-lookup"><span data-stu-id="df23f-155">Register Port    = 5061</span></span>
 
-<span data-ttu-id="2985a-156">認証の種類 ' IWA ' が選択されています。</span><span class="sxs-lookup"><span data-stu-id="2985a-156">Auth type 'IWA' is selected.</span></span>
+<span data-ttu-id="df23f-156">認証の種類 ' IWA ' が選択されています。</span><span class="sxs-lookup"><span data-stu-id="df23f-156">Auth type 'IWA' is selected.</span></span>
 
-<span data-ttu-id="2985a-157">例外 ' ログオンが拒否されました。</span><span class="sxs-lookup"><span data-stu-id="2985a-157">An exception 'The log on was denied.</span></span> <span data-ttu-id="2985a-158">正しい資格情報が使用されていて、アカウントがアクティブであることを確認してください。</span><span class="sxs-lookup"><span data-stu-id="2985a-158">Check that the correct credentials are being used and the account is active'</span></span>
+<span data-ttu-id="df23f-157">例外 ' ログオンが拒否されました。</span><span class="sxs-lookup"><span data-stu-id="df23f-157">An exception 'The log on was denied.</span></span> <span data-ttu-id="df23f-158">正しい資格情報が使用されていて、アカウントがアクティブであることを確認してください。</span><span class="sxs-lookup"><span data-stu-id="df23f-158">Check that the correct credentials are being used and the account is active'</span></span>
 
-<span data-ttu-id="2985a-159">この例では、SIP アドレス sip:kenmyer@litwareinc.com を持つユーザーがログオンできなかったことを示しています。</span><span class="sxs-lookup"><span data-stu-id="2985a-159">As you can see, in this example the user who has the SIP address sip:kenmyer@litwareinc.com was not able to log on.</span></span>
+<span data-ttu-id="df23f-159">この例では、SIP アドレス sip:kenmyer@litwareinc.com を持つユーザーがログオンできなかったことを示しています。</span><span class="sxs-lookup"><span data-stu-id="df23f-159">As you can see, in this example the user who has the SIP address sip:kenmyer@litwareinc.com was not able to log on.</span></span>
 
 </div>
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="2985a-160">テストが失敗した理由</span><span class="sxs-lookup"><span data-stu-id="2985a-160">Reasons why the test might have failed</span></span>
+## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="df23f-160">テストが失敗した理由</span><span class="sxs-lookup"><span data-stu-id="df23f-160">Reasons why the test might have failed</span></span>
 
-<span data-ttu-id="2985a-161">次に、Test-CsGroupIM が失敗する可能性がある一般的な理由を示します。</span><span class="sxs-lookup"><span data-stu-id="2985a-161">Here are some common reasons why Test-CsGroupIM might fail:</span></span>
+<span data-ttu-id="df23f-161">次に、Test-CsGroupIM が失敗する可能性がある一般的な理由を示します。</span><span class="sxs-lookup"><span data-stu-id="df23f-161">Here are some common reasons why Test-CsGroupIM might fail:</span></span>
 
-  - <span data-ttu-id="2985a-162">正しくないユーザーアカウントが指定されています。</span><span class="sxs-lookup"><span data-stu-id="2985a-162">You specified an incorrect user account.</span></span> <span data-ttu-id="2985a-163">ユーザーアカウントが存在することを確認するには、次のようなコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="2985a-163">You can verify that a user account exists by running a command similar to this:</span></span>
+  - <span data-ttu-id="df23f-162">正しくないユーザーアカウントが指定されています。</span><span class="sxs-lookup"><span data-stu-id="df23f-162">You specified an incorrect user account.</span></span> <span data-ttu-id="df23f-163">ユーザーアカウントが存在することを確認するには、次のようなコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="df23f-163">You can verify that a user account exists by running a command similar to this:</span></span>
     
         Get-CsUser "sip:kenmyer@litwareinc.com"
 
-  - <span data-ttu-id="2985a-164">ユーザーアカウントは有効ですが、アカウントは現在 Lync Server に対して有効になっていません。</span><span class="sxs-lookup"><span data-stu-id="2985a-164">The user account is valid, but the account is currently not enabled for Lync Server.</span></span> <span data-ttu-id="2985a-165">ユーザーアカウントが Lync Server に対して有効になっていることを確認するには、次のようなコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="2985a-165">To verify that a user account was enabled for Lync Server, run a command similar to the following:</span></span>
+  - <span data-ttu-id="df23f-164">ユーザーアカウントは有効ですが、アカウントは現在 Lync Server に対して有効になっていません。</span><span class="sxs-lookup"><span data-stu-id="df23f-164">The user account is valid, but the account is currently not enabled for Lync Server.</span></span> <span data-ttu-id="df23f-165">ユーザーアカウントが Lync Server に対して有効になっていることを確認するには、次のようなコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="df23f-165">To verify that a user account was enabled for Lync Server, run a command similar to the following:</span></span>
     
-    <span data-ttu-id="2985a-166">取得-CsUser "sip:kenmyer@litwareinc.com" |Select-オブジェクトが有効</span><span class="sxs-lookup"><span data-stu-id="2985a-166">Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled</span></span>
+    <span data-ttu-id="df23f-166">取得-CsUser "sip:kenmyer@litwareinc.com" |Select-オブジェクトが有効</span><span class="sxs-lookup"><span data-stu-id="df23f-166">Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled</span></span>
     
-    <span data-ttu-id="2985a-167">Enabled プロパティが False に設定されている場合は、ユーザーが現在 Lync Server に対して有効になっていないことを意味します。</span><span class="sxs-lookup"><span data-stu-id="2985a-167">If the Enabled property is set to False, that means that the user is currently not enabled for Lync Server.</span></span>
+    <span data-ttu-id="df23f-167">Enabled プロパティが False に設定されている場合は、ユーザーが現在 Lync Server に対して有効になっていないことを意味します。</span><span class="sxs-lookup"><span data-stu-id="df23f-167">If the Enabled property is set to False, that means that the user is currently not enabled for Lync Server.</span></span>
 
-  - <span data-ttu-id="2985a-168">インスタントメッセージングサービスを利用できない可能性があります。</span><span class="sxs-lookup"><span data-stu-id="2985a-168">The instant messaging service might not be available.</span></span> <span data-ttu-id="2985a-169">Lync Server を使用すると、アーカイブデータベースにアクセスできない場合に、インスタントメッセージングを使用できないようにシステムを構成できます。</span><span class="sxs-lookup"><span data-stu-id="2985a-169">With Lync Server, you can configure the system so that instant messaging is not available if the archiving database cannot be accessed.</span></span> <span data-ttu-id="2985a-170">これを確認するには、次のようなコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="2985a-170">You can verify that by running a command similar to the following:</span></span>
+  - <span data-ttu-id="df23f-168">インスタントメッセージングサービスを利用できない可能性があります。</span><span class="sxs-lookup"><span data-stu-id="df23f-168">The instant messaging service might not be available.</span></span> <span data-ttu-id="df23f-169">Lync Server を使用すると、アーカイブデータベースにアクセスできない場合に、インスタントメッセージングを使用できないようにシステムを構成できます。</span><span class="sxs-lookup"><span data-stu-id="df23f-169">With Lync Server, you can configure the system so that instant messaging is not available if the archiving database cannot be accessed.</span></span> <span data-ttu-id="df23f-170">これを確認するには、次のようなコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="df23f-170">You can verify that by running a command similar to the following:</span></span>
     
         Get-CsArchivingConfiguration -Identity "atl-cs-001.litwareinc.com" | Select-Object BlockOnArchiveFailure
     
-    <span data-ttu-id="2985a-171">Blockonアーカイブエラーが True に設定されている場合は、アーカイブデータベースが使用可能かどうかを判断する必要があります。</span><span class="sxs-lookup"><span data-stu-id="2985a-171">If BlockOnArchiveFailure is set to True, then you should determine whether or not the archiving database is available.</span></span> <span data-ttu-id="2985a-172">次のコマンドを使用して、アーカイブデータベースの場所を返すことができます。</span><span class="sxs-lookup"><span data-stu-id="2985a-172">You can return the locations of your archiving databases by using the following command:</span></span>
+    <span data-ttu-id="df23f-171">Blockonアーカイブエラーが True に設定されている場合は、アーカイブデータベースが使用可能かどうかを判断する必要があります。</span><span class="sxs-lookup"><span data-stu-id="df23f-171">If BlockOnArchiveFailure is set to True, then you should determine whether or not the archiving database is available.</span></span> <span data-ttu-id="df23f-172">次のコマンドを使用して、アーカイブデータベースの場所を返すことができます。</span><span class="sxs-lookup"><span data-stu-id="df23f-172">You can return the locations of your archiving databases by using the following command:</span></span>
     
         Get-CsService -ArchivingDatabase
 
-  - <span data-ttu-id="2985a-173">アーカイブサーバーが使用できない可能性があります。</span><span class="sxs-lookup"><span data-stu-id="2985a-173">The Archiving Server might not be available.</span></span> <span data-ttu-id="2985a-174">次のコマンドを使用して、アーカイブサーバーの FQDN を取得できます。</span><span class="sxs-lookup"><span data-stu-id="2985a-174">You can retrieve the FQDN of your Archiving Servers by using this command:</span></span>
+  - <span data-ttu-id="df23f-173">アーカイブサーバーが使用できない可能性があります。</span><span class="sxs-lookup"><span data-stu-id="df23f-173">The Archiving Server might not be available.</span></span> <span data-ttu-id="df23f-174">次のコマンドを使用して、アーカイブサーバーの FQDN を取得できます。</span><span class="sxs-lookup"><span data-stu-id="df23f-174">You can retrieve the FQDN of your Archiving Servers by using this command:</span></span>
     
         Get-CsService -ArchivingServer
     
-    <span data-ttu-id="2985a-175">その後、適切なサーバーに ping を実行して、そのサーバーが使用可能であることを確認できます。</span><span class="sxs-lookup"><span data-stu-id="2985a-175">You can then ping the appropriate server to verify that it is available.</span></span> <span data-ttu-id="2985a-176">次に例を示します。</span><span class="sxs-lookup"><span data-stu-id="2985a-176">For example:</span></span>
+    <span data-ttu-id="df23f-175">その後、適切なサーバーに ping を実行して、そのサーバーが使用可能であることを確認できます。</span><span class="sxs-lookup"><span data-stu-id="df23f-175">You can then ping the appropriate server to verify that it is available.</span></span> <span data-ttu-id="df23f-176">次に例を示します。</span><span class="sxs-lookup"><span data-stu-id="df23f-176">For example:</span></span>
     
         ping atl-archiving-001.litwareinc.com
 

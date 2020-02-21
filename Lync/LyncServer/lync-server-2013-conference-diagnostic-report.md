@@ -12,20 +12,20 @@ ms:contentKeyID: 48185901
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0e735193d75e0e8b5f23376844a712ce0e87d106
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: eb475db2d1a12dcfc2b95dbf4711191767b18236
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42145185"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42191970"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conference-diagnostic-report-in-lync-server-2013"></a><span data-ttu-id="9aba9-102">Lync Server 2013 の電話会議診断レポート</span><span class="sxs-lookup"><span data-stu-id="9aba9-102">Conference Diagnostic Report in Lync Server 2013</span></span>
+# <a name="conference-diagnostic-report-in-lync-server-2013"></a><span data-ttu-id="14665-102">Lync Server 2013 の電話会議診断レポート</span><span class="sxs-lookup"><span data-stu-id="14665-102">Conference Diagnostic Report in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42145185"
 
 <span> </span>
 
-<span data-ttu-id="9aba9-103">_**トピックの最終更新日:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="9aba9-103">_**Topic Last Modified:** 2012-10-22_</span></span>
+<span data-ttu-id="14665-103">_**トピックの最終更新日:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="14665-103">_**Topic Last Modified:** 2012-10-22_</span></span>
 
-<span data-ttu-id="9aba9-p101">電話会議診断レポートは、すべての電話会議セッションの成功とエラーに関する情報を提供します。Microsoft Lync Server はエラーの種類を区別することに注意してください。</span><span class="sxs-lookup"><span data-stu-id="9aba9-p101">The Conference Diagnostic Report provides information about the success and failure of all conferencing sessions. Note that Microsoft Lync Server distinguishes between different kinds of failure:</span></span>
+<span data-ttu-id="14665-p101">電話会議診断レポートは、すべての電話会議セッションの成功とエラーに関する情報を提供します。Microsoft Lync Server はエラーの種類を区別することに注意してください。</span><span class="sxs-lookup"><span data-stu-id="14665-p101">The Conference Diagnostic Report provides information about the success and failure of all conferencing sessions. Note that Microsoft Lync Server distinguishes between different kinds of failure:</span></span>
 
-  - <span data-ttu-id="9aba9-p102">**予期されたエラー**。予期されたエラーは通常、単に技術的な意味においてのエラーです。たとえば、誰かが会議を始めたものの、1 人も参加しないうちに切断したとします。会議は開始されたのに完了しなかったので、技術的にはエラーです。しかし 1 人も参加しないうちに開催者が会議をキャンセルした場合に会議が完了しないのは当然なので、発生が予期されたエラーです。</span><span class="sxs-lookup"><span data-stu-id="9aba9-p102">**Expected failure**. An expected failure is typically a failure only in the most technical sense. For example, suppose someone starts a conference but hangs up before anyone can join. Technically that's a failure: the conference was initiated, but not completed. However, that's a failure that you would expect to happen: if the organizer cancels the conference before anyone can join then you would not expect that conference to be completed.</span></span>
+  - <span data-ttu-id="14665-p102">**予期されたエラー**。予期されたエラーは通常、単に技術的な意味においてのエラーです。たとえば、誰かが会議を始めたものの、1 人も参加しないうちに切断したとします。会議は開始されたのに完了しなかったので、技術的にはエラーです。しかし 1 人も参加しないうちに開催者が会議をキャンセルした場合に会議が完了しないのは当然なので、発生が予期されたエラーです。</span><span class="sxs-lookup"><span data-stu-id="14665-p102">**Expected failure**. An expected failure is typically a failure only in the most technical sense. For example, suppose someone starts a conference but hangs up before anyone can join. Technically that's a failure: the conference was initiated, but not completed. However, that's a failure that you would expect to happen: if the organizer cancels the conference before anyone can join then you would not expect that conference to be completed.</span></span>
 
-  - <span data-ttu-id="9aba9-p103">**予期しないエラー**。予期しないエラーは名前が示すとおり、その状況下では発生が予期されないエラーです。たとえば、開催者の会議ポリシーが取得できないために会議が開催できないとします。どのような場合でもユーザーの会議ポリシーは常に取得できるはずなので、これは予期しないエラーです。</span><span class="sxs-lookup"><span data-stu-id="9aba9-p103">**Unexpected failure**. An unexpected error is exactly what the name implies: an error that, based on the circumstances, you would not expect to occur. For example, suppose a conference could not be held because the organizer's meeting policy could not be retrieved. That's an unexpected error: after all, you should always be able to retrieve a user's meeting policy.</span></span>
+  - <span data-ttu-id="14665-p103">**予期しないエラー**。予期しないエラーは名前が示すとおり、その状況下では発生が予期されないエラーです。たとえば、開催者の会議ポリシーが取得できないために会議が開催できないとします。どのような場合でもユーザーの会議ポリシーは常に取得できるはずなので、これは予期しないエラーです。</span><span class="sxs-lookup"><span data-stu-id="14665-p103">**Unexpected failure**. An unexpected error is exactly what the name implies: an error that, based on the circumstances, you would not expect to occur. For example, suppose a conference could not be held because the organizer's meeting policy could not be retrieved. That's an unexpected error: after all, you should always be able to retrieve a user's meeting policy.</span></span>
 
-<span data-ttu-id="9aba9-p104">成功、予期されたエラー、および予期しないエラーの指標はセッションの合計数の指標に加算されない場合があることに注意してください。たとえば、レポートに次の値が表示されることがあります。</span><span class="sxs-lookup"><span data-stu-id="9aba9-p104">Note that the Success, Expected failure, and Unexpected failure metrics might not add up to the Total sessions metric. For example, you might see the following values in the Report:</span></span>
+<span data-ttu-id="14665-p104">成功、予期されたエラー、および予期しないエラーの指標はセッションの合計数の指標に加算されない場合があることに注意してください。たとえば、レポートに次の値が表示されることがあります。</span><span class="sxs-lookup"><span data-stu-id="14665-p104">Note that the Success, Expected failure, and Unexpected failure metrics might not add up to the Total sessions metric. For example, you might see the following values in the Report:</span></span>
 
 
 <table>
@@ -55,54 +55,54 @@ ms.locfileid: "42145185"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="9aba9-117">成功</span><span class="sxs-lookup"><span data-stu-id="9aba9-117">Successes</span></span></th>
-<th><span data-ttu-id="9aba9-118">[Expected failures] (予期されたエラー数)</span><span class="sxs-lookup"><span data-stu-id="9aba9-118">Expected failures</span></span></th>
-<th><span data-ttu-id="9aba9-119">[Unexpected failures] (予期しないエラー数)</span><span class="sxs-lookup"><span data-stu-id="9aba9-119">Unexpected failures</span></span></th>
-<th><span data-ttu-id="9aba9-120">[セッションの合計数]</span><span class="sxs-lookup"><span data-stu-id="9aba9-120">Total sessions</span></span></th>
+<th><span data-ttu-id="14665-117">成功</span><span class="sxs-lookup"><span data-stu-id="14665-117">Successes</span></span></th>
+<th><span data-ttu-id="14665-118">[Expected failures] (予期されたエラー数)</span><span class="sxs-lookup"><span data-stu-id="14665-118">Expected failures</span></span></th>
+<th><span data-ttu-id="14665-119">[Unexpected failures] (予期しないエラー数)</span><span class="sxs-lookup"><span data-stu-id="14665-119">Unexpected failures</span></span></th>
+<th><span data-ttu-id="14665-120">[セッションの合計数]</span><span class="sxs-lookup"><span data-stu-id="14665-120">Total sessions</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="9aba9-121">2024</span><span class="sxs-lookup"><span data-stu-id="9aba9-121">2024</span></span></p></td>
-<td><p><span data-ttu-id="9aba9-122">469</span><span class="sxs-lookup"><span data-stu-id="9aba9-122">469</span></span></p></td>
-<td><p><span data-ttu-id="9aba9-123">16 </span><span class="sxs-lookup"><span data-stu-id="9aba9-123">16</span></span></p></td>
-<td><p><span data-ttu-id="9aba9-124">2521</span><span class="sxs-lookup"><span data-stu-id="9aba9-124">2521</span></span></p></td>
+<td><p><span data-ttu-id="14665-121">2024</span><span class="sxs-lookup"><span data-stu-id="14665-121">2024</span></span></p></td>
+<td><p><span data-ttu-id="14665-122">469</span><span class="sxs-lookup"><span data-stu-id="14665-122">469</span></span></p></td>
+<td><p><span data-ttu-id="14665-123">16 </span><span class="sxs-lookup"><span data-stu-id="14665-123">16</span></span></p></td>
+<td><p><span data-ttu-id="14665-124">2521</span><span class="sxs-lookup"><span data-stu-id="14665-124">2521</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="9aba9-125">2,024 + 469 + 16 は合計 2,509 セッションになりますが、[セッションの合計数] 列には合計 2,521 セッションと表示されています。</span><span class="sxs-lookup"><span data-stu-id="9aba9-125">If you add 2024 + 469 + 16 you get a total of 2,509 sessions and yet, the Total sessions column shows a total of 2,521 sessions.</span></span> <span data-ttu-id="9aba9-126">"不足分" の 12 セッションは、システムが成功または失敗に分類できなかったセッションです。</span><span class="sxs-lookup"><span data-stu-id="9aba9-126">The "missing" 12 sessions for are sessions that the system was unable to categorize as successful or unsuccessful.</span></span> <span data-ttu-id="9aba9-127">サードパーティ製品が、監視サーバーに不慣れな新しい診断コードを導入している場合は、このような場合があります。</span><span class="sxs-lookup"><span data-stu-id="9aba9-127">That will sometimes be the case when a third-party product introduces a new diagnostic code that is unfamiliar to Monitoring Server.</span></span> <span data-ttu-id="9aba9-128">その場合、当該製品を使用した通話や当該診断コードのレポートは、成功、予期されたエラー、または予期しないエラーに分類できるとは限りません。</span><span class="sxs-lookup"><span data-stu-id="9aba9-128">When that happens, calls made using that product, and reporting that diagnostic code, cannot always be categorized as being a Success, an Expected failure, or an Unexpected failure.</span></span>
+<span data-ttu-id="14665-125">2,024 + 469 + 16 は合計 2,509 セッションになりますが、[セッションの合計数] 列には合計 2,521 セッションと表示されています。</span><span class="sxs-lookup"><span data-stu-id="14665-125">If you add 2024 + 469 + 16 you get a total of 2,509 sessions and yet, the Total sessions column shows a total of 2,521 sessions.</span></span> <span data-ttu-id="14665-126">"不足分" の 12 セッションは、システムが成功または失敗に分類できなかったセッションです。</span><span class="sxs-lookup"><span data-stu-id="14665-126">The "missing" 12 sessions for are sessions that the system was unable to categorize as successful or unsuccessful.</span></span> <span data-ttu-id="14665-127">サードパーティ製品が、監視サーバーに不慣れな新しい診断コードを導入している場合は、このような場合があります。</span><span class="sxs-lookup"><span data-stu-id="14665-127">That will sometimes be the case when a third-party product introduces a new diagnostic code that is unfamiliar to Monitoring Server.</span></span> <span data-ttu-id="14665-128">その場合、当該製品を使用した通話や当該診断コードのレポートは、成功、予期されたエラー、または予期しないエラーに分類できるとは限りません。</span><span class="sxs-lookup"><span data-stu-id="14665-128">When that happens, calls made using that product, and reporting that diagnostic code, cannot always be categorized as being a Success, an Expected failure, or an Unexpected failure.</span></span>
 
 <div>
 
-## <a name="accessing-the-conference-diagnostic-report"></a><span data-ttu-id="9aba9-129">電話会議診断レポートへのアクセス</span><span class="sxs-lookup"><span data-stu-id="9aba9-129">Accessing the Conference Diagnostic Report</span></span>
+## <a name="accessing-the-conference-diagnostic-report"></a><span data-ttu-id="14665-129">電話会議診断レポートへのアクセス</span><span class="sxs-lookup"><span data-stu-id="14665-129">Accessing the Conference Diagnostic Report</span></span>
 
-<span data-ttu-id="9aba9-130">電話会議診断レポートは [監視レポート] ホーム ページからアクセスします。</span><span class="sxs-lookup"><span data-stu-id="9aba9-130">The Conference Diagnostic Report is accessed from the Monitoring Reports home page.</span></span> <span data-ttu-id="9aba9-131">次のいずれかの指標をクリックすると、 [Lync Server 2013 のエラー分布レポート](lync-server-2013-failure-distribution-report.md)にアクセスできます。</span><span class="sxs-lookup"><span data-stu-id="9aba9-131">You can access the [Failure Distribution Report in Lync Server 2013](lync-server-2013-failure-distribution-report.md) by clicking either of the following metrics:</span></span>
+<span data-ttu-id="14665-130">電話会議診断レポートは [監視レポート] ホーム ページからアクセスします。</span><span class="sxs-lookup"><span data-stu-id="14665-130">The Conference Diagnostic Report is accessed from the Monitoring Reports home page.</span></span> <span data-ttu-id="14665-131">次のいずれかの指標をクリックすると、 [Lync Server 2013 のエラー分布レポート](lync-server-2013-failure-distribution-report.md)にアクセスできます。</span><span class="sxs-lookup"><span data-stu-id="14665-131">You can access the [Failure Distribution Report in Lync Server 2013](lync-server-2013-failure-distribution-report.md) by clicking either of the following metrics:</span></span>
 
-  - <span data-ttu-id="9aba9-132">[予期しないエラー ボリューム]</span><span class="sxs-lookup"><span data-stu-id="9aba9-132">Unexpected failure volume</span></span>
+  - <span data-ttu-id="14665-132">[予期しないエラー ボリューム]</span><span class="sxs-lookup"><span data-stu-id="14665-132">Unexpected failure volume</span></span>
 
-  - <span data-ttu-id="9aba9-133">[予期されるエラー ボリューム]</span><span class="sxs-lookup"><span data-stu-id="9aba9-133">Expected failure volume</span></span>
+  - <span data-ttu-id="14665-133">[予期されるエラー ボリューム]</span><span class="sxs-lookup"><span data-stu-id="14665-133">Expected failure volume</span></span>
 
 </div>
 
 <div>
 
-## <a name="making-the-best-use-of-the-conference-diagnostic-report"></a><span data-ttu-id="9aba9-134">電話会議診断レポートの活用</span><span class="sxs-lookup"><span data-stu-id="9aba9-134">Making the Best Use of the Conference Diagnostic Report</span></span>
+## <a name="making-the-best-use-of-the-conference-diagnostic-report"></a><span data-ttu-id="14665-134">電話会議診断レポートの活用</span><span class="sxs-lookup"><span data-stu-id="14665-134">Making the Best Use of the Conference Diagnostic Report</span></span>
 
-<span data-ttu-id="9aba9-135">電話会議診断レポートには一連のグラフが含まれています。</span><span class="sxs-lookup"><span data-stu-id="9aba9-135">The Conference Diagnostic Report includes a series of graphs.</span></span> <span data-ttu-id="9aba9-136">グラフの各列は実際にはハイパーリンクです。</span><span class="sxs-lookup"><span data-stu-id="9aba9-136">Each of the columns shown in the graph is actually a hyperlink.</span></span> <span data-ttu-id="9aba9-137">列をクリックすると、その期間とその会議の種類について、 [Lync Server 2013 のエラー分布レポート](lync-server-2013-failure-distribution-report.md)にドリルダウンします。</span><span class="sxs-lookup"><span data-stu-id="9aba9-137">If you click a column, you'll drill down to the [Failure Distribution Report in Lync Server 2013](lync-server-2013-failure-distribution-report.md) for that time period and that conference type.</span></span>
+<span data-ttu-id="14665-135">電話会議診断レポートには一連のグラフが含まれています。</span><span class="sxs-lookup"><span data-stu-id="14665-135">The Conference Diagnostic Report includes a series of graphs.</span></span> <span data-ttu-id="14665-136">グラフの各列は実際にはハイパーリンクです。</span><span class="sxs-lookup"><span data-stu-id="14665-136">Each of the columns shown in the graph is actually a hyperlink.</span></span> <span data-ttu-id="14665-137">列をクリックすると、その期間とその会議の種類について、 [Lync Server 2013 のエラー分布レポート](lync-server-2013-failure-distribution-report.md)にドリルダウンします。</span><span class="sxs-lookup"><span data-stu-id="14665-137">If you click a column, you'll drill down to the [Failure Distribution Report in Lync Server 2013](lync-server-2013-failure-distribution-report.md) for that time period and that conference type.</span></span>
 
 </div>
 
 <div>
 
-## <a name="filters"></a><span data-ttu-id="9aba9-138">フィルター</span><span class="sxs-lookup"><span data-stu-id="9aba9-138">Filters</span></span>
+## <a name="filters"></a><span data-ttu-id="14665-138">フィルター</span><span class="sxs-lookup"><span data-stu-id="14665-138">Filters</span></span>
 
-<span data-ttu-id="9aba9-p108">フィルターは、細かく絞り込んだデータ セットを返したり、返されたデータをさまざま方法で表示したりする方法として利用できます。たとえば、電話会議診断レポートでは、実行した電話会議の種類 (フォーカスベースの電話会議など) や、電話会議で使用したエッジ サーバーに基づくフィルターを行えます。また、データをグループ化する方法を選択することもできます。この場合は、時間、日、週、または月を基準に会議がグループ化されます。</span><span class="sxs-lookup"><span data-stu-id="9aba9-p108">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. For example, the Conference Diagnostic Report enables you to filter on such things as the type of conference being conducted (for example, a Focus-based conference) or by the Edge Server used in the conference. You can also choose how data should be grouped. In this case, conferences are grouped by hour, day, week, or month.</span></span>
+<span data-ttu-id="14665-p108">フィルターは、細かく絞り込んだデータ セットを返したり、返されたデータをさまざま方法で表示したりする方法として利用できます。たとえば、電話会議診断レポートでは、実行した電話会議の種類 (フォーカスベースの電話会議など) や、電話会議で使用したエッジ サーバーに基づくフィルターを行えます。また、データをグループ化する方法を選択することもできます。この場合は、時間、日、週、または月を基準に会議がグループ化されます。</span><span class="sxs-lookup"><span data-stu-id="14665-p108">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. For example, the Conference Diagnostic Report enables you to filter on such things as the type of conference being conducted (for example, a Focus-based conference) or by the Edge Server used in the conference. You can also choose how data should be grouped. In this case, conferences are grouped by hour, day, week, or month.</span></span>
 
-<span data-ttu-id="9aba9-143">次の表に、電話会議診断レポートで使用できるフィルターを示します。</span><span class="sxs-lookup"><span data-stu-id="9aba9-143">The following table lists the filters that you can use with the Conference Diagnostic Report.</span></span>
+<span data-ttu-id="14665-143">次の表に、電話会議診断レポートで使用できるフィルターを示します。</span><span class="sxs-lookup"><span data-stu-id="14665-143">The following table lists the filters that you can use with the Conference Diagnostic Report.</span></span>
 
-### <a name="conference-diagnostic-report-filters"></a><span data-ttu-id="9aba9-144">電話会議診断レポートのフィルター</span><span class="sxs-lookup"><span data-stu-id="9aba9-144">Conference Diagnostic Report Filters</span></span>
+### <a name="conference-diagnostic-report-filters"></a><span data-ttu-id="14665-144">電話会議診断レポートのフィルター</span><span class="sxs-lookup"><span data-stu-id="14665-144">Conference Diagnostic Report Filters</span></span>
 
 <table>
 <colgroup>
@@ -111,56 +111,56 @@ ms.locfileid: "42145185"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="9aba9-145">名前</span><span class="sxs-lookup"><span data-stu-id="9aba9-145">Name</span></span></th>
-<th><span data-ttu-id="9aba9-146">説明</span><span class="sxs-lookup"><span data-stu-id="9aba9-146">Description</span></span></th>
+<th><span data-ttu-id="14665-145">名前</span><span class="sxs-lookup"><span data-stu-id="14665-145">Name</span></span></th>
+<th><span data-ttu-id="14665-146">説明</span><span class="sxs-lookup"><span data-stu-id="14665-146">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="9aba9-147"><strong>From</strong></span><span class="sxs-lookup"><span data-stu-id="9aba9-147"><strong>From</strong></span></span></p></td>
-<td><p><span data-ttu-id="9aba9-p109">時間範囲の開始日と開始時刻。データを時間単位で表示するには、次のように開始日と開始時刻の両方を入力します。</span><span class="sxs-lookup"><span data-stu-id="9aba9-p109">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
-<p><span data-ttu-id="9aba9-150">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="9aba9-150">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="9aba9-p110">開始時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に開始します。データを日単位で表示するには、次のように日付のみを入力します。</span><span class="sxs-lookup"><span data-stu-id="9aba9-p110">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="9aba9-153">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="9aba9-153">7/7/2012</span></span></p>
-<p><span data-ttu-id="9aba9-154">週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。</span><span class="sxs-lookup"><span data-stu-id="9aba9-154">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="9aba9-155">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="9aba9-155">7/3/2012</span></span></p>
-<p><span data-ttu-id="9aba9-156">週は、常に日曜日から土曜日までです。</span><span class="sxs-lookup"><span data-stu-id="9aba9-156">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="14665-147"><strong>From</strong></span><span class="sxs-lookup"><span data-stu-id="14665-147"><strong>From</strong></span></span></p></td>
+<td><p><span data-ttu-id="14665-p109">時間範囲の開始日と開始時刻。データを時間単位で表示するには、次のように開始日と開始時刻の両方を入力します。</span><span class="sxs-lookup"><span data-stu-id="14665-p109">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
+<p><span data-ttu-id="14665-150">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="14665-150">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="14665-p110">開始時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に開始します。データを日単位で表示するには、次のように日付のみを入力します。</span><span class="sxs-lookup"><span data-stu-id="14665-p110">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="14665-153">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="14665-153">7/7/2012</span></span></p>
+<p><span data-ttu-id="14665-154">週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。</span><span class="sxs-lookup"><span data-stu-id="14665-154">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="14665-155">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="14665-155">7/3/2012</span></span></p>
+<p><span data-ttu-id="14665-156">週は、常に日曜日から土曜日までです。</span><span class="sxs-lookup"><span data-stu-id="14665-156">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9aba9-157"><strong>To</strong></span><span class="sxs-lookup"><span data-stu-id="9aba9-157"><strong>To</strong></span></span></p></td>
-<td><p><span data-ttu-id="9aba9-p111">時間範囲の終了日と終了時刻。データを時間単位で表示するには、次のように終了日と終了時刻の両方を入力します。</span><span class="sxs-lookup"><span data-stu-id="9aba9-p111">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
-<p><span data-ttu-id="9aba9-160">7/7/2012 13:00</span><span class="sxs-lookup"><span data-stu-id="9aba9-160">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="9aba9-p112">終了時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に終了します。データを日単位で表示するには、次のように日付のみを入力します。</span><span class="sxs-lookup"><span data-stu-id="9aba9-p112">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="9aba9-163">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="9aba9-163">7/7/2012</span></span></p>
-<p><span data-ttu-id="9aba9-164">週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。</span><span class="sxs-lookup"><span data-stu-id="9aba9-164">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="9aba9-165">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="9aba9-165">7/3/2012</span></span></p>
-<p><span data-ttu-id="9aba9-166">週は、常に日曜日から土曜日までです。</span><span class="sxs-lookup"><span data-stu-id="9aba9-166">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="14665-157"><strong>To</strong></span><span class="sxs-lookup"><span data-stu-id="14665-157"><strong>To</strong></span></span></p></td>
+<td><p><span data-ttu-id="14665-p111">時間範囲の終了日と終了時刻。データを時間単位で表示するには、次のように終了日と終了時刻の両方を入力します。</span><span class="sxs-lookup"><span data-stu-id="14665-p111">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
+<p><span data-ttu-id="14665-160">7/7/2012 13:00</span><span class="sxs-lookup"><span data-stu-id="14665-160">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="14665-p112">終了時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に終了します。データを日単位で表示するには、次のように日付のみを入力します。</span><span class="sxs-lookup"><span data-stu-id="14665-p112">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="14665-163">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="14665-163">7/7/2012</span></span></p>
+<p><span data-ttu-id="14665-164">週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。</span><span class="sxs-lookup"><span data-stu-id="14665-164">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="14665-165">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="14665-165">7/3/2012</span></span></p>
+<p><span data-ttu-id="14665-166">週は、常に日曜日から土曜日までです。</span><span class="sxs-lookup"><span data-stu-id="14665-166">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9aba9-167"><strong>間隔</strong></span><span class="sxs-lookup"><span data-stu-id="9aba9-167"><strong>Interval</strong></span></span></p></td>
-<td><p><span data-ttu-id="9aba9-p113">時間間隔です。次のいずれかを選択します。</span><span class="sxs-lookup"><span data-stu-id="9aba9-p113">Time interval. Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="14665-167"><strong>間隔</strong></span><span class="sxs-lookup"><span data-stu-id="14665-167"><strong>Interval</strong></span></span></p></td>
+<td><p><span data-ttu-id="14665-p113">時間間隔です。次のいずれかを選択します。</span><span class="sxs-lookup"><span data-stu-id="14665-p113">Time interval. Select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="9aba9-170">時間単位 (最大 25 時間の表示が可能)</span><span class="sxs-lookup"><span data-stu-id="9aba9-170">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="9aba9-171">日単位 (最大 31 日の表示が可能)</span><span class="sxs-lookup"><span data-stu-id="9aba9-171">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="9aba9-172">週単位 (最大 12 週の表示が可能)</span><span class="sxs-lookup"><span data-stu-id="9aba9-172">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="9aba9-173">月単位 (最大 12 か月の表示が可能)</span><span class="sxs-lookup"><span data-stu-id="9aba9-173">Monthly (a maximum of 12 months can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="14665-170">時間単位 (最大 25 時間の表示が可能)</span><span class="sxs-lookup"><span data-stu-id="14665-170">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="14665-171">日単位 (最大 31 日の表示が可能)</span><span class="sxs-lookup"><span data-stu-id="14665-171">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="14665-172">週単位 (最大 12 週の表示が可能)</span><span class="sxs-lookup"><span data-stu-id="14665-172">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="14665-173">月単位 (最大 12 か月の表示が可能)</span><span class="sxs-lookup"><span data-stu-id="14665-173">Monthly (a maximum of 12 months can be displayed)</span></span></p></li>
 </ul>
-<p><span data-ttu-id="9aba9-p114">入力した開始日と終了日が選択した間隔で使用できる値の最大数を超える場合は、最大数の値 (開始日からカウント) のみが表示されます。たとえば、開始日と終了日をそれぞれ 7/7/2012 (2012 年 7 月 7 日)、2/28/2012 (2012 年 2 月 28 日) として毎日の間隔を選択しても、2012 年 8 月 7 日の午前 12:00 から 2012 年 9 月 7 日の午前 12:00 までの日付のデータ (つまり、合計 31 日分のデータのみ) が表示されることになります。</span><span class="sxs-lookup"><span data-stu-id="9aba9-p114">If the start and end dates exceed the maximum number of values allowed for the selected interval, only the maximum number of values (starting from the start date) is displayed. For example, if you select the Daily interval with a start date of 7/7/2012 and an end date of 2/28/2012, data is displayed for the days 8/7/2012 12:00 AM to 9/7/2012 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
+<p><span data-ttu-id="14665-p114">入力した開始日と終了日が選択した間隔で使用できる値の最大数を超える場合は、最大数の値 (開始日からカウント) のみが表示されます。たとえば、開始日と終了日をそれぞれ 7/7/2012 (2012 年 7 月 7 日)、2/28/2012 (2012 年 2 月 28 日) として毎日の間隔を選択しても、2012 年 8 月 7 日の午前 12:00 から 2012 年 9 月 7 日の午前 12:00 までの日付のデータ (つまり、合計 31 日分のデータのみ) が表示されることになります。</span><span class="sxs-lookup"><span data-stu-id="14665-p114">If the start and end dates exceed the maximum number of values allowed for the selected interval, only the maximum number of values (starting from the start date) is displayed. For example, if you select the Daily interval with a start date of 7/7/2012 and an end date of 2/28/2012, data is displayed for the days 8/7/2012 12:00 AM to 9/7/2012 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9aba9-176"><strong>Pool</strong></span><span class="sxs-lookup"><span data-stu-id="9aba9-176"><strong>Pool</strong></span></span></p></td>
-<td><p><span data-ttu-id="9aba9-p115">レジストラー プールまたはエッジ サーバーの完全修飾ドメイン名 (FQDN)。個別のプールを選択するか、[<strong>すべて</strong>] をクリックしてすべてのプールのデータを表示できます。このドロップダウン リストは、データベース内のレコードに基づいて自動的に設定されます。</span><span class="sxs-lookup"><span data-stu-id="9aba9-p115">Fully qualified domain name (FQDN) of the Registrar pool or Edge Server. You can either select an individual pool or click <strong>[All]</strong> to view data for all the pools. This drop-down list is automatically populated for you based on the records in the database.</span></span></p></td>
+<td><p><span data-ttu-id="14665-176"><strong>Pool</strong></span><span class="sxs-lookup"><span data-stu-id="14665-176"><strong>Pool</strong></span></span></p></td>
+<td><p><span data-ttu-id="14665-p115">レジストラー プールまたはエッジ サーバーの完全修飾ドメイン名 (FQDN)。個別のプールを選択するか、[<strong>すべて</strong>] をクリックしてすべてのプールのデータを表示できます。このドロップダウン リストは、データベース内のレコードに基づいて自動的に設定されます。</span><span class="sxs-lookup"><span data-stu-id="14665-p115">Fully qualified domain name (FQDN) of the Registrar pool or Edge Server. You can either select an individual pool or click <strong>[All]</strong> to view data for all the pools. This drop-down list is automatically populated for you based on the records in the database.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9aba9-180">[<strong>電話会議セッション</strong>]</span><span class="sxs-lookup"><span data-stu-id="9aba9-180"><strong>Conference sessions</strong></span></span></p></td>
-<td><p><span data-ttu-id="9aba9-p116">電話会議セッションの種類を示します。次のいずれかを選択します。</span><span class="sxs-lookup"><span data-stu-id="9aba9-p116">Indicates the type of conferencing session. Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="14665-180">[<strong>電話会議セッション</strong>]</span><span class="sxs-lookup"><span data-stu-id="14665-180"><strong>Conference sessions</strong></span></span></p></td>
+<td><p><span data-ttu-id="14665-p116">電話会議セッションの種類を示します。次のいずれかを選択します。</span><span class="sxs-lookup"><span data-stu-id="14665-p116">Indicates the type of conferencing session. Select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="9aba9-183">いずれ</span><span class="sxs-lookup"><span data-stu-id="9aba9-183">[All]</span></span></p></li>
-<li><p><span data-ttu-id="9aba9-184">フォーカス セッション</span><span class="sxs-lookup"><span data-stu-id="9aba9-184">Focus sessions</span></span></p></li>
-<li><p><span data-ttu-id="9aba9-185">すべての MCU セッション</span><span class="sxs-lookup"><span data-stu-id="9aba9-185">All MCU sessions</span></span></p></li>
-<li><p><span data-ttu-id="9aba9-186">IM 電話会議</span><span class="sxs-lookup"><span data-stu-id="9aba9-186">IM conferencing</span></span></p></li>
-<li><p><span data-ttu-id="9aba9-187">アプリケーション共有</span><span class="sxs-lookup"><span data-stu-id="9aba9-187">Application sharing</span></span></p></li>
-<li><p><span data-ttu-id="9aba9-188">音声ビデオ会議</span><span class="sxs-lookup"><span data-stu-id="9aba9-188">A/V conferencing</span></span></p></li>
+<li><p><span data-ttu-id="14665-183">いずれ</span><span class="sxs-lookup"><span data-stu-id="14665-183">[All]</span></span></p></li>
+<li><p><span data-ttu-id="14665-184">フォーカス セッション</span><span class="sxs-lookup"><span data-stu-id="14665-184">Focus sessions</span></span></p></li>
+<li><p><span data-ttu-id="14665-185">すべての MCU セッション</span><span class="sxs-lookup"><span data-stu-id="14665-185">All MCU sessions</span></span></p></li>
+<li><p><span data-ttu-id="14665-186">IM 電話会議</span><span class="sxs-lookup"><span data-stu-id="14665-186">IM conferencing</span></span></p></li>
+<li><p><span data-ttu-id="14665-187">アプリケーション共有</span><span class="sxs-lookup"><span data-stu-id="14665-187">Application sharing</span></span></p></li>
+<li><p><span data-ttu-id="14665-188">音声ビデオ会議</span><span class="sxs-lookup"><span data-stu-id="14665-188">A/V conferencing</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -171,11 +171,11 @@ ms.locfileid: "42145185"
 
 <div>
 
-## <a name="metrics"></a><span data-ttu-id="9aba9-189">指標</span><span class="sxs-lookup"><span data-stu-id="9aba9-189">Metrics</span></span>
+## <a name="metrics"></a><span data-ttu-id="14665-189">指標</span><span class="sxs-lookup"><span data-stu-id="14665-189">Metrics</span></span>
 
-<span data-ttu-id="9aba9-190">次の表に、電話会議診断レポートでそれぞれの種類の電話会議セッションについて表示される情報を示します。</span><span class="sxs-lookup"><span data-stu-id="9aba9-190">The following table lists the information provided in the Conference Diagnostic Report for each type of conferencing session.</span></span>
+<span data-ttu-id="14665-190">次の表に、電話会議診断レポートでそれぞれの種類の電話会議セッションについて表示される情報を示します。</span><span class="sxs-lookup"><span data-stu-id="14665-190">The following table lists the information provided in the Conference Diagnostic Report for each type of conferencing session.</span></span>
 
-### <a name="conference-diagnostic-report-metrics"></a><span data-ttu-id="9aba9-191">電話会議診断レポートの指標</span><span class="sxs-lookup"><span data-stu-id="9aba9-191">Conference Diagnostic Report Metrics</span></span>
+### <a name="conference-diagnostic-report-metrics"></a><span data-ttu-id="14665-191">電話会議診断レポートの指標</span><span class="sxs-lookup"><span data-stu-id="14665-191">Conference Diagnostic Report Metrics</span></span>
 
 <table>
 <colgroup>
@@ -185,48 +185,48 @@ ms.locfileid: "42145185"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="9aba9-192">名前</span><span class="sxs-lookup"><span data-stu-id="9aba9-192">Name</span></span></th>
-<th><span data-ttu-id="9aba9-193">この項目での並べ替え</span><span class="sxs-lookup"><span data-stu-id="9aba9-193">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="9aba9-194">説明</span><span class="sxs-lookup"><span data-stu-id="9aba9-194">Description</span></span></th>
+<th><span data-ttu-id="14665-192">名前</span><span class="sxs-lookup"><span data-stu-id="14665-192">Name</span></span></th>
+<th><span data-ttu-id="14665-193">この項目での並べ替え</span><span class="sxs-lookup"><span data-stu-id="14665-193">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="14665-194">説明</span><span class="sxs-lookup"><span data-stu-id="14665-194">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="9aba9-195">[<strong>成功ボリューム</strong>]</span><span class="sxs-lookup"><span data-stu-id="9aba9-195"><strong>Success volume</strong></span></span></p></td>
-<td><p><span data-ttu-id="9aba9-196">いいえ</span><span class="sxs-lookup"><span data-stu-id="9aba9-196">No</span></span></p></td>
-<td><p><span data-ttu-id="9aba9-197">成功した電話会議の合計数。</span><span class="sxs-lookup"><span data-stu-id="9aba9-197">Total number of successful conferences.</span></span></p></td>
+<td><p><span data-ttu-id="14665-195">[<strong>成功ボリューム</strong>]</span><span class="sxs-lookup"><span data-stu-id="14665-195"><strong>Success volume</strong></span></span></p></td>
+<td><p><span data-ttu-id="14665-196">いいえ</span><span class="sxs-lookup"><span data-stu-id="14665-196">No</span></span></p></td>
+<td><p><span data-ttu-id="14665-197">成功した電話会議の合計数。</span><span class="sxs-lookup"><span data-stu-id="14665-197">Total number of successful conferences.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9aba9-198">[<strong>成功率</strong>]</span><span class="sxs-lookup"><span data-stu-id="9aba9-198"><strong>Success percentage</strong></span></span></p></td>
-<td><p><span data-ttu-id="9aba9-199">いいえ</span><span class="sxs-lookup"><span data-stu-id="9aba9-199">No</span></span></p></td>
-<td><p><span data-ttu-id="9aba9-p117">大きな問題なく完了した電話会議の比率。成功ボリュームをセッションの合計数で割ることにより計算されます。</span><span class="sxs-lookup"><span data-stu-id="9aba9-p117">Percentage of conferences that completed with significant problems. Calculated by dividing the Success volume by the Total sessions.</span></span></p></td>
+<td><p><span data-ttu-id="14665-198">[<strong>成功率</strong>]</span><span class="sxs-lookup"><span data-stu-id="14665-198"><strong>Success percentage</strong></span></span></p></td>
+<td><p><span data-ttu-id="14665-199">いいえ</span><span class="sxs-lookup"><span data-stu-id="14665-199">No</span></span></p></td>
+<td><p><span data-ttu-id="14665-p117">大きな問題なく完了した電話会議の比率。成功ボリュームをセッションの合計数で割ることにより計算されます。</span><span class="sxs-lookup"><span data-stu-id="14665-p117">Percentage of conferences that completed with significant problems. Calculated by dividing the Success volume by the Total sessions.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9aba9-202">[<strong>予期されるエラー ボリューム</strong>]</span><span class="sxs-lookup"><span data-stu-id="9aba9-202"><strong>Expected failure volume</strong></span></span></p></td>
-<td><p><span data-ttu-id="9aba9-203">いいえ</span><span class="sxs-lookup"><span data-stu-id="9aba9-203">No</span></span></p></td>
-<td><p><span data-ttu-id="9aba9-204">&quot;予想されるエラー&quot;が発生した電話会議の総数です。</span><span class="sxs-lookup"><span data-stu-id="9aba9-204">Total number of conferences where an &quot;expected failure&quot; occurred.</span></span></p>
-<p><span data-ttu-id="9aba9-p118">予期されるエラーとは、発生が予想されるエラーです。たとえば、ステータスを "応答不可" に設定しているユーザーへの通話は、すべてエラーになることが予想されます。</span><span class="sxs-lookup"><span data-stu-id="9aba9-p118">An expected failure is a failure that is expected to happen. For example, if a user has set his or her status to Do Not Disturb you would expect any call to that user to fail.</span></span></p></td>
+<td><p><span data-ttu-id="14665-202">[<strong>予期されるエラー ボリューム</strong>]</span><span class="sxs-lookup"><span data-stu-id="14665-202"><strong>Expected failure volume</strong></span></span></p></td>
+<td><p><span data-ttu-id="14665-203">いいえ</span><span class="sxs-lookup"><span data-stu-id="14665-203">No</span></span></p></td>
+<td><p><span data-ttu-id="14665-204">&quot;予想されるエラー&quot;が発生した電話会議の総数です。</span><span class="sxs-lookup"><span data-stu-id="14665-204">Total number of conferences where an &quot;expected failure&quot; occurred.</span></span></p>
+<p><span data-ttu-id="14665-p118">予期されるエラーとは、発生が予想されるエラーです。たとえば、ステータスを "応答不可" に設定しているユーザーへの通話は、すべてエラーになることが予想されます。</span><span class="sxs-lookup"><span data-stu-id="14665-p118">An expected failure is a failure that is expected to happen. For example, if a user has set his or her status to Do Not Disturb you would expect any call to that user to fail.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9aba9-207">[<strong>予期されるエラー率</strong>]</span><span class="sxs-lookup"><span data-stu-id="9aba9-207"><strong>Expected failure percentage</strong></span></span></p></td>
-<td><p><span data-ttu-id="9aba9-208">いいえ</span><span class="sxs-lookup"><span data-stu-id="9aba9-208">No</span></span></p></td>
-<td><p><span data-ttu-id="9aba9-p119">予期されるエラーが発生した電話会議の比率。予期されるエラー ボリュームをセッションの合計数で割ることにより計算されます。</span><span class="sxs-lookup"><span data-stu-id="9aba9-p119">Percentage of conferences that experienced an expected error. Calculated by dividing the Expected failure volume by the Total sessions.</span></span></p></td>
+<td><p><span data-ttu-id="14665-207">[<strong>予期されるエラー率</strong>]</span><span class="sxs-lookup"><span data-stu-id="14665-207"><strong>Expected failure percentage</strong></span></span></p></td>
+<td><p><span data-ttu-id="14665-208">いいえ</span><span class="sxs-lookup"><span data-stu-id="14665-208">No</span></span></p></td>
+<td><p><span data-ttu-id="14665-p119">予期されるエラーが発生した電話会議の比率。予期されるエラー ボリュームをセッションの合計数で割ることにより計算されます。</span><span class="sxs-lookup"><span data-stu-id="14665-p119">Percentage of conferences that experienced an expected error. Calculated by dividing the Expected failure volume by the Total sessions.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9aba9-211">[<strong>予期しないエラー ボリューム</strong>]</span><span class="sxs-lookup"><span data-stu-id="9aba9-211"><strong>Unexpected failure volume</strong></span></span></p></td>
-<td><p><span data-ttu-id="9aba9-212">いいえ</span><span class="sxs-lookup"><span data-stu-id="9aba9-212">No</span></span></p></td>
-<td><p><span data-ttu-id="9aba9-213">&quot;予期しないエラー&quot;が発生した電話会議の総数です。</span><span class="sxs-lookup"><span data-stu-id="9aba9-213">Total number of conferences where an &quot;unexpected failure&quot; occurred.</span></span></p>
-<p><span data-ttu-id="9aba9-p120">予期しないエラーとは、一見すると正常と思われるシステムで発生するエラーです。たとえば、呼び出し元が保留中になっている通話は終了してはなりません。この操作を行うと、予期しないエラーとしてフラグが設定されます。</span><span class="sxs-lookup"><span data-stu-id="9aba9-p120">An unexpected failure is a failure that occurs in what would appear to be an otherwise healthy system. For example, a call should not be terminated if the caller is placed on hold. If that occurs, that would be flagged as an unexpected failure.</span></span></p></td>
+<td><p><span data-ttu-id="14665-211">[<strong>予期しないエラー ボリューム</strong>]</span><span class="sxs-lookup"><span data-stu-id="14665-211"><strong>Unexpected failure volume</strong></span></span></p></td>
+<td><p><span data-ttu-id="14665-212">いいえ</span><span class="sxs-lookup"><span data-stu-id="14665-212">No</span></span></p></td>
+<td><p><span data-ttu-id="14665-213">&quot;予期しないエラー&quot;が発生した電話会議の総数です。</span><span class="sxs-lookup"><span data-stu-id="14665-213">Total number of conferences where an &quot;unexpected failure&quot; occurred.</span></span></p>
+<p><span data-ttu-id="14665-p120">予期しないエラーとは、一見すると正常と思われるシステムで発生するエラーです。たとえば、呼び出し元が保留中になっている通話は終了してはなりません。この操作を行うと、予期しないエラーとしてフラグが設定されます。</span><span class="sxs-lookup"><span data-stu-id="14665-p120">An unexpected failure is a failure that occurs in what would appear to be an otherwise healthy system. For example, a call should not be terminated if the caller is placed on hold. If that occurs, that would be flagged as an unexpected failure.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9aba9-217">[<strong>予期しないエラー率</strong>]</span><span class="sxs-lookup"><span data-stu-id="9aba9-217"><strong>Unexpected failure percentage</strong></span></span></p></td>
-<td><p><span data-ttu-id="9aba9-218">いいえ</span><span class="sxs-lookup"><span data-stu-id="9aba9-218">No</span></span></p></td>
-<td><p><span data-ttu-id="9aba9-p121">予期しないエラーが発生した電話会議の比率。予期しないエラー ボリュームをセッションの合計数で割ることにより計算されます。</span><span class="sxs-lookup"><span data-stu-id="9aba9-p121">Percentage of conferences that experienced an unexpected error. Calculated by dividing the Unexpected failure volume by the Total sessions.</span></span></p></td>
+<td><p><span data-ttu-id="14665-217">[<strong>予期しないエラー率</strong>]</span><span class="sxs-lookup"><span data-stu-id="14665-217"><strong>Unexpected failure percentage</strong></span></span></p></td>
+<td><p><span data-ttu-id="14665-218">いいえ</span><span class="sxs-lookup"><span data-stu-id="14665-218">No</span></span></p></td>
+<td><p><span data-ttu-id="14665-p121">予期しないエラーが発生した電話会議の比率。予期しないエラー ボリュームをセッションの合計数で割ることにより計算されます。</span><span class="sxs-lookup"><span data-stu-id="14665-p121">Percentage of conferences that experienced an unexpected error. Calculated by dividing the Unexpected failure volume by the Total sessions.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9aba9-221">[<strong>セッションの合計数</strong>]</span><span class="sxs-lookup"><span data-stu-id="9aba9-221"><strong>Total sessions</strong></span></span></p></td>
-<td><p><span data-ttu-id="9aba9-222">いいえ</span><span class="sxs-lookup"><span data-stu-id="9aba9-222">No</span></span></p></td>
-<td><p><span data-ttu-id="9aba9-223">電話会議の合計数。成功した電話会議、エラーが発生した電話会議 (予期されるエラーと予期しないエラーの両方)、および未分類の電話会議を含みます。</span><span class="sxs-lookup"><span data-stu-id="9aba9-223">Total number of conferences, including successful conferences, failed conferences (both expected failures and unexpected failures), and uncategorized conferences.</span></span></p></td>
+<td><p><span data-ttu-id="14665-221">[<strong>セッションの合計数</strong>]</span><span class="sxs-lookup"><span data-stu-id="14665-221"><strong>Total sessions</strong></span></span></p></td>
+<td><p><span data-ttu-id="14665-222">いいえ</span><span class="sxs-lookup"><span data-stu-id="14665-222">No</span></span></p></td>
+<td><p><span data-ttu-id="14665-223">電話会議の合計数。成功した電話会議、エラーが発生した電話会議 (予期されるエラーと予期しないエラーの両方)、および未分類の電話会議を含みます。</span><span class="sxs-lookup"><span data-stu-id="14665-223">Total number of conferences, including successful conferences, failed conferences (both expected failures and unexpected failures), and uncategorized conferences.</span></span></p></td>
 </tr>
 </tbody>
 </table>
