@@ -12,20 +12,20 @@ ms:contentKeyID: 48185100
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c285ca6c9f90cab304d3ce87341c33fea83ac09f
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 65645907bf80f7177c653d9ff7ae04d3a961decf
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42150756"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42218183"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-categories-rooms-and-add-ins-in-lync-server-2013"></a><span data-ttu-id="f9fac-102">Lync Server 2013 でのカテゴリ、ルーム、およびアドインの管理</span><span class="sxs-lookup"><span data-stu-id="f9fac-102">Managing categories, rooms, and add-ins in Lync Server 2013</span></span>
+# <a name="managing-categories-rooms-and-add-ins-in-lync-server-2013"></a><span data-ttu-id="bec7a-102">Lync Server 2013 でのカテゴリ、ルーム、およびアドインの管理</span><span class="sxs-lookup"><span data-stu-id="bec7a-102">Managing categories, rooms, and add-ins in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "42150756"
 
 <span> </span>
 
-<span data-ttu-id="f9fac-103">_**トピックの最終更新日:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="f9fac-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+<span data-ttu-id="bec7a-103">_**トピックの最終更新日:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="bec7a-103">_**Topic Last Modified:** 2012-10-06_</span></span>
 
-<span data-ttu-id="f9fac-104">Lync Server 2013 コントロールパネル、または Windows PowerShell コマンドレットを使用すると、常設チャット管理者は**常設チャット**ページを使用してカテゴリとアドインを作成できます。常設チャットルームを管理するために、管理者は Windows PowerShell コマンドレットを使用できます。</span><span class="sxs-lookup"><span data-stu-id="f9fac-104">In Lync Server 2013 Control Panel, or by using Windows PowerShell cmdlets, Persistent Chat Administrators can use the **Persistent Chat** page to create categories and add-ins. For managing Persistent Chat rooms, Administrators can use Windows PowerShell cmdlets.</span></span> <span data-ttu-id="f9fac-105">別の方法として、常設チャット管理者も SIP を有効にしている場合は、Lync クライアントを使用して、チャットルームを作成して管理するための web ページを起動することができます。</span><span class="sxs-lookup"><span data-stu-id="f9fac-105">Alternatively, if the Persistent Chat administrator is also SIP-enabled, they can use the Lync client to launch a web page to create and manage chat rooms.</span></span>
+<span data-ttu-id="bec7a-104">Lync Server 2013 コントロールパネル、または Windows PowerShell コマンドレットを使用すると、常設チャット管理者は**常設チャット**ページを使用してカテゴリとアドインを作成できます。常設チャットルームを管理するために、管理者は Windows PowerShell コマンドレットを使用できます。</span><span class="sxs-lookup"><span data-stu-id="bec7a-104">In Lync Server 2013 Control Panel, or by using Windows PowerShell cmdlets, Persistent Chat Administrators can use the **Persistent Chat** page to create categories and add-ins. For managing Persistent Chat rooms, Administrators can use Windows PowerShell cmdlets.</span></span> <span data-ttu-id="bec7a-105">別の方法として、常設チャット管理者も SIP を有効にしている場合は、Lync クライアントを使用して、チャットルームを作成して管理するための web ページを起動することができます。</span><span class="sxs-lookup"><span data-stu-id="bec7a-105">Alternatively, if the Persistent Chat administrator is also SIP-enabled, they can use the Lync client to launch a web page to create and manage chat rooms.</span></span>
 
-<span data-ttu-id="f9fac-106">以下のトピックでは、カテゴリおよびチャット ルームを作成して使用する方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="f9fac-106">The following topics describe how to create and work with categories and chat rooms.</span></span>
+<span data-ttu-id="bec7a-106">以下のトピックでは、カテゴリおよびチャット ルームを作成して使用する方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="bec7a-106">The following topics describe how to create and work with categories and chat rooms.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="f9fac-107">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="f9fac-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="bec7a-107">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="bec7a-107">In This Section</span></span>
 
-  - [<span data-ttu-id="f9fac-108">Lync Server 2013 での新しいカテゴリの作成または編集</span><span class="sxs-lookup"><span data-stu-id="f9fac-108">Creating or editing a new category in Lync Server 2013</span></span>](lync-server-2013-creating-or-editing-a-new-category.md)
+  - [<span data-ttu-id="bec7a-108">Lync Server 2013 での新しいカテゴリの作成または編集</span><span class="sxs-lookup"><span data-stu-id="bec7a-108">Creating or editing a new category in Lync Server 2013</span></span>](lync-server-2013-creating-or-editing-a-new-category.md)
 
-  - [<span data-ttu-id="f9fac-109">Lync Server 2013 での新しい会議室の作成または編集</span><span class="sxs-lookup"><span data-stu-id="f9fac-109">Creating or editing a new room in Lync Server 2013</span></span>](lync-server-2013-creating-or-editing-a-new-room.md)
+  - [<span data-ttu-id="bec7a-109">Lync Server 2013 での新しい会議室の作成または編集</span><span class="sxs-lookup"><span data-stu-id="bec7a-109">Creating or editing a new room in Lync Server 2013</span></span>](lync-server-2013-creating-or-editing-a-new-room.md)
 
-  - [<span data-ttu-id="f9fac-110">Lync Server 2013 でのルーム用の新しいアドインの作成</span><span class="sxs-lookup"><span data-stu-id="f9fac-110">Creating new add-ins for rooms in Lync Server 2013</span></span>](lync-server-2013-creating-new-add-ins-for-rooms.md)
+  - [<span data-ttu-id="bec7a-110">Lync Server 2013 でのルーム用の新しいアドインの作成</span><span class="sxs-lookup"><span data-stu-id="bec7a-110">Creating new add-ins for rooms in Lync Server 2013</span></span>](lync-server-2013-creating-new-add-ins-for-rooms.md)
 
-  - [<span data-ttu-id="f9fac-111">Lync Server 2013 の大会議室のチャットルームでメッセージを投稿できるユーザーの設定</span><span class="sxs-lookup"><span data-stu-id="f9fac-111">Setting who can post messages in an auditorium chat room in Lync Server 2013</span></span>](lync-server-2013-setting-who-can-post-messages-in-an-auditorium-chat-room.md)
+  - [<span data-ttu-id="bec7a-111">Lync Server 2013 の大会議室のチャットルームでメッセージを投稿できるユーザーの設定</span><span class="sxs-lookup"><span data-stu-id="bec7a-111">Setting who can post messages in an auditorium chat room in Lync Server 2013</span></span>](lync-server-2013-setting-who-can-post-messages-in-an-auditorium-chat-room.md)
 
-  - [<span data-ttu-id="f9fac-112">Lync Server 2013 でのチャットルームの無効化または有効化</span><span class="sxs-lookup"><span data-stu-id="f9fac-112">Disabling or enabling a chat room in Lync Server 2013</span></span>](lync-server-2013-disabling-or-enabling-a-chat-room.md)
+  - [<span data-ttu-id="bec7a-112">Lync Server 2013 でのチャットルームの無効化または有効化</span><span class="sxs-lookup"><span data-stu-id="bec7a-112">Disabling or enabling a chat room in Lync Server 2013</span></span>](lync-server-2013-disabling-or-enabling-a-chat-room.md)
 
-  - [<span data-ttu-id="f9fac-113">Lync Server 2013 での1つのカテゴリから別のカテゴリへのチャットルームの移動</span><span class="sxs-lookup"><span data-stu-id="f9fac-113">Moving a chat room from one category to another in Lync Server 2013</span></span>](lync-server-2013-moving-a-chat-room-from-one-category-to-another.md)
+  - [<span data-ttu-id="bec7a-113">Lync Server 2013 での1つのカテゴリから別のカテゴリへのチャットルームの移動</span><span class="sxs-lookup"><span data-stu-id="bec7a-113">Moving a chat room from one category to another in Lync Server 2013</span></span>](lync-server-2013-moving-a-chat-room-from-one-category-to-another.md)
 
-  - [<span data-ttu-id="f9fac-114">Lync Server 2013 でのチャットルームまたはカテゴリの削除</span><span class="sxs-lookup"><span data-stu-id="f9fac-114">Deleting a chat room or category in Lync Server 2013</span></span>](lync-server-2013-deleting-a-chat-room-or-category.md)
+  - [<span data-ttu-id="bec7a-114">Lync Server 2013 でのチャットルームまたはカテゴリの削除</span><span class="sxs-lookup"><span data-stu-id="bec7a-114">Deleting a chat room or category in Lync Server 2013</span></span>](lync-server-2013-deleting-a-chat-room-or-category.md)
 
-  - [<span data-ttu-id="f9fac-115">Lync Server 2013 でのメッセージの削除または廃止されたメッセージの削除</span><span class="sxs-lookup"><span data-stu-id="f9fac-115">Deleting a message or purging obsolete messages in Lync Server 2013</span></span>](lync-server-2013-deleting-a-message-or-purging-obsolete-messages.md)
+  - [<span data-ttu-id="bec7a-115">Lync Server 2013 でのメッセージの削除または廃止されたメッセージの削除</span><span class="sxs-lookup"><span data-stu-id="bec7a-115">Deleting a message or purging obsolete messages in Lync Server 2013</span></span>](lync-server-2013-deleting-a-message-or-purging-obsolete-messages.md)
 
 </div>
 

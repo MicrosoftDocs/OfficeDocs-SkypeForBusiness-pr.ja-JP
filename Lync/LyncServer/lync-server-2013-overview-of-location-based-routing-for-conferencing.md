@@ -12,20 +12,20 @@ ms:contentKeyID: 56335084
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 863cd213fb28d3adeedc04a5d46e4310ea4cd83b
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 1b280272d17cf40734a24b553ad00a7a485547c2
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42153187"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42216250"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-location-based-routing-for-conferencing-in-lync-server-2013"></a><span data-ttu-id="93e69-102">Lync Server 2013 での会議の場所に基づくルーティングの概要</span><span class="sxs-lookup"><span data-stu-id="93e69-102">Overview of Location-Based Routing for conferencing in Lync Server 2013</span></span>
+# <a name="overview-of-location-based-routing-for-conferencing-in-lync-server-2013"></a><span data-ttu-id="7cecb-102">Lync Server 2013 での会議の場所に基づくルーティングの概要</span><span class="sxs-lookup"><span data-stu-id="7cecb-102">Overview of Location-Based Routing for conferencing in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "42153187"
 
 <span> </span>
 
-<span data-ttu-id="93e69-103">_**トピックの最終更新日:** 2013-07-19_</span><span class="sxs-lookup"><span data-stu-id="93e69-103">_**Topic Last Modified:** 2013-07-19_</span></span>
+<span data-ttu-id="7cecb-103">_**トピックの最終更新日:** 2013-07-19_</span><span class="sxs-lookup"><span data-stu-id="7cecb-103">_**Topic Last Modified:** 2013-07-19_</span></span>
 
-<span data-ttu-id="93e69-104">場所に基づくルーティング会議アプリケーションは、PSTN 有料電話のバイパスを防止するメカニズムを Lync 会議に提供します。</span><span class="sxs-lookup"><span data-stu-id="93e69-104">The Location-Based Routing Conferencing application provides to Lync Conferences a mechanism for the prevention of PSTN toll bypass.</span></span> <span data-ttu-id="93e69-105">アプリケーションはアクティブな会議を監視し、参加している Lync ユーザーの場所に基づいて、場所に基づくルーティング制限を適用します。</span><span class="sxs-lookup"><span data-stu-id="93e69-105">The application monitors active conferences and enforces Location-Based Routing restrictions based on the location of the Lync users participating.</span></span>
+<span data-ttu-id="7cecb-104">場所に基づくルーティング会議アプリケーションは、PSTN 有料電話のバイパスを防止するメカニズムを Lync 会議に提供します。</span><span class="sxs-lookup"><span data-stu-id="7cecb-104">The Location-Based Routing Conferencing application provides to Lync Conferences a mechanism for the prevention of PSTN toll bypass.</span></span> <span data-ttu-id="7cecb-105">アプリケーションはアクティブな会議を監視し、参加している Lync ユーザーの場所に基づいて、場所に基づくルーティング制限を適用します。</span><span class="sxs-lookup"><span data-stu-id="7cecb-105">The application monitors active conferences and enforces Location-Based Routing restrictions based on the location of the Lync users participating.</span></span>
 
-<span data-ttu-id="93e69-106">場所に基づくルーティング会議アプリケーションは、次の条件が満たされた場合に、Lync 会議に対して場所に基づくルーティングを適用するかどうかを決定します。</span><span class="sxs-lookup"><span data-stu-id="93e69-106">The Location-Based Routing Conferencing application determines whether Location-Based Routing is to be enforced on a Lync meeting if the following criteria are met:</span></span>
+<span data-ttu-id="7cecb-106">場所に基づくルーティング会議アプリケーションは、次の条件が満たされた場合に、Lync 会議に対して場所に基づくルーティングを適用するかどうかを決定します。</span><span class="sxs-lookup"><span data-stu-id="7cecb-106">The Location-Based Routing Conferencing application determines whether Location-Based Routing is to be enforced on a Lync meeting if the following criteria are met:</span></span>
 
-  - <span data-ttu-id="93e69-107">会議の開催者は、場所に基づくルーティングが有効になっています。</span><span class="sxs-lookup"><span data-stu-id="93e69-107">The meeting organizer is enabled for Location-Based Routing.</span></span> <span data-ttu-id="93e69-108">場所に基づくルーティングの制限は、場所に基づくルーティングが有効になっているユーザーによって開催される電話会議にのみ適用されます。</span><span class="sxs-lookup"><span data-stu-id="93e69-108">Location-Based Routing restrictions will be applied only to conferences that are organized by users who are enabled for Location-Based Routing.</span></span>
+  - <span data-ttu-id="7cecb-107">会議の開催者は、場所に基づくルーティングが有効になっています。</span><span class="sxs-lookup"><span data-stu-id="7cecb-107">The meeting organizer is enabled for Location-Based Routing.</span></span> <span data-ttu-id="7cecb-108">場所に基づくルーティングの制限は、場所に基づくルーティングが有効になっているユーザーによって開催される電話会議にのみ適用されます。</span><span class="sxs-lookup"><span data-stu-id="7cecb-108">Location-Based Routing restrictions will be applied only to conferences that are organized by users who are enabled for Location-Based Routing.</span></span>
 
-  - <span data-ttu-id="93e69-109">少なくとも1つの会議参加者が PSTN エンドポイントです。</span><span class="sxs-lookup"><span data-stu-id="93e69-109">At least one meeting participant is a PSTN endpoint.</span></span> <span data-ttu-id="93e69-110">場所に基づくルーティング制限は、PSTN エンドポイントを含む電話会議に対してのみ適用されます。</span><span class="sxs-lookup"><span data-stu-id="93e69-110">Location-Based Routing restrictions are applicable only for conferences that include PSTN endpoints.</span></span>
+  - <span data-ttu-id="7cecb-109">少なくとも1つの会議参加者が PSTN エンドポイントです。</span><span class="sxs-lookup"><span data-stu-id="7cecb-109">At least one meeting participant is a PSTN endpoint.</span></span> <span data-ttu-id="7cecb-110">場所に基づくルーティング制限は、PSTN エンドポイントを含む電話会議に対してのみ適用されます。</span><span class="sxs-lookup"><span data-stu-id="7cecb-110">Location-Based Routing restrictions are applicable only for conferences that include PSTN endpoints.</span></span>
 
-  - <span data-ttu-id="93e69-111">PSTN に電話会議をブリッジするために使用される PSTN ゲートウェイが配置されているネットワークサイト、および開催者と参加者が接続しているネットワークサイトがあります。</span><span class="sxs-lookup"><span data-stu-id="93e69-111">The network site where the PSTN gateway used to bridge the conference to the PSTN is located as well as the network sites where the organizers and participants are connecting from.</span></span>
+  - <span data-ttu-id="7cecb-111">PSTN に電話会議をブリッジするために使用される PSTN ゲートウェイが配置されているネットワークサイト、および開催者と参加者が接続しているネットワークサイトがあります。</span><span class="sxs-lookup"><span data-stu-id="7cecb-111">The network site where the PSTN gateway used to bridge the conference to the PSTN is located as well as the network sites where the organizers and participants are connecting from.</span></span>
 
-<span data-ttu-id="93e69-112">場所に基づくルーティング会議アプリケーションによって、Lync ユーザーと PSTN エンドポイントを異なるネットワークサイトから同じ電話会議に参加させることができなくなります。</span><span class="sxs-lookup"><span data-stu-id="93e69-112">The Location-Based Routing Conferencing application prevents the participation of Lync users and PSTN endpoints from different network sites to the same conference.</span></span> <span data-ttu-id="93e69-113">会議の開催者が場所に基づいたルーティングを有効にしている場合、会議アプリケーションは次の制限を適用します。</span><span class="sxs-lookup"><span data-stu-id="93e69-113">If the organizer of a meeting is enabled for Location-Based Routing, the Conferencing application enforces the following restrictions:</span></span>
+<span data-ttu-id="7cecb-112">場所に基づくルーティング会議アプリケーションによって、Lync ユーザーと PSTN エンドポイントを異なるネットワークサイトから同じ電話会議に参加させることができなくなります。</span><span class="sxs-lookup"><span data-stu-id="7cecb-112">The Location-Based Routing Conferencing application prevents the participation of Lync users and PSTN endpoints from different network sites to the same conference.</span></span> <span data-ttu-id="7cecb-113">会議の開催者が場所に基づいたルーティングを有効にしている場合、会議アプリケーションは次の制限を適用します。</span><span class="sxs-lookup"><span data-stu-id="7cecb-113">If the organizer of a meeting is enabled for Location-Based Routing, the Conferencing application enforces the following restrictions:</span></span>
 
-  - <span data-ttu-id="93e69-114">Lync 会議に参加できるエンドポイントは、既に会議に参加しているエンドポイントに依存します。この制限は、参加したエンドポイントの退室と新しいエンドポイントが会議に参加したときに調整されます。</span><span class="sxs-lookup"><span data-stu-id="93e69-114">The endpoints that can join a Lync meeting depend on the endpoints that already joined the conference, and this restriction adjusts as joined endpoints leave and new endpoints join the conference.</span></span> <span data-ttu-id="93e69-115">開催者と参加者が、同じネットワークサイトから Lync 会議に参加している場合、PSTN エンドポイント、同じネットワークサイトの別の参加者、別のネットワークサイトからの別の参加者、または不明なネットワークサイトからの参加者が許可されている場合申し込み.</span><span class="sxs-lookup"><span data-stu-id="93e69-115">If organizers and participants are joining a Lync meeting from the same network site, then a PSTN endpoint, another participant from the same network site, another participant from a different network site or a participant from an unknown network site are allowed to join.</span></span>
+  - <span data-ttu-id="7cecb-114">Lync 会議に参加できるエンドポイントは、既に会議に参加しているエンドポイントに依存します。この制限は、参加したエンドポイントの退室と新しいエンドポイントが会議に参加したときに調整されます。</span><span class="sxs-lookup"><span data-stu-id="7cecb-114">The endpoints that can join a Lync meeting depend on the endpoints that already joined the conference, and this restriction adjusts as joined endpoints leave and new endpoints join the conference.</span></span> <span data-ttu-id="7cecb-115">開催者と参加者が、同じネットワークサイトから Lync 会議に参加している場合、PSTN エンドポイント、同じネットワークサイトの別の参加者、別のネットワークサイトからの別の参加者、または不明なネットワークサイトからの参加者が許可されている場合申し込み.</span><span class="sxs-lookup"><span data-stu-id="7cecb-115">If organizers and participants are joining a Lync meeting from the same network site, then a PSTN endpoint, another participant from the same network site, another participant from a different network site or a participant from an unknown network site are allowed to join.</span></span>
 
-  - <span data-ttu-id="93e69-116">開催者と参加者が、異なるまたは不明なネットワークサイトから会議に参加している場合、pstn エンドポイントは、場所に基づくルーティングが有効になっている SIP トランクからの ingresses による会議への参加を許可されません。</span><span class="sxs-lookup"><span data-stu-id="93e69-116">If organizers and participants are joining the meeting from different or unknown network sites, a PSTN endpoint is not allowed to join the meeting if the PSTN call ingresses from a SIP trunk enabled for Location-Based Routing.</span></span>
+  - <span data-ttu-id="7cecb-116">開催者と参加者が、異なるまたは不明なネットワークサイトから会議に参加している場合、pstn エンドポイントは、場所に基づくルーティングが有効になっている SIP トランクからの ingresses による会議への参加を許可されません。</span><span class="sxs-lookup"><span data-stu-id="7cecb-116">If organizers and participants are joining the meeting from different or unknown network sites, a PSTN endpoint is not allowed to join the meeting if the PSTN call ingresses from a SIP trunk enabled for Location-Based Routing.</span></span>
 
-  - <span data-ttu-id="93e69-117">開催者と参加者が全員同じネットワークサイトから参加していて、PSTN から同じ会議に参加している参加者がいる場合、別のネットワークサイトの Lync エンドポイントは会議に参加できません。</span><span class="sxs-lookup"><span data-stu-id="93e69-117">If organizers and participants are all joining the meeting from the same network site and there are participants joining the same meeting from the PSTN, a Lync endpoint from a different network site is not allowed to join the meeting.</span></span>
+  - <span data-ttu-id="7cecb-117">開催者と参加者が全員同じネットワークサイトから参加していて、PSTN から同じ会議に参加している参加者がいる場合、別のネットワークサイトの Lync エンドポイントは会議に参加できません。</span><span class="sxs-lookup"><span data-stu-id="7cecb-117">If organizers and participants are all joining the meeting from the same network site and there are participants joining the same meeting from the PSTN, a Lync endpoint from a different network site is not allowed to join the meeting.</span></span>
 
-<span data-ttu-id="93e69-118">これらの会議の場所に基づくルーティング制限を次の表にまとめます。</span><span class="sxs-lookup"><span data-stu-id="93e69-118">These conferencing Location-Based Routing restrictions are summarized in the following table.</span></span>
+<span data-ttu-id="7cecb-118">これらの会議の場所に基づくルーティング制限を次の表にまとめます。</span><span class="sxs-lookup"><span data-stu-id="7cecb-118">These conferencing Location-Based Routing restrictions are summarized in the following table.</span></span>
 
 
 <table>
@@ -66,51 +66,51 @@ ms.locfileid: "42153187"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="93e69-119">任意の時点での会議のユーザー</span><span class="sxs-lookup"><span data-stu-id="93e69-119">User(s) in a conference at any given point</span></span></p></td>
-<td><p><span data-ttu-id="93e69-120">会議への参加が許可されたユーザー</span><span class="sxs-lookup"><span data-stu-id="93e69-120">User(s) allowed to join the conference</span></span></p></td>
-<td><p><span data-ttu-id="93e69-121">ユーザーが会議に参加することは許可されていません</span><span class="sxs-lookup"><span data-stu-id="93e69-121">User(s) not allowed to join the conference</span></span></p></td>
+<td><p><span data-ttu-id="7cecb-119">任意の時点での会議のユーザー</span><span class="sxs-lookup"><span data-stu-id="7cecb-119">User(s) in a conference at any given point</span></span></p></td>
+<td><p><span data-ttu-id="7cecb-120">会議への参加が許可されたユーザー</span><span class="sxs-lookup"><span data-stu-id="7cecb-120">User(s) allowed to join the conference</span></span></p></td>
+<td><p><span data-ttu-id="7cecb-121">ユーザーが会議に参加することは許可されていません</span><span class="sxs-lookup"><span data-stu-id="7cecb-121">User(s) not allowed to join the conference</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="93e69-122">単一のネットワークサイトからの Lync VoIP クライアントユーザー</span><span class="sxs-lookup"><span data-stu-id="93e69-122">Lync VoIP client user(s) from a single network site</span></span></p></td>
-<td><p><span data-ttu-id="93e69-123">同じネットワークサイトからの Lync VoIP クライアントユーザー</span><span class="sxs-lookup"><span data-stu-id="93e69-123">Lync VoIP client user from the same network site</span></span></p>
-<p><span data-ttu-id="93e69-124">別のネットワークサイトからの Lync VoIP クライアントユーザー</span><span class="sxs-lookup"><span data-stu-id="93e69-124">Lync VoIP client user from a different network site</span></span></p>
-<p><span data-ttu-id="93e69-125">不明なネットワークサイトからの Lync VoIP クライアントユーザー</span><span class="sxs-lookup"><span data-stu-id="93e69-125">Lync VoIP client user from an unknown network site</span></span></p>
-<p><span data-ttu-id="93e69-126">フェデレーション Lync VoIP クライアントユーザー</span><span class="sxs-lookup"><span data-stu-id="93e69-126">Federated Lync VoIP client user</span></span></p>
-<p><span data-ttu-id="93e69-127">PSTN エンドポイントから参加しているユーザー</span><span class="sxs-lookup"><span data-stu-id="93e69-127">User joining from a PSTN endpoint</span></span></p></td>
-<td><p><span data-ttu-id="93e69-128">なし</span><span class="sxs-lookup"><span data-stu-id="93e69-128">None</span></span></p></td>
+<td><p><span data-ttu-id="7cecb-122">単一のネットワークサイトからの Lync VoIP クライアントユーザー</span><span class="sxs-lookup"><span data-stu-id="7cecb-122">Lync VoIP client user(s) from a single network site</span></span></p></td>
+<td><p><span data-ttu-id="7cecb-123">同じネットワークサイトからの Lync VoIP クライアントユーザー</span><span class="sxs-lookup"><span data-stu-id="7cecb-123">Lync VoIP client user from the same network site</span></span></p>
+<p><span data-ttu-id="7cecb-124">別のネットワークサイトからの Lync VoIP クライアントユーザー</span><span class="sxs-lookup"><span data-stu-id="7cecb-124">Lync VoIP client user from a different network site</span></span></p>
+<p><span data-ttu-id="7cecb-125">不明なネットワークサイトからの Lync VoIP クライアントユーザー</span><span class="sxs-lookup"><span data-stu-id="7cecb-125">Lync VoIP client user from an unknown network site</span></span></p>
+<p><span data-ttu-id="7cecb-126">フェデレーション Lync VoIP クライアントユーザー</span><span class="sxs-lookup"><span data-stu-id="7cecb-126">Federated Lync VoIP client user</span></span></p>
+<p><span data-ttu-id="7cecb-127">PSTN エンドポイントから参加しているユーザー</span><span class="sxs-lookup"><span data-stu-id="7cecb-127">User joining from a PSTN endpoint</span></span></p></td>
+<td><p><span data-ttu-id="7cecb-128">なし</span><span class="sxs-lookup"><span data-stu-id="7cecb-128">None</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="93e69-129">不明なネットワークサイトからの Lync VoIP クライアントユーザー</span><span class="sxs-lookup"><span data-stu-id="93e69-129">Lync VoIP client user(s) from an unknown network site</span></span></p></td>
-<td><p><span data-ttu-id="93e69-130">任意のサイトの Lync VoIP クライアントユーザー</span><span class="sxs-lookup"><span data-stu-id="93e69-130">Lync VoIP client user from any site</span></span></p>
-<p><span data-ttu-id="93e69-131">不明なサイトからの Lync VoIP クライアントユーザー</span><span class="sxs-lookup"><span data-stu-id="93e69-131">Lync VoIP client user from an unknown site</span></span></p>
-<p><span data-ttu-id="93e69-132">フェデレーション Lync VoIP クライアントユーザー</span><span class="sxs-lookup"><span data-stu-id="93e69-132">Federated Lync VoIP client user</span></span></p></td>
-<td><p><span data-ttu-id="93e69-133">PSTN エンドポイント経由で参加するユーザー</span><span class="sxs-lookup"><span data-stu-id="93e69-133">User joining via a PSTN endpoint</span></span></p></td>
+<td><p><span data-ttu-id="7cecb-129">不明なネットワークサイトからの Lync VoIP クライアントユーザー</span><span class="sxs-lookup"><span data-stu-id="7cecb-129">Lync VoIP client user(s) from an unknown network site</span></span></p></td>
+<td><p><span data-ttu-id="7cecb-130">任意のサイトの Lync VoIP クライアントユーザー</span><span class="sxs-lookup"><span data-stu-id="7cecb-130">Lync VoIP client user from any site</span></span></p>
+<p><span data-ttu-id="7cecb-131">不明なサイトからの Lync VoIP クライアントユーザー</span><span class="sxs-lookup"><span data-stu-id="7cecb-131">Lync VoIP client user from an unknown site</span></span></p>
+<p><span data-ttu-id="7cecb-132">フェデレーション Lync VoIP クライアントユーザー</span><span class="sxs-lookup"><span data-stu-id="7cecb-132">Federated Lync VoIP client user</span></span></p></td>
+<td><p><span data-ttu-id="7cecb-133">PSTN エンドポイント経由で参加するユーザー</span><span class="sxs-lookup"><span data-stu-id="7cecb-133">User joining via a PSTN endpoint</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="93e69-134">異なるネットワークサイトからの Lync VoIP クライアントユーザー</span><span class="sxs-lookup"><span data-stu-id="93e69-134">Lync VoIP client users from different network sites</span></span></p></td>
-<td><p><span data-ttu-id="93e69-135">任意のネットワークサイトからの Lync VoIP クライアントユーザー</span><span class="sxs-lookup"><span data-stu-id="93e69-135">Lync VoIP client user from any network site</span></span></p>
-<p><span data-ttu-id="93e69-136">不明なネットワークサイトからの Lync VoIP クライアントユーザー</span><span class="sxs-lookup"><span data-stu-id="93e69-136">Lync VoIP client user from an unknown network site</span></span></p>
-<p><span data-ttu-id="93e69-137">フェデレーション Lync VoIP クライアントユーザー</span><span class="sxs-lookup"><span data-stu-id="93e69-137">Federated Lync VoIP client user</span></span></p></td>
-<td><p><span data-ttu-id="93e69-138">PSTN エンドポイント経由で参加するユーザー</span><span class="sxs-lookup"><span data-stu-id="93e69-138">User joining via a PSTN endpoint</span></span></p></td>
+<td><p><span data-ttu-id="7cecb-134">異なるネットワークサイトからの Lync VoIP クライアントユーザー</span><span class="sxs-lookup"><span data-stu-id="7cecb-134">Lync VoIP client users from different network sites</span></span></p></td>
+<td><p><span data-ttu-id="7cecb-135">任意のネットワークサイトからの Lync VoIP クライアントユーザー</span><span class="sxs-lookup"><span data-stu-id="7cecb-135">Lync VoIP client user from any network site</span></span></p>
+<p><span data-ttu-id="7cecb-136">不明なネットワークサイトからの Lync VoIP クライアントユーザー</span><span class="sxs-lookup"><span data-stu-id="7cecb-136">Lync VoIP client user from an unknown network site</span></span></p>
+<p><span data-ttu-id="7cecb-137">フェデレーション Lync VoIP クライアントユーザー</span><span class="sxs-lookup"><span data-stu-id="7cecb-137">Federated Lync VoIP client user</span></span></p></td>
+<td><p><span data-ttu-id="7cecb-138">PSTN エンドポイント経由で参加するユーザー</span><span class="sxs-lookup"><span data-stu-id="7cecb-138">User joining via a PSTN endpoint</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="93e69-139">単一のネットワークサイトからの Lync VoIP クライアントユーザーと PSTN エンドポイントから参加しているユーザー</span><span class="sxs-lookup"><span data-stu-id="93e69-139">Lync VoIP client user(s) from a single network site and users joining from a PSTN endpoint</span></span></p></td>
-<td><p><span data-ttu-id="93e69-140">同じネットワークサイトからの Lync VoIP クライアントユーザー</span><span class="sxs-lookup"><span data-stu-id="93e69-140">Lync VoIP client user from the same network site</span></span></p></td>
-<td><p><span data-ttu-id="93e69-141">別のネットワークサイトからの Lync VoIP クライアントユーザー</span><span class="sxs-lookup"><span data-stu-id="93e69-141">Lync VoIP client user from a different network site</span></span></p>
-<p><span data-ttu-id="93e69-142">不明なネットワークサイトからの Lync VoIP クライアントユーザー</span><span class="sxs-lookup"><span data-stu-id="93e69-142">Lync VoIP client user from an unknown network site</span></span></p>
-<p><span data-ttu-id="93e69-143">フェデレーション Lync VoIP クライアントユーザー</span><span class="sxs-lookup"><span data-stu-id="93e69-143">Federated Lync VoIP client user</span></span></p></td>
+<td><p><span data-ttu-id="7cecb-139">単一のネットワークサイトからの Lync VoIP クライアントユーザーと PSTN エンドポイントから参加しているユーザー</span><span class="sxs-lookup"><span data-stu-id="7cecb-139">Lync VoIP client user(s) from a single network site and users joining from a PSTN endpoint</span></span></p></td>
+<td><p><span data-ttu-id="7cecb-140">同じネットワークサイトからの Lync VoIP クライアントユーザー</span><span class="sxs-lookup"><span data-stu-id="7cecb-140">Lync VoIP client user from the same network site</span></span></p></td>
+<td><p><span data-ttu-id="7cecb-141">別のネットワークサイトからの Lync VoIP クライアントユーザー</span><span class="sxs-lookup"><span data-stu-id="7cecb-141">Lync VoIP client user from a different network site</span></span></p>
+<p><span data-ttu-id="7cecb-142">不明なネットワークサイトからの Lync VoIP クライアントユーザー</span><span class="sxs-lookup"><span data-stu-id="7cecb-142">Lync VoIP client user from an unknown network site</span></span></p>
+<p><span data-ttu-id="7cecb-143">フェデレーション Lync VoIP クライアントユーザー</span><span class="sxs-lookup"><span data-stu-id="7cecb-143">Federated Lync VoIP client user</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="93e69-144">場所に基づくルーティング会議アプリケーションのその他の特徴は次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="93e69-144">The following are additional characteristics of the Location-Based Routing Conferencing application:</span></span>
+<span data-ttu-id="7cecb-144">場所に基づくルーティング会議アプリケーションのその他の特徴は次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="7cecb-144">The following are additional characteristics of the Location-Based Routing Conferencing application:</span></span>
 
-  - <span data-ttu-id="93e69-145">ユーザーが会議に参加することを許可されていない場所に基づいたルーティング制限により、会議へのユーザー呼び出しが拒否され、その通話が完了していないか、終了したことが Lync クライアントから報告されます。</span><span class="sxs-lookup"><span data-stu-id="93e69-145">When a user is not allowed to join a conference given Location-Based Routing restrictions, the users call to the conference will be rejected and his Lync Client will report that the call was not completed or has ended.</span></span>
+  - <span data-ttu-id="7cecb-145">ユーザーが会議に参加することを許可されていない場所に基づいたルーティング制限により、会議へのユーザー呼び出しが拒否され、その通話が完了していないか、終了したことが Lync クライアントから報告されます。</span><span class="sxs-lookup"><span data-stu-id="7cecb-145">When a user is not allowed to join a conference given Location-Based Routing restrictions, the users call to the conference will be rejected and his Lync Client will report that the call was not completed or has ended.</span></span>
 
-  - <span data-ttu-id="93e69-146">場所に基づくルーティングが有効になっていないトランクを介してエンドポイントが参加している場合、場所に基づいたルーティング強制を使用して会議に参加する PSTN エンドポイントは、その状態にかかわらず、会議への参加を制限されません。</span><span class="sxs-lookup"><span data-stu-id="93e69-146">A PSTN endpoint joining a conference with Location-Based Routing enforcements will not be restricted to join the conference regardless of its state if the endpoint joins via a trunk that is not enabled for Location-Based Routing.</span></span>
+  - <span data-ttu-id="7cecb-146">場所に基づくルーティングが有効になっていないトランクを介してエンドポイントが参加している場合、場所に基づいたルーティング強制を使用して会議に参加する PSTN エンドポイントは、その状態にかかわらず、会議への参加を制限されません。</span><span class="sxs-lookup"><span data-stu-id="7cecb-146">A PSTN endpoint joining a conference with Location-Based Routing enforcements will not be restricted to join the conference regardless of its state if the endpoint joins via a trunk that is not enabled for Location-Based Routing.</span></span>
 
-  - <span data-ttu-id="93e69-147">PSTN への呼び出しを出口しない SIP トランクを介して Mediadditionalserver に接続されている PBX システムは、SIP トランクが定義されているのと同じネットワークサイトにある Lync ユーザーと同じ強制を持つことになります。</span><span class="sxs-lookup"><span data-stu-id="93e69-147">A PBX system connected to a Mediations Server over a SIP trunk that does not egress calls to the PSTN will have the same enforcements as Lync users located in the same network site where the SIP trunk is defined.</span></span> <span data-ttu-id="93e69-148">たとえば、PSTN エンドポイントは、PBX ユーザーと Lync ユーザーが同じネットワークサイトに配置されている場合に、そのユーザーとの電話会議に参加できます。そうしないと、PBX ユーザーが Lync ユーザーとは別のネットワークサイトにある場合、PSTN エンドポイントは会議への参加を許可されません。</span><span class="sxs-lookup"><span data-stu-id="93e69-148">For example, a PSTN endpoint will be able to join a conference with a PBX user and a Lync user if they are located in the same network site; otherwise, the PSTN endpoint will not be allowed to join the conference if the PBX user is in a different network site than the Lync user.</span></span>
+  - <span data-ttu-id="7cecb-147">PSTN への呼び出しを出口しない SIP トランクを介して Mediadditionalserver に接続されている PBX システムは、SIP トランクが定義されているのと同じネットワークサイトにある Lync ユーザーと同じ強制を持つことになります。</span><span class="sxs-lookup"><span data-stu-id="7cecb-147">A PBX system connected to a Mediations Server over a SIP trunk that does not egress calls to the PSTN will have the same enforcements as Lync users located in the same network site where the SIP trunk is defined.</span></span> <span data-ttu-id="7cecb-148">たとえば、PSTN エンドポイントは、PBX ユーザーと Lync ユーザーが同じネットワークサイトに配置されている場合に、そのユーザーとの電話会議に参加できます。そうしないと、PBX ユーザーが Lync ユーザーとは別のネットワークサイトにある場合、PSTN エンドポイントは会議への参加を許可されません。</span><span class="sxs-lookup"><span data-stu-id="7cecb-148">For example, a PSTN endpoint will be able to join a conference with a PBX user and a Lync user if they are located in the same network site; otherwise, the PSTN endpoint will not be allowed to join the conference if the PBX user is in a different network site than the Lync user.</span></span>
 
 </div>
 

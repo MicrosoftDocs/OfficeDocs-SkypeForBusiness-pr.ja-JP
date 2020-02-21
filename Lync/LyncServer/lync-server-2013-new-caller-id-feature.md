@@ -12,20 +12,20 @@ ms:contentKeyID: 49733562
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ad7bada2aacf27856c405c7d36c684861bc9c5e7
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: d671d7b94e82285ee33afef841b7ce10607857f9
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42126900"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42217033"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-caller-id-feature-in-lync-server-2013"></a><span data-ttu-id="dbec2-102">Lync Server 2013 の新しい発信者番号の機能</span><span class="sxs-lookup"><span data-stu-id="dbec2-102">New caller ID feature in Lync Server 2013</span></span>
+# <a name="new-caller-id-feature-in-lync-server-2013"></a><span data-ttu-id="c6b3f-102">Lync Server 2013 の新しい発信者番号の機能</span><span class="sxs-lookup"><span data-stu-id="c6b3f-102">New caller ID feature in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,18 +35,18 @@ ms.locfileid: "42126900"
 
 <span> </span>
 
-<span data-ttu-id="dbec2-103">_**トピックの最終更新日:** 2012-10-05_</span><span class="sxs-lookup"><span data-stu-id="dbec2-103">_**Topic Last Modified:** 2012-10-05_</span></span>
+<span data-ttu-id="c6b3f-103">_**トピックの最終更新日:** 2012-10-05_</span><span class="sxs-lookup"><span data-stu-id="c6b3f-103">_**Topic Last Modified:** 2012-10-05_</span></span>
 
-<span data-ttu-id="dbec2-104">Lync Server 2013 を使用すると、管理者は通話パーティの電話番号の形式を柔軟に変更できます。</span><span class="sxs-lookup"><span data-stu-id="dbec2-104">Lync Server 2013 provides the administrator the flexibility to modify the format of the calling party’s phone number.</span></span> <span data-ttu-id="dbec2-105">この発信者番号表現機能によって、管理者は必要に応じて、発信者電話番号をトランク ピアで認識されるダイヤル形式へ変更できます。</span><span class="sxs-lookup"><span data-stu-id="dbec2-105">This Caller ID presentation feature enables the administrator to modify the calling party’s phone number to a dialing format that is understood by the trunk peer, if necessary.</span></span> <span data-ttu-id="dbec2-106">たとえば、ダイヤル文字列の冒頭から +44 を取り除いて 0114 に置き換える変換ルールを記述できます。</span><span class="sxs-lookup"><span data-stu-id="dbec2-106">For example, you can write a translation rule to remove +44 from the beginning of a dial string and replace it with 0144.</span></span>
+<span data-ttu-id="c6b3f-104">Lync Server 2013 を使用すると、管理者は通話パーティの電話番号の形式を柔軟に変更できます。</span><span class="sxs-lookup"><span data-stu-id="c6b3f-104">Lync Server 2013 provides the administrator the flexibility to modify the format of the calling party’s phone number.</span></span> <span data-ttu-id="c6b3f-105">この発信者番号表現機能によって、管理者は必要に応じて、発信者電話番号をトランク ピアで認識されるダイヤル形式へ変更できます。</span><span class="sxs-lookup"><span data-stu-id="c6b3f-105">This Caller ID presentation feature enables the administrator to modify the calling party’s phone number to a dialing format that is understood by the trunk peer, if necessary.</span></span> <span data-ttu-id="c6b3f-106">たとえば、ダイヤル文字列の冒頭から +44 を取り除いて 0114 に置き換える変換ルールを記述できます。</span><span class="sxs-lookup"><span data-stu-id="c6b3f-106">For example, you can write a translation rule to remove +44 from the beginning of a dial string and replace it with 0144.</span></span>
 
-<span data-ttu-id="dbec2-107">これで、Lync Server 2013 を使用して、発信者の電話番号と呼び出し先の電話番号の両方を、必要に応じて異なる形式に変換することができます。</span><span class="sxs-lookup"><span data-stu-id="dbec2-107">Now, with Lync Server 2013, both the caller’s phone number and the callee’s phone number can be translated into different formats, as needed.</span></span> <span data-ttu-id="dbec2-108">この柔軟性により、Lync Server 2013 はさまざまなテレフォニーシステム間のトランクトランスレーターとして機能することが可能になります。</span><span class="sxs-lookup"><span data-stu-id="dbec2-108">This flexibility makes it possible for Lync Server 2013 to serve as a trunk translator between different telephony systems.</span></span>
+<span data-ttu-id="c6b3f-107">これで、Lync Server 2013 を使用して、発信者の電話番号と呼び出し先の電話番号の両方を、必要に応じて異なる形式に変換することができます。</span><span class="sxs-lookup"><span data-stu-id="c6b3f-107">Now, with Lync Server 2013, both the caller’s phone number and the callee’s phone number can be translated into different formats, as needed.</span></span> <span data-ttu-id="c6b3f-108">この柔軟性により、Lync Server 2013 はさまざまなテレフォニーシステム間のトランクトランスレーターとして機能することが可能になります。</span><span class="sxs-lookup"><span data-stu-id="c6b3f-108">This flexibility makes it possible for Lync Server 2013 to serve as a trunk translator between different telephony systems.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="dbec2-109">関連項目</span><span class="sxs-lookup"><span data-stu-id="dbec2-109">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c6b3f-109">関連項目</span><span class="sxs-lookup"><span data-stu-id="c6b3f-109">See Also</span></span>
 
 
-[<span data-ttu-id="dbec2-110">Lync Server 2013 の新しいエンタープライズ Voip 機能</span><span class="sxs-lookup"><span data-stu-id="dbec2-110">New Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-new-enterprise-voice-features.md)  
+[<span data-ttu-id="c6b3f-110">Lync Server 2013 の新しいエンタープライズ Voip 機能</span><span class="sxs-lookup"><span data-stu-id="c6b3f-110">New Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-new-enterprise-voice-features.md)  
   
 
 </div>
