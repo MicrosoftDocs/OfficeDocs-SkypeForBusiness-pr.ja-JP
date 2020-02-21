@@ -12,20 +12,20 @@ ms:contentKeyID: 48185090
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba26ebf354a3607cc20f3e59739113a5ad925a99
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 452eea98fee3dc70fa88d637893c0136c7edf8d6
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42154459"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42202583"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delete-an-unassigned-number-range-in-lync-server-2013"></a><span data-ttu-id="242f5-102">Lync Server 2013 で割り当てられていない番号範囲を削除する</span><span class="sxs-lookup"><span data-stu-id="242f5-102">Delete an unassigned number range in Lync Server 2013</span></span>
+# <a name="delete-an-unassigned-number-range-in-lync-server-2013"></a><span data-ttu-id="9f42a-102">Lync Server 2013 で割り当てられていない番号範囲を削除する</span><span class="sxs-lookup"><span data-stu-id="9f42a-102">Delete an unassigned number range in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,41 +35,41 @@ ms.locfileid: "42154459"
 
 <span> </span>
 
-<span data-ttu-id="242f5-103">_**トピックの最終更新日:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="242f5-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="9f42a-103">_**トピックの最終更新日:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="9f42a-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="242f5-104">アナウンスの割り当てられていない番号範囲を削除するには、次のいずれかの手順を使用します。</span><span class="sxs-lookup"><span data-stu-id="242f5-104">Use one of the following procedures to delete an unassigned number range for Announcements.</span></span>
+<span data-ttu-id="9f42a-104">アナウンスの割り当てられていない番号範囲を削除するには、次のいずれかの手順を使用します。</span><span class="sxs-lookup"><span data-stu-id="9f42a-104">Use one of the following procedures to delete an unassigned number range for Announcements.</span></span>
 
 <div>
 
-## <a name="to-use-lync-server-control-panel-to-delete-an-unassigned-number-range"></a><span data-ttu-id="242f5-105">Lync Server コントロールパネルを使用して割り当てられていない番号範囲を削除するには</span><span class="sxs-lookup"><span data-stu-id="242f5-105">To use Lync Server Control Panel to delete an unassigned number range</span></span>
+## <a name="to-use-lync-server-control-panel-to-delete-an-unassigned-number-range"></a><span data-ttu-id="9f42a-105">Lync Server コントロールパネルを使用して割り当てられていない番号範囲を削除するには</span><span class="sxs-lookup"><span data-stu-id="9f42a-105">To use Lync Server Control Panel to delete an unassigned number range</span></span>
 
-1.  <span data-ttu-id="242f5-106">RTCUniversalServerAdmins グループのメンバーとして、または CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator の役割のメンバーとしてコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="242f5-106">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role.</span></span> <span data-ttu-id="242f5-107">詳細については、「 [Lync Server 2013 でのセットアップのアクセス許可の委任](lync-server-2013-delegate-setup-permissions.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="242f5-107">For details, see [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
+1.  <span data-ttu-id="9f42a-106">RTCUniversalServerAdmins グループのメンバーとして、または CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator の役割のメンバーとしてコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="9f42a-106">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role.</span></span> <span data-ttu-id="9f42a-107">詳細については、「 [Lync Server 2013 でのセットアップのアクセス許可の委任](lync-server-2013-delegate-setup-permissions.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="9f42a-107">For details, see [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
 
-2.  <span data-ttu-id="242f5-108">ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="242f5-108">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="242f5-109">Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="242f5-109">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="9f42a-108">ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="9f42a-108">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="9f42a-109">Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="9f42a-109">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="242f5-110">左側のナビゲーション バーで [**音声機能**] をクリックし、[**割り当てられていない番号**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="242f5-110">In the left navigation bar, click **Voice Features** and then click **Unassigned Number**.</span></span>
+3.  <span data-ttu-id="9f42a-110">左側のナビゲーション バーで [**音声機能**] をクリックし、[**割り当てられていない番号**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="9f42a-110">In the left navigation bar, click **Voice Features** and then click **Unassigned Number**.</span></span>
 
-4.  <span data-ttu-id="242f5-111">[**割り当てられていない番号**] ページの検索フィールドで、削除する割り当てられていない番号範囲の名前または名前の一部を入力します。</span><span class="sxs-lookup"><span data-stu-id="242f5-111">On the **Unassigned Number** page, in the search field, type all or part of the name of the unassigned number range you want to delete.</span></span>
+4.  <span data-ttu-id="9f42a-111">[**割り当てられていない番号**] ページの検索フィールドで、削除する割り当てられていない番号範囲の名前または名前の一部を入力します。</span><span class="sxs-lookup"><span data-stu-id="9f42a-111">On the **Unassigned Number** page, in the search field, type all or part of the name of the unassigned number range you want to delete.</span></span>
 
-5.  <span data-ttu-id="242f5-112">結果の番号範囲の一覧で、名前をクリックして、[**編集**] をクリックし、[**削除**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="242f5-112">In the resulting list of number ranges, click the name, click **Edit**, and then click **Delete**.</span></span>
+5.  <span data-ttu-id="9f42a-112">結果の番号範囲の一覧で、名前をクリックして、[**編集**] をクリックし、[**削除**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="9f42a-112">In the resulting list of number ranges, click the name, click **Edit**, and then click **Delete**.</span></span>
 
-6.  <span data-ttu-id="242f5-113">[**すべて確定**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="242f5-113">Click **Commit all**.</span></span>
+6.  <span data-ttu-id="9f42a-113">[**すべて確定**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="9f42a-113">Click **Commit all**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-use-windows-powershell-to-delete-an-unassigned-number-range"></a><span data-ttu-id="242f5-114">Windows PowerShell を使用して割り当てられていない番号範囲を削除するには</span><span class="sxs-lookup"><span data-stu-id="242f5-114">To use Windows PowerShell to delete an unassigned number range</span></span>
+## <a name="to-use-windows-powershell-to-delete-an-unassigned-number-range"></a><span data-ttu-id="9f42a-114">Windows PowerShell を使用して割り当てられていない番号範囲を削除するには</span><span class="sxs-lookup"><span data-stu-id="9f42a-114">To use Windows PowerShell to delete an unassigned number range</span></span>
 
-1.  <span data-ttu-id="242f5-115">Lync Server 管理シェルがインストールされているコンピューターに、RTCUniversalServerAdmins グループのメンバーとして、または「 [Lync server 2013 のセットアップのアクセス許可の委任](lync-server-2013-delegate-setup-permissions.md)」に説明されている必要なユーザー権限を使用してログオンします。</span><span class="sxs-lookup"><span data-stu-id="242f5-115">Log on to the computer where Lync Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or with the necessary user rights as described in [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
+1.  <span data-ttu-id="9f42a-115">Lync Server 管理シェルがインストールされているコンピューターに、RTCUniversalServerAdmins グループのメンバーとして、または「 [Lync server 2013 のセットアップのアクセス許可の委任](lync-server-2013-delegate-setup-permissions.md)」に説明されている必要なユーザー権限を使用してログオンします。</span><span class="sxs-lookup"><span data-stu-id="9f42a-115">Log on to the computer where Lync Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or with the necessary user rights as described in [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
 
-2.  <span data-ttu-id="242f5-116">Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="242f5-116">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="9f42a-116">Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="9f42a-116">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="242f5-117">コマンドラインで、次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="242f5-117">At the command line, type:</span></span>
+3.  <span data-ttu-id="9f42a-117">コマンドラインで、次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="9f42a-117">At the command line, type:</span></span>
     
         Remove-CsUnassignedNumber -Identity "<name of unassigned number range>" 
     
-    <span data-ttu-id="242f5-118">次に例を示します。</span><span class="sxs-lookup"><span data-stu-id="242f5-118">For example:</span></span>
+    <span data-ttu-id="9f42a-118">次に例を示します。</span><span class="sxs-lookup"><span data-stu-id="9f42a-118">For example:</span></span>
     
         Remove-CsUnassignedNumber -Identity "Unassigned range 1"
     
@@ -77,7 +77,7 @@ ms.locfileid: "42154459"
     
 
     > [!NOTE]  
-    > <span data-ttu-id="242f5-119">その他のオプションの詳細については、「 <A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsCallParkOrbit">get-cscallparkorbit</A>」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="242f5-119">For details about more options, see <A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsCallParkOrbit">Remove-CsCallParkOrbit</A>.</span></span>
+    > <span data-ttu-id="9f42a-119">その他のオプションの詳細については、「 <A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsCallParkOrbit">get-cscallparkorbit</A>」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="9f42a-119">For details about more options, see <A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsCallParkOrbit">Remove-CsCallParkOrbit</A>.</span></span>
 
     
     </div>
@@ -86,14 +86,14 @@ ms.locfileid: "42154459"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="242f5-120">関連項目</span><span class="sxs-lookup"><span data-stu-id="242f5-120">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9f42a-120">関連項目</span><span class="sxs-lookup"><span data-stu-id="9f42a-120">See Also</span></span>
 
 
-[<span data-ttu-id="242f5-121">Lync Server 2013 で割り当てられていない番号範囲を作成または変更する</span><span class="sxs-lookup"><span data-stu-id="242f5-121">Create or modify an unassigned number range in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-an-unassigned-number-range.md)  
+[<span data-ttu-id="9f42a-121">Lync Server 2013 で割り当てられていない番号範囲を作成または変更する</span><span class="sxs-lookup"><span data-stu-id="9f42a-121">Create or modify an unassigned number range in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-an-unassigned-number-range.md)  
 
 
-[<span data-ttu-id="242f5-122">Remove-csunassignednumber</span><span class="sxs-lookup"><span data-stu-id="242f5-122">Remove-CsUnassignedNumber</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsUnassignedNumber)  
-[<span data-ttu-id="242f5-123">Remove-csunassignednumber</span><span class="sxs-lookup"><span data-stu-id="242f5-123">Get-CsUnassignedNumber</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsUnassignedNumber)  
+[<span data-ttu-id="9f42a-122">Remove-csunassignednumber</span><span class="sxs-lookup"><span data-stu-id="9f42a-122">Remove-CsUnassignedNumber</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsUnassignedNumber)  
+[<span data-ttu-id="9f42a-123">Remove-csunassignednumber</span><span class="sxs-lookup"><span data-stu-id="9f42a-123">Get-CsUnassignedNumber</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsUnassignedNumber)  
   
 
 </div>

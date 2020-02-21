@@ -12,20 +12,20 @@ ms:contentKeyID: 48183616
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e0de720aec27d056319d1f7f484e66814990c80
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 5d61dde1621359dcd4db26a83e58715f0f716118
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134343"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42204573"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-role-based-access-control-features-in-lync-server-2013"></a><span data-ttu-id="c78a0-102">Lync Server 2013 の新しい役割ベースのアクセス制御機能</span><span class="sxs-lookup"><span data-stu-id="c78a0-102">New role based access control features in Lync Server 2013</span></span>
+# <a name="new-role-based-access-control-features-in-lync-server-2013"></a><span data-ttu-id="3d2f1-102">Lync Server 2013 の新しい役割ベースのアクセス制御機能</span><span class="sxs-lookup"><span data-stu-id="3d2f1-102">New role based access control features in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,22 +35,22 @@ ms.locfileid: "42134343"
 
 <span> </span>
 
-<span data-ttu-id="c78a0-103">_**トピックの最終更新日:** 2012-09-20_</span><span class="sxs-lookup"><span data-stu-id="c78a0-103">_**Topic Last Modified:** 2012-09-20_</span></span>
+<span data-ttu-id="3d2f1-103">_**トピックの最終更新日:** 2012-09-20_</span><span class="sxs-lookup"><span data-stu-id="3d2f1-103">_**Topic Last Modified:** 2012-09-20_</span></span>
 
-<span data-ttu-id="c78a0-104">Lync Server 2013 では、役割ベースのアクセス制御 (RBAC) 機能が主に次の2つの方法で強化されています。</span><span class="sxs-lookup"><span data-stu-id="c78a0-104">Lync Server 2013 enhances the role-based access control (RBAC) feature in two major ways.</span></span> <span data-ttu-id="c78a0-105">指定した一連のコマンドレットに対してのみ特権を持つカスタムの役割を作成できるようになりました。</span><span class="sxs-lookup"><span data-stu-id="c78a0-105">You can now create custom roles, which each have privileges for only a set of cmdlets you specify.</span></span> <span data-ttu-id="c78a0-106">これらのカスタムの役割には、コマンドレットのスクリプトを実行する特権を割り当てることもできます。</span><span class="sxs-lookup"><span data-stu-id="c78a0-106">These custom roles can also be given privilege to run scripts of cmdlets.</span></span>
+<span data-ttu-id="3d2f1-104">Lync Server 2013 では、役割ベースのアクセス制御 (RBAC) 機能が主に次の2つの方法で強化されています。</span><span class="sxs-lookup"><span data-stu-id="3d2f1-104">Lync Server 2013 enhances the role-based access control (RBAC) feature in two major ways.</span></span> <span data-ttu-id="3d2f1-105">指定した一連のコマンドレットに対してのみ特権を持つカスタムの役割を作成できるようになりました。</span><span class="sxs-lookup"><span data-stu-id="3d2f1-105">You can now create custom roles, which each have privileges for only a set of cmdlets you specify.</span></span> <span data-ttu-id="3d2f1-106">これらのカスタムの役割には、コマンドレットのスクリプトを実行する特権を割り当てることもできます。</span><span class="sxs-lookup"><span data-stu-id="3d2f1-106">These custom roles can also be given privilege to run scripts of cmdlets.</span></span>
 
-<span data-ttu-id="c78a0-107">さらに、Lync Server 2013 には、2つの新しい事前定義済みの役割が含まれています。</span><span class="sxs-lookup"><span data-stu-id="c78a0-107">Additionally, Lync Server 2013 includes two new predefined roles.</span></span>
+<span data-ttu-id="3d2f1-107">さらに、Lync Server 2013 には、2つの新しい事前定義済みの役割が含まれています。</span><span class="sxs-lookup"><span data-stu-id="3d2f1-107">Additionally, Lync Server 2013 includes two new predefined roles.</span></span>
 
-  - <span data-ttu-id="c78a0-108">応答グループのマネージャー\*\* の役割を割り当てられたユーザーは、組織の特定の応答グループ キューを管理できます。ただし、必ずしも他のキューや応答グループ アプリケーション全体に対する管理権限を持つわけではありません。</span><span class="sxs-lookup"><span data-stu-id="c78a0-108">Users given the *Response Group Manager* role can manage specific Response Group queues in your organization, but not necessarily have management rights for other queues or the Response Group application as a whole.</span></span>
+  - <span data-ttu-id="3d2f1-108">応答グループのマネージャー\*\* の役割を割り当てられたユーザーは、組織の特定の応答グループ キューを管理できます。ただし、必ずしも他のキューや応答グループ アプリケーション全体に対する管理権限を持つわけではありません。</span><span class="sxs-lookup"><span data-stu-id="3d2f1-108">Users given the *Response Group Manager* role can manage specific Response Group queues in your organization, but not necessarily have management rights for other queues or the Response Group application as a whole.</span></span>
 
-  - <span data-ttu-id="c78a0-109">*常設チャットマネージャー*の役割を割り当てられたユーザーは、組織内の特定の常設チャットルームを管理できますが、その他の会議室または常設チャット機能の管理権限を持っているとは限りません。</span><span class="sxs-lookup"><span data-stu-id="c78a0-109">Users given the *Persistent Chat Manager* role can manage specific Persistent Chat rooms in your organization, but not necessarily have management rights for other rooms or the Persistent Chat feature as a whole.</span></span>
+  - <span data-ttu-id="3d2f1-109">*常設チャットマネージャー*の役割を割り当てられたユーザーは、組織内の特定の常設チャットルームを管理できますが、その他の会議室または常設チャット機能の管理権限を持っているとは限りません。</span><span class="sxs-lookup"><span data-stu-id="3d2f1-109">Users given the *Persistent Chat Manager* role can manage specific Persistent Chat rooms in your organization, but not necessarily have management rights for other rooms or the Persistent Chat feature as a whole.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="c78a0-110">関連項目</span><span class="sxs-lookup"><span data-stu-id="c78a0-110">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3d2f1-110">関連項目</span><span class="sxs-lookup"><span data-stu-id="3d2f1-110">See Also</span></span>
 
 
-[<span data-ttu-id="c78a0-111">Lync Server 2013 での役割ベースのアクセス制御の計画</span><span class="sxs-lookup"><span data-stu-id="c78a0-111">Planning for role-based access control in Lync Server 2013</span></span>](lync-server-2013-planning-for-role-based-access-control.md)  
+[<span data-ttu-id="3d2f1-111">Lync Server 2013 での役割ベースのアクセス制御の計画</span><span class="sxs-lookup"><span data-stu-id="3d2f1-111">Planning for role-based access control in Lync Server 2013</span></span>](lync-server-2013-planning-for-role-based-access-control.md)  
   
 
 </div>

@@ -12,20 +12,20 @@ ms:contentKeyID: 48705999
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2b78b215c144fbafc0ca5dc374a459d19087eaf0
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 7c2818a66c219b25d66363a189b0ba74b2b902d1
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42142763"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42200360"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-who-can-post-messages-in-an-auditorium-chat-room-in-lync-server-2013"></a><span data-ttu-id="6614a-102">Lync Server 2013 の大会議室のチャットルームでメッセージを投稿できるユーザーの設定</span><span class="sxs-lookup"><span data-stu-id="6614a-102">Setting who can post messages in an auditorium chat room in Lync Server 2013</span></span>
+# <a name="setting-who-can-post-messages-in-an-auditorium-chat-room-in-lync-server-2013"></a><span data-ttu-id="66ee5-102">Lync Server 2013 の大会議室のチャットルームでメッセージを投稿できるユーザーの設定</span><span class="sxs-lookup"><span data-stu-id="66ee5-102">Setting who can post messages in an auditorium chat room in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "42142763"
 
 <span> </span>
 
-<span data-ttu-id="6614a-103">_**トピックの最終更新日:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="6614a-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+<span data-ttu-id="66ee5-103">_**トピックの最終更新日:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="66ee5-103">_**Topic Last Modified:** 2012-10-06_</span></span>
 
-<span data-ttu-id="6614a-p101">大会議室のチャット ルームでは、発表者の役割を与えられたユーザーだけがメッセージを投稿できます。他のすべてのメンバーは、メッセージを読むことのみできます。大会議室のチャット ルームの発表者は、チャット ルームのメンバーである必要があります。</span><span class="sxs-lookup"><span data-stu-id="6614a-p101">In an auditorium chat room, only users who have been granted the role of Presenter can post messages. All other members can only read messages. Presenters in an auditorium chat room must be members of the chat room.</span></span>
+<span data-ttu-id="66ee5-p101">大会議室のチャット ルームでは、発表者の役割を与えられたユーザーだけがメッセージを投稿できます。他のすべてのメンバーは、メッセージを読むことのみできます。大会議室のチャット ルームの発表者は、チャット ルームのメンバーである必要があります。</span><span class="sxs-lookup"><span data-stu-id="66ee5-p101">In an auditorium chat room, only users who have been granted the role of Presenter can post messages. All other members can only read messages. Presenters in an auditorium chat room must be members of the chat room.</span></span>
 
-<span data-ttu-id="6614a-107">Windows PowerShell コマンドラインインターフェイスを使用して大会議室チャットルームを管理する方法の詳細については、「展開」のドキュメントの「[ルームを管理](manage-rooms.md)する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="6614a-107">For details about using the Windows PowerShell command-line interface to manage auditorium chat rooms, see [Manage rooms](manage-rooms.md) in the Deployment documentation.</span></span>
+<span data-ttu-id="66ee5-107">Windows PowerShell コマンドラインインターフェイスを使用して大会議室チャットルームを管理する方法の詳細については、「展開」のドキュメントの「[ルームを管理](manage-rooms.md)する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="66ee5-107">For details about using the Windows PowerShell command-line interface to manage auditorium chat rooms, see [Manage rooms](manage-rooms.md) in the Deployment documentation.</span></span>
 
-<span data-ttu-id="6614a-108">常設チャットルーム管理者とチャットルームマネージャーはチャットルームの設定を管理できますが、**発表**者でない限り、大会議室のチャットルームに投稿することはできません。</span><span class="sxs-lookup"><span data-stu-id="6614a-108">Although Persistent Chat room administrators and chat room managers can manage chat room settings, they cannot post in an auditorium chat room unless they are **Presenters**.</span></span>
+<span data-ttu-id="66ee5-108">常設チャットルーム管理者とチャットルームマネージャーはチャットルームの設定を管理できますが、**発表**者でない限り、大会議室のチャットルームに投稿することはできません。</span><span class="sxs-lookup"><span data-stu-id="66ee5-108">Although Persistent Chat room administrators and chat room managers can manage chat room settings, they cannot post in an auditorium chat room unless they are **Presenters**.</span></span>
 
 </div>
 
