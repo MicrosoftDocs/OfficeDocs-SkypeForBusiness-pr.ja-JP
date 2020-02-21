@@ -12,20 +12,20 @@ ms:contentKeyID: 48184090
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27dd6ab5cdd6ca67d94071049a9615731735d8aa
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: ca916731f34bf08e59ae2ba281a1c6d723b46ae8
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42146590"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42205173"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-add-ins-for-rooms-in-lync-server-2013"></a><span data-ttu-id="13ea5-102">Lync Server 2013 でのルームのアドインの構成</span><span class="sxs-lookup"><span data-stu-id="13ea5-102">Configure add-ins for rooms in Lync Server 2013</span></span>
+# <a name="configure-add-ins-for-rooms-in-lync-server-2013"></a><span data-ttu-id="ef72e-102">Lync Server 2013 でのルームのアドインの構成</span><span class="sxs-lookup"><span data-stu-id="ef72e-102">Configure add-ins for rooms in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,56 +35,56 @@ ms.locfileid: "42146590"
 
 <span> </span>
 
-<span data-ttu-id="13ea5-103">_**トピックの最終更新日:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="13ea5-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="ef72e-103">_**トピックの最終更新日:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="ef72e-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="13ea5-104">Lync Server 2013 コントロールパネルで、[**常設チャット**] ページの [**アドイン**] セクションを使用して、url を常設チャットルームに関連付けることができます。</span><span class="sxs-lookup"><span data-stu-id="13ea5-104">In Lync Server 2013 Control Panel, you can use the **Add-in** section of the **Persistent Chat** page to associate URLs with Persistent Chat rooms.</span></span> <span data-ttu-id="13ea5-105">これらの Url は、会話機能拡張ウィンドウのチャットルームの Lync 2013 クライアントに表示されます。</span><span class="sxs-lookup"><span data-stu-id="13ea5-105">These URLs appear in the Lync 2013 client in the chat room in the conversation extensibility pane.</span></span> <span data-ttu-id="13ea5-106">管理者は登録されたアドインの一覧にアドインを追加する必要があり、チャットルームマネージャー/作成者は、ユーザーが Lync 2013 クライアントでこのアップグレードを表示する前に、登録済みのアドインの1つにルームを関連付ける必要があります。</span><span class="sxs-lookup"><span data-stu-id="13ea5-106">An administrator must add Add-ins to the list of registered add-ins, and chat room managers/Creators have to associate rooms with one of the registered add-ins before users can see this upgrade in their Lync 2013 client.</span></span>
+<span data-ttu-id="ef72e-104">Lync Server 2013 コントロールパネルで、[**常設チャット**] ページの [**アドイン**] セクションを使用して、url を常設チャットルームに関連付けることができます。</span><span class="sxs-lookup"><span data-stu-id="ef72e-104">In Lync Server 2013 Control Panel, you can use the **Add-in** section of the **Persistent Chat** page to associate URLs with Persistent Chat rooms.</span></span> <span data-ttu-id="ef72e-105">これらの Url は、会話機能拡張ウィンドウのチャットルームの Lync 2013 クライアントに表示されます。</span><span class="sxs-lookup"><span data-stu-id="ef72e-105">These URLs appear in the Lync 2013 client in the chat room in the conversation extensibility pane.</span></span> <span data-ttu-id="ef72e-106">管理者は登録されたアドインの一覧にアドインを追加する必要があり、チャットルームマネージャー/作成者は、ユーザーが Lync 2013 クライアントでこのアップグレードを表示する前に、登録済みのアドインの1つにルームを関連付ける必要があります。</span><span class="sxs-lookup"><span data-stu-id="ef72e-106">An administrator must add Add-ins to the list of registered add-ins, and chat room managers/Creators have to associate rooms with one of the registered add-ins before users can see this upgrade in their Lync 2013 client.</span></span>
 
-<span data-ttu-id="13ea5-107">アドインは、ルーム内でのエクスペリエンスを拡張するために使用されます。</span><span class="sxs-lookup"><span data-stu-id="13ea5-107">Add-ins are used to extend the in-room experience.</span></span> <span data-ttu-id="13ea5-108">一般的なアドインには、株式相場がチャットルームに投稿されたときに受信する Silverlight アプリケーションを指す URL が含まれていることがあります。また、機能拡張ウィンドウで株価情報を表示します。</span><span class="sxs-lookup"><span data-stu-id="13ea5-108">A typical add-in might include a URL pointing to a Silverlight application that intercepts when a stock ticker is posted to a chat room, and shows the stock history in the extensibility pane.</span></span> <span data-ttu-id="13ea5-109">チャット ルームに OneNote 2013 の URL をアドインとして埋め込んで、"優先事項" や "今日のトピック" などの共有コンテキストを組み込むこともできます。</span><span class="sxs-lookup"><span data-stu-id="13ea5-109">Other examples include embedding a OneNote 2013 URL in the chat room as an add-in to include some shared context, such as "Top of mind" or "Topic of the day."</span></span>
+<span data-ttu-id="ef72e-107">アドインは、ルーム内でのエクスペリエンスを拡張するために使用されます。</span><span class="sxs-lookup"><span data-stu-id="ef72e-107">Add-ins are used to extend the in-room experience.</span></span> <span data-ttu-id="ef72e-108">一般的なアドインには、株式相場がチャットルームに投稿されたときに受信する Silverlight アプリケーションを指す URL が含まれていることがあります。また、機能拡張ウィンドウで株価情報を表示します。</span><span class="sxs-lookup"><span data-stu-id="ef72e-108">A typical add-in might include a URL pointing to a Silverlight application that intercepts when a stock ticker is posted to a chat room, and shows the stock history in the extensibility pane.</span></span> <span data-ttu-id="ef72e-109">チャット ルームに OneNote 2013 の URL をアドインとして埋め込んで、"優先事項" や "今日のトピック" などの共有コンテキストを組み込むこともできます。</span><span class="sxs-lookup"><span data-stu-id="ef72e-109">Other examples include embedding a OneNote 2013 URL in the chat room as an add-in to include some shared context, such as "Top of mind" or "Topic of the day."</span></span>
 
 <div>
 
-## <a name="to-configure-add-ins-for-chat-rooms"></a><span data-ttu-id="13ea5-110">チャット ルームのアドインを構成するには</span><span class="sxs-lookup"><span data-stu-id="13ea5-110">To configure Add-ins for chat rooms</span></span>
+## <a name="to-configure-add-ins-for-chat-rooms"></a><span data-ttu-id="ef72e-110">チャット ルームのアドインを構成するには</span><span class="sxs-lookup"><span data-stu-id="ef72e-110">To configure Add-ins for chat rooms</span></span>
 
-1.  <span data-ttu-id="13ea5-111">CsPersistentChatAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="13ea5-111">From a user account that is assigned to the CsPersistentChatAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="ef72e-111">CsPersistentChatAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="ef72e-111">From a user account that is assigned to the CsPersistentChatAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="13ea5-112">[**スタート**] メニューから [Lync Server コントロールパネル] を選択するか、ブラウザーウィンドウを開いて管理 URL を入力します。</span><span class="sxs-lookup"><span data-stu-id="13ea5-112">From the **Start** menu, select the Lync Server Control Panel or open a browser window, and then enter the Admin URL.</span></span> <span data-ttu-id="13ea5-113">Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="13ea5-113">For details about the different methods that you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="ef72e-112">[**スタート**] メニューから [Lync Server コントロールパネル] を選択するか、ブラウザーウィンドウを開いて管理 URL を入力します。</span><span class="sxs-lookup"><span data-stu-id="ef72e-112">From the **Start** menu, select the Lync Server Control Panel or open a browser window, and then enter the Admin URL.</span></span> <span data-ttu-id="ef72e-113">Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="ef72e-113">For details about the different methods that you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
     
     <div>
     
 
     > [!IMPORTANT]  
-    > <span data-ttu-id="13ea5-114">Windows PowerShell コマンドレットを使用することもできます。</span><span class="sxs-lookup"><span data-stu-id="13ea5-114">You can also use Windows PowerShell cmdlets.</span></span> <span data-ttu-id="13ea5-115">詳細については、「展開」のドキュメントの「 <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Windows PowerShell コマンドレットを使用して常設チャットサーバーを構成する</A>」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="13ea5-115">For details, see <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Configuring Persistent Chat Server by using Windows PowerShell cmdlets</A> in the Deployment documentation.</span></span>
+    > <span data-ttu-id="ef72e-114">Windows PowerShell コマンドレットを使用することもできます。</span><span class="sxs-lookup"><span data-stu-id="ef72e-114">You can also use Windows PowerShell cmdlets.</span></span> <span data-ttu-id="ef72e-115">詳細については、「展開」のドキュメントの「 <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Windows PowerShell コマンドレットを使用して常設チャットサーバーを構成する</A>」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="ef72e-115">For details, see <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Configuring Persistent Chat Server by using Windows PowerShell cmdlets</A> in the Deployment documentation.</span></span>
 
     
     </div>
 
-3.  <span data-ttu-id="13ea5-116">左側のナビゲーション バーで [**常設チャット**] をクリックして、[**アドイン**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="13ea5-116">In the left navigation bar, click **Persistent Chat**, and then click **Add-in**.</span></span>
+3.  <span data-ttu-id="ef72e-116">左側のナビゲーション バーで [**常設チャット**] をクリックして、[**アドイン**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="ef72e-116">In the left navigation bar, click **Persistent Chat**, and then click **Add-in**.</span></span>
     
-    <span data-ttu-id="13ea5-117">複数の常設チャットサーバープールを展開する場合は、ドロップダウンリストから適切なプールを選択します。</span><span class="sxs-lookup"><span data-stu-id="13ea5-117">For multiple Persistent Chat Server pool deployments, select the appropriate pool from the drop-down list.</span></span>
+    <span data-ttu-id="ef72e-117">複数の常設チャットサーバープールを展開する場合は、ドロップダウンリストから適切なプールを選択します。</span><span class="sxs-lookup"><span data-stu-id="ef72e-117">For multiple Persistent Chat Server pool deployments, select the appropriate pool from the drop-down list.</span></span>
 
-4.  <span data-ttu-id="13ea5-118">[**アドイン**] ページで、[**新規**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="13ea5-118">On the **Add-in** page, click **New**.</span></span>
+4.  <span data-ttu-id="ef72e-118">[**アドイン**] ページで、[**新規**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="ef72e-118">On the **Add-in** page, click **New**.</span></span>
 
-5.  <span data-ttu-id="13ea5-119">**[サービスの選択**] で、アドインを作成する必要がある常設チャットサーバープールに対応するサービスを選択します。</span><span class="sxs-lookup"><span data-stu-id="13ea5-119">In **Select a Service**, select the service corresponding to the Persistent Chat Server pool where you need to create the Add-in.</span></span> <span data-ttu-id="13ea5-120">アドインをプール間で移動したり、複数のプールで共有したりすることはできません。</span><span class="sxs-lookup"><span data-stu-id="13ea5-120">Add-ins cannot be moved from one pool to another or shared between different pools.</span></span>
+5.  <span data-ttu-id="ef72e-119">**[サービスの選択**] で、アドインを作成する必要がある常設チャットサーバープールに対応するサービスを選択します。</span><span class="sxs-lookup"><span data-stu-id="ef72e-119">In **Select a Service**, select the service corresponding to the Persistent Chat Server pool where you need to create the Add-in.</span></span> <span data-ttu-id="ef72e-120">アドインをプール間で移動したり、複数のプールで共有したりすることはできません。</span><span class="sxs-lookup"><span data-stu-id="ef72e-120">Add-ins cannot be moved from one pool to another or shared between different pools.</span></span>
 
-6.  <span data-ttu-id="13ea5-121">[**新規 アドイン**] で、次の操作を実行します。</span><span class="sxs-lookup"><span data-stu-id="13ea5-121">In **New Add-in**, do the following:</span></span>
+6.  <span data-ttu-id="ef72e-121">[**新規 アドイン**] で、次の操作を実行します。</span><span class="sxs-lookup"><span data-stu-id="ef72e-121">In **New Add-in**, do the following:</span></span>
     
-      - <span data-ttu-id="13ea5-122">[**名前**] に、新しいアドインの名前を指定します。</span><span class="sxs-lookup"><span data-stu-id="13ea5-122">In **Name**, specify a name for the new add-in.</span></span>
+      - <span data-ttu-id="ef72e-122">[**名前**] に、新しいアドインの名前を指定します。</span><span class="sxs-lookup"><span data-stu-id="ef72e-122">In **Name**, specify a name for the new add-in.</span></span>
     
-      - <span data-ttu-id="13ea5-p106">[**URL**] で、アドインに関連付ける URL を指定します。URL には http および https プロトコルのみを使用できます。</span><span class="sxs-lookup"><span data-stu-id="13ea5-p106">In **URL**, specify the URL to be associated with the add-in. URLs are limited to http and https protocols.</span></span>
+      - <span data-ttu-id="ef72e-p106">[**URL**] で、アドインに関連付ける URL を指定します。URL には http および https プロトコルのみを使用できます。</span><span class="sxs-lookup"><span data-stu-id="ef72e-p106">In **URL**, specify the URL to be associated with the add-in. URLs are limited to http and https protocols.</span></span>
 
-7.  <span data-ttu-id="13ea5-125">[**確定**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="13ea5-125">Click **Commit**.</span></span>
+7.  <span data-ttu-id="ef72e-125">[**確定**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="ef72e-125">Click **Commit**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="13ea5-126">関連項目</span><span class="sxs-lookup"><span data-stu-id="13ea5-126">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ef72e-126">関連項目</span><span class="sxs-lookup"><span data-stu-id="ef72e-126">See Also</span></span>
 
 
-[<span data-ttu-id="13ea5-127">Lync Server 2013 管理ツールを開く</span><span class="sxs-lookup"><span data-stu-id="13ea5-127">Open Lync Server 2013 administrative tools</span></span>](lync-server-2013-open-lync-server-administrative-tools.md)  
+[<span data-ttu-id="ef72e-127">Lync Server 2013 管理ツールを開く</span><span class="sxs-lookup"><span data-stu-id="ef72e-127">Open Lync Server 2013 administrative tools</span></span>](lync-server-2013-open-lync-server-administrative-tools.md)  
 
 
-[<span data-ttu-id="13ea5-128">Windows PowerShell コマンドレットを使用して常設チャットサーバーを構成する</span><span class="sxs-lookup"><span data-stu-id="13ea5-128">Configuring Persistent Chat Server by using Windows PowerShell cmdlets</span></span>](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md)  
+[<span data-ttu-id="ef72e-128">Windows PowerShell コマンドレットを使用して常設チャットサーバーを構成する</span><span class="sxs-lookup"><span data-stu-id="ef72e-128">Configuring Persistent Chat Server by using Windows PowerShell cmdlets</span></span>](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md)  
   
 
 </div>

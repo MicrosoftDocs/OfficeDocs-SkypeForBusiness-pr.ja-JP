@@ -12,20 +12,20 @@ ms:contentKeyID: 49105658
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b72ab2f2912a78ee30e9c032592a704eccbab8bf
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: ebb2eb7695cfcc3b1ed6166f7768128dc48fb8ac
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42152655"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42208770"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a><span data-ttu-id="fcd87-102">Lync Server 2013 でのポートの概要-拡張可能なメッセージングおよびプレゼンスプロトコル (XMPP) フェデレーション</span><span class="sxs-lookup"><span data-stu-id="fcd87-102">Port summary - Extensible messaging and presence protocol (XMPP) federation in Lync Server 2013</span></span>
+# <a name="port-summary---extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a><span data-ttu-id="2f5f7-102">Lync Server 2013 でのポートの概要-拡張可能なメッセージングおよびプレゼンスプロトコル (XMPP) フェデレーション</span><span class="sxs-lookup"><span data-stu-id="2f5f7-102">Port summary - Extensible messaging and presence protocol (XMPP) federation in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "42152655"
 
 <span> </span>
 
-<span data-ttu-id="fcd87-103">_**トピックの最終更新日:** 2012-10-20_</span><span class="sxs-lookup"><span data-stu-id="fcd87-103">_**Topic Last Modified:** 2012-10-20_</span></span>
+<span data-ttu-id="2f5f7-103">_**トピックの最終更新日:** 2012-10-20_</span><span class="sxs-lookup"><span data-stu-id="2f5f7-103">_**Topic Last Modified:** 2012-10-20_</span></span>
 
-<span data-ttu-id="fcd87-104">エッジサーバーに展開された拡張メッセージングおよびプレゼンスプロトコル (XMPP) プロキシに定義されているポートとプロトコルは、XMPP フェデレーションパートナーからエッジサーバーへの通信を許可します。また、エッジサーバーから XMPP への通信も可能にします。フェデレーションパートナー。</span><span class="sxs-lookup"><span data-stu-id="fcd87-104">The ports and protocols defined for the extensible messaging and presence protocol (XMPP) proxy deployed on the Edge Server allow communications from the XMPP federated partner to the Edge Server, and also allows communication from your Edge Server to the XMPP federated partner.</span></span> <span data-ttu-id="fcd87-105">ルールは、フロントエンドサーバーまたはフロントエンドプールからエッジサーバーまたはエッジプールへの内部接続ファイアウォール上にも定義されています。</span><span class="sxs-lookup"><span data-stu-id="fcd87-105">A rule is also defined on the internal-facing firewall from the Front End Server or Front End pool to the Edge Server or Edge pool.</span></span>
+<span data-ttu-id="2f5f7-104">エッジサーバーに展開された拡張メッセージングおよびプレゼンスプロトコル (XMPP) プロキシに定義されているポートとプロトコルは、XMPP フェデレーションパートナーからエッジサーバーへの通信を許可します。また、エッジサーバーから XMPP への通信も可能にします。フェデレーションパートナー。</span><span class="sxs-lookup"><span data-stu-id="2f5f7-104">The ports and protocols defined for the extensible messaging and presence protocol (XMPP) proxy deployed on the Edge Server allow communications from the XMPP federated partner to the Edge Server, and also allows communication from your Edge Server to the XMPP federated partner.</span></span> <span data-ttu-id="2f5f7-105">ルールは、フロントエンドサーバーまたはフロントエンドプールからエッジサーバーまたはエッジプールへの内部接続ファイアウォール上にも定義されています。</span><span class="sxs-lookup"><span data-stu-id="2f5f7-105">A rule is also defined on the internal-facing firewall from the Front End Server or Front End pool to the Edge Server or Edge pool.</span></span>
 
 <div>
 
-## <a name="firewall-summary-for-extensible-messaging-and-presence-protocol"></a><span data-ttu-id="fcd87-106">XMPP のファイアウォールの概要</span><span class="sxs-lookup"><span data-stu-id="fcd87-106">Firewall Summary for Extensible Messaging and Presence Protocol</span></span>
+## <a name="firewall-summary-for-extensible-messaging-and-presence-protocol"></a><span data-ttu-id="2f5f7-106">XMPP のファイアウォールの概要</span><span class="sxs-lookup"><span data-stu-id="2f5f7-106">Firewall Summary for Extensible Messaging and Presence Protocol</span></span>
 
 
 <table>
@@ -53,30 +53,30 @@ ms.locfileid: "42152655"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="fcd87-107">プロトコル/TCP または UDP/ポート</span><span class="sxs-lookup"><span data-stu-id="fcd87-107">Protocol/TCP or UDP/Port</span></span></th>
-<th><span data-ttu-id="fcd87-108">送信元 (IP アドレス)</span><span class="sxs-lookup"><span data-stu-id="fcd87-108">Source (IP address)</span></span></th>
-<th><span data-ttu-id="fcd87-109">宛先 (IP アドレス)</span><span class="sxs-lookup"><span data-stu-id="fcd87-109">Destination (IP address)</span></span></th>
-<th><span data-ttu-id="fcd87-110">コメント</span><span class="sxs-lookup"><span data-stu-id="fcd87-110">Comments</span></span></th>
+<th><span data-ttu-id="2f5f7-107">プロトコル/TCP または UDP/ポート</span><span class="sxs-lookup"><span data-stu-id="2f5f7-107">Protocol/TCP or UDP/Port</span></span></th>
+<th><span data-ttu-id="2f5f7-108">送信元 (IP アドレス)</span><span class="sxs-lookup"><span data-stu-id="2f5f7-108">Source (IP address)</span></span></th>
+<th><span data-ttu-id="2f5f7-109">宛先 (IP アドレス)</span><span class="sxs-lookup"><span data-stu-id="2f5f7-109">Destination (IP address)</span></span></th>
+<th><span data-ttu-id="2f5f7-110">コメント</span><span class="sxs-lookup"><span data-stu-id="2f5f7-110">Comments</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="fcd87-111">XMPP/TCP/5269</span><span class="sxs-lookup"><span data-stu-id="fcd87-111">XMPP/TCP/5269</span></span></p></td>
-<td><p><span data-ttu-id="fcd87-112">任意</span><span class="sxs-lookup"><span data-stu-id="fcd87-112">Any</span></span></p></td>
-<td><p><span data-ttu-id="fcd87-113">アクセスエッジサービスインターフェイスの IP アドレス</span><span class="sxs-lookup"><span data-stu-id="fcd87-113">Access Edge service interface IP address</span></span></p></td>
-<td><p><span data-ttu-id="fcd87-114">XMPP 用の標準的なサーバー間通信。</span><span class="sxs-lookup"><span data-stu-id="fcd87-114">Standard server-to-server communication port for XMPP.</span></span> <span data-ttu-id="fcd87-115">フェデレーションされた XMPP パートナーからのエッジサーバー XMPP プロキシへの通信を許可します。</span><span class="sxs-lookup"><span data-stu-id="fcd87-115">Allows communication to the Edge Server XMPP proxy from federated XMPP partners</span></span></p></td>
+<td><p><span data-ttu-id="2f5f7-111">XMPP/TCP/5269</span><span class="sxs-lookup"><span data-stu-id="2f5f7-111">XMPP/TCP/5269</span></span></p></td>
+<td><p><span data-ttu-id="2f5f7-112">任意</span><span class="sxs-lookup"><span data-stu-id="2f5f7-112">Any</span></span></p></td>
+<td><p><span data-ttu-id="2f5f7-113">アクセスエッジサービスインターフェイスの IP アドレス</span><span class="sxs-lookup"><span data-stu-id="2f5f7-113">Access Edge service interface IP address</span></span></p></td>
+<td><p><span data-ttu-id="2f5f7-114">XMPP 用の標準的なサーバー間通信。</span><span class="sxs-lookup"><span data-stu-id="2f5f7-114">Standard server-to-server communication port for XMPP.</span></span> <span data-ttu-id="2f5f7-115">フェデレーションされた XMPP パートナーからのエッジサーバー XMPP プロキシへの通信を許可します。</span><span class="sxs-lookup"><span data-stu-id="2f5f7-115">Allows communication to the Edge Server XMPP proxy from federated XMPP partners</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="fcd87-116">XMPP/TCP/5269</span><span class="sxs-lookup"><span data-stu-id="fcd87-116">XMPP/TCP/5269</span></span></p></td>
-<td><p><span data-ttu-id="fcd87-117">アクセスエッジサービスインターフェイスの IP アドレス</span><span class="sxs-lookup"><span data-stu-id="fcd87-117">Access Edge service interface IP address</span></span></p></td>
-<td><p><span data-ttu-id="fcd87-118">任意</span><span class="sxs-lookup"><span data-stu-id="fcd87-118">Any</span></span></p></td>
-<td><p><span data-ttu-id="fcd87-119">XMPP 用の標準的なサーバー間通信。</span><span class="sxs-lookup"><span data-stu-id="fcd87-119">Standard server-to-server communication port for XMPP.</span></span> <span data-ttu-id="fcd87-120">エッジサーバー XMPP プロキシからフェデレーションされた XMPP パートナーへの通信を許可します。</span><span class="sxs-lookup"><span data-stu-id="fcd87-120">Allows communication from the Edge Server XMPP proxy to federated XMPP partners</span></span></p></td>
+<td><p><span data-ttu-id="2f5f7-116">XMPP/TCP/5269</span><span class="sxs-lookup"><span data-stu-id="2f5f7-116">XMPP/TCP/5269</span></span></p></td>
+<td><p><span data-ttu-id="2f5f7-117">アクセスエッジサービスインターフェイスの IP アドレス</span><span class="sxs-lookup"><span data-stu-id="2f5f7-117">Access Edge service interface IP address</span></span></p></td>
+<td><p><span data-ttu-id="2f5f7-118">任意</span><span class="sxs-lookup"><span data-stu-id="2f5f7-118">Any</span></span></p></td>
+<td><p><span data-ttu-id="2f5f7-119">XMPP 用の標準的なサーバー間通信。</span><span class="sxs-lookup"><span data-stu-id="2f5f7-119">Standard server-to-server communication port for XMPP.</span></span> <span data-ttu-id="2f5f7-120">エッジサーバー XMPP プロキシからフェデレーションされた XMPP パートナーへの通信を許可します。</span><span class="sxs-lookup"><span data-stu-id="2f5f7-120">Allows communication from the Edge Server XMPP proxy to federated XMPP partners</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="fcd87-121">XMPP/MTLS/23456</span><span class="sxs-lookup"><span data-stu-id="fcd87-121">XMPP/MTLS/23456</span></span></p></td>
-<td><p><span data-ttu-id="fcd87-122">任意</span><span class="sxs-lookup"><span data-stu-id="fcd87-122">Any</span></span></p></td>
-<td><p><span data-ttu-id="fcd87-123">内部エッジサーバーインターフェイス IP</span><span class="sxs-lookup"><span data-stu-id="fcd87-123">Internal Edge Server Interface IP</span></span></p></td>
-<td><p><span data-ttu-id="fcd87-124">フロントエンドサーバーまたはフロントエンドプールの XMPP ゲートウェイからエッジサーバーへの内部 XMPP トラフィック</span><span class="sxs-lookup"><span data-stu-id="fcd87-124">Internal XMPP traffic from the XMPP Gateway on the Front End Server or Front End pool to the Edge Server</span></span></p></td>
+<td><p><span data-ttu-id="2f5f7-121">XMPP/MTLS/23456</span><span class="sxs-lookup"><span data-stu-id="2f5f7-121">XMPP/MTLS/23456</span></span></p></td>
+<td><p><span data-ttu-id="2f5f7-122">任意</span><span class="sxs-lookup"><span data-stu-id="2f5f7-122">Any</span></span></p></td>
+<td><p><span data-ttu-id="2f5f7-123">内部エッジサーバーインターフェイス IP</span><span class="sxs-lookup"><span data-stu-id="2f5f7-123">Internal Edge Server Interface IP</span></span></p></td>
+<td><p><span data-ttu-id="2f5f7-124">フロントエンドサーバーまたはフロントエンドプールの XMPP ゲートウェイからエッジサーバーへの内部 XMPP トラフィック</span><span class="sxs-lookup"><span data-stu-id="2f5f7-124">Internal XMPP traffic from the XMPP Gateway on the Front End Server or Front End pool to the Edge Server</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -86,13 +86,13 @@ ms.locfileid: "42152655"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="fcd87-125">関連項目</span><span class="sxs-lookup"><span data-stu-id="fcd87-125">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2f5f7-125">関連項目</span><span class="sxs-lookup"><span data-stu-id="2f5f7-125">See Also</span></span>
 
 
-[<span data-ttu-id="fcd87-126">Lync Server 2013 の XMPP 構成の例-Google Talk との XMPP フェデレーション</span><span class="sxs-lookup"><span data-stu-id="fcd87-126">Example XMPP configuration in Lync Server 2013 – XMPP federation with Google Talk</span></span>](lync-server-2013-example-xmpp-configuration-–-xmpp-federation-with-google-talk.md)  
+[<span data-ttu-id="2f5f7-126">Lync Server 2013 の XMPP 構成の例-Google Talk との XMPP フェデレーション</span><span class="sxs-lookup"><span data-stu-id="2f5f7-126">Example XMPP configuration in Lync Server 2013 – XMPP federation with Google Talk</span></span>](lync-server-2013-example-xmpp-configuration-–-xmpp-federation-with-google-talk.md)  
 
 
-[<span data-ttu-id="fcd87-127">Lync Server 2013 での XMPP フェデレーションパートナーの管理</span><span class="sxs-lookup"><span data-stu-id="fcd87-127">Manage XMPP federated partners in Lync Server 2013</span></span>](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)  
+[<span data-ttu-id="2f5f7-127">Lync Server 2013 での XMPP フェデレーションパートナーの管理</span><span class="sxs-lookup"><span data-stu-id="2f5f7-127">Manage XMPP federated partners in Lync Server 2013</span></span>](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)  
   
 
 </div>
