@@ -12,20 +12,20 @@ ms:contentKeyID: 49733681
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65c192bbc800c7b122911950e59439c43d8b0480
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: a69972d355ad2870445af14ccfeb097f1d8a6dcb
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42148174"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42189400"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-the-sql-server-database-for-a-front-end-pool"></a><span data-ttu-id="bb795-102">フロントエンドプールの SQL Server データベースを削除する</span><span class="sxs-lookup"><span data-stu-id="bb795-102">Remove the SQL Server database for a Front End pool</span></span>
+# <a name="remove-the-sql-server-database-for-a-front-end-pool"></a><span data-ttu-id="3bde9-102">フロントエンドプールの SQL Server データベースを削除する</span><span class="sxs-lookup"><span data-stu-id="3bde9-102">Remove the SQL Server database for a Front End pool</span></span>
 
 </div>
 
@@ -35,43 +35,43 @@ ms.locfileid: "42148174"
 
 <span> </span>
 
-<span data-ttu-id="bb795-103">_**トピックの最終更新日:** 2012-10-04_</span><span class="sxs-lookup"><span data-stu-id="bb795-103">_**Topic Last Modified:** 2012-10-04_</span></span>
+<span data-ttu-id="3bde9-103">_**トピックの最終更新日:** 2012-10-04_</span><span class="sxs-lookup"><span data-stu-id="3bde9-103">_**Topic Last Modified:** 2012-10-04_</span></span>
 
-<span data-ttu-id="bb795-104">Microsoft Lync Server 2010 フロントエンドプールを削除するか、または別のデータベースを使用するようにプールを再構成すると、プールデータをホストしていた SQL Server データベースを削除することができます。</span><span class="sxs-lookup"><span data-stu-id="bb795-104">After you remove a Microsoft Lync Server 2010 Front End pool or reconfigure the pool to use a different database, you can remove the SQL Server databases that hosted the pool data.</span></span> <span data-ttu-id="bb795-105">次の手順を使用して、トポロジビルダーから定義を削除し、データベースサーバーからデータベースとログファイルを削除します。</span><span class="sxs-lookup"><span data-stu-id="bb795-105">Use the following procedures to remove the definitions from Topology Builder, and then remove the database and log files from the database server.</span></span>
+<span data-ttu-id="3bde9-104">Microsoft Lync Server 2010 フロントエンドプールを削除するか、または別のデータベースを使用するようにプールを再構成すると、プールデータをホストしていた SQL Server データベースを削除することができます。</span><span class="sxs-lookup"><span data-stu-id="3bde9-104">After you remove a Microsoft Lync Server 2010 Front End pool or reconfigure the pool to use a different database, you can remove the SQL Server databases that hosted the pool data.</span></span> <span data-ttu-id="3bde9-105">次の手順を使用して、トポロジビルダーから定義を削除し、データベースサーバーからデータベースとログファイルを削除します。</span><span class="sxs-lookup"><span data-stu-id="3bde9-105">Use the following procedures to remove the definitions from Topology Builder, and then remove the database and log files from the database server.</span></span>
 
 <div>
 
-## <a name="to-remove-the-sql-server-database-using-topology-builder"></a><span data-ttu-id="bb795-106">トポロジビルダーを使用して SQL Server データベースを削除するには</span><span class="sxs-lookup"><span data-stu-id="bb795-106">To remove the SQL Server database using Topology Builder</span></span>
+## <a name="to-remove-the-sql-server-database-using-topology-builder"></a><span data-ttu-id="3bde9-106">トポロジビルダーを使用して SQL Server データベースを削除するには</span><span class="sxs-lookup"><span data-stu-id="3bde9-106">To remove the SQL Server database using Topology Builder</span></span>
 
-1.  <span data-ttu-id="bb795-107">Lync Server 2013 フロントエンドサーバーから、トポロジビルダーを開き、既存のトポロジをダウンロードします。</span><span class="sxs-lookup"><span data-stu-id="bb795-107">From the Lync Server 2013 Front End Server, open Topology Builder and download the existing topology.</span></span>
+1.  <span data-ttu-id="3bde9-107">Lync Server 2013 フロントエンドサーバーから、トポロジビルダーを開き、既存のトポロジをダウンロードします。</span><span class="sxs-lookup"><span data-stu-id="3bde9-107">From the Lync Server 2013 Front End Server, open Topology Builder and download the existing topology.</span></span>
 
-2.  <span data-ttu-id="bb795-108">[トポロジビルダー] で、[**共有コンポーネント**] に移動し、[ **sql server ストア**] を選択して、削除または再構成したフロントエンドプールに関連付けられている SQL server インスタンスを右クリックし、[**削除**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="bb795-108">In Topology Builder, navigate to **Shared Components** and then **SQL Server Stores**, right-click the SQL Server instance associated with the removed or reconfigured Front End pool, and then click **Delete**.</span></span>
+2.  <span data-ttu-id="3bde9-108">[トポロジビルダー] で、[**共有コンポーネント**] に移動し、[ **sql server ストア**] を選択して、削除または再構成したフロントエンドプールに関連付けられている SQL server インスタンスを右クリックし、[**削除**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="3bde9-108">In Topology Builder, navigate to **Shared Components** and then **SQL Server Stores**, right-click the SQL Server instance associated with the removed or reconfigured Front End pool, and then click **Delete**.</span></span>
 
-3.  <span data-ttu-id="bb795-109">トポロジを公開し、レプリケーションの状態を確認します。</span><span class="sxs-lookup"><span data-stu-id="bb795-109">Publish the topology, and then check the replication status.</span></span>
+3.  <span data-ttu-id="3bde9-109">トポロジを公開し、レプリケーションの状態を確認します。</span><span class="sxs-lookup"><span data-stu-id="3bde9-109">Publish the topology, and then check the replication status.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-remove-user-and-application-databases-from-the-sql-server"></a><span data-ttu-id="bb795-110">SQL Server からユーザーおよびアプリケーション データベースを削除するには</span><span class="sxs-lookup"><span data-stu-id="bb795-110">To remove user and application databases from the SQL Server</span></span>
+## <a name="to-remove-user-and-application-databases-from-the-sql-server"></a><span data-ttu-id="3bde9-110">SQL Server からユーザーおよびアプリケーション データベースを削除するには</span><span class="sxs-lookup"><span data-stu-id="3bde9-110">To remove user and application databases from the SQL Server</span></span>
 
-1.  <span data-ttu-id="bb795-111">SQL Server のデータベースを削除するには、データベース ファイルを削除している SQL Server の SQL Server sysadmins グループのメンバーである必要があります。</span><span class="sxs-lookup"><span data-stu-id="bb795-111">To remove the databases on the SQL Server, you must be a member of the SQL Server sysadmins group for the SQL Server where you are removing the database files.</span></span>
+1.  <span data-ttu-id="3bde9-111">SQL Server のデータベースを削除するには、データベース ファイルを削除している SQL Server の SQL Server sysadmins グループのメンバーである必要があります。</span><span class="sxs-lookup"><span data-stu-id="3bde9-111">To remove the databases on the SQL Server, you must be a member of the SQL Server sysadmins group for the SQL Server where you are removing the database files.</span></span>
 
-2.  <span data-ttu-id="bb795-112">Lync Server 管理シェルを開く</span><span class="sxs-lookup"><span data-stu-id="bb795-112">Open Lync Server Management Shell</span></span>
+2.  <span data-ttu-id="3bde9-112">Lync Server 管理シェルを開く</span><span class="sxs-lookup"><span data-stu-id="3bde9-112">Open Lync Server Management Shell</span></span>
 
-3.  <span data-ttu-id="bb795-113">プール ユーザー ストアのデータベースを削除するには、次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="bb795-113">To remove the database for the pool user store, type:</span></span>
+3.  <span data-ttu-id="3bde9-113">プール ユーザー ストアのデータベースを削除するには、次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="3bde9-113">To remove the database for the pool user store, type:</span></span>
     
         Uninstall-CsDataBase -DatabaseType User -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
     
-    <span data-ttu-id="bb795-114">ここ\<で\> 、fqdn はデータベースサーバーの完全修飾ドメイン名 (fqdn)、 \<インスタンス\>は名前付きデータベースインスタンス (定義されている場合) です。</span><span class="sxs-lookup"><span data-stu-id="bb795-114">Where \<FQDN\> is the fully qualified domain name (FQDN) of the database server, and \<instance\> is the named database instance (that is, if one was defined).</span></span>
+    <span data-ttu-id="3bde9-114">ここ\<で\> 、fqdn はデータベースサーバーの完全修飾ドメイン名 (fqdn)、 \<インスタンス\>は名前付きデータベースインスタンス (定義されている場合) です。</span><span class="sxs-lookup"><span data-stu-id="3bde9-114">Where \<FQDN\> is the fully qualified domain name (FQDN) of the database server, and \<instance\> is the named database instance (that is, if one was defined).</span></span>
 
-4.  <span data-ttu-id="bb795-115">プール アプリケーション ストアのデータベースを削除するには、次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="bb795-115">To remove the database for the pool application store, type:</span></span>
+4.  <span data-ttu-id="3bde9-115">プール アプリケーション ストアのデータベースを削除するには、次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="3bde9-115">To remove the database for the pool application store, type:</span></span>
     
         Uninstall-CsDataBase -DatabaseType Application -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
     
-    <span data-ttu-id="bb795-116">ここ\<で\> 、fqdn はデータベースサーバーの fqdn、 \<インスタンス\>は名前付きデータベースインスタンス (定義されている場合) です。</span><span class="sxs-lookup"><span data-stu-id="bb795-116">Where \<FQDN\> is the FQDN of the database server, and \<instance\> is the named database instance (that is, if one was defined).</span></span>
+    <span data-ttu-id="3bde9-116">ここ\<で\> 、fqdn はデータベースサーバーの fqdn、 \<インスタンス\>は名前付きデータベースインスタンス (定義されている場合) です。</span><span class="sxs-lookup"><span data-stu-id="3bde9-116">Where \<FQDN\> is the FQDN of the database server, and \<instance\> is the named database instance (that is, if one was defined).</span></span>
 
-5.  <span data-ttu-id="bb795-117">**Uninstall-CsDataBase** コマンドレットから操作を確認するメッセージが表示される場合は、情報を読み、**Y** (または Enter) キーを押して操作を続行するか、**N** キーを押し、次に Enter キーを押してコマンドレットを停止します (問題がある場合)。</span><span class="sxs-lookup"><span data-stu-id="bb795-117">When the **Uninstall-CsDataBase** cmdlet prompts you to confirm actions, read the information, and then press **Y** (or press Enter) to proceed, or press **N** and then Enter if you want to stop the cmdlet (that is, in case there errors).</span></span>
+5.  <span data-ttu-id="3bde9-117">**Uninstall-CsDataBase** コマンドレットから操作を確認するメッセージが表示される場合は、情報を読み、**Y** (または Enter) キーを押して操作を続行するか、**N** キーを押し、次に Enter キーを押してコマンドレットを停止します (問題がある場合)。</span><span class="sxs-lookup"><span data-stu-id="3bde9-117">When the **Uninstall-CsDataBase** cmdlet prompts you to confirm actions, read the information, and then press **Y** (or press Enter) to proceed, or press **N** and then Enter if you want to stop the cmdlet (that is, in case there errors).</span></span>
 
 </div>
 

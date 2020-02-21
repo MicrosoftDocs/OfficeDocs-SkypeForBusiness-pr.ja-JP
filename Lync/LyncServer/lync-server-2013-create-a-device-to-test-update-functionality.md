@@ -12,20 +12,20 @@ ms:contentKeyID: 48185466
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6fc1d6dba7d2be4facde76585bf6f07ab502f290
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 67712f981d8061b8dd3c90de812092e01dc5d1b5
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134973"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42195440"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-a-device-to-test-update-functionality-in-lync-server-2013"></a><span data-ttu-id="e7954-102">Lync Server 2013 で更新プログラムの機能をテストするためのデバイスを作成する</span><span class="sxs-lookup"><span data-stu-id="e7954-102">Create a device to test update functionality in Lync Server 2013</span></span>
+# <a name="create-a-device-to-test-update-functionality-in-lync-server-2013"></a><span data-ttu-id="e48f4-102">Lync Server 2013 で更新プログラムの機能をテストするためのデバイスを作成する</span><span class="sxs-lookup"><span data-stu-id="e48f4-102">Create a device to test update functionality in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,59 +35,59 @@ ms.locfileid: "42134973"
 
 <span> </span>
 
-<span data-ttu-id="e7954-103">_**トピックの最終更新日:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="e7954-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+<span data-ttu-id="e48f4-103">_**トピックの最終更新日:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="e48f4-103">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-<span data-ttu-id="e7954-104">[**テスト デバイス**] ページにテスト デバイスを追加すると、新しい更新プログラムをプロダクション デバイスに展開する前に、このデバイスを使用して更新プログラムの機能を検証できます。</span><span class="sxs-lookup"><span data-stu-id="e7954-104">You can add a test device to the **Test Device** page and then use this device to verify the functionality of new updates before deploying the updates to production devices.</span></span> <span data-ttu-id="e7954-105">デバイスは、(Lync Server 環境全体を通じて) グローバルに、または単一のサイト内で一括してテストできます。</span><span class="sxs-lookup"><span data-stu-id="e7954-105">You can test a device globally (throughout your entire Lync Server environment) or within a single site.</span></span> <span data-ttu-id="e7954-106">テスト デバイスは、そのメディア アクセス制御 (MAC) アドレスまたはシリアル番号で識別します。</span><span class="sxs-lookup"><span data-stu-id="e7954-106">You identify a test device by its Media Access Control (MAC) address or serial number.</span></span> <span data-ttu-id="e7954-107">デバイスを追加すると、そのデバイスは Lync Server コントロールパネルの [**テストデバイス**] ページの一覧に表示されます。</span><span class="sxs-lookup"><span data-stu-id="e7954-107">When you add a device, it appears in the list on the **Test Device** page of the Lync Server Control Panel.</span></span>
+<span data-ttu-id="e48f4-104">[**テスト デバイス**] ページにテスト デバイスを追加すると、新しい更新プログラムをプロダクション デバイスに展開する前に、このデバイスを使用して更新プログラムの機能を検証できます。</span><span class="sxs-lookup"><span data-stu-id="e48f4-104">You can add a test device to the **Test Device** page and then use this device to verify the functionality of new updates before deploying the updates to production devices.</span></span> <span data-ttu-id="e48f4-105">デバイスは、(Lync Server 環境全体を通じて) グローバルに、または単一のサイト内で一括してテストできます。</span><span class="sxs-lookup"><span data-stu-id="e48f4-105">You can test a device globally (throughout your entire Lync Server environment) or within a single site.</span></span> <span data-ttu-id="e48f4-106">テスト デバイスは、そのメディア アクセス制御 (MAC) アドレスまたはシリアル番号で識別します。</span><span class="sxs-lookup"><span data-stu-id="e48f4-106">You identify a test device by its Media Access Control (MAC) address or serial number.</span></span> <span data-ttu-id="e48f4-107">デバイスを追加すると、そのデバイスは Lync Server コントロールパネルの [**テストデバイス**] ページの一覧に表示されます。</span><span class="sxs-lookup"><span data-stu-id="e48f4-107">When you add a device, it appears in the list on the **Test Device** page of the Lync Server Control Panel.</span></span>
 
 <div>
 
-## <a name="to-add-a-test-device"></a><span data-ttu-id="e7954-108">テスト デバイスを追加するには</span><span class="sxs-lookup"><span data-stu-id="e7954-108">To add a test device</span></span>
+## <a name="to-add-a-test-device"></a><span data-ttu-id="e48f4-108">テスト デバイスを追加するには</span><span class="sxs-lookup"><span data-stu-id="e48f4-108">To add a test device</span></span>
 
-1.  <span data-ttu-id="e7954-109">ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="e7954-109">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="e7954-110">Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="e7954-110">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+1.  <span data-ttu-id="e48f4-109">ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="e48f4-109">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="e48f4-110">Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="e48f4-110">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-2.  <span data-ttu-id="e7954-111">左側のナビゲーション バーで [**クライアント**] をクリックしてから、[**テスト デバイス**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="e7954-111">In the left navigation bar, click **Clients**, and then click **Test Device**.</span></span>
+2.  <span data-ttu-id="e48f4-111">左側のナビゲーション バーで [**クライアント**] をクリックしてから、[**テスト デバイス**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="e48f4-111">In the left navigation bar, click **Clients**, and then click **Test Device**.</span></span>
 
-3.  <span data-ttu-id="e7954-112">[**新規**] をクリックし、[**グローバル テスト デバイス**] か [**サイト テスト デバイス**] のどちらかをクリックします。</span><span class="sxs-lookup"><span data-stu-id="e7954-112">Click **New**, and then click either **Global test device** or **Site test device**.</span></span>
+3.  <span data-ttu-id="e48f4-112">[**新規**] をクリックし、[**グローバル テスト デバイス**] か [**サイト テスト デバイス**] のどちらかをクリックします。</span><span class="sxs-lookup"><span data-stu-id="e48f4-112">Click **New**, and then click either **Global test device** or **Site test device**.</span></span>
 
-4.  <span data-ttu-id="e7954-113">次のいずれかの操作を行います。</span><span class="sxs-lookup"><span data-stu-id="e7954-113">Do one of the following:</span></span>
+4.  <span data-ttu-id="e48f4-113">次のいずれかの操作を行います。</span><span class="sxs-lookup"><span data-stu-id="e48f4-113">Do one of the following:</span></span>
     
-      - <span data-ttu-id="e7954-114">[**グローバル テスト デバイス**] をクリックした場合は、次の手順をスキップします。</span><span class="sxs-lookup"><span data-stu-id="e7954-114">If you clicked **Global test device**, skip to the next step.</span></span>
+      - <span data-ttu-id="e48f4-114">[**グローバル テスト デバイス**] をクリックした場合は、次の手順をスキップします。</span><span class="sxs-lookup"><span data-stu-id="e48f4-114">If you clicked **Global test device**, skip to the next step.</span></span>
     
-      - <span data-ttu-id="e7954-115">[**サイト テスト デバイス**] をクリックした場合は、使用可能なサイトの一覧からサイトを選択して、[**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="e7954-115">If you clicked **Site test device**, select a site from the list of available sites, and then click **OK**.</span></span>
+      - <span data-ttu-id="e48f4-115">[**サイト テスト デバイス**] をクリックした場合は、使用可能なサイトの一覧からサイトを選択して、[**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="e48f4-115">If you clicked **Site test device**, select a site from the list of available sites, and then click **OK**.</span></span>
 
-5.  <span data-ttu-id="e7954-116">[**新しいテスト デバイス**] の [**デバイス名**] にデバイスの名前を入力します。</span><span class="sxs-lookup"><span data-stu-id="e7954-116">In **New Test Device**, type a name for the device in **Device name**.</span></span>
+5.  <span data-ttu-id="e48f4-116">[**新しいテスト デバイス**] の [**デバイス名**] にデバイスの名前を入力します。</span><span class="sxs-lookup"><span data-stu-id="e48f4-116">In **New Test Device**, type a name for the device in **Device name**.</span></span>
 
-6.  <span data-ttu-id="e7954-117">[**識別子の種類**] で、[**MAC アドレス**] または [**シリアル番号**] のどちらかをクリックします。</span><span class="sxs-lookup"><span data-stu-id="e7954-117">Under **Identifier type**, click either **MAC address** or **Serial number**.</span></span>
+6.  <span data-ttu-id="e48f4-117">[**識別子の種類**] で、[**MAC アドレス**] または [**シリアル番号**] のどちらかをクリックします。</span><span class="sxs-lookup"><span data-stu-id="e48f4-117">Under **Identifier type**, click either **MAC address** or **Serial number**.</span></span>
 
-7.  <span data-ttu-id="e7954-118">[**一意識別子**] ボックスに、デバイスの MAC アドレスかシリアル番号を入力します。</span><span class="sxs-lookup"><span data-stu-id="e7954-118">In the **Unique identifier** box, type the MAC address or serial number of the device.</span></span>
+7.  <span data-ttu-id="e48f4-118">[**一意識別子**] ボックスに、デバイスの MAC アドレスかシリアル番号を入力します。</span><span class="sxs-lookup"><span data-stu-id="e48f4-118">In the **Unique identifier** box, type the MAC address or serial number of the device.</span></span>
 
-8.  <span data-ttu-id="e7954-119">[**確定**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="e7954-119">Click **Commit**.</span></span>
+8.  <span data-ttu-id="e48f4-119">[**確定**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="e48f4-119">Click **Commit**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="creating-test-devices-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="e7954-120">Windows PowerShell コマンドレットを使用してテストデバイスを作成する</span><span class="sxs-lookup"><span data-stu-id="e7954-120">Creating Test Devices by Using Windows PowerShell Cmdlets</span></span>
+## <a name="creating-test-devices-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="e48f4-120">Windows PowerShell コマンドレットを使用してテストデバイスを作成する</span><span class="sxs-lookup"><span data-stu-id="e48f4-120">Creating Test Devices by Using Windows PowerShell Cmdlets</span></span>
 
-<span data-ttu-id="e7954-121">テストデバイスは、Windows PowerShell と New-cstestdevice コマンドレットを使用して作成できます。</span><span class="sxs-lookup"><span data-stu-id="e7954-121">Test devices can be created by using Windows PowerShell and the New-CsTestDevice cmdlet.</span></span> <span data-ttu-id="e7954-122">このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。</span><span class="sxs-lookup"><span data-stu-id="e7954-122">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="e7954-123">リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。</span><span class="sxs-lookup"><span data-stu-id="e7954-123">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+<span data-ttu-id="e48f4-121">テストデバイスは、Windows PowerShell と New-cstestdevice コマンドレットを使用して作成できます。</span><span class="sxs-lookup"><span data-stu-id="e48f4-121">Test devices can be created by using Windows PowerShell and the New-CsTestDevice cmdlet.</span></span> <span data-ttu-id="e48f4-122">このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。</span><span class="sxs-lookup"><span data-stu-id="e48f4-122">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="e48f4-123">リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。</span><span class="sxs-lookup"><span data-stu-id="e48f4-123">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
-<span data-ttu-id="e7954-124">このコマンドレットを使用してテスト デバイスを作成するには、以下の 2 つを行う必要があります。</span><span class="sxs-lookup"><span data-stu-id="e7954-124">When creating test devices using this cmdlet, you must do two things:</span></span>
+<span data-ttu-id="e48f4-124">このコマンドレットを使用してテスト デバイスを作成するには、以下の 2 つを行う必要があります。</span><span class="sxs-lookup"><span data-stu-id="e48f4-124">When creating test devices using this cmdlet, you must do two things:</span></span>
 
-  - <span data-ttu-id="e7954-125">MACAddress または SerialNumber のいずれかを IdentifierType として指定します。</span><span class="sxs-lookup"><span data-stu-id="e7954-125">Specify either MACAddress or SerialNumber as the IdentifierType.</span></span>
+  - <span data-ttu-id="e48f4-125">MACAddress または SerialNumber のいずれかを IdentifierType として指定します。</span><span class="sxs-lookup"><span data-stu-id="e48f4-125">Specify either MACAddress or SerialNumber as the IdentifierType.</span></span>
 
-  - <span data-ttu-id="e7954-p104">デバイス識別子を指定するときにスコープを含めます。グローバル スコープでデバイスを作成するには、次のような構文を使用します。</span><span class="sxs-lookup"><span data-stu-id="e7954-p104">Include the scope when specifying the device Identity. To create a new device at the global scope use syntax similar to this:</span></span>
+  - <span data-ttu-id="e48f4-p104">デバイス識別子を指定するときにスコープを含めます。グローバル スコープでデバイスを作成するには、次のような構文を使用します。</span><span class="sxs-lookup"><span data-stu-id="e48f4-p104">Include the scope when specifying the device Identity. To create a new device at the global scope use syntax similar to this:</span></span>
     
         -Identity "global/WindowsPhone"
     
-    <span data-ttu-id="e7954-128">サイト スコープでテスト デバイスを作成するには、次のような構文を使用します。</span><span class="sxs-lookup"><span data-stu-id="e7954-128">To create a test device at the site scope use syntax similar to this:</span></span>
+    <span data-ttu-id="e48f4-128">サイト スコープでテスト デバイスを作成するには、次のような構文を使用します。</span><span class="sxs-lookup"><span data-stu-id="e48f4-128">To create a test device at the site scope use syntax similar to this:</span></span>
     
         -Identity "site:Redmond/WindowsPhone"
 
 <div>
 
-## <a name="to-create-a-test-device-by-using-the-mac-address"></a><span data-ttu-id="e7954-129">MAC アドレスを使用してテストデバイスを作成するには</span><span class="sxs-lookup"><span data-stu-id="e7954-129">To create a test device by using the MAC address</span></span>
+## <a name="to-create-a-test-device-by-using-the-mac-address"></a><span data-ttu-id="e48f4-129">MAC アドレスを使用してテストデバイスを作成するには</span><span class="sxs-lookup"><span data-stu-id="e48f4-129">To create a test device by using the MAC address</span></span>
 
-  - <span data-ttu-id="e7954-130">このコマンドはテスト デバイスを、グローバル スコープで、MAC アドレスを IdentifierType として使用して作成します。</span><span class="sxs-lookup"><span data-stu-id="e7954-130">This command creates a test device at the global scope, and using the MAC address as the IdentifierType:</span></span>
+  - <span data-ttu-id="e48f4-130">このコマンドはテスト デバイスを、グローバル スコープで、MAC アドレスを IdentifierType として使用して作成します。</span><span class="sxs-lookup"><span data-stu-id="e48f4-130">This command creates a test device at the global scope, and using the MAC address as the IdentifierType:</span></span>
     
         New-CsTestDevice -Identity "global/WindowsPhone" -IdentifierType "MACAddress" -Identifier "01:02:03:04:05:06"
 
@@ -95,15 +95,15 @@ ms.locfileid: "42134973"
 
 <div>
 
-## <a name="to-create-a-test-device-by-using-the-serial-number"></a><span data-ttu-id="e7954-131">シリアル番号を使用してテストデバイスを作成するには</span><span class="sxs-lookup"><span data-stu-id="e7954-131">To create a test device by using the serial number</span></span>
+## <a name="to-create-a-test-device-by-using-the-serial-number"></a><span data-ttu-id="e48f4-131">シリアル番号を使用してテストデバイスを作成するには</span><span class="sxs-lookup"><span data-stu-id="e48f4-131">To create a test device by using the serial number</span></span>
 
-  - <span data-ttu-id="e7954-132">このコマンドは新しいテスト デバイスを、サイトスコープ (Redmond サイト) で、シリアル番号を IdentifierType として使用して作成します。</span><span class="sxs-lookup"><span data-stu-id="e7954-132">This command creates a new test device at the site scope (for the Redmond site) and uses the serial number as the IdentifierType:</span></span>
+  - <span data-ttu-id="e48f4-132">このコマンドは新しいテスト デバイスを、サイトスコープ (Redmond サイト) で、シリアル番号を IdentifierType として使用して作成します。</span><span class="sxs-lookup"><span data-stu-id="e48f4-132">This command creates a new test device at the site scope (for the Redmond site) and uses the serial number as the IdentifierType:</span></span>
     
         New-CsTestDevice -Identity "site:Redmond/WindowsPhone" -IdentifierType "SerialNumber" -Identifier "01ABC5419JKR55T"
 
 </div>
 
-<span data-ttu-id="e7954-133">詳細については、 [new-cstestdevice](https://docs.microsoft.com/powershell/module/skype/New-CsTestDevice)コマンドレットのヘルプトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="e7954-133">For more information, see the help topic for the [New-CsTestDevice](https://docs.microsoft.com/powershell/module/skype/New-CsTestDevice) cmdlet.</span></span>
+<span data-ttu-id="e48f4-133">詳細については、 [new-cstestdevice](https://docs.microsoft.com/powershell/module/skype/New-CsTestDevice)コマンドレットのヘルプトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="e48f4-133">For more information, see the help topic for the [New-CsTestDevice](https://docs.microsoft.com/powershell/module/skype/New-CsTestDevice) cmdlet.</span></span>
 
 </div>
 
