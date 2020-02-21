@@ -12,16 +12,16 @@ ms:contentKeyID: 59170234
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3c6f21e6a58b9130ab93f827f14aad4bd09cbb33
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: be14e3dedf39883a81a040ed31ae38d2966ab647
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42142463"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42208283"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -43,7 +43,7 @@ _**トピックの最終更新日:** 2013-10-07_
 
 この記事では、パブリック IM 接続 (PIC) のサポートに関する情報を提供します。 PIC は Microsoft Lync の機能です。これにより、組織は lync ユーザーが特定のパブリックインスタントメッセージング (IM) サービスのユーザーと Lync クライアントおよび id を介して接続できるようになります。
 
-エンドユーザーにとっては、顧客、パートナー、およびベンダーとの間で顧客、パートナー、およびベンダーと接続できるという利点があります。 Lync の制御、コンプライアンス、およびアーカイブ機能を維持しながら、1つのリアルタイム通信クライアントをサポートすることでメリットを得られます。 Lync と Skype の接続は、2013年 5[月に公開](https://blogs.technet.com/b/lync/archive/2013/05/23/lync-skype-connectivity-available-today.aspx)されていますが、Lync/Office Communications SERVER (OCS)/Live communications SERVER (LCS) を最初に、MSN/Windows LIVE、AOL、および Yahoo に接続する PIC で確立したものに依存しています。Lync と Skype の接続の詳細については、「 [lync-skype の接続](http://office.microsoft.com/lync/lync-skype-connectivity-fx103789635.aspx)」を参照してください。 Windows Live、AOL、および Yahoo とのフェデレーションは、それぞれ有効期限までの経路上にあります。このページには、各サービスの状態が記載されています。
+エンドユーザーにとっては、顧客、パートナー、およびベンダーとの間で顧客、パートナー、およびベンダーと接続できるという利点があります。 Lync の制御、コンプライアンス、およびアーカイブ機能を維持しながら、1つのリアルタイム通信クライアントをサポートすることでメリットを得られます。 Lync と Skype の接続は、2013年 5[月に公開](https://blogs.technet.com/b/lync/archive/2013/05/23/lync-skype-connectivity-available-today.aspx)されていますが、Lync/Office Communications SERVER (OCS)/Live communications SERVER (LCS) を最初に、MSN/Windows LIVE、AOL、および Yahoo に接続する PIC で確立したものに依存しています。Lync と Skype の接続の詳細については、「 [lync-skype の接続](https://office.microsoft.com/lync/lync-skype-connectivity-fx103789635.aspx)」を参照してください。 Windows Live、AOL、および Yahoo とのフェデレーションは、それぞれ有効期限までの経路上にあります。このページには、各サービスの状態が記載されています。
 
 PIC を使用するには、お客様がパブリック IM サービスプロバイダーごとにサービスをアクティブにする必要があります。 これを行う方法の要件と詳細については、「IM サービスプロバイダー」および「お客様の基になるライセンスプログラム」を参照してください。
 

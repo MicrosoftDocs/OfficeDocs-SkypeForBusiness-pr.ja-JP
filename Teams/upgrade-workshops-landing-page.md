@@ -19,18 +19,18 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5f58815ad2f722b0409b22e05a71adc65a8772e1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 756ff8d15ec58426b73504fcb240068151eabcd7
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045019"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42205413"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Teams のアップグレード計画のワークショップ</h1>
            <p>Skype for Business のお客様として、Teams への道を進む際に必要なものが揃っていることを確認してください。 Teams へのアップグレードの計画と実施に役立つように設計されたガイダンス、ベスト プラクティス、およびリソースを共有する、一連のライブの対話型アップグレード計画ワークショップにご参加ください。 最適なエクスペリエンスのために、以下の「<strong>アップグレードを計画する</strong>」セッションから始めてください。
-            <p>Teams は初めてですか? 詳細については、<a href="http://docs.microsoft.com/microsoftteams/teams-overview">こちら</a>を参照してください。
+            <p>Teams は初めてですか? 詳細については、<a href="https://docs.microsoft.com/microsoftteams/teams-overview">こちら</a>を参照してください。
         <ul class="pivots">
             <li>
                 <a href="#home" data-linktype="self-bookmark"></a>

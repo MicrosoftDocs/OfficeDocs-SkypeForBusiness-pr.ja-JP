@@ -12,16 +12,16 @@ ms:contentKeyID: 63969578
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 55d8881bc8b8a55351cc088c230574b958718a63
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: d0cb167d2a7aed3f5c107d4beba568c00ac501e0
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42150936"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42206733"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -69,7 +69,7 @@ Lync Server 2013 には、以前に一覧表示されているファイル共有
 
 1.  **System center operations manager**   system center operations manager を使用して、ボリューム容量が制限されている場合に管理者に警告を発することができます。
 
-2.  **スクリプトを実行**   して、使用可能なハードディスクの空き容量が20% を下回った場合にメッセージを送信するスクリプトを実行することによって、ディスク領域を監視します。 TechNet の Microsoft Script Center でサンプルスクリプトを確認するには、次の点を確認してください。[http://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard%20disk%20alert\&f%5B0%5D.Value=hard%20disk%20alert\&f%5B0%5D.Type=SearchText\&ac=5](http://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard+disk+alert%26f%5b0%5d.value=hard+disk+alert%26f%5b0%5d.type=searchtext%26ac=5)
+2.  **スクリプトを実行**   して、使用可能なハードディスクの空き容量が20% を下回った場合にメッセージを送信するスクリプトを実行することによって、ディスク領域を監視します。 TechNet の Microsoft Script Center でサンプルスクリプトを確認するには、次の点を確認してください。[https://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard%20disk%20alert\&f%5B0%5D.Value=hard%20disk%20alert\&f%5B0%5D.Type=SearchText\&ac=5](https://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard+disk+alert%26f%5b0%5d.value=hard+disk+alert%26f%5b0%5d.type=searchtext%26ac=5)
 
 3.  **エクスプローラーで**   は、windows エクスプローラーを使用して、Lync Server 2013 のログおよびデータベースを格納するボリューム上のディスク領域をチェックします。
 
