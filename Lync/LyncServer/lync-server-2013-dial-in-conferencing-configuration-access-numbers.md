@@ -12,20 +12,20 @@ ms:contentKeyID: 49733858
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 269392d57ef9004e1fa764bf8897dc8315b8afd1
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: c728e2d04b982d5d16631f79844e0fe7030cc893
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42153899"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42213463"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dial-in-conferencing-in-lync-server-2013-configurationaccess-numbers"></a><span data-ttu-id="921d3-102">Lync Server 2013 のダイヤルイン会議 (構成/アクセス番号)</span><span class="sxs-lookup"><span data-stu-id="921d3-102">Dial-in conferencing in Lync Server 2013 (configuration/access numbers)</span></span>
+# <a name="dial-in-conferencing-in-lync-server-2013-configurationaccess-numbers"></a><span data-ttu-id="e9a81-102">Lync Server 2013 のダイヤルイン会議 (構成/アクセス番号)</span><span class="sxs-lookup"><span data-stu-id="e9a81-102">Dial-in conferencing in Lync Server 2013 (configuration/access numbers)</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "42153899"
 
 <span> </span>
 
-<span data-ttu-id="921d3-103">_**トピックの最終更新日:** 2012-09-18_</span><span class="sxs-lookup"><span data-stu-id="921d3-103">_**Topic Last Modified:** 2012-09-18_</span></span>
+<span data-ttu-id="e9a81-103">_**トピックの最終更新日:** 2012-09-18_</span><span class="sxs-lookup"><span data-stu-id="e9a81-103">_**Topic Last Modified:** 2012-09-18_</span></span>
 
-<span data-ttu-id="921d3-104">このセクションのトピックでは、lync server 2013 環境を使用するために、Lync Server 2013 コントロールパネルを使用してダイヤルイン会議を構成する方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="921d3-104">The topics in this section describe how to use Lync Server 2013 Control Panel to configure dial-in conferencing for use your Lync Server 2013 environment.</span></span>
+<span data-ttu-id="e9a81-104">このセクションのトピックでは、lync server 2013 環境を使用するために、Lync Server 2013 コントロールパネルを使用してダイヤルイン会議を構成する方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="e9a81-104">The topics in this section describe how to use Lync Server 2013 Control Panel to configure dial-in conferencing for use your Lync Server 2013 environment.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="921d3-105">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="921d3-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="e9a81-105">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="e9a81-105">In This Section</span></span>
 
-  - [<span data-ttu-id="921d3-106">Lync Server 2013 で会議のダイヤルイン会議を有効または無効にする</span><span class="sxs-lookup"><span data-stu-id="921d3-106">Enable or disable dial-in conferencing for meetings in Lync Server 2013</span></span>](lync-server-2013-enable-or-disable-dial-in-conferencing-for-meetings.md)
+  - [<span data-ttu-id="e9a81-106">Lync Server 2013 で会議のダイヤルイン会議を有効または無効にする</span><span class="sxs-lookup"><span data-stu-id="e9a81-106">Enable or disable dial-in conferencing for meetings in Lync Server 2013</span></span>](lync-server-2013-enable-or-disable-dial-in-conferencing-for-meetings.md)
 
-  - [<span data-ttu-id="921d3-107">Lync Server 2013 のダイヤルイン会議アクセス番号</span><span class="sxs-lookup"><span data-stu-id="921d3-107">Dial-in conferencing access numbers in Lync Server 2013</span></span>](lync-server-2013-dial-in-conferencing-access-numbers.md)
+  - [<span data-ttu-id="e9a81-107">Lync Server 2013 のダイヤルイン会議アクセス番号</span><span class="sxs-lookup"><span data-stu-id="e9a81-107">Dial-in conferencing access numbers in Lync Server 2013</span></span>](lync-server-2013-dial-in-conferencing-access-numbers.md)
 
-  - [<span data-ttu-id="921d3-108">Lync Server 2013 でダイヤルイン会議の暗証番号 (PIN) ルールを構成する</span><span class="sxs-lookup"><span data-stu-id="921d3-108">Configure dial-in conferencing personal identification number (PIN) rules in Lync Server 2013</span></span>](lync-server-2013-configure-dial-in-conferencing-personal-identification-number-pin-rules.md)
+  - [<span data-ttu-id="e9a81-108">Lync Server 2013 でダイヤルイン会議の暗証番号 (PIN) ルールを構成する</span><span class="sxs-lookup"><span data-stu-id="e9a81-108">Configure dial-in conferencing personal identification number (PIN) rules in Lync Server 2013</span></span>](lync-server-2013-configure-dial-in-conferencing-personal-identification-number-pin-rules.md)
 
 </div>
 

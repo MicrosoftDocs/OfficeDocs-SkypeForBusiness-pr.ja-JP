@@ -12,20 +12,20 @@ ms:contentKeyID: 48184169
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1270557e5d02fd1764957d75441ecc33ad11588c
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 8906519253445ea67f3fa674a9a1315f8f6cf18b
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42153919"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42213503"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="devices-table-in-lync-server-2013"></a><span data-ttu-id="f1358-102">Lync Server 2013 の Devices テーブル</span><span class="sxs-lookup"><span data-stu-id="f1358-102">Devices table in Lync Server 2013</span></span>
+# <a name="devices-table-in-lync-server-2013"></a><span data-ttu-id="21a6d-102">Lync Server 2013 の Devices テーブル</span><span class="sxs-lookup"><span data-stu-id="21a6d-102">Devices table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42153919"
 
 <span> </span>
 
-<span data-ttu-id="f1358-103">_**トピックの最終更新日:** 2012-05-25_</span><span class="sxs-lookup"><span data-stu-id="f1358-103">_**Topic Last Modified:** 2012-05-25_</span></span>
+<span data-ttu-id="21a6d-103">_**トピックの最終更新日:** 2012-05-25_</span><span class="sxs-lookup"><span data-stu-id="21a6d-103">_**Topic Last Modified:** 2012-05-25_</span></span>
 
-<span data-ttu-id="f1358-p101">Devices テーブルは、サポート テーブルです。各レコードには、1 つのデバイス (卓上電話) に関する情報が格納されます。</span><span class="sxs-lookup"><span data-stu-id="f1358-p101">The Devices table is a supporting table. Each record stores information about one device (desk phone).</span></span>
+<span data-ttu-id="21a6d-p101">Devices テーブルは、サポート テーブルです。各レコードには、1 つのデバイス (卓上電話) に関する情報が格納されます。</span><span class="sxs-lookup"><span data-stu-id="21a6d-p101">The Devices table is a supporting table. Each record stores information about one device (desk phone).</span></span>
 
 
 <table>
@@ -49,36 +49,36 @@ ms.locfileid: "42153919"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="f1358-106">列</span><span class="sxs-lookup"><span data-stu-id="f1358-106">Column</span></span></th>
-<th><span data-ttu-id="f1358-107">データ型</span><span class="sxs-lookup"><span data-stu-id="f1358-107">Data Type</span></span></th>
-<th><span data-ttu-id="f1358-108">キー/インデックス</span><span class="sxs-lookup"><span data-stu-id="f1358-108">Key/Index</span></span></th>
-<th><span data-ttu-id="f1358-109">詳細</span><span class="sxs-lookup"><span data-stu-id="f1358-109">Details</span></span></th>
+<th><span data-ttu-id="21a6d-106">列</span><span class="sxs-lookup"><span data-stu-id="21a6d-106">Column</span></span></th>
+<th><span data-ttu-id="21a6d-107">データ型</span><span class="sxs-lookup"><span data-stu-id="21a6d-107">Data Type</span></span></th>
+<th><span data-ttu-id="21a6d-108">キー/インデックス</span><span class="sxs-lookup"><span data-stu-id="21a6d-108">Key/Index</span></span></th>
+<th><span data-ttu-id="21a6d-109">詳細</span><span class="sxs-lookup"><span data-stu-id="21a6d-109">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f1358-110"><strong>DeviceId</strong></span><span class="sxs-lookup"><span data-stu-id="f1358-110"><strong>DeviceId</strong></span></span></p></td>
-<td><p><span data-ttu-id="f1358-111">int</span><span class="sxs-lookup"><span data-stu-id="f1358-111">int</span></span></p></td>
-<td><p><span data-ttu-id="f1358-112">Primary</span><span class="sxs-lookup"><span data-stu-id="f1358-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="f1358-113">このハードウェア バージョンを識別する一意の番号。</span><span class="sxs-lookup"><span data-stu-id="f1358-113">Unique number identifying this hardware version.</span></span></p></td>
+<td><p><span data-ttu-id="21a6d-110"><strong>DeviceId</strong></span><span class="sxs-lookup"><span data-stu-id="21a6d-110"><strong>DeviceId</strong></span></span></p></td>
+<td><p><span data-ttu-id="21a6d-111">int</span><span class="sxs-lookup"><span data-stu-id="21a6d-111">int</span></span></p></td>
+<td><p><span data-ttu-id="21a6d-112">Primary</span><span class="sxs-lookup"><span data-stu-id="21a6d-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="21a6d-113">このハードウェア バージョンを識別する一意の番号。</span><span class="sxs-lookup"><span data-stu-id="21a6d-113">Unique number identifying this hardware version.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f1358-114"><strong>ManufacturerId</strong></span><span class="sxs-lookup"><span data-stu-id="f1358-114"><strong>ManufacturerId</strong></span></span></p></td>
-<td><p><span data-ttu-id="f1358-115">int</span><span class="sxs-lookup"><span data-stu-id="f1358-115">int</span></span></p></td>
-<td><p><span data-ttu-id="f1358-116">外部</span><span class="sxs-lookup"><span data-stu-id="f1358-116">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="f1358-117">このデバイスの製造元。</span><span class="sxs-lookup"><span data-stu-id="f1358-117">Manufacturer of this device.</span></span> <span data-ttu-id="f1358-118">詳細については、「 <a href="lync-server-2013-manufacturers-table.md">Lync Server 2013 の製造元</a>」の表を参照してください。</span><span class="sxs-lookup"><span data-stu-id="f1358-118">See the <a href="lync-server-2013-manufacturers-table.md">Manufacturers table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="21a6d-114"><strong>ManufacturerId</strong></span><span class="sxs-lookup"><span data-stu-id="21a6d-114"><strong>ManufacturerId</strong></span></span></p></td>
+<td><p><span data-ttu-id="21a6d-115">int</span><span class="sxs-lookup"><span data-stu-id="21a6d-115">int</span></span></p></td>
+<td><p><span data-ttu-id="21a6d-116">外部</span><span class="sxs-lookup"><span data-stu-id="21a6d-116">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="21a6d-117">このデバイスの製造元。</span><span class="sxs-lookup"><span data-stu-id="21a6d-117">Manufacturer of this device.</span></span> <span data-ttu-id="21a6d-118">詳細については、「 <a href="lync-server-2013-manufacturers-table.md">Lync Server 2013 の製造元</a>」の表を参照してください。</span><span class="sxs-lookup"><span data-stu-id="21a6d-118">See the <a href="lync-server-2013-manufacturers-table.md">Manufacturers table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f1358-119"><strong>ハードウェア Versionid</strong></span><span class="sxs-lookup"><span data-stu-id="f1358-119"><strong>HardwareVersionId</strong></span></span></p></td>
-<td><p><span data-ttu-id="f1358-120">int</span><span class="sxs-lookup"><span data-stu-id="f1358-120">int</span></span></p></td>
-<td><p><span data-ttu-id="f1358-121">外部</span><span class="sxs-lookup"><span data-stu-id="f1358-121">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="f1358-122">このデバイスのハードウェア バージョン。</span><span class="sxs-lookup"><span data-stu-id="f1358-122">Hardware version of this device.</span></span> <span data-ttu-id="f1358-123">詳細については、「 <a href="lync-server-2013-hardwareversions-table.md">Lync Server 2013 のハードウェアバージョン表</a>」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="f1358-123">See the <a href="lync-server-2013-hardwareversions-table.md">HardwareVersions table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="21a6d-119"><strong>ハードウェア Versionid</strong></span><span class="sxs-lookup"><span data-stu-id="21a6d-119"><strong>HardwareVersionId</strong></span></span></p></td>
+<td><p><span data-ttu-id="21a6d-120">int</span><span class="sxs-lookup"><span data-stu-id="21a6d-120">int</span></span></p></td>
+<td><p><span data-ttu-id="21a6d-121">外部</span><span class="sxs-lookup"><span data-stu-id="21a6d-121">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="21a6d-122">このデバイスのハードウェア バージョン。</span><span class="sxs-lookup"><span data-stu-id="21a6d-122">Hardware version of this device.</span></span> <span data-ttu-id="21a6d-123">詳細については、「 <a href="lync-server-2013-hardwareversions-table.md">Lync Server 2013 のハードウェアバージョン表</a>」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="21a6d-123">See the <a href="lync-server-2013-hardwareversions-table.md">HardwareVersions table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f1358-124"><strong>MacAddress</strong></span><span class="sxs-lookup"><span data-stu-id="f1358-124"><strong>MacAddress</strong></span></span></p></td>
-<td><p><span data-ttu-id="f1358-125">bigint</span><span class="sxs-lookup"><span data-stu-id="f1358-125">bigint</span></span></p></td>
+<td><p><span data-ttu-id="21a6d-124"><strong>MacAddress</strong></span><span class="sxs-lookup"><span data-stu-id="21a6d-124"><strong>MacAddress</strong></span></span></p></td>
+<td><p><span data-ttu-id="21a6d-125">bigint</span><span class="sxs-lookup"><span data-stu-id="21a6d-125">bigint</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="f1358-126">MAC アドレス</span><span class="sxs-lookup"><span data-stu-id="f1358-126">MAC Address</span></span></p></td>
+<td><p><span data-ttu-id="21a6d-126">MAC アドレス</span><span class="sxs-lookup"><span data-stu-id="21a6d-126">MAC Address</span></span></p></td>
 </tr>
 </tbody>
 </table>

@@ -12,20 +12,20 @@ ms:contentKeyID: 48185253
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c3c09593bbff0b7aba81b2c45e8f43c1bb1675e
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 0769c8cc327a3cc4889a79f32bb5b9af0b1e3087
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42136785"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42211503"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-details-about-a-service-in-lync-server-2013"></a><span data-ttu-id="48003-102">Lync Server 2013 のサービスに関する詳細を表示する</span><span class="sxs-lookup"><span data-stu-id="48003-102">View details about a service in Lync Server 2013</span></span>
+# <a name="view-details-about-a-service-in-lync-server-2013"></a><span data-ttu-id="b6ca8-102">Lync Server 2013 のサービスに関する詳細を表示する</span><span class="sxs-lookup"><span data-stu-id="b6ca8-102">View details about a service in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,42 +35,42 @@ ms.locfileid: "42136785"
 
 <span> </span>
 
-<span data-ttu-id="48003-103">_**トピックの最終更新日:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="48003-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+<span data-ttu-id="b6ca8-103">_**トピックの最終更新日:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="b6ca8-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-<span data-ttu-id="48003-104">Lync Server コントロールパネルを使用して、トポロジ内の特定のコンピューターで実行されている各サービスの詳細を表示できます。</span><span class="sxs-lookup"><span data-stu-id="48003-104">You can use Lync Server Control Panel to view details about each service that is running on a specific computer in your topology.</span></span> <span data-ttu-id="48003-105">各サービスの状態と、関連付けられたデータベース、ポート、依存サービスなどの詳細を表示できます。</span><span class="sxs-lookup"><span data-stu-id="48003-105">You can view the status of each service and details such as the associated databases, ports, and dependent services.</span></span>
+<span data-ttu-id="b6ca8-104">Lync Server コントロールパネルを使用して、トポロジ内の特定のコンピューターで実行されている各サービスの詳細を表示できます。</span><span class="sxs-lookup"><span data-stu-id="b6ca8-104">You can use Lync Server Control Panel to view details about each service that is running on a specific computer in your topology.</span></span> <span data-ttu-id="b6ca8-105">各サービスの状態と、関連付けられたデータベース、ポート、依存サービスなどの詳細を表示できます。</span><span class="sxs-lookup"><span data-stu-id="b6ca8-105">You can view the status of each service and details such as the associated databases, ports, and dependent services.</span></span>
 
 <div>
 
-## <a name="to-view-details-for-a-service"></a><span data-ttu-id="48003-106">サービスの詳細を表示するには</span><span class="sxs-lookup"><span data-stu-id="48003-106">To view details for a service</span></span>
+## <a name="to-view-details-for-a-service"></a><span data-ttu-id="b6ca8-106">サービスの詳細を表示するには</span><span class="sxs-lookup"><span data-stu-id="b6ca8-106">To view details for a service</span></span>
 
-1.  <span data-ttu-id="48003-107">Lync Server 2013 の定義済みの管理者の役割のいずれかに割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="48003-107">From a user account that is assigned to any of the predefined administrative roles for Lync Server 2013, log on to any computer in your internal deployment.</span></span> <span data-ttu-id="48003-108">Lync Server 2013 で使用できる定義済みの管理者の役割の詳細については、「 [Lync server 2013 で役割ベースのアクセス制御を計画する](lync-server-2013-planning-for-role-based-access-control.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="48003-108">For details about the predefined administrative roles available in Lync Server 2013, see [Planning for role-based access control in Lync Server 2013](lync-server-2013-planning-for-role-based-access-control.md).</span></span>
+1.  <span data-ttu-id="b6ca8-107">Lync Server 2013 の定義済みの管理者の役割のいずれかに割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="b6ca8-107">From a user account that is assigned to any of the predefined administrative roles for Lync Server 2013, log on to any computer in your internal deployment.</span></span> <span data-ttu-id="b6ca8-108">Lync Server 2013 で使用できる定義済みの管理者の役割の詳細については、「 [Lync server 2013 で役割ベースのアクセス制御を計画する](lync-server-2013-planning-for-role-based-access-control.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="b6ca8-108">For details about the predefined administrative roles available in Lync Server 2013, see [Planning for role-based access control in Lync Server 2013](lync-server-2013-planning-for-role-based-access-control.md).</span></span>
 
-2.  <span data-ttu-id="48003-109">ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="48003-109">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="48003-110">Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="48003-110">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="b6ca8-109">ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="b6ca8-109">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="b6ca8-110">Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="b6ca8-110">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="48003-111">左側のナビゲーション バーで [**トポロジ**] をクリックし、[**状態**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="48003-111">In the left navigation bar, click **Topology** and then click **Status**.</span></span>
+3.  <span data-ttu-id="b6ca8-111">左側のナビゲーション バーで [**トポロジ**] をクリックし、[**状態**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="b6ca8-111">In the left navigation bar, click **Topology** and then click **Status**.</span></span>
 
-4.  <span data-ttu-id="48003-112">[**状態**] ページで、一覧を並べ替えるか検索して、表示するコンピューターをクリックします。</span><span class="sxs-lookup"><span data-stu-id="48003-112">In the **Status** page, sort or search through the list and then click the computer that you want to view.</span></span>
+4.  <span data-ttu-id="b6ca8-112">[**状態**] ページで、一覧を並べ替えるか検索して、表示するコンピューターをクリックします。</span><span class="sxs-lookup"><span data-stu-id="b6ca8-112">In the **Status** page, sort or search through the list and then click the computer that you want to view.</span></span>
 
-5.  <span data-ttu-id="48003-113">[**プロパティ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="48003-113">Click **Properties**.</span></span>
+5.  <span data-ttu-id="b6ca8-113">[**プロパティ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="b6ca8-113">Click **Properties**.</span></span>
 
-6.  <span data-ttu-id="48003-114">[**コンピューター詳細の表示**] ウィンドウで、必要な場合はサービスの一覧を並べ替えてから、表示するサービスをクリックします。</span><span class="sxs-lookup"><span data-stu-id="48003-114">In the **View Computer Detail** window, sort the list of services, if necessary, and click the service you want to view.</span></span>
+6.  <span data-ttu-id="b6ca8-114">[**コンピューター詳細の表示**] ウィンドウで、必要な場合はサービスの一覧を並べ替えてから、表示するサービスをクリックします。</span><span class="sxs-lookup"><span data-stu-id="b6ca8-114">In the **View Computer Detail** window, sort the list of services, if necessary, and click the service you want to view.</span></span>
 
-7.  <span data-ttu-id="48003-115">必要に応じて、次の操作を実行します。</span><span class="sxs-lookup"><span data-stu-id="48003-115">Do any of the following as needed:</span></span>
+7.  <span data-ttu-id="b6ca8-115">必要に応じて、次の操作を実行します。</span><span class="sxs-lookup"><span data-stu-id="b6ca8-115">Do any of the following as needed:</span></span>
     
-      - <span data-ttu-id="48003-116">指定したサービスの最新の状態を表示するには、[**サービスの状態の取得**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="48003-116">To see the latest status of that specific service, click **Get service status**.</span></span>
+      - <span data-ttu-id="b6ca8-116">指定したサービスの最新の状態を表示するには、[**サービスの状態の取得**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="b6ca8-116">To see the latest status of that specific service, click **Get service status**.</span></span>
     
-      - <span data-ttu-id="48003-117">指定したサービスの詳細を表示するには、[**プロパティ**] をクリックしてから、[**閉じる**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="48003-117">To see the details for that specific service, click **Properties** and then click **Close**.</span></span>
+      - <span data-ttu-id="b6ca8-117">指定したサービスの詳細を表示するには、[**プロパティ**] をクリックしてから、[**閉じる**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="b6ca8-117">To see the details for that specific service, click **Properties** and then click **Close**.</span></span>
     
-      - <span data-ttu-id="48003-118">トポロジ内のすべてのコンピューターの一覧を返すには、[**閉じる**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="48003-118">To return to the list of all computers in your topology, click **Close**.</span></span>
+      - <span data-ttu-id="b6ca8-118">トポロジ内のすべてのコンピューターの一覧を返すには、[**閉じる**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="b6ca8-118">To return to the list of all computers in your topology, click **Close**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="48003-119">関連項目</span><span class="sxs-lookup"><span data-stu-id="48003-119">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b6ca8-119">関連項目</span><span class="sxs-lookup"><span data-stu-id="b6ca8-119">See Also</span></span>
 
 
-[<span data-ttu-id="48003-120">Lync Server 2013 トポロジの管理</span><span class="sxs-lookup"><span data-stu-id="48003-120">Managing the Lync Server 2013 topology</span></span>](lync-server-2013-managing-the-lync-server-topology.md)  
+[<span data-ttu-id="b6ca8-120">Lync Server 2013 トポロジの管理</span><span class="sxs-lookup"><span data-stu-id="b6ca8-120">Managing the Lync Server 2013 topology</span></span>](lync-server-2013-managing-the-lync-server-topology.md)  
   
 
 </div>

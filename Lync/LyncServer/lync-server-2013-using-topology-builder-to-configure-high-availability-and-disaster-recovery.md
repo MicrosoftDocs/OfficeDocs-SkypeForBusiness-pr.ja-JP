@@ -12,20 +12,20 @@ ms:contentKeyID: 48185113
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 75117cd8a88b5ff5f333457033b5af49c5464f53
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 56f74465ecba83ec2d4f857a504952a1ed271fb7
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42116730"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42212623"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-topology-builder-to-configure-high-availability-and-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="24f05-102">トポロジビルダーを使用して Lync Server 2013 での高可用性および障害復旧を構成する</span><span class="sxs-lookup"><span data-stu-id="24f05-102">Using Topology Builder to configure high availability and disaster recovery in Lync Server 2013</span></span>
+# <a name="using-topology-builder-to-configure-high-availability-and-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="c5fed-102">トポロジビルダーを使用して Lync Server 2013 での高可用性および障害復旧を構成する</span><span class="sxs-lookup"><span data-stu-id="c5fed-102">Using Topology Builder to configure high availability and disaster recovery in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "42116730"
 
 <span> </span>
 
-<span data-ttu-id="24f05-103">_**トピックの最終更新日:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="24f05-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+<span data-ttu-id="c5fed-103">_**トピックの最終更新日:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="c5fed-103">_**Topic Last Modified:** 2012-10-06_</span></span>
 
-<span data-ttu-id="24f05-104">[トポロジビルダー] で次の手順を実行して、常設チャットサーバーの高可用性および障害復旧を構成します。</span><span class="sxs-lookup"><span data-stu-id="24f05-104">Perform the following steps within Topology Builder to configure high availability and disaster recovery for Persistent Chat Server.</span></span>
+<span data-ttu-id="c5fed-104">[トポロジビルダー] で次の手順を実行して、常設チャットサーバーの高可用性および障害復旧を構成します。</span><span class="sxs-lookup"><span data-stu-id="c5fed-104">Perform the following steps within Topology Builder to configure high availability and disaster recovery for Persistent Chat Server.</span></span>
 
-1.  <span data-ttu-id="24f05-105">ミラーデータベースとログ配布セカンダリデータベース SQL Server ストアを追加します。</span><span class="sxs-lookup"><span data-stu-id="24f05-105">Add the mirror databases and the log shipping secondary database SQL Server stores.</span></span>
+1.  <span data-ttu-id="c5fed-105">ミラーデータベースとログ配布セカンダリデータベース SQL Server ストアを追加します。</span><span class="sxs-lookup"><span data-stu-id="c5fed-105">Add the mirror databases and the log shipping secondary database SQL Server stores.</span></span>
 
-2.  <span data-ttu-id="24f05-106">常設チャットサーバーサービスのプロパティを次のように編集します。</span><span class="sxs-lookup"><span data-stu-id="24f05-106">Edit the Persistent Chat Server service properties to:</span></span>
+2.  <span data-ttu-id="c5fed-106">常設チャットサーバーサービスのプロパティを次のように編集します。</span><span class="sxs-lookup"><span data-stu-id="c5fed-106">Edit the Persistent Chat Server service properties to:</span></span>
     
-    1.  <span data-ttu-id="24f05-107">プライマリ データベースのミラーリングを有効にします。</span><span class="sxs-lookup"><span data-stu-id="24f05-107">Enable mirroring for the primary database.</span></span>
+    1.  <span data-ttu-id="c5fed-107">プライマリ データベースのミラーリングを有効にします。</span><span class="sxs-lookup"><span data-stu-id="c5fed-107">Enable mirroring for the primary database.</span></span>
     
-    2.  <span data-ttu-id="24f05-108">プライマリミラー SQL Server ストアを追加します。</span><span class="sxs-lookup"><span data-stu-id="24f05-108">Add the primary mirror SQL Server store.</span></span>
+    2.  <span data-ttu-id="c5fed-108">プライマリミラー SQL Server ストアを追加します。</span><span class="sxs-lookup"><span data-stu-id="c5fed-108">Add the primary mirror SQL Server store.</span></span>
     
-    3.  <span data-ttu-id="24f05-109">SQL Server ログ配布データベースを有効にします。</span><span class="sxs-lookup"><span data-stu-id="24f05-109">Enable the SQL Server Log Shipping database.</span></span>
+    3.  <span data-ttu-id="c5fed-109">SQL Server ログ配布データベースを有効にします。</span><span class="sxs-lookup"><span data-stu-id="c5fed-109">Enable the SQL Server Log Shipping database.</span></span>
     
-    4.  <span data-ttu-id="24f05-110">SQL Server ログ配布のセカンダリ SQL Server ストアを追加します。</span><span class="sxs-lookup"><span data-stu-id="24f05-110">Add the SQL Server Log Shipping secondary SQL Server store.</span></span>
+    4.  <span data-ttu-id="c5fed-110">SQL Server ログ配布のセカンダリ SQL Server ストアを追加します。</span><span class="sxs-lookup"><span data-stu-id="c5fed-110">Add the SQL Server Log Shipping secondary SQL Server store.</span></span>
     
-    5.  <span data-ttu-id="24f05-111">セカンダリデータベースの SQL Server ストアミラーを追加します。</span><span class="sxs-lookup"><span data-stu-id="24f05-111">Add the SQL Server store mirror for the secondary database.</span></span>
+    5.  <span data-ttu-id="c5fed-111">セカンダリデータベースの SQL Server ストアミラーを追加します。</span><span class="sxs-lookup"><span data-stu-id="c5fed-111">Add the SQL Server store mirror for the secondary database.</span></span>
     
-    6.  <span data-ttu-id="24f05-112">トポロジを公開します。</span><span class="sxs-lookup"><span data-stu-id="24f05-112">Publish the topology.</span></span>
+    6.  <span data-ttu-id="c5fed-112">トポロジを公開します。</span><span class="sxs-lookup"><span data-stu-id="c5fed-112">Publish the topology.</span></span>
 
 </div>
 

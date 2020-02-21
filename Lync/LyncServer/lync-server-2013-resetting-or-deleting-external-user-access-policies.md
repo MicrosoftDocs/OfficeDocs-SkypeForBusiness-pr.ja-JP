@@ -12,20 +12,20 @@ ms:contentKeyID: 48184300
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ec1c6daba9d7d8c4d38b6c567c051a3d1f1ee69
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 1de7dc52331a384131d6d88185c2e7619d924a25
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42144844"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42214943"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="resetting-or-deleting-external-user-access-policies-in-lync-server-2013"></a><span data-ttu-id="f229d-102">Lync Server 2013 での外部ユーザーアクセスポリシーのリセットまたは削除</span><span class="sxs-lookup"><span data-stu-id="f229d-102">Resetting or deleting external user access policies in Lync Server 2013</span></span>
+# <a name="resetting-or-deleting-external-user-access-policies-in-lync-server-2013"></a><span data-ttu-id="c0204-102">Lync Server 2013 での外部ユーザーアクセスポリシーのリセットまたは削除</span><span class="sxs-lookup"><span data-stu-id="c0204-102">Resetting or deleting external user access policies in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "42144844"
 
 <span> </span>
 
-<span data-ttu-id="f229d-103">_**トピックの最終更新日:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="f229d-103">_**Topic Last Modified:** 2012-09-08_</span></span>
+<span data-ttu-id="c0204-103">_**トピックの最終更新日:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="c0204-103">_**Topic Last Modified:** 2012-09-08_</span></span>
 
-<span data-ttu-id="f229d-104">使用しなくなった外部ユーザー アクセス ポリシーを作成または構成済みの場合は、次の操作を実行できます。</span><span class="sxs-lookup"><span data-stu-id="f229d-104">If you have created or configured external user access policies that you no longer want to use, you can do the following:</span></span>
+<span data-ttu-id="c0204-104">使用しなくなった外部ユーザー アクセス ポリシーを作成または構成済みの場合は、次の操作を実行できます。</span><span class="sxs-lookup"><span data-stu-id="c0204-104">If you have created or configured external user access policies that you no longer want to use, you can do the following:</span></span>
 
-  - <span data-ttu-id="f229d-105">作成したサイトやユーザー ポリシーを削除します。</span><span class="sxs-lookup"><span data-stu-id="f229d-105">Delete any site or user policy that you created.</span></span>
+  - <span data-ttu-id="c0204-105">作成したサイトやユーザー ポリシーを削除します。</span><span class="sxs-lookup"><span data-stu-id="c0204-105">Delete any site or user policy that you created.</span></span>
 
-  - <span data-ttu-id="f229d-p101">グローバル ポリシーを既定の設定にリセットします。 既定のグローバル ポリシー設定では、外部ユーザー アクセスが許可されません。 グローバル ポリシーは削除できません。</span><span class="sxs-lookup"><span data-stu-id="f229d-p101">Reset the global policy to the default settings. The default global policy settings deny any external user access. The global policy cannot be deleted.</span></span>
+  - <span data-ttu-id="c0204-p101">グローバル ポリシーを既定の設定にリセットします。 既定のグローバル ポリシー設定では、外部ユーザー アクセスが許可されません。 グローバル ポリシーは削除できません。</span><span class="sxs-lookup"><span data-stu-id="c0204-p101">Reset the global policy to the default settings. The default global policy settings deny any external user access. The global policy cannot be deleted.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="f229d-109">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="f229d-109">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="c0204-109">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="c0204-109">In This Section</span></span>
 
-  - [<span data-ttu-id="f229d-110">Lync Server 2013 で外部ユーザーアクセスのサイトポリシーまたはユーザーポリシーを削除する</span><span class="sxs-lookup"><span data-stu-id="f229d-110">Delete a site or user policy for external user access in Lync Server 2013</span></span>](lync-server-2013-delete-a-site-or-user-policy-for-external-user-access.md)
+  - [<span data-ttu-id="c0204-110">Lync Server 2013 で外部ユーザーアクセスのサイトポリシーまたはユーザーポリシーを削除する</span><span class="sxs-lookup"><span data-stu-id="c0204-110">Delete a site or user policy for external user access in Lync Server 2013</span></span>](lync-server-2013-delete-a-site-or-user-policy-for-external-user-access.md)
 
-  - [<span data-ttu-id="f229d-111">Lync Server 2013 での外部ユーザーアクセスに関するグローバルポリシーのリセット</span><span class="sxs-lookup"><span data-stu-id="f229d-111">Reset the global policy for external user access in Lync Server 2013</span></span>](lync-server-2013-reset-the-global-policy-for-external-user-access.md)
+  - [<span data-ttu-id="c0204-111">Lync Server 2013 での外部ユーザーアクセスに関するグローバルポリシーのリセット</span><span class="sxs-lookup"><span data-stu-id="c0204-111">Reset the global policy for external user access in Lync Server 2013</span></span>](lync-server-2013-reset-the-global-policy-for-external-user-access.md)
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 49733850
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7dab87bd6397d8473dfff8158b8c6eaa15988f37
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 10ca6550cc97516b1f6664a1434b57d8bf5b21a3
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42136544"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42211203"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="viewing-network-interface-information-in-lync-server-2013"></a><span data-ttu-id="f4877-102">Lync Server 2013 でのネットワークインターフェイス情報の表示</span><span class="sxs-lookup"><span data-stu-id="f4877-102">Viewing network interface information in Lync Server 2013</span></span>
+# <a name="viewing-network-interface-information-in-lync-server-2013"></a><span data-ttu-id="9026a-102">Lync Server 2013 でのネットワークインターフェイス情報の表示</span><span class="sxs-lookup"><span data-stu-id="9026a-102">Viewing network interface information in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "42136544"
 
 <span> </span>
 
-<span data-ttu-id="f4877-103">_**トピックの最終更新日:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="f4877-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+<span data-ttu-id="9026a-103">_**トピックの最終更新日:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="9026a-103">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-<span data-ttu-id="f4877-104">Windows PowerShell と**get-csnetworkinterface**コマンドレットを使用して、ネットワークインターフェイスの情報を表示できます。</span><span class="sxs-lookup"><span data-stu-id="f4877-104">You can view network interface information by using Windows PowerShell and the **Get-CsNetworkInterface** cmdlet.</span></span> <span data-ttu-id="f4877-105">このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモートセッションから実行できます。</span><span class="sxs-lookup"><span data-stu-id="f4877-105">You can run this cmdlet from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="f4877-106">リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。</span><span class="sxs-lookup"><span data-stu-id="f4877-106">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+<span data-ttu-id="9026a-104">Windows PowerShell と**get-csnetworkinterface**コマンドレットを使用して、ネットワークインターフェイスの情報を表示できます。</span><span class="sxs-lookup"><span data-stu-id="9026a-104">You can view network interface information by using Windows PowerShell and the **Get-CsNetworkInterface** cmdlet.</span></span> <span data-ttu-id="9026a-105">このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモートセッションから実行できます。</span><span class="sxs-lookup"><span data-stu-id="9026a-105">You can run this cmdlet from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="9026a-106">リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。</span><span class="sxs-lookup"><span data-stu-id="9026a-106">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
 <div>
 
-## <a name="to-view-network-interface-information"></a><span data-ttu-id="f4877-107">ネットワーク インターフェイス情報を表示するには</span><span class="sxs-lookup"><span data-stu-id="f4877-107">To view network interface information</span></span>
+## <a name="to-view-network-interface-information"></a><span data-ttu-id="9026a-107">ネットワーク インターフェイス情報を表示するには</span><span class="sxs-lookup"><span data-stu-id="9026a-107">To view network interface information</span></span>
 
-  - <span data-ttu-id="f4877-108">ネットワークインターフェイス情報を表示するには、Lync Server 管理シェルで次のコマンドを入力し、ENTER キーを押します。</span><span class="sxs-lookup"><span data-stu-id="f4877-108">To view network interface information, type the following command in the Lync Server Management Shell and then press ENTER:</span></span>
+  - <span data-ttu-id="9026a-108">ネットワークインターフェイス情報を表示するには、Lync Server 管理シェルで次のコマンドを入力し、ENTER キーを押します。</span><span class="sxs-lookup"><span data-stu-id="9026a-108">To view network interface information, type the following command in the Lync Server Management Shell and then press ENTER:</span></span>
     
         Get-CsNetworkInterface
     
-    <span data-ttu-id="f4877-109">このコマンドは、各ネットワーク インターフェイスについて次のような情報を返します。</span><span class="sxs-lookup"><span data-stu-id="f4877-109">This command returns information similar to the following for each network interface:</span></span>
+    <span data-ttu-id="9026a-109">このコマンドは、各ネットワーク インターフェイスについて次のような情報を返します。</span><span class="sxs-lookup"><span data-stu-id="9026a-109">This command returns information similar to the following for each network interface:</span></span>
     
         Identity              : dc.vdomain.com/Primary/1
         ComputerFqdn          : dc.vdomain.com
@@ -59,7 +59,7 @@ ms.locfileid: "42136544"
         ConfiguredIPAddress   :
         ConfiguredIPv6Address :
     
-    <span data-ttu-id="f4877-110">詳細については、「 [Get-CsNetworkInterface](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterface)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="f4877-110">For details, see [Get-CsNetworkInterface](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterface).</span></span>
+    <span data-ttu-id="9026a-110">詳細については、「 [Get-CsNetworkInterface](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterface)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="9026a-110">For details, see [Get-CsNetworkInterface](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterface).</span></span>
 
 </div>
 

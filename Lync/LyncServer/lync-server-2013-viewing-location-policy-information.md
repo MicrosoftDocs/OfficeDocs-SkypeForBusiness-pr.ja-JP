@@ -12,20 +12,20 @@ ms:contentKeyID: 48183489
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f22f5f218f3b9b97b90b26e1f74ec80cd0572e93
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 9ebd92944d02cf899ad6da60a586cd5ec24e9aa8
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42136564"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42211224"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="viewing-location-policy-information-in-lync-server-2013"></a><span data-ttu-id="9613c-102">Lync Server 2013 での場所ポリシー情報の表示</span><span class="sxs-lookup"><span data-stu-id="9613c-102">Viewing location policy information in Lync Server 2013</span></span>
+# <a name="viewing-location-policy-information-in-lync-server-2013"></a><span data-ttu-id="e8711-102">Lync Server 2013 での場所ポリシー情報の表示</span><span class="sxs-lookup"><span data-stu-id="e8711-102">Viewing location policy information in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,53 +35,53 @@ ms.locfileid: "42136564"
 
 <span> </span>
 
-<span data-ttu-id="9613c-103">_**トピックの最終更新日:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="9613c-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="e8711-103">_**トピックの最終更新日:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="e8711-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="9613c-104">Lync Server 2013 では、場所のポリシーを使用して、強化された 9-1-1 (E9-1-1) の機能に関連する設定と、ユーザーまたは連絡先の場所の設定を適用できます。</span><span class="sxs-lookup"><span data-stu-id="9613c-104">In Lync Server 2013, you can use the location policy to apply settings that relate to Enhanced 9-1-1 (E9-1-1) functionality and to location settings for users or contacts.</span></span> <span data-ttu-id="9613c-105">場所のポリシーには、ユーザーを E9-1-1 に対して有効にするかどうか、および有効にする場合、緊急電話の動作を指定します。</span><span class="sxs-lookup"><span data-stu-id="9613c-105">The location policy determines whether a user is enabled for E9-1-1, and if so what the behavior is of an emergency call.</span></span> <span data-ttu-id="9613c-106">たとえば、場所ポリシーを使用して、緊急電話の番号 (米国の場合は 911)、社内セキュリティに自動的に通知するかどうか、および通話をルーティングする方法を定義できます。</span><span class="sxs-lookup"><span data-stu-id="9613c-106">For example, you can use the location policy to define what number constitutes an emergency call (for example, 911 in the United States), whether corporate security should be automatically notified, and how the call should be routed.</span></span>
+<span data-ttu-id="e8711-104">Lync Server 2013 では、場所のポリシーを使用して、強化された 9-1-1 (E9-1-1) の機能に関連する設定と、ユーザーまたは連絡先の場所の設定を適用できます。</span><span class="sxs-lookup"><span data-stu-id="e8711-104">In Lync Server 2013, you can use the location policy to apply settings that relate to Enhanced 9-1-1 (E9-1-1) functionality and to location settings for users or contacts.</span></span> <span data-ttu-id="e8711-105">場所のポリシーには、ユーザーを E9-1-1 に対して有効にするかどうか、および有効にする場合、緊急電話の動作を指定します。</span><span class="sxs-lookup"><span data-stu-id="e8711-105">The location policy determines whether a user is enabled for E9-1-1, and if so what the behavior is of an emergency call.</span></span> <span data-ttu-id="e8711-106">たとえば、場所ポリシーを使用して、緊急電話の番号 (米国の場合は 911)、社内セキュリティに自動的に通知するかどうか、および通話をルーティングする方法を定義できます。</span><span class="sxs-lookup"><span data-stu-id="e8711-106">For example, you can use the location policy to define what number constitutes an emergency call (for example, 911 in the United States), whether corporate security should be automatically notified, and how the call should be routed.</span></span>
 
-<span data-ttu-id="9613c-107">Lync Server 2013 コントロールパネルの [**ネットワーク構成**] グループから、場所のポリシーを構成できます。</span><span class="sxs-lookup"><span data-stu-id="9613c-107">You can configure location policies from the **Network Configuration** group in Lync Server 2013 Control Panel.</span></span> <span data-ttu-id="9613c-108">Lync Server コントロールパネルから、場所のポリシーを表示、作成、変更、または削除することができます。</span><span class="sxs-lookup"><span data-stu-id="9613c-108">From Lync Server Control Panel you can view, create, modify, or delete location policies.</span></span> <span data-ttu-id="9613c-109">場所ポリシーに関する情報を表示するには次の手順を使用します。</span><span class="sxs-lookup"><span data-stu-id="9613c-109">Use the following procedure to view information about location policies.</span></span> <span data-ttu-id="9613c-110">場所ポリシーの作成または変更の詳細については、「 [Lync Server 2013 での場所のポリシーの作成または変更](lync-server-2013-creating-or-modifying-a-location-policy.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="9613c-110">For details on creating or modifying location policies, see [Creating or modifying a location policy in Lync Server 2013](lync-server-2013-creating-or-modifying-a-location-policy.md).</span></span>
+<span data-ttu-id="e8711-107">Lync Server 2013 コントロールパネルの [**ネットワーク構成**] グループから、場所のポリシーを構成できます。</span><span class="sxs-lookup"><span data-stu-id="e8711-107">You can configure location policies from the **Network Configuration** group in Lync Server 2013 Control Panel.</span></span> <span data-ttu-id="e8711-108">Lync Server コントロールパネルから、場所のポリシーを表示、作成、変更、または削除することができます。</span><span class="sxs-lookup"><span data-stu-id="e8711-108">From Lync Server Control Panel you can view, create, modify, or delete location policies.</span></span> <span data-ttu-id="e8711-109">場所ポリシーに関する情報を表示するには次の手順を使用します。</span><span class="sxs-lookup"><span data-stu-id="e8711-109">Use the following procedure to view information about location policies.</span></span> <span data-ttu-id="e8711-110">場所ポリシーの作成または変更の詳細については、「 [Lync Server 2013 での場所のポリシーの作成または変更](lync-server-2013-creating-or-modifying-a-location-policy.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="e8711-110">For details on creating or modifying location policies, see [Creating or modifying a location policy in Lync Server 2013](lync-server-2013-creating-or-modifying-a-location-policy.md).</span></span>
 
 <div>
 
-## <a name="to-view-information-about-a-location-policy"></a><span data-ttu-id="9613c-111">場所ポリシーに関する情報を表示するには</span><span class="sxs-lookup"><span data-stu-id="9613c-111">To view information about a location policy</span></span>
+## <a name="to-view-information-about-a-location-policy"></a><span data-ttu-id="e8711-111">場所ポリシーに関する情報を表示するには</span><span class="sxs-lookup"><span data-stu-id="e8711-111">To view information about a location policy</span></span>
 
-1.  <span data-ttu-id="9613c-112">RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="9613c-112">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="e8711-112">RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="e8711-112">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="9613c-113">ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="9613c-113">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="9613c-114">Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="9613c-114">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="e8711-113">ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="e8711-113">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="e8711-114">Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="e8711-114">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="9613c-115">左側のナビゲーション バーで [**ネットワーク構成**] をクリックし、[**場所のポリシー**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="9613c-115">In the left navigation bar, click **Network Configuration** and then click **Location Policy**.</span></span>
+3.  <span data-ttu-id="e8711-115">左側のナビゲーション バーで [**ネットワーク構成**] をクリックし、[**場所のポリシー**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="e8711-115">In the left navigation bar, click **Network Configuration** and then click **Location Policy**.</span></span>
 
-4.  <span data-ttu-id="9613c-116">[**場所のポリシー**] ページで、変更する場所のポリシーを選択します。</span><span class="sxs-lookup"><span data-stu-id="9613c-116">On the **Location Policy** page, select the location policy that you want to modify.</span></span>
+4.  <span data-ttu-id="e8711-116">[**場所のポリシー**] ページで、変更する場所のポリシーを選択します。</span><span class="sxs-lookup"><span data-stu-id="e8711-116">On the **Location Policy** page, select the location policy that you want to modify.</span></span>
 
-5.  <span data-ttu-id="9613c-117">[**編集**] メニューの [**詳細の表示**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="9613c-117">On the **Edit** menu, click **Show details**.</span></span>
+5.  <span data-ttu-id="e8711-117">[**編集**] メニューの [**詳細の表示**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="e8711-117">On the **Edit** menu, click **Show details**.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="9613c-118">同時に表示できるのは 1 つの場所ポリシーのみです。</span><span class="sxs-lookup"><span data-stu-id="9613c-118">You can only view information about one location policy at a time.</span></span>
+    > <span data-ttu-id="e8711-118">同時に表示できるのは 1 つの場所ポリシーのみです。</span><span class="sxs-lookup"><span data-stu-id="e8711-118">You can only view information about one location policy at a time.</span></span>
 
     
     </div>
 
-<span data-ttu-id="9613c-p104">「グローバル」という名前の単一ポリシーが、既定で存在します。このポリシーは、削除することも名前を変更することもできません。 ただし、グローバル ポリシーの内容を変更することはできます。 このポリシーは、サイト ポリシーまたはユーザー単位のポリシーが作成されていない場合に限り、すべてのユーザーおよび連絡先に適用されます。 ユーザー単位のポリシーは、特定のユーザーに適用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="9613c-p104">A single policy, called Global, exists by default and cannot be deleted or renamed. However, you can modify the Global policy. This policy will apply to all users and contacts, unless you create site policies or per-user policies. Per-user policies must be applied to specific users.</span></span>
+<span data-ttu-id="e8711-p104">「グローバル」という名前の単一ポリシーが、既定で存在します。このポリシーは、削除することも名前を変更することもできません。 ただし、グローバル ポリシーの内容を変更することはできます。 このポリシーは、サイト ポリシーまたはユーザー単位のポリシーが作成されていない場合に限り、すべてのユーザーおよび連絡先に適用されます。 ユーザー単位のポリシーは、特定のユーザーに適用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="e8711-p104">A single policy, called Global, exists by default and cannot be deleted or renamed. However, you can modify the Global policy. This policy will apply to all users and contacts, unless you create site policies or per-user policies. Per-user policies must be applied to specific users.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="9613c-123">関連項目</span><span class="sxs-lookup"><span data-stu-id="9613c-123">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e8711-123">関連項目</span><span class="sxs-lookup"><span data-stu-id="e8711-123">See Also</span></span>
 
 
-[<span data-ttu-id="9613c-124">Lync Server 2013 での場所のポリシーの作成または変更</span><span class="sxs-lookup"><span data-stu-id="9613c-124">Creating or modifying a location policy in Lync Server 2013</span></span>](lync-server-2013-creating-or-modifying-a-location-policy.md)  
-[<span data-ttu-id="9613c-125">Lync Server 2013 での場所のポリシーの作成</span><span class="sxs-lookup"><span data-stu-id="9613c-125">Create location policies in Lync Server 2013</span></span>](lync-server-2013-create-location-policies.md)  
-[<span data-ttu-id="9613c-126">Lync Server 2013 でのネットワークサイトの作成または変更</span><span class="sxs-lookup"><span data-stu-id="9613c-126">Create or modify a network site in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-network-site.md)  
+[<span data-ttu-id="e8711-124">Lync Server 2013 での場所のポリシーの作成または変更</span><span class="sxs-lookup"><span data-stu-id="e8711-124">Creating or modifying a location policy in Lync Server 2013</span></span>](lync-server-2013-creating-or-modifying-a-location-policy.md)  
+[<span data-ttu-id="e8711-125">Lync Server 2013 での場所のポリシーの作成</span><span class="sxs-lookup"><span data-stu-id="e8711-125">Create location policies in Lync Server 2013</span></span>](lync-server-2013-create-location-policies.md)  
+[<span data-ttu-id="e8711-126">Lync Server 2013 でのネットワークサイトの作成または変更</span><span class="sxs-lookup"><span data-stu-id="e8711-126">Create or modify a network site in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-network-site.md)  
 
 
-[<span data-ttu-id="9613c-127">新しい-CsLocationPolicy</span><span class="sxs-lookup"><span data-stu-id="9613c-127">New-CsLocationPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsLocationPolicy)  
-[<span data-ttu-id="9613c-128">設定-CsLocationPolicy</span><span class="sxs-lookup"><span data-stu-id="9613c-128">Set-CsLocationPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsLocationPolicy)  
-[<span data-ttu-id="9613c-129">削除-CsLocationPolicy</span><span class="sxs-lookup"><span data-stu-id="9613c-129">Remove-CsLocationPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsLocationPolicy)  
-[<span data-ttu-id="9613c-130">-CsLocationPolicy の取得</span><span class="sxs-lookup"><span data-stu-id="9613c-130">Get-CsLocationPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsLocationPolicy)  
+[<span data-ttu-id="e8711-127">新しい-CsLocationPolicy</span><span class="sxs-lookup"><span data-stu-id="e8711-127">New-CsLocationPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsLocationPolicy)  
+[<span data-ttu-id="e8711-128">設定-CsLocationPolicy</span><span class="sxs-lookup"><span data-stu-id="e8711-128">Set-CsLocationPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsLocationPolicy)  
+[<span data-ttu-id="e8711-129">削除-CsLocationPolicy</span><span class="sxs-lookup"><span data-stu-id="e8711-129">Remove-CsLocationPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsLocationPolicy)  
+[<span data-ttu-id="e8711-130">-CsLocationPolicy の取得</span><span class="sxs-lookup"><span data-stu-id="e8711-130">Get-CsLocationPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsLocationPolicy)  
   
 
 </div>
