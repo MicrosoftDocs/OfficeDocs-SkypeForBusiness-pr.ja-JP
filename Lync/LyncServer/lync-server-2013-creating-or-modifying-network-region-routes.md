@@ -12,20 +12,20 @@ ms:contentKeyID: 48184540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f9ccbe69e4ac3c9453756a42a68969b3373a4af5
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 32c5f3cdd8000892886b3273fbb33fc1b1f668e4
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42154779"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42196240"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="creating-or-modifying-network-region-routes-in-lync-server-2013"></a><span data-ttu-id="79323-102">Lync Server 2013 でのネットワーク地域ルートの作成または変更</span><span class="sxs-lookup"><span data-stu-id="79323-102">Creating or modifying network region routes in Lync Server 2013</span></span>
+# <a name="creating-or-modifying-network-region-routes-in-lync-server-2013"></a><span data-ttu-id="540dc-102">Lync Server 2013 でのネットワーク地域ルートの作成または変更</span><span class="sxs-lookup"><span data-stu-id="540dc-102">Creating or modifying network region routes in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,78 +35,78 @@ ms.locfileid: "42154779"
 
 <span> </span>
 
-<span data-ttu-id="79323-103">_**トピックの最終更新日:** 2012-10-08_</span><span class="sxs-lookup"><span data-stu-id="79323-103">_**Topic Last Modified:** 2012-10-08_</span></span>
+<span data-ttu-id="540dc-103">_**トピックの最終更新日:** 2012-10-08_</span><span class="sxs-lookup"><span data-stu-id="540dc-103">_**Topic Last Modified:** 2012-10-08_</span></span>
 
-<span data-ttu-id="79323-104">通話受付管理 (CAC) 構成内のすべての地域には、他のすべての地域へのアクセス方法がいくつかある必要があります。</span><span class="sxs-lookup"><span data-stu-id="79323-104">Every region within a call admission control (CAC) configuration must have some way to access every other region.</span></span> <span data-ttu-id="79323-105">地域のリンクが地域間の接続に対する帯域幅制限を設定し、物理リンクも表す一方、ルートはある地域から別の地域へ接続が通過するリンクされたパスを決定します。</span><span class="sxs-lookup"><span data-stu-id="79323-105">While region links set bandwidth limitations on the connections between regions and also represent the physical links, a route determines which linked path the connection will traverse from one region to another.</span></span> <span data-ttu-id="79323-106">Lync Server コントロールパネルを使用して、ネットワーク地域ルートを構成できます。</span><span class="sxs-lookup"><span data-stu-id="79323-106">You can use Lync Server Control Panel to configure network region routes.</span></span> <span data-ttu-id="79323-107">Lync Server コントロールパネルから、ネットワーク地域ルートを作成、変更、または削除することができます。</span><span class="sxs-lookup"><span data-stu-id="79323-107">From Lync Server Control Panel, you can create, modify, or delete a network region route.</span></span> <span data-ttu-id="79323-108">このトピックでは、ネットワーク地域ルートの作成または変更について説明します。</span><span class="sxs-lookup"><span data-stu-id="79323-108">Use this topic to create or modify a network region route.</span></span> <span data-ttu-id="79323-109">既存のネットワーク地域ルートの削除の詳細については、「 [Lync Server 2013 で既存のネットワーク地域ルートを削除](lync-server-2013-deleting-existing-network-region-routes.md)する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="79323-109">For details about deleting an existing network region routes, see [Deleting existing network region routes in Lync Server 2013](lync-server-2013-deleting-existing-network-region-routes.md).</span></span>
+<span data-ttu-id="540dc-104">通話受付管理 (CAC) 構成内のすべての地域には、他のすべての地域へのアクセス方法がいくつかある必要があります。</span><span class="sxs-lookup"><span data-stu-id="540dc-104">Every region within a call admission control (CAC) configuration must have some way to access every other region.</span></span> <span data-ttu-id="540dc-105">地域のリンクが地域間の接続に対する帯域幅制限を設定し、物理リンクも表す一方、ルートはある地域から別の地域へ接続が通過するリンクされたパスを決定します。</span><span class="sxs-lookup"><span data-stu-id="540dc-105">While region links set bandwidth limitations on the connections between regions and also represent the physical links, a route determines which linked path the connection will traverse from one region to another.</span></span> <span data-ttu-id="540dc-106">Lync Server コントロールパネルを使用して、ネットワーク地域ルートを構成できます。</span><span class="sxs-lookup"><span data-stu-id="540dc-106">You can use Lync Server Control Panel to configure network region routes.</span></span> <span data-ttu-id="540dc-107">Lync Server コントロールパネルから、ネットワーク地域ルートを作成、変更、または削除することができます。</span><span class="sxs-lookup"><span data-stu-id="540dc-107">From Lync Server Control Panel, you can create, modify, or delete a network region route.</span></span> <span data-ttu-id="540dc-108">このトピックでは、ネットワーク地域ルートの作成または変更について説明します。</span><span class="sxs-lookup"><span data-stu-id="540dc-108">Use this topic to create or modify a network region route.</span></span> <span data-ttu-id="540dc-109">既存のネットワーク地域ルートの削除の詳細については、「 [Lync Server 2013 で既存のネットワーク地域ルートを削除](lync-server-2013-deleting-existing-network-region-routes.md)する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="540dc-109">For details about deleting an existing network region routes, see [Deleting existing network region routes in Lync Server 2013](lync-server-2013-deleting-existing-network-region-routes.md).</span></span>
 
 <div>
 
-## <a name="to-create-a-network-region-route"></a><span data-ttu-id="79323-110">ネットワーク地域ルートを作成するには</span><span class="sxs-lookup"><span data-stu-id="79323-110">To create a network region route</span></span>
+## <a name="to-create-a-network-region-route"></a><span data-ttu-id="540dc-110">ネットワーク地域ルートを作成するには</span><span class="sxs-lookup"><span data-stu-id="540dc-110">To create a network region route</span></span>
 
-1.  <span data-ttu-id="79323-111">RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="79323-111">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="540dc-111">RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="540dc-111">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="79323-112">ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="79323-112">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="79323-113">Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="79323-113">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="540dc-112">ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="540dc-112">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="540dc-113">Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="540dc-113">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="79323-114">左側のナビゲーション バーで [**ネットワーク構成**] をクリックし、[**地域ルート**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="79323-114">In the left navigation bar, click **Network Configuration** and then click **Region Route**.</span></span>
+3.  <span data-ttu-id="540dc-114">左側のナビゲーション バーで [**ネットワーク構成**] をクリックし、[**地域ルート**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="540dc-114">In the left navigation bar, click **Network Configuration** and then click **Region Route**.</span></span>
 
-4.  <span data-ttu-id="79323-115">[**地域ルート**] ページで、[**新規**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="79323-115">On the **Region Route** page, click **New**.</span></span>
+4.  <span data-ttu-id="540dc-115">[**地域ルート**] ページで、[**新規**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="540dc-115">On the **Region Route** page, click **New**.</span></span>
 
-5.  <span data-ttu-id="79323-116">[**新しい地域ルート**] で、[**名前**] フィールドに値を入力します。</span><span class="sxs-lookup"><span data-stu-id="79323-116">In **New Region Route**, type a value in the **Name** field.</span></span>
+5.  <span data-ttu-id="540dc-116">[**新しい地域ルート**] で、[**名前**] フィールドに値を入力します。</span><span class="sxs-lookup"><span data-stu-id="540dc-116">In **New Region Route**, type a value in the **Name** field.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="79323-117">この値は、Microsoft Lync Server 2013 展開内で一意である必要があります。</span><span class="sxs-lookup"><span data-stu-id="79323-117">This value must be unique within your Microsoft Lync Server 2013 deployment.</span></span>
+    > <span data-ttu-id="540dc-117">この値は、Microsoft Lync Server 2013 展開内で一意である必要があります。</span><span class="sxs-lookup"><span data-stu-id="540dc-117">This value must be unique within your Microsoft Lync Server 2013 deployment.</span></span>
 
     
     </div>
 
-6.  <span data-ttu-id="79323-118">[**ネットワーク地域\#1** ] ドロップダウンリストから、このルートによって接続する2つの地域のいずれかを選択します。</span><span class="sxs-lookup"><span data-stu-id="79323-118">From the **Network region \#1** drop-down list, select one of the two regions to be connected by this route.</span></span>
+6.  <span data-ttu-id="540dc-118">[**ネットワーク地域\#1** ] ドロップダウンリストから、このルートによって接続する2つの地域のいずれかを選択します。</span><span class="sxs-lookup"><span data-stu-id="540dc-118">From the **Network region \#1** drop-down list, select one of the two regions to be connected by this route.</span></span>
 
-7.  <span data-ttu-id="79323-119">[**ネットワーク地域\#2** ] ドロップダウンリストから、このルートの他の地域を選択します。</span><span class="sxs-lookup"><span data-stu-id="79323-119">From the **Network region \#2** drop-down list, select the other region for this route.</span></span> <span data-ttu-id="79323-120">この地域は、[ネットワーク地域\#1 に選択した地域とは別のものにする必要があります。</span><span class="sxs-lookup"><span data-stu-id="79323-120">This region must be different from the region selected for Network region \#1.</span></span>
+7.  <span data-ttu-id="540dc-119">[**ネットワーク地域\#2** ] ドロップダウンリストから、このルートの他の地域を選択します。</span><span class="sxs-lookup"><span data-stu-id="540dc-119">From the **Network region \#2** drop-down list, select the other region for this route.</span></span> <span data-ttu-id="540dc-120">この地域は、[ネットワーク地域\#1 に選択した地域とは別のものにする必要があります。</span><span class="sxs-lookup"><span data-stu-id="540dc-120">This region must be different from the region selected for Network region \#1.</span></span>
 
-8.  <span data-ttu-id="79323-p104">[**ネットワーク地域リンク**] リスト ボックスを使用して、地域リンクをルートに追加します。 [**追加**] ボタンをクリックし、[**地域リンク**] ページを表示します。 このルートに追加する地域リンクをクリックして、[**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="79323-p104">Use the **Network region links** list box to add region links to the route. Click the **Add** button to display the **Region Link** page. Click a region link to add to this route, and then click **OK**.</span></span>
+8.  <span data-ttu-id="540dc-p104">[**ネットワーク地域リンク**] リスト ボックスを使用して、地域リンクをルートに追加します。 [**追加**] ボタンをクリックし、[**地域リンク**] ページを表示します。 このルートに追加する地域リンクをクリックして、[**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="540dc-p104">Use the **Network region links** list box to add region links to the route. Click the **Add** button to display the **Region Link** page. Click a region link to add to this route, and then click **OK**.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="79323-124">[<STRONG>追加</STRONG>] ボタンのクリックを続けて、さらにリンクを追加できます。また、リンクを選択して [<STRONG>削除</STRONG>] をクリックすると、リンクを削除できます。</span><span class="sxs-lookup"><span data-stu-id="79323-124">Continue to click the <STRONG>Add</STRONG> button to add more links, or select a link and click <STRONG>Remove</STRONG> to remove a link.</span></span>
+    > <span data-ttu-id="540dc-124">[<STRONG>追加</STRONG>] ボタンのクリックを続けて、さらにリンクを追加できます。また、リンクを選択して [<STRONG>削除</STRONG>] をクリックすると、リンクを削除できます。</span><span class="sxs-lookup"><span data-stu-id="540dc-124">Continue to click the <STRONG>Add</STRONG> button to add more links, or select a link and click <STRONG>Remove</STRONG> to remove a link.</span></span>
 
     
     </div>
 
-9.  <span data-ttu-id="79323-125">[**確定**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="79323-125">Click **Commit**.</span></span>
+9.  <span data-ttu-id="540dc-125">[**確定**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="540dc-125">Click **Commit**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-modify-a-network-region-route"></a><span data-ttu-id="79323-126">ネットワーク地域ルートを変更するには</span><span class="sxs-lookup"><span data-stu-id="79323-126">To modify a network region route</span></span>
+## <a name="to-modify-a-network-region-route"></a><span data-ttu-id="540dc-126">ネットワーク地域ルートを変更するには</span><span class="sxs-lookup"><span data-stu-id="540dc-126">To modify a network region route</span></span>
 
-1.  <span data-ttu-id="79323-127">RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="79323-127">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="540dc-127">RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="540dc-127">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="79323-128">ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="79323-128">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="79323-129">Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="79323-129">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="540dc-128">ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="540dc-128">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="540dc-129">Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="540dc-129">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="79323-130">左側のナビゲーション バーで [**ネットワーク構成**] をクリックし、[**地域ルート**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="79323-130">In the left navigation bar, click **Network Configuration** and then click **Region Route**.</span></span>
+3.  <span data-ttu-id="540dc-130">左側のナビゲーション バーで [**ネットワーク構成**] をクリックし、[**地域ルート**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="540dc-130">In the left navigation bar, click **Network Configuration** and then click **Region Route**.</span></span>
 
-4.  <span data-ttu-id="79323-131">[**地域ルート**] ページで、変更する地域ルートをクリックします。</span><span class="sxs-lookup"><span data-stu-id="79323-131">On the **Region Route** page, click the region route that you want to modify.</span></span>
+4.  <span data-ttu-id="540dc-131">[**地域ルート**] ページで、変更する地域ルートをクリックします。</span><span class="sxs-lookup"><span data-stu-id="540dc-131">On the **Region Route** page, click the region route that you want to modify.</span></span>
 
-5.  <span data-ttu-id="79323-132">[**編集**] メニューの [**詳細の表示**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="79323-132">On the **Edit** menu, click **Show details**.</span></span>
+5.  <span data-ttu-id="540dc-132">[**編集**] メニューの [**詳細の表示**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="540dc-132">On the **Edit** menu, click **Show details**.</span></span>
 
-6.  <span data-ttu-id="79323-133">[**地域ルートの編集**] で、このルートが接続する地域やこのルートに関連付ける地域リンクを変更できます。</span><span class="sxs-lookup"><span data-stu-id="79323-133">In **Edit Region Route**, you can modify the regions joined by this route and the region links associated with the route.</span></span>
+6.  <span data-ttu-id="540dc-133">[**地域ルートの編集**] で、このルートが接続する地域やこのルートに関連付ける地域リンクを変更できます。</span><span class="sxs-lookup"><span data-stu-id="540dc-133">In **Edit Region Route**, you can modify the regions joined by this route and the region links associated with the route.</span></span>
 
-7.  <span data-ttu-id="79323-134">[**確定**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="79323-134">Click **Commit**.</span></span>
+7.  <span data-ttu-id="540dc-134">[**確定**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="540dc-134">Click **Commit**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="79323-135">関連項目</span><span class="sxs-lookup"><span data-stu-id="79323-135">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="540dc-135">関連項目</span><span class="sxs-lookup"><span data-stu-id="540dc-135">See Also</span></span>
 
 
-[<span data-ttu-id="79323-136">Lync Server 2013 での既存のネットワーク地域ルートの削除</span><span class="sxs-lookup"><span data-stu-id="79323-136">Deleting existing network region routes in Lync Server 2013</span></span>](lync-server-2013-deleting-existing-network-region-routes.md)  
+[<span data-ttu-id="540dc-136">Lync Server 2013 での既存のネットワーク地域ルートの削除</span><span class="sxs-lookup"><span data-stu-id="540dc-136">Deleting existing network region routes in Lync Server 2013</span></span>](lync-server-2013-deleting-existing-network-region-routes.md)  
   
 
 </div>

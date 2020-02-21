@@ -12,20 +12,20 @@ ms:contentKeyID: 48184913
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b4acd09b9a78fbe1d7c2316628dba5c454a6c72f
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 1f9c7da9fd484ec0229417233de3f4338dd9f4b4
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42140620"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42199360"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="best-practices-for-call-admission-control-in-lync-server-2013"></a><span data-ttu-id="e8052-102">Lync Server 2013 での通話受付管理のベストプラクティス</span><span class="sxs-lookup"><span data-stu-id="e8052-102">Best practices for call admission control in Lync Server 2013</span></span>
+# <a name="best-practices-for-call-admission-control-in-lync-server-2013"></a><span data-ttu-id="107e6-102">Lync Server 2013 での通話受付管理のベストプラクティス</span><span class="sxs-lookup"><span data-stu-id="107e6-102">Best practices for call admission control in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,32 +35,32 @@ ms.locfileid: "42140620"
 
 <span> </span>
 
-<span data-ttu-id="e8052-103">_**トピックの最終更新日:** 2012-09-22_</span><span class="sxs-lookup"><span data-stu-id="e8052-103">_**Topic Last Modified:** 2012-09-22_</span></span>
+<span data-ttu-id="107e6-103">_**トピックの最終更新日:** 2012-09-22_</span><span class="sxs-lookup"><span data-stu-id="107e6-103">_**Topic Last Modified:** 2012-09-22_</span></span>
 
-<span data-ttu-id="e8052-104">パフォーマンスの向上と展開の簡略化を実現するには、通話受付管理を展開するときに次のベスト プラクティスを適用します。</span><span class="sxs-lookup"><span data-stu-id="e8052-104">To enhance performance and facilitate deployment, apply the following best practices when you deploy call admission control:</span></span>
+<span data-ttu-id="107e6-104">パフォーマンスの向上と展開の簡略化を実現するには、通話受付管理を展開するときに次のベスト プラクティスを適用します。</span><span class="sxs-lookup"><span data-stu-id="107e6-104">To enhance performance and facilitate deployment, apply the following best practices when you deploy call admission control:</span></span>
 
-  - <span data-ttu-id="e8052-105">現在のメディア トラフィックと予測されるメディア トラフィックに対して WAN が十分にプロビジョニングされていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="e8052-105">Ensure that WANs are adequately provisioned for current and anticipated media traffic.</span></span>
+  - <span data-ttu-id="107e6-105">現在のメディア トラフィックと予測されるメディア トラフィックに対して WAN が十分にプロビジョニングされていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="107e6-105">Ensure that WANs are adequately provisioned for current and anticipated media traffic.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="e8052-p101">帯域幅制限にバッファーを考慮することをお勧めします。 合計使用帯域幅に影響し、帯域幅制限の超過を招く可能性のある競合状態が発生する場合があります。 たとえば、メディア トラフィックが帯域幅制限に近づいているときに 2 つの通話を開始しようとすると、一方の通話の方が早く開始されたためにもう一方の通話が拒否されることがあります。</span><span class="sxs-lookup"><span data-stu-id="e8052-p101">We recommend that you factor in a buffer to your bandwidth limits. There are scenarios such as race conditions that affect the total bandwidth used and can result in situations where the bandwidth limit is exceeded. For example, if two calls try to start while media traffic is approaching a bandwidth limit, one of them may be denied because the other managed to start first.</span></span>
+    > <span data-ttu-id="107e6-p101">帯域幅制限にバッファーを考慮することをお勧めします。 合計使用帯域幅に影響し、帯域幅制限の超過を招く可能性のある競合状態が発生する場合があります。 たとえば、メディア トラフィックが帯域幅制限に近づいているときに 2 つの通話を開始しようとすると、一方の通話の方が早く開始されたためにもう一方の通話が拒否されることがあります。</span><span class="sxs-lookup"><span data-stu-id="107e6-p101">We recommend that you factor in a buffer to your bandwidth limits. There are scenarios such as race conditions that affect the total bandwidth used and can result in situations where the bandwidth limit is exceeded. For example, if two calls try to start while media traffic is approaching a bandwidth limit, one of them may be denied because the other managed to start first.</span></span>
 
     
     </div>
 
-  - <span data-ttu-id="e8052-109">最適な CAC 設定を選択し、ネットワークの使用状況の変化に合わせて CAC 設定を更新できるように、ネットワークの使用状況と通話詳細記録を監視します。</span><span class="sxs-lookup"><span data-stu-id="e8052-109">Monitor network usage and call detail records so that you can choose optimal CAC settings and update CAC settings as network usage changes.</span></span>
+  - <span data-ttu-id="107e6-109">最適な CAC 設定を選択し、ネットワークの使用状況の変化に合わせて CAC 設定を更新できるように、ネットワークの使用状況と通話詳細記録を監視します。</span><span class="sxs-lookup"><span data-stu-id="107e6-109">Monitor network usage and call detail records so that you can choose optimal CAC settings and update CAC settings as network usage changes.</span></span>
 
-  - <span data-ttu-id="e8052-110">CAC 帯域幅ポリシーを使用して QoS 設定を補完します。</span><span class="sxs-lookup"><span data-stu-id="e8052-110">Use CAC bandwidth policies to complement QoS settings.</span></span>
+  - <span data-ttu-id="107e6-110">CAC 帯域幅ポリシーを使用して QoS 設定を補完します。</span><span class="sxs-lookup"><span data-stu-id="107e6-110">Use CAC bandwidth policies to complement QoS settings.</span></span>
 
-  - <span data-ttu-id="e8052-111">ブロックされた通話を PSTN に再ルーティングする場合、PSTN の機能と処理能力を確認します。</span><span class="sxs-lookup"><span data-stu-id="e8052-111">If you want to re-route blocked calls onto the PSTN, verify PSTN functionality and capacity.</span></span> <span data-ttu-id="e8052-112">詳細については、「 [Lync Server 2013 で送信音声ルーティングを計画](lync-server-2013-planning-outbound-voice-routing.md)する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="e8052-112">For details, see [Planning outbound voice routing in Lync Server 2013](lync-server-2013-planning-outbound-voice-routing.md).</span></span>
+  - <span data-ttu-id="107e6-111">ブロックされた通話を PSTN に再ルーティングする場合、PSTN の機能と処理能力を確認します。</span><span class="sxs-lookup"><span data-stu-id="107e6-111">If you want to re-route blocked calls onto the PSTN, verify PSTN functionality and capacity.</span></span> <span data-ttu-id="107e6-112">詳細については、「 [Lync Server 2013 で送信音声ルーティングを計画](lync-server-2013-planning-outbound-voice-routing.md)する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="107e6-112">For details, see [Planning outbound voice routing in Lync Server 2013](lync-server-2013-planning-outbound-voice-routing.md).</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="e8052-113">処理能力は、潜在的な PSTN の再ルーティングをサポートするために開く必要のあるポート数を表します。</span><span class="sxs-lookup"><span data-stu-id="e8052-113">Capacity refers to the number of ports you need to open to support potential PSTN re-routing.</span></span>
+    > <span data-ttu-id="107e6-113">処理能力は、潜在的な PSTN の再ルーティングをサポートするために開く必要のあるポート数を表します。</span><span class="sxs-lookup"><span data-stu-id="107e6-113">Capacity refers to the number of ports you need to open to support potential PSTN re-routing.</span></span>
 
     
     </div>

@@ -12,20 +12,20 @@ ms:contentKeyID: 49733773
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d078bd71ab8485244d6b0cd98cc6c41bc32eba6a
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: ebe4ad480c9db4fbca05bbb4da84c2d2b075bc70
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134313"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42199310"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="install-lync-server-administration-tools"></a><span data-ttu-id="11986-102">Lync Server 管理ツールのインストール</span><span class="sxs-lookup"><span data-stu-id="11986-102">Install Lync Server administration tools</span></span>
+# <a name="install-lync-server-administration-tools"></a><span data-ttu-id="0169e-102">Lync Server 管理ツールのインストール</span><span class="sxs-lookup"><span data-stu-id="0169e-102">Install Lync Server administration tools</span></span>
 
 </div>
 
@@ -35,28 +35,28 @@ ms.locfileid: "42134313"
 
 <span> </span>
 
-<span data-ttu-id="11986-103">_**トピックの最終更新日:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="11986-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="0169e-103">_**トピックの最終更新日:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="0169e-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="11986-104">このトピックでは、Lync Server 2013 を展開および管理するために使用する必要がある管理ツールをインストールする方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="11986-104">This topic describes how to install the administrative tools you need to use to deploy and manage Lync Server 2013.</span></span> <span data-ttu-id="11986-105">専用の管理コンソールなど、他のコンピューター上に管理ツールをインストールすることもできます。</span><span class="sxs-lookup"><span data-stu-id="11986-105">You can also install the administrative tools on other computers, such as dedicated administrative consoles.</span></span>
+<span data-ttu-id="0169e-104">このトピックでは、Lync Server 2013 を展開および管理するために使用する必要がある管理ツールをインストールする方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="0169e-104">This topic describes how to install the administrative tools you need to use to deploy and manage Lync Server 2013.</span></span> <span data-ttu-id="0169e-105">専用の管理コンソールなど、他のコンピューター上に管理ツールをインストールすることもできます。</span><span class="sxs-lookup"><span data-stu-id="0169e-105">You can also install the administrative tools on other computers, such as dedicated administrative consoles.</span></span>
 
 <div>
 
-## <a name="to-install-the-lync-server-2013-administrative-tools"></a><span data-ttu-id="11986-106">Lync Server 2013 管理ツールをインストールするには</span><span class="sxs-lookup"><span data-stu-id="11986-106">To install the Lync Server 2013 administrative tools</span></span>
+## <a name="to-install-the-lync-server-2013-administrative-tools"></a><span data-ttu-id="0169e-106">Lync Server 2013 管理ツールをインストールするには</span><span class="sxs-lookup"><span data-stu-id="0169e-106">To install the Lync Server 2013 administrative tools</span></span>
 
-1.  <span data-ttu-id="11986-107">Lync Server 2013 フロントエンドサーバーで、Lync Server 2013 セットアップを実行します。</span><span class="sxs-lookup"><span data-stu-id="11986-107">On the Lync Server 2013 Front End Server, run Lync Server 2013 Setup.</span></span>
+1.  <span data-ttu-id="0169e-107">Lync Server 2013 フロントエンドサーバーで、Lync Server 2013 セットアップを実行します。</span><span class="sxs-lookup"><span data-stu-id="0169e-107">On the Lync Server 2013 Front End Server, run Lync Server 2013 Setup.</span></span>
 
-2.  <span data-ttu-id="11986-108">[Lync Server 2013 展開ウィザード] ページで、[**管理ツールのインストール**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="11986-108">From the Lync Server 2013 Deployment Wizard page, select **Install Administrative Tools**</span></span>
+2.  <span data-ttu-id="0169e-108">[Lync Server 2013 展開ウィザード] ページで、[**管理ツールのインストール**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="0169e-108">From the Lync Server 2013 Deployment Wizard page, select **Install Administrative Tools**</span></span>
     
-    <span data-ttu-id="11986-109">![Lync Server 2013 展開ウィザード、ウェルカムページ](images/JJ205265.5f88ae18-9c3c-42ea-a91a-836ecf5d515f(OCS.15).jpg "Lync Server 2013 展開ウィザード、ウェルカムページ")</span><span class="sxs-lookup"><span data-stu-id="11986-109">![Lync Server 2013 Deployment Wizard, Welcome page](images/JJ205265.5f88ae18-9c3c-42ea-a91a-836ecf5d515f(OCS.15).jpg "Lync Server 2013 Deployment Wizard, Welcome page")</span></span>
+    <span data-ttu-id="0169e-109">![Lync Server 2013 展開ウィザード、ウェルカムページ](images/JJ205265.5f88ae18-9c3c-42ea-a91a-836ecf5d515f(OCS.15).jpg "Lync Server 2013 展開ウィザード、ウェルカムページ")</span><span class="sxs-lookup"><span data-stu-id="0169e-109">![Lync Server 2013 Deployment Wizard, Welcome page](images/JJ205265.5f88ae18-9c3c-42ea-a91a-836ecf5d515f(OCS.15).jpg "Lync Server 2013 Deployment Wizard, Welcome page")</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="11986-110">関連項目</span><span class="sxs-lookup"><span data-stu-id="11986-110">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0169e-110">関連項目</span><span class="sxs-lookup"><span data-stu-id="0169e-110">See Also</span></span>
 
 
-[<span data-ttu-id="11986-111">Lync Server 2013 管理ツール</span><span class="sxs-lookup"><span data-stu-id="11986-111">Lync Server 2013 administrative tools</span></span>](lync-server-2013-lync-server-administrative-tools.md)  
+[<span data-ttu-id="0169e-111">Lync Server 2013 管理ツール</span><span class="sxs-lookup"><span data-stu-id="0169e-111">Lync Server 2013 administrative tools</span></span>](lync-server-2013-lync-server-administrative-tools.md)  
   
 
 </div>

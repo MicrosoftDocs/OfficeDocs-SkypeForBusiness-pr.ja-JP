@@ -12,20 +12,20 @@ ms:contentKeyID: 48184122
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2aef895213861b4309728d635477f0cce840da55
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 3c38b1b54c2641eb300ea75e0b99985ccbee4de8
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42154959"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42198710"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hosted-exchange-um-architecture-and-routing-in-lync-server-2013"></a><span data-ttu-id="a923e-102">Lync Server 2013 での Hosted Exchange UM アーキテクチャとルーティング</span><span class="sxs-lookup"><span data-stu-id="a923e-102">Hosted Exchange UM architecture and routing in Lync Server 2013</span></span>
+# <a name="hosted-exchange-um-architecture-and-routing-in-lync-server-2013"></a><span data-ttu-id="1b7dc-102">Lync Server 2013 での Hosted Exchange UM アーキテクチャとルーティング</span><span class="sxs-lookup"><span data-stu-id="1b7dc-102">Hosted Exchange UM architecture and routing in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42154959"
 
 <span> </span>
 
-<span data-ttu-id="a923e-103">_**トピックの最終更新日:** 2012-03-26_</span><span class="sxs-lookup"><span data-stu-id="a923e-103">_**Topic Last Modified:** 2012-03-26_</span></span>
+<span data-ttu-id="1b7dc-103">_**トピックの最終更新日:** 2012-03-26_</span><span class="sxs-lookup"><span data-stu-id="1b7dc-103">_**Topic Last Modified:** 2012-03-26_</span></span>
 
-<span data-ttu-id="a923e-104">ここでは、内部設置型 Hosted Exchange UM 統合のアーキテクチャの概要 (サポートされているモード、共有 SIP 空間、ルーティングの考慮事項など) について説明します。</span><span class="sxs-lookup"><span data-stu-id="a923e-104">This section provides an overview of the architecture for on-premises and hosted Exchange UM integration, including supported modes, shared SIP space, and routing considerations.</span></span>
+<span data-ttu-id="1b7dc-104">ここでは、内部設置型 Hosted Exchange UM 統合のアーキテクチャの概要 (サポートされているモード、共有 SIP 空間、ルーティングの考慮事項など) について説明します。</span><span class="sxs-lookup"><span data-stu-id="1b7dc-104">This section provides an overview of the architecture for on-premises and hosted Exchange UM integration, including supported modes, shared SIP space, and routing considerations.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="a923e-105">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="a923e-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="1b7dc-105">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="1b7dc-105">In This Section</span></span>
 
-  - [<span data-ttu-id="a923e-106">Lync Server 2013 の Hosted Exchange UM 統合アーキテクチャ</span><span class="sxs-lookup"><span data-stu-id="a923e-106">Hosted Exchange UM integration architecture in Lync Server 2013</span></span>](lync-server-2013-hosted-exchange-um-integration-architecture.md)
+  - [<span data-ttu-id="1b7dc-106">Lync Server 2013 の Hosted Exchange UM 統合アーキテクチャ</span><span class="sxs-lookup"><span data-stu-id="1b7dc-106">Hosted Exchange UM integration architecture in Lync Server 2013</span></span>](lync-server-2013-hosted-exchange-um-integration-architecture.md)
 
-  - [<span data-ttu-id="a923e-107">Lync Server 2013 での Hosted Exchange UM ルーティング</span><span class="sxs-lookup"><span data-stu-id="a923e-107">Hosted Exchange UM routing in Lync Server 2013</span></span>](lync-server-2013-hosted-exchange-um-routing.md)
+  - [<span data-ttu-id="1b7dc-107">Lync Server 2013 での Hosted Exchange UM ルーティング</span><span class="sxs-lookup"><span data-stu-id="1b7dc-107">Hosted Exchange UM routing in Lync Server 2013</span></span>](lync-server-2013-hosted-exchange-um-routing.md)
 
 </div>
 

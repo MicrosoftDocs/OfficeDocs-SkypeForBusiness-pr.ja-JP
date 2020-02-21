@@ -12,20 +12,20 @@ ms:contentKeyID: 52253957
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b4fbea950a9a69076d7f3dba17d6c366d1facf5
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: b925526580ac347fe3682135409da3651ae06d1b
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42146310"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42196140"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-tools"></a><span data-ttu-id="8ed33-102">Lync Server 2013 のツール</span><span class="sxs-lookup"><span data-stu-id="8ed33-102">Lync Server 2013 Tools</span></span>
+# <a name="lync-server-2013-tools"></a><span data-ttu-id="089a1-102">Lync Server 2013 のツール</span><span class="sxs-lookup"><span data-stu-id="089a1-102">Lync Server 2013 Tools</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "42146310"
 
 <span> </span>
 
-<span data-ttu-id="8ed33-103">_**トピックの最終更新日:** 2013-03-14_</span><span class="sxs-lookup"><span data-stu-id="8ed33-103">_**Topic Last Modified:** 2013-03-14_</span></span>
+<span data-ttu-id="089a1-103">_**トピックの最終更新日:** 2013-03-14_</span><span class="sxs-lookup"><span data-stu-id="089a1-103">_**Topic Last Modified:** 2013-03-14_</span></span>
 
-<span data-ttu-id="8ed33-104">Lync Server 2013 では、次のツールを使用できます。</span><span class="sxs-lookup"><span data-stu-id="8ed33-104">The following tools are available for Lync Server 2013:</span></span>
+<span data-ttu-id="089a1-104">Lync Server 2013 では、次のツールを使用できます。</span><span class="sxs-lookup"><span data-stu-id="089a1-104">The following tools are available for Lync Server 2013:</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="8ed33-105">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="8ed33-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="089a1-105">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="089a1-105">In This Section</span></span>
 
-[<span data-ttu-id="8ed33-106">Lync Server 2013 ストレスおよびパフォーマンスツール</span><span class="sxs-lookup"><span data-stu-id="8ed33-106">Lync Server 2013 Stress and Performance Tool</span></span>](lync-server-2013-stress-and-performance-tool.md)
+[<span data-ttu-id="089a1-106">Lync Server 2013 ストレスおよびパフォーマンスツール</span><span class="sxs-lookup"><span data-stu-id="089a1-106">Lync Server 2013 Stress and Performance Tool</span></span>](lync-server-2013-stress-and-performance-tool.md)
 
-[<span data-ttu-id="8ed33-107">Lync Server 2013 リソースキットツールのドキュメント</span><span class="sxs-lookup"><span data-stu-id="8ed33-107">Lync Server 2013 Resource Kit Tools Documentation</span></span>](lync-server-2013-resource-kit-tools-documentation.md)
+[<span data-ttu-id="089a1-107">Lync Server 2013 リソースキットツールのドキュメント</span><span class="sxs-lookup"><span data-stu-id="089a1-107">Lync Server 2013 Resource Kit Tools Documentation</span></span>](lync-server-2013-resource-kit-tools-documentation.md)
 
-[<span data-ttu-id="8ed33-108">Lync Server 2013 常設チャットリソースキットツール</span><span class="sxs-lookup"><span data-stu-id="8ed33-108">Lync Server 2013 Persistent Chat Resource Kit Tools</span></span>](lync-server-2013-persistent-chat-resource-kit-tools.md)
+[<span data-ttu-id="089a1-108">Lync Server 2013 常設チャットリソースキットツール</span><span class="sxs-lookup"><span data-stu-id="089a1-108">Lync Server 2013 Persistent Chat Resource Kit Tools</span></span>](lync-server-2013-persistent-chat-resource-kit-tools.md)
 
 </div>
 

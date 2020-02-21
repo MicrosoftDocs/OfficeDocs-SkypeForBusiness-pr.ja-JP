@@ -12,20 +12,20 @@ ms:contentKeyID: 48706010
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1e026d6167c5c01008ffe44d99d6bc92116d62b2
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 91cc593444e50112b92714dd925be610f69f3f9f
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42151629"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42197510"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="disabling-uploading-and-downloading-files-in-chat-rooms-in-lync-server-2013"></a><span data-ttu-id="c7a13-102">Lync Server 2013 でのチャットルームでのファイルのアップロードとダウンロードの無効化</span><span class="sxs-lookup"><span data-stu-id="c7a13-102">Disabling uploading and downloading files in chat rooms in Lync Server 2013</span></span>
+# <a name="disabling-uploading-and-downloading-files-in-chat-rooms-in-lync-server-2013"></a><span data-ttu-id="da718-102">Lync Server 2013 でのチャットルームでのファイルのアップロードとダウンロードの無効化</span><span class="sxs-lookup"><span data-stu-id="da718-102">Disabling uploading and downloading files in chat rooms in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42151629"
 
 <span> </span>
 
-<span data-ttu-id="c7a13-103">_**トピックの最終更新日:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="c7a13-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+<span data-ttu-id="da718-103">_**トピックの最終更新日:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="da718-103">_**Topic Last Modified:** 2012-09-12_</span></span>
 
-<span data-ttu-id="c7a13-p101">既定では、ユーザーは投稿するメッセージでファイルをアップロードおよびダウンロードできます。次の 2 つの方法で、この機能を無効にしてユーザーがファイルのアップロードもダウンロードもできないようにすることができます。</span><span class="sxs-lookup"><span data-stu-id="c7a13-p101">By default, users can upload and download files in the messages that they post. You can disable this functionality and prevent users from uploading and downloading files in two ways:</span></span>
+<span data-ttu-id="da718-p101">既定では、ユーザーは投稿するメッセージでファイルをアップロードおよびダウンロードできます。次の 2 つの方法で、この機能を無効にしてユーザーがファイルのアップロードもダウンロードもできないようにすることができます。</span><span class="sxs-lookup"><span data-stu-id="da718-p101">By default, users can upload and download files in the messages that they post. You can disable this functionality and prevent users from uploading and downloading files in two ways:</span></span>
 
-  - <span data-ttu-id="c7a13-106">特定の常設チャットルームまたはチャットルームカテゴリで、すべてのユーザーがファイルをアップロードおよびダウンロードできないようにします。</span><span class="sxs-lookup"><span data-stu-id="c7a13-106">Prevent all users from uploading and downloading files in a certain Persistent Chat room or chat room category.</span></span>
+  - <span data-ttu-id="da718-106">特定の常設チャットルームまたはチャットルームカテゴリで、すべてのユーザーがファイルをアップロードおよびダウンロードできないようにします。</span><span class="sxs-lookup"><span data-stu-id="da718-106">Prevent all users from uploading and downloading files in a certain Persistent Chat room or chat room category.</span></span>
 
-  - <span data-ttu-id="c7a13-p102">すべてのチャット ルームで、特定のユーザーがファイルのアップロードとダウンロードを行えないようにします。そのユーザーは、ファイルのアップロードとダウンロードが許可されているチャット ルームも含めて、すべてのチャット ルームでファイルのアップロードとダウンロードを行えなくなります。</span><span class="sxs-lookup"><span data-stu-id="c7a13-p102">Prevent a certain user from uploading and downloading files in any chat room. The user cannot upload and download files in any chat room, including chat rooms that allow file uploading and downloading.</span></span>
+  - <span data-ttu-id="da718-p102">すべてのチャット ルームで、特定のユーザーがファイルのアップロードとダウンロードを行えないようにします。そのユーザーは、ファイルのアップロードとダウンロードが許可されているチャット ルームも含めて、すべてのチャット ルームでファイルのアップロードとダウンロードを行えなくなります。</span><span class="sxs-lookup"><span data-stu-id="da718-p102">Prevent a certain user from uploading and downloading files in any chat room. The user cannot upload and download files in any chat room, including chat rooms that allow file uploading and downloading.</span></span>
 
-<span data-ttu-id="c7a13-109">ファイルのアップロードとダウンロードを有効または無効にする方法の詳細については、「展開」のドキュメントの「 [Configure categories In Lync Server 2013](lync-server-2013-configure-categories.md) 」および「 [Manage categories](manage-categories.md) 」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="c7a13-109">For details about enabling and disabling file uploading and downloading, see [Configure categories in Lync Server 2013](lync-server-2013-configure-categories.md) and [Manage categories](manage-categories.md) in the Deployment documentation.</span></span>
+<span data-ttu-id="da718-109">ファイルのアップロードとダウンロードを有効または無効にする方法の詳細については、「展開」のドキュメントの「 [Configure categories In Lync Server 2013](lync-server-2013-configure-categories.md) 」および「 [Manage categories](manage-categories.md) 」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="da718-109">For details about enabling and disabling file uploading and downloading, see [Configure categories in Lync Server 2013](lync-server-2013-configure-categories.md) and [Manage categories](manage-categories.md) in the Deployment documentation.</span></span>
 
 </div>
 

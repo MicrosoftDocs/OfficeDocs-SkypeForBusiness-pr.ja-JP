@@ -12,20 +12,20 @@ ms:contentKeyID: 48185627
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5e2d3aabfad755078830ff608f3213906646aa11
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 5c9011edf4385b2823e8e9f56c8958ba15f0fbfa
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42153679"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42199770"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="iis-support-in-lync-server-2013"></a><span data-ttu-id="e9b33-102">Lync Server 2013 での IIS のサポート</span><span class="sxs-lookup"><span data-stu-id="e9b33-102">IIS support in Lync Server 2013</span></span>
+# <a name="iis-support-in-lync-server-2013"></a><span data-ttu-id="62f26-102">Lync Server 2013 での IIS のサポート</span><span class="sxs-lookup"><span data-stu-id="62f26-102">IIS support in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42153679"
 
 <span> </span>
 
-<span data-ttu-id="e9b33-103">_**トピックの最終更新日:** 2012-06-29_</span><span class="sxs-lookup"><span data-stu-id="e9b33-103">_**Topic Last Modified:** 2012-06-29_</span></span>
+<span data-ttu-id="62f26-103">_**トピックの最終更新日:** 2012-06-29_</span><span class="sxs-lookup"><span data-stu-id="62f26-103">_**Topic Last Modified:** 2012-06-29_</span></span>
 
-<span data-ttu-id="e9b33-104">いくつかの Lync Server 2013 コンポーネントには、インターネットインフォメーションサービス (IIS) が必要です。</span><span class="sxs-lookup"><span data-stu-id="e9b33-104">Several Lync Server 2013 components require Internet Information Services (IIS).</span></span> <span data-ttu-id="e9b33-105">サポートされている IIS のバージョンは次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="e9b33-105">Supported versions of IIS included the following:</span></span>
+<span data-ttu-id="62f26-104">いくつかの Lync Server 2013 コンポーネントには、インターネットインフォメーションサービス (IIS) が必要です。</span><span class="sxs-lookup"><span data-stu-id="62f26-104">Several Lync Server 2013 components require Internet Information Services (IIS).</span></span> <span data-ttu-id="62f26-105">サポートされている IIS のバージョンは次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="62f26-105">Supported versions of IIS included the following:</span></span>
 
-  - <span data-ttu-id="e9b33-106">IIS 8.0</span><span class="sxs-lookup"><span data-stu-id="e9b33-106">IIS 8.0</span></span>
+  - <span data-ttu-id="62f26-106">IIS 8.0</span><span class="sxs-lookup"><span data-stu-id="62f26-106">IIS 8.0</span></span>
 
-  - <span data-ttu-id="e9b33-107">IIS 7.5</span><span class="sxs-lookup"><span data-stu-id="e9b33-107">IIS 7.5</span></span>
+  - <span data-ttu-id="62f26-107">IIS 7.5</span><span class="sxs-lookup"><span data-stu-id="62f26-107">IIS 7.5</span></span>
 
-<span data-ttu-id="e9b33-108">Lync Server 2013 コンポーネントの IIS 要件の詳細については、「計画」のドキュメントの「 [Lync server 2013 のインターネットインフォメーションサービス (IIS) の要件](lync-server-2013-internet-information-services-iis-requirements.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="e9b33-108">For details about the IIS requirements for Lync Server 2013 components, see [Internet Information Services (IIS) requirements in Lync Server 2013](lync-server-2013-internet-information-services-iis-requirements.md) in the Planning documentation.</span></span>
+<span data-ttu-id="62f26-108">Lync Server 2013 コンポーネントの IIS 要件の詳細については、「計画」のドキュメントの「 [Lync server 2013 のインターネットインフォメーションサービス (IIS) の要件](lync-server-2013-internet-information-services-iis-requirements.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="62f26-108">For details about the IIS requirements for Lync Server 2013 components, see [Internet Information Services (IIS) requirements in Lync Server 2013](lync-server-2013-internet-information-services-iis-requirements.md) in the Planning documentation.</span></span>
 
 </div>
 

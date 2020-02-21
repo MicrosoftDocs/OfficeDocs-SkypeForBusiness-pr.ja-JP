@@ -12,20 +12,20 @@ ms:contentKeyID: 48183275
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8d8d8a905fd34cecd77195fa9b824a5319778870
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 7804a02995550a550c2916db20f12367466efe4c
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42137256"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42198530"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="callpriorities-table-in-lync-server-2013"></a><span data-ttu-id="df211-102">Lync Server 2013 の CallPriorities テーブル</span><span class="sxs-lookup"><span data-stu-id="df211-102">CallPriorities table in Lync Server 2013</span></span>
+# <a name="callpriorities-table-in-lync-server-2013"></a><span data-ttu-id="9d823-102">Lync Server 2013 の CallPriorities テーブル</span><span class="sxs-lookup"><span data-stu-id="9d823-102">CallPriorities table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42137256"
 
 <span> </span>
 
-<span data-ttu-id="df211-103">_**トピックの最終更新日:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="df211-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="9d823-103">_**トピックの最終更新日:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="9d823-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="df211-104">CallPriorities テーブルは、使用できる通話の優先度 ("緊急"、"至急"、"通常" など) の一覧を格納する静的テーブルです。</span><span class="sxs-lookup"><span data-stu-id="df211-104">The CallPriorities table is a static table that stores the list of possible call priorities, such as ‘emergency’, ‘urgent’, or ‘normal’.</span></span>
+<span data-ttu-id="9d823-104">CallPriorities テーブルは、使用できる通話の優先度 ("緊急"、"至急"、"通常" など) の一覧を格納する静的テーブルです。</span><span class="sxs-lookup"><span data-stu-id="9d823-104">The CallPriorities table is a static table that stores the list of possible call priorities, such as ‘emergency’, ‘urgent’, or ‘normal’.</span></span>
 
 
 <table>
@@ -49,30 +49,30 @@ ms.locfileid: "42137256"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="df211-105">列</span><span class="sxs-lookup"><span data-stu-id="df211-105">Column</span></span></th>
-<th><span data-ttu-id="df211-106">データ型</span><span class="sxs-lookup"><span data-stu-id="df211-106">Data Type</span></span></th>
-<th><span data-ttu-id="df211-107">キー/インデックス</span><span class="sxs-lookup"><span data-stu-id="df211-107">Key/Index</span></span></th>
-<th><span data-ttu-id="df211-108">詳細</span><span class="sxs-lookup"><span data-stu-id="df211-108">Details</span></span></th>
+<th><span data-ttu-id="9d823-105">列</span><span class="sxs-lookup"><span data-stu-id="9d823-105">Column</span></span></th>
+<th><span data-ttu-id="9d823-106">データ型</span><span class="sxs-lookup"><span data-stu-id="9d823-106">Data Type</span></span></th>
+<th><span data-ttu-id="9d823-107">キー/インデックス</span><span class="sxs-lookup"><span data-stu-id="9d823-107">Key/Index</span></span></th>
+<th><span data-ttu-id="9d823-108">詳細</span><span class="sxs-lookup"><span data-stu-id="9d823-108">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="df211-109"><strong>優先順位 Id</strong></span><span class="sxs-lookup"><span data-stu-id="df211-109"><strong>PriorityId</strong></span></span></p></td>
-<td><p><span data-ttu-id="df211-110">tinyint</span><span class="sxs-lookup"><span data-stu-id="df211-110">tinyint</span></span></p></td>
-<td><p><span data-ttu-id="df211-111">Primary</span><span class="sxs-lookup"><span data-stu-id="df211-111">Primary</span></span></p></td>
+<td><p><span data-ttu-id="9d823-109"><strong>優先順位 Id</strong></span><span class="sxs-lookup"><span data-stu-id="9d823-109"><strong>PriorityId</strong></span></span></p></td>
+<td><p><span data-ttu-id="9d823-110">tinyint</span><span class="sxs-lookup"><span data-stu-id="9d823-110">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="9d823-111">Primary</span><span class="sxs-lookup"><span data-stu-id="9d823-111">Primary</span></span></p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="df211-112"><strong>[優先度]</strong></span><span class="sxs-lookup"><span data-stu-id="df211-112"><strong>Priority</strong></span></span></p></td>
-<td><p><span data-ttu-id="df211-113">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="df211-113">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="9d823-112"><strong>[優先度]</strong></span><span class="sxs-lookup"><span data-stu-id="9d823-112"><strong>Priority</strong></span></span></p></td>
+<td><p><span data-ttu-id="9d823-113">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="9d823-113">nvarchar(256)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="df211-114">有効な値は次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="df211-114">Allowed values:</span></span></p>
+<td><p><span data-ttu-id="9d823-114">有効な値は次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="9d823-114">Allowed values:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="df211-115">0 -- 不明</span><span class="sxs-lookup"><span data-stu-id="df211-115">0 - Unknown</span></span></p></li>
-<li><p><span data-ttu-id="df211-116">1 -- 非緊急</span><span class="sxs-lookup"><span data-stu-id="df211-116">1 – Non-Urgent</span></span></p></li>
-<li><p><span data-ttu-id="df211-117">2 -- 通常</span><span class="sxs-lookup"><span data-stu-id="df211-117">2 - Normal</span></span></p></li>
-<li><p><span data-ttu-id="df211-118">3 -- 至急</span><span class="sxs-lookup"><span data-stu-id="df211-118">3 - Urgent</span></span></p></li>
-<li><p><span data-ttu-id="df211-119">4 -- 緊急</span><span class="sxs-lookup"><span data-stu-id="df211-119">4 - Emergency</span></span></p></li>
+<li><p><span data-ttu-id="9d823-115">0 -- 不明</span><span class="sxs-lookup"><span data-stu-id="9d823-115">0 - Unknown</span></span></p></li>
+<li><p><span data-ttu-id="9d823-116">1 -- 非緊急</span><span class="sxs-lookup"><span data-stu-id="9d823-116">1 – Non-Urgent</span></span></p></li>
+<li><p><span data-ttu-id="9d823-117">2 -- 通常</span><span class="sxs-lookup"><span data-stu-id="9d823-117">2 - Normal</span></span></p></li>
+<li><p><span data-ttu-id="9d823-118">3 -- 至急</span><span class="sxs-lookup"><span data-stu-id="9d823-118">3 - Urgent</span></span></p></li>
+<li><p><span data-ttu-id="9d823-119">4 -- 緊急</span><span class="sxs-lookup"><span data-stu-id="9d823-119">4 - Emergency</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>
