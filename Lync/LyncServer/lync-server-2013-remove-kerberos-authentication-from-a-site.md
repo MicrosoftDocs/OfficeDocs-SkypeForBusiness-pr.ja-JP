@@ -12,20 +12,20 @@ ms:contentKeyID: 48184806
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 62ad85727b7a1e8791fecddeedc278d85a6ea725
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: a4f7fa1160e7ff0afbbc4d8d4cc5ec96ab08e0f4
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42152129"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42183142"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="in-lync-server-2013-remove-kerberos-authentication-from-a-site"></a><span data-ttu-id="ef58a-102">Lync Server 2013 で、サイトから Kerberos 認証を削除する</span><span class="sxs-lookup"><span data-stu-id="ef58a-102">In Lync Server 2013 remove Kerberos authentication from a site</span></span>
+# <a name="in-lync-server-2013-remove-kerberos-authentication-from-a-site"></a><span data-ttu-id="9e72b-102">Lync Server 2013 で、サイトから Kerberos 認証を削除する</span><span class="sxs-lookup"><span data-stu-id="9e72b-102">In Lync Server 2013 remove Kerberos authentication from a site</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42152129"
 
 <span> </span>
 
-<span data-ttu-id="ef58a-103">_**トピックの最終更新日:** 2012-01-16_</span><span class="sxs-lookup"><span data-stu-id="ef58a-103">_**Topic Last Modified:** 2012-01-16_</span></span>
+<span data-ttu-id="9e72b-103">_**トピックの最終更新日:** 2012-01-16_</span><span class="sxs-lookup"><span data-stu-id="9e72b-103">_**Topic Last Modified:** 2012-01-16_</span></span>
 
-<span data-ttu-id="ef58a-104">この手順を正常に完了させるには、RTCUniversalServerAdmins グループのメンバーであるユーザーとしてログオンする必要があります。</span><span class="sxs-lookup"><span data-stu-id="ef58a-104">To successfully complete this procedure you should be logged on as a user who is a member of the RTCUniversalServerAdmins group.</span></span>
+<span data-ttu-id="9e72b-104">この手順を正常に完了させるには、RTCUniversalServerAdmins グループのメンバーであるユーザーとしてログオンする必要があります。</span><span class="sxs-lookup"><span data-stu-id="9e72b-104">To successfully complete this procedure you should be logged on as a user who is a member of the RTCUniversalServerAdmins group.</span></span>
 
-<span data-ttu-id="ef58a-105">サイトから Kerberos 認証を削除する必要がある場合、またはサイトを廃止する必要がある場合は、 **get-cskerberosaccountassignment**コマンドレットを使用して、サイトから kerberos 認証アカウントの割り当てを削除する必要があります。</span><span class="sxs-lookup"><span data-stu-id="ef58a-105">If you need to remove Kerberos authentication from a site or retire a site, you must remove the Kerberos authentication account assignment from the site by using the **Remove-CsKerberosAccountAssignment** cmdlet.</span></span> <span data-ttu-id="ef58a-106">Kerberos 認証アカウントの割り当てを削除するには、次の手順を使用します。これにより、サイト内のすべてのコンピューターから割り当てが削除されます。</span><span class="sxs-lookup"><span data-stu-id="ef58a-106">Use the following procedure to remove the Kerberos authentication account assignment, which removes the assignment from all computers in the site.</span></span>
+<span data-ttu-id="9e72b-105">サイトから Kerberos 認証を削除する必要がある場合、またはサイトを廃止する必要がある場合は、 **get-cskerberosaccountassignment**コマンドレットを使用して、サイトから kerberos 認証アカウントの割り当てを削除する必要があります。</span><span class="sxs-lookup"><span data-stu-id="9e72b-105">If you need to remove Kerberos authentication from a site or retire a site, you must remove the Kerberos authentication account assignment from the site by using the **Remove-CsKerberosAccountAssignment** cmdlet.</span></span> <span data-ttu-id="9e72b-106">Kerberos 認証アカウントの割り当てを削除するには、次の手順を使用します。これにより、サイト内のすべてのコンピューターから割り当てが削除されます。</span><span class="sxs-lookup"><span data-stu-id="9e72b-106">Use the following procedure to remove the Kerberos authentication account assignment, which removes the assignment from all computers in the site.</span></span>
 
 <div class=" ">
 
 
 > [!WARNING]  
-> <span data-ttu-id="ef58a-107">Kerberos が有効なアカウントを完全に削除する場合は、割り当てを削除した後、Active directory のユーザーとコンピューターを使用して Active Directory ドメインサービスから削除する必要があります。</span><span class="sxs-lookup"><span data-stu-id="ef58a-107">If you are permanently retiring the Kerberos-enabled account, you should use Active Directory Users and Computers to delete it from Active Directory Domain Services after you have removed the assignment.</span></span> <span data-ttu-id="ef58a-108">オブジェクトを後で使用する場合、Active Directory オブジェクトを保持しておくことができます。</span><span class="sxs-lookup"><span data-stu-id="ef58a-108">If you plan to use the object in the future, you might want to keep the Active Directory object.</span></span>
+> <span data-ttu-id="9e72b-107">Kerberos が有効なアカウントを完全に削除する場合は、割り当てを削除した後、Active directory のユーザーとコンピューターを使用して Active Directory ドメインサービスから削除する必要があります。</span><span class="sxs-lookup"><span data-stu-id="9e72b-107">If you are permanently retiring the Kerberos-enabled account, you should use Active Directory Users and Computers to delete it from Active Directory Domain Services after you have removed the assignment.</span></span> <span data-ttu-id="9e72b-108">オブジェクトを後で使用する場合、Active Directory オブジェクトを保持しておくことができます。</span><span class="sxs-lookup"><span data-stu-id="9e72b-108">If you plan to use the object in the future, you might want to keep the Active Directory object.</span></span>
 
 
 
@@ -53,13 +53,13 @@ ms.locfileid: "42152129"
 
 <div>
 
-## <a name="to-remove-kerberos-authentication-from-a-site"></a><span data-ttu-id="ef58a-109">サイトから Kerberos 認証を削除するには</span><span class="sxs-lookup"><span data-stu-id="ef58a-109">To remove Kerberos authentication from a site</span></span>
+## <a name="to-remove-kerberos-authentication-from-a-site"></a><span data-ttu-id="9e72b-109">サイトから Kerberos 認証を削除するには</span><span class="sxs-lookup"><span data-stu-id="9e72b-109">To remove Kerberos authentication from a site</span></span>
 
-1.  <span data-ttu-id="ef58a-110">RTCUniversalServerAdmins グループのメンバーとして、Lync Server 2013 を実行しているドメイン内のコンピューター、または管理ツールがインストールされているコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="ef58a-110">As a member of the RTCUniversalServerAdmins group, log on to a computer in the domain running Lync Server 2013 or on to a computer where the administrative tools are installed.</span></span>
+1.  <span data-ttu-id="9e72b-110">RTCUniversalServerAdmins グループのメンバーとして、Lync Server 2013 を実行しているドメイン内のコンピューター、または管理ツールがインストールされているコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="9e72b-110">As a member of the RTCUniversalServerAdmins group, log on to a computer in the domain running Lync Server 2013 or on to a computer where the administrative tools are installed.</span></span>
 
-2.  <span data-ttu-id="ef58a-111">Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="ef58a-111">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="9e72b-111">Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="9e72b-111">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="ef58a-112">コマンド ラインで次の 2 つのコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="ef58a-112">From the command line, run the following two commands:</span></span>
+3.  <span data-ttu-id="9e72b-112">コマンド ラインで次の 2 つのコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="9e72b-112">From the command line, run the following two commands:</span></span>
     
        ```PowerShell
         Remove-CsKerberosAccountAssignment -Identity "site:SiteName"
@@ -69,7 +69,7 @@ ms.locfileid: "42152129"
         Enable-CsTopology
        ```
     
-    <span data-ttu-id="ef58a-113">次にその例を示します。</span><span class="sxs-lookup"><span data-stu-id="ef58a-113">For example:</span></span>
+    <span data-ttu-id="9e72b-113">次にその例を示します。</span><span class="sxs-lookup"><span data-stu-id="9e72b-113">For example:</span></span>
     
        ```PowerShell
         Remove-CsKerberosAccountAssignment -Identity "site:Redmond"
@@ -83,7 +83,7 @@ ms.locfileid: "42152129"
     
 
     > [!IMPORTANT]  
-    > <span data-ttu-id="ef58a-114">アカウントの追加、アカウントの削除など、Kerberos 認証に変更を加えた後、Lync Server 管理シェルコマンドプロンプトから<STRONG>Enable-CsTopology</STRONG>設定を実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="ef58a-114">After making any changes to Kerberos authentication, such as adding an account or removing an account, you must run <STRONG>Enable-CsTopology</STRONG> from the Lync Server Management Shell command prompt.</span></span>
+    > <span data-ttu-id="9e72b-114">アカウントの追加、アカウントの削除など、Kerberos 認証に変更を加えた後、Lync Server 管理シェルコマンドプロンプトから<STRONG>Enable-CsTopology</STRONG>設定を実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="9e72b-114">After making any changes to Kerberos authentication, such as adding an account or removing an account, you must run <STRONG>Enable-CsTopology</STRONG> from the Lync Server Management Shell command prompt.</span></span>
 
     
     </div>

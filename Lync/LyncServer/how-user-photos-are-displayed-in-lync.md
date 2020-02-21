@@ -12,20 +12,20 @@ ms:contentKeyID: 62835297
 ms.date: 08/27/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 097262cc3a4ba4b56cd023bc5174d881426deff2
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 2b2c64d0a147457eb50a778d7909b3ccfbf8fecc
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42137918"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42180360"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="how-user-photos-are-displayed-in-lync"></a><span data-ttu-id="241fe-102">Lync でユーザーの写真を表示する方法</span><span class="sxs-lookup"><span data-stu-id="241fe-102">How user photos are displayed in Lync</span></span>
+# <a name="how-user-photos-are-displayed-in-lync"></a><span data-ttu-id="6e081-102">Lync でユーザーの写真を表示する方法</span><span class="sxs-lookup"><span data-stu-id="6e081-102">How user photos are displayed in Lync</span></span>
 
 </div>
 
@@ -35,71 +35,71 @@ ms.locfileid: "42137918"
 
 <span> </span>
 
-<span data-ttu-id="241fe-103">_**トピックの最終更新日:** 2014-08-25_</span><span class="sxs-lookup"><span data-stu-id="241fe-103">_**Topic Last Modified:** 2014-08-25_</span></span>
+<span data-ttu-id="6e081-103">_**トピックの最終更新日:** 2014-08-25_</span><span class="sxs-lookup"><span data-stu-id="6e081-103">_**Topic Last Modified:** 2014-08-25_</span></span>
 
-<span data-ttu-id="241fe-104">**概要:** Lync クライアントに表示されるユーザーの写真は、会議や IM チャットなど、どの Lync 機能を使用しているかによって異なる場合があります。</span><span class="sxs-lookup"><span data-stu-id="241fe-104">**Summary:** User photos displayed in Lync client can be different depending on which Lync feature you are using, such as when in a conference or an IM chat.</span></span>
+<span data-ttu-id="6e081-104">**概要:** Lync クライアントに表示されるユーザーの写真は、会議や IM チャットなど、どの Lync 機能を使用しているかによって異なる場合があります。</span><span class="sxs-lookup"><span data-stu-id="6e081-104">**Summary:** User photos displayed in Lync client can be different depending on which Lync feature you are using, such as when in a conference or an IM chat.</span></span>
 
-<span data-ttu-id="241fe-105">Lync 2010 には、他の Lync ユーザーに表示される Lync プロファイルに写真を含める機能が導入されています。</span><span class="sxs-lookup"><span data-stu-id="241fe-105">Lync 2010 introduced the ability to include a photo with your Lync profile that is displayed to other Lync users.</span></span> <span data-ttu-id="241fe-106">また、Lync クライアントで連絡先の写真を表示するかどうかを選択することもできます。</span><span class="sxs-lookup"><span data-stu-id="241fe-106">You can also choose whether or not to display photos for your contacts in Lync client.</span></span> <span data-ttu-id="241fe-107">Lync 2013 では、ユーザーの高解像度写真のサポートがサポートされています。</span><span class="sxs-lookup"><span data-stu-id="241fe-107">In Lync 2013, support for high-resolution photos for users.</span></span> <span data-ttu-id="241fe-108">このトピックでは、Lync クライアントがユーザーの写真を取得および表示する方法、画像が格納される場所、各画像ソースの制限、およびさまざまな Lync サービスでユーザーの写真を使用する方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="241fe-108">This topic describes how Lync client gets and displays user photos, where the images are stored, the limitations for each image source, and how user photos are used by different Lync services.</span></span>
+<span data-ttu-id="6e081-105">Lync 2010 には、他の Lync ユーザーに表示される Lync プロファイルに写真を含める機能が導入されています。</span><span class="sxs-lookup"><span data-stu-id="6e081-105">Lync 2010 introduced the ability to include a photo with your Lync profile that is displayed to other Lync users.</span></span> <span data-ttu-id="6e081-106">また、Lync クライアントで連絡先の写真を表示するかどうかを選択することもできます。</span><span class="sxs-lookup"><span data-stu-id="6e081-106">You can also choose whether or not to display photos for your contacts in Lync client.</span></span> <span data-ttu-id="6e081-107">Lync 2013 では、ユーザーの高解像度写真のサポートがサポートされています。</span><span class="sxs-lookup"><span data-stu-id="6e081-107">In Lync 2013, support for high-resolution photos for users.</span></span> <span data-ttu-id="6e081-108">このトピックでは、Lync クライアントがユーザーの写真を取得および表示する方法、画像が格納される場所、各画像ソースの制限、およびさまざまな Lync サービスでユーザーの写真を使用する方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="6e081-108">This topic describes how Lync client gets and displays user photos, where the images are stored, the limitations for each image source, and how user photos are used by different Lync services.</span></span>
 
 <div>
 
-## <a name="planning-considerations"></a><span data-ttu-id="241fe-109">計画に関する考慮事項</span><span class="sxs-lookup"><span data-stu-id="241fe-109">Planning considerations</span></span>
+## <a name="planning-considerations"></a><span data-ttu-id="6e081-109">計画に関する考慮事項</span><span class="sxs-lookup"><span data-stu-id="6e081-109">Planning considerations</span></span>
 
-<span data-ttu-id="241fe-110">ユーザー写真のサポートの実装を計画するときは、次の点を考慮する必要があります。</span><span class="sxs-lookup"><span data-stu-id="241fe-110">You should consider the following when planning to implement support for user photos.</span></span>
+<span data-ttu-id="6e081-110">ユーザー写真のサポートの実装を計画するときは、次の点を考慮する必要があります。</span><span class="sxs-lookup"><span data-stu-id="6e081-110">You should consider the following when planning to implement support for user photos.</span></span>
 
-  - <span data-ttu-id="241fe-111">高精細ユーザーの写真サポートを使用するには、ユーザーのメールボックスが Exchange 2013 上にあり、lync ユーザーアカウントが Lync 2013 プールに配置されている必要があります。</span><span class="sxs-lookup"><span data-stu-id="241fe-111">High-definition user photo support requires that the user’s mailbox be located on Exchange 2013 and the Lync user account to be in Lync 2013 pool.</span></span>
+  - <span data-ttu-id="6e081-111">高精細ユーザーの写真サポートを使用するには、ユーザーのメールボックスが Exchange 2013 上にあり、lync ユーザーアカウントが Lync 2013 プールに配置されている必要があります。</span><span class="sxs-lookup"><span data-stu-id="6e081-111">High-definition user photo support requires that the user’s mailbox be located on Exchange 2013 and the Lync user account to be in Lync 2013 pool.</span></span>
 
-  - <span data-ttu-id="241fe-112">高精細ユーザーの写真は、Lync Server 2013 と Exchange 2013 の両方が使用されている環境でのみサポートされます。</span><span class="sxs-lookup"><span data-stu-id="241fe-112">High-definition user photos are supported only in an environment where both Lync Server 2013 and Exchange 2013 are used.</span></span>
+  - <span data-ttu-id="6e081-112">高精細ユーザーの写真は、Lync Server 2013 と Exchange 2013 の両方が使用されている環境でのみサポートされます。</span><span class="sxs-lookup"><span data-stu-id="6e081-112">High-definition user photos are supported only in an environment where both Lync Server 2013 and Exchange 2013 are used.</span></span>
 
-  - <span data-ttu-id="241fe-113">Exchange 2010 上にメールボックスを持つユーザーは、常に、ユーザー写真のソースとして AD DS の**thumbnailPhoto**属性を使用します。</span><span class="sxs-lookup"><span data-stu-id="241fe-113">Users with Mailboxes on Exchange 2010 will always use the **thumbnailPhoto** attribute from AD DS as the source for their user photo.</span></span>
+  - <span data-ttu-id="6e081-113">Exchange 2010 上にメールボックスを持つユーザーは、常に、ユーザー写真のソースとして AD DS の**thumbnailPhoto**属性を使用します。</span><span class="sxs-lookup"><span data-stu-id="6e081-113">Users with Mailboxes on Exchange 2010 will always use the **thumbnailPhoto** attribute from AD DS as the source for their user photo.</span></span>
 
-  - <span data-ttu-id="241fe-114">AD DS から**thumbnailPhoto**属性として保存されたユーザー写真は、外部/フェデレーションの連絡先に表示されません。</span><span class="sxs-lookup"><span data-stu-id="241fe-114">A user photo stored as the **thumbnailPhoto** attribute from AD DS will not be displayed to external / federated contacts.</span></span>
+  - <span data-ttu-id="6e081-114">AD DS から**thumbnailPhoto**属性として保存されたユーザー写真は、外部/フェデレーションの連絡先に表示されません。</span><span class="sxs-lookup"><span data-stu-id="6e081-114">A user photo stored as the **thumbnailPhoto** attribute from AD DS will not be displayed to external / federated contacts.</span></span>
 
-  - <span data-ttu-id="241fe-115">ユーザーの連絡先の写真が AD DS に保存されている場合、使用される画像ファイルは96×96ピクセルに制限され、100 KB のファイルサイズを超えないようにします。</span><span class="sxs-lookup"><span data-stu-id="241fe-115">If the photos for user contacts are stored in AD DS, the image file used is limited to 96×96 pixels and no more than 100 KB file size.</span></span>
+  - <span data-ttu-id="6e081-115">ユーザーの連絡先の写真が AD DS に保存されている場合、使用される画像ファイルは96×96ピクセルに制限され、100 KB のファイルサイズを超えないようにします。</span><span class="sxs-lookup"><span data-stu-id="6e081-115">If the photos for user contacts are stored in AD DS, the image file used is limited to 96×96 pixels and no more than 100 KB file size.</span></span>
 
-  - <span data-ttu-id="241fe-116">Lync Server と Exchange Server の間の接続が失われた場合、AD DS からのユーザーの低解像度**thumbnailPhoto**が表示され、内部ユーザーのみになります。</span><span class="sxs-lookup"><span data-stu-id="241fe-116">If connectivity between Lync Server and Exchange Server is lost, the user’s low resolution **thumbnailPhoto** from AD DS will be displayed, and to internal users only.</span></span>
+  - <span data-ttu-id="6e081-116">Lync Server と Exchange Server の間の接続が失われた場合、AD DS からのユーザーの低解像度**thumbnailPhoto**が表示され、内部ユーザーのみになります。</span><span class="sxs-lookup"><span data-stu-id="6e081-116">If connectivity between Lync Server and Exchange Server is lost, the user’s low resolution **thumbnailPhoto** from AD DS will be displayed, and to internal users only.</span></span>
 
-  - <span data-ttu-id="241fe-117">アクティブなスピーカーでビデオが有効になっていない場合、高解像度のユーザー写真が Lync 2013 会議に表示されます。</span><span class="sxs-lookup"><span data-stu-id="241fe-117">High-resolution user photos are displayed in Lync 2013 meetings when an active speaker does not have video enabled.</span></span> <span data-ttu-id="241fe-118">また、ギャラリーのサムネイル写真の上にマウスポインターを移動すると、高解像度写真が表示されます。</span><span class="sxs-lookup"><span data-stu-id="241fe-118">Also, moving the mouse over thumbnail photo in the gallery will display the high-resolution photo.</span></span>
+  - <span data-ttu-id="6e081-117">アクティブなスピーカーでビデオが有効になっていない場合、高解像度のユーザー写真が Lync 2013 会議に表示されます。</span><span class="sxs-lookup"><span data-stu-id="6e081-117">High-resolution user photos are displayed in Lync 2013 meetings when an active speaker does not have video enabled.</span></span> <span data-ttu-id="6e081-118">また、ギャラリーのサムネイル写真の上にマウスポインターを移動すると、高解像度写真が表示されます。</span><span class="sxs-lookup"><span data-stu-id="6e081-118">Also, moving the mouse over thumbnail photo in the gallery will display the high-resolution photo.</span></span>
 
 </div>
 
 <div>
 
-## <a name="user-photos-in-lync-2010"></a><span data-ttu-id="241fe-119">Lync 2010 のユーザーの写真</span><span class="sxs-lookup"><span data-stu-id="241fe-119">User Photos in Lync 2010</span></span>
+## <a name="user-photos-in-lync-2010"></a><span data-ttu-id="6e081-119">Lync 2010 のユーザーの写真</span><span class="sxs-lookup"><span data-stu-id="6e081-119">User Photos in Lync 2010</span></span>
 
-<span data-ttu-id="241fe-120">Lync 2010 クライアントでは、次の2つのオプションのいずれかを選択して、プロファイルの写真を表示したり、**既定の企業画像**を表示したり、 **web アドレスから画像を表示**したりすることができます。</span><span class="sxs-lookup"><span data-stu-id="241fe-120">In the Lync 2010 client, you can choose from two options to display a photo for your profile, **Default corporate picture** and **Show picture from a web address**.</span></span>
-
-<div>
-
-## <a name="default-corporate-picture"></a><span data-ttu-id="241fe-121">既定のコーポレート ピクチャ</span><span class="sxs-lookup"><span data-stu-id="241fe-121">Default corporate picture</span></span>
-
-<span data-ttu-id="241fe-122">[**既定の会社画像**] オプションを選択すると、Lync は Active Directory ドメインサービスから表示される写真を取得します。</span><span class="sxs-lookup"><span data-stu-id="241fe-122">When you choose the **Default corporate picture** option, Lync gets the photo displayed for you from Active Directory Domain Services.</span></span> <span data-ttu-id="241fe-123">使用されるイメージは、Active Directory ドメインサービスの**thumbnailPhoto**属性の値として定義されたイメージです。</span><span class="sxs-lookup"><span data-stu-id="241fe-123">The image used is the image defined as the value for the **thumbnailPhoto** attribute in Active Directory Domain Services.</span></span> <span data-ttu-id="241fe-124">これは、Exchange が Outlook で画像を表示するときに使用するファイルと同じです。</span><span class="sxs-lookup"><span data-stu-id="241fe-124">This is the same file that is used by Exchange to display images in Outlook.</span></span>
-
-<span data-ttu-id="241fe-125">Active Directory ドメインサービスからイメージを使用する場合の考慮事項は次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="241fe-125">Considerations for using images from Active Directory Domain Services include the following:</span></span>
-
-  - <span data-ttu-id="241fe-126">最大96ピクセル、96ピクセルの大きさの画像のみがサポートされます。</span><span class="sxs-lookup"><span data-stu-id="241fe-126">Only images with dimensions up to 96 pixels by 96 pixels are supported.</span></span> <span data-ttu-id="241fe-127">画像のファイルサイズは 100 KB に制限されています。</span><span class="sxs-lookup"><span data-stu-id="241fe-127">The file size for the image is limited to 100 KB.</span></span>
-
-  - <span data-ttu-id="241fe-128">既定では、ユーザーは**thumbnailPhoto**属性に使用されているイメージを変更できます。ただし、Lync クライアントを直接使用することはできません。</span><span class="sxs-lookup"><span data-stu-id="241fe-128">By default, users are able to change the image used for the **thumbnailPhoto** attribute, though not directly through Lync client.</span></span> <span data-ttu-id="241fe-129">Active Directory ドメインサービスを使用してこれを無効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="241fe-129">You can disable this through Active Directory Domain Services.</span></span>
-
-  - <span data-ttu-id="241fe-130">Active Directory ドメインサービスに保存された画像は、フェデレーションされた連絡先であっても、組織外の連絡先には表示されません。</span><span class="sxs-lookup"><span data-stu-id="241fe-130">Images stored in Active Directory Domain Services are not displayed to contacts external to your organization, even if they are federated contacts.</span></span>
-
-  - <span data-ttu-id="241fe-131">大規模な組織では、大量のユーザー用の画像を格納して取得することは、Active Directory ドメインサービスデータベースのサイズとパフォーマンスに影響することがあります。</span><span class="sxs-lookup"><span data-stu-id="241fe-131">In large organizations, storing and retrieving the images for large numbers of users may impact the Active Directory Domain Services database size and performance.</span></span>
-
-  - <span data-ttu-id="241fe-132">画像のサイズが制限され、ファイルのサイズが小さいため、低解像度の画像しか使用できません。</span><span class="sxs-lookup"><span data-stu-id="241fe-132">The limited image dimensions and file size mean that only low resolution images can be used.</span></span>
+<span data-ttu-id="6e081-120">Lync 2010 クライアントでは、次の2つのオプションのいずれかを選択して、プロファイルの写真を表示したり、**既定の企業画像**を表示したり、 **web アドレスから画像を表示**したりすることができます。</span><span class="sxs-lookup"><span data-stu-id="6e081-120">In the Lync 2010 client, you can choose from two options to display a photo for your profile, **Default corporate picture** and **Show picture from a web address**.</span></span>
 
 <div>
 
-## <a name="how-users-manage-their-user-photos-in-active-directory-domain-services"></a><span data-ttu-id="241fe-133">ユーザーが Active Directory ドメインサービスでユーザーの写真を管理する方法</span><span class="sxs-lookup"><span data-stu-id="241fe-133">How users manage their user photos in Active Directory Domain Services</span></span>
+## <a name="default-corporate-picture"></a><span data-ttu-id="6e081-121">既定のコーポレート ピクチャ</span><span class="sxs-lookup"><span data-stu-id="6e081-121">Default corporate picture</span></span>
 
-<span data-ttu-id="241fe-134">ユーザーは、Lync 2010 クライアントを使用して、Active Directory ドメインサービスプロファイルで使用されているイメージを直接変更することはできません。</span><span class="sxs-lookup"><span data-stu-id="241fe-134">User cannot change the image used in their Active Directory Domain Services profile directly through Lync 2010 client.</span></span> <span data-ttu-id="241fe-135">そのためには、次のいずれかのオプションを使用できます (使用可能な場合)。</span><span class="sxs-lookup"><span data-stu-id="241fe-135">They can use one of the following options to do so, if available:</span></span>
+<span data-ttu-id="6e081-122">[**既定の会社画像**] オプションを選択すると、Lync は Active Directory ドメインサービスから表示される写真を取得します。</span><span class="sxs-lookup"><span data-stu-id="6e081-122">When you choose the **Default corporate picture** option, Lync gets the photo displayed for you from Active Directory Domain Services.</span></span> <span data-ttu-id="6e081-123">使用されるイメージは、Active Directory ドメインサービスの**thumbnailPhoto**属性の値として定義されたイメージです。</span><span class="sxs-lookup"><span data-stu-id="6e081-123">The image used is the image defined as the value for the **thumbnailPhoto** attribute in Active Directory Domain Services.</span></span> <span data-ttu-id="6e081-124">これは、Exchange が Outlook で画像を表示するときに使用するファイルと同じです。</span><span class="sxs-lookup"><span data-stu-id="6e081-124">This is the same file that is used by Exchange to display images in Outlook.</span></span>
 
-  - <span data-ttu-id="241fe-136">**Sharepoint server**   ユーザーは、sharepoint サーバー上の ' 個人用サイト ' に写真をアップロードし、 [sharepoint でプロファイルの同期を構成](https://go.microsoft.com/fwlink/p/?linkid=507466)して、Active Directory ドメインサービスの**thumbnailPhoto**属性に写真を同期させることができます。</span><span class="sxs-lookup"><span data-stu-id="241fe-136">**SharePoint Server**   Users can upload a photo to ‘My Site’ on a SharePoint Server and then [configure profile synchronization in SharePoint](https://go.microsoft.com/fwlink/p/?linkid=507466) to synchronize the photo to the **thumbnailPhoto** attribute in Active Directory Domain Services.</span></span>
+<span data-ttu-id="6e081-125">Active Directory ドメインサービスからイメージを使用する場合の考慮事項は次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="6e081-125">Considerations for using images from Active Directory Domain Services include the following:</span></span>
 
-  - <span data-ttu-id="241fe-137">**パブリックにアクセス可能な url**   に保存されている写真ユーザーは、使用するイメージの公開にアクセス可能な url を指定して、ユーザーの写真を構成できます。</span><span class="sxs-lookup"><span data-stu-id="241fe-137">**Photo stored on publicly accessible URL**   Users can configure their user photo specifying a publicly accessible URL for the image that they want to use.</span></span> <span data-ttu-id="241fe-138">画像は、パスワードを使用せずに、一般にアクセス可能である必要があります。</span><span class="sxs-lookup"><span data-stu-id="241fe-138">The image must be publicly accessible without a password.</span></span> <span data-ttu-id="241fe-139">指定した web アドレスに格納されているイメージは、プレゼンス情報の連絡先カードカテゴリを通じて他のユーザーに転送されます。</span><span class="sxs-lookup"><span data-stu-id="241fe-139">The image stored at the specified web address is transferred to other users through the contact card category in the presence information.</span></span> <span data-ttu-id="241fe-140">Lync クライアントがユーザーの写真を表示する必要がある場合は、指定された web アドレスから画像を取得します。</span><span class="sxs-lookup"><span data-stu-id="241fe-140">When Lync client needs to display a user photo, it retrieves the image from the specified web address.</span></span>
+  - <span data-ttu-id="6e081-126">最大96ピクセル、96ピクセルの大きさの画像のみがサポートされます。</span><span class="sxs-lookup"><span data-stu-id="6e081-126">Only images with dimensions up to 96 pixels by 96 pixels are supported.</span></span> <span data-ttu-id="6e081-127">画像のファイルサイズは 100 KB に制限されています。</span><span class="sxs-lookup"><span data-stu-id="6e081-127">The file size for the image is limited to 100 KB.</span></span>
 
-  - <span data-ttu-id="241fe-141">**Windows PowerShell**   管理者の exchange 2010 コマンドレットでは、thumbnailPhoto 属性を管理するため[に、exchange](https://go.microsoft.com/fwlink/p/?linkid=507468) 2010 管理シェルで\*\*\*\* コマンドレットを実行できます。</span><span class="sxs-lookup"><span data-stu-id="241fe-141">**Exchange 2010 cmdlets for Windows PowerShell**   Administrators can run the [Import-RecipientDataProperty](https://go.microsoft.com/fwlink/p/?linkid=507468) cmdlet in the Exchange 2010 Management Shell in to manage the **thumbnailPhoto** attribute.</span></span> <span data-ttu-id="241fe-142">Exchange 2010 コマンドレットを使用して画像をインポートする場合、ファイルのサイズは 10 KB に制限されます。</span><span class="sxs-lookup"><span data-stu-id="241fe-142">When images are imported with Exchange 2010 cmdlets, the file size is limited to 10 KB.</span></span>
+  - <span data-ttu-id="6e081-128">既定では、ユーザーは**thumbnailPhoto**属性に使用されているイメージを変更できます。ただし、Lync クライアントを直接使用することはできません。</span><span class="sxs-lookup"><span data-stu-id="6e081-128">By default, users are able to change the image used for the **thumbnailPhoto** attribute, though not directly through Lync client.</span></span> <span data-ttu-id="6e081-129">Active Directory ドメインサービスを使用してこれを無効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="6e081-129">You can disable this through Active Directory Domain Services.</span></span>
 
-  - <span data-ttu-id="241fe-143">**サードパーティ製のツール**   ユーザーは自分の写真のみを**thumbnailPhoto**属性にアップロードできます。</span><span class="sxs-lookup"><span data-stu-id="241fe-143">**Third Party tools**   Users can upload only their own photo to for the **thumbnailPhoto** attribute.</span></span>
+  - <span data-ttu-id="6e081-130">Active Directory ドメインサービスに保存された画像は、フェデレーションされた連絡先であっても、組織外の連絡先には表示されません。</span><span class="sxs-lookup"><span data-stu-id="6e081-130">Images stored in Active Directory Domain Services are not displayed to contacts external to your organization, even if they are federated contacts.</span></span>
+
+  - <span data-ttu-id="6e081-131">大規模な組織では、大量のユーザー用の画像を格納して取得することは、Active Directory ドメインサービスデータベースのサイズとパフォーマンスに影響することがあります。</span><span class="sxs-lookup"><span data-stu-id="6e081-131">In large organizations, storing and retrieving the images for large numbers of users may impact the Active Directory Domain Services database size and performance.</span></span>
+
+  - <span data-ttu-id="6e081-132">画像のサイズが制限され、ファイルのサイズが小さいため、低解像度の画像しか使用できません。</span><span class="sxs-lookup"><span data-stu-id="6e081-132">The limited image dimensions and file size mean that only low resolution images can be used.</span></span>
+
+<div>
+
+## <a name="how-users-manage-their-user-photos-in-active-directory-domain-services"></a><span data-ttu-id="6e081-133">ユーザーが Active Directory ドメインサービスでユーザーの写真を管理する方法</span><span class="sxs-lookup"><span data-stu-id="6e081-133">How users manage their user photos in Active Directory Domain Services</span></span>
+
+<span data-ttu-id="6e081-134">ユーザーは、Lync 2010 クライアントを使用して、Active Directory ドメインサービスプロファイルで使用されているイメージを直接変更することはできません。</span><span class="sxs-lookup"><span data-stu-id="6e081-134">User cannot change the image used in their Active Directory Domain Services profile directly through Lync 2010 client.</span></span> <span data-ttu-id="6e081-135">そのためには、次のいずれかのオプションを使用できます (使用可能な場合)。</span><span class="sxs-lookup"><span data-stu-id="6e081-135">They can use one of the following options to do so, if available:</span></span>
+
+  - <span data-ttu-id="6e081-136">**Sharepoint server**   ユーザーは、sharepoint サーバー上の ' 個人用サイト ' に写真をアップロードし、 [sharepoint でプロファイルの同期を構成](https://go.microsoft.com/fwlink/p/?linkid=507466)して、Active Directory ドメインサービスの**thumbnailPhoto**属性に写真を同期させることができます。</span><span class="sxs-lookup"><span data-stu-id="6e081-136">**SharePoint Server**   Users can upload a photo to ‘My Site’ on a SharePoint Server and then [configure profile synchronization in SharePoint](https://go.microsoft.com/fwlink/p/?linkid=507466) to synchronize the photo to the **thumbnailPhoto** attribute in Active Directory Domain Services.</span></span>
+
+  - <span data-ttu-id="6e081-137">**パブリックにアクセス可能な url**   に保存されている写真ユーザーは、使用するイメージの公開にアクセス可能な url を指定して、ユーザーの写真を構成できます。</span><span class="sxs-lookup"><span data-stu-id="6e081-137">**Photo stored on publicly accessible URL**   Users can configure their user photo specifying a publicly accessible URL for the image that they want to use.</span></span> <span data-ttu-id="6e081-138">画像は、パスワードを使用せずに、一般にアクセス可能である必要があります。</span><span class="sxs-lookup"><span data-stu-id="6e081-138">The image must be publicly accessible without a password.</span></span> <span data-ttu-id="6e081-139">指定した web アドレスに格納されているイメージは、プレゼンス情報の連絡先カードカテゴリを通じて他のユーザーに転送されます。</span><span class="sxs-lookup"><span data-stu-id="6e081-139">The image stored at the specified web address is transferred to other users through the contact card category in the presence information.</span></span> <span data-ttu-id="6e081-140">Lync クライアントがユーザーの写真を表示する必要がある場合は、指定された web アドレスから画像を取得します。</span><span class="sxs-lookup"><span data-stu-id="6e081-140">When Lync client needs to display a user photo, it retrieves the image from the specified web address.</span></span>
+
+  - <span data-ttu-id="6e081-141">**Windows PowerShell**   管理者の exchange 2010 コマンドレットでは、thumbnailPhoto 属性を管理するため[に、exchange](https://go.microsoft.com/fwlink/p/?linkid=507468) 2010 管理シェルで\*\*\*\* コマンドレットを実行できます。</span><span class="sxs-lookup"><span data-stu-id="6e081-141">**Exchange 2010 cmdlets for Windows PowerShell**   Administrators can run the [Import-RecipientDataProperty](https://go.microsoft.com/fwlink/p/?linkid=507468) cmdlet in the Exchange 2010 Management Shell in to manage the **thumbnailPhoto** attribute.</span></span> <span data-ttu-id="6e081-142">Exchange 2010 コマンドレットを使用して画像をインポートする場合、ファイルのサイズは 10 KB に制限されます。</span><span class="sxs-lookup"><span data-stu-id="6e081-142">When images are imported with Exchange 2010 cmdlets, the file size is limited to 10 KB.</span></span>
+
+  - <span data-ttu-id="6e081-143">**サードパーティ製のツール**   ユーザーは自分の写真のみを**thumbnailPhoto**属性にアップロードできます。</span><span class="sxs-lookup"><span data-stu-id="6e081-143">**Third Party tools**   Users can upload only their own photo to for the **thumbnailPhoto** attribute.</span></span>
 
 </div>
 
@@ -107,25 +107,25 @@ ms.locfileid: "42137918"
 
 <div>
 
-## <a name="show-a-picture-from-a-web-address"></a><span data-ttu-id="241fe-144">Web アドレスからピクチャを表示する</span><span class="sxs-lookup"><span data-stu-id="241fe-144">Show a picture from a web address</span></span>
+## <a name="show-a-picture-from-a-web-address"></a><span data-ttu-id="6e081-144">Web アドレスからピクチャを表示する</span><span class="sxs-lookup"><span data-stu-id="6e081-144">Show a picture from a web address</span></span>
 
-<span data-ttu-id="241fe-145">[ **Web アドレスから画像を表示**する] オプションを選択すると、入力したアドレスで画像が取得され、lync でユーザーの写真が表示されます。</span><span class="sxs-lookup"><span data-stu-id="241fe-145">When you choose the **Show a picture from a web address** option, Lync gets the image at the address you enter and displays it for your user photo in Lync.</span></span>
+<span data-ttu-id="6e081-145">[ **Web アドレスから画像を表示**する] オプションを選択すると、入力したアドレスで画像が取得され、lync でユーザーの写真が表示されます。</span><span class="sxs-lookup"><span data-stu-id="6e081-145">When you choose the **Show a picture from a web address** option, Lync gets the image at the address you enter and displays it for your user photo in Lync.</span></span>
 
-<span data-ttu-id="241fe-146">Web アドレスから画像を使用する場合の考慮事項は次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="241fe-146">Considerations for using images from a web address include the following:</span></span>
+<span data-ttu-id="6e081-146">Web アドレスから画像を使用する場合の考慮事項は次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="6e081-146">Considerations for using images from a web address include the following:</span></span>
 
-  - <span data-ttu-id="241fe-147">ファイルサイズの制限は、[新しい-CsClientPolicy](https://go.microsoft.com/fwlink/p/?linkid=507463)コマンドレットで定義された、クライアントポリシーの**Maxphotosizekb**属性によって決定されます。</span><span class="sxs-lookup"><span data-stu-id="241fe-147">File size limits are determined by the **MaxPhotoSizeKB** attribute in the client policy, defined with the [New-CsClientPolicy](https://go.microsoft.com/fwlink/p/?linkid=507463) cmdlet.</span></span> <span data-ttu-id="241fe-148">既定のサイズ制限は 30 KB です。</span><span class="sxs-lookup"><span data-stu-id="241fe-148">The default size limit is 30 KB.</span></span> <span data-ttu-id="241fe-149">最大値は 100 KB です。</span><span class="sxs-lookup"><span data-stu-id="241fe-149">The maximum value is 100 KB.</span></span> <span data-ttu-id="241fe-150">画像の解像度に制限はありませんが、サイズ制限を超える画像ファイルを使用しようとすると、Lync クライアントにダウンロードされません。</span><span class="sxs-lookup"><span data-stu-id="241fe-150">There is no restriction on the resolution of the image, but if you try to use an image file that exceeds the size limit it will not be downloaded to Lync clients.</span></span> <span data-ttu-id="241fe-151">この値を0に設定すると、Lync でのすべてのユーザーの写真の使用を無効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="241fe-151">You can set the value to 0 to disable all user photos from being used in Lync.</span></span>
+  - <span data-ttu-id="6e081-147">ファイルサイズの制限は、[新しい-CsClientPolicy](https://go.microsoft.com/fwlink/p/?linkid=507463)コマンドレットで定義された、クライアントポリシーの**Maxphotosizekb**属性によって決定されます。</span><span class="sxs-lookup"><span data-stu-id="6e081-147">File size limits are determined by the **MaxPhotoSizeKB** attribute in the client policy, defined with the [New-CsClientPolicy](https://go.microsoft.com/fwlink/p/?linkid=507463) cmdlet.</span></span> <span data-ttu-id="6e081-148">既定のサイズ制限は 30 KB です。</span><span class="sxs-lookup"><span data-stu-id="6e081-148">The default size limit is 30 KB.</span></span> <span data-ttu-id="6e081-149">最大値は 100 KB です。</span><span class="sxs-lookup"><span data-stu-id="6e081-149">The maximum value is 100 KB.</span></span> <span data-ttu-id="6e081-150">画像の解像度に制限はありませんが、サイズ制限を超える画像ファイルを使用しようとすると、Lync クライアントにダウンロードされません。</span><span class="sxs-lookup"><span data-stu-id="6e081-150">There is no restriction on the resolution of the image, but if you try to use an image file that exceeds the size limit it will not be downloaded to Lync clients.</span></span> <span data-ttu-id="6e081-151">この値を0に設定すると、Lync でのすべてのユーザーの写真の使用を無効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="6e081-151">You can set the value to 0 to disable all user photos from being used in Lync.</span></span>
 
-  - <span data-ttu-id="241fe-152">Web アドレスからのユーザーの写真は、外部フェデレーションの連絡先に表示されます。</span><span class="sxs-lookup"><span data-stu-id="241fe-152">User photos from a web address can be seen by external federated contacts.</span></span>
+  - <span data-ttu-id="6e081-152">Web アドレスからのユーザーの写真は、外部フェデレーションの連絡先に表示されます。</span><span class="sxs-lookup"><span data-stu-id="6e081-152">User photos from a web address can be seen by external federated contacts.</span></span>
 
 </div>
 
 <div>
 
-## <a name="managing-users-photo-with-client-policy-cmdlets"></a><span data-ttu-id="241fe-153">クライアントポリシーコマンドレットを使用してユーザーの写真を管理する</span><span class="sxs-lookup"><span data-stu-id="241fe-153">Managing user’s photo with Client Policy cmdlets</span></span>
+## <a name="managing-users-photo-with-client-policy-cmdlets"></a><span data-ttu-id="6e081-153">クライアントポリシーコマンドレットを使用してユーザーの写真を管理する</span><span class="sxs-lookup"><span data-stu-id="6e081-153">Managing user’s photo with Client Policy cmdlets</span></span>
 
-<span data-ttu-id="241fe-154">Lync Server 2010 では、クライアントポリシー設定が CsClientPolicy コマンドレットを使用して構成されます。</span><span class="sxs-lookup"><span data-stu-id="241fe-154">In Lync Server 2010, client policy settings are configured with the CsClientPolicy cmdlets.</span></span> <span data-ttu-id="241fe-155">構成済みのポリシー設定は、インバンドプロビジョニングを通じてクライアントに送信されます。</span><span class="sxs-lookup"><span data-stu-id="241fe-155">The configured policy settings are sent to clients through in-band provisioning.</span></span> <span data-ttu-id="241fe-156">ユーザーの写真の表示を決定する CsClientPolicy コマンドレットの2つのパラメーターは、 **DisplayPhoto**と**Maxphotosizekb**です。</span><span class="sxs-lookup"><span data-stu-id="241fe-156">The two parameters of the CsClientPolicy cmdlets that determine the user photo experience are **DisplayPhoto** and **MaxPhotoSizeKB**.</span></span> <span data-ttu-id="241fe-157">**DisplayPhoto**の対応するインバンドプロビジョニングパラメーターと**Maxphotosizekb**は、 **PhotoUsage**という名前です。</span><span class="sxs-lookup"><span data-stu-id="241fe-157">The corresponding in-band provisioning parameter for **DisplayPhoto** and **MaxPhotoSizeKB** is named **PhotoUsage**.</span></span> <span data-ttu-id="241fe-158">**PhotoUsage**パラメーターの値は、 **endpointConfiguration** **provisionGroup**を使用してクライアントに送信されます。</span><span class="sxs-lookup"><span data-stu-id="241fe-158">Values for the **PhotoUsage** parameter are send to clients through the **endpointConfiguration** **provisionGroup**.</span></span> <span data-ttu-id="241fe-159">詳細については[、「クライアントポリシーと設定の概要](https://go.microsoft.com/fwlink/?linkid=507470)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="241fe-159">See [Overview of Client Policies and Settings](https://go.microsoft.com/fwlink/?linkid=507470) for more information.</span></span>
+<span data-ttu-id="6e081-154">Lync Server 2010 では、クライアントポリシー設定が CsClientPolicy コマンドレットを使用して構成されます。</span><span class="sxs-lookup"><span data-stu-id="6e081-154">In Lync Server 2010, client policy settings are configured with the CsClientPolicy cmdlets.</span></span> <span data-ttu-id="6e081-155">構成済みのポリシー設定は、インバンドプロビジョニングを通じてクライアントに送信されます。</span><span class="sxs-lookup"><span data-stu-id="6e081-155">The configured policy settings are sent to clients through in-band provisioning.</span></span> <span data-ttu-id="6e081-156">ユーザーの写真の表示を決定する CsClientPolicy コマンドレットの2つのパラメーターは、 **DisplayPhoto**と**Maxphotosizekb**です。</span><span class="sxs-lookup"><span data-stu-id="6e081-156">The two parameters of the CsClientPolicy cmdlets that determine the user photo experience are **DisplayPhoto** and **MaxPhotoSizeKB**.</span></span> <span data-ttu-id="6e081-157">**DisplayPhoto**の対応するインバンドプロビジョニングパラメーターと**Maxphotosizekb**は、 **PhotoUsage**という名前です。</span><span class="sxs-lookup"><span data-stu-id="6e081-157">The corresponding in-band provisioning parameter for **DisplayPhoto** and **MaxPhotoSizeKB** is named **PhotoUsage**.</span></span> <span data-ttu-id="6e081-158">**PhotoUsage**パラメーターの値は、 **endpointConfiguration** **provisionGroup**を使用してクライアントに送信されます。</span><span class="sxs-lookup"><span data-stu-id="6e081-158">Values for the **PhotoUsage** parameter are send to clients through the **endpointConfiguration** **provisionGroup**.</span></span> <span data-ttu-id="6e081-159">詳細については[、「クライアントポリシーと設定の概要](https://go.microsoft.com/fwlink/?linkid=507470)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="6e081-159">See [Overview of Client Policies and Settings](https://go.microsoft.com/fwlink/?linkid=507470) for more information.</span></span>
 
-<span data-ttu-id="241fe-160">**DisplayPhoto**パラメーターの値は、ユーザーの写真の画像のソースを決定します。</span><span class="sxs-lookup"><span data-stu-id="241fe-160">The **DisplayPhoto** parameter value determines the source of the user's photo image.</span></span> <span data-ttu-id="241fe-161">次の表に、サポートされている値を示します。</span><span class="sxs-lookup"><span data-stu-id="241fe-161">The supported values are included in the following table.</span></span>
+<span data-ttu-id="6e081-160">**DisplayPhoto**パラメーターの値は、ユーザーの写真の画像のソースを決定します。</span><span class="sxs-lookup"><span data-stu-id="6e081-160">The **DisplayPhoto** parameter value determines the source of the user's photo image.</span></span> <span data-ttu-id="6e081-161">次の表に、サポートされている値を示します。</span><span class="sxs-lookup"><span data-stu-id="6e081-161">The supported values are included in the following table.</span></span>
 
 
 <table>
@@ -136,26 +136,26 @@ ms.locfileid: "42137918"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="241fe-162">DisplayPhoto パラメーターの値</span><span class="sxs-lookup"><span data-stu-id="241fe-162">DisplayPhoto parameter value</span></span></th>
-<th><span data-ttu-id="241fe-163">画像ソース</span><span class="sxs-lookup"><span data-stu-id="241fe-163">Image source</span></span></th>
-<th><span data-ttu-id="241fe-164">Lync 2010 クライアントの設定</span><span class="sxs-lookup"><span data-stu-id="241fe-164">Lync 2010 client settings</span></span></th>
+<th><span data-ttu-id="6e081-162">DisplayPhoto パラメーターの値</span><span class="sxs-lookup"><span data-stu-id="6e081-162">DisplayPhoto parameter value</span></span></th>
+<th><span data-ttu-id="6e081-163">画像ソース</span><span class="sxs-lookup"><span data-stu-id="6e081-163">Image source</span></span></th>
+<th><span data-ttu-id="6e081-164">Lync 2010 クライアントの設定</span><span class="sxs-lookup"><span data-stu-id="6e081-164">Lync 2010 client settings</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="241fe-165">NoPhoto</span><span class="sxs-lookup"><span data-stu-id="241fe-165">NoPhoto</span></span></p></td>
-<td><p><span data-ttu-id="241fe-166">none</span><span class="sxs-lookup"><span data-stu-id="241fe-166">none</span></span></p></td>
-<td><p><span data-ttu-id="241fe-167"><strong>マイ ピクチャを表示しない</strong></span><span class="sxs-lookup"><span data-stu-id="241fe-167"><strong>Do not show my picture</strong></span></span></p></td>
+<td><p><span data-ttu-id="6e081-165">NoPhoto</span><span class="sxs-lookup"><span data-stu-id="6e081-165">NoPhoto</span></span></p></td>
+<td><p><span data-ttu-id="6e081-166">none</span><span class="sxs-lookup"><span data-stu-id="6e081-166">none</span></span></p></td>
+<td><p><span data-ttu-id="6e081-167"><strong>マイ ピクチャを表示しない</strong></span><span class="sxs-lookup"><span data-stu-id="6e081-167"><strong>Do not show my picture</strong></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="241fe-168">PhotoFromADOnly</span><span class="sxs-lookup"><span data-stu-id="241fe-168">PhotoFromADOnly</span></span></p></td>
-<td><p><span data-ttu-id="241fe-169">Active Directory</span><span class="sxs-lookup"><span data-stu-id="241fe-169">Active Directory</span></span></p></td>
-<td><p><span data-ttu-id="241fe-170"><strong>既定のコーポレート ピクチャ</strong></span><span class="sxs-lookup"><span data-stu-id="241fe-170"><strong>Default corporate picture</strong></span></span></p></td>
+<td><p><span data-ttu-id="6e081-168">PhotoFromADOnly</span><span class="sxs-lookup"><span data-stu-id="6e081-168">PhotoFromADOnly</span></span></p></td>
+<td><p><span data-ttu-id="6e081-169">Active Directory</span><span class="sxs-lookup"><span data-stu-id="6e081-169">Active Directory</span></span></p></td>
+<td><p><span data-ttu-id="6e081-170"><strong>既定のコーポレート ピクチャ</strong></span><span class="sxs-lookup"><span data-stu-id="6e081-170"><strong>Default corporate picture</strong></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="241fe-171">AllPhotos</span><span class="sxs-lookup"><span data-stu-id="241fe-171">AllPhotos</span></span></p></td>
-<td><p><span data-ttu-id="241fe-172">Web アドレス</span><span class="sxs-lookup"><span data-stu-id="241fe-172">Web address</span></span></p></td>
-<td><p><span data-ttu-id="241fe-173"><strong>Web アドレスからピクチャを表示する</strong></span><span class="sxs-lookup"><span data-stu-id="241fe-173"><strong>Show a picture from a web address</strong></span></span></p></td>
+<td><p><span data-ttu-id="6e081-171">AllPhotos</span><span class="sxs-lookup"><span data-stu-id="6e081-171">AllPhotos</span></span></p></td>
+<td><p><span data-ttu-id="6e081-172">Web アドレス</span><span class="sxs-lookup"><span data-stu-id="6e081-172">Web address</span></span></p></td>
+<td><p><span data-ttu-id="6e081-173"><strong>Web アドレスからピクチャを表示する</strong></span><span class="sxs-lookup"><span data-stu-id="6e081-173"><strong>Show a picture from a web address</strong></span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -165,37 +165,37 @@ ms.locfileid: "42137918"
 
 <div>
 
-## <a name="how-lync-2010-client-gets-photos"></a><span data-ttu-id="241fe-174">Lync 2010 クライアントが写真を取得する方法</span><span class="sxs-lookup"><span data-stu-id="241fe-174">How Lync 2010 client gets photos</span></span>
+## <a name="how-lync-2010-client-gets-photos"></a><span data-ttu-id="6e081-174">Lync 2010 クライアントが写真を取得する方法</span><span class="sxs-lookup"><span data-stu-id="6e081-174">How Lync 2010 client gets photos</span></span>
 
-<span data-ttu-id="241fe-175">Lync 2010 では、ユーザーの写真はアドレス帳サービスによってサーバー上で管理されます。</span><span class="sxs-lookup"><span data-stu-id="241fe-175">In Lync 2010, user photos are managed on the server by the Address Book Service.</span></span> <span data-ttu-id="241fe-176">Lync クライアントは、最初にサーバーのアドレス帳 Web クエリ (ABWQ) サービスを照会することによってユーザーの写真を取得します。これは、配布リスト展開 web サービスを通じて公開されます。</span><span class="sxs-lookup"><span data-stu-id="241fe-176">Lync client gets user photos by first querying the Address Book Web Query (ABWQ) service on the server, which is exposed through the Distribution List Expansion web service.</span></span> <span data-ttu-id="241fe-177">クライアントはイメージファイルを受信し、ユーザーのキャッシュにコピーして、表示が必要になるたびにイメージをダウンロードしないようにします。</span><span class="sxs-lookup"><span data-stu-id="241fe-177">The client receives the image file and then copies it to the user's cache to avoid downloading the image each time it needs to be displayed.</span></span> <span data-ttu-id="241fe-178">クエリから返される属性値も、ユーザーのキャッシュされたアドレス帳サービスエントリに格納されます。</span><span class="sxs-lookup"><span data-stu-id="241fe-178">The attribute values returned from the query are also stored in the cached Address Book Service entry for the user.</span></span> <span data-ttu-id="241fe-179">アドレス帳サービスは、すべてのキャッシュされたイメージを24時間ごとに削除します。つまり、サーバー上のキャッシュで新しいユーザーイメージが更新されるまでに最大24時間かかる可能性があります。</span><span class="sxs-lookup"><span data-stu-id="241fe-179">The Address Book Service deletes all cached images every 24 hours, which means that it can take up to 24 hours for new user images to be updated in the cache on the server.</span></span> <span data-ttu-id="241fe-180">[Update-csaddressbook](https://docs.microsoft.com/powershell/module/skype/Update-CsAddressBook)コマンドレットを使用して、キャッシュに強制的に更新することができます。</span><span class="sxs-lookup"><span data-stu-id="241fe-180">You can force an update to the cache by using the [Update-CsAddressBook](https://docs.microsoft.com/powershell/module/skype/Update-CsAddressBook) cmdlet.</span></span>
+<span data-ttu-id="6e081-175">Lync 2010 では、ユーザーの写真はアドレス帳サービスによってサーバー上で管理されます。</span><span class="sxs-lookup"><span data-stu-id="6e081-175">In Lync 2010, user photos are managed on the server by the Address Book Service.</span></span> <span data-ttu-id="6e081-176">Lync クライアントは、最初にサーバーのアドレス帳 Web クエリ (ABWQ) サービスを照会することによってユーザーの写真を取得します。これは、配布リスト展開 web サービスを通じて公開されます。</span><span class="sxs-lookup"><span data-stu-id="6e081-176">Lync client gets user photos by first querying the Address Book Web Query (ABWQ) service on the server, which is exposed through the Distribution List Expansion web service.</span></span> <span data-ttu-id="6e081-177">クライアントはイメージファイルを受信し、ユーザーのキャッシュにコピーして、表示が必要になるたびにイメージをダウンロードしないようにします。</span><span class="sxs-lookup"><span data-stu-id="6e081-177">The client receives the image file and then copies it to the user's cache to avoid downloading the image each time it needs to be displayed.</span></span> <span data-ttu-id="6e081-178">クエリから返される属性値も、ユーザーのキャッシュされたアドレス帳サービスエントリに格納されます。</span><span class="sxs-lookup"><span data-stu-id="6e081-178">The attribute values returned from the query are also stored in the cached Address Book Service entry for the user.</span></span> <span data-ttu-id="6e081-179">アドレス帳サービスは、すべてのキャッシュされたイメージを24時間ごとに削除します。つまり、サーバー上のキャッシュで新しいユーザーイメージが更新されるまでに最大24時間かかる可能性があります。</span><span class="sxs-lookup"><span data-stu-id="6e081-179">The Address Book Service deletes all cached images every 24 hours, which means that it can take up to 24 hours for new user images to be updated in the cache on the server.</span></span> <span data-ttu-id="6e081-180">[Update-csaddressbook](https://docs.microsoft.com/powershell/module/skype/Update-CsAddressBook)コマンドレットを使用して、キャッシュに強制的に更新することができます。</span><span class="sxs-lookup"><span data-stu-id="6e081-180">You can force an update to the cache by using the [Update-CsAddressBook](https://docs.microsoft.com/powershell/module/skype/Update-CsAddressBook) cmdlet.</span></span>
 
-<span data-ttu-id="241fe-181">プレゼンス状態に含まれているユーザーの写真にも、Lync クライアントが使用できる新しい画像があるかどうかを判断するために使用するハッシュ値が関連付けられています。</span><span class="sxs-lookup"><span data-stu-id="241fe-181">User photos included in Presence status also have an associated hash value that Lync client uses to determine whether there is a newer image available.</span></span> <span data-ttu-id="241fe-182">プレゼンス状態で使用されるイメージファイルへの変更は、クライアントに自動的に通知されます。</span><span class="sxs-lookup"><span data-stu-id="241fe-182">The client is automatically notified of changes to the image file used in Presence status.</span></span>
+<span data-ttu-id="6e081-181">プレゼンス状態に含まれているユーザーの写真にも、Lync クライアントが使用できる新しい画像があるかどうかを判断するために使用するハッシュ値が関連付けられています。</span><span class="sxs-lookup"><span data-stu-id="6e081-181">User photos included in Presence status also have an associated hash value that Lync client uses to determine whether there is a newer image available.</span></span> <span data-ttu-id="6e081-182">プレゼンス状態で使用されるイメージファイルへの変更は、クライアントに自動的に通知されます。</span><span class="sxs-lookup"><span data-stu-id="6e081-182">The client is automatically notified of changes to the image file used in Presence status.</span></span>
 
 <div class=" ">
 
 
 > [!NOTE]  
-> <span data-ttu-id="241fe-183">GalContacts データベースには写真が格納されていないため、ユーザーの写真をダウンロードすることは、クライアントポリシーの<STRONG>Addressbookavailability</STRONG>設定 (<A href="https://go.microsoft.com/fwlink/p/?linkid=507508">Set-csclientpolicy</A>) に依存しません。</span><span class="sxs-lookup"><span data-stu-id="241fe-183">Because photos are not stored in the GalContacts.db database, downloading user photos is not dependent on the <STRONG>AddressBookAvailability</STRONG> setting in the client policy (<A href="https://go.microsoft.com/fwlink/p/?linkid=507508">Set-CsClientPolicy</A>).</span></span>
+> <span data-ttu-id="6e081-183">GalContacts データベースには写真が格納されていないため、ユーザーの写真をダウンロードすることは、クライアントポリシーの<STRONG>Addressbookavailability</STRONG>設定 (<A href="https://go.microsoft.com/fwlink/p/?linkid=507508">Set-csclientpolicy</A>) に依存しません。</span><span class="sxs-lookup"><span data-stu-id="6e081-183">Because photos are not stored in the GalContacts.db database, downloading user photos is not dependent on the <STRONG>AddressBookAvailability</STRONG> setting in the client policy (<A href="https://go.microsoft.com/fwlink/p/?linkid=507508">Set-CsClientPolicy</A>).</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="241fe-184">ABWQ サービスへのクエリには、次の属性が含まれています。</span><span class="sxs-lookup"><span data-stu-id="241fe-184">The query to the ABWQ service includes the following attributes:</span></span>
+<span data-ttu-id="6e081-184">ABWQ サービスへのクエリには、次の属性が含まれています。</span><span class="sxs-lookup"><span data-stu-id="6e081-184">The query to the ABWQ service includes the following attributes:</span></span>
 
-  - <span data-ttu-id="241fe-185">**Photohash**   はバイナリ写真データのハッシュ値を、現在の写真が変更されたかどうかを判断するために使用されます。</span><span class="sxs-lookup"><span data-stu-id="241fe-185">**PhotoHash**   The hash value of the binary photo data, and is used to determine whether the current photo has changed.</span></span>
+  - <span data-ttu-id="6e081-185">**Photohash**   はバイナリ写真データのハッシュ値を、現在の写真が変更されたかどうかを判断するために使用されます。</span><span class="sxs-lookup"><span data-stu-id="6e081-185">**PhotoHash**   The hash value of the binary photo data, and is used to determine whether the current photo has changed.</span></span>
 
-  - <span data-ttu-id="241fe-186">**PhotoRelPath**   サーバーに格納されているイメージファイルへの相対パスを示します。</span><span class="sxs-lookup"><span data-stu-id="241fe-186">**PhotoRelPath**   The relative path to the image file stored on the server.</span></span>
+  - <span data-ttu-id="6e081-186">**PhotoRelPath**   サーバーに格納されているイメージファイルへの相対パスを示します。</span><span class="sxs-lookup"><span data-stu-id="6e081-186">**PhotoRelPath**   The relative path to the image file stored on the server.</span></span>
 
-  - <span data-ttu-id="241fe-187">**Photosize**   イメージファイルのサイズ (バイト単位)。</span><span class="sxs-lookup"><span data-stu-id="241fe-187">**PhotoSize**   The size of the image file, in bytes.</span></span>
+  - <span data-ttu-id="6e081-187">**Photosize**   イメージファイルのサイズ (バイト単位)。</span><span class="sxs-lookup"><span data-stu-id="6e081-187">**PhotoSize**   The size of the image file, in bytes.</span></span>
 
-  - <span data-ttu-id="241fe-188">**[タイムスタンプ**   ] サーバーからイメージファイルが最後にダウンロードされ、クライアントキャッシュにコピーされた日付と時刻です。</span><span class="sxs-lookup"><span data-stu-id="241fe-188">**TimeStamp**   The date and time at which the image file was last downloaded from the server and copied to the client cache.</span></span>
+  - <span data-ttu-id="6e081-188">**[タイムスタンプ**   ] サーバーからイメージファイルが最後にダウンロードされ、クライアントキャッシュにコピーされた日付と時刻です。</span><span class="sxs-lookup"><span data-stu-id="6e081-188">**TimeStamp**   The date and time at which the image file was last downloaded from the server and copied to the client cache.</span></span>
 
-<span data-ttu-id="241fe-189">次に、Lync 2010 クライアントは、イメージファイルを取得した後、クエリから返された属性値と、インバンドプロビジョニングからクライアントが受信した属性値を比較して、それらが異なるかどうかを確認します。</span><span class="sxs-lookup"><span data-stu-id="241fe-189">Next, after retrieving the image file, Lync 2010 client compares the attribute values returned from the query against the attribute values received by the client from in-band provisioning to see if they are different.</span></span> <span data-ttu-id="241fe-190">値が異なる場合、クライアントは、HTTP GET 要求を使用して、サインインしているユーザーのイメージファイルを取得します。</span><span class="sxs-lookup"><span data-stu-id="241fe-190">If the values are different, the client retrieves the image file of the signed-in user with an HTTP GET request.</span></span>
+<span data-ttu-id="6e081-189">次に、Lync 2010 クライアントは、イメージファイルを取得した後、クエリから返された属性値と、インバンドプロビジョニングからクライアントが受信した属性値を比較して、それらが異なるかどうかを確認します。</span><span class="sxs-lookup"><span data-stu-id="6e081-189">Next, after retrieving the image file, Lync 2010 client compares the attribute values returned from the query against the attribute values received by the client from in-band provisioning to see if they are different.</span></span> <span data-ttu-id="6e081-190">値が異なる場合、クライアントは、HTTP GET 要求を使用して、サインインしているユーザーのイメージファイルを取得します。</span><span class="sxs-lookup"><span data-stu-id="6e081-190">If the values are different, the client retrieves the image file of the signed-in user with an HTTP GET request.</span></span>
 
-<span data-ttu-id="241fe-191">また、クライアントは、キャッシュされたバージョンのイメージファイルが作成された時点から、サーバーに対して24時間ごとにサーバーをチェックして、サーバー上の**Photohash**属性の値とクライアント上の値を比較します。</span><span class="sxs-lookup"><span data-stu-id="241fe-191">Additionally, the client checks with the server every 24 hours from the time at which the cached version of the image file was created to compare the value of the **PhotoHash** attribute on the server with the value on the client.</span></span> <span data-ttu-id="241fe-192">値が異なる場合、クライアントはイメージファイルが変更されたことを認識します。</span><span class="sxs-lookup"><span data-stu-id="241fe-192">If the values are different, the client knows that the image file has changed.</span></span> <span data-ttu-id="241fe-193">更新されたイメージファイルを取得するために、クライアントは再び ABWQ サービスに対してクエリを実行し、サーバー上のイメージファイルでクライアントキャッシュ内のイメージファイルを更新します。これにより、クライアントキャッシュ内のファイルの**タイムスタンプ**もリセットされます。</span><span class="sxs-lookup"><span data-stu-id="241fe-193">To obtain the updated image file, the client again queries the ABWQ service to update the image file in the client cache with the image file on the server, which also resets the **TimeStamp** on the file in the client cache.</span></span>
+<span data-ttu-id="6e081-191">また、クライアントは、キャッシュされたバージョンのイメージファイルが作成された時点から、サーバーに対して24時間ごとにサーバーをチェックして、サーバー上の**Photohash**属性の値とクライアント上の値を比較します。</span><span class="sxs-lookup"><span data-stu-id="6e081-191">Additionally, the client checks with the server every 24 hours from the time at which the cached version of the image file was created to compare the value of the **PhotoHash** attribute on the server with the value on the client.</span></span> <span data-ttu-id="6e081-192">値が異なる場合、クライアントはイメージファイルが変更されたことを認識します。</span><span class="sxs-lookup"><span data-stu-id="6e081-192">If the values are different, the client knows that the image file has changed.</span></span> <span data-ttu-id="6e081-193">更新されたイメージファイルを取得するために、クライアントは再び ABWQ サービスに対してクエリを実行し、サーバー上のイメージファイルでクライアントキャッシュ内のイメージファイルを更新します。これにより、クライアントキャッシュ内のファイルの**タイムスタンプ**もリセットされます。</span><span class="sxs-lookup"><span data-stu-id="6e081-193">To obtain the updated image file, the client again queries the ABWQ service to update the image file in the client cache with the image file on the server, which also resets the **TimeStamp** on the file in the client cache.</span></span>
 
-<span data-ttu-id="241fe-194">以下に、ABWQ サービスへのクエリに対する応答の例を示します。</span><span class="sxs-lookup"><span data-stu-id="241fe-194">The following is an example response to a query to the ABWQ service:</span></span>
+<span data-ttu-id="6e081-194">以下に、ABWQ サービスへのクエリに対する応答の例を示します。</span><span class="sxs-lookup"><span data-stu-id="6e081-194">The following is an example response to a query to the ABWQ service:</span></span>
 ```xml
     <Attribute>
               <Name>PhotoRelPath</Name>
@@ -222,35 +222,35 @@ ms.locfileid: "42137918"
 
 <div>
 
-## <a name="user-photos-in-lync-2013"></a><span data-ttu-id="241fe-195">Lync 2013 のユーザーの写真</span><span class="sxs-lookup"><span data-stu-id="241fe-195">User photos in Lync 2013</span></span>
+## <a name="user-photos-in-lync-2013"></a><span data-ttu-id="6e081-195">Lync 2013 のユーザーの写真</span><span class="sxs-lookup"><span data-stu-id="6e081-195">User photos in Lync 2013</span></span>
 
-<span data-ttu-id="241fe-196">Lync 2013 には、ユーザー写真の高解像度画像のサポートが導入されました。</span><span class="sxs-lookup"><span data-stu-id="241fe-196">Lync 2013 introduced support for high-resolution images for user photos.</span></span> <span data-ttu-id="241fe-197">Lync 2013 には、ユーザーの写真を Exchange 2013 上のユーザーのメールボックスに保存することもサポートされています。これにより、Lync 2010 に存在する画像の解像度とサイズの制限がなくなります。</span><span class="sxs-lookup"><span data-stu-id="241fe-197">Lync 2013 also includes support for storing user photos in the user's mailbox on Exchange 2013, which removes the image resolution and size limitations present in Lync 2010.</span></span> <span data-ttu-id="241fe-198">Lync 2013 のユーザーの写真は最大で648ピクセルで、最大 20 MB のファイルサイズを持つ、648ピクセルにすることができます。</span><span class="sxs-lookup"><span data-stu-id="241fe-198">User photos in Lync 2013 can be up to 648 pixels by 648 pixels with a file size of up to 20 MB.</span></span> <span data-ttu-id="241fe-199">Lync 2013 の高解像度写真は、Exchange 2013 上のユーザーのメールボックスにある必要があり、Lync 2013 クライアントでのみサポートされています。</span><span class="sxs-lookup"><span data-stu-id="241fe-199">High-resolution photos in Lync 2013 must be located in the user's mailbox on Exchange 2013, and are supported only with Lync 2013 client.</span></span> <span data-ttu-id="241fe-200">この統合 Exchange との統合により、Lync、Exchange、および SharePoint の2013バージョンに含まれる、Oauth という新しい認証フレームワークが利用されます。</span><span class="sxs-lookup"><span data-stu-id="241fe-200">This integration with Exchange takes advantage of the new authorization framework included in the 2013 versions of Lync, Exchange, and SharePoint called Oauth.</span></span>
+<span data-ttu-id="6e081-196">Lync 2013 には、ユーザー写真の高解像度画像のサポートが導入されました。</span><span class="sxs-lookup"><span data-stu-id="6e081-196">Lync 2013 introduced support for high-resolution images for user photos.</span></span> <span data-ttu-id="6e081-197">Lync 2013 には、ユーザーの写真を Exchange 2013 上のユーザーのメールボックスに保存することもサポートされています。これにより、Lync 2010 に存在する画像の解像度とサイズの制限がなくなります。</span><span class="sxs-lookup"><span data-stu-id="6e081-197">Lync 2013 also includes support for storing user photos in the user's mailbox on Exchange 2013, which removes the image resolution and size limitations present in Lync 2010.</span></span> <span data-ttu-id="6e081-198">Lync 2013 のユーザーの写真は最大で648ピクセルで、最大 20 MB のファイルサイズを持つ、648ピクセルにすることができます。</span><span class="sxs-lookup"><span data-stu-id="6e081-198">User photos in Lync 2013 can be up to 648 pixels by 648 pixels with a file size of up to 20 MB.</span></span> <span data-ttu-id="6e081-199">Lync 2013 の高解像度写真は、Exchange 2013 上のユーザーのメールボックスにある必要があり、Lync 2013 クライアントでのみサポートされています。</span><span class="sxs-lookup"><span data-stu-id="6e081-199">High-resolution photos in Lync 2013 must be located in the user's mailbox on Exchange 2013, and are supported only with Lync 2013 client.</span></span> <span data-ttu-id="6e081-200">この統合 Exchange との統合により、Lync、Exchange、および SharePoint の2013バージョンに含まれる、Oauth という新しい認証フレームワークが利用されます。</span><span class="sxs-lookup"><span data-stu-id="6e081-200">This integration with Exchange takes advantage of the new authorization framework included in the 2013 versions of Lync, Exchange, and SharePoint called Oauth.</span></span>
 
-<span data-ttu-id="241fe-201">展開で Exchange 2013 を使用していない場合、ユーザーの写真のサポートは Lync 2010 と同じです。</span><span class="sxs-lookup"><span data-stu-id="241fe-201">If Exchange 2013 is not used in your deployment, support for user photos is the same as with Lync 2010.</span></span> <span data-ttu-id="241fe-202">ただし、Lync 2013 クライアントでは、使用する写真を選択するためのユーザーオプションが異なります。</span><span class="sxs-lookup"><span data-stu-id="241fe-202">However, the user options to choose the photo to use are different in Lync 2013 client.</span></span> <span data-ttu-id="241fe-203">Lync 2013 クライアントでは、ユーザーは [**マイピクチャの非表示**] または [**マイピクチャの表示**] のどちらかを選択できます。</span><span class="sxs-lookup"><span data-stu-id="241fe-203">In Lync 2013 client, users can select either **Hide my picture** or **Show my picture**.</span></span> <span data-ttu-id="241fe-204">[ **Web サイトから画像を表示**する] オプションは既定では利用できませんが、クライアントポリシーを割り当てることによって有効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="241fe-204">The option **Show a picture from a website** is not available by default, but can be enabled by assigning a client policy.</span></span>
+<span data-ttu-id="6e081-201">展開で Exchange 2013 を使用していない場合、ユーザーの写真のサポートは Lync 2010 と同じです。</span><span class="sxs-lookup"><span data-stu-id="6e081-201">If Exchange 2013 is not used in your deployment, support for user photos is the same as with Lync 2010.</span></span> <span data-ttu-id="6e081-202">ただし、Lync 2013 クライアントでは、使用する写真を選択するためのユーザーオプションが異なります。</span><span class="sxs-lookup"><span data-stu-id="6e081-202">However, the user options to choose the photo to use are different in Lync 2013 client.</span></span> <span data-ttu-id="6e081-203">Lync 2013 クライアントでは、ユーザーは [**マイピクチャの非表示**] または [**マイピクチャの表示**] のどちらかを選択できます。</span><span class="sxs-lookup"><span data-stu-id="6e081-203">In Lync 2013 client, users can select either **Hide my picture** or **Show my picture**.</span></span> <span data-ttu-id="6e081-204">[ **Web サイトから画像を表示**する] オプションは既定では利用できませんが、クライアントポリシーを割り当てることによって有効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="6e081-204">The option **Show a picture from a website** is not available by default, but can be enabled by assigning a client policy.</span></span>
 
 <div>
 
-## <a name="hide-my-picture"></a><span data-ttu-id="241fe-205">自分の写真を非表示にする</span><span class="sxs-lookup"><span data-stu-id="241fe-205">Hide my picture</span></span>
+## <a name="hide-my-picture"></a><span data-ttu-id="6e081-205">自分の写真を非表示にする</span><span class="sxs-lookup"><span data-stu-id="6e081-205">Hide my picture</span></span>
 
-<span data-ttu-id="241fe-206">ユーザー写真の設定は、Lync 2013 の [**オプション**] ダイアログにあります。</span><span class="sxs-lookup"><span data-stu-id="241fe-206">Settings for user photos are on the **Options** dialog in Lync 2013.</span></span> <span data-ttu-id="241fe-207">**[自分の画像を表示**しない] を選択すると、lync クライアントにはユーザーの写真は表示されませんが、自分の写真は引き続き lync の外部の連絡先カードに表示されます。</span><span class="sxs-lookup"><span data-stu-id="241fe-207">When you choose **Hide my picture**, no user photo is displayed for you in Lync client, but your photo is still displayed on your contact card and outside of Lync.</span></span>
+<span data-ttu-id="6e081-206">ユーザー写真の設定は、Lync 2013 の [**オプション**] ダイアログにあります。</span><span class="sxs-lookup"><span data-stu-id="6e081-206">Settings for user photos are on the **Options** dialog in Lync 2013.</span></span> <span data-ttu-id="6e081-207">**[自分の画像を表示**しない] を選択すると、lync クライアントにはユーザーの写真は表示されませんが、自分の写真は引き続き lync の外部の連絡先カードに表示されます。</span><span class="sxs-lookup"><span data-stu-id="6e081-207">When you choose **Hide my picture**, no user photo is displayed for you in Lync client, but your photo is still displayed on your contact card and outside of Lync.</span></span>
 
 </div>
 
 <div>
 
-## <a name="show-my-picture"></a><span data-ttu-id="241fe-208">自分の写真を表示する</span><span class="sxs-lookup"><span data-stu-id="241fe-208">Show my picture</span></span>
+## <a name="show-my-picture"></a><span data-ttu-id="6e081-208">自分の写真を表示する</span><span class="sxs-lookup"><span data-stu-id="6e081-208">Show my picture</span></span>
 
-<span data-ttu-id="241fe-209">**[自分の画像を表示**する] オプションを選択すると、ユーザーの写真が lync クライアントおよび lync の会話の他のユーザーに表示されます。</span><span class="sxs-lookup"><span data-stu-id="241fe-209">When you choose the **Show my picture** option, your user photo is displayed in your Lync client and to other users in Lync conversations.</span></span> <span data-ttu-id="241fe-210">使用されているイメージは、AD DS に格納されているものです。</span><span class="sxs-lookup"><span data-stu-id="241fe-210">The image used is the one stored in AD DS.</span></span>
+<span data-ttu-id="6e081-209">**[自分の画像を表示**する] オプションを選択すると、ユーザーの写真が lync クライアントおよび lync の会話の他のユーザーに表示されます。</span><span class="sxs-lookup"><span data-stu-id="6e081-209">When you choose the **Show my picture** option, your user photo is displayed in your Lync client and to other users in Lync conversations.</span></span> <span data-ttu-id="6e081-210">使用されているイメージは、AD DS に格納されているものです。</span><span class="sxs-lookup"><span data-stu-id="6e081-210">The image used is the one stored in AD DS.</span></span>
 
 </div>
 
 <div>
 
-## <a name="show-a-picture-from-a-website"></a><span data-ttu-id="241fe-211">Web サイトから画像を表示する</span><span class="sxs-lookup"><span data-stu-id="241fe-211">Show a picture from a website</span></span>
+## <a name="show-a-picture-from-a-website"></a><span data-ttu-id="6e081-211">Web サイトから画像を表示する</span><span class="sxs-lookup"><span data-stu-id="6e081-211">Show a picture from a website</span></span>
 
-<span data-ttu-id="241fe-212">[ **Web サイトから画像を表示**する] オプションは、クライアントポリシーを有効にするように設定した後、Lync 2013 で利用可能になります。</span><span class="sxs-lookup"><span data-stu-id="241fe-212">The **Show picture from a website** option becomes available in Lync 2013 after a client policy is set to enable it.</span></span> <span data-ttu-id="241fe-213">クライアントバージョンは、 [Lync 累積更新プログラム (2013 年11月](https://go.microsoft.com/fwlink/p/?linkid=509908)) でインストールされた15.0.4535.1002 よりも新しいバージョンである必要があります。</span><span class="sxs-lookup"><span data-stu-id="241fe-213">The client version must be newer than 15.0.4535.1002, which is installed with the [Lync Cumulative Updates: November 2013](https://go.microsoft.com/fwlink/p/?linkid=509908).</span></span> <span data-ttu-id="241fe-214">クライアントでの変更を確認するには、ユーザーは一度ログアウトしてから再度ログインする必要がある場合があります。</span><span class="sxs-lookup"><span data-stu-id="241fe-214">Users may need to log out and then back in again to see the changes in the client.</span></span>
+<span data-ttu-id="6e081-212">[ **Web サイトから画像を表示**する] オプションは、クライアントポリシーを有効にするように設定した後、Lync 2013 で利用可能になります。</span><span class="sxs-lookup"><span data-stu-id="6e081-212">The **Show picture from a website** option becomes available in Lync 2013 after a client policy is set to enable it.</span></span> <span data-ttu-id="6e081-213">クライアントバージョンは、 [Lync 累積更新プログラム (2013 年11月](https://go.microsoft.com/fwlink/p/?linkid=509908)) でインストールされた15.0.4535.1002 よりも新しいバージョンである必要があります。</span><span class="sxs-lookup"><span data-stu-id="6e081-213">The client version must be newer than 15.0.4535.1002, which is installed with the [Lync Cumulative Updates: November 2013](https://go.microsoft.com/fwlink/p/?linkid=509908).</span></span> <span data-ttu-id="6e081-214">クライアントでの変更を確認するには、ユーザーは一度ログアウトしてから再度ログインする必要がある場合があります。</span><span class="sxs-lookup"><span data-stu-id="6e081-214">Users may need to log out and then back in again to see the changes in the client.</span></span>
 
-<span data-ttu-id="241fe-215">Lync Server 管理シェルで[set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) policy を実行することによって、 **web サイトの設定から画像を表示**できるようにクライアントポリシーを設定することができます。</span><span class="sxs-lookup"><span data-stu-id="241fe-215">You can set the client policy to enable to **Show picture from a website** setting by running the [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) policy in the Lync Server Management Shell.</span></span> <span data-ttu-id="241fe-216">次のコマンドレットの例では、展開内のすべてのユーザーに対してグローバルにポリシーを設定する方法を示します。</span><span class="sxs-lookup"><span data-stu-id="241fe-216">The following example cmdlets demonstrate how to set the policy globally for all users in your deployment:</span></span>
+<span data-ttu-id="6e081-215">Lync Server 管理シェルで[set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) policy を実行することによって、 **web サイトの設定から画像を表示**できるようにクライアントポリシーを設定することができます。</span><span class="sxs-lookup"><span data-stu-id="6e081-215">You can set the client policy to enable to **Show picture from a website** setting by running the [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) policy in the Lync Server Management Shell.</span></span> <span data-ttu-id="6e081-216">次のコマンドレットの例では、展開内のすべてのユーザーに対してグローバルにポリシーを設定する方法を示します。</span><span class="sxs-lookup"><span data-stu-id="6e081-216">The following example cmdlets demonstrate how to set the policy globally for all users in your deployment:</span></span>
 
    ```powershell
     $pe=New-CsClientPolicyEntry -Name EnablePresencePhotoOptions -Value True
@@ -269,13 +269,13 @@ ms.locfileid: "42137918"
    ```
 
 
-<span data-ttu-id="241fe-217">画像がユーザーのメールボックスにアップロードされると、Exchange によって、クライアントアプリケーションで使用できる画像の低解像度バージョンが自動的に作成されます。</span><span class="sxs-lookup"><span data-stu-id="241fe-217">When an image is uploaded to the user’s mailbox, Exchange automatically creates a lower resolution version of the image which can be used in client applications.</span></span> <span data-ttu-id="241fe-218">ユーザー写真は、AD DS でも更新されます。</span><span class="sxs-lookup"><span data-stu-id="241fe-218">The user photo is also updated in AD DS.</span></span>
+<span data-ttu-id="6e081-217">画像がユーザーのメールボックスにアップロードされると、Exchange によって、クライアントアプリケーションで使用できる画像の低解像度バージョンが自動的に作成されます。</span><span class="sxs-lookup"><span data-stu-id="6e081-217">When an image is uploaded to the user’s mailbox, Exchange automatically creates a lower resolution version of the image which can be used in client applications.</span></span> <span data-ttu-id="6e081-218">ユーザー写真は、AD DS でも更新されます。</span><span class="sxs-lookup"><span data-stu-id="6e081-218">The user photo is also updated in AD DS.</span></span>
 
 <div class=" ">
 
 
 > [!NOTE]  
-> <span data-ttu-id="241fe-219">AD DS でイメージファイルが更新されると、48 x 48 ピクセルのイメージが作成され、AD DS の thumbnailPhoto に使用されます。</span><span class="sxs-lookup"><span data-stu-id="241fe-219">When an image file is updated in AD DS, a 48 x 48 pixel image is created and used for the thumbnailPhoto in AD DS.</span></span> <span data-ttu-id="241fe-220">既存のイメージは置き換えられます。</span><span class="sxs-lookup"><span data-stu-id="241fe-220">Any existing image is replaced.</span></span> <span data-ttu-id="241fe-221">そのため、96 x 96 イメージを AD DS に追加した場合は、新しい 48 x 48 イメージで上書きされます。</span><span class="sxs-lookup"><span data-stu-id="241fe-221">So if you added a 96 x 96 image to AD DS, it will be overwritten with the new 48 x 48 image.</span></span> <span data-ttu-id="241fe-222">これは、Lync 2010 クライアントを使用して、ユーザーが AD DS からユーザーの写真を取得するので、環境内にユーザーがいることです。</span><span class="sxs-lookup"><span data-stu-id="241fe-222">This is only important is you have users in your environment using Lync 2010 clients, as those clients will obtain user photos from AD DS.</span></span> <span data-ttu-id="241fe-223">組織内に Lync 2010 クライアントがある場合は、96 x 96 ピクセルのイメージを、AD DS によって作成されたものと置き換えるようにインポートできます。</span><span class="sxs-lookup"><span data-stu-id="241fe-223">You can import 96 x 96 pixel images to replace the ones created by AD DS if you have Lync 2010 clients in your organization.</span></span>
+> <span data-ttu-id="6e081-219">AD DS でイメージファイルが更新されると、48 x 48 ピクセルのイメージが作成され、AD DS の thumbnailPhoto に使用されます。</span><span class="sxs-lookup"><span data-stu-id="6e081-219">When an image file is updated in AD DS, a 48 x 48 pixel image is created and used for the thumbnailPhoto in AD DS.</span></span> <span data-ttu-id="6e081-220">既存のイメージは置き換えられます。</span><span class="sxs-lookup"><span data-stu-id="6e081-220">Any existing image is replaced.</span></span> <span data-ttu-id="6e081-221">そのため、96 x 96 イメージを AD DS に追加した場合は、新しい 48 x 48 イメージで上書きされます。</span><span class="sxs-lookup"><span data-stu-id="6e081-221">So if you added a 96 x 96 image to AD DS, it will be overwritten with the new 48 x 48 image.</span></span> <span data-ttu-id="6e081-222">これは、Lync 2010 クライアントを使用して、ユーザーが AD DS からユーザーの写真を取得するので、環境内にユーザーがいることです。</span><span class="sxs-lookup"><span data-stu-id="6e081-222">This is only important is you have users in your environment using Lync 2010 clients, as those clients will obtain user photos from AD DS.</span></span> <span data-ttu-id="6e081-223">組織内に Lync 2010 クライアントがある場合は、96 x 96 ピクセルのイメージを、AD DS によって作成されたものと置き換えるようにインポートできます。</span><span class="sxs-lookup"><span data-stu-id="6e081-223">You can import 96 x 96 pixel images to replace the ones created by AD DS if you have Lync 2010 clients in your organization.</span></span>
 
 
 
@@ -285,9 +285,9 @@ ms.locfileid: "42137918"
 
 <div>
 
-## <a name="user-photo-support-in-lync-2013"></a><span data-ttu-id="241fe-224">Lync 2013 でのユーザーの写真のサポート</span><span class="sxs-lookup"><span data-stu-id="241fe-224">User photo support in Lync 2013</span></span>
+## <a name="user-photo-support-in-lync-2013"></a><span data-ttu-id="6e081-224">Lync 2013 でのユーザーの写真のサポート</span><span class="sxs-lookup"><span data-stu-id="6e081-224">User photo support in Lync 2013</span></span>
 
-<span data-ttu-id="241fe-225">Lync 2013 では、次の表に示すように、ユーザーの写真に3つの画像解像度がサポートされています。</span><span class="sxs-lookup"><span data-stu-id="241fe-225">In Lync 2013, three image resolutions are supported for user photos as described in the following table.</span></span> <span data-ttu-id="241fe-226">使用されるイメージは、Lync ユーザーに割り当てられているクライアントポリシー設定によって決まります。</span><span class="sxs-lookup"><span data-stu-id="241fe-226">The image that is used is determined by the client policy setting assigned to Lync users.</span></span> <span data-ttu-id="241fe-227">詳細については、このトピックの「クライアントポリシーコマンドレットを使用してユーザーの写真を管理する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="241fe-227">See “Managing user’s photo with Client Policy cmdlets” in this topic for more information.</span></span>
+<span data-ttu-id="6e081-225">Lync 2013 では、次の表に示すように、ユーザーの写真に3つの画像解像度がサポートされています。</span><span class="sxs-lookup"><span data-stu-id="6e081-225">In Lync 2013, three image resolutions are supported for user photos as described in the following table.</span></span> <span data-ttu-id="6e081-226">使用されるイメージは、Lync ユーザーに割り当てられているクライアントポリシー設定によって決まります。</span><span class="sxs-lookup"><span data-stu-id="6e081-226">The image that is used is determined by the client policy setting assigned to Lync users.</span></span> <span data-ttu-id="6e081-227">詳細については、このトピックの「クライアントポリシーコマンドレットを使用してユーザーの写真を管理する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="6e081-227">See “Managing user’s photo with Client Policy cmdlets” in this topic for more information.</span></span>
 
 
 <table>
@@ -297,38 +297,38 @@ ms.locfileid: "42137918"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="241fe-228">画像解像度 (ピクセル)</span><span class="sxs-lookup"><span data-stu-id="241fe-228">Image resolution (pixels)</span></span></th>
-<th><span data-ttu-id="241fe-229">アプリケーション</span><span class="sxs-lookup"><span data-stu-id="241fe-229">Application</span></span></th>
+<th><span data-ttu-id="6e081-228">画像解像度 (ピクセル)</span><span class="sxs-lookup"><span data-stu-id="6e081-228">Image resolution (pixels)</span></span></th>
+<th><span data-ttu-id="6e081-229">アプリケーション</span><span class="sxs-lookup"><span data-stu-id="6e081-229">Application</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="241fe-230">48 x 48</span><span class="sxs-lookup"><span data-stu-id="241fe-230">48 x 48</span></span></p></td>
-<td><p><span data-ttu-id="241fe-231">高解像度の画像が選択されていない場合に使用されます。</span><span class="sxs-lookup"><span data-stu-id="241fe-231">Used if no higher resolution image is selected</span></span></p></td>
+<td><p><span data-ttu-id="6e081-230">48 x 48</span><span class="sxs-lookup"><span data-stu-id="6e081-230">48 x 48</span></span></p></td>
+<td><p><span data-ttu-id="6e081-231">高解像度の画像が選択されていない場合に使用されます。</span><span class="sxs-lookup"><span data-stu-id="6e081-231">Used if no higher resolution image is selected</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="241fe-232">96 x 96</span><span class="sxs-lookup"><span data-stu-id="241fe-232">96 x 96</span></span></p></td>
-<td><p><span data-ttu-id="241fe-233">Outlook Web App および Outlook 2013 で使用されます。</span><span class="sxs-lookup"><span data-stu-id="241fe-233">Used in Outlook Web App and Outlook 2013</span></span></p></td>
+<td><p><span data-ttu-id="6e081-232">96 x 96</span><span class="sxs-lookup"><span data-stu-id="6e081-232">96 x 96</span></span></p></td>
+<td><p><span data-ttu-id="6e081-233">Outlook Web App および Outlook 2013 で使用されます。</span><span class="sxs-lookup"><span data-stu-id="6e081-233">Used in Outlook Web App and Outlook 2013</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="241fe-234">648 x 648</span><span class="sxs-lookup"><span data-stu-id="241fe-234">648 x 648</span></span></p></td>
-<td><p><span data-ttu-id="241fe-235">Lync 2013 デスクトップクライアントおよび Lync 2013 Web アプリで使用</span><span class="sxs-lookup"><span data-stu-id="241fe-235">Used in Lync 2013 desktop client and Lync 2013 Web App</span></span></p></td>
+<td><p><span data-ttu-id="6e081-234">648 x 648</span><span class="sxs-lookup"><span data-stu-id="6e081-234">648 x 648</span></span></p></td>
+<td><p><span data-ttu-id="6e081-235">Lync 2013 デスクトップクライアントおよび Lync 2013 Web アプリで使用</span><span class="sxs-lookup"><span data-stu-id="6e081-235">Used in Lync 2013 desktop client and Lync 2013 Web App</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="241fe-236">Exchange 2013 でメールボックスが有効になっているすべてのユーザーは、Outlook Web Access または Lync 2013 クライアントオプションを使用して、高解像度写真を含む別のイメージをアップロードできます。</span><span class="sxs-lookup"><span data-stu-id="241fe-236">Any user with a mailbox enabled in Exchange 2013 can upload a different image, including high-resolution photos, through Outlook Web Access or Lync 2013 client options.</span></span> <span data-ttu-id="241fe-237">使用するイメージの推奨設定は次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="241fe-237">The recommended settings for images used include:</span></span>
+<span data-ttu-id="6e081-236">Exchange 2013 でメールボックスが有効になっているすべてのユーザーは、Outlook Web Access または Lync 2013 クライアントオプションを使用して、高解像度写真を含む別のイメージをアップロードできます。</span><span class="sxs-lookup"><span data-stu-id="6e081-236">Any user with a mailbox enabled in Exchange 2013 can upload a different image, including high-resolution photos, through Outlook Web Access or Lync 2013 client options.</span></span> <span data-ttu-id="6e081-237">使用するイメージの推奨設定は次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="6e081-237">The recommended settings for images used include:</span></span>
 
-  - <span data-ttu-id="241fe-238">**画像解像度**   648 x 648 ピクセル</span><span class="sxs-lookup"><span data-stu-id="241fe-238">**Image Resolution**   648 by 648 pixels</span></span>
+  - <span data-ttu-id="6e081-238">**画像解像度**   648 x 648 ピクセル</span><span class="sxs-lookup"><span data-stu-id="6e081-238">**Image Resolution**   648 by 648 pixels</span></span>
 
-  - <span data-ttu-id="241fe-239">**色深度**   24 ビット</span><span class="sxs-lookup"><span data-stu-id="241fe-239">**Color Depth**   24-bit</span></span>
+  - <span data-ttu-id="6e081-239">**色深度**   24 ビット</span><span class="sxs-lookup"><span data-stu-id="6e081-239">**Color Depth**   24-bit</span></span>
 
-  - <span data-ttu-id="241fe-240">**画像ファイルのサイズ**   が最大 20 MB</span><span class="sxs-lookup"><span data-stu-id="241fe-240">**Image file size**   up to 20 MB</span></span>
+  - <span data-ttu-id="6e081-240">**画像ファイルのサイズ**   が最大 20 MB</span><span class="sxs-lookup"><span data-stu-id="6e081-240">**Image file size**   up to 20 MB</span></span>
 
-  - <span data-ttu-id="241fe-241">**ファイル形式**   JPEG</span><span class="sxs-lookup"><span data-stu-id="241fe-241">**File format**   JPEG</span></span>
+  - <span data-ttu-id="6e081-241">**ファイル形式**   JPEG</span><span class="sxs-lookup"><span data-stu-id="6e081-241">**File format**   JPEG</span></span>
 
-<span data-ttu-id="241fe-242">648ピクセル×648ピクセルの一般的な24ビットの JPEG イメージはファイルサイズが約 240 KB なので、4ユーザーの写真ごとに 1 MB の保存スペースが必要になります。</span><span class="sxs-lookup"><span data-stu-id="241fe-242">A typical 24-bit JPEG image that is 648 pixels by 648 pixels has a file size of about 240 KB, so 1 MB of storage space is needed for every 4 user photos.</span></span>
+<span data-ttu-id="6e081-242">648ピクセル×648ピクセルの一般的な24ビットの JPEG イメージはファイルサイズが約 240 KB なので、4ユーザーの写真ごとに 1 MB の保存スペースが必要になります。</span><span class="sxs-lookup"><span data-stu-id="6e081-242">A typical 24-bit JPEG image that is 648 pixels by 648 pixels has a file size of about 240 KB, so 1 MB of storage space is needed for every 4 user photos.</span></span>
 
 </div>
 

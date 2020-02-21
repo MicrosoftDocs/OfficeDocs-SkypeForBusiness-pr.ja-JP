@@ -12,20 +12,20 @@ ms:contentKeyID: 48183916
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2745cdf1fd5ce81dffad50ad5b128c44dc3917f3
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: f2b0eb3a28613c4294245bc65bb0bd865e879a07
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42142453"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42181600"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="supportability-for-lync-server-2013"></a><span data-ttu-id="08178-102">Lync Server 2013 のサポート</span><span class="sxs-lookup"><span data-stu-id="08178-102">Supportability for Lync Server 2013</span></span>
+# <a name="supportability-for-lync-server-2013"></a><span data-ttu-id="e3cbd-102">Lync Server 2013 のサポート</span><span class="sxs-lookup"><span data-stu-id="e3cbd-102">Supportability for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "42142453"
 
 <span> </span>
 
-<span data-ttu-id="08178-103">_**トピックの最終更新日:** 2012-04-23_</span><span class="sxs-lookup"><span data-stu-id="08178-103">_**Topic Last Modified:** 2012-04-23_</span></span>
+<span data-ttu-id="e3cbd-103">_**トピックの最終更新日:** 2012-04-23_</span><span class="sxs-lookup"><span data-stu-id="e3cbd-103">_**Topic Last Modified:** 2012-04-23_</span></span>
 
-<span data-ttu-id="08178-104">Microsoft Lync Server 2013 communications software は、小規模、中規模、または大規模な組織のニーズを満たすように設計されたトポロジをサポートします。これにより、パフォーマンス、高可用性、およびスケーラビリティの要件が異なります。</span><span class="sxs-lookup"><span data-stu-id="08178-104">Microsoft Lync Server 2013 communications software supports topologies that are designed to meet the needs of organizations that are small, medium, or large and that have varying requirements for performance, high availability, and scalability.</span></span>
+<span data-ttu-id="e3cbd-104">Microsoft Lync Server 2013 communications software は、小規模、中規模、または大規模な組織のニーズを満たすように設計されたトポロジをサポートします。これにより、パフォーマンス、高可用性、およびスケーラビリティの要件が異なります。</span><span class="sxs-lookup"><span data-stu-id="e3cbd-104">Microsoft Lync Server 2013 communications software supports topologies that are designed to meet the needs of organizations that are small, medium, or large and that have varying requirements for performance, high availability, and scalability.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="08178-105">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="08178-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="e3cbd-105">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="e3cbd-105">In This Section</span></span>
 
-  - [<span data-ttu-id="08178-106">Lync Server 2013 での Active Directory のサポート</span><span class="sxs-lookup"><span data-stu-id="08178-106">Active Directory support in Lync Server 2013</span></span>](lync-server-2013-active-directory-support.md)
+  - [<span data-ttu-id="e3cbd-106">Lync Server 2013 での Active Directory のサポート</span><span class="sxs-lookup"><span data-stu-id="e3cbd-106">Active Directory support in Lync Server 2013</span></span>](lync-server-2013-active-directory-support.md)
 
-  - [<span data-ttu-id="08178-107">Lync Server 2013 でサポートされているトポロジ</span><span class="sxs-lookup"><span data-stu-id="08178-107">Supported topologies in Lync Server 2013</span></span>](lync-server-2013-supported-topologies.md)
+  - [<span data-ttu-id="e3cbd-107">Lync Server 2013 でサポートされているトポロジ</span><span class="sxs-lookup"><span data-stu-id="e3cbd-107">Supported topologies in Lync Server 2013</span></span>](lync-server-2013-supported-topologies.md)
 
-  - [<span data-ttu-id="08178-108">Lync Server 2013 でサポートされているサーバーの併置</span><span class="sxs-lookup"><span data-stu-id="08178-108">Supported server collocation in Lync Server 2013</span></span>](lync-server-2013-supported-server-collocation.md)
+  - [<span data-ttu-id="e3cbd-108">Lync Server 2013 でサポートされているサーバーの併置</span><span class="sxs-lookup"><span data-stu-id="e3cbd-108">Supported server collocation in Lync Server 2013</span></span>](lync-server-2013-supported-server-collocation.md)
 
-  - [<span data-ttu-id="08178-109">Lync Server 2013 でサポートされる移行パスと共存のシナリオ</span><span class="sxs-lookup"><span data-stu-id="08178-109">Supported migration paths and coexistence scenarios in Lync Server 2013</span></span>](lync-server-2013-supported-migration-paths-and-coexistence-scenarios.md)
+  - [<span data-ttu-id="e3cbd-109">Lync Server 2013 でサポートされる移行パスと共存のシナリオ</span><span class="sxs-lookup"><span data-stu-id="e3cbd-109">Supported migration paths and coexistence scenarios in Lync Server 2013</span></span>](lync-server-2013-supported-migration-paths-and-coexistence-scenarios.md)
 
-  - [<span data-ttu-id="08178-110">Lync Server 2013 でサポートされているハードウェア</span><span class="sxs-lookup"><span data-stu-id="08178-110">Supported hardware for Lync Server 2013</span></span>](lync-server-2013-supported-hardware.md)
+  - [<span data-ttu-id="e3cbd-110">Lync Server 2013 でサポートされているハードウェア</span><span class="sxs-lookup"><span data-stu-id="e3cbd-110">Supported hardware for Lync Server 2013</span></span>](lync-server-2013-supported-hardware.md)
 
-  - [<span data-ttu-id="08178-111">Lync Server 2013 でのサーバーソフトウェアとインフラストラクチャのサポート</span><span class="sxs-lookup"><span data-stu-id="08178-111">Server software and infrastructure support in Lync Server 2013</span></span>](lync-server-2013-server-software-and-infrastructure-support.md)
+  - [<span data-ttu-id="e3cbd-111">Lync Server 2013 でのサーバーソフトウェアとインフラストラクチャのサポート</span><span class="sxs-lookup"><span data-stu-id="e3cbd-111">Server software and infrastructure support in Lync Server 2013</span></span>](lync-server-2013-server-software-and-infrastructure-support.md)
 
-  - [<span data-ttu-id="08178-112">Lync Server 2013 におけるその他のサーバーのサポートおよび要件</span><span class="sxs-lookup"><span data-stu-id="08178-112">Additional server support and requirements in Lync Server 2013</span></span>](lync-server-2013-additional-server-support-and-requirements.md)
+  - [<span data-ttu-id="e3cbd-112">Lync Server 2013 におけるその他のサーバーのサポートおよび要件</span><span class="sxs-lookup"><span data-stu-id="e3cbd-112">Additional server support and requirements in Lync Server 2013</span></span>](lync-server-2013-additional-server-support-and-requirements.md)
 
-  - [<span data-ttu-id="08178-113">Lync Server 2013 でのクライアントおよびデバイスソフトウェアおよびインフラストラクチャのサポート</span><span class="sxs-lookup"><span data-stu-id="08178-113">Client and device software and infrastructure support in Lync Server 2013</span></span>](lync-server-2013-client-and-device-software-and-infrastructure-support.md)
+  - [<span data-ttu-id="e3cbd-113">Lync Server 2013 でのクライアントおよびデバイスソフトウェアおよびインフラストラクチャのサポート</span><span class="sxs-lookup"><span data-stu-id="e3cbd-113">Client and device software and infrastructure support in Lync Server 2013</span></span>](lync-server-2013-client-and-device-software-and-infrastructure-support.md)
 
 </div>
 

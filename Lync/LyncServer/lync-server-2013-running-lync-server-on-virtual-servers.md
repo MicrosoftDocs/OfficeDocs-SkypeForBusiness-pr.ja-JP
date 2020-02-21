@@ -12,20 +12,20 @@ ms:contentKeyID: 49733856
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 250edc56367b0ecb44548c50048acb199f060577
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 69a44b34a0d3c5cae48ddaafc4b1efa416137107
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42144463"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42182770"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="running-lync-server-2013-on-virtual-servers"></a><span data-ttu-id="f3008-102">仮想サーバーで Lync Server 2013 を実行する</span><span class="sxs-lookup"><span data-stu-id="f3008-102">Running Lync Server 2013 on virtual servers</span></span>
+# <a name="running-lync-server-2013-on-virtual-servers"></a><span data-ttu-id="497a4-102">仮想サーバーで Lync Server 2013 を実行する</span><span class="sxs-lookup"><span data-stu-id="497a4-102">Running Lync Server 2013 on virtual servers</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "42144463"
 
 <span> </span>
 
-<span data-ttu-id="f3008-103">_**トピックの最終更新日:** 2014-03-13_</span><span class="sxs-lookup"><span data-stu-id="f3008-103">_**Topic Last Modified:** 2014-03-13_</span></span>
+<span data-ttu-id="497a4-103">_**トピックの最終更新日:** 2014-03-13_</span><span class="sxs-lookup"><span data-stu-id="497a4-103">_**Topic Last Modified:** 2014-03-13_</span></span>
 
-<span data-ttu-id="f3008-104">Lync Server 2013 は、インスタントメッセージング (IM) とプレゼンス、会議、エンタープライズ Voip、監視、アーカイブ、および常設チャットを含む、すべての Lync Server ワークロードをサポートする仮想化トポロジをサポートしています。</span><span class="sxs-lookup"><span data-stu-id="f3008-104">Lync Server 2013 supports virtualization topologies that support all Lync Server workloads, including instant messaging (IM) and presence, conferencing, Enterprise Voice, Monitoring, Archiving, and Persistent Chat.</span></span> <span data-ttu-id="f3008-105">仮想トポロジでの Lync Server のパフォーマンスは、使用されているワークロード、ユーザー数、およびホストハードウェアによって大きく異なる場合があることに注意してください。</span><span class="sxs-lookup"><span data-stu-id="f3008-105">Note that Lync Server performance on virtual topologies can vary greatly depending on the workloads being used, the number of users, and the host hardware.</span></span> <span data-ttu-id="f3008-106">仮想サーバー上での Lync Server 2013 の実行に関する詳細なガイダンスについては、ホワイトペーパー「 [Lync server 2013 を仮想サーバーに展開する](https://www.microsoft.com/download/details.aspx?id=41936)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="f3008-106">For detailed guidance about running Lync Server 2013 on virtual servers, see the white paper [Planning a Lync Server 2013 Deployment on Virtual Servers](https://www.microsoft.com/download/details.aspx?id=41936).</span></span>
+<span data-ttu-id="497a4-104">Lync Server 2013 は、インスタントメッセージング (IM) とプレゼンス、会議、エンタープライズ Voip、監視、アーカイブ、および常設チャットを含む、すべての Lync Server ワークロードをサポートする仮想化トポロジをサポートしています。</span><span class="sxs-lookup"><span data-stu-id="497a4-104">Lync Server 2013 supports virtualization topologies that support all Lync Server workloads, including instant messaging (IM) and presence, conferencing, Enterprise Voice, Monitoring, Archiving, and Persistent Chat.</span></span> <span data-ttu-id="497a4-105">仮想トポロジでの Lync Server のパフォーマンスは、使用されているワークロード、ユーザー数、およびホストハードウェアによって大きく異なる場合があることに注意してください。</span><span class="sxs-lookup"><span data-stu-id="497a4-105">Note that Lync Server performance on virtual topologies can vary greatly depending on the workloads being used, the number of users, and the host hardware.</span></span> <span data-ttu-id="497a4-106">仮想サーバー上での Lync Server 2013 の実行に関する詳細なガイダンスについては、ホワイトペーパー「 [Lync server 2013 を仮想サーバーに展開する](https://www.microsoft.com/download/details.aspx?id=41936)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="497a4-106">For detailed guidance about running Lync Server 2013 on virtual servers, see the white paper [Planning a Lync Server 2013 Deployment on Virtual Servers](https://www.microsoft.com/download/details.aspx?id=41936).</span></span>
 
-<span data-ttu-id="f3008-107">Lync Server 2013 は、Hyper-v プラットフォームでサポートされており、Windows Server 仮想化検証プログラムでサポートされているすべての仮想化プラットフォームでサポートされています。</span><span class="sxs-lookup"><span data-stu-id="f3008-107">Lync Server 2013 is supported on the Hyper-V platform, and on any virtualization platform that is supported under the Windows Server Virtualization Validation Program.</span></span> <span data-ttu-id="f3008-108">このプログラムの詳細について<http://www.windowsservercatalog.com/svvp.aspx>は、「」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="f3008-108">For information on this program, see <http://www.windowsservercatalog.com/svvp.aspx>.</span></span>
+<span data-ttu-id="497a4-107">Lync Server 2013 は、Hyper-v プラットフォームでサポートされており、Windows Server 仮想化検証プログラムでサポートされているすべての仮想化プラットフォームでサポートされています。</span><span class="sxs-lookup"><span data-stu-id="497a4-107">Lync Server 2013 is supported on the Hyper-V platform, and on any virtualization platform that is supported under the Windows Server Virtualization Validation Program.</span></span> <span data-ttu-id="497a4-108">このプログラムの詳細について<http://www.windowsservercatalog.com/svvp.aspx>は、「」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="497a4-108">For information on this program, see <http://www.windowsservercatalog.com/svvp.aspx>.</span></span>
 
 <div id="sectionSection0" class="section">
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48184710
 ms.date: 04/03/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cb0d5c163a10e8afb90dd6e0a3c29a4430419517
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 4a3850d59a8d2612eedb54b44f4f5d7f836cffdd
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42147410"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42181220"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="getting-started-with-lync-server-2013"></a><span data-ttu-id="130cb-102">Lync Server 2013 の概要</span><span class="sxs-lookup"><span data-stu-id="130cb-102">Getting started with Lync Server 2013</span></span>
+# <a name="getting-started-with-lync-server-2013"></a><span data-ttu-id="23351-102">Lync Server 2013 の概要</span><span class="sxs-lookup"><span data-stu-id="23351-102">Getting started with Lync Server 2013</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "42147410"
 
 <span> </span>
 
-<span data-ttu-id="130cb-103">_**トピックの最終更新日:** 2015-04-03_</span><span class="sxs-lookup"><span data-stu-id="130cb-103">_**Topic Last Modified:** 2015-04-03_</span></span>
+<span data-ttu-id="23351-103">_**トピックの最終更新日:** 2015-04-03_</span><span class="sxs-lookup"><span data-stu-id="23351-103">_**Topic Last Modified:** 2015-04-03_</span></span>
 
-<span data-ttu-id="130cb-104">Lync Server 2013 には、組織内のコラボレーションとコミュニケーションを強化する多くの機能が用意されています。</span><span class="sxs-lookup"><span data-stu-id="130cb-104">Lync Server 2013 offers many features to enhance collaboration and communication in your organization.</span></span> <span data-ttu-id="130cb-105">これらの機能の多くは、以前のバージョンにあった機能に比べて新しいものです。</span><span class="sxs-lookup"><span data-stu-id="130cb-105">Many of these features are new compared to what was available in previous versions.</span></span> <span data-ttu-id="130cb-106">このセクションのトピックでは、新しい機能の概要について簡単に説明します。</span><span class="sxs-lookup"><span data-stu-id="130cb-106">The topics in this section give a brief overview of the new capabilities.</span></span>
+<span data-ttu-id="23351-104">Lync Server 2013 には、組織内のコラボレーションとコミュニケーションを強化する多くの機能が用意されています。</span><span class="sxs-lookup"><span data-stu-id="23351-104">Lync Server 2013 offers many features to enhance collaboration and communication in your organization.</span></span> <span data-ttu-id="23351-105">これらの機能の多くは、以前のバージョンにあった機能に比べて新しいものです。</span><span class="sxs-lookup"><span data-stu-id="23351-105">Many of these features are new compared to what was available in previous versions.</span></span> <span data-ttu-id="23351-106">このセクションのトピックでは、新しい機能の概要について簡単に説明します。</span><span class="sxs-lookup"><span data-stu-id="23351-106">The topics in this section give a brief overview of the new capabilities.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="130cb-107">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="130cb-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="23351-107">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="23351-107">In This Section</span></span>
 
-  - [<span data-ttu-id="130cb-108">Lync Server 2013 の概要</span><span class="sxs-lookup"><span data-stu-id="130cb-108">Introduction to Lync Server 2013</span></span>](lync-server-2013-introduction.md)
+  - [<span data-ttu-id="23351-108">Lync Server 2013 の概要</span><span class="sxs-lookup"><span data-stu-id="23351-108">Introduction to Lync Server 2013</span></span>](lync-server-2013-introduction.md)
 
-  - [<span data-ttu-id="130cb-109">Lync Server 2013 の新機能</span><span class="sxs-lookup"><span data-stu-id="130cb-109">New features in Lync Server 2013</span></span>](lync-server-2013-new-features.md)
+  - [<span data-ttu-id="23351-109">Lync Server 2013 の新機能</span><span class="sxs-lookup"><span data-stu-id="23351-109">New features in Lync Server 2013</span></span>](lync-server-2013-new-features.md)
 
-  - [<span data-ttu-id="130cb-110">Lync Server 2013 の新しいクライアントの機能</span><span class="sxs-lookup"><span data-stu-id="130cb-110">New client features in Lync Server 2013</span></span>](lync-server-2013-new-client-features.md)
+  - [<span data-ttu-id="23351-110">Lync Server 2013 の新しいクライアントの機能</span><span class="sxs-lookup"><span data-stu-id="23351-110">New client features in Lync Server 2013</span></span>](lync-server-2013-new-client-features.md)
 
-  - [<span data-ttu-id="130cb-111">Skype for Business でクライアント環境を構成する</span><span class="sxs-lookup"><span data-stu-id="130cb-111">Configure the client experience with Skype for Business</span></span>](configure-the-skype-for-business-client-in-lync-server-2013.md)
+  - [<span data-ttu-id="23351-111">Skype for Business でクライアント環境を構成する</span><span class="sxs-lookup"><span data-stu-id="23351-111">Configure the client experience with Skype for Business</span></span>](configure-the-skype-for-business-client-in-lync-server-2013.md)
 
-  - [<span data-ttu-id="130cb-112">Lync Server 2013 のリリースノート</span><span class="sxs-lookup"><span data-stu-id="130cb-112">Release notes for Lync Server 2013</span></span>](lync-server-2013-release-notes.md)
+  - [<span data-ttu-id="23351-112">Lync Server 2013 のリリースノート</span><span class="sxs-lookup"><span data-stu-id="23351-112">Release notes for Lync Server 2013</span></span>](lync-server-2013-release-notes.md)
 
 </div>
 

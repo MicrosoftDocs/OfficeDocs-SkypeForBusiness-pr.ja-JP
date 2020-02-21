@@ -12,20 +12,20 @@ ms:contentKeyID: 49733548
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 54e269b9e2a6361e1319bbeeef57e09d80e0eaae
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 55312d4043a140f51ec4805550555d2a0ff23a43
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42138888"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42183370"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="quality-of-experience-qoe-in-lync-server-2013"></a><span data-ttu-id="90a8c-102">Lync Server 2013 の QoE (Quality of Experience)</span><span class="sxs-lookup"><span data-stu-id="90a8c-102">Quality of Experience (QoE) in Lync Server 2013</span></span>
+# <a name="quality-of-experience-qoe-in-lync-server-2013"></a><span data-ttu-id="fb59a-102">Lync Server 2013 の QoE (Quality of Experience)</span><span class="sxs-lookup"><span data-stu-id="fb59a-102">Quality of Experience (QoE) in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,32 +35,32 @@ ms.locfileid: "42138888"
 
 <span> </span>
 
-<span data-ttu-id="90a8c-103">_**トピックの最終更新日:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="90a8c-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="fb59a-103">_**トピックの最終更新日:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="fb59a-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="90a8c-104">QoE (Quality of Experience) は、メディアの品質と、通話およびセッションに関係する参加者、デバイス名、ドライバー、IP アドレス、およびエンドポイントの種類についての情報を示す数値データを記録します。</span><span class="sxs-lookup"><span data-stu-id="90a8c-104">Quality of Experience (QoE) records numeric data that indicates the media quality and information about participants, device names, drivers, IP addresses, and endpoint types involved in calls and sessions.</span></span> <span data-ttu-id="90a8c-105">Lync Server 2013 をインストールするときに、QoE のグローバル構成設定の定義済みコレクションもインストールします。</span><span class="sxs-lookup"><span data-stu-id="90a8c-105">When you install Lync Server 2013, you will also install a predefined collection of global configuration settings for QoE.</span></span> <span data-ttu-id="90a8c-106">QoE の設定を構成するには、このセクションのトピックに従ってください。</span><span class="sxs-lookup"><span data-stu-id="90a8c-106">Use the topics in this section to configure QoE settings.</span></span>
+<span data-ttu-id="fb59a-104">QoE (Quality of Experience) は、メディアの品質と、通話およびセッションに関係する参加者、デバイス名、ドライバー、IP アドレス、およびエンドポイントの種類についての情報を示す数値データを記録します。</span><span class="sxs-lookup"><span data-stu-id="fb59a-104">Quality of Experience (QoE) records numeric data that indicates the media quality and information about participants, device names, drivers, IP addresses, and endpoint types involved in calls and sessions.</span></span> <span data-ttu-id="fb59a-105">Lync Server 2013 をインストールするときに、QoE のグローバル構成設定の定義済みコレクションもインストールします。</span><span class="sxs-lookup"><span data-stu-id="fb59a-105">When you install Lync Server 2013, you will also install a predefined collection of global configuration settings for QoE.</span></span> <span data-ttu-id="fb59a-106">QoE の設定を構成するには、このセクションのトピックに従ってください。</span><span class="sxs-lookup"><span data-stu-id="fb59a-106">Use the topics in this section to configure QoE settings.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="90a8c-107">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="90a8c-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="fb59a-107">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="fb59a-107">In This Section</span></span>
 
-  - [<span data-ttu-id="90a8c-108">Lync Server 2013 で qoe (Quality of Experience) 構成設定を作成する</span><span class="sxs-lookup"><span data-stu-id="90a8c-108">Create Quality of Experience configuration settings in Lync Server 2013</span></span>](lync-server-2013-create-quality-of-experience-configuration-settings.md)
+  - [<span data-ttu-id="fb59a-108">Lync Server 2013 で qoe (Quality of Experience) 構成設定を作成する</span><span class="sxs-lookup"><span data-stu-id="fb59a-108">Create Quality of Experience configuration settings in Lync Server 2013</span></span>](lync-server-2013-create-quality-of-experience-configuration-settings.md)
 
-  - <span data-ttu-id="90a8c-109">[Lync Server 2013 の [qoe (Quality of Experience)] を有効にする](lync-server-2013-enable-quality-of-experience.md)</span><span class="sxs-lookup"><span data-stu-id="90a8c-109">[Enable Quality of Experience in Lync Server 2013](lync-server-2013-enable-quality-of-experience.md)</span></span>
+  - <span data-ttu-id="fb59a-109">[Lync Server 2013 の [qoe (Quality of Experience)] を有効にする](lync-server-2013-enable-quality-of-experience.md)</span><span class="sxs-lookup"><span data-stu-id="fb59a-109">[Enable Quality of Experience in Lync Server 2013](lync-server-2013-enable-quality-of-experience.md)</span></span>
 
-  - [<span data-ttu-id="90a8c-110">Lync Server 2013 で qoe (Quality of Experience) 設定を変更する</span><span class="sxs-lookup"><span data-stu-id="90a8c-110">Modify Quality of Experience settings in Lync Server 2013</span></span>](lync-server-2013-modify-quality-of-experience-settings.md)
+  - [<span data-ttu-id="fb59a-110">Lync Server 2013 で qoe (Quality of Experience) 設定を変更する</span><span class="sxs-lookup"><span data-stu-id="fb59a-110">Modify Quality of Experience settings in Lync Server 2013</span></span>](lync-server-2013-modify-quality-of-experience-settings.md)
 
-  - [<span data-ttu-id="90a8c-111">Lync Server 2013 の qoe (Quality of Experience) 構成設定の削除</span><span class="sxs-lookup"><span data-stu-id="90a8c-111">Delete Quality of Experience configuration settings in Lync Server 2013</span></span>](lync-server-2013-delete-quality-of-experience-configuration-settings.md)
+  - [<span data-ttu-id="fb59a-111">Lync Server 2013 の qoe (Quality of Experience) 構成設定の削除</span><span class="sxs-lookup"><span data-stu-id="fb59a-111">Delete Quality of Experience configuration settings in Lync Server 2013</span></span>](lync-server-2013-delete-quality-of-experience-configuration-settings.md)
 
-  - [<span data-ttu-id="90a8c-112">Lync Server 2013 で通話詳細記録と qoe (Quality of Experience) データベースを手動で削除する</span><span class="sxs-lookup"><span data-stu-id="90a8c-112">Manually purging the call detail recording and Quality of Experience databases in Lync Server 2013</span></span>](lync-server-2013-manually-purging-the-call-detail-recording-and-quality-of-experience-databases.md)
+  - [<span data-ttu-id="fb59a-112">Lync Server 2013 で通話詳細記録と qoe (Quality of Experience) データベースを手動で削除する</span><span class="sxs-lookup"><span data-stu-id="fb59a-112">Manually purging the call detail recording and Quality of Experience databases in Lync Server 2013</span></span>](lync-server-2013-manually-purging-the-call-detail-recording-and-quality-of-experience-databases.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="90a8c-113">関連項目</span><span class="sxs-lookup"><span data-stu-id="90a8c-113">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="fb59a-113">関連項目</span><span class="sxs-lookup"><span data-stu-id="fb59a-113">See Also</span></span>
 
 
-[<span data-ttu-id="90a8c-114">Lync Server 2013 での通話詳細記録と qoe (Quality of Experience) 設定の構成</span><span class="sxs-lookup"><span data-stu-id="90a8c-114">Configuring call detail recording and Quality of Experience settings in Lync Server 2013</span></span>](lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md)  
+[<span data-ttu-id="fb59a-114">Lync Server 2013 での通話詳細記録と qoe (Quality of Experience) 設定の構成</span><span class="sxs-lookup"><span data-stu-id="fb59a-114">Configuring call detail recording and Quality of Experience settings in Lync Server 2013</span></span>](lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md)  
   
 
 </div>

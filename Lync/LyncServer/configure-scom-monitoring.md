@@ -13,20 +13,20 @@ ms:contentKeyID: 49733624
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73fccbc093365565fdc4062715b517e62eed3e7e
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: c83adcd4241f6a8c447265715bba26f87cc20f09
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42136074"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42180840"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-scom-monitoring"></a><span data-ttu-id="ed2ff-102">SCOM 監視を構成する</span><span class="sxs-lookup"><span data-stu-id="ed2ff-102">Configure SCOM monitoring</span></span>
+# <a name="configure-scom-monitoring"></a><span data-ttu-id="05226-102">SCOM 監視を構成する</span><span class="sxs-lookup"><span data-stu-id="05226-102">Configure SCOM monitoring</span></span>
 
 </div>
 
@@ -36,29 +36,29 @@ ms.locfileid: "42136074"
 
 <span> </span>
 
-<span data-ttu-id="ed2ff-103">_**トピックの最終更新日:** 2012-10-04_</span><span class="sxs-lookup"><span data-stu-id="ed2ff-103">_**Topic Last Modified:** 2012-10-04_</span></span>
+<span data-ttu-id="05226-103">_**トピックの最終更新日:** 2012-10-04_</span><span class="sxs-lookup"><span data-stu-id="05226-103">_**Topic Last Modified:** 2012-10-04_</span></span>
 
-<span data-ttu-id="ed2ff-104">Microsoft Lync Server 2013 に移行した後で、Lync Server 2013 を System Center Operations Manager と連携するように構成するには、いくつかのタスクを完了する必要があります。</span><span class="sxs-lookup"><span data-stu-id="ed2ff-104">After migrating to Microsoft Lync Server 2013, you must complete a few tasks to configure Lync Server 2013 to work with System Center Operations Manager.</span></span>
+<span data-ttu-id="05226-104">Microsoft Lync Server 2013 に移行した後で、Lync Server 2013 を System Center Operations Manager と連携するように構成するには、いくつかのタスクを完了する必要があります。</span><span class="sxs-lookup"><span data-stu-id="05226-104">After migrating to Microsoft Lync Server 2013, you must complete a few tasks to configure Lync Server 2013 to work with System Center Operations Manager.</span></span>
 
-  - <span data-ttu-id="ed2ff-105">中央検出ロジックを管理するために選択したサーバーに Lync Server 2010 の更新プログラムを適用します。</span><span class="sxs-lookup"><span data-stu-id="ed2ff-105">Apply Lync Server 2010 updates to a server elected to manage the central discovery logic.</span></span>
+  - <span data-ttu-id="05226-105">中央検出ロジックを管理するために選択したサーバーに Lync Server 2010 の更新プログラムを適用します。</span><span class="sxs-lookup"><span data-stu-id="05226-105">Apply Lync Server 2010 updates to a server elected to manage the central discovery logic.</span></span>
 
-  - <span data-ttu-id="ed2ff-106">中央検出候補サーバーのレジストリ キーを更新する。</span><span class="sxs-lookup"><span data-stu-id="ed2ff-106">Update the central discovery candidate server registry key.</span></span>
+  - <span data-ttu-id="05226-106">中央検出候補サーバーのレジストリ キーを更新する。</span><span class="sxs-lookup"><span data-stu-id="05226-106">Update the central discovery candidate server registry key.</span></span>
 
-  - <span data-ttu-id="ed2ff-107">プライマリの System Center Operations Manager 管理サーバーを構成して、[中央探索の候補」ノードを上書きします。</span><span class="sxs-lookup"><span data-stu-id="ed2ff-107">Configure your primary System Center Operations Manager management server to override the candidate central discovery node.</span></span>
+  - <span data-ttu-id="05226-107">プライマリの System Center Operations Manager 管理サーバーを構成して、[中央探索の候補」ノードを上書きします。</span><span class="sxs-lookup"><span data-stu-id="05226-107">Configure your primary System Center Operations Manager management server to override the candidate central discovery node.</span></span>
 
-<span data-ttu-id="ed2ff-108">各タスクを実行する手順を次に示します。</span><span class="sxs-lookup"><span data-stu-id="ed2ff-108">Instructions for carrying out each of these tasks are provided below.</span></span>
+<span data-ttu-id="05226-108">各タスクを実行する手順を次に示します。</span><span class="sxs-lookup"><span data-stu-id="05226-108">Instructions for carrying out each of these tasks are provided below.</span></span>
 
-<span data-ttu-id="ed2ff-109">**中央検出ロジックを管理するために選択したサーバーに Lync Server 2010 の更新プログラムを適用します。**</span><span class="sxs-lookup"><span data-stu-id="ed2ff-109">**Apply Lync Server 2010 updates to a server elected to manage the central discovery logic.**</span></span>
+<span data-ttu-id="05226-109">**中央検出ロジックを管理するために選択したサーバーに Lync Server 2010 の更新プログラムを適用します。**</span><span class="sxs-lookup"><span data-stu-id="05226-109">**Apply Lync Server 2010 updates to a server elected to manage the central discovery logic.**</span></span>
 
-1.  <span data-ttu-id="ed2ff-110">System Center Operations Manager エージェント ファイルがインストールされ、候補検出ノードとして構成されているサーバーを選択します。</span><span class="sxs-lookup"><span data-stu-id="ed2ff-110">Elect a server that has the System Center Operations Manager agent files installed and is configured as a candidate discovery node.</span></span>
+1.  <span data-ttu-id="05226-110">System Center Operations Manager エージェント ファイルがインストールされ、候補検出ノードとして構成されているサーバーを選択します。</span><span class="sxs-lookup"><span data-stu-id="05226-110">Elect a server that has the System Center Operations Manager agent files installed and is configured as a candidate discovery node.</span></span>
 
-2.  <span data-ttu-id="ed2ff-111">このサーバーに Lync Server 2010 の更新プログラムを適用します。</span><span class="sxs-lookup"><span data-stu-id="ed2ff-111">Apply Lync Server 2010 updates to this server.</span></span> <span data-ttu-id="ed2ff-112">「 [Lync Server 2010 の更新プログラムの適用](apply-lync-server-2010-updates.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="ed2ff-112">See the topic [Apply Lync Server 2010 updates](apply-lync-server-2010-updates.md).</span></span>
+2.  <span data-ttu-id="05226-111">このサーバーに Lync Server 2010 の更新プログラムを適用します。</span><span class="sxs-lookup"><span data-stu-id="05226-111">Apply Lync Server 2010 updates to this server.</span></span> <span data-ttu-id="05226-112">「 [Lync Server 2010 の更新プログラムの適用](apply-lync-server-2010-updates.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="05226-112">See the topic [Apply Lync Server 2010 updates](apply-lync-server-2010-updates.md).</span></span>
 
-<span data-ttu-id="ed2ff-113">**中央検出候補サーバーのレジストリ キーを更新する。**</span><span class="sxs-lookup"><span data-stu-id="ed2ff-113">**Update the central discovery candidate server registry key.**</span></span>
+<span data-ttu-id="05226-113">**中央検出候補サーバーのレジストリ キーを更新する。**</span><span class="sxs-lookup"><span data-stu-id="05226-113">**Update the central discovery candidate server registry key.**</span></span>
 
-1.  <span data-ttu-id="ed2ff-114">中央検出ロジックを管理することを選択したサーバーで、Windows PowerShell コマンドウィンドウを開きます。</span><span class="sxs-lookup"><span data-stu-id="ed2ff-114">On the server elected to manage the central discovery logic, open a Windows PowerShell command window.</span></span>
+1.  <span data-ttu-id="05226-114">中央検出ロジックを管理することを選択したサーバーで、Windows PowerShell コマンドウィンドウを開きます。</span><span class="sxs-lookup"><span data-stu-id="05226-114">On the server elected to manage the central discovery logic, open a Windows PowerShell command window.</span></span>
 
-2.  <span data-ttu-id="ed2ff-115">コマンド ラインで、次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="ed2ff-115">At the command line, type the following:</span></span>
+2.  <span data-ttu-id="05226-115">コマンド ラインで、次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="05226-115">At the command line, type the following:</span></span>
     
        ```PowerShell
         New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health"
@@ -72,22 +72,22 @@ ms.locfileid: "42136074"
     
 
     > [!NOTE]  
-    > <span data-ttu-id="ed2ff-p102">レジストリを編集すると、"レジストリ キーが既に存在する場合はコマンドが失敗する" というエラーが発生することがあります。このエラーは無視しても問題ありません。</span><span class="sxs-lookup"><span data-stu-id="ed2ff-p102">Whenever you edit the registry, you may experience an error that the command failed if the registry key already exists. If you experience this, you can safely ignore the error.</span></span>
+    > <span data-ttu-id="05226-p102">レジストリを編集すると、"レジストリ キーが既に存在する場合はコマンドが失敗する" というエラーが発生することがあります。このエラーは無視しても問題ありません。</span><span class="sxs-lookup"><span data-stu-id="05226-p102">Whenever you edit the registry, you may experience an error that the command failed if the registry key already exists. If you experience this, you can safely ignore the error.</span></span>
 
     
     </div>
 
-<span data-ttu-id="ed2ff-118">**プライマリの System Center Operations Manager 管理サーバーを構成して、[中央探索の候補監視ノードの候補を上書きします。**</span><span class="sxs-lookup"><span data-stu-id="ed2ff-118">**Configure your primary System Center Operations Manager management server to override the candidate central discovery watcher node.**</span></span>
+<span data-ttu-id="05226-118">**プライマリの System Center Operations Manager 管理サーバーを構成して、[中央探索の候補監視ノードの候補を上書きします。**</span><span class="sxs-lookup"><span data-stu-id="05226-118">**Configure your primary System Center Operations Manager management server to override the candidate central discovery watcher node.**</span></span>
 
-1.  <span data-ttu-id="ed2ff-119">System Center Operations Manager コントロールがインストールされているコンピューターで、[**管理パック オブジェクト**] を展開し、[**オブジェクト検出**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="ed2ff-119">On a computer where the System Center Operations Manager console has been installed, expand **Management Pack Objects** and then select **Object Discoveries**.</span></span>
+1.  <span data-ttu-id="05226-119">System Center Operations Manager コントロールがインストールされているコンピューターで、[**管理パック オブジェクト**] を展開し、[**オブジェクト検出**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="05226-119">On a computer where the System Center Operations Manager console has been installed, expand **Management Pack Objects** and then select **Object Discoveries**.</span></span>
 
-2.  <span data-ttu-id="ed2ff-120">[**スコープの変更**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="ed2ff-120">Click **Change Scope...**</span></span>
+2.  <span data-ttu-id="05226-120">[**スコープの変更**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="05226-120">Click **Change Scope...**</span></span>
 
-3.  <span data-ttu-id="ed2ff-121">[**管理パック オブジェクトのスコープ設定**] ページで、[**LS Discovery Candidate**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="ed2ff-121">From the **Scope Management Pack Objects** page, select **LS Discovery Candidate**.</span></span>
+3.  <span data-ttu-id="05226-121">[**管理パック オブジェクトのスコープ設定**] ページで、[**LS Discovery Candidate**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="05226-121">From the **Scope Management Pack Objects** page, select **LS Discovery Candidate**.</span></span>
 
-4.  <span data-ttu-id="ed2ff-122">前の手順で選択した候補サーバーの名前の [**LS Discovery Candidate Effective Value**] を上書きします。</span><span class="sxs-lookup"><span data-stu-id="ed2ff-122">Override the **LS Discovery Candidate Effective Value** to the name of the candidate server elected in the earlier procedure.</span></span>
+4.  <span data-ttu-id="05226-122">前の手順で選択した候補サーバーの名前の [**LS Discovery Candidate Effective Value**] を上書きします。</span><span class="sxs-lookup"><span data-stu-id="05226-122">Override the **LS Discovery Candidate Effective Value** to the name of the candidate server elected in the earlier procedure.</span></span>
 
-<span data-ttu-id="ed2ff-123">最後に、変更を確定するには、System Center Operations Manager のルート管理サーバーで状態サービスを再起動します。</span><span class="sxs-lookup"><span data-stu-id="ed2ff-123">Lastly, to finalize your changes, restart the health service on the System Center Operations Manager Root Management Server.</span></span>
+<span data-ttu-id="05226-123">最後に、変更を確定するには、System Center Operations Manager のルート管理サーバーで状態サービスを再起動します。</span><span class="sxs-lookup"><span data-stu-id="05226-123">Lastly, to finalize your changes, restart the health service on the System Center Operations Manager Root Management Server.</span></span>
 
 </div>
 
