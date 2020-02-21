@@ -16,12 +16,12 @@ f1.keywords:
 description: 直接ルーティングのランディングページ
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d146c2188f57dbee3887dd2fd595c1b06a86c30e
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: d643c137145649c0843296300a909c520ba653a6
+ms.sourcegitcommit: 0289062510f0791906dab2791c5db8acb1cf849a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836067"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42157905"
 ---
 # <a name="phone-system-direct-routing"></a>電話システムのダイレクト ルーティング
 
@@ -51,7 +51,7 @@ ms.locfileid: "41836067"
 
 |確認事項|アクション |
 | :------------|:-------|
-|どのユーザーが直接ルーティングを有効にしますか? | 詳細については、「[ユーザーが直接ルーティングサービスを有効にする](direct-routing-configure.md#enable-users-for-direct-routing-service)」を参照してください。 |
+|どのユーザーが直接ルーティングを有効にしますか? | 詳細については、「[ユーザーが直接ルーティングサービスを有効にする](direct-routing-configure.md)」を参照してください。 |
 直接ルーティングのために必要なライセンスはありますか? | 詳細については、「[ライセンスとその他の要件](direct-routing-plan.md#licensing-and-other-requirements)」を参照してください。
 |||
 
@@ -71,8 +71,8 @@ ms.locfileid: "41836067"
 
 |確認事項|アクション |
 |:------------|:-------|
-| 作成する必要がある音声ルーティングポリシー、PSTN 使用状況、および音声ルート | 音声ルーティング情報については、「[ボイスルーティングを構成する](direct-routing-configure.md#configure-voice-routing)」をご覧ください。
-| 定義した音声ルーティングポリシーにはどのユーザーが割り当てられますか。 | 「[音声ルーティングを構成する](direct-routing-configure.md#configure-voice-routing)」の例を参照してください。 |
+| 作成する必要がある音声ルーティングポリシー、PSTN 使用状況、および音声ルート | 音声ルーティング情報については、「[ボイスルーティングを構成する](direct-routing-configure.md)」をご覧ください。
+| 定義した音声ルーティングポリシーにはどのユーザーが割り当てられますか。 | 「[音声ルーティングを構成する](direct-routing-configure.md)」の例を参照してください。 |
 |||
 
 ### <a name="ensure-incoming-calls-land-in-the-teams-client-using-teamsupgradepolicy"></a>TeamsUpgradePolicy を使用して、チームクライアントで着信通話を確実に行う

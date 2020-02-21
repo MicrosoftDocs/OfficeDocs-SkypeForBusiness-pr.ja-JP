@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 1つのセッション境界コントローラー (SBC) を複数のテナントに対応するように構成する方法について説明します。
-ms.openlocfilehash: 7bd313c1b0c6d8078ee3ce80b2a08697dc6040e7
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e0027df53edcec54cbeaef560182ffddc451ecbd
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837277"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42160731"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>複数のテナントにセッション ボーダー コントローラーを構成する
 
@@ -37,7 +37,7 @@ ms.locfileid: "41837277"
 - 通話品質の終了を管理します。
 - PSTN サービスに対して別途料金がかかります。
 
-Microsoft は、配送業者を管理しません。 Microsoft は、PBX (Microsoft 電話システム) とチームクライアント、電話の認定、および Microsoft 電話システムで使用できる SBCs の認定を提供しています。 キャリアを選択する前に、お客様の選択内容が認定された SBC であり、音声品質のエンドツーエンドを管理できることを確認してください。
+Microsoft は、配送業者を管理しません。 Microsoft は、PBX (Microsoft 電話システム) と Teams クライアントを提供しています。 Microsoft では、電話を認定しています。また、Microsoft 電話システムでも使用できる認定されています。 キャリアを選択する前に、お客様の選択内容が認定された SBC であり、音声品質のエンドツーエンドを管理できることを確認してください。
 
 次に、シナリオを構成するための技術的な実装手順を示します。
 
@@ -215,7 +215,6 @@ Microsoft は、直接ルーティングの最初のリリースで、新しい-
 
 -  **オーバーヘッド処理**。 複数の論理 trunks から収集されたトランクの正常性データの収集と監視 (実際には同じ SBC と物理的なトランク) によって、ルーティングデータの処理が遅くなります。
  
-
 このフィードバックに基づいて、Microsoft は、お客様のテナントのために trunks をプロビジョニングするための新しいロジックを導入しています。
 
 2つの新しいエンティティが導入されました。
@@ -245,4 +244,22 @@ Microsoft は、直接ルーティングの最初のリリースで、新しい-
  
 
 連絡先ヘッダーでサブドメインの FQDN 名の送信を構成する方法については、「 [SBC ベンダーの手順](#deploy-and-configure-the-sbc)」を参照してください。
+
+## <a name="considerations-for-setting-up-muti-tenant-failover"></a>Muti-テナントのフェールオーバーのセットアップに関する考慮事項 
+
+マルチテナント環境のフェールオーバーを設定するには、次の手順を実行する必要があります。
+
+- テナントごとに、2つの異なる SBCs の Fqdn を追加します。  次に例を示します。
+
+   customer1.sbc1.contoso.com <br>
+   customer2.sbc2.contoso.com <br>
+
+- ユーザーのオンライン音声ルーティングポリシーで、SBCs の両方を指定します。  1つの SBC で障害が発生した場合、ルーティングポリシーによって2番目の SBC に通話がルーティングされます。
+
+
+## <a name="see-also"></a>関連項目
+
+[ダイレクト ルーティングを計画する](direct-routing-plan.md)
+
+[ダイレクト ルーティングを構成する](direct-routing-configure.md)
 

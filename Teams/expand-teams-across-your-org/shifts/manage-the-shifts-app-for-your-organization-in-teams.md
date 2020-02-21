@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams で組織のシフト アプリを管理する
-author: kenwith
+author: LanaChin
 ms.author: v-lanac
 ms.reviewer: lisawu
 manager: serdars
@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7514ef06248eb4685558c3a327a8de1cea12bb62
-ms.sourcegitcommit: ac922addbc1422b5c41273a2e03196efb2ed7770
+ms.openlocfilehash: 134ff131307034381b97643a2bf9a3dd7fc87a7d
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41831169"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161860"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織のシフト アプリを管理する
 
@@ -30,6 +30,7 @@ ms.locfileid: "41831169"
 > 2019 年 12 月 31 日より、Microsoft StaffHub が廃止されます。 Microsoft では、StaffHub の機能を Microsoft Teams に組み込む作業に取り組んでいます。 現在、Teams にはシフト アプリのスケジュール管理機能が含まれています。今後、他の機能もロールアウトされる予定です。 StaffHub は、2019 年 12 月 31 日以降すべてのユーザーがご利用できなくなります。 ユーザーが StaffHub を開くと、Teams をダウンロードするように求めるメッセージが表示されます。 詳細については、「[Microsoft StaffHub の廃止](microsoft-staffhub-to-be-retired.md)」を参照してください。  
 
 ## <a name="overview-of-shifts"></a>シフトの概要
+
 Microsoft Teams の [シフト] アプリでは、Firstline Worker が接続され、同期されます。モバイル機能を搭載しているので、チームの時間管理とコミュニケーションを迅速かつ効率的に行うことができます。 [シフト] では、最初の行の作業者とそのマネージャーは、モバイルデバイスを使ってスケジュールを管理し、連絡を取ることができます。 
 
 - マネージャーは、チームのシフト スケジュールを作成、更新、および管理します。 マネージャーは、メッセージを 1 人のユーザーに送ることも ("床が汚れています" など)、チーム全体に送ることもできます ("地区本部長があと 20 分で到着します" など)。 マネージャーは、ポリシー ドキュメント、ニュース速報、およびビデオを送信することもできます。 
@@ -49,19 +50,17 @@ Microsoft Teams の [シフト] アプリでは、Firstline Worker が接続さ�
 
 ### <a name="enable-or-disable-shifts-in-your-organization"></a>組織のシフトを有効または無効にする
 
-シフトは、組織内のすべての Teams ユーザーに対して既定で有効になっています。 Microsoft Teams 管理センターのアプリのアクセス許可ポリシーで、組織全体の設定を使用して、組織全体のアプリを無効にするか、有効にすることができます。
+シフトは、組織内のすべての Teams ユーザーに対して既定で有効になっています。 Microsoft Teams 管理センターの [[アプリの管理](../../manage-apps.md)] ページで、組織レベルでアプリをオンまたはオフにすることができます。
 
-1. Microsoft Teams 管理センターの左のナビゲーションで、[**チームアプリ** > の**アクセス許可ポリシー** ] に移動します。
-2. [**組織全体の設定**] をクリックします。
-3. [**組織全体の設定**] パネルの [**ブロック**されているアプリ] で、次のいずれかの操作を行います。
+1. Microsoft Teams 管理センターの左のナビゲーションで、[ **Teams アプリ** > の**管理**] に移動します。
+2. アプリの一覧で、次のいずれかの操作を行います。
 
-    - 組織のシフトをオフにするには、[シフト] アプリを検索し、[**追加**] をクリックして、ブロックするアプリの一覧に追加します。
-    - 組織のシフトを有効にするには、[ブロックされたアプリ] リストからシフトアプリを削除します。
-4. **[保存]** をクリックします。 
+    - 組織のシフトをオフにするには、[シフト] アプリを検索して選択し、[**ブロック**] をクリックします。
+    - 組織のシフトを有効にするには、[シフト] アプリを検索して選択し、[**許可**] をクリックします。
 
 ### <a name="enable-or-disable-shifts-for-specific-users-in-your-organization"></a>組織内の特定のユーザーのシフトを有効または無効にする
 
-組織内の特定のユーザーによるシフトの使用を許可またはブロックするには、組織全体の設定で、組織のシフトがオンになっていることを確認してから、カスタムのアプリのアクセス許可ポリシーを作成し、それらのユーザーに割り当てます。 詳細については、「 [Teams でアプリのアクセス許可ポリシーを管理](../../teams-app-permission-policies.md)する」を参照してください。
+組織内の特定のユーザーによるシフトの使用を許可またはブロックするには、[[アプリの管理](../../manage-apps.md)] ページで組織のシフトが有効になっていることを確認してから、カスタムのアプリのアクセス許可ポリシーを作成して、それらのユーザーに割り当てます。 詳細については、「 [Teams でアプリのアクセス許可ポリシーを管理](../../teams-app-permission-policies.md)する」を参照してください。
 
 ### <a name="use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams"></a>FirstlineWorker アプリのセットアップポリシーを使用して、チームにシフトをピン留めする
 

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: c071ebf297714e81cdb8a508ebf313d0054fe633
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 682d2d9fb89c0cee46ca6fb0e856a6000e4c6386
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051571"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161728"
 ---
 # <a name="what-are-communications-credits"></a>通信クレジットについて
 
@@ -68,7 +68,7 @@ Skype for Business で無料電話番号を使用する場合は、通話が分�
 > [!NOTE]
 > [Microsoft 365 管理センターにサインイン](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)し、[ > **サブスクリプション** > の**追加**] サブスクリプションに移動して、プランと**価格を確認**できます。 
   
-**Microsoft 365 管理センター** > の**支払い** > **サブスクリプション**では、いつでも手動でクレジットを追加できます。 You can also enable the **Auto-recharge** option, which will allow automatic account refills when the balance falls below the threshold that you set. If you choose to fund your Communications Credits balance with a one-time amount and then the balance falls to zero, the additional calling scenarios above will no longer work, including toll-free phone numbers. As such, it's recommended that you use the **Auto-recharge** setting to avoid any disruption of service should your Communications Credits balance reach 0 (zero). You will be sent an email when recharge transactions succeed, recharge transactions fail (such as an expired credit card), and or your Communications Credits balance reaches 0 (zero).
+**Microsoft 365 管理センター** > **支払い** > **購入サービス** > **アドオン**では、クレジットを追加するための通信クレジットを選ぶことができます。また、いつでも手動でクレジットを追加することができます。 You can also enable the **Auto-recharge** option, which will allow automatic account refills when the balance falls below the threshold that you set. If you choose to fund your Communications Credits balance with a one-time amount and then the balance falls to zero, the additional calling scenarios above will no longer work, including toll-free phone numbers. As such, it's recommended that you use the **Auto-recharge** setting to avoid any disruption of service should your Communications Credits balance reach 0 (zero). You will be sent an email when recharge transactions succeed, recharge transactions fail (such as an expired credit card), and or your Communications Credits balance reaches 0 (zero).
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 

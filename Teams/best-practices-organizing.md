@@ -16,18 +16,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4661239db682f1cbdc174460db803a01b553d292
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 41f586a9561a55a759768d719d751c98d2c6a975
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826175"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42160374"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Microsoft Teams でチームを編成するためのベスト プラクティス
 ======================================================
-
-> [!TIP]
-> Teams を使用するためのベスト プラクティスまたはヒントはありますか? この記事の終わりにある**コメント** セクションからお知らせください。
 
 Teams は、共通の目標を通じて集まって収集する人々の集まりです。 このグループのメンバーは、部署内または組織全体に存在する可能性があります。 これにより、それらがどのように連携しているかが示されます。 チームのメンバーは、別のペースで作業したり、アセットを別々に作成したりすることもありますが、このエクスペリエンスでは、"高速度のチームワーク" と呼ばれるプロセスによって、互いにすばやく共同作業を行うことができます。  
 

@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 - Direct Routing
 description: 緊急電話、緊急通話のルーティング、動的な緊急通話に関する情報など、緊急通話について説明します。
-ms.openlocfilehash: 010a1d3afd6ea1fa490b506b82c46c31bf3a4fa2
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 85a09880c1eec83851208197c008c8aaafac88f6
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836677"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161690"
 ---
 # <a name="manage-emergency-calling"></a>緊急通話を管理する
 
@@ -157,9 +157,9 @@ TeamsEmergencyCallRoutingPolicy は、チームのダイレクトルーティン
 
 ### <a name="emergency-call-routing"></a>緊急通話ルーティング
 
-TeamsEmergencyCallRoutingPolicy は、オンライン PSTN の使用状況を参照します。適切な PSTN ゲートウェイに緊急通話を正しくルーティングするには、適切なダイレクトルーティング構成が必要です。 特に、緊急ダイヤルの文字列の OnlineVoiceRoute があることを確認する必要があります。 詳細については、「[ダイレクト ルーティングを構成する](direct-routing-configure.md#configure-voice-routing)」を参照してください。 
+TeamsEmergencyCallRoutingPolicy は、オンライン PSTN の使用状況を参照します。適切な PSTN ゲートウェイに緊急通話を正しくルーティングするには、適切なダイレクトルーティング構成が必要です。 特に、緊急ダイヤルの文字列の OnlineVoiceRoute があることを確認する必要があります。 詳細については、「[ダイレクト ルーティングを構成する](direct-routing-configure.md)」を参照してください。 
 
-(注: Skype for Business Server の緊急電話番号には、"+ 911" と一致するように定義されるボイスルートが必要な "+" というプレフィックスが付いています。 Teams クライアントでは、"+" の前に緊急対応の電話番号は付加されません。
+(注: チームクライアントは、Skype for Business クライアント (+ 911) と同様の方法で、緊急電話番号の前に「+」記号を付加します。 この動作は数か月以内に変更されるため、Teams の緊急通話では、番号の前に "+" が送信されなくなります。つまり、911。)
 
 直接ルーティングユーザのために、緊急通話を動的にルーティングする機能は、特定の国の緊急通報ネットワークによって異なります。 次の2つの解決策があります。
 

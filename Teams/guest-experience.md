@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20fd9372c34fd189868aa32882115bee3f6c6f8f
-ms.sourcegitcommit: 346b58b5d5ea0d2ec68891275628dfde32c074fe
+ms.openlocfilehash: ed0ea94910e9b3b5499a1f23a6c1c081590957c7
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41977529"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42160571"
 ---
 <a name="what-the-guest-experience-is-like"></a>ゲストのエクスペリエンスについて
 =================================
@@ -41,22 +41,23 @@ ms.locfileid: "41977529"
 
 |**Teams の機能**|**組織の Teams ユーザー**|**ゲスト ユーザー**|
 |:-----|:-----|:-----|
-|チャネルの作成  <br/>  *この機能はチーム所有者によって制御されます。*  <br/> |![チェックマークを示すアイコン ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![チェックマークを示すアイコン ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|プライベート チャットに参加する  <br/> |![チェックマークを示すアイコン ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![チェックマークを示すアイコン ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|チャネルの会話に参加する  <br/> |![チェックマークを示すアイコン ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![チェックマークを示すアイコン ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|メッセージを投稿、削除、編集する  <br/> |![チェックマークを示すアイコン ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![チェックマークを示すアイコン ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|チャネル ファイルを共有する  <br/> |![チェックマークを示すアイコン ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![チェックマークを示すアイコン ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|チャット ファイルを共有する  <br/> |![チェックマークを示すアイコン ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|アプリ (タブ、ボット、コネクタ) を追加する  <br/> |![チェックマークを示すアイコン ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|会議または access のスケジュールを作成する  <br/> |![チェックマークを示すアイコン ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|OneDrive for Business の記憶域にアクセスする  <br/> |![チェックマークを示すアイコン ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|テナント全体およびチーム/チャネルのゲスト アクセス ポリシーを作成する  <br/> |![チェックマークを示すアイコン ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Office 365 テナントのドメイン外のユーザーを招待する <br/>  *この機能はチーム所有者によって制御されます。*  <br/> <br/> |![チェックマークを示すアイコン ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|チームを作成する  <br/> |![チェックマークを示すアイコン ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|パブリック チームを検出して参加する  <br/> |![チェックマークを示すアイコン ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|組織図を表示する  <br/> |![チェックマークを示すアイコン ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|インライン翻訳を使用する  <br/> |![チェックマークを示すアイコン ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|チーム所有者になる  <br/> |![チェックマークを示すアイコン ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|チャネルの作成  <br/>  *この機能はチーム所有者によって制御されます。*  <br/> |&#x2713;|&#x2713;|
+|プライベート チャットに参加する  <br/> |&#x2713;|&#x2713;|
+|チャネルの会話に参加する  <br/> |&#x2713;|&#x2713;|
+|メッセージを投稿、削除、編集する  <br/> |&#x2713;|&#x2713;|
+|チャネル ファイルを共有する  <br/> |&#x2713;|&#x2713;|
+|チャット ファイルを共有する  <br/> |&#x2713;||
+|アプリ (タブ、ボット、コネクタ) を追加する  <br/> |&#x2713;||
+|会議または access のスケジュールを作成する  <br/> |&#x2713;||
+|OneDrive for Business の記憶域にアクセスする  <br/> |&#x2713;||
+|テナント全体およびチーム/チャネルのゲスト アクセス ポリシーを作成する  <br/> |&#x2713;||
+|Office 365 テナントのドメイン外のユーザーを招待する <br/>  *この機能はチーム所有者によって制御されます。*  <br/> <br/> |&#x2713;||
+|チームを作成する  <br/> |&#x2713;||
+|パブリック チームを検出して参加する  <br/> |&#x2713;||
+|組織図を表示する  <br/> |&#x2713;||
+|インライン翻訳を使用する  <br/> |&#x2713;||
+|チーム所有者になる  <br/> |&#x2713;||
+
    
 次の表は、他の種類のユーザーと比較した場合の、ゲストで利用可能な通話機能と会議機能を示しています。
 

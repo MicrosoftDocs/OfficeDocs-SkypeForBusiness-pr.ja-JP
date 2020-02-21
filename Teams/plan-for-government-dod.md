@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9e5031c804242f2927a5fe9f2521682d736d034a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 12d9350437867b04a181e62e8b23bb6ed78d8fbc
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038119"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161738"
 ---
 # <a name="plan-for-microsoft-365-government---dod-deployments"></a>Microsoft 365 Government-DoD の展開計画
 
@@ -79,6 +79,7 @@ Microsoft 365 Government –米国政府のお客様向けの詳細について�
 | 技術 | ログイン | 利用可能 |
 | | プレゼンス | 利用可能 |
 | | 統合されたプレゼンス (Skype for Business および Teams 統合) | 政府バックログの場合 |
+| | Linux クライアント | 政府バックログの場合 |
 | 処理 | クロス | 利用可能 |
 |  | マイアクティビティ | 利用可能 |
 | チャット | チャット | 利用可能 |

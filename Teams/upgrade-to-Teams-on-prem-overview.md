@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b9bac6ee38c166250746b6ce9f4fb48afe3cbfe2
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+ms.openlocfilehash: 47abe9934c92ce83ab0874a10b2c04ef238b428a
+ms.sourcegitcommit: 0289062510f0791906dab2791c5db8acb1cf849a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41852104"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42157895"
 ---
 # <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>Skype for Business から Teams へのアップグレード &mdash; IT 管理者向け
 
@@ -423,7 +423,7 @@ PSTN 通話機能が関係している場合、TeamsOnly モードへの移行�
 
 1. [このリスト](direct-routing-border-controllers.md)を確認して、ご利用のセッション ボーダー コントローラー (SBC) がダイレクト ルーティングでサポートされていることを確認します。 正しいバージョンのファームウェアを使用していることも確認する必要があります。  
 
-2. オンプレミスの SBC と Teams のダイレクト ルーティング サービスをペアリングします。 詳細については、「[SBC を電話システムのダイレクト ルーティング サービスにペアリングする](direct-routing-configure.md#pair-the-sbc-to-the-direct-routing-service-of-phone-system)」を参照してください。 
+2. オンプレミスの SBC と Teams のダイレクト ルーティング サービスをペアリングします。 詳細については、「[SBC を電話システムのダイレクト ルーティング サービスにペアリングする](direct-routing-configure.md)」を参照してください。 
 
 3. この構成は、実質的にオンプレミス構成のミラーです。 オンライン構成は次の内容で構成されます。 
    - OnlineVoiceRoutingPolicy (Skype for Business Online のユーザーを移行する場合はオンプレミスの VoiceRoutingPolicy に基づき、エンタープライズ VoIP を使用してオンプレミスからユーザーを移行する場合は VoicePolicy に基づく)。

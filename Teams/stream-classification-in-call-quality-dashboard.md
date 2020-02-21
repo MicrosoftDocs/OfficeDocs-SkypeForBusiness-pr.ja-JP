@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: ストリーム品質がMicrosoft TeamsとSkype for Business Onlineの通話品質ダッシュボードでどのように分類されているかをご覧ください。
-ms.openlocfilehash: bb1c96f92ae683f02d5972f8fa11afe15e3c5a92
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2c70126c86a6e9f0a8bc48c8fffa90142fe5928f
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837907"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42160741"
 ---
 # <a name="stream-classification-in-call-quality-dashboard"></a>通話品質ダッシュボードでのストリーム分類
 
@@ -48,8 +48,17 @@ CQD のストリームは、利用可能な主要品質指標の値に基づい�
 |Ratio Concealed Samples Avg|> 0.07|パケット損失の回復によって生成された、オーディオフレームの合計数に対する、非表示のサンプルを含むオーディオフレームの平均比率。|
 ||||
 
-### <a name="video-classifier"></a>ビデオ クラシファイアー
+### <a name="video-classifier-due-to-freeze"></a>固定が原因のビデオクラシファイア
 
+ビデオストリームは、エンドユーザーがフリーズしたビデオを検出するために生成された分類子スコアの値に基づいて、_良好_または_低品質_としてマークされます。 この分類子は、Microsoft Teams 製品に対してのみ利用できます。
+
+|手順 #|指標|シナリオ|状態 |条件が真である場合の分類 |条件が偽の場合の分類 |メトリックが利用できない場合の分類 |説明 |
+|:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
+|1|分類子の固定に基づくビデオ低品質 |サーバーのペアはクライアント: サーバー|>0.246|_Poor_|_Good_|_Unclassified_|ユーザーエクスペリエンスの組み合わせに基づいて生成された 0 ~ 1 のスコア。期間の統計情報と全体的な通話エクスペリエンス |
+|両面|分類子の固定に基づくビデオ低品質 |サーバーのペアはクライアント: クライアント|>0.524|_Poor_|_Good_|_Unclassified_|ユーザーエクスペリエンスの組み合わせに基づいて生成された 0 ~ 1 のスコア。期間の統計情報と全体的な通話エクスペリエンス |
+|  |  |  |  |  |  |  |
+
+### <a name="video-classifier"></a>ビデオ クラシファイアー
 ビデオストリームは、最初に利用可能なメトリックの値に基づいて、次の順序で_正常_または_低品質_としてマークされます。
 
 |手順 #|指標|状態 |条件が真である場合の分類 |条件が偽の場合の分類 |メトリックが利用できない場合の分類 |説明 |
@@ -112,3 +121,4 @@ _未分類_のストリームの ICE 接続に成功した場合、キースト�
 [通話品質ダッシュボードで利用できるディメンションとメジャー](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
 [通話分析を使用して低品質の通話をトラブルシューティングする](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+ 

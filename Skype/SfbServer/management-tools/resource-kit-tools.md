@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: このトピックでは、Skype for Business Server 2015 リソースキットのツールについて説明します。これらのツールは、各ツールの目的や使用例を含みます。 Skype for Business Server 2015 リソースキットは、Skype for business Server 2015 を展開して管理する IT 管理者にとって、日常的な作業を容易にするのに役に立ちます。 たとえば、Web Conf Data ツールを使用すると、オンライン会議中にユーザーによってアップロードされるデータを簡単に制御できます。 SEFAUtil ツールを使用して、代理人の着信の転送とユーザーへの応答を設定することができます。 IT 管理者は、これらのツールを使用して、Skype for Business Server 2015 をさらに効果的に管理することをお勧めします。
-ms.openlocfilehash: ab43d8e951308fab5a4aefc25d9dad2804ea5d0e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7269d7c82736be8e533a0782548a94d14aafcfb5
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42005992"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42160771"
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>Skype for Business Server 2015 リソースキットツールのドキュメント
 
@@ -1113,7 +1113,7 @@ Call Forward No Answer to: voicemail
 次の使用例は、着信転送/着信応答の宛先を指定せず、リングの遅延を設定します。 ここでは、/server スイッチは提供されていません。SEFAUtil は、Skype for Business Server 2015 の自動検出を試行します。
 
 ```console
-SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /enablefwdnoanswer /callanswerwaittime:30 /setfwddestination:+1425555 0126@contoso.com;user=phone
+SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /enablefwdnoanswer /callanswerwaittime:30 /setfwddestination:+14255550126@contoso.com;user=phone
 ```
 
  **出力**
@@ -1150,7 +1150,7 @@ Forward immediate to: sip:anders@contoso.com
 この例では、すぐに着信転送を無効にします。
 
 ```console
-SEFAUtil.exe /server:SfBserver.contoso.com katarina@contoso.com  /disablefwdimmediate
+SEFAUtil.exe /server:SfBserver.contoso.com katarina@contoso.com /disablefwdimmediate
 ```
 
  **出力**
@@ -1381,7 +1381,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /enablegroup
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
-Group Pickup Orbit: sip:199;phone-context=user-default@ contoso.com;user=phone
+Group Pickup Orbit: sip:199;phone-context=user-default@contoso.com;user=phone
 ```
 
 #### <a name="disable-group-call-pickup"></a>グループ通話ピックアップを無効にする

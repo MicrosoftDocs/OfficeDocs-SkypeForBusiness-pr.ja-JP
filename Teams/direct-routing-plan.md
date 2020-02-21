@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: このトピックでは、Microsoft Phone システムのダイレクトルーティングを使用して、サポートされているユーザーが指定したセッションボーダーコントローラー (SBC) を Microsoft 電話システムに接続する方法について説明します。
-ms.openlocfilehash: d279792315aec17df10f5c1335306147c7080287
-ms.sourcegitcommit: eab284e2add7af1b3f3c5f1f77c0a3bbf77857a7
+ms.openlocfilehash: 347a8a7dd64831281c1c9e2f94f2bea24fb18555
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "41953778"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42160711"
 ---
 # <a name="plan-direct-routing"></a>ダイレクト ルーティングを計画する
 
@@ -311,7 +311,7 @@ SBC は、sip.pstnhub.microsoft.com を解決する DNS クエリを行います
 セッション境界コントローラーとクラウドメディアプロセッサ間 (メディアをバイパスしない場合)、または Teams クライアントと SBC (メディアバイパスを有効にしている場合) 間の直接ルーティングインターフェイスでは、次のコーデックを使用できます。
 
 - メディア以外のバイパス (SBC から Cloud Media Processor): SILK、722、g、g.729。
-- メディアのバイパス (SBC と Teams クライアント): SILK、722、g.729、、OPUS
+- メディアのバイパス (SBC と Teams クライアント): SILK、722、g、g.729
 
 サービスの境界コントローラーで特定のコーデックを使うことができます。そのためには、プランから不要なコーデックを除外します。
 

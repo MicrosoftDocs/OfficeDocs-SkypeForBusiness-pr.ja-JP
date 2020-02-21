@@ -19,17 +19,17 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 9117837aab1b218ea34a77731eebaba8f4d27783
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 82af710d8c3cb89171085f9053ed1708d7f568ca
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837397"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161650"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Microsoft Teams のアプリのセットアップ ポリシーを管理する
 
 > [!NOTE]
-> 組織全体のアプリのアクセス許可ポリシー設定を有効にしている場合、**カスタムアプリとの対話を許可**すると、Microsoft Teams 管理センターでまだアプリのセットアップポリシーが表示されない場合があります。 この機能は現在展開中であり、間もなく組織内で利用可能になります。
+> 組織全体のアプリ設定を有効にしている場合、**カスタムアプリとの対話を許可**すると、Microsoft Teams 管理センターにまだアプリセットアップポリシーが表示されないことがあります。 この機能は現在展開中であり、間もなく組織内で利用可能になります。
 
 管理者は、アプリセットアップポリシーを使って Microsoft Teams をカスタマイズし、ユーザーにとって最も重要なアプリを強調表示することができます。 ピン留めするアプリを選択し、表示される順序を設定します。 アプリセットアップポリシーを使用すると、サードパーティによって構築されたアプリや組織内の開発者など、組織内のユーザーが必要とするアプリを表示できます。 また、アプリセットアップポリシーを使用して、ユーザーがアプリをチームに固定できるかどうかを制御したり、組み込みの機能の表示方法を管理したりすることもできます。
 
@@ -56,7 +56,7 @@ Microsoft Teams 管理センターを使用して、カスタムポリシーを�
 2. [**追加**] をクリックします。
     ![[アプリセットアップポリシーの追加] ページを示すスクリーンショット](media/app-setup-policies-add.png)
 3. ポリシーの名前と説明を入力します。
-4. ユーザーがカスタムアプリをチームにアップロードできるかどうかに応じて、**カスタムアプリのアップロード**を有効または無効にします。 アプリのアクセス許可ポリシーで、[組織全体のアプリ設定](teams-app-permission-policies.md#manage-org-wide-app-settings)で**サードパーティ製のアプリ**が無効になっている場合、この設定を変更することはできません。
+4. ユーザーがカスタムアプリをチームにアップロードできるかどうかに応じて、**カスタムアプリのアップロード**を有効または無効にします。 [組織全体のアプリ設定](manage-apps.md#manage-org-wide-app-settings)で**サードパーティ製のアプリ**が無効になっている場合、この設定を変更することはできません。
 5. ユーザーがアプリをカスタマイズ**できる**ようにするかどうかに応じて、ユーザーの固定を有効または無効にします。
 6. [**アプリの追加**] をクリックします。
 7. [固定された**アプリの追加**] ウィンドウで、追加するアプリを検索し、[**追加**] をクリックします。 アプリのアクセス許可ポリシーによってアプリをフィルター処理することもできます。 アプリの一覧を選択したら、[**追加**] をクリックします。
@@ -126,7 +126,7 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 #### <a name="what-built-in-app-setup-policies-are-included-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターには、どのような組み込みのアプリセットアップポリシーが含まれていますか?
 
 - **グローバル (組織全体の既定)**: この既定のポリシーは、別のポリシーを割り当てない限り、組織内のすべてのユーザーに適用されます。 グローバルポリシーを編集して、ユーザーにとって最も重要なアプリをピン留めします。
-- **Firstlineworker**: このポリシーは、第1行のワーカー用です。 組織の最初のラインワーカーに割り当てることができます。 作成するカスタムポリシーなど、設定をアクティブにするユーザーにポリシーを割り当てる必要があることを知っておくことが重要です。 詳細については、この記事の「[ユーザーにカスタムアプリセットアップポリシーを割り当てる](#assign-a-custom-app-setup-policy-to-users)」セクションを参照してください。
+- **Firstlineworker**: このポリシーは、firstline worker に対して使用されます。 組織内の Firstline Worker に割り当てることができます。 作成するカスタムポリシーなど、設定をアクティブにするユーザーにポリシーを割り当てる必要があることを知っておくことが重要です。 詳細については、この記事の「[ユーザーにカスタムアプリセットアップポリシーを割り当てる](#assign-a-custom-app-setup-policy-to-users)」セクションを参照してください。
 
 #### <a name="why-cant-i-find-an-app-in-the-add-pinned-apps-pane"></a>[ピン留めしたアプリの追加] ウィンドウでアプリが見つからないのはなぜですか?
 
@@ -163,7 +163,7 @@ Teams app store にはすべての Teams アプリが一覧表示されます。
 
 現在、Teams モバイルクライアント (iOS と Android) では、静的なタブを持つ個人用アプリはサポートされていません。 ポリシーに設定されているアプリによっては、Teams のデスクトップクライアントに固定されたアプリが Teams のモバイルクライアントに表示されない場合があります。 携帯電話クライアントのチャットには、個人用のボットが引き続き表示されます。
 
-Teams のモバイルクライアントでは、ユーザーにはアクティビティ、チャット、Teams などの主要な Teams アプリが表示され、シフトなどの一部のサードパーティ製アプリを Microsoft からピン留めすることができます。 
+Teams のモバイルクライアントでは、ユーザーにはアクティビティ、チャット、Teams などの主要な Teams アプリが表示され、シフトなどの一部のサードパーティ製アプリを Microsoft からピン留めすることができます。
 
 #### <a name="can-users-change-the-order-of-apps-pinned-through-a-policy"></a>ユーザーはポリシーによって固定されたアプリの順序を変更できますか。
 
@@ -171,10 +171,11 @@ Teams のモバイルクライアントでは、ユーザーにはアクティ�
 
 ### <a name="custom-teams-apps"></a>カスタム Teams アプリ
 
-#### <a name="my-organization-built-a-custom-teams-app-and-published-it-either-to-appsource-or-the-tenant-app-catalog-but-the-app-icon-isnt-displayed-as-expected-when-the-app-is-pinned-to-the-app-bar-in-teams-how-do-i-fix-it"></a>組織では、カスタム Teams アプリを構築し、AppSource またはテナントのアプリカタログに公開していますが、アプリが Teams のアプリバーにピン留めされている場合、アプリのアイコンは期待どおりに表示されません。 問題を解決するにはどうすればよいですか? 
+#### <a name="my-organization-built-a-custom-teams-app-and-published-it-either-to-appsource-or-the-tenant-app-catalog-but-the-app-icon-isnt-displayed-as-expected-when-the-app-is-pinned-to-the-app-bar-in-teams-how-do-i-fix-it"></a>組織では、カスタム Teams アプリを構築し、AppSource またはテナントのアプリカタログに公開していますが、アプリが Teams のアプリバーにピン留めされている場合、アプリのアイコンは期待どおりに表示されません。 問題を解決するにはどうすればよいですか?
 
 アプリを申請する前に、ロゴガイドラインに従っていることを確認してください。 詳細については、「[販売業者ダッシュボードの申請のチェックリスト](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/overview)」を参照してください。 
 
  ## <a name="related-topics"></a>関連トピック
+
 - [Teams でのアプリの管理設定](admin-settings.md)
 - [Teams クライアントからテナントアプリカタログにアプリを発行する](tenant-apps-catalog-teams.md)
