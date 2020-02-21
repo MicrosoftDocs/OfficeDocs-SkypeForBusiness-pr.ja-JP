@@ -17,12 +17,12 @@ hideEdit: true
 f1.keywords:
 - NOCSH
 description: マイクロソフトは、選択した SBC ベンダーと提携して、SBC がダイレクト ルーティングと連携することを保証しています。
-ms.openlocfilehash: b574911c2d819e665f088ec8be12f24e1830daf2
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 3e442a2afd61c3d5c39ac8edc89fa128131ac468
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837587"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42214413"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト
 
@@ -53,21 +53,27 @@ Microsoft は各ベンダーと連携して次のことを行うことができ�
 |                                                                                                                     | Mediant 1000B  SBC  |     &#10004;     |   Pending     |  7.20  |    |    |    
 |                                                                                                                     | Mediant 9000 SBC  |     &#10004;     |   &#10004;     |  7.20   |    |    |                                                                       
 |                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  7.20 |    |    |    
-|  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5110       |     &#10004;     |   &#10004;    |       V 7.2       |  自分の自分の自分の ado <br>@ @ @ @ @ |   いいえ |    
-|                                                                                                                     |      SBC 5210       |     &#10004;     |  &#10004;    |       V 7.2       |   自分の自分の自分の ado <br>@ @ @ @ @  | いいえ   |    
-|                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       V 7.2       |  自分の自分の自分の ado <br>@ @ @ @ @    |いいえ|    
-|                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       V 7.2       |   自分の自分の自分の ado <br>@ @ @ @ @  |  いいえ  |    
-|                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       V 7.2       |   自分の自分の自分の ado <br>@ @ @ @ @ |   いいえ |    
-|                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      v 8.0.3 (ビルド 537)     |  自分の自分の自分の ado <br>@ @ @ @ @   |  Pending  |    
-|                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     v 8.0.3 (ビルド 537)     |  自分の自分の自分の ado <br>@ @ @ @ @  |  Pending  |    
-|                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      v 8.0.3 (ビルド 216)    |  自分の自分の自分の ado <br>@ @ @ @ @   |  Pending  |    
-|                     [ThinkTel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |   Pending    |       V1.4       |     |    |    
-|                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |   自分の自分の自分の ado <br>@ @ @ @ @  |    |    
-|                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |   自分の自分の自分の ado <br>@ @ @ @ @  |    |    
-|                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |   自分の自分の自分の ado <br>@ @ @ @ @ |    |    
-|                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |  自分の自分の自分の ado <br>@ @ @ @ @  |    |    
-|                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   自分の自分の自分の ado <br>@ @ @ @ @ |    |                                            
-|                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   自分の自分の自分の ado <br>@ @ @ @ @  |    |    
+|  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5110       |     &#10004;     |   &#10004;    |       V 7.2       | <ul> <li>自分の自分の自分の ado </li> <li>@ @ @ @ @</li> <li> 赤いスカイホライズンの機動性 </li> </ul> |   いいえ |    
+|                                                                                                                     |      SBC 5210       |     &#10004;     |  &#10004;    |       V 7.2       |  <ul> <li>自分の自分の自分の ado </li> <li>@ @ @ @ @</li> <li> 赤いスカイホライズンの機動性 </li> </ul> | いいえ   |    
+|                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       V 7.2       |  <ul> <li>自分の自分の自分の ado </li> <li>@ @ @ @ @</li> <li> 赤いスカイホライズンの機動性 </li> </ul>  |いいえ|    
+|                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       V 7.2       |   <ul> <li>自分の自分の自分の ado </li> <li>@ @ @ @ @</li> <li> 赤いスカイホライズンの機動性 </li> </ul> |  いいえ  |    
+|                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       V 7.2       |   <ul> <li>自分の自分の自分の ado </li> <li>@ @ @ @ @</li> <li> 赤いスカイホライズンの機動性 </li> </ul> |   いいえ |    
+|                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      v 8.0.3 (ビルド 537)     |  <ul> <li> 自分の自分の自分の ado </li> <li>@ @ @ @ @ </li> </ul>   |         |    
+|                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     v 8.0.3 (ビルド 537)     |  <ul> <li> 自分の自分の自分の ado </li> <li>@ @ @ @ @ </li> </ul>   |           |    
+|                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      v 8.0.3 (ビルド 216)    |  <ul> <li> 自分の自分の自分の ado </li> <li>@ @ @ @ @ </li> </ul>    |           |    
+|                     [ThinkTel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |           |       V1.4       |     |    |    
+|                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |   <ul> <li> 自分の自分の自分の ado </li> <li>@ @ @ @ @ </li> </ul>   |    |    
+|                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |  <ul> <li> 自分の自分の自分の ado </li> <li>@ @ @ @ @ </li> </ul>  |    |    
+|                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |   <ul> <li> 自分の自分の自分の ado </li> <li>@ @ @ @ @ </li> </ul>  |    |    
+|                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |  <ul> <li> 自分の自分の自分の ado </li> <li>@ @ @ @ @ </li> </ul>   |    |    
+|                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   <ul> <li> 自分の自分の自分の ado </li> <li>@ @ @ @ @ </li> </ul>  |    |                                            
+|                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   <ul> <li> 自分の自分の自分の ado </li> <li>@ @ @ @ @ </li> </ul>   |    |    
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      v3.16.2      |     |    |    
+
+次の表は、ダイレクトルーティングとアナログデバイスの相互運用性を確認するデバイスを示しています。
+
+|                                                       仕入先                                                        |       Product       | ベリファイ
+|---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|
+| [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   [ATA-1](https://www.audiocodes.com/media/2373/mp-1xx-and-mp-124-datasheet.pdf)   |     &#10004;     |
 
 新機能のアイデアなど、チームに関する製品のフィードバックを提供するには、「 [Uservoice](https://microsoftteams.uservoice.com)のバージョンに付与された証明書」を参照してください。 つまり、メジャーバージョンに従った SBC ファームウェアで任意の数のファームウェアがサポートされていることを意味します。

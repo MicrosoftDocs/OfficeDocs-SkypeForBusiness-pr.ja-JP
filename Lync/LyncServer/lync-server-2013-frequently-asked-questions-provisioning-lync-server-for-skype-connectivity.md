@@ -12,16 +12,16 @@ ms:contentKeyID: 57793362
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 718dda9966b79ca75f64df115dc9a6ba30d15619
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 3679999bc12f606fe338652e8bef22e455cec9ef
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42136995"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42214673"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -124,7 +124,7 @@ _**トピックの最終更新日:** 2019-03-22_
 
 2.  ドメインが Microsoft によってプロビジョニングされたことを確認するメッセージが表示されるまで待機します。
 
-3.  確認が表示されたら、Lync 管理センターを使用して "外部通信" を有効にします。 詳細については、[http://office.microsoft.com/support/configure-external-communications-HA102817865.aspx?CTT=5\&origin=HA102817356](http://office.microsoft.com/support/configure-external-communications-ha102817865.aspx?ctt=5%26origin=ha102817356)
+3.  確認が表示されたら、Lync 管理センターを使用して "外部通信" を有効にします。 詳細については、[https://office.microsoft.com/support/configure-external-communications-HA102817865.aspx?CTT=5\&origin=HA102817356](https://office.microsoft.com/support/configure-external-communications-ha102817865.aspx?ctt=5%26origin=ha102817356)
 
 この順序は重要です。Lync Online で通信を有効にする前に、オンプレミス接続をセットアップする必要があります。 順序を逆にした場合、でオンプレミスで<https://pic.lync.com>入力された情報は通過しません。 このドメインとの外部通信に既に Lync Online をセットアップしている場合は、これをオフにし、24時間待機してから、もう一度開始します。最初<https://pic.lync.com>に、オンプレミス情報を入力してから、lync Online の外部通信を有効にしてください。
 
