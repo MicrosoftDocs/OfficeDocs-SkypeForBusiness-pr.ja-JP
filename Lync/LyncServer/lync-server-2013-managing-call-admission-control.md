@@ -12,20 +12,20 @@ ms:contentKeyID: 49733784
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 05982d5e478b0312964e6876f5fc80afc43b5d8f
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 142fd61877dcd5812e0f1828d4bad770a7e465fd
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42140220"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42185810"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-call-admission-control-in-lync-server-2013"></a><span data-ttu-id="dfa47-102">Lync Server 2013 での通話受付管理の管理</span><span class="sxs-lookup"><span data-stu-id="dfa47-102">Managing call admission control in Lync Server 2013</span></span>
+# <a name="managing-call-admission-control-in-lync-server-2013"></a><span data-ttu-id="24e56-102">Lync Server 2013 での通話受付管理の管理</span><span class="sxs-lookup"><span data-stu-id="24e56-102">Managing call admission control in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,38 +35,38 @@ ms.locfileid: "42140220"
 
 <span> </span>
 
-<span data-ttu-id="dfa47-103">_**トピックの最終更新日:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="dfa47-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="24e56-103">_**トピックの最終更新日:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="24e56-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="dfa47-104">通話受付管理 (CAC) では、利用可能なネットワーク帯域幅に基づいて、音声通話やビデオ通話のようなリアルタイム通信セッションの確立を許可するかどうかを判断できます。</span><span class="sxs-lookup"><span data-stu-id="dfa47-104">Call admission control (CAC) determines, based on available network bandwidth, whether to allow real-time communications sessions such as voice or video calls to be established.</span></span> <span data-ttu-id="dfa47-105">Lync Server 2013 環境のさまざまな CAC 機能を管理するには、以下の手順を使用します。</span><span class="sxs-lookup"><span data-stu-id="dfa47-105">Use the following procedures to manage different CAC features for your Lync Server 2013 environment.</span></span>
+<span data-ttu-id="24e56-104">通話受付管理 (CAC) では、利用可能なネットワーク帯域幅に基づいて、音声通話やビデオ通話のようなリアルタイム通信セッションの確立を許可するかどうかを判断できます。</span><span class="sxs-lookup"><span data-stu-id="24e56-104">Call admission control (CAC) determines, based on available network bandwidth, whether to allow real-time communications sessions such as voice or video calls to be established.</span></span> <span data-ttu-id="24e56-105">Lync Server 2013 環境のさまざまな CAC 機能を管理するには、以下の手順を使用します。</span><span class="sxs-lookup"><span data-stu-id="24e56-105">Use the following procedures to manage different CAC features for your Lync Server 2013 environment.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="dfa47-106">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="dfa47-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="24e56-106">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="24e56-106">In This Section</span></span>
 
-  - [<span data-ttu-id="dfa47-107">Lync Server 2013 での通話受付管理の有効化</span><span class="sxs-lookup"><span data-stu-id="dfa47-107">Enabling call admission control in Lync Server 2013</span></span>](lync-server-2013-enabling-call-admission-control.md)
+  - [<span data-ttu-id="24e56-107">Lync Server 2013 での通話受付管理の有効化</span><span class="sxs-lookup"><span data-stu-id="24e56-107">Enabling call admission control in Lync Server 2013</span></span>](lync-server-2013-enabling-call-admission-control.md)
 
-  - [<span data-ttu-id="dfa47-108">Lync Server 2013 でのネットワーク帯域幅ポリシープロファイルの管理</span><span class="sxs-lookup"><span data-stu-id="dfa47-108">Managing network bandwidth policy profiles in Lync Server 2013</span></span>](lync-server-2013-managing-network-bandwidth-policy-profiles.md)
+  - [<span data-ttu-id="24e56-108">Lync Server 2013 でのネットワーク帯域幅ポリシープロファイルの管理</span><span class="sxs-lookup"><span data-stu-id="24e56-108">Managing network bandwidth policy profiles in Lync Server 2013</span></span>](lync-server-2013-managing-network-bandwidth-policy-profiles.md)
 
-  - [<span data-ttu-id="dfa47-109">Lync Server 2013 のネットワーク地域</span><span class="sxs-lookup"><span data-stu-id="dfa47-109">Network regions in Lync Server 2013</span></span>](lync-server-2013-network-regions.md)
+  - [<span data-ttu-id="24e56-109">Lync Server 2013 のネットワーク地域</span><span class="sxs-lookup"><span data-stu-id="24e56-109">Network regions in Lync Server 2013</span></span>](lync-server-2013-network-regions.md)
 
-  - [<span data-ttu-id="dfa47-110">Lync Server 2013 のネットワーク地域ルート</span><span class="sxs-lookup"><span data-stu-id="dfa47-110">Network region routes in Lync Server 2013</span></span>](lync-server-2013-network-region-routes.md)
+  - [<span data-ttu-id="24e56-110">Lync Server 2013 のネットワーク地域ルート</span><span class="sxs-lookup"><span data-stu-id="24e56-110">Network region routes in Lync Server 2013</span></span>](lync-server-2013-network-region-routes.md)
 
-  - [<span data-ttu-id="dfa47-111">Lync Server 2013 のサイトの通話受付管理</span><span class="sxs-lookup"><span data-stu-id="dfa47-111">Call admission control for sites in Lync Server 2013</span></span>](lync-server-2013-call-admission-control-for-sites.md)
+  - [<span data-ttu-id="24e56-111">Lync Server 2013 のサイトの通話受付管理</span><span class="sxs-lookup"><span data-stu-id="24e56-111">Call admission control for sites in Lync Server 2013</span></span>](lync-server-2013-call-admission-control-for-sites.md)
 
-  - [<span data-ttu-id="dfa47-112">Lync Server 2013 でメディアバイパスを有効または無効にする</span><span class="sxs-lookup"><span data-stu-id="dfa47-112">Enabling and disabling media bypass in Lync Server 2013</span></span>](lync-server-2013-enabling-and-disabling-media-bypass.md)
+  - [<span data-ttu-id="24e56-112">Lync Server 2013 でメディアバイパスを有効または無効にする</span><span class="sxs-lookup"><span data-stu-id="24e56-112">Enabling and disabling media bypass in Lync Server 2013</span></span>](lync-server-2013-enabling-and-disabling-media-bypass.md)
 
-  - [<span data-ttu-id="dfa47-113">Lync Server 2013 でのネットワーク地域のリンク</span><span class="sxs-lookup"><span data-stu-id="dfa47-113">Linking network regions in Lync Server 2013</span></span>](lync-server-2013-linking-network-regions.md)
+  - [<span data-ttu-id="24e56-113">Lync Server 2013 でのネットワーク地域のリンク</span><span class="sxs-lookup"><span data-stu-id="24e56-113">Linking network regions in Lync Server 2013</span></span>](lync-server-2013-linking-network-regions.md)
 
-  - [<span data-ttu-id="dfa47-114">Lync Server 2013 でのネットワークサブネットの管理</span><span class="sxs-lookup"><span data-stu-id="dfa47-114">Managing network subnets in Lync Server 2013</span></span>](lync-server-2013-managing-network-subnets.md)
+  - [<span data-ttu-id="24e56-114">Lync Server 2013 でのネットワークサブネットの管理</span><span class="sxs-lookup"><span data-stu-id="24e56-114">Managing network subnets in Lync Server 2013</span></span>](lync-server-2013-managing-network-subnets.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="dfa47-115">関連項目</span><span class="sxs-lookup"><span data-stu-id="dfa47-115">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="24e56-115">関連項目</span><span class="sxs-lookup"><span data-stu-id="24e56-115">See Also</span></span>
 
 
-[<span data-ttu-id="dfa47-116">Lync Server 2013 での通話受付管理の概要</span><span class="sxs-lookup"><span data-stu-id="dfa47-116">Overview of call admission control in Lync Server 2013</span></span>](lync-server-2013-overview-of-call-admission-control.md)  
+[<span data-ttu-id="24e56-116">Lync Server 2013 での通話受付管理の概要</span><span class="sxs-lookup"><span data-stu-id="24e56-116">Overview of call admission control in Lync Server 2013</span></span>](lync-server-2013-overview-of-call-admission-control.md)  
   
 
 </div>

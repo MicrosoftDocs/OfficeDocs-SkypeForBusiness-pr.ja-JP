@@ -12,20 +12,20 @@ ms:contentKeyID: 48184963
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 56e6f8ba3ba0de9448d8588f189ff5751551e49a
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 85f9e49dd2d4272cea5f3a36326612992aba2ddb
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42137666"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42186000"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="macaddress-table-in-lync-server-2013"></a><span data-ttu-id="e4412-102">Lync Server 2013 の MacAddress テーブル</span><span class="sxs-lookup"><span data-stu-id="e4412-102">MacAddress table in Lync Server 2013</span></span>
+# <a name="macaddress-table-in-lync-server-2013"></a><span data-ttu-id="e5a43-102">Lync Server 2013 の MacAddress テーブル</span><span class="sxs-lookup"><span data-stu-id="e5a43-102">MacAddress table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42137666"
 
 <span> </span>
 
-<span data-ttu-id="e4412-103">_**トピックの最終更新日:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="e4412-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="e5a43-103">_**トピックの最終更新日:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="e5a43-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="e4412-p101">MacAddress テーブルは補助的なテーブルです。個々のレコードが 1 つのソースを表します。</span><span class="sxs-lookup"><span data-stu-id="e4412-p101">The MacAddress table is a supporting table. Each record represents one source.</span></span>
+<span data-ttu-id="e5a43-p101">MacAddress テーブルは補助的なテーブルです。個々のレコードが 1 つのソースを表します。</span><span class="sxs-lookup"><span data-stu-id="e5a43-p101">The MacAddress table is a supporting table. Each record represents one source.</span></span>
 
 
 <table>
@@ -49,24 +49,24 @@ ms.locfileid: "42137666"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="e4412-106"><strong>列</strong></span><span class="sxs-lookup"><span data-stu-id="e4412-106"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="e4412-107"><strong>データ型</strong></span><span class="sxs-lookup"><span data-stu-id="e4412-107"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="e4412-108"><strong>キー/インデックス</strong></span><span class="sxs-lookup"><span data-stu-id="e4412-108"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="e4412-109"><strong>詳細</strong></span><span class="sxs-lookup"><span data-stu-id="e4412-109"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="e5a43-106"><strong>列</strong></span><span class="sxs-lookup"><span data-stu-id="e5a43-106"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="e5a43-107"><strong>データ型</strong></span><span class="sxs-lookup"><span data-stu-id="e5a43-107"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="e5a43-108"><strong>キー/インデックス</strong></span><span class="sxs-lookup"><span data-stu-id="e5a43-108"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="e5a43-109"><strong>詳細</strong></span><span class="sxs-lookup"><span data-stu-id="e5a43-109"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e4412-110"><strong>MacAddressKey</strong></span><span class="sxs-lookup"><span data-stu-id="e4412-110"><strong>MacAddressKey</strong></span></span></p></td>
-<td><p><span data-ttu-id="e4412-111">int</span><span class="sxs-lookup"><span data-stu-id="e4412-111">int</span></span></p></td>
-<td><p><span data-ttu-id="e4412-112">Primary</span><span class="sxs-lookup"><span data-stu-id="e4412-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="e4412-113">MAC アドレスを識別する一意の番号。</span><span class="sxs-lookup"><span data-stu-id="e4412-113">Unique number identifying the Mac address.</span></span></p></td>
+<td><p><span data-ttu-id="e5a43-110"><strong>MacAddressKey</strong></span><span class="sxs-lookup"><span data-stu-id="e5a43-110"><strong>MacAddressKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="e5a43-111">int</span><span class="sxs-lookup"><span data-stu-id="e5a43-111">int</span></span></p></td>
+<td><p><span data-ttu-id="e5a43-112">Primary</span><span class="sxs-lookup"><span data-stu-id="e5a43-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="e5a43-113">MAC アドレスを識別する一意の番号。</span><span class="sxs-lookup"><span data-stu-id="e5a43-113">Unique number identifying the Mac address.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e4412-114"><strong>MacAddress</strong></span><span class="sxs-lookup"><span data-stu-id="e4412-114"><strong>MacAddress</strong></span></span></p></td>
-<td><p><span data-ttu-id="e4412-115">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="e4412-115">varchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="e4412-116">一意</span><span class="sxs-lookup"><span data-stu-id="e4412-116">Unique</span></span></p></td>
-<td><p><span data-ttu-id="e4412-117">MAC アドレス文字列。</span><span class="sxs-lookup"><span data-stu-id="e4412-117">Mac address string.</span></span></p></td>
+<td><p><span data-ttu-id="e5a43-114"><strong>MacAddress</strong></span><span class="sxs-lookup"><span data-stu-id="e5a43-114"><strong>MacAddress</strong></span></span></p></td>
+<td><p><span data-ttu-id="e5a43-115">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="e5a43-115">varchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="e5a43-116">一意</span><span class="sxs-lookup"><span data-stu-id="e5a43-116">Unique</span></span></p></td>
+<td><p><span data-ttu-id="e5a43-117">MAC アドレス文字列。</span><span class="sxs-lookup"><span data-stu-id="e5a43-117">Mac address string.</span></span></p></td>
 </tr>
 </tbody>
 </table>

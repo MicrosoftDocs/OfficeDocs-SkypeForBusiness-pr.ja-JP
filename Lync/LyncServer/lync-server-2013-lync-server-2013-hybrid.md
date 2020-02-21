@@ -12,20 +12,20 @@ ms:contentKeyID: 48183839
 ms.date: 05/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8e8a6e578a6d6f6a97783eb4903350a5fec18b74
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 1626b01f1cf008285e7d7fd12c6987c8da9f9ba4
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42144954"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42186180"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-hybrid"></a><span data-ttu-id="bc1d3-102">Lync Server 2013 ハイブリッド</span><span class="sxs-lookup"><span data-stu-id="bc1d3-102">Lync Server 2013 hybrid</span></span>
+# <a name="lync-server-2013-hybrid"></a><span data-ttu-id="83f73-102">Lync Server 2013 ハイブリッド</span><span class="sxs-lookup"><span data-stu-id="83f73-102">Lync Server 2013 hybrid</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "42144954"
 
 <span> </span>
 
-<span data-ttu-id="bc1d3-103">_**トピックの最終更新日:** 2016-05-25_</span><span class="sxs-lookup"><span data-stu-id="bc1d3-103">_**Topic Last Modified:** 2016-05-25_</span></span>
+<span data-ttu-id="83f73-103">_**トピックの最終更新日:** 2016-05-25_</span><span class="sxs-lookup"><span data-stu-id="83f73-103">_**Topic Last Modified:** 2016-05-25_</span></span>
 
-<span data-ttu-id="bc1d3-104">Lync ハイブリッド展開では、社内の一部の Lync ユーザーと Lync Online の他のユーザーに、同じドメインを共有することができます。</span><span class="sxs-lookup"><span data-stu-id="bc1d3-104">With Lync hybrid deployments, you can have some of your Lync users on-premises, and other users in Lync Online, both sharing the same domain.</span></span> <span data-ttu-id="bc1d3-105">これにより、組織のユーザーに対して、異なる地理的な場所やリモートで接続するユーザーに Lync services を提供することが容易になります。</span><span class="sxs-lookup"><span data-stu-id="bc1d3-105">This can make it easier to provide Lync services to users of your organization in different geographic locations or users that connect remotely.</span></span> <span data-ttu-id="bc1d3-106">Office 365 への移行パスとして Lync ハイブリッド構成を利用することもできます。</span><span class="sxs-lookup"><span data-stu-id="bc1d3-106">You can also take advantage of Lync hybrid configurations as a migration path to Office 365.</span></span>
+<span data-ttu-id="83f73-104">Lync ハイブリッド展開では、社内の一部の Lync ユーザーと Lync Online の他のユーザーに、同じドメインを共有することができます。</span><span class="sxs-lookup"><span data-stu-id="83f73-104">With Lync hybrid deployments, you can have some of your Lync users on-premises, and other users in Lync Online, both sharing the same domain.</span></span> <span data-ttu-id="83f73-105">これにより、組織のユーザーに対して、異なる地理的な場所やリモートで接続するユーザーに Lync services を提供することが容易になります。</span><span class="sxs-lookup"><span data-stu-id="83f73-105">This can make it easier to provide Lync services to users of your organization in different geographic locations or users that connect remotely.</span></span> <span data-ttu-id="83f73-106">Office 365 への移行パスとして Lync ハイブリッド構成を利用することもできます。</span><span class="sxs-lookup"><span data-stu-id="83f73-106">You can also take advantage of Lync hybrid configurations as a migration path to Office 365.</span></span>
 
-<span data-ttu-id="bc1d3-107">このセクションでは、Lync Server 2013 のハイブリッド構成について説明します。</span><span class="sxs-lookup"><span data-stu-id="bc1d3-107">This section describes hybrid configurations for Lync Server 2013.</span></span>
+<span data-ttu-id="83f73-107">このセクションでは、Lync Server 2013 のハイブリッド構成について説明します。</span><span class="sxs-lookup"><span data-stu-id="83f73-107">This section describes hybrid configurations for Lync Server 2013.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="bc1d3-108">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="bc1d3-108">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="83f73-108">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="83f73-108">In This Section</span></span>
 
-[<span data-ttu-id="bc1d3-109">Lync Server 2013 ハイブリッド展開の概要</span><span class="sxs-lookup"><span data-stu-id="bc1d3-109">Overview of Lync Server 2013 hybrid deployments</span></span>](lync-server-2013-overview-of-hybrid-deployments.md)
+[<span data-ttu-id="83f73-109">Lync Server 2013 ハイブリッド展開の概要</span><span class="sxs-lookup"><span data-stu-id="83f73-109">Overview of Lync Server 2013 hybrid deployments</span></span>](lync-server-2013-overview-of-hybrid-deployments.md)
 
-[<span data-ttu-id="bc1d3-110">Lync Server 2013 ハイブリッド展開の計画</span><span class="sxs-lookup"><span data-stu-id="bc1d3-110">Planning for Lync Server 2013 hybrid deployments</span></span>](lync-server-2013-planning-for-hybrid-deployments.md)
+[<span data-ttu-id="83f73-110">Lync Server 2013 ハイブリッド展開の計画</span><span class="sxs-lookup"><span data-stu-id="83f73-110">Planning for Lync Server 2013 hybrid deployments</span></span>](lync-server-2013-planning-for-hybrid-deployments.md)
 
-[<span data-ttu-id="bc1d3-111">Lync Server 2013 ハイブリッド展開の構成</span><span class="sxs-lookup"><span data-stu-id="bc1d3-111">Configuring Lync Server 2013 hybrid deployments</span></span>](lync-server-2013-configuring-hybrid-deployments.md)
+[<span data-ttu-id="83f73-111">Lync Server 2013 ハイブリッド展開の構成</span><span class="sxs-lookup"><span data-stu-id="83f73-111">Configuring Lync Server 2013 hybrid deployments</span></span>](lync-server-2013-configuring-hybrid-deployments.md)
 
 </div>
 

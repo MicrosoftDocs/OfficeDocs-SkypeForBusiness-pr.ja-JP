@@ -12,20 +12,20 @@ ms:contentKeyID: 56335087
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 693ed148a6846e043eca583616444497a46611c0
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 58bc253427e26c63d97610f5958ae26287fd42e9
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42138178"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42186520"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="location-based-routing-for-conferencing-in-lync-server-2013"></a><span data-ttu-id="50361-102">Lync Server 2013 での会議の場所に基づくルーティング</span><span class="sxs-lookup"><span data-stu-id="50361-102">Location-Based Routing for conferencing in Lync Server 2013</span></span>
+# <a name="location-based-routing-for-conferencing-in-lync-server-2013"></a><span data-ttu-id="3faf0-102">Lync Server 2013 での会議の場所に基づくルーティング</span><span class="sxs-lookup"><span data-stu-id="3faf0-102">Location-Based Routing for conferencing in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "42138178"
 
 <span> </span>
 
-<span data-ttu-id="50361-103">_**トピックの最終更新日:** 2013-07-31_</span><span class="sxs-lookup"><span data-stu-id="50361-103">_**Topic Last Modified:** 2013-07-31_</span></span>
+<span data-ttu-id="3faf0-103">_**トピックの最終更新日:** 2013-07-31_</span><span class="sxs-lookup"><span data-stu-id="3faf0-103">_**Topic Last Modified:** 2013-07-31_</span></span>
 
-<span data-ttu-id="50361-104">場所に基づくルーティングを使用すると、通話の当事者の場所に基づいて、VoIP エンドポイントと PSTN エンドポイント間での通話のルーティングを制限することができます。</span><span class="sxs-lookup"><span data-stu-id="50361-104">Location-Based Routing makes it possible to restrict the routing of calls between VoIP endpoints and PSTN endpoints based on the location of the parties in the call.</span></span> <span data-ttu-id="50361-105">Lync Server 2013 の累積的な更新プログラム2を使用すると、Lync 会議 (会議) に対して場所に基づくルーティングルールを適用して、PSTN の有料電話のバイパスを防ぐことができます。</span><span class="sxs-lookup"><span data-stu-id="50361-105">With Cumulative Update 2 of Lync Server 2013, Location-Based Routing rules can be enforced on Lync meetings (i.e. conferences) to prevent PSTN toll bypass.</span></span> <span data-ttu-id="50361-106">アプリケーションは、アクティブな会議を監視し、参加しているユーザーの場所に基づいて、場所に基づくルーティング制限を適用します。</span><span class="sxs-lookup"><span data-stu-id="50361-106">The application monitors an active conference and enforces Location-Based Routing restrictions based on the location of users participating.</span></span> <span data-ttu-id="50361-107">また、場所に基づくルーティング会議アプリケーションでは、PSTN エンドポイントを使用する提案型転送に対して、場所に基づくルーティング制限を適用することもできます。</span><span class="sxs-lookup"><span data-stu-id="50361-107">The Location-Based Routing Conferencing application additionally enables the enforcement of Location-Based Routing restrictions to consultative transfers involving PSTN endpoints.</span></span>
+<span data-ttu-id="3faf0-104">場所に基づくルーティングを使用すると、通話の当事者の場所に基づいて、VoIP エンドポイントと PSTN エンドポイント間での通話のルーティングを制限することができます。</span><span class="sxs-lookup"><span data-stu-id="3faf0-104">Location-Based Routing makes it possible to restrict the routing of calls between VoIP endpoints and PSTN endpoints based on the location of the parties in the call.</span></span> <span data-ttu-id="3faf0-105">Lync Server 2013 の累積的な更新プログラム2を使用すると、Lync 会議 (会議) に対して場所に基づくルーティングルールを適用して、PSTN の有料電話のバイパスを防ぐことができます。</span><span class="sxs-lookup"><span data-stu-id="3faf0-105">With Cumulative Update 2 of Lync Server 2013, Location-Based Routing rules can be enforced on Lync meetings (i.e. conferences) to prevent PSTN toll bypass.</span></span> <span data-ttu-id="3faf0-106">アプリケーションは、アクティブな会議を監視し、参加しているユーザーの場所に基づいて、場所に基づくルーティング制限を適用します。</span><span class="sxs-lookup"><span data-stu-id="3faf0-106">The application monitors an active conference and enforces Location-Based Routing restrictions based on the location of users participating.</span></span> <span data-ttu-id="3faf0-107">また、場所に基づくルーティング会議アプリケーションでは、PSTN エンドポイントを使用する提案型転送に対して、場所に基づくルーティング制限を適用することもできます。</span><span class="sxs-lookup"><span data-stu-id="3faf0-107">The Location-Based Routing Conferencing application additionally enables the enforcement of Location-Based Routing restrictions to consultative transfers involving PSTN endpoints.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="50361-108">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="50361-108">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="3faf0-108">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="3faf0-108">In This Section</span></span>
 
-  - [<span data-ttu-id="50361-109">Lync Server 2013 での会議の場所に基づくルーティングの概要</span><span class="sxs-lookup"><span data-stu-id="50361-109">Overview of Location-Based Routing for conferencing in Lync Server 2013</span></span>](lync-server-2013-overview-of-location-based-routing-for-conferencing.md)
+  - [<span data-ttu-id="3faf0-109">Lync Server 2013 での会議の場所に基づくルーティングの概要</span><span class="sxs-lookup"><span data-stu-id="3faf0-109">Overview of Location-Based Routing for conferencing in Lync Server 2013</span></span>](lync-server-2013-overview-of-location-based-routing-for-conferencing.md)
 
-  - [<span data-ttu-id="50361-110">Lync Server 2013 での場所に基づくルーティングおよびコンサルティング呼び出しの転送</span><span class="sxs-lookup"><span data-stu-id="50361-110">Location-Based Routing and consultative call transfers in Lync Server 2013</span></span>](lync-server-2013-location-based-routing-and-consultative-call-transfers.md)
+  - [<span data-ttu-id="3faf0-110">Lync Server 2013 での場所に基づくルーティングおよびコンサルティング呼び出しの転送</span><span class="sxs-lookup"><span data-stu-id="3faf0-110">Location-Based Routing and consultative call transfers in Lync Server 2013</span></span>](lync-server-2013-location-based-routing-and-consultative-call-transfers.md)
 
-  - [<span data-ttu-id="50361-111">Lync Server 2013 での会議の場所に基づくルーティングの要件</span><span class="sxs-lookup"><span data-stu-id="50361-111">Requirements for Location-Based Routing for conferencing in Lync Server 2013</span></span>](lync-server-2013-requirements-for-location-based-routing-for-conferencing.md)
+  - [<span data-ttu-id="3faf0-111">Lync Server 2013 での会議の場所に基づくルーティングの要件</span><span class="sxs-lookup"><span data-stu-id="3faf0-111">Requirements for Location-Based Routing for conferencing in Lync Server 2013</span></span>](lync-server-2013-requirements-for-location-based-routing-for-conferencing.md)
 
-  - [<span data-ttu-id="50361-112">Lync Server 2013 での会議の場所に基づくルーティングの構成</span><span class="sxs-lookup"><span data-stu-id="50361-112">Configuration of Location-Based Routing for conferencing in Lync Server 2013</span></span>](lync-server-2013-configuration-of-location-based-routing-for-conferencing.md)
+  - [<span data-ttu-id="3faf0-112">Lync Server 2013 での会議の場所に基づくルーティングの構成</span><span class="sxs-lookup"><span data-stu-id="3faf0-112">Configuration of Location-Based Routing for conferencing in Lync Server 2013</span></span>](lync-server-2013-configuration-of-location-based-routing-for-conferencing.md)
 
 </div>
 

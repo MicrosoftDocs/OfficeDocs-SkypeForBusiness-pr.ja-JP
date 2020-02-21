@@ -12,20 +12,20 @@ ms:contentKeyID: 48185517
 ms.date: 12/02/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8134c9ab0fe6cd481116c8a3d17636b04c980e5
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 16c37644e07fd0dfd192867d7d8372d3630d13fb
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42138308"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42187390"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="database-software-support-in-lync-server-2013"></a><span data-ttu-id="a807e-102">Lync Server 2013 でのデータベースソフトウェアのサポート</span><span class="sxs-lookup"><span data-stu-id="a807e-102">Database software support in Lync Server 2013</span></span>
+# <a name="database-software-support-in-lync-server-2013"></a><span data-ttu-id="bc85a-102">Lync Server 2013 でのデータベースソフトウェアのサポート</span><span class="sxs-lookup"><span data-stu-id="bc85a-102">Database software support in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "42138308"
 
 <span> </span>
 
-<span data-ttu-id="a807e-103">_**トピックの最終更新日:** 2014-12-01_</span><span class="sxs-lookup"><span data-stu-id="a807e-103">_**Topic Last Modified:** 2014-12-01_</span></span>
+<span data-ttu-id="bc85a-103">_**トピックの最終更新日:** 2014-12-01_</span><span class="sxs-lookup"><span data-stu-id="bc85a-103">_**Topic Last Modified:** 2014-12-01_</span></span>
 
-<span data-ttu-id="a807e-104">Lync Server 2013 では、次のデータベース管理システムがサポートされています。</span><span class="sxs-lookup"><span data-stu-id="a807e-104">Lync Server 2013 supports the following database management systems:</span></span>
+<span data-ttu-id="bc85a-104">Lync Server 2013 では、次のデータベース管理システムがサポートされています。</span><span class="sxs-lookup"><span data-stu-id="bc85a-104">Lync Server 2013 supports the following database management systems:</span></span>
 
-  - <span data-ttu-id="a807e-105">**フロントエンドプールのバックエンドデータベース、アーカイブデータベース、監視データベース、常設チャットデータベース、および常設チャットコンプライアンスデータベース**</span><span class="sxs-lookup"><span data-stu-id="a807e-105">**Back-end database of a Front End pool, Archiving database, Monitoring database, persistent chat database, and persistent chat compliance database**</span></span>
+  - <span data-ttu-id="bc85a-105">**フロントエンドプールのバックエンドデータベース、アーカイブデータベース、監視データベース、常設チャットデータベース、および常設チャットコンプライアンスデータベース**</span><span class="sxs-lookup"><span data-stu-id="bc85a-105">**Back-end database of a Front End pool, Archiving database, Monitoring database, persistent chat database, and persistent chat compliance database**</span></span>
     
-      - <span data-ttu-id="a807e-106">Microsoft SQL Server 2008 R2 Enterprise データベースソフトウェア (64 ビット版)。</span><span class="sxs-lookup"><span data-stu-id="a807e-106">Microsoft SQL Server 2008 R2 Enterprise database software (64-bit edition).</span></span> <span data-ttu-id="a807e-107">また、最新のサービスパックを実行することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="a807e-107">Additionally running the latest service pack is recommended.</span></span>
+      - <span data-ttu-id="bc85a-106">Microsoft SQL Server 2008 R2 Enterprise データベースソフトウェア (64 ビット版)。</span><span class="sxs-lookup"><span data-stu-id="bc85a-106">Microsoft SQL Server 2008 R2 Enterprise database software (64-bit edition).</span></span> <span data-ttu-id="bc85a-107">また、最新のサービスパックを実行することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="bc85a-107">Additionally running the latest service pack is recommended.</span></span>
     
-      - <span data-ttu-id="a807e-108">Microsoft SQL Server 2008 R2 Standard (64-ビット版)。</span><span class="sxs-lookup"><span data-stu-id="a807e-108">Microsoft SQL Server 2008 R2 Standard (64-bit edition).</span></span> <span data-ttu-id="a807e-109">また、最新のサービスパックを実行することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="a807e-109">Additionally running the latest service pack is recommended.</span></span>
+      - <span data-ttu-id="bc85a-108">Microsoft SQL Server 2008 R2 Standard (64-ビット版)。</span><span class="sxs-lookup"><span data-stu-id="bc85a-108">Microsoft SQL Server 2008 R2 Standard (64-bit edition).</span></span> <span data-ttu-id="bc85a-109">また、最新のサービスパックを実行することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="bc85a-109">Additionally running the latest service pack is recommended.</span></span>
     
-      - <span data-ttu-id="a807e-110">Microsoft SQL Server 2012 Enterprise (64 ビット版)。</span><span class="sxs-lookup"><span data-stu-id="a807e-110">Microsoft SQL Server 2012 Enterprise (64-bit edition).</span></span> <span data-ttu-id="a807e-111">また、最新のサービスパックを実行することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="a807e-111">Additionally running the latest service pack is recommended.</span></span>
+      - <span data-ttu-id="bc85a-110">Microsoft SQL Server 2012 Enterprise (64 ビット版)。</span><span class="sxs-lookup"><span data-stu-id="bc85a-110">Microsoft SQL Server 2012 Enterprise (64-bit edition).</span></span> <span data-ttu-id="bc85a-111">また、最新のサービスパックを実行することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="bc85a-111">Additionally running the latest service pack is recommended.</span></span>
     
-      - <span data-ttu-id="a807e-112">Microsoft SQL Server 2012 Standard (64 ビット版)。</span><span class="sxs-lookup"><span data-stu-id="a807e-112">Microsoft SQL Server 2012 Standard (64-bit edition).</span></span> <span data-ttu-id="a807e-113">また、最新のサービスパックを実行することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="a807e-113">Additionally running the latest service pack is recommended.</span></span>
+      - <span data-ttu-id="bc85a-112">Microsoft SQL Server 2012 Standard (64 ビット版)。</span><span class="sxs-lookup"><span data-stu-id="bc85a-112">Microsoft SQL Server 2012 Standard (64-bit edition).</span></span> <span data-ttu-id="bc85a-113">また、最新のサービスパックを実行することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="bc85a-113">Additionally running the latest service pack is recommended.</span></span>
 
-  - <span data-ttu-id="a807e-114">**Standard Edition サーバーデータベースとフロントエンドサーバーデータベース**</span><span class="sxs-lookup"><span data-stu-id="a807e-114">**Standard Edition server database and Front End Server databases**</span></span>
+  - <span data-ttu-id="bc85a-114">**Standard Edition サーバーデータベースとフロントエンドサーバーデータベース**</span><span class="sxs-lookup"><span data-stu-id="bc85a-114">**Standard Edition server database and Front End Server databases**</span></span>
     
-      - <span data-ttu-id="a807e-115">Microsoft SQL Server 2012 Express (64 ビット版)。</span><span class="sxs-lookup"><span data-stu-id="a807e-115">Microsoft SQL Server 2012 Express (64-bit edition).</span></span> <span data-ttu-id="a807e-116">また、最新のサービスパックを実行することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="a807e-116">Additionally running the latest service pack is recommended.</span></span>
+      - <span data-ttu-id="bc85a-115">Microsoft SQL Server 2012 Express (64 ビット版)。</span><span class="sxs-lookup"><span data-stu-id="bc85a-115">Microsoft SQL Server 2012 Express (64-bit edition).</span></span> <span data-ttu-id="bc85a-116">また、最新のサービスパックを実行することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="bc85a-116">Additionally running the latest service pack is recommended.</span></span>
         
-        <span data-ttu-id="a807e-117">フロントエンドサーバーおよび Standard Edition サーバー上での Microsoft SQL Server のパッチとアップグレードをサポートしています。</span><span class="sxs-lookup"><span data-stu-id="a807e-117">We support the patching and upgrade of Microsoft SQL Server on Front End Servers and Standard Edition servers.</span></span> <span data-ttu-id="a807e-118">ただし、フロントエンドサーバーで任意の種類のアップグレードまたはパッチを作成する場合は、クォーラム要件を考慮する必要があります。</span><span class="sxs-lookup"><span data-stu-id="a807e-118">However, when you make any kind of upgrade or patch on Front End Servers, you must account for quorum requirements.</span></span> <span data-ttu-id="a807e-119">詳細については、「lync [server 2013 でのフロントエンドサーバーのアップグレードまたは更新](lync-server-2013-upgrade-or-update-front-end-servers.md)」および「 [lync server 2013 でのフロントエンドサーバー、インスタントメッセージング、プレゼンスのトポロジとコンポーネント](lync-server-2013-topologies-and-components-for-front-end-servers-instant-messaging-and-presence.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="a807e-119">For more information, see [Upgrade or update Front End Servers in Lync Server 2013](lync-server-2013-upgrade-or-update-front-end-servers.md) and [Topologies and components for Front End Servers, instant messaging, and presence in Lync Server 2013](lync-server-2013-topologies-and-components-for-front-end-servers-instant-messaging-and-presence.md).</span></span>
+        <span data-ttu-id="bc85a-117">フロントエンドサーバーおよび Standard Edition サーバー上での Microsoft SQL Server のパッチとアップグレードをサポートしています。</span><span class="sxs-lookup"><span data-stu-id="bc85a-117">We support the patching and upgrade of Microsoft SQL Server on Front End Servers and Standard Edition servers.</span></span> <span data-ttu-id="bc85a-118">ただし、フロントエンドサーバーで任意の種類のアップグレードまたはパッチを作成する場合は、クォーラム要件を考慮する必要があります。</span><span class="sxs-lookup"><span data-stu-id="bc85a-118">However, when you make any kind of upgrade or patch on Front End Servers, you must account for quorum requirements.</span></span> <span data-ttu-id="bc85a-119">詳細については、「lync [server 2013 でのフロントエンドサーバーのアップグレードまたは更新](lync-server-2013-upgrade-or-update-front-end-servers.md)」および「 [lync server 2013 でのフロントエンドサーバー、インスタントメッセージング、プレゼンスのトポロジとコンポーネント](lync-server-2013-topologies-and-components-for-front-end-servers-instant-messaging-and-presence.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="bc85a-119">For more information, see [Upgrade or update Front End Servers in Lync Server 2013](lync-server-2013-upgrade-or-update-front-end-servers.md) and [Topologies and components for Front End Servers, instant messaging, and presence in Lync Server 2013](lync-server-2013-topologies-and-components-for-front-end-servers-instant-messaging-and-presence.md).</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="a807e-120">Microsoft SQL Server 2012 Express (64 ビット版) は、各 Standard Edition サーバーと各フロントエンドサーバーサーバーに Lync Server 2013 によって自動的にインストールされます。</span><span class="sxs-lookup"><span data-stu-id="a807e-120">Microsoft SQL Server 2012 Express (64-bit edition) is automatically installed by Lync Server 2013 on each Standard Edition server and each Front End Server server.</span></span>
+    > <span data-ttu-id="bc85a-120">Microsoft SQL Server 2012 Express (64 ビット版) は、各 Standard Edition サーバーと各フロントエンドサーバーサーバーに Lync Server 2013 によって自動的にインストールされます。</span><span class="sxs-lookup"><span data-stu-id="bc85a-120">Microsoft SQL Server 2012 Express (64-bit edition) is automatically installed by Lync Server 2013 on each Standard Edition server and each Front End Server server.</span></span>
 
     
     </div>
@@ -70,25 +70,25 @@ ms.locfileid: "42138308"
 > [!IMPORTANT]  
 > <UL>
 > <LI>
-> <P><span data-ttu-id="a807e-121">Lync Server 2013 は、32ビット版の SQL Server をサポートしていません。</span><span class="sxs-lookup"><span data-stu-id="a807e-121">Lync Server 2013 does not support the 32-bit edition of SQL Server.</span></span> <span data-ttu-id="a807e-122">64ビット版を使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="a807e-122">You must use the 64-bit edition.</span></span></P>
+> <P><span data-ttu-id="bc85a-121">Lync Server 2013 は、32ビット版の SQL Server をサポートしていません。</span><span class="sxs-lookup"><span data-stu-id="bc85a-121">Lync Server 2013 does not support the 32-bit edition of SQL Server.</span></span> <span data-ttu-id="bc85a-122">64ビット版を使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="bc85a-122">You must use the 64-bit edition.</span></span></P>
 > <LI>
-> <P><span data-ttu-id="a807e-123">SQL Server Web edition および SQL Server Workgroup edition はサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="a807e-123">SQL Server Web edition and SQL Server Workgroup edition are not supported.</span></span> <span data-ttu-id="a807e-124">これらを Lync Server 2013 で使用することはできません。</span><span class="sxs-lookup"><span data-stu-id="a807e-124">You cannot use them with Lync Server 2013.</span></span></P>
+> <P><span data-ttu-id="bc85a-123">SQL Server Web edition および SQL Server Workgroup edition はサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="bc85a-123">SQL Server Web edition and SQL Server Workgroup edition are not supported.</span></span> <span data-ttu-id="bc85a-124">これらを Lync Server 2013 で使用することはできません。</span><span class="sxs-lookup"><span data-stu-id="bc85a-124">You cannot use them with Lync Server 2013.</span></span></P>
 > <LI>
-> <P><span data-ttu-id="a807e-125">Lync Server 2013 は、ネイティブデータベースミラーリングをサポートしています。</span><span class="sxs-lookup"><span data-stu-id="a807e-125">Lync Server 2013 does support native database mirroring.</span></span></P>
+> <P><span data-ttu-id="bc85a-125">Lync Server 2013 は、ネイティブデータベースミラーリングをサポートしています。</span><span class="sxs-lookup"><span data-stu-id="bc85a-125">Lync Server 2013 does support native database mirroring.</span></span></P>
 > <LI>
-> <P><span data-ttu-id="a807e-126">監視サーバーの役割を使用するには、SQL Server Reporting Services をインストールする必要があります。</span><span class="sxs-lookup"><span data-stu-id="a807e-126">To use the Monitoring Server role, you should install SQL Server Reporting Services.</span></span></P></LI></UL>
+> <P><span data-ttu-id="bc85a-126">監視サーバーの役割を使用するには、SQL Server Reporting Services をインストールする必要があります。</span><span class="sxs-lookup"><span data-stu-id="bc85a-126">To use the Monitoring Server role, you should install SQL Server Reporting Services.</span></span></P></LI></UL>
 
 
 
 </div>
 
-<span data-ttu-id="a807e-127">フロントエンドプールでは、バックエンドデータベースを単一の SQL Server コンピューターにすることができます。</span><span class="sxs-lookup"><span data-stu-id="a807e-127">In a Front End pool, the back-end database can be a single SQL Server computer.</span></span>
+<span data-ttu-id="bc85a-127">フロントエンドプールでは、バックエンドデータベースを単一の SQL Server コンピューターにすることができます。</span><span class="sxs-lookup"><span data-stu-id="bc85a-127">In a Front End pool, the back-end database can be a single SQL Server computer.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="a807e-128">Lync Server データベースを他のデータベースと併置する場合は、可用性とパフォーマンスに影響する可能性のあるすべての要因を評価し、一方のノードに障害が発生した場合は、残りのノードが負荷を処理できることを確認することを強くお勧めします。</span><span class="sxs-lookup"><span data-stu-id="a807e-128">If you collocate Lync Server databases with other databases, we highly recommend assessing all factors that might affect availability and performance, as well as ensuring that, if one node fails, the remaining node can handle the load.</span></span> <span data-ttu-id="a807e-129">フェールオーバー機能を検証する場合は、すべてのフェールオーバー シナリオをテストすることをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="a807e-129">To verify failover capabilities, we recommend testing all failover scenarios.</span></span>
+> <span data-ttu-id="bc85a-128">Lync Server データベースを他のデータベースと併置する場合は、可用性とパフォーマンスに影響する可能性のあるすべての要因を評価し、一方のノードに障害が発生した場合は、残りのノードが負荷を処理できることを確認することを強くお勧めします。</span><span class="sxs-lookup"><span data-stu-id="bc85a-128">If you collocate Lync Server databases with other databases, we highly recommend assessing all factors that might affect availability and performance, as well as ensuring that, if one node fails, the remaining node can handle the load.</span></span> <span data-ttu-id="bc85a-129">フェールオーバー機能を検証する場合は、すべてのフェールオーバー シナリオをテストすることをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="bc85a-129">To verify failover capabilities, we recommend testing all failover scenarios.</span></span>
 
 
 
@@ -96,31 +96,31 @@ ms.locfileid: "42138308"
 
 <div>
 
-## <a name="using-sql-mirroring-and-sql-clustering"></a><span data-ttu-id="a807e-130">SQL ミラーリングと SQL クラスタリングの使用</span><span class="sxs-lookup"><span data-stu-id="a807e-130">Using SQL Mirroring and SQL Clustering</span></span>
+## <a name="using-sql-mirroring-and-sql-clustering"></a><span data-ttu-id="bc85a-130">SQL ミラーリングと SQL クラスタリングの使用</span><span class="sxs-lookup"><span data-stu-id="bc85a-130">Using SQL Mirroring and SQL Clustering</span></span>
 
-<span data-ttu-id="a807e-131">Lync Server 2013 では、各 Lync Server データベースに対して SQL ミラーリングまたは SQL クラスタリングの使用をサポートしています。</span><span class="sxs-lookup"><span data-stu-id="a807e-131">Lync Server 2013 supports the use of either SQL mirroring or SQL clustering for each Lync Server database.</span></span> <span data-ttu-id="a807e-132">Lync Server 2013 のトポロジビルダーツールを使用して、SQL ミラーリングを簡単にセットアップできます。</span><span class="sxs-lookup"><span data-stu-id="a807e-132">You can easily set up SQL mirroring with the Topology Builder tool in Lync Server 2013.</span></span> <span data-ttu-id="a807e-133">SQL フェールオーバークラスタリングでは、セットアップに SQL Server を使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="a807e-133">For SQL failover clustering, you must use SQL Server for setup.</span></span>
+<span data-ttu-id="bc85a-131">Lync Server 2013 では、各 Lync Server データベースに対して SQL ミラーリングまたは SQL クラスタリングの使用をサポートしています。</span><span class="sxs-lookup"><span data-stu-id="bc85a-131">Lync Server 2013 supports the use of either SQL mirroring or SQL clustering for each Lync Server database.</span></span> <span data-ttu-id="bc85a-132">Lync Server 2013 のトポロジビルダーツールを使用して、SQL ミラーリングを簡単にセットアップできます。</span><span class="sxs-lookup"><span data-stu-id="bc85a-132">You can easily set up SQL mirroring with the Topology Builder tool in Lync Server 2013.</span></span> <span data-ttu-id="bc85a-133">SQL フェールオーバークラスタリングでは、セットアップに SQL Server を使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="bc85a-133">For SQL failover clustering, you must use SQL Server for setup.</span></span>
 
-<span data-ttu-id="a807e-134">Lync server 2013 では、greenfield の展開や、以前のバージョンの Lync Server からアップグレードした組織を含む、すべての展開において SQL ミラーリングと SQL クラスタリングの両方のトポロジがサポートされています。</span><span class="sxs-lookup"><span data-stu-id="a807e-134">Lync Server 2013 supports both SQL mirroring and SQL clustering topologies for all deployments, including greenfield deployments and organizations that have upgraded from previous versions of Lync Server.</span></span>
+<span data-ttu-id="bc85a-134">Lync server 2013 では、greenfield の展開や、以前のバージョンの Lync Server からアップグレードした組織を含む、すべての展開において SQL ミラーリングと SQL クラスタリングの両方のトポロジがサポートされています。</span><span class="sxs-lookup"><span data-stu-id="bc85a-134">Lync Server 2013 supports both SQL mirroring and SQL clustering topologies for all deployments, including greenfield deployments and organizations that have upgraded from previous versions of Lync Server.</span></span>
 
-<span data-ttu-id="a807e-135">SQL クラスタリングは、アクティブ/パッシブ構成でサポートされています。</span><span class="sxs-lookup"><span data-stu-id="a807e-135">SQL Clustering support is for an active/passive configuration.</span></span> <span data-ttu-id="a807e-136">パフォーマンス上の理由から、パッシブノードは他の SQL インスタンスと共有しないでください。</span><span class="sxs-lookup"><span data-stu-id="a807e-136">For performance reasons, the passive node should not be shared by any other SQL instance.</span></span>
+<span data-ttu-id="bc85a-135">SQL クラスタリングは、アクティブ/パッシブ構成でサポートされています。</span><span class="sxs-lookup"><span data-stu-id="bc85a-135">SQL Clustering support is for an active/passive configuration.</span></span> <span data-ttu-id="bc85a-136">パフォーマンス上の理由から、パッシブノードは他の SQL インスタンスと共有しないでください。</span><span class="sxs-lookup"><span data-stu-id="bc85a-136">For performance reasons, the passive node should not be shared by any other SQL instance.</span></span>
 
-<span data-ttu-id="a807e-137">次のサポートが含まれています。</span><span class="sxs-lookup"><span data-stu-id="a807e-137">The following support is included:</span></span>
+<span data-ttu-id="bc85a-137">次のサポートが含まれています。</span><span class="sxs-lookup"><span data-stu-id="bc85a-137">The following support is included:</span></span>
 
-  - <span data-ttu-id="a807e-138">次の2ノードフェールオーバークラスタリング:</span><span class="sxs-lookup"><span data-stu-id="a807e-138">Two-node failover clustering for the following:</span></span>
+  - <span data-ttu-id="bc85a-138">次の2ノードフェールオーバークラスタリング:</span><span class="sxs-lookup"><span data-stu-id="bc85a-138">Two-node failover clustering for the following:</span></span>
     
-      - <span data-ttu-id="a807e-139">Microsoft SQL Server 2012 Standard (64 ビット版)。</span><span class="sxs-lookup"><span data-stu-id="a807e-139">Microsoft SQL Server 2012 Standard (64-bit edition).</span></span> <span data-ttu-id="a807e-140">また、最新のサービスパックを実行することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="a807e-140">Additionally running the latest service pack is recommended.</span></span>
+      - <span data-ttu-id="bc85a-139">Microsoft SQL Server 2012 Standard (64 ビット版)。</span><span class="sxs-lookup"><span data-stu-id="bc85a-139">Microsoft SQL Server 2012 Standard (64-bit edition).</span></span> <span data-ttu-id="bc85a-140">また、最新のサービスパックを実行することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="bc85a-140">Additionally running the latest service pack is recommended.</span></span>
     
-      - <span data-ttu-id="a807e-141">Microsoft SQL Server 2008 R2 Standard (64-ビット版)。</span><span class="sxs-lookup"><span data-stu-id="a807e-141">Microsoft SQL Server 2008 R2 Standard (64-bit edition).</span></span> <span data-ttu-id="a807e-142">また、最新のサービスパックを実行することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="a807e-142">Additionally running the latest service pack is recommended.</span></span>
+      - <span data-ttu-id="bc85a-141">Microsoft SQL Server 2008 R2 Standard (64-ビット版)。</span><span class="sxs-lookup"><span data-stu-id="bc85a-141">Microsoft SQL Server 2008 R2 Standard (64-bit edition).</span></span> <span data-ttu-id="bc85a-142">また、最新のサービスパックを実行することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="bc85a-142">Additionally running the latest service pack is recommended.</span></span>
 
-  - <span data-ttu-id="a807e-143">最大16ノードのフェールオーバークラスタリングは次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="a807e-143">Up to sixteen-node failover clustering for the following:</span></span>
+  - <span data-ttu-id="bc85a-143">最大16ノードのフェールオーバークラスタリングは次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="bc85a-143">Up to sixteen-node failover clustering for the following:</span></span>
     
-      - <span data-ttu-id="a807e-144">Microsoft SQL Server 2012 Enterprise (64 ビット版)。</span><span class="sxs-lookup"><span data-stu-id="a807e-144">Microsoft SQL Server 2012 Enterprise (64-bit edition).</span></span> <span data-ttu-id="a807e-145">また、最新のサービスパックを実行することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="a807e-145">Additionally running the latest service pack is recommended.</span></span>
+      - <span data-ttu-id="bc85a-144">Microsoft SQL Server 2012 Enterprise (64 ビット版)。</span><span class="sxs-lookup"><span data-stu-id="bc85a-144">Microsoft SQL Server 2012 Enterprise (64-bit edition).</span></span> <span data-ttu-id="bc85a-145">また、最新のサービスパックを実行することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="bc85a-145">Additionally running the latest service pack is recommended.</span></span>
     
-      - <span data-ttu-id="a807e-146">Microsoft SQL Server 2008 R2 Enterprise データベースソフトウェア (64 ビット版)。</span><span class="sxs-lookup"><span data-stu-id="a807e-146">Microsoft SQL Server 2008 R2 Enterprise database software (64-bit edition).</span></span> <span data-ttu-id="a807e-147">また、最新のサービスパックを実行することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="a807e-147">Additionally running the latest service pack is recommended.</span></span>
+      - <span data-ttu-id="bc85a-146">Microsoft SQL Server 2008 R2 Enterprise データベースソフトウェア (64 ビット版)。</span><span class="sxs-lookup"><span data-stu-id="bc85a-146">Microsoft SQL Server 2008 R2 Enterprise database software (64-bit edition).</span></span> <span data-ttu-id="bc85a-147">また、最新のサービスパックを実行することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="bc85a-147">Additionally running the latest service pack is recommended.</span></span>
 
-<span data-ttu-id="a807e-148">SQL ミラーリングの詳細については、「 [Lync server 2013 のバックエンドサーバーの高可用性](lync-server-2013-back-end-server-high-availability.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="a807e-148">For more information about SQL mirroring, see [Back End Server high availability in Lync Server 2013](lync-server-2013-back-end-server-high-availability.md).</span></span> <span data-ttu-id="a807e-149">SQL クラスタリングを展開する方法の詳細については、「 [CONFIGURE Sql Server クラスタリング For Lync Server 2013](lync-server-2013-configure-sql-server-clustering.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="a807e-149">For details on how to deploy SQL clustering, see [Configure SQL Server clustering for Lync Server 2013](lync-server-2013-configure-sql-server-clustering.md).</span></span>
+<span data-ttu-id="bc85a-148">SQL ミラーリングの詳細については、「 [Lync server 2013 のバックエンドサーバーの高可用性](lync-server-2013-back-end-server-high-availability.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="bc85a-148">For more information about SQL mirroring, see [Back End Server high availability in Lync Server 2013](lync-server-2013-back-end-server-high-availability.md).</span></span> <span data-ttu-id="bc85a-149">SQL クラスタリングを展開する方法の詳細については、「 [CONFIGURE Sql Server クラスタリング For Lync Server 2013](lync-server-2013-configure-sql-server-clustering.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="bc85a-149">For details on how to deploy SQL clustering, see [Configure SQL Server clustering for Lync Server 2013](lync-server-2013-configure-sql-server-clustering.md).</span></span>
 
-<span data-ttu-id="a807e-150">SQL Server 2012 のフェールオーバークラスタリングの詳細とベストプラクティスについて<https://technet.microsoft.com/library/hh231721.aspx>は、「」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="a807e-150">For more information and best practices for failover clustering in SQL Server 2012, see <https://technet.microsoft.com/library/hh231721.aspx>.</span></span> <span data-ttu-id="a807e-151">SQL Server 2008 のフェールオーバークラスタリングについ<https://technet.microsoft.com/library/ms189134(v=sql.105).aspx>ては、「」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="a807e-151">For failover clustering in SQL Server 2008, see <https://technet.microsoft.com/library/ms189134(v=sql.105).aspx>.</span></span>
+<span data-ttu-id="bc85a-150">SQL Server 2012 のフェールオーバークラスタリングの詳細とベストプラクティスについて<https://technet.microsoft.com/library/hh231721.aspx>は、「」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="bc85a-150">For more information and best practices for failover clustering in SQL Server 2012, see <https://technet.microsoft.com/library/hh231721.aspx>.</span></span> <span data-ttu-id="bc85a-151">SQL Server 2008 のフェールオーバークラスタリングについ<https://technet.microsoft.com/library/ms189134(v=sql.105).aspx>ては、「」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="bc85a-151">For failover clustering in SQL Server 2008, see <https://technet.microsoft.com/library/ms189134(v=sql.105).aspx>.</span></span>
 
 </div>
 
