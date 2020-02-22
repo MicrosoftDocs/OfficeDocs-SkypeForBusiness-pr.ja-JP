@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: カスタムチームアプリを開発から展開に移動する方法について説明します。
-ms.openlocfilehash: 070b0ecbf0ccc9af798e1d3a3c689ce4d4ff4da2
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: f8c5a7dcc12bc9b3823285138d15a0ccdf11c52a
+ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161828"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "42229937"
 ---
 # <a name="manage-your-line-of-business-apps-in-microsoft-teams"></a>Microsoft Teams で基幹業務アプリを管理する
 
@@ -101,13 +101,7 @@ Microsoft は、<a href="https://docs.microsoft.com/microsoftteams/platform/publ
 
 ## <a name="step-3-upload-to-the-tenant-app-catalog"></a>手順 3: テナントアプリカタログにアップロードする
 
-テナント app store のユーザーがアプリを利用できるようにするには、アプリをアップロードします。 この操作を行うには、 <a href="https://docs.microsoft.com/microsoftteams/tenant-apps-catalog-teams#go-to-the-tenant-apps-catalog" target="_blank">teams デスクトップクライアント</a>または Microsoft Teams 管理センターの [[アプリの管理](manage-apps.md)] ページを使用します。
-
-ここでは、Teams デスクトップクライアントの [アップロード] オプションのスクリーンショットを示します。
-
-![[アプリ] ページのスクリーンショット](media/manage-your-lob-apps-store.png)
-
-Microsoft Teams 管理センターの [**アプリの管理**] ページの [アップロード] オプションのスクリーンショットを次に示します。
+テナント app store のユーザーがアプリを利用できるようにするには、アプリをアップロードします。 これは、Microsoft Teams 管理センターの [[アプリの管理](manage-apps.md)] ページで行うことができます。
 
 ![管理センターの [アプリの管理] ページのスクリーンショット](media/manage-your-lob-apps-upload-new-app.png)
 
@@ -131,6 +125,8 @@ Microsoft Teams 管理センターの [**アプリの管理**] ページの [ア
 
 アプリを更新するには、開発者が[手順 1](#step-1-develop-and-test)と[手順 2](#step-2-validate-in-production)に従って続行する必要があります。
 
-テナントアプリカタログを使用して、アプリを更新することができます。 これを行うには、Teams デスクトップクライアントで、**テナント名&lt;&gt;用に構築**された**アプリ** > に移動し、[.. **.** ] をクリックします。 をクリックし、アプリの右上隅にある [**更新**] をクリックします。 この操作を行うと、テナントアプリカタログの既存のアプリは置き換えられ、すべてのアクセス許可ポリシーとセットアップポリシーは、更新されたアプリに適用されたままになります。 
+テナントアプリカタログを使用して、アプリを更新することができます。 これを行うには、Microsoft Teams 管理センターで、[ **Teams アプリ** > の**管理**] に移動します。 アプリの一覧で、アプリ名をクリックし、[**更新**] をクリックします。 この操作を行うと、テナントアプリカタログの既存のアプリは置き換えられ、アプリのすべてのアクセス許可ポリシーとアプリのセットアップポリシーは、更新されたアプリに適用されたままになります。
 
-![アプリページ上のアプリの更新のスクリーンショット](media/manage-your-lob-apps-update-app.png)
+## <a name="related-apps"></a>関連アプリ
+
+- [Microsoft Teams 管理センターでアプリを管理する](manage-apps.md)

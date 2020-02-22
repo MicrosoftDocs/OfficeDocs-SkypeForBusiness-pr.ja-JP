@@ -59,7 +59,6 @@
 ### [組み込みタブとカスタム タブの使用](built-in-custom-tabs.md)
 ### [Office 365 コネクタとカスタム コネクタの使用](Office-365-custom-connectors.md)
 ### [基幹業務アプリを管理する](manage-your-lob-apps.md)
-### [Teams テナント アプリ カタログにアプリを公開する](tenant-apps-catalog-teams.md)
 ### [アプリ証明書](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Teams 用のアプリ テンプレート](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Teams と連動するように Skype 会議アプリを構成する](configure-skype-meetings-app-to-work-with-teams.md)

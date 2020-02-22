@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 82af710d8c3cb89171085f9053ed1708d7f568ca
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 171192353227e7e0d14d59ca36b632f90aeb9941
+ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161650"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "42229927"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Microsoft Teams のアプリのセットアップ ポリシーを管理する
 
@@ -167,7 +167,7 @@ Teams のモバイルクライアントでは、ユーザーにはアクティ�
 
 #### <a name="can-users-change-the-order-of-apps-pinned-through-a-policy"></a>ユーザーはポリシーによって固定されたアプリの順序を変更できますか。
 
-現時点では、ユーザーはチームのモバイルクライアントで固定されたアプリの順序を変更できますが、Teams のデスクトップや web クライアントでは変更できません。 
+現時点では、ユーザーはチームのモバイルクライアントで固定されたアプリの順序を変更できますが、Teams のデスクトップや web クライアントでは変更できません。
 
 ### <a name="custom-teams-apps"></a>カスタム Teams アプリ
 
@@ -178,4 +178,3 @@ Teams のモバイルクライアントでは、ユーザーにはアクティ�
  ## <a name="related-topics"></a>関連トピック
 
 - [Teams でのアプリの管理設定](admin-settings.md)
-- [Teams クライアントからテナントアプリカタログにアプリを発行する](tenant-apps-catalog-teams.md)

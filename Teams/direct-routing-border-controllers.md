@@ -17,12 +17,12 @@ hideEdit: true
 f1.keywords:
 - NOCSH
 description: マイクロソフトは、選択した SBC ベンダーと提携して、SBC がダイレクト ルーティングと連携することを保証しています。
-ms.openlocfilehash: 3e442a2afd61c3d5c39ac8edc89fa128131ac468
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bc2d1fb1a0c7bcf550117c176e6f5d4f1b3068f3
+ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214413"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "42229885"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト
 
@@ -53,15 +53,16 @@ Microsoft は各ベンダーと連携して次のことを行うことができ�
 |                                                                                                                     | Mediant 1000B  SBC  |     &#10004;     |   Pending     |  7.20  |    |    |    
 |                                                                                                                     | Mediant 9000 SBC  |     &#10004;     |   &#10004;     |  7.20   |    |    |                                                                       
 |                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  7.20 |    |    |    
-|  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5110       |     &#10004;     |   &#10004;    |       V 7.2       | <ul> <li>自分の自分の自分の ado </li> <li>@ @ @ @ @</li> <li> 赤いスカイホライズンの機動性 </li> </ul> |   いいえ |    
-|                                                                                                                     |      SBC 5210       |     &#10004;     |  &#10004;    |       V 7.2       |  <ul> <li>自分の自分の自分の ado </li> <li>@ @ @ @ @</li> <li> 赤いスカイホライズンの機動性 </li> </ul> | いいえ   |    
-|                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       V 7.2       |  <ul> <li>自分の自分の自分の ado </li> <li>@ @ @ @ @</li> <li> 赤いスカイホライズンの機動性 </li> </ul>  |いいえ|    
-|                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       V 7.2       |   <ul> <li>自分の自分の自分の ado </li> <li>@ @ @ @ @</li> <li> 赤いスカイホライズンの機動性 </li> </ul> |  いいえ  |    
-|                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       V 7.2       |   <ul> <li>自分の自分の自分の ado </li> <li>@ @ @ @ @</li> <li> 赤いスカイホライズンの機動性 </li> </ul> |   いいえ |    
-|                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      v 8.0.3 (ビルド 537)     |  <ul> <li> 自分の自分の自分の ado </li> <li>@ @ @ @ @ </li> </ul>   |         |    
-|                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     v 8.0.3 (ビルド 537)     |  <ul> <li> 自分の自分の自分の ado </li> <li>@ @ @ @ @ </li> </ul>   |           |    
-|                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      v 8.0.3 (ビルド 216)    |  <ul> <li> 自分の自分の自分の ado </li> <li>@ @ @ @ @ </li> </ul>    |           |    
-|                     [ThinkTel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |           |       V1.4       |     |    |    
+|  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5110       |     &#10004;     |   &#10004;    |       7.2       | <ul> <li>自分の自分の自分の ado </li> <li>@ @ @ @ @</li> <li> 赤いスカイホライズンの機動性 </li> </ul> |   いいえ |    
+|                                                                                                                     |      SBC 5210       |     &#10004;     |  &#10004;    |       7.2       |  <ul> <li>自分の自分の自分の ado </li> <li>@ @ @ @ @</li> <li> 赤いスカイホライズンの機動性 </li> </ul> | いいえ   |    
+|                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       7.2       |  <ul> <li>自分の自分の自分の ado </li> <li>@ @ @ @ @</li> <li> 赤いスカイホライズンの機動性 </li> </ul>  |いいえ|    
+|                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       7.2       |   <ul> <li>自分の自分の自分の ado </li> <li>@ @ @ @ @</li> <li> 赤いスカイホライズンの機動性 </li> </ul> |  いいえ  |    
+|                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       7.2       |   <ul> <li>自分の自分の自分の ado </li> <li>@ @ @ @ @</li> <li> 赤いスカイホライズンの機動性 </li> </ul> |   いいえ |    
+|                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      8.0.3 (ビルド 537)     |  <ul> <li> 自分の自分の自分の ado </li> <li>@ @ @ @ @ </li> </ul>   |         |    
+|                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     8.0.3 (ビルド 537)     |  <ul> <li> 自分の自分の自分の ado </li> <li>@ @ @ @ @ </li> </ul>   |           |    
+|                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      8.0.3 (ビルド 216)    |  <ul> <li> 自分の自分の自分の ado </li> <li>@ @ @ @ @ </li> </ul>    |           |   
+| | Edgemarc シリーズ |  &#10004; | | 15.6.1 | 
+|                     [ThinkTel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |        Pending   |       V1.4       |     |    |    
 |                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |   <ul> <li> 自分の自分の自分の ado </li> <li>@ @ @ @ @ </li> </ul>   |    |    
 |                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |  <ul> <li> 自分の自分の自分の ado </li> <li>@ @ @ @ @ </li> </ul>  |    |    
 |                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |   <ul> <li> 自分の自分の自分の ado </li> <li>@ @ @ @ @ </li> </ul>  |    |    
