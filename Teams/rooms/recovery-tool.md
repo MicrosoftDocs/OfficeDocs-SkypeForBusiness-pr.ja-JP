@@ -13,16 +13,16 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: この記事では、Microsoft Teams 室の回復ツールの使用方法について説明します。この機能は、サポートされている状態にシステムを移行するために使用します。
-ms.openlocfilehash: 452f5d9d15375bec7ac25c07c865add8a01b0345
-ms.sourcegitcommit: ac922addbc1422b5c41273a2e03196efb2ed7770
+ms.openlocfilehash: 755a85c9013d160197c8a8d57f74ef18b207e052
+ms.sourcegitcommit: 3d393ceded4d64963411cfdc96931952d480ded5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41831179"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42225281"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>Microsoft Teams Rooms の回復ツールを使用する
 
-この記事では、Microsoft Teams 室の回復ツールの使用方法について説明します。この機能は、サポートされている状態にシステムを移行するために使用します。 このツールは、Microsoft Teams の [ルーム] コンソールに "システム構成の終了" エラーが表示された場合、またはプッシュボタンで[出荷時の復元](https://docs.microsoft.com/microsoftteams/room-systems/rooms-operations#microsoft-teams-rooms-reset-factory-restore)のリセットを実行する前の場合に適用されます。
+この記事では、Microsoft Teams 室の回復ツールの使用方法について説明します。この機能は、サポートされている状態にシステムを移行するために使用します。 このツールは、Microsoft Teams の [ルーム] コンソールに "システム構成の終了" エラーが表示された場合、またはプッシュボタンで[出荷時の復元](https://docs.microsoft.com/microsoftteams/rooms/rooms-operations#microsoft-teams-rooms-reset-factory-restore)のリセットを実行する前の場合に適用されます。
 
 ## <a name="prerequisites"></a>前提条件
 
