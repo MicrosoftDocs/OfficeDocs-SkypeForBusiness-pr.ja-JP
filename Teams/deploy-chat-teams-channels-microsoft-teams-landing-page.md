@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2acb9d1734bb04c4db522417064c3d99fd660d89
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: c7c89b4abe53621ae217ecb3874df9a51a43a7ac
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863218"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42160701"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams のチャット、チーム、チャネル、およびアプリ
 
@@ -243,7 +243,7 @@ Teams は、主要な生産性シナリオ (会議、予定表、相互運用チ
 
 ### <a name="government---gcc-considerations"></a>政府機関: GCC に関する考慮事項
 
-政府機関向け Microsoft 365 (GCC: Government Certificate of Competency) の使用は、米国連邦、州、地方、民族、または領土の政府機関など、政府の規制と要件の対象になるデータを扱う機関で Office 365 の展開を推進している IT 担当者の要件を満たすために適しています。
+政府機関向け Microsoft 365 (GCC: Government Community Cloud) の使用は、米国連邦、州、地方、民族、または領土の政府機関など、政府の規制と要件の対象になるデータを扱う機関で Office 365 の展開を推進している IT 担当者の要件を満たすために適しています。
 
 | 確認事項 | アクション |
 |--------------|--------|
