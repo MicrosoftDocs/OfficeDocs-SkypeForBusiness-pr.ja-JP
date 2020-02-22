@@ -54,6 +54,7 @@
 
 ### [概要](deploy-apps-microsoft-teams-landing-page.md)
 ### [アプリのアクセス許可と考慮事項](app-permissions.md)
+### [Teams 用アプリを管理する](manage-apps.md)
 ### [Teams でのアプリの管理設定](admin-settings.md)
 ### [組み込みタブとカスタム タブの使用](built-in-custom-tabs.md)
 ### [Office 365 コネクタとカスタム コネクタの使用](Office-365-custom-connectors.md)
@@ -259,15 +260,26 @@
 
 ### [概要](direct-routing-landing-page.md)
 ### [ダイレクト ルーティングを計画する](direct-routing-plan.md)
-### [ダイレクト ルーティングを構成する](direct-routing-configure.md)
+### [ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト](direct-routing-border-controllers.md)
+
+### ダイレクト ルーティングを構成する
+#### [概要](direct-routing-configure.md)
+#### [SBC をダイレクト ルーティングに接続する](direct-routing-connect-the-sbc.md)
+#### [ユーザーがダイレクト ルーティング、音声、およびボイスメールを使用できるようにする](direct-routing-enable-users.md)
+#### [音声ルーティングを構成する](direct-routing-voice-routing.md)
+#### [電話番号を変換する](direct-routing-translate-numbers.md)
+#### [複数のテナントの SBC を構成する](direct-routing-sbc-multiple-tenants.md)
+#### [ダイレクト ルーティングを使用してアナログ デバイスを使用する方法](direct-routing-analog-devices.md)
+
+
 ### [ダイレクト ルーティングに移行する](direct-routing-migrating.md)
 
 ### ダイレクト ルーティングの監視とトラブルシューティング
 #### [概要](direct-routing-monitor-and-troubleshoot.md)
 #### [正常性ダッシュボード](direct-routing-health-dashboard.md)
 ### [PSTN 接続を使用するハイブリッド環境でのユーザー アカウント](direct-routing-user-accounts-in-a-hybrid-environment.md)
-### [複数のテナントにセッション ボーダー コントローラーを構成する](direct-routing-sbc-multiple-tenants.md)
-### [ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト](direct-routing-border-controllers.md)
+
+
 ### 場所に基づくルーティング
 #### [ダイレクト ルーティングの場所に基づくルーティングを計画する](location-based-routing-plan.md)
 #### [場所に基づくルーティングのネットワーク設定を構成する](location-based-routing-configure-network-settings.md)
@@ -516,7 +528,7 @@
 
 
 <!-- ============================================================ -->
-# ハイブリッド接続 
+# ハイブリッド接続
 
 ## [ハイブリッド接続のプラン](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
 
@@ -531,7 +543,7 @@
 ### [ユーザーをオンプレミスから Skype for Business Online に移動する](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online)
 ### [ユーザーをクラウドからオンプレミスに移動する](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises)
 
-### [会議の移行を管理する](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
+### [会議の移行を管理する](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json)
 
 ## [ハイブリッドを無効にしてクラウドへの移行を完了する](https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid)
 
@@ -584,7 +596,7 @@
 
 
 # 業界および政府機関向けのガイダンス
-## [概要](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md) 
+## [概要](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
 ## [Teams のテンプレートの使用を開始する](get-started-with-teams-templates.md)
 ## [現場担当者向けのクイックスタート](firstline-workers-quickstart.yml)
 ## [Shifts for Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
@@ -627,26 +639,21 @@
 <!-- ============================================================ -->
 
 # セキュリティとコンプライアンス
-## [概要](security-compliance-overview.md)
-## [Teams の情報障壁 ](information-barriers-in-teams.md)
-## [Teams のコンテンツに対して電子情報開示の調査を行う](ediscovery-investigation.md)
-## [Teams での ID モデルと認証](identify-models-authentication.md)
-## [先進認証を使用して Teams にサインインする](sign-in-teams.md)
-## [Teams ユーザーまたはチームに訴訟ホールドを適用する](legal-hold.md)
-## [Teams でイベントの監査ログを検索する](audit-log-events.md)
-## [Teams のコンテンツ検索を使用する](content-search.md)
-## [Teams の AppLocker アプリケーション コントロール ポリシー](applocker-in-teams.md)
-## Teams の保持ポリシー
-### [概要](retention-policies.md)
-### [保持ポリシーに関する既知の問題](retention-policies-known-issues.md)
-## [Teams のデータの場所](location-of-data-in-teams.md)
-## [フランスでの Microsoft Teams のアクセシビリティに関する適合宣言](accessibility-declaration-of-conformance-in-france-for-teams.md)
-## [Skype for Business Online および Microsoft Teams のアクセシビリティ ソリューション](accessibility-solutions-in-france.md)
-##  [Office 365 の通話プラン: 英国での実施基準](code-of-practice-for-the-united-kingdom-u-k.md)
-##  [Office 365 の通話プラン: 英国での苦情処理基準](complaint-handling-code-for-the-united-kingdom-u-k.md)
-## [データ収集方法](data-collection-practices.md)
-## [緊急通話の利用条件](emergency-calling-terms-and-conditions.md)
-
+## セキュリティ
+### [ID モデルと認証](identify-models-authentication.md)
+### [先進認証を使用して Teams にサインインする](sign-in-teams.md)
+## コンプライアンス
+### [概要](security-compliance-overview.md)
+### [情報障壁](information-barriers-in-teams.md)
+### [保持ポリシー](retention-policies.md)
+### [データ損失防止](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### 電子情報開示
+#### [コンテンツに対して電子情報開示の調査を行う](ediscovery-investigation.md)
+#### [Teams ユーザーまたはチームに訴訟ホールドを適用する](legal-hold.md)
+### コンテンツ検索
+#### [コンテンツ検索を使う](content-search.md)
+#### [イベントの監査ログを検索する](audit-log-events.md)
+### [AppLocker アプリケーション コントロール ポリシー](applocker-in-teams.md)
 
 <!-- ============================================================ -->
 # 監視、保守、およびトラブルシューティング
@@ -672,13 +679,16 @@
 #    
 # Reference
 
+## [Teams の制限と仕様](limits-specifications-teams.md)
+## [Teams のデータの場所](location-of-data-in-teams.md)
+## [データの収集プラクティス](data-collection-practices.md)
+
 ## Teams のロールアウトの準備
 ### [Teams 用に組織のネットワークを準備する](prepare-network.md)
 ### [Advisor for Teams を使用して Teams をロールアウトする](use-advisor-teams-roll-out.md)
 ### [Teams のネットワーク プランナーを使用する](network-planner.md)
 ### [ネットワーク プランナーのチュートリアル](tutorial-network-planner-example.yml)
 ### [Teams または Skype for Business Online 向けのプロキシ サーバー](proxy-servers-for-skype-for-business-online.md)
-### [Teams の制限と仕様](limits-specifications-teams.md)
 ### [Teams でチームを作成するときの Office 365 グループの計画](plan-office-365-groups.md)
 ### [Teams でのライフサイクル管理を計画する](plan-teams-lifecycle.md)
 ### [Teams でのガバナンスを計画する](plan-teams-governance.md)
@@ -854,3 +864,10 @@
 ### [Uruguay](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-uruguay.md)
 ### [ベネズエラ](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-venezuela.md)
 ### [Vietnam](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-vietnam.md)
+
+## アクセシビリティと適合性
+### [フランスでの Microsoft Teams のアクセシビリティに関する適合宣言](accessibility-declaration-of-conformance-in-france-for-teams.md)
+### [Skype for Business Online および Microsoft Teams のアクセシビリティ ソリューション](accessibility-solutions-in-france.md)
+### [Office 365 の通話プラン: 英国での実施基準](code-of-practice-for-the-united-kingdom-u-k.md)
+### [Office 365 の通話プラン: 英国での苦情処理基準](complaint-handling-code-for-the-united-kingdom-u-k.md)
+### [緊急通話の利用条件](emergency-calling-terms-and-conditions.md)
