@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 535c34bd19a2f019d1b9dc07718cf20d5da2f98e
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 9c2ef9f509f64e044567d9286704458b4dc91596
+ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826955"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "42229902"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Microsoft Teams のアプリ、ボット、およびコネクタ
 
@@ -57,7 +57,7 @@ Teams には、Microsoft とサード パーティが公開する複数のアプ
 
 | 確認事項 | アクション |
 |--------------|--------|
-|<br>どのアプリへのアクセスを許可するか? どのアプリへのアクセスを禁止するか?  | <ul><li>アプリ、ボット、タブ、またはコネクタへのアクセスを許可する際の考慮事項に関するリストについては、「[Microsoft Teams アプリのアクセス許可と考慮事項](app-permissions.md)」を参照してください。</li><li>組織内のユーザーがアプリを使用できるようにする方法の詳細については、「[Teams テナントのアプリ カタログでアプリを公開する](tenant-apps-catalog-teams.md)」を参照してください。</li></ul>|
+|<br>どのアプリへのアクセスを許可するか? どのアプリへのアクセスを禁止するか?  | <ul><li>アプリ、ボット、タブ、またはコネクタへのアクセスを許可する際の考慮事項に関するリストについては、「[Microsoft Teams アプリのアクセス許可と考慮事項](app-permissions.md)」を参照してください。</li><li>組織内のユーザーがアプリを使用できるようにする方法の詳細については、「[Microsoft Teams 管理センターでアプリを管理する](manage-apps.md)」を参照してください。</li></ul>|
 |||
 
 ### <a name="bots-for-private-chats-and-channels"></a>プライベート チャットおよびチャネルのボット
