@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: 電話会議、電話システム、通話プランなどの機能にライセンスを割り当てる方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 46ae5952d79f3f0ef0a6137b240661550ecead00
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 9d75201b7be82337898d4e9fe4feafb4de1155a9
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888686"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236837"
 ---
 # <a name="assign-microsoft-teams-licenses"></a>Microsoft Teams ライセンスを割り当てる
 
@@ -107,14 +107,6 @@ for each ($user in $users)
 | 国内通話プラン (各国のユーザー/月あたり120分) </br>*注: このプランはご利用いただけません*。 | MCOPSTN5 |
 | 国内通話プラン (各国のユーザー/月あたり240分) </br>*注: このプランはご利用いただけません*。 | MCOPSTN6 |
 | コミュニケーション クレジット | MCOPSTNPP | 
-
-## <a name="audio-conferencing-tips-and-scripts-for-assigning-licenses"></a>電話会議: ライセンスを割り当てるためのヒントとスクリプト
-
-電話会議ライセンスを割り当てる前に知っておく必要があることを以下に示します。
-
-- **サードパーティの電話会議プロバイダー**: サードパーティの電話会議プロバイダーを使用するように他のユーザーによって既に設定されている場合に、 電話会議ライセンスを割り当てると、電話会議プロバイダーとして Microsoft を使用するように変更されます。 この設定を変更して、サードパーティ プロバイダーに戻すことができます。
-
-- **次の手順**: 電話会議ライセンスを割り当てると、電話会議プロバイダーを割り当てる必要があります。 「 [Microsoft を電話会議プロバイダーとして割り当てる](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)」を参照してください。
 
 ## <a name="assign-an-audio-conferencing-license-to-one-user"></a>電話会議ライセンスを1人のユーザーに割り当てる
 

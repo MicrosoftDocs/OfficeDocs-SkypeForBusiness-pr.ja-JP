@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: このドキュメントでは、割り当てられている TeamsUpgrade モードに基づいて、テナント内とフェデレーションの両方で、Teams と Skype for Business のユーザー間のチャット、通話ルーティング、プレゼンスの動作について説明します。 これには、ルーティングの最適化、プレゼンスの動作、さらに*レガシ*から*アイランド*への既定の TeamsUpgrade モードの変更、および間もなくサポートが終了する*レガシ*が含まれます。
-ms.openlocfilehash: 1a4a9f4c08da3e89324eb44551c0002931cee714
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 442b4b68b9739d9d17d02e298b53c5d9ecec3c8f
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050119"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236827"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Skype for Business と共存する
 
@@ -58,9 +58,9 @@ Skype for Business と Teams の各クライアントとユーザー間におけ
 > [!NOTE]
 > 現時点では、Teams に関連するすべてのフェデレーションでは、Skype for Business フェデレーション パイプラインだけでなく、Teams と Skype for Business 間の相互運用性を活用しています。 また、現在、ネイティブの Teams 間フェデレーションを計画中です。 本ドキュメントは、ネイティブのフェデレーションのリリース時に更新されます。
 
-# <a name="chat-and-call-routing"></a>チャットと通話のルーティング
+## <a name="chat-and-call-routing"></a>チャットと通話のルーティング
 
-## <a name="in-tenant-routing-for-new-chats-or-calls"></a>新しいチャットまたは通話のテナント内ルーティング 
+### <a name="in-tenant-routing-for-new-chats-or-calls"></a>新しいチャットまたは通話のテナント内ルーティング 
 
 以下の表は、テナント内のチャットと通話のルーティングをキャプチャしたものであり、既存のスレッドから開始されていない新しい通話やチャットに対して利用できます。 表には、左側に記載されているユーザーが右側に記載されているテナント内受信者ユーザーに発信した場合に、新しい通話またはチャットを受信するクライアントが示されています。
 
@@ -102,7 +102,7 @@ TeamsOnly ユーザーに送信されたメッセージは、常に Teams にル
 |TeamsOnly  | Teams | オンライン |  &boxv; |Teams   |
 |  |  |  | | |
 
-## <a name="federated-routing-for-new-chats-or-calls"></a>新しいチャットまたは通話のフェデレーション ルーティング
+### <a name="federated-routing-for-new-chats-or-calls"></a>新しいチャットまたは通話のフェデレーション ルーティング
   
 以下の表は、フェデレーションの通話とチャットのルーティングをキャプチャしたものであり、新しい通話やチャットに対して利用できます。 表には、左側に記載されているユーザーが右側に記載されているフェデレーション対象ユーザーに発信した場合に、新しい通話またはチャットを受信するクライアントが示されています。
 
@@ -157,14 +157,14 @@ Teams の既存の永続スレッドがネイティブ スレッド (つまり�
 
 Skype for Business のスレッドは、10 分間の SIP セッション タイムアウトを超えると保持されません。 SIP セッションの有効期限が切れる前の Skype for Business の既存スレッドからのチャットと通話は、スレッドと同じ方法でルーティングされます。 SIP セッション タイムアウトを超えた Skype for Business の既存スレッドからの通話とチャットは、相手側から送信された元のスレッドのクライアントに関係なく、通話先の Skype for Business にルーティングされます。
 
-## <a name="availability"></a>使用するための条件
+### <a name="availability"></a>使用するための条件
 
 前述のように、テナント内動作とフェデレーション動作の両方が利用できますが、使用には次の制限があります。
 
 - テナントが別の GoLocal 展開または場所に存在する外部の出席者には、"フェデレーション" 会議中に IM チャットが表示されません
 - マルチテナント型の O365 とソブリン クラウド間のフェデレーションと相互運用はサポートされていません
 
-# <a name="presence"></a>プレゼンス
+## <a name="presence"></a>プレゼンス
 
 Teams クライアントを使用しているユーザーと、まだ Skype for Business クライアントを使用しているユーザーが混在している場合、両方のクライアントを使用しているユーザーが多数いる可能性があります。 この場合でも、個々のユーザーがどのクライアントを使用しているかに関係なく、引き続きプレゼンス状態をすべてのユーザーと共有する必要があります。 これが組織全体で共有されている場合、ユーザーはチャットを開始するのか電話をかけるのか、どちらが適切であるかをより適切に判断できます。
 
@@ -180,7 +180,7 @@ Teams クライアントを使用しているユーザーと、まだ Skype for 
     * Skype for Business からの場合は、他のユーザーにはアイランド ユーザーの Skype for Business プレゼンス (テナント内とフェデレーションの両方) が表示されます。これは、上記のルーティングの表と合致しています。
 
 
-## <a name="in-tenant-presence"></a>テナント内プレゼンス
+### <a name="in-tenant-presence"></a>テナント内プレゼンス
 
 TeamsOnly ユーザーに送信されたメッセージは、常に Teams に送信されます。 SfB\* ユーザーに送信されたメッセージは、上述のように会話が可能な場合は、常に Skype for Business に送信されます。 アイランド ユーザーに送信されたメッセージは、常にメッセージの送信元のクライアントに送信されます。
 
@@ -194,7 +194,7 @@ TeamsOnly ユーザーに送信されたメッセージは、常に Teams に送
 |Teams |&boxv; |Teams |Skype for Business |Teams |
 | | | | |
 
-## <a name="federated-presence"></a>フェデレーション プレゼンス
+### <a name="federated-presence"></a>フェデレーション プレゼンス
 
 フェデレーション プレゼンスは、表 2 に示されているフェデレーションの到達可能性に基づいています。
 
@@ -208,7 +208,7 @@ TeamsOnly ユーザーに送信されたメッセージは、常に Teams に送
 |Teams | &boxv;|Skype for Business |Skype for Business |Teams|
 | | | | ||
 
-## <a name="presence-in-pre-existing-threads"></a>既存のスレッドでのプレゼンス
+### <a name="presence-in-pre-existing-threads"></a>既存のスレッドでのプレゼンス
 
 既存のスレッドでプレゼンスと到達可能性を調整するには、ルーティングが可能であることを想定の上、そのスレッドで公開されているターゲットのプレゼンスをスレッドのルーティングと合致させる必要があります。
 

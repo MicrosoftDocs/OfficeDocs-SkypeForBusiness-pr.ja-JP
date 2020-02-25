@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 電話会議を使用するお客様からよく寄せられる質問の一部を次に示します。
-ms.openlocfilehash: bc8ec039cff2be47f0912f2e52bbdb56ce694a4e
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: e542d728ae95ddb35532fbb8cabfa61e3b93caa3
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826305"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236847"
 ---
 # <a name="audio-conferencing-common-questions"></a>電話会議に関するよくある質問
 
@@ -81,7 +81,7 @@ ms.locfileid: "41826305"
 |:-----|:-----|
 |Skype for Business または Microsoft Teams アプリを使って参加している、または会議にダイヤルインしているユーザーがいます。  <br/> |出席者リストに変更がない場合、会議は24時間後に終了します。  <br/> |
 |すべてのユーザーが会議にダイヤルインしていますが、他のユーザーが PIN を使って会議に参加している。  <br/> |会議は24時間後に終了します。  <br/> |
-|すべてのユーザーが会議にダイヤルインしていますが、PIN を使って会議に参加しているユーザーはいない。  <br/> |会議は4時間後に終了します。  <br/> |
+|すべてのユーザーが会議にダイヤルインしていますが、PIN を使って会議に参加しているユーザーはいない。  <br/> | 匿名ユーザーが会議を開始することを許可されている場合、会議は4時間後に終了します。 匿名ユーザーが会議を開始することを許可されておらず、認証されたすべての参加者が会議から退席した場合、会議は、最後に認証された参加者が残ってから90分後に終了します。 <br/> |
    
 ## <a name="how-many-total-phone-participants-can-i-have-in-meetings"></a>会議に参加できる電話の参加者の合計数は何人ですか?
 

@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams でプライベート チャネルを使用および管理する方法について説明します。
-ms.openlocfilehash: 45d05f2dd726b340ac79ac11810d23d00c8b3e9d
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 761d6a06da6bb02991e706f6e18ac8ce7d4106f4
+ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837317"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "42265632"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams のプライベート チャネル
 
@@ -60,7 +60,7 @@ Microsoft Teams のプライベート チャネルは、チーム内でのコラ
 |はい     |いいえ         |いいえ         |既存のチームにチャネルを作成します。         |
 |いいえ     |いいえ         |いいえ         |新しいチームの作成を検討してください。         |
 |いいえ     |いいえ         |はい         |新しいチームの作成を検討し、そして各トピックの機密性に応じて、トピックごとに個別の標準またはプライベート チャネルの作成を検討してください。         |
-|いいえ     |はい         |いいえ         |新しいチームを作成するか、既存のチームに新しいプライベート チャネルを作成します。         |
+|いいえ     |はい         |いいえ         |新しいチームを作成し、プライベートチャネルを作成することを検討します。         |
 
 プライベート チャネルは作成されると親チームにリンクされ、別のチームに移動させることはできません。 また、プライベート チャネルを標準チャネルに変換することはできません。
 

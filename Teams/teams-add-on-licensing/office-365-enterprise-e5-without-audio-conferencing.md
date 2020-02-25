@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'アドオン ライセンス、機能、そして Office 365 Enterprise (電話会議なし) のプランを購入する方法について説明します。 '
-ms.openlocfilehash: e8d9c0bce382194318ae9e9330e55900c931026e
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 5f309cff63fb0e055d07329e276050cf5f1db4c0
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42155069"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236797"
 ---
 # <a name="office-365-enterprise-e5-without-audio-conferencing"></a>Office 365 Enterprise E5 (電話会議なし)
 
@@ -32,6 +32,6 @@ ms.locfileid: "42155069"
 
 |この機能を追加するには|次のことを行う必要があります。 |
 |:------------------|:--------------------------|
-|電話会議 <br/> | このアドオンを取得するには、次を実行します。 <ol><li>すでに E5 プランを購入済みで、電話会議機能をご利用いただけない国や地域にお住まいの場合は、サードパーティの電話会議プロバイダーを使用する必要があります。 サードパーティーの電話会議プロバイダーは、[Microsoft PinPoint](https://go.microsoft.com/fwlink/?LinkId=797530) で見つけてください。  <br/>お住いの国や地域で電話会議が利用可能かどうか確認するには次の記事を参照してください。[電話会議と通話プランの国・地域別利用可能状況](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) </li><li/>使用できる場合は、[[プランの切り替え] ボタン](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a)を使用して、電話会議が含まれている Office 365 Enterprise E5 プランに移動します。 その他に多数の機能もご利用いただけます。 </li></ol> |
+|電話会議 <br/> | このアドオンを入手するには、[[プランの切り替え] ボタン](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a)を使用します (使用可能な場合)。電話会議が含まれている Office 365 Enterprise E5 プランに移動します。 その他に多数の機能もご利用いただけます。 </li></ol> |
 |電話会議は含まれています。 <br/> | Office 365 の[通話プラン](../calling-plans-for-office-365.md)を購入します。 <br/>  または、 [現在お使いのプロバイダーから提供された電話サービス](microsoft-teams-add-on-licensing.md#bkmk_existing) を使用します。  <br/> |
 |クラウドボイスメールが含まれています。 <br/> |それ以外の操作は必要ありません。  <br/> |

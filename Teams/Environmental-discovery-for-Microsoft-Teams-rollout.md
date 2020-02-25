@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7f49626f6526fe05aed81f39574a094347e0a3ae
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 68bd92067bffc2ed88e8a9d44e228ce442021b29
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834527"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236677"
 ---
 <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Microsoft Teams のロールアウトに関する環境の検出
 ===================================================
@@ -31,8 +31,7 @@ ms.locfileid: "41834527"
 
 環境の詳細な検出を行って、現在の状態の理解を深め、問題が発生したり、さらに多くの場合、チームのロールアウトの実行に発生する可能性があるブロックを明らかにします。
 
-<a name="discovery-questionnaire"></a>検出に関するアンケート
-=======================
+## <a name="discovery-questionnaire"></a>検出に関するアンケート
 
 以下のサンプルの質問表を参照して、チームの通話プラン機能で電話会議と電話システムを正しくロールアウトすることができるかどうかを確認してください。
 

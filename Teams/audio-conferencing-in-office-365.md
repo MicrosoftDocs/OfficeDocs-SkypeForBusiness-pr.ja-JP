@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - ms.teamsadmincenter.audioconferencing.overview
-ms.openlocfilehash: 1a9863f1566b06c46b2788bb484d8a4672b6cdbf
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 9a92715af20e2e27a4b5051bfeab461a61efdacf
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826295"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236817"
 ---
 # <a name="audio-conferencing-in-office-365"></a>Office 365 における電話会議
 Office 365 の電話会議では、ユーザーは自分の電話から会議にダイヤルインすることができます。 電話会議には最大で250の電話出席者が参加できます。
@@ -47,7 +47,7 @@ Office 365 の電話会議では、ユーザーは自分の電話から会議に
 出席者が会議に参加したら、ダイヤルアウトして、他の発信者を Skype for Business または Microsoft Teams の会議に招待することもできます。 他のユーザーが会議に参加したり、 [Skype For business 会議からダイヤルアウトして他の](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it)ユーザーが参加できるようにするには、「 [Teams 会議からダイヤルアウト](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)する」を参照してください。
 
 ## <a name="what-does-it-cost"></a>料金について教えてください。
-価格情報については、「[電話会議の価格](https://products.office.com/skype-for-business/audio-conferencing#Requirements)」を参照してください。
+価格情報については、「[電話会議の価格](https://products.office.com/microsoft-teams/online-meeting-solutions#customerstoryregion2)」を参照してください。
 
 ## <a name="where-is-it-available"></a>どこで利用できますか?
 電話会議を使用すると、ユーザーは有料電話番号と無料電話番号を使って会議にダイヤルインすることができます。 電話会議が有効になっている場合、有料 (サービス) 番号は、組織に共有電話会議番号として自動的に割り当てられます。 専用の有料電話番号および無料電話番号は、追加の都市から組織に割り当てることができます。
