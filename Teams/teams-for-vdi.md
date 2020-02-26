@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7abe63551eee449afd507a786cd2efbf70e89afa
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 479f272f45c4ac7c8f84f0aa26fe923ea16ff3d7
+ms.sourcegitcommit: df552697ae9c8c01c40f816bbe98b251db147199
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888646"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "42278010"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>仮想デスクトップ インフラストラクチャ用の Teams
 
@@ -161,7 +161,7 @@ Teams と Office 365 ProPlus の詳細については、「 [office 365 ProPlus 
 
     Teams をアンインストールするには、次の2つの方法があります。  
   
-    - PowerShell スクリプト (推奨): この[PowerShell スクリプト](scripts/powershell-script-teams-deployment-clean-up.md)を使用して、ターゲットコンピューターまたはユーザーからチームをクリーンアップできます。 ターゲットコンピューター上のすべてのユーザーに対して実行する必要があります。 
+    - PowerShell スクリプト (推奨)
     
     - コマンドライン: この方法ではチームが削除されますが、Teams の再インストールはできません。 次のコマンドを実行します。
   
