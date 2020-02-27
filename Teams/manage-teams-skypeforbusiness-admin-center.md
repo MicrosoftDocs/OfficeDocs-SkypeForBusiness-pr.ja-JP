@@ -20,12 +20,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: f1aba8c461ca2cbdd827fe071d5e0486ac24b5f4
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 31d39b1c65afad3bdbb000ff779b590d9f82ac38
+ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833127"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42288635"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>新しい Microsoft Teams 管理センターへの移行中に Teams を管理する
 ======================================================
@@ -67,14 +67,14 @@ ms.locfileid: "41833127"
 |通話と会議     |会議でのビデオの使用を許可する         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |ユーザー          |
 |通話と会議     |会議での画面共有を許可する         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |ユーザー          |
 |通話と会議     |プライベート通話を許可する         |[TeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)        |ユーザー          |
-|メッセージング      |ユーザーが会話に Gif を追加できるように Giphy を有効にする         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
-|メッセージング      |コンテンツの評価         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
-|メッセージング      |ユーザーが編集して会話に追加できるミームを有効にする         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
-|メッセージング      |ユーザーが編集して会話に追加できるステッカーを有効にする         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
-|メッセージング      |所有者がすべてのメッセージを削除できるようにする         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
-|メッセージング      |ユーザーが自分のメッセージを編集できるようにする         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
-|メッセージング      |ユーザーが自分のメッセージを削除できるようにする         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
-|メッセージング      |ユーザーがプライベートでチャットすることを許可します         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
+|Messaging     |ユーザーが会話に Gif を追加できるように Giphy を有効にする         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
+|Messaging     |コンテンツの評価         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
+|Messaging     |ユーザーが編集して会話に追加できるミームを有効にする         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
+|Messaging     |ユーザーが編集して会話に追加できるステッカーを有効にする         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
+|Messaging     |所有者がすべてのメッセージを削除できるようにする         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
+|Messaging     |ユーザーが自分のメッセージを編集できるようにする         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
+|Messaging     |ユーザーが自分のメッセージを削除できるようにする         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
+|Messaging     |ユーザーがプライベートでチャットすることを許可します         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
 
 <sup>1</sup>ゲストの場合は廃止されました。 ゲストを有効または無効にすることで、Microsoft Teams 管理センターで管理できるようになりました。 Teams、Edu Student、Edu 教職員の Teams の有効化/無効化は、まもなく廃止されます。 これは、Microsoft 365 管理センターでライセンスを割り当てることで管理する必要があります。 「 [Microsoft Teams へのユーザーアクセスを管理する」を](user-access.md)参照してください。
 <br><br>
@@ -104,12 +104,12 @@ ms.locfileid: "41833127"
 |外部アクセスの設定     |    X    |      |       |
 |ユーザー管理    |         |         |    X     |    
 |電話会議     |    X     |    X     |         |
-|通話プラン     |         |    X     |         |
-|電話システム    |         |     X    |         |
-|電話番号の管理     |         |   X      |         |
+|通話プラン     |    X    |    X     |         |
+|電話システム    |    X    |     X    |         |
+|電話番号の管理     |    X    |   X      |         |
 |クラウド音声機能のライセンス     |         |         |    X     |
-|自動応答     |         |    X     |         |
-|通話キュー     |         |    X     |         |
+|自動応答     |    X    |          |         |
+|通話キュー     |    X    |          |         |
 
 ## <a name="manage-settings-after-the-migration"></a>移行後に設定を管理する
 

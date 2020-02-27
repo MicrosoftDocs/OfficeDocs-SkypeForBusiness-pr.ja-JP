@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8362c95103594e8289aa110ec681fd6dba269bce
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: ba381659572fa8cfda6ac605a2910ef19220dcbd
+ms.sourcegitcommit: 29034bda30a8460eb18600785f785528d0944041
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824755"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "42285819"
 ---
 # <a name="use-the-getting-started-wizard-to-set-up-business-voice"></a>[作業の開始] ウィザードを使用して Business Voice をセットアップする
 
@@ -46,11 +46,8 @@ Microsoft 365 Business Voice の [作業の開始] ウィザードを使用す�
 
 <table>
     <tr>
-        <td>緊急アドレスを変更する場合は、[<b>編集</b>] をクリックして新しいアドレスを入力します。 入力したアドレスは、正当なものであり、緊急対応サービス用に正しく書式設定されていることを確認するために検証されます。 このアドレスは、次の手順で番号を割り当てるすべてのユーザーに割り当てられます。 複数の場所に従業員がいる場合、「<a href="./customize-business-voice.md">Business Voice 設計カスタマイズ</a>」を参照して、[作業の開始] ウィザードを準備した後、緊急アドレスを追加し割り当ててください。</td>
-
-        
+        <td>緊急アドレスを変更する場合は、[<b>編集</b>] をクリックして新しいアドレスを入力します。 入力したアドレスは、正当なものであり、緊急対応サービス用に正しく書式設定されていることを確認するために検証されます。 このアドレスは、次の手順で番号を割り当てるすべてのユーザーに割り当てられます。 複数の場所に従業員がいる場合、「<a href="./customize-business-voice.md">Business Voice 設計カスタマイズ</a>」を参照して、[作業の開始] ウィザードを準備した後、緊急アドレスを追加し割り当ててください。</td> 
         <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400"></td></tr>
-            
 </table>
 
 詳細については、「[緊急対応の場所、アドレス、通話ルーティングの概要](../what-are-emergency-locations-addresses-and-call-routing.md)」をご覧ください。

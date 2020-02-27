@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4bc03a292614b6ae5888e6334e37a3b417bcacde
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e147a300f628347b5e38837a3d277a78a4c593c4
+ms.sourcegitcommit: 29034bda30a8460eb18600785f785528d0944041
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834507"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "42285749"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange と Microsoft Teams の連携
 
@@ -47,8 +47,8 @@ Exchange Online 専用 (レガシ) でホストされているユーザーは、
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|はい <sup>2</sup>|はい <sup>2</sup>|Yes|Yes|Yes|Yes|Yes|Yes|○ ( <sup>7</sup> )|Yes|Yes|Yes|Yes|
 |**Exchange Online 専用 vNext**|はい <sup>2</sup>|はい <sup>2</sup>|Yes|Yes|Yes|Yes|Yes|Yes|○ ( <sup>7</sup> )|Yes|Yes|Yes|はい|
-|**Exchange Online 専用 – レガシー** (Azure AD との同期が必要)|はい <sup>2</sup>|はい <sup>2、3</sup>|はい <sup>4|あり|なし|いいえ|はい|あり|いいえ|はい <sup>5|はい<sup>6|Yes|Yes|
-|**Exchange on-premises** (Azure AD との同期が必要)|はい <sup>2</sup>| はい <sup>2、3</sup> |はい <sup>4|はい|はい (Exchange 2016 CU3+)|はい (Exchange 2016 CU3+)|はい|あり|いいえ|はい <sup>5|はい<sup>6|Yes|Yes|
+|**Exchange Online 専用 – レガシー** (Azure AD との同期が必要)|はい <sup>2</sup>|はい <sup>2、3</sup>|はい <sup>4|あり|なし|いいえ|はい|Yes|いいえ|はい <sup>5|はい<sup>6|Yes|Yes|
+|**Exchange on-premises** (Azure AD との同期が必要)|はい <sup>2</sup>| はい <sup>2、3</sup> |はい <sup>4|はい|はい (Exchange 2016 CU3+)|はい (Exchange 2016 CU3+)|はい|Yes|いいえ|はい <sup>5|はい<sup>6|Yes|Yes|
 
 <sup>1</sup> EXCHANGE 2016 cu3 以降で以上がサポートされています。  
 
@@ -88,7 +88,7 @@ Microsoft Teams では、さまざまな Office 365 サービスと連携して�
 
 - Microsoft Teams では、電子情報開示、コンテンツ検索、アーカイブ、訴訟ホールドのようなセキュリティおよびコンプライアンスの機能は Exchange Online と SharePoint Online の環境で最適に動作します。チャネルの会話の場合、メッセージは Exchange Online 内のグループ メールボックスにジャーナリングされます。これらのメッセージは電子情報開示で利用できます。SharePoint Online と OneDrive for Business (職場または学校のアカウントを使用) が組織全体とユーザーに対して有効な場合は、これらのコンプライアンス機能も Teams 内のすべてのファイルに対して利用できます。
 
-- 条件付きアクセスを使用して、Teams および Exchange でのコンプライアンスポリシーの構成を制御および保護します。 詳細については、「[チームの条件付きアクセスポリシーの](security-compliance-overview.md#how-do-conditional-access-policies-work-for-teams)しくみ」を参照してください。 .
+- 条件付きアクセスを使用して、Teams および Exchange でのコンプライアンスポリシーの構成を制御および保護します。 詳細については、「[チームの条件付きアクセスポリシーの](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)しくみ」を参照してください。 .
 
 - 会議のすべてのディスカッションを検出できるようにするためのコンプライアンス要件が組織にある場合は、開催者が Exchange オンプレミスのメールボックスを使用している場合は、プライベート会議を無効にする必要があります。
 

@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c7c89b4abe53621ae217ecb3874df9a51a43a7ac
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 87de516afbd94a0d1784edd52efbcc5b10e262dd
+ms.sourcegitcommit: 29034bda30a8460eb18600785f785528d0944041
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160701"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "42285829"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams のチャット、チーム、チャネル、およびアプリ
 
@@ -226,7 +226,7 @@ Teams は、主要な生産性シナリオ (会議、予定表、相互運用チ
 
 | 確認事項 | アクション |
 |--------------|--------|
-|<br>Teams に対する条件付きアクセスを構成する必要があるか?|<ul><li>アクセス ポリシーのしくみについては、「[Teams で条件付きアクセス ポリシーはどのように機能しますか?](security-compliance-overview.md#how-do-conditional-access-policies-work-for-teams)」を参照してください。</li><li>Teams の多要素認証を設定する場合は、次を参照してください。<ul><li>[クイック スタート: Azure Active Directory の条件付きアクセスを使用して特定のアプリケーションに対して MFA を必要にする](https://docs.microsoft.com/azure/active-directory/conditional-access/app-based-mfa)</li><li>[Azure Active Directory の条件付きアクセス設定に関するリファレンス](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference)</li></ul></ul>|
+|<br>Teams に対する条件付きアクセスを構成する必要があるか?|<ul><li>アクセス ポリシーのしくみについては、「[Teams で条件付きアクセス ポリシーはどのように機能しますか?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)」を参照してください。</li><li>Teams の多要素認証を設定する場合は、次を参照してください。<ul><li>[クイック スタート: Azure Active Directory の条件付きアクセスを使用して特定のアプリケーションに対して MFA を必要にする](https://docs.microsoft.com/azure/active-directory/conditional-access/app-based-mfa)</li><li>[Azure Active Directory の条件付きアクセス設定に関するリファレンス](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference)</li></ul></ul>|
 |||
 
 

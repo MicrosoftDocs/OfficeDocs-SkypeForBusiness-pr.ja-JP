@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Skype for Business Server を使用しているユーザーに対して、クラウドベースのボイスメールを実装する方法について説明します。
-ms.openlocfilehash: 8fab0cf237137d87a8b7e49be65232dc0595de6d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4542207beb3ccd090c1215a8832f53b3ab08ed97
+ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42041246"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42288715"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>オンプレミスのユーザー用にクラウドボイスメールサービスを構成する
 
@@ -77,7 +77,7 @@ New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedA
 グローバルポリシーを変更するには、組織と TenantID を更新した後、Skype for Business Server 管理シェルで次のコマンドを実行します。
 
 ```PowerShell
-Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemail Policy" -Destination exap.um.outlook.com -Organization YourDefaultDomain.onmicrosoft.com -Tenant “11111111-1111-1111-1111-111111111111”
+Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemail Policy" -Destination exap.um.outlook.com -Organization YourDefaultDomain.onmicrosoft.com
 ```
 
 - **Destination**には、ホストされているクラウドボイスメールサービスの完全修飾ドメイン名 (FQDN) を指定します。 この値は、 **exap.um.outlook.com**に設定する必要があります。
@@ -85,8 +85,6 @@ Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemai
 - **組織**は、テナントに割り当てられている既定のドメインです。 この情報を取得するには、テナント管理者が office.com にログインし、[管理センター] アプリをクリックして、左側の [**セットアップ**] に移動し、[**ドメイン**] をクリックします。 例: mytenant.onmicrosoft.com。
 
     組織名は、Office 365 の既定のドメイン名でもあります。
-
-- **テナント**は、Office 365 でテナントを識別するために使用されます。 詳細については、「 [Office の Office 365 テナント ID を検索する](https://support.office.com/article/find-your-office-365-tenant-id-6891b561-a52d-4ade-9f39-b492285e2c9b)」を参照してください。
 
 ホスト型ボイスメールポリシーが正常に作成されたことを確認するには、次のコマンドを実行します。
 

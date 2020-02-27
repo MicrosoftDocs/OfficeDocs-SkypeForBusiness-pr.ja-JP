@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'ビジネス向けの Microsoft 電話システムの計画とセットアップ方法について説明します。 '
-ms.openlocfilehash: b1ba96143c62b829ef9461c1429a83a8b3cfe51e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 27ec4803a33f524d1c260c27c1af3c71210b33d2
+ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045169"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42288705"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Office 365 の電話システムでできること
 
@@ -45,11 +45,11 @@ ms.locfileid: "42045169"
 |**Office 365 での電話システムの機能** <br/> |**説明** <br/> |
 |[クラウド自動応答](what-are-phone-system-auto-attendants.md) <br/> |外部および内部の発信者が組織内の会社のユーザーや部署に通話を配置して、通話を転送できるようにするメニューシステムを作成することができます。  <br/> |
 |[クラウド通話キュー](create-a-phone-system-call-queue.md) <br/> |組織での通話キューの管理方法を構成することができます。たとえば、応答メッセージや音楽を保留にしたり、通話を処理する次の通話エージェントを検索したりできます。  <br/> |
-|保留音 | 公衆交換電話網 (PSTN) からの外部通話が保留になっているときに、サービスによって定義された既定の音楽を再生します。 この機能は、通話キューへの通話に加えて、1対1の PSTN 同士の通話に対応しています。 この機能は、他のプラットフォームとの保留通知のパリティを提供します。 最初のリリースでは、この機能は管理者が構成することはできません。 PSTN 通話の提案転送でも、音楽を保留することはサポートされていません。|
+|保留音 | 公衆交換電話網 (PSTN) からの外部通話が保留になっているときに、サービスによって定義された既定の音楽を再生します。 この機能は、通話キューへの通話に加えて、1対1の PSTN 同士の通話に対応しています。 この機能は、他のプラットフォームとの保留通知のパリティを提供します。 この機能は管理者が構成できますが、[現在は PowerShell 経由でのみ](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)設定できます。 PSTN 通話の提案転送でも、音楽を保留することはサポートされていません。|
 |Answer/initiate (名前と電話番号)  <br/> |ユーザーがタッチして着信通話に応答し、完全な電話番号にダイヤルするか、またはクライアントで名前をクリックして発信通話を発信できるようにします。  <br/> |
 |[着信の転送オプションと同時呼び出し](https://support.office.com/article/call-forwarding-call-groups-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e) <br/> |通話がどこにいても通話できるように転送ルールを設定したり、通話を同僚やボイスメールに転送したりすることができます。  <br/> |
 |[グループ通話のピックアップとグループへの転送](call-sharing-and-group-call-pickup.md) <br/> | ユーザーが着信した通話を同僚と共有できるようにすることで、ユーザーが使用できない間に発生した通話に同僚が応答できるようにします。 ユーザーは着信の共有通話の通知方法を構成できるため、他の形式の通話共有 (着信の転送、同時呼び出しなど) よりも、受信者に対する影響が少なくなります。 |
-|[通話と consultive 転送を転送する](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> |ユーザーが通話を他のユーザーに転送できるようにします。 または、自分のオフィスから離れて、会話を続ける必要がある場合は、自分の PC または IP 電話から携帯電話に通話を転送することができます。  <br/> |
+|[通話と提案転送を転送する](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> |ユーザーが通話を他のユーザーに転送できるようにします。 または、自分のオフィスから離れて、会話を続ける必要がある場合は、自分の PC または IP 電話から携帯電話に通話を転送することができます。  <br/> |
 |[ボイスメールへの着信転送](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> | 通話中にユーザがボイスメールに転送することができます。 |
 |[コール パークおよび取得](call-park-and-retrieve.md)  <br/> | ユーザーは、クラウドの Teams サービスで通話を保留にすることができます。 通話が保留中の場合、サービスは通話の取得用に一意のコードを生成します。 通話または他のユーザーが、そのコードとサポートされているアプリまたはデバイスを使って通話を取得できます。 <br/> |
 |検索から電話番号に発信  <br/> | [ダイヤル] コマンドを使用して名前または番号を指定することで、ユーザーが検索ボックスから通話を発信できるようにします。 <br/> |
