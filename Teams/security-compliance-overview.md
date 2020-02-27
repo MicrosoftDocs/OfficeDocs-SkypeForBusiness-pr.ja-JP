@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 27c46949391ec37178985ab3ed4a08aebc7e5747
-ms.sourcegitcommit: 29034bda30a8460eb18600785f785528d0944041
+ms.openlocfilehash: 45e4c49824df9a098af5251d13234eae48db5619
+ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42285739"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42288625"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft Teams のセキュリティとコンプライアンス
 
@@ -111,8 +111,8 @@ Teams でのデータ損失防止の詳細については、「 [Microsoft teams
 
 訴訟の際には、ユーザー (カストディアン) またはチームに関連付けられたすべてのデータを、ケースの証拠として使用できるように、変更不可として保持する必要がある場合があります。 この操作を行うには、ユーザー (ユーザーのメールボックス) かチームを法的な保留リストに配置します。 チームの法的保持の場合、チームのメールボックスは次の保留リストに含めることができます。
 
-- インプレースホールド (ターゲットのクエリまたはフィルター処理されたコンテンツを使用した、メールボックスまたはサイトコレクションのサブセット) または
-- 訴訟ホールド (メールボックスまたはサイトコレクション全体が保留中)
+- インプレースホールド (ターゲットのクエリまたはフィルター処理されたコンテンツを使用した、メールボックスまたはサイトコレクションのサブセット)、または
+- 訴訟ホールド (メールボックスまたはサイトコレクション全体が保留中になります)。
 
 どちらの場合も、保留を設定すると、エンドユーザーがグループのメールボックス内のチャネルメッセージを削除または編集した場合でも、そのコンテンツの不変コピーは保持され、電子情報開示検索で利用できるようになります。 通常、法的保持は電子情報開示ケースのコンテキスト内に適用されます。
 
@@ -148,7 +148,7 @@ Office 365 セキュリティ & コンプライアンスセンターでの保存
 
 情報保護機能については、Office 365 サブスクリプションと関連するスタンドアロンライセンスによって、利用可能な機能セットが決定されます。
 
-セキュリティとコンプライアンスのための機能を実装するためにライセンスのニーズを特定する方法については、「 [Office のライセンス](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)認証を行う」を参照してください。365
+セキュリティとコンプライアンスのための機能を実装するためにライセンスのニーズを特定する方法については、「 [Office 365 のライセンス](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)を確認する」を参照してください。
 
 > [!NOTE]
 > コンテンツ検索と電子情報開示は、セキュリティ & コンプライアンスセンターで有効にする必要はありません。
