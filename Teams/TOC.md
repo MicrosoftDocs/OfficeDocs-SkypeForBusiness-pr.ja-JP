@@ -263,10 +263,10 @@
 
 ### ダイレクト ルーティングを構成する
 #### [概要](direct-routing-configure.md)
-#### [SBC をダイレクト ルーティングに接続する](direct-routing-connect-the-sbc.md)
-#### [ユーザーがダイレクト ルーティング、音声、およびボイスメールを使用できるようにする](direct-routing-enable-users.md)
-#### [音声ルーティングを構成する](direct-routing-voice-routing.md)
-#### [電話番号を変換する](direct-routing-translate-numbers.md)
+#### [手順 1: SBC を接続する](direct-routing-connect-the-sbc.md)
+#### [手順 2: ユーザーを有効にする](direct-routing-enable-users.md)
+#### [手順 3: 音声ルーティングを構成する](direct-routing-voice-routing.md)
+#### [手順 4: 電話番号を変換する](direct-routing-translate-numbers.md)
 #### [複数のテナントの SBC を構成する](direct-routing-sbc-multiple-tenants.md)
 #### [ダイレクト ルーティングを使用してアナログ デバイスを使用する方法](direct-routing-analog-devices.md)
 
@@ -638,11 +638,11 @@
 <!-- ============================================================ -->
 
 # セキュリティとコンプライアンス
+## [概要](security-compliance-overview.md)
 ## セキュリティ
 ### [ID モデルと認証](identify-models-authentication.md)
 ### [先進認証を使用して Teams にサインインする](sign-in-teams.md)
 ## コンプライアンス
-### [概要](security-compliance-overview.md)
 ### [情報障壁](information-barriers-in-teams.md)
 ### [保持ポリシー](retention-policies.md)
 ### [データ損失防止](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)

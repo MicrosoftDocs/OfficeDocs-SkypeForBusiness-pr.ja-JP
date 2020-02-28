@@ -15,12 +15,12 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: fcf6ee6bbf0f9d485a84007a01cd9ce0dfee9500
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 958ca112e52cefa31e122c02b47c76a68537d284
+ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836607"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42288725"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -174,7 +174,7 @@ Microsoft では、Teams を使いこなすための無料のライブ オンラ
         </a>
     </li>
     <li>
-        <a href="https://microsoftteams.eventbuilder.com/FLW3"target="_blank">
+        <a href="https://microsoftteams.eventbuilder.com/FLWValueWebinar"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -184,9 +184,9 @@ Microsoft では、Teams を使いこなすための無料のライブ オンラ
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>現場担当者と Teams</h3>
-                        <p>Teams の現場担当者向けの機能について説明します。</p>
-                        <p><i>対象ユーザー: エンド ユーザー</i></p>
+                        <h3>現場担当者と Teams を強化する</h3>
+                        <p>Teams が従業員全体に無限の可能性をもたらすデジタル変革を実現する方法を説明します。</p>
+                        <p><i>対象ユーザー: ビジネス上の意思決定者、IT 意思決定者</i></p>
                     </div>
                 </div>
             </div>
