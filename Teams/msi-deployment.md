@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc57222f56235c71c676f952cb0dd5aa149dc4e3
-ms.sourcegitcommit: df552697ae9c8c01c40f816bbe98b251db147199
+ms.openlocfilehash: c048e321241f4403fbb69f71e56b3fc179346951
+ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42277980"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42327829"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager を使用して Microsoft Teams をインストールする
 
@@ -55,9 +55,9 @@ Teams は、Office 365 ProPlus の展開に含めることもできます。 詳
 
 ### <a name="pc-installation"></a>PC のインストール
 
-Teams MSI はインストーラーを Program Files に配置します。 ユーザーが新しい Windows ユーザープロファイルにサインインするたびに、インストーラーが起動され、Teams アプリのコピーがそのユーザーの appdata フォルダーにインストールされます。 ユーザーが既にアプリデータ フォルダーに Teams アプリをインストール済みの場合、MSI インストーラーはそのユーザーについてはプロセスをスキップします。
+Teams MSI はインストーラーを Program Files に配置します。 ユーザーが新しい Windows ユーザープロファイルにサインインするたびに、インストーラーが起動され、そのユーザーの`AppData`フォルダーに Teams アプリのコピーがインストールされます。 ユーザーが既に Teams アプリを`AppData`フォルダーにインストールしている場合、MSI インストーラーはそのユーザーのプロセスをスキップします。
 
-更新プログラムを展開するのに MSI を使用しないでください。クライアントは、サービスから利用可能な新しいバージョンを見つけたら、自動更新します。 最新のインストーラーを再展開するには、以下に説明されている MSI の再展開のプロセスを使用します。以前のバージョンの MSI パッケージを展開する場合、クライアントは、可能な場合に、(VDI 環境を除く) 自動更新されます。 非常に古いバージョンが展開された場合、MSI は、ユーザーが Teams を使用できるようになる前に、アプリの更新をトリガーします。
+更新プログラムを展開するのに MSI を使用しないでください。クライアントは、サービスから利用可能な新しいバージョンを見つけたら、自動更新します。 最新のインストーラーを再展開するには、以下に説明されている MSI の再展開のプロセスを使用します。 以前のバージョンの MSI パッケージを展開する場合、クライアントは、可能な場合に、(VDI 環境を除く) 自動更新されます。 非常に古いバージョンが展開された場合、MSI は、ユーザーが Teams を使用できるようになる前に、アプリの更新をトリガーします。
 
 > [!Important]
 > 既定のインストール場所を変更すると、更新フローが崩れる可能性があるため、お勧めしません。 非常に昔のバージョンを利用すると、ユーザーがサービスにアクセスするのを妨げる結果になってしまいます。
@@ -65,7 +65,7 @@ Teams MSI はインストーラーを Program Files に配置します。 ユー
 #### <a name="target-computer-requirements"></a>対象となるコンピューターの要件
 
 - .NET Framework 4.5 以降
-- Windows 7 以降
+- Windows 8.1 以降
 - Windows Server 2012 R2 以降
 - 各ユーザー プロファイルに 3 GB のディスク容量 (推奨)
 
@@ -78,7 +78,7 @@ VDI に Teams デスクトップアプリを展開する方法の詳細なガイ
 ユーザーがユーザー プロファイルから Teams をアンインストールすると、MSI のインストーラーは、そのユーザーが Teams アプリをアンインストールしたことと、そのユーザー プロファイルで今後 Teams をインストールする機会がないことを記録します。 このユーザーのために Teams がアンインストールされた特定のコンピューター上で Teams を再展開するには、次の手順を実行します。
 
 1. それぞれのユーザー プロファイルにインストールされている Teams アプリをすべてアンインストールします。
-2. アンインストール後、%localappdata%\Microsoft\Teams\ 以下のディレクトリを再帰的に削除します。
+2. アンインストール後、ディレクトリを再帰的`%localappdata%\Microsoft\Teams\`に削除します。
 3. MSI パッケージをその特定のコンピューターに再展開します。
 
 ## <a name="prevent-teams-from-starting-automatically-after-installation"></a>インストール後にチームが自動的に起動しないようにする

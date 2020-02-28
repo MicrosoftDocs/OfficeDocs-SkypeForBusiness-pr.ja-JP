@@ -21,12 +21,12 @@ description: 教育担当の Teams で Microsoft Teams 管理センターの課�
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1fb811540fc4e79c65d93eefb993fa7523a39aff
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: ad9e3f8b0f2f3800c7394a9d4dc21fe7a2058426
+ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827825"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42327999"
 ---
 # <a name="assignments-in-teams-for-education"></a>教育機関向けの Teams の課題 
 
@@ -40,7 +40,6 @@ Microsoft Teams 管理センターの管理設定を使用すると、組織内�
 
 <a name="#bkemaildigest"> </a>
 ### <a name="weekly-guardian-email-digest"></a>1週間のガーディアンメールダイジェスト
-[!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
 ガーディアンのメールは、学生の両親またはガーディアンに対して毎週メールで送信されます。 このメールには、前週と来週の課題に関する情報が含まれており、週末に送信されます。 学校のデータ同期機能を使用して、管理者がメールを更新する必要があります。
 
@@ -58,7 +57,6 @@ MakeCode はブロックベースのコーディングプラットフォーム�
 
 <a name="#turnitin"> </a>
 ### <a name="turnitin"></a>Turnitin
-[!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
 Turnitin は、plagiarism の検出サービスです。 これは、サードパーティの製品またはサービスであり、独自の用語とプライバシーポリシーの適用対象となります。 お客様は、サードパーティの製品とサービスの使用に関して責任を負います。
 

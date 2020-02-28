@@ -17,12 +17,12 @@ hideEdit: true
 f1.keywords:
 - NOCSH
 description: マイクロソフトは、選択した SBC ベンダーと提携して、SBC がダイレクト ルーティングと連携することを保証しています。
-ms.openlocfilehash: 75f8286355a900b8827ef7e685b9310f26434b4c
-ms.sourcegitcommit: 26e61e94f0ba5d06a56c43541ee4970f479819d8
+ms.openlocfilehash: 71aefbd65f3f0364f68baf8abb8b5e75f8bcee9a
+ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42280305"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42327989"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト
 
@@ -46,30 +46,31 @@ Microsoft は各ベンダーと連携して次のことを行うことができ�
 
 |                                                       仕入先                                                        |       Product       | メディア以外のバイパス | メディアバイパス | ソフトウェアのバージョン | E911 プロバイダーで検証済み | ELIN 対応
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|-----------------|------------------|
-| [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   &#10004;    |  7.20   |
-|                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  7.20   |    |    |
-|                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   &#10004;    |  7.20   |     |    |    
-|                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   &#10004;     |  7.20   |     |    |    
-|                                                                                                                     | Mediant 1000B  SBC  |     &#10004;     |   Pending     |  7.20  |    |    |    
-|                                                                                                                     | Mediant 9000 SBC  |     &#10004;     |   &#10004;     |  7.20   |    |    |                                                                       
-|                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  7.20 |    |    |    
-|  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5110       |     &#10004;     |   &#10004;    |       7.2       | <ul> <li>自分の自分の自分の ado </li> <li>@ @ @ @ @</li> <li> 赤いスカイホライズンの機動性 </li> </ul> |   いいえ |    
-|                                                                                                                     |      SBC 5210       |     &#10004;     |  &#10004;    |       7.2       |  <ul> <li>自分の自分の自分の ado </li> <li>@ @ @ @ @</li> <li> 赤いスカイホライズンの機動性 </li> </ul> | いいえ   |    
-|                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       7.2       |  <ul> <li>自分の自分の自分の ado </li> <li>@ @ @ @ @</li> <li> 赤いスカイホライズンの機動性 </li> </ul>  |いいえ|    
-|                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       7.2       |   <ul> <li>自分の自分の自分の ado </li> <li>@ @ @ @ @</li> <li> 赤いスカイホライズンの機動性 </li> </ul> |  いいえ  |    
-|                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       7.2       |   <ul> <li>自分の自分の自分の ado </li> <li>@ @ @ @ @</li> <li> 赤いスカイホライズンの機動性 </li> </ul> |   いいえ |    
-|                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      8.0.3 (ビルド 537)     |  <ul> <li> 自分の自分の自分の ado </li> <li>@ @ @ @ @ </li> </ul>   |         |    
-|                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     8.0.3 (ビルド 537)     |  <ul> <li> 自分の自分の自分の ado </li> <li>@ @ @ @ @ </li> </ul>   |           |    
-|                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      8.0.3 (ビルド 216)    |  <ul> <li> 自分の自分の自分の ado </li> <li>@ @ @ @ @ </li> </ul>    |           |   
-| | EdgeMarc シリーズ |  &#10004; | | 15.6.1 | 
-|                     [ThinkTel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |        Pending   |       1.4       |     |    |    
-|                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |   <ul> <li> 自分の自分の自分の ado </li> <li>@ @ @ @ @ </li> </ul>   |    |    
-|                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |  <ul> <li> 自分の自分の自分の ado </li> <li>@ @ @ @ @ </li> </ul>  |    |    
-|                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |   <ul> <li> 自分の自分の自分の ado </li> <li>@ @ @ @ @ </li> </ul>  |    |    
-|                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |  <ul> <li> 自分の自分の自分の ado </li> <li>@ @ @ @ @ </li> </ul>   |    |    
-|                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   <ul> <li> 自分の自分の自分の ado </li> <li>@ @ @ @ @ </li> </ul>  |    |                                            
-|                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   <ul> <li> 自分の自分の自分の ado </li> <li>@ @ @ @ @ </li> </ul>   |    |    
-|                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      3.16.2      |     |    |    
+| [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   &#10004;    |  7.20   | <ul> <li> 帯域幅の動的な場所ルーティング </li> </ul>
+|                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  7.20   |  <ul> <li> 帯域幅の動的な場所ルーティング </li> </ul>  |    |
+|                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   &#10004;    |  7.20   |   <ul> <li> 帯域幅の動的な場所ルーティング </li> </ul>  |    |    
+|                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   &#10004;     |  7.20   |   <ul> <li> 帯域幅の動的な場所ルーティング </li> </ul>  |    |    
+|                                                                                                                     | Mediant 1000B  SBC  |     &#10004;     |   Pending     |  7.20  |  <ul> <li> 帯域幅の動的な場所ルーティング </li> </ul>  |    |    
+|                                                                                                                     | Mediant 9000 SBC  |     &#10004;     |   &#10004;     |  7.20   | <ul> <li> 帯域幅の動的な場所ルーティング </li> </ul>    |    |                                                                       
+|                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  7.20 |  <ul> <li> 帯域幅の動的な場所ルーティング </li> </ul>   |    |    
+|  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5110       |     &#10004;     |   &#10004;    |       7.2       | <ul> <li> 帯域幅の動的な場所ルーティング </li> <li>自分の自分の自分の ado </li> <li>@ @ @ @ @</li> <li> 赤いスカイホライズンの機動性 </li>  </ul> |   いいえ |    
+|                                                                                                                     |      SBC 5210       |     &#10004;     |  &#10004;    |       7.2       |  <ul> <li> 帯域幅の動的な場所ルーティング </li> <li>自分の自分の自分の ado </li> <li>@ @ @ @ @</li> <li> 赤いスカイホライズンの機動性 </li> </ul> | いいえ   |    
+|                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       7.2       |  <ul> <li> 帯域幅の動的な場所ルーティング </li><li>自分の自分の自分の ado </li> <li>@ @ @ @ @</li> <li> 赤いスカイホライズンの機動性 </li> </ul>  |いいえ|    
+|                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       7.2       |   <ul> <li> 帯域幅の動的な場所ルーティング </li> <li>自分の自分の自分の ado </li> <li>@ @ @ @ @</li> <li> 赤いスカイホライズンの機動性 </li> </ul> |  いいえ  |    
+|                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       7.2       |   <ul> <li> 帯域幅の動的な場所ルーティング </li> <li>自分の自分の自分の ado </li> <li>@ @ @ @ @</li> <li> 赤いスカイホライズンの機動性 </li> </ul> |   いいえ |    
+|                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      8.0.3 (ビルド 537)     |  <ul> <li> 帯域幅の動的な場所ルーティング </li> <li> 自分の自分の自分の ado </li> <li>@ @ @ @ @ </li> <li> 赤いスカイホライズンの機動性 </li> </ul>   |         |    
+|                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     8.0.3 (ビルド 537)     |  <ul> <li> 帯域幅の動的な場所ルーティング </li> <li> 自分の自分の自分の ado </li> <li>@ @ @ @ @ </li> <li> 赤いスカイホライズンの機動性 </li> </ul>   |           |    
+|                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      8.0.3 (ビルド 216)    |  <ul> <li> 帯域幅の動的な場所ルーティング </li> <li> 自分の自分の自分の ado </li> <li>@ @ @ @ @ </li> <li> 赤いスカイホライズンの機動性 </li> </ul>    |           |   
+| | Edgemarc シリーズ |  &#10004; | | 15.6.1 | 
+|                     [ThinkTel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |        Pending   |       V1.4       |     |    |    
+|                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |   <ul> <li> 帯域幅の動的な場所ルーティング </li>  <li> 自分の自分の自分の ado </li> <li>@ @ @ @ @ </li> </ul>   |    |    
+|                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |  <ul> <li> 帯域幅の動的な場所ルーティング </li>  <li> 自分の自分の自分の ado </li> <li>@ @ @ @ @ </li> </ul>  |    |    
+|                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |   <ul> <li> 帯域幅の動的な場所ルーティング </li>  <li> 自分の自分の自分の ado </li> <li>@ @ @ @ @ </li> </ul>  |    |    
+|                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |  <ul> <li> 帯域幅の動的な場所ルーティング </li> <li> 自分の自分の自分の ado </li> <li>@ @ @ @ @ </li> </ul>   |    |    
+|                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   <ul> <li> 帯域幅の動的な場所ルーティング </li> <li> 自分の自分の自分の ado </li> <li>@ @ @ @ @ </li> </ul>  |    |                                            
+|                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   <ul> <li> 帯域幅の動的な場所ルーティング </li> <li> 自分の自分の自分の ado </li> <li>@ @ @ @ @ </li> </ul>   |    |    
+|                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      v3.16.2      |     |    |    
+
 
 次の表は、ダイレクトルーティングとアナログデバイスの相互運用性を確認するデバイスを示しています。
 

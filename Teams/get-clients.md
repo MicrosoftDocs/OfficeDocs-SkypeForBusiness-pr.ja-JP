@@ -3,7 +3,6 @@ title: Microsoft Teams のクライアントを取得する
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 04/25/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -19,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4abae267bf1a8c0c770eebf1c1b12018a6c7deb
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e423bedc05dbbf303ecfdbf569ff9e1b096bd3d7
+ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833767"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42327839"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams のクライアントを取得する 
 
@@ -41,7 +40,7 @@ Microsoft Teams には、デスクトップ (Windows、Mac、Linux)、web、モ�
 > [!TIP]
 > Windows Desktop Clientの効果、計画や展開の方法については次のセッションを参照してください。[Teams Windows Desktop Client](https://aka.ms/teams-clients)
 
-Microsoft Teams デスクトップクライアントは、スタンドアロンアプリケーションであり、 [Office 365 ProPlus でも利用でき](https://docs.microsoft.com/deployoffice/teams-install)ます。 Teams は、Windows (7 +)、Windows Server (2012 R2 +)、32ビットと64ビットの両方のバージョン、macOS (10.10 +)、Linux (in `.deb`および`.rpm` format) で利用できます。 Windows で Teams を使用するには .NET Framework 4.5 以降が必要です。.NET Framework 4.5 以降がない場合は、Teams のインストーラーでインストールすることを勧めます。 Linux では、apt、yum などのパッケージマネージャーが、必要な要件をすべてインストールしようとします。 ただし、このようになっていない場合は、チームを Linux にインストールする前に、報告された要件をインストールする必要があります。
+Microsoft Teams デスクトップクライアントは、スタンドアロンアプリケーションであり、 [Office 365 ProPlus でも利用でき](https://docs.microsoft.com/deployoffice/teams-install)ます。 Teams は、32ビットバージョンと64ビットバージョンの Windows (8.1 以降)、および Windows Server (2012 R2 以降)、および macOS (10.10 以降) および Linux (形式`.deb`と`.rpm`形式) で利用できます。 Windows で Teams を使用するには .NET Framework 4.5 以降が必要です。.NET Framework 4.5 以降がない場合は、Teams のインストーラーでインストールすることを勧めます。 Linux では、など`apt`のパッケージマネージャー `yum`が、必要な要件をすべてインストールしようとします。 ただし、このようになっていない場合は、チームを Linux にインストールする前に、報告された要件をインストールする必要があります。
 
 デスクトップ クライアントは、チーム会議、グループ通話、およびプライベートな 1 対 1 での通話に対応するリアルタイム通信のサポート (オーディオ、ビデオ、およびコンテンツ共有) を提供します。
 
@@ -181,6 +180,8 @@ Web クライアントは[https://teams.microsoft.com](https://go.microsoft.com/
 ## <a name="mobile-clients"></a>モバイル クライアント
 
 Microsoft Teams モバイル アプリは Android および iOS で利用可能で、外出先でチャット会話に参加しているユーザーを対象とし、ピア ツー ピアの音声通話を許可します。 モバイル アプリを使用する場合は、Google Play と Apple App Store の関連モバイル ストアに移動します。 Windows Phone App は 2018 年 7 月 20 日に廃止された為、動作しなくなる可能性があります。 
+
+中国では、 [Android 用の Teams を利用](get-teams-android-in-china.md)する方法について説明します。 
 
 Microsoft Teams モバイル アプリのサポートされるモバイル プラットフォームは次のとおりです。
 

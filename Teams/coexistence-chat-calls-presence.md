@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: このドキュメントでは、割り当てられている TeamsUpgrade モードに基づいて、テナント内とフェデレーションの両方で、Teams と Skype for Business のユーザー間のチャット、通話ルーティング、プレゼンスの動作について説明します。 これには、ルーティングの最適化、プレゼンスの動作、さらに*レガシ*から*アイランド*への既定の TeamsUpgrade モードの変更、および間もなくサポートが終了する*レガシ*が含まれます。
-ms.openlocfilehash: 442b4b68b9739d9d17d02e298b53c5d9ecec3c8f
-ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
+ms.openlocfilehash: 64889ae11b4ce8665fb4a6bdbb98ff95aaf777fc
+ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42236827"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42328019"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Skype for Business と共存する
 
@@ -56,7 +56,7 @@ Skype for Business と Teams の各クライアントとユーザー間におけ
     - Teams 間の通信は、常にテナント内で可能です。
 
 > [!NOTE]
-> 現時点では、Teams に関連するすべてのフェデレーションでは、Skype for Business フェデレーション パイプラインだけでなく、Teams と Skype for Business 間の相互運用性を活用しています。 また、現在、ネイティブの Teams 間フェデレーションを計画中です。 本ドキュメントは、ネイティブのフェデレーションのリリース時に更新されます。
+> 受信者と送信者が両方ともチームのアップグレードモードである場合、会話はネイティブのチャットエクスペリエンスになり、すべての豊富なメッセージング機能と通話機能が含まれます。 詳細については、「 [Teams の外部 (フェデレーション) ユーザー向けのネイティブチャットの操作」](native-chat-for-external-users.md)を参照してください。 いずれかの会話参加者がチームのアップグレードモードになっていない場合、会話はテキストのみのメッセージでの相互運用機能の操作環境のままです。
 
 ## <a name="chat-and-call-routing"></a>チャットと通話のルーティング
 
