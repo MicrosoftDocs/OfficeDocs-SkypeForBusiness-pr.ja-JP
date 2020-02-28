@@ -23,7 +23,7 @@ ms.collection:
 description: 組織のユーザーがスケジュールする Teams 会議の設定を管理する方法を説明します。
 ms.openlocfilehash: bed367c9c40bb7124235abf204bbfa0395859685
 ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 02/06/2020
 ms.locfileid: "41836467"
