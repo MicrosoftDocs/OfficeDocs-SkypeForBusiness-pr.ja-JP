@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: '概要: 通話品質ダッシュボードを計画するときの考慮事項について説明します。'
-ms.openlocfilehash: 25342998332a596abce9ecd02e63e153be6e6d94
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 63b69d64624d13253badf1d3e6f44535afdc0993
+ms.sourcegitcommit: 35de08b532eb7cf58c3221210c2b3b52f8aa047e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029418"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42339442"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>Skype for Business Server の通話品質ダッシュボードを計画する 
  
@@ -195,10 +195,10 @@ CQD でのデータ処理は、次の2つの主要な段階に分かれていま
 
 |**マシン**|**CPU コア**|**RAM**|**同じディスク上の QoE アーカイブとキューブ**|**同じディスク上の QoE アーカイブと SQL Temp DB**|
 |:-----|:-----|:-----|:-----|:-----|
-|仮想マシン  <br/> |4   <br/> |7 GB  <br/> |はい  <br/> |はい  <br/> |
-|4コア  <br/> |4   <br/> |20 GB  <br/> |はい  <br/> |いいえ  <br/> |
-|8コア  <br/> |8   <br/> |32 GB  <br/> |はい  <br/> |いいえ  <br/> |
-|16コア  <br/> |16   <br/> |128 GB  <br/> |いいえ  <br/> |いいえ  <br/> |
+|仮想マシン  <br/> |2/4  <br/> |7 GB  <br/> |はい  <br/> |はい  <br/> |
+|4コア  <br/> |2/4  <br/> |20 GB  <br/> |はい  <br/> |なし  <br/> |
+|8コア  <br/> |~  <br/> |32 GB  <br/> |はい  <br/> |なし  <br/> |
+|16コア  <br/> |16   <br/> |128 GB  <br/> |いいえ  <br/> |なし  <br/> |
    
 **パフォーマンス結果**
 
@@ -296,15 +296,10 @@ add-windowsfeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Asp-Net,
 
 次のバージョンの SQL Server がサポートされています。
   
-- SQL Server 2012
-    
-- SQL Server 2014
-
-- SQL Server 2016
-
-- SQL Server 2017
-
-- SQL Server 2019 (Skype for Business Server 2019 CQD のみ)
+|||
+|:-----|:-----|
+| CQD 2015 <br/> |  Sql Server 2012、SQL Server 2014、SQL Server 2016  |
+|CQD 2019 <br/> |  SQL Server 2017、SQL Server 2019  |
     
 パフォーマンス上の理由から、ビジネスインテリジェンスまたは Enterprise edition を使用することをお勧めします。 これらのエディションでは、並行して処理できる複数のパーティションファイルの使用が許可されています。これは、複数の月またはそれを超える期間にわたるデータの処理に役立ちます。 
   

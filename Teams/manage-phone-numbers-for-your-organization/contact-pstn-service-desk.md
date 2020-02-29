@@ -23,21 +23,30 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: 組織で電話番号を取得したり、番号を移行 (転送) したりする場合、PSTN サービスデスクでヘルプとサポートを受ける必要がある場合があります。
-ms.openlocfilehash: 819baa319fb0cd8d53e163560c6de888ecd177c9
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 6d400e51270b411054802240216d9e957a68f054
+ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825715"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341785"
 ---
-# <a name="pstn-service-desk-help"></a>PSTN サービスデスクのヘルプ
+# <a name="pstn-service-desk-contact"></a>PSTN サービスデスクの連絡先
 
-電話番号の取得や転送についてのヘルプが必要な場合は、skype に連絡して、メールでお問い合わせください。 メールのヘルプ要求で、できるだけ多くの情報を含め、組織 ID、ドメイン、ヘルプが必要な種類の番号、必要な番号の数、アカウントのユーザーの承認、問題に関するその他の重要な詳細情報を含めることができます。
+Microsoft からの電話番号の取得、または既存の電話番号の Microsoft への移植に関するヘルプが必要な場合は、次の情報を含むメール要求を送信してください。
 
-次のいずれかのメールアドレスに要求を送信します。
+  - 組織 ID (テナント ID) またはアクティブなドメイン。
+  - 必要な電話番号の種類 (ユーザー/加入者、サービス/有料、またはフリーダイヤル)。
+  - 必要な数値の数 (この番号を取得する場合)。
+  - お客さまのリクエストに基づいて、アカウントやその他の重要な詳細情報を承認します。
 
-- 米国内の電話番号に関するサポートについては、 [ 要求を送信](mailto:ptn@microsoft.com)します。
-- 米国外の電話番号に関するサポートについては、 [要求を送信](mailto:ptneu@microsoft.com)します。
+すべての情報を取得したら、リクエストに該当する次のメールアドレスのいずれかにリクエストを送信します。
+- **電話番号の移行**
+    - **米国またはカナダ国内**で電話番号を移行する場合は、 [ptn@microsoft.com でメールを送信してください](mailto:ptn@microsoft.com)。
+    - **米国またはカナダ以外の**電話番号を移行する場合は、 [ptneu@microsoft.com でメールを送信してください](mailto:ptneu@microsoft.com)。
+    
+- **番号の取得**
+    - 以下の国の新しい電話番号を取得します:**ベルギー、フランス、ドイツ、英国、アイルランド、オランダ、スペイン、スウェーデン、スイス**、 [ptneu@microsoft.com でメールを送信してください](mailto:ptneu@microsoft.com)。
+    - **他の地域**のために新しい電話番号を取得するには、 [gcstnmsd@microsoft.com でメールを送信してください](mailto:gcstnmsd@microsoft.com)。
 
 ## <a name="related-topics"></a>関連トピック
 

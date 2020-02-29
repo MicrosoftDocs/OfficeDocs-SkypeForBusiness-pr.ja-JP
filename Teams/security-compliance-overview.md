@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45e4c49824df9a098af5251d13234eae48db5619
-ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
+ms.openlocfilehash: 5b687d528f7cb593039fdafd9dcc6ec08ec66372
+ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "42288625"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341645"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft Teams のセキュリティとコンプライアンス
 
@@ -56,7 +56,7 @@ Teams は SharePoint、OneNote、Exchange などと連携して動作するた�
 
 ### <a name="safe-links"></a>安全なリンク
 
-現時点では、ATP の安全なリンクは Microsoft Teams では利用できませんが、後で利用できるようになります。その場合は、このコンテンツを更新してお知らせください。 それまでの間、O365 の安全なリンクについては、「 [Office 365 ATP の安全なリンク](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection)」を参照してください。
+現時点では、ATP の安全なリンクは Microsoft Teams では利用できません。現在は、skype の導入プログラム (タップ) によってパブリックプレビューに表示されていますが、この時点でこの記事を更新する予定です。 また、O365 の安全なリンクについては、 [Office 365 ATP の安全なリンク](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection)を確認してください。
 
 ### <a name="how-conditional-access-policies-work-for-teams"></a>チームの条件付きアクセスポリシーのしくみ
 
@@ -167,7 +167,7 @@ Teams は Tier D 準拠です。これにより、ISO 27001、ISO 27018、SSAE16
 
 業界をリードするコンプライアンスへの取り組みを実施しているコンプライアンス カテゴリ C および D のサービスは、既定で有効になっています。カテゴリ A と B のサービスでは、組織全体に対してオンまたはオフにする制御が用意されています。詳細については、「[Compliance Framework for Industry Standards and Regulations (業界の規格と規制のコンプライアンス フレームワーク)](https://download.microsoft.com/download/1/4/3/1434ABAB-B8E9-412D-8C3A-187B5FCB7A2F/Compliance%20Framework%20document.pdf)」をご覧ください。Teams はクラウド セキュリティ アライアンス (CSA) にも準拠しています。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [M365 セキュリティ](https://docs.microsoft.com/microsoft-365/security/)
 [M365 コンプライアンス](https://docs.microsoft.com/microsoft-365/compliance/)

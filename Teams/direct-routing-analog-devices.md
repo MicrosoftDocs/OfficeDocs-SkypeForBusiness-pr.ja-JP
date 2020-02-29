@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: この記事では、Microsoft Phone システムのダイレクトルーティングでアナログデバイスを使用する方法について説明します。
-ms.openlocfilehash: c1720a7f702babbf677ab8f1de75014c629e6d76
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 525e898bd0eafe88d6893249465734d7c33a10b2
+ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192170"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341791"
 ---
 # <a name="how-to-use-analog-devices-with-phone-system-direct-routing"></a>電話システムのダイレクトルーティングでアナログデバイスを使用する方法
 
@@ -45,7 +45,7 @@ ms.locfileid: "42192170"
 4. ボイスルートを PSTN 使用量に割り当てる
 5. オンラインユーザーを有効にする
 6. ユーザーに音声ルートポリシーを割り当てる
-7. ボイスルートポリシーをアナログデバイスに割り当てる
+7. アナログデバイスのボイスルートを作成する
 
 ATA に ATA を接続して SBC を構成する方法については、「SBC 製造元構成ガイド」を参照してください。
 - [AudioCodes 構成の文書化](https://www.audiocodes.com/media/14278/connecting-audiocodes-sbc-with-analog-device-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf)
@@ -104,7 +104,7 @@ PS C:\> Set-CsUser -Identity "exampleuser@contoso.com" -EnterpriseVoiceEnabled $
 PS C:\> Grant-CsOnlineVoiceRoutingPolicy -Identity "exampleuser@contoso.com" -PolicyName "AnalogInteropPolicy" 
 ```
 
-## <a name="step-7--assign-a-voice-route-to-an-analog-device"></a>手順 7: ボイスルートをアナログデバイスに割り当てる
+## <a name="step-7--create-a-voice-route-for-an-analog-device"></a>手順 7: アナログデバイスのボイスルートを作成する
 
 このコマンドを実行すると、番号1425範囲が "アナログ-相互運用" という id のオンラインボイスルーティングが作成され、オンラインゲートウェイ sbc.contoso.com のリストにも適用され、オンラインの PSTN 使用状況 "Interop" と関連付けられます。  このコマンドは、適切な電話番号パターンを持つ各アナログデバイスに対して実行する必要があります。 または、前の手順のいずれかを実行しているときに、オンラインボイスルーティングを構成するときに、アナログデバイス用の適切な番号パターンを使用できます。
 

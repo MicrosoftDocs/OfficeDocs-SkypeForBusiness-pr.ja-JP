@@ -16,15 +16,15 @@ search.appverid: MET150
 description: Office 365 監査ログから Microsoft Teams データを取得する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c1f82a7688e3fdde7be85004c717293cc5777fa
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 3f53d1a0b5e600de9d38233b243dba3486b88bf1
+ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826275"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341625"
 ---
-<a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Microsoft Teams でイベントの監査ログを検索する
-==================================================
+# <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Microsoft Teams でイベントの監査ログを検索する
+
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
@@ -52,20 +52,43 @@ Office 365 で監査されるアクティビティの完全なリストを確認
 
 ## <a name="retrieve-teams-data-from-the-audit-log"></a>監査ログから Teams データを取得する
 
-
-1.  監査ログを取得するには、[セキュリティ/コンプライアンス センター](https://go.microsoft.com/fwlink/?linkid=855775)に移動します。 [**検索**] で、[**監査ログの検索**] を選びます。
-
-
-
-2. [**Search (検索)**] を使用して、監査するアクティビティ、日付、ユーザーをフィルターします。
-
-3. さらに詳しく分析するために、結果を Excel にエクスポートします。
+1. 監査ログを取得するには、[セキュリティ/コンプライアンス センター](https://go.microsoft.com/fwlink/?linkid=855775)に移動します。 [**検索**] で、[**監査ログの検索**] を選びます。
+1. [**Search (検索)**] を使用して、監査するアクティビティ、日付、ユーザーをフィルターします。
+1. さらに詳しく分析するために、結果を Excel にエクスポートします。
 
 > [!IMPORTANT]
 > 監査データは、監査がオンになっている場合に、監査ログでのみ見ることができます。
 
+## <a name="external-user-scenario"></a>外部ユーザーのシナリオ
+
+ビジネスの観点から見ていく1つのシナリオは、チーム環境に外部ユーザーを追加することです。 外部ユーザーが有効になっている場合は、そのプレゼンスを監視することをお勧めします。
+
+![一括削除によってトリガーされるイベントの一覧のスクリーンショット](media/TeamsExternalUserAddPolicy.png)
+
+外部ユーザーを監視するこのポリシーのスクリーンショットでは、ポリシーに名前を付け、ビジネスニーズに応じて重要度を設定し、(この例では) 1 つのアクティビティとして設定して、追加のみを監視するパラメーターを確立することができます。を超えている場合は、このアクティビティを Microsoft Teams に制限します。
+
+このポリシーの結果は、アクティビティログで確認できます。
+
+![一括削除によってトリガーされるイベントの一覧のスクリーンショット](media/TeamsExternalUserList.png)
+
+ここでは、設定したポリシーとの一致を確認し、必要に応じて調整を行います。または、他の場所で使用するように結果をエクスポートすることができます。
+
+## <a name="mass-delete-scenario"></a>一括削除のシナリオ
+
+前に説明したように、削除シナリオを監視できます。 チームサイトの一括削除を監視するポリシーを作成することができます。
+
+![大量のチーム削除のポリシーの設定を示すポリシー作成ページのスクリーンショット](media/TeamsMassDeletePolicy.png)
+
+スクリーンショットのように、このポリシーのさまざまなパラメーターを設定して、レベル、単一または繰り返しのアクション、[チームとサイトの削除に制限するパラメーター] などのチームの削除を監視することができます。 この操作は、テンプレートから独立して行うことも、組織のニーズに応じて、このポリシーを基にして設定するテンプレートを作成することもできます。
+
+ビジネスに適したポリシーを確立したら、イベントがトリガーされたときにアクティビティログで結果を確認できます。
+
+![一括削除によってトリガーされるイベントの一覧のスクリーンショット](media/TeamsMassDeleteList.png)
+
+設定したポリシーにフィルターを適用して、そのポリシーの結果を表示することができます。 アクティビティログに表示された結果が適切ではない場合 (多くの結果が表示されている場合や、何も起こらない場合) は、クエリを微調整して、必要な処理により関連性を高めることができます。
+
 ## <a name="video-techtip-using-audit-log-search-in-teams"></a>ビデオ: TechTip: Using Audit Log Search in Teams (技術ヒント: Teams で監査ログ検索を使用する)
 
-Teams のプログラム マネージャーの Ansuman Acharya が実施する、Office 365 セキュリティ/コンプライアンス センターでの Teams の監査ログ検索のデモンストレーションに参加できます。 
+Teams のプログラム マネージャーの Ansuman Acharya が実施する、Office 365 セキュリティ/コンプライアンス センターでの Teams の監査ログ検索のデモンストレーションに参加できます。
 
 > [!VIDEO https://www.youtube.com/embed/UBxaRySAxyE]

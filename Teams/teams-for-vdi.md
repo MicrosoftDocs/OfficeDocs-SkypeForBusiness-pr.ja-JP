@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 479f272f45c4ac7c8f84f0aa26fe923ea16ff3d7
-ms.sourcegitcommit: df552697ae9c8c01c40f816bbe98b251db147199
+ms.openlocfilehash: c5bc574fc760929d416ce3f62c921bc522c2997c
+ms.sourcegitcommit: 35de08b532eb7cf58c3221210c2b3b52f8aa047e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42278010"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42339462"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>仮想デスクトップ インフラストラクチャ用の Teams
 
@@ -351,7 +351,8 @@ PowerShell を使用して会議のポリシーを管理する方法の詳細に
     - アプリケーション共有はサポートされていません。
 - コントロールを用意して制御します。  
     - 画面共有またはアプリケーション共有セッション中はサポートされません。
-    - PowerPoint 共有セッション中にサポートされます。  
+    - PowerPoint 共有セッション中にサポートされます。
+- マルチモニターのセットアップで画面共有を行う場合、メインモニターのみが共有されます。
 - CWA での高 DPI スケーリングはサポートされていません。
 
 VDI に関連していない Teams の既知の問題については、「 [teams の既知の問題](Known-issues.md)」を参照してください。
@@ -362,7 +363,7 @@ VDI に関連していない Teams の既知の問題については、「 [team
 
 VDA と CWA の問題を解決する方法については、[この Citrix の web サイト](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html)を参照してください。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [MSI を使用して Microsoft Teams をインストールする](msi-deployment.md)
 - [Teams での PowerShell の概要](teams-powershell-overview.md)

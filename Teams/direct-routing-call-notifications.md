@@ -18,12 +18,12 @@ description: 直接ルーティング通話の通知
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 3d53245d241435e869dbdbeb15dcb1c81e18ff96
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 0320ebc6abfc0e3f3d720fbab03abc698b26849c
+ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837597"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341801"
 ---
 # <a name="manage-call-notifications"></a>着信通知の管理
 
@@ -45,7 +45,7 @@ ms.locfileid: "41837597"
 
 理由: SIP;原因 = 200; テキスト "通話がどこかで完了しました" 
 
-通話は、Microsoft 電話システムの通話の詳細レコードに正常に通話として登録されないことに注意してください。 通話は "試行" として登録されます。これには、最終 SIP コード "487"、最終的な Microsoft コードの "540200"、最終 SIP コードフレーズ "通話はどこかで完了しました" となります。   (通話の詳細レコードを表示するには、Teams 管理ポータル、分析とレポート、利用状況レポート、[PSTN の利用状況] を選択します)。
+通話は、Microsoft 電話システムの通話の詳細レコードに正常に通話として登録されないことに注意してください。 通話は "試行" として登録されます。これには、最終 SIP コード "487"、最終的な Microsoft コードの "540200"、最終 SIP コードフレーズ "通話はどこかで完了しました" となります。  (通話の詳細レコードを表示するには、Teams 管理ポータル、分析とレポート、利用状況レポート、[PSTN の利用状況] を選択します)。
 
 
 次の図は、Fork 1 での SIP のはしごを示しています。通話フローと、キャンセルメッセージで想定される理由について説明しています。 
