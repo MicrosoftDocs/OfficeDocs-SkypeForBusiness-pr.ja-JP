@@ -22,7 +22,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 106be5636d37df64b9a047dd6ff692cc445e7a2b
 ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 02/21/2020
 ms.locfileid: "42203893"
@@ -115,7 +115,7 @@ Teams の概要に関するこのショート ビデオをご覧ください。<
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>YouTube の Teams トレーニングチャネルをご覧ください。</h3>
+                        <h3>YouTube で Teams のトレーニング チャネルをチェックする</h3>
                     </div>
                 </div>
             </div>
