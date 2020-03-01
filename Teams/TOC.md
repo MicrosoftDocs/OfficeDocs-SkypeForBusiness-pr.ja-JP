@@ -4,6 +4,8 @@
 
 # [アーキテクチャとテレフォニー ソリューションのポスター](teams-architecture-solutions-posters.md)  
 
+# [リモート ワーカーのサポート (WFH)](support-remote-work-with-teams.md)
+
 # トレーニング 
 ## [概要](training-microsoft-teams-landing-page.md)
 ## [Teams のインストラクターによるトレーニング](instructor-led-training-teams-landing-page.md)
@@ -157,6 +159,7 @@
 #### [電話会議ブリッジの設定を変更する](change-the-settings-for-an-audio-conferencing-bridge.md)
 #### [電話会議の電話番号のリストを表示する](see-a-list-of-audio-conferencing-numbers-in-teams.md)
 #### [電話会議の自動案内の言語を設定する](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)
+#### [ユーザー用の会議のダイヤルアウト確認をセットアップする](set-up-meeting-dial-out-confirmation.md)
 
 
 ### [組織の電話会議の設定を管理する](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
