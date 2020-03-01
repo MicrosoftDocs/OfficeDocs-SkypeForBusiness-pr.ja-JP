@@ -695,6 +695,7 @@
 
 ## Teams のインストール
 ### [Teams のクライアントを取得する](get-clients.md)
+### [中国で Android 用 Teams を取得する](get-teams-android-in-china.md)
 ### [Teams アプリのハードウェア要件](hardware-requirements-for-the-teams-app.md)
 ### [ハードウェア デコーダー/エンコーダー ドライバーの推奨事項](hardware-decoders-and-encoders.md)
 ### [MSI を使用した Teams のインストール](msi-deployment.md)
