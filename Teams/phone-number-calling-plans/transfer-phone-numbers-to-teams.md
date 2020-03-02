@@ -17,12 +17,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: ''
-ms.openlocfilehash: 0f846029002529d221b079140cf7de8ae618f26c
-ms.sourcegitcommit: f3d4f4aabe31c5516507dfacbbd61cf0ae362d46
+ms.openlocfilehash: b87684b6fbb73115540e20c72636200e61ca0e88
+ms.sourcegitcommit: c4f13aa4947df606d38694a7e544b08be7ce20d1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42089740"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42370416"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>Microsoft Teams に電話番号を転送する
 
@@ -87,11 +87,11 @@ Microsoft Teams 管理センターの [移植] ウィザードを使用して、
 
 ## <a name="what-happens-next"></a>この後のステップは？
 
-ポート注文が届くと、お客様のリクエストを確認するメールが届きます。 リクエストが毎日チェックされて更新され、メールの進捗状況と状態が通知されます。 要求が拒否された場合は、サポートチケットを開くように求められます。
+ポート注文が届くと、お客様のリクエストを確認するメールが届きます。 リクエストが毎日チェックされて更新され、メールの進捗状況と状態が通知されます。 紛失しているキャリアでポート要求が拒否された場合は、 [PSTN サービスデスク](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)に問い合わせてください。
 
 ポート注文の状態を表示するには、Microsoft Teams 管理センターの左のナビゲーションで > [**音声** > **ポートの注文**] に移動し、[**注文履歴**] をクリックします。 各ポート注文の状態は、[**状態**」列に表示されます。 詳細については、「[ポート注文の状態は何ですか?](port-order-status.md) 」を参照してください。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [番号移行注文について](port-order-overview.md)
 - [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

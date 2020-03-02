@@ -17,12 +17,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 'Learn how to get the status of your port orders, and what the different actions you can take on them. '
-ms.openlocfilehash: 2c141bab63990c39ef7fd08837eb4ad99d72682d
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 67a69ff2a86a57e16d157fa1a0b4b36ca3c2e036
+ms.sourcegitcommit: c4f13aa4947df606d38694a7e544b08be7ce20d1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827955"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42370406"
 ---
 # <a name="whats-the-status-of-your-port-orders"></a>番号移行注文の状況
 
@@ -35,16 +35,16 @@ ms.locfileid: "41827955"
 |**処理** <br/> |はい  <br/> |いいえ  <br/> |はい  <br/> |いいえ  <br/> |管理者が注文を作成し、Microsoft によって受信されました。  <br/> |
 |**電話会社に連絡中** <br/> |はい  <br/> |いいえ  <br/> |はい  <br/> |いいえ  <br/> |注文は Microsoft によって受領され承認されており、ご利用の承認を得るために、紛失しているキャリアを使用しています。  <br/> |
 |**承認済みの転送** <br/> |はい  <br/> |確定注文の確約 (= c)  <br/> |はい  <br/> |いいえ  <br/> |この注文は、紛失しているキャリアによって承認されたため、ドライブ c の日付が設定されています。  <br/> |
-|**転送待ち** <br/> |はい  <br/> |なし  <br/> |なし  <br/> |いいえ  <br/> |移動は24時間以内であるため、注文を編集またはキャンセルすることはできません。  <br/> |
-|**エラー** <br/> |いいえ  <br/> |はい  <br/> |Yes  <br/> |はい (現時点では、エラーが発生した場合は、ポートの順序を削除できません。 ポート注文を再作成するか、 [PSTN サービスデスクのヘルプ](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)に問い合わせる必要があります。  <br/> |紛失したキャリアが注文を却下しました。  <br/> |
+|**転送待ち** <br/> |はい  <br/> |なし  <br/> |なし  <br/> |いいえ  <br/> |移動は24時間以内に行われるため、注文を編集したりキャンセルしたりすることはできなくなります。  <br/> |
+|**エラー** <br/> |いいえ  <br/> |はい  <br/> |Yes  <br/> |はい (現時点では、エラーが発生した場合は、ポートの順序を削除できません。 ポート注文を再作成するか、 [PSTN サービスデスク](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)に問い合わせる必要があります。  <br/> |紛失したキャリアが注文を却下しました。  <br/> |
 |**時点** <br/> |はい  <br/> |なし  <br/> |なし  <br/> |いいえ  <br/> |番号は正常に転送されました。  <br/> |
 |**閉じ** <br/> |いいえ  <br/> |はい  <br/> |なし  <br/> |いいえ  <br/> |管理者が注文をキャンセルしました。  <br/> |
 
 詳細な手順については、「[チームに電話番号を転送する](transfer-phone-numbers-to-teams.md)」を参照してください。
 
-ヘルプが必要な場合や、その他の電話番号を取得する必要がある場合は、 [PSTN サービスデスクのヘルプを参照](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)してください。
+ヘルプが必要な場合、または他の電話番号を取得する必要がある場合は、 [PSTN サービスデスク](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)にお問い合わせください。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [番号移行注文について](port-order-overview.md)
 - [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
