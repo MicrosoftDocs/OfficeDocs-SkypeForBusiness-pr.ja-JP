@@ -20,7 +20,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e1cdd071dfe19c50650d6f18605a5aeed5b39300
 ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 02/28/2020
 ms.locfileid: "42327849"
@@ -43,7 +43,7 @@ Teams の会議アドインは、Microsoft Teams と Office 2010、Office 2013 �
 
 ## <a name="teams-meeting-add-in-in-outlook-for-mac"></a>Outlook for Mac の Teams 会議アドイン
 
-Outlook for Mac の [Teams 会議] ボタンが、Office 365 クライアントサブスクリプションで実行されていて、outlook for mac のリボンに表示されます。
+Outlook の製品版 16.24.414.0 以降が実行されていて、Office 365 クライアント サブスクリプションでアクティブになっている場合、Outlook for Mac で [Teams 会議] ボタンは Outlook for Mac のリボンに表示されます。
 
 ユーザーが [**送信**] をクリックすると、会議の調整 (Teams への参加リンクおよびダイヤルイン番号) が会議出席依頼に追加されます。  
 
