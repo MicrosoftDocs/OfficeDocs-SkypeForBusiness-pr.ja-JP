@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f03c4cdd13ea63dfee6470843fea5e2dafeab7c
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 51afc464b5f6d0fa698250d1255315535e383bf8
+ms.sourcegitcommit: ed0ecb3b1250a23d3b91a5a33256aee1c3119db1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837447"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "42374324"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Microsoft 365 Government-GCC 展開を計画する
 
@@ -128,7 +128,7 @@ Office 365 の機能を活用できるだけでなく、Microsoft 365 Government
 | | Skype コンシューマー-チーム通話サポート | 利用可能 |
 | ファイル | 行っ | 利用可能 |
 | | Microsoft Teams | 利用可能 |
-| ストア | App Store | 政府バックログの場合 |
+| ストア | App Store | 利用可能 |
 | 検索 | メッセージ | 利用可能 |
 | | ユーザー | 利用可能 |
 | | ファイル | 利用可能 |
@@ -140,7 +140,6 @@ Office 365 の機能を活用できるだけでなく、Microsoft 365 Government
 | | 電子情報開示 | 利用可能 |
 
 > [!Note]
-
 > GCC クラウドで他の作業負荷が完全に利用できるようになると、その他の統合作業が完了したときにチームで利用できるようになります。
 
 
