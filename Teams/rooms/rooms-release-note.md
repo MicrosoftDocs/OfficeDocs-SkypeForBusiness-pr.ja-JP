@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: この記事では、Microsoft Teams のルームでの累積的な改善点について説明します。
-ms.openlocfilehash: fc83efc2b3b72be532d29b2698370c655a1da9ac
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 6ecc038658b8178530833ae4f8964bdfc733be84
+ms.sourcegitcommit: bc2e0f6f2ed3802ecc67275594db221c61824458
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42155089"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "42398195"
 ---
 # <a name="release-notes"></a>リリース ノート
 
@@ -28,6 +28,7 @@ ms.locfileid: "42155089"
 
 |リリース |公開先 <br/> Microsoft ストア |
 |--- |--- |
+|4.3.42.0 |03/02/2020 |
 |4.3.33.0 |1/10/2020 |
 |4.3.23.0 |12/13/2019 |
 |4.2.4.0 |10/07/2019 |
@@ -59,6 +60,12 @@ ms.locfileid: "42155089"
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams の会議機能の概要と問題の解決
+### <a name="43420-03022020"></a>4.3.42.0 (03/02/2020)
+
+この更新プログラムで導入されたもの:
+
+- "Windows Update for Business" のポリシー更新プログラム 
+- Azure モニターでエラーが表示されているデバイスイベントレポートの問題を解決する
 
 ### <a name="43330-1102020"></a>4.3.33.0 (1/10/2020)
 
