@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 組織内のプライベートチャネルのライフサイクルを管理する方法について説明します。
-ms.openlocfilehash: 527e6421160eefa72b2a9c21e8e8f25303534320
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 7cd7701a66c03dfc71d89f007eae4addaed0c89a
+ms.sourcegitcommit: f23c428043bb0b37c9a8600e64691bc2a1f2e874
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837327"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "42403746"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Microsoft Teams でプライベートチャネルのライフサイクルを管理する
 
@@ -102,7 +102,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 ### <a name="using-powershell"></a>PowerShell を使用する場合
 
 1. 管理者アカウントを使用して、 [SharePoint Online 管理シェル](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)をインストールして接続します。
-2. &lt;Group_id&gt;がチームのグループ id である場合は、次のように実行します。 (チームへのリンクでグループ Id を簡単に見つけることができます。)
+2. &lt;Group_id&gt;がチームのグループ id である場合は、次のように実行します。 (チームへのリンクでグループ ID を簡単に見つけることができます。)
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
@@ -116,7 +116,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 これらのコマンドは、 [Graph エクスプローラ](https://developer.microsoft.com/graph/graph-explorer)から試すことができます。
 
-1. 以下を使用して、特定のチームのプライベートチャネル Id の一覧を取得します。ここで <group_id> はチームのグループ Id です。 以降の通話では、この機能が必要になります。 (チームへのリンクからグループ Id を簡単に見つけることができます)。
+1. 以下を使用して、特定のチームのプライベートチャネル Id の一覧を取得します。ここで <group_id> はチームのグループ ID です。 以降の通話では、この機能が必要になります。 (チームへのリンクからグループ ID を簡単に見つけることができます)。
 
     **要求**
 
@@ -184,39 +184,16 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 ### <a name="using-powershell"></a>PowerShell を使用する場合
 
-1. 管理者アカウントを使用して、 [Microsoft Teams PowerShell モジュール](https://www.powershellgallery.com/packages/MicrosoftTeams)をインストールして接続します。
-2. 次を実行します&lt;。&gt;ここでは、group_id がチームの&lt;グループ&gt; id であり、channel_id がチャネル id であることを示します。
-
-    **要求**
+1. 次を実行します&lt;。&gt;ここでは、group_id がチームの&lt;グループ&gt; id であり、channel_name がチャネル名であることを示します。
 
     ```PowerShell
-    Get-TeamChannelUser -GroupId <group_id> -MembershipType Private -DisplayName "<channel_name>" 
-    ```
-    
-    **応答**
-
-    ```PowerShell
-    HTTP/1.1 200 OK Content-type: application/json
-    Content-length:
-    {
-      "value": [
-      {
-          "description": "description-value",
-          "displayName": "display-name-value",
-          "id": "channel_id",
-          "membershipType": "membership-type-value",
-          "isFavoriteByDefault": false,
-          "webUrl": "webUrl-value",
-          "email": "email-value"
-          }
-        ]
-    }
+    Get-TeamChannelUser -GroupId <group_id> –MembershipType Private -DisplayName "<channel_name>" 
     ```
 
-3. メンバーを所有者に昇格させます。
+2. メンバーを所有者に昇格させます。
 
     ```PowerShell
-    Add-TeamChannelUser -GroupId <group_id> -MembershipType Private -DisplayName "<channel_name>" -User <UPN> -Role Owner
+    Add-TeamChannelUser -GroupId <group_id> –MembershipType Private -DisplayName "<channel_name>" -User <UPN> -Role Owner
     ```
 
 ### <a name="using-graph-api"></a>Graph API を使用する
@@ -344,7 +321,7 @@ PowerShell テストギャラリーから既に Teams PowerShell モジュール
     Get-Module -Name MicrosoftTeams
     ```
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [Teams での PowerShell の概要](teams-powershell-overview.md)
 - [Microsoft Graph API を使用して Teams で作業する](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0)
