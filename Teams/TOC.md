@@ -723,6 +723,7 @@
 ##### [Office 365 Enterprise E5](teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing.md)
 ##### [Office 365 Enterprise E5 (電話会議なし)](teams-add-on-licensing/office-365-enterprise-e5-without-audio-conferencing.md)
 ##### [GOV、EDU、および非営利団体](teams-add-on-licensing/gov-edu-and-nonprofit-organizations.md)
+### [Office 365 E1 試用版を管理する](e1-trial-license.md)
 ### [Teams の商用試用版サービスの管理](iw-trial-teams.md)
 ### [Teams の調査エクスペリエンスを管理する](teams-exploratory.md)
 ### [Teams を無料で Office 365 月額プラン バージョンにアップグレードする](upgrade-freemium.md)

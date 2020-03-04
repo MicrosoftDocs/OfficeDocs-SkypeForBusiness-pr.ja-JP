@@ -14,12 +14,12 @@ search.appverid: MET150
 description: このガイダンスは、Microsoft Teams を使用して組織のリモート ワーカーの生産性を向上させるために使用できます。特に、新型コロナウイルス感染症 (COVID-19) 発生への対策として従業員が在宅勤務 (WFH) となった場合に役立ちます。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4fbdb875896ca07402d699f1ca2a28770cb46ee2
-ms.sourcegitcommit: ae65fb089d98665c4b26e0345bb96241fb893f0b
+ms.openlocfilehash: 80af76906697ef2510fe75d8764e8908cdbbd976
+ms.sourcegitcommit: ed0ecb3b1250a23d3b91a5a33256aee1c3119db1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42342904"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "42374314"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Microsoft Teams を使用してリモート ワーカーをサポートする
 
@@ -29,7 +29,7 @@ ms.locfileid: "42342904"
 
 1.  [すべてのユーザーに対して Teams が有効になっている](assign-teams-licenses.md)ことを確認します
     
-      - [Teams Exploratory](teams-exploratory.md) または[無料版の Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c) に関する説明を確認し、社員全員が Teams を利用できるようにします。
+      - [Teams E1 試用版](e1-trial-license.md)、[Teams Exploratory](teams-exploratory.md)、または[無料版の Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c) に関する説明を確認し、社員全員が Teams を利用できるようにします。
 
       - リモートの従業員は、会議や電話会議に大きく依存しています。 これらのワークロードをまだ展開していない場合は、「[Teams でのミーティングと会議](deploy-meetings-microsoft-teams-landing-page.md)」を参照してください。
 
