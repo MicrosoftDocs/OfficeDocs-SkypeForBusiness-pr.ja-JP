@@ -20,12 +20,12 @@ ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3415c68ec8d27789bd00161fc70107a3be672431
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: bc72976fd7aa2ff03d305b5edaeff0d18c1f2a61
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837367"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417872"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -52,15 +52,33 @@ ms.locfileid: "41837367"
                     <div class="cardText">
                         <h3>30年の Teams の使用を開始する</h3>
                         <P>右に30回でチームの作成を開始できます。 プログラム、参加するユーザー、およびその成功を確保するために使用できるリソースについて説明します。</P>
-                        <p>対象ユーザー: ビジネススポンサー、IT 管理者、導入と変更の所有者</p>
+                        <p>*対象ユーザー: ビジネススポンサー、IT 管理者、導入と変更の所有者*</p>
                     </div>
                 </div>
             </div>
         </div>
         </a>
     </li>
-    <li></li>  
-    <li> 
+   <li>
+        <a href="https://microsoftteams.eventbuilder.com/T30ReadyUsers"target="_blank"">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Two person icons with representing users" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>エンド ユーザーを準備させる</h3>
+                    <p>Readying の戦略とリソースを確認して、ユーザーのニーズを把握し、チャンピオンの条件を構築し、チームのロールアウトのコアコンポーネントとしてユーザーの承認を確保します。</p><p>*対象ユーザー: 所有者の選定と変更*</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+        <li> 
         <a href="https://microsoftteams.eventbuilder.com/T30PrepareI"target="_blank"">
         <div class="cardSize">
             <div class="cardPadding">
@@ -72,7 +90,7 @@ ms.locfileid: "41837367"
                     </div>
                     <div class="cardText">
                     <h3>環境の準備-パート I</h3>
-                    <p>チームのロールアウトの基盤を設定します。 チームの前提条件、ネットワーキングとセキュリティのベストプラクティス、共存ポリシー、分析とレポート、クライアントの配布に関する推奨事項を特定します。</p><p>対象ユーザー: IT 管理者</p>
+                    <p>チームのロールアウトの基盤を設定します。 チームの前提条件、ネットワーキングとセキュリティのベストプラクティス、共存ポリシー、分析とレポート、クライアントの配布に関する推奨事項を特定します。</p><p>*対象ユーザー: IT 管理者*</p>
 </div>
                 </div>
             </div>
@@ -90,32 +108,13 @@ ms.locfileid: "41837367"
                     </div>
                     <div class="cardText">
                         <h3>環境の準備-第2部</h3>
-                    <p>これで基盤が整ったので、Teams のコンプライアンス、保持、ガバナンス、電話会議を実装するためのベストプラクティスについて理解しましょう。</p><p>対象ユーザー: IT 管理者</p>
+                    <p>これで基盤が整ったので、Teams のコンプライアンス、保持、ガバナンス、電話会議を実装するためのベストプラクティスについて理解しましょう。</p><p>*対象ユーザー: IT 管理者*</p>
                     </div>
                 </div>
             </div>
         </div>
         </a>
     </li> 
-   <li>
-        <a href="https://microsoftteams.eventbuilder.com/T30ReadyUsers"target="_blank"">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Two person icons with representing users" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>エンド ユーザーを準備させる</h3>
-                    <p>Readying の戦略とリソースを確認して、ユーザーのニーズを把握し、チャンピオンの条件を構築し、チームのロールアウトのコアコンポーネントとしてユーザーの承認を確保します。</p><p>対象ユーザー: 所有者の選定と変更</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
  <li>
         <a href="https://microsoftteams.eventbuilder.com/T30Optimize"target="_blank"">
         <div class="cardSize">
@@ -129,13 +128,33 @@ ms.locfileid: "41837367"
                     <div class="cardText">
                     <h3>最適化と展開</h3>
                     <p>サービスのパフォーマンスの最適化、チーム機能の拡張、新規ユーザーのオンボードなどのプランを設計します。</p>
-                    <p>対象ユーザー: ビジネススポンサー、IT 管理者、導入と変更の所有者</p>
+                    <p>*対象ユーザー: ビジネススポンサー、IT 管理者、導入と変更の所有者*</p>
                     </div>
                 </div>
             </div>
         </div>
         </a>
     </li>
+   <li>
+        <a href="https://aka.ms/TeamsChalkTalks"target="_blank"">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/sign-up-teams.svg" alt="Sign up symbol" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Teams のチョークの話</h3>
+                    <p>このオンラインインタラクティブワークショップは、分野の専門家によって推進されており、チームで最も一般的なシナリオと説得力のあるシナリオを中心に、ベストプラクティスと実用的なガイダンスについて説明します。</p><p>*対象ユーザー: IT 管理者*</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+
 </ul>
 
     

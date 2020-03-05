@@ -16,12 +16,12 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: ab643059e57b5ec621100662c4585e43e1a91607
-ms.sourcegitcommit: 0286eec17b7eea486b857a69fb6c6166ef0799d2
+ms.openlocfilehash: adead862907c29c066df8b2541c260045f19db95
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42409805"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417602"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -82,7 +82,7 @@ IT プロフェッショナルと意思決定者向けに設計されたチー�
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>60分で Teams アプリを作成する</h3>
+                        <h3>60分で Teams アプリを展開する</h3>
                         <p><font color="red"><i>もうすぐです！</i></font> アプリテンプレートを使用してチームを拡張し、日常的に使用するツールを1つの環境で作成します。</p>
                     </div>
                 </div>
