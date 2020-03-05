@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft では、2020年2月28日に Exchange ユニファイドメッセージング Online (ExchUMO) サービスを廃止しています。 この記事では、影響を受けるお客様がビジネス継続性を計画する際に知っておく必要があることを要約しています。
-ms.openlocfilehash: f6adb1636d6a40e41b006c3981dc4d21ba503289
-ms.sourcegitcommit: ed0ecb3b1250a23d3b91a5a33256aee1c3119db1
+ms.openlocfilehash: c39485de1acceef0dc340f039a1586b3e6014522
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "42374304"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417622"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange ユニファイドメッセージングオンライン移行のサポート
 
@@ -235,6 +235,8 @@ Office 365 テナント管理者は、Microsoft クラウド自動応答サー�
 自動応答の詳細については、「[クラウド自動応答の設定](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant)」を参照してください。
 
 #### <a name="known-issues"></a>既知の問題
+
+**移行後にサブスクライバーアクセスを無効にして、応答の不一致を回避する**すべてのユーザーがクラウドボイスメールに移行された後であっても、サービスが完全に廃止されるまで、サブスクライバーアクセスはテナントに対して引き続き動作する可能性があります。 ユーザーの混乱を防ぎ、一貫性のない操作を避けるには、移行後に応答が変更されても、サブスクライバーアクセスを無効にしてください。 そのためには、Get-CsExUmContact | を使用して、各サブスクライバーアクセス回線の EXUM 連絡先を削除します。{$_.Isなアクセス-eq $true} |削除-CsExUmContact 
 
 **PSTN への自動応答通話の転送**お客様は、外部の PSTN 番号または RG インスタンスへの自動応答呼び出しを転送するための要件を満たすために、一時的な回避策を構成することをお勧めします。 
  
