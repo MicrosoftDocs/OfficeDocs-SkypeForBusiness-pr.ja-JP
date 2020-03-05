@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 組織内のプライベートチャネルのライフサイクルを管理する方法について説明します。
-ms.openlocfilehash: 7cd7701a66c03dfc71d89f007eae4addaed0c89a
-ms.sourcegitcommit: f23c428043bb0b37c9a8600e64691bc2a1f2e874
+ms.openlocfilehash: dd4509e809348a21231a6aa136c6cb360a152472
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "42403746"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417572"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Microsoft Teams でプライベートチャネルのライフサイクルを管理する
 
@@ -187,13 +187,13 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 1. 次を実行します&lt;。&gt;ここでは、group_id がチームの&lt;グループ&gt; id であり、channel_name がチャネル名であることを示します。
 
     ```PowerShell
-    Get-TeamChannelUser -GroupId <group_id> –MembershipType Private -DisplayName "<channel_name>" 
+    Get-TeamChannelUser -GroupId <group_id> -DisplayName "<channel_name>" 
     ```
 
 2. メンバーを所有者に昇格させます。
 
     ```PowerShell
-    Add-TeamChannelUser -GroupId <group_id> –MembershipType Private -DisplayName "<channel_name>" -User <UPN> -Role Owner
+    Add-TeamChannelUser -GroupId <group_id> -DisplayName "<channel_name>" -User <UPN> -Role Owner
     ```
 
 ### <a name="using-graph-api"></a>Graph API を使用する

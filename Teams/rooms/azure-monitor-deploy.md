@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: この記事では、Azure モニターを使用して、統合されたエンドツーエンドの方法で Microsoft Teams 室デバイスの管理を展開する方法について説明します。
-ms.openlocfilehash: 54268676eadab25599d4f8b6e415ff373717943f
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 70c2311143a4daabbc0838168e19969f950a2df1
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826265"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417542"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>管理:::no-loc text="Microsoft Teams Rooms":::を展開する:::no-loc text="Azure Monitor":::
 
@@ -30,7 +30,7 @@ ms.locfileid: "41826265"
 
 このガイドに従うと、次の例のようなダッシュボードを使用して、デバイスの可用性、アプリケーションとハードウェアの正常性、 :::no-loc text="Microsoft Teams Rooms":::およびアプリケーションとオペレーティングシステムのバージョンの配布に関する詳細な状態レポートを取得できます。
 
-![の:::no-loc text="Log Analytics"::: :::no-loc text="Microsoft Teams Rooms":::サンプルビューのスクリーンショット](../メディア/7 月30日「"サンプル:::no-loc text="Log Analytics":::ビュー"」を参照:::no-loc text="Microsoft Teams Rooms":::してください。
+![Microsoft Teams ルームのサンプルログ分析ビューのスクリーンショット](../media/Deploy-Azure-Monitor-1.png "Microsoft Teams ルームのサンプルログ分析ビュー")
 
 高いレベルでは、次のタスクを実行する必要があります。
 
@@ -373,7 +373,7 @@ ms.locfileid: "41826265"
 5.  アラートのロジック設定を構成します。<br>
     **基準:** 結果の数<br>
     **条件:** より大きい<br>
-    **Treshold:** 0<br>
+    **しきい値:** 0<br>
 
 6. 評価の設定を構成し、[**完了**] を選択します。 <br>
     **期間 (分):** 60<br>
@@ -383,7 +383,7 @@ ms.locfileid: "41826265"
     1.  [**新規作成**] を選ぶ
     2.  [*アクショングループ名]* フィールドと [*短縮名*] フィールドに適切な名前を入力します。
     3.  一意の*アクション名*を指定し、[**メール/SMS/プッシュ/ボイス**] を選択して、[**詳細の編集**] を選択します。
-    4.  [メール] チェックボックスをオンにして、アラートを受信するユーザーまたはグループのメールアドレスを入力します。
+    4.  [**メール**] チェックボックスをオンにして、アラートを受信するユーザーまたはグループのメールアドレスを入力します。
     5.  また、SMS、音声通話、またはその両方の通知を受け取るために、電話番号を入力することもできます。
     6. [ **OK]** を選びます。
 

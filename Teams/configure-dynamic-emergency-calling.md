@@ -16,12 +16,12 @@ f1.keywords:
 description: 動的な緊急通話を構成する
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0cd5f3320896c823eb81a9147a1b1b1adb36dbac
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 6b22c6cec20e42ac33b15c53a49477b36a35fbe9
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825515"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417592"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>動的な緊急通話を計画して構成する 
 
@@ -70,10 +70,10 @@ Microsoft 通話プランや電話システムのダイレクトルーティン�
 
 現在、次のクライアントがサポートされています。  このリストの更新を確認するには、もう一度チェックインします。
 
-- Windows 用 Teams デスクトップクライアント
-- Mac 用の Teams のデスクトップクライアント
-- Lync mobile クライアント for IOS クライアントバージョン1.0.92.2019121004 とアプリストアバージョン1.0.92 以上
-- Android クライアント向け Teams モバイルクライアントとストアバージョン 1416/1.0.0.2019121201 以上
+- Microsoft Windows 向けの Teams デスクトップクライアント
+- Apple macOS 用の Teams デスクトップクライアント
+- Apple iOS クライアントバージョン1.0.92.2019121004 と App Store バージョン1.0.92 以上の Teams モバイルクライアント
+- Android クライアントと Google Play ストアのバージョン 1416/1.0.0.2019121201 以上の Teams モバイルクライアント
 - Teams 電話バージョン 1449/1.0.94.2019110802 以降
 
 ## <a name="assign-emergency-addresses"></a>緊急対応の住所を割り当てる
@@ -202,7 +202,7 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso N
 
 - **米国のダイレクトルーティングのお客様**は、テストサービスの ersp と連携する必要があります。
 
- ## <a name="related-topics"></a>関連トピック
+ ## <a name="related-topics"></a>関連項目
 
 - [緊急通話を管理する](what-are-emergency-locations-addresses-and-call-routing.md)
 - [緊急通話ポリシーを管理する](manage-emergency-calling-policies.md)

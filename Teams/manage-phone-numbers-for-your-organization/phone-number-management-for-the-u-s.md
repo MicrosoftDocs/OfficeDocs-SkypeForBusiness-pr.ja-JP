@@ -20,17 +20,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Microsoft Teams の米国 (およびプエルトリコ) で電話番号を取得および管理する方法については、次の表を参照してください。
-ms.openlocfilehash: 8013b3a822f9e453dd60bb7e5af73a1326f7c04c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: Microsoft Teams の米国 (プエルトリコを含む) で電話番号を取得および管理する方法については、次の表を参照してください。
+ms.openlocfilehash: a3c94b4e091529fdc2fa3389b3b0155f5bf118d9
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706932"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417632"
 ---
 # <a name="phone-number-management-for-the-us"></a>米国での電話番号の管理
 
-Microsoft Teams の米国 (およびプエルトリコ) で電話番号を取得および管理する方法については、次の表を参照してください。
+Microsoft Teams の米国 (プエルトリコを含む) で電話番号を取得および管理する方法については、次の表を参照してください。
 
 詳細については、「[組織のために電話番号を管理する](manage-phone-numbers-for-your-organization.md)」をご覧ください。
   

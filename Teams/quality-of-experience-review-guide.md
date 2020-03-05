@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 025bd70c79cdc0547f86514521fd1e565265d4f8
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 13c3267378d4e8fbc5b3d3631606cf0824ea7a44
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160781"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417852"
 ---
 # <a name="quality-of-experience-review-guide"></a>QoE のレビュー ガイド
 
@@ -379,7 +379,7 @@ _図 5-製品フィルターを選ぶ_
 
 **例:**
 
-```https://cqd.lync.com/cqd/#/1234567/2018-5/filter/[AllStreams].[Is Teams]|[FALSE]```
+```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-5/filter/[AllStreams].[Is Teams]|[FALSE]```
 
 URL フィルターの詳細については、このセクションで後述する「[レポートのフィルター処理](#filtering-reports)」を参照してください。
 
@@ -472,7 +472,7 @@ CQD で表示する寸法またはメジャーを適切に選択するには、�
 
 CQD にアクセスするには、次の3つの方法があります。
 
--   <https://cqd.lync.com> に移動します。
+-   <https://cqd.teams.microsoft.com> に移動します。
 
 -   次の図に示すように、 **Microsoft Teams 管理センター**に移動して、CQD へのリンクを選択します。
 
@@ -482,7 +482,7 @@ _図 7-Microsoft Teams 管理センターを使用して CQD にアクセスす�
 
 -   次の図に示すように、従来の**Skype for business 管理センター** > **ツール**に移動して、CQD へのリンクを選択します。
 
-![メインウィンドウで選択された CQD のスクリーンショット。](media/qerguide-image-legacyui.png "左側のナビゲーションウィンドウで [ツール] が選択されていて、メインウィンドウの [CQD へのリンク] が選択されています。")
+![メインウィンドウで選択されている CQD のスクリーンショット。](media/qerguide-image-legacyui.png "左側のナビゲーションウィンドウで [ツール] が選択されていて、メインウィンドウの [CQD へのリンク] が選択されています。")
 
 _図 8-Skype for Business 管理センターから CQD にアクセスする_
 
@@ -514,7 +514,7 @@ _図 10-詳細レポートページ_
 
 レポートのアクションメニューで [**編集**] を選択すると、クエリエディターが開きます。 各レポートは、クエリによって CQD にサポートされます。 レポートは、クエリから返されたデータを視覚化したものです。 クエリエディターは、次の図に示すように、レポートの表示オプションに加えて、これらのクエリを編集するための UI です。
 
-![編集中のレポートを構成する要素を示すスクリーンショット。](media/qerguide-image-queryeditor.png)
+![編集中のレポートを構成する要素を示すスクリーンショット](media/qerguide-image-queryeditor.png)
 
 |             |           |
 | ------------|-----------|
@@ -543,7 +543,7 @@ URL フィルターを実装するには、ブラウザーのアドレスバー�
 
 例:  
 
-```https://cqd.lync.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Second Tenant Id]|[TENANTID]```
+```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Second Tenant Id]|[TENANTID]```
 
 Teams または Skype for Business のレポートをフィルター処理するには、URL の末尾に次の内容を追加します。
 
@@ -553,11 +553,11 @@ Teams または Skype for Business のレポートをフィルター処理する
 
 例:
 
-```https://cqd.lync.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Is Teams]|[TRUE]```
+```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Is Teams]|[TRUE]```
 
 
 > [!NOTE]
-> 上の URL 例は、視覚的な表現のみを対象としています。 のデフォルトの<https://cqd.lync.com>CQD リンクを使用してください。
+> 上の URL 例は、視覚的な表現のみを対象としています。 のデフォルトの<https://cqd.teams.microsoft.com>CQD リンクを使用してください。
 
 
 #### <a name="query-filters"></a>クエリフィルター
@@ -591,7 +591,7 @@ _表 4-レポートフィルター_
 
 **テンプレートをインポートするには (.CQDX) を CQD Online に接続する**
 
-1. <https://cqd.lync.com> に移動します。
+1. <https://cqd.teams.microsoft.com> に移動します。
 
 2. Office 365 管理者の資格情報を使用して認証します。
 
@@ -711,7 +711,7 @@ _表 5-ファイル構造を作成する_
 
 CQD Summary レポートダッシュボードには、右上隅にある**テナントデータアップロード**リンクタグを選択することによってアクセスできる**テナントデータアップロード**ページが含まれています (歯車アイコンを探します)。 このページでは、管理者が自分の情報 (IP アドレスと地理的情報のマッピング、各ワイヤレスアクセスポイントと MAC アドレスのマッピングなど) をアップロードするために使用されます。
 
-1. を<https://cqd.lync.com>参照して、CQD Online に移動します。
+1. を<https://cqd.teams.microsoft.com>参照して、CQD Online に移動します。
 
 2. 右上隅の歯車アイコンを選択し、[**概要レポート**] ページで [**テナントデータアップロード**] を選びます。
 
@@ -1130,7 +1130,7 @@ _図28– HTTP プロキシの使用状況を含むオーディオストリー�
 > [!NOTE]
 > 月の年単位のフィルターは、現在の月に合わせて調整してください。 [**編集**] を選択し、**月の年**を調整して新しい既定の月を保存します。
 
-![構築およびサブネットによる HTTP プロキシの使用状況レポートの報告書のスクリーンショット](media/qerguide-image-httpproxyusage.png)
+![構築およびサブネットによる HTTP プロキシの使用状況レポートのスクリーンショット](media/qerguide-image-httpproxyusage.png)
 
 _図29–建物とサブネットでの HTTP プロキシの使用_
 
