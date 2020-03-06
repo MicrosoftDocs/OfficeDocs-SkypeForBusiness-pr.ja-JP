@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a62bc73e7dc2496a9fedc94ad7fc38f2ebecd65
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 69cfb557f04644c1bb54d78ae24a8110d42ee8a0
+ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030771"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42551034"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Microsoft Teams で最初のチームを作成する
 
@@ -46,7 +46,7 @@ Microsoft Teams[では、](https://docs.microsoft.com/microsoftteams/platform/co
 |----------------- | ---------- |
 | **Microsoft Teams の展開** ||
 | General | [Web] タブ:[チームドキュメント](https://aka.ms/SuccessWithTeams) |
-| 認知度と導入 | [Teams の導入ハブ](https://aka.ms/DriveTeamsAdoption)<br/>[Microsoft Teams カスタマー サクセス キット](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)|
+| 認知度と導入 | [Teams の導入ハブ](https://aka.ms/DriveTeamsAdoption)<br/>[Microsoft Teams カスタマー サクセス キット](https://aka.ms/TeamsCustomerSuccess)|
 | ビジネスエンゲージメント | Wiki –契約ガイダンス<br/>フォーム– Teams の相談要求<br/>リスト–契約要求 |
 |最早採用 | 固定されたフィードバックのコミュニティ <br/> OneNote for FAQ と一般的なテーマ |
 | フィードバックと報告 | 固定された Office 365 使用状況レポート (Office 365 管理者のみ) |

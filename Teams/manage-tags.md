@@ -16,30 +16,31 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams での組織でのタグの使用方法を管理する方法について説明します。
-ms.openlocfilehash: 3ade2f47474fe8aaf16c568e8c141dcd84526d86
-ms.sourcegitcommit: 561b9bab7d6f5a621436bc85ea28ea14657e7868
+ms.openlocfilehash: 5da1d1549e6171656b0065036819be0fac450759
+ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42034514"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42551044"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Microsoft Teams でタグを管理する
 
 > [!NOTE]
 > Microsoft Teams 管理センターにこの機能が表示されていない場合 現在ロールアウト中であり、組織内でまだ利用できない可能性があります。 今後の Teams の機能については、 [Microsoft 365 のロードマップ](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)をご覧ください。
 
-Microsoft Teams のタグを使用すると、ユーザーはチームのメンバーのサブセットと連絡を取ることができます。 タグを1人または複数のチームメンバーに追加して、ユーザーの適切なサブセットに簡単に接続できます。 チーム所有者とメンバー (その機能が有効になっている場合) は、1つまたは複数のタグをユーザーに追加できます。 その後、タグは、そのタグが割り当てられているユーザーのみと通信するために、チャネル投稿内のチーム内のすべてのユーザーが @mentions で使用できます。
+Microsoft Teams のタグを使用すると、ユーザーはチームのメンバーのサブセットと連絡を取ることができます。 タグを1人または複数のチームメンバーに追加して、ユーザーの適切なサブセットに簡単に接続できます。 チーム所有者とメンバー (その機能が有効になっている場合) は、1つまたは複数のタグをユーザーに追加できます。 その後、タグは、チームの任意のユーザーによってチャネル投稿で @mentions で使用したり、そのタグが割り当てられたユーザーのみとの会話を開始したりすることができます。
 
 > [!NOTE]
 > プライベートチャネルでは、タグはまだサポートされていません。
 
 ## <a name="how-tags-work"></a>タグのしくみ
 
-タグは、特定のチームのメンバーに追加できます。 タグが追加されると、チームの任意の標準チャネルの @mentions でそのタグを使用できるようになります。 次に、Teams でタグを使用する方法の例をいくつか示します。
+タグは、特定のチームのメンバーに追加できます。 タグを追加すると、チャットまたはチームの標準チャネルで @mentions で使用できるようになります。 次に、Teams でタグを使用する方法の例をいくつか示します。
 
 - ストアマネージャーが、チャネルにお知らせを投稿して、すべてのレジに通知する必要があります。
 - グループの製品マネージャーは、チャネル内のすべての製品マネージャーにメッセージを送信したいと考えています。
 - 病院の管理者が、チャネル内のすべての radiologists にメッセージを送信したい。
+- マーケティング課長は、すべてのデザイナーとグループチャットを開始する必要があります。 
 
 詳細については、「 [Teams でタグを使用する」](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e)をご覧ください。
 

@@ -19,12 +19,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55e4ec98d6e54dba88a417d9631605859962c9c1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 78531cfad01051e4a9d7493384a18f4c0a4e1dc4
+ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42033024"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42551005"
 ---
 # <a name="tools-for-driving-adoption"></a>導入を推進するためのツール 
 
@@ -155,4 +155,4 @@ Office 365 のエキスパートプログラムは、Microsoft Teams やその�
 [Teams の導入 flipbook](https://aka.ms/teamstoolkit)を参照してください。このガイドは、社内のチームをロールアウトするのに役立ちます。 このツールには、多くのダウンロード可能なツール、テンプレート、その他のリソースが含まれており、チームの導入過程を進めるのに役立ちます。
 
 ### <a name="teams-customer-success-kit"></a>Teams のカスタマーサクセスキット
-[Teams のカスタマーサクセスキット](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)には、組織内のチームをロールアウトするためのツールが用意されています。 これには、お知らせ、チラシポスター、カウントダウン、ヒント & のメールテンプレートが含まれています。 また、チームリーダーと IT 管理者向けの概要ガイドも含まれています。
+[Teams のカスタマーサクセスキット](https://aka.ms/TeamsCustomerSuccess)には、組織内のチームをロールアウトするためのツールが用意されています。 これには、お知らせ、チラシポスター、カウントダウン、ヒント & のメールテンプレートが含まれています。 また、チームリーダーと IT 管理者向けの概要ガイドも含まれています。

@@ -621,8 +621,10 @@
 ##### [STU3 インターフェイスの仕様](expand-teams-across-your-org/healthcare/stu3-interface.md)
 ##### [患者アプリを FHIR の Azure API に接続する](expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir.md)
 #### [患者アプリの監査ログ](expand-teams-across-your-org/healthcare/patients-audit.md)
+
 ## [教育機関向けの Teams ](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [クイック スタート - 教育用 Teams の管理者](teams-quick-start-edu.yml)
+### [リモート学習の開始](remote-learning-edu.md)
 ### [教育機関向けの Teams の課題 ](expand-teams-across-your-org/assignments-in-teams.md)
 ### [教育機関管理者向けの Teams のリソース](resources-teams-edu.md)
 ### [EDU 管理者向けの Microsoft Teams ポリシー パッケージ](policy-packages-edu.md)

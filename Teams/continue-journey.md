@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7453743407696a0ba8c41cb401caf4f22ba7b78f
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 6ffbf676a86320fe3003d26dc94161d9e9e58c4d
+ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825305"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42550914"
 ---
 ![オペレーショナルエクセレンスステージを強調したアップグレードの図](media/upgrade-banner-op-excellence.png "オペレーショナルエクセレンスステージに重点を置いたアップグレードの段階")
 
@@ -47,7 +47,7 @@ Teams のメリットとビジネスの成果を最大限に引き出すには�
 
 - 仲間のユーザーたちの啓発と意識付けのために、同僚のチャンピオンに協力を求めます。
 - エンゲージメントを推進して導入を促進するためのヒントを得るために [Office 365 導入ガイド](https://go.microsoft.com/fwlink/?linkid=859045)を確認します。
-- 認識向上とベスト プラクティスの共有のために [Teams Customer Success Kit](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) を活用します。
+- 認識向上とベスト プラクティスの共有のために [Teams Customer Success Kit](https://aka.ms/TeamsCustomerSuccess) を活用します。
 - 導入の広がりを支えるために、公式の[導入および変更管理の戦略](http://www.successwithteams.com/)を実施します。
 
 ## <a name="prepare-for-new-functionality"></a>新しい機能に対して準備する

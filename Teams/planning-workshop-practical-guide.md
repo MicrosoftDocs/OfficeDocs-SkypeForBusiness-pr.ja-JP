@@ -15,19 +15,19 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5d7423dfd0493af0e780b81f96d840f422d4833
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 356ff815fe05a91f203778c0f6af255182ace35c
+ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834657"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42550904"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>ツールとワークショップ: Microsoft Teams の計画、提供、導入
 
 組織で Teams を計画、提供、導入するための手順を記載した以下のツールをダウンロードしてください。
 
 
-- [Microsoft Teams カスタマー サクセス キット](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)
+- [Microsoft Teams カスタマー サクセス キット](https://aka.ms/TeamsCustomerSuccess)
 
     このキットには、さまざまなプレゼンテーション、メールテンプレート、ヒント & テクニック、投稿を使用して、組織内でのチームの導入を推進しています。 このガイドには、管理者とチームリーダー向けの2つのクイックスタートガイドと、すべての部門の使用例を示します。 これらのリソースを使用して、マーケティング、売上、財務、人事、IT、エンジニアリング、プロジェクト管理など、組織内のさまざまな機能についてチームを最大限に活用することができます。
 
