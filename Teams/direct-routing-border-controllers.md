@@ -17,12 +17,12 @@ hideEdit: true
 f1.keywords:
 - NOCSH
 description: マイクロソフトは、選択した SBC ベンダーと提携して、SBC がダイレクト ルーティングと連携することを保証しています。
-ms.openlocfilehash: 4a39ed6bde0879bb47d1f586d0ffefba06e59ca8
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: e694f82ff7d9ed36cf217d5ebe40fc2be91b442c
+ms.sourcegitcommit: 87022aa009eae868e1fd945dc299367e16733a3c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417862"
+ms.locfileid: "42544973"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト
 
@@ -61,7 +61,7 @@ Microsoft は各ベンダーと連携して次のことを行うことができ�
 |                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      8.0.3 (ビルド 537)     |  <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li> 自分の自分の自分の ado </li> <li>@ @ @ @ @ </li> <li> 赤いスカイホライズンの機動性 </li> </ul>   |    はい     |    
 |                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     8.0.3 (ビルド 537)     |  <ul> <li>[帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li> 自分の自分の自分の ado </li> <li>@ @ @ @ @ </li> <li> 赤いスカイホライズンの機動性 </li> </ul>   |     はい      |    
 |                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      8.0.3 (ビルド 216)    |  <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li> 自分の自分の自分の ado </li> <li>@ @ @ @ @ </li> <li> 赤いスカイホライズンの機動性 </li> </ul>    |     はい      |   
-| | Edgemarc シリーズ |  &#10004; | | 15.6.1 | 
+| | EdgeMarc シリーズ |  &#10004; | | 15.6.1 | 
 |                     [ThinkTel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |        Pending   |       V1.4       |     |    |    
 |                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |   <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li>  <li> 自分の自分の自分の ado </li> <li>@ @ @ @ @ </li> </ul>   |    |    
 |                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |  <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li>  <li> 自分の自分の自分の ado </li> <li>@ @ @ @ @ </li> </ul>  |    |    
@@ -77,5 +77,8 @@ Microsoft は各ベンダーと連携して次のことを行うことができ�
 |                                                       仕入先                                                        |       Product       | ベリファイ
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|
 | [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   [ATA-1](https://www.audiocodes.com/media/2373/mp-1xx-and-mp-124-datasheet.pdf)   |     &#10004;     |
+| [リボン](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [SBC 1000。ソフトウェアバージョン: 8.1.1 (ビルド 527)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)   |     &#10004;     |
+| [リボン](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [SBC 2000。ソフトウェアバージョン: 8.1.1 (ビルド 527)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)   |     &#10004;     |
+
 
 新機能のアイデアなど、チームに関する製品のフィードバックを提供するには、「 [Uservoice](https://microsoftteams.uservoice.com)のバージョンに付与された証明書」を参照してください。 つまり、メジャーバージョンに従った SBC ファームウェアで任意の数のファームウェアがサポートされていることを意味します。
