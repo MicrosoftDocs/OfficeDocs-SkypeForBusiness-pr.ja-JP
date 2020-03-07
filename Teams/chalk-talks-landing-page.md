@@ -16,12 +16,12 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: 7d41218e75b24432e1f67ae1dc8344f8a76b8a50
-ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
+ms.openlocfilehash: 4a66451a760e6d9e07c374e4ea900af4b0d78b36
+ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558657"
+ms.locfileid: "42559329"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -75,6 +75,7 @@ IT プロフェッショナルと意思決定者向けに設計されたチー�
         </a>
     </li>
     <li>
+        <a href="https://aka.ms/ChalkTalkAppTemplates"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -85,11 +86,12 @@ IT プロフェッショナルと意思決定者向けに設計されたチー�
                     </div>
                     <div class="cardText">
                         <h3>60分で Teams アプリを展開する</h3>
-                        <p><font color="red"><i>もうすぐです！</i></font> アプリテンプレートを使用してチームを拡張し、日常的に使用するツールを1つの環境で作成します。</p>
+                        <p>アプリテンプレートを使用してチームを拡張し、日常的に使用するツールを1つの環境で作成します。</p>
                     </div>
                 </div>
             </div>
         </div>
+        </a>
     </li>
     <li>
         <div class="cardSize">
