@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: この記事では、Microsoft Phone システムのダイレクトルーティングでアナログデバイスを使用する方法について説明します。
-ms.openlocfilehash: 525e898bd0eafe88d6893249465734d7c33a10b2
-ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
+ms.openlocfilehash: 45128b8806644e4399687787bcce251ccb807d85
+ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341791"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558517"
 ---
 # <a name="how-to-use-analog-devices-with-phone-system-direct-routing"></a>電話システムのダイレクトルーティングでアナログデバイスを使用する方法
 
@@ -39,16 +39,17 @@ ms.locfileid: "42341791"
 
 この例では、次の手順を実行します。
 
-1. SBC をダイレクトルーティングに接続する
-2. PSTN の使用状況を作成する
-3. ボイスルートを作成して、PSTN 使用量と関連付ける
-4. ボイスルートを PSTN 使用量に割り当てる
-5. オンラインユーザーを有効にする
-6. ユーザーに音声ルートポリシーを割り当てる
-7. アナログデバイスのボイスルートを作成する
+1. SBC をダイレクトルーティングに接続します。
+2. PSTN の利用状況を作成します。
+3. ボイスルートを作成して、PSTN の使用状況に関連付けます。
+4. ボイスルートを PSTN 使用量に割り当てます。
+5. オンラインユーザーを有効にします。
+6. ユーザーにボイスルートポリシーを割り当てます。
+7. アナログデバイスのボイスルートを作成します。
 
 ATA に ATA を接続して SBC を構成する方法については、「SBC 製造元構成ガイド」を参照してください。
 - [AudioCodes 構成の文書化](https://www.audiocodes.com/media/14278/connecting-audiocodes-sbc-with-analog-device-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf)
+- [リボン構成のドキュメント](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)
 
 ## <a name="step-1--connect-the-sbc-to-direct-routing"></a>手順1  SBC をダイレクトルーティングに接続する
 

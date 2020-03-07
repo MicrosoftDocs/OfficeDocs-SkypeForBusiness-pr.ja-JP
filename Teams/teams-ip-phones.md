@@ -19,12 +19,12 @@ ms.custom:
 - Skype for Business Certification
 - dn947482
 description: Microsoft Teams 認定 IP 卓上および会議電話
-ms.openlocfilehash: a02082719e509ed38646915a8ce5388837ceca26
-ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
+ms.openlocfilehash: bca9cc1180febf4d3d218548f83705879bb852ec
+ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42327969"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558557"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Microsoft Teams 認定 IP 電話
 
@@ -52,12 +52,18 @@ Microsoft Teams の認定を受けているのは、以下の電話です:
 |Poly CCX400 | 1.0.0.0200 | 2020年1月|
 |Poly CCX600 | 5.9.12.1111| 2020年1月|
 |Poly CCX500 | 5.9.12.1111| 2019年12月|
-|ごみ箱 VC210| 118.15.0.14|2020年2月|
 |Yealink VP59 | 91.15.0.16 |2019 年 6 月|
 |Yealink T55 | 58.15.0.36 |2019 年 5 月|
 |Yealink CP 960 |73.15.0.20|2018 年 12 月|
 |Yealink T58 & T56 シリーズ |58.15.0.20|2018 年 12 月|
 
+## <a name="certified-collaboration-bars"></a>認定済みのコラボレーションバー
+
+Microsoft Teams では、次のコラボレーションバーが認定されています。
+
+|コラボレーションバーモデル|ファームウェア バージョン|リリース日 |
+|:---|:---|:---|
+|ごみ箱 VC210| 118.15.0.14|2020年2月|
 
 これらのデバイスでサポートされている機能については、「[Microsoft Teams phones feature set (Microsoft Teams の電話機能セット)](/MicrosoftTeams/phones-for-teams#microsoft-teams-phones-feature-set)」を参照してください。
 

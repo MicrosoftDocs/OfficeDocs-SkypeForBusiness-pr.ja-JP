@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams でライブ イベント設定を構成する
-author: chuckedmonson
-ms.author: chucked
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 03/11/2019
 ms.topic: article
@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1cdfd1bc832827dbcf48e82a49ed4d02c38116bb
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 222e7e51fcf87e0e76c3ab18f33357f7489a1ce1
+ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827145"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558597"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Microsoft Teams でライブ イベント設定を構成する
 
@@ -38,7 +38,7 @@ Microsoft Teams 管理センターでこの設定を簡単にできます。 左
 
 この URL は、ライブ イベントの参加者に表示されます。 ライブ イベント中にサポートへの連絡方法を参加者に提供する組織のサポートの URL を追加します。
 
-### <a name="an-icon-showing-the-microsoft-teams-logomediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![Microsoft Teams ロゴを示すアイコン](../media/teams-logo-30x30.png) Microsoft Teams 管理センターの使用
+### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Microsoft Teams ロゴを示すアイコン](../media/teams-logo-30x30.png) Microsoft Teams 管理センターの使用
 
 1. 左側のナビゲーションで、[**会議**]  >  [**ライブ イベント設定**] に移動します。
 2. [**サポート URL**] で組織のサポート URL を入力します。 
@@ -55,7 +55,7 @@ Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 
 Microsoft ビデオ配信パートナーを通じてソフトウェア定義ネットワーク (SDN) ソリューションまたはエンタープライズ コンテンツ配信ネットワーク (eCDN) ソリューションを購入してセット アップした場合は、Teams でライブ イベント プロバイダーを構成します。 
 
-### <a name="an-icon-showing-the-microsoft-teams-logomediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![Microsoft Teams ロゴを示すアイコン](../media/teams-logo-30x30.png) Microsoft Teams 管理センターの使用
+### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Microsoft Teams ロゴを示すアイコン](../media/teams-logo-30x30.png) Microsoft Teams 管理センターの使用
 
 1. 左側のナビゲーションで、[**会議**]  >  [**ライブ イベント設定**] に移動します。
 2. [**サード パーティ製ビデオ配信プロバイダー**] で次を実行します。 

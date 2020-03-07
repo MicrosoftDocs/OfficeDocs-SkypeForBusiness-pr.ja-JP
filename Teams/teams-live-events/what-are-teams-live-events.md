@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams のライブ イベントについて
-author: chuckedmonson
-ms.author: chucked
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 23d0aac3fd5697b8e06c727acb3138a878e38bea
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b4ea5bce539ff178130910297a47add38464e4d4
+ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008089"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558527"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams のライブ イベントについて
 
@@ -89,7 +89,7 @@ ECDN の目標は、ネットワークのパフォーマンスに影響を及ぼ
 ## <a name="next-steps"></a>次のステップ
 「 [Teams ライブイベントのプラン](plan-for-teams-live-events.md)」に移動します。
 
-### <a name="related-topics"></a>関連トピック
+### <a name="related-topics"></a>関連項目
 - [Yammer、Microsoft Teams、Microsoft Stream の Microsoft 365 全体でのライブイベント](https://docs.microsoft.com/stream/live-event-m365)
 - [Microsoft Teams ライブイベントの使用を開始する](https://support.office.com/article/d077fec2-a058-483e-9ab5-1494afda578a)
 - [Yammer のライブイベント](https://support.office.com/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57)
