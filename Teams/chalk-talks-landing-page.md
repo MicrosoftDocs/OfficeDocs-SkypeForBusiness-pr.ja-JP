@@ -16,17 +16,19 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: adead862907c29c066df8b2541c260045f19db95
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: 7d41218e75b24432e1f67ae1dc8344f8a76b8a50
+ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417602"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558657"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Microsoft Teams のチョークの話</h1>
-IT プロフェッショナルと意思決定者向けに設計されたチームのチョークの話は、ベストプラクティスと実践的なガイダンスを得るのに最適です。 このオンラインインタラクティブワークショップは、分野の専門家によって促進され、チームの実装を強化し、エンドユーザーに付加価値を提供します。<br><br><i>以下のワークショップのタイトルをクリックすると、使用可能な日付と時刻が表示され、今すぐサインアップできます。</i>
+IT プロフェッショナルと意思決定者向けに設計されたチームのチョークの話は、ベストプラクティスと実践的なガイダンスを得るのに最適です。 このオンラインインタラクティブワークショップは、分野の専門家によって促進され、チームの実装を強化し、エンドユーザーに付加価値を提供します。<br><br>
+           <strong>前提条件</strong>: 最初<a href="https://aka.ms/Teamsin30"target="_blank">に30のワークショップでチーム</a>に参加します。<br><br>
+           <i>以下のワークショップのタイトルをクリックすると、使用可能な日付と時刻が表示され、今すぐサインアップできます。</i>
         <ul class="pivots">
             <li>
                 <a href="#home" data-linktype="self-bookmark"></a> 
@@ -116,7 +118,7 @@ IT プロフェッショナルと意思決定者向けに設計されたチー�
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Teams の新機能をご覧ください。</h3>
+                        <h3>Teams の新機能を見つける</h3>
                         <p><font color="red"><i>もうすぐです！</i></font>  Teams でリリースする機能を待機していますか? チームの専門家と連絡を取り合うためには、過去1か月間の最新の機能リリースと、それらを実装するためのベストプラクティスについて説明します。</p>
                     </div>
                 </div>
