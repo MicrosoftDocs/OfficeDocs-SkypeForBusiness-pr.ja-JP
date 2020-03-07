@@ -16,18 +16,19 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords:
-- ms.teamsadmincenter.directrouting.cqd
-- ms.lync.lac.ToolsCallQualityDashboard
+f1.keywords:
+- CSH
 ms.custom:
 - Reporting
+- ms.teamsadmincenter.directrouting.cqd
+- ms.lync.lac.ToolsCallQualityDashboard
 description: '通話品質ダッシュボードをオンにして使用し、通話の品質に関する概要レポートを取得する方法について説明します。 '
-ms.openlocfilehash: e29bced13fd4bad900c349efc07219e4edebc9d3
-ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
+ms.openlocfilehash: 9e9c70c88aec9fcdf898d94a17f46f76bd2c608a
+ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "41636840"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42559880"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Microsoft Teams および Skype for Business Online で通話品質ダッシュボードをオンにして使用する
 
@@ -36,6 +37,13 @@ ms.locfileid: "41636840"
 通話品質ダッシュボード (CQD) は、Microsoft Teams と Skype for Business Online サービスを使って発信した通話の品質を把握するのに適しています。 このトピックでは、通話品質の問題をトラブルシューティングするために使用できるデータの収集を開始する手順について説明します。
 
 現在、Advanced CQD と CQD は両方とも使用できます。 Advanced CQD は、で<span>https://cqd.teams.microsoft.com</span>ご利用いただけます。 新しい URL。ただし、管理者の資格情報を使ってログインします。
+
+## <a name="use-power-bi-to-analyze-cqd-data"></a>Power BI を使用して CQD データを分析する
+
+2020年1月の新[機能: POWER BI クエリテンプレートをダウンロードして CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)します。 CQD データの分析と報告に使用できる、カスタマイズ可能な Power BI テンプレート。
+
+詳細については、「 [POWER BI を使用して CQD データを分析する](CQD-Power-BI-query-templates.md)」を参照してください。
+
 
 ## <a name="latest-changes-and-updates"></a>最新の変更と更新
 
@@ -355,7 +363,7 @@ CQD は、建物データファイルを使用します。これにより、有�
 - データファイルには、テーブルの見出し行が含まれていません。 データファイルの最初の行は、"Network" のようなヘッダーラベルではなく、実際のデータであると想定されています。
 - ファイル内のデータ型に指定できるのは、String、Integer、またはブール値のみです。 整数データ型の場合、値は数値である必要があります。 ブール値は、0または1でなければなりません。
 - 列に文字列データ型が使用されている場合、データフィールドは空でもかまいませんが、タブまたはコンマで区切る必要があります。 空のデータフィールドでは、空の文字列値が割り当てられます。
-- 各行には14個の列がある必要があります。各列には適切なデータ型が設定されており、列は次の表の順序である必要があります。
+- 各行には14個の列がある必要があります。また、オプションの列を追加する場合は、各列のデータ型が適切であり、列が次の表の順序になっている必要があります。
 
 ||||||||||||||||
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:---  |:--- |:---|
@@ -423,6 +431,33 @@ Skype for Business の CQD にレポートまたはアップロードされた�
 
 ## <a name="frequently-asked-questions"></a>よく寄せられる質問
 
+### <a name="why-does-cqd-mark-a-call-as-good-if-one-or-more-meeting-participants-had-a-poor-experience"></a>1人以上の会議の出席者が不適切なエクスペリエンスをした場合、CQD は "Good" として通話をマークするのはなぜですか?
+
+CQD で[ストリームの分類](stream-classification-in-call-quality-dashboard.md)に使用するルールを確認します。
+ 
+オーディオストリームについては、呼び出しの長さに基づいて平均値に基づいて計算される5つの分類子のいずれかが "good" パラメーター内に存在する可能性があります。 これは、ユーザーがオーディオのドロップアウト、静的、または故障に寄与するものを経験していなかったことを意味します。 
+
+ネットワークの問題であったかどうかを判断するには、セッションの平均値と最大値の間のデルタを確認します。 [最大値] は、セッション中に最大検出および報告された値です。
+ 
+このような状況のトラブルシューティングを行う方法の例を次に示します。 通話中にネットワークトレースを取得したときに、最初の20分間のパケットが失われても、1.5 秒のパケットが残っていて、通話の残りの部分に適しているとします。 この平均値は、Wireshark trace RTP の分析であっても、10% (0.1) のパケット損失と <なります。 パケット損失の最大値は何ですか? 1.5 秒の間の秒数は、30% (0.3) です。 5番目のサンプリング期間内に発生しましたか (おそらく、サンプリング期間に分割されている可能性があります)?
+ 
+ネットワークメトリックが [平均] と [最大値] に適切に表示される場合は、他のテレメトリデータを参照します。 
+- CPU 不足イベント比率を確認して、検出された CPU リソースが不足していて、品質が低品質であるかどうかを確認します。 
+- スピーカーに近いマイクによるフィードバックを防ぐため、半二重モードのオーディオデバイスになりましたか? 
+- デバイスの半二重 AEC イベント比率を確認します。 ハブまたはドッキングステーションに接続したときに、USB オーディオのドロップアウトによって、デバイスグリッチノイズまたはマイクグリッチノイズ音が聞こえます。  
+- デバイスのエラーとマイクのイベント比率を確認します。 デバイス自体が正常に機能していますか?  
+- キャプチャとレンダリングデバイスが機能していないことを確認します。
+
+
+CQD テレメトリで利用できるディメンションとメジャーの詳細については、「[通話品質ダッシュボードで利用可能なディメンションと測定値](dimensions-and-measures-available-in-call-quality-dashboard.md)」を参照してください。
+
+バックグラウンドノイズの場合は、[ミュートイベント比率] チェックボックスをオンにして、参加者がミュートにした時間の長さを確認します。
+ 
+CQD で詳細なレポートを作成し、会議 ID にフィルターを適用して、会議のすべてのユーザーとストリームを確認し、目的のフィールドを追加します。 問題を報告しているユーザーが、問題が発生しているユーザーでない可能性があります。 経験を報告しているだけです。
+ 
+テレメトリによって問題が発生するとは限りませんが、お客様の意思決定を確認して通知する方法を理解するのに役立ちます。 ネットワーク、デバイス、ドライバーまたはファームウェアの更新、使用、またはユーザーのどちらを使用していますか?
+
+
 ### <a name="why-does-my-cqd-v2-report-data-look-different-than-the-cqd-v3-report-data"></a>CQD v2 のレポートデータが CQD v3 のレポートデータと異なるのはなぜですか? 
 
 CQD v2 と v3 のデータの違いが表示される場合は、データの比較または検証が、集計レベルではなく、"りんごからりんご" と "幅" レベルで行われていることを確認してください。 たとえば、"建物 30" の WiFi Teams のデスクトップクライアントデータの両方のレポートをフィルター処理する場合、低品質の割合は、v2 と v3 で同じである必要があります。
@@ -481,3 +516,4 @@ CQD レポート (isTeams = 1) でのみチームをフィルター処理して�
 [通話分析を使用して低品質の通話をトラブルシューティングする](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [通話分析および通話品質ダッシュボード](difference-between-call-analytics-and-call-quality-dashboard.md)
+ 
