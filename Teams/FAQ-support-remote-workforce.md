@@ -14,12 +14,12 @@ search.appverid: MET150
 description: このガイダンスは、新型コロナウイルス感染症 (COVID-19) 発生への対策として従業員が在宅勤務 (WFH) となった場合に、これらのリモート ワーカーの生産性を維持するためにご使用ください。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f47c03432b6e90cfd6be888affee7f4342945227
-ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
+ms.openlocfilehash: b7cdbe0922116015f33d7f10219eb51b07abaf76
+ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558627"
+ms.locfileid: "42559327"
 ---
 # <a name="faq-support-your-remote-workforce"></a>よく寄せられる質問: リモートの従業員をサポートする
 
@@ -90,6 +90,14 @@ Microsoft では、Education (EDU) テナントに対して、学校の生徒情
 ### <a name="where-do-i-find-help-getting-teams-running-for-my-company-so-my-users-can-work-from-home-during-this-crisis"></a>今回の危機的状況が続く間は社員が自宅で作業できるようにしたいのですが、会社で Teams の使用を開始するためのサポート情報はどこで入手できますか? 
 
 「[Teams を使用してリモート ワーカーを支援する](support-remote-work-with-teams.md)」をお読みください。 この記事では、リモート ワーカー向けに Teams の使用を開始するための一般的なタスクと質問について説明しています。
+
+### <a name="i-just-got-started-with-microsoft-365-so-i-can-use-teams-to-support-my-remote-workers-or-students-ive-signed-up-for-the-service-but-when-a-user-tries-to-use-teams-they-get-this-error-youre-missing-out-ask-your-admin-to-enable-microsoft-teams-what-should-i-do"></a>Microsoft 365 を使い始めたので、Teams を使用してリモート ワーカーや学生をサポートできます。 サービスにサインアップしましたが、ユーザーが Teams を使用しようとすると、次のエラーが表示されます: "使い損ねていますよ。 管理者に Microsoft Teams を有効にするよう依頼しましょう。" どうすればよいですか?
+
+無料の Teams オファーの 1 つをアクティブにした後でも、ユーザーに対して有効にしておく必要があります。 「[Teams へのユーザー アクセスを管理する](user-access.md)」と「[Office 365 にユーザーを個別に、またはまとめて追加する](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)」をお読みください。
+
+初めてユーザーにライセンスを付与する、または有効にするが、Microsoft 365 はしばらく使用してきたという場合は、組織の [Teams を有効にする](Office-365-set-up.md)必要がある場合があります。 この記事上で、「[Microsoft 365 を持っていますが、Teams を使っていません。Teams の試用版ライセンスは提供されていますか?](#i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses)」をご確認ください。
+
+
 
 ### <a name="can-i-use-calling-plans-with-the-office-365-e1-trial-that-microsoft-is-offering-can-i-assign-a-telephone-number-to-my-users-how-much-am-i-going-to-pay"></a>Microsoft が提供している Office 365 E1 試用版で電話プランを使用できますか? 社内のユーザーに電話番号を割り当てることは可能ですか? 料金を教えてください。
 
