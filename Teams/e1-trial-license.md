@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db45b65388331127c78693b52de3a0e09a35c9d7
-ms.sourcegitcommit: ed0ecb3b1250a23d3b91a5a33256aee1c3119db1
+ms.openlocfilehash: a3f5d73920da0f9b18b1810768b0468c4106a6f3
+ms.sourcegitcommit: 095bed15ffe64c34e6c39770b5734d966d5d8a0f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "42374347"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42507955"
 ---
 <a name="manage-the-office-365-e1-trial"></a>Office 365 E1 試用版を管理する
 ==============================
@@ -27,6 +27,8 @@ ms.locfileid: "42374347"
 2020 年 3 月、Microsoft Teams を含む 6 か月無料の Office 365 E1 試用版が新たにご利用いただけるようになりました。 Microsoft では、COVID-19 (コロナウィルス) の発生により、在宅勤務 (WFH) の従業員の必要の拡大に対応できるように、この度の特別な E1 試用板ライセンスをご用意しています。 
 
 E1 ライセンスで使用できる機能については、「[Office 365 E1](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e1-business-software)」を参照してください。
+
+[Teams でリモート ワーカーをサポートする](support-remote-work-with-teams.md)ためのガイダンスのすべてをお見逃しなく。
 
 ## <a name="how-to-get-an-e1-trial-license"></a>E1 試用版ライセンスを取得する方法
 
@@ -45,7 +47,9 @@ E1 試用版のプロモーション コードを使い終わってからもう�
 
 ## <a name="who-isnt-eligible"></a>対象外
 
-- このオファーでは、GCC、GCC High、DoD、EDU のお客様はご利用いただけません。 GCC バージョンの E1 試用版は現在開発中です。近日リリースされる予定です。 
+- このプランは、GCC、GCC High、DoD、EDU のお客様はご利用いただけません。 
+
+- GCC の場合、[Office 365 G1 試用版](g1-trial-license.md)をご確認ください。 
 
 - EDU のお客様は、無料の Office 365 A1 ライセンスを使用する必要があります。
 
