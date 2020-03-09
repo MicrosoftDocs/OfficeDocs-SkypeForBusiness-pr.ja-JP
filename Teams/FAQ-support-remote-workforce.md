@@ -14,12 +14,12 @@ search.appverid: MET150
 description: このガイダンスは、新型コロナウイルス感染症 (COVID-19) 発生への対策として従業員が在宅勤務 (WFH) となった場合に、これらのリモート ワーカーの生産性を維持するためにご使用ください。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9bbd42047037985ec4ac2c211a677e4c37e45af0
-ms.sourcegitcommit: ac811017d54a55f39ecc0e3a66a883d9e027ce68
+ms.openlocfilehash: f47c03432b6e90cfd6be888affee7f4342945227
+ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42548022"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558627"
 ---
 # <a name="faq-support-your-remote-workforce"></a>よく寄せられる質問: リモートの従業員をサポートする
 
@@ -106,9 +106,8 @@ Microsoft では、Education (EDU) テナントに対して、学校の生徒情
 IT 管理者 / IT 担当者向け: 「[Teams を使用してリモート ワーカーを支援する](support-remote-work-with-teams.md)」を参照してください。
 
 
-<!-- ============================================================ 
-### What is Microsoft doing to support its own employees during the COVID-19 outbreak?
+### <a name="what-is-microsoft-doing-to-support-its-own-employees-during-the-covid-19-outbreak"></a>新型コロナウイルス感染症の発生時に Microsoft は自社の従業員をサポートするために何を行っていますか?
 
-Please read our blog that details the recommendations we are giving our own users.
--->
+Microsoft の社長 Brad Smith 氏の 2020 年 3 月 5 日のブログを読んでください: [公衆衛生の守りに取り組むに当たり、キャンパスを支える時給労働者の収入も守る必要があります。](https://blogs.microsoft.com/on-the-issues/2020/03/05/covid-19-microsoft-hourly-workers/)
+
 
