@@ -20,12 +20,12 @@ ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 182b7178cf24b786e81afd9181c9275541857486
-ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
+ms.openlocfilehash: 094f3db845109538df4652c3f1e990465c670918
+ms.sourcegitcommit: 86502c9ad03c5dd5ed18f0e3276a81d1260c76d2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558607"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42574430"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -147,8 +147,8 @@ ms.locfileid: "42558607"
                     </div>
                     <div class="cardText">
                     <h3>Teams のチョークの話</h3>
-                    <p>このオンラインインタラクティブワークショップは、分野の専門家によって推進されており、チームで最も一般的なシナリオと説得力のあるシナリオを中心に、ベストプラクティスと実用的なガイダンスについて説明します。</p>
-                    <p><strong>前提条件</strong>:30 のワークショップのチーム。 チョークとは、このページに掲載されているワークショップの内容に基づいて構築されます。</p>
+                    <p>このオンラインインタラクティブワークショップは、分野の専門家によって推進されており、チームで最も一般的なシナリオと説得力のあるシナリオを中心に、ベストプラクティスと実用的なガイダンスについて説明します。 チョークの話は、基本的なチームのロールアウトを完了したことを前提としています。</p>
+                    <p><strong>前提条件</strong>: チームが30回参加する場合、または組織全体のチームに対して既に有効になっている場合。</p>
                     <p><i>対象ユーザー: IT 管理者</i></p>
                     </div>
                 </div>
