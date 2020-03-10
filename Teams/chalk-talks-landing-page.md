@@ -16,18 +16,17 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: 4a66451a760e6d9e07c374e4ea900af4b0d78b36
-ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
+ms.openlocfilehash: cde69bd588c7262e5ed6f0274b091fee29b27030
+ms.sourcegitcommit: 769241842058cfb4618460fad2dde1494a3609a1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42559329"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42574004"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Microsoft Teams のチョークの話</h1>
 IT プロフェッショナルと意思決定者向けに設計されたチームのチョークの話は、ベストプラクティスと実践的なガイダンスを得るのに最適です。 このオンラインインタラクティブワークショップは、分野の専門家によって促進され、チームの実装を強化し、エンドユーザーに付加価値を提供します。<br><br>
-           <strong>前提条件</strong>: 最初<a href="https://aka.ms/Teamsin30"target="_blank">に30のワークショップでチーム</a>に参加します。<br><br>
            <i>以下のワークショップのタイトルをクリックすると、使用可能な日付と時刻が表示され、今すぐサインアップできます。</i>
         <ul class="pivots">
             <li>

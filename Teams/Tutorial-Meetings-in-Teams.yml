@@ -6,10 +6,10 @@ metadata:
   audience: IT Pro
   level: Intermediate
   displayType: one-column
-  ms.author: tbinder
-  ms.reviewer: tbinder
+  ms.author: lolaj
+  author: LolaJacobsen
+  ms.reviewer: shalenc
   manager: serdars
-  ms.date: 02/27/2018
   ms.service: msteams
   ms.topic: tutorial
   localization_priority: Normal
@@ -18,12 +18,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 3283da794b2075944a3e2249077cf9f917ce6eaf
-  ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+  ms.openlocfilehash: 47e80b1eda888581b46284e69ef735f751962b64
+  ms.sourcegitcommit: 543f650ad4aff73bccfe7a60b66fb944b4e3c119
   ms.translationtype: MT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 02/08/2020
-  ms.locfileid: "41862707"
+  ms.lasthandoff: 03/10/2020
+  ms.locfileid: "42572785"
 items:
 - durationInMinutes: 1
   content: >
@@ -35,9 +35,9 @@ items:
 
     このトレーニングは、次のようなお客様を対象としています。
 
-    -   IT 専門家。
+    -   IT プロフェッショナル
 
-    -   Teams の計画、展開、管理の責任者。
+    -   チームの計画、展開、管理を担当します。
 
     -   Teams での会議に関心があるユーザー
 
@@ -71,7 +71,7 @@ items:
   content: "\nTeams での会議を理解するには、以下をご覧ください。\n-   [Meetings and calls (会議と通話)](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)の「Have meetings (会議を開催する)」 (推定所要時間: 6 分)\n\n-   「[Meet now (今すぐ会議)](https://support.office.com/article/Video-Meet-now-26e06837-853d-4df1-a729-06bf700d4ecf)」ビデオ (1 時間 45 分)\n\n-   「[Scheduled meetings (予約された会議)](https://support.office.com/article/Video-Scheduled-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137)」ビデオ (1 時間 45 分)\n\n-   「[9 tips for meeting with Microsoft Teams (Microsoft Teams での会議に関する 9 のヒント)](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444)」で会議ロビー、匿名での会議への参加などについて解説します (推定所要時間: 6 分)\n"
 - title: シナリオ - 会議の種類
   durationInMinutes: 1
-  content: "\nGarth はオフィスが複数ある Contoso で働いています。 Garth は他の場所のオフィスにいる人と定期的に連絡を取る必要があります。\n\n-  彼のプロジェクト チームは毎週月曜日に 1 時間の会議を行います。 メンバーは既に Microsoft Teams にそれぞれのプロジェクトの専用チャネルを持っているため、Garth はその定期的な同期のために「チャネル会議」を予約します。これにより次のような複数のメリットが Garth とチームに対して生じます。\n   -   チームのすべてのメンバーが自動的に招待されます。\n   -   会議前、会議中または会議後の、会議に関連するディスカッションが、チャネル ディスカッションの一部に含まれます。\n   -   会議およびディスカッションは、チームのメンバー全員が見ることができます。\n-   Garth は相手と個別に同期する必要があるのですが、それらの会議の内容は、他の人が見ることができないようにするつもりです。 そのために、Garth は「プライベート会議」のスケジュールを設定します。\n    プライベート会議により、Garth は会議が始まる前にチャットを開始することができます。 この会議前のエクスペリエンスにより、Garth がチームの主要メンバーと資料を事前に共有することや、議題について話し合うことができるようになるため、会議をより効果的に実施できるようになります。 これと同じチャットを、会議中にメモを取るために利用したり、フォローアップのために後で使用したりすることができます。\n-   チームの自分たちのチャネルでのディスカッションが盛り上がってしまい、Garth はメンバーたちに速やかに結論を出すように仕向ける必要があることがあります。 彼はメンバー全員が入力を行っている中、ビデオ通話がより効果的なコミュニケーション手段であると判断します。 この状況において、Garth は現在の会話で [**今すぐ会議**] を選択することによって臨時の会議を予約することになります。\n"
+  content: "\nGarth はオフィスが複数ある Contoso で働いています。 Garth は他の場所のオフィスにいる人と定期的に連絡を取る必要があります。\n\n-  彼のプロジェクト チームは毎週月曜日に 1 時間の会議を行います。 メンバーは既に Microsoft Teams にそれぞれのプロジェクトの専用チャネルを持っているため、Garth はその定期的な同期のために「チャネル会議」を予約します。これにより次のような複数のメリットが Garth とチームに対して生じます。\n   -   チームのすべてのメンバーが自動的に招待されます。\n   -   会議前、会議中または会議後の、会議に関連するディスカッションが、チャネル ディスカッションの一部に含まれます。\n   -   会議およびディスカッションは、チームのメンバー全員が見ることができます。\n   -   会議とライブイベントのライブキャプションを有効にします。 さらに、ライブイベントで字幕をオンにします。 これらの機能により、inclusivity、生産性、読解力が向上します。\n-   Garth は相手と個別に同期する必要があるのですが、それらの会議の内容は、他の人が見ることができないようにするつもりです。 そのために、Garth は「プライベート会議」のスケジュールを設定します。\n    プライベート会議により、Garth は会議が始まる前にチャットを開始することができます。 この会議前のエクスペリエンスにより、Garth がチームの主要メンバーと資料を事前に共有することや、議題について話し合うことができるようになるため、会議をより効果的に実施できるようになります。 これと同じチャットを、会議中にメモを取るために利用したり、フォローアップのために後で使用したりすることができます。\n-   チームの自分たちのチャネルでのディスカッションが盛り上がってしまい、Garth はメンバーたちに速やかに結論を出すように仕向ける必要があることがあります。 彼はメンバー全員が入力を行っている中、ビデオ通話がより効果的なコミュニケーション手段であると判断します。 この状況において、Garth は現在の会話で [**今すぐ会議**] を選択することによって臨時の会議を予約することになります。\n"
 - title: 会議のクライアント
   durationInMinutes: 5
   content: "\n会議への参加は、さまざまなクライアントから行うことができます。 Teams をどのプラットフォームで利用できるかについては、「[Microsoft Teams のクライアントを取得する](https://docs.microsoft.com/MicrosoftTeams/get-clients)」 (推定所要時間: 3 分) をご覧ください。\n\nさらに、電話会議を使用することによって、参加者は会議に通常の電話機から会議にダイヤル インして出席したり、会議からダイヤル アウトしたりすることができます。\n電話会議の詳細については、専用のトレーニングで取り上げられます。\n\nWindows 版の Outlook では、自分の予定表から直接会議を予約するためのアドインを使用することができます。 「[Outlook で Teams の会議アドインを使用する](https://docs.microsoft.com/MicrosoftTeams/teams-add-in-for-outlook)」(推定所要時間: 2 分) をご覧ください。\n"
