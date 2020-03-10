@@ -20,12 +20,12 @@ f1.keywords:
 - CSH
 ms.custom: Reporting
 description: Microsoft Teams および Skype for Business Online の通話品質ダッシュボードで使用される寸法と測定値に関する詳細情報を取得します。
-ms.openlocfilehash: 1bc3fc7e62b234d0679531d48a656c71c54db113
-ms.sourcegitcommit: 86502c9ad03c5dd5ed18f0e3276a81d1260c76d2
+ms.openlocfilehash: b23b87ee7cf0f28fca59a3dee13113dcf28a141a
+ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 03/10/2020
-ms.locfileid: "42574420"
+ms.locfileid: "42583083"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>通話品質ダッシュボードで利用可能な寸法と測定値
 
@@ -439,10 +439,8 @@ CQD の寸法と測定の多くは、first または second というラベル�
 |PSTN MP の場所|String|メディアプロセッサの場所には、非バイパスモードの場合にメディアパスが表示されます。<br/>**例:** USWE||
 |第1の PSTN 国地域|String|FirstIsCaller が true の場合、最初の PSTN 国地域は発信者の国になります。 この値が false の場合、第2の PSTN 国地域は発信者の国になります。<br/>**例:** プロセッサー||
 |ジッター|ミリ秒|RTP パケットの到着時刻のバリエーション。 詳細については、[通話品質ダッシュボードのストリーム分類](stream-classification-in-call-quality-dashboard.md)を参照してください。<br/>**例:** 5.982||
-|Packet Loss Rate|パーセンテージ|仲介サーバーと SBC またはゲートウェイ間のストリームのパーセンテージ (使用可能な場合)。
-詳細については、[通話品質ダッシュボードのストリーム分類](stream-classification-in-call-quality-dashboard.md)を参照してください。<br/>**例:** 1.2%||
-|待機時間 (ラウンドトリップ時間)|ミリ秒|ストリームごとの平均ネットワーク伝達ラウンドトリップ時間。
-詳細については、[通話品質ダッシュボードのストリーム分類](stream-classification-in-call-quality-dashboard.md)を参照してください。<br/>**例:** 3.49||
+|Packet Loss Rate|パーセンテージ|仲介サーバーと SBC またはゲートウェイ間のストリームのパーセンテージ (使用可能な場合)。 詳細については、[通話品質ダッシュボードのストリーム分類](stream-classification-in-call-quality-dashboard.md)を参照してください。<br/>**例:** 1.2%||
+|待機時間 (ラウンドトリップ時間)|ミリ秒|ストリームごとの平均ネットワーク伝達ラウンドトリップ時間。 詳細については、[通話品質ダッシュボードのストリーム分類](stream-classification-in-call-quality-dashboard.md)を参照してください。<br/>**例:** 3.49||
 ||||
 
 ### <a name="notes-on-dimension-data-typeunits"></a>ディメンションデータの種類/単位に関するメモ

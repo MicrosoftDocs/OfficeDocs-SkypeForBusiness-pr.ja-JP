@@ -23,16 +23,16 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: 組織で電話番号を取得したり、番号を移行 (転送) したりする場合、PSTN サービスデスクでヘルプとサポートを受ける必要がある場合があります。
-ms.openlocfilehash: 6d400e51270b411054802240216d9e957a68f054
-ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
+ms.openlocfilehash: 3fe6353deb52911a4e0f0249f500a2a562e29ac1
+ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341785"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42583078"
 ---
 # <a name="pstn-service-desk-contact"></a>PSTN サービスデスクの連絡先
 
-Microsoft からの電話番号の取得、または既存の電話番号の Microsoft への移植に関するヘルプが必要な場合は、次の情報を含むメール要求を送信してください。
+電話番号の取得や転送についてのヘルプが必要な場合は、skype に連絡して、メールでお問い合わせください。 メールのヘルプ要求で、できるだけ多くの情報を含め、組織 ID (テナント ID)、ドメイン、ヘルプが必要な番号の種類、必要な電話番号の種類、アカウントなどの重要な詳細情報を入力します。問題について
 
   - 組織 ID (テナント ID) またはアクティブなドメイン。
   - 必要な電話番号の種類 (ユーザー/加入者、サービス/有料、またはフリーダイヤル)。

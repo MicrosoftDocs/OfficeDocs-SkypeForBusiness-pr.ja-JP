@@ -17,12 +17,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 'Learn how to get the status of your port orders, and what the different actions you can take on them. '
-ms.openlocfilehash: 67a69ff2a86a57e16d157fa1a0b4b36ca3c2e036
-ms.sourcegitcommit: c4f13aa4947df606d38694a7e544b08be7ce20d1
+ms.openlocfilehash: cfbbbea1d82cfa2f1905584740e8053e83f19ee6
+ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42370406"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42583094"
 ---
 # <a name="whats-the-status-of-your-port-orders"></a>番号移行注文の状況
 
@@ -34,9 +34,9 @@ ms.locfileid: "42370406"
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |**処理** <br/> |はい  <br/> |いいえ  <br/> |はい  <br/> |いいえ  <br/> |管理者が注文を作成し、Microsoft によって受信されました。  <br/> |
 |**電話会社に連絡中** <br/> |はい  <br/> |いいえ  <br/> |はい  <br/> |いいえ  <br/> |注文は Microsoft によって受領され承認されており、ご利用の承認を得るために、紛失しているキャリアを使用しています。  <br/> |
-|**承認済みの転送** <br/> |はい  <br/> |確定注文の確約 (= c)  <br/> |はい  <br/> |いいえ  <br/> |この注文は、紛失しているキャリアによって承認されたため、ドライブ c の日付が設定されています。  <br/> |
-|**転送待ち** <br/> |はい  <br/> |なし  <br/> |なし  <br/> |いいえ  <br/> |移動は24時間以内に行われるため、注文を編集したりキャンセルしたりすることはできなくなります。  <br/> |
-|**エラー** <br/> |いいえ  <br/> |はい  <br/> |Yes  <br/> |はい (現時点では、エラーが発生した場合は、ポートの順序を削除できません。 ポート注文を再作成するか、 [PSTN サービスデスク](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)に問い合わせる必要があります。  <br/> |紛失したキャリアが注文を却下しました。  <br/> |
+|**承認済みの転送** <br/> |はい  <br/> |いいえ  <br/> |はい  <br/> |いいえ  <br/> |注文は、紛失しているキャリアによって承認され、会社の注文確約 (x) 日が設定されました。  <br/> |
+|**転送待ち** <br/> |はい  <br/> |なし  <br/> |なし  <br/> |いいえ  <br/> |移動は24時間以内であるため、注文を編集またはキャンセルすることはできません。  <br/> |
+|**エラー** <br/> |いいえ  <br/> |はい  <br/> |Yes  <br/> |はい (現時点では、エラーが発生した場合は、ポートの順序を削除できません。 ポート注文を再作成するか、 [PSTN サービスデスクのヘルプ](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)に問い合わせる必要があります。  <br/> |紛失したキャリアが注文を却下しました。  <br/> |
 |**時点** <br/> |はい  <br/> |なし  <br/> |なし  <br/> |いいえ  <br/> |番号は正常に転送されました。  <br/> |
 |**閉じ** <br/> |いいえ  <br/> |はい  <br/> |なし  <br/> |いいえ  <br/> |管理者が注文をキャンセルしました。  <br/> |
 

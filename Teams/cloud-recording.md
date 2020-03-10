@@ -16,12 +16,12 @@ f1.keywords:
 description: Microsoft Teams でクラウド音声機能を展開するための実用的なガイダンス。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5041b35822a04dc98aa6c07d3731ad8c6791af98
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 678e17ed92c0f269e134ac6c23dce29169c0d36d
+ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030721"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42583004"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams のクラウド会議の記録
 
@@ -152,10 +152,14 @@ PowerShell を使用して、TeamsMeetingPolicy で AllowTranscription 設定を
 
 会議のレコーディングは、テナントが所有しているコンテンツと見なされます。 レコーディングの所有者が退職した場合、管理者は、Microsoft Stream in 管理モードでレコーディングビデオの URL を開くことができます。 管理者は、レコーディングを削除したり、レコーディングメタデータを更新したり、レコーディングビデオのアクセス許可を変更したりできます。 [ストリームの管理機能の](https://docs.microsoft.com/stream/manage-content-permissions)詳細については、こちらを参照してください。
 
+> [!NOTE]
+> レコーディングとユーザーアクセスの管理に関する追加情報については、「microsoft stream で[のユーザーデータの管理](https://docs.microsoft.com/stream/managing-user-data)」と「 [microsoft stream で](https://docs.microsoft.com/stream/portal-permissions)のユーザーデータの管理」を参照してください。
+
+
 ## <a name="compliance-and-ediscovery-for-meeting-recordings"></a>会議のレコーディングのコンプライアンスと電子情報開示
 
 会議のレコーディングは、Office 365 Tier C に準拠している Microsoft Stream に保存されます。 Microsoft のストリームの会議または通話の記録に関心を持っているコンプライアンス管理者に対する e 検出要求をサポートするため、[レコーディング完了] メッセージは Microsoft Teams のコンプライアンスコンテンツ検索機能で利用できます。 コンプライアンス管理者は、コンプライアンスコンテンツ検索プレビューのアイテムの件名行に "レコーディング" というキーワードを検索して、組織内の会議と通話の記録を検出できます。 すべてのレコーディングを表示するには、Microsoft Stream で管理者アクセス権を設定する必要があることが前提となります。 詳しく[は、「Stream での管理権限の割り当て」を](https://docs.microsoft.com/stream/assign-administrator-user-role)ご覧ください。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [Teams での PowerShell の概要](teams-powershell-overview.md)
