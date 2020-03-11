@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: '概要: このトピックを使用して、Skype for Business Server 2015 サーバーを準備します。 ハードウェア、OS、データベース、ソフトウェア、すべてのシステム要件と推奨事項は、サーバーファームのインストールと展開を成功させるために役立ちます。'
-ms.openlocfilehash: f1898fc9de5999276b963a78c181e3b098876b69
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 9cc063a44924bd6080525ca7a751bd1a3356666c
+ms.sourcegitcommit: 543f650ad4aff73bccfe7a60b66fb944b4e3c119
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160394"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42572795"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 のサーバー要件
  
@@ -183,7 +183,7 @@ Skype for Business Server 2015 を実行しているすべてのサーバーに�
 |**ソフトウェア/役割**|**詳細**|
 |:-----|:-----|
 |Windows PowerShell 3.0  <br/> |すべての Skype for Business Server サーバーには、Windows PowerShell 3.0 がインストールされている必要があります。  <br/> • Windows Server 2012 または Windows Server 2012 R2 上でインストールを実行している場合は、既に設定されているため、設定しています。  <br/> • Windows Server 2008 R2 でアップグレードする場合は、 [Windows Management Framework 3.0](https://www.microsoft.com/download/details.aspx?id=34595)をダウンロードして入手できます。 <br/> **ヒント:** 適切な PowerShell を用意したら、PowerShell プロンプトに進み、「」と入力`$PSVersionTable`して、それが buildversion 6.2.9200.0 以降であることを確認します。 これにより、必要な情報が表示されます。  <br/> |
-|Microsoft .NET Framework  <br/> |WCF サービスは、Windows 機能としてインストールされている**機能**です。**サーバーマネージャー**ではダウンロードは必要ありません。 <br/> •この機能をインストールするとき、または既にインストールされていて確認する際には、次のように、 **HTTP アクティブ化**オプションもチェックされ、インストールされていることを確認する必要があります。 <br/> ![.NET Framework 4.5 機能の下の HTTP アクティブ化オプションを示すスクリーンショット。](../../media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png)HTTP ライセンス認証をインストールするには、他にもいくつかの設定をインストールする必要があることを示す追加のポップアップが表示されても心配しないでください。 これで正常です。 [OK] をクリックして、先に進みます。 このポップアップが表示されない場合は、それらが既にインストールされていると仮定し、先に進んでください。  <br/> Microsoft .NET Framework は、通常、Windows Server 2012 R2 または Windows Server 2016 がインストールされている場合にインストールされます。 Skype for Business Server は、次の Microsoft .NET Framework バージョンで動作します。  <br/> • .NET 3.5  <br/> • .NET 4.5  <br/> • .NET 4.6. x  <br/> • .NET 4.7.1 (Skype for Business Server CU 5 以降のリリース)  <br/> • .NET 4.7.2 (Skype for Business Server CU 6 以降のリリース)  <br/>  .NET Framework 3.5 は、Windows Server 2008 R2 コンピューターに既定でインストールされる可能性がありますが (アップグレードの前に必ず確認してください)、実際には Windows Server 2012/Windows Server 2012 R2 サーバー (新規インストールの場合) にはありません。 を追加するには、インストールドライブまたはメディア (Windows Server のインストール元、またはインストールファイルが保存されている場所) にアクセスする必要があります。 その後、サーバーマネージャから機能としてインストールし、インストールメディア (具体的には**\sources\sxs**フォルダー) を指定し、インストールを続行します。 <br/> |
+|Microsoft .NET Framework  <br/> |WCF サービスは、Windows 機能としてインストールされている**機能**です。**サーバーマネージャー**ではダウンロードは必要ありません。 <br/> •この機能をインストールするとき、または既にインストールされていて確認する際には、次のように、 **HTTP アクティブ化**オプションもチェックされ、インストールされていることを確認する必要があります。 <br/> ![.NET Framework 4.5 機能の下の HTTP アクティブ化オプションを示すスクリーンショット。](../../media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png)HTTP ライセンス認証をインストールするには、他にもいくつかの設定をインストールする必要があることを示す追加のポップアップが表示されても心配しないでください。 これで正常です。 [OK] をクリックして、先に進みます。 このポップアップが表示されない場合は、それらが既にインストールされていると仮定し、先に進んでください。  <br/> Microsoft .NET Framework は、通常、Windows Server 2012 R2 または Windows Server 2016 がインストールされている場合にインストールされます。 Skype for Business Server は、次の Microsoft .NET Framework バージョンで動作します。  <br/> • .NET 3.5  <br/> • .NET 4.5  <br/> • .NET 4.6. x  <br/> • .NET 4.7.1 (Skype for Business Server CU 5 以降のリリース)  <br/> • .NET 4.7.2 (Skype for Business Server CU 6 以降のリリース)  <br/>  • .NET 4.8 (Skype for Business Server CU 9 以降のリリース) <br/>  .NET Framework 3.5 は、Windows Server 2008 R2 コンピューターに既定でインストールされる可能性がありますが (アップグレードの前に必ず確認してください)、実際には Windows Server 2012/Windows Server 2012 R2 サーバー (新規インストールの場合) にはありません。 を追加するには、インストールドライブまたはメディア (Windows Server のインストール元、またはインストールファイルが保存されている場所) にアクセスする必要があります。 その後、サーバーマネージャから機能としてインストールし、インストールメディア (具体的には**\sources\sxs**フォルダー) を指定し、インストールを続行します。 <br/> |
 |メディアファンデーション  <br/> |Windows Server 2016、windows server 2012、Windows server 2012 R2 では、Windows Media フォーマットランタイムが Microsoft Media Foundation と共にインストールされます。  <br/> 会議に使用されるすべてのフロントエンドサーバーおよび Standard Edition サーバーでは、windows Media フォーマットランタイムを使用して、コールパーク、アナウンス、および応答グループアプリケーションがアナウンスと音楽を再生する Windows media Audio (.wma) ファイルを実行する必要があります。  <br/> |
 |Windows Identity Foundation  <br/> |Skype for Business Server 2015 のサーバー間認証シナリオをサポートするには、Windows Identity Foundation 3.5 が必要です。  <br/> • Windows Server 2012 および Windows Server 2012 R2 の場合は、何もダウンロードする必要はありません。 **サーバーマネージャー**を開き、[**役割と機能の追加ウィザード]** に進みます。 **Windows Identity Foundation 3.5**は、[**機能**] セクションの下に一覧表示されます。 このチェックボックスがオンになっている場合は、問題ありません。 それ以外の場合は、それを選択し、[次へ] をクリックして [**インストール**] ボタンに移動します <br/> |
 |リモート サーバー管理ツール  <br/> |役割管理ツール: AD DS および AD LDS ツール  <br/> |

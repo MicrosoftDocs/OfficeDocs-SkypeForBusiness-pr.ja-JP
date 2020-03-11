@@ -18,7 +18,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: ef091eb926301e6dd9d3ac27d7c62486d93075a1
 ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 02/06/2020
 ms.locfileid: "41834777"
@@ -27,43 +27,43 @@ ms.locfileid: "41834777"
 ======================================
 
 > [!IMPORTANT]
-> 変更が有効になるまで最大24時間かかることがあります。 
+> 変更が有効になるまで最大で 24 時間かかる場合があります。 
 
-**ゲスト**は、すべての Office 365 Business Premium、Office 365 Enterprise、Office 365 Business Essentials、および Office 365 エデュケーションサブスクリプションに含まれている、Microsoft Teams のユーザーの種類です。 追加の Office 365 ライセンスは不要です。 [ゲストアクセスライセンス](#guest-access-licensing-limits)の詳細については、以下を参照してください。
+**ゲスト**は、Office 365 Business Premium、Office 365 Enterprise、Office 365 Business Essentials、および Office 365 Education のすべてのサブスクリプションに含まれている、Microsoft Teams のユーザーの種類です。 追加の Office 365 ライセンスは不要です。 [ゲスト アクセス ライセンス](#guest-access-licensing-limits)の詳細については、以下を参照してください。
 
-Teams のゲスト アクセスはテナントレベルの設定であり、既定ではオフになっています。 ゲストアクセスを有効にする方法の詳細については、「 [Teams へのゲストアクセスを有効また](set-up-guests.md)は無効にする」を参照するか、[ゲストアクセスのチェックリスト](guest-access-checklist.md)を使用してセットアップを確認してください。
+Teams のゲスト アクセスはテナント レベルの設定であり、既定で無効になっています。 ゲスト アクセスをオンにする方法の詳細については、「[Microsoft Teams へのゲスト アクセスをオンまたはオフにする](set-up-guests.md)」を参照するか、[ゲスト アクセスのチェックリスト](guest-access-checklist.md)を使用してセットアップの手順をご確認ください。
 
-ゲストアクセスを有効にした後、「[組織のチーム設定を管理](enable-features-office-365.md)する」で説明されているコントロールを使用してゲストの設定を構成し、[新しい Microsoft Teams 管理センターへの移行中に teams を管理](manage-teams-skypeforbusiness-admin-center.md)することができます。     
+ゲスト アクセスをオンにした後、「[組織の Microsoft Teams の設定を管理する](enable-features-office-365.md)」および「[新しい Microsoft Teams 管理センターへの移行中に Teams を管理する](manage-teams-skypeforbusiness-admin-center.md)」に記載されている制御を介してゲストの設定を構成することができます。     
     
-IT 管理者は、テナント レベルでのゲストの追加、ゲスト ユーザー ポリシーと権限の設定と管理、およびゲスト ユーザーのアクティビティに関するレポートの取得を行うことができます。 これらのコントロールは、Teams 管理センターで使用できます。 ゲストユーザーのコンテンツとアクティビティは、Office 365 の他の部分と同じコンプライアンスおよび監査保護の対象となります。
+IT 管理者は、テナント レベルでのゲストの追加、ゲスト ユーザー ポリシーと権限の設定と管理、およびゲスト ユーザーのアクティビティに関するレポートの取得を行うことができます。 これらの制御は、Teams 管理センターで利用可能です。 ゲスト ユーザーのコンテンツとアクティビティには、Office 365 の他の部分と同じコンプライアンスと監査保護が適用されます。
 
-チームの所有者は、新しいゲストを招待し、チーム管理センターで既存のディレクトリゲストユーザーを自分のチームに追加することができます。 **チーム** > **管理**ページでゲストユーザーを特定し、**組織全体** > の [**ゲストアクセス**の設定] ページでゲストのチャネル関連の機能を設定します。 [設定] には、次の図に示すように、ゲストによるチャネルの作成、更新、削除の許可が含まれます。
+チーム所有者は、Teams 管理センターで自分が所有するチームに新しいゲストを招待したり、既存のディレクトリ ゲスト ユーザーを追加したりすることができます。 **[Teams]**  >  **[チームの管理]** ページでゲスト ユーザーを特定し、**[組織全体の設定]**  >  **[ゲスト アクセス]** ページでゲストに対してチャネル関連の機能を設定します。 次の図に示すように、設定には、ゲストにチャネルを作成、更新、削除することを許可することが含まれます。
 
 ![Teams でのゲストのアクセス権の設定](media/manage-guest-access-image1.png)
   
-Azure Active Directory (Azure AD) ポータルを使用して、ゲストと、Office 365 および Teams リソースへのアクセスを管理することができます。 Teams ゲストアクセスでは、id プロパティ、メンバーシップ、多要素認証の設定などのセキュリティ原則情報を保存する基盤として、Azure AD のビジネス間 (B2B) コラボレーション機能を使用します。 Azure AD b2b の詳細については、「 [AZURE AD b2b コラボレーションの](https://go.microsoft.com/fwlink/p/?linkid=853011)概要」と「 [AZURE Active Directory b2b コラボレーション](https://go.microsoft.com/fwlink/p/?linkid=853020)に関する faq」を参照してください。
+Azure Active Directory (Azure AD) ポータルを使用して、ゲストの管理、Office 365 や Teams のリソースへのゲスト アクセスの管理を行うことができます。 Teams のゲスト アクセスでは、Azure AD ビジネス ツー ビジネス (B2B) コラボレーション機能を基本インフラストラクチャとして活用して、ID プロパティ、メンバーシップ、多要素認証設定といったセキュリティの原則情報を保管します。 Azure AD B2B の詳細については、「[Azure AD B2B コラボレーションとは](https://go.microsoft.com/fwlink/p/?linkid=853011)」と「[Azure Active Directory B2B コラボレーションの FAQ](https://go.microsoft.com/fwlink/p/?linkid=853020)」をご覧ください。
 
 > [!NOTE]
-> Microsoft Teams では、ゲストユーザーによるテナントへの追加を許可または禁止するために、Azure AD の外部設定を常に使用しています。 詳細については、「 [Microsoft Teams でゲストアクセスを承認](Teams-dependencies.md)する」を参照してください。
+> Microsoft Teams は、テナントへのゲスト ユーザーの追加を許可または禁止するために、常に Azure AD の外部設定を受け入れます。 詳細については、「[Microsoft Teams でのゲスト アクセスを承認する](Teams-dependencies.md)」をご覧ください。
 
 
-## <a name="guest-access-licensing-limits"></a>ゲストアクセスライセンスの制限
+## <a name="guest-access-licensing-limits"></a>ゲスト アクセス ライセンスの制限
 
 Teams では追加することができるゲストの数に制限はありません。 ただし、テナントに追加することができるゲストの合計数は、ご利用の Azure AD ライセンスによって許可されるものに基づきます。通常はライセンス ユーザーごとに 5 人です。 詳細については、「[Azure AD B2B コラボレーションのライセンス](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)」に関するページを参照してください。
 
-ライセンスの制限があるため (およびテナントを最新の状態に維持するため)、ゲストアクセスを定期的に確認して、必要のないアクセス権を持つユーザーを特定する必要があります。 Azure AD を使用して、アプリケーションに割り当てられているグループメンバーまたはユーザーのアクセスレビューを作成できます。 反復的なアクセス レビューを作成することで、時間を節約できます。 アプリケーションにアクセスできるユーザー、またはメンバーのグループであるユーザーを定期的にレビューする必要がある場合は、それらのレビューの頻度を定義することができます。 
+これらのライセンスの制限のため (およびテナントを最新の状態に維持する必要があるため)、ゲスト アクセスを定期的にレビューして、アクセスする必要がなくなったユーザーを識別する必要があります。 Azure AD を使用してアプリケーションに割り当てられたグループ メンバーまたはユーザーに対するアクセス レビューを作成することができます。 反復的なアクセス レビューを作成することで、時間を節約できます。 アプリケーションにアクセスできるユーザー、またはメンバーのグループであるユーザーを定期的にレビューする必要がある場合は、それらのレビューの頻度を定義することができます。 
 
-ゲスト アクセスのレビューを自分自身で実行したり、ゲストにメンバーシップのレビューを求めたり、アプリケーション所有者またはビジネス意思決定者に対してアクセス レビューを実行するよう求めたりすることができます。 Azure portal を使用して、ゲストアクセスレビューを実行します。 詳細については、「[Azure AD アクセス レビューでゲスト アクセスを管理する](https://docs.microsoft.com/azure/active-directory/governance/manage-guest-access-with-access-reviews)」をご覧ください。
+ゲスト アクセスのレビューを自分自身で実行したり、ゲストにメンバーシップのレビューを求めたり、アプリケーション所有者またはビジネス意思決定者に対してアクセス レビューを実行するよう求めたりすることができます。 ゲスト アクセス レビューを実行するために、Azure ポータルを使用します。 詳細については、「[Azure AD アクセス レビューでゲスト アクセスを管理する](https://docs.microsoft.com/azure/active-directory/governance/manage-guest-access-with-access-reviews)」をご覧ください。
 
-###  <a name="prerequisites-for-azure-ad-access-reviews"></a>Azure AD access レビューの前提条件
+###  <a name="prerequisites-for-azure-ad-access-reviews"></a>Azure AD アクセス レビューの前提条件
 
-アクセス レビューは、Microsoft Enterprise Mobility + Security E5 に含まれている Azure AD の Premium P2 エディションで利用することができます。 詳細については、「 [Azure Active Directory のエディション](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis)」を参照してください。 レビューを作成したり、レビューを記入したり、アクセスを承認したりすることでこの機能とやり取りを行う各ユーザーには、ライセンスが必要です。
+アクセス レビューは、Microsoft Enterprise Mobility + Security E5 に含まれている Azure AD の Premium P2 エディションで利用することができます。 詳細については、「[Azure Active Directory のエディション](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis)」を参照してください。 レビューを作成したり、レビューを記入したり、アクセスを承認したりすることでこの機能とやり取りを行う各ユーザーには、ライセンスが必要です。
 
 
 
-## <a name="lag-time-for-guest-access-settings-to-take-effect"></a>ゲストアクセスの設定が有効になるまでのラグタイム
+## <a name="lag-time-for-guest-access-settings-to-take-effect"></a>ゲスト アクセス設定が有効になるまでのラグ タイム
 
-Azure Active Directory のゲストアクセスの設定では、Office 365 組織全体で変更が反映されるまでに、2-24 時間がかかります。 ユーザーがチームにゲストを追加しようとしたときに、"管理者に連絡してください" というメッセージが表示される場合は、ゲスト機能が有効になっていないか、設定がまだ有効になっていない可能性があります。 ゲストアクセスの設定の問題については、「 [Teams でのゲストアクセスのトラブルシューティング](troubleshoot-guest-access.md)」を参照してください。
+Azure Active Directory のゲスト アクセス設定については、変更が Office 365 組織全体に反映されるまでに 2 時間から 24 時間かかります。 ユーザーがチームにゲストを追加しようとするときに「Contact your administrator (管理者にお問い合わせください)」というメッセージが表示される場合、ゲスト機能がオンになっていないか、設定が有効になっていないかのいずれかの可能性があります。 ゲスト アクセスの設定の問題に関するヘルプについては、「[Teams でのゲスト アクセスのトラブルシューティング](troubleshoot-guest-access.md)」を参照してください。
 
   
 ## <a name="external-access-federation-vs-guest-access"></a>外部アクセス (フェデレーション) とゲスト アクセス

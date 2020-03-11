@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2fc4439b6e40aa29f538be461e75f672bcd82e41
-ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
+ms.openlocfilehash: ae9315c172bc88cb96d5071e4bddf7f2e82a0d9f
+ms.sourcegitcommit: a597b1572f1eca095144288446a2c038e5daa5f7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42559349"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42586704"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>遠隔学習向けに Microsoft Teams の使用を開始する。
 
@@ -32,7 +32,7 @@ ms.locfileid: "42559349"
 > - 教育活動での Teams の活用方法を説明する、Microsoft Educator Center の 1 時間のオンライン コースを受講できます。 [**Microsoft Teams を使用して学習を刷新する**](https://education.microsoft.com/course/9c9f5c11/overview)。
 > - Class Teams を使用した授業を教師向けに説明する、Microsoft Educator Center の 1 時間のオンライン コースを受講できます。 [**Class Teams を使用して協働学習環境を作る**](https://education.microsoft.com/course/b1e15cfc/overview)。
 > - 教師、生徒、保護者の方々は、[**Office 365 を使用した遠隔授業と遠隔学習**](https://aka.ms/RemoteLearningHelp)に関する追加のガイダンスをご覧いただけます。
-> - 保護者の方々は、[保護者向けのサポート ページ](https://support.office.com/article/remote-learning-with-office-365-guidance-for-parents-and-guardians-89d514f9-bf5e-4374-a731-a75d38ddd588?ui=en-US&rs=en-US&ad=US)で遠隔学習に関する詳細情報をご覧いただけます。
+> - 保護者の方々は、[保護者向けのサポート ページ](https://support.office.com/article/remote-learning-with-office-365-guidance-for-parents-and-guardians-89d514f9-bf5e-4374-a731-a75d38ddd588)で遠隔学習に関する詳細情報をご覧いただけます。
 
 2020 年 3 月 4 日のブログ記事「[Microsoft Teams を使用した遠隔学習プログラムを学校ですばやく立ち上げる方法](https://aka.ms/teamseduremoteblog)」もぜひご覧ください。
 
@@ -104,7 +104,7 @@ Teams の使用を開始するには、2 つの作業を行う必要がありま
 
 - [プライベート チャネルの作成] を [オフ] に設定
 
-**小学校の教職員**には、生徒に対しては制限されている、主要な機能を付与するポリシーを適用する必要があります。 プライベート チャットの作成および会議をスケジュール (新しいポリシーの既定の設定項目) を許可する新しいポリシーを作成します。 [これらのポリシーを、セキュリティ グループのメンバーシップ経由で教職員に適用します](assign-policies.md#assign-a-policy-to-a-group)。
+**小学校の教職員**には、生徒に対しては制限されている、主要な機能を付与するポリシーを適用する必要があります。 プライベート チャットの作成および会議をスケジュール (新しいポリシーの既定の設定項目) を許可する新しいポリシーを作成します。 [これらのポリシーを、セキュリティ グループのメンバーシップ経由で教職員に適用します](batch-policy-assignment-edu)。
 
 ## <a name="start-using-teams"></a>Teams の使用を開始する
 

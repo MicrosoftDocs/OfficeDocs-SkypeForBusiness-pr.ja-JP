@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: '[新しい Skype for Business 管理センターのレポート] 領域には、組織内の電話会議アクティビティと電話会議のアクティビティが表示されます。 ここでは、レポートを掘り下げて、各ユーザーのアクティビティについてより細かい洞察を得ることができます。 たとえば、Skype for Business での PSTN 使用状況の詳細レポートを使用して、通話の着信/発信に費やした分数とそれらの通話の料金を確認できます。 通話のコストなど、電話会議の PSTN 利用状況の詳細を表示して、組織内での使用状況を特定するために、使用状況を理解し、請求の詳細を呼び出すことができます。'
-ms.openlocfilehash: b76bd2f752b03e59143162261b37f311f1b38b64
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a489277eceaab533fc03ac7017dcc217b4071bc6
+ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706052"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42582884"
 ---
 # <a name="pstn-usage-report"></a>PSTN の使用状況レポート
 
@@ -71,8 +71,8 @@ ms.locfileid: "41706052"
      *    **user_out_forwarding** (PSTN 番号に通話を転送したユーザー)
 
      **電話会議の通話の種類**
-     *    **conf_in** (電話会議ブリッジへの着信通話) 
-     *    **conf_out** (通常は電話会議に PSTN 番号を追加するための電話会議ブリッジからの発信通話)
+     *    **conf_in** (電話会議ブリッジへの着信通話) この種類の通話のレコードの場合、[**ユーザー ID** ] 列に指定されたユーザーは、会議の開催者に対応しています。
+     *    **conf_out** (通常は電話会議に PSTN 番号を追加するための電話会議ブリッジからの発信通話) この種類の通話のレコードの場合、[**ユーザー ID** ] 列に指定されたユーザーは、会議の開催者に対応しています。
 
      **統合コミュニケーション アプリケーション (UCAP)** 
      *    **ucap_in** (自動応答や通話キューなどの UC アプリケーションへの着信 PSTN 通話) 
@@ -94,12 +94,13 @@ ms.locfileid: "41706052"
      *    **MCOPSTN6** -国内通話プラン (240 分間通話プラン) 注: 利用制限
      *    **MCOMEETADD** -電話会議
      *    **MCOMEETACPEA** -1 分あたりの通話料金電話会議
+     
 > [!NOTE]
 > 通話または会議サブスクリプションに含まれていない1分あたりの通話のみを含めるレポートを実行する場合は、機能 "MCOPSTNPP" を使用してレポートをフィルター処理します。 これにより、1分あたりの通話料金の明細が提供されます。  1分あたりの通話料金の場合は、"MCOPSTNPP" の代わりに "MCOMEETACPEA" でフィルター処理します。  
-***
+
 > [!NOTE]
 > 一部のフィールドに "データなし" と表示されることもあります。 "データなし" は、このフィールドが通話の種類または機能に適用されないことを意味します。 
-***
+
 > [!NOTE]
 > Telstra 通話プランをお持ちの場合は、PSTN 使用状況レポートに通話の詳細レコードは表示されません。 レポートのニーズについては、Telstra にお問い合わせください。 
 ***
@@ -125,7 +126,7 @@ ms.locfileid: "41706052"
 
 - [Skype For business セッションの詳細レポート](session-details-report.md)個々のユーザの通話エクスペリエンスについての詳細を見ることができます。
     
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [管理センターでのアクティビティレポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
   
   

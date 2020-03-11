@@ -1,5 +1,5 @@
 ---
-title: Office 365 の電話システムとは何ですか?
+title: Office 365 の電話システムとは
 ms.reviewer: ''
 author: CarolynRowe
 ms.author: crowe
@@ -22,53 +22,53 @@ ms.custom:
 description: 電話システムでできることについて説明します。
 ms.openlocfilehash: 398b1e159a54da21ca83ced5014f54d758420c2d
 ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 02/06/2020
 ms.locfileid: "41836657"
 ---
-# <a name="what-is-phone-system-in-office-365"></a>Office 365 の電話システムとは何ですか?
+# <a name="what-is-phone-system-in-office-365"></a>Office 365 の電話システムとは
 
-構内交換機 (PBX) は、社内の電話システムです。 Office 365 の電話システムでは、PBX 機能が提供されますが、複雑で高価な機器は必要ありません。 
+構内交換機 (PBX) は、社内の電話システムです。 Office 365 の電話システムは PBX 機能を提供しますが、複雑で高価なデバイスは必要ありません。 
 
-電話システムを使うと、既存のオンプレミス PBX システムを、クラウドエクスペリエンスに密接に統合される Office 365 から提供された一連の機能と置き換えることができます。 機能の詳細については、「 [Office 365 の電話システムで利用できる](here-s-what-you-get-with-phone-system.md)機能」を参照してください。
+電話システムを利用すると、既存のオンプレミス PBX システムを、お客様のクラウド エクスペリエンスと緊密に連携している Office 365 で提供される機能セットに置き換えることができます。 機能の詳細については、「[Office 365 の電話システムで利用できる機能](here-s-what-you-get-with-phone-system.md)」を参照してください。
 
-## <a name="phone-system-technology"></a>電話システムテクノロジ
+## <a name="phone-system-technology"></a>電話システム テクノロジ
 
-電話システムでは、Microsoft Teams と Skype for Business Online を使用して、Office 365 クラウドでの通話管理および PBX 機能を使用できます。 
+電話システムでは、Microsoft Teams と Skype for Business Online を使用して、Office 365 クラウドでの通話コントロール機能と PBX 機能を有効にします。 
   
-電話システムを使うと、ユーザーはチームまたは Skype for Business Online を使って、通話の発信、着信の転送、通話の転送、ミュートまたはミュート解除を行うことができます。 電話システムのユーザーは、アドレス帳の名前をクリックして、チームまたは Skype for Business Online の通話をそのユーザーに対して行うことができます。 電話システムのユーザーは、通話の発信と受信を行うために、モバイルデバイス、ラップトップまたは PC のヘッドセット、または Teams や Skype for Business Online で動作する多くの IP 電話のいずれかを使用できます。 電話システム管理者は、メッセージング、グループ作業などで使用するのと同じ本体から、通話オプションと設定を管理できます。
+電話システムを使うと、ユーザーは Teams や Skype for Business Online を使用して、通話の発信と着信、通話の転送、ミュートの設定や解除を行うことができます。 電話システム ユーザーがアドレス帳の名前をクリックすると、Teams や Skype for Business Online によってその連絡先に通話が発信されます。 電話システムのユーザーは、Teams や Skype for Business Online で利用できるモバイル デバイス、ノート PC や PC のヘッドセット、さまざまな IP 電話を使って、通話の発信と受信を行うことができます。 電話システムの管理者は、メッセージや共同作業などで使用されるのと同じコンソールから通話オプションと設定を管理できます。
   
-組織内のユーザー間の通話は、電話システム内で内部的に処理されるため、公衆交換電話網 (PSTN) には決してアクセスしません。 これは、地理的に離れた組織内のユーザー間の通話に適用され、これらの内部通話での長距離のコストを削減します。
+組織内のユーザー間の通話は電話システムの内部で処理され、公衆交換電話網 (PSTN) に流れることは決してありません。 これは、地理的にさまざまな場所にいる組織内のユーザー間の通話にも当てはまるため、このような長距離の社内通話にかかるコストが解消されます。
 
-組織外への通話には、電話システムを公衆交換電話網 (PSTN) に接続するための複数のオプションが用意されています。
+Microsoft では、組織外との通話のために、電話システムを公衆交換電話網 (PSTN) に接続するオプションを複数提供しています。
 
-## <a name="connect-to-the-public-switched-telephone-network-pstn"></a>公衆交換電話網 (PSTN) に接続する
+## <a name="connect-to-the-public-switched-telephone-network-pstn"></a>公衆交換電話網 (PSTN) への接続
   
-電話システムは、次の2つの方法のいずれかで PSTN に接続できます。
+電話システムを PSTN に接続するには、次の 2 つの方法があります。
   
-- Office 365 の Microsoft 通話プラン (国内または国内および国際) を購入します。 Microsoft 通話プランは、Microsoft の PSTN キャリアとしてのクラウドのオールインワンソリューションです。 詳細については、「[電話システムと通話プラン](calling-plan-landing-page.md)」を参照してください。
+- Office 365 の Microsoft 通話プラン (国内、国内および国際) を購入します。 Microsoft 通話プランは、PSTN キャリアとしての Microsoft が提供するオール イン ザ クラウド ソリューションです。 詳細については、「[電話システムと通話プラン](calling-plan-landing-page.md)」を参照してください。
 
-- オンプレミスの PSTN 接続には既存のテレフォニーインフラストラクチャを使います。
+- オンプレミスの PSTN 接続には、既存のテレフォニー インフラストラクチャを使用します。
 
-  Teams ユーザーの場合は、ダイレクトルーティングを使用して、オンプレミスのテレフォニーインフラストラクチャを電話システムに接続できます。 詳細については、「[電話システムのダイレクト ルーティング](direct-routing-landing-page.md)」を参照してください。
+  Teams ユーザーのために、ダイレクト ルーティングを使用して、オンプレミスのテレフォニー インフラストラクチャを電話システムに接続できます。 詳細については、「[電話システムのダイレクト ルーティング](direct-routing-landing-page.md)」を参照してください。
 
-  すべての Microsoft テレフォニーソリューションの詳細については、「 [microsoft telephony ソリューション](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)」を参照してください。
+  Microsoft テレフォニー ソリューションの詳細については、「[Microsoft テレフォニー ソリューション](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)」を参照してください。
 
 
-## <a name="phone-system-with-services"></a>サービスが搭載された電話システム
+## <a name="phone-system-with-services"></a>電話システムとサービス
 
  電話システムは、次のようなサービスやボイスメールに使用できます。
 
-- **自動応答**-自動応答を使うと、外部および内部の発信者がシステム内を移動して、組織の会社のユーザーや部署に通話を配置したり、転送したりできるように、組織のメニューシステムを作成することができます。 「[クラウド自動応答とは何ですか?」を](what-are-phone-system-auto-attendants.md)参照してください。
+- **自動応答** -  自動応答を使用して、組織のメニュー システムを作成できます。外部および内部の発信者はこのシステムを介して組織内の企業ユーザーまたは部門を特定し、通話の発信および転送を行うことができます。 「[クラウド自動応答とは](what-are-phone-system-auto-attendants.md)」を参照してください。
 
-- **通話キュー** -通話キュー応答メッセージは、組織の電話番号に通話を発信するときに使用できます。 このようなあいさつ文には、通話を保留にする機能と、通話相手が保留中のときに通話を処理する次の通話エージェントを検索する機能があります。 組織用に1つまたは複数の通話キューを作成することができます。 「[クラウド通話キューを作成する」を](create-a-phone-system-call-queue.md)ご覧ください。
+- **通話キュー** -  外部から組織の電話番号に電話が掛かってきた場合に、通話キュー応答メッセージを使用できます。 この応答メッセージには、通話を保留にする機能と、通話相手が保留の音楽を聴いている間に、次に用件を担当できる通話エージェントを検索する機能が含まれています。 組織では単一または複数の通話キューを作成できます。 「[クラウドの通話キューを作成する](create-a-phone-system-call-queue.md)」を参照してください。
 
-- **ボイスメール**-ユーザーの電話システムのライセンスを取得すると、そのユーザーは、発信者によって残っていたボイスメールを取得できます。 電話システムのライセンスと電話番号を割り当てた後は、クラウドボイスメールが自動的に設定され、ユーザーに提供されます。 「[クラウドボイスメールの設定」を](set-up-phone-system-voicemail.md)ご覧ください。
+- **ボイスメール** -  ユーザーのために電話システムのライセンスを取得すると、そのユーザーは、発信者が残したボイスメールを受信できます。 クラウド ボイスメールが自動的にセットアップされ、ユーザーに電話システム ライセンスと電話番号を割り当てるとプロビジョニングされます。 「[クラウド ボイスメールのセットアップ](set-up-phone-system-voicemail.md)」を参照してください。
 
-機能の詳細については、「 [Office 365 の電話システムで利用できる](here-s-what-you-get-with-phone-system.md)機能」を参照してください。 作業を始める準備ができたら、「[組織で電話システム](setting-up-your-phone-system.md)をセットアップする」を参照してください。
+機能の詳細については、「[Office 365 の電話システムで利用できる機能](here-s-what-you-get-with-phone-system.md)」を参照してください。 作業を開始する準備ができたら、「[組織で電話システムをセットアップする](setting-up-your-phone-system.md)」を参照してください。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [電話システムの機能](here-s-what-you-get-with-phone-system.md)
 - [Microsoft Teams での Cloud Voice](cloud-voice-landing-page.md)

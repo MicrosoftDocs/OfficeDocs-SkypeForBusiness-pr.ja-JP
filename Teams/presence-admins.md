@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: rakayala
-description: Teams のプレゼンスに関する管理者向けの情報です。
+description: Teams でのプレゼンスに関する管理者向け情報。
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -18,66 +18,66 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 7e0d7ef2fa7ae12f660bf6b77ba7c45a8c49ab10
 ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 02/08/2020
 ms.locfileid: "41863198"
 ---
 # <a name="user-presence-in-teams"></a>Teams でのユーザーのプレゼンス
 
-プレゼンスは、Microsoft Teams (および Office 365 全体) のユーザーのプロファイルの一部であり、ユーザーの現在の可用性と他のユーザーの状態を示します。 既定では、他のユーザーがオンラインで利用できる場合、チームを使っているすべてのユーザーに (ほぼリアルタイムで) 表示できます。
+プレゼンスは、Microsoft Teams (および Office 365 全体) のユーザーのプロファイルの一部であり、ユーザーの現在の空き状況や状態を他のユーザーに示します。 既定では、組織内で Teams を使用しているすべてのユーザーは、他のユーザーがオンラインの場合、(ほぼリアルタイムで) 確認できます。
 
 > [!IMPORTANT]
 > ユーザーを [**Teams のみ**] モードに移動した後に Skype for Business クライアントをアンインストールすると、Outlook および Office アプリでプレゼンスが機能しなくなります。 プレゼンスは Teams では正常に機能します。 回避策: Outlook (および他の Office アプリ) でプレゼンスを表示させるには、Teams を [**Teams のみ**] モードで実行している場合であっても、Skype for Business をインストールする必要があります。 Microsoft はこの問題を把握しており、現在修正に向けて取り組んでいます。
 
 Outlook での Teams のプレゼンスは、Outlook 2013 デスクトップ版アプリ以降でサポートされています。
 
-## <a name="presence-states-in-teams"></a>Teams のプレゼンス状態
+## <a name="presence-states-in-teams"></a>Teams でのプレゼンス状態
 
 Teams で利用できるユーザーのプレゼンス状態は次のとおりです。
 
-|ユーザー構成済み|構成済みのアプリ|
+|ユーザーが設定|アプリが設定|
 |:--- |:---|
-| ![正常に機能していることを示す緑色のチェックマーク](media/Presence_Available.png) 利用可能|![正常に機能していることを示す緑色のチェックマーク](media/Presence_Available.png) 利用可能|
-|| ![使用可能な oof を示す緑のチェックマークを開く](media/Presence_Available_OOF.png) 利用可能、外出中 |
-|  ![赤い丸で塗りつぶし、取り込み中](media/Presence_Busy.png) 少ない |  ![赤い丸で塗りつぶし、取り込み中](media/Presence_Busy.png) 少ない  |
-|| !["通話中" であることを示す赤色の丸](media/Presence_Busy.png) 通話中|
-|| ![赤い丸で囲まれるので、会議中に取り込み中であることを示します。](media/Presence_Busy.png) 会議中 |
-|| ![赤い丸で囲まれる、取り込み中であることを示す](media/Presence_Busy_OOF.png) 通話中、外出中|
-|  ![白の丸で囲まれた赤い円。 [応答不可] を示します。](media/Presence_DND.png) 応答不可 ||
-|| ![赤い円に白線を付け、プレゼンテーションを示します。](media/Presence_DND.png) 発表|
-|| ![赤の丸 (白の線) は、フォーカスがあることを示します。](media/Presence_DND.png) 焦点|
-| ![黄色の時計アイコン。退席中であることを示します。](media/Presence_Away.png) 位置| ![黄色の時計アイコン。退席中であることを示します。](media/Presence_Away.png) 位置|
-|| ![黄色の時計アイコン。 [](media/Presence_Away.png)最終版]*が表示さ*れていないことを示します。|
-|![黄色の時計アイコン。退席中として表示されます。](media/Presence_Away.png) 一時退席中| |
-|| ![黄色の時計アイコン、[退席中]、[勤務停止]](media/Presence_Away.png)  業務時間外|
-|| ![灰色の丸と x (x、オフラインを示す)](media/Presence_Offline.png) で |
-|| ![灰色の円を開く、状態が不明であることを示す](media/Presence_Unknown.png) 状態不明|
-||![四角で囲まれた赤い円を開き、ブロックされていることを示します。](media/Presence_Blocked.png) ブロックされました |
-|| ![矢印付き紫色の円は、外出中であることを示します。](media/Presence_OOF.png) 外出中|
+| ![塗りつぶした緑のチェックマークは、連絡可能な状態を示す](media/Presence_Available.png) 連絡可能|![塗りつぶした緑のチェックマークは、連絡可能な状態を示す](media/Presence_Available.png) 連絡可能|
+|| ![緑枠のチェックマークは、連絡可能な外出中の状態を示す](media/Presence_Available_OOF.png) 連絡可能、外出中 |
+|  ![塗りつぶした赤い丸は、取り込み中を示す](media/Presence_Busy.png) 取り込み中 |  ![塗りつぶした赤い丸は、取り込み中を示す](media/Presence_Busy.png) 取り込み中  |
+|| ![塗りつぶした赤い丸は、通話のための取り込み中を示す](media/Presence_Busy.png) 通話中|
+|| ![塗りつぶした赤い丸は、会議のための取り込み中を示す](media/Presence_Busy.png) 会議中 |
+|| ![赤枠の丸は、取り込み中を示す](media/Presence_Busy_OOF.png) 通話中、外出中|
+|  ![白線の入った赤い丸は、応答不可を示す](media/Presence_DND.png) 応答不可 ||
+|| ![白線の入った赤い丸は、発表中を示す](media/Presence_DND.png) 発表中|
+|| ![白線の入った赤い丸は、フォーカスを示す](media/Presence_DND.png) フォーカス|
+| ![黄色の時計アイコンは、退席中を示す](media/Presence_Away.png) 退席中| ![黄色の時計アイコンは、退席中を示す](media/Presence_Away.png) 退席中|
+|| ![黄色の時計アイコンは、退席中を示す*前回の退席中表示](media/Presence_Away.png)時刻*|
+|![黄色の時計アイコンは、一時退席中を示す](media/Presence_Away.png) 一時退席中| |
+|| ![黄の時計アイコンは、退席中、業務時間外を示す](media/Presence_Away.png)  業務時間外|
+|| ![X マーク付き灰色の丸は、オフラインを示す](media/Presence_Offline.png) オフライン |
+|| ![灰色枠の丸は、状態不明を示す](media/Presence_Unknown.png) 状態不明|
+||![斜線の入った赤枠の丸は、ブロックされたことを示す](media/Presence_Blocked.png) ブロックされました |
+|| ![矢印付き紫色の丸は、外出中を示す](media/Presence_OOF.png) 外出中|
 |||
  
-ユーザーは、現在のプレゼンス状態をいくつかのオプションに手動で設定することができ、その状態は他のすべてのユーザーに反映されます。 その他のユーザーのプレゼンス情報も自動的に更新されます。 変更は、ユーザーのアクティビティ (利用可能、退席中)、Outlook の予定表の状態 (会議中)、またはチームアプリの状態 (通話中、発表中) に基づいて、一覧でインデントされた状態に基づいて行われます。 現在のプレゼンス状態が [退席中] にリセットされるまでの15分間のアイドル時間のタイムアウトがあります。
+ユーザーは、現在のプレゼンス状態をいくつかのオプションから手動で設定できます。その状態が他のすべてのユーザーに対して表示されます。 ユーザーのプレゼンスの他の詳細情報も自動的に更新されます。 ユーザーのアクティビティ (連絡可能、退席中)、Outlook カレンダーの状態 (会議中)、Teams アプリの状態 (通話中、発表中) などに基づいて、このリストの右側の状態に変更されます。 15 分間休止状態が続くとタイムアウトが発生し、現在のプレゼンス状態は「退席中」にリセットされます。
 
-ユーザーには、プレゼンス状態に関係なく、すべてのチャットメッセージが Teams で送信されます。 他のユーザーがメッセージを送信したときにユーザーがオフラインになっている場合は、次回ユーザーがオンラインになったときに、Teams にチャットメッセージが表示されます。 ユーザーが [応答不可] 状態にある場合でも、ユーザーはチャットメッセージを受け取りますが、バナー通知は表示されません。
+プレゼンス状態に関係なく、ユーザーは、Teams で送信されたすべてのチャット メッセージを受信します。 他者がメッセージを送信したときにユーザーがオフラインだった場合は、次回ユーザーがオンラインになったときに Teams にチャット メッセージが表示されます。 「応答不可」状態にある場合でもユーザーはチャット メッセージを受信できますが、バナー通知は表示されません。
 
-ユーザーは、[応答不可] 状態 (着信通話がボイスメールに配信される) を除き、すべてのプレゼンス状態で通話を受信します。 受信者が発信者をブロックした場合、通話は配信されず、発信者には受信者のプレゼンスがオフラインとして表示されます。
+ユーザーは、「応答不可」状態 (着信呼び出しがボイスメールに配信される) を除き、すべてのプレゼンス状態で通話を受信します。 受信者が発信者をブロックした場合、通話は配信されず、発信者には受信者のプレゼンスが「オフライン」と表示されます。
 
-ユーザーを優先順位の高いアクセスリストに追加するには、Teams の [**設定** > ]**プライバシー**に移動します。 ユーザーが [応答不可] の状態にある場合でも、アクセス権が付与されているユーザーに連絡できます。
+ユーザーを優先順位の高いアクセス リストに追加するには、Teams の **[設定]** > **[プライバシー]** に移動します。 ユーザーが「応答不可」状態にある場合でも、優先アクセス権が付与されている発信者は、ユーザーと連絡を取ることができます。
 
-## <a name="admin-settings-in-teams-compared-to-skype-for-business"></a>Skype for Business と比較した場合のチームの管理設定
+## <a name="admin-settings-in-teams-compared-to-skype-for-business"></a>Skype for Business と Teams の管理設定の比較
 
-Skype for Business の次の管理設定は、Teams では異なります。
+Skype for Business と Teams では、次の管理設定が異なります。
 
-- Teams では、組織内のユーザーに対してプレゼンス共有が常に有効になります。 プライバシー (プレゼンスを表示できるユーザーを定義した場合) 構成は Teams では利用できません。
-- すべてのユーザー (フェデレーションサービスを含む) とのプレゼンスの共有は、Teams のユーザーに対して常に有効になっています。 連絡先リスト (Skype for Business に含まれている場合) は、**チャット >** の [連絡先] または [ **> の連絡先**への通話] の下に表示されます。
-- クライアントが応答不可であり、チーム内のユーザーに対して画期的な機能が常に有効になります。
-- 予定表 (不在およびその他の予定表情報が含まれています) は、Teams が Outlook と統合されている場合、ユーザーに対して常に有効になります。
-- 組織で Skype for Business が使用されている場合、[*最終表示*または*退席後*の状態の後、チームのユーザーは常に有効になります。
+- Teams では、組織内ユーザーに対してプレゼンス共有が常に有効になります。 プライバシー (プレゼンスを表示できるユーザーを定義する) 構成は、Teams では利用できません。
+- すべてのユーザー (フェデレーション サービスを含む) とのプレゼンス共有は、Teams ユーザーに対して常に有効になっています。 連絡先リスト (Skype for Business に含まれている場合) は、**[チャット] > [連絡先]** または **[通話] > [連絡先]** で表示できます。
+- クライアントの「応答不可」と「重要な連絡先」機能は、Teams ユーザーに対して常に有効になっています。
+- カレンダー (不在およびその他のカレンダー情報を含む) は、Teams が Outlook と統合されている場合、ユーザーに対して常に有効になっています。
+- 組織で Skype for Business を使用している場合は、*[最終ログイン]* または *[退席中]* インジケータ―が、Teams ユーザーに対して常に有効になっています。
 
 > [!NOTE]
-> チーム管理者がこれらの設定をカスタマイズできるかどうかは、現在サポートされていません。
+> Teams 管理者がこれらの設定をカスタマイズする機能は、現在サポートされていません。
 
-## <a name="coexistence-with-skype-for-business"></a>Skype for Business と共存する
+## <a name="coexistence-with-skype-for-business"></a>Skype for Business との共存
 
-組織で Skype for business を使用している場合の Teams の機能の詳細については、「 [skype For business との共存](coexistence-chat-calls-presence.md)」を参照してください。
+組織で Skype for business も使用している場合の Teams のプレゼンス機能の詳細については、「[Skype for Business との共存](coexistence-chat-calls-presence.md)」を参照してください。
