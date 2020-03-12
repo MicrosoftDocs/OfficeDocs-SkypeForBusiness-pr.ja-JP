@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 474a5e4a-9479-4e86-8607-b9f41a0fa648
 description: このトピックでは、Skype for Business Server 2015 (2015 年11月の累積的な更新プログラム) で共有回線の外観 (SLA) を展開する方法について説明します。 SLA は、共有番号と呼ばれる特定の番号で複数の通話を処理するための機能です。
-ms.openlocfilehash: 2009b313b343d9746f3eeff5f53fec4899c2f9a3
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 6ad7d6fca40975990fdd6f6ed01bbb89c185e9e7
+ms.sourcegitcommit: a34a827dfdad05b281e2e5ec5a80fc4e67fc89e2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42129310"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42604224"
 ---
 # <a name="deploy-shared-line-appearance-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での共有線の外観の展開
 
@@ -41,7 +41,7 @@ ms.locfileid: "42129310"
     a. 各プールに対して次のコマンドを実行して、SLA をサーバーアプリケーションとして登録します。
 
    ```powershell
-   New-CsServerApplication -Identity 'Service:Registrar:%FQDN%/SharedLineAppearance' -Uri   https://www.microsoft.com/LCS/SharedLineAppearance -Critical $false -Enabled                $true -Priority (Get-CsServerApplication -Identity              'Service:Registrar:%FQDN%/UserServices').Priority
+   New-CsServerApplication -Identity 'Service:Registrar:%FQDN%/SharedLineAppearance' -Uri   http://www.microsoft.com/LCS/SharedLineAppearance -Critical $false -Enabled $true -Priority (Get-CsServerApplication -Identity  'Service:Registrar:%FQDN%/UserServices').Priority
    ```
 
    ここで、% FQDN% はプールの完全修飾ドメイン名です。
@@ -132,7 +132,7 @@ ms.locfileid: "42129310"
   Remove-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate <NameOfDelegate@domain>
   ```
 
-    次に例を示します。
+    以下に例を示します。
 
   ```powershell
   Remove-CsSlaDelegates -Identity SLAGroup1 -Delegate sip:SLA_Delegate3@contoso.com
