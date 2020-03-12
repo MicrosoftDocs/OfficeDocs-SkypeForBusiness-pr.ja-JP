@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: バッチポリシーの割り当てを使用して、リモート学校 (teleschool、tele) の目的で、教育機関の多数のユーザーにポリシーを割り当てる方法について説明します。
 f1keywords: ''
-ms.openlocfilehash: e95c6b035298ce583a0ad34a030f2086b7c12ff3
-ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
+ms.openlocfilehash: 79c36aa0e2a7a2d310756d052b8962daeaa38634
+ms.sourcegitcommit: a34a827dfdad05b281e2e5ec5a80fc4e67fc89e2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42583359"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42604304"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>学校の大規模なユーザーセットにポリシーを割り当てる
 
@@ -42,14 +42,14 @@ ms.locfileid: "42583359"
 
 ## <a name="connect-to-the-azure-ad-powershell-for-graph-module-and-the-teams-powershell-module"></a>Azure AD PowerShell for Graph モジュールと Teams PowerShell モジュールに接続する
 
-この記事の手順を実行する前に、Graph モジュール用の Azure AD PowerShell (割り当てられているライセンスによってユーザーを識別するため) と、プレリリース版の Microsoft Teams PowerShell モジュール (ポリシーを割り当てるため) にインストールして接続する必要があります。ユーザー)。
+この記事の手順を実行する前に、Graph モジュール用の Azure AD PowerShell (割り当てられているライセンスによってユーザーを識別する) と Microsoft Teams PowerShell モジュール (これらのユーザーにポリシーを割り当てる) をインストールして接続する必要があります。
 
 ### <a name="install-and-connect-to-the-azure-ad-powershell-for-graph-module"></a>Graph モジュール用 Azure AD PowerShell にインストールして接続する
 
 昇格された Windows PowerShell コマンドプロンプト (管理者として Windows PowerShell を実行) を開き、次のコマンドを実行して、Azure Active Directory PowerShell for Graph モジュールをインストールします。
 
 ```powershell
-Install-Module AzureAD
+Install-Module -Name AzureAD
 ```
 
 Azure AD に接続するには、次を実行します。
@@ -60,11 +60,15 @@ Connect-AzureAD
 
 メッセージが表示されたら、管理者の資格情報を使用してサインインします。
 
-詳細については、「 [Graph の Azure Active Directory PowerShell で接続](https://docs.microsoft.com/eoffice365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)する」を参照してください。
+詳細については、「 [Graph の Azure Active Directory PowerShell で接続](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)する」を参照してください。
 
-### <a name="install-and-connect-to-the-pre-release-version-of-the-teams-powershell-module"></a>Teams PowerShell モジュールのプレリリース版をインストールして接続する
+### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Microsoft Teams PowerShell モジュールをインストールして接続する
 
-必要なコマンドレットは、Teams PowerShell モジュールのプレリリースバージョンに含まれています。 「 [Microsoft Teams powershell モジュールをインストールして接続](assign-policies.md#install-and-connect-to-the-microsoft-teams-powershell-module)する」の手順に従って、最初に使用可能なバージョンの teams powershell モジュール (インストールされている場合) をアンインストールしてから、PowerShell テストギャラリーから最新のプレリリース版のモジュールをインストールします。
+[Microsoft Teams PowerShell モジュール](https://www.powershellgallery.com/packages/MicrosoftTeams)をインストールするには、次を実行します。 バージョン1.0.5 以降をインストールしていることを確認してください。
+
+```powershell
+Install-Module -Name MicrosoftTeams
+```
 
 Teams に接続してセッションを開始するには、次を実行します。
 
@@ -102,7 +106,7 @@ ee1a846c-79e9-4bc3-9189-011ca89be890_46c119d4-0379-4a9d-85e4-97c66d3f909e M365ED
 次に、このライセンスを所有しているユーザーを特定し、それらをすべてまとめて収集するために、次の処理を実行します。
 
 ```powershell
-$faculty = Get-AzureADUser -All $true | Where-Object (($_.assignedLicenses).SkuId -contains “e97c048c-37a4-45fb-ab50-922fbf07a370”)
+$faculty = Get-AzureADUser -All $true | Where-Object (($_.assignedLicenses).SkuId -contains "e97c048c-37a4-45fb-ab50-922fbf07a370")
 ```
 
 ## <a name="assign-a-policy-in-bulk"></a>ポリシーをまとめて割り当てる

@@ -16,17 +16,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams でユーザーにポリシーを割り当てるさまざまな方法について説明します。
 f1keywords: ''
-ms.openlocfilehash: cb1c5fd43379388327de5e517409f01f7f52ed1b
-ms.sourcegitcommit: d7be89019dd5a3b88b0840bddf1b88fea8598ea7
+ms.openlocfilehash: e9f31f9bf9d08497b58490ddc7a7bea9e0496539
+ms.sourcegitcommit: a34a827dfdad05b281e2e5ec5a80fc4e67fc89e2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42170763"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42604294"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Microsoft Teams でユーザーにポリシーを割り当てる
 
 > [!NOTE]
-> **この記事で説明されている Microsoft Teams の機能の2つに、[グループへ](#assign-a-policy-to-a-group)の[バッチポリシーの割り当て](#assign-a-policy-to-a-batch-of-users)とポリシーの割り当てが現在プレビュー中です。**
+> **この記事で説明されている Microsoft Teams の機能の1つである[グループへのポリシーの割り当て](#assign-a-policy-to-a-group)は、現在プレビュー中です。**
 
 管理者は、ポリシーを使って、組織内のユーザーが利用できる Teams 機能を制御することができます。 たとえば、通話ポリシー、会議ポリシー、メッセージポリシーなどは、ほんの少しだけ名前にします。
 
@@ -64,7 +64,7 @@ ms.locfileid: "42170763"
 |---------|---------|----|
 |[個々のユーザーにポリシーを割り当てる](#assign-a-policy-to-individual-users)    | チームを初めて使い始めたり、少数のユーザーに1つまたはいくつかのポリシーを割り当てる必要があります。 |Skype for Business Online PowerShell モジュールの Microsoft Teams 管理センターまたは PowerShell コマンドレット
 | [ポリシーパッケージを割り当てる](#assign-a-policy-package)   | 同じロールまたは類似のロールを持つ組織内の特定のユーザーのセットに、複数のポリシーを割り当てる必要があります。 たとえば、学校の教師に教育 (教師) ポリシーパッケージを割り当てることで、チャット、通話、会議、および教育 (第2章の学校) ポリシーパッケージへのフルアクセスを許可し、次のような機能を制限することができます。プライベート通話。  |Teams PowerShell モジュールの Microsoft Teams 管理センターまたは PowerShell コマンドレット|
-|[ユーザーのバッチにポリシーを割り当てる](#assign-a-policy-to-a-batch-of-users)(プレビュー中)   | 多数のユーザーにポリシーを割り当てる必要があります。 たとえば、組織内の数百または数千のユーザーに一度にポリシーを割り当てる必要があるとします。  |Teams PowerShell モジュールの PowerShell コマンドレット|
+|[ユーザーのバッチにポリシーを割り当てる](#assign-a-policy-to-a-batch-of-users)   | 多数のユーザーにポリシーを割り当てる必要があります。 たとえば、組織内の数百または数千のユーザーに一度にポリシーを割り当てる必要があるとします。  |Teams PowerShell モジュールの PowerShell コマンドレット|
 |[グループにポリシーを割り当てる](#assign-a-policy-to-a-group)(プレビュー中)   |ユーザーのグループメンバーシップに基づいてポリシーを割り当てる必要があります。 たとえば、セキュリティグループまたは組織単位のすべてのユーザーにポリシーを割り当てる必要があるとします。| Teams PowerShell モジュールの PowerShell コマンドレット|
 | ユーザーのバッチにポリシーパッケージを割り当てる (近日公開) |||
 | グループにポリシーパッケージを割り当てる (近日公開)   | ||
@@ -77,18 +77,18 @@ ms.locfileid: "42170763"
 
 ユーザーにポリシーを割り当てるには、次の操作を行います。
 
-1. Microsoft Teams 管理センターの左側のナビゲーションで、**[ユーザー]** に移動してユーザーをクリックします。
-2. ユーザー名の左側をクリックしてユーザーを選び、[**設定の編集**] をクリックします。
+1. Microsoft Teams 管理センターの左側のナビゲーションで、[**ユーザー**] に移動してユーザーをクリックします。
+2. ユーザー名の左側をクリックしてユーザーを選択し、[**編集を設定する**] をクリックします。
 3. 割り当てるポリシーを選択し、[**適用**] をクリックします。
 
 一度に最大20人のユーザーにポリシーを割り当てるには、「 [Teams のユーザー設定を一括](edit-user-settings-in-bulk.md)して編集する」を参照してください。
 
-または、次の操作も行うことができます。
+または、次の操作も実行できます。
 
 1. Microsoft Teams 管理センターの左側のナビゲーションで、[ポリシー] ページに移動します。
 2. ポリシー名の左側をクリックして、割り当てるポリシーを選択します。
-3. [**ユーザーの管理**] を選びます。
-4. [**ユーザーの管理**] ウィンドウで、[表示名] または [ユーザー名] でユーザーを検索し、名前を選択して [**追加**] を選択します。 追加するユーザーごとに、この手順を繰り返します。
+3. **[ユーザーを管理]** を選択します。
+4. **[ユーザーを管理]** ウィンドウで、表示名またはユーザー名でユーザーを検索し、名前を選択して **[追加]** を選びます。 追加するユーザーごとに、この手順を繰り返します。
 5. ユーザーの追加が完了したら、[**保存**] を選択します。
 
 ### <a name="using-powershell"></a>PowerShell を使用する場合
@@ -121,8 +121,6 @@ Teams のポリシーパッケージは、組織内で同じまたは類似の�
 ポリシーパッケージの詳細については、「[チームで](manage-policy-packages.md)ポリシーパッケージを管理する」を参照してください。
 
 ## <a name="assign-a-policy-to-a-batch-of-users"></a>ユーザーのバッチにポリシーを割り当てる
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
  
 バッチポリシーが割り当てられている場合は、スクリプトを使わずに、一度に多くのユーザーにポリシーを割り当てることができます。 ```New-CsBatchPolicyAssignmentOperationd```コマンドレットを使用して、ユーザーと割り当てるポリシーのバッチを送信します。 割り当てはバックグラウンド操作として処理され、各バッチに対して操作 ID が生成されます。 その後、 ```Get-CsBatchPolicyAssignmentOperation```コマンドレットを使用して、バッチ内の課題の進捗状況と状態を追跡することができます。
 
@@ -133,25 +131,10 @@ Teams のポリシーパッケージは、組織内で同じまたは類似の�
 
 ### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Microsoft Teams PowerShell モジュールをインストールして接続する
 
-> [!NOTE]
-> コマンドレットは、Teams PowerShell モジュールのプレリリースバージョンに含まれています。 次の手順に従って、最初に使用できるバージョンの Teams PowerShell モジュールをアンインストールし (インストールされている場合)、PowerShell テストギャラリーから最新のプレリリース版のモジュールをインストールします。
-
-まだインストールしていない場合は、次のように実行して、PowerShell テストギャラリーを信頼できるソースとして登録します。
+[Microsoft Teams PowerShell モジュール](https://www.powershellgallery.com/packages/MicrosoftTeams)をインストールするには、次を実行します。 バージョン1.0.5 以降をインストールしていることを確認してください。
 
 ```powershell
-Register-PSRepository -SourceLocation https://www.poshtestgallery.com/api/v2 -Name PsTestGallery -InstallationPolicy Trusted
-```
-
-一般的な Teams PowerShell モジュールのバージョンがインストールされている場合は、次のように実行してアンインストールします。
-
-```powershell
-Uninstall-Module MicrosoftTeams -AllVersions
-```
-
-次を実行して、PowerShell テストギャラリーから最新の Microsoft Teams PowerShell モジュールをインストールします。
-
-```powershell
-Install-Module MicrosoftTeams -Repository PSTestGallery
+Install-Module -Name MicrosoftTeams
 ```
 
 Teams に接続してセッションを開始するには、次を実行します。
@@ -388,6 +371,6 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity daniel@contoso.com -PolicyName $nu
 New-CsBatchPolicyAssignmentOperation -OperationName "Assigning null at bulk" -PolicyType TeamsMeetingBroadcastPolicy -PolicyName $null -Identity $users  
 ```
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [Teams での PowerShell の概要](teams-powershell-overview.md)
