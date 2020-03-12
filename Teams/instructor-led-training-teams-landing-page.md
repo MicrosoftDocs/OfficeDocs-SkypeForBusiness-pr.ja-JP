@@ -15,12 +15,12 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: 958ca112e52cefa31e122c02b47c76a68537d284
-ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
+ms.openlocfilehash: 9fe712b484c20f5a7a8a1b1df5c4720788ac877a
+ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "42288725"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42583064"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -192,7 +192,28 @@ Microsoft では、Teams を使いこなすための無料のライブ オンラ
             </div>
         </div>
         </a>
-    </li>        </ul>
+    </li>
+    <li>
+        <a href="https://aka.ms/TeamsAtHome"target="_blank">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/headset.svg" alt="Headset" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Teams を使用して自宅で仕事する方法をマスターする</h3>
+                        <p><strong><font color="#4B53BC">新機能!</font></strong> チームと常につながり、生産性を維持するためのベスト プラクティスを紹介します。</p>
+                        <p><i>対象ユーザー: エンド ユーザー、チーム、部署の管理者</i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>  
+        </ul>
         </li>
     </ul>
     </div>
