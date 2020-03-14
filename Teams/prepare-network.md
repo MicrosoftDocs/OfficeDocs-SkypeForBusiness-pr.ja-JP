@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd27dfd6fccba5c7e9db52d58f7a6253849bea54
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: 42f0ec656036849aa87d9d4e7e092f4b5d3a505f
+ms.sourcegitcommit: 4306083e7b1dc2e7a0d02b682790450934dada50
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862907"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "42639464"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Microsoft Teams 用に組織のネットワークを準備する 
 
@@ -101,7 +101,7 @@ ms.locfileid: "41862907"
 <td><a href="https://docs.microsoft.com/office365/enterprise/client-connectivity">Microsoft データセンターへの最も効率的なルーティングを実装</a>します。 ローカルまたは地域の出口ポイントを使用して、可能な限り効率的に Microsoft ネットワークに接続できる場所を特定します。</td>
 </tr>
 <tr class="odd">
-<td>侵入検知/防御のガイダンス</td>
+<td>侵入検知と予防のガイダンス</td>
 <td>お客様の環境に、送信接続用のセキュリティレイヤーを追加するために展開された<a href="https://docs.microsoft.com/azure/network-watcher/network-watcher-intrusion-detection-open-source-tools">侵入検出</a>または防止システム (IDS/IPS) が展開されている場合は、すべての Office 365 url をホワイトリストしてください。</td>
 </tr>
 <tr class="even">
@@ -123,7 +123,7 @@ ms.locfileid: "41862907"
 <td><p>VPN と同じように、WiFi ネットワークは、リアルタイムメディアをサポートするように設計されていないこともあります。 チームをサポートするための WiFi ネットワークを計画または最適化することは、高品質な展開を行うための重要な考慮事項です。 次のような要素を考慮してください。</p>
 <ul>
 <li><p>QoS または WiFi マルチメディア (WMM) を実装して、WiFi ネットワーク経由でメディアトラフィックの優先順位が適切に付けられるようにします。</p></li>
-<li><p>WiFi バンドおよびアクセスポイントの配置を計画して最適化します。 2.4 GHz の範囲は、アクセスポイントの配置によっては適切なエクスペリエンスを提供する場合がありますが、アクセスポイントは、その範囲内で動作する他のコンシューマーデバイスによって影響を受けることがあります。 5 GHz の範囲は、高密度な範囲に基づくリアルタイムのメディアに適していますが、十分な範囲を確保するには、さらに多くのアクセスポイントが必要です。 エンドポイントも、その帯をサポートしており、それらの帯を利用できるように構成されている必要があります。</p></li>
+<li><p>WiFi バンドおよびアクセスポイントの配置を計画して最適化します。 アクセス ポイントの配置に応じて、2.4 GHz 帯で十分なエクスペリエンスが提供される可能性がありますが、アクセス ポイントは、多くの場合にその帯域で動作するその他のコンシューマー デバイスによって影響を受けます。 5 GHz の範囲は、高密度な範囲に基づくリアルタイムのメディアに適していますが、十分な範囲を確保するには、さらに多くのアクセスポイントが必要です。 エンドポイントも、その帯をサポートしており、それらの帯を利用できるように構成されている必要があります。</p></li>
 <li><p>デュアルバンド WiFi ネットワークを使用している場合は、バンドステアリングの実装を検討してください。 <em>バンドステアリング</em>は、5 GHz のクライアントを使用するようにデュアルバンドクライアントに影響を与えるために、WiFi ベンダーによって実装された手法です。</p></li>
 <li><p>同じチャネルのアクセスポイントが近すぎる場合は、信号の重複が発生し、意図せず競合する可能性があり、その結果、ユーザーにとって悪い操作が発生する可能性があります。 互いに隣接するアクセスポイントが重なっていないチャネル上にあることを確認します。</p></li>
 </ul>

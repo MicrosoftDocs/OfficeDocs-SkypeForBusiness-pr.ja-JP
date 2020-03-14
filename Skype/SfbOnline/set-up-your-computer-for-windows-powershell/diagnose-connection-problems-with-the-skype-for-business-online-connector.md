@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: Troubleshoot creating a remote PowerShell session to connect to Skype for Business Online, including Import-Module, concurrent shell, Live ID, and permission errors.
-ms.openlocfilehash: f3de8d67079aaf4afeffdc63588f6806413383fc
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: be3500ea5573dab6daa3d8ff72a8de4f60566ee2
+ms.sourcegitcommit: a4fd238de09366d6ed33d72c908faff812da11a5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010690"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42637134"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Skype for Business Online Connector との接続の問題を診断する
 
@@ -140,13 +140,13 @@ PowerShell を使用して Skype for Business Online を管理するには、テ
 ## <a name="the-maximum-number-of-concurrent-shells-for-this-tenant-in-skype-for-business-online-has-been-exceeded"></a>Skype for Business Online でのこのテナントの同時シェルの最大数を超過している
 <a name="BKMKMaxNumberShellsTenant"> </a>
 
-各管理者には 1つの Skype for Business Online テナントに対して 3 つの同時接続が許可されていますが、単一のテナントに許可されている同時接続は 9 つ以下です。たとえば、3 人の管理者それぞれが 3 つのセッションを開いているとします。4 人目の管理者が接続を確立しようとすると、結果として 10 の同時接続が発生するため、その管理者の接続は次のエラーメッセージにより失敗します。
+各管理者には、Skype for Business Online テナントへの同時接続が最大3つまで許可されていますが、1つのテナントで同時接続を20個以下にすることはできません。 たとえば、6人の管理者が開いたセッションを3つ持っている場合があります。 7人の管理者が2つ以上の接続を開こうとした場合 (合計21個の同時接続)、この試みは失敗し、次のエラーメッセージが表示されます。
   
 - **エラー**:*新しい-PSSession: [admin.vdomain.com] リモートサーバー admin.vdomain.com に接続できませんでした。次のエラーメッセージが表示されます: ws-management サービスは要求を処理できません。このテナントの同時シェルの最大数を超過しています。既存のシェルを閉じるか、このテナントのクォータを上げます。詳細については、「[リモートトラブルシューティングhttps://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 ]」を参照してください*。
 
 - **解決策**: この問題を解決するには、1つまたは複数の以前の接続を閉じる方法しかありません。 Skype for Business Online セッションが終了したら、 **Remove-PSSession** コマンドレットを使用してそのセッションを切断することをお勧めします。 そうすることにより、この問題が発生することを防ぐことができます。  
  
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [Windows PowerShell を使用して skype for business online 管理用にコンピューターをセットアップする](set-up-your-computer-for-windows-powershell.md)
 
   

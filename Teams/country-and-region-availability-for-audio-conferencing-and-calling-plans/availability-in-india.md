@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ここでは、Skype for Business および Microsoft Teams でインドで利用できる Office 365 サービスについて説明します。
-ms.openlocfilehash: 459579824f7f1c25b98e33029699c6e8635c46da
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+ms.openlocfilehash: 7fbd64ee3f00fdad0898c8dd6ea67bce224f8548
+ms.sourcegitcommit: 79572b3cb270c77ba7d78a06af02547ed9b7a7ea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41853278"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42632762"
 ---
 # <a name="availability-in-india"></a>インドでの利用可能性
 
@@ -42,17 +42,17 @@ ms.locfileid: "41853278"
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|電話会議は購入できますか?  <br/> |いいえ  <br/> |
+|電話会議は購入できますか?  <br/> |Microsoft はインドで電話会議を販売していません。 TATA 通信では、Microsoft Teams 会議と互換性のあるダイヤルイン/ダイヤルアウトサービスが提供されます。 詳細については、 [「Tata 通信」 web サイト](https://www.tatacommunications.com/for-you/tata-communications-connections-for-microsoft-teams/)を参照してください。   <br/> |
 |電話番号は自動的に電話会議に割り当てられますか?  <br/> |○:<br/><ul><li> チェンナイ (<li> ムンバイ</ul>専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)」をご覧ください。  <br/> |
-|折り返し通話機能を使用するダイヤルアウト機能  <br/> |利用可能  <br/> |
+|折り返し通話機能を使用するダイヤルアウト機能  <br/> |連絡可能  <br/> |
    
 ## <a name="phone-system"></a>電話システム
 
 |**機能**|**詳細**|
 |:-----|:-----|
 |電話システムは購入できますか?  <br/> |はい  <br/> |
-| 自動応答 <br/> |利用可能  <br/> |
-|通話キュー  <br/> |利用可能  <br/> |
+| 自動応答 <br/> |連絡可能  <br/> |
+|通話キュー  <br/> |連絡可能  <br/> |
 |ボイスメール  <br/> |利用可能  <br/> |
    
 ## <a name="calling-plans"></a>通話プラン
@@ -79,7 +79,7 @@ ms.locfileid: "41853278"
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|コミュニケーション クレジットは利用できますか?  <br/> |いいえ  <br/> |
+|コミュニケーション クレジットは利用できますか?  <br/> |不要  <br/> |
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
