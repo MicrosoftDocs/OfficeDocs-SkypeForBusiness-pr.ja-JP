@@ -14,12 +14,12 @@ search.appverid: MET150
 description: このガイダンスは、Microsoft Teams を使用して組織のリモート ワーカーの生産性を向上させるために使用できます。特に、新型コロナウイルス感染症 (COVID-19) 発生への対策として従業員が在宅勤務 (WFH) となった場合に役立ちます。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cdd4338a157869d6e0453910a29514d6dc7ed0c9
-ms.sourcegitcommit: 769241842058cfb4618460fad2dde1494a3609a1
+ms.openlocfilehash: 0786f7dac4339a5cfa83773010aa9a95ee957f51
+ms.sourcegitcommit: 4306083e7b1dc2e7a0d02b682790450934dada50
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42574084"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "42639434"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Microsoft Teams を使用してリモート ワーカーをサポートする
 
@@ -91,7 +91,9 @@ Teams をユーザーへと展開するための準備 これらの素晴らし�
     
 3. リモートでの作業に関する Microsoft の新しいコンテンツを確認して、ユーザーと共有してください。
         
-      - *新着 2020 年 3 月 9 日*: [Microsoft Teams を使用してリモートで作業する](https://products.office.com/microsoft-teams/work-remotely)
+      - Microsoft ブログ (2020年 3 月 10 日): [Teams を使用してリモートで作業しながら生産性を維持する](https://www.microsoft.com/microsoft-365/blog/2020/03/10/staying-productive-while-working-remotely-with-microsoft-teams/)
+      
+      - [Teams を使用してリモートで作業する](https://products.office.com/microsoft-teams/work-remotely)
 
       - Teams ブログ (2020 年 2 月 28 日): [Microsoft Teams を使用して在宅勤務するための 4 つのヒント](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/4-tips-for-working-from-home-with-microsoft-teams-by-lola/ba-p/1202083)
 
@@ -100,6 +102,8 @@ Teams をユーザーへと展開するための準備 これらの素晴らし�
       - [Office 365 を使用してリモートで作業する](https://support.office.com/article/work-remotely-with-office-365-164946c8-a47a-470e-a0b4-feb12a2eea04)
 
       - [オンラインで作業する場合の 9 つのヒント](https://www.microsoft.com/tips/home/working-remotely)
+
+      - [自宅で安全に作業するための重要なヒント](https://support.office.com/article/top-tips-for-working-more-securely-from-home-c3e6c940-43a6-43a3-b780-b8784776c2a8)
 
 
 3.  モバイル アプリを[インストール](get-clients.md#mobile-clients)して使用することを全従業員に奨励します: [iOS](https://go.microsoft.com/fwlink/?LinkId=835758) または [Android](https://go.microsoft.com/fwlink/p/?linkid=2102168)。
