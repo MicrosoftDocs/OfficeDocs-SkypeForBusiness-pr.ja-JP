@@ -16,17 +16,17 @@ f1.keywords:
 description: Teams サービスや Exchange、SharePoint、OneDrive for Business といったその他の Office 365 コンポーネントが正常であることを確認することをお勧めします。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b61de9768de69830328f4ea789db1b8af7e7a24a
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 219c484b4bf8eff35d78966820a3002e55aecbb7
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41835737"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706577"
 ---
 <a name="verify-service-health-for-microsoft-teams"></a>Microsoft Teams のサービス正常性を確認する
 ===========================================
 
-Microsoft Teams のサービス正常性は Office 365 管理ポータルのメイン ページに表示されます。問題を解決する際には、まず最初に Teams サービスが正常であることを確認します。
+Microsoft Teams のサービス正常性は、Microsoft 365 管理センターに表示されます。 問題のトラブルシューティングを行う前に、Teams サービスが正常に実行されていることを確認することをお勧めします。
 
 さらに、Microsoft Teams は追加の Office 365 サービスの上に構築されるため、サービス正常性を確認する場合は、Exchange、SharePoint、OneDrive for Business の状態も検証する必要があります。これらのサービスのサービス正常性の問題 (Exchange でのアドレス帳のダウンロードが利用できないなどの問題) は必然的に Teams に影響を与えるものではありませんが、影響を受けるサービスに関する注意事項を確認して、Microsoft Teams に対する影響があるかどうかを判断する必要があります。
 

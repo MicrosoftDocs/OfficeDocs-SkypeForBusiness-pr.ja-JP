@@ -18,20 +18,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13da1a583d5aa0abaad4e981e5fc68d3aa913ce9
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 4084bc58d98aa05af14511869fc44c6db85343b8
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837247"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42707017"
 ---
+# <a name="define-your-project-scope"></a>プロジェクトの対象範囲を定義する
+
 ![プロジェクト定義ステージを強調表示したアップグレードの図](media/upgrade-banner-project-definition.png "「プロジェクトの定義」段階が強調表示された、アップグレード行程の各段階")
 
-この記事は、アップグレード過程のプロジェクト定義の段階に含まれています。これは、チームメンバーからスポンサー協力者とプロジェクトチームを作成した後で、プロジェクトの成功の鍵となる活動です。 先に進む前に、次のアクティビティを完了していることを確認してください。
+この記事は、アップグレード過程のプロジェクト定義の段階に含まれています。これは、チームメンバーからスポンサー協力者とプロジェクトチームを作成した後で、プロジェクトの成功の鍵となる活動です。 続行する前に、次の作業が完了していることを確認します。
 
 - [参加しているプロジェクト関係者](upgrade-enlist-stakeholders.md)
-
-# <a name="define-your-project-scope"></a>プロジェクトの対象範囲を定義する
 
 プロジェクトのビジョン、スコープ、目標、ガバナンスを明確にすることで、すべてのプロジェクト関係者が確実に同じ最終結果に反映されるようにすることができます。 これは特に、テクニカルレディネスチームとユーザーの準備チームがそれぞれの要素をまとめて個別に作業することを前提としています。 このセクションを完了したら、プロジェクト全体でその情報を参照して、目的の終了状態を達成できることを確認します。 以下に示す目標を使用して、結果を測定し、必要に応じて軽減します。
 

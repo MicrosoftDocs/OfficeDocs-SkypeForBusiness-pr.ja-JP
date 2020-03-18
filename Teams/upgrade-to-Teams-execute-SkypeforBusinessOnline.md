@@ -18,16 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a9cedd0a169fc43e81dfdc131f98b0a90d9cd9e
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 03eda4a90cc90eed38e6a1f6bb6ff6751291ffc1
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836229"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706627"
 ---
+# <a name="upgrade-from-skype-for-business-online-to-teams"></a>Skype for Business Online から Teams にアップグレードする
+
 ![展開と実装に重点を置いた、アップグレードのフロー図](media/upgrade-banner-deployment.png "「展開と実装」段階が強調表示された、アップグレード行程の各段階")
 
-この記事は、お客様のアップグレード手順における展開と実装の段階の一部を取り上げています。 先に進む前に、次のアクティビティを完了していることを確認してください。
+この記事は、お客様のアップグレード手順における展開と実装の段階の一部を取り上げています。 続行する前に、次の作業が完了していることを確認します。
 
 - [プロジェクトの関係者をリスト化した](upgrade-enlist-stakeholders.md)
 - [プロジェクトの対象範囲を定義した](https://aka.ms/SkypetoTeams-Scope)
@@ -36,8 +38,6 @@ ms.locfileid: "41836229"
 - [環境を準備した](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [組織を準備した](https://aka.ms/SkypeToTeams-UserReadiness)
 - [パイロットを実施した](https://aka.ms/SkypeToTeams-Pilot)
-
-# <a name="upgrade-from-skype-for-business-online-to-teams"></a>Skype for Business Online から Teams にアップグレードする
 
 Skype for business Online を完全に展開していて、ユーザーを Skype for Business から Teams にアップグレードする場合は、この記事の指示に従ってください。 組織で選択されているアップグレードの過程に基づいて、ユーザーを選択的またはすべてのユーザーにアップグレードするには、適切な共存とアップグレードモードをユーザーに割り当てます。
 

@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: バッチポリシーの割り当てを使用して、リモート学校 (teleschool、tele) の目的で、教育機関の多数のユーザーにポリシーを割り当てる方法について説明します。
 f1keywords: ''
-ms.openlocfilehash: 79c36aa0e2a7a2d310756d052b8962daeaa38634
-ms.sourcegitcommit: a34a827dfdad05b281e2e5ec5a80fc4e67fc89e2
+ms.openlocfilehash: 8dd771b27c1950cdce1590783bcfb3b4159c1c29
+ms.sourcegitcommit: 891ba3670ccd16bf72adee5a5f82978dc144b9c1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42604304"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42691187"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>学校の大規模なユーザーセットにポリシーを割り当てる
 
@@ -112,6 +112,9 @@ $faculty = Get-AzureADUser -All $true | Where-Object (($_.assignedLicenses).SkuI
 ## <a name="assign-a-policy-in-bulk"></a>ポリシーをまとめて割り当てる
 
 次に、適切なポリシーをユーザーにまとめて割り当てます。 ポリシーの割り当てまたは更新ができるユーザーの最大数は、一度に2万です。 たとえば、2万のスタッフと教師を超えている場合は、複数のバッチを送信する必要があります。
+
+> [!IMPORTANT]
+> 現時点では、一度に5000ユーザーのバッチでポリシーを割り当てることをお勧めします。 こうした需要が増加すると、処理時間の遅延が発生する可能性があります。 これらの増加した処理時間の影響を最小限に抑えるために、最大5000人のユーザーに対して少量のバッチサイズを送信し、前のバッチが完了した後でのみ各バッチを送信することをお勧めします。 通常の営業時間外にバッチを送信することもできます。
 
 次を実行して、EducatorMeetingPolicy という名前の会議ポリシーを、スタッフと教師に割り当てます。
 

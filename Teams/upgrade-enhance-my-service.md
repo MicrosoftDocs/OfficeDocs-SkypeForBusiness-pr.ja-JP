@@ -18,18 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 02772dddf435e8c3dc2bc0fe243e453e387cd244
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2c5a437353d00fca8a59bd7de2b753967adc1134
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837207"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42707007"
 ---
+# <a name="get-the-most-out-of-teams-after-upgrading"></a>アップグレード後にチームを最大限に活用する
+
 ![オペレーショナルエクセレンスステージを強調したアップグレードの図](media/upgrade-banner-op-excellence.png "オペレーショナルエクセレンスステージに重点を置いたアップグレードの段階")
 
-この記事は、お客様のアップグレード手順において、Skype for Business から Teams へのアップグレードを完了した直後に開始する、オペレーショナル エクセレンスの段階の一部を取り上げています。
-
-# <a name="get-the-most-out-of-teams-after-upgrading"></a>アップグレード後にチームを最大限に活用する
+この記事は、Skype for Business から Teams へのアップグレードが完了したらすぐに、アップグレードの過程のオペレーショナルエクセレンスステージの一部です。
 
 この記事では、アップグレード後に運用チームを最大限に活用するための要件の概要を示します。 Teams のサービス機能を継続的に監視することで、組織にとって最大限の価値を発揮することができます。
 

@@ -18,23 +18,23 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b97adde4f5016262ac3de1a5b79c9d69975580b
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: d73c40ee6a2ebe906a6a3ca66dbb430b843c6eeb
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863488"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706927"
 ---
-![テクニカルレディネスステージを強調したアップグレードの図](media/upgrade-banner-tech-readiness.png "技術的な準備段階に重点を置いたアップグレードの段階")
+# <a name="evaluate-your-environment-before-upgrading-to-teams"></a>Teams にアップグレードする前に環境を評価する
 
-この記事は、アップグレードが行われる技術準備段階の一部であり、ユーザーの準備段階と並行して実行されるアクティビティです。 続行する前に、以前のステージでこれらのアクティビティが完了していることを確認してください。
+![技術準備段階が協調表示されたアップグレード行程図](media/upgrade-banner-tech-readiness.png "技術準備段階が強調表示された、アップグレード行程の各段階")
+
+この記事は、ユーザーの準備段階と並行して実行されるアクティビティである、アップグレードが行われる技術準備段階の一部です。 続行する前に、以前のステージでこれらのアクティビティが完了していることを確認してください。
 
 - [プロジェクトの関係者をリスト化した](upgrade-enlist-stakeholders.md)
 - [プロジェクトの対象範囲を定義した](https://aka.ms/SkypetoTeams-Scope)
 - [Skype for Business と Teams の共存と相互運用を理解した](https://aka.ms/SkypeToTeams-Coexist)
 - [アップグレードの手順を選択した](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-
-# <a name="evaluate-your-environment-before-upgrading-to-teams"></a>Teams にアップグレードする前に環境を評価する
 
 この記事では、オペレーティングチーム向けに現在の環境を適切に評価するための要件の概要を示します。 環境を評価することで、全体的な展開に影響を与えるリスクと要件を特定することができます。 これらの項目を事前に特定することで、計画を調整して成功を収めることができます。
 

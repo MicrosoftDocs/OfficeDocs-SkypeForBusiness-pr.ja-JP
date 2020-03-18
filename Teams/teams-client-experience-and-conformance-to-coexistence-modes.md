@@ -18,23 +18,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 94126a5d49c9573751279c645024dcb9d164bd90
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: 7e2687f00a2d0ccb02e742d5077e472aa1dc37ed
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863298"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706617"
 ---
-<a name="about-upgrade-basic"></a>
-
 # <a name="teams-client-experience-and-conformance-to-coexistence-modes"></a>Teams のクライアント エクスペリエンスおよび共存モードへの準拠
 
+<a name="about-upgrade-basic"></a>
 
-Skype for Business 共存モード (SfBOnly、SfBWithTeamsCollab、SfBWithTeamsCollabAndMeetings) の目的は、組織が Skype for Business から Teams に移行する際に、シンプルで予測可能なエクスペリエンスをエンド ユーザーに提供することです。  Teams に移行する組織にとって、最終的にはすべてのユーザーを **TeamsOnly** モードにすることが目標ですが、**TeamsOnly** (またはその他のモード) を全員に同時に割り当てる必要はありません。  ユーザーが TeamsOnly モードに到達するまでは、組織は Skype for Business 共存モードのいずれかのモードを使用でき、こうすることで、**TeamsOnly** モードのユーザーとまだこのモードに設定されていないユーザーの間で、安定した通信を確保できます。 
+Skype for Business 共存モード (SfBOnly、SfBWithTeamsCollab、SfBWithTeamsCollabAndMeetings) の目的は、組織が Skype for Business から Teams に移行する際に、シンプルで予測可能なエクスペリエンスをエンド ユーザーに提供することです。  Teams に移行する組織にとって、最終的にはすべてのユーザーを **TeamsOnly** モードにすることが目標ですが、**TeamsOnly** (またはその他のモード) を全員に同時に割り当てる必要はありません。  ユーザーが Teams の唯一のモードに到達する前に、組織は Skype for Business の共存モードのいずれかを使用して、**チームのみ**で、かつまだお持ちではないユーザー間で一貫した通信を行うことができます。 
 
-ユーザーがいずれかの Skype for Business モードを使用している場合、受信するすべてのチャットと通話は、ユーザーの Skype for Business クライアントにルーティングされます。 ユーザーがいずれかの Skype for Business モードに設定されている場合、エンド ユーザーを混乱させない適切なルーティングを確保するために、Teams クライアントの通話とチャット機能は無効化されます。 同様に、Teams での会議のスケジュールも、ユーザーが SfBOnly または SfBWithTeamsCollab モードの場合は明示的に無効化され、ユーザーが SfBWithTeamsCollabAndMeetings の場合には明示的に有効化されます。
+ユーザーが Skype for Business モードのいずれかに入っている場合、着信するすべてのチャットと通話はユーザーの Skype for Business クライアントにルーティングされます。 ユーザーがいずれかの Skype for Business モードに設定されている場合、エンド ユーザーを混乱させない適切なルーティングを確保するために、Teams クライアントの通話とチャット機能は無効化されます。 同様に、Teams での会議のスケジュールも、ユーザーが SfBOnly または SfBWithTeamsCollab モードの場合は明示的に無効化され、ユーザーが SfBWithTeamsCollabAndMeetings の場合には明示的に有効化されます。
 
-プレゼンスはチャットと通話による到達可能性を示す指標です。そのため、チャットと通話が無効になっている場合は、Teams の自己プレゼンス (Teams クライアントでの自分のプレゼンスをユーザーの写真に表示するもの) も非表示になります。 
+プレゼンスはチャットと通話での到達可能性を示しているため、チャットや通話が無効になっていると、Teams での自己プレゼンス (つまり、ユーザーの写真の Teams クライアントでの1つのプレゼンスの表示) も非表示になります。 
 
 ## <a name="how-the-available-functionality-in-teams-client-changes-based-on-mode"></a>Teams クライアントで使用可能な機能がモードによってどのように変化するか
 

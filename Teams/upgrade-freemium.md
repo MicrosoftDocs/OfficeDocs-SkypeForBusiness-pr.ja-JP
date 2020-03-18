@@ -19,14 +19,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a0c86a22449fef5563b531558d45188c74ea8280
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 756f22712bb0d3f71cdeb5936eb53960700ef57b
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837167"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706987"
 ---
-<a name="upgrade-microsoft-teams-free-to-office-365-subscription-version"></a>Microsoft Teams を無料で Office 365 月額プラン バージョンにアップグレードする
+# <a name="upgrade-microsoft-teams-free-to-office-365-subscription-version"></a>Microsoft Teams を無料で Office 365 月額プラン バージョンにアップグレードする
 ======================================================
 
 組織で Microsoft Teams の無料バージョンを使用している場合は、ユーザーの Office 365 サブスクリプションプランを購入すると、簡単に製品版にアップグレードできます。 フルバージョンでは、スケジュール、電話会議、強化された管理、セキュリティ機能など、無料版では提供されていないその他の Teams 機能が提供されています。 Office 365 は、使い慣れた Microsoft Office デスクトップスイートと、Exchange Online、SharePoint Online、Office などの Microsoft の次世代通信とコラボレーションサービスのクラウドベースのバージョンと組み合わせることで、ユーザーの生産性を向上させることができます。インターネット上でも実質上どこでも利用できます。 チームをアップグレードしても、既存のチームデータは失われません。すべてのチーム、チャネル、チャット、ファイル、権限が追加されました。 
@@ -91,7 +91,7 @@ Teams へのサインインに使用するメールアドレスを入力して�
 
 アップグレードが完了したら、最初の手順については、「 [Microsoft teams の使用を開始](get-started-with-teams-quick-start.md)する」および「 [microsoft teams](adopt-microsoft-teams-landing-page.md)を組織全体でのチームの導入への段階的アプローチに採用する」を参照してください。
 
-## <a name="more-information"></a>More information
+## <a name="more-information"></a>詳細情報
 
 - チームのバージョンとその機能の詳細については、「[チームの計画を比較](https://products.office.com/microsoft-teams/free)する」を参照してください。
 - Teams のフルバージョンへのアップグレードの詳細については、「無料の teams[から teams にアップグレードする](https://support.office.com/article/Upgrade-from-Teams-free-to-Teams-29475bbd-a34f-4175-9b33-d44430f8ad39)」を参照してください。

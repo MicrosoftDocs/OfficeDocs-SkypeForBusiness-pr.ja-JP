@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d7d0b1cf23b94f33c66218eaacdfdeda5aaab19
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 888e56561e4e6f4a521a0e1730fe3c9ea6adff82
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048598"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706937"
 ---
+# <a name="assess-organizational-change-readiness"></a>組織的な変更の準備状況を評価する
+
 ![ユーザー準備ステージを強調したアップグレードの図](media/upgrade-banner-user-readiness.png "アップグレードの段階 (ユーザー準備ステージに重点を置いている場合)")
 
 この記事は、アップグレードが行われたユーザーの準備段階の一部であり、テクニカルレディネスステージと並行して実行されるアクティビティです。 続行する前に、以前のステージでこれらのアクティビティが完了していることを確認してください。
@@ -33,8 +35,6 @@ ms.locfileid: "42048598"
 - [プロジェクトの対象範囲を定義した](https://aka.ms/SkypetoTeams-Scope)
 - [Skype for Business と Teams の共存と相互運用を理解した](https://aka.ms/SkypeToTeams-Coexist)
 - [アップグレードの手順を選択した](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-
-# <a name="assess-organizational-change-readiness"></a>組織的な変更の準備状況を評価する
 
 プロジェクトチームをセキュリティで保護し、ビジョン、スコープ、および目標を定義した後、アップグレードの次の手順は、組織とユーザーが、技術的な準備を確実に行うために、並列で実行されるアクティビティであることを確認することを目的としています。 チームの価値を実現するには、ユーザーが実際にそれを使用する必要があります。 チームを有効にするだけでは、自分の目標を達成できるという保証はありません。 ユーザーにはさまざまなユースケースとさまざまな学習スタイルがあり、さまざまな速度で新しいテクノロジに対応しています。 変更を管理することは、それほど複雑ではありませんが、焦点を絞った作業が必要になります。 以下のガイド付きのディスカッションは、ユーザーの利用を容易にするために適切なレベルの教育を準備できるように設計されています。 ユーザーベースを確認するには、次の2つの方法があります。
 
@@ -62,7 +62,7 @@ ms.locfileid: "42048598"
 <!--
 | **Type of user** | **%** |
 |------------|---|
-| *Early adopters* request the solution before it’s available. | |
+| *Early adopters* request the solution before it's available. | |
 | *Informed users* accept the solution as soon as its value is demonstrated. | |
 | *Laggards* reject the solution, even when pushed into change. | |
 -->
@@ -80,8 +80,8 @@ ms.locfileid: "42048598"
 | **Type of learner** | **%** |
 |---------------|---|
 | *Self-motivated* learners seek out resources, learn by doing. | |
-| *Team-players* enjoy group and interactive training; they’ll go along with coworkers. | |
-| *Hand-holding* seekers expect “white glove” or one-on-one assistance. | |
+| *Team-players* enjoy group and interactive training; they'll go along with coworkers. | |
+| *Hand-holding* seekers expect "white glove" or one-on-one assistance. | |
 -->
 
 | 自己意欲 | チームプレイヤー | 手を持って seekers |

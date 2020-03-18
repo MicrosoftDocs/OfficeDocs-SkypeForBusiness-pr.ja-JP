@@ -18,19 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b271dbfbb99508c26feb86cb7803b8eacdf73910
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5244bd063caae9b0fab1411f4644e3adbd337431
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837197"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706997"
 ---
+# <a name="enlist-your-project-stakeholders"></a>プロジェクト関係者に協力を求める
+
 ![アップグレード過程のステークホルダーの状態を示す図](media/upgrade-banner-stakeholders.png "プロジェクト関係者のチームの収集に重点を置いたアップグレードの段階")
 
 この記事は、プロジェクトの成功に向けて実行する最初の最も重要なアクティビティである、アップグレード過程のプロジェクト関係者ステージの一部です。
-
-
-# <a name="enlist-your-project-stakeholders"></a>プロジェクト関係者に協力を求める
 
 プロジェクトの成果物を実装して、責任を持つことによって、関係者は、プロジェクトの成功への鍵を持っています。 割り当てる必要がある関係者には、2つのグループがあります。 (1)_協力_金を持ち、プロジェクトの成功に影響を与える、または、(2) プロジェクト_チーム_が共同作業を行って、プロジェクト計画のさまざまなタスクを実行します。 これら2つのグループ間の共通スレッドは_プロジェクトマネージャー_で、プロジェクトタスクがスケジュールどおりに完了していることを確認し、プロジェクトの状態を協力体制に戻します。
 

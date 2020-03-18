@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea2fc7a56b3bc87a7d25c2afa86ff0b9f974995c
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 088db496d6e04cb25a26a55f2748b25a11a8a76b
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836249"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706787"
 ---
+# <a name="prepare-your-organization"></a>組織を準備する
+
 ![ユーザー準備ステージに重点を置いたアップグレードの段階](media/upgrade-banner-user-readiness.png "アップグレードの段階 (ユーザー準備ステージに重点を置いている場合)")
 
 この記事は、アップグレードが行われたユーザーの準備段階の一部であり、テクニカルレディネスステージと並行して実行されるアクティビティです。 続行する前に、以前のステージでこれらのアクティビティが完了していることを確認してください。
@@ -33,8 +35,6 @@ ms.locfileid: "41836249"
 - [プロジェクトの対象範囲を定義した](https://aka.ms/SkypetoTeams-Scope)
 - [Skype for Business と Teams の共存と相互運用を理解した](https://aka.ms/SkypeToTeams-Coexist)
 - [アップグレードの手順を選択した](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-
-# <a name="prepare-your-organization"></a>組織を準備する
 
 チームの最大値を把握するには、ユーザーが実際にそれを使用する必要がありますが、ユーザーは常に簡単に作業を変更できるようにします。 ユーザーを理解して適切な準備計画を設計することで、チームの変更や導入の促進に役立ちます。 これらのアクティビティは、お客様のテクニカルレディネスの準備に応じて、並行して完了する必要があります。
 

@@ -18,18 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2e3ef345df2696cd0d450f8b16d93508d0eed545
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: 6d9bcc5e00b9892bf8405eddb2ac24291a485d19
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863518"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706967"
 ---
+# <a name="operate-your-service"></a>サービスを運用する
+
 ![オペレーショナルエクセレンスステージを強調したアップグレードの図](media/upgrade-banner-op-excellence.png "オペレーショナルエクセレンスステージに重点を置いたアップグレードの段階")
 
-この記事は、お客様のアップグレード手順において、Skype for Business から Teams へのアップグレードを完了した直後に開始する、オペレーショナル エクセレンスの段階の一部を取り上げています。
-
-# <a name="operate-your-service"></a>サービスを運用する
+この記事は、Skype for Business から Teams へのアップグレードが完了したらすぐに、アップグレードの過程のオペレーショナルエクセレンスステージの一部です。
 
 この記事では、アップグレードした後で、組織のチームを正常に運用するための要件の概要を示します。 Teams サービスを適切に運用することで、組織にとって高品質で信頼できるエクスペリエンスを提供することができます。
 
@@ -205,7 +205,7 @@ Teams サービスの今後の変更について把握したので、次の手�
 |---|---|---|---|
 | ユーザーへの影響 | 価 | | |
 | ユーザーの準備が必要 | はい | | |
-| 通信準備完了 | いいえ | コミュニケーションメールは下書きされています。レビューは保留中です。 | コミュニケーションチーム |
+| 通信準備完了 | 不要 | コミュニケーションメールは下書きされています。レビューは保留中です。 | コミュニケーションチーム |
 | トレーニングの準備完了 | はい | トレーニングは、既存の Microsoft ビデオを活用します。 | トレーニングチーム |
 
 **進捗管理**

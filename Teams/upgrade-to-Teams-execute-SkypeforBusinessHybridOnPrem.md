@@ -19,16 +19,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5c467fe63cee4681f2b758b264949cd931e3f901
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4957b22b7fe00ed756c1e81c6bb7c8e2e982720f
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045029"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706677"
 ---
+# <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>Skype for Business オンプレミスから Teams にアップグレードする
+
 ![展開と実装に重点を置いた、アップグレードのフロー図](media/upgrade-banner-deployment.png "「展開と実装」段階が強調表示された、アップグレード行程の各段階")
 
-この記事は、お客様のアップグレード手順における展開と実装の段階の一部を取り上げています。 先に進む前に、次のアクティビティを完了していることを確認してください。
+この記事は、お客様のアップグレード手順における展開と実装の段階の一部を取り上げています。 続行する前に、次の作業が完了していることを確認します。
 
 -   [プロジェクトの関係者をリスト化した](upgrade-enlist-stakeholders.md)
 -   [プロジェクトの対象範囲を定義した](https://aka.ms/SkypetoTeams-Scope)
@@ -38,9 +40,7 @@ ms.locfileid: "42045029"
 -   [組織を準備した](https://aka.ms/SkypeToTeams-UserReadiness)
 -   [パイロットを実施した](https://aka.ms/SkypeToTeams-Pilot)
 
-# <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>Skype for Business オンプレミスから Teams にアップグレードする
-
-オンプレミス環境の Skype for Business Server または Microsoft Lync を展開しており、組織が Teams にアップグレードする場合には、この記事内のガイダンスに従ってください。 Office 365 テナントでハイブリッド接続を設定する必要があり、ユーザーを Teams に段階的に移行する場合は、共存の要件を決定する必要があります。 
+Skype for Business Server または Microsoft Lync をオンプレミスで展開していて、組織が Teams にアップグレードする必要がある場合は、この記事のガイダンスに従ってください。 Office 365 テナントでハイブリッド接続を設定する必要があり、ユーザーを Teams に段階的に移行する場合は、共存の要件を決定する必要があります。 
 
 > [!IMPORTANT]
 > Skype for Business Online は 2021 年 7 月 31 日に廃止される予定です。それ以降、アクセスとサポートが終了します。 移行によるメリットを最大限に高め、アップグレード実施のための時間を組織で十分確保できるよう、Microsoft Teams への移行をすぐに開始することをお勧めします。 アップグレードが成功すると、技術面およびユーザーの準備が整ったことになります。Microsoft Teams への移行を進める際には、必ずこのガイドを活用してください。
@@ -60,7 +60,7 @@ Teams に移行する組織にとって、最終的にはすべてのユーザ�
 
 ユーザーが TeamsOnly モードに到達するまでは、組織は Skype for Business 共存モードのいずれかのモードを使用するという選択肢があり、こうすることで、TeamsOnly モードのユーザーとまだこのモードに設定されていないユーザーの間で、安定した通信を確保できます。  Skype for Business 共存モード (SfBOnly、SfBWithTeamsCollab、SfBWithTeamsCollabAndMeetings) の目的は、組織が Skype for Business から Teams に移行する際に、シンプルで予測可能なエクスペリエンスをエンド ユーザーに提供することです。 
 
-ユーザーがいずれかの Skype for Business モードを使用している場合、受信するすべてのチャットと通話は、ユーザーの Skype for Business クライアントにルーティングされます。 ユーザーがいずれかの Skype for Business モードに設定されている場合、エンド ユーザーを混乱させない適切なルーティングを確保するために、Teams クライアントの通話とチャット機能は無効化されます。 同様に、Teams での会議のスケジュールも、ユーザーが SfBOnly または SfBWithTeamsCollab モードの場合は明示的に無効化され、ユーザーが SfBWithTeamsCollabAndMeetings の場合には明示的に有効化されます。
+ユーザーが Skype for Business モードのいずれかに入っている場合、着信するすべてのチャットと通話はユーザーの Skype for Business クライアントにルーティングされます。 ユーザーがいずれかの Skype for Business モードに設定されている場合、エンド ユーザーを混乱させない適切なルーティングを確保するために、Teams クライアントの通話とチャット機能は無効化されます。 同様に、Teams での会議のスケジュールも、ユーザーが SfBOnly または SfBWithTeamsCollab モードの場合は明示的に無効化され、ユーザーが SfBWithTeamsCollabAndMeetings の場合には明示的に有効化されます。
 
 組織の要件によりますが、組織が選択したアップグレード パスに基づいて適切な共存モードを割り当てることができます。 詳細については、「[Migration and interoperability guidance for organizations using Teams together with Skype for Business (Teams を Skype for Business と併用する組織向けの移行と相互運用に関するガイダンス)](migration-interop-guidance-for-teams-with-skype.md)」および「[共存およびアップグレードの設定 (Setting your coexistence and upgrade settings)](https://aka.ms/SkypeToTeams-SetCoexistence)」を参照してください。
 
@@ -75,6 +75,6 @@ Teams に移行する組織にとって、最終的にはすべてのユーザ�
 
 ## <a name="phone-system-and-teams-upgrade"></a>電話システムと Teams のアップグレード
 
-Skype for Business の展開を通話プランを備えた電話システムに移行する場合、Microsoft は公衆交換電話網 (PSTN) プロバイダーになります。 電話番号のポートが完了したと仮定し、ユーザーを Teams にアップグレードすると、着信 PSTN 通話が自動的に Teams に移行されます。
+Skype for Business の展開を通話プランを備えた電話システムに移行する場合、Microsoft は公衆交換電話網 (PSTN) プロバイダーになります。 電話番号の移植を完了したことを前提としています。ユーザーを Teams にアップグレードすると、着信 PSTN 通話が Teams に自動的に移行されます。
 
 Skype for Business の展開を電話システムに移行しているが、通話プランを使用していない場合は、エンタープライズ VoIP 展開を Microsoft 電話システムのダイレクト ルーティングに移行する必要があります。 詳細については、「[電話システムのダイレクト ルーティング](direct-routing-landing-page.md)」を参照してください。

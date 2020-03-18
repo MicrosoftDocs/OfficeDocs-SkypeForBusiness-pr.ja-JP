@@ -18,18 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 69f36da55daf95da66fa87b90487dde447953f53
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e870c6e6561bac991e7b9498ef76162ec1fa2eb9
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837177"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706977"
 ---
+# <a name="quality-of-experience-review-guide"></a>QoE のレビュー ガイド
+
 ![アップグレード過程のオペレーショナルエクセレンスステージを強調した図](media/upgrade-banner-op-excellence.png "オペレーショナルエクセレンスステージに重点を置いたアップグレードの段階")
 
 この記事は、Skype for Business から Teams へのアップグレードが完了したらすぐに、アップグレードの過程のオペレーショナルエクセレンスステージの一部です。
-
-# <a name="quality-of-experience-review-guide"></a>QoE のレビュー ガイド
 
 [品質経験レビューガイド](https://aka.ms/qerguide)には、以下に示すように、ユーザーエクスペリエンスを向上させるための最も大きな影響を受ける主要な領域の一連のアクティビティが含まれています。
 

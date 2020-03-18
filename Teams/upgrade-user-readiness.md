@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad51dd4b269652ec1899b2af6ace6a9b7b9f713a
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: d52c9d670c81e0fcbdcf31012ec08a008b082459
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836797"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706687"
 ---
+# <a name="prepare-a-user-readiness-plan"></a>ユーザーの研修計画を準備する
+
 ![アップグレード過程のステージ、ユーザー準備ステージを強調表示している](media/upgrade-banner-user-readiness.png "アップグレードの段階 (ユーザー準備ステージに重点を置いている場合)")
 
 この記事は、アップグレードが行われたユーザーの準備段階の一部であり、テクニカルレディネスステージと並行して実行されるアクティビティです。 続行する前に、以前のステージでこれらのアクティビティが完了していることを確認してください。
@@ -33,8 +35,6 @@ ms.locfileid: "41836797"
 - [プロジェクトの対象範囲を定義した](https://aka.ms/SkypetoTeams-Scope)
 - [Skype for Business と Teams の共存と相互運用を理解した](https://aka.ms/SkypeToTeams-Coexist)
 - [アップグレードの手順を選択した](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-
-# <a name="prepare-a-user-readiness-plan"></a>ユーザーの研修計画を準備する
 
 最適なユーザー準備計画では、パイロット、オンボード、およびチームへのアップグレード時に、ユーザーとの通信、トレーニング、およびサポートを行う方法が組み込まれています。 [組織変更の準備の評価](https://aka.ms/OrgReadiness)でわかったように、準備は1つのサイズには適していません。 新しいテクノロジの receptiveness を最大限に活用するには、お客様が定義したペルソナと cohorts に合わせて、お客様が定義したペルソナとに合わせて、さまざまなリーチメッセージング (ビジョン/バリューメッセージングとユニバーサルユースケース) とメッセージング、トレーニング、サポートを組み合わせて使用します。 このカスタマイズされたプランは、ユーザーがより迅速にチームに関連することを可能にし、ニーズを理解していることを示すことで、ユーザーの導入を容易にします。
 

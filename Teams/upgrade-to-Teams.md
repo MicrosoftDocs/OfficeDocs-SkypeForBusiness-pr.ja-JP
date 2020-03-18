@@ -18,16 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8038b1d04c3deda955465d6262982d0e216e8f23
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: c1a7602139eda3eba3f1d2919312055773110fc6
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836299"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706877"
 ---
+# <a name="overview"></a>概要
+
 ![「展開と実装」段階が強調表示された、アップグレード行程の各段階](media/upgrade-banner-deployment.png "「展開と実装」段階が強調表示された、アップグレード行程の各段階")
 
-この記事は、アップグレード過程の展開と実装の段階に含まれています。 先に進む前に、次のアクティビティを完了していることを確認してください。
+この記事は、アップグレード過程の展開と実装の段階に含まれています。 続行する前に、次の作業が完了していることを確認します。
 
 - [プロジェクトの関係者をリスト化した](upgrade-enlist-stakeholders.md)
 - [プロジェクトの対象範囲を定義した](https://aka.ms/SkypetoTeams-Scope)
@@ -35,11 +37,6 @@ ms.locfileid: "41836299"
 - [アップグレードの手順を選択した](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 - [環境を準備した](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [組織を準備した](https://aka.ms/SkypeToTeams-UserReadiness)
-
-
-
-
-# <a name="overview"></a>概要
 
 チームにアップグレードを実行するための手順は、Skype for Business の現在の展開によって異なります。
 
