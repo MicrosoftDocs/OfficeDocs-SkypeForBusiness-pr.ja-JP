@@ -18,12 +18,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Teams のアドバイザー (プレビュー) を使用して、Microsoft Teams の展開を計画および完了します。
-ms.openlocfilehash: c1da173ffbdb150d032b11e0d70ba85e3e4f308b
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: ef78352df9d678d9f14dff246c3a363de755b539
+ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836777"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42795850"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Teams のアドバイザーを使用して、Microsoft Teams の展開を支援する
 
@@ -165,6 +165,8 @@ Teams のアドバイザーは、非 EUII (エンド ユーザー識別情報) �
 ## <a name="related-topics"></a>関連トピック
 
 [Teams の展開方法](How-to-roll-out-teams.md)
+
+[Teams でチームを編成するためのベスト プラクティス](best-practices-organizing.md)
 
 [ライセンスのための製品名とサービス プラン識別子](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference
 ) 
