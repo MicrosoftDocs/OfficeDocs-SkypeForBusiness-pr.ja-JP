@@ -14,49 +14,49 @@ search.appverid: MET150
 description: このガイダンスは、Microsoft Teams を使用して組織のリモート ワーカーの生産性を向上させるために使用できます。特に、新型コロナウイルス感染症 (COVID-19) 発生への対策として従業員が在宅勤務 (WFH) となった場合に役立ちます。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0786f7dac4339a5cfa83773010aa9a95ee957f51
-ms.sourcegitcommit: 4306083e7b1dc2e7a0d02b682790450934dada50
+ms.openlocfilehash: a92d5b7eb75519f8123223fb1820e05d63c8f17a
+ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "42639434"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42795980"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Microsoft Teams を使用してリモート ワーカーをサポートする
 
 組織がリモートまたは自宅で作業するユーザーをサポートするために、Microsoft Teams を使用を始めたいとお考えですか ? この記事のガイダンスを使用してすぐに起動し、実行してください。
 
-## <a name="it-admin-guidance"></a>IT 管理者のガイダンス
+## <a name="it-admin-guidance"></a>IT 管理者用ガイダンス
 
-- 6 か月無料の **[Office 365 E1 プラン](e1-trial-license.md)** または **[Teams フリーミアム バージョン](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** を使用しているすべてのユーザーが、Teams にアクセスできることを確認します。 サポートが必要な場合は、Microsoft アカウント チームまたはパートナーにお問い合わせください。
+- 6 か月無料で提供される **[Office 365 E1](e1-trial-license.md)** または **[Teams のフリーミアム版](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** を使用し、すべてのユーザーが Teams にアクセスできる状態になっていることを確認します。 サポートが必要な場合は、Microsoft アカウント チームまたはパートナーにお問い合わせください。
 
--  Teams が含まれるサブスクリプションが既にある場合は、**[すべてのユーザーに対して有効にします](assign-teams-licenses.md)**。
+-  Teams が含まれているサブスクリプションが既にある場合は、**[Teams をすべてのユーザーに対して有効にします](assign-teams-licenses.md)**。
     
-- 「**[Teams での会議](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams)**」で、組織を開始する方法を理解します。 
+- 組織ので使用を開始する方法については、「**[Teams での会議](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams)**」を参照してください。 
 
 詳細については、以下の「[リモート ワーカーをサポートするためのその他のリソース](#additional-resources-for-supporting-remote-workers)」を参照してください。
 
 
 ## <a name="end-user-communications"></a>エンド ユーザー コミュニケーション
 
-Teams をユーザーへと展開するための準備 これらの素晴らしいメール テンプレートを含む**[カスタマー サクセス キット](https://aka.ms/TeamsCustomerSuccess)** を入手してください。
+Teams をユーザーへと展開するための準備 **[カスタマー サクセス キット](https://aka.ms/TeamsCustomerSuccess)** を入手します。これには、次の便利なメール テンプレートが含まれています。
 
-- **お知らせメール**を使用して、Teams が利用できることをユーザーに伝えます。
+- **お知らせメール**は、Teams が利用できることをユーザーに伝える際に使用できます。
 
-- 「**Your First Day in Teams Email (初めての Teams メール)**」を送信して、ユーザーが生産性の高さをすばやく感じられるようにします。
+- ユーザーがすぐに生産的に作業を行えるよう、「**Your First Day in Teams Email (初めての Teams メール)**」を送信します。
 
-- 数日後、ユーザーが Teams を最大限に活用できるように、「**ヒントとテクニック メール**」を送信します。
+- 「**ヒントとテクニック メール**」は、ユーザーが Teams を最大限に活用できるようにするためのヒントで、使用開始後数日してから送信します。
 
 ## <a name="end-user-guidance"></a>エンド ユーザー ガイダンス
 
-これらの資産とビデオをエンド ユーザーと共有して、ユーザーがすぐに使い始めることができるようにします。
+ユーザーがスムーズに使用を開始できるよう、これらのリソースとビデオをエンド ユーザーに送信します。
 
-- **[ウェルカム ビデオ](https://support.office.com/article/video-welcome-to-microsoft-teams-b98d533f-118e-4bae-bf44-3df2470c2b12?wt.mc_id=otc_microsoft_teams)** を見て、Teams の概要を確認しましょう。
+- **[ウェルカム ビデオ](https://support.office.com/article/video-welcome-to-microsoft-teams-b98d533f-118e-4bae-bf44-3df2470c2b12?wt.mc_id=otc_microsoft_teams)** では、Teams の概要が説明されています。
 
 - **[クイック スタート ガイド](https://download.microsoft.com/download/D/9/F/D9FE8B9E-22F5-47BF-A1AB-09539C41FCD0/Teams%20QS.pdf)** をダウンロードして、Teams の基礎を学びましょう。
 
-- Teams のチュートリアルのための一連の短い**[クイック スタート ビデオ](https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)** をご覧ください。
+- **[クイック スタート ビデオ](https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)** は複数の短いビデオのシリーズで、Teams のチュートリアルを視聴できます。
 
-- Teams で会議を使用する方法については、**[会議についてのビデオ](https://support.office.com/article/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4)** をご覧ください。
+- **[会議についてのビデオ](https://support.office.com/article/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4)** では、Teams で会議を使用する方法が説明されています。
 
 
 ## <a name="additional-resources-for-supporting-remote-workers"></a>リモート ワーカーをサポートするためのその他のリソース
@@ -77,15 +77,15 @@ Teams をユーザーへと展開するための準備 これらの素晴らし�
 
 2.  [トレーニングへのリンクを送信](enduser-training.md)して、従業員が Teams を最大限に活用できるよう支援します。
 
-3. さらに深く: Teams の展開についての詳細をご覧ください。
+3. さらに詳しく: 次の、Teams の展開のためのさらに詳しいリソースをご利用ください。
 
-   - 中規模の組織 (ユーザー数 500 から 5000) として、ライブでの[インタラクティブ ワークショップ](teams-in-30-workshops.md)で Teams 体験を始めましょう。
+   - 中規模の組織 (ユーザー数 500 から 5,000) の場合、Teams の使用を開始するにあたり、ライブの[インタラクティブ ワークショップ](teams-in-30-workshops.md)を利用できます。
 
-   - [オンライン クラス](instructor-led-training-teams-landing-page.md)の 1 つに参加して実際に Teams を確認し、質問に対する回答を得ましょう。
+   - [オンライン クラス](instructor-led-training-teams-landing-page.md)に参加すると、Teams の実際の操作の様子を見たり、質問をして回答を得たりすることができます。
 
    - 詳細を知りたいユーザーと[詳細なトレーニング ビデオ](https://www.youtube.com/playlist?list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk)を共有してください。
 
-   - Teams の準備と管理の方法については、「[Teams の展開方法](How-to-roll-out-teams.md)」を参照してください。
+   - Teams を使用するための準備と Teams の管理の方法については、「[Teams の展開方法](How-to-roll-out-teams.md)」を参照してください。
 
 
     
@@ -100,7 +100,7 @@ Teams をユーザーへと展開するための準備 これらの素晴らし�
       - [Office 365 で共同作業する](https://support.office.com/article/Collaborate-with-Office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4)
 
       - [Office 365 を使用してリモートで作業する](https://support.office.com/article/work-remotely-with-office-365-164946c8-a47a-470e-a0b4-feb12a2eea04)
-
+      
       - [オンラインで作業する場合の 9 つのヒント](https://www.microsoft.com/tips/home/working-remotely)
 
       - [自宅で安全に作業するための重要なヒント](https://support.office.com/article/top-tips-for-working-more-securely-from-home-c3e6c940-43a6-43a3-b780-b8784776c2a8)
