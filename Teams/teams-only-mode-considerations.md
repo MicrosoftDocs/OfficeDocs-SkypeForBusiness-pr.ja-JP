@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 806a96db63ca0bbb44eb92ed6e84f8451069e725
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7ec2d9ede5fdd31070228995cefaa16a60ad6224
+ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035461"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42796000"
 ---
 # <a name="teams-only-mode-considerations"></a>Teams Only モードの考慮事項
 
@@ -49,8 +49,6 @@ Teams 専用モードにアップグレードすると、ユーザーは1つの�
 
 **テナント全体の考慮事項**: 次の環境で Teams を有効にするための作業を進めています。ただし、現在のところ、Skype for Business テナントが次のいずれかの環境でホストされている場合、管理者は組織内のユーザーをアップグレードすることはできません。
 
- - 行政機関向けコミュニティクラウド高
- - 行政機関向けコミュニティクラウド DoD
  - 21Vianet が運営する Office 365
  - Office 365 ドイツ
  - Skype for Business テナントは韓国でホストされています。**また**、組織は、韓国で Teams のデータを保存する必要があります。 現在、Skype for Business データを使用している組織では、チームにアップグレードした韓国のデータは、韓国のデータセンターの地域ではなく、アジアのデータセンターに保存されています。

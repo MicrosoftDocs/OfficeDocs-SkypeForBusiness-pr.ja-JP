@@ -3,7 +3,6 @@ title: Teams のテンプレートの使用を開始する
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/25/2019
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams
@@ -19,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fef3357f938be0e9261d0b5459c9f6aa16942329
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 585d3241506dacf60eb02b1d7a3e97cb80357026
+ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837017"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42796030"
 ---
 # <a name="get-started-with-teams-templates"></a>Teams のテンプレートの使用を開始する
 
@@ -46,7 +45,7 @@ Teams テンプレートは、ビジネスニーズまたはプロジェクト�
 
 | **Teams テンプレートでサポートされているチームプロパティ** | **Teams テンプレートでまだサポートされていないチームプロパティ** |
 | ------------------------------------------------ | -------------------------------------------------------- |
-| ベーステンプレートの種類 | チームメンバーシップ |
+| ベーステンプレートの種類 | チーム メンバーシップ |
 | チーム名 | チームの画像 |
 | チームの説明 | チャンネル設定 |
 | チームの表示 (公開または非公開) | コネクタ |
@@ -75,13 +74,10 @@ Teams テンプレートは、ビジネスニーズまたはプロジェクト�
 | 向け<br>ストア | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | チャネル<ul><li>シフトハンド</li><li>意欲</li></ul>チームのプロパティ<ul><li>チームの表示がパブリックに設定</li></ul>メンバーの権限<ul><li>メンバーがチャネルを作成、更新、または削除できないようにする</li><li>メンバーがアプリを追加または削除できないようにする</li><li>メンバーがコネクタを作成、更新、または削除できないようにする</li></ul> |
 | 向け<br>上司との共同作業 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | チャネル<ul><li>シフトハンド</li><li>意欲</li></ul>チームのプロパティ:<ul><li>チームの表示はプライベートに設定</li></ul>メンバーの権限:<ul><li>メンバーがチャネルを作成、更新、または削除できないようにする</li><li>メンバーがアプリを追加または削除できないようにする</li><li>メンバーがコネクタを作成、更新、または削除できないようにする</li></ul>|
 | ヘルス<br>ワード |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |チャネル <ul><li>お知らせ\*</li><li>Huddles\*</li><li>切り下げ</li><li>割り当てる\*</li><li>トレーニング\*</li></ul>\*自動お気に入りチャネル |
-|ヘルス<br>所在 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |チャネル<ul><li>お知らせ\*</li><li>コン\*</li><li>Custodial</li><li>人事</li></li><li>薬</li></ul>\*自動お気に入りチャネル|
+|ヘルス<br>所在 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |チャネル<ul><li>お知らせ\*</li><li>コンプライアンス\*</li><li>Custodial</li><li>人事</li></li><li>薬</li></ul>\*自動お気に入りチャネル|
 |||
 
-> [!NOTE]
-> Microsoft Teams の将来のリリースでは、より基本的なテンプレートの種類を追加するため、サポートされているプロパティについて、最新の情報を確認してください。
-
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [チームを作成する](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)(プレビュー中)
 - [New-Team](https://docs.microsoft.com/powershell/module/teams/New-Team?view=teams-ps)

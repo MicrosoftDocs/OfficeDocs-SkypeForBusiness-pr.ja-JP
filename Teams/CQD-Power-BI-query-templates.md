@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Power BI を使用して、Microsoft Teams の CQD データを分析します。
-ms.openlocfilehash: 155bde0373880befc770d745ca246b76d4c63eec
-ms.sourcegitcommit: 543f650ad4aff73bccfe7a60b66fb944b4e3c119
+ms.openlocfilehash: c69d2ba79044d4d15e21881e5d2a9a2ce4f64feb
+ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42572895"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42796010"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Power BI を使用して Microsoft Teams の CQD データを分析する
 
@@ -40,6 +40,9 @@ Teams の CQD レポートの場合、Power BI を使ってデータのクエリ
 |CQD Summary レポート .pbix     |視覚エフェクトの向上、向上したプレゼンテーション、情報の密度の向上、日付のローリング。 これらのレポートを使用すると、値を簡単に識別することができます。 使いやすいインタラクティブな地図を使用して、場所別の通話品質を詳しく調べることができます。 9新しいレポート:</p>-全体的な品質<br>-信頼性全体<br>-RMC (通話の評価) 全体<br>-会議の品質<br>-P2P の品質<br>-会議の信頼性<br>-P2P の信頼性<br>-電話会議 RMC<br>-P2P RMC         |
 |<strong>(New!)</strong>CQD Teams の使用状況レポート .pbix     | 組織内のユーザーが Teams をどのように使用しているかを示し、その量を示します。 詳細については、「 [CQD POWER BI レポートを使用して Microsoft Teams の利用状況を表示](CQD-teams-utilization-report.md)する」を参照してください。        |
 |CQD ユーザーフィードバック (通話の評価) レポート .pbix     | 組織への通話をサポートするために簡単に使用できる方法で、通話データの料金が表示されます。 Verbatims との相互参照により、エンドユーザーの教育機会を特定します。        |
+
+> [!TIP]
+> Power BI レポートを CQD データ用に設定したら、それらをタブとしてチャネルに追加します。 チャネルでを**+** 選択した後、[ **Power BI** ] を選択してから、レポートを検索します。 これらのレポートにアクセスできるのは、Power BI ライセンスと CQD 管理者の資格情報を持っているユーザーのみです。
 
 
 ## <a name="related-topics"></a>関連項目

@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '政府機関、教育機関 および非営利組織 のプラン用のアドオン ライセンスと機能について説明します。 '
-ms.openlocfilehash: 8544d685fffa1a4ab4f53a83e0651bd898e3c845
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 49be4e27997278d1a0b2842ced2c540783b68163
+ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029388"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42795970"
 ---
 # <a name="gov-edu-and-non-profit-organizations"></a>GOV、EDU、非営利団体
 
@@ -37,3 +37,18 @@ ms.locfileid: "42029388"
 |Office 365 国内通話プラン  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |
    
 ブログの投稿記事「[Advanced Office 365 capabilities now available to U.S. Government Community Cloud customers](https://www.microsoft.com/microsoft-365/blog/2017/01/17/advanced-office-365-capabilities-now-available-to-u-s-government-community-customers/)」をご覧ください。
+
+## <a name="teams-trial-licenses"></a>Teams 試用版ライセンス
+
+ユーザーがリモートで作業したり、家庭で仕事をしたりする必要がなくなったため、Microsoft には、行政機関向け、教育機関向け、非営利団体向けに、いくつかの無料の Teams 試用版が用意されています。
+
+- [Office 365 E1 試用版](../e1-trial-license.md)(Teams など) は、Microsoft アカウント担当者によって管理されているすべてのユーザーに対して、無料の6か月間の e1 ライセンスです。組織にとっては、過去に他の Office 365 E1 試用版をアクティブ化していないユーザーを含みます。 
+
+- GCC の場合、[Office 365 G1 試用版](../g1-trial-license.md)をご確認ください。 
+
+- EDU のお客様は、[無料の Office 365 A1 ライセンス](../teams-edu-licensing.md)を使用する必要があります。
+
+
+## <a name="related-topics"></a>関連項目
+
+[Office 365 非営利団体](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit)
