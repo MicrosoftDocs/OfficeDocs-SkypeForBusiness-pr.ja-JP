@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Microsoft Teams のクラウド自動応答をセットアップしてテストする方法について説明します。
-ms.openlocfilehash: b89f2b439cf79cf90915c61771bb5a08ef27db99
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 841ea2cf82e401c7faad4b287fcd79124bf17fd0
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824812"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42168148"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>クラウドの自動応答をセットアップする
 
@@ -220,8 +220,13 @@ ms.locfileid: "41824812"
 
 > [!IMPORTANT]
 > 次のことを確認してください。
->- 内線番号を使用できるようにするには、 [Microsoft 365 管理センター](https://docs.microsoft.com/office365/admin/add-users/add-users?view=o365-worldwide#use-the-new-admin-center-to-add-users)で割り当てられている電話番号または携帯電話番号の一部として内線番号が指定されている必要があります。  [ユーザー電話番号] フィールドに拡張子を入力するために必要な形式`+<phonenumber>;ext=<extension>`は`x<extension>`、またはのいずれかです。
->- Teams 管理センターでの内線番号の割り当ては、現在サポートされていません。 [Get-msoluser](https://docs.microsoft.com/powershell/module/msonline/set-msoluser?view=azureadps-1.0) powershell コマンドまたは Microsoft 365 管理センターのいずれかを使用する必要があります。
+>- 内線番号でダイヤルできるようにするには、Active Directory または Azure Active Directory [Microsoft 365 管理センター](https://docs.microsoft.com/office365/admin/add-users/add-users?view=o365-worldwide#use-the-new-admin-center-to-add-users)で定義されている次のいずれかの電話属性の一部として内線番号を指定する必要があります。
+>    - HomePhone
+>    - 携帯電話/MobilePhone
+>    - TelephoneNumber/PhoneNumber
+>    - その他の電話
+>- [ユーザー電話番号] フィールドに拡張子を入力するために必要な形式`+<phonenumber>;ext=<extension>`は`x<extension>`、またはのいずれかです。
+>- Teams 管理センターでの内線番号の割り当ては、現在サポートされていません。 [Get-msoluser](https://docs.microsoft.com/powershell/module/msonline/set-msoluser?view=azureadps-1.0) PowerShell コマンドまたは Microsoft 365 管理センターのいずれかを使用する必要があります。
 >- AAD PhoneNumber 属性と MobilePhone 属性の変更が可能になるまでに最大12時間かかることがあります。
 >- ユーザーの LineUri の内線番号を定義しないでください。 現在、これはサポートされていません。
 >- 自動応答は、ダイヤルの名前または内線番号のいずれかに対して構成することができます。両方は使用できません。
@@ -269,7 +274,7 @@ If you choose **Write your call instructions**, enter the script  you want the s
 
 ![数値3のアイコン、前のスクリーンショット](media/teamscallout3.png)の吹き出し [すべての時間を**クリア**] を選んで、スケジュールを完全に消去します。 このチェックボックスをオンにして、[時間] の設定を解除することはお勧めできません。そのため、業務時間を完全に再利用する場合にのみ、このオプションを使用してください。
 
-![数値4のアイコン、前のスクリーンショットの数字 5](media/teamscallout4.png)![のスクリーンショットアイコン、前のスクリーンショット](media/teamscallout5.png)の [開始] または [終了] をクリックして、曜日の開始時刻**または**終了**** 時刻をカスタマイズし、表示されるリストから新しい時刻を選びます。   リストでは、15分間隔で事業時間を選ぶことができます。ここで選択する業務時間は、[**一般情報**] ページで設定したタイムゾーンに基づいています。
+![数値4のアイコン、前のスクリーンショットの数字 5](media/teamscallout4.png)![のスクリーンショットアイコン、前のスクリーンショット](media/teamscallout5.png)の [開始] または [終了] をクリックして、曜日の開始時刻**または**終了**End at**時刻をカスタマイズし、表示されるリストから新しい時刻を選びます。   リストでは、15分間隔で事業時間を選ぶことができます。ここで選択する業務時間は、[**一般情報**] ページで設定したタイムゾーンに基づいています。
 
  <!-- The **Apply to all days** option can be used to reset all days of the week to match the settings for that day. This makes setting weekdays and weekends to different hours easier.-->
 

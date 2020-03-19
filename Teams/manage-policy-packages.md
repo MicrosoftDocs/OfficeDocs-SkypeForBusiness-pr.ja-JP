@@ -12,22 +12,26 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-f1.keywords: ms.teamsadmincenter.policypackages.overview
+f1.keywords:
+- CSH
+ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams でポリシーパッケージを使用および管理する方法について説明します。
-ms.openlocfilehash: d73cd22cc0a98cd772ba3823fffa3649602010bc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d7c0ded990225b969579f50ea5f87a32efebe388
+ms.sourcegitcommit: 54cbcf917d9663e6aa9760d7399b36c00d66478c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41772746"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42857989"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Microsoft Teams でポリシーパッケージを管理する
 
 Microsoft Teams のポリシーパッケージは、組織内で同様の役割を持つユーザーに割り当てることができる定義済みのポリシーおよびポリシー設定のコレクションです。 組織全体のユーザーグループのポリシーを管理する際の一貫性を高めるために、ポリシーパッケージを作成しました。  
 
 ポリシーパッケージをユーザーに割り当てると、パッケージ内のポリシーが作成され、組織のニーズに合わせてパッケージ内のポリシーの設定をカスタマイズすることができます。
+
+ポリシーパッケージは、米国政府機関向けクラウドコミュニティ (GCC) 組織では使用できません。
 
 ## <a name="what-is-a-policy-package"></a>ポリシーパッケージとは
 
@@ -80,7 +84,7 @@ Microsoft Teams 管理センターでポリシーパッケージを表示、割�
 
 #### <a name="assign-a-policy-package-to-one-user"></a>1人のユーザーにポリシーパッケージを割り当てる
 
-1. Microsoft Teams 管理センターの左側のナビゲーションで、**[ユーザー]** に移動してユーザーをクリックします。
+1. Microsoft Teams 管理センターの左側のナビゲーションで、[**ユーザー**] に移動してユーザーをクリックします。
 2. ユーザーのページで、[**ポリシー**] をクリックし、[**ポリシーパッケージ**] の横にある [**編集**] をクリックします。
 3. [**ポリシーパッケージの割り当て**] ウィンドウで、割り当てるパッケージを選択し、[**保存**] をクリックします。
 
@@ -88,7 +92,7 @@ Microsoft Teams 管理センターでポリシーパッケージを表示、割�
 
 1. Microsoft Teams 管理センターの左のナビゲーションで、[**ポリシーパッケージ**] に移動し、パッケージ名の左側をクリックして割り当てるポリシーパッケージを選択します。
 2. [**ユーザーの管理**] をクリックします。
-3. [**ユーザーの管理**] ウィンドウで、[表示名] または [ユーザー名] でユーザーを検索し、名前を選択して [**追加**] をクリックします。 追加するユーザーごとに、この手順を繰り返します。
+3. [**ユーザーを管理する**] ウィンドウで、表示名またはユーザー名でユーザーを検索し、名前を選択して [**追加**] をクリックします。 追加するユーザーごとに、この手順を繰り返します。
 4. ユーザーの追加が完了したら、[**保存**] をクリックします。
 
 ### <a name="customize-policies-in-a-policy-package"></a>ポリシーパッケージのポリシーをカスタマイズする
@@ -107,6 +111,6 @@ Microsoft Teams 管理センターでポリシーパッケージを表示、割�
 
 この問題は、パッケージ内の1つ以上のポリシーが正常に作成または適用されなかった場合に発生することがあります。 ポリシーパッケージをユーザーに割り当て直します。 通常、操作を再試行すると、この問題は修正されます。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [EDU 管理者向けの Microsoft Teams ポリシー パッケージ](policy-packages-edu.md)

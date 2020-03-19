@@ -18,7 +18,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 4e009ccfb70e307e4a67f8331deabce51e229c0f
 ms.sourcegitcommit: 511238a3550ad0ff8d4bbd4600a252651ab6a654
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 03/13/2020
 ms.locfileid: "42615369"
@@ -68,7 +68,7 @@ Citrix Virtual Apps and Desktops (以前の XenApp および XenDesktop) は、V
 
 Citrix Virtual Apps and Desktops の最新バージョンは、[こちら](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/)からダウンロードできます。 (最初にサインインする必要があります。) 必要なコンポーネントは、デフォルトで [Citrix Workspace アプリ (CWA)](https://www.citrix.com/downloads/workspace-app/) および Virtual Delivery Agent (VDA) にバンドルされています。 CWA や VDA に追加のコンポーネントやプラグインをインストールする必要はありません。
 
-サーバーおよびクライアントの最新の要件については、[この Citrix Web サイト](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html)を参照してください。
+サーバーおよびクライアントの最新の要件については、[この Citrix Web サイト](https://docs.citrix.com/ja-JP/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html)を参照してください。
 
 ## <a name="install-or-update-the-teams-desktop-app-on-vdi"></a>VDI で Teams デスクトップ アプリをインストールまたは更新する
 
@@ -197,7 +197,7 @@ Teams と Office 365 ProPlus の詳細については、「[Office 365 ProPlus �
 - コール キュー
 
 > [!IMPORTANT]
-> 現在、VDI で AV 最適化なしで Teams を実行しており、最適化でまだサポートされていない機能 (アプリ共有時の制御の受け渡しなど) を使用する場合、Citrix ポリシーを設定して Teams のリダイレクトを無効にする必要があります。 これは、Teams メディアセッションが最適化されないことを意味します。 Teams のリダイレクトを無効にするポリシーを設定する方法の手順については、この [Citrix Web サイト](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/policies/reference/ica-policy-settings/multimedia-policy-settings.html)を参照してください。
+> 現在、VDI で AV 最適化なしで Teams を実行しており、最適化でまだサポートされていない機能 (アプリ共有時の制御の受け渡しなど) を使用する場合、Citrix ポリシーを設定して Teams のリダイレクトを無効にする必要があります。 つまり、Teams のメディア セッションは最適化されません。 Teams のリダイレクトを無効にするポリシーを設定する方法の手順については、この [Citrix Web サイト](https://docs.citrix.com/ja-JP/citrix-virtual-apps-desktops/policies/reference/ica-policy-settings/multimedia-policy-settings.html)を参照してください。
 
 現在は非 VDI 環境でのみ利用可能な通話および会議機能の追加に取り組んでいます。 これらには、品質についての管理者制御の強化、画面共有シナリオの追加、および最近 Teams に追加された高度な機能が含まれる可能性があります。 今後の機能の詳細については、Teams の担当者にお問い合わせください。
 
@@ -209,7 +209,7 @@ Teams 用にネットワークを準備する方法の詳細については、�
 
 ### <a name="migrate-from-skype-for-business-on-vdi-to-teams-on-vdi"></a>VDI上の Skype for Business から VDI 上の Teams に移行する
 
-VDI 上の Skype for Business から VDI 上の Teams に移行する場合、2 つのアプリケーションの違いに加えて、VDI も実装されている場合にはいくつかの違いがあります。 Skype for Business VDI で現在サポートされていない Teams VDI の機能には、次のような機能があります。
+VDI 上の Skype for Business から VDI 上の Teams に移行する場合、2 つのアプリケーションの違いに加えて、VDI も実装されている場合にはいくつかの違いがあります。 Skype for Business VDI ではサポートされていて、Teams VDI では現在サポートされていない機能は、次のとおりです。
 
 - メディアのビットレートを制限するポリシーを使用した VDI 通話エクスペリエンスの制御
 - VDI の一部の AV 機能を無効にするプラットフォームごとのポリシー
@@ -232,7 +232,7 @@ Chrome ブラウザーの Teams は、AV 最適化を備えた VDI 用の Teams 
 
 ### <a name="set-policies-to-turn-off-calling-and-meeting-functionality"></a>通話および会議機能を無効にするポリシーを設定する
 
-Microsoft Teams 管理センターまたは PowerShell を使用してポリシーを設定できます。 ポリシーの変更が反映されるまでに時間がかかる場合があります (数時間)。 特定のアカウントの変更がすぐに表示されない場合は、数時間後にもう一度お試しください。
+Microsoft Teams 管理センターまたは PowerShell を使用してポリシーを設定できます。 ポリシーの変更が反映されるまでに時間がかかる場合があります (数時間)。 指定したアカウントの変更がすぐに表示されない場合は、数時間後にもう一度お試しください。
 
 [**通話ポリシー**](teams-calling-policy.md): Teams には、すべての通話機能が無効になっている組み込みの DisallowCalling 通話ポリシーが含まれています。 DisallowCalling ポリシーを、仮想化環境で Teams を使用する組織内のすべてのユーザーに割り当てます。
 
@@ -284,7 +284,7 @@ PowerShell を使用して会議ポリシーを管理する方法の詳細につ
 
 ### <a name="set-policies-to-turn-on-calling-and-meeting-functionality"></a>通話および会議機能を有効にするポリシーを設定する
 
-Microsoft Teams 管理センターまたは PowerShell を使用して、通話および会議ポリシーを設定し、ユーザーに割り当てることができます。 ポリシーの変更が反映されるまでに時間がかかる場合があります (数時間)。 特定のアカウントの変更がすぐに表示されない場合は、数時間後にもう一度お試しください。
+Microsoft Teams 管理センターまたは PowerShell を使用して、通話および会議ポリシーを設定し、ユーザーに割り当てることができます。 ポリシーの変更が反映されるまでに時間がかかる場合があります (数時間)。 指定したアカウントの変更がすぐに表示されない場合は、数時間が経過した後にもう一度お試しください。
 
 [**通話ポリシー**](teams-calling-policy.md): Teams の通話ポリシーは、ユーザーが使用できる通話機能を制御します。 Teams には、すべての通話機能が有効になっている組み込みの AallowCalling 通話ポリシーが含まれています。 すべての通話機能を有効にするには、AllowCalling ポリシーを割り当てます。 または、カスタム通話ポリシーを作成して、必要な通話機能を有効にし、ユーザーに割り当てます。 
 
@@ -355,13 +355,13 @@ PowerShell を使用して会議ポリシーを管理する方法の詳細につ
 - マルチモニター設定での画面共有の場合、メイン モニターのみ共有されます。
 - CWA での高 DPI スケーリングはサポートされていません。
 
-VDI に関連していない Teams の既知の問題については、「 [teams の既知の問題](Known-issues.md)」を参照してください。
+VDI に関連しない Teams の既知の問題については、「[Teams の既知の問題](Known-issues.md)」を参照してください。
 
 ## <a name="troubleshooting"></a>トラブルシューティング
 
 #### <a name="troubleshoot-citrix-components"></a>Citrix コンポーネントのトラブルシューティング
 
-VDA および CWA の問題のトラブルシューティング方法については、[このCitrix Web サイト](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html)を参照してください。
+VDA および CWA の問題のトラブルシューティング方法については、[このCitrix Web サイト](https://docs.citrix.com/ja-JP/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html)を参照してください。
 
 ## <a name="related-topics"></a>関連項目
 
