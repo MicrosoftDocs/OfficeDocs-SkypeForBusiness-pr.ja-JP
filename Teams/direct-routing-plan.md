@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: このトピックでは、Microsoft Phone システムのダイレクトルーティングを使用して、サポートされているユーザーが指定したセッションボーダーコントローラー (SBC) を Microsoft 電話システムに接続する方法について説明します。
-ms.openlocfilehash: 347a8a7dd64831281c1c9e2f94f2bea24fb18555
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 0e15f8e76bc9512a28311764c39e34b45131b9d3
+ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160711"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42858582"
 ---
 # <a name="plan-direct-routing"></a>ダイレクト ルーティングを計画する
 
@@ -303,6 +303,25 @@ SBC は、sip.pstnhub.microsoft.com を解決する DNS クエリを行います
   > [!NOTE]
   > Microsoft は、SBC で同時呼び出しごとに少なくとも2つのポートをお勧めします。
 
+
+## <a name="media-traffic-media-processors-geography"></a>メディアトラフィック: メディアプロセッサの地理
+
+メディアトラフィックは、メディアプロセッサと呼ばれるコンポーネントを介してフローします。 メディアプロセッサは、SIP プロキシと同じデータセンターに配置されます。 また、メディアフローを最適化するための追加のメディアプロセッサも用意されています。 たとえば、現時点では、SIP プロキシコンポーネントをオーストラリア (シンガポールまたは香港) で使用することはできませんが、オーストラリアにはローカルでメディアプロセッサが搭載されています。 メディアプロセッサのローカルでのニーズは、たとえばオーストラリアからシンガポール、香港などのトラフィックを長距離で送信することによって発生する待ち時間によって決まります。 オーストラリアから香港へ流れるトラフィックの例では、リアルタイムのメディアトラフィックに対して良好な通話音質を維持することができます。
+
+メディアプロセッサの場所:
+
+SIP プロキシとメディアプロセッサコンポーネントの両方が展開されている場所:
+- 米国 (米国西部および米国東部データセンターに2つ)
+- ヨーロッパ (アムステルダムとダブリンデータセンター)
+- アジア (シンガポールと香港のデータセンター)
+
+メディアプロセッサのみが展開されている場所 (上記の最も近いデータセンターによる SIP フロー):
+- 日本 (JP 東部および西部データセンター)
+- オーストラリア (AU 東部および西部データセンター)
+
+
+
+
 ## <a name="media-traffic-codecs"></a>メディアトラフィック: コーデック
 
 ### <a name="leg-between-sbc-and-cloud-media-processor-or-microsoft-teams-client"></a>SBC と Cloud Media Processor または Microsoft Teams クライアント間の区間。
@@ -333,6 +352,3 @@ Microsoft は、認定された SBCs と直接ルーティングをサポート�
 ## <a name="see-also"></a>関連項目
 
 [ダイレクト ルーティングを構成する](direct-routing-configure.md)
-
-
-

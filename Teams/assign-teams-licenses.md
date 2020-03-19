@@ -9,6 +9,7 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_RemoteWorkers
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,12 +17,12 @@ ms.reviewer: mikedav
 description: 電話会議、電話システム、通話プランなどの機能にライセンスを割り当てる方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9d75201b7be82337898d4e9fe4feafb4de1155a9
-ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
+ms.openlocfilehash: b962a29f163a094f5b7c74f7504a5d78e310561a
+ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42236837"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42858559"
 ---
 # <a name="assign-microsoft-teams-licenses"></a>Microsoft Teams ライセンスを割り当てる
 
@@ -164,10 +165,10 @@ foreach ($user in $users)
 | 製品名 | SKU 部品名 |
 |--------------|---------------|
 | 電話会議 (サブスクリプション) | MCOMEETADV | 
-| 電話会議の1分あたりの料金 (プリペイド)</br>*注: 通信クレジットを設定して有効にする必要があり*ます。 | MCOMEETACPEA |
+| 電話会議の1分あたりの料金 (プリペイド)</br>*注: 通信クレジットを設定して有効にする必要があり*ます。 |    MCOMEETACPEA |
 | エンタープライズ E1 | STANDARDPACK | 
 | エンタープライズ E3 | ENTERPRISEPACK |
-| Enterprise E5 (電話会議なし) |  ENTERPRISEPREMIUM_NOPSTNCONF |
+| Enterprise E5 (電話会議なし) |     ENTERPRISEPREMIUM_NOPSTNCONF |
 | Enterprise E5 (電話会議あり) | ENTERPRISEPREMIUM |
 
 ##  <a name="communications-credits"></a>コミュニケーション クレジット
@@ -186,7 +187,7 @@ foreach ($user in $users)
 
 電話会議ライセンスを割り当てるサンプル スクリプトを確認します。 その情報を、 通信クレジットのライセンスを割り当てるための情報で更新します。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [通話プランの設定](set-up-calling-plans.md)
 </br>

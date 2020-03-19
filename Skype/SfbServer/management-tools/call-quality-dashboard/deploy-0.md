@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: '概要: 通話品質ダッシュボードの展開プロセスについて説明します。 通話品質ダッシュボードは、Skype for Business Server 用のツールです。'
-ms.openlocfilehash: d42d735ab5a60ec02ad2e1f4f696908996457c0b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 5879c4a99eec8471763e0fccc3a4886be660dbb6
+ms.sourcegitcommit: 54cbcf917d9663e6aa9760d7399b36c00d66478c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42042264"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42840161"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>Skype for Business Server の通話品質ダッシュボードの展開
  
@@ -386,22 +386,23 @@ BuildingKey、BuildingName、BuildingShortName、OwnershipTypeId、BuildingTypeI
 建物のインポートによって、特定の洞察を得ることができます (WiFi/有線で構築するごとに低品質の通話)。 
   
 > [!NOTE]
-> この手順はオプションですが、推奨されています。 
+> この手順はオプションですが、推奨されています。
   
-サブネットをインポートし、前の手順でインポートした建物にマッピングします。 NetworkName に値を設定しない場合は、この表の各エントリで、Networkname の0が使用されていることを確認してください。
+サブネットをインポートし、前の手順でインポートした建物にマッピングします。 NetworkName に値を設定しない場合は、この表の各エントリで、Networkname の0が使用されていることを確認してください。 通話品質ダッシュボードの SQL 構文とパラメーターの詳細については、「 [Skype For Business Server の通話品質ダッシュボードの使用](https://docs.microsoft.com/skypeforbusiness/management-tools/call-quality-dashboard/use)」を参照してください。
   
  **サンプルの SQL 構文**
   
 ```SQL
 INSERT INTO [dbo].[CqdNetwork] 
 ([Network]
+,[NetworkRange]
 ,[NetworkNameID]
 ,[BuildingKey]
 ,[UpdatedDate]
 )
 
 VALUES
- ('172.16.254.0',0,1,'2015-11-11')
+ ('172.16.254.0',32,0,1,'2015-11-11')
 ```
 
 Network パラメーターと UpdatedDate パラメーターは必須であり、その他のパラメーターは省略可能です。
