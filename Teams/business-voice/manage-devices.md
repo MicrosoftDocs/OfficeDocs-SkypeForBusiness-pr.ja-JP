@@ -1,5 +1,5 @@
 ---
-title: デバイスの管理
+title: デバイスを管理する
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -19,7 +19,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e5a0d583e100438d172baac82780ab5a9d14b88c
 ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 02/06/2020
 ms.locfileid: "41824871"

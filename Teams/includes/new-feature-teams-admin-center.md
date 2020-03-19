@@ -1,1 +1,1 @@
-Microsoft Teams 管理センターにこの機能が表示されていない場合 現在ロールアウト中であり、組織内でまだ利用できない可能性があります。 今後の Teams の機能については、 [Microsoft 365 のロードマップ](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)をご覧ください。
+Microsoft Teams 管理センターでまだこの機能が利用できませんか? 現在ロールアウトされている最中で、お客様の組織ではまだ利用できない可能性があります。 Teams 機能の最新情報を入手するには、「[Microsoft 365 ロードマップ](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)」を参照してください。
