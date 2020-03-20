@@ -1,5 +1,5 @@
 ---
-title: 追加の通話応答とコールツリーを設定する
+title: 追加の通話応答と通話ツリーを設定する
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -19,7 +19,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e813e8dd29e224cd8f5b5211d2f8907b9538acd9
 ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 02/06/2020
 ms.locfileid: "41824811"
