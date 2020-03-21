@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c048e321241f4403fbb69f71e56b3fc179346951
-ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
-ms.translationtype: HT
+ms.openlocfilehash: a17b9ed78f484f593715a551fd11fa158bd6262a
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42327829"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42892207"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager を使用して Microsoft Teams をインストールする
 
@@ -75,17 +75,17 @@ VDI に Teams デスクトップ アプリを展開する方法の詳細なガ�
 
 ## <a name="clean-up-and-redeployment-procedure"></a>クリーン アップと展開の手順
 
-ユーザーがユーザー プロファイルから Teams をアンインストールすると、MSI のインストーラーは、そのユーザーが Teams アプリをアンインストールしたことと、そのユーザー プロファイルで今後 Teams をインストールする機会がないことを記録します。 このユーザーのために Teams がアンインストールされた特定のコンピューター上で Teams を再展開するには、次の手順を実行します。
+ユーザーが自分のユーザープロファイルから Teams をアンインストールした場合、MSI installer は、ユーザーが Teams アプリをアンインストールして、そのユーザープロファイルの Teams をインストールしなくなったことを追跡します。 このユーザーのために Teams がアンインストールされた特定のコンピューター上で Teams を再展開するには、次の手順を実行します。
 
-1. それぞれのユーザー プロファイルにインストールされている Teams アプリをすべてアンインストールします。
-2. アンインストール後、`%localappdata%\Microsoft\Teams\` 以下のディレクトリを再帰的に削除します。
+1. 各ユーザープロファイルにインストールされている Teams アプリをアンインストールします。
+2. アンインストール後、ディレクトリを再帰的に`%localappdata%\Microsoft\Teams\`削除します。
 3. MSI パッケージをその特定のコンピューターに再展開します。
 
 ## <a name="prevent-teams-from-starting-automatically-after-installation"></a>インストール後に Teams が自動的に起動しないようにする
 
 MSI の既定の動作では、ユーザーがサインインするとすぐに Teams アプリがインストールされ、Teams が自動的に起動されます。 ユーザーがインストールした後に Teams が自動的に起動しないようにするには、グループ ポリシーを使用してポリシー設定を設定するか、MSI インストーラーの自動起動を無効にします。
 
-#### <a name="use-group-policy-recommended"></a>グループ ポリシーを使用する (推奨)
+### <a name="use-group-policy-recommended"></a>グループ ポリシーを使用する (推奨)
 
 **[Prevent Microsoft Teams from starting automatically after installation]**(インストール後に Microsoft Teams が自動的に起動しないようにする) グループ ポリシー設定を有効にします。 このポリシー設定は、[ユーザー構成]\[ポリシー]\[管理用テンプレート]\[Microsoft Teams] にあります。 組織のニーズに合わせてポリシー設定を無効にも有効にもできるため、この方法を使用することをお勧めします。
 
@@ -103,16 +103,18 @@ Teams がインストールされる前にこのポリシー設定を有効に�
 32 ビット 版向け
 
 ```console
-msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true"
+msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true" ALLUSERS=1
 ```
 
 64 ビット 版向け
 
 ```console
-msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true"
+msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true" ALLUSERS=1
 ```
 
 ユーザーが Windows にログインすると、Teams は MSI と一緒にインストールされ、Teams を起動するためのショートカットがユーザーのデスクトップに追加されます。 そのユーザーが手動で Teams を起動するまで Teams は起動しません。 ユーザーが手動で Teams を起動すると、そのユーザーがログインするたびに Teams は自動起動するようになります。
+
+これらの例では、 **ALLUSERS = 1**パラメーターも使用していることに注意してください。 このパラメーターを設定すると、チームのコンピューター全体のインストーラーがコントロールパネルの [プログラムと機能] に表示され、[アプリ] では、コンピューターのすべてのユーザーの Windows 設定の & 機能が表示されます。 すべてのユーザーは、コンピューターの管理者資格情報を持っている場合、Teams をアンインストールできます。
 
 > [!Note]
 > MSI を手動で実行する場合は、昇格されたアクセス許可で実行します。 管理者として実行する場合でも、管理者特権で実行しない限り、インストーラーで自動起動を無効にするオプションを構成することはできません。

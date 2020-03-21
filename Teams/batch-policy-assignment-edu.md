@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: バッチポリシーの割り当てを使用して、リモート学校 (teleschool、tele) の目的で、教育機関の多数のユーザーにポリシーを割り当てる方法について説明します。
 f1keywords: ''
-ms.openlocfilehash: 8dd771b27c1950cdce1590783bcfb3b4159c1c29
-ms.sourcegitcommit: 891ba3670ccd16bf72adee5a5f82978dc144b9c1
+ms.openlocfilehash: 5e3ee25bf4fadea595fc224b2944a12c279f9c59
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42691187"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42892277"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>学校の大規模なユーザーセットにポリシーを割り当てる
 
@@ -82,20 +82,16 @@ Connect-MicrosoftTeams
 最初に、次を実行して、ライセンスの種類別にスタッフと教師を特定します。 これは、組織で使用されている Sku を示します。 次に、教職員の SKU が割り当てられているスタッフと教師を特定することができます。
 
 ```powershell
-Get-AzureADSubscribedSku
-```
-
-```powershell
-$skus = Get-AzureADSubscribedSku
+Get-AzureAdSubscribedSku | Select-Object -Property SkuPartNumber,SkuId
 ```
 
 戻り値:
 
 ```
-ObjectId                                                                  SkuPartNumber      SkuId
---------                                                                  -------------      -----
-ee1a846c-79e9-4bc3-9189-011ca89be890_e97c048c-37a4-45fb-ab50-022fbf07a370 M365EDU_A5_FACULTY e97c048c-37a4-45fb-ab50-922fbf07a370
-ee1a846c-79e9-4bc3-9189-011ca89be890_46c119d4-0379-4a9d-85e4-97c66d3f909e M365EDU_A5_STUDENT 46c119d4-0379-4a9d-85e4-97c66d3f909e
+SkuPartNumber      SkuId
+-------------      -----
+M365EDU_A5_FACULTY e97c048c-37a4-45fb-ab50-922fbf07a370
+M365EDU_A5_STUDENT 46c119d4-0379-4a9d-85e4-97c66d3f909e
 ```
 
 この例では、教職員ライセンスの SkuId が "e97c048c-37a4-45fb-ab50-922fbf07a370" であることが出力されます。
@@ -106,7 +102,7 @@ ee1a846c-79e9-4bc3-9189-011ca89be890_46c119d4-0379-4a9d-85e4-97c66d3f909e M365ED
 次に、このライセンスを所有しているユーザーを特定し、それらをすべてまとめて収集するために、次の処理を実行します。
 
 ```powershell
-$faculty = Get-AzureADUser -All $true | Where-Object (($_.assignedLicenses).SkuId -contains "e97c048c-37a4-45fb-ab50-922fbf07a370")
+$faculty = Get-AzureADUser -All $true | Where-Object {($_.assignedLicenses).SkuId -contains "e97c048c-37a4-45fb-ab50-922fbf07a370"}
 ```
 
 ## <a name="assign-a-policy-in-bulk"></a>ポリシーをまとめて割り当てる
@@ -150,7 +146,7 @@ $faculty.count
 ユーザー Id のリスト全体を指定する代わりに、次のようにして最初の2万を指定し、その後に次の2万を実行します。
 
 ```powershell
-Assign-CsPolicy -PolicyType TeamsMeetingPolicy -PolicyName EducatorMeetingPolicy -Identities $faculty[0..19999].ObjectId
+New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName EducatorMeetingPolicy -Identity $faculty[0..19999].ObjectId
 ```
 
 ユーザー Id の範囲は、すべてのユーザーのリストに到達するまで変更できます。 たとえば、最初の```$faculty[0..19999```バッチに対しては enter ```$faculty[20000..39999``` 、2番目```$faculty[40000..59999```のバッチには、3番目のバッチに対してを使用します。

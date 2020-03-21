@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e009ccfb70e307e4a67f8331deabce51e229c0f
-ms.sourcegitcommit: 511238a3550ad0ff8d4bbd4600a252651ab6a654
-ms.translationtype: HT
+ms.openlocfilehash: 2cfe1c1af9fe85d307999289d318106c8ebc132a
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42615369"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42892297"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>仮想デスクトップ インフラストラクチャ用の Teams
 
@@ -68,7 +68,7 @@ Citrix Virtual Apps and Desktops (以前の XenApp および XenDesktop) は、V
 
 Citrix Virtual Apps and Desktops の最新バージョンは、[こちら](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/)からダウンロードできます。 (最初にサインインする必要があります。) 必要なコンポーネントは、デフォルトで [Citrix Workspace アプリ (CWA)](https://www.citrix.com/downloads/workspace-app/) および Virtual Delivery Agent (VDA) にバンドルされています。 CWA や VDA に追加のコンポーネントやプラグインをインストールする必要はありません。
 
-サーバーおよびクライアントの最新の要件については、[この Citrix Web サイト](https://docs.citrix.com/ja-JP/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html)を参照してください。
+サーバーおよびクライアントの最新の要件については、[この Citrix Web サイト](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html)を参照してください。
 
 ## <a name="install-or-update-the-teams-desktop-app-on-vdi"></a>VDI で Teams デスクトップ アプリをインストールまたは更新する
 
@@ -142,28 +142,31 @@ Teams と Office 365 ProPlus の詳細については、「[Office 365 ProPlus �
     - ユーザーごとのインストール (既定)
   
         ```console
-        msiexec /i <path_to_msi> /l*v <install_logfile_name>
+        msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSERS=1
         ```
-    
+
         これは、Teams を %AppData% ユーザー フォルダーにインストールする既定のインストールです。 この時点で、ゴールデン イメージのセットアップは完了です。 Teams は、非永続的なセットアップでのユーザーごとのインストールでは適切に動作しません。
-    
+
     - マシンごとのインストール
 
         ```console
-        msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1
+        msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1 ALLUSERS=1
         ```
 
         これにより、64ビット オペレーティング システムの Program Files (x86) フォルダーおよび 32 ビット オペレーティング システム の Program Files フォルダーに Teams がインストールされます。 この時点で、ゴールデン イメージのセットアップは完了です。 非永続的なセットアップについては、マシンごとに Teams をインストールする必要があります。
- 
+
         次の対話型ログオン セッションは、Teams を開始し、資格情報を要求します。
 
-3. VDI VM から MSI をアンインストールします。 
+    > [!NOTE]
+    > これらの例では、 **ALLUSERS = 1**パラメーターも使用します。 このパラメーターを設定すると、チームのコンピューター全体のインストーラーがコントロールパネルの [プログラムと機能] に表示され、[アプリ] では、コンピューターのすべてのユーザーの Windows 設定の & 機能が表示されます。 すべてのユーザーが管理者の資格情報を持っている場合は、チームをアンインストールできます。 **ALLUSERS = 1**と**alluser = 1**の違いを理解しておくことが重要です。 **ALLUSERS = 1**パラメーターは、非 VDI および vdi 環境で使うことができ、 **alluser = 1**パラメーターは vdi 環境でのみ使用され、コンピューター単位のインストールを指定します。
+
+3. VDI VM から MSI をアンインストールします。
 
     Teams をアンインストールする方法は 2 つあります。  
   
     - PowerShell スクリプト (推奨)
-    
-    - コマンド ライン: このアプローチは Teams を削除しますが、Teams の再インストールを防ぎます。 次のコマンドを実行します。
+
+    - コマンドライン:
   
       ```console
       msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
@@ -197,7 +200,7 @@ Teams と Office 365 ProPlus の詳細については、「[Office 365 ProPlus �
 - コール キュー
 
 > [!IMPORTANT]
-> 現在、VDI で AV 最適化なしで Teams を実行しており、最適化でまだサポートされていない機能 (アプリ共有時の制御の受け渡しなど) を使用する場合、Citrix ポリシーを設定して Teams のリダイレクトを無効にする必要があります。 つまり、Teams のメディア セッションは最適化されません。 Teams のリダイレクトを無効にするポリシーを設定する方法の手順については、この [Citrix Web サイト](https://docs.citrix.com/ja-JP/citrix-virtual-apps-desktops/policies/reference/ica-policy-settings/multimedia-policy-settings.html)を参照してください。
+> 現在、VDI で AV 最適化なしで Teams を実行しており、最適化でまだサポートされていない機能 (アプリ共有時の制御の受け渡しなど) を使用する場合、Citrix ポリシーを設定して Teams のリダイレクトを無効にする必要があります。 つまり、Teams のメディア セッションは最適化されません。 Teams のリダイレクトを無効にするポリシーを設定する方法の手順については、この [Citrix Web サイト](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/policies/reference/ica-policy-settings/multimedia-policy-settings.html)を参照してください。
 
 現在は非 VDI 環境でのみ利用可能な通話および会議機能の追加に取り組んでいます。 これらには、品質についての管理者制御の強化、画面共有シナリオの追加、および最近 Teams に追加された高度な機能が含まれる可能性があります。 今後の機能の詳細については、Teams の担当者にお問い合わせください。
 
@@ -361,7 +364,7 @@ VDI に関連しない Teams の既知の問題については、「[Teams の�
 
 #### <a name="troubleshoot-citrix-components"></a>Citrix コンポーネントのトラブルシューティング
 
-VDA および CWA の問題のトラブルシューティング方法については、[このCitrix Web サイト](https://docs.citrix.com/ja-JP/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html)を参照してください。
+VDA および CWA の問題のトラブルシューティング方法については、[このCitrix Web サイト](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html)を参照してください。
 
 ## <a name="related-topics"></a>関連項目
 

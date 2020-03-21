@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31c6b04531b21996f897b3d668fdb6515f1e953f
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: ec16f919bad5ed696741664836aa3d7127837c5a
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836817"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42892367"
 ---
 # <a name="get-started-with-teams-templates-in-retail"></a>小売業の Teams テンプレートの使用を開始する 
 
@@ -64,3 +64,26 @@ Teams のテンプレートには、小売業者のニーズに合わせて設�
 組織のマネージャーコラボレーションテンプレートをカスタマイズするには、次の方法をお勧めします。
 
 - 組織に、マネージャーに関連する内部の web サイト (SharePoint サイトなど) がある場合は、それらを関連チームチャネルのタブとして固定することを検討してください (手順について[は、こちら](get-started-with-teams-templates.md)のドキュメントを参照してください)。
+
+## <a name="how-to-use-first-party-templates"></a>ファーストパーティテンプレートの使用方法
+
+これらのテンプレートを使用するには、要求本文の ' template@odata ' プロパティを ' standard ' から TemplateIDs に変更します。  Teams テンプレートの展開方法の詳細については、Microsoft Graph の記事「[チームを作成](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)する方法」を参照してください。
+
+> [!NOTE]
+> テンプレートのチャネルは、[全般] タブに自動的に作成されます。
+
+### <a name="example-store-template-extension-script"></a>例: ストアテンプレート拡張機能スクリプト
+
+``` PowerShell
+{
+  "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates('retailStore')",
+  "DisplayName": "Contoso Store",
+  "Description": "Team for all staff in Contoso Store",
+  "Channels": [
+    {
+      "displayName": "Additional store channel",
+      "IsFavoriteByDefault": false
+    }
+  ]
+}
+```
