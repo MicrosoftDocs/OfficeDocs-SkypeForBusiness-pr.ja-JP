@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Skype for Business Server 2019 のリソースアカウントをセットアップします。
-ms.openlocfilehash: 9acd9df1d9c5372915ea51ff1b3b94e1f89c3311
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 14d2f161be54ac61c866597bdad141cf31138fbd
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42113260"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42892307"
 ---
 # <a name="configure-resource-accounts"></a>リソースアカウントを構成する
 
@@ -32,7 +32,7 @@ Skype for Business Server 2019 で電話システムの自動応答または通�
 
 電話システムの自動応答または呼び出しキューにサービス番号が必要な場合は、さまざまな依存関係を次の順序で満たすことができます。
 
-1. サービス番号を取得する
+1. サービス番号を取得します。
 2. リソースアカウントで使用する無料電話システムの[仮想ユーザーライセンス](/MicrosoftTeams/teams-add-on-licensing/virtual-user)または有料電話システムのライセンスを取得します。
 3. リソースアカウントを作成します。 関連付けられたリソースアカウントを持つには、自動応答または呼び出しキューが必要です。
 4. オンラインとオンプレミスの間で active directory の同期が完了するのを待ちます。
@@ -71,7 +71,7 @@ Skype for Business Server 2019 で電話システムの自動応答または通�
 3. 各電話システムの自動応答またはコールキュー `New-CsHybridApplicationEndpoint`に対してコマンドレットを実行し、それぞれの名前、sip アドレスなどを指定することによって、オンプレミスのリソースアカウントを作成します。
 
     ``` Powershell
-    New-CsHybridApplicationEndpoint -DisplayName appinstance01 -SipAddress sip:appinstance01@contoso.com -OU "ou=Redmond,dc=litwareinc,dc=com"
+    New-CsHybridApplicationEndpoint -ApplicationID <GUID> -DisplayName appinstance01 -SipAddress sip:appinstance01@contoso.com -OU "ou=Redmond,dc=litwareinc,dc=com"
     ```
 
     このコマンドの詳細については[、「CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) 」を参照してください。
@@ -103,12 +103,12 @@ Skype for Business Server 2019 で電話システムの自動応答または通�
    Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhoneNumber +14250000000
    ```
 
-トップレベルの自動応答または呼び出しキューに割り当てられる場合は、リソースアカウントに、割り当てられた電話番号が必要です。 ユーザー (購読者) の電話番号をリソースアカウントに割り当てることはできません。サービスの有料またはフリーダイヤルの電話番号のみを使用できます。
+   トップレベルの自動応答または呼び出しキューに割り当てられる場合は、リソースアカウントに、割り当てられた電話番号が必要です。 ユーザー (購読者) の電話番号をリソースアカウントに割り当てることはできません。サービスの有料またはフリーダイヤルの電話番号のみを使用できます。
 
-  直接ルーティングハイブリッド番号をリソースアカウントに割り当てることができます。  詳細については、「 [Plan Direct Routing](/MicrosoftTeams/direct-routing-plan) 」を参照してください。
+     直接ルーティングハイブリッド番号をリソースアカウントに割り当てることができます。 詳細については、「 [Plan Direct Routing](/MicrosoftTeams/direct-routing-plan)」を参照してください。
 
-  > [!NOTE]
-  > 自動応答および通話キューのリソースアカウントに割り当てられている直接ルーティングサービス番号は、Microsoft Teams のユーザーおよびエージェントに対してのみサポートされます。
+     > [!NOTE]
+     > 自動応答および通話キューのリソースアカウントに割り当てられている直接ルーティングサービス番号は、Microsoft Teams のユーザーおよびエージェントに対してのみサポートされます。
 
 7. 電話システムの自動応答または通話キューを作成します。 次のいずれかをご覧ください。
 
@@ -195,7 +195,7 @@ Exchange UM から電話システムへの移行では、通話キューと自�
 
 [クラウドの通話キューを作成する](/MicrosoftTeams/create-a-phone-system-call-queue)
 
-[クラウド自動応答とは](/MicrosoftTeams/what-are-phone-system-auto-attendants)
+[クラウドの自動応答とは](/MicrosoftTeams/what-are-phone-system-auto-attendants)
 
 [クラウドの自動応答をセットアップする](/MicrosoftTeams/create-a-phone-system-auto-attendant)  
 
