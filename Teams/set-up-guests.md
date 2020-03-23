@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams へのゲストアクセスを有効または無効にする
+title: Microsoft Teams へのゲスト アクセスをオンまたはオフにする
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -19,34 +19,34 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 5bcdbc3251820bdcee860323ad993efc8d6673c0
 ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 02/06/2020
 ms.locfileid: "41835647"
 ---
-<a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Microsoft Teams へのゲストアクセスを有効または無効にする
+<a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Microsoft Teams へのゲスト アクセスをオンまたはオフにする
 ===================================================
 
-既定では、ゲストアクセスはオフになっています。 Office 365 管理者は、管理者またはチーム所有者がゲストを追加する前に、チームのゲストアクセスを有効にする必要があります。 ゲストアクセスを有効にするには、[ゲストアクセスのチェックリスト](guest-access-checklist.md)を使用します。 
+既定では、ゲスト アクセスはオフになっています。 管理者やチームの所有者がゲストを追加できるようにするには、Office 365 管理者が Teams へのゲスト アクセスをオンにする必要があります。 ゲスト アクセスをオンにするには、[ゲスト アクセスのチェックリスト](guest-access-checklist.md)を使用します。 
 
-ゲストアクセスを有効にすると、変更が有効になるまでに2-24 時間かかります。 ユーザーがチームにゲストを追加しようとしたときに、"管理者に連絡してください" というメッセージが表示された場合、ゲストアクセスが有効になっていないか、設定がまだ有効になっていない可能性があります。
+ゲスト アクセスをオンにしてからその変更が有効になるまでに、2 から 24 時間かかります。 ユーザーがチームにゲストを追加しようとするときに "Contact your administrator (管理者にお問い合わせください)" というメッセージが表示される場合、ゲスト アクセスがオンになっていないか、設定が有効になっていないかのいずれかの可能性があります。
 
 > [!IMPORTANT]
-> ゲストアクセスを有効にするかどうかは、Azure Active Directory、Office 365、SharePoint Online、および Teams の設定によって異なります。 詳細については、「 [Teams でゲストアクセスを承認](Teams-dependencies.md)する」を参照してください。
+> ゲスト アクセスをオンにする方法は、Azure Active Directory、Office 365、SharePoint Online、Teams の設定により異なります。 詳細については、「[Microsoft Teams でのゲスト アクセスを承認する](Teams-dependencies.md)」を参照してください。
 
 
 
-## <a name="configure-guest-access-in-the-teams-admin-center"></a>Teams 管理センターでゲストアクセスを構成する
+## <a name="configure-guest-access-in-the-teams-admin-center"></a>Teams 管理センターでゲスト アクセスを構成する
 
 1.  Microsoft Teams 管理センターにサインインする。
 
 2.  [**組織全体の設定**] > [**ゲスト アクセス**] を選択します。
 
-3. [ **Microsoft Teams でゲストアクセスを許可**する] を **[オン**] に設定します。
+3. **[Microsoft Teams でのゲスト アクセスを許可]** を **[オン]** に設定します。
 
     ![ゲスト アクセスの許可の切り替えをオンに設定する ](media/set-up-guests-image1.png)
 
-4.  [**通話**]、[**会議**]、および [**メッセージング**] で、ゲストユーザーのために何を許可するかに応じて、各機能の [**オン**] または [**オフ**] を選択します。
+4.  **[通話]**、**[会議]**、および **[メッセージング]** で、ゲスト ユーザーに何を許可する必要があるかに応じて、各機能の **[オン]** または **[オフ]** を選択します。
 
     - **プライベート通話の発信** – この設定を [**オン**] にするとゲストがピアツーピアの通話を発信することができるようになります。
     - **IP ビデオを許可** - この設定を [**オン**] に切り替えると、ゲストは自分たちの通話および会議でビデオを使用することができるようになります。
@@ -62,18 +62,18 @@ ms.locfileid: "41835647"
     - **Giphy のコンテンツ評価** –  ドロップダウン リストから次の評価を選択します。
        - **すべてのコンテンツを許可** - ゲストは、コンテンツ評価に関係なく、すべての Giphy をチャットに挿入することができるようになります。
        - **中** - ゲストは、Giphy をチャットに挿入することができますが、成人向けコンテンツの挿入についてはある程度制限されます。
-       - **Strict** –ゲストはチャットに giphy を挿入できますが、成人向けコンテンツの挿入は制限されます。
-    - **会話でミームを使う**-**この設定を**オンにすると、ゲストが会話でミームを使用できるようになります。
+       - **高** - ゲストは、Giphy をチャットに挿入することができますが、成人向けコンテンツの挿入については制限されます。
+    - **会話でミームを使用する** – この設定を **[オン]** にすると、ゲストが会話でミームを使用することができるようになります。
     - **会話でステッカーを使用する** – この設定を [**オン**] にすると、ゲストが会話でステッカーを使用することができるようになります。 
 
 
 5.  **[保存]** をクリックします。
 
 ## <a name="use-powershell-to-turn-guest-access-on-or-off"></a>PowerShell を使用してゲスト アクセスをオンまたはオフにする
-「 [PowerShell を使用してゲストアクセスを有効または無効にする](guest-access-PowerShell.md#use-powershell-to-turn-guest-access-on-or-off)」を参照してください。
+「[PowerShell を使用してゲスト アクセスをオンまたはオフにする](guest-access-PowerShell.md#use-powershell-to-turn-guest-access-on-or-off)」を参照してください。
 
 
-## <a name="video-adding-guests-in-teams"></a>ビデオ: Teams でゲストを追加する
+## <a name="video-adding-guests-in-teams"></a>ビデオ: Teams でのゲストの追加
 
 |  |  |
 |---------|---------|
