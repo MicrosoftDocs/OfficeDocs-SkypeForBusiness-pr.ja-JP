@@ -16,18 +16,18 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42f0ec656036849aa87d9d4e7e092f4b5d3a505f
-ms.sourcegitcommit: 4306083e7b1dc2e7a0d02b682790450934dada50
+ms.openlocfilehash: d85bb4ba32bf83d3c774a2b6700a96c7e35dcb2a
+ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "42639464"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42935255"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Microsoft Teams 用に組織のネットワークを準備する 
 
 ## <a name="network-requirements"></a>ネットワーク要件
 
-[Office 365 用にネットワークの最適化](https://docs.microsoft.com/Office365/Enterprise/assessing-network-connectivity)を既に行っている場合は、Microsoft Teams の準備ができている可能性があります。 いずれの場合も、チームのロールアウトを開始する前に次のことを確認してください。
+[Office 365 用にネットワークの最適化](https://docs.microsoft.com/Office365/Enterprise/assessing-network-connectivity)を既に行っている場合は、Microsoft Teams の準備ができている可能性があります。 いずれの場合も、**リモートワーカー**をサポートするために、最初の Office 365 ワークロードとして teams をすばやくロールアウトする場合は、チームのロールアウトを開始する前に次のことを確認してください。
 
 1.  すべての場所でインターネットにアクセスできますか (Office 365 に接続できるようにします)。 少なくとも、通常の web トラフィックに加えて、Teams のメディアについては、すべての場所で次のように開いていることを確認してください。
 
