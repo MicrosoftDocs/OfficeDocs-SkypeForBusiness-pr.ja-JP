@@ -12,14 +12,15 @@ localization_priority: Priority
 description: Microsoft Teams を所有しておらず、急いで必要な場合は、COVID-19 (コロナウィルス) の発生により遠隔勤務または在宅勤務 (WFH) の必要に迫られているユーザー向けの Office 365 E1 試用版を展開してください。
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a3f5d73920da0f9b18b1810768b0468c4106a6f3
-ms.sourcegitcommit: 095bed15ffe64c34e6c39770b5734d966d5d8a0f
+ms.openlocfilehash: 62b4add4e3371604478c8a49cc6690000d699f65
+ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42507955"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42858772"
 ---
 <a name="manage-the-office-365-e1-trial"></a>Office 365 E1 試用版を管理する
 ==============================
@@ -34,6 +35,9 @@ E1 ライセンスで使用できる機能については、「[Office 365 E1](h
 
 Microsoft アカウントの担当者にお問い合わせください。 担当者から E1 試用版へのサインアップに使用できるプロモーション コードをご提供します。 
 
+Microsoft パートナーと提携している組織の場合、パートナーに連絡して 6 か月の Teams 無料試用版を入手してください。 Microsoft パートナーがまだおらず、提携を望む場合は、[Microsoft ソリューション プロバイダー](https://www.microsoft.com/solution-providers/home) を参照して、Teams で専門知識を持つパートナーを検索してください。
+
+
 ## <a name="how-to-sign-up-for-e1"></a>E1 へのサインアップ方法
 
 アカウント担当者から送信されたメールにあるプロモーション コードをクリックしてください。 
@@ -41,7 +45,7 @@ Microsoft アカウントの担当者にお問い合わせください。 担当
 
 ## <a name="whos-eligible"></a>対象者
 
-このオファーは、Microsoft アカウントの担当者が管理するお客様を対象としています。過去に他の Office 365 E1 試用版をライセンス認証したことのない組織が対象となります。 
+このオファーは、Microsoft アカウントの担当者が管理するすべてのお客様を対象としています。過去に他の Office 365 E1 試用版をライセンス認証したことのない組織 (非営利団体を含む) が対象となります。 
 
 E1 試用版のプロモーション コードを使い終わってからもう一度使用したり、別の E1 試用版コードでライセンス認証したりすることはできません。 このような場合は、従業員の [Teams Exploratory ライセンス](teams-exploratory.md)の認証を行うことができます。
 
@@ -90,5 +94,6 @@ E1 試用版のユーザーを有料サブスクリプションにアップグ�
 
 [組織の Microsoft Teams の設定を管理する](enable-features-office-365.md)
 
-[Teams Exploratory ライセンスを管理する](teams-exploratory.md)
+[Teams の調査エクスペリエンスを管理する](teams-exploratory.md)
 
+[Office 365 Nonprofit](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit)
