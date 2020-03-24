@@ -16,17 +16,14 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams での組織でのタグの使用方法を管理する方法について説明します。
-ms.openlocfilehash: 5da1d1549e6171656b0065036819be0fac450759
-ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
+ms.openlocfilehash: cd2c2e69054923ccf287f35a15fcebb870d6a5d5
+ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42551044"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42928450"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Microsoft Teams でタグを管理する
-
-> [!NOTE]
-> Microsoft Teams 管理センターにこの機能が表示されていない場合 現在ロールアウト中であり、組織内でまだ利用できない可能性があります。 今後の Teams の機能については、 [Microsoft 365 のロードマップ](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)をご覧ください。
 
 Microsoft Teams のタグを使用すると、ユーザーはチームのメンバーのサブセットと連絡を取ることができます。 タグを1人または複数のチームメンバーに追加して、ユーザーの適切なサブセットに簡単に接続できます。 チーム所有者とメンバー (その機能が有効になっている場合) は、1つまたは複数のタグをユーザーに追加できます。 その後、タグは、チームの任意のユーザーによってチャネル投稿で @mentions で使用したり、そのタグが割り当てられたユーザーのみとの会話を開始したりすることができます。
 
