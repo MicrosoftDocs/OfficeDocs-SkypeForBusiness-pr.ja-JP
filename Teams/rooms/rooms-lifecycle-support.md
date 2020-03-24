@@ -12,64 +12,64 @@ ms.collection:
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: この記事では、Microsoft Teams のルームのライフサイクルのサポートについて説明します。
+description: この記事では、Microsoft Teams ミーティングのライフサイクル サポートについて説明します。
 ms.openlocfilehash: 0f445bf2500a01bf8ffddae569d176229bdcfde5
 ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 02/06/2020
 ms.locfileid: "41825915"
 ---
-# <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft Teams 室アプリバージョンのサポート
+# <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft Teams ミーティング アプリ バージョンのサポート
  
-Microsoft Teams の会議室アプリは、1年に数回更新されます。 各更新プログラムは、GA (GA) のリリース日から12ヶ月の場合にサポートされています。 テクニカルサポートは12ヶ月全体に対応しています。 ただし、サポート構造は動的で、最新バージョンの可用性に依存する2つの個別のフェーズがあります。
+Microsoft Teams ミーティング アプリは年に数回更新されます。 各更新プログラムは、一般提供 (GA) のリリース日から 12 か月間サポートされます。 テクニカル サポートは 12 か月を通して提供されます。 ただし、サポート体制は動的であり、最新バージョンの提供可能性によって次の 2 つのフェーズがあります。
 
-- **サービスと重要な更新のフェーズ** \-最新バージョンの Microsoft Teams の会議アプリを実行すると、*セキュリティとサービス*の更新プログラムを含む定期的な更新プログラムを受け取ることになります。
+- **サービス提供および重要な更新プログラム フェーズ** \- Microsoft Teams ミーティング アプリの最新バージョンを実行すると、*セキュリティおよびサービス提供*更新プログラムを含む定期更新プログラムを受け取ります。
 
-- **セキュリティ更新プログラムのみのフェーズ** \- Microsoft Teams のルームアプリのリリースの新しいバージョンでは、古いバージョンのアプリでは、他の12ヶ月のライフサイクルに限定した*セキュリティ更新プログラムのみ*で、サポートレベルが低減されています。
+- **セキュリティ更新プログラムのみフェーズ** \- Microsoft Teams ミーティング アプリの新しいバージョンがリリースされると、そのアプリの以前のバージョンのサポート レベルが、12 か月のライフサイクルの残りの*セキュリティ更新プログラムのみ*に削減されます。
 
 > [!NOTE]
-> 最新バージョンは、常にサービスと重要な更新プログラムの段階にあります。 重要な更新プログラムを提供するコードの問題が発生した場合は、最新バージョンもインストールされている必要があります。 サポートされているその他のすべてのバージョンは、セキュリティ更新プログラムを受け取ることができます。
+> 最新バージョンは、常に、サービス提供および重要な更新プログラム フェーズになります。 また、重要な更新プログラムが必要なコードの問題が発生した場合は、最新バージョンをインストールして修正プログラムを受け取る必要があります。 サポートされているその他のすべてのバージョンは、セキュリティ更新プログラムを受け取ることしかできません。
 
-すべてのサポートは、12ヶ月のバージョンのライフサイクルの有効期限が切れた後、または2つ以上の更新プログラムがリリースされてから終了します。 次に、お客様はサポートされているバージョンにアップデートする必要があります。
+すべてのサポートは、バージョンの 12 か月のライフサイクルの終了後またはそれ以降に 2 つ以上の更新プログラムがリリースされた場合に終了します。 その後は、お客様が、サポートされているバージョンに更新する必要があります。
 
-すべてのリリースは、 [Microsoft Teams ルームのリリースノート](rooms-release-note.md)に記載されています。
+すべてのリリースが、[Microsoft Teams ミーティング リリース ノート](rooms-release-note.md)に記載されています。
 
-## <a name="windows-10-release-support"></a>Windows 10 リリースサポート
+## <a name="windows-10-release-support"></a>Windows 10 リリースのサポート
 
-Microsoft Teams ルームを利用するには、半期チャネルサービスオプションで Windows 10 IoT Enterprise または Windows 10 Enterprise Sku が必要です。 以下の Windows 10 エディションはサポートされていません。
+Microsoft Teams ミーティングには、半期のチャネル サービス オプションに基づく Windows 10 IoT Enterprise または Windows 10 Enterprise SKU が必要です。 その他の Windows 10 エディションはサポートされていません。
 
-- Windows 10 Enterprise の長期サービスブランチ (LTSB)/長期サービスチャネル (LTSC) エディション
-- Windows 10 インターネット (IoT) Enterprise LTSB/LTSC エディション
-- windows 10 Pro または Home edition など、他のバージョンの Windows
+- Windows 10 Enterprise Long-Term Servicing Branch (LTSB)/長期サービス チャネル (LTSC) エディション
+- Windows 10 Internet of Things (IoT) Enterprise LTSB/LTSC エディション
+- Windows 10 Pro エディションや Windows 10 Home エディションなどの、その他の Windows エディション
 
-Microsoft Teams の会議室デバイスでは、Windows 10 機能更新プログラムは、すぐには提供または更新されません。 [Windows 10 のリリース情報](https://docs.microsoft.com/windows/release-information/)ページで公開されている ga 日の間の、最大で6か月の遅延。 遅延時間は、Microsoft Teams 室のアプリケーション、デバイスハードウェア、および認定されたオーディオビデオ周辺機器について、Windows 10 のリリースとの互換性を検証するために使用されます。 検証が開始され、Windows 10 のメジャーリリースのアクティブな開発中に続行されます。 すべてのデバイスの製造元によってデバイスの更新された画像が構築されていることを確認する必要があります。また、Microsoft Teams がこれらの画像を認定およびテストします。 評価期間中、Microsoft Teams Room アプリは、windows 10 の機能更新プログラムを延期するために、[ビジネスグループポリシーの Windows Update](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb)を使用します。 互換性の問題が見つかり、解決した後、Windows ストアの新しいアプリのリリースでグループポリシーを更新することで、ブロックが解除されます。 Microsoft Teams の会議室アプリを実行するデバイスは、夜間メンテナンスの再起動中に、適切な Windows 10 リリースに自動的に更新されます。 MSI バージョンは、更新プログラムを手動で管理する必要があるユーザーに対して利用可能になります。  
+Microsoft Teams ミーティング デバイスでは、Windows 10 機能更新プログラムが即座には提供または更新されません。 [Windows 10 リリース情報](https://docs.microsoft.com/windows/release-information/)ページで公開される一般提供日から最大 6 か月間の意図的な遅延。 遅延時間は、Windows 10 リリースの互換性を検証するために、Microsoft Teams ミーティング アプリケーション、デバイス ハードウェア、および認定オーディオ ビデオ周辺機器に使用されます。 Windows 10 のメジャー リリースの各開発期間に検証が開始され、継続されます。 すべてのデバイス メーカーが自分たちのデバイス用の最新イメージを構築したことを検証し、Microsoft Teams でそれらのイメージを認定してテストするための余分な時間が必要です。 検証期間中に、Microsoft Teams ミーティング アプリが、[Windows Update for Business グループ ポリシー](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb)を使用して、Windows 10 の機能更新プログラムを遅延させます。 互換性の問題が発見され、解決されると、Microsoft Store での新しいアプリ リリースを通して、グループ ポリシーを更新することにより、ブロックが解除されます。 Microsoft Teams ミーティング アプリを実行するデバイスは、夜間のメンテナンス再起動中に、適切な Windows 10 リリースに自動的に更新されます。 手動で更新プログラムを管理する必要があるお客様は、MSI バージョンを使用できます。  
 
 > [!IMPORTANT]
-> この検証期間中、Microsoft Teams 室のデバイスは、次の手段により、Windows 10 の次のリリースに更新さ**れない**ようにしてください。 これには、その場でのグループポリシーの上書き、または System Center やその他のサードパーティ製のデバイス管理サービスの使用が含まれます。 いずれの場合も、Microsoft Teams Room アプリケーションで問題が発生したり、デバイスが使用できなくなることがあります。  
+> 検証期間中は、Microsoft Teams ミーティング デバイスが、何らかの方法で、次の Windows 10 のリリースに更新**されない**ようにする必要があります。 これには、グループ ポリシーの施行の無効化または System Center やその他のサードパーティ製デバイス管理サービスの使用が含まれます。 これらのいずれかが原因で Microsoft Teams ミーティング アプリケーションの問題が発生したり、デバイスが使用できなくなったりすることがあります。  
 
-次の表は、Microsoft Teams のルームをサポートしていることが確認された Windows 10 の推奨されるバージョンとサポートされるバージョンを示しています。 すべての日付は、ISO 8601 形式 (YYYY-MM-DD) で一覧表示されます。
+次の表は、Microsoft Teams ミーティングのサポートが確認されている Windows 10 の推奨バージョンとサポート対象バージョンを示しています。 すべての日付は、ISO 8601 形式 (YYYY-MM-DD) で表示されます。
 
-|バージョン  |利用可能日   |Microsoft Teams ルームのサポート状態   |Microsoft Teams の会議室最小アプリケーションバージョン | OS ビルドの推奨  |
+|バージョン  |提供日   |Microsoft Teams ミーティングのサポート状況   |Microsoft Teams ミーティングの最小アプリケーション バージョン | 推奨 OS ビルド  |
 |:---  |:---       |:---                                  |:---     |:---     |
-| 1909 |2019-11-12 |現在検証しています。 <br/>推奨されない|&#x2014; |&#x2014; |
-| 1903 |2019-05-21 |サポートされている &#x2780;、 <br/>推奨  |4.2.4.0 |18362.356 |
-| 1809 |2019-03-28 |まし <br/>推奨されない &#x2781;|&#x2014; |&#x2014; |
-| 1803 |2018-07-10 |サポート対象                             |4.1.22.0 |17134.191|
+| 1909 |2019-11-12 |現在検証中、 <br/>非推奨|&#x2014; |&#x2014; |
+| 1903 |2019-05-21 |サポート &#x2780;、 <br/>推奨  |4.2.4.0 |18362.356 |
+| 1809 |2019-03-28 |スキップ、 <br/>非推奨 &#x2781;|&#x2014; |&#x2014; |
+| 1803 |2018-07-10 |サポート                             |4.1.22.0 |17134.191|
 | 1709 |2018-01-18 |非サポート                         |&#x2014; |&#x2014; |
-| 1703 |2017-07-11 |サポート対象外                         |&#x2014; |&#x2014; |
+| 1703 |2017-07-11 |非サポート                         |&#x2014; |&#x2014; |
 ||||||
 
-Windows 10 1903 は、Intel グラフィックスデバイスドライバーの問題のため、Flex デバイスで Crestron は使用できません &#x2780;。 Windows 10 1903 はこれらのデバイスには提供されません。 ユーザーは、これらのデバイスを1903にアップグレードせず、グラフィックドライバーの更新が Crestron で利用できるようになるまで、それらのデバイスを Windows 10 1803 に残しておく必要があります。 
+&#x2780; Windows 10 1903 は、Intel のグラフィック デバイス ドライバーに問題があるため、Crestron Flex デバイスでは使用できません。 これらのデバイスには、Windows 10 1903 が提供されません。 ユーザーは、グラフィック ドライバーの更新プログラムを Crestron が入手できるようになるまで、これらのデバイスを 1903 にアップグレードせず、Windows 10 1803 のままにする必要があります。 
 
-Microsoft Teams のルームアプリケーションでは互換性の問題が検出されたため、Windows 10 1809 のバージョン &#x2781; をお勧めしません。 この特定の問題により、Microsoft Teams のルームアプリケーションは、夜間の再起動後に起動できなくなります。 この問題は、Windows 10 1903 バージョンで解決されました。  
+&#x2781; Microsoft Teams ミーティング アプリケーションで互換性の問題が見つかったため、Windows 10 1809 バージョンは非推奨になっています。 この特定の問題により、Microsoft Teams ミーティング アプリケーションは夜間に再起動すると失敗します。 この問題は、Windows 10 1903 バージョンで解決されています。  
 
-サポートされているバージョンの Windows 10 を使用する場合は、常に、Microsoft Teams の会議アプリの最新のアプリケーション更新プログラムが取得されます。  
+Windows 10 のサポートされているバージョンを使用している場合は、Microsoft Teams ミーティング アプリの最新のアプリケーション更新プログラムを入手できます。  
 
 ## <a name="see-also"></a>関連項目
 
 [Microsoft Teams Rooms ヘルプ](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[Microsoft Teams のルームリリースノート](rooms-release-note.md)
+[Microsoft Teams ミーティング リリース ノート](rooms-release-note.md)
 
-[Microsoft Teams のルームを計画する](rooms-plan.md)
+[Microsoft Teams ミーティングを計画する](rooms-plan.md)
