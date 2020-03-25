@@ -18,12 +18,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams でポリシーパッケージを使用および管理する方法について説明します。
-ms.openlocfilehash: d7c0ded990225b969579f50ea5f87a32efebe388
-ms.sourcegitcommit: 54cbcf917d9663e6aa9760d7399b36c00d66478c
+ms.openlocfilehash: a2c2ecf22529c4f16b992f349b29ccaf0ad48b0d
+ms.sourcegitcommit: 613665c866f6fd0febfa6e26ad718241cdfbb207
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42857989"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42942446"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Microsoft Teams でポリシーパッケージを管理する
 
@@ -45,7 +45,8 @@ Microsoft Teams のポリシーパッケージは、組織内で同様の役割�
 |教育機関 (第1学校の学生)   |主要な学生に適用される一連のポリシーとポリシー設定を作成します。|
 |教育機関 (第2学校の学生)    |第2の学生に適用される一連のポリシーとポリシー設定を作成します。         |
 |教育機関 (教師)    |教師に適用される一連のポリシーとポリシー設定を作成します。      |
-|ビジネス用ボイス |ビジネス音声エクスペリエンス用のアプリを含むアプリセットアップポリシーを作成します。|
+|中小規模企業のユーザー (ビジネス用ボイス) |ビジネス音声エクスペリエンス用のアプリを含むアプリセットアップポリシーを作成します。|
+|中小規模企業のユーザー (ビジネス用ボイスのない) |このポリシーパッケージは、ビジネスボイス機能を使わずに、一連のポリシーを作成し、その設定を中小規模企業のユーザーに適用するために設計されています。|
 |公安責任者   |組織の公衆安全責任者に適用される一連のポリシーとポリシー設定を作成します。|
 |医療 (臨床労働者)  |登録された看護師、料金の看護師、医師、ソーシャルワーカーなどの、チャット、通話、シフト管理、および会議へのフルアクセスを可能にする、一連のポリシーとポリシー設定を作成します。 |
 |医療 (インフォメーションワーカー)  |IT 担当者、informatics 職員、財務担当者、コンプライアンス責任者、チャット、通話、会議へのフルアクセスなどの情報を提供する一連のポリシーとポリシー設定を作成します。|
