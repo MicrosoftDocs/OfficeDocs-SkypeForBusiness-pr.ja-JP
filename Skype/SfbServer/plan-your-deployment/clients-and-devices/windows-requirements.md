@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6851e38-ba9a-4f19-9aa7-d8accf4d62b3
 description: '概要: Skype for Business Server の計画中に Windows クライアントのサポート要件を確認します。'
-ms.openlocfilehash: 0a556b2330427683c4d00577895f43f3cfede6d5
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 39f9efcd2008dacb653538b56f2aff3fcb8b7887
+ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42027958"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42928240"
 ---
 # <a name="windows-client-requirements-and-software-support"></a>Windows クライアントの要件とソフトウェアのサポート
  
@@ -37,7 +37,7 @@ ms.locfileid: "42027958"
 
 |**システム コンポーネント**|**サポートされているバージョン**|
 |:-----|:-----|
-|Windows オペレーティングシステム  <br/> |Windows 10  <br/> Windows 8.1  <br/> Windows 8  <br/> Windows 7 オペレーティング システム  <br/> Windows Server 2008 R2 以降の最新の service pack  <br/> **注:** Skype for business と Skype for business のオンライン会議アドインは、Windows Vista または Windows XP (すべてのバージョン) ではサポートされていません。 <br/> |
+|Windows オペレーティングシステム  <br/> |Windows 10  <br/> Windows 8.1  <br/> Windows 8 <br/> Windows Server 2008 R2 以降の最新の service pack  <br/> **注:** Skype for business と Skype for business のオンライン会議アドインは、Windows Vista または Windows XP (すべてのバージョン) ではサポートされていません。 <br/> |
 |インストールと更新  <br/> |管理者の権限およびアクセス許可  <br/> |
 |ブラウザー  <br/> |Microsoft Edge  <br/> Internet Explorer 11 インターネットブラウザー  <br/>  Internet Explorer 10 インターネットブラウザー <br/> Internet Explorer 9 インターネットブラウザー  <br/> Internet Explorer 8 インターネットブラウザー  <br/> Internet Explorer 7 インターネットブラウザー  <br/> Mozilla Firefox Web ブラウザー  <br/>  Google Chrome web ブラウザー  <br/>**注:** Microsoft Exchange Online で Skype for Business を使用しており、組織が認証 HTTP プロキシを展開している場合は、Internet Explorer 8 以降が必要です。           |
 |Microsoft Office Integration  <br/> | Outlook 2010 以降 |
