@@ -17,27 +17,27 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 851c661a2a75a3dfe82212b896041ddd2516c678
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 51ca2d8b6723be408adaaa53499efed2338a1f73
+ms.sourcegitcommit: 7455ae664d0e2d2915557764b26d8c8f1bf92a96
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824835"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42945907"
 ---
 # <a name="create-and-license-business-voice-users-and-assign-them-phone-numbers"></a>Business Voice ユーザーの作成と割り当てを行い、電話番号を割り当てる
 
-:::no-loc text="Microsoft 365 Business Voice"::: を使用するには、:::no-loc text="Microsoft 365 Business Voice with SMS"::: ライセンスを持つ :::no-loc text="Microsoft 365"::: アカウントが必要です。 ライセンスとアカウントを取得すると、そのアカウントに電話番号を割り当てることができます。
+:::no-loc text="Microsoft 365 Business Voice"::: を使用するには、:::no-loc text="Microsoft 365 Business Voice"::: ライセンスを持つ :::no-loc text="Microsoft 365"::: アカウントが必要です。 ライセンスとアカウントを取得すると、そのアカウントに電話番号を割り当てることができます。
 
 ## <a name="create-and-license-users"></a>ユーザーの作成とユーザーへのライセンスの割り当て
 
 「[:::no-loc text="Office 365"::: にユーザーを個別に、または一括して追加する](https://docs.microsoft.com/office365/admin/add-users/add-users)」の手順に従います。
 
 > [!NOTE]
-> **[製品ライセンスの割り当て]** ウィンドウで、**:::no-loc text="Microsoft 365 Business Voice with SMS":::** を選択します。
+> **[製品ライセンスの割り当て]** ウィンドウで、**:::no-loc text="Microsoft 365 Business Voice":::** を選択します。
 
 ## <a name="assign-phone-numbers-to-users"></a>ユーザーに電話番号を割り当てる
 
-ユーザーの作成とユーザーへの :::no-loc text="Microsoft 365 Business Voice with SMS"::: ライセンスの割り当てが完了すると、ユーザーに電話番号を割り当てることができます。 外部電話番号に対し発信または受信する必要がある各ユーザーに、割り当てられていない電話番号が必要です。 未使用の電話番号が十分ない場合、この記事で後述する「[追加の電話番号を取得する](#get-more-phone-numbers)」を参照してください。
+ユーザーの作成とユーザーへの :::no-loc text="Microsoft 365 Business Voice"::: ライセンスの割り当てが完了すると、ユーザーに電話番号を割り当てることができます。 外部電話番号に対し発信または受信する必要がある各ユーザーに、割り当てられていない電話番号が必要です。 未使用の電話番号が十分ない場合、この記事で後述する「[追加の電話番号を取得する](#get-more-phone-numbers)」を参照してください。
 
 1. https://admin.teams.microsoft.com に移動します。
 2. 電話番号の要求の名前と説明を入力します。
