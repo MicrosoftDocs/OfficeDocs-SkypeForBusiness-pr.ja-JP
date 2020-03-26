@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: このトピックでは、Microsoft Phone システムのダイレクトルーティングを使用して、サポートされているユーザーが指定したセッションボーダーコントローラー (SBC) を Microsoft 電話システムに接続する方法について説明します。
-ms.openlocfilehash: 5efed6ed21e6eb4bfa4e2ae89e625595b0307ada
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: be0d901095afa322935944a9b4898e540946bf8a
+ms.sourcegitcommit: 46b15a11755a89526be2a0b20befad61c628cdb4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928440"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42955726"
 ---
 # <a name="plan-direct-routing"></a>ダイレクト ルーティングを計画する
 
@@ -175,7 +175,8 @@ Microsoft は、認定署名要求 (CSR) を生成して、SBC の証明書を�
 - Go Daddy
 - GeoTrust
 - Verisign、Inc. 
-- Starfield 
+- SSL.com
+- Starfield
 - シマンテック Enterprise Mobile Root for Microsoft 
 - SwissSign
 - Thawte のタイムスタンプ CA
