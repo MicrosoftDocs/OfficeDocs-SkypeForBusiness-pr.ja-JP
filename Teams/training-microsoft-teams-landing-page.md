@@ -12,17 +12,18 @@ ms.service: msteams
 localization_priority: Priority
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_RemoteWorkers
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6efdbb15ce4a9bcd5a3691a5fa9a9a82d0b7cd5f
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: dc47eee83c9347613d37d2e808f0c434b7ba9750
+ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837647"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42858732"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams のトレーニング
 
@@ -98,13 +99,26 @@ ms.locfileid: "41837647"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
+                        <h3>リモート ワーカーをサポートする</h3>
+                         <p><a href="https://aka.ms/TeamsForRemoteWork">トレーニングへのリンクなど、自宅で作業しているユーザーをサポートするのに必要なガイダンスが得られます。</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+        <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
                         <h3>IT 担当者向けの Teams の基礎</h3>
                          <p><a href="https://aka.ms/MicrosoftTeamsforIT">Microsoft Mechanics の「IT 担当者向けの Teams」ビデオ シリーズでは、管理者が Teams を展開、構成、および管理する方法を紹介しています。</a></p>
                     </div>
                 </div>
             </div>
         </div>
-    </li><li>
+    </li>
+    <li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

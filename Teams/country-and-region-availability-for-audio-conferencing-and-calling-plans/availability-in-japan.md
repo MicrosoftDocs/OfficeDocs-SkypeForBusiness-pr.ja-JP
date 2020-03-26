@@ -24,26 +24,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Skype for Business および Microsoft Teams の Office 365 サービスは、日本で利用できます。
+description: 日本で利用できる Skype for Business と Microsoft Teams の Office 365 サービスを以下に示します。
 ms.openlocfilehash: 97545051e444dc8fda082b99353238dc8eaed71f
 ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 02/03/2020
 ms.locfileid: "41683790"
 ---
 # <a name="availability-in-japan"></a>日本での利用可能性
 
-電話会議と通話プランを利用できる[別の国や地域を見つけたり、](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)それぞれの国や地域でのそれらの詳細な利用可能状況を確認したりすることができます。
+[[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-Skype for Business および Microsoft Teams の Office 365 サービスは、日本で利用できます。
+日本で利用できる Skype for Business と Microsoft Teams の Office 365 サービスを以下に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
 |**機能**|**詳細**|
 |:-----|:-----|
 |電話会議は購入できますか?  <br/> |はい  <br/> |
-|電話番号は自動的に電話会議に割り当てられますか?  <br/> |○:<br/><ul><li> 東京</ul> 専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)」をご覧ください。  <br/> |
+|電話番号は自動的に電話会議に割り当てられますか?  <br/> |次の場合は、はい:<br/><ul><li> 東京</ul> 専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)」をご覧ください。  <br/> |
 |折り返し通話機能を使用するダイヤルアウト機能  <br/> |利用可能  <br/> |
    
 ## <a name="phone-system"></a>電話システム
@@ -53,22 +53,22 @@ Skype for Business および Microsoft Teams の Office 365 サービスは、�
 |電話システムは購入できますか?  <br/> |はい  <br/> |
 | 自動応答 <br/> |利用可能  <br/> |
 |通話キュー  <br/> |利用可能  <br/> |
-|ボイスメール  <br/> |利用可能  <br/> |
+|ボイスメール  <br/> |連絡可能  <br/> |
    
 ## <a name="calling-plans"></a>通話プラン
 > [!IMPORTANT]
-> 日本語ベースのテナントの場合、SoftBank でのみ利用可能です。 詳細については、「 [Office 365 の Softbank 通話](https://aka.ms/SoftBankVoicePlan)」を参照してください。
+> 日本語ベースのテナントの場合、SoftBank を介してのみ利用可能。 詳細については、「[SoftBank Calling for Office 365](https://aka.ms/SoftBankVoicePlan)」を参照してください)。
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|通話プランは購入できますか?  <br/> |はい、「 [Office 365 のソフトバンク通話](https://aka.ms/SoftBankVoicePlan)」を参照してください。  <br/> |
-|通話プランで利用可能な通話分数  <br/> |「 [Office 365 のソフトバンク通話」を](https://aka.ms/SoftBankVoicePlan)参照してください。 <br/> |
-|発信通話を行うことができますか?  <br/> |「 [Office 365 のソフトバンク通話」を](https://aka.ms/SoftBankVoicePlan)参照してください。 <br/> |
+|通話プランは購入できますか?  <br/> |はい。「[SoftBank Calling for Office 365](https://aka.ms/SoftBankVoicePlan)」を参照してください。  <br/> |
+|通話プランで使用できる時間数  <br/> |「[SoftBank Calling for Office 365](https://aka.ms/SoftBankVoicePlan)」を参照してください。 <br/> |
+|発信できる相手先  <br/> |「[SoftBank Calling for Office 365](https://aka.ms/SoftBankVoicePlan)」を参照してください。 <br/> |
 
 > [!IMPORTANT]
-> 日本でユーザー (サブスクライバー) 番号を削除するには (SoftBank によって提供される)、SoftBank に直接連絡してください。
-> 日本でのユーザー (サブスクライバー) 番号の緊急対応の住所情報を更新するには (SoftBank によって提供されます)、SoftBank に直接お問い合わせください。
-> 詳細については、「 [Office 365 の Softbank 通話](https://aka.ms/SoftBankVoicePlan)」を参照してください。
+> 日本のユーザー (サブスクライバー) 番号 (SoftBank によって提供される) を削除するには、SoftBank に直接お問い合わせください。
+> 日本のユーザー (サブスクライバー) 番号 (SoftBank によって提供される) の緊急アドレス情報を更新するには、SoftBank に直接お問い合わせください。
+> 詳細については、「[SoftBank Calling for Office 365](https://aka.ms/SoftBankVoicePlan)」を参照してください。
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
 
@@ -88,7 +88,7 @@ Skype for Business および Microsoft Teams の Office 365 サービスは、�
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)
 
