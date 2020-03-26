@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd9ca2fc26c58087992cdee18dee1b1d869a6fa1
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: HT
+ms.openlocfilehash: f411de7f0c373e82b450cd41b828fd591777311b
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826105"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42978459"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Microsoft Teams でチーム所有者とメンバーを割り当てます
 =================================================
@@ -48,9 +48,7 @@ Microsoft Teams には、**所有者**と**メンバー**という 2 つのユ�
 |        ***プライベート チャネルの削除**         |    必要     |    不要|
 |          **メンバーの追加**          |  はい<sup>3</sup>   |     いいえ<sup>4</sup>    |
 |          **メンバーを追加する要求**          |  N/A   |     はい<sup>5</sup>     |
-|           **タブの追加**            |    はい     |    Yes<sup>2</sup>|
-|        **コネクタの追加**         |    はい     |    Yes<sup>2</sup>|
-|           **ボットの追加**            |    はい     |    Yes<sup>2</sup>|
+|           **アプリを追加する**            |    はい     |    Yes<sup>2</sup>|
 
 <sup>1</sup> 制限されていない限り、チームオーナーはチームを作成できます。 後述の「[チームを作成するためのアクセス許可](#permissions-to-create-teams)」をご覧ください。<br>
 <sup>2</sup> 所有者はこれらの項目をチーム レベルでオフにできます。その場合、メンバーは項目にアクセスできなくなります。<br>

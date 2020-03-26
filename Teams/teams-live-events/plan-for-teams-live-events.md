@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Microsoft Teams でのライブ イベントを立ち上げる前に考慮する必要のある要素について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f0c141751a9b67a47640ba5210c3cb7aeeadbb2
-ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
-ms.translationtype: HT
+ms.openlocfilehash: ecd08f71545bcaf2775b3e502860b9d6a8e234fc
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558567"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42978419"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントの計画
 
@@ -64,13 +64,13 @@ ms.locfileid: "42558567"
 |**出席者の表示/非表示**       |**チームの生成**  |**外部アプリまたはデバイス生成**  |
 |------------------------------|-----------------|----------------------|
 |パブリック (匿名ユーザー)      |  はい            |  いいえ                  |
-|ゲスト ユーザー                   |  いいえ<sup>1</sup> |  いいえ                  |
-|フェデレーション企業内の全員 |  いいえ<sup>2</sup> |  いいえ                  |
+|ゲスト ユーザー                   |  はい            |  いいえ                  |
+|フェデレーション企業内の全員 |  Yes<sup>1</sup>|  いいえ                  |
 |会社内の全員           |  はい            |  はい                 |
 |特定のグループ/ユーザー      |  はい            |  はい                 |
 
-<sup>1</sup> **組織全体**のオプションを使用してライブ イベントが設定されている場合、ライブ イベントを視聴できます。<br>
-<sup>2</sup> 匿名ユーザーとしてのみライブ イベントを視聴できます。
+<sup>1</sup>フェデレーション参加者が招待できるのは、メンバー & グループだけです。 <br>
+
 
  
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Teams ライブ イベントと Skype 会議ブロードキャスト
@@ -81,20 +81,20 @@ ms.locfileid: "42558567"
 |---------|---------|---------|---------|
 |最大視聴者数 |出席者 10,000 名 |出席者 10,000 名 <sup>1</sup> |出席者 10,000 名 <sup>1</sup> |
 |ライブ イベントの最大期間 |4 時間 |4 時間 |4 時間 |
-|Office 365 テナントごとの同時ライブ イベントの最大数 |15  | 15  | 15  |
+|Office 365 テナントごとの同時ライブ イベントの最大数 |マート  | 15  | 15  |
 |ライブ イベントの作成 |   Skype 会議ブロードキャスト ポータル |Teams、Teams 経由の Yammer | Teams、Teams 経由の Yammer、Stream |
 |視聴者のエンゲージメント – Yammer |&#x2714; |&#x2714; (統合エクスペリエンス) |&#x2714; (統合エクスペリエンス) |
 |視聴者のエンゲージメント – モデレート Q & A |&#x2714;  |&#x2714; |&#x2714; |
 |Windows でのプロデューサー クライアント |&#x2714; (Skype for Business) |&#x2714; (Teams) |&#x2714; (Stream、埋め込み Stream 経由の Teams) |
 |Mac でプロデューサー クライアント |X  | &#x2714; (Teams) |&#x2714; (Stream、埋め込み Stream 経由の Teams) |
 |プロデューサー UI での出席者数 |X  |&#x2714; (Teams) |&#x2714; (Stream、埋め込み Stream 経由の Teams) |
-|複数の発表者の許可 |&#x2714; (Skype for Business) |&#x2714; (Teams) |N/A  |
-|会議中の発表者の招待 |&#x2714; (Skype for Business) |X |N/A |
-|Web やモバイルでの発表者の参加 |&#x2714; (Skype for Business)  |X |N/A |
-|フェデレーションおよびゲストの発表者/出席者 |&#x2714; (Skype for Business)  | (近日公開) |N/A |
-|発表者 – PSTN アクセス |X |&#x2714; (Teams) |N/A |
+|複数の発表者の許可 |&#x2714; (Skype for Business) |&#x2714; (Teams) |該当なし  |
+|会議中の発表者の招待 |&#x2714; (Skype for Business) |X |該当なし |
+|Web やモバイルでの発表者の参加 |&#x2714; (Skype for Business)  |X |該当なし |
+|フェデレーションおよびゲストの発表者/出席者 |&#x2714; (Skype for Business)  | (近日公開) |該当なし |
+|発表者 – PSTN アクセス |X |&#x2714; (Teams) |該当なし |
 |画面表示 |X |&#x2714; (Teams) |N/A |
-|PowerPoint 表示 (PPT 共有) |&#x2714; |X (画面共有により軽減) |N/A |
+|PowerPoint 表示 (PPT 共有) |&#x2714; |X (画面共有により軽減) |該当なし |
 |クラウド ベースの会議記録 |&#x2714; |&#x2714; |&#x2714; |
 |Stream への記録の自動公開 |X |X |&#x2714; |
 |ライブ キャプションと字幕 |&#x2714; |&#x2714; |X |

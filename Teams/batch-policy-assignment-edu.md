@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: バッチポリシーの割り当てを使用して、リモート学校 (teleschool、tele) の目的で、教育機関の多数のユーザーにポリシーを割り当てる方法について説明します。
 f1keywords: ''
-ms.openlocfilehash: 5e3ee25bf4fadea595fc224b2944a12c279f9c59
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: 7e297b6a4b99162fb50564d4f552a06f0dc41a10
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892277"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42978519"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>学校の大規模なユーザーセットにポリシーを割り当てる
 
@@ -161,7 +161,7 @@ Get-CsUserPolicyAssignment -Identity hannah@contoso.com
 
 ## <a name="faq"></a>FAQ
 
-**学生、スタッフ、および教師であるすべてのユーザーが、自動的に割り当てられるライセンスを取得するようにします。どうすればよいですか?**
+**学生、スタッフ、および教師であるすべてのユーザーに、自動的にポリシーが割り当てられるようにします。どうすればよいですか?**
 
 Teams 製品チームは、セキュリティグループへのポリシーの割り当てをサポートする作業を行っています。 この時点で、学生と教師のグループを作成し、そのグループに適切なポリシーを作成することができます。 明示的なユーザーの割り当て (このチュートリアルで割り当てたポリシーなど) により、グループから継承されたポリシーが上書きされることに注意してください。 この機能がサポートされている場合は、ポリシーの割り当てをグループに使用する方法と、継承したグループポリシーを確実に取得できるようにユーザーを更新する方法について説明します。
 
