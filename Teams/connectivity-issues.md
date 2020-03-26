@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams クライアントの接続性の問題をトラブルシューティングする
+title: Microsoft Teams クライアントとの接続に関するトラブルシューティングを行う
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -18,28 +18,28 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: a12be097d0609f3631b6761f31350603b283faa2
 ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 02/06/2020
 ms.locfileid: "41825355"
 ---
-<a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a><span data-ttu-id="012a7-103">Microsoft Teams クライアントの接続性の問題をトラブルシューティングする</span><span class="sxs-lookup"><span data-stu-id="012a7-103">Troubleshoot connectivity issues with the Microsoft Teams client</span></span>
+<a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a><span data-ttu-id="afaf9-103">Microsoft Teams クライアントとの接続に関するトラブルシューティングを行う</span><span class="sxs-lookup"><span data-stu-id="afaf9-103">Troubleshoot connectivity issues with the Microsoft Teams client</span></span>
 ==============================================================
 
-<span data-ttu-id="012a7-104">Microsoft Teams クライアントで検出されたほとんどの問題は、ファイアウォールまたはプロキシ接続で追跡できます。</span><span class="sxs-lookup"><span data-stu-id="012a7-104">Most issues discovered with the Microsoft Teams client can be traced back to firewall or proxy connectivity.</span></span> <span data-ttu-id="012a7-105">必要な Url、IP アドレス、ポートがファイアウォールまたはプロキシで開かれていることを確認することで、不要なトラブルシューティングを最小限に抑えることができます。</span><span class="sxs-lookup"><span data-stu-id="012a7-105">Verifying that the necessary URLs, IP addresses and ports are opened in your firewall or proxy will minimize unnecessary troubleshooting.</span></span> <span data-ttu-id="012a7-106">Microsoft Teams に必要な Url と IPs の詳細については、「 [Office 365 の url と Ip アドレス](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)のサポート」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="012a7-106">For specific information on URLs and IPs required for Microsoft Teams, please see the [Office 365 URLs and IP Address](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) support article.</span></span> <span data-ttu-id="012a7-107">次のシナリオでは、特定の Url とポートをファイアウォールで開く必要があります。</span><span class="sxs-lookup"><span data-stu-id="012a7-107">The following scenarios require specific URLs and ports to be opened in the firewall.</span></span>
+<span data-ttu-id="afaf9-104">Microsoft Teams クライアントで発生する問題のほとんどは、ファイアウォールやプロキシ接続に原因があります。</span><span class="sxs-lookup"><span data-stu-id="afaf9-104">Most issues discovered with the Microsoft Teams client can be traced back to firewall or proxy connectivity.</span></span> <span data-ttu-id="afaf9-105">必要な URL、IP アドレス、ポートがファイアウォールやプロキシで開かれていることを確認することにより、不要なトラブルシューティングを最小限に抑えることができます。</span><span class="sxs-lookup"><span data-stu-id="afaf9-105">Verifying that the necessary URLs, IP addresses and ports are opened in your firewall or proxy will minimize unnecessary troubleshooting.</span></span> <span data-ttu-id="afaf9-106">Microsoft Teams に必要な URL と IP に関する具体的な情報については、サポート記事の「[Office 365 の URL と IP アドレス](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="afaf9-106">For specific information on URLs and IPs required for Microsoft Teams, please see the [Office 365 URLs and IP Address](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) support article.</span></span> <span data-ttu-id="afaf9-107">次のシナリオでは、ファイアウォールで特定の URL とポートを開く必要があります。</span><span class="sxs-lookup"><span data-stu-id="afaf9-107">The following scenarios require specific URLs and ports to be opened in the firewall.</span></span>
 
--   <span data-ttu-id="012a7-108">認証</span><span class="sxs-lookup"><span data-stu-id="012a7-108">Authentication</span></span>
+-   <span data-ttu-id="afaf9-108">認証</span><span class="sxs-lookup"><span data-stu-id="afaf9-108">Authentication</span></span>
 
--   <span data-ttu-id="012a7-109">Microsoft Teams クライアントの接続性</span><span class="sxs-lookup"><span data-stu-id="012a7-109">Microsoft Teams Client Connectivity</span></span>
+-   <span data-ttu-id="afaf9-109">Microsoft Teams クライアントの接続性</span><span class="sxs-lookup"><span data-stu-id="afaf9-109">Microsoft Teams Client Connectivity</span></span>
 
--   <span data-ttu-id="012a7-110">コラボレーション</span><span class="sxs-lookup"><span data-stu-id="012a7-110">Collaboration</span></span>
+-   <span data-ttu-id="afaf9-110">グループ作業</span><span class="sxs-lookup"><span data-stu-id="afaf9-110">Collaboration</span></span>
 
--   <span data-ttu-id="012a7-111">メディア</span><span class="sxs-lookup"><span data-stu-id="012a7-111">Media</span></span>
+-   <span data-ttu-id="afaf9-111">メディア</span><span class="sxs-lookup"><span data-stu-id="afaf9-111">Media</span></span>
 
--   <span data-ttu-id="012a7-112">共有サービス</span><span class="sxs-lookup"><span data-stu-id="012a7-112">Shared Services</span></span>
+-   <span data-ttu-id="afaf9-112">[共有サービス]</span><span class="sxs-lookup"><span data-stu-id="afaf9-112">Shared Services</span></span>
 
--   <span data-ttu-id="012a7-113">サードパーティ統合</span><span class="sxs-lookup"><span data-stu-id="012a7-113">Third Party Integration</span></span>
+-   <span data-ttu-id="afaf9-113">サードパーティ統合</span><span class="sxs-lookup"><span data-stu-id="afaf9-113">Third Party Integration</span></span>
 
--   <span data-ttu-id="012a7-114">Skype For Business の相互運用</span><span class="sxs-lookup"><span data-stu-id="012a7-114">Skype for Business Interoperability</span></span>
+-   <span data-ttu-id="afaf9-114">Skype For Business の相互運用</span><span class="sxs-lookup"><span data-stu-id="afaf9-114">Skype for Business Interoperability</span></span>
 
--   <span data-ttu-id="012a7-115">Skype for Business クライアントの相互運用</span><span class="sxs-lookup"><span data-stu-id="012a7-115">Skype for Business Client Interoperability</span></span>
+-   <span data-ttu-id="afaf9-115">Skype for Business クライアントの相互運用</span><span class="sxs-lookup"><span data-stu-id="afaf9-115">Skype for Business Client Interoperability</span></span>

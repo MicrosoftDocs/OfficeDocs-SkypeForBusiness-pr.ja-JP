@@ -37,6 +37,7 @@
 ## [チームの動的なメンバーシップの概要](dynamic-memberships.md)
 ## [Teams でチームを編成するためのベスト プラクティス](best-practices-organizing.md)
 ## [Teams で組織全体にわたるチームを作成する](create-an-org-wide-team.md)
+## [people manager teams を作成する](create-manager-directs-teams.md)
 ## [チームとチャネル ポリシーを管理する](teams-policies.md)
 ## [Teams の機密度ラベル](sensitivity-labels.md)
 ## [Teams でプライベート チームの検索を管理する](manage-discovery-of-private-teams.md)
