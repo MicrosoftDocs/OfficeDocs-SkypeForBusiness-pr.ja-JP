@@ -1,5 +1,5 @@
 ---
-title: 教育機関管理者向けの Microsoft Teams のリソース
+title: 教育機関管理者向け Microsoft Teams のリソース
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -16,17 +16,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e2f0a0d585b7bf21175ebf8dd0ab31e16133e11
-ms.sourcegitcommit: 29034bda30a8460eb18600785f785528d0944041
+ms.openlocfilehash: 8cb9e4c4b46e732b2cc96b58b67522a8a9da678c
+ms.sourcegitcommit: a2b2ae17a35f530f797504bb85b44f1a0f561a7d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42285849"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "42983819"
 ---
-<a name="microsoft-teams-resources-for-education-admins"></a>教育機関管理者向けの Microsoft Teams のリソース
+<a name="microsoft-teams-resources-for-education-admins"></a>教育機関管理者向け Microsoft Teams のリソース
 ==============================================
 
-## <a name="adoption-content"></a>導入コンテンツ
+## <a name="adoption-content"></a>導入向けコンテンツ
 
 Microsoft Teams について、メール、ポスター、配布資料など、今すぐ使用できる他のリソースについて説明します。 また、新しいデジタルツールキットをバナー、Gif、およびビデオで入力して、オンラインまたはキャンパス間で学生に連絡することもできます。 今すぐ始めましょう!
 
@@ -36,6 +36,7 @@ Microsoft Teams について、メール、ポスター、配布資料など、�
 
 | |  |
 |---------|---------|
+|[ヒントとトリックの小冊子](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-started-tips-tricks.zip?raw=true)<br> ![とる](media/edu-adoption-get-started.png)    |
 |ポスター-[カスタマイズ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-customizable.zip?raw=true)および[印刷可能](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-print-ready.zip?raw=true)<br>![ポスターのスクリーンショット](media/edu-adoption-posters.png)     |[配布](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/handouts.zip?raw=true)<br>![配布資料のスクリーンショット](media/edu-adoption-handouts.png)|
 |[物件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/flyers.zip?raw=true)<br>![チラシのスクリーンショット](media/edu-adoption-flyers.png)   |[Book 広告](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/book-adverts.zip?raw=true)<br>![書籍の広告のスクリーンショット](media/edu-adoption-book-adverts.png)         |
 

@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Microsoft Teams でのライブ イベントを立ち上げる前に考慮する必要のある要素について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ecd08f71545bcaf2775b3e502860b9d6a8e234fc
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.openlocfilehash: 816cfb3c971621a367dcf81d1ec555e9735bda9d
+ms.sourcegitcommit: a2b2ae17a35f530f797504bb85b44f1a0f561a7d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978419"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "42983863"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントの計画
 
@@ -81,7 +81,8 @@ ms.locfileid: "42978419"
 |---------|---------|---------|---------|
 |最大視聴者数 |出席者 10,000 名 |出席者 10,000 名 <sup>1</sup> |出席者 10,000 名 <sup>1</sup> |
 |ライブ イベントの最大期間 |4 時間 |4 時間 |4 時間 |
-|Office 365 テナントごとの同時ライブ イベントの最大数 |マート  | 15  | 15  |
+|ライブイベントの発表者とプロデューサーの最大数 |10 <sup>2</sup> |10 <sup>2</sup> |10 <sup>2</sup> |
+|Office 365 テナントごとの同時ライブ イベントの最大数 |マート  | マート  | マート  |
 |ライブ イベントの作成 |   Skype 会議ブロードキャスト ポータル |Teams、Teams 経由の Yammer | Teams、Teams 経由の Yammer、Stream |
 |視聴者のエンゲージメント – Yammer |&#x2714; |&#x2714; (統合エクスペリエンス) |&#x2714; (統合エクスペリエンス) |
 |視聴者のエンゲージメント – モデレート Q & A |&#x2714;  |&#x2714; |&#x2714; |
@@ -104,7 +105,9 @@ ms.locfileid: "42978419"
 |ブロードキャスト後のプロデューサー向け出席レポート |&#x2714; |&#x2714; |X |
 |視聴者の感情分析 – ライブ投票/投票 |&#x2714; (Microsoft Pulse) |X |X |
 
-<sup>1</sup> 設定されている制限が変更される場合があります。
+<sup>1</sup> 設定されている制限が変更される場合があります。<br/>
+<sup>2</sup>最大で250の発表者とプロデューサーはライブイベントに含めることができますが、リストに表示されるのは最後の10件のユーザーのみです。
+
 
 ## <a name="regional-availability"></a>利用可能な地域
 世界中の複数の地域で Teams ライブ イベントを使用できます。 次に、イベント チームのメンバーと出席者向けの利用状況を示します。 
