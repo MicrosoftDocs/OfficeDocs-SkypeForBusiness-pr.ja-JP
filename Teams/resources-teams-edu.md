@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8cb9e4c4b46e732b2cc96b58b67522a8a9da678c
-ms.sourcegitcommit: a2b2ae17a35f530f797504bb85b44f1a0f561a7d
+ms.openlocfilehash: fd01a781cfb5a928e4d14e64d45789b4f023648d
+ms.sourcegitcommit: 3ddb28e085a89501e4e64687de4697f82f47f119
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 03/27/2020
-ms.locfileid: "42983819"
+ms.locfileid: "43027677"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>教育機関管理者向け Microsoft Teams のリソース
 ==============================================
@@ -36,9 +36,9 @@ Microsoft Teams について、メール、ポスター、配布資料など、�
 
 | |  |
 |---------|---------|
-|[ヒントとトリックの小冊子](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-started-tips-tricks.zip?raw=true)<br> ![とる](media/edu-adoption-get-started.png)    |
 |ポスター-[カスタマイズ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-customizable.zip?raw=true)および[印刷可能](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-print-ready.zip?raw=true)<br>![ポスターのスクリーンショット](media/edu-adoption-posters.png)     |[配布](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/handouts.zip?raw=true)<br>![配布資料のスクリーンショット](media/edu-adoption-handouts.png)|
 |[物件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/flyers.zip?raw=true)<br>![チラシのスクリーンショット](media/edu-adoption-flyers.png)   |[Book 広告](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/book-adverts.zip?raw=true)<br>![書籍の広告のスクリーンショット](media/edu-adoption-book-adverts.png)         |
+|[ヒントとトリックの小冊子](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-started-tips-tricks.zip?raw=true)<br> ![とる](media/edu-adoption-get-started.png)    |
 
 ### <a name="digital-assets"></a>デジタルアセット
 
