@@ -14,12 +14,12 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: この記事では、Microsoft Teams のルームをサポートするための要件について説明します。
-ms.openlocfilehash: e19537005717a803740f268f2d8f766ed2d87303
-ms.sourcegitcommit: 169107e56dbc7f887e709e6304521ce959658990
+ms.openlocfilehash: c20da0aaa42f9e11b8bb0aba3a1f9c0248c24c7b
+ms.sourcegitcommit: 89a7c0427a5abbef838a17ae7eac6934c6176a35
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42728936"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42982120"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams の会議室の要件
 
@@ -63,6 +63,7 @@ Microsoft Teams の会議室のサイズと用途に基づいて、さまざま�
   |[ごみ箱 MVC800](https://www.yealink.com/products_125.html)|Core i5|8 GB|128 GB|
   |[ごみ箱 MVC500](https://www.yealink.com/products_126.html)|Core i5|8 GB |128 GB |
   |[ごみ箱 MVC300](https://www.yealink.com/products_154.html)|Core i5|8 GB |128 GB |
+  |[ごみ箱 MVC900](https://www.yealink.com/product/microsoft-teams-room-system-mvc900)|Core i5|8 GB|128 GB|
   ||||||
 
 > [!NOTE]
@@ -142,7 +143,7 @@ Microsoft Teams の会議室のサイズと用途に基づいて、さまざま�
 |**すばやく** <br/> 10 ' x 9 '   |2 ~ 4  |1.5 m  |Logitech Connect  |Logitech Connect デバイスには、ローカルの会議出席者をキャプチャするために、部屋の前面 (表の中央ではなく) に配置する必要があるカメラが含まれています。 |
 |**微** <br/> 16 ' x 16 '  |4 ~ 6  |2.0 m  |Jabra 510 <br/> Sennheiser SP20  |再生音量は、大規模な部屋で制限されます。  |
 |**中** <br/> 18 ' x 20 '  |6 ~ 12  |2.4 m  |Jabra 710 <br/> Jabra 810 <br/> Logitech MeetUp <br/> Logitech グループ <br/> Polycom 3 つ <br/> Polycom CX5100 <br/> Sennheiser SP 220 MS <br/> Yamaha YVC-1000MS  |Logitech MeetUp にはカメラが含まれているため、部屋の前に配置する必要があります (これは、ローカルの会議出席者をキャプチャするために、テーブルの中央に配置する必要があります)。 <br/> 一般に、長い長方形または u 形の表のあるルームは、サテライトマイクで利用できます。 <br/> SP 220 ミリ秒は、デイジーチェーン構成で使用する必要があります。  |
-|**さまざま** <br/> 15 ' x 32 '  |12 ~ 16  |3 m <br/> この距離は、接続されている各サテライトマイクがカバーする領域にも適用されます。  |Logitech Group + 衛星マイク <br/> Polycom 3 つ + 衛星マイク <br/> Polycom CX5100 + 衛星マイク <br/> Sennheiser SP 220 MS <br/> Yamaha YVC-1000MS + 衛星マイク  |この行に示されているすべてのオーディオデバイスは、衛星マイクのオプションをサポートしています。 <br/> CX5100 には、デバイスを表の中央に配置できるように、組み込みの360度のカメラが含まれています。 <br/> SP 220 ミリ秒は、デイジーチェーン構成で使用する必要があります。  |
+|**大** <br/> 15 ' x 32 '  |12 ~ 16  |3 m <br/> この距離は、接続されている各サテライトマイクがカバーする領域にも適用されます。  |Logitech Group + 衛星マイク <br/> Polycom 3 つ + 衛星マイク <br/> Polycom CX5100 + 衛星マイク <br/> Sennheiser SP 220 MS <br/> Yamaha YVC-1000MS + 衛星マイク  |この行に示されているすべてのオーディオデバイスは、衛星マイクのオプションをサポートしています。 <br/> CX5100 には、デバイスを表の中央に配置できるように、組み込みの360度のカメラが含まれています。 <br/> SP 220 ミリ秒は、デイジーチェーン構成で使用する必要があります。  |
 
 **Microsoft Teams 会議室のビデオ周辺機器**
 
@@ -151,7 +152,7 @@ Microsoft Teams の会議室のサイズと用途に基づいて、さまざま�
 |**すばやく** <br/> 10 ' x 9 '  |2 ~ 4  |Logitech Connect <br/> Logitech MeetUp <br/> Polycom CX5100  ||
 |**微** <br/> 16 ' x 16 '  |4 ~ 6  |Logitech C930e <br/> Logitech MeetUp <br/> Logitech BRIO <br/> Logitech PTZ Pro <br/> Polycom MSR <br/> Polycom CX5100  |Logitech PTZ Pro は Logitech グループにバンドルされることがよくあります。  |
 |**中** <br/> 18 ' x 20 '  |6 ~ 12  |Logitech MeetUp <br/> Logitech BRIO <br/> Logitech PTZ Pro <br/> Polycom MSR <br/> Polycom CX5100  ||
-|**さまざま** <br/> 15 ' x 32 '  |12 ~ 16  |Logitech PTZ Pro <br/> Polycom MSR <br/> Polycom CX5100  ||
+|**大** <br/> 15 ' x 32 '  |12 ~ 16  |Logitech PTZ Pro <br/> Polycom MSR <br/> Polycom CX5100  ||
 
  > [!NOTE]
  > ルームの表示解像度の前には、1920x1080p 以下の値を設定する必要があります。
@@ -169,7 +170,7 @@ Microsoft Teams の会議室のサイズと用途に基づいて、さまざま�
 
 [すべてのバンドルを参照する](https://products.office.com/microsoft-teams/across-devices/devices)
 
-[Microsoft Teams のルームを計画する](rooms-plan.md)
+[Microsoft Teams ミーティングを計画する](rooms-plan.md)
 
 [Microsoft Teams ルームの展開](rooms-deploy.md)
 

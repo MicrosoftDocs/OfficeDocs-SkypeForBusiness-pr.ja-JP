@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: '通話品質ダッシュボードをオンにして使用し、通話の品質に関する概要レポートを取得する方法について説明します。 '
-ms.openlocfilehash: 9e9c70c88aec9fcdf898d94a17f46f76bd2c608a
-ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
+ms.openlocfilehash: 7fafbebaa21a6bbd71ab0e253f226908d6787869
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42559880"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42983325"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Microsoft Teams および Skype for Business Online で通話品質ダッシュボードをオンにして使用する
 
@@ -94,7 +94,7 @@ CQD バージョン1では、Skype for Business Server 2015 管理者が次の�
 
 ## <a name="cqd-near-real-time-nrt-data"></a>CQD (NRT) データのほぼリアルタイムのデータ
 
-Advanced CQD (V3、2019年11月リリース) は、ほぼリアルタイムのデータフィードを使用します。 通話記録は、通話の終了後30分以内に CQD ポータルで利用できます。 NRT パイプラインからの通話レコードは、データセットから削除されるまで数ヶ月分しか使用できません。 CQD v3 は、v3 パイプラインの NRT データで現在の v2 パイプラインからデータを結合します。 アーカイブ期間のデータに対する v2 と v3 ポータルのクエリでは、同じ結果が得られます。 NRT データと NRT データと PII 期間の V2 と v3 のデータクエリは、異なるものになります。
+Advanced CQD (V3、2019年11月リリース) は、ほぼリアルタイムのデータフィードを使用します。 通話記録は、CQD ポータルで平均で30分で利用できます (前の CQD と比較して、24時間の平均値が表示されます)。 NRT パイプラインからの通話レコードは、データセットから削除されるまで数ヶ月分しか使用できません。 CQD v3 は、v3 パイプラインの NRT データで現在の v2 パイプラインからデータを結合します。 アーカイブ期間のデータに対する v2 と v3 ポータルのクエリでは、同じ結果が得られます。 NRT データと NRT データと PII 期間の V2 と v3 のデータクエリは、異なるものになります。
 
 ### <a name="piieuii-data"></a>PII/EUII データ
 
@@ -186,18 +186,18 @@ CQD の概要レポートには、詳細レポート用に計画されている�
 |機能|概要レポート|詳細レポート|
 |:--- |:--- |:--- |
 |アプリケーション共有のメトリック | いいえ | はい |
-|顧客の建物情報のサポート | はい | 必要 |
+|顧客の建物情報のサポート | はい | Yes |
 |顧客エンドポイント情報のサポート | <span>Cqd.teams.microsoft.com のみ<span/> | <span>Cqd.teams.microsoft.com のみ<span/> |
 |ドリルダウン分析のサポート   | いいえ   | はい   |
 |メディアの信頼性のメトリック   | いいえ   | はい   |
-|ボックスのないレポート   | はい   | 必要   |
-|概要レポート   | はい   | 必要   |
+|ボックスのないレポート   | はい   | Yes   |
+|概要レポート   | はい   | Yes   |
 |ユーザーごとのレポートセット   | いいえ   | はい   |
 |レポートセットのカスタマイズ (レポートの追加、削除、変更)   | いいえ   | はい   |
 |ビデオベースの画面共有のメトリック   | いいえ   | はい   |
 |ビデオ指標   | いいえ   | はい   |
 |利用可能なデータの量   | 過去12か月間   | 過去12か月間   |
-|Microsoft Teams データ   | はい   | 必要   |
+|Microsoft Teams データ   | はい   | Yes   |
 | | | |
 
 ### <a name="out-of-the-box-reports"></a>ボックスのないレポート

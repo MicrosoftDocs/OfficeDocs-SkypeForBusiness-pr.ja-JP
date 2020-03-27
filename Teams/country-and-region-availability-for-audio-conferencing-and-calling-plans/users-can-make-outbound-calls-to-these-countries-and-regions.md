@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: このトピックには、ユーザーが発信プランを持っている場合に通話を発信できる相手先の国や地域がすべて記載されています。
-ms.openlocfilehash: d882078c32b5820dc060778dca4c3f30b4b2a044
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
-ms.translationtype: HT
+ms.openlocfilehash: 09e6fae92c7708e13c8b1eb595d76bf313dbba0c
+ms.sourcegitcommit: 89a7c0427a5abbef838a17ae7eac6934c6176a35
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41682514"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42982130"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>ユーザーが通話を発信できる相手先の国や地域
 

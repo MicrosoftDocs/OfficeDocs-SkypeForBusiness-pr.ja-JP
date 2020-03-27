@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 組織外の企業やクライアントが電話をかけられるように、チームユーザーの勤務先電話番号を割り当て、変更、または削除する方法について説明します。
-ms.openlocfilehash: 08f662abbad8d7e59d6ed543257d7bb1116e08f1
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: b406a303352afaf29537815e98aed2d660670f12
+ms.sourcegitcommit: 89a7c0427a5abbef838a17ae7eac6934c6176a35
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826995"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42982110"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>ユーザーの電話番号を割り当て、変更、または削除する
 
@@ -50,7 +50,7 @@ Teams で通話プランを取得する方法とその費用については、�
 4. 関連する緊急対応の場所を割り当てる、または変更するには、[緊急対応の**場所**] で、場所を検索して選択します。
 6. **[保存]** をクリックします。
     > [!NOTE]
-    > Office 365 と Teams の間の待機時間のために、ユーザーが有効になるまで最大24時間かかることがあります。 24時間後に電話番号が正しく割り当てられていない場合は、 [PSTN サービスデスクに問い合わせてください](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。 ここでは、ご意見をお待ちしています。
+    > Office 365 と Teams の間の待機時間のために、ユーザーが有効になるまで最大24時間かかることがあります。 24時間後に電話番号が正しく割り当てられていない場合は、「[ビジネス製品のサポート-管理者向けヘルプ」を参照してください](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)。 ここでは、ご意見をお待ちしています。
   
 ## <a name="change-a-phone-number-for-a-user"></a>ユーザーの電話番号を変更する
  
@@ -76,7 +76,7 @@ Teams で通話プランを取得する方法とその費用については、�
 4. [**編集**] ウィンドウの [**割り当て先**] で、[ **X** ] をクリックしてユーザーを削除します。
 5. **[保存]** をクリックします。
     
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [住所検証とは何ですか?](/skypeforbusiness/what-are-calling-plans-in-office-365/what-is-address-validation)
 
