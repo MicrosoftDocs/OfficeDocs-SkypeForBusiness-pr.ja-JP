@@ -640,6 +640,7 @@
 ### [小売店向けテンプレートでTeamsを始めましょう](get-started-with-retail-teams-templates.md)
 
 ## [政府機関用の Teams ](expand-teams-across-your-org/teams-for-government-landing-page.md)
+### [リモート ワーカーのサポート (WFH)](expand-teams-across-your-org/GOV-support-remote-work-with-teams.md)
 ### [Office 365 G1 試用版を管理する](g1-trial-license.md)
 ### [Microsoft 365 Government の計画: GCC](plan-for-government-gcc.md)
 ### [Microsoft 365 Government の計画: GCC High](plan-for-government-gcc-high.md)

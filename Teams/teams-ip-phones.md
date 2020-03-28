@@ -21,7 +21,7 @@ ms.custom:
 description: Microsoft Teams 認定 IP 卓上および会議電話
 ms.openlocfilehash: a8b8b0f1763aba131fb7ecd242bc63a2de973f44
 ms.sourcegitcommit: 169107e56dbc7f887e709e6304521ce959658990
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 03/18/2020
 ms.locfileid: "42728946"
@@ -49,22 +49,22 @@ Microsoft Teams の認定を受けているのは、以下の電話です:
 |Crestron M100|2.3875.00068|2018 年 12 月|
 |Crestron Flex UC-P100-T & UC-P110-T  | 58.15.91.6 |2019 年 1 月|
 |Poly Trio 8500/8800 (共有モードのみ)| 5.9.0.10869|2019 年 6 月|
-|Poly CCX400 | 1.0.0.0200 | 2020年1月|
-|Poly CCX600 | 5.9.12.1111| 2020年1月|
-|Poly CCX500 | 5.9.12.1111| 2019年12月|
-|ごみ箱 MP56| 122.15.0.6| 2020年3月|
+|Poly CCX400 | 1.0.0.0200 | 2020 年 1 月|
+|Poly CCX600 | 5.9.12.1111| 2020 年 1 月|
+|Poly CCX500 | 5.9.12.1111| 2019 年 12 月|
+|Yealink MP56| 122.15.0.6| 2020 年 3 月|
 |Yealink VP59 | 91.15.0.16 |2019 年 6 月|
 |Yealink T55 | 58.15.0.36 |2019 年 5 月|
 |Yealink CP 960 |73.15.0.20|2018 年 12 月|
 |Yealink T58 & T56 シリーズ |58.15.0.20|2018 年 12 月|
 
-## <a name="certified-collaboration-bars"></a>認定済みのコラボレーションバー
+## <a name="certified-collaboration-bars"></a>認定コラボレーション バー
 
-Microsoft Teams では、次のコラボレーションバーが認定されています。
+Microsoft Teams の認定を受けているのは、以下のコラボレーション バーです。
 
-|コラボレーションバーモデル|ファームウェア バージョン|リリース日 |
+|コラボレーション バー モデル|ファームウェア バージョン|リリース日 |
 |:---|:---|:---|
-|ごみ箱 VC210| 118.15.0.14|2020年2月|
+|Yealink VC210| 118.15.0.14|2020 年 2 月|
 
 これらのデバイスでサポートされている機能については、「[Microsoft Teams phones feature set (Microsoft Teams の電話機能セット)](/MicrosoftTeams/phones-for-teams#microsoft-teams-phones-feature-set)」を参照してください。
 
