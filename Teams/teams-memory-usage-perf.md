@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 05cbd2f4b6691c873393a7ba711e03aadf70a2f2
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 59940eafcdb6f86961b3cd6805cb9c5bb40f9fb2
+ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836987"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033401"
 ---
 # <a name="how-microsoft-teams-uses-memory"></a>Microsoft Teams のメモリ使用方法
 
@@ -51,7 +51,7 @@ Teams デスクトップアプリと Teams web アプリのどちらを実行し
 
 ![異なるシステム間での Teams のメモリ使用量](media/teams-memory-usage.png)
 
-コンピューターにメモリが追加されている場合、チームはそのメモリを使用します。 メモリが不足しているシステムでは、チームはあまり使用しません。 
+コンピューターにメモリが追加されている場合、チームはそのメモリを使用します。 メモリが不足しているシステムでは、チームはあまり使用しません。
 
 ### <a name="symptoms-of-system-memory-issues"></a>システムメモリの問題の症状
 

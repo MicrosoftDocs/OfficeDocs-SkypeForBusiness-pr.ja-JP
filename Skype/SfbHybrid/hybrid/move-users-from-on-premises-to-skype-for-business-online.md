@@ -1,5 +1,5 @@
 ---
-title: オンプレミスから Skype for Business Online へのユーザーの移動
+title: ユーザーをオンプレミスから Skype for Business Online に移動する
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -18,14 +18,14 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: ユーザーを Skype for Business Online に移動する方法について説明します。
-ms.openlocfilehash: 6653ca8fe7082f0cabd2057c078f7d0d8d6f0389
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6d8e8fa08c124717a0d61a758bdb60f2dd24c410
+ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726757"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033381"
 ---
-# <a name="move-users-from-on-premises-to-skype-for-business-online"></a>オンプレミスから Skype for Business Online へのユーザーの移動
+# <a name="move-users-from-on-premises-to-skype-for-business-online"></a>ユーザーをオンプレミスから Skype for Business Online に移動する
 
 オンプレミスから Skype for Business Online にユーザーを移動すると、ユーザーは Skype for Business Online と対話してその機能を利用できるようになります。 オンプレミスに存在していた連絡先は、Skype for business Online で利用できるようになります。また、今後、ユーザーが開催した既存の会議が更新されるようになっています。このリンクは、Skype for Business Online を指すようになります。 ユーザーが電話会議に対して有効になっている場合、会議にはダイヤルイン座標も含まれます。  オンプレミス環境から Skype for Business Online にユーザーを移動するには、ユーザーコマンドレットを使用するか、または Skype for Business Server コントロールパネルを使用します。どちらもオンプレミスのツールです。 
 
@@ -40,10 +40,7 @@ Move-CsUser は、オンプレミスの Skype for Business 管理シェル Power
 - Identity パラメーターを使用して移動するユーザーを指定します。
 - 値が "sipfed" の-Target パラメーターを指定します。<span>com "。
 - オンプレミスと Office 365 の両方に十分な権限を持つアカウントがない場合は、-credential パラメーターを使用して、Office 365 に十分なアクセス許可を持つアカウントを指定します。
-- Office 365 でアクセス許可が設定されているアカウントが「microsoft」で終わっていない場合。<span>com の場合は、-HostedMigrationOverrideUrl パラメーターを指定する必要があります。詳細については、「[必要な管理者の資格情報](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)」を参照してください。
-
- > [!NOTE]
- > テナントの正しい HostedMigrationOverrideUrl 値を決定する必要があります。 これは、従来の Skype for Business 管理センターに移動することによって簡単に実行できます。 プレフィックス-XXXXXXX.online.lync.com および append/Hostedmigration/hostedmigrationservice.svc を決定する 次に例https://admin1a.online.lync.com/HostedMigration/hostedmigrationService.svcを示します。値を識別したら、次に示すように、その値を $url 変数として使用します。
+- Office 365 のアクセス許可を持つアカウントが "onmicrosoft" で終了していない場合。<span>com の場合は、-HostedMigrationOverrideUrl パラメーターを指定する必要があります。詳細については、「[必要な管理者の資格情報](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)」を参照してください。
 
 次のコマンドレットシーケンスを使用して、ユーザーを Skype for Business Online に移動することができ、Office 365 資格情報が別のアカウントであると仮定して、資格情報の取得を求めるプロンプトの入力として指定します。
 
