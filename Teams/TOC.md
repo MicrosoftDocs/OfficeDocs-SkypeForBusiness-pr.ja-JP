@@ -629,6 +629,7 @@
 ### [リモート学習の開始](remote-learning-edu.md)
 ### [多数のユーザー セットにポリシーを割り当てる](batch-policy-assignment-edu.md)
 ### [教育機関向けの Teams のライセンス](teams-edu-licensing.md)
+### [教育機関管理者向けの低帯域幅ガイダンス](edu-remote-low-bandwidth.md)
 ### [教育機関向けの Teams の課題 ](expand-teams-across-your-org/assignments-in-teams.md)
 ### [教育機関管理者向けの Teams のリソース](resources-teams-edu.md)
 ### [EDU 管理者向けの Microsoft Teams ポリシー パッケージ](policy-packages-edu.md)
@@ -652,6 +653,7 @@
 # セキュリティとコンプライアンス
 ## [概要](security-compliance-overview.md)
 ## セキュリティ
+### [セキュリティ ガイド](teams-security-guide.md)
 ### [ID モデルと認証](identify-models-authentication.md)
 ### [先進認証を使用して Teams にサインインする](sign-in-teams.md)
 ## コンプライアンス
