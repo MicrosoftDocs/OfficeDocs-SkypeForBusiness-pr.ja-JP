@@ -15,14 +15,15 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_RemoteWorkers
+- remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e7a27d8f3d6da0521b09ab2c1a011eab9aa7235f
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: 704a08678bfb64cdbee223b555dfaa4fa6350892
+ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892347"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033371"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>遠隔学習向けに Microsoft Teams の使用を開始する。
 
@@ -79,7 +80,8 @@ Teams の使用を開始するには、2 つの作業を行う必要がありま
 
 #### <a name="messaging-policy"></a>メッセージング ポリシー
 
-- [変更] を [オフ] に設定
+- "送信済みメッセージを削除" を 'オフ' に設定
+- "送信済みメッセージを編集" を 'オフ' に設定
 - [Giphy コンテンツの評価] を [高] に設定
 - [メッセージを翻訳する] を [オン] に設定
 - [優先通知を使用して緊急メッセージを送信する] を [オフ] に設定
