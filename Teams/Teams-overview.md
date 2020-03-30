@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9587244483bf220324a24396e5719843ba0ebc3c
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 8fe24de92f46b5850edc9fe6631bb02a03be8bcb
+ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834797"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42928260"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Microsoft Team にようこそ
 所属する組織での Microsoft Teams の管理者である場合は、このページの内容をよくお読みください。 Teams を使用する準備が整っている場合は、「[Teams の展開方法](How-to-roll-out-teams.md)」から始めてください。
@@ -59,13 +59,18 @@ Teams をカスタマイズおよび拡張するには、[アプリ、ボット�
 
 ## <a name="managing-teams"></a>Teams を管理する
 
-ユーザーは管理者として、Microsoft Teams 管理センター経由で Teams を管理します。 詳細情報:
+ユーザーは管理者として、Microsoft Teams 管理センター経由で Teams を管理します。 「Teams 管理センターを使用して Teams を管理する」のビデオ (3:03 分) で、簡潔なオリエンテーションをご覧ください。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yi]
+
+詳細情報:
+
 - [Teams 管理者ロールを使用してTeams を管理します](using-admin-roles.md)
 - [Teams 管理センターで Teams を管理する](manage-teams-skypeforbusiness-admin-center.md)
 - [新しい Teams 管理センターへの移行中に Teams を管理する](manage-teams-in-modern-portal.md)
 - [Office 365組織のチーム機能を管理します](enable-features-office-365.md)
 
-Teams およびその他の Office 365 製品とサービスに今後導入される機能についての最新情報を常に取得するには、必ず[メッセージ センター](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) と [Teams ロードマップ](https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters=Microsoft%20Teams%26searchterms=microsoft%2Cteams)を確認してください。 新機能および更新された機能、計画済みの変更、および問題についての通知を取得して、常に情報を把握して準備を整えられるようになります。 
+Teams およびその他の Office 365 製品とサービスに今後導入される機能についての最新情報を常に取得するには、必ず「[メッセージ センター](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter)」と「[Teams ロードマップ](https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters=Microsoft%20Teams%26searchterms=microsoft%2Cteams)」を確認してください。 新機能および更新された機能、計画済みの変更、および問題についての通知を取得して、常に情報を把握して準備を整えられるようになります。 
 
 ## <a name="upgrade-from-skype-for-business-to-teams"></a>Skype for Business から Teams へのアップグレード
 Teams は Office 365 でのインテリジェント コミュニケーションの中心的なクライアントで、最終的に Skype for Business Online に取って代わります。 Teams に導入される新機能の最新情報を入手するには、「[Microsoft 365 ロードマップ](https://aka.ms/O365Roadmap)」を参照してください。 常設チャットおよびメッセージの機能を補完するために、Teams では内蔵され完全に統合された音声とビデオによる、包括的な会議および通話のエクスペリエンスを提供しています。 Microsoft Teams ブログの「[Teams is now a complete meeting and calling solution (完全な会議および通話ソリューションとなった Teams)](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042)」をご覧ください。
