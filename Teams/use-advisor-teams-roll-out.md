@@ -9,6 +9,7 @@ ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
+- remotework
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -18,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Teams のアドバイザー (パブリック プレビュー) を使用して、Microsoft Teams の展開を計画および完了します。
-ms.openlocfilehash: 17fac0b4f4c974f72eccc7d0c11ae6b27337afef
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: 6e4f383983326333bcd8b821d2342872eb89ecd7
+ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892287"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43053620"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Teams のアドバイザーを使用して、Microsoft Teams の展開を支援する
 

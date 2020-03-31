@@ -12,18 +12,19 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+- remotework
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b687d528f7cb593039fdafd9dcc6ec08ec66372
-ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
-ms.translationtype: HT
+ms.openlocfilehash: 3320681f606150be223433d6ab80e8e0ee41a42f
+ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341645"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43053413"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft Teams のセキュリティとコンプライアンス
 
@@ -70,7 +71,11 @@ Microsoft Teams デスクトップ アプリケーションは、AppLocker を�
 
 ## <a name="compliance"></a>コンプライアンス
 
-Teams には、アイテム保持ポリシー、データ損失防止 (DLP)、チャネルの電子情報開示と訴訟ホールド、チャットとファイル、監査ログの検索、Microsoft Intune を活用したモバイル アプリケーション管理など、コンプライアンスの分野で役立つさまざまな情報が用意されています。 これらのすべてのトピックに関する情報が以下に記載されています。これらの設定を管理するには、Office 365 セキュリティ/コンプライアンス センターに移動してください。
+チームには、チャネル、チャット、添付ファイル、アイテム保持ポリシー、データ損失防止 (DLP)、チャネル、チャット、ファイル、監査ログの電子情報開示と法的保持など、コンプライアンスの領域に役立つさまざまな情報があります。Microsoft Intune でのモバイルアプリケーション管理と共に検索できます。 以下のすべてのトピックに関する情報が記載されています。 [Microsoft 365 コンプライアンスセンター](https://compliance.microsoft.com)または[Office 365 セキュリティ & コンプライアンスセンター](https://protection.microsoft.com)にアクセスして、これらの設定を管理できます。
+
+### <a name="communication-compliance"></a>通信のコンプライアンス
+
+Microsoft 365 での通信のコンプライアンス機能を使用すると、不快感のある言語、機密情報、および社内および規制標準に関連する情報について Microsoft Teams の通信を調査できるように構成可能な、範囲内ポリシーにユーザーを追加することができます。. パブリックとプライベートの両方の Teams チャネルでのチャットおよび関連付けられた添付ファイルは、個々のチャットと添付ファイルをスキャンして、組織内の通信リスクを最小限に抑えることができます。 不適切なチームの通信を検出、キャプチャし、対処するために役立つポリシーを構成する方法の詳細については、「 [Microsoft 365 での通信のコンプライアンス](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance)」を参照してください。
 
 ### <a name="retention-policies"></a>アイテム保持ポリシー
 
@@ -163,11 +168,12 @@ Teams のデータはご利用の Office 365 テナントに関連付けられ�
 
 ## <a name="compliance-standards"></a>コンプライアンス基準
 
-Teams は Tier D 準拠です。これにより、ISO 27001、ISO 27018、SSAE16 SOC 1 および SOC 2、HIPAA、EU モデル契約条項 (EUMC) といった標準に対応します。Microsoft コンプライアンス フレームワークにおいて、Microsoft は Office 365 のアプリケーションとサービスを 4 つのカテゴリに分類しています。各カテゴリは、そのカテゴリのリストに記載されるために Office 365 サービスや関連するマイクロソフトのサービスが満たす必要のある、特定のコンプライアンス コミットメントによって定義されます。
+Teams は層 D に準拠しています。 これには、 [iso 27001](https://docs.microsoft.com/microsoft-365/compliance/offering-iso-27001)、 [iso 27018](https://docs.microsoft.com/microsoft-365/compliance/offering-iso-27018)、 [SSAE16 soc 1 と soc 2](https://docs.microsoft.com/microsoft-365/compliance/offering-soc)、 [HIPAA](https://docs.microsoft.com/microsoft-365/compliance/offering-hipaa-hitech)、および[EU モデル条項 (EUMC)](https://docs.microsoft.com/microsoft-365/compliance/offering-eu-model-clauses)が含まれます。 Microsoft のコンプライアンスフレームワークでは、Office 365 アプリケーションとサービスは4つのカテゴリに分類されています。 各カテゴリは、そのカテゴリに記載されるように、Office 365 サービスまたは関連する Microsoft サービスに対して満たす必要がある特定のコンプライアンスコミットメントによって定義されます。
 
 業界をリードするコンプライアンスへの取り組みを実施しているコンプライアンス カテゴリ C および D のサービスは、既定で有効になっています。カテゴリ A と B のサービスでは、組織全体に対してオンまたはオフにする制御が用意されています。詳細については、「[Compliance Framework for Industry Standards and Regulations (業界の規格と規制のコンプライアンス フレームワーク)](https://download.microsoft.com/download/1/4/3/1434ABAB-B8E9-412D-8C3A-187B5FCB7A2F/Compliance%20Framework%20document.pdf)」をご覧ください。Teams はクラウド セキュリティ アライアンス (CSA) にも準拠しています。
 
 ## <a name="related-topics"></a>関連項目
 
-[M365 セキュリティ](https://docs.microsoft.com/microsoft-365/security/)
-[M365 コンプライアンス](https://docs.microsoft.com/microsoft-365/compliance/)
+[Microsoft 365 セキュリティ](https://docs.microsoft.com/microsoft-365/security/)
+[microsoft 365 コンプライアンス](https://docs.microsoft.com/microsoft-365/compliance/)
+に関する[microsoft のコンプライアンスサービス](https://docs.microsoft.com/microsoft-365/compliance/offering-home)

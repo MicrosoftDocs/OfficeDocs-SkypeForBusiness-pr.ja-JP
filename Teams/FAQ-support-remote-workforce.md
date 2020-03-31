@@ -9,18 +9,19 @@ ms.service: msteams
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_RemoteWorkers
+- remotework
 ms.reviewer: nichrose
 localization_priority: Priority
 search.appverid: MET150
 description: このガイダンスは、新型コロナウイルス感染症 (COVID-19) 発生への対策として従業員が在宅勤務 (WFH) となった場合に、これらのリモート ワーカーの生産性を維持するためにご使用ください。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bedd9e0022dc82520d7c23e8f8f7b61a5fd78e89
-ms.sourcegitcommit: 45bbec77370ed44ba069790086541a914800ae5a
+ms.openlocfilehash: 336286f2dc107cc4f79bd874789866c352c1e522
+ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42866572"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43053550"
 ---
 # <a name="faq-support-your-remote-workforce"></a>よく寄せられる質問: リモートの従業員をサポートする
 

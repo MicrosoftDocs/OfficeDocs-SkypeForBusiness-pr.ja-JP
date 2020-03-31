@@ -9,18 +9,19 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-voice
+- remotework
 search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Power BI を使用して、Microsoft Teams の CQD データを分析します。
-ms.openlocfilehash: c69d2ba79044d4d15e21881e5d2a9a2ce4f64feb
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+ms.openlocfilehash: 374f0da0342e5fbd50a7a27b9dde49acf605a23d
+ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42796010"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43053510"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Power BI を使用して Microsoft Teams の CQD データを分析する
 
