@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d85bb4ba32bf83d3c774a2b6700a96c7e35dcb2a
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: f91ba33e372334fed3561227f1c7f88f9357aa55
+ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42935255"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43060388"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Microsoft Teams 用に組織のネットワークを準備する 
 
@@ -34,7 +34,7 @@ ms.locfileid: "42935255"
     |  |  |
     |---------|---------|
     |ポート     |UDP ポート<strong>3478</strong> ~ <strong>3481</strong>        |
-    |[IP アドレス](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) |<strong>13.107.64.0/18</strong>および<strong>52.112.0.0/14</strong>        |
+    |[IP アドレス](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) |<strong>13.107.64.0/18</strong>、 <strong>52.112.0.0/14</strong>、 <strong>52.120.0.0/14</strong>         |
     
 2.  Office 365 の確認済みドメイン (たとえば、contoso.com) があるか。
     
@@ -67,7 +67,7 @@ ms.locfileid: "42935255"
 
   - チームの実行速度が遅い (帯域幅が十分でない可能性がある)
   - 通話が切断される (ファイアウォールまたはプロキシブロックが原因である可能性があります)
-  - 通話は静的-y およびカットアウト、またはロボットなどのボイスサウンド (ジッタまたはパケットロスの可能性があります)
+  - 通話には静的と途切れがあります。また、ロボットなどのボイスサウンド (ジッタまたはパケットロスの可能性があります)
 
 ネットワークの障害を特定して修正するためのガイダンスなど、ネットワークの最適化の詳細については、「 [Office 365 のネットワーク接続の原則](https://aka.ms/pnc)」を参照してください。
 

@@ -17,14 +17,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e07ec04ba567963662d7f83bdba3fe9f788abd9e
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: 62db123cbc7a038ee001367209df2efbad202d96
+ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862837"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42928460"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Microsoft Teams の使用を開始する
+
+> [!IMPORTANT]
+> **リモート ワーク**に対応するようにという要望の高まりに応えるため Microsoft Teams を迅速にロールアウトする場合、使用を開始するためのこのガイダンスにより、組織全体に Teams をロールアウトできます。 このガイダンスは、Teams が初めての Office 365 ワークロードである場合でも当てはまります。
 
 Teams をすぐ開始するには、選択した早期導入者のグループに 2 つまたは 3 つのチームとチャネルを作成することをお勧めします。 まず Teams を小規模に展開することにより、Teams を使用して Teams を学習できます。また、組織全体に Teams を展開する方法を知るための貴重な識見を得ることができます。 中小企業の場合、組織全体に Teams を展開するために必要なのは、このクイック スタート ガイドのみです。
 
@@ -42,20 +45,30 @@ Teams を使用すると、すぐに組織内外のチームとユーザーを�
 
 大規模な組織で、ハイブリッドまたはオンプレミスの Skype for Business 構成があり、厳格な規制またはコンプライアンス要件がある場合や、会議または音声機能 (通話プランや電話システムなど) を展開する場合は、「[Teams の展開方法](how-to-roll-out-teams.md)」を読むことから始めてください。 スキルを構築し、組織全体の展開計画を開始するには、この「**使用を開始する**」セクションから始めることをお勧めします。 「Teams で Teams を計画する。」 チャット、チーム、チャネル、アプリを使用して Teams を展開し、そこから構築することにより、小さな規模で開始します。 これらの最初のエクスペリエンスは、Teams の評判を広めるために役立ち、次の立ち上げ段階に対して組織全体の気持ちを高めます。 
 
-中小企業の場合は、この使用開始ガイダンスを使用して、Teams を組織に完全に展開できます。 中小企業では、Teams を段階的に展開する必要はありません。 組織での展開をより簡単に、より能率化して行うには、特に小規模企業用に利用可能なテンプレートをご確認ください。 「[中小企業向けの Teams テンプレートを使ってみる](https://docs.microsoft.com/microsoftteams/smb-templates)」を参照してください。
+中小企業の場合、または**新しいリモート要員をサポートするために迅速に Teams をロールアウトする**場合は、使用を開始するためのこのガイダンスによって、組織全体に Teams をロールアウトできます。 組織での展開をより簡単に、より能率化して行うには、特に小規模企業用に利用可能なテンプレートをご確認ください。 「[中小企業向けの Teams テンプレートを使ってみる](https://docs.microsoft.com/microsoftteams/smb-templates)」を参照してください。
 
 ## <a name="before-you-get-started"></a>使用を開始する前に
 
-使用を開始する前に、Teams のロールアウトを計画するために次の事項を確認します:
+Teams をロールアウトする準備を整えるために実行する必要がある事柄について取り上げます。Teams が初めてのワークロード (「Teams 優先」) の場合でも、既存の Office 365 展開のその後のワークロードである場合でも、当てはまります。
 
 - [Teams 用に組織のネットワークを準備する](prepare-network.md)
+    - これには、Office 365 ドメイン、SharePoint Online、Exchange Online、OneDrive for Business の構成が含まれます。
+
+- すべてのユーザーの Teams のライセンスを取得する。 [Teams のプラン](https://products.office.com/microsoft-teams/free)と [Teams 用 Office 365 ライセンス](office-365-licensing.md)を確認してください。 
+
 - [デスクトップ、Web、モバイル クライアントをインストールするメリットについて学ぶ](get-clients.md)
 
-また、すべてのユーザーに Teams のライセンスが付与されていることを確認する必要があります。 「[Teams のプランを比較](https://products.office.com/microsoft-teams/free)」と「[Teams 用 Office 365 ライセンス](office-365-licensing.md)」を確認してください。 
+- オンプレミスの Skype for Business または Lync Server から開始する
+   - [オンプレミス環境の Skype for Business から Teams にアップグレードする](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md) 
+   
+   - [Skype for Business Server と Office 365 の間のハイブリッド接続を計画する](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity)
+   
+   > [!NOTE]
+> 組織でオンプレミスの Skype for Business Server (または Lync Server) を実行している場合、オンプレミスのディレクトリと Office 365 を同期するよう [Azure AD Connect を構成](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect)する必要があります。 
 
 
+## <a name="next-steps"></a>次の手順
 
-## <a name="next-steps"></a>次のステップ
-「[最初のチームとチャネルを作成する](get-started-with-teams-create-your-first-teams-and-channels.md)」に移動します。
+[最初のチームとチャネルを作成する](get-started-with-teams-create-your-first-teams-and-channels.md)
 
 詳細については、対話型の「[Teams 導入ガイド](https://aka.ms/teamstoolkit)」を参照してください。

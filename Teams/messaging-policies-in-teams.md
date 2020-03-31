@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: メッセージング ポリシーについて、および Teams でメッセージング ポリシーを使用してチャット メッセージングを制御する方法について取り上げます。
-ms.openlocfilehash: ceb77747da051c5b7e4fb764d6b6679335d8f366
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
-ms.translationtype: HT
+ms.openlocfilehash: 476fd2cf77b7ec57a0279d71b614dc50395b3023
+ms.sourcegitcommit: 62969bd1c3a74412aa692709d497b8c6c5992c5c
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836447"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "43059411"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Teams でメッセージング ポリシーを管理する
 
@@ -92,8 +92,10 @@ ms.locfileid: "41836447"
 - **URL のプレビューを許可する** この設定を使用すると、メッセージでの URL の自動プレビューの有効/無効を切り替えることができます。
 - **ユーザーにメッセージの翻訳を許可する** この設定を有効にすると、Office 365 の個人用言語設定で指定された言語に Teams メッセージを自動的に翻訳できるようになります。
 - **イマーシブ リーダーにメッセージの表示を許可します** この設定を有効にすると、Microsoft イマーシブ リーダーでユーザーはメッセージを表示できるようになります。 イマーシブ リーダーは、テキストの読みやすさを向上させるための全画面閲覧エクスペリエンスを備えた学習ツールです。
-- **ユーザーは<a name="urgent-message">優先順位</a>の通知を送信できます** 有効にすると、ユーザーは、優先順位の通知を使用するメッセージを送信できます。 優先順位の通知は、20 分間で 2 分ごとにユーザーに送信されるか、または受信者がメッセージを選択して開封するまで送信され、メッセージがタイミングよく選択されて扱われる可能性を最大限に高めます。   [!INCLUDE [pri-message-offer](includes/pri-message-offer.md)]
-- **音声メッセージの作成 (Audio message creation)** - 重要: 音声メッセージは電子情報開示レポートでは収集されません。 
+- **優先度通知を使って緊急メッセージを送信する**これを有効にすると、ユーザーは優先度通知を使用するメッセージを送信できます。 優先順位の通知は、20 分間で 2 分ごとにユーザーに送信されるか、または受信者がメッセージを選択して開封するまで送信され、メッセージがタイミングよく選択されて扱われる可能性を最大限に高めます。   [!INCLUDE [pri-message-offer](includes/pri-message-offer.md)]
+- **オーディオメッセージの作成** 
+  > [!Important]
+  > 音声メッセージは、電子情報開示レポートではキャプチャされません。 
     - **チャットとチャネルで許可** ユーザーは音声メッセージをチャットとチャネルでそのままの状態にできます。
     - **チャットでのみ許可** ユーザーは音声メッセージをチャットでそのままの状態にできますが、チャネルでは許可されません。
     - **無効** ユーザーはチャットとチャネルのどちらにおいても音声メッセージを作成できません。  

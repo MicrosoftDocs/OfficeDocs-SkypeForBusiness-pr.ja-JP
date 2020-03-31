@@ -20,12 +20,12 @@ f1.keywords:
 - CSH
 ms.custom: Reporting
 description: Microsoft Teams および Skype for Business Online の通話品質ダッシュボードで使用される寸法と測定値に関する詳細情報を取得します。
-ms.openlocfilehash: b23b87ee7cf0f28fca59a3dee13113dcf28a141a
-ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
+ms.openlocfilehash: 71f9f2ea8ea01108b0a2f80e8e07cacfeef899ea
+ms.sourcegitcommit: 62969bd1c3a74412aa692709d497b8c6c5992c5c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42583083"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "43059431"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>通話品質ダッシュボードで利用可能な寸法と測定値
 
@@ -58,7 +58,7 @@ CQD の寸法と測定の多くは、first または second というラベル�
 
 ディメンション情報は、CQD ポータルにアップロードされたデータの一部に基づいています。 多くのディメンション値は、フィルターとして使うこともできます。 次の表では、CQD で現在利用できるディメンションを、レポートの作成や、以前に定義したレポートの編集に使用するクエリエディターの順序で示しています。
 
-| 名前 | データ型  | 説明 | 空の値に対して考えられる理由 |
+| 名前 | データ型  | Description | 空の値に対して考えられる理由 |
 |:---  |:---        |:---         |:--- |
 |**Endpoint**|||
 | First CPU Name  | String  | 第 1 のエンドポイントによって使用される CPU の名前。 <br/> **値の例:** Contoso CPU X11 @ 1.80 GHz | <br/>&bull;このデータはエンドポイントによって報告されませんでした   |
@@ -499,9 +499,9 @@ CQD で使用される文字列は、多くの場合、データファイルか�
 
 多くの測定値をフィルターとして使うこともできます。 次の表は、クエリエディターに表示されている順序で示されている、CQD で現在利用可能な測定値を示しています。
 
-|メジャーの名前 |単位 |説明 |
+|メジャーの名前 |単位 |Description |
 |:--- |:--- |:--- |
-|Total Stream Count |ストリームの数 |メディアの種類を問わない、メディア ストリームの数。 |
+|Total Stream Count |ストリームの数 |メディアの種類を持たない信頼性/診断ストリームなど、メディアの種類に関係なくメディアストリームに番号を付けることができます。 |
 | 使用可能な CDR 合計ストリームカウント | ストリームの数 |信頼性/診断情報が提供されているメディアストリームの数。 [Skype For Business Server での通話の詳細記録 (CDR) を](https://docs.microsoft.com/skypeforbusiness/manage/health-and-monitoring/call-detail-recording-cdr)参照してください。 |
 |Total Media Failed Stream Count |ストリームの数 |メディア パスが確立されなかった、または正常に終わらなかったストリームの数 |
 |Total Call Setup Failed Stream Count |ストリームの数 |通話の開始時にエンドポイント間のメディア パスが確立されなかったストリームの数。 |
@@ -691,7 +691,7 @@ CQD で使用される文字列は、多くの場合、データファイルか�
 
 複数の寸法値と測定値をフィルターとして使うこともできます。 クエリでフィルターを使用して、ディメンションや測定値を選んだときと同じように、クエリに情報を追加したり、含めることができます。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Skype for Business の通話分析をセットアップする](set-up-call-analytics.md)
 
