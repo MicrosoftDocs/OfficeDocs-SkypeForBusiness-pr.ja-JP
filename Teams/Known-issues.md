@@ -3,7 +3,6 @@ title: Microsoft Teams の既知の問題
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 6/25/2019
 ms.topic: troubleshooting
 ms.service: msteams
 ms.collection:
@@ -18,16 +17,42 @@ f1.keywords:
 description: 現在知られている Microsoft Teams クライアント アプリおよび管理エクスペリエンスでの問題の一覧です。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a80e9a360b28ed5d00fb02be3d34aab21fb0e2e
-ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
+ms.openlocfilehash: 9023c7a7bfe5a629f3f2fdb9589ee3f9ef9efd68
+ms.sourcegitcommit: 0549714f17f9994cf832a303ec9bc58a537c3a51
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42265522"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42951512"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams の既知の問題
 
 この記事では、Microsoft Teams の既知の問題を、機能の領域ごとにまとめています。
+
+## <a name="common-issues-and-resolutions"></a>一般的な問題と解決策
+
+> [!NOTE]
+> COVID-19 の影響により、リモート ワーカー (WFH) をサポートするために Teams の展開に関してサポートが必要な場合は、「[Teams を使用してリモート ワーカーをサポートする](support-remote-work-with-teams.md)」をご覧ください。 また、Microsoft 365 FastTrack プログラムから展開についてのサポートを受けることもできます。リクエストを送信する方法については、[FastTrack センター](https://www.microsoft.com/fasttrack)を参照してください。
+
+### <a name="for-all-teams-customers"></a>すべての Teams のお客様
+
+| |  |
+|---------|---------|
+|**Teams は初めてですか?**    |「[Microsoft Teams の使用を開始する](get-started-with-teams-quick-start.md)」をご覧ください。         |
+|**Teams のゲスト アクセスを有効にする**     |「[Teams のゲスト アクセス チェックリスト](guest-access-checklist.md)」を確認し、すべての手順が完了したことを確認します。 以下の追加リソースを参照してください。<ul><li>[Microsoft Teams でのゲスト アクセスについて](guest-access.md)</li>[ゲストがチームに参加する方法](guest-joins.md) <li>[セットアップ – Microsoft Teams のゲスト アクセスのチェックリスト](guest-access-checklist.md)</li></ul>|
+|**Teams での会議とダイヤルイン**    |Teams で電話会議を有効にしたり、設定したりする方法について、サポートをご希望ですか? このユーザーを最近作成しましたか? そうであれば、**設定が有効になるまで**、2 から 24 時間待つ必要があります。<br>そのユーザーに電話会議のライセンスが与えられ、既定の有料電話番号があることを確認するには、次のようにします。<br><ol><li>Microsoft 365 管理センターで、**[アクティブなユーザー]** に移動し、問題のユーザーを選択します。</li><li> 管理センター バージョンに応じて、**[ライセンスとアプリ]** を選択するか、**製品ライセンス**の **[編集]** をクリックします。</li><li> ユーザーに、電話会議、Microsoft Teams、Skype for Business Online (プラン 2) 用に選択したライセンスがあることを確認します。</li><li>ユーザー**管理センター**で、**[すべて表示]**、**[Teams]** の順にクリックします。</li><li>Microsoft Teams 管理センターで、**[従来のポータル]** をクリックします。</li><li>Skype for Business 管理センターで、**[電話会議]**、**[ユーザー]** の順にクリックします。</li><li>該当するユーザーを選択し、そのユーザーに既定の有料電話番号があることを確認します。</li> </ol> 詳細については、「[Office 365 の通話プラン](calling-plans-for-office-365.md)」を参照するか、ライセンス関連の質問については Microsoft コマース課金チームにお問い合わせください。 <br><br>追加情報:<ul><li>[Microsoft Teams でのミーティングと会議](deploy-meetings-microsoft-teams-landing-page.md)</li><li>[Office 365 の電話会議](audio-conferencing-in-office-365.md)</li></ul>       |
+|**Teams Exploratory ライセンス**     |Microsoft Teams Exploratory エクスペリエンスを使用すると、Azure Active Directory (AAD) を持ち、Teams のライセンスを取得していない組織内のユーザーは、Teams の Exploratory エクスペリエンスを開始できます。 管理者は組織内のユーザーに対して、この機能をオンまたはオフに切り替えることができます。 以前の [Microsoft の商用クラウド試用版](iw-trial-teams.md) は、 Teams Exploratory エクスペリエンスに変更になりました。 <br><br>追加情報:<ul><li>[ユーザーが Teams Exploratory エクスペリエンスにサインアップする方法](teams-exploratory.md#how-users-sign-up-for-the-teams-exploratory-experience)</li><li>[Teams Exploratory エクスペリエンスを管理する](teams-exploratory.md#manage-the-teams-exploratory-experience)</li></ul>|
+|**プライベート チャネル**    |Microsoft Teams のプライベート チャネルは、チーム内でのコラボレーションのための集中スペースを作成します。 プライベート チャネルの所有者またはメンバーであるチームのユーザーのみがチャネルにアクセスできます。 既にチームのメンバーである限り、ゲストを含む全てのユーザーをプライベート チャネルのメンバーとして追加できます。<br><br>知る必要があるユーザーにコラボレーションを限定したい場合、または管理する追加のチームを作成せずに特定のプロジェクトに割り当てられたユーザーのグループの間のコミュニケーションを促進したい場合は、プライベート チャネルの使用がお勧めです。<br><br>追加情報:<ul><li>[ユーザーが Teams Exploratory エクスペリエンスにサインアップする方法](teams-exploratory.md#how-users-sign-up-for-the-teams-exploratory-experience)</li><li>[Teams Exploratory エクスペリエンスを管理する](teams-exploratory.md#manage-the-teams-exploratory-experience)</li><ul>        |
+|**会議ポリシー**|[会議ポリシー](meeting-policies-in-teams.md)は、組織内のユーザーによってスケジュールされた会議への参加者が利用できる機能を制御するために使用されます。 ポリシーを作成して変更を行った後、ユーザーをポリシーに割り当てることができます。         |
+||**会議ポリシーを変更または作成する**<br><br>会議ポリシーを変更または作成するには、Microsoft Teams 管理センターにアクセスし、[**会議**]  >  [**会議ポリシー**] の順に移動します。 一覧からポリシーを選択するか、[**追加**] を選択します。 新しいポリシーを作成する場合は、名前と説明を追加します。 名前に特殊文字を含めたり、64 文字より長くしたりすることはできません。 設定を選び、**[保存]** をクリックします。 たとえば、多数のユーザーがいて、会議に必要な帯域幅を制限するとします。 「制限された帯域幅」という名前の新しいカスタム ポリシーを作成し、次の設定を無効にできます。<br><br>[**オーディオとビデオ**] で、<ul><li>[クラウド記録を許可する] を無効にします。</li><li>[IP のビデオを許可する] を無効にします。</li></ul>[**コンテンツの共有**] で、<ul><li>画面共有モードを無効にします。</li><li>[ホワイトボードを許可] を無効にします。</li><li>[メモの共有を許可する] を無効にします。</li></ul>その後、ポリシーをユーザーに割り当てます。         |
+| |**ユーザーに会議ポリシーを割り当てる**<br><br><ol><li>Microsoft Teams 管理センターの左側のナビゲーションで、**[ユーザー]** に移動してユーザーをクリックします。</li><li>ユーザー名の左側をクリックしてユーザーを選択し、[**編集を設定する**] をクリックします。</li><li>[**会議ポリシー**] で割り当てるポリシーを選択し、[**適用**] をクリックします。</li></ol>一度に複数のユーザーにポリシーを割り当てる方法については、「[一括で Teams のユーザー設定を編集する](edit-user-settings-in-bulk.md)」を参照してください。 または、以下の操作を実行できます。<ol><li>Microsoft Teams 管理センターの左側のナビゲーションで、**[会議] > [会議ポリシー]** の順に移動します。</li><li>ポリシー名の左側をクリックしてポリシーを選びます。</li><li>**[ユーザーを管理する]** を選択します。</li><li>[**ユーザーを管理する**] ウィンドウで、表示名またはユーザー名でユーザーを検索し、名前を選択して [**追加**] をクリックします。 追加するユーザーごとに、この手順を繰り返します。</li><li>ユーザーの追加が完了したら、**[保存]** をクリックします。</li>         |
+|**表示されないダイヤル パッドのトラブルシューティング**     |以下の操作を行います。 <ul><li>ユーザーに [Teams ライセンス](assign-teams-licenses.md)が割り当てられていることを確認します。</li><li>ユーザーに[通話プラン](calling-plan-landing-page.md)が割り当てられていることを確認します。</li><li>[エンタープライズ VoIP](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-enterprise-voice-online-and-phone-system-voicemail#to-enable-your-users-for-phone-system-in-office-365-voice-and-voicemail) に対してユーザーを有効にします。</li></ul>      |
+|**Teams サインインのトラブルシューティング**   |最初に、[Microsoft Teams サービスが正常である](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/servicehealth)ことを確認します。 次に一般的なエラー コードを確認し、「[Microsoft Teams へのサインインで問題が起きるのはなぜですか。](https://support.office.com/article/a02f683b-61a3-4008-9447-ee60c5593b0f)」を参照します。  「[Microsoft Teams での ID モデルと認証](identify-models-authentication.md)」の確認が必要となる場合もあります。         |
+
+### <a name="for-education-customers"></a>教育機関のお客様
+
+|||
+|---------|---------|
+|ユーザーに「使い損ねていますよ」という メッセージが表示される場合。   |「[学校の Microsoft Teams を有効にする](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/enable-microsoft-teams)」を確認してください。 EDU テナントにおいて、既定では Teams は有効になっていません。最初に、Teams を有効にする必要があります。 <br><br>次に、「[Office 365 Education のリモート教育と学習](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4)」を参照して、学校向けのセットアップに関する最新のガイダンスやトレーニング計画、仮想授業、生徒とのコンテンツの共有について確認してください。<br><br>最後に Microsoft Teams IT 管理者トレーニング ビデオ、デッキ、その他の詳細を、「[Teams の管理者トレーニング](itadmin-readiness.md)」でご覧ください。        |
 
 ## <a name="administration"></a>管理
 
@@ -37,11 +62,7 @@ ms.locfileid: "42265522"
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
-|UsersPermissionToReadOtherUsersEnabled が false に設定されていると、メンバーをチームに追加することができない。  <br/> |この値が AAD で false に設定されると、ユーザーは Microsoft Teams で外部/内部メンバーを追加することができなくなり、「メンバーを追加できませんでした。問題が発生しました。後でやり直して下さい」というエラー メッセージが表示されます。ただし、メンバーは直接 Office 365 グループに追加されることができます。    <br/> |AAD でこの設定を true に変更します。  <br/> |2018 年 4 月 10 日  <br/> |
-
-|**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
-|:-----|:-----|:-----|:-----|
-|テナント全体のコネクタに対する管理者による管理機能が利用できなくなっている  <br/> |コネクタをクライアントとオンライン バージョンの両方に追加しようとすると、「予期しないエラーが発生しました。もう一度やり直してください」というエラーが表示されます。Set-OrganizationConfig -ConnectorsEnabled=True   <br/> |Teams の設定で無効にします。次のサポート記事をご覧ください:  https://answers.microsoft.com/en-us/msoffice/forum/msoffice_o365admin-mso_teams-mso_o365b/how-to-enable-or-disable-connectors-in-office-365/33d4b2c1-00eb-420a-ad83-01a2b42ad098    <br/> |2017/6/21  <br/> |
+|UsersPermissionToReadOtherUsersEnabled が false に設定されていると、メンバーをチームに追加することができない。  <br/> |この値が AAD で false に設定されている場合、Microsoft Teams で外部または内部メンバーを追加することはできず、次のエラー メッセージが表示されます: "メンバーを追加できませんでした。 問題が発生しました。 後でもう一度お試しください。" ただし、メンバーを Office 365 グループに直接追加することはできます。    <br/> |AAD でこの設定を true に変更します。  <br/> |2018 年 4 月 10 日  <br/> |
 
 ## <a name="apps"></a>アプリ
 
@@ -52,14 +73,6 @@ ms.locfileid: "42265522"
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
 |デスクトップ アプリで [Web サイト] タブまたは [Azure DevOps] タブを使用すると、[条件付きアクセス](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)が機能しない場合がある。<br/> |イントラネット ポータルなどの Web サイトに条件付きアクセス ポリシー (ブラウザー、IP アドレスの制限、デバイス コンプライアンスなど) が設定されている場合、デスクトップ アプリの Teams 内ではその Web サイトがタブとして表示されないことがあります。 <br/> |デスクトップ アプリを使用する代わりに、ブラウザーで Teams を使用します。  <br/> |2018 年 7 月 1 日  <br/> |
-
-|**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
-|:-----|:-----|:-----|:-----|
-|一部のチームでコネクタ オプションが使用できない  <br/> |チャネルを右クリックすると、チームのどのメンバーのコネクタ オプションも表示されません。  <br/> |チームの作成者がオンライン メールボックスを持つ必要があります。これを持たない場合は、Connector オプションを使用できません。これは想定された動作です。  <br/> |2017/06/26  <br/> |
-
-|**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
-|:-----|:-----|:-----|:-----|
-|「割り当て」アプリが無効になっても表示されたままになる  <br/> |「割り当て」アプリが管理センターで無効になっても、Teams クライアント内で EDU ライセンスを持っているユーザーに対しては、表示されたままになります。無効になっている場合にこれを選択すると、「問題が発生しました」のようなエラー メッセージが返されます。  <br/> |回避策なし。  <br/> |2017/12/29  <br/> |
 
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -268,11 +281,11 @@ ms.locfileid: "42265522"
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
-|リソース アカウントの同期遅延|リソース アカウントに電話番号の割り当てができない、あるいは "BVD には次のアプリケーション インスタンスが存在しません" というエラーが表示される。|24 時間要する同期を許可する。 既に24時間経過している場合は、電話番号の割り当ての削除、リソース アカウントの削除、および別の名前での新規作成を行います。|2019 年 5 月 18 日|
+|リソース アカウントの同期遅延|リソース アカウントに電話番号の割り当てができない、あるいは "BVD には次のアプリケーション インスタンスが存在しません。" というエラーが表示される|24 時間要する同期を許可する。 既に24時間経過している場合は、電話番号の割り当ての削除、リソース アカウントの削除、および別の名前での新規作成を行います。|2019 年 5 月 18 日|
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
-|Teams 管理センターから有料サービス番号の割り当てができない|Teams 管理センターの有料サービス番号を割り当てようとすると、“電話番号システムのライセンスが必要です” というエラーが表示される。|PowerShell コマンドレットを代わりに使用して、有料サービス番号を割り当てます。|2019 年 5 月 18 日|
+|Teams 管理センターから有料サービス番号の割り当てができない|Teams 管理センターの有料サービス番号を割り当てようとすると、"電話番号システムのライセンスが必要です。" というエラーが表示される|PowerShell コマンドレットを代わりに使用して、有料サービス番号を割り当てます。|2019 年 5 月 18 日|
 
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
