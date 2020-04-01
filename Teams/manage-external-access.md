@@ -19,17 +19,17 @@ description: Teams または IT 管理者は、他のドメインの外部アク
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 61ce8219125f6dad47ef516aa9f849acb09ec3dd
-ms.sourcegitcommit: 87022aa009eae868e1fd945dc299367e16733a3c
-ms.translationtype: HT
+ms.openlocfilehash: b354172e5a60e3c6f9df5d74c5d16731fdac0bf8
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42544993"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096862"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>Microsoft Teams での外部アクセスの管理
 ======================================================
 
-外部アクセスとは、ドメイン全体における外部の Teams ユーザーが Teams で会議の検索、呼び出し、チャット、設定を行うための手段です。 外部アクセスでは、Skype for Business (オンラインおよびオンプレミス) を現在使用している外部ユーザーや、Skype (プレビュー段階) を使用する外部ユーザーとも通信することができます。
+外部アクセスは、teams ユーザーが Teams で自分との会議を検索、通話、チャット、セットアップできるようにするための手段です。 また、外部アクセスを使用して、まだ Skype for Business (オンラインとオンプレミス) および Skype (プレビュー版) を使用している外部ユーザーと通信することもできます。
 
 外部のユーザーがチームとチャネルにアクセスできるようにする場合に適した方法は、ゲスト アクセスです。 外部アクセスとゲスト アクセスの違いの詳細については、「[外部アクセスとゲスト アクセスの比較](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access)」を参照してください。 
 

@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9097dfc43ca0f70d37b0051e6b0e10283da26c3
-ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
+ms.openlocfilehash: e2c918a8276be2eeab0a125a1661b70b42c6b069
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033391"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43097002"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Microsoft Teams のアイテム保持ポリシー
 
@@ -82,7 +82,7 @@ Teams のアイテム保持ポリシーを使用するにあたり、注意す�
 
 - Teams では、キーワードや機密情報を含むコンテンツにポリシーを適用する機能などの、高度な保持設定はサポートされていません。 現在、Teams のアイテム保持ポリシーは、すべてのチャットとチャネル メッセージのコンテンツに適用されます。
 
-- Teams では、期限切れのメッセージをクリーンアップするのに最大 3 日かかる場合があります。 チャットやチャネル メッセージは、保持期間が終了すると、Teams のアイテム保持ポリシーによって削除されます。 ただし、これらのメッセージをクリーンアップして完全に削除するのに最大 3 日かかる場合があります。 さらに、チャットやチャネル メッセージは、保持期間が終了してからメッセージが完全に削除されるまでの期間、電子情報開示ツールで検索できます。
+- 有効期限が切れたメッセージのクリーンアップには、3 ~ 7 日かかる場合があります。 チャットやチャネル メッセージは、保持期間が終了すると、Teams のアイテム保持ポリシーによって削除されます。 ただし、これらのメッセージをクリーンアップして完全に削除するには、3 ~ 7 日かかる場合があります。 さらに、チャットやチャネル メッセージは、保持期間が終了してからメッセージが完全に削除されるまでの期間、電子情報開示ツールで検索できます。
 
 ### <a name="multiple-retention-policies-and-the-principles-of-retention"></a>複数のアイテム保持ポリシーと保持の原則
 

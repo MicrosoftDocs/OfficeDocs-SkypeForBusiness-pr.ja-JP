@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Microsoft Teams でのライブ イベントを立ち上げる前に考慮する必要のある要素について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 816cfb3c971621a367dcf81d1ec555e9735bda9d
-ms.sourcegitcommit: a2b2ae17a35f530f797504bb85b44f1a0f561a7d
+ms.openlocfilehash: fac7ca633985a030fd611578466b52912cd3b445
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "42983863"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096822"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントの計画
 
@@ -92,10 +92,10 @@ ms.locfileid: "42983863"
 |複数の発表者の許可 |&#x2714; (Skype for Business) |&#x2714; (Teams) |該当なし  |
 |会議中の発表者の招待 |&#x2714; (Skype for Business) |X |該当なし |
 |Web やモバイルでの発表者の参加 |&#x2714; (Skype for Business)  |X |該当なし |
-|フェデレーションおよびゲストの発表者/出席者 |&#x2714; (Skype for Business)  | (近日公開) |該当なし |
+|フェデレーションおよびゲストの発表者/出席者 |&#x2714; (Skype for Business)  | &#x2714; (Teams)  |該当なし |
 |発表者 – PSTN アクセス |X |&#x2714; (Teams) |該当なし |
 |画面表示 |X |&#x2714; (Teams) |N/A |
-|PowerPoint 表示 (PPT 共有) |&#x2714; |X (画面共有により軽減) |該当なし |
+|PowerPoint 表示 (PPT 共有) |&#x2714; |X (画面共有により軽減) |N/A |
 |クラウド ベースの会議記録 |&#x2714; |&#x2714; |&#x2714; |
 |Stream への記録の自動公開 |X |X |&#x2714; |
 |ライブ キャプションと字幕 |&#x2714; |&#x2714; |X |

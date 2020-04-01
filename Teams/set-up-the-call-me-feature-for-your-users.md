@@ -16,19 +16,19 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8fc2a66e2414350a56874583af6a00f688450f0e
-ms.sourcegitcommit: 996ae0d36ae1bcb3978c865bb296d8eccf48598e
+ms.openlocfilehash: 8cee6937a1bdc2bef6d2184066cb32a4aa94d8e6
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "43068519"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096852"
 ---
 # <a name="set-up-the-call-me-feature-for-your-users"></a>ユーザーの [電話する] 機能をセットアップする
 
 Microsoft Teams の [**折り返し**] 機能を使用すると、ユーザーは電話で会議のオーディオ部分に参加することができます。 これは、オーディオ用のコンピューターを使うことができない場合に便利です。 ユーザーは、会議のオーディオ部分を、携帯電話または陸上線と、会議の他の参加者&mdash;が自分の画面を共有したり、コンピューターでビデオ&mdash;を再生したりする場合に、会議のコンテンツ部分を取得します。
 
 > [!IMPORTANT]
-> COVID-19 の感染期間中は、PSTN 会議の電話番号を使用するか、または [**折り返し**先] を使って、[ **Teams 会議への参加**] ボタンをクリックして、ユーザーが会議に参加することをお勧めします。 これにより、会議の大規模が PSTN ネットワーク上の輻輳の原因となっている場合に、品質のオーディオを確保することができます。
+> COVID-19 の感染期間中は、PSTN 会議の電話番号を使用するか、または [**折り返し**</strong>先] を使って、[ **Teams 会議への参加**] ボタンをクリックして、ユーザーが会議に参加することをお勧めします。 これは主に、COVID-19 によって影響を受ける国のテレフォニーインフラストラクチャの輻輳が原因です。 PSTN 通話を回避することで、音質が向上する可能性があります。 
 
 ## <a name="the-user-experience"></a>ユーザーエクスペリエンス
 
