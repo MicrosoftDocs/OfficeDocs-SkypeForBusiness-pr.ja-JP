@@ -19,12 +19,12 @@ metadata:
   - Teams_ITAdmin_RemoteWorkers
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 562a0661de4b8ff8de2e9bf8df10aab7733e6e1e
-  ms.sourcegitcommit: 4e1647d19501b37860d9fc79370fa4347f76f85f
+  ms.openlocfilehash: ec67d88ed41e30fd5010d15bfa80bb75e7ce46e6
+  ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
   ms.translationtype: MT
   ms.contentlocale: ja-JP
   ms.lasthandoff: 04/01/2020
-  ms.locfileid: "43079289"
+  ms.locfileid: "43096612"
 items:
 - durationInMinutes: 1
   content: >
@@ -78,7 +78,7 @@ items:
   content: "\n会議への参加は、さまざまなクライアントから行うことができます。 Teams をどのプラットフォームで利用できるかについては、「[Microsoft Teams のクライアントを取得する](https://docs.microsoft.com/MicrosoftTeams/get-clients)」 (推定所要時間: 3 分) をご覧ください。\n\nさらに、電話会議を使用することによって、参加者は会議に通常の電話機から会議にダイヤル インして出席したり、会議からダイヤル アウトしたりすることができます。\n電話会議の詳細については、専用のトレーニングで取り上げられます。\n\nWindows 版の Outlook では、自分の予定表から直接会議を予約するためのアドインを使用することができます。 「[Outlook で Teams の会議アドインを使用する](https://docs.microsoft.com/MicrosoftTeams/teams-add-in-for-outlook)」(推定所要時間: 2 分) をご覧ください。\n"
 - title: 会議の要件と考慮事項
   durationInMinutes: 4
-  content: "\n### <a name=\"licensing\"></a>ライセンス\n会議の開催に必要なのは Microsoft Teams のライセンスのみで、それ以外の追加のライセンスは不要です。ただし、一部のシナリオにおいては、追加のライセンスが必要になります。\n\n電話会議は、通常の電話機からでも Teams 会議に参加することができるため、それらの参加者には追加のライセンスが必要です。 これについては、電話会議の専用トレーニングにおいて、取り上げられます。\n\n詳細については、「[Microsoft Teams 用の Office 365 ライセンス](https://docs.microsoft.com/microsoftteams/office-365-licensing)」をご覧ください。\n\n### <a name=\"bandwidth-and-media-flow\"></a>帯域幅とメディアのフロー\nTeams では、リアルタイムの通信を始めるための方法が 2 つあります。\n-   ユーザーが別のユーザーに直接通話を発信できる\n-   ユーザーは (臨時または予約した) 会議を作成することができます。通話では、メディア (オーディオ、ビデオ、デスクトップまたはアプリケーション共有) が可能な限り直接伝送されます。 たとえば、2 人のユーザー間にファイアウォールがない場合 (両者ともに同じネットワークの内側にいる場合など)、メディアのトラフィックは一方のユーザーから他方のユーザーに直接伝送されます。 ファイアウォールがユーザー間の直接のトラフィックを遮断する場合、そのトラフィックはリレー経由で送信されます。\n\n会議の場合は、すべてのトラフィックが Office 365 内に存在する電話会議サービスに最初に送信されます。 音声トラフィックはそこで収集され、送り戻される前に混ぜ合わされます。ビデオ トラフィックおよびアプリケーション共有またはデスクトップ共有は受信されてから出席者に配信されます。\n\n<strong>大事な！</strong>\n\nCOVID-19 の感染期間中は、PSTN 会議の電話番号を使用するか、または [<strong>折り返し</strong>先] を使って、[ <strong>Teams 会議への参加</strong>] ボタンをクリックして、ユーザーが会議に参加することをお勧めします。 これにより、会議の大規模が PSTN ネットワーク上の輻輳の原因となっている場合に、品質のオーディオを確保することができます。\n\n帯域幅の計画についてはこのトレーニングでは取り上げられませんが、ユーザー エクスペリエンスのためには極めて重要となります。\n\n詳細については、「[Microsoft Teams 用に組織のネットワークを準備する](https://docs.microsoft.com/microsoftteams/prepare-network)」をご覧ください。\n\n### <a name=\"exchange-dependencies\"></a>Exchange の依存関係\n\nオンプレミスの Exchange Server を使用しているユーザーの場合、Teams クライアントからの会議の作成や表示に関して、またコンプライアンスに関連して、(Exchange Server のバージョンによって) いくつかの制限事項がある可能性があります。\n適用可能性のある制限事項については「[Exchange と Microsoft Teams の連携](https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact)」をご覧ください (推定所要時間: 3 分) \n"
+  content: "\n### <a name=\"licensing\"></a>ライセンス\n会議の開催に必要なのは Microsoft Teams のライセンスのみで、それ以外の追加のライセンスは不要です。ただし、一部のシナリオにおいては、追加のライセンスが必要になります。\n\n電話会議は、通常の電話機からでも Teams 会議に参加することができるため、それらの参加者には追加のライセンスが必要です。 これについては、電話会議の専用トレーニングにおいて、取り上げられます。\n\n詳細については、「[Microsoft Teams 用の Office 365 ライセンス](https://docs.microsoft.com/microsoftteams/office-365-licensing)」をご覧ください。\n\n### <a name=\"bandwidth-and-media-flow\"></a>帯域幅とメディアのフロー\nTeams では、リアルタイムの通信を始めるための方法が 2 つあります。\n-   ユーザーが別のユーザーに直接通話を発信できる\n-   ユーザーは (臨時または予約した) 会議を作成することができます。通話では、メディア (オーディオ、ビデオ、デスクトップまたはアプリケーション共有) が可能な限り直接伝送されます。 たとえば、2 人のユーザー間にファイアウォールがない場合 (両者ともに同じネットワークの内側にいる場合など)、メディアのトラフィックは一方のユーザーから他方のユーザーに直接伝送されます。 ファイアウォールがユーザー間の直接のトラフィックを遮断する場合、そのトラフィックはリレー経由で送信されます。\n\n会議の場合は、すべてのトラフィックが Office 365 内に存在する電話会議サービスに最初に送信されます。 音声トラフィックはそこで収集され、送り戻される前に混ぜ合わされます。ビデオ トラフィックおよびアプリケーション共有またはデスクトップ共有は受信されてから出席者に配信されます。\n\n<strong>大事な！</strong>\nCOVID-19 の感染期間中は、PSTN 会議の電話番号を使用するか、または [<strong>折り返し</strong>先] を使って、[ <strong>Teams 会議への参加</strong>] ボタンをクリックして、ユーザーが会議に参加することをお勧めします。 これは主に、COVID-19 によって影響を受ける国のテレフォニーインフラストラクチャの輻輳が原因です。 PSTN 通話を回避することで、音質が向上する可能性があります。 \n\n帯域幅の計画についてはこのトレーニングでは取り上げられませんが、ユーザー エクスペリエンスのためには極めて重要となります。\n\n詳細については、「[Microsoft Teams 用に組織のネットワークを準備する](https://docs.microsoft.com/microsoftteams/prepare-network)」をご覧ください。\n\n### <a name=\"exchange-dependencies\"></a>Exchange の依存関係\n\nオンプレミスの Exchange Server を使用しているユーザーの場合、Teams クライアントからの会議の作成や表示に関して、またコンプライアンスに関連して、(Exchange Server のバージョンによって) いくつかの制限事項がある可能性があります。\n適用可能性のある制限事項については「[Exchange と Microsoft Teams の連携](https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact)」をご覧ください (推定所要時間: 3 分) \n"
 - title: 会議の構成のオプション
   durationInMinutes: 1
   content: "\nIT 管理者である場合は、ビデオや画面の共有といったモダリティを無効にするだけでなく、異なる種類の会議を有効または無効にすることができます。 IT 専門家の立場で構成できるオプションの詳細な説明については、「[通話と会議](https://docs.microsoft.com/MicrosoftTeams/enable-features-office-365#calls-and-meetings)」 (推定所要時間: 1 分) をご覧ください。 この記事には、会議の参加者の最大数も記載されています。\n"
