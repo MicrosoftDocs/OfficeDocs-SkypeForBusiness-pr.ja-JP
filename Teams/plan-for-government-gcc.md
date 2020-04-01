@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 米国政府向けクラウド (GCC) の展開の計画 - Microsoft Teams
 author: lolajacobsen
-ms.author: lolaj
+ms.author: heidip
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -18,16 +18,16 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb36e9decf7fba80250dce1035187b94198bc86d
-ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
+ms.openlocfilehash: be3afe64ba45761f61e68c04a812bffe0129cef2
+ms.sourcegitcommit: 4e1647d19501b37860d9fc79370fa4347f76f85f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053610"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43079459"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Microsoft 365 Government-GCC 展開を計画する
 
-このガイダンスは、米国連邦、州、地方、tribal、または territorial 政府機関の法人向けの Office 365 の展開を推進している IT プロフェッショナル、または Microsoft の使用時に政府機関の規制と要件の対象となるデータを処理するその他のエンティティを対象としています。365 Government-GCC はこれらの要件を満たすのに適しています。 2020年3月 26[日: GCC 向けのダウンロード可能なクイックスタートガイド](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Quick-Start-Guide-for-GCC.pdf?raw=true)をお見逃しなく。
+このガイダンスは、米国連邦、州、地方、tribal、または territorial 政府機関の法人、州、地方、、または行政機関の関係にあるデータを処理する IT 365 プロフェッショナルを対象としており、これらの要件を満たすために Microsoft 365 Government-GCC の使用が適しています。 2020年3月 26[日: GCC 向けのダウンロード可能なクイックスタートガイド](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Quick-Start-Guide-for-GCC.pdf?raw=true)をお見逃しなく。
 
 > [!IMPORTANT]
 > Microsoft Teams では、coronavirus (COVID-19) pandemic のため、オンライン通話、音声/ビデオ会議に大きなスパイクが発生しています。<br/>
@@ -82,75 +82,11 @@ Office 365 の機能を活用できるだけでなく、Microsoft 365 Government
 |-----------|------------|
 | ![判断ポイントを表すアイコン](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>Microsoft 365 Government の既定のセキュリティ設定を変更するかどうかを決定します。解決するには、変更の影響を最初に理解する必要があります。</li></ul> |
 
-## <a name="step-4-understand-which-capabilities-are-currently-unavailable-or-disabled-by-default"></a>手順4。 現在、どの機能が既定で利用できないか、無効になっているかを理解する。 
+## <a name="step-4-understand-which-capabilities-are-currently-unavailable-or-disabled-by-default"></a>手順4。 現在、どの機能が既定で利用できないか、無効になっているかを理解する。
 
 政府機関向けクラウドのお客様の要件に対応するため、Microsoft 365 Government-GCC とエンタープライズのプランにはいくつかの違いがあります。 使用できる機能については、次の表を参照してください。
 
-|                             | 機能                     | GCC            |
-|-----------------------------|-----------------------------|----------------|
-| 技術 | ログイン | 連絡可能 |
-| | プレゼンス | 連絡可能 |
-| | 統合されたプレゼンス (Skype for Business および Teams 統合) | 連絡可能 |
-| 処理 | クロス | 連絡可能 |
-|  | マイアクティビティ | 連絡可能 |
-| チャット | チャット | 連絡可能 |
-| | ファイル | 連絡可能 |
-| | 組織図 | 連絡可能 |
-| | 処理 | 連絡可能 |
-| | 相互運用 (1:1 チーム-Skype for Business チャット) | 連絡可能 |
-| Teams | チャネルメッセージ | 連絡可能 |
-| | チャネルファイル | 連絡可能 |
-| | OneNote タブ | 政府バックログの場合 |
-| | チャネルをメールで送信する | 該当なし |
-| | メンバーの追加 | 連絡可能 |
-| | ゲスト アクセス | 連絡可能 |
-| 会議 | 会議の予約 | 連絡可能 |
-| | 会議に参加する | 連絡可能 |
-| | VoIP 会議 | 連絡可能 |
-| | デスクトップ共有 | 連絡可能 |
-| | 共有の制御を行う | 連絡可能 |
-| | 会議室から接続する | 連絡可能 |
-| | 匿名での参加 | 連絡可能 |
-| | クラウドの記録 | 連絡可能 |
-| | 会議のメモ | 連絡可能 |
-| | ライブ イベント | 連絡可能 |
-| | フェデレーション会議 | 連絡可能 |
-| | Surface Hub のサポート | 連絡可能 |
-| 通話 | 連絡先 | 連絡可能 |
-| | 履歴 | 利用可能 |
-| | ボイスメール | 連絡可能 |
-| | VoIP 通話 | 連絡可能 |
-| | Skype for ビジネス-チーム通話 | 連絡可能 |
-| | 通話プラン | 連絡可能 |
-| | 電話会議 (会議の参加者に PSTN 経由での参加を許可する) | 連絡可能 |
-| | Microsoft Phone システムのダイレクトルーティング | 連絡可能 |
-| | PSTN 発信者のロビー | 連絡可能 |
-| | コール キュー | 連絡可能 |
-| | 上司と代理人のサポート | 連絡可能 |
-| | 提案と安全な移行 | 連絡可能 |
-| | 飛躍的に応答不可 | 連絡可能 |
-| | ディスティンクティブリング | 連絡可能 |
-| | 1:1 を使用して、チーム、Skype for Business、PSTN 参加者とのグループ通話エスカレーション | 連絡可能 |
-| | グループに転送 | 連絡可能 |
-| | PSTN 通話に転送 | 連絡可能 |
-| | 緊急通話-通話プラン | 連絡可能 |
-| | 既存の認定 SIP 電話のサポート | 連絡可能 |
-| | USB HID | 連絡可能 |
-| | 通話と会議の両方の電子情報開示 | 連絡可能 |
-| | 組織の自動応答 | 連絡可能 |
-| | Skype コンシューマー-チーム通話サポート | 連絡可能 |
-| ファイル | 行っ | 連絡可能 |
-| | Microsoft Teams | 連絡可能 |
-| ストア | App Store | 連絡可能 |
-| 検索 | メッセージ | 連絡可能 |
-| | ユーザー | 連絡可能 |
-| | ファイル | 連絡可能 |
-| | スラッシュコマンド | 連絡可能 |
-| コンプライアンス | コンプライアンスコンテンツ検索 | 連絡可能 |
-| | 保持 | 連絡可能 |
-| | 監査ログの検索 | 連絡可能 |
-| | 法的保持 | 連絡可能 |
-| | 電子情報開示 | 連絡可能 |
+[Microsoft Teams サービスの説明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
 
 > [!Note]
 > GCC クラウドで他の作業負荷が完全に利用できるようになると、その他の統合作業が完了したときにチームで利用できるようになります。

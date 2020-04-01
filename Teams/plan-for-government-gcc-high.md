@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 米国政府向けクラウド (GCC High) の展開の計画 - Microsoft Teams
 author: lolajacobsen
-ms.author: lolaj
+ms.author: heidip
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,16 +17,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3c44867b14a4b3bf83a45cf1dbbb37151c648a8
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 7be9916a1c51b7e98467d1e8c44a18dd6d227d35
+ms.sourcegitcommit: 4e1647d19501b37860d9fc79370fa4347f76f85f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161592"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43079419"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>Microsoft 365 Government の計画-GCC 高展開
 
-このガイダンスは、米国連邦政府機関の法人またはその他の法人に Office 365 の展開を推進する IT プロフェッショナルを対象としています。ここでは、Microsoft 365 Government – GCC High の使用が適しています。これらの要件を満たすため。
+このガイダンスは、米国連邦政府機関の法人またはその他の法人に Office 365 の展開を推進している IT プロフェッショナルを対象としています。ここでは、Microsoft 365 Government – GCC 高を使用することで、これらの要件を満たす必要があります。
 
 > [!NOTE]
 > 組織が既に Microsoft 365 Government – GCC の高品質要件を満たし、プログラムに承認された場合は、手順1と2をスキップして、手順3に進んでください。
@@ -51,7 +51,7 @@ Microsoft 365 Government –米国政府のお客様向けの高度な機能に�
 
 |    |     |
 |-----------|------------|
-| ![判断ポイントを表すアイコン](media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>組織に対して Microsoft 365 Government-GCC 高が適切であるかどうかを決定します。</li><li>組織が資格要件を満たしていることを確認します。</li></ul> |
+| ![判断ポイントを表すアイコン](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>組織に対して Microsoft 365 Government-GCC 高が適切であるかどうかを決定します。</li><li>組織が資格要件を満たしていることを確認します。</li></ul> |
 
 > [!Note]
 > Microsoft 365 Government-GCC 高はアメリカ国内でのみご利用いただけます。 米国政府以外のお客様は、多数の[Office 365 Government プラン](https://products.office.com/en/government/compare-office-365-government-plans)から選ぶことができます。
@@ -74,76 +74,7 @@ Microsoft 365 Government –米国政府のお客様向けの高度な機能に�
 
 政府機関向けクラウドのお客様の要件に対応するために、Microsoft 365 Government の Teams には、エンタープライズプランにおける GCC 高と Teams の間にいくつかの違いがあります。 使用できる機能については、次の表を参照してください。
 
-|                             | 機能                     | GCC 高       |
-|-----------------------------|-----------------------------|----------------|
-| 技術 | ログイン | 利用可能 |
-| | プレゼンス | 利用可能 |
-| | 統合されたプレゼンス (Skype for Business および Teams 統合) | 利用可能 |
-| | Linux クライアント | 政府バックログの場合 |
-| 処理 | クロス | 利用可能 |
-|  | マイアクティビティ | 利用可能 |
-| チャット | チャット | 利用可能 |
-| | ファイル | 利用可能 |
-| | 組織図 | 利用可能 |
-| | 処理 | 利用可能 |
-| | 相互運用 (1:1 チーム-Skype for Business チャット) | 利用可能 |
-| Teams | チャネルメッセージ | 利用可能 |
-| | チャネルファイル | 利用可能 |
-| | OneNote タブ | 政府バックログの場合 |
-| | チャネルをメールで送信する | 該当なし |
-| | メンバーの追加 | 利用可能 |
-| | ゲスト アクセス | 政府バックログの場合 |
-| 会議 | 会議の予約 | 利用可能 |
-| | 会議に参加する | 利用可能 |
-| | VoIP 会議 | 利用可能 |
-| | デスクトップ共有 | 利用可能 |
-| | 共有の制御を行う | 利用可能 |
-| | 会議室から接続する | 利用可能 |
-| | 匿名での参加 | 利用可能 |
-| | クラウドの記録 | 政府バックログの場合 |
-| | 会議のメモ | 利用可能 |
-| | ブロードキャスト会議 | 政府バックログの場合 |
-| | クラウド内 (GCCH と GCCH) フェデレーション会議 | 利用可能 |
-| | Surface Hub のサポート | 政府バックログの場合 |
-| 通話 | 連絡先 | 利用可能 |
-| | 履歴 | 利用可能 |
-| | ボイスメール | 利用可能 |
-| | VoIP 通話 | 利用可能 |
-| | Skype for ビジネス-チーム通話 | 利用可能 |
-| | 通話プラン | 利用不可 |
-| | 電話会議 (会議の参加者に PSTN 経由での参加を許可する) | 利用可能 |
-| | Microsoft Phone システムのダイレクトルーティング | 利用可能 |
-| | PSTN 発信者のロビー | 政府バックログの場合 |
-| | 通話キュー | 政府バックログの場合 |
-| | 上司と代理人のサポート | 政府バックログの場合 |
-| | 提案と安全な移行 | 政府バックログの場合 |
-| | 飛躍的に応答不可 | 政府バックログの場合 |
-| | ディスティンクティブリング | 政府バックログの場合 |
-| | 1:1 を使用して、チーム、Skype for Business、PSTN 参加者とのグループ通話エスカレーション | 政府バックログの場合 |
-| | グループに転送 | 政府バックログの場合 |
-| | PSTN 通話に転送 | 政府バックログの場合 |
-| | 緊急通話-通話プラン | 政府バックログの場合 |
-| | 既存の認定 SIP 電話のサポート | 政府バックログの場合 |
-| | USB HID | 利用可能 |
-| | 通話と会議の両方の電子情報開示 | 利用可能 |
-| | 組織の自動応答 | 政府バックログの場合 |
-| | Skype コンシューマー-チーム通話サポート | 該当なし |
-| ファイル | 行っ | 利用可能 |
-| | Microsoft Teams | 利用可能 |
-| ストア | App Store | 該当なし |
-| 検索 | メッセージ | 利用可能 |
-| | ユーザー | 利用可能 |
-| | ファイル | 利用可能 |
-| | スラッシュコマンド | 利用可能 |
-| コン | コンプライアンスコンテンツ検索 | 利用可能 |
-| | 保持 | 利用可能 |
-| | 監査ログの検索 | 利用可能 |
-| | 法的保持 | 利用可能 |
-| | 電子情報開示 | 利用可能 |
-
-|    |     |
-|-----------|------------|
-| ![判断ポイントを表すアイコン](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>Teams 機能セットが組織のニーズを満たすかどうかを決定します。</li></ul> |
+[Microsoft Teams サービスの説明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
 
 ## <a name="step-5-plan-for-governance"></a>手順5 ガバナンスの計画
 
