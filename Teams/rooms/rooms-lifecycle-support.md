@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: この記事では、Microsoft Teams ミーティングのライフサイクル サポートについて説明します。
-ms.openlocfilehash: 0f445bf2500a01bf8ffddae569d176229bdcfde5
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: HT
+ms.openlocfilehash: 9ca1f603a8931f204403870ee65a10f28a2a8795
+ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825915"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43102328"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft Teams ミーティング アプリ バージョンのサポート
  
@@ -53,16 +53,15 @@ Microsoft Teams ミーティング デバイスでは、Windows 10 機能更新�
 |バージョン  |提供日   |Microsoft Teams ミーティングのサポート状況   |Microsoft Teams ミーティングの最小アプリケーション バージョン | 推奨 OS ビルド  |
 |:---  |:---       |:---                                  |:---     |:---     |
 | 1909 |2019-11-12 |現在検証中、 <br/>非推奨|&#x2014; |&#x2014; |
-| 1903 |2019-05-21 |サポート &#x2780;、 <br/>推奨  |4.2.4.0 |18362.356 |
-| 1809 |2019-03-28 |スキップ、 <br/>非推奨 &#x2781;|&#x2014; |&#x2014; |
+| 1903 |2019-05-21 |サポートされ <br/>推奨  |4.2.4.0 |18362.356 |
+| 1809 |2019-03-28 |スキップ、 <br/>推奨されない &#x2780;|&#x2014; |&#x2014; |
 | 1803 |2018-07-10 |サポート                             |4.1.22.0 |17134.191|
 | 1709 |2018-01-18 |非サポート                         |&#x2014; |&#x2014; |
 | 1703 |2017-07-11 |非サポート                         |&#x2014; |&#x2014; |
 ||||||
 
-&#x2780; Windows 10 1903 は、Intel のグラフィック デバイス ドライバーに問題があるため、Crestron Flex デバイスでは使用できません。 これらのデバイスには、Windows 10 1903 が提供されません。 ユーザーは、グラフィック ドライバーの更新プログラムを Crestron が入手できるようになるまで、これらのデバイスを 1903 にアップグレードせず、Windows 10 1803 のままにする必要があります。 
-
-&#x2781; Microsoft Teams ミーティング アプリケーションで互換性の問題が見つかったため、Windows 10 1809 バージョンは非推奨になっています。 この特定の問題により、Microsoft Teams ミーティング アプリケーションは夜間に再起動すると失敗します。 この問題は、Windows 10 1903 バージョンで解決されています。  
+ 
+Windows 10 の &#x2780; は、Microsoft Teams のルームアプリケーションで見つかった互換性の問題により、バージョン1809は推奨されません。 この問題が発生すると、Microsoft Teams のルームアプリケーションは、夜間の再起動後に起動できなくなります。 この問題は、Windows 10 バージョン1903で修正されました。  
 
 Windows 10 のサポートされているバージョンを使用している場合は、Microsoft Teams ミーティング アプリの最新のアプリケーション更新プログラムを入手できます。  
 

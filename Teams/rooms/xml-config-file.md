@@ -14,12 +14,12 @@ ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 ms.collection:
 - M365-collaboration
 description: この記事では、Microsoft Teams のルームデバイスで使用される既定の設定をリモート管理する方法について説明します。カスタムテーマの適用を含みます。
-ms.openlocfilehash: e33934dcabc420b7e84886f0301c343f5caf333a
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 6a06b94bff350d07e540a80092bf7edbed33ddc8
+ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827400"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43102318"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>XML 構成ファイルを使用して、Microsoft Teams ルームコンソールの設定をリモートで管理する
 
@@ -47,6 +47,7 @@ ms.locfileid: "41827400"
     <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled>
     <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
     <DualScreenMode>true</DualScreenMode>
+    <DuplicateIngestDefault>false</DuplicateIngestDefault>
     <SendLogs>
         <EmailAddressForLogsAndFeedback>RanierConf@contoso.com</EmailAddressForLogsAndFeedback>
         <SendLogsAndFeedback>true</SendLogsAndFeedback>
@@ -91,9 +92,10 @@ ms.locfileid: "41827400"
 |\<IsTeamsDefaultClient の> |ブール型 &#x2777;  |第1の &#x2776;  |既定では無効です。 |
 |\<BluetoothAdvertisementEnabled> |ブール型 &#x2777;  |第1の &#x2776;  |既定では有効です。 |
 |\<DualScreenMode\>  |ブール型 &#x2777;  |第1の &#x2776;  |True の場合、デュアルスクリーンモードが有効になります。 それ以外の場合は、デバイスでシングルスクリーンモードが使用されます。 |
-|\<SendLogs\> |Container |第1の &#x2776;  ||
-|\<EmailAddressForLogsAndFeedback\> |文字列 &#x2778;  || "フィードバックを送信する" ウィンドウが表示されたときに、ログに記録できるメールアドレス (省略可能) を設定します。 |
-|\<SendLogsAndFeedback\> |ブール型 &#x2777;  || true の場合、ログが管理者に送信されます。それ以外の場合、フィードバックのみが管理者に送信されます (ログは送信されません)。  |
+| \<DuplicateIngestDefault\> |ブール型 &#x2777;  |第1の &#x2776; |True の場合、会議の終了時に両方の画面にコンテンツが表示されます。 | 
+|\<SendLogs\> |Container |第1の &#x2776;  |  |
+|\<EmailAddressForLogsAndFeedback\> |文字列 &#x2778;  | | "フィードバックを送信する" ウィンドウが表示されたときに、ログに記録できるメールアドレス (省略可能) を設定します。 |
+|\<SendLogsAndFeedback\> |ブール型 &#x2777;  | | true の場合、ログが管理者に送信されます。それ以外の場合、フィードバックのみが管理者に送信されます (ログは送信されません)。  |
 | \<デバイス\>  |Container |第1の &#x2776;  | 子要素内の接続済みのオーディオ デバイス名は、デバイス マネージャー アプリにリスト表示された値と同一のものになります。 この構成には、現在コンソールに接続していない A/V デバイスなど、現在システムに存在しないデバイスを含めることができます。 この構成はそれぞれのデバイスに対して保持されます。  |
 |\<マイクロフォン Forcommunication\> |文字列 &#x2778;  ||会議でレコーディングデバイスとして使用するマイクを設定します。 |
 |\<SpeakerForCommunication\> |文字列 &#x2778;  ||会議のスピーカーとして使用されるデバイス。 通話で使用するスピーカーデバイスを設定するには、この設定を使います。 |
@@ -107,7 +109,7 @@ ms.locfileid: "41827400"
 |\<CustomThemeColor\> |Container ||\<\>Redcomponent \<、\>GreenComponent、および\<BlueComponent\>値のコンテナー。 ユーザー設定のテーマには、これらの値を入力する必要があります。 |
 |\<赤成分\> |Byte (0-255) ||赤のカラー コンポーネントを表します。 |
 |\<GreenComponent\> |Byte (0-255) ||緑のカラー コンポーネントを表します。 |
-|\<BlueComponent\> |Byte (0-255) ||青のカラー コンポーネントを表します。 |
+|\<BlueComponent\> |Byte (0-255) ||青のカラー コンポーネントを表します。 | 
 | | | |
 
 第1レベルのすべての要素を省略可能 &#x2776; します。 第1レベルの要素を省略した場合、そのすべての子パラメーターはデバイス上でそのまま保持されます。

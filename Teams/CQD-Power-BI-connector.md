@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: CQD クエリテンプレートを使用するために Power BI コネクタをインストールする
-ms.openlocfilehash: c9987d05c5b057adf55791ffb2105d9ddb252722
-ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
+ms.openlocfilehash: 393bfaf6348bb5ebc8c46df011387961d95cccfa
+ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42559491"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43102348"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>CQD クエリテンプレートを使用するために Power BI コネクタをインストールする
 
@@ -111,11 +111,21 @@ Power BI を使用しているにもかかわらず、Power BI 機能はすべ�
 
 3.  **カスタムビジュアル–** CQD Connector は、さまざまなカスタムビジュアルで動作しますが、すべてのカスタムビジュアルとの互換性を保証することはできません。 多くのカスタムビジュアルは、計算列またはインポートされたデータの使用に依存していますが、DirectQuery コネクタではサポートされません。
 
-4.  **キャッシュデータの参照:** 現在、Power BI では、DirectQuery コネクタからのキャッシュされたデータの参照を任意の方法でサポートしていません。 クエリの結果を参照しようとすると、新しいクエリになります。
+4.  **キャッシュデータの参照:** 現在、Power BI では、DirectQuery コネクタからのキャッシュされたデータの参照を任意の方法でサポートしていません。 クエリの結果を参照しようとすると、新しいクエリになります。 
 
 5.  **相対データフィルター処理–** は、CQD コネクタでサポートされていますが、[*開始*時刻] と [*終了時刻*] のサイズに対してのみサポートされます。 *日付ディメンションは*、相対的な日付フィルター処理の候補として表示される場合もあり*ますが、日付は日付*時刻オブジェクトとして保存されないため、power BI での相対的な日付フィルター処理はサポートされません。
 
 コネクタはプレビュー版ですが、これらの制限は、コネクタの最終リリースによって変更されることはありませんのでご注意ください。 これらの問題のほとんどは、Power BI での DirectQuery コネクタの設計への制限、または CQD データモデルの設計に対する基本事項です。
+
+## <a name="troubleshooting"></a>トラブルシューティング
+
+### <a name="im-trying-to-use-the-date-column-as-a-date-slicer-as-soon-as-i-convert-the-data-type-of-this-column-to-date-i-get-this-error"></a>Date 列を日付スライサーとして使用しようとしています。 この列のデータ型を Date に変換すると、次のエラーが表示されます。
+
+  **このビジュアルのデータを読み込めませんでした**: OLE DB または ODBC エラー: [式. エラー] 式をデータソースに折りたたむことができませんでした。 もっと簡単な式をお試しください。 
+
+Power BI コネクタでスライサーはサポートされません。 日付範囲を指定するには、次の2つのフィルターをレポートに適用します。指定した日付よりも小さい値と大きい値を指定します。
+
+または、表示する日付が最新である場合は、相対的な日付フィルターを適用して、過去 N 日間/週/月のデータのみが表示されるようにします。
 
 ## <a name="error-codes"></a>エラーコード
 

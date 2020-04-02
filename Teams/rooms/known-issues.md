@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: この記事では、Microsoft Teams Rooms の既知の問題を、機能の領域ごとに説明しています。
-ms.openlocfilehash: 3fedfbb4fdce0626783d285825eb75c22e2e7a78
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: HT
+ms.openlocfilehash: e0b22d55de5fcf2fd49cf795497f2cb26c1952cf
+ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826065"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43102378"
 ---
 # <a name="known-issues"></a>既知の問題 
  
@@ -31,14 +31,14 @@ ms.locfileid: "41826065"
 | 問題のタイトル |  動作 \/ 症状 | 既知の回避策 | サポート技術情報記事 |
 |  ---        |      ---             |   ---            | --- |
 |  旧版のアプリ         |    Microsoft Teams Rooms のコンソールには、「システム構成が古くなっています」というエラーが表示されます。                |   [Microsoft Teams Rooms の回復ツールを使用する](recovery-tool.md)             |  なし |
-
+|  サポートされていないバージョンの Windows 10 に更新されたデバイス   |    Windows 10 デバイスがバージョン1803からバージョン1809に更新されました。これはサポートされていません。 サポートされているバージョンは1903です。 |   この問題は、 [DeferFeatureUpdatesPeriodinDays 設定のグループポリシーまたは MDM の設定](https://docs.microsoft.com/windows/deployment/update/waas-configure-wufb)によって、指定した日数の機能更新プログラムを延期できる場合に、最大365日間に設定されている場合に発生する可能性があります。 <br><br> Windows 10 バージョン1809は、Microsoft Teams のルームでサポートされていません。バージョン1903はサポートされています。 ただし、2020年3月27日より、バージョン1809は365日以上経過しています。 この設定が変更されていない場合、Windows はバージョン1809をインストールしようとします。これにより、Microsoft Teams のルームで問題が発生する可能性があります。<br><br>この問題を回避するには、更新を延期するグループポリシーまたは MDM 設定を**削除**します。 これにより、Windows はサポートされている最新の OS バージョンに更新されます。 <br><br>**重要**グループポリシーまたは MDM 設定は**削除**する必要があり (左側に構成されて**いない)、0には設定しない**でください。 ポリシーが0に設定されている場合、Windows はサポートされていない最新バージョンを使用します。 |  なし |
 
 <a name="OS-conflicts"> </a>  
 ## <a name="user-interface"></a>ユーザー インターフェイス 
 
 | 問題のタイトル |  動作 \/ 症状 | 既知の回避策 | サポート技術情報記事 |
 |  ---        |      ---             |   ---            | --- |
-|仮想キーボードが見つかりません   | Microsoft Teams Rooms に情報を入力する必要がある場合に、仮想キーボードが表示されません。 この問題は、Microsoft Teams Rooms を実行している Surface Pro 4 に Windows 10 Creators Update (バージョン 1703) をインストールした後に発生します。 | この問題を回避するには、仮想キーボードを手動で開きます。 これを行うには、次の手順を実行します。<br><br> **1.** タスク バーをタップして長押しし、[**タッチ キーボードを表示**] ボタンをタップします。 キーボードのアイコンは、タスク バーの右側に表示されます。 <br><br> **2.** 仮想キーボードを開くには、キーボード アイコンをタップします。 | [KB4037694](https://support.microsoft.com/help/4037694/virtual-keyboard-missing-in-skype-room-systems-v2) | 
+|仮想キーボードが見つかりません   | Microsoft Teams Rooms に情報を入力する必要がある場合に、仮想キーボードが表示されません。 この問題は、Windows 10 バージョン1903で発生します。 | Windows の更新プログラムを使用して、x64 ベースのシステム用の Windows 10 バージョン1903の2020-04 累積更新プログラムをインストールします。  | なし | 
 
 <a name="Hardware"> </a>  
 ## <a name="hardware"></a>ハードウェア
@@ -69,9 +69,6 @@ Microsoft Teams ミーティング デバイスとドメインとの信頼が途
 Windows 10 Enterprise Anniversary エディション (英語版、バージョン 1607) の 64 ビット バージョンは Microsoft Teams Rooms リリース 3.0.12.0 ではサポートされなくなりました。 
 ***
 Microsoft Teams ミーティングは、マルチウィンドウ アプリケーションであり、アプリが正常に機能するために、ルームの前方ディスプレイをデバイスの HDMI ポートに接続する必要があります。 テスト中で、まだディスプレイを購入していない場合は、HDMI ディスプレイを接続するか、ダミーの HDMI プラグを使用するかのいずれかを必ず実行してください。
-***
-Windows 10 1903 では、グラフィックス ドライバーの問題のため、Crestron から Microsoft Teams ミーティング デバイスにはまだ提供されていません。
-
 ***
 <a name="See"> </a>  
 ## <a name="see-also"></a>関連項目

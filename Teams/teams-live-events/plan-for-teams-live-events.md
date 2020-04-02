@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Microsoft Teams でのライブ イベントを立ち上げる前に考慮する必要のある要素について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fac7ca633985a030fd611578466b52912cd3b445
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: 95baeaf25600853b7d6a2b4e18c548d1998f6789
+ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096822"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43102368"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントの計画
 
@@ -87,25 +87,25 @@ ms.locfileid: "43096822"
 |視聴者のエンゲージメント – Yammer |&#x2714; |&#x2714; (統合エクスペリエンス) |&#x2714; (統合エクスペリエンス) |
 |視聴者のエンゲージメント – モデレート Q & A |&#x2714;  |&#x2714; |&#x2714; |
 |Windows でのプロデューサー クライアント |&#x2714; (Skype for Business) |&#x2714; (Teams) |&#x2714; (Stream、埋め込み Stream 経由の Teams) |
-|Mac でプロデューサー クライアント |X  | &#x2714; (Teams) |&#x2714; (Stream、埋め込み Stream 経由の Teams) |
-|プロデューサー UI での出席者数 |X  |&#x2714; (Teams) |&#x2714; (Stream、埋め込み Stream 経由の Teams) |
-|複数の発表者の許可 |&#x2714; (Skype for Business) |&#x2714; (Teams) |該当なし  |
-|会議中の発表者の招待 |&#x2714; (Skype for Business) |X |該当なし |
-|Web やモバイルでの発表者の参加 |&#x2714; (Skype for Business)  |X |該当なし |
-|フェデレーションおよびゲストの発表者/出席者 |&#x2714; (Skype for Business)  | &#x2714; (Teams)  |該当なし |
-|発表者 – PSTN アクセス |X |&#x2714; (Teams) |該当なし |
-|画面表示 |X |&#x2714; (Teams) |N/A |
-|PowerPoint 表示 (PPT 共有) |&#x2714; |X (画面共有により軽減) |N/A |
+|Mac でプロデューサー クライアント |&#x274C;  | &#x2714; (Teams) |&#x2714; (Stream、埋め込み Stream 経由の Teams) |
+|プロデューサー UI での出席者数 |&#x274C;  |&#x2714; (Teams) |&#x2714; (Stream、埋め込み Stream 経由の Teams) |
+|複数の発表者の許可 |&#x2714; (Skype for Business) |&#x2714; (Teams) |N/A  |
+|会議中の発表者の招待 |&#x2714; (Skype for Business) |&#x274C; |該当なし |
+|Web やモバイルでの発表者の参加 |&#x2714; (Skype for Business)  |&#x274C; |該当なし |
+|フェデレーションおよびゲストの発表者/出席者 |&#x2714; (Skype for Business)  |  &#x2714; (Teams) |該当なし |
+|発表者 – PSTN アクセス |&#x274C; |&#x2714; (Teams) |N/A |
+|画面表示 |&#x274C; |&#x2714; (Teams) |N/A |
+|PowerPoint 表示 (PPT 共有) |&#x2714; |&#x274C; (画面共有によって軽減) |該当なし |
 |クラウド ベースの会議記録 |&#x2714; |&#x2714; |&#x2714; |
-|Stream への記録の自動公開 |X |X |&#x2714; |
-|ライブ キャプションと字幕 |&#x2714; |&#x2714; |X |
+|Stream への記録の自動公開 |&#x274C; |&#x274C; |&#x2714; |
+|ライブ キャプションと字幕 |&#x2714; |&#x2714; |&#x274C; |
 |ライブ イベント記録のキャプション |&#x2714; |&#x2714; |&#x2714; |
 |出席者の DVR 制御 (一時停止、巻き戻し) |&#x2714; |&#x2714; |&#x2714; |
 |Partner eCDN のサポート |&#x2714; (Hive、Kollective、Ramp) |&#x2714; (Hive、Kollective、Ramp) |&#x2714; (Hive、Kollective、Ramp) |
-|ブロードキャスト後のプロデューサー向け出席レポート |&#x2714; |&#x2714; |X |
-|視聴者の感情分析 – ライブ投票/投票 |&#x2714; (Microsoft Pulse) |X |X |
+|ブロードキャスト後のプロデューサー向け出席レポート |&#x2714; |&#x2714; |&#x274C; |
+|視聴者の感情分析 – ライブ投票/投票 |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 
-<sup>1</sup> 設定されている制限が変更される場合があります。<br/>
+<sup>1</sup> 設定されている制限が変更される場合があります。 [Teams の制限と仕様を](../limits-specifications-teams.md)確認します。<br/>
 <sup>2</sup>最大で250の発表者とプロデューサーはライブイベントに含めることができますが、リストに表示されるのは最後の10件のユーザーのみです。
 
 

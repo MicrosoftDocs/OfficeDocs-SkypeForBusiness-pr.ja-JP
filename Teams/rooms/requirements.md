@@ -14,16 +14,16 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: この記事では、Microsoft Teams のルームをサポートするための要件について説明します。
-ms.openlocfilehash: c20da0aaa42f9e11b8bb0aba3a1f9c0248c24c7b
-ms.sourcegitcommit: 89a7c0427a5abbef838a17ae7eac6934c6176a35
+ms.openlocfilehash: 9e07ac6f5f7ca477006dac703f7b3b8b2604c60b
+ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42982120"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43102338"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams の会議室の要件
 
-Microsoft Teams の会議室のサイズと用途に基づいて、さまざまな認定オーディオとビデオの周辺機器を使用して、さまざまな部屋のサイズに拡大縮小することができます。 適切なコアデバイスと本体を選択して、マイク、スピーカー、カメラ、およびスペースに適したディスプレイを使用することで、Microsoft Teams のルームを、非常に小さな huddle スペースから、非常に大きな会議スペースまで展開できます。会議室。  お客様の室内を構成するために使用できる認定オーディオとビデオのすべての周辺機器の完全なセットは、[デバイスのショーケース](https://products.office.com/microsoft-teams/across-devices)でご利用いただけます。
+Microsoft Teams の会議室のサイズと用途に基づいて、さまざまな認定オーディオとビデオの周辺機器を使用して、さまざまな部屋のサイズに拡大縮小することができます。 適切なコアデバイスと本体を選択して、マイク、スピーカー、カメラ、およびスペースに適したディスプレイを使用することで、Microsoft Teams のスペースを、非常に小さな huddle スペースから、非常に大きな会議スペースや掲示板に展開することができます。  お客様の室内を構成するために使用できる認定オーディオとビデオのすべての周辺機器の完全なセットは、[デバイスのショーケース](https://products.office.com/microsoft-teams/across-devices)でご利用いただけます。
 
 この記事では、Microsoft Teams のルームをサポートするためのデバイスの展開と構成の要件について説明します。
 
@@ -116,7 +116,8 @@ Microsoft Teams の会議室のサイズと用途に基づいて、さまざま�
 |[ごみ箱 CP900](https://www.yealink.com/products_150.html) |100.20.0.29 |
 |[Shure P300 電話会議プロセッサ](https://www.shure.com/en-US/products/mixers/p300)+</br></br> [Shure MXA 310 テーブル配列のマイク](https://www.shure.com/en-US/products/microphones/mxa310) | 4.1 |
 |[Shure P300 Audio Conferening Processor](https://www.shure.com/en-US/products/mixers/p300) + </br></br> [Intellimix 天井配列マイク付きの shure MXA 910](https://www.shure.com/en-US/products/microphones/mxa910) | 4.1|
-|[Biamp Tesira 前景 AVB VT4 の固定オーディオ DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Sennheiser TeamConnect (天井2マイク)](https://en-us.sennheiser.com/tcc2)+ &Dagger;</br></br> [TESIRA EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders)&Dagger; |  Biamp DSP: 3.12.0.15  </br></br> TCC2: 1.3.3 </br></br> EX-UBT: 3.12.0.15 |  |
+|[Biamp Tesira 前景 AVB VT4 の固定オーディオ DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Sennheiser TeamConnect (天井2マイク)](https://en-us.sennheiser.com/tcc2)+ &Dagger;</br></br> [TESIRA EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders)&Dagger; |  Biamp DSP: 3.12.0.15  </br></br> TCC2: 1.3.3 </br></br> EX-UBT: 3.12.0.15 |
+|[Bose ControlSpace EX-440C DSP + </br>BOSE P2600A AmpLink アンプ +</br> Sennheiser TCC2 天井マイク + </br> bose EdgeMax EM180 天井スピーカー](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP: 2.290  </br> P2600A: 1.160  </br> TCC2: 1.4.2  |  |
 ||||||
 
 &Dagger;お客様は、このバンドルの Dante インターフェイスまたは Biamp/Sennheiser で推奨されるネットワークスイッチのいずれかを選ぶことができます。
