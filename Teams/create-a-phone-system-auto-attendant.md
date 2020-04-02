@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Microsoft Teams のクラウド自動応答をセットアップしてテストする方法について説明します。
-ms.openlocfilehash: 841ea2cf82e401c7faad4b287fcd79124bf17fd0
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 9f166e8626d799cb95a447b453663b60079b0704
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42168148"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43102089"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>クラウドの自動応答をセットアップする
 
@@ -278,7 +278,7 @@ If you choose **Write your call instructions**, enter the script  you want the s
 
  <!-- The **Apply to all days** option can be used to reset all days of the week to match the settings for that day. This makes setting weekdays and weekends to different hours easier.-->
 
-![数字6のアイコン、前のスクリーンショット](media/teamscallout6.png)で区切りを設定するための吹き出し (たとえば、昼食を設定するなど)、[新しいテーブル行を作成するために、その曜日の**新しい時刻を追加**する] を選択し、[新しい開始時刻] と [終了時刻] を選択します。 営業時間内に複数の休憩時間を設定できます。
+![1つ目のスクリーンショット](media/teamscallout6.png)のアイコンで区切りを設定します (昼食の場合など)。 [この曜日に新しい時刻を**追加**する] を選択して、新しいテーブルの行を作成し、新しい [開始時刻] と [終了時刻] を選択します。 営業時間内に複数の休憩時間を設定できます。
 
 時間の後に使用可能な[コールフロー](#call-flow)オプションは、勤務時間内で利用可能なオプションと同じです。 情報の入力ページを下にスクロールして、時間単位の通話のオプションを設定します。
 
