@@ -15,16 +15,16 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0cdb9d63d6c14c6950f7066f5cb8b6fbd933703b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e929ce706ee2f59af5c74891ff66f643f2f14ee2
+ms.sourcegitcommit: aaae9df142ebb844a1fea27d3ae3b95130903d6a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008139"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43100094"
 ---
 # <a name="teams-for-education"></a>教育用 Teams
 
-Teams、教師、教職員は、共同での教室の作成、プロフェッショナルな学習コミュニティへの接続、学生と教師とのコミュニケーションを行うことができます。 ここで管理リソースを使用して、学校または組織のチームの展開、採用、管理を成功させることができます。 
+Teams では、教師と教職員はコラボレーション用の教室を作成し、専門的な学習コミュニティに接続し、学生や教師とコミュニケーションを取ることができます。 ここで管理リソースを使用して、学校または組織のチームの展開、採用、管理を成功させることができます。 
 
 <ul class="panelContent cardsFTitle">
     <li>
