@@ -14,12 +14,12 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: この記事では、Microsoft Teams のルームをサポートするための要件について説明します。
-ms.openlocfilehash: 9e07ac6f5f7ca477006dac703f7b3b8b2604c60b
-ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
+ms.openlocfilehash: 9dba3a9972dee782b3d2df2ce48f7f38c19fcbc1
+ms.sourcegitcommit: f0f2fa999c1ca4a1118377c7938a247f79217609
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 04/02/2020
-ms.locfileid: "43102338"
+ms.locfileid: "43106684"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams の会議室の要件
 
@@ -115,7 +115,7 @@ Microsoft Teams の会議室のサイズと用途に基づいて、さまざま�
 |[Yamaha YVC-1000](http://www.yamaha.com/products/en/communication/usb_conference_speakerphones/yvc-1000/)   |100c   |
 |[ごみ箱 CP900](https://www.yealink.com/products_150.html) |100.20.0.29 |
 |[Shure P300 電話会議プロセッサ](https://www.shure.com/en-US/products/mixers/p300)+</br></br> [Shure MXA 310 テーブル配列のマイク](https://www.shure.com/en-US/products/microphones/mxa310) | 4.1 |
-|[Shure P300 Audio Conferening Processor](https://www.shure.com/en-US/products/mixers/p300) + </br></br> [Intellimix 天井配列マイク付きの shure MXA 910](https://www.shure.com/en-US/products/microphones/mxa910) | 4.1|
+|[Shure P300 電話会議プロセッサ](https://www.shure.com/en-US/products/mixers/p300) + </br></br> [Intellimix 天井配列マイク付きの shure MXA 910](https://www.shure.com/en-US/products/microphones/mxa910) | 4.1|
 |[Biamp Tesira 前景 AVB VT4 の固定オーディオ DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Sennheiser TeamConnect (天井2マイク)](https://en-us.sennheiser.com/tcc2)+ &Dagger;</br></br> [TESIRA EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders)&Dagger; |  Biamp DSP: 3.12.0.15  </br></br> TCC2: 1.3.3 </br></br> EX-UBT: 3.12.0.15 |
 |[Bose ControlSpace EX-440C DSP + </br>BOSE P2600A AmpLink アンプ +</br> Sennheiser TCC2 天井マイク + </br> bose EdgeMax EM180 天井スピーカー](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP: 2.290  </br> P2600A: 1.160  </br> TCC2: 1.4.2  |  |
 ||||||

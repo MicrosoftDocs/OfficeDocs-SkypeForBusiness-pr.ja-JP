@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: CQD クエリテンプレートを使用するために Power BI コネクタをインストールする
-ms.openlocfilehash: 393bfaf6348bb5ebc8c46df011387961d95cccfa
-ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
+ms.openlocfilehash: 73f19ef893aebbbd2c6ab9b79946097d6a834c36
+ms.sourcegitcommit: f0f2fa999c1ca4a1118377c7938a247f79217609
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 04/02/2020
-ms.locfileid: "43102348"
+ms.locfileid: "43106694"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>CQD クエリテンプレートを使用するために Power BI コネクタをインストールする
 
@@ -121,7 +121,7 @@ Power BI を使用しているにもかかわらず、Power BI 機能はすべ�
 
 ### <a name="im-trying-to-use-the-date-column-as-a-date-slicer-as-soon-as-i-convert-the-data-type-of-this-column-to-date-i-get-this-error"></a>Date 列を日付スライサーとして使用しようとしています。 この列のデータ型を Date に変換すると、次のエラーが表示されます。
 
-  **このビジュアルのデータを読み込めませんでした**: OLE DB または ODBC エラー: [式. エラー] 式をデータソースに折りたたむことができませんでした。 もっと簡単な式をお試しください。 
+> **このビジュアルのデータを読み込めませんでした**: OLE DB または ODBC エラー: [式. エラー] 式をデータソースに折りたたむことができませんでした。 もっと簡単な式をお試しください。 
 
 Power BI コネクタでスライサーはサポートされません。 日付範囲を指定するには、次の2つのフィルターをレポートに適用します。指定した日付よりも小さい値と大きい値を指定します。
 
