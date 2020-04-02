@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 084f6d4587bc279c4387cf44b8ed29d38d51d4a6
-ms.sourcegitcommit: 613665c866f6fd0febfa6e26ad718241cdfbb207
+ms.openlocfilehash: fe158c1f6a6d8ff7fb830408657ed2deae13c163
+ms.sourcegitcommit: 482050a77a85aeb8dae52f86c9344023487e1b70
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42937601"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43113150"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager を使用して Microsoft Teams をインストールする
 
@@ -80,9 +80,13 @@ VDI に Teams デスクトップ アプリを展開する方法の詳細なガ�
 
 ユーザーが自分のユーザープロファイルから Teams をアンインストールした場合、MSI installer は、ユーザーが Teams アプリをアンインストールして、そのユーザープロファイルの Teams をインストールしなくなったことを追跡します。 このユーザーのために Teams がアンインストールされた特定のコンピューター上で Teams を再展開するには、次の手順を実行します。
 
-1. 各ユーザープロファイルにインストールされている Teams アプリをアンインストールします。
-2. アンインストール後、ディレクトリを再帰的に`%localappdata%\Microsoft\Teams\`削除します。
-3. MSI パッケージをその特定のコンピューターに再展開します。
+> [!IMPORTANT]
+> 次の手順には、レジストリの変更方法についての情報が含まれています。 レジストリを変更する前に必ずバックアップし、問題が発生した場合にレジストリを復元する方法について確認してください。 レジストリのバックアップ、復元、変更の詳細については、「[上級ユーザー向けの Windows レジストリ情報](https://support.microsoft.com/help/256986)」を参照してください。
+
+1. 各ユーザープロファイルにインストールされている Teams アプリをアンインストールします。 詳細については、「 [Microsoft Teams をアンインストール](https://support.office.com/article/uninstall-microsoft-teams-3b159754-3c26-4952-abe7-57d27f5f4c81#ID0EAABAAA=Desktop)する」を参照してください。
+2. ディレクトリを再帰的に`%localappdata%\Microsoft\Teams\`削除します。
+3. レジストリ値`HKEY_CURRENT_USER\Software\Microsoft\Office\Teams\PreventInstallationFromMsi`を削除します。
+4. MSI パッケージをその特定のコンピューターに再展開します。
 
 ## <a name="prevent-teams-from-starting-automatically-after-installation"></a>インストール後に Teams が自動的に起動しないようにする
 
