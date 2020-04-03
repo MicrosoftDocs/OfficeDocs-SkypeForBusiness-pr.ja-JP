@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e1cdd071dfe19c50650d6f18605a5aeed5b39300
-ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
-ms.translationtype: HT
+ms.openlocfilehash: 0320a08a5358716472d382482cb9c825d0709e59
+ms.sourcegitcommit: 1bb3df681177db5ecc6afae3d3f3a46c251e5c23
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42327849"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43117435"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook で Teams の会議アドインを使用する
 =======================================
@@ -37,6 +37,7 @@ Teams の会議アドインは、Microsoft Teams と Office 2010、Office 2013 �
 ![Outlook リボン上の Teams 会議アドインのスクリーンショット](media/Teams-add-in-for-Outlook.png)
 
 > [!NOTE]
+> - 組織で Teams と Skype for Business の両方を実行している場合は、その他の考慮事項があります。 状況によっては、Outlook で Teams アドインを使用できない場合があります。 詳細については、「 [Skype For business から Teams にアップグレードする](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings)」を参照してください。
 > - Regsvr32.exe ファイルを実行するユーザーのアクセス許可は、コンピューターに Teams 会議アドインをインストールするための最小要件です。
 > - Teams の会議アドインが表示されないユーザーに対しては、Outlook と Teams を閉じて、先に Teams クライアントを再起動してから Teams にサインインし、次に Outlook クライアントを再起動する操作を順に行うよう指示します。
 > - Microsoft ストアから Office Outlook のインストールを使用している場合、Teams 会議アドインはサポートされていません。 このアドインが必要なユーザーは、「[S モードでの Windows 10 の Office](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f)」の記事で説明されているとおり、Office のクイック実行バージョンをインストールすることをお勧めします。
@@ -73,7 +74,7 @@ FindTime は、Outlook 用のアドインです。これは、企業全体の会
 
 ## <a name="authentication-requirements"></a>認証要件
 
-Teams の会議アドインでは、ユーザーが認証要件を使用して Teams にサインインすることが必要になります。 ユーザーがこの方法を使用せずにサインインしても、Teams クライアントを使用することはできますが、Outlook アドインを使用して Teams のオンライン会議をスケジュール設定することはできません。 これを修正するには、次のいずれかを実行します。
+Teams の会議アドインでは、ユーザーが認証要件を使用して Teams にサインインすることが必要になります。 ユーザーがこのメソッドを使用してサインインしていない場合は、引き続き Teams クライアントを使用できますが、Outlook アドインを使用してチームのオンライン会議をスケジュールすることはできません。 これを修正するには、次のいずれかを実行します。
 
 - 先進認証が組織に対して構成されていない場合は、先進認証を構成します。
 - 先進認証が構成されていているのにダイアログ ボックスでユーザーが無効になってしまう場合は、それらのユーザーに対して多要素認証を使用してサインインし直すよう指示します。
@@ -120,7 +121,7 @@ Teams Meeting add-in for Outlook のアドインをインストールできな�
 - Outlook デスクトップ クライアントのすべての利用可能な更新プログラムが適用されていることを確認します。
 - Teamsのデスクトップ クライアントを再起動します。
 - [Teamsのデスクトップ クライアント]からサインアウトして、もう一度サインインします。
-- Outlook デスクトップ クライアントを再起動します。 (管理者モードで Outlook が実行されていないことを確認してください。)
+- Outlook デスクトップ クライアントを再起動します。 (Outlook が管理者モードで実行されていないことを確認します)。
 - ログインしているユーザー アカウント名にスペースが含まれていないことを確認します。 これは既知の問題であり、今後のビルドで修正される予定です。
 - シングル サインオン (SSO) が有効になっていることを確認します。
 

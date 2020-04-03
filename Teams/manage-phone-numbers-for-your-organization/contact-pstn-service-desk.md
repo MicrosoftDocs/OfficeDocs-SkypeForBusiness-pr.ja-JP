@@ -23,19 +23,20 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: 組織で電話番号を取得したり、番号を移行 (転送) したりする場合、PSTN サービスデスクでヘルプとサポートを受ける必要がある場合があります。
-ms.openlocfilehash: 3fe6353deb52911a4e0f0249f500a2a562e29ac1
-ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
+ms.openlocfilehash: 58c32b8bf54ff6b1e9df689c6bcde184889b8462
+ms.sourcegitcommit: 8665603fae8408ccbc083dd59cb01936ebe96c58
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42583078"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43116703"
 ---
 # <a name="pstn-service-desk-contact"></a>PSTN サービスデスクの連絡先
 
-電話番号の取得や転送についてのヘルプが必要な場合は、skype に連絡して、メールでお問い合わせください。 メールのヘルプ要求で、できるだけ多くの情報を含め、組織 ID (テナント ID)、ドメイン、ヘルプが必要な番号の種類、必要な電話番号の種類、アカウントなどの重要な詳細情報を入力します。問題について
+電話番号の取得や転送についてのヘルプが必要な場合は、skype に連絡して、メールでお問い合わせください。 メールのヘルプ要求で、できるだけ多くの情報を含め、組織 ID (テナント ID)、ドメイン、ヘルプが必要な種類の番号、必要な電話番号の種類、アカウントの承認者、および問題に関するその他の重要な詳細情報を含めることができます。
 
   - 組織 ID (テナント ID) またはアクティブなドメイン。
   - 必要な電話番号の種類 (ユーザー/加入者、サービス/有料、またはフリーダイヤル)。
+    - 電話番号が必要な市外局番の/Country/Region を含めます。
   - 必要な数値の数 (この番号を取得する場合)。
   - お客さまのリクエストに基づいて、アカウントやその他の重要な詳細情報を承認します。
 

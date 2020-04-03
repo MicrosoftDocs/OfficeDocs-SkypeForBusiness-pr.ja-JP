@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0eca4b7c7c4708509eb33bc14e4514dc3f858980
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 344bf59d401e43c40c6f643b334c2f34311d6cbe
+ms.sourcegitcommit: 8665603fae8408ccbc083dd59cb01936ebe96c58
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837957"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43116693"
 ---
 # <a name="powershell-script-to-test-direct-routing-session-border-controller-connections"></a>ダイレクトルーティングセッションの境界コントローラー接続をテストする PowerShell スクリプト
 
@@ -36,3 +36,8 @@ SIP Tester クライアントは、Microsoft Teams でダイレクトルーテ�
 ## <a name="download-the-script-and-documentation"></a>スクリプトとドキュメントをダウンロードする
 
 [SIP テスターのクライアントスクリプトとドキュメント](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/sip-tester-client/siptesterclient.zip?raw=true)をダウンロードします。
+
+  > [!NOTE]
+  > SIP Tester クライアントスクリプトは adal.ps バージョン3.19.8.1 のみをサポートしています。 Adal.ps の新しいバージョンが使用されると、エラーが返されます。
+  
+  

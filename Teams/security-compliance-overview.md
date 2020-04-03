@@ -19,24 +19,32 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3320681f606150be223433d6ab80e8e0ee41a42f
-ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
+ms.openlocfilehash: fbec8f7d246a4acfe241ef4f4d701cc9e1e6b28c
+ms.sourcegitcommit: 1bb3df681177db5ecc6afae3d3f3a46c251e5c23
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053413"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43117425"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft Teams のセキュリティとコンプライアンス
 
 > [!IMPORTANT]
-> Office 365 のお客様は、データを所有して管理します。 Microsoft は、お客様が登録したサービスを提供する以外の目的で、お客様のデータを使用することはありません。 サービス プロバイダーとして、広告のため、またはサービスに関連しない用途のために、メール、ドキュメント、チームをスキャンすることはありません。 Microsoft には、アップロードされたコンテンツへのアクセス権がありません。 OneDrive for Business および SharePoint Online と同様に、顧客データはテナント内に留まります。 信頼およびセキュリティに関連する情報の詳細については、[Microsoft Trust Center](https://microsoft.com/trustcenter) で確認できます。 Teams は Microsoft Trust Center と同じガイダンスと原則に従っています。
+> **共同作業中に全員が自宅で仕事をしているときに**、確実にセキュリティを確保する方法については、次の記事を参照してください。
+>  - [自宅での作業をサポートするセキュリティチームの上位12のタスク](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
+>  - [VPN 分割トンネリングを使用してリモートユーザー向けに Office 365 の接続を最適化する](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
+>  - 更新日: 2020 年4月2日: [Teams セキュリティガイド](teams-security-guide.md)
+
 
 Microsoft Teams は、お客様の期待に応える高度セキュリティおよびコンプライアンス能力を備えた Office 365 ハイパースケールのエンタープライズクラスのクラウド上に構築されています。 O365 でのセキュリティの計画の詳細については、O365 のコンテンツをご確認ください。 [Office 365 セキュリティのロードマップ](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap)は、最初に始めるのに最適な場所です。 O365 でのコンプライアンスの計画について詳しくは、「[セキュリティとコンプライアンスの計画](https://docs.microsoft.com/microsoft-365/compliance/plan-for-security-and-compliance)」の記事を最初にご覧ください。
 
-この記事では、Teams 固有のセキュリティとコンプライアンスについて詳しく説明します。 セキュリティとコンプライアンスについては、Microsoft のスタッフがお送りする以下の動画をご覧ください。
+
+この記事では、Teams 固有のセキュリティとコンプライアンスについて詳しく説明します。 セキュリティとコンプライアンスに関する以下の Microsoft のしくみに関するビデオをお見逃しなく。
 
 - [IT 担当者向けの Microsoft Teams の基礎](https://youtu.be/91lHNKVVvQ4) (12 分 42 秒)
 - [Microsoft Teams でのセキュリティとコンプライアンスに関する扱い](https://www.youtube.com/watch?v=Km4T4hMM__k) (10 分 54 秒)
+
+> [!IMPORTANT]
+> Office 365 のお客様は、データを所有して管理します。 Microsoft は、お客様が登録したサービスを提供する以外の目的で、お客様のデータを使用することはありません。 サービス プロバイダーとして、広告のため、またはサービスに関連しない用途のために、メール、ドキュメント、チームをスキャンすることはありません。 Microsoft には、アップロードされたコンテンツへのアクセス権がありません。 OneDrive for Business および SharePoint Online と同様に、顧客データはテナント内に留まります。 信頼およびセキュリティに関連する情報の詳細については、[Microsoft Trust Center](https://microsoft.com/trustcenter) で確認できます。 Teams は Microsoft Trust Center と同じガイダンスと原則に従っています。
 
 ## <a name="security"></a>セキュリティ
 
@@ -71,11 +79,11 @@ Microsoft Teams デスクトップ アプリケーションは、AppLocker を�
 
 ## <a name="compliance"></a>コンプライアンス
 
-チームには、チャネル、チャット、添付ファイル、アイテム保持ポリシー、データ損失防止 (DLP)、チャネル、チャット、ファイル、監査ログの電子情報開示と法的保持など、コンプライアンスの領域に役立つさまざまな情報があります。Microsoft Intune でのモバイルアプリケーション管理と共に検索できます。 以下のすべてのトピックに関する情報が記載されています。 [Microsoft 365 コンプライアンスセンター](https://compliance.microsoft.com)または[Office 365 セキュリティ & コンプライアンスセンター](https://protection.microsoft.com)にアクセスして、これらの設定を管理できます。
+チームには、チャネル、チャット、添付ファイル、アイテム保持ポリシー、データ損失防止 (DLP)、チャネル、チャットとファイル、監査ログの検索、Microsoft Intune でのモバイルアプリケーション管理など、コンプライアンスの分野に関するさまざまな情報が含まれています。 以下のすべてのトピックに関する情報が記載されています。 [Microsoft 365 コンプライアンスセンター](https://compliance.microsoft.com)または[Office 365 セキュリティ & コンプライアンスセンター](https://protection.microsoft.com)にアクセスして、これらの設定を管理できます。
 
 ### <a name="communication-compliance"></a>通信のコンプライアンス
 
-Microsoft 365 での通信のコンプライアンス機能を使用すると、不快感のある言語、機密情報、および社内および規制標準に関連する情報について Microsoft Teams の通信を調査できるように構成可能な、範囲内ポリシーにユーザーを追加することができます。. パブリックとプライベートの両方の Teams チャネルでのチャットおよび関連付けられた添付ファイルは、個々のチャットと添付ファイルをスキャンして、組織内の通信リスクを最小限に抑えることができます。 不適切なチームの通信を検出、キャプチャし、対処するために役立つポリシーを構成する方法の詳細については、「 [Microsoft 365 での通信のコンプライアンス](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance)」を参照してください。
+Microsoft 365 での通信のコンプライアンスによって、不快感を持つ言語、機密情報、および社内および規制標準に関連する情報について Microsoft Teams の通信を調査するように構成可能な、範囲内ポリシーにユーザーを追加することができます。 パブリックとプライベートの両方の Teams チャネルでのチャットおよび関連付けられた添付ファイルは、個々のチャットと添付ファイルをスキャンして、組織内の通信リスクを最小限に抑えることができます。 不適切なチームの通信を検出、キャプチャし、対処するために役立つポリシーを構成する方法の詳細については、「 [Microsoft 365 での通信のコンプライアンス](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance)」を参照してください。
 
 ### <a name="retention-policies"></a>アイテム保持ポリシー
 

@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: この記事では、Microsoft Teams ミーティングのライフサイクル サポートについて説明します。
-ms.openlocfilehash: 9ca1f603a8931f204403870ee65a10f28a2a8795
-ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
+ms.openlocfilehash: e5142d23d9f57a6ca50bcdb348378084afffd86b
+ms.sourcegitcommit: 1bb3df681177db5ecc6afae3d3f3a46c251e5c23
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 04/02/2020
-ms.locfileid: "43102328"
+ms.locfileid: "43117525"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft Teams ミーティング アプリ バージョンのサポート
  
@@ -58,10 +58,8 @@ Microsoft Teams ミーティング デバイスでは、Windows 10 機能更新�
 | 1803 |2018-07-10 |サポート                             |4.1.22.0 |17134.191|
 | 1709 |2018-01-18 |非サポート                         |&#x2014; |&#x2014; |
 | 1703 |2017-07-11 |非サポート                         |&#x2014; |&#x2014; |
-||||||
 
- 
-Windows 10 の &#x2780; は、Microsoft Teams のルームアプリケーションで見つかった互換性の問題により、バージョン1809は推奨されません。 この問題が発生すると、Microsoft Teams のルームアプリケーションは、夜間の再起動後に起動できなくなります。 この問題は、Windows 10 バージョン1903で修正されました。  
+&#x2781; Microsoft Teams ミーティング アプリケーションで互換性の問題が見つかったため、Windows 10 1809 バージョンは非推奨になっています。 この特定の問題により、Microsoft Teams ミーティング アプリケーションは夜間に再起動すると失敗します。 この問題は、Windows 10 1903 バージョンで解決されています。  
 
 Windows 10 のサポートされているバージョンを使用している場合は、Microsoft Teams ミーティング アプリの最新のアプリケーション更新プログラムを入手できます。  
 
