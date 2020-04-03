@@ -17,24 +17,24 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 236b1d570d44395f3499c0a5fec3d3a415953e12
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
-ms.translationtype: HT
+ms.openlocfilehash: d5f2698330ae23f25ffbbe5fae40d8dc6234354d
+ms.sourcegitcommit: dc6108917392754d950cea47b92f871211bf4212
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834687"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43131115"
 ---
 # <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Microsoft Teams との SharePoint Online と OneDrive for Business の連携
 
 > [!Tip]
 > Teams が Azure Active Directory (AAD)、Office 365 グループ、Exchange、SharePoint、および OneDrive for Business とどのようにやり取りするのかを学ぶために、次のセッションをご覧ください: [Microsoft Teamsの基礎](https://aka.ms/teams-foundations)。
 
-Microsoft Teams の各チームには SharePoint Online にチーム サイトがあり、チーム内の各標準チャネルには既定のチーム サイト ドキュメント ライブラリが作成されます。会話内で共有したファイルはドキュメント ライブラリに自動的に格納されます。SharePoint で設定した権限やファイル セキュリティ オプションは Teams 内で自動的に反映されます。
+Microsoft Teams の各チームには SharePoint Online のチームサイトがあり、チーム内の各標準チャネルは既定のチームサイトのドキュメントライブラリ内のフォルダーを取得します。会話内で共有されているファイルは、ドキュメントライブラリに自動的に追加されます。また、SharePoint で設定された権限とファイルセキュリティオプションは、自動的に Teams 内に反映されます。SharePoint でサイトのアドレスを変更した場合の影響を確認するには、「[サイトアドレスを変更](https://docs.microsoft.com/sharepoint/change-site-address)する」を参照してください。
 
 > [!NOTE]
 > この記事は、標準チャネルにのみ適用されます。 プライベート チャネルのアーキテクチャは、標準チャネルとは異なります。 各プライベート チャネルには、親チームのサイトとは別個の SharePoint サイト コレクションがあります。 詳しくは、「[Microsoft Teams のプライベート チャネル](private-channels.md)」を参照してください。
 
-プライベート チャット ファイルは送信者の OneDrive for Business フォルダーに格納され、権限はファイル共有プロセスの一環としてすべての参加者に付与されます。
+プライベートチャットファイルは、送信者の OneDrive for Business フォルダーに保存され、ファイル共有プロセスの一環としてすべての参加者に対してアクセス許可が自動的に付与されます。
 
 ユーザーにSharePoint Onlineの有効なライセンスが割り当てられていない場合は、Office 365にOneDrive for Businessのストレージがありません。 ファイル共有は標準チャネル内で引き続き動作しますが、Office 365 に OneDrive for Business ストレージがないと、ユーザーはチャットでファイルを共有することができません。
 

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e147a300f628347b5e38837a3d277a78a4c593c4
-ms.sourcegitcommit: 29034bda30a8460eb18600785f785528d0944041
-ms.translationtype: HT
+ms.openlocfilehash: 68468455da96fc3b2790a832b6732d7211bd7733
+ms.sourcegitcommit: dc6108917392754d950cea47b92f871211bf4212
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42285749"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43131145"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange と Microsoft Teams の連携
 
@@ -32,11 +32,11 @@ Teams のすべての機能を活用するために、すべてのユーザー�
 
 ユーザーの Exchange メールボックスは、オンラインまたはオンプレミスでホストできます。 ただし、一部の機能では、Office 365 テナントを使用してハイブリッド展開を行う必要があります。
 
-Exchange Online または Exchange 専用 vNext でホストされているユーザーは、Teams のすべての機能を使用できます。 チームやチャネルの作成およびそれらへの参加、会議の作成および表示、通話とチャット、ユーザー プロフィールの画像の変更、コネクタやタブ、ボットの追加と構成を行うことができます。
+Exchange Online または Exchange 専用 vNext でホストされているユーザーは、Teams のすべての機能を使用できます。 メンバーは、チームとチャネルの作成と参加、会議の作成と表示、電話とチャット、ユーザープロファイルの画像の変更 (Outlook on the web メールボックスポリシーで許可されている場合) の変更、コネクタ、タブ、ボットの追加と構成を行うことができます。
 
-Exchange Online 専用 (レガシ) にホストされるユーザーは、Office 365 の Azure Active Directory と同期する必要があります。 チームやチャネルの作成およびそれらへの参加、タブ、ボットの追加と構成、チャットや通話機能の利用が可能です。 ただし、これらのユーザーは、プロフィール画像を変更したり、会議を管理したり、Outlook の連絡先にアクセスしたり、コネクタを管理したりできません。
+Exchange Online 専用 (レガシ) にホストされるユーザーは、Office 365 の Azure Active Directory と同期する必要があります。 チームやチャネルの作成およびそれらへの参加、タブ、ボットの追加と構成、チャットや通話機能の利用が可能です。 ただし、プロフィール画像の変更、会議の管理、outlook の連絡先へのアクセス、コネクタの管理はできません。
 
-オンプレミスでホストされているメールボックスを使っているユーザーは、Azure Active Directory と同期する必要があります。 これらのユーザーは、上記のシナリオにあるすべての機能を使用できます。さらに、Exchange Server 2016 (累積的な更新プログラム 3) 以降をオンプレミスで実行している場合、ユーザー プロフィールの画像を変更したり、会議を管理したりすることもできます。
+オンプレミスでホストされているメールボックスを使っているユーザーは、Azure Active Directory と同期する必要があります。 上記のシナリオのすべての機能を使用できるようになりましたが、ユーザープロファイルの画像 (Outlook on the web メールボックスポリシーで許可されている場合) を変更することもできます。また、Exchange Server 2016 (累積的な更新プログラム 3) 以降を提供している場合は、オンプレミスが実行されています。
 
 次の表では、Exchange 環境に基づいて、機能の可用性に関する役立つクイック リファレンスをまとめています。
 
@@ -45,10 +45,10 @@ Exchange Online 専用 (レガシ) にホストされるユーザーは、Office
 
 | ユーザーのメールボックスのホスト先: | 電子情報開示| 法的な&nbsp;保全 | 保持| チームとチャネルの管理 |Teams で会議を作成して表示する| ユーザー プロフィールの写真を変更する | 通話履歴 | 連絡先の管理 | Outlook の連絡先へのアクセス | ボイスメール |コネクタを追加して構成する|タブを追加して構成する|ボットを追加して構成する| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|はい <sup>2</sup>|はい <sup>2</sup>|はい|はい|はい|はい|はい|はい|はい <sup>7</sup>|はい|はい|はい|はい|
-|**Exchange Online 専用 vNext**|はい <sup>2</sup>|はい <sup>2</sup>|はい|はい|はい|はい|はい|はい|はい <sup>7</sup>|はい|はい|はい|はい|
+|**Exchange Online**|はい <sup>2</sup>|はい <sup>2</sup>|はい|はい|はい|○ (<sup>8</sup> )|はい|はい|はい <sup>7</sup>|はい|はい|はい|はい|
+|**Exchange Online 専用 vNext**|はい <sup>2</sup>|はい <sup>2</sup>|はい|はい|はい|○ (<sup>8</sup> )|はい|はい|はい <sup>7</sup>|はい|はい|はい|はい|
 |**Exchange Online 専用 – レガシー** (Azure AD との同期が必要)|はい <sup>2</sup>|はい <sup>2、3</sup>|はい <sup>4|はい|いいえ|いいえ|はい|はい|いいえ|はい <sup>5|はい <sup>6|必要|必要|
-|**Exchange On-premises** (Azure AD との同期が必要)|はい <sup>2</sup>| はい <sup>2、3</sup> |はい <sup>4|はい|はい (Exchange 2016 CU3+)|はい (Exchange 2016 CU3+)|はい|はい|いいえ|はい <sup>5|はい <sup>6|必要|必要|
+|**Exchange On-premises** (Azure AD との同期が必要)|はい <sup>2</sup>| はい <sup>2、3</sup> |はい <sup>4|はい|はい (Exchange 2016 CU3+)|○<sup>8</sup> (EXCHANGE 2016 cu3 以降で +)|はい|はい|いいえ|はい <sup>5|はい <sup>6|必要|必要|
 
 <sup>1</sup> Exchange 2016 CU3 以降がサポートされています。  
 
@@ -63,6 +63,8 @@ Exchange Online 専用 (レガシ) にホストされるユーザーは、Office
 <sup>6</sup> チームの所有者の 1 人がコネクタを追加できる場合、そのチーム内のすべてのユーザーは、メールボックスがオンプレミスであったとしても、その操作を行うことができます。
 
 <sup>7</sup> 既定の連絡先フォルダーは連絡先のみ。 他の連絡先フォルダーまたはサブフォルダーへのアクセスはサポートされていません。
+
+<sup>8</sup>チームは、テナント管理者によって構成された[web メールボックスのポリシー](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy)設定を使用して、ユーザーが自分のプロファイル写真を変更できるかどうかを制御します。 ポリシーで **-setphotoenabled**設定が無効になっている場合、ユーザーはそのプロフィール画像を追加、変更、削除することはできません。 たとえば、ユーザーが組織の IT または人事部門によって承認されたプロファイル画像をアップロードした場合、操作は必要ありません。 ただし、ユーザーが不適切な画像をアップロードした場合は、組織の内部ポリシーに従って画像を変更します。
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Microsoft Teams を最大限に活用するための要件
 
@@ -88,7 +90,7 @@ Microsoft Teams では、さまざまな Office 365 サービスにより、ユ�
 
 - Microsoft Teams では、電子情報開示、コンテンツ検索、アーカイブ、訴訟ホールドのようなセキュリティおよびコンプライアンスの機能は Exchange Online と SharePoint Online の環境で最適に動作します。チャネルの会話の場合、メッセージは Exchange Online 内のグループ メールボックスにジャーナリングされます。これらのメッセージは電子情報開示で利用できます。SharePoint Online と OneDrive for Business (職場または学校のアカウントを使用) が組織全体とユーザーに対して有効な場合は、これらのコンプライアンス機能も Teams 内のすべてのファイルに対して利用できます。
 
-- 条件付きアクセスを使用して、Teams や Exchange のコンプライアンス ポリシーの構成を制御および保護します。 詳細については、「[Teams に条件付きアクセス ポリシーはどのように機能しますか?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)」を参照してください 。
+- 条件付きアクセスを使用して、Teams や Exchange のコンプライアンス ポリシーの構成を制御および保護します。 詳細については、「[Teams に条件付きアクセス ポリシーはどのように機能しますか?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)」を参照してください .
 
 - すべての会議のディスカッションを確実に検出できるというコンプライアンス要件が組織にある場合、開催者に Exchange オンプレミス メールボックスがある場合は、プライベート会議を無効にする必要があります。
 
