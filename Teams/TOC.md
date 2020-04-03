@@ -567,8 +567,10 @@
 
 # Microsoft 365 企業向け音声
 ## [Microsoft 365 企業向け音声とは?](business-voice/whats-business-voice.md)
+## [国および地域ごとの利用可能性](business-voice/country-region-availability.md)
 ## 購入前の注意事項
 ### [企業向け音声を取得するために何を購入すべきか](business-voice/what-to-buy.md)
+### [販売店またはパートナーからサポートを受ける](business-voice/reseller-partner-support.md)
 ### [インターネット接続を確認する](business-voice/get-ready-internet.md)
 ### [ユーザーの準備を行う](business-voice/prepare-users.md)
 ## [作業の開始ウィザードを実行する](business-voice/use-getting-started-wizard.md)
@@ -603,6 +605,7 @@
 ## [概要](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
 ## [Teams のテンプレートの使用を開始する](get-started-with-teams-templates.md)
 ## [現場担当者向けのクイックスタート](firstline-workers-quickstart.yml)
+## [Microsoft Teams の RealWear](flw-realwear.md)
 ## [Shifts for Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Microsoft StaffHub はまもなく廃止予定です](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [Microsoft StaffHub PowerShell モジュールをインストールする](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
