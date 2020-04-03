@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Microsoft 365 Business Voice の概要と、中小企業がより効果的にコミュニケーションを行えるようにする方法。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b9093fe2fd7050e582132c79a932b4b6fd4925d
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: ecce1626a541c14c7175390c086acfa5eb0262f2
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824565"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096872"
 ---
 # <a name="what-is-microsoft-365-business-voice"></a>Microsoft 365 Business Voice とは
 
@@ -42,8 +42,9 @@ Business Voice は、Microsoft 365 電話システムの機能を 1 つの管理
 * Microsoft 365 E3
 * Microsoft 365 Business
 
+Business Voice は 70 以上の国と地域で利用できます。 Business Voice を自分でセットアップできるかどうか、電話番号を Microsoft 365 に転送できるかどうか、および Microsoft 365 で電話番号を管理できるかどうかは、Microsoft 365 テナントが存在する国または地域によって異なります。 詳細については、「[Business Voice を利用できる国と地域](country-region-availability.md)」をご覧ください。
+
 > [!IMPORTANT]
-> Business Voice は現在、カナダとイギリスで利用できます。 2020 年にはさらに多くの国と地域で利用可能になります。
 >
 > Microsoft Teams と Business Voice は、ユーザーのメールボックスが Microsoft 365 にある場合にのみ機能します。  オンプレミスの Exchange Server にあるメールボックスはサポートしていません。
 

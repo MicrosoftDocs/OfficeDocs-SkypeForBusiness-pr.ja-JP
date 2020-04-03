@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ''
-description: 先進認証を使用して Microsoft Teams にサインインする方法。 ユーザーがサインインするときに、自動的に UPN のユーザー名が追加されないようにする方法が含まれます。
+description: 先進認証を使用して Microsoft Teams にサインインする方法。 Windows に UPN を無視するように設定することで、ユーザーがサインインしたときに自動的に UPN のユーザー名の追加をスキップする方法が含まれています。
 localization_priority: Priority
 ms.collection:
 - M365-collaboration
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c541371b78bcd9119abe7a11523d0d2f7b5eda7c
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.openlocfilehash: f86568f92f2b758ae48062c84b330461743ef178
+ms.sourcegitcommit: 8665603fae8408ccbc083dd59cb01936ebe96c58
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978369"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43116643"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>先進認証を使用して Microsoft Teams にサインインする
 ==========================
@@ -40,14 +40,14 @@ Microsoft Teams は先進認証を使用して、サインイン操作をシン�
 
 - ドメインに参加しているコンピューターにユーザーがサインインしている場合、ユーザーが Teams を起動すると、MFA を要求するように組織で設定されているかどうか、または、ユーザーのコンピューターへのサインインで既に MFA が要求されているのかどうかにより、もう 1 つ別の認証手順を実行するよう求められる場合があります。 コンピューターへのサインインで既に MFA が要求されている場合、ユーザーが Teams を開くとアプリが自動的に起動します。
 
-- ドメインに参加しているコンピューターにユーザーがサインインしている場合に、Teams のサインイン画面にユーザー名を事前入力させたくない場合は、管理者は次の Windows レジストリを設定してユーザー名 (UPN) の事前入力を無効にできます。
+- ドメインに参加しているコンピューターにユーザーがサインインしている場合に、**Teams のサインイン画面にユーザー名を事前入力させたくない場合**は、管理者は次の Windows レジストリを設定してユーザー名 (UPN) の事前入力を無効にできます。
 
   Computer\HKEY_CURRENT_USER\Software\Microsoft\Office\Teams<br/>
   SkipUpnPrefill(REG_DWORD)<br/>
   0x00000001 (1)
 
     > [!NOTE]
-    > ".local" または ".corp" で終わるユーザー名については、ユーザー名の事前入力のスキップは既定でオンになっているため、レジストリ キーを設定してオフにする必要はありません。 
+    > 「.local」 または 「.corp」 で終わるユーザー名については、ユーザー名の事前入力のスキップは既定でオンになっているため、レジストリ キーを設定してオフにする必要はありません。 
 
 
 ### <a name="mac-users"></a>Mac ユーザー 

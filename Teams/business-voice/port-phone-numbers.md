@@ -17,14 +17,19 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9895875832e1d173366a4f6ef0c48abf662fc5d
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 1dab1673f32c6a3c902c761004e5720d8c61dbfb
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827403"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096892"
 ---
 # <a name="move-port-phone-numbers-to-business-voice"></a>電話番号を Business Voice に移行 (ポート) する
+
+> [!IMPORTANT]
+> この記事の情報は、通話プラン**付き** Business Voice のみに適用されます。 通話プラン付き Business Voice は、一部の国と地域でのみ使用できます。 この記事を読む前に、「[Business Voice を利用できる国と地域](country-region-availability.md)」で、お住まいの国または地域が通話プラン付き Business Voice をサポートしているかどうかを確認してください。
+>
+> テナントが通話プラン付き Business Voice をサポートしていない国または地域にある場合は、「[Microsoft 販売店またはパートナーからヘルプを取得する](reseller-partner-support.md)」をご覧ください。
 
 [作業の開始] ウィザードで Business Voice をセットアップすると、メインの会社の回線と、Business Voice ライセンスを割り当てたユーザーに電話番号が割り当てられます。 Business Voice に移行するときに保持したい電話番号が既にある場合は、電話番号ポータビリティと呼ばれるプロセスを使用して、それらを Business Voice に引き継ぎ、移行することができます。 電話番号を Business Voice にポートした後、ユーザーとサービスに割り当てます。 以前の番号は、[作業の開始] ウィザードが割り当てた一時的な数字と置き換えられます。
 
