@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams の商用クラウドの試用提供を管理する
+title: 商用クラウドの試用提供を管理する
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
@@ -16,12 +16,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb4a42ebe8772eebe5e5ebd130a68dd4bba714b3
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: a46720a59b5d3530f64bf4f459df13ad7c5cf5de
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836597"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137157"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Microsoft Teams の商用クラウドの試用提供を管理する
 =======================================================
@@ -70,7 +71,7 @@ Teams を含む Office 365 ライセンスを所有していないユーザー�
 
 組織内のすべての試用版は、最初のユーザーが試用版にサインアップした日付と同じ開始日と終了日を共有します。 たとえば、ユーザー A が 2019 年 1 月 25 日に最初の試用を開始し、ユーザー B が 2019 年 6 月 3 日に試用を開始した場合は、2020 年 1 月 25 日にどちらのユーザーの試用も期限が切れます。
 
-## <a name="manage-the-trial"></a>試用版の管理
+## <a name="manage-the-trial"></a><a name="manage-the-trial"></a>試用版の管理
 
 Teams 試用版は個々のエンド ユーザーが開始するためのものであり、エンド ユーザーの従業員に代わって Teams 試用版の提供を開始することはできません。
 
@@ -78,7 +79,7 @@ Teams 試用版は個々のエンド ユーザーが開始するためのもの�
 
 ### <a name="prevent-users-from-installing-trial-apps-and-services"></a>ユーザーが試用版アプリおよびサービスをインストールできないようにする
 
-試用版のアプリとサービスをユーザーがインストールする機能をオフにできます。
+試用版のアプリとサービスをインストールするユーザー機能をオフにできます。
 
 1. [[Microsoft 365 管理センター]](https://portal.office.com/adminportal/home) から、**[設定]** > **[設定]** に移動し、**[サービス]** を選択し、**[ユーザーが所有するアプリとサービス]** を選択します。
 

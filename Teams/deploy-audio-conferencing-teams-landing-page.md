@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams での電話会議
+title: 電話会議の設定－Microsoft Teams
 ms.reviewer: ''
 description: ここに示す展開リソースを使用して、Microsoft Teams のミーティング ワークロードの一部として電話会議を展開してください。
 ms.topic: article
@@ -12,20 +12,21 @@ ms.service: msteams
 ms.collection:
 - M365-voice
 - M365-collaboration
+ms.custom: seo-marvel-mar2020
 f1.keywords:
 - NOCSH
 localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78c4443352bffa02dc5bdeef6297ede6bed01e64
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: f57753947221068a21edd282ba0667efc4182690
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826745"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137327"
 ---
-# <a name="audio-conferencing-in-microsoft-teams"></a>Microsoft Teams での電話会議
+# <a name="learn-how-to-deploy-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams での電話会議の導入方法
 
 電話会議とは、通常の電話機から Teams のミーティングに参加することと、ミーティングから電話番号に向けてダイヤルアウトすることができる機能です。 組織に電話会議を展開する際の一環として、[ミーティングの展開](deploy-meetings-microsoft-teams-landing-page.md)を確認しておいてください。
 
