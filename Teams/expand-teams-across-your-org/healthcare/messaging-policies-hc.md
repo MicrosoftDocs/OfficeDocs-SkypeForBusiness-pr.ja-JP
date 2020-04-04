@@ -1,5 +1,5 @@
 ---
-title: 医療組織向け Secure Messaging で Teams を始めましょう
+title: 医療機関向けのセキュリティで保護されたメッセージング
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -17,12 +17,13 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 医療組織向け Secure Messaging で Teams を始めましょう
-ms.openlocfilehash: cd200900f70abf9f9e1d6cef049f46139dcff022
-ms.sourcegitcommit: 4e1647d19501b37860d9fc79370fa4347f76f85f
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: f2b431eb28d2f475bc8abdf6ac05db760200d40e
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43079469"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136987"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>医療組織向け Secure Messaging で Teams を始めましょう
 
@@ -60,7 +61,7 @@ ms.locfileid: "43079469"
 
 *使用例:* ソフィア Krause は、非常にリスクの高い患者、Jakob Roth を readmitting しています。 Manuela Carstens は、医師がこの患者の主要な医者となっています。  ソフィアは、Jakob のトリアージについて、すぐに支援を求める優先通知を使って、Manuela にメッセージを送信します。  Manuela の携帯電話は、メッセージを受信しますが、Manuela は電話の振動を感じません。返信しません。 チームは Manuela に再度通知を送信し、メッセージを読むまで継続的に再通知を行います。 開封確認メッセージが有効になっている場合、ソフィアは、Manuela によってメッセージが読まれたことを通知します。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [Teams のメッセージング ポリシーを管理する](../../messaging-policies-in-teams.md)
 - [医療関係組織のためのTeamsを始めましょう](teams-in-hc.md)

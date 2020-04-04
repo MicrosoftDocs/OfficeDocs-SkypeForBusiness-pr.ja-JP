@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams を使用して既存の Office 365 グループを強化する
+title: 既存の Office 365 グループを強化する
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -17,12 +17,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 99afab167cdc865214f621d9994c3b5d124e98ed
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: ad71a5d65eca924e7d73c157011ff12ce38bc9e4
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41832917"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136867"
 ---
 <a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>Microsoft Teams を使用して既存の Office 365 グループを強化する
 =======================================================
@@ -44,7 +45,7 @@ Microsoft Teams ユーザーは、Teams の機能を使用して、既存の Off
 
 Office 365 グループのプライバシー設定には、**パブリックとプライベート**の2種類があります。 一方、チームに対しては両方の種類のグループを有効にできますが、セルフサービスについてはわずかな違いがあります。
 
--   ユーザーはパブリック グループを検索して、チーム所有者の承認なしで自由に参加できます。
+-   ユーザーはパブリックグループを検索でき、チーム所有者の承認を必要とせずに、自分で参加することができます。
 
 -   プライベート グループは検索できません。ユーザーはチーム所有者からメンバーとして追加されない限り参加することはできません。
 

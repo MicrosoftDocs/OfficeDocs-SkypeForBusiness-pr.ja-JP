@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams での外部アクセス (フェデレーション) の管理
+title: 外部アクセスの管理 (フェデレーション)
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -15,16 +15,17 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.externalaccess.overview
+- seo-marvel-mar2020
 description: Teams または IT 管理者は、他のドメインの外部アクセス (フェデレーション) を構成して、それらのドメインのユーザーが Teams に参加できるようにすることができます。
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: b354172e5a60e3c6f9df5d74c5d16731fdac0bf8
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: 6db70da03ae2e1dba0d89f319c7311241ac17b3a
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096862"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141070"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>Microsoft Teams での外部アクセスの管理
 ======================================================

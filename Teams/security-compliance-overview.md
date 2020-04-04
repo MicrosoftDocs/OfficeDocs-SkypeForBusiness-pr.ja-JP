@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams のセキュリティとコンプライアンスの概要
+title: セキュリティとコンプライアンスの概要
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -17,14 +17,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
+- seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fbec8f7d246a4acfe241ef4f4d701cc9e1e6b28c
-ms.sourcegitcommit: 1bb3df681177db5ecc6afae3d3f3a46c251e5c23
+ms.openlocfilehash: e777ef76f6c8f11dfd914b3c4be149c224b63cf5
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43117425"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139096"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft Teams のセキュリティとコンプライアンス
 
@@ -143,6 +144,10 @@ Office 365 セキュリティ/コンプライアンス センターでの保持�
 ### <a name="auditing-and-reporting"></a>監査と報告
 
 監査ログ検索は、Office 365 セキュリティ/コンプライアンス センターに直結しています。無制限の監査タイムラインでの管理上の使用や調査ができるように、ワークロード固有または汎用のイベント セットをエクスポートすることにより、監査イベントに関するアラートと報告の設定を行うことができます。 Office 365 セキュリティ/コンプライアンス センター内ですべての監査ログ データに関するアラートを設定することができ、このデータをさらに分析するために、フィルター処理およびエクスポートすることもできます。 O365 の監査ログの実行方法の詳細については、「[監査ログの検索](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)」の記事を参照してください。 Office 365 セキュリティ/コンプライアンス センターで Microsoft Teams のイベントを検索する方法の詳細について、「[Teams での監査を有効にする](audit-log-events.md)」の記事を検討することもできます。
+
+## <a name="privacy"></a>プライバシー
+
+Microsoft では、データの保護は最も優先度の高いものとなっています。 プライバシーに関するベストプラクティスについては、「 [Microsoft のプライバシー](https://www.microsoft.com/trust-center/privacy)に関する声明」を参照してください。
 
 ## <a name="information-protection-architecture"></a>情報保護アーキテクチャ
 

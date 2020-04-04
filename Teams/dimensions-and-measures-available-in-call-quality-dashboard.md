@@ -1,5 +1,5 @@
 ---
-title: 通話品質ダッシュボードで利用可能な寸法と測定値
+title: サイズと測定-通話品質ダッシュボード
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -18,14 +18,16 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - CSH
-ms.custom: Reporting
+ms.custom:
+- Reporting
+- seo-marvel-mar2020
 description: Microsoft Teams および Skype for Business Online の通話品質ダッシュボードで使用される寸法と測定値に関する詳細情報を取得します。
-ms.openlocfilehash: 71f9f2ea8ea01108b0a2f80e8e07cacfeef899ea
-ms.sourcegitcommit: 62969bd1c3a74412aa692709d497b8c6c5992c5c
+ms.openlocfilehash: c1c277e29f46fe9c748b82e4ebfcfe29897a60da
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "43059431"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137337"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>通話品質ダッシュボードで利用可能な寸法と測定値
 
@@ -691,7 +693,7 @@ CQD で使用される文字列は、多くの場合、データファイルか�
 
 複数の寸法値と測定値をフィルターとして使うこともできます。 クエリでフィルターを使用して、ディメンションや測定値を選んだときと同じように、クエリに情報を追加したり、含めることができます。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business の通話分析をセットアップする](set-up-call-analytics.md)
 

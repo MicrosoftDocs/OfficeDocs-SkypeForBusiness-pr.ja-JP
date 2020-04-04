@@ -22,31 +22,32 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: これは、国/地域ごとに無料電話番号をダイヤルする方法を確認するのに役立ちます。 国または地域を選択すると、無料サービスの利用可能な無料サービスの利用に関する具体的な詳細、制限、制限が記載された国固有のページに移動します。 ダイヤル形式または形式では、無料番号をダイヤルするために、各国または地域で必要なアクセスコードが表示されます。
-ms.openlocfilehash: f163e90d138200d4ed021a5f1267e8ea791c38a4
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+- seo-marvel-mar2020
+description: 利用可能時間、有線/固定回線、携帯電話ネットワークの可用性、制限など、パナマで無料の電話番号にダイヤルする方法について説明します。
+ms.openlocfilehash: 9b9d590d1e1c03d792b2537f335e7466e56d89ed
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693492"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140316"
 ---
 # <a name="toll-free-dialing-restrictions-in-panama"></a>パナマでのフリーダイヤル制限
 
-[別の国または地域を検索](../toll-free-dialing-limitations-and-restrictions.md)するか、無料ダイヤルの制限事項と制限についてご確認ください。
+[別の国または地域を検索](../toll-free-dialing-limitations-and-restrictions.md)、またはフリーダイヤルの制限について詳しく説明します。
 
 
 |**詳細**|**説明**|
 |:-----|:-----|
-|無料通話を利用できますか?  <br/> |あり  <br/> |
+|フリーダイヤルを利用できますか?  <br/> |はい  <br/> |
 |ダイヤル形式  <br/> | 00-800-XXX-XXXX <br/> |
 |国/地域の ISO コード  <br/> |PA  <br/> |
-|対象となる島/地域  <br/> |該当しない  <br/> |
-|対象外の島/地域  <br/> |該当しない  <br/> |
+|対象となる島/地域  <br/> |該当なし  <br/> |
+|対象外の島/地域  <br/> |該当なし  <br/> |
 |有線/固定回線の状態  <br/> |C&amp;W からのみ。  <br/> |
 |携帯電話ネットワークの状態  <br/> |なし  <br/> |
 |コメント、制限、アクセスの問題など  <br/> |お客様は、無料電話番号の前に 011 (国際長距離パナマコード) をダイヤルする必要があります。  <br/> |
    
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [無料電話ダイヤルの制限事項](../toll-free-dialing-limitations-and-restrictions.md)
 

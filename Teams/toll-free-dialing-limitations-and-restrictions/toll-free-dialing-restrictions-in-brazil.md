@@ -22,32 +22,33 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: これは、国/地域ごとに無料電話番号をダイヤルする方法を確認するのに役立ちます。 国または地域を選択すると、無料サービスの利用可能な無料サービスの利用に関する具体的な詳細、制限、制限が記載された国固有のページに移動します。 ダイヤル形式または形式では、無料番号をダイヤルするために、各国または地域で必要なアクセスコードが表示されます。
-ms.openlocfilehash: 7e22d7c46c068da83787ad7ab9f740f63de25714
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+- seo-marvel-mar2020
+description: たとえば、利用可能時間、有線/固定回線、携帯電話ネットワークの可用性、制限など、ブラジルでのフリーダイヤル番号をダイヤルする方法について説明します。
+ms.openlocfilehash: a979b0c96e8928d9eedc7809e8d8350dbc8ad282
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708103"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140486"
 ---
 # <a name="toll-free-dialing-restrictions-in-brazil"></a>ブラジルでのフリーダイヤル制限
 
-[別の国または地域を検索](../toll-free-dialing-limitations-and-restrictions.md)するか、無料ダイヤルの制限事項と制限についてご確認ください。
+[別の国または地域を検索](../toll-free-dialing-limitations-and-restrictions.md)、またはフリーダイヤルの制限について詳しく説明します。
 
 
 |**詳細**|**説明**|
 |:-----|:-----|
-|無料通話を利用できますか?  <br/> |はい  <br/> |
+|フリーダイヤルを利用できますか?  <br/> |はい  <br/> |
 |ダイヤル形式  <br/> | 0800-891-XXXX <br/>  0800 XXX XXXX <br/> |
 |国/地域の ISO コード  <br/> |BR  <br/> |
-|対象となる島/地域  <br/> |該当しない  <br/> |
-|対象外の島/地域  <br/> |該当しない  <br/> |
-|有線/固定回線の状態  <br/> |あり  <br/> |
+|対象となる島/地域  <br/> |該当なし  <br/> |
+|対象外の島/地域  <br/> |該当なし  <br/> |
+|有線/固定回線の状態  <br/> |はい  <br/> |
 |携帯電話ネットワークの状態  <br/> |部分的だが有料サービス料金が課金される。コメント参照。  <br/> |
 |コメント、制限、アクセスの問題など  <br/> |携帯電話アクセス: 通話時間は課金されない。  <br/> |
    
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [無料電話ダイヤルの制限事項](../toll-free-dialing-limitations-and-restrictions.md)
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)

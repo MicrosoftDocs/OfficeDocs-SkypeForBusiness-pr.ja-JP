@@ -1,5 +1,5 @@
 ---
-title: 緊急通話、緊急対応の住所、緊急通話のルーティング、動的な緊急通話を計画する
+title: 緊急通話の計画と管理
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -22,13 +22,14 @@ ms.custom:
 - ms.lync.lac.AddressAndLocation
 - Calling Plans
 - Direct Routing
+- seo-marvel-mar2020
 description: 緊急電話、緊急通話のルーティング、動的な緊急通話に関する情報など、緊急通話について説明します。
-ms.openlocfilehash: 85a09880c1eec83851208197c008c8aaafac88f6
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 8afe2d2af8b2aecbe3d73da03137f330aa8304b8
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161690"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141030"
 ---
 # <a name="manage-emergency-calling"></a>緊急通話を管理する
 
@@ -91,7 +92,7 @@ Microsoft 通話プランの動的な緊急通話には、Teams クライアン�
 
 現時点では、米国内の通話プランのユーザーのみが緊急通話をルーティングするために、次のように動的な場所を活用できます。
 
-- 米国の通話プランのユーザーのチームクライアントで、米国内で緊急時の住所が動的に取得される場合、その住所は登録アドレスではなく緊急ルーティングに使用され、通話は住所のサービスエリア
+- 米国の通話プランのユーザー向けの Teams クライアントで、米国内で緊急対応の住所が動的に取得される場合、その住所は登録アドレスではなく緊急ルーティングに使用され、住所のサービス領域の PSAP に自動的にルーティングされます。
 
 - 米国の通話プランユーザーのチームクライアントで、米国内の緊急対応の住所が動的に取得されない場合は、登録された緊急対応の住所を使って、通話の画面を表示してルーティングすることができます。 ただし、発信者を適切な PSAP に接続する前に、更新されたアドレスが必要かどうかを判断するために、通話がスクリーンされます。
 
@@ -179,7 +180,7 @@ TeamsEmergencyCallRoutingPolicy は、オンライン PSTN の使用状況を参
 
 #### <a name="emergency-location-identification-number-elin-applications"></a>緊急対応の場所識別番号 (ELIN) アプリケーション
 
-セッション境界コントローラー (SBCs) には、緊急対応の場所識別番号 (ELIN) アプリケーションを含めることができます。 SBC ELIN アプリケーションがダイレクトルーティングの展開に統合されている場合は、ELIN アプリケーションで緊急対応の住所と関連する電話番号を設定し、その ELIN のレコードをそれぞれの PSTN の緊急通話データベースにアップロードする必要があります。.  ELIN 識別子を持つ Teams 緊急対応の場所は、ELIN アプリケーション内で一致する必要があります。
+セッション境界コントローラー (SBCs) には、緊急対応の場所識別番号 (ELIN) アプリケーションを含めることができます。 SBC ELIN アプリケーションがダイレクトルーティングの展開に統合されている場合は、ELIN アプリケーションで緊急対応の住所と関連する電話番号を設定し、その ELIN レコードをそれぞれの PSTN の緊急通話用データベースにアップロードする必要があります。  ELIN 識別子を持つ Teams 緊急対応の場所は、ELIN アプリケーション内で一致する必要があります。
 
 動的に取得した場所を使用する緊急通話が適切な SBC (ELIN アプリケーション) に転送されると、次のようになります。
 
@@ -210,7 +211,7 @@ TeamsEmergencyCallingPolicy は、Teams のユーザーアカウントに付与�
 緊急通話のときに、セキュリティデスクは、TeamsEmergencyCallingPolicy に基づいて、通話に conferenced され、セキュリティデスクユーザーのエクスペリエンスが制御されます。 各セキュリティデスクメンバーのグループチャットが開始され、緊急通報の場所が重要なメッセージ通知で共有されます。  会議オプションがポリシーの一部として構成されている場合、各セキュリティデスクユーザーは、会議の一部として追加されます。
 
     
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [緊急通話ポリシーを管理する](manage-emergency-calling-policies.md)
 - [緊急通話ルーティングポリシーを管理する](manage-emergency-call-routing-policies.md)

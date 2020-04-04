@@ -16,14 +16,16 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ced9ab01c5f33ef2b8095079443c447c301ee742
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.custom:
+- seo-marvel-mar2020
+ms.openlocfilehash: e109d3a8f43d6f989c96709562efbf759c0e562e
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978599"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137697"
 ---
-# <a name="quality-of-experience-review-guide"></a>QoE のレビュー ガイド
+# <a name="quality-of-experience-review-guide"></a>QoE のレビュー ガイド 
 
 <!-- Note that this link to the Word doc is intentionally NOT the aka.ms/qerquide link -->
 このガイドでは、Microsoft Teams と Skype for Business Online のドライブ値フェーズについて説明します。 このガイドの[Word 版をダウンロード](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true)できます。
@@ -107,7 +109,7 @@ _図 2-品質とは_
 CQD の実際の測定値はワークロードによって異なりますが、品質エクスペリエンスレビューの目的では、主に_オーディオの低_解像度の測定値に重点を置いています。 PSR は、次の表に示す5つのネットワークメトリックの平均値で構成されています。 低品質として分類されるストリームについては、定義されたしきい値を超えるメトリックは1つだけです。 ストリーム分類プロセスの詳細については、[この記事](stream-classification-in-call-quality-dashboard.md)を参照してください。
 
 > [!Note]
-> CQD により、"低品質" の問題が提供されます。 ストリームを低品質として分類するために発生した条件を詳しく理解するための測定値。
+> CQD により、"低品質" の問題が提供されます。ストリームを低品質として分類するために発生した条件を詳しく理解するための測定値。
 
 
 _表 1-音質の低品質メトリック_
@@ -800,7 +802,7 @@ _図 17-建物レポートが見つからない_
 
 #### <a name="network-planner"></a>ネットワーク プランナー
 
-ネットワークプランナーは、いくつかの簡単な手順でクラウドの音声展開のネットワーク要件を特定し、整理します。 組織のネットワークの詳細とクラウド音声の使用を提供することにより、クラウドの音声展開のためのネットワーク要件の概算算出、レポート作成のための詳細情報の管理とエクスポート、さらに調査のための領域の表示を行うことができます。次の手順を実行します。
+ネットワークプランナーは、いくつかの簡単な手順でクラウドの音声展開のネットワーク要件を特定し、整理します。 組織のネットワークの詳細とクラウド音声の使用を提供することにより、クラウドの音声展開のためのネットワーク要件の概算計算、レポート作成のための詳細情報の管理とエクスポート、さらに調査や次のステップのための領域の表示を行うことができます。
 
 ネットワークプランナーでは、ネットワークの情報がネットワークプランナーに入力された後で、ファイルをアップロードする準備ができたときに、構築ファイルにエクスポートすることができます。
 

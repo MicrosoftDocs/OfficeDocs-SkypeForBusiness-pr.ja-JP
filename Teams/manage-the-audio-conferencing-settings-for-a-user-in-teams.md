@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams でユーザーの電話会議の設定を管理する
+title: ユーザーの電話会議の設定を管理する
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,19 +20,20 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
-description: 'Office 365 管理者は、組織内の個々のユーザーに対して、プロバイダー、既定の有料電話番号、フリーダイヤル番号、会議 ID、PIN などの Microsoft Teams の音声会議の設定を編集できます。 '
-ms.openlocfilehash: 1d6a72c2a621d5f87c1d0fad215c648e2511f48c
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-mar2020
+description: Office 365 管理者は、プロバイダー、既定の有料電話番号、電話会議 ID、ユーザーの PIN など、Teams の電話会議の設定を編集できます。
+ms.openlocfilehash: f635a3a9c471d2d089b8592c4dd36f55bf9095e2
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836259"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137147"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>Microsoft Teams でユーザーの電話会議の設定を管理する
 
 Office 365 管理者としてSkype for Business Onlineの電話会議の設定 を編集することができます-プロバイダー、既定の有料または無料電話番号、会議 ID、暗証番号 (pin) など、組織内の個々 のユーザーの設定です。 組織の設定を編集する場合は、「[組織の電話会議の設定を管理](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)する」を参照してください。
 
-## <a name="an-icon-showing-the-microsoft-teams-logomediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) Microsoft Teams 管理センターの使用
+## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) Microsoft Teams 管理センターの使用
 
 1. 左側のナビゲーションで、[**ユーザー**] をクリックしてから、空いているユーザーのリストからユーザーを選択します。
 
@@ -57,7 +58,7 @@ Office 365 管理者としてSkype for Business Onlineの電話会議の設定 �
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [組織の電話会議の設定を管理する](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
 

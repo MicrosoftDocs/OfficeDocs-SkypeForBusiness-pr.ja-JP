@@ -16,13 +16,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-description: このドキュメントでは、割り当てられている TeamsUpgrade モードに基づいて、テナント内とフェデレーションの両方で、Teams と Skype for Business のユーザー間のチャット、通話ルーティング、プレゼンスの動作について説明します。 これには、ルーティングの最適化、プレゼンスの動作、さらに*レガシ*から*アイランド*への既定の TeamsUpgrade モードの変更、および間もなくサポートが終了する*レガシ*が含まれます。
-ms.openlocfilehash: 64889ae11b4ce8665fb4a6bdbb98ff95aaf777fc
-ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
+ms.custom: seo-marvel-mar2020
+description: Skype for Business & チーム間の共存動作 (ルーティングパラメーター、チャット & 通話ルーティング、既存のスレッドからのチャット & の呼び出し、& プレゼンスなど)
+ms.openlocfilehash: ff5e94b16cd55374ec0aeb45aaffdda41fbe0498
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42328019"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137308"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Skype for Business と共存する
 
@@ -66,14 +67,14 @@ Skype for Business と Teams の各クライアントとユーザー間におけ
 
 TeamsOnly ユーザーに送信されたメッセージは、常に Teams にルーティングされます。 SfB\* ユーザーに送信されたメッセージは、上述のように会話が可能な場合は、常に Skype for Business にルーティングされます。 アイランド ユーザーに送信されたメッセージは、常にメッセージの送信元の同じクライアントにルーティングされます。
 
-以下の表は、発信者のモード、選択したクライアント、また Skype for Business クライアントの所属場所 (オンプレミスまたはオンライン) に応じて、指定されたモードのどのクライアントが発信者 (左端の 3 列) から通話を受けるかを示しています。
+次の表は、発信者のモード、選択されているクライアント、および Skype for Business クライアントのホーム (オンプレミスまたはオンライン) に応じて、発信者のモード (左端の3つの列) によって、オリジネータからどのクライアントの呼び出しを受けるかを示しています。
 
 以下の表では、次のように表されます。 
 - **SfB\*** は、次のモードのいずれかを表します。*SfBOnly*、*SfBWithTeamsCollab*、*SfBWithTeamsCollabAndMeetings*。
 
 - *斜体のテキスト*は、相互運用の会話を強調表示しています。
 
-- **不可**は、チャットまたは通話が不可能である状況を表します。 このような場合は、発信者は代わりに Skype for Business を使用する必要があります。 これは、オンプレミス/ハイブリッドの顧客に Microsoft が提供する規範的なガイダンスにおいて、Teams へのアップグレード行程の出発点として、アイランド以外のモード (通常は SfBWithTeamsCollab) を使用している理由の 1 つです。
+- **不可**は、チャットまたは通話が不可能である状況を表します。 このような場合は、発信者は代わりに Skype for Business を使用する必要があります。 これは、Microsoft がチームへのアップグレードの出発点として、孤島 (通常は SfBWithTeamsCollab) 以外のモードを使用することを、オンプレミス/ハイブリッドユーザーに対して規定する理由の1つです。
 
 **表 1a: アイランド モードの受信者への新しいテナント内チャットまたはテナント内通話のルーティング**
 
@@ -97,7 +98,7 @@ TeamsOnly ユーザーに送信されたメッセージは、常に Teams にル
 
 | <br/><br/> モード   | 発信者 <br/><br/> クライアント | <br/><br/> SfB&nbsp;の所属 | |   受信者 <br/><br/> TeamsOnly  |
 |--- |--- |--- |--- | --- |
-| アイランド   |Teams<br/>Skype for Business<br/>Teams <br/>Skype for Business<br/>|オンライン<br/> オンライン<br/> オンプレミス<br/> オンプレミス<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Teams <br/>*Teams* <br/>Teams <br/>*Teams*  |
+| アイランド   |Teams<br/>Skype for Business<br/>Teams では、 <br/>Skype for Business<br/>|オンライン<br/> オンライン<br/> オンプレミス<br/> オンプレミス<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Teams <br/>*Teams* <br/>Teams <br/>*Teams*  |
 |SfB\*  | Skype for Business<br/>Skype for Business<br/> | オンライン<br/> オンプレミス<br/> | &boxv;<br/>&boxv; | *Teams*  <br/>*Teams*   |
 |TeamsOnly  | Teams | オンライン |  &boxv; |Teams   |
 |  |  |  | | |
@@ -113,13 +114,13 @@ TeamsOnly ユーザーに送信されたメッセージは、常に Teams にル
 > [!NOTE]
 > 現在の Teams フェデレーションの実装は Skype for Business フェデレーションに基づいています。そのため、相互運用性インフラストラクチャ (発信者のテナントが純粋なオンラインまたは Skype for Business ハイブリッドのいずれかであることが必須) を活用しているので、ネイティブ スレッドと比較して機能セットが少なくて済みます。 将来的には、ネイティブの Teams 間フェデレーションが提供される予定です。その時点で、スレッドはネイティブになり、完全な機能が使用できるようになります。
 
-以下の表は、発信者のモード、選択したクライアント、また Skype for Business クライアントの所属場所 (オンプレミスまたはオンライン) に応じて、どのクライアントが発信者 (左端の 3 列) から通話を受けるかを示しています。
+以下の表では、オリジネータのモード (左端の3列) に基づいて、発信者のモード、選択されているユーザー、および Skype for Business クライアントがホーム (オンプレミスまたはオンライン) になっている場所に応じて、どのクライアントが発信者からの通話を受信するかについて説明します。
 
 **表 2a: アイランド受信者への新しいフェデレーション チャットまたはフェデレーション通話のルーティング**
 
 | <br/><br/>モード   | 発信者<br/><br/> クライアント| <br/><br/>SfB の所属| | 受信者<br/><br/> アイランド |
 |--- |--- |--- |--- |--- |
-| アイランド |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business  |オンライン<br/> オンライン<br/> オンプレミス<br/> オンプレミス<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business <br/> **不可**   <br/> Skype for Business |
+| アイランド |Teams<br/>Skype for Business <br/>Teams では、 <br/>Skype for Business  |オンライン<br/> オンライン<br/> オンプレミス<br/> オンプレミス<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business <br/> **不可**   <br/> Skype for Business |
 | SfB\* |Skype for Business <br/>Skype for Business |オンライン<br/> オンプレミス<br/> | &boxv;<br/>&boxv;|Skype for Business <br/>Skype for Business |
 | TeamsOnly |Teams |オンライン| &boxv;|*Skype for Business* |
 |  | | | | 
@@ -128,7 +129,7 @@ TeamsOnly ユーザーに送信されたメッセージは、常に Teams にル
 
 | <br/><br/>モード   | 発信者<br/><br/> クライアント| <br/><br/>SfB の所属| |  受信者<br/><br/> SfB\* |  
 |--- |--- |--- |--- |--- |
-| アイランド |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business <br/>|オンライン<br/> オンライン<br/> オンプレミス<br/> オンプレミス<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business <br/> **不可** <br/>Skype for Business <br/> |  
+| アイランド |Teams<br/>Skype for Business <br/>Teams では、 <br/>Skype for Business <br/>|オンライン<br/> オンライン<br/> オンプレミス<br/> オンプレミス<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business <br/> **不可** <br/>Skype for Business <br/> |  
 | SfB\* |Skype for Business <br/>Skype for Business  |オンライン<br/> オンプレミス<br/>  |&boxv;<br/>&boxv; | Skype for Business <br/>Skype for Business  |
 | TeamsOnly | Teams|オンライン |&boxv; |*Skype for Business*  |
 |  | | | | |
@@ -137,7 +138,7 @@ TeamsOnly ユーザーに送信されたメッセージは、常に Teams にル
 
 | <br/><br/>モード | 発信者<br/><br/> クライアント| <br/><br/>SfB の所属| |  受信者<br/>  <br/> TeamsOnly  |
 |--- |--- |--- |--- |--- |
-| アイランド  |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business <br/>|オンライン<br/> オンライン<br/> オンプレミス<br/> オンプレミス<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Teams <br/>*Teams* <br/>**不可** <br/>*Teams* |
+| アイランド  |Teams<br/>Skype for Business <br/>Teams では、 <br/>Skype for Business <br/>|オンライン<br/> オンライン<br/> オンプレミス<br/> オンプレミス<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Teams <br/>*Teams* <br/>**不可** <br/>*Teams* |
 | SfB\* |Skype for Business <br/>Skype for Business  | オンライン<br/> オンプレミス| &boxv;<br/>&boxv;|*Teams* <br/>*Teams*   |
 | TeamsOnly |Teams |オンライン |&boxv; |Teams |
 |  | | | | |
@@ -155,36 +156,36 @@ Teams の既存の永続スレッドがネイティブ スレッド (つまり�
 
 ### <a name="from-skype-for-business"></a>Skype for Business から
 
-Skype for Business のスレッドは、10 分間の SIP セッション タイムアウトを超えると保持されません。 SIP セッションの有効期限が切れる前の Skype for Business の既存スレッドからのチャットと通話は、スレッドと同じ方法でルーティングされます。 SIP セッション タイムアウトを超えた Skype for Business の既存スレッドからの通話とチャットは、相手側から送信された元のスレッドのクライアントに関係なく、通話先の Skype for Business にルーティングされます。
+Skype for Business のスレッドは、10 分間の SIP セッション タイムアウトを超えると保持されません。 SIP セッションの有効期限が切れる前の Skype for Business の既存スレッドからのチャットと通話は、スレッドと同じ方法でルーティングされます。 SIP セッションタイムアウト以外の Skype for Business の既存のスレッドからの通話とチャットは、元のスレッドが相手側のどちらのクライアントであるかに関係なく、リモートパーティの Skype for business にルーティングされます。
 
 ### <a name="availability"></a>使用するための条件
 
 前述のように、テナント内動作とフェデレーション動作の両方が利用できますが、使用には次の制限があります。
 
-- テナントが別の GoLocal 展開または場所に存在する外部の出席者には、"フェデレーション" 会議中に IM チャットが表示されません
+- 異なる場所にいるテナントがある外部の出席者のローカル展開または地理に、"フェデレーション" 会議中に IM チャットが表示されない
 - マルチテナント型の O365 とソブリン クラウド間のフェデレーションと相互運用はサポートされていません
 
 ## <a name="presence"></a>プレゼンス
 
 Teams クライアントを使用しているユーザーと、まだ Skype for Business クライアントを使用しているユーザーが混在している場合、両方のクライアントを使用しているユーザーが多数いる可能性があります。 この場合でも、個々のユーザーがどのクライアントを使用しているかに関係なく、引き続きプレゼンス状態をすべてのユーザーと共有する必要があります。 これが組織全体で共有されている場合、ユーザーはチャットを開始するのか電話をかけるのか、どちらが適切であるかをより適切に判断できます。
 
-たとえば、発信者のチャットまたは通話をターゲットの Skype for Business クライアントに送信する必要がある場合、発信者に表示されるのは Skype for Business クライアントのプレゼンスです。 ターゲットの Teams クライアントに送信する必要がある場合は、表示されるのは Teams クライアントのプレゼンスです。
+たとえば、発信者のチャットや通話がターゲットの Skype for Business クライアントに着陸している場合は、その発信者に表示される Skype for Business クライアントのプレゼンスとなります。 ターゲットのチームクライアントに着陸する必要がある場合は、チームクライアントのプレゼンスを表示する必要があります。
 
-予期される動作を把握するには、プレゼンスがユーザーの共存モードに基づいて共有されていることを理解する必要があります。
+期待される動作を確認するために、プレゼンスがユーザーの共存モードに基づいて共有されることを理解する必要があります。
 
-* ユーザーが TeamsOnly モードを使用している場合は、他のユーザー (Teams または Skype for Business を使用しているかを問わず) には、その TeamsOnly ユーザーの Teams プレゼンスが表示されます。
-* ユーザーがいずれかの SfB\* モード (SfbOnly、SfbWithTeamsCollab、SfbWithTeamsCollabAndMeetings) を使用している場合は、他のユーザー (Teams または Skype for Business を使用しているかを問わず) には、その SfB\* ユーザーの Skype for Business プレゼンスが表示されます。
+* ユーザーが TeamsOnly モードにある場合は、他のユーザー (Teams または Skype for Business のいずれか) に他のユーザーが表示する場合、そのユーザーのチームプレゼンスのみが表示されます。
+* ユーザーが SfB\*モード (SfbOnly、Sfbwithteams、SfbWithTeamsCollabAndMeetings) のいずれかにある場合は、他のユーザー (Teams または skype for business のいずれか) で、sfb\*ユーザーの skype for business のプレゼンスが表示されます。
 * ユーザーがアイランド (またはレガシ) モードを使用している場合は、Teams でのプレゼンスと Skype for Business でのプレゼンスは独立しており (値が一致する必要はありません)、他のユーザーには、同じテナントにいるのかフェデレーション テナントにいるのか、またどのクライアントを使用しているのかに応じて、アイランド ユーザーのどちらか一方のプレゼンスが表示されます。
-    * Teams からの場合は、同じテナント内にいる他のユーザーにはアイランド ユーザーの Teams プレゼンスが表示されます。これは、上記のテナント内ルーティングの表と合致しています。
-    * Teams からの場合は、フェデレーション テナント内にいる他のユーザーにはアイランド ユーザーの Skype for Business プレゼンスが表示されます。これは、上記のフェデレーション ルーティングの表と合致しています。
-    * Skype for Business からの場合は、他のユーザーにはアイランド ユーザーの Skype for Business プレゼンス (テナント内とフェデレーションの両方) が表示されます。これは、上記のルーティングの表と合致しています。
+    * Teams では、同じテナント内の他のユーザーには、諸島ユーザーのチームのプレゼンスが表示されます。これは、上のテナント内ルーティングテーブルに揃えられています
+    * Teams では、フェデレーションされたテナント内の他のユーザーには、諸島ユーザーの Skype for Business のプレゼンスが表示されます。これは、上のフェデレーションされたルーティングテーブルと一致しています
+    * Skype for Business では、他のユーザーには、諸島ユーザーの Skype for Business のプレゼンス (テナント内とフェデレーションの両方) が表示されます。これは上のルーティングテーブルに揃えられています
 
 
 ### <a name="in-tenant-presence"></a>テナント内プレゼンス
 
 TeamsOnly ユーザーに送信されたメッセージは、常に Teams に送信されます。 SfB\* ユーザーに送信されたメッセージは、上述のように会話が可能な場合は、常に Skype for Business に送信されます。 アイランド ユーザーに送信されたメッセージは、常にメッセージの送信元のクライアントに送信されます。
 
-次の表は、発行元のモードとウォッチャーのクライアントに応じて (新しいスレッドの場合)、ウォッチャーで表示される発行元のプレゼンスを示しています。
+この表では、ウォッチャーに表示される発行元のプレゼンスについて説明します。発行元とウォッチャーのクライアントのモード (新しいスレッドの場合) によって異なります。
 
 **表 3: テナント内プレゼンス (新しいスレッド)**
 
@@ -198,7 +199,7 @@ TeamsOnly ユーザーに送信されたメッセージは、常に Teams に送
 
 フェデレーション プレゼンスは、表 2 に示されているフェデレーションの到達可能性に基づいています。
 
-以下の表は、発行元のモードとウォッチャーのクライアントに応じて (新しいスレッドの場合)、ウォッチャーで表示される発行元のプレゼンスを示しています。 実際には、この段階でウォッチャーのクライアントにはフェデレーションに関して違いはありません。
+次の表では、パブリッシャーのモードとウォッチャーのクライアント (新しいスレッドの場合) に応じて、ウォッチャーに表示される発行元のプレゼンスについて説明します。 実際には、この段階でウォッチャーのクライアントにはフェデレーションに関して違いはありません。
 
 **表 4: フェデレーション プレゼンス (新しいスレッド)**
 
@@ -210,7 +211,7 @@ TeamsOnly ユーザーに送信されたメッセージは、常に Teams に送
 
 ### <a name="presence-in-pre-existing-threads"></a>既存のスレッドでのプレゼンス
 
-既存のスレッドでプレゼンスと到達可能性を調整するには、ルーティングが可能であることを想定の上、そのスレッドで公開されているターゲットのプレゼンスをスレッドのルーティングと合致させる必要があります。
+既存のスレッドのプレゼンスと到達可能性を揃えるために、そのスレッドで公開されているターゲットのプレゼンスが、ルーティングが可能であることを前提としたスレッドのルーティングと整列する必要があります。
 
 具体的には、永続的な相互運用の会話スレッドをやり取りしていた受信者が Teams にアップグレードされた場合、そのスレッドは正確なプレゼンスを反映しなくなり、ルーティングできなくなります。 この場合は、新しいスレッドを開始する必要があります。
 

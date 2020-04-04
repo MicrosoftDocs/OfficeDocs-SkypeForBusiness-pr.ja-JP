@@ -17,12 +17,13 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 組織内のユーザーの緊急対応の場所を割り当てまたは変更する方法について説明します。
-ms.openlocfilehash: dca0116188eddeb3c28b8d1f8486ae601e742079
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 2652cbd2f01af4436de737bae54656e96488ab27
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695712"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137107"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>ユーザーの緊急対応の場所を割り当てたり変更したりする
 
@@ -41,7 +42,7 @@ Office 365 での通話プランの取得方法とその費用については、
 
 4. **[保存]** をクリックします。
     
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [緊急対応の場所、位置情報、通話ルーティングの概要](what-are-emergency-locations-addresses-and-call-routing.md)
 - [組織の緊急対応の場所を追加、変更、削除する](add-change-remove-emergency-location-organization.md)

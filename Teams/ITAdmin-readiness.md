@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams の管理者トレーニング
+title: 管理者トレーニングリソース-Microsoft Teams
 ms.reviewer: ''
 author: LanaChin
 ms.author: v-lanac
@@ -16,17 +16,18 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.trainingvideos.admintrainingteams
+- seo-marvel-mar2020
 description: Microsoft Teamsの計画、展開、および実行方法に関するトレーニングビデオ、PowerPointデッキ、チュートリアル、およびその他の管理者向けリソース。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2794891da78e8b8028bc18d82715a27d5c2eb78d
-ms.sourcegitcommit: 613665c866f6fd0febfa6e26ad718241cdfbb207
+ms.openlocfilehash: aecc877fb558dac0fb6d9999599caf20d9013f19
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42937611"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136527"
 ---
-# <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams の管理者トレーニング
+# <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft Teams の管理者トレーニングの概要
 
 
 トレーニング リソースを使用してTeams について学び、他のユーザーに教えたりワーク ショップを行います。 頻繁にここをチェックし、新しいコンテンツを確認してください。 
@@ -105,7 +106,7 @@ ms.locfileid: "42937611"
 | 動的な緊急通話 | [ビデオ](https://aka.ms/teams-dec) |  [デッキ](https://aka.ms/teams-dec-deck) |
 | ライブ イベント | [ビデオ](https://aka.ms/teams-live-events-session) | [デッキ](https://aka.ms/teams-live-events-deck) |
 | 電話システムの概要 | [ビデオ](https://aka.ms/teams-phone-system) | [デッキ](https://aka.ms/teams-phone-system-deck) |
-| ダイレクト ルーティング | [ビデオ 1: Teams で直接ルーティングを計画する](https://aka.ms/teams-dr-plan)<br>[ビデオ 2: Teams での直接ルーティングの構成と管理](https://aka.ms/teams-dr-config)<br>ビデオ 3: Teams でのダイレクトルーティングへの移行: <strong><font color="#4B53BC">近</font>日公開</strong>  | [デッキ](https://aka.ms/teams-direct-routing-deck) |
+| ダイレクト ルーティング | [ビデオ 1: Teams で直接ルーティングを計画する](https://aka.ms/teams-dr-plan)<br>[ビデオ 2: Teams での直接ルーティングの構成と管理](https://aka.ms/teams-dr-config)<br>[ビデオ 3: Teams でダイレクトルーティングに移行する](https://aka.ms/teams-dr-migrate)  | [デッキ](https://aka.ms/teams-direct-routing-deck) |
 | Skype for Business から Teams へのアップグレード | [ビデオ 1: アップグレードの概要](https://aka.ms/teams-upgrade-intro)</br>[ビデオ 2: アップグレードの計画](https://aka.ms/teams-upgrade-plan)</br>[ビデオ 3: 共存および相互運用性](https://aka.ms/teams-upgrade-coexistence-interop)</br>[ビデオ 4: 管理者体験](https://aka.ms/teams-upgrade-admin) | [デッキ](https://aka.ms/teams-upgrade-deck)|
 
 <h2>クイック スタート ガイド</h2>

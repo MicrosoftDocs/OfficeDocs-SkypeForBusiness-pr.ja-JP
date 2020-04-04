@@ -21,13 +21,14 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - LIL_Placement
-description: Office 365 通話プランについては、ライセンスを購入してセットアップする方法、電話番号を取得する方法、緊急対応の場所と電話番号を追加してユーザーに割り当てる方法、新しい電話番号をユーザーに通知する方法について説明します。
-ms.openlocfilehash: 3fd123991544bc4555be7ceb7693089f0d439070
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-mar2020
+description: お住まいの地域で利用可能なプランの表示、ライセンスの購入 & 購入、電話番号の取得、緊急対応の住所 & 場所の追加など、通話プランの設定方法について説明します。
+ms.openlocfilehash: 4c470327b01b799dabc585db479e51e8ef37c41b
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838047"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140880"
 ---
 # <a name="set-up-calling-plans"></a>通話プランの設定
 
@@ -56,7 +57,7 @@ ms.locfileid: "41838047"
 - **新しい番号には申請書を使用します。** 場合によっては (国/地域によっては)、Teams 管理センターを使用して新しい電話番号を取得することも、特定の電話番号または市外局番が必要になることもあります。 その場合は、申請書をダウンロードして送信する必要があります。 詳細については、「[組織のために電話番号を管理する](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)」をご覧ください。 
 
 ## <a name="step-4-add-emergency-addresses-and-locations-for-your-organization"></a>手順 4: 組織の緊急連絡先の住所と場所を追加する
-<a name="bkmk_add_addresses"></a>緊急対応の住所は、電話番号と関連付けられている必要があります。 この関連付けが行われるかどうかは、国と地域によって異なります。 例えば米国では、電話番号をユーザーに割り当てるときに、緊急対応の住所を関連付ける必要があります。 英国では、Office 365 から電話番号を取得するか、現在のサービス プロバイダーから電話番号を移すときに、緊急対応の住所をその電話番号に関連付ける必要があります。 
+<a name="bkmk_add_addresses"> </a>緊急対応の住所は、電話番号と関連付けられている必要があります。 この関連付けが行われるかどうかは、国と地域によって異なります。 例えば米国では、電話番号をユーザーに割り当てるときに、緊急対応の住所を関連付ける必要があります。 英国では、Office 365 から電話番号を取得するか、現在のサービス プロバイダーから電話番号を移すときに、緊急対応の住所をその電話番号に関連付ける必要があります。 
 
 緊急通話と緊急対応の住所の管理については、「[緊急通話の管理](what-are-emergency-locations-addresses-and-call-routing.md)」および「[組織の緊急対応の場所を追加、変更、または削除](add-change-remove-emergency-location-organization.md)する」を参照してください。
     
@@ -90,7 +91,7 @@ Windows PowerShell を使うことができる場合は、次のコマンドレ�
 詳細については、「 [Teams PowerShell の概要](teams-powershell-overview.md)」を参照してください。
   
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [電話番号の移行に関するよくある質問](transferring-phone-numbers-common-questions.md)
 
 [通話プランで使用されるさまざまな種類の電話番号](different-kinds-of-phone-numbers-used-for-calling-plans.md)

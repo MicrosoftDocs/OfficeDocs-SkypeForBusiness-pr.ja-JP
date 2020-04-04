@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams クライアントとの接続に関するトラブルシューティングを行う
+title: チームクライアントとの接続の問題のトラブルシューティング
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -16,12 +16,13 @@ f1.keywords:
 description: ファイアウォールまたはプロキシ接続が主な原因である Microsoft Teams クライアントの接続性の問題をトラブルシューティングする方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a12be097d0609f3631b6761f31350603b283faa2
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: HT
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: ee6cb916388dbfc0109185a0280da052980f8ccd
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825355"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137757"
 ---
 <a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a>Microsoft Teams クライアントとの接続に関するトラブルシューティングを行う
 ==============================================================

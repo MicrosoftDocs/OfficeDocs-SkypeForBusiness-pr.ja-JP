@@ -22,13 +22,14 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: これにより、各国/地域でフリーダイヤル番号をダイヤルする方法を確認できます。 国/地域を選択すると、国固有のページが表示されます。このページには、フリーダイヤル サービスを利用できる国/地域の詳細、および制限が表示されます。 ダイヤル形式には、フリーダイヤル番号をダイヤルするために必要な国/地域内のアクセス コードが表示されます。
-ms.openlocfilehash: a7fd1e431d7ee429bd94944d1c82487b797b1ba0
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
-ms.translationtype: HT
+- seo-marvel-mar2020
+description: 利用可能時間、有線/固定回線、携帯電話ネットワークの可用性、制限など、日本でのフリーダイヤル番号をダイヤルする方法について説明します。
+ms.openlocfilehash: 6413f93bfe655ed52ccea187b69024e4bed1a556
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693572"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140356"
 ---
 # <a name="toll-free-dialing-restrictions-in-japan"></a>日本でのフリーダイヤル制限
 

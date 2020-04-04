@@ -15,13 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: このトピックでは、Microsoft Phone システムのダイレクトルーティングを使用して、サポートされているユーザーが指定したセッションボーダーコントローラー (SBC) を Microsoft 電話システムに接続する方法について説明します。
-ms.openlocfilehash: be0d901095afa322935944a9b4898e540946bf8a
-ms.sourcegitcommit: 46b15a11755a89526be2a0b20befad61c628cdb4
+ms.custom: seo-marvel-mar2020
+description: Microsoft 電話システムのダイレクトルーティングを使用して、サポートされているユーザー指定のセッションボーダーコントローラー (SBC) を Microsoft 電話システムに接続する方法について説明します。
+ms.openlocfilehash: bc092c2441ff359de1189e1ff000a61c51dcec1f
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42955726"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140286"
 ---
 # <a name="plan-direct-routing"></a>ダイレクト ルーティングを計画する
 
@@ -264,7 +265,7 @@ SIP/TLS|SBC|SIP プロキシ|SBC で定義|5061|
 
 ### <a name="failover-mechanism-for-sip-signaling"></a>SIP シグナリングのフェイルオーバーメカニズム
 
-SBC は、sip.pstnhub.microsoft.com を解決する DNS クエリを行います。 SBC の場所とデータセンターのパフォーマンスの指標に基づいて、プライマリデータセンターが選択されます。 プライマリデータセンターで問題が発生した場合、SBC は sip2.pstnhub.microsoft.com を試みます。この場合、2つ目の領域にあるデータセンターは使用できないため、SBC は最後の FQDN をリトライします (sip3.pstnhub.microsoft.com)。第3の datacenter IP を提供します。
+SBC は、sip.pstnhub.microsoft.com を解決する DNS クエリを行います。 SBC の場所とデータセンターのパフォーマンスの指標に基づいて、プライマリデータセンターが選択されます。 プライマリデータセンターで問題が発生した場合は、SBC が sip2.pstnhub.microsoft.com を試してみます。この場合、2つ目の領域にあるデータセンターは利用できません。その場合、SBC は最後の FQDN (sip3.pstnhub.microsoft.com) をリトライし、第3の datacenter IP を提供します。
 
 次の表は、プライマリデータセンターと第2データセンター間の関係をまとめたものです。
 

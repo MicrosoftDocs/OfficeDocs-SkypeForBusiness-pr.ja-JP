@@ -1,5 +1,5 @@
 ---
-title: PSTN 接続を使用するハイブリッド環境でのユーザー アカウント
+title: PSTN を使用したハイブリッド環境のユーザーアカウント
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -16,12 +16,13 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: ユーザー作成のさまざまな組み合わせと、サポートされている組み合わせとサポートされていない組み合わせについて説明します。
-ms.openlocfilehash: f33c7bffadb443aafad6fa0e7d910f6416a95d6f
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 8bdab33d6f1f009ce51afe999923f4f6f5d1905a
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837287"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141080"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>PSTN 接続を使用するハイブリッド環境でのユーザー アカウント
 
@@ -56,7 +57,7 @@ PSTN 接続を使用した Skype for Business ハイブリッド環境では、�
 ### <a name="supportability-matrix"></a>サポート性マトリックス
 
 
-|**ユーザーオブジェクトの作成日時**  |**ユーザーの Skype for Business サービスプロバイダ**|**ユーザーのクライアント**|**音声オプション**|**サポート対象**|
+|**ユーザーオブジェクトの作成日時**  |**ユーザーの Skype for Business サービスプロバイダ**|**ユーザーのクライアント**|**音声オプション**|**サポート**|
 | ------------ | --------- | --------- | --------- | -------- |
 |オンプレミス広告| オンプレミス |Skype for Business   | エンタープライズ VoIP   |はい|
 |オンプレミス広告|オンライン| Skype for Business  | ハイブリッドボイス接続   |はい |

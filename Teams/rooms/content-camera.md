@@ -1,5 +1,5 @@
 ---
-title: XML 構成ファイルを使用して、Microsoft Teams ルームコンソールの設定をリモートで管理する
+title: コンテンツカメラのセットアップ方法-Microsoft Teams
 ms.author: kenwith
 author: kenwith
 ms.reviewer: sohailta
@@ -12,13 +12,14 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-description: この記事では、Microsoft Teams のルームデバイスで使用される既定の設定をリモート管理する方法について説明します。カスタムテーマの適用を含みます。
-ms.openlocfilehash: b470804ac2c5a44a0eb74330ea5158c2e9fe9098
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+description: Microsoft Teams ルームのコンテンツカメラを使用します。画像処理ソフトウェアと連携して、発表者がアナログホワイトボードに描画することを許可します。
+ms.openlocfilehash: 6ddc1a43a9d75e6f142c82c0215124bad97f77dd
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824535"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137627"
 ---
 # <a name="content-cameras"></a>コンテンツ カメラ
 

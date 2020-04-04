@@ -16,13 +16,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: Microsoft Teams の患者向けアプリ EHR の統合
-ms.openlocfilehash: d718f3d3772a08ecfa57e418a4f4fc2e22fe7172
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+description: Microsoft Teams の患者アプリと連携するように FHIR サーバーを設定または再構成するなど、Teams での STU3 インターフェイスの仕様について説明します。
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 35d887575ffb894b7a47e50511e6bd6c3a9a75d1
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42147700"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141200"
 ---
 # <a name="stu3-interface-specification"></a>STU3 インターフェイスの仕様
 
@@ -221,7 +222,7 @@ Microsoft Teams の患者と連携するように FHIR サーバーを設定ま�
 
     要求: <fhir-server>/AllergyIntolerance? 患者 =<患者 id を取得>
     
-    応答: {"resourceType": "バンドル"、"id": "<バンドル id>"、"type": "searchset"、"total": 1, "entry": [{"リソース": {"resourceType": "AllergyIntolerance", "id": "<リソース id>", "clinicalStatus": ""、"verificationStatus": "確認"、"コード"http://rxnav.nlm.nih.gov/REST/Ndfrt: "": "": ""、"code": ""、"コード": "N0000175503", "表示": "sulfonamide antibacterial",} "ibacterial "}," assertedDate ":" 2018-01-01T00:00:00 ~ 07:00 "," 反応 ": [{" 影響 ": [{" システム ":" {"システム": "http://snomed.info/sct{" システム ":" "271807003": "" コード ":" "," 表示 ":" "," 表示 ":" "
+    応答: {"resourceType": "バンドル"、"id": "<バンドル id>"、"種類": "searchset"、"合計": 1, "エントリ": [{"リソース": "AllergyIntolerance"、"id": "<リソース id>"、"verificationStatus": "clinicalStatus": ""、"": "確認"、"コード": "http://rxnav.nlm.nih.gov/REST/Ndfrt"、"": "", "code": "" N0000175503 "," display ":" sulfonamide antibacterial "," sulfonamide antibacterial "}," assertedDate ":" 2018-01-01T00:00:00-07:00:00:00:00 "," 反応 ": [{" 影響 ": [{" コード ": [{" system ":"http://snomed.info/sct"," code ":" 271807003 "," 表示 ":" "," 表示 ":" "," 表示 ":" "{rash",}], "テキスト": "スキン rash"} "
 
 * * *
 

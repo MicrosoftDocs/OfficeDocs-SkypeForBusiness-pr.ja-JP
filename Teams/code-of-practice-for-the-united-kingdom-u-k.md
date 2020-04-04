@@ -1,5 +1,5 @@
 ---
-title: Office 365 での通話プラン - 英国 (U.K.) での実施基準
+title: 英国の実践コード -Office 365 通話プラン
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,14 +20,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - Legal
+- seo-marvel-mar2020
 hideEdit: true
-description: 'Learn the code of practice for Calling Plans (PSTN Calling plans)  for Skype for Business for the United Kingdom, where to get help, and how to submit complaints and resolve disputes. '
-ms.openlocfilehash: a811b3a49310a81d5cc62502fe210367b5ac6905
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+description: Skype for Business UK の PSTN 通話プラン (ヘルプを利用する場所、苦情の送信方法、紛争の解決方法など) に関する実習のコードについて説明します。
+ms.openlocfilehash: ef69d726ab40a4eb282422ab549961776c985ef1
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824945"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139046"
 ---
 # <a name="calling-plans-in-office-365---code-of-practice-for-the-united-kingdom-uk"></a>Office 365 での通話プラン - 英国 (U.K.) での実施基準
 
@@ -65,7 +66,7 @@ Office 365 通話プランは、ブロードバンド接続に依存します。
 
 Skype for Business では、999/112 公共緊急通話サービスを、イングランド、ウェールズ、スコットランド、北アイルランドのお客様に提供します。 ただし、999または112への緊急通話は、従来の電話サービスよりも Office 365 通話プランサービスとは動作が異なります。 お客様は、これらの違いを示す Office 365 通話プランサービスを各ユーザーに通知する必要があります。
 
-相違点には、次のようなものがあります。 (i) Skype for Business では、発信者の実際の場所がわからないことがあります。これにより、緊急サービスが不適切な場所に適用される可能性があります。(ii) Skype for Business ユーザーが緊急通話にダイヤルすると、オペレーターがユーザーに緊急通話を正しくルーティングして、緊急電話会議の修正プログラムを提供するための支援を求めるオペレーターからのメッセージが表示されることがあります。(iii) ユーザーのデバイスに電力が供給されていない場合、停電が発生している場合、または何らかの理由でインターネットにアクセスできない場合、Office 365 の通話プランサービスを使用して緊急電話をかけることはできません。and (iv) Office 365 通話プランサービスは、インターネット接続が利用可能な世界中のどこでも使用できますが、ウェールズ、スコットランド、または北アイルランドの外側の999または112を呼び出すことはできません。適切な緊急サービス。
+相違点には、次のようなものがあります。 (i) Skype for Business では、発信者の実際の場所がわからないことがあります。これにより、緊急サービスが不適切な場所に適用される可能性があります。(ii) Skype for Business ユーザーが緊急通話にダイヤルすると、オペレーターがユーザーに緊急通話を正しくルーティングして、緊急電話会議の修正プログラムを提供するための支援を求めるオペレーターからのメッセージが表示されることがあります。(iii) ユーザーのデバイスに電力が供給されていない場合、停電が発生している場合、または何らかの理由でインターネットにアクセスできない場合、Office 365 の通話プランサービスを使用して緊急電話をかけることはできません。and (iv) Office 365 通話プランサービスは、インターネット接続が利用できる世界中のどこにいても使用できますが、その通話が適切な緊急サービスにルーティングされない可能性があるため、ウェールズ、スコットランド、または北アイルランド以外の999または112を呼び出すことはできません。
 
 緊急サービスに提供できるように、各お客様がユーザーの場所を登録し、この情報を最新に保っておくことは非常に重要です。場所情報は、Skype for Business 管理者ポータルからオンラインで変更できます。
 
@@ -150,4 +151,3 @@ TPS と同様に、迷惑 FAX 防止サービス (「FPS」) は、企業と個�
 
 ## <a name="related-topics"></a>関連トピック
 [国および地域ごとの電話会議および通話プランの利用可能性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-

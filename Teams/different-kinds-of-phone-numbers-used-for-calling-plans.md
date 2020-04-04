@@ -1,5 +1,5 @@
 ---
-title: 通話プランで使用されるさまざまな種類の電話番号
+title: プランの発信に使用する電話番号の種類
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -20,13 +20,14 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.numbertype
+- seo-marvel-mar2020
 description: プランの呼び出しに使用するさまざまな電話番号の種類について説明します。
-ms.openlocfilehash: d31bf767fab2f90ddd57b9bb43cd12b5960d5102
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: e960da72476ec91f8f13afe42d0e4da6c12e746d
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826895"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137347"
 ---
 # <a name="different-kinds-of-phone-numbers-used-for-calling-plans"></a>通話プランで使用されるさまざまな種類の電話番号
 
@@ -58,7 +59,7 @@ Microsoft Teams では、電話番号を使用する目的に応じて、さま�
 > [!NOTE]
 > その他の電話番号を取得する必要がある場合は、 [PSTN サービスデスクにお問い合わせください](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [電話番号の移行に関するよくある質問](transferring-phone-numbers-common-questions.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams で緊急通話ルーティングポリシーを管理する
+title: 緊急通話のルーティング ポリシーを管理する
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -16,12 +16,13 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams で緊急通話ルーティングポリシーを使用および管理する方法について説明します。
-ms.openlocfilehash: af0b7a6a82e0d5ff06c65d726b2f67af22b6f4aa
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: c0e02a44997e07626c39dc576357f8811a9b1bf9
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836507"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141120"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>Microsoft Teams で緊急通話ルーティングポリシーを管理する
 
@@ -81,12 +82,12 @@ ms.locfileid: "41836507"
 
 ユーザー設定のチームポリシーを一度に複数のユーザーに割り当てるには、「 [teams のユーザー設定を一括](edit-user-settings-in-bulk.md)して編集する」を参照してください。
 
-または、次の操作も行うことができます。
+または、次の操作も実行できます。
 
 1. Microsoft Teams 管理センターの左のナビゲーションで、[**ボイス** > **緊急ポリシー**] に移動し、[**通話ルーティングポリシー** ] タブをクリックします。
-2. ポリシー名の左側をクリックして、ポリシーを選択します。
-3. [**ユーザーの管理**] を選びます。
-4. [**ユーザーの管理**] ウィンドウで、[表示名] または [ユーザー名] でユーザーを検索し、名前を選択して [**追加**] を選択します。 追加するユーザーごとに、この手順を繰り返します。
+2. ポリシー名の左側をクリックしてポリシーを選びます。
+3. **[ユーザーを管理]** を選択します。
+4. **[ユーザーを管理]** ウィンドウで、表示名またはユーザー名でユーザーを検索し、名前を選択して **[追加]** を選びます。 追加するユーザーごとに、この手順を繰り返します。
 5. ユーザーの追加が完了したら、[**保存**] をクリックします。
 
 ### <a name="using-powershell"></a>PowerShell を使用する場合
@@ -128,7 +129,7 @@ $members | ForEach-Object {Grant-CsTeamsEmergencyCallRoutingPolicy -PolicyName "
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Emergency Call Routing Policy 1"
 ```
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [Teams で緊急通話のポリシーを管理する](manage-emergency-calling-policies.md)
 - [Teams での PowerShell の概要](teams-powershell-overview.md)

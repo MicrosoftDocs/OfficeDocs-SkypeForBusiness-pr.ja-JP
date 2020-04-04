@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams | 環境の評価 |導入、探索
+title: 環境の互換性-Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -17,12 +17,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 68bd92067bffc2ed88e8a9d44e228ce442021b29
-ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: abe848e21ed245230edc1ebfbfd038af9eec9175
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42236677"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139316"
 ---
 <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Microsoft Teams のロールアウトに関する環境の検出
 ===================================================

@@ -22,31 +22,32 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: これは、国/地域ごとに無料電話番号をダイヤルする方法を確認するのに役立ちます。 国または地域を選択すると、無料サービスの利用可能な無料サービスの利用に関する具体的な詳細、制限、制限が記載された国固有のページに移動します。 ダイヤル形式または形式では、無料番号をダイヤルするために、各国または地域で必要なアクセスコードが表示されます。
-ms.openlocfilehash: eb0e167923c93fa17a3756a439ab101eac80d2cc
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+- seo-marvel-mar2020
+description: 可用性、有線/固定回線、モバイルネットワークの可用性、制限など、チリのフリーダイヤル番号をダイヤルする方法について説明します。
+ms.openlocfilehash: 00aec8e288ca1424eec9754e1f74f9cec9a5e579
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707943"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140476"
 ---
 # <a name="toll-free-dialing-restrictions-in-chile"></a>チリでのフリーダイヤル制限
 
-[別の国または地域を検索](../toll-free-dialing-limitations-and-restrictions.md)するか、無料ダイヤルの制限事項と制限についてご確認ください。
+[別の国または地域を検索](../toll-free-dialing-limitations-and-restrictions.md)、またはフリーダイヤルの制限について詳しく説明します。
 
 
 |**詳細**|**説明**|
 |:-----|:-----|
-|無料通話を利用できますか?  <br/> |あり  <br/> |
+|フリーダイヤルを利用できますか?  <br/> |はい  <br/> |
 |ダイヤル形式  <br/> | 123 XXXX XXXX <br/>  188 800 XXX XXX <br/> |
 |国/地域の ISO コード  <br/> |CL  <br/> |
-|対象となる島/地域  <br/> |該当しない  <br/> |
+|対象となる島/地域  <br/> |該当なし  <br/> |
 |対象外の島/地域  <br/> |イースター島からはアクセス不可。  <br/> |
 |有線/固定回線の状態  <br/> |部分的。コメント参照。  <br/> |
-|携帯電話ネットワークの状態  <br/> |部分的。 コメント参照。  <br/> |
+|携帯電話ネットワークの状態  <br/> |部分的。コメント参照。  <br/> |
 |コメント、制限、アクセスの問題など  <br/> |188 800 XXX XXX 番号形式は Telefonica ネットワークからアクセス可能。123 XXXX XXXX 番号形式は Entel ネットワークからのみアクセス可能。どちらの番号形式でも携帯電話からアクセス可能。  <br/> |
    
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [無料電話ダイヤルの制限事項](../toll-free-dialing-limitations-and-restrictions.md)
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)

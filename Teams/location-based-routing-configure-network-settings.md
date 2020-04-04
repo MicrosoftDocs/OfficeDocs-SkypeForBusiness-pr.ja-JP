@@ -1,5 +1,5 @@
 ---
-title: 場所に基づくルーティングのネットワーク設定を構成する
+title: ネットワーク設定の構成-場所に基づくルーティング
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -16,12 +16,13 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bfa81c0d5856ba97b60f3183ff282bef8c911fda
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: f63ff0191518acf72fd3e4c33abe80b819c3db28
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836567"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141280"
 ---
 # <a name="configure-network-settings-for-location-based-routing"></a>場所に基づくルーティングのネットワーク設定を構成する
 
@@ -53,10 +54,10 @@ ms.locfileid: "41836567"
 
 ユーザーの外部 IP アドレスが、信頼された IP アドレス一覧にある IP アドレスと一致する場合、場所ベースのルーティングでは、ユーザーのエンドポイントが配置されている内部サブネットを確認します。 ユーザーの外部 IP アドレスが、信頼できる IP アドレスリストで定義されている IP アドレスと一致しない場合、エンドポイントは不明な場所に分類され、場所に基づくルーティングを有効にしているユーザーへの PSTN 通話はブロックされます。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 「[ダイレクトルーティングで位置情報に基づくルーティングを有効](location-based-routing-enable.md)にする」に進みます。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [Teams でのクラウド音声機能のネットワーク設定](cloud-voice-network-settings.md)

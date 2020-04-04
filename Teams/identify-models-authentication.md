@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams での ID モデルと認証
+title: Id モデルと認証
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -17,12 +17,13 @@ ms.collection:
 description: クラウド、同期済み、フェデレーションなど、Microsoft Teams のさまざまな ID モデルを紹介します。また、多要素認証についても紹介します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5c09702700cf62505bbe0016d44545a02596f6b8
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: a58dcdae704be7ccdaefe1e2bca3b4978f4a10f9
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42022288"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139296"
 ---
 <a name="identity-models-and-authentication-in-microsoft-teams"></a>Microsoft Teams での ID モデルと認証
 ==========================================
@@ -38,7 +39,7 @@ Microsoft Teams は、Office 365 で利用できるすべての ID モデルを�
 <a name="configurations"></a>設定
 --------------
 
-組織がどの ID モデルを実装および使用するかに応じて、実装の要件は変わります。以下の要件を参照して、目的の展開が前提条件を満たしていることを確認してください。展開済みの Office 365 があり、ID および認証方法を実装・実行済みの場合は、以下の手順を省略できます。
+実装および使用する id モデルに関する組織の決定に応じて、実装の要件は異なる場合があります。 以下の要件の表を参照して、展開がこれらの前提条件を満たしていることを確認します。 既に Office 365 を展開していて、id と認証方法を既に実装している場合は、次の手順をスキップできます。
 
 
 |ID モデル |展開チェックリスト  |その他の情報  |

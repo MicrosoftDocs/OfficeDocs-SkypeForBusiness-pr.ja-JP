@@ -10,7 +10,9 @@ ms.service: msteams
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-ms.custom: Strat_SB_Admin
+ms.custom:
+- Strat_SB_Admin
+- seo-marvel-mar2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 ms.collection:
 - M365-collaboration
@@ -32,12 +34,12 @@ no-loc:
 - Azure Monitor
 - Log Analytics
 - Operations Management Suite
-ms.openlocfilehash: eb1e4337f97f16df6d7ef039bf4ba095ed692995
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 04d5945e042293ad0cb1597307fd4a2b596bee39
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827925"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141020"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager を使用して Microsoft Teams ルームを展開する
 
@@ -593,7 +595,7 @@ Microsoft Teams のルームは Surface Pro と Surface Pro 4 の両方でサポ
 
 ## <a name="configuration-manager-task-sequences"></a>構成マネージャーのタスクシーケンス
 
-タスクシーケンスを構成マネージャーと共に使用して、ターゲットコンピューターにオペレーティングシステムイメージを展開するための手順を自動化します。 自動的な方法で Microsoft Teams ルームユニットを展開するには、展開先の Microsoft Teams 室のコンピューター、インストールする Windows 10 Enterprise オペレーティングシステムのイメージを開始するために使用されるブートイメージを参照するタスクシーケンスを作成します。その他のアプリケーションやソフトウェア更新プログラムなどのその他のコンテンツ。
+タスクシーケンスを構成マネージャーと共に使用して、ターゲットコンピューターにオペレーティングシステムイメージを展開するための手順を自動化します。 Microsoft Teams のルームユニットを自動化された方法で展開するには、リンク先の Microsoft Teams 室のコンピューター、インストールする Windows 10 Enterprise オペレーティングシステムイメージ、その他のアプリケーションやソフトウェア更新プログラムなどのその他の他のコンテンツを開始するために使用されるブートイメージを参照するタスクシーケンスを作成します。
 
 ### <a name="import-the-sample-task-sequence"></a>サンプルのタスクシーケンスをインポートする
 
@@ -656,7 +658,7 @@ Microsoft Teams のルームは Surface Pro と Surface Pro 4 の両方でサポ
    11. **SRS V2 構成ファイルをコピー**する: この手順では、必要なセットアップファイルと構成ファイルを Microsoft Teams のルーム展開キットからローカルのハードドライブにコピーします。 この手順をカスタマイズする必要はありません。
        -   **Srs v2 – Srs アプリケーションパッケージ**と**64 ビットファイルシステムリダイレクション**が選択されていることを確認します。
 
-   12. **SRSv2-OS-更新プログラム**: この手順では、Microsoft Teams ルームの展開に必要なオペレーティングシステムの必須更新プログラムが展開されます。 次の手順を実行します。
+   12. **SRSv2-OS-更新プログラム**: この手順では、Microsoft Teams ルームの展開に必要なオペレーティングシステムの必須更新プログラムが展開されます。 以下の操作を行います。
        -   必要な更新プログラムを確認するには[、Microsoft Teams 室コンソールを構成](console.md)することを確認します。
        -   **SRS v2 – OS 更新パッケージ**に必要な更新プログラムがすべて含まれていることを確認します。
        -   [ **SRS v2 – OS 更新プログラムパッケージ]** が選択されていることを確認します。

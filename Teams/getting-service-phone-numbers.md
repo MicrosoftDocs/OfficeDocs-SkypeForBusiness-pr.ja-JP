@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: 電話会議 (会議ブリッジ用)、自動応答、およびチームの通話キュー (サービス番号とも呼ばれます) などのサービスのために、新しい電話番号を取得する、ポートする、または既存の電話番号を移行する方法について説明します。
-ms.openlocfilehash: 8c1ec0af6defbf325d05be3fdd896bb7e9f6bec0
-ms.sourcegitcommit: d7be89019dd5a3b88b0840bddf1b88fea8598ea7
+- seo-marvel-mar2020
+description: チームの電話会議、自動応答、および通話キュー (サービス番号) の新しい電話番号やポートを取得したり、既存の電話番号を移行したりする方法について説明します。
+ms.openlocfilehash: 9eb88d46a9e993067e7a2fc8baf9847dea5b32d7
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42170723"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136717"
 ---
 # <a name="getting-service-phone-numbers"></a>サービス電話番号を取得する
 
@@ -38,7 +39,7 @@ ms.locfileid: "42170723"
   
 - **Microsoft Teams 管理センターを使用します。** 一部の国と地域では、Microsoft Teams 管理センターを使用してサービス番号を取得できます。 「[新しいサービス番号を取得](#get-new-service-numbers)する」をご覧ください。
 
-- **既存の番号を移行する。** 現在のサービスプロバイダーまたは電話会社から既存の番号を移行または転送することができます。 詳細については、「[組織の](/microsoftteams/manage-phone-numbers-for-your-organization)電話[番号をチームに転送](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)する」または「電話番号を管理する」を参照してください。  
+- **既存の番号を移行する。** 現在のサービスプロバイダーまたは電話会社から既存の番号を移行または転送することができます。 この方法の詳細については、「[Teams に電話番号を移行](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)」または「[組織の電話番号を管理](/microsoftteams/manage-phone-numbers-for-your-organization)」を参照してください。  
   
 - **新しい番号には申請書を使用します。** 場合によっては (お住まいの国または地域によっては)、Microsoft Teams 管理センターを使用して新しい電話番号を取得することはできません。または、特定の電話番号または市外局番が必要です。 その場合は、フォームをダウンロードして、もう一度送信する必要があります。 詳細については「[組織の電話番号を管理](/microsoftteams/manage-phone-numbers-for-your-organization) 」を参照してください。
   
@@ -79,7 +80,7 @@ ms.locfileid: "42170723"
 
 サービス番号を取得したら、電話会議ブリッジに各番号を割り当てます。 「[電話会議ブリッジの有料または無料電話番号を変更する」を](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge)参照してください。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [電話システムで利用できる機能](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 

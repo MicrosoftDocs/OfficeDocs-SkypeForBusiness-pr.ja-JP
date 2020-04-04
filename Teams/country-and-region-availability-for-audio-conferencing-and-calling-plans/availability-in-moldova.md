@@ -23,17 +23,19 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - Phone System
-- Calling Plansfor Business and Microsoft Teams available for Moldova."
-ms.openlocfilehash: 4d5dff24821b23c690a27109bd1471f1a4817111
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+- Calling Plans for Business and Microsoft Teams available for Moldova."
+- seo-marvel-mar2020
+description: Skype for Business および Microsoft Teams 用の Office 365 サービスについては、モルドバでご確認いただけます。
+ms.openlocfilehash: 04e387d28ba798010ca3049d35b6aeba281e3d76
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41852923"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141130"
 ---
 # <a name="availability-in-moldova"></a>モルドバでの利用可能性
 
-電話会議と通話プランを利用できる[別の国や地域を見つけたり、](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)それぞれの国や地域でのそれらの詳細な利用可能状況を確認したりすることができます。
+[[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
 ここでは、Skype for Business および Microsoft Teams の Office 365 サービスをモルドバで利用できるようにする方法について説明します。
   
@@ -50,9 +52,9 @@ ms.locfileid: "41852923"
 |**機能**|**詳細**|
 |:-----|:-----|
 |電話システムは購入できますか?  <br/> |はい  <br/> |
-| 自動応答 <br/> |利用可能  <br/> |
+| 自動応答 <br/> |連絡可能  <br/> |
 |通話キュー  <br/> |利用可能  <br/> |
-|ボイスメール  <br/> |利用可能  <br/> |
+|ボイスメール  <br/> |連絡可能  <br/> |
    
 ## <a name="calling-plans"></a>通話プラン
 
@@ -68,7 +70,7 @@ ms.locfileid: "41852923"
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|有料電話番号を取得できる首都または主要都市はどこですか?  <br/> |該当しない  <br/> |
+|有料電話番号を取得できる首都または主要都市はどこですか?  <br/> |該当なし  <br/> |
 |有料電話番号は使用できますか?  <br/> |いいえ  <br/> |
 |無料電話番号は使用できますか?  <br/> |はい  <br/> |
    
@@ -82,7 +84,7 @@ ms.locfileid: "41852923"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)
 

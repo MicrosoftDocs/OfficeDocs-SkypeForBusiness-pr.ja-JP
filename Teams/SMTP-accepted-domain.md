@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams SMTP ドメインを承認済みの送信者ドメインとして Exchange Online に追加する
+title: Exchange Online で許可された送信者ドメインとして Teams の SMTP ドメインを追加する
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -16,12 +16,12 @@ f1.keywords:
 description: Exchange Online で許可された送信者ドメインとして Microsoft Teams SMTP ドメインを追加して、チームメンバーに通知を送信する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a3455c56ab3d51b83d2d5bc27d41824b6fe16ae9
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: dc35a4797cf5b5fde001090e386f9c172c5b9458
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834767"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137267"
 ---
 <a name="add-the-microsoft-teams-smtp-domain-as-an-allowed-sender-domain-in-exchange-online"></a>Microsoft Teams SMTP ドメインを承認済みの送信者ドメインとして Exchange Online に追加する 
 =============================================================================

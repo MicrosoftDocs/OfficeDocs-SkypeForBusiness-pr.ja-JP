@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams | アップグレード、アイランド モード、相互運用ポリシー、のみ
+title: Skype for business と Microsoft Teams の間の相互運用性
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -12,18 +12,18 @@ localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom: seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef1c9d8fd9d30101fdd40dba5946dfefb324742c
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: dc2a4495d95d0c6458fef16ea2f3f336dd337db4
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706657"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140678"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Microsoft Teams と Skype for Business の共存と相互運用性を理解する
 
@@ -34,7 +34,7 @@ ms.locfileid: "42706657"
 - [プロジェクトの関係者をリスト化した](upgrade-enlist-stakeholders.md)
 - [プロジェクトの対象範囲を定義した](https://aka.ms/SkypetoTeams-Scope)
 
-組織で Skype for Business を使用していて、チームで Skype for business を使用している場合、または Teams へのアップグレードを開始する場合、2つのアプリケーションの共存方法、相互運用方法、管理方法を理解することが重要です。Skype for Business から Teams への最終的なアップグレードについては、ユーザーの移行をお客様にご利用ください。
+組織で Skype for Business を使用していて、Skype for Business と共に Teams の使用を開始している場合、または Teams へのアップグレードを開始する場合は、2つのアプリケーションの共存方法、相互運用方法、およびユーザーの移行を Skype for Business から Teams にアップグレードする方法を理解しておくことが重要です。
 
 > [!Tip]
 > [共存と相互運用性](https://aka.ms/teams-upgrade-coexistence-interop)の詳細を説明するセッションをご視聴ください。

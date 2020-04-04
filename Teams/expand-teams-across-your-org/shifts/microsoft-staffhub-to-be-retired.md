@@ -8,7 +8,7 @@ audience: admin
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-description: ''
+description: Microsoft StaffHub の廃止に関する Faq および Microsoft Teams でのシフトアプリへの移行に関する Faq への回答を確認します。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -17,12 +17,13 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 346ef795f8432154d74610e4d061d00fc6039f2a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 53d82dc346226215101c837dcf8a2f10dd6ff2fc
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008159"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141180"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>Microsoft StaffHub の廃止
 
@@ -148,7 +149,7 @@ StaffHub から Teams に移動しても、同じ機能はありません。 す
 
 ユーザーのスケジュールは [シフト] に移動されますが、ユーザーはチームまたは Office 365 グループのメンバーにはなりません。
 
-Azure AD ユーザーアカウントにリンクされていない非アクティブなアカウントの場合、管理者は、StaffHub のチームメンバーページで有効な Office 365 のメールアドレスを追加することによって、ユーザーがチームのメンバーとして追加されたことを保証できます。ir 組織。
+Azure AD ユーザーアカウントにリンクされていない非アクティブなアカウントの場合、管理者は、ユーザーが組織内の正しい Azure AD アカウントにリンクされるように、StaffHub チームメンバーページに有効な Office 365 メールアドレスを追加することで、そのユーザーがチームのメンバーとして追加されていることを確認できます。
 
 もう1つのオプションは、管理者が**StaffHubMember**と**StaffHubUser**のコマンドレットを実行して、StaffHub チームからプロビジョニングされていないアカウントを削除し、UPN でユーザーをチームに追加します。
 

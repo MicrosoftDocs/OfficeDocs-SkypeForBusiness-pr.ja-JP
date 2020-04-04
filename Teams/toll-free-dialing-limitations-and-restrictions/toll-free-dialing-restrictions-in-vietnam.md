@@ -22,31 +22,32 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: これは、国/地域ごとに無料電話番号をダイヤルする方法を確認するのに役立ちます。 国または地域を選択すると、無料サービスの利用可能な無料サービスの利用に関する具体的な詳細、制限、制限が記載された国固有のページに移動します。 ダイヤル形式または形式では、無料番号をダイヤルするために、各国または地域で必要なアクセスコードが表示されます。
-ms.openlocfilehash: 6a82c501074aeb775ea54daeabfcf8bc8d902ec1
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+- seo-marvel-mar2020
+description: 可用性、有線/固定回線、携帯ネットワークの可用性、制限など、ベトナムの無料電話番号へのダイヤル方法について説明します。
+ms.openlocfilehash: 405ffbd67583f0adaff29751fdd954da0ee0cd64
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693652"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139706"
 ---
 # <a name="toll-free-dialing-restrictions-in-vietnam"></a>ベトナムでのフリーダイヤル制限
 
-[別の国または地域を検索](../toll-free-dialing-limitations-and-restrictions.md)するか、無料ダイヤルの制限事項と制限についてご確認ください。
+[別の国または地域を検索](../toll-free-dialing-limitations-and-restrictions.md)、またはフリーダイヤルの制限について詳しく説明します。
 
 
 | **詳細**                                      | **説明**                                                                                                                                                                                                                                                                                                                                                                                           |
 |:-------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 無料通話を利用できますか?  <br/>           | あり  <br/>                                                                                                                                                                                                                                                                                                                                                                                                |
+| フリーダイヤルを利用できますか?  <br/>           | はい  <br/>                                                                                                                                                                                                                                                                                                                                                                                                |
 | ダイヤル形式  <br/>                         | 120 ~ 11-3XX <br/>  122-XXX-XX <br/>  1800 XXXX: 書式が提供されなくなりました <br/>                                                                                                                                                                                                                                                                                                                            |
 | 国/地域の ISO コード  <br/>                   | HTTPS://C2RSETUP.OFFICEAPPS.LIVE.COM/C2R/DOWNLOAD.ASPX?PRODUCTRELEASEID=LANGUAGEPACK&LANGUAGE=VI-VN&PLATFORM=X64&SOURCE=O16LAP&VERSION=O16GA  <br/>                                                                                                                                                                                                                                                                                                                                                                                                 |
-| 対象となる島/地域  <br/>                  | 該当しない  <br/>                                                                                                                                                                                                                                                                                                                                                                                     |
-| 対象外の島/地域  <br/>              | 該当しない  <br/>                                                                                                                                                                                                                                                                                                                                                                                     |
+| 対象となる島/地域  <br/>                  | 該当なし  <br/>                                                                                                                                                                                                                                                                                                                                                                                     |
+| 対象外の島/地域  <br/>              | 該当なし  <br/>                                                                                                                                                                                                                                                                                                                                                                                     |
 | 有線/固定回線の状態  <br/>             | 部分的。コメント参照。  <br/>                                                                                                                                                                                                                                                                                                                                                                             |
-| 携帯電話ネットワークの状態  <br/>               | 部分的。 コメント参照。  <br/>                                                                                                                                                                                                                                                                                                                                                                             |
+| 携帯電話ネットワークの状態  <br/>               | 部分的。コメント参照。  <br/>                                                                                                                                                                                                                                                                                                                                                                             |
 | コメント、制限、アクセスの問題など  <br/> | 120 XX XXX 番号形式は、ベトナムの電気通信国際 (VTI) と VNPT (ベトナム Post および電気通信) の固定ネットワークおよびモバイルネットワークから利用できます。 <br/> <br/> 2018年6月の時点では、Mobifone のモバイルネットワークから 120 XX XXX 番号形式を呼び出すことはできません。 <br/> <br/>**注:** Mobifone &amp; Vinaphone は VNPT の一部です。 数値の形式 122 XXX XX ネットワークカバレッジ: Viettel (固定およびモバイル)。 ベトナムの通信事業によって、最大の通話時間は2時間になります。 |
    
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [無料電話ダイヤルの制限事項](../toll-free-dialing-limitations-and-restrictions.md)
 

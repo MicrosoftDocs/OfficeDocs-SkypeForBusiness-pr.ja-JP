@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams の変更管理戦略を作成する
+title: 変更管理戦略を作成する
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -11,15 +11,16 @@ audience: admin
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 主要なステークホルダー、ビジネスの成果、成功の測定方法の特定、チャンピオンの管理を通して Microsoft Teams の変更管理戦略を作成する方法について説明します。
+description: 主要な関係者、ビジネスの成果、成功の指標、およびキャンペーンの管理を特定して、Microsoft Teams の変更管理戦略を作成します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e6c07271caecd2c84301930f0b71aa6eda0011a
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: HT
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 628c839560423e0e2524bed24082156469faeb36
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824975"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137917"
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Microsoft Teams の変更管理戦略を作成する
 =======================================================
@@ -63,7 +64,7 @@ Teams の変更管理のためのベスト プラクティスは次のとおり�
 |![サービス所有者アイコン。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |**サービス所有者**は、人々がサービスを使用し、そこから価値を引き出せるようにする責任があります。組織内でサービス所有者を設定することは、Office 365 に対して設定したビジネス目標を実現させる上で重要です。         |
 |![チャンピオン アイコン。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.png)     |組織全体ですべてのユーザーから賛同を得ることは困難です。**チャンピオン**は、この困難を軽減し、Office 365 の導入に欠かせない重要な役割を果たします。チャンピオンは、専門性を深めるための取り組み、同僚の指導や支援を惜しまない知識豊富な存在です。彼らのサポートにより、部門やチームで Office 365  の導入を実現することができます。         |
 
-定期的にステークホルダー会議を行い、プログラムの進捗状況について最新情報を保つようにします。企業文化によっては、フィードバックやディスカッションを行う「コラボレーション審議会」を設立すると有益な場合があります。
+お客様のプログラムの進捗状況を把握するために、これらの関係者を定期的に会議することをお勧めします。"コラボレーション協議会" を開始して、フィードバックとディスカッションを許可することは、企業の文化によって有用なツールとなることがあります。
 
 
 

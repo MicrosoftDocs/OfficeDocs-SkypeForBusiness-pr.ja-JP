@@ -1,5 +1,5 @@
 ---
-title: Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス
+title: 移行と相互運用性-Skype for Business
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -15,16 +15,17 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.coexistence
 - ms.teamsadmincenter.teamsupgrade.overview
+- seo-marvel-mar2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae75a26f611fc6262c9f2352c09cb175bd00656d
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
-ms.translationtype: HT
+ms.openlocfilehash: 5bf12dc366de030329b306fdd2f68291b5ff532d
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41832671"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140276"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス
 
@@ -40,7 +41,7 @@ Skype for Business を使用する組織が Teams を導入するとき、管理
 
 2.  *フェデレーション*: さまざまなテナントのユーザー間の通信。
 
-3.  Teams ユーザーはすべて、オンラインまたはオンプレミスのいずれかに "所属" する、基本の Skype for Business アカウントを所有しています。
+3.  すべての Teams ユーザーには、"自宅" の Skype for Business アカウントがあります。これは、オンラインまたはオンプレミスのいずれかになります。
     - 既に Skype for Business Online を使用しているユーザーは、既存のオンライン アカウントを使用します。
     - 既にオンプレミスの Skype for Business/Lync を使用しているユーザーは、既存のオンプレミス アカウントを使用します。
     - 既存の Skype for Business アカウントが検出できないユーザーの場合、Teams ユーザーが作成されたときに、Skype for Business Online アカウントが自動的にプロビジョニングされます。
@@ -49,30 +50,30 @@ Skype for Business を使用する組織が Teams を導入するとき、管理
 
 5.  Teams と Skype for Business ユーザー間の相互運用は、*Teams ユーザーが Skype for Business でオンラインに所属している場合のみ可能です*。 受信者となる Skype for Business ユーザーは、オンプレミス (Skype for Business ハイブリッドの構成が必要) またはオンラインに所属できます。 オンプレミスの Skype for Business に所属しているユーザーはアイランド モード (このドキュメントの後で定義されます) で Teams を使用できますが、Skype for Business を使用している他のユーザーとの相互運用またはフェデレーションのために Teams を使用することはできません。  
 
-6.  アップグレードと相互運用の動作は、後で説明するユーザーの共存モードに基づいて決定されます。 モードは、TeamsUpgradePolicy によって管理されます。 
+6.    アップグレードと相互運用の動作は、後で説明するユーザーの共存モードに基づいて決定されます。 モードは、TeamsUpgradePolicy によって管理されます。 
 
 7.  ユーザーを TeamsOnly モードにアップグレードすることにより、発信元のクライアントとは無関係に、すべての受信チャットと通話がユーザーの Teams クライアントに常に届くようになります。 また、アップグレードされたユーザーは新しい会議を Teams でスケジュールするようになります。 TeamsOnly モードにするには、ユーザーが Skype for Business でオンラインに所属している必要があります。 これは、Teams ユーザーの確実な相互運用、フェデレーション、完全な管理のために必要です。 ユーザーを TeamsOnly にアップグレードするには、次の操作を実行します。
     - ユーザーが Skype for Business Online に所属している (または Skype アカウントを所有したことがない) 場合、PowerShell で "UpgradeToTeams" を使用して、Mode=TeamsOnly で TeamsUpgradePolicy をそのユーザーに付与します。または、Teams 管理センターを使用して TeamsOnly モードを選択します。
     - ユーザーがオンプレミスに所属している場合、オンプレミスの管理ツールから `Move-CsUser` を使用して、まずそのユーザーを Skype for Business Online に移動します。  Skype for Business Server 2019 または CU8 for Skype for Business Server 2015 をお持ちの場合、`Move-CsUser` で `-MoveToTeams` スイッチを指定して、オンラインへの移行の一環としてユーザーを直接 Teams に移動することができます。 このオプションは、ユーザーの会議も Teams に移行します。 `-MoveToTeams` が指定されていないか使用できない場合、`Move-CsUser` の完了後に PowerShell または Teams 管理センターを使用して、TeamsOnly モードをそのユーザーに割り当てます。 詳細については、「[ユーザーのオンプレミスとクラウド間の移動](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud)」を参照してください。  会議の移行の詳細については、「[会議移行サービス (MMS) の使用](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)」を参照してください。
 
-8.  ユーザーが Microsoft 電話システムを Teams で使用するには、TeamsOnly モードである (つまり、Skype for Business Online に所属しており、Teams にアップグレードされている) 必要があります。また、Microsoft 電話システムの[ダイレクト ルーティング](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359#M1277) (自分の SIP トランクと SBC で電話システムを使用するための機能) 向けに構成されているか、または Office 365 通話プランを利用している必要があります。 アイランド モードでは、Microsoft 電話システムのダイレクト ルーティングはサポートされません。    
+8.    ユーザーが Microsoft 電話システムを Teams で使用するには、TeamsOnly モードである (つまり、Skype for Business Online に所属しており、Teams にアップグレードされている) 必要があります。また、Microsoft 電話システムの[ダイレクト ルーティング](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359#M1277) (自分の SIP トランクと SBC で電話システムを使用するための機能) 向けに構成されているか、または Office 365 通話プランを利用している必要があります。 アイランド モードでは、Microsoft 電話システムのダイレクト ルーティングはサポートされません。    
 
 9.  ユーザーが Skype for Business Online またはオンプレミスの Skype for Business に所属しているかどうかに関係なく、電話会議 (PSTN 経由のダイヤルインまたはダイヤルアウト) を使用して Teams の会議をスケジュールできます。 
 
 
 ## <a name="coexistence-modes"></a>共存モード
 
-相互運用と移行は、TeamsUpgradePolicy を使用する "共存モード" に基づいて管理されます。 共存モードは、組織が Skype for Business から Teams に移行するときに、シンプルで予測可能な操作環境をエンド ユーザーに提供します。 Teams に移行する組織にとって、各ユーザーの最終的な目的地は TeamsOnly モードですが、すべてのユーザーに TeamsOnly (またはその他のモード) を同時に割り当てる必要はありません。 ユーザーが TeamsOnly モードに到達する前に、組織は Skype for Business の任意のモード (SfBOnly、SfBWithTeamsCollab、SfBWithTeamsCollabAndMeetings) を使用して、TeamsOnly であるユーザーとまだ TeamsOnly ではないユーザー間の予測可能な通信を確保することができます。
+相互運用と移行は、TeamsUpgradePolicy を使用した "共存モード" に基づいて管理されます。 共存モードは、組織が Skype for Business から Teams に移行するときに、シンプルで予測可能な操作環境をエンド ユーザーに提供します。 Teams に移行する組織にとって、各ユーザーの最終的な目的地は TeamsOnly モードですが、すべてのユーザーに TeamsOnly (またはその他のモード) を同時に割り当てる必要はありません。 ユーザーが TeamsOnly モードになる前は、Skype for Business モード (SfBOnly、Sfbwithteams、SfBWithTeamsCollabAndMeetings) のいずれかを使用して、teams のみで、かつまだ存在しないユーザー間で一貫した通信を行うことができます。
 
 
-技術的な観点からは、ユーザーのモードによってユーザーの操作環境のいくつかの側面が制御されます。
+技術的な観点から見ると、ユーザーのモードは、ユーザーエクスペリエンスのいくつかの側面を制御します。
 
 - *受信ルーティング*: 受信チャットと通話が、どのクライアント (Teams または Skype for Business) に届くのか。 
 - *プレゼンス公開*: 他のユーザーに表示されるユーザーのプレゼンスが、Teams または Skype for Business のいずれのアクティビティに基づいたものなのか。 
 - *会議のスケジュール*: 新しい会議のスケジュール、そして適切なアドインが Outlook に存在することを確認するのに使用されるサービスはどれなのか。 TeamsUpgradePolicy は会議への参加については制御しないことに注意してください。 ユーザーは常に、Skype for Business または Teams のいずれの会議であっても、*参加*することができます。
 - *クライアント エクスペリエンス*: Teams または Skype for Business で利用可能な機能はどれなのか。 ユーザーは通話やチャットを、Teams または Skype for Business のいずれで開始できるのか、または両方で開始できるのか。 チームとチャンネルのエクスペリエンスは使用可能なのか。  
 
-モードに基づくルーティングとプレゼンスの動作の詳細については、「[Skype for Business との共存](https://docs.microsoft.com/microsoftteams/coexistence-chat-calls-presence)」を参照してください。
+モードに基づくルーティングとプレゼンスの動作の詳細については、「[Skype for Business との共存](https://docs.microsoft.com/MicrosoftTeams/coexistence-chat-calls-presence)」を参照してください。
 
 一方で、エクスペリエンスの観点からは、モードは次のエクスぺリエンスを定義するものであると、よりシンプルに説明することができます。
 - *チャットと通話*: ユーザーが使用するクライアントはどれなのか。
@@ -151,10 +152,10 @@ TeamsUpgradePolicy は、フェデレーションされた受信チャットと�
 - Teams から開始されたチャットと通話は、受信者が*同じテナント*にいる場合、Teams に届きます。
 - Skype for Business から開始されたチャットと通話は常に、Skype for Business に届きます。
 
-詳細については、「[Skype for Business と共存する](https://docs.microsoft.com/microsoftteams/coexistence-chat-calls-presence)」を参照してください。
+詳細については、「[Skype for Business と共存する](https://docs.microsoft.com/MicrosoftTeams/coexistence-chat-calls-presence)」を参照してください。
 
 ## <a name="the-teams-client-user-experience-when-using-sfb-modes"></a>Skype for Business モードを使用する場合の Teams クライアント ユーザー エクスペリエンス
-ユーザーが Skype for Business モード (SfBOnly、SfBWithTeamsCollab、SfBWithTeamsCollabAndMeetings) のいずれかの場合、すべての受信チャットと通話はユーザーの Skype for Business クライアントにルーティングされます。 ユーザーがいずれかの Skype for Business モードに設定されている場合、エンド ユーザーを混乱させない適切なルーティングを確保するために、Teams クライアントの通話とチャット機能は自動的に無効化されます。 同様に、Teams での会議のスケジュールも、ユーザーが SfBOnly モードまたは SfBWithTeamsCollab モードの場合は自動的に無効化され、ユーザーが SfBWithTeamsCollabAndMeetings モードの場合には自動的に有効化されます。 詳細については、「[Teams のクライアント エクスペリエンスおよび共存モードへの準拠](https://docs.microsoft.com/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes)」を参照してください。
+ユーザーが Skype for Business モード (SfBOnly、SfbwithteamsSfBWithTeamsCollabAndMeetings) を使用している場合、着信するすべてのチャットと通話はユーザーの Skype for Business クライアントにルーティングされます。 ユーザーがいずれかの Skype for Business モードに設定されている場合、エンド ユーザーを混乱させない適切なルーティングを確保するために、Teams クライアントの通話とチャット機能は自動的に無効化されます。 同様に、Teams での会議のスケジュールも、ユーザーが SfBOnly モードまたは SfBWithTeamsCollab モードの場合は自動的に無効化され、ユーザーが SfBWithTeamsCollabAndMeetings モードの場合には自動的に有効化されます。 詳細については、「[Teams のクライアント エクスペリエンスおよび共存モードへの準拠](https://docs.microsoft.com/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes)」を参照してください。
 
 > [!Note] 
 > - Teams と Channels の自動適用を行う前に、SfbOnly と SfBWithTeamsCollab モードは同じように動作します。
@@ -170,7 +171,7 @@ TeamsUpgradePolicy は、フェデレーションされた受信チャットと�
 |**SfBOnly**|ユーザーは Skype for Business のみを実行します。 このユーザーは、</br><ul><li>Skype for Business からのみチャットと通話を開始することができます。<li>オンプレミスの Skype for Business に所属している Teams ユーザーが開始したものでない限り、すべてのチャット/通話を開始元に関わらず自分の Skype for Business クライアントで受信します。*<li>Skype for Business の会議のみスケジュールできます。ただし、Skype for Business 会議と Teams 会議のいずれにも参加することができます。</br>\** オンプレミスのユーザーにアイランド モードを使用することは、他の SfBOnly モードのユーザーとの組み合わせにおいて、お勧めできません。 オンプレミスの Skype for Business に所属している Teams ユーザーが、SfBOnly ユーザーに対して通話またはチャットを開始した場合、SfBOnly ユーザーには届かず、届かなかったチャット/通話に関する電子メールが送られます。*|
 |**SfBWithTeamsCollab**|ユーザーは Skype for Business と Teams の両方を並べて実行します。 このユーザーは、</br><ul><li>SfBOnly モードのユーザーと同じ機能があります。<li>Teams をグループでの共同作業 (チャネル) に関してのみ利用できます。チャット/通話/会議のスケジュールは利用できません。</ul>|
 |**SfBWithTeamsCollab</br>AndMeetings**|ユーザーは Skype for Business と Teams の両方を並べて実行します。 このユーザーは、<ul><li>SfBOnly モードのユーザーと同じチャットと通話機能があります。<li>Teams をグループでの共同作業 (チャネル (チャネル会話を含む)) に対してのみ利用できます。チャットと通話は利用できません。<li>Teams 会議のみスケジュールできます。ただし、Skype for Business 会議と Teams 会議のいずれにも参加することができます。</ul>|
-|**TeamsOnly**</br>(Skype for Business Online に所属していることが必要)|ユーザーは Teams のみ実行します。 このユーザーは、<ul><li>すべてのチャットと通話を開始元に関わらず自分の Teams クライアントで受信します。<li>Teams からのみチャットと通話を開始することができます。<li>Teams でのみ会議をスケジュールできます。ただし、Skype for Business 会議と Teams 会議のいずれにも参加することができます。<li>Skype for Business IP 電話を使用し続けることができます。<br><br>*アイランド モードで TeamsOnly モードを他のユーザーと組み合わせて使用することは、Teams の導入が飽和状態になるまで推奨されません。つまり、すべてのアイランド モードのユーザーは、Teams と Skype for Business のクライアントを積極的に使用および監視します。 TeamsOnly ユーザーがアイランド ユーザーへの通話またはチャットを開始した場合、その通話またはチャットはアイランド ユーザーの Teams クライアントに着信します。アイランド ユーザーが Teams を使用または監視していない場合、そのユーザーはオフラインで表示され、TeamsOnly ユーザーは到達できません。*</ul> |
+|**TeamsOnly**</br>(Skype for Business Online に所属していることが必要)|ユーザーは Teams のみ実行します。 このユーザーは、<ul><li>すべてのチャットと通話を開始元に関わらず自分の Teams クライアントで受信します。<li>Teams からのみチャットと通話を開始することができます。<li>Teams でのみ会議をスケジュールできます。ただし、Skype for Business 会議と Teams 会議のいずれにも参加することができます。<li>Skype for Business IP 電話を使用し続けることができます。<br><br>*チームの導入が飽和状態になるまでは、Teams を使用して他のユーザーと別のユーザーと組み合わせて使用することはお勧めできません。つまり、すべての孤島モードのユーザーは、チームと Skype for Business クライアントの両方を積極的に使用および監視します。チームのユーザーのみが発信またはチャットを開始した場合は、その呼び出しまたはチャットが諸島ユーザーのチームクライアントに表示されます。島々ユーザーが Teams を使用しないか監視している場合、そのユーザーはオフラインとして表示され、チームのユーザーのみがアクセスできなくなります。*</ul> |
 |||
 
 

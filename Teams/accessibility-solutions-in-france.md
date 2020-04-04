@@ -20,14 +20,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - Legal
+- seo-marvel-mar2020
 hideEdit: true
 description: 4つの nir des expériences accessibles をお持ちの場合は、Microsoft、qui (permettre)、様、chaque 組織 de la planète d'accomplir davantage をご紹介します。 Microsoft オフにする特定の nombre de fonctionnalités d'accessibilitéの打設 Skype Entreprise et Microsoft Teams qui s'inscrivent dans son de faveur。
-ms.openlocfilehash: 9d7e7ff471bdd2c88ff1527f224f43e6f7e30b16
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 5e58f0228430d99540bbe45548018059e65be016
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825635"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139176"
 ---
 # <a name="accessibility-solutions-for-skype-for-business-online-and-microsoft-teams-in-france"></a>Skype for Business Online およびフランスの Microsoft Teams のアクセシビリティソリューション
 
@@ -41,7 +42,7 @@ Skype Entreprise dans Office 365 offre des fonctionnalités d'accessibilité qui
 
 Microsoft Teams dans 365 est un outil de コラボレーション professionnelle avec des の messagerie、de vidéoconférence et d'appel。 Microsoft Teams intègre des fonctionnalités d'accessibilité afin la communication des utilisateurs ayant une mauvaise、une dextérité réduite ou d'autres handicaps。 Ces caractéristiques sskrésumées sur le site web Accessibilité de Microsoft Teams: [https://support.office.com/fr-fr/article/prise-en-charge-de-l-accessibilit%C3%A9-dans-microsoft-teams-d12ee53f-d15f-445e-be8d-f0ba2c5ee68f?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/prise-en-charge-de-l-accessibilit%C3%A9-dans-microsoft-teams-d12ee53f-d15f-445e-be8d-f0ba2c5ee68f?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)。  
   
-Consacrées のページの挿入 chacune de $ plates-formes décrivent comment se présentent généralement Skype Entreprise et Microsoft Teams sur のお客様: フォーム es、telformprennent Windows、Mac、iOS et office Android。  内容説明 des agencements de Skype Entreprise et Microsoft Teams peuvent s'avérer particulièrement utiles # utilisateurs voyants、malvoyants ou a mobilité réduite の、、skype construire のcaractéristiques des インターフェイス utilisateur (国際単位インスリン) de Skype Entreprise et Microsoft Teams afin de leur permettre d'y naviguer、facilement
+Consacrées のページの挿入 chacune de $ plates-formes décrivent comment se présentent généralement Skype Entreprise et Microsoft Teams sur のお客様: フォーム es、telformprennent Windows、Mac、iOS et office Android。  内容説明 des agencements de Skype Entreprise et Microsoft Teams の peuvent s'avérer particulièrement utiles の utilisateurs、voyants の、malvoyants (mobilité) de Skype Réduite の construire une の représentation caractéristiques des インターフェイス utilisateur (国際単位インスリン) de Entreprise permettre d'y (naviguer) de、facilement
   
 Utilisent un lecteur d'écran、il est: de naviguer dans l'interface utilisateur de l'application Skype Entreprise a l'aide du clavier、et des ページ d'aide sskproposées の打設 expliquer:  
   
@@ -85,5 +86,5 @@ L'objectif de Microsoft est d'offrir la meilleure se クライアント。 Une �
   
 ## <a name="dclaration-de-conformit-en-301-549"></a>Déclaration de conformité *EN 301 549*
 
-Évaluer l'accessibilitéの打設、Microsoft は une のドキュメントを提案しています。のドキュメントを提案します。 Skype Entreprise et Microsoft Teams se conforment 301 549 相対 aux européenne exigencesdes produits et サービス liés aux テクノロジー (テクノロジ de l'Information et de la 通信) en ヨーロッパ。 Des は、des rapports EN 301 549 sskjointes en の exe をコピーします。
+Aider se クライアントのévaluer l'accessibilité、Microsoft による une のドキュメントに関する意見、お客 décrit のコメント Skype Entreprise et Microsoft Teams se 301 549 conforment 相対 aux européenne exigences (英語) d'accessibilité marchés publics produits liés aux セ l'Information (テクノロジー de et de la 通信) Des は、des rapports EN 301 549 sskjointes en の exe をコピーします。
 

@@ -16,13 +16,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: Microsoft Teams の患者向けアプリ EHR の統合
-ms.openlocfilehash: 10a6b21e583b5fdd3e70857c4cfc5e7e21a7e988
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+description: Microsoft Teams の患者アプリと連携するように FHIR サーバーを設定または再構成するなど、Teams での DSTU2 インターフェイスの仕様について説明します。
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: f09f43af431b3f0cc6d9f984171206f2549a550a
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42153819"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136957"
 ---
 # <a name="dstu2-interface-specification"></a>DSTU2 インターフェイスの仕様
 
@@ -175,7 +176,7 @@ Microsoft Teams の患者アプリから複数のリソースに対するクエ�
 
     要求: fhir-server>/条件? 患者 =<患者 id>&_count = 10 を取得 <
     
-    応答: {"resourceType": "バンドル"、"id": "<バンドル id>"、"種類": "searchset"、"合計": 1, "入力": [{"リソース": "{" リソース ": {" resourceType ":" 条件 "" id ":" <リソース id> "," code ": {" syst ":" {"http://snomed.info/sct": "386033004"、"コード": "", "表示": "", "Neuropathy": "2018-09-17"、"dateRecorded": ""、"深刻度": {"em ":http://snomed.info/sct" "," コード ":" 24484000 "," 表示 ":" 重大 "}"}},}]}
+    応答: {"resourceType": "のバンドル"、"id": "<バンドル id>"、"入力": "searchset"、"total": ""、"id": "{" リソース ":" "<"、"id": "" リソース id> "、" コード ": {" コード ": [{" system ":"http://snomed.info/sct"," code ":" 386033004 "," 表示 ":" Neuropathy (dateRecorded) "}]}," ":" 2018-09-17 "severity": {"コード": [{"system": "http://snomed.info/sct", "code": "24484000", "表示": "", "表示": "重大"} "
 
 * * *
 
@@ -204,7 +205,7 @@ Microsoft Teams の患者アプリから複数のリソースに対するクエ�
 
     要求: fhir-server>/<を取得します。患者 =<患者-id>&_sort:d esc = date&_count = 1
     
-    応答: {"resourcetype": "このバンドル"、"種類": "searchset"、"total": [{"リソース": {"リソース": {"resourceType": "リソース id>"、"id": "<リソース id:" {"use": "オフィシャル", "値": "値"<id>"}", "状態": "" が表示 "と入力します。 [{" 表示 ": [{" display ":" 予定 "}]、"! "、" 患者 "という: {" 参照 ":" 患者 "と" <": {" start ":" 09/17/2018 1:00:00 PM "}," 場所 ": [{>             "場所": {"display": "クリニック-ENT"},} "}}]}
+    応答: {"resourceType": "バンドル", "種類": "searchset", "集計": "{" リソース ": {" resourceType ":" <リソース id> "、" id ":" "を使用": "" という値<id>: [{"use": "" # ":" ")" "状態": "が表示"、"種類": [{] コード ": [{" display ":" 予定 "}]、}]、" 患者 ": {" 参照 ":" 患者 "と" <">"}, "ピリオド": {"start": "09/17/2018 1:00:00 PM"}, "場所": [{"場所": {"display": "クリニック-ENT"},}
 
 * * *
 
@@ -236,7 +237,7 @@ Microsoft Teams の患者アプリから複数のリソースに対するクエ�
 
     要求: <fhir-server>/AllergyIntolerance? 患者 =<患者 id を取得>
     
-    応答: {"resourceType": "バンドル"、"id": "<バンドル-id>"、"種類"、"searchset"、"total": ""、""、"AllergyIntolerance": "{" resource ":" {"リソース": "" <"、" id ":" リソース id> "、" recordedDate ":" 2018-09-17T07:00: 00.000 Z "," 物質 ": {" text ":" Cashew ナット "}," 状態 ":" 確認 "," 反応 ": [{" テキスト ":" "が表示" と "応答": "" "" という:on ": [{" text ":" Anaphylactic 反 "}]}"}} "}
+    応答: {"resourceType": "バンドル"、"id": "<バンドル id>"、"種類": "searchset"、"total": "recordedDate": "{" resource ":" AllergyIntolerance "、" id ":" <リソース id> "、" ":" 2018-17T07:00: 00.000 Z "," 物質 ": {" text ":" Cashew ナット "}," 状態 ":" 確認 "," 反応 ": [{] 物質": {"text": "cashew ナット allergenic extract Injectable Product"}, "影響": [{"テキスト": "{" text ":" {"text": "Anaphylactic 反"}]}
 
 * * *
 

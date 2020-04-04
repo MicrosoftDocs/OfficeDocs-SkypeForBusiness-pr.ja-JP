@@ -1,5 +1,5 @@
 ---
-title: Project のスコープでの Skype for Business から Microsoft Teams への導入 |アップグレード
+title: Project スコープでの Skype for Business から Microsoft Teams への導入
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -12,18 +12,20 @@ localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4084bc58d98aa05af14511869fc44c6db85343b8
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: ef2f257934847f74466ff6f91890a667084b88d1
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42707017"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139666"
 ---
 # <a name="define-your-project-scope"></a>プロジェクトの対象範囲を定義する
 
@@ -37,7 +39,7 @@ ms.locfileid: "42707017"
 
 | | |
 |---|---|
-| ![判断ポイントを表すアイコン](media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>このプロジェクトで実行する操作を選択してください (つまり、理由は何ですか。</li><li>成功とは何ですか?</li><li>リスクはどのようなものですか。また、それらのリスクを軽減するための計画について教えてください。</li></ul> |
+| ![判断ポイントを表すアイコン](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>このプロジェクトで実行する操作を選択してください (つまり、理由は何ですか。</li><li>成功とは何ですか?</li><li>リスクはどのようなものですか。また、それらのリスクを軽減するための計画について教えてください。</li></ul> |
 | ![次の手順を示すアイコン](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>次のセクションについて、プロジェクトチームとスポンサーと相談してください。</li><li>このプロジェクトのビジョン、スコープ、目標、およびリスクを文書化します。</li><li>プロジェクトチームに連絡して、適切なチームを作成したことを確認します。</li></ul>|
 
 ## <a name="project-vision"></a>プロジェクトビジョン

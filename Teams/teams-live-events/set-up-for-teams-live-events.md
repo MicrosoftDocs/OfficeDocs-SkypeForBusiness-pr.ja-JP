@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-description: ネットワークの準備、ライセンスの割り当て、ユーザーに対してライブイベントの機能とスケジュールを有効にするためのポリシーの使用、サードパーティの配布プロバイダーのセットアップなど、Teams でのイベントに対してライブを設定する手順について説明します。
-ms.custom: ms.teamsadmincenter.liveevents.policies
+description: ネットワークのセットアップ、ライセンスの割り当て、ライブイベント機能とスケジューリング、およびビデオ配布ソリューションの有効化など、Teams のイベントに対してライブをセットアップします。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f18f35ef6775f04049b79374a4e2940646eff9e8
-ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: ae30fdb824c62027d1a704435e80df2a9abf1f85
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558577"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140566"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントのセットアップ
 
@@ -83,9 +83,9 @@ Teams で作成されたライブイベントは[、teams 用に組織のネッ�
 
 1. [**会議** > **ライブイベントのポリシー**に移動します。
 2. ポリシー名の左側をクリックしてポリシーを選びます。
-3. [**ユーザーを管理**] を選択します。
-4. [**ユーザーを管理**] ウィンドウで、表示名またはユーザー名でユーザーを検索し、名前を選択して [**追加**] を選びます。 追加するユーザーごとに、この手順を繰り返します。
-5. ユーザーの追加が完了したら、[**保存**] を選択します。
+3. **[ユーザーを管理]** を選択します。
+4. **[ユーザーを管理]** ウィンドウで、表示名またはユーザー名でユーザーを検索し、名前を選択して **[追加]** を選びます。 追加するユーザーごとに、この手順を繰り返します。
+5. ユーザーの追加が完了したら、**[保存]** を選択します。
  
 
 ### <a name="enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device"></a>外部アプリまたはデバイスで生成されたイベントをユーザーがスケジュールできるようにする
@@ -114,15 +114,14 @@ Teams で作成されたライブイベントは[、teams 用に組織のネッ�
 - **ランプ OmniCache**は次世代ネットワーク配布を提供し、グローバル wan でのビデオコンテンツのシームレスな配信を可能にします。また、イベントプロデューサーはネットワーク帯域幅を最適化し、正常なライブイベントブロードキャストとオンデマンドストリーミングをサポートします。 Teams で作成されたライブイベントのランプ OmniCache のサポートは近日中に公開されます。 [詳細については、こちらを参照してください](http://www.ramp.com)。 
  
 > [!NOTE] 
-> 選択された SDN または eCDN のソリューションには、お客様が提供する**サードパーティプロバイダーの利用規約とプライバシーポリシー**が適用されます。これにより、プロバイダーのソリューションの使用が制御されます。 プロバイダーのソリューションの使用には、Microsoft ボリュームライセンス条項またはオンラインサービスの利用規約は適用されません。 **サードパーティのプロバイダーの規約**に同意しない場合は、Teams でこのソリューションを有効にしないでください。 
+> 選択した SDN または eCDN のソリューションには、お客様が提供する**サードパーティプロバイダーの利用規約とプライバシーポリシー**が適用されます。 プロバイダーのソリューションの使用には、Microsoft ボリュームライセンス条項またはオンラインサービスの利用規約は適用されません。 **サードパーティのプロバイダーの規約**に同意しない場合は、Teams でこのソリューションを有効にしないでください。 
 
 SDN または eCDN ソリューションをセットアップした後で、Teams でライブイベントのプロバイダーを構成することができます。 
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 「 [Teams でライブイベントの設定を構成する」](configure-teams-live-events.md)を参照してください。
 
 ### <a name="related-topics"></a>関連項目
 - [Teams のライブ イベントについて](what-are-teams-live-events.md)
 - [Teams のライブ イベントの計画](plan-for-teams-live-events.md)
 - [Teams でライブ イベント設定を構成する](configure-teams-live-events.md)
-

@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams について啓発し、トレーニングを実施する
+title: 啓発とトレーニングの実施
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -13,18 +13,20 @@ search.appverid: MET150
 description: Microsoft Teams の導入について、認識を向上させ、トレーニングプログラムを実装する方法について説明します。
 f1.keywords:
 - CSH
-ms.custom: Adopt
+ms.custom:
+- Adopt
+- seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ee8040980f0452529ec84367093262843f499d1f
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 02239b1b77a8fdffbfd4e2a3081fc5a031c43878
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837837"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140790"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Microsoft Teams について啓発し、トレーニングを実施する
 

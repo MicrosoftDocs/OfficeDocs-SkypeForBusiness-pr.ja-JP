@@ -1,6 +1,5 @@
 ---
 title: Azure モニターを使用して Microsoft Teams のルーム管理を展開する
-ms.author: v-lanac
 author: lanachin
 ms.reviewer: Turgayo
 manager: serdars
@@ -12,15 +11,15 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: この記事では、Azure モニターを使用して、統合されたエンドツーエンドの方法で Microsoft Teams 室デバイスの管理を展開する方法について説明します。
-ms.openlocfilehash: 70c2311143a4daabbc0838168e19969f950a2df1
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 3e01ae7a0fddcb63595b7dcc15b719ad1d41db32
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417542"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137647"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>管理:::no-loc text="Microsoft Teams Rooms":::を展開する:::no-loc text="Azure Monitor":::
 
@@ -138,7 +137,7 @@ ms.locfileid: "42417542"
 
 | **JSON フィールド**                   | **:::no-loc text="Log Analytics":::ユーザー設定フィールド** | **イベント ID** | **抽出に使用するクエリ**                   |
 |:---------------------------------|:-------------------------------|:-------------|:-------------------------------------------------------|
-| 説明                      | SRSEventDescription         | **2000**     | \| Source = = "SRS-アプリ" and EventID = = 2000 |
+| Description                      | SRSEventDescription         | **2000**     | \| Source = = "SRS-アプリ" and EventID = = 2000 |
 | ResourceState                    | SRSResourceState            | **2000**     | \| Source = = "SRS-アプリ" and EventID = = 2000 |
 | OperationName                    | SRSOperationName            | **2000**     | \| Source = = "SRS-アプリ" and EventID = = 2000 |
 | OperationResult                  | SRSOperationResult          | **2000**     | \| Source = = "SRS-アプリ" and EventID = = 2000 |
@@ -416,7 +415,7 @@ ms.locfileid: "42417542"
 ![サンプル:::no-loc text="Azure Monitor":::の通知メール](../メディア/または "サンプル通知メール" の例:::no-loc text="Azure Monitor":::
 
 ## <a name="configure-all-devices-for-no-loc-textazure-monitoring"></a>すべてのデバイスを構成する:::no-loc text="Azure Monitoring":::
-<a name="configure_all_devices"></a>ダッシュボードとアラートを構成したら、すべて:::no-loc text="Microsoft Monitoring"::: :::no-loc text="Microsoft Teams Rooms":::のデバイスでエージェントをセットアップして構成し、監視展開を完了することができます。
+<a name="configure_all_devices"> </a>ダッシュボードとアラートを構成したら、すべて:::no-loc text="Microsoft Monitoring"::: :::no-loc text="Microsoft Teams Rooms":::のデバイスでエージェントをセットアップして構成し、監視展開を完了することができます。
 
 エージェントは:::no-loc text="Microsoft Monitoring":::各デバイスで手動でインストールして構成することもできますが、既存のソフトウェア展開ツールと方法を活用することを強くお勧めします。
 

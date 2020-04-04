@@ -1,5 +1,5 @@
 ---
-title: 組織の緊急対応の場所の位置情報を追加、変更、削除する
+title: 緊急対応の場所の場所を追加、変更、削除する
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -16,13 +16,14 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: 'Microsoft Teams 管理センターで、組織の緊急対応の場所を追加、変更、または削除する方法について説明します。 '
-ms.openlocfilehash: a72d2ece731dcac33732d510b0cbd10975575cbc
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: Microsoft Teams 管理センターで、組織の緊急対応の場所を追加、変更、または削除する方法について説明します。
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: e23b1d2c69fd09136a581010632a140e82385051
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695839"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141140"
 ---
 # <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>組織の緊急対応の場所の位置情報を追加、変更、削除する
 
@@ -50,7 +51,7 @@ ms.locfileid: "41695839"
 2. リストで、場所を削除する場所の名前をクリックします。
 3. [**場所**] タブで削除する場所を選択し、[**削除**] をクリックします。
     
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [組織の緊急対応の場所の位置情報を追加、変更、削除する](add-change-remove-emergency-place-organization.md)
 - [組織の電話番号を管理する](/microsoftteams/manage-phone-numbers-for-your-organization)

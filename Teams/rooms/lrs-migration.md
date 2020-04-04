@@ -14,12 +14,13 @@ ms.collection:
 - M365-collaboration
 ms.assetid: ''
 description: このトピックでは、Lync Room System デバイスを移行して Microsoft Teams のルームソフトウェアを使用する方法について説明します。
-ms.openlocfilehash: 4f0c255c40c64274ff4b104a8706eb8f73ee792f
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 1b8b71637ec944c4d68fafbdde4263971590c453
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42155109"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137593"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-microsoft-teams-rooms"></a>Lync Room System (LRS) デバイスを Microsoft Teams ルームに移行する
 

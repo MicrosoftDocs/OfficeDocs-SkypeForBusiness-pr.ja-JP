@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams で電話会議の設定が変更されたときのメールの自動送信を有効または無効にする
+title: 電話会議の設定が変更されたときのメールオプション
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,19 +19,20 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
+- seo-marvel-mar2020
 description: 'Pin が変更された場合や、Microsoft Teams で既定の電話会議番号が変更された場合に、Skype が電子メールをユーザーに送信するのを有効または無効にする方法について説明します。 '
-ms.openlocfilehash: 3bb4b09cf1e60edcb9ffb4f4fdb981a9fd6ea0ae
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: f1c9ca14a88317cd921c19e761ee06cba2786dba
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836807"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141240"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a>Microsoft Teams で電話会議の設定が変更されたときのメールの自動送信を有効または無効にする
 
 電話会議が有効になっていると、ユーザーにメールで自動的に通知されます。 ただし、Microsoft Teams ユーザーに送信されるメールの数を少なくする必要がある場合もあります。 その場合は、メールの送信を無効にすることができます。
   
-メールの送信を無効にした場合、電話会議のメールはユーザーに送信されません。電話会議でユーザーが有効または無効になっているとき、電話会議の PIN がリセットされたとき、会議 ID と既定の会議の電話番号が変更されたときのメールが含まれます。.
+メールの送信を無効にすると、ユーザーが電話会議に対して有効または無効になっているときのメールや、PIN がリセットされたとき、会議 ID と既定の会議の電話番号が変更されたときのメールを含む、電話会議のメールはユーザーに送信されません。
   
 次に示すのは、電話会議が有効になっているユーザーに送信されるメールの例です。
   

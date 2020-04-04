@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams での共通領域電話のライセンスをセットアップする
+title: 共通の市外局番のライセンスを設定する
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
+- seo-marvel-mar2020
 description: 'ロビー、受付領域、会議室の一般的なエリア電話を設定する方法について説明します。 '
-ms.openlocfilehash: 5997137420a9cac0517f67a81c7dedc7b779b715
-ms.sourcegitcommit: f3d4f4aabe31c5516507dfacbbd61cf0ae362d46
+ms.openlocfilehash: da44a7d66cdc0810405711719f4545caf64007a7
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42089730"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140870"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Microsoft Teams での共通領域電話のライセンスをセットアップする
 > [!NOTE]
@@ -67,13 +68,13 @@ ms.locfileid: "42089730"
 |電話システム |    &#x2714; |
 |電話会議 |       &#x2718; &sup1;  |
 |Microsoft Intune |        &#x2718; &sup2; |
-|世界中どこでも利用可能 |    &#x2714; |
+|世界的な可用性 |    &#x2714; |
 |チャネルの可用性 |    EA、EAS、CSP、GCC、EES、Web ダイレクト  |
 |      |         |
 
 &sup1;一般的なエリア電話では、会議の開催者によって提供されるダイヤルイン番号を使用して、音声会議に参加できます。
 
-&sup2;主権 cloud では使用できません。  
+&sup2; ソブリン クラウドでは使用不可  
 
 
 
@@ -104,7 +105,7 @@ Teams 管理センターを使用して、ユーザーに番号を割り当て�
 
 1. Teams 管理センターで、[**電話番号**]**を選択し** > ます。
 
-3.  電話番号のリストから番号を選択し、** [割り当て]**  をクリックします。
+3.    電話番号のリストから番号を選択し、** [割り当て]**  をクリックします。
 
 4. [**割り当て**] ページの [音声ユーザー] ボックスに電話を使用するユーザーの名前を入力し、[**音声ユーザーの選択**] ドロップダウンリストでユーザーを選択します。
 

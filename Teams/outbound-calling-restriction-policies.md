@@ -1,5 +1,5 @@
 ---
-title: 電話会議およびユーザーの PSTN 通話に対する発信通話の制限ポリシー
+title: 発信通話制限-電話会議 & PSTN 通話
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
+- seo-marvel-mar2020
 description: 管理者は、ユーザーが発信できる電話会議とエンドユーザーの PSTN 通話の種類を制御できます。
-ms.openlocfilehash: 830ab45178c10ab485d50aafd66a4bf5d4db9011
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 253553e884b3f4591a7c5340132337d295cefe09
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836887"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137907"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>電話会議およびユーザーの PSTN 通話に対する発信通話の制限ポリシー
 
@@ -33,7 +34,7 @@ ms.locfileid: "41836887"
 
 発信通話コントロールは、ユーザー単位で適用できます。また、次の2つのコントロールを使用して、各送信通話の種類を個別に制限することができます。 既定では、両方のコントロールが国際通話と国内送信通話を許可するように設定されています。 
 
-|リモコン|説明|コントロールオプション|
+|リモコン|Description|コントロールオプション|
 |:-----|:-----|:-----|
 |電話会議の PSTN 通話|送信の種類を制限します </br>で許可されている通話 </br>ユーザーによって開催された会議。|国際および国内 (既定)</br>市外</br>なし|
 |エンドユーザーによる PSTN 通話|通話の種類を制限する </br>これはユーザーが行うことができます。|国際および国内 (既定)</br>市外</br>なし|
@@ -60,11 +61,11 @@ ms.locfileid: "41836887"
 
 ![Skype for Business のロゴを表示したアイコン](media/sfb-logo-30x30.png) **Skype for Business 管理センターの使用**
 
-1.  **Skype for business 管理センター**の左のナビゲーションで、[**電話会議** > **ユーザー**] に移動し、利用可能なユーザーのリストからユーザーを選びます。
+1.    **Skype for business 管理センター**の左のナビゲーションで、[**電話会議** > **ユーザー**] に移動し、利用可能なユーザーのリストからユーザーを選びます。
 
-2.  操作ウィンドウで、[ **編集**] をクリックします。
+2.    操作ウィンドウで、[ **編集**] をクリックします。
 
-3.  [**このユーザーの会議からのダイヤル**アウトの制限] で、目的のダイヤルアウト制限オプションを選びます。
+3.    [**このユーザーの会議からのダイヤル**アウトの制限] で、目的のダイヤルアウト制限オプションを選びます。
 
     ![ダイヤルアウトオプションの制限](media/restrictions-to-dial-outs.png)
 

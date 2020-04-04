@@ -1,5 +1,5 @@
 ---
-title: Skype for Business から Teams にアップグレードする前にユーザーの準備状況計画を用意する
+title: Teams にアップグレードするためのユーザーの準備計画を準備する
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -12,18 +12,20 @@ localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d52c9d670c81e0fcbdcf31012ec08a008b082459
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: 5519646aab3f1fbd14a2ee643313e50f9fbc678c
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706687"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136647"
 ---
 # <a name="prepare-a-user-readiness-plan"></a>ユーザーの研修計画を準備する
 
@@ -43,7 +45,7 @@ ms.locfileid: "42706687"
 
 | | |
 |---|---|
-| ![判断ポイントを表すアイコン](media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>新しいソリューションのユーザー導入を容易にするための準備計画を作成するにはどうすればよいですか。</li><li>ユーザーが変更を処理し、定義したユーザーのペルソナに対応しているかどうかに合わせて、適切な認識、トレーニング、およびサポートリソースを用意していますか。</li></ul> |
+| ![判断ポイントを表すアイコン](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>新しいソリューションのユーザー導入を容易にするための準備計画を作成するにはどうすればよいですか。</li><li>ユーザーが変更を処理し、定義したユーザーのペルソナに対応しているかどうかに合わせて、適切な認識、トレーニング、およびサポートリソースを用意していますか。</li></ul> |
 | ![次の手順を示すアイコン](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>次の一覧を使用して、準備計画のアイデアを作成します。 最も関連性の高いアクティビティを選択するか、独自のものを追加して、組織に最適化された準備計画を設計します。 最大の結果を得るには、(組織全体で) 広範なキャンペーンとターゲット (laggards または特定のペルソナ向け) の組み合わせを使用してください。</li></ul>|
 
 <div class="mx-tableFixed">

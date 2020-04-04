@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams でのユーザー フィードバックのベスト プラクティス
+title: ユーザーフィードバック方法のベストプラクティス
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -17,12 +17,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ac158a5d90c1a1cbe5e4dad5d6c5f894054e72ad
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: HT
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: a0dcb100ec04a03f48400cbaca01c001a250ffbc
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826205"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136887"
 ---
 <a name="best-practices-for-user-feedback-methods-in-microsoft-teams"></a>Microsoft Teams でのユーザー フィードバックの方法のベスト プラクティス
 ===========================================================
@@ -38,4 +39,4 @@ ms.locfileid: "41826205"
 <a name="showcases"></a>ショーケース
 ---------
 
-この導入を続けていく中で、お客様自身の環境において、Microsoft Teams を使用して驚異的で喜ばしい創造性を発揮する従業員のショーケースを目の当たりにすることになります。Microsoft は、このようなショーケースを広く共有することを推奨します。これにより、他のユーザーに対して革新的になることが奨励されたり、導入曲線の早期段階にいる可能性のあるユーザーを教育したり、Microsoft Teams を自分たちの環境において最適に使用するにはどうすれば良いか時間をかけて考えるユーザーに対して報奨を与えたりすることになります。四半期ごとに一定数のショーケースを識別するといった測定可能な目標を設定することにより、導入の気運を維持するのに役立ちます。
+この旅に進むと、Microsoft Teams を使用している皆さんが驚いているので、自分の従業員のお客様の環境でショーケースを見つけることができます。これらのショーを広く共有することをお勧めします。これにより、他のユーザーに革新的なものにしたり、導入曲線の前にあると考えられるユーザーを教育したり、お客様の環境で Microsoft Teams を最適に使用する方法について検討するための時間を短縮したりすることができます。各四半期の一連のショーケースを特定することによる測定可能な目標を設定することは、導入推進の維持に役立ちます。

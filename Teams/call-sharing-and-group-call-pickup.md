@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams での通話の共有およびグループ通話ピックアップ
+title: 通話の共有およびグループ通話ピックアップ
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -21,19 +21,20 @@ ms.custom:
 - ms.teamsadmincenter.users.voice.groupcallpickup.tooltip
 - ms.teamsadmincenter.users.voice.callorderanddelay.tooltip
 - Phone System
+- seo-marvel-mar2020
 description: 通話共有とグループ通話のピックアップユーザーが着信した通話を同僚と共有できるようにして、ユーザーが連絡不能なときに通話をキャプチャできるようにします。
-ms.openlocfilehash: c3a47c892940762807a86d6690fa59520f137960
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: aa59166d32de49b9163209a4836c7024d697fa8f
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824555"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141290"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Microsoft Teams での通話の共有およびグループ通話ピックアップ
 
 Microsoft Teams の通話共有とグループ通話のピックアップ機能を使用すると、ユーザーは着信通話を同僚と共有できるため、ユーザーが連絡できない間に発生した通話に同僚が応答できます。
 
-グループ通話のピックアップは、他の形式の通話共有 (着信の転送または同時呼び出しなど) よりも、受信者に対してはあまり影響がありません。ユーザーは、着信共有通話の通知方法 (音声と視覚的な通知を介して) を構成することができます。または、[Teams] アプリのバナーで、それに応答するかどうかを決定できます。
+グループ通話のピックアップは、他の形式の通話共有 (着信の転送、同時呼び出しなど) よりも、着信共有通話の通知方法 (チームアプリの音声と視覚的な通知、視覚のみ、またはバナーを使って) を構成し、それに応答するかどうかを決定することができます。
 
 通話を他のユーザーと共有するには、ユーザーが通話グループを作成し、通話を共有するユーザーを追加します。 次に、同時呼び出しまたは転送設定を選択します。 詳しくは[、「Teams での着信の転送と同時](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)呼び出し」をご覧ください。
 

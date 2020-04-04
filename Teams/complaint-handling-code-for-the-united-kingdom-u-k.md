@@ -1,5 +1,5 @@
 ---
-title: Office 365 での通話プラン - 英国 (U.K.) での苦情処理基準
+title: 英国の苦情処理コード -Office 365 通話プラン
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,14 +20,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - Legal
+- seo-marvel-mar2020
 hideEdit: true
-description: 'Learn how to make a complaint for Skype for business calling services (PSTN Calling in the United Kingdom), what the timelines are for replies, and how to resolve disputes for unresolved complaints. '
-ms.openlocfilehash: 4a035c77756acc811eec184c0749623a2142cf41
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+description: Skype for business 通話サービス (英国の PSTN 通話) に関する苦情、返信のタイムライン、未解決の苦情の紛争の解決などを行います。
+ms.openlocfilehash: 6bebf983d19461485f7f381c300fc6e5b3611b6b
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825575"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137287"
 ---
 # <a name="calling-plans-in-office-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Office 365 での通話プラン - 英国 (U.K.) での苦情処理基準
 

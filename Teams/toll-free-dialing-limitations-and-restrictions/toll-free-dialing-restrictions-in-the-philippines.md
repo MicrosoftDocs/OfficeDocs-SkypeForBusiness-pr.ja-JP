@@ -22,31 +22,32 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: これは、国/地域ごとに無料電話番号をダイヤルする方法を確認するのに役立ちます。 国または地域を選択すると、無料サービスの利用可能な無料サービスの利用に関する具体的な詳細、制限、制限が記載された国固有のページに移動します。 ダイヤル形式または形式では、無料番号をダイヤルするために、各国または地域で必要なアクセスコードが表示されます。
-ms.openlocfilehash: 8f22dd254a17d690a03822ceca2dbda583441d04
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+- seo-marvel-mar2020
+description: 可用性、有線/固定回線、携帯ネットワークの可用性、制限など、フィリピンの無料電話番号へのダイヤル方法について説明します。
+ms.openlocfilehash: 4d38c75a002733fda1874a7aba3a5a1d08a85ba0
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680754"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139756"
 ---
 # <a name="toll-free-dialing-restrictions-in-philippines"></a>フィリピンでのフリーダイヤル制限
 
-[別の国または地域を検索](../toll-free-dialing-limitations-and-restrictions.md)するか、無料ダイヤルの制限事項と制限についてご確認ください。
+[別の国または地域を検索](../toll-free-dialing-limitations-and-restrictions.md)、またはフリーダイヤルの制限について詳しく説明します。
 
 
 |**詳細**|**説明**|
 |:-----|:-----|
-|無料通話を利用できますか?  <br/> |あり  <br/> |
+|フリーダイヤルを利用できますか?  <br/> |はい  <br/> |
 |ダイヤル形式  <br/> |1 800 XXXX XXXX  <br/> |
 |国/地域の ISO コード  <br/> |PH  <br/> |
-|対象となる島/地域  <br/> |該当しない  <br/> |
-|対象外の島/地域  <br/> |該当しない  <br/> |
+|対象となる島/地域  <br/> |該当なし  <br/> |
+|対象外の島/地域  <br/> |該当なし  <br/> |
 |有線/固定回線の状態  <br/> | PLDT からのみ。 <br/> |
 |携帯電話ネットワークの状態  <br/> |部分的だが有料サービス料金が課金される。コメント参照。  <br/> |
 |コメント、制限、アクセスの問題など  <br/> |Sun Cellular と Smart Mobile のネットワークから使用可能。  <br/> |
    
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [無料電話ダイヤルの制限事項](../toll-free-dialing-limitations-and-restrictions.md)
 

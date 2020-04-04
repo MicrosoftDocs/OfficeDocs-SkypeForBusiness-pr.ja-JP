@@ -1,5 +1,5 @@
 ---
-title: GCCH と DoD のダイレクトルーティングを使用した電話会議
+title: Direct Routing、GCCH、DoD を搭載した電話会議
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -19,12 +19,13 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: GCCH および DoD 環境で直接ルーティングを使用して電話会議を使用する方法について説明します。
-ms.openlocfilehash: a8a9b5a46f1efd88de38fa65e857d3eebbbd6e3d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 6b8077e2bf376976c9906a8703ebd59a1d1cc23f
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42047188"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141170"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>GCC High および DoD のダイレクト ルーティングを使用する電話会議
 
@@ -72,7 +73,7 @@ CsHybridTelephoneNumber PowerShell コマンドレットを使用して、テナ
 
 次に例を示します。
   ```PowerShell
-  New-csHybridTelephoneNumber -TelephoneNumber “+14250000000”
+  New-csHybridTelephoneNumber -TelephoneNumber "+14250000000"
   ```
 
 #### <a name="assign-the-service-phone-numbers-to-the-audio-conferencing-bridge-of-your-organization"></a>サービスの電話番号を組織の電話会議ブリッジに割り当てる

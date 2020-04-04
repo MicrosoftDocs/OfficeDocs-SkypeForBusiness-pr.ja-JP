@@ -1,5 +1,5 @@
 ---
-title: イギリスでのフリーダイヤル制限
+title: 英国での無料ダイヤルの制限
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -22,31 +22,32 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: これは、国/地域ごとに無料電話番号をダイヤルする方法を確認するのに役立ちます。 国または地域を選択すると、無料サービスの利用可能な無料サービスの利用に関する具体的な詳細、制限、制限が記載された国固有のページに移動します。 ダイヤル形式または形式では、無料番号をダイヤルするために、各国または地域で必要なアクセスコードが表示されます。
-ms.openlocfilehash: adeb15216ecc7749ebddfc5939acdbfec204039c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+- seo-marvel-mar2020
+description: 利用可能時間、有線/固定回線、携帯電話ネットワークの利用可能時間、制限など、英国でのフリーダイヤル番号をダイヤルする方法について説明します。
+ms.openlocfilehash: 61136d0f0e52270a7a1038cde292ad1cd30aa1e3
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693722"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139736"
 ---
 # <a name="toll-free-dialing-restrictions-in-the-united-kingdom-uk"></a>イギリスでのフリーダイヤル制限
 
-[別の国または地域を検索](../toll-free-dialing-limitations-and-restrictions.md)するか、無料ダイヤルの制限事項と制限についてご確認ください。
+[別の国または地域を検索](../toll-free-dialing-limitations-and-restrictions.md)、またはフリーダイヤルの制限について詳しく説明します。
 
 
 |**詳細**|**説明**|
 |:-----|:-----|
-|無料通話を利用できますか?  <br/> |はい  <br/> |
+|フリーダイヤルを利用できますか?  <br/> |はい  <br/> |
 |ダイヤル形式  <br/> | 0 800 XXX XXXX <br/>  0 808 XXX XXXX <br/> |
 |国/地域の ISO コード  <br/> |以上  <br/> |
 |対象となる島/地域  <br/> |イングランド、ガーンジー島、マン島、北アイルランド、スコットランド、ウェールズ、チャンネル諸島  <br/> |
-|対象外の島/地域  <br/> |該当しない  <br/> |
-|有線/固定回線の状態  <br/> |あり  <br/> |
+|対象外の島/地域  <br/> |該当なし  <br/> |
+|有線/固定回線の状態  <br/> |はい  <br/> |
 |携帯電話ネットワークの状態  <br/> |はい  <br/> |
 |コメント、制限、アクセスの問題など  <br/> |なし  <br/> |
    
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [無料電話ダイヤルの制限事項](../toll-free-dialing-limitations-and-restrictions.md)
 

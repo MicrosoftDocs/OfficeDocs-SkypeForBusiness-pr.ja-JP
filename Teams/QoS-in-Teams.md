@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: Microsoft Teams でのサービスの品質 (QoS) のために組織のネットワークを準備する
+description: Microsoft Teams で、組織の QoS (Quality of Service) を行うためのネットワークを準備する方法について説明します。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -16,22 +16,23 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingsettings.qos
 - ms.teamsadmincenter.meetingsettings.network.qosmarkers
+- seo-marvel-mar2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31e8b01f5a48d74d516121c5a59ea79d94c317a3
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 545cbc1d170f6b511de5e8d21a237bc893ee0702
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834737"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43138037"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Microsoft Teams でサービスの品質 (QoS) を実装する
 
 この記事では、Microsoft Teams のサービス品質 (QoS) のために組織のネットワークを準備する方法について説明します。 大規模なユーザーグループをサポートしていて、次のいずれかの問題が発生している場合は、おそらく QoS を実装する必要があります。 ユーザー数の少ない小規模企業は、QoS を必要としない場合もありますが、役に立ちます。
 
-QoS は、ネットワークの遅延に敏感なトラフィック (音声やビデオストリームなど) を使用して、機密度の低いトラフィック (新しいアプリのダウンロードなど) を実行することによって、(ダウンロードがあまり重要ではない) トラフィックを事前に行うことができます。 QoS は、リアルタイムストリーム内のすべてのパケット (Windows グループポリシーオブジェクトと、ポートベースのアクセス制御リストと呼ばれるルーティング機能を使用します) を識別してマークします。これにより、ネットワークで音声、ビデオ、画面の共有を行うことができます。ネットワーク帯域幅の専用部分。
+QoS は、ネットワークの遅延に敏感なトラフィック (音声やビデオストリームなど) を使用して、機密度の低いトラフィック (新しいアプリのダウンロードなど) を実行することによって、(ダウンロードがあまり重要ではない) トラフィックを事前に行うことができます。 QoS は、リアルタイムストリーム内のすべてのパケット (Windows グループポリシーオブジェクトと、ポートベースのアクセス制御リストと呼ばれるルーティング機能を使用します) を識別してマークします。これにより、ネットワークでは、音声、ビデオ、スクリーン共有がネットワーク帯域幅の専用部分を提供します。
 
 QoS の形式がないと、音声とビデオで次の品質の問題が発生する可能性があります。
 
@@ -79,7 +80,7 @@ _図2QoS キューの例_
 
 ネットワークのルーターでアクセス制御リスト (Acl) を使用して、ポートベースのタグを使って QoS を実装することができます。 ポートベースのタグ付けは、Windows と Mac の混合環境で動作し、実装が最も簡単な方法であるため、最も信頼できる方法です。 モバイルクライアントでは、DSCP 値を使ってトラフィックをマークするメカニズムは用意されていないため、この方法が必要になります。  
 
-この方法を使用すると、ネットワークのルーターは受信パケットを調べます。また、特定のポートまたはポートの範囲を使ってパケットが着信した場合は、特定のメディアの種類として識別さ[](https://tools.ietf.org/html/rfc2474)れ、それをその種類のキューに入れて、他のデバイスがそのトラフィックの種類を認識してキューの優先順位を上げることが
+この方法を使用すると、ネットワークのルーターは受信パケットを調べます。また、特定のポートまたはポートの範囲を使ってパケットが着信した場合は、特定のメディアの種類として識別さ[DSCP](https://tools.ietf.org/html/rfc2474)れ、それをその種類のキューに入れて、他のデバイスがそのトラフィックの種類を認識してキューの優先順位を上げることが
 
 これは、すべてのプラットフォームで機能しますが、WAN edge でトラフィックをマークするだけで、管理のオーバーヘッドが生じます。 この方法を実装する手順については、ルーター製造元から提供されているドキュメントを参照してください。
 
