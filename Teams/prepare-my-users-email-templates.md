@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams または Skype for Business のロールアウトのためのユーザー導入メール テンプレート
+title: オンライン電話システムのロールアウト用のユーザー通知の電子メールテンプレート
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -15,36 +15,37 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eaba4d3231438eb3eb93a1c88100eec5ca6a518c
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 0382f8033d9faf925d5d5cd4023bf43e543b7b86
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834647"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137517"
 ---
-# <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a><span data-ttu-id="45f17-103">新しいオンライン電話システムのユーザーの導入を容易にする</span><span class="sxs-lookup"><span data-stu-id="45f17-103">Facilitate user adoption of your new online phone system</span></span>
+# <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a><span data-ttu-id="9604e-103">新しいオンライン電話システムのユーザーの導入を容易にする</span><span class="sxs-lookup"><span data-stu-id="9604e-103">Facilitate user adoption of your new online phone system</span></span>
 
-<span data-ttu-id="45f17-104">電話はユーザーの生存線にすることができます。</span><span class="sxs-lookup"><span data-stu-id="45f17-104">A phone can be a user’s lifeline.</span></span> <span data-ttu-id="45f17-105">従来の電話システムからオンライン電話システムに切り替えることは、ユーザーが作業する方法の大幅な変更を意味し、生産性に悪影響を与える可能性があります。</span><span class="sxs-lookup"><span data-stu-id="45f17-105">Switching from a traditional phone system to an online phone system represents a significant change in the way users work, and can negatively affect productivity.</span></span> <span data-ttu-id="45f17-106">この変更によってユーザーの通知、ガイド、サポートを行うことができます。これにより、ユーザーエクスペリエンスを向上させ、投資収益率を最大限に高めることができます。</span><span class="sxs-lookup"><span data-stu-id="45f17-106">Taking time to inform, guide, and support users through this change can help ensure a positive user experience and maximize your return on investment.</span></span>
+<span data-ttu-id="9604e-104">電話はユーザーの生存線にすることができます。</span><span class="sxs-lookup"><span data-stu-id="9604e-104">A phone can be a user's lifeline.</span></span> <span data-ttu-id="9604e-105">従来の電話システムからオンライン電話システムに切り替えることは、ユーザーが作業する方法の大幅な変更を意味し、生産性に悪影響を与える可能性があります。</span><span class="sxs-lookup"><span data-stu-id="9604e-105">Switching from a traditional phone system to an online phone system represents a significant change in the way users work, and can negatively affect productivity.</span></span> <span data-ttu-id="9604e-106">この変更によってユーザーの通知、ガイド、サポートを行うことができます。これにより、ユーザーエクスペリエンスを向上させ、投資収益率を最大限に高めることができます。</span><span class="sxs-lookup"><span data-stu-id="9604e-106">Taking time to inform, guide, and support users through this change can help ensure a positive user experience and maximize your return on investment.</span></span>
 
-<span data-ttu-id="45f17-107">この記事には、新しい電話システムについてユーザーに通知するためのカスタマイズ可能なメールテンプレートが含まれています。</span><span class="sxs-lookup"><span data-stu-id="45f17-107">This article contains customizable email templates to help inform users about their new phone system.</span></span> <span data-ttu-id="45f17-108">特定の音声展開に合わせて、適切なメールをカスタマイズして送信します。</span><span class="sxs-lookup"><span data-stu-id="45f17-108">Customize and send the appropriate emails to align with your specific voice deployment.</span></span> <span data-ttu-id="45f17-109">簡単にカスタマイズできるセクションを示すために、かっこを使用しましたが、ユーザーにとって最も関連性の高いお知らせとなるように、組織固有のメッセージを追加することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="45f17-109">We’ve used brackets to indicate sections for easy personalization, but we recommend that you add organization-specific messaging to make the announcement most relevant for your users.</span></span> <span data-ttu-id="45f17-110">展開に該当する場合は、"Teams" へのすべての参照を "Skype for Business" に置き換えます。</span><span class="sxs-lookup"><span data-stu-id="45f17-110">If applicable for your deployment, replace all references to “Teams” with “Skype for Business.”</span></span>
+<span data-ttu-id="9604e-107">この記事には、新しい電話システムについてユーザーに通知するためのカスタマイズ可能なメールテンプレートが含まれています。</span><span class="sxs-lookup"><span data-stu-id="9604e-107">This article contains customizable email templates to help inform users about their new phone system.</span></span> <span data-ttu-id="9604e-108">特定の音声展開に合わせて、適切なメールをカスタマイズして送信します。</span><span class="sxs-lookup"><span data-stu-id="9604e-108">Customize and send the appropriate emails to align with your specific voice deployment.</span></span> <span data-ttu-id="9604e-109">簡単にカスタマイズできるセクションを示すために、かっこを使用しましたが、ユーザーにとって最も関連性の高いお知らせとなるように、組織固有のメッセージを追加することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="9604e-109">We've used brackets to indicate sections for easy personalization, but we recommend that you add organization-specific messaging to make the announcement most relevant for your users.</span></span> <span data-ttu-id="9604e-110">展開に該当する場合は、"Teams" へのすべての参照を "Skype for Business" に置き換えます。</span><span class="sxs-lookup"><span data-stu-id="9604e-110">If applicable for your deployment, replace all references to "Teams" with "Skype for Business."</span></span>
 
-## <a name="email-number-1-send-three-weeks-before-launch"></a><span data-ttu-id="45f17-111">メール番号 1: 起動する3週間前に送信する</span><span class="sxs-lookup"><span data-stu-id="45f17-111">Email number 1: Send three weeks before launch</span></span>
+## <a name="email-number-1-send-three-weeks-before-launch"></a><span data-ttu-id="9604e-111">メール番号 1: 起動する3週間前に送信する</span><span class="sxs-lookup"><span data-stu-id="9604e-111">Email number 1: Send three weeks before launch</span></span>
 
-<span data-ttu-id="45f17-112">件名行:</span><span class="sxs-lookup"><span data-stu-id="45f17-112">Subject line:</span></span>
+<span data-ttu-id="9604e-112">件名行:</span><span class="sxs-lookup"><span data-stu-id="9604e-112">Subject line:</span></span>
 
 ```
 IMPORTANT ANNOUNCEMENT about your office desk phone
 ```
 
-<span data-ttu-id="45f17-113">メールの本文:</span><span class="sxs-lookup"><span data-stu-id="45f17-113">Body of email:</span></span>
+<span data-ttu-id="9604e-113">メールの本文:</span><span class="sxs-lookup"><span data-stu-id="9604e-113">Body of email:</span></span>
 
 ```
 Instant messaging and online meetings have become a common way to communicate
 with others, but your phone can still be a lifeline to getting your job done.
-From building rapport when you can’t be there in person to maintaining momentum
-on a project, sometimes it’s easier to just pick up the phone and talk to
+From building rapport when you can't be there in person to maintaining momentum
+on a project, sometimes it's easier to just pick up the phone and talk to
 someone. At the same time, we understand that many of you work remotely, have
-flexible work schedules or travel frequently and can’t be tethered to your
+flexible work schedules or travel frequently and can't be tethered to your
 desk or phone all day.
 
 To better adapt to how you work, we want to ensure you have flexibility in how
@@ -93,15 +94,15 @@ If you have questions concerning this change, contact <INSERT NAME/EMAIL>.
 <INSERT NAME OF EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-2-send-one-week-before-launch"></a><span data-ttu-id="45f17-114">メール番号 2: 起動前に1週間送信する</span><span class="sxs-lookup"><span data-stu-id="45f17-114">Email number 2: Send one week before launch</span></span>
+## <a name="email-number-2-send-one-week-before-launch"></a><span data-ttu-id="9604e-114">メール番号 2: 起動前に1週間送信する</span><span class="sxs-lookup"><span data-stu-id="9604e-114">Email number 2: Send one week before launch</span></span>
 
-<span data-ttu-id="45f17-115">件名行:</span><span class="sxs-lookup"><span data-stu-id="45f17-115">Subject line:</span></span>
+<span data-ttu-id="9604e-115">件名行:</span><span class="sxs-lookup"><span data-stu-id="9604e-115">Subject line:</span></span>
 
 ```
 ACTION REQUESTED: Are you ready for your new phone system?
 ```
 
-<span data-ttu-id="45f17-116">メールの本文:</span><span class="sxs-lookup"><span data-stu-id="45f17-116">Body of email:</span></span>
+<span data-ttu-id="9604e-116">メールの本文:</span><span class="sxs-lookup"><span data-stu-id="9604e-116">Body of email:</span></span>
 
 ```
 Your new phone calling capabilities are almost here. As explained in our initial
@@ -119,7 +120,7 @@ With this new calling system, you'll be able to...
 
 -   Switch devices, allowing you to take your calls with you and limiting disruption.
 
-CALL TO ACTION. If you haven’t already done so:
+CALL TO ACTION. If you haven't already done so:
 
 -   Order your new headset. To ensure the best audio quality, use an
     approved headset. You can view available options and order yours at <INSERT LINK>.
@@ -137,22 +138,22 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER>
 ```
 
-## <a name="email-number-3-send-on-launch-day"></a><span data-ttu-id="45f17-117">メール番号 3: 起動日に送信</span><span class="sxs-lookup"><span data-stu-id="45f17-117">Email number 3: Send on launch day</span></span>
+## <a name="email-number-3-send-on-launch-day"></a><span data-ttu-id="9604e-117">メール番号 3: 起動日に送信</span><span class="sxs-lookup"><span data-stu-id="9604e-117">Email number 3: Send on launch day</span></span>
 
-<span data-ttu-id="45f17-118">件名行:</span><span class="sxs-lookup"><span data-stu-id="45f17-118">Subject line:</span></span>
+<span data-ttu-id="9604e-118">件名行:</span><span class="sxs-lookup"><span data-stu-id="9604e-118">Subject line:</span></span>
 
 ```
 IMPORTANT NOTICE: Your new phone system is live
 ```
 
-<span data-ttu-id="45f17-119">メールの本文:</span><span class="sxs-lookup"><span data-stu-id="45f17-119">Body of email:</span></span>
+<span data-ttu-id="9604e-119">メールの本文:</span><span class="sxs-lookup"><span data-stu-id="9604e-119">Body of email:</span></span>
 
 ```
 Welcome to your new phone system. Your Microsoft Teams application
 has been enabled with phone calling capabilities. You should now see a dial pad
 tab on your client, enabling you to make outgoing calls and listen to
 your voicemail. When a call comes in, you'll receive an alert, just like you
-would for an instant message. Just select the alert to answer the call – it’s
+would for an instant message. Just select the alert to answer the call – it's
 that easy!
 
 CALL TO ACTION
@@ -174,15 +175,15 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER OR EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-4-send-two-weeks-after-launch"></a><span data-ttu-id="45f17-120">メール番号 4: 起動後に2週間分送信する</span><span class="sxs-lookup"><span data-stu-id="45f17-120">Email number 4: Send two weeks after launch</span></span>
+## <a name="email-number-4-send-two-weeks-after-launch"></a><span data-ttu-id="9604e-120">メール番号 4: 起動後に2週間分送信する</span><span class="sxs-lookup"><span data-stu-id="9604e-120">Email number 4: Send two weeks after launch</span></span>
 
-<span data-ttu-id="45f17-121">件名行:</span><span class="sxs-lookup"><span data-stu-id="45f17-121">Subject line:</span></span>
+<span data-ttu-id="9604e-121">件名行:</span><span class="sxs-lookup"><span data-stu-id="9604e-121">Subject line:</span></span>
 
 ```
 FEEDBACK REQUESTED: Your new phone system
 ```
 
-<span data-ttu-id="45f17-122">メールの本文:</span><span class="sxs-lookup"><span data-stu-id="45f17-122">Body of email:</span></span>
+<span data-ttu-id="9604e-122">メールの本文:</span><span class="sxs-lookup"><span data-stu-id="9604e-122">Body of email:</span></span>
 
 ```
 It's been a few weeks since you started using Microsoft Teams to

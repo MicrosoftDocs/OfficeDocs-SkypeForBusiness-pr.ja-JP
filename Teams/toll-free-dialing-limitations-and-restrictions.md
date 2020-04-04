@@ -21,21 +21,22 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: これは、国/地域ごとに無料電話番号をダイヤルする方法を確認するのに役立ちます。 国または地域を選択すると、無料サービスの利用可能な無料サービスの利用に関する具体的な詳細、制限、制限が記載された国固有のページに移動します。 ダイヤル形式または形式では、無料番号をダイヤルするために、各国または地域の必要なアクセスコードが表示されます。
-ms.openlocfilehash: 270d169be6992b97dfba94bedd4802560af78ef8
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-mar2020
+description: 利用可能時間、有線/固定回線、携帯電話ネットワークの可用性、制限を含む、無料の電話番号を国/地域でダイヤルする方法について説明します。
+ms.openlocfilehash: e987a392be81178a043835f44e34c67143609244
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836907"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140556"
 ---
-# <a name="toll-free-dialing-limitations-and-restrictions"></a><span data-ttu-id="3e8ec-105">無料電話ダイヤルの制限事項と制約事項</span><span class="sxs-lookup"><span data-stu-id="3e8ec-105">Toll-free dialing limitations and restrictions</span></span>
+# <a name="toll-free-dialing-limitations-and-restrictions"></a><span data-ttu-id="63754-103">無料電話ダイヤルの制限事項と制約事項</span><span class="sxs-lookup"><span data-stu-id="63754-103">Toll-free dialing limitations and restrictions</span></span>
 
-<span data-ttu-id="3e8ec-106">これは、国または地域ごとに無料電話番号をダイヤルする方法を確認するのに役立ちます。</span><span class="sxs-lookup"><span data-stu-id="3e8ec-106">This will help you find out how to dial toll free numbers in each country or region.</span></span> <span data-ttu-id="3e8ec-107">国または地域を選択すると、特定の詳細、制限、制限など、有料サービスの利用可能な場所が記載されたページに移動します。</span><span class="sxs-lookup"><span data-stu-id="3e8ec-107">After you select the country/region, it will take you to a page that contains where toll free service is available including specific details, restrictions, and limits.</span></span> <span data-ttu-id="3e8ec-108">ダイヤル形式または形式では、無料番号をダイヤルするために、各国または地域の必要なアクセスコードが表示されます。</span><span class="sxs-lookup"><span data-stu-id="3e8ec-108">The dialing format or formats will show you the required access codes within each country/region to dial the toll-free number.</span></span>
+<span data-ttu-id="63754-104">これは、国または地域ごとに無料電話番号をダイヤルする方法を確認するのに役立ちます。</span><span class="sxs-lookup"><span data-stu-id="63754-104">This will help you find out how to dial toll free numbers in each country or region.</span></span> <span data-ttu-id="63754-105">国または地域を選択すると、特定の詳細、制限、制限など、有料サービスの利用可能な場所が記載されたページに移動します。</span><span class="sxs-lookup"><span data-stu-id="63754-105">After you select the country/region, it will take you to a page that contains where toll free service is available including specific details, restrictions, and limits.</span></span> <span data-ttu-id="63754-106">ダイヤル形式または形式では、無料番号をダイヤルするために、各国または地域の必要なアクセスコードが表示されます。</span><span class="sxs-lookup"><span data-stu-id="63754-106">The dialing format or formats will show you the required access codes within each country/region to dial the toll-free number.</span></span>
   
-<span data-ttu-id="3e8ec-109">準備ができたら、国または地域を選択します。</span><span class="sxs-lookup"><span data-stu-id="3e8ec-109">If you're ready, select a country or region:</span></span>
+<span data-ttu-id="63754-107">準備ができたら、国または地域を選択します。</span><span class="sxs-lookup"><span data-stu-id="63754-107">If you're ready, select a country or region:</span></span>
   
-## <a name="select-your-country-or-region-to-see-the-dialing-codes-limitations-and-restrictions"></a><span data-ttu-id="3e8ec-110">お住まいの国または地域を選択すると、ダイヤルコード、制限事項、制限が表示されます。</span><span class="sxs-lookup"><span data-stu-id="3e8ec-110">Select your country or region to see the dialing codes, limitations and restrictions.</span></span>
+## <a name="select-your-country-or-region-to-see-the-dialing-codes-limitations-and-restrictions"></a><span data-ttu-id="63754-108">お住まいの国または地域を選択すると、ダイヤルコード、制限事項、制限が表示されます。</span><span class="sxs-lookup"><span data-stu-id="63754-108">Select your country or region to see the dialing codes, limitations and restrictions.</span></span>
 
 > [!div class="op_single_selector"]    
 > - [アルゼンチン](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
@@ -101,26 +102,26 @@ ms.locfileid: "41836907"
 > - [ベネズエラ](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela.md)
 > - [Vietnam](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam.md)
   
-## <a name="here-are-some-important-things-for-you-to-remember-about-toll-free-numbers"></a><span data-ttu-id="3e8ec-173">無料電話番号について覚えておくべき重要なポイントをいくつか紹介します。</span><span class="sxs-lookup"><span data-stu-id="3e8ec-173">Here are some important things for you to remember about toll free numbers:</span></span>
+## <a name="here-are-some-important-things-for-you-to-remember-about-toll-free-numbers"></a><span data-ttu-id="63754-171">無料電話番号について覚えておくべき重要なポイントをいくつか紹介します。</span><span class="sxs-lookup"><span data-stu-id="63754-171">Here are some important things for you to remember about toll free numbers:</span></span>
 
-- <span data-ttu-id="3e8ec-174">**無料電話番号は、国/地域内でのみ機能します。**</span><span class="sxs-lookup"><span data-stu-id="3e8ec-174">**Toll free numbers only operate within each country/region.**</span></span> <span data-ttu-id="3e8ec-175">たとえば、ユーザーはオーストラリアの外からオーストラリアの無料電話番号を発信することはできません。</span><span class="sxs-lookup"><span data-stu-id="3e8ec-175">For example, your users won't be able to call an Australian toll-free number outside of Australia.</span></span>
+- <span data-ttu-id="63754-172">**無料電話番号は、国/地域内でのみ機能します。**</span><span class="sxs-lookup"><span data-stu-id="63754-172">**Toll free numbers only operate within each country/region.**</span></span> <span data-ttu-id="63754-173">たとえば、ユーザーはオーストラリアの外からオーストラリアの無料電話番号を発信することはできません。</span><span class="sxs-lookup"><span data-stu-id="63754-173">For example, your users won't be able to call an Australian toll-free number outside of Australia.</span></span>
     
-- <span data-ttu-id="3e8ec-176">**ユニバーサル国際フリーダイヤル番号 (UIFN) の取得または移植はサポートされていません。**</span><span class="sxs-lookup"><span data-stu-id="3e8ec-176">**Acquiring or porting Universal International Freephone Numbers (UIFN) isn't supported.**</span></span>
+- <span data-ttu-id="63754-174">**ユニバーサル国際フリーダイヤル番号 (UIFN) の取得または移植はサポートされていません。**</span><span class="sxs-lookup"><span data-stu-id="63754-174">**Acquiring or porting Universal International Freephone Numbers (UIFN) isn't supported.**</span></span>
     
-- <span data-ttu-id="3e8ec-177">**多くの国/地域では、国/地域のレギュレータ/電気通信機関は、電話番号を保持するために、1ヶ月あたり少なくとも100分の利用可能時間を管理する必要があります。**</span><span class="sxs-lookup"><span data-stu-id="3e8ec-177">**In many countries/regions, the regulator/telecommunication agency in the country/region requires each toll free phone number to maintain at least 100 minutes of usage per month in order to retain the number.**</span></span>
+- <span data-ttu-id="63754-175">**多くの国/地域では、国/地域のレギュレータ/電気通信機関は、電話番号を保持するために、1ヶ月あたり少なくとも100分の利用可能時間を管理する必要があります。**</span><span class="sxs-lookup"><span data-stu-id="63754-175">**In many countries/regions, the regulator/telecommunication agency in the country/region requires each toll free phone number to maintain at least 100 minutes of usage per month in order to retain the number.**</span></span>
     
     > [!NOTE]
-    > <span data-ttu-id="3e8ec-178">無料電話番号を取得して、その番号の使用時間がこれらの最低要件を満たさない場合、Microsoft は規制機関または通信局の指示に従って、お客様に対して当該番号の返還を要求する場合があります。</span><span class="sxs-lookup"><span data-stu-id="3e8ec-178">In the event you get a toll free number and the usage of the number doesn't meet these minimum requirements, Microsoft may be compelled by the regulator/telecommunication agency to reclaim the number from you.</span></span> 
+    > <span data-ttu-id="63754-176">無料電話番号を取得して、その番号の使用時間がこれらの最低要件を満たさない場合、Microsoft は規制機関または通信局の指示に従って、お客様に対して当該番号の返還を要求する場合があります。</span><span class="sxs-lookup"><span data-stu-id="63754-176">In the event you get a toll free number and the usage of the number doesn't meet these minimum requirements, Microsoft may be compelled by the regulator/telecommunication agency to reclaim the number from you.</span></span> 
   
-- <span data-ttu-id="3e8ec-179">**無料電話番号への有線、固定回線、携帯電話ネットワークによるアクセスは、完全に、または部分的に制限されます。**</span><span class="sxs-lookup"><span data-stu-id="3e8ec-179">**Wireline, fixed line, and mobile network access to toll-free numbers may be fully or partially restricted.**</span></span> <span data-ttu-id="3e8ec-180">ダイヤル形式は、無料電話番号を使用して通話を発信するために、各国または地域内の必要なアクセスコードを記述します。</span><span class="sxs-lookup"><span data-stu-id="3e8ec-180">The dialing format describes the required access codes within each country/region to place calls using the toll free number.</span></span>
+- <span data-ttu-id="63754-177">**無料電話番号への有線、固定回線、携帯電話ネットワークによるアクセスは、完全に、または部分的に制限されます。**</span><span class="sxs-lookup"><span data-stu-id="63754-177">**Wireline, fixed line, and mobile network access to toll-free numbers may be fully or partially restricted.**</span></span> <span data-ttu-id="63754-178">ダイヤル形式は、無料電話番号を使用して通話を発信するために、各国または地域内の必要なアクセスコードを記述します。</span><span class="sxs-lookup"><span data-stu-id="63754-178">The dialing format describes the required access codes within each country/region to place calls using the toll free number.</span></span>
     
-- <span data-ttu-id="3e8ec-181">**北米での番号付けプラン無料電話番号:** 北米の番号付けプランの1分あたりの料金無料電話番号は、発信元の国によって決まります。</span><span class="sxs-lookup"><span data-stu-id="3e8ec-181">**North America Numbering Plan Toll Free Numbers:** Per-minute rates for North America Numbering Plan toll free numbers are determined by the originating country.</span></span> <span data-ttu-id="3e8ec-182">米国地図から「北アメリカ」として定義されている料金に対する通話の無料料金 (分単位)。</span><span class="sxs-lookup"><span data-stu-id="3e8ec-182">The toll free per-minute rate for calls that originate from the United States map to the rate defined as "North America."</span></span> <span data-ttu-id="3e8ec-183">ただし、カナダ、プエルトリコなどの他の北米国から発信された通話には、特定の有料電話料金がかかります。</span><span class="sxs-lookup"><span data-stu-id="3e8ec-183">However, calls that originate from other North American countries such as Canada, Puerto Rico, etc. have specific toll free rates.</span></span>
+- <span data-ttu-id="63754-179">**北米での番号付けプラン無料電話番号:** 北米の番号付けプランの1分あたりの料金無料電話番号は、発信元の国によって決まります。</span><span class="sxs-lookup"><span data-stu-id="63754-179">**North America Numbering Plan Toll Free Numbers:** Per-minute rates for North America Numbering Plan toll free numbers are determined by the originating country.</span></span> <span data-ttu-id="63754-180">米国地図から「北アメリカ」として定義されている料金に対する通話の無料料金 (分単位)。</span><span class="sxs-lookup"><span data-stu-id="63754-180">The toll free per-minute rate for calls that originate from the United States map to the rate defined as "North America."</span></span> <span data-ttu-id="63754-181">ただし、カナダ、プエルトリコなどの他の北米国から発信された通話には、特定の有料電話料金がかかります。</span><span class="sxs-lookup"><span data-stu-id="63754-181">However, calls that originate from other North American countries such as Canada, Puerto Rico, etc. have specific toll free rates.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="3e8ec-184">さらに追加で電話番号が必要な場合は、「[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="3e8ec-184">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
+> <span data-ttu-id="63754-182">さらに追加で電話番号が必要な場合は、「[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="63754-182">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
     
-## <a name="related-topics"></a><span data-ttu-id="3e8ec-185">関連トピック</span><span class="sxs-lookup"><span data-stu-id="3e8ec-185">Related topics</span></span>
-[<span data-ttu-id="3e8ec-186">Skype for Business および Microsoft Teams のサービス電話番号の取得</span><span class="sxs-lookup"><span data-stu-id="3e8ec-186">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
+## <a name="related-topics"></a><span data-ttu-id="63754-183">関連トピック</span><span class="sxs-lookup"><span data-stu-id="63754-183">Related topics</span></span>
+[<span data-ttu-id="63754-184">Skype for Business および Microsoft Teams のサービス電話番号の取得</span><span class="sxs-lookup"><span data-stu-id="63754-184">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
 
   
  
