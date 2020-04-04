@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: keschm
-description: Firstline Worker 用に Microsoft Teams を展開またはプロビジョニングするスクリプトの使用方法について説明します。
+description: Firstline Worker 用に Microsoft Teams を展開またはプロビジョニングするスクリプトの使用する際のガイダンス。
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
@@ -18,14 +18,14 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4bb1250fd3cc02599fafa37ab6ac694403e33df9
-ms.sourcegitcommit: f0f2fa999c1ca4a1118377c7938a247f79217609
+ms.openlocfilehash: caecd0d97e760470604fa164e6356a59699e57ad
+ms.sourcegitcommit: bc1d2e0478a429f981b53765e6194443b32ae35c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43106892"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43122921"
 ---
-# <a name="how-to-provisions-teams-at-scale-for-firstline-workers"></a>Firstline Workers 用に規模に応じて Teams をプロビジョニングする方法
+# <a name="how-to-provision-teams-at-scale-for-firstline-workers"></a>現場担当者向けにTeams 大規模にプロビジョニングする方法
 
 Microsoft Teams に多数のユーザーをすばやく登録し、作業を効率化する必要がありますか? 次の手順を実行して、ID のプロビジョニング、Teams のプロビジョニング、関連するすべてのポリシーの割り当てをすばやく行い、エンド ユーザー エクスペリエンスを制御できます。
 
