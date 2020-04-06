@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams の移行メールとアンケート |基本的なアップグレード
+title: Microsoft Teams への移行メールおよびアンケート | 基本的なアップグレード
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 audience: admin
-description: Skype for Business から Teams へのアップグレードに関する10段階のアクセラレータ付きアクションプランを使用した conjunciton のサンプルメールとアンケート
+description: Skype for Business から Teams にアップグレードするための簡単な 10 ステップのアクション プランと組み合わせて使用​​するサンプルのメールとアンケート
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,20 +20,20 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 7b90c8f5d7094c036f29a6b64ecfca4e26f51640
 ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 02/06/2020
 ms.locfileid: "41837227"
 ---
-# <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>アップグレードの基本的なコミュニケーションのサンプルメールとアンケート
+# <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>アップグレードの基本手順についてコミュニケーションするためのサンプル メールとアンケート
 
-## <a name="sample-emails"></a>サンプルメール
+## <a name="sample-emails"></a>サンプルのメール
 
 <a name="step-1-email"></a>
 
-### <a name="stakeholder-email-for-step-1"></a>ステップ1の関係者のメール
+### <a name="stakeholder-email-for-step-1"></a>関係者へのメール (手順 1)
 
-件名行:
+件名行: 
 
 ```
 IMPORTANT ANNOUNCEMENT Regarding Skype for Business
@@ -49,13 +49,13 @@ Microsoft has indicated that Teams now has key capabilities that meet our commun
 Microsoft has provided an upgrade checklist outlining the essential tasks we should take to facilitate this transition. If you’re listed on the To line, you’re a key stakeholder in executing a successful transition to Teams and I may be reaching out for assistance. In the interim, let me know if you have any questions.
 ````
 
-[手順1に戻る](upgrade-basic.md#step-1)
+[手順 1 に戻る](upgrade-basic.md#step-1)
 
 <a name="step-4-email"></a>
 
-### <a name="notify-users-email-for-step-4"></a>手順4でユーザーのメールに通知する
+### <a name="notify-users-email-for-step-4"></a>ユーザーにメールで通知する (手順 4)
 
-件名行:
+件名行: 
 
 ```
 IMPORTANT ANNOUNCEMENT Regarding Skype for Business
@@ -78,13 +78,13 @@ CALL TO ACTION: Get started with Teams today
 If you have questions or need help, please reach out to <<insert company support information>>.
 ````
 
-[手順4に戻る](upgrade-basic.md#step-4)
+[手順 4 に戻る](upgrade-basic.md#step-4)
 
 <a name="step-6-email"></a>
 
-### <a name="remind-users-email-for-step-6"></a>手順6の場合は、ユーザーにメールで通知する
+### <a name="remind-users-email-for-step-6"></a>ユーザーにメールで通知する (手順 6)
 
-件名行: アラーム: Teams へのアップグレードを準備する
+件名: リマインダー: Teams へのアップグレードの準備をする
 
 ```
 ACTION REQUIRED: Host your next online meeting in Teams
@@ -109,13 +109,13 @@ Tip: If you need assistance with scheduling meetings, T-Bot can help! In the Tea
 Should you have questions about this upgrade, contact <<insert alias or contact info>>.
 ````
 
-[手順6に戻る](upgrade-basic.md#step-6)
+[手順 6 に戻る](upgrade-basic.md#step-6)
 
 <a name="step-7-email"></a>
 
-### <a name="welcome-users-email-from-the-executive-sponsor-for-step-7"></a>手順7のエグゼクティブスポンサーからのユーザーメールをようこそ
+### <a name="welcome-users-email-from-the-executive-sponsor-for-step-7"></a>エグゼクティブ スポンサーからユーザーへのようこそメール (手順 7)
 
-件名行:
+件名行: 
 
 ```
 PLEASE READ: Skype for Business is now Microsoft Teams
@@ -144,13 +144,13 @@ Regards,
 <<insert executive sponsor name>>
 ````
 
-[手順7に戻る](upgrade-basic.md#step-7)
+[手順 7 に戻る](upgrade-basic.md#step-7)
 
 <a name="step-9-email"></a>
 
-### <a name="check-in-email-for-step-9"></a>手順9のチェックインメール
+### <a name="check-in-email-for-step-9"></a>チェックイン メール (手順 9)
 
-件名行:
+件名行: 
 
 ```
 ACTION REQUESTED: Tell us about your Microsoft Teams experience
@@ -166,13 +166,13 @@ Share your feedback (see sample below) and transition experience with us. Your i
 Should you have questions, contact <<insert alias or contact info>>.
 ````
 
-[手順9に戻る](upgrade-basic.md#step-9)
+[手順 9 に戻る](upgrade-basic.md#step-9)
 
 <a name="step-10-email"></a>
 
-### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>手順10について、チームとチャネルについてユーザーに質問してもらうようにメールを送信する
+### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>ユーザーに Teams とチャネルの使用を依頼するメール (手順 10)
 
-件名行:
+件名行: 
 
 ```
 CALL TO ACTION: Give teams and channels a try
@@ -193,42 +193,42 @@ Tip: The best use of the Teams workspace comes when the right people join the ri
 Should you have questions, contact <<insert alias or contact info>>.
 ````
 
-[手順10に戻る](upgrade-basic.md#step-10)
+[手順 10 に戻る](upgrade-basic.md#step-10)
 
 <!--ENDOFSECTION-->
 
 <a name="step-9-surveys"></a>
 
-## <a name="sample-surveys"></a>サンプルアンケート
+## <a name="sample-surveys"></a>サンプルのアンケート
 
-チームで次のアクティビティを実行する場合のスキル、および詳細を知りたいアクティビティが1つ以上あることを示す。
+Teams での次のアクティビティを実行するのにどの程度熟練しているか、また、詳しく知りたいと思うアクティビティがあるかどうかを回答してください。
 
-| &nbsp; | 高度なスキル | 多少のスキル | まったく習熟していない | 詳細情報 | 該当なし | よくわからない | | | | |
+| &nbsp; | 非常に熟練している | やや熟練している | 全く熟練していない | 詳しく知りたい | 該当なし | よくわからない | | | | |
 |---|---|---|---|---|---|---|---|---|---|---|
-| チームを使って IM を送信したり、他のユーザーとチャットしたりする | | | | | | | | | | |
+| IM や他のユーザーとのチャットに Teams を使用する | | | | | | | | | | |
 | オンライン会議に Teams を使用する | | | | | | | | | | |
-| チームを使って共同作業を行う (チームとチャネル) | | | | | | | | | | |
-| モバイルデバイスで Teams を使用する | | | | | | | | | | |
+| コラボレーション (チームとチャネル) に Teams を使用する | | | | | | | | | | |
+| モバイル デバイスで Teams を使用する | | | | | | | | | | |
 
-| **Microsoft Teams の使用を妨げている場合は、どうすればよいですか?** | **該当するものをすべて選択する** |
+| **Microsoft Teams の使用を妨げているものがあるとすれば、それは何ですか?** | **該当するものをすべて選択します** |
 |---|---|
-| これについて聞いたことがない | &#9744; |
-| コンピューターにインストールしていない場合 | &#9744; |
-| 自分または共同作業しているユーザーにどのような利点があるかを理解していない | &#9744; |
-| ニーズに合わせて評価する時間がありません | &#9744; |
-| コミュニケーションとコラボレーションのニーズを満たす他のアプリケーションを既に使用している場合 | &#9744; |
-| 使用する前にトレーニングが必要な場合 | &#9744; |
-| この機能を使用しようとしましたが、技術的な問題が発生したか、操作が正しくありません | &#9744; |
-| Skype のサポートデスクでは、質問を解決できませんでした | &#9744; |
-| 現在使用しているものはありません | &#9744; |
-| その他 (指定してください) | &#9744; |
+| 聞いたことがない | &#9744; |
+| 自分のコンピューターにインストールされていない | &#9744; |
+| 自分や同僚にどんな利点があるかがわからない | &#9744; |
+| 自分のニーズに合わせて評価する時間がない | &#9744; |
+| 既に他のアプリケーションを使用して、コミュニケーションとコラボレーションのニーズに対応している | &#9744; |
+| 使用する前にトレーニングが必要 | &#9744; |
+| これを使用しようとしたが、技術的な問題が発生したか、操作性がよくなかった | &#9744; |
+| サポート デスクが質問に答えられなかった | &#9744; |
+| 特になし、現在使用している | &#9744; |
+| その他 (具体的に) | &#9744; |
 
-**Microsoft Teams を友人や同僚に勧める可能性はどの程度ありますか?(0 = ほとんどありません...10 = 非常に可能性が高い**
+**Microsoft Teams を友人や同僚に勧める可能性はどの程度ありますか? (0 = ほとんどない。10 = 非常に可能性が高い)**
 
-| 0 | 1 | 両面 | 3 | 4 | 5 | 6 | 7 | 個 | ファイブ | 常用 |
+| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 | ---| --- | ---|---|---|---|---|---|---|---|---|
 |&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |
 
-[手順9に戻る](upgrade-basic.md#step-9)
+[手順 9 に戻る](upgrade-basic.md#step-9)
 
 <!--ENDOFSECTION-->

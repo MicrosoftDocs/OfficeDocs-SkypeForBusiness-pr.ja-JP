@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams でチームポリシーを管理する
+title: Microsoft Teams でチーム ポリシーを管理する
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -14,7 +14,7 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: 組織のチームポリシーを使用および管理して、チームとチャネルでユーザーが実行できる操作を制御する方法について説明します。
+description: ユーザーがチームやチャネルで実行できる操作を制御する組織のチーム ポリシーの使用方法と管理方法について説明します。
 f1.keywords:
 - CSH
 ms.custom:
@@ -26,66 +26,66 @@ ms.custom:
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
 ms.openlocfilehash: dc3d5fa4880f3255017b535657a4a32a51789c82
 ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 02/06/2020
 ms.locfileid: "41836967"
 ---
-# <a name="manage-teams-policies-in-microsoft-teams"></a>Microsoft Teams でチームポリシーを管理する
+# <a name="manage-teams-policies-in-microsoft-teams"></a>Microsoft Teams でチーム ポリシーを管理する
 
-管理者は、Microsoft Teams のチームポリシーを使って、チームとチャネルで組織内のユーザーが実行できる操作を制御することができます。 たとえば、検索結果とチームギャラリーでプライベートチームの検出を許可するかどうか、およびユーザーがプライベートチャネルの作成を許可されているかどうかを設定できます。
+管理者は、Microsoft Teams でチーム ポリシーを使用して、チームやチャネルで組織のユーザーが実行できる操作を制御できます。 たとえば、ユーザーが検索結果とチーム ギャラリーでプライベートのチームを検出できるかどうか、およびユーザーがプライベートのチャネルを作成できるかどうかを設定できます。
 
-チームポリシーを管理するには、Microsoft teams 管理センターで**teams** > **teams のポリシー**に移動します。 グローバル (組織全体の既定) ポリシーを使用するか、カスタムポリシーを作成してユーザーに割り当てることができます。 組織内のユーザーは、カスタムポリシーを作成して割り当てる場合を除き、自動的にグローバルポリシーを取得します。
+チーム ポリシーを管理するには、Microsoft Teams 管理センターで **[Teams]** > **[チーム ポリシー]** の順に移動します。 グローバル (組織全体の既定) ポリシーを使用することも、カスタム ポリシーを作成してユーザーに割り当てることもできます。 カスタム ポリシーを作成して割り当てていない場合、組織内のユーザーにはグローバル ポリシーが自動的に適用されます。
 
-グローバルポリシーを編集するか、カスタムポリシーを作成して割り当てることができます。 ユーザーにカスタムポリシーが割り当てられている場合は、そのポリシーがユーザーに適用されます。 ユーザーにカスタムポリシーが割り当てられていない場合は、グローバルポリシーがユーザーに適用されます。 グローバルポリシーを編集するか、ポリシーを割り当てると、変更が有効になるまで最大24時間かかることがあります。
+グローバル ポリシーを編集するか、カスタム ポリシーを作成して割り当てることもできます。 ユーザーにカスタム ポリシーが割り当てられると、そのポリシーがユーザーに適用されます。 ユーザーにカスタム ポリシーが割り当てられない場合は、グローバル ポリシーがユーザーに適用されます。 グローバル ポリシーを編集するか、ポリシーを割り当てた後、変更が反映されるまでに最大で 24 時間かかる場合があります。
 
-## <a name="create-a-custom-teams-policy"></a>カスタムチームポリシーを作成する
+## <a name="create-a-custom-teams-policy"></a>カスタムのチーム ポリシーを作成する
 
-1. Microsoft Teams 管理センターの左のナビゲーションで、[**チーム** > **チームのポリシー**] に移動します。
-2. [**追加**] をクリックします。
+1. Microsoft Teams 管理センターの左側のナビゲーションで、**[Teams]** > **[チーム ポリシー]** の順に移動します。
+2. **[追加]** をクリックします。
 3. ポリシーの名前と説明を入力します。
 
-    ![Teams のポリシー設定のスクリーンショット](media/teams-policies.png)
-4. 目的の設定を選択します。
+    ![チーム ポリシー設定のスクリーンショット](media/teams-policies.png)
+4. 希望する設定を選びます。
 
-- **プライベートチーム**を見つける<a name="discoverteams"></a> : この設定を有効にして、ユーザーが検索結果とチームギャラリーでプライベートチームを見つけられるようにします。
-- **プライベートチャネル**を作成<a name="createchannels"></a>する: この設定を有効にして、ユーザーがプライベートチャネルを作成できるようにします。
+- **プライベート チームの検索**:<a name="discoverteams"> </a> この設定をオンにすると、検索結果とチーム ギャラリーでプライベート チームを検出できるようになります。
+- **プライベート チャネルの作成**: <a name="createchannels"> </a>この設定をオンにすると、ユーザーがプライベート チャネルを作成できるようになります。
 
 5. **[保存]** をクリックします。
 
-## <a name="edit-a-teams-policy"></a>Teams のポリシーを編集する
+## <a name="edit-a-teams-policy"></a>チーム ポリシーの編集
 
-グローバルポリシーまたは作成したカスタムポリシーを編集できます。
+グローバル ポリシー、または作成したカスタム ポリシーを編集できます。
 
-1. Microsoft Teams 管理センターの左のナビゲーションで、[**チーム** > **チームのポリシー**] に移動します。
-2. ポリシー名の左側をクリックしてポリシーを選択し、[**編集**] をクリックします。
-3. 目的の設定をオンまたはオフにして、[**保存**] をクリックします。
+1. Microsoft Teams 管理センターの左側のナビゲーションで、**[Teams]** > **[チーム ポリシー]** の順に移動します。
+2. ポリシー名の左側をクリックしてポリシーを選び、**[編集]** をクリックします。
+3. 希望する設定をオンまたはオフにしてから、**[保存]** をクリックします。
 
-## <a name="assign-a-custom-teams-policy-to-users"></a>ユーザーにカスタムチームポリシーを割り当てる
+## <a name="assign-a-custom-teams-policy-to-users"></a>ユーザーにカスタムのチーム ポリシーを割り当てる
 
-Microsoft Teams 管理センターを使用して、ユーザー設定のポリシーを1人以上のユーザーまたは Skype for Business PowerShell モジュールに割り当てて、セキュリティグループや配布グループなどのユーザーグループにカスタムポリシーを割り当てることができます。
+Microsoft Teams 管理センターを使用して、1 つ以上のユーザーまたは Skype for Business PowerShell モジュールにカスタム ポリシーを割り当てることで、セキュリティグループや配布グループなどのユーザーのグループにカスタム ポリシーを割り当てることができます。
 
-### <a name="assign-a-custom-teams-policy-to-a-user"></a>ユーザーにカスタムのチームポリシーを割り当てる
+### <a name="assign-a-custom-teams-policy-to-a-user"></a>ユーザーにカスタムのチーム ポリシーを割り当てる
 
-1. Microsoft Teams 管理センターの左のナビゲーションで、[**ユーザー**] に移動し、ユーザーをクリックします。
-2. [**ポリシー**] をクリックし、[**割り当てられたポリシー**] の横にある [**編集**] をクリックします。
-3. [**チームポリシー**] で、割り当てるポリシーを選択し、[**保存**] をクリックします。
+1. Microsoft Teams 管理センターの左側のナビゲーションで、**[ユーザー]** に移動してユーザーをクリックします。
+2. **[ポリシー]** をクリックし、**[割り当てられたポリシー]** の横にある **[編集]** をクリックします。
+3. **[チーム ポリシー]** で割り当てるポリシーを選択し、**[保存]** をクリックします。
 
-ユーザー設定のチームポリシーを一度に複数のユーザーに割り当てるには、「 [teams のユーザー設定を一括](edit-user-settings-in-bulk.md)して編集する」を参照してください。
+一度に複数のユーザーにカスタムのチーム ポリシーを割り当てる方法については、「[一括で Teams のユーザー設定を編集する](edit-user-settings-in-bulk.md)」を参照してください。
 
-または、次の操作も行うことができます。
+または、次の操作も実行できます。
 
-1. Microsoft Teams 管理センターの左のナビゲーションで、[**チーム** > **チームのポリシー**] に移動します。
-2. ポリシー名の左側をクリックして、ポリシーを選択します。
-3. [**ユーザーの管理**] を選びます。
-4. [**ユーザーの管理**] ウィンドウで、[表示名] または [ユーザー名] でユーザーを検索し、名前を選択して [**追加**] を選択します。 追加するユーザーごとに、この手順を繰り返します。
+1. Microsoft Teams 管理センターの左側のナビゲーションで、**[Teams]** > **[チーム ポリシー]** の順に移動します。
+2. ポリシー名の左側をクリックしてポリシーを選びます。
+3. [**ユーザーを管理**] を選択します。
+4. [**ユーザーを管理**] ウィンドウで、表示名またはユーザー名でユーザーを検索し、名前を選択して [**追加**] を選びます。 追加するユーザーごとに、この手順を繰り返します。
 5. ユーザーの追加が完了したら、[**保存**] をクリックします。
 
-### <a name="assign-a-custom-teams-policy-to-users-in-a-group"></a>ユーザー設定のチームポリシーをグループ内のユーザーに割り当てる
+### <a name="assign-a-custom-teams-policy-to-users-in-a-group"></a>グループのユーザーにカスタムのチーム ポリシーを割り当てる
 
-ユーザー設定のチームポリシーは、既に特定した複数のユーザーに割り当てることができます。 たとえば、セキュリティグループ内のすべてのユーザーにポリシーを割り当てることができます。 これを行うには、Azure Active Directory PowerShell for Graph モジュールと Skype for Business PowerShell モジュールに接続します。 PowerShell を使用して Teams を管理する方法の詳細については、「[Teams での PowerShell の概要](teams-powershell-overview.md)」を参照してください。
+あらかじめ特定した複数のユーザーにカスタムのチーム ポリシーを割り当てることができます。 たとえば、セキュリティ グループのすべてのユーザーにポリシーを割り当てることができます。 これを行うには、Graph 用 Azure Active Directory PowerShell モジュールと Skype for Business PowerShell モジュールに接続します。 PowerShell を使用して Teams を管理する方法の詳細については、「[Teams での PowerShell の概要](teams-powershell-overview.md)」を参照してください。
 
-この例では、"マーケティングチームポリシー" というチームポリシーを、Contoso マーケティンググループのすべてのユーザーに割り当てています。  
+この例では、「Marketing Teams Policy」という名前のチーム ポリシーを、Contoso マーケティング グループのすべてのユーザーに割り当てます。  
 
 > [!NOTE]
 > 「[単一の Windows PowerShell ウィンドウですべての Office 365 サービスに接続する](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)」の手順に従って、必ず最初に Azure Active Directory PowerShell for Graph モジュールと Skype for Business PowerShell モジュールに接続してください。
@@ -98,7 +98,7 @@ $group = Get-AzureADGroup -SearchString "Contoso Marketing"
 ```PowerShell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
-グループ内のすべてのユーザーを特定のチームポリシーに割り当てます。 この例では、マーケティングチームポリシーについてご紹介します。
+グループ内のすべてのユーザーを特定のチーム ポリシーに割り当てる。 この例では、Marketing Teams Policy です。
 ```PowerShell
 $members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "Marketing Teams Policy" -Identity $_.UserPrincipalName}
 ``` 
@@ -107,4 +107,4 @@ $members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "Marketing T
 ## <a name="related-topics"></a>関連項目
 
 - [Teams でプライベート チームの検索を管理する](manage-discovery-of-private-teams.md)
-- [Teams のプライベートチャネル](private-channels.md)
+- [Teams のプライベート チャネル](private-channels.md)

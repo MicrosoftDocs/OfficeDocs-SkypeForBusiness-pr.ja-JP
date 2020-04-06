@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 室コンソールを構成する
+title: Microsoft Teams ミーティングのコンソールを構成する
 ms.author: v-lanac
 author: lanachin
 ms.reviewer: Travis-Snoozy
@@ -14,97 +14,97 @@ ms.collection:
 - M365-collaboration
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
-description: この記事では、Microsoft Teams のルーム本体とその周辺機器を設定する方法について説明します。
+description: この記事では、Microsoft Teams ミーティングのコンソールとその周辺機器の設定方法を説明します。
 ms.openlocfilehash: c91c570cd83cc07f1f15823623f2b02a2ebcddf4
 ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 02/06/2020
 ms.locfileid: "41826095"
 ---
-# <a name="configure-a-microsoft-teams-rooms-console"></a>Microsoft Teams 室コンソールを構成する
+# <a name="configure-a-microsoft-teams-rooms-console"></a>Microsoft Teams ミーティングのコンソールを構成する
 
-この記事では、Microsoft Teams のルーム本体とその周辺機器を設定する方法について説明します。
+この記事では、Microsoft Teams ミーティングのコンソールとその周辺機器の設定方法を説明します。
   
-以下の手順は、「 [Microsoft Teams ルームの展開](rooms-deploy.md)」の説明に従って、必要な Microsoft teams または Skype for Business および Exchange アカウントが既に作成およびテストされている場合にのみ実行してください。 [Microsoft Teams の会議室の要件](requirements.md)について説明されているハードウェアとソフトウェアが必要です。 このトピックには次のセクションが含まれます。
+これらの手順は、「[デプロイの概要](rooms-deploy.md)」で説明されているように、必要な Microsoft Teams アカウントや Skype for Business のアカウントと Exchange アカウントが既に作成されている場合にのみ実行してください。 「[Microsoft Teamsミーティングの要件](requirements.md)」で説明されているハードウェアとソフトウェアが必要になります。 このトピックには次のセクションが含まれます。
   
-- [インストールメディアを準備する](console.md#Prep_Media)
-- [プライベート CA 証明書をコンソールにインストールする](console.md#Certs)
-- [Windows 10 と Microsoft Teams のルームコンソールアプリをインストールする](console.md#Reimage)
-- [本体の初期設定](console.md#Initial)
-- [Microsoft Teams のルーム展開のチェックリスト](console.md#Checklist)
+- [インストール メディアを準備する](console.md#Prep_Media)
+- [コンソールにプライベート CA 証明書をインストールする](console.md#Certs)
+- [Windows 10 と Microsoft Teams ミーティングのコンソール アプリをインストールする](console.md#Reimage)
+- [コンソールの初期設定](console.md#Initial)
+- [Microsoft Teams ミーティングのデプロイ チェックリスト](console.md#Checklist)
 
 > [!NOTE]
-> Microsoft Teams のルームは、適切に構成された Microsoft Teams または Skype for Business 環境でのみ機能します。ここでは、「 [Microsoft Teams ルームを展開](rooms-deploy.md)する」の説明に従って、デバイスアカウントが正しく設定されています。
+> Microsoft Teams ミーティングは、「[デプロイの概要](rooms-deploy.md)」で説明されているとおりにデバイス アカウントが正しく設定されている、適切に構成された Microsoft Teams 環境または Skype for Business 環境でのみ動作します。
   
-## <a name="prepare-the-installation-media"></a>インストールメディアを準備する
+## <a name="prepare-the-installation-media"></a>インストール メディアを準備する
 <a name="Prep_Media"> </a>
 
-Microsoft Teams のルームコンソールアプリをインストールするには、少なくとも 32 GB の容量を備えた USB ストレージデバイスが必要です。 デバイスにその他のファイルは存在しません。USB ストレージ上の既存のファイルは失われます。
+Microsoft Teams ミーティングのコンソール アプリをインストールするには、少なくとも 32GB の容量がある USB 記憶装置が必要です。 このデバイスには他のファイルが存在しないようにする必要があります。この USB ストレージ上の既存のファイルはすべて失われます。
   
 > [!NOTE]
-> この手順に従って Microsoft Teams ルームのインストールメディアを作成しても、予期しない動作が発生する可能性があります。
+> 記載されている説明に従って Microsoft Teams ミーティングのインストール メディアを作成しないと、予期しない動作が発生する可能性があります。
 
 > [!NOTE]
-> 次のプロセスは、新しい Microsoft Teams 室のデバイスにイメージを追加するインストールメディアを作成することです。 既定では、既存のデバイスは、Windows Update と Windows ストアから自動的に更新されます。
+> 次の手順で、新しい Microsoft Teams ミーティング デバイスのイメージを作成するためにインストール メディアを作成する方法を説明します。 既定では、既存のデバイスは Windows Update および Windows ストアから自動的に更新されます。
 
 > [!IMPORTANT]
-> Microsoft Teams ルームの作成に使用される Windows 10 コンピューターは、ターゲットインストールメディアと同じバージョンまたはそれ以降のバージョンの Windows にインストールされている必要があります。
+> Microsoft Teams ミーティングのインストール メディアを作成するために使用する Windows 10 コンピューターは、ターゲット インストール メディアと同じか、それ以降のバージョンの Windows で動作している必要があります。
   
-1. メディアのロードスクリプトをダウンロードします[。](https://go.microsoft.com/fwlink/?linkid=867842)
-2. Windows 10 マシン上で管理者特権でのプロンプトから CreateSrsMedia.ps1 スクリプトを実行します。
-3. スクリプトの手順に従って、Microsoft Teams の会議セットアップディスクを作成します。
+1. [CreateSrsMedia.ps1 スクリプト](https://go.microsoft.com/fwlink/?linkid=867842)をダウンロードします。
+2. Windows 10 コンピューターの管理者特権でのプロンプトから CreateSrsMedia.ps1 スクリプトを実行します。
+3. スクリプトの指示に従って、Microsoft Teams ミーティング USB セットアップ ディスクを作成します。
 
 
 > [!TIP]
-> 表示されるのは、"/ファイルの記録" というスクリプトが起動するたびに、画面出力には、そのセッションのログファイルまたはトランスクリプトの名前が含まれます。 スクリプトの実行で問題が発生した場合は、サポートのリクエスト時にそのトランスクリプトのコピーが入手可能であることを確認してください。 
+> CreateSrsMedia.ps1 が起動されるたびに、画面出力にはそのセッションのログ ファイル名かトランスクリプト名が表示されます。 スクリプトの実行で問題が発生した場合は、サポートを要求するときに、そのトランスクリプトのコピーを使用できるようにしておいてください。 
 
-このスクリプトは、次のタスクを自動化します。
+CreateSrsMedia.ps1 スクリプトを実行すると、次のタスクが自動化されます。
 
-1. Microsoft Teams ルーム用の最新の MSI インストーラーをダウンロードします。
-2. ユーザーが指定する必要がある Windows のビルドを確認します。 最新のリリース版は、Microsoft Teams 室のデバイスでの使用が、テストおよびサポートされていない可能性があります。
-3. 必要なサポートコンポーネントをダウンロードします。
-4. インストールメディアで必要なコンポーネントを組み立てます。
+1. Microsoft Teams ミーティング用の最新の MSI インストーラーをダウンロードする。
+2. ユーザーが提供する必要のある Windows のビルドを判別する。 最新のリリース版は、Microsoft Teams ミーティング デバイスで使用するためのテストやサポートがなされていない場合があります。
+3. 必要なサポート コンポーネントをダウンロードする。
+4. 必要なコンポーネントをインストール メディアにアセンブルする。
 
-Windows 10 の特定のバージョンが必要です。このバージョンはボリュームライセンスのお客様のみが利用できます。  [ボリュームライセンスサービスセンター](https://www.microsoft.com/Licensing/servicecenter/)からコピーを取得できます。
+特定のバージョンの Windows 10 が必要です。このバージョンはボリューム ライセンスのお客様のみが利用できます。  [ボリューム ライセンス サービス センター](https://www.microsoft.com/Licensing/servicecenter/)からコピーを入手できます。
 
-完了したら、コンピューターから USB ディスクを取り出して、「 [Windows 10 と Microsoft Teams のルームコンソールアプリをインストール](console.md#Reimage)する」に進みます。
+完了したら、コンピューターから USB ディスクを削除し、「[Windows 10 と Microsoft Teams ミーティングのコンソール アプリをインストールする](console.md#Reimage)」に進みます。
 
     
-## <a name="install-windows-10-and-the-microsoft-teams-rooms-console-app"></a>Windows 10 と Microsoft Teams のルームコンソールアプリをインストールする
+## <a name="install-windows-10-and-the-microsoft-teams-rooms-console-app"></a>Windows 10 と Microsoft Teams ミーティング コンソール アプリをインストールする
 <a name="Reimage"> </a>
 
-作成したセットアップメディアを適用する必要があります。 ターゲットデバイスはアプライアンスとして実行され、既定のユーザーは Microsoft Teams 室コンソールアプリのみを実行するように設定されます。
+ここで、作成したセットアップ メディアを適用する必要があります。 ターゲット デバイスは、アプライアンスとして実行されます。既定のユーザーは Microsoft Teams ミーティング コンソール アプリのみを実行するように設定されます。
 
-1. ターゲットデバイスが dock (Surface Pro など) に装着されている場合は、dock から接続を切断します。
+1. ターゲット デバイスがドック (Surface Pro など) にインストールされている場合は、ドックとの接続を解除します。
 
-2. ターゲットデバイスがネットワークに接続されていないことを確認します。
+2. ターゲット デバイスがネットワークに接続されていないことを確認します。
 
-3. ターゲットデバイスが AC 電源に接続されていることを確認します。
+3. ターゲット デバイスが AC 電源に接続されていることを確認します。
 
-4. USB セットアップディスクをターゲットデバイスに接続します。
+4. USB セットアップ ディスクをターゲット デバイスに差し込みます。
 
-5. USB セットアップディスクを起動します。 製造元の指示を参照してください。 ターゲットデバイスが Surface Pro である場合は、次の手順を使用して USB セットアップディスクを起動します。
+5. USB セットアップ ディスクにブートします。 製造元の手順を参照してください。 ターゲット デバイスが Surface Pro の場合は、次の手順を使用して USB セットアップ ディスクにブートします。
 
-    a. [音量を下げる] (-) ボタンを押し続けます。
+    a. ボリューム ダウン (-) ボタンを押したままにします。
 
-    b. 電源ボタンを押してから離します。
+    b. 電源ボタンを押して、離します。
 
     c. Windows セットアップが起動したら、ボリューム ダウン (-) ボタンを離します。
 
-8. インストールが完了すると、システムはシャットダウンします。
+8. インストールが完了すると、システムがシャットダウンします。
     
-システムがシャットダウンされたら、USB セットアップディスクを削除しても安全です。 この時点で、ドックにターゲットデバイスを配置し (dock ベースの製品を使用している場合)、会議室に必要な周辺機器を接続し、ネットワークに接続することができます。 製造元の指示を参照してください。
+システムがシャット ダウンしたら、USB セットアップ ディスクを安全に取り外すことができます。 これで、ターゲット デバイスをドックに設置して (ドックベースの製品を使用している場合)、会議室に必要な周辺機器を取り付け、ネットワークに接続することができます。 製造元の手順を参照してください。
 
 > [!NOTE]
-> Microsoft Teams 会議室のソフトウェア更新プログラムは、一般法人向け Microsoft Store から自動的にダウンロードされます。 会議室コンソールがストアにアクセスして自己更新を行うことができることを確認するには、「 [Microsoft Store For Business And エデュケーション用の前提条件](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business)」を参照してください。  
+> Microsoft Teams ミーティングのソフトウェア更新プログラムは、ビジネス向け Microsoft Store から自動的にダウンロードされます。 会議室コンソールがストアにアクセスして自己更新できるかどうかを確認するには、「[ビジネスおよび教育機関向け Microsoft Store の前提条件](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business)」を参照してください。  
 
 ### <a name="selecting-a-language"></a>言語の選択 
 
-Creator の更新では、暗黙的な言語の選択によって、ユーザーが実際のアプリケーション言語を使用していない場合 (たとえば、コンソールアプリをフランス語で起動する必要がある場合)、ApplyCurrentRegionAndLanguage. ps1 スクリプトを使用する必要があります。これは英語で提供されています)。
+Creators Update では、暗黙的に言語を選択するとアプリケーションの言語がユーザーが希望する言語に設定されない場合 (フランス語でコンソール アプリを表示したいのに英語で表示される場合など)、ApplyCurrentRegionAndLanguage.ps1 スクリプトを使用する必要があります。
   
 > [!NOTE]
-> 次の手順は、Windows Creator の更新プログラムを使用して作成されたコンソールでのみ機能します。 新しいプロビジョニングシステムでメディアを使用して設定していないレガシー/市場システムでは、これらの手順を使用することはできませんが、この手動介入が必要となる最初の問題には影響しません。また、セットアップの一環としてアプリの言語を明示的に選ぶことができます。
+> 次の手順は、Windows Creators Update を使用して作成されたコンソールにのみ使用できます。 新しいプロビジョニング システムを使用するメディアを使用してセットアップされていないレガシ システムや現行のシステムでは次の手順は使用できません。ただし、この手動操作が必要となる最初の問題の影響を受けないようにする必要もあります (Anniversary Edition では、セットアップの一部としてアプリの言語を明示的に選択できます)。
   
 ### <a name="to-apply-your-desired-language"></a>必要な言語を適用するには
 
@@ -114,15 +114,15 @@ Creator の更新では、暗黙的な言語の選択によって、ユーザー
     
 3. ギア アイコンを選択して [**設定**] アプリを起動します。
     
-4. [**時刻&amp;の言語**] を選択します。
+4. **[時刻 &amp; 言語]** を選択します。
     
-5. [**地域&amp;の言語**] を選択します。
+5. **[地域 &amp; 言語]** を選択します。
     
 6. [**言語の追加**] を選択します。
     
 7. 追加する言語を選択します。
     
-8. [言語] リストに追加した言語を選択します。
+8. [言語] 一覧に追加した言語を選択します。
     
 9. [**既定に設定**] を選択します。
     
@@ -141,21 +141,21 @@ Creator の更新では、暗黙的な言語の選択によって、ユーザー
     
 13. システムを再起動します。
     
-目的の言語が Microsoft Teams のルームコンソールに適用されるようになりました。
-## <a name="initial-set-up-of-the-console"></a>本体の初期設定
+これで、目的の言語が Microsoft Teams ミーティングのコンソールに適用されます。
+## <a name="initial-set-up-of-the-console"></a>コンソールの初期設定
 <a name="Initial"> </a>
 
-Windows をインストールした後、Microsoft Teams のルームコンソールアプリは、次に起動したとき、または/reboot オプションが選択されたときに、初期セットアッププロセスに進みます。
+Windows をインストールすると、次回 Microsoft Teams ミーティングのコンソール アプリを起動するか、/reboot オプションが選択されていた場合、アプリの初期設定プロセスが実行されます。
   
-1. [ユーザー アカウント] 画面が表示されます。 コンソールで使用する会議室アカウントの Skype サインインアドレス (user@domain 形式) を入力します。
+1. [ユーザー アカウント] 画面が表示されます。 コンソールで使用される会議室アカウントの Skype サインイン アドレス ("ユーザー@ドメイン" 形式) を入力します。
     
-2. ルーム アカウントのパスワードを入力し、確認のためにもう一度入力します。
+2. 会議室アカウントのパスワードを入力し、確認のためにもう一度入力します。
     
-3. [ドメインの構成] で、Skype for Business Server の FQDN を設定します。 Skype for Business SIP ドメインがユーザーの Exchange ドメインと異なる場合は、このフィールドに Exchange ドメインを入力します。
+3. [Configure Domain](ドメインの設定) で、Skype for Business Server の FQDN を設定します。 Skype for Business SIP ドメインがユーザーの Exchange ドメインと異なる場合は、このフィールドに Exchange ドメインを入力します。
     
-4. [ **次へ**] をクリックします。
+4. **[次へ]** をクリックします。
     
-5. [機能] 画面で指示されたデバイスを選択し、[**次へ**] をクリックします。 既定では、自動画面共有はオンで、会議名の非表示はオフになっています。 選択対象のデバイスは次のとおりです。
+5. [機能] 画面に表示されたデバイスを選択して、**[次へ]** をクリックします。 既定では、自動画面共有はオンで、会議名の非表示はオフになっています。 選択対象のデバイスは次のとおりです。
     
    - 会議用のマイク: 会議室で使用する既定のマイク。
     
@@ -165,30 +165,30 @@ Windows をインストールした後、Microsoft Teams のルームコンソ�
     
      それぞれの項目に、選択できるドロップダウン メニューのオプションがあります。各デバイスについて選択を行う必要があります。
     
-6. **[完了]** をクリックします。
+6. [**完了**] をクリックします。
     
-Microsoft Teams のルームコンソールアプリは、上で入力された資格情報を使って Skype for Business Server へのサインインを開始し、同じ資格情報を使用して、予定表の Exchange との同期を開始する必要があります。 コンソールアプリの使い方の詳細については、「 [Microsoft Teams ルームのヘルプ](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)」を参照してください。
+Microsoft Teams ミーティングのコンソール アプリは、先ほど入力した資格情報を使用して Skype for Business Server へのサインインを直ちに開始し、同じ資格情報を使用して Exchange との予定表の同期も開始します。 コンソール アプリの使用方法の詳細については、「[Microsoft Teams ミーティングのヘルプ](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)」を参照してください。
   
 > [!IMPORTANT]
-> Microsoft Teams のルームは、認定された本体のハードウェアの存在に依存します。 Microsoft Teams のルームコンソールアプリが正しく作成された画像も、本体のハードウェアが検出されていない限り、初期セットアップ手順を実行しても起動しません。 Surface Pro ベースのソリューションの場合、このチェックに合格するには、Surface Pro が付随する dock ハードウェアに接続されている必要があります。
+> Microsoft Teams ミーティングには、認定されたコンソール ハードウェアが必要です。 Microsoft Teams ミーティングのコンソール アプリを含むイメージが正しく作成されていても、コンソール ハードウェアが検出されない限り、そのイメージは初期設定手順の後に起動しません。 Surface Pro ベースのソリューションの場合、このチェックが成功するには、Surface Pro と付属するドック ハードウェアが接続されている必要があります。
   
 > [!NOTE]
-> 一部の英語以外の言語ユーザーは、タッチキーボードで記号がサポートされていない場合は、最初のセットアップ中に本体に物理キーボードが接続されている必要があります。
+> ユーザーが英語以外の言語を使用する場合、タッチ キーボードでは記号がサポートされておらず、初期設定の際に物理キーボードをコンソールに接続することが必要になることがあります。
   
-### <a name="install-a-private-ca-certificate-on-the-console"></a>プライベート CA 証明書をコンソールにインストールする
+### <a name="install-a-private-ca-certificate-on-the-console"></a>コンソールにプライベート CA 証明書をインストールする
 <a name="Certs"> </a>
 
-Microsoft Teams のルームコンソールは、接続先のサーバーで使用されている証明書を信頼する必要があります。 O365 の場合、これらのサーバーはパブリックの証明機関を使用し、これらは Windows 10 で自動的に信頼されるため、この処理は自動的に行われます。 証明機関が非公開の場合 (Active Directory と Windows 証明機関を使ったオンプレミスの展開など)、次の2つの方法で、Microsoft Teams のルームコンソールに証明書を追加することができます。
+Microsoft Teams ミーティングのコンソールは、接続先のサーバーで使用されている証明書を信頼する必要があります。 O365 の場合、これらのサーバーでは公的証明機関が使用され、Windows 10 によって自動的に信頼されるため、この処理は自動的に実行されます。 Active Directory や Windows 証明機関を使用したオンプレミス デプロイなど、民間の証明機関を使用する場合は、Microsoft Teams ミーティングのコンソールに次の 2 つの方法で証明書を追加できます。
   
-- コンソールを Active Directory に参加すると、証明機関が Active Directory に公開されている場合は、必要な証明書が自動的に追加されます (通常の展開オプション)。
+- 証明機関が Active Directory に対して公開されている場合 (通常のデプロイ オプション)、コンソールを Active Directory に参加させると、必要な証明書は自動的に追加されます。
     
-- イメージング処理の後に証明書を手動でインストールすることができます。 この操作を行う前に、[本体の初期設定](console.md#Initial)を完了する必要があります。
+- イメージング プロセスの後で、証明書を手動でインストールできます。 この操作を行う前に、[コンソールの初期設定](console.md#Initial)を完了する必要があります。
     
 ### <a name="to-manually-install-the-certificate"></a>証明書を手動でインストールするには 
 
 1. CA 証明書をお使いのコンピューターにダウンロードして、C:\Skype Room Systems\x64\Scripts\Provisioning\CAcertificate.cer に保存します。
     
-2. コンソールを管理モードで配置します (「[管理者モードとデバイス管理」を](rooms-operations.md#AdminMode)参照してください)。
+2. コンソールを管理者モードにします (「[管理者モードとデバイス管理](rooms-operations.md#AdminMode)」を参照してください)。
     
 3. 次のコマンドを実行します。
     
@@ -199,11 +199,11 @@ Microsoft Teams のルームコンソールは、接続先のサーバーで使�
 ### <a name="join-an-active-directory-domain-optional"></a>Active Directory ドメインに参加する (オプション)
 <a name="Certs"> </a>
 
-Microsoft Teams のルームコンソールをドメインに参加できます。 Microsoft Teams のルームコンソールは、多くのワークステーションポリシーが Microsoft Teams のルームと互換性がないため、PC ワークステーションとは別の OU に配置する必要があります。 一般的な例としては、Microsoft Teams のルームが自動的に起動しないようにするためのパスワード適用ポリシーがあります。 GPO 設定の管理については、「 [Microsoft Teams ルームを管理](rooms-operations.md)する」を参照してください。
+Microsoft Teams ミーティングのコンソールをドメインに参加させることができます。 Microsoft Teams ミーティングのコンソールは、使用する PC ワークステーションとは別の OU に配置する必要があります。これは、多くのワークステーション ポリシーは Microsoft Teams ミーティングと互換性がないためです。 たとえば、パスワードの強制ポリシーが設定されていると、Microsoft Teams ミーティングは自動的に起動しなくなります。 GPO 設定の管理の詳細については、「[Microsoft Teams ミーティングの管理](rooms-operations.md)」を参照してください。
   
-### <a name="to-join-microsoft-teams-rooms-to-a-domain"></a>Microsoft Teams のルームをドメインに参加するには
+### <a name="to-join-microsoft-teams-rooms-to-a-domain"></a>Microsoft Teams ミーティングをドメインに参加させるには
 
-1. 管理者アカウントから本体にサインインします (「[管理者モードとデバイス管理」を](rooms-operations.md#AdminMode)参照してください)。
+1. 管理者アカウントからコンソールにサインインします (「[管理者モードとデバイス管理](rooms-operations.md#AdminMode)」を参照してください)。
     
 2. 管理者特権で Powershell コマンド プロンプトを起動します。
     
@@ -213,18 +213,18 @@ Microsoft Teams のルームコンソールをドメインに参加できます�
    Add-Computer -DomainName <Fully qualified domain> -OUPath "OU=<Child OU>, … ,OU=<Top level OU>,DC=<child domain>,…,DC=<top level domain>"
    ```
 
-たとえば、完全修飾ドメインが redmond.corp.microsoft.com で、Microsoft Teams のルームコンソールを "Resources" OU の子である "Microsoft Teams 室" OU に追加したい場合、コマンドは次のようになります。
+たとえば、完全修飾ドメインが redmond.corp.microsoft.com で、Microsoft Teams ミーティングのコンソールを "Resources" OU の子である "Microsoft Teams Rooms" OU に配置する場合、次のコマンドを実行します。
   
 ```PowerShell
 Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Microsoft_Teams_Rooms,OU=Resources,DC=redmond,DC=corp,DC=microsoft,DC=com"
 ```
 
- ドメインに参加するときにコンピューター名を変更するには、-NewName フラグの後にコンピューターの新しい名前を指定します。
+ ドメインに参加させるときにコンピューターの名前を変更する場合は、-NewName フラグを使用し、その後にコンピューターの新しい名前を続けます。
   
-## <a name="microsoft-teams-rooms-deployment-checklist"></a>Microsoft Teams のルーム展開のチェックリスト
+## <a name="microsoft-teams-rooms-deployment-checklist"></a>Microsoft Teams ミーティングのデプロイ チェックリスト
 <a name="Checklist"> </a>
 
-本体とそのすべての周辺機器が完全に設定されていることを確認するために、次のチェックリストを使用します。
+コンソールとそのすべての周辺機器が完全に構成されていることを最終確認するときは、以下のチェックリストを使用します。
   
 **アプリケーションの設定**
 
@@ -233,14 +233,14 @@ Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Microsoft_Teams_
 |☐  <br/> |ルーム アカウント名と電話番号 (PSTN が有効な場合) が、コンソール画面の右上に正しく表示される  <br/> |
 |☐  <br/> |Windows コンピューター名が正しく設定されている (リモート管理に役立つ)  <br/> |
 |☐  <br/> |管理者アカウントのパスワードが設定されており、確認済みである  <br/> |
-|☐  <br/> |すべてのファームウェア更新プログラムが適用されました  <br/> |
+|☐  <br/> |すべてのファームウェア更新プログラムが適用されている  <br/> |
    
 **オーディオ/ビデオ周辺機器**
 
 |||
 |:-----|:-----|
 |☐  <br/> |カメラ周辺機器のファームウェアのバージョンが正しい (該当する場合)  <br/> |
-|☐  <br/> |カメラ機能と最適な配置  <br/> |
+|☐  <br/> |カメラが機能し、適切に配置されている  <br/> |
 |☐  <br/> |既定の再生デバイスと既定の再生通信デバイスの設定が、目的のオーディオ周辺機器に設定されている  <br/> |
 |☐  <br/> |既定の録音通信デバイスの設定が目的のオーディオ周辺機器に設定されている  <br/> |
 |☐  <br/> |オーディオ周辺機器のファームウェアのバージョンが正しい (該当する場合)  <br/> |
@@ -260,10 +260,10 @@ Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Microsoft_Teams_
 ## <a name="see-also"></a>関連項目
 <a name="Checklist"> </a>
 
-[Microsoft Teams のルームを計画する](rooms-plan.md)
+[Microsoft Teams ミーティングを計画する](rooms-plan.md)
   
-[Microsoft Teams ルームの展開](rooms-deploy.md)
+[デプロイの概要](rooms-deploy.md)
   
-[Microsoft Teams 室コンソールを構成する](console.md)
+[Microsoft Teams ミーティングのコンソールを構成する](console.md)
   
 [Microsoft Teams Rooms を管理する](rooms-manage.md)

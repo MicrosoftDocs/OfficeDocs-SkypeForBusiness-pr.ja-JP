@@ -20,90 +20,90 @@ f1.keywords:
 ms.custom:
 - Phone System
 - ms.teamsadmincenter.callparkpolicies.overview
-description: '[コールパーク] を使って、クラウドの Teams サービスで通話を保留にします。'
+description: コール パークおよび保留解除を使用して、クラウド内の Teams サービスで通話を保留扱いできます。
 ms.openlocfilehash: b4b5200f139f5610ff1109b97742607d3b633ff6
 ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 02/06/2020
 ms.locfileid: "41824595"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Microsoft Teams でのコール パークおよび保留解除
 
-[コールパーク] と [取得] は、ユーザーがクラウドの Teams サービスで通話を保留できるようにする機能です。 通話が保留中の場合、サービスは通話の取得用に一意のコードを生成します。 通話または他のユーザーが、そのコードとサポートされているアプリまたはデバイスを使って通話を取得できます。 
+コール パークおよび保留解除は、ユーザーがクラウド内の Teams サービスで通話を保留にする機能です。 通話の保留を実行すると、Teams サービスにより通話解除のための固有のコードが生成されます。 通話を保留したユーザーまたは他のユーザーは、そのコードとサポートされているアプリやデバイスを使用して、通話を再開できます。 
 
-コールパークを使用する一般的なシナリオには、次のようなものがあります。 
+コール パークを使用する一般的なシナリオには、次のようなものがあります。 
 
-- 受付係は、工場で仕事をしている人のために電話をかけます。 次に、受付によって、通話とコード番号がパブリックアドレスシステム経由でアナウンスされます。 次に、通話を発信しているユーザーは、工場のフロアで Teams 電話を選択して、通話を取得するためのコードを入力することができます。
-- デバイスのバッテリーの電力が不足しているため、ユーザーがモバイルデバイスで通話をパークしています。 次に、ユーザーはコードを入力して、Teams 卓上電話から通話を取得できます。
-- サポート担当者は、顧客からの通話をパークし、専門家が通話を取得して顧客を支援するためにチームチャネルでお知らせを送信します。 エキスパートが Teams クライアントにコードを入力して通話を取得する
+- 受付が、工場で働く人宛にかかってきた通話を保留にします。 次に、受付は場内アナウンス設備で着信とコード番号をアナウンスします。 通話を受けたユーザーは、工場のフロアで Teams 電話を取り、コードを入力して通話を保留解除できます。
+- バッテリーの充電が切れかけているため、ユーザーが携帯電話で通話を保留にします。 その後、そのユーザーは Teams の卓上電話でコードを入力して通話を保留解除できます。
+- サポート担当者が顧客からの電話を保留して、顧客への通話サポートを行うエキスパートへ Teams チャネルでアナウンスを送信します。 エキスパートが Teams クライアントにコードを入力し、通話を保留解除します。
 
 > [!IMPORTANT]
-> この機能は、Teams のみの展開モードでのみ利用できます。 Teams の展開モードの詳細については、「 [Microsoft Teams と Skype For business の共存と相互運用性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)について」を参照してください。
+> この機能を使用できるのは、Teams のみの展開モードだけです。 Teams 展開モードの詳細については、「[Microsoft Teams と Skype for Business の共存および相互運用性について理解する](teams-and-skypeforbusiness-coexistence-and-interoperability.md)」を参照してください。
 
 ## <a name="license-required"></a>ライセンスが必要
 
-通話をパークして取得するには、ユーザーはエンタープライズボイスユーザーである必要があります。管理者は、ユーザーにコールパークポリシーを与える必要があります。 ライセンスモデルの詳細については、「 [Microsoft Teams の Office 365 ライセンス](office-365-licensing.md)」を参照してください。
+通話を保留および解除するには、ユーザーがエンタープライズ VoIP ユーザーであり、管理者がユーザーにコール パーク ポリシーを付与する必要があります。 ライセンス モデルの詳細については、「[Microsoft Teams 用の Office 365 ライセンス](office-365-licensing.md)」を参照してください。
 
-## <a name="call-park-and-retrieve-feature-availability"></a>通話パークと機能の可用性の取得
+## <a name="call-park-and-retrieve-feature-availability"></a>コール パークおよび保留解除機能の可用性
 
-コールパークと取得は、現在次のクライアントとデバイスでサポートされています。 (チーム専用モードでサポートされています。 PSTN 接続の有無はサポートされています)。
+コール パークおよび保留解除は現在、次のクライアントとデバイスでサポートされています。 (PSTN 接続の有無にかかわらず、Teams のみのモードでサポートされています。)
 
-| 機能 | Teams のデスクトップ | Teams Mac アプリ | Teams Web App (Edge) |Teams mobile iOS/Android アプリ | Teams の IP 電話 | Skype for Business の IP 電話 |
+| 機能 | Teams デスクトップ | Teams Mac アプリ | Teams Web アプリ (Edge) |Teams モバイル iOS/Android アプリ | Teams IP 電話 | Skype for Business IP 電話 |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|-----------------------------|
-| 通話をパークする | はい | はい | はい | はい | もうすぐです| いいえ |
-| 保留中の通話を取得する | はい | はい | はい | はい | もうすぐです| いいえ |
-| 着信コールバックの取り消し | はい | はい | はい | はい | もうすぐです| いいえ |
+| 通話を保留する | はい | はい | はい | はい | 近日対応予定| いいえ |
+| 通話の保留を解除する | はい | はい | はい | はい | 近日対応予定| いいえ |
+| 未解除通話のかけ直し | はい | はい | はい | はい | 近日対応予定| いいえ |
 
-## <a name="configuring-call-park-and-retrieve"></a>コールパークと取得の構成
+## <a name="configuring-call-park-and-retrieve"></a>コール パークおよび保留解除を構成する
 
-コールパークを構成して取得するには、管理者である必要があります。この機能は、既定では無効になっています。 ユーザーに対して有効にし、[コールパーク] ポリシーを使用してユーザーグループを作成することができます。 同じポリシーを一連のユーザーに適用すると、その間で通話をパークして取得することができます。 ユーザー用のコールパークを構成し、コールパークのユーザーグループを作成するには、以下の「[コールパークポリシーの割り当て](#assign-a-call-park-policy)」の手順に従います。
+コール パークおよび保留解除を構成するには管理者である必要があり、この機能は既定で無効になっています。 コール パーク ポリシーを使用して、ユーザーに対して有効にしたり、ユーザー グループを作成したりできます。 一連のユーザーに同じポリシーを適用すると、そのユーザーの間で通話を保留したり、保留を解除したりできます。 ユーザーのコール パークを構成したり、コール パーク ユーザー グループを作成したりするには、この下の「[コール パーク ポリシーを割り当てる](#assign-a-call-park-policy)」の手順に従ってください。
 
-コールパークを使用して機能を取得する方法については、「 [Teams で通話をパーク](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)する」を参照してください。
+コール パークおよび保留解除機能の使用方法の詳細については、「[Teams で通話を保留する](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)」を参照してください。
 
-### <a name="enable-a-call-park-policy"></a>コールパークポリシーを有効にする
+### <a name="enable-a-call-park-policy"></a>コール パーク ポリシーを有効にする
 
-次の手順に従って、コールパークポリシーを有効にします。
+コール パーク ポリシーを有効にするには、次の手順を実行します。
 
-1. **Microsoft Teams 管理センター** > の**音声** > **通話パークポリシー**に移動します。
-2. [**新しいポリシー**] を選びます。
-3. ポリシーに名前を付け、[ **Call パークを有効**にする] に切り替え**ます。**
-4. [**保存**] を選びます。
+1. **[Microsoft Teams 管理センター]** > **[音声]** > **[コール パーク ポリシー]**.の順に移動します。
+2. **[新しいポリシー]** を選択します。
+3. ポリシーに名前を付け、次に **[コール パークを許可]** を **[オン]** に切り替えます。
+4. **[保存]** を選択します。
 
-### <a name="assign-a-call-park-policy"></a>コールパークポリシーを割り当てる
+### <a name="assign-a-call-park-policy"></a>コール パーク ポリシーを割り当てる
 
-次の手順に従って、1人以上のユーザーにコールパークポリシーを割り当てます。
+1 人以上のユーザーにコール パーク ポリシーを割り当てるには、次の手順を実行します。
 
-1. **Microsoft Teams 管理センター** > の**音声** > **通話パークポリシー**に移動します。
-2. ポリシー名の左側をクリックして、ポリシーを選択します。
-3. [**ユーザーの管理**] を選びます。
-4. [**ユーザーの管理**] ウィンドウで、[表示名] または [ユーザー名] でユーザーを検索し、名前を選択して [**追加**] を選択します。 追加するユーザーごとに、この手順を繰り返します。
-5. ユーザーの追加が完了したら、[**保存**] を選択します。
+1. **[Microsoft Teams 管理センター]** > **[音声]** > **[コール パーク ポリシー]**.の順に移動します。
+2. ポリシー名の左側をクリックしてポリシーを選びます。
+3. [**ユーザーを管理**] を選択します。
+4. [**ユーザーを管理**] ウィンドウで、表示名またはユーザー名でユーザーを検索し、名前を選択して [**追加**] を選びます。 追加するユーザーごとに、この手順を繰り返します。
+5. ユーザーの追加が完了したら、**[保存]** を選択します。
  
-### <a name="configure-call-park-and-retrieve-with-powershell"></a>PowerShell を使用したコールパークと取得の構成
+### <a name="configure-call-park-and-retrieve-with-powershell"></a>PowerShell を使用してコール パークおよび保留解除を構成する
 
-[新しい-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamscallparkpolicy?view=skype-ps) PowerShell コマンドレットを使用して、コールパークポリシーを作成します。
+[New-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamscallparkpolicy?view=skype-ps) PowerShell コマンドレットを使用して、コール パーク ポリシーを作成します。
 
-コールパークポリシーを付与するには、 [Grant-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallparkpolicy?view=skype-ps) PowerShell コマンドレットを使用します。
+[Grant-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallparkpolicy?view=skype-ps) PowerShell コマンドレットを使用して、コール パーク ポリシーを付与します。
 
-既定の設定を変更するには、次のように、 [Set-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallparkpolicy?view=skype-ps)を使用します。
+[Set-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallparkpolicy?view=skype-ps) を使用して既定の設定を変更するには、次のようにします。
 
 `Set-CsTeamsCallParkPolicy -Identity Global -AllowCallPark $true`
 
 
 ## <a name="troubleshooting"></a>トラブルシューティング
 
-ユーザーが [パーク] または [取得] ボタンを表示できない場合: 
+[保留] ボタンや [保留解除] ボタンがユーザーに表示されない場合: 
 
-- ユーザーがコールパークポリシーを有効にしていることを確認します。 
+- ユーザーがコール パーク ポリシーを有効にしていることを確認します。 
 
-ユーザーが通話を取得しようとして失敗した場合は、次のことを確認してください。
+ユーザーが通話の保留を解除しようとしても失敗した場合は、次の点を確認します:
 
-- ユーザーがチームクライアントまたはチーム対応デバイス/スマートフォンを使用していることを確認する
-- グループ化–ユーザーは [コールパーク] グループのメンバーになっています。このグループは、同じ Teams Call パークポリシーが割り当てられていることに基づいています。 
-- アイランドモード– Teams アイランドモードでは、コールパークと取得は利用できません。
-- 通話は既に取得または終了されています。
+- ユーザーが Teams クライアントまたは Teams が有効なデバイス/スマートフォンを使用していることを確認します
+- グループ – ユーザーが、同じ Teams コール パーク ポリシーが割り当てられている、コール パーク グループのメンバーであるかを確認します。 
+- アイランド モード – コール パークおよび保留解除は、Teams アイランド モードでは使用できません。
+- 通話は既に保留解除または終了しています。
 
-## <a name="more-information"></a>More information
+## <a name="more-information"></a>詳細情報
 
-[Teams で通話をパーク](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)します。
+[Teams で通話を保留する](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)。

@@ -15,76 +15,76 @@ f1.keywords:
 ms.collection:
 - M365-voice
 localization_priority: Normal
-description: この記事では、Microsoft Teams で認定されている電話の一覧と、Microsoft Teams でサポートされている電話機能について説明します。
+description: この記事では、Microsoft Teams 用に認定されている電話機と、それらの電話機でサポートされている機能のリストを取り上げています。
 ms.openlocfilehash: b811a92977d10601aa601e1bae811ef73c34dce8
 ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 02/06/2020
 ms.locfileid: "41836867"
 ---
 # <a name="phones-for-microsoft-teams"></a>Microsoft Teams 用の電話機
 
-Microsoft Teams では、従来の電話体験が必要なユーザー向けの卓上電話のポートフォリオがサポートされています。 この記事では、Microsoft Teams で認定されている電話の一覧と、Microsoft Teams でサポートされている電話機能について説明します。 Teams で認定されたデバイスについて最新の情報を取得するには、「 [Teams Marketplace](https://office.com/teamsdevices)」を参照してください。
+Microsoft Teams では、従来の電話機エクスペリエンスを必要とするユーザー向けに卓上電話機製品をサポートしています。 この記事では、Microsoft Teams 用に認定されている電話機と、それらの電話機でサポートされている機能のリストを取り上げています。 Teams 認定デバイスの最新情報を取得するには、[Teams Marketplace](https://office.com/teamsdevices) にアクセスしてください。
 
-## <a name="teams-certified-ip-phones"></a>チーム認定 IP 電話
+## <a name="teams-certified-ip-phones"></a>Teams 認定 IP 電話機
 
-高品質で信頼できる Microsoft Teams を携帯電話で実現するために、お客様は、お客様との間で、Polycom、および Audiocodes を使用して、さまざまな卓上電話と会議室のオーディオデバイスを開発し、認定しています。 現在サポートされているデバイスについて、現在認定されている[IP 電話](teams-ip-phones.md#currently-certified-ip-phones)をご覧ください。
+電話機において高品質で信頼できる Microsoft Teams エクスペリエンスを提供するため、Yealink、Crestron、Polycom、Audiocodes と Microsoft はパートナー関係を締結し、幅広い卓上電話機と会議室用オーディオ デバイスの製品ラインを開発して認定するよう積極的に取り組んでいます。 現在サポートしているデバイスについては、「[現在認定されている IP 電話](teams-ip-phones.md#currently-certified-ip-phones)」を参照してください。
 
-## <a name="microsoft-teams-phones-feature-set"></a>Microsoft Teams の電話機の機能セット
+## <a name="microsoft-teams-phones-feature-set"></a>Microsoft Teams 電話機の機能セット
 
-Teams で認定された IP 電話でサポートされる上位レベルの機能セットは、次の表に記載されています。
+次の表では、Teams 認定 IP 電話でサポートされている機能セットの概要をまとめています。
 
-|機能 |卓上電話 (個人用モード) |会議室の電話 (共有モード)|
+|機能 |卓上電話機 (個人モード) |会議室用電話機 (共有モード)|
 |---------|---------|---------|
 |**認証** | |  |
 |ユーザー資格情報でのサイン イン |  はい | はい|
-|PC/スマートフォンを使ってサインインする  | はい |はい|
+|PC/スマートフォンを使用したサインイン  | はい |はい|
 |先進認証 | はい |はい |
-|電話のロック/ロック解除 | はい |いいえ |
+|電話機のロック/ロック解除 | はい |いいえ |
 |**通話** |  |  |
-|受信/送信の P2P 通話 | はい  |はい |
-|UI (ミュート、保留/再開、転送、終了通話) による通話の制御| はい  |はい |
+|P2P 通話の送信/受信 | はい  |はい |
+|UI による通話中の制御 (通話のミュート、保留/再開、転送、終了)| はい  |はい |
 |PSTN 通話| はい  |はい |
 |ビジュアル ボイスメール | はい | いいえ |
-|911サポート  | はい  |はい |
+|911 サポート  | はい  |はい |
 |**予定表とプレゼンス**|   | |
 |予定表へのアクセスと会議の詳細|はい |はい|
 |プレゼンス統合 |はい|はい|
 |Exchange の予定表の統合 |はい|はい|
 |連絡先の写真の統合  |はい|はい|
-|会社のディレクトリアクセス | はい|はい|
+|会社のディレクトリ アクセス | はい|はい|
 |**会議**|   ||
-|会議のワンクリックで参加  | はい  |はい |
-|Skype for Business 会議に参加する | はい  | はい|
-|会議通話の制御 (ミュート/ミュート解除、保留/再開、参加者の追加/削除)|はい|はい|
+|会議へのワンクリック参加  | はい  |はい |
+|Skype for Business 会議への参加 | はい  | はい|
+|会議通話の制御 (ミュート/ミュート解除、保留/再開、通話終了、参加者の追加/削除)|はい|はい|
 |会議の詳細|はい|いいえ|
 
-Skype では、ユーザーが携帯電話でのチームエクスペリエンスを向上させるのに役立つ機能を継続的に追加するよう取り組んでいます。 次のスクリーンショットは、現在サポートされているいくつかのエクスペリエンスを示しています。
+電話機におけるユーザーの Teams エクスペリエンスを強化するため、継続的に機能追加できるように努めています。 次のスクリーンショットでは、現在サポートしているエクスペリエンスの一部を示しています。
 
-## <a name="sign-in-experience"></a>サインインエクスペリエンス
+## <a name="sign-in-experience"></a>サインイン エクスペリエンス
 
-ユーザーが Teams の [サインイン] ボタンをクリックすると、サインインが会社のポータルで開始されます。 ユーザーは、電話にユーザー資格情報を入力してサインインするか、別のデバイスからサインインすることを選択してサインインするオプションがあります。 ユーザーが別のデバイスからのサインインを選択した場合、ユーザーは PC またはスマートフォンから認証を完了することができます。
+ユーザーが Teams でサインイン ボタンをクリックすると、企業ポータルでサインインが開始されます。 ユーザーは、電話機でユーザー資格情報を入力してサインインするか、別のデバイスからサインインするよう選択することができます。 別のデバイスからサインインすることを選択する場合、ユーザーは PC またはスマートフォンから認証を完了できます。
 
-**資格情報を使用したユーザーのサインイン**
+**資格情報でのユーザー サインイン**
 
-![資格情報を使ってサインインする場合のスクリーンショット](media/sign-in-with-credentials.png)
+![資格情報を使用してサインインするスクリーンショット](media/sign-in-with-credentials.png)
 
-**PC/スマートフォンを使用したユーザーのサインイン**
+**PC/スマートフォンによるユーザー サインイン**
 
-![別のデバイスでサインインする場合のスクリーンショット](media/sign-in-with-device.jpg)
+![別のデバイスを使用してサインインするスクリーンショット](media/sign-in-with-device.jpg)
 
-## <a name="personalshared-mode"></a>個人用/共有モード
+## <a name="personalshared-mode"></a>個人モード/共有モード
 
-サインインに成功すると、ユーザーは、デバイスを個人的な用途で使用するか、または共有の会議室で使うかを選ぶことができます。
+サインインが成功したら、ユーザーはデバイスを個人的に使用するか、共有の会議室で使用するかを選択できます。
 
-![個人用または共有のアカウントオプションのスクリーンショット](media/personal-vs-shared-mode.jpg)
+![個人アカウントと共有アカウントのオプションのスクリーンショット](media/personal-vs-shared-mode.jpg)
 
-チーム電話のエクスペリエンスは、ユーザーの選択に基づいて最適化されます。
+Teams 電話機のエクスペリエンスはユーザーの選択に基づいて最適化されます。
 
-**個人用モード**
+**個人モード**
 
-![個人用モードのアカウントのスクリーンショット](media/personal-mode.png)
+![個人モードのアカウントのスクリーンショット](media/personal-mode.png)
 
 **共有モード**
 
@@ -92,52 +92,52 @@ Skype では、ユーザーが携帯電話でのチームエクスペリエン�
 
 ## <a name="calling-experience"></a>通話エクスペリエンス
 
-Microsoft Teams ユーザーは、ハンドセットを持ち上げるか、[スピーカー] ボタンを押すと、通話画面のダイヤルパッドを起動できます。 または、ユーザーはハードウェアボタン (使用可能な場合) を使って番号をダイヤルアウトすることもできます。
+Microsoft Teams ユーザーは受話器を持ち上げるか、[スピーカー] ボタンを押して、通話画面のダイヤルパッドを起動できます。 または、(使用可能な場合) ハードウェア ボタンを使用して、番号をダイヤルアウトすることができます。
 
-**スクリーンダイヤルパッド**
+**画面に表示されるダイヤルパッド**
 
-![スクリーンダイヤルパッドのスクリーンショット](media/on-screen-dial-pad.png)
+![画面に表示されるダイヤルパッドのスクリーンショット](media/on-screen-dial-pad.png)
 
 **通話画面**
 
 ![通話画面のスクリーンショット](media/calling-screen.png)
 
-## <a name="meeting-experience"></a>会議の操作
+## <a name="meeting-experience"></a>会議エクスペリエンス
 
-Microsoft Teams ユーザーは [会議] タブに移動して、会議を表示し、[**参加**] ボタンを使ってチーム会議に参加することができます。
+Microsoft Teams ユーザーは [会議] タブに移動すると、自分の会議を表示し、**[参加]** ボタンを使用して Teams 会議に参加できます。
 
 **予定表ビュー**
 
-![[予定表] ビューの会議のスクリーンショット](media/calendar-view.png)
+![予定表ビューでの会議のスクリーンショット](media/calendar-view.png)
 
-**会議の参加ビュー**
+**会議参加ビュー**
 
-![[参加] ビューの会議のスクリーンショット](media/meeting-join-view.png)
+![参加ビューの会議のスクリーンショット](media/meeting-join-view.png)
 
 
 ## <a name="voicemail"></a>ボイスメール
 
-Microsoft Teams ユーザーは [**ボイスメール**] タブに移動すると、ボイスメールにアクセスできます。
+Microsoft Teams ユーザーは、**[ボイスメール]** タブに移動すると、ボイスメールにアクセスできます。
 
 ![[ボイスメール] タブのスクリーンショット](media/voicemail-tab.png)
 
 ## <a name="user-sign-out"></a>ユーザーのサインアウト
 
-チームの電話ユーザーは、左上のメニューから [**サインアウト**] オプションを選択して、サインアウトすることができます。
+Teams 電話機のユーザーは、左上にあるメニューから **[サインアウト]** オプションを選択すると、サインアウトできます。
 
-![Teams からサインアウトする場合のスクリーンショット](media/teams-sign-out.png)
+![Teams のサインアウトのスクリーンショット](media/teams-sign-out.png)
 
-## <a name="finding-the-firmware-version-on-a-mobile-device"></a>モバイルデバイスでファームウェアのバージョンを検索する
+## <a name="finding-the-firmware-version-on-a-mobile-device"></a>モバイル デバイスでファームウェア バージョンを見つける
 
-右上隅にある**設定**アイコンを選択し、[**バージョン情報**] をクリックして、Teams のサインインページで最小ファームウェアバージョンを確認できます。
+最小ファームウェア バージョンは Teams のサインイン ページで、右上隅にある **[設定]** アイコンを選択し、**[バージョン情報]** をクリックすると、確認できます。
 
-**Teams のサインインページ**
+**Teams のサインイン ページ**
 
-![Teams のサインインページのスクリーンショット](media/teams-sign-in-page.jpg)
+![Teams のサインイン ページのスクリーンショット](media/teams-sign-in-page.jpg)
 
 **設定ページ**
 
-![Teams の [設定] ページのスクリーンショット](media/teams-settings-page.jpg)
+![Teams 設定ページのスクリーンショット](media/teams-settings-page.jpg)
 
 ## <a name="required-licenses"></a>必要なライセンス
 
@@ -149,4 +149,4 @@ Teams の入手方法については[Microsoft Teams へのアクセス権を取
 
 [Teams Marketplace](https://office.com/teamsdevices)
 
-[Microsoft Teams で認定を受けた IP 電話](teams-ip-phones.md)
+[Microsoft Teams 認定 IP 電話](teams-ip-phones.md)

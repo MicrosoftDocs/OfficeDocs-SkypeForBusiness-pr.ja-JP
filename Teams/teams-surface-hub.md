@@ -1,5 +1,5 @@
 ---
-title: Surface Hub の Microsoft Teams を展開する
+title: Microsoft Teams for Surface Hub を展開する
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: jatpatel
-description: Surface Hub 用の Microsoft Teams の管理者設定を構成します。
+description: Microsoft Teams for Surface Hub の管理者設定を構成します。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -21,77 +21,77 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 5634c4ac5e5955d099555cce4f74b57a527662e9
 ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 02/06/2020
 ms.locfileid: "41836937"
 ---
-<a name="deploy-microsoft-teams-for-surface-hub"></a>Surface Hub の Microsoft Teams を展開する
+<a name="deploy-microsoft-teams-for-surface-hub"></a>Microsoft Teams for Surface Hub を展開する
 ======================================
 
-Surface Hub の Teams をインストールする前に、次の操作を行ってください。
+Teams for Surface Hub をインストールする前に、次の操作を行います。
 
- □ハードウェア、オペレーティングシステム、その他の要件が満たされていることを確認します。 詳細については、「 [Microsoft Surface Hub 管理者ガイド](https://docs.microsoft.com/surface-hub/)」を参照してください。<br>
- □ Teams に必要なオペレーティングシステムの最小更新プログラムがインストールされていることを確認します。 [KB4343889](https://support.microsoft.com/help/4343889)。<br>
- □によって、Hub デバイスアカウントに Teams ライセンスが割り当てられます。<br>
- □ Skype for Business Online から移行している場合は、Teams ライセンスがユーザーに割り当てられていることを確認します。
+ □ ハードウェア、オペレーティング システム、その他の要件を満たしていることを確認する。 詳細については、[Microsoft Surface Hub の管理者ガイド](https://docs.microsoft.com/surface-hub/)を参照してください。<br>
+ □ Teams に必要な最小オペレーティング システムの更新プログラムがインストールされていることを確認する - [KB4343889](https://support.microsoft.com/help/4343889)。<br>
+ □ Teams ライセンスを Hub デバイス アカウントに割り当てる。<br>
+ □ Skype for Business Online から移行している場合は、Teams ライセンスがユーザーに割り当てられていることを確認する。
 
-## <a name="install-teams-for-surface-hub-from-the-microsoft-store"></a>Microsoft Store から Surface Hub の Teams をインストールする 
+## <a name="install-teams-for-surface-hub-from-the-microsoft-store"></a>Microsoft Store から Teams for Surface Hub をインストールする 
 
-この手順では、Microsoft Store から Surface Hub の Teams をインストールする方法について説明します。 
+Microsoft Store から Teams for Surface Hub をインストールする手順を以下に示します。 
  
-1. Microsoft Store を起動します。<br>
-   a. [ **** > **すべてのアプリ** > **設定**を開始] をタップします。<br> b. **[Surface Hub デバイスアカウント] の [管理] を**タップします。<br>
-   c. 左側の [**アプリ & 機能**] タブをタップします。<br> d. 右側の [**ストアを開く**] ボタンをタップします。 
-2. Microsoft Store で、 *Microsoft Teams*を検索します。 **Surface Hub 用の Microsoft Teams**が表示されます。 インストールするには、[**アプリの取得**] ボタンをタップします。  
+1. Microsoft Store を開始します。<br>
+   a. **[スタート]** > **[すべてのアプリ]** > **[設定]** をタップします。<br> b. **[Surface Hub Device account, management]** (Surface Hub デバイス アカウント、管理) をタップします。<br>
+   c. 左側にある **[アプリと機能]** タブをタップします。<br> d. 右側にある **[ストアを開く]** ボタンをタップします。 
+2. Microsoft Store で、*[Microsoft Teams]* を検索します。 **[Microsoft Teams for Surface Hub]** が表示されます。 **[アプリを入手]** ボタンをタップしてインストールします。  
 3. インストールが完了したら、Surface Hub を再起動します。 
 
 > [!NOTE]
-> [ストア登録情報] ページから [**起動**] をタップしないでください。
+> Store 登録情報ページからは **[起動]** をタップしないでください。
 
-## <a name="make-teams-the-default-calling-and-meetings-application"></a>チームを既定の通話と会議アプリケーションとして設定する
+## <a name="make-teams-the-default-calling-and-meetings-application"></a>Teams を既定の通話と会議のアプリケーションにする
  
-既定の通話と会議のアプリケーションポリシーを構成するには、次の2つのオプションがあります。 
+既定の通話と会議のアプリケーション ポリシーを構成するには、次の 2 つのオプションがあります。 
 
-- **オプション 1**: USB キーを使用して構成します。 
-- **オプション 2**: Intune などの MDM 経由で構成する。
+- **オプション 1**: USB キーを使用して構成する。 
+- **オプション 2**: MDM (Intune など) を使用して構成する。
  
 ### <a name="option-1-configure-via-usb-key"></a>オプション 1: USB キーを使用して構成する 
  
-パッケージはこの[ダウンロードページ](https://1drv.ms/f/s!ArcnbnREun0Vnp9Wps9MlWB-UJZw3g)で確認できます。 インストールを計画しているパッケージに適切なものを選び、USB キーにコピーします。 使用する正しい ppkg ファイルは、次のようにして適用する既定のアプリケーションポリシーによって異なります。 
+パッケージは、この[ダウンロード ページ](https://1drv.ms/f/s!ArcnbnREun0Vnp9Wps9MlWB-UJZw3g)にあります。 インストールを計画しているパッケージに適したものを選択し、USB キーにコピーします。 使用できる正しい .ppkg ファイルは、次に示すとおり、適用する既定のアプリケーション ポリシーによって異なります。 
 
 |数値  |説明  |
 |---------|---------|
-|0     | スタート画面の Skype 優先アプリ、Teams 会議が利用可能        |
-|1     | スタート画面の Teams 優先アプリ、Skype 会議が利用可能        |
-|両面     | スタート画面の Teams 排他アプリ (Skype アプリは利用できません)        |
+|0     | スタート画面で Skype が優先アプリ、Teams 会議が利用可能        |
+|1     | スタート画面で Teams が優先アプリ、Skype 会議が利用可能        |
+|2     | スタート画面で Teams が独占的アプリ (Skype アプリは利用不可)        |
  
-1. USB キーを Surface Hub デバイスに接続します。 
-2. Surface Hub デバイスで [**設定**] アプリを開きます。 
-3. **Surface Hub デバイスアカウントの管理**を開きます。
-4. [**デバイス管理**] を開きます。 
-5. [**プロビジョニングパッケージの追加または削除] を**クリックします。 
-6. [**パッケージの追加**] をクリックします。
-7. ドロップダウンメニューから [**リムーバブルメディア**] オプションを選択します。 
-8. 以前に USB キーにコピーした適切な<strong>Teamsrtmmode *. ppkg</strong>パッケージを追加します。 
+1. Surface Hub デバイスに USB キーを接続します。 
+2. Surface Hub デバイスで **[設定] **アプリを開きます。 
+3. **[Surface Hub Device Account Management]** (Surface Hub デバイス アカウントの管理) を開きます。
+4. **[デバイスの管理]** を開きます。 
+5. **[プロビジョニング パッケージを追加または削除する]** をクリックします。 
+6. **[パッケージの追加]** をクリックします。
+7. ドロップダウン メニューから **[リムーバブル メディア]** オプションを選択します。 
+8. 既に USB キーにコピーした適切な <strong>TeamsRTMMode*.ppkg</strong> パッケージを追加します。 
 9. Surface Hub デバイスを再起動します。 
-10. デバイスを再起動すると、スタート画面から Teams アプリを起動して、予定表から会議に参加できるようになります。 
+10. デバイスが再起動したら、スタート画面から Teams アプリを起動し、予定表から会議に参加できます。 
 
-### <a name="option-2-configure-via-mdm-such-as-intune"></a>オプション 2: Intune などの MDM で構成する 
+### <a name="option-2-configure-via-mdm-such-as-intune"></a>オプション 2: MDM (Intune など) を使用して構成する 
 
-Intune で既定の通話と会議のアプリケーションポリシーを構成するには、次のようにします。 また、ブログをご覧になり、 [Intune を使って Microsoft Teams For Surface Hub アプリを展開](https://y0av.me/2018/07/16/deploy-the-microsoft-teams-for-surface-hub-app-using-intune/)してください。
+以下の情報を使用し、Intune を介して既定の通話と会議のアプリケーション ポリシーを構成します。 ブログ「[Intune を使用して Microsoft Teams for Surface Hub アプリを展開する](https://y0av.me/2018/07/16/deploy-the-microsoft-teams-for-surface-hub-app-using-intune/)」も参照してください。
 
 |設定   |値    |説明    |
 |----------|---------|---------|
-|Path      | ./Vendor/MSFT/SurfaceHub/Properties/SurfaceHubMeetingMode        |
-|データ型 | integer (0-2)   |0-Skype 優先アプリをスタート画面に表示し、Teams 会議を利用できるようにする<br>1-チーム優先アプリスタート画面で Skype 会議が利用可能<br>2-スタート画面の Teams 排他アプリ (Skype アプリは利用できません) |
+|パス      | ./Vendor/MSFT/SurfaceHub/Properties/SurfaceHubMeetingMode        |
+|データ型 | 整数 (0 ～ 2)   |0 - スタート画面で Skype が優先アプリ、Teams 会議が利用可能<br>1 - スタート画面で Teams が優先アプリ、Skype 会議が利用可能<br>2 - スタート画面で Teams が独占的アプリ (Skype アプリは利用不可) |
 |操作| Get、Set        |
 
 |設定   |値    |
 |----------|---------|
-|Path      | ./Vendor/MSFT/SurfaceHub/Properties/VtcAppPackageId        |
-|データ型 | string-MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe として Teams アプリケーションパッケージ ID に文字列を設定し**ます。Teams** |
+|パス      | ./Vendor/MSFT/SurfaceHub/Properties/VtcAppPackageId        |
+|データ型 | 文字列 - 文字列を **Microsoft.MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe!Teams** として Teams アプリケーション パッケージ ID に設定します |
 |操作| Get、Set        |
 
-Surface Hub デバイスを再起動します。 デバイスを再起動すると、スタート画面から Teams アプリを起動して、予定表から会議に参加できるようになります。
+Surface Hub デバイスを再起動します。 デバイスが再起動したら、スタート画面から Teams アプリを起動し、予定表から会議に参加できます。
 

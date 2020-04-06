@@ -16,25 +16,25 @@ ms.collection:
 description: このトピックでは、Skype Room System アプライアンス PC をドメインに参加させる方法について説明します。
 ms.openlocfilehash: f2cad169b812d3da3a964c96adabc498df1009b8
 ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 02/06/2020
 ms.locfileid: "41826085"
 ---
 <!-- This asset missed in the rebrand, and honestly not sure if it's worth keeping.   -->
 
-# <a name="skype-room-system-domain-joining-considerations"></a>Skype Room System のドメイン参加に関する考慮事項
+# <a name="skype-room-system-domain-joining-considerations"></a>Skype Room System ドメイン参加に関する考慮事項
  
 このトピックでは、Skype Room System アプライアンス PC をドメインに参加させる方法について説明します。
   
 ## <a name="domain-joining-considerations"></a>ドメイン参加に関する考慮事項
 
-Skype Room System アプライアンス PC には、Active Directory ドメインに参加することも、ワークグループ内に残しておくこともできます。 決定の前に以下の点を検討してください。
+Skype Room System アプライアンス PC を Active Directory ドメインに参加させるか、あるいはワークグループに入れたままにしておくことができます。 この決定を行う前に、次の点を考慮してください。
   
-- ドメイン-Skype Room System アプライアンス PC に参加すると、組織のプライベートルート証明書チェーンを自動的にインポートできます。
-- ドメイン-Skype Room System アプライアンス PC に参加すると、ドメインユーザとグループの管理権限を付与することができます。 そうすることで、ローカル マシン レベルの管理者アカウントのパスワードを覚えておく必要がなくなります。
-- Skype Room System アプライアンス PC をドメインに参加させるには、別の組織単位 (OU) を作成する必要があります。これにより、すべての Skype Room System machine オブジェクトが存在する OU にグループポリシーオブジェクト (GPO) の除外が提供されます。 この操作を行う場合は、Skype Room System アプライアンス PC をドメインに参加させる前に、OU にマシンオブジェクトを作成します。
-- 多くの組織には、次のような Gpo があります。 Skype Room System appliance PC の機能に影響します。 Skype Room System OU でこれらの Gpo の継承を上書きまたはブロックします。
+- Skype Room System アプライアンス PC をドメインに参加させると、組織のプライベート ルート証明書チェーンの自動インポートが容易になります。
+- Skype Room System アプライアンス PC をドメインに参加させると、ドメイン ユーザーとグループに管理者権限を与えることができます。 これにより、ローカル コンピューター レベルの管理者アカウントのパスワードを記憶する必要がなくなります。
+- Skype Room System アプライアンス PC をドメインに参加させる場合、グループ ポリシー オブジェクト (GPO) の例外を、すべての Skype Room System マシン オブジェクトが配置されている OU に提供できるよう、独立した組織単位 (OU) を作成する必要があります。 その場合、Skype Room System アプライアンス PC をドメインに参加させる前に OU にマシン オブジェクトを作成します。
+- 多くの組織では、次の GPO が用意されています。それらは Skype Room System アプライアンス PC 機能に影響します。 Skype Room System OU でこれらの GPO の継承を上書きするか、ブロックしてください。
 
   - ログオン セッションのタイムアウト (自動ロックアウト)
   - 電源管理関連のポリシー
@@ -45,9 +45,9 @@ Skype Room System アプライアンス PC には、Active Directory ドメイ�
   - ドメインに参加するすべてのマシンで別のドメイン ユーザー アカウントを作成する。
   - Skype Room System に Windows Update をプッシュする
     
-- または、アプライアンス PC をワークグループに残しておくことも可能です。 デスクトップの Microsoft Teams または Skype for Business クライアントの場合と同様に、Skype Room System アプライアンス PC でルート証明書チェーンを手動でインポートする必要があります。 展開で公開証明書 (Entrust、VeriSign など) を使用している場合は、ルート証明書チェーンをインポートする必要はありません。 
+- 代替策として、アプライアンス PC をワークグループに残しておくこともできます。 デスクトップ Microsoft Teams や Skype for Business クライアントの場合と同様に、この操作を行うには Skype Room System アプライアンス PC でルート証明書チェーンを手動でインポートする必要があります。 ただし、展開でパブリック証明書 (たとえば、Entrust、VeriSign など) を使用している場合は、ルート証明書チェーンをインポートする必要はありません。 
     
-Skype Room システムマシンをドメインに参加させることを計画している場合、Skype Room System machine を意図しない OU に参加させないようにしてください。これは、Gpo から無料ではない可能性がありますので、正しい OU に参加してください。 Skype Room System コンピューターの次のコマンドレットを使用して、適切な OU に参加し、LRS 機能をブロックしている可能性のある Gpo を受信することはできません。 これらのコマンドレットを実行するには、システム管理者か OEM パートナーに連絡してください。
+Skype Room System マシンをドメインに参加させる計画を立てる場合、GPO の範囲外になる可能性があるため、Skype Room System マシンを意図しない OU に誤って参加させないように、正しい OU に参加するようにしてください。 Skype Room System マシンから次のコマンドレットを使用することで、正しい OU に参加させることができ、LRS 機能をブロックする可能性のある GPO を受け取ることはありません。 これらのコマンドレットを実行するには、システム管理者か OEM パートナーに連絡してください。
   
 ```
 $username = "contso.local\LRS01"
@@ -56,9 +56,9 @@ $myCred = New-Object System.Management.Automation.PSCredential $username, $passw
 Add-Computer -DomainName contoso.local -Credential $mycred -OUPath "OU=LyncRoomSystem,OU=Resources,DC=CONTOSO,DC=LOCAL"
 ```
 
-独立した OU を作成して継承をブロックしても、ハイ レベルな部分で問題を引き起こす可能性のあるポリシーがいくつか存在します。 No Override を設定したグループ ポリシーは、Block Policy Inheritance を設定した OU より優先されます。 詳細については、「グループポリシードキュメントの[ポリシーの継承をブロックする」という](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-2000-server/cc978255(v=technet.10))記事を参照してください。
+独立した OU を作成して継承をブロックしても、ハイ レベルな部分で問題を引き起こす可能性のあるポリシーがいくつか存在します。 No Override を設定したグループ ポリシーは、Block Policy Inheritance を設定した OU より優先されます。 詳細については、グループ ポリシーに関するドキュメントの「[No Override と Block Policy Inheritance の比較](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-2000-server/cc978255(v=technet.10))」を参照してください。
   
-これらの問題を解決する手段は、1 つではないかもしれません。 組織の Active Directory の専門家に、適切な GPO 設定の OU、少なくとも上で説明したポリシーが存在しない OU が提供されていることを確認するようにしてください。 Skype Room システムデバイスのサービス品質 (QoS) を有効にすることをお勧めします。
+これらの問題を解決する手段は、1 つではないかもしれません。 組織の Active Directory の専門家に、適切な GPO 設定の OU、少なくとも上で説明したポリシーが存在しない OU が提供されていることを確認するようにしてください。 また、Skype Room System デバイスでサービスの品質 (QoS) を有効にしておくことを推奨します。
 
 ## <a name="see-also"></a>関連項目
   

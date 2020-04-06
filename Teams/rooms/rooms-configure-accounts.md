@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 室のアカウントを構成する
+title: Microsoft Teams ミーティングのアカウントを構成する
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -14,79 +14,79 @@ ms.collection:
 - M365-collaboration
 ms.custom: ''
 ms.assetid: ''
-description: このトピックでは、Exchange および Skype for Business で Microsoft Teams ルームのアカウントを構成する方法について説明します。
+description: このトピックでは、Exchange と Skype for Business で Microsoft Teams ミーティングのアカウントを構成する方法について説明します。
 ms.openlocfilehash: 66eecbb0773f04599a0b5255cb5f83f158eb74f7
 ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 02/06/2020
 ms.locfileid: "41825945"
 ---
-# <a name="configure-accounts-for-microsoft-teams-rooms"></a>Microsoft Teams 室のアカウントを構成する
+# <a name="configure-accounts-for-microsoft-teams-rooms"></a>Microsoft Teams ミーティングのアカウントを構成する
  
-このトピックでは、Microsoft Teams のルームの概要と Exchange と Skype for Business との統合について説明します。
+このトピックでは、Microsoft Teams ミーティングの概要と、Exchange や Skype for Business との統合方法について説明します。
   
-このトピックでは、microsoft Teams のルームで使用されるアカウントを Microsoft Exchange および Skype for Business で作成する方法について説明します。 Microsoft Teams の会議室デバイスの展開手順については[、「Microsoft Teams 室コンソールを構成する](console.md)」をご利用ください。 通常、インフラストラクチャは次のいずれかの構成に該当します。
+このトピックでは、Microsoft Exchange や Skype for Business で Microsoft Teams ミーティングに使用されるアカウントを作成する方法について説明します。 Microsoft Teams ミーティング デバイスの展開手順は、「[Microsoft Teams ミーティングのコンソールを構成する](console.md)」で取り上げられてます。 インフラストラクチャは、次のいずれかの構成に分類されます。
   
-- オンライン展開: 組織の環境は、完全に Office 365 に展開されます。 詳細については、「 [Office 365 で Microsoft Teams ルームを展開](with-office-365.md)する」を参照してください。
+- オンライン展開: 組織の環境全体が Office 365 に展開されます。 詳細については、「[Office 365 での Microsoft Teams ミーティングを展開する](with-office-365.md)」をご覧ください。
     
-- オンプレミスの展開: 組織には、Active Directory、Exchange、および Skype for Business Server がホストされていることを制御するサーバーがあります。 詳細については、「 [Skype For Business Server で Microsoft Teams のルームを展開](with-skype-for-business-server-2015.md)する」を参照してください。
+- オンプレミス展開: 組織に、Active Directory、Exchange、Skype for Business Server がどこでホストされるかを制御するサーバーがあります。 詳細については、「[Skype for Business Server での Microsoft Teams ミーティングを展開する](with-skype-for-business-server-2015.md)」をご覧ください。
     
-- ハイブリッド展開: 組織には、オンプレミスのホストと、Office 365 を介してオンラインでホストされているサービスが混在しています。 Microsoft Teams のルームでは、次のハイブリッドシナリオがサポートされています。 
+- ハイブリッド展開: 組織に、オンプレミスでホストされるサービスと、Office 365 を介してオンラインでホストされるサービスが混在しています。 Microsoft Teams ミーティングでは、次のハイブリッド シナリオがサポートされています。 
     
-  - オンプレミスの Skype for Business Server での Exchange Online。 詳細については、「 [Microsoft Teams のルームを Exchange Online (ハイブリッド) と連携](with-exchange-online.md)させる」を参照してください。
+  - Exchange Online とオンプレミスの Skype for Business Server。 詳細については、「[Exchange Online を使用して Microsoft Teams ミーティングを展開 (ハイブリッド)](with-exchange-online.md)」をご覧ください。
     
-  - Microsoft Teams または Skype for Business Online でオンプレミスの Exchange に接続します。 詳細については、「 [Exchange on プレミス (ハイブリッド) で Microsoft Teams のルームを展開](with-exchange-on-premises.md)する」を参照してください。
+  - オンプレミスの Exchange と Microsoft Teams または Skype for Business Online。 詳細については、「[オンプレミスで Exchange を使用して Microsoft Teams ミーティングを展開 (ハイブリッド)](with-exchange-on-premises.md)」をご覧ください。
     
-使用する構成は、デバイスのセットアップの準備方法に影響します。
+どの構成かによって、デバイス セットアップの準備の方法が変わります。
   
-Microsoft Teams の会議室には、Active Directory、Exchange、Skype for Business に "デバイスアカウント" が割り当てられている必要があります。 アカウントは、会議の予定表にアクセスし、Microsoft Teams または Skype for Business の接続を確立するために使用されます。 ユーザーは、このアカウントで会議をスケジュール設定することで、このアカウントを予約できます。 Microsoft Teams のルームは、会議に参加し、会議の出席者にさまざまな機能を提供することができます。
+Microsoft Teams ミーティングには、Active Directory、Exchange、Skype for Business の "デバイス アカウント" が割り当てられている必要があります。 このアカウントは、会議の予定表にアクセスし、Microsoft Teams または Skype for Business の接続を確立するために使用されます。 このアカウントを使用して会議をスケジュールすることで、ユーザーはこのアカウントを予約することができます。 Microsoft Teams ミーティングはその会議に参加して、会議の出席者にさまざまな機能を提供することができます。
   
 > [!IMPORTANT]
-> デバイスアカウントがない場合は、これらの機能は使用できません。 
+> デバイス アカウントがないと、これらの機能はいずれも動作しません。 
   
-すべてのデバイスアカウントは、1つの Microsoft Teams のルームデバイスに固有のものであり、いくつかのセットアップが必要です。
+それぞれのデバイス アカウントは 1 つの Microsoft Teams ミーティング デバイスに固有で、設定が必要です。
   
-- デバイスアカウントが正しく構成されている必要があります。
+- デバイス アカウントは正しく構成する必要があります。
     
-- Microsoft Teams の会議でデバイスアカウントを検証し、適切な Microsoft サービスにアクセスできるように、インフラストラクチャを構成する必要があります。
+- Microsoft Teams ミーティングがデバイス アカウントを確認し、適切な Microsoft のサービスに到達できるように、インフラストラクチャを構成する必要があります。
     
 > [!IMPORTANT]
-> ハードウェアを実際に設置するよりも十分に前もってアカウントを作成しておくことを、強くお勧めします。 設置の 2 週間から 3 週間前にアカウントの準備を開始するのが理想的です。 ハイブリッド環境では、microsoft Teams 会議室で使用されるアカウントでは、Microsoft Teams の会議室認証に Office 365 認証が必要であるため、AAD の同期でパスワード同期が有効になっている必要があります。
+> ハードウェアを実際に設置するよりも十分に前もってアカウントを作成しておくことを、強くお勧めします。 設置の 2 週間から 3 週間前にアカウントの準備を開始するのが理想的です。 ハイブリッド環境で Microsoft Teams ミーティングに使用するアカウントは、Microsoft Teams ミーティングの認証に Office 365 認証が求められるため、AAD Sync で有効にされたパスワードの同期が必要です。
   
-デバイスアカウントは、会議室または会議スペースのアカウントとして認識されるリソースアカウントと考えることができます。 こうした会議室を使用する会議を予約する場合は、そのアカウントを会議に招待します。 Microsoft Teams の会議室を最も効果的に使用するために、各ユーザーに割り当てられているデバイスアカウントと同じ操作を行います。
+デバイス アカウントは、会議室やミーティング スペースのアカウントとして認識されるリソース アカウントと見なすことができます。 その会議室を使って会議をスケジュールするときは、アカウントをその会議に招待します。 Microsoft Teams ミーティングを最も効果的に利用するには、各会議室に割り当てられているデバイス アカウントで同じ操作を行います。
   
-Microsoft Teams のルームをインストールしている会議スペースにリソースメールボックスアカウントが既に設定されている場合は、そのリソースアカウントをデバイスアカウントに変更することができます。 この作業が完了したら、デバイスアカウントを Microsoft Teams 室のデバイスに追加するだけです。 以下の「デバイスアカウントのセットアップ例」を参照してください。
+Microsoft Teams ミーティングをインストールするミーティング スペース用に設定されたリソース メールボックス アカウントが既に存在する場合は、そのリソース アカウントをデバイス アカウントに変更することができます。 その操作が完了した後に行う必要があるのは、デバイス アカウントを Microsoft Teams ミーティング デバイスに追加することだけです。 下記のデバイス アカウントのセットアップ例を参照してください。
   
-追加の構成では、「 [Microsoft teams のルーム管理を Azure monitor と計画](azure-monitor-plan.md)する」、「 [microsoft teams](azure-monitor-deploy.md)のルーム管理を azure モニターと共に展開する」、「azure モニターを使用して microsoft teams[室](azure-monitor-manage.md)の管理を展開する」の説明に従って microsoft azure モニターを使用してリモート管理を行うことができます。 
+「[Azure Monitor を使用して Microsoft Teams ミーティングの管理を計画する](azure-monitor-plan.md)」、「[Azure Monitor を使用して Microsoft Teams ミーティングの管理を展開する](azure-monitor-deploy.md)」、「[Azure Monitor を使用して Microsoft Teams ミーティングのデバイスを管理する](azure-monitor-manage.md)」で説明されているように、追加の構成を行えば Microsoft Azure Monitor を使用してリモート管理を行うことが可能になります。 
   
 ## <a name="basic-configuration"></a>基本構成
 
-これらのプロパティは、Microsoft Teams のルームで動作するデバイスアカウントの最小構成を表します。 デバイスアカウントに追加のセットアップが必要な場合があります。
+次のプロパティは、デバイス アカウントが Microsoft Teams ミーティングで機能するための最小構成を示しています。 デバイス アカウントによっては、追加のセットアップが必要な場合があります。
   
 |**プロパティ**|**用途**|
 |:-----|:-----|
-|Exchange メールボックス (Exchange 2013 SP1 以降、または Exchange Online)  <br/> |Exchange メールボックスを使用してアカウントを有効にすると、デバイスアカウントは、メールおよび会議の出席依頼の受信と送信を行うことができます。また、Microsoft Teams のルームデバイスで会議の予定表を表示することもできます。 Microsoft Teams 会議のメールボックスは、会議室メールボックスである必要があります。  <br/> |
-|Skype for Business が有効になっています  <br/> |Skype for Business は、ビデオ通話、IM、画面共有などのさまざまな会議機能を使用するために有効にする必要があります。 Skype for Business Online と Skype for business Server の両方がサポートされています。  <br/> |
-|パスワードが有効になっている  <br/> |デバイスアカウントは、パスワードを使用して有効にする必要があります。または、Exchange または Skype for Business Server で認証することはできません。  <br/> |
+|Exchange メールボックス (Exchange 2013 SP1 以降、または Exchange Online)  <br/> |アカウントを Exchange メールボックスで有効にすると、そのデバイス アカウントはメールと会議出席依頼の両方を送受信し、Microsoft Teams ミーティング デバイスで会議の予定表を表示できるようになります。 Microsoft Teams ミーティングのメールボックスは、会議室メールボックスである必要があります。  <br/> |
+|Skype for Business が有効  <br/> |ビデオ通話、IM、画面共有などのさまざまな会議機能を使用するには、Skype for Business が有効である必要があります。 Skype for Business Online と Skype for Business Server の両方がサポートされます。  <br/> |
+|Password が有効  <br/> |デバイス アカウントはパスワードによって有効になる必要があります。そうでない場合は、Exchange や Skype for Business Server で認証できません。  <br/> |
    
 ## <a name="advanced-configuration"></a>詳細構成
 
-基本構成のプロパティによってデバイスアカウントを簡単な環境で設定することはできますが、Microsoft Teams のルームで正常に使用できるようにするために満たす必要があるディレクトリアカウントについては、環境にその他の制限がある可能性があります。デバイスアカウント。
+基本構成のプロパティではシンプルな環境でデバイス アカウントをセットアップできますが、お使いの環境でディレクトリ アカウントに対するその他の制限が存在し、Microsoft Teams ミーティングで正常にデバイス アカウントを使用するためにそれらの制限を満たす必要がある可能性があります。
   
 |**プロパティ**|**用途**|
 |:-----|:-----|
-|証明書ベースの認証  <br/> |Exchange と Skype for Business Server の両方で証明書が必要になることがあります。 証明書を展開するには、管理者としてログインしたときに証明書をロードできます。  <br/> |
+|証明書ベースの認証  <br/> |Exchange と Skype for Business Server の両方で証明書が必要になる場合があります。 証明書を展開するには、管理者としてログインするときに証明書を読み込むことができます。  <br/> |
    
-デバイスアカウントを設定する最も簡単な方法は、リモートの Windows PowerShell を使って構成することです。 Microsoft は[SkypeRoomProvisioningScript](https://go.microsoft.com/fwlink/?linkid=870105)を提供します。これは、新しいデバイスアカウントを作成するのに役立ちます。また、既存のリソースアカウントを、互換性のある Microsoft Teams のルームデバイスアカウントに変換するために使用されます。
+デバイス アカウントをセットアップする最も簡単な方法は、リモート Windows PowerShell を使用して構成することです。 Microsoft では、[SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105) を提供しています。これは、新しいデバイス アカウントを作成するか、既存のリソース アカウントを検証するスクリプトであり、それらのアカウントを互換性のある Microsoft Teams ミーティングのデバイス アカウントに変換する助けとなります。
   
-Windows PowerShell コマンドレットで Office 365 UI を使用する場合は、いくつかの手順を手動で実行できます。 「 [Office 365 を使ってデバイスアカウントを作成](https://docs.microsoft.com/surface-hub/create-a-device-account-using-office-365)する」を参照してください。
+Windows PowerShell コマンドレットよりも Office 365 UI を使用することを望む場合は、一部の手順を手動で実行できます。 「[Office 365 を使ったデバイス アカウントの作成](https://docs.microsoft.com/surface-hub/create-a-device-account-using-office-365)」を参照してください。
   
 ## <a name="see-also"></a>関連項目
 
-[Microsoft Teams のルームを計画する](rooms-plan.md)
+[Microsoft Teams ミーティングを計画する](rooms-plan.md)
   
-[Microsoft Teams 室コンソールを構成する](console.md)
+[Microsoft Teams ミーティングのコンソールを構成する](console.md)
   
 [Microsoft Teams Rooms を管理する](rooms-manage.md)
 
