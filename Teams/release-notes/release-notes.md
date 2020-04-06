@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams のリリースノート
+title: Microsoft Teams のリリース ノート
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
@@ -15,13 +15,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-description: Microsoft Teams のリリースノート
+description: Microsoft Teams のリリース ノート
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 3a6f24e58c9587ef861cb7c9c48f875574242ce5
 ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 02/06/2020
 ms.locfileid: "41826235"
 ---
-# <a name="release-notes-for-microsoft-teams"></a><span data-ttu-id="24d70-103">Microsoft Teams のリリースノート</span><span class="sxs-lookup"><span data-stu-id="24d70-103">Release notes for Microsoft Teams</span></span>
+# <a name="release-notes-for-microsoft-teams"></a><span data-ttu-id="0a3cb-103">Microsoft Teams のリリース ノート</span><span class="sxs-lookup"><span data-stu-id="0a3cb-103">Release notes for Microsoft Teams</span></span>

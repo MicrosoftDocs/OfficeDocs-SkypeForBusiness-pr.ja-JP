@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams Rooms
+title: Microsoft Teams ミーティング
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,24 +12,24 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
-description: Microsoft Teams 室の展開に関する考慮事項、およびシステムの展開と管理の方法について考慮する必要があります。
+description: Microsoft Teams ミーティングの展開に関連する計画の考慮事項と、システムを展開および管理する方法について説明します。
 ms.openlocfilehash: 4d92a5fc347ac7a8a53c35a93445ca923665f84c
 ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 02/06/2020
 ms.locfileid: "41826075"
 ---
-<h2>Microsoft Teams Rooms</h2>
+<h2>Microsoft Teams ミーティング</h2>
 <ul class="panelContent cardsW cols cols2">
     <li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <p>小規模の huddle 領域から大人数の会議室に至るまでの会議スペースを、使いやすく、展開、管理するための豊かで共同作業を行う&#39;ことができます。 </p>
-                        <p>ワンタッチ参加で会議を時間のみで開始します。次に、ルームの表示にすばやく project を使用して、リモートの参加者と共有します。 </p>
-                        <p>いずれかのパートナー (不在時、Logitech、Crestron、Polycom、Lenovo、HP) で、適切なシステムとオーディオビデオの周辺機器を選択します。</p>
+                        <p>小さな談話コーナーから大規模な会議室まで、会議スペースを変革し、使いやすく展開や管理が容易な、Teams による共同作業用の豊富な機能を提供します。 </p>
+                        <p>ワンタッチ参加で会議を時間どおりに開始し、即座に会議室内ディスプレイに表示し、リモート参加者と共有できます。 </p>
+                        <p>Microsoft のパートナー (Yealink、Logitech、Crestron、Polycom、Lenovo、HP) から、適切なシステムやオーディオ ビデオ周辺機器を選択してください。</p>
                         <p></p>
                     </div>
                 </div>
@@ -108,9 +108,9 @@ ms.locfileid: "41826075"
 </ul>
 
 > [!NOTE]
-> Microsoft Teams のルームは、Microsoft Teams、Skype for Business Online、Skype for Business Server 2019、または Skype for Business Server 2015 で使用することを目的としています。  <br><br>Lync Server 2013 などの以前のプラットフォームでは、Microsoft Teams のルームで動作することは想定されていません。
+> Microsoft Teams ミーティングは、Microsoft Teams、Skype for Business Online、Skype for Business Server 2019、または Skype for Business Server 2015 と一緒に使用することを意図しています。  <br><br>Lync Server 2013 のような以前のプラットフォームでは、Microsoft Teams ミーティングの使用は想定されていません。
 
-これらの記事は、これらのデバイスの計画、展開、管理を担当するユーザーを対象としており、システムのユーザーには使用できません。 Microsoft Teams のルーム[オンラインヘルプ](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)については、さらに詳しく説明します。
+これらの記事は、該当デバイスの計画、展開、管理に携わるユーザーを対象としており、本システムのユーザー向けではありません。 ユーザー向けの Microsoft Teams ミーティング [オンライン ヘルプ](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) をご覧ください。
 
 > [!NOTE]
-> [Skype Room system](../rooms/lrs-migration.md) (旧 Lync Room system) と Microsoft Teams のルームは、依存関係と展開手順が異なるさまざまな製品です。
+> [Skype Room System](../rooms/lrs-migration.md) (旧称 Lync Room System) と Microsoft Teams ミーティングは、依存関係や展開手順が異なる別個の製品です。
