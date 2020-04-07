@@ -15,14 +15,14 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 description: Microsoft Teams 室のデバイスで使用される既定の設定のリモート管理。カスタムテーマの適用や、マスター設定ファイルの作成などが含まれます。
-ms.openlocfilehash: 988fa11ef3a84c21bfef3a726e3901bae26e222a
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 0334b9de7759885b6bf00dae7a6418b3c381c68f
+ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140990"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43160071"
 ---
-# <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>XML 構成ファイルを使用して、Microsoft Teams ルームコンソールの設定をリモートで管理する
+# <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Microsoft Teams ミーティング のコンソールの設定を、XML 構成ファイルを使用してリモートで管理する
 
 この記事では、Microsoft Teams のルームデバイスで使用される既定の設定をリモート管理する方法について説明します。カスタムテーマの適用を含みます。 ここでは、マスター設定ファイルの作成方法について説明し、リモート管理対象デバイスで必要に応じてそれらを配置する方法についてのディスカッションへのリンクを紹介します。
   
@@ -44,6 +44,7 @@ ms.locfileid: "43140990"
         <ConfigureDomain>domain1, domain2</ConfigureDomain>
     </UserAccount>
     <IsTeamsDefaultClient>false</IsTeamsDefaultClient>
+    <ModernAuthEnabled>false</ModernAuthEnabled>
     <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>
     <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled>
     <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
@@ -91,6 +92,7 @@ ms.locfileid: "43140990"
 | \<ConfigureDomain\>  |文字列 &#x2778;  ||複数のドメインをコンマで区切ってリスト表示することができます。 |
 |\<TeamsMeetingsEnabled\> |ブール型 &#x2777;  |第1の &#x2776;  |既定では無効です。 <br/> <br/> SkypeMeetingsEnabled \<\>と\<TeamsMeetingsEnabled\>の両方が無効になっている場合、XML ファイルの形式が不適切であると見なされますが、両方の設定を同時に有効にすることはできます。 |
 |\<IsTeamsDefaultClient の> |ブール型 &#x2777;  |第1の &#x2776;  |既定では無効です。 |
+|\<ModernAuthEnabled> |ブール型 &#x2777;  |第1の &#x2776;  |既定では無効です。 <br/> <br/>True に設定すると、Microsoft Teams のルームアプリケーションは先進認証を使用してリソースに接続しますが、基本認証にはフォールバックされません。|
 |\<BluetoothAdvertisementEnabled> |ブール型 &#x2777;  |第1の &#x2776;  |既定では有効です。 |
 |\<DualScreenMode\>  |ブール型 &#x2777;  |第1の &#x2776;  |True の場合、デュアルスクリーンモードが有効になります。 それ以外の場合は、デバイスでシングルスクリーンモードが使用されます。 |
 | \<DuplicateIngestDefault\> |ブール型 &#x2777;  |第1の &#x2776; |True の場合、会議の終了時に両方の画面にコンテンツが表示されます。 | 
@@ -125,7 +127,7 @@ ms.locfileid: "43140990"
   
 エンタープライズに搭載されている Microsoft Teams の会議室の数や、それらを構成するための管理方法に応じて、XML 構成ファイルを配置する方法はいくつかあります。 ファイルがコンソールにプッシュされたら、再起動して構成の変更を処理します。 処理に成功すると、XML 構成ファイルが削除されます。 Microsoft Teams 室のデバイスに提案された管理方法については、次のトピックをご覧ください。
   
-- [Microsoft Teams ルームのグループポリシーを構成する](rooms-operations.md#GroupPolicy)
+- [Microsoft Teams ミーティングのグループ ポリシーを構成する](rooms-operations.md#GroupPolicy)
 - [PowerShell を使用したリモート管理](rooms-operations.md#RemotePS)と[ファイル項目の構成](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)
 
 ファイルの転送と、コンソール デバイス上での再起動のトリガーができるのであれば、いずれの方法も使用できます。 ファイルは、デバイスのローカルユーザーアカウントによって、読み取り可能、書き込み可能、削除可能である必要があります。 可能であれば、そのユーザーに付与されているすべての特権を持つことができます。 ファイルのアクセス許可が正しく設定されていない場合、ソフトウェアは設定を適用できない可能性があります。処理が正常に完了したときに、ファイルの削除に失敗することがあり、クラッシュする可能性もあります。

@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Microsoft Phone システムのダイレクトルーティングを有効にする方法について説明します。
-ms.openlocfilehash: e9120dcbcd4b1a82eb864f545efdbadc42481794
-ms.sourcegitcommit: 0289062510f0791906dab2791c5db8acb1cf849a
+ms.openlocfilehash: 10c62d14f283d565765a47e4c07504bc9bffa720
+ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42157988"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43160061"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>ユーザーが直接ルーティング、音声、ボイスメールを使用できるようにする
 
@@ -80,7 +80,7 @@ Skype for business Online の展開 coexists が Skype for Business 2015 また�
     たとえば、"Spencer Low" というユーザーの電話番号を追加するには、次のように入力します。 
 
     ```PowerShell
-    Set-CsUser -Identity "Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
     ```
 
     使用される電話番号は、国コードを含む完全な電子電話番号として構成する必要があります。 

@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Business Voice を使用するために購入する必要があるもの
+title: 通話プラン付きの Microsoft 365 Business Voice を使用するために購入する必要があるもの
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -24,12 +24,12 @@ no-loc:
 - Teams
 - Microsoft Teams
 - Office 365
-ms.openlocfilehash: 0e0d483a3655753527b42a44e51aab68c08eaa95
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 13c2e6dcb2f3f26fc016a96d9acabba4029d91ae
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824575"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096832"
 ---
 # <a name="what-do-i-need-to-buy-to-use-microsoft-365-business-voice"></a>Microsoft 365 Business Voice を使用するために購入する必要があるもの
 
@@ -41,13 +41,26 @@ Microsoft Teams で*外部*電話番号の着信または発信を行うには�
 
 たとえば、工場に 10 人、オフィスに 5 人の従業員がいるとします。 工場従業員が電話をかける必要があるのは企業内の他の従業員に対してのみだとします。 オフィス内の従業員は、他の従業員への電話に加え、仕入先、パートナー、顧客との間でも通話の発着信を行う必要があるとします。 この場合、Microsoft 365 Business Voice のライセンスが必要なのはオフィスにいる 5 人の従業員のみです。
 
-Business Voice には国内通話プランが含まれています。このプランでは、毎月一定の分数が提供され、国内または地域内で電話をかけることができます。 他の国または地域に電話をかける場合、国際通話プランを購入できます。 国際通話プラン、国内通話プランの毎月の分数の超過分、無料電話番号の支払いに*コミュニケーション クレジット*を使用できます。 通話プランとコミュニケーション クレジットの詳細については、この記事で後述します。
+### <a name="business-voice-license-types"></a>Business Voice ライセンスの種類
+
+2 種類の Business Voice ライセンスがあります。通話プラン**付き** Business Voice と、通話プラン**なし** Business Voice です。 使用できる Business Voice ライセンスの種類は、Microsoft 365 テナントの場所によって異なります。 ライセンスの種類によって、Business Voice を自分で設定できるか、または電話番号の管理などを行う Microsoft パートナーや販売店のサポートが必要かどうかが決まります。
+
+- **通話プラン付き Business Voice** Microsoft から Business Voice を購入し、作業の開始ウィザードを使用して Business Voice を設定し、既存の電話番号を設定または Microsoft に転送することできます。 「[作業の開始ウィザードを使用して Business Voice を設定する](use-getting-started-wizard.md)」の記事で、テナント用に Business Voice を設定する方法を説明しています。
+
+  通話プラン付き Business Voice のライセンスの購入方法の詳細については、この記事の後半の「[通話プラン付き Business Voice](#business-voice-with-calling-plan)」を参照してください。
+- **通話プランなし Business Voice** Business Voice の設定を支援する Microsoft パートナーや販売店から Business Voice を購入する必要があります。 既存の電話番号は、現在のサード パーティの電話プロバイダーに残ります。 「[Microsoft 販売店または Microsoft パートナーからサポートを受ける](reseller-partner-support.md)」の記事では、テナントで Business Voice を設定するのに必要なプロセスの概要を示します。
+
+お住まいの国または地域が通話プランをサポートしているかどうかを知るには、「[国および地域ごとの Business Voice の利用可能性](country-region-availability.md)」を確認してください。
 
 Business Voice の機能の詳細については、「[Microsoft 365 Business Voice サービスの説明](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description)」を参照してください。
 
-Microsoft 365 Business Voice ライセンスを購入するには、[管理センター](https://admin.microsoft.com/Adminportal/Home#/homepage)にサインインし、[**請求**] > [**サービスの購入**] の順に移動します。
+## <a name="business-voice-with-calling-plan"></a>通話プラン付き Business Voice
 
-## <a name="calling-plans"></a>通話プラン
+通話プラン付き Business Voice には国内通話プランが含まれています。このプランでは、毎月一定の分数が提供され、国内または地域内で電話をかけることができます。 他の国または地域に電話をかける場合、国際通話プランを購入できます。 国際通話プラン、国内通話プランの毎月の分数の超過分、無料電話番号の支払いに*コミュニケーション クレジット*を使用できます。 通話プランとコミュニケーション クレジットの詳細については、この記事で後述します。
+
+通話プラン付き Microsoft 365 Business Voice ライセンスを購入するには、[管理センター](https://admin.microsoft.com/Adminportal/Home#/homepage)にサインインし、**[請求]** > **[サービスの購入]** の順に移動します。
+
+### <a name="calling-plans"></a>通話プラン
 
 通話プランを使用すると、組織外の電話番号に発信できます。 通話プランには、特定の国または地域で所有する Business Voice ライセンスの数に基づく分数の月間プールが含まれています。 ユーザーが発信すると、その通話で使用した分数が月別のプールから差し引かれます。 毎月の初めに、プールの残り分数がリセットされます。
 
@@ -60,24 +73,27 @@ Microsoft 365 Business Voice ライセンスを購入するには、[管理セ�
 
 通話プランには次の 2 つの種類があります。
 
-### <a name="domestic-calling-plan"></a>国内通話プラン
+#### <a name="domestic-calling-plan"></a>国内通話プラン
 
-国内通話プランの場合、ユーザーは自分の国または地域の電話番号に電話をかけることができます。 Business Voice には、Business Voice ライセンスが割り当てられている各ユーザー用の国内通話プランが含まれます。 毎月各ユーザーが利用できる分数は、ユーザーのいる国または地域によって異なります。 次の表は、Business Voice がサポートされている国または地域ごとの分数を示しています。
+国内通話プランの場合、ユーザーは自分の国または地域の電話番号に電話をかけることができます。 Business Voice には、Business Voice ライセンスが割り当てられている各ユーザー用の国内通話プランが含まれます。 毎月各ユーザーが利用できる分数は、ユーザーのいる国または地域によって異なります。 次の表は、通話プランが Business Voice に含まれている国または地域ごとの分数を示しています。
 
-|ユーザーのいる場所          |月ごとの国内通話の割り当て |
-|-----------------------------------|-------------------------------------|
+|ユーザーのいる場所          |月ごとの国内通話の割り当て  |
+|-----------------------------------|--------------------------------------|
 |カナダ                             | 3,000                                |
 |イギリス                     | 1,200                                |
+|米国                      | 3,000                                |
+
+通話プランは、上記の表に一覧表示されていない国または地域の Business Voice には含まれていません。 Business Voice が利用可能なすべての国と地域の一覧については、「[Business Voice の利用可能性](country-region-availability.md)」を参照してください。
 
 米国とカナダ間の通話は、国内通話とみなされます。 この 2 か国間で通話を行うために国際通話プランを追加する必要はありません。
 
-### <a name="international-calling-plan"></a>国際通話プラン
+#### <a name="international-calling-plan"></a>国際通話プラン
 
 国際通話プランの場合、ユーザーは自分の国または地域の外の電話番号に電話をかけることができます。 国際通話プランは、アドオンとして購入します。
 
 ユーザーのために国際通話プランを購入するかどうかを検討する場合、国際電話をかける頻度と通話時間の長さを特定します。 国際通話プランを購入すると、一定の分数に対して事前の支払いが求められるため、このことは重要です。 毎月の時間 (分単位) を使い切らない場合、次の月の初めに残り時間 (分単位) が破棄されます。 ユーザーが国際通話プランのすべての分数を使い切らない可能性が高い場合は、購入しないことをお勧めします。 代わりに、(次のセクションで説明する) コミュニケーション クレジットを使用してください。
 
-## <a name="communications-credits"></a>コミュニケーション クレジット
+### <a name="communications-credits"></a>コミュニケーション クレジット
 
 コミュニケーション クレジットは、組織の電話システムの外部の電話番号の発着信に使用されるデジタル ウォレットのようなものです。 コミュニケーション クレジットは、次のような場面で使用できます。
 
@@ -87,7 +103,7 @@ Microsoft 365 Business Voice ライセンスを購入するには、[管理セ�
 
 月末にコミュニケーション クレジットが残っている場合は、次の月に繰り越されます。
 
-### <a name="buy-communication-credits"></a>コミュニケーション クレジットの購入
+#### <a name="buy-communication-credits"></a>コミュニケーション クレジットの購入
 
 ユーザーがいつでも電話をかけることができるように、常に最小限のコミュニケーション クレジット残高を維持することを強くお勧めします。 残高があるようにするための一番簡単な方法は、自動リチャージを設定することです。 自動リチャージを使用すると、最小残高未満になった際に Microsoft 365 によって残高が自動的に補充されます。 最小残高と 1 回あたりの購入額を選択することができます。 コミュニケーション クレジットの残高を手動で補充することもできます。
 
@@ -97,7 +113,3 @@ Microsoft 365 Business Voice ライセンスを購入するには、[管理セ�
 コミュニケーション クレジットの詳細については、「[コミュニケーション クレジットについて](../what-are-communications-credits.md)」を参照してください。
 
 無料電話番号および国際通話の料金を確認するには、「[クラウド ベースの電話システム](https://products.office.com/microsoft-teams/voice-calling#ow-download-rates)」の「コミュニケーション クレジットで時間を追加」を参照してください。
-
-## <a name="maximum-number-of-supported-users"></a>サポートできる最大ユーザー数
-
-中小規模の Microsoft 365 サブスクリプションで使用可能な Business Voice ライセンスでは、最大で 300 人のライセンス付与済みユーザーをサポートできます。 300 人を上回る数のユーザーに Business Voice ライセンスを付与する場合は、Office 365 E3 または E5 のサブスクリプションを購入する必要があります。

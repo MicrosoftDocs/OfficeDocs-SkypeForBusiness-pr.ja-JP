@@ -1,5 +1,6 @@
 ---
 title: Azure モニターを使用して Microsoft Teams のルーム管理を展開する
+ms.author: v-lanac
 author: lanachin
 ms.reviewer: Turgayo
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: この記事では、Azure モニターを使用して、統合されたエンドツーエンドの方法で Microsoft Teams 室デバイスの管理を展開する方法について説明します。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3e01ae7a0fddcb63595b7dcc15b719ad1d41db32
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 0e0e810bb2932918947a011a9d2091858d0819eb
+ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137647"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43160091"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>管理:::no-loc text="Microsoft Teams Rooms":::を展開する:::no-loc text="Azure Monitor":::
 
@@ -137,7 +138,7 @@ ms.locfileid: "43137647"
 
 | **JSON フィールド**                   | **:::no-loc text="Log Analytics":::ユーザー設定フィールド** | **イベント ID** | **抽出に使用するクエリ**                   |
 |:---------------------------------|:-------------------------------|:-------------|:-------------------------------------------------------|
-| Description                      | SRSEventDescription         | **2000**     | \| Source = = "SRS-アプリ" and EventID = = 2000 |
+| 説明                      | SRSEventDescription         | **2000**     | \| Source = = "SRS-アプリ" and EventID = = 2000 |
 | ResourceState                    | SRSResourceState            | **2000**     | \| Source = = "SRS-アプリ" and EventID = = 2000 |
 | OperationName                    | SRSOperationName            | **2000**     | \| Source = = "SRS-アプリ" and EventID = = 2000 |
 | OperationResult                  | SRSOperationResult          | **2000**     | \| Source = = "SRS-アプリ" and EventID = = 2000 |
@@ -173,7 +174,7 @@ ms.locfileid: "43137647"
 2.  ポータルにサインインして、ワークスペース:::no-loc text="Log Analytics":::に移動して選択します。 [ :::no-loc text="Microsoft Azure"::: ](https://portal.azure.com)
 3.  **ビューデザイナー**を開きます。
 4.  [**インポート**] を選択し、 **omsview ファイル SkypeRoomSystems_v2**を選択します。
-5.  [**保存**] を選びます。
+5.  **[保存]** を選択します。
 
 ### <a name="create-a-microsoft-teams-rooms-dashboard-manually"></a>Microsoft Teams のルームダッシュボードを手動で作成する
 

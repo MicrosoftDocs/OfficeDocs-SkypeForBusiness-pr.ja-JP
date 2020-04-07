@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 通話ダイヤルプラン (PSTN 通話ダイヤルプラン) を作成して管理する方法と、それらを管理する方法について説明します。
-ms.openlocfilehash: 774b0a78f39b91b634ed0833be3497935cb25c4f
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 6a5f46772ed8eebb309ba8bd9eaeca6fddb35afa
+ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826925"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43160081"
 ---
 # <a name="create-and-manage-dial-plans"></a>ダイヤル プランを作成および管理する
 
@@ -61,11 +61,11 @@ ms.locfileid: "41826925"
 
 ### <a name="add-users-to-a-dial-plan"></a>ダイヤルプランにユーザーを追加する
 
-1. Microsoft Teams 管理センターの左のナビゲーションで、[**ボイス** > **ダイヤルプラン**] に移動します。
-2. ダイヤルプラン名の左側をクリックして、ダイヤルプランを選択します。
-3. [**ユーザーの管理**] を選びます。
-4. [**ユーザーの管理**] ウィンドウで、[表示名] または [ユーザー名] でユーザーを検索し、名前を選択して [**追加**] を選択します。 追加するユーザーごとに、この手順を繰り返します。
-5. ユーザーの追加が完了したら、[**適用**] を選択します。
+1. Microsoft Teams 管理センターの左側のナビゲーションで、[**ユーザー**] に移動します。
+2. 表示名をクリックしてユーザーを選びます。
+3. [**ポリシー** ] タブを選択します。
+4. [割り当てられたポリシー] の右にある [**編集**] をクリックします。
+5. [ **Dial plan** ] ドロップダウンメニューで、ユーザーに割り当てるダイヤルプランを選択し、[**適用**] をクリックします。
 
 ## <a name="using-powershell"></a>PowerShell を使用する場合
   
@@ -85,7 +85,7 @@ ms.locfileid: "41826925"
   
  **Windows PowerShell セッションを開始する**
   
-1. [ **** > **Windows PowerShell**を起動します] をクリックします。
+1. [ **Start** > **Windows PowerShell**を起動します] をクリックします。
     
 2. [ **Windows PowerShell**] ウィンドウで、次を実行して、Office 365 の組織に接続します。
     
@@ -240,7 +240,7 @@ ForEach($nr in $dp.NormalizationRules)
 New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.ExternalAccessPrefix -Description $dp.Description -OptimizeDeviceDialing $dp.OptimizeDeviceDialing -SimpleName $dp.SimpleName -NormalizationRules $NormRules
 ```
     
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [ダイヤル プランについて](what-are-dial-plans.md)
 - [電話番号の移行に関するよくある質問](transferring-phone-numbers-common-questions.md)

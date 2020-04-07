@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: '概要: IT 担当者は、skype for business Server の計画時に Skype for Business Web App と Skype 会議アプリのサポート要件を確認する必要があります。 この記事は、これらのアプリのユーザーを対象としたものではありません。'
-ms.openlocfilehash: 77633b53c44e28301b21cc2f37240a4a1e459938
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f5b402b23cbb49d1605b83b9f54531e26714b1f7
+ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42013450"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43157640"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>会議クライアントを計画する (Web アプリと会議アプリ)
  
@@ -65,7 +65,7 @@ Skype for Business Web アプリを使用するには、次のサポートされ
    
 &#x2776; Skype for Business Web App browser プラグインには、コンピューターベースの音声、ビデオ、共有、および進行中の画面共有とその他の機能の表示を使用するための特定の共有プラグインが必要です。 会議の出席者は、会議に参加するとき、またはこれらの機能のいずれかを開始するときに、共有プラグインをインストールするオプションを指定します。 Windows 8 および Windows 8.1 では、Internet Explorer 10 または Internet Explorer 11 を実行しているデスクトップの場合にのみ、共有プラグインをインストールできます。 これらの機能は、デスクトップ以外のバージョンの Internet Explorer 10 および11では使用できません。 Firefox と Safari バージョン12.0 以降はサポートされなくなったことに注意してください。
   
-&#x2777; サポートされている Windows 7、Windows Server 2008 R2、および Macintosh オペレーティングシステムでは、コンピューターベースの音声、ビデオ、アプリケーションの表示、アプリケーション共有、デスクトップ表示、デスクトップ共有などのすべての機能を使用できます。 これらの機能を使用するには、プロンプトが表示されたときにプラグインをインストールする必要があります。 Mac OS X バージョン10.7 は現在サポートされていないことに注意してください。
+&#x2777; サポートされている Windows 7、Windows Server 2008 R2、および Macintosh オペレーティングシステムでは、コンピューターベースの音声、ビデオ、アプリケーションの表示、アプリケーション共有、デスクトップ表示、デスクトップ共有などのすべての機能を使用できます。 これらの機能を使用するには、プロンプトが表示されたときにプラグインをインストールする必要があります。 Mac OS X バージョン10.7 は現在サポートされていないことに注意してください。  また、web アプリが OS X 10.15 以降にインストールされることはありません。  事前に移行する匿名参加シナリオをサポートする、最新バージョンの Skype for Business for Mac の使用をお勧めします。
   
 Windows 上の Chrome から Web App にアクセスする &#x2778; は、埋め込みの Internet Explorer フレームに Web アプリを読み込む小さなプログラムを起動します。 このプログラムでは、サポートされているいずれかのバージョンの Internet Explorer をインストールして、Web アプリが正しく読み込まれるようにする必要があります。
   
