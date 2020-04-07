@@ -1,5 +1,5 @@
 ---
-title: よくあるご質問 - Skype for Business から Microsoft Teams へのアップグレード
+title: Skype for Business から Teams へのアップグレードに関する FAQ
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -12,18 +12,20 @@ localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a2b051efa327a014bc719753e7aecae81f78e0f4
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 44544e440d9f6cdfff08ae66ed7f425abf69fb4d
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160384"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136537"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>よくあるご質問 - Skype for Business から Microsoft Teams へのアップグレード
 
@@ -108,7 +110,7 @@ Microsoft Teams 管理センター内で、組織に適した Skype for Business
 
 正常に完了するアップグレードには、ユーザー側の受け入態勢が整っていることに加えて、技術面の準備状況の検証が含まれています。 所属する組織で Teams にアップグレードする準備が整っていないと判断される場合でも、計画のプロセスは今すぐ始めることができます。 さらに、Teams を Skype for Business と共存する形で有効にすることによって、Teams の価値を実感し始めることができます。 今すぐ [Skype から Teams への移行](https://aka.ms/skypetoteams-home)を開始しましょう。
 
-Microsoft は、アップグレードの計画と実装を開始するために設計されたガイダンス、ベスト プラクティス、リソースを紹介する、ライブでインタラクティブなワークショップも提供しています。 [アップグレード計画のワークショップについて](https://aka.ms/SkypeToTeamsPlanning)。
+Microsoft は、アップグレードの計画と実装を開始するために設計されたガイダンス、ベスト プラクティス、リソースを紹介する、インタラクティブなライブ ワークショップも提供しています。 [アップグレード計画のワークショップについて](https://aka.ms/SkypeToTeamsPlanning)。
 
 ### <a name="my-organization-is-already-running-teams-alongside-skype-for-business-can-i-just-disable-skype-for-business"></a>私の組織は既に Teams を Skype for Business と共存して稼働しています。 Skype for Business を無効にすることはできますか?
 
