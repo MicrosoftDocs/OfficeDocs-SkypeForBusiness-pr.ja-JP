@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 012a45c679faef7e547b5017590c7b81c577dde5
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
-ms.translationtype: HT
+ms.openlocfilehash: d0a6c14c3fba7e5a303200499c4d158edfb56473
+ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834327"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170365"
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>Microsoft Teams 用の Office 365 ライセンス
 ========================================
@@ -44,13 +44,13 @@ Teams のユーザーを有効にする Office 365 サブスクリプション�
 Teams の入手方法については[Microsoft Teams へのアクセス権を取得するにはどうしたらよいですか?](https://support.office.com/article/How-do-I-get-access-to-Microsoft-Teams-fc7f1634-abd3-4f26-a597-9df16e4ca65b)を参照してください。
 
 > [!NOTE]
-> Teams は非営利団体でも利用できます。  Teamsは、7 月 17 日に米国政府クラウド コミュニティ (GCC) を展開し、2018年 8 月までにすべての対象となるユーザーが利用できるようにします。 その他の米国政府機関向けクラウド (GCC high および 国防総省) 向けの Microsoft Teams を近日公開します。 Microsoft Teams のブログの詳細は [こちら](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-will-be-available-July-17-for-the-US-Government/ba-p/209976)から。
+> Teams は非営利団体でも利用できます。 
 
 > [!NOTE]
 > 2019 年 8 月 1 日より、すべての新規 Office 365 ユーザーは Teams を利用できるようになり、Skype for Business Online にアクセスできなくなります。 既に Skype for Business Online を使用しているテナントは、Teams への移行を完了するまで、(新規ユーザーのプロビジョニングも含めて) 利用を継続することができます。 詳細については、[Microsoft Teams が Office 365 の会議と通話機能のプライマリ クライアントになりました](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling)をご覧ください。
 
 > [!NOTE]
-> 選択したライセンスのアプリに Skype for Business Online が一覧表示されている場合は、削除しないでください。 一覧表示されていて削除されている場合、Teams ユーザーのセットアップは正常に完了しません。 
+> 選択したライセンスのアプリに Skype for Business Online が一覧表示されている場合は、削除しないでください。 一覧表示されていて削除されている場合、Teams ユーザーのセットアップは正常に完了しません。
         
 Teams の重要な機能に関しては、Office 365 サブスクリプションとの違いはありません。 コンプライアンス機能の利用可否は適切なサブスクリプション レベルに依存します。 詳細については、「[Teams のセキュリティとコンプライアンスの概要](security-compliance-overview.md)」をご覧ください。 各サブスクリプションで利用できる機能の詳細な一覧については、 [Office 365 プラットフォーム サービスの説明](https://technet.microsoft.com/library/office-365-platform-service-description.aspx)をご覧ください。
 

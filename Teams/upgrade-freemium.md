@@ -3,7 +3,6 @@ title: Microsoft Teams を無料で Office 365 サブスクリプションにア
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 12/20/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
@@ -20,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6019491c7e72e91c9f3cfbcaec8a4c60ae297c14
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 92bb76f58983e4605d5a1be147bb898aee1a5832
+ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139646"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170525"
 ---
 # <a name="upgrade-microsoft-teams-free-to-office-365-subscription-version"></a>Microsoft Teams を無料で Office 365 月額プラン バージョンにアップグレードする
 ======================================================
@@ -39,7 +38,7 @@ ms.locfileid: "43139646"
 
 無料版の Teams は小 ~ 中規模のビジネス向けに設計されており、次のような機能があります。
 
-- 300最大ユーザー数
+- 50万最大ユーザー数
 - 無制限のチャットメッセージと検索
 - ゲスト アクセス
 - オンラインバージョンの Word、Excel、PowerPoint、OneNote などのアプリとサービスとの統合
@@ -92,7 +91,7 @@ Teams へのサインインに使用するメールアドレスを入力して�
 
 アップグレードが完了したら、最初の手順については、「 [Microsoft teams の使用を開始](get-started-with-teams-quick-start.md)する」および「 [microsoft teams](adopt-microsoft-teams-landing-page.md)を組織全体でのチームの導入への段階的アプローチに採用する」を参照してください。
 
-## <a name="more-information"></a>More information
+## <a name="more-information"></a>詳細情報
 
 - チームのバージョンとその機能の詳細については、「[チームの計画を比較](https://products.office.com/microsoft-teams/free)する」を参照してください。
 - Teams のフルバージョンへのアップグレードの詳細については、「無料の teams[から teams にアップグレードする](https://support.office.com/article/Upgrade-from-Teams-free-to-Teams-29475bbd-a34f-4175-9b33-d44430f8ad39)」を参照してください。
