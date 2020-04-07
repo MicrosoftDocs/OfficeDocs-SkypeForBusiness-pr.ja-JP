@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: このトピックでは、Skype Room Systems の後継である Microsoft Teams ミーティングの管理について説明します。
-ms.openlocfilehash: 5368df53e7617f602265071a66f7b871c6b88f66
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: HT
+ms.openlocfilehash: 1fecf852c11e7ab89e0cdc7dc6caf615182e7d5f
+ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825872"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43157762"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft Teams ミーティングのメンテナンスと運用 
  
@@ -31,10 +31,10 @@ Microsoft Teams ミーティングは、Microsoft の最新の会議ソリュー
 ## <a name="collecting-logs-on-microsoft-teams-rooms"></a>Microsoft Teams ミーティングでログを収集する
 <a name="Logs"> </a>
 
-ログを収集するには、Microsoft Teams ミーティング アプリに付属のログ収集スクリプトを呼び出す必要があります。 管理者モードで、管理者特権のコマンド プロンプトを開始して、次のコマンドを発行します。
+ログを収集するには、Microsoft Teams ミーティング アプリに付属のログ収集スクリプトを呼び出す必要があります。 管理モードでは、管理者特権の PowerShell プロンプトを起動し、次のコマンドを実行します。
   
 ```PowerShell
-powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
+c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1 -ExecutionPolicy unrestricted
 ```
 
 ログは ZIP ファイルとして c:\rigel に出力されます。

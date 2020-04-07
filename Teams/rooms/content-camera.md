@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 description: Microsoft Teams ルームのコンテンツカメラを使用します。画像処理ソフトウェアと連携して、発表者がアナログホワイトボードに描画することを許可します。
-ms.openlocfilehash: 6ddc1a43a9d75e6f142c82c0215124bad97f77dd
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: ecd9c20c7f479c548d0ab9b4c3db8bbec945e79f
+ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137627"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43157810"
 ---
 # <a name="content-cameras"></a>コンテンツ カメラ
 
@@ -98,10 +98,8 @@ Microsoft Teams Room system でコンテンツカメラを使用できるよう�
 
 ## <a name="see-also"></a>関連項目
 
-[XML 構成ファイルを使用して、Microsoft Teams ルームコンソールの設定をリモートで管理する](xml-config-file.md)
+[Microsoft Teams ミーティング のコンソールの設定を、XML 構成ファイルを使用してリモートで管理する](xml-config-file.md)
 
-[Microsoft Teams の会議室の要件](requirements.md)
+[Microsoft Teams ミーティングの要件](requirements.md)
 
-> [!NOTE]
-> Microsoft Surface Pro ベースのコンソール (Logitech Smartdock や Crestron SR など) を搭載した一部の Microsoft Teams Room デバイスは、まだコンテンツのカメラをサポートしていません。 これらのデバイスのサポートは、後で CY2019 に追加されます。 
->
+

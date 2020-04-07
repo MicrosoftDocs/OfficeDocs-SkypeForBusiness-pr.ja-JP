@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: この記事では、Microsoft Teams ミーティングの累積的な改善点について説明します。
-ms.openlocfilehash: 330425650f17fa8782105616371d3c16789d1db8
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: 7a411c8a94379c71226c4c5e593968a8ba65eb53
+ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096992"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43157771"
 ---
 # <a name="release-notes"></a>リリース ノート
 
@@ -71,6 +71,7 @@ ms.locfileid: "43096992"
 - アプリケーションのスプラッシュ画面
 - 自動応答の設定により、近接性に基づいた会議の参加エクスペリエンスを向上させる 
 - デバイス設定のオープンソースソフトウェア (OSS) 通知
+- Skype for Business Server 2015/2019 で TLS 1.0 および TLS 1.1 が無効になっている場合の PSOM 接続の問題を修正しました。
 
 ### <a name="43420-03022020"></a>4.3.42.0 (03/02/2020)
 

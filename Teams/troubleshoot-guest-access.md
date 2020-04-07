@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 0c0f65f7026e6c083d9230551d689f0dd19d6b0d
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
-ms.translationtype: HT
+ms.openlocfilehash: b8ef4fb03de0172403556334e43359402ccce113
+ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837637"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43157740"
 ---
 <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>Microsoft Teams のゲスト アクセスに関する問題のトラブルシューティング
 ======================================================
@@ -41,7 +41,10 @@ ms.locfileid: "41837637"
 
 Teams のゲスト アクセスでは Azure Active Directory (Azure AD) ビジネス ツー ビジネス (B2B) およびそのライセンス モデルを使用しています。 ゲスト アクセスは、Office 365 Business Premium、Office 365 Enterprise、Office 365 Education のすべてのサブスクリプションに含まれています。 追加の Office 365 ライセンスは不要です。
 
-ライセンスのエラーが表示される場合は、[Azure Active Directory B2B ライセンスのガイダンス](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)を必ず読んで、自分の組織でのゲスト アクセスのニーズを満たすライセンスの要件を判断してください。
+> [!NOTE]
+> ゲストのゲストのホームテナントで teams を有効にしておく必要があるのは、ゲストが別の (リソース) テナントでゲストとしてチームにサインインして使用できるようにするためです。
+
+ライセンスエラーが表示される場合は、組織でのゲストアクセスのニーズに合わせて、ライセンス要件を特定するために、 [Azure Active DIRECTORY B2B ライセンスガイダンス](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)をお読みください。
 
 
 - ゲスト ライセンスは、招待する組織に対してカウントされます。 必要なライセンスの数を算出するときは、このことを考慮に入れます。

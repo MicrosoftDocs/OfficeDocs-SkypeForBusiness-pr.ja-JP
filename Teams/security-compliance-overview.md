@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e777ef76f6c8f11dfd914b3c4be149c224b63cf5
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 922489b421a819554ae680cf70ab2df6a21b2aed
+ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139096"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43157630"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft Teams のセキュリティとコンプライアンス
 
@@ -81,6 +81,12 @@ Microsoft Teams デスクトップ アプリケーションは、AppLocker を�
 ## <a name="compliance"></a>コンプライアンス
 
 チームには、チャネル、チャット、添付ファイル、アイテム保持ポリシー、データ損失防止 (DLP)、チャネル、チャットとファイル、監査ログの検索、Microsoft Intune でのモバイルアプリケーション管理など、コンプライアンスの分野に関するさまざまな情報が含まれています。 以下のすべてのトピックに関する情報が記載されています。 [Microsoft 365 コンプライアンスセンター](https://compliance.microsoft.com)または[Office 365 セキュリティ & コンプライアンスセンター](https://protection.microsoft.com)にアクセスして、これらの設定を管理できます。
+
+### <a name="information-barriers"></a>情報の障壁
+
+情報バリアは、メンバーやグループが相互に通信できないようにするためのポリシー (ビジネス上の必要性がない場合、またはユーザーがその操作をブロックすることを規制している場合) や、検索や電子情報開示 (以下で取り上げた理由) に関連するポリシーを設定できるようにするものです。 これらのポリシーは、1:1 チャット、グループチャット、またはチームレベルでユーザーに影響を与える可能性があります。
+
+このトピックについて詳しくは、「 [Microsoft Teams の情報の障壁」](information-barriers-in-teams.md)をご覧ください。
 
 ### <a name="communication-compliance"></a>通信のコンプライアンス
 
