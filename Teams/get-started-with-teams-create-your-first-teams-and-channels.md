@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams で最初のチームとチャネルを作成する
+title: 最初のチームとチャネルを作成する
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -16,12 +16,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d84d4afaabdcfd5f8b548eb938d5aa9757d4c038
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 79fc1bc2a415ae59cd581f7fdde11be8972311a2
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42796040"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136797"
 ---
 # <a name="create-your-first-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams で最初のチームとチャネルを作成する
 
@@ -33,10 +34,10 @@ ms.locfileid: "42796040"
 
 詳細については、「[Teams のチームとチャネルの概要](teams-channels-overview.md)」および「[チームを編成する際のベスト プラクティス](best-practices-organizing.md)」を参照してください。
 
- 最初のチームは、「Get to know Teams」チームにすることをお勧めします。ここでは、早期導入者が自由に活動し、質問し、Teams の機能を発見できるようにします。 このチームは、Teams の実験を始めるときに成功に不可欠なものになるでしょう。 
+ 最初のチームは、「Get to know Teams」チームにすることをお勧めします。ここでは、早期導入者が自由に活動し、質問し、Teams の機能を発見することができます。 このチームは、Teams の実験を始めるときに成功に不可欠なものになるでしょう。 
 
 ### <a name="get-to-know-teams-team"></a>「Get to know Teams」チーム
-プロジェクト チームは「Getting to know Teams」チームを使用することで、Teams のクライアントがセットアップされていることを確認し、最初の会話を実行し、Teams で実現可能になることを調査できます。 組織には、新しい機能へ早期アクセスを利用しているユーザーのグループが既に存在していることがあります。 こうしたグループを初期チームの 1 つとして参加させると、早期のフィードバックを得るために役立ちます。
+プロジェクト チームは「Getting to know Teams」チームを使用することで、Teams のクライアントがセットアップされていることを確認し、最初の会話を実行し、Teams で実現可能なことを調査することができます。 組織には、新しい機能へ早期アクセスを利用しているユーザーのグループが既に存在していることがあります。 こうしたグループを初期チームの 1 つとして参加させると、早期のフィードバックを得るために役立ちます。
 
 次に、このチームに推奨される構造を示します。
 

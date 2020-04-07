@@ -1,5 +1,5 @@
 ---
-title: 先進認証を使用して Microsoft Teams にサインインする
+title: 先進認証を使用して Teams にサインインする
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -16,12 +16,13 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f86568f92f2b758ae48062c84b330461743ef178
-ms.sourcegitcommit: 8665603fae8408ccbc083dd59cb01936ebe96c58
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 5e61b1cb79b7c4e2989d823af2c6617337291cf6
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43116643"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43138896"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>先進認証を使用して Microsoft Teams にサインインする
 ==========================
