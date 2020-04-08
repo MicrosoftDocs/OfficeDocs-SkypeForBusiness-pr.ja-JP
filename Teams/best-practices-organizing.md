@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e8f6335edde67fcc00e68b6aa42b3100afa603c9
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 621bb6328ab4ea59caa18d27fe7196a25ee15157
+ms.sourcegitcommit: 1c2cef3deb384216bf0a89628573a277ee6e3e2b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136877"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43174919"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Microsoft Teams でチームを編成するためのベスト プラクティス
 ======================================================
@@ -31,9 +31,7 @@ Teams は、共通の目標を通じて集まって収集する人々の集ま�
 
 チームを作成する前に、目標、プロジェクト、または作業項目について検討し、組織内のユーザーが共同作業を行うのに役立ちます。 指定したユーザーまたはグループをチームに追加して、共同作業を開始します。 メンバーシップは時間を経て変更される可能性があるため、チームごとに複数の所有者を指定することをお勧めします。 詳細については、「[チームを管理する](https://support.office.com/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499)」を参照してください。
 
-次の短いビデオでは、組織間または単一目的のチームを構成する方法の例を紹介します。
-
-> [!VIDEO https://youtu.be/XAowXcmQ-kA]
+Microsoft Teams[ビデオプレイリスト](https://www.youtube.com/playlist?list=PLXPr7gfUMmKwYKFSqoPN-aHQppI7rRQLf)は、チームの作成と管理に関する詳細情報を提供します。
 
 ## <a name="add-teams-gradually"></a>チームを段階的に追加する
 
@@ -41,11 +39,11 @@ Teams は、共通の目標を通じて集まって収集する人々の集ま�
 
 ## <a name="create-channels-to-focus-discussions"></a>ディスカッションに重点を置いたチャネルを作成する
 
-チームを作成したら、サポートする必要があるさまざまなプロジェクトや会話の種類について検討することをお勧めします。 最初のチャネルを作成して、他のユーザーが投稿して既存の会話を見つけることができるようにします。 説明のチャネル名を使用して、会話ごとにどこからでも簡単に移動できるようにします。 チャネルにタブとしてツール (OneNote、Power BI、Planner など) を追加して、メンバーが必要なものをチャネル内ですべて利用できるようにします。 一般的に使われている web ページをタブとしてチャネルに追加することもできます。 
+チームを作成したら、サポートする必要があるさまざまなプロジェクトや会話の種類について検討することをお勧めします。 最初のチャネルを作成して、他のユーザーが投稿して既存の会話を見つけることができるようにします。 説明のチャネル名を使用して、会話ごとにどこからでも簡単に移動できるようにします。 チャネルにタブとしてツール (OneNote、Power BI、Planner など) を追加して、メンバーが必要なものをチャネル内ですべて利用できるようにします。 一般的に使われている web ページをタブとしてチャネルに追加することもできます。
 
-[チームでの作業](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams)の詳細については、「エンドユーザー向けのクイックヒント」を参照してください。 
+[チームでの作業](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams)の詳細については、「エンドユーザー向けのクイックヒント」を参照してください。
 
-ベストプラクティス: より大きなメンバーとチャネルを追加してチームを作成します。 ユーザーの参加が必要なチームの数を最小限に抑えます。 チーム内のチャネルは、チームが共同の目標を達成するための作業を整理するために役立つトピックまたはワークストリームと考える必要があります。 作成する必要がある特定のチャネル数はありません。 各チームは、各自の勤務先、優先度、およびスタイルに基づいてチャネルを作成する必要があります。 
+ベストプラクティス: より大きなメンバーとチャネルを追加してチームを作成します。 ユーザーの参加が必要なチームの数を最小限に抑えます。 チーム内のチャネルは、チームが共同の目標を達成するための作業を整理するために役立つトピックまたはワークストリームと考える必要があります。 作成する必要がある特定のチャネル数はありません。 各チームは、各自の勤務先、優先度、およびスタイルに基づいてチャネルを作成する必要があります。
 
 チームのすべてのユーザーが投稿できるように、標準のチャネルを使用して会話を行います。 メンバーの選択グループで優先コラボレーションスペースが必要な場合は、 [Teams でプライベートチャネル](private-channels.md)を活用します。
 
@@ -64,12 +62,11 @@ Teams は、共通の目標を通じて集まって収集する人々の集ま�
 
 詳細については、「[チームとチャネル](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_channels)」ページの [チャネル] タブ**で作業**を調べます。
 
-
-
 ## <a name="consider-setting-up-moderation-in-your-channels"></a>チャネルでモデレーションを設定することを検討する
 
 チーム所有者は、チャネルのモデレーションを有効にして、誰が新しい投稿を開始し、そのチャネルで投稿に返信できるかを制御できます。 モデレーションを設定するときは、1人または複数のチームメンバーをモデレーターに指定できます。 (チームの所有者は、既定でモデレーターとなります。)詳細については、「 [Microsoft Teams でチャネルのモデレーションを設定および管理](manage-channel-moderation-in-teams.md)する」を参照してください。
 
 ## <a name="related-topics"></a>関連項目
 
-[Teams で組織全体にわたるチームを作成する](create-an-org-wide-team.md)
+- [Teams で組織全体にわたるチームを作成する](create-an-org-wide-team.md)
+- [Microsoft Teams の制限事項と仕様](limits-specifications-teams.md)
