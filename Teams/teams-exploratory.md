@@ -14,14 +14,15 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f2629f855485f0301f6a7fc576cd17a9e1c1f49d
-ms.sourcegitcommit: bc2e0f6f2ed3802ecc67275594db221c61824458
+ms.openlocfilehash: 0ad27eec186bec2fce915da0fc53f515f58ce8e9
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "42398175"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42892317"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>Microsoft Teams Exploratory ライセンスを管理する
 =======================================================
@@ -53,7 +54,7 @@ Teams Exploratory エクスペリエンスの一部として管理者に表示�
 
 ## <a name="whos-eligible"></a>対象者
 
-ユーザーが管理対象の AAD ドメインのメール アドレスを持っており、現在 Teams のライセンスが割り当てられていない場合は、このエクスペリエンスの対象となります。 たとえば、ユーザーが Office 365 Business (Teams を含まない) を持っている場合、Teams Exploratory エクスペリエンスの対象になります。
+ユーザーが管理対象の AAD ドメインのメール アドレスを持っており、現在 Teams のライセンスを持っていないかライセンスを割り当てられていない場合は、このエクスペリエンスの対象となります。 たとえば、ユーザーが Office 365 Business (Teams を含まない) を持っている場合、Teams Exploratory エクスペリエンスの対象になります。
 
 ユーザーが (Microsoft 365 管理センターで) アプリや試用版にサインアップできるようにする必要があります。 詳細については、この記事で後述する「[Teams Exploratory エクスペリエンスを管理する](#manage-the-teams-exploratory-experience)」を参照してください。 
 
@@ -78,7 +79,7 @@ Teams Exploratory エクスペリエンスには Exchange Online ライセンス
 
 ### <a name="prevent-users-from-installing-trial-apps-and-services"></a>ユーザーが試用版アプリおよびサービスをインストールできないようにする
 
-試用版アプリとサービスをインストールするユーザーの機能をオフにすると、ユーザーが Teams Exploratory エクスペリエンスを実行できなくなります。
+ユーザーが試用版アプリとサービスをインストールできるようにする機能をオフにすると、そのユーザーは Teams Exploratory エクスペリエンスを実行できなくなります。
 
 1. [[Microsoft 365 管理センター]](https://portal.office.com/adminportal/home) から、**[設定]** > **[設定]** に移動し、**[サービス]** を選択し、**[ユーザーが所有するアプリとサービス]** を選択します。
 
@@ -155,7 +156,7 @@ Teams Exploratory ライセンスからユーザーをアップグレードす�
 
 ## <a name="how-long-does-the-teams-exploratory-experience-last"></a>Teams Exploratory エクスペリエンスの利用可能期間
 
-Microsoft Teams Exploratory エクスペリエンスは、次のエンタープライズ契約日、または 2021 年 1 月以降の更新日まで追加料金なしで利用可能です。 この時点で、Microsoft Exploratory エクスペリエンス ライセンスのエンド ユーザーは、Teams を含む有料のライセンスに移行する必要があります。 移行後に開始したすべての Microsoft Exploratory エクスペリエンス ライセンスは、次の契約日、または更新日まで追加料金なしで引き続き利用できます。 
+Microsoft Teams Exploratory エクスペリエンスは、次のエンタープライズ契約日、または 2021 年 1 月以降の更新日まで追加料金なしで利用可能です。 この時点で、Microsoft Exploratory エクスペリエンス ライセンスのエンド ユーザーは、Teams を含む有料のライセンスに移行する必要があります。 その後に開始したすべての Microsoft Exploratory エクスペリエンス ライセンスは、次の契約日、または更新日まで追加料金なしで引き続き利用できます。 
 
 ### <a name="what-happens-if-an-end-user-initiates-the-microsoft-teams-exploratory-experience-just-before-my-anniversary-or-renewal-date"></a>エンド ユーザーが、Microsoft Teams Exploratory エクスペリエンスを契約日、または更新日の前に開始した場合は、どうなりますか?
 
