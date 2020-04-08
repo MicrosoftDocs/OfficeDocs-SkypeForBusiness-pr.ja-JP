@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Microsoft Teams でリソースアカウントを管理する方法について説明します。
-ms.openlocfilehash: 6666482c45cb8d97567ffb9a5c8b8a3f3bcc5636
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5d1558f027226845842923140f9f9e64c5f4eae1
+ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836279"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43190876"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Microsoft Teams のリソースのアカウントの管理
 
@@ -161,7 +161,7 @@ Microsoft Teams または Skype for Business Online では、各電話システ�
 
 - 次の Powershell コマンドレットの例は、[新しい-csonline Applicationinstance](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineApplicationInstance?view=skype-ps)を使って、オンラインでホームリソースアカウントを作成する方法を示しています。 
 
-- クラウド通話キューとクラウド自動応答で使用できる Skype For Business Server 2019 上のリソースアカウントの場合は、「[クラウド通話キューを構成](/skypeforbusiness/hybrid/configure-call-queue.md)する、[クラウド自動応答を構成](/skypeforbusiness/hybrid/configure-cloud-auto-attendant.md)する」を参照してください。 ハイブリッド実装 (直接ルーティングによる番号) は、オンプレミスの Skype for Business Server 2019 サーバー上の[CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)コマンドレットを使用して構成されます。
+- クラウド通話キューとクラウド自動応答で使用できる Skype For Business Server 2019 上のリソースアカウントの場合は、「[クラウド通話キューの計画](/SkypeforBusiness/hybrid/plan-call-queue)」または「[クラウド自動応答の計画](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)」を参照してください。 ハイブリッド実装 (直接ルーティングによる番号) は、オンプレミスの Skype for Business Server 2019 サーバー上の[CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)コマンドレットを使用して構成されます。
 
 アプリケーションインスタンスの作成時に使う必要があるアプリケーション ID は、次のとおりです。
 

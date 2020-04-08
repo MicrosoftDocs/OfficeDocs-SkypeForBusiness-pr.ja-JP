@@ -5,7 +5,6 @@ ms.author: lolaj
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.date: 1/28/2019
 ms.reviewer: LolaJ
 audience: admin
 description: Microsoft Teams を組織に展開するための正しい経路を見つけます。
@@ -13,23 +12,25 @@ localization_priority: Priority
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_RemoteWorkers
+- remotework
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.rolloutteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 32c1ea2ceb816d54c08cbe22e8dabf1b8eb24f6d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: bb11c6a7386abb9a83e178692a84cef1dfe8bd05
+ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045439"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43053560"
 ---
 # <a name="how-to-roll-out-microsoft-teams"></a>Microsoft Teams の展開方法
 
 ## <a name="start-here"></a>開始するには
-中小企業でも多国籍企業でも、Teams の展開は「[使用を開始する](get-started-with-teams-quick-start.md)」から始まります。 そこでは Teams の小規模な展開が手順ごとに説明されています。中小企業の場合は、必要となるものすべてが説明されている可能性があります。 大規模な組織の場合は、「[使用を開始する](get-started-with-teams-quick-start.md)」を使用して、少数の早期導入者のグループで Teams を試験運用してください。これにより、Teams を知り、組織全体の展開計画を立てることができます。 
+中小企業でも多国籍企業でも、Teams の展開は「[使用を開始する](get-started-with-teams-quick-start.md)」から始めることができます。 ここでは、小規模な Teams の展開について手順ごとに説明されています。中小企業の場合、または**リモート ワーカー**をサポートするために初めての Office 365 ワークロードとして Teams を迅速に展開する場合に必要なことがすべて網羅されています。 大規模な組織の場合は、「[使用を開始する](get-started-with-teams-quick-start.md)」を使用して、少数の早期導入者のグループで Teams を試験運用してください。これにより、Teams を知り、組織全体の展開計画を立てることができます。 
 
 ## <a name="recommended-path-to-teams"></a>Teams に推奨される経路
 
@@ -54,9 +55,9 @@ Skype for Business (オンラインまたはオンプレミス) から Teams に
 
 |  |組織のプロファイル|ガイダンス  |
 |---------|---------|---------|
-|<IMG src="https://docs.microsoft.com/office/media/icons/migration-blue.svg" alt="An icon representing migration" height="50" width="50">|現在 Skype for Business Online を使用しており、Teams に移行する準備が整っている。 |「[Teams へのアップグレード](upgrade-start-here.md)」に移動します。        |
-|<IMG SRC="https://docs.microsoft.com/office/media/icons/hybrid-blue.svg" alt="An icon representing hybrid connectivity" height="50" width="50">|組織で Skype for Business Server を実行しており、Teams の展開を希望している。 |本格的に Teams を展開するには、まず、オンプレミス環境と Microsoft 365 とのあいだでハイブリッド接続を構成する必要があります。 「[Skype for Business Server と Office 365 間のハイブリッド接続を計画する](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-hybrid-connectivity)」を読むことから始めてください。 <br><br>「[Teams へのアップグレード](upgrade-start-here.md)」も参照してください。    |
-|<IMG src="https://docs.microsoft.com/office/media/icons/on-premises.svg" alt="An icon representing an on-premises solution" height="50" width="50">|Skype for Business Server はないが、オンプレミスの PSTN ソリューションは所有している。 Teams の展開は希望するが、オンプレミスの PSTN ソリューションも維持したい。 |上記の「[推奨される経路](#recommended-path-to-teams)」に従って、Teams を展開します。<br><br>次に、「[ダイレクト ルーティングを計画する](direct-routing-plan.md)」を読んで、電話システムのダイレクト ルーティングを使用してオンプレミスの PSTN ソリューションと Teams を接続する方法を確認してください。|
+|<IMG src="https://docs.microsoft.com/office/media/icons/migration-teams.svg" alt="Migration arrow symbol" height="50" width="50">|現在 Skype for Business Online を使用しており、Teams に移行する準備が整っている。 |「[Teams へのアップグレード](upgrade-start-here.md)」に移動します。        |
+|<IMG SRC="https://docs.microsoft.com/office/media/icons/hybrid-teams.svg" alt="Hybrid symbol" height="50" width="50">|組織で Skype for Business Server を実行しており、Teams の展開を希望している。 |本格的に Teams を展開するには、まず、オンプレミス環境と Microsoft 365 とのあいだでハイブリッド接続を構成する必要があります。 「[Skype for Business Server と Office 365 間のハイブリッド接続を計画する](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-hybrid-connectivity)」を読むことから始めてください。 <br><br>「[Teams へのアップグレード](upgrade-start-here.md)」も参照してください。   |
+|<IMG src="https://docs.microsoft.com/office/media/icons/on-premises-teams.svg" alt="On premises symbol" height="50" width="50">|Skype for Business Server はないが、オンプレミスの PSTN ソリューションは所有している。 Teams の展開は希望するが、オンプレミスの PSTN ソリューションも維持したい。 |上記の「[推奨される経路](#recommended-path-to-teams)」に従って、Teams を展開します。<br><br>次に、「[ダイレクト ルーティングを計画する](direct-routing-plan.md)」を読んで、電話システムのダイレクト ルーティングを使用してオンプレミスの PSTN ソリューションと Teams を接続する方法を確認してください。|
 |
 
 

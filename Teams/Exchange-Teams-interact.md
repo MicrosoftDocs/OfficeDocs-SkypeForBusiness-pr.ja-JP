@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 68468455da96fc3b2790a832b6732d7211bd7733
-ms.sourcegitcommit: dc6108917392754d950cea47b92f871211bf4212
+ms.openlocfilehash: d97f92b56b4a3e38489b1f99f8ba25497485495f
+ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43131145"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43191244"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange と Microsoft Teams の連携
 
@@ -36,7 +36,7 @@ Exchange Online または Exchange 専用 vNext でホストされているユ�
 
 Exchange Online 専用 (レガシ) にホストされるユーザーは、Office 365 の Azure Active Directory と同期する必要があります。 チームやチャネルの作成およびそれらへの参加、タブ、ボットの追加と構成、チャットや通話機能の利用が可能です。 ただし、プロフィール画像の変更、会議の管理、outlook の連絡先へのアクセス、コネクタの管理はできません。
 
-オンプレミスでホストされているメールボックスを使っているユーザーは、Azure Active Directory と同期する必要があります。 上記のシナリオのすべての機能を使用できるようになりましたが、ユーザープロファイルの画像 (Outlook on the web メールボックスポリシーで許可されている場合) を変更することもできます。また、Exchange Server 2016 (累積的な更新プログラム 3) 以降を提供している場合は、オンプレミスが実行されています。
+オンプレミスでホストされているメールボックスを使っているユーザーは、Azure Active Directory と同期する必要があります。 上記のシナリオのすべての機能を使用できるようになりましたが、ユーザープロファイルの画像 (Outlook on the web メールボックスポリシーで許可されている場合) を変更することもできます。また、Exchange Server 2016 (累積更新プログラム 3) を使用している場合は、(ハイブリッド構成ウィザードを使用することで) OAuth が構成されて
 
 次の表では、Exchange 環境に基づいて、機能の可用性に関する役立つクイック リファレンスをまとめています。
 
@@ -48,7 +48,7 @@ Exchange Online 専用 (レガシ) にホストされるユーザーは、Office
 |**Exchange Online**|はい <sup>2</sup>|はい <sup>2</sup>|はい|はい|はい|○ (<sup>8</sup> )|はい|はい|はい <sup>7</sup>|はい|はい|はい|はい|
 |**Exchange Online 専用 vNext**|はい <sup>2</sup>|はい <sup>2</sup>|はい|はい|はい|○ (<sup>8</sup> )|はい|はい|はい <sup>7</sup>|はい|はい|はい|はい|
 |**Exchange Online 専用 – レガシー** (Azure AD との同期が必要)|はい <sup>2</sup>|はい <sup>2、3</sup>|はい <sup>4|はい|いいえ|いいえ|はい|はい|いいえ|はい <sup>5|はい <sup>6|必要|必要|
-|**Exchange On-premises** (Azure AD との同期が必要)|はい <sup>2</sup>| はい <sup>2、3</sup> |はい <sup>4|はい|はい (Exchange 2016 CU3+)|○<sup>8</sup> (EXCHANGE 2016 cu3 以降で +)|はい|はい|いいえ|はい <sup>5|はい <sup>6|必要|必要|
+|**Exchange on-premises** (Azure AD との同期 & OAuth 構成が必要)|はい <sup>2</sup>| はい <sup>2、3</sup> |はい <sup>4|はい|はい (Exchange 2016 CU3+)|○<sup>8</sup> (EXCHANGE 2016 cu3 以降で +)|はい|はい|いいえ|はい <sup>5|はい <sup>6|必要|必要|
 
 <sup>1</sup> Exchange 2016 CU3 以降がサポートされています。  
 

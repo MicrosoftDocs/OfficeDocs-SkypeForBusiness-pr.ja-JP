@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'ユーザーにクラウドボイスメールをセットアップする方法について説明します。 '
-ms.openlocfilehash: 51e03417d3bdbd09b631fa2bd07b6009bf54693e
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5f975eac51cf3787ac5a1dde9b76b80b0912478d
+ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838007"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43190834"
 ---
 # <a name="set-up-cloud-voicemail"></a>クラウド ボイスメールのセットアップ
 
@@ -60,6 +60,9 @@ Skype for Business Online と通話プランのユーザーには、**電話シ�
 5. ボイスメールメッセージは、Exchange Online Protection を介してルーティングされる SMTP 経由で、ユーザーの Exchange メールボックスに配信されます。 これらのメッセージが正常に配信されるようにするには、exchange サーバーと Exchange Online Protection の間で Exchange コネクタが正しく構成されていることを確認します。[コネクタを使用して、メールフローを構成](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)します。 
 
 6. Skype for Business クライアントで、グリーティングのカスタマイズや、視覚ボイスメールなどのボイスメール機能を有効にするには、Exchange Web Services を使用した Office 365 から Exchange server メールボックスへの接続が必要です。 この接続を有効にするには、「 [exchange と Exchange Online 組織の間での Oauth 認証の構成](https://technet.microsoft.com/library/dn594521(v=exchg.150).aspx)」で説明されている新しい exchange Oauth 認証プロトコルを構成するか、Exchange ハイブリッドウィザードを EXCHANGE 2013 cu5 以降以上で実行する必要があります。 さらに、「skype for business [online と Exchange server の間の統合と oauth の構成](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)」で説明されているように、Skype For business Online と exchange server の間で統合と oauth を構成する必要があります。 
+
+> [!NOTE]
+> 代理人が委任者の代わりに着信に応答する場合、クラウドボイスメールでは通知を利用できません。 不在着信の通知は、ユーザーが受信できます。
 
 ## <a name="setting-voicemail-policies-in-your-organization"></a>組織内のボイスメール ポリシーの設定
 
@@ -126,11 +129,10 @@ Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionProfanityMaskingEnabled -
 
 - [Skype for Business 2016 トレーニング](https://support.office.com/article/eb2081bc-fd0a-4eda-94da-5a39f369ee74)
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [Skype for Business Online のセットアップ](/skypeforbusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
 
 [Office 365 での電話システムで利用できる機能](here-s-what-you-get-with-phone-system.md)
 
 [Skype for Business Server と Exchange Server の移行の計画](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-um-migration)
-
 
