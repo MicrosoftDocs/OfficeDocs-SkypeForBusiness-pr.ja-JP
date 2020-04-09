@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8259b8a06a4601ff7feebca53c06f268bdc08c5
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+ms.openlocfilehash: 0c6cd94f5d7205b438396dcb09ebb047a49b8f2e
+ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42796020"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170595"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams のチャット、チーム、チャネル、およびアプリ
 
@@ -97,6 +97,10 @@ Teams には、組織に適した Teams の管理に使用できる、カスタ�
 ### <a name="guest-access"></a>ゲスト アクセス
 
 Teams のゲスト アクセスを使用すると、組織の外部にいる個人がチームおよびチャネルにアクセスできるようになります。 ゲスト アクセスの設定を使用すると、ゲスト ユーザーが使用できる (または使用できない) 機能を制御できます。 ゲスト アクセスは、既定でオフになっています。 詳細については、「[Teams でのゲスト アクセス](https://docs.microsoft.com/microsoftteams/guest-access)」を参照してください。
+
+> [!NOTE]
+> 外部アクセスとゲスト アクセスの詳細ついては、「[Microsoft Teams の別の組織のユーザーと通信する](communicate-with-users-from-other-organizations.md)」を参照してください。
+
 
 |確認事項|アクション |
 |------------|-------|

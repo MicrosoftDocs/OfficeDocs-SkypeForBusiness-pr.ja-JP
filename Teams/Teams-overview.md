@@ -1,5 +1,5 @@
 ---
-title: Microsoft Team にようこそ
+title: Microsoft Teams にようこそ
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars
@@ -25,7 +25,7 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 03/24/2020
 ms.locfileid: "42928260"
 ---
-# <a name="welcome-to-microsoft-teams"></a>Microsoft Team にようこそ
+# <a name="welcome-to-microsoft-teams"></a>Microsoft Teams にようこそ
 所属する組織での Microsoft Teams の管理者である場合は、このページの内容をよくお読みください。 Teams を使用する準備が整っている場合は、「[Teams の展開方法](How-to-roll-out-teams.md)」から始めてください。
 
 Teams を使うのが初めてで、詳細を知りたい場合は、「[Teams へようこそ](https://www.youtube.com/embed/s3aQV3T0D6c)」のビデオ (55 秒) をご覧ください。
@@ -73,7 +73,7 @@ Teams をカスタマイズおよび拡張するには、[アプリ、ボット�
 Teams およびその他の Office 365 製品とサービスに今後導入される機能についての最新情報を常に取得するには、必ず「[メッセージ センター](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter)」と「[Teams ロードマップ](https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters=Microsoft%20Teams%26searchterms=microsoft%2Cteams)」を確認してください。 新機能および更新された機能、計画済みの変更、および問題についての通知を取得して、常に情報を把握して準備を整えられるようになります。 
 
 ## <a name="upgrade-from-skype-for-business-to-teams"></a>Skype for Business から Teams へのアップグレード
-Teams は Office 365 でのインテリジェント コミュニケーションの中心的なクライアントで、最終的に Skype for Business Online に取って代わります。 Teams に導入される新機能の最新情報を入手するには、「[Microsoft 365 ロードマップ](https://aka.ms/O365Roadmap)」を参照してください。 常設チャットおよびメッセージの機能を補完するために、Teams では内蔵され完全に統合された音声とビデオによる、包括的な会議および通話のエクスペリエンスを提供しています。 Microsoft Teams ブログの「[Teams is now a complete meeting and calling solution (完全な会議および通話ソリューションとなった Teams)](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042)」をご覧ください。
+Teams は Office 365 でのインテリジェント コミュニケーションの中心的なクライアントで、最終的に Skype for Business Online に取って代わります。 Teams に導入される新機能の最新情報を入手するには、「[Microsoft 365 ロードマップ](https://aka.ms/O365Roadmap)」を参照してください。 常設チャットおよびメッセージの機能を補完するために、Teams では内蔵され完全に統合された音声とビデオによる、包括的な会議および通話のエクスペリエンスを提供しています。 Microsoft Teams ブログの「[完全な会議および通話ソリューションとなった Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042)」をご覧ください。
 
 Skype for Business を実行していて、Teams にアップグレードする準備が整っている場合、または Skype for Business と Teams を共存させて実行していて、完全に Teams に移動する準備が整っている場合、その移行作業を正常に完了させるために役に立つツール、ヒント、ガイダンスを利用することができます。 詳細については、「[Teams へのアップグレード](upgrade-start-here.md)」を参照してください。
 
