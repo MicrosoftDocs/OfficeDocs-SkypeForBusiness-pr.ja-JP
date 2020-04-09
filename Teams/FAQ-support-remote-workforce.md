@@ -16,12 +16,12 @@ search.appverid: MET150
 description: このガイダンスは、新型コロナウイルス感染症 (COVID-19) 発生への対策として従業員が在宅勤務 (WFH) となった場合に、これらのリモート ワーカーの生産性を維持するためにご使用ください。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 336286f2dc107cc4f79bd874789866c352c1e522
-ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
+ms.openlocfilehash: 4df15c379d4232dafaea71114f68877dd7347989
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053550"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096962"
 ---
 # <a name="faq-support-your-remote-workforce"></a>よく寄せられる質問: リモートの従業員をサポートする
 
@@ -36,11 +36,16 @@ Microsoft では、今回の新型コロナウイルス感染症 (COVID-19) 発�
 > [!NOTE]
 > すでに M365 をセットアップしていて、Microsoft が行っている操作について詳しく知りたい場合は、メッセージ センターにアクセスして、**MC205458** メッセージ センターの投稿を確認してください。
 
-Microsoft 365 担当コーポレート バイス プレジデントの Jared Spataro による 2020 年 3月 5 日のブログ投稿「[Our commitment to customers during COVID-19 (新型コロナウイルス感染症発生中における、お客様への取り組み)](https://www.microsoft.com/ja-JP/microsoft-365/blog/2020/03/05/our-commitment-to-customers-during-covid-19/)」をぜひご覧ください。
+Microsoft 365 担当コーポレート バイス プレジデントの Jared Spataro による 2020 年 3 月 5 日のブログ投稿「[Our commitment to customers during COVID-19 (新型コロナウイルス感染症発生中における、お客様への取り組み)](https://www.microsoft.com/ja-JP/microsoft-365/blog/2020/03/05/our-commitment-to-customers-during-covid-19/)」をぜひご覧ください。
+
 
 ### <a name="with-the-actions-that-microsoft-is-taking-do-we-anticipate-problems"></a>Microsoft が措置を講じているということは、問題は何も発生しないということですか?
 
 問題を回避するための最善の努力は行っていますが、ウイルスの拡散に伴う特定の地域における予期せぬピーク発生が原因となり、一時的な問題が発生する可能性があります。 Microsoft では積極的な監視を行っており、必要に応じて、容量を追加していますが、これらの地域で実際に容量が追加されるまでは、お客様への影響が発生する可能性があります。 また、Microsoft のコントロールが及ばない、外的な状況もあります。 インターネット サービス プロバイダーやテレフォニー キャリアでも積極的に対策を講じていることが想像されますが、在宅勤務者の増加に伴う負荷の上昇への対応力を備えているとは限りません。Microsoft では、ネットワーク インフラストラクチャに注目して、業界全体と連携を図っています。 停止に関する懸念がある場合は、メッセージ センターで現在の停止について確認してください。
+
+### <a name="what-can-admins-do-if-attendees-are-having-trouble-joining-meetings-by-dialing-in-such-as-if-calls-arent-getting-through"></a>通話がつながらない場合など、ダイヤルインにより会議に参加できない場合、管理者は何ができますか?
+
+新型コロナウイルス感染症 (COVID-19) の発生が起こっている間、PSTN 会議番号を使用または **[折り返し先]** を使用してダイヤルインするのではなく、**[Teams 会議に参加]** ボタンをクリックして、ユーザーが会議に参加することをお勧めします</strong>。 これは主に、COVID-19 の影響を受ける国のテレフォニー インフラストラクチャが混雑するためです。 PSTN 通話を回避することによって、音質が向上します。 
 
 ### <a name="what-are-the-general-microsoft-guidelines-regarding-network-optimization-for-microsoft-365-some-of-my-users-in-china-are-having-a-bad-experience-what-should-i-do-to-optimize-our-network"></a>Microsoft 365 のためのネットワークの最適化に関する Microsoft の一般的なガイドラインについて教えてください 中国にいる一部の従業員に対して問題が発生しています。ネットワークを最適化するにはどうすればよいですか?
 

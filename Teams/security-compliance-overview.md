@@ -20,23 +20,23 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 922489b421a819554ae680cf70ab2df6a21b2aed
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: 66ef35a8a8235507e4d87a7b9c4da7625a939770
+ms.sourcegitcommit: 9419860f9a1c1dd2c7c444162e1d55d704e19c69
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157630"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43207006"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft Teams のセキュリティとコンプライアンス
 
 > [!IMPORTANT]
 > **共同作業中に全員が自宅で仕事をしているときに**、確実にセキュリティを確保する方法については、次の記事を参照してください。
->  - [自宅での作業をサポートするセキュリティチームの上位12のタスク](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
->  - [VPN 分割トンネリングを使用してリモートユーザー向けに Office 365 の接続を最適化する](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
+>  - [Top 12 tasks for security teams to support working from home](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work) (在宅勤務をサポートするためにセキュリティ チームが行う 12 の主なタスク)
+>  - [VPN スプリット トンネリングを使用してリモート ユーザーの Office 365 の接続を最適化する](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
 >  - 更新日: 2020 年4月2日: [Teams セキュリティガイド](teams-security-guide.md)
 
 
-Microsoft Teams は、お客様の期待に応える高度セキュリティおよびコンプライアンス能力を備えた Office 365 ハイパースケールのエンタープライズクラスのクラウド上に構築されています。 O365 でのセキュリティの計画の詳細については、O365 のコンテンツをご確認ください。 [Office 365 セキュリティのロードマップ](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap)は、最初に始めるのに最適な場所です。 O365 でのコンプライアンスの計画について詳しくは、「[セキュリティとコンプライアンスの計画](https://docs.microsoft.com/microsoft-365/compliance/plan-for-security-and-compliance)」の記事を最初にご覧ください。
+Microsoft Teams は、お客様の期待に応える高度セキュリティおよびコンプライアンス能力を備えた Office 365 ハイパースケールのエンタープライズクラスのクラウド上に構築されています。 Office 365 のセキュリティの計画について詳しくは、「Office 365 のコンテンツ」を参照してください。 [Office 365 セキュリティのロードマップ](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap)を開始することをお勧めします。 Office 365 でのコンプライアンスの計画の詳細については、「[セキュリティとコンプライアンスの計画](https://docs.microsoft.com/microsoft-365/compliance/plan-for-security-and-compliance)」を参照してください。
 
 
 この記事では、Teams 固有のセキュリティとコンプライアンスについて詳しく説明します。 セキュリティとコンプライアンスに関する以下の Microsoft のしくみに関するビデオをお見逃しなく。
@@ -53,7 +53,7 @@ Teams では、チーム全体および組織全体の 2 要素認証、Active D
 
 認証と Teams の詳細については、「[ID モデルと認証](identify-models-authentication.md)」を参照してください。先進認証については、「[先進認証のしくみ](sign-in-teams.md)」が特に役立ちます。
 
-Teams は SharePoint、OneNote、Exchange などと連携して動作するため、O365 でセキュリティを管理する必要があります。 Office 365 のセキュリティに関する詳細については、「[セキュリティ強化のために、Office 365 テナントを構成する](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security)」を参照してください。
+Teams は SharePoint、OneNote、Exchange などと連携して動作するため、Office 365 のセキュリティを管理する必要があります。 Office 365 のセキュリティに関する詳細については、「[セキュリティ強化のために、Office 365 テナントを構成する](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security)」を参照してください。
 
 > [!NOTE]
 > 現時点では、[プライベート チャネル](private-channels.md)でサポートされるセキュリティとコンプライアンス機能は制限されています。 プライベート チャネルにおけるすべてのセキュリティ機能とコンプライアンス機能のサポートは、近日中に行われる予定です。
@@ -62,11 +62,11 @@ Teams は SharePoint、OneNote、Exchange などと連携して動作するた�
 
 Advanced Threat Protection (ATP) は、Microsoft Teams で使用することができます。SharePoint や OneDrive for Business など、コンテンツ管理用に Teams と統合されたアプリケーションと共に利用することができます。 ATP を使用すると、これらのアプリケーションのコンテンツが悪意のあるものであるかどうかを判断し、ユーザーのアクセスからこのコンテンツをブロックすることができます。
 
-検出後の影響を受けるコンテンツの管理方法は、O365 で選択した設定によって異なります。 ATP の構成に関しては、すべてのアプリケーションについて考慮することを強くお勧めします。「[SharePoint、OneDrive、Microsoft Teams 用の Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)」の記事に開始方法の詳細が記載されています。
+検出後に影響を受けるコンテンツがどのように管理されるかは、Office 365 で選択した設定によって異なります。 ATP の構成に関しては、すべてのアプリケーションについて考慮することを強くお勧めします。「[SharePoint、OneDrive、Microsoft Teams 用の Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)」の記事に開始方法の詳細が記載されています。
 
 ### <a name="safe-links"></a>安全なリンク
 
-現時点で、Microsoft Teams で ATP の安全なリンクは利用できませんが、Technology Adoption Program (TAP) を通じてパブリック プレビューされています。一般公開のリリース日は設定されていませんが、その時が来たらこの記事を更新します。 それまでは O365 の安全なリンクの詳細については、「[Office 365 ATP の安全なリンク](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection)」を参照してください。
+現時点で、Microsoft Teams で ATP の安全なリンクは利用できませんが、Technology Adoption Program (TAP) を通じてパブリック プレビューされています。一般公開のリリース日は設定されていませんが、その時が来たらこの記事を更新します。 また、Office 365 の安全なリンクについては、「 [office 365 の ATP の安全なリンク](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection)」を参照してください。
 
 ### <a name="how-conditional-access-policies-work-for-teams"></a>Teams での条件付きアクセス ポリシーの仕組み
 
@@ -98,15 +98,15 @@ Microsoft Teams のアイテム保持ポリシーを使用すると、規制、�
 
 ### <a name="data-loss-prevention-dlp"></a>データ損失防止 (DLP)
 
-Microsoft Teams でのデータ損失防止 (DLP) や、O365 でのより大きな DLP ストーリーは、主にビジネスの準備に関連し、O365 内で機密ドキュメントやデータを保護する際に必要となります。 メッセージやドキュメントの機密情報に関する懸念がある場合、DLP ポリシーを使用すれば、ユーザーがその機密データを不適切な人々と共有しないようにすることができます。
+Microsoft Teams のデータ損失防止 (DLP) と、Office 365 の大きな DLP ストーリーは、Office 365 で機密性の高いドキュメントやデータを保護するためのビジネス対応状況を中心としています。 メッセージやドキュメントの機密情報に関する懸念がある場合、DLP ポリシーを使用すれば、ユーザーがその機密データを不適切な人々と共有しないようにすることができます。
 
-Teams でのデータ損失防止の詳細については、「[Microsoft Teams 向け DLP](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams)」を参照してください。 O365 での DLP に関する優れた記事として、[https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies) があります。
+Teams でのデータ損失防止の詳細については、「[Microsoft Teams 向け DLP](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams)」を参照してください。 O36 DLP の懸念事項については、 [「データ損失防止の概要」](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)をご覧ください。
 
 ### <a name="ediscovery"></a>電子情報開示
 
 電子情報開示 (eDiscovery) とは、訴訟または調査における開示要求に対応するための電子保持情報 (ESI) の電子的な特定、収集、生成です。 これらの機能には、Teams データのケース管理、保持、検索、分析、エクスポートが含まれています。 チャット、メッセージング、ファイル、会議と通話の概要も含まれています。 Teams の会議と通話では、会議と通話で発生したイベントの概要が作成され、電子情報開示で利用可能な状態になります。
 
-セキュリティ/コンプライアンス センターで O365 の電子情報開示を実行する方法、および Teams コンテンツに対するコンプライアンス コンテンツ検索を実行する方法の詳細については、下記のリンク先をご覧ください。
+セキュリティ & コンプライアンスセンターで Office 365 eDiscovery を実行する方法と、コンプライアンスコンテンツ検索を実行する方法の詳細については、以下のリンクを参照してください。
 
 [電子情報開示](https://docs.microsoft.com/microsoft-365/compliance/manage-legal-investigations)
 
@@ -140,7 +140,7 @@ Office 365 セキュリティ/コンプライアンス センターでの保持�
 
 ### <a name="compliance-content-search"></a>コンプライアンスのコンテンツ検索
 
-コンテンツ検索では、豊富なフィルター機能を活用してすべてのチーム データを検索することができます。 結果として得られるデータは、特定のコンテナにエクスポートでき、コンプライアンスおよび訴訟のサポートとして用いることができます。 この操作は電子情報開示ケースの有無に関わらず実行できます。 これにより、コンプライアンス管理者は、すべてのユーザーにわたる Teams データを収集し、そのデータをレビューして、さらに処理するためにエクスポートできるようになります。 Office 365 セキュリティ/コンプライアンス センターでの Microsoft Teams および他の O365 のコンテンツについてのコンプライアンス コンテンツ検索を実施する方法の詳細については、「[Office 365 でのコンテンツ検索](https://docs.microsoft.com/microsoft-365/compliance/content-search)」の記事を参照してください。
+コンテンツ検索では、豊富なフィルター機能を活用してすべてのチーム データを検索することができます。 結果として得られるデータは、特定のコンテナにエクスポートでき、コンプライアンスおよび訴訟のサポートとして用いることができます。 この操作は電子情報開示ケースの有無に関わらず実行できます。 これにより、コンプライアンス管理者は、すべてのユーザーにわたる Teams データを収集し、そのデータをレビューして、さらに処理するためにエクスポートできるようになります。 Office 365 セキュリティ & コンプライアンスセンターで Microsoft Teams およびその他の Office 365 コンテンツのコンプライアンスコンテンツ検索を実行する方法については、「 [office 365 の記事でこのコンテンツ検索](https://docs.microsoft.com/microsoft-365/compliance/content-search)を行う」を参照してください。
 
 > [!TIP]
 > コンテンツ検索を使用すると、チャット、チャネル メッセージ、会議、通話など、Microsoft Teams のみのコンテンツへの絞り込みを必要に応じて行うことができます。
@@ -149,7 +149,7 @@ Office 365 セキュリティ/コンプライアンス センターでの保持�
 
 ### <a name="auditing-and-reporting"></a>監査と報告
 
-監査ログ検索は、Office 365 セキュリティ/コンプライアンス センターに直結しています。無制限の監査タイムラインでの管理上の使用や調査ができるように、ワークロード固有または汎用のイベント セットをエクスポートすることにより、監査イベントに関するアラートと報告の設定を行うことができます。 Office 365 セキュリティ/コンプライアンス センター内ですべての監査ログ データに関するアラートを設定することができ、このデータをさらに分析するために、フィルター処理およびエクスポートすることもできます。 O365 の監査ログの実行方法の詳細については、「[監査ログの検索](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)」の記事を参照してください。 Office 365 セキュリティ/コンプライアンス センターで Microsoft Teams のイベントを検索する方法の詳細について、「[Teams での監査を有効にする](audit-log-events.md)」の記事を検討することもできます。
+監査ログ検索は、Office 365 セキュリティ/コンプライアンス センターに直結しています。無制限の監査タイムラインでの管理上の使用や調査ができるように、ワークロード固有または汎用のイベント セットをエクスポートすることにより、監査イベントに関するアラートと報告の設定を行うことができます。 Office 365 セキュリティ/コンプライアンス センター内ですべての監査ログ データに関するアラートを設定することができ、このデータをさらに分析するために、フィルター処理およびエクスポートすることもできます。 Office 365 の監査ログの実施方法について詳しくは、「[監査ログの検索](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)」の記事を参照してください。 Office 365 セキュリティ/コンプライアンス センターで Microsoft Teams のイベントを検索する方法の詳細について、「[Teams での監査を有効にする](audit-log-events.md)」の記事を検討することもできます。
 
 ## <a name="privacy"></a>プライバシー
 
@@ -172,7 +172,7 @@ Microsoft では、データの保護は最も優先度の高いものとなっ�
 
 情報保護機能については、Office 365 サブスクリプションとそれに関連付けられたスタンドアロン ライセンスによって利用可能な機能セットが決まります。
 
-ライセンスのニーズを識別して、セキュリティとコンプライアンスの機能を実装する方法については、「[Office 365 のライセンス](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)」を参照してください。
+セキュリティとコンプライアンスのための機能を実装するためにライセンスのニーズを特定する方法については、「 [Office 365 または Microsoft 365 のライセンス](https://download.microsoft.com/download/8/7/7/877B1713-671E-43AA-BB79-AF8478C64AFF/Licensing-Microsoft-365.pdf)を確認する」を参照してください。
 
 > [!NOTE]
 > コンテンツ検索と電子情報開示を機能させるために、セキュリティ/コンプライアンス センター内で有効にする操作は不要です。
