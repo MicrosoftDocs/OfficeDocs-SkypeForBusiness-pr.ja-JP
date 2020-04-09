@@ -16,15 +16,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fd01a781cfb5a928e4d14e64d45789b4f023648d
-ms.sourcegitcommit: 3ddb28e085a89501e4e64687de4697f82f47f119
+ms.openlocfilehash: 6b6f0b27c80baf62d85d3791982965a26f4353f9
+ms.sourcegitcommit: 273d7565ad350bf97dbf035f148fd48b1cb04d4f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "43027677"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43194847"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>教育機関管理者向け Microsoft Teams のリソース
 ==============================================
+
+## <a name="resources-for-remote-learning"></a>リモート学習のリソース
+
+学校または大学で Microsoft Teams のリモート学習を有効にする必要がありますか? [1 ポケットベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true)の作業を開始し、次のいずれかの導入資料を使用すると、すぐにお使いになれます。
 
 ## <a name="adoption-content"></a>導入向けコンテンツ
 
@@ -57,7 +61,7 @@ Microsoft Teams について、メール、ポスター、配布資料など、�
 - Teams クライアントをダウンロードする: [すべてのデバイスで Teams をオンにする](https://teams.microsoft.com/downloads)
 - [Education ヘルプ センター](https://support.office.com/education)で Office 365 for Education について学ぶ
 
-## <a name="additional-resources"></a>追加リソース
+## <a name="additional-resources"></a>その他のリソース
 
 - [Teams のロードマップ](https://aka.ms/teamsroadmap)
 - [Tech Community Blog ](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog) で最新情報を入手する

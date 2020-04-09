@@ -18,31 +18,32 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 704a08678bfb64cdbee223b555dfaa4fa6350892
-ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
+ms.openlocfilehash: 0358e23f4f549aba6064a78d95f7ce160bb738b0
+ms.sourcegitcommit: 1c2cef3deb384216bf0a89628573a277ee6e3e2b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033371"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43174959"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>遠隔学習向けに Microsoft Teams の使用を開始する。
 
 > [!NOTE]
-> この記事は、遠隔学習を学校で整備する上で役に立つリソースです。 この記事以外にも、教員または学校の管理職員向けの役立つリソースがあります。
+> この記事は、遠隔学習を学校で整備する上で役に立つリソースです。 教師、学校関係者、または IT 担当者の場合、次のリソースが役立ちます。
 >
-> - [**Teams を使用した授業での重要な手順**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114)に関するハウツー ガイドを含む、教師向けに書かれた複数の記事を提供しています。
-> - 教育活動での Teams の活用方法を説明する、Microsoft Educator Center の 1 時間のオンライン コースを受講できます。 [**Microsoft Teams を使用して学習を刷新する**](https://education.microsoft.com/course/9c9f5c11/overview)。
-> - Class Teams を使用した授業を教師向けに説明する、Microsoft Educator Center の 1 時間のオンライン コースを受講できます。 [**Class Teams を使用して協働学習環境を作る**](https://education.microsoft.com/course/b1e15cfc/overview)。
+> - [**「チームの使用を開始する方法」**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Teams-for-Education-ITAdmin-get-started-guide.pptx?raw=true) をダウンロードする: セキュリティと変更管理のための便利なプラクティスを掲載した IT プロフェッショナル向けのガイドです。
+> - [**Teams を使用した授業での重要な最初の手順**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114)に関する使い方ガイドを含む、教師向けに書かれた複数の記事を提供しています。
+> - Microsoft Educator Center の 1 時間のオンライン コースでは、教師が教育の場において Teams を活用する方法を示します。 [**Microsoft Teams を使用して学習を刷新する**](https://education.microsoft.com/course/9c9f5c11/overview)。
+> - Microsoft Educator Center の 1 時間のオンライン コースでは、クラス チームでの授業を活用して教師に説明します。 [**Class Teams を使用して協働学習環境を作る**](https://education.microsoft.com/course/b1e15cfc/overview)。
 > - 教師、生徒、保護者の方々は、[**Office 365 を使用した遠隔授業と遠隔学習**](https://aka.ms/RemoteLearningHelp)に関する追加のガイダンスをご覧いただけます。
 > - 保護者の方々は、[**保護者向けのサポート ページ**](https://support.office.com/article/remote-learning-with-office-365-guidance-for-parents-and-guardians-89d514f9-bf5e-4374-a731-a75d38ddd588)で遠隔学習に関する詳細情報をご覧いただけます。
 
 2020 年 3 月 4 日のブログ記事「[Microsoft Teams を使用した遠隔学習プログラムを学校ですばやく立ち上げる方法](https://aka.ms/teamseduremoteblog)」もぜひご覧ください。
 
-オンライン学習は教室での学習と同じくらい対話的で、社会的なつながりの強さも変わりません。 会話機能を使用することで、生徒同士または生徒と教師は連絡を取って教え合うことができ、ライブ会議を使用すれば、対面での授業を受けているような気分になれます。 教師は、課題機能を使用して、日々の課題での生徒の進捗状況を追跡することができます。 生徒が疎外感を感じることもありません。 オンライン学習者の多くが、対面の教室に比べて、発言する機会がより多く与えられ、教師や同級生をより近くに感じることができると報告しています。 教師は Teams のアプリと機能を活用して、実際の教室と同じように、自分に一番合った方法で学習指導を行えます。
+オンライン学習は教室での学習と同じくらい対話的で、社会的なつながりの強さも変わりません。 会話機能を使用することで、生徒同士または生徒と教師は連絡を取って互いに助け合うことができ、ライブ会議を使用すれば直接会っているような気分になれます。 教師は、課題機能を使用して、日々の課題について生徒の進捗状況を確認することができます。 生徒が疎外感を感じることもありません。 オンライン学習者の多くが、対面の教室に比べて、発言する機会がより多く与えられ、教師や同級生をより身近に感じると言っています。 また、教師は Teams のアプリと機能を活用して、実際の教室と同じように、自分に一番合った方法で学習指導を行えます。
 
-Microsoft Teams は、会話、コンテンツ、課題、アプリが 1 か所にまとめられたデジタル ハブで、教師はこれを活用することで、活気に満ちた学習環境を構築することができます。 協働学習向けのクラス作り、プロフェッショナルの学習コミュニティへの参加、同僚教師とのコミュニケーションなどを、すべて 1 つの環境から行えます。
+Microsoft Teams は、会話、コンテンツ、課題、アプリが 1 か所にまとめられたデジタル ハブで、教師はこれを活用することにより、活気に満ちた学習環境を構築することができます。 協働学習向けのクラス作り、プロフェッショナルの学習コミュニティへの参加、同僚教師とのコミュニケーションなどを、すべて 1 つの環境から行えます。
 
-教師は Teams 内で、生徒との会話、ファイルや Web サイトの共有、OneNote Class Notebook の作成、課題の配布と採点をすばやく行えます。 教師は組み込みの OneNote Class Notebook とエンド ツー エンドの課題管理機能を使用することで、双方向的な授業をデザインし、効果的にかつタイミングよくフィードバックを提供することができます。 学校の管理職員とその他の職員は Staff Teams を使用することで、最新情報を常に把握し、お知らせや最近の議題に関する共同作業を行えます。 教員は、プロフェッショナルの学習コミュニティを使用して教材を共有できます。
+教師は Teams 内で、生徒との会話、ファイルや Web サイトの共有、OneNote Class Notebook の作成、課題の配布と採点をすばやく行えます。 教師は組み込みの OneNote Class Notebook とエンド ツー エンドの課題管理機能を使用することで、対話型の授業を組織し、効果的にかつタイミングよくフィードバックを提供することができます。 学校の管理職員とその他の職員は Staff Teams を使用することで、最新情報を常に把握し、お知らせや最近の議題に関する共同作業を行えます。 教員は、プロフェッショナルの学習コミュニティを使用して教材を共有できます。
 
 この記事に記載されているベスト プラクティスを使用することで、お客様の教育ニーズを満たすために Teams の使用を開始し、遠隔学習機能を有効にすることができます。 Class Teams は、協働学習用スペースの構築、仮想ミーティング用プラットフォームの提供、課題やフィードバックを通した学習の強化、生徒とのライブ通話の主導などに使用できます。
 
@@ -54,9 +55,12 @@ Teams の使用シナリオは、[Teams for Education 向けウェビナー シ�
 
 Teams では、Microsoft 365 の機能を利用してユーザーの認証とサービスの提供が行われます。 共同作業が行えるよう、職員、教員、および生徒の ID が設定されている必要があります。 ID がまだない場合は、次の手順を実行して ID を設定します。
 
-ユーザーが Teams の機能を使用できるようになるには、[Teams のライセンスをユーザーに対して有効にし](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/enable-microsoft-teams)、[ライセンスをユーザーに付与する](teams-edu-licensing.md)必要があります。 Teams では、[Office 365 グループ](Office-365-groups.md)、[Exchange](Exchange-Teams-interact.md)、[SharePoint と OneDrive](SharePoint-OneDrive-interact.md) など、Teams 以外の Microsoft 365 の機能を利用して共同作業のシナリオを有効にしています。 最適な Teams 環境をユーザーに提供するには、これらの機能も有効になっている必要があります。 [Teams では、Google でホストされるメールを使用するユーザーもサポートされています](https://docs.microsoft.com/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users)。
+ユーザーが Teams の機能を使用できるようになるには、[Teams のライセンスをユーザーに対して有効にし](https://docs.microsoft.com/MicrosoftTeams/teams-quick-start-edu?tutorial-step=2)、[ライセンスをユーザーに付与する](teams-edu-licensing.md)必要があります。 Teams では、[Office 365 グループ](Office-365-groups.md)、[Exchange](Exchange-Teams-interact.md)、[SharePoint と OneDrive](SharePoint-OneDrive-interact.md) など、Teams 以外の Microsoft 365 の機能を利用して共同作業のシナリオを有効にしています。 最適な Teams 環境をユーザーに提供するには、これらの機能も有効になっている必要があります。 [Teams では、Google でホストされるメールを使用するユーザーもサポートされています](https://docs.microsoft.com/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users)。
 
 Microsoft Teams は、教育機関が無料で使用できる Office 365 A1 に含まれています。 Office 365 の展開方法および学校全体で Teams の使用を開始する方法に関する IT ガイドについては、[こちらのページ](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/set-up-office365-edu-tenant)を参照してください。 サポートが必要な場合は、[こちら](https://signup.microsoft.com/Signup?OfferId=03ee83a5-5cb4-4545-aca9-33ead43f222a,d764709a-7763-45ef-a2a8-db5b8b6ae704&DL=ENTERPRISEPREMIUM_FACULTY&ali=1)でサポート チケットを申請することができます。Microsoft のスペシャリストに直接相談することをご希望の場合は、お近くの Microsoft Store までご来店ください。
+
+> [!NOTE]
+> EDU の展開に関する最新情報は、「[COVID-19 流行期における M365 EDU の展開の更新済みガイダンス](https://docs.microsoft.com/microsoft-365/education/deploy/guidance-for-m365-edu-deployment-during-covid19)」をご確認ください。
 
 ## <a name="easily-set-up-teams"></a>Teams をすばやく設定する
 
@@ -75,6 +79,9 @@ Teams の使用を開始するには、2 つの作業を行う必要がありま
 **高等教育機関の職員、教員、および学生**は、既定の (グローバル) ポリシーに含まれる機能のメリットを受けることができます。 [メッセージング ポリシーによる翻訳機能の有効化](messaging-policies-in-teams.md#messaging-policy-settings)や会議ポリシーによる[会議の自動文字起こしの許可](meeting-policies-in-teams.md#allow-transcription)など、追加機能を Teams に追加するためのポリシー設定がいくつかあります。
 
 **小中高生**の場合は、生徒に付与する機能は制限する必要がある場合があります。 ポリシーを使用すると、生徒に許可する操作の範囲を規定できます。 多くの場合、一番数が多いユーザーの種類は生徒で、また、最も厳しい制限は生徒に対して設けられるため、生徒に関するポリシーの変更は、"グロバール" (組織全体の既定値) ポリシーに対して行うことをお勧めします。
+
+> [!IMPORTANT]
+> ユーザーに割り当てられている会議ポリシーについては、[参加を自動的に許可するユーザー] を [組織内のすべてのユーザー] に設定することをお勧めします。 この設定によって、認証されていないユーザーは、Teams 会議に参加する前にロビーからの登録が必要となります。 詳細については、「[Teams での会議ポリシーを管理する](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#automatically-admit-people)」を参照してください。
 
 既定以外の一般的なポリシーの構成を以下に示します。これらの構成を小中高生に適用することにより、モデレートされていない生徒間のコミュニケーションを制限することができます。
 
@@ -140,6 +147,12 @@ Microsoft Teams for Education では、教育機関向けの[特別なチーム 
 
 > [!NOTE]
 > Teams の主要機能の一部は、教育機関に固有のものではありません。 Teams の主要機能に関するヒントは、「[Microsoft Teams のヘルプとラーニング](https://support.office.com/teams)」を参照してください。
+
+### <a name="prevent-users-from-changing-their-profile-photo"></a>ユーザーがプロフィール写真を変更できないようにする
+
+Teams では、ユーザーがプロフィール画像を変更できるかどうかを制御するため、テナント管理者によって構成されている[Outlook on the web のメールボックス ポリシー](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy)の設定を優先します。 **[-SetPhotoEnabled]** 設定がオフの場合は、ユーザーがプロフィール画像を追加、変更、削除することはできません。 生徒やスタッフがプロフィールの画像を変更したり、削除したりできないようにするには、彼らに割り当てられた Outlook on the web のメールボックス ポリシーで設定をオフにします。
+
+たとえば、生徒が学校の IT 部門または HR 部門によって承認されたプロフィール画像をアップロードした場合、操作は必要ありません。 ただし、生徒が不適切な画像をアップロードした場合は、学校内のポリシーに従って画像を変更します。  
 
 ## <a name="adoption-content"></a>導入向けコンテンツ
 
