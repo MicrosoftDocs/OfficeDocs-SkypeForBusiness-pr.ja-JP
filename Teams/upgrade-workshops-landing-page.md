@@ -8,7 +8,6 @@ author: LolaJacobsen
 ms.author: lolaj
 audience: admin
 manager: serdars
-ms.date: 03/19/2019
 ms.service: msteams
 f1.keywords:
 - NOCSH
@@ -19,17 +18,17 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 756ff8d15ec58426b73504fcb240068151eabcd7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 38960039c34c8fae0838b07ebea5b9581b63c297
+ms.sourcegitcommit: c70778ea3a29834f62e6ef96053b5540803acc6a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205413"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43153295"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Teams のアップグレード計画のワークショップ</h1>
-           <p>Skype for Business のお客様として、Teams への道を進む際に必要なものが揃っていることを確認してください。 Teams へのアップグレードの計画と実施に役立つように設計されたガイダンス、ベスト プラクティス、およびリソースを共有する、一連のライブの対話型アップグレード計画ワークショップにご参加ください。 最適なエクスペリエンスのために、以下の「<strong>アップグレードを計画する</strong>」セッションから始めてください。
+           <p>Skype for Business のお客様として、Teams への道を進む際に必要なものが揃っていることを確認してください。 Teams へのアップグレードの計画と実施に役立つように設計されたガイダンス、ベスト プラクティス、およびリソースを共有する、一連のライブの対話型アップグレード計画ワークショップにご参加ください。 最適なエクスペリエンスのために、以下の「<strong>アップグレードを計画する</strong>」セッションから始めてください。 これらのワークショップをご自身で視聴するには、YouTube の「<a href="https://aka.ms/UpgradeOnDemand"target="_blank">Upgrade to Microsoft Teams</a>」をご覧ください。
             <p>Teams は初めてですか? 詳細については、<a href="https://docs.microsoft.com/microsoftteams/teams-overview">こちら</a>を参照してください。
         <ul class="pivots">
             <li>
