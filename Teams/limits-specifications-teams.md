@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0fd871f36c2261dd5ec243dbd8dbdd52a3a8e694
-ms.sourcegitcommit: 93a8bd330c9a8ced81cd3eafb7b7236e9ed2066f
+ms.openlocfilehash: 3d7b2dec3b4077ddfb06035a2d7069b04c789db1
+ms.sourcegitcommit: 1d24b62f41bce4f8d86d6060291af1267f75a2a2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/13/2020
-ms.locfileid: "41962086"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43209449"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
@@ -121,8 +121,6 @@ Teams チャットは、Microsoft Exchange のバックエンドで動作する�
 |終了時刻のない定期     |開始時刻 + 60 日         |60 日         |
 |終了時刻のある定期     |最後の発生の終了時刻 + 60 日         |60 日         |
 
-
-
 ## <a name="teams-live-events"></a>Teams のライブ イベント
 
 |機能     | 上限 |
@@ -156,6 +154,15 @@ Team は、SharePoint Online のバックエンドのファイル共有で実行
 チャンネルは、チーム用に作成された SharePoint Online サイト コレクション内のフォルダーによってバックアップされるため、チャンネル内のファイル タブは、所属するチームのストレージ制限を共有します。
 
 詳細については、「[SharePoint Online の制限](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498)」を参照してください。
+
+## <a name="tags"></a>タグ
+
+|機能  |上限  |
+|---------|---------|
+|チームごとのタグ数    | 100        |
+|チームごとに推奨される既定のタグ数    | 25        |
+|タグに割り当てられたチームメンバーの数    |100         |
+|ユーザーに割り当てられたるタグ数    |25         |
 
 ## <a name="contacts"></a>連絡先
 
