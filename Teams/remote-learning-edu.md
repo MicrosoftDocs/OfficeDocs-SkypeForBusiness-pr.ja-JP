@@ -18,19 +18,20 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0358e23f4f549aba6064a78d95f7ce160bb738b0
-ms.sourcegitcommit: 1c2cef3deb384216bf0a89628573a277ee6e3e2b
+ms.openlocfilehash: f0223d3a29c704b5ab55d2183fd6587c845b351c
+ms.sourcegitcommit: 273d7565ad350bf97dbf035f148fd48b1cb04d4f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43174959"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43194857"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>遠隔学習向けに Microsoft Teams の使用を開始する。
 
 > [!NOTE]
-> この記事は、遠隔学習を学校で整備する上で役に立つリソースです。 教師、学校関係者、または IT 担当者の場合、次のリソースが役立ちます。
+> この記事は、遠隔学習を学校で整備する上で役に立つリソースです。 教師、学校関係者、または IT 担当者の方々向けには、次のリソースが役立ちます。
 >
-> - [**「チームの使用を開始する方法」**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Teams-for-Education-ITAdmin-get-started-guide.pptx?raw=true) をダウンロードする: セキュリティと変更管理のための便利なプラクティスを掲載した IT プロフェッショナル向けのガイドです。
+> - Teams で学校や大学全体をすばやく準備して稼働させるには、こちらの [**1 ページにまとめた入門情報**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true)をご参照ください。
+> - 「[**Teams の使用を開始する方法**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Teams-for-Education-ITAdmin-get-started-guide.pptx?raw=true)」をダウンロード: セキュリティと変更管理に役立つプラクティスを掲載した IT プロフェッショナル向けのガイドです。
 > - [**Teams を使用した授業での重要な最初の手順**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114)に関する使い方ガイドを含む、教師向けに書かれた複数の記事を提供しています。
 > - Microsoft Educator Center の 1 時間のオンライン コースでは、教師が教育の場において Teams を活用する方法を示します。 [**Microsoft Teams を使用して学習を刷新する**](https://education.microsoft.com/course/9c9f5c11/overview)。
 > - Microsoft Educator Center の 1 時間のオンライン コースでは、クラス チームでの授業を活用して教師に説明します。 [**Class Teams を使用して協働学習環境を作る**](https://education.microsoft.com/course/b1e15cfc/overview)。
@@ -136,6 +137,8 @@ Microsoft Teams for Education では、教育機関向けの[特別なチーム 
 ### <a name="collaborative-meetings-for-virtual-classes"></a>仮想クラスの共同作業会議
 
 [Microsoft Teams 会議](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams)では、同時に 250 人までの参加者がサポートされており、音声、ビデオ、[コンテンツ共有](https://support.office.com/article/show-your-screen-during-a-meeting-90c84e5a-b6fe-4ed4-9687-5923d230d3a7)、ホワイトボード、および共有メモを使用できます。 [プライベート スペース内またはチーム チャネル内の会議](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams)のスケジュールは Teams クライアントで設定できるため、会議はすべてのメンバーの知るところとなります。 参加者が後から確認できるよう、会議を記録して保存することができます。 これらの記録の[字起こし (上記参照) を行うことも可能で、コンテンツを見つけやすくすることができます](https://support.office.com/article/Microsoft-Stream-automatically-creates-closed-captions-for-videos-8d6ac353-9ff2-4e2b-bca1-329499455308)。 会議ではノート PC またはスマートフォンの Web カメラ、マイク、スピーカーを使用できます。また、[Microsoft Teams に最適化されたデバイス](https://products.office.com/microsoft-teams/across-devices/devices)を使用すると、高品質の音声とビデオが提供されます。
+
+Teams では、会議の開催者はすべての参加者に対して会議を終了できます。 この機能により、教師は授業の終了後に生徒が教師のいない会議に留まらないようにすることができます。
 
 ### <a name="districtuniversity-events-or-updates"></a>学区全体または大学全体のイベントや近況報告
 

@@ -9,22 +9,25 @@ ms.service: msteams
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_RemoteWorkers
+- remotework
 ms.reviewer: dansteve, anmich
 localization_priority: Priority
 search.appverid: MET150
 description: このガイダンスは、Microsoft Teams を使用して組織のリモート ワーカーの生産性を向上させるために使用できます。特に、新型コロナウイルス感染症 (COVID-19) 発生への対策として従業員が在宅勤務 (WFH) となった場合に役立ちます。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a99bfe66d1a9f0c072e63aa49f210d216e9ff29
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: 96ff59470c8d9726b4c26bf0522e5b1e730b9014
+ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858612"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170515"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Microsoft Teams を使用してリモート ワーカーをサポートする
 
 組織がリモートまたは自宅で作業するユーザーをサポートするために、Microsoft Teams を使用を始めたいとお考えですか ? この記事のガイダンスを使用してすぐに起動し、実行してください。
+
+中小企業のお客様は、「[リモートワークで小規模ビジネスを強化する](https://aka.ms/remote-business)」をお見逃しなく。
 
 ## <a name="it-admin-guidance"></a>IT 管理者用ガイダンス
 
@@ -32,7 +35,7 @@ ms.locfileid: "42858612"
 
 -  Teams が含まれているサブスクリプションが既にある場合は、**[Teams をすべてのユーザーに対して有効にします](assign-teams-licenses.md)**。
     
-- 組織ので使用を開始する方法については、「**[Teams での会議](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams)**」を参照してください。 
+- 組織での使用を開始する方法については、「**[Teams での会議とライブ イベント](quick-start-meetings-live-events.md)**」を参照してください。 
 
 詳細については、以下の「[リモート ワーカーをサポートするためのその他のリソース](#additional-resources-for-supporting-remote-workers)」を参照してください。
 
@@ -43,7 +46,7 @@ Teams をユーザーへと展開するための準備 **[カスタマー サク
 
 - **お知らせメール**は、Teams が利用できることをユーザーに伝える際に使用できます。
 
-- ユーザーがすぐに生産的に作業を行えるよう、「**Your First Day in Teams Email (初めての Teams メール)**」を送信します。
+- **カウントダウン - Teams での初日に Teams からメール**が届き、ユーザーがすぐに生産的に作業を始められるように助けます。
 
 - 「**ヒントとテクニック メール**」は、ユーザーが Teams を最大限に活用できるようにするためのヒントで、使用開始後数日してから送信します。
 
@@ -62,19 +65,49 @@ Teams をユーザーへと展開するための準備 **[カスタマー サク
 
 ## <a name="additional-resources-for-supporting-remote-workers"></a>リモート ワーカーをサポートするためのその他のリソース
 
-1. 定期的に更新される「[よく寄せられる質問: リモートの従業員をサポートする](FAQ-support-remote-workforce.md)」をお読みください。
+1. 定期的に更新される「[よく寄せられる質問: リモート従業員をサポートする](FAQ-support-remote-workforce.md)」をお読みください。
 
-2. 無料の Teams ライセンスが必要な場合は、[Office 365 E1 試用版](e1-trial-license.md)や [Teams (無料)](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)に加えて、[Teams Exploratory](teams-exploratory.md) を選ぶこともできます。
+1. ブログの最新投稿を読む:
+   
+   - [Microsoft Teams によって Microsoft 社員のリモート作業が実現している方法](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/)
+   - [Teams により中小規模企業でのリモート作業をサポートする](https://www.microsoft.com/microsoft-365/blog/2020/03/17/helping-smb-customers-work-remotely-microsoft-teams/)
 
-1. 教育機関の場合、教員、生徒、事務職員を Teams でセットアップするには、Office 365 A1 を使用してください。 この無料版の Office 365 は、すべての教育機関でご利用いただけます。 「[学校全体で Office 365 を無料で入手する](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans)」でサインアップしてください。
+   - [Microsoft IT が社員のリモート作業を実現した 9 つの方法](https://www.microsoft.com/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
+
+
+1. 教育機関用 Teams
+   - 教育機関の場合、教員、生徒、事務職員を Teams でセットアップするには、Office 365 A1 を使用してください。 この無料版の Office 365 は、すべての教育機関でご利用いただけます。 「[学校全体で Office 365 を無料で入手する](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans)」でサインアップしてください。
+
+   - 「[リモート学習の開始](remote-learning-edu.md)」をぜひご覧ください。
+
+2. 無料の Teams ライセンスが必要な場合は、[Office 365 E1 試用版](e1-trial-license.md)および[無料版 Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c) または [Teams Exploratory](teams-exploratory.md) を使用することもできます。
 
 1. 従業員のインターネット アクセスと帯域幅が、Teams のために十分なものであることを確認します。 これを行う方法については、「[Teams 用に組織のネットワークを準備する](prepare-network.md)」のガイダンスをご覧ください。
 
    - 帯域幅が十分でない場合、Teams 会議の音質に影響を与える可能性があります。 低帯域幅の条件下での会議エクスペリエンスを最良なものにするために、ビデオの使用を控え、通話と会議の音声に公衆交換電話網 (PSTN) を使用することをユーザーに推奨します。 
 
+   - 最新のブログを読む (2020 年 3 月 6 日): [リモート社員の Office 365 トラフィックをすぐに最適化し、インフラストラクチャの負担を軽減する方法](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571)。
+
+   - 2020 年 3 月 26 日のブログ: [VPN で実行: Microsoft がリモート従業員をどのように接続させているか](https://www.microsoft.com/itshowcase/blog/running-on-vpn-how-microsoft-is-keeping-its-remote-workforce-connected/)
+   
    - 中国にお住まいの場合は、「[中国内ユーザー向けの Office 365 グローバル テナントのパフォーマンスの最適化](https://docs.microsoft.com/Office365/Enterprise/office-365-networking-china)」をご確認ください。
 
    - 通話や会議の品質に関する問題のトラブルシューティングや解決のサポートが必要な場合は、この記事の下部にある「[既知の問題 - 中国: Skype for Business/Teams 会議 ID へのダイヤルイン](#known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids)」のガイダンスに従ってください。
+
+1. すべてのユーザーが在宅勤務する場合のセキュリティ
+
+   - [より安全に在宅勤務する場合の重要なヒント](https://support.office.com/article/top-tips-for-working-more-securely-from-home-c3e6c940-43a6-43a3-b780-b8784776c2a8)
+
+   - Microsoft セキュリティ ブログ (2020 年 3 月 26 日): [セキュリティ専門家と IT による、現代のユニークなリモート ワーク シナリオで最新のセキュリティ管理を実現するための代替的な方法](https://www.microsoft.com/security/blog/2020/03/26/alternative-security-professionals-it-achieve-modern-security-controls-todays-unique-remote-work-scenarios/)
+
+   - [リモート ワークで、セキュリティを維持する: CISO のためのガイダンス](https://www.microsoft.com/security/blog/?p=90736)
+
+   - [在宅勤務をサポートするセキュリティ チームのための最も重要な 12 のタスク](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
+   
+   - [VPN スプリット トンネリングを使用してリモート ユーザーの Office 365 の接続を最適化する](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
+
+   - 「[セキュリティと Teams](teams-security-guide.md)」では、Microsoft 365 のエンタープライズ レベルのセキュリティのベスト プラクティスと手順の一環として、Teams のセキュリティのすべての技術的な詳細について説明しています。
+
 
 2.  [トレーニングへのリンクを送信](enduser-training.md)して、従業員が Teams を最大限に活用できるよう支援します。
 
@@ -87,7 +120,6 @@ Teams をユーザーへと展開するための準備 **[カスタマー サク
    - 詳細を知りたいユーザーと[詳細なトレーニング ビデオ](https://www.youtube.com/playlist?list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk)を共有してください。
 
    - Teams を使用するための準備と Teams の管理の方法については、「[Teams の展開方法](How-to-roll-out-teams.md)」を参照してください。
-
 
     
 3. リモートでの作業に関する Microsoft の新しいコンテンツを確認して、ユーザーと共有してください。
@@ -104,7 +136,7 @@ Teams をユーザーへと展開するための準備 **[カスタマー サク
       
       - [オンラインで作業する場合の 9 つのヒント](https://www.microsoft.com/tips/home/working-remotely)
 
-      - [自宅で安全に作業するための重要なヒント](https://support.office.com/article/top-tips-for-working-more-securely-from-home-c3e6c940-43a6-43a3-b780-b8784776c2a8)
+      - [Teams を使ったリモート ワーク](https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6646786497422987264?compact=1)についての Satya Nadella と Teams 製品マーケティング マネージャーの Aya Tange によるビデオ (2020 年 3 月 20 日)
 
 
 3.  モバイル アプリを[インストール](get-clients.md#mobile-clients)して使用することを全従業員に奨励します: [iOS](https://go.microsoft.com/fwlink/?LinkId=835758) または [Android](https://go.microsoft.com/fwlink/p/?linkid=2102168)。

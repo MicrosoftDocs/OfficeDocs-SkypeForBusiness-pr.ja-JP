@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ec86d9f57afca71624263d1cbd6ca212b8093dd
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: 65ce8eb17efe434f5da288b89485e813b21190e4
+ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43158045"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170486"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>管理クイック スタート - Microsoft Teams での会議とライブ イベント
 
@@ -55,6 +55,8 @@ Microsoft 365 または Office 365 を展開したときに、既にネットワ
 
 - 管理者として、すべてのユーザーに対して[会議の設定](meeting-settings-in-teams.md)を構成します。 次に、[会議ポリシー](meeting-policies-in-teams.md)を使用して、ユーザーが使用できる (および使用できない) 会議機能を制御します。 
 
+- 会議のレコーディング管理の詳細については、「[Teams のクラウド会議のレコーディング](cloud-recording.md)」を参照してください。
+
 - ユーザーが Teams 会議を初めて使用する場合は、[会議の管理](https://support.office.com/article/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4)トレーニングをユーザーと共有します。 講師主導のオンライン クラスを確認して、[Teams で効果的な会議を実行します](https://microsoftteams.eventbuilder.com/MaximizingTeamsMeetings)。
 
 - 会議オプションの管理については、「[Teams会議の参加者設定を変更する](https://support.microsoft.com/office/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e)」をお読みください。
@@ -78,3 +80,5 @@ Microsoft 365 または Office 365 を展開したときに、既にネットワ
 [Teams でのライブ イベント](teams-live-events/what-are-teams-live-events.md)
 
 [Teams の制限と仕様](limits-specifications-teams.md)
+
+[Microsoft テクニカル コミュニティ: Microsoft 365 のライブ イベント](https://resources.techcommunity.microsoft.com/live-events/)

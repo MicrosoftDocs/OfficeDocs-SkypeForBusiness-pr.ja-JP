@@ -18,12 +18,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11c3844540288bc94da445e4f13ed90b9a524f46
-ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
+ms.openlocfilehash: 7aee2a4a8e17480be9eb99b4504ef6967e6b2bb3
+ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053650"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43190856"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Microsoft Teams でのミーティングと会議
 
@@ -31,8 +31,12 @@ ms.locfileid: "43053650"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE46ZdQ]
 
-*2019 年 11 月の新機能*: [Teams のアドバイザー (プレビュー) を使用して、Microsoft Teams を展開できる](use-advisor-teams-roll-out.md)ようになりました。 Teams のアドバイザー (プレビュー) を使用して、会議など、Teams の展開について説明します。 Office 365 環境を評価し、Teams で会議を正常に展開する前に更新または変更する必要がある最も一般的な構成を特定します。
+お客様のユーザーにおける会議エクスペリエンスの詳細については、「[会議と通話](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)」をご覧ください。 
 
+
+*2020 年 4 月の新機能*: 会議の開催者は、会議中に、会議のコントロールの **[会議を終了する]** をクリックすることで、Teams 内のすべての参加者に対して会議を終了できます。  
+
+*2019 年 11 月の新機能*: [Teams のアドバイザー (プレビュー) を使用して、Microsoft Teams を展開できる](use-advisor-teams-roll-out.md)ようになりました。 Teams のアドバイザー (プレビュー) を使用して、会議など、Teams の展開について説明します。 Office 365 環境を評価し、Teams で会議を正常に展開する前に更新または変更する必要がある最も一般的な構成を特定します。
 
 ## <a name="meetings-and-conferencing-deployment-decisions"></a>ミーティングと会議の展開に関する決定事項
 
