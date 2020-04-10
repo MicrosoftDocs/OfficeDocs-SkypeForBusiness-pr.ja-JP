@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: Microsoft Teams でクラウド通話キューの電話システムをセットアップする方法について説明します。
-ms.openlocfilehash: 2027658c5335f19c00ea1c8e44c6d38e1f16a730
-ms.sourcegitcommit: 9a448104a76857e3aa464c53cec577d813f8f414
+ms.openlocfilehash: e6ff659790159595c86a2aa442bcb20bcff9659a
+ms.sourcegitcommit: 1d24b62f41bce4f8d86d6060291af1267f75a2a2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43184249"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43213643"
 ---
 # <a name="create-a-cloud-call-queue"></a>クラウドの通話キューを作成する
 
@@ -204,7 +204,7 @@ ms.locfileid: "43184249"
 
 エージェントによって通話が発信されない場合、その状態がどのように設定されているかにかかわらず、通話ルーティングリストに含まれません。
 
-> [!CAUTION]
+> [!IMPORTANT]
 > Skype for Business クライアントを使用するエージェントは、可用性の状態に関係なく、プレゼンスベースのルーティングが有効になっている場合、通話ルーティングリストに含まれません。 通話ルーティングリストに含まれていないエージェントは、通話を受信できません。 Skype for Business を使用するエージェントがある場合は、プレゼンスベースの通話ルーティングを有効にしないでください。
 
 ### <a name="select-an-agent-opt-out-option"></a>エージェントのオプトアウトオプションを選択する

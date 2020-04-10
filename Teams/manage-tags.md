@@ -16,19 +16,19 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams での組織でのタグの使用方法を管理する方法について説明します。
-ms.openlocfilehash: 5fbfa980f1cf6acd8ce32af810bf2527ece3d1fa
-ms.sourcegitcommit: 0549714f17f9994cf832a303ec9bc58a537c3a51
+ms.openlocfilehash: 6b95dc07954803ea6d15a1ca5bdf6c705ca3e252
+ms.sourcegitcommit: 1d24b62f41bce4f8d86d6060291af1267f75a2a2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42951552"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43209489"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Microsoft Teams でタグを管理する
 
 Microsoft Teams のタグを使用すると、ユーザーはチームのメンバーのサブセットと連絡を取ることができます。 タグを1人または複数のチームメンバーに追加して、ユーザーの適切なサブセットに簡単に接続できます。 チーム所有者とメンバー (その機能が有効になっている場合) は、1つまたは複数のタグをユーザーに追加できます。 その後、タグは、チームの任意のユーザーによってチャネル投稿で @mentions で使用したり、そのタグが割り当てられたユーザーのみとの会話を開始したりすることができます。
 
 > [!NOTE]
-> プライベートチャネルでは、タグはまだサポートされていません。 US Government Community Cloud (GCC)、GCC High、または国防総省 (DoD) の組織では、タグはまだ利用できません。 
+> プライベートチャネルでは、タグはまだサポートされていません。 US Government Community Cloud (GCC)、GCC High、または国防総省 (DoD) の組織では、タグはまだ利用できません。
 
 ## <a name="how-tags-work"></a>タグのしくみ
 
@@ -37,7 +37,7 @@ Microsoft Teams のタグを使用すると、ユーザーはチームのメン�
 - ストアマネージャーが、チャネルにお知らせを投稿して、すべてのレジに通知する必要があります。
 - グループの製品マネージャーは、チャネル内のすべての製品マネージャーにメッセージを送信したいと考えています。
 - 病院の管理者が、チャネル内のすべての radiologists にメッセージを送信したい。
-- マーケティング課長は、すべてのデザイナーとグループチャットを開始する必要があります。 
+- マーケティング課長は、すべてのデザイナーとグループチャットを開始する必要があります。
 
 詳細については、「 [Teams でタグを使用する」](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e)をご覧ください。
 
@@ -46,6 +46,8 @@ Microsoft Teams のタグを使用すると、ユーザーはチームのメン�
 管理者は、Microsoft Teams 管理センターにおいて、タグを追加できるユーザーと、タグを組織全体でどのように使用するかを制御することができます。
 
 ![Microsoft Teams 管理センターのタグ設定のスクリーンショット](media/manage-tags-admin-settings.png)
+
+チームは、最大100のタグを持つことができ、最大で100のチームメンバーを1つのタグに割り当てることができ、最大25個のタグを1人のユーザーに割り当てることができます。 
 
 ### <a name="set-who-can-add-tags"></a>タグを追加できるユーザーを設定する
 
