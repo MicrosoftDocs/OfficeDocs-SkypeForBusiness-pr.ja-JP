@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f0223d3a29c704b5ab55d2183fd6587c845b351c
-ms.sourcegitcommit: 273d7565ad350bf97dbf035f148fd48b1cb04d4f
+ms.openlocfilehash: faeca9f05e13b9f5e7960340f280dc4bd6c7ee61
+ms.sourcegitcommit: 9419860f9a1c1dd2c7c444162e1d55d704e19c69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43194857"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43207056"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>遠隔学習向けに Microsoft Teams の使用を開始する。
 
@@ -73,6 +73,8 @@ Teams の使用を開始するには、2 つの作業を行う必要がありま
 
 高等教育機関の場合、学生を含むすべてのユーザーがクラス、研究、グループ プロジェクト、学習グループなどのためにチームを作成できるようにすることが有益であると考えられます。 小学校、中学校、高等学校の場合、生徒間のすべてのコミュニケーションが大人が参加しているフォーラムで行われるよう、生徒がチームを作成できないように設定することをお勧めします。 この場合、Office 365 グループおよびチームの作成は、教職員に限定されます。
 
+Teams の作成方法のチュートリアルついては、「[Create a class team in Microsoft Teams (Microsoft Teams でクラス チームを作成する)](https://support.office.com/article/create-a-class-team-in-microsoft-teams-preview-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b)」をご確認ください。
+
 ### <a name="2-configure-user-experiences-using-policies"></a>2. ポリシーを使用してユーザー エクスペリエンスを構成する
 
 [Teams ポリシー](teams-policies.md)により、特定のユーザーまたはユーザーのグループが使用できるオプションを制限する機能が提供されています。 ポリシーを適用することにより、プライベート チャット、プライベート通話、会議のスケジュール設定、共有可能なコンテンツの種類などを使用または設定できるユーザーを定義することができます。
@@ -102,6 +104,10 @@ Teams の使用を開始するには、2 つの作業を行う必要がありま
 - [チャネルの会議スケジュールを許可] を [オフ] に設定
 - [プライベート会議のスケジュールを許可] を [オフ] に設定
 - [プライベート会議で "今すぐ会議" を許可] を [オフ] に設定
+- オプション: [IP ビデオを許可] を [オン] に設定
+
+> [!NOTE]
+> これにより、学生のビデオを教師がリアルタイムで見ることができます。
 
 #### <a name="live-events-policy"></a>ライブ イベント ポリシー
 
@@ -150,6 +156,8 @@ Teams では、会議の開催者はすべての参加者に対して会議を�
 
 > [!NOTE]
 > Teams の主要機能の一部は、教育機関に固有のものではありません。 Teams の主要機能に関するヒントは、「[Microsoft Teams のヘルプとラーニング](https://support.office.com/teams)」を参照してください。
+
+会議中に学生を保護する方法についての詳細情報は、「[遠隔学習で Teams の会議を使用している間、学生の安全を確保する](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8)」を参照してください。
 
 ### <a name="prevent-users-from-changing-their-profile-photo"></a>ユーザーがプロフィール写真を変更できないようにする
 
