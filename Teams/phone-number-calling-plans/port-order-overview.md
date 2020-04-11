@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: ポート注文の概要と、サービスプロバイダーからチームに電話番号を移行する方法について説明します。
-ms.openlocfilehash: 7d92c76c62405efbffaff378b2045195c175d867
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 0102adfd53dba3ff455ddbdbc3678e625fd978de
+ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827945"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43227541"
 ---
 # <a name="whats-a-port-order"></a>番号移行注文について
 
@@ -35,7 +35,9 @@ ms.locfileid: "41827945"
   
 ## <a name="what-countries-or-regions-support-number-porting"></a>番号の移行をサポートしている国または地域を教えてください。
 
-サポートされているすべての国または地域で電話番号を移行または転送することはできますが、ポート注文の要求を送信する方法は、電話番号の取得元の国または地域によって異なります。 番号の移行をサポートしている国と地域の一覧については、「[組織の電話番号を管理](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)する」を参照してください。
+サポートされているすべての国または地域で電話番号を移行または転送することはできますが、ポート注文の要求を送信する方法は、電話番号の取得元の国または地域によって異なります。 番号の移行をサポートしている国と地域の一覧については、「[組織の電話番号を管理](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)する」を参照してください。  
+
+現時点では、Microsoft Teams 管理センターの[移植ウィザード](transfer-phone-numbers-to-teams.md)では、英国、米国、およびカナダ用の電話番号を取得する機能がサポートされています。 他の国や地域の電話番号を取得するには、[手動でポート注文を送信](manually-submit-port-order.md)することができます。
   
 ## <a name="what-numbers-can-be-transferred"></a>どの番号を移行できますか?
 
@@ -161,7 +163,7 @@ ms.locfileid: "41827945"
 
 - サービスが有効になっていることを確認してください。 アカウントを凍結すると、アカウント上で携帯電話会社を変更できません。 アカウントを変更する権限を持つユーザーは、現在の通信事業者に注文を送信して、固定を解除する必要があります。 このプロセスには、キャリアに応じて、1 ~ 3 週間かかることがあります。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [番号移行注文の状況](port-order-status.md)
 - [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

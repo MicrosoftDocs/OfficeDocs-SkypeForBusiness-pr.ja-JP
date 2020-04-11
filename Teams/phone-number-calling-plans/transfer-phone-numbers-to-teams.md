@@ -18,18 +18,18 @@ localization_priority: Normal
 search.appverid: MET150
 description: 移植ウィザードを使用して、現在のサービスプロバイダーから Microsoft Teams に電話番号を移行する方法について説明します。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 07368b6dfd05567eac4eac66614560b6ecc9d2b4
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: a13e08a569c34f8182997bb438e997d8caee2ae7
+ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137867"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43227531"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>Microsoft Teams に電話番号を転送する
 
 [!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
-Microsoft Teams 管理センターの [移植] ウィザードを使用して、現在のサービスプロバイダーからチームに電話番号を移行します。 お客さまの電話番号を Teams に移植すると、Microsoft はサービスプロバイダになり、これらの電話番号について請求されます。
+Microsoft Teams 管理センターの [移植] ウィザードを使用して、現在のサービスプロバイダーからチームに電話番号を移行します。 電話番号を Teams に移行した後、Microsoft がサービス プロバイダーになり、それらの電話番号に対する請求を行います。
 
 始める前に、「[ポート注文とは](port-order-overview.md)」の情報を確認することをお勧めします。 ダイヤルイン会議ブリッジのサービス番号、自動応答、またはその他のサービス番号、有料電話番号、またはチームに移行する必要がある999ユーザー (サブスクライバー) 電話番号がある場合は、「[組織の電話](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)番号を管理して、適切なフォームをダウンロードして送信する」を参照してください。
 
@@ -39,7 +39,7 @@ Microsoft Teams 管理センターの [移植] ウィザードを使用して、
 ## <a name="create-a-port-order-and-transfer-your-phone-numbers-to-teams"></a>ポート注文を作成して、電話番号を Teams に転送する
 
 > [!NOTE]
-> **現時点では、このウィザードを使って英国とカナダの電話番号を取得でき**ます。 他の国や地域の電話番号を取得するには、[手動でポート注文を送信](manually-submit-port-order.md)することができます。 フォームを取得するには、手動でポート注文を送信する必要があります。 [[組織の電話番号の管理](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)] のドロップダウンリストで、お住まいの国または地域を選択します。
+> **現時点では、このウィザードを使って英国、米国、およびカナダの電話番号を取得することができ**ます。 他の国や地域の電話番号を取得するには、[手動でポート注文を送信](manually-submit-port-order.md)することができます。 フォームを取得するには、手動でポート注文を送信する必要があります。 [[組織の電話番号の管理](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)] のドロップダウンリストで、お住まいの国または地域を選択します。
 
 1. Microsoft Teams 管理センターの左のナビゲーションで、[ > **電話番号** **] に移動**します。 [**番号**] をクリックし、[**ポート**] をクリックして、移植ウィザードを開始します。
 2. [**はじめ**に] ページで情報を確認し、準備ができたら、[**次へ**] をクリックします。

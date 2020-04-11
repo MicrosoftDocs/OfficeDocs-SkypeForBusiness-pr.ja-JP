@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66ef35a8a8235507e4d87a7b9c4da7625a939770
-ms.sourcegitcommit: 9419860f9a1c1dd2c7c444162e1d55d704e19c69
+ms.openlocfilehash: f45c83e765bcc10d81ff9cab6fb70b8c7d027ad0
+ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43207006"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43227411"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft Teams のセキュリティとコンプライアンス
 
@@ -66,7 +66,11 @@ Advanced Threat Protection (ATP) は、Microsoft Teams で使用することが�
 
 ### <a name="safe-links"></a>安全なリンク
 
-現時点で、Microsoft Teams で ATP の安全なリンクは利用できませんが、Technology Adoption Program (TAP) を通じてパブリック プレビューされています。一般公開のリリース日は設定されていませんが、その時が来たらこの記事を更新します。 また、Office 365 の安全なリンクについては、「 [office 365 の ATP の安全なリンク](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection)」を参照してください。
+現時点では、Advanced Threat Protection (ATP) の安全なリンクは Microsoft Teams では利用できません。現在は、skype の導入プログラム (タップ) によって[パブリックプレビュー](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?view=o365-worldwide)に表示されていますが、この時点でこの記事を更新します。 また、Office 365 の安全なリンクについては、「 [office 365 の ATP の安全なリンク](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection)」を参照してください。 ATP の安全なリンクは[、Atp プラン1と Atp plan 2](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide)の両方で利用できます。
+
+### <a name="safe-attachments"></a>安全な添付ファイル
+
+安全な添付ファイルは、悪意のある添付ファイルを確認し、検出することによって、ユーザーのセキュリティを強化するために設計された機能です。 グローバル管理者またはセキュリティ管理者は、悪意のある可能性がある添付ファイルを処理するための[ポリシー](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-atp-safe-attachments-policies?view=o365-worldwide)を作成して、ユーザーへの送信、クリック、操作ができないようにします。 安全な添付ファイルの保護は、SharePoint Online、OneDrive for Business、Microsoft Teams で利用できます。また、Office 365 [Advanced Threat Protection プラン1と 2](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide)は両方ともこの機能を備えています。 安全な添付ファイルの詳細について[は、こちら](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments?view=o365-worldwide)を参照してください。
 
 ### <a name="how-conditional-access-policies-work-for-teams"></a>Teams での条件付きアクセス ポリシーの仕組み
 
