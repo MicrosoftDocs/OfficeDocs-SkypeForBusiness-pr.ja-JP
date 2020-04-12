@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: faeca9f05e13b9f5e7960340f280dc4bd6c7ee61
-ms.sourcegitcommit: 9419860f9a1c1dd2c7c444162e1d55d704e19c69
+ms.openlocfilehash: a6b89b9c5645c89be54507cf33657a720e27d4b5
+ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43207056"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43227511"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>遠隔学習向けに Microsoft Teams の使用を開始する。
 
@@ -84,7 +84,7 @@ Teams の作成方法のチュートリアルついては、「[Create a class t
 **小中高生**の場合は、生徒に付与する機能は制限する必要がある場合があります。 ポリシーを使用すると、生徒に許可する操作の範囲を規定できます。 多くの場合、一番数が多いユーザーの種類は生徒で、また、最も厳しい制限は生徒に対して設けられるため、生徒に関するポリシーの変更は、"グロバール" (組織全体の既定値) ポリシーに対して行うことをお勧めします。
 
 > [!IMPORTANT]
-> ユーザーに割り当てられている会議ポリシーについては、[参加を自動的に許可するユーザー] を [組織内のすべてのユーザー] に設定することをお勧めします。 この設定によって、認証されていないユーザーは、Teams 会議に参加する前にロビーからの登録が必要となります。 詳細については、「[Teams での会議ポリシーを管理する](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#automatically-admit-people)」を参照してください。
+> ユーザーに割り当てられている会議ポリシーについては、[参加を自動的に許可する] を [組織内のすべてのユーザー] に設定することをお勧めします。 この設定によって、認証されていないユーザーは、Teams 会議に参加する前にロビーからの許可が必要となります。 詳細については、「[Teams での会議ポリシーを管理する](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#automatically-admit-people)」を参照してください。
 
 既定以外の一般的なポリシーの構成を以下に示します。これらの構成を小中高生に適用することにより、モデレートされていない生徒間のコミュニケーションを制限することができます。
 
