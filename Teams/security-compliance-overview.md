@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f45c83e765bcc10d81ff9cab6fb70b8c7d027ad0
-ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
+ms.openlocfilehash: 17cf1e32b26edc609bea9e679c9f5ee5f4cc66d2
+ms.sourcegitcommit: f9860dbf3c719fec5ffc1874b503b6db252afe10
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43227411"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43237900"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft Teams のセキュリティとコンプライアンス
 
@@ -193,7 +193,7 @@ Teams のデータはご利用の Office 365 テナントに関連付けられ�
 
 Teams は層 D に準拠しています。 これには、 [iso 27001](https://docs.microsoft.com/microsoft-365/compliance/offering-iso-27001)、 [iso 27018](https://docs.microsoft.com/microsoft-365/compliance/offering-iso-27018)、 [SSAE16 soc 1 と soc 2](https://docs.microsoft.com/microsoft-365/compliance/offering-soc)、 [HIPAA](https://docs.microsoft.com/microsoft-365/compliance/offering-hipaa-hitech)、および[EU モデル条項 (EUMC)](https://docs.microsoft.com/microsoft-365/compliance/offering-eu-model-clauses)が含まれます。 Microsoft のコンプライアンスフレームワークでは、Office 365 アプリケーションとサービスは4つのカテゴリに分類されています。 各カテゴリは、そのカテゴリに記載されるように、Office 365 サービスまたは関連する Microsoft サービスに対して満たす必要がある特定のコンプライアンスコミットメントによって定義されます。
 
-業界をリードするコンプライアンスへの取り組みを実施しているコンプライアンス カテゴリ C および D のサービスは、既定で有効になっています。カテゴリ A と B のサービスでは、組織全体に対してオンまたはオフにする制御が用意されています。詳細については、「[Compliance Framework for Industry Standards and Regulations (業界の規格と規制のコンプライアンス フレームワーク)](https://download.microsoft.com/download/1/4/3/1434ABAB-B8E9-412D-8C3A-187B5FCB7A2F/Compliance%20Framework%20document.pdf)」をご覧ください。Teams はクラウド セキュリティ アライアンス (CSA) にも準拠しています。
+業界トップのコンプライアンスコミットメントを持つコンプライアンスカテゴリ C と D のサービスは、既定で有効になっています。 カテゴリ A と B のサービスには、組織全体に対してこれらのサービスを有効または無効にするコントロールが用意されています。 詳細については、[コンプライアンス標準](security-compliance-overview.md#compliance-standards)を参照してください。 チームはクラウドセキュリティアライアンスのコンプライアンスもサポートしています。
 
 ## <a name="related-topics"></a>関連項目
 

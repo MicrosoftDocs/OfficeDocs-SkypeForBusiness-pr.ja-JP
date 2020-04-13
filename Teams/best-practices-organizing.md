@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 621bb6328ab4ea59caa18d27fe7196a25ee15157
-ms.sourcegitcommit: 1c2cef3deb384216bf0a89628573a277ee6e3e2b
+ms.openlocfilehash: f8f142e48c005b14fc265d7efe6d4413b3c5f44c
+ms.sourcegitcommit: f9860dbf3c719fec5ffc1874b503b6db252afe10
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43174919"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43237940"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Microsoft Teams でチームを編成するためのベスト プラクティス
 ======================================================
@@ -31,7 +31,10 @@ Teams は、共通の目標を通じて集まって収集する人々の集ま�
 
 チームを作成する前に、目標、プロジェクト、または作業項目について検討し、組織内のユーザーが共同作業を行うのに役立ちます。 指定したユーザーまたはグループをチームに追加して、共同作業を開始します。 メンバーシップは時間を経て変更される可能性があるため、チームごとに複数の所有者を指定することをお勧めします。 詳細については、「[チームを管理する](https://support.office.com/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499)」を参照してください。
 
-Microsoft Teams[ビデオプレイリスト](https://www.youtube.com/playlist?list=PLXPr7gfUMmKwYKFSqoPN-aHQppI7rRQLf)は、チームの作成と管理に関する詳細情報を提供します。
+
+次の短いビデオでは、組織間または単一目的のチームを構成する方法の例を紹介します。
+
+> [!VIDEO https://www.youtube.com/embed/WkAVgNKn0hs]
 
 ## <a name="add-teams-gradually"></a>チームを段階的に追加する
 

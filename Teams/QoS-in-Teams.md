@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 545cbc1d170f6b511de5e8d21a237bc893ee0702
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 5bbb66b99a061648c4c12b7611fc7054a4044c6f
+ms.sourcegitcommit: f9860dbf3c719fec5ffc1874b503b6db252afe10
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43138037"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43237890"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Microsoft Teams でサービスの品質 (QoS) を実装する
 
@@ -78,7 +78,7 @@ _図2QoS キューの例_
 
 ## <a name="select-a-qos-implementation-method"></a>QoS の実装方法を選択する
 
-ネットワークのルーターでアクセス制御リスト (Acl) を使用して、ポートベースのタグを使って QoS を実装することができます。 ポートベースのタグ付けは、Windows と Mac の混合環境で動作し、実装が最も簡単な方法であるため、最も信頼できる方法です。 モバイルクライアントでは、DSCP 値を使ってトラフィックをマークするメカニズムは用意されていないため、この方法が必要になります。  
+ネットワークのルーターでアクセス制御リスト (Acl) を使用して、ポートベースのタグを使って QoS を実装することができます。 ポートベースのタグ付けは、Windows、Mac、および Linux の混合環境で動作するため、最も信頼できる方法です。 モバイルクライアントでは、DSCP 値を使ってトラフィックをマークするメカニズムは用意されていないため、この方法が必要になります。  
 
 この方法を使用すると、ネットワークのルーターは受信パケットを調べます。また、特定のポートまたはポートの範囲を使ってパケットが着信した場合は、特定のメディアの種類として識別さ[DSCP](https://tools.ietf.org/html/rfc2474)れ、それをその種類のキューに入れて、他のデバイスがそのトラフィックの種類を認識してキューの優先順位を上げることが
 
@@ -203,7 +203,7 @@ QoS を有効にするには、グループポリシーオブジェクトによ�
 
 GPO によってマーキングされている各ワークロードについて確認を繰り返します。
 
-## <a name="more-information"></a>More information
+## <a name="more-information"></a>詳細情報
 
 [ビデオ : ネットワーク計画](https://aka.ms/teams-networking)
 
