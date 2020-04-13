@@ -12,8 +12,6 @@
 ## [Teams の管理者トレーニング](itadmin-readiness.md)
 ## [Teams のエンド ユーザー トレーニング](enduser-training.md)
 <!-- ============================================================ -->
-#       
-#    
 
 # [Teams の展開方法](How-to-roll-out-teams.md)
 
@@ -97,7 +95,6 @@
 ### [組織のMicrosoft Teams の設定を管理します](enable-features-office-365.md)
 ### [新しい Microsoft Teams 管理センターへの移行中に Teams を管理する](manage-teams-skypeforbusiness-admin-center.md)
 ### [Microsoft Teams 管理センターで Teams を管理する](manage-teams-in-modern-portal.md)
-### [無料版の Teams を管理する](manage-freemium.md)
 ### [Teams でチーム所有者とメンバーを割り当てる](assign-roles-permissions.md)
 ### [一括でTeams のユーザー設定を編集する](edit-user-settings-in-bulk.md)
 ### [ユーザーにライセンスを割り当てる](assign-policies.md)
@@ -125,6 +122,7 @@
 <!-- ============================================================ -->
 
 # ミーティングと会議
+## [クイック スタート - 会議とライブ イベント](quick-start-meetings-live-events.md)
 ## [展開の計画](deploy-meetings-microsoft-teams-landing-page.md)
 ## [チュートリアル: Teams での会議](Tutorial-Meetings-in-Teams.yml)
 ## [会議ポリシーを管理する](meeting-policies-in-teams.md)
@@ -293,6 +291,16 @@
 #### [ダイレクト ルーティングでメディア バイパスを計画する](direct-routing-plan-media-bypass.md)
 #### [ダイレクト ルーティングでメディア バイパスを構成する](direct-routing-configure-media-bypass.md)
 
+### ダイレクト ルーティングのローカル メディアの最適化
+#### [ローカル メディアの最適化を計画する](direct-routing-media-optimization.md)
+#### [ローカル メディアの最適化を構成する](direct-routing-media-optimization-configure.md)
+
+### ダイレクト ルーティングの監視とトラブルシューティング
+#### [概要](direct-routing-monitor-and-troubleshoot.md)
+#### [正常性ダッシュボード](direct-routing-health-dashboard.md)
+### [PSTN 接続を使用するハイブリッド環境でのユーザー アカウント](direct-routing-user-accounts-in-a-hybrid-environment.md)
+
+### [ダイレクト ルーティングに移行する](direct-routing-migrating.md)
 
 ### ダイレクト ルーティングのテクニカル リファレンス
 #### [発信通話でのトランクのフェイルオーバー](direct-routing-trunk-failover-on-outbound-call.md)
@@ -475,9 +483,8 @@
 ### [フィードバックとレポートを最適化する](teams-adoption-optimize-feedback-and-reporting.md)
 ### [啓発とトレーニングの実施](teams-adoption-drive-awareness.md)
 ### [サービス正常性のレビューをスケジュールする](teams-adoption-schedule-service-health-reviews.md)
+
 <!-- ============================================================ -->
-#       
-#        
 
 # Teams へのアップグレード
 
@@ -560,9 +567,6 @@
 
 ## [Exchange および SharePoint との統合](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint)
 
-#     
-#     
-
 <!-- ============================================================ -->
 
 # Microsoft 365 企業向け音声
@@ -595,17 +599,11 @@
 
 ## [パートナーのリソース](business-voice/partner-resources.md)
 
-#        
-#        
-
 <!-- ============================================================ -->
-
 
 # 業界および政府機関向けのガイダンス
 ## [概要](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
 ## [Teams のテンプレートの使用を開始する](get-started-with-teams-templates.md)
-## [現場担当者向けのクイックスタート](firstline-workers-quickstart.yml)
-## [Microsoft Teams の RealWear](flw-realwear.md)
 ## [Shifts for Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Microsoft StaffHub はまもなく廃止予定です](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [Microsoft StaffHub PowerShell モジュールをインストールする](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
@@ -640,6 +638,12 @@
 ### [Moodle の統合をインストールする](install-moodle-integration.md)
 ### [教育 SKU の参照](sku-reference-edu.md)
 
+## 現場担当者向けの Teams
+### [現場担当者向けのクイックスタート](firstline-workers-quickstart.yml)
+### [現場担当者のスクリプト化された展開](flw-scripted-deployment.md)
+### [RealWear for Microsoft Teams](flw-realwear.md)
+### [SPO サイトまたはページから Teams のイントラネット ポータル アプリを作成する](teams-standalone-static-tabs-using-spo-sites.md)
+
 ## [小売店向けの Teams](expand-teams-across-your-org/teams-for-retail-landing-page.md)
 ### [小売店向けテンプレートでTeamsを始めましょう](get-started-with-retail-teams-templates.md)
 
@@ -655,10 +659,12 @@
 
 # セキュリティとコンプライアンス
 ## [概要](security-compliance-overview.md)
+## [Teams のデータの場所](location-of-data-in-teams.md)
 ## セキュリティ
 ### [セキュリティ ガイド](teams-security-guide.md)
 ### [ID モデルと認証](identify-models-authentication.md)
 ### [先進認証を使用して Teams にサインインする](sign-in-teams.md)
+### [Teams の安全なリンク](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## コンプライアンス
 ### [情報障壁](information-barriers-in-teams.md)
 ### [保持ポリシー](retention-policies.md)
@@ -697,8 +703,7 @@
 ## [Teams のサポート リソース](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 <!-- ============================================================ -->
-#       
-#    
+  
 # Reference
 
 ## [Teams の制限と仕様](limits-specifications-teams.md)
@@ -747,6 +752,7 @@
 ### [Office 365 G1 試用版を管理する](g1-trial-license.md)
 ### [Teams の商用試用版サービスの管理](iw-trial-teams.md)
 ### [Teams の調査エクスペリエンスを管理する](teams-exploratory.md)
+### [Teams の無料版を管理する](manage-freemium.md)
 ### [Teams を無料で Office 365 月額プラン バージョンにアップグレードする](upgrade-freemium.md)
 ### [メッセージング ポリシーのライセンス](teams-add-on-licensing/pri-message.md)
 ### [仮想ユーザー ライセンス](teams-add-on-licensing/virtual-user.md)
