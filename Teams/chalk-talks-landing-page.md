@@ -16,12 +16,12 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: cde69bd588c7262e5ed6f0274b091fee29b27030
-ms.sourcegitcommit: 769241842058cfb4618460fad2dde1494a3609a1
+ms.openlocfilehash: 2fd1b76b1aaed68cd0c9ce61fe6d6a408a2fd296
+ms.sourcegitcommit: 379bfaf6b0584c1ac93341af605f93ab932a442b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42574004"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43240597"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -93,6 +93,7 @@ IT プロフェッショナルと意思決定者向けに設計されたチー�
         </a>
     </li>
     <li>
+        <a href="https://microsoftteams.eventbuilder.com/ChalkTalksEnableFirstline"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -103,13 +104,14 @@ IT プロフェッショナルと意思決定者向けに設計されたチー�
                     </div>
                     <div class="cardText">
                         <h3>Teams で Firstline Worker エンゲージメントを有効にする方法</h3>
-                        <p><font color="red"><i>もうすぐです！</i></font> 最初のラインの労働力のデジタルワークスペースを有効にする準備ができましたか? ここでは、パイロットを開始してコミュニケーション、従業員の取り組み、業務の生産性を高めるためのベストプラクティスについて説明します。</p>
+                        <p>最初のラインの労働力のデジタルワークスペースを有効にする準備ができましたか? ここでは、パイロットを開始してコミュニケーション、従業員の取り組み、業務の生産性を高めるためのベストプラクティスについて説明します。</p>
                     </div>
                 </div>
             </div>
         </div>
     </li>
     <li>
+        <a href="https://microsoftteams.eventbuilder.com/ChalkTalksQuality"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -119,8 +121,8 @@ IT プロフェッショナルと意思決定者向けに設計されたチー�
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Teams の新機能を見つける</h3>
-                        <p><font color="red"><i>もうすぐです！</i></font>  Teams でリリースする機能を待機していますか? チームの専門家と連絡を取り合うためには、過去1か月間の最新の機能リリースと、それらを実装するためのベストプラクティスについて説明します。</p>
+                        <h3>AV 品質エクスペリエンスの取得</h3>
+                        <p>チームの会議や音声機能に最適なエクスペリエンスをユーザーに提供したいと考えていますか? このセッションでは、一般的な問題を解決するための予防的な戦略を確立する&mdash;ことから、サービスの品質を管理するためのツール、レポート、ベストプラクティスについて説明します。</p>
                     </div>
                 </div>
             </div>
