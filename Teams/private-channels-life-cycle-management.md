@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 組織内のプライベートチャネルのライフサイクルを管理する方法について説明します。
-ms.openlocfilehash: 317cded1be30beac8fefbb579d5f0c24258f2fa1
-ms.sourcegitcommit: a4fd238de09366d6ed33d72c908faff812da11a5
+ms.openlocfilehash: 39830035ba91b2fa50c7d5bbd82e6da6e60d0f00
+ms.sourcegitcommit: 379bfaf6b0584c1ac93341af605f93ab932a442b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42637204"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43240637"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Microsoft Teams でプライベートチャネルのライフサイクルを管理する
 
@@ -95,7 +95,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 ## <a name="find-sharepoint-urls-for-all-private-channels-in-a-team"></a>チーム内のすべてのプライベートチャネルの SharePoint Url を検索する
 
-プライベートチャネルのファイルに対して電子情報開示または法的保持を実行することを検討している場合、または特定のプライベートチャネルにファイルを配置する基幹業務アプリを構築する場合は、そのために作成された固有の SharePoint サイトコレクションを照会する方法が必要になります。各プライベートチャネル。
+プライベートチャネルのファイルに対して電子情報開示または法的保持を実行することを検討している場合、または特定のプライベートチャネルにファイルを配置する基幹業務アプリを構築する場合は、プライベートチャネルごとに作成された固有の SharePoint サイトコレクションを照会する方法が必要になります。
 
 管理者として、PowerShell または Graph Api コマンドを使って、これらの Url を照会することができます。
 
@@ -271,7 +271,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 ### <a name="install-the-latest-teams-powershell-module-from-the-powershell-test-gallery"></a>PowerShell テストギャラリーから最新の Teams PowerShell モジュールをインストールする
 
-最新の一般公開バージョンの Teams PowerShell モジュール (現在[1.0.3](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.3)) では、プライベートチャネルの管理はサポートされていません。 次の手順を使用して、PowerShell テストギャラリーからプライベートチャネルのサポート (現在 1.0.18) を使用して、最新バージョンの Teams PowerShell モジュールをインストールします。
+最新の一般公開バージョンの Teams PowerShell モジュール (現在[1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5)) では、プライベートチャネルの管理はサポートされていません。 次の手順を使用して、PowerShell テストギャラリーからプライベートチャネルのサポート (現在 1.0.21) を使用して、最新バージョンの Teams PowerShell モジュールをインストールします。
 
 > [!NOTE]
 > PowerShell テストギャラリーから、パブリック PowerShell ギャラリーのバージョンのモジュールと共に Teams PowerShell モジュールをインストールしないでください。 次の手順に従って、最初にパブリック PowerShell ギャラリーから Teams PowerShell モジュールをアンインストールしてから、PowerShell テストギャラリーから最新バージョンのモジュールをインストールします。

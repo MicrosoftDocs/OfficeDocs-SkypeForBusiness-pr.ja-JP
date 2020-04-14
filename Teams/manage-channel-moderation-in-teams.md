@@ -18,18 +18,21 @@ localization_priority: Normal
 search.appverid: MET150
 description: チーム メンバーをチャネルのモデレーターとして追加する方法を含む、Microsoft Teams でモデレート用にチャネルを設定する方法について説明します。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 128676bbe4ec27300013836425bf221e3de10f9b
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 6cdf6988afb9afbd91c2bfd19ed516c8e8fdf702
+ms.sourcegitcommit: 379bfaf6b0584c1ac93341af605f93ab932a442b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136807"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43240617"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>Microsoft Teams でチャネルのモデレーションを設定および管理する
 
-Microsoft Teams では、チーム所有者はチャネルのモデレーションを有効にして、対象チャネルで新しい投稿を開始できるユーザーと、投稿に返信できるユーザーを制御できます。
+Microsoft Teams では、チーム所有者は、標準チャネルのモデレーションを有効にして、誰が新しい投稿を開始し、そのチャネルで投稿に返信できるかを制御できます。
 
 チーム所有者は、チーム メンバーをモデレーターとして追加することもできます。 チーム所有者が、チャネルのモデレーションを最大限にサポートするためのチャネル レベルにおける領域の専門知識を持っていない場合もあります。 特定のチーム メンバーがチャネルをモデレートすることを許可することにより、チャネル内のコンテンツとコンテキストを管理する責任を、チーム所有者とチャネル モデレーターで共有できます。 たとえば、チーム所有者はモデレーターとしてビジネス オーナーまたはコンテンツ所有者を追加できます。これにより、対象チャネルで共有する情報を制御できます。
+
+> [!NOTE]
+> 現時点では、チャネルの調停機能は標準のチャネルで利用できます。 プライベートチャネルでは使用できません。
 
 ## <a name="what-can-a-channel-moderator-do"></a>チャネル モデレーターが行えること
 
