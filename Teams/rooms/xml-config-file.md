@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 description: Microsoft Teams 室のデバイスで使用される既定の設定のリモート管理。カスタムテーマの適用や、マスター設定ファイルの作成などが含まれます。
-ms.openlocfilehash: 0334b9de7759885b6bf00dae7a6418b3c381c68f
-ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
+ms.openlocfilehash: 0bc693d8bee35b37184d0dcb38831b396b34b97c
+ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43160071"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43510766"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Microsoft Teams ミーティング のコンソールの設定を、XML 構成ファイルを使用してリモートで管理する
 
@@ -39,12 +39,12 @@ ms.locfileid: "43160071"
     <UserAccount>
         <SkypeSignInAddress>RanierConf@contoso.com</SkypeSignInAddress>
         <ExchangeAddress>RanierConf@contoso.com</ExchangeAddress>
+        <ModernAuthEnabled>false</ModernAuthEnabled>
         <DomainUsername>Seattle\RanierConf</DomainUsername>
         <Password>password</Password>
         <ConfigureDomain>domain1, domain2</ConfigureDomain>
     </UserAccount>
     <IsTeamsDefaultClient>false</IsTeamsDefaultClient>
-    <ModernAuthEnabled>false</ModernAuthEnabled>
     <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>
     <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled>
     <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
@@ -83,16 +83,16 @@ ms.locfileid: "43160071"
 |\<SkypeSettings\> |すべての要素のコンテナー。 ||必須。 |
 | \<AutoScreenShare\>  |ブール型 &#x2777;  |第1の &#x2776;  | true の場合、自動画面共有が有効になります。  |
 |\<Hide会議名\> |ブール型 &#x2777;  |第1の &#x2776;  |true の場合、会議名が非表示になります。 |
-|\<UserAccount\> |Container |第1の &#x2776;  |資格情報パラメーターのコンテナー。 通常、@contoso RanierConf<span></span>と同じように、サインインアドレス、Exchange アドレス、またはメールアドレスが同じになります。 |
+|\<UserAccount\> |Container |第1の &#x2776;  |資格情報パラメーターのコンテナー。 通常、RanierConf<span></span>@contoso など、サインインアドレス、Exchange アドレス、またはメールアドレスは同じです。 |
 |\<SkypeMeetingsEnabled\>  |ブール型 &#x2777;  |第1の &#x2776;  |既定では有効です。 |
-|\<SkypeSignInAddress\> |文字列 &#x2778;  ||本体の SfB または Teams のデバイスアカウントのサインイン名です。 |
-|\<ExchangeAddress\> |文字列 &#x2778;  ||コンソールの Exchange デバイス アカウントのサインイン名。 ExchangeAddress が省略された場合、SkypeSignInAddress は自動的には再利用されません。 |
+|\<SkypeSignInAddress\> |文字列 &#x2778;  ||本体の SfB または Teams のデバイスアカウントのサインイン名。 |
+|\<ExchangeAddress\> |文字列 &#x2778;  ||本体の Exchange device アカウントのサインイン名。 ExchangeAddress が省略された場合、SkypeSignInAddress は自動的には再利用されません。 |
+|\<ModernAuthEnabled> |ブール型 &#x2777;  |  |既定では無効です。 <br/> <br/>True に設定すると、Microsoft Teams のルームアプリケーションは先進認証を使用してリソースに接続しますが、基本認証にはフォールバックされません。|
 |\<DomainUsername\> |文字列 &#x2778;  ||コンソール デバイスのドメイン名およびユーザー名 (Seattle\RanierConf など)。 |
 |\<パスワード\> |String 3  || パスワード パラメーターは、Skype for Business デバイス アカウントのサインインで使用されるものと同一のパスワードです。  |
 | \<ConfigureDomain\>  |文字列 &#x2778;  ||複数のドメインをコンマで区切ってリスト表示することができます。 |
 |\<TeamsMeetingsEnabled\> |ブール型 &#x2777;  |第1の &#x2776;  |既定では無効です。 <br/> <br/> SkypeMeetingsEnabled \<\>と\<TeamsMeetingsEnabled\>の両方が無効になっている場合、XML ファイルの形式が不適切であると見なされますが、両方の設定を同時に有効にすることはできます。 |
 |\<IsTeamsDefaultClient の> |ブール型 &#x2777;  |第1の &#x2776;  |既定では無効です。 |
-|\<ModernAuthEnabled> |ブール型 &#x2777;  |第1の &#x2776;  |既定では無効です。 <br/> <br/>True に設定すると、Microsoft Teams のルームアプリケーションは先進認証を使用してリソースに接続しますが、基本認証にはフォールバックされません。|
 |\<BluetoothAdvertisementEnabled> |ブール型 &#x2777;  |第1の &#x2776;  |既定では有効です。 |
 |\<DualScreenMode\>  |ブール型 &#x2777;  |第1の &#x2776;  |True の場合、デュアルスクリーンモードが有効になります。 それ以外の場合は、デバイスでシングルスクリーンモードが使用されます。 |
 | \<DuplicateIngestDefault\> |ブール型 &#x2777;  |第1の &#x2776; |True の場合、会議の終了時に両方の画面にコンテンツが表示されます。 | 
