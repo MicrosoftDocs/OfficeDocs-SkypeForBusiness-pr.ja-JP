@@ -10,7 +10,7 @@
 ## [概要](training-microsoft-teams-landing-page.md)
 ## [Teams のインストラクターによるトレーニング](instructor-led-training-teams-landing-page.md)
 ## [Teams の管理者トレーニング](itadmin-readiness.md)
-## [Teams のエンド ユーザー トレーニング](enduser-training.md)
+## [Teams のエンド ユーザー トレーニング](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 <!-- ============================================================ -->
 
 # [Teams の展開方法](How-to-roll-out-teams.md)
