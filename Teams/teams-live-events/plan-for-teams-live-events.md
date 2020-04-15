@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Microsoft Teams でのライブ イベントを立ち上げる前に考慮する必要のある要素について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95baeaf25600853b7d6a2b4e18c548d1998f6789
-ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
+ms.openlocfilehash: 2f70a7a2be51045f616ebb4cedc5baf46dbe101d
+ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43102368"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43505624"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントの計画
 
@@ -55,6 +55,7 @@ ms.locfileid: "43102368"
 - Teams 会議で有効な画面共有 (*TeamsMeetingPolicy -ScreenSharingMode パラメーター = EntireScreen*)。
 - Teams でのライブ イベントのスケジューリングが有効である (*The TeamsMeetingBroadcastPolicy -AllowBroadcastScheduling パラメーター = True*)。
 - Stream でライブ イベントを作成する許可 (外部アプリまたはデバイス生成の場合)。
+- 共存モードでは、Teams 会議 (*孤島、会議の最初、またはチームのみ*) をスケジュールできるように設定されています。
 
 > [!IMPORTANT]
 > 認証されていない匿名ユーザーは、Teams ライブ イベントのプロデューサーや発表者としては招待できません。 
@@ -70,8 +71,6 @@ ms.locfileid: "43102368"
 |特定のグループ/ユーザー      |  はい            |  はい                 |
 
 <sup>1</sup>フェデレーション参加者が招待できるのは、メンバー & グループだけです。 <br>
-
-
  
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Teams ライブ イベントと Skype 会議ブロードキャスト
 
@@ -90,12 +89,12 @@ ms.locfileid: "43102368"
 |Mac でプロデューサー クライアント |&#x274C;  | &#x2714; (Teams) |&#x2714; (Stream、埋め込み Stream 経由の Teams) |
 |プロデューサー UI での出席者数 |&#x274C;  |&#x2714; (Teams) |&#x2714; (Stream、埋め込み Stream 経由の Teams) |
 |複数の発表者の許可 |&#x2714; (Skype for Business) |&#x2714; (Teams) |N/A  |
-|会議中の発表者の招待 |&#x2714; (Skype for Business) |&#x274C; |該当なし |
-|Web やモバイルでの発表者の参加 |&#x2714; (Skype for Business)  |&#x274C; |該当なし |
-|フェデレーションおよびゲストの発表者/出席者 |&#x2714; (Skype for Business)  |  &#x2714; (Teams) |該当なし |
+|会議中の発表者の招待 |&#x2714; (Skype for Business) |&#x274C; |N/A |
+|Web やモバイルでの発表者の参加 |&#x2714; (Skype for Business)  |&#x274C; |N/A |
+|フェデレーションおよびゲストの発表者/出席者 |&#x2714; (Skype for Business)  |  &#x2714; (Teams) |N/A |
 |発表者 – PSTN アクセス |&#x274C; |&#x2714; (Teams) |N/A |
 |画面表示 |&#x274C; |&#x2714; (Teams) |N/A |
-|PowerPoint 表示 (PPT 共有) |&#x2714; |&#x274C; (画面共有によって軽減) |該当なし |
+|PowerPoint 表示 (PPT 共有) |&#x2714; |&#x274C; (画面共有によって軽減) |N/A |
 |クラウド ベースの会議記録 |&#x2714; |&#x2714; |&#x2714; |
 |Stream への記録の自動公開 |&#x274C; |&#x274C; |&#x2714; |
 |ライブ キャプションと字幕 |&#x2714; |&#x2714; |&#x274C; |
@@ -132,4 +131,3 @@ ms.locfileid: "43102368"
 - [Teams のライブ イベントについて](what-are-teams-live-events.md)
 - [Teams のライブ イベントをセットアップする](set-up-for-teams-live-events.md)
 - [Teams でライブ イベント設定を構成する](configure-teams-live-events.md)
-

@@ -18,12 +18,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: チーム メンバーをチャネルのモデレーターとして追加する方法を含む、Microsoft Teams でモデレート用にチャネルを設定する方法について説明します。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6cdf6988afb9afbd91c2bfd19ed516c8e8fdf702
-ms.sourcegitcommit: 379bfaf6b0584c1ac93341af605f93ab932a442b
+ms.openlocfilehash: 77622bd2920ce0453d6ccbdbeb55696fc2925271
+ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "43240617"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43505604"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>Microsoft Teams でチャネルのモデレーションを設定および管理する
 
@@ -32,7 +32,7 @@ Microsoft Teams では、チーム所有者は、標準チャネルのモデレ�
 チーム所有者は、チーム メンバーをモデレーターとして追加することもできます。 チーム所有者が、チャネルのモデレーションを最大限にサポートするためのチャネル レベルにおける領域の専門知識を持っていない場合もあります。 特定のチーム メンバーがチャネルをモデレートすることを許可することにより、チャネル内のコンテンツとコンテキストを管理する責任を、チーム所有者とチャネル モデレーターで共有できます。 たとえば、チーム所有者はモデレーターとしてビジネス オーナーまたはコンテンツ所有者を追加できます。これにより、対象チャネルで共有する情報を制御できます。
 
 > [!NOTE]
-> 現時点では、チャネルの調停機能は標準のチャネルで利用できます。 プライベートチャネルでは使用できません。
+> チャネルモデレーションは、標準チャネルで利用できます。 一般的なチャネルまたはプライベートチャネルでは使用できません。
 
 ## <a name="what-can-a-channel-moderator-do"></a>チャネル モデレーターが行えること
 
@@ -54,7 +54,7 @@ Microsoft Teams では、チーム所有者は、標準チャネルのモデレ�
 
 ### <a name="use-a-channel-for-class-discussions-in-teams-for-education"></a>Teams for Education におけるクラス ディスカッション用にチャネルを使用する
 
-Teams for Education では、科学の教師がチャネルを使用して、特定の授業トピックに的を絞ったディスカッションに生徒を参加させることができます。
+教育機関向けの Teams では、科学教師はチャネルを使用して、特定の教室のトピックについての焦点を絞ったディスカッションで学生を共同作業したいと考えています。
 
 このシナリオでは、教師は、補助教員がチャネルをモデレートすることを許可します。 次に、補助教員は、新しい投稿を作成し、学生とのディスカッションを開始して促進できます。
 

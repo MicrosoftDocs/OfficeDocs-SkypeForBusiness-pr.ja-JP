@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-collaboration
 description: Microsoft Teams ルームの先進認証の構成方法について説明します
-ms.openlocfilehash: bef547ab0b9ade2edc433ec64bb1ef61eee4c040
-ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
+ms.openlocfilehash: ee95de457d5af82fb68acb4fd79b6b5a5a3a7ed0
+ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43160114"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43505614"
 ---
 # <a name="authentication-in-microsoft-teams-rooms"></a>Microsoft Teams のルームでの認証
 
@@ -33,7 +33,7 @@ Microsoft Teams 室のデバイスを Office 365 で使用しているすべて�
 
 Microsoft Teams の会議室のアプリケーションで先進認証を使用する場合、Microsoft Teams、Exchange、Skype for Business への接続に Active Directory Authentication Library (ADAL) が使用されます。 Microsoft Teams のルームデバイスは共有デバイスであり、夜間の再起動を実行して、スムーズに機能し、重要なオペレーティングシステム、ドライバー、ファームウェア、またはアプリケーションの更新プログラムを入手します。 先進認証メカニズムでは、OAuth 2.0 での[リソース所有者のパスワード資格情報](https://tools.ietf.org/html/rfc6749#section-1.3.3)の許可の種類を使用します。これには、ユーザーの操作は必要ありません。 これは、Microsoft Teams のルームアプリケーションで使用されるユーザーアカウントとリソースアカウントの先進認証のしくみとの主な違いの1つです。 このため、Microsoft Teams の会議リソースアカウントは、多要素認証 (MFA)、スマートカード認証、またはクライアント証明書ベースの認証を使用するように構成しないでください (すべてのエンドユーザーが使用可能)。
 
-Microsoft Teams の会議室のデバイスとエンドユーザーのデバイスでの先進認証の動作の主な違いは、リソースアカウントを使用して、"デバイスに対して苦情としてマークする"、"ハイブリッド Azure AD に参加しているデバイスを要求する" などのデバイスレベルの条件付きアクセスポリシーを適用することはできません。 これは、アプリケーションレベルで使用されている場合、デバイスレベルの概念が先進認証に適用されないためです。 代わりに、[次](https://techcommunity.microsoft.com/t5/intune-customer-success/bg-p/IntuneCustomerSuccess)のガイダンスを使用して、Microsoft Intune にデバイスを登録して、コンプライアンスポリシーを適用することができます。
+Microsoft Teams の会議室のデバイスとエンドユーザーのデバイスでの先進認証の動作の主な違いは、リソースアカウントを使用して、"デバイスへの準拠としてマークを付ける"、"ハイブリッド Azure AD に参加しているデバイスを要求する" などのデバイスレベルの条件付きアクセスポリシーを適用できないことです。 これは、アプリケーションレベルで使用されている場合、デバイスレベルの概念が先進認証に適用されないためです。 代わりに、Microsoft Intune でデバイスを登録して、コンプライアンスポリシーを適用するには、「 [intune での Teams 会議室の管理](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230)」で説明されているガイダンスを使用します。
 
 ## <a name="enable-modern-authentication-on-a-microsoft-teams-rooms-device"></a>Microsoft Teams 室のデバイスで先進認証を有効にする
 
@@ -73,7 +73,7 @@ Exchange Online で基本認証を無効にする方法の詳細については�
 
 ## <a name="hybrid-modern-authentication"></a>ハイブリッド先進認証
 
-オンプレミスの Exchange server や Skype for Business server への認証を成功させるには、Microsoft Teams のルームで使用されているリソースアカウントが、Azure AD から承認を取得するように構成されていることを確認する必要があります。 組織に適したハイブリッド id とメソッドの詳細については、次のトピックを参照してください。 
+オンプレミスの Exchange server や Skype for Business server への認証を成功させるには、Microsoft Teams のルームで使用されているリソースアカウントが Azure AD からの承認を取得するように構成されていることを確認する必要があります。 組織で使用されるハイブリッド id とメソッドの詳細については、次のトピックを参照してください。 
 
 - [パスワードのハッシュの同期とは](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-phs)
 - [パススルー認証とは何ですか?](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-pta)
@@ -83,13 +83,13 @@ Exchange Online で基本認証を無効にする方法の詳細については�
 
 ハイブリッドトポロジでの先進認証を有効にするための前提条件は、[ハイブリッド先進認証の概要と、オンプレミスの Skype For business および Exchange server で使用するための前提条件](https://docs.microsoft.com/office365/enterprise/hybrid-modern-auth-overview)に含まれています。 この記事で説明されているすべての前提条件が適用されます。
 
-ただし、Microsoft Teams の会議室は、[リソース所有者のパスワード](https://tools.ietf.org/html/rfc6749#section-1.3.3)認証と先進認証用の下位の REST api を使用しているため、次の重要な相違点は Microsoft Teams のルームに固有のものであるという点に注意してください。
+ただし、Microsoft Teams の会議室は、[リソース所有者のパスワード](https://tools.ietf.org/html/rfc6749#section-1.3.3)認証と先進認証用の下位の REST api を使っているため、microsoft Teams のルームに固有の重要な相違点を次に示します。
 
-- Exchange server 2016 CU8 以降、または Exchange Server 2019 CU1 以降がインストールされている必要があります。
+- Exchange Server 2016 CU8 以降、または Exchange Server 2019 CU1 以降がインストールされている必要があります。
 - Skype for Business Server 2015 CU5 以降以降、または Skype for Business Server 2019 以降がインストールされている必要があります。
 - 使用しているトポロジに関係なく MFA はサポートされません。
 - Azure AD でサポートされているサードパーティ認証プロバイダーを使用している場合は、OAuth をサポートし、リソース所有者のパスワード認証を使用する必要があります。
-- アプリケーションで構成されているリソースアカウントに対して、デバイスレベルの条件付きアクセスポリシーは使用しないでください。 この操作を行うと、サインインエラーが発生します。 代わりに、[ここ](https://techcommunity.microsoft.com/t5/intune-customer-success/bg-p/IntuneCustomerSuccess)で説明したガイダンスを使用して、Microsoft Intune にデバイスを登録して、コンプライアンスポリシーを適用します。
+- アプリケーションで構成されているリソースアカウントに対して、デバイスレベルの条件付きアクセスポリシーは使用しないでください。 この操作を行うと、サインインエラーが発生します。 代わりに、Microsoft Intune にデバイスを登録し、[ [Intune とのチーム会議室の管理](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230)] で公開されているガイダンスを使用して、コンプライアンスポリシーを適用します。
 
 ### <a name="configure-exchange-server"></a>Exchange Server の構成
 
@@ -107,4 +107,4 @@ Skype for Business Server とのハイブリッド先進認証を有効にする
 
 Microsoft Teams のルームで使用されるリソースアカウントを、IP/場所ベースのアクセスに対して構成することができます。 詳細については、「[条件付きアクセス: 場所でのアクセスをブロック](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-location)する」を参照してください。
 
-その他の条件付きアクセスポリシーはサポートされません。 デバイスのコンプライアンスの詳細については、[こちら](https://techcommunity.microsoft.com/t5/intune-customer-success/bg-p/IntuneCustomerSuccess)のガイダンスを参照してください。  
+その他の条件付きアクセスポリシーはサポートされません。 デバイスのコンプライアンスの詳細については、「 [Intune で Teams 会議室を管理する](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230)」を参照してください。  

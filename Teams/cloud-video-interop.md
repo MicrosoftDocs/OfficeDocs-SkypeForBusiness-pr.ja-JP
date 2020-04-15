@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2f2c5cb45c82696ec5b365dc8e887cbaa9abce13
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ddd8a0574899c13e03aae34915b8a342d1984feb
+ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046500"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43505644"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Microsoft Teams のクラウド ビデオ相互運用性
 
@@ -43,6 +43,12 @@ Microsoft Teams は、クラウド ビデオ相互運用性により、会議室
 - ネイティブの Microsoft Teams ソリューションへの移行時に、現在の会議室デバイスおよび個人用ビデオ デバイスへの投資価値を維持したい
 
 クラウド ビデオ相互運用性は優れた中間ソリューションを提供しますが、Teams ミーティング システムなどのネイティブの Teams Meeting ソリューションを長期的に使用するために、検討することをお勧めします。 
+
+### <a name="office-365-us-government-and-third-party-services"></a>Office 365 US Government およびサードパーティサービス
+
+Office 365 では、サードパーティのアプリケーションを SharePoint Online サイト、Skype for Business、Teams、office 365 ProPlus に含まれている office アプリケーション (Word、Excel、PowerPoint、Outlook など)、Outlook Web App に統合することができます。 さらに、Office 365 では、サードパーティサービスプロバイダーとの統合もサポートされています。 これらのサードパーティのアプリケーションやサービスには、Office 365 インフラストラクチャの外部のサードパーティシステム上の組織の顧客データの保存、送信、処理が含まれている場合があります。そのため、Office 365 のコンプライアンスとデータ保護のコミットメントは対象外です。 **組織でこれらのサービスの適切な使用を評価する際には、サードパーティによって提供されたプライバシーとコンプライアンスの声明を確認することをお勧めします。**
+
+
 
 ### <a name="partners-certified-for-microsoft-teams"></a>Microsoft Teams 認定パートナー
 

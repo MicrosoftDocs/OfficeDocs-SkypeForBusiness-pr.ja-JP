@@ -17,12 +17,12 @@ f1.keywords:
 description: 現在知られている Microsoft Teams クライアント アプリおよび管理エクスペリエンスでの問題の一覧です。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d856962cf0fdb21d0dd58313b5ade6a9bab9d364
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: 2a8775722daa5cd6fc236933fc0e0fd8bad1213a
+ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096622"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43505534"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams の既知の問題
 
@@ -296,13 +296,6 @@ ms.locfileid: "43096622"
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
 |電話番号がブロックされる|電話番号のブロック: 電話番号を削除する前にリソース アカウントを削除してしまうと、電話番号がブロックされます。|Microsoft サポートに問い合わせて、電話番号をリリースします。|2019 年 5 月 18 日|
-
-## <a name="presence"></a>プレゼンス
-|**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
-|:-----|:-----|:-----|:-----|
-|ユーザーを [**Teams のみ**] モードに移動すると、Outlook および Office アプリケーションでプレゼンスが表示されません。 <br/> |ユーザーを [**Teams のみ**] モードに移動した後に Skype for Business クライアントをアンインストールすると、Outlook および Office アプリでプレゼンスが機能しなくなります。 プレゼンスは Teams では正常に機能します。  <br/> |Outlook (および他の Office アプリ) でプレゼンスを表示させるには、Teams を [**Teams のみ**] モードで実行している場合でも、Skype for business をインストールする必要があります。 Microsoft はこの問題を把握しており、現在修正に向けて取り組んでいます。  <br/> |9/2019  <br/> |
-
-
 
 ## <a name="provisioning"></a>プロビジョニング
 

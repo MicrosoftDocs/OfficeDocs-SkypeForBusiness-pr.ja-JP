@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Teams で会議のポリシー設定を管理する方法について説明します。
-ms.openlocfilehash: 142152aaa0c47adea7f680b33fa4c9c59441e6eb
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
-ms.translationtype: HT
+ms.openlocfilehash: b87453fb24173ba648511f49efc82becb2616d70
+ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836477"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43505634"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Teams での会議ポリシーを管理する
 
@@ -351,7 +351,7 @@ Daniela は Amanda の会議でメモを取ることができ、Amanda はすべ
 
 ![ロビーにいるユーザーとの会議を示すスクリーンショット](media/meeting-policies-lobby.png)
 
- 会議の開催者は、会議出席依頼の [**会議オプション**] をクリックして、スケジュールする会議ごとにこの設定を変更できます。 **近日公開**
+ 会議の開催者は、会議出席依頼の [**会議オプション**] をクリックして、スケジュールする会議ごとにこの設定を変更できます。
   
 |値を設定する  |参加動作 |
 |---------|---------|
