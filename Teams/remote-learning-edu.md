@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6b89b9c5645c89be54507cf33657a720e27d4b5
-ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
+ms.openlocfilehash: 3c264bba408205f8f00d1df20fffbc6242124220
+ms.sourcegitcommit: f9860dbf3c719fec5ffc1874b503b6db252afe10
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43227511"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43237960"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>遠隔学習向けに Microsoft Teams の使用を開始する。
 
@@ -129,7 +129,7 @@ Teams の作成方法のチュートリアルついては、「[Create a class t
 
 Microsoft Teams for Education では、教育機関向けの[特別なチーム タイプ](https://support.office.com/article/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67)が提供されています。 [クラス チーム タイプ](https://support.office.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b)は教室での授業向けに作られており、課題、OneNote Classroom Notebook、生徒用の読み取り専用コンテンツをセキュリティで保護するための[クラスの教材フォルダー](https://support.office.com/article/Use-folders-to-create-read-only-files-for-students-or-other-team-members-0e7791d7-8c9c-4749-9bca-984289477988)、授業を妨害する生徒のミュートなど、特別な機能が提供されています。 クラス チームを展開するには、次の 2 つの方法があります。
 
-1. IT 担当者は [School Data Sync](https://sds.microsoft.com/) (SDS) を**セットアップ**することができ、こうすることで、すべてのクラスで、学校情報システムに含まれている情報に基づいてクラス チームを作成できるようになります。 このプロセスにより各セクションにチームがプロビジョニングされ、教師名簿と生徒名簿が同期された状態に保たれます。[教師は最初にチームを用意することができ](https://support.office.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78)、生徒を後から追加できます。 教師がチームを使用しない場合、教師により [アクティブにする] がクリックされることはないため、生徒はチームに追加されません。 SDS では、データのインポートについて 80 以上の学校情報システム (SIS システム) がサポートされています。[SDS サポート チーム](https://aka.ms/SDSSupport)は、立案と構成に関してすぐに支援を提供できます。 「[リモート学習のための高速展開ガイド](https://docs.microsoft.com/SchoolDataSync/fast-deployment-guidance)」を確認して、すぐに使用を開始することもできます。
+1. IT 担当者は [School Data Sync](https://sds.microsoft.com/) (SDS) を**セットアップ**することができ、こうすることで、すべてのクラスで、学校情報システムに含まれている情報に基づいてクラス チームを作成できるようになります。 このプロセスにより各セクションにグループがプロビジョニングされ、登録の変更時に教師と生徒名簿が同期された状態に保たれます。 [このプロセスを使用して](https://support.office.com/article/create-a-class-team-in-microsoft-teams-preview-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b)、教職員は、これらのグループをクラス チームに変換することができます。 クラス チームを作成したら、生徒の参加を許可する前に[教師は生徒用にチームを準備することができます](https://support.office.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78) 。 SDS では、データのインポートについて 80 以上の学校情報システム (SIS システム) がサポートされています。 [SDS サポート チーム](https://aka.ms/SDSSupport) は、計画と構成に関してすぐに支援を提供できます。 「[リモート学習のための高速展開ガイド](https://docs.microsoft.com/SchoolDataSync/fast-deployment-guidance)」を確認して、すぐに使用を開始することもできます。
 1. **教師**は自分のクラス タイプのチームをセットアップし、生徒を招待します。 これを行うには、教師は[生徒をチームに追加](https://support.office.com/article/add-a-student-to-a-class-team-b88263bb-ace1-4702-8a48-f8a2cf4af954)するか、[参加用コードを共有](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)するか、または[チームへのリンクを共有](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)します。 可能な場合は、教師が自分の生徒をチームに追加するのが最良の方法です。こうすることで、アクセス許可が生徒に確実に付与され、チームに追加されたことが生徒に通知されます。
 
 チームのセットアップ後、チームの所有者は、[チームの設定のカスタマイズ](https://support.office.com/article/find-your-class-team-s-settings-in-microsoft-teams-2592d4de-581d-4952-9028-02317880c158) ([チームの画像](https://support.office.com/article/change-your-team-picture-02ea2af6-b49d-4de8-9551-1a5e472993c0)の追加など)、クラスの科目用[チャネル](https://support.office.com/article/create-student-project-groups-channels-in-microsoft-teams-f85b3c07-fb87-4b94-883b-9be55f4b1e45)またはグループ協働学習エリアの作成、既存の教育コンテンツを取り込むための Quizlet や Flipgrid、Kahoot などの[アプリの追加](https://support.office.com/article/add-an-app-to-teams-b2217706-f7ed-4e64-8e96-c413afd02f77)を行うことができ、また、[一番最初の投稿でチームについて説明することにより、](https://support.office.com/article/using-the-conversation-tab-in-microsoft-teams-53d1c530-3797-4a6f-9892-6760f8763df2)クラス全員に通知を行い、会話を開始することができます。
