@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2cfe1c1af9fe85d307999289d318106c8ebc132a
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: ee41f32ac2237e5e2c6e2e92fd18ea1c1952f7cd
+ms.sourcegitcommit: df4dde0fe6ce9e26cb4b3da4e4b878538d31decc
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892297"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43521613"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>仮想デスクトップ インフラストラクチャ用の Teams
 
@@ -135,7 +135,7 @@ Teams と Office 365 ProPlus の詳細については、「[Office 365 ProPlus �
     - [32 ビット版](https://statics.teams.cdn.office.net/production-windows/1.3.00.4461/Teams_windows.msi)
     - [64 ビット版](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.4461/Teams_windows_x64.msi)
 
-    必要な Teams デスクトップ アプリの最小バージョンは、バージョン 1.2.00.31357 です。 (PSTN ホールドは以前のバージョンではサポートされていません。)
+    必要な Teams デスクトップアプリの最小バージョンはバージョン1.3.00.4461 です。 (PSTN ホールドは以前のバージョンではサポートされていません。)
 
 2. 次のコマンドのいずれかを実行して、MSI を VDI VM にインストールします。
 

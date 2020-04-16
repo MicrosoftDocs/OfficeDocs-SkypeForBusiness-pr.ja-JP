@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams の会議室の要件
+title: Microsoft Teams ミーティングの要件
 ms.author: v-lanac
 author: lanachin
 ms.reviewer: sohailta
@@ -14,14 +14,14 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: この記事では、Microsoft Teams のルームをサポートするための要件について説明します。
-ms.openlocfilehash: 9dba3a9972dee782b3d2df2ce48f7f38c19fcbc1
-ms.sourcegitcommit: f0f2fa999c1ca4a1118377c7938a247f79217609
+ms.openlocfilehash: 2496fcb1af7d85a3d1c3ba755a2431aff40d5a70
+ms.sourcegitcommit: df4dde0fe6ce9e26cb4b3da4e4b878538d31decc
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43106684"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43521603"
 ---
-# <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams の会議室の要件
+# <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams ミーティングの要件
 
 Microsoft Teams の会議室のサイズと用途に基づいて、さまざまな認定オーディオとビデオの周辺機器を使用して、さまざまな部屋のサイズに拡大縮小することができます。 適切なコアデバイスと本体を選択して、マイク、スピーカー、カメラ、およびスペースに適したディスプレイを使用することで、Microsoft Teams のスペースを、非常に小さな huddle スペースから、非常に大きな会議スペースや掲示板に展開することができます。  お客様の室内を構成するために使用できる認定オーディオとビデオのすべての周辺機器の完全なセットは、[デバイスのショーケース](https://products.office.com/microsoft-teams/across-devices)でご利用いただけます。
 
@@ -78,7 +78,7 @@ Microsoft Teams の会議室のサイズと用途に基づいて、さまざま�
   |Surface Pro </br>(第5世代) |Core i5 |8 GB または 4 GB |128 GB 以上 |
   |Surface Pro 4 |Core i5 |8 GB または 4 GB |128 GB 以上 |
 
-- 会議室テーブルにタブレットをセキュリティで保護するための、次のドッキングステーションオプションのいずれか。
+- Surface Pro デバイスでは、タブレットを会議室テーブルにセキュリティで保護するために、次のいずれかのドッキングステーションオプションが必要です。
 
   - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
   - [クリエイティブ](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
@@ -173,9 +173,9 @@ Microsoft Teams の会議室のサイズと用途に基づいて、さまざま�
 
 [Microsoft Teams ミーティングを計画する](rooms-plan.md)
 
-[Microsoft Teams ルームの展開](rooms-deploy.md)
+[デプロイの概要](rooms-deploy.md)
 
-[Microsoft Teams 室コンソールを構成する](console.md)
+[Microsoft Teams ミーティングのコンソールを構成する](console.md)
 
 [Microsoft Teams Rooms を管理する](rooms-manage.md)
 

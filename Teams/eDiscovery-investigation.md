@@ -17,12 +17,12 @@ description: 法的手続きのために電子的に保存された情報をす�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 75098323afa8aef9e80223cbc1883e9c12cb53c6
-ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
+ms.openlocfilehash: 4b31f2efb613551ab17320900e45cf30d0ee11be
+ms.sourcegitcommit: df4dde0fe6ce9e26cb4b3da4e4b878538d31decc
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 04/15/2020
-ms.locfileid: "43510696"
+ms.locfileid: "43521543"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Microsoft Teams のコンテンツに対して電子情報開示の調査を行う
 
@@ -43,12 +43,12 @@ ms.locfileid: "43510696"
 | メッセージが各ユーザーによって読み上げられた時刻を示すタイムスタンプ | いいえ | |
 | 音声録音 | いいえ | |
 | プライベートチャネルメッセージ | いいえ | |
-| 絵文字、Gif、ステッカー | いいえ | |
+| 絵文字、Gif、ステッカー | はい | |
 | コードスニペット | いいえ | |
 | チャットリンク | いいえ | |
 | 反力 (いいね!、ハートなど) | いいえ | |
 | 編集済みメッセージ | はい | ユーザーが保留になっている場合、以前のバージョンの編集済みメッセージは保持されます。 |
-| インライン画像 | いいえ | |
+| インライン画像 | はい | |
 | 示し | いいえ | |
 | 件名 | いいえ | |
 | 意味 | はい | 引用符で囲まれたコンテンツは検索可能です。 ただし、検索結果は、コンテンツが引用符で囲まれていることを示すわけではありません。 |

@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams でユーザーにポリシーを割り当てるさまざまな方法について説明します。
 f1keywords: ''
-ms.openlocfilehash: 0ad4794d0813eec97ea723d86ae6b3c60e0c9129
-ms.sourcegitcommit: 996ae0d36ae1bcb3978c865bb296d8eccf48598e
+ms.openlocfilehash: 5c46b74519520950d31f01d4c86ae2a5002ae279
+ms.sourcegitcommit: df4dde0fe6ce9e26cb4b3da4e4b878538d31decc
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "43068499"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43521623"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Microsoft Teams でユーザーにポリシーを割り当てる
 
@@ -66,7 +66,7 @@ ms.locfileid: "43068499"
 | [ポリシーパッケージを割り当てる](#assign-a-policy-package)   | 同じロールまたは類似のロールを持つ組織内の特定のユーザーのセットに、複数のポリシーを割り当てる必要があります。 たとえば、学校の教師に教育 (教師) ポリシーパッケージを割り当てることで、チャット、通話、会議、および教育 (第2章) ポリシーパッケージへのフルアクセスを学生に許可し、プライベート通話のような特定の機能を制限することができます。  |Teams PowerShell モジュールの Microsoft Teams 管理センターまたは PowerShell コマンドレット|
 |[ユーザーのバッチにポリシーを割り当てる](#assign-a-policy-to-a-batch-of-users)   | 多数のユーザーにポリシーを割り当てる必要があります。 たとえば、組織内の数百または数千のユーザーに一度にポリシーを割り当てる必要があるとします。  |Teams PowerShell モジュールの PowerShell コマンドレット|
 |[グループにポリシーを割り当てる](#assign-a-policy-to-a-group)(プレビュー中)   |ユーザーのグループメンバーシップに基づいてポリシーを割り当てる必要があります。 たとえば、セキュリティグループまたは組織単位のすべてのユーザーにポリシーを割り当てる必要があるとします。| Teams PowerShell モジュールの PowerShell コマンドレット|
-| ユーザーのバッチにポリシーパッケージを割り当てる (近日公開) |||
+| [ユーザーのバッチにポリシーパッケージを割り当てる](#assign-a-policy-package-to-a-batch-of-users)|同じロールまたは類似のロールを持つ組織内のユーザーのバッチに複数のポリシーを割り当てる必要があります。 たとえば、バッチの割り当てを使用して学校のすべての教師に教育 (教師) ポリシーパッケージを割り当てることで、チャット、通話、会議へのフルアクセスを許可したり、教育機関 (第1の学生) ポリシーパッケージを第2の学生に割り当てることができます。|Teams PowerShell モジュールの PowerShell コマンドレット|
 | グループにポリシーパッケージを割り当てる (近日公開)   | ||
 
 ## <a name="assign-a-policy-to-individual-users"></a>個々のユーザーにポリシーを割り当てる
@@ -77,7 +77,7 @@ ms.locfileid: "43068499"
 
 ユーザーにポリシーを割り当てるには、次の操作を行います。
 
-1. Microsoft Teams 管理センターの左側のナビゲーションで、[**ユーザー**] に移動してユーザーをクリックします。
+1. Microsoft Teams 管理センターの左側のナビゲーションで、**[ユーザー]** に移動してユーザーをクリックします。
 2. ユーザー名の左側をクリックしてユーザーを選択し、[**編集を設定する**] をクリックします。
 3. 割り当てるポリシーを選択し、[**適用**] をクリックします。
 
@@ -87,9 +87,9 @@ ms.locfileid: "43068499"
 
 1. Microsoft Teams 管理センターの左側のナビゲーションで、[ポリシー] ページに移動します。
 2. ポリシー名の左側をクリックして、割り当てるポリシーを選択します。
-3. **[ユーザーを管理]** を選択します。
-4. **[ユーザーを管理]** ウィンドウで、表示名またはユーザー名でユーザーを検索し、名前を選択して **[追加]** を選びます。 追加するユーザーごとに、この手順を繰り返します。
-5. ユーザーの追加が完了したら、[**保存**] を選択します。
+3. [**ユーザーを管理**] を選択します。
+4. [**ユーザーを管理**] ウィンドウで、表示名またはユーザー名でユーザーを検索し、名前を選択して [**追加**] を選びます。 追加するユーザーごとに、この手順を繰り返します。
+5. ユーザーの追加が完了したら、**[保存]** を選択します。
 
 ### <a name="using-powershell"></a>PowerShell を使用する場合
 
@@ -374,6 +374,57 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity daniel@contoso.com -PolicyName $nu
 New-CsBatchPolicyAssignmentOperation -OperationName "Assigning null at bulk" -PolicyType TeamsMeetingBroadcastPolicy -PolicyName $null -Identity $users  
 ```
 
-## <a name="related-topics"></a>関連トピック
+## <a name="assign-a-policy-package-to-a-batch-of-users"></a>ユーザーのバッチにポリシーパッケージを割り当てる
+
+バッチポリシーパッケージの割り当てでは、スクリプトを使わずに、一度に多くのユーザーにポリシーパッケージを割り当てることができます。 ```New-CsBatchPolicyPackageAssignmentOperation```コマンドレットを使用して、割り当てるユーザーのバッチと、割り当てるポリシーパッケージを送信します。 割り当てはバックグラウンド操作として処理され、各バッチに対して操作 ID が生成されます。 その後、 ```Get-CsBatchPolicyAssignmentOperation```コマンドレットを使用して、バッチ内の課題の進捗状況と状態を追跡することができます。
+
+バッチには最大2万ユーザーを含めることができます。 ユーザーは、オブジェクト Id、UPN、SIP アドレス、またはメールアドレスで指定できます。
+
+> [!IMPORTANT]
+> 現時点では、5000ユーザーのバッチでポリシーパッケージを一度に割り当てることをお勧めします。 こうした需要が増加すると、処理時間の遅延が発生する可能性があります。 これらの増加した処理時間の影響を最小限に抑えるために、最大5000人のユーザーに対して少量のバッチサイズを送信し、前のバッチが完了した後でのみ各バッチを送信することをお勧めします。 通常の営業時間外にバッチを送信することもできます。
+
+### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Microsoft Teams PowerShell モジュールをインストールして接続する
+
+[Microsoft Teams PowerShell モジュール](https://www.powershellgallery.com/packages/MicrosoftTeams)をインストールするには、次を実行します (まだインストールされていない場合)。 バージョン1.0.5 以降をインストールしていることを確認してください。
+
+```powershell
+Install-Module -Name MicrosoftTeams
+```
+
+Teams に接続してセッションを開始するには、次を実行します。
+
+```powershell
+Connect-MicrosoftTeams
+```
+
+メッセージが表示されたら、管理者の資格情報を使用してサインインします。
+
+### <a name="assign-a-policy-package-to-a-batch-of-users"></a>ユーザーのバッチにポリシーパッケージを割り当てる
+
+この例では、 ```New-CsBatchPolicyPackageAssignmentOperation```コマンドレットを使用して、Education_PrimaryStudent ポリシーパッケージをユーザーのバッチに割り当てます。
+
+```powershell
+New-CsBatchPolicyPackageAssignmentOperation -Identity 1bc0b35f-095a-4a37-a24c-c4b6049816ab,user1@econtoso.com,user2@contoso.com -PackageName Education_PrimaryStudent
+```
+
+詳細については、「 [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation)」を参照してください。
+
+### <a name="get-the-status-of-a-batch-assignment"></a>バッチ割り当ての状態を取得する
+
+バッチ割り当ての状態を取得するには、次を実行します。 OperationId は、指定された```New-CsBatchPolicyAssignmentOperation```バッチのコマンドレットによって返される操作 ID です。
+
+```powershell
+$Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | fl
+```
+
+出力にエラーが発生したことが示された場合は、次を実行して、 ```UserState```プロパティのエラーに関する詳細情報を取得します。
+
+```powershell
+Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | Select -ExpandProperty UserState
+```
+
+詳細については、「 [Get-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csbatchpolicyassignmentoperation)」を参照してください。 
+
+## <a name="related-topics"></a>関連項目
 
 - [Teams での PowerShell の概要](teams-powershell-overview.md)
