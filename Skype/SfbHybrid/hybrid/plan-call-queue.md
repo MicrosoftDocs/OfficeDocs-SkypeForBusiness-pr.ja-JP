@@ -1,7 +1,7 @@
 ---
 title: Cloud call queue を計画する
-ms.author: jambirk
-author: jambirk
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: wasseemh
 audience: ITPro
@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Skype for Business Server 2019 でのクラウド自動応答の使用の概要。
-ms.openlocfilehash: 24a0bba82ef38288f5c96cc7c51ce1bfb88c8f05
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d14aeab9857f2a54e6622fb368193a2e270e0f49
+ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735227"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43510796"
 ---
 # <a name="plan-cloud-call-queues"></a>クラウド通話キューを計画する
 
@@ -31,7 +31,7 @@ Cloud call queue は、顧客からの通話を受け付け、案内応答メッ
 各呼び出しキューには、Skype for Business Server 2019 システムの**リソースアカウント**(「リソースアカウントの[構成](configure-onprem-ra.md)」を参照) が割り当てられています。これは、Microsoft Teams 管理センターの通話キューに直接リンクされます。 呼び出しキューの詳細については「 [Create a Cloud call queue](/MicrosoftTeams/create-a-phone-system-call-queue) 」と、通話キューに存在するオプションと機能を参照してください。
 
 > [!NOTE]
-> 複数の電話番号を通話キューに割り当てることができますが、それらは Microsoft サービス番号またはハイブリッド番号である必要があります。
+> 複数の電話番号を通話キューに割り当てることができますが、それらは Microsoft サービス番号、直接ルーティング番号、またはハイブリッド番号である必要があります。
 
 ## <a name="requirements"></a>Requirements
 
@@ -61,7 +61,7 @@ Cloud call queue は、顧客からの通話を受け付け、案内応答メッ
 
 [電話ユーザー インターフェイスでカスタム プロンプト録音を有効にする](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/greetings-announcements-menus-and-prompts/enable-custom-prompt-recording)
 
-[クラウド自動応答とは](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants)
+[クラウドの自動応答とは](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants)
 
 [クラウドの自動応答をセットアップする](/MicrosoftTeams/create-a-phone-system-auto-attendant)
 
@@ -69,4 +69,4 @@ Cloud call queue は、顧客からの通話を受け付け、案内応答メッ
 
 [Skype for Business Server と Office 365 の間のハイブリッド接続を構成する](configure-hybrid-connectivity.md)
 
-[Microsoft Teams でリソースアカウントを管理する](/MicrosoftTeams/manage-resource-accounts)
+[Microsoft Teams のリソースのアカウントの管理](/MicrosoftTeams/manage-resource-accounts)

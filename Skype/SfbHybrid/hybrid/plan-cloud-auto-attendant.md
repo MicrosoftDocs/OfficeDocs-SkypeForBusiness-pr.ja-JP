@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Skype for Business Server 2019 でのクラウド自動応答の使用の概要
-ms.openlocfilehash: 2cb4c54e4c70e9187e44c5de3cb70fac85be30a6
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: f0b8018e7a926444e7920ccac31ed3ff4ab5c15f
+ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42150478"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43510806"
 ---
 # <a name="plan-cloud-auto-attendants"></a>クラウド自動応答を計画する
 
@@ -25,10 +25,10 @@ Exchange ユニファイドメッセージング (Exchange Server 2013 または
 
 これは本質的に、自動応答などのユニファイドメッセージング機能を使用したい場合に、Skype for Business Server 2019 のハイブリッド実装を行うことを意味します。 詳細については[、「Skype For Business Server と Office 365 の間のハイブリッド接続の構成](configure-hybrid-connectivity.md)」を参照してください。
 
-自動応答とは、お客様の電話を受け取って、案内応答を受け取り、メニューオプションを提供し、音声または dialpad を使用して発信者と対話し、正しい宛先に通話をルーティングするクラウドサービスです。 各自動応答には、Microsoft Teams 管理センターの自動応答に直接リンクされる Skype for Business Server 2019 システムの**リソースアカウント**(「[リソースアカウントの構成](configure-onprem-ra.md)」を参照) が割り当てられます。 自動応答に関する詳細については、「[クラウド自動応答とは](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)」を参照してください。自動応答にはどのようなオプションと機能がありますか。
+自動応答は、お客様の電話を受け付け、案内応答を再生し、メニューオプションを提供し、音声またはダイヤルパッドを使用して発信者と対話して、呼び出しを正しい宛先にルーティングするクラウドサービスです。 各自動応答には、Microsoft Teams 管理センターの自動応答に直接リンクされる Skype for Business Server 2019 システムの*リソースアカウント*(「[リソースアカウントの構成](configure-onprem-ra.md)」を参照) が割り当てられます。 自動応答に関する詳細については、「[クラウド自動応答とは](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)」を参照してください。自動応答にはどのようなオプションと機能がありますか。
 
 > [!NOTE]
-> 自動応答には、複数の Microsoft サービス番号またはハイブリッド番号を割り当てることができます。
+> 複数の Microsoft サービス番号、直接ルーティング番号、またはハイブリッド番号を自動応答に割り当てることができます。
 
 クラウド自動応答への着信は、次に示すように、いくつかのパスのいずれかを受け取ることができます。
 
@@ -108,7 +108,7 @@ Microsoft では、次の移行パスをお勧めします。
 
 [電話ユーザー インターフェイスでカスタム プロンプト録音を有効にする](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/greetings-announcements-menus-and-prompts/enable-custom-prompt-recording)
 
-[クラウド自動応答とは](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants)
+[クラウドの自動応答とは](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants)
 
 [クラウドの自動応答をセットアップする](/microsoftteams/create-a-phone-system-auto-attendant)
 

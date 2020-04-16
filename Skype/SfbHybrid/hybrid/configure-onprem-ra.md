@@ -13,20 +13,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Skype for Business Server 2019 のリソースアカウントをセットアップします。
-ms.openlocfilehash: 14d2f161be54ac61c866597bdad141cf31138fbd
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: 1de087abdf08420a6300ae45466e9696aacb1ed1
+ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892307"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43510786"
 ---
 # <a name="configure-resource-accounts"></a>リソースアカウントを構成する
 
 Skype for Business Server 2019 ハイブリッド実装では、ユニファイドメッセージング用の電話システムで提供されるクラウドサービスのみを使用し、Exchange Online とは統合されません。 Skype for Business Server 2019 では、「 [Office で電話システムを](/MicrosoftTeams/here-s-what-you-get-with-phone-system)使用する方法」で説明されているクラウド通話キューと自動応答を使用できるようになりました365。
 
-Skype for Business Server 2019 で電話システムの自動応答または通話キューを使用するには、アプリケーションエンドポイントとして機能し、電話番号を割り当てることができるリソースアカウントを作成する必要があります。その後、オンライン Teams 管理センターを使用して、通話キューを構成するか、または自動応答。 このリソースアカウントは、この記事に記載されているように、オンラインにすることができます (「 [Microsoft Teams で](/MicrosoftTeams/manage-resource-accounts)リソースアカウントをホームにする」を参照してください)。 通常、複数の電話システムの自動応答または通話キューノードがあります。各ノードは、オンラインまたは Skype for Business Server 2019 に所属するリソースアカウントにマップされます。
+Skype for Business Server 2019 で電話システムの自動応答または通話キューを使用するには、アプリケーションエンドポイントとして機能し、電話番号を割り当てることができるリソースアカウントを作成する必要があります。その後、オンライン Teams 管理センターを使用して、通話キューまたは自動応答を構成します。 このリソースアカウントは、この記事に記載されているように、オンラインにすることができます (「 [Microsoft Teams で](/MicrosoftTeams/manage-resource-accounts)リソースアカウントをホームにする」を参照してください)。 通常、複数の電話システムの自動応答または通話キューノードがあります。各ノードは、オンラインまたは Skype for Business Server 2019 に所属するリソースアカウントにマップされます。
 
-既存の Exchange UM 自動応答と呼び出しキューシステムがある場合は、Exchange Server 2019 または Exchange online に切り替える前に、以下の説明に従って詳細を手動で記録し、Teams 管理センターを使用して完全に新しいシステムを実装する必要があります。.
+既存の Exchange UM 自動応答と呼び出しキューシステムがある場合は、Exchange Server 2019 または Exchange online に切り替える前に、以下の説明に従って詳細を手動で記録し、Teams 管理センターを使用して完全に新しいシステムを実装する必要があります。
 
 ## <a name="overview"></a>概要
 
@@ -105,7 +105,7 @@ Skype for Business Server 2019 で電話システムの自動応答または通�
 
    トップレベルの自動応答または呼び出しキューに割り当てられる場合は、リソースアカウントに、割り当てられた電話番号が必要です。 ユーザー (購読者) の電話番号をリソースアカウントに割り当てることはできません。サービスの有料またはフリーダイヤルの電話番号のみを使用できます。
 
-     直接ルーティングハイブリッド番号をリソースアカウントに割り当てることができます。 詳細については、「 [Plan Direct Routing](/MicrosoftTeams/direct-routing-plan)」を参照してください。
+     直接ルーティングまたはハイブリッド番号をリソースアカウントに割り当てることができます。 詳細については、「 [Plan Direct Routing](/MicrosoftTeams/direct-routing-plan) And [plan Cloud auto アテンダント](plan-cloud-auto-attendant.md)」を参照してください。
 
      > [!NOTE]
      > 自動応答および通話キューのリソースアカウントに割り当てられている直接ルーティングサービス番号は、Microsoft Teams のユーザーおよびエージェントに対してのみサポートされます。
