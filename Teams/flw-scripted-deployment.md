@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: caecd0d97e760470604fa164e6356a59699e57ad
-ms.sourcegitcommit: bc1d2e0478a429f981b53765e6194443b32ae35c
+ms.openlocfilehash: c747d68b53e428678fd07cd690fa7575262d4ae6
+ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43122921"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43227561"
 ---
 # <a name="how-to-provision-teams-at-scale-for-firstline-workers"></a>現場担当者向けにTeams 大規模にプロビジョニングする方法
 
@@ -38,9 +38,12 @@ Microsoft Teams に多数のユーザーをすばやく登録し、作業を効�
 - ユーザーにこれらのポリシーを規模に応じて適用します。
 - 指定されたチームに多数のユーザーを割り当てます。
 
+> [!NOTE]
+> この情報を確認して、支援が必要であったり、質問があったりする場合は、[**こちらをクリック**](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRyMDv-1voW9MqL7zkQ11DzBUREZaU1E0WEk5T0NYS0NDSkFMSDROUUdYMC4u)して、ホワイト グローブ サポートにアクセスしてください。
+
 ## <a name="prerequisites"></a>前提条件
 
-[この場所](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/FLWTeamsScale.zip?raw=true)から資産をダウンロードします。
+[この場所](https://aka.ms/flwteamsscale)から資産をダウンロードします。
 
 > [!IMPORTANT]
 > 上記のリンクに掲載されているスクリプトは、Microsoft が現状のまま提供しているもので、個別のニーズに合わせて変更する必要があります。
@@ -48,81 +51,83 @@ Microsoft Teams に多数のユーザーをすばやく登録し、作業を効�
 ## <a name="technical-requirements"></a>技術的要件
 
 - テナントには、Microsoft Teams を含む適切な数の使用可能なライセンスが必要です。 これらのライセンスをまだお持ちでない場合は、以下の手順に従って、[Office 365 E1 無料試用版](e1-trial-license.md)を有効にしてください。
-- これらの手順を実行するには、Azure AD のグローバル管理者またはユーザー管理者の役割で実行する必要があります。
+- これらの手順を実行するユーザーには、Azure AD で、グローバル管理者、ユーザー管理者、Teams サービス管理者の役割が割り当てられている必要があります。
 - ユーザーには、ローカル コンピューターにソフトウェアをインストールして構成する権限が必要です。
 
 ## <a name="step-by-step-process-overview"></a>手順を追ったプロセスの概要
 
 1. **環境を設定する**
-    1. サンプルの PowerShell スクリプトとドキュメントが含まれている ZIP ファイルをダウンロードする
-    1. 資格情報を設定する
+    1. サンプルの PowerShell スクリプトとドキュメントが含まれている GitHub レポジトリからダウンロードする
     1. ローカル環境を構成する
-    1. PowerShell のモジュールと環境変数を構成する
-    1. アプリ登録を作成する
+    1. 資格情報を設定する
+    1. PowerShell モジュールと環境変数を構成する
 1. **チームを作成して設定する**
     1. チームを作成する
+    1. チームを作成する手順
     1. チームのチャネルを作成する
 1. **チームのポリシーを作成する**
     1. チームのメッセージング ポリシーを作成する
     1. Teams アプリのセットアップ ポリシーを作成する
     1. Teams アプリのアクセス許可ポリシーを作成する
-1. **ユーザーを作成し設定する**
+1. **ユーザーとセキュリティ グループ**
     1. ユーザーとセキュリティ グループを作成する
     1. グループベースのライセンスを通じてユーザーにライセンスを割り当てる
 1. **ユーザーとポリシーを割り当てる**
     1. チームにユーザーを割り当てる
-    1. ユーザーとグループにポリシーを割り当てる
+    1. ユーザーにチーム ポリシーを割り当てる
+    1. オプション: グループ メンバーシップの種類の変換
 1. **テストと検証**
-    1. エラーをチェックする
     1. テスト ユーザーで Teams にログインする
+    1. エラーをチェックする
+    1. エラー処理
+1. **参照情報**
 
 ## <a name="set-up-your-environment"></a>環境を設定する
 
 次の手順で、環境を設定できます。
 
-### <a name="download-zip-file-containing-sample-powershell-scripts"></a>サンプル PowerShell スクリプトを含む .zip ファイルをダウンロードする
+### <a name="download-from-the-github-repository-containing-sample-powershell-scripts-and-documentation"></a>サンプルの PowerShell スクリプトとドキュメントが含まれている GitHub レポジトリからダウンロードする
 
-続行する前に、[この場所](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/FLWTeamsScale.zip?raw=true)からスクリプトをダウンロードする必要があります。
+続行する前に、[この場所](https://aka.ms/flwteamsscale)からスクリプトをダウンロードする必要があります。
+
+### <a name="configure-the-local-environment"></a>ローカル環境を構成する
+
+ローカル環境変数を設定すると、ここで参照するスクリプトを相対パスを使用して実行できます。 rootPath は、このリポジトリのクローンを作成した場所のルートであり、tenantName は**yourTenant.onmicrosoft.com** の形式です (https は含めません)。
+
+1. PowerShell セッションを開き、複製された git リポジトリ内の [scripts] フォルダーに移動します。
+1. 次のスクリプトを実行します。.\SetConfig.ps1 -tenantName [your tenant name] -rootPath "full path to the root of the git repo"。
+
+例: .\SetConfig.ps1 -tenantName contoso.onmicrosoft.com -rootPath "C:\data\source\FLWTeamsScale"
 
 ### <a name="setup-credentials"></a>資格情報を設定する
 
-このドキュメントとサンプル スクリプトでは、簡単にするために、ユーザーの資格情報を含む参照ファイルを作成することを選択しました。 この手法により、ローカル ストアで資格情報を維持しながら、さまざまなサービス エンドポイントすべてに対して認証を行う必要がなくなります。 後続のスクリプトを実行するには、ユーザーと環境に固有の資格情報を使用して参照ファイルを更新する必要があります。 後続の各スクリプト内から、適切な資格情報が **GetCreds** と呼ばれるヘルパー関数で読み取られ、それらの認証情報はさまざまなサービスへの接続に使用されます。
+> [!IMPORTANT]
+> これらのスクリプトでの資格情報の管理方法は、使用環境に適していない場合があります。要件を満たすために簡単に変更することができます。 会社の基準と慣行に常に準拠して、サービス アカウントと管理されている ID をセキュリティで保護します。
 
-異なるサービスが異なる資格情報を必要とすることは珍しいことではありません。 たとえば、Microsoft Teams、AzureAD、MSonline に異なる資格情報がある場合、SetCred を実行して、各資格情報ファイルを独自の意味のある名前を付けて保存できます。
+このスクリプトは、$ENV:LOCALAPPDATA\keys (AppData\Local フォルダー) 内に xml ファイルとして格納されている資格情報を使用します。 **BulkAddFunctions.psm1** モジュールのヘルパー関数 **Set-Creds** を呼び出して、これらのスクリプトの実行に使用する資格情報を設定する必要があります。 この手法により、ローカル ストアで資格情報を維持しながら、さまざまなサービス エンドポイントすべてに対して認証を行う必要がなくなります。 各スクリプト内から、適切な資格情報が **Get-Creds** ヘルパー関数で読み取られ、それらの認証情報はさまざまなサービスへの接続に使用されます。
 
-例: SetCreds msol-cred.xml SetCreds azuread-cred.xml SetCreds teams-cred.xml
+**Set-Creds** を呼び出すと、$ENV:LOCALAPPDATAkeys に書き込まれる XML ファイル名を指定するよう求めるメッセージが表示されます。 サービスごとに資格情報が異なる場合があります。 たとえば、Microsoft Teams、AzureAD、MSonline に異なる資格情報がある場合、**Set-Creds** を複数回実行して、各資格情報ファイルを独自の意味のある名前を付けて保存できます。
+
+例: Set-Creds msol-cred.xml Set-Creds azuread-cred.xml Set-Creds teams-cred.xml
+
+スクリプト **SetCreds.ps1** を実行して、資格情報を保存します。 "操作 "Export-Clixml" の実行中です..." というメッセージが表示されます。承認するには 'Y' を入力します。
 
 > [!NOTE]
-> 資格情報に使用されるアカウントでは、MFA を要求することはできません。
+> 資格情報に使用されるアカウントでは、多要素認証 (MFA) を要求することはできません。
 
 次に、さまざまなスクリプトが保存された資格情報を使用して認証する方法の例を示します。
 
 ```azurepowershell
 # Connect to MicrosoftTeams
-$teams_cred = GetCreds teams-cred.xml
+$teams_cred = Get-Creds teams-cred.xml
 Connect-MicrosoftTeams -Credential $teams_cred
 ```
 
-資格情報を設定するには、次の手順を実行します。
-
-1. .zip ファイル資産に含まれている **SetCreds.ps1** を見つけます。
-1. PowerShell から **SetCreds. ps1** スクリプトを実行して、資格情報を保存します。
-    1. "操作 "Export-Clixml" の実行中です..." をいうメッセージが表示されます。承認するには 'Y' を入力する必要があります。
-
-### <a name="configure-the-local-environment"></a>ローカル環境を構成する
-
-1. .zip ファイル資産に含まれている **SetConfig.ps1** を見つけます。
-1. PowerShell から次のコマンドを実行し、括弧で囲まれたエントリを特定の情報に置き換えます。
-    1. **SetConfig.ps1** -tenantName [your tenant name] -rootPath "[full path to the root of the git repo]"
-
-例: `.\SetConfig.ps1 -tenantName contoso.onmicrosoft.com -rootPath "C:\data\source\FLWTeamsScale"`
-
 ### <a name="configure-powershell-modules-and-environmental-variables"></a>PowerShell のモジュールと環境変数を構成する
 
-先に進む前に、Azure AD、MSAL、MSCloudUtils、MicrosoftTeams などのいくつかの PowerShell モジュールをインストールして接続する必要があります。
+Azure AD、MSAL、MSCloudUtils、MicrosoftTeams などのいくつかの PowerShell モジュールをインストールして接続する必要があります。
 
-1. .zip ファイル資産に含まれる **ConfigurePowerShellModules.ps1** を見つけます。
-1. 変数を使用して、次の環境変数を編集して置き換えます。
+1. リポジトリの [scripts] フォルダーで **ConfigurePowerShellModules.ps1** を見つけます。
 1. PowerShell から、**ConfigurePowerShellModules.ps1** スクリプトを実行します。
 
 ## <a name="create-and-set-up-teams"></a>チームを作成して設定する
@@ -143,8 +148,8 @@ Firstline Worker と通信して共同作業を行うには、最初に一連の
 
 #### <a name="steps-to-create-teams"></a>チームを作成する手順
 
-1. 資産に含まれる **Teams Information.csv** ファイルを見つけます。
-1. 組織固有の情報を使用して、**Teams Information.csv** ファイル内の情報を更新します。 上記のベスト プラクティスに留意してください。
+1. リポジトリの [data] フォルダーで、**TeamsInformation.csv** ファイルを見つけます。
+1. 組織固有の情報を使用して、**TeamsInformation.csv** ファイル内の情報を更新します。 上記のベスト プラクティスに留意してください。
 1. **CreateTeams. ps1** スクリプトを見つけます。
 1. PowerShell から **CreateTeams.ps1** スクリプトを実行します。
 
@@ -165,10 +170,10 @@ Firstline Worker と通信して共同作業を行うには、最初に一連の
 
 #### <a name="steps-to-create-channels-for-teams"></a>チームのチャネルを作成する手順
 
-1. .zip ファイル資産に含まれる **TeamsChannels.csv** ファイルを見つけます。
+1. リポジトリの [scripts] フォルダーで、**TeamsChannels.csv** ファイルを見つけます。
 1. 組織固有の情報を使用して、**Teams Information.csv** ファイルを更新します。 上記のベスト プラクティスに留意してください。
-1. .zip ファイル資産に含まれる **CreateTeamsChannels.ps1** スクリプトを見つけます。
-1. PowerShell から **TeamsChannels.ps1** スクリプトを実行します。
+1. リポジトリの [scripts] フォルダーで、**CreateTeamsChannels.ps1** スクリプトを見つけます。
+1. PowerShell から **CreateTeamsChannels.ps1** スクリプトを実行します。
 
 ## <a name="create-teams-policies"></a>チーム ポリシーを作成する
 
@@ -184,10 +189,10 @@ Firstline Worker と通信して共同作業を行うには、最初に一連の
 
 #### <a name="steps-to-create-teams-message-policies"></a>チームのメッセージング ポリシーを作成する手順
 
-1. .zip ファイル資産に含まれる **TeamsMessagingPolicies.csv** ファイルを見つけます。
+1. リポジトリの [scripts] フォルダーで、**TeamsMessagingPolicies.csv** ファイルを見つけます。
 1. 組織固有の情報を使用して、**TeamsMessagingPolicies.csv** ファイルを更新します。 さまざまなオプションのいくつかの詳細については、[こちら](https://docs.microsoft.com/microsoftteams/messaging-policies-in-teams#messaging-policy-settings)をご覧ください。
-1. 資産に含まれる **CreateTeamsMessagePolicies.ps1** スクリプトを見つけます。
-1. PowerShell から **TeamsMessagePolicies.ps1** スクリプトを実行します。
+1. リポジトリの [scripts] フォルダーで、**CreateTeamsMessagePolicies.ps1** スクリプトを見つけます。
+1. PowerShell から **CreateTeamsMessagePolicies.ps1** スクリプトを実行します。
 
 ### <a name="create-teams-app-setup-policies"></a>Teams アプリのセットアップ ポリシーを作成する
 
@@ -251,7 +256,7 @@ Firstline Worker と通信して共同作業を行うには、最初に一連の
     1. Teams
     1. ![ワーカー アプリ リストのスクリーンショットを順番に](media/FLW-Worker-Pinned-Apps.png)シフトします。
 
-### <a name="create-app-permission-policies"></a>アプリのアクセス許可ポリシーを作成する
+### <a name="create-teams-app-permission-policies"></a>Teams アプリのアクセス許可ポリシーを作成する
 
 管理者であれば、アプリのアクセス許可ポリシーを使用して、組織の Microsoft Teams ユーザーが使用できるアプリを制御できます。 すべてのアプリ、または Microsoft、第三者、お客様の組織によって公開されている特定のアプリを許可またはブロックすることができます。 アプリをブロックした場合、ポリシーを持つユーザーは、Teams アプリ ストアからアプリをインストールできません。 これらのポリシーを管理するには、グローバル管理者または Teams サービス管理者である必要があります。
 
@@ -285,9 +290,9 @@ Firstline Worker と通信して共同作業を行うには、最初に一連の
 6. [テナント アプリ] の下で、**[すべてのアプリを許可]** を選択します。
 7.  **[保存]** をクリックします。
 
-## <a name="create-and-set-up-users"></a>ユーザーを作成して設定する
+## <a name="users-and-security-groups"></a>ユーザーとセキュリティ グループ
 
-### <a name="create-user-and-security-groups"></a>ユーザーとセキュリティ グループを作成する
+### <a name="create-users-and-security-groups"></a>ユーザーとセキュリティ グループを作成する
 
 Teams で大量のユーザーと共同作業するには、最初に Azure AD でユーザーを作成する必要があります。 多数のユーザーをプロビジョニングする方法はたくさんありますが、以下を強調しておきます。
 
@@ -298,17 +303,17 @@ Teams で大量のユーザーと共同作業するには、最初に Azure AD �
 
 これらのユーザーをより効果的に大規模に管理するには、Firstline Workers と Firstline Managers の 2 つのセキュリティ グループを作成し、次の手順に従って、これらのユーザーをセキュリティ グループに直接プロビジョニングする必要があります。
 
-1. .zip ファイル資産に含まれる **SecurityGroups.csv** ファイルを見つけます。
-1. 組織固有の情報を使用して、**Teams SecurityGroups.csv** ファイルを更新します。
-    1. **MessagePolicy**、**AppPermissionPolicy**、**AppSetupPolicy** フィールドを更新して、前に作成した適切なポリシーにマップしてください。
-    1. **LicensePlan** フィールドを更新して、これらのユーザーに付与する予定のライセンスを反映してください。 製品名とサービス プラン識別子の詳細については、[こちら](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference)のドキュメントをご覧ください。
-1. .zip ファイル資産に含まれる **Users.csv** ファイルを見つけます。
+1. リポジトリの [scripts] フォルダーで、**Users.csv** ファイルを見つけます。
 1. 組織固有の情報を使用して、**Users.csv** ファイルを更新します。
     1. 既定で、提供されるスクリプトは、初回ログイン時に変更する必要のある一時的なパスワードを持つユーザーを作成します。 既定のパスワードを使用しない場合は、**CreateUsers.ps1** スクリプトを編集して要件に合わせます。
     1. SecurityGroup フィールドを更新して、前に作成した適切な名前を反映させます。
+1. リポジトリの [scripts] フォルダーで、**SecurityGroups.csv** ファイルを見つけます。
+1. 組織固有のセキュリティ グループ情報を使用して、**SecurityGroups.csv** ファイルを更新します。
+    1. **MessagePolicy**、**AppPermissionPolicy**、**AppSetupPolicy** フィールドを更新して、前に作成した適切なポリシーにマップしてください。
+    1. **LicensePlan** フィールドを更新して、これらのユーザーに付与する予定のライセンスを反映してください。 製品名とサービス プラン識別子の詳細については、[こちら](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference)のドキュメントをご覧ください。
 1. PowerShell から、資産の **CreateUsers.ps1** スクリプトを実行します。
 
-### <a name="assign-licensing-to-users-by-group-based-licensing"></a>グループベースのライセンスによりユーザーにライセンスを割り当てる
+### <a name="assign-licensing-to-users-via-group-based-licensing"></a>グループベースのライセンスを通じてユーザーにライセンスを割り当てる
 
 Office 365、Enterprise Mobility + Security、Dynamics 365 などの Microsoft 有料クラウドサービス、およびその他の同様の製品にはライセンスが必要です。 これらのライセンスは、これらのサービスにアクセスする必要がある各ユーザーに割り当てられます。 ライセンスを管理するために、管理者は、管理ポータル (Office または Azure) と PowerShell コマンドレットのいずれかを使用します。 Azure Active Directory (Azure AD) は、すべての Microsoft クラウド サービスの ID 管理をサポートする基盤となるインフラストラクチャです。 Azure AD には、ユーザーのライセンスの割り当て状態に関する情報が格納されます。
 
@@ -316,34 +321,65 @@ Office 365、Enterprise Mobility + Security、Dynamics 365 などの Microsoft �
 
 ## <a name="assign-users-and-policies"></a>ユーザーとポリシーを割り当てる
 
-### <a name="assigning-users-to-teams"></a>チームにユーザーを割り当てる
+### <a name="assign-users-to-teams"></a>チームにユーザーを割り当てる
 
 ユーザーを作成してチームを作成したので、今度はすべてのユーザーを適切なチームに配置します。
 
-1. .zip ファイル資産に含まれる **Users.csv** ファイルを見つけて、このファイルのチームに正確にマップしてください。
-1. PowerShell から .zip ファイル資産に含まれる **AssignUserstoTeams.ps1** スクリプトを実行します。
+1. レポジトリの [data] フォルダーで、**Users.csv** ファイルを見つけて、このファイルのチームに正確にマップしてください。
+1. PowerShell から、レポジトリの [scripts] フォルダーで、**AssignPoliciestoUsers.ps1** スクリプトを実行します。
 
 ### <a name="assign-teams-policies-to-users"></a>ユーザーにチーム ポリシーを割り当てる
 
 Teams でユーザー エクスペリエンスを変更するためのユーザーとポリシーを作成したので、次に、それらのポリシーを正しいユーザーに割り当てます。
 
-1. .zip ファイル資産に含まれる **SecurityGroups.csv** ファイルを見つけて、グループにポリシーを正確にマップしてください。
-1. PowerShell から .zip ファイル資産に含まれる **AssignPoliciestoUsers.ps1** スクリプトを実行します。
+1. レポジトリの [data] フォルダーで、**SecurityGroups.csv** ファイルを見つけて、グループにポリシーを正確にマップしてください。
+1. PowerShell から、レポジトリの [data] フォルダーで、**AssignPoliciestoUsers.ps1** スクリプトを実行します。
+
+### <a name="optional-convert-group-membership-type"></a>オプション: グループ メンバーシップの種類の変換
+
+> [!NOTE]
+> この手順は、Azure AD P1 以上のユーザーが対象です。
+
+Azure AD P1 以上のライセンスを取得した場合、割り当て済みのメンバーシップを使用する代わりに動的グループ メンバーシップを使用することができます。 チームを作成したスクリプトにより、メンバーシップの種類が「割り当て済み」の Office グループも作成されています。そのメンバーは明示的に追加する必要があります。
+
+動的メンバーシップーを使用すると、ユーザーがチームのメンバーであるかどうかを判断するためのルールが記述されます。
+
+> [!NOTE]
+> このスクリプトを実行すると、グループの現在のメンバーシップが削除されます (所有者を除く)。メンバーシップ同期ジョブが実行されると新しいメンバーが追加されます。
+
+1. リポジトリの [data] フォルダーで、**migrateGroups.csv** ファイルを見つけます。
+1. 移行先のグループを使用して、CSV ファイル **migrateGroups.csv** を、動的メンバーシップのルールと共に更新します。
+1. リポジトリの [scripts] フォルダーで、**ConvertGroupMembershipType.ps1** ファイルを見つけます。
+1. PowerShell から、スクリプト **ConvertGroupMembershipType.ps1** を実行します。
 
 ## <a name="test-and-validate"></a>テストと検証
-
-### <a name="check-for-errors"></a>エラーをチェックする
-
-以前のスクリプトを実行したときに、.zip ファイル資産のログ フォルダーにある .csv ファイルにエラーまたは例外が書き込まれました。 このファイルは、発生する可能性がある問題を調査するために使用できます。
-
-例外の例としては、テナントに既に存在するチームを作成しようとした場合があります。
-
-1. [**Logs**] フォルダーを見つけ、それに含まれている .csv ファイルを確認します。 例外がない場合は、ここに例外ファイルが見つからない可能性があります。
 
 ### <a name="login-to-teams-with-a-test-user"></a>テスト ユーザーで Teams にログインする
 
 すべての手順を完了したので、完了した作業を確認します。
 
-1. 以前のリストからユーザーを選択し、そのユーザーの資格情報を使用して Teams にログインします。
+1. 作成されたユーザーには、CreateUsers.ps1 内の初期パスワードが設定されます。これは、最初のログイン時に変更する必要があります。
 1. Teams のルックアンドフィールが期待どおりであることを確認します。 そうでない場合、**[チームポリシーを作成する]** と **[ユーザーにチーム ポリシーを割り当てる]** のセクションを確認してください。
 1. ユーザーが正しいチームに属していることを確認します。 そうでない場合、**[ユーザーを作成し設定する]** と **[チームにユーザーを割り当てる]** のセクションを確認してください。
+
+> [!NOTE]
+> Firstline の従業員のプロビジョニングが、ID とアクセスの管理チームによって管理されている場合は、従業員の資格情報を提供するために、管理チームのプロセスに従う必要があります。
+
+### <a name="check-for-errors"></a>エラーをチェックする
+
+以前のスクリプトを実行したときに、リポジトリのコピーのログ フォルダーにある .csv ファイルにエラーまたは例外が書き込まれました。 このファイルは、発生する可能性がある問題を調査するために使用できます。
+
+例外の例としては、テナントに既に存在するチームを作成しようとした場合があります。
+
+1. [**Logs**] フォルダーを見つけ、それに含まれている .csv ファイルを確認します。 例外がない場合は、ここに例外ファイルが見つからない可能性があります。
+
+### <a name="error-handling"></a>エラー処理
+
+これらのスクリプトのサンプルでは、最小限のエラー処理が実装されています。 try ブロックまたは catch ブロックがあります。トリガーされた場合、catch ブロック内の変数にエラーを格納します。 追加のエラー処理は、お客様の意向に従って実装してください。
+
+## <a name="further-reading"></a>参考資料
+
+- [新しいチーム チャネル (Powershell)](https://docs.microsoft.com/powershell/module/teams/new-teamchannel?view=teams-ps)
+- [新しい Teams メッセージング ポリシー (Powershell)](https://docs.microsoft.com/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)
+- [Microsoft Teams でユーザーにライセンスを割り当てる](assign-policies.md#install-and-connect-to-the-microsoft-teams-powershell-module)
+- [Office 365 PowerShell を使用してライセンスやユーザー アカウントを割り当てる](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)
