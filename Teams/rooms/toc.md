@@ -15,7 +15,7 @@
 ### [Skype for Business Server の場合](with-skype-for-business-server-2015.md)
 ### [Exchange Online の場合 (ハイブリッド)](with-exchange-online.md)
 ### [オンプレミスの Exchange の場合 (ハイブリッド)](with-exchange-on-premises.md)
-### [コンソールの構成](console.md)
+### [コンソールを構成する](console.md)
 ### [認証を構成する](rooms-authentication.md)
 ### [Microsoft Endpoint Configuration Manager を使用する](rooms-scale.md)
 ### [Azure Monitor による管理](azure-monitor-deploy.md)
