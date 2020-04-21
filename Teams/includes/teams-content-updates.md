@@ -3,36 +3,6 @@
 
 
 
-## <a name="week-of-march-09-2020"></a>2020年3月9日の週
-
-
-| 公開日 |トピックのタイトル | 変更 |
-|------|------------|--------|
-| 3/10/2020 | [Teams のクラウド会議の記録](/MicrosoftTeams/cloud-recording) | 更新日時 |
-| 3/10/2020 | [データ収集方法](/MicrosoftTeams/data-collection-practices) | 更新日時 |
-| 3/10/2020 | [通話品質ダッシュボードで利用可能な寸法と測定値](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 更新日時 |
-| 3/10/2020 | [PSTN サービスデスクに問い合わせる](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-pstn-service-desk) | 更新日時 |
-| 3/10/2020 | [番号移行注文の状況](/MicrosoftTeams/phone-number-calling-plans/port-order-status) | 更新日時 |
-| 3/10/2020 | [Microsfot Teams で招待状に含まれている電話番号を設定する](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams) | 更新日時 |
-| 3/10/2020 | [Microsoft Teams ユーザーのための講師による指導付きトレーニングとビデオ](/MicrosoftTeams/instructor-led-training-teams-landing-page) | 更新日時 |
-| 3/10/2020 | [教育機関管理者向けの Microsoft Teams のリソース](/MicrosoftTeams/remote-learning-edu) | 更新日時 |
-| 3/10/2020 | [Microsoft Teams でのデバイスを管理する](/MicrosoftTeams/device-management) | 更新日時 |
-| 3/11/2020 | [Microsoft Teams のアプリのアクセス許可ポリシーを管理する](/MicrosoftTeams/teams-app-permission-policies) | 更新日時 |
-| 3/11/2020 | [Microsoft Teams のアプリのセットアップ ポリシーを管理する](/MicrosoftTeams/teams-app-setup-policies) | 更新日時 |
-| 3/11/2020 | [Microsoft Teams のカスタム アプリのポリシーと設定を管理する](/MicrosoftTeams/teams-custom-app-policies-and-settings) | 更新日時 |
-| 3/11/2020 | [Microsoft Teams でユーザーにポリシーを割り当てる](/MicrosoftTeams/assign-policies) | 更新日時 |
-| 3/11/2020 | [学校の大規模なユーザーセットにポリシーを割り当てる](/MicrosoftTeams/batch-policy-assignment-edu) | 更新日時 |
-| 3/12/2020 | [仮想デスクトップ インフラストラクチャ用の Teams](/MicrosoftTeams/teams-for-vdi) | 更新日時 |
-| 3/12/2020 | [よく寄せられる質問 - リモートの従業員をサポートする](/MicrosoftTeams/faq-support-remote-workforce) | 更新日時 |
-| 3/13/2020 | [インドでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-india) | 更新日時 |
-| 3/13/2020 | [教育機関管理者向けの Microsoft Teams のリソース](/MicrosoftTeams/remote-learning-edu) | 更新日時 |
-| 3/13/2020 | [Microsoft Teams でプライベートチャネルのライフサイクルを管理する](/MicrosoftTeams/private-channels-life-cycle-management) | 更新日時 |
-| 3/13/2020 | [Microsoft Teams の PSTN 使用状況レポート](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | 更新日時 |
-| 3/13/2020 | [Microsoft Teams ユーザーのための講師による指導付きトレーニングとビデオ](/MicrosoftTeams/instructor-led-training-teams-landing-page) | 更新日時 |
-| 3/13/2020 | [Microsoft Teams 用に組織のネットワークを準備する](/MicrosoftTeams/prepare-network) | 更新日時 |
-| 3/13/2020 | [Microsoft Teams を使用してリモート ワーカーをサポートする](/MicrosoftTeams/support-remote-work-with-teams) | 更新日時 |
-
-
 ## <a name="week-of-march-16-2020"></a>2020年3月16日の週
 
 
@@ -45,10 +15,10 @@
 | 3/17/2020 | [Microsoft Teams のチャット、チーム、チャネル、およびアプリ](/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) | 更新日時 |
 | 3/17/2020 | [無料の Office 365 E1 試用版を管理する](/MicrosoftTeams/e1-trial-license) | 更新日時 |
 | 3/17/2020 | [Microsoft Teams で最初のチームとチャネルを作成する](/MicrosoftTeams/get-started-with-teams-create-your-first-teams-and-channels) | 更新日時 |
-| 3/17/2020 | [Teams のテンプレートの使用を開始する](/MicrosoftTeams/get-started-with-teams-templates) | 更新 |
+| 3/17/2020 | [Teams のテンプレートの使用を開始する](/MicrosoftTeams/get-started-with-teams-templates) | 更新日時 |
 | 3/17/2020 | [Microsoft Teams を使用してリモート ワーカーをサポートする](/MicrosoftTeams/support-remote-work-with-teams) | 更新日時 |
 | 3/17/2020 | [政府機関、教育機関、非営利団体](/MicrosoftTeams/teams-add-on-licensing/gov-edu-and-nonprofit-organizations) | 更新日時 |
-| 3/17/2020 | [Teams Only モードの考慮事項](/MicrosoftTeams/teams-only-mode-considerations) | 更新 |
+| 3/17/2020 | [Teams Only モードの考慮事項](/MicrosoftTeams/teams-only-mode-considerations) | 更新日時 |
 | 3/17/2020 | [Teams のアドバイザー (プレビュー) を使用して、Microsoft Teams の展開を支援する](/MicrosoftTeams/use-advisor-teams-roll-out) | 更新日時 |
 | 3/18/2020 | [無料の Office 365 E1 試用版を管理する](/MicrosoftTeams/e1-trial-license) | 更新日時 |
 | 3/18/2020 | [Microsoft Teams でポリシーパッケージを管理する](/MicrosoftTeams/manage-policy-packages) | 更新日時 |
@@ -61,7 +31,7 @@
 | 3/18/2020 | [Teams のライセンスを割り当てる](/MicrosoftTeams/assign-teams-licenses) | 更新日時 |
 | 3/18/2020 | [Microsoft Teams でのミーティングと会議](/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page) | 更新日時 |
 | 3/18/2020 | [ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト](/MicrosoftTeams/direct-routing-border-controllers) | 更新日時 |
-| 3/18/2020 | [ダイレクト ルーティングを計画する](/MicrosoftTeams/direct-routing-plan) | 修正 |
+| 3/18/2020 | [ダイレクト ルーティングを計画する](/MicrosoftTeams/direct-routing-plan) | 更新日時 |
 | 3/18/2020 | [Microsoft Teams のエンド ユーザー トレーニング](/MicrosoftTeams/enduser-training) | 更新日時 |
 | 3/18/2020 | [米国政府機関向けの無料の Office 365 G1 試用版を管理する](/MicrosoftTeams/g1-trial-license) | 更新日時 |
 | 3/18/2020 | [中国で Android 用 Microsoft Teams を取得する](/MicrosoftTeams/get-teams-android-in-china) | 更新日時 |
@@ -84,7 +54,7 @@
 | 3/20/2020 | [仮想デスクトップ インフラストラクチャ用の Teams](/MicrosoftTeams/teams-for-vdi) | 更新日時 |
 | 3/20/2020 | [Teams のアドバイザー (パブリック プレビュー) を使用して、Microsoft Teams の展開を支援する](/MicrosoftTeams/use-advisor-teams-roll-out) | 更新日時 |
 | 3/20/2020 | [呼び出しキューを作成する](/MicrosoftTeams/create-a-phone-system-call-queue) | 更新日時 |
-| 3/20/2020 | [ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト](/MicrosoftTeams/direct-routing-border-controllers) | 更新日時 |
+| 3/20/2020 | [ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト](/MicrosoftTeams/direct-routing-border-controllers) | 更新 |
 | 3/20/2020 | [Microsoft Teams Exploratory エクスペリエンスを管理する](/MicrosoftTeams/teams-exploratory) | 更新日時 |
 
 
@@ -98,10 +68,10 @@
 | 3/24/2020 | [Microsoft Teams の管理者トレーニング](/MicrosoftTeams/itadmin-readiness) | 更新日時 |
 | 3/24/2020 | [ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト](/MicrosoftTeams/direct-routing-border-controllers) | 更新日時 |
 | 3/24/2020 | [Microsoft 365 ユーザーを作成し、Business Voice ライセンスを追加し、電話番号を割り当てる](/MicrosoftTeams/business-voice/create-users) | 更新日時 |
-| 3/25/2020 | [Microsoft Teams の既知の問題](/MicrosoftTeams/known-issues) | 更新 |
+| 3/25/2020 | [Microsoft Teams の既知の問題](/MicrosoftTeams/known-issues) | 更新日時 |
 | 3/25/2020 | [Microsoft Teams のゲスト アクセス チェックリスト](/MicrosoftTeams/guest-access-checklist) | 更新日時 |
 | 3/25/2020 | [Microsoft Teams でタグを管理する](/MicrosoftTeams/manage-tags) | 更新日時 |
-| 3/25/2020 | [ダイレクト ルーティングを計画する](/MicrosoftTeams/direct-routing-plan) | 修正 |
+| 3/25/2020 | [ダイレクト ルーティングを計画する](/MicrosoftTeams/direct-routing-plan) | 更新日時 |
 | 3/25/2020 | [Microsoft Teams でサポートされていないブラウザーに関する会議](/MicrosoftTeams/unsupported-browsers) | 更新日時 |
 | 3/26/2020 | [Microsoft 365 米国政府向けクラウド (GCC) の展開の計画 - Microsoft Teams](/MicrosoftTeams/plan-for-government-gcc) | 更新日時 |
 | 3/26/2020 | [Microsoft Teams でチーム所有者とメンバーを割り当てる](/MicrosoftTeams/assign-roles-permissions) | 更新日時 |
@@ -111,11 +81,11 @@
 | 3/26/2020 | [教育機関管理者向けの Microsoft Teams のリソース](/MicrosoftTeams/remote-learning-edu) | 更新日時 |
 | 3/26/2020 | [通話品質ダッシュボードを有効にして使用する](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | 更新日時 |
 | 3/26/2020 | [CQD のデータを使用して、Power BI で Microsoft Teams の使用率を表示する](/MicrosoftTeams/cqd-teams-utilization-report) | 更新日時 |
-| 3/26/2020 | [Microsoft Teams でユーザーにポリシーを割り当てる](/MicrosoftTeams/assign-policies) | 更新日時 |
+| 3/26/2020 | [Microsoft Teams でユーザーにライセンスを割り当てる](/MicrosoftTeams/assign-policies) | 更新日時 |
 | 3/26/2020 | [先進認証を使用して Microsoft Teams にサインインする](/MicrosoftTeams/sign-in-teams) | 更新日時 |
-| 3/26/2020 | [Microsoft Teams でのライブ イベントの計画](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 更新 |
+| 3/26/2020 | [Microsoft Teams でのライブ イベントの計画](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 更新日時 |
 | 3/26/2020 | [ユーザーの電話番号を割り当て、変更、または削除する](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user) | 更新日時 |
-| 3/26/2020 | [ユーザーが通話を発信できる相手先の国や地域](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions) | 更新 |
+| 3/26/2020 | [ユーザーが通話を発信できる相手先の国や地域](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions) | 更新日時 |
 | 3/26/2020 | [Microsoft Teams ミーティングの要件](/MicrosoftTeams/rooms/requirements) | 更新日時 |
 | 3/26/2020 | [Microsoft Teams を使用してリモート ワーカーをサポートする](/MicrosoftTeams/support-remote-work-with-teams) | 更新日時 |
 | 3/26/2020 | [教育機関管理者向けの Microsoft Teams のリソース](/MicrosoftTeams/resources-teams-edu) | 更新日時 |
@@ -135,7 +105,7 @@
 |------|------------|--------|
 | 3/31/2020 | [よく寄せられる質問 - リモートの従業員をサポートする](/MicrosoftTeams/faq-support-remote-workforce) | 更新日時 |
 | 3/31/2020 | [Microsoft Teams での会議](/MicrosoftTeams/tutorial-meetings-in-teams) | 更新日時 |
-| 3/31/2020 | [Microsoft Teams でユーザーにポリシーを割り当てる](/MicrosoftTeams/assign-policies) | 更新日時 |
+| 3/31/2020 | [Microsoft Teams でユーザーにライセンスを割り当てる](/MicrosoftTeams/assign-policies) | 更新日時 |
 | 3/31/2020 | [ユーザーの [電話する] 機能をセットアップする](/MicrosoftTeams/set-up-the-call-me-feature-for-your-users) | 更新日時 |
 | 3/31/2020 | [Microsoft Teams を使用して政府機関のリモート ワーカーをサポートする](/MicrosoftTeams/expand-teams-across-your-org/gov-support-remote-work-with-teams) | 更新日時 |
 | 3/31/2020 | [医療組織向け Secure Messaging で Teams を始めましょう](/MicrosoftTeams/expand-teams-across-your-org/healthcare/messaging-policies-hc) | 更新日時 |
@@ -146,7 +116,7 @@
 | 3/31/2020 | [Microsoft 365 米国政府向けクラウド (GCC) の展開の計画 - Microsoft Teams](/MicrosoftTeams/plan-for-government-gcc) | 修正 |
 | 3/31/2020 | [Teams メッセージングの優先度通知](/MicrosoftTeams/teams-add-on-licensing/pri-message) | 更新日時 |
 | 4/1/2020 | [よく寄せられる質問 - リモートの従業員をサポートする](/MicrosoftTeams/faq-support-remote-workforce) | 更新日時 |
-| 4/1/2020 | [Microsoft Teams での会議](/MicrosoftTeams/tutorial-meetings-in-teams) | 修正 |
+| 4/1/2020 | [Microsoft Teams での会議](/MicrosoftTeams/tutorial-meetings-in-teams) | 更新日時 |
 | 4/1/2020 | [Microsoft Teams での外部アクセス (フェデレーション) の管理](/MicrosoftTeams/manage-external-access) | 更新日時 |
 | 4/1/2020 | [Teams でのユーザーのプレゼンス](/MicrosoftTeams/presence-admins) | 更新日時 |
 | 4/1/2020 | [Microsoft Teams の保持ポリシー](/MicrosoftTeams/retention-policies) | 更新日時 |
@@ -172,7 +142,7 @@
 | 4/1/2020 | [バージョンのサポート](/MicrosoftTeams/rooms/rooms-lifecycle-support) | 更新日時 |
 | 4/1/2020 | [Microsoft Teams ミーティング のコンソールの設定を、XML 構成ファイルを使用してリモートで管理する](/MicrosoftTeams/rooms/xml-config-file) | 更新日時 |
 | 4/1/2020 | [PowerShell を使用して Microsoft Teams でのライブ イベント ポリシーを設定する](/MicrosoftTeams/teams-live-events/set-teams-live-events-policies-using-powershell) | 更新日時 |
-| 4/1/2020 | [SharePoint Online のサイトまたはページから Teams のイントラネットポータルアプリを作成する](/MicrosoftTeams/teams-standalone-static-tabs-using-spo-sites) | 更新日時 |
+| 4/1/2020 | [SharePoint Online サイトまたはページから Terms の「イントラネット ポータル アプリ」を作成する](/MicrosoftTeams/teams-standalone-static-tabs-using-spo-sites) | 更新日時 |
 | 4/2/2020 | [RealWear 用 Microsoft Teams クライアントの IT 管理情報 (プレビュー)](/MicrosoftTeams/flw-realwear) | 更新日時 |
 | 4/2/2020 | [Microsoft Endpoint Configuration Manager から MSI を使用して Microsoft Teams をインストールする](/MicrosoftTeams/msi-deployment) | 更新日時 |
 | 4/2/2020 | [Microsoft Teams のセキュリティ ガイド](/MicrosoftTeams/teams-security-guide) | 更新日時 |
@@ -187,7 +157,7 @@
 | 4/2/2020 | [Firstline Workers 用に規模に応じて Microsoft Teams をプロビジョニングする](/MicrosoftTeams/flw-scripted-deployment) | 更新日時 |
 | 4/2/2020 | Microsoft Teams のテクニカル ドキュメンテーション | 削除されました |
 | 4/3/2020 | [Exchange と Microsoft Teams の連携](/MicrosoftTeams/exchange-teams-interact) | 更新日時 |
-| 4/3/2020 | [Microsoft Teams との SharePoint Online と OneDrive for Business の連携](/MicrosoftTeams/sharepoint-onedrive-interact) | 更新 |
+| 4/3/2020 | [Microsoft Teams との SharePoint Online と OneDrive for Business の連携](/MicrosoftTeams/sharepoint-onedrive-interact) | 更新日時 |
 | 4/3/2020 | [RealWear 用 Microsoft Teams クライアントの IT 管理情報 (プレビュー)](/MicrosoftTeams/flw-realwear) | 更新日時 |
 | 4/3/2020 | [教育機関管理者向けの Microsoft Teams のリソース](/MicrosoftTeams/remote-learning-edu) | 更新日時 |
 | 4/3/2020 | [Microsoft Teams のセキュリティ ガイド](/MicrosoftTeams/teams-security-guide) | 更新日時 |
@@ -246,7 +216,7 @@
 | 4/3/2020 | [プランの発信に使用する電話番号の種類](/MicrosoftTeams/different-kinds-of-phone-numbers-used-for-calling-plans) | 更新日時 |
 | 4/3/2020 | [サイズと測定-通話品質ダッシュボード](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 更新日時 |
 | 4/3/2020 | [直接ルーティングが認定済みのセッション境界コントローラー](/MicrosoftTeams/direct-routing-border-controllers) | 更新日時 |
-| 4/3/2020 | [ダイレクト ルーティングを計画する](/MicrosoftTeams/direct-routing-plan) | 更新日時 |
+| 4/3/2020 | [ダイレクト ルーティングを計画する](/MicrosoftTeams/direct-routing-plan) | 更新 |
 | 4/3/2020 | [セッション境界のコントローラーを構成する-複数のテナント](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | 更新日時 |
 | 4/3/2020 | [PSTN を使用したハイブリッド環境のユーザーアカウント](/MicrosoftTeams/direct-routing-user-accounts-in-a-hybrid-environment) | 更新日時 |
 | 4/3/2020 | [コンテンツの電子情報開示調査の実施](/MicrosoftTeams/ediscovery-investigation) | 更新日時 |
@@ -264,7 +234,7 @@
 | 4/3/2020 | [Patients アプリの概要](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app) | 更新日時 |
 | 4/3/2020 | [患者のアプリと EHR の統合 STU3 インターフェイス](/MicrosoftTeams/expand-teams-across-your-org/healthcare/stu3-interface) | 更新日時 |
 | 4/3/2020 | [組織のシフトアプリを管理する](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | 更新日時 |
-| 4/3/2020 | [Microsoft StaffHub はまもなく廃止予定です](/MicrosoftTeams/expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired) | 更新日時 |
+| 4/3/2020 | [Microsoft StaffHub はまもなく廃止予定です](/MicrosoftTeams/expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired) | 更新 |
 | 4/3/2020 | [StaffHub teams をシフトに移動する](/MicrosoftTeams/expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams) | 更新日時 |
 | 4/3/2020 | [StaffHub teams のシフトへの移行を計画する](/MicrosoftTeams/expand-teams-across-your-org/shifts/plan-to-move-staffhub-teams-to-shifts-in-teams) | 更新日時 |
 | 4/3/2020 | [教育機関向けの Teams ](/MicrosoftTeams/expand-teams-across-your-org/teams-for-education-landing-page) | 更新日時 |
@@ -311,7 +281,7 @@
 | 4/3/2020 | [Teams または Skype for Business のフィードバックアンケート](/MicrosoftTeams/prepare-my-users-feedback-templates) | 更新日時 |
 | 4/3/2020 | [Teams 用に組織のネットワークを準備する](/MicrosoftTeams/prepare-network) | 更新日時 |
 | 4/3/2020 | [Microsoft Teams のエクスペリエンスの品質レビュー ガイド](/MicrosoftTeams/quality-of-experience-review-guide) | 修正 |
-| 4/3/2020 | [Microsoft Teams でユーザーの会議 ID をリセットする](/MicrosoftTeams/reset-a-conference-id-for-a-user-in-teams) | 更新 |
+| 4/3/2020 | [Microsoft Teams でユーザーの会議 ID をリセットする](/MicrosoftTeams/reset-a-conference-id-for-a-user-in-teams) | 更新日時 |
 | 4/3/2020 | [Azure モニターを使用して Microsoft Teams のルーム管理を展開する](/MicrosoftTeams/rooms/azure-monitor-deploy) | 更新日時 |
 | 4/3/2020 | [Azure モニターを使用して Microsoft Teams 室のデバイスを管理する](/MicrosoftTeams/rooms/azure-monitor-manage) | 更新日時 |
 | 4/3/2020 | [Azure モニターを使用して Microsoft Teams の会議室の管理を計画する](/MicrosoftTeams/rooms/azure-monitor-plan) | 更新日時 |
@@ -350,8 +320,8 @@
 | 4/3/2020 | [Skype for business と Microsoft Teams の間の相互運用性](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | 更新日時 |
 | 4/3/2020 | [カスタムアプリのポリシーと設定を管理する](/MicrosoftTeams/teams-custom-app-policies-and-settings) | 更新日時 |
 | 4/3/2020 | [PowerShell を使用してライブイベントのポリシーを設定する](/MicrosoftTeams/teams-live-events/set-teams-live-events-policies-using-powershell) | 更新日時 |
-| 4/3/2020 | [Microsoft Teams でのライブ イベントのセットアップ](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | 更新 |
-| 4/3/2020 | [無料電話ダイヤルの制限事項](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions) | 更新日時 |
+| 4/3/2020 | [Microsoft Teams でのライブ イベントのセットアップ](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | 更新日時 |
+| 4/3/2020 | [無料電話ダイヤルの制限事項](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions) | 更新 |
 | 4/3/2020 | [アルゼンチンでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina) | 更新日時 |
 | 4/3/2020 | [オーストラリアの無料ダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia) | 更新日時 |
 | 4/3/2020 | [ベラルーシでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus) | 更新日時 |
@@ -389,12 +359,12 @@
 | 4/3/2020 | [英国での無料ダイヤルの制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-kingdom-u-k) | 更新日時 |
 | 4/3/2020 | [トルコでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-turkey) | 更新日時 |
 | 4/3/2020 | [ベネズエラでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela) | 更新日時 |
-| 4/3/2020 | [ベトナムでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam) | 更新 |
+| 4/3/2020 | [ベトナムでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam) | 更新日時 |
 | 4/3/2020 | [Teams 向け Office 365 で電話会議を試用または購入する](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams) | 更新日時 |
 | 4/3/2020 | [Teams での会議の入場および退出のお知らせを有効または無効にする](/MicrosoftTeams/turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams) | 更新日時 |
 | 4/3/2020 | [基本的なアップグレード\| PowerShell Microsoft\| Teams によるアップグレードの相互運用ポリシーの付与](/MicrosoftTeams/upgrade-basic-powershell) | 更新日時 |
 | 4/3/2020 | [Project スコープでの Skype for Business から Microsoft Teams への導入](/MicrosoftTeams/upgrade-define-project-scope) | 更新日時 |
-| 4/3/2020 | [アップグレードのフレームワークについて](/MicrosoftTeams/upgrade-framework) | 更新日時 |
+| 4/3/2020 | [アップグレードのフレームワークについて](/MicrosoftTeams/upgrade-framework) | 更新 |
 | 4/3/2020 | [Microsoft Teams を無料で Office 365 サブスクリプションにアップグレードする](/MicrosoftTeams/upgrade-freemium) | 更新日時 |
 | 4/3/2020 | [Teams にアップグレードするための環境の準備](/MicrosoftTeams/upgrade-prepare-environment) | 更新日時 |
 | 4/3/2020 | [Skype for Business から Teams へのアップグレードを準備する](/MicrosoftTeams/upgrade-prepare-organization) | 更新日時 |
@@ -424,7 +394,7 @@
 | 4/7/2020 | [教育機関管理者向けの Microsoft Teams のリソース](/MicrosoftTeams/remote-learning-edu) | 更新日時 |
 | 4/7/2020 | [チームを編成するためのベストプラクティス](/MicrosoftTeams/best-practices-organizing) | 更新日時 |
 | 4/7/2020 | [呼び出しキューを作成する](/MicrosoftTeams/create-a-phone-system-call-queue) | 更新日時 |
-| 4/8/2020 | [Exchange と Microsoft Teams の連携](/MicrosoftTeams/exchange-teams-interact) | 更新 |
+| 4/8/2020 | [Exchange と Microsoft Teams の連携](/MicrosoftTeams/exchange-teams-interact) | 更新日時 |
 | 4/8/2020 | [チュートリアル: 電話会議-Microsoft Teams](/MicrosoftTeams/tutorial-audio-conferencing) | 更新日時 |
 | 4/8/2020 | [Microsoft Teams での会議](/MicrosoftTeams/tutorial-meetings-in-teams) | 更新日時 |
 | 4/8/2020 | [自動応答と通話キューへの通話に応答する](/MicrosoftTeams/answer-auto-attendant-and-call-queue-calls) | 更新日時 |
@@ -440,7 +410,7 @@
 | 4/9/2020 | [Firstline Workers 用に規模に応じて Microsoft Teams をプロビジョニングする](/MicrosoftTeams/flw-scripted-deployment) | 更新日時 |
 | 4/9/2020 | [教育機関管理者向けの Microsoft Teams のリソース](/MicrosoftTeams/remote-learning-edu) | 更新日時 |
 | 4/9/2020 | [セキュリティとコンプライアンスの概要](/MicrosoftTeams/security-compliance-overview) | 更新日時 |
-| 4/9/2020 | [SharePoint Online のサイトまたはページから Teams のイントラネットポータルアプリを作成する](/MicrosoftTeams/teams-standalone-static-tabs-using-spo-sites) | 更新日時 |
+| 4/9/2020 | [SharePoint Online サイトまたはページから Terms の「イントラネット ポータル アプリ」を作成する](/MicrosoftTeams/teams-standalone-static-tabs-using-spo-sites) | 更新日時 |
 | 4/9/2020 | [呼び出しキューを作成する](/MicrosoftTeams/create-a-phone-system-call-queue) | 更新日時 |
 | 4/9/2020 | [Microsoft Teams のセキュリティ ガイド](/MicrosoftTeams/teams-security-guide) | 更新日時 |
 | 4/9/2020 | [Microsoft Teams の制限事項と仕様](/MicrosoftTeams/limits-specifications-teams) | 更新日時 |
@@ -453,3 +423,43 @@
 | 4/10/2020 | [Firstline Workers 用に規模に応じて Microsoft Teams をプロビジョニングする](/MicrosoftTeams/flw-scripted-deployment) | 更新日時 |
 | 4/10/2020 | [番号移行注文について](/MicrosoftTeams/phone-number-calling-plans/port-order-overview) | 更新日時 |
 | 4/10/2020 | [Microsoft Teams に電話番号を転送する](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams) | 更新日時 |
+
+
+## <a name="week-of-april-13-2020"></a>2020年4月13日の週
+
+
+| 公開日 |トピックのタイトル | 変更 |
+|------|------------|--------|
+| 4/14/2020 | [Microsoft Teams の既知の問題](/MicrosoftTeams/known-issues) | 更新日時 |
+| 4/14/2020 | [Microsoft Teams のクラウド ビデオ相互運用性](/MicrosoftTeams/cloud-video-interop) | 更新日時 |
+| 4/14/2020 | [クラウドの自動応答をセットアップする](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 更新日時 |
+| 4/14/2020 | [チャネルのモデレーションを設定および管理する](/MicrosoftTeams/manage-channel-moderation-in-teams) | 更新日時 |
+| 4/14/2020 | [会議ポリシーを管理する](/MicrosoftTeams/meeting-policies-in-teams) | 修正 |
+| 4/14/2020 | [Microsoft Teams のルームでの認証](/MicrosoftTeams/rooms/rooms-authentication) | 更新日時 |
+| 4/14/2020 | [Microsoft Teams でのライブ イベントの計画](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 更新 |
+| 4/14/2020 | [管理者トレーニングリソース-Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | 更新日時 |
+| 4/14/2020 | [Microsoft Teams を導入する](/MicrosoftTeams/adopt-microsoft-teams-landing-page) | 更新日時 |
+| 4/14/2020 | Microsoft Teams のエンド ユーザー トレーニング | 削除されました |
+| 4/14/2020 | [Slack から Microsoft Teams に移行する](/MicrosoftTeams/migrate-slack-to-teams) | 更新日時 |
+| 4/14/2020 | [Microsoft Teams を使用してリモート ワーカーをサポートする](/MicrosoftTeams/support-remote-work-with-teams) | 更新日時 |
+| 4/14/2020 | [啓発とトレーニングの実施](/MicrosoftTeams/teams-adoption-drive-awareness) | 更新日時 |
+| 4/14/2020 | [Microsoft Teams の管理者向けトレーニング](/MicrosoftTeams/training-microsoft-teams-landing-page) | 更新日時 |
+| 4/14/2020 | [コンテンツの電子情報開示調査の実施](/MicrosoftTeams/ediscovery-investigation) | 更新日時 |
+| 4/14/2020 | [Teams でのユーザーのプレゼンス](/MicrosoftTeams/presence-admins) | 更新日時 |
+| 4/14/2020 | [Microsoft Teams 室のデバイス設定をリモートで管理する](/MicrosoftTeams/rooms/xml-config-file) | 更新日時 |
+| 4/15/2020 | [Microsoft Teams でユーザーにライセンスを割り当てる](/MicrosoftTeams/assign-policies) | 更新日時 |
+| 4/15/2020 | [Microsoft Teams ミーティングの要件](/MicrosoftTeams/rooms/requirements) | 更新日時 |
+| 4/15/2020 | [仮想デスクトップ インフラストラクチャ用の Teams](/MicrosoftTeams/teams-for-vdi) | 更新日時 |
+| 4/15/2020 | [コンテンツの電子情報開示調査の実施](/MicrosoftTeams/ediscovery-investigation) | 更新日時 |
+| 4/15/2020 | [Outlook で Microsoft Teams 会議アドインを使用する](/MicrosoftTeams/teams-add-in-for-outlook) | 更新日時 |
+| 4/15/2020 | [Microsoft Teams の使用状況レポート](/MicrosoftTeams/teams-analytics-and-reports/teams-usage-report) | 更新日時 |
+| 4/15/2020 | [Microsoft Teams ユーザー アクティビティ レポート](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | 更新日時 |
+| 4/15/2020 | Microsoft Teams\|のポートファイアウォール要件に合わせてネットワークを準備する | 削除されました |
+| 4/16/2020 | [Microsoft Teams の既知の問題](/MicrosoftTeams/known-issues) | 更新日時 |
+| 4/16/2020 | [ダイレクトルーティングのローカルメディア最適化](/MicrosoftTeams/direct-routing-media-optimization-configure) | 更新日時 |
+| 4/17/2020 | [Outlook で Microsoft Teams 会議アドインを使用する](/MicrosoftTeams/teams-add-in-for-outlook) | 更新日時 |
+| 4/17/2020 | オンボードチェックリスト-ネットワークを構成する-Microsoft Teams | 削除されました |
+| 4/17/2020 | [手動で番号移行注文を送信する](/MicrosoftTeams/phone-number-calling-plans/manually-submit-port-order) | 更新日時 |
+| 4/17/2020 | [PowerShell スクリプトのサンプル-メッセージポリシーの作成 & 割り当てる](/MicrosoftTeams/scripts/powershell-script-teams-messaging-policy-edu) | 更新日時 |
+| 4/17/2020 | [Microsoft Teams でのライブ イベントの計画](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 更新 |
+| 4/17/2020 | [Microsoft Teams のプライバシー](/MicrosoftTeams/teams-privacy) | 更新日時 |
