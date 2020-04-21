@@ -17,12 +17,12 @@ localization_priority: Priority
 f1.keywords:
 - NOCSH
 description: Slack から Microsoft Teams への移行に関する詳細なガイダンス。
-ms.openlocfilehash: 15ef6203fa2cf27d081865e3966198f033b1bd80
-ms.sourcegitcommit: 8e2fa7b744d0a174b699ae7298d4688b971eeff3
+ms.openlocfilehash: 8e6b7383176713a34f5a00ca3914e42ac50f9834
+ms.sourcegitcommit: 5606f908c6efeb67713f5986b1d8575a896bb5bd
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41845215"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43506878"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>Slack から Microsoft Teams に移行する
 
@@ -353,7 +353,7 @@ Teams に追加するアプリを特定するには、アプリの使用状況�
 
 たとえば、チャネルは両方の製品に含まれる機能ですが、使用法はそれぞれの製品で異なります。 たとえば、Slack のチャンネルは多くの場合、Teams のチャットのように、短期間の事務的な会話に使用されます。 他にも、スレッド形式 / 非スレッド形式の会話や通知設定の調整などにおいても顕著な違いがあります。
 
-たくさんの [Microsoft Teams のエンドユーザー トレーニング](enduser-training.md)が提供されるライブラリをご用意しましたのでご覧ください。 
+[Teams のエンドユーザー ビデオ トレーニング](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)に役立つ豊富なライブラリをぜひご覧ください。 
 
 ## <a name="move-to-teams"></a>Teams に移行する 
 これで移行計画が定義されたので、Teams でチャネルとチームの作成を開始できます。 

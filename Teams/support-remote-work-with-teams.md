@@ -16,12 +16,12 @@ search.appverid: MET150
 description: このガイダンスは、Microsoft Teams を使用して組織のリモート ワーカーの生産性を向上させるために使用できます。特に、新型コロナウイルス感染症 (COVID-19) 発生への対策として従業員が在宅勤務 (WFH) となった場合に役立ちます。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 96ff59470c8d9726b4c26bf0522e5b1e730b9014
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+ms.openlocfilehash: ef26f05e20aadeb46be2a553303bc686aded6215
+ms.sourcegitcommit: 5606f908c6efeb67713f5986b1d8575a896bb5bd
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170515"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43506848"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Microsoft Teams を使用してリモート ワーカーをサポートする
 
@@ -67,6 +67,8 @@ Teams をユーザーへと展開するための準備 **[カスタマー サク
 
 1. 定期的に更新される「[よく寄せられる質問: リモート従業員をサポートする](FAQ-support-remote-workforce.md)」をお読みください。
 
+2. [Teams のアドバイザーを使用して、Teams の展開を支援](use-advisor-teams-roll-out.md)します。 Teams のアドバイザー (Teams 管理センター内) を使用して、Teams の展開について説明します。
+
 1. ブログの最新投稿を読む:
    
    - [Microsoft Teams によって Microsoft 社員のリモート作業が実現している方法](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/)
@@ -109,7 +111,7 @@ Teams をユーザーへと展開するための準備 **[カスタマー サク
    - 「[セキュリティと Teams](teams-security-guide.md)」では、Microsoft 365 のエンタープライズ レベルのセキュリティのベスト プラクティスと手順の一環として、Teams のセキュリティのすべての技術的な詳細について説明しています。
 
 
-2.  [トレーニングへのリンクを送信](enduser-training.md)して、従業員が Teams を最大限に活用できるよう支援します。
+2.  [Teams のビデオ トレーニング](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)へのリンクを共有して、従業員が Teams を最大限に活用できるよう支援します。
 
 3. さらに詳しく: 次の、Teams の展開のためのさらに詳しいリソースをご利用ください。
 
