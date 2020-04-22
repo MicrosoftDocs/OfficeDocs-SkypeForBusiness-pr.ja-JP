@@ -19,15 +19,15 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 32cbbbc87e6447c3bc49b97b772e2aea4849550f
-ms.sourcegitcommit: 1d24b62f41bce4f8d86d6060291af1267f75a2a2
+ms.openlocfilehash: d3375abfbcd8319d104b4a2a657492c5105e240f
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43209499"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749784"
 ---
 > [!IMPORTANT]
-> Teams サービス モデルは、お客様の利便性向上のために変更される可能性があります。 たとえば、Teams を使用するユーザーのパフォーマンスと認証の回復性を向上させるために、既定のアクセスや更新トークンの有効期限が変更される場合があります。 このような変更は、Teams の安全性と設計による高い信頼性を保つことを目的に行われます。 
+> Teams サービス モデルは、お客様の利便性向上のために変更される可能性があります。 たとえば、Teams を使用するユーザーのパフォーマンスと認証の回復性を向上させるために、既定のアクセスや更新トークンの有効期限が変更される場合があります。 このような変更は、Teams の安全性と設計による高い信頼性を保つことを目的に行われます。
 <p>
 
  # <a name="security-and-microsoft-teams"></a>セキュリティと Microsoft Teams

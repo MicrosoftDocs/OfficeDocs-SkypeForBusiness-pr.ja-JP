@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 組織の既定のボイスメール応答メッセージで別の言語を使用するように Skype for Business をセットアップする方法について説明します。
-ms.openlocfilehash: 829776be347f2453f3b87a150b19e2334e876f40
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 1fb9a97c31e973d6a56da65d301324b1d9d34b90
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139136"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43752344"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>応答メッセージとメールに使用する既定の言語を変更する
 
@@ -51,7 +51,7 @@ ms.locfileid: "43139136"
 
 1. [Office 365 グローバル管理者](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)アカウントでサインイン[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)します。 
     
-2. Microsoft 365 管理センターで、[**組織プロファイル**の**設定** > ] を選択します。 
+2. Microsoft 365 管理センターで、[**設定** > **Settings** > の構成] の [**組織プロファイル**] を選びます。 
     
      ![[設定]、[組織プロファイル] の選択を示すスクリーンショット。](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
   

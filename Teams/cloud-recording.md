@@ -7,26 +7,22 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
-ms.reviewer: sonua
+ms.reviewer: nakulm
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Microsoft Teams にクラウド音声機能を展開するための実践的なガイダンス。
+description: Microsoft Teams で会議のレコーディングをオンにして管理する方法を説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 678e17ed92c0f269e134ac6c23dce29169c0d36d
-ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
-ms.translationtype: HT
+ms.openlocfilehash: 1098b1e316bb6ed747577183fc144bf2db7d0b9d
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42583004"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43751854"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams のクラウド会議のレコーディング
-
-> [!IMPORTANT]
-> **将来予定されている構成の変更**により、Microsoft Stream がその国内のデータ所在地では利用できない場合でも、Teams のデータが国内に保存されるお客様が Teams 会議のレコーディング機能をご利用いただけるようになる予定です。 この変更が有効になると、会議のレコーディングは既定で最も近い Microsoft Stream のリージョンに保存されます。 Teams のデータが国内に保存されており、会議のレコーディングを国内に保存することをご希望の場合は、会議のレコーディングを停止し、Microsoft Stream がお客様の国内の地域に展開されてから開始することをお勧めします。 詳細については、「[会議のレコーディングの保存場所](#where-your-meeting-recordings-are-stored)」を参照してください。
 
 Microsoft Teams では、ユーザーは Teams 会議やグループ通話を記録して、音声、ビデオ、および画面共有のアクティビティをキャプチャできます。 自動的に文字起こしする記録のオプションもあるため、ユーザーはミーティングの記録を字幕付きで再生して、会議内容の重要な議題を検索できます。 レコーディングはクラウドで実行され、[Microsoft Stream](https://docs.microsoft.com/stream/) に保存されるため、ユーザーは組織全体で安全にそのレコーディングを共有できます。
 
@@ -53,13 +49,13 @@ Teams ユーザーの会議を記録するには、そのテナントに対し�
 
 このセクションでは、Teams 会議をレコーディングするための設定方法と計画方法について説明します。
 
-### <a name="enable-microsoft-stream-for-users-in-the-organization"></a>組織内のユーザーに対して Microsoft Stream を有効にする
+### <a name="turn-on-microsoft-stream-for-users-in-the-organization"></a>組織内のユーザーに対して Microsoft Stream を有効にする
 
 Microsoft Stream は、対象となる Office 365 サブスクリプションの一部として、またはスタンドアロン サービスとして使用できます。  詳細については、「[Microsoft Stream ライセンスの概要](https://docs.microsoft.com/stream/license-overview)」を参照してください。  Microsoft Stream は、現在、Microsoft 365 Business、Office 365 Business Premium、および Office 365 Business Essentials に含まれています。
 
 ユーザーが Microsoft Stream にアクセスできるように [Office 365 でユーザーにライセンスを割り当てる](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC)方法をご確認ください。 Microsoft Stream がそのユーザーに対してブロックされていないことを、[この記事](https://docs.microsoft.com/stream/disable-user-organization)の定義に従って確認します。
 
-### <a name="ensure-that-users-have-upload-video-permissions-in-microsoft-stream"></a>ユーザーが Microsoft Stream でビデオをアップロードするアクセス許可を持っていることを確認する
+### <a name="make-sure-users-have-upload-video-permissions-in-microsoft-stream"></a>ユーザーが Microsoft Stream でビデオのアクセス許可をアップロードしていることを確認する
 
 既定では、Stream が有効になっており、ユーザーにライセンスが割り当てられていれば、社内のすべてのユーザーが Stream でコンテンツを作成できます。 Microsoft Stream の管理者は、Stream で[コンテンツを作成できる従業員を制限する](https://docs.microsoft.com/stream/restrict-uploaders)ことができます。 この制限リストに記載されているユーザーは、会議を記録できません。
 
@@ -93,22 +89,11 @@ PowerShell を使用する場合は、TeamsMeetingPolicy で AllowCloudRecording
 |                                    社内のすべてのユーザーが会議を記録できるようにする                                    |                                                                     <ol><li>グローバルな CsTeamsMeetingPolicy が AllowCloudRecording = True に設定されていることを確認する<li>すべてのユーザーについて、グローバルな CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーの 1 つが AllowCloudRecording = True に設定されていることを確認する </ol>                                                                     |
 | ユーザーの大半に会議の記録を許可し、記録を許可されていない特定のユーザーについては選択的に記録できないようにする |        <ol><li>GlobalCsTeamsMeetingPolicy が AllowCloudRecording = True に設定されていることを確認する<li>大半のユーザーについて、グローバルな CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーの 1 つが AllowCloudRecording = True に設定されていることを確認する<li>その他のすべてのユーザーには、AllowCloudRecording = False に設定された CsTeamsMeetingPolicy ポリシーの 1 つが付与されている</ol>         |
 |                                                   レコーディングを完全に無効にする                                                   |                                                                <ol><li>グローバルな CsTeamsMeetingPolicy が AllowCloudRecording = False に設定されていることを確認する<li>すべてのユーザーについて、AllowCloudRecording = False に設定されたグローバルな CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーの 1 つが付与されている                                                                 |
-|      ユーザーの大半のレコーディングを無効にし、記録を許可されている特定のユーザーについてはレコーディングを選択的に許可する       | <ol><li>グローバルな CsTeamsMeetingPolicy が AllowCloudRecording = False に設定されていることを確認する<li>大半のユーザーについて、AllowCloudRecording = False に設定されたグローバルな CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーの 1 つが付与されている<li>その他のすべてのユーザーには、AllowCloudRecording = True に設定された CsTeamsMeetingPolicy ポリシーの 1 つが付与されている <ol> |
+|      多くのユーザーに対してレコーディングをオフにして、記録を許可する特定のユーザーを選択する       | <ol><li>グローバルな CsTeamsMeetingPolicy が AllowCloudRecording = False に設定されていることを確認する<li>大半のユーザーについて、AllowCloudRecording = False に設定されたグローバルな CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーの 1 つが付与されている<li>その他のすべてのユーザーには、AllowCloudRecording = True に設定された CsTeamsMeetingPolicy ポリシーの 1 つが付与されている <ol> |
 |                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                  |
 #### <a name="where-your-meeting-recordings-are-stored"></a>会議のレコーディングの保存場所
 
-会議のレコーディングは、Microsoft Stream クラウド ストレージに保存されます。 現在は、データが保存される国内のデータ所在地では Microsoft Stream が利用できない場合、Teams のデータが国内に保存されるお客様の会議のレコーディング機能は無効になっています。 将来、Microsoft Stream がその国内のデータ所在地では利用できない場合でも、データが国内に保存されるお客様が Teams 会議のレコーディング機能をご利用いただけるようになる予定です。
-
-この変更が有効になると、会議のレコーディングは既定で地理的に最も近い Microsoft Stream のリージョンに保存されます。 Teams のデータが国内に保存されており、会議のレコーディングを国内に保存することをご希望の場合は、この機能を無効にし、Microsoft Stream がお客様の国内のデータ所在地のリージョンに展開されてから有効にすることをお勧めします。 組織内のすべてのユーザーに対してこの機能を無効にするには、Microsoft Teams 管理センターで、グローバルな Teams 会議ポリシーの **[Allow cloud recording](クラウド レコーディングを許可する)** 設定をオフにします。
-
-この変更が有効になると、会議のレコーディングを開始した場合の動作は次のようになります。
-
-|会議のレコーディングを開始した場合... |会議のレコーディングの保存先...  |
-|---------|---------|
-|Microsoft Stream がお客様の国内のデータ所在地で利用できるようになる前    |最も近い Microsoft Stream のリージョン         |
-|Microsoft Stream がお客様の国内のデータ所在地で利用できるようになった後    | お客様の国内のデータ所在地のリージョン        |
-
-会議のレコーディングが開始していない新規および既存のテナントの場合、Microsoft Stream がその国内のデータ所在地のリージョンで利用できるようになると、新しいレコーディングは国内に保存されます。 ただし、Microsoft Stream がその国内のデータ所在地のリージョンで利用できるようになる前に会議のレコーディングが有効になっているすべてのテナントでは、Microsoft Stream がその国内のデータ所在地のリージョンで利用できるようになった後でも、既存および新規のレコーディングに引き続き Microsoft Stream ストレージが使用されます。
+会議のレコーディングは、Microsoft Stream クラウド ストレージに保存されます。 会議を記録すると、Microsoft Stream は、永久に保持されます (またはレコーディングの所有者が削除するまで)。 レコーディングがストリームにアップロードされない場合は、チームのクラウドストレージに保存され、20日間ダウンロードできます。 現在は、データが保存される国内のデータ所在地では Microsoft Stream が利用できない場合、Teams のデータが国内に保存されるお客様の会議のレコーディング機能は無効になっています。
 
 お客様の Microsoft Stream データが保存されるリージョンを確認するには、Microsoft Stream で、右上隅にある **[?]** をクリックし、 **[About Microsoft Stream](Microsoft Stream について)** をクリックして、**[Your data is stored in](データの保存場所)** をクリックします。  Microsoft Stream でデータが保存されるリージョンについて詳しくは、「[Microsoft Stream FAQ](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in)」を参照してください。
 
