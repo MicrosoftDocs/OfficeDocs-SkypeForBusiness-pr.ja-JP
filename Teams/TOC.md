@@ -657,14 +657,15 @@
 
 <!-- ============================================================ -->
 
-# セキュリティとコンプライアンス
+# セキュリティ、プライバシー、コンプライアンス
 ## [概要](security-compliance-overview.md)
-## [Teams のデータの場所](location-of-data-in-teams.md)
-## セキュリティ
+## セキュリティとプライバシー
 ### [セキュリティ ガイド](teams-security-guide.md)
 ### [ID モデルと認証](identify-models-authentication.md)
 ### [先進認証を使用して Teams にサインインする](sign-in-teams.md)
 ### [Teams の安全なリンク](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [プライバシーと Microsoft Teams](teams-privacy.md)
+### [Teams のデータの場所](location-of-data-in-teams.md)
 ## コンプライアンス
 ### [情報障壁](information-barriers-in-teams.md)
 ### [保持ポリシー](retention-policies.md)
@@ -728,7 +729,6 @@
 ### [ハードウェア デコーダー/エンコーダー ドライバーの推奨事項](hardware-decoders-and-encoders.md)
 ### [MSI を使用した Teams のインストール](msi-deployment.md)
 ### [組織で Teams を有効にする](Office-365-set-up.md)
-### [ウイルス対策スキャンから除外する Teams のファイルとフォルダー](teams-files-folders-antivirus-perf.md)
 ### [Microsoft Teams のメモリ使用方法](teams-memory-usage-perf.md)
 ### [Office 365 の URL と IP アドレスの範囲](office-365-urls-ip-address-ranges.md)
 ### [仮想デスクトップ インフラストラクチャ (VDI) 用の Teams](teams-for-vdi.md)
