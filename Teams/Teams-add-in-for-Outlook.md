@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26eb3af88b6e16de0535d25d4b5205a72626b7b2
-ms.sourcegitcommit: df4dde0fe6ce9e26cb4b3da4e4b878538d31decc
+ms.openlocfilehash: ca163d2a705b4aaebc77c03dbf4c92edf9c5d601
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43521533"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749574"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook で Teams の会議アドインを使用する
 =======================================
@@ -111,22 +111,51 @@ Teams クライアントはユーザーが必要としているのが 32 ビッ�
 Teams の会議アドインは継続して機能が開発されていますので、次について認識しておいてください。
 
 - このアドインは、特定の参加者でスケジュール設定された会議向けで、チャネル内の会議向けではありません。 チャネル会議は Teams 内でスケジュール設定される必要があります。
-- 認証プロキシがユーザーの PC および Teams サービスのネットワーク パス内にある場合、アドインは機能しません。
+- 認証プロキシが、ユーザーの PC および Teams サービスのネットワークパスに含まれている場合、アドインは機能しません。
 - ユーザーが Outlook 内でライブ イベントをスケジュールすることはできません。 Teams に移動し、ライブ イベントをスケジュールします。 詳細については、「[Microsoft Teams のライブ イベントについて](teams-live-events/what-are-teams-live-events.md)」を参照してください。
+
+Microsoft Teams での会議と通話については[こちら](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)をご覧ください。
 
 ## <a name="troubleshooting"></a>トラブルシューティング
 
+Teams 会議アドインの問題を解決するには、次の手順に従います。
+
+### <a name="teams-meeting-add-in-in-outlook-for-windows-does-not-show"></a>Windows 版 Outlook の Teams 会議アドインが表示されない
+
 Teams Meeting add-in for Outlook のアドインをインストールできない場合は、次のトラブルシューティングの手順を試してください。
 
-- Outlook デスクトップ クライアントのすべての利用可能な更新プログラムが適用されていることを確認します。
-- Teamsのデスクトップ クライアントを再起動します。
-- [Teamsのデスクトップ クライアント]からサインアウトして、もう一度サインインします。
-- Outlook デスクトップ クライアントを再起動します。 (Outlook が管理者モードで実行されていないことを確認します)。
+- チームでの会議のスケジュールを有効にするチームのアップグレードポリシーがユーザーにあることを確認します。 詳細については、「 [Skype For business から Teams にアップグレードする](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings)」を参照してください。
+- Outlook アドインを許可する Teams 会議ポリシーがユーザーにあることを確認します。 詳細については、「 [Teams の会議ポリシーを管理](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-the-outlook-add-in)する」を参照してください。
+- ユーザーに Teams デスクトップクライアントがインストールされていることを確認します。 会議アドインは、Teams web クライアントを使用している場合にのみインストールされます。
+- ユーザーが regsvr32 を実行するためのアクセス許可を持っていることを確認します。
+- Outlook デスクトップクライアントで利用できるすべての更新プログラムが適用されていることを確認します。
 - ログインしているユーザー アカウント名にスペースが含まれていないことを確認します。 これは既知の問題であり、今後のビルドで修正される予定です。
-- シングル サインオン (SSO) が有効になっていることを確認します。
+- 次の手順を実行します。
+  - Teamsのデスクトップ クライアントを再起動します。
+  - [Teamsのデスクトップ クライアント]からサインアウトして、もう一度サインインします。
+  - Outlook デスクトップ クライアントを再起動します。 (Outlook が管理者モードで実行されていないことを確認します)。
+
+それでもアドインが表示されない場合は、Outlook でそのアドインが無効になっていないことを確認してください。
+
+- Outlook で、[**ファイル**]、[**オプション**] の順に選択します。
+- [ **Outlook のオプション**] ダイアログボックスの [**アドイン**] タブを選択します。
+- Microsoft **Office 用 Microsoft Teams の会議アドイン**が [**アクティブなアプリケーションアドイン**] の一覧に表示されていることを確認します。
+- Teams 会議アドインが [**無効なアプリケーションアドイン**] の一覧に表示されている場合は、[**管理**] で [ **COM アドイン**] を選択し、[設定]**を選択します。**
+- Microsoft **Teams 会議アドインの**横にあるチェックボックスをオンにします。
+- すべてのダイアログボックスで **[OK]** を選択し、Outlook を再起動します。
+
+アドインの管理方法の一般的なガイダンスについては、「 [Office プログラムでアドインを表示、管理、インストール](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D)する」を参照してください。
+
+それでもアドインが表示されない場合は、次の手順を使用して、レジストリ設定を確認します。
+
+> [!NOTE]
+> レジストリの編集を誤ると、システムに重大な損害を与える可能性があります。 レジストリに変更を加える前に、コンピューター上の重要なデータをバックアップする必要があります。
+- Regedit.exe を起動する
+- HKEY_CURRENT_USER \Software\Microsoft\Office\Outlook\Addins に移動する
+- Teamconnect が存在することを確認します。
+- Teams から LoadBehavior に接続します。これは、が存在し、3に設定されていることを確認します。
+  - LoadBehavior の値が3以外の場合は、3に変更して、Outlook を再起動します。
+
+### <a name="delegate-scheduling-does-not-work"></a>代理人のスケジュール設定が機能しない
 
 管理者が、[Exchange Web Server (EWS) へのアクセスを制御する](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)ように Microsoft Exchange を構成している場合、代理人は上司の代わりに Teams 会議をスケジュールできません。 この構成のソリューションは開発中で、今後リリースされる予定です。 
-
-アドインを無効にする方法につぃての全般的なガイドラインについては、「[Office プログラムでアドインを表示、管理、インストールする](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D)」をご覧ください。
-
-Microsoft Teams での会議と通話については[こちら](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)をご覧ください。

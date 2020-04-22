@@ -18,43 +18,48 @@ description: Teams でイベントのライブをセットアップします。�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ae30fdb824c62027d1a704435e80df2a9abf1f85
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
-ms.translationtype: HT
+ms.openlocfilehash: 8e3110717cd9279d881415bf1e01d03a1cbee293
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140566"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749804"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントのセットアップ
 
 ライブ イベントをセットアップする際は、複数の手順を行う必要があります。
 
 ## <a name="step-1-set-up-your-network-for-live-events-in-teams"></a>手順 1: Teams でのライブ イベント用にネットワークを設定する
+
 Teams で作成したライブ イベントを配信するには、[Teams 用に組織のネットワークを準備する](https://docs.microsoft.com/microsoftteams/prepare-network)必要があります。  
 
 ## <a name="step-2-get-and-assign-licenses"></a>手順 2: ライセンスを取得して割り当てる
-[ライブ イベントの作成とスケジュールを許可するユーザー](plan-for-teams-live-events.md#who-can-create-and-schedule-live-events)と[ライブ イベントの視聴を許可するユーザー](plan-for-teams-live-events.md#who-can-watch-live-events)のそれぞれに適切なライセンスを割り当てるようにします。
+
+[ライブ イベントの作成とスケジュールを許可するユーザー](plan-for-teams-live-events.md#who-can-attend-create-and-schedule-live-events)と[ライブ イベントの視聴を許可するユーザー](plan-for-teams-live-events.md#who-can-watch-live-events)のそれぞれに適切なライセンスを割り当てるようにします。
 
 ## <a name="step-3-set-up-live-events-policies"></a>手順 3: ライブ イベント ポリシーを設定する
+
 ライブ イベント ポリシーを使用して、ライブ イベントの主催が許可される組織内のユーザーと、それらのユーザーが作成するイベントで有効にする機能を制御します。 既定のポリシーを使用することも、1 つ以上のカスタム ライブ イベント ポリシーを作成することもできます。 カスタム ポリシーを作成したら、それを組織内のユーザーまたはユーザーのグループに割り当てます。
 
 > [!NOTE]
-> カスタム ポリシーを作成して割り当てていない場合、組織内のユーザーにはグローバル ポリシーが適用されます。 グローバル ポリシーの既定では、Teams ユーザーにはライブ イベントのスケジュールが有効にされ、ライブ キャプションと字幕 (文字起こし) は無効にされます。また、組織内のすべてのユーザーがライブ イベントに参加でき、録画設定は [常に録画] に設定されます。 
+> カスタム ポリシーを作成して割り当てていない場合、組織内のユーザーにはグローバル ポリシーが適用されます。 グローバル ポリシーの既定では、Teams ユーザーにはライブ イベントのスケジュールが有効にされ、ライブ キャプションと字幕 (文字起こし) は無効にされます。また、組織内のすべてのユーザーがライブ イベントに参加でき、録画設定は [常に録画] に設定されます。
 
 ### <a name="create-or-edit-a-live-events-policy"></a>ライブ イベント ポリシーを作成または編集する
+
 <a name="bkcreatepolicy"> </a>
 
 **![Microsoft Teams ロゴを示すアイコン](../media/teams-logo-30x30.png) Microsoft Teams 管理センターを使用する**
 
-1. 左側のナビゲーションで、**[会議]**  >  **[ライブ イベント ポリシー]** に移動します。 
+1. 左側のナビゲーションで、**[会議]**  >  **[ライブ イベント ポリシー]** に移動します。
 2. 次のいずれかの操作を行います。
-- 既存の既定のポリシーを編集する場合は、**[グローバル (組織全体の既定値)]** を選択します。 
-- 新しいカスタム ポリシーを作成する場合は、**[新しいポリシー]** を選択します。 
-- カスタム ポリシーを編集する場合は、対象のポリシーを選択してから **[編集]** を選択します。 
+
+- 既存の既定のポリシーを編集する場合は、**[グローバル (組織全体の既定値)]** を選択します。
+- 新しいカスタム ポリシーを作成する場合は、**[新しいポリシー]** を選択します。
+- カスタム ポリシーを編集する場合は、対象のポリシーを選択してから **[編集]** を選択します。
 
     組織のニーズに応じて変更できる設定は次のとおりです。
 
-    ![ライブ イベント ポリシーの設定を示すスクリーン ショット](../media/teams-live-events-policies.png "Microsoft Teams 管理センターのライブ イベント ポリシーの設定を示すスクリーン ショット") 
+    ![ライブ イベント ポリシーの設定を示すスクリーン ショット](../media/teams-live-events-policies.png "Microsoft Teams 管理センターのライブ イベント ポリシーの設定を示すスクリーン ショット")
 
 |Setting  |説明  |
 |---------|---------|

@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 17cf1e32b26edc609bea9e679c9f5ee5f4cc66d2
-ms.sourcegitcommit: f9860dbf3c719fec5ffc1874b503b6db252afe10
+ms.openlocfilehash: 42f6b185a8a09b0aae139175acfc632b84387db8
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "43237900"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749444"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft Teams のセキュリティとコンプライアンス
 
@@ -118,9 +118,9 @@ Teams でのデータ損失防止の詳細については、「[Microsoft Teams 
 
 [ゲスト間のチャットの電子情報開示](eDiscovery-investigation.md)についての Teams 固有の記事もあります。
 
-お客様は、各自の[要件](https://docs.microsoft.com/microsoft-365/compliance/office-365-advanced-ediscovery)に応じて、インプレース電子情報開示または [Advanced eDiscovery] を活用できます。 次の表で、これらの 2 つの違いについて説明します。
+お客様は、要件に従って eDiscovery または[アドバンスト ediscovery](https://docs.microsoft.com/microsoft-365/compliance/office-365-advanced-ediscovery)を活用できます。 次の表で、これらの 2 つの違いについて説明します。
 
-| |インプレース電子情報開示  |Advanced eDiscovery  |
+| |電子情報開示  |Advanced eDiscovery  |
 |---------|---------|---------|
 |ケース管理     |X        |X         |
 |アクセス制御  |X         |X         |

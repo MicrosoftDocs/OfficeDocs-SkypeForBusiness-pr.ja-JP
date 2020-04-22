@@ -12,12 +12,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 組織内の Teams ユーザーと Skype (コンシューマー) ユーザーとの相互運用性機能について説明します。
 localization_priority: Normal
-ms.openlocfilehash: 6e157cb04687d0577ad5b4cb5fd8da7d2f55e0b4
-ms.sourcegitcommit: 87022aa009eae868e1fd945dc299367e16733a3c
+ms.openlocfilehash: ca67cd1f96b2a0e8bc9b65e60ccf71fdea53763a
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42545026"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749554"
 ---
 # <a name="teams-and-skype-interoperability"></a>チームと Skype の相互運用性
 
@@ -78,7 +78,7 @@ Microsoft Teams 管理センターで、[**組織全体の設定** > ] の [**�
 
 ### <a name="using-powershell"></a>PowerShell を使用する場合
 
-パラメーターと共に CsExternalAccessPolicy コマンドレットを使用して、Teams ユーザーが Skype ユーザーと通信できるかどうかを制御します。 [](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) ```EnablePublicCloudAccess``` チームユーザーが Skype ```true```ユーザーと通信できるようにパラメーターを設定します。
+パラメーターと共に CsExternalAccessPolicy コマンドレットを使用して、Teams ユーザーが Skype ユーザーと通信できるかどうかを制御します。 [Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) ```EnablePublicCloudAccess``` チームユーザーが Skype ```true```ユーザーと通信できるようにパラメーターを設定します。 このパラメーターを```EnablePublicCloudAudioVideoAccess```使って、音声/ビデオ通話を有効または無効にすることができます。
 
 ## <a name="related-topics"></a>関連項目
 
