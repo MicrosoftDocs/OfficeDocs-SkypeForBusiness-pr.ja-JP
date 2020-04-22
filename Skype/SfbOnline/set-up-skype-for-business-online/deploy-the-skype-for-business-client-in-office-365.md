@@ -1,5 +1,5 @@
 ---
-title: Office 365 で Skype for Business クライアントを展開する
+title: Microsoft 365 aor は Office 365 で Skype for Business クライアントを展開する
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -19,14 +19,14 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Learn how to plan and deploy Skype for Business in small, medium, and large organizations and making it available to your users. '
-ms.openlocfilehash: 052cc4cb8aa1242628e0f57a57a3fe5532be3d71
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: d7c310935c5fa97873183d18b264616404471895
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706502"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777242"
 ---
-# <a name="deploy-the-skype-for-business-client-in-office-365"></a>Office 365 で Skype for Business クライアントを展開する
+# <a name="deploy-the-skype-for-business-client-in-microsoft-365-or-office-365"></a>Microsoft 365 または Office 365 で Skype for Business クライアントを展開する
 
 この記事では、**[管理者](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** が Skype for business アプリを組織内のユーザーに展開する方法に関するオプションについて説明します。
   
@@ -39,7 +39,7 @@ Skype for Business をユーザーに展開する前に、「Skype for business 
 
  **ステップバイステップのインストール手順:** 小規模または中規模企業の場合は、Skype for Business アプリを PC にインストールするようにユーザーに依頼することをお勧めします。 次の手順を参照し[てください。 Skype For business をインストール](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)します。 Mac を使用している場合は、 [Office 365 用に Lync For Mac 2011](https://support.office.com/article/ae3ebd0e-a1a7-48cf-9350-36b144dc5f88)をセットアップするようにユーザーに指摘します。 Skype for Business アプリは、他の Office アプリとは別にインストールされます。
   
- **Office 365 ProPlus のお客様:** お客様の会社で E3 プランなどの Office 365 ProPlus が含まれる Office 365 プランを使用している場合、ユーザーが Word、Excel、PowerPoint などをダウンロードしてインストールすると、同時に Skype for Business アプリがインストールされます。つまり、Office をすべてアンインストールしないと Skype for Business をアンインストールできません。
+ **企業ユーザー向けの Microsoft 365 アプリ:** 会社で、E3 プランなどの企業向けの Microsoft 365 アプリが含まれている Office 365 プランを使用している場合は、ユーザーが Word、Excel、PowerPoint などをダウンロードしてインストールするときに、Skype for Business アプリがインストールされます。これは、Office をアンインストールしない限り、Skype for Business をアンインストールできないことを意味します。
   
 ### <a name="choose-whether-to-make-skype-for-business-available-to-your-users"></a>ユーザーが Skype for Business を利用できるようにするかどうかを選択する
 
@@ -78,9 +78,9 @@ Office 365 では、インストール元の場所を制御するために、Sky
   
 - 「[ユーザーに skype For business を手動で展開](deploy-the-skype-for-business-client-in-office-365.md#bkmk_manual_1)する」の説明に従って、Microsoft 365 管理センターからローカルネットワークに Skype for business アプリをダウンロードします。
     
-- **[Office 展開ツール](https://go.microsoft.com/fwlink/p/?LinkID=626065)** を使用して、Office 365 ProPlus または Skype for Business アプリをローカル ネットワークにダウンロードします。次に、Office 展開ツールを使用してユーザーにアプリを展開します。Office 展開ツールでは、言語やバージョン (32 ビット/64 ビット) など、展開の特定の側面を制御できます。
+- **[Office 展開ツール](https://go.microsoft.com/fwlink/p/?LinkID=626065)** を使用して、エンタープライズ向けの Microsoft 365 アプリまたは Skype for business アプリをローカルネットワークにダウンロードします。 次に、Office 展開ツールを使用してユーザーにアプリを展開します。 Office 展開ツールでは、言語やバージョン (32 ビット/64 ビット) など、展開の特定の側面を制御できます。
     
-- Microsoft Endpoint Configuration Manager などの既存のソフトウェア展開ツールとプロセスを使用して、Office 365 ProPlus または Skype for Business アプリをユーザーに展開します。 既存のツールとプロセスは、 [Office 展開ツール](https://go.microsoft.com/fwlink/p/?LinkID=626065)または Microsoft 365 管理センターからダウンロードしたソフトウェアで使うことができます。
+- Microsoft Endpoint Configuration Manager などの既存のソフトウェア展開ツールとプロセスを使用して、企業向けの Microsoft 365 アプリまたは Skype for Business アプリをユーザーに展開します。 既存のツールとプロセスは、 [Office 展開ツール](https://go.microsoft.com/fwlink/p/?LinkID=626065)または Microsoft 365 管理センターからダウンロードしたソフトウェアで使うことができます。
     
 ### <a name="more-info-on-using-the-office-deployment-tool"></a>Office 展開ツールの使用法に関する詳細情報
 
@@ -112,7 +112,7 @@ Configuration Manager を使用したソフトウェアの展開の詳細につ�
     
 - [Configuration Manager を使用してアプリケーションを展開する](https://docs.microsoft.com/configmgr/apps/deploy-use/deploy-applications)
     
-Office 365 ProPlus の展開の一環として Skype for Business アプリを展開している場合は、「 [Configuration Manager を使用して office 365 ProPlus を管理](https://docs.microsoft.com/configmgr/sum/deploy-use/manage-office-365-proplus-updates)する」を参照してください。
+企業向けの Microsoft 365 アプリの展開の一環として Skype for Business アプリを展開する場合は、「 [Configuration Manager を使用してエンタープライズ向けの microsoft 365 アプリを管理](https://docs.microsoft.com/configmgr/sum/deploy-use/manage-office-365-proplus-updates)する」を参照してください。
   
 ## <a name="planning-for-updates-to-the-skype-for-business-app"></a>Skype for Business アプリに対する更新プログラムの計画
 
@@ -132,11 +132,11 @@ Skype for Business アプリの展開の一環として、Skype for Business の
   
 Office 365 ソフトウェアに対する更新プログラムの動作の詳細については、次の記事をご覧ください。
   
-- [Office 365 ProPlus の更新プロセスの概要](https://technet.microsoft.com/library/dn761709.aspx)
+- [エンタープライズ向けの Microsoft 365 アプリの更新プロセスの概要](https://technet.microsoft.com/library/dn761709.aspx)
     
-- [Office 365 ProPlus の更新プログラムの管理方法を選択する](https://technet.microsoft.com/library/dn761707.aspx)
+- [企業向け Microsoft 365 アプリの更新プログラムの管理方法を選択する](https://technet.microsoft.com/library/dn761707.aspx)
     
-- [Office 365 ProPlus の更新設定を構成する](https://technet.microsoft.com/library/dn761708.aspx)
+- [エンタープライズ向けの Microsoft 365 アプリの更新設定を構成する](https://technet.microsoft.com/library/dn761708.aspx)
     
   **機能の更新プログラムを取得する頻度**
   
@@ -148,7 +148,7 @@ Office 365 ソフトウェアに対する更新プログラムの動作の詳細
     
 組織によっては、新機能をテストする必要があるため、機能の更新プログラムの取得を毎月ではなく年 2 回に限定しています。
   
-Office 展開ツールまたはグループ ポリシーを使用して更新チャネルを構成することで、機能の更新プログラムを取得する頻度を制御できます。月次チャネルでは機能の更新プログラムが毎月提供されますが、半期チャネルではおよそ 6 か月ごとに機能の更新プログラムが提供されます。チャネルの詳細については、「[Office 365 ProPlus 更新プログラム チャネルの概要](https://support.office.com/article/9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4)」をご覧ください。
+Office 展開ツールまたはグループ ポリシーを使用して更新チャネルを構成することで、機能の更新プログラムを取得する頻度を制御できます。 月次チャネルでは機能の更新プログラムが毎月提供されますが、半期チャネルではおよそ 6 か月ごとに機能の更新プログラムが提供されます。 チャネルの詳細については、「[エンタープライズ向けの Microsoft 365 アプリの更新プログラムチャネルの概要](https://support.office.com/article/9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4)」を参照してください。
   
 ## <a name="related-topics"></a>関連トピック
 

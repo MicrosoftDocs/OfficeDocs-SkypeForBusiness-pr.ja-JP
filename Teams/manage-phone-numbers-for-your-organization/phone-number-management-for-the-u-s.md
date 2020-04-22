@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Microsoft Teams の米国 (プエルトリコを含む) で電話番号を取得および管理する方法については、次の表を参照してください。
-ms.openlocfilehash: a3c94b4e091529fdc2fa3389b3b0155f5bf118d9
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: af8d93eabd8c4b033918ab7bce7e4c1fc9ab6d3d
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417632"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778393"
 ---
 # <a name="phone-number-management-for-the-us"></a>米国での電話番号の管理
 
@@ -41,7 +41,7 @@ Microsoft Teams の米国 (プエルトリコを含む) で電話番号を取得
 |お客さまの電話番号をお送りします。  <br/> | 次のフォームのいずれかをダウンロードします。 <br/> [米国 (ユーザーおよびサービス番号) の認証の文字 (LOA) (ja-jp) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.s.-(user-and-service-numbers)-(v.3.2)-(en-us).pdf?raw=true)<br/>
             [米国 (無料の電話番号) 用の承認状 (LOA) (v.3.2) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/Letter-of-authorization-(loa)-for-the-u.s.-(toll-free-numbers)-(v.3.2)-(en-us).pdf?raw=true)<br/><br/>**注:** 999 を超えるサブスクライバーまたはユーザーの電話番号を取得しようとする場合は、承認状 (LOA) を記入して送信する必要があります。 詳細については、「[チームに電話番号を転送する](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md)」を参照してください。          <br/>  <br/>   記入し、[マイクロソフトに送信します](mailto:ptn@microsoft.com)。  <br/> |
 |ユーザーの電話番号をサービス番号に変更します。  <br/> |サービス番号に変換するユーザー番号のリストと PIN を[マイクロソフトに送信](mailto:ptn@microsoft.com)します。 PIN をセットアップする方法については、[こちら](/skypeforbusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider)をご覧ください。  <br/> |
-|1つの Office 365 組織から別の組織に番号を転送します。  <br/> |移行するユーザー (サブスクライバー) の電話番号のリストを、番号の転送元の組織の PIN とともに、[マイクロソフトに送信](mailto:ptn@microsoft.com)します。 PIN をセットアップする方法については、[こちら](/skypeforbusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider)をご覧ください。  <br/> |
+|1つの Microsoft 365 または Office 365 から別の番号に番号を転送します。  <br/> |移行するユーザー (サブスクライバー) の電話番号のリストを、番号の転送元の組織の PIN とともに、[マイクロソフトに送信](mailto:ptn@microsoft.com)します。 PIN をセットアップする方法については、[こちら](/skypeforbusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider)をご覧ください。  <br/> |
 |||
    
 ## <a name="related-topics"></a>関連トピック 

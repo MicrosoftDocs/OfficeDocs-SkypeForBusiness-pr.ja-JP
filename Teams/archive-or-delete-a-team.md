@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e367fe85f1af35391fa00b4a416b6e796383d962
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: HT
+ms.openlocfilehash: e065ddccd9781143b9c3522aa795f85ef0e118bb
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826405"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780716"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Microsoft Teams でチームをアーカイブまたは削除する
 ===========================================
@@ -98,7 +98,7 @@ ms.locfileid: "41826405"
     Connect-AzureAD
     ```
     メッセージが表示されたら、管理者アカウントとパスワードを使用してサイン インします。  
-2. 次を実行すると、30 日の保持期限内のすべてのソフト削除された Office 365 グループの一覧が表示されます。 多数のグループがある場合は、**-All $True** パラメーターを使用します。
+2. 次を実行して、30日の保持期間内のすべてのソフト削除された Microsoft 365 グループの一覧を表示します。 多数のグループがある場合は、**-All $True** パラメーターを使用します。
     ```PowerShell
     Get-AzureADMSDeletedGroup
     ``` 

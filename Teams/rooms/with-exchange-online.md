@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: このトピックでは、Microsoft Teams のルームを Exchange Online と共に展開する方法について説明します。
-ms.openlocfilehash: d909174712ba27efdc5e4c5427c51c67049b8e92
-ms.sourcegitcommit: 543f650ad4aff73bccfe7a60b66fb944b4e3c119
+ms.openlocfilehash: fbf1057539f15d6de702909a1571c9e11fdf5de3
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42572885"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780556"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Exchange Online を使用して Microsoft Teams ミーティング を展開
 
@@ -101,7 +101,7 @@ Active Directory フェデレーションサービス (AD FS) を展開した場
      ``` -->
 
 2. Exchange と Skype for Business Server が動作するためには、ユーザーアカウントが有効な Office 365 ライセンスを所有している必要があります。 ライセンスを所有している場合は、使用場所をユーザーアカウントに割り当てる必要があります。これにより、アカウントで利用できるライセンス Sku が決定されます。 課題は、次の手順で作成します。
-3. 次に、`Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> Office 365 テナントで利用可能な Sku の一覧を取得するには、こちらを参照してください。
+3. 次に、`Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> Office 365 組織で利用可能な Sku の一覧を取得するには、こちらを参照してください。
 4. Sku の一覧が表示されたら、`Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> コマンドレット. この場合、表示される SKU コードは $strLicense です (たとえば、contoso:STANDARDPACK)。 
 
     ```PowerShell
@@ -154,16 +154,16 @@ Skype for Business (プラン 3)] を選択します。 Microsoft Teams のル�
 > 現在、電話会議、または Office 365 電話システムと通話プランを使って、Skype for Business プラン2で E1、E3、E4、または E5 Sku を使用している場合は、引き続き機能します。 ただし、現在のライセンスの有効期限が切れた後、 [Teams 会議室のライセンス更新](rooms-licensing.md)で説明されているように、よりシンプルなライセンスモデルに移行することを検討する必要があります。
 
 > [!IMPORTANT]
-> Skype for Business Plan 2 を使用している場合は、Skype for Business のみのモードで Microsoft Teams ルームのみを使用できます。つまり、すべての会議が Skype for Business 会議になります。 Microsoft Teams 会議の会議室を有効にするには、会議室のライセンスを購入することをお勧めします。
+> Skype for Business Plan 2 を使用している場合は、Skype for Business のみのモードで Microsoft Teams ルームのみを使用できます。つまり、すべての会議が Skype for Business 会議になります。 Microsoft Teams のミーティングの会議室を使用できるようにするため、ミーティング ルーム ライセンスのご購入をお勧めします。
   
 ## <a name="see-also"></a>関連項目
 
-[Microsoft Teams 室のアカウントを構成する](rooms-configure-accounts.md)
+[Microsoft Teams ミーティングのアカウントを構成する](rooms-configure-accounts.md)
 
-[Microsoft Teams のルームを計画する](rooms-plan.md)
+[Microsoft Teams ミーティングを計画する](rooms-plan.md)
   
-[Microsoft Teams ルームの展開](rooms-deploy.md)
+[デプロイの概要](rooms-deploy.md)
   
-[Microsoft Teams 室コンソールを構成する](console.md)
+[Microsoft Teams ミーティング コンソールを構成する](console.md)
   
 [Microsoft Teams Rooms を管理する](rooms-manage.md)

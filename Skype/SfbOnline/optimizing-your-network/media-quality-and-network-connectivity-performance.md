@@ -19,21 +19,21 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Optimization
-description: このトピックでは、Skype for Business Online サービスのネットワークパフォーマンス要件のセットと、ネットワークと Skype for Business Online との間の接続にインターネットまたは ExpressRoute を使用する方法を定義する方法について説明します。ネットワークの評価に基づいています。対する. Office 365 への専用接続用に Azure ExpressRoute を展開することにした場合、このドキュメントでは、さまざまな Skype for Business Online の展開シナリオで ExpressRoute 接続を計画する方法のガイダンスについて説明します。
-ms.openlocfilehash: 2d9192f4dfb27de97527ff584c0ab0a204e20cca
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: このトピックでは、Skype for Business Online サービスのネットワークパフォーマンス要件のセットと、ネットワーク接続の評価に基づいてネットワークと Skype for Business Online の間の接続にインターネットまたは ExpressRoute を使用する方法について説明します。 Office 365 への専用接続用に Azure ExpressRoute を展開することにした場合、このドキュメントでは、さまざまな Skype for Business Online の展開シナリオで ExpressRoute 接続を計画する方法のガイダンスについて説明します。
+ms.openlocfilehash: ed7ad6ebd456122e41ccd74269180ff9c79fa3fb
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693072"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776442"
 ---
 # <a name="media-quality-and-network-connectivity-performance-in-skype-for-business-online"></a>Skype for Business Online におけるメディアの品質とネットワーク接続性のパフォーマンス
 
-このトピックでは、Skype for Business Online サービスのネットワークパフォーマンス要件のセットと、ネットワークと Skype for Business Online との間の接続にインターネットまたは ExpressRoute を使用する方法を定義する方法について説明します。ネットワークの評価に基づいています。対する. Office 365 への専用接続用に Azure ExpressRoute を展開することにした場合、このドキュメントでは、さまざまな Skype for Business Online の展開シナリオで ExpressRoute 接続を計画する方法のガイダンスについて説明します。
+このトピックでは、Skype for Business Online サービスのネットワークパフォーマンス要件のセットと、ネットワーク接続の評価に基づいてネットワークと Skype for Business Online の間の接続にインターネットまたは ExpressRoute を使用する方法について説明します。 Office 365 への専用接続用に Azure ExpressRoute を展開することにした場合、このドキュメントでは、さまざまな Skype for Business Online の展開シナリオで ExpressRoute 接続を計画する方法のガイダンスについて説明します。
   
 IP 経由のリアルタイムメディア (オーディオ、ビデオ、およびアプリケーション共有) の品質は、エンドツーエンドのネットワーク接続の品質に大きく影響します。 Skype for Business Online メディアの最適な品質を得るために、会社のネットワークと Skype for Business Online 間の接続が高品質であることを確認することが重要です。 これを達成するためには、内部ネットワークとクラウド接続を、接続全体にわたって Skype for Business Online のピーク時のトラフィック量を処理するネットワークのキャパシティに基づいて設定することが最善の方法になります。
   
-Azure ExpressRoute は、Skype for Business Online などの Office 365 サービスの要件ではありません。 ただし、Azure ExpressRoute は、Office 365 への接続が Skype for Business ネットワークのパフォーマンス要件を満たし、最適な Skype for Business Online メディアを確実に満たすために使用できる展開オプションの1つです。音質が向上します。
+Azure ExpressRoute は、Skype for Business Online などの Office 365 サービスの要件ではありません。 ただし、Azure ExpressRoute は、Office 365 への接続が Skype for business ネットワークのパフォーマンス要件を満たしていることを確認し、最適な Skype for Business Online メディア品質を実現するために使用できる展開オプションの1つです。
   
 > [!TIP]
 > このトピックでは、全体的なネットワークパフォーマンスガイダンスについて説明していますが、ネットワークの評価に関する包括的なガイダンスは、このドキュメントの範囲外です。 綿密かつ完全なネットワーク評価の一環として、ネットワークパフォーマンスの測定に役立つ Skype for Business Online パートナーの一覧を見つけるには、 [skype For Business パートナーソリューション](http://partnersolutions.skypeforbusiness.com/)にアクセスしてください。 
@@ -65,16 +65,16 @@ Skype for Business Online のリアルタイムメディア (オーディオ、�
 
 IP ネットワーク上のリアルタイムメディアの品質は、ネットワーク接続の品質に大きな影響を与えますが、特に次の量によって影響を受けます。
   
-- **待機時間**これは、IP パケットがネットワーク上のポイント A からポイント B に到達するまでにかかる時間です。 このネットワーク伝播遅延は、さまざまなルーターの間の追加のオーバーヘッドを含めて、2つのポイントとライトの速度の間の物理的な距離に関連しています。 待ち時間は、一方向またはラウンドトリップ時間 (RTT) として測定されます。
+- **待機時間**これは、IP パケットがネットワーク上のポイント A からポイント B に到達するまでにかかる時間です。 このネットワーク伝達遅延は、さまざまなルーターの間の追加のオーバーヘッドを含めて、2 つのポイントの間の物理的な距離と光速度に関連しています。 待ち時間は、一方向またはラウンドトリップ時間 (RTT) として測定されます。
     
 - **パケット損失**これは、多くの場合、特定の時間帯に消失したパケットの割合として定義されます。 パケット損失は、オーディオの品質に直接影響を与えます。これは、完全に失われた小さいパケットによって、完全なオーディオのカットアウトを引き起こすバックツーバックのバースト損失になります。
     
-- **パケット間の着信のジッターまたは単なるジッター**これは、連続するパケット間の遅延の平均変更です。 Skype for Business などの最新の VoIP ソフトウェアは、バッファー処理によって一定レベルのジッターに対応できます。 これは、ジッタがジッターの効果に気付くというバッファリングを超える場合に限られます。
+- **パケット間の着信のジッターまたは単なるジッター**これは、連続するパケット間の遅延の平均変更です。 Skype for Business などの最新の VoIP ソフトウェアは、バッファー処理によって一定レベルのジッターに対応できます。 これは、参加者がジッターの影響に気付くほど、ジッターがバッファリングを超える場合に限定されます。
     
 > [!NOTE]
 >  ジッタのバッファリングにより、エンドツーエンドの待ち時間が増加します。
   
-Skype for Business Online のリアルタイムメディアセッション、および他の Office 365 サービスやその他のビジネスアプリケーションによって生成されるその他のネットワークトラフィックによって、ネットワークパス全体に十分な帯域幅があることを確認します。ネットワークの輻輳を回避し、優れたメディアリアルタイムメディア (オーディオ、ビデオ、およびアプリケーション共有) の品質を確保するために、ネットワークを Skype for Business Online サービスに接続することが重要です。 
+複数の Skype for Business Online のリアルタイムメディアセッション、および他の Office 365 サービスや他のビジネスアプリケーションによって生成されるその他のネットワークトラフィックを使用して、ネットワークの輻輳を回避し、メディアのリアルタイムメディア (オーディオ) を確保することが重要です。、ビデオ、およびアプリケーション共有) の品質。 
   
 #### <a name="implementing-quality-of-service-qos-across-congested-networks"></a>混雑したネットワーク全体でサービスの品質 (QoS) を実装する
 
@@ -120,7 +120,7 @@ PSTN 通話のシナリオでは、メディアパスは以下のネットワー
 ### <a name="network-performance-requirements-from-a-skype-for-business-client-to-microsoft-network-edge"></a>Skype for Business クライアントから Microsoft ネットワークエッジへのネットワークパフォーマンス要件
 <a name="bkSfBClienttoEdge"></a>
 
-Skype for Business の最適なメディア品質を得るため、会社のネットワークから Microsoft ネットワークエッジへの接続には、次のネットワークパフォーマンスメトリックのターゲットまたはしきい値が必要です。 ネットワークのこのセグメントには内部ネットワークが含まれています。これには、すべての WiFi とイーサネット接続、WAN 接続経由の会社のサイト間トラフィック (マルチプロトコルラベル切り替え (MPLS)、インターネットまたは ExpressRoute パートナーなど) が含まれます。Microsoft ネットワークエッジへの接続。
+Skype for Business の最適なメディア品質を得るため、会社のネットワークから Microsoft ネットワークエッジへの接続には、次のネットワークパフォーマンスメトリックのターゲットまたはしきい値が必要です。 このセグメントには、内部ネットワークが含まれています。これには、すべての WiFi とイーサネット接続、WAN 接続経由の企業のサイト間トラフィック (マルチプロトコルラベル切り替え (MPLS)、Microsoft ネットワークエッジへのインターネットまたは ExpressRoute パートナーとの接続など) が含まれます。
   
 > [!CAUTION]
 > **会社のネットワーク上の Skype for Business クライアントと Office 365 サービス間の接続は、以下のネットワークパフォーマンス要件としきい値を満たす必要があります。**
@@ -146,7 +146,7 @@ Skype for Business の最適なメディア品質を得るため、会社のネ�
 ### <a name="network-performance-requirements-from-your-network-edge-to-microsoft-network-edge"></a>ネットワークエッジから Microsoft ネットワークエッジへのネットワークパフォーマンス要件
 <a name="bkYourNetworkEdge"> </a>
 
-ネットワークエッジと Microsoft ネットワークエッジ間の接続に必要なネットワークパフォーマンスのターゲットまたはしきい値を次に示します。 このセグメントには、お客様の内部ネットワークまたは WAN が含まれていません。また、インターネット経由で送信されたネットワークトラフィックをテストするとき、または ExpressRoute パートナーネットワーク経由で送信されるネットワークトラフィックをテストする際のガイダンスとして、パフォーマンスをネゴシエートするときにも使うことができます。ExpressRoute プロバイダーとのサービスレベル契約 (SLA)。
+ネットワークエッジと Microsoft ネットワークエッジ間の接続に必要なネットワークパフォーマンスのターゲットまたはしきい値を次に示します。 ネットワークのこのセグメントでは、顧客の内部ネットワークまたは WAN を除外します。また、インターネット経由で送信されたネットワークトラフィックをテストする場合や、ExpressRoute パートナーネットワークを経由して送信されるネットワークトラフィックをテストする場合、または ExpressRoute プロバイダーとのサービスレベル契約 (SLA) をネゴシエートする場合にも使用できます。
   
 > [!CAUTION]
 > **会社のネットワークエッジと Microsoft ネットワークエッジ間の接続は、以下のネットワークパフォーマンス要件としきい値を満たす必要があります。**
@@ -170,7 +170,7 @@ Skype for Business の最適なメディア品質を得るため、会社のネ�
 ## <a name="measuring-network-performance"></a>ネットワークパフォーマンスの測定
 <a name="bkNetworkPerf"> </a>
 
-実際のネットワークのパフォーマンスを測定するには (特に、会社のネットワークサイトからネットワークの端まで)、ping などのツールを使用して、Microsoft Edge とデータから実行されている一連の Skype for Business メディアリレーサービスをテストすることができます。センターサイト。 
+実際のネットワークのパフォーマンスを測定するには (特に、会社のネットワークサイトからネットワークの端に)、ping などのツールを使用して、Microsoft Edge およびデータセンターサイトから実行されている一連の Skype for Business メディアリレーサービスをテストすることができます。 
 
 >[!NOTE]
 > Ping (ICMP) を使ったネットワークパフォーマンスの測定は有効ではありません。 そのため、以下のエニーキャスト IP 公開は、2020年1月以降の ICMP 要求への応答を停止します。 ネットワークのパフォーマンスを効果的に測定するには、 [Network Assesment ツール](https://www.microsoft.com/download/details.aspx?id=53885)をお勧めします。
@@ -232,13 +232,13 @@ Azure でホストされているテストサービスに基づくネットワ�
 
 Office 365 用 Azure ExpressRoute は、Office 365 に接続するための専用ネットワーク接続です。 Office 365 ネットワークトラフィックにかかるパスを管理する機能をユーザーに提供します。 インターネット上では、未知の配送業者、プロバイダー、および Isp によってデータが伝送される予期しないルーティングについて心配する必要はありません。 ExpressRoute 経由で送信されるネットワークトラフィックは、ExpressRoute パートナーのネットワークを介して Microsoft のネットワークに直接送信されます。 これにより、ユーザーは、専用の接続を備えた独自のオフサイトデータセンターにあるかのように Office 365 を扱うことができます。
   
-Azure ExpressRoute は、すべての Office 365 ライセンスサービスで利用できます。 ただし、Office 365 でグローバルルーティングを有効にするには、Azure ExpressRoute Premium アドオンが必要です。 Office 365 では、ExpressRoute を実装している少なくとも500座席をお持ちのお客様は、必要な*Expressroute Premium アドオン*を追加料金なしで入手できます。
+Azure ExpressRoute は、すべての Office 365 ライセンスサービスで利用できます。 ただし、Office 365 でグローバルルーティングを有効にするには、Azure ExpressRoute Premium アドオンが必要です。 ExpressRoute を実装している500の座席が少なくとも1人のお客様は、追加料金なしで必要な*Expressroute Premium アドオン*を入手できます。
   
 ### <a name="is-expressroute-required-for-good-media-quality"></a>適切なメディア品質を使用するには ExpressRoute が必要ですか?
 
 Azure ExpressRoute は、最適な Skype for Business Online メディア品質を得るための要件ではありません。 ただし、クラウド接続が Skype for Business ネットワークパフォーマンスのターゲットまたはしきい値を満たすようにするために役立つ展開オプションの1つです。
   
-Office 365 は、インターネットを使用する高パフォーマンスで安全なサービスです。 セキュリティとパフォーマンスを継続的に向上させるために、新しいセキュリティ機能と地域の Edge ノードへの投資を継続しています。 Azure ExpressRoute は、Skype for Business Online などの Office 365 サービスの要件ではありません。 Azure ExpressRoute は、Office 365 への接続が Skype for Business ネットワークパフォーマンス要件を満たしていることを確認し、最適な Skype for Business Online メディア品質を確保するために使用できる展開オプションの1つです。実感.
+Office 365 は、インターネットを使用する高パフォーマンスで安全なサービスです。 セキュリティとパフォーマンスを継続的に向上させるために、新しいセキュリティ機能と地域の Edge ノードへの投資を継続しています。 Azure ExpressRoute は、Skype for Business Online などの Office 365 サービスの要件ではありません。 Azure ExpressRoute は、Office 365 への接続が Skype for Business ネットワークのパフォーマンス要件を満たしていることを確認し、最も最適な Skype for Business Online メディア品質を実現するために使用できる展開オプションの1つです。
   
 Skype for Business Online のメディアの品質を向上させるには、会社のサイトと Microsoft ネットワークエッジ間の接続が、ネットワークパフォーマンス要件のネットワークのパフォーマンスに関するパフォーマンスの目標を[ネットワークエッジから microsoft ネットワークエッジに](media-quality-and-network-connectivity-performance.md#bkYourNetworkEdge)までとしていることが[重要となっ](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge)ています。  
   
@@ -261,7 +261,7 @@ Skype for Business Online のメディアの品質を向上させるには、会
 
 Skype for Business Online へのネットワーク接続オプションを決定する前に、お客様は、ネットワークパフォーマンス要件に基づいて、「 [skype For Business online に接続する](media-quality-and-network-connectivity-performance.md#bkNetworkPerf)」に記載されているネットワークパフォーマンス要件に基づいて、ネットワークと現在のインターネット接続を評価する必要があります。
   
-現在のインターネット接続のネットワークパフォーマンスが、ピーク時に十分な容量に設定されていて、サイトから Microsoft ネットワークエッジに、またはネットワークエッジから Microsoft ネットワークエッジへのネットワークパフォーマンス要件を満たしている場合、引き続き既存のインターネット接続を使用して、Skype for Business Online に接続します。
+現在のインターネット接続のネットワークパフォーマンスが、ピーク時に十分な容量に設定されていて、サイトから Microsoft ネットワークの端までのネットワークパフォーマンス要件とネットワークエッジから Microsoft ネットワークエッジに対応している場合は、引き続き既存のインターネット接続を使用して、Skype for Business Online に接続することができます。
   
 ネットワークパフォーマンス要件が満たされていない企業サイトの場合、最初に既存のネットワークサービスプロバイダーと連携して、全体的なネットワークのパフォーマンスを向上させることを強くお勧めします。 ただし、まだ満たされていない場合は、Azure ExpressRoute を使用することで、ネットワークのパフォーマンス要件を満たすために Skype for Business Online クラウド接続を確実に行うことができます。
   
@@ -298,7 +298,7 @@ BGP コミュニティがサポートされている場合、Microsoft は、プ
   
 ### <a name="online-only-deployment---multiple-sites-on-the-same-continent"></a>オンラインのみの展開-同じ大陸上の複数のサイト
 
-会社が同じ地域または大陸の複数のオフィスから Skype for Business Online サービスを使用していて、Azure ExpressRoute を実装することを選んだ場合は、ExpressRoute 経由でメインサイトを接続し、必要に応じて追加することをお勧めします。推奨されるネットワークパフォーマンスターゲットを満たしていない他の場所の ExpressRoute ピアリング。
+会社が同じ地域または大陸の複数のオフィスから Skype for Business Online サービスを使用していて、Azure ExpressRoute を実装することを選んだ場合は、ExpressRoute を使用してメインサイトを接続することをお勧めします。次に、必要に応じて、ネットワークパフォーマンスの目標を満たしていない他の場所の ExpressRoute ピアリングを追加する
   
 次の例では、Contoso は米国旅行サービス会社であり、米国内には他の支社があります。 オフィスは、Office 365 への接続に MPLS を使用する WAN 経由で接続されています。 最初は、Hoboken のインターネットルータから ExpressRoute 接続を設定して、ニューヨーク MeetMe サイトに追加しています。 
   
@@ -316,7 +316,7 @@ BGP コミュニティがサポートされている場合、Microsoft は、プ
   
 ### <a name="hybrid-deployment"></a>ハイブリッド展開
 
-オンプレミスの Lync または Skype for Business の展開を使用して、ハイブリッド Skype for Business Online 統合を実装することを選んだ場合、Azure ExpressRoute の展開を決定する場合は、それぞれに少なくとも1つの ExpressRoute 接続が必要です。オンプレミスの Lync または Skype for Business Edge サイトと、オフィスがある大陸ごとに少なくとも1つの ExpressRoute 接続。 各大陸のコストと利点に応じて、ネットワークパフォーマンスのターゲットが満たされていないオフィスから追加の ExpressRoute 接続を展開することを選択できます。
+オンプレミスの Lync または Skype for business を使用している場合、ハイブリッド Skype for Business Online 統合の実装を選んだ場合、Azure ExpressRoute の展開を決定するときは、オンプレミスの Lync または Skype for Business Edge サイトに少なくとも1つの ExpressRoute 接続と、オフィスを持つ大陸ごとに少なくとも1つの expressroute 接続が必要です 各大陸のコストと利点に応じて、ネットワークパフォーマンスのターゲットが満たされていないオフィスから追加の ExpressRoute 接続を展開することを選択できます。
   
 オンプレミスの Skype for Business をお持ちの場合は、 [Edge Server の計画と展開ガイド](https://technet.microsoft.com/library/mt346417.aspx)に従う必要があります。 特に、エッジサーバーはネットワークの外部から到達可能である必要があります。 通常、これを実現するには、ルーティング可能なパブリック IP アドレスをエッジサーバーに割り当てるか、ネットワークアドレス変換 (NAT) を使用します。
   

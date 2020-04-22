@@ -15,12 +15,12 @@ description: このガイダンスを使用して、Microsoft Teams を最初の
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 79607004c8f750ceed0325733c8c52a4873e9cdc
-ms.sourcegitcommit: 89a7c0427a5abbef838a17ae7eac6934c6176a35
+ms.openlocfilehash: 9db6b2192224e796475c903cf5eeeaa06ecdc8ee
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42982157"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780376"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>Microsoft Teams を最初にロールアウトする
 
@@ -37,7 +37,7 @@ Microsoft Teams を使用すると、従業員が世界中の従業員の現実�
 
 チームの最初の展開を始めるには、少なくともいくつかの前提条件を満たしている必要があります。 次のリストは、Teams を有効にする前に、組織に必要な場所を示しています。
 
-1.  使用しているドメイン名で構成されている Office 365 テナント
+1.  使用しているドメイン名で構成されている Office 365 組織
 
 2.  Azure Active Directory connectivity (AAD connect) または同様のクラウド id 同期ソリューション–テナントに同期される必須属性がすべて含まれています。  
     AAD 同期と同期される属性について理解するには、「 [AZURE AD Connect sync: 属性が Azure Active Directory に同期](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)されている」を参照してください。
@@ -104,7 +104,7 @@ Teams は、2種類の PSTN 接続をサポートしています。 Microsoft �
 </tr>
 <tr class="even">
 <td>Teams でのチャット/外部通信</td>
-<td><p>内部 (Office 365 テナント内) と、Teams からの外部チャット通信可能</p>
+<td><p>内部 (Office 365 組織内) および Teams からの外部チャット通信可能</p>
 <p><em>注: DNS エントリは、外部アクセス用に構成されている必要があります。 Skype for business DNS レコードは、Lync および Skype for business 環境とのフェデレーションを許可するために、オンプレミスの Skype for Business または Office 365 を使っていない場合でも必要です。<br />
 <a href="https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records">Office 365 の外部ドメインネームシステムレコード</a></em></p></td>
 </tr>
@@ -264,11 +264,11 @@ Microsoft Teams は、組織が1つのプラットフォームですべての従
 
   - [オンライン会議とイベントの配信](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/17/delivering-online-meetings-events/)
 
-  - [小規模および中規模企業のチームとのリモート作業を支援する](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/17/helping-smb-customers-work-remotely-microsoft-teams/)
+  - [Teams により中小規模企業でのリモート作業をサポートする](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/17/helping-smb-customers-work-remotely-microsoft-teams/)
 
   - [ライブイベントのデジタル変換: ボブが frontline からの1月の所見](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/13/digital-transformation-live-events-bob-bejans-observations-frontline/)
 
-  - [Microsoft IT のトップ9の方法で、従業員のリモート作業を有効にします。](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
+  - [Microsoft IT が社員のリモート作業を実現した 9 つの方法](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
 
   - [リモートで作業する、セキュリティを維持する、CISOs のヒント](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/12/work-remotely-stay-secure-ciso-tips/)
 
@@ -278,7 +278,7 @@ Microsoft Teams は、組織が1つのプラットフォームですべての従
 
 ## <a name="support-services-reference"></a>サポートサービスリファレンス
 
-チームは Exchange Online、SharePoint Online、OneDrive for Business、Office 365 グループに依存して、完全に統合された Office 365 エクスペリエンスをユーザーに提供します。 上で説明したように、チームは、機能が制限されている場合に、これらのサービスを完全に展開することなく機能します。 チームとその前提条件の詳細については、「 [teams へようこそ](teams-overview.md)」を参照してください。
+チームは Exchange Online、SharePoint Online、OneDrive for Business、Microsoft 365 グループに依存して、完全に統合された Office 365 エクスペリエンスをユーザーに提供します。 上で説明したように、チームは、機能が制限されている場合に、これらのサービスを完全に展開することなく機能します。 チームとその前提条件の詳細については、「 [teams へようこそ](teams-overview.md)」を参照してください。
 
 上記の各サービスの詳細については、以下のリンクを参照してください。
 
@@ -289,10 +289,10 @@ Microsoft Teams は、組織が1つのプラットフォームですべての従
 
   - SharePoint はチャネルでのファイル共有に使用されますが、OneDrive for Business は1:1 またはグループチャットでのファイル共有に使用されます。 詳細については、「 [SharePoint Online と OneDrive For business が Microsoft Teams とどのように連携するか](sharepoint-onedrive-interact.md)」を参照してください。
 
-  - [Office 365 グループ](office-365-groups.md)は、チームとチャネルの作成/管理に使用されます。
+  - [Microsoft 365 グループ](office-365-groups.md)は、チームとチャネルの作成/管理に使用されます。
 
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Microsoft Teams IT アーキテクチャとテレフォニー ソリューション ポスター](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
 

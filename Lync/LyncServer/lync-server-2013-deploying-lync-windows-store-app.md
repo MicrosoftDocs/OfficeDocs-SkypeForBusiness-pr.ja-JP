@@ -12,12 +12,12 @@ ms:contentKeyID: 50117635
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de478ddf104f36fc208f2773c26c772b2cc0addd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4478f60fc99304e7cf882ddec7951aa3625d74f2
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195340"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779583"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +43,7 @@ Lync Windows ストアアプリをユーザーが使用できるようにする�
 
 ## <a name="enabling-multi-factor-authentication-for-lync-windows-store-app"></a>Lync Windows ストアアプリで多要素認証を有効にする
 
-Lync Server 2013 の累積的な更新プログラム: 2013 年6月、Lync Windows ストアアプリクライアントに対して多要素認証のサポートが追加されます。 ユーザー名とパスワードに加えて、スマートカードや Pin などの追加の認証方法を要求して、Lync 会議にサインインする際に外部ユーザーを認証することができます。 多要素認証を有効にするには、Active Directory フェデレーションサービス (AD FS) フェデレーションサーバーを展開し、Lync Server 2013 でパッシブ認証を有効にします。 AD FS を構成した後、Lync 会議に参加しようとする外部ユーザーには、ユーザー名とパスワードのチャレンジと、構成した追加の認証方法が含まれる AD FS 多要素認証 web ページが表示されます。.
+Lync Server 2013 の累積的な更新プログラム: 2013 年6月、Lync Windows ストアアプリクライアントに対して多要素認証のサポートが追加されます。 ユーザー名とパスワードに加えて、スマートカードや Pin などの追加の認証方法を要求して、Lync 会議にサインインする際に外部ユーザーを認証することができます。 多要素認証を有効にするには、Active Directory フェデレーションサービス (AD FS) フェデレーションサーバーを展開し、Lync Server 2013 でパッシブ認証を有効にします。 AD FS を構成した後、Lync 会議に参加しようとする外部ユーザーには、ユーザー名とパスワードのチャレンジと、構成した追加の認証方法を含む AD FS 多要素認証 web ページが表示されます。
 
 <div class=" ">
 
@@ -138,7 +138,7 @@ Office Communications Server 2007 R2 エッジサーバーを使用する Lync S
 
 ## <a name="lync-windows-store-app-cannot-sign-in-due-to-a-certificate-name-validation-failure"></a>証明書名の検証に失敗したため、Lync Windows ストアアプリがサインインできない
 
-最新バージョンの Lync Windows ストアアプリを実行していない Office 365 ユーザーに対してサインインの問題が発生することがあります。 通常、この問題は複数のドメインを使用する場合に発生します (たとえば、SIP URI が**userA@domainZ.com** 、エッジサーバーが**sip.domainX.com**)。 この問題を解決するには、ユーザーは Lync Windows ストアアプリの最新バージョンをインストールする必要があります。これには、Windows 8.1 も必要です。
+Microsoft 365 または Office 365 ユーザーが最新バージョンの Lync Windows ストアアプリを実行していない場合、サインインの問題が発生する可能性があります。 通常、この問題は複数のドメインを使用する場合に発生します (たとえば、SIP URI が**userA@domainZ.com** 、エッジサーバーが**sip.domainX.com**)。 この問題を解決するには、ユーザーは Lync Windows ストアアプリの最新バージョンをインストールする必要があります。これには、Windows 8.1 も必要です。
 
 </div>
 

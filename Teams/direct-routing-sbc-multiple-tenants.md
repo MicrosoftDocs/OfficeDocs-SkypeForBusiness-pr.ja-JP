@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 1つのセッション境界コントローラー (SBC) を複数のテナントに対応するように構成する方法について説明します。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 90bad0c87cef92a36dea392d98cfb66824c10113
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 1419a42a6affa00bbeed35d328f91331ad5357ec
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141090"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779573"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>複数のテナントにセッション ボーダー コントローラーを構成する
 
@@ -80,7 +80,7 @@ SBC ホスティングシナリオでの SBCs の展開と構成の詳細な手�
 
 電話が Office 365 ダイレクトルーティングインターフェイスに到着すると、インターフェイスは連絡先ヘッダーを使って、ユーザーを検索する必要があるテナントを見つけます。 直接ルーティングでは、ユーザーによっては、複数のテナントで重複する可能性のある電話番号がない可能性があるため、招待で電話番号の参照は使用されません。 そのため、連絡先ヘッダーの FQDN 名は、電話番号によってユーザーを検索する正確なテナントを特定する必要があります。
 
-*Office 365 テナントでのドメイン名の作成について詳しくは、「 [office 365 ドメインでヘルプを表示](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)する」を参照してください。*
+*Office 365 組織でのドメイン名の作成について詳しくは、「 [office 365 ドメインに関するヘルプ](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)」を参照してください。*
 
 次の図は、ベースドメイン、サブドメイン、連絡先ヘッダーの要件をまとめたものです。
 
@@ -92,7 +92,7 @@ SBC は、接続を認証するために証明書を必要とします。 SBC �
 次の表は、1つの構成の例です。
 
 
-|新しいドメイン名 |型|登録  |SBC 用証明書 SAN  |テナントの既定のドメインの例  |ユーザーに通話を送信するときに、SBC が連絡先ヘッダーに提示する必要がある FQDN 名|
+|新しいドメイン名 |種類|登録  |SBC 用証明書 SAN  |テナントの既定のドメインの例  |ユーザーに通話を送信するときに、SBC が連絡先ヘッダーに提示する必要がある FQDN 名|
 |---------|---------|---------|---------|---------|---------|
 |customers.adatum.biz|    技術     |     運送業者のテナント  |    \*customers.adatum.biz  |   adatum.biz      |NA、これはサービステナントであり、ユーザーは存在しません |
 |sbc1.customers.adatum.biz|    プロトコル  |    顧客テナントの場合  |    \*customers.adatum.biz  | woodgrovebank.us  |  sbc1.customers.adatum.biz|
@@ -124,7 +124,7 @@ SBC は、接続を認証するために証明書を必要とします。 SBC �
 
     ![[ドメインの追加] ページを示すスクリーンショット](media/direct-routing-2-sbc-add-domain.png)
 
-3. [ **次へ**] をクリックします。
+3. **[次へ]** をクリックします。
 4. この例では、テナントは既に確認済みドメイン名として adatum.biz されています。 Customers.adatum.biz は既に登録されている名前のサブドメインであるため、追加の確認を求められることはありません。 ただし、以前に確認されていない FQDN を追加する場合は、確認プロセスを行う必要があります。 確認プロセスについては、[以下で説明](#add-a-subdomain-to-the-customer-tenant-and-verify-it)します。
 
     ![確認済みドメイン名の確認を示すスクリーンショット](media/direct-routing-3-sbc-verify-domain.png)
@@ -138,7 +138,7 @@ SBC は、接続を認証するために証明書を必要とします。 SBC �
 
 ドメイン名を登録したら、少なくとも1つの E1、E3、または E5 のライセンスを持つユーザーを追加し、作成されたベースドメインと一致する SIP アドレスの FQDN 部分を持つ SIP アドレスを割り当てることによって、そのドメイン名をアクティブ化する必要があります。 
 
-*Office 365 テナントでのユーザーの追加の詳細については、「 [office 365 ドメインでヘルプを表示](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)する」を参照してください。*
+*Office 365 組織でのユーザーの追加の詳細については、「 [office 365 ドメインでヘルプを表示](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)する」を参照してください。*
 
 例: test@customers.adatum.biz
 
@@ -164,7 +164,7 @@ SBC は、接続を認証するために証明書を必要とします。 SBC �
 
     ![[ドメインの追加] ページのスクリーンショット](media/direct-routing-5-sbc-add-customer-domain.png)
 
-3. [ **次へ**] をクリックします。
+3. **[次へ]** をクリックします。
 4. FQDN がテナントに登録されていない。 次の手順では、ドメインを確認する必要があります。 [**代わりに TXT レコードを追加する**] を選びます。 
 
     ![[ドメインの確認] ページのスクリーンショット](media/direct-routing-6-sbc-verify-customer-domain.png)
@@ -200,7 +200,7 @@ SBC は、接続を認証するために証明書を必要とします。 SBC �
 
 ドメイン名を登録したら、少なくとも1人のユーザーを追加して、sip アドレスの FQDN 部分を使用して、顧客テナント内で作成されたサブドメインと一致する SIP アドレスを割り当てることで、ライセンス認証を行う必要があります。
 
-*Office 365 テナントでのユーザーの追加の詳細については、「 [office 365 ドメインでヘルプを表示](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)する」を参照してください。*
+*Office 365 組織でのユーザーの追加の詳細については、「 [office 365 ドメインでヘルプを表示](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)する」を参照してください。*
 
 例: test@sbc1.customers.adatum.biz
 

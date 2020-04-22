@@ -18,12 +18,12 @@ description: Teams でイベントのライブをセットアップします。�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8e3110717cd9279d881415bf1e01d03a1cbee293
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: df54e90f2c895ebf7090fbec2487aae52bd53d66
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749804"
+ms.locfileid: "43779956"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントのセットアップ
 
@@ -97,7 +97,7 @@ Teams で作成したライブ イベントを配信するには、[Teams 用に
 
 ユーザーが外部アプリまたはデバイスで作成されたイベントをスケジュールできるようにするには、次の手順も行う必要があります。
 
-1. 組織内のユーザーに対して Microsoft Stream を有効にします。 Stream は、対象となる Office 365 サブスクリプションの一部として、またはスタンドアロン サービスとして使用できます。 Stream は Business Essentials プランや Business Premium プランには含まれません。 詳細については、「[Microsoft Stream ライセンスの概要](https://docs.microsoft.com/stream/license-overview)」を参照してください。
+1. 組織内のユーザーに対して Microsoft Stream を有効にします。 Stream は、適格な Microsoft 365 または Office 365 サブスクリプションの一部として、またはスタンドアロンサービスとして利用できます。 Stream は Business Essentials プランや Business Premium プランには含まれません。 詳細については、「[Microsoft Stream ライセンスの概要](https://docs.microsoft.com/stream/license-overview)」を参照してください。
 
       ユーザーが Stream にアクセスできるよう、[Office 365 でユーザーにライセンスを割り当てる](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC)方法をご確認ください。 Stream がそのユーザーに対してブロックされていないことを、[この記事](https://docs.microsoft.com/stream/disable-user-organization)の定義に従って確認します。
 

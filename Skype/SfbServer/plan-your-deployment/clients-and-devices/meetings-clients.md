@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: '概要: IT 担当者は、skype for business Server の計画時に Skype for Business Web App と Skype 会議アプリのサポート要件を確認する必要があります。 この記事は、これらのアプリのユーザーを対象としたものではありません。'
-ms.openlocfilehash: f5b402b23cbb49d1605b83b9f54531e26714b1f7
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: 0e1ce225f99a112f11d55d76eb8039a10d9aac6b
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157640"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777792"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>会議クライアントを計画する (Web アプリと会議アプリ)
  
@@ -70,7 +70,7 @@ Skype for Business Web アプリを使用するには、次のサポートされ
 Windows 上の Chrome から Web App にアクセスする &#x2778; は、埋め込みの Internet Explorer フレームに Web アプリを読み込む小さなプログラムを起動します。 このプログラムでは、サポートされているいずれかのバージョンの Internet Explorer をインストールして、Web アプリが正しく読み込まれるようにする必要があります。
   
 > [!NOTE]
-> Office 365 のユーザーは、Skype for Business で Internet Explorer 10 以降を使用できます。 
+> Microsoft 365 および Office 365 のユーザーは、Skype for Business で Internet Explorer 10 以降を使用できます。 
   
 ### <a name="skype-meetings-app"></a>Skype 会議アプリ
 

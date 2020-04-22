@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ec2d9ede5fdd31070228995cefaa16a60ad6224
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+ms.openlocfilehash: 4c4619758672022ed767c56e296ba41d2dcc33fd
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42796000"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776822"
 ---
 # <a name="teams-only-mode-considerations"></a>Teams Only モードの考慮事項
 
-Office 365 テナントの管理者である場合は、Microsoft Teams 管理センターで [チームのみ] モードにアップグレードするオプションが表示されるようになりました。 この機能を使用すると、個々のユーザーまたはテナント全体のどちらかをアップグレードできます。  
+Office 365 組織の管理者である場合は、Microsoft Teams 管理センターで [チームのみ] モードにアップグレードするオプションが表示されるようになりました。 この機能を使用すると、個々のユーザーまたはテナント全体のどちらかをアップグレードできます。  
 
 Teams 専用モードにアップグレードすると、ユーザーは1つのクライアントエクスペリエンスで、Office 365 のチームワークのハブである Microsoft Teams のすべてのメリットを享受できます。 さらに、チーム専用モードのユーザーは、送信者が Skype for Business または Teams を使用しているかどうかにかかわらず、すべての通話とチャットを受け取り、相互運用およびフェデレーションサポートによる恩恵を受けることができます。
 

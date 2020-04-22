@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.bridgesettings
 - seo-marvel-mar2020
 description: 電話会議ブリッジの設定を変更します。これには、エントリの入力や終了の通知、名前または電話番号、トーンの再生、発信者に名前を記録するためのプロンプトも含まれます。
-ms.openlocfilehash: aaff3518675e1db56340f9dc1568b994cf2ed6e6
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 48028ccb3f2a0664f9fa724ec91e1dfc0177326f
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139086"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780346"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>電話会議ブリッジの設定を変更する
 
@@ -43,7 +43,7 @@ Office 365 で電話会議を設定している場合、電話会議ブリッジ
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) Microsoft Teams 管理センターの使用
+## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Microsoft Teams のロゴが表示されたアイコン](media/teams-logo-30x30.png) Microsoft Teams 管理センターの使用
 
 1. 左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。 
 
@@ -90,7 +90,7 @@ Office 365 で電話会議を設定している場合、電話会議ブリッジ
     
 **会議の PIN の長さを設定する**
   
-1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
+1. 職場または学校のアカウントを使用してサインインします。
     
 2. **Microsoft 365 管理センター** > **Skype for Business** に移動します。
     
@@ -103,7 +103,7 @@ Office 365 で電話会議を設定している場合、電話会議ブリッジ
   
 **ユーザーにメールを送信するかどうかを選択する**
   
-1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
+1. 職場または学校のアカウントを使用してサインインします。
     
 2. **Microsoft 365 管理センター** > **Skype for Business** に移動します。
     

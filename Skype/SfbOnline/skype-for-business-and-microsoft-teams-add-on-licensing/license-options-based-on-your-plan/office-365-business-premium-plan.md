@@ -1,5 +1,5 @@
 ---
-title: 'Office 365 Business Premium '
+title: 'Microsoft 365 ビジネス標準 '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,17 +20,17 @@ f1.keywords:
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'アドオン ライセンス、機能、そして Office 365 Business Premium プランを購入する方法について説明します。 '
-ms.openlocfilehash: 9ffc251fafb9c1304f78d215a2b5c26d17ae9aae
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: 'アドオンライセンス、機能、Microsoft 365 Business Standard プランの購入方法について説明します。 '
+ms.openlocfilehash: 18e0e16def82354339948f63f958025924e17d1e
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706112"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777412"
 ---
-# <a name="office-365-business-premium"></a>Office 365 Business Premium
+# <a name="microsoft-365-business-standard"></a>Microsoft 365 ビジネス標準
 
-[Office 365 Business Premium](https://products.office.com/en/business/office-365-business-premium) をお持ちの場合は、Skype for Business を使用して、該当のサブスクリプションが適用される会社内の他のユーザーに通話を発信することができます。たとえば、会社に 10 人の社員がいる場合は、Skype for Business を使用してお互いに通話したりインスタント メッセージを送ることができます。
+[Microsoft 365 Business Standard](https://products.office.com/en/business/office-365-business-premium)をお持ちの場合は、Skype for business を使用して、月額プランに参加している他のユーザーに電話をかけることができます。 たとえば、会社に 10 人の社員がいる場合は、Skype for Business を使用してお互いに通話したりインスタント メッセージを送ることができます。
 
  **社外のユーザーとの通話を発着信するには、次の 2 つのオプションがあります** 。
 
@@ -44,12 +44,12 @@ ms.locfileid: "41706112"
     > 従業員が Skype for Business を使って Skype ユーザーを検索できるようにするには、トグルを設定する必要があります。 「 [Skype For business ユーザーが skype の連絡先を追加できるようにする](../../set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md)」を参照してください。
 
 
-- **オプション2。プランをアップグレードし、電話システムと国内または国内および国際通話プランを購入**します。
+- **オプション 2。プランをアップグレードして、電話システムと国内通話プラン、または国内および国際通話プランを購入します**。
 
     > [!Important]
     > Skype for Business Online のプラン 2 は、Office Business Premium のサブスクリプションに含まれていますが、 **クラウドの音声呼び出し機能を追加することはできません**。 そのため、Enterprise E5 (または Enterprise E3) プランを検討して、そちらの方がよりコスト効率が良いか確認することをおすすめします。
 
-1. [別の一般法人向け Office 365 プランに切り替える](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a)。 Enterprise E5 プランを検討して、そちらの方がよりコスト効率が良いか確認することをおすすめします。
+1. [別の一般法人向け Office 365 プランに切り替えます](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a)。 Enterprise E5 プランを検討して、そちらの方がよりコスト効率が良いか確認することをおすすめします。
 
 2. **電話システム** アドオンを購入します。
     
@@ -78,4 +78,4 @@ ms.locfileid: "41706112"
 
 3. [ **アドオン**] を選択します。 これで、電話システムの価格と、それを購入するためのオプションが表示されます。
 
-4. **電話システム** ライセンスを購入すると、通話プランを購入するオプションと価格が表示されます。
+4. **電話システム** ライセンスのご購入後、通話プランの料金と、それを購入するためのオプションが表示されます。

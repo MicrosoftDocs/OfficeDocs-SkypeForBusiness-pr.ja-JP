@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 新しいサービス電話番号を会議ブリッジに割り当てて、ユーザーの利用範囲を広げるために必要な手順について説明します。
-ms.openlocfilehash: 571b7a9c14db1601e0a4b94740395ad087808a49
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 233678bd953046eed5e6425e0b1a36c5a39b1061
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139076"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780356"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>電話会議ブリッジの電話番号を変更する
 
@@ -69,7 +69,7 @@ ms.locfileid: "43139076"
 
 ユーザーの既定の電話番号は、会議のスケジュール時に会議出席依頼に記載されている電話番号です。 新しいユーザーに対して defaul 電話番号を割り当てる方法を含め、詳細については、「 [Microsoft Teams の招待に含まれる電話番号を設定](set-the-phone-numbers-included-on-invites-in-teams.md)する」または「 [Skype for business Online の招待に含まれる電話番号を設定](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)する」を参照してください。
   
-1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
+1. 職場または学校のアカウントを使用してサインインします。
 
 2. **Microsoft 365 管理センター** > **管理** > センターの**チーム & Skype** > **従来のポータル** > **電話会議** > **ユーザー**に移動して、リストからユーザーを選びます。
 
@@ -133,7 +133,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
   
 ### <a name="step-3---unassign-the-old-phone-number-from-the-audio-conferencing-bridge"></a>手順 3-古い電話番号を電話会議ブリッジから割り当て解除する
 
-1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
+1. 職場または学校のアカウントを使用してサインインします。
 
 2. **Microsoft 365 管理センター** > **管理** > **Teams & Skype** > **従来のポータル** > **ボイス** > **電話番号**に移動します。
 
@@ -169,7 +169,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
 1. From the **Start Menu** > **Windows PowerShell**.
 
-2. [ **Windows PowerShell**] ウィンドウで、次を実行して、Office 365 の組織に接続します。
+2. **Windows PowerShell**ウィンドウで、次を実行して Microsoft 365 または Office 365 に接続します。
 
 >
   ```PowerShell
@@ -255,5 +255,5 @@ Windows PowerShell には、多くのユーザーについて同時に設定を�
 
   - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [電話会議ブリッジの設定を変更する](change-the-settings-for-an-audio-conferencing-bridge.md)

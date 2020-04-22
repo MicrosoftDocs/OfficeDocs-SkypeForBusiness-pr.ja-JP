@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 44b7a87a003b59543c37feb278462e839d83bd1e
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: 68a7b26fa9668685fc9082ecdb202b6f589e0f4f
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863308"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780186"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>チームの動的なメンバーシップの概要
 
-Microsoft Teams では、*動的メンバーシップ*を使用して、Office 365 グループに関連付けられているチームをサポートしています。 動的メンバーシップによって、Azure Active Directory (Azure AD) で特定のユーザー属性を確認する1つ以上のルールによって、チームのメンバーシップを定義できます。 ユーザー属性の変更またはユーザーの参加とテナントの脱退の際に、ユーザーは適切なチームに追加または削除されます。
+Microsoft Teams では、*動的メンバーシップ*を使用して、microsoft 365 グループに関連付けられているチームをサポートしています。 動的メンバーシップによって、Azure Active Directory (Azure AD) で特定のユーザー属性を確認する1つ以上のルールによって、チームのメンバーシップを定義できます。 ユーザー属性の変更またはユーザーの参加とテナントの脱退の際に、ユーザーは適切なチームに追加または削除されます。
 
 動的メンバーシップを使用して、組織内の特定のユーザーの cohorts に対して teams を設定することができます。 次のようなシナリオが考えられます。
 - 病院は、看護師、医師、surgeons のために個別のチームを作成して、コミュニケーションをブロードキャストすることができます。 これは、病院が temp 従業員に依存している場合に特に重要です。
@@ -48,7 +48,7 @@ Microsoft Teams では、チームの Office 365 グループに反映された�
 
 ## <a name="create-a-new-team-with-your-o365-group"></a>O365 グループを使用して新しいチームを作成する
 
-次に、「 [Microsoft Teams で既存の Office 365 グループを強化](enhance-office-365-groups.md)する」の説明に従って、メンバーシップの変更を有効にして新しいチームを作成します。
+次に、「 [Microsoft Teams で既存の microsoft 365 グループを強化](enhance-office-365-groups.md)する」の説明に従って、メンバーシップの変更を有効にして新しいチームを作成します。
 
 ## <a name="apply-dynamic-membership-to-an-existing-team"></a>既存のチームに動的メンバーシップを適用する
 

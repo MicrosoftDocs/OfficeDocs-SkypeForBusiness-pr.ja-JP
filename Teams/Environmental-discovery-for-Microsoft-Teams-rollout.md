@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: abe848e21ed245230edc1ebfbfd038af9eec9175
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 16e02d3a1948ece53fbb51189880bb3dbd737b23
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139316"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778743"
 ---
 <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Microsoft Teams のロールアウトに関する環境の検出
 ===================================================
@@ -36,7 +36,7 @@ ms.locfileid: "43139316"
 
 以下のサンプルの質問表を参照して、チームの通話プラン機能で電話会議と電話システムを正しくロールアウトすることができるかどうかを確認してください。
 
-既存のコラボレーションインフラストラクチャと、Office 365 テナント、ネットワーキング、エンドポイント、操作、導入と準備に関連するすべての項目が、環境検出アンケートの一部として含まれています。
+既存のコラボレーションインフラストラクチャと、Office 365 の組織、ネットワーキング、エンドポイント、操作、導入と準備に関連するすべての項目が、環境検出アンケートの一部として含まれています。
 
 このアンケートは複数のセクションに分割されているため、組織のチーム展開に対する準備はいくつかの主要領域で確認できます。 プロジェクトチームと協力して、要求された情報をできるだけ詳しく入力して、計画作業を容易にします。
 
@@ -67,16 +67,16 @@ ms.locfileid: "43139316"
 > | ビデオ チーム リード | | | |
 > | 事業単位の潜在顧客 | | | |
 
-<a name="office-365-tenant-details"></a>Office 365 テナントの詳細
+<a name="office-365-organization-details"></a>Office 365 組織の詳細
 ---
 
-このアンケートで作業するときは、有効な Office 365 テナントがあることを強くお勧めします。 まだ Office 365 テナントをアクティブ化していない場合、または構成していない場合は、「一般[法人向け office 365 のセットアップを計画](https://support.office.com/article/plan-your-setup-of-office-365-for-business-eb926624-018b-4486-bf11-5fba6ee4d645)する」を参照してください。
+このアンケートの作業には、アクティブな Office 365 組織があることを強くお勧めします。 まだ Office 365 組織をアクティブ化または構成していない場合は、「一般[法人向け office 365 のセットアップを計画](https://support.office.com/article/plan-your-setup-of-office-365-for-business-eb926624-018b-4486-bf11-5fba6ee4d645)する」を参照してください。
 
-次の表を使用して、Office 365 テナントに関する情報を取得します。
+次の表を使用して、Office 365 組織に関する情報を取得します。
 
 > | 質問 | 回答 | コメント |
 > |---|---|---|
-> | 製造用の Office 365 テナントをメモする <br>[回答] 列の名前と ID <br/>複数のテナントがある場合 <br>組織に関連付けられている <br>すべての Id をメモします。 | テナント名: <br/>テナント ID:| |
+> | 製造の Office 365 組織をメモする <br>[回答] 列の名前と ID <br/>複数のテナントがある場合 <br>組織に関連付けられている <br>すべての Id をメモします。 | テナント名: <br/>テナント ID:| |
 > | テナントはどの地域で展開されますか?| | |
 > | これらは、Office 365 のテナントまたは <br>ド? | <input type="checkbox">テナント<br/> <input type="checkbox">ド | |
 > | 現在使用中の Microsoft Online 製品はどれですか? <br/>各ユーザーに対して有効になっているユーザーの数を確認する <br>[コメント列のサービスを選びます。 | <input type="checkbox">Microsoft Teams <br/> <input type="checkbox">Skype for Business <br>&nbsp; &nbsp; &nbsp;オンライン <br/> <input type="checkbox">Exchange Online <br/> <input type="checkbox">SharePoint Online <br/> <input type="checkbox">OneDrive for Business <br/> <input type="checkbox">Yammer <br/> <input type="checkbox">他の| |
@@ -115,7 +115,7 @@ ms.locfileid: "43139316"
 > | 質問 | 回答 | コメント |
 > |---|---|---|
 > | どの種類のユーザーが Teams で有効になっていますか? | <input type="checkbox">組織内のすべてのユーザー <br/> <input type="checkbox">特定のユーザー/ユーザーグループ <br>&nbsp;&nbsp; ([コメント] 列で指定し&nbsp;ます) ||
-> | どの Teams 機能とモダリティが使用されていますか? | <input type="checkbox">チャネルベースの会話 <br/> <input type="checkbox">プライベートチャット <br/> <input type="checkbox">ゲストアクセス <br/> <input type="checkbox">チャネル会議 <br/> <input type="checkbox">プライベート会議 <br/> <input type="checkbox">プライベート通話 <br/> <input type="checkbox">アドホックチャネル meetup <br/> <input type="checkbox">会議のビデオ <br/> <input type="checkbox">会議での画面共有 <br/> <input type="checkbox">電話会議 <br/><input type="checkbox">アプリケーション (アプリ)<br> &nbsp;&nbsp;タブ&nbsp; <input type="checkbox"><br>&nbsp;&nbsp;ボット&nbsp; <input type="checkbox"> <br>&nbsp;&nbsp;コネクタ&nbsp; <input type="checkbox"><br><input type="checkbox">カスタムクラウドストレージの統合 <br>&nbsp;&nbsp; (Box、Dropbox、[ファイル]、[Google Drive &nbsp; ]) <br/> <input type="checkbox">チャネルメールの統合 <br/> <input type="checkbox">その他 ([コメント] 列で指定します) | |
+> | どの Teams 機能とモダリティが使用されていますか? | <input type="checkbox">チャネルベースの会話 <br/> <input type="checkbox">プライベートチャット <br/> <input type="checkbox">ゲストアクセス <br/> <input type="checkbox">チャネル会議 <br/> <input type="checkbox">プライベート会議 <br/> <input type="checkbox">プライベート通話 <br/> <input type="checkbox">アドホックチャネル meetup <br/> <input type="checkbox">会議のビデオ <br/> <input type="checkbox">会議での画面共有 <br/> <input type="checkbox">電話会議 <br/><input type="checkbox">アプリケーション (アプリ)<br> &nbsp;&nbsp;タブ&nbsp; <input type="checkbox"><br>&nbsp;&nbsp;ボット&nbsp; <input type="checkbox"> <br>&nbsp;&nbsp;コネクタ&nbsp; <input type="checkbox"><br><input type="checkbox">カスタムクラウドストレージの統合 <br>&nbsp;&nbsp; (Dropbox、Box、[ファイル]、[Google Drive]、[Egnyte &nbsp; )] <br/> <input type="checkbox">チャネルメールの統合 <br/> <input type="checkbox">その他 ([コメント] 列で指定します) | |
 > | チームにどのようなアプリケーションを展開していますか? | | |
 > | 特定的に禁止している Teams の機能はありますか? <br/>[はい] の場合は、[コメント] 列の詳細を確認します。 | <input type="checkbox">うん <br/> <input type="checkbox">違います ||
 > | どの Teams クライアントが使用されていますか? | <input type="checkbox">Web <br/> <input type="checkbox">窓 <br/> <input type="checkbox">For <br/> <input type="checkbox">走ら <br/>  <input type="checkbox">I/o <br/> <input type="checkbox">用 <br/> <input type="checkbox">Windows Mobile | |

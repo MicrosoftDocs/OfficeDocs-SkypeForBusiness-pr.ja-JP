@@ -1,5 +1,5 @@
 ---
-title: Office 365 グループおよび Microsoft Teams
+title: Microsoft 365 グループおよび Microsoft Teams
 ms.reviewer: phlouie
 author: LolaJacobsen
 ms.author: lolaj
@@ -8,7 +8,7 @@ ms.date: 04/16/2019
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
-description: Office 365 グループとグループ メンバーシップがどのように Microsoft Teams と連携しているかについて説明します。
+description: Microsoft 365 グループとグループメンバーシップが Microsoft Teams とどのように連携するかについて説明します。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -18,32 +18,32 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a0daed292ccccb85c5231242161c75e8cb60949c
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 1a922853bebef0286d03d65e1b714c35b9be48d5
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136497"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778583"
 ---
-<a name="office-365-groups-and-microsoft-teams"></a>Office 365 グループおよび Microsoft Teams
+<a name="microsoft-365-groups-and-microsoft-teams"></a>Microsoft 365 グループおよび Microsoft Teams
 =====================================
 
 > [!Tip]
-> チームと Azure Active Directory (Azure AD)、Office 365 グループ、Exchange、SharePoint、および OneDrive for Business がどのように連携するかについては、次のセッションをご覧ください。 [Microsoft Teams の基礎](https://aka.ms/teams-foundations)
+> チームと Azure Active Directory (Azure AD)、Microsoft 365 グループ、Exchange、SharePoint、および OneDrive for Business がどのように連携するかについては、次のセッションをご覧ください。 [Microsoft Teams の基礎](https://aka.ms/teams-foundations)
 
-Office 365 グループは、Office 365 のアプリケーション間のメンバーシップサービスです。 基本的なレベルでは、Office 365 グループは Azure Active Directory 内のオブジェクトであり、メンバーの一覧と、SharePoint チームサイト、Yammer グループ、共有 Exchange メールボックスリソース、Planner、Power BI、OneNote などの関連ワークロードへの疎結合が含まれています。 Active Directory の他のグループベースのセキュリティオブジェクトと同様に、グループにユーザーを追加または削除することができます。
+Microsoft 365 Groups は、Office 365 のクロスアプリケーションメンバーシップサービスです。 基本的なレベルでは、Office 365 グループは Azure Active Directory 内のオブジェクトであり、メンバーの一覧と、SharePoint チームサイト、Yammer グループ、共有 Exchange メールボックスリソース、Planner、Power BI、OneNote などの関連ワークロードへの疎結合が含まれています。 Active Directory の他のグループベースのセキュリティオブジェクトと同様に、グループにユーザーを追加または削除することができます。
 
-Office 365 管理者は、Exchange 共有メールボックス、SharePoint ドキュメントライブラリ、Yammer グループなどの機能を使用して、Office 365 グループの定義、メンバーの追加、利点を得ることができます。 Office 365 グループの詳細については、「 [office 365 グループについ](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)て」を参照してください。
+Office 365 管理者は、Exchange 共有メールボックス、SharePoint ドキュメントライブラリ、Yammer グループなどの機能を使用して、Office 365 グループの定義、メンバーの追加、利点を得ることができます。 Microsoft 365 グループの詳細については、「 [microsoft 365 グループについ](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)て」を参照してください。
 
 [IT アーキテクト向けの Microsoft 365](teams-architecture-solutions-posters.md#groups-in-microsoft-365)のポスターグループを見逃してはなりません。
 
-<a name="how-office-365-groups-work"></a>Office 365 グループのしくみ
+<a name="how-microsoft-365-groups-work"></a>Microsoft 365 グループのしくみ
 --------------------------
 
 チームを作成する際には、バックエンドで、Office 365 グループと、関連付けられた SharePoint ドキュメントライブラリと OneNote ノートブックを、他の Office 365 クラウドアプリケーションとの連携と共に作成しています。 チームを作成しているユーザーが既存の Office 365 パブリックまたはプライベートグループの所有者である場合は、チームの機能をグループに追加することができます。これは、ユーザーが5000人未満であり、チームに追加されていない場合です。 これにより、チャットメッセージ、ドキュメント、OneNote、その他のオブジェクトが存在する既定の**全般**チャネルが1つ作成されます。 チャネルのドキュメントライブラリを表示すると、チーム内のチャネルを表す **[全般**] フォルダーが表示されます。 さらに重要なのは、ドキュメントライブラリ内に独自のフォルダー構造を作成した場合、そのファイルはチャネルとしてチームに**伝達されません**。現時点では、チームから SharePoint へのフローのみが行われます。
 
 > [!NOTE]
-> 顧客のフィードバックに基づき、Microsoft Teams でチームを作成した結果として生成された新しい Office 365 グループは、既定では Outlook に表示されなくなります。 Outlook でこれらのグループを表示する既存の動作を継続する場合は、Exchange Online PowerShell コマンドレットが提供されます。これにより、Outlook のエクスペリエンスにグループを有効にすることができます。 Outlook を使用して作成されたグループで、後で Teams を有効にした場合は、Outlook と Teams の両方に表示されたままになります。 この更新プログラムは、数か月以内に Outlook と Teams の間で段階的にロールアウトされます。
+> 顧客のフィードバックに基づいて、Microsoft Teams でチームを作成した結果として生成された新しい Microsoft 365 グループは、既定では Outlook に表示されなくなります。 Outlook でこれらのグループを表示する既存の動作を継続する場合は、Exchange Online PowerShell コマンドレットが提供されます。これにより、Outlook のエクスペリエンスにグループを有効にすることができます。 Outlook を使用して作成されたグループで、後で Teams を有効にした場合は、Outlook と Teams の両方に表示されたままになります。 この更新プログラムは、数か月以内に Outlook と Teams の間で段階的にロールアウトされます。
 
 > [!NOTE]
 > Office 365 グループを削除すると、永続的な Outlook/OWA の会話と Teams の会議出席依頼のメールボックスエイリアスが削除され、SharePoint サイトの削除のマークが付けられます。 チームの削除と Outlook への影響の間は、約20分かかります。 チームクライアントからチームを削除すると、チームのメンバーになっているすべてのユーザーに直ちにチームが削除されます。 チーム機能が有効になっている Office 365 グループのメンバーを削除した場合、削除された影響を受けるユーザーのチームクライアントでチームがビューから削除されるまでに約2時間かかることがあります。

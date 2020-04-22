@@ -12,12 +12,12 @@ ms:contentKeyID: 48183399
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 480e4a097a3faa8dc70d05ff72027fd6e65e5a76
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b39c94b08da65e546fdf3ad01d42ada636ff371d
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215853"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780756"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -59,7 +59,7 @@ Lync Server 2013 ハイブリッド環境とは、オンプレミスの Lync Ser
 
   - [AD FS を使用したシングルサインオン用の Windows PowerShell のインストール](https://go.microsoft.com/fwlink/p/?linkid=398710)
 
-  - Microsoft Online Services サインインアシスタント (msoidcli-7.0.msi) は、office 365 のデスクトップセットアップに含まれています。これは、Office 365 管理ポータルからリンクされているダウンロードページから入手できます。
+  - Microsoft Online Services サインインアシスタント (msoidcli-7.0.msi) は、Office 365 のデスクトップセットアップに含まれています。これは、Microsoft 365 管理センターからリンクされたダウンロードページから入手できます。
 
 </div>
 
@@ -67,7 +67,7 @@ Lync Server 2013 ハイブリッド環境とは、オンプレミスの Lync Ser
 
 ## <a name="administrator-credentials"></a>管理者の資格情報
 
-管理者の資格情報を入力するように求めるメッセージが表示されたら、Office 365 テナントの管理者アカウントのユーザー名とパスワードを使用します。 Active Directory フェデレーションサービス (AD FS) 2.0、ディレクトリ同期、シングルサインオン、フェデレーション、および Lync Online へのユーザーの移動を構成するときに、これらの資格情報を使用することもできます。
+管理者の資格情報を入力するように求めるメッセージが表示されたら、Office 365 組織の管理者アカウントのユーザー名とパスワードを使用します。 Active Directory フェデレーションサービス (AD FS) 2.0、ディレクトリ同期、シングルサインオン、フェデレーション、および Lync Online へのユーザーの移動を構成するときに、これらの資格情報を使用することもできます。
 
 </div>
 

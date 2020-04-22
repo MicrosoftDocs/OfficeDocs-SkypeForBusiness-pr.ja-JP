@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Skype for Business Online で電話会議番号の電話会議の自動応答の言語を選ぶ方法について説明します。
-ms.openlocfilehash: 22c3ad1d2386dec07060548cd055a5d289db4364
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 34ed4ccee5239923f68b089ce14551fe43c32320
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680384"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776802"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>Skype for Business Online で電話会議の自動案内の言語を設定する
 
@@ -45,7 +45,7 @@ Skype for Business の電話会議の自動応答では、電話会議に参加�
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>電話会議の自動応答の言語を設定する
 
-この手順を実行するには、 [Office 365 グローバル管理](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)者または[Skype for business の管理者](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)である必要があります。
+この手順を実行するには、[グローバル管理](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)者または[Skype for business の管理者](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)である必要があります。
     
 1. **Skype For business 管理センター**の左側のナビゲーションで、[**従来のポータル**] に移動します。 従来のポータルで、[**電話会議**] を選び、[ **Microsoft bridge**] をクリックします。
     

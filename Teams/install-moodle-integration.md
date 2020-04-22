@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a3ee51fdbbda7c3d49ac5a7b2a65b977f8fb245
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 90ce02e773d20759b90ea090123823b6bf94d9ee
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137137"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779623"
 ---
 # <a name="installing-the-moodle-integration-with-microsoft-teams"></a>Microsoft Teams との Moodle 統合をインストールする
 
@@ -73,7 +73,7 @@ Moodle プラグインをインストールする方法の詳細については�
 
 > [!VIDEO https://www.youtube.com/embed/FpGEezaJ3SA]
 
-次に、Moodle を Azure Active Directory にアプリケーションとして登録する必要があります。 この処理を実行するのに役立つ PowerShell スクリプトを提供しました。 PowerShell スクリプトでは、office 365 Moodle プラグインによって使用される、Office 365 テナント用の新しい Azure AD アプリケーションをプロビジョニングします。 このスクリプトは、O365 テナント用にアプリをプロビジョニングし、プロビジョニングされたアプリに必要なすべての返信 Url と権限を設定し、AppID とキーを返します。 O365 Moodle プラグインのセットアップページで生成された AppID とキーを使用して、Azure AD で Moodle サーバーを構成することができます。 PowerShell スクリプトで自動化されている詳細な手動手順を確認する必要がある場合は、[プラグインの](https://docs.moodle.org/34/en/Office365#Register_your_Moodle_instance_as_an_Application)完全なドキュメントで確認できます。
+次に、Moodle を Azure Active Directory にアプリケーションとして登録する必要があります。 この処理を実行するのに役立つ PowerShell スクリプトを提供しました。 PowerShell スクリプトでは、office 365 組織用の新しい Azure AD アプリケーションをプロビジョニングします。これは、Office 365 Moodle プラグインで使用されます。 このスクリプトは、O365 テナント用にアプリをプロビジョニングし、プロビジョニングされたアプリに必要なすべての返信 Url と権限を設定し、AppID とキーを返します。 O365 Moodle プラグインのセットアップページで生成された AppID とキーを使用して、Azure AD で Moodle サーバーを構成することができます。 PowerShell スクリプトで自動化されている詳細な手動手順を確認する必要がある場合は、[プラグインの](https://docs.moodle.org/34/en/Office365#Register_your_Moodle_instance_as_an_Application)完全なドキュメントで確認できます。
 
 ### <a name="moodle-tab-for-microsoft-teams-information-flow"></a>Microsoft Teams の情報フローの [Moodle] タブ
 

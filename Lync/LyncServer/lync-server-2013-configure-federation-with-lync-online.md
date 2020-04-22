@@ -12,12 +12,12 @@ ms:contentKeyID: 48184946
 ms.date: 08/15/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 957a0f338d0669d0c99570b541d6ddb4753c1145
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 34e96ec4aac4573a05e50eb1b13469731068b6db
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197750"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779563"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +45,7 @@ _**トピックの最終更新日:** 2016-08-15_
 
 ## <a name="configure-your-on-premises-edge-service-for-federation-with-skype-for-business-online"></a>Skype for Business Online とのフェデレーション用にオンプレミスエッジサービスを構成する
 
-フェデレーションにより、オンプレミス展開のユーザーが組織の Office 365 ユーザーと通信できるようになります。 フェデレーションを構成するには、次のコマンドレットを実行します。
+フェデレーションにより、オンプレミス展開のユーザーは、組織内の Microsoft 365 または Office 365 ユーザーと通信できます。 フェデレーションを構成するには、次のコマンドレットを実行します。
 
    ```powershell
     Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $True
@@ -63,7 +63,7 @@ _**トピックの最終更新日:** 2016-08-15_
 
 ## <a name="configure-your-skype-for-business-online-tenant-for-a-shared-sip-address-space"></a>共有 SIP アドレススペース用に Skype for Business Online テナントを構成する
 
-セッション開始プロトコル (SIP) アドレスは、電話番号や電子メールアドレスと同様に、ネットワーク上の各ユーザーの一意の識別子です。 オンプレミスから Skype for Business Online に Lync ユーザーを移動する前に、Office 365 テナントを構成して、共有セッション開始プロトコル (SIP) アドレススペースを社内展開と共有する必要があります。 この設定が構成されていない場合は、次のエラーメッセージが表示されることがあります。
+セッション開始プロトコル (SIP) アドレスは、電話番号や電子メールアドレスと同様に、ネットワーク上の各ユーザーの一意の識別子です。 オンプレミスから Skype for Business Online に Lync ユーザーを移動する前に、Office 365 組織を構成して、共有セッション開始プロトコル (SIP) アドレススペースを社内展開と共有する必要があります。 この設定が構成されていない場合は、次のエラーメッセージが表示されることがあります。
 
 Move-CsUser: HostedMigration fault: Error = (510), Description = (このユーザーのテナントは、共有 sip アドレススペースに対して有効になっていません。)
 

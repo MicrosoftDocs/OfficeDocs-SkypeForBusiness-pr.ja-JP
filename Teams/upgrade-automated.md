@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1ed959f74be1074ab8ed60b3fe54f06384b7990a
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: b42785d4f8d765e7d9600c2e195e48d7ec60d8ba
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836169"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780656"
 ---
 # <a name="automated-upgrades-from-skype-for-business-online-to-microsoft-teams"></a>Skype for Business Online から Microsoft Teams への自動アップグレード
 
@@ -35,7 +35,7 @@ Skype for Business から Microsoft Teams へのアップグレードを成功�
 
 Teams への自動アップグレードの対象となる Skype for Business Online のお客様は、スケジュールされたアップグレード日の30日前に、一連のアップグレード通知を受け取ります。 これらの通知は、管理メッセージセンターの投稿を*変更する計画*、グローバル管理者にメールをアップグレードする計画、およびアプリ内フラグをエンドユーザーにアップグレードする計画として提供されます。
 
-これらの通知は、自動アップグレードのスケジュールされた日付を伝え、チームの導入と使用に役立つようにアップグレードのリソースおよびトレーニングにリンクします。また、自動アップグレードを延期するオプションをユーザーに提供します。スケジュールされた日付によってアップグレードする準備ができていないというイベント。
+これらの通知は、自動アップグレードのスケジュールされた日付を伝達し、チームの導入と使用に役立つようにアップグレードのリソースとトレーニングにリンクします。また、スケジュールされた日付でアップグレードの準備ができていない場合は、自動的にアップグレードを延期するオプションをユーザーに提供します。
 
 ## <a name="the-automated-upgrade-experience"></a>自動アップグレード操作
 
@@ -56,7 +56,7 @@ Teams への自動アップグレードの対象となる Skype for Business Onl
 
 Skype for Business Online から Microsoft Teams への正常な移行には、チームの拡張された機能とパフォーマンスを活用できるように、組織での計画とユーザーの準備が必要です。 ただし、アップグレードを計画しているときに、現時点で組織が Teams にアップグレードする準備がまだ整っていない可能性があります。
 
-チームへのスケジュールされた自動アップグレードに関する通知を受け取ったときに、後日延期したい場合は、Office 365 グローバル管理者が Teams 管理ポータルにログインして、[*延期*] ボタンをクリックします。 これにより、自動アップグレード日が30日後に表示されます。 延期後に Teams 管理ポータルを更新すると、新しい自動アップグレードの日付を含む通知が表示されます。
+チームへのスケジュールされた自動アップグレードに関する通知を受け取ったときに、後日延期したい場合は、グローバル管理者が Teams 管理ポータルにログインし、[*延期*] ボタンをクリックします。 これにより、自動アップグレード日が30日後に表示されます。 延期後に Teams 管理ポータルを更新すると、新しい自動アップグレードの日付を含む通知が表示されます。
 
 ## <a name="requests-to-downgrade-to-skype-for-business"></a>Skype for Business へのダウングレード要求
 

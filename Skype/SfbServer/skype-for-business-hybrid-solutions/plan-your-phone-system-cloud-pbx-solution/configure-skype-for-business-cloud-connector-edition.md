@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Cloud Connector エディションの構成と管理
+title: Skype for Business Cloud Connector エディションを構成および管理する
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -19,38 +19,38 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: ce323f4b-24e4-4ddf-84a3-67da82bb0c87
-description: Skype for business Cloud Connector Edition を構成する方法については、「skype for Business Online の Office 365 (クラウド PBX) ボイスサービスの電話システムとオンプレミスのボイスインフラストラクチャの統合を可能にする」を参照してください。
-ms.openlocfilehash: 5966fb4cc6bd7bd09e82f4a2907420f657a9097c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Skype for business Cloud Connector エディションを構成する方法について説明します。これには、オンプレミスの音声インフラストラクチャと、Skype for Business Online の Office 365 (クラウド PBX) の電話システムとの統合を可能にするための最小限のオンプレミスのトポロジがあります。
+ms.openlocfilehash: aa0d8fb37dcaddaca3835b25b94eba6a18e03636
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41799737"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779163"
 ---
-# <a name="configure-and-manage-skype-for-business-cloud-connector-edition"></a>Skype for Business Cloud Connector エディションの構成と管理
+# <a name="configure-and-manage-skype-for-business-cloud-connector-edition"></a>Skype for Business Cloud Connector エディションを構成および管理する
  
-Skype for business Cloud Connector Edition を構成する方法については、「skype for Business Online の Office 365 (クラウド PBX) ボイスサービスの電話システムとオンプレミスのボイスインフラストラクチャの統合を可能にする」を参照してください。 
+Skype for business Cloud Connector エディションを構成する方法について説明します。これには、オンプレミスの音声インフラストラクチャと、Skype for Business Online の Office 365 (クラウド PBX) の電話システムとの統合を可能にするための最小限のオンプレミスのトポロジがあります。 
   
-始める前に、「 [Skype For Business Cloud Connector エディションの計画](plan-skype-for-business-cloud-connector-edition.md)」の前提条件を確認する必要があります。
+開始する前に、「 [Plan For Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md)」の前提条件を確認してください。
   
 > [!IMPORTANT]
-> このトピックの手順は Cloud Connector Edition 1.4.1 以降のみに適用されます。 Cloud Connector Edition 2.1 にまだアップグレードしていない場合は、[Upgrade to a new version of Cloud Connector](upgrade-to-a-new-version-of-cloud-connector.md) を参照してください。 インストールファイルはから[https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller)ダウンロードできます。 
+> このトピックの手順は、Cloud Connector エディション1.4.1 以降にのみ適用されます。 まだ Cloud Connector Edition 2.1 にアップグレードしていない場合は、「 [Cloud connector の新しいバージョンへのアップグレード](upgrade-to-a-new-version-of-cloud-connector.md)」を参照してください。 インストールファイルはから[https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller)ダウンロードできます。 
   
 ## <a name="steps-to-configure-skype-for-business-cloud-connector-edition"></a>Skype for Business Cloud Connector エディションを構成する手順
 
-次の表に、Cloud Connector エディションをインストールして構成するために必要な手順のリストを示します。
+次の表に、Cloud Connector エディションをインストールして構成するために必要な手順を示します。
   
-|**ステップ**|**説明**|
+|**手順**|**説明**|
 |:-----|:-----|
-|[Cloud Connector アプライアンスの準備](prepare-your-cloud-connector-appliance.md) <br/> |インストールファイルをダウンロードして、証明書を準備し、Hyper-v を構成して、クラウドコネクタの展開のために環境を準備します。  <br/> |
-|[Deploy a single site in Cloud Connector](deploy-a-single-site-in-cloud-connector.md) <br/> |お使いの Cloud Connector 展開にサイトを作成します。  <br/> |
-|[Cloud Connector でのマルチサイトの展開](deploy-multiple-sites-in-cloud-connector.md) <br/> |展開にサイトを追加し、単一サイト展開とマルチサイト展開の違いを把握します。  <br/> |
-|[Configure Cloud Connector integration with your Office 365 tenant](configure-cloud-connector-integration-with-your-office-365-tenant.md) <br/> |DNS レコードを追加し、ハイブリッドを構成し、PSTN ゲートウェイを設定し、ユーザーが Office 365 の電話システムのボイス メールを使えるようにします。  <br/> |
-|[Validate your Cloud Connector deployment](validate-your-cloud-connector-deployment.md) <br/> |展開が正常に機能していることを確認します。  <br/> |
-|[Upgrade to a new version of Cloud Connector](upgrade-to-a-new-version-of-cloud-connector.md) <br/> |既存の Cloud Connector 展開をバージョン 2.1 にアップグレードします。  <br/> |
-|[Modify the configuration of an existing Cloud Connector deployment](modify-the-configuration-of-an-existing-cloud-connector-deployment.md) <br/> |既に展開されているクラウドコネクタの設定を変更します。  <br/> |
-|[Cloud Connector エディションでメディア バイパスを展開する](deploy-media-bypass-in-cloud-connector.md) <br/> |Cloud Connector でメディア バイパスを展開する方法。  <br/> |
-|[Cloud Connector cmdlet reference](cloud-connector-cmdlet-reference.md) <br/> |Cloud Connector で使用する PowerShell コマンドレットについて説明します。  <br/> |
-|[Cloud Connector 展開のトラブルシューティング](troubleshoot-your-cloud-connector-deployment.md) <br/> |クラウドコネクタの展開で発生する一般的な問題の解決策です。  <br/> |
+|[Cloud Connector アプライアンスの準備](prepare-your-cloud-connector-appliance.md) <br/> |インストールファイルをダウンロードし、証明書を準備し、Hyper-v を構成して、クラウドコネクタ展開用に環境を準備します。  <br/> |
+|[Cloud Connector で単一のサイトを展開する](deploy-a-single-site-in-cloud-connector.md) <br/> |Cloud Connector の展開にサイトを作成します。  <br/> |
+|[Cloud Connector で複数のサイトを展開する](deploy-multiple-sites-in-cloud-connector.md) <br/> |展開にサイトを追加し、単一展開とマルチサイト展開の違いについて説明します。  <br/> |
+|[Office 365 組織とのクラウドコネクタ統合を構成する](configure-cloud-connector-integration-with-your-office-365-tenant.md) <br/> |DNS レコードを追加し、ハイブリッドを構成し、PSTN ゲートウェイを設定し、Office 365 ボイスメールの電話システムに対してユーザーを有効にします。  <br/> |
+|[Cloud Connector の展開を検証する](validate-your-cloud-connector-deployment.md) <br/> |展開が正しく動作していることを確認してください。  <br/> |
+|[Cloud Connector の新しいバージョンにアップグレードする](upgrade-to-a-new-version-of-cloud-connector.md) <br/> |既存の Cloud Connector の展開をバージョン2.1 にアップグレードします。  <br/> |
+|[既存の Cloud Connector の展開の構成を変更する](modify-the-configuration-of-an-existing-cloud-connector-deployment.md) <br/> |既に展開されている場合、Cloud Connector の設定を変更します。  <br/> |
+|[Cloud Connector エディションでのメディアバイパスの展開](deploy-media-bypass-in-cloud-connector.md) <br/> |Cloud Connector でメディアバイパスを展開する方法について説明します。  <br/> |
+|[Cloud Connector コマンドレットリファレンス](cloud-connector-cmdlet-reference.md) <br/> |Cloud Connector で使用される PowerShell コマンドレットについて説明します。  <br/> |
+|[Cloud Connector の展開のトラブルシューティング](troubleshoot-your-cloud-connector-deployment.md) <br/> |Cloud Connector の展開で発生する一般的な問題の解決方法を示します。  <br/> |
    
 

@@ -15,12 +15,12 @@ f1.keywords:
 description: Teams デスクトップ クライアントの更新方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8058fa1e79b7d415d03c08500213206579029042
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
-ms.translationtype: HT
+ms.openlocfilehash: 0a76fe4e0cfb896d1bd89a02acebc1c00dff8767
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41832617"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776832"
 ---
 # <a name="teams-update-process"></a>Teams の更新プロセス
 
@@ -36,11 +36,11 @@ Teams デスクトップ クライアントの更新プログラムは、TAP (Te
 
 2019 年 7 月 31 日以降、Teams クライアントの更新プログラムで更新時に使用されるネットワーク帯域幅が大幅に減少されます。 これは既定でオンになっているため、管理者もユーザーも特別な操作は必要ありません。
 
-## <a name="what-about-updates-to-office-365-proplus"></a>Office 365 ProPlus の更新について
+## <a name="what-about-updates-to-microsoft-365-apps-for-enterprise"></a>エンタープライズ向けの Microsoft 365 アプリの更新について教えてください。
 
-「[Office 365 ProPlus と同時に Microsoft Teams を展開する](https://docs.microsoft.com/DeployOffice/teams-install)」で説明されているように、Teams は、既定で Office 365 ProPlus の新しいインストールと一緒にインストールされます。 
+「Enterprise 用 microsoft 365 アプリの新規インストールと共に teams をインストールする[365](https://docs.microsoft.com/DeployOffice/teams-install)」の説明に従って、既定では office がインストールされます。 
 
-上で説明したとおり、Teams は、Word や Excel などの他の Office アプリの更新プロセスではなく、独自の更新プロセスに従います。 詳細については、「[Office 365 ProPlus 更新プログラムのチャネルの概要](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus)」を参照してください。
+上で説明したとおり、Teams は、Word や Excel などの他の Office アプリの更新プロセスではなく、独自の更新プロセスに従います。 詳細については、「[エンタープライズ向けの Microsoft 365 アプリの更新プログラムチャネルの概要」](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus)を参照してください。
 
 ## <a name="what-about-updates-to-teams-on-vdi"></a>VDI 上の Teams の更新について
 
@@ -56,7 +56,7 @@ Teams では、どんな配信メカニズムを使用してであれ、管理�
 
 デスクトップ クライアントが最新ではなくなったタイミングを特定する助けとして、ユーザーの現在のバージョンが 1 か月から 3 か月前のものである場合、および新しいバージョンが使用できる場合に、アプリ内アラートが表示されます。 このアプリ内のメッセージ機能により、ユーザーは最新バージョンの Teams に更新するか、必要に応じて IT 管理者に連絡してそうしてもらうように促されます。 3 か月より前の Teams デスクトップ クライアントを使用しているユーザーには、ブロック ページが表示されます。このページには、すぐに更新するか、IT 管理者に連絡するか、Teams on the web に移動するかを選択するオプションが表示されます。
 
-デスクトップ クライアント バージョンが、最初のインストールまたは Teams を初めて実行した時点で 3 か月より前のものである場合は、上述のサービス情報が表示されるまで 28 日間の猶予期間が設定されています。 この期間中に、自動更新プロセスによって Teams クライアントが更新されます。 更新されない場合は、最新バージョンの Teams に手動で更新するか、必要に応じて IT 管理者に連絡してそうしてもらうように促すアプリ内アラートがユーザーに表示されます。 これには、Office 365 ProPlus バンドルの一部として Teams デスクトップ クライアントを使用するユーザーが含まれます。
+デスクトップ クライアント バージョンが、最初のインストールまたは Teams を初めて実行した時点で 3 か月より前のものである場合は、上述のサービス情報が表示されるまで 28 日間の猶予期間が設定されています。 この期間中に、自動更新プロセスによって Teams クライアントが更新されます。 更新されない場合は、最新バージョンの Teams に手動で更新するか、必要に応じて IT 管理者に連絡してそうしてもらうように促すアプリ内アラートがユーザーに表示されます。 これには、enterprise バンドル用の Microsoft 365 アプリの一部として Teams デスクトップクライアントを使用するユーザーが含まれます。
 
 政府機関向けクラウドの Teams デスクトップ クライアントについては、現在のところ、別途お知らせするまでこのサービス契約の例外です。
 

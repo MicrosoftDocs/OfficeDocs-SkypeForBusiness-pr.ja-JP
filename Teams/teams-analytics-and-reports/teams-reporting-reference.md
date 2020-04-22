@@ -15,12 +15,12 @@ ms.collection:
 description: Microsoft Teams 管理センターで利用可能な Teams のレポートについて説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1c4c142ff311debd3f96d08e386df68af953c2b
-ms.sourcegitcommit: 379bfaf6b0584c1ac93341af605f93ab932a442b
+ms.openlocfilehash: 86003876bbbf4927886a8b260fad48f451a2d325
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "43240647"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778242"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams の分析とレポート
 
@@ -33,7 +33,7 @@ Microsoft Teams 管理センターで、Microsoft Teams についての新しい
 Microsoft Teams 管理センターに移動し、左のナビゲーションで [ **& 分析**]、[レポート] の順に選択し、[**レポート**] で実行するレポートを選択します。
 
 > [!NOTE]
-> Microsoft Teams 管理センターのレポートは、Microsoft 365 管理センターの Office 365 レポートに含まれている Teams のアクティビティレポートとは別のものです。 Microsoft 365 管理センターでのアクティビティレポートの詳細については、「 [microsoft 365 管理センターでのチームアクティビティレポート](../teams-activity-reports.md)」を参照してください。
+> Microsoft Teams 管理センターのレポートは、microsoft 365 管理センターの Microsoft 365 レポートに含まれている Teams のアクティビティレポートとは別のものです。 Microsoft 365 管理センターでのアクティビティレポートの詳細については、「 [microsoft 365 管理センターでのチームアクティビティレポート](../teams-activity-reports.md)」を参照してください。
 
 ## <a name="teams-reporting-reference"></a>Teams レポートの参照
 
@@ -46,7 +46,7 @@ Microsoft では、Teams のレポート エクスペリエンスの継続的な
 |[Teams の使用状況レポート](teams-usage-report.md)  |  アクティブなユーザー<br/>チーム内およびチャネル内のアクティブ ユーザー<br/>アクティブ チャネル<br/>メッセージ<br/>チームのプライバシー設定<br/>チームのゲスト   |
 |[Teams ユーザー アクティビティ レポート](user-activity-report.md)  |  ユーザーが参加する 1 対 1 の通話<br/>チーム チャットにユーザーが投稿したメッセージ<br/>プライベート チャットにユーザーが投稿したメッセージ<br/>ユーザーの最後のアクティビティの日付     |
 |[Teams のデバイス使用状況レポート](device-usage-report.md)   |  Windows ユーザー:<br/>Mac ユーザー<br/>iOS ユーザー<br/>Android スマートフォン ユーザー     |
-|[Teams のライブ イベントの使用状況レポート](teams-live-event-usage-report.md)   |  ビューの合計<br>[開始時刻]<br>イベントの状態<br>[開催者]<br>者<br>者<br>レコーディングの設定<br>生産の種類    |
+|[Teams のライブ イベントの使用状況レポート](teams-live-event-usage-report.md)   |  ビューの合計<br>[開始時刻]<br>イベントの状態<br>[開催者]<br>者<br>者<br>録画設定<br>生産の種類    |
 |[Teams PSTN ブロックユーザーレポート](pstn-blocked-users-report.md)   |  表示名<br>電話番号<br>理由<br>アクションの種類<br>アクションの日付と時刻   |
 |[Teams の PSTN 分プールレポート](pstn-minute-pools-report.md) |  国または地域<br>機能 (ライセンス) <br>合計分数<br>使用分数<br>利用可能な通話時間|
 |[Teams の PSTN 使用状況レポート-通話プラン](pstn-usage-report.md#calling-plans)|  タイムスタンプ<br>ユーザー名<br>電話番号<br>通話の種類 <br>呼び出し先<br>国または地域へ <br>呼び出し元 <br>国または地域から<br>職責<br>通貨<br>[時間]<br>国内/国際<br>通話 ID<br>数値の種類<br>国または地域<br>会議 ID<br>機能 (ライセンス)|

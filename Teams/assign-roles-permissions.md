@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f411de7f0c373e82b450cd41b828fd591777311b
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.openlocfilehash: ba628bf3f58523dc37e2273b437f22af1a0ebc19
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978459"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778933"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Microsoft Teams でチーム所有者とメンバーを割り当てます
 =================================================
@@ -75,10 +75,10 @@ Microsoft Teams には、**所有者**と**メンバー**という 2 つのユ�
 
 ## <a name="permissions-to-create-teams"></a>チームを作成するためのアクセス許可
 
-デフォルト設定では、Exchange Online にメールボックスを持つすべてのユーザーは Office 365 グループ作成権限があり、すなわちMicrosoft Teams でチームを作成する権限があります。 グループの作成と管理に関する権限を特定のユーザーに委任することで、新しいチームおよび Office 365 のグループの作成をより厳重に管理し制限することができます。 手順については、[Office 365グループを作成できるユーザーを管理する](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618)を参照してください。
+既定では、Exchange Online のメールボックスを持つすべてのユーザーは、Microsoft 365 グループを作成する権限と、そのために Microsoft Teams 内のチームを作成する権限を持っています。 グループの作成と管理の権限を一連のユーザーに委任することで、新しいチームの作成をより厳密に制御し、新しい Microsoft 365 グループを作成することができます。 手順については、「 [Microsoft 365 グループを作成できるユーザーを管理する](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618)」を参照してください。
 
 
 ||||
 |---------|---------|---------|
 | ![判断ポイントを表すアイコン](media/Assign_roles_and_permissions_in_Microsoft_Teams_image2.png)     |判断ポイント         |Microsoft Teams のすべてのユーザーがチームを作成できますか (作成できることを推奨)?         |
-| ![次の手順を示すアイコン](media/Assign_roles_and_permissions_in_Microsoft_Teams_image3.png)    |次のステップ         |チームを作成できるユーザーを制限する場合は、Office 365 グループの既定の作成権限を変更します。         |
+| ![次の手順を示すアイコン](media/Assign_roles_and_permissions_in_Microsoft_Teams_image3.png)    |次のステップ         |チームを作成できるユーザーを制限する必要がある場合に、Microsoft 365 グループを作成できるユーザーの既定のアクセス許可を変更する         |

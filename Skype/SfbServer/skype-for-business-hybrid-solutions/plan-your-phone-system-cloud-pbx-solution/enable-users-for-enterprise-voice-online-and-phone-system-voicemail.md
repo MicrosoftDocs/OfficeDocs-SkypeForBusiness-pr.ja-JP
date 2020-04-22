@@ -19,18 +19,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: Skype for Business ユーザー用に Office 365 音声サービスの電話システムを有効にする方法について説明します。
-ms.openlocfilehash: ae1443fa0f0725b6cbbe722703f24af02139c12d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8ed04e3926adfecb2f0022d12c783f6c3e83d763
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050199"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780726"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-in-office-365-voicemail"></a>Office 365 ボイスメールのエンタープライズ Voip オンラインおよび電話システムでユーザーを有効にする
  
 Skype for Business ユーザー用に Office 365 音声サービスの電話システムを有効にする方法について説明します。
   
-オンプレミスの PSTN 接続を使用して Office 365 で電話システムを展開する最後の手順は、Office 365 およびボイスメールの電話システムでユーザーを有効にすることです。 これらの機能を有効にするには、Office 365 グローバル管理者ロールを持つユーザーである必要があり、リモート PowerShell を実行できる必要があります。 Skype for Business Online でエンタープライズ Voip が有効になっていないすべてのユーザーアカウントについて、このトピックの手順を実行する必要があります。
+オンプレミスの PSTN 接続を使用して Office 365 で電話システムを展開する最後の手順は、Office 365 およびボイスメールの電話システムでユーザーを有効にすることです。 これらの機能を有効にするには、グローバル管理者の役割を持つユーザーである必要があり、リモート PowerShell を実行できる必要があります。 Skype for Business Online でエンタープライズ Voip が有効になっていないすべてのユーザーアカウントについて、このトピックの手順を実行する必要があります。
   
 ## <a name="enable-phone-system-in-office-365-voice-services"></a>Office 365 voice services で電話システムを有効にする
 
@@ -78,7 +78,7 @@ Office 365 音声およびボイスメールの電話システムに対してユ
    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
    ```
 
-    例:
+    以下に例を示します。
     
    ```powershell
    Set-CsUser -Identity "Bob Kelly" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true

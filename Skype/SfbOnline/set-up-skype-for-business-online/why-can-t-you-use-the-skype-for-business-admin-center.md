@@ -21,12 +21,12 @@ ms.custom:
 - Setup
 - ms.lync.lac.TenantInMigration
 description: 'Skype for Business 管理センターで使用できる機能とできない機能、およびサービスが別の Microsoft データセンターに移行される場合のその他の機能について説明します。 '
-ms.openlocfilehash: 7825b0bb6cd60995a103736641af36a532ad0ba8
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: f43f1cce6921d3e3cb6e40ad58898ece04d800df
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769520"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777622"
 ---
 # <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>今すぐ Skype for Business Online 管理センターを使用できないのはなぜですか?
 
@@ -42,7 +42,7 @@ Skype for Business Online サービス (ユーザーと組織の設定) を別�
 
 まず、いくつかの用語について説明します。
   
-- **データセンター**これは、ファイルやメールメッセージなど、Office 365 組織の情報が保存されている物理的な場所です。 Office 365 データセンターについてよく理解したい場合は、こちらの[記事](https://www.microsoft.com/online/legal/v2/?docid=25)をご覧ください。
+- **データセンター**これは、ファイルやメールメッセージなど、Microsoft 365 または Office 365 からの情報が保存されている物理的な場所です。 Office 365 データセンターについてよく理解したい場合は、こちらの[記事](https://www.microsoft.com/online/legal/v2/?docid=25)をご覧ください。
     
 - **移行**これは、"移動" とほぼ同じです。 この場合、お客様の Skype for Business Online のユーザーと設定を、あるデータセンターから別のデータセンターに移動し、サービスの向上に向けてより近いものにしていることを意味します。
     

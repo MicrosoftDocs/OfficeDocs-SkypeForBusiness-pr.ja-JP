@@ -15,12 +15,12 @@ f1.keywords:
 description: Microsoft Teams で会議のレコーディングをオンにして管理する方法を説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1098b1e316bb6ed747577183fc144bf2db7d0b9d
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: f358a0099da3f759e50f02b7bb7a5226069fcd28
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43751854"
+ms.locfileid: "43780336"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams のクラウド会議のレコーディング
 
@@ -51,7 +51,7 @@ Teams ユーザーの会議を記録するには、そのテナントに対し�
 
 ### <a name="turn-on-microsoft-stream-for-users-in-the-organization"></a>組織内のユーザーに対して Microsoft Stream を有効にする
 
-Microsoft Stream は、対象となる Office 365 サブスクリプションの一部として、またはスタンドアロン サービスとして使用できます。  詳細については、「[Microsoft Stream ライセンスの概要](https://docs.microsoft.com/stream/license-overview)」を参照してください。  Microsoft Stream は、現在、Microsoft 365 Business、Office 365 Business Premium、および Office 365 Business Essentials に含まれています。
+Microsoft Stream は、適格な Microsoft 365 および Office 365 サブスクリプションの一部として、またはスタンドアロンサービスとして利用できます。  詳細については、「[Microsoft Stream ライセンスの概要](https://docs.microsoft.com/stream/license-overview)」を参照してください。  Microsoft Stream は、microsoft 365 Business、Microsoft 365 Business Standard、および Microsoft 365 Business Basic に含まれるようになりました。
 
 ユーザーが Microsoft Stream にアクセスできるように [Office 365 でユーザーにライセンスを割り当てる](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC)方法をご確認ください。 Microsoft Stream がそのユーザーに対してブロックされていないことを、[この記事](https://docs.microsoft.com/stream/disable-user-organization)の定義に従って確認します。
 

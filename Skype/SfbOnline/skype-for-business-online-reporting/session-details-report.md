@@ -18,13 +18,13 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
-description: '[] 新しい Office 365 の [ レポート] ダッシュボードには、組織内の Office 365 製品全体にわたるアクティビティの概要が表示されます。 このダッシュボードでは、個々の製品レベルのレポートまで掘り下げ、各製品内のアクティビティについてより細かい洞察を得ることができます。'
-ms.openlocfilehash: 58f3c42c0a0188d4a2858e6b6b0a5bed93dfc72d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: 新しい Microsoft 365 レポートダッシュボードには、組織内の Office 365 製品全体のアクティビティの概要が表示されます。 このダッシュボードでは、個々の製品レベルのレポートまで掘り下げ、各製品内のアクティビティについてより細かい洞察を得ることができます。
+ms.openlocfilehash: b10e68e46b8865579692594ded33e89558f4fdc2
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692352"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776282"
 ---
 # <a name="session-details-report"></a>セッションの詳細レポート
 
@@ -49,7 +49,7 @@ ms.locfileid: "41692352"
     > このレポートが表示されない場合は、「 **Skype for business 管理センター** > の**レポート** > **セッションの詳細**」をご覧ください。 
   
     > [!IMPORTANT]
-    > Office 365 のサブスクリプションによっては、ここに表示される製品やレポートの一部が表示されないことがあります。 
+    > 使用している Microsoft 365 または Office 365 のサブスクリプションによっては、ここに表示される製品やレポートがすべて表示されない場合があります。 
   
 ## <a name="interpret-the-skype-for-business-session-details-report"></a>Skype for Business セッションの詳細レポートを解釈する
 

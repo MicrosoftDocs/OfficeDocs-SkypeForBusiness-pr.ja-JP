@@ -1,5 +1,5 @@
 ---
-title: 英国の苦情処理コード -Office 365 通話プラン
+title: 英国の苦情処理コード -Microsoft 365 通話プラン
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -23,16 +23,16 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: Skype for business 通話サービス (英国の PSTN 通話) に関する苦情、返信のタイムライン、未解決の苦情の紛争の解決などを行います。
-ms.openlocfilehash: 6bebf983d19461485f7f381c300fc6e5b3611b6b
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 75ee19a237f669bf52ce354f325275f859180dd0
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137287"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780276"
 ---
-# <a name="calling-plans-in-office-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Office 365 での通話プラン - 英国 (U.K.) での苦情処理基準
+# <a name="calling-plans-in-microsoft-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Microsoft 365 の通話プラン-英国 (英国) の苦情処理コード
 
-このコードは、英国内の小規模企業のお客様 (英国) において、英国の通信規制に準拠した Office 365 の通話プランサービス (以下、"サービス") に関連しています。 その他の Skype for Business サービスは、Microsoft とのサービス規約、および特定のサービスの使用に適用されるその他の規約によって管理されます。
+このコードは、英国内の小規模企業のお客様 (英国) において、英国の通信規制に準拠した Microsoft 365 の通話プランサービス (以下、"サービス") に関連しています。 その他の Skype for Business サービスは、Microsoft とのサービス規約、および特定のサービスの使用に適用されるその他の規約によって管理されます。
 
 ## <a name="how-to-make-a-complaint"></a>苦情申し立ての方法
 

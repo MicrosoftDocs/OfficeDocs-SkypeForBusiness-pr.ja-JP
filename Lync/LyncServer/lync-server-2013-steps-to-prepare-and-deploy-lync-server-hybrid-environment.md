@@ -12,12 +12,12 @@ ms:contentKeyID: 48185060
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 207cb9b8435294abeac12f67506eb356a6ca73c6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bc029df06f22524fa99c232edf6bbe6aa9759f5a
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208323"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780176"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -64,8 +64,8 @@ _**トピックの最終更新日:** 2016-12-08_
 <tr class="even">
 <td></td>
 <td><p>ドメインを追加して所有権を確認する</p></td>
-<td><p>ドメインは、<em>バニティドメイン</em>と呼ばれることもあります。 Office 365 テナントにドメインを追加してから、「Office 365 でドメインを検証するには」の手順を実行する必要があります。 これは、ドメインの所有者であることを確認するためのものです。</p>
-<p>Office 365 テナントにドメインを追加するには、「 <a href="https://go.microsoft.com/fwlink/p/?linkid=254983">add your domain To office 365</a>」に記載されている手順に従います。</p>
+<td><p>ドメインは、<em>バニティドメイン</em>と呼ばれることもあります。 Office 365 組織にドメインを追加してから、Office 365 でドメインを検証する手順を実行する必要があります。 これは、ドメインの所有者であることを確認するためのものです。</p>
+<p>Office 365 組織にドメインを追加するには、「 <a href="https://go.microsoft.com/fwlink/p/?linkid=254983">add your domain To office 365</a>」に記載されている手順に従います。</p>
 <p>「Office 365 サービスの DNS レコードの編集」を含む&quot;、トピックの各セクションのすべての手順を完了します。&quot;</p></td>
 </tr>
 <tr class="odd">

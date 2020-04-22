@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef2f257934847f74466ff6f91890a667084b88d1
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 8c3e3e9d3253fef62c93751367647399ca91febd
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139666"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780606"
 ---
 # <a name="define-your-project-scope"></a>プロジェクトの対象範囲を定義する
 
@@ -89,11 +89,11 @@ ms.locfileid: "43139666"
 | Skype for Business を使用してチームで共同作業を行う ([共同作業専用モード](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)) | FY19Q2: 500-ユーザーパイロットの実施と完了 | <ul><li>パイロットユーザーを特定する</li><li>パイロットテスト計画を作成する</li><li>Teams でパイロットユーザーを有効にする</li><li>パイロットの実装</li><li>パイロットのフィードバックアンケートを実行する</li><li>パイロット成功の評価</li></ul> |
 | 組織内のすべてのユーザーに対して、Skype for Business と共に共同作業専用モードが正常に実行される | <ul><li>Skype for Business ユーザーの60% は、ロールアウト後30日以内に Teams を使用しています</li><li>Teams でのユーザー満足度は &#8805;80%</li></ul> | <ul><li>広範な通信とトレーニング計画を設計して実施する</li><li>共同作業専用モードで Teams のすべてのユーザーを有効にする</li><li>毎月使用量を追跡する</li><li>ユーザーからのフィードバックを収集する</li><li>ネットワークの正常性と品質を監視する</li><li>必要に応じて軽減する</li></ul> |
 
-| 型 | 主要成功インジケータ | 測定方法 | 成功の条件 | 測定済み |
+| 種類 | 主要成功インジケータ | 測定方法 | 成功の条件 | 測定済み |
 |---|---|---|---|---|
 | **ネットワークと音質** | 低品質の音声通話の割合は最小限である必要があります | [通話品質ダッシュボード (CQD)](https://aka.ms/sof-cqd) | \<チームとの低品質通話の3% | Weekly、毎月 |
 | **使用状況と意識** | チャット、会議、通話のエクスペリエンスは、Skype for Business と同等またはそれ以上である | アンケート | 80% による同意または強く同意 | 毎週のパイロット、ロールアウト後 |
-| **使用と導入** | ユーザーが積極的にソリューションを利用している | Office 365 レポートまたは CQD | パイロットユーザーからの90% の参加は、現在のソリューションよりも優れています。 | Weekly、毎月 |
+| **使用と導入** | ユーザーが積極的にソリューションを利用している | Microsoft 365 レポートまたは CQD | パイロットユーザーからの90% の参加は、現在のソリューションよりも優れています。 | Weekly、毎月 |
 | **使用とトレーニング** | チームを適切に使用するために十分なトレーニング/ヘルプリソースを持っていました | パイロット後のアンケート | 80% による同意または強く同意 | パイロット後、ロールアウト後 |
 | **ユーザ満足度** | 他のユーザーにチームを勧めする | パイロット後のアンケートによる[Net Promoter Score (NPS)](http://www.npscalculator.com/en) | NPS \> 0 | パイロット後、ロールアウト後 |
 | **ビジネスドライバー** | コスト削減 | 買掛金 | \$サードパーティのソリューションで300万ドルのコスト支出 | 6か月後、1年、5年後、ロールアウト後 |

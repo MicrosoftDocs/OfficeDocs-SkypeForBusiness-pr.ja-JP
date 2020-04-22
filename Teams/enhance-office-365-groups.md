@@ -1,5 +1,5 @@
 ---
-title: 既存の Office 365 グループを強化する
+title: 既存の Microsoft 365 グループを強化する
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -8,7 +8,7 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 audience: admin
-description: 配布リストをチームに取り込んだり、メール対応セキュリティ グループを追加したりなどの操作を行うことで、Microsoft Teams を介して Office 365 グループを強化する方法について説明します。
+description: Ditribution リストをチームに招待して、メールが有効なセキュリティグループを追加することにより、microsoft Teams で Microsoft 365 グループを強化する方法について説明します。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -18,14 +18,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ad71a5d65eca924e7d73c157011ff12ce38bc9e4
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 97164b6eeed1a626681cf320fc02c7dd0a74353a
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136867"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776602"
 ---
-<a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>Microsoft Teams を使用して既存の Office 365 グループを強化する
+<a name="enhance-existing-microsoft-365-groups-with-microsoft-teams"></a>Microsoft Teams を使用して既存の Microsoft 365 グループを強化する
 =======================================================
 
 Microsoft Teams ユーザーは、Teams の機能を使用して、既存の Office 365 グループを強化できます。 公開されている Office 365 グループの拡張を検討しているときに、メンバー数が5000以下である場合、ユーザーはこれを行うことができます。
@@ -43,7 +43,7 @@ Microsoft Teams ユーザーは、Teams の機能を使用して、既存の Off
 
 チームのメンバーとして、メール対応のセキュリティ グループを追加することもできます。ただし、後でセキュリティ グループにさらに多くのメンバーを追加しても、それらのメンバーはチームに自動追加されません。新しいメンバーをチームに個別に追加するか、セキュリティ グループをチームに再追加する必要があります。(セキュリティ グループを再追加する場合は、重複を削除してメンバーが一度だけ追加されるようにします。)
 
-Office 365 グループのプライバシー設定には、**パブリックとプライベート**の2種類があります。 一方、チームに対しては両方の種類のグループを有効にできますが、セルフサービスについてはわずかな違いがあります。
+Microsoft 365 グループのプライバシー設定には、**パブリックとプライベート**の2種類があります。 一方、チームに対しては両方の種類のグループを有効にできますが、セルフサービスについてはわずかな違いがあります。
 
 -   ユーザーはパブリックグループを検索でき、チーム所有者の承認を必要とせずに、自分で参加することができます。
 

@@ -15,12 +15,12 @@ f1.keywords:
 description: 情報の障壁とチームへの影響について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a666d89e78a9234144eb09173b713d1186410206
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: 8cdb736db3234d0c7e24729a7d8e2b06c2d068d0
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157820"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780816"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft Teams の情報障壁
 
@@ -60,14 +60,14 @@ ms.locfileid: "43157820"
 
 ## <a name="managing-information-barrier-policies"></a>情報バリアポリシーの管理
 
-情報バリアポリシーは、PowerShell コマンドレットを使用して Office 365 セキュリティ & コンプライアンスセンター (SCC) で管理されます。 詳細については、「[情報バリアのポリシーを定義](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)する」を参照してください。
+情報バリアポリシーは、PowerShell コマンドレットを使用して Microsoft 365 コンプライアンスセンター (SCC) で管理されます。 詳細については、「[情報バリアのポリシーを定義](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)する」を参照してください。
 
 > [!IMPORTANT]
 > ポリシーを設定または定義する前に、 **Microsoft Teams でスコープ指定されたディレクトリ検索を有効にする必要があり**ます。 スコープ指定されたディレクトリ検索を有効にしてから、情報バリアのポリシーを設定または定義する前に、少なくとも24時間待機します。 詳細に[ついては、「情報の障壁の前提条件」を参照して](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies#prerequisites)ください。
 
 ## <a name="information-barriers-administrator-role"></a>情報障壁管理者の役割
 
-IB コンプライアンス管理の役割は、情報バリアポリシーの管理を担当します。 この役割の詳細については、「 [Office 365 セキュリティ & コンプライアンスセンターのアクセス許可](https://docs.microsoft.com/office365/securitycompliance/permissions-in-the-security-and-compliance-center)」を参照してください。
+IB コンプライアンス管理の役割は、情報バリアポリシーの管理を担当します。 この役割の詳細については、「 [Microsoft 365 コンプライアンスセンターの権限](https://docs.microsoft.com/office365/securitycompliance/permissions-in-the-security-and-compliance-center)」を参照してください。
 
 ## <a name="information-barrier-triggers"></a>情報バリアトリガー
 
@@ -93,7 +93,7 @@ IB コンプライアンス管理の役割は、情報バリアポリシーの�
 
 - **画面は、2人以上のユーザー間で共有され**ます。画面が2人以上のユーザーの間で共有されている場合は、他のユーザーの情報バリアポリシーに違反しないように画面共有を評価する必要があります。 情報バリアのポリシーに違反した場合、画面の共有は許可されません。
 - **ユーザーがチームに電話による通話 (VOIP) を**行う-音声通話が他のユーザーまたはユーザーのグループによって開始されたときは、他のチームメンバーの情報バリアポリシーに違反していないことを確認するために、通話が評価されます。 違反が発生した場合、音声通話はブロックされます。
-- **Teams のゲストユーザー** (情報バリアポリシー) は、teams のゲストユーザーにも適用されます。 組織のグローバルアドレス一覧でゲストユーザーを検出できるようにする必要がある場合は、「 [Office 365 グループでゲストアクセスを管理](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups?view=o365-worldwide#can-i-make-guest-objects-visible-in-the-global-address-list)する」を参照してください。 ゲストユーザーが検出可能になったら、[情報バリアポリシーを定義](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)できます。
+- **Teams のゲストユーザー** (情報バリアポリシー) は、teams のゲストユーザーにも適用されます。 組織のグローバルアドレス一覧でゲストユーザーを検出できるようにする必要がある場合は、「 [Microsoft 365 グループでゲストアクセスを管理](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups?view=o365-worldwide#can-i-make-guest-objects-visible-in-the-global-address-list)する」を参照してください。 ゲストユーザーが検出可能になったら、[情報バリアポリシーを定義](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)できます。
 
 ## <a name="how-policy-changes-impact-existing-chats"></a>ポリシーの変更による既存のチャットへの影響
 

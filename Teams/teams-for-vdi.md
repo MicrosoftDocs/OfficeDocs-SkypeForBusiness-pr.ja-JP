@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ee41f32ac2237e5e2c6e2e92fd18ea1c1952f7cd
-ms.sourcegitcommit: df4dde0fe6ce9e26cb4b3da4e4b878538d31decc
+ms.openlocfilehash: 43adfb71c287677a6390d371a05bd1aea35ceda3
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43521613"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779986"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>仮想デスクトップ インフラストラクチャ用の Teams
 
@@ -106,27 +106,27 @@ Teams キャッシュ フォルダー %appdata%/Microsoft/Teams から以下を�
 - .txt ファイル
 - メディアスタック フォルダー
 
-### <a name="office-365-proplus-considerations"></a>Office 365 ProPlus に関する考慮事項
+### <a name="microsoft-365-apps-for-enterprise-considerations"></a>企業向けの Microsoft 365 アプリの考慮事項
 
-VDI で Office 365 ProPlus を使用して Teams を展開する場合は、次のことを考慮してください。
+VDI で企業向けの Microsoft 365 アプリを使用して Teams を展開する場合は、次の点を考慮してください。
 
-#### <a name="new-deployments-of-teams-through-office-365-proplus"></a>Office 365 ProPlus を介した Teams の新しい展開
+#### <a name="new-deployments-of-teams-through-microsoft-365-apps-for-enterprise"></a>Microsoft 365 アプリを使用した、エンタープライズ向けの新しいチーム展開
 
-Office 365 ProPlus を使用して Teams を展開する前に、マシンごとのインストールを使用して展開した場合には、既存の Teams アプリをアンインストールする必要があります。
+企業向けの Microsoft 365 アプリを使用してチームを展開する前に、コンピューターごとのインストールを使用して展開された既存の Teams アプリをアンインストールする必要があります。
 
-Office 365 ProPlus を介した Teams はユーザーごとにインストールされます。 詳細については、[VDI で Teams デスクトップ アプリをインストールまたは更新する](#install-or-update-the-teams-desktop-app-on-vdi)セクションを参照してください。
+企業向けの Microsoft 365 アプリを使用した Teams は、ユーザーごとにインストールされます。 詳細については、[VDI で Teams デスクトップ アプリをインストールまたは更新する](#install-or-update-the-teams-desktop-app-on-vdi)セクションを参照してください。
 
-#### <a name="teams-deployments-through-office-365-proplus-updates"></a>Office 365 ProPlus の更新プログラムを介した Teams の展開
+#### <a name="teams-deployments-through-microsoft-365-apps-for-enterprise-updates"></a>Microsoft 365 アプリを使用した、エンタープライズアップデート向けの Teams の展開
 
-Teams は、Office 365 ProPlus の既存のインストールにも追加されます。 Office 365 ProPlus は Teams をユーザーごとにのみインストールするため、[VDI で Teams デスクトップ アプリをインストールまたは更新する](#install-or-update-the-teams-desktop-app-on-vdi)セクションを参照してください。
+Teams は、エンタープライズ向けの Microsoft 365 アプリの既存のインストールにも追加されています。 エンタープライズ用の Microsoft 365 アプリでは、ユーザーごとにチームをインストールするため、「 [VDI 上の teams デスクトップアプリをインストールまたは更新](#install-or-update-the-teams-desktop-app-on-vdi)する」セクションを参照してください。
 
-#### <a name="using-teams-with-per-machine-installation-and-office-365-proplus"></a>マシンごとのインストールおよび Office 365 ProPlus で Teams を使用する
+#### <a name="using-teams-with-per-machine-installation-and-microsoft-365-apps-for-enterprise"></a>コンピューターごとのインストールと Microsoft 365 アプリでの Teams の使用 (エンタープライズ向け)
 
-Office 365 ProPlus は、マシンごとの Teams のインストールをサポートしていません。 マシンごとのインストールを使用するには、Office 365 ProPlus から Teams を除外する必要があります。 [Teams デスクトップ アプリを VM に展開する](#deploy-the-teams-desktop-app-to-the-vm)および [Office 365 ProPlus を介して Teams の展開を除外する方法](#how-to-exclude-teams-deployment-through-office-365-proplus)セクションを参照してください。
+エンタープライズ向けの Microsoft 365 アプリでは、各コンピューターの Teams インストールをサポートしていません。 コンピューターごとのインストールを使用するには、enterprise 用の Microsoft 365 アプリから Teams を除外する必要があります。 「 [Teams デスクトップアプリを VM に展開](#deploy-the-teams-desktop-app-to-the-vm)する」および「[エンタープライズ向けの Microsoft 365 アプリを通じてチームの展開を除外する方法](#how-to-exclude-teams-deployment-through-microsoft-365-apps-for-enterprise)」を参照してください。
 
-#### <a name="how-to-exclude-teams-deployment-through-office-365-proplus"></a>Office 365 ProPlus を介して Teams の展開を除外する方法
+#### <a name="how-to-exclude-teams-deployment-through-microsoft-365-apps-for-enterprise"></a>企業向けの Microsoft 365 アプリからチームの展開を除外する方法
 
-Teams と Office 365 ProPlus の詳細については、「[Office 365 ProPlus の新規インストールから Teams を除外する方法](https://docs.microsoft.com/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-office-365-proplus)」および「[グループ ポリシーを使用して Teams のインストールを制御する](https://docs.microsoft.com/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams)」を参照してください。
+企業向けのチームおよび Microsoft 365 アプリの詳細については、「 [enterprise 用の microsoft 365 アプリの新しいインストールからチームを除外する](https://docs.microsoft.com/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-office-365-proplus)」および「[グループポリシーを使用して teams のインストールを制御](https://docs.microsoft.com/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams)する方法」を参照してください。
 
 ### <a name="deploy-the-teams-desktop-app-to-the-vm"></a>Teams デスクトップ アプリを VM に展開する
 
@@ -259,7 +259,7 @@ DisallowCalling 通話ポリシーおよび AllOff 会議ポリシーをユー�
 1. Microsoft Teams 管理センターの左側のナビゲーションで、割り当てるポリシーに移動します。 次に例を示します。
     - [**音声**]  >  [**通話ポリシー**] の順に移動し、[**DisallowCalling**] をクリックします。
     - [**会議**]  >  [**会議ポリシー**] の順に移動し、[**AllOff**] をクリックします。
-3. [**ユーザーを管理する**] を選択します。
+3. **[ユーザーを管理する]** を選択します。
 4. [**ユーザーを管理する**] ウィンドウで、表示名またはユーザー名でユーザーを検索し、名前を選択して [**追加**] をクリックします。 追加するユーザーごとに、この手順を繰り返します。
 5. ユーザーの追加が完了したら、[**保存**] をクリックします。
 

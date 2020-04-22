@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: この記事では、Skype for Business Online および ExpressRoute の核となるコール フローの原則について説明し、これらのサービスを正しく理解し計画できるよう詳細な例をいくつか示します。
-ms.openlocfilehash: 3c728dab868177aab07c6fe618fba3a8c357eaa2
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 8460d845302fbca2ab10e5c43f9feda8af45a321
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706672"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777592"
 ---
 # <a name="call-flow-using-expressroute"></a>ExpressRoute を使用したコール フロー
 
@@ -81,7 +81,7 @@ Skype for Business Online のネットワーク トラフィックは、大き�
 
 トラフィックの宛先については、すべての Office 365 サービスの「[Office 365 URL および IP アドレス範囲](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)」を参照してください。 URL ごとに、トラフィックの部分が Office 365 向け ExpressRoute をトラバースするかどうかを示します。 ExpressRoute が有効になっているときに、インターネットが一部のトラフィックでまだ使用されていることを示す図については、「 [Office 365 用 Azure ExpressRoute](https://support.office.com/article/6d2534a2-c19c-4a99-be5e-33a0cee5d3bd)」を参照してください。 ExpressRoute 経由でルーティング可能としてリストされる URL がインターネット経由でもルーティング可能であることを理解することは重要です。 つまり、一部のシナリオでは、インターネットまたは ExpressRoute が使用されるかどうかに関する決定は、クライアントの場所と、プロキシ サーバーおよびファイアウォールの構成に依存します。 また、Office 365 と関連付けられているすべての URL が ExpressRoute を使用できるわけではないため、ExpressRoute を ExpressRoute パートナーから購入した場合でもインターネット接続は必要です。
 
-インターネット経由でのみ送信できるトラフィックには、証明書失効リスト (Crl)、DNS 参照と名前解決などの共通のインターネット依存関係、Microsoft 365 管理センターなどの共有 Office 365 サービスの Url が含まれます。skype for Business Online のリアルタイム通信機能。 skype コンシューマーとの相互運用性を実現するためのコミュニケーション機能、および Skype 会議ブロードキャスト用のストリーミングメディア。 意思決定に役立てるため、ネットワーク ルーティング計画時の考慮事項について、「[Office 365 向け ExpressRoute でのルーティング](https://support.office.com/article/e1da26c6-2d39-4379-af6f-4da213218408)」を参照してください。
+インターネット経由でのみ送信できるトラフィックには、一般的なインターネットの依存関係があります。証明書失効リスト (Crl)、DNS 参照と名前解決、共有の Office 365 サービスの Url (Microsoft 365 管理センターなど)、および skype for Business Online の相互運用性のための、skype for Business Online のための、skype for Business Online のための、リアルタイムの通信機能 (Skype for business との相互運用のためのフェデレーションなど)。 意思決定に役立てるため、ネットワーク ルーティング計画時の考慮事項について、「[Office 365 向け ExpressRoute でのルーティング](https://support.office.com/article/e1da26c6-2d39-4379-af6f-4da213218408)」を参照してください。
 
 ## <a name="principles-for-call-flows-with-skype-for-business"></a>Skype for Business によるコール フローの原則
 
@@ -116,7 +116,7 @@ Skype for Business Online のネットワーク トラフィックは、大き�
 > [!NOTE]
 > Skype for Business によって使用されるトラフィックのサブセットは ExpressRoute 経由でルーティング可能ではなく、常にインターネット パスを取ります。影響を受ける可能性がある URL を判断するには、「[Office 365 URL および IP アドレス範囲](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)」を参照してください。
 
-### <a name="peer-to-peer-call-for-office-365-users-from-within-customer-network"></a>顧客ネットワーク内からの Office 365 ユーザー用ピアツーピア通話
+### <a name="peer-to-peer-call-for-microsoft-365-or-office-365-user-from-within-customer-network"></a>Microsoft 365 または顧客ネットワーク内からの Office 365 ユーザーのピアツーピア通話
 <a name="bk_Figure2"> </a>
 
 ピアツーピア通話の場合、メディア トラフィックは常にその宛先への最短ルートを取ります。ただし、シグナリング トラフィックは、オンライン ユーザーが自宅で使用する Office 365 データセンターに送信されます。両方のユーザーが同じ WAN 上で、クライアントが直接通信することを妨げるものは何もないため、メディアは両ユーザー間で直接やり取りします。シグナリング トラフィックは、両方のユーザーに対し組織のデータセンターごとに送信される ExpressRoute 接続をトラバースします。このシナリオでのコール フローを確認するには、以下を参照してください。
@@ -197,7 +197,7 @@ Skype for Business Online 使用シナリオでは、自宅オンラインのユ
 |||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |**使用シナリオ** <br/> |**エンドポイント** <br/> |**シグナリング パス** <br/> |**メディア パス** <br/> |**サンプル フロー** <br/> |**メモ** <br/> |
-|ピアツーピア通話  <br/> |2 つのクライアント、両方ともにネットワーク上。  <br/> |ExpressRoute  <br/> |ローカル  <br/> |[顧客ネットワーク内からの Office 365 ユーザー用ピアツーピア通話](call-flow-using-expressroute.md#bk_Figure2) <br/> ||
+|ピアツーピア通話  <br/> |2 つのクライアント、両方ともにネットワーク上。  <br/> |ExpressRoute  <br/> |ローカル  <br/> |[Microsoft 365 または顧客ネットワーク内からの Office 365 ユーザーのピアツーピア通話](call-flow-using-expressroute.md#bk_Figure2) <br/> ||
 |ピアツーピア通話  <br/> |2 つのクライアント、1 つはネットワーク上 (内部)、もう 1 つはインターネット上 (外部)。  <br/> |内部ユーザー: ExpressRoute  <br/> 外部ユーザー: インターネット  <br/> |内部ユーザー: ExpressRoute  <br/> 外部ユーザー: インターネットから Office 365 Edge サーバーへ。  <br/> |[顧客ネットワーク内からの Office 365 ユーザー用ピアツーピア通話](call-flow-using-expressroute.md#bk_Figure2) <br/> |ファイアウォールがクライアント間の直接接続をブロックするとします。これにはオンライン エッジ サーバーが必要です。内部ユーザーからオンライン エッジ サーバーへのトラフィックは、電話会議用の会議サーバーへのパスと似たパスをたどります。  <br/> |
 |フェデレーション関係にある組織のユーザーへのピアツーピア通話  <br/> |2 つのクライアント、1 つはネットワーク上 (内部)、もう 1 つはフェデレーション関係にある組織のネットワーク上のオンライン ユーザー (フェデレーション)  <br/> |ExpressRoute  <br/> |ExpressRoute  <br/> |[オンラインでホストされている会議に参加しているネットワーク上のオンライン ユーザー](call-flow-using-expressroute.md#bk_Figure3) <br/> |ファイアウォールがクライアント間の直接接続をブロックし、オンライン エッジ サーバーが必要であるとします。内部ユーザーからオンライン エッジ サーバーへのトラフィックは、電話会議用の会議サーバーのパスと似たパスをたどります。  <br/> |
 |顧客ネットワークのユーザーによる電話会議の参加  <br/> |ネットワーク上および Office 365 クラウドの会議サーバー上のクライアント  <br/> |ExpressRoute  <br/> |ExpressRoute  <br/> |[オンラインでホストされている会議に参加しているネットワーク上のオンライン ユーザー](call-flow-using-expressroute.md#bk_Figure3) <br/> ||
@@ -216,7 +216,7 @@ Skype for Business Online 使用シナリオでは、自宅オンラインのユ
 |||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |**使用シナリオ** <br/> |**エンドポイント** <br/> |**シグナリング パス** <br/> |**メディア パス** <br/> |**サンプル フロー** <br/> |**メモ** <br/> |
-|ピアツーピア通話  <br/> |2 つのクライアント、顧客ネットワーク上および自宅オンプレミス上  <br/> |Local  <br/> |ローカル  <br/> |[顧客ネットワーク内からの Office 365 ユーザー用ピアツーピア通話](call-flow-using-expressroute.md#bk_Figure2) <br/> |ユーザーは自宅オンプレミスであるため、シグナリングは Office 365 クラウドではなく、ローカルにオンプレミス データセンターに向かいます。  <br/> |
+|ピアツーピア通話  <br/> |2 つのクライアント、顧客ネットワーク上および自宅オンプレミス上  <br/> |Local  <br/> |ローカル  <br/> |[Microsoft 365 または顧客ネットワーク内からの Office 365 ユーザーのピアツーピア通話](call-flow-using-expressroute.md#bk_Figure2) <br/> |ユーザーは自宅オンプレミスであるため、シグナリングは Office 365 クラウドではなく、ローカルにオンプレミス データセンターに向かいます。  <br/> |
 |ピアツーピア通話  <br/> |2 つのクライアント、両方が顧客ネットワークから接続 1 つは自宅オンライン、もう 1 つは自宅オンプレミス  <br/> |オンライン ユーザー: ExpressRoute  <br/> オンプレミス ユーザー: ローカル  <br/> |ローカル  <br/> |[顧客ネットワーク内からの Office 365 ユーザー用ピアツーピア通話](call-flow-using-expressroute.md#bk_Figure2) <br/> |オンライン自宅ユーザーのみがシグナリング トラフィックを Office 365 クラウドに送信します。  <br/> |
 |フェデレーション関係にある組織のユーザーへのピアツーピア通話  <br/> |2 つのクライアント、1 つは顧客ネットワークのオンプレミス ユーザー (内部)、もう 1 つはフェデレーション関係にある会社のネットワークのオンライン ユーザー (フェデレーション)  <br/> |内部ユーザー: ローカル  <br/> フェデレーション関係にあるユーザー１：ExpressRoute  <br/> |インターネットまたは ExpressRoute (オンラインまたはオンプレミス エッジ サーバーが使用されているかどうかに依存)  <br/> |[オンラインでホストされている会議に参加しているネットワーク上のオンラインユーザー](call-flow-using-expressroute.md#bk_Figure3)と、Office 365 でホストされている会議 (メディアトラフィックの場合)[でオンプレミスエッジサーバー](call-flow-using-expressroute.md#bk_Figure5)の一部。 <br/> |ファイアウォールがクライアント間の直接接続をブロックしていて、オンライン エッジ サーバーが必要であるとします。ICE ネゴシエーションにより接続に対してオンライン (オンライン ユーザーによる) およびオンプレミス エッジサーバ (オンプレミス ユーザーによる) が提供されます。  <br/> |
 |顧客ネットワークのユーザーによる会議の参加 (オンライン ユーザーによってスケジュールされた会議)  <br/> |ネットワーク上および Office 365 クラウドの会議サーバー上のオンプレミス ユーザー  <br/> |ExpressRoute  <br/> |ExpressRoute  <br/> |[オンラインでホストされている会議に参加しているネットワーク上のオンライン ユーザー](call-flow-using-expressroute.md#bk_Figure3) <br/> |電話会議のサーバー リソースは、会議開催者によって定義されます。この場合、オンライン ユーザーによってスケジュールされたため、リソースは Office 365 クラウド内です。  <br/> |

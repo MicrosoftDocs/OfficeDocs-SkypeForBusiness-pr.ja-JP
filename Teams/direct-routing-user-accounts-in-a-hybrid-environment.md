@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: ユーザー作成のさまざまな組み合わせと、サポートされている組み合わせとサポートされていない組み合わせについて説明します。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8bdab33d6f1f009ce51afe999923f4f6f5d1905a
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: a235b5c27919c0015849140a3e772f4a189a17d8
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141080"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779996"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>PSTN 接続を使用するハイブリッド環境でのユーザー アカウント
 
@@ -31,7 +31,7 @@ ms.locfileid: "43141080"
 この記事は、次の項目をすべて使用している環境に適用されます。 
  
 - Skype for Business Server または Lync Server 2013 
-- Office 365 テナント 
+- Office 365 組織 
 - Skype for Business Server と Skype for business Online または Microsoft Teams テナント間で構成されたハイブリッド接続 
 - クライアントとの間での公衆交換電話網 (PSTN) 通話の発信と受信を有効にしているユーザー
 
@@ -59,7 +59,7 @@ PSTN 接続を使用した Skype for Business ハイブリッド環境では、�
 
 |**ユーザーオブジェクトの作成日時**  |**ユーザーの Skype for Business サービスプロバイダ**|**ユーザーのクライアント**|**音声オプション**|**サポート**|
 | ------------ | --------- | --------- | --------- | -------- |
-|オンプレミス広告| オンプレミス |Skype for Business   | エンタープライズ VoIP   |はい|
+|オンプレミス広告| オンプレミス |Skype for Business   | Enterprise Voice   |はい|
 |オンプレミス広告|オンライン| Skype for Business  | ハイブリッドボイス接続   |はい |
 |オンプレミス広告|オンライン |Microsoft Teams |ダイレクト ルーティング  |はい |
 |**サポートされていない組み合わせ**    | |         |         |      |

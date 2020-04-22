@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3908100a0270f9e72835e189a220ece6e54a27bd
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 11d95858c39a2d555a4b1a7433b0a7dce0388293
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836537"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780266"
 ---
 # <a name="location-of-data-in-microsoft-teams"></a>Microsoft Teams のデータの場所
 
-Teams のデータはご利用の Office 365 テナントに関連付けられている地理的領域内に存在します。 現在、Teams でサポートされているのは、オーストラリア、カナダ、フランス、ドイツ、インド、日本、南アフリカ、韓国、スイス (リヒテンシュタインを含む)、英国連邦、英国、南北アメリカ、APAC、および EMEA 地域です。 
+Teams のデータは、Office 365 組織に関連付けられている地理的地域内に存在します。 現在、Teams でサポートされているのは、オーストラリア、カナダ、フランス、ドイツ、インド、日本、南アフリカ、韓国、スイス (リヒテンシュタインを含む)、英国連邦、英国、南北アメリカ、APAC、および EMEA 地域です。 
 
 > [!IMPORTANT]
 > Teams では現在、オーストラリア、カナダ、フランス、ドイツ、インド、日本、英国、英国、韓国、南アフリカ、スイス (リヒテンシュタインを含む) で、新しいテナントのみにデータ常駐品が提供されています。
@@ -33,7 +33,7 @@ Teams のデータはご利用の Office 365 テナントに関連付けられ�
 
 ## <a name="where-your-teams-data-is-stored"></a>チームデータが保存されている場所
 
-テナントのデータが格納されている領域を確認するには、 [Microsoft 365 管理センター](https://portal.office.com/adminportal/home) > の**設定** > **組織プロファイル**に移動します。 下にスクロールして [**データの場所**] に移動します。
+テナントのデータが格納されている領域を確認するには、 [Microsoft 365 管理センター](https://portal.office.com/adminportal/home) > の**設定** > **組織プロファイル**に移動します。 下にスクロールして **[データの場所]** に移動します。
 
 ![管理センターの Teams を含むデータの場所テーブルのスクリーンショット](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 
@@ -47,7 +47,7 @@ Teams のデータはご利用の Office 365 テナントに関連付けられ�
 
 ### <a name="core-teams-customer-data"></a>主要な Teams の顧客データ
 
-お客様のテナントが、オーストラリア、カナダ、欧州連合、フランス、ドイツ、インド、日本、南アフリカ、韓国、スイス (リヒテンシュタインを含む)、英国、英国、英国、Microsoft ストアのいずれかである場合次のお客様のデータは、その場所でのみ保存されています。
+お客様のテナントが、オーストラリア、カナダ、欧州連合、フランス、ドイツ、インド、日本、南アフリカ、韓国、スイス (リヒテンシュタインを含む)、英国連邦、英国、または米国内にある場合は、次のお客様のデータが保持されている場所に保存されます。
 
 - チームチャット、チームとチャネルでの会話、画像、ボイスメールメッセージ、連絡先
 - SharePoint Online サイトのコンテンツと、そのサイト内に保存されているファイル
@@ -86,7 +86,7 @@ Teams のすべてのチームは、Office 365 グループとその SharePoint 
 |韓国     |ソウルと Busan         |
 |スイス    |ジュネーブと Zurich       |
 |アラブ首長国連邦     |アブダビと Dubai         |
-|イギリス     | Cardiff と London        |
+|英国     | Cardiff と London        |
 |南北アメリカ–北、南 (AMER) |Bay、CA、Boydton、VA       |
 |アジア太平洋 (APAC)  |シンガポール・香港        |
 |ヨーロッパ、中東、アジア (EMEA)   |ダブリンとアムステルダム        |

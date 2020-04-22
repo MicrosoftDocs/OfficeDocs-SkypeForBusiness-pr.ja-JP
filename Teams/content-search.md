@@ -17,12 +17,12 @@ ms.custom: seo-marvel-mar2020
 description: Microsoft Teams のコンテンツ検索を使用して、Exchange、SharePoint Online、OneDrive for Business、OneNote から Microsoft Teams の情報を照会する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af81b857d6cf60f7de1a1b1e199d08ede089de5f
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 93f566590baedc77a4d15eca96569cc85ce54f0b
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137747"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776452"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Microsoft Teams のコンテンツ検索を使用する
 =====================================
@@ -90,6 +90,6 @@ ms.locfileid: "43137747"
     ```
 3. コンテンツ検索クエリの一部として、チーム内の各プライベートチャネルからすべてのメンバーのメールボックスを含めます。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
-- [Office 365 セキュリティ & コンプライアンスセンターの電子情報開示ケース](https://docs.microsoft.com/Office365/SecurityCompliance/ediscovery-cases) 
+- [Microsoft 365 コンプライアンスセンターの電子情報開示ケース](https://docs.microsoft.com/Office365/SecurityCompliance/ediscovery-cases) 

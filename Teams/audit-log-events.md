@@ -13,15 +13,15 @@ f1.keywords:
 - NOCSH
 ms.reviewer: anach
 search.appverid: MET150
-description: Office 365 監査ログから Microsoft Teams データを取得する方法について説明します。
+description: 監査ログから Microsoft Teams のデータを取得する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f53d1a0b5e600de9d38233b243dba3486b88bf1
-ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
+ms.openlocfilehash: 9b1235dcd1a33800185eb005f5e309204790c5b1
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341625"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778893"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Microsoft Teams でイベントの監査ログを検索する
 
@@ -41,11 +41,11 @@ ms.locfileid: "42341625"
 > [!NOTE]
 > プライベートチャネルからの監査イベントも、teams および標準チャネル用としてログに記録されます。
 
-Office 365 で監査されるアクティビティの完全なリストを確認するには、「[Office 365 のセキュリティ センターとコンプライアンス センターで監査ログを検索する](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c)」をご覧ください。
+Microsoft 365 で監査されるアクティビティの完全なリストを確認するには、「 [microsoft 365 コンプライアンスセンターで監査ログを検索](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c)する」を参照してください。
 
 ## <a name="turn-on-auditing-in-teams"></a>Teams での監査をオンにする
 
-監査データを表示するには、まず[セキュリティ & コンプライアンスセンター](https://protection.office.com)で監査を有効にする必要があります。 監査をオンにする方法の詳細については、「[Office 365 監査ログの検索を有効または無効にする](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)」をご覧ください。
+監査データを表示するには、まず[セキュリティ & コンプライアンスセンター](https://protection.office.com)で監査を有効にする必要があります。 監査を有効にする方法については、「[監査ログの検索を有効または無効にする](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)」を参照してください。
 
 > [!IMPORTANT]
 > 利用できる監査データは、監査を有効にした時点以降のデータのみです。
@@ -65,7 +65,7 @@ Office 365 で監査されるアクティビティの完全なリストを確認
 
 ![一括削除によってトリガーされるイベントの一覧のスクリーンショット](media/TeamsExternalUserAddPolicy.png)
 
-外部ユーザーを監視するこのポリシーのスクリーンショットでは、ポリシーに名前を付け、ビジネスニーズに応じて重要度を設定し、(この例では) 1 つのアクティビティとして設定して、追加のみを監視するパラメーターを確立することができます。を超えている場合は、このアクティビティを Microsoft Teams に制限します。
+外部ユーザーを監視するこのポリシーのスクリーンショットを使用すると、ポリシーに名前を付け、ビジネスニーズに応じて重要度を設定して、(この例では) 1 つのアクティビティとして設定し、このアクティビティを Microsoft Teams に制限することができます。
 
 このポリシーの結果は、アクティビティログで確認できます。
 

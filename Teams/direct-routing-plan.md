@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Microsoft 電話システムのダイレクトルーティングを使用して、サポートされているユーザー指定のセッションボーダーコントローラー (SBC) を Microsoft 電話システムに接続する方法について説明します。
-ms.openlocfilehash: bc092c2441ff359de1189e1ff000a61c51dcec1f
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 0140e4d2cfae95531602daec5a859a85888e9d15
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140286"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780696"
 ---
 # <a name="plan-direct-routing"></a>ダイレクト ルーティングを計画する
 
@@ -47,7 +47,7 @@ Microsoft Phone システムのダイレクトルーティングでは、サポ�
 - 組織では、サードパーティのアナログデバイス、コールセンターなどへの接続が必要です。 
 - 組織には、PSTN キャリアを使った既存の契約があります。
 
-また、直接ルーティングでは、Microsoft 通話プランの追加ライセンスを所有しているユーザーもサポートされます。 詳細については、「[電話システムと通話プラン](calling-plan-landing-page.md)」を参照してください。 
+また、直接ルーティングでは、Microsoft 通話プランの追加ライセンスを所有しているユーザーもサポートされます。 詳細については、[電話システムと通話プラン](calling-plan-landing-page.md)に関する記事をご覧ください。 
 
 ダイレクトルーティングでは、ユーザーがスケジュールされた電話会議に参加するときに、ダイヤルイン番号は Microsoft 電話会議サービスによって提供されます。これには、適切なライセンスが必要です。  ダイヤルアウトの場合、Microsoft 電話会議サービスは、適切なライセンスが必要なオンライン通話機能を使用して通話を発信します。 (ダイヤルアウトでは、直接ルーティングによるルーティングが行われないことに注意してください)。詳細については、「[チームとのオンライン会議](https://products.office.com/microsoft-teams/online-meeting-solutions)」を参照してください。 
  
@@ -71,11 +71,11 @@ Microsoft Phone システムのダイレクトルーティングでは、サポ�
 |:--- |:--- |
 |セッションボーダーコントローラー (SBC)|サポートされている SBC。 詳細については、「[サポートされる SBCs](#supported-session-border-controllers-sbcs)」を参照してください。|
 |SBC に接続されたテレフォニー trunks|SBC に接続されている1つ以上のテレフォニー trunks。 一方の端では、SBC は直接ルーティングを介して Microsoft 電話システムに接続します。 SBC は、Pbx、アナログテレフォニーアダプターなどのサードパーティ製のテレフォニーエンティティにも接続できます。 SBC に接続された PSTN 接続オプションは動作します。 (SBC への PSTN trunks の設定については、SBC ベンダーまたはトランクプロバイダを参照してください。)|
-|Office 365 テナント|Microsoft Teams ユーザーのホームに使用する Office 365 テナント、および SBC への構成と接続。|
+|Office 365 組織|Microsoft Teams ユーザーのホームとして使用する Office 365 組織、SBC への構成と接続。|
 |ユーザーレジストラー|ユーザーは、Office 365 に所属している必要があります。<br/>会社に Office 365 へのハイブリッド接続を備えたオンプレミスの Skype for Business または Lync 環境がある場合は、オンプレミスのユーザーに対して Teams でボイスを有効にすることはできません。<br/><br/>ユーザーのレジストラーを確認するには、次の Skype for Business Online PowerShell コマンドレットを使用します。<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>コマンドレットの出力は、次のように表示されます。<br/><code>HostingProvider : sipfed.online.lync.com</code>|
-|Domains|1つまたは複数のドメインが Office 365 テナントに追加されている。<br/><br/>テナント用に自動的に作成される既定\*のドメイン onmicrosoft.com は使用できないことに注意してください。<br/><br/>ドメインを表示するには、次の Skype for Business Online PowerShell コマンドレットを使用できます。<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>ドメインと Office 365 テナントの詳細については、「ドメインに関する[FAQ](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a)」を参照してください。|
+|Domains|1つまたは複数のドメインが Office 365 組織に追加されている。<br/><br/>テナント用に自動的に作成される既定\*のドメイン onmicrosoft.com は使用できないことに注意してください。<br/><br/>ドメインを表示するには、次の Skype for Business Online PowerShell コマンドレットを使用できます。<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>ドメインと Office 365 組織の詳細については、「ドメインに関する[FAQ](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a)」を参照してください。|
 |SBC のパブリック IP アドレス|SBC への接続に使用できるパブリック IP アドレス。 Sbc は、SBC の種類に基づいて NAT を使うことができます。|
-|SBC の完全修飾ドメイン名 (FQDN)|SBC の FQDN。 FQDN のドメイン部分は、Office 365 テナントで登録されているドメインの1つです。 詳細については、「 [SBC ドメイン名](#sbc-domain-names)」を参照してください。|
+|SBC の完全修飾ドメイン名 (FQDN)|SBC の FQDN。 FQDN のドメイン部分は、Office 365 組織で登録されているドメインの1つです。 詳細については、「 [SBC ドメイン名](#sbc-domain-names)」を参照してください。|
 |SBC のパブリック DNS エントリ |SBC FQDN をパブリック IP アドレスにマッピングするパブリック DNS エントリ。 |
 |SBC 用の公開された信頼できる証明書 |直接ルーティングを使用するすべての通信に使用する SBC の証明書。 詳細については、「 [SBC 用の公開された信頼できる証明書](#public-trusted-certificate-for-the-sbc)」を参照してください。|
 |直接ルーティングの接続ポイント |直接ルーティングの接続ポイントは、次の3つの Fqdn です。<br/><br/>`sip.pstnhub.microsoft.com`–グローバル FQDN を最初に試す必要があります。<br/>`sip2.pstnhub.microsoft.com`–セカンダリ FQDN、地理的には2番目の優先度の地域にマップされます。<br/>`sip3.pstnhub.microsoft.com`–第3の優先度の領域に地理的にマップされています。<br/><br/>構成要件の詳細については、「 [SIP シグナリング: fqdn](#sip-signaling-fqdns)」を参照してください。|
@@ -257,7 +257,7 @@ FQDN sip.pstnhub.gov.teams.microsoft.us は、次のいずれかの IP アドレ
 - Office 365 GCC 高
 - Office 365 DoD
 
-|**通過**|**開始**|**終了**|**送信元ポート**|**宛先ポート**|
+|**通過**|**開始**|**終了**|**ソースポート**|**宛先ポート**|
 |:--- |:--- |:--- |:--- |:--- |
 |SIP/TLS|SIP プロキシ|SBC|1024–65535|SBC で定義されています (Office 365 GCC 高/DoD 専用ポート5061を使用する必要があります)。|
 SIP/TLS|SBC|SIP プロキシ|SBC で定義|5061|
@@ -297,7 +297,7 @@ SBC は、sip.pstnhub.microsoft.com を解決する DNS クエリを行います
 ### <a name="port-range-applicable-to-all-environments"></a>ポート範囲 (すべての環境に適用される)
 メディアプロセッサのポート範囲は、次の表のように表示されます。 
 
-|**通過**|**開始**|**終了**|**送信元ポート**|**宛先ポート**|
+|**通過**|**開始**|**終了**|**ソースポート**|**宛先ポート**|
 |:--- |:--- |:--- |:--- |:--- |
 |UDP/SRTP|メディアプロセッサ|SBC|49152–53247|SBC で定義|
 |UDP/SRTP|SBC|メディアプロセッサ|SBC で定義|49152–53247|

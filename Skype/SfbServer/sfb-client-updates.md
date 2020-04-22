@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: IT プロフェッショナルに、Skype for business 2016、Skype for Business 2015、Lync 2013 クライアントの永続バージョンに関する最新の更新情報へのリンクを提供します。
-ms.openlocfilehash: 4ad81a06fd6360ecc62fdddeb694a1abad07eec3
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8a6008845c4218c8682a22cbab110551999d19cb
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42009590"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779703"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Windows インストーラー (MSI) を使用する Skype for Business の最新バージョンの更新プログラム
 
@@ -25,7 +25,7 @@ ms.locfileid: "42009590"
 
 > [!NOTE]
 > - この記事の情報は、Windows インストーラー (MSI) インストールテクノロジを使用する、従来のバージョンの Skype for Business にのみ適用されます。 たとえば、Office Professional Plus 2016 に含まれている Skype for business などの、Skype for business のボリュームライセンス版をインストールした場合。
-> - この記事の情報は、office 365 バージョンの Skype for business (Office 365 ProPlus に含まれている Skype for business など) には適用されません。
+> - この記事の情報は、Microsoft 365 Apps for enterprise に含まれている Skype for business など、Skype for business の Office 365 バージョンには適用されません。
 > - 最新のモバイルクライアント更新プログラムについては、モバイルクライアント (iTunes、Google Play、Microsoft Store) のアプリストアに移動して詳細を表示し、更新プログラムをインストールします。
 > - 使用している Skype for business のバージョンについては、「現在[のバージョンの skype](https://support.microsoft.com/help/3195481/how-to-check-the-version-of-skype-for-business-2016) for business について」を参照してください。
 > - Office の更新プログラムをインストールする手順については、「[Office の更新プログラムをインストールする](https://support.office.com/article/2ab296f3-7f03-43a2-8e50-46de917611c5)」を参照してください。
@@ -316,6 +316,6 @@ Office 365 とオンプレミス環境との Skype for Business の互換性は�
 | [Lync 2010 の出席者-管理者レベルのインストール](https://www.microsoft.com/download/en/details.aspx?id=23396) | 2013 年 4 月   |
 | [Lync 2010 の出席者-ユーザーレベルのインストール](https://www.microsoft.com/download/en/details.aspx?id=15755)  | 2014 年 6 月    |
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [Skype for Business Server 更新プログラム](sfb-server-updates.md)

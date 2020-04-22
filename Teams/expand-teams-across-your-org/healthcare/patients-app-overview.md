@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Teams 管理者用の患者アプリ
-ms.openlocfilehash: 4c4eaced1b7e3c328d589906ac50cfb8ac805ea3
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 405a87be4bd9504c0bdca98c17748f0864ba72ed
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42153789"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780196"
 ---
 # <a name="patients-app-overview"></a>患者アプリの概要
 
@@ -30,12 +30,12 @@ ms.locfileid: "42153789"
 
 このアプリには、次の2つのモードがあります。
 
-- Emr から FHIR に接続する EMR 接続モード。 EMR 接続モードのアプリはプライベートプレビューのままであり、ユーザーまたは管理者は、Office 365 テナントに関する情報を使用して[teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com)に Microsoft をドロップして、アプリへのアクセスを要求することがあります。
+- Emr から FHIR に接続する EMR 接続モード。 EMR 接続モードのアプリはプライベートプレビューのままであり、ユーザーまたは管理者は、Office 365 組織に関する情報を使って、 [teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com)に Microsoft メールをドロップして、アプリへのアクセスを要求することがあります。
 - 治療チームが患者情報を手動で追加/取り込みできる手動モード。 アプリケーションは、Teams app store で利用可能で、エンドユーザーはプライベートプレビューでダウンロードすることができます。 アプリは、Teams の[アプリセットアップポリシー](../../teams-app-setup-policies.md)を使用して、ユーザーの特定のセクションに制限することができます。 アプリへのアクセスを取得するには、テナントがテクノロジ導入プログラムに含まれている必要があります (タップ)。 [Teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com)でメールを削除して、アクセス権を要求するプロセスを開始してください。
 
 ## <a name="usage-example"></a>使用例
 
-医療 wards の各シフトでの丸めセッション中に、clinicians は nursing ステーションで収集して、の患者との進行状況に関する最新の更新について話し合うことができます。  また、重要な指標 (医療、患者の医療記録での明示的なものではありません) を強調表示し、お客様の診断に基づいて患者が適切なグライドパス上にいることを確認します。 このような患者を丸めるために、クレジットの追加により、すべての clinicians が追加され、患者リストに患者が追加されるようになります。 ラウンドでは、患者との間の看護師とその他のケア givers によって、モバイルデバイス上の Microsoft Teams と患者アプリの情報が更新され、お客様のデバイスに関連する患者情報が更新され、ケアチーム内の他の参加者に対してそれらの更新とメモを表示することができます。常に同期します。1日に2回、シフトの開始時と終了時には、患者リストを超えて患者の一覧を表示し、患者のアプリを使って患者の顔を見ながら、大きなディスプレイ画面で患者のアプリを使って情報を共有することができます。 場合によっては、特定の clinicians が、それらのチーム会議にリモートでダイヤルインしても、ディスカッションの一部となることがあります。
+医療 wards の各シフトでの丸めセッション中に、clinicians は nursing ステーションで収集して、の患者との進行状況に関する最新の更新について話し合うことができます。  また、重要な指標 (医療、患者の医療記録での明示的なものではありません) を強調表示し、お客様の診断に基づいて患者が適切なグライドパス上にいることを確認します。 このような患者を丸めるために、クレジットの追加により、すべての clinicians が追加され、患者リストに患者が追加されるようになります。 ラウンドでは、患者との間の看護師とその他のケア givers によって、モバイルデバイス上の Microsoft Teams と患者アプリの情報が更新され、デバイス上の関連する患者情報が更新され、ケアチーム内の他のすべてのユーザーがその更新とメモを確認して、同期を維持することができます。1日に2回、シフトの開始時と終了時には、患者リストを超えて患者の一覧を表示し、患者のアプリを使って患者の顔を見ながら、大きなディスプレイ画面で患者のアプリを使って情報を共有することができます。 場合によっては、特定の clinicians が、それらのチーム会議にリモートでダイヤルインしても、ディスカッションの一部となることがあります。
 
 ## <a name="configure-patients-app"></a>患者のアプリを設定する
 

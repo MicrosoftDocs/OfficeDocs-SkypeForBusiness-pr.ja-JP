@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 41fd33c384bf6f91ae760d539e18ea7ee74a8503
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: f296beffa5d9d97bd34035a80cac8068783cea54
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139586"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780616"
 ---
 # <a name="plan-to-move-your-staffhub-teams-to-shifts-in-microsoft-teams"></a>Microsoft Teams での StaffHub teams のシフトへの移行を計画する
 
@@ -40,7 +40,7 @@ StaffHub から Teams への移行を計画する場合は、タイムライン�
 |---------|---------|---------|
 |1    |関係者の準備と特定         |         |
 |両面     |StaffHub からチームとチームのオンボードへの切り替えに関するドキュメントを確認する         |[StaffHub](microsoft-staffhub-to-be-retired.md)<br><br>[Teams での StaffHub teams のシフトへの移動](move-staffhub-teams-to-shifts-in-teams.md)<br><br>[Teams の使用を開始する](../../get-started-with-teams-quick-start.md)         |
-|3    |組織で Office 365 グループを有効にする        |[Office 365 グループとチーム](../../Office-365-groups.md)      |
+|3    |組織で Microsoft 365 グループを有効にする        |[Microsoft 365 グループとチーム](../../Office-365-groups.md)      |
 |4    |前提条件が満たされていることを確認する         |[前提条件を満たしていることを確認する](move-staffhub-teams-to-shifts-in-teams.md#check-that-prerequisites-are-met)       |
 |5   |組織内の StaffHub ユーザーに Teams ライセンスを割り当てる|[Teams のライセンスを割り当てる](move-staffhub-teams-to-shifts-in-teams.md#assign-teams-licenses)<br><br>[Teams へのユーザー アクセスを管理する](../../user-access.md)      |
 |6    |StaffHub PowerShell モジュールをインストールする        |[StaffHub PowerShell モジュールをインストールする](install-the-staffhub-powershell-module.md)        |

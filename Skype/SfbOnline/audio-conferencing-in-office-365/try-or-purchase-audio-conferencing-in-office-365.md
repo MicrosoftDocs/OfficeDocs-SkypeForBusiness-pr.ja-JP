@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Online の Office 365 で電話会議を試用または購入する
+title: Microsoft 365 または Skype for Business Online の Office 365 で電話会議を試用または購入する
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,20 +21,20 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Office 365 の電話会議 (PSTN 会議) ライセンスを試す方法または購入する方法を参照して、ダイヤル インできる電話会議をセットアップしてください。 '
-ms.openlocfilehash: d2ae202cbed7c59876ea04c9d3a5760d6495898d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d5afdc88b4d3c891b66ef3d4fce3860a648db488
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010960"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776772"
 ---
-# <a name="try-or-purchase-audio-conferencing-in-office-365-for-skype-for-business-online"></a>Skype for Business Online の Office 365 で電話会議を試用または購入する
+# <a name="try-or-purchase-audio-conferencing-in-microsoft-365-or-office-365-for-skype-for-business-online"></a>Microsoft 365 または Skype for Business Online の Office 365 で電話会議を試用または購入する
 
 > [!Note]
 > Microsoft Teams での電話会議の詳細については、「[Microsoft Teams で Office 365 の Skype の電話会議を試用または購入する](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams)」を参照してください。
 
 
-自分の組織内のユーザーが、会議にダイヤル インするために電話機を使用する必要がある場合があります。 Skype for Business には、このような状況での電話会議機能が含まれています。 参加者は、モバイル デバイスや PC で Skype for Business アプリを使用する代わりに、電話を使って Skype for Business 会議にコールインできます。
+組織内のユーザーが、会議にダイヤル インするために電話機を使用する必要がある場合があります。 Skype for Business には、このような状況での電話会議機能が含まれています。 参加者は、モバイル デバイスや PC で Skype for Business アプリを使用する代わりに、電話を使って Skype for Business 会議にコールインできます。
 
 会議をスケジュールまたは開催することを計画している人のために、電話会議を設定するだけです。 会議の出席者にミーティングへのライセンスが割り当てられている必要はなく、その他のセットアップも必要ありません。
 

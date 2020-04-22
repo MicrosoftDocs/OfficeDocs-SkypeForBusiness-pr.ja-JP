@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: モバイル デバイス上の Skype for Business アプリで、携帯電話番号ではなく勤務先の電話番号を使用して携帯電話上で通話を発信および受信できるようにする機能などにより、ユーザーが Skype for Business Online に接続する方法を設定することができます。モバイル機能ポリシーを使用して、通話の発着信時に Wi-Fi 接続を要求するようにすることもできます。
-ms.openlocfilehash: 2d608356e08ae989d0be79bd61f14a4d6ba3b9f0
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: ac8f94cb7203b3b0ee4698969db0b76cb1e31a49
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41887856"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776262"
 ---
 # <a name="set-up-mobile-policies-for-your-organization"></a>組織のモバイル ポリシーをセットアップする
 
@@ -55,7 +55,7 @@ ms.locfileid: "41887856"
     
     1. From the **Start Menu** > **Windows PowerShell**.
         
-    2. [ **Windows PowerShell**] ウィンドウで、次を実行して、Office 365 の組織に接続します。
+    2. **Windows PowerShell**ウィンドウで、次を実行して Microsoft 365 または Office 365 に接続します。
         
         > [!NOTE]
         > Skype for Business Online Windows PowerShell モジュールを初めて使用するときに、 **Import-Module** コマンドを実行するだけです。

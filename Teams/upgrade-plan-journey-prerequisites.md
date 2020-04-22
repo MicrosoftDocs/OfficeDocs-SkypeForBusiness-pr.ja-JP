@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec634105f87c548ed962bdf9f098298f01f1e93e
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: f340146225d7e386233e727bb8c5d181db7f15fb
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706867"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776722"
 ---
 # <a name="prerequisites-and-environmental-dependencies-for-teams"></a>Teams の前提条件と環境上の依存関係
 
@@ -38,7 +38,7 @@ ms.locfileid: "42706867"
 
 Teams では、複数の Office 365 サービスが組み合わされているため、これらのサービスの適切な実装と運用によって異なります。 これらのサービスには、SharePoint Online、Exchange Online、OneDrive for Business などが含まれますが、これらは限定されません。
 
-すべてのサービスが必要となるわけではありませんが、すべてのサービスを実装することを強くお勧めします。 特定のサービスを実装しない場合は、チームが組織に提供できる機能に影響します。 たとえば、SharePoint Online を実装する必要はありませんが、チームは SharePoint Online を使用して、グループ会話でのファイル共有などの特定の機能を利用しているため、このサービスを実装しないと、クライアント.
+すべてのサービスが必要となるわけではありませんが、すべてのサービスを実装することを強くお勧めします。 特定のサービスを実装しない場合は、チームが組織に提供できる機能に影響します。 たとえば、SharePoint Online を実装する必要はありませんが、チームは SharePoint Online を使用して、グループ会話でのファイル共有などの特定の機能を利用しているため、このサービスを実装しないと、クライアントで提供される機能が低下します。
 
 前提条件については、次の記事を参照してください。チームと他のテクノロジとの相互作用について説明します。
 
@@ -52,7 +52,7 @@ Teams では、複数の Office 365 サービスが組み合わされている�
 
 - 組織に SharePoint Online がインストールされていない場合は、「 [Sharepoint online と OneDrive For business が Microsoft Teams とどのように連携するかについ](SharePoint-OneDrive-interact.md)て」を参照してください。
 
-- [Office 365 グループと Microsoft Teams の相互作用](Office-365-groups.md)について説明します。
+- [Microsoft 365 グループおよび Microsoft Teams](Office-365-groups.md)がどのようにやり取りするかについて説明します。
 
 - 組織が教育機関であり、学生の情報システムを使用している場合は、Microsoft Teams を展開する前に[School Data Sync を展開](https://docs.microsoft.com/schooldatasync)してください。
 

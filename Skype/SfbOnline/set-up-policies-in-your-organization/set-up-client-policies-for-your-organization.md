@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: クライアント ポリシーはユーザーが利用できる Skype for Business Online の機能を決めるのに役立ちます。たとえば、一部のユーザーにファイルを転送する権限を与えて、他のユーザーに対してはその権限を与えないようにする場合が考えられます。
-ms.openlocfilehash: 4c3434a1649c7bce01557ab97c6c6d9f977c0ab4
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 43b51b800b3107410c64bd2605b5a6a7622fe65a
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41887906"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776292"
 ---
 # <a name="set-up-client-policies-for-your-organization"></a>組織のクライアント ポリシーをセットアップする
 
@@ -55,7 +55,7 @@ ms.locfileid: "41887906"
     
     1. From the **Start Menu** > **Windows PowerShell**.
         
-    2. [ **Windows PowerShell**] ウィンドウで、次を実行して、Office 365 の組織に接続します。
+    2. **Windows PowerShell**ウィンドウで、次を実行して Microsoft 365 または Office 365 に接続します。
     
         > [!NOTE]
         > Skype for Business Online Windows PowerShell モジュールを初めて使用するときに、 **Import-Module** コマンドを実行するだけです。

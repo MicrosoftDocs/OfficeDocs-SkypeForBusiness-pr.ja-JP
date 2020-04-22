@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 53d82dc346226215101c837dcf8a2f10dd6ff2fc
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 4c37d0c606a52893b69a101c99ef962e46d4deb3
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141180"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780636"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>Microsoft StaffHub の廃止
 
@@ -97,7 +97,7 @@ Teams のシフトアプリは、Firstline Worker を接続して同期させる
 
 #### <a name="where-is-shifts-data-stored"></a>シフトのデータはどこに保存されますか?
 
-データのシフトは、北米と西ヨーロッパのデータセンターに Azure に保存されます。 SharePoint コンテンツは、Office 365 グループを活用し、同じ記憶域とサポートを利用します。
+データのシフトは、北米と西ヨーロッパのデータセンターに Azure に保存されます。 SharePoint コンテンツは Microsoft 365 グループを活用し、同じストレージとサポートを利用します。
 
 詳細については、「[シフトしたデータの場所](manage-the-shifts-app-for-your-organization-in-teams.md#location-of-shifts-data)」を参照してください。
 
@@ -131,9 +131,9 @@ Teams では、Skype for Business との共存がサポートされています�
 
 はい。 teams 内のチームとシフトを使用する各マネージャーとチームメンバーは、Office 365 アカウント (Azure AD) を持っている必要があり、有効なライセンスが割り当てられている必要があります。
  
-#### <a name="in-staffhub-i-could-add-a-special-prefix-to-all-office-365-groups-that-were-created-by-staffhub-teams-can-i-do-the-same-in-teams"></a>StaffHub では、StaffHub teams によって作成されたすべての Office 365 グループに、特別な接頭文字を追加できます。 Teams でも同じことができますか?
+#### <a name="in-staffhub-i-could-add-a-special-prefix-to-all-microsoft-365-groups-that-were-created-by-staffhub-teams-can-i-do-the-same-in-teams"></a>StaffHub では、StaffHub teams によって作成されたすべての Microsoft 365 グループに、特別な接頭文字を追加することができます。 Teams でも同じことができますか?
 
-StaffHub から Teams に移動しても、同じ機能はありません。 すべての Office 365 グループに名前の一貫性を適用する必要がある場合は、 [office 365 グループの名前付けポリシー](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy)を使用できます。
+StaffHub から Teams に移動しても、同じ機能はありません。 すべての Microsoft 365 グループに名前の整合性を適用する必要がある場合は、 [microsoft 365 グループの名前付けポリシー](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy)を使用できます。
 
 #### <a name="will-team-names-be-the-same-in-teams"></a>Teams でチーム名は同じになりますか?
 
@@ -149,7 +149,7 @@ StaffHub から Teams に移動しても、同じ機能はありません。 す
 
 ユーザーのスケジュールは [シフト] に移動されますが、ユーザーはチームまたは Office 365 グループのメンバーにはなりません。
 
-Azure AD ユーザーアカウントにリンクされていない非アクティブなアカウントの場合、管理者は、ユーザーが組織内の正しい Azure AD アカウントにリンクされるように、StaffHub チームメンバーページに有効な Office 365 メールアドレスを追加することで、そのユーザーがチームのメンバーとして追加されていることを確認できます。
+Azure AD ユーザーアカウントにリンクされていない非アクティブなアカウントの場合、管理者は、ユーザーが組織の適切な Azure AD アカウントにリンクされるように、StaffHub のチームメンバーページに有効な Microsoft 365 または Office 365 のメールアドレスを追加して、ユーザーがチームのメンバーとして追加されていることを確認できます。
 
 もう1つのオプションは、管理者が**StaffHubMember**と**StaffHubUser**のコマンドレットを実行して、StaffHub チームからプロビジョニングされていないアカウントを削除し、UPN でユーザーをチームに追加します。
 

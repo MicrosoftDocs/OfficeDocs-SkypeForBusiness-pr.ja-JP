@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 91e2763fac952b7188284dcf09e6fc0b7cc4bf16
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 44ea666d39427e6be6aa60a3c05af2a10ed1cc5e
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749864"
+ms.locfileid: "43780586"
 ---
 # <a name="quality-of-experience-review-guide"></a>QoE のレビュー ガイド 
 
@@ -70,16 +70,16 @@ _図 1-このガイドで取り上げている主要な運用領域_
 
 |  |レポートを表示する  |EUII フィールドを表示する  |レポートを作成する  |建物のデータをアップロードする  |
 |---------|:-------:|:-------:|:-------:|:-------:|
-|Office 365 のグローバル管理者     |はい         |Yes         |Yes         |Yes         |
+|グローバル管理者     |はい         |Yes         |Yes         |Yes         |
 |Teams サービス管理者     |はい         |Yes         |Yes         |Yes         |
 |Teams 通信管理者     |はい         |Yes         |Yes         |Yes         |
 |Teams 通信サポート エンジニア     |はい         |Yes         |必要         |いいえ         |
 |Teams 通信サポート スペシャリスト     |はい         |いいえ         |はい         |いいえ         |
 |Skype for Business 管理者     |はい         |Yes         |Yes         |Yes         |
 |Azure AD グローバルリーダー |はい         |Yes         |必要         |いいえ         |
-|Office 365 レポートリーダー<sup>1</sup>     |はい         |いいえ         |はい         |いいえ         |
+|Microsoft 365 レポートリーダー<sup>1</sup>     |はい         |いいえ         |はい         |いいえ         |
 
-<sup>1</sup> CQD レポートの読み取りに加えて、Office 365 レポート閲覧者は、管理センターのすべての[アクティビティレポート](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263)と、 [Microsoft 365 導入コンテンツパック](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)のすべてのレポートを表示できます。
+<sup>1</sup> CQD レポートの読み取りに加えて、Microsoft 365 レポート閲覧者は、管理センターのすべての[アクティビティレポート](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263)と、 [microsoft 365 導入コンテンツパック](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)のすべてのレポートを表示できます。
 
 > [!NOTE]
 > EUII (エンドユーザーを特定できる情報) が表示されず、この情報を表示することを許可されているロールの1つがある場合は、CQD で30日間は EUII しか保持されないことに注意してください。 30日以上経過したものは削除されます。
@@ -598,7 +598,7 @@ _表 4-レポートフィルター_
 2. Office 365 管理者の資格情報を使用して認証します。
 
    > [!NOTE]
-   > CQD にアクセスするには、Office 365 のグローバル管理者、Skype for Business の管理者、またはレポートリーダーの役割が必要です。 
+   > CQD にアクセスするには、グローバル管理者、Skype for Business の管理者、またはレポートリーダーの役割が必要です。 
 
 3. ページの上部にある [**概要レポート**] メニューを選択し、[**詳細レポート**] を選択します。
 
@@ -1189,7 +1189,7 @@ Office クイック実行のみを使用している場合は、自動的に6か
 Skype for Business のバージョン番号は、以下のリンクから参照できます。
 
 -   [Office ProPlus の更新プログラムのリリース情報](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus)
--   [Office 365 ProPlus の更新履歴](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date)
+-   [企業向け Microsoft 365 アプリの更新履歴](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date)
 -   [Skype for Business のダウンロードと更新プログラム](/SkypeForBusiness/software-updates)
 
 ### <a name="devices"></a>デバイス

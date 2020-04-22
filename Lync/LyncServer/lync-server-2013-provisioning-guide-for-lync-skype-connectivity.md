@@ -12,12 +12,12 @@ ms:contentKeyID: 57793363
 ms.date: 11/26/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 76eb0ed3fbfffc3a30794f1cc8652090235ecc88
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6165310a32bbbc7ea13fc6663dfd4cf5ab791435
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201735"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780076"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42201735"
 
 _**トピックの最終更新日:** 2014-11-26_
 
-Lync Server 2013 は、Skype との接続をサポートしています。 この接続により、Lync 2013 ユーザーは Skype ユーザーの Microsoft アカウント (MSA) を使用して Skype 連絡先を追加できます。 Skype クライアントは、Lync ユーザーを連絡先リストに追加することもできます。 Lync Server で管理上設定されたポリシーに基づいて、Lync および Skype ユーザーはインスタントメッセージングを使用して通信したり、お互いのプレゼンスを確認したり、音声およびビデオ通話を開始したりすることができます。 Lync と Skype の接続は、Lync Online の機能でもあり、Office 365 ポータル内の Lync 管理センターから Lync Online の顧客に対して有効にすることができます。
+Lync Server 2013 は、Skype との接続をサポートしています。 この接続により、Lync 2013 ユーザーは Skype ユーザーの Microsoft アカウント (MSA) を使用して Skype 連絡先を追加できます。 Skype クライアントは、Lync ユーザーを連絡先リストに追加することもできます。 Lync Server で管理上設定されたポリシーに基づいて、Lync および Skype ユーザーはインスタントメッセージングを使用して通信したり、お互いのプレゼンスを確認したり、音声およびビデオ通話を開始したりすることができます。 Lync と Skype の接続は Lync Online の機能でもあり、Microsoft 365 管理センター内の Lync 管理センターから Lync Online の顧客に対して有効にすることができます。
 
 <div>
 

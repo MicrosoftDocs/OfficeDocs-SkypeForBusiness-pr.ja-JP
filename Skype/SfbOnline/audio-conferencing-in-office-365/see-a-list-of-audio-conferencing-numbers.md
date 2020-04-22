@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Skype for Business Onlineでダイヤルイン会議の番号を検索する方法。 '
-ms.openlocfilehash: 6c9c9633f99edf42c3016b90f3b52c6c4c54b0d6
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 065de84b3efa5303fbf3321b0087462c23c331fe
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42011020"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779413"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-skype-for-business-online"></a>Skype for Business Onlineの電話会議の番号の一覧を見る
 
@@ -52,7 +52,7 @@ Skype for Businessユーザー向けの電話会議を設定すると、電話�
 
 ## <a name="to-view-your-audio-conferencing-phone-numbers"></a>電話会議の電話番号を表示するには
 
-1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
+1. 職場または学校のアカウントを使用してサインインします。
     
 2. **Skype For business**> 管理センターに移動します。
     

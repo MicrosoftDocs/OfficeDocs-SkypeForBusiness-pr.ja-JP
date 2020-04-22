@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 電話会議は Skype for Business Online の重要な部分です。電話会議により、ユーザーのグループがオンラインで一緒にスライドやビデオを表示したり、アプリケーションを共有したり、ファイルをやり取りしたり、連絡を取り合って共同作業することができるようになります。
-ms.openlocfilehash: aba41b8c1e527157c9ff8d58a2a7a78bfebb0a82
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: d7bbcca81888487d54fa1a08eaf09b5462dc391f
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41887896"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776242"
 ---
 # <a name="set-up-conferencing-policies-for-your-organization"></a>組織の電話会議ポリシーをセットアップする
 
@@ -59,7 +59,7 @@ Skype for Business Online では、電話会議は電話会議ポリシーを使
     
     1. From the **Start Menu** > **Windows PowerShell**.
         
-    2. [ **Windows PowerShell**] ウィンドウで、次を実行して、Office 365 の組織に接続します。
+    2. **Windows PowerShell**ウィンドウで、次を実行して Microsoft 365 または Office 365 に接続します。
         
         > [!NOTE]
         > Skype for Business Online Windows PowerShell モジュールを初めて使用するときに、 **Import-Module** コマンドを実行するだけです。

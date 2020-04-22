@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
 description: Office 365 (クラウド PBX) の電話システムで展開および使用するための Cloud Connector アプライアンスを準備する方法について説明します。
-ms.openlocfilehash: 6dbbc7eb1639859f889d6674e9f000507912d35a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 21943dfd8b86bfeabb4cbd28b501b80a3f2b5c45
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41983842"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779243"
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>Cloud Connector アプライアンスの準備
 
@@ -171,7 +171,7 @@ Export-CcConfigurationSampleFile
 
 - **SiteName:** 既定値は**Site1**です。 既存または新規のサイトにアプライアンスを登録するために**register**を実行すると、コマンドレットは**SiteName**を使用して登録するサイトを決定するため、Cloud Connector を展開する前に更新する必要があります。
 
-     アプライアンスを新しいサイトに登録する場合は、 **SiteName**の値が一意で、既存のサイトとは異なるものである必要があります。 既存のサイトにアプライアンスを登録する場合は、.ini ファイル内の**SiteName**の値は、Office 365 テナント構成で定義されている名前と一致している必要があります。 構成ファイルをあるサイトから別のサイトにコピーする場合は、各サイトの**SiteName**の値を適宜更新してください。
+     アプライアンスを新しいサイトに登録する場合は、 **SiteName**の値が一意で、既存のサイトとは異なるものである必要があります。 アプライアンスを既存のサイトに登録する場合は、.ini ファイルの**SiteName**の値は、Office 365 組織の構成で定義されている名前と一致している必要があります。 構成ファイルをあるサイトから別のサイトにコピーする場合は、各サイトの**SiteName**の値を適宜更新してください。
 
 - **ServerName:** サーバー名にドメイン名を含めることはできず、15文字に制限する必要があります。
 
@@ -305,11 +305,11 @@ CceService アカウントは、Skype for Business Cloud Connector エディシ�
 
 3. その値を**有効**に設定します。
 
-## <a name="set-up-your-office-365-tenant"></a>Office 365 テナントのセットアップ
+## <a name="set-up-your-office-365-organization"></a>Office 365 組織をセットアップする
 
-Skype for Business Online と Office 365 の電話システムを使用した Office 365 テナントが必要です。 Cloud Connector を使用する前に、テナントがセットアップおよび構成されていることを確認してください。
+Office 365 組織は、Skype for Business Online と Office 365 の電話システムを使用している必要があります。 Cloud Connector を使用する前に、テナントがセットアップおよび構成されていることを確認してください。
 
-Office 365 のセットアップ手順によっては、テナントのリモート PowerShell (TRPS) を使用して Office 365 テナントを構成する必要があります。 **これは、ホストサーバーにインストールする必要があります。** PowerShell の Skype for Business Online モジュールは、「 [skype For Business online, Windows PowerShell モジュール」](https://www.microsoft.com/download/details.aspx?id=39366)からダウンロードできます。
+Office 365 のセットアップ手順によっては、テナントのリモート PowerShell (TRPS) を使用して Office 365 組織を構成する必要があります。 **これは、ホストサーバーにインストールする必要があります。** PowerShell の Skype for Business Online モジュールは、「 [skype For Business online, Windows PowerShell モジュール」](https://www.microsoft.com/download/details.aspx?id=39366)からダウンロードできます。
 
 Cloud Connector online management に専用の Skype for Business 管理者アカウントを作成します (例: CceOnlineManagmentAdministrator)。 このアカウントはアプライアンスによって使用され、アプライアンスを追加または削除したり、自動 OS 更新を有効または無効にしたり、自動バイナリ更新を有効または無効にしたりします。 このアカウントのパスワードを期限切れにならないように設定します。これにより、有効期限が切れるたびにサービスのパスワードを変更する必要はありません。
 

@@ -12,12 +12,12 @@ ms:contentKeyID: 48184449
 ms.date: 02/21/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a95f2fba2d65f0d25f1fa9b843dd7bb47240aa6c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 44d1f06fcbdbbba7400bf45857dad9ed57971363
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188396"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779723"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -103,7 +103,7 @@ X.509 証明書を取得したら、Microsoft Online Services モジュールを
 
     Connect-MsolService
 
-Enter キーを押すと、資格情報ダイアログ ボックスが表示されます。ダイアログ ボックスに Office 365 ユーザー名とパスワードを入力し、[OK] をクリックします。
+Enter キーを押すと、資格情報ダイアログ ボックスが表示されます。 ダイアログボックスに Microsoft 365 または Office 365 のユーザー名とパスワードを入力し、[OK] をクリックします。
 
 Office 365 に接続するとすぐに、次のコマンドを実行して、サービス プリンシパルに関する情報を取得できます。
 

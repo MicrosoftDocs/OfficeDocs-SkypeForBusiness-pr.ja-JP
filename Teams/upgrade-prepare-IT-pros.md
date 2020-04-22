@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c3813b5d79f1362ff30ff15fa6fd2aff38b25a9
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: 47aef5ceee6daee63683655f167016e4d7ae1cf2
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706897"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776737"
 ---
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>Microsoft Teams の IT スタッフを準備する
 
@@ -36,7 +36,7 @@ ms.locfileid: "42706897"
 - [Skype for Business と Teams の共存と相互運用を理解した](https://aka.ms/SkypeToTeams-Coexist)
 - [アップグレードの手順を選択した](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-Office 365 テナント管理者、テクニカルリーダー、およびサポートデスクは、高品質なユーザーエクスペリエンスを提供する責任を負うものとします。 これには、チームをサポートし、ユーザーに対してチームを構成する準備ができていること、発生する可能性のある問題のトラブルシューティングと解決が効果的であることを確認することが含まれます。
+Office 365 組織の管理者、技術的な潜在顧客、およびサポートデスクは、高品質なユーザーエクスペリエンスを実現する責任を負うものとします。 これには、チームをサポートし、ユーザーに対してチームを構成する準備ができていること、発生する可能性のある問題のトラブルシューティングと解決が効果的であることを確認することが含まれます。
 
 次のリソースを IT スタッフのメンバーと共有して、チームへのアップグレードを開始する前に、ユーザーをサポートする準備ができていることを確認します。
 
@@ -49,7 +49,7 @@ Office 365 テナント管理者、テクニカルリーダー、およびサポ
 
 | | |
 |---|---|
-| ![判断ポイントを表すアイコン](media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>チームの展開とサポートに携わる可能性があると思われるすべてのサポートスタッフが参加しているか?</li><li>アップグレードの進捗に応じて、オンボードの追加のスタッフのトレーニング計画を作成しましたか?</li></ul> |
+| ![判断ポイントを表すアイコン](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>チームの展開とサポートに携わる可能性があると思われるすべてのサポートスタッフが参加しているか?</li><li>アップグレードの進捗に応じて、オンボードの追加のスタッフのトレーニング計画を作成しましたか?</li></ul> |
 | ![次の手順を示すアイコン](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>IT スタッフに必要な情報が含まれていることを確認します。</li><li>新機能がリリースされるたびに、トレーニングと準備計画を再利用します。</li></ul>|
 
 チームの IT スタッフを準備したら、環境がすべての[前提条件](upgrade-plan-journey-prerequisites.md)を満たしていることを確認します。

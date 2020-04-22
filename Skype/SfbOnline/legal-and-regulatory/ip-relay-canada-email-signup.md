@@ -19,12 +19,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: カナダ用の IP リレーアカウントを sigh する方法を説明します。
-ms.openlocfilehash: 9dda43f5489b63918142aff4c2c111f4471b958b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: f4aedc3f90aeaf8888ef24609cdc31068e2ad030
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693112"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778753"
 ---
 # <a name="ip-relay-in-canada---sign-up"></a>カナダでの IP 中継 - サインアップ
 
@@ -33,8 +33,8 @@ ms.locfileid: "41693112"
 |||
 |:-----|:-----|
 |名 & 姓:||
-|Office 365 テナントのドメイン名: <br/>(例: Contoso.com)||
-|Office 365 ユーザーの電話番号: <br/>例: + 1 XXX XXX XXXX) ||
+|Microsoft 365 または Office 365 組織のドメイン名: <br/>(例: Contoso.com)||
+|Microsoft 365 または Office 365 のユーザー電話番号: <br/>例: + 1 XXX XXX XXXX) ||
 |パスワード (8 ~ 16 文字): ||
 |通常の物理アドレス <br/>緊急時:||
 |番地 & 名:||
@@ -43,7 +43,7 @@ ms.locfileid: "41693112"
 |都道府県/州:||
 |郵便番号:||
 |電話番号:||
-|Office 365 メールアドレス:||
+|Microsoft 365 または Office 365 のメールアドレス:||
 |||
 
 > [!NOTE]

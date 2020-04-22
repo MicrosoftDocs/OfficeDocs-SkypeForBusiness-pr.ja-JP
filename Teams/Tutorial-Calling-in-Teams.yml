@@ -16,12 +16,12 @@ metadata:
   - M365-voice
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 1366edcd482e37f12c0218acfe25d378fc86709a
-  ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
-  ms.translationtype: HT
+  ms.openlocfilehash: 3f5e7c29ee676fa0b9defa907524c60b45a34fe9
+  ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+  ms.translationtype: MT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 11/01/2019
-  ms.locfileid: "37924818"
+  ms.lasthandoff: 04/22/2020
+  ms.locfileid: "43778513"
 items:
 - durationInMinutes: 1
   content: >
@@ -208,7 +208,7 @@ items:
     ### <a name="requirements"></a>要件
 
 
-    -   通話プランが設定された電話システムを有効にする適切なライセンスを持つ Office 365 テナント
+    -   適切なライセンスを持つ Office 365 組織で、通話プランを使って電話システムを有効にする
 
         -   専用のテスト用のテナントを使用することを強くお勧めします。
 

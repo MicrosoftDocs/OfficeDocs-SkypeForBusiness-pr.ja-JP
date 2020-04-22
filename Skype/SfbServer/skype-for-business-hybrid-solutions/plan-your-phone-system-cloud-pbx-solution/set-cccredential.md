@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 784ff94a-4b33-4dbd-ba74-27acc3eb6954
-description: Set-CcCredential コマンドレットは、現在の Skype for Business Cloud Connector エディションの展開の資格情報を設定します。
-ms.openlocfilehash: b7620a6d76415e4e2a49ea9bd628d1e1cba7f4ff
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: CcCredential コマンドレットは、現在の Skype for Business Cloud Connector エディションの展開の資格情報を設定します。
+ms.openlocfilehash: a97d85ef6fec31383b349e9a0c3b3d9e25d04337
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824211"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780676"
 ---
 # <a name="set-cccredential"></a>Set-CcCredential
  
-Set-CcCredential コマンドレットは、現在の Skype for Business Cloud Connector エディションの展開の資格情報を設定します。 
+CcCredential コマンドレットは、現在の Skype for Business Cloud Connector エディションの展開の資格情報を設定します。 
   
-Cloud Connector バージョン2.0 以降では、このコマンドレットでは、仮想マシン管理者とドメイン管理者のアカウント情報を設定することもできます。
+Cloud Connector バージョン2.0 以降では、このコマンドレットを使用して、仮想マシン管理者とドメイン管理者のアカウント情報を設定することもできます。
   
 ```powershell
 Set-CcCredential [[-AccountType] <string> {TenantAdmin}]
@@ -35,7 +35,7 @@ Set-CcCredential [[-AccountType] <string> {TenantAdmin}]
 
 ### <a name="example-1"></a>例 1
 
-次の例は、テナント管理者のアカウント名とパスワードを指定します。
+次の例では、テナント管理者のアカウント名とパスワードを指定します。
   
 ```powershell
 Set-CcCredential -AccountType "TenantAdmin"
@@ -44,19 +44,19 @@ Set-CcCredential -AccountType "TenantAdmin"
 ## <a name="detailed-description"></a>解説
 <a name="DetailedDescription"> </a>
 
-Set-CcCredential コマンドレットによって、テナント管理者のアカウント名とパスワードが設定されます。 2.0 より前のリリースでは、この管理者は、Office 365 の全体管理者である必要があります。 クラウドコネクタはこのアカウントを使用して、構成情報を取得し、構成パラメーターを設定し、アプライアンスの状態を Office 365 テナント構成に更新します。 リリース2.0 以降では、このコマンドレットを使用して、VmAdmin および DomainAdmin アカウントのパスワードを更新することもできます。
+CcCredential コマンドレットは、テナント管理者のアカウント名とパスワードを設定します。 2.0 より前のリリースでは、この管理者はグローバル管理者である必要があります。 Cloud Connector はこのアカウントを使用して、構成情報の取得、構成パラメーターの設定、および Office 365 組織の構成に対するアプライアンスの状態の更新を行います。 リリース2.0 以降では、このコマンドレットを使用して、VmAdmin および DomainAdmin アカウントのパスワードを更新することもできます。
   
 ## <a name="parameters"></a>パラメーター
 <a name="DetailedDescription"> </a>
 
-|**パラメーター**|**必須**|**種類**|**説明**|
+|**パラメーター**|**Required**|**型**|**説明**|
 |:-----|:-----|:-----|:-----|
-| AccountType <br/> | 必須 <br/> |System.String  <br/> | パラメーター値は「TenantAdmin」、「VmAdmin」、または「DomainAdmin」にする必要があります。 <br/> |
+| AccountType <br/> | 必須 <br/> |System.String  <br/> | パラメーターの値は、"TenantAdmin"、"VmAdmin"、または "DomainAdmin" である必要があります。 <br/> |
    
 ## <a name="input-types"></a>入力の種類
 <a name="InputTypes"> </a>
 
-なし。Set-CcCredential コマンドレットはパイプライン入力を受け入れません。
+なし。 CcCredential コマンドレットはパイプライン入力を受け入れません。
   
 ## <a name="return-types"></a>戻り値の種類
 <a name="ReturnTypes"> </a>
@@ -66,6 +66,6 @@ Set-CcCredential コマンドレットによって、テナント管理者のア
 ## <a name="see-also"></a>関連項目
 <a name="ReturnTypes"> </a>
 
-[Get-CcCredential](get-cccredential.md)
+[取得-CcCredential](get-cccredential.md)
   
 

@@ -19,13 +19,13 @@ f1.keywords:
 ms.custom:
 - Reporting
 - O365E_ReportsS4BClients
-description: '[] 新しい Office 365 の [ レポート] ダッシュボードには、組織内の Office 365 製品全体にわたるアクティビティの概要が表示されます。 このダッシュボードでは、個々の製品レベルのレポートまで掘り下げ、各製品内のアクティビティについてより細かい洞察を得ることができます。 たとえば、Skype for Business デバイスの使用状況レポートを使って、Skype for business アプリがインストールされていて、IM および会議で使用している Windows ベースのオペレーティングシステムやモバイルデバイスなどのデバイスを確認できます。 詳細については、管理センターでアクティビティレポートを確認してください。'
-ms.openlocfilehash: 52503a90b2474460347effb676247fc3ffed9919
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 新しい Microsoft 365 レポートダッシュボードには、組織内の Office 365 製品全体のアクティビティの概要が表示されます。 このダッシュボードでは、個々の製品レベルのレポートまで掘り下げ、各製品内のアクティビティについてより細かい洞察を得ることができます。 たとえば、Skype for Business デバイスの使用状況レポートを使って、Skype for business アプリがインストールされていて、IM および会議で使用している Windows ベースのオペレーティングシステムやモバイルデバイスなどのデバイスを確認できます。 詳細については、管理センターでアクティビティレポートを確認してください。
+ms.openlocfilehash: 9d12938fdbc495e1d95b8ed26500185f09f2b01b
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769400"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776302"
 ---
 # <a name="device-usage-report"></a>デバイスの使用状況のレポート
 
@@ -46,7 +46,7 @@ ms.locfileid: "41769400"
     
      ![Skype for Business デバイスの使用状況レポートウィジェット](../images/13e7a51c-f680-4164-9a18-67de10fceb7f.png)
   
-    Office 365 のサブスクリプションによっては、ここで説明する製品やアクティビティ レポートの一部が表示されないことがあります。
+    Microsoft 365 または Office 365 のサブスクリプションによっては、ここで説明する製品やアクティビティレポートの一部が表示されない場合があります。
     
 ## <a name="interpret-the-skype-for-business-device-usage-report"></a>Skype for Business デバイスの使用状況レポートを解釈する
 

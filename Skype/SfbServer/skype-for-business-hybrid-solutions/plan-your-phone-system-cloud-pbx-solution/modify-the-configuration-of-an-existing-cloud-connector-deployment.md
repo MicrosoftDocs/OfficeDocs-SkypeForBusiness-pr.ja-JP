@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: 既存の Skype for Business Cloud Connector エディション1.4.1 以降の展開の構成を変更するには、このトピックの手順に従います。
-ms.openlocfilehash: 4c2c0b8ad5340cd4ae4275f1ac009bf3d9d3ec0b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 77e9940e10cc356afbade5592bf41a0cdba66b0f
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42018008"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779383"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>既存の Cloud Connector の展開の構成を変更する
  
@@ -109,7 +109,7 @@ ms.locfileid: "42018008"
 
 展開内の複数のサイトの構成を変更するには、1つのサイトの手順に従って、一度に1つのサイトを更新します。
   
-## <a name="modify-the-configuration-of-your-office-365-tenant-to-enable-automatic-updates"></a>Office 365 テナントの構成を変更して自動更新を有効にする
+## <a name="modify-the-configuration-of-your-office-365-organization-to-enable-automatic-updates"></a>Office 365 組織の構成を変更して自動更新を有効にする
 <a name="BKMK_MultipleSites"> </a>
 
 オペレーティングシステムの自動更新と Bits の自動更新を有効にするには、オンライン管理用の Skype for Business テナント管理者アカウントを使用し、テナントのリモート PowerShell を次のように使用する必要があります。
@@ -161,7 +161,7 @@ ms.locfileid: "42018008"
 ## <a name="update-the-dedicated-tenant-admin-credentials"></a>専用のテナント管理者の資格情報を更新する
 <a name="BKMK_MultipleSites"> </a>
 
-Office 365 テナントの Cloud Connector での管理上の変更は、必要なアクセス許可を持つアカウントから作成されます。 2.0 より前の Cloud Connector のバージョンでは、このアカウントは専用のグローバルテナント管理者アカウントです。 Cloud Connector バージョン2.0 以降では、このアカウントは、Skype for Business の管理者権限を持つ Office 365 アカウントにすることができます。
+Cloud Connector の Office 365 組織における管理上の変更は、必要なアクセス許可を持つアカウントから作成されます。 2.0 より前の Cloud Connector のバージョンでは、このアカウントは専用のグローバルテナント管理者アカウントです。 Cloud Connector バージョン2.0 以降では、このアカウントは、Skype for Business の管理者権限を持つ Office 365 アカウントにすることができます。
   
 Office 365 で管理者アカウントの資格情報が変更された場合は、展開した各 Cloud Connector アプライアンスで次の管理者 PowerShell コマンドを実行して、ローカルにキャッシュされた資格情報を Cloud Connector で更新する必要もあります。
   

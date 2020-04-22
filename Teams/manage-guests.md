@@ -17,12 +17,12 @@ description: 初めてのチームとチャネルを作成する方法、早期�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fea5ab9eec355d77f19165253fe97ee8aeb725ca
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 544dcb4ffd424512797d3791e2eda6b22439c084
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139246"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777842"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Microsoft Teams でのゲスト アクセスを管理する
 ======================================
@@ -30,7 +30,7 @@ ms.locfileid: "43139246"
 > [!IMPORTANT]
 > 変更が有効になるまで最大で 24 時間かかる場合があります。 
 
-**ゲスト**は、Office 365 Business Premium、Office 365 Enterprise、Office 365 Business Essentials、および Office 365 Education のすべてのサブスクリプションに含まれている、Microsoft Teams のユーザーの種類です。 追加の Office 365 ライセンスは不要です。 [ゲスト アクセス ライセンス](#guest-access-licensing-limits)の詳細については、以下を参照してください。
+**ゲスト**は、microsoft Teams で、すべての Microsoft 365 ビジネス標準、Office 365 Enterprise、Microsoft 365 Business Basic、Office 365 エデュケーションサブスクリプションに含まれているユーザーの種類です。 追加の Office 365 ライセンスは不要です。 [ゲスト アクセス ライセンス](#guest-access-licensing-limits)の詳細については、以下を参照してください。
 
 Teams のゲスト アクセスはテナント レベルの設定であり、既定で無効になっています。 ゲスト アクセスをオンにする方法の詳細については、「[Microsoft Teams へのゲスト アクセスをオンまたはオフにする](set-up-guests.md)」を参照するか、[ゲスト アクセスのチェックリスト](guest-access-checklist.md)を使用してセットアップの手順をご確認ください。
 
@@ -64,7 +64,7 @@ Teams では追加することができるゲストの数に制限はありま�
 
 ## <a name="lag-time-for-guest-access-settings-to-take-effect"></a>ゲスト アクセス設定が有効になるまでのラグ タイム
 
-Azure Active Directory のゲスト アクセス設定については、変更が Office 365 組織全体に反映されるまでに 2 時間から 24 時間かかります。 ユーザーがチームにゲストを追加しようとするときに「Contact your administrator (管理者にお問い合わせください)」というメッセージが表示される場合、ゲスト機能がオンになっていないか、設定が有効になっていないかのいずれかの可能性があります。 ゲスト アクセスの設定の問題に関するヘルプについては、「[Teams でのゲスト アクセスのトラブルシューティング](troubleshoot-guest-access.md)」を参照してください。
+Azure Active Directory のゲストアクセスの設定では、Microsoft 365 または Office 365 全体で変更が有効になるまでに、2-24 時間かかります。 ユーザーがチームにゲストを追加しようとするときに「Contact your administrator (管理者にお問い合わせください)」というメッセージが表示される場合、ゲスト機能がオンになっていないか、設定が有効になっていないかのいずれかの可能性があります。 ゲスト アクセスの設定の問題に関するヘルプについては、「[Teams でのゲスト アクセスのトラブルシューティング](troubleshoot-guest-access.md)」を参照してください。
 
   
 ## <a name="external-access-federation-vs-guest-access"></a>外部アクセス (フェデレーション) とゲスト アクセス

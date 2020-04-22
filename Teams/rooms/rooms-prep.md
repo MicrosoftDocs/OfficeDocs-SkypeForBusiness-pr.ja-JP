@@ -14,12 +14,12 @@ ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection:
 - M365-collaboration
 description: この記事では、Microsoft Teams ミーティングをデプロイするためのインフラストラクチャの準備について説明します。
-ms.openlocfilehash: e39624f7b90dbb25424c98f60e6b90e2a883e212
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: HT
+ms.openlocfilehash: 7c067376ffffd2a674c5e0cfb2204801b0c4f32a
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825871"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779774"
 ---
 # <a name="prepare-your-environment"></a>環境を準備する
 
@@ -110,7 +110,7 @@ Microsoft Teams ミーティングは、Windows OS からプロキシ設定を�
 |用途|ソースまたは資格情報|送信元ポート|接続先|CDN|Office 365 向け ExpressRoute|接続先 IP|送信先ポート|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |認証と ID  <br/> |「[Office 365 の認証と ID](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Identity)」を参照 <br/> |||
-|ポータルと共有  <br/> |「[Office 365 ポータルと共有](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Portal-identity)」を参照 <br/> |||
+|ポータルと共有  <br/> |「 [Microsoft 365 管理センターと共有」を参照し](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Portal-identity)てください。 <br/> |||
 |SIP 信号  <br/> |クライアント コンピューターまたはログオンしているユーザー  <br/> |エフェメラル ポート  <br/> |\*.contoso.com  <br/> |いいえ  <br/> |はい  <br/> |[Skype for Business の IP 範囲](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
 |永続共有オブジェクト モデル (PSOM) 接続による Web 会議  <br/> |クライアント コンピューターまたはログオンしているユーザー  <br/> |エフェメラル ポート  <br/> |\*.contoso.com  <br/> |いいえ  <br/> |はい  <br/> |[Skype for Business の IP 範囲](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
 |HTTPS ダウンロード  <br/> |クライアント コンピューターまたはログオンしているユーザー  <br/> |エフェメラル ポート  <br/> |\*.contoso.com  <br/> |いいえ  <br/> |はい  <br/> |[Skype for Business の IP 範囲](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |

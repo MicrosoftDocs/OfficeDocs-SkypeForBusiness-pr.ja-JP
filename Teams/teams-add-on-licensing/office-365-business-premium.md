@@ -1,5 +1,5 @@
 ---
-title: 'Office 365 Business Premium '
+title: 'Microsoft 365 ビジネス標準 '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,17 +18,17 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'アドオン ライセンス、機能、そして Office 365 Business Premium プランを購入する方法について説明します。 '
-ms.openlocfilehash: b51724524f56fe534c95ede85bca7535ab1be396
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: HT
+description: 'アドオンライセンス、機能、Microsoft 365 Business Standard プランの購入方法について説明します。 '
+ms.openlocfilehash: 20aacf46acf60bb581056654babc85277f41ee45
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826565"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780506"
 ---
-# <a name="office-365-business-premium"></a>Office 365 Business Premium
+# <a name="microsoft-365-business-standard"></a>Microsoft 365 ビジネス標準
 
-[Office 365 Business Premium](https://products.office.com/en/business/office-365-business-premium) をお持ちの場合は、Microsoft Teams を使用して、該当のサブスクリプションが適用される社内の他のユーザーに通話を発信することができます。 たとえば、会社に 10 人の社員がいる場合は、Teams を使用してお互いに通話したりインスタント メッセージを送ることができます。
+[Microsoft 365 ビジネス Standard](https://products.office.com/en/business/office-365-business-premium)をお持ちの場合は、microsoft Teams を使用して、サブスクリプションを利用している組織内の他のユーザーに電話をかけることができます。 たとえば、会社に 10 人の社員がいる場合は、Teams を使用してお互いに通話したりインスタント メッセージを送ることができます。
 
 
 **社外の人々との通話を発着信するには、次のオプションがあります**。

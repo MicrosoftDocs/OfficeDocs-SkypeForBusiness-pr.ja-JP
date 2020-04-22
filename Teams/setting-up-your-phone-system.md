@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '組織の電話システム (クラウド PBX) の設定方法について説明します。 '
-ms.openlocfilehash: e1ae56200132ab4468b6db8d490c12d11b7a6deb
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 8c534607ca50baae75c3b0b2fdf5bc54359c22e4
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888726"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779814"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>組織で電話システムをセットアップする
 
@@ -81,11 +81,11 @@ Office 365 からユーザーの電話番号を取得することに加えて、
 ### <a name="get-new-service-numbers-using-the-teams-admin-center"></a>Teams 管理センターを使用して新しいサービス番号を取得する
 
 
-1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
+1. 職場または学校のアカウントを使用してサインインします。
 
 2. **Teams 管理センター**に移動します。
 
-3. 左側のナビゲーションウィンドウで、[ **** > **電話番号** > を**追加**する] に移動し、[**新しいサービス番号**] をクリックします。
+3. 左側のナビゲーションウィンドウで、[ **Voice** > **電話番号** > を**追加**する] に移動し、[**新しいサービス番号**] をクリックします。
 
     > [!IMPORTANT]
     > チーム管理センターの左側のナビゲーションウィンドウで [**音声**] オプションを表示するには、最初に少なくとも1つの**Enterprise E5 ライセンス**、1つの**電話システム**アドオンライセンス、または1つの電話**会議**アドオンライセンスを購入する必要があります。
@@ -106,7 +106,7 @@ Office 365 からユーザーの電話番号を取得することに加えて、
 
 ## <a name="step-6-if-you-want-to-set-up-audio-conferencing"></a>手順 6: 電話会議を設定する場合
 
-自分の組織内のユーザーが、会議にダイヤル インするために電話機を使用する必要がある場合があります。 Microsoft Teams には、このような状況での電話会議機能が含まれています。 ユーザーは、モバイルデバイスや PC で Teams アプリを使う代わりに、電話を使って Teams 会議にコールインすることができます。
+組織内のユーザーが、会議にダイヤル インするために電話機を使用する必要がある場合があります。 Microsoft Teams には、このような状況での電話会議機能が含まれています。 ユーザーは、モバイルデバイスや PC で Teams アプリを使う代わりに、電話を使って Teams 会議にコールインすることができます。
 電話会議をセットアップする方法については、「 [Teams の電話会議](set-up-audio-conferencing-in-teams.md)をセットアップする」を参照してください。
 
 ## <a name="step-7-if-you-want-to-set-up-a-cloud-call-queue"></a>手順 7: クラウドの通話キューを設定する場合
@@ -126,7 +126,7 @@ Office 365 からユーザーの電話番号を取得することに加えて、
 
  **上記の手順 4** から、サービスの番号を作成したら、使用するサービスの種類ごとに番号を割り当てる必要があります。 たとえば、専用のサービス電話番号 (有料またはフリーダイヤル) が必要な場合は、電話会議ブリッジに電話番号を割り当てる必要があります。
 
-- 電話会議の場合は、 **Teams 管理センター** > **** > の会議**ブリッジ**にアクセスし、指示に従って、会議ブリッジに専用の電話番号を割り当てることができます。  詳細については、「[電話会議ブリッジの有料または](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)無料の電話番号を変更する」を参照してください。
+- 電話会議の場合は、 **Teams 管理センター** > **Meetings** > の会議**ブリッジ**にアクセスし、指示に従って、会議ブリッジに専用の電話番号を割り当てることができます。  詳細については、「[電話会議ブリッジの有料または](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)無料の電話番号を変更する」を参照してください。
 
 - 自動応答の場合は、 **Teams 管理センター** > の**音声** > **自動応答**にアクセスし、画面の指示に従って、自動応答に専用の番号を割り当てることができます。  詳細については、「[クラウド自動応答をセットアップする](create-a-phone-system-auto-attendant.md)」を参照してください。
 

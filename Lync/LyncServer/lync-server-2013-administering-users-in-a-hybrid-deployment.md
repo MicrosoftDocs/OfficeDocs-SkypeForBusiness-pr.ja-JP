@@ -12,12 +12,12 @@ ms:contentKeyID: 48184381
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c6cfa255eddc998047f5b404d59b7e6622fbaae
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b09ca3c5a80215c0a2d63a018150361671df6859
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204374"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779603"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -65,11 +65,11 @@ Microsoft Office 365 Online ポータルで使用可能なユーザー管理機�
 
 **HostedMigrationOverrideUrl**パラメーターに指定する url の形式は、次の形式で、Hosted Migration service が実行されているプールへの url である必要があります。
 
-Https://\<プールの\>FQDN/hostedmigration/hostedmigrationservice.svc Office 365 テナントアカウントの Lync Online コントロールパネルの URL を表示することによって、ホストされた移行サービスへの URL を確認できます。
+Https://\<プールの\>FQDN/hostedmigration/hostedmigrationservice.svc ホストされている移行サービスへの URL を確認するには、Office 365 組織アカウントの Lync Online コントロールパネルの URL を表示します。
 
-**Office 365 テナントのホスト型移行サービスの URL を確認するには**
+**Office 365 組織のホスト型移行サービスの URL を決定するには**
 
-1.  Office 365 テナントに管理者としてログインします。
+1.  Office 365 組織に管理者としてログインします。
 
 2.  **Lync 管理センター**を開きます。
 

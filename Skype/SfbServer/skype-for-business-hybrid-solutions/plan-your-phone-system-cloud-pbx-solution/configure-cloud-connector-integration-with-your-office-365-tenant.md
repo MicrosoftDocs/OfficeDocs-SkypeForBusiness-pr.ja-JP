@@ -1,5 +1,5 @@
 ---
-title: Office 365 テナントとのクラウドコネクタ統合を構成する
+title: Microsoft 365 または Office 365 組織とのクラウドコネクタ統合を構成する
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
-description: Office 365 テナントとのクラウドコネクタの統合を構成する方法について説明します。
-ms.openlocfilehash: cf683743064ec377c827fe0c52a59e464f65ae19
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: Office 365 組織とのクラウドコネクタ統合を構成する方法について説明します。
+ms.openlocfilehash: 1fecf017f614fc8bdf0f38b5f51c29e4b2774357
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050209"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780646"
 ---
-# <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Office 365 テナントとのクラウドコネクタ統合を構成する
+# <a name="configure-cloud-connector-integration-with-your-microsoft-365-or-office-365-organization"></a>Microsoft 365 または Office 365 組織とのクラウドコネクタ統合を構成する
  
-Office 365 テナントとのクラウドコネクタの統合を構成する方法について説明します。
+Office 365 組織とのクラウドコネクタ統合を構成する方法について説明します。
   
-Skype for Business Cloud Connector エディションのインストールが完了したら、このセクションの手順を実行して展開を構成し、Office 365 テナントに接続します。
+Skype for Business Cloud Connector エディションのインストールが完了したら、このセクションの手順を実行して展開を構成し、Office 365 組織に接続します。
   
 ## <a name="configure-firewall-settings"></a>ファイアウォール設定を構成する
 
@@ -57,7 +57,7 @@ Office 365 でドメインを更新する手順が完了しており、DNS レ�
   
 ## <a name="add-dns-records-in-office-365-for-your-edge"></a>Office 365 でエッジ用の DNS レコードを追加する
 
-次の DNS レコードを Office 365 テナントに追加します。 Office 365 テナントに DNS レコードを追加する方法については、「 [office 365 でカスタムの dns レコードを追加または編集](https://support.office.com/article/Add-or-edit-custom-DNS-records-in-Office-365-AF00A516-DD39-4EDA-AF3E-1EAF686C8DC9?ui=en-US&amp;rs=en-US&amp;ad=US&amp;fromAR=1)する」を参照してください。
+次の DNS レコードを Office 365 組織に追加します。 Office 365 組織に DNS レコードを追加する方法については、「 [office 365 でカスタムの dns レコードを追加または編集](https://support.office.com/article/Add-or-edit-custom-DNS-records-in-Office-365-AF00A516-DD39-4EDA-AF3E-1EAF686C8DC9?ui=en-US&amp;rs=en-US&amp;ad=US&amp;fromAR=1)する」を参照してください。
   
 1. アクセスエッジの DNS A レコードを追加します。
     
@@ -67,7 +67,7 @@ Office 365 でドメインを更新する手順が完了しており、DNS レ�
   
 ## <a name="set-up-hybrid-connectivity-between-cloud-connector-edition-and-office-365"></a>Cloud Connector エディションと Office 365 の間のハイブリッド接続をセットアップする
 
-Skype for Business Cloud Connector エディションの展開と Office 365 テナントとの間にハイブリッド接続を構成するには、リモート PowerShell セッションで次のコマンドレットを実行します。 リモート PowerShell セッションを確立する方法については、「 [Windows PowerShell 用にコンピューター](https://technet.microsoft.com/library/dn362831%28v=ocs.15%29.aspx)をセットアップする」を参照してください。
+Skype for Business Cloud Connector エディションの展開と Office 365 組織との間にハイブリッド接続を構成するには、リモート PowerShell セッションで次のコマンドレットを実行します。 リモート PowerShell セッションを確立する方法については、「 [Windows PowerShell 用にコンピューター](https://technet.microsoft.com/library/dn362831%28v=ocs.15%29.aspx)をセットアップする」を参照してください。
   
 コマンドレットは、アクセスエッジの外部 FQDN を設定します。 最初のコマンドの場合、 \<外部アクセスエッジの FQDN\>は、SIP アクセスエッジの役割に対応したものにする必要があります。 既定では、これは ap ドメイン\<名\>にする必要があります。
   
@@ -101,11 +101,11 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
     
 ## <a name="set-up-your-users-in-office-365"></a>Office 365 でユーザーをセットアップする
 
-Office 365 管理ポータルにログインし、オンライン音声サービスに対して有効にするユーザーを追加し、Office 365 アドオンの E5 ライセンスまたは電話システムをこれらのユーザーに割り当てます。 ユーザーの追加の詳細については、「 [Add users To Office 365 to business](https://support.office.com/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc)」を参照してください。
+Microsoft 365 管理センターにログインし、オンライン音声サービスに対して有効にするユーザーを追加し、Office 365 アドオンの E5 ライセンスまたは電話システムをこれらのユーザーに対して E3 ライセンスに割り当てます。 ユーザーの追加の詳細については、「 [Add users To Office 365 to business](https://support.office.com/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc)」を参照してください。
   
 ## <a name="enable-users-for-phone-system-in-office-365-voice-and-voicemail-services"></a>Office 365 の電話システムでユーザーを有効にする音声およびボイスメールサービス
 
-Office 365 にユーザーを追加した後、ボイスメールを含む Office 365 音声サービスの電話システムに対してアカウントを有効にします。 これらの機能を有効にするには、office 365 グローバル管理者の役割であるアカウントを使用して Office 365 テナントにログインし、リモート PowerShell を実行できる必要があります。 リモート PowerShell セッションを確立する方法については、「 [Windows PowerShell 用にコンピューター](https://technet.microsoft.com/library/dn362831%28v=ocs.15%29.aspx)をセットアップする」を参照してください。
+Office 365 にユーザーを追加した後、ボイスメールを含む Office 365 音声サービスの電話システムに対してアカウントを有効にします。 これらの機能を有効にするには、グローバル管理者の役割であるアカウントを使用して Office 365 組織にログインし、リモート PowerShell を実行できるようにする必要があります。 リモート PowerShell セッションを確立する方法については、「 [Windows PowerShell 用にコンピューター](https://technet.microsoft.com/library/dn362831%28v=ocs.15%29.aspx)をセットアップする」を参照してください。
   
 - ユーザーにポリシーを割り当て、ユーザーのビジネスボイス電話番号を構成します。これは、 **Identity**パラメーターの値を使用して指定します。
     
@@ -158,18 +158,18 @@ Get-CsOnlineUser | Get-CsUserPstnSettings
 ```
 
 > [!NOTE]
-> ユーザーに PSTN サイトが割り当てられていない場合、Skype for Business Cloud Connector エディションの展開と Office 365 テナントとの間のハイブリッド接続は、テナントレベルの既定 1 (ピアの宛先) を使用して通話を完了できるようになります。 
+> ユーザーに PSTN サイトが割り当てられていない場合、Skype for Business Cloud Connector エディションの展開と Office 365 組織との間のハイブリッド接続は、テナントレベルの既定値 (ピアの宛先) を使用して通話を完了できるようになります。 
   
 ## <a name="configure-online-hybrid-mediation-server-settings"></a>オンラインのハイブリッド仲介サーバーの設定を構成する
 <a name="BKMK_ConfigureMediationServer"> </a>
 
 P2P 電話が PSTN 会議にエスカレートされると、Skype for Business Online 会議サーバーは Cloud Connector 仲介サーバーに招待を送信します。 Office 365 がこの招待を正常にルーティングできるようにするには、次のように、各 Cloud Connector 仲介サーバーのオンラインテナントで設定を構成する必要があります。 
   
-1. Office 365 管理ポータルでユーザーを作成します。 必要なユーザー名 ("MediationServer1" など) を使用します。
+1. Microsoft 365 管理センターでユーザーを作成します。 必要なユーザー名 ("MediationServer1" など) を使用します。
     
     ユーザードメインとして、Cloud Connector の既定の SIP ドメイン (.ini ファイルの最初の SIP ドメイン) を使用します。
     
-    ライセンスの割り当ては、ユーザーが Skype for Business online ディレクトリに伝播する場合にのみ必要であることに注意してください。 作成したアカウントに Office 365 ライセンス (E5 など) を割り当て、変更が反映されるまで最大1時間を待ち、次のコマンドレットを実行して、ユーザーアカウントが Skype for Business online ディレクトリに正しくプロビジョニングされていることを確認し、このアカウントからのライセンス。
+    ライセンスの割り当ては、ユーザーが Skype for Business online ディレクトリに伝播する場合にのみ必要であることに注意してください。 作成したアカウントに Office 365 ライセンス (E5 など) を割り当て、変更が伝達されるまで最大1時間待ちます。次のコマンドレットを実行して、ユーザーアカウントが Skype for Business online ディレクトリに正しくプロビジョニングされていることを確認し、このアカウントからライセンスを削除します。
     ```powershell
    Get-CsOnlineUser -Identity <UserPrincipalName>
    ```
@@ -186,7 +186,7 @@ P2P 電話が PSTN 会議にエスカレートされると、Skype for Business 
    Set-CsHybridMediationServer -Identity <DisplayName> -Fqdn <MediationServerFQDN> -AccessProxyExternalFqdn <EdgeServerExternalFQDN>
    ```
 
-    Identity の場合は、この仲介サーバー用に作成した Office 365 ユーザーアカウントの表示名を使用します。
+    Identity の場合は、この仲介サーバーに対して作成したユーザーアカウントの表示名を使用します。
     
     *Mediationserverfqdn*の場合は、仲介サーバーに対して定義されている内部 FQDN を使用します。
     

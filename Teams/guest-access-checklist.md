@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5470d9ec2ec2d22d8f3b66bac09ba6c67b9982f
-ms.sourcegitcommit: 0549714f17f9994cf832a303ec9bc58a537c3a51
+ms.openlocfilehash: 22a0c2a8641203e764d6c490a008525cf71e8d5c
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42951502"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776952"
 ---
 <a name="microsoft-teams-guest-access-checklist"></a>Microsoft Teams のゲスト アクセスのチェックリスト
 =========================================
@@ -49,7 +49,7 @@ ms.locfileid: "42951502"
 4. **[保存]** をクリックします。
 
 > [!TIP]
-> Azure Active Directory、SharePoint Online、Office 365 グループで既定の設定を使用している場合は、ゲスト アクセスは構成済みの可能性があります。 この場合、残りの手順は省略できます。 はっきりしない場合、または AAD、SharePoint Online、Office 365 グループでカスタム設定を利用している場合は、このチェックリストの残りの手順に従ってください。
+> Azure Active Directory、SharePoint Online、および Microsoft 365 グループで既定の設定を使用している場合、ゲストアクセスの構成が完了している可能性があります。 この場合、残りの手順は省略できます。 不明な場合、または AAD、SharePoint Online、または Microsoft 365 グループのカスタム設定を使用している場合は、このチェックリストの残りの手順に進んでください。
 
 ## <a name="step-2-configure-azure-ad-business-to-business-settings"></a>手順 2: Azure AD ビジネス ツー ビジネスの設定を構成する
 
@@ -75,17 +75,17 @@ ms.locfileid: "42951502"
       
     ゲストを招待できるユーザーの管理方法の詳細については、「[Azure Active Directory B2B コラボレーションの招待の委任](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations)」を参照してください。
 
-## <a name="step-3-configure-office-365-groups"></a>手順 3: Office 365 グループを構成する
+## <a name="step-3-configure-microsoft-365-groups"></a>手順 3: Microsoft 365 グループを構成する
 
-1. Microsoft 365 管理センターの **[設定]** > **[設定]** に移動し、**[サービス]** をクリックし、**[Office 365 グループ]** を選択します。
+1. Microsoft 365 管理センターで、[**設定** > の**設定**] に移動し、[**サービス**] をクリックして、[ **microsoft 365 グループ**] を選択します。
 
-     ![Office 365 グループの設定を示すスクリーンショット](media/guest-access-checklist-services-settings.png)
+     ![スクリーンショットは Microsoft 365 グループの設定を示しています。](media/guest-access-checklist-services-settings.png)
 2. **[組織外のグループ メンバーがグループ コンテンツにアクセスできるようにします]** のチェックボックスがオンになっていることを確認します。 この設定がオフになっていると、ゲストはどのグループ コンテンツにもアクセスすることはできません。
 
-    ![Office 365 グループの設定を示すスクリーンショット](media/guest-access-checklist-office365.png)
+    ![スクリーンショットは Microsoft 365 グループの設定を示しています。](media/guest-access-checklist-office365.png)
 3. **[グループの所有者が組織外のユーザーをグループに追加できるようにします]** のチェックボックスがオンになっていることを確認します。 この設定がオフになっていると、チームの所有者は新しいゲストを追加することができません。 少なくとも、ゲスト アクセスをサポートするためにこの設定をオンにする必要があります。
 
-これらの設定の構成方法の詳細については、「[Office 365 グループでゲスト アクセスを管理する](https://support.office.com/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150)」と、「[Office 365 グループでゲスト アクセスを管理する](Teams-dependencies.md#control-guest-access-in-office-365-groups)」を参照してください。
+これらの設定を構成する詳細な手順については、「 [microsoft 365 グループでゲストアクセスを管理](https://support.office.com/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150)する」および「 [microsoft 365 グループのゲストアクセスを制御](Teams-dependencies.md#control-guest-access-in-microsoft-365-groups)する」を参照してください。
 
 ## <a name="step-4-configure-sharing-in-office-365"></a>手順 4: Office 365 での共有を構成する 
 

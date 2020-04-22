@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed0ea94910e9b3b5499a1f23a6c1c081590957c7
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
-ms.translationtype: HT
+ms.openlocfilehash: 60891c2e5283b8e9cdaa9e8d7852768bbb52d8aa
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160571"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776932"
 ---
 <a name="what-the-guest-experience-is-like"></a>ゲストのエクスペリエンスについて
 =================================
@@ -51,7 +51,7 @@ ms.locfileid: "42160571"
 |会議を作成またはスケジュールにアクセスする  <br/> |&#x2713;||
 |OneDrive for Business ストレージにアクセスする  <br/> |&#x2713;||
 |テナント全体およびチーム/チャネルのゲスト アクセス ポリシーを作成する  <br/> |&#x2713;||
-|Office 365 テナントのドメイン外のユーザーを招待する <br/>  *この機能はチーム所有者によって制御されます。*  <br/> <br/> |&#x2713;||
+|Office 365 組織のドメイン以外のユーザーを招待する <br/>  *この機能はチーム所有者によって制御されます。*  <br/> <br/> |&#x2713;||
 |チームを作成する  <br/> |&#x2713;||
 |パブリック チームを検出して参加する  <br/> |&#x2713;||
 |組織図を表示する  <br/> |&#x2713;||

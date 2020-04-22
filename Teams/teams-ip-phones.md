@@ -19,12 +19,12 @@ ms.custom:
 - Skype for Business Certification
 - dn947482
 description: Microsoft Teams 認定 IP 卓上および会議電話
-ms.openlocfilehash: a8b8b0f1763aba131fb7ecd242bc63a2de973f44
-ms.sourcegitcommit: 169107e56dbc7f887e709e6304521ce959658990
-ms.translationtype: HT
+ms.openlocfilehash: 238878831511175f5b7ec647da0ccd607fa1fddd
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42728946"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779976"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Microsoft Teams 認定 IP 電話
 
@@ -70,7 +70,7 @@ Microsoft Teams の認定を受けているのは、以下のコラボレーシ�
 
 ご利用のモバイル デバイスのファームウェア バージョンを確認するには、「[Finding the Firmware version on a mobile device (モバイルデバイスのファームウェアバージョンの検索)](/MicrosoftTeams/phones-for-teams#finding-the-firmware-version-on-a-mobile-device)」を参照してください。
 
-Microsoft Teams ライセンスは、[Office 365 サブスクリプション](/MicrosoftTeams/Office-365-licensing.md)の一部として購入できます。 電話で Microsoft Teams を使用するために必要なライセンスの詳細については、利用可能な[電話システムライセンス](https://products.office.com/microsoft-teams/voice-calling)を参照してください。
+Microsoft Teams ライセンスは、 [microsoft 365 または Office 365 サブスクリプション](/MicrosoftTeams/Office-365-licensing.md)の一部として購入できます。 電話で Microsoft Teams を使用するために必要なライセンスの詳細については、利用可能な[電話システムライセンス](https://products.office.com/microsoft-teams/voice-calling)を参照してください。
 
 Teams の入手方法については[Microsoft Teams へのアクセス権を取得するにはどうしたらよいですか?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)を参照してください。
 

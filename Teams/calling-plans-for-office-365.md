@@ -1,5 +1,5 @@
 ---
-title: Office 365 の通話プラン
+title: Microsoft 365 の通話プラン
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -25,14 +25,14 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Skype for Business の通話プラン (PSTN 通話プラン) のオプションと、組織のライセンスを取得する方法を確認します。 '
-ms.openlocfilehash: 7eb6b049761ed7575512b816ea31c86c35c17baf
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: HT
+ms.openlocfilehash: 81bf7febe1bece1482c9e882632c6b6bde512207
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825255"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779946"
 ---
-# <a name="calling-plans-for-office-365"></a>Office 365 の通話プラン
+# <a name="calling-plans-for-microsoft-365"></a>Microsoft 365 の通話プラン
 
 その他の Skype for Business ユーザーと Microsoft Teams ユーザーへの通話は無料ですが、ユーザーが通常の通話をできるようにする必要があり、音声通話を行うためのサービス プロバイダーがまだ設定されていない場合は、通話プランを購入する必要があります。 詳細については、[電話システムと通話プラン](calling-plan-landing-page.md)に関する記事をご覧ください。
   
@@ -45,7 +45,7 @@ ms.locfileid: "41825255"
 それぞれの組織と国/地域で利用可能な月間分数については、[こちら](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)をご覧ください。
   
 > [!IMPORTANT]
-> 国/地域は、**[Microsoft 365 管理センター]** の **[組織プロファイル]** にある請求先住所**ではなく**、**[Microsoft 365 管理センター]** > **[アクティブなユーザー]** にあるユーザーのライセンスの場所に基づいています。   
+> 国/地域は、**[Microsoft 365 管理センター]** の **[組織プロファイル]** にある請求先住所**ではなく**、**[Microsoft 365 管理センター]** > **[アクティブなユーザー]** にあるユーザーのライセンスの場所に基づいています。  
 ![ユーザーのライセンスの場所を示すスクリーンショット](media/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
   
 使用量の制限と利用規約の詳細については、「[電話会議の無料のダイヤルアウト期間](complimentary-dial-out-period.md)」を参照してください。

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
 description: このトピックでは、Cloud Connector エディションバージョン2.0 以降でメディアバイパスを実装する場合の計画の検討事項について説明します。 メディアバイパスの展開の詳細については、「Cloud Connector エディションでメディアバイパスを展開する」を参照してください。
-ms.openlocfilehash: 47b8d9e5d0b69b95c48f89591d75d53591b7426c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f9da5df4815c731b479f5d2333f26546be0daf4c
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010310"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778783"
 ---
 # <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>Cloud Connector エディションでメディアバイパスを計画する
  
@@ -37,7 +37,7 @@ ms.locfileid: "42010310"
 
 信号はメディアバイパスの有無にかかわらず同じパスになりますが、メディアの流れは異なります。 次の図は、メディアバイパスを使用する場合と使用しない場合のトポロジでのメディアと信号経路を示しています。 
   
-たとえば、メディアバイパスが使用されていない次のトポロジでは、Skype for Business クライアントは PSTN 通話を外部番号に接続し、SIP シグナリングは Office 365 に送られ、Office 365 はエンドユーザーの音声に従ってシグナルトラフィックを送信します。原則. Cloud Connector ユーザーの場合、音声ポリシーは、シグナリングトラフィックを Cloud Connector エッジサーバーにリダイレクトします。これにより、シグナリングトラフィックは、Cloud Connector 仲介サーバーを介して PSTN セッションボーダーコントローラー (SBC) またはゲートウェイにルーティングされます。 メディアは、次の図に示すように、Skype for Business クライアントから Cloud Connector 仲介サーバー、次に SBC またはゲートウェイに流れます。
+たとえば、メディアバイパスを使用しない次のトポロジでは、Skype for Business クライアントは PSTN 通話を外部番号に発信し、SIP シグナリングは Office 365 に送られ、Office 365 はエンドユーザーの音声ポリシーに従ってシグナリングトラフィックを転送します。 Cloud Connector ユーザーの場合、音声ポリシーは、シグナリングトラフィックを Cloud Connector エッジサーバーにリダイレクトします。これにより、シグナリングトラフィックは、Cloud Connector 仲介サーバーを介して PSTN セッションボーダーコントローラー (SBC) またはゲートウェイにルーティングされます。 メディアは、次の図に示すように、Skype for Business クライアントから Cloud Connector 仲介サーバー、次に SBC またはゲートウェイに流れます。
   
 **メディアバイパスを使用しないメディアおよび信号経路**
 
@@ -75,14 +75,14 @@ PSTN からの着信通話では、逆方向の同じ信号パスが使用され
   
 ## <a name="supported-clients-for-media-bypass"></a>メディアバイパスに対してサポートされているクライアント
 
-メディアバイパスの最初のリリースでは、サポートされている唯一のクライアントは、Office 365 ProPlus、バージョン16.0.7870.2020 またはそれ以上の一部である Skype for Business 2016 Windows クライアントです。 お客様は、現在、延期、または最初のリリース延期を使用して、任意のチャネルを使用できます。 
+メディアバイパスの最初のリリースでは、サポートされている唯一のクライアントは、Microsoft 365 Apps for enterprise、version 16.0.7870.2020 以上の一部である Skype for Business 2016 Windows クライアントです。 お客様は、現在、延期、または最初のリリース延期を使用して、任意のチャネルを使用できます。 
   
 > [!NOTE]
 > クライアントの VPN ソリューションを Skype for Business クライアントと組み合わせて使用している場合、メディアバイパスは VPN 分割トンネル構成でのみサポートされます。 
   
-リリースチャネルの詳細については、「 [Office 365 ProPlus の更新プログラムチャネルの概要](https://support.office.com/article/Overview-of-update-channels-for-Office-365-ProPlus-9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4?ui=en-US&amp;rs=en-US&amp;ad=US)」を参照してください。
+リリースチャネルの詳細については、「 [Microsoft 365 Apps for enterprise の更新プログラムチャネルの概要](https://support.office.com/article/Overview-of-update-channels-for-Office-365-ProPlus-9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4?ui=en-US&amp;rs=en-US&amp;ad=US)」を参照してください。
   
-異なるチャネルにあるクライアントの現在のリリースバージョンについては、「 [Office 365 ProPlus への更新プログラムのリリース情報](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus)」を参照してください。 
+さまざまなチャネルの最新リリースバージョンのクライアントについては、「 [Microsoft 365 Apps for enterprise の更新プログラムのリリース情報](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus)」を参照してください。 
   
 ## <a name="cloud-connector-capacity-considerations-with-media-bypass"></a>メディアバイパスに関する Cloud Connector の容量に関する考慮事項
 
@@ -107,7 +107,7 @@ Cloud Connector は常にバイパスモードのみをサポートします。 
 ![Cloud Connector の容量](../../media/efb2269b-d44f-474e-aea8-c5158e729cfe.png)
   
 > [!NOTE]
-> Zurich フルタのユーザーがシアトルのオフィスに移動し、内部ネットワークを使用して、(インターネットを経由するのではなく) ヨーロッパの移動元のユーザーとゲートウェイ間のメディアトラフィックを配信する場合は、シアトルのオフィスとアムステルダムにいることを確認する必要があります。ヨーロッパの SBCs またはゲートウェイが配置されている office。適切に接続されています。 
+> Zurich フルタのユーザーがシアトルのオフィスに移動し、内部ネットワークを使用して、(インターネットを経由するのではなく) ヨーロッパの移動元のユーザーとゲートウェイ間のメディアトラフィックを配信する場合は、ヨーロッパの言語やゲートウェイが配置されているシアトルのオフィスとアムステルダムのオフィスの接続が良好であることを確認する必要があります。 
   
 ## <a name="codecs-used-in-media-bypass"></a>メディアバイパスで使用されるコーデック
 

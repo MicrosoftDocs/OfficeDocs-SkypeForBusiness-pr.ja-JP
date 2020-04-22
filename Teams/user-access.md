@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 379573e7c671c3a5bca906cc3986bce068921b07
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: f571dd461c6c783703159dfd6e9beb343612dd58
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833657"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779483"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Microsoft Teams へのユーザー アクセスを管理する
 =====================================
@@ -39,7 +39,7 @@ Teams 管理センターから管理されるメッセージポリシーを使�
 
 ## <a name="manage-teams-through-the-microsoft-365-admin-center"></a>Microsoft 365 管理センターを使用してチームを管理する
 
-Teams のユーザーレベルのライセンスは、Microsoft 365 管理センターのユーザー管理インターフェイスを使用して直接管理されます。 管理者は、新しいユーザーアカウントが作成されたとき、または既存のアカウントを持つユーザーに対して、新しいユーザーにライセンスを割り当てることができます。 管理者は、Microsoft Teams のライセンスを管理するための Office 365 グローバル管理者またはユーザー管理者の権限を持っている必要があります。
+Teams のユーザーレベルのライセンスは、Microsoft 365 管理センターのユーザー管理インターフェイスを使用して直接管理されます。 管理者は、新しいユーザーアカウントが作成されたとき、または既存のアカウントを持つユーザーに対して、新しいユーザーにライセンスを割り当てることができます。 管理者は、Microsoft Teams ライセンスを管理するためのグローバル管理者またはユーザー管理者の権限を持っている必要があります。
 
 E3 または E5 といったライセンス SKU をユーザーに割り当てる場合、Microsoft Teams ライセンスが自動的に割り当てられ、そのユーザーには Microsoft Teams が有効化されます。管理者はすべての Office 365 サービスとライセンスを細かく制御できます。特定のユーザーまたはグループの Microsoft Teams ライセンスを有効または無効にすることができます。
 
@@ -75,6 +75,6 @@ PowerShell からワークロード ライセンスとして Teams を有効ま�
 |![判断ポイントを表すアイコン](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |判断ポイント         |<ul><li>組織全体でのチームのオンボードの計画はどのようなものですか?  (パイロットまたはオープン)</li></ul>         |
 |![次の手順を示すアイコン](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |次のステップ         |<ul><li>終了したパイロットによるオンボードの場合は、ライセンスまたは対象指定の通信を使用するかどうかを決定します。</li><li>決定に応じて、チームへのアクセスが許可されているパイロットユーザー (必要な場合) だけを確認するための手順を実行します。</li><li>Teams へのアクセス権を持つ (または使用しない) ユーザーを対象としたガイドラインを文書化します。</li></ul>         |
 
-## <a name="manage-teams-at-the-office-365-tenant-level"></a>Office 365 テナントレベルでチームを管理する
+## <a name="manage-teams-at-the-office-365-organization-level"></a>Office 365 組織レベルでチームを管理する
 [!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
 

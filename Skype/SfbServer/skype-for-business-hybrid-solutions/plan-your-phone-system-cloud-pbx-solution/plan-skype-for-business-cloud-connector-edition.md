@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Skype for Business Cloud Connector エディション、Office 365 の電話システム (クラウド PBX) でのオンプレミスの PSTN 接続を実装するパッケージ化された仮想マシン (Vm) のセットの詳細を確認してください。
-ms.openlocfilehash: 9530fa2815dc491e6cda3579a801c3d5430f9b41
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 055149121b5abdb2fa92f72278f94b35f8556dff
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42018148"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779263"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Skype for Business Cloud Connector エディションの計画
 
@@ -40,11 +40,11 @@ Cloud Connector Edition 2.1 を使用できるようになりました。 2.1 �
 > [!NOTE]
 > Microsoft は、新しいバージョンのリリース後、60日間、Cloud Connector Edition の以前のバージョンをサポートしています。 Microsoft は、2.1 のリリース後、60日間、バージョン2.0.1 をサポートして、アップグレードの時間を確保します。 2.0.1 以前のすべてのバージョンはサポートされなくなりました。
 
-Cloud Connector Edition は、Office 365 の電話システムでオンプレミスの PSTN 接続を実装するパッケージ化された仮想マシン (Vm) のセットで構成されるハイブリッド製品です。 最小限の Skype for Business Server トポロジを仮想化された環境に展開することで、クラウドに所属している組織内のユーザーは、Microsoft クラウドから PBX サービスを受けることができますが、既存のオンプレミス音声を使用して PSTN 接続が提供されます。構築.
+Cloud Connector Edition は、Office 365 の電話システムでオンプレミスの PSTN 接続を実装するパッケージ化された仮想マシン (Vm) のセットで構成されるハイブリッド製品です。 最小限の Skype for Business Server トポロジを仮想化環境に展開することで、クラウドに所属している組織内のユーザーは、Microsoft クラウドから PBX サービスを受けることができますが、既存のオンプレミス音声インフラストラクチャを使用して PSTN 接続が提供されます。
 
 ![クラウド PBX を Skype for Business のオンプレミス展開に接続するクラウド PBX ゲートウェイを示しているトポロジ図。](../../media/bd898e69-6458-4276-aebe-1854f28ed6fa.png)
 
-Cloud Connector を使用すると、Office 365 サービスの電話システムを既存のテレフォニー環境 (PBX、アナログデバイス、コールセンターなど) と統合できるため、既存のテレフォニーソリューションから電話への段階的な移行を実装できます。Office 365 のシステム。
+Cloud Connector を使用すると、Office 365 サービスの電話システムを既存のテレフォニー環境 (PBX、アナログデバイス、コールセンターなど) と統合できるため、既存のテレフォニーソリューションから Office 365 の電話システムへの段階的な移行を実装できます。
 
 たとえば、会社に、Office 365 の電話システムが提供していない特定の機能を備えた、高度なコールセンターがあるとします。 コールセンターのユーザーは、既存のソリューションをそのままにして、他のユーザーを Office 365 の電話システムに移動することができます。
 
@@ -52,7 +52,7 @@ Cloud Connector は、オンプレミスとオンラインの間のルーティ�
 
 Cloud Connector エディションの展開を計画する場合は、次の点を考慮してください。
 
-- Cloud Connector を使用してクラウド音声ソリューションを利用するには、Office 365 の電話システムを含む Office 365 テナントにサインアップする必要があります。 まだ Office 365 テナントがない場合は、「 [office 365 For Business](https://products.office.com/business/office)」にサインアップする方法を参照してください。 Skype for Business Online を含むプランにサインアップする必要があることに注意してください。
+- Cloud Connector を使用してクラウド音声ソリューションを利用するには、Office 365 に電話システムが含まれている Office 365 組織にサインアップする必要があります。 Office 365 組織をまだお持ちでない場合は、「 [office 365 For Business](https://products.office.com/business/office)」にサインアップする方法を参照してください。 Skype for Business Online を含むプランにサインアップする必要があることに注意してください。
 
 - Skype for Business Online サービスを使用して Cloud Connector アプライアンスを登録し、さまざまなコマンドレットを実行するには、Cloud Connector 2.0 以降で、Skype for Business のテナント管理者権限を持つ専用の Office 365 アカウントが必要です。 2.0 より前の Cloud Connector のバージョンでは、テナント全体管理者権限を持つ専用の Office 365 アカウントが必要です。
 
@@ -101,7 +101,7 @@ Cloud Connector エディションの展開を計画する場合は、次の点�
 ## <a name="cloud-connector-edition-components"></a>Cloud Connector Edition コンポーネント
 <a name="BKMK_Components"> </a>
 
-Cloud Connector エディションでは、エッジコンポーネント、仲介コンポーネント、中央管理ストア (CMS) の役割で構成される最小限の Skype for Business Server トポロジを含むパッケージ化された Vm のセットを展開します。 また、Cloud Connector の内部機能に必要なドメインコントローラーもインストールします。 これらのサービスは、Skype for Business Online サービスを含む Office 365 テナントとのハイブリッド用に構成されています。
+Cloud Connector エディションでは、エッジコンポーネント、仲介コンポーネント、中央管理ストア (CMS) の役割で構成される最小限の Skype for Business Server トポロジを含むパッケージ化された Vm のセットを展開します。 また、Cloud Connector の内部機能に必要なドメインコントローラーもインストールします。 これらのサービスは、Skype for Business Online サービスを含む Office 365 組織とのハイブリッド用に構成されています。
 
 ![Cloud Connector Edition コンポーネント](../../media/f2d4b8a7-c2f4-4cfc-8137-f187399c1298.png)
 
@@ -262,7 +262,7 @@ Cloud Connector エディションを展開する前に、ご使用の環境に�
 
   - エッジコンポーネントのアクセスエッジサービスの外部 DNS レコード。たとえば、「\<ドメイン名\>」と指定します。 PSTN サイトごとに1つのレコードが必要です。 このレコードには、そのサイトのすべてのエッジの IP アドレスが含まれている必要があります。
 
-- 必要なすべての DNS および SRV レコードが作成された Office 365 テナント。
+- 必要なすべての DNS および SRV レコードを作成した Office 365 組織。
 
     > [!IMPORTANT]
     > テナントを Cloud Connector エディションと統合する場合、既定のドメインサフィックス onmicrosoft.com を組織の SIP ドメインとして使用することはサポートされていません。 > sip を使用できません。\<この DNS\>レコードは Office 365 によって使用されるため、Cloud Connector エッジアクセスプロキシインターフェイスの名前としてのドメイン名。
@@ -442,7 +442,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 
 エッジコンポーネントは、Office 365 サービスの外部名と他の Cloud Connector コンポーネントの内部名を解決する必要があります。
 
-各エッジコンポーネントは、外部および内部接続インターフェイスを備えたマルチホームのコンピューターです。 Cloud Connector は、境界ネットワーク内のドメインコントローラーコンポーネントに DNS サーバーを展開します。 エッジサーバーは、すべての名前解決のために境界内の DNS サーバーをポイントできますが、名前を参照する外部クエリに対して1つ以上の DNS A レコードを含む DNS ゾーンを設定することで、Cloud Connector DNS サーバーが外部名を解決できるようにする必要があります。他のパブリック DNS サーバーへの参照。
+各エッジコンポーネントは、外部および内部接続インターフェイスを備えたマルチホームのコンピューターです。 Cloud Connector は、境界ネットワーク内のドメインコントローラーコンポーネントに DNS サーバーを展開します。 エッジサーバーは、すべての名前解決のために境界内の DNS サーバーをポイントできますが、クラウドコネクタ DNS サーバーが外部名を解決できるようにするには、1つ以上の DNS A レコードを含む DNS ゾーンを、他のパブリック DNS サーバーに名前参照を参照する外部クエリに設定する必要があります。
 
 .Ini ファイルでは、SIP ドメインと同じドメイン空間にあるゲートウェイの FQDN 名を設定すると、この SIP ドメインの権限のある領域が境界内の DNS サーバーに作成されます。 エッジサーバーがこの DNS サーバーを指して名前を解決している場合、エッジは _sipfederationtls を解決しません。\<yourdomain\> DNS レコード。通話フローに必要です。 この場合、Microsoft では、インターネット名参照を解決するためにエッジの外部インターフェイスに DNS サーバーを提供することをお勧めします。また、各エッジコンポーネントは、ホストファイルを使用して、他の Cloud Connector コンポーネント名を IP アドレスに解決する必要があります。
 
@@ -483,7 +483,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 |SiteName  <br/> |Skype for Business サイト名。たとえば、シアトルというようになります。  <br/> .Ini ファイルでの名前: "SiteName"  <br/> リリース1.4.1 以降では、サイト名がサイトごとに異なる必要があり、名前は Office 365 で定義されている PSTN サイト (存在する場合) と一致する必要があります。 サイト内の最初のアプライアンスを登録すると、PSTN サイトが自動的に作成されることに注意してください。  <br/> ||
 |ハードウェアの種類  <br/> リリース1.4.1 以降  <br/> |ハードウェアの種類。 既定値は Normal です。 最小値に設定することもできます。  <br/> ||
 |Country Code  <br/> |ダイヤルの国番号。  <br/> .Ini ファイルでの名前: "CountryCode"  <br/> ||
-|市区町村  <br/> |City (省略可能)。  <br/> .Ini ファイルでの名前: "City"  <br/> ||
+|都市  <br/> |City (省略可能)。  <br/> .Ini ファイルでの名前: "City"  <br/> ||
 |State  <br/> |State (省略可能)。  <br/> .Ini ファイルでの名前: "State"  <br/> ||
 |ベース VM IP アドレス  <br/> |すべての Cloud Connector 仮想マシンの VHDX の作成に使用される一時ベース VM の IP アドレス。 この IP は、次の手順で定義されているものと同じ境界の企業ネットワークサブネットに存在する必要があり、インターネットアクセスが必要です。 インターネットにルーティングできるように、企業の既定のゲートウェイと DNS を定義してください。  <br/> .Ini ファイルでの名前: "BaseVMIP"  <br/> ||
 |WSUSServer  <br/> WSUSStatusServer  <br/> リリース1.4.1 以降  <br/> |Windows Server Update Services (WSUS) のアドレス。 Microsoft Update からの更新プログラムをホストするイントラネットサーバー。  <br/> WSUS を必要としない場合は、空白のままにしておくことができます。  <br/> ||

@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42f6b185a8a09b0aae139175acfc632b84387db8
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: e226acdc12d4b94b7854f6d4bdb1d2fa618fa21e
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749444"
+ms.locfileid: "43777502"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft Teams のセキュリティとコンプライアンス
 
@@ -53,7 +53,7 @@ Teams では、チーム全体および組織全体の 2 要素認証、Active D
 
 認証と Teams の詳細については、「[ID モデルと認証](identify-models-authentication.md)」を参照してください。先進認証については、「[先進認証のしくみ](sign-in-teams.md)」が特に役立ちます。
 
-Teams は SharePoint、OneNote、Exchange などと連携して動作するため、Office 365 のセキュリティを管理する必要があります。 Office 365 のセキュリティに関する詳細については、「[セキュリティ強化のために、Office 365 テナントを構成する](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security)」を参照してください。
+Teams は SharePoint、OneNote、Exchange などと連携して動作するため、Office 365 のセキュリティを管理する必要があります。 Office 365 セキュリティの詳細については、「 [office 365 組織のセキュリティを強化](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security)するように構成する」を参照してください。
 
 > [!NOTE]
 > 現時点では、[プライベート チャネル](private-channels.md)でサポートされるセキュリティとコンプライアンス機能は制限されています。 プライベート チャネルにおけるすべてのセキュリティ機能とコンプライアンス機能のサポートは、近日中に行われる予定です。
@@ -84,7 +84,7 @@ Microsoft Teams デスクトップ アプリケーションは、AppLocker を�
 
 ## <a name="compliance"></a>コンプライアンス
 
-チームには、チャネル、チャット、添付ファイル、アイテム保持ポリシー、データ損失防止 (DLP)、チャネル、チャットとファイル、監査ログの検索、Microsoft Intune でのモバイルアプリケーション管理など、コンプライアンスの分野に関するさまざまな情報が含まれています。 以下のすべてのトピックに関する情報が記載されています。 [Microsoft 365 コンプライアンスセンター](https://compliance.microsoft.com)または[Office 365 セキュリティ & コンプライアンスセンター](https://protection.microsoft.com)にアクセスして、これらの設定を管理できます。
+チームには、チャネル、チャット、添付ファイル、アイテム保持ポリシー、データ損失防止 (DLP)、チャネル、チャットとファイル、監査ログの検索、Microsoft Intune でのモバイルアプリケーション管理など、コンプライアンスの分野に関するさまざまな情報が含まれています。 以下のすべてのトピックに関する情報が記載されています。 [Microsoft 365 コンプライアンスセンター](https://compliance.microsoft.com)にアクセスして、これらの設定を管理することもできます。
 
 ### <a name="information-barriers"></a>情報の障壁
 
@@ -140,11 +140,11 @@ Teams でのデータ損失防止の詳細については、「[Microsoft Teams 
 
 どちらの場合でも、ホールドに設定されれば、エンド ユーザーがグループのメールボックス内のチャネル メッセージを削除または編集しても、そのコンテンツの不変のコピーが維持され、電子情報開示の検索で利用できるようになります。 訴訟ホールドは、通常、電子情報開示ケースのコンテキスト内で適用されます。
 
-Office 365 セキュリティ/コンプライアンス センターでの保持およびホールドの詳細については、「[アイテム保持ポリシーの概要](https://docs.microsoft.com/microsoft-365/compliance/retention-policies)」の記事を参照してください。 訴訟ホールドについての Teams 固有の情報は、「[Microsoft Teams ユーザーまたはチームを訴訟ホールドの対象にする](legal-hold.md)」の記事を参照してください。
+Microsoft 365 コンプライアンスセンターでの保存と保持の詳細については、「[アイテム保持ポリシーの概要](https://docs.microsoft.com/microsoft-365/compliance/retention-policies)」を参照してください。 訴訟ホールドについての Teams 固有の情報は、「[Microsoft Teams ユーザーまたはチームを訴訟ホールドの対象にする](legal-hold.md)」の記事を参照してください。
 
 ### <a name="compliance-content-search"></a>コンプライアンスのコンテンツ検索
 
-コンテンツ検索では、豊富なフィルター機能を活用してすべてのチーム データを検索することができます。 結果として得られるデータは、特定のコンテナにエクスポートでき、コンプライアンスおよび訴訟のサポートとして用いることができます。 この操作は電子情報開示ケースの有無に関わらず実行できます。 これにより、コンプライアンス管理者は、すべてのユーザーにわたる Teams データを収集し、そのデータをレビューして、さらに処理するためにエクスポートできるようになります。 Office 365 セキュリティ & コンプライアンスセンターで Microsoft Teams およびその他の Office 365 コンテンツのコンプライアンスコンテンツ検索を実行する方法については、「 [office 365 の記事でこのコンテンツ検索](https://docs.microsoft.com/microsoft-365/compliance/content-search)を行う」を参照してください。
+コンテンツ検索では、豊富なフィルター機能を活用してすべてのチーム データを検索することができます。 結果として得られるデータは、特定のコンテナにエクスポートでき、コンプライアンスおよび訴訟のサポートとして用いることができます。 この操作は電子情報開示ケースの有無に関わらず実行できます。 これにより、コンプライアンス管理者は、すべてのユーザーにわたる Teams データを収集し、そのデータをレビューして、さらに処理するためにエクスポートできるようになります。 Microsoft 365 コンプライアンスセンターで microsoft Teams およびその他の Microsoft 365 または Office 365 コンテンツのコンプライアンスコンテンツ検索を実行する方法については、「 [Office 365 の記事でこのコンテンツ検索](https://docs.microsoft.com/microsoft-365/compliance/content-search)を行う」を参照してください。
 
 > [!TIP]
 > コンテンツ検索を使用すると、チャット、チャネル メッセージ、会議、通話など、Microsoft Teams のみのコンテンツへの絞り込みを必要に応じて行うことができます。
@@ -153,7 +153,7 @@ Office 365 セキュリティ/コンプライアンス センターでの保持�
 
 ### <a name="auditing-and-reporting"></a>監査と報告
 
-監査ログ検索は、Office 365 セキュリティ/コンプライアンス センターに直結しています。無制限の監査タイムラインでの管理上の使用や調査ができるように、ワークロード固有または汎用のイベント セットをエクスポートすることにより、監査イベントに関するアラートと報告の設定を行うことができます。 Office 365 セキュリティ/コンプライアンス センター内ですべての監査ログ データに関するアラートを設定することができ、このデータをさらに分析するために、フィルター処理およびエクスポートすることもできます。 Office 365 の監査ログの実施方法について詳しくは、「[監査ログの検索](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)」の記事を参照してください。 Office 365 セキュリティ/コンプライアンス センターで Microsoft Teams のイベントを検索する方法の詳細について、「[Teams での監査を有効にする](audit-log-events.md)」の記事を検討することもできます。
+監査ログの検索プラグインは、Microsoft 365 コンプライアンスセンターに直接表示されます。また、監査イベントに関するレポートを作成することもできます。これにより、管理者は、ワークロードの特定のイベントセットまたは汎用イベントセットのエクスポートを無制限の監査タイムラインで行うことができます。 Microsoft 365 コンプライアンスセンター内のすべての監査ログデータに対して警告を設定し、さらに分析するためにこのデータをフィルター処理してエクスポートすることができます。 Office 365 の監査ログの実施方法について詳しくは、「[監査ログの検索](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)」の記事を参照してください。 Microsoft 365 コンプライアンスセンターで Microsoft Teams のイベントを検索する方法については、「 [Teams で監査を有効](audit-log-events.md)にする」を参照してください。
 
 ## <a name="privacy"></a>プライバシー
 
@@ -174,7 +174,7 @@ Microsoft では、データの保護は最も優先度の高いものとなっ�
 
 ## <a name="licensing"></a>ライセンス
 
-情報保護機能については、Office 365 サブスクリプションとそれに関連付けられたスタンドアロン ライセンスによって利用可能な機能セットが決まります。
+情報保護機能については、Microsoft 365 サブスクリプション、Office 365 サブスクリプション、および関連するスタンドアロンライセンスによって、利用可能な機能セットが決定されます。
 
 セキュリティとコンプライアンスのための機能を実装するためにライセンスのニーズを特定する方法については、「 [Office 365 または Microsoft 365 のライセンス](https://download.microsoft.com/download/8/7/7/877B1713-671E-43AA-BB79-AF8478C64AFF/Licensing-Microsoft-365.pdf)を確認する」を参照してください。
 
@@ -183,7 +183,7 @@ Microsoft では、データの保護は最も優先度の高いものとなっ�
 
 ## <a name="location-of-data-in-teams"></a>Teams のデータの場所
 
-Teams のデータはご利用の Office 365 テナントに関連付けられている地理的領域内に存在します。 現在サポートされている地域を確認するには、「[Microsoft Teams のデータの場所](location-of-data-in-teams.md)」を参照してください。
+Teams のデータは、Office 365 組織に関連付けられている地理的地域内に存在します。 現在サポートされている地域を確認するには、「[Microsoft Teams のデータの場所](location-of-data-in-teams.md)」を参照してください。
 
 ご利用のテナントのデータがどの地域で格納されるかを確認するには、[[Microsoft 365 管理センター]](https://portal.office.com/adminportal/home)  >  **[設定]**  >  **[組織プロファイル]** に移動してください。 下にスクロールして **[データの場所]** に移動します。
 
@@ -195,7 +195,7 @@ Teams は層 D に準拠しています。 これには、 [iso 27001](https://d
 
 業界トップのコンプライアンスコミットメントを持つコンプライアンスカテゴリ C と D のサービスは、既定で有効になっています。 カテゴリ A と B のサービスには、組織全体に対してこれらのサービスを有効または無効にするコントロールが用意されています。 詳細については、[コンプライアンス標準](security-compliance-overview.md#compliance-standards)を参照してください。 チームはクラウドセキュリティアライアンスのコンプライアンスもサポートしています。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Microsoft 365 セキュリティ](https://docs.microsoft.com/microsoft-365/security/)
 [microsoft 365 コンプライアンス](https://docs.microsoft.com/microsoft-365/compliance/)

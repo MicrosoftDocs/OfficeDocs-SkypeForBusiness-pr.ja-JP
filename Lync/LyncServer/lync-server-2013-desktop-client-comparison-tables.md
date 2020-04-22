@@ -12,12 +12,12 @@ ms:contentKeyID: 48183798
 ms.date: 01/23/2018
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7596d401687484ec939cf3bad86edf17b16efd8c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 18c9174075ee009b7f67ee8d2757b4af9dd07818
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204270"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780006"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -55,7 +55,7 @@ _**トピックの最終更新日:** 2018-01-23_
 
   - モダン認証
 
-これらの表は、Lync Server 2013 の社内展開で Lync ユーザーが利用できる機能を示しています。 特に明記されていない限り、Skype for Business Online および Office 365 ユーザーも同じ機能を使用できます。
+これらの表は、Lync Server 2013 の社内展開で Lync ユーザーが利用できる機能を示しています。 特に明記されていない限り、Skype for Business Online および Microsoft 365 または Office 365 ユーザーも同じ機能を使用できます。
 
 <div>
 
@@ -336,7 +336,7 @@ _**トピックの最終更新日:** 2018-01-23_
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>配布グループと Office 365 グループを展開する</p></td>
+<td><p>配布グループと Microsoft 365 グループを展開する</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -451,9 +451,9 @@ _**トピックの最終更新日:** 2018-01-23_
 </table>
 
 
-1 Skype for Business Online または Office 365 ユーザーの場合、Lync 2010 アテンダントはサポートされていません。
+1 Skype for Business Online および/または Microsoft 365 または Office 365 ユーザーの場合、Lync 2010 アテンダントはサポートされていません。
 
-2 Skype for Business Online または Office 365 ユーザーの場合、この機能は使用できません。
+2 Skype for Business Online および/または Microsoft 365 または Office 365 ユーザーの場合、この機能は使用できません。
 
 </div>
 
@@ -668,11 +668,11 @@ _**トピックの最終更新日:** 2018-01-23_
 </table>
 
 
-1 Skype for Business Online または Office 365 ユーザーの場合、Lync 2010 アテンダントはサポートされていません。
+1 Skype for Business Online および/または Microsoft 365 または Office 365 ユーザーの場合、Lync 2010 アテンダントはサポートされていません。
 
 スキル検索を行うには、オンプレミスの Lync Server 2013 とオンプレミスの SharePoint 2013 が必要です。
 
-3 Skype for Business Online または Office 365 ユーザーの場合、常設チャットは使用できません。
+3 Skype for Business Online および/または Microsoft 365 または Office 365 ユーザーの場合、常設チャットは使用できません。
 
 </div>
 
@@ -1117,11 +1117,11 @@ _**トピックの最終更新日:** 2018-01-23_
 </table>
 
 
-1 Skype for Business Online または Office 365 ユーザーの場合、Lync 2010 アテンダントはサポートされていません。
+1 Skype for Business Online および/または Microsoft 365 または Office 365 ユーザーの場合、Lync 2010 アテンダントはサポートされていません。
 
 2参加者は、Mac 上の Skype for Business、Lync for Mac 2011、または Communicator for Mac 2011 ユーザーによって共有されているデスクトップを制御できません。 Mac ユーザーは、Windows ユーザーが共有するデスクトップを制御できます。
 
-3 Skype for Business Online または Office 365 ユーザーの場合、この機能を使用するには電話会議プロバイダーが必要です。
+3 Skype for Business Online または Microsoft 365 または Microsoft または Office 365 ユーザーの場合、この機能を使用するには電話会議プロバイダーが必要です。
 
 4 lync for Mac 2011 クライアントは、Lync Web App 2013 クライアントによって会議で共有されている場合、Microsoft Office 2013 PowerPoint プレゼンテーションを表示できません。
 
@@ -1419,11 +1419,11 @@ _**トピックの最終更新日:** 2018-01-23_
 </table>
 
 
-1 Skype for Business Online または Office 365 ユーザーの場合、Lync 2010 アテンダントはサポートされていません。
+1 Skype for Business Online および/または Microsoft 365 または Office 365 ユーザーの場合、Lync 2010 アテンダントはサポートされていません。
 
-2 Skype for Business Online または Office 365 ユーザーの場合、この機能は PC から PC への通話に対してのみ使用できます。
+2 Skype for Business Online または Microsoft 365 または Microsoft または Office 365 ユーザーの場合、この機能は PC から PC への通話に対してのみ使用できます。
 
-3 Skype for Business Online または Office 365 ユーザーの場合、この機能は使用できません。
+3 Skype for Business Online および/または Microsoft 365 または Office 365 ユーザーの場合、この機能は使用できません。
 
 </div>
 
@@ -1507,9 +1507,9 @@ _**トピックの最終更新日:** 2018-01-23_
 </table>
 
 
-1 Skype for Business Online または Office 365 ユーザーの場合、Lync 2010 アテンダントはサポートされていません。
+1 Skype for Business Online および/または Microsoft 365 または Office 365 ユーザーの場合、Lync 2010 アテンダントはサポートされていません。
 
-2 Skype for Business Online または Office 365 ユーザーの場合、この機能は使用できません。
+2 Skype for Business Online および/または Microsoft 365 または Office 365 ユーザーの場合、この機能は使用できません。
 
 </div>
 
@@ -1596,9 +1596,9 @@ _**トピックの最終更新日:** 2018-01-23_
 </table>
 
 
-1 Skype for business Online または Office 365 ユーザーの場合、特定の Skype for Business Online スタンドアロンプランではレコーディングを使用できません。 レコーディングには、Lync 2013 クライアントの完全な権限が必要です。 詳細については、「Skype for Business Online サービス[https://go.microsoft.com/fwlink/?LinkID=282430](https://go.microsoft.com/fwlink/?linkid=282430)の説明」を参照してください。
+1 Skype for Business Online および/または Microsoft 365 または Office 365 ユーザーの場合、特定の Skype for Business Online スタンドアロンプランではレコーディングを使用できません。 レコーディングには、Lync 2013 クライアントの完全な権限が必要です。 詳細については、「Skype for Business Online サービス[https://go.microsoft.com/fwlink/?LinkID=282430](https://go.microsoft.com/fwlink/?linkid=282430)の説明」を参照してください。
 
-2 Skype for Business Online または Office 365 ユーザーの場合、ファイル転送の記録、OneNote ページの共有、および PowerPoint の注釈は利用できません。
+2 Skype for Business Online および/または Microsoft 365 または Office 365 ユーザー、ファイル転送の記録、共有 OneNote ページ、PowerPoint 注釈は利用できません。
 
 </div>
 
@@ -1701,11 +1701,11 @@ _**トピックの最終更新日:** 2018-01-23_
 </table>
 
 
-1 Skype for Business Online または Office 365 ユーザーの場合、Lync 2010 アテンダントはサポートされていません。
+1 Skype for Business Online および/または Microsoft 365 または Office 365 ユーザーの場合、Lync 2010 アテンダントはサポートされていません。
 
-2 Skype for Business Online または Office 365 ユーザーの場合、この機能は Exchange Online を必要とし、ユーザーの Exchange メールボックスのインプレース保持属性によって制御されます。
+2 Skype for Business Online および/または Microsoft 365 または Office 365 ユーザーの場合、この機能は Exchange Online を必要とし、ユーザーの Exchange メールボックスのインプレース保持属性によって制御されます。
 
-3 Skype for Business Online または Office 365 のユーザー、ファイル転送のアーカイブ、共有 OneNote ページ、PowerPoint 注釈は利用できません。
+3 Skype for Business Online および/または Microsoft 365 または Office 365 ユーザー、ファイル転送のアーカイブ、共有 OneNote ページ、PowerPoint 注釈は使用できません。
 
 </div>
 

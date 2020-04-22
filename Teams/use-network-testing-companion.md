@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: c3d292eecb6173f98a2e95dbbd5a1097f5f785eb
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: a9fffea969ea1448bdf8f2a076dbef6756765e20
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836757"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780026"
 ---
 <a name="use-the-network-testing-companion"></a>ネットワーク テスト コンパニオンを使用する
 =================================
@@ -34,7 +34,7 @@ Skype for Business および Microsoft Teams の[ネットワークテストコ�
 このツールは、Skype for Business または Microsoft Teams の展開の計画段階で使用できます。 現在 Teams または Skype for Business Online を使用している場合は、このツールを使用して音声品質の問題のトラブルシューティングを行ったり、通話を発信する前にネットワーク接続を確認したりすることができます。
 
 > [!NOTE]
-> ネットワークテストコンパニオンをダウンロードしてインストールするには、Office 365 サブスクリプションは必要ありません。
+> ネットワークテストコンパニオンをダウンロードしてインストールするには、Microsoft 365 または Office 365 サブスクリプションは必要ありません。
 
 ## <a name="download-the-tool-and-documentation"></a>ツールとドキュメントをダウンロードする
 

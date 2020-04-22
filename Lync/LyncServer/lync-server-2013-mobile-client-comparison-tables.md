@@ -12,12 +12,12 @@ ms:contentKeyID: 51541531
 ms.date: 09/21/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 035d5c95452eebc48f81198fef5cbdf9d95732e0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 82e66cf65d8aa29e476e759bd1f09ccbbf7b61f5
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217493"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780246"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,7 +57,7 @@ _**トピックの最終更新日:** 2015-09-21_
 
   - アーカイブとコンプライアンス
 
-これらの表は、Lync Server 2013 の社内展開で Lync ユーザーが利用できる機能を示しています。 表の脚注に特に明記されていない限り、同じ機能は、Skype for Business Online および Microsoft Office 365 ユーザーにも使用できます。
+これらの表は、Lync Server 2013 の社内展開で Lync ユーザーが利用できる機能を示しています。 表の脚注に特に明記されていない限り、Skype for Business Online および Microsoft 365 または Office 365 ユーザーも同じ機能を使用できます。
 
 <div>
 
@@ -412,7 +412,7 @@ IPhone および iPad では、次のように、ユーザーが一定期間ア�
 </table>
 
 
-1 Skype for Business Online または Office 365 ユーザーは使用できません。
+1 Skype for Business Online や Microsoft 365 または Office 365 ユーザーは使用できません。
 
 </div>
 
@@ -757,11 +757,11 @@ IPhone および iPad では、次のように、ユーザーが一定期間ア�
 </table>
 
 
-1 Office 365 ユーザーの場合、この機能は電話会議プロバイダー (ACP) が有効な会議のみで使用できます。
+1 Microsoft 365 または Office 365 ユーザーの場合、この機能は電話会議プロバイダー (ACP) が有効な会議に対してのみ使用できます。
 
-2 Office 365 ユーザーは使用できません。
+2 Microsoft 365 または Office 365 ユーザーは使用できません。
 
-3 Skype for Business Online または Office 365 ユーザーの場合、この機能はサードパーティの電話会議プロバイダーから入手できます。
+3 Skype for Business Online および/または Microsoft 365 または Office 365 ユーザーの場合、この機能はサードパーティの電話会議プロバイダーから入手できます。
 
 Lync Web App で共有されている 4A PowerPoint プレゼンテーションは、Lync Mobile 2013 から表示できません。 Lync 2013 デスクトップクライアントで行われた注釈は、モバイルデバイスでは表示できません。
 
@@ -894,11 +894,11 @@ Lync Web App で共有されている 4A PowerPoint プレゼンテーション�
 
 1 lync Server 2013、Skype for Business Online、および Office 365 のユーザーは、アイコンをタップして他の Lync ユーザーと Skype ユーザーを呼び出すことができます。 Lync Server 2013 ユーザーは、アイコンをタップして PSTN 通話を行うこともできます。
 
-2オンプレミスの Lync Server 2013 ユーザー、Windows Phone、iPhone、iPad デバイスでは、ユーザーは連絡先カードの通話アイコンをタップして、Lync Server 2013 からのコールバックを受け入れます。 Office 365 ユーザー、Windows Phone、iPhone、iPad デバイスでは、ユーザーが call ボタンをタップすると、ユーザーが番号を呼び出すことを確認するダイアログボックスが表示されます。
+2オンプレミスの Lync Server 2013 ユーザー、Windows Phone、iPhone、iPad デバイスでは、ユーザーは連絡先カードの通話アイコンをタップして、Lync Server 2013 からのコールバックを受け入れます。 Microsoft 365 または Office 365 ユーザー、Windows Phone、iPhone、iPad デバイスでは、ユーザーが [呼び出し] ボタンをタップすると、ユーザーが番号を呼び出すことを確認するダイアログボックスが表示されます。
 
-3 Skype for Business Online または Office 365 ユーザーは使用できません。
+3 Skype for Business Online や Microsoft 365 または Office 365 ユーザーは使用できません。
 
-4 Skype for Business Online または Office 365 ユーザーの場合、この機能は Microsoft パートナーによってサポートされています。
+4 Skype for Business Online および/または Microsoft 365 または Office 365 ユーザーの場合、この機能は Microsoft パートナーによってサポートされています。
 
 </div>
 

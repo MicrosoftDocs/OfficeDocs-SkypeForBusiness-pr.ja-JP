@@ -1,5 +1,5 @@
 ---
-title: Office 365 における電話会議
+title: Microsoft 365 の電話会議
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -24,14 +24,14 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.overview
 - seo-marvel-mar2020
 description: コスト、空き時間、専用の電話番号など、Office 365 の電話会議について説明します。
-ms.openlocfilehash: 5fef21489bbbceb490a2b97d70ee9dbafd2a791c
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: fb61c9445358949677358220e881dbe318ff64b4
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139016"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780416"
 ---
-# <a name="audio-conferencing-in-office-365"></a>Office 365 における電話会議
+# <a name="audio-conferencing-in-microsoft-365"></a>Microsoft 365 の電話会議
 Office 365 の電話会議では、ユーザーは自分の電話から会議に出席することができます。 電話会議では、最大 250 人の電話参加者が可能です。
 
 ## <a name="what-is-audio-conferencing"></a>電話会議とは?
@@ -68,7 +68,7 @@ Skype for Business または Microsoft Teams 用の電話会議を設定して�
   
  **専用電話番号** とは、組織内のユーザーだけが使用できる電話番号のことです。 誰かがこれらの番号のいずれかに電話をかけるときに使用する言語を変更できます。 これらのサービスの電話番号を取得する必要があります。
   
- **共有電話番号** とは、他の Office 365 組織と共有できる電話番号です。誰かがこれらの番号のいずれかに通話するときに使用する言語は変更できません。
+ **共有電話番号**とは、他の Microsoft 365 または Office 365s と共有できる電話番号のことです。 誰かがこれらの番号のいずれかに通話するときに使用する言語は変更できません。
   
 開催者に割り当てられる既定の電話会議番号は会議の招待状にのみ含まれるため、発信者は会議ブリッジに割り当てられた任意の電話番号を使用して、会議に参加できます。 会議に参加するために使用する電話番号の一覧はそれぞれの会議の招待状に含まれる [ **電話番号の検索**] リンクを使用して利用できます。
 

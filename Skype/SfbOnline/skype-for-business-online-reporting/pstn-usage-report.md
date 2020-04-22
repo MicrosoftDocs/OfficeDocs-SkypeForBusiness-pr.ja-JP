@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: '[新しい Skype for Business 管理センターのレポート] 領域には、組織内の電話会議アクティビティと電話会議のアクティビティが表示されます。 ここでは、レポートを掘り下げて、各ユーザーのアクティビティについてより細かい洞察を得ることができます。 たとえば、Skype for Business での PSTN 使用状況の詳細レポートを使用して、通話の着信/発信に費やした分数とそれらの通話の料金を確認できます。 通話のコストなど、電話会議の PSTN 利用状況の詳細を表示して、組織内での使用状況を特定するために、使用状況を理解し、請求の詳細を呼び出すことができます。'
-ms.openlocfilehash: 7050334a390188f47f5d201b3fa541d337601400
-ms.sourcegitcommit: a4fd238de09366d6ed33d72c908faff812da11a5
+ms.openlocfilehash: 4161f0f9f0b6e011b67f94afc14b5ac793fc1009
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42637144"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776272"
 ---
 # <a name="pstn-usage-report"></a>PSTN の使用状況レポート
 
@@ -44,7 +44,7 @@ ms.locfileid: "42637144"
 - 管理センターに移動して >**管理** > **Skype for business 管理センター** > **レポート** > **PSTN 使用量の詳細**をレポートします。
     
     > [!NOTE]
-    > Office 365 のサブスクリプションによっては、ここに表示される製品やレポートの一部が表示されないことがあります。 
+    > 使用している Microsoft 365 または Office 365 のサブスクリプションによっては、ここに表示される製品やレポートがすべて表示されない場合があります。
   
 ## <a name="interpret-the-skype-for-business-pstn-usage-report"></a>Skype for Business PSTN 使用状況レポートを解析する
 
@@ -167,7 +167,7 @@ CSV の最初の行には、列名が含まれています。
 
 - [Skype For business セッションの詳細レポート](session-details-report.md)個々のユーザの通話エクスペリエンスについての詳細を見ることができます。
     
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [管理センターでのアクティビティレポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
   
   

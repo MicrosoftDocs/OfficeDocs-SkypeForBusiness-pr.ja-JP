@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 用の Office 365 ライセンス
+title: Microsoft Teams の microsoft 365 および Office 365 のライセンス
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -19,24 +19,24 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0a6c14c3fba7e5a303200499c4d158edfb56473
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+ms.openlocfilehash: 5b3dcb5b7859c491470c274b5700eae32b2ac274
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170365"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778573"
 ---
-<a name="office-365-licensing-for-microsoft-teams"></a>Microsoft Teams 用の Office 365 ライセンス
-========================================
+<a name="microsoft-365-and-office-365-licensing-for-microsoft-teams"></a>Microsoft Teams の microsoft 365 および Office 365 のライセンス
+==========================================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Teams のユーザーを有効にする Office 365 サブスクリプションを次に示します。
+次の Microsoft 365 および Office 365 サブスクリプションでは、チームのユーザーを有効にすることができます。
 
 |Small Business プラン  |Enterprise プラン  |Education プラン  |Developer プラン |
 |---------|---------|---------|---------|
-|Office 365 Business Essentials     |Office 365 Enterprise E1  |Office 365 Education |Office 365 Developer     |
-|Office 365 Business Premium     |Office 365 Enterprise E3         |Office 365 Education Plus         |      |
+|Microsoft 365 Business Basic     |Office 365 Enterprise E1  |Office 365 Education |Office 365 Developer     |
+|Microsoft 365 ビジネス標準     |Office 365 Enterprise E3         |Office 365 Education Plus         |      |
 |Microsoft 365 for business     |Office 365 Enterprise E4 (廃止)         |Office 365 Education E3 (廃止)         |  |
 |     |Office 365 Enterprise E5         |Office 365 Education E5  | 
 |     |Office 365 Enterprise F1 |    |     | 
@@ -52,7 +52,7 @@ Teams の入手方法については[Microsoft Teams へのアクセス権を取
 > [!NOTE]
 > 選択したライセンスのアプリに Skype for Business Online が一覧表示されている場合は、削除しないでください。 一覧表示されていて削除されている場合、Teams ユーザーのセットアップは正常に完了しません。
         
-Teams の重要な機能に関しては、Office 365 サブスクリプションとの違いはありません。 コンプライアンス機能の利用可否は適切なサブスクリプション レベルに依存します。 詳細については、「[Teams のセキュリティとコンプライアンスの概要](security-compliance-overview.md)」をご覧ください。 各サブスクリプションで利用できる機能の詳細な一覧については、 [Office 365 プラットフォーム サービスの説明](https://technet.microsoft.com/library/office-365-platform-service-description.aspx)をご覧ください。
+Teams のコア機能という観点では、サブスクリプション間に違いはありません。 コンプライアンス機能の利用可否は適切なサブスクリプション レベルに依存します。 詳細については、「[Teams のセキュリティとコンプライアンスの概要](security-compliance-overview.md)」をご覧ください。 各サブスクリプションで利用できる機能の詳細な一覧については、 [Office 365 プラットフォーム サービスの説明](https://technet.microsoft.com/library/office-365-platform-service-description.aspx)をご覧ください。
 
 **クラウドの音声機能**: オーディオ会議には、ダイヤルイン会議を設定する各ユーザーにオーディオ会議のライセンスを購入して割り当てる必要があります。 通話プランには、各ユーザーの電話システムに加えて、国内通話プランまたは 国内/国際通話プランへの加入が必要となります。 詳細は、[Microsoft Teamsアドオンライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)をご覧ください。
 

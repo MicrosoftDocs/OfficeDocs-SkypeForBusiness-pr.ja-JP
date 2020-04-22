@@ -1,5 +1,5 @@
 ---
-title: Office 365 での Microsoft Teams ミーティングを展開する
+title: Microsoft Teams のルームを Microsoft 365 または Office 365 と共に展開する
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -14,15 +14,15 @@ ms.collection:
 - M365-collaboration
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
-description: このトピックでは、Office 365 で Microsoft Teams のルームを展開する方法について説明します。
-ms.openlocfilehash: 39a703b844df1a1ff487187772ff8eb8ea035191
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: Microsoft Teams のルームを Microsoft 365 または Office 365 に展開する方法については、このトピックを参照してください。
+ms.openlocfilehash: 02eb5869d7464a4daeece177c4d1b5a5ef440fa0
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888756"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780546"
 ---
-# <a name="deploy-microsoft-teams-rooms-with-office-365"></a>Office 365 での Microsoft Teams ミーティングを展開する
+# <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>Microsoft Teams のルームを Microsoft 365 または Office 365 と共に展開する
 
 このトピックでは、microsoft teams または Skype for Business および Exchange が両方ともオンラインの Office 365 で Microsoft Teams ルームを展開する方法について説明します。
 
@@ -144,7 +144,7 @@ Skype for Business Online プランの詳細については、「 [skype For Bus
    Set-AzureADUser -UserPrincipalName <Account> -PhoneNumber "<PhoneNumber>"
    ```  -->
 
-6. デバイスアカウントには、有効な Office 365 ライセンスが必要です。または、Exchange と Microsoft Teams、または Skype for Business が動作しません。 ライセンスを所有している場合は、使用場所をデバイスアカウントに割り当てる必要があります。これにより、アカウントで利用できるライセンス Sku が決定されます。 使用できる方法`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> Office 365 テナントで利用可能な Sku の一覧を取得するには、次の手順を実行します。
+6. デバイスアカウントには、有効な Office 365 ライセンスが必要です。または、Exchange と Microsoft Teams、または Skype for Business が動作しません。 ライセンスを所有している場合は、使用場所をデバイスアカウントに割り当てる必要があります。これにより、アカウントで利用できるライセンス Sku が決定されます。 使用できる方法`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> Office 365 組織で利用可能な Sku の一覧を取得するには、次の手順を実行します。
 
   ``` Powershell
   Get-MsolAccountSku
@@ -255,14 +255,14 @@ Enable-CsMeetingRoom -Identity rigel1@contoso.onmicrosoft.com -RegistrarPool sip
 
 ## <a name="see-also"></a>関連項目
 
-[Microsoft Teams 室のアカウントを構成する](rooms-configure-accounts.md)
+[Microsoft Teams ミーティングのアカウントを構成する](rooms-configure-accounts.md)
 
-[Microsoft Teams のルームを計画する](rooms-plan.md)
+[Microsoft Teams ミーティングを計画する](rooms-plan.md)
 
-[Microsoft Teams ルームの展開](rooms-deploy.md)
+[デプロイの概要](rooms-deploy.md)
 
-[Microsoft Teams 室コンソールを構成する](console.md)
+[Microsoft Teams ミーティング コンソールを構成する](console.md)
 
-[Microsoft Teams Rooms を管理する](rooms-manage.md)
+[Microsoft Teams ミーティングの管理](rooms-manage.md)
 
 [Microsoft Teams 会議室のライセンス](rooms-licensing.md)

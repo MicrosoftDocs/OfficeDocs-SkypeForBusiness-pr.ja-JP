@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 47abe9934c92ce83ab0874a10b2c04ef238b428a
-ms.sourcegitcommit: 0289062510f0791906dab2791c5db8acb1cf849a
+ms.openlocfilehash: 69efb8c74950ffdb4426049558caaf59254b4605
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42157895"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779804"
 ---
 # <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>Skype for Business から Teams へのアップグレード &mdash; IT 管理者向け
 
@@ -221,7 +221,7 @@ TeamsOnly モードをテナント レベルで割り当てる場合は、どの
 - オンプレミスのユーザーに対して Skype for Business クライアントで通知を表示する場合は、オンプレミスのツールセットで TeamsUpgradePolicy を使用する必要があります。 オンプレミスのユーザーに関係があるのは、NotifySfbUsers パラメーターのみです。  オンプレミスのユーザーは、TeamsUpgradePolicy のオンライン インスタンスから自分のモードを受け取ります。 「[Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)」のメモを参照してください。 
 
 >[!NOTE]
-> 2019 年 9 月 3 日以降に作成された新しいテナントは、TeamsOnly テナントとして作成されており、管理者はダウングレードできません。 Skype for Business Server オンプレミスを使用している組織のうち、2019 年 9 月 3 日より前には Office 365 サブスクリプションを一度も所有したことがない組織は、Office 365 を使用するサブスクリプションを入手した場合、テナントをダウングレードするために Microsoft サポートに連絡する必要があります。 
+> 9月3日以降に作成されたすべての新しいテナントは、組織に Skype for Business Server のオンプレミス展開が含まれていない限り2019、TeamsOnly テナントとして作成されます。 Microsoft は DNS レコードを使って、オンプレミスの Skype for Business Server 組織を特定します。 組織にパブリック DNS エントリのないオンプレミスの Skype for Business サーバーがある場合は、Microsoft サポートに連絡して、新しいテナントをダウングレードする必要があります。 
 
 
 ## <a name="perform-the-upgrade-for-your-organization"></a>組織のアップグレードを実行する
@@ -286,7 +286,7 @@ Teams のアクティブなユーザーが 1 人もいない組織の場合、�
 
 1. Teams でアクティブなユーザーを見つけるには、次のようにします。
 
-   1. Office 365 管理ポータルの左側のナビゲーションで、[レポート]、[使用状況] の順に移動します。 
+   1. Microsoft 365 管理センターの左側のナビゲーションで、[レポート]、[使用状況] の順に移動します。 
    2. [レポートの選択] ドロップダウンで、[Microsoft Teams]、[ユーザー アクティビティ] の順に選択します。 このようにすると、Teams でアクティブになっているユーザーのエクスポート可能なテーブルが提供されます。 
    3. [エクスポート] をクリックして、Excel を開き、フィルタリングして、Teams でアクティブなユーザーのみを表示します。
 
@@ -538,7 +538,7 @@ Skype for Business を使用している他のユーザーへの Teams からの
 
 Teams ユーザーと Skype for Business の間のフェデレーション チャットは、相互運用スレッドであるため、リッチ テキストや共有は使用できません。 ユーザー インターフェイスには、そのユーザーが外部ユーザーであることを示すメモがあることを除けば、同一テナントの相互運用スレッドと同様の方法でフェデレーション チャットが表示されます。
 
-Teams が最初にフェデレーションを導入した時点では、2 人の Teams ユーザー間のフェデレーション チャットも相互運用スレッドでした。しかし、将来的には、ネイティブな Teams フェデレーションが導入され、TeamsOnly モードのユーザー間の会話に完全な機能が提供される予定です。 。 
+Teams が最初にフェデレーションを導入した時点では、2 人の Teams ユーザー間のフェデレーション チャットも相互運用スレッドでした。しかし、将来的には、ネイティブな Teams フェデレーションが導入され、TeamsOnly モードのユーザー間の会話に完全な機能が提供される予定です。 . 
 
 詳細については、「[新しいチャットまたは通話のフェデレーション ルーティング](coexistence-chat-calls-presence.md#federated-routing-for-new-chats-or-calls)」を参照してください。
 

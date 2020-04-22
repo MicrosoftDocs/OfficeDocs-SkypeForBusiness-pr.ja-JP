@@ -16,13 +16,13 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
-description: '概要: Skype for business Online、Skype for Business Server 2019、Skype for Business Server 2015、Lync Server 2013、またはその両方を使用しているかどうかにかかわらず、新しい Skype for Business とユーザーの環境を準備するために実行できる手順について説明します。Lync Server 2010。'
-ms.openlocfilehash: c54465b2f2c6cb7fb8d131b52de27c3f64d0bcc2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: '概要: Skype for business Online、Skype for Business Server 2019、Skype for Business Server 2015、Lync Server 2013、または Lync Server 2010 を使用しているかどうかにかかわらず、新しい Skype for Business とユーザーの環境とユーザーの準備に必要な手順について説明します。'
+ms.openlocfilehash: c1fecbdb5a4ec0a19e464a57ee128d2d00ad501f
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42028008"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777752"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>ユーザーに対して Skype for Business 2015 クライアント環境の計画を立てる
  
@@ -44,7 +44,7 @@ Lync 2013 用の2015年4月14日の Office 更新プログラムには、新し�
 ## <a name="what-client-experience-do-you-want-for-your-users"></a>ユーザーに対してどのようなクライアント環境を使用しますか?
 <a name="clientexperience"> </a>
 
-新しい Skype for Business クライアントを使用すると、ユーザーが Lync または Skype for business のいずれかを利用できるクライアントの操作を制御できます。 既定のクライアント環境は、Lync または Skype for Business のオンプレミスまたはオンラインを使用しているかどうかによって異なります。 現在 Office 365 ProPlus、office 365 Business Premium または Office 2013 で Skype for Business Online (Lync Online) を使用している場合は、更新された Skype for Business クライアントの操作性 (Skype のルックアンドフィールによる) が既定のユーザー環境になります。 現在、Lync Server をオンプレミスで使用している場合は、Lync クライアントの操作が既定で実行されます。
+新しい Skype for Business クライアントを使用すると、ユーザーが Lync または Skype for business のいずれかを利用できるクライアントの操作を制御できます。 既定のクライアント環境は、Lync または Skype for Business のオンプレミスまたはオンラインを使用しているかどうかによって異なります。 今日の Microsoft 365 Apps for enterprise、Microsoft 365 Business Standard または Office 2013 で Skype for Business Online (Lync Online) を使用している場合は、更新された Skype for Business クライアントの操作性 (Skype のルックアンドフィールによる) が既定のユーザー環境になります。 現在、Lync Server をオンプレミスで使用している場合は、Lync クライアントの操作が既定で実行されます。
   
 クライアントポリシーを使用して、ユーザーが取得するクライアント環境を構成できます。 クライアントポリシーは、Lync または Skype for business にログインしたときにユーザーに適用される構成設定のセットです。
   
