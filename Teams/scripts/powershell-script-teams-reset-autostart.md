@@ -15,22 +15,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad6411f82df31ec5f0be93cbd30d87a1832daa50
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 16d0c9270cfa387c10d1c3e4b05ac5bb1d5f3f0a
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826965"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780536"
 ---
-# <a name="powershell-script-sample---reset-the-autostart-setting-in-teams"></a><span data-ttu-id="c51f9-103">PowerShell スクリプトのサンプル-Teams で autostart 設定をリセットする</span><span class="sxs-lookup"><span data-stu-id="c51f9-103">PowerShell script sample - Reset the autostart setting in Teams</span></span>
+# <a name="powershell-script-sample---reset-the-autostart-setting-in-teams"></a><span data-ttu-id="081af-103">PowerShell スクリプトのサンプル-Teams で autostart 設定をリセットする</span><span class="sxs-lookup"><span data-stu-id="081af-103">PowerShell script sample - Reset the autostart setting in Teams</span></span>
 
-<span data-ttu-id="c51f9-104">このスクリプトを使用して、チームの自動開始設定をユーザーごとにリセットします。</span><span class="sxs-lookup"><span data-stu-id="c51f9-104">Use this script to reset the Teams autostart setting on a per-user basis.</span></span> <span data-ttu-id="c51f9-105">これには、ユーザーまたは Teams アプリによって設定された値が含まれます。</span><span class="sxs-lookup"><span data-stu-id="c51f9-105">This includes any values set by the user or the Teams app.</span></span> <span data-ttu-id="c51f9-106">既定では、ユーザーがインストールした後にユーザーがコンピューターにログインすると、自動的にチームが開始されます。</span><span class="sxs-lookup"><span data-stu-id="c51f9-106">By default, Teams automatically starts when a user logs in to their computer after it's installed.</span></span>
+<span data-ttu-id="081af-104">このスクリプトを使用して、チームの自動開始設定をユーザーごとにリセットします。</span><span class="sxs-lookup"><span data-stu-id="081af-104">Use this script to reset the Teams autostart setting on a per-user basis.</span></span> <span data-ttu-id="081af-105">これには、ユーザーまたは Teams アプリによって設定された値が含まれます。</span><span class="sxs-lookup"><span data-stu-id="081af-105">This includes any values set by the user or the Teams app.</span></span> <span data-ttu-id="081af-106">既定では、ユーザーがインストールした後にユーザーがコンピューターにログインすると、自動的にチームが開始されます。</span><span class="sxs-lookup"><span data-stu-id="081af-106">By default, Teams automatically starts when a user logs in to their computer after it's installed.</span></span>
 
-<span data-ttu-id="c51f9-107">チームを既に展開していて、[[インストール後に Microsoft teams が自動的に開始されないよう](../msi-deployment.md#use-group-policy-recommended)にする] 設定をオンにして teams の自動開始を無効にしたい場合は、最初にグループポリシーの設定を目的の値に設定する必要があります。その後、次のスクリプトを実行します。</span><span class="sxs-lookup"><span data-stu-id="c51f9-107">If you've already deployed Teams and want to set the [Prevent Microsoft Teams from starting automatically after installation Group Policy setting](../msi-deployment.md#use-group-policy-recommended) to disable Teams autostart, you'll need to first set the Group Policy setting to the value you want, and then run this script.</span></span>
+<span data-ttu-id="081af-107">チームを既に展開していて、[[インストール後に Microsoft teams が自動的に開始されないよう](../msi-deployment.md#use-group-policy-recommended)にする] 設定をオンにして teams の自動開始を無効にしたい場合は、最初にグループポリシーの設定を目的の値に設定する必要があります。その後、次のスクリプトを実行します。</span><span class="sxs-lookup"><span data-stu-id="081af-107">If you've already deployed Teams and want to set the [Prevent Microsoft Teams from starting automatically after installation Group Policy setting](../msi-deployment.md#use-group-policy-recommended) to disable Teams autostart, you'll need to first set the Group Policy setting to the value you want, and then run this script.</span></span>
 
-<span data-ttu-id="c51f9-108">ユーザーのチームを開始した後、[autostart] 設定をグループポリシーを使用して無効にすることはできません。</span><span class="sxs-lookup"><span data-stu-id="c51f9-108">After Teams is started for a user, the autostart settings can't be disabled by using Group Policy.</span></span>
+<span data-ttu-id="081af-108">ユーザーのチームを開始した後、[autostart] 設定をグループポリシーを使用して無効にすることはできません。</span><span class="sxs-lookup"><span data-stu-id="081af-108">After Teams is started for a user, the autostart settings can't be disabled by using Group Policy.</span></span>
 
-## <a name="sample-script"></a><span data-ttu-id="c51f9-109">サンプル スクリプト</span><span class="sxs-lookup"><span data-stu-id="c51f9-109">Sample script</span></span>
+## <a name="sample-script"></a><span data-ttu-id="081af-109">サンプル スクリプト</span><span class="sxs-lookup"><span data-stu-id="081af-109">Sample script</span></span>
 
 ````powershell
 <#
@@ -146,7 +146,7 @@ if($null -eq $teamsProc) {
 }
 ````
 
-## <a name="related-topics"></a><span data-ttu-id="c51f9-110">関連トピック</span><span class="sxs-lookup"><span data-stu-id="c51f9-110">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="081af-110">関連トピック</span><span class="sxs-lookup"><span data-stu-id="081af-110">Related topics</span></span>
 
-- [<span data-ttu-id="c51f9-111">MSI を使用した Teams のインストール</span><span class="sxs-lookup"><span data-stu-id="c51f9-111">Install Teams using MSI</span></span>](../msi-deployment.md)
-- [<span data-ttu-id="c51f9-112">Office 365 ProPlus を使用して Teams を展開する</span><span class="sxs-lookup"><span data-stu-id="c51f9-112">Deploy Teams with Office 365 ProPlus</span></span>](https://docs.microsoft.com/deployoffice/teams-install)
+- [<span data-ttu-id="081af-111">MSI を使用した Teams のインストール</span><span class="sxs-lookup"><span data-stu-id="081af-111">Install Teams using MSI</span></span>](../msi-deployment.md)
+- [<span data-ttu-id="081af-112">企業向けの Microsoft 365 アプリで Teams を展開する</span><span class="sxs-lookup"><span data-stu-id="081af-112">Deploy Teams with Microsoft 365 Apps for enterprise</span></span>](https://docs.microsoft.com/deployoffice/teams-install)
