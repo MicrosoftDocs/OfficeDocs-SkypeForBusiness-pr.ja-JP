@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: ユーザーを Skype for Business Online に移動する方法について説明します。
-ms.openlocfilehash: 6d8e8fa08c124717a0d61a758bdb60f2dd24c410
-ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
+ms.openlocfilehash: d77bef77204a2b33d8fa8001cc54e19bf447b55f
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033381"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779693"
 ---
 # <a name="move-users-from-on-premises-to-skype-for-business-online"></a>ユーザーをオンプレミスから Skype for Business Online に移動する
 
@@ -33,7 +33,7 @@ ms.locfileid: "43033381"
  
 ## <a name="move-users-with-move-csuser"></a>Move-CsUser を使用してユーザーを移動する 
 
-Move-CsUser は、オンプレミスの Skype for Business 管理シェル PowerShell ウィンドウから入手できます。 [必要な管理者の資格情報](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)で説明されているように、オンプレミス環境と Office 365 テナントの両方に十分な特権を持っている必要があります。 両方の環境で権限を持つ単一のアカウントを使用するか、オンプレミスの資格情報を使用してオンプレミスの Skype for Business Server 管理シェルウィンドウを開始`-Credential`することができます。また、パラメーターを使用して、必要な office 365 管理者の役割を持つ office 365 アカウントの資格情報を指定することもできます。
+Move-CsUser は、オンプレミスの Skype for Business 管理シェル PowerShell ウィンドウから入手できます。 [必要な管理者の資格情報](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)で説明されているように、オンプレミス環境と Office 365 組織の両方に十分な特権を持っている必要があります。 両方の環境で権限を持つ単一のアカウントを使用するか、オンプレミスの資格情報を使用してオンプレミスの Skype for Business Server 管理シェルウィンドウを開始`-Credential`することができます。また、パラメーターを使用して、必要な office 365 管理者の役割を持つ office 365 アカウントの資格情報を指定することもできます。
 
 ユーザーを Move-CsUser を使用してオンラインに移行するには、次のようにします。
 

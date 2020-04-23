@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: この付録には、Teams と Skype for Business のクラウド統合の一部としてハイブリッドを無効にするための詳細な手順が含まれています。
-ms.openlocfilehash: 8fc9745c75f9b449751164065f974ccd8088218f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 053d632b5a07b7ce7cca8ef7a1ddf45a673bcf59
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726977"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780146"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>ハイブリッドを無効にしてクラウドへの移行を完了する
 
@@ -34,7 +34,7 @@ ms.locfileid: "41726977"
 
 1. Office 365 を指すようにドメインの DNS レコードを更新する。
 
-2. Office 365 テナントの分割ドメインを無効にする。
+2. Office 365 組織の分割ドメインを無効にします。
 
 3. オンプレミスの Office 365 との通信機能を無効にします。
 
@@ -56,7 +56,7 @@ ms.locfileid: "41726977"
     |CNAME| 満たせ|   3600|   webdir。<span>com|
     |CNAME| deny  |3600|  webdir。<span>com|
 
-2.  *Office 365 テナントの共有 SIP アドレススペースを無効にします。*
+2.  *Office 365 組織の共有 SIP アドレススペースを無効にします。*
 次のコマンドは、Skype for Business Online PowerShell ウィンドウから実行する必要があります。
 
     ```PowerShell

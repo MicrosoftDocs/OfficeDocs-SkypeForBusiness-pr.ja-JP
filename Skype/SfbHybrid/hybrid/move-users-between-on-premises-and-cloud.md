@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: '概要: ハイブリッドに対応した Skype for Business Server のオンプレミス展開では、オンプレミス環境とクラウド (Microsoft Teams または Skype for Business Online) の間でユーザーを移動することができます。'
-ms.openlocfilehash: 721352e1aa13cce8a9c03aa71c73f11e8c0d2452
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: aea3bed7db6c7821d957aa0e6d56cbafd548edb7
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008609"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780086"
 ---
 # <a name="move-users-between-on-premises-and-cloud"></a>オンプレミスとクラウドの間でユーザーを移動する
 
@@ -52,7 +52,7 @@ ms.locfileid: "42008609"
 - ユーザーは、Skype for Business のすべての機能について、Skype for Business Online サービスの使用をクラウドで開始します。
 - Teams ユーザーは、Skype for Business ユーザーとの相互運用に対して有効化され、他の組織とのフェデレーションも可能になります。
 - オンプレミスの連絡先は、クラウド (Skype for Business または Teams) に移動されます。
-- 今後予定されている既存の会議はオンラインに移行されます。ユーザーが直接 Teams に移行される場合 (以下を参照)、会議は Teams 会議に変換されますが、それ以外の場合、会議は Skype for Business に移行されます。オンプレミスではなく、オンラインでホストされます。  会議の移行は非同期で行われ、ユーザーの移動から約 90 分後に開始されます。  会議の移行の状態を特定するには、[Get-csMeetingMigrationStatus](../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md#managing-mms) を使用します。 会議に先立ってアップロードされたコンテンツは移動されません。
+- 今後予定されている既存の会議はオンラインに移行されます。ユーザーが直接 Teams に移動した場合 (以下を参照)、会議は Teams 会議に変換されますが、会議はオンプレミスではなくオンラインでホストされるように移行されます。  会議の移行は非同期で行われ、ユーザーの移動から約 90 分後に開始されます。  会議の移行の状態を特定するには、[Get-csMeetingMigrationStatus](../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md#managing-mms) を使用します。 会議に先立ってアップロードされたコンテンツは移動されません。
 
 オンプレミスとクラウド (Teams または Skype for Business Online のいずれか) 間でユーザーを移動するには、2つのユーザーコマンドレットを使用するか、または Skype for Business 管理者コントロールパネルを使用します。どちらもオンプレミスツールです。 これらのツールでは、3 種類の移動パスがサポートされています。
 
@@ -62,14 +62,14 @@ ms.locfileid: "42008609"
 
 ## <a name="required-administrative-credentials"></a>必要な管理者の資格情報
 
-オンプレミスとクラウドの間でユーザーを移動するには、オンプレミスの Skype for Business Server 環境および Office 365 テナントの両方で十分な特権を持つアカウントを使用する必要があります。 必要な権限がすべて含まれている 1 つのアカウントを使用することも、2 つのアカウントを使用することもできます。後者の場合、オンプレミスの資格情報を使用してオンプレミスのツールにアクセスし、これらのツールで Office 365 管理者アカウントの追加の資格情報を提供します。  
+オンプレミスとクラウドの間でユーザーを移動するには、オンプレミスの Skype for Business Server 環境および Office 365 組織の両方で十分な特権を持つアカウントを使用する必要があります。 必要な権限がすべて含まれている 1 つのアカウントを使用することも、2 つのアカウントを使用することもできます。後者の場合、オンプレミスの資格情報を使用してオンプレミスのツールにアクセスし、これらのツールで Office 365 管理者アカウントの追加の資格情報を提供します。  
 
 - オンプレミスの環境では、移動を実行するユーザーに Skype for Business Server の CSServerAdminstrator ロールが割り当てられている必要があります。
 - Office 365 では、移動を実行するユーザーは、グローバル管理者であるか、Skype for Business 管理者ロールとユーザー管理者ロールの両方が割り当てられているかのいずれかである必要があります。  
 
     > [!Important]
     > - [Skype for Business 管理ツール] コントロールパネルを使用している場合は、前述のように、Office 365 アカウントの資格情報を適切な役割で提供するように求められます。 Onmicrosoft.com で終わるアカウントを指定する必要があります。 これができない場合は、ユーザーコマンドレットを使用します。
-    >- PowerShell で CsUser を使用している場合は、onmicrosoft.com で終了するアカウントを使用するか、または、コマンドレットで HostedMigrationOverrideUrl パラメーターも指定している場合は、Azure AD に同期されたオンプレミスのアカウントを使用することができます。. ホストされた移行の上書き URL の値は、次の URL のバリアント型 (variant) です。https://adminXX.online.lync.com/HostedMigration/hostedmigrationService.svc<br>上記の URL では、次のようにして、XX を2文字または3文字に置き換えます。
+    >- PowerShell で CsUser を使用している場合は、onmicrosoft.com で終了するアカウントを使用するか、または、コマンドレットで HostedMigrationOverrideUrl パラメーターも指定している場合は、Azure AD に同期されたオンプレミスのアカウントを使用することができます。 ホストされた移行の上書き URL の値は、次の URL のバリアント型 (variant) です。https://adminXX.online.lync.com/HostedMigration/hostedmigrationService.svc<br>上記の URL では、次のようにして、XX を2文字または3文字に置き換えます。
     >   - Skype for Business Online の PowerShell セッションで、次のコマンドレットを実行します。<br>`Get-CsTenant|ft identity`
     >    - 結果の値は次の形式になります。<br>`OU=<guid>,OU=OCS Tenants,DC=lyncXX001,DC=local`
     >    - 2桁または3桁のコードは、セクション DC = lyncXX001 に含まれる XX です。 2文字のコードの場合、数字の後に数字 (0a など) が続きます。 3文字のコードでは、2文字の後に数字 (jp1 など) が続きます。 すべての場合において、XX コードの直後に001が表示されます。
@@ -92,11 +92,11 @@ ms.locfileid: "42008609"
 
 ## <a name="see-also"></a>関連項目
 
-[オンプレミスから Skype for Business Online へのユーザーの移動](move-users-from-on-premises-to-skype-for-business-online.md)
+[ユーザーをオンプレミスから Skype for Business Online に移動する](move-users-from-on-premises-to-skype-for-business-online.md)
 
-[オンプレミスから Teams へのユーザーの移動](move-users-from-on-premises-to-teams.md)
+[オンプレミスから Teams にユーザーを移動する](move-users-from-on-premises-to-teams.md)
 
-[会議移行サービス (MMS) のセットアップ](../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md)
+[Meeting Migration Service (MMS) のセットアップ](../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md)
 
 [ダイレクト ルーティングを計画する](/microsoftteams/direct-routing-plan)
 

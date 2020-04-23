@@ -1,5 +1,5 @@
 ---
-title: リソースフォレストトポロジを展開する
+title: リソース フォレスト トポロジの展開
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -18,14 +18,14 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 次のセクションでは、ハイブリッドシナリオで Skype for Business 機能を提供するために、リソース/ユーザーフォレストモデルに複数のフォレストがある環境を構成する方法について説明します。
-ms.openlocfilehash: 33945b245009a221d709e13d587f435aa4c054d8
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 3a0a5f08c9be4c6ba4c954a4100794d83d46ea53
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41983042"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780126"
 ---
-# <a name="deploy-a-resource-forest-topology"></a>リソースフォレストトポロジを展開する
+# <a name="deploy-a-resource-forest-topology"></a>リソース フォレスト トポロジの展開
  
 次のセクションでは、ハイブリッドシナリオで Skype for Business 機能を提供するために、リソース/ユーザーフォレストモデルに複数のフォレストがある環境を構成する方法について説明します。 
   
@@ -52,7 +52,7 @@ ms.locfileid: "41983042"
   
 ## <a name="synchronize-accounts-into-the-forest-hosting-skype-for-business"></a>Skype for Business をホストするフォレストにアカウントを同期する
 
-Skype for Business Server が1つのフォレスト (リソースフォレスト) に展開されているが、1つ以上の他のフォレスト (アカウントフォレスト) でユーザーに機能を提供する場合は、他のフォレスト内のユーザーが、Skype for Business のフォレスト内の無効なユーザーオブジェクトとして表される必要があります。Business Server が展開されている。 Microsoft Identity Manager などの id 管理製品を展開して、アカウントフォレストから Skype for Business Server が展開されているフォレストにユーザーをプロビジョニングおよび同期するように構成する必要があります。 ユーザーが、Skype for Business Server をホストしているフォレストの無効なユーザーオブジェクトとして同期されている必要があります。 Azure Active Directory Connect は、Skype で使用するために、連絡先を Azure AD に正しく同期しないため、ユーザーを Active Directory 連絡先オブジェクトとして同期することはできません。
+Skype for Business Server が1つのフォレスト (リソースフォレスト) に展開されているが、1つ以上の他のフォレスト (アカウントフォレスト) でユーザーに機能を提供する場合は、他のフォレスト内のユーザーが、Skype for Business Server が展開されているフォレスト内の無効なユーザーオブジェクトとして表される必要があります。 Microsoft Identity Manager などの id 管理製品を展開して、アカウントフォレストから Skype for Business Server が展開されているフォレストにユーザーをプロビジョニングおよび同期するように構成する必要があります。 ユーザーが、Skype for Business Server をホストしているフォレストの無効なユーザーオブジェクトとして同期されている必要があります。 Azure Active Directory Connect は、Skype で使用するために、連絡先を Azure AD に正しく同期しないため、ユーザーを Active Directory 連絡先オブジェクトとして同期することはできません。
   
 複数フォレストの構成に関係なく、Skype for Business Server をホストしているフォレストは、同じフォレストに存在する有効なユーザーにも機能を提供できます。
   
@@ -73,9 +73,9 @@ Skype for Business Server が1つのフォレスト (リソースフォレスト
     
 - 各ユーザーフォレストからの一意の UPN がリソースフォレスト内の関連付けられている無効なオブジェクトと同期されている場合、AD FS 認証は失敗します。 照合ルールは、無効にされ、認証に使用できなかったリソースフォレスト内のオブジェクトの UPN を検索します。 
     
-## <a name="create-an-office-365-tenant"></a>Office 365 テナントを作成する
+## <a name="create-an-office-365-organization"></a>Office 365 組織を作成する
 
-次に、展開で使用する Office 365 テナントを準備する必要があります。 詳細については、「 [Microsoft のクラウドサービスのサブスクリプション、ライセンス、アカウント、およびテナント](https://docs.microsoft.com/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings)」を参照してください。 
+次に、展開で使用するために Office 365 組織を準備する必要があります。 詳細については、「 [Microsoft のクラウドサービスのサブスクリプション、ライセンス、アカウント、およびテナント](https://docs.microsoft.com/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings)」を参照してください。 
   
 ## <a name="configure-active-directory-federation-services"></a>Active Directory フェデレーションサービスを構成する
 

@@ -18,14 +18,14 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: '概要: ユーザー設定を移行し、ユーザーを Teams に移動する方法について説明します。'
-ms.openlocfilehash: af5281faffa9bd9439e045dc40f67283bb740cb5
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 07d0657017d24acbbd3961c3528056debb927a5a
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888776"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779683"
 ---
-# <a name="move-users-from-on-premises-to-teams"></a>オンプレミスから Teams へのユーザーの移動
+# <a name="move-users-from-on-premises-to-teams"></a>オンプレミスから Teams にユーザーを移動する
 
 オンプレミスから Teams のみにユーザーを移動すると、ユーザーの Skype for Business ホームはオンプレミスからオンラインに移行され、ユーザーは TeamsUpgradePolicy を mode = TeamsOnly で割り当てられます。  オンプレミスから TeamsOnly モードにユーザーを移動した後:
 
@@ -55,13 +55,13 @@ ms.locfileid: "41888776"
 
 ## <a name="move-a-user-directly-from-skype-for-business-on-premises-to-teams-only"></a>オンプレミスの Skype for Business から Teams のみにユーザーを直接移動する
 
-Skype for business Server 2015 with CU8 のオンプレミスの管理ツールと、Skype for Business Server 2019 では、ユーザーをオンプレミスから Teams のみモードに移行するために、PowerShell または Skype for Business Se での移動-CsUser コマンドレットを使用することができます。以下に示すように、rver コントロールパネル。
+Skype for business Server 2015 と CU8 の社内管理ツール、および Skype for Business Server 2019 では、以下に示すように、PowerShell または Skype for Business Server コントロールパネルで、1つの手順でユーザーをオンプレミスから Teams のみモードに移行することができます。
 
 ### <a name="move-to-teams-using-move-csuser"></a>「Move-CsUser を使用して Teams に移動する」
 
-Move-CsUser は、オンプレミスの Skype for Business 管理シェル PowerShell ウィンドウから入手できます。 次に示す手順および必要なアクセス許可は、ユーザーを Skype for Business Online に移動する場合と同じですが、ユーザーには MoveToTeams スイッチも指定する必要があります。また、ユーザーにも Teams のライセンスが付与されていることを確認する必要があります (Skype for Business に加えて)。オンライン)。
+Move-CsUser は、オンプレミスの Skype for Business 管理シェル PowerShell ウィンドウから入手できます。 以下の手順および必要なアクセス許可は、ユーザーを Skype for Business Online に移動する場合と同じですが、ユーザーには MoveToTeams スイッチも指定する必要があります。また、ユーザーにも (Skype for Business Online に加えて) Teams のライセンスが付与されていることを確認する必要があります。
 
-[必要な管理者の資格情報](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)で説明されているように、オンプレミス環境と Office 365 テナントの両方に十分な特権を持っている必要があります。 両方の環境で権限を持つ単一のアカウントを使用するか、オンプレミスの資格情報を使用してオンプレミスの Skype for Business Server 管理シェルウィンドウを開始`-Credential`することができます。また、パラメーターを使用して、必要な office 365 管理者の役割を持つ office 365 アカウントの資格情報を指定することもできます。
+[必要な管理者の資格情報](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)で説明されているように、オンプレミス環境と Office 365 組織の両方に十分な特権を持っている必要があります。 両方の環境で権限を持つ単一のアカウントを使用するか、オンプレミスの資格情報を使用してオンプレミスの Skype for Business Server 管理シェルウィンドウを開始`-Credential`することができます。また、パラメーターを使用して、必要な office 365 管理者の役割を持つ office 365 アカウントの資格情報を指定することもできます。
 
 ユーザーを、CsUser を使用して Teams 専用モードに移行するには、次のようにします。
 
@@ -123,4 +123,4 @@ New-CsTeamsUpgradeConfiguration -Identity "site:redmond1"
 
 [Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス](/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 
-[Skype for Business との共存](/microsoftteams/coexistence-chat-calls-presence)
+[Skype for Business と共存する](/microsoftteams/coexistence-chat-calls-presence)

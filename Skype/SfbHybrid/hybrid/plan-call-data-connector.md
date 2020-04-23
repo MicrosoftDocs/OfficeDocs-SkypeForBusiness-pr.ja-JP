@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Skype for Business Online テレメトリツールを使用した、ハイブリッドシナリオでのオンプレミスの実装の監視の概要。
-ms.openlocfilehash: 910bfe2a1af1f39976d0098aeb1fd23a7ef31490
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ad4d7ddb270bc4e4227eea7d33c37411ea96fa8c
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765235"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779663"
 ---
 # <a name="plan-call-data-connector"></a>通話データコネクタを計画する
 
@@ -62,10 +62,10 @@ Call Analytics and CQD tools を使用すると、次のように、通話の品
 
    詳細については、「skype for business [server と office 365 の間のハイブリッド接続を計画](plan-hybrid-connectivity.md)する」および「 [Skype for Business server と office 365 の間のハイブリッド接続を構成する](configure-hybrid-connectivity.md)」を参照してください。
 
-- Office 365 テナントに対して認証を行い、次の役割が有効になっていることを確認します。
+- Office 365 組織に対して認証を行い、次の役割が有効になっていることを確認します。
 
   - Skype for Business Server 管理者
-  - Office 365 グローバル管理者
+  - グローバル管理者
 
 - まだ行っていない場合は、 [Microsoft Teams および Skype For Business Online の通話品質ダッシュボードの有効化と使用](/microsoftteams/turning-on-and-using-call-quality-dashboard)に関する説明に従って、通話品質ダッシュボードを有効にします。
 
