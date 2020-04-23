@@ -23,16 +23,16 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: '通話品質ダッシュボードをオンにして使用し、通話の品質に関する概要レポートを取得する方法について説明します。 '
-ms.openlocfilehash: 7fafbebaa21a6bbd71ab0e253f226908d6787869
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.openlocfilehash: 52bf3856ad5c737143d179525e5c2870748f3b46
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42983325"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43788987"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Microsoft Teams および Skype for Business Online で通話品質ダッシュボードをオンにして使用する
 
-通話品質ダッシュボードを使って通話品質を監視できるように Office 365 組織を構成する方法について説明します。
+通話品質ダッシュボードを使って通話品質を監視するために Microsoft 365 または Office 365 を構成する方法について説明します。
   
 通話品質ダッシュボード (CQD) は、Microsoft Teams と Skype for Business Online サービスを使って発信した通話の品質を把握するのに適しています。 このトピックでは、通話品質の問題をトラブルシューティングするために使用できるデータの収集を開始する手順について説明します。
 
@@ -149,11 +149,11 @@ CQD v3 は、SPD レポートでのドリルスルーまたはドリルダウン
 
 ## <a name="activate-microsoft-call-quality-dashboard-cqd-summary-reports"></a>Microsoft 通話品質ダッシュボード (CQD) の概要レポートを有効にする
 
-CQD の使用を開始する前に、次のようにして Office 365 組織に対してライセンス認証を行います。
+CQD の使用を開始する前に、次のように Microsoft 365 または Office 365 でライセンス認証を行います。
 
 ![](media/teams-logo-30x30.png) **Microsoft teams 管理センターを使用し**た microsoft teams ロゴを示すアイコン
 
-1. Microsoft Teams service 管理者アカウントを使用して Office 365 組織にサインインし、[**管理者**] タイルを選んで管理センターを開きます。
+1. Microsoft Teams service 管理者アカウントを使用して Microsoft 365 または Office 365 にサインインし、[**管理者**] タイルを選んで管理センターを開きます。
 2. 左側のウィンドウの [**管理センター**] で、[ **microsoft teams** ] を選択して、microsoft teams 管理センターを開きます。
 3. Microsoft Teams 管理センターで、左側のウィンドウの [**通話品質ダッシュボード**] を選択します。
 4. Https:// \(<span><span/>cqd.teams.microsoft.com\)が開かれるページで、[**サインイン**] をクリックして、グローバル管理者アカウントまたは microsoft teams サービス管理者アカウント情報を入力します。
@@ -166,7 +166,7 @@ CQD の使用を開始する前に、次のようにして Office 365 組織に�
 
 ![Skype for business の](media/sfb-logo-30x30.png) **レガシポータルを使用し**た skype for business ロゴのアイコン
 
-1. 管理者アカウントを使用して Office 365 組織にサインインし、[**管理者**] タイルを選んで管理センターを開きます。
+1. 管理者アカウントを使用して Microsoft 365 または Office 365 にサインインし、[**管理者**] タイルを選んで管理センターを開きます。
 2. 左側のウィンドウの [**管理センター**] で、[ **microsoft teams** ] を選択して、microsoft teams 管理センターを開きます。
 3. Microsoft Teams 管理センターで、左側のウィンドウで [**従来のポータル**] を選び、[**ツール**]、[ **Skype For business Online 通話品質ダッシュボード**] の順に選択します。
 
@@ -466,7 +466,7 @@ CQD v3 では CQD v2 に新しいシナリオが存在しないため、CQD v2 �
 
 使用シナリオに Skype for Business Server の2019通話が含まれている場合、CQD v3 のデータには、Skype ボット通話 (自動応答、CVI、仮想デスクトップインターフェイス)、ライブイベント、PSTN 通話が含まれます。 CQD v2 では、このデータは使用されません。 (CQD v3 には、クラウドデータコネクタが構成された Skype for Business Server 2019 が必要です。)
 
-たとえば、CQD v2 の概要レポートで5000のエラーを含む20万オーディオストリームが表示された場合は、5500の障害が発生している30万オーディオストリーム (Skype for Business Server 2019 通話、CVI 通話、PSTN 通話など) が表示されない可能性があります。など) を CQD v3 の概要レポートで作成します。
+たとえば、CQD v2 の概要レポートで5000エラーが20万オーディオストリームで表示されている場合は、5500のエラーのある30万オーディオストリーム (Skype for Business Server 2019 通話、CVI 通話、PSTN 通話など) が CQD v3 のサマリーレポートに表示されることはありません。
 
 予期しない違いを明確にするために、データ全体の1つ以上の内訳を確認します。 次のパラメーターの1つ以上を使ってデータにフィルターを適用します。
 
@@ -496,7 +496,7 @@ Teams では、Skype for Business Online ではなく、いくつかの品質と
 ### <a name="why-cant-i-see-euii-in-cqd"></a>CQD で EUII が表示されるのはなぜですか?
 
 次の管理者ロールは、CQD にアクセスできますが、EUII (エンドユーザーを特定できる情報) を表示することはできません。
-- Office 365 レポートリーダー
+- Microsoft 365 レポートリーダー
 - Teams 通信サポート スペシャリスト
 
 CQD にアクセスできる役割の詳細については、「 [CQD にアクセスするための役割の割り当て](quality-of-experience-review-guide.md#assign-roles-for-accessing-cqd)」を参照してください。
@@ -505,7 +505,7 @@ CQD にアクセスできる役割の詳細については、「 [CQD にアク�
 
 CQD レポート (isTeams = 1) でのみチームをフィルター処理している場合、*第1のエンドポイント*が Teams であるすべての通話をフィルター処理します。 *第2のエンドポイント*が Skype for business の場合、その情報が CQD レポートに表示されます。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [通話品質ダッシュボードで利用できるディメンションとメジャー](dimensions-and-measures-available-in-call-quality-dashboard.md)
 

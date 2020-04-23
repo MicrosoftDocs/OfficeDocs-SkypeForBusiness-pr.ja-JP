@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5244bd063caae9b0fab1411f4644e3adbd337431
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: e7e8effb58130a177e193db006ec6e0279f27309
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706997"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780596"
 ---
 # <a name="enlist-your-project-stakeholders"></a>プロジェクト関係者に協力を求める
 
@@ -40,7 +40,7 @@ ms.locfileid: "42706997"
 
 | | |
 |---|---|
-| ![判断ポイントを表すアイコン](media/audio_conferencing_image7.png) <br/>判断のポイント | <ul><li>このプロジェクトのステークホルダーチームとして使用する適切なユーザーは誰ですか?</li></ul> |
+| ![判断ポイントを表すアイコン](media/audio_conferencing_image7.png) <br/>判断ポイント | <ul><li>このプロジェクトのステークホルダーチームとして使用する適切なユーザーは誰ですか?</li></ul> |
 | ![次の手順を示すアイコン](media/audio_conferencing_image9.png)<br/>次の手順 | <ul><li>プロジェクトの範囲を検討し、関連するステークホルダーを割り当てます。</li><li>次の表をガイドラインとして使用しますが、この一覧はすべてを網羅しているわけではありませんので注意してください。<br><strong>メモ</strong><br>担当責任者に相談した[(RACI) マトリックス](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix)を作成して、単にプロジェクトの特定の領域で情報を伝える必要があるユーザーに対して、責任を持っているユーザーを区別します。</li> |
 | <li>運営委員会を作成するかどうかを決定し、必要に応じて役割を割り当てます。</li></ul> | |
 
@@ -61,7 +61,7 @@ ms.locfileid: "42706997"
 | テレフォニー リード | テレフォニーの設計と実装について把握する |
 | サービスオーナー/品質チャンピオン | ユーザーエクスペリエンスの品質を含む、すべてのチームの操作を所有する |
 | デスクトップとデバイスの潜在顧客 | クライアント、デバイス、デスクトップアプリへの入力を提供する |
-| IT Pro/テナント管理者 | ネットワーク準備と Office 365 ポータルの構成を確実に行う |
+| IT Pro/テナント管理者 | ネットワークの準備と Microsoft 365 管理センターの構成が確実に行われるようにします。 |
 | サポート/ヘルプ デスク リード | サポートデスクの準備を管理する |
 | 変更管理の潜在顧客 | ユーザーの変更管理と導入プログラムを監視する |
 | マーケティングリーダー | コミュニケーションキャンペーンの設計と実装 |

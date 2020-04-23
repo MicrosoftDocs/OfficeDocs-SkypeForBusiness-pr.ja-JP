@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Office 365 管理者としてSkype for Business Onlineの音声会議の設定 を編集することができます-プロバイダー、既定の有料または無料電話番号、会議 ID、暗証番号 (pin) など、組織内の個々 のユーザーの設定です。 '
-ms.openlocfilehash: c9a5f90d0c7577571188764393ecc667a243cd56
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: fe6814bee547e80d6bcb6fc367d055dce13d513d
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707182"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777992"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-skype-for-business-online"></a>Skype for Business Online のユーザーの電話会議の設定を管理する
 
@@ -36,7 +36,7 @@ ms.locfileid: "41707182"
 Office 365 管理者としてSkype for Business Onlineの電話会議の設定 を編集することができます-プロバイダー、既定の有料または無料電話番号、会議 ID、暗証番号 (pin) など、組織内の個々 のユーザーの設定です。 組織の設定を編集する場合は、「[組織の電話会議の設定を管理](manage-the-audio-conferencing-settings-for-my-organization.md)する」を参照してください。
 
  
-1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
+1. 職場または学校のアカウントを使用してサインインします。
     
 2. [**管理センター**]  >  [**Skype for Business**]を選択します。
     
@@ -46,7 +46,7 @@ Office 365 管理者としてSkype for Business Onlineの電話会議の設定 �
     
 5. 左側のナビゲーションで、 **電話会議** を選択し、ユーザーの **プロパティ**  ページで、次のいずれかを変更します。
     
-|**]**|**説明**|
+|**設定**|**説明**|
 |:-----|:-----|
 |**プロバイダー名** <br/> |リストからプロバイダーを選択します。  <br/><br/> **注:** このテーブル内の残りの設定は、音声会議プロバイダーとして Microsoft を選択した場合にのみ適用されます。           |
 |**既定の有料電話番号** (必須) <br/> |これらの電話番号は、電話会議プロバイダーからサードパーティのプロバイダー用に入手したものです。 ユーザーが、Microsoft を電話会議プロバイダーとして使用している場合は、これらは電話会議ブリッジで設定されている番号となります。 Skype for Business および Microsoft Teams の会議出席依頼に表示する番号の書式を設定します。  <br/> |

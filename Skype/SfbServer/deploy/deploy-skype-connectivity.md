@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: '概要: skype for business Server を Skype コンシューマーと接続する方法について説明します。 Skype 接続とも呼ばれます。'
-ms.openlocfilehash: be53acc531d0abb789ae4e622a24dc313483cac6
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2cf124c340218a352f55fa1c09302a0d0f1d972a
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030450"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780066"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Skype for business Server での Skype 接続の展開
 
@@ -65,7 +65,7 @@ Skype ディレクトリ検索機能を使用すると、skype for Business ユ�
 > オンプレミス展開に複数のサイトがある顧客に対して、1つの Skype for Business Server エッジサーバーまたはプールのみを展開した場合、すべてのサイトからの検索トラフィックは、1つの使用可能なエッジサーバーを通過します。 管理者は、展開された Skype for Business Server エッジサーバーまたはプールにすべてのサイトからプールがアクセスできることを確認する必要があります。 
   
 > [!NOTE]
-> Skype graph サービスは、要求レートが15要求/秒を超えた場合に、オンプレミスまたは Office 365 のお客様からの検索要求を調整します。 
+> Skype graph サービスは、要求レートが15要求/秒を超えた場合に、オンプレミスまたは Microsoft 365 または Office 365 お客様からの検索要求を調整します。 
   
 > [!NOTE]
 > 大規模エンタープライズオンプレミスのお客様の場合は、要求速度の向上を可能にするために、ドメインを Skype search サービスでホワイトリストする必要があります。 
@@ -75,9 +75,9 @@ Skype ディレクトリ検索機能を使用すると、skype for Business ユ�
   
 ## <a name="deploying-skype-connectivity-for-skype-for-business-online-in-office-365"></a>Office 365 で Skype for business Online の Skype 接続を展開する
 
-Skype 接続は、Office 365 の一部である Skype for Business Online の機能でもあります。 Skype Connectivity 機能は、Office 365 ポータル内の Skype for Business 管理センターから有効にすることができます。
+Skype 接続は、Office 365 の一部である Skype for Business Online の機能でもあります。 Skype Connectivity 機能は、Microsoft 365 管理センター内の Skype for Business 管理センターから有効にすることができます。
   
-Office 365 の中規模企業、Office 365 Enterprise、Office 365 エデュケーション、および Office 365 for Government: Office 365 ポータルにサインインして、Skype for Business 管理センターに移動します。 [外部通信] に移動します。 [パブリック IM サービスプロバイダー] の下で、[有効にする] をクリックします。 個々のユーザーの Skype 接続へのアクセスを制御するには、個々のユーザーの外部通信設定を編集します。
+Office 365 の中規模企業、Office 365 Enterprise、Office 365 エデュケーション、および Office 365 for Government: Microsoft 365 管理センターにサインインして、Skype for Business 管理センターに移動します。 [外部通信] に移動します。 [パブリック IM サービスプロバイダー] の下で、[有効にする] をクリックします。 個々のユーザーの Skype 接続へのアクセスを制御するには、個々のユーザーの外部通信設定を編集します。
   
 Office 365 Small Business Premium の場合: Office 365 にサインインし、管理者\>サービス設定\>の [インスタントメッセージング]、[会議と会議] の順に移動します。 外部通信を有効にします。 外部通信スイッチは、skype for business を使用する他の組織との Skype 接続と通信の両方を有効にします。
   
@@ -93,7 +93,7 @@ Skype for Business Online の管理の詳細については、以下を参照し
     
 ## <a name="deploying-skype-connectivity-for-skype-for-business-server"></a>Skype for business Server の Skype 接続の展開
 
-Skype for Business Server は、フェデレーションアクセスアーキテクチャを使用して Skype との接続をサポートします。 この接続により、Skype for Business Server のユーザーは Skype を追加できるようになります。 Skype クライアントでは、Skype for Business ユーザーを連絡先リストに追加することもできます。 Skype for Business Server で管理上設定されたポリシーに基づいて、ユーザーはインスタントメッセージングを使用して通信したり、互いのプレゼンスを確認したり、音声およびビデオ通話を開始したりすることができます。 Skype 接続は、Skype for Business Online の機能でもあり、Office 365 ポータル内の Skype for business 管理センターから Skype for business Online の顧客に対して有効にすることができます。
+Skype for Business Server は、フェデレーションアクセスアーキテクチャを使用して Skype との接続をサポートします。 この接続により、Skype for Business Server のユーザーは Skype を追加できるようになります。 Skype クライアントでは、Skype for Business ユーザーを連絡先リストに追加することもできます。 Skype for Business Server で管理上設定されたポリシーに基づいて、ユーザーはインスタントメッセージングを使用して通信したり、互いのプレゼンスを確認したり、音声およびビデオ通話を開始したりすることができます。 Skype 接続は、Skype for Business Online の機能でもあり、Microsoft 365 管理センター内の Skype for business 管理センターから、skype for business Online のお客様に対して有効にすることができます。
   
 > [!NOTE]
 > Skype for Business Server がパブリックインスタントメッセージング接続 (PIC) を使用して Windows Messenger と接続するように既に構成されている場合、展開は既に Skype 接続用に構成されています。 検討する必要があるのは、既存の Messenger PIC エントリの名前を Skype に変更することだけです。 
@@ -109,7 +109,7 @@ Skype for Business Server は、フェデレーションアクセスアーキテ
   
 オンプレミスの展開では、ホストする各ドメインのフェデレーション DNS SRV レコードを公開する必要があります。 ガイダンスは、 [DNS の計画](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#dns-planning)で利用できます。 各ドメインは、ドメインのトップレベルのサフィックスが一致するエッジサーバーの FQDN への DNS SRV クエリによって解決される必要があります。 たとえば、ドメイン "contoso.com" を考えてみます。
 
-|**有効な Fqdn**|**Comment**|
+|**有効な Fqdn**|**コメント**|
 |:-----|:-----|
 |sip.contoso.com   ||
 |sipfed.contoso.com   |どちらの場合も、正確な FQDN は、エッジサーバーにインストールされている外部証明書の SN または SAN に存在する必要があります。   |
@@ -212,7 +212,7 @@ Skype 接続の構成は、PowerShell のみを使用して行うこともでき
      > 変更が行われた場合は、パブリックプロバイダーを削除して、新しいものを追加する必要があります。 インプレース変更は許可されていません。 
   
      > [!NOTE]
-     > Lync Server 2013 CU5 &amp; lync desktop Client in OFFICE 2013 SP1 では、NameDecorationRoutingDomain と NameDecorationExcludedDomainList は、lync ユーザーが skype の連絡先を追加することによって、Microsoft 以外 @msn のドメインを識別して skype 形式にルーティングする必要がある状況を改善しました ()。 これらの新しい設定では、NameDecorationRoutingDomain (msn.com に設定する必要があります) の [Skype 連絡先の追加] ダイアログボックスで、ユーザーの入力を自動的に書式設定することができます (NameDecorationExcludedDomainList 内のドメインが含まれていない場合)。現時点では、msn.com、live.com、Hotmail.com、outlook.com) をサポートできます。 
+     > Lync Server 2013 CU5 &amp; lync desktop Client in OFFICE 2013 SP1 では、NameDecorationRoutingDomain と NameDecorationExcludedDomainList は、lync ユーザーが skype の連絡先を追加することによって、Microsoft 以外 @msn のドメインを識別して skype 形式にルーティングする必要がある状況を改善しました ()。 これらの新しい設定によって、NameDecorationRoutingDomain (現在は msn.com、live.com、Hotmail.com、outlook.com) のドメインが含まれていない場合は、[Skype 連絡先の追加] ダイアログボックスの [Skype 連絡先の追加] ダイアログボックスで、ユーザーの入力を自動書式設定することができます (msn.com に設定する必要があります)。 
   
 3. Skype for Business クライアントのユーザーは、Skype ユーザーを検索して追加できるようになりました。
     
@@ -221,7 +221,7 @@ Skype 接続の構成は、PowerShell のみを使用して行うこともでき
 次の表は、最新バージョンの Skype コンシューマーと Skype for Business の最新バージョンとの相互運用の状態を示しています。
   
 
-|**Skype クライアント**|**連絡先、IM、プレゼンス、音声、ビデオ通話を追加する**|**Comment**|
+|**Skype クライアント**|**連絡先、IM、プレゼンス、音声、ビデオ通話を追加する**|**コメント**|
 |:-----|:-----|:-----|
 |Skype Windows デスクトップ  <br/> |7.6 またはそれ以降、Windows XP 以降  <br/> |**NEW**: windows XP および windows Vista **(最新のクライアントバージョン7.26 以降を必要**とします) で実行されている windows Skype クライアント用のサポートが追加されました。 <br/> |
 |Skype Mobile-Android 電話とタブレット  <br/> |6.19 以上 (Android OS バージョン4.0.3 以降を実行中)  <br/> |低仕様のデバイスでビデオ通話がサポートされない場合がある  <br/> |

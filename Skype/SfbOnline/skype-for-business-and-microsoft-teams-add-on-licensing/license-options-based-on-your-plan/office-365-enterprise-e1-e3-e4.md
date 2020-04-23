@@ -21,12 +21,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'アドオン ライセンス、機能、そして Office 365 Enterprise、E1、E3、E4 プランを購入する方法について説明します。 '
-ms.openlocfilehash: 79a803061acfd4550c75871c08f40b16ee2f8e2b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8000a71c52c03d82c8d01c92601be01d48db04dd
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010590"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777962"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 Enterprise E1、E3、および E4
 
@@ -35,7 +35,7 @@ ms.locfileid: "42010590"
 |||
 |:-----|:-----|
 |**この機能を追加するには** <br/> |**購入する必要のあるもの** <br/> |
-|**電話会議** <br/> ダイヤルイン会議をスケジュールまたは主催しようとしているユーザーごとに、1件の**電話会議**ライセンスを購入します。 Attendees do not need licenses. <br/> |**電話会議** のアドオン <br/>ライセンスを購入すると、Microsoft が電話会議プロバイダーになります。 |
+|**電話会議** <br/> ダイヤルイン会議をスケジュールまたは主催しようとしているユーザーごとに、1件の**電話会議**ライセンスを購入します。 出席者にライセンスは必要ありません。 <br/> |**電話会議** のアドオン <br/>ライセンスを購入すると、Microsoft が電話会議プロバイダーになります。 |
 |**会議へのダイヤルインアクセスのための無料電話番号や、世界中の電話番号に発信して誰かを追加するために会議からダイヤルアウトする機能** <br/> |[コミュニケーション クレジット](/microsoftteams/add-funds-and-manage-communications-credits)|
 |**電話システム** <br/> |1. **Office 365 電話システム**アドオン <br/> ２．通話プラン: Office 365 から [通話プラン](/MicrosoftTeams/calling-plans-for-office-365) を購入しましょう。 <br/>  または、 [現在お使いのプロバイダーから提供された電話サービス](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing) を使用しましょう。  <br/> |
 |**クラウド ボイスメール** <br/> |E1 と E4 プランの場合は、Exchange Online Plan 2 を購入します。 <br/>または、Office 365 E3 などの Exchange Online Plan 2 に同梱されてくる Office Suite に切り替えます。 |
@@ -53,7 +53,7 @@ ms.locfileid: "42010590"
 
    ![アドオンライセンスを購入するには、[アドオンの購入] を選択します。](../../images/fc4d7506-4ee9-4e39-be54-0622edffb77a.png)
 
-3. **電話システム** ライセンスを購入すると、通話プランを購入するオプションと価格が表示されます。
+3. **電話システム** ライセンスのご購入後、通話プランの料金と、それを購入するためのオプションが表示されます。
 
 ### <a name="partners-how-to-see-prices-and-buy"></a>パートナー: 価格の表示方法と購入方法
 <a name="bkmk_partners"> </a>
@@ -71,7 +71,7 @@ E3 プランはお持ちの Action Pack に含まれています。 **電話シ�
 
 一部の状況では、Microsoft 365 管理センターで Skype for Business アドオンを購入するオプションが表示されません。
 
-- **Office 365 Business Premium を GoDaddy** から購入されています。 この場合、Skype for Business アドオンを購入することはできません。 E3 プランに切り替える必要があります (GoDaddy は販売していません)。その後、それらを購入することができます。 [ビジネス製品のサポートについては、「管理者向けヘルプ」を参照してください](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
+- **GoDaddy を通じて Microsoft 365 ビジネス標準を購入した**。 この場合、Skype for Business アドオンを購入することはできません。 E3 プランに切り替える必要があります (GoDaddy は販売していません)。その後、それらを購入することができます。 [ビジネス製品のサポートについては、「管理者向けヘルプ」を参照してください](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
 
 - **年間契約ではなく月単位の契約を結んでいます** 。 場合によっては、月単位の契約のユーザーはアドオンを購入いただけません (支払方法が月単位の場合は該当しません)。 これは既知の問題であり、これを修正しています。 [ビジネス製品のサポートについては、「管理者向けヘルプ」を参照してください](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
 

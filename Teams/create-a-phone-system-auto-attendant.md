@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Microsoft Teams のクラウド自動応答をセットアップしてテストする方法について説明します。
-ms.openlocfilehash: 05a70c578812ee5ecdd91214ab253843fe67471c
-ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
+ms.openlocfilehash: dee263c08751f21e1fde19965d23595d5da27e39
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43508627"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43788976"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>クラウドの自動応答をセットアップする
 
@@ -333,7 +333,7 @@ If you choose **Write your call instructions**, enter the script  you want the s
 
 [すべての**オンラインユーザー**] を選択すると、対象ユーザーがすべてディレクトリ検索に含まれます。
 
-**カスタムユーザーグループ**このオプションでは、組織内で既に作成されている Office 365 グループ、配布リスト、またはセキュリティグループを検索して選択することができます。 ユーザーは、選択した Office 365 グループ、配布リスト、またはセキュリティグループに含まれており、**電話システムのライセンスを持つオンラインユーザー**であるか、Skype For business Server を使用してオンプレミスでホストされている場合、ディレクトリに追加されます。 複数の Office 365 グループ、配布リスト、セキュリティグループをディレクトリに追加することができます。
+**カスタムユーザーグループ**このオプションでは、組織内で既に作成されている Office 365 グループ、配布リスト、またはセキュリティグループを検索して選択することができます。 ユーザーは、選択した Office 365 グループ、配布リスト、またはセキュリティグループに含まれており、**電話システムのライセンスを持つオンラインユーザー**であるか、Skype For business Server を使用してオンプレミスでホストされている場合、ディレクトリに追加されます。 複数の Microsoft 365 グループ、配布リスト、セキュリティグループをディレクトリに追加することができます。
 
 <a name="dialscope"> </a>
 
@@ -343,7 +343,7 @@ If you choose **Write your call instructions**, enter the script  you want the s
 
 [**なし**] を選択すると、対象ユーザーはすべてディレクトリ検索に含まれます。
 
-**カスタムユーザーグループ**組織内で作成された Office 365 グループ、配布リスト、またはセキュリティグループを検索できます。 そのグループ内のユーザーはディレクトリ検索から除外されます。 複数の Office 365 グループ、配布リスト、セキュリティ グループを追加することができます。
+**カスタムユーザーグループ**組織内で作成された Office 365 グループ、配布リスト、またはセキュリティグループを検索できます。 そのグループ内のユーザーはディレクトリ検索から除外されます。 複数の Microsoft 365 グループ、配布リスト、セキュリティグループを追加することができます。
 
 
 [名前でダイヤルする] が有効になっているときに設定を既定のままにすると、対象ユーザーがすべてディレクトリ検索に含まれます。

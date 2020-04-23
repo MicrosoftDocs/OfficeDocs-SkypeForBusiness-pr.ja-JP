@@ -10,18 +10,19 @@ audience: admin
 description: 定期的なウイルススキャンから特定のファイルやフォルダーを除外することで、チームのパフォーマンスを向上させます。
 localization_priority: Normal
 search.appverid: MET150
+ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c1519038cb2393687a031e9b2c1ea828f999728
-ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
+ms.openlocfilehash: a1e890509428b3bfba19f6bfb01916e8ea837147
+ms.sourcegitcommit: 0fa50d1cf354d79fbaf16b6aaec60e8d3ab852e8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42265622"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43579593"
 ---
 <a name="teams-files-and-folders-to-exclude-from-antivirus-scanning"></a>ウイルス対策スキャンから除外する Teams のファイルとフォルダー
 =================================
@@ -43,11 +44,3 @@ ms.locfileid: "42265622"
 
 **%localappdata%\Microsoft\Teams\Update.exe**
 
-### <a name="folders"></a>フォルダ
-
-ウイルス対策の安全なリストに次の Teams フォルダーを追加します。
-
-|[カテゴリ]  |場所  |
-|---------|---------|
-|プログラムファイル  |%localappdata%\Microsoft\Teams|
-|データファイル     |%appdata%\Microsoft\Teams\ |

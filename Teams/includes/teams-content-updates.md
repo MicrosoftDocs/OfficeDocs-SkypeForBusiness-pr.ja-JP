@@ -173,7 +173,7 @@
 | 4/3/2020 | [管理者トレーニングリソース-Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | 更新日時 |
 | 4/3/2020 | [Office 365 の URL と IP アドレスの範囲](/MicrosoftTeams/office-365-urls-ip-address-ranges) | 更新日時 |
 | 4/3/2020 | [Office 365 コネクタとカスタム コネクタの使用](/MicrosoftTeams/office-365-custom-connectors) | 更新日時 |
-| 4/3/2020 | [Office 365 グループと Microsoft Teams](/MicrosoftTeams/office-365-groups) | 更新日時 |
+| 4/3/2020 | [Microsoft 365 グループと Microsoft 365 または Office 365softTeams/office-365-グループ] | 更新日時 |
 | 4/3/2020 | [Office 365 組織のチームをオンにする](/MicrosoftTeams/office-365-set-up) | 更新日時 |
 | 4/3/2020 | [チームクライアントでのサービス品質の実装](/MicrosoftTeams/qos-in-teams-clients) | 更新日時 |
 | 4/3/2020 | [Microsoft Teams でサービスの品質 (QoS) を実施する](/MicrosoftTeams/qos-in-teams) | 更新日時 |
@@ -225,7 +225,7 @@
 | 4/3/2020 | [組織の設定を管理する](/MicrosoftTeams/enable-features-office-365) | 更新日時 |
 | 4/3/2020 | [電話会議の設定が変更されたときのメールオプション](/MicrosoftTeams/enable-or-disable-sending-emails-when-their-settings-change-in-teams) | 更新日時 |
 | 4/3/2020 | [ユーザーが会議の名前を記録できるようにする](/MicrosoftTeams/enable-users-to-record-their-name-when-they-join-a-meeting-in-teams) | 更新日時 |
-| 4/3/2020 | [既存の Office 365 グループを強化する](/MicrosoftTeams/enhance-office-365-groups) | 更新日時 |
+| 4/3/2020 | [既存の Microsoft 365 グループを強化する](/MicrosoftTeams/enhance-office-365-groups) | 更新日時 |
 | 4/3/2020 | [クラウドボイス展開の運営委員会](/MicrosoftTeams/envision-steering-committee-complete-guide) | 更新日時 |
 | 4/3/2020 | [Microsoft Teams を組織全体で展開する](/MicrosoftTeams/expand-teams-across-your-org/expand-teams-across-your-organization-landing-page) | 更新日時 |
 | 4/3/2020 | [患者のアプリと EHR の統合 DSTU2 インターフェイス](/MicrosoftTeams/expand-teams-across-your-org/healthcare/dstu2-interface) | 更新日時 |
@@ -270,7 +270,7 @@
 | 4/3/2020 | [発信通話制限-電話会議 & PSTN 通話](/MicrosoftTeams/outbound-calling-restriction-policies) | 更新日時 |
 | 4/3/2020 | [Microsoft Teams に電話番号を転送する](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams) | 更新日時 |
 | 4/3/2020 | [電話会議の電話番号](/MicrosoftTeams/phone-numbers-for-audio-conferencing-in-teams) | 更新日時 |
-| 4/3/2020 | [チームを作成するときの Office 365 グループの計画](/MicrosoftTeams/plan-office-365-groups) | 更新日時 |
+| 4/3/2020 | [Teams の作成時に Microsoft 365 グループを計画する](/MicrosoftTeams/plan-office-365-groups) | 更新日時 |
 | 4/3/2020 | [Microsoft 365 Government-DoD の展開](/MicrosoftTeams/plan-for-government-dod) | 更新日時 |
 | 4/3/2020 | [Microsoft 365 Government-GCC 高展開](/MicrosoftTeams/plan-for-government-gcc-high) | 更新日時 |
 | 4/3/2020 | [Microsoft 365 Government-GCC 展開](/MicrosoftTeams/plan-for-government-gcc) | 更新日時 |
@@ -443,7 +443,7 @@
 | 4/14/2020 | [Slack から Microsoft Teams に移行する](/MicrosoftTeams/migrate-slack-to-teams) | 更新日時 |
 | 4/14/2020 | [Microsoft Teams を使用してリモート ワーカーをサポートする](/MicrosoftTeams/support-remote-work-with-teams) | 更新日時 |
 | 4/14/2020 | [啓発とトレーニングの実施](/MicrosoftTeams/teams-adoption-drive-awareness) | 更新日時 |
-| 4/14/2020 | [Microsoft Teams の管理者向けトレーニング](/MicrosoftTeams/training-microsoft-teams-landing-page) | 更新日時 |
+| 4/14/2020 | [Microsoft Teams の管理者トレーニング](/MicrosoftTeams/training-microsoft-teams-landing-page) | 更新日時 |
 | 4/14/2020 | [コンテンツの電子情報開示調査の実施](/MicrosoftTeams/ediscovery-investigation) | 更新日時 |
 | 4/14/2020 | [Teams でのユーザーのプレゼンス](/MicrosoftTeams/presence-admins) | 更新日時 |
 | 4/14/2020 | [Microsoft Teams 室のデバイス設定をリモートで管理する](/MicrosoftTeams/rooms/xml-config-file) | 更新日時 |

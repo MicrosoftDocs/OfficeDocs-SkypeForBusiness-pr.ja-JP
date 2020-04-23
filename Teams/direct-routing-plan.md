@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Microsoft 電話システムのダイレクトルーティングを使用して、サポートされているユーザー指定のセッションボーダーコントローラー (SBC) を Microsoft 電話システムに接続する方法について説明します。
-ms.openlocfilehash: 0140e4d2cfae95531602daec5a859a85888e9d15
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 7d5a69ff3b0533d17d6582489fad6e156d8df1c7
+ms.sourcegitcommit: 6fbaab29076e16fe18f8faeb7e012a0815c2369d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780696"
+ms.locfileid: "43785940"
 ---
 # <a name="plan-direct-routing"></a>ダイレクト ルーティングを計画する
 
@@ -299,8 +299,8 @@ SBC は、sip.pstnhub.microsoft.com を解決する DNS クエリを行います
 
 |**通過**|**開始**|**終了**|**ソースポート**|**宛先ポート**|
 |:--- |:--- |:--- |:--- |:--- |
-|UDP/SRTP|メディアプロセッサ|SBC|49152–53247|SBC で定義|
-|UDP/SRTP|SBC|メディアプロセッサ|SBC で定義|49152–53247|
+|UDP/SRTP|メディアプロセッサ|SBC|3478-3481 および49152–53247|SBC で定義|
+|UDP/SRTP|SBC|メディアプロセッサ|SBC で定義|3478-3481 および49152–53247|
 
   > [!NOTE]
   > Microsoft は、SBC で同時呼び出しごとに少なくとも2つのポートをお勧めします。
