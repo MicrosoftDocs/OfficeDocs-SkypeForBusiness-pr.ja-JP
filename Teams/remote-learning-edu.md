@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c264bba408205f8f00d1df20fffbc6242124220
-ms.sourcegitcommit: f9860dbf3c719fec5ffc1874b503b6db252afe10
+ms.openlocfilehash: 756059aaf7a707a824c75bd0306df04a70b66829
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "43237960"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780566"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>遠隔学習向けに Microsoft Teams の使用を開始する。
 
@@ -56,7 +56,7 @@ Teams の使用シナリオは、[Teams for Education 向けウェビナー シ�
 
 Teams では、Microsoft 365 の機能を利用してユーザーの認証とサービスの提供が行われます。 共同作業が行えるよう、職員、教員、および生徒の ID が設定されている必要があります。 ID がまだない場合は、次の手順を実行して ID を設定します。
 
-ユーザーが Teams の機能を使用できるようになるには、[Teams のライセンスをユーザーに対して有効にし](https://docs.microsoft.com/MicrosoftTeams/teams-quick-start-edu?tutorial-step=2)、[ライセンスをユーザーに付与する](teams-edu-licensing.md)必要があります。 Teams では、[Office 365 グループ](Office-365-groups.md)、[Exchange](Exchange-Teams-interact.md)、[SharePoint と OneDrive](SharePoint-OneDrive-interact.md) など、Teams 以外の Microsoft 365 の機能を利用して共同作業のシナリオを有効にしています。 最適な Teams 環境をユーザーに提供するには、これらの機能も有効になっている必要があります。 [Teams では、Google でホストされるメールを使用するユーザーもサポートされています](https://docs.microsoft.com/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users)。
+ユーザーが Teams の機能を使用できるようになるには、[Teams のライセンスをユーザーに対して有効にし](https://docs.microsoft.com/MicrosoftTeams/teams-quick-start-edu?tutorial-step=2)、[ライセンスをユーザーに付与する](teams-edu-licensing.md)必要があります。 Teams では、[Microsoft 365 グループ](Office-365-groups.md)、[Exchange](Exchange-Teams-interact.md)、[SharePoint と OneDrive](SharePoint-OneDrive-interact.md) など、Teams 以外の Microsoft 365 の機能を利用して共同作業のシナリオを有効にしています。 最適な Teams 環境をユーザーに提供するには、これらの機能も有効になっている必要があります。 [Teams では、Google でホストされるメールを使用するユーザーもサポートされています](https://docs.microsoft.com/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users)。
 
 Microsoft Teams は、教育機関が無料で使用できる Office 365 A1 に含まれています。 Office 365 の展開方法および学校全体で Teams の使用を開始する方法に関する IT ガイドについては、[こちらのページ](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/set-up-office365-edu-tenant)を参照してください。 サポートが必要な場合は、[こちら](https://signup.microsoft.com/Signup?OfferId=03ee83a5-5cb4-4545-aca9-33ead43f222a,d764709a-7763-45ef-a2a8-db5b8b6ae704&DL=ENTERPRISEPREMIUM_FACULTY&ali=1)でサポート チケットを申請することができます。Microsoft のスペシャリストに直接相談することをご希望の場合は、お近くの Microsoft Store までご来店ください。
 
@@ -69,7 +69,7 @@ Teams の使用を開始するには、2 つの作業を行う必要がありま
 
 ### <a name="1-allow-users-to-create-teams"></a>1. ユーザーがチームを作成できるようにする
 
-生徒と教師に Teams を最大限に活用してもらうには、使用に際してのハードルが低く、各自のニーズに合うようにカスタマイズできる柔軟性があることが大切です。 Teams のエクスペリエンスをユーザーがカスタマイズできるようにする方法の 1 つは、各自のニーズに合ったチームを作成することをユーザーに許可することです。 **既定では、すべてのユーザーが Office 365 グループとチームを作成することができます**。 この能力を付与することが適切ではない場合があります。例えば、学校によっては、小中高生がチームを作成できないようにすることを希望する場合があります。 必要に応じて、お客様の環境内での Office 365 グループおよびチームの作成を、[特定のセキュリティ グループ](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups)に制限することができます。
+生徒と教師に Teams を最大限に活用してもらうには、使用に際してのハードルが低く、各自のニーズに合うようにカスタマイズできる柔軟性があることが大切です。 Teams のエクスペリエンスをユーザーがカスタマイズできるようにする方法の 1 つは、各自のニーズに合ったチームを作成することをユーザーに許可することです。 **既定では、すべてのユーザーが Microsoft 365 グループとチームを作成することができます**。 この能力を付与することが適切ではない場合があります。例えば、学校によっては、小中高生がチームを作成できないようにすることを希望する場合があります。 必要に応じて、お客様の環境内での Office 365 グループおよびチームの作成を、[特定のセキュリティ グループ](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups)に制限することができます。
 
 高等教育機関の場合、学生を含むすべてのユーザーがクラス、研究、グループ プロジェクト、学習グループなどのためにチームを作成できるようにすることが有益であると考えられます。 小学校、中学校、高等学校の場合、生徒間のすべてのコミュニケーションが大人が参加しているフォーラムで行われるよう、生徒がチームを作成できないように設定することをお勧めします。 この場合、Office 365 グループおよびチームの作成は、教職員に限定されます。
 

@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0ad27eec186bec2fce915da0fc53f515f58ce8e9
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: 4991945d47ecda85964068530118bcf3ef1f616a
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892317"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749794"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>Microsoft Teams Exploratory ライセンスを管理する
 =======================================================
@@ -156,8 +156,8 @@ Teams Exploratory ライセンスからユーザーをアップグレードす�
 
 ## <a name="how-long-does-the-teams-exploratory-experience-last"></a>Teams Exploratory エクスペリエンスの利用可能期間
 
-Microsoft Teams Exploratory エクスペリエンスは、次のエンタープライズ契約日、または 2021 年 1 月以降の更新日まで追加料金なしで利用可能です。 この時点で、Microsoft Exploratory エクスペリエンス ライセンスのエンド ユーザーは、Teams を含む有料のライセンスに移行する必要があります。 その後に開始したすべての Microsoft Exploratory エクスペリエンス ライセンスは、次の契約日、または更新日まで追加料金なしで引き続き利用できます。 
+Microsoft Teams Exploratory エクスペリエンスは、次の**契約応当日**、または 2021 年 1 月以降の**更新日**まで追加料金なしで利用可能です。 この時点で、Microsoft Exploratory エクスペリエンス ライセンスのエンド ユーザーは、Teams を含む有料のライセンスに移行する必要があります。 その後に開始したすべての Microsoft Exploratory エクスペリエンス ライセンスは、次の**契約応当日**、または**更新日**まで追加料金なしで引き続き利用できます。 
 
 ### <a name="what-happens-if-an-end-user-initiates-the-microsoft-teams-exploratory-experience-just-before-my-anniversary-or-renewal-date"></a>エンド ユーザーが、Microsoft Teams Exploratory エクスペリエンスを契約日、または更新日の前に開始した場合は、どうなりますか?
 
-Microsoft Teams Exploratory エクスペリエンス ライセンスの開始が、エンタープライズ契約日、または更新日の 90 日以内であれば、次の契約日、更新日まで有料のライセンスに移行する必要はありません。 
+Microsoft Teams Exploratory エクスペリエンス ライセンスの開始が、**契約応当日**、または**更新日**の 90 日以内であれば、次の契約応当日、更新日まで有料のライセンスに移行する必要はありません。 

@@ -58,7 +58,7 @@
 ### [Teams 用アプリを管理する](manage-apps.md)
 ### [Teams でのアプリの管理設定](admin-settings.md)
 ### [組み込みタブとカスタム タブの使用](built-in-custom-tabs.md)
-### [Office 365 コネクタとカスタム コネクタの使用](Office-365-custom-connectors.md)
+### [Microsoft 365 または Office 365 とカスタム コネクタを使用する](Office-365-custom-connectors.md)
 ### [基幹業務アプリを管理する](manage-your-lob-apps.md)
 ### [アプリ証明書](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Teams 用のアプリ テンプレート](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -143,10 +143,10 @@
 ## 電話会議
 ### [展開の計画](deploy-audio-conferencing-teams-landing-page.md)
 
-### [Office 365 における電話会議](audio-conferencing-in-office-365.md)
+### [Microsoft 365 での電話会議](audio-conferencing-in-office-365.md)
 ### [電話会議に関するよくある質問](audio-conferencing-common-questions.md)
 ### [チュートリアル: Teams での電話会議](Tutorial-Audio-Conferencing.yml)
-### [Office 365 での電話会議を試用または購入する](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
+### [Microsoft 365 での電話会議を試用または購入する](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
 ### [電話会議の無料ダイヤル アウト期間](complimentary-dial-out-period.md)
 ### [電話会議の月額プラン「ダイヤル アウト」/「折り返し先」のメリット](audio-conferencing-subscription-dial-out.md)
 
@@ -717,7 +717,7 @@
 ### [Teams のネットワーク プランナーを使用する](network-planner.md)
 ### [ネットワーク プランナーのチュートリアル](tutorial-network-planner-example.yml)
 ### [Teams または Skype for Business Online 向けのプロキシ サーバー](proxy-servers-for-skype-for-business-online.md)
-### [Teams でチームを作成するときの Office 365 グループの計画](plan-office-365-groups.md)
+### [Teams でチームを作成するときの Microsoft 365 グループの計画](plan-office-365-groups.md)
 ### [Teams でのライフサイクル管理を計画する](plan-teams-lifecycle.md)
 ### [Teams でのガバナンスを計画する](plan-teams-governance.md)
 ### [ネットワーク テスト コンパニオンを使用する](use-network-testing-companion.md)
@@ -730,7 +730,7 @@
 ### [MSI を使用した Teams のインストール](msi-deployment.md)
 ### [組織で Teams を有効にする](Office-365-set-up.md)
 ### [Microsoft Teams のメモリ使用方法](teams-memory-usage-perf.md)
-### [Office 365 の URL と IP アドレスの範囲](office-365-urls-ip-address-ranges.md)
+### [Microsoft 365 と Office 365 の URL と IP アドレスの範囲](office-365-urls-ip-address-ranges.md)
 ### [仮想デスクトップ インフラストラクチャ (VDI) 用の Teams](teams-for-vdi.md)
 ### [Surface Hub の Teams を展開する](teams-surface-hub.md)
 ### [Teams クライアントの更新プログラム](teams-client-update.md)
@@ -738,12 +738,12 @@
 
 ## ライセンス
 ### [Teams へのユーザー アクセスを管理する](user-access.md)
-### [Teams の Office 365 ライセンス](office-365-licensing.md)
+### [Teams の Microsoft 365 と Office 365 ライセンス](office-365-licensing.md)
 ### [Teams のライセンスを割り当てる](assign-teams-licenses.md)
 ### [Teams アドオンのライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 #### プランに基づいたライセンスオプション
-##### [Office 365 Business Premium](teams-add-on-licensing/office-365-business-premium.md)
-##### [Office 365 ProPlus](teams-add-on-licensing/office-365-premium-pro-plus.md)
+##### [Microsoft 365 Business Standard](teams-add-on-licensing/office-365-business-premium.md)
+##### [Microsoft 365 Apps for enterprise](teams-add-on-licensing/office-365-premium-pro-plus.md)
 ##### [Office 365 Enterprise E1 および E3](teams-add-on-licensing/office-365-enterprise-e1-e3.md)
 ##### [Office 365 Enterprise E5](teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing.md)
 ##### [Office 365 Enterprise E5 (電話会議なし)](teams-add-on-licensing/office-365-enterprise-e5-without-audio-conferencing.md)
@@ -753,20 +753,20 @@
 ### [Teams の商用試用版サービスの管理](iw-trial-teams.md)
 ### [Teams の調査エクスペリエンスを管理する](teams-exploratory.md)
 ### [Teams の無料版を管理する](manage-freemium.md)
-### [Teams を無料で Office 365 月額プラン バージョンにアップグレードする](upgrade-freemium.md)
+### [Teams を無料で月額プラン バージョンにアップグレードする](upgrade-freemium.md)
 ### [メッセージング ポリシーのライセンス](teams-add-on-licensing/pri-message.md)
 ### [仮想ユーザー ライセンス](teams-add-on-licensing/virtual-user.md)
 
 
-## Office 365 との相互運用性
+## Microsoft 365 や Office 365 との相互運用性
 
-### [Office 365 グループと Teams](office-365-groups.md)
-### [既存の Office 365 グループを Teams で強化する](enhance-office-365-groups.md)
+### [Microsoft 365 グループと Teams](office-365-groups.md)
+### [既存の Microsoft 365 グループを Teams で強化する](enhance-office-365-groups.md)
 ### [Exchange と Teams の連携](exchange-teams-interact.md)
 #### [Teams で使用する Exchange ハイブリッド展開の組織を構成する](exchange-hybrid-organization.md)
 #### [Teams SMTP ドメインを承認済みドメインとして Exchange Online に追加する](smtp-accepted-domain.md)
 ### [Teams との SharePoint Online と OneDrive for Business の連携](sharepoint-onedrive-interact.md)
-### [Office 365 複数地域対応テナントでの Teams のエクスペリエンス](teams-experience-o365odb-spo-multi-geo.md)
+### [Microsoft 365 または Office 365 複数地域対応テナントでの Teams のエクスペリエンス](teams-experience-o365odb-spo-multi-geo.md)
 
 
 ## サポート対象のデバイス
@@ -899,6 +899,6 @@
 ## アクセシビリティと適合性
 ### [フランスでの Microsoft Teams のアクセシビリティに関する適合宣言](accessibility-declaration-of-conformance-in-france-for-teams.md)
 ### [Skype for Business Online および Microsoft Teams のアクセシビリティ ソリューション](accessibility-solutions-in-france.md)
-### [Office 365 の通話プラン: 英国での実施基準](code-of-practice-for-the-united-kingdom-u-k.md)
-### [Office 365 の通話プラン: 英国での苦情処理基準](complaint-handling-code-for-the-united-kingdom-u-k.md)
+### [Microsoft 365 の通話プラン: 英国での実施基準](code-of-practice-for-the-united-kingdom-u-k.md)
+### [Microsoft 365 の通話プラン: 英国での苦情処理基準](complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### [緊急通話の利用条件](emergency-calling-terms-and-conditions.md)

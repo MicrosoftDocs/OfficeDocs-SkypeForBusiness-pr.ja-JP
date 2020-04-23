@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Microsoft 365 Business Voice の概要と、中小企業がより効果的にコミュニケーションを行えるようにする方法。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ecce1626a541c14c7175390c086acfa5eb0262f2
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: bffce01704402aac8fea90aee92d6bd854c5874f
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096872"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780796"
 ---
 # <a name="what-is-microsoft-365-business-voice"></a>Microsoft 365 Business Voice とは
 
@@ -32,8 +32,8 @@ Business Voice は、Microsoft 365 電話システムの機能を 1 つの管理
 
 組織の人数が 300 人以下で、次の Microsoft 365 サブスクリプションのいずれかを利用している場合は、Business Voice が最適です。
 
-* Office 365 Business Essentials
-* Office 365 Business Premium
+* Microsoft 365 Business Basic
+* Microsoft 365 Business Standard
 * Office 365 E1
 * Office 365 E3
 * Office 365 F1
