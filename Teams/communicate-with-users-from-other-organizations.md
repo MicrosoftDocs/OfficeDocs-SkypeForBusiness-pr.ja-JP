@@ -17,12 +17,12 @@ description: 外部アクセス (フェデレーション) とゲスト アク�
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: f7a18390841c6a62488c060b4279110a61dffb23
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: fb22aeaef31d04a9d359bc43742c85b72bf12c97
+ms.sourcegitcommit: 6fbaab29076e16fe18f8faeb7e012a0815c2369d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824925"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43785930"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>Microsoft Teams の別の組織のユーザーと通信する
 ======================================================
@@ -72,7 +72,8 @@ Teams では既定で外部アクセスが有効になっています。つま�
 | 不在時のメッセージが表示される | いいえ | Yes |
 | 個々のユーザーをブロックできる | いいえ | はい |
 | @メンションがサポートされている | はい<sup>4</sup> | はい |
-| プライベート通話をする | はい | Yes |
+| プライベート通話をする | はい | はい |
+| ダイヤルイン会議の参加者の電話番号を表示する | いいえ | はい |
 | IP ビデオを許可する | Yes | はい |
 | 画面共有モード | はい<sup>4</sup> | はい |
 | 今すぐ会議を許可する | いいえ | はい |
