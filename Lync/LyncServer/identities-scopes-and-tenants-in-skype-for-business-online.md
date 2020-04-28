@@ -12,12 +12,12 @@ ms:contentKeyID: 56558817
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e6c6f0c08d03cd746f5929f6a7f1d82373a527a4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 598f1cb760a6b4ca969c1e8df25f9735fd0df7c1
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180294"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918565"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -89,7 +89,7 @@ Skype for Business Online を管理するために使用されている Windows 
 
 ご覧のとおり、Ken Myer はパブリック IM プロバイダーと通信することができます。 これは、ユーザーごとに割り当てられたポリシーの設定がグローバルポリシーの設定より優先されるためです。 Pilar Ackerman はパブリック IM プロバイダーと通信できません。 これは、グローバルポリシーによって管理されているため、グローバルポリシーによってそのような通信が禁止されるためです。
 
-Office 365 サポートによって、ユーザーごとのポリシーを作成する必要があります。 ポリシーが作成されたら、適切な**付与**されたコマンドレット (たとえば、 [get-csexternalaccesspolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy)) を使用して、ポリシーをユーザーに割り当てることができます。 ポリシーの Id は常にタグ**プレフィックス**で始まるため、ユーザーごとのポリシーは簡単に識別できます。 次に例を示します。
+Microsoft サポートによって、ユーザーごとのポリシーを作成する必要があります。 ポリシーが作成されたら、適切な**付与**されたコマンドレット (たとえば、 [get-csexternalaccesspolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy)) を使用して、ポリシーをユーザーに割り当てることができます。 ポリシーの Id は常にタグ**プレフィックス**で始まるため、ユーザーごとのポリシーは簡単に識別できます。 例:
 
     Identity : tag:AllowPublicIMCommunication
 
