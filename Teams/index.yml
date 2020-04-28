@@ -4,7 +4,7 @@ summary: チームを展開して管理する方法と、チームのユーザ�
 brand: teams
 metadata:
   title: Microsoft Teams の管理者向けドキュメント
-  description: チームを展開して管理する方法と、チームのユーザーを準備する方法について説明します。
+  description: チームを展開して管理する方法や、チームのユーザーを準備する方法など、Microsoft Teams の管理者向けドキュメントについて説明します。
   ms.service: msteams
   ms.topic: hub-page
   audience: ITPro
@@ -12,12 +12,13 @@ metadata:
   ms.author: samanro
   ms.date: 02/12/2020
   localization_priority: Priority
-  ms.openlocfilehash: e3c67ada87cdee958fbb76c4862e01b1ced7901a
-  ms.sourcegitcommit: 1bb3df681177db5ecc6afae3d3f3a46c251e5c23
+  ms.custom: seo-marvel-apr2020
+  ms.openlocfilehash: 77c0310989bb8b6cb649afd4fa24c6f6bd641a18
+  ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
   ms.translationtype: MT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 04/02/2020
-  ms.locfileid: "43117535"
+  ms.lasthandoff: 04/27/2020
+  ms.locfileid: "43905479"
 highlightedContent:
   items:
   - title: COVID-19 応答-Teams を使ったリモートワーカーのサポート
@@ -55,7 +56,7 @@ additionalContent:
         url: /MicrosoftTeams/teams-architecture-solutions-posters
     - title: Teams での音声通話
       links:
-      - text: Microsoft Teams での Cloud Voice
+      - text: Microsoft Teams でのクラウド ボイス
         url: /MicrosoftTeams/cloud-voice-landing-page
       - text: Microsoft 365 企業向け音声
         url: /MicrosoftTeams/business-voice/whats-business-voice

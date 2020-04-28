@@ -1,8 +1,9 @@
 ### YamlMime:Tutorial
 title: 'チュートリアル: 電話会議-Microsoft Teams'
 metadata:
-  title: 'チュートリアル: Microsoft Teams の電話会議の概要'
-  description: 対話型チュートリアルでは、Microsoft Teams の電話会議について説明します。
+  title: Microsoft Teams での電話会議
+  description: この対話形式のチュートリアルを使用して、Microsoft Teams の電話会議の要件、計画手順、および報告について学習します。
+  ms.custom: seo-marvel-mar2020
   audience: IT Pro
   level: Intermediate
   displayType: one-column
@@ -19,13 +20,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.custom: seo-marvel-mar2020
-  ms.openlocfilehash: b0a89ea28a8a54036dab6b2b97874182d5c2252b
-  ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+  ms.openlocfilehash: 28e1cf02f9f25bded8f0e28f5d82fc18065f6f52
+  ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
   ms.translationtype: MT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 04/22/2020
-  ms.locfileid: "43780296"
+  ms.lasthandoff: 04/27/2020
+  ms.locfileid: "43904552"
 items:
 - durationInMinutes: 1
   content: >
@@ -87,7 +87,7 @@ items:
 - title: Drive 値
   durationInMinutes: 1
   content: "\nレポートの観点から見ると、次の2つの領域が表示されます。\n-   使用量: 開催されている会議の数について\n-   品質: 会議の品質について\n\nこれらの両方の領域について注意して監視する必要があります。\n-   使用量が低いことは、ユーザーが何らかの理由によりこの製品を使用していないことを意味します。 理由を確認するには、さらに調査します。\n    理由として考えられるのは、会議がユーザーの要件を満たしていないと認知されていることや、啓発不足やトレーニング不足、または品質の問題などです。\n-   低品質は、一方で、ユーザーと Office 365 との間の接続に問題があることを意味します。 低品質により、ユーザー エクスペリエンスの悪化と低使用量につながる可能性があります。 利用状況レポートについて詳しくは[、「管理センターでの 365 Microsoft Teams ユーザーアクティビティ](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)(推定読み取り時間5分)」を参照してください。\n\n品質の管理については、このトレーニングの対象範囲外ですが、次のトレーニング資料をご覧ください。\n\n-   [サービスを運用する](https://docs.microsoft.com/MicrosoftTeams/1-drive-value-operate-my-service)\n"
-- title: 次の手順
+- title: 次のステップ
   durationInMinutes: 1
   content: >-
     このトレーニングでは次の重要な学習事項を取り上げています。
