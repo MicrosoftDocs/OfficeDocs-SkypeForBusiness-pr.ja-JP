@@ -1,6 +1,6 @@
 ---
-title: 教育用 Teams
-description: 教育機関向け Teams を使用して、共同作業用教室の作成、プロフェッショナルな学習コミュニティへの接続、学生と教師とのコミュニケーションを行います。
+title: 教育機関用 Teams
+description: 学校または組織でのチームの展開、採用、管理を成功させるために利用できる管理リソースについて説明します。
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
@@ -15,15 +15,15 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1a5948a8702a9759a7ed523b035856f4cacd45b4
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: d2ca8d15e25636da12bc48e14bd46dfae68ba1f6
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136857"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905709"
 ---
-# <a name="teams-for-education"></a>教育用 Teams
+# <a name="teams-for-education"></a>教育機関用 Teams
 
 Teams では、教師と教職員はコラボレーション用の教室を作成し、専門的な学習コミュニティに接続し、学生や教師とコミュニケーションを取ることができます。 ここで管理リソースを使用して、学校または組織のチームの展開、採用、管理を成功させることができます。 
 

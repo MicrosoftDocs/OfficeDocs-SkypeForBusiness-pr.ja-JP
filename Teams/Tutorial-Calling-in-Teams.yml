@@ -2,7 +2,8 @@
 title: Microsoft Teams での通話について理解する
 metadata:
   title: Microsoft Teams での通話について理解する
-  description: 対話型のチュートリアルで、Microsoft Teams での通話機能を理解して有効化する手順全体が説明されます。
+  description: この対話式チュートリアルを使用して、Microsoft Teams での通話と、通話機能をアクティブ化する方法について説明します。
+  ms.custom: seo-marvel-apr2020
   audience: IT Pro
   level: Intermediate
   displayType: one-column
@@ -16,12 +17,12 @@ metadata:
   - M365-voice
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 3f5e7c29ee676fa0b9defa907524c60b45a34fe9
-  ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+  ms.openlocfilehash: 3df03c8d388cc03f60c2fc6d50847e6330d30bb6
+  ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
   ms.translationtype: MT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 04/22/2020
-  ms.locfileid: "43778513"
+  ms.lasthandoff: 04/27/2020
+  ms.locfileid: "43902392"
 items:
 - durationInMinutes: 1
   content: >

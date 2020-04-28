@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams を導入する
 ms.reviewer: karuanag
-description: 以下の導入リソースを使用して、組織内での Microsoft Teams の計画と展開を支援します。
+description: 組織で Microsoft Teams を計画して展開するために利用できる導入リソースについて説明します。
 ms.topic: landing-page
 author: kenwith
 ms.author: kenwith
@@ -12,6 +12,7 @@ audience: admin
 ms.service: msteams
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.adoption
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
@@ -20,12 +21,12 @@ f1.keywords:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ac8e69afaab1d9055bb2513704ec50cc8790592
-ms.sourcegitcommit: 5606f908c6efeb67713f5986b1d8575a896bb5bd
+ms.openlocfilehash: 5224fabff542051438bc523388b96ecf93f7af9a
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43506838"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905919"
 ---
 # <a name="adopt-microsoft-teams"></a>Microsoft Teams を導入する
 

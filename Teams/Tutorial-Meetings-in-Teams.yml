@@ -2,7 +2,8 @@
 title: Microsoft Teams での会議
 metadata:
   title: Microsoft Teams での会議
-  description: 対話型のチュートリアルで、Microsoft Teams での会議の手順全体が説明されます。
+  description: この対話形式のチュートリアルを使用して、Microsoft Teams での会議の種類、計画の手順、レポートの報告について学習します。
+  ms.custom: seo-marvel-apr2020
   audience: IT Pro
   level: Intermediate
   displayType: one-column
@@ -19,12 +20,12 @@ metadata:
   - Teams_ITAdmin_RemoteWorkers
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: cbf9b344b9bded2ca98741a743b84a6b7481f95d
-  ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+  ms.openlocfilehash: 57fcdcb5fa4fc20f50e1c25e9797128dbcd7fdb6
+  ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
   ms.translationtype: MT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 04/22/2020
-  ms.locfileid: "43778503"
+  ms.lasthandoff: 04/27/2020
+  ms.locfileid: "43902382"
 items:
 - durationInMinutes: 1
   content: >
@@ -88,7 +89,7 @@ items:
 - title: レポート
   durationInMinutes: 2
   content: "\nレポートにおいて、確認するべき領域は次の 2 つです。\n-   使用量: 開催されている会議の数について\n-   品質: 会議の品質について\n\nこれらの両方の領域について注意して監視する必要があります。\n-   使用量が低いことは、ユーザーが何らかの理由によりこの製品を使用していないことを意味します。 できることは、次の追加的な調査を実施して、理由を特定することのみです。 理由として考えられるのは、会議がユーザーの要件を満たしていないと認知されていることや、啓発不足やトレーニング不足、または品質の問題などです。\n-   低品質は、一方で、ユーザーと Office 365 との間の接続に問題があることを意味します。 低品質により、ユーザー エクスペリエンスの悪化と低使用量につながる可能性があります。\n    利用状況レポートについて詳しくは[、「管理センターでの 365 Microsoft Teams ユーザーアクティビティ](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)(推定読み取り時間5分)」を参照してください。\n\n品質の管理については、このトレーニングの対象範囲外ですが、次のトレーニング資料をご覧ください。\n\n-   品質チャンピオンの役割については、「[品質チャンピオンの役割](https://docs.microsoft.com/microsoftteams/prepare-network)」をご覧ください。\n-   通話品質ダッシュボードの詳細については、「[Investigate Media Quality using CQD (CQD を使用してメディア品質を調査する)](https://aka.ms/sof-cqd)」をご覧ください。\n"
-- title: 次の手順
+- title: 次のステップ
   durationInMinutes: 1
   content: >-
     このトレーニングでは次の重要な学習事項を取り上げています。

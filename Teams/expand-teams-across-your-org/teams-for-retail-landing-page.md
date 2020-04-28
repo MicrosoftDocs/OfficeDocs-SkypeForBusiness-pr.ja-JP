@@ -1,6 +1,6 @@
 ---
 title: 小売店向けの Teams
-description: これらのリソースを使用して、小売組織のチームを管理します。
+description: 小売店や従業員向けのチームを管理し、チームを最大限に活用できるようにするための管理者リソースについて説明します。
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
@@ -16,12 +16,13 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d350812598737215521db8e675fb884336c7ee37
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 5d1db862ce796ab64b96df0c36de6931cc6fe0a5
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008109"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905689"
 ---
 # <a name="teams-for-retail"></a>小売店向けの Teams
 
